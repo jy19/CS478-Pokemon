@@ -26,7 +26,7 @@ def main():
     players[args.player] = PessimisticMinimaxAgent(2, pokedata, log_file="normal.txt")
     # players[1 - args.player] = PessimisticMinimaxAgent(2, pokedata, log_file="no_cache.txt", use_cache=False)
     players[1 - args.player] = DumbAgent()
-    
+
     with open(args.team1) as f1, open(args.team2) as f2, open("data/poke2.json") as f3:
         data = json.loads(f3.read())
         poke_dict = Smogon.convert_to_dict(data)
