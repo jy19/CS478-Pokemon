@@ -1,0 +1,202 @@
+﻿|join|andrewandres
+|join|There's only 151
+|player|p1|andrewandres|2
+|player|p2|There's only 151|156
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Haunter|Haunter, L85|250\/250
+|switch|p2a: Cloyster|Cloyster, L83|253\/253
+|turn|1
+|
+|move|p1a: Haunter|Hypnosis|p2a: Cloyster
+|-status|p2a: Cloyster|slp
+|cant|p2a: Cloyster|slp
+|
+|turn|2
+|
+|switch|p2a: Rapidash|Rapidash, L90|300\/300
+|move|p1a: Haunter|Mega Drain|p2a: Rapidash
+|-resisted|p2a: Rapidash
+|-damage|p2a: Rapidash|285\/300
+|
+|turn|3
+|
+|switch|p1a: Graveler|Graveler, L85|267\/267
+|move|p2a: Rapidash|Toxic|p1a: Graveler
+|-status|p1a: Graveler|tox
+|
+|turn|4
+|
+|switch|p2a: Mew|Mew, L74|300\/300
+|move|p1a: Graveler|Rock Slide|p2a: Mew
+|-damage|p2a: Mew|214\/300
+|-damage|p1a: Graveler|251\/267 tox|[from] tox|[of] p2a: Mew
+|
+|turn|5
+|
+|move|p2a: Mew|Blizzard|p1a: Graveler
+|-supereffective|p1a: Graveler
+|-damage|p1a: Graveler|48\/267 tox
+|move|p1a: Graveler|Explosion|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|faint|p1a: Graveler
+|
+|switch|p2a: Rapidash|Rapidash, L90|285\/300
+|switch|p1a: Mew|Mew, L74|300\/300
+|turn|6
+|
+|move|p2a: Rapidash|Toxic|p1a: Mew
+|-status|p1a: Mew|tox
+|move|p1a: Mew|Thunder Wave|p2a: Rapidash
+|-status|p2a: Rapidash|par
+|-damage|p1a: Mew|282\/300 tox|[from] tox|[of] p2a: Rapidash
+|
+|turn|7
+|
+|move|p1a: Mew|Swords Dance|p1a: Mew
+|-boost|p1a: Mew|atk|2
+|-damage|p1a: Mew|246\/300 tox|[from] psn
+|move|p2a: Rapidash|Fire Blast|p1a: Mew
+|-damage|p1a: Mew|111\/300 tox
+|
+|turn|8
+|
+|switch|p2a: Metapod|Metapod, L99|300\/300
+|move|p1a: Mew|Earthquake|p2a: Metapod
+|-resisted|p2a: Metapod
+|-damage|p2a: Metapod|238\/300
+|-damage|p1a: Mew|57\/300 tox|[from] tox|[of] p2a: Metapod
+|
+|turn|9
+|
+|move|p1a: Mew|Blizzard|p2a: Metapod
+|-damage|p2a: Metapod|129\/300
+|-damage|p1a: Mew|0 fnt|[from] tox|[of] p2a: Metapod
+|faint|p1a: Mew
+|
+|switch|p1a: Magnemite|Magnemite, L96|243\/243
+|turn|10
+|
+|move|p1a: Magnemite|Thunderbolt|p2a: Metapod
+|-damage|p2a: Metapod|0 fnt
+|faint|p2a: Metapod
+|
+|switch|p2a: Ekans|Ekans, L96|262\/262
+|turn|11
+|
+|switch|p1a: Parasect|Parasect, L90|291\/291
+|move|p2a: Ekans|Earthquake|p1a: Parasect
+|-resisted|p1a: Parasect
+|-damage|p1a: Parasect|274\/291
+|
+|turn|12
+|
+|move|p2a: Ekans|Rock Slide|p1a: Parasect
+|-supereffective|p1a: Parasect
+|-damage|p1a: Parasect|172\/291
+|move|p1a: Parasect|Stun Spore|p2a: Ekans
+|-status|p2a: Ekans|par
+|
+|turn|13
+|
+|move|p1a: Parasect|Body Slam|p2a: Ekans
+|-damage|p2a: Ekans|173\/262 par
+|cant|p2a: Ekans|par
+|
+|turn|14
+|
+|move|p1a: Parasect|Body Slam|p2a: Ekans
+|-damage|p2a: Ekans|88\/262 par
+|move|p2a: Ekans|Rock Slide|p1a: Parasect
+|-supereffective|p1a: Parasect
+|-damage|p1a: Parasect|66\/291
+|
+|turn|15
+|
+|move|p1a: Parasect|Hyper Beam|p2a: Ekans
+|-damage|p2a: Ekans|0 fnt
+|faint|p2a: Ekans
+|
+|switch|p2a: Rapidash|Rapidash, L90|285\/300 par
+|turn|16
+|
+|move|p1a: Parasect|Hyper Beam|p2a: Rapidash
+|-damage|p2a: Rapidash|161\/300 par
+|move|p2a: Rapidash|Fire Blast|p1a: Parasect|[miss]
+|-miss|p2a: Rapidash
+|
+|turn|17
+|-mustrecharge|p1a: Parasect
+|-mustrecharge|p1a: Parasect
+|
+|cant|p1a: Parasect|recharge
+|move|p2a: Rapidash|Fire Blast|p1a: Parasect|[miss]
+|-miss|p2a: Rapidash
+|
+|turn|18
+|
+|move|p1a: Parasect|Body Slam|p2a: Rapidash
+|-damage|p2a: Rapidash|90\/300 par
+|move|p2a: Rapidash|Fire Blast|p1a: Parasect
+|-supereffective|p1a: Parasect
+|-damage|p1a: Parasect|0 fnt
+|faint|p1a: Parasect
+|
+|switch|p1a: Magnemite|Magnemite, L96|243\/243
+|turn|19
+|
+|move|p1a: Magnemite|Thunderbolt|p2a: Rapidash
+|-damage|p2a: Rapidash|0 fnt
+|faint|p2a: Rapidash
+|
+|switch|p2a: Lickitung|Lickitung, L90|345\/345
+|turn|20
+|
+|switch|p1a: Jynx|Jynx, L79|265\/265
+|move|p2a: Lickitung|Swords Dance|p2a: Lickitung
+|-boost|p2a: Lickitung|atk|2
+|
+|turn|21
+|
+|move|p1a: Jynx|Psychic|p2a: Lickitung
+|-damage|p2a: Lickitung|255\/345
+|move|p2a: Lickitung|Hyper Beam|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|
+|switch|p1a: Haunter|Haunter, L85|250\/250
+|turn|22
+|
+|move|p1a: Haunter|Explosion|p2a: Lickitung
+|-crit|p2a: Lickitung
+|-damage|p2a: Lickitung|0 fnt
+|faint|p2a: Lickitung
+|faint|p1a: Haunter
+|
+|switch|p2a: Cloyster|Cloyster, L83|253\/253 slp
+|switch|p1a: Magnemite|Magnemite, L96|243\/243
+|turn|23
+|
+|cant|p2a: Cloyster|slp
+|move|p1a: Magnemite|Thunderbolt|p2a: Cloyster
+|-supereffective|p2a: Cloyster
+|-damage|p2a: Cloyster|4\/253 slp
+|
+|turn|24
+|
+|-curestatus|p2a: Cloyster|slp
+|move|p1a: Magnemite|Double-Edge|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|-damage|p1a: Magnemite|242\/243|[from] recoil|[of] p2a: Cloyster
+|faint|p2a: Cloyster
+|
+|win|andrewandres
+|raw|Ladder updating...

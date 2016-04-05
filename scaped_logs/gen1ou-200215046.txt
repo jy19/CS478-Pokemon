@@ -1,0 +1,340 @@
+﻿|join|TSV3CTOR
+|join|jb champ
+|player|p1|TSV3CTOR|101
+|player|p2|jb champ|1
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Electrode|Electrode|323\/323
+|switch|p2a: Jynx|Jynx|333\/333
+|turn|1
+|c|★TSV3CTOR|gl hf
+|c|★TSV3CTOR|hmmm
+|c|★jb champ|gl hf
+|c|★TSV3CTOR|you too
+|
+|move|p1a: Electrode|Explosion|p2a: Jynx
+|-crit|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|faint|p1a: Electrode
+|c|★jb champ|haha
+|c|★TSV3CTOR|I debated.
+|c|★jb champ|fair enough ;)
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|switch|p1a: Lapras|Lapras|463\/463
+|turn|2
+|
+|move|p2a: Gengar|Hypnosis|p1a: Lapras|[miss]
+|-miss|p2a: Gengar
+|move|p1a: Lapras|Blizzard|p2a: Gengar
+|-damage|p2a: Gengar|210\/323
+|-status|p2a: Gengar|frz
+|
+|turn|3
+|c|★jb champ|cool
+|join|clay davis
+|c|★jb champ|^^
+|c|★TSV3CTOR|sorry
+|c|★jb champ|no prob
+|c|★jb champ|its not your fault now is it?
+|
+|switch|p2a: Blastoise|Blastoise|361\/361
+|switch|p1a: Snorlax|Snorlax|523\/523
+|
+|turn|4
+|c|★TSV3CTOR|if its too haxxy I'll rematch
+|join|kloshitt
+|
+|move|p2a: Blastoise|Hydro Pump|p1a: Snorlax
+|-damage|p1a: Snorlax|352\/523
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|
+|turn|5
+|join|deluks917 gen5
+|
+|switch|p2a: Hitmonlee|Hitmonlee|303\/303
+|move|p1a: Snorlax|Thunderbolt|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|112\/303
+|
+|turn|6
+|leave|deluks917 gen5
+|
+|switch|p1a: Hypno|Hypno|373\/373
+|move|p2a: Hitmonlee|High Jump Kick|p1a: Hypno
+|-resisted|p1a: Hypno
+|-damage|p1a: Hypno|306\/373
+|
+|turn|7
+|c| kloshitt|damn gen 1 rocks
+|c|★jb champ|i probably wont have time for a rematch
+|
+|move|p2a: Hitmonlee|Body Slam|p1a: Hypno
+|-damage|p1a: Hypno|216\/373
+|move|p1a: Hypno|Psychic|p2a: Hitmonlee
+|-supereffective|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|0 fnt
+|faint|p2a: Hitmonlee
+|
+|switch|p2a: Jolteon|Jolteon|333\/333
+|
+|turn|8
+|
+|move|p2a: Jolteon|Thunder|p1a: Hypno
+|-damage|p1a: Hypno|75\/373
+|move|p1a: Hypno|Thunder Wave|p2a: Jolteon
+|-status|p2a: Jolteon|par
+|
+|turn|9
+|
+|switch|p1a: Nidoking|Nidoking|365\/365
+|move|p2a: Jolteon|Thunderbolt|p1a: Nidoking
+|-immune|p1a: Nidoking|[msg]
+|
+|turn|10
+|
+|switch|p2a: Gengar|Gengar|210\/323 frz
+|move|p1a: Nidoking|Ice Beam|p2a: Gengar
+|-damage|p2a: Gengar|161\/323 frz
+|
+|turn|11
+|
+|switch|p1a: Snorlax|Snorlax|352\/523
+|cant|p2a: Gengar|frz
+|
+|turn|12
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|
+|turn|13
+|
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|229\/523
+|move|p1a: Snorlax|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|249\/353
+|
+|turn|14
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|15\/523
+|move|p1a: Snorlax|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|139\/353
+|
+|turn|15
+|c|★TSV3CTOR|da,m
+|c|★jb champ|gg
+|
+|cant|p2a: Tauros|recharge
+|move|p1a: Snorlax|Thunderbolt|p2a: Tauros
+|-damage|p2a: Tauros|1\/353
+|
+|turn|16
+|c|★TSV3CTOR|LOL
+|c|★jb champ|sorry, i really would like a rematch, but i dont have the time
+|
+|switch|p1a: Hypno|Hypno|75\/373
+|move|p2a: Tauros|Body Slam|p1a: Hypno
+|-damage|p1a: Hypno|0 fnt
+|faint|p1a: Hypno
+|join|deluks917 gen5
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|
+|turn|17
+|c|★jb champ|why t bolt?
+|
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|c| kloshitt|it was +2 wasnt it?
+|c|★TSV3CTOR|YEAH :\/
+|
+|switch|p2a: Jolteon|Jolteon|333\/333 par
+|
+|turn|18
+|c|★TSV3CTOR|I must have gotten minimum
+|c|★jb champ|yeah alright
+|
+|switch|p1a: Snorlax|Snorlax|15\/523
+|switch|p2a: Blastoise|Blastoise|361\/361
+|
+|turn|19
+|c| kloshitt|there is no spa in gen 1 only a special(spdef+spa)
+|c| kloshitt|or?
+|
+|switch|p1a: Lapras|Lapras|463\/463
+|move|p2a: Blastoise|Body Slam|p1a: Lapras
+|-damage|p1a: Lapras|390\/463
+|-status|p1a: Lapras|par
+|
+|turn|20
+|c|★TSV3CTOR|yup
+|c| kloshitt|kk
+|
+|switch|p2a: Gengar|Gengar|161\/323 frz
+|move|p1a: Lapras|Body Slam|p2a: Gengar
+|-immune|p2a: Gengar|[msg]
+|
+|turn|21
+|
+|switch|p2a: Blastoise|Blastoise|361\/361
+|switch|p1a: Snorlax|Snorlax|15\/523
+|
+|turn|22
+|c|★TSV3CTOR|nice ncie
+|
+|switch|p1a: Lapras|Lapras|390\/463 par
+|move|p2a: Blastoise|Earthquake|p1a: Lapras
+|-damage|p1a: Lapras|315\/463 par
+|
+|turn|23
+|
+|switch|p2a: Jolteon|Jolteon|333\/333 par
+|move|p1a: Lapras|Body Slam|p2a: Jolteon
+|-damage|p2a: Jolteon|245\/333 par
+|
+|turn|24
+|
+|switch|p2a: Blastoise|Blastoise|361\/361
+|switch|p1a: Nidoking|Nidoking|365\/365
+|
+|turn|25
+|
+|switch|p1a: Lapras|Lapras|315\/463 par
+|move|p2a: Blastoise|Earthquake|p1a: Lapras
+|-damage|p1a: Lapras|238\/463 par
+|
+|turn|26
+|
+|move|p2a: Blastoise|Earthquake|p1a: Lapras
+|-damage|p1a: Lapras|154\/463 par
+|cant|p1a: Lapras|par
+|
+|turn|27
+|
+|move|p2a: Blastoise|Earthquake|p1a: Lapras
+|-crit|p1a: Lapras
+|-damage|p1a: Lapras|4\/463 par
+|move|p1a: Lapras|Confuse Ray|p2a: Blastoise
+|-start|p2a: Blastoise|confusion
+|
+|turn|28
+|c|★jb champ|come on blastoise
+|
+|-activate|p2a: Blastoise|confusion
+|-damage|p2a: Blastoise|330\/361|[from] confusion
+|cant|p1a: Lapras|par
+|
+|turn|29
+|
+|-activate|p2a: Blastoise|confusion
+|move|p2a: Blastoise|Earthquake|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|leave|deluks917 gen5
+|
+|switch|p1a: Snorlax|Snorlax|15\/523
+|
+|turn|30
+|
+|-activate|p2a: Blastoise|confusion
+|move|p2a: Blastoise|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|c|★TSV3CTOR|damn
+|c|★jb champ|now we are cooking
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|
+|turn|31
+|
+|switch|p2a: Gengar|Gengar|161\/323 frz
+|move|p1a: Tauros|Body Slam|p2a: Gengar
+|-immune|p2a: Gengar|[msg]
+|
+|turn|32
+|
+|cant|p2a: Gengar|frz
+|move|p1a: Tauros|Body Slam|p2a: Gengar
+|-immune|p2a: Gengar|[msg]
+|
+|turn|33
+|
+|cant|p2a: Gengar|frz
+|move|p1a: Tauros|Earthquake|p2a: Gengar
+|-crit|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|switch|p2a: Jolteon|Jolteon|245\/333 par
+|
+|turn|34
+|
+|switch|p1a: Nidoking|Nidoking|365\/365
+|switch|p2a: Blastoise|Blastoise|330\/361
+|
+|turn|35
+|
+|move|p1a: Nidoking|Thunderbolt|p2a: Blastoise
+|-supereffective|p2a: Blastoise
+|-damage|p2a: Blastoise|184\/361
+|move|p2a: Blastoise|Blizzard|p1a: Nidoking
+|-supereffective|p1a: Nidoking
+|-damage|p1a: Nidoking|158\/365
+|
+|turn|36
+|c|★TSV3CTOR|Stab?
+|c|★jb champ|nope
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|move|p2a: Blastoise|Blizzard|p1a: Tauros
+|-damage|p1a: Tauros|244\/353
+|
+|turn|37
+|c|★jb champ|very risky
+|c|★TSV3CTOR|as in why didnt you surf\/then blizzard
+|c|★jb champ|if i get the freeze its over
+|c|★TSV3CTOR|your trying to bait taur
+|c|★jb champ|because of the freeze
+|
+|switch|p2a: Jolteon|Jolteon|245\/333 par
+|move|p1a: Tauros|Body Slam|p2a: Jolteon
+|-damage|p2a: Jolteon|101\/333 par
+|
+|turn|38
+|c|★TSV3CTOR|unless I crit
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Jolteon
+|-crit|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|c|★jb champ|gg
+|c|★jb champ|but it was still pretty close
+|c|★TSV3CTOR|if you freeze.
+|
+|switch|p2a: Blastoise|Blastoise|184\/361
+|
+|turn|39
+|
+|move|p1a: Tauros|Body Slam|p2a: Blastoise
+|-crit|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|
+|win|TSV3CTOR

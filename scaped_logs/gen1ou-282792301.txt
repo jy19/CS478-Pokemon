@@ -1,0 +1,565 @@
+﻿|join|Abstrix
+|join|Tendoh
+|player|p1|Abstrix|8
+|player|p2|Tendoh|2
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gengar|Gengar|323\/323
+|switch|p2a: Luma|Starmie|323\/323
+|turn|1
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Luma|Blizzard|p1a: Chansey|[miss]
+|-miss|p2a: Luma
+|
+|turn|2
+|
+|switch|p2a: Whorey|Chansey|703\/703
+|move|p1a: Chansey|Seismic Toss|p2a: Whorey
+|-damage|p2a: Whorey|603\/703
+|
+|turn|3
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: Whorey|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|422\/523
+|
+|turn|4
+|
+|move|p2a: Whorey|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|329\/523
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|
+|turn|5
+|
+|switch|p2a: Digitamamon|Exeggutor|393\/393
+|move|p1a: Snorlax|Ice Beam|p2a: Digitamamon
+|-supereffective|p2a: Digitamamon
+|-damage|p2a: Digitamamon|193\/393
+|
+|turn|6
+|
+|switch|p1a: Rhydon|Rhydon|413\/413
+|move|p2a: Digitamamon|Sleep Powder|p1a: Rhydon|[miss]
+|-miss|p2a: Digitamamon
+|
+|turn|7
+|
+|move|p2a: Digitamamon|Psychic|p1a: Rhydon
+|-damage|p1a: Rhydon|207\/413
+|-unboost|p1a: Rhydon|spd|1
+|-unboost|p1a: Rhydon|spa|1
+|move|p1a: Rhydon|Rock Slide|p2a: Digitamamon
+|-damage|p2a: Digitamamon|85\/393
+|
+|turn|8
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|move|p2a: Digitamamon|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|263\/323
+|
+|turn|9
+|
+|switch|p2a: Whorey|Chansey|603\/703
+|move|p1a: Starmie|Ice Beam|p2a: Whorey
+|-damage|p2a: Whorey|534\/703
+|
+|turn|10
+|
+|switch|p1a: Snorlax|Snorlax|329\/523
+|move|p2a: Whorey|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|228\/523
+|
+|turn|11
+|
+|move|p2a: Whorey|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|132\/523
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|
+|turn|12
+|
+|move|p2a: Whorey|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|82\/523
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp
+|-heal|p1a: Snorlax|523\/523 slp|[silent]
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|
+|turn|13
+|
+|switch|p2a: Digitamamon|Exeggutor|85\/393
+|cant|p1a: Snorlax|slp
+|
+|turn|14
+|
+|switch|p1a: Gengar|Gengar|323\/323
+|move|p2a: Digitamamon|Psychic|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|114\/323
+|
+|turn|15
+|
+|move|p1a: Gengar|Explosion|p2a: Digitamamon
+|-damage|p2a: Digitamamon|0 fnt
+|faint|p2a: Digitamamon
+|faint|p1a: Gengar
+|
+|switch|p2a: Denver|Dragonite|385\/385
+|switch|p1a: Snorlax|Snorlax|523\/523 slp
+|turn|16
+|
+|move|p2a: Denver|Agility|p2a: Denver
+|-boost|p2a: Denver|spe|2
+|-curestatus|p1a: Snorlax|slp
+|
+|turn|17
+|
+|move|p2a: Denver|Wrap|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|487\/523
+|-activate|p1a: Snorlax|move: Wrap|[of] p2a: Denver
+|cant|p1a: Snorlax|partiallytrapped
+|
+|turn|18
+|
+|switch|p1a: Starmie|Starmie|263\/323
+|move|p2a: Denver|Wrap|p1a: Starmie
+|-damage|p1a: Starmie|245\/323
+|-activate|p1a: Starmie|move: Wrap|[of] p2a: Denver
+|
+|turn|19
+|
+|move|p2a: Denver|Wrap|p1a: Starmie
+|-damage|p1a: Starmie|227\/323
+|cant|p1a: Starmie|partiallytrapped
+|
+|turn|20
+|
+|move|p2a: Denver|Wrap|p1a: Starmie
+|-damage|p1a: Starmie|209\/323
+|cant|p1a: Starmie|partiallytrapped
+|
+|turn|21
+|
+|move|p2a: Denver|Wrap|p1a: Starmie
+|-damage|p1a: Starmie|191\/323
+|cant|p1a: Starmie|partiallytrapped
+|
+|-end|p1a: Starmie|Wrap|[partiallytrapped]
+|turn|22
+|
+|move|p2a: Denver|Wrap|p1a: Starmie
+|-damage|p1a: Starmie|175\/323
+|-activate|p1a: Starmie|move: Wrap|[of] p2a: Denver
+|cant|p1a: Starmie|partiallytrapped
+|
+|turn|23
+|
+|switch|p1a: Rhydon|Rhydon|207\/413
+|move|p2a: Denver|Wrap|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|201\/413
+|-activate|p1a: Rhydon|move: Wrap|[of] p2a: Denver
+|
+|turn|24
+|
+|switch|p1a: Snorlax|Snorlax|487\/523
+|move|p2a: Denver|Wrap|p1a: Snorlax|[miss]
+|-miss|p2a: Denver
+|
+|turn|25
+|
+|move|p2a: Denver|Wrap|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|452\/523
+|-activate|p1a: Snorlax|move: Wrap|[of] p2a: Denver
+|cant|p1a: Snorlax|partiallytrapped
+|
+|turn|26
+|
+|switch|p1a: Rhydon|Rhydon|201\/413
+|move|p2a: Denver|Wrap|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|195\/413
+|-activate|p1a: Rhydon|move: Wrap|[of] p2a: Denver
+|
+|turn|27
+|
+|switch|p1a: Snorlax|Snorlax|452\/523
+|move|p2a: Denver|Wrap|p1a: Snorlax
+|-damage|p1a: Snorlax|431\/523
+|-activate|p1a: Snorlax|move: Wrap|[of] p2a: Denver
+|
+|turn|28
+|
+|switch|p1a: Rhydon|Rhydon|195\/413
+|move|p2a: Denver|Wrap|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|189\/413
+|-activate|p1a: Rhydon|move: Wrap|[of] p2a: Denver
+|
+|turn|29
+|
+|switch|p1a: Snorlax|Snorlax|431\/523
+|move|p2a: Denver|Wrap|p1a: Snorlax
+|-damage|p1a: Snorlax|412\/523
+|-activate|p1a: Snorlax|move: Wrap|[of] p2a: Denver
+|
+|turn|30
+|
+|switch|p1a: Rhydon|Rhydon|189\/413
+|move|p2a: Denver|Wrap|p1a: Rhydon|[miss]
+|-miss|p2a: Denver
+|
+|turn|31
+|
+|switch|p1a: Snorlax|Snorlax|412\/523
+|move|p2a: Denver|Blizzard|p1a: Snorlax
+|-damage|p1a: Snorlax|289\/523
+|
+|turn|32
+|
+|move|p2a: Denver|Wrap|p1a: Snorlax
+|-damage|p1a: Snorlax|268\/523
+|-activate|p1a: Snorlax|move: Wrap|[of] p2a: Denver
+|cant|p1a: Snorlax|partiallytrapped
+|
+|turn|33
+|
+|switch|p1a: Rhydon|Rhydon|189\/413
+|move|p2a: Denver|Wrap|p1a: Rhydon|[miss]
+|-miss|p2a: Denver
+|
+|turn|34
+|
+|switch|p1a: Starmie|Starmie|175\/323
+|move|p2a: Denver|Blizzard|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|129\/323
+|
+|turn|35
+|
+|move|p2a: Denver|Wrap|p1a: Starmie
+|-damage|p1a: Starmie|111\/323
+|-activate|p1a: Starmie|move: Wrap|[of] p2a: Denver
+|cant|p1a: Starmie|partiallytrapped
+|
+|turn|36
+|
+|switch|p1a: Rhydon|Rhydon|189\/413
+|move|p2a: Denver|Wrap|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|183\/413
+|-activate|p1a: Rhydon|move: Wrap|[of] p2a: Denver
+|
+|turn|37
+|
+|switch|p1a: Snorlax|Snorlax|268\/523
+|move|p2a: Denver|Wrap|p1a: Snorlax|[miss]
+|-miss|p2a: Denver
+|
+|turn|38
+|
+|move|p2a: Denver|Wrap|p1a: Snorlax
+|-damage|p1a: Snorlax|250\/523
+|-activate|p1a: Snorlax|move: Wrap|[of] p2a: Denver
+|cant|p1a: Snorlax|partiallytrapped
+|
+|turn|39
+|
+|switch|p1a: Rhydon|Rhydon|183\/413
+|move|p2a: Denver|Wrap|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|177\/413
+|-activate|p1a: Rhydon|move: Wrap|[of] p2a: Denver
+|
+|turn|40
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Denver|Wrap|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|629\/703
+|-activate|p1a: Chansey|move: Wrap|[of] p2a: Denver
+|
+|turn|41
+|
+|switch|p1a: Rhydon|Rhydon|177\/413
+|move|p2a: Denver|Wrap|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|171\/413
+|-activate|p1a: Rhydon|move: Wrap|[of] p2a: Denver
+|
+|turn|42
+|
+|switch|p1a: Chansey|Chansey|629\/703
+|move|p2a: Denver|Wrap|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|549\/703
+|-activate|p1a: Chansey|move: Wrap|[of] p2a: Denver
+|
+|turn|43
+|
+|switch|p1a: Rhydon|Rhydon|171\/413
+|move|p2a: Denver|Wrap|p1a: Rhydon
+|-crit|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|159\/413
+|-activate|p1a: Rhydon|move: Wrap|[of] p2a: Denver
+|
+|turn|44
+|
+|switch|p1a: Chansey|Chansey|549\/703
+|move|p2a: Denver|Wrap|p1a: Chansey
+|-damage|p1a: Chansey|507\/703
+|-activate|p1a: Chansey|move: Wrap|[of] p2a: Denver
+|
+|turn|45
+|
+|switch|p1a: Rhydon|Rhydon|159\/413
+|move|p2a: Denver|Wrap|p1a: Rhydon
+|-crit|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|146\/413
+|-activate|p1a: Rhydon|move: Wrap|[of] p2a: Denver
+|
+|turn|46
+|
+|switch|p1a: Starmie|Starmie|111\/323
+|move|p2a: Denver|Wrap|p1a: Starmie
+|-damage|p1a: Starmie|95\/323
+|-activate|p1a: Starmie|move: Wrap|[of] p2a: Denver
+|
+|turn|47
+|
+|switch|p1a: Rhydon|Rhydon|146\/413
+|move|p2a: Denver|Wrap|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|141\/413
+|-activate|p1a: Rhydon|move: Wrap|[of] p2a: Denver
+|
+|turn|48
+|
+|switch|p1a: Snorlax|Snorlax|250\/523
+|move|p2a: Denver|Wrap|p1a: Snorlax|[miss]
+|-miss|p2a: Denver
+|
+|turn|49
+|
+|move|p2a: Denver|Wrap|p1a: Snorlax
+|-damage|p1a: Snorlax|231\/523
+|-activate|p1a: Snorlax|move: Wrap|[of] p2a: Denver
+|cant|p1a: Snorlax|partiallytrapped
+|
+|turn|50
+|
+|switch|p1a: Rhydon|Rhydon|141\/413
+|move|p2a: Denver|Wrap|p1a: Rhydon
+|-crit|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|129\/413
+|-activate|p1a: Rhydon|move: Wrap|[of] p2a: Denver
+|
+|turn|51
+|
+|switch|p1a: Chansey|Chansey|507\/703
+|move|p2a: Denver|Wrap|p1a: Chansey
+|-damage|p1a: Chansey|467\/703
+|-activate|p1a: Chansey|move: Wrap|[of] p2a: Denver
+|
+|turn|52
+|
+|switch|p1a: Snorlax|Snorlax|231\/523
+|move|p2a: Denver|Wrap|p1a: Snorlax
+|-damage|p1a: Snorlax|210\/523
+|-activate|p1a: Snorlax|move: Wrap|[of] p2a: Denver
+|
+|turn|53
+|
+|move|p2a: Denver|Wrap|p1a: Snorlax
+|-damage|p1a: Snorlax|189\/523
+|cant|p1a: Snorlax|partiallytrapped
+|
+|turn|54
+|
+|move|p2a: Denver|Wrap|p1a: Snorlax
+|-damage|p1a: Snorlax|168\/523
+|cant|p1a: Snorlax|partiallytrapped
+|
+|-end|p1a: Snorlax|Wrap|[partiallytrapped]
+|turn|55
+|
+|move|p2a: Denver|Wrap|p1a: Snorlax
+|-damage|p1a: Snorlax|147\/523
+|-activate|p1a: Snorlax|move: Wrap|[of] p2a: Denver
+|cant|p1a: Snorlax|partiallytrapped
+|
+|turn|56
+|c|★Abstrix|Wrap 0\/32 Isn't it ?
+|
+|move|p2a: Denver|Wrap|p1a: Snorlax
+|-damage|p1a: Snorlax|126\/523
+|cant|p1a: Snorlax|partiallytrapped
+|
+|-end|p1a: Snorlax|Wrap|[partiallytrapped]
+|turn|57
+|
+|move|p2a: Denver|Hyper Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|c|★Tendoh|Yup sir
+|
+|switch|p1a: Starmie|Starmie|95\/323
+|turn|58
+|c|★Abstrix|Yes !! I counted it right
+|
+|switch|p1a: Rhydon|Rhydon|129\/413
+|move|p2a: Denver|Blizzard|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|
+|switch|p1a: Victreebel|Victreebel|363\/363
+|turn|59
+|
+|move|p2a: Denver|Blizzard|p1a: Victreebel
+|-supereffective|p1a: Victreebel
+|-damage|p1a: Victreebel|168\/363
+|move|p1a: Victreebel|Stun Spore|p2a: Denver
+|-status|p2a: Denver|par
+|
+|turn|60
+|
+|switch|p1a: Starmie|Starmie|95\/323
+|cant|p2a: Denver|par
+|
+|turn|61
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|256\/323
+|cant|p2a: Denver|par
+|
+|turn|62
+|
+|move|p1a: Starmie|Ice Beam|p2a: Denver
+|-supereffective|p2a: Denver
+|-damage|p2a: Denver|73\/385 par
+|cant|p2a: Denver|par
+|
+|turn|63
+|
+|move|p1a: Starmie|Ice Beam|p2a: Denver
+|-supereffective|p2a: Denver
+|-damage|p2a: Denver|0 fnt
+|faint|p2a: Denver
+|
+|switch|p2a: Whorey|Chansey|534\/703
+|turn|64
+|
+|move|p1a: Starmie|Ice Beam|p2a: Whorey
+|-damage|p2a: Whorey|459\/703
+|move|p2a: Whorey|Ice Beam|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|215\/323
+|
+|turn|65
+|
+|move|p1a: Starmie|Ice Beam|p2a: Whorey
+|-damage|p2a: Whorey|385\/703
+|move|p2a: Whorey|Thunderbolt|p1a: Starmie
+|-crit|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|switch|p1a: Victreebel|Victreebel|168\/363
+|turn|66
+|
+|move|p1a: Victreebel|Wrap|p2a: Whorey|[miss]
+|-miss|p1a: Victreebel
+|move|p2a: Whorey|Ice Beam|p1a: Victreebel
+|-supereffective|p1a: Victreebel
+|-damage|p1a: Victreebel|12\/363
+|
+|turn|67
+|
+|move|p1a: Victreebel|Wrap|p2a: Whorey|[miss]
+|-miss|p1a: Victreebel
+|move|p2a: Whorey|Ice Beam|p1a: Victreebel
+|-supereffective|p1a: Victreebel
+|-damage|p1a: Victreebel|0 fnt
+|faint|p1a: Victreebel
+|c|★Abstrix|pfff
+|
+|switch|p1a: Chansey|Chansey|467\/703
+|turn|68
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Whorey
+|-status|p2a: Whorey|par
+|move|p2a: Whorey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|391\/703
+|
+|turn|69
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703
+|cant|p2a: Whorey|par
+|
+|turn|70
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Whorey
+|-damage|p2a: Whorey|285\/703 par
+|move|p2a: Whorey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|634\/703
+|
+|turn|71
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Whorey
+|-damage|p2a: Whorey|185\/703 par
+|cant|p2a: Whorey|par
+|
+|turn|72
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Whorey
+|-damage|p2a: Whorey|85\/703 par
+|move|p2a: Whorey|Soft-Boiled|p2a: Whorey
+|-heal|p2a: Whorey|436\/703 par
+|
+|turn|73
+|
+|move|p1a: Chansey|Defense Curl|p1a: Chansey
+|-boost|p1a: Chansey|def|1
+|move|p2a: Whorey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|556\/703
+|
+|turn|74
+|
+|move|p1a: Chansey|Defense Curl|p1a: Chansey
+|-boost|p1a: Chansey|def|1
+|move|p2a: Whorey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|487\/703
+|-status|p1a: Chansey|frz
+|
+|turn|75
+|
+|switch|p2a: Kim Peek|Alakazam|313\/313
+|cant|p1a: Chansey|frz
+|
+|turn|76
+|-message|Abstrix forfeited.
+|
+|win|Tendoh

@@ -1,0 +1,211 @@
+﻿|join|Thiag02
+|join|salanderproject
+|player|p1|Thiag02|102
+|player|p2|salanderproject|289
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|22898,55483,23285,20198
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Tentacool|Tentacool, L96|272\/272
+|switch|p2a: Nidoqueen|Nidoqueen, L85|327\/327
+|turn|1
+|choice|move 2|move 3
+|
+|move|p1a: Tentacool|Blizzard|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|87\/327
+|move|p2a: Nidoqueen|Thunderbolt|p1a: Tentacool
+|-supereffective|p1a: Tentacool
+|-damage|p1a: Tentacool|172\/272
+|
+|turn|2
+|choice|move 2|move 3
+|
+|move|p1a: Tentacool|Blizzard|p2a: Nidoqueen|[miss]
+|-miss|p1a: Tentacool
+|move|p2a: Nidoqueen|Thunderbolt|p1a: Tentacool
+|-supereffective|p1a: Tentacool
+|-damage|p1a: Tentacool|73\/272
+|
+|turn|3
+|choice|move 2|move 3
+|
+|move|p1a: Tentacool|Blizzard|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|0 fnt
+|faint|p2a: Nidoqueen
+|choice||switch 5
+|
+|switch|p2a: Magneton|Magneton, L90|273\/273
+|turn|4
+|choice|move 3|move 1
+|
+|move|p1a: Tentacool|Double-Edge|p2a: Magneton
+|-damage|p2a: Magneton|225\/273
+|-damage|p1a: Tentacool|61\/272|[from] recoil|[of] p2a: Magneton
+|move|p2a: Magneton|Thunderbolt|p1a: Tentacool
+|-supereffective|p1a: Tentacool
+|-damage|p1a: Tentacool|0 fnt
+|faint|p1a: Tentacool
+|choice|switch 5|
+|
+|switch|p1a: Golem|Golem, L79|288\/288
+|turn|5
+|choice|move 1|switch 2
+|
+|switch|p2a: Omastar|Omastar, L90|309\/309
+|move|p1a: Golem|Rock Slide|p2a: Omastar
+|-damage|p2a: Omastar|250\/309
+|
+|turn|6
+|choice|switch 4|move 3
+|
+|switch|p1a: Jolteon|Jolteon, L79|265\/265
+|move|p2a: Omastar|Surf|p1a: Jolteon
+|-damage|p1a: Jolteon|153\/265
+|
+|turn|7
+|choice|move 3|move 1
+|
+|move|p1a: Jolteon|Double Kick|p2a: Omastar
+|-supereffective|p2a: Omastar
+|-damage|p2a: Omastar|228\/309
+|-damage|p2a: Omastar|206\/309
+|-hitcount|p2a: Omastar|2
+|move|p2a: Omastar|Blizzard|p1a: Jolteon
+|-damage|p1a: Jolteon|54\/265
+|
+|turn|8
+|choice|move 1|move 3
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Omastar
+|-supereffective|p2a: Omastar
+|-damage|p2a: Omastar|43\/309
+|move|p2a: Omastar|Surf|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|choice|switch 6|
+|
+|switch|p1a: Tauros|Tauros, L79|280\/280
+|turn|9
+|choice|move 1|move 3
+|
+|move|p1a: Tauros|Earthquake|p2a: Omastar
+|-supereffective|p2a: Omastar
+|-damage|p2a: Omastar|0 fnt
+|faint|p2a: Omastar
+|choice||switch 3
+|
+|switch|p2a: Fearow|Fearow, L90|300\/300
+|turn|10
+|choice|move 3|move 1
+|
+|move|p2a: Fearow|Double-Edge|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|69\/280
+|-damage|p2a: Fearow|248\/300|[from] recoil|[of] p1a: Tauros
+|move|p1a: Tauros|Blizzard|p2a: Fearow
+|-supereffective|p2a: Fearow
+|-damage|p2a: Fearow|102\/300
+|
+|turn|11
+|choice|switch 4|move 1
+|
+|switch|p1a: Golem|Golem, L79|288\/288
+|move|p2a: Fearow|Double-Edge|p1a: Golem
+|-crit|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|196\/288
+|-damage|p2a: Fearow|79\/300|[from] recoil|[of] p1a: Golem
+|
+|turn|12
+|choice|move 2|move 3
+|
+|move|p2a: Fearow|Hyper Beam|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|123\/288
+|move|p1a: Golem|Body Slam|p2a: Fearow
+|-damage|p2a: Fearow|14\/300
+|
+|turn|13
+|-mustrecharge|p2a: Fearow
+|-mustrecharge|p2a: Fearow
+|choice|move 2|move 1
+|
+|cant|p2a: Fearow|recharge
+|move|p1a: Golem|Body Slam|p2a: Fearow
+|-damage|p2a: Fearow|0 fnt
+|faint|p2a: Fearow
+|choice||switch 6
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|293\/293
+|turn|14
+|choice|move 4|move 1
+|
+|move|p2a: Mewtwo|Psychic|p1a: Golem
+|-damage|p1a: Golem|0 fnt
+|faint|p1a: Golem
+|choice|switch 4|
+|
+|switch|p1a: Tauros|Tauros, L79|69\/280
+|turn|15
+|choice|move 2|move 1
+|
+|move|p2a: Mewtwo|Psychic|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|choice|switch 3|
+|
+|switch|p1a: Scyther|Scyther, L90|309\/309
+|turn|16
+|choice|move 2|move 1
+|
+|move|p1a: Scyther|Swords Dance|p1a: Scyther
+|-boost|p1a: Scyther|atk|2
+|move|p2a: Mewtwo|Psychic|p1a: Scyther
+|-damage|p1a: Scyther|188\/309
+|
+|turn|17
+|choice|move 2|move 1
+|
+|move|p1a: Scyther|Swords Dance|p1a: Scyther
+|-boost|p1a: Scyther|atk|2
+|move|p2a: Mewtwo|Psychic|p1a: Scyther
+|-damage|p1a: Scyther|72\/309
+|
+|turn|18
+|choice|move 4|move 1
+|
+|move|p1a: Scyther|Hyper Beam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|0 fnt
+|faint|p2a: Mewtwo
+|choice||switch 4
+|
+|switch|p2a: Flareon|Flareon, L90|300\/300
+|turn|19
+|choice|move 4|move 4
+|
+|move|p1a: Scyther|Hyper Beam|p2a: Flareon
+|-damage|p2a: Flareon|0 fnt
+|faint|p2a: Flareon
+|choice||switch 2
+|
+|switch|p2a: Magneton|Magneton, L90|225\/273
+|turn|20
+|choice|move 4|move 3
+|
+|move|p1a: Scyther|Hyper Beam|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|faint|p2a: Magneton
+|
+|win|Thiag02
+|leave|salanderproject
+|player|p2
+|raw|Thiag02's rating: 1040 &rarr; <strong>1074<\/strong><br \/>(+34 for winning)
+|raw|salanderproject's rating: 1037 &rarr; <strong>1022<\/strong><br \/>(-15 for losing)

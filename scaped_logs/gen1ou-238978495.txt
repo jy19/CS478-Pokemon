@@ -1,0 +1,355 @@
+﻿|join|gamecus
+|join|charizard reyiz
+|player|p1|gamecus|238
+|player|p2|charizard reyiz|117
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Parasect|Parasect|323\/323
+|switch|p2a: Alakazam|Alakazam|313\/313
+|turn|1
+|
+|move|p2a: Alakazam|Psychic|p1a: Parasect
+|-damage|p1a: Parasect|174\/323
+|move|p1a: Parasect|Spore|p2a: Alakazam
+|-status|p2a: Alakazam|slp
+|
+|turn|2
+|
+|cant|p2a: Alakazam|slp
+|-curestatus|p2a: Alakazam|slp
+|move|p1a: Parasect|Stun Spore|p2a: Alakazam
+|-status|p2a: Alakazam|par
+|
+|turn|3
+|
+|move|p1a: Parasect|Growth|p1a: Parasect
+|-boost|p1a: Parasect|spa|1
+|-boost|p1a: Parasect|spd|1
+|move|p2a: Alakazam|Psychic|p1a: Parasect
+|-damage|p1a: Parasect|70\/323
+|
+|turn|4
+|
+|move|p1a: Parasect|Growth|p1a: Parasect
+|-boost|p1a: Parasect|spa|1
+|-boost|p1a: Parasect|spd|1
+|move|p2a: Alakazam|Seismic Toss|p1a: Parasect
+|-damage|p1a: Parasect|0 fnt
+|faint|p1a: Parasect
+|
+|switch|p1a: Arcanine|Arcanine|383\/383
+|turn|5
+|
+|move|p1a: Arcanine|Dig|p2a: Alakazam|[still]
+|-prepare|p1a: Arcanine|Dig|p2a: Alakazam
+|move|p2a: Alakazam|Thunder Wave|p1a: Arcanine|[miss]
+|-message|The foe Arcanine can't be hit underground!
+|-miss|p2a: Alakazam
+|
+|turn|6
+|
+|move|p1a: Arcanine|Dig|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-damage|p2a: Alakazam|98\/313 par
+|cant|p2a: Alakazam|par
+|
+|turn|7
+|
+|switch|p2a: Cloyster|Cloyster|303\/303
+|move|p1a: Arcanine|Hyper Beam|p2a: Cloyster
+|-damage|p2a: Cloyster|233\/303
+|
+|turn|8
+|-mustrecharge|p1a: Arcanine
+|-mustrecharge|p1a: Arcanine
+|
+|cant|p1a: Arcanine|recharge
+|move|p2a: Cloyster|Surf|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|157\/383
+|
+|turn|9
+|
+|move|p1a: Arcanine|Flamethrower|p2a: Cloyster
+|-damage|p2a: Cloyster|124\/303
+|move|p2a: Cloyster|Surf|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|switch|p1a: Gengar|Gengar|323\/323
+|turn|10
+|
+|switch|p2a: Alakazam|Alakazam|98\/313 par
+|move|p1a: Gengar|Thunderbolt|p2a: Alakazam
+|-damage|p2a: Alakazam|29\/313 par
+|
+|turn|11
+|
+|switch|p2a: Jolteon|Jolteon|333\/333
+|move|p1a: Gengar|Thunderbolt|p2a: Jolteon
+|-resisted|p2a: Jolteon
+|-damage|p2a: Jolteon|295\/333
+|
+|turn|12
+|
+|switch|p1a: Rhydon|Rhydon|413\/413
+|move|p2a: Jolteon|Thunder Wave|p1a: Rhydon
+|-immune|p1a: Rhydon|[msg]
+|
+|turn|13
+|
+|switch|p2a: Alakazam|Alakazam|29\/313 par
+|move|p1a: Rhydon|Body Slam|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|switch|p2a: Cloyster|Cloyster|124\/303
+|turn|14
+|
+|move|p2a: Cloyster|Blizzard|p1a: Rhydon|[miss]
+|-miss|p2a: Cloyster
+|move|p1a: Rhydon|Rock Slide|p2a: Cloyster
+|-supereffective|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p2a: Cloyster
+|
+|switch|p2a: Victreebel|Victreebel|363\/363
+|turn|15
+|
+|switch|p1a: Blastoise|Blastoise|361\/361
+|move|p2a: Victreebel|Razor Leaf|p1a: Blastoise
+|-crit|p1a: Blastoise
+|-supereffective|p1a: Blastoise
+|-damage|p1a: Blastoise|73\/361
+|
+|turn|16
+|
+|move|p1a: Blastoise|Blizzard|p2a: Victreebel
+|-crit|p2a: Victreebel
+|-supereffective|p2a: Victreebel
+|-damage|p2a: Victreebel|44\/363
+|move|p2a: Victreebel|Razor Leaf|p1a: Blastoise
+|-crit|p1a: Blastoise
+|-supereffective|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|faint|p1a: Blastoise
+|
+|switch|p1a: Gengar|Gengar|323\/323
+|turn|17
+|
+|move|p1a: Gengar|Psychic|p2a: Victreebel
+|-supereffective|p2a: Victreebel
+|-damage|p2a: Victreebel|0 fnt
+|faint|p2a: Victreebel
+|
+|switch|p2a: Moltres|Moltres|383\/383
+|turn|18
+|
+|move|p1a: Gengar|Confuse Ray|p2a: Moltres
+|-start|p2a: Moltres|confusion
+|-activate|p2a: Moltres|confusion
+|-damage|p2a: Moltres|345\/383|[from] confusion
+|
+|turn|19
+|
+|move|p1a: Gengar|Thunderbolt|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|198\/383
+|-end|p2a: Moltres|confusion
+|move|p2a: Moltres|Agility|p2a: Moltres
+|-boost|p2a: Moltres|spe|2
+|
+|turn|20
+|
+|switch|p1a: Rhydon|Rhydon|413\/413
+|move|p2a: Moltres|Fire Blast|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|273\/413
+|
+|turn|21
+|
+|move|p2a: Moltres|Fire Spin|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|256\/413
+|-activate|p1a: Rhydon|move: Fire Spin|[of] p2a: Moltres
+|cant|p1a: Rhydon|partiallytrapped
+|
+|turn|22
+|
+|switch|p2a: Dragonite|Dragonite|385\/385
+|switch|p1a: Gengar|Gengar|323\/323
+|
+|turn|23
+|
+|move|p1a: Gengar|Confuse Ray|p2a: Dragonite
+|-start|p2a: Dragonite|confusion
+|-activate|p2a: Dragonite|confusion
+|move|p2a: Dragonite|Thunder Wave|p1a: Gengar
+|-status|p1a: Gengar|par
+|
+|turn|24
+|
+|-end|p2a: Dragonite|confusion
+|move|p2a: Dragonite|Ice Beam|p1a: Gengar
+|-damage|p1a: Gengar|260\/323 par
+|cant|p1a: Gengar|par
+|
+|turn|25
+|
+|move|p2a: Dragonite|Ice Beam|p1a: Gengar
+|-damage|p1a: Gengar|200\/323 par
+|move|p1a: Gengar|Confuse Ray|p2a: Dragonite
+|-start|p2a: Dragonite|confusion
+|
+|turn|26
+|
+|-activate|p2a: Dragonite|confusion
+|move|p2a: Dragonite|Ice Beam|p1a: Gengar
+|-damage|p1a: Gengar|140\/323 par
+|move|p1a: Gengar|Psychic|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-damage|p2a: Dragonite|222\/385
+|-unboost|p2a: Dragonite|spd|1
+|-unboost|p2a: Dragonite|spa|1
+|
+|turn|27
+|
+|-activate|p2a: Dragonite|confusion
+|-damage|p2a: Dragonite|178\/385|[from] confusion
+|cant|p1a: Gengar|par
+|
+|turn|28
+|
+|-end|p2a: Dragonite|confusion
+|move|p2a: Dragonite|Wrap|p1a: Gengar
+|-damage|p1a: Gengar|140\/323 par
+|-activate|p1a: Gengar|move: Wrap|[of] p2a: Dragonite
+|cant|p1a: Gengar|par
+|
+|turn|29
+|
+|switch|p2a: Moltres|Moltres|198\/383
+|cant|p1a: Gengar|partiallytrapped
+|
+|-end|p1a: Gengar|Wrap|[partiallytrapped]
+|turn|30
+|
+|move|p2a: Moltres|Fire Spin|p1a: Gengar|[miss]
+|-miss|p2a: Moltres
+|cant|p1a: Gengar|par
+|
+|turn|31
+|
+|move|p2a: Moltres|Fire Spin|p1a: Gengar
+|-damage|p1a: Gengar|121\/323 par
+|-activate|p1a: Gengar|move: Fire Spin|[of] p2a: Moltres
+|cant|p1a: Gengar|partiallytrapped
+|
+|turn|32
+|
+|move|p2a: Moltres|Fire Spin|p1a: Gengar
+|-damage|p1a: Gengar|102\/323 par
+|cant|p1a: Gengar|partiallytrapped
+|
+|-end|p1a: Gengar|Fire Spin|[partiallytrapped]
+|turn|33
+|
+|move|p2a: Moltres|Fire Blast|p1a: Gengar|[miss]
+|-miss|p2a: Moltres
+|move|p1a: Gengar|Thunderbolt|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|47\/383
+|
+|turn|34
+|
+|move|p2a: Moltres|Fire Blast|p1a: Gengar|[miss]
+|-miss|p2a: Moltres
+|cant|p1a: Gengar|par
+|
+|turn|35
+|
+|move|p2a: Moltres|Fire Blast|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|switch|p1a: Rhydon|Rhydon|256\/413
+|turn|36
+|
+|move|p2a: Moltres|Fire Spin|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|241\/413
+|-activate|p1a: Rhydon|move: Fire Spin|[of] p2a: Moltres
+|cant|p1a: Rhydon|partiallytrapped
+|
+|turn|37
+|
+|switch|p2a: Dragonite|Dragonite|178\/385
+|cant|p1a: Rhydon|partiallytrapped
+|
+|-end|p1a: Rhydon|Fire Spin|[partiallytrapped]
+|turn|38
+|
+|move|p2a: Dragonite|Ice Beam|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|15\/413
+|move|p1a: Rhydon|Rock Slide|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|switch|p2a: Moltres|Moltres|47\/383
+|turn|39
+|
+|switch|p1a: Articuno|Articuno|383\/383
+|move|p2a: Moltres|Fire Blast|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|100\/383
+|
+|turn|40
+|
+|move|p2a: Moltres|Fire Blast|p1a: Articuno|[miss]
+|-miss|p2a: Moltres
+|move|p1a: Articuno|Ice Beam|p2a: Moltres
+|-crit|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|
+|switch|p2a: Jolteon|Jolteon|295\/333
+|turn|41
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Articuno
+|-crit|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|0 fnt
+|faint|p1a: Articuno
+|
+|switch|p1a: Rhydon|Rhydon|15\/413
+|turn|42
+|
+|move|p2a: Jolteon|Pin Missile|p1a: Rhydon|[miss]
+|-miss|p2a: Jolteon
+|move|p1a: Rhydon|Earthquake|p2a: Jolteon
+|-supereffective|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|
+|win|gamecus
+|raw|Ladder updating...
+|raw|gamecus's rating: 1065 &rarr; <strong>1103<\/strong><br \/>(+38 for winning)
+|raw|charizard reyiz's rating: 1154 &rarr; <strong>1123<\/strong><br \/>(-31 for losing)
+|c|★gamecus|gg
+|c|★charizard reyiz|gg
+|leave|charizard reyiz
+|player|p2

@@ -1,0 +1,477 @@
+﻿|J|KristophV
+|J|Enigami
+|player|p1|KristophV|kristophv.png
+|player|p2|Enigami|101
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Extreme Tier Shift
+|seed|41255,3007,29288,39915
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Venusaur|Venusaur|403\/403
+|switch|p2a: Venusaur|Venusaur|403\/403
+|turn|1
+|c|★KristophV|poor jynx
+|choice|move 1|move 1
+|
+|move|p1a: Venusaur|Sleep Powder|p2a: Venusaur
+|-status|p2a: Venusaur|slp
+|cant|p2a: Venusaur|slp
+|
+|turn|2
+|choice|move 4|switch 2
+|
+|switch|p2a: Rapidash|Rapidash|373\/373
+|move|p1a: Venusaur|Body Slam|p2a: Rapidash
+|-crit|p2a: Rapidash
+|-damage|p2a: Rapidash|223\/373
+|
+|turn|3
+|c|★Enigami|Yup
+|choice|switch 2|move 1
+|
+|switch|p1a: Moltres|Moltres|403\/403
+|move|p2a: Rapidash|Fire Blast|p1a: Moltres|[miss]
+|-miss|p2a: Rapidash
+|
+|turn|4
+|choice|move 1|move 2
+|
+|move|p2a: Rapidash|Fire Spin|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|395\/403
+|-activate|p1a: Moltres|move: Fire Spin|[of] p2a: Rapidash
+|cant|p1a: Moltres|partiallytrapped
+|
+|turn|5
+|choice|switch 5|switch 6
+|
+|switch|p2a: Poliwhirl|Poliwhirl|373\/373
+|switch|p1a: Charizard|Charizard|399\/399
+|
+|turn|6
+|choice|switch 6|move 4
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Poliwhirl|Hypnosis|p1a: Chansey
+|-status|p1a: Chansey|slp
+|
+|turn|7
+|choice|switch 2|move 3
+|
+|switch|p1a: Venusaur|Venusaur|403\/403
+|move|p2a: Poliwhirl|Amnesia|p2a: Poliwhirl
+|-boost|p2a: Poliwhirl|spd|2
+|-boost|p2a: Poliwhirl|spa|2
+|
+|turn|8
+|choice|move 2|switch 5
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Venusaur|Razor Leaf|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|566\/703
+|
+|turn|9
+|choice|switch 2|move 1
+|
+|switch|p1a: Chansey|Chansey|703\/703 slp
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|631\/703 slp
+|
+|turn|10
+|choice|switch 6|switch 4
+|
+|switch|p1a: Charizard|Charizard|399\/399
+|switch|p2a: Clefable|Clefable|433\/433
+|
+|turn|11
+|choice|switch 6|move 4
+|
+|switch|p1a: Chansey|Chansey|631\/703 slp
+|move|p2a: Clefable|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey
+|
+|turn|12
+|choice|move 2|move 1
+|
+|move|p2a: Clefable|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|375\/703 slp
+|cant|p1a: Chansey|slp
+|
+|turn|13
+|choice|switch 4|move 1
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|move|p2a: Clefable|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|260\/353
+|
+|turn|14
+|choice|move 1|move 4
+|
+|move|p1a: Tauros|Body Slam|p2a: Clefable
+|-damage|p2a: Clefable|336\/433
+|move|p2a: Clefable|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|
+|turn|15
+|c|★KristophV|jeez
+|choice|move 1|switch 3
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|cant|p1a: Tauros|par
+|
+|turn|16
+|choice|move 4|move 1
+|
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|164\/353 par
+|move|p1a: Tauros|Hyper Beam|p2a: Tauros
+|-damage|p2a: Tauros|167\/353
+|
+|turn|17
+|-mustrecharge|p1a: Tauros
+|-mustrecharge|p1a: Tauros
+|c|★Enigami|Yeah, Clefable's pretty much alternate Snorlax.
+|choice|move 1|move 3
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|choice|switch 5|
+|
+|switch|p1a: Moltres|Moltres|395\/403
+|turn|18
+|choice|move 2|switch 6
+|
+|switch|p2a: Rapidash|Rapidash|223\/373
+|move|p1a: Moltres|Agility|p1a: Moltres
+|-boost|p1a: Moltres|spe|2
+|
+|turn|19
+|choice|move 3|move 4
+|
+|move|p1a: Moltres|Fire Spin|p2a: Rapidash
+|-crit|p2a: Rapidash
+|-resisted|p2a: Rapidash
+|-damage|p2a: Rapidash|202\/373
+|-activate|p2a: Rapidash|move: Fire Spin|[of] p1a: Moltres
+|cant|p2a: Rapidash|partiallytrapped
+|
+|turn|20
+|choice|move 3|switch 5
+|
+|switch|p2a: Poliwhirl|Poliwhirl|373\/373
+|move|p1a: Moltres|Fire Spin|p2a: Poliwhirl|[miss]
+|-miss|p1a: Moltres
+|
+|turn|21
+|choice|move 3|move 2
+|
+|move|p1a: Moltres|Fire Spin|p2a: Poliwhirl
+|-resisted|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|360\/373
+|-activate|p2a: Poliwhirl|move: Fire Spin|[of] p1a: Moltres
+|cant|p2a: Poliwhirl|partiallytrapped
+|
+|turn|22
+|choice|move 3|switch 5
+|
+|switch|p2a: Rapidash|Rapidash|202\/373
+|move|p1a: Moltres|Fire Spin|p2a: Rapidash
+|-resisted|p2a: Rapidash
+|-damage|p2a: Rapidash|191\/373
+|-activate|p2a: Rapidash|move: Fire Spin|[of] p1a: Moltres
+|
+|turn|23
+|choice|move 3|switch 5
+|
+|switch|p2a: Poliwhirl|Poliwhirl|360\/373
+|move|p1a: Moltres|Fire Spin|p2a: Poliwhirl
+|-resisted|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|347\/373
+|-activate|p2a: Poliwhirl|move: Fire Spin|[of] p1a: Moltres
+|
+|turn|24
+|choice|move 3|move 2
+|
+|move|p1a: Moltres|Fire Spin|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|334\/373
+|cant|p2a: Poliwhirl|partiallytrapped
+|
+|turn|25
+|choice|move 3|move 1
+|
+|move|p1a: Moltres|Fire Spin|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|321\/373
+|cant|p2a: Poliwhirl|partiallytrapped
+|
+|turn|26
+|choice|move 3|move 1
+|
+|move|p1a: Moltres|Fire Spin|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|308\/373
+|cant|p2a: Poliwhirl|partiallytrapped
+|
+|-end|p2a: Poliwhirl|Fire Spin|[partiallytrapped]
+|turn|27
+|choice|move 3|move 2
+|
+|move|p1a: Moltres|Fire Spin|p2a: Poliwhirl|[miss]
+|-miss|p1a: Moltres
+|move|p2a: Poliwhirl|Psychic|p1a: Moltres
+|-damage|p1a: Moltres|353\/403
+|
+|turn|28
+|choice|move 3|move 3
+|
+|move|p1a: Moltres|Fire Spin|p2a: Poliwhirl|[miss]
+|-miss|p1a: Moltres
+|move|p2a: Poliwhirl|Amnesia|p2a: Poliwhirl
+|-boost|p2a: Poliwhirl|spd|2
+|-boost|p2a: Poliwhirl|spa|2
+|
+|turn|29
+|choice|move 3|move 2
+|
+|move|p1a: Moltres|Fire Spin|p2a: Poliwhirl|[miss]
+|-miss|p1a: Moltres
+|move|p2a: Poliwhirl|Psychic|p1a: Moltres
+|-damage|p1a: Moltres|266\/403
+|-unboost|p1a: Moltres|spd|1
+|-unboost|p1a: Moltres|spa|1
+|
+|turn|30
+|choice|move 3|move 1
+|
+|move|p1a: Moltres|Fire Spin|p2a: Poliwhirl
+|-crit|p2a: Poliwhirl
+|-resisted|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|278\/373
+|-activate|p2a: Poliwhirl|move: Fire Spin|[of] p1a: Moltres
+|cant|p2a: Poliwhirl|partiallytrapped
+|
+|turn|31
+|choice|move 3|move 2
+|
+|move|p1a: Moltres|Fire Spin|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|248\/373
+|cant|p2a: Poliwhirl|partiallytrapped
+|
+|-end|p2a: Poliwhirl|Fire Spin|[partiallytrapped]
+|turn|32
+|choice|move 3|move 1
+|
+|move|p1a: Moltres|Fire Spin|p2a: Poliwhirl
+|-resisted|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|243\/373
+|-activate|p2a: Poliwhirl|move: Fire Spin|[of] p1a: Moltres
+|cant|p2a: Poliwhirl|partiallytrapped
+|
+|turn|33
+|choice|move 3|move 1
+|
+|move|p1a: Moltres|Fire Spin|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|238\/373
+|cant|p2a: Poliwhirl|partiallytrapped
+|
+|turn|34
+|choice|move 3|move 1
+|
+|move|p1a: Moltres|Fire Spin|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|233\/373
+|cant|p2a: Poliwhirl|partiallytrapped
+|
+|turn|35
+|choice|move 3|move 1
+|
+|move|p1a: Moltres|Fire Spin|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|228\/373
+|cant|p2a: Poliwhirl|partiallytrapped
+|
+|-end|p2a: Poliwhirl|Fire Spin|[partiallytrapped]
+|turn|36
+|choice|move 3|move 1
+|
+|move|p1a: Moltres|Fire Spin|p2a: Poliwhirl|[miss]
+|-miss|p1a: Moltres
+|move|p2a: Poliwhirl|Surf|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|choice|switch 3|
+|
+|switch|p1a: Dodrio|Dodrio|363\/363
+|turn|37
+|choice|move 3|switch 3
+|
+|switch|p2a: Clefable|Clefable|336\/433
+|move|p1a: Dodrio|Hyper Beam|p2a: Clefable
+|-damage|p2a: Clefable|121\/433
+|
+|turn|38
+|-mustrecharge|p1a: Dodrio
+|-mustrecharge|p1a: Dodrio
+|choice|move 1|move 4
+|
+|cant|p1a: Dodrio|recharge
+|move|p2a: Clefable|Thunder Wave|p1a: Dodrio
+|-status|p1a: Dodrio|par
+|
+|turn|39
+|choice|move 2|move 2
+|
+|move|p2a: Clefable|Hyper Beam|p1a: Dodrio
+|-crit|p1a: Dodrio
+|-damage|p1a: Dodrio|0 fnt
+|faint|p1a: Dodrio
+|choice|switch 2|
+|
+|switch|p1a: Venusaur|Venusaur|403\/403
+|turn|40
+|choice|move 3|switch 2
+|
+|switch|p2a: Venusaur|Venusaur|403\/403 slp
+|move|p1a: Venusaur|Swords Dance|p1a: Venusaur
+|-boost|p1a: Venusaur|atk|2
+|
+|turn|41
+|choice|move 4|switch 2
+|
+|switch|p2a: Clefable|Clefable|121\/433
+|move|p1a: Venusaur|Body Slam|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|choice||switch 5
+|
+|switch|p2a: Rapidash|Rapidash|191\/373
+|turn|42
+|choice|switch 6|move 1
+|
+|switch|p1a: Charizard|Charizard|399\/399
+|move|p2a: Rapidash|Fire Blast|p1a: Charizard
+|-crit|p1a: Charizard
+|-resisted|p1a: Charizard
+|-damage|p1a: Charizard|258\/399
+|
+|turn|43
+|choice|move 4|move 4
+|
+|move|p2a: Rapidash|Body Slam|p1a: Charizard
+|-damage|p1a: Charizard|181\/399
+|-status|p1a: Charizard|par
+|move|p1a: Charizard|Earthquake|p2a: Rapidash
+|-supereffective|p2a: Rapidash
+|-damage|p2a: Rapidash|29\/373
+|
+|turn|44
+|choice|move 3|switch 2
+|
+|switch|p2a: Venusaur|Venusaur|403\/403 slp
+|move|p1a: Charizard|Body Slam|p2a: Venusaur
+|-damage|p2a: Venusaur|334\/403 slp
+|
+|turn|45
+|choice|switch 6|switch 4
+|
+|switch|p2a: Chansey|Chansey|566\/703
+|switch|p1a: Venusaur|Venusaur|403\/403
+|
+|turn|46
+|choice|move 3|move 1
+|
+|move|p1a: Venusaur|Swords Dance|p1a: Venusaur
+|-boost|p1a: Venusaur|atk|2
+|move|p2a: Chansey|Ice Beam|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|262\/403
+|
+|turn|47
+|choice|move 4|move 3
+|
+|move|p1a: Venusaur|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|202\/703
+|move|p2a: Chansey|Thunder Wave|p1a: Venusaur
+|-status|p1a: Venusaur|par
+|
+|turn|48
+|choice|move 4|move 4
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|553\/703
+|cant|p1a: Venusaur|par
+|
+|turn|49
+|choice|move 4|move 1
+|
+|move|p2a: Chansey|Ice Beam|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|132\/403 par
+|move|p1a: Venusaur|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|168\/703
+|
+|turn|50
+|choice|move 4|move 4
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|519\/703
+|move|p1a: Venusaur|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|177\/703
+|
+|turn|51
+|choice|move 4|move 4
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|528\/703
+|cant|p1a: Venusaur|par
+|
+|turn|52
+|choice|move 4|move 1
+|
+|move|p2a: Chansey|Ice Beam|p1a: Venusaur
+|-crit|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|choice|switch 6|
+|
+|switch|p1a: Charizard|Charizard|181\/399 par
+|turn|53
+|choice|move 2|move 2
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|38\/399 par
+|move|p1a: Charizard|Hyper Beam|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|choice||switch 2
+|
+|switch|p2a: Rapidash|Rapidash|29\/373
+|turn|54
+|choice|move 3|move 4
+|
+|move|p2a: Rapidash|Body Slam|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|choice|switch 4|
+|
+|switch|p1a: Chansey|Chansey|375\/703 slp
+|turn|55
+|choice|move 2|move 4
+|
+|move|p2a: Rapidash|Body Slam|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|win|Enigami
+|c|★Enigami|gg
+|c|★KristophV|gg

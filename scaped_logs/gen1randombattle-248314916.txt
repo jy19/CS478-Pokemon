@@ -1,0 +1,259 @@
+﻿|join|erik1erik
+|join|Amazingplayerlel
+|player|p1|erik1erik|170
+|player|p2|Amazingplayerlel|290
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Kakuna|Kakuna, L99|290\/290
+|switch|p2a: Clefable|Clefable, L85|335\/335
+|turn|1
+|
+|move|p2a: Clefable|Sing|p1a: Kakuna
+|-status|p1a: Kakuna|slp
+|cant|p1a: Kakuna|slp
+|
+|turn|2
+|
+|switch|p1a: Snorlax|Snorlax, L79|415\/415
+|move|p2a: Clefable|Blizzard|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|221\/415
+|
+|turn|3
+|
+|switch|p2a: Machamp|Machamp, L90|345\/345
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|
+|turn|4
+|
+|switch|p1a: Mewtwo|Mewtwo, L70|293\/293
+|move|p2a: Machamp|Submission|p1a: Mewtwo
+|-resisted|p1a: Mewtwo
+|-damage|p1a: Mewtwo|228\/293
+|-damage|p2a: Machamp|329\/345|[from] recoil|[of] p1a: Mewtwo
+|
+|turn|5
+|
+|switch|p2a: Kakuna|Kakuna, L99|290\/290
+|move|p1a: Mewtwo|Psychic|p2a: Kakuna
+|-supereffective|p2a: Kakuna
+|-damage|p2a: Kakuna|5\/290
+|
+|turn|6
+|
+|move|p1a: Mewtwo|Body Slam|p2a: Kakuna
+|-damage|p2a: Kakuna|0 fnt
+|faint|p2a: Kakuna
+|
+|switch|p2a: Aerodactyl|Aerodactyl, L90|327\/327
+|turn|7
+|
+|switch|p1a: Rhydon|Rhydon, L79|328\/328
+|move|p2a: Aerodactyl|Sky Attack|p1a: Rhydon|[still]
+|-prepare|p2a: Aerodactyl|Sky Attack|p1a: Rhydon
+|
+|turn|8
+|
+|move|p2a: Aerodactyl|Sky Attack|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|247\/328
+|move|p1a: Rhydon|Substitute|p1a: Rhydon
+|-start|p1a: Rhydon|Substitute
+|-damage|p1a: Rhydon|165\/328
+|
+|turn|9
+|
+|switch|p2a: Tentacruel|Tentacruel, L85|310\/310
+|move|p1a: Rhydon|Body Slam|p2a: Tentacruel
+|-damage|p2a: Tentacruel|237\/310
+|
+|turn|10
+|
+|move|p2a: Tentacruel|Hydro Pump|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-end|p1a: Rhydon|Substitute
+|move|p1a: Rhydon|Earthquake|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|switch|p2a: Clefable|Clefable, L85|335\/335
+|turn|11
+|
+|switch|p1a: Mew|Mew, L74|300\/300
+|move|p2a: Clefable|Blizzard|p1a: Mew
+|-damage|p1a: Mew|219\/300
+|
+|turn|12
+|
+|move|p1a: Mew|Blizzard|p2a: Clefable
+|-damage|p2a: Clefable|263\/335
+|move|p2a: Clefable|Sing|p1a: Mew
+|-message|Sleep Clause Mod activated.
+|
+|turn|13
+|
+|move|p1a: Mew|Swift|p2a: Clefable
+|-damage|p2a: Clefable|228\/335
+|move|p2a: Clefable|Blizzard|p1a: Mew|[miss]
+|-miss|p2a: Clefable
+|
+|turn|14
+|
+|move|p1a: Mew|Blizzard|p2a: Clefable
+|-damage|p2a: Clefable|160\/335
+|move|p2a: Clefable|Blizzard|p1a: Mew|[miss]
+|-miss|p2a: Clefable
+|
+|turn|15
+|
+|move|p1a: Mew|Blizzard|p2a: Clefable
+|-damage|p2a: Clefable|97\/335
+|move|p2a: Clefable|Blizzard|p1a: Mew
+|-damage|p1a: Mew|135\/300
+|
+|turn|16
+|
+|move|p1a: Mew|Blizzard|p2a: Clefable
+|-damage|p2a: Clefable|24\/335
+|move|p2a: Clefable|Blizzard|p1a: Mew|[miss]
+|-miss|p2a: Clefable
+|
+|turn|17
+|
+|move|p1a: Mew|Swift|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|switch|p2a: Arcanine|Arcanine, L85|327\/327
+|turn|18
+|
+|move|p2a: Arcanine|Fire Blast|p1a: Mew
+|-damage|p1a: Mew|7\/300
+|move|p1a: Mew|Blizzard|p2a: Arcanine
+|-damage|p2a: Arcanine|262\/327
+|
+|turn|19
+|
+|move|p2a: Arcanine|Hyper Beam|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|switch|p1a: Rhydon|Rhydon, L79|165\/328
+|turn|20
+|
+|move|p2a: Arcanine|Fire Blast|p1a: Rhydon
+|-crit|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|
+|switch|p1a: Snorlax|Snorlax, L79|221\/415
+|turn|21
+|
+|move|p2a: Arcanine|Fire Blast|p1a: Snorlax
+|-damage|p1a: Snorlax|77\/415
+|-status|p1a: Snorlax|brn
+|move|p1a: Snorlax|Surf|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|162\/327
+|-damage|p1a: Snorlax|52\/415 brn|[from] brn|[of] p2a: Arcanine
+|
+|turn|22
+|
+|move|p2a: Arcanine|Hyper Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|switch|p1a: Golem|Golem, L79|288\/288
+|turn|23
+|
+|move|p2a: Arcanine|Fire Blast|p1a: Golem|[miss]
+|-miss|p2a: Arcanine
+|move|p1a: Golem|Rock Slide|p2a: Arcanine|[miss]
+|-miss|p1a: Golem
+|
+|turn|24
+|
+|move|p2a: Arcanine|Fire Blast|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|205\/288
+|move|p1a: Golem|Earthquake|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|switch|p2a: Machamp|Machamp, L90|329\/345
+|turn|25
+|
+|switch|p1a: Kakuna|Kakuna, L99|290\/290 slp
+|move|p2a: Machamp|Submission|p1a: Kakuna
+|-resisted|p1a: Kakuna
+|-damage|p1a: Kakuna|258\/290 slp
+|-damage|p2a: Machamp|321\/345|[from] recoil|[of] p1a: Kakuna
+|
+|turn|26
+|
+|move|p2a: Machamp|Rock Slide|p1a: Kakuna|[miss]
+|-miss|p2a: Machamp
+|-curestatus|p1a: Kakuna|slp
+|
+|turn|27
+|
+|move|p2a: Machamp|Rock Slide|p1a: Kakuna
+|-crit|p1a: Kakuna
+|-supereffective|p1a: Kakuna
+|-damage|p1a: Kakuna|0 fnt
+|faint|p1a: Kakuna
+|
+|switch|p1a: Mewtwo|Mewtwo, L70|228\/293
+|turn|28
+|
+|move|p1a: Mewtwo|Psychic|p2a: Machamp
+|-crit|p2a: Machamp
+|-supereffective|p2a: Machamp
+|-damage|p2a: Machamp|0 fnt
+|faint|p2a: Machamp
+|
+|switch|p2a: Aerodactyl|Aerodactyl, L90|327\/327
+|turn|29
+|
+|move|p2a: Aerodactyl|Sky Attack|p1a: Mewtwo|[still]
+|-prepare|p2a: Aerodactyl|Sky Attack|p1a: Mewtwo
+|move|p1a: Mewtwo|Thunderbolt|p2a: Aerodactyl
+|-crit|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|21\/327
+|
+|turn|30
+|
+|move|p2a: Aerodactyl|Sky Attack|p1a: Mewtwo
+|-crit|p1a: Mewtwo
+|-damage|p1a: Mewtwo|0 fnt
+|faint|p1a: Mewtwo
+|
+|switch|p1a: Golem|Golem, L79|205\/288
+|turn|31
+|
+|move|p2a: Aerodactyl|Sky Attack|p1a: Golem|[still]
+|-prepare|p2a: Aerodactyl|Sky Attack|p1a: Golem
+|move|p1a: Golem|Rock Slide|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|faint|p2a: Aerodactyl
+|
+|win|erik1erik
+|raw|Ladder updating...
+|raw|erik1erik's rating: 1397 &rarr; <strong>1406<\/strong><br \/>(+9 for winning)
+|raw|Amazingplayerlel's rating: 1171 &rarr; <strong>1160<\/strong><br \/>(-11 for losing)
+|leave|erik1erik
+|player|p1

@@ -1,0 +1,283 @@
+﻿|join|Markoc
+|join|Zorage
+|player|p1|Markoc|162
+|player|p2|Zorage|166
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Weezing|Weezing, L90|300\/300
+|switch|p2a: Weedle|Weedle, L99|280\/280
+|turn|1
+|c|★Markoc|hi
+|c|★Zorage|It starts so good
+|c|★Markoc|xD
+|
+|move|p2a: Weedle|String Shot|p1a: Weezing
+|-unboost|p1a: Weezing|spe|1
+|move|p1a: Weezing|Fire Blast|p2a: Weedle
+|-supereffective|p2a: Weedle
+|-damage|p2a: Weedle|0 fnt
+|faint|p2a: Weedle
+|c|★Markoc|hahahha
+|
+|switch|p2a: Onix|Onix, L90|246\/246
+|turn|2
+|
+|switch|p1a: Slowpoke|Slowpoke, L96|368\/368
+|move|p2a: Onix|Earthquake|p1a: Slowpoke
+|-damage|p1a: Slowpoke|292\/368
+|
+|turn|3
+|
+|switch|p2a: Jolteon|Jolteon, L79|265\/265
+|move|p1a: Slowpoke|Surf|p2a: Jolteon
+|-damage|p2a: Jolteon|198\/265
+|
+|turn|4
+|
+|switch|p1a: Nidoqueen|Nidoqueen, L85|327\/327
+|move|p2a: Jolteon|Thunderbolt|p1a: Nidoqueen
+|-immune|p1a: Nidoqueen|[msg]
+|
+|turn|5
+|
+|switch|p2a: Golbat|Golbat, L90|318\/318
+|move|p1a: Nidoqueen|Earthquake|p2a: Golbat
+|-immune|p2a: Golbat|[msg]
+|
+|turn|6
+|c|★Zorage|You have all and me nothing
+|
+|move|p2a: Golbat|Confuse Ray|p1a: Nidoqueen
+|-start|p1a: Nidoqueen|confusion
+|-activate|p1a: Nidoqueen|confusion
+|-damage|p1a: Nidoqueen|298\/327|[from] confusion
+|
+|turn|7
+|
+|move|p2a: Golbat|Mega Drain|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|266\/327
+|-activate|p1a: Nidoqueen|confusion
+|move|p1a: Nidoqueen|Blizzard|p2a: Golbat
+|-supereffective|p2a: Golbat
+|-damage|p2a: Golbat|169\/318
+|
+|turn|8
+|
+|switch|p2a: Cloyster|Cloyster, L83|253\/253
+|-activate|p1a: Nidoqueen|confusion
+|move|p1a: Nidoqueen|Thunder|p2a: Cloyster|[miss]
+|-miss|p1a: Nidoqueen
+|
+|turn|9
+|c|★Markoc|:OOO
+|
+|-end|p1a: Nidoqueen|confusion
+|move|p1a: Nidoqueen|Thunder|p2a: Cloyster
+|-supereffective|p2a: Cloyster
+|-damage|p2a: Cloyster|106\/253
+|-status|p2a: Cloyster|par
+|move|p2a: Cloyster|Ice Beam|p1a: Nidoqueen
+|-supereffective|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|80\/327
+|
+|turn|10
+|
+|switch|p2a: Onix|Onix, L90|246\/246
+|move|p1a: Nidoqueen|Thunder|p2a: Onix
+|-immune|p2a: Onix|[msg]
+|
+|turn|11
+|
+|switch|p1a: Slowpoke|Slowpoke, L96|292\/368
+|move|p2a: Onix|Earthquake|p1a: Slowpoke
+|-damage|p1a: Slowpoke|212\/368
+|
+|turn|12
+|
+|switch|p2a: Jolteon|Jolteon, L79|198\/265
+|move|p1a: Slowpoke|Amnesia|p1a: Slowpoke
+|-boost|p1a: Slowpoke|spd|2
+|-boost|p1a: Slowpoke|spa|2
+|
+|turn|13
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Slowpoke
+|-supereffective|p1a: Slowpoke
+|-damage|p1a: Slowpoke|80\/368
+|move|p1a: Slowpoke|Rest|p1a: Slowpoke
+|-status|p1a: Slowpoke|slp
+|-heal|p1a: Slowpoke|368\/368 slp|[silent]
+|-status|p1a: Slowpoke|slp|[from] move: Rest
+|
+|turn|14
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Slowpoke
+|-supereffective|p1a: Slowpoke
+|-damage|p1a: Slowpoke|244\/368 slp
+|cant|p1a: Slowpoke|slp
+|
+|turn|15
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Slowpoke
+|-crit|p1a: Slowpoke
+|-supereffective|p1a: Slowpoke
+|-damage|p1a: Slowpoke|0 fnt
+|faint|p1a: Slowpoke
+|
+|switch|p1a: Nidoqueen|Nidoqueen, L85|80\/327
+|turn|16
+|c|★Markoc|ouch
+|
+|move|p2a: Jolteon|Body Slam|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|36\/327
+|move|p1a: Nidoqueen|Blizzard|p2a: Jolteon
+|-damage|p2a: Jolteon|125\/265
+|
+|turn|17
+|
+|move|p2a: Jolteon|Body Slam|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|0 fnt
+|faint|p1a: Nidoqueen
+|
+|switch|p1a: Alakazam|Alakazam, L79|249\/249
+|turn|18
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|98\/249
+|move|p1a: Alakazam|Psychic|p2a: Jolteon
+|-damage|p2a: Jolteon|22\/265
+|
+|turn|19
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Alakazam
+|-damage|p1a: Alakazam|20\/249
+|move|p1a: Alakazam|Psychic|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|
+|switch|p2a: Onix|Onix, L90|246\/246
+|turn|20
+|
+|move|p1a: Alakazam|Reflect|p1a: Alakazam
+|-start|p1a: Alakazam|Reflect
+|move|p2a: Onix|Earthquake|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|switch|p1a: Omastar|Omastar, L90|309\/309
+|turn|21
+|
+|switch|p2a: Cloyster|Cloyster, L83|106\/253 par
+|move|p1a: Omastar|Hydro Pump|p2a: Cloyster
+|-resisted|p2a: Cloyster
+|-damage|p2a: Cloyster|24\/253 par
+|
+|turn|22
+|
+|move|p1a: Omastar|Seismic Toss|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p2a: Cloyster
+|
+|switch|p2a: Golbat|Golbat, L90|169\/318
+|turn|23
+|
+|switch|p1a: Weezing|Weezing, L90|300\/300
+|move|p2a: Golbat|Mega Drain|p1a: Weezing
+|-crit|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|274\/300
+|-heal|p2a: Golbat|182\/318|[from] drain|[of] p1a: Weezing
+|
+|turn|24
+|
+|switch|p2a: Onix|Onix, L90|246\/246
+|move|p1a: Weezing|Thunderbolt|p2a: Onix
+|-immune|p2a: Onix|[msg]
+|
+|turn|25
+|
+|move|p2a: Onix|Earthquake|p1a: Weezing
+|-supereffective|p1a: Weezing
+|-damage|p1a: Weezing|154\/300
+|move|p1a: Weezing|Fire Blast|p2a: Onix
+|-resisted|p2a: Onix
+|-damage|p2a: Onix|176\/246
+|
+|turn|26
+|
+|move|p2a: Onix|Earthquake|p1a: Weezing
+|-supereffective|p1a: Weezing
+|-damage|p1a: Weezing|39\/300
+|move|p1a: Weezing|Explosion|p2a: Onix
+|-resisted|p2a: Onix
+|-damage|p2a: Onix|96\/246
+|faint|p1a: Weezing
+|
+|switch|p1a: Omastar|Omastar, L90|309\/309
+|turn|27
+|
+|switch|p2a: Ditto|Ditto, L99|296\/296
+|move|p1a: Omastar|Hydro Pump|p2a: Ditto|[miss]
+|-miss|p1a: Omastar
+|
+|turn|28
+|
+|switch|p1a: Electrode|Electrode, L90|291\/291
+|move|p2a: Ditto|Transform|p1a: Electrode
+|-transform|p2a: Ditto|p1a: Electrode
+|
+|turn|29
+|
+|move|p1a: Electrode|Explosion|p2a: Ditto
+|-crit|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|faint|p1a: Electrode
+|
+|switch|p2a: Golbat|Golbat, L90|182\/318
+|switch|p1a: Omastar|Omastar, L90|309\/309
+|turn|30
+|
+|move|p2a: Golbat|Mega Drain|p1a: Omastar
+|-supereffective|p1a: Omastar
+|-damage|p1a: Omastar|227\/309
+|-heal|p2a: Golbat|223\/318|[from] drain|[of] p1a: Omastar
+|move|p1a: Omastar|Blizzard|p2a: Golbat
+|-supereffective|p2a: Golbat
+|-damage|p2a: Golbat|0 fnt
+|faint|p2a: Golbat
+|c|★Markoc|down to this
+|
+|switch|p2a: Onix|Onix, L90|96\/246
+|turn|31
+|c|★Zorage|With so bad team
+|
+|move|p2a: Onix|Earthquake|p1a: Omastar
+|-supereffective|p1a: Omastar
+|-damage|p1a: Omastar|110\/309
+|move|p1a: Omastar|Hydro Pump|p2a: Onix|[miss]
+|-miss|p1a: Omastar
+|
+|turn|32
+|c|★Markoc|oh no
+|c|★Zorage|OMG
+|
+|move|p2a: Onix|Earthquake|p1a: Omastar
+|-supereffective|p1a: Omastar
+|-damage|p1a: Omastar|0 fnt
+|faint|p1a: Omastar
+|
+|win|Zorage
+|c|★Markoc|hahah gg
+|c|★Markoc|xD
+|c|★Zorage|Won with this team !!!
+|leave|Markoc
+|player|p1
+|c|★Zorage|Lot of luck involved here

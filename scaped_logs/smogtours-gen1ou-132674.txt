@@ -1,0 +1,358 @@
+﻿|J|Nails
+|J|Dice
+|player|p1|Nails|282
+|player|p2|Dice|2
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|seed|31574,48978,49962,36014
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333\/333
+|switch|p2a: Jynx|Jynx|333\/333
+|turn|1
+|choice|move 1|move 4
+|
+|move|p2a: Jynx|Lovely Kiss|p1a: Jynx|[miss]
+|-miss|p2a: Jynx
+|move|p1a: Jynx|Lovely Kiss|p2a: Jynx
+|-status|p2a: Jynx|slp
+|
+|turn|2
+|choice|move 2|move 1
+|
+|move|p1a: Jynx|Blizzard|p2a: Jynx|[miss]
+|-miss|p1a: Jynx
+|cant|p2a: Jynx|slp
+|
+|turn|3
+|choice|move 2|switch 6
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Jynx|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|564\/703
+|
+|turn|4
+|choice|switch 3|move 1
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|630\/703
+|
+|turn|5
+|choice|move 2|move 1
+|
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|494\/703
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|560\/703
+|-status|p1a: Chansey|frz
+|
+|turn|6
+|choice|switch 6|move 3
+|
+|switch|p1a: Snorlax|Snorlax, M|523\/523
+|move|p2a: Chansey|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|
+|turn|7
+|choice|move 1|move 2
+|
+|move|p1a: Snorlax|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|183\/703
+|move|p2a: Chansey|Counter|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|choice|switch 5|
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|8
+|c|★Nails|dam
+|c|★Nails|ice beam counter
+|c|★Nails|who does that
+|choice|move 1|switch 4
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Tauros|Body Slam|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-damage|p2a: Exeggutor|192\/393
+|-status|p2a: Exeggutor|par
+|
+|turn|9
+|choice|move 3|move 3
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Exeggutor|[miss]
+|-miss|p1a: Tauros
+|move|p2a: Exeggutor|Explosion|p1a: Tauros
+|-damage|p1a: Tauros|70\/353
+|faint|p2a: Exeggutor
+|c|★Nails|-
+|choice||switch 3
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|10
+|choice|switch 4|move 1
+|
+|switch|p1a: Lapras|Lapras, M|463\/463
+|move|p2a: Tauros|Body Slam|p1a: Lapras
+|-damage|p1a: Lapras|352\/463
+|-status|p1a: Lapras|par
+|
+|turn|11
+|choice|move 3|switch 2
+|
+|switch|p2a: Lapras|Lapras|463\/463
+|move|p1a: Lapras|Confuse Ray|p2a: Lapras
+|-start|p2a: Lapras|confusion
+|
+|turn|12
+|choice|move 3|switch 4
+|
+|switch|p2a: Chansey|Chansey|183\/703
+|move|p1a: Lapras|Confuse Ray|p2a: Chansey
+|-start|p2a: Chansey|confusion
+|
+|turn|13
+|choice|move 4|move 4
+|
+|-activate|p2a: Chansey|confusion
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|534\/703
+|move|p1a: Lapras|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|362\/703
+|
+|turn|14
+|choice|switch 4|move 4
+|
+|switch|p1a: Tauros|Tauros|70\/353
+|-activate|p2a: Chansey|confusion
+|-damage|p2a: Chansey|327\/703|[from] confusion
+|
+|turn|15
+|choice|move 1|move 1
+|
+|move|p1a: Tauros|Body Slam|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|choice||switch 2
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|16
+|choice|switch 6|move 1
+|
+|switch|p1a: Chansey|Chansey|560\/703 frz
+|move|p2a: Tauros|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|297\/703 frz
+|
+|turn|17
+|choice|switch 4|move 1
+|
+|switch|p1a: Lapras|Lapras, M|352\/463 par
+|move|p2a: Tauros|Body Slam|p1a: Lapras
+|-damage|p1a: Lapras|238\/463 par
+|
+|turn|18
+|choice|move 1|move 1
+|
+|move|p2a: Tauros|Body Slam|p1a: Lapras
+|-damage|p1a: Lapras|131\/463 par
+|cant|p1a: Lapras|par
+|
+|turn|19
+|c|★Nails|f*ck
+|choice|switch 4|move 1
+|
+|switch|p1a: Chansey|Chansey|297\/703 frz
+|move|p2a: Tauros|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|27\/703 frz
+|
+|turn|20
+|choice|move 1|move 1
+|
+|move|p2a: Tauros|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|choice|switch 2|
+|
+|switch|p1a: Exeggutor|Exeggutor, M|393\/393
+|turn|21
+|choice|move 2|move 1
+|
+|move|p2a: Tauros|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|289\/393
+|move|p1a: Exeggutor|Stun Spore|p2a: Tauros
+|-status|p2a: Tauros|par
+|
+|turn|22
+|choice|move 3|move 1
+|
+|move|p1a: Exeggutor|Psychic|p2a: Tauros
+|-damage|p2a: Tauros|208\/353 par
+|-unboost|p2a: Tauros|spd|1
+|-unboost|p2a: Tauros|spa|1
+|move|p2a: Tauros|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|180\/393
+|
+|turn|23
+|choice|move 2|switch 6
+|
+|switch|p2a: Jynx|Jynx|333\/333 slp
+|move|p1a: Exeggutor|Stun Spore|p2a: Jynx
+|-fail|p2a: Jynx
+|
+|turn|24
+|choice|switch 3|move 1
+|
+|switch|p1a: Jynx|Jynx|333\/333
+|-curestatus|p2a: Jynx|slp
+|
+|turn|25
+|choice|move 1|move 4
+|
+|move|p2a: Jynx|Lovely Kiss|p1a: Jynx
+|-status|p1a: Jynx|slp
+|-curestatus|p1a: Jynx|slp
+|
+|turn|26
+|choice|move 1|move 4
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: Jynx
+|-status|p2a: Jynx|slp
+|cant|p2a: Jynx|slp
+|
+|turn|27
+|choice|move 3|switch 4
+|
+|switch|p2a: Lapras|Lapras|463\/463
+|move|p1a: Jynx|Psychic|p2a: Lapras
+|-damage|p2a: Lapras|353\/463
+|
+|turn|28
+|J|the pdc show
+|choice|move 3|move 4
+|
+|move|p1a: Jynx|Psychic|p2a: Lapras
+|-damage|p2a: Lapras|243\/463
+|move|p2a: Lapras|Body Slam|p1a: Jynx
+|-damage|p1a: Jynx|221\/333
+|
+|turn|29
+|L|the pdc show
+|choice|move 3|move 4
+|
+|move|p1a: Jynx|Psychic|p2a: Lapras
+|-damage|p2a: Lapras|138\/463
+|move|p2a: Lapras|Body Slam|p1a: Jynx
+|-damage|p1a: Jynx|119\/333
+|-status|p1a: Jynx|par
+|
+|turn|30
+|choice|move 4|move 4
+|
+|move|p2a: Lapras|Body Slam|p1a: Jynx
+|-damage|p1a: Jynx|5\/333 par
+|move|p1a: Jynx|Rest|p1a: Jynx
+|-status|p1a: Jynx|slp
+|-heal|p1a: Jynx|333\/333 slp|[silent]
+|-status|p1a: Jynx|slp|[from] move: Rest
+|
+|turn|31
+|choice|move 3|move 4
+|
+|move|p2a: Lapras|Body Slam|p1a: Jynx
+|-damage|p1a: Jynx|229\/333 slp
+|cant|p1a: Jynx|slp
+|
+|turn|32
+|choice|move 3|move 4
+|
+|move|p2a: Lapras|Body Slam|p1a: Jynx
+|-damage|p1a: Jynx|121\/333 slp
+|-curestatus|p1a: Jynx|slp
+|
+|turn|33
+|choice|switch 4|move 4
+|
+|switch|p1a: Lapras|Lapras, M|131\/463 par
+|move|p2a: Lapras|Body Slam|p1a: Lapras
+|-damage|p1a: Lapras|59\/463 par
+|
+|turn|34
+|choice|move 2|move 2
+|
+|move|p2a: Lapras|Thunderbolt|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|choice|switch 4|
+|
+|switch|p1a: Jynx|Jynx|121\/333
+|turn|35
+|choice|move 3|move 4
+|
+|move|p1a: Jynx|Psychic|p2a: Lapras
+|-crit|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|choice||switch 5
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|turn|36
+|choice|move 2|move 2
+|
+|move|p1a: Jynx|Blizzard|p2a: Snorlax
+|-damage|p2a: Snorlax|355\/523
+|move|p2a: Snorlax|Body Slam|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|choice|switch 3|
+|
+|switch|p1a: Exeggutor|Exeggutor, M|180\/393
+|turn|37
+|choice|switch 6|move 2
+|
+|switch|p1a: Tauros|Tauros|70\/353
+|move|p2a: Snorlax|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|c|★Nails|ok gg
+|choice|switch 6|
+|
+|switch|p1a: Exeggutor|Exeggutor, M|180\/393
+|turn|38
+|choice|move 3|move 2
+|
+|move|p1a: Exeggutor|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|185\/523
+|-unboost|p2a: Snorlax|spd|1
+|-unboost|p2a: Snorlax|spa|1
+|move|p2a: Snorlax|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|60\/393
+|
+|turn|39
+|choice|move 3|move 2
+|
+|move|p1a: Exeggutor|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|choice||switch 6
+|
+|switch|p2a: Tauros|Tauros|208\/353 par
+|turn|40
+|choice|move 3|move 1
+|
+|move|p1a: Exeggutor|Psychic|p2a: Tauros
+|-damage|p2a: Tauros|41\/353 par
+|move|p2a: Tauros|Body Slam|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|win|Dice

@@ -1,0 +1,572 @@
+﻿|J|Fireburn
+|J|Dice
+|player|p1|Fireburn|160
+|player|p2|Dice|134
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|seed|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Starmie|Starmie|100\/100
+|switch|p2a: Starmie|Starmie|100\/100
+|turn|1
+|c|★Fireburn|good start
+|choice||
+|
+|switch|p1a: Chansey|Chansey|100\/100
+|move|p2a: Starmie|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|turn|2
+|J|megalati
+|choice||
+|
+|switch|p2a: Snorlax|Snorlax|100\/100
+|move|p1a: Chansey|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|
+|turn|3
+|J|WreckDra
+|choice||
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-start|p1a: Chansey|Reflect
+|move|p2a: Snorlax|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|78\/100 par
+|
+|turn|4
+|choice||
+|
+|switch|p2a: Starmie|Starmie|100\/100
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|70\/100
+|
+|turn|5
+|choice||
+|
+|move|p2a: Starmie|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|65\/100 par
+|move|p1a: Chansey|Thunder Wave|p2a: Starmie
+|-status|p2a: Starmie|par
+|
+|turn|6
+|choice||
+|
+|move|p2a: Starmie|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|100\/100 par
+|
+|turn|7
+|choice||
+|
+|move|p2a: Starmie|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|87\/100 par
+|cant|p1a: Chansey|par
+|
+|turn|8
+|choice||
+|
+|move|p2a: Starmie|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|73\/100 par
+|cant|p1a: Chansey|par
+|
+|turn|9
+|choice||
+|
+|cant|p2a: Starmie|par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|100\/100 par
+|
+|turn|10
+|choice||
+|
+|move|p2a: Starmie|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|87\/100 par
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|39\/100 par
+|
+|turn|11
+|choice||
+|
+|switch|p1a: Zapdos|Zapdos|100\/100
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|88\/100 par
+|
+|turn|12
+|choice||
+|
+|switch|p2a: Golem|Golem|100\/100
+|move|p1a: Zapdos|Thunderbolt|p2a: Golem
+|-immune|p2a: Golem|[msg]
+|
+|turn|13
+|choice||
+|
+|switch|p1a: Exeggutor|Exeggutor|100\/100
+|move|p2a: Golem|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|80\/100
+|-status|p1a: Exeggutor|par
+|
+|turn|14
+|choice||
+|
+|switch|p2a: Starmie|Starmie|88\/100 par
+|move|p1a: Exeggutor|Psychic|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|70\/100 par
+|
+|turn|15
+|choice||
+|
+|switch|p1a: Chansey|Chansey|87\/100 par
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|100\/100 par
+|
+|turn|16
+|choice||
+|
+|move|p2a: Starmie|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|72\/100 par
+|cant|p1a: Chansey|par
+|
+|turn|17
+|choice||
+|
+|move|p2a: Starmie|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|56\/100 par
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|100\/100 par
+|
+|turn|18
+|choice||
+|
+|cant|p2a: Starmie|par
+|cant|p1a: Chansey|par
+|
+|turn|19
+|choice||
+|
+|cant|p2a: Starmie|par
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-start|p1a: Chansey|Reflect
+|
+|turn|20
+|choice||
+|
+|move|p2a: Starmie|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|79\/100 par
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|70\/100 par
+|
+|turn|21
+|choice||
+|
+|move|p2a: Starmie|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|60\/100 par
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|39\/100 par
+|
+|turn|22
+|choice||
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|88\/100 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|100\/100 par
+|
+|turn|23
+|J|boudouche
+|choice||
+|
+|cant|p2a: Starmie|par
+|cant|p1a: Chansey|par
+|
+|turn|24
+|L|boudouche
+|choice||
+|
+|move|p2a: Starmie|Psychic|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|70\/100 par
+|cant|p1a: Chansey|par
+|
+|turn|25
+|choice||
+|
+|switch|p2a: Lapras|Lapras|100\/100
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|100\/100 par
+|
+|turn|26
+|choice||
+|
+|move|p2a: Lapras|Confuse Ray|p1a: Chansey
+|-start|p1a: Chansey|confusion
+|-activate|p1a: Chansey|confusion
+|cant|p1a: Chansey|par
+|
+|turn|27
+|choice||
+|
+|move|p2a: Lapras|Blizzard|p1a: Chansey|[miss]
+|-miss|p2a: Lapras
+|-activate|p1a: Chansey|confusion
+|move|p1a: Chansey|Thunder Wave|p2a: Lapras
+|-status|p2a: Lapras|par
+|
+|turn|28
+|choice||
+|
+|move|p2a: Lapras|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|71\/100 par
+|-activate|p1a: Chansey|confusion
+|move|p1a: Chansey|Seismic Toss|p2a: Lapras
+|-damage|p2a: Lapras|79\/100 par
+|
+|turn|29
+|choice||
+|
+|switch|p1a: Starmie|Starmie|100\/100
+|cant|p2a: Lapras|par
+|
+|turn|30
+|choice||
+|
+|switch|p1a: Chansey|Chansey|71\/100 par
+|move|p2a: Lapras|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|47\/100 par
+|
+|turn|31
+|choice||
+|
+|move|p2a: Lapras|Confuse Ray|p1a: Chansey
+|-start|p1a: Chansey|confusion
+|-activate|p1a: Chansey|confusion
+|-damage|p1a: Chansey|42\/100 par|[from] confusion
+|
+|turn|32
+|choice||
+|
+|switch|p1a: Zapdos|Zapdos|100\/100
+|move|p2a: Lapras|Body Slam|p1a: Zapdos
+|-damage|p1a: Zapdos|83\/100
+|
+|turn|33
+|choice||
+|
+|switch|p1a: Exeggutor|Exeggutor|80\/100 par
+|switch|p2a: Golem|Golem|100\/100
+|
+|turn|34
+|choice||
+|
+|switch|p2a: Lapras|Lapras|79\/100 par
+|move|p1a: Exeggutor|Mega Drain|p2a: Lapras
+|-crit|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|27\/100 par
+|-heal|p1a: Exeggutor|100\/100 par|[from] drain|[of] p2a: Lapras
+|
+|turn|35
+|choice||
+|
+|switch|p1a: Starmie|Starmie|100\/100
+|cant|p2a: Lapras|par
+|
+|turn|36
+|choice||
+|
+|switch|p2a: Snorlax|Snorlax|100\/100 par
+|move|p1a: Starmie|Thunderbolt|p2a: Snorlax
+|-damage|p2a: Snorlax|83\/100 par
+|
+|turn|37
+|choice||
+|
+|move|p1a: Starmie|Blizzard|p2a: Snorlax
+|-damage|p2a: Snorlax|59\/100 par
+|move|p2a: Snorlax|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|62\/100
+|
+|turn|38
+|choice||
+|
+|switch|p1a: Exeggutor|Exeggutor|100\/100 par
+|cant|p2a: Snorlax|par
+|
+|turn|39
+|choice||
+|
+|switch|p2a: Starmie|Starmie|88\/100 par
+|cant|p1a: Exeggutor|par
+|
+|turn|40
+|choice||
+|
+|switch|p2a: Exeggutor|Exeggutor|100\/100
+|switch|p1a: Chansey|Chansey|42\/100 par
+|
+|turn|41
+|choice||
+|
+|move|p2a: Exeggutor|Double-Edge|p1a: Chansey
+|-damage|p1a: Chansey|10\/100 par
+|-damage|p2a: Exeggutor|86\/100|[from] recoil|[of] p1a: Chansey
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|60\/100 par
+|
+|turn|42
+|choice||
+|
+|move|p2a: Exeggutor|Double-Edge|p1a: Chansey
+|-damage|p1a: Chansey|30\/100 par
+|-damage|p2a: Exeggutor|73\/100|[from] recoil|[of] p1a: Chansey
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|80\/100 par
+|
+|turn|43
+|choice||
+|
+|switch|p2a: Golem|Golem|100\/100
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-start|p1a: Chansey|Reflect
+|
+|turn|44
+|choice||
+|
+|move|p2a: Golem|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|56\/100 par
+|move|p1a: Chansey|Seismic Toss|p2a: Golem
+|-damage|p2a: Golem|73\/100
+|
+|turn|45
+|choice||
+|
+|move|p2a: Golem|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|31\/100 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|81\/100 par
+|
+|turn|46
+|choice||
+|
+|move|p2a: Golem|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|57\/100 par
+|move|p1a: Chansey|Seismic Toss|p2a: Golem
+|-damage|p2a: Golem|45\/100
+|
+|turn|47
+|choice||
+|
+|move|p2a: Golem|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|31\/100 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|81\/100 par
+|
+|turn|48
+|choice||
+|
+|move|p2a: Golem|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|57\/100 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|100\/100 par
+|
+|turn|49
+|choice||
+|
+|move|p2a: Golem|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|78\/100 par
+|move|p1a: Chansey|Seismic Toss|p2a: Golem
+|-damage|p2a: Golem|18\/100
+|
+|turn|50
+|choice||
+|
+|switch|p1a: Exeggutor|Exeggutor|100\/100 par
+|move|p2a: Golem|Explosion|p1a: Exeggutor
+|-damage|p1a: Exeggutor|17\/100 par
+|faint|p2a: Golem
+|choice||
+|
+|switch|p2a: Tauros|Tauros|100\/100
+|turn|51
+|choice||
+|
+|move|p2a: Tauros|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|choice||
+|
+|switch|p1a: Starmie|Starmie|62\/100
+|turn|52
+|choice||
+|
+|switch|p2a: Snorlax|Snorlax|59\/100 par
+|move|p1a: Starmie|Thunder Wave|p2a: Snorlax
+|-fail|p2a: Snorlax|par
+|
+|turn|53
+|choice||
+|
+|switch|p1a: Chansey|Chansey|78\/100 par
+|move|p2a: Snorlax|Self-Destruct|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|faint|p2a: Snorlax
+|choice||
+|
+|switch|p1a: Zapdos|Zapdos|83\/100
+|switch|p2a: Exeggutor|Exeggutor|73\/100
+|turn|54
+|choice||
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|22\/100
+|move|p2a: Exeggutor|Sleep Powder|p1a: Zapdos
+|-status|p1a: Zapdos|slp
+|
+|turn|55
+|choice||
+|
+|switch|p2a: Tauros|Tauros|100\/100
+|cant|p1a: Zapdos|slp
+|
+|turn|56
+|choice||
+|
+|move|p2a: Tauros|Body Slam|p1a: Zapdos
+|-damage|p1a: Zapdos|53\/100 slp
+|cant|p1a: Zapdos|slp
+|
+|turn|57
+|choice||
+|
+|move|p2a: Tauros|Body Slam|p1a: Zapdos
+|-damage|p1a: Zapdos|22\/100 slp
+|cant|p1a: Zapdos|slp
+|
+|turn|58
+|choice||
+|
+|move|p2a: Tauros|Body Slam|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|choice||
+|
+|switch|p1a: Tauros|Tauros|100\/100
+|turn|59
+|choice||
+|
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|72\/100
+|move|p1a: Tauros|Blizzard|p2a: Tauros
+|-damage|p2a: Tauros|75\/100
+|
+|turn|60
+|choice||
+|
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|18\/100
+|move|p1a: Tauros|Blizzard|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|23\/100
+|
+|turn|61
+|choice||
+|
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|choice||
+|
+|switch|p1a: Jolteon|Jolteon|100\/100
+|turn|62
+|choice||
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|choice||
+|
+|switch|p2a: Exeggutor|Exeggutor|22\/100
+|turn|63
+|choice||
+|
+|move|p1a: Jolteon|Pin Missile|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|4\/100
+|-damage|p2a: Exeggutor|0 fnt
+|-hitcount|p2a: Exeggutor|2
+|faint|p2a: Exeggutor
+|c|★Dice|gg
+|choice||
+|
+|switch|p2a: Lapras|Lapras|27\/100 par
+|turn|64
+|c|★Fireburn|gg
+|choice||
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|c|★Dice|why did u blizz
+|c|★Dice|in the tauros ditto
+|c|★Dice|._.
+|choice||
+|
+|switch|p2a: Starmie|Starmie|88\/100 par
+|turn|65
+|c|★Fireburn|go for frz
+|c|★Dice|u know it can miss too right
+|c|★Fireburn|ya
+|c|★Dice|bslam is better
+|c|★Fireburn|but I wanted to frz
+|c|★Dice|unless u are behind
+|c|★Fireburn|i'm greedy
+|c|★Dice|is that a euphemism
+|c|★Dice|4 dumb
+|c|+WreckDra|the usual order is bslam -> blizz -> kill i thought
+|c|★Dice|no
+|c|★Fireburn|lol you got me dice
+|c|★Dice|double bslam is almost always best
+|choice||
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|11\/100 par
+|move|p2a: Starmie|Thunder Wave|p1a: Jolteon
+|-status|p1a: Jolteon|par
+|
+|turn|66
+|c|★Fireburn|it rly grinds ppl's gears when you frz them in the tauros ditto tho
+|choice||
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Starmie
+|-crit|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|win|Fireburn
+|player|p1
+|player|p2
+|c|★Fireburn|gg
+|c|★Dice|gg
+|L|WreckDra
+|L|Dice

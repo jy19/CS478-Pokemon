@@ -1,0 +1,176 @@
+﻿|join|FeralPup
+|join|andrewandres
+|player|p1|FeralPup|238
+|player|p2|andrewandres|1
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Golbat|Golbat, L90|318\/318
+|switch|p2a: Paras|Paras, L96|262\/262
+|turn|1
+|
+|move|p1a: Golbat|Confuse Ray|p2a: Paras
+|-start|p2a: Paras|confusion
+|-activate|p2a: Paras|confusion
+|move|p2a: Paras|Spore|p1a: Golbat
+|-status|p1a: Golbat|slp
+|
+|turn|2
+|
+|switch|p2a: Omastar|Omastar, L90|309\/309
+|cant|p1a: Golbat|slp
+|
+|turn|3
+|
+|cant|p1a: Golbat|slp
+|move|p2a: Omastar|Blizzard|p1a: Golbat
+|-supereffective|p1a: Golbat
+|-damage|p1a: Golbat|100\/318 slp
+|
+|turn|4
+|
+|cant|p1a: Golbat|slp
+|move|p2a: Omastar|Surf|p1a: Golbat
+|-damage|p1a: Golbat|0 fnt
+|faint|p1a: Golbat
+|
+|switch|p1a: Omastar|Omastar, L90|309\/309
+|turn|5
+|
+|move|p2a: Omastar|Surf|p1a: Omastar
+|-damage|p1a: Omastar|205\/309
+|move|p1a: Omastar|Hydro Pump|p2a: Omastar|[miss]
+|-miss|p1a: Omastar
+|
+|turn|6
+|
+|move|p2a: Omastar|Surf|p1a: Omastar
+|-crit|p1a: Omastar
+|-damage|p1a: Omastar|17\/309
+|move|p1a: Omastar|Hydro Pump|p2a: Omastar
+|-damage|p2a: Omastar|175\/309
+|
+|turn|7
+|
+|switch|p1a: Lickitung|Lickitung, L90|345\/345
+|move|p2a: Omastar|Surf|p1a: Lickitung
+|-crit|p1a: Lickitung
+|-damage|p1a: Lickitung|60\/345
+|
+|turn|8
+|
+|move|p2a: Omastar|Surf|p1a: Lickitung
+|-crit|p1a: Lickitung
+|-damage|p1a: Lickitung|0 fnt
+|faint|p1a: Lickitung
+|
+|switch|p1a: Hitmonlee|Hitmonlee, L90|273\/273
+|turn|9
+|
+|move|p1a: Hitmonlee|Body Slam|p2a: Omastar
+|-resisted|p2a: Omastar
+|-damage|p2a: Omastar|148\/309
+|move|p2a: Omastar|Surf|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|82\/273
+|
+|turn|10
+|
+|move|p1a: Hitmonlee|High Jump Kick|p2a: Omastar
+|-supereffective|p2a: Omastar
+|-damage|p2a: Omastar|0 fnt
+|faint|p2a: Omastar
+|
+|switch|p2a: Kadabra|Kadabra, L85|242\/242
+|turn|11
+|
+|move|p2a: Kadabra|Psychic|p1a: Hitmonlee
+|-supereffective|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|0 fnt
+|faint|p1a: Hitmonlee
+|
+|switch|p1a: Abra|Abra, L96|243\/243
+|turn|12
+|
+|move|p1a: Abra|Thunder Wave|p2a: Kadabra
+|-status|p2a: Kadabra|par
+|move|p2a: Kadabra|Thunder Wave|p1a: Abra
+|-status|p1a: Abra|par
+|
+|turn|13
+|
+|cant|p1a: Abra|par
+|move|p2a: Kadabra|Psychic|p1a: Abra
+|-resisted|p1a: Abra
+|-damage|p1a: Abra|201\/243 par
+|-unboost|p1a: Abra|spd|1
+|-unboost|p1a: Abra|spa|1
+|
+|turn|14
+|
+|move|p2a: Kadabra|Psychic|p1a: Abra
+|-resisted|p1a: Abra
+|-damage|p1a: Abra|132\/243 par
+|-unboost|p1a: Abra|spd|1
+|-unboost|p1a: Abra|spa|1
+|move|p1a: Abra|Reflect|p1a: Abra
+|-start|p1a: Abra|Reflect
+|
+|turn|15
+|
+|move|p2a: Kadabra|Psychic|p1a: Abra
+|-resisted|p1a: Abra
+|-damage|p1a: Abra|48\/243 par
+|move|p1a: Abra|Psychic|p2a: Kadabra
+|-resisted|p2a: Kadabra
+|-damage|p2a: Kadabra|217\/242 par
+|
+|turn|16
+|
+|move|p2a: Kadabra|Seismic Toss|p1a: Abra
+|-damage|p1a: Abra|0 fnt
+|faint|p1a: Abra
+|
+|switch|p1a: Rhydon|Rhydon, L79|328\/328
+|turn|17
+|
+|move|p1a: Rhydon|Earthquake|p2a: Kadabra
+|-damage|p2a: Kadabra|23\/242 par
+|move|p2a: Kadabra|Psychic|p1a: Rhydon
+|-crit|p1a: Rhydon
+|-damage|p1a: Rhydon|14\/328
+|-unboost|p1a: Rhydon|spd|1
+|-unboost|p1a: Rhydon|spa|1
+|
+|turn|18
+|
+|move|p1a: Rhydon|Earthquake|p2a: Kadabra
+|-damage|p2a: Kadabra|0 fnt
+|faint|p2a: Kadabra
+|
+|switch|p2a: Charizard|Charizard, L85|306\/306
+|turn|19
+|
+|move|p2a: Charizard|Earthquake|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|c|★andrewandres|gg
+|
+|switch|p1a: Omastar|Omastar, L90|17\/309
+|turn|20
+|
+|move|p2a: Charizard|Earthquake|p1a: Omastar
+|-supereffective|p1a: Omastar
+|-damage|p1a: Omastar|0 fnt
+|faint|p1a: Omastar
+|
+|win|andrewandres
+|raw|Ladder updating...
+|raw|FeralPup's rating: 1000 &rarr; <strong>1000<\/strong><br \/>(+0 for losing)
+|raw|andrewandres's rating: 1000 &rarr; <strong>1040<\/strong><br \/>(+40 for winning)

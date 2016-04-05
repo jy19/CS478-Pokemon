@@ -1,0 +1,202 @@
+﻿|join|erik1erik
+|join|Dervodel
+|player|p1|erik1erik|266
+|player|p2|Dervodel|169
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Articuno|Articuno, L79|304\/304
+|switch|p2a: Mewtwo|Mewtwo, L70|293\/293
+|turn|1
+|
+|switch|p1a: Slowpoke|Slowpoke, L96|368\/368
+|move|p2a: Mewtwo|Thunder Wave|p1a: Slowpoke
+|-status|p1a: Slowpoke|par
+|
+|turn|2
+|
+|move|p2a: Mewtwo|Body Slam|p1a: Slowpoke
+|-damage|p1a: Slowpoke|318\/368 par
+|cant|p1a: Slowpoke|par
+|
+|turn|3
+|
+|switch|p2a: Persian|Persian, L79|265\/265
+|move|p1a: Slowpoke|Thunder Wave|p2a: Persian
+|-status|p2a: Persian|par
+|
+|turn|4
+|
+|move|p2a: Persian|Slash|p1a: Slowpoke
+|-crit|p1a: Slowpoke
+|-damage|p1a: Slowpoke|209\/368 par
+|cant|p1a: Slowpoke|par
+|
+|turn|5
+|
+|move|p2a: Persian|Slash|p1a: Slowpoke
+|-crit|p1a: Slowpoke
+|-damage|p1a: Slowpoke|95\/368 par
+|move|p1a: Slowpoke|Rest|p1a: Slowpoke
+|-status|p1a: Slowpoke|slp
+|-heal|p1a: Slowpoke|368\/368 slp|[silent]
+|-status|p1a: Slowpoke|slp|[from] move: Rest
+|
+|turn|6
+|
+|switch|p1a: Dragonair|Dragonair, L85|277\/277
+|move|p2a: Persian|Slash|p1a: Dragonair
+|-crit|p1a: Dragonair
+|-damage|p1a: Dragonair|154\/277
+|
+|turn|7
+|
+|move|p1a: Dragonair|Ice Beam|p2a: Persian
+|-damage|p2a: Persian|194\/265 par
+|move|p2a: Persian|Body Slam|p1a: Dragonair
+|-damage|p1a: Dragonair|80\/277
+|
+|turn|8
+|
+|move|p1a: Dragonair|Body Slam|p2a: Persian
+|-damage|p2a: Persian|123\/265 par
+|cant|p2a: Persian|par
+|
+|turn|9
+|
+|move|p1a: Dragonair|Body Slam|p2a: Persian
+|-crit|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|faint|p2a: Persian
+|
+|switch|p2a: Krabby|Krabby, L96|252\/252
+|turn|10
+|
+|move|p1a: Dragonair|Thunder|p2a: Krabby|[miss]
+|-miss|p1a: Dragonair
+|move|p2a: Krabby|Swords Dance|p2a: Krabby
+|-boost|p2a: Krabby|atk|2
+|
+|turn|11
+|
+|move|p1a: Dragonair|Thunder|p2a: Krabby
+|-supereffective|p2a: Krabby
+|-damage|p2a: Krabby|35\/252
+|move|p2a: Krabby|Body Slam|p1a: Dragonair
+|-damage|p1a: Dragonair|0 fnt
+|faint|p1a: Dragonair
+|
+|switch|p1a: Raticate|Raticate, L85|267\/267
+|turn|12
+|
+|move|p1a: Raticate|Body Slam|p2a: Krabby
+|-crit|p2a: Krabby
+|-damage|p2a: Krabby|0 fnt
+|faint|p2a: Krabby
+|
+|switch|p2a: Magneton|Magneton, L90|273\/273
+|turn|13
+|
+|move|p1a: Raticate|Super Fang|p2a: Magneton
+|-damage|p2a: Magneton|137\/273
+|move|p2a: Magneton|Thunderbolt|p1a: Raticate
+|-crit|p1a: Raticate
+|-damage|p1a: Raticate|0 fnt
+|faint|p1a: Raticate
+|
+|switch|p1a: Electabuzz|Electabuzz, L85|284\/284
+|turn|14
+|
+|switch|p2a: Rhyhorn|Rhyhorn, L96|348\/348
+|move|p1a: Electabuzz|Seismic Toss|p2a: Rhyhorn
+|-damage|p2a: Rhyhorn|263\/348
+|
+|turn|15
+|
+|switch|p1a: Articuno|Articuno, L79|304\/304
+|move|p2a: Rhyhorn|Substitute|p2a: Rhyhorn
+|-start|p2a: Rhyhorn|Substitute
+|-damage|p2a: Rhyhorn|176\/348
+|
+|turn|16
+|
+|switch|p1a: Slowpoke|Slowpoke, L96|368\/368 slp
+|move|p2a: Rhyhorn|Rock Slide|p1a: Slowpoke
+|-damage|p1a: Slowpoke|265\/368 slp
+|
+|turn|17
+|
+|move|p2a: Rhyhorn|Earthquake|p1a: Slowpoke
+|-damage|p1a: Slowpoke|122\/368 slp
+|cant|p1a: Slowpoke|slp
+|
+|turn|18
+|
+|move|p2a: Rhyhorn|Earthquake|p1a: Slowpoke
+|-damage|p1a: Slowpoke|0 fnt
+|faint|p1a: Slowpoke
+|
+|switch|p1a: Electabuzz|Electabuzz, L85|284\/284
+|turn|19
+|
+|move|p1a: Electabuzz|Psychic|p2a: Rhyhorn
+|-activate|p2a: Rhyhorn|Substitute|[damage]
+|move|p2a: Rhyhorn|Earthquake|p1a: Electabuzz
+|-supereffective|p1a: Electabuzz
+|-damage|p1a: Electabuzz|0 fnt
+|faint|p1a: Electabuzz
+|
+|switch|p1a: Beedrill|Beedrill, L90|300\/300
+|turn|20
+|
+|move|p1a: Beedrill|Twineedle|p2a: Rhyhorn
+|-end|p2a: Rhyhorn|Substitute
+|-hitcount|p2a: Rhyhorn|1
+|move|p2a: Rhyhorn|Earthquake|p1a: Beedrill
+|-damage|p1a: Beedrill|128\/300
+|
+|turn|21
+|
+|move|p1a: Beedrill|Twineedle|p2a: Rhyhorn
+|-damage|p2a: Rhyhorn|152\/348
+|-damage|p2a: Rhyhorn|128\/348
+|-hitcount|p2a: Rhyhorn|2
+|move|p2a: Rhyhorn|Earthquake|p1a: Beedrill
+|-damage|p1a: Beedrill|0 fnt
+|faint|p1a: Beedrill
+|
+|switch|p1a: Articuno|Articuno, L79|304\/304
+|turn|22
+|
+|move|p1a: Articuno|Ice Beam|p2a: Rhyhorn
+|-supereffective|p2a: Rhyhorn
+|-damage|p2a: Rhyhorn|0 fnt
+|faint|p2a: Rhyhorn
+|
+|switch|p2a: Magneton|Magneton, L90|137\/273
+|turn|23
+|
+|move|p2a: Magneton|Thunderbolt|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|92\/304
+|move|p1a: Articuno|Ice Beam|p2a: Magneton
+|-damage|p2a: Magneton|57\/273
+|
+|turn|24
+|
+|move|p2a: Magneton|Thunderbolt|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|0 fnt
+|faint|p1a: Articuno
+|
+|win|Dervodel
+|leave|erik1erik
+|player|p1
+|raw|erik1erik's rating: 1434 &rarr; <strong>1409<\/strong><br \/>(-25 for losing)
+|raw|Dervodel's rating: 1332 &rarr; <strong>1357<\/strong><br \/>(+25 for winning)

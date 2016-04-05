@@ -1,0 +1,354 @@
+﻿|j|Satsuu
+|j|PikachuFan7
+|player|p1|Satsuu|94
+|player|p2|PikachuFan7|266
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|seed|18254,1346,25082,30430
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Zapdos|Zapdos|383\/383
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|turn|1
+|choice|move 2|move 1
+|
+|move|p1a: Zapdos|Thunder Wave|p2a: Exeggutor
+|-status|p2a: Exeggutor|par
+|move|p2a: Exeggutor|Sleep Powder|p1a: Zapdos|[miss]
+|-miss|p2a: Exeggutor
+|
+|turn|2
+|j|Carlos1516
+|choice|switch 4|switch 2
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|switch|p2a: Golem|Golem|363\/363
+|
+|turn|3
+|l|Carlos1516
+|choice|move 3|switch 4
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Chansey|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|616\/703
+|
+|turn|4
+|choice|switch 3|move 1
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: Chansey|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|426\/523
+|
+|turn|5
+|choice|move 1|switch 4
+|
+|switch|p2a: Golem|Golem|363\/363
+|move|p1a: Snorlax|Earthquake|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|229\/363
+|
+|turn|6
+|choice|switch 3|move 2
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Golem|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|377\/703
+|
+|turn|7
+|choice|move 3|switch 6
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Chansey|Blizzard|p2a: Snorlax
+|-damage|p2a: Snorlax|393\/523
+|-status|p2a: Snorlax|frz
+|
+|turn|8
+|choice|move 1|switch 4
+|
+|switch|p2a: Chansey|Chansey|616\/703
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|turn|9
+|choice|move 4|move 4
+|
+|move|p1a: Chansey|Double-Edge|p2a: Chansey
+|-damage|p2a: Chansey|488\/703 par
+|-damage|p1a: Chansey|345\/703|[from] recoil|[of] p2a: Chansey
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|turn|10
+|choice|switch 3|move 1
+|
+|switch|p1a: Snorlax|Snorlax|426\/523
+|move|p2a: Chansey|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|332\/523
+|
+|turn|11
+|choice|move 1|move 4
+|
+|move|p1a: Snorlax|Earthquake|p2a: Chansey
+|-damage|p2a: Chansey|241\/703 par
+|move|p2a: Chansey|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|
+|turn|12
+|choice|move 1|move 2
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|592\/703 par
+|cant|p1a: Snorlax|par
+|
+|turn|13
+|choice|move 1|move 1
+|
+|cant|p2a: Chansey|par
+|move|p1a: Snorlax|Earthquake|p2a: Chansey
+|-damage|p2a: Chansey|363\/703 par
+|
+|turn|14
+|choice|move 2|switch 2
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393 par
+|move|p1a: Snorlax|Double-Edge|p2a: Exeggutor
+|-damage|p2a: Exeggutor|249\/393 par
+|-damage|p1a: Snorlax|296\/523 par|[from] recoil|[of] p2a: Exeggutor
+|
+|turn|15
+|choice|move 3|move 4
+|
+|cant|p2a: Exeggutor|par
+|move|p1a: Snorlax|Fire Blast|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|114\/393 par
+|
+|turn|16
+|choice|move 3|move 2
+|
+|move|p2a: Exeggutor|Explosion|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|faint|p2a: Exeggutor
+|choice|switch 4|switch 2
+|
+|switch|p1a: Zapdos|Zapdos|383\/383
+|switch|p2a: Chansey|Chansey|363\/703 par
+|turn|17
+|choice|move 4|move 4
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|choice||switch 6
+|
+|switch|p2a: Golem|Golem|229\/363
+|turn|18
+|choice|move 2|move 1
+|
+|move|p1a: Zapdos|Thunder Wave|p2a: Golem
+|-immune|p2a: Golem|[msg]
+|move|p2a: Golem|Body Slam|p1a: Zapdos
+|-damage|p1a: Zapdos|309\/383
+|
+|turn|19
+|choice|move 4|move 1
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|191\/363
+|move|p2a: Golem|Body Slam|p1a: Zapdos
+|-damage|p1a: Zapdos|224\/383
+|
+|turn|20
+|choice|move 1|move 1
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Golem
+|-immune|p2a: Golem|[msg]
+|move|p2a: Golem|Body Slam|p1a: Zapdos
+|-damage|p1a: Zapdos|142\/383
+|
+|turn|21
+|choice|switch 5|move 1
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|move|p2a: Golem|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|242\/323
+|
+|turn|22
+|choice|move 2|switch 5
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|move|p1a: Starmie|Hydro Pump|p2a: Starmie|[miss]
+|-miss|p1a: Starmie
+|
+|turn|23
+|choice|move 4|move 3
+|
+|move|p1a: Starmie|Thunder|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|130\/323
+|move|p2a: Starmie|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|95\/323
+|
+|turn|24
+|choice|switch 3|move 3
+|
+|switch|p1a: Chansey|Chansey|345\/703 par
+|move|p2a: Starmie|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|267\/703 par
+|
+|turn|25
+|choice|move 1|move 2
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|291\/323
+|move|p1a: Chansey|Thunder Wave|p2a: Starmie
+|-status|p2a: Starmie|par
+|
+|turn|26
+|choice|switch 2|switch 3
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|switch|p1a: Dragonite|Dragonite|385\/385
+|
+|turn|27
+|choice|move 3|move 3
+|
+|move|p2a: Tauros|Blizzard|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|choice|switch 6|
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|turn|28
+|choice|move 1|move 3
+|
+|move|p2a: Tauros|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|267\/393
+|move|p1a: Exeggutor|Psychic|p2a: Tauros
+|-damage|p2a: Tauros|189\/353
+|
+|turn|29
+|choice|move 1|switch 3
+|
+|switch|p2a: Starmie|Starmie|291\/323 par
+|move|p1a: Exeggutor|Psychic|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|229\/323 par
+|
+|turn|30
+|choice|move 4|move 1
+|
+|move|p1a: Exeggutor|Mega Drain|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|108\/323 par
+|-heal|p1a: Exeggutor|327\/393|[from] drain|[of] p2a: Starmie
+|cant|p2a: Starmie|par
+|
+|turn|31
+|choice|move 4|move 2
+|
+|move|p1a: Exeggutor|Mega Drain|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|-heal|p1a: Exeggutor|381\/393|[from] drain|[of] p2a: Starmie
+|faint|p2a: Starmie
+|choice||switch 3
+|
+|switch|p2a: Tauros|Tauros|189\/353
+|turn|32
+|choice|move 1|move 3
+|
+|move|p2a: Tauros|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|253\/393
+|move|p1a: Exeggutor|Psychic|p2a: Tauros
+|-damage|p2a: Tauros|32\/353
+|-unboost|p2a: Tauros|spd|1
+|-unboost|p2a: Tauros|spa|1
+|
+|turn|33
+|choice|move 4|move 2
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|choice|switch 5|
+|
+|switch|p1a: Zapdos|Zapdos|142\/383
+|turn|34
+|choice|move 4|move 2
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|choice|switch 2|
+|
+|switch|p1a: Chansey|Chansey|267\/703 par
+|turn|35
+|choice|move 3|move 2
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|choice|switch 3|
+|
+|switch|p1a: Starmie|Starmie|95\/323
+|turn|36
+|choice|move 3|move 2
+|
+|move|p1a: Starmie|Psychic|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|choice||switch 5
+|
+|switch|p2a: Golem|Golem|191\/363
+|turn|37
+|choice|move 2|move 4
+|
+|move|p1a: Starmie|Hydro Pump|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|choice||switch 4
+|
+|switch|p2a: Snorlax|Snorlax|393\/523 frz
+|turn|38
+|c|★PikachuFan7|Good game.
+|choice|move 3|move 1
+|
+|move|p1a: Starmie|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|254\/523 frz
+|cant|p2a: Snorlax|frz
+|
+|turn|39
+|c|★Satsuu|good game
+|choice|move 3|move 4
+|
+|move|p1a: Starmie|Psychic|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|win|Satsuu
+|player|p1
+|player|p2
+|raw|Satsuu's rating: 1000 &rarr; <strong>1065<\/strong><br \/>(+65 for winning)
+|raw|PikachuFan7's rating: 1254 &rarr; <strong>1214<\/strong><br \/>(-40 for losing)
+|l|PikachuFan7

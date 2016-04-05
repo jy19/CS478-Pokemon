@@ -1,0 +1,241 @@
+﻿|join|mlevalle
+|join|Dervodel
+|player|p1|mlevalle|169
+|player|p2|Dervodel|170
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Persian|Persian, L79|265\/265
+|switch|p2a: Abra|Abra, L96|243\/243
+|turn|1
+|
+|switch|p1a: Rhydon|Rhydon, L79|328\/328
+|move|p2a: Abra|Thunder Wave|p1a: Rhydon
+|-immune|p1a: Rhydon|[msg]
+|
+|turn|2
+|
+|move|p2a: Abra|Psychic|p1a: Rhydon
+|-damage|p1a: Rhydon|124\/328
+|move|p1a: Rhydon|Body Slam|p2a: Abra
+|-damage|p2a: Abra|120\/243
+|
+|turn|3
+|
+|switch|p1a: Horsea|Horsea, L96|252\/252
+|move|p2a: Abra|Psychic|p1a: Horsea
+|-crit|p1a: Horsea
+|-damage|p1a: Horsea|0 fnt
+|faint|p1a: Horsea
+|
+|switch|p1a: Persian|Persian, L79|265\/265
+|turn|4
+|
+|move|p2a: Abra|Thunder Wave|p1a: Persian
+|-status|p1a: Persian|par
+|move|p1a: Persian|Body Slam|p2a: Abra
+|-damage|p2a: Abra|0 fnt
+|faint|p2a: Abra
+|
+|switch|p2a: Weezing|Weezing, L90|300\/300
+|turn|5
+|
+|move|p2a: Weezing|Sludge|p1a: Persian
+|-crit|p1a: Persian
+|-damage|p1a: Persian|81\/265 par
+|cant|p1a: Persian|par
+|
+|turn|6
+|
+|switch|p1a: Rhydon|Rhydon, L79|124\/328
+|move|p2a: Weezing|Sludge|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|109\/328
+|
+|turn|7
+|
+|move|p2a: Weezing|Fire Blast|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|39\/328
+|move|p1a: Rhydon|Earthquake|p2a: Weezing
+|-supereffective|p2a: Weezing
+|-damage|p2a: Weezing|122\/300
+|
+|turn|8
+|
+|switch|p1a: Magmar|Magmar, L90|300\/300
+|move|p2a: Weezing|Fire Blast|p1a: Magmar
+|-resisted|p1a: Magmar
+|-damage|p1a: Magmar|254\/300
+|
+|turn|9
+|
+|move|p1a: Magmar|Fire Blast|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|
+|switch|p2a: Dugtrio|Dugtrio, L85|233\/233
+|turn|10
+|
+|switch|p1a: Persian|Persian, L79|81\/265 par
+|move|p2a: Dugtrio|Substitute|p2a: Dugtrio
+|-start|p2a: Dugtrio|Substitute
+|-damage|p2a: Dugtrio|175\/233
+|
+|turn|11
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Persian
+|-damage|p1a: Persian|0 fnt
+|faint|p1a: Persian
+|
+|switch|p1a: Lapras|Lapras, L79|367\/367
+|turn|12
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Lapras
+|-damage|p1a: Lapras|252\/367
+|move|p1a: Lapras|Ice Beam|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-end|p2a: Dugtrio|Substitute
+|
+|turn|13
+|
+|switch|p2a: Electabuzz|Electabuzz, L85|284\/284
+|move|p1a: Lapras|Ice Beam|p2a: Electabuzz
+|-damage|p2a: Electabuzz|193\/284
+|
+|turn|14
+|
+|switch|p1a: Magmar|Magmar, L90|254\/300
+|move|p2a: Electabuzz|Thunderbolt|p1a: Magmar
+|-damage|p1a: Magmar|160\/300
+|
+|turn|15
+|
+|move|p2a: Electabuzz|Thunderbolt|p1a: Magmar
+|-crit|p1a: Magmar
+|-damage|p1a: Magmar|0 fnt
+|faint|p1a: Magmar
+|
+|switch|p1a: Abra|Abra, L96|243\/243
+|turn|16
+|
+|switch|p2a: Jigglypuff|Jigglypuff, L99|428\/428
+|move|p1a: Abra|Psychic|p2a: Jigglypuff
+|-damage|p2a: Jigglypuff|224\/428
+|-unboost|p2a: Jigglypuff|spd|1
+|-unboost|p2a: Jigglypuff|spa|1
+|
+|turn|17
+|
+|move|p1a: Abra|Psychic|p2a: Jigglypuff
+|-damage|p2a: Jigglypuff|0 fnt
+|faint|p2a: Jigglypuff
+|
+|switch|p2a: Electabuzz|Electabuzz, L85|193\/284
+|turn|18
+|
+|move|p1a: Abra|Thunder Wave|p2a: Electabuzz
+|-status|p2a: Electabuzz|par
+|move|p2a: Electabuzz|Thunderbolt|p1a: Abra
+|-crit|p1a: Abra
+|-damage|p1a: Abra|95\/243
+|
+|turn|19
+|
+|switch|p1a: Rhydon|Rhydon, L79|39\/328
+|move|p2a: Electabuzz|Thunderbolt|p1a: Rhydon
+|-immune|p1a: Rhydon|[msg]
+|
+|turn|20
+|
+|move|p1a: Rhydon|Earthquake|p2a: Electabuzz
+|-supereffective|p2a: Electabuzz
+|-damage|p2a: Electabuzz|0 fnt
+|faint|p2a: Electabuzz
+|
+|switch|p2a: Dewgong|Dewgong, L85|327\/327
+|turn|21
+|
+|switch|p1a: Abra|Abra, L96|95\/243
+|move|p2a: Dewgong|Surf|p1a: Abra
+|-crit|p1a: Abra
+|-damage|p1a: Abra|0 fnt
+|faint|p1a: Abra
+|
+|switch|p1a: Lapras|Lapras, L79|252\/367
+|turn|22
+|
+|move|p2a: Dewgong|Body Slam|p1a: Lapras
+|-damage|p1a: Lapras|198\/367
+|move|p1a: Lapras|Confuse Ray|p2a: Dewgong
+|-start|p2a: Dewgong|confusion
+|
+|turn|23
+|
+|-activate|p2a: Dewgong|confusion
+|-damage|p2a: Dewgong|299\/327|[from] confusion
+|move|p1a: Lapras|Ice Beam|p2a: Dewgong
+|-resisted|p2a: Dewgong
+|-damage|p2a: Dewgong|278\/327
+|
+|turn|24
+|
+|-activate|p2a: Dewgong|confusion
+|-damage|p2a: Dewgong|250\/327|[from] confusion
+|move|p1a: Lapras|Thunderbolt|p2a: Dewgong
+|-supereffective|p2a: Dewgong
+|-damage|p2a: Dewgong|146\/327
+|
+|turn|25
+|
+|-end|p2a: Dewgong|confusion
+|move|p2a: Dewgong|Mimic|p1a: Lapras
+|-start|p2a: Dewgong|Mimic|Thunderbolt
+|move|p1a: Lapras|Confuse Ray|p2a: Dewgong
+|-start|p2a: Dewgong|confusion
+|
+|turn|26
+|
+|switch|p1a: Rhydon|Rhydon, L79|39\/328
+|-activate|p2a: Dewgong|confusion
+|move|p2a: Dewgong|Thunderbolt|p1a: Rhydon
+|-immune|p1a: Rhydon|[msg]
+|
+|turn|27
+|
+|-activate|p2a: Dewgong|confusion
+|move|p2a: Dewgong|Surf|p1a: Rhydon
+|-crit|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|
+|switch|p1a: Lapras|Lapras, L79|198\/367
+|turn|28
+|
+|-activate|p2a: Dewgong|confusion
+|move|p2a: Dewgong|Thunderbolt|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|53\/367
+|move|p1a: Lapras|Thunderbolt|p2a: Dewgong
+|-supereffective|p2a: Dewgong
+|-damage|p2a: Dewgong|29\/327
+|
+|turn|29
+|
+|-end|p2a: Dewgong|confusion
+|move|p2a: Dewgong|Thunderbolt|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|
+|win|Dervodel
+|c|★mlevalle|gg
+|leave|mlevalle
+|player|p1

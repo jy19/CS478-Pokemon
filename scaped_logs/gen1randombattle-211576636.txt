@@ -1,0 +1,273 @@
+﻿|join|SonicJaxx
+|join|Feena
+|player|p1|SonicJaxx|80
+|player|p2|Feena|170
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Dragonair|Dragonair, L86|280\/280
+|switch|p2a: Cubone|Cubone, L95|288\/288
+|turn|1
+|
+|switch|p2a: Golduck|Golduck, L86|313\/313
+|move|p1a: Dragonair|Blizzard|p2a: Golduck
+|-resisted|p2a: Golduck
+|-damage|p2a: Golduck|278\/313
+|
+|turn|2
+|
+|switch|p1a: Lickitung|Lickitung, L86|330\/330
+|move|p2a: Golduck|Blizzard|p1a: Lickitung
+|-damage|p1a: Lickitung|230\/330
+|
+|turn|3
+|
+|switch|p2a: Cubone|Cubone, L95|288\/288
+|move|p1a: Lickitung|Body Slam|p2a: Cubone
+|-damage|p2a: Cubone|231\/288
+|
+|turn|4
+|
+|move|p2a: Cubone|Blizzard|p1a: Lickitung
+|-damage|p1a: Lickitung|153\/330
+|move|p1a: Lickitung|Swords Dance|p1a: Lickitung
+|-boost|p1a: Lickitung|atk|2
+|
+|turn|5
+|
+|move|p2a: Cubone|Earthquake|p1a: Lickitung
+|-damage|p1a: Lickitung|46\/330
+|move|p1a: Lickitung|Body Slam|p2a: Cubone
+|-damage|p2a: Cubone|120\/288
+|
+|turn|6
+|
+|move|p2a: Cubone|Earthquake|p1a: Lickitung
+|-damage|p1a: Lickitung|0 fnt
+|faint|p1a: Lickitung
+|
+|switch|p1a: Dragonair|Dragonair, L86|280\/280
+|turn|7
+|
+|move|p1a: Dragonair|Thunder|p2a: Cubone|[miss]
+|-miss|p1a: Dragonair
+|-immune|p2a: Cubone|[msg]
+|move|p2a: Cubone|Blizzard|p1a: Dragonair
+|-crit|p1a: Dragonair
+|-supereffective|p1a: Dragonair
+|-damage|p1a: Dragonair|0 fnt
+|faint|p1a: Dragonair
+|
+|switch|p1a: Mewtwo|Mewtwo, L71|297\/297
+|turn|8
+|c|★Feena|this is a gg
+|
+|move|p1a: Mewtwo|Barrier|p1a: Mewtwo
+|-boost|p1a: Mewtwo|def|2
+|move|p2a: Cubone|Earthquake|p1a: Mewtwo
+|-damage|p1a: Mewtwo|246\/297
+|
+|turn|9
+|c|★SonicJaxx|gg
+|
+|move|p1a: Mewtwo|Barrier|p1a: Mewtwo
+|-boost|p1a: Mewtwo|def|2
+|move|p2a: Cubone|Earthquake|p1a: Mewtwo
+|-damage|p1a: Mewtwo|207\/297
+|
+|turn|10
+|
+|move|p1a: Mewtwo|Psychic|p2a: Cubone
+|-damage|p2a: Cubone|0 fnt
+|faint|p2a: Cubone
+|
+|switch|p2a: Golduck|Golduck, L86|278\/313
+|turn|11
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Golduck
+|-supereffective|p2a: Golduck
+|-damage|p2a: Golduck|135\/313
+|move|p2a: Golduck|Amnesia|p2a: Golduck
+|-boost|p2a: Golduck|spd|2
+|-boost|p2a: Golduck|spa|2
+|
+|turn|12
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Golduck
+|-supereffective|p2a: Golduck
+|-damage|p2a: Golduck|62\/313
+|move|p2a: Golduck|Rest|p2a: Golduck
+|-status|p2a: Golduck|slp
+|-heal|p2a: Golduck|313\/313 slp|[silent]
+|-status|p2a: Golduck|slp|[from] move: Rest
+|
+|turn|13
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Golduck
+|-supereffective|p2a: Golduck
+|-damage|p2a: Golduck|243\/313 slp
+|cant|p2a: Golduck|slp
+|
+|turn|14
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Golduck
+|-supereffective|p2a: Golduck
+|-damage|p2a: Golduck|172\/313 slp
+|cant|p2a: Golduck|slp
+|-curestatus|p2a: Golduck|slp
+|
+|turn|15
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Golduck
+|-crit|p2a: Golduck
+|-supereffective|p2a: Golduck
+|-damage|p2a: Golduck|0 fnt
+|faint|p2a: Golduck
+|
+|switch|p2a: Bellsprout|Bellsprout, L95|288\/288
+|turn|16
+|
+|move|p1a: Mewtwo|Ice Beam|p2a: Bellsprout
+|-supereffective|p2a: Bellsprout
+|-damage|p2a: Bellsprout|156\/288
+|move|p2a: Bellsprout|Sleep Powder|p1a: Mewtwo
+|-status|p1a: Mewtwo|slp
+|
+|turn|17
+|
+|cant|p1a: Mewtwo|slp
+|move|p2a: Bellsprout|Razor Leaf|p1a: Mewtwo
+|-damage|p1a: Mewtwo|158\/297 slp
+|
+|turn|18
+|
+|cant|p1a: Mewtwo|slp
+|move|p2a: Bellsprout|Razor Leaf|p1a: Mewtwo
+|-crit|p1a: Mewtwo
+|-damage|p1a: Mewtwo|57\/297 slp
+|
+|turn|19
+|
+|cant|p1a: Mewtwo|slp
+|move|p2a: Bellsprout|Razor Leaf|p1a: Mewtwo|[miss]
+|-miss|p2a: Bellsprout
+|
+|turn|20
+|
+|switch|p1a: Jolteon|Jolteon, L86|287\/287
+|move|p2a: Bellsprout|Razor Leaf|p1a: Jolteon
+|-damage|p1a: Jolteon|238\/287
+|
+|turn|21
+|
+|move|p1a: Jolteon|Pin Missile|p2a: Bellsprout
+|-crit|p2a: Bellsprout
+|-supereffective|p2a: Bellsprout
+|-damage|p2a: Bellsprout|66\/288
+|-damage|p2a: Bellsprout|0 fnt
+|-hitcount|p2a: Bellsprout|2
+|faint|p2a: Bellsprout
+|
+|switch|p2a: Flareon|Flareon, L86|287\/287
+|turn|22
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Flareon
+|-damage|p2a: Flareon|182\/287
+|move|p2a: Flareon|Fire Blast|p1a: Jolteon
+|-damage|p1a: Jolteon|108\/287
+|
+|turn|23
+|
+|move|p1a: Jolteon|Thunder Wave|p2a: Flareon
+|-status|p2a: Flareon|par
+|move|p2a: Flareon|Fire Blast|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|switch|p1a: Nidorina|Nidorina, L92|316\/316
+|turn|24
+|
+|move|p1a: Nidorina|Bubble Beam|p2a: Flareon
+|-supereffective|p2a: Flareon
+|-damage|p2a: Flareon|119\/287 par
+|move|p2a: Flareon|Fire Blast|p1a: Nidorina
+|-damage|p1a: Nidorina|138\/316
+|-status|p1a: Nidorina|brn
+|
+|turn|25
+|
+|switch|p2a: Tangela|Tangela, L86|287\/287
+|move|p1a: Nidorina|Rest|p1a: Nidorina
+|-status|p1a: Nidorina|slp
+|-heal|p1a: Nidorina|316\/316 slp|[silent]
+|-status|p1a: Nidorina|slp|[from] move: Rest
+|
+|turn|26
+|
+|switch|p1a: Pinsir|Pinsir, L86|287\/287
+|move|p2a: Tangela|Body Slam|p1a: Pinsir
+|-damage|p1a: Pinsir|249\/287
+|
+|turn|27
+|
+|move|p1a: Pinsir|Swords Dance|p1a: Pinsir
+|-boost|p1a: Pinsir|atk|2
+|move|p2a: Tangela|Body Slam|p1a: Pinsir
+|-damage|p1a: Pinsir|211\/287
+|
+|turn|28
+|
+|move|p1a: Pinsir|Swords Dance|p1a: Pinsir
+|-boost|p1a: Pinsir|atk|2
+|move|p2a: Tangela|Hyper Beam|p1a: Pinsir
+|-damage|p1a: Pinsir|139\/287
+|
+|turn|29
+|
+|move|p1a: Pinsir|Body Slam|p2a: Tangela
+|-damage|p2a: Tangela|102\/287
+|cant|p2a: Tangela|recharge
+|
+|turn|30
+|
+|move|p1a: Pinsir|Body Slam|p2a: Tangela
+|-damage|p2a: Tangela|0 fnt
+|faint|p2a: Tangela
+|
+|switch|p2a: Hitmonchan|Hitmonchan, L86|261\/261
+|turn|31
+|
+|move|p1a: Pinsir|Body Slam|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|16\/261
+|move|p2a: Hitmonchan|Counter|p1a: Pinsir
+|-damage|p1a: Pinsir|0 fnt
+|faint|p1a: Pinsir
+|
+|switch|p1a: Mewtwo|Mewtwo, L71|57\/297 slp
+|turn|32
+|
+|cant|p1a: Mewtwo|slp
+|-curestatus|p1a: Mewtwo|slp
+|move|p2a: Hitmonchan|Counter|p1a: Mewtwo
+|-damage|p1a: Mewtwo|0 fnt
+|faint|p1a: Mewtwo
+|
+|switch|p1a: Nidorina|Nidorina, L92|316\/316 slp
+|turn|33
+|
+|cant|p1a: Nidorina|slp
+|move|p2a: Hitmonchan|Counter|p1a: Nidorina
+|-damage|p1a: Nidorina|0 fnt
+|faint|p1a: Nidorina
+|
+|win|Feena
+|raw|Ladder updating...
+|raw|SonicJaxx's rating: 1299 &rarr; <strong>1276<\/strong><br \/>(-23 for losing)
+|raw|Feena's rating: 1336 &rarr; <strong>1353<\/strong><br \/>(+17 for winning)
+|c|★Feena|gg

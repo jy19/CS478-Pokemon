@@ -1,0 +1,231 @@
+﻿|j|tr0mb0ner
+|j|ProCapture
+|player|p1|tr0mb0ner|1
+|player|p2|ProCapture|161
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|seed|35433,15988,46060,59542
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|switch|p2a: smoked|Charmander|281\/281
+|turn|1
+|choice|switch 2|move 2
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|move|p2a: smoked|Flamethrower|p1a: Starmie
+|-crit|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|253\/323
+|
+|turn|2
+|choice|move 1|switch 5
+|
+|switch|p2a: raiden|Raichu|323\/323
+|move|p1a: Starmie|Psychic|p2a: raiden
+|-damage|p2a: raiden|215\/323
+|-unboost|p2a: raiden|spd|1
+|-unboost|p2a: raiden|spa|1
+|
+|turn|3
+|choice|switch 2|move 4
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: raiden|Thunderbolt|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|366\/393
+|-status|p1a: Exeggutor|par
+|
+|turn|4
+|choice|move 1|move 2
+|
+|move|p2a: raiden|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|299\/393 par
+|move|p1a: Exeggutor|Sleep Powder|p2a: raiden
+|-status|p2a: raiden|slp
+|
+|turn|5
+|j|Crorem
+|choice|move 4|switch 5
+|
+|switch|p2a: smoked|Charmander|281\/281
+|move|p1a: Exeggutor|Psychic|p2a: smoked
+|-damage|p2a: smoked|78\/281
+|-unboost|p2a: smoked|spd|1
+|-unboost|p2a: smoked|spa|1
+|
+|turn|6
+|choice|move 4|move 2
+|
+|move|p2a: smoked|Flamethrower|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|221\/393 par
+|cant|p1a: Exeggutor|par
+|
+|turn|7
+|choice|switch 2|move 4
+|
+|switch|p1a: Starmie|Starmie|253\/323
+|move|p2a: smoked|Fire Blast|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|221\/323
+|
+|turn|8
+|choice|move 1|switch 6
+|
+|switch|p2a: ducky|Farfetch'd|307\/307
+|move|p1a: Starmie|Psychic|p2a: ducky
+|-crit|p2a: ducky
+|-damage|p2a: ducky|11\/307
+|-unboost|p2a: ducky|spd|1
+|-unboost|p2a: ducky|spa|1
+|
+|turn|9
+|choice|move 1|move 2
+|
+|move|p1a: Starmie|Psychic|p2a: ducky
+|-damage|p2a: ducky|0 fnt
+|faint|p2a: ducky
+|choice||switch 3
+|
+|switch|p2a: 2spooky4U|Gengar|323\/323
+|turn|10
+|choice|switch 2|move 3
+|
+|switch|p1a: Exeggutor|Exeggutor|221\/393 par
+|move|p2a: 2spooky4U|Night Shade|p1a: Exeggutor
+|-damage|p1a: Exeggutor|121\/393 par
+|
+|turn|11
+|choice|move 4|move 3
+|
+|move|p2a: 2spooky4U|Night Shade|p1a: Exeggutor
+|-damage|p1a: Exeggutor|21\/393 par
+|move|p1a: Exeggutor|Psychic|p2a: 2spooky4U
+|-supereffective|p2a: 2spooky4U
+|-damage|p2a: 2spooky4U|107\/323
+|-unboost|p2a: 2spooky4U|spd|1
+|-unboost|p2a: 2spooky4U|spa|1
+|
+|turn|12
+|choice|move 4|move 3
+|
+|move|p2a: 2spooky4U|Night Shade|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|choice|switch 2|
+|
+|switch|p1a: Starmie|Starmie|221\/323
+|turn|13
+|choice|move 1|move 1
+|
+|move|p1a: Starmie|Psychic|p2a: 2spooky4U
+|-supereffective|p2a: 2spooky4U
+|-damage|p2a: 2spooky4U|0 fnt
+|faint|p2a: 2spooky4U
+|choice||switch 5
+|
+|switch|p2a: raiden|Raichu|215\/323 slp
+|turn|14
+|choice|move 1|move 4
+|
+|move|p1a: Starmie|Psychic|p2a: raiden
+|-damage|p2a: raiden|100\/323 slp
+|-unboost|p2a: raiden|spd|1
+|-unboost|p2a: raiden|spa|1
+|cant|p2a: raiden|slp
+|
+|turn|15
+|choice|move 1|move 4
+|
+|move|p1a: Starmie|Psychic|p2a: raiden
+|-crit|p2a: raiden
+|-damage|p2a: raiden|0 fnt
+|faint|p2a: raiden
+|choice||switch 4
+|
+|switch|p2a: shushi|Kabutops|323\/323
+|turn|16
+|choice|move 3|move 4
+|
+|move|p1a: Starmie|Thunderbolt|p2a: shushi
+|-supereffective|p2a: shushi
+|-damage|p2a: shushi|128\/323
+|move|p2a: shushi|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|145\/323
+|
+|turn|17
+|choice|move 3|move 3
+|
+|move|p1a: Starmie|Thunderbolt|p2a: shushi
+|-supereffective|p2a: shushi
+|-damage|p2a: shushi|0 fnt
+|faint|p2a: shushi
+|choice||switch 2
+|
+|switch|p2a: bruce lee|Primeape|333\/333
+|turn|18
+|choice|move 4|move 1
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|306\/323
+|move|p2a: bruce lee|Rock Slide|p1a: Starmie
+|-damage|p1a: Starmie|242\/323
+|
+|turn|19
+|choice|move 1|move 4
+|
+|move|p1a: Starmie|Psychic|p2a: bruce lee
+|-supereffective|p2a: bruce lee
+|-damage|p2a: bruce lee|27\/333
+|-unboost|p2a: bruce lee|spd|1
+|-unboost|p2a: bruce lee|spa|1
+|move|p2a: bruce lee|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|171\/323
+|-status|p1a: Starmie|par
+|
+|turn|20
+|choice|move 1|move 2
+|
+|move|p2a: bruce lee|Seismic Toss|p1a: Starmie
+|-damage|p1a: Starmie|71\/323 par
+|move|p1a: Starmie|Psychic|p2a: bruce lee
+|-supereffective|p2a: bruce lee
+|-damage|p2a: bruce lee|0 fnt
+|faint|p2a: bruce lee
+|choice||switch 6
+|
+|switch|p2a: smoked|Charmander|78\/281
+|turn|21
+|choice|move 4|move 1
+|
+|move|p2a: smoked|Seismic Toss|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|choice|switch 6|
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|turn|22
+|choice|move 4|move 1
+|
+|move|p2a: smoked|Seismic Toss|p1a: Snorlax
+|-damage|p1a: Snorlax|423\/523
+|move|p1a: Snorlax|Self-Destruct|p2a: smoked
+|-damage|p2a: smoked|0 fnt
+|faint|p2a: smoked
+|faint|p1a: Snorlax
+|
+|win|tr0mb0ner
+|player|p1
+|player|p2
+||Ladder (probably) updated, but score could not be retrieved (Response not received).
+|l|ProCapture
+|l|tr0mb0ner

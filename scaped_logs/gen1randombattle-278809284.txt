@@ -1,0 +1,152 @@
+﻿|join|bigbadeyedol
+|join|Psychedelic Trip
+|player|p1|bigbadeyedol|2
+|player|p2|Psychedelic Trip|167
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Paras|Paras, L96|262\/262
+|switch|p2a: Raticate|Raticate, L85|267\/267
+|turn|1
+|
+|move|p2a: Raticate|Super Fang|p1a: Paras
+|-damage|p1a: Paras|131\/262
+|move|p1a: Paras|Toxic|p2a: Raticate
+|-status|p2a: Raticate|tox
+|
+|turn|2
+|c|★bigbadeyedol|thissss foooool
+|
+|move|p2a: Raticate|Body Slam|p1a: Paras
+|-damage|p1a: Paras|36\/262
+|-damage|p2a: Raticate|251\/267 tox|[from] tox|[of] p1a: Paras
+|move|p1a: Paras|Double-Edge|p2a: Raticate
+|-damage|p2a: Raticate|155\/267 tox
+|-damage|p1a: Paras|12\/262|[from] recoil|[of] p2a: Raticate
+|
+|turn|3
+|
+|switch|p1a: Ditto|Ditto, L99|296\/296
+|move|p2a: Raticate|Body Slam|p1a: Ditto
+|-damage|p1a: Ditto|190\/296
+|-damage|p2a: Raticate|123\/267 tox|[from] tox|[of] p1a: Ditto
+|
+|turn|4
+|
+|move|p2a: Raticate|Super Fang|p1a: Ditto
+|-damage|p1a: Ditto|95\/296
+|-damage|p2a: Raticate|75\/267 tox|[from] tox|[of] p1a: Ditto
+|move|p1a: Ditto|Transform|p2a: Raticate
+|-transform|p1a: Ditto|p2a: Raticate
+|
+|turn|5
+|
+|move|p2a: Raticate|Hyper Beam|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|
+|switch|p1a: Geodude|Geodude, L96|272\/272
+|turn|6
+|
+|move|p2a: Raticate|Bubble Beam|p1a: Geodude
+|-supereffective|p1a: Geodude
+|-damage|p1a: Geodude|61\/272
+|-damage|p2a: Raticate|11\/267 tox|[from] tox|[of] p1a: Geodude
+|move|p1a: Geodude|Earthquake|p2a: Raticate
+|-damage|p2a: Raticate|0 fnt
+|faint|p2a: Raticate
+|
+|switch|p2a: Nidoking|Nidoking, L85|311\/311
+|turn|7
+|
+|move|p2a: Nidoking|Earthquake|p1a: Geodude
+|-supereffective|p1a: Geodude
+|-damage|p1a: Geodude|0 fnt
+|faint|p1a: Geodude
+|
+|switch|p1a: Paras|Paras, L96|12\/262
+|turn|8
+|
+|move|p2a: Nidoking|Blizzard|p1a: Paras
+|-supereffective|p1a: Paras
+|-damage|p1a: Paras|0 fnt
+|faint|p1a: Paras
+|
+|switch|p1a: Kabutops|Kabutops, L85|276\/276
+|turn|9
+|
+|move|p2a: Nidoking|Thunderbolt|p1a: Kabutops
+|-supereffective|p1a: Kabutops
+|-damage|p1a: Kabutops|147\/276
+|move|p1a: Kabutops|Surf|p2a: Nidoking
+|-supereffective|p2a: Nidoking
+|-damage|p2a: Nidoking|136\/311
+|
+|turn|10
+|
+|move|p2a: Nidoking|Earthquake|p1a: Kabutops
+|-supereffective|p1a: Kabutops
+|-damage|p1a: Kabutops|0 fnt
+|faint|p1a: Kabutops
+|
+|switch|p1a: Magmar|Magmar, L90|300\/300
+|turn|11
+|
+|move|p1a: Magmar|Fire Blast|p2a: Nidoking|[miss]
+|-miss|p1a: Magmar
+|move|p2a: Nidoking|Earthquake|p1a: Magmar
+|-supereffective|p1a: Magmar
+|-damage|p1a: Magmar|46\/300
+|
+|turn|12
+|
+|move|p1a: Magmar|Fire Blast|p2a: Nidoking|[miss]
+|-miss|p1a: Magmar
+|move|p2a: Nidoking|Earthquake|p1a: Magmar
+|-supereffective|p1a: Magmar
+|-damage|p1a: Magmar|0 fnt
+|faint|p1a: Magmar
+|
+|switch|p1a: Muk|Muk, L90|372\/372
+|turn|13
+|
+|move|p2a: Nidoking|Earthquake|p1a: Muk
+|-supereffective|p1a: Muk
+|-damage|p1a: Muk|168\/372
+|move|p1a: Muk|Mega Drain|p2a: Nidoking
+|-damage|p2a: Nidoking|107\/311
+|-heal|p1a: Muk|182\/372|[from] drain|[of] p2a: Nidoking
+|
+|turn|14
+|
+|move|p2a: Nidoking|Thunderbolt|p1a: Muk
+|-damage|p1a: Muk|116\/372
+|move|p1a: Muk|Body Slam|p2a: Nidoking
+|-damage|p2a: Nidoking|23\/311
+|-status|p2a: Nidoking|par
+|
+|turn|15
+|
+|move|p1a: Muk|Body Slam|p2a: Nidoking
+|-damage|p2a: Nidoking|0 fnt
+|faint|p2a: Nidoking
+|
+|switch|p2a: Jynx|Jynx, L79|265\/265
+|turn|16
+|
+|move|p2a: Jynx|Mimic|p1a: Muk
+|-start|p2a: Jynx|Mimic|Screech
+|move|p1a: Muk|Explosion|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|faint|p1a: Muk
+|
+|win|Psychedelic Trip
+|raw|bigbadeyedol's rating: 1160 &rarr; <strong>1137<\/strong><br \/>(-23 for losing)
+|raw|Psychedelic Trip's rating: 1198 &rarr; <strong>1220<\/strong><br \/>(+22 for winning)

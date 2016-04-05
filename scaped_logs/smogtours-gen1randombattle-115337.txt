@@ -1,0 +1,258 @@
+﻿|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|J|TDK
+|J|Nails
+|player|p1|TDK|96
+|player|p2|Nails|170
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|seed|16936,29451,33517,12156
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Dodrio|Dodrio, L85|276\/276
+|switch|p2a: Bulbasaur|Bulbasaur, L96|281\/281
+|turn|1
+|J|KratosMana
+|J|teal6
+|J|chimpact
+|choice|switch 6|switch 5
+|
+|switch|p1a: Nidorino|Nidorino, L90|293\/293
+|switch|p2a: Weezing|Weezing, L90|300\/300
+|
+|turn|2
+|choice|move 1|switch 4
+|
+|switch|p2a: Exeggutor|Exeggutor, L79|312\/312
+|move|p1a: Nidorino|Blizzard|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|187\/312
+|
+|turn|3
+|choice|move 1|switch 6
+|
+|switch|p2a: Mr. Mime|Mr. Mime, L85|242\/242
+|move|p1a: Nidorino|Blizzard|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|177\/242
+|
+|turn|4
+|choice|move 3|move 1
+|
+|move|p2a: Mr. Mime|Psychic|p1a: Nidorino
+|-supereffective|p1a: Nidorino
+|-damage|p1a: Nidorino|41\/293
+|move|p1a: Nidorino|Double-Edge|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|96\/242
+|-damage|p1a: Nidorino|21\/293|[from] recoil|[of] p2a: Mr. Mime
+|
+|turn|5
+|choice|switch 2|move 1
+|
+|switch|p1a: Mr. Mime|Mr. Mime, L85|242\/242
+|move|p2a: Mr. Mime|Psychic|p1a: Mr. Mime
+|-resisted|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|194\/242
+|
+|turn|6
+|choice|move 3|move 2
+|
+|move|p2a: Mr. Mime|Thunder Wave|p1a: Mr. Mime
+|-status|p1a: Mr. Mime|par
+|move|p1a: Mr. Mime|Thunder Wave|p2a: Mr. Mime
+|-status|p2a: Mr. Mime|par
+|
+|turn|7
+|choice|move 1|move 3
+|
+|move|p1a: Mr. Mime|Psychic|p2a: Mr. Mime
+|-resisted|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|54\/242 par
+|move|p2a: Mr. Mime|Seismic Toss|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|109\/242 par
+|
+|turn|8
+|choice|move 2|move 3
+|
+|move|p1a: Mr. Mime|Seismic Toss|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|0 fnt
+|faint|p2a: Mr. Mime
+|choice||switch 2
+|
+|switch|p2a: Meowth|Meowth, L96|272\/272
+|turn|9
+|choice|move 3|move 3
+|
+|move|p2a: Meowth|Body Slam|p1a: Mr. Mime
+|-crit|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|0 fnt
+|faint|p1a: Mr. Mime
+|L|KratosMana
+|J|Snowtop
+|choice|switch 5|
+|
+|switch|p1a: Wartortle|Wartortle, L85|274\/274
+|turn|10
+|L|Snowtop
+|choice|move 4|switch 5
+|
+|switch|p2a: Bulbasaur|Bulbasaur, L96|281\/281
+|move|p1a: Wartortle|Body Slam|p2a: Bulbasaur
+|-damage|p2a: Bulbasaur|218\/281
+|-status|p2a: Bulbasaur|par
+|
+|turn|11
+|choice|move 1|move 3
+|
+|move|p1a: Wartortle|Blizzard|p2a: Bulbasaur|[miss]
+|-miss|p1a: Wartortle
+|move|p2a: Bulbasaur|Razor Leaf|p1a: Wartortle
+|-crit|p1a: Wartortle
+|-supereffective|p1a: Wartortle
+|-damage|p1a: Wartortle|22\/274
+|
+|turn|12
+|c|★TDK|.
+|choice|move 1|switch 3
+|
+|switch|p2a: Articuno|Articuno, L79|304\/304
+|move|p1a: Wartortle|Blizzard|p2a: Articuno
+|-damage|p2a: Articuno|251\/304
+|
+|turn|13
+|choice|move 2|move 3
+|
+|move|p2a: Articuno|Blizzard|p1a: Wartortle
+|-resisted|p1a: Wartortle
+|-damage|p1a: Wartortle|0 fnt
+|faint|p1a: Wartortle
+|choice|switch 3|
+|
+|switch|p1a: Ninetales|Ninetales, L85|298\/298
+|turn|14
+|choice|move 1|switch 3
+|
+|switch|p2a: Bulbasaur|Bulbasaur, L96|218\/281 par
+|move|p1a: Ninetales|Fire Blast|p2a: Bulbasaur
+|-supereffective|p2a: Bulbasaur
+|-damage|p2a: Bulbasaur|0 fnt
+|faint|p2a: Bulbasaur
+|choice||switch 5
+|
+|switch|p2a: Meowth|Meowth, L96|272\/272
+|turn|15
+|choice|move 3|move 3
+|
+|move|p2a: Meowth|Body Slam|p1a: Ninetales
+|-crit|p1a: Ninetales
+|-damage|p1a: Ninetales|145\/298
+|move|p1a: Ninetales|Body Slam|p2a: Meowth
+|-damage|p2a: Meowth|195\/272
+|
+|turn|16
+|choice|move 1|move 3
+|
+|move|p2a: Meowth|Body Slam|p1a: Ninetales
+|-damage|p1a: Ninetales|60\/298
+|move|p1a: Ninetales|Fire Blast|p2a: Meowth|[miss]
+|-miss|p1a: Ninetales
+|
+|turn|17
+|choice|move 2|move 3
+|
+|move|p2a: Meowth|Body Slam|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|choice|switch 6|
+|
+|switch|p1a: Dodrio|Dodrio, L85|276\/276
+|turn|18
+|choice|move 1|move 1
+|
+|move|p2a: Meowth|Slash|p1a: Dodrio
+|-crit|p1a: Dodrio
+|-damage|p1a: Dodrio|135\/276
+|move|p1a: Dodrio|Hyper Beam|p2a: Meowth
+|-crit|p2a: Meowth
+|-damage|p2a: Meowth|0 fnt
+|faint|p2a: Meowth
+|choice||switch 4
+|
+|switch|p2a: Weezing|Weezing, L90|300\/300
+|turn|19
+|choice|move 4|move 3
+|
+|move|p1a: Dodrio|Body Slam|p2a: Weezing
+|-damage|p2a: Weezing|224\/300
+|move|p2a: Weezing|Thunderbolt|p1a: Dodrio
+|-supereffective|p1a: Dodrio
+|-damage|p1a: Dodrio|0 fnt
+|faint|p1a: Dodrio
+|choice|switch 2|
+|
+|switch|p1a: Nidorino|Nidorino, L90|21\/293
+|turn|20
+|choice|move 1|move 3
+|
+|move|p1a: Nidorino|Blizzard|p2a: Weezing
+|-crit|p2a: Weezing
+|-damage|p2a: Weezing|105\/300
+|move|p2a: Weezing|Thunderbolt|p1a: Nidorino
+|-damage|p1a: Nidorino|0 fnt
+|faint|p1a: Nidorino
+|choice|switch 4|
+|
+|switch|p1a: Dragonite|Dragonite, L85|328\/328
+|turn|21
+|choice|move 2|move 1
+|
+|move|p1a: Dragonite|Ice Beam|p2a: Weezing
+|-crit|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|choice||switch 3
+|
+|switch|p2a: Articuno|Articuno, L79|251\/304
+|turn|22
+|choice|move 4|move 3
+|
+|move|p1a: Dragonite|Substitute|p1a: Dragonite
+|-start|p1a: Dragonite|Substitute
+|-damage|p1a: Dragonite|246\/328
+|move|p2a: Articuno|Blizzard|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-end|p1a: Dragonite|Substitute
+|
+|turn|23
+|choice|move 4|move 3
+|
+|move|p1a: Dragonite|Substitute|p1a: Dragonite
+|-start|p1a: Dragonite|Substitute
+|-damage|p1a: Dragonite|164\/328
+|move|p2a: Articuno|Blizzard|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-end|p1a: Dragonite|Substitute
+|
+|turn|24
+|choice|move 4|move 3
+|
+|move|p1a: Dragonite|Substitute|p1a: Dragonite
+|-start|p1a: Dragonite|Substitute
+|-damage|p1a: Dragonite|82\/328
+|move|p2a: Articuno|Blizzard|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-end|p1a: Dragonite|Substitute
+|
+|turn|25
+|choice|move 1|move 3
+|
+|move|p1a: Dragonite|Thunder Wave|p2a: Articuno
+|-status|p2a: Articuno|par
+|move|p2a: Articuno|Blizzard|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|win|Nails

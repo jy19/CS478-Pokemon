@@ -1,0 +1,424 @@
+﻿|j|PhysicistTesla
+|j|Draco76
+|player|p1|PhysicistTesla|25
+|player|p2|Draco76|265
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|53195,19573,37232,30304
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Tentacruel|Tentacruel, L85|310\/310
+|switch|p2a: Zapdos|Zapdos, L79|304\/304
+|turn|1
+|choice|switch 2|move Thunder Wave
+|
+|switch|p1a: Rhydon|Rhydon, L79|328\/328
+|move|p2a: Zapdos|Thunder Wave|p1a: Rhydon
+|-immune|p1a: Rhydon|[msg]
+|
+|turn|2
+|choice|move 4|switch 2
+|
+|switch|p2a: Squirtle|Squirtle, L96|279\/279
+|move|p1a: Rhydon|Body Slam|p2a: Squirtle
+|-damage|p2a: Squirtle|217\/279
+|-status|p2a: Squirtle|par
+|
+|turn|3
+|choice|switch 3|move Surf
+|
+|switch|p1a: Electabuzz|Electabuzz, L85|284\/284
+|move|p2a: Squirtle|Surf|p1a: Electabuzz
+|-damage|p1a: Electabuzz|200\/284
+|
+|turn|4
+|choice|move 3|switch 6
+|
+|switch|p2a: Chansey|Chansey, L79|557\/557
+|move|p1a: Electabuzz|Thunderbolt|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|394\/557
+|
+|turn|5
+|choice|switch 3|move Thunder Wave
+|
+|switch|p1a: Rhydon|Rhydon, L79|328\/328
+|move|p2a: Chansey|Thunder Wave|p1a: Rhydon
+|-immune|p1a: Rhydon|[msg]
+|
+|turn|6
+|choice|move 3|move Ice Beam
+|
+|move|p2a: Chansey|Ice Beam|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|124\/328
+|move|p1a: Rhydon|Rock Slide|p2a: Chansey|[miss]
+|-miss|p1a: Rhydon
+|
+|turn|7
+|choice|switch 6|move Ice Beam
+|
+|switch|p1a: Kingler|Kingler, L85|267\/267
+|move|p2a: Chansey|Ice Beam|p1a: Kingler
+|-resisted|p1a: Kingler
+|-damage|p1a: Kingler|225\/267
+|-status|p1a: Kingler|frz
+|
+|turn|8
+|c|★PhysicistTesla|LOL
+|choice|switch 4|move Soft-Boiled
+|
+|switch|p1a: Ninetales|Ninetales, L85|298\/298
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|557\/557
+|
+|turn|9
+|choice|move 1|move Thunder Wave
+|
+|move|p1a: Ninetales|Fire Blast|p2a: Chansey
+|-damage|p2a: Chansey|442\/557
+|-status|p2a: Chansey|brn
+|move|p2a: Chansey|Thunder Wave|p1a: Ninetales
+|-status|p1a: Ninetales|par
+|-damage|p2a: Chansey|408\/557 brn|[from] brn|[of] p1a: Ninetales
+|
+|turn|10
+|choice|move 2|move Thunderbolt
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Ninetales
+|-damage|p1a: Ninetales|245\/298 par
+|-damage|p2a: Chansey|374\/557 brn|[from] brn|[of] p1a: Ninetales
+|move|p1a: Ninetales|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|236\/557 brn
+|
+|turn|11
+|choice|move 2|move Soft-Boiled
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|514\/557 brn
+|-damage|p2a: Chansey|480\/557 brn|[from] brn
+|move|p1a: Ninetales|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|344\/557 brn
+|
+|turn|12
+|choice|move 2|switch 2
+|
+|switch|p2a: Zapdos|Zapdos, L79|304\/304
+|move|p1a: Ninetales|Body Slam|p2a: Zapdos
+|-damage|p2a: Zapdos|244\/304
+|
+|turn|13
+|choice|move 1|switch 6
+|
+|switch|p2a: Squirtle|Squirtle, L96|217\/279 par
+|move|p1a: Ninetales|Fire Blast|p2a: Squirtle
+|-crit|p2a: Squirtle
+|-resisted|p2a: Squirtle
+|-damage|p2a: Squirtle|48\/279 par
+|
+|turn|14
+|choice|move 2|switch 3
+|
+|switch|p2a: Snorlax|Snorlax, L79|415\/415
+|cant|p1a: Ninetales|par
+|
+|turn|15
+|choice|switch 5|move Amnesia
+|
+|switch|p1a: Porygon|Porygon, L85|284\/284
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|
+|turn|16
+|choice|move 4|move Amnesia
+|
+|move|p1a: Porygon|Ice Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|376\/415
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|
+|turn|17
+|choice|move 4|move Amnesia
+|
+|move|p1a: Porygon|Ice Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|350\/415
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|
+|turn|18
+|choice|move 4|move Surf
+|
+|move|p1a: Porygon|Ice Beam|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|212\/415
+|move|p2a: Snorlax|Surf|p1a: Porygon
+|-crit|p1a: Porygon
+|-damage|p1a: Porygon|182\/284
+|
+|turn|19
+|choice|move 4|move Surf
+|
+|move|p1a: Porygon|Ice Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|192\/415
+|move|p2a: Snorlax|Surf|p1a: Porygon
+|-damage|p1a: Porygon|0 fnt
+|faint|p1a: Porygon
+|choice|switch 6|
+|
+|switch|p1a: Rhydon|Rhydon, L79|124\/328
+|turn|20
+|choice|move 2|move Surf
+|
+|move|p1a: Rhydon|Earthquake|p2a: Snorlax
+|-damage|p2a: Snorlax|54\/415
+|move|p2a: Snorlax|Surf|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|choice|switch 3|
+|
+|switch|p1a: Electabuzz|Electabuzz, L85|200\/284
+|turn|21
+|choice|move 2|move Self-Destruct
+|
+|move|p1a: Electabuzz|Seismic Toss|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|choice||switch 2
+|
+|switch|p2a: Chansey|Chansey, L79|344\/557 brn
+|turn|22
+|choice|switch 5|move Thunder Wave
+|
+|switch|p1a: Ninetales|Ninetales, L85|245\/298 par
+|move|p2a: Chansey|Thunder Wave|p1a: Ninetales
+|-fail|p1a: Ninetales|par
+|-damage|p2a: Chansey|310\/557 brn|[from] brn|[of] p1a: Ninetales
+|
+|turn|23
+|choice|move 2|move Soft-Boiled
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|557\/557 brn
+|-damage|p2a: Chansey|523\/557 brn|[from] brn
+|cant|p1a: Ninetales|par
+|
+|turn|24
+|choice|move 2|switch 4
+|
+|switch|p2a: Hitmonlee|Hitmonlee, L90|273\/273
+|move|p1a: Ninetales|Body Slam|p2a: Hitmonlee
+|-crit|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|141\/273
+|-status|p2a: Hitmonlee|par
+|
+|turn|25
+|choice|move 1|move Counter
+|
+|move|p1a: Ninetales|Fire Blast|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|0 fnt
+|faint|p2a: Hitmonlee
+|choice||switch 5
+|
+|switch|p2a: Kadabra|Kadabra, L85|242\/242
+|turn|26
+|choice|move 2|move Psychic
+|
+|move|p2a: Kadabra|Psychic|p1a: Ninetales
+|-damage|p1a: Ninetales|141\/298 par
+|move|p1a: Ninetales|Body Slam|p2a: Kadabra
+|-damage|p2a: Kadabra|155\/242
+|-status|p2a: Kadabra|par
+|
+|turn|27
+|choice|move 3|move Psychic
+|
+|move|p2a: Kadabra|Psychic|p1a: Ninetales
+|-damage|p1a: Ninetales|44\/298 par
+|cant|p1a: Ninetales|par
+|
+|turn|28
+|choice|move 3|move Psychic
+|
+|cant|p2a: Kadabra|par
+|move|p1a: Ninetales|Hyper Beam|p2a: Kadabra
+|-damage|p2a: Kadabra|0 fnt
+|faint|p2a: Kadabra
+|choice||switch 6
+|
+|switch|p2a: Zapdos|Zapdos, L79|244\/304
+|turn|29
+|choice|move 3|move Thunderbolt
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|choice|switch 5|
+|
+|switch|p1a: Electabuzz|Electabuzz, L85|200\/284
+|turn|30
+|choice|move 3|switch 4
+|
+|switch|p2a: Chansey|Chansey, L79|523\/557 brn
+|-damage|p2a: Chansey|489\/557 brn|[from] brn
+|move|p1a: Electabuzz|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|396\/557 brn
+|
+|turn|31
+|choice|switch 4|move Ice Beam
+|
+|switch|p1a: Kingler|Kingler, L85|225\/267 frz
+|move|p2a: Chansey|Ice Beam|p1a: Kingler
+|-resisted|p1a: Kingler
+|-damage|p1a: Kingler|186\/267 frz
+|-damage|p2a: Chansey|362\/557 brn|[from] brn|[of] p1a: Kingler
+|
+|turn|32
+|choice|move 3|move Thunderbolt
+|
+|cant|p1a: Kingler|frz
+|move|p2a: Chansey|Thunderbolt|p1a: Kingler
+|-supereffective|p1a: Kingler
+|-damage|p1a: Kingler|28\/267 frz
+|-damage|p2a: Chansey|328\/557 brn|[from] brn|[of] p1a: Kingler
+|
+|turn|33
+|choice|move 2|move Ice Beam
+|
+|cant|p1a: Kingler|frz
+|move|p2a: Chansey|Ice Beam|p1a: Kingler
+|-resisted|p1a: Kingler
+|-damage|p1a: Kingler|0 fnt
+|faint|p1a: Kingler
+|choice|switch 2|
+|
+|switch|p1a: Tentacruel|Tentacruel, L85|310\/310
+|turn|34
+|choice|move 4|move Thunder Wave
+|
+|move|p1a: Tentacruel|Swords Dance|p1a: Tentacruel
+|-boost|p1a: Tentacruel|atk|2
+|move|p2a: Chansey|Thunder Wave|p1a: Tentacruel
+|-status|p1a: Tentacruel|par
+|-damage|p2a: Chansey|294\/557 brn|[from] brn|[of] p1a: Tentacruel
+|
+|turn|35
+|choice|move 1|move Thunderbolt
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|216\/310 par
+|-damage|p2a: Chansey|260\/557 brn|[from] brn|[of] p1a: Tentacruel
+|cant|p1a: Tentacruel|par
+|
+|turn|36
+|choice|move 1|move Soft-Boiled
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|538\/557 brn
+|-damage|p2a: Chansey|504\/557 brn|[from] brn
+|move|p1a: Tentacruel|Hyper Beam|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|76\/557 brn
+|
+|turn|37
+|-mustrecharge|p1a: Tentacruel
+|-mustrecharge|p1a: Tentacruel
+|choice|move 1|move Thunderbolt
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|122\/310 par
+|-damage|p2a: Chansey|42\/557 brn|[from] brn|[of] p1a: Tentacruel
+|cant|p1a: Tentacruel|recharge
+|
+|turn|38
+|choice|move 1|move Soft-Boiled
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|320\/557 brn
+|-damage|p2a: Chansey|286\/557 brn|[from] brn
+|move|p1a: Tentacruel|Hyper Beam|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|choice||switch 4
+|
+|switch|p2a: Zapdos|Zapdos, L79|244\/304
+|turn|39
+|choice|move 2|move Thunderbolt
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|choice|switch 4|
+|
+|switch|p1a: Electabuzz|Electabuzz, L85|200\/284
+|turn|40
+|choice|move 4|move Thunder Wave
+|
+|move|p1a: Electabuzz|Thunder Wave|p2a: Zapdos
+|-status|p2a: Zapdos|par
+|move|p2a: Zapdos|Thunder Wave|p1a: Electabuzz
+|-status|p1a: Electabuzz|par
+|
+|turn|41
+|choice|move 3|move Agility
+|
+|move|p1a: Electabuzz|Thunderbolt|p2a: Zapdos
+|-damage|p2a: Zapdos|162\/304 par
+|cant|p2a: Zapdos|par
+|
+|turn|42
+|choice|move 3|move Agility
+|
+|move|p1a: Electabuzz|Thunderbolt|p2a: Zapdos
+|-damage|p2a: Zapdos|86\/304 par
+|cant|p2a: Zapdos|par
+|
+|turn|43
+|choice|move 3|move Thunderbolt
+|
+|cant|p1a: Electabuzz|par
+|move|p2a: Zapdos|Thunderbolt|p1a: Electabuzz
+|-resisted|p1a: Electabuzz
+|-damage|p1a: Electabuzz|152\/284 par
+|
+|turn|44
+|choice|move 3|move Thunderbolt
+|
+|cant|p1a: Electabuzz|par
+|move|p2a: Zapdos|Thunderbolt|p1a: Electabuzz
+|-resisted|p1a: Electabuzz
+|-damage|p1a: Electabuzz|98\/284 par
+|
+|turn|45
+|choice|move 3|move Thunderbolt
+|
+|cant|p1a: Electabuzz|par
+|move|p2a: Zapdos|Thunderbolt|p1a: Electabuzz
+|-resisted|p1a: Electabuzz
+|-damage|p1a: Electabuzz|48\/284 par
+|
+|turn|46
+|c|★PhysicistTesla|LOL
+|choice|move 3|move Thunderbolt
+|
+|move|p1a: Electabuzz|Thunderbolt|p2a: Zapdos
+|-damage|p2a: Zapdos|6\/304 par
+|move|p2a: Zapdos|Thunderbolt|p1a: Electabuzz
+|-resisted|p1a: Electabuzz
+|-damage|p1a: Electabuzz|0 fnt
+|faint|p1a: Electabuzz
+|
+|win|Draco76
+|player|p1
+|player|p2

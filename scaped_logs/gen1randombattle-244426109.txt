@@ -1,0 +1,60 @@
+﻿|join|Pokelovar
+|join|yaldyyyy
+|player|p1|Pokelovar|125
+|player|p2|yaldyyyy|169
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Abra|Abra, L96|243\/243
+|switch|p2a: Machamp|Machamp, L90|345\/345
+|turn|1
+|
+|switch|p2a: Dodrio|Dodrio, L85|276\/276
+|move|p1a: Abra|Thunder Wave|p2a: Dodrio
+|-status|p2a: Dodrio|par
+|
+|turn|2
+|
+|move|p1a: Abra|Reflect|p1a: Abra
+|-start|p1a: Abra|Reflect
+|move|p2a: Dodrio|Body Slam|p1a: Abra
+|-damage|p1a: Abra|150\/243
+|
+|turn|3
+|
+|move|p1a: Abra|Psychic|p2a: Dodrio
+|-damage|p2a: Dodrio|128\/276 par
+|-unboost|p2a: Dodrio|spd|1
+|-unboost|p2a: Dodrio|spa|1
+|cant|p2a: Dodrio|par
+|
+|turn|4
+|
+|move|p1a: Abra|Psychic|p2a: Dodrio
+|-damage|p2a: Dodrio|0 fnt
+|faint|p2a: Dodrio
+|
+|switch|p2a: Dugtrio|Dugtrio, L85|233\/233
+|turn|5
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Abra
+|-crit|p1a: Abra
+|-damage|p1a: Abra|0 fnt
+|faint|p1a: Abra
+|
+|switch|p1a: Seel|Seel, L96|320\/320
+|turn|6
+|leave|yaldyyyy
+|player|p2
+|-message|yaldyyyy lost due to inactivity.
+|
+|win|Pokelovar
+|raw|Ladder updating...
+|raw|Pokelovar's rating: 1070 &rarr; <strong>1106<\/strong><br \/>(+36 for winning)
+|raw|yaldyyyy's rating: 1153 &rarr; <strong>1122<\/strong><br \/>(-31 for losing)

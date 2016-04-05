@@ -1,0 +1,585 @@
+﻿|join|Firestar493
+|join|jb champ
+|player|p1|Firestar493|164
+|player|p2|jb champ|150
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|switch|p1a: moz-cat-o-nein|Ninetales|349\/349
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|1
+|
+|switch|p2a: Slowbro|Slowbro|393\/393
+|switch|p1a: Tails You Die|Chansey|703\/703
+|
+|turn|2
+|
+|switch|p1a: Spooky Language|Gengar|323\/323
+|move|p2a: Slowbro|Thunder Wave|p1a: Spooky Language
+|-status|p1a: Spooky Language|par
+|
+|turn|3
+|
+|switch|p2a: Golem|Golem|363\/363
+|cant|p1a: Spooky Language|par
+|
+|turn|4
+|
+|switch|p1a: Smashing!|Cloyster|303\/303
+|move|p2a: Golem|Earthquake|p1a: Smashing!
+|-damage|p1a: Smashing!|215\/303
+|
+|turn|5
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|move|p1a: Smashing!|Clamp|p2a: Gengar
+|-damage|p2a: Gengar|290\/323
+|-activate|p2a: Gengar|move: Clamp|[of] p1a: Smashing!
+|
+|turn|6
+|
+|cant|p2a: Gengar|partiallytrapped
+|move|p1a: Smashing!|Clamp|p2a: Gengar
+|-damage|p2a: Gengar|257\/323
+|
+|-end|p2a: Gengar|Clamp|[partiallytrapped]
+|turn|7
+|
+|switch|p1a: Tails You Die|Chansey|703\/703
+|move|p2a: Gengar|Thunderbolt|p1a: Tails You Die
+|-damage|p1a: Tails You Die|610\/703
+|
+|turn|8
+|
+|switch|p1a: Spooky Language|Gengar|323\/323 par
+|move|p2a: Gengar|Hypnosis|p1a: Spooky Language|[miss]
+|-miss|p2a: Gengar
+|
+|turn|9
+|
+|switch|p2a: Golem|Golem|363\/363
+|move|p1a: Spooky Language|Hypnosis|p2a: Golem
+|-status|p2a: Golem|slp
+|
+|turn|10
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|switch|p1a: Funbro|Slowbro|393\/393
+|
+|turn|11
+|
+|switch|p1a: Tails You Die|Chansey|610\/703
+|move|p2a: Chansey|Thunderbolt|p1a: Tails You Die
+|-damage|p1a: Tails You Die|538\/703
+|
+|turn|12
+|
+|switch|p2a: Gengar|Gengar|257\/323
+|move|p1a: Tails You Die|Ice Beam|p2a: Gengar
+|-damage|p2a: Gengar|192\/323
+|
+|turn|13
+|
+|switch|p1a: moz-cat-o-nein|Ninetales|349\/349
+|move|p2a: Gengar|Psychic|p1a: moz-cat-o-nein
+|-damage|p1a: moz-cat-o-nein|269\/349
+|
+|turn|14
+|
+|switch|p2a: Slowbro|Slowbro|393\/393
+|move|p1a: moz-cat-o-nein|Confuse Ray|p2a: Slowbro
+|-start|p2a: Slowbro|confusion
+|
+|turn|15
+|
+|switch|p1a: Funbro|Slowbro|393\/393
+|switch|p2a: Alakazam|Alakazam|313\/313
+|
+|turn|16
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Funbro|Amnesia|p1a: Funbro
+|-boost|p1a: Funbro|spd|2
+|-boost|p1a: Funbro|spa|2
+|
+|turn|17
+|
+|move|p2a: Chansey|Thunder Wave|p1a: Funbro
+|-status|p1a: Funbro|par
+|move|p1a: Funbro|Amnesia|p1a: Funbro
+|-boost|p1a: Funbro|spd|2
+|-boost|p1a: Funbro|spa|2
+|
+|turn|18
+|join|somebody1000
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Funbro
+|-supereffective|p1a: Funbro
+|-damage|p1a: Funbro|328\/393 par
+|move|p1a: Funbro|Amnesia|p1a: Funbro
+|-boost|p1a: Funbro|spd|2
+|-boost|p1a: Funbro|spa|2
+|
+|turn|19
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Funbro
+|-supereffective|p1a: Funbro
+|-damage|p1a: Funbro|280\/393 par
+|move|p1a: Funbro|Surf|p2a: Chansey
+|-damage|p2a: Chansey|329\/703
+|
+|turn|20
+|
+|switch|p2a: Slowbro|Slowbro|393\/393
+|cant|p1a: Funbro|par
+|
+|turn|21
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|move|p1a: Funbro|Surf|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|276\/393
+|
+|turn|22
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|move|p1a: Funbro|Surf|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|204\/393
+|
+|turn|23
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|move|p1a: Funbro|Surf|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|148\/393
+|
+|turn|24
+|
+|move|p2a: Slowbro|Surf|p1a: Funbro
+|-resisted|p1a: Funbro
+|-damage|p1a: Funbro|224\/393 par
+|move|p1a: Funbro|Surf|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|96\/393
+|
+|turn|25
+|
+|move|p2a: Slowbro|Surf|p1a: Funbro
+|-resisted|p1a: Funbro
+|-damage|p1a: Funbro|165\/393 par
+|cant|p1a: Funbro|par
+|
+|turn|26
+|leave|somebody1000
+|
+|move|p2a: Slowbro|Surf|p1a: Funbro
+|-crit|p1a: Funbro
+|-resisted|p1a: Funbro
+|-damage|p1a: Funbro|53\/393 par
+|cant|p1a: Funbro|par
+|
+|turn|27
+|
+|move|p2a: Slowbro|Surf|p1a: Funbro
+|-resisted|p1a: Funbro
+|-damage|p1a: Funbro|0 fnt
+|faint|p1a: Funbro
+|
+|
+|switch|p1a: BrownBull|Tauros|353\/353
+|turn|28
+|
+|switch|p2a: Gengar|Gengar|192\/323
+|move|p1a: BrownBull|Earthquake|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|
+|switch|p2a: Alakazam|Alakazam|313\/313
+|turn|29
+|
+|switch|p1a: Tails You Die|Chansey|538\/703
+|move|p2a: Alakazam|Thunder Wave|p1a: Tails You Die
+|-status|p1a: Tails You Die|par
+|
+|turn|30
+|
+|switch|p2a: Chansey|Chansey|329\/703
+|move|p1a: Tails You Die|Ice Beam|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|185\/703
+|
+|turn|31
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|536\/703
+|move|p1a: Tails You Die|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|468\/703
+|
+|turn|32
+|
+|switch|p2a: Slowbro|Slowbro|96\/393
+|move|p1a: Tails You Die|Ice Beam|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|55\/393
+|
+|turn|33
+|
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|-heal|p2a: Slowbro|393\/393 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|move|p1a: Tails You Die|Ice Beam|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|347\/393 slp
+|
+|turn|34
+|
+|switch|p1a: Spooky Language|Gengar|323\/323 par
+|cant|p2a: Slowbro|slp
+|
+|turn|35
+|
+|switch|p2a: Alakazam|Alakazam|313\/313
+|move|p1a: Spooky Language|Mega Drain|p2a: Alakazam
+|-damage|p2a: Alakazam|285\/313
+|
+|turn|36
+|
+|switch|p1a: Tails You Die|Chansey|538\/703 par
+|move|p2a: Alakazam|Psychic|p1a: Tails You Die
+|-damage|p1a: Tails You Die|416\/703 par
+|
+|turn|37
+|
+|switch|p2a: Slowbro|Slowbro|347\/393 slp
+|move|p1a: Tails You Die|Soft-Boiled|p1a: Tails You Die
+|-heal|p1a: Tails You Die|703\/703 par
+|
+|turn|38
+|
+|cant|p2a: Slowbro|slp
+|-curestatus|p2a: Slowbro|slp
+|move|p1a: Tails You Die|Ice Beam|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|304\/393
+|
+|turn|39
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|cant|p1a: Tails You Die|par
+|
+|turn|40
+|
+|switch|p1a: Smashing!|Cloyster|215\/303
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|41
+|
+|move|p1a: Smashing!|Clamp|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|296\/393
+|-activate|p2a: Slowbro|move: Clamp|[of] p1a: Smashing!
+|cant|p2a: Slowbro|partiallytrapped
+|
+|turn|42
+|
+|move|p1a: Smashing!|Clamp|p2a: Slowbro
+|-damage|p2a: Slowbro|288\/393
+|cant|p2a: Slowbro|partiallytrapped
+|
+|turn|43
+|
+|move|p1a: Smashing!|Clamp|p2a: Slowbro
+|-damage|p2a: Slowbro|280\/393
+|cant|p2a: Slowbro|partiallytrapped
+|
+|-end|p2a: Slowbro|Clamp|[partiallytrapped]
+|turn|44
+|
+|move|p1a: Smashing!|Clamp|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|272\/393
+|-activate|p2a: Slowbro|move: Clamp|[of] p1a: Smashing!
+|cant|p2a: Slowbro|partiallytrapped
+|
+|turn|45
+|
+|move|p1a: Smashing!|Clamp|p2a: Slowbro
+|-damage|p2a: Slowbro|264\/393
+|cant|p2a: Slowbro|partiallytrapped
+|
+|-end|p2a: Slowbro|Clamp|[partiallytrapped]
+|turn|46
+|
+|switch|p1a: Spooky Language|Gengar|323\/323 par
+|move|p2a: Slowbro|Thunder Wave|p1a: Spooky Language
+|-fail|p1a: Spooky Language|par
+|
+|turn|47
+|
+|move|p2a: Slowbro|Surf|p1a: Spooky Language
+|-damage|p1a: Spooky Language|62\/323 par
+|move|p1a: Spooky Language|Thunderbolt|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|192\/393
+|
+|turn|48
+|
+|move|p2a: Slowbro|Surf|p1a: Spooky Language
+|-damage|p1a: Spooky Language|0 fnt
+|faint|p1a: Spooky Language
+|
+|
+|switch|p1a: BrownBull|Tauros|353\/353
+|turn|49
+|
+|move|p1a: BrownBull|Body Slam|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|
+|
+|switch|p2a: Alakazam|Alakazam|285\/313
+|turn|50
+|
+|switch|p1a: Tails You Die|Chansey|703\/703 par
+|move|p2a: Alakazam|Psychic|p1a: Tails You Die
+|-damage|p1a: Tails You Die|581\/703 par
+|-unboost|p1a: Tails You Die|spd|1
+|-unboost|p1a: Tails You Die|spa|1
+|
+|turn|51
+|
+|switch|p2a: Chansey|Chansey|468\/703
+|switch|p1a: moz-cat-o-nein|Ninetales|269\/349
+|
+|turn|52
+|
+|switch|p2a: Golem|Golem|363\/363 slp
+|move|p1a: moz-cat-o-nein|Body Slam|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|340\/363 slp
+|
+|turn|53
+|
+|switch|p1a: BrownBull|Tauros|353\/353
+|cant|p2a: Golem|slp
+|-curestatus|p2a: Golem|slp
+|
+|turn|54
+|
+|move|p1a: BrownBull|Blizzard|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|142\/363
+|move|p2a: Golem|Explosion|p1a: BrownBull
+|-damage|p1a: BrownBull|71\/353
+|faint|p2a: Golem
+|
+|switch|p2a: Alakazam|Alakazam|285\/313
+|turn|55
+|
+|switch|p1a: Tails You Die|Chansey|581\/703 par
+|move|p2a: Alakazam|Psychic|p1a: Tails You Die
+|-damage|p1a: Tails You Die|455\/703 par
+|-unboost|p1a: Tails You Die|spd|1
+|-unboost|p1a: Tails You Die|spa|1
+|
+|turn|56
+|
+|move|p2a: Alakazam|Psychic|p1a: Tails You Die
+|-damage|p1a: Tails You Die|263\/703 par
+|cant|p1a: Tails You Die|par
+|
+|turn|57
+|
+|move|p2a: Alakazam|Psychic|p1a: Tails You Die
+|-damage|p1a: Tails You Die|63\/703 par
+|move|p1a: Tails You Die|Soft-Boiled|p1a: Tails You Die
+|-heal|p1a: Tails You Die|414\/703 par
+|
+|turn|58
+|
+|move|p2a: Alakazam|Psychic|p1a: Tails You Die
+|-damage|p1a: Tails You Die|230\/703 par
+|-unboost|p1a: Tails You Die|spd|1
+|-unboost|p1a: Tails You Die|spa|1
+|move|p1a: Tails You Die|Soft-Boiled|p1a: Tails You Die
+|-heal|p1a: Tails You Die|581\/703 par
+|
+|turn|59
+|
+|move|p2a: Alakazam|Psychic|p1a: Tails You Die
+|-damage|p1a: Tails You Die|325\/703 par
+|-unboost|p1a: Tails You Die|spd|1
+|-unboost|p1a: Tails You Die|spa|1
+|move|p1a: Tails You Die|Thunder Wave|p2a: Alakazam
+|-status|p2a: Alakazam|par
+|
+|turn|60
+|
+|switch|p1a: Smashing!|Cloyster|215\/303
+|cant|p2a: Alakazam|par
+|
+|turn|61
+|
+|move|p1a: Smashing!|Clamp|p2a: Alakazam
+|-damage|p2a: Alakazam|256\/313 par
+|-activate|p2a: Alakazam|move: Clamp|[of] p1a: Smashing!
+|cant|p2a: Alakazam|par
+|
+|turn|62
+|
+|move|p1a: Smashing!|Clamp|p2a: Alakazam
+|-damage|p2a: Alakazam|227\/313 par
+|cant|p2a: Alakazam|partiallytrapped
+|
+|turn|63
+|
+|move|p1a: Smashing!|Clamp|p2a: Alakazam
+|-damage|p2a: Alakazam|198\/313 par
+|cant|p2a: Alakazam|partiallytrapped
+|
+|-end|p2a: Alakazam|Clamp|[partiallytrapped]
+|turn|64
+|
+|move|p1a: Smashing!|Hyper Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|27\/313 par
+|move|p2a: Alakazam|Thunder Wave|p1a: Smashing!
+|-status|p1a: Smashing!|par
+|
+|turn|65
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|183\/313 par
+|cant|p1a: Smashing!|par
+|
+|turn|66
+|
+|move|p2a: Alakazam|Psychic|p1a: Smashing!
+|-damage|p1a: Smashing!|82\/303 par
+|cant|p1a: Smashing!|par
+|
+|turn|67
+|
+|cant|p2a: Alakazam|par
+|cant|p1a: Smashing!|par
+|
+|turn|68
+|
+|move|p2a: Alakazam|Psychic|p1a: Smashing!
+|-damage|p1a: Smashing!|0 fnt
+|faint|p1a: Smashing!
+|
+|
+|switch|p1a: moz-cat-o-nein|Ninetales|269\/349
+|turn|69
+|
+|move|p1a: moz-cat-o-nein|Fire Spin|p2a: Alakazam|[miss]
+|-miss|p1a: moz-cat-o-nein
+|cant|p2a: Alakazam|par
+|
+|turn|70
+|
+|move|p1a: moz-cat-o-nein|Fire Spin|p2a: Alakazam
+|-damage|p2a: Alakazam|166\/313 par
+|-activate|p2a: Alakazam|move: Fire Spin|[of] p1a: moz-cat-o-nein
+|cant|p2a: Alakazam|partiallytrapped
+|
+|turn|71
+|
+|move|p1a: moz-cat-o-nein|Fire Spin|p2a: Alakazam
+|-damage|p2a: Alakazam|149\/313 par
+|cant|p2a: Alakazam|par
+|
+|turn|72
+|
+|move|p1a: moz-cat-o-nein|Fire Spin|p2a: Alakazam
+|-damage|p2a: Alakazam|132\/313 par
+|cant|p2a: Alakazam|partiallytrapped
+|
+|-end|p2a: Alakazam|Fire Spin|[partiallytrapped]
+|turn|73
+|
+|move|p1a: moz-cat-o-nein|Body Slam|p2a: Alakazam
+|-damage|p2a: Alakazam|47\/313 par
+|move|p2a: Alakazam|Thunder Wave|p1a: moz-cat-o-nein
+|-status|p1a: moz-cat-o-nein|par
+|
+|turn|74
+|
+|cant|p2a: Alakazam|par
+|move|p1a: moz-cat-o-nein|Body Slam|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|75
+|
+|move|p2a: Tauros|Earthquake|p1a: moz-cat-o-nein
+|-supereffective|p1a: moz-cat-o-nein
+|-damage|p1a: moz-cat-o-nein|74\/349 par
+|cant|p1a: moz-cat-o-nein|par
+|
+|turn|76
+|
+|move|p2a: Tauros|Body Slam|p1a: moz-cat-o-nein
+|-damage|p1a: moz-cat-o-nein|0 fnt
+|faint|p1a: moz-cat-o-nein
+|
+|
+|switch|p1a: BrownBull|Tauros|71\/353
+|turn|77
+|chat|jb champ|gg
+|
+|move|p1a: BrownBull|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|256\/353
+|-status|p2a: Tauros|par
+|cant|p2a: Tauros|par
+|
+|turn|78
+|chat|Firestar493|gg
+|chat|Firestar493|Or not.
+|
+|move|p1a: BrownBull|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|144\/353 par
+|move|p2a: Tauros|Body Slam|p1a: BrownBull
+|-crit|p1a: BrownBull
+|-damage|p1a: BrownBull|0 fnt
+|faint|p1a: BrownBull
+|
+|
+|switch|p1a: Tails You Die|Chansey|325\/703 par
+|turn|79
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Tails You Die
+|-damage|p1a: Tails You Die|0 fnt
+|faint|p1a: Tails You Die
+|
+|win|jb champ
+|raw|Ladder updating...
+|raw|Firestar493's rating: 1000 &rarr; <strong>1000<\/strong><br \/>(+0 for losing)
+|raw|jb champ's rating: 1267 &rarr; <strong>1275<\/strong><br \/>(+8 for winning)

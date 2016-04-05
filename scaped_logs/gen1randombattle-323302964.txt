@@ -1,0 +1,151 @@
+﻿|j|pokeju
+|j|MALESANI
+|player|p1|pokeju|168
+|player|p2|MALESANI|238
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|11552,26769,41144,31700
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gastly|Gastly, L96|252\/252
+|switch|p2a: Drowzee|Drowzee, L96|310\/310
+|turn|1
+|choice|move 1|move 4
+|
+|move|p1a: Gastly|Hypnosis|p2a: Drowzee|[miss]
+|-miss|p1a: Gastly
+|move|p2a: Drowzee|Thunder Wave|p1a: Gastly
+|-status|p1a: Gastly|par
+|
+|turn|2
+|choice|move 4|move 3
+|
+|move|p2a: Drowzee|Hypnosis|p1a: Gastly|[miss]
+|-miss|p2a: Drowzee
+|move|p1a: Gastly|Explosion|p2a: Drowzee
+|-damage|p2a: Drowzee|90\/310
+|faint|p1a: Gastly
+|choice|switch 5|
+|
+|switch|p1a: Magneton|Magneton, L90|273\/273
+|turn|3
+|choice|move 1|switch 2
+|
+|switch|p2a: Nidoqueen|Nidoqueen, L85|327\/327
+|move|p1a: Magneton|Thunderbolt|p2a: Nidoqueen
+|-immune|p2a: Nidoqueen|[msg]
+|
+|turn|4
+|choice|switch 3|move 2
+|
+|switch|p1a: Blastoise|Blastoise, L85|308\/308
+|move|p2a: Nidoqueen|Blizzard|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|274\/308
+|
+|turn|5
+|choice|move 3|switch 6
+|
+|switch|p2a: Seadra|Seadra, L90|282\/282
+|move|p1a: Blastoise|Body Slam|p2a: Seadra
+|-damage|p2a: Seadra|236\/282
+|
+|turn|6
+|choice|move 3|move 3
+|
+|move|p2a: Seadra|Hydro Pump|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|201\/308
+|move|p1a: Blastoise|Body Slam|p2a: Seadra
+|-crit|p2a: Seadra
+|-damage|p2a: Seadra|138\/282
+|
+|turn|7
+|choice|move 3|move 3
+|
+|move|p2a: Seadra|Hydro Pump|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|132\/308
+|move|p1a: Blastoise|Body Slam|p2a: Seadra
+|-damage|p2a: Seadra|85\/282
+|-status|p2a: Seadra|par
+|
+|turn|8
+|choice|move 2|move 3
+|
+|move|p1a: Blastoise|Hyper Beam|p2a: Seadra
+|-crit|p2a: Seadra
+|-damage|p2a: Seadra|0 fnt
+|faint|p2a: Seadra
+|choice||switch 3
+|
+|switch|p2a: Hitmonchan|Hitmonchan, L90|273\/273
+|turn|9
+|choice|move 4|move 4
+|
+|move|p2a: Hitmonchan|Body Slam|p1a: Blastoise
+|-damage|p1a: Blastoise|67\/308
+|move|p1a: Blastoise|Hydro Pump|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|103\/273
+|
+|turn|10
+|choice|move 2|move 3
+|
+|move|p2a: Hitmonchan|Seismic Toss|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|faint|p1a: Blastoise
+|choice|switch 4|
+|
+|switch|p1a: Poliwhirl|Poliwhirl, L85|284\/284
+|turn|11
+|choice|move 2|move 4
+|
+|move|p1a: Poliwhirl|Psychic|p2a: Hitmonchan
+|-supereffective|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|0 fnt
+|faint|p2a: Hitmonchan
+|choice||switch 2
+|
+|switch|p2a: Drowzee|Drowzee, L96|90\/310
+|turn|12
+|choice|move 1|move 3
+|
+|move|p1a: Poliwhirl|Amnesia|p1a: Poliwhirl
+|-boost|p1a: Poliwhirl|spd|2
+|-boost|p1a: Poliwhirl|spa|2
+|move|p2a: Drowzee|Hypnosis|p1a: Poliwhirl
+|-status|p1a: Poliwhirl|slp
+|
+|turn|13
+|choice|move 1|switch 6
+|
+|switch|p2a: Nidoqueen|Nidoqueen, L85|327\/327
+|-curestatus|p1a: Poliwhirl|slp
+|
+|turn|14
+|choice|move 3|switch 4
+|
+|switch|p2a: Pinsir|Pinsir, L85|284\/284
+|move|p1a: Poliwhirl|Surf|p2a: Pinsir
+|-damage|p2a: Pinsir|112\/284
+|
+|turn|15
+|choice|move 3|move 1
+|
+|move|p1a: Poliwhirl|Surf|p2a: Pinsir
+|-damage|p2a: Pinsir|0 fnt
+|faint|p2a: Pinsir
+|l|MALESANI
+|player|p2
+|c|★pokeju|suck it :)
+|-message|MALESANI lost due to inactivity.
+|
+|win|pokeju
+|player|p1
+|raw|pokeju's rating: 1440 &rarr; <strong>1458<\/strong><br \/>(+18 for winning)
+|raw|MALESANI's rating: 1403 &rarr; <strong>1385<\/strong><br \/>(-18 for losing)

@@ -1,0 +1,200 @@
+﻿|join|Becko18
+|join|Psychedelic Trip
+|player|p1|Becko18|267
+|player|p2|Psychedelic Trip|168
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Dodrio|Dodrio, L85|276\/276
+|switch|p2a: Arbok|Arbok, L85|276\/276
+|turn|1
+|
+|move|p1a: Dodrio|Drill Peck|p2a: Arbok
+|-crit|p2a: Arbok
+|-damage|p2a: Arbok|58\/276
+|move|p2a: Arbok|Rock Slide|p1a: Dodrio
+|-supereffective|p1a: Dodrio
+|-damage|p1a: Dodrio|159\/276
+|
+|turn|2
+|
+|move|p1a: Dodrio|Drill Peck|p2a: Arbok
+|-damage|p2a: Arbok|0 fnt
+|faint|p2a: Arbok
+|
+|switch|p2a: Raichu|Raichu, L85|276\/276
+|turn|3
+|join|STCSTCSTC
+|
+|switch|p1a: Nidoking|Nidoking, L85|311\/311
+|move|p2a: Raichu|Body Slam|p1a: Nidoking
+|-damage|p1a: Nidoking|244\/311
+|-status|p1a: Nidoking|par
+|
+|turn|4
+|
+|move|p2a: Raichu|Surf|p1a: Nidoking
+|-supereffective|p1a: Nidoking
+|-damage|p1a: Nidoking|101\/311 par
+|move|p1a: Nidoking|Earthquake|p2a: Raichu
+|-crit|p2a: Raichu
+|-supereffective|p2a: Raichu
+|-damage|p2a: Raichu|0 fnt
+|faint|p2a: Raichu
+|
+|switch|p2a: Tangela|Tangela, L85|284\/284
+|turn|5
+|
+|switch|p1a: Clefable|Clefable, L85|335\/335
+|move|p2a: Tangela|Growth|p2a: Tangela
+|-boost|p2a: Tangela|spa|1
+|-boost|p2a: Tangela|spd|1
+|
+|turn|6
+|
+|move|p1a: Clefable|Ice Beam|p2a: Tangela
+|-supereffective|p2a: Tangela
+|-damage|p2a: Tangela|200\/284
+|move|p2a: Tangela|Body Slam|p1a: Clefable
+|-damage|p1a: Clefable|287\/335
+|
+|turn|7
+|
+|switch|p2a: Magmar|Magmar, L85|284\/284
+|move|p1a: Clefable|Ice Beam|p2a: Magmar
+|-damage|p2a: Magmar|217\/284
+|
+|turn|8
+|
+|move|p2a: Magmar|Confuse Ray|p1a: Clefable
+|-start|p1a: Clefable|confusion
+|-activate|p1a: Clefable|confusion
+|-damage|p1a: Clefable|257\/335|[from] confusion
+|
+|turn|9
+|
+|switch|p1a: Arbok|Arbok, L85|276\/276
+|move|p2a: Magmar|Fire Blast|p1a: Arbok
+|-damage|p1a: Arbok|142\/276
+|-status|p1a: Arbok|brn
+|
+|turn|10
+|
+|switch|p2a: Tangela|Tangela, L85|200\/284
+|move|p1a: Arbok|Glare|p2a: Tangela
+|-status|p2a: Tangela|par
+|-damage|p1a: Arbok|125\/276 brn|[from] brn|[of] p2a: Tangela
+|
+|turn|11
+|
+|switch|p1a: Dodrio|Dodrio, L85|159\/276
+|move|p2a: Tangela|Growth|p2a: Tangela
+|-boost|p2a: Tangela|spa|1
+|-boost|p2a: Tangela|spd|1
+|
+|turn|12
+|
+|move|p1a: Dodrio|Drill Peck|p2a: Tangela
+|-supereffective|p2a: Tangela
+|-damage|p2a: Tangela|46\/284 par
+|move|p2a: Tangela|Stun Spore|p1a: Dodrio
+|-status|p1a: Dodrio|par
+|
+|turn|13
+|
+|move|p1a: Dodrio|Drill Peck|p2a: Tangela
+|-supereffective|p2a: Tangela
+|-damage|p2a: Tangela|0 fnt
+|faint|p2a: Tangela
+|
+|switch|p2a: Muk|Muk, L85|352\/352
+|turn|14
+|
+|move|p2a: Muk|Sludge|p1a: Dodrio
+|-damage|p1a: Dodrio|78\/276 par
+|move|p1a: Dodrio|Body Slam|p2a: Muk
+|-damage|p2a: Muk|234\/352
+|-status|p2a: Muk|par
+|
+|turn|15
+|
+|move|p1a: Dodrio|Hyper Beam|p2a: Muk
+|-damage|p2a: Muk|41\/352 par
+|move|p2a: Muk|Sludge|p1a: Dodrio
+|-damage|p1a: Dodrio|0 fnt
+|faint|p1a: Dodrio
+|
+|switch|p1a: Sandshrew|Sandshrew, L96|291\/291
+|turn|16
+|
+|switch|p2a: Gyarados|Gyarados, L85|335\/335
+|move|p1a: Sandshrew|Body Slam|p2a: Gyarados
+|-damage|p2a: Gyarados|268\/335
+|-status|p2a: Gyarados|par
+|
+|turn|17
+|
+|move|p1a: Sandshrew|Body Slam|p2a: Gyarados
+|-damage|p2a: Gyarados|196\/335 par
+|move|p2a: Gyarados|Surf|p1a: Sandshrew
+|-supereffective|p1a: Sandshrew
+|-damage|p1a: Sandshrew|0 fnt
+|faint|p1a: Sandshrew
+|
+|switch|p1a: Clefable|Clefable, L85|257\/335
+|turn|18
+|
+|switch|p2a: Muk|Muk, L85|41\/352 par
+|move|p1a: Clefable|Thunder|p2a: Muk
+|-damage|p2a: Muk|0 fnt
+|faint|p2a: Muk
+|
+|switch|p2a: Magmar|Magmar, L85|217\/284
+|turn|19
+|
+|move|p2a: Magmar|Confuse Ray|p1a: Clefable
+|-start|p1a: Clefable|confusion
+|-activate|p1a: Clefable|confusion
+|move|p1a: Clefable|Body Slam|p2a: Magmar
+|-damage|p2a: Magmar|121\/284
+|
+|turn|20
+|
+|move|p2a: Magmar|Fire Blast|p1a: Clefable|[miss]
+|-miss|p2a: Magmar
+|-activate|p1a: Clefable|confusion
+|move|p1a: Clefable|Body Slam|p2a: Magmar
+|-damage|p2a: Magmar|24\/284
+|
+|turn|21
+|
+|move|p2a: Magmar|Fire Blast|p1a: Clefable
+|-damage|p1a: Clefable|140\/335
+|-status|p1a: Clefable|brn
+|-end|p1a: Clefable|confusion
+|move|p1a: Clefable|Body Slam|p2a: Magmar
+|-damage|p2a: Magmar|0 fnt
+|faint|p2a: Magmar
+|
+|switch|p2a: Gyarados|Gyarados, L85|196\/335 par
+|turn|22
+|
+|move|p1a: Clefable|Thunder|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|win|Becko18
+|raw|Ladder updating...
+|raw|Becko18's rating: 1047 &rarr; <strong>1098<\/strong><br \/>(+51 for winning)
+|raw|Psychedelic Trip's rating: 1269 &rarr; <strong>1230<\/strong><br \/>(-39 for losing)
+|leave|Psychedelic Trip
+|player|p2
+|leave|Becko18
+|player|p1

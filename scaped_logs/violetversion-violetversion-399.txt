@@ -1,0 +1,514 @@
+﻿|J|KristophV
+|J|Disaster Area
+|player|p1|KristophV|8
+|player|p2|Disaster Area|32
+|gametype|singles
+|gen|1
+|tier|Violet Version
+|clearpoke
+|poke|p1|Jynx
+|poke|p1|Dugtrio
+|poke|p1|Golduck
+|poke|p1|Alakazam
+|poke|p1|Machamp
+|poke|p1|Raticate
+|poke|p2|Gengar
+|poke|p2|Tangela
+|poke|p2|Chansey
+|poke|p2|Golem
+|poke|p2|Slowbro
+|poke|p2|Gyarados
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|c|★Disaster Area|gl hf
+|c|★Disaster Area|:)
+|c|★KristophV|you too
+|c|★Disaster Area|nice a duggy
+|
+|start
+|switch|p1a: Machamp|Machamp|403\/403
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|1
+|
+|move|p2a: Gengar|Hypnosis|p1a: Machamp
+|-status|p1a: Machamp|slp
+|cant|p1a: Machamp|slp
+|
+|turn|2
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|move|p2a: Gengar|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|281\/313
+|
+|turn|3
+|
+|switch|p1a: Jynx|Jynx|333\/333
+|switch|p2a: Chansey|Chansey|703\/703
+|
+|turn|4
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|move|p1a: Jynx|Lovely Kiss|p2a: Gengar
+|-status|p2a: Gengar|slp
+|
+|turn|5
+|
+|switch|p2a: Slowbro|Slowbro|393\/393
+|move|p1a: Jynx|Psychic|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|277\/393
+|-unboost|p2a: Slowbro|spd|1
+|-unboost|p2a: Slowbro|spa|1
+|
+|turn|6
+|
+|move|p1a: Jynx|Mimic|p2a: Slowbro
+|-start|p1a: Jynx|Mimic|Rest
+|move|p2a: Slowbro|Thunder Wave|p1a: Jynx
+|-status|p1a: Jynx|par
+|
+|turn|7
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|move|p1a: Jynx|Psychic|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|240\/393
+|
+|turn|8
+|
+|switch|p1a: Golduck|Golduck|363\/363
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|9
+|
+|move|p1a: Golduck|Tri Attack|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|92\/393
+|move|p2a: Slowbro|Psychic|p1a: Golduck
+|-damage|p1a: Golduck|117\/363
+|
+|turn|10
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Golduck|Tri Attack|p2a: Chansey
+|-immune|p2a: Chansey|[msg]
+|
+|turn|11
+|
+|switch|p1a: Alakazam|Alakazam|281\/313
+|move|p2a: Chansey|Thunderbolt|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|165\/313
+|
+|turn|12
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|
+|turn|13
+|
+|switch|p2a: Slowbro|Slowbro|92\/393
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|313\/313 par
+|
+|turn|14
+|
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|-heal|p2a: Slowbro|393\/393 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|cant|p1a: Alakazam|par
+|
+|turn|15
+|
+|switch|p2a: Golem|Golem|363\/363
+|switch|p1a: Raticate|Raticate|333\/333
+|
+|turn|16
+|
+|switch|p2a: Tangela|Tangela|373\/373
+|move|p1a: Raticate|Bubble Beam|p2a: Tangela
+|-resisted|p2a: Tangela
+|-damage|p2a: Tangela|353\/373
+|
+|turn|17
+|
+|switch|p1a: Machamp|Machamp|403\/403 slp
+|move|p2a: Tangela|Stun Spore|p1a: Machamp|[miss]
+|-miss|p2a: Tangela
+|
+|turn|18
+|
+|switch|p2a: Gyarados|Gyarados|393\/393
+|cant|p1a: Machamp|slp
+|-curestatus|p1a: Machamp|slp
+|
+|turn|19
+|
+|move|p2a: Gyarados|Sky Attack|p1a: Machamp|[still]
+|-prepare|p2a: Gyarados|Sky Attack|p1a: Machamp
+|-boost|p2a: Gyarados|def|1
+|move|p1a: Machamp|Body Slam|p2a: Gyarados
+|-damage|p2a: Gyarados|328\/393
+|
+|turn|20
+|c|★Disaster Area|damage incoming :3
+|
+|switch|p1a: Jynx|Jynx|333\/333 par
+|move|p2a: Gyarados|Sky Attack|p1a: Jynx|[miss]
+|-miss|p2a: Gyarados
+|
+|turn|21
+|c|★Disaster Area|lol
+|c|★Disaster Area|nice accuracy
+|c|★Disaster Area|xd
+|
+|switch|p1a: Machamp|Machamp|403\/403
+|move|p2a: Gyarados|Tri Attack|p1a: Machamp
+|-crit|p1a: Machamp
+|-damage|p1a: Machamp|270\/403
+|
+|turn|22
+|
+|move|p2a: Gyarados|Sky Attack|p1a: Machamp|[still]
+|-prepare|p2a: Gyarados|Sky Attack|p1a: Machamp
+|-boost|p2a: Gyarados|def|1
+|move|p1a: Machamp|Body Slam|p2a: Gyarados
+|-crit|p2a: Gyarados
+|-damage|p2a: Gyarados|137\/393
+|
+|turn|23
+|
+|switch|p1a: Jynx|Jynx|333\/333 par
+|move|p2a: Gyarados|Sky Attack|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|
+|switch|p1a: Raticate|Raticate|333\/333
+|turn|24
+|
+|switch|p2a: Tangela|Tangela|353\/373
+|move|p1a: Raticate|Super Fang|p2a: Tangela
+|-damage|p2a: Tangela|177\/373
+|
+|turn|25
+|
+|switch|p1a: Golduck|Golduck|117\/363
+|move|p2a: Tangela|Stun Spore|p1a: Golduck
+|-status|p1a: Golduck|par
+|
+|turn|26
+|
+|move|p2a: Tangela|Mega Drain|p1a: Golduck
+|-supereffective|p1a: Golduck
+|-damage|p1a: Golduck|14\/363 par
+|-heal|p2a: Tangela|280\/373|[from] drain|[of] p1a: Golduck
+|move|p1a: Golduck|Rest|p1a: Golduck
+|-status|p1a: Golduck|slp
+|-heal|p1a: Golduck|363\/363 slp|[silent]
+|-status|p1a: Golduck|slp|[from] move: Rest
+|
+|turn|27
+|
+|switch|p1a: Alakazam|Alakazam|313\/313 par
+|move|p2a: Tangela|Mega Drain|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|239\/313 par
+|-heal|p2a: Tangela|354\/373|[from] drain|[of] p1a: Alakazam
+|
+|turn|28
+|
+|move|p2a: Tangela|Bind|p1a: Alakazam
+|-supereffective|p1a: Alakazam
+|-damage|p1a: Alakazam|165\/313 par
+|-activate|p1a: Alakazam|move: Bind|[of] p2a: Tangela
+|cant|p1a: Alakazam|par
+|
+|turn|29
+|
+|switch|p2a: Gyarados|Gyarados|137\/393
+|switch|p1a: Dugtrio|Dugtrio|273\/273
+|
+|turn|30
+|
+|switch|p2a: Tangela|Tangela|354\/373
+|move|p1a: Dugtrio|Earthquake|p2a: Tangela
+|-resisted|p2a: Tangela
+|-damage|p2a: Tangela|293\/373
+|
+|turn|31
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Tangela
+|-resisted|p2a: Tangela
+|-damage|p2a: Tangela|240\/373
+|move|p2a: Tangela|Stun Spore|p1a: Dugtrio
+|-status|p1a: Dugtrio|par
+|
+|turn|32
+|
+|switch|p1a: Machamp|Machamp|270\/403
+|move|p2a: Tangela|Mega Drain|p1a: Machamp
+|-damage|p1a: Machamp|212\/403
+|-heal|p2a: Tangela|298\/373|[from] drain|[of] p1a: Machamp
+|
+|turn|33
+|
+|move|p2a: Tangela|Bind|p1a: Machamp
+|-resisted|p1a: Machamp
+|-damage|p1a: Machamp|202\/403
+|-activate|p1a: Machamp|move: Bind|[of] p2a: Tangela
+|cant|p1a: Machamp|partiallytrapped
+|
+|turn|34
+|c|★Disaster Area|so do we agree now
+|c|★Disaster Area|tangela functions differently
+|c|★Disaster Area|from the other grass types
+|c|★Disaster Area|lol
+|
+|switch|p2a: Gyarados|Gyarados|137\/393
+|cant|p1a: Machamp|partiallytrapped
+|
+|-end|p1a: Machamp|Bind|[partiallytrapped]
+|turn|35
+|
+|move|p2a: Gyarados|Surf|p1a: Machamp
+|-damage|p1a: Machamp|57\/403
+|move|p1a: Machamp|Body Slam|p2a: Gyarados
+|-damage|p2a: Gyarados|44\/393
+|
+|turn|36
+|
+|switch|p1a: Raticate|Raticate|333\/333
+|move|p2a: Gyarados|Thunderbolt|p1a: Raticate
+|-damage|p1a: Raticate|233\/333
+|
+|turn|37
+|
+|move|p1a: Raticate|Slash|p2a: Gyarados
+|-crit|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|switch|p2a: Gengar|Gengar|323\/323 slp
+|turn|38
+|
+|switch|p1a: Golduck|Golduck|363\/363 slp
+|cant|p2a: Gengar|slp
+|-curestatus|p2a: Gengar|slp
+|
+|turn|39
+|c|★Disaster Area|:O
+|
+|switch|p2a: Tangela|Tangela|298\/373
+|cant|p1a: Golduck|slp
+|
+|turn|40
+|
+|switch|p1a: Alakazam|Alakazam|165\/313 par
+|move|p2a: Tangela|Mega Drain|p1a: Alakazam
+|-damage|p1a: Alakazam|127\/313 par
+|-heal|p2a: Tangela|336\/373|[from] drain|[of] p1a: Alakazam
+|
+|turn|41
+|
+|move|p2a: Tangela|Bind|p1a: Alakazam
+|-supereffective|p1a: Alakazam
+|-damage|p1a: Alakazam|60\/313 par
+|-activate|p1a: Alakazam|move: Bind|[of] p2a: Tangela
+|cant|p1a: Alakazam|partiallytrapped
+|
+|turn|42
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|cant|p1a: Alakazam|partiallytrapped
+|
+|-end|p1a: Alakazam|Bind|[partiallytrapped]
+|turn|43
+|
+|move|p2a: Gengar|Thunderbolt|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|switch|p1a: Dugtrio|Dugtrio|273\/273 par
+|turn|44
+|
+|switch|p2a: Tangela|Tangela|336\/373
+|switch|p1a: Raticate|Raticate|233\/333
+|
+|turn|45
+|
+|move|p1a: Raticate|Super Fang|p2a: Tangela
+|-damage|p2a: Tangela|168\/373
+|move|p2a: Tangela|Stun Spore|p1a: Raticate
+|-status|p1a: Raticate|par
+|
+|turn|46
+|
+|switch|p2a: Golem|Golem|363\/363
+|cant|p1a: Raticate|par
+|
+|turn|47
+|
+|move|p2a: Golem|Earthquake|p1a: Raticate
+|-crit|p1a: Raticate
+|-damage|p1a: Raticate|0 fnt
+|faint|p1a: Raticate
+|
+|switch|p1a: Machamp|Machamp|57\/403
+|turn|48
+|c|★Disaster Area|gg
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|move|p1a: Machamp|Rest|p1a: Machamp
+|-status|p1a: Machamp|slp
+|-heal|p1a: Machamp|403\/403 slp|[silent]
+|-status|p1a: Machamp|slp|[from] move: Rest
+|
+|turn|49
+|
+|switch|p1a: Golduck|Golduck|363\/363 slp
+|move|p2a: Gengar|Psychic|p1a: Golduck
+|-damage|p1a: Golduck|261\/363 slp
+|
+|turn|50
+|
+|move|p2a: Gengar|Thunderbolt|p1a: Golduck
+|-supereffective|p1a: Golduck
+|-damage|p1a: Golduck|69\/363 slp
+|cant|p1a: Golduck|slp
+|-curestatus|p1a: Golduck|slp
+|
+|turn|51
+|
+|switch|p1a: Dugtrio|Dugtrio|273\/273 par
+|move|p2a: Gengar|Psychic|p1a: Dugtrio
+|-damage|p1a: Dugtrio|171\/273 par
+|
+|turn|52
+|
+|switch|p2a: Tangela|Tangela|168\/373
+|switch|p1a: Golduck|Golduck|69\/363
+|
+|turn|53
+|
+|switch|p2a: Chansey|Chansey|703\/703 par
+|move|p1a: Golduck|Amnesia|p1a: Golduck
+|-boost|p1a: Golduck|spd|2
+|-boost|p1a: Golduck|spa|2
+|
+|turn|54
+|
+|move|p1a: Golduck|Rest|p1a: Golduck
+|-status|p1a: Golduck|slp
+|-heal|p1a: Golduck|363\/363 slp|[silent]
+|-status|p1a: Golduck|slp|[from] move: Rest
+|cant|p2a: Chansey|par
+|
+|turn|55
+|
+|switch|p2a: Tangela|Tangela|168\/373
+|cant|p1a: Golduck|slp
+|
+|turn|56
+|
+|cant|p1a: Golduck|slp
+|-curestatus|p1a: Golduck|slp
+|move|p2a: Tangela|Stun Spore|p1a: Golduck
+|-status|p1a: Golduck|par
+|
+|turn|57
+|
+|move|p2a: Tangela|Bind|p1a: Golduck
+|-resisted|p1a: Golduck
+|-damage|p1a: Golduck|350\/363 par
+|-activate|p1a: Golduck|move: Bind|[of] p2a: Tangela
+|cant|p1a: Golduck|partiallytrapped
+|
+|turn|58
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|cant|p1a: Golduck|par
+|
+|-end|p1a: Golduck|Bind|[partiallytrapped]
+|turn|59
+|
+|move|p2a: Gengar|Thunderbolt|p1a: Golduck
+|-supereffective|p1a: Golduck
+|-damage|p1a: Golduck|249\/363 par
+|move|p1a: Golduck|Amnesia|p1a: Golduck
+|-boost|p1a: Golduck|spd|2
+|-boost|p1a: Golduck|spa|2
+|
+|turn|60
+|
+|move|p2a: Gengar|Thunderbolt|p1a: Golduck
+|-supereffective|p1a: Golduck
+|-damage|p1a: Golduck|182\/363 par
+|cant|p1a: Golduck|par
+|
+|turn|61
+|
+|move|p2a: Gengar|Thunderbolt|p1a: Golduck
+|-supereffective|p1a: Golduck
+|-damage|p1a: Golduck|114\/363 par
+|move|p1a: Golduck|Surf|p2a: Gengar
+|-crit|p2a: Gengar
+|-damage|p2a: Gengar|159\/323
+|
+|turn|62
+|
+|move|p2a: Gengar|Thunderbolt|p1a: Golduck
+|-crit|p1a: Golduck
+|-supereffective|p1a: Golduck
+|-damage|p1a: Golduck|0 fnt
+|faint|p1a: Golduck
+|
+|switch|p1a: Dugtrio|Dugtrio|171\/273 par
+|turn|63
+|
+|move|p2a: Gengar|Psychic|p1a: Dugtrio
+|-damage|p1a: Dugtrio|59\/273 par
+|move|p1a: Dugtrio|Earthquake|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|switch|p2a: Golem|Golem|363\/363
+|turn|64
+|
+|move|p2a: Golem|Earthquake|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|
+|switch|p1a: Machamp|Machamp|403\/403 slp
+|turn|65
+|
+|cant|p1a: Machamp|slp
+|move|p2a: Golem|Earthquake|p1a: Machamp
+|-damage|p1a: Machamp|278\/403 slp
+|
+|turn|66
+|
+|cant|p1a: Machamp|slp
+|-curestatus|p1a: Machamp|slp
+|move|p2a: Golem|Explosion|p1a: Machamp
+|-damage|p1a: Machamp|0 fnt
+|faint|p1a: Machamp
+|faint|p2a: Golem
+|
+|win|Disaster Area
+|c|★KristophV|gg
+|c|★Disaster Area|gg

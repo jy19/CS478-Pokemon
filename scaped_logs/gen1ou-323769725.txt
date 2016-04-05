@@ -1,0 +1,164 @@
+﻿|j|Fer GOLD
+|j|Reverb
+|player|p1|Fer GOLD|101
+|player|p2|Reverb|#reverb
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|seed|3796,22506,50848,12527
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Starmie|Starmie|323\/323
+|turn|1
+|choice|switch 2|move 1
+|
+|switch|p1a: Raichu|Raichu|323\/323
+|move|p2a: Starmie|Thunder Wave|p1a: Raichu
+|-status|p1a: Raichu|par
+|
+|turn|2
+|choice|move 3|switch 5
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Raichu|Thunder|p2a: Chansey
+|-damage|p2a: Chansey|582\/703
+|
+|turn|3
+|choice|move 2|move 1
+|
+|move|p2a: Chansey|Ice Beam|p1a: Raichu
+|-damage|p1a: Raichu|244\/323 par
+|move|p1a: Raichu|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|424\/703
+|
+|turn|4
+|choice|switch 2|move 3
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703
+|
+|turn|5
+|choice|move 1|move 4
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|567\/703
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|move|p2a: Chansey|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|
+|turn|6
+|choice|move 3|switch 3
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Alakazam|Submission|p2a: Snorlax
+|-supereffective|p2a: Snorlax
+|-damage|p2a: Snorlax|413\/523
+|-damage|p1a: Alakazam|286\/313 par|[from] recoil|[of] p2a: Snorlax
+|
+|turn|7
+|choice|move 3|move 1
+|
+|move|p2a: Snorlax|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|117\/313 par
+|move|p1a: Alakazam|Submission|p2a: Snorlax
+|-supereffective|p2a: Snorlax
+|-damage|p2a: Snorlax|298\/523
+|-damage|p1a: Alakazam|89\/313 par|[from] recoil|[of] p2a: Snorlax
+|
+|turn|8
+|choice|switch 5|move 1
+|
+|switch|p1a: Vileplume|Vileplume|353\/353
+|move|p2a: Snorlax|Body Slam|p1a: Vileplume
+|-damage|p1a: Vileplume|224\/353
+|-status|p1a: Vileplume|par
+|
+|turn|9
+|choice|move 2|move 3
+|
+|move|p2a: Snorlax|Blizzard|p1a: Vileplume
+|-crit|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|faint|p1a: Vileplume
+|choice|switch 2|
+|
+|switch|p1a: Raichu|Raichu|244\/323 par
+|turn|10
+|choice|move 1|move 1
+|
+|move|p2a: Snorlax|Body Slam|p1a: Raichu
+|-damage|p1a: Raichu|101\/323 par
+|cant|p1a: Raichu|par
+|
+|turn|11
+|choice|move 1|move 1
+|
+|move|p2a: Snorlax|Body Slam|p1a: Raichu
+|-damage|p1a: Raichu|0 fnt
+|faint|p1a: Raichu
+|choice|switch 5|
+|
+|switch|p1a: Alakazam|Alakazam|89\/313 par
+|turn|12
+|choice|move 1|move 1
+|
+|move|p2a: Snorlax|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|choice|switch 4|
+|
+|switch|p1a: Charizard|Charizard|359\/359
+|turn|13
+|choice|move 1|move 4
+|
+|move|p1a: Charizard|Flamethrower|p2a: Snorlax
+|-damage|p2a: Snorlax|163\/523
+|move|p2a: Snorlax|Self-Destruct|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|faint|p2a: Snorlax
+|choice|switch 3|switch 4
+|
+|switch|p1a: Lapras|Lapras|463\/463
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|turn|14
+|choice|move 4|switch 5
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|move|p1a: Lapras|Ice Beam|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|271\/323
+|
+|turn|15
+|choice|switch 6|move 2
+|
+|switch|p1a: Dragonite|Dragonite|385\/385
+|move|p2a: Starmie|Thunderbolt|p1a: Dragonite
+|-damage|p1a: Dragonite|309\/385
+|
+|turn|16
+|choice|move 2|move 3
+|
+|move|p2a: Starmie|Blizzard|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|-message|Fer GOLD forfeited.
+|
+|win|Reverb
+|player|p1
+|player|p2
+|l|Fer GOLD
+|raw|Fer GOLD's rating: 1000 &rarr; <strong>1000<\/strong><br \/>(+0 for losing)
+|raw|Reverb's rating: 1211 &rarr; <strong>1222<\/strong><br \/>(+11 for winning)

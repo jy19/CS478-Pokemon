@@ -1,0 +1,257 @@
+﻿|join|Dary0903
+|join|ubberman123
+|player|p1|Dary0903|1
+|player|p2|ubberman123|29
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Golbat|Golbat, L90|318\/318
+|switch|p2a: Rhydon|Rhydon, L79|328\/328
+|turn|1
+|
+|move|p1a: Golbat|Confuse Ray|p2a: Rhydon
+|-start|p2a: Rhydon|confusion
+|-activate|p2a: Rhydon|confusion
+|-damage|p2a: Rhydon|299\/328|[from] confusion
+|
+|turn|2
+|
+|switch|p2a: Dratini|Dratini, L96|274\/274
+|move|p1a: Golbat|Mega Drain|p2a: Dratini
+|-crit|p2a: Dratini
+|-resisted|p2a: Dratini
+|-damage|p2a: Dratini|241\/274
+|
+|turn|3
+|
+|switch|p1a: Arcanine|Arcanine, L85|327\/327
+|move|p2a: Dratini|Thunder|p1a: Arcanine
+|-damage|p1a: Arcanine|250\/327
+|
+|turn|4
+|
+|move|p1a: Arcanine|Body Slam|p2a: Dratini
+|-damage|p2a: Dratini|158\/274
+|move|p2a: Dratini|Hyper Beam|p1a: Arcanine
+|-damage|p1a: Arcanine|131\/327
+|
+|turn|5
+|-mustrecharge|p2a: Dratini
+|-mustrecharge|p2a: Dratini
+|
+|move|p1a: Arcanine|Body Slam|p2a: Dratini
+|-damage|p2a: Dratini|66\/274
+|cant|p2a: Dratini|recharge
+|
+|turn|6
+|
+|move|p1a: Arcanine|Body Slam|p2a: Dratini
+|-damage|p2a: Dratini|0 fnt
+|faint|p2a: Dratini
+|
+|switch|p2a: Rhydon|Rhydon, L79|299\/328
+|turn|7
+|
+|switch|p1a: Ekans|Ekans, L96|262\/262
+|move|p2a: Rhydon|Substitute|p2a: Rhydon
+|-start|p2a: Rhydon|Substitute
+|-damage|p2a: Rhydon|217\/328
+|
+|turn|8
+|
+|move|p1a: Ekans|Earthquake|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-end|p2a: Rhydon|Substitute
+|move|p2a: Rhydon|Earthquake|p1a: Ekans
+|-supereffective|p1a: Ekans
+|-damage|p1a: Ekans|0 fnt
+|faint|p1a: Ekans
+|
+|switch|p1a: Clefable|Clefable, L85|335\/335
+|turn|9
+|
+|move|p1a: Clefable|Ice Beam|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|10\/328
+|move|p2a: Rhydon|Earthquake|p1a: Clefable
+|-damage|p1a: Clefable|214\/335
+|
+|turn|10
+|
+|switch|p2a: Jynx|Jynx, L79|265\/265
+|move|p1a: Clefable|Ice Beam|p2a: Jynx
+|-resisted|p2a: Jynx
+|-damage|p2a: Jynx|231\/265
+|
+|turn|11
+|
+|move|p2a: Jynx|Lovely Kiss|p1a: Clefable
+|-status|p1a: Clefable|slp
+|cant|p1a: Clefable|slp
+|
+|turn|12
+|
+|move|p2a: Jynx|Psychic|p1a: Clefable
+|-damage|p1a: Clefable|131\/335 slp
+|cant|p1a: Clefable|slp
+|
+|turn|13
+|
+|move|p2a: Jynx|Blizzard|p1a: Clefable|[miss]
+|-miss|p2a: Jynx
+|cant|p1a: Clefable|slp
+|
+|turn|14
+|
+|move|p2a: Jynx|Blizzard|p1a: Clefable
+|-damage|p1a: Clefable|22\/335 slp
+|cant|p1a: Clefable|slp
+|
+|turn|15
+|
+|move|p2a: Jynx|Psychic|p1a: Clefable
+|-crit|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|switch|p1a: Arcanine|Arcanine, L85|131\/327
+|turn|16
+|
+|switch|p2a: Rhydon|Rhydon, L79|10\/328
+|move|p1a: Arcanine|Fire Blast|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|
+|switch|p2a: Drowzee|Drowzee, L96|310\/310
+|turn|17
+|
+|switch|p1a: Mewtwo|Mewtwo, L70|293\/293
+|move|p2a: Drowzee|Hypnosis|p1a: Mewtwo
+|-status|p1a: Mewtwo|slp
+|
+|turn|18
+|
+|switch|p2a: Articuno|Articuno, L79|304\/304
+|cant|p1a: Mewtwo|slp
+|
+|turn|19
+|
+|cant|p1a: Mewtwo|slp
+|move|p2a: Articuno|Blizzard|p1a: Mewtwo
+|-crit|p1a: Mewtwo
+|-damage|p1a: Mewtwo|87\/293 slp
+|
+|turn|20
+|
+|cant|p1a: Mewtwo|slp
+|move|p2a: Articuno|Ice Beam|p1a: Mewtwo
+|-crit|p1a: Mewtwo
+|-damage|p1a: Mewtwo|0 fnt
+|faint|p1a: Mewtwo
+|
+|switch|p1a: Arcanine|Arcanine, L85|131\/327
+|turn|21
+|
+|switch|p2a: Jynx|Jynx, L79|231\/265
+|move|p1a: Arcanine|Fire Blast|p2a: Jynx
+|-supereffective|p2a: Jynx
+|-damage|p2a: Jynx|6\/265
+|
+|turn|22
+|
+|move|p1a: Arcanine|Body Slam|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|
+|switch|p2a: Drowzee|Drowzee, L96|310\/310
+|turn|23
+|
+|switch|p1a: Spearow|Spearow, L96|272\/272
+|move|p2a: Drowzee|Psychic|p1a: Spearow
+|-damage|p1a: Spearow|111\/272
+|
+|turn|24
+|
+|move|p1a: Spearow|Double-Edge|p2a: Drowzee
+|-damage|p2a: Drowzee|183\/310
+|-damage|p1a: Spearow|80\/272|[from] recoil|[of] p2a: Drowzee
+|move|p2a: Drowzee|Psychic|p1a: Spearow
+|-damage|p1a: Spearow|0 fnt
+|faint|p1a: Spearow
+|
+|switch|p1a: Golbat|Golbat, L90|318\/318
+|turn|25
+|
+|move|p1a: Golbat|Confuse Ray|p2a: Drowzee
+|-start|p2a: Drowzee|confusion
+|-activate|p2a: Drowzee|confusion
+|-damage|p2a: Drowzee|148\/310|[from] confusion
+|
+|turn|26
+|
+|move|p1a: Golbat|Hyper Beam|p2a: Drowzee
+|-damage|p2a: Drowzee|14\/310
+|-activate|p2a: Drowzee|confusion
+|-damage|p2a: Drowzee|0 fnt|[from] confusion
+|faint|p2a: Drowzee
+|
+|switch|p2a: Articuno|Articuno, L79|304\/304
+|turn|27
+|-mustrecharge|p1a: Golbat
+|-mustrecharge|p1a: Golbat
+|
+|cant|p1a: Golbat|recharge
+|move|p2a: Articuno|Ice Beam|p1a: Golbat
+|-supereffective|p1a: Golbat
+|-damage|p1a: Golbat|96\/318
+|
+|turn|28
+|
+|move|p1a: Golbat|Confuse Ray|p2a: Articuno
+|-start|p2a: Articuno|confusion
+|-activate|p2a: Articuno|confusion
+|-damage|p2a: Articuno|279\/304|[from] confusion
+|
+|turn|29
+|
+|move|p1a: Golbat|Hyper Beam|p2a: Articuno
+|-damage|p2a: Articuno|168\/304
+|-activate|p2a: Articuno|confusion
+|move|p2a: Articuno|Ice Beam|p1a: Golbat
+|-crit|p1a: Golbat
+|-supereffective|p1a: Golbat
+|-damage|p1a: Golbat|0 fnt
+|faint|p1a: Golbat
+|
+|switch|p1a: Arcanine|Arcanine, L85|131\/327
+|turn|30
+|
+|move|p1a: Arcanine|Fire Blast|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|faint|p2a: Articuno
+|
+|switch|p2a: Muk|Muk, L90|372\/372
+|turn|31
+|
+|move|p1a: Arcanine|Fire Blast|p2a: Muk|[miss]
+|-miss|p1a: Arcanine
+|move|p2a: Muk|Body Slam|p1a: Arcanine
+|-damage|p1a: Arcanine|53\/327
+|
+|turn|32
+|
+|move|p1a: Arcanine|Fire Blast|p2a: Muk|[miss]
+|-miss|p1a: Arcanine
+|move|p2a: Muk|Body Slam|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|win|ubberman123

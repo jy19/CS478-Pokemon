@@ -1,0 +1,831 @@
+﻿|join|kid gf lol
+|join|Bacon & Cheese
+|player|p1|kid gf lol|168
+|player|p2|Bacon & Cheese|163
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|switch|p1a: Zam Lead|Alakazam|313\/313
+|switch|p2a: Jolteon|Jolteon|333\/333
+|turn|1
+|chat|Bacon & Cheese|Hello again!
+|chat|kid gf lol|hi
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Zam Lead|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|turn|2
+|
+|move|p1a: Zam Lead|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|571\/703 par
+|move|p2a: Chansey|Light Screen|p2a: Chansey
+|
+|turn|3
+|
+|switch|p1a: Result Of Incest|Cloyster|303\/303
+|move|p2a: Chansey|Thunder Wave|p1a: Result Of Incest
+|-status|p1a: Result Of Incest|par
+|
+|turn|4
+|
+|switch|p2a: Moltres|Moltres|383\/383
+|move|p1a: Result Of Incest|Clamp|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|319\/383
+|-activate|p2a: Moltres|move: Clamp|[of] p1a: Result Of Incest
+|
+|turn|5
+|
+|cant|p2a: Moltres|partiallytrapped
+|move|p1a: Result Of Incest|Clamp|p2a: Moltres
+|-damage|p2a: Moltres|255\/383
+|
+|-end|p2a: Moltres|Clamp|[partiallytrapped]
+|turn|6
+|
+|move|p2a: Moltres|Agility|p2a: Moltres
+|-boost|p2a: Moltres|spe|2
+|cant|p1a: Result Of Incest|par
+|
+|turn|7
+|
+|switch|p1a: TNT|Golem|363\/363
+|move|p2a: Moltres|Fire Spin|p1a: TNT|[miss]
+|-miss|p2a: Moltres
+|
+|turn|8
+|
+|move|p2a: Moltres|Fire Spin|p1a: TNT
+|-resisted|p1a: TNT
+|-damage|p1a: TNT|348\/363
+|-activate|p1a: TNT|move: Fire Spin|[of] p2a: Moltres
+|cant|p1a: TNT|partiallytrapped
+|
+|turn|9
+|
+|switch|p1a: Egg Kangaroo|Chansey|703\/703
+|move|p2a: Moltres|Fire Spin|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|680\/703
+|-activate|p1a: Egg Kangaroo|move: Fire Spin|[of] p2a: Moltres
+|
+|turn|10
+|
+|move|p2a: Moltres|Fire Spin|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|665\/703
+|cant|p1a: Egg Kangaroo|partiallytrapped
+|
+|turn|11
+|
+|switch|p1a: TNT|Golem|348\/363
+|move|p2a: Moltres|Fire Spin|p1a: TNT
+|-crit|p1a: TNT
+|-resisted|p1a: TNT
+|-damage|p1a: TNT|315\/363
+|-activate|p1a: TNT|move: Fire Spin|[of] p2a: Moltres
+|
+|turn|12
+|
+|switch|p1a: Egg Kangaroo|Chansey|665\/703
+|move|p2a: Moltres|Fire Spin|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|642\/703
+|-activate|p1a: Egg Kangaroo|move: Fire Spin|[of] p2a: Moltres
+|
+|turn|13
+|
+|switch|p1a: TNT|Golem|315\/363
+|move|p2a: Moltres|Fire Spin|p1a: TNT
+|-crit|p1a: TNT
+|-resisted|p1a: TNT
+|-damage|p1a: TNT|283\/363
+|-activate|p1a: TNT|move: Fire Spin|[of] p2a: Moltres
+|
+|turn|14
+|
+|switch|p1a: Egg Kangaroo|Chansey|642\/703
+|move|p2a: Moltres|Fire Spin|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|619\/703
+|-activate|p1a: Egg Kangaroo|move: Fire Spin|[of] p2a: Moltres
+|
+|turn|15
+|
+|switch|p1a: TNT|Golem|283\/363
+|move|p2a: Moltres|Fire Spin|p1a: TNT
+|-crit|p1a: TNT
+|-resisted|p1a: TNT
+|-damage|p1a: TNT|251\/363
+|-activate|p1a: TNT|move: Fire Spin|[of] p2a: Moltres
+|
+|turn|16
+|
+|switch|p1a: Egg Kangaroo|Chansey|619\/703
+|move|p2a: Moltres|Fire Spin|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|598\/703
+|-activate|p1a: Egg Kangaroo|move: Fire Spin|[of] p2a: Moltres
+|
+|turn|17
+|
+|switch|p1a: TNT|Golem|251\/363
+|move|p2a: Moltres|Fire Spin|p1a: TNT
+|-resisted|p1a: TNT
+|-damage|p1a: TNT|236\/363
+|-activate|p1a: TNT|move: Fire Spin|[of] p2a: Moltres
+|
+|turn|18
+|
+|move|p2a: Moltres|Fire Spin|p1a: TNT
+|-damage|p1a: TNT|221\/363
+|cant|p1a: TNT|partiallytrapped
+|
+|turn|19
+|
+|move|p2a: Moltres|Fire Spin|p1a: TNT
+|-damage|p1a: TNT|206\/363
+|cant|p1a: TNT|partiallytrapped
+|
+|-end|p1a: TNT|Fire Spin|[partiallytrapped]
+|turn|20
+|
+|move|p2a: Moltres|Fire Spin|p1a: TNT
+|-resisted|p1a: TNT
+|-damage|p1a: TNT|191\/363
+|-activate|p1a: TNT|move: Fire Spin|[of] p2a: Moltres
+|cant|p1a: TNT|partiallytrapped
+|
+|turn|21
+|
+|move|p2a: Moltres|Fire Spin|p1a: TNT
+|-damage|p1a: TNT|176\/363
+|cant|p1a: TNT|partiallytrapped
+|
+|turn|22
+|
+|move|p2a: Moltres|Fire Spin|p1a: TNT
+|-damage|p1a: TNT|161\/363
+|cant|p1a: TNT|partiallytrapped
+|
+|-end|p1a: TNT|Fire Spin|[partiallytrapped]
+|turn|23
+|
+|move|p2a: Moltres|Fire Spin|p1a: TNT
+|-crit|p1a: TNT
+|-resisted|p1a: TNT
+|-damage|p1a: TNT|132\/363
+|-activate|p1a: TNT|move: Fire Spin|[of] p2a: Moltres
+|cant|p1a: TNT|partiallytrapped
+|
+|turn|24
+|
+|switch|p1a: Egg Kangaroo|Chansey|598\/703
+|move|p2a: Moltres|Fire Spin|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|575\/703
+|-activate|p1a: Egg Kangaroo|move: Fire Spin|[of] p2a: Moltres
+|
+|turn|25
+|
+|switch|p1a: TNT|Golem|132\/363
+|move|p2a: Moltres|Fire Spin|p1a: TNT
+|-resisted|p1a: TNT
+|-damage|p1a: TNT|116\/363
+|-activate|p1a: TNT|move: Fire Spin|[of] p2a: Moltres
+|
+|turn|26
+|
+|switch|p1a: Egg Kangaroo|Chansey|575\/703
+|move|p2a: Moltres|Fire Spin|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|554\/703
+|-activate|p1a: Egg Kangaroo|move: Fire Spin|[of] p2a: Moltres
+|
+|turn|27
+|
+|switch|p1a: TNT|Golem|116\/363
+|move|p2a: Moltres|Fire Spin|p1a: TNT
+|-resisted|p1a: TNT
+|-damage|p1a: TNT|100\/363
+|-activate|p1a: TNT|move: Fire Spin|[of] p2a: Moltres
+|
+|turn|28
+|
+|switch|p1a: Egg Kangaroo|Chansey|554\/703
+|move|p2a: Moltres|Fire Spin|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|533\/703
+|-activate|p1a: Egg Kangaroo|move: Fire Spin|[of] p2a: Moltres
+|
+|turn|29
+|
+|switch|p1a: TNT|Golem|100\/363
+|move|p2a: Moltres|Fire Spin|p1a: TNT
+|-crit|p1a: TNT
+|-resisted|p1a: TNT
+|-damage|p1a: TNT|68\/363
+|-activate|p1a: TNT|move: Fire Spin|[of] p2a: Moltres
+|
+|turn|30
+|
+|switch|p1a: Egg Kangaroo|Chansey|533\/703
+|move|p2a: Moltres|Fire Spin|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|511\/703
+|-activate|p1a: Egg Kangaroo|move: Fire Spin|[of] p2a: Moltres
+|
+|turn|31
+|
+|switch|p1a: Zam Lead|Alakazam|313\/313
+|move|p2a: Moltres|Fire Spin|p1a: Zam Lead
+|-damage|p1a: Zam Lead|297\/313
+|-activate|p1a: Zam Lead|move: Fire Spin|[of] p2a: Moltres
+|
+|turn|32
+|
+|switch|p1a: Egg Kangaroo|Chansey|511\/703
+|move|p2a: Moltres|Fire Spin|p1a: Egg Kangaroo
+|-crit|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|466\/703
+|-activate|p1a: Egg Kangaroo|move: Fire Spin|[of] p2a: Moltres
+|
+|turn|33
+|
+|switch|p1a: Zam Lead|Alakazam|297\/313
+|move|p2a: Moltres|Fire Spin|p1a: Zam Lead
+|-damage|p1a: Zam Lead|281\/313
+|-activate|p1a: Zam Lead|move: Fire Spin|[of] p2a: Moltres
+|
+|turn|34
+|
+|move|p2a: Moltres|Fire Spin|p1a: Zam Lead
+|-damage|p1a: Zam Lead|252\/313
+|cant|p1a: Zam Lead|partiallytrapped
+|
+|turn|35
+|
+|move|p2a: Moltres|Fire Spin|p1a: Zam Lead
+|-damage|p1a: Zam Lead|223\/313
+|cant|p1a: Zam Lead|partiallytrapped
+|
+|turn|36
+|
+|move|p2a: Moltres|Fire Spin|p1a: Zam Lead
+|-damage|p1a: Zam Lead|194\/313
+|cant|p1a: Zam Lead|partiallytrapped
+|
+|turn|37
+|
+|move|p2a: Moltres|Fire Spin|p1a: Zam Lead
+|-damage|p1a: Zam Lead|165\/313
+|cant|p1a: Zam Lead|partiallytrapped
+|
+|-end|p1a: Zam Lead|Fire Spin|[partiallytrapped]
+|turn|38
+|
+|switch|p1a: Egg Kangaroo|Chansey|466\/703
+|move|p2a: Moltres|Hyper Beam|p1a: Egg Kangaroo|[miss]
+|-miss|p2a: Moltres
+|
+|turn|39
+|
+|move|p2a: Moltres|Fire Spin|p1a: Egg Kangaroo|[miss]
+|-miss|p2a: Moltres
+|move|p1a: Egg Kangaroo|Thunder Wave|p2a: Moltres
+|-status|p2a: Moltres|par
+|
+|turn|40
+|
+|move|p1a: Egg Kangaroo|Soft-Boiled|p1a: Egg Kangaroo
+|-heal|p1a: Egg Kangaroo|703\/703
+|cant|p2a: Moltres|par
+|
+|turn|41
+|
+|move|p1a: Egg Kangaroo|Ice Beam|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|114\/383 par
+|move|p2a: Moltres|Fire Blast|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|549\/703
+|
+|turn|42
+|
+|move|p1a: Egg Kangaroo|Soft-Boiled|p1a: Egg Kangaroo
+|-heal|p1a: Egg Kangaroo|703\/703
+|move|p2a: Moltres|Hyper Beam|p1a: Egg Kangaroo|[miss]
+|-miss|p2a: Moltres
+|
+|turn|43
+|
+|move|p1a: Egg Kangaroo|Ice Beam|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|
+|
+|switch|p2a: Victreebel|Victreebel|363\/363
+|turn|44
+|
+|move|p2a: Victreebel|Stun Spore|p1a: Egg Kangaroo
+|-status|p1a: Egg Kangaroo|par
+|move|p1a: Egg Kangaroo|Thunder Wave|p2a: Victreebel
+|-status|p2a: Victreebel|par
+|
+|turn|45
+|
+|switch|p1a: Zam Lead|Alakazam|165\/313
+|move|p2a: Victreebel|Wrap|p1a: Zam Lead
+|-crit|p1a: Zam Lead
+|-damage|p1a: Zam Lead|128\/313
+|-activate|p1a: Zam Lead|move: Wrap|[of] p2a: Victreebel
+|
+|turn|46
+|
+|switch|p1a: Egg Kangaroo|Chansey|703\/703 par
+|move|p2a: Victreebel|Wrap|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|670\/703 par
+|-activate|p1a: Egg Kangaroo|move: Wrap|[of] p2a: Victreebel
+|
+|turn|47
+|
+|switch|p1a: TNT|Golem|68\/363
+|move|p2a: Victreebel|Wrap|p1a: TNT
+|-resisted|p1a: TNT
+|-damage|p1a: TNT|63\/363
+|-activate|p1a: TNT|move: Wrap|[of] p2a: Victreebel
+|
+|turn|48
+|
+|cant|p1a: TNT|partiallytrapped
+|move|p2a: Victreebel|Wrap|p1a: TNT
+|-damage|p1a: TNT|26\/363
+|
+|turn|49
+|
+|cant|p1a: TNT|partiallytrapped
+|move|p2a: Victreebel|Wrap|p1a: TNT
+|-damage|p1a: TNT|0 fnt
+|faint|p1a: TNT
+|
+|
+|switch|p1a: Racist Joker|Jynx|333\/333
+|turn|50
+|
+|move|p1a: Racist Joker|Blizzard|p2a: Victreebel|[miss]
+|-miss|p1a: Racist Joker
+|move|p2a: Victreebel|Stun Spore|p1a: Racist Joker
+|-status|p1a: Racist Joker|par
+|
+|turn|51
+|
+|move|p1a: Racist Joker|Blizzard|p2a: Victreebel
+|-supereffective|p2a: Victreebel
+|-damage|p2a: Victreebel|88\/363 par
+|move|p2a: Victreebel|Razor Leaf|p1a: Racist Joker
+|-crit|p1a: Racist Joker
+|-damage|p1a: Racist Joker|189\/333 par
+|
+|turn|52
+|
+|cant|p1a: Racist Joker|par
+|move|p2a: Victreebel|Hyper Beam|p1a: Racist Joker
+|-damage|p1a: Racist Joker|0 fnt
+|faint|p1a: Racist Joker
+|
+|chat|kid gf lol|wtf
+|
+|switch|p1a: Zam Lead|Alakazam|128\/313
+|turn|53
+|
+|move|p1a: Zam Lead|Psychic|p2a: Victreebel
+|-supereffective|p2a: Victreebel
+|-damage|p2a: Victreebel|0 fnt
+|faint|p2a: Victreebel
+|
+|
+|switch|p2a: Jolteon|Jolteon|333\/333
+|turn|54
+|
+|switch|p2a: Chansey|Chansey|571\/703 par
+|switch|p1a: Egg Kangaroo|Chansey|670\/703 par
+|
+|turn|55
+|
+|move|p2a: Chansey|Light Screen|p2a: Chansey
+|cant|p1a: Egg Kangaroo|par
+|
+|turn|56
+|
+|move|p2a: Chansey|Ice Beam|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|590\/703 par
+|cant|p1a: Egg Kangaroo|par
+|
+|turn|57
+|
+|switch|p1a: Result Of Incest|Cloyster|303\/303 par
+|move|p2a: Chansey|Ice Beam|p1a: Result Of Incest
+|-resisted|p1a: Result Of Incest
+|-damage|p1a: Result Of Incest|284\/303 par
+|
+|turn|58
+|
+|move|p1a: Result Of Incest|Clamp|p2a: Chansey|[miss]
+|-miss|p1a: Result Of Incest
+|move|p2a: Chansey|Ice Beam|p1a: Result Of Incest
+|-resisted|p1a: Result Of Incest
+|-damage|p1a: Result Of Incest|264\/303 par
+|
+|turn|59
+|
+|cant|p1a: Result Of Incest|par
+|move|p2a: Chansey|Ice Beam|p1a: Result Of Incest
+|-resisted|p1a: Result Of Incest
+|-damage|p1a: Result Of Incest|242\/303 par
+|
+|turn|60
+|
+|cant|p1a: Result Of Incest|par
+|move|p2a: Chansey|Ice Beam|p1a: Result Of Incest
+|-resisted|p1a: Result Of Incest
+|-damage|p1a: Result Of Incest|222\/303 par
+|
+|turn|61
+|
+|move|p1a: Result Of Incest|Clamp|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|532\/703 par
+|-activate|p2a: Chansey|move: Clamp|[of] p1a: Result Of Incest
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|62
+|
+|switch|p2a: Cloyster|Cloyster|303\/303
+|move|p1a: Result Of Incest|Clamp|p2a: Cloyster
+|-resisted|p2a: Cloyster
+|-damage|p2a: Cloyster|281\/303
+|-activate|p2a: Cloyster|move: Clamp|[of] p1a: Result Of Incest
+|
+|turn|63
+|
+|switch|p2a: Chansey|Chansey|532\/703 par
+|move|p1a: Result Of Incest|Clamp|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|456\/703 par
+|-activate|p2a: Chansey|move: Clamp|[of] p1a: Result Of Incest
+|
+|turn|64
+|
+|move|p1a: Result Of Incest|Clamp|p2a: Chansey
+|-damage|p2a: Chansey|417\/703 par
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|65
+|
+|switch|p2a: Dragonite|Dragonite|385\/385
+|cant|p1a: Result Of Incest|par
+|
+|turn|66
+|
+|move|p2a: Dragonite|Thunder Wave|p1a: Result Of Incest
+|-fail|p1a: Result Of Incest|par
+|cant|p1a: Result Of Incest|par
+|
+|turn|67
+|
+|move|p2a: Dragonite|Wrap|p1a: Result Of Incest
+|-damage|p1a: Result Of Incest|211\/303 par
+|-activate|p1a: Result Of Incest|move: Wrap|[of] p2a: Dragonite
+|cant|p1a: Result Of Incest|partiallytrapped
+|
+|turn|68
+|
+|move|p2a: Dragonite|Wrap|p1a: Result Of Incest
+|-damage|p1a: Result Of Incest|200\/303 par
+|cant|p1a: Result Of Incest|partiallytrapped
+|
+|turn|69
+|
+|move|p2a: Dragonite|Wrap|p1a: Result Of Incest
+|-damage|p1a: Result Of Incest|189\/303 par
+|cant|p1a: Result Of Incest|partiallytrapped
+|
+|-end|p1a: Result Of Incest|Wrap|[partiallytrapped]
+|turn|70
+|
+|move|p2a: Dragonite|Wrap|p1a: Result Of Incest
+|-damage|p1a: Result Of Incest|178\/303 par
+|-activate|p1a: Result Of Incest|move: Wrap|[of] p2a: Dragonite
+|cant|p1a: Result Of Incest|par
+|
+|turn|71
+|
+|move|p2a: Dragonite|Wrap|p1a: Result Of Incest
+|-damage|p1a: Result Of Incest|167\/303 par
+|cant|p1a: Result Of Incest|partiallytrapped
+|
+|-end|p1a: Result Of Incest|Wrap|[partiallytrapped]
+|turn|72
+|
+|move|p2a: Dragonite|Wrap|p1a: Result Of Incest
+|-crit|p1a: Result Of Incest
+|-damage|p1a: Result Of Incest|147\/303 par
+|-activate|p1a: Result Of Incest|move: Wrap|[of] p2a: Dragonite
+|cant|p1a: Result Of Incest|partiallytrapped
+|
+|turn|73
+|
+|move|p2a: Dragonite|Wrap|p1a: Result Of Incest
+|-damage|p1a: Result Of Incest|127\/303 par
+|cant|p1a: Result Of Incest|partiallytrapped
+|
+|turn|74
+|
+|move|p2a: Dragonite|Wrap|p1a: Result Of Incest
+|-damage|p1a: Result Of Incest|107\/303 par
+|cant|p1a: Result Of Incest|partiallytrapped
+|
+|-end|p1a: Result Of Incest|Wrap|[partiallytrapped]
+|turn|75
+|
+|move|p2a: Dragonite|Wrap|p1a: Result Of Incest
+|-crit|p1a: Result Of Incest
+|-damage|p1a: Result Of Incest|85\/303 par
+|-activate|p1a: Result Of Incest|move: Wrap|[of] p2a: Dragonite
+|cant|p1a: Result Of Incest|partiallytrapped
+|
+|turn|76
+|
+|move|p2a: Dragonite|Wrap|p1a: Result Of Incest
+|-damage|p1a: Result Of Incest|63\/303 par
+|cant|p1a: Result Of Incest|partiallytrapped
+|
+|turn|77
+|
+|move|p2a: Dragonite|Wrap|p1a: Result Of Incest
+|-damage|p1a: Result Of Incest|41\/303 par
+|cant|p1a: Result Of Incest|par
+|
+|turn|78
+|
+|move|p2a: Dragonite|Wrap|p1a: Result Of Incest
+|-damage|p1a: Result Of Incest|19\/303 par
+|cant|p1a: Result Of Incest|partiallytrapped
+|
+|-end|p1a: Result Of Incest|Wrap|[partiallytrapped]
+|turn|79
+|
+|move|p2a: Dragonite|Body Slam|p1a: Result Of Incest
+|-damage|p1a: Result Of Incest|0 fnt
+|faint|p1a: Result Of Incest
+|
+|
+|switch|p1a: Zam Lead|Alakazam|128\/313
+|turn|80
+|
+|move|p1a: Zam Lead|Thunder Wave|p2a: Dragonite
+|-status|p2a: Dragonite|par
+|move|p2a: Dragonite|Thunder Wave|p1a: Zam Lead
+|-status|p1a: Zam Lead|par
+|
+|turn|81
+|
+|move|p1a: Zam Lead|Recover|p1a: Zam Lead
+|-heal|p1a: Zam Lead|284\/313 par
+|move|p2a: Dragonite|Body Slam|p1a: Zam Lead
+|-damage|p1a: Zam Lead|162\/313 par
+|
+|turn|82
+|
+|move|p1a: Zam Lead|Psychic|p2a: Dragonite
+|-damage|p2a: Dragonite|253\/385 par
+|-unboost|p2a: Dragonite|spd|1
+|-unboost|p2a: Dragonite|spa|1
+|move|p2a: Dragonite|Wrap|p1a: Zam Lead
+|-damage|p1a: Zam Lead|138\/313 par
+|-activate|p1a: Zam Lead|move: Wrap|[of] p2a: Dragonite
+|
+|turn|83
+|
+|cant|p1a: Zam Lead|partiallytrapped
+|move|p2a: Dragonite|Wrap|p1a: Zam Lead
+|-damage|p1a: Zam Lead|114\/313 par
+|
+|turn|84
+|
+|cant|p1a: Zam Lead|par
+|move|p2a: Dragonite|Wrap|p1a: Zam Lead
+|-damage|p1a: Zam Lead|90\/313 par
+|
+|turn|85
+|
+|cant|p1a: Zam Lead|partiallytrapped
+|cant|p2a: Dragonite|par
+|
+|-end|p1a: Zam Lead|Wrap|[partiallytrapped]
+|turn|86
+|
+|switch|p2a: Cloyster|Cloyster|281\/303
+|move|p1a: Zam Lead|Recover|p1a: Zam Lead
+|-heal|p1a: Zam Lead|246\/313 par
+|
+|turn|87
+|
+|move|p2a: Cloyster|Clamp|p1a: Zam Lead
+|-damage|p1a: Zam Lead|215\/313 par
+|-activate|p1a: Zam Lead|move: Clamp|[of] p2a: Cloyster
+|cant|p1a: Zam Lead|partiallytrapped
+|
+|turn|88
+|
+|switch|p1a: Egg Kangaroo|Chansey|590\/703 par
+|move|p2a: Cloyster|Clamp|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|555\/703 par
+|-activate|p1a: Egg Kangaroo|move: Clamp|[of] p2a: Cloyster
+|
+|turn|89
+|
+|switch|p1a: Zam Lead|Alakazam|215\/313 par
+|move|p2a: Cloyster|Clamp|p1a: Zam Lead
+|-damage|p1a: Zam Lead|183\/313 par
+|-activate|p1a: Zam Lead|move: Clamp|[of] p2a: Cloyster
+|
+|turn|90
+|
+|switch|p1a: Egg Kangaroo|Chansey|555\/703 par
+|move|p2a: Cloyster|Clamp|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|517\/703 par
+|-activate|p1a: Egg Kangaroo|move: Clamp|[of] p2a: Cloyster
+|
+|turn|91
+|
+|move|p2a: Cloyster|Clamp|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|486\/703 par
+|cant|p1a: Egg Kangaroo|partiallytrapped
+|
+|turn|92
+|
+|move|p2a: Cloyster|Clamp|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|455\/703 par
+|cant|p1a: Egg Kangaroo|par
+|
+|-end|p1a: Egg Kangaroo|Clamp|[partiallytrapped]
+|turn|93
+|
+|move|p2a: Cloyster|Clamp|p1a: Egg Kangaroo|[miss]
+|-miss|p2a: Cloyster
+|cant|p1a: Egg Kangaroo|par
+|
+|turn|94
+|chat|kid gf lol|bs
+|
+|move|p2a: Cloyster|Clamp|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|416\/703 par
+|-activate|p1a: Egg Kangaroo|move: Clamp|[of] p2a: Cloyster
+|cant|p1a: Egg Kangaroo|par
+|
+|turn|95
+|
+|move|p2a: Cloyster|Clamp|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|377\/703 par
+|cant|p1a: Egg Kangaroo|par
+|
+|turn|96
+|
+|move|p2a: Cloyster|Clamp|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|338\/703 par
+|cant|p1a: Egg Kangaroo|par
+|
+|turn|97
+|
+|move|p2a: Cloyster|Clamp|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|299\/703 par
+|cant|p1a: Egg Kangaroo|partiallytrapped
+|
+|turn|98
+|
+|move|p2a: Cloyster|Clamp|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|260\/703 par
+|cant|p1a: Egg Kangaroo|par
+|
+|-end|p1a: Egg Kangaroo|Clamp|[partiallytrapped]
+|turn|99
+|
+|move|p2a: Cloyster|Clamp|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|222\/703 par
+|-activate|p1a: Egg Kangaroo|move: Clamp|[of] p2a: Cloyster
+|cant|p1a: Egg Kangaroo|par
+|
+|turn|100
+|
+|move|p2a: Cloyster|Clamp|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|184\/703 par
+|cant|p1a: Egg Kangaroo|partiallytrapped
+|
+|turn|101
+|
+|move|p2a: Cloyster|Clamp|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|146\/703 par
+|cant|p1a: Egg Kangaroo|par
+|
+|turn|102
+|
+|move|p2a: Cloyster|Clamp|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|108\/703 par
+|cant|p1a: Egg Kangaroo|partiallytrapped
+|
+|turn|103
+|
+|move|p2a: Cloyster|Clamp|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|70\/703 par
+|cant|p1a: Egg Kangaroo|partiallytrapped
+|
+|-end|p1a: Egg Kangaroo|Clamp|[partiallytrapped]
+|turn|104
+|
+|move|p2a: Cloyster|Hyper Beam|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|0 fnt
+|faint|p1a: Egg Kangaroo
+|
+|
+|switch|p1a: That's Bull|Tauros|353\/353
+|turn|105
+|
+|move|p1a: That's Bull|Earthquake|p2a: Cloyster
+|-damage|p2a: Cloyster|227\/303
+|move|p2a: Cloyster|Explosion|p1a: That's Bull
+|-damage|p1a: That's Bull|72\/353
+|faint|p2a: Cloyster
+|
+|switch|p2a: Dragonite|Dragonite|253\/385 par
+|turn|106
+|
+|move|p1a: That's Bull|Blizzard|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|
+|switch|p2a: Jolteon|Jolteon|333\/333
+|turn|107
+|
+|move|p2a: Jolteon|Body Slam|p1a: That's Bull
+|-damage|p1a: That's Bull|16\/353
+|move|p1a: That's Bull|Earthquake|p2a: Jolteon
+|-supereffective|p2a: Jolteon
+|-damage|p2a: Jolteon|111\/333
+|
+|turn|108
+|
+|move|p2a: Jolteon|Pin Missile|p1a: That's Bull
+|-damage|p1a: That's Bull|7\/353
+|-damage|p1a: That's Bull|0 fnt
+|-hitcount|p1a: That's Bull|2
+|faint|p1a: That's Bull
+|
+|
+|switch|p1a: Zam Lead|Alakazam|183\/313 par
+|turn|109
+|
+|switch|p2a: Chansey|Chansey|417\/703 par
+|move|p1a: Zam Lead|Psychic|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|147\/703 par
+|
+|turn|110
+|join|NUKERUSH!
+|
+|move|p1a: Zam Lead|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|15\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|111
+|
+|move|p1a: Zam Lead|Psychic|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|
+|switch|p2a: Jolteon|Jolteon|111\/333
+|turn|112
+|
+|move|p2a: Jolteon|Pin Missile|p1a: Zam Lead
+|-crit|p1a: Zam Lead
+|-supereffective|p1a: Zam Lead
+|-damage|p1a: Zam Lead|120\/313 par
+|-damage|p1a: Zam Lead|57\/313 par
+|-damage|p1a: Zam Lead|0 fnt
+|-hitcount|p1a: Zam Lead|3
+|faint|p1a: Zam Lead
+|
+|win|Bacon & Cheese
+|raw|Ladder updating...
+|chat|Bacon & Cheese|gg
+|leave|kid gf lol
+|player|p1
+|raw|kid gf lol's rating: 1362 &rarr; <strong>1331<\/strong><br \/>(-31 for losing)
+|raw|Bacon &amp; Cheese's rating: 1139 &rarr; <strong>1178<\/strong><br \/>(+39 for winning)
+|chat|Bacon & Cheese|I finally won!

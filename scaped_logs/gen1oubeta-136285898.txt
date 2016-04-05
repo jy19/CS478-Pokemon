@@ -1,0 +1,1005 @@
+﻿|join|xyzygy
+|join|Shayminlover123
+|player|p1|xyzygy|167
+|player|p2|Shayminlover123|136
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|switch|p1a: Venusaur|Venusaur|363\/363
+|switch|p2a: Chansey|Chansey|703\/703
+|turn|1
+|join|redtrunks2
+|
+|move|p1a: Venusaur|Sleep Powder|p2a: Chansey|[miss]
+|-miss|p1a: Venusaur
+|move|p2a: Chansey|Thunder Wave|p1a: Venusaur
+|-status|p1a: Venusaur|par
+|
+|turn|2
+|
+|move|p2a: Chansey|Ice Beam|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|202\/363 par
+|move|p1a: Venusaur|Sleep Powder|p2a: Chansey|[miss]
+|-miss|p1a: Venusaur
+|
+|turn|3
+|
+|move|p2a: Chansey|Ice Beam|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|41\/363 par
+|move|p1a: Venusaur|Sleep Powder|p2a: Chansey
+|-status|p2a: Chansey|slp
+|
+|turn|4
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|switch|p1a: Golem|Golem|363\/363
+|
+|turn|5
+|leave|redtrunks2
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Exeggutor|Mega Drain|p1a: Chansey
+|-damage|p1a: Chansey|653\/703
+|
+|turn|6
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|move|p1a: Chansey|Ice Beam|p2a: Gengar
+|-damage|p2a: Gengar|263\/323
+|
+|turn|7
+|
+|move|p2a: Gengar|Hypnosis|p1a: Chansey|[miss]
+|-miss|p2a: Gengar
+|move|p1a: Chansey|Thunder Wave|p2a: Gengar
+|-status|p2a: Gengar|par
+|
+|turn|8
+|
+|switch|p1a: Venusaur|Venusaur|41\/363 par
+|move|p2a: Gengar|Hypnosis|p1a: Venusaur
+|-fail|p1a: Venusaur
+|
+|turn|9
+|
+|move|p2a: Gengar|Thunderbolt|p1a: Venusaur
+|-resisted|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|
+|
+|switch|p1a: Golem|Golem|363\/363
+|turn|10
+|
+|switch|p2a: Slowbro|Slowbro|393\/393
+|move|p1a: Golem|Earthquake|p2a: Slowbro
+|-damage|p2a: Slowbro|283\/393
+|
+|turn|11
+|
+|switch|p1a: Victreebel|Victreebel|363\/363
+|move|p2a: Slowbro|Thunder Wave|p1a: Victreebel
+|-status|p1a: Victreebel|par
+|
+|turn|12
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Victreebel|Razor Leaf|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|339\/393
+|
+|turn|13
+|
+|switch|p1a: Chansey|Chansey|653\/703
+|move|p2a: Exeggutor|Stun Spore|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|turn|14
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|move|p1a: Chansey|Thunder Wave|p2a: Tauros
+|-status|p2a: Tauros|par
+|
+|turn|15
+|
+|switch|p1a: Cloyster|Cloyster|303\/303
+|cant|p2a: Tauros|par
+|
+|turn|16
+|
+|move|p1a: Cloyster|Clamp|p2a: Tauros|[miss]
+|-miss|p1a: Cloyster
+|cant|p2a: Tauros|par
+|
+|turn|17
+|
+|switch|p2a: Slowbro|Slowbro|283\/393
+|move|p1a: Cloyster|Clamp|p2a: Slowbro|[miss]
+|-miss|p1a: Cloyster
+|
+|turn|18
+|
+|move|p1a: Cloyster|Clamp|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|262\/393
+|-activate|p2a: Slowbro|move: Clamp|[of] p1a: Cloyster
+|cant|p2a: Slowbro|partiallytrapped
+|
+|turn|19
+|
+|move|p1a: Cloyster|Clamp|p2a: Slowbro
+|-damage|p2a: Slowbro|241\/393
+|cant|p2a: Slowbro|partiallytrapped
+|
+|turn|20
+|
+|move|p1a: Cloyster|Clamp|p2a: Slowbro
+|-damage|p2a: Slowbro|220\/393
+|cant|p2a: Slowbro|partiallytrapped
+|
+|turn|21
+|
+|move|p1a: Cloyster|Clamp|p2a: Slowbro
+|-damage|p2a: Slowbro|199\/393
+|cant|p2a: Slowbro|partiallytrapped
+|
+|turn|22
+|
+|move|p1a: Cloyster|Clamp|p2a: Slowbro
+|-damage|p2a: Slowbro|178\/393
+|cant|p2a: Slowbro|partiallytrapped
+|
+|-end|p2a: Slowbro|Clamp|[partiallytrapped]
+|turn|23
+|
+|move|p1a: Cloyster|Clamp|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|156\/393
+|-activate|p2a: Slowbro|move: Clamp|[of] p1a: Cloyster
+|cant|p2a: Slowbro|partiallytrapped
+|
+|turn|24
+|
+|switch|p2a: Dragonite|Dragonite|385\/385
+|move|p1a: Cloyster|Clamp|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|367\/385
+|-activate|p2a: Dragonite|move: Clamp|[of] p1a: Cloyster
+|
+|turn|25
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|cant|p2a: Dragonite|partiallytrapped
+|
+|-end|p2a: Dragonite|Clamp|[partiallytrapped]
+|turn|26
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Dragonite
+|-status|p2a: Dragonite|par
+|cant|p2a: Dragonite|par
+|
+|turn|27
+|
+|move|p1a: Alakazam|Psychic|p2a: Dragonite
+|-damage|p2a: Dragonite|243\/385 par
+|move|p2a: Dragonite|Wrap|p1a: Alakazam
+|-damage|p1a: Alakazam|290\/313
+|-activate|p1a: Alakazam|move: Wrap|[of] p2a: Dragonite
+|
+|turn|28
+|
+|cant|p1a: Alakazam|partiallytrapped
+|move|p2a: Dragonite|Wrap|p1a: Alakazam
+|-damage|p1a: Alakazam|267\/313
+|
+|turn|29
+|
+|cant|p1a: Alakazam|partiallytrapped
+|cant|p2a: Dragonite|par
+|
+|-end|p1a: Alakazam|Wrap|[partiallytrapped]
+|turn|30
+|
+|move|p1a: Alakazam|Psychic|p2a: Dragonite
+|-damage|p2a: Dragonite|101\/385 par
+|move|p2a: Dragonite|Wrap|p1a: Alakazam
+|-damage|p1a: Alakazam|244\/313
+|-activate|p1a: Alakazam|move: Wrap|[of] p2a: Dragonite
+|
+|turn|31
+|
+|cant|p1a: Alakazam|partiallytrapped
+|move|p2a: Dragonite|Wrap|p1a: Alakazam
+|-damage|p1a: Alakazam|221\/313
+|
+|-end|p1a: Alakazam|Wrap|[partiallytrapped]
+|turn|32
+|
+|switch|p2a: Slowbro|Slowbro|156\/393
+|move|p1a: Alakazam|Psychic|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|10\/393
+|-unboost|p2a: Slowbro|spd|1
+|-unboost|p2a: Slowbro|spa|1
+|
+|turn|33
+|
+|switch|p2a: Chansey|Chansey|703\/703 slp
+|move|p1a: Alakazam|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|603\/703 slp
+|
+|turn|34
+|
+|switch|p1a: Golem|Golem|363\/363
+|cant|p2a: Chansey|slp
+|
+|turn|35
+|
+|switch|p2a: Exeggutor|Exeggutor|339\/393
+|move|p1a: Golem|Earthquake|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|270\/393
+|
+|turn|36
+|
+|switch|p2a: Slowbro|Slowbro|10\/393
+|switch|p1a: Chansey|Chansey|653\/703 par
+|
+|turn|37
+|
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|-heal|p2a: Slowbro|393\/393 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|move|p1a: Chansey|Ice Beam|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|346\/393 slp
+|
+|turn|38
+|
+|switch|p1a: Victreebel|Victreebel|363\/363 par
+|cant|p2a: Slowbro|slp
+|
+|turn|39
+|
+|switch|p2a: Exeggutor|Exeggutor|270\/393
+|move|p1a: Victreebel|Razor Leaf|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|216\/393
+|
+|turn|40
+|
+|switch|p1a: Chansey|Chansey|653\/703 par
+|move|p2a: Exeggutor|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|543\/703 par
+|
+|turn|41
+|
+|switch|p2a: Tauros|Tauros|353\/353 par
+|cant|p1a: Chansey|par
+|
+|turn|42
+|
+|switch|p1a: Cloyster|Cloyster|303\/303
+|move|p2a: Tauros|Body Slam|p1a: Cloyster
+|-damage|p1a: Cloyster|233\/303
+|
+|turn|43
+|
+|switch|p2a: Slowbro|Slowbro|346\/393 slp
+|move|p1a: Cloyster|Clamp|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|323\/393 slp
+|-activate|p2a: Slowbro|move: Clamp|[of] p1a: Cloyster
+|
+|turn|44
+|
+|switch|p1a: Victreebel|Victreebel|363\/363 par
+|cant|p2a: Slowbro|slp
+|-curestatus|p2a: Slowbro|slp
+|
+|-end|p2a: Slowbro|Clamp|[partiallytrapped]
+|turn|45
+|
+|switch|p2a: Exeggutor|Exeggutor|216\/393
+|move|p1a: Victreebel|Razor Leaf|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|159\/393
+|
+|turn|46
+|
+|switch|p1a: Chansey|Chansey|543\/703 par
+|move|p2a: Exeggutor|Psychic|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|298\/703 par
+|
+|turn|47
+|
+|move|p2a: Exeggutor|Mega Drain|p1a: Chansey
+|-damage|p1a: Chansey|248\/703 par
+|-heal|p2a: Exeggutor|184\/393|[from] drain|[of] p1a: Chansey
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|599\/703 par
+|
+|turn|48
+|
+|move|p2a: Exeggutor|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|473\/703 par
+|cant|p1a: Chansey|par
+|
+|turn|49
+|
+|move|p2a: Exeggutor|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|346\/703 par
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|move|p1a: Chansey|Ice Beam|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|91\/393
+|
+|turn|50
+|
+|move|p2a: Exeggutor|Mega Drain|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|234\/703 par
+|-heal|p2a: Exeggutor|147\/393|[from] drain|[of] p1a: Chansey
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|585\/703 par
+|
+|turn|51
+|
+|move|p2a: Exeggutor|Mega Drain|p1a: Chansey
+|-damage|p1a: Chansey|508\/703 par
+|-heal|p2a: Exeggutor|186\/393|[from] drain|[of] p1a: Chansey
+|cant|p1a: Chansey|par
+|
+|turn|52
+|
+|move|p2a: Exeggutor|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|317\/703 par
+|cant|p1a: Chansey|par
+|
+|turn|53
+|
+|move|p2a: Exeggutor|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|148\/703 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|499\/703 par
+|
+|turn|54
+|
+|move|p2a: Exeggutor|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|310\/703 par
+|cant|p1a: Chansey|par
+|
+|turn|55
+|
+|move|p2a: Exeggutor|Mega Drain|p1a: Chansey
+|-damage|p1a: Chansey|226\/703 par
+|-heal|p2a: Exeggutor|228\/393|[from] drain|[of] p1a: Chansey
+|cant|p1a: Chansey|par
+|
+|turn|56
+|
+|move|p2a: Exeggutor|Mega Drain|p1a: Chansey
+|-damage|p1a: Chansey|141\/703 par
+|-heal|p2a: Exeggutor|271\/393|[from] drain|[of] p1a: Chansey
+|cant|p1a: Chansey|par
+|
+|turn|57
+|
+|move|p2a: Exeggutor|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|
+|switch|p1a: Alakazam|Alakazam|221\/313
+|turn|58
+|
+|move|p1a: Alakazam|Psychic|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|155\/393
+|move|p2a: Exeggutor|Stun Spore|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|
+|turn|59
+|
+|move|p2a: Exeggutor|Mega Drain|p1a: Alakazam
+|-damage|p1a: Alakazam|178\/313 par
+|-heal|p2a: Exeggutor|177\/393|[from] drain|[of] p1a: Alakazam
+|cant|p1a: Alakazam|par
+|
+|turn|60
+|
+|move|p2a: Exeggutor|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|131\/313 par
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|287\/313 par
+|
+|turn|61
+|
+|switch|p2a: Chansey|Chansey|603\/703 slp
+|move|p1a: Alakazam|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|62
+|
+|switch|p1a: Golem|Golem|363\/363
+|cant|p2a: Chansey|slp
+|-curestatus|p2a: Chansey|slp
+|
+|turn|63
+|
+|move|p1a: Golem|Earthquake|p2a: Chansey
+|-damage|p2a: Chansey|286\/703
+|move|p2a: Chansey|Counter|p1a: Golem
+|-fail|p2a: Chansey
+|
+|turn|64
+|
+|switch|p2a: Slowbro|Slowbro|323\/393
+|move|p1a: Golem|Earthquake|p2a: Slowbro
+|-damage|p2a: Slowbro|214\/393
+|
+|turn|65
+|
+|switch|p1a: Victreebel|Victreebel|363\/363 par
+|move|p2a: Slowbro|Surf|p1a: Victreebel
+|-resisted|p1a: Victreebel
+|-damage|p1a: Victreebel|312\/363 par
+|
+|turn|66
+|
+|switch|p2a: Exeggutor|Exeggutor|177\/393
+|cant|p1a: Victreebel|par
+|
+|turn|67
+|join|GoldVersion
+|
+|switch|p1a: Alakazam|Alakazam|287\/313 par
+|move|p2a: Exeggutor|Psychic|p1a: Alakazam|[miss]
+|-miss|p2a: Exeggutor
+|
+|turn|68
+|
+|switch|p2a: Chansey|Chansey|286\/703
+|cant|p1a: Alakazam|par
+|
+|turn|69
+|
+|switch|p1a: Golem|Golem|363\/363
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|637\/703
+|
+|turn|70
+|
+|move|p2a: Chansey|Ice Beam|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|143\/363
+|move|p1a: Golem|Earthquake|p2a: Chansey
+|-damage|p2a: Chansey|279\/703
+|
+|turn|71
+|
+|switch|p1a: Cloyster|Cloyster|233\/303
+|move|p2a: Chansey|Ice Beam|p1a: Cloyster
+|-resisted|p1a: Cloyster
+|-damage|p1a: Cloyster|212\/303
+|
+|turn|72
+|
+|switch|p2a: Slowbro|Slowbro|214\/393
+|move|p1a: Cloyster|Hyper Beam|p2a: Slowbro
+|-damage|p2a: Slowbro|111\/393
+|
+|turn|73
+|
+|cant|p1a: Cloyster|recharge
+|move|p2a: Slowbro|Thunder Wave|p1a: Cloyster
+|-status|p1a: Cloyster|par
+|
+|turn|74
+|
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|-heal|p2a: Slowbro|393\/393 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|cant|p1a: Cloyster|par
+|
+|turn|75
+|
+|switch|p1a: Victreebel|Victreebel|312\/363 par
+|cant|p2a: Slowbro|slp
+|
+|turn|76
+|
+|switch|p2a: Exeggutor|Exeggutor|177\/393
+|move|p1a: Victreebel|Razor Leaf|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|122\/393
+|
+|turn|77
+|
+|switch|p1a: Alakazam|Alakazam|287\/313 par
+|move|p2a: Exeggutor|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|239\/313 par
+|
+|turn|78
+|
+|switch|p2a: Chansey|Chansey|279\/703
+|cant|p1a: Alakazam|par
+|
+|turn|79
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|630\/703
+|move|p1a: Alakazam|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|turn|80
+|
+|cant|p1a: Alakazam|par
+|move|p2a: Chansey|Ice Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|181\/313 par
+|
+|turn|81
+|
+|cant|p1a: Alakazam|par
+|move|p2a: Chansey|Ice Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|117\/313 par
+|
+|turn|82
+|
+|switch|p2a: Dragonite|Dragonite|101\/385 par
+|cant|p1a: Alakazam|par
+|
+|turn|83
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|273\/313 par
+|move|p2a: Dragonite|Agility|p2a: Dragonite
+|-boost|p2a: Dragonite|spe|2
+|
+|turn|84
+|
+|move|p2a: Dragonite|Wrap|p1a: Alakazam
+|-damage|p1a: Alakazam|251\/313 par
+|-activate|p1a: Alakazam|move: Wrap|[of] p2a: Dragonite
+|cant|p1a: Alakazam|partiallytrapped
+|
+|turn|85
+|
+|move|p2a: Dragonite|Wrap|p1a: Alakazam
+|-damage|p1a: Alakazam|229\/313 par
+|cant|p1a: Alakazam|par
+|
+|turn|86
+|
+|switch|p1a: Golem|Golem|143\/363
+|move|p2a: Dragonite|Wrap|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|137\/363
+|-activate|p1a: Golem|move: Wrap|[of] p2a: Dragonite
+|
+|turn|87
+|
+|move|p2a: Dragonite|Wrap|p1a: Golem
+|-damage|p1a: Golem|115\/363
+|cant|p1a: Golem|partiallytrapped
+|
+|turn|88
+|
+|move|p2a: Dragonite|Wrap|p1a: Golem
+|-damage|p1a: Golem|93\/363
+|cant|p1a: Golem|partiallytrapped
+|
+|-end|p1a: Golem|Wrap|[partiallytrapped]
+|turn|89
+|
+|move|p2a: Dragonite|Blizzard|p1a: Golem|[miss]
+|-miss|p2a: Dragonite
+|move|p1a: Golem|Rock Slide|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|
+|switch|p2a: Tauros|Tauros|353\/353 par
+|turn|90
+|
+|move|p1a: Golem|Explosion|p2a: Tauros
+|-damage|p2a: Tauros|81\/353 par
+|faint|p1a: Golem
+|
+|switch|p1a: Alakazam|Alakazam|229\/313 par
+|turn|91
+|
+|switch|p2a: Chansey|Chansey|630\/703 par
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|494\/703 par
+|
+|turn|92
+|
+|cant|p1a: Alakazam|par
+|cant|p2a: Chansey|par
+|
+|turn|93
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|362\/703 par
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|cant|p2a: Chansey|par
+|
+|turn|94
+|
+|switch|p2a: Exeggutor|Exeggutor|122\/393
+|move|p1a: Alakazam|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|66\/393
+|
+|turn|95
+|
+|move|p2a: Exeggutor|Explosion|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Gengar|Gengar|263\/323 par
+|switch|p1a: Victreebel|Victreebel|312\/363 par
+|turn|96
+|
+|switch|p2a: Tauros|Tauros|81\/353 par
+|move|p1a: Victreebel|Razor Leaf|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|
+|switch|p2a: Chansey|Chansey|362\/703 par
+|turn|97
+|
+|cant|p1a: Victreebel|par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703 par
+|
+|turn|98
+|
+|move|p1a: Victreebel|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|670\/703 par
+|-activate|p2a: Chansey|move: Wrap|[of] p1a: Victreebel
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|99
+|
+|switch|p2a: Gengar|Gengar|263\/323 par
+|cant|p1a: Victreebel|par
+|
+|turn|100
+|
+|switch|p2a: Chansey|Chansey|670\/703 par
+|cant|p1a: Victreebel|par
+|
+|turn|101
+|
+|move|p1a: Victreebel|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|635\/703 par
+|-activate|p2a: Chansey|move: Wrap|[of] p1a: Victreebel
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|102
+|
+|switch|p2a: Gengar|Gengar|263\/323 par
+|cant|p1a: Victreebel|par
+|
+|turn|103
+|
+|switch|p2a: Chansey|Chansey|635\/703 par
+|move|p1a: Victreebel|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|600\/703 par
+|-activate|p2a: Chansey|move: Wrap|[of] p1a: Victreebel
+|
+|turn|104
+|
+|move|p1a: Victreebel|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|565\/703 par
+|cant|p2a: Chansey|partiallytrapped
+|
+|-end|p2a: Chansey|Wrap|[partiallytrapped]
+|turn|105
+|
+|move|p1a: Victreebel|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|530\/703 par
+|-activate|p2a: Chansey|move: Wrap|[of] p1a: Victreebel
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|106
+|
+|switch|p2a: Gengar|Gengar|263\/323 par
+|move|p1a: Victreebel|Wrap|p2a: Gengar
+|-damage|p2a: Gengar|263\/323 par
+|-activate|p2a: Gengar|move: Wrap|[of] p1a: Victreebel
+|
+|turn|107
+|
+|cant|p2a: Gengar|partiallytrapped
+|move|p1a: Victreebel|Wrap|p2a: Gengar
+|-damage|p2a: Gengar|263\/323 par
+|
+|-end|p2a: Gengar|Wrap|[partiallytrapped]
+|turn|108
+|
+|switch|p2a: Chansey|Chansey|530\/703 par
+|move|p1a: Victreebel|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|496\/703 par
+|-activate|p2a: Chansey|move: Wrap|[of] p1a: Victreebel
+|
+|turn|109
+|chat|Shayminlover123|Dang with the wraps!
+|
+|switch|p2a: Gengar|Gengar|263\/323 par
+|move|p1a: Victreebel|Wrap|p2a: Gengar
+|-damage|p2a: Gengar|263\/323 par
+|-activate|p2a: Gengar|move: Wrap|[of] p1a: Victreebel
+|
+|turn|110
+|
+|cant|p2a: Gengar|partiallytrapped
+|move|p1a: Victreebel|Wrap|p2a: Gengar
+|-damage|p2a: Gengar|263\/323 par
+|
+|-end|p2a: Gengar|Wrap|[partiallytrapped]
+|turn|111
+|
+|cant|p2a: Gengar|par
+|move|p1a: Victreebel|Razor Leaf|p2a: Gengar
+|-crit|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|204\/323 par
+|
+|turn|112
+|
+|switch|p2a: Chansey|Chansey|496\/703 par
+|move|p1a: Victreebel|Razor Leaf|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|358\/703 par
+|
+|turn|113
+|
+|move|p1a: Victreebel|Wrap|p2a: Chansey|[miss]
+|-miss|p1a: Victreebel
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703 par
+|
+|turn|114
+|
+|move|p1a: Victreebel|Wrap|p2a: Chansey|[miss]
+|-miss|p1a: Victreebel
+|cant|p2a: Chansey|par
+|
+|turn|115
+|
+|move|p1a: Victreebel|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|671\/703 par
+|-activate|p2a: Chansey|move: Wrap|[of] p1a: Victreebel
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|116
+|
+|switch|p2a: Gengar|Gengar|204\/323 par
+|move|p1a: Victreebel|Wrap|p2a: Gengar
+|-damage|p2a: Gengar|204\/323 par
+|-activate|p2a: Gengar|move: Wrap|[of] p1a: Victreebel
+|
+|turn|117
+|
+|cant|p2a: Gengar|partiallytrapped
+|cant|p1a: Victreebel|par
+|
+|-end|p2a: Gengar|Wrap|[partiallytrapped]
+|turn|118
+|
+|switch|p2a: Chansey|Chansey|671\/703 par
+|move|p1a: Victreebel|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|640\/703 par
+|-activate|p2a: Chansey|move: Wrap|[of] p1a: Victreebel
+|
+|turn|119
+|
+|switch|p2a: Gengar|Gengar|204\/323 par
+|move|p1a: Victreebel|Wrap|p2a: Gengar
+|-damage|p2a: Gengar|204\/323 par
+|-activate|p2a: Gengar|move: Wrap|[of] p1a: Victreebel
+|
+|turn|120
+|
+|cant|p2a: Gengar|partiallytrapped
+|move|p1a: Victreebel|Wrap|p2a: Gengar
+|-damage|p2a: Gengar|204\/323 par
+|
+|turn|121
+|
+|cant|p2a: Gengar|partiallytrapped
+|cant|p1a: Victreebel|par
+|
+|-end|p2a: Gengar|Wrap|[partiallytrapped]
+|turn|122
+|
+|cant|p2a: Gengar|par
+|move|p1a: Victreebel|Razor Leaf|p2a: Gengar
+|-crit|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|151\/323 par
+|
+|turn|123
+|
+|switch|p2a: Chansey|Chansey|640\/703 par
+|move|p1a: Victreebel|Razor Leaf|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|505\/703 par
+|
+|turn|124
+|
+|move|p1a: Victreebel|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|472\/703 par
+|-activate|p2a: Chansey|move: Wrap|[of] p1a: Victreebel
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|125
+|
+|switch|p2a: Gengar|Gengar|151\/323 par
+|move|p1a: Victreebel|Wrap|p2a: Gengar
+|-damage|p2a: Gengar|151\/323 par
+|-activate|p2a: Gengar|move: Wrap|[of] p1a: Victreebel
+|
+|turn|126
+|
+|cant|p2a: Gengar|par
+|move|p1a: Victreebel|Wrap|p2a: Gengar
+|-damage|p2a: Gengar|151\/323 par
+|
+|-end|p2a: Gengar|Wrap|[partiallytrapped]
+|turn|127
+|
+|switch|p2a: Chansey|Chansey|472\/703 par
+|move|p1a: Victreebel|Razor Leaf|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|334\/703 par
+|
+|turn|128
+|leave|GoldVersion
+|
+|move|p1a: Victreebel|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|302\/703 par
+|-activate|p2a: Chansey|move: Wrap|[of] p1a: Victreebel
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|129
+|
+|switch|p2a: Gengar|Gengar|151\/323 par
+|move|p1a: Victreebel|Wrap|p2a: Gengar
+|-damage|p2a: Gengar|151\/323 par
+|-activate|p2a: Gengar|move: Wrap|[of] p1a: Victreebel
+|
+|turn|130
+|
+|cant|p2a: Gengar|partiallytrapped
+|move|p1a: Victreebel|Wrap|p2a: Gengar
+|-damage|p2a: Gengar|151\/323 par
+|
+|turn|131
+|
+|cant|p2a: Gengar|partiallytrapped
+|cant|p1a: Victreebel|par
+|
+|-end|p2a: Gengar|Wrap|[partiallytrapped]
+|turn|132
+|
+|move|p2a: Gengar|Explosion|p1a: Victreebel
+|-damage|p1a: Victreebel|46\/363 par
+|faint|p2a: Gengar
+|
+|switch|p2a: Chansey|Chansey|302\/703 par
+|turn|133
+|
+|cant|p1a: Victreebel|par
+|cant|p2a: Chansey|par
+|
+|turn|134
+|
+|move|p1a: Victreebel|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|271\/703 par
+|-activate|p2a: Chansey|move: Wrap|[of] p1a: Victreebel
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|135
+|
+|switch|p2a: Slowbro|Slowbro|393\/393 slp
+|cant|p1a: Victreebel|par
+|
+|turn|136
+|
+|switch|p2a: Chansey|Chansey|271\/703 par
+|move|p1a: Victreebel|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|240\/703 par
+|-activate|p2a: Chansey|move: Wrap|[of] p1a: Victreebel
+|
+|turn|137
+|
+|switch|p2a: Slowbro|Slowbro|393\/393 slp
+|move|p1a: Victreebel|Wrap|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-damage|p2a: Slowbro|366\/393 slp
+|-activate|p2a: Slowbro|move: Wrap|[of] p1a: Victreebel
+|
+|turn|138
+|
+|cant|p2a: Slowbro|slp
+|-curestatus|p2a: Slowbro|slp
+|move|p1a: Victreebel|Wrap|p2a: Slowbro
+|-damage|p2a: Slowbro|335\/393
+|
+|turn|139
+|
+|cant|p2a: Slowbro|partiallytrapped
+|cant|p1a: Victreebel|par
+|
+|-end|p2a: Slowbro|Wrap|[partiallytrapped]
+|turn|140
+|
+|switch|p1a: Cloyster|Cloyster|212\/303 par
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|141
+|
+|move|p2a: Slowbro|Surf|p1a: Cloyster
+|-resisted|p1a: Cloyster
+|-damage|p1a: Cloyster|114\/303 par
+|cant|p1a: Cloyster|par
+|
+|turn|142
+|
+|move|p2a: Slowbro|Surf|p1a: Cloyster
+|-resisted|p1a: Cloyster
+|-damage|p1a: Cloyster|4\/303 par
+|move|p1a: Cloyster|Explosion|p2a: Slowbro
+|-damage|p2a: Slowbro|94\/393
+|faint|p1a: Cloyster
+|
+|switch|p1a: Victreebel|Victreebel|46\/363 par
+|turn|143
+|
+|move|p2a: Slowbro|Surf|p1a: Victreebel
+|-resisted|p1a: Victreebel
+|-damage|p1a: Victreebel|0 fnt
+|faint|p1a: Victreebel
+|
+|win|Shayminlover123
+|raw|Ladder updating...
+|raw|xyzygy's rating: 1381 &rarr; <strong>1347<\/strong><br \/>(-34 for losing)
+|raw|Shayminlover123's rating: 1092 &rarr; <strong>1136<\/strong><br \/>(+44 for winning)
+|chat|Shayminlover123|Bout time
+|chat|xyzygy|gg
+|chat|Shayminlover123|gg

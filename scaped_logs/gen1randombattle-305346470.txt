@@ -1,0 +1,348 @@
+﻿|j|Broncosfan88
+|j|nspira
+|player|p1|Broncosfan88|2
+|player|p2|nspira|170
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|14832,43990,27108,1854
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Abra|Abra, L96|243\/243
+|switch|p2a: Gengar|Gengar, L79|257\/257
+|turn|1
+|c|★nspira|gl
+|choice|move 4|move 3
+|
+|move|p1a: Abra|Psychic|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|53\/257
+|move|p2a: Gengar|Psychic|p1a: Abra
+|-resisted|p1a: Abra
+|-damage|p1a: Abra|216\/243
+|
+|turn|2
+|choice|move 4|move 2
+|
+|move|p1a: Abra|Psychic|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|choice||switch 3
+|
+|switch|p2a: Clefable|Clefable, L85|335\/335
+|turn|3
+|choice|move 4|move 2
+|
+|move|p1a: Abra|Psychic|p2a: Clefable
+|-damage|p2a: Clefable|209\/335
+|move|p2a: Clefable|Hyper Beam|p1a: Abra
+|-crit|p1a: Abra
+|-damage|p1a: Abra|0 fnt
+|faint|p1a: Abra
+|choice|switch 6|
+|
+|switch|p1a: Rapidash|Rapidash, L90|300\/300
+|turn|4
+|choice|move 1|move 1
+|
+|move|p1a: Rapidash|Fire Blast|p2a: Clefable
+|-damage|p2a: Clefable|73\/335
+|-status|p2a: Clefable|brn
+|move|p2a: Clefable|Thunder Wave|p1a: Rapidash
+|-status|p1a: Rapidash|par
+|-damage|p2a: Clefable|53\/335 brn|[from] brn|[of] p1a: Rapidash
+|
+|turn|5
+|choice|move 3|move 2
+|
+|move|p2a: Clefable|Hyper Beam|p1a: Rapidash
+|-damage|p1a: Rapidash|227\/300 par
+|-damage|p2a: Clefable|33\/335 brn|[from] brn|[of] p1a: Rapidash
+|cant|p1a: Rapidash|par
+|
+|turn|6
+|-mustrecharge|p2a: Clefable
+|-mustrecharge|p2a: Clefable
+|-mustrecharge|p2a: Clefable
+|choice|move 3|move 1
+|
+|cant|p2a: Clefable|recharge
+|-damage|p2a: Clefable|13\/335 brn|[from] brn|[of] p1a: Rapidash
+|move|p1a: Rapidash|Body Slam|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|choice||switch 5
+|
+|switch|p2a: Seadra|Seadra, L90|282\/282
+|turn|7
+|choice|switch 2|move 4
+|
+|switch|p1a: Blastoise|Blastoise, L85|308\/308
+|move|p2a: Seadra|Blizzard|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|262\/308
+|
+|turn|8
+|choice|move 1|move 1
+|
+|move|p2a: Seadra|Smokescreen|p1a: Blastoise
+|-unboost|p1a: Blastoise|accuracy|1
+|move|p1a: Blastoise|Body Slam|p2a: Seadra
+|-damage|p2a: Seadra|236\/282
+|
+|turn|9
+|choice|move 1|move 1
+|
+|move|p2a: Seadra|Smokescreen|p1a: Blastoise
+|-unboost|p1a: Blastoise|accuracy|1
+|move|p1a: Blastoise|Body Slam|p2a: Seadra|[miss]
+|-miss|p1a: Blastoise
+|
+|turn|10
+|choice|move 1|move 1
+|
+|move|p2a: Seadra|Smokescreen|p1a: Blastoise
+|-unboost|p1a: Blastoise|accuracy|1
+|move|p1a: Blastoise|Body Slam|p2a: Seadra
+|-damage|p2a: Seadra|185\/282
+|
+|turn|11
+|choice|switch 5|move 1
+|
+|switch|p1a: Seaking|Seaking, L90|327\/327
+|move|p2a: Seadra|Smokescreen|p1a: Seaking
+|-unboost|p1a: Seaking|accuracy|1
+|
+|turn|12
+|choice|move 2|switch 4
+|
+|switch|p2a: Vileplume|Vileplume, L90|318\/318
+|move|p1a: Seaking|Double-Edge|p2a: Vileplume
+|-damage|p2a: Vileplume|241\/318
+|-damage|p1a: Seaking|308\/327|[from] recoil|[of] p2a: Vileplume
+|
+|turn|13
+|choice|switch 3|move 1
+|
+|switch|p1a: Tangela|Tangela, L85|284\/284
+|move|p2a: Vileplume|Swords Dance|p2a: Vileplume
+|-boost|p2a: Vileplume|atk|2
+|
+|turn|14
+|choice|move 4|move 3
+|
+|move|p1a: Tangela|Body Slam|p2a: Vileplume
+|-damage|p2a: Vileplume|197\/318
+|-status|p2a: Vileplume|par
+|cant|p2a: Vileplume|par
+|
+|turn|15
+|choice|move 4|move 3
+|
+|move|p1a: Tangela|Body Slam|p2a: Vileplume
+|-damage|p2a: Vileplume|157\/318 par
+|move|p2a: Vileplume|Body Slam|p1a: Tangela
+|-damage|p1a: Tangela|191\/284
+|
+|turn|16
+|choice|move 4|move 3
+|
+|move|p1a: Tangela|Body Slam|p2a: Vileplume
+|-damage|p2a: Vileplume|118\/318 par
+|move|p2a: Vileplume|Body Slam|p1a: Tangela
+|-crit|p1a: Tangela
+|-damage|p1a: Tangela|90\/284
+|-status|p1a: Tangela|par
+|
+|turn|17
+|choice|move 2|move 3
+|
+|move|p1a: Tangela|Hyper Beam|p2a: Vileplume
+|-damage|p2a: Vileplume|40\/318 par
+|move|p2a: Vileplume|Body Slam|p1a: Tangela
+|-damage|p1a: Tangela|0 fnt
+|faint|p1a: Tangela
+|choice|switch 5|
+|
+|switch|p1a: Blastoise|Blastoise, L85|262\/308
+|turn|18
+|choice|move 1|move 2
+|
+|move|p1a: Blastoise|Body Slam|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|choice||switch 6
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|293\/293
+|turn|19
+|choice|move 1|move 4
+|
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|move|p1a: Blastoise|Body Slam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|258\/293
+|-status|p2a: Mewtwo|par
+|
+|turn|20
+|choice|move 2|move 4
+|
+|move|p1a: Blastoise|Mimic|p2a: Mewtwo
+|-start|p1a: Blastoise|Mimic|Blizzard
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|
+|turn|21
+|choice|move 2|move 4
+|
+|move|p1a: Blastoise|Blizzard|p2a: Mewtwo
+|-damage|p2a: Mewtwo|194\/293 par
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|
+|turn|22
+|choice|move 2|move 2
+|
+|move|p1a: Blastoise|Blizzard|p2a: Mewtwo
+|-damage|p2a: Mewtwo|128\/293 par
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|274\/293 par
+|
+|turn|23
+|c|★Broncosfan88|uh oh
+|choice|move 2|move 1
+|
+|move|p1a: Blastoise|Blizzard|p2a: Mewtwo|[miss]
+|-miss|p1a: Blastoise
+|move|p2a: Mewtwo|Psychic|p1a: Blastoise
+|-damage|p1a: Blastoise|172\/308
+|
+|turn|24
+|choice|move 2|move 1
+|
+|move|p1a: Blastoise|Blizzard|p2a: Mewtwo
+|-damage|p2a: Mewtwo|210\/293 par
+|move|p2a: Mewtwo|Psychic|p1a: Blastoise
+|-damage|p1a: Blastoise|78\/308
+|-unboost|p1a: Blastoise|spd|1
+|-unboost|p1a: Blastoise|spa|1
+|
+|turn|25
+|choice|move 2|move 2
+|
+|move|p1a: Blastoise|Blizzard|p2a: Mewtwo
+|-damage|p2a: Mewtwo|167\/293 par
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|293\/293 par
+|
+|turn|26
+|choice|move 3|move 1
+|
+|move|p1a: Blastoise|Rest|p1a: Blastoise
+|-status|p1a: Blastoise|slp
+|-heal|p1a: Blastoise|308\/308 slp|[silent]
+|-status|p1a: Blastoise|slp|[from] move: Rest
+|move|p2a: Mewtwo|Psychic|p1a: Blastoise
+|-damage|p1a: Blastoise|161\/308 slp
+|
+|turn|27
+|choice|move 2|move 1
+|
+|cant|p1a: Blastoise|slp
+|move|p2a: Mewtwo|Psychic|p1a: Blastoise
+|-damage|p1a: Blastoise|15\/308 slp
+|
+|turn|28
+|choice|move 1|move 1
+|
+|-curestatus|p1a: Blastoise|slp
+|move|p2a: Mewtwo|Psychic|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|faint|p1a: Blastoise
+|choice|switch 2|
+|
+|switch|p1a: Rapidash|Rapidash, L90|227\/300 par
+|turn|29
+|c|★nspira|man no para hax
+|choice|move 1|move 1
+|
+|move|p1a: Rapidash|Fire Blast|p2a: Mewtwo
+|-damage|p2a: Mewtwo|189\/293 par
+|move|p2a: Mewtwo|Psychic|p1a: Rapidash
+|-crit|p1a: Rapidash
+|-damage|p1a: Rapidash|47\/300 par
+|
+|turn|30
+|choice|move 1|move 2
+|
+|move|p1a: Rapidash|Fire Blast|p2a: Mewtwo
+|-damage|p2a: Mewtwo|79\/293 par
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|225\/293 par
+|
+|turn|31
+|choice|move 1|move 2
+|
+|cant|p1a: Rapidash|par
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|293\/293 par
+|
+|turn|32
+|choice|move 1|move 1
+|
+|move|p1a: Rapidash|Fire Blast|p2a: Mewtwo
+|-damage|p2a: Mewtwo|182\/293 par
+|move|p2a: Mewtwo|Psychic|p1a: Rapidash
+|-damage|p1a: Rapidash|0 fnt
+|faint|p1a: Rapidash
+|choice|switch 3|
+|
+|switch|p1a: Seaking|Seaking, L90|308\/327
+|turn|33
+|choice|move 3|move 2
+|
+|move|p1a: Seaking|Surf|p2a: Mewtwo
+|-damage|p2a: Mewtwo|99\/293 par
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|245\/293 par
+|
+|turn|34
+|choice|move 3|move 1
+|
+|move|p1a: Seaking|Surf|p2a: Mewtwo|[miss]
+|-miss|p1a: Seaking
+|move|p2a: Mewtwo|Psychic|p1a: Seaking
+|-damage|p1a: Seaking|220\/327
+|
+|turn|35
+|choice|move 3|move 1
+|
+|move|p1a: Seaking|Surf|p2a: Mewtwo
+|-damage|p2a: Mewtwo|158\/293 par
+|move|p2a: Mewtwo|Psychic|p1a: Seaking
+|-crit|p1a: Seaking
+|-damage|p1a: Seaking|34\/327
+|-unboost|p1a: Seaking|spd|1
+|-unboost|p1a: Seaking|spa|1
+|
+|turn|36
+|choice|move 3|move 2
+|
+|move|p1a: Seaking|Surf|p2a: Mewtwo
+|-damage|p2a: Mewtwo|104\/293 par
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|250\/293 par
+|
+|turn|37
+|c|★Broncosfan88|gg
+|-message|Broncosfan88 forfeited.
+|
+|win|nspira
+|l|Broncosfan88
+|player|p1
+|raw|Broncosfan88's rating: 1444 &rarr; <strong>1411<\/strong><br \/>(-33 for losing)
+|raw|nspira's rating: 1166 &rarr; <strong>1208<\/strong><br \/>(+42 for winning)

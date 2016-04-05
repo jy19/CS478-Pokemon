@@ -1,0 +1,560 @@
+﻿|join|Bollowegen
+|join|Grambull
+|player|p1|Bollowegen|100
+|player|p2|Grambull|169
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|24373,31006,22805,9816
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Butterfree|Butterfree, L90|291\/291
+|switch|p2a: Tangela|Tangela, L85|284\/284
+|turn|1
+|choice|move 3|move 3
+|
+|move|p1a: Butterfree|Sleep Powder|p2a: Tangela
+|-status|p2a: Tangela|slp
+|cant|p2a: Tangela|slp
+|
+|turn|2
+|choice|move 4|switch 6
+|
+|switch|p2a: Lapras|Lapras, L79|367\/367
+|move|p1a: Butterfree|Psychic|p2a: Lapras
+|-damage|p2a: Lapras|304\/367
+|
+|turn|3
+|choice|switch 6|move 1
+|
+|switch|p1a: Chansey|Chansey, L79|557\/557
+|move|p2a: Lapras|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|459\/557
+|
+|turn|4
+|choice|move 3|move 2
+|
+|move|p2a: Lapras|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|327\/557
+|move|p1a: Chansey|Thunder Wave|p2a: Lapras
+|-status|p2a: Lapras|par
+|
+|turn|5
+|choice|move 2|move 2
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-start|p1a: Chansey|Reflect
+|move|p2a: Lapras|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|260\/557
+|
+|turn|6
+|choice|move 1|move 2
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|538\/557
+|move|p2a: Lapras|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|478\/557
+|
+|turn|7
+|choice|move 2|move 2
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|cant|p2a: Lapras|par
+|
+|turn|8
+|choice|move 2|move 2
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|move|p2a: Lapras|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|415\/557
+|
+|turn|9
+|choice|move 2|move 4
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|move|p2a: Lapras|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|361\/557
+|
+|turn|10
+|choice|move 2|move 4
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|cant|p2a: Lapras|par
+|
+|turn|11
+|choice|move 2|move 4
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|cant|p2a: Lapras|par
+|
+|turn|12
+|choice|move 2|move 4
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|move|p2a: Lapras|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|310\/557
+|
+|turn|13
+|choice|move 1|move 4
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|557\/557
+|move|p2a: Lapras|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|504\/557
+|
+|turn|14
+|choice|move 2|switch 2
+|
+|switch|p2a: Vileplume|Vileplume, L90|318\/318
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|
+|turn|15
+|choice|switch 2|move 2
+|
+|switch|p1a: Gloom|Gloom, L90|291\/291
+|move|p2a: Vileplume|Sleep Powder|p1a: Gloom
+|-status|p1a: Gloom|slp
+|
+|turn|16
+|choice|switch 6|move 3
+|
+|switch|p1a: Butterfree|Butterfree, L90|291\/291
+|move|p2a: Vileplume|Swords Dance|p2a: Vileplume
+|-boost|p2a: Vileplume|atk|2
+|
+|turn|17
+|choice|move 4|move 1
+|
+|move|p1a: Butterfree|Psychic|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|200\/318
+|move|p2a: Vileplume|Body Slam|p1a: Butterfree
+|-damage|p1a: Butterfree|130\/291
+|
+|turn|18
+|choice|move 2|move 1
+|
+|move|p1a: Butterfree|Stun Spore|p2a: Vileplume
+|-status|p2a: Vileplume|par
+|move|p2a: Vileplume|Body Slam|p1a: Butterfree
+|-damage|p1a: Butterfree|0 fnt
+|faint|p1a: Butterfree
+|choice|switch 4|
+|
+|switch|p1a: Gyarados|Gyarados, L85|335\/335
+|turn|19
+|choice|move 1|move 1
+|
+|move|p1a: Gyarados|Blizzard|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|40\/318 par
+|move|p2a: Vileplume|Body Slam|p1a: Gyarados
+|-damage|p1a: Gyarados|199\/335
+|-status|p1a: Gyarados|par
+|
+|turn|20
+|choice|move 1|move 1
+|
+|move|p1a: Gyarados|Blizzard|p2a: Vileplume
+|-crit|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|choice||switch 4
+|
+|switch|p2a: Ditto|Ditto, L99|296\/296
+|turn|21
+|choice|switch 3|move 1
+|
+|switch|p1a: Charmander|Charmander, L96|270\/270
+|move|p2a: Ditto|Transform|p1a: Charmander
+|-transform|p2a: Ditto|p1a: Charmander
+|
+|turn|22
+|choice|move 1|move 4
+|
+|move|p1a: Charmander|Body Slam|p2a: Ditto
+|-damage|p2a: Ditto|235\/296
+|move|p2a: Ditto|Slash|p1a: Charmander
+|-crit|p1a: Charmander
+|-damage|p1a: Charmander|156\/270
+|
+|turn|23
+|choice|move 1|move 4
+|
+|move|p1a: Charmander|Body Slam|p2a: Ditto
+|-crit|p2a: Ditto
+|-damage|p2a: Ditto|107\/296
+|-status|p2a: Ditto|par
+|move|p2a: Ditto|Slash|p1a: Charmander
+|-crit|p1a: Charmander
+|-damage|p1a: Charmander|40\/270
+|
+|turn|24
+|choice|move 4|move 4
+|
+|move|p1a: Charmander|Slash|p2a: Ditto
+|-crit|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|choice||switch 5
+|
+|switch|p2a: Hitmonchan|Hitmonchan, L90|273\/273
+|turn|25
+|choice|move 1|move 4
+|
+|move|p2a: Hitmonchan|Body Slam|p1a: Charmander
+|-damage|p1a: Charmander|0 fnt
+|faint|p1a: Charmander
+|choice|switch 6|
+|
+|switch|p1a: Gloom|Gloom, L90|291\/291 slp
+|turn|26
+|choice|move 4|move 1
+|
+|move|p2a: Hitmonchan|Seismic Toss|p1a: Gloom
+|-damage|p1a: Gloom|201\/291 slp
+|cant|p1a: Gloom|slp
+|
+|turn|27
+|choice|move 4|move 1
+|
+|move|p2a: Hitmonchan|Seismic Toss|p1a: Gloom
+|-damage|p1a: Gloom|111\/291 slp
+|cant|p1a: Gloom|slp
+|
+|turn|28
+|choice|move 4|move 1
+|
+|move|p2a: Hitmonchan|Seismic Toss|p1a: Gloom
+|-damage|p1a: Gloom|21\/291 slp
+|cant|p1a: Gloom|slp
+|
+|turn|29
+|choice|move 4|move 4
+|
+|move|p2a: Hitmonchan|Body Slam|p1a: Gloom
+|-damage|p1a: Gloom|0 fnt
+|faint|p1a: Gloom
+|choice|switch 3|
+|
+|switch|p1a: Gyarados|Gyarados, L85|199\/335 par
+|turn|30
+|choice|move 3|move 1
+|
+|move|p2a: Hitmonchan|Seismic Toss|p1a: Gyarados
+|-damage|p1a: Gyarados|109\/335 par
+|move|p1a: Gyarados|Surf|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|105\/273
+|
+|turn|31
+|choice|move 3|switch 2
+|
+|switch|p2a: Lapras|Lapras, L79|304\/367 par
+|cant|p1a: Gyarados|par
+|
+|turn|32
+|choice|switch 2|move 4
+|
+|switch|p1a: Chansey|Chansey, L79|504\/557
+|move|p2a: Lapras|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|449\/557
+|
+|turn|33
+|choice|move 4|move 2
+|
+|move|p1a: Chansey|Ice Beam|p2a: Lapras
+|-resisted|p2a: Lapras
+|-damage|p2a: Lapras|288\/367 par
+|cant|p2a: Lapras|par
+|
+|turn|34
+|choice|move 3|move 2
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Lapras
+|-fail|p2a: Lapras|par
+|cant|p2a: Lapras|par
+|
+|turn|35
+|choice|move 2|move 2
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-start|p1a: Chansey|Reflect
+|cant|p2a: Lapras|par
+|
+|turn|36
+|choice|move 3|move 2
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Lapras
+|-fail|p2a: Lapras|par
+|move|p2a: Lapras|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|384\/557
+|
+|turn|37
+|choice|move 3|move 4
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Lapras
+|-fail|p2a: Lapras|par
+|cant|p2a: Lapras|par
+|
+|turn|38
+|choice|move 3|move 3
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Lapras
+|-fail|p2a: Lapras|par
+|cant|p2a: Lapras|par
+|
+|turn|39
+|choice|move 3|move 3
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Lapras
+|-fail|p2a: Lapras|par
+|move|p2a: Lapras|Rest|p2a: Lapras
+|-status|p2a: Lapras|slp
+|-heal|p2a: Lapras|367\/367 slp|[silent]
+|-status|p2a: Lapras|slp|[from] move: Rest
+|
+|turn|40
+|choice|switch 5|move 4
+|
+|switch|p1a: Primeape|Primeape, L90|300\/300
+|cant|p2a: Lapras|slp
+|
+|turn|41
+|choice|move 4|switch 6
+|
+|switch|p2a: Tangela|Tangela, L85|284\/284 slp
+|move|p1a: Primeape|Submission|p2a: Tangela|[miss]
+|-miss|p1a: Primeape
+|
+|turn|42
+|choice|move 3|move 3
+|
+|move|p1a: Primeape|Mega Kick|p2a: Tangela
+|-damage|p2a: Tangela|191\/284 slp
+|-curestatus|p2a: Tangela|slp
+|
+|turn|43
+|choice|switch 2|move 3
+|
+|switch|p1a: Gyarados|Gyarados, L85|109\/335 par
+|move|p2a: Tangela|Body Slam|p1a: Gyarados
+|-damage|p1a: Gyarados|66\/335 par
+|
+|turn|44
+|choice|move 1|move 1
+|
+|move|p2a: Tangela|Hyper Beam|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|choice|switch 2|
+|
+|switch|p1a: Primeape|Primeape, L90|300\/300
+|turn|45
+|choice|move 3|move 3
+|
+|move|p1a: Primeape|Mega Kick|p2a: Tangela
+|-damage|p2a: Tangela|112\/284
+|move|p2a: Tangela|Body Slam|p1a: Primeape
+|-damage|p1a: Primeape|248\/300
+|
+|turn|46
+|choice|move 3|move 3
+|
+|move|p1a: Primeape|Mega Kick|p2a: Tangela
+|-damage|p2a: Tangela|31\/284
+|move|p2a: Tangela|Body Slam|p1a: Primeape
+|-damage|p1a: Primeape|192\/300
+|
+|turn|47
+|choice|move 2|move 3
+|
+|move|p1a: Primeape|Hyper Beam|p2a: Tangela
+|-crit|p2a: Tangela
+|-damage|p2a: Tangela|0 fnt
+|faint|p2a: Tangela
+|choice||switch 3
+|
+|switch|p2a: Meowth|Meowth, L96|272\/272
+|turn|48
+|choice|move 4|move 1
+|
+|move|p2a: Meowth|Slash|p1a: Primeape
+|-crit|p1a: Primeape
+|-damage|p1a: Primeape|53\/300
+|move|p1a: Primeape|Submission|p2a: Meowth
+|-supereffective|p2a: Meowth
+|-damage|p2a: Meowth|0 fnt
+|-damage|p1a: Primeape|0 fnt|[from] recoil|[of] p2a: Meowth
+|faint|p2a: Meowth
+|faint|p1a: Primeape
+|choice|switch 5|switch 2
+|
+|switch|p2a: Hitmonchan|Hitmonchan, L90|105\/273
+|switch|p1a: Chansey|Chansey, L79|384\/557
+|turn|49
+|choice|move 3|move 3
+|
+|move|p2a: Hitmonchan|Submission|p1a: Chansey|[miss]
+|-miss|p2a: Hitmonchan
+|move|p1a: Chansey|Thunder Wave|p2a: Hitmonchan
+|-status|p2a: Hitmonchan|par
+|
+|turn|50
+|choice|move 2|move 3
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-start|p1a: Chansey|Reflect
+|cant|p2a: Hitmonchan|par
+|
+|turn|51
+|choice|move 4|move 3
+|
+|move|p1a: Chansey|Ice Beam|p2a: Hitmonchan
+|-crit|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|0 fnt
+|faint|p2a: Hitmonchan
+|c|★Grambull|eh, it could have been anyone's game
+|choice||switch 6
+|
+|switch|p2a: Lapras|Lapras, L79|367\/367 slp
+|turn|52
+|c|★Bollowegen|yeah
+|choice|move 2|move 1
+|
+|-curestatus|p2a: Lapras|slp
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|
+|turn|53
+|choice|move 3|move 1
+|
+|move|p2a: Lapras|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|277\/557
+|move|p1a: Chansey|Thunder Wave|p2a: Lapras
+|-status|p2a: Lapras|par
+|
+|turn|54
+|choice|move 1|move 1
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|555\/557
+|move|p2a: Lapras|Blizzard|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|358\/557
+|
+|turn|55
+|choice|move 2|move 1
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|cant|p2a: Lapras|par
+|
+|turn|56
+|choice|move 2|move 1
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|move|p2a: Lapras|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|255\/557
+|
+|turn|57
+|choice|move 1|move 1
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|533\/557
+|cant|p2a: Lapras|par
+|
+|turn|58
+|choice|move 2|move 1
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|cant|p2a: Lapras|par
+|
+|turn|59
+|choice|move 2|move 1
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|move|p2a: Lapras|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|426\/557
+|
+|turn|60
+|choice|move 2|move 1
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|move|p2a: Lapras|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|313\/557
+|
+|turn|61
+|choice|move 2|move 1
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|move|p2a: Lapras|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|203\/557
+|-status|p1a: Chansey|frz
+|
+|turn|62
+|c|★Grambull|:)
+|c|★Bollowegen|:(
+|choice|move 1|move 2
+|
+|cant|p1a: Chansey|frz
+|move|p2a: Lapras|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|140\/557 frz
+|
+|turn|63
+|choice|move 1|move 2
+|
+|cant|p1a: Chansey|frz
+|move|p2a: Lapras|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|74\/557 frz
+|
+|turn|64
+|choice|move 1|move 2
+|
+|cant|p1a: Chansey|frz
+|move|p2a: Lapras|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|7\/557 frz
+|
+|turn|65
+|choice|move 1|move 1
+|
+|cant|p1a: Chansey|frz
+|cant|p2a: Lapras|par
+|
+|turn|66
+|choice|move 1|move 1
+|
+|cant|p1a: Chansey|frz
+|cant|p2a: Lapras|par
+|
+|turn|67
+|choice|move 1|move 1
+|
+|cant|p1a: Chansey|frz
+|move|p2a: Lapras|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|win|Grambull
+|raw|Bollowegen's rating: 1430 &rarr; <strong>1399<\/strong><br \/>(-31 for losing)
+|raw|Grambull's rating: 1216 &rarr; <strong>1254<\/strong><br \/>(+38 for winning)
+|c|★Grambull|gg
+|c|★Bollowegen|gg
+|leave|Bollowegen
+|player|p1

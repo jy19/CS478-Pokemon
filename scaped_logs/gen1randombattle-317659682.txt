@@ -1,0 +1,227 @@
+﻿|j|StellarMelon
+|j|HerpesFreeSince03
+|player|p1|StellarMelon|121
+|player|p2|HerpesFreeSince03|174
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|seed|26334,64287,32158,29434
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Bulbasaur|Bulbasaur, L96|281\/281
+|switch|p2a: Psyduck|Psyduck, L96|291\/291
+|turn|1
+|c|★StellarMelon|how you feeling player?
+|choice|move 2|switch 5
+|
+|switch|p2a: Ninetales|Ninetales, L85|298\/298
+|move|p1a: Bulbasaur|Razor Leaf|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|270\/298
+|
+|turn|2
+|c|★StellarMelon|lucky?
+|choice|switch 3|move 2
+|
+|switch|p1a: Dewgong|Dewgong, L85|327\/327
+|move|p2a: Ninetales|Body Slam|p1a: Dewgong
+|-crit|p1a: Dewgong
+|-damage|p1a: Dewgong|227\/327
+|-status|p1a: Dewgong|par
+|
+|turn|3
+|choice|move 3|move 1
+|
+|move|p2a: Ninetales|Fire Blast|p1a: Dewgong
+|-crit|p1a: Dewgong
+|-damage|p1a: Dewgong|0 fnt
+|faint|p1a: Dewgong
+|choice|switch 4|
+|
+|switch|p1a: Rhydon|Rhydon, L79|328\/328
+|turn|4
+|choice|move 2|switch 5
+|
+|switch|p2a: Psyduck|Psyduck, L96|291\/291
+|move|p1a: Rhydon|Earthquake|p2a: Psyduck
+|-damage|p2a: Psyduck|151\/291
+|
+|turn|5
+|choice|switch 6|move 2
+|
+|switch|p1a: Alakazam|Alakazam, L79|249\/249
+|move|p2a: Psyduck|Surf|p1a: Alakazam
+|-damage|p1a: Alakazam|185\/249
+|
+|turn|6
+|choice|move 1|move 3
+|
+|move|p1a: Alakazam|Psychic|p2a: Psyduck
+|-damage|p2a: Psyduck|30\/291
+|move|p2a: Psyduck|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|97\/249
+|-status|p1a: Alakazam|par
+|
+|turn|7
+|choice|move 1|move 3
+|
+|move|p2a: Psyduck|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|18\/249 par
+|move|p1a: Alakazam|Psychic|p2a: Psyduck
+|-damage|p2a: Psyduck|0 fnt
+|faint|p2a: Psyduck
+|choice||switch 5
+|
+|switch|p2a: Ninetales|Ninetales, L85|270\/298
+|turn|8
+|choice|switch 6|move 1
+|
+|switch|p1a: Rhydon|Rhydon, L79|328\/328
+|move|p2a: Ninetales|Fire Blast|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|219\/328
+|
+|turn|9
+|choice|move 2|switch 4
+|
+|switch|p2a: Lapras|Lapras, L79|367\/367
+|move|p1a: Rhydon|Earthquake|p2a: Lapras
+|-damage|p2a: Lapras|246\/367
+|
+|turn|10
+|choice|switch 6|move 4
+|
+|switch|p1a: Alakazam|Alakazam, L79|18\/249 par
+|move|p2a: Lapras|Confuse Ray|p1a: Alakazam
+|-start|p1a: Alakazam|confusion
+|
+|turn|11
+|choice|move 4|move 1
+|
+|move|p2a: Lapras|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|choice|switch 2|
+|
+|switch|p1a: Mankey|Mankey, L96|272\/272
+|turn|12
+|choice|move 1|switch 6
+|
+|switch|p2a: Gengar|Gengar, L79|257\/257
+|move|p1a: Mankey|Submission|p2a: Gengar
+|-immune|p2a: Gengar|[msg]
+|
+|turn|13
+|choice|switch 5|move 1
+|
+|switch|p1a: Ninetales|Ninetales, L85|298\/298
+|move|p2a: Gengar|Hypnosis|p1a: Ninetales|[miss]
+|-miss|p2a: Gengar
+|
+|turn|14
+|choice|move 1|move 1
+|
+|move|p1a: Ninetales|Fire Blast|p2a: Gengar
+|-crit|p2a: Gengar
+|-damage|p2a: Gengar|58\/257
+|move|p2a: Gengar|Hypnosis|p1a: Ninetales
+|-status|p1a: Ninetales|slp
+|
+|turn|15
+|choice|switch 6|move 4
+|
+|switch|p1a: Rhydon|Rhydon, L79|219\/328
+|move|p2a: Gengar|Psychic|p1a: Rhydon
+|-damage|p1a: Rhydon|116\/328
+|-unboost|p1a: Rhydon|spd|1
+|-unboost|p1a: Rhydon|spa|1
+|
+|turn|16
+|choice|move 2|move 4
+|
+|move|p2a: Gengar|Psychic|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|c|★StellarMelon|wrekt
+|choice|switch 3|
+|
+|switch|p1a: Bulbasaur|Bulbasaur, L96|281\/281
+|turn|17
+|choice|move 1|move 4
+|
+|move|p2a: Gengar|Psychic|p1a: Bulbasaur
+|-supereffective|p1a: Bulbasaur
+|-damage|p1a: Bulbasaur|132\/281
+|-unboost|p1a: Bulbasaur|spd|1
+|-unboost|p1a: Bulbasaur|spa|1
+|move|p1a: Bulbasaur|Leech Seed|p2a: Gengar
+|-start|p2a: Gengar|move: Leech Seed
+|
+|turn|18
+|choice|move 4|move 4
+|
+|move|p2a: Gengar|Psychic|p1a: Bulbasaur
+|-supereffective|p1a: Bulbasaur
+|-damage|p1a: Bulbasaur|0 fnt
+|faint|p1a: Bulbasaur
+|choice|switch 6|
+|
+|switch|p1a: Ninetales|Ninetales, L85|298\/298 slp
+|turn|19
+|choice|move 1|move 4
+|
+|cant|p1a: Ninetales|slp
+|move|p2a: Gengar|Psychic|p1a: Ninetales
+|-damage|p1a: Ninetales|236\/298 slp
+|-unboost|p1a: Ninetales|spd|1
+|-unboost|p1a: Ninetales|spa|1
+|-damage|p2a: Gengar|42\/257|[from] Leech Seed|[of] p1a: Ninetales
+|-heal|p1a: Ninetales|252\/298 slp|[silent]
+|
+|turn|20
+|choice|move 4|move 4
+|
+|cant|p1a: Ninetales|slp
+|move|p2a: Gengar|Psychic|p1a: Ninetales
+|-damage|p1a: Ninetales|154\/298 slp
+|-damage|p2a: Gengar|26\/257|[from] Leech Seed|[of] p1a: Ninetales
+|-heal|p1a: Ninetales|170\/298 slp|[silent]
+|
+|turn|21
+|choice|move 3|move 4
+|
+|cant|p1a: Ninetales|slp
+|move|p2a: Gengar|Psychic|p1a: Ninetales
+|-damage|p1a: Ninetales|70\/298 slp
+|-unboost|p1a: Ninetales|spd|1
+|-unboost|p1a: Ninetales|spa|1
+|-damage|p2a: Gengar|10\/257|[from] Leech Seed|[of] p1a: Ninetales
+|-heal|p1a: Ninetales|86\/298 slp|[silent]
+|
+|turn|22
+|choice|move 1|move 4
+|
+|cant|p1a: Ninetales|slp
+|move|p2a: Gengar|Psychic|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|choice|switch 5|
+|
+|switch|p1a: Mankey|Mankey, L96|272\/272
+|turn|23
+|choice|move 2|move 4
+|
+|move|p2a: Gengar|Psychic|p1a: Mankey
+|-crit|p1a: Mankey
+|-supereffective|p1a: Mankey
+|-damage|p1a: Mankey|0 fnt
+|faint|p1a: Mankey
+|
+|win|HerpesFreeSince03
+|player|p1
+|player|p2
+|l|StellarMelon
+|c|★HerpesFreeSince03|erekt

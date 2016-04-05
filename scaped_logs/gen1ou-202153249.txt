@@ -1,0 +1,261 @@
+﻿|join|aptitud
+|join|powerseries
+|player|p1|aptitud|144
+|player|p2|powerseries|120
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gengar|Gengar|323\/323
+|switch|p2a: Blue in Green|Exeggutor|393\/393
+|turn|1
+|c|★powerseries|sup
+|
+|move|p1a: Gengar|Confuse Ray|p2a: Blue in Green
+|-start|p2a: Blue in Green|confusion
+|-activate|p2a: Blue in Green|confusion
+|-damage|p2a: Blue in Green|355\/393|[from] confusion
+|
+|turn|2
+|
+|move|p1a: Gengar|Hypnosis|p2a: Blue in Green|[miss]
+|-miss|p1a: Gengar
+|-activate|p2a: Blue in Green|confusion
+|-damage|p2a: Blue in Green|317\/393|[from] confusion
+|
+|turn|3
+|
+|move|p1a: Gengar|Hypnosis|p2a: Blue in Green
+|-status|p2a: Blue in Green|slp
+|cant|p2a: Blue in Green|slp
+|
+|turn|4
+|
+|switch|p2a: Out to Lunch|Chansey|703\/703
+|move|p1a: Gengar|Night Shade|p2a: Out to Lunch
+|-damage|p2a: Out to Lunch|603\/703
+|
+|turn|5
+|
+|move|p1a: Gengar|Confuse Ray|p2a: Out to Lunch
+|-start|p2a: Out to Lunch|confusion
+|-activate|p2a: Out to Lunch|confusion
+|-damage|p2a: Out to Lunch|568\/703|[from] confusion
+|
+|turn|6
+|
+|move|p1a: Gengar|Night Shade|p2a: Out to Lunch
+|-damage|p2a: Out to Lunch|468\/703
+|-activate|p2a: Out to Lunch|confusion
+|-damage|p2a: Out to Lunch|433\/703|[from] confusion
+|
+|turn|7
+|
+|switch|p1a: Blastoise|Blastoise|361\/361
+|-end|p2a: Out to Lunch|confusion
+|move|p2a: Out to Lunch|Thunder Wave|p1a: Blastoise
+|-status|p1a: Blastoise|par
+|
+|turn|8
+|c|★powerseries|lol
+|
+|move|p2a: Out to Lunch|Soft-Boiled|p2a: Out to Lunch
+|-heal|p2a: Out to Lunch|703\/703
+|cant|p1a: Blastoise|par
+|
+|turn|9
+|c|★powerseries|broken as fuck
+|
+|move|p2a: Out to Lunch|Thunderbolt|p1a: Blastoise
+|-supereffective|p1a: Blastoise
+|-damage|p1a: Blastoise|186\/361 par
+|move|p1a: Blastoise|Mega Kick|p2a: Out to Lunch
+|-damage|p2a: Out to Lunch|481\/703
+|
+|turn|10
+|
+|move|p2a: Out to Lunch|Thunderbolt|p1a: Blastoise
+|-supereffective|p1a: Blastoise
+|-damage|p1a: Blastoise|10\/361 par
+|cant|p1a: Blastoise|par
+|
+|turn|11
+|
+|move|p2a: Out to Lunch|Thunderbolt|p1a: Blastoise
+|-supereffective|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|faint|p1a: Blastoise
+|
+|switch|p1a: Gengar|Gengar|323\/323
+|turn|12
+|
+|move|p1a: Gengar|Confuse Ray|p2a: Out to Lunch
+|-start|p2a: Out to Lunch|confusion
+|-activate|p2a: Out to Lunch|confusion
+|move|p2a: Out to Lunch|Thunder Wave|p1a: Gengar
+|-status|p1a: Gengar|par
+|
+|turn|13
+|
+|switch|p1a: Zapdos|Zapdos|383\/383
+|-activate|p2a: Out to Lunch|confusion
+|move|p2a: Out to Lunch|Soft-Boiled|p2a: Out to Lunch
+|-heal|p2a: Out to Lunch|703\/703
+|
+|turn|14
+|
+|switch|p2a: Idle Moments|Golem|363\/363
+|move|p1a: Zapdos|Drill Peck|p2a: Idle Moments
+|-resisted|p2a: Idle Moments
+|-damage|p2a: Idle Moments|326\/363
+|
+|turn|15
+|
+|move|p1a: Zapdos|Fly|p2a: Idle Moments|[still]
+|-prepare|p1a: Zapdos|Fly|p2a: Idle Moments
+|move|p2a: Idle Moments|Body Slam|p1a: Zapdos|[miss]
+|-message|The foe Zapdos can't be hit while flying!
+|-miss|p2a: Idle Moments
+|
+|turn|16
+|
+|move|p1a: Zapdos|Fly|p2a: Idle Moments
+|-crit|p2a: Idle Moments
+|-resisted|p2a: Idle Moments
+|-damage|p2a: Idle Moments|265\/363
+|move|p2a: Idle Moments|Rock Slide|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|159\/383
+|
+|turn|17
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Idle Moments
+|-resisted|p2a: Idle Moments
+|-damage|p2a: Idle Moments|230\/363
+|move|p2a: Idle Moments|Body Slam|p1a: Zapdos
+|-damage|p1a: Zapdos|77\/383
+|-status|p1a: Zapdos|par
+|
+|turn|18
+|
+|move|p2a: Idle Moments|Body Slam|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|switch|p1a: Kabutops|Kabutops|323\/323
+|turn|19
+|c|★powerseries|gg?
+|
+|switch|p2a: Lazy Bird|Zapdos|383\/383
+|move|p1a: Kabutops|Absorb|p2a: Lazy Bird
+|-resisted|p2a: Lazy Bird
+|-damage|p2a: Lazy Bird|378\/383
+|
+|turn|20
+|
+|move|p2a: Lazy Bird|Thunderbolt|p1a: Kabutops
+|-supereffective|p1a: Kabutops
+|-damage|p1a: Kabutops|0 fnt
+|faint|p1a: Kabutops
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|turn|21
+|c|★powerseries|why no surf?????
+|
+|switch|p2a: Out to Lunch|Chansey|703\/703
+|move|p1a: Alakazam|Reflect|p1a: Alakazam
+|
+|turn|22
+|
+|move|p1a: Alakazam|Psychic|p2a: Out to Lunch
+|-damage|p2a: Out to Lunch|568\/703
+|move|p2a: Out to Lunch|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|
+|turn|23
+|
+|move|p2a: Out to Lunch|Thunderbolt|p1a: Alakazam
+|-damage|p1a: Alakazam|247\/313 par
+|cant|p1a: Alakazam|par
+|
+|turn|24
+|
+|move|p2a: Out to Lunch|Thunderbolt|p1a: Alakazam
+|-damage|p1a: Alakazam|187\/313 par
+|cant|p1a: Alakazam|par
+|
+|turn|25
+|
+|move|p2a: Out to Lunch|Thunderbolt|p1a: Alakazam
+|-damage|p1a: Alakazam|125\/313 par
+|cant|p1a: Alakazam|par
+|
+|turn|26
+|
+|move|p2a: Out to Lunch|Thunderbolt|p1a: Alakazam
+|-damage|p1a: Alakazam|63\/313 par
+|cant|p1a: Alakazam|par
+|
+|turn|27
+|
+|move|p2a: Out to Lunch|Ice Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|3\/313 par
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|159\/313 par
+|
+|turn|28
+|
+|switch|p2a: Idle Moments|Golem|230\/363
+|cant|p1a: Alakazam|par
+|
+|turn|29
+|
+|move|p2a: Idle Moments|Earthquake|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|turn|30
+|
+|move|p1a: Chansey|Metronome|p1a: Chansey
+|move|p1a: Chansey|Vine Whip|p2a: Idle Moments|[from]Metronome
+|-supereffective|p2a: Idle Moments
+|-damage|p2a: Idle Moments|64\/363
+|move|p2a: Idle Moments|Explosion|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|faint|p2a: Idle Moments
+|
+|switch|p2a: Hat and Beard|Alakazam|313\/313
+|switch|p1a: Gengar|Gengar|323\/323 par
+|turn|31
+|
+|move|p2a: Hat and Beard|Psychic|p1a: Gengar|[miss]
+|-miss|p2a: Hat and Beard
+|cant|p1a: Gengar|par
+|
+|turn|32
+|
+|move|p2a: Hat and Beard|Psychic|p1a: Gengar
+|-crit|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|win|powerseries
+|raw|Ladder updating...
+|raw|aptitud's rating: 1070 &rarr; <strong>1050<\/strong><br \/>(-20 for losing)
+|raw|powerseries's rating: 1074 &rarr; <strong>1103<\/strong><br \/>(+29 for winning)
+|c|★powerseries|gg
+|c|★aptitud|gg
+|leave|aptitud
+|player|p1

@@ -1,0 +1,230 @@
+﻿|j|Mizik
+|j|Abstrix
+|player|p1|Mizik|2
+|player|p2|Abstrix|8
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|4479,17774,60948,55217
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Poliwhirl|Poliwhirl, L85|284\/284
+|switch|p2a: Vaporeon|Vaporeon, L85|395\/395
+|turn|1
+|choice|move 1|move 3
+|
+|move|p1a: Poliwhirl|Amnesia|p1a: Poliwhirl
+|-boost|p1a: Poliwhirl|spd|2
+|-boost|p1a: Poliwhirl|spa|2
+|move|p2a: Vaporeon|Mimic|p1a: Poliwhirl
+|-start|p2a: Vaporeon|Mimic|Blizzard
+|
+|turn|2
+|choice|move 1|switch 6
+|
+|switch|p2a: Jynx|Jynx, L79|265\/265
+|move|p1a: Poliwhirl|Amnesia|p1a: Poliwhirl
+|-boost|p1a: Poliwhirl|spd|2
+|-boost|p1a: Poliwhirl|spa|2
+|
+|turn|3
+|choice|move 4|move 3
+|
+|move|p1a: Poliwhirl|Surf|p2a: Jynx
+|-damage|p2a: Jynx|59\/265
+|move|p2a: Jynx|Lovely Kiss|p1a: Poliwhirl
+|-status|p1a: Poliwhirl|slp
+|
+|turn|4
+|choice|move 4|move 2
+|
+|cant|p1a: Poliwhirl|slp
+|move|p2a: Jynx|Mimic|p1a: Poliwhirl
+|-start|p2a: Jynx|Mimic|Amnesia
+|
+|turn|5
+|choice|move 4|move 2
+|
+|cant|p1a: Poliwhirl|slp
+|move|p2a: Jynx|Amnesia|p2a: Jynx
+|-boost|p2a: Jynx|spd|2
+|-boost|p2a: Jynx|spa|2
+|
+|turn|6
+|c|★Mizik|uh oh
+|choice|move 4|move 1
+|
+|cant|p1a: Poliwhirl|slp
+|move|p2a: Jynx|Psychic|p1a: Poliwhirl
+|-damage|p1a: Poliwhirl|205\/284 slp
+|
+|turn|7
+|choice|move 4|move 3
+|
+|-curestatus|p1a: Poliwhirl|slp
+|move|p2a: Jynx|Lovely Kiss|p1a: Poliwhirl
+|-status|p1a: Poliwhirl|slp
+|
+|turn|8
+|c|★Mizik|oh god lol
+|c|★Mizik|that's right
+|c|★Mizik|dedicated wake turn
+|choice|move 4|move 1
+|
+|cant|p1a: Poliwhirl|slp
+|move|p2a: Jynx|Psychic|p1a: Poliwhirl
+|-crit|p1a: Poliwhirl
+|-damage|p1a: Poliwhirl|0 fnt
+|faint|p1a: Poliwhirl
+|choice|switch 5|
+|
+|switch|p1a: Clefable|Clefable, L85|335\/335
+|turn|9
+|choice|move 2|move 3
+|
+|move|p2a: Jynx|Lovely Kiss|p1a: Clefable
+|-status|p1a: Clefable|slp
+|cant|p1a: Clefable|slp
+|
+|turn|10
+|choice|switch 4|move 2
+|
+|switch|p1a: Starmie|Starmie, L79|257\/257
+|move|p2a: Jynx|Amnesia|p2a: Jynx
+|-boost|p2a: Jynx|spd|2
+|-boost|p2a: Jynx|spa|2
+|
+|turn|11
+|choice|move 2|move 1
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Jynx
+|-status|p2a: Jynx|par
+|move|p2a: Jynx|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|147\/257
+|-unboost|p1a: Starmie|spd|1
+|-unboost|p1a: Starmie|spa|1
+|
+|turn|12
+|choice|move 4|move 1
+|
+|move|p1a: Starmie|Surf|p2a: Jynx
+|-crit|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|choice||switch 6
+|
+|switch|p2a: Vaporeon|Vaporeon, L85|395\/395
+|turn|13
+|choice|move 1|move 3
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|257\/257
+|move|p2a: Vaporeon|Mimic|p1a: Starmie
+|-start|p2a: Vaporeon|Mimic|Recover
+|
+|turn|14
+|choice|move 2|move 2
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Vaporeon
+|-status|p2a: Vaporeon|par
+|move|p2a: Vaporeon|Blizzard|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|187\/257
+|-status|p1a: Starmie|frz
+|
+|turn|15
+|c|★Mizik|no!
+|c|★Mizik|oh god
+|c|★Abstrix|OMG
+|choice|switch 6|move 4
+|
+|switch|p1a: Porygon|Porygon, L85|284\/284
+|move|p2a: Vaporeon|Surf|p1a: Porygon
+|-crit|p1a: Porygon
+|-damage|p1a: Porygon|55\/284
+|
+|turn|16
+|choice|move 1|move 4
+|
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|197\/284
+|move|p2a: Vaporeon|Surf|p1a: Porygon
+|-damage|p1a: Porygon|65\/284
+|
+|turn|17
+|c|★Mizik|sweet baby jesus
+|choice|move 3|move 4
+|
+|move|p1a: Porygon|Hyper Beam|p2a: Vaporeon
+|-damage|p2a: Vaporeon|234\/395 par
+|move|p2a: Vaporeon|Surf|p1a: Porygon
+|-damage|p1a: Porygon|0 fnt
+|faint|p1a: Porygon
+|choice|switch 2|
+|
+|switch|p1a: Marowak|Marowak, L90|291\/291
+|turn|18
+|choice|move 1|move 4
+|
+|move|p1a: Marowak|Earthquake|p2a: Vaporeon
+|-damage|p2a: Vaporeon|112\/395 par
+|move|p2a: Vaporeon|Surf|p1a: Marowak
+|-supereffective|p1a: Marowak
+|-damage|p1a: Marowak|0 fnt
+|faint|p1a: Marowak
+|choice|switch 3|
+|
+|switch|p1a: Rhydon|Rhydon, L79|328\/328
+|turn|19
+|choice|move 3|move 4
+|
+|move|p1a: Rhydon|Earthquake|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|faint|p2a: Vaporeon
+|choice||switch 4
+|
+|switch|p2a: Tentacruel|Tentacruel, L85|310\/310
+|turn|20
+|choice|move 3|move 1
+|
+|move|p2a: Tentacruel|Surf|p1a: Rhydon
+|-crit|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|c|★Mizik|blown. back.
+|choice|switch 4|
+|
+|switch|p1a: Clefable|Clefable, L85|335\/335 slp
+|turn|21
+|choice|move 1|move 1
+|
+|move|p2a: Tentacruel|Surf|p1a: Clefable
+|-damage|p1a: Clefable|221\/335 slp
+|cant|p1a: Clefable|slp
+|
+|turn|22
+|choice|move 1|move 1
+|
+|move|p2a: Tentacruel|Surf|p1a: Clefable
+|-damage|p1a: Clefable|100\/335 slp
+|cant|p1a: Clefable|slp
+|
+|turn|23
+|choice|move 1|move 1
+|
+|move|p2a: Tentacruel|Surf|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|-message|Mizik forfeited.
+|
+|win|Abstrix
+|l|Mizik
+|player|p1
+|raw|Mizik's rating: 1000 &rarr; <strong>1000<\/strong><br \/>(+0 for losing)
+|raw|Abstrix's rating: 1103 &rarr; <strong>1121<\/strong><br \/>(+18 for winning)

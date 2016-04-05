@@ -1,0 +1,259 @@
+﻿|j|MALESANI
+|j|Hidol
+|player|p1|MALESANI|238
+|player|p2|Hidol|266
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|63726,16723,2086,63053
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Magneton|Magneton, L90|273\/273
+|switch|p2a: Omanyte|Omanyte, L96|262\/262
+|turn|1
+|choice|move 1|switch 4
+|
+|switch|p2a: Exeggutor|Exeggutor, L79|312\/312
+|move|p1a: Magneton|Thunderbolt|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|257\/312
+|
+|turn|2
+|choice|switch 2|move 3
+|
+|switch|p1a: Kakuna|Kakuna, L99|290\/290
+|move|p2a: Exeggutor|Egg Bomb|p1a: Kakuna
+|-damage|p1a: Kakuna|215\/290
+|
+|turn|3
+|choice|move 1|move 2
+|
+|move|p1a: Kakuna|Poison Sting|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|228\/312
+|-status|p2a: Exeggutor|psn
+|move|p2a: Exeggutor|Mega Drain|p1a: Kakuna
+|-resisted|p1a: Kakuna
+|-damage|p1a: Kakuna|198\/290
+|-heal|p2a: Exeggutor|236\/312 psn|[from] drain|[of] p1a: Kakuna
+|-damage|p2a: Exeggutor|217\/312 psn|[from] psn|[of] p1a: Kakuna
+|
+|turn|4
+|choice|move 1|switch 3
+|
+|switch|p2a: Gengar|Gengar, L79|257\/257
+|move|p1a: Kakuna|Poison Sting|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|254\/257
+|
+|turn|5
+|choice|move 3|move 1
+|
+|move|p2a: Gengar|Hypnosis|p1a: Kakuna|[miss]
+|-miss|p2a: Gengar
+|move|p1a: Kakuna|String Shot|p2a: Gengar|[miss]
+|-miss|p1a: Kakuna
+|
+|turn|6
+|choice|move 3|move 1
+|
+|move|p2a: Gengar|Hypnosis|p1a: Kakuna
+|-status|p1a: Kakuna|slp
+|cant|p1a: Kakuna|slp
+|
+|turn|7
+|choice|switch 5|move 3
+|
+|switch|p1a: Alakazam|Alakazam, L79|249\/249
+|move|p2a: Gengar|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|224\/249
+|
+|turn|8
+|choice|move 1|switch 6
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|293\/293
+|move|p1a: Alakazam|Psychic|p2a: Mewtwo
+|-resisted|p2a: Mewtwo
+|-damage|p2a: Mewtwo|254\/293
+|-unboost|p2a: Mewtwo|spd|1
+|-unboost|p2a: Mewtwo|spa|1
+|
+|turn|9
+|choice|switch 2|move 3
+|
+|switch|p1a: Magneton|Magneton, L90|273\/273
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|
+|turn|10
+|choice|move 1|switch 3
+|
+|switch|p2a: Exeggutor|Exeggutor, L79|217\/312 psn
+|-damage|p2a: Exeggutor|198\/312 psn|[from] psn
+|move|p1a: Magneton|Thunderbolt|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|145\/312 psn
+|
+|turn|11
+|choice|move 1|move 4
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|89\/312 psn
+|move|p2a: Exeggutor|Psychic|p1a: Magneton
+|-crit|p1a: Magneton
+|-damage|p1a: Magneton|123\/273
+|-unboost|p1a: Magneton|spd|1
+|-unboost|p1a: Magneton|spa|1
+|-damage|p2a: Exeggutor|70\/312 psn|[from] psn|[of] p1a: Magneton
+|
+|turn|12
+|choice|move 3|move 4
+|
+|move|p1a: Magneton|Hyper Beam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|choice||switch 3
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|254\/293
+|turn|13
+|choice|switch 6|move 2
+|
+|switch|p1a: Dragonite|Dragonite, L85|328\/328
+|move|p2a: Mewtwo|Blizzard|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|41\/328
+|
+|turn|14
+|choice|move 1|move 1
+|
+|move|p2a: Mewtwo|Psychic|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|choice|switch 4|
+|
+|switch|p1a: Persian|Persian, L79|265\/265
+|turn|15
+|choice|move 3|switch 2
+|
+|switch|p2a: Magikarp|Magikarp, L99|240\/240
+|move|p1a: Persian|Body Slam|p2a: Magikarp
+|-damage|p2a: Magikarp|170\/240
+|
+|turn|16
+|choice|move 4|move 1
+|
+|move|p1a: Persian|Thunderbolt|p2a: Magikarp
+|-supereffective|p2a: Magikarp
+|-damage|p2a: Magikarp|9\/240
+|move|p2a: Magikarp|Dragon Rage|p1a: Persian
+|-damage|p1a: Persian|225\/265
+|
+|turn|17
+|choice|move 3|move 2
+|
+|move|p1a: Persian|Body Slam|p2a: Magikarp
+|-crit|p2a: Magikarp
+|-damage|p2a: Magikarp|0 fnt
+|faint|p2a: Magikarp
+|choice||switch 5
+|
+|switch|p2a: Persian|Persian, L79|265\/265
+|turn|18
+|choice|move 3|move 1
+|
+|move|p2a: Persian|Slash|p1a: Persian
+|-crit|p1a: Persian
+|-damage|p1a: Persian|80\/265
+|move|p1a: Persian|Body Slam|p2a: Persian
+|-damage|p2a: Persian|181\/265
+|
+|turn|19
+|choice|move 2|move 1
+|
+|move|p1a: Persian|Hyper Beam|p2a: Persian
+|-damage|p2a: Persian|31\/265
+|move|p2a: Persian|Slash|p1a: Persian
+|-crit|p1a: Persian
+|-damage|p1a: Persian|0 fnt
+|faint|p1a: Persian
+|choice|switch 2|
+|
+|switch|p1a: Alakazam|Alakazam, L79|224\/249
+|turn|20
+|choice|move 4|move 4
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|faint|p2a: Persian
+|choice||switch 2
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|254\/293
+|turn|21
+|choice|switch 6|move 3
+|
+|switch|p1a: Magneton|Magneton, L90|123\/273
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|
+|turn|22
+|choice|move 3|move 1
+|
+|move|p2a: Mewtwo|Psychic|p1a: Magneton
+|-damage|p1a: Magneton|52\/273
+|move|p1a: Magneton|Hyper Beam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|196\/293
+|
+|turn|23
+|-mustrecharge|p1a: Magneton
+|-mustrecharge|p1a: Magneton
+|choice|move 1|move 1
+|
+|move|p2a: Mewtwo|Psychic|p1a: Magneton
+|-damage|p1a: Magneton|0 fnt
+|faint|p1a: Magneton
+|choice|switch 3|
+|
+|switch|p1a: Cloyster|Cloyster, L83|253\/253
+|turn|24
+|choice|move 2|move 4
+|
+|move|p2a: Mewtwo|Hyper Beam|p1a: Cloyster
+|-damage|p1a: Cloyster|199\/253
+|move|p1a: Cloyster|Blizzard|p2a: Mewtwo
+|-damage|p2a: Mewtwo|101\/293
+|-status|p2a: Mewtwo|frz
+|
+|turn|25
+|-mustrecharge|p2a: Mewtwo
+|c|★Hidol|:(
+|-mustrecharge|p2a: Mewtwo
+|choice|switch 6|move 1
+|
+|switch|p1a: Alakazam|Alakazam, L79|224\/249
+|cant|p2a: Mewtwo|recharge
+|
+|turn|26
+|choice|move 2|switch 4
+|
+|switch|p2a: Omanyte|Omanyte, L96|262\/262
+|move|p1a: Alakazam|Reflect|p1a: Alakazam
+|-start|p1a: Alakazam|Reflect
+|
+|turn|27
+|c|★Hidol|noob
+|-message|Hidol forfeited.
+|l|Hidol
+|
+|win|MALESANI
+|player|p2
+|raw|MALESANI's rating: 1506 &rarr; <strong>1514<\/strong><br \/>(+8 for winning)
+|raw|Hidol's rating: 1275 &rarr; <strong>1265<\/strong><br \/>(-10 for losing)
+|c|★MALESANI|il noob è primo intanto
+|c|★MALESANI|cojone

@@ -1,0 +1,224 @@
+﻿|join|uvash2
+|join|maslemgames
+|player|p1|uvash2|102
+|player|p2|maslemgames|266
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|36668,14896,18440,13170
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Exeggcute|Exeggcute, L96|310\/310
+|switch|p2a: Clefable|Clefable, L85|335\/335
+|turn|1
+|choice|move 3|switch 3
+|
+|switch|p2a: Pinsir|Pinsir, L85|284\/284
+|move|p1a: Exeggcute|Sleep Powder|p2a: Pinsir|[miss]
+|-miss|p1a: Exeggcute
+|
+|turn|2
+|choice|switch 2|move 1
+|
+|switch|p1a: Pidgeot|Pidgeot, L90|333\/333
+|move|p2a: Pinsir|Submission|p1a: Pidgeot
+|-damage|p1a: Pidgeot|265\/333
+|-damage|p2a: Pinsir|267\/284|[from] recoil|[of] p1a: Pidgeot
+|
+|turn|3
+|choice|move 1|switch 6
+|
+|switch|p2a: Electabuzz|Electabuzz, L85|284\/284
+|move|p1a: Pidgeot|Double-Edge|p2a: Electabuzz
+|-damage|p2a: Electabuzz|142\/284
+|-damage|p1a: Pidgeot|230\/333|[from] recoil|[of] p2a: Electabuzz
+|
+|turn|4
+|choice|switch 2|move 1
+|
+|switch|p1a: Exeggcute|Exeggcute, L96|310\/310
+|move|p2a: Electabuzz|Thunder Wave|p1a: Exeggcute
+|-status|p1a: Exeggcute|par
+|
+|turn|5
+|choice|move 3|move 2
+|
+|move|p2a: Electabuzz|Psychic|p1a: Exeggcute
+|-resisted|p1a: Exeggcute
+|-damage|p1a: Exeggcute|277\/310 par
+|move|p1a: Exeggcute|Sleep Powder|p2a: Electabuzz
+|-status|p2a: Electabuzz|slp
+|
+|turn|6
+|choice|move 1|move 4
+|
+|cant|p2a: Electabuzz|slp
+|cant|p1a: Exeggcute|par
+|
+|turn|7
+|choice|switch 2|move 4
+|
+|switch|p1a: Pidgeot|Pidgeot, L90|230\/333
+|cant|p2a: Electabuzz|slp
+|
+|turn|8
+|choice|move 1|move 4
+|
+|-curestatus|p2a: Electabuzz|slp
+|move|p1a: Pidgeot|Double-Edge|p2a: Electabuzz
+|-crit|p2a: Electabuzz
+|-damage|p2a: Electabuzz|0 fnt
+|-damage|p1a: Pidgeot|195\/333|[from] recoil|[of] p2a: Electabuzz
+|faint|p2a: Electabuzz
+|choice||switch 4
+|
+|switch|p2a: Exeggutor|Exeggutor, L79|312\/312
+|turn|9
+|choice|move 1|move 3
+|
+|move|p1a: Pidgeot|Double-Edge|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-damage|p2a: Exeggutor|87\/312
+|-damage|p1a: Pidgeot|139\/333|[from] recoil|[of] p2a: Exeggutor
+|move|p2a: Exeggutor|Hyper Beam|p1a: Pidgeot
+|-damage|p1a: Pidgeot|50\/333
+|
+|turn|10
+|-mustrecharge|p2a: Exeggutor
+|-mustrecharge|p2a: Exeggutor
+|choice|move 1|move 1
+|
+|move|p1a: Pidgeot|Double-Edge|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|-damage|p1a: Pidgeot|29\/333|[from] recoil|[of] p2a: Exeggutor
+|faint|p2a: Exeggutor
+|choice||switch 3
+|
+|switch|p2a: Clefable|Clefable, L85|335\/335
+|turn|11
+|choice|move 1|move 4
+|
+|move|p1a: Pidgeot|Double-Edge|p2a: Clefable
+|-crit|p2a: Clefable
+|-damage|p2a: Clefable|101\/335
+|-damage|p1a: Pidgeot|0 fnt|[from] recoil|[of] p2a: Clefable
+|faint|p1a: Pidgeot
+|choice|switch 5|
+|
+|switch|p1a: Venomoth|Venomoth, L85|293\/293
+|turn|12
+|choice|move 2|switch 5
+|
+|switch|p2a: Wartortle|Wartortle, L85|274\/274
+|move|p1a: Venomoth|Sleep Powder|p2a: Wartortle
+|-status|p2a: Wartortle|slp
+|
+|turn|13
+|choice|move 4|move 1
+|
+|move|p1a: Venomoth|Mega Drain|p2a: Wartortle
+|-supereffective|p2a: Wartortle
+|-damage|p2a: Wartortle|211\/274 slp
+|cant|p2a: Wartortle|slp
+|
+|turn|14
+|choice|move 1|move 1
+|
+|move|p1a: Venomoth|Psychic|p2a: Wartortle
+|-damage|p2a: Wartortle|142\/274 slp
+|-unboost|p2a: Wartortle|spd|1
+|-unboost|p2a: Wartortle|spa|1
+|-curestatus|p2a: Wartortle|slp
+|
+|turn|15
+|choice|move 1|move 1
+|
+|move|p1a: Venomoth|Psychic|p2a: Wartortle
+|-crit|p2a: Wartortle
+|-damage|p2a: Wartortle|11\/274
+|move|p2a: Wartortle|Hydro Pump|p1a: Venomoth
+|-damage|p1a: Venomoth|232\/293
+|
+|turn|16
+|choice|move 1|move 2
+|
+|move|p1a: Venomoth|Psychic|p2a: Wartortle
+|-damage|p2a: Wartortle|0 fnt
+|faint|p2a: Wartortle
+|choice||switch 6
+|
+|switch|p2a: Pinsir|Pinsir, L85|267\/284
+|turn|17
+|choice|move 2|move 4
+|
+|move|p1a: Venomoth|Sleep Powder|p2a: Pinsir
+|-status|p2a: Pinsir|slp
+|cant|p2a: Pinsir|slp
+|
+|turn|18
+|choice|move 1|move 4
+|
+|move|p1a: Venomoth|Psychic|p2a: Pinsir
+|-damage|p2a: Pinsir|181\/284 slp
+|-unboost|p2a: Pinsir|spd|1
+|-unboost|p2a: Pinsir|spa|1
+|cant|p2a: Pinsir|slp
+|
+|turn|19
+|choice|move 1|move 4
+|
+|move|p1a: Venomoth|Psychic|p2a: Pinsir
+|-damage|p2a: Pinsir|50\/284 slp
+|-unboost|p2a: Pinsir|spd|1
+|-unboost|p2a: Pinsir|spa|1
+|cant|p2a: Pinsir|slp
+|
+|turn|20
+|choice|move 1|switch 2
+|
+|switch|p2a: Krabby|Krabby, L96|252\/252
+|move|p1a: Venomoth|Psychic|p2a: Krabby
+|-damage|p2a: Krabby|158\/252
+|-unboost|p2a: Krabby|spd|1
+|-unboost|p2a: Krabby|spa|1
+|
+|turn|21
+|choice|move 1|move 4
+|
+|move|p1a: Venomoth|Psychic|p2a: Krabby
+|-damage|p2a: Krabby|0 fnt
+|faint|p2a: Krabby
+|choice||switch 5
+|
+|switch|p2a: Clefable|Clefable, L85|101\/335
+|turn|22
+|choice|move 1|move 3
+|
+|move|p1a: Venomoth|Psychic|p2a: Clefable
+|-damage|p2a: Clefable|35\/335
+|move|p2a: Clefable|Counter|p1a: Venomoth
+|-fail|p2a: Clefable
+|
+|turn|23
+|choice|move 1|move 2
+|
+|move|p1a: Venomoth|Psychic|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|choice||switch 2
+|
+|switch|p2a: Pinsir|Pinsir, L85|50\/284 slp
+|turn|24
+|choice|move 1|move 4
+|
+|move|p1a: Venomoth|Psychic|p2a: Pinsir
+|-damage|p2a: Pinsir|0 fnt
+|faint|p2a: Pinsir
+|
+|win|uvash2
+|raw|uvash2's rating: 1188 &rarr; <strong>1203<\/strong><br \/>(+15 for winning)
+|raw|maslemgames's rating: 1036 &rarr; <strong>1027<\/strong><br \/>(-9 for losing)

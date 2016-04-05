@@ -1,0 +1,92 @@
+﻿|j|420 Blazer Hawk
+|j|SinisterHFigure
+|player|p1|420 Blazer Hawk|161
+|player|p2|SinisterHFigure|269
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|seed|44782,17006,53092,34622
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Pidgeot|Pidgeot|369\/369
+|switch|p2a: Dragonair|Dragonair|325\/325
+|turn|1
+|choice|move 2|move 2
+|
+|move|p1a: Pidgeot|Substitute|p1a: Pidgeot
+|-start|p1a: Pidgeot|Substitute
+|-damage|p1a: Pidgeot|277\/369
+|move|p2a: Dragonair|Thunder Wave|p1a: Pidgeot
+|-status|p1a: Pidgeot|par
+|
+|turn|2
+|choice|move 3|move 1
+|
+|move|p2a: Dragonair|Wrap|p1a: Pidgeot
+|-activate|p1a: Pidgeot|move: Wrap|[of] p2a: Dragonair
+|-activate|p1a: Pidgeot|Substitute|[damage]
+|cant|p1a: Pidgeot|par
+|
+|turn|3
+|choice|move 3|move 1
+|
+|move|p2a: Dragonair|Wrap|p1a: Pidgeot
+|-activate|p1a: Pidgeot|Substitute|[damage]
+|cant|p1a: Pidgeot|par
+|
+|-end|p1a: Pidgeot|Wrap|[partiallytrapped]
+|turn|4
+|choice|move 3|move 1
+|
+|move|p2a: Dragonair|Wrap|p1a: Pidgeot
+|-activate|p1a: Pidgeot|move: Wrap|[of] p2a: Dragonair
+|-activate|p1a: Pidgeot|Substitute|[damage]
+|cant|p1a: Pidgeot|partiallytrapped
+|
+|turn|5
+|choice|move 3|move 1
+|
+|move|p2a: Dragonair|Wrap|p1a: Pidgeot
+|-activate|p1a: Pidgeot|Substitute|[damage]
+|cant|p1a: Pidgeot|partiallytrapped
+|
+|-end|p1a: Pidgeot|Wrap|[partiallytrapped]
+|turn|6
+|choice|move 1|move 1
+|
+|move|p2a: Dragonair|Wrap|p1a: Pidgeot
+|-activate|p1a: Pidgeot|move: Wrap|[of] p2a: Dragonair
+|-activate|p1a: Pidgeot|Substitute|[damage]
+|cant|p1a: Pidgeot|partiallytrapped
+|
+|turn|7
+|choice|move 1|move 1
+|
+|move|p2a: Dragonair|Wrap|p1a: Pidgeot
+|-activate|p1a: Pidgeot|Substitute|[damage]
+|cant|p1a: Pidgeot|par
+|
+|-end|p1a: Pidgeot|Wrap|[partiallytrapped]
+|turn|8
+|choice|move 1|move 1
+|
+|move|p2a: Dragonair|Wrap|p1a: Pidgeot
+|-activate|p1a: Pidgeot|move: Wrap|[of] p2a: Dragonair
+|-end|p1a: Pidgeot|Substitute
+|cant|p1a: Pidgeot|partiallytrapped
+|
+|turn|9
+|-message|420 Blazer Hawk forfeited.
+|
+|win|SinisterHFigure
+|l|420 Blazer Hawk
+|player|p1
+|raw|420 Blazer Hawk's rating: 1092 &rarr; <strong>1062<\/strong><br \/>(-30 for losing)
+|raw|SinisterHFigure's rating: 1000 &rarr; <strong>1050<\/strong><br \/>(+50 for winning)

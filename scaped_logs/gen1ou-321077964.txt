@@ -1,0 +1,334 @@
+﻿|j|BladePrincess
+|j|Giju
+|player|p1|BladePrincess|166
+|player|p2|Giju|198
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|seed|56192,28375,42693,42276
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Alak|Alakazam|313\/313
+|turn|1
+|c|★BladePrincess|Have fun
+|c|★Giju|glhf
+|choice|move 3|switch 3
+|
+|switch|p2a: Chan|Chansey|703\/703
+|move|p1a: Alakazam|Thunder Wave|p2a: Chan
+|-status|p2a: Chan|par
+|
+|turn|2
+|c|★BladePrincess|Original names
+|c|★Giju|lol nothing special
+|c|★BladePrincess|Such creativity
+|choice|switch 3|move 3
+|
+|switch|p1a: Manazran|Gengar|323\/323
+|move|p2a: Chan|Ice Beam|p1a: Manazran
+|-damage|p1a: Manazran|255\/323
+|-status|p1a: Manazran|frz
+|
+|turn|3
+|c|★BladePrincess|k
+|c|★BladePrincess|FRZ on first ice beam
+|choice|switch 3|move 3
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|move|p2a: Chan|Ice Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|252\/313
+|
+|turn|4
+|choice|move 4|move 1
+|
+|move|p1a: Alakazam|Reflect|p1a: Alakazam
+|-start|p1a: Alakazam|Reflect
+|move|p2a: Chan|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|
+|turn|5
+|choice|move 1|move 4
+|
+|cant|p1a: Alakazam|par
+|move|p2a: Chan|Thunderbolt|p1a: Alakazam
+|-damage|p1a: Alakazam|185\/313 par
+|
+|turn|6
+|choice|move 2|switch 5
+|
+|switch|p2a: Snor|Snorlax|523\/523
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|313\/313 par
+|
+|turn|7
+|choice|move 1|move 1
+|
+|move|p2a: Snor|Body Slam|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|choice|switch 5|
+|
+|switch|p1a: Microwavable|Dragonite|385\/385
+|turn|8
+|choice|move 2|move 1
+|
+|move|p1a: Microwavable|Wrap|p2a: Snor
+|-crit|p2a: Snor
+|-damage|p2a: Snor|484\/523
+|-activate|p2a: Snor|move: Wrap|[of] p1a: Microwavable
+|cant|p2a: Snor|partiallytrapped
+|
+|turn|9
+|choice|move 2|switch 3
+|
+|switch|p2a: Alak|Alakazam|313\/313
+|move|p1a: Microwavable|Wrap|p2a: Alak
+|-damage|p2a: Alak|288\/313
+|-activate|p2a: Alak|move: Wrap|[of] p1a: Microwavable
+|
+|turn|10
+|choice|switch 2|move 1
+|
+|switch|p1a: BladePrincess|Chansey|703\/703
+|cant|p2a: Alak|partiallytrapped
+|
+|-end|p2a: Alak|Wrap|[partiallytrapped]
+|turn|11
+|choice|move 3|switch 5
+|
+|switch|p2a: Chan|Chansey|703\/703 par
+|move|p1a: BladePrincess|Thunder Wave|p2a: Chan
+|-fail|p2a: Chan|par
+|
+|turn|12
+|choice|switch 6|move 3
+|
+|switch|p1a: Asthmere Sivolisk|Lapras|463\/463
+|move|p2a: Chan|Ice Beam|p1a: Asthmere Sivolisk
+|-resisted|p1a: Asthmere Sivolisk
+|-damage|p1a: Asthmere Sivolisk|445\/463
+|
+|turn|13
+|choice|move 4|move 4
+|
+|move|p1a: Asthmere Sivolisk|Confuse Ray|p2a: Chan
+|-start|p2a: Chan|confusion
+|cant|p2a: Chan|par
+|
+|turn|14
+|choice|move 3|move 4
+|
+|move|p1a: Asthmere Sivolisk|Body Slam|p2a: Chan
+|-damage|p2a: Chan|549\/703 par
+|-activate|p2a: Chan|confusion
+|-damage|p2a: Chan|540\/703 par|[from] confusion
+|
+|turn|15
+|choice|move 3|move 4
+|
+|move|p1a: Asthmere Sivolisk|Body Slam|p2a: Chan
+|-damage|p2a: Chan|377\/703 par
+|cant|p2a: Chan|par
+|
+|turn|16
+|choice|move 3|move 2
+|
+|move|p1a: Asthmere Sivolisk|Body Slam|p2a: Chan
+|-damage|p2a: Chan|212\/703 par
+|cant|p2a: Chan|par
+|
+|turn|17
+|c|★BladePrincess|Isn't ParaFusion fun?
+|choice|move 3|move 2
+|
+|move|p1a: Asthmere Sivolisk|Body Slam|p2a: Chan
+|-damage|p2a: Chan|52\/703 par
+|-end|p2a: Chan|confusion
+|move|p2a: Chan|Soft-Boiled|p2a: Chan
+|-heal|p2a: Chan|403\/703 par
+|
+|turn|18
+|choice|move 4|move 4
+|
+|move|p1a: Asthmere Sivolisk|Confuse Ray|p2a: Chan
+|-start|p2a: Chan|confusion
+|-activate|p2a: Chan|confusion
+|move|p2a: Chan|Thunderbolt|p1a: Asthmere Sivolisk
+|-supereffective|p1a: Asthmere Sivolisk
+|-damage|p1a: Asthmere Sivolisk|273\/463
+|-status|p1a: Asthmere Sivolisk|par
+|
+|turn|19
+|choice|move 3|switch 3
+|
+|switch|p2a: Snor|Snorlax|484\/523
+|move|p1a: Asthmere Sivolisk|Body Slam|p2a: Snor
+|-damage|p2a: Snor|405\/523
+|
+|turn|20
+|choice|move 4|move 1
+|
+|move|p2a: Snor|Body Slam|p1a: Asthmere Sivolisk
+|-damage|p1a: Asthmere Sivolisk|145\/463 par
+|cant|p1a: Asthmere Sivolisk|par
+|
+|turn|21
+|choice|move 4|move 3
+|
+|move|p2a: Snor|Hyper Beam|p1a: Asthmere Sivolisk
+|-damage|p1a: Asthmere Sivolisk|0 fnt
+|faint|p1a: Asthmere Sivolisk
+|choice|switch 2|
+|
+|switch|p1a: Microwavable|Dragonite|385\/385
+|turn|22
+|choice|move 2|move 4
+|
+|move|p1a: Microwavable|Wrap|p2a: Snor
+|-damage|p2a: Snor|385\/523
+|-activate|p2a: Snor|move: Wrap|[of] p1a: Microwavable
+|cant|p2a: Snor|partiallytrapped
+|
+|turn|23
+|c|★BladePrincess|I already know I've lost, but Gen1OU is so stally it will be a while before the game ends.
+|choice|move 2|switch 5
+|
+|switch|p2a: Alak|Alakazam|288\/313
+|move|p1a: Microwavable|Wrap|p2a: Alak
+|-damage|p2a: Alak|265\/313
+|-activate|p2a: Alak|move: Wrap|[of] p1a: Microwavable
+|
+|turn|24
+|choice|move 2|move 1
+|
+|cant|p2a: Alak|partiallytrapped
+|move|p1a: Microwavable|Wrap|p2a: Alak
+|-damage|p2a: Alak|242\/313
+|
+|turn|25
+|choice|move 2|move 1
+|
+|cant|p2a: Alak|partiallytrapped
+|move|p1a: Microwavable|Wrap|p2a: Alak
+|-damage|p2a: Alak|219\/313
+|
+|turn|26
+|choice|move 2|move 1
+|
+|cant|p2a: Alak|partiallytrapped
+|move|p1a: Microwavable|Wrap|p2a: Alak
+|-damage|p2a: Alak|196\/313
+|
+|-end|p2a: Alak|Wrap|[partiallytrapped]
+|turn|27
+|c|★BladePrincess|Sigh
+|choice|switch 3|move 1
+|
+|switch|p1a: Manazran|Gengar|255\/323 frz
+|move|p2a: Alak|Thunder Wave|p1a: Manazran
+|-fail|p1a: Manazran
+|
+|turn|28
+|choice|move 2|move 1
+|
+|move|p2a: Alak|Thunder Wave|p1a: Manazran
+|-fail|p1a: Manazran
+|cant|p1a: Manazran|frz
+|
+|turn|29
+|choice|move 2|move 2
+|
+|move|p2a: Alak|Psychic|p1a: Manazran
+|-supereffective|p1a: Manazran
+|-damage|p1a: Manazran|37\/323 frz
+|cant|p1a: Manazran|frz
+|
+|turn|30
+|choice|move 2|move 1
+|
+|move|p2a: Alak|Thunder Wave|p1a: Manazran
+|-fail|p1a: Manazran
+|cant|p1a: Manazran|frz
+|
+|turn|31
+|c|★BladePrincess|Good predicts
+|c|★BladePrincess|Doing very well
+|choice|move 2|move 2
+|
+|move|p2a: Alak|Psychic|p1a: Manazran
+|-crit|p1a: Manazran
+|-supereffective|p1a: Manazran
+|-damage|p1a: Manazran|0 fnt
+|faint|p1a: Manazran
+|choice|switch 4|
+|
+|switch|p1a: Champ1604|Jolteon|333\/333
+|turn|32
+|choice|move 2|switch 6
+|
+|switch|p2a: Gol|Golem|363\/363
+|move|p1a: Champ1604|Thunder Wave|p2a: Gol
+|-immune|p2a: Gol|[msg]
+|
+|turn|33
+|choice|switch 3|move 3
+|
+|switch|p1a: Microwavable|Dragonite|385\/385
+|move|p2a: Gol|Rock Slide|p1a: Microwavable
+|-crit|p1a: Microwavable
+|-supereffective|p1a: Microwavable
+|-damage|p1a: Microwavable|0 fnt
+|faint|p1a: Microwavable
+|c|★BladePrincess|Nice predict
+|choice|switch 6|
+|
+|switch|p1a: BladePrincess|Chansey|703\/703
+|turn|34
+|choice|move 1|move 4
+|
+|move|p1a: BladePrincess|Ice Beam|p2a: Gol
+|-supereffective|p2a: Gol
+|-damage|p2a: Gol|126\/363
+|move|p2a: Gol|Explosion|p1a: BladePrincess
+|-damage|p1a: BladePrincess|0 fnt
+|faint|p1a: BladePrincess
+|faint|p2a: Gol
+|choice|switch 3|switch 6
+|
+|switch|p1a: Champ1604|Jolteon|333\/333
+|switch|p2a: Alak|Alakazam|196\/313
+|turn|35
+|choice|move 2|move 1
+|
+|move|p1a: Champ1604|Thunder Wave|p2a: Alak
+|-status|p2a: Alak|par
+|move|p2a: Alak|Thunder Wave|p1a: Champ1604
+|-status|p1a: Champ1604|par
+|
+|turn|36
+|choice|move 1|switch 5
+|
+|switch|p2a: Snor|Snorlax|385\/523
+|move|p1a: Champ1604|Thunderbolt|p2a: Snor
+|-damage|p2a: Snor|233\/523
+|
+|turn|37
+|c|★BladePrincess|meh not wasting time
+|c|★BladePrincess|gg
+|-message|BladePrincess forfeited.
+|
+|win|Giju
+|player|p1
+|player|p2
+|l|BladePrincess
+|raw|BladePrincess's rating: 1055 &rarr; <strong>1046<\/strong><br \/>(-9 for losing)
+|raw|Giju's rating: 1264 &rarr; <strong>1276<\/strong><br \/>(+12 for winning)

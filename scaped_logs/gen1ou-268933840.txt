@@ -1,0 +1,381 @@
+﻿|join|marcoasd
+|join|agraS
+|player|p1|marcoasd|265
+|player|p2|agraS|120
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Starmie|Starmie|323\/323
+|turn|1
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Starmie|[miss]
+|-miss|p1a: Alakazam
+|move|p2a: Starmie|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|
+|turn|2
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Alakazam|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|334\/393
+|
+|turn|3
+|
+|switch|p2a: Golem|Golem|363\/363
+|move|p1a: Alakazam|Thunder Wave|p2a: Golem
+|-immune|p2a: Golem|[msg]
+|
+|turn|4
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Golem|Earthquake|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|326\/393
+|
+|turn|5
+|
+|switch|p2a: Exeggutor|Exeggutor|334\/393
+|move|p1a: Exeggutor|Sleep Powder|p2a: Exeggutor
+|-status|p2a: Exeggutor|slp
+|
+|turn|6
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|move|p1a: Exeggutor|Psychic|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|257\/323
+|-unboost|p2a: Starmie|spd|1
+|-unboost|p2a: Starmie|spa|1
+|
+|turn|7
+|
+|move|p2a: Starmie|Blizzard|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|36\/393
+|move|p1a: Exeggutor|Stun Spore|p2a: Starmie|[miss]
+|-miss|p1a: Exeggutor
+|
+|turn|8
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Starmie|Psychic|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|508\/703
+|
+|turn|9
+|
+|switch|p2a: Golem|Golem|363\/363
+|move|p1a: Chansey|Seismic Toss|p2a: Golem
+|-damage|p2a: Golem|263\/363
+|
+|turn|10
+|join|Albeh
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-start|p1a: Chansey|Reflect
+|move|p2a: Golem|Earthquake|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|switch|p1a: Exeggutor|Exeggutor|36\/393
+|turn|11
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|switch|p2a: Exeggutor|Exeggutor|334\/393 slp
+|
+|turn|12
+|leave|Albeh
+|join|ILL MIND OF MUK
+|
+|move|p1a: Tauros|Body Slam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|230\/393 slp
+|cant|p2a: Exeggutor|slp
+|
+|turn|13
+|
+|move|p1a: Tauros|Body Slam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|122\/393 slp
+|-curestatus|p2a: Exeggutor|slp
+|
+|turn|14
+|c|★marcoasd|Tauros Blizzard vs. Exeggutor: 119-140 (30.2 - 35.6%) -- 32.1% chance to 3HKO
+|
+|switch|p2a: Starmie|Starmie|257\/323
+|move|p1a: Tauros|Blizzard|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|217\/323
+|
+|turn|15
+|join|SGT Stern
+|
+|switch|p1a: Alakazam|Alakazam|313\/313 par
+|move|p2a: Starmie|Thunder Wave|p1a: Alakazam
+|-fail|p1a: Alakazam|par
+|
+|turn|16
+|
+|switch|p2a: Exeggutor|Exeggutor|122\/393
+|cant|p1a: Alakazam|par
+|
+|turn|17
+|
+|switch|p1a: Zapdos|Zapdos|383\/383
+|move|p2a: Exeggutor|Explosion|p1a: Zapdos
+|-damage|p1a: Zapdos|117\/383
+|faint|p2a: Exeggutor
+|leave|SGT Stern
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|18
+|join|Bigfilip 92
+|
+|move|p2a: Tauros|Blizzard|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|turn|19
+|
+|switch|p2a: Golem|Golem|263\/363
+|move|p1a: Snorlax|Reflect|p1a: Snorlax
+|-start|p1a: Snorlax|Reflect
+|
+|turn|20
+|
+|move|p2a: Golem|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|438\/523
+|move|p1a: Snorlax|Earthquake|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|128\/363
+|
+|turn|21
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Snorlax|Earthquake|p2a: Snorlax
+|-damage|p2a: Snorlax|418\/523
+|
+|turn|22
+|
+|move|p2a: Snorlax|Reflect|p2a: Snorlax
+|-start|p2a: Snorlax|Reflect
+|move|p1a: Snorlax|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|344\/523
+|
+|turn|23
+|
+|move|p1a: Snorlax|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|276\/523
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|
+|turn|24
+|
+|move|p1a: Snorlax|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|203\/523
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp
+|-heal|p2a: Snorlax|523\/523 slp|[silent]
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|
+|turn|25
+|
+|cant|p2a: Snorlax|slp
+|move|p1a: Snorlax|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|458\/523 slp
+|
+|turn|26
+|
+|switch|p1a: Exeggutor|Exeggutor|36\/393
+|-curestatus|p2a: Snorlax|slp
+|
+|turn|27
+|
+|switch|p2a: Golem|Golem|128\/363
+|move|p1a: Exeggutor|Sleep Powder|p2a: Golem
+|-status|p2a: Golem|slp
+|
+|turn|28
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Exeggutor|Stun Spore|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|turn|29
+|
+|switch|p1a: Snorlax|Snorlax|438\/523
+|move|p2a: Chansey|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|329\/523
+|
+|turn|30
+|
+|move|p1a: Snorlax|Reflect|p1a: Snorlax
+|-start|p1a: Snorlax|Reflect
+|move|p2a: Chansey|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|228\/523
+|
+|turn|31
+|
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp
+|-heal|p1a: Snorlax|523\/523 slp|[silent]
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|move|p2a: Chansey|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|416\/523 slp
+|
+|turn|32
+|
+|switch|p2a: Starmie|Starmie|217\/323
+|cant|p1a: Snorlax|slp
+|
+|turn|33
+|
+|switch|p1a: Alakazam|Alakazam|313\/313 par
+|move|p2a: Starmie|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|273\/313 par
+|
+|turn|34
+|
+|switch|p2a: Chansey|Chansey|703\/703 par
+|cant|p1a: Alakazam|par
+|
+|turn|35
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|568\/703 par
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|move|p2a: Chansey|Ice Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|229\/313 par
+|
+|turn|36
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|380\/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703 par
+|
+|turn|37
+|
+|switch|p2a: Starmie|Starmie|217\/323
+|cant|p1a: Alakazam|par
+|
+|turn|38
+|
+|switch|p2a: Snorlax|Snorlax|458\/523
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|313\/313 par
+|
+|turn|39
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|move|p2a: Snorlax|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|242\/353
+|
+|turn|40
+|
+|switch|p2a: Golem|Golem|128\/363 slp
+|move|p1a: Tauros|Body Slam|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|86\/363 slp
+|
+|turn|41
+|
+|move|p1a: Tauros|Body Slam|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|45\/363 slp
+|-curestatus|p2a: Golem|slp
+|
+|turn|42
+|
+|switch|p2a: Starmie|Starmie|217\/323
+|move|p1a: Tauros|Blizzard|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|178\/323
+|
+|turn|43
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|323\/323
+|move|p1a: Tauros|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|205\/323
+|
+|turn|44
+|
+|move|p2a: Starmie|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|move|p1a: Tauros|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|97\/323
+|
+|turn|45
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|258\/323
+|move|p1a: Tauros|Body Slam|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|30\/323
+|
+|turn|46
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|191\/323
+|cant|p1a: Tauros|par
+|
+|turn|47
+|
+|move|p2a: Starmie|Psychic|p1a: Tauros
+|-damage|p1a: Tauros|117\/353 par
+|move|p1a: Tauros|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|84\/323
+|
+|turn|48
+|
+|move|p2a: Starmie|Psychic|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|switch|p1a: Snorlax|Snorlax|416\/523 slp
+|turn|49
+|
+|switch|p1a: Exeggutor|Exeggutor|36\/393
+|move|p2a: Starmie|Psychic|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Alakazam|Alakazam|313\/313 par
+|turn|50
+|
+|switch|p2a: Golem|Golem|45\/363
+|cant|p1a: Alakazam|par
+|
+|turn|51
+|
+|move|p2a: Golem|Explosion|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|faint|p2a: Golem
+|
+|switch|p1a: Snorlax|Snorlax|416\/523 slp
+|switch|p2a: Snorlax|Snorlax|458\/523
+|turn|52
+|-message|marcoasd forfeited.
+|
+|win|agraS
+|leave|marcoasd
+|player|p1

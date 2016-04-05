@@ -1,0 +1,229 @@
+﻿|join|OriLighter
+|join|Giju
+|player|p1|OriLighter|50
+|player|p2|Giju|163
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Slowbro|Slowbro|393\/393
+|switch|p2a: Jyn|Jynx|333\/333
+|turn|1
+|
+|move|p2a: Jyn|Lovely Kiss|p1a: Slowbro|[miss]
+|-miss|p2a: Jyn
+|move|p1a: Slowbro|Thunder Wave|p2a: Jyn
+|-status|p2a: Jyn|par
+|
+|turn|2
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|move|p2a: Jyn|Lovely Kiss|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|
+|turn|3
+|
+|switch|p2a: Per|Persian|333\/333
+|cant|p1a: Slowbro|slp
+|
+|turn|4
+|
+|move|p2a: Per|Screech|p1a: Slowbro
+|-unboost|p1a: Slowbro|def|2
+|cant|p1a: Slowbro|slp
+|
+|turn|5
+|
+|move|p2a: Per|Slash|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-damage|p1a: Slowbro|274\/393 slp
+|cant|p1a: Slowbro|slp
+|
+|turn|6
+|
+|switch|p1a: Golem|Golem|363\/363
+|move|p2a: Per|Screech|p1a: Golem
+|-unboost|p1a: Golem|def|2
+|
+|turn|7
+|
+|move|p2a: Per|Bubble Beam|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|147\/363
+|move|p1a: Golem|Body Slam|p2a: Per
+|-damage|p2a: Per|230\/333
+|
+|turn|8
+|
+|move|p2a: Per|Slash|p1a: Golem
+|-crit|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|94\/363
+|move|p1a: Golem|Earthquake|p2a: Per
+|-damage|p2a: Per|61\/333
+|
+|turn|9
+|
+|switch|p1a: Slowbro|Slowbro|274\/393 slp
+|move|p2a: Per|Bubble Beam|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|229\/393 slp
+|
+|turn|10
+|
+|move|p2a: Per|Slash|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-damage|p1a: Slowbro|101\/393 slp
+|cant|p1a: Slowbro|slp
+|-curestatus|p1a: Slowbro|slp
+|
+|turn|11
+|
+|move|p2a: Per|Slash|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|
+|switch|p1a: Jolteon|Jolteon|333\/333
+|turn|12
+|
+|switch|p2a: Gol|Golem|363\/363
+|move|p1a: Jolteon|Thunder Wave|p2a: Gol
+|-immune|p2a: Gol|[msg]
+|
+|turn|13
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Gol|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|315\/393
+|-status|p1a: Exeggutor|par
+|
+|turn|14
+|
+|switch|p2a: Jyn|Jynx|333\/333 par
+|cant|p1a: Exeggutor|par
+|
+|turn|15
+|
+|switch|p1a: Jolteon|Jolteon|333\/333
+|move|p2a: Jyn|Lovely Kiss|p1a: Jolteon
+|-status|p1a: Jolteon|slp
+|
+|turn|16
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|cant|p2a: Jyn|par
+|
+|turn|17
+|
+|move|p1a: Tauros|Body Slam|p2a: Jyn
+|-damage|p2a: Jyn|149\/333 par
+|move|p2a: Jyn|Blizzard|p1a: Tauros
+|-damage|p1a: Tauros|175\/353
+|
+|turn|18
+|
+|move|p1a: Tauros|Earthquake|p2a: Jyn
+|-crit|p2a: Jyn
+|-damage|p2a: Jyn|0 fnt
+|faint|p2a: Jyn
+|
+|switch|p2a: Tau|Tauros|353\/353
+|turn|19
+|
+|move|p2a: Tau|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|73\/353
+|move|p1a: Tauros|Body Slam|p2a: Tau
+|-damage|p2a: Tau|245\/353
+|
+|turn|20
+|
+|move|p1a: Tauros|Body Slam|p2a: Tau
+|-damage|p2a: Tau|146\/353
+|move|p2a: Tau|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|switch|p1a: Dodrio|Dodrio|323\/323
+|turn|21
+|
+|switch|p2a: Gol|Golem|363\/363
+|move|p1a: Dodrio|Tri Attack|p2a: Gol
+|-crit|p2a: Gol
+|-resisted|p2a: Gol
+|-damage|p2a: Gol|277\/363
+|
+|turn|22
+|
+|move|p1a: Dodrio|Tri Attack|p2a: Gol
+|-resisted|p2a: Gol
+|-damage|p2a: Gol|233\/363
+|move|p2a: Gol|Rock Slide|p1a: Dodrio
+|-supereffective|p1a: Dodrio
+|-damage|p1a: Dodrio|72\/323
+|
+|turn|23
+|
+|move|p1a: Dodrio|Tri Attack|p2a: Gol
+|-crit|p2a: Gol
+|-resisted|p2a: Gol
+|-damage|p2a: Gol|158\/363
+|move|p2a: Gol|Body Slam|p1a: Dodrio
+|-damage|p1a: Dodrio|0 fnt
+|faint|p1a: Dodrio
+|c|★OriLighter|cool NEVER workin 20%
+|
+|switch|p1a: Golem|Golem|94\/363
+|turn|24
+|
+|move|p2a: Gol|Earthquake|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|0 fnt
+|faint|p1a: Golem
+|
+|switch|p1a: Exeggutor|Exeggutor|315\/393 par
+|turn|25
+|
+|move|p2a: Gol|Explosion|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|faint|p2a: Gol
+|
+|switch|p1a: Jolteon|Jolteon|333\/333 slp
+|switch|p2a: Per|Persian|61\/333
+|turn|26
+|
+|cant|p1a: Jolteon|slp
+|move|p2a: Per|Slash|p1a: Jolteon
+|-crit|p1a: Jolteon
+|-damage|p1a: Jolteon|153\/333 slp
+|
+|turn|27
+|
+|cant|p1a: Jolteon|slp
+|move|p2a: Per|Slash|p1a: Jolteon
+|-crit|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|win|Giju
+|raw|Ladder updating...
+|c|★Giju|gg
+|leave|OriLighter
+|player|p1
+|raw|Ladder (probably) updated, but score could not be retrieved (timeout).
+|raw|Ladder (probably) updated, but score could not be retrieved (Error: socket hang up).
+|leave|Giju
+|player|p2
+|join|Giju

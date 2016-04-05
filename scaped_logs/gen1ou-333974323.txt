@@ -1,0 +1,223 @@
+﻿|j|Dazmi
+|j|Erzog
+|player|p1|Dazmi|65
+|player|p2|Erzog|30
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|seed|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Starmie|Starmie|100\/100
+|switch|p2a: El Pablo|Gengar|100\/100
+|turn|1
+|choice||
+|
+|move|p1a: Starmie|Psychic|p2a: El Pablo
+|-supereffective|p2a: El Pablo
+|-damage|p2a: El Pablo|44\/100
+|move|p2a: El Pablo|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|42\/100
+|
+|turn|2
+|choice||
+|
+|switch|p2a: Exeggutor|Exeggutor|100\/100
+|move|p1a: Starmie|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|90\/100
+|-unboost|p2a: Exeggutor|spd|1
+|-unboost|p2a: Exeggutor|spa|1
+|
+|turn|3
+|choice||
+|
+|move|p1a: Starmie|Blizzard|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|27\/100
+|move|p2a: Exeggutor|Mega Drain|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|20\/100
+|-heal|p2a: Exeggutor|36\/100|[from] drain|[of] p1a: Starmie
+|
+|turn|4
+|choice||
+|
+|move|p1a: Starmie|Blizzard|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|choice||
+|
+|switch|p2a: Persian|Persian|100\/100
+|turn|5
+|choice||
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|70\/100
+|move|p2a: Persian|Slash|p1a: Starmie
+|-crit|p1a: Starmie
+|-damage|p1a: Starmie|26\/100
+|
+|turn|6
+|choice||
+|
+|switch|p1a: Chansey|Chansey|100\/100
+|move|p2a: Persian|Thunder|p1a: Chansey
+|-damage|p1a: Chansey|91\/100
+|
+|turn|7
+|choice||
+|
+|move|p2a: Persian|Slash|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|45\/100
+|move|p1a: Chansey|Counter|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|faint|p2a: Persian
+|choice||
+|
+|switch|p2a: Booba|Tauros|100\/100
+|turn|8
+|choice||
+|
+|move|p2a: Booba|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|6\/100
+|move|p1a: Chansey|Counter|p2a: Booba
+|-damage|p2a: Booba|0 fnt
+|faint|p2a: Booba
+|choice||
+|
+|switch|p2a: El Pablo|Gengar|44\/100
+|turn|9
+|choice||
+|
+|move|p2a: El Pablo|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|choice||
+|
+|switch|p1a: Starmie|Starmie|26\/100
+|turn|10
+|choice||
+|
+|move|p1a: Starmie|Psychic|p2a: El Pablo
+|-supereffective|p2a: El Pablo
+|-damage|p2a: El Pablo|0 fnt
+|faint|p2a: El Pablo
+|choice||
+|
+|switch|p2a: Lillou|Chansey|100\/100
+|turn|11
+|choice||
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|76\/100
+|move|p2a: Lillou|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|24\/100
+|
+|turn|12
+|choice||
+|
+|switch|p1a: Golem|Golem|100\/100
+|move|p2a: Lillou|Thunderbolt|p1a: Golem
+|-immune|p1a: Golem|[msg]
+|
+|turn|13
+|choice||
+|
+|move|p2a: Lillou|Ice Beam|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|35\/100
+|move|p1a: Golem|Substitute|p1a: Golem
+|-start|p1a: Golem|Substitute
+|-damage|p1a: Golem|10\/100
+|
+|turn|14
+|choice||
+|
+|move|p2a: Lillou|Ice Beam|p1a: Golem
+|-crit|p1a: Golem
+|-supereffective|p1a: Golem
+|-end|p1a: Golem|Substitute
+|move|p1a: Golem|Explosion|p2a: Lillou
+|-damage|p2a: Lillou|0 fnt
+|faint|p2a: Lillou
+|faint|p1a: Golem
+|choice||
+|
+|switch|p1a: Starmie|Starmie|24\/100
+|switch|p2a: HeatWaves|Zapdos|100\/100
+|turn|15
+|choice||
+|
+|move|p1a: Starmie|Blizzard|p2a: HeatWaves
+|-supereffective|p2a: HeatWaves
+|-damage|p2a: HeatWaves|60\/100
+|move|p2a: HeatWaves|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|choice||
+|
+|switch|p1a: Tauros|Tauros|100\/100
+|turn|16
+|choice||
+|
+|move|p1a: Tauros|Blizzard|p2a: HeatWaves|[miss]
+|-miss|p1a: Tauros
+|move|p2a: HeatWaves|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|
+|turn|17
+|choice||
+|
+|move|p2a: HeatWaves|Thunderbolt|p1a: Tauros
+|-damage|p1a: Tauros|51\/100 par
+|move|p1a: Tauros|Blizzard|p2a: HeatWaves|[miss]
+|-miss|p1a: Tauros
+|
+|turn|18
+|choice||
+|
+|move|p2a: HeatWaves|Thunderbolt|p1a: Tauros
+|-damage|p1a: Tauros|2\/100 par
+|move|p1a: Tauros|Body Slam|p2a: HeatWaves
+|-damage|p2a: HeatWaves|33\/100
+|
+|turn|19
+|choice||
+|
+|move|p2a: HeatWaves|Thunderbolt|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|choice||
+|
+|switch|p1a: Exeggutor|Exeggutor|100\/100
+|turn|20
+|choice||
+|
+|move|p2a: HeatWaves|Drill Peck|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|48\/100
+|move|p1a: Exeggutor|Explosion|p2a: HeatWaves
+|-damage|p2a: HeatWaves|0 fnt
+|faint|p2a: HeatWaves
+|faint|p1a: Exeggutor
+|
+|win|Dazmi
+|player|p1
+|player|p2
+|raw|Dazmi's rating: 1235 &rarr; <strong>1269<\/strong><br \/>(+34 for winning)
+|raw|Erzog's rating: 1374 &rarr; <strong>1346<\/strong><br \/>(-28 for losing)
+|c|★Dazmi|gg

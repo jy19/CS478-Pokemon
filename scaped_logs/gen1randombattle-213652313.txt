@@ -1,0 +1,503 @@
+﻿|join|poopyblanket
+|join|ProletarioParasito
+|player|p1|poopyblanket|7
+|player|p2|ProletarioParasito|2
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Arcanine|Arcanine, L86|330\/330
+|switch|p2a: Gloom|Gloom, L86|279\/279
+|turn|1
+|
+|switch|p2a: Blastoise|Blastoise, L86|311\/311
+|move|p1a: Arcanine|Fire Blast|p2a: Blastoise
+|-crit|p2a: Blastoise
+|-resisted|p2a: Blastoise
+|-damage|p2a: Blastoise|201\/311
+|
+|turn|2
+|
+|switch|p1a: Caterpie|Caterpie, L99|290\/290
+|move|p2a: Blastoise|Earthquake|p1a: Caterpie
+|-crit|p1a: Caterpie
+|-resisted|p1a: Caterpie
+|-damage|p1a: Caterpie|198\/290
+|
+|turn|3
+|
+|move|p2a: Blastoise|Surf|p1a: Caterpie
+|-damage|p1a: Caterpie|32\/290
+|move|p1a: Caterpie|Tackle|p2a: Blastoise
+|-damage|p2a: Blastoise|184\/311
+|
+|turn|4
+|
+|move|p2a: Blastoise|Rest|p2a: Blastoise
+|-status|p2a: Blastoise|slp
+|-heal|p2a: Blastoise|311\/311 slp|[silent]
+|-status|p2a: Blastoise|slp|[from] move: Rest
+|move|p1a: Caterpie|String Shot|p2a: Blastoise
+|-unboost|p2a: Blastoise|spe|1
+|
+|turn|5
+|
+|switch|p1a: Vileplume|Vileplume, L86|304\/304
+|cant|p2a: Blastoise|slp
+|
+|turn|6
+|
+|switch|p2a: Hypno|Hypno, L86|322\/322
+|move|p1a: Vileplume|Body Slam|p2a: Hypno
+|-damage|p2a: Hypno|258\/322
+|
+|turn|7
+|
+|switch|p1a: Caterpie|Caterpie, L99|32\/290
+|move|p2a: Hypno|Psychic|p1a: Caterpie
+|-damage|p1a: Caterpie|0 fnt
+|faint|p1a: Caterpie
+|
+|switch|p1a: Slowbro|Slowbro, L80|316\/316
+|turn|8
+|
+|move|p2a: Hypno|Thunder Wave|p1a: Slowbro
+|-status|p1a: Slowbro|par
+|move|p1a: Slowbro|Thunder Wave|p2a: Hypno
+|-status|p2a: Hypno|par
+|
+|turn|9
+|
+|switch|p2a: Gloom|Gloom, L86|279\/279
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|
+|turn|10
+|
+|move|p2a: Gloom|Mega Drain|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|268\/316 par
+|cant|p1a: Slowbro|par
+|
+|turn|11
+|
+|move|p2a: Gloom|Mega Drain|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|226\/316 par
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|
+|turn|12
+|
+|move|p2a: Gloom|Double-Edge|p1a: Slowbro
+|-damage|p1a: Slowbro|170\/316 par
+|-damage|p2a: Gloom|265\/279|[from] recoil|[of] p1a: Slowbro
+|cant|p1a: Slowbro|par
+|
+|turn|13
+|
+|move|p2a: Gloom|Double-Edge|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-damage|p1a: Slowbro|65\/316 par
+|-damage|p2a: Gloom|239\/279|[from] recoil|[of] p1a: Slowbro
+|move|p1a: Slowbro|Surf|p2a: Gloom
+|-resisted|p2a: Gloom
+|-damage|p2a: Gloom|117\/279
+|
+|turn|14
+|
+|move|p2a: Gloom|Mega Drain|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|30\/316 par
+|-heal|p2a: Gloom|134\/279|[from] drain|[of] p1a: Slowbro
+|move|p1a: Slowbro|Rest|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|-heal|p1a: Slowbro|316\/316 slp|[silent]
+|-status|p1a: Slowbro|slp|[from] move: Rest
+|
+|turn|15
+|
+|move|p2a: Gloom|Swords Dance|p2a: Gloom
+|-boost|p2a: Gloom|atk|2
+|cant|p1a: Slowbro|slp
+|
+|turn|16
+|
+|move|p2a: Gloom|Swords Dance|p2a: Gloom
+|-boost|p2a: Gloom|atk|2
+|cant|p1a: Slowbro|slp
+|-curestatus|p1a: Slowbro|slp
+|
+|turn|17
+|
+|move|p2a: Gloom|Sleep Powder|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|cant|p1a: Slowbro|slp
+|
+|turn|18
+|
+|move|p2a: Gloom|Double-Edge|p1a: Slowbro
+|-damage|p1a: Slowbro|153\/316 slp
+|-damage|p2a: Gloom|94\/279|[from] recoil|[of] p1a: Slowbro
+|cant|p1a: Slowbro|slp
+|-curestatus|p1a: Slowbro|slp
+|
+|turn|19
+|
+|switch|p1a: Vileplume|Vileplume, L86|304\/304
+|move|p2a: Gloom|Double-Edge|p1a: Vileplume
+|-damage|p1a: Vileplume|141\/304
+|-damage|p2a: Gloom|54\/279|[from] recoil|[of] p1a: Vileplume
+|
+|turn|20
+|
+|move|p1a: Vileplume|Sleep Powder|p2a: Gloom|[miss]
+|-miss|p1a: Vileplume
+|move|p2a: Gloom|Double-Edge|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|-damage|p2a: Gloom|19\/279|[from] recoil|[of] p1a: Vileplume
+|faint|p1a: Vileplume
+|
+|switch|p1a: Arcanine|Arcanine, L86|330\/330
+|turn|21
+|
+|move|p1a: Arcanine|Body Slam|p2a: Gloom
+|-damage|p2a: Gloom|0 fnt
+|faint|p2a: Gloom
+|
+|switch|p2a: Blastoise|Blastoise, L86|311\/311 slp
+|turn|22
+|
+|switch|p1a: Slowbro|Slowbro, L80|153\/316
+|cant|p2a: Blastoise|slp
+|-curestatus|p2a: Blastoise|slp
+|
+|turn|23
+|
+|move|p2a: Blastoise|Earthquake|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-damage|p1a: Slowbro|40\/316
+|move|p1a: Slowbro|Thunder Wave|p2a: Blastoise
+|-status|p2a: Blastoise|par
+|
+|turn|24
+|
+|move|p1a: Slowbro|Rest|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|-heal|p1a: Slowbro|316\/316 slp|[silent]
+|-status|p1a: Slowbro|slp|[from] move: Rest
+|move|p2a: Blastoise|Earthquake|p1a: Slowbro
+|-damage|p1a: Slowbro|255\/316 slp
+|
+|turn|25
+|
+|switch|p2a: Hypno|Hypno, L86|258\/322 par
+|cant|p1a: Slowbro|slp
+|
+|turn|26
+|
+|cant|p1a: Slowbro|slp
+|-curestatus|p1a: Slowbro|slp
+|move|p2a: Hypno|Thunder Wave|p1a: Slowbro
+|-status|p1a: Slowbro|par
+|
+|turn|27
+|
+|switch|p2a: Rhydon|Rhydon, L80|332\/332
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|
+|turn|28
+|
+|move|p2a: Rhydon|Substitute|p2a: Rhydon
+|-start|p2a: Rhydon|Substitute
+|-damage|p2a: Rhydon|249\/332
+|move|p1a: Slowbro|Surf|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-end|p2a: Rhydon|Substitute
+|
+|turn|29
+|
+|move|p2a: Rhydon|Substitute|p2a: Rhydon
+|-start|p2a: Rhydon|Substitute
+|-damage|p2a: Rhydon|166\/332
+|move|p1a: Slowbro|Surf|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-end|p2a: Rhydon|Substitute
+|
+|turn|30
+|
+|move|p2a: Rhydon|Substitute|p2a: Rhydon
+|-start|p2a: Rhydon|Substitute
+|-damage|p2a: Rhydon|83\/332
+|cant|p1a: Slowbro|par
+|
+|turn|31
+|
+|move|p2a: Rhydon|Rock Slide|p1a: Slowbro
+|-damage|p1a: Slowbro|172\/316 par
+|cant|p1a: Slowbro|par
+|
+|turn|32
+|
+|move|p2a: Rhydon|Rock Slide|p1a: Slowbro
+|-damage|p1a: Slowbro|89\/316 par
+|move|p1a: Slowbro|Surf|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-end|p2a: Rhydon|Substitute
+|
+|turn|33
+|
+|move|p2a: Rhydon|Earthquake|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|
+|switch|p1a: Blastoise|Blastoise, L86|311\/311
+|turn|34
+|
+|switch|p2a: Blastoise|Blastoise, L86|311\/311 par
+|move|p1a: Blastoise|Earthquake|p2a: Blastoise
+|-damage|p2a: Blastoise|251\/311 par
+|
+|turn|35
+|
+|move|p1a: Blastoise|Earthquake|p2a: Blastoise
+|-crit|p2a: Blastoise
+|-damage|p2a: Blastoise|132\/311 par
+|cant|p2a: Blastoise|par
+|
+|turn|36
+|
+|move|p1a: Blastoise|Earthquake|p2a: Blastoise
+|-damage|p2a: Blastoise|77\/311 par
+|move|p2a: Blastoise|Rest|p2a: Blastoise
+|-status|p2a: Blastoise|slp
+|-heal|p2a: Blastoise|311\/311 slp|[silent]
+|-status|p2a: Blastoise|slp|[from] move: Rest
+|
+|turn|37
+|
+|move|p1a: Blastoise|Earthquake|p2a: Blastoise
+|-damage|p2a: Blastoise|252\/311 slp
+|cant|p2a: Blastoise|slp
+|
+|turn|38
+|
+|move|p1a: Blastoise|Earthquake|p2a: Blastoise
+|-damage|p2a: Blastoise|188\/311 slp
+|cant|p2a: Blastoise|slp
+|-curestatus|p2a: Blastoise|slp
+|
+|turn|39
+|
+|move|p1a: Blastoise|Blizzard|p2a: Blastoise
+|-crit|p2a: Blastoise
+|-resisted|p2a: Blastoise
+|-damage|p2a: Blastoise|110\/311
+|move|p2a: Blastoise|Earthquake|p1a: Blastoise
+|-damage|p1a: Blastoise|248\/311
+|
+|turn|40
+|
+|move|p1a: Blastoise|Earthquake|p2a: Blastoise
+|-damage|p2a: Blastoise|54\/311
+|move|p2a: Blastoise|Rest|p2a: Blastoise
+|-status|p2a: Blastoise|slp
+|-heal|p2a: Blastoise|311\/311 slp|[silent]
+|-status|p2a: Blastoise|slp|[from] move: Rest
+|
+|turn|41
+|
+|move|p1a: Blastoise|Earthquake|p2a: Blastoise
+|-damage|p2a: Blastoise|256\/311 slp
+|cant|p2a: Blastoise|slp
+|
+|turn|42
+|
+|move|p1a: Blastoise|Earthquake|p2a: Blastoise
+|-damage|p2a: Blastoise|200\/311 slp
+|cant|p2a: Blastoise|slp
+|-curestatus|p2a: Blastoise|slp
+|
+|turn|43
+|
+|move|p1a: Blastoise|Earthquake|p2a: Blastoise
+|-damage|p2a: Blastoise|138\/311
+|move|p2a: Blastoise|Earthquake|p1a: Blastoise
+|-damage|p1a: Blastoise|187\/311
+|
+|turn|44
+|
+|move|p1a: Blastoise|Earthquake|p2a: Blastoise
+|-damage|p2a: Blastoise|81\/311
+|move|p2a: Blastoise|Earthquake|p1a: Blastoise
+|-damage|p1a: Blastoise|128\/311
+|
+|turn|45
+|
+|move|p1a: Blastoise|Earthquake|p2a: Blastoise
+|-damage|p2a: Blastoise|17\/311
+|move|p2a: Blastoise|Rest|p2a: Blastoise
+|-status|p2a: Blastoise|slp
+|-heal|p2a: Blastoise|311\/311 slp|[silent]
+|-status|p2a: Blastoise|slp|[from] move: Rest
+|
+|turn|46
+|
+|switch|p1a: Dragonite|Dragonite, L80|310\/310
+|cant|p2a: Blastoise|slp
+|
+|turn|47
+|
+|move|p1a: Dragonite|Substitute|p1a: Dragonite
+|-start|p1a: Dragonite|Substitute
+|-damage|p1a: Dragonite|233\/310
+|cant|p2a: Blastoise|slp
+|-curestatus|p2a: Blastoise|slp
+|
+|turn|48
+|
+|switch|p2a: Rhydon|Rhydon, L80|83\/332
+|move|p1a: Dragonite|Body Slam|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|53\/332
+|-status|p2a: Rhydon|par
+|
+|turn|49
+|
+|move|p1a: Dragonite|Ice Beam|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|
+|switch|p2a: Machoke|Machoke, L86|313\/313
+|turn|50
+|
+|move|p1a: Dragonite|Ice Beam|p2a: Machoke
+|-crit|p2a: Machoke
+|-damage|p2a: Machoke|152\/313
+|-status|p2a: Machoke|frz
+|cant|p2a: Machoke|frz
+|
+|turn|51
+|
+|move|p1a: Dragonite|Body Slam|p2a: Machoke
+|-damage|p2a: Machoke|68\/313 frz
+|cant|p2a: Machoke|frz
+|
+|turn|52
+|
+|move|p1a: Dragonite|Body Slam|p2a: Machoke
+|-damage|p2a: Machoke|0 fnt
+|faint|p2a: Machoke
+|
+|switch|p2a: Hypno|Hypno, L86|258\/322 par
+|turn|53
+|
+|move|p1a: Dragonite|Body Slam|p2a: Hypno
+|-damage|p2a: Hypno|181\/322 par
+|move|p2a: Hypno|Psychic|p1a: Dragonite
+|-end|p1a: Dragonite|Substitute
+|
+|turn|54
+|
+|switch|p1a: Blastoise|Blastoise, L86|128\/311
+|cant|p2a: Hypno|par
+|
+|turn|55
+|
+|switch|p2a: Blastoise|Blastoise, L86|311\/311
+|move|p1a: Blastoise|Earthquake|p2a: Blastoise
+|-damage|p2a: Blastoise|254\/311
+|
+|turn|56
+|
+|move|p1a: Blastoise|Earthquake|p2a: Blastoise
+|-damage|p2a: Blastoise|197\/311
+|move|p2a: Blastoise|Blizzard|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|86\/311
+|
+|turn|57
+|
+|move|p2a: Blastoise|Earthquake|p1a: Blastoise
+|-damage|p1a: Blastoise|25\/311
+|move|p1a: Blastoise|Earthquake|p2a: Blastoise
+|-damage|p2a: Blastoise|135\/311
+|
+|turn|58
+|
+|move|p2a: Blastoise|Blizzard|p1a: Blastoise
+|-crit|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|faint|p1a: Blastoise
+|
+|switch|p1a: Arcanine|Arcanine, L86|330\/330
+|turn|59
+|
+|move|p1a: Arcanine|Reflect|p1a: Arcanine
+|move|p2a: Blastoise|Surf|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|114\/330
+|
+|turn|60
+|
+|move|p1a: Arcanine|Hyper Beam|p2a: Blastoise|[miss]
+|-miss|p1a: Arcanine
+|move|p2a: Blastoise|Rest|p2a: Blastoise
+|-status|p2a: Blastoise|slp
+|-heal|p2a: Blastoise|311\/311 slp|[silent]
+|-status|p2a: Blastoise|slp|[from] move: Rest
+|
+|turn|61
+|
+|move|p1a: Arcanine|Body Slam|p2a: Blastoise
+|-damage|p2a: Blastoise|248\/311 slp
+|cant|p2a: Blastoise|slp
+|
+|turn|62
+|
+|move|p1a: Arcanine|Body Slam|p2a: Blastoise
+|-damage|p2a: Blastoise|185\/311 slp
+|cant|p2a: Blastoise|slp
+|-curestatus|p2a: Blastoise|slp
+|
+|turn|63
+|
+|move|p1a: Arcanine|Hyper Beam|p2a: Blastoise
+|-damage|p2a: Blastoise|73\/311
+|move|p2a: Blastoise|Surf|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|switch|p1a: Dragonite|Dragonite, L80|233\/310
+|turn|64
+|
+|move|p2a: Blastoise|Blizzard|p1a: Dragonite|[miss]
+|-miss|p2a: Blastoise
+|move|p1a: Dragonite|Body Slam|p2a: Blastoise
+|-damage|p2a: Blastoise|8\/311
+|
+|turn|65
+|
+|move|p2a: Blastoise|Blizzard|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|win|ProletarioParasito
+|raw|Ladder updating...
+|raw|poopyblanket's rating: 1210 &rarr; <strong>1177<\/strong><br \/>(-33 for losing)
+|raw|ProletarioParasito's rating: 1091 &rarr; <strong>1126<\/strong><br \/>(+35 for winning)
+|leave|poopyblanket
+|player|p1

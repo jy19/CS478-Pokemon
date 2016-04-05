@@ -1,0 +1,303 @@
+﻿|join|Jaeck
+|join|charrol
+|player|p1|Jaeck|264
+|player|p2|charrol|266
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Dratini|Dratini, L96|274\/274
+|switch|p2a: Tauros|Tauros, L79|280\/280
+|turn|1
+|c|★Jaeck|hf
+|join|stk3
+|leave|stk3
+|
+|switch|p2a: Venonat|Venonat, L96|310\/310
+|move|p1a: Dratini|Thunder Wave|p2a: Venonat
+|-status|p2a: Venonat|par
+|
+|turn|2
+|
+|move|p1a: Dratini|Substitute|p1a: Dratini
+|-start|p1a: Dratini|Substitute
+|-damage|p1a: Dratini|206\/274
+|move|p2a: Venonat|Toxic|p1a: Dratini|[miss]
+|-miss|p2a: Venonat
+|
+|turn|3
+|
+|move|p1a: Dratini|Surf|p2a: Venonat
+|-damage|p2a: Venonat|233\/310 par
+|move|p2a: Venonat|Stun Spore|p1a: Dratini
+|-status|p1a: Dratini|par
+|
+|turn|4
+|c|★Jaeck|ah ma ste plays non le conosco io
+|
+|move|p1a: Dratini|Surf|p2a: Venonat
+|-crit|p2a: Venonat
+|-damage|p2a: Venonat|71\/310 par
+|move|p2a: Venonat|Psychic|p1a: Dratini
+|-activate|p1a: Dratini|Substitute|[damage]
+|
+|turn|5
+|
+|cant|p1a: Dratini|par
+|move|p2a: Venonat|Psychic|p1a: Dratini
+|-end|p1a: Dratini|Substitute
+|
+|turn|6
+|
+|move|p1a: Dratini|Substitute|p1a: Dratini
+|-start|p1a: Dratini|Substitute
+|-damage|p1a: Dratini|138\/274 par
+|move|p2a: Venonat|Psychic|p1a: Dratini
+|-activate|p1a: Dratini|Substitute|[damage]
+|
+|turn|7
+|
+|cant|p1a: Dratini|par
+|move|p2a: Venonat|Psychic|p1a: Dratini
+|-end|p1a: Dratini|Substitute
+|
+|turn|8
+|
+|move|p1a: Dratini|Substitute|p1a: Dratini
+|-start|p1a: Dratini|Substitute
+|-damage|p1a: Dratini|70\/274 par
+|move|p2a: Venonat|Psychic|p1a: Dratini
+|-activate|p1a: Dratini|Substitute|[damage]
+|
+|turn|9
+|
+|move|p1a: Dratini|Surf|p2a: Venonat
+|-damage|p2a: Venonat|0 fnt
+|faint|p2a: Venonat
+|
+|switch|p2a: Jigglypuff|Jigglypuff, L99|428\/428
+|turn|10
+|
+|move|p2a: Jigglypuff|Bubble Beam|p1a: Dratini
+|-resisted|p1a: Dratini
+|-end|p1a: Dratini|Substitute
+|cant|p1a: Dratini|par
+|
+|turn|11
+|
+|move|p2a: Jigglypuff|Bubble Beam|p1a: Dratini
+|-resisted|p1a: Dratini
+|-damage|p1a: Dratini|51\/274 par
+|move|p1a: Dratini|Thunder Wave|p2a: Jigglypuff
+|-status|p2a: Jigglypuff|par
+|
+|turn|12
+|
+|move|p1a: Dratini|Surf|p2a: Jigglypuff
+|-damage|p2a: Jigglypuff|339\/428 par
+|move|p2a: Jigglypuff|Bubble Beam|p1a: Dratini
+|-resisted|p1a: Dratini
+|-damage|p1a: Dratini|33\/274 par
+|
+|turn|13
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|293\/293
+|move|p1a: Dratini|Hyper Beam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|172\/293
+|
+|turn|14
+|-mustrecharge|p1a: Dratini
+|-mustrecharge|p1a: Dratini
+|
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|293\/293
+|cant|p1a: Dratini|recharge
+|
+|turn|15
+|c|★charrol|peccato per il set di merda
+|c|★Jaeck|si ma tu ha gli uber
+|
+|move|p2a: Mewtwo|Psychic|p1a: Dratini
+|-damage|p1a: Dratini|0 fnt
+|faint|p1a: Dratini
+|c|★charrol|ha tipo recover + rest
+|
+|switch|p1a: Jynx|Jynx, L79|265\/265
+|turn|16
+|
+|switch|p2a: Jigglypuff|Jigglypuff, L99|339\/428 par
+|move|p1a: Jynx|Blizzard|p2a: Jigglypuff
+|-damage|p2a: Jigglypuff|166\/428 par
+|
+|turn|17
+|
+|move|p1a: Jynx|Blizzard|p2a: Jigglypuff
+|-damage|p2a: Jigglypuff|0 fnt
+|faint|p2a: Jigglypuff
+|
+|switch|p2a: Electrode|Electrode, L90|291\/291
+|turn|18
+|
+|switch|p1a: Paras|Paras, L96|262\/262
+|move|p2a: Electrode|Thunderbolt|p1a: Paras
+|-resisted|p1a: Paras
+|-damage|p1a: Paras|208\/262
+|
+|turn|19
+|
+|switch|p2a: Golbat|Golbat, L90|318\/318
+|move|p1a: Paras|Swords Dance|p1a: Paras
+|-boost|p1a: Paras|atk|2
+|
+|turn|20
+|
+|switch|p1a: Articuno|Articuno, L79|304\/304
+|move|p2a: Golbat|Confuse Ray|p1a: Articuno
+|-start|p1a: Articuno|confusion
+|
+|turn|21
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|293\/293
+|switch|p1a: Lickitung|Lickitung, L90|345\/345
+|
+|turn|22
+|
+|move|p2a: Mewtwo|Thunder Wave|p1a: Lickitung
+|-status|p1a: Lickitung|par
+|move|p1a: Lickitung|Body Slam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|203\/293
+|
+|turn|23
+|
+|move|p2a: Mewtwo|Psychic|p1a: Lickitung
+|-damage|p1a: Lickitung|234\/345 par
+|move|p1a: Lickitung|Body Slam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|113\/293
+|-status|p2a: Mewtwo|par
+|
+|turn|24
+|
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|259\/293 par
+|move|p1a: Lickitung|Swords Dance|p1a: Lickitung
+|-boost|p1a: Lickitung|atk|2
+|
+|turn|25
+|
+|switch|p2a: Electrode|Electrode, L90|291\/291
+|cant|p1a: Lickitung|par
+|
+|turn|26
+|
+|move|p2a: Electrode|Reflect|p2a: Electrode
+|-start|p2a: Electrode|Reflect
+|move|p1a: Lickitung|Earthquake|p2a: Electrode
+|-supereffective|p2a: Electrode
+|-damage|p2a: Electrode|157\/291
+|
+|turn|27
+|
+|move|p2a: Electrode|Thunderbolt|p1a: Lickitung
+|-damage|p1a: Lickitung|114\/345 par
+|move|p1a: Lickitung|Hyper Beam|p2a: Electrode
+|-damage|p2a: Electrode|25\/291
+|
+|turn|28
+|-mustrecharge|p1a: Lickitung
+|c|★Jaeck|ah in rby non c'è lo stab
+|c|★charrol|lol
+|c|★Jaeck|che roba ignobile
+|-mustrecharge|p1a: Lickitung
+|
+|move|p2a: Electrode|Thunderbolt|p1a: Lickitung
+|-damage|p1a: Lickitung|0 fnt
+|faint|p1a: Lickitung
+|
+|switch|p1a: Paras|Paras, L96|208\/262
+|turn|29
+|
+|move|p2a: Electrode|Explosion|p1a: Paras
+|-damage|p1a: Paras|0 fnt
+|faint|p1a: Paras
+|faint|p2a: Electrode
+|
+|switch|p1a: Kangaskhan|Kangaskhan, L85|352\/352
+|switch|p2a: Mewtwo|Mewtwo, L70|259\/293 par
+|turn|30
+|
+|move|p1a: Kangaskhan|Body Slam|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|49\/293 par
+|move|p2a: Mewtwo|Thunder Wave|p1a: Kangaskhan
+|-status|p1a: Kangaskhan|par
+|
+|turn|31
+|
+|cant|p2a: Mewtwo|par
+|move|p1a: Kangaskhan|Body Slam|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|0 fnt
+|faint|p2a: Mewtwo
+|
+|switch|p2a: Golbat|Golbat, L90|318\/318
+|turn|32
+|
+|move|p2a: Golbat|Confuse Ray|p1a: Kangaskhan
+|-start|p1a: Kangaskhan|confusion
+|cant|p1a: Kangaskhan|par
+|
+|turn|33
+|
+|move|p2a: Golbat|Screech|p1a: Kangaskhan
+|-unboost|p1a: Kangaskhan|def|2
+|-activate|p1a: Kangaskhan|confusion
+|move|p1a: Kangaskhan|Body Slam|p2a: Golbat
+|-damage|p2a: Golbat|221\/318
+|
+|turn|34
+|
+|switch|p1a: Articuno|Articuno, L79|304\/304
+|move|p2a: Golbat|Screech|p1a: Articuno|[miss]
+|-miss|p2a: Golbat
+|
+|turn|35
+|
+|move|p2a: Golbat|Screech|p1a: Articuno
+|-unboost|p1a: Articuno|def|2
+|move|p1a: Articuno|Blizzard|p2a: Golbat
+|-crit|p2a: Golbat
+|-supereffective|p2a: Golbat
+|-damage|p2a: Golbat|0 fnt
+|faint|p2a: Golbat
+|
+|switch|p2a: Tauros|Tauros, L79|280\/280
+|turn|36
+|
+|switch|p1a: Kangaskhan|Kangaskhan, L85|352\/352 par
+|move|p2a: Tauros|Body Slam|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|263\/352 par
+|
+|turn|37
+|
+|move|p2a: Tauros|Body Slam|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|172\/352 par
+|move|p1a: Kangaskhan|Counter|p2a: Tauros
+|-damage|p2a: Tauros|98\/280
+|
+|turn|38
+|
+|move|p2a: Tauros|Body Slam|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|81\/352 par
+|move|p1a: Kangaskhan|Hyper Beam|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|win|Jaeck
+|c|★Jaeck|gg
+|c|★charrol|salva tu
+|leave|charrol
+|player|p2

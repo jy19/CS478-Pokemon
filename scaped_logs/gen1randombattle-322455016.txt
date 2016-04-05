@@ -1,0 +1,144 @@
+﻿|j|gen1masterrony
+|j|Bibel94
+|player|p1|gen1masterrony|163
+|player|p2|Bibel94|275
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|55038,59870,27785,22837
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Seaking|Seaking, L90|327\/327
+|switch|p2a: Hypno|Hypno, L85|318\/318
+|turn|1
+|choice|move 4|move 4
+|
+|move|p1a: Seaking|Blizzard|p2a: Hypno
+|-damage|p2a: Hypno|243\/318
+|move|p2a: Hypno|Hypnosis|p1a: Seaking|[miss]
+|-miss|p2a: Hypno
+|
+|turn|2
+|choice|move 4|move 4
+|
+|move|p1a: Seaking|Blizzard|p2a: Hypno
+|-crit|p2a: Hypno
+|-damage|p2a: Hypno|94\/318
+|move|p2a: Hypno|Hypnosis|p1a: Seaking|[miss]
+|-miss|p2a: Hypno
+|
+|turn|3
+|choice|move 3|move 4
+|
+|move|p1a: Seaking|Double-Edge|p2a: Hypno
+|-damage|p2a: Hypno|0 fnt
+|-damage|p1a: Seaking|304\/327|[from] recoil|[of] p2a: Hypno
+|faint|p2a: Hypno
+|choice||switch 5
+|
+|switch|p2a: Clefable|Clefable, L85|335\/335
+|turn|4
+|choice|move 4|move 2
+|
+|move|p1a: Seaking|Blizzard|p2a: Clefable
+|-damage|p2a: Clefable|246\/335
+|move|p2a: Clefable|Thunder|p1a: Seaking
+|-supereffective|p1a: Seaking
+|-damage|p1a: Seaking|147\/327
+|
+|turn|5
+|choice|switch 4|move 2
+|
+|switch|p1a: Hypno|Hypno, L85|318\/318
+|move|p2a: Clefable|Thunder|p1a: Hypno
+|-damage|p1a: Hypno|256\/318
+|
+|turn|6
+|choice|move 3|move 1
+|
+|move|p1a: Hypno|Hypnosis|p2a: Clefable
+|-status|p2a: Clefable|slp
+|cant|p2a: Clefable|slp
+|
+|turn|7
+|choice|move 1|move 1
+|
+|move|p1a: Hypno|Psychic|p2a: Clefable
+|-damage|p2a: Clefable|131\/335 slp
+|-curestatus|p2a: Clefable|slp
+|
+|turn|8
+|choice|move 1|move 1
+|
+|move|p1a: Hypno|Psychic|p2a: Clefable
+|-damage|p2a: Clefable|18\/335
+|move|p2a: Clefable|Sing|p1a: Hypno
+|-status|p1a: Hypno|slp
+|
+|turn|9
+|choice|move 1|move 3
+|
+|cant|p1a: Hypno|slp
+|move|p2a: Clefable|Body Slam|p1a: Hypno
+|-crit|p1a: Hypno
+|-damage|p1a: Hypno|92\/318 slp
+|
+|turn|10
+|choice|move 1|move 3
+|
+|cant|p1a: Hypno|slp
+|move|p2a: Clefable|Body Slam|p1a: Hypno
+|-damage|p1a: Hypno|1\/318 slp
+|
+|turn|11
+|choice|move 1|move 3
+|
+|-curestatus|p1a: Hypno|slp
+|move|p2a: Clefable|Body Slam|p1a: Hypno|[miss]
+|-miss|p2a: Clefable
+|
+|turn|12
+|choice|move 1|move 3
+|
+|move|p1a: Hypno|Psychic|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|choice||switch 6
+|
+|switch|p2a: Graveler|Graveler, L85|267\/267
+|turn|13
+|choice|move 4|move 3
+|
+|move|p1a: Hypno|Rest|p1a: Hypno
+|-status|p1a: Hypno|slp
+|-heal|p1a: Hypno|318\/318 slp|[silent]
+|-status|p1a: Hypno|slp|[from] move: Rest
+|move|p2a: Graveler|Body Slam|p1a: Hypno
+|-damage|p1a: Hypno|253\/318 slp
+|
+|turn|14
+|choice|switch 4|move 1
+|
+|switch|p1a: Seaking|Seaking, L90|147\/327
+|move|p2a: Graveler|Earthquake|p1a: Seaking
+|-damage|p1a: Seaking|31\/327
+|
+|turn|15
+|choice|move 1|move 3
+|
+|move|p1a: Seaking|Surf|p2a: Graveler
+|-supereffective|p2a: Graveler
+|-damage|p2a: Graveler|0 fnt
+|faint|p2a: Graveler
+|-message|Bibel94 forfeited.
+|
+|win|gen1masterrony
+|player|p1
+|player|p2
+|l|Bibel94
+|raw|gen1masterrony's rating: 1104 &rarr; <strong>1123<\/strong><br \/>(+19 for winning)
+|raw|Bibel94's rating: 1017 &rarr; <strong>1008<\/strong><br \/>(-9 for losing)

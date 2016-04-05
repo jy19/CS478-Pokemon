@@ -1,0 +1,651 @@
+﻿|J|KristophV
+|J|Disaster Area
+|player|p1|KristophV|kristophv.png
+|player|p2|Disaster Area|32
+|gametype|singles
+|gen|1
+|tier|Violet Version
+|clearpoke
+|poke|p1|Moltres
+|poke|p1|Aerodactyl
+|poke|p1|Chansey
+|poke|p1|Starmie
+|poke|p1|Exeggutor
+|poke|p1|Butterfree
+|poke|p2|Golem
+|poke|p2|Gengar
+|poke|p2|Exeggutor
+|poke|p2|Chansey
+|poke|p2|Tauros
+|poke|p2|Ninetales
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|c|★Disaster Area|gl hf
+|c|★KristophV|you too
+|
+|start
+|switch|p1a: Starmie|Starmie|323\/323
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|1
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Starmie|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|turn|2
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|cant|p2a: Chansey|par
+|
+|turn|3
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|move|p1a: Chansey|Thunderbolt|p2a: Gengar
+|-damage|p2a: Gengar|261\/323
+|
+|turn|4
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|move|p2a: Gengar|Hypnosis|p1a: Starmie|[miss]
+|-miss|p2a: Gengar
+|
+|turn|5
+|
+|switch|p2a: Chansey|Chansey|703\/703 par
+|move|p1a: Starmie|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|607\/703 par
+|
+|turn|6
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|cant|p2a: Chansey|par
+|
+|turn|7
+|
+|move|p1a: Chansey|Sing|p2a: Chansey
+|-fail|p2a: Chansey
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703 par
+|
+|turn|8
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|switch|p2a: Ninetales|Ninetales|349\/349
+|
+|turn|9
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Ninetales|Fire Spin|p1a: Chansey
+|-damage|p1a: Chansey|667\/703
+|-activate|p1a: Chansey|move: Fire Spin|[of] p2a: Ninetales
+|
+|turn|10
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|switch|p1a: Starmie|Starmie|323\/323
+|
+|turn|11
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Exeggutor|Toxic|p1a: Exeggutor
+|-status|p1a: Exeggutor|tox
+|
+|turn|12
+|
+|move|p1a: Exeggutor|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|338\/393
+|-unboost|p2a: Exeggutor|spd|1
+|-unboost|p2a: Exeggutor|spa|1
+|-damage|p1a: Exeggutor|369\/393 tox|[from] tox|[of] p2a: Exeggutor
+|move|p2a: Exeggutor|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|334\/393 tox
+|-unboost|p1a: Exeggutor|spd|1
+|-unboost|p1a: Exeggutor|spa|1
+|
+|turn|13
+|
+|switch|p2a: Chansey|Chansey|703\/703 par
+|switch|p1a: Starmie|Starmie|323\/323
+|
+|turn|14
+|
+|switch|p1a: Chansey|Chansey|667\/703
+|switch|p2a: Gengar|Gengar|261\/323
+|
+|turn|15
+|
+|move|p2a: Gengar|Hypnosis|p1a: Chansey
+|-status|p1a: Chansey|slp
+|cant|p1a: Chansey|slp
+|-curestatus|p1a: Chansey|slp
+|
+|turn|16
+|
+|move|p2a: Gengar|Hypnosis|p1a: Chansey
+|-status|p1a: Chansey|slp
+|cant|p1a: Chansey|slp
+|
+|turn|17
+|
+|switch|p1a: Butterfree|Butterfree|343\/343
+|move|p2a: Gengar|Psychic|p1a: Butterfree
+|-crit|p1a: Butterfree
+|-resisted|p1a: Butterfree
+|-damage|p1a: Butterfree|253\/343
+|
+|turn|18
+|
+|switch|p2a: Ninetales|Ninetales|349\/349
+|move|p1a: Butterfree|Sleep Powder|p2a: Ninetales
+|-status|p2a: Ninetales|slp
+|
+|turn|19
+|
+|switch|p2a: Golem|Golem|363\/363
+|move|p1a: Butterfree|Leech Life|p2a: Golem
+|-damage|p2a: Golem|320\/363
+|-heal|p1a: Butterfree|296\/343|[from] drain|[of] p2a: Golem
+|
+|turn|20
+|
+|switch|p1a: Exeggutor|Exeggutor|334\/393 tox
+|-status|p1a: Exeggutor|psn
+|-damage|p1a: Exeggutor|310\/393 psn|[from] psn
+|move|p2a: Golem|Toxic|p1a: Exeggutor
+|-fail|p1a: Exeggutor
+|
+|turn|21
+|c|★Disaster Area|!
+|
+|switch|p2a: Exeggutor|Exeggutor|338\/393
+|move|p1a: Exeggutor|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|283\/393
+|-damage|p1a: Exeggutor|286\/393 psn|[from] psn|[of] p2a: Exeggutor
+|
+|turn|22
+|
+|move|p1a: Exeggutor|Stun Spore|p2a: Exeggutor
+|-status|p2a: Exeggutor|par
+|-damage|p1a: Exeggutor|262\/393 psn|[from] psn|[of] p2a: Exeggutor
+|move|p2a: Exeggutor|Mega Drain|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|239\/393 psn
+|-heal|p2a: Exeggutor|306\/393 par|[from] drain|[of] p1a: Exeggutor
+|
+|turn|23
+|
+|move|p1a: Exeggutor|Psychic|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|212\/393 par
+|-damage|p1a: Exeggutor|215\/393 psn|[from] psn|[of] p2a: Exeggutor
+|cant|p2a: Exeggutor|par
+|
+|turn|24
+|
+|switch|p1a: Butterfree|Butterfree|296\/343
+|move|p2a: Exeggutor|Mega Drain|p1a: Butterfree
+|-resisted|p1a: Butterfree
+|-damage|p1a: Butterfree|266\/343
+|-heal|p2a: Exeggutor|242\/393 par|[from] drain|[of] p1a: Butterfree
+|
+|turn|25
+|
+|switch|p2a: Chansey|Chansey|703\/703 par
+|move|p1a: Butterfree|Solar Beam|p2a: Chansey|[still]
+|-prepare|p1a: Butterfree|Solar Beam|p2a: Chansey
+|-boost|p1a: Butterfree|spa|1
+|-boost|p1a: Butterfree|spd|1
+|
+|turn|26
+|
+|move|p1a: Butterfree|Solar Beam|p2a: Chansey
+|-damage|p2a: Chansey|597\/703 par
+|move|p2a: Chansey|Toxic|p1a: Butterfree
+|-status|p1a: Butterfree|tox
+|
+|turn|27
+|
+|move|p1a: Butterfree|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|450\/703 par
+|-damage|p1a: Butterfree|245\/343 tox|[from] tox|[of] p2a: Chansey
+|move|p2a: Chansey|Reflect|p2a: Chansey
+|-start|p2a: Chansey|Reflect
+|
+|turn|28
+|
+|move|p1a: Butterfree|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|303\/703 par
+|-damage|p1a: Butterfree|203\/343 tox|[from] tox|[of] p2a: Chansey
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|654\/703 par
+|
+|turn|29
+|c|★Disaster Area|toxic chansey
+|
+|switch|p1a: Chansey|Chansey|667\/703 slp
+|move|p2a: Chansey|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|567\/703 slp
+|
+|turn|30
+|c|★Disaster Area|thoughts?
+|c|★KristophV|not sure, seems interesting with reflect though
+|c|★Disaster Area|:]
+|c|★Disaster Area|also toxic golem
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|switch|p2a: Tauros|Tauros|353\/353
+|
+|turn|31
+|c|★Disaster Area|honestly tho
+|c|★Disaster Area|only tauros's set
+|c|★Disaster Area|is 'standard'
+|J|Nanako chan
+|
+|switch|p1a: Exeggutor|Exeggutor|215\/393 psn
+|-damage|p1a: Exeggutor|191\/393 psn|[from] psn
+|switch|p2a: Chansey|Chansey|654\/703 par
+|
+|turn|32
+|
+|switch|p2a: Exeggutor|Exeggutor|242\/393 par
+|move|p1a: Exeggutor|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|186\/393 par
+|-damage|p1a: Exeggutor|167\/393 psn|[from] psn|[of] p2a: Exeggutor
+|
+|turn|33
+|
+|move|p1a: Exeggutor|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|131\/393 par
+|-unboost|p2a: Exeggutor|spd|1
+|-unboost|p2a: Exeggutor|spa|1
+|-damage|p1a: Exeggutor|143\/393 psn|[from] psn|[of] p2a: Exeggutor
+|move|p2a: Exeggutor|Mega Drain|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|125\/393 psn
+|-heal|p2a: Exeggutor|149\/393 par|[from] drain|[of] p1a: Exeggutor
+|
+|turn|34
+|
+|switch|p2a: Ninetales|Ninetales|349\/349 slp
+|move|p1a: Exeggutor|Mega Drain|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|322\/349 slp
+|-heal|p1a: Exeggutor|152\/393 psn|[from] drain|[of] p2a: Ninetales
+|-damage|p1a: Exeggutor|128\/393 psn|[from] psn|[of] p2a: Ninetales
+|
+|turn|35
+|
+|cant|p2a: Ninetales|slp
+|-curestatus|p2a: Ninetales|slp
+|move|p1a: Exeggutor|Psychic|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|258\/349
+|-damage|p1a: Exeggutor|104\/393 psn|[from] psn|[of] p2a: Ninetales
+|
+|turn|36
+|c|★Disaster Area|rip
+|c|★Disaster Area|!
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|move|p2a: Ninetales|Toxic|p1a: Starmie
+|-status|p1a: Starmie|tox
+|
+|turn|37
+|c|★Disaster Area|!
+|c|★Disaster Area|these sets tho
+|c|★Disaster Area|are u impressed?
+|
+|switch|p2a: Chansey|Chansey|654\/703 par
+|move|p1a: Starmie|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|-damage|p1a: Starmie|303\/323 tox|[from] tox|[of] p2a: Chansey
+|
+|turn|38
+|c|★KristophV|toxic ninetales huh
+|c|★KristophV|toxic everything
+|
+|switch|p1a: Chansey|Chansey|567\/703 slp
+|move|p2a: Chansey|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|467\/703 slp
+|
+|turn|39
+|c|★Disaster Area|no
+|c|★Disaster Area|tauros doesn't have toxic
+|c|★Disaster Area|:^)
+|
+|switch|p1a: Butterfree|Butterfree|203\/343 tox
+|-status|p1a: Butterfree|psn
+|-damage|p1a: Butterfree|182\/343 psn|[from] psn
+|switch|p2a: Tauros|Tauros|353\/353
+|
+|turn|40
+|
+|switch|p2a: Chansey|Chansey|654\/703 par
+|switch|p1a: Moltres|Moltres|383\/383
+|
+|turn|41
+|
+|switch|p1a: Butterfree|Butterfree|182\/343 psn
+|-damage|p1a: Butterfree|161\/343 psn|[from] psn
+|move|p2a: Chansey|Seismic Toss|p1a: Butterfree
+|-damage|p1a: Butterfree|61\/343 psn
+|
+|turn|42
+|
+|move|p1a: Butterfree|Leech Life|p2a: Chansey
+|-damage|p2a: Chansey|520\/703 par
+|-heal|p1a: Butterfree|195\/343 psn|[from] drain|[of] p2a: Chansey
+|-damage|p1a: Butterfree|174\/343 psn|[from] psn|[of] p2a: Chansey
+|move|p2a: Chansey|Seismic Toss|p1a: Butterfree
+|-damage|p1a: Butterfree|74\/343 psn
+|
+|turn|43
+|
+|move|p1a: Butterfree|Leech Life|p2a: Chansey
+|-damage|p2a: Chansey|378\/703 par
+|-heal|p1a: Butterfree|216\/343 psn|[from] drain|[of] p2a: Chansey
+|-damage|p1a: Butterfree|195\/343 psn|[from] psn|[of] p2a: Chansey
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703 par
+|
+|turn|44
+|
+|move|p1a: Butterfree|Leech Life|p2a: Chansey
+|-damage|p2a: Chansey|564\/703 par
+|-heal|p1a: Butterfree|334\/343 psn|[from] drain|[of] p2a: Chansey
+|-damage|p1a: Butterfree|313\/343 psn|[from] psn|[of] p2a: Chansey
+|move|p2a: Chansey|Reflect|p2a: Chansey
+|-start|p2a: Chansey|Reflect
+|
+|turn|45
+|c|★Disaster Area|you like my team?
+|c|★Disaster Area|o also
+|c|★Disaster Area|gar doesn't ahve toxic either
+|c|★Disaster Area|xd
+|
+|move|p1a: Butterfree|Leech Life|p2a: Chansey
+|-damage|p2a: Chansey|494\/703 par
+|-heal|p1a: Butterfree|343\/343 psn|[from] drain|[of] p2a: Chansey
+|-damage|p1a: Butterfree|322\/343 psn|[from] psn|[of] p2a: Chansey
+|cant|p2a: Chansey|par
+|
+|turn|46
+|J|Austin
+|
+|switch|p1a: Chansey|Chansey|467\/703 slp
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703 par
+|
+|turn|47
+|J|chundermunch
+|c| chundermunch|TF is thi
+|c| chundermunch|this
+|c|★Disaster Area|mod of gen 1
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|cant|p1a: Chansey|slp
+|-curestatus|p1a: Chansey|slp
+|
+|turn|48
+|
+|switch|p1a: Starmie|Starmie|303\/323 tox
+|-status|p1a: Starmie|psn
+|-damage|p1a: Starmie|283\/323 psn|[from] psn
+|move|p2a: Tauros|Hyper Beam|p1a: Starmie
+|-crit|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|L|chundermunch
+|c|★Disaster Area|RIP
+|
+|switch|p1a: Aerodactyl|Aerodactyl|363\/363
+|turn|49
+|
+|move|p1a: Aerodactyl|Rock Slide|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|134\/353
+|move|p2a: Tauros|Blizzard|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|160\/363
+|
+|turn|50
+|
+|switch|p1a: Butterfree|Butterfree|322\/343 psn
+|-damage|p1a: Butterfree|301\/343 psn|[from] psn
+|switch|p2a: Golem|Golem|320\/363
+|
+|turn|51
+|
+|switch|p2a: Chansey|Chansey|703\/703 par
+|move|p1a: Butterfree|Sleep Powder|p2a: Chansey
+|-fail|p2a: Chansey
+|-damage|p1a: Butterfree|280\/343 psn|[from] psn|[of] p2a: Chansey
+|
+|turn|52
+|c|★Disaster Area|i wonder how much
+|c|★Disaster Area|tauros does to butterfree
+|
+|move|p1a: Butterfree|Solar Beam|p2a: Chansey|[still]
+|-prepare|p1a: Butterfree|Solar Beam|p2a: Chansey
+|-boost|p1a: Butterfree|spa|1
+|-boost|p1a: Butterfree|spd|1
+|-damage|p1a: Butterfree|259\/343 psn|[from] psn|[of] p2a: Chansey
+|move|p2a: Chansey|Seismic Toss|p1a: Butterfree
+|-damage|p1a: Butterfree|159\/343 psn
+|
+|turn|53
+|
+|switch|p2a: Gengar|Gengar|261\/323
+|move|p1a: Butterfree|Solar Beam|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|214\/323
+|-damage|p1a: Butterfree|138\/343 psn|[from] psn|[of] p2a: Gengar
+|
+|turn|54
+|
+|switch|p1a: Aerodactyl|Aerodactyl|160\/363
+|move|p2a: Gengar|Dream Eater|p1a: Aerodactyl
+|-immune|p1a: Aerodactyl|[msg]
+|
+|turn|55
+|
+|switch|p2a: Golem|Golem|320\/363
+|move|p1a: Aerodactyl|Soft-Boiled|p1a: Aerodactyl
+|-heal|p1a: Aerodactyl|341\/363
+|
+|turn|56
+|
+|switch|p1a: Butterfree|Butterfree|138\/343 psn
+|-damage|p1a: Butterfree|117\/343 psn|[from] psn
+|move|p2a: Golem|Rock Slide|p1a: Butterfree
+|-supereffective|p1a: Butterfree
+|-damage|p1a: Butterfree|0 fnt
+|faint|p1a: Butterfree
+|
+|switch|p1a: Exeggutor|Exeggutor|104\/393 psn
+|turn|57
+|
+|switch|p2a: Exeggutor|Exeggutor|149\/393 par
+|move|p1a: Exeggutor|Psychic|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|42\/393 par
+|-unboost|p2a: Exeggutor|spd|1
+|-unboost|p2a: Exeggutor|spa|1
+|-damage|p1a: Exeggutor|80\/393 psn|[from] psn|[of] p2a: Exeggutor
+|
+|turn|58
+|
+|switch|p2a: Chansey|Chansey|703\/703 par
+|move|p1a: Exeggutor|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|575\/703 par
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|-damage|p1a: Exeggutor|56\/393 psn|[from] psn|[of] p2a: Chansey
+|
+|turn|59
+|
+|switch|p2a: Exeggutor|Exeggutor|42\/393 par
+|move|p1a: Exeggutor|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Tauros|Tauros|134\/353
+|turn|60
+|
+|move|p2a: Tauros|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Aerodactyl|Aerodactyl|341\/363
+|turn|61
+|
+|switch|p2a: Golem|Golem|320\/363
+|move|p1a: Aerodactyl|Sky Attack|p2a: Golem|[still]
+|-prepare|p1a: Aerodactyl|Sky Attack|p2a: Golem
+|-boost|p1a: Aerodactyl|def|1
+|
+|turn|62
+|
+|move|p1a: Aerodactyl|Sky Attack|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|255\/363
+|move|p2a: Golem|Toxic|p1a: Aerodactyl
+|-status|p1a: Aerodactyl|tox
+|
+|turn|63
+|
+|move|p1a: Aerodactyl|Sky Attack|p2a: Golem|[still]
+|-prepare|p1a: Aerodactyl|Sky Attack|p2a: Golem
+|-boost|p1a: Aerodactyl|def|1
+|-damage|p1a: Aerodactyl|319\/363 tox|[from] tox|[of] p2a: Golem
+|move|p2a: Golem|Rock Slide|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|185\/363 tox
+|
+|turn|64
+|c|★Disaster Area|:]
+|
+|move|p1a: Aerodactyl|Sky Attack|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|179\/363
+|-damage|p1a: Aerodactyl|141\/363 tox|[from] tox|[of] p2a: Golem
+|move|p2a: Golem|Rock Slide|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|9\/363 tox
+|
+|turn|65
+|
+|move|p1a: Aerodactyl|Soft-Boiled|p1a: Aerodactyl
+|-heal|p1a: Aerodactyl|190\/363 tox
+|-damage|p1a: Aerodactyl|124\/363 tox|[from] psn
+|move|p2a: Golem|Rock Slide|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|0 fnt
+|faint|p1a: Aerodactyl
+|c|★Disaster Area|bad poison remember
+|c|★Disaster Area|:P
+|
+|switch|p1a: Chansey|Chansey|467\/703
+|turn|66
+|
+|switch|p1a: Moltres|Moltres|383\/383
+|move|p2a: Golem|Earthquake|p1a: Moltres
+|-immune|p1a: Moltres|[msg]
+|
+|turn|67
+|
+|move|p1a: Moltres|Solar Beam|p2a: Golem|[still]
+|-prepare|p1a: Moltres|Solar Beam|p2a: Golem
+|-boost|p1a: Moltres|spa|1
+|-boost|p1a: Moltres|spd|1
+|move|p2a: Golem|Rock Slide|p1a: Moltres
+|-crit|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|c|★Disaster Area|i was fine with it sleeping
+|c|★Disaster Area|lol
+|c|★Disaster Area|gg
+|
+|switch|p1a: Chansey|Chansey|467\/703
+|turn|68
+|c|★Disaster Area|btw
+|c|★Disaster Area|my 4th
+|c|★Disaster Area|is rest xD
+|
+|move|p1a: Chansey|Ice Beam|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|
+|switch|p2a: Gengar|Gengar|214\/323
+|turn|69
+|
+|move|p2a: Gengar|Hypnosis|p1a: Chansey|[miss]
+|-miss|p2a: Gengar
+|move|p1a: Chansey|Sing|p2a: Gengar
+|-status|p2a: Gengar|slp
+|
+|turn|70
+|
+|switch|p2a: Ninetales|Ninetales|258\/349
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703
+|
+|turn|71
+|
+|move|p2a: Ninetales|Toxic|p1a: Chansey
+|-status|p1a: Chansey|tox
+|move|p1a: Chansey|Ice Beam|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|218\/349
+|-damage|p1a: Chansey|660\/703 tox|[from] tox|[of] p2a: Ninetales
+|
+|turn|72
+|
+|move|p2a: Ninetales|Fire Blast|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|408\/703 tox
+|move|p1a: Chansey|Ice Beam|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|183\/349
+|-damage|p1a: Chansey|322\/703 tox|[from] tox|[of] p2a: Ninetales
+|
+|turn|73
+|
+|move|p2a: Ninetales|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|223\/703 tox
+|move|p1a: Chansey|Ice Beam|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|143\/349
+|-damage|p1a: Chansey|94\/703 tox|[from] tox|[of] p2a: Ninetales
+|
+|turn|74
+|c|★Disaster Area|gg
+|c|★Disaster Area|my gar is the
+|c|★Disaster Area|dream eater psychic mdrain one
+|c|★Disaster Area|btw
+|c|★Disaster Area|:]
+|
+|switch|p2a: Tauros|Tauros|134\/353
+|move|p1a: Chansey|Ice Beam|p2a: Tauros
+|-damage|p2a: Tauros|31\/353
+|-damage|p1a: Chansey|0 fnt|[from] tox|[of] p2a: Tauros
+|faint|p1a: Chansey
+|
+|win|Disaster Area
+|c|★KristophV|gg
+|c|★Disaster Area|long match but

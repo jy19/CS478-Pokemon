@@ -1,0 +1,285 @@
+﻿|join|Princess Bonnibel
+|join|agentww12345
+|player|p1|Princess Bonnibel|100
+|player|p2|agentww12345|101
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|28128,30817,24040,60110
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Omanyte|Omanyte, L96|262\/262
+|switch|p2a: Gastly|Gastly, L96|252\/252
+|turn|1
+|choice|move 3|move 2
+|
+|move|p2a: Gastly|Thunderbolt|p1a: Omanyte
+|-supereffective|p1a: Omanyte
+|-damage|p1a: Omanyte|102\/262
+|move|p1a: Omanyte|Mimic|p2a: Gastly
+|-start|p1a: Omanyte|Mimic|Mega Drain
+|
+|turn|2
+|choice|switch 4|move 2
+|
+|switch|p1a: Metapod|Metapod, L99|300\/300
+|move|p2a: Gastly|Thunderbolt|p1a: Metapod
+|-damage|p1a: Metapod|168\/300
+|
+|turn|3
+|c|★agentww12345|Meatsack?
+|choice|move 1|move 3
+|
+|move|p2a: Gastly|Psychic|p1a: Metapod
+|-damage|p1a: Metapod|44\/300
+|-unboost|p1a: Metapod|spd|1
+|-unboost|p1a: Metapod|spa|1
+|move|p1a: Metapod|String Shot|p2a: Gastly|[miss]
+|-miss|p1a: Metapod
+|
+|turn|4
+|choice|move 1|move 3
+|
+|move|p2a: Gastly|Psychic|p1a: Metapod
+|-damage|p1a: Metapod|0 fnt
+|faint|p1a: Metapod
+|choice|switch 6|
+|
+|switch|p1a: Lickitung|Lickitung, L90|345\/345
+|turn|5
+|choice|move 3|move 1
+|
+|move|p2a: Gastly|Hypnosis|p1a: Lickitung
+|-status|p1a: Lickitung|slp
+|cant|p1a: Lickitung|slp
+|
+|turn|6
+|choice|move 3|move 3
+|
+|move|p2a: Gastly|Psychic|p1a: Lickitung
+|-damage|p1a: Lickitung|245\/345 slp
+|-unboost|p1a: Lickitung|spd|1
+|-unboost|p1a: Lickitung|spa|1
+|cant|p1a: Lickitung|slp
+|
+|turn|7
+|choice|switch 4|move 2
+|
+|switch|p1a: Omanyte|Omanyte, L96|102\/262
+|move|p2a: Gastly|Thunderbolt|p1a: Omanyte
+|-supereffective|p1a: Omanyte
+|-damage|p1a: Omanyte|0 fnt
+|faint|p1a: Omanyte
+|choice|switch 5|
+|
+|switch|p1a: Jolteon|Jolteon, L79|265\/265
+|turn|8
+|choice|move 1|move 3
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Gastly
+|-crit|p2a: Gastly
+|-damage|p2a: Gastly|109\/252
+|move|p2a: Gastly|Psychic|p1a: Jolteon
+|-damage|p1a: Jolteon|194\/265
+|
+|turn|9
+|choice|move 1|switch 3
+|
+|switch|p2a: Exeggcute|Exeggcute, L96|310\/310
+|move|p1a: Jolteon|Thunderbolt|p2a: Exeggcute
+|-crit|p2a: Exeggcute
+|-resisted|p2a: Exeggcute
+|-damage|p2a: Exeggcute|208\/310
+|
+|turn|10
+|choice|switch 3|move 3
+|
+|switch|p1a: Dragonite|Dragonite, L85|328\/328
+|move|p2a: Exeggcute|Explosion|p1a: Dragonite
+|-damage|p1a: Dragonite|155\/328
+|faint|p2a: Exeggcute
+|choice||switch 5
+|
+|switch|p2a: Dragonite|Dragonite, L85|328\/328
+|turn|11
+|choice|move 4|move 1
+|
+|move|p1a: Dragonite|Blizzard|p2a: Dragonite|[miss]
+|-miss|p1a: Dragonite
+|move|p2a: Dragonite|Thunder Wave|p1a: Dragonite
+|-status|p1a: Dragonite|par
+|
+|turn|12
+|choice|move 4|move 2
+|
+|move|p2a: Dragonite|Blizzard|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|choice|switch 2|
+|
+|switch|p1a: Bellsprout|Bellsprout, L96|291\/291
+|turn|13
+|choice|move 1|move 2
+|
+|move|p2a: Dragonite|Blizzard|p1a: Bellsprout
+|-supereffective|p1a: Bellsprout
+|-damage|p1a: Bellsprout|112\/291
+|move|p1a: Bellsprout|Sleep Powder|p2a: Dragonite|[miss]
+|-miss|p1a: Bellsprout
+|
+|turn|14
+|choice|move 1|move 2
+|
+|move|p2a: Dragonite|Blizzard|p1a: Bellsprout
+|-supereffective|p1a: Bellsprout
+|-damage|p1a: Bellsprout|0 fnt
+|faint|p1a: Bellsprout
+|join|6tennis
+|leave|6tennis
+|choice|switch 3|
+|
+|switch|p1a: Jolteon|Jolteon, L79|194\/265
+|turn|15
+|join|Nebulous (Weavile)
+|choice|move 1|move 3
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Dragonite
+|-damage|p2a: Dragonite|239\/328
+|move|p2a: Dragonite|Surf|p1a: Jolteon
+|-damage|p1a: Jolteon|129\/265
+|
+|turn|16
+|join|super d 456
+|choice|move 4|move 2
+|
+|move|p1a: Jolteon|Sand Attack|p2a: Dragonite
+|-unboost|p2a: Dragonite|accuracy|1
+|move|p2a: Dragonite|Blizzard|p1a: Jolteon|[miss]
+|-miss|p2a: Dragonite
+|
+|turn|17
+|leave|super d 456
+|choice|move 2|switch 2
+|
+|switch|p2a: Chansey|Chansey, L79|557\/557
+|move|p1a: Jolteon|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|turn|18
+|choice|move 3|move 3
+|
+|move|p1a: Jolteon|Double Kick|p2a: Chansey
+|-crit|p2a: Chansey
+|-supereffective|p2a: Chansey
+|-damage|p2a: Chansey|412\/557 par
+|-damage|p2a: Chansey|267\/557 par
+|-hitcount|p2a: Chansey|2
+|move|p2a: Chansey|Thunder Wave|p1a: Jolteon
+|-status|p1a: Jolteon|par
+|
+|turn|19
+|join|sebas0269
+|choice|move 3|move 4
+|
+|move|p1a: Jolteon|Double Kick|p2a: Chansey
+|-supereffective|p2a: Chansey
+|-damage|p2a: Chansey|184\/557 par
+|-damage|p2a: Chansey|101\/557 par
+|-hitcount|p2a: Chansey|2
+|move|p2a: Chansey|Counter|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|c| sebas0269|licky
+|c| sebas0269|yiyi
+|leave|sebas0269
+|choice|switch 4|
+|
+|switch|p1a: Lickitung|Lickitung, L90|245\/345 slp
+|turn|20
+|choice|move 2|move 2
+|
+|cant|p1a: Lickitung|slp
+|cant|p2a: Chansey|par
+|
+|turn|21
+|choice|move 2|move 2
+|
+|-curestatus|p1a: Lickitung|slp
+|move|p2a: Chansey|Reflect|p2a: Chansey
+|-start|p2a: Chansey|Reflect
+|
+|turn|22
+|choice|move 2|move 3
+|
+|move|p1a: Lickitung|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|choice||switch 3
+|
+|switch|p2a: Gastly|Gastly, L96|109\/252
+|turn|23
+|choice|move 3|move 1
+|
+|move|p2a: Gastly|Hypnosis|p1a: Lickitung
+|-status|p1a: Lickitung|slp
+|-curestatus|p1a: Lickitung|slp
+|
+|turn|24
+|choice|move 3|move 1
+|
+|move|p2a: Gastly|Hypnosis|p1a: Lickitung
+|-status|p1a: Lickitung|slp
+|cant|p1a: Lickitung|slp
+|
+|turn|25
+|choice|move 3|move 4
+|
+|move|p2a: Gastly|Mega Drain|p1a: Lickitung
+|-crit|p1a: Lickitung
+|-damage|p1a: Lickitung|164\/345 slp
+|-heal|p2a: Gastly|149\/252|[from] drain|[of] p1a: Lickitung
+|cant|p1a: Lickitung|slp
+|
+|turn|26
+|choice|move 3|move 4
+|
+|move|p2a: Gastly|Mega Drain|p1a: Lickitung
+|-damage|p1a: Lickitung|123\/345 slp
+|-heal|p2a: Gastly|169\/252|[from] drain|[of] p1a: Lickitung
+|cant|p1a: Lickitung|slp
+|
+|turn|27
+|choice|move 3|move 3
+|
+|move|p2a: Gastly|Psychic|p1a: Lickitung
+|-damage|p1a: Lickitung|20\/345 slp
+|-curestatus|p1a: Lickitung|slp
+|
+|turn|28
+|choice|move 3|move 1
+|
+|move|p2a: Gastly|Hypnosis|p1a: Lickitung
+|-status|p1a: Lickitung|slp
+|cant|p1a: Lickitung|slp
+|
+|turn|29
+|choice|move 3|move 4
+|
+|move|p2a: Gastly|Mega Drain|p1a: Lickitung
+|-damage|p1a: Lickitung|0 fnt
+|-heal|p2a: Gastly|179\/252|[from] drain|[of] p1a: Lickitung
+|faint|p1a: Lickitung
+|
+|win|agentww12345
+|c|★agentww12345|gg
+|c|★Princess Bonnibel|gg
+|leave|Princess Bonnibel
+|player|p1
+|raw|Princess Bonnibel's rating: 1000 &rarr; <strong>1000<\/strong><br \/>(+0 for losing)
+|raw|agentww12345's rating: 1019 &rarr; <strong>1054<\/strong><br \/>(+35 for winning)

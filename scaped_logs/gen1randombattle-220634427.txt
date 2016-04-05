@@ -1,0 +1,323 @@
+﻿|join|gen 1 is homo
+|join|daw523
+|player|p1|gen 1 is homo|102
+|player|p2|daw523|1
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Dodrio|Dodrio, L85|276\/276
+|switch|p2a: Rhyhorn|Rhyhorn, L96|348\/348
+|turn|1
+|
+|switch|p1a: Starmie|Starmie, L79|257\/257
+|move|p2a: Rhyhorn|Rock Slide|p1a: Starmie
+|-damage|p1a: Starmie|157\/257
+|
+|turn|2
+|
+|switch|p2a: Beedrill|Beedrill, L85|284\/284
+|move|p1a: Starmie|Blizzard|p2a: Beedrill
+|-crit|p2a: Beedrill
+|-damage|p2a: Beedrill|63\/284
+|
+|turn|3
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Beedrill
+|-damage|p2a: Beedrill|0 fnt
+|faint|p2a: Beedrill
+|
+|switch|p2a: Kadabra|Kadabra, L85|242\/242
+|turn|4
+|
+|switch|p1a: Onix|Onix, L85|233\/233
+|move|p2a: Kadabra|Thunder Wave|p1a: Onix
+|-immune|p1a: Onix|[msg]
+|
+|turn|5
+|
+|switch|p2a: Wigglytuff|Wigglytuff, L85|412\/412
+|move|p1a: Onix|Earthquake|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|317\/412
+|
+|turn|6
+|
+|switch|p1a: Pidgey|Pidgey, L96|272\/272
+|move|p2a: Wigglytuff|Bubble Beam|p1a: Pidgey
+|-damage|p1a: Pidgey|222\/272
+|-unboost|p1a: Pidgey|spe|1
+|
+|turn|7
+|
+|move|p2a: Wigglytuff|Thunder Wave|p1a: Pidgey
+|-status|p1a: Pidgey|par
+|move|p1a: Pidgey|Double-Edge|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|195\/412
+|-damage|p1a: Pidgey|192\/272 par|[from] recoil|[of] p2a: Wigglytuff
+|
+|turn|8
+|
+|move|p2a: Wigglytuff|Blizzard|p1a: Pidgey
+|-supereffective|p1a: Pidgey
+|-damage|p1a: Pidgey|32\/272 par
+|cant|p1a: Pidgey|par
+|
+|turn|9
+|
+|move|p2a: Wigglytuff|Bubble Beam|p1a: Pidgey
+|-damage|p1a: Pidgey|0 fnt
+|faint|p1a: Pidgey
+|
+|switch|p1a: Machoke|Machoke, L85|310\/310
+|turn|10
+|
+|move|p1a: Machoke|Submission|p2a: Wigglytuff
+|-supereffective|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|0 fnt
+|-damage|p1a: Machoke|262\/310|[from] recoil|[of] p2a: Wigglytuff
+|faint|p2a: Wigglytuff
+|
+|switch|p2a: Rhyhorn|Rhyhorn, L96|348\/348
+|turn|11
+|
+|switch|p1a: Starmie|Starmie, L79|157\/257
+|move|p2a: Rhyhorn|Earthquake|p1a: Starmie
+|-damage|p1a: Starmie|28\/257
+|
+|turn|12
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|156\/257
+|move|p2a: Rhyhorn|Earthquake|p1a: Starmie
+|-damage|p1a: Starmie|17\/257
+|
+|turn|13
+|
+|switch|p2a: Kadabra|Kadabra, L85|242\/242
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|145\/257
+|
+|turn|14
+|
+|move|p2a: Kadabra|Seismic Toss|p1a: Starmie
+|-damage|p1a: Starmie|60\/257
+|move|p1a: Starmie|Thunder Wave|p2a: Kadabra
+|-status|p2a: Kadabra|par
+|
+|turn|15
+|
+|switch|p1a: Onix|Onix, L85|233\/233
+|move|p2a: Kadabra|Thunder Wave|p1a: Onix
+|-immune|p1a: Onix|[msg]
+|
+|turn|16
+|
+|switch|p2a: Kabutops|Kabutops, L85|276\/276
+|move|p1a: Onix|Earthquake|p2a: Kabutops
+|-supereffective|p2a: Kabutops
+|-damage|p2a: Kabutops|147\/276
+|
+|turn|17
+|
+|switch|p1a: Dragonair|Dragonair, L85|277\/277
+|move|p2a: Kabutops|Surf|p1a: Dragonair
+|-resisted|p1a: Dragonair
+|-damage|p1a: Dragonair|227\/277
+|
+|turn|18
+|
+|switch|p2a: Raticate|Raticate, L85|267\/267
+|move|p1a: Dragonair|Thunderbolt|p2a: Raticate
+|-damage|p2a: Raticate|195\/267
+|
+|turn|19
+|
+|move|p2a: Raticate|Blizzard|p1a: Dragonair|[miss]
+|-miss|p2a: Raticate
+|move|p1a: Dragonair|Thunder Wave|p2a: Raticate
+|-status|p2a: Raticate|par
+|
+|turn|20
+|
+|move|p1a: Dragonair|Thunderbolt|p2a: Raticate
+|-damage|p2a: Raticate|121\/267 par
+|cant|p2a: Raticate|par
+|
+|turn|21
+|
+|move|p1a: Dragonair|Thunderbolt|p2a: Raticate
+|-damage|p2a: Raticate|47\/267 par
+|move|p2a: Raticate|Blizzard|p1a: Dragonair
+|-supereffective|p1a: Dragonair
+|-damage|p1a: Dragonair|89\/277
+|
+|turn|22
+|
+|move|p1a: Dragonair|Thunderbolt|p2a: Raticate
+|-crit|p2a: Raticate
+|-damage|p2a: Raticate|0 fnt
+|faint|p2a: Raticate
+|
+|switch|p2a: Kabutops|Kabutops, L85|147\/276
+|turn|23
+|
+|move|p2a: Kabutops|Hyper Beam|p1a: Dragonair
+|-damage|p1a: Dragonair|0 fnt
+|faint|p1a: Dragonair
+|
+|switch|p1a: Machoke|Machoke, L85|262\/310
+|turn|24
+|
+|move|p2a: Kabutops|Swords Dance|p2a: Kabutops
+|-boost|p2a: Kabutops|atk|2
+|move|p1a: Machoke|Submission|p2a: Kabutops
+|-supereffective|p2a: Kabutops
+|-damage|p2a: Kabutops|0 fnt
+|-damage|p1a: Machoke|226\/310|[from] recoil|[of] p2a: Kabutops
+|faint|p2a: Kabutops
+|
+|switch|p2a: Rhyhorn|Rhyhorn, L96|348\/348
+|turn|25
+|
+|move|p1a: Machoke|Submission|p2a: Rhyhorn
+|-supereffective|p2a: Rhyhorn
+|-damage|p2a: Rhyhorn|211\/348
+|-damage|p1a: Machoke|192\/310|[from] recoil|[of] p2a: Rhyhorn
+|move|p2a: Rhyhorn|Earthquake|p1a: Machoke
+|-damage|p1a: Machoke|46\/310
+|
+|turn|26
+|
+|move|p1a: Machoke|Body Slam|p2a: Rhyhorn
+|-resisted|p2a: Rhyhorn
+|-damage|p2a: Rhyhorn|185\/348
+|move|p2a: Rhyhorn|Earthquake|p1a: Machoke
+|-damage|p1a: Machoke|0 fnt
+|faint|p1a: Machoke
+|
+|switch|p1a: Starmie|Starmie, L79|60\/257
+|turn|27
+|
+|switch|p2a: Kadabra|Kadabra, L85|242\/242 par
+|move|p1a: Starmie|Blizzard|p2a: Kadabra
+|-damage|p2a: Kadabra|183\/242 par
+|
+|turn|28
+|
+|switch|p1a: Onix|Onix, L85|233\/233
+|move|p2a: Kadabra|Reflect|p2a: Kadabra
+|-start|p2a: Kadabra|Reflect
+|
+|turn|29
+|
+|move|p1a: Onix|Earthquake|p2a: Kadabra
+|-damage|p2a: Kadabra|125\/242 par
+|move|p2a: Kadabra|Seismic Toss|p1a: Onix
+|-damage|p1a: Onix|148\/233
+|
+|turn|30
+|
+|move|p1a: Onix|Earthquake|p2a: Kadabra
+|-damage|p2a: Kadabra|63\/242 par
+|move|p2a: Kadabra|Recover|p2a: Kadabra
+|-heal|p2a: Kadabra|184\/242 par
+|
+|turn|31
+|
+|move|p1a: Onix|Earthquake|p2a: Kadabra
+|-damage|p2a: Kadabra|120\/242 par
+|move|p2a: Kadabra|Recover|p2a: Kadabra
+|-heal|p2a: Kadabra|241\/242 par
+|
+|turn|32
+|
+|move|p1a: Onix|Earthquake|p2a: Kadabra
+|-damage|p2a: Kadabra|179\/242 par
+|move|p2a: Kadabra|Seismic Toss|p1a: Onix
+|-damage|p1a: Onix|63\/233
+|
+|turn|33
+|
+|move|p1a: Onix|Explosion|p2a: Kadabra
+|-crit|p2a: Kadabra
+|-damage|p2a: Kadabra|0 fnt
+|faint|p2a: Kadabra
+|faint|p1a: Onix
+|
+|switch|p1a: Dodrio|Dodrio, L85|276\/276
+|switch|p2a: Rhyhorn|Rhyhorn, L96|185\/348
+|turn|34
+|
+|move|p1a: Dodrio|Body Slam|p2a: Rhyhorn
+|-resisted|p2a: Rhyhorn
+|-damage|p2a: Rhyhorn|146\/348
+|move|p2a: Rhyhorn|Rock Slide|p1a: Dodrio
+|-supereffective|p1a: Dodrio
+|-damage|p1a: Dodrio|66\/276
+|
+|turn|35
+|
+|move|p1a: Dodrio|Hyper Beam|p2a: Rhyhorn|[miss]
+|-miss|p1a: Dodrio
+|move|p2a: Rhyhorn|Substitute|p2a: Rhyhorn
+|-start|p2a: Rhyhorn|Substitute
+|-damage|p2a: Rhyhorn|59\/348
+|
+|turn|36
+|
+|move|p1a: Dodrio|Hyper Beam|p2a: Rhyhorn|[miss]
+|-miss|p1a: Dodrio
+|move|p2a: Rhyhorn|Rock Slide|p1a: Dodrio
+|-supereffective|p1a: Dodrio
+|-damage|p1a: Dodrio|0 fnt
+|faint|p1a: Dodrio
+|
+|switch|p1a: Starmie|Starmie, L79|60\/257
+|turn|37
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|188\/257
+|move|p2a: Rhyhorn|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|116\/257
+|
+|turn|38
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|244\/257
+|move|p2a: Rhyhorn|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|167\/257
+|
+|turn|39
+|
+|move|p1a: Starmie|Blizzard|p2a: Rhyhorn|[miss]
+|-miss|p1a: Starmie
+|move|p2a: Rhyhorn|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|94\/257
+|
+|turn|40
+|
+|move|p1a: Starmie|Blizzard|p2a: Rhyhorn
+|-supereffective|p2a: Rhyhorn
+|-end|p2a: Rhyhorn|Substitute
+|move|p2a: Rhyhorn|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|19\/257
+|-status|p1a: Starmie|par
+|
+|turn|41
+|
+|move|p2a: Rhyhorn|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|win|daw523
+|raw|Ladder updating...
+|c|★daw523|COME BACK!!!!!!!!!!!!!!!!!!!!!! gg
+|raw|gen 1 is homo's rating: 1512 &rarr; <strong>1482<\/strong><br \/>(-30 for losing)
+|raw|daw523's rating: 1331 &rarr; <strong>1360<\/strong><br \/>(+29 for winning)
+|leave|daw523
+|player|p2

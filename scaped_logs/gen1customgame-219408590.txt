@@ -1,0 +1,132 @@
+﻿|join|PK Mastr
+|join|NixHex
+|player|p1|PK Mastr|257
+|player|p2|NixHex|101
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Custom Game
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: AMUN-RA|Mewtwo|415\/415
+|switch|p2a: Mewtwo|Mewtwo|415\/415
+|turn|1
+|c|★PK Mastr|ok lets see this
+|
+|move|p1a: AMUN-RA|Amnesia|p1a: AMUN-RA
+|-boost|p1a: AMUN-RA|spd|2
+|-boost|p1a: AMUN-RA|spa|2
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|
+|turn|2
+|c|★NixHex|this should be fun
+|c|★NixHex|lol mewtwo's front sprite
+|
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|move|p1a: AMUN-RA|Amnesia|p1a: AMUN-RA
+|-boost|p1a: AMUN-RA|spd|2
+|-boost|p1a: AMUN-RA|spa|2
+|
+|turn|3
+|c|★NixHex|i love the red\/blue one better
+|
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|move|p1a: AMUN-RA|Amnesia|p1a: AMUN-RA
+|-boost|p1a: AMUN-RA|spd|2
+|-boost|p1a: AMUN-RA|spa|2
+|
+|turn|4
+|c|★PK Mastr|same
+|
+|move|p2a: Mewtwo|Body Slam|p1a: AMUN-RA
+|debug|randBW(256) = 107
+|debug|randBW(256) = 12
+|-crit|p1a: AMUN-RA
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|debug|randBW(217, 256) = 255
+|-damage|p1a: AMUN-RA|254\/415
+|debug|randBW(256) = 193
+|move|p1a: AMUN-RA|Ice Beam|p2a: Mewtwo
+|debug|randBW(256) = 222
+|debug|randBW(256) = 30
+|-crit|p2a: Mewtwo
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|debug|randBW(217, 256) = 253
+|-damage|p2a: Mewtwo|260\/415
+|debug|randBW(256) = 125
+|
+|turn|5
+|c|★PK Mastr|body slam?
+|
+|move|p2a: Mewtwo|Blizzard|p1a: AMUN-RA
+|debug|randBW(256) = 121
+|debug|randBW(256) = 19
+|-crit|p1a: AMUN-RA
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|debug|randBW(217, 256) = 242
+|-damage|p1a: AMUN-RA|67\/415
+|debug|randBW(256) = 0
+|-status|p1a: AMUN-RA|frz
+|cant|p1a: AMUN-RA|frz
+|
+|turn|6
+|c|★PK Mastr|you fuck
+|c|★NixHex|YES
+|c|★PK Mastr|lol
+|
+|move|p2a: Mewtwo|Body Slam|p1a: AMUN-RA
+|debug|randBW(256) = 65
+|debug|randBW(256) = 121
+|debug|randBW(217, 256) = 245
+|-damage|p1a: AMUN-RA|0 fnt
+|debug|randBW(256) = 45
+|faint|p1a: AMUN-RA
+|c|★PK Mastr|i was trying to do that the whole time!
+|c|★NixHex|obv
+|
+|switch|p1a: PSY|Mew|403\/403
+|turn|7
+|c|★NixHex|that's the only reason you use ice moves
+|c|★NixHex|that and hitting exeggutor
+|c|★PK Mastr|true
+|c|★NixHex|a para would have sufficed
+|
+|move|p2a: Mewtwo|Blizzard|p1a: PSY
+|debug|randBW(256) = 103
+|debug|randBW(256) = 132
+|debug|randBW(217, 256) = 223
+|-damage|p1a: PSY|105\/403
+|debug|randBW(256) = 60
+|move|p1a: PSY|Thunder Wave|p2a: Mewtwo
+|debug|randBW(256) = 217
+|-status|p2a: Mewtwo|par
+|
+|turn|8
+|c|★PK Mastr|oops wrong move for mew
+|c|★PK Mastr|ill need to switch it up
+|
+|move|p1a: PSY|Fissure|p2a: Mewtwo|[miss]
+|debug|randBW(256) = 222
+|-miss|p1a: PSY
+|debug|randBW(256) = 234
+|move|p2a: Mewtwo|Blizzard|p1a: PSY
+|debug|randBW(256) = 34
+|debug|randBW(256) = 158
+|debug|randBW(217, 256) = 241
+|-damage|p1a: PSY|0 fnt
+|debug|randBW(256) = 59
+|faint|p1a: PSY
+|
+|win|NixHex
+|c|★PK Mastr|acc gave eq
+|leave|PK Mastr
+|player|p1

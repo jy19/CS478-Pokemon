@@ -1,0 +1,35 @@
+﻿|join|Momma Geo
+|join|elpapylokito
+|player|p1|Momma Geo|290
+|player|p2|elpapylokito|170
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Tentacool|Tentacool, L96|272\/272
+|switch|p2a: Zapdos|Zapdos, L79|304\/304
+|turn|1
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Tentacool
+|-supereffective|p1a: Tentacool
+|-damage|p1a: Tentacool|108\/272
+|move|p1a: Tentacool|Double-Edge|p2a: Zapdos
+|-damage|p2a: Zapdos|244\/304
+|-damage|p1a: Tentacool|93\/272|[from] recoil|[of] p2a: Zapdos
+|
+|turn|2
+|-message|elpapylokito forfeited.
+|
+|win|Momma Geo
+|raw|Ladder updating...
+|leave|elpapylokito
+|player|p2
+|raw|Momma Geo's rating: 1133 &rarr; <strong>1149<\/strong><br \/>(+16 for winning)
+|raw|elpapylokito's rating: 1000 &rarr; <strong>1000<\/strong><br \/>(+0 for losing)
+|join|SnakeWrangler
+|leave|SnakeWrangler

@@ -1,0 +1,472 @@
+﻿|join|kid gf lol
+|join|Super Knuckles
+|player|p1|kid gf lol|168
+|player|p2|Super Knuckles|155
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|switch|p1a: Zam Lead|Alakazam|313\/313
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|1
+|
+|move|p1a: Zam Lead|Psychic|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|123\/323
+|move|p2a: Gengar|Hypnosis|p1a: Zam Lead|[miss]
+|-miss|p2a: Gengar
+|
+|turn|2
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Zam Lead|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|581\/703
+|
+|turn|3
+|
+|switch|p1a: Mr Mime|Jynx|333\/333
+|move|p2a: Chansey|Ice Beam|p1a: Mr Mime
+|-crit|p1a: Mr Mime
+|-resisted|p1a: Mr Mime
+|-damage|p1a: Mr Mime|260\/333
+|
+|turn|4
+|
+|move|p1a: Mr Mime|Lovely Kiss|p2a: Chansey
+|-status|p2a: Chansey|slp
+|cant|p2a: Chansey|slp
+|-curestatus|p2a: Chansey|slp
+|
+|turn|5
+|
+|switch|p2a: Gengar|Gengar|123\/323
+|move|p1a: Mr Mime|Lovely Kiss|p2a: Gengar
+|-status|p2a: Gengar|slp
+|
+|turn|6
+|
+|switch|p2a: Chansey|Chansey|581\/703
+|move|p1a: Mr Mime|Blizzard|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|296\/703
+|
+|turn|7
+|
+|move|p1a: Mr Mime|Blizzard|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|20\/703
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|371\/703
+|
+|turn|8
+|
+|move|p1a: Mr Mime|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|249\/703
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|600\/703
+|
+|turn|9
+|
+|move|p1a: Mr Mime|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|472\/703
+|-status|p2a: Chansey|frz
+|cant|p2a: Chansey|frz
+|
+|turn|10
+|
+|switch|p2a: Alakazam|Alakazam|313\/313
+|move|p1a: Mr Mime|Reflect|p1a: Mr Mime
+|
+|turn|11
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Mr Mime
+|-status|p1a: Mr Mime|par
+|move|p1a: Mr Mime|Blizzard|p2a: Alakazam
+|-damage|p2a: Alakazam|199\/313
+|
+|turn|12
+|
+|move|p2a: Alakazam|Psychic|p1a: Mr Mime
+|-resisted|p1a: Mr Mime
+|-damage|p1a: Mr Mime|193\/333 par
+|move|p1a: Mr Mime|Blizzard|p2a: Alakazam
+|-damage|p2a: Alakazam|85\/313
+|
+|turn|13
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|241\/313
+|move|p1a: Mr Mime|Blizzard|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-damage|p2a: Alakazam|21\/313
+|
+|turn|14
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|177\/313
+|move|p1a: Mr Mime|Blizzard|p2a: Alakazam
+|-damage|p2a: Alakazam|74\/313
+|
+|turn|15
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|230\/313
+|move|p1a: Mr Mime|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|188\/313
+|-unboost|p2a: Alakazam|spd|1
+|-unboost|p2a: Alakazam|spa|1
+|
+|turn|16
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|cant|p1a: Mr Mime|par
+|
+|turn|17
+|
+|move|p2a: Tauros|Body Slam|p1a: Mr Mime
+|-crit|p1a: Mr Mime
+|-damage|p1a: Mr Mime|28\/333 par
+|cant|p1a: Mr Mime|par
+|
+|turn|18
+|
+|move|p2a: Tauros|Body Slam|p1a: Mr Mime
+|-damage|p1a: Mr Mime|0 fnt
+|faint|p1a: Mr Mime
+|
+|
+|switch|p1a: Kitty|Tauros|353\/353
+|turn|19
+|
+|move|p2a: Tauros|Body Slam|p1a: Kitty
+|-damage|p1a: Kitty|256\/353
+|-status|p1a: Kitty|par
+|move|p1a: Kitty|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|244\/353
+|
+|turn|20
+|
+|move|p2a: Tauros|Body Slam|p1a: Kitty
+|-damage|p1a: Kitty|148\/353 par
+|move|p1a: Kitty|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|145\/353
+|
+|turn|21
+|
+|switch|p1a: TNT|Golem|363\/363
+|move|p2a: Tauros|Hyper Beam|p1a: TNT
+|-resisted|p1a: TNT
+|-damage|p1a: TNT|291\/363
+|
+|turn|22
+|
+|cant|p2a: Tauros|recharge
+|move|p1a: TNT|Earthquake|p2a: Tauros
+|-damage|p2a: Tauros|26\/353
+|
+|turn|23
+|
+|switch|p1a: Breakfast Pouch|Chansey|703\/703
+|move|p2a: Tauros|Earthquake|p1a: Breakfast Pouch
+|-damage|p1a: Breakfast Pouch|487\/703
+|
+|turn|24
+|
+|move|p2a: Tauros|Body Slam|p1a: Breakfast Pouch
+|-damage|p1a: Breakfast Pouch|213\/703
+|-status|p1a: Breakfast Pouch|par
+|move|p1a: Breakfast Pouch|Ice Beam|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|
+|switch|p2a: Rhydon|Rhydon|413\/413
+|turn|25
+|
+|switch|p1a: Result Of Incest|Exeggutor|393\/393
+|move|p2a: Rhydon|Earthquake|p1a: Result Of Incest
+|-resisted|p1a: Result Of Incest
+|-damage|p1a: Result Of Incest|320\/393
+|
+|turn|26
+|
+|move|p1a: Result Of Incest|Mega Drain|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|76\/413
+|-heal|p1a: Result Of Incest|393\/393|[from] drain|[of] p2a: Rhydon
+|move|p2a: Rhydon|Body Slam|p1a: Result Of Incest
+|-damage|p1a: Result Of Incest|307\/393
+|-status|p1a: Result Of Incest|par
+|
+|turn|27
+|
+|switch|p2a: Alakazam|Alakazam|188\/313
+|move|p1a: Result Of Incest|Mega Drain|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-damage|p2a: Alakazam|89\/313
+|-heal|p1a: Result Of Incest|357\/393 par|[from] drain|[of] p2a: Alakazam
+|
+|turn|28
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|245\/313
+|cant|p1a: Result Of Incest|par
+|
+|turn|29
+|
+|move|p2a: Alakazam|Psychic|p1a: Result Of Incest
+|-crit|p1a: Result Of Incest
+|-resisted|p1a: Result Of Incest
+|-damage|p1a: Result Of Incest|255\/393 par
+|-unboost|p1a: Result Of Incest|spd|1
+|-unboost|p1a: Result Of Incest|spa|1
+|cant|p1a: Result Of Incest|par
+|
+|turn|30
+|
+|switch|p1a: Zam Lead|Alakazam|313\/313
+|move|p2a: Alakazam|Psychic|p1a: Zam Lead
+|-resisted|p1a: Zam Lead
+|-damage|p1a: Zam Lead|263\/313
+|-unboost|p1a: Zam Lead|spd|1
+|-unboost|p1a: Zam Lead|spa|1
+|
+|turn|31
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|switch|p1a: Result Of Incest|Exeggutor|255\/393 par
+|
+|turn|32
+|
+|switch|p2a: Gengar|Gengar|123\/323 slp
+|move|p1a: Result Of Incest|Psychic|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|
+|switch|p2a: Alakazam|Alakazam|245\/313
+|turn|33
+|
+|move|p2a: Alakazam|Psychic|p1a: Result Of Incest
+|-crit|p1a: Result Of Incest
+|-resisted|p1a: Result Of Incest
+|-damage|p1a: Result Of Incest|144\/393 par
+|cant|p1a: Result Of Incest|par
+|
+|turn|34
+|
+|move|p2a: Alakazam|Psychic|p1a: Result Of Incest
+|-resisted|p1a: Result Of Incest
+|-damage|p1a: Result Of Incest|90\/393 par
+|cant|p1a: Result Of Incest|par
+|
+|turn|35
+|
+|move|p2a: Alakazam|Psychic|p1a: Result Of Incest
+|-resisted|p1a: Result Of Incest
+|-damage|p1a: Result Of Incest|39\/393 par
+|move|p1a: Result Of Incest|Sleep Powder|p2a: Alakazam|[miss]
+|-miss|p1a: Result Of Incest
+|
+|turn|36
+|
+|move|p2a: Alakazam|Psychic|p1a: Result Of Incest
+|-resisted|p1a: Result Of Incest
+|-damage|p1a: Result Of Incest|0 fnt
+|faint|p1a: Result Of Incest
+|
+|
+|switch|p1a: Breakfast Pouch|Chansey|213\/703 par
+|turn|37
+|
+|move|p2a: Alakazam|Psychic|p1a: Breakfast Pouch
+|-damage|p1a: Breakfast Pouch|92\/703 par
+|move|p1a: Breakfast Pouch|Soft-Boiled|p1a: Breakfast Pouch
+|-heal|p1a: Breakfast Pouch|443\/703 par
+|
+|turn|38
+|
+|move|p2a: Alakazam|Psychic|p1a: Breakfast Pouch
+|-crit|p1a: Breakfast Pouch
+|-damage|p1a: Breakfast Pouch|195\/703 par
+|move|p1a: Breakfast Pouch|Soft-Boiled|p1a: Breakfast Pouch
+|-heal|p1a: Breakfast Pouch|546\/703 par
+|
+|turn|39
+|
+|move|p2a: Alakazam|Psychic|p1a: Breakfast Pouch
+|-crit|p1a: Breakfast Pouch
+|-damage|p1a: Breakfast Pouch|298\/703 par
+|move|p1a: Breakfast Pouch|Soft-Boiled|p1a: Breakfast Pouch
+|-heal|p1a: Breakfast Pouch|649\/703 par
+|
+|turn|40
+|
+|move|p2a: Alakazam|Psychic|p1a: Breakfast Pouch
+|-damage|p1a: Breakfast Pouch|529\/703 par
+|-unboost|p1a: Breakfast Pouch|spd|1
+|-unboost|p1a: Breakfast Pouch|spa|1
+|move|p1a: Breakfast Pouch|Ice Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|203\/313
+|
+|turn|41
+|
+|switch|p1a: Zam Lead|Alakazam|263\/313
+|move|p2a: Alakazam|Psychic|p1a: Zam Lead
+|-crit|p1a: Zam Lead
+|-resisted|p1a: Zam Lead
+|-damage|p1a: Zam Lead|153\/313
+|-unboost|p1a: Zam Lead|spd|1
+|-unboost|p1a: Zam Lead|spa|1
+|
+|turn|42
+|
+|move|p1a: Zam Lead|Recover|p1a: Zam Lead
+|-heal|p1a: Zam Lead|309\/313
+|move|p2a: Alakazam|Psychic|p1a: Zam Lead
+|-crit|p1a: Zam Lead
+|-resisted|p1a: Zam Lead
+|-damage|p1a: Zam Lead|206\/313
+|-unboost|p1a: Zam Lead|spd|1
+|-unboost|p1a: Zam Lead|spa|1
+|
+|turn|43
+|
+|switch|p1a: Breakfast Pouch|Chansey|529\/703 par
+|move|p2a: Alakazam|Psychic|p1a: Breakfast Pouch
+|-damage|p1a: Breakfast Pouch|400\/703 par
+|
+|turn|44
+|
+|move|p2a: Alakazam|Psychic|p1a: Breakfast Pouch
+|-crit|p1a: Breakfast Pouch
+|-damage|p1a: Breakfast Pouch|124\/703 par
+|move|p1a: Breakfast Pouch|Soft-Boiled|p1a: Breakfast Pouch
+|-heal|p1a: Breakfast Pouch|475\/703 par
+|
+|turn|45
+|
+|switch|p2a: Rhydon|Rhydon|76\/413
+|move|p1a: Breakfast Pouch|Soft-Boiled|p1a: Breakfast Pouch
+|-heal|p1a: Breakfast Pouch|703\/703 par
+|
+|turn|46
+|
+|move|p2a: Rhydon|Earthquake|p1a: Breakfast Pouch
+|-crit|p1a: Breakfast Pouch
+|-damage|p1a: Breakfast Pouch|0 fnt
+|faint|p1a: Breakfast Pouch
+|
+|
+|switch|p1a: TNT|Golem|291\/363
+|turn|47
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: TNT|Earthquake|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|319\/393
+|
+|turn|48
+|
+|switch|p1a: Zam Lead|Alakazam|206\/313
+|move|p2a: Exeggutor|Sleep Powder|p1a: Zam Lead
+|-status|p1a: Zam Lead|slp
+|
+|turn|49
+|
+|switch|p2a: Rhydon|Rhydon|76\/413
+|cant|p1a: Zam Lead|slp
+|
+|turn|50
+|
+|switch|p1a: TNT|Golem|291\/363
+|move|p2a: Rhydon|Earthquake|p1a: TNT
+|-supereffective|p1a: TNT
+|-damage|p1a: TNT|70\/363
+|
+|turn|51
+|
+|switch|p2a: Chansey|Chansey|472\/703 frz
+|move|p1a: TNT|Body Slam|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|53\/703 frz
+|
+|turn|52
+|
+|switch|p1a: Zam Lead|Alakazam|206\/313 slp
+|cant|p2a: Chansey|frz
+|
+|turn|53
+|
+|switch|p2a: Rhydon|Rhydon|76\/413
+|cant|p1a: Zam Lead|slp
+|
+|turn|54
+|
+|cant|p1a: Zam Lead|slp
+|move|p2a: Rhydon|Earthquake|p1a: Zam Lead
+|-damage|p1a: Zam Lead|0 fnt
+|faint|p1a: Zam Lead
+|
+|
+|switch|p1a: TNT|Golem|70\/363
+|turn|55
+|
+|switch|p2a: Chansey|Chansey|53\/703 frz
+|move|p1a: TNT|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|
+|switch|p2a: Alakazam|Alakazam|203\/313
+|turn|56
+|
+|move|p2a: Alakazam|Psychic|p1a: TNT
+|-damage|p1a: TNT|0 fnt
+|faint|p1a: TNT
+|
+|
+|switch|p1a: Kitty|Tauros|148\/353 par
+|turn|57
+|
+|move|p2a: Alakazam|Reflect|p2a: Alakazam
+|move|p1a: Kitty|Hyper Beam|p2a: Alakazam|[miss]
+|-miss|p1a: Kitty
+|
+|turn|58
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|313\/313
+|cant|p1a: Kitty|par
+|
+|turn|59
+|
+|switch|p2a: Exeggutor|Exeggutor|319\/393
+|move|p1a: Kitty|Blizzard|p2a: Exeggutor|[miss]
+|-miss|p1a: Kitty
+|
+|turn|60
+|
+|move|p2a: Exeggutor|Psychic|p1a: Kitty
+|-damage|p1a: Kitty|0 fnt
+|faint|p1a: Kitty
+|
+|win|Super Knuckles
+|raw|Ladder updating...
+|raw|kid gf lol's rating: 1411 &rarr; <strong>1380<\/strong><br \/>(-31 for losing)
+|raw|Super Knuckles's rating: 1190 &rarr; <strong>1229<\/strong><br \/>(+39 for winning)
+|chat|Super Knuckles|gg
+|leave|kid gf lol
+|player|p1

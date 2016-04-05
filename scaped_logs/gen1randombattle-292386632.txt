@@ -1,0 +1,276 @@
+﻿|join|riwu
+|join|LibertarianMaster
+|player|p1|riwu|2
+|player|p2|LibertarianMaster|2
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|11363,9650,60082,36570
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Kabutops|Kabutops, L85|276\/276
+|switch|p2a: Ditto|Ditto, L99|296\/296
+|turn|1
+|choice|move 2|move 1
+|
+|move|p1a: Kabutops|Surf|p2a: Ditto
+|-damage|p2a: Ditto|195\/296
+|move|p2a: Ditto|Transform|p1a: Kabutops
+|-transform|p2a: Ditto|p1a: Kabutops
+|
+|turn|2
+|choice|move 2|move 4
+|
+|move|p1a: Kabutops|Surf|p2a: Ditto
+|-damage|p2a: Ditto|96\/296
+|move|p2a: Ditto|Swords Dance|p2a: Ditto
+|-boost|p2a: Ditto|atk|2
+|
+|turn|3
+|choice|move 2|move 1
+|
+|move|p1a: Kabutops|Surf|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|choice||switch 4
+|
+|switch|p2a: Arbok|Arbok, L90|291\/291
+|turn|4
+|choice|switch 3|move 2
+|
+|switch|p1a: Dragonite|Dragonite, L85|328\/328
+|move|p2a: Arbok|Earthquake|p1a: Dragonite
+|-immune|p1a: Dragonite|[msg]
+|
+|turn|5
+|choice|move 3|move 3
+|
+|move|p2a: Arbok|Glare|p1a: Dragonite|[miss]
+|-miss|p2a: Arbok
+|move|p1a: Dragonite|Thunderbolt|p2a: Arbok
+|-damage|p2a: Arbok|217\/291
+|
+|turn|6
+|choice|move 3|move 3
+|
+|move|p2a: Arbok|Glare|p1a: Dragonite
+|-status|p1a: Dragonite|par
+|cant|p1a: Dragonite|par
+|
+|turn|7
+|choice|move 3|move 4
+|
+|move|p2a: Arbok|Rock Slide|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|223\/328 par
+|move|p1a: Dragonite|Thunderbolt|p2a: Arbok
+|-damage|p2a: Arbok|143\/291
+|
+|turn|8
+|choice|move 2|move 4
+|
+|move|p2a: Arbok|Rock Slide|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|123\/328 par
+|move|p1a: Dragonite|Hyper Beam|p2a: Arbok
+|-damage|p2a: Arbok|0 fnt
+|faint|p2a: Arbok
+|choice||switch 2
+|
+|switch|p2a: Mew|Mew, L74|300\/300
+|turn|9
+|choice|move 2|move 3
+|
+|move|p2a: Mew|Blizzard|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|choice|switch 2|
+|
+|switch|p1a: Rattata|Rattata, L96|252\/252
+|turn|10
+|choice|move 1|move 3
+|
+|move|p1a: Rattata|Super Fang|p2a: Mew
+|-damage|p2a: Mew|150\/300
+|move|p2a: Mew|Blizzard|p1a: Rattata
+|-damage|p1a: Rattata|147\/252
+|
+|turn|11
+|choice|move 3|move 3
+|
+|move|p1a: Rattata|Body Slam|p2a: Mew
+|-damage|p2a: Mew|63\/300
+|move|p2a: Mew|Blizzard|p1a: Rattata
+|-damage|p1a: Rattata|44\/252
+|
+|turn|12
+|choice|move 3|switch 6
+|
+|switch|p2a: Mewtwo|Mewtwo, L68|285\/285
+|move|p1a: Rattata|Body Slam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|186\/285
+|
+|turn|13
+|choice|move 3|move 1
+|
+|move|p2a: Mewtwo|Psychic|p1a: Rattata
+|-crit|p1a: Rattata
+|-damage|p1a: Rattata|0 fnt
+|faint|p1a: Rattata
+|choice|switch 3|
+|
+|switch|p1a: Kabutops|Kabutops, L85|276\/276
+|turn|14
+|choice|move 4|move 1
+|
+|move|p2a: Mewtwo|Psychic|p1a: Kabutops
+|-crit|p1a: Kabutops
+|-damage|p1a: Kabutops|95\/276
+|move|p1a: Kabutops|Swords Dance|p1a: Kabutops
+|-boost|p1a: Kabutops|atk|2
+|
+|turn|15
+|choice|move 3|move 1
+|
+|move|p2a: Mewtwo|Psychic|p1a: Kabutops
+|-damage|p1a: Kabutops|0 fnt
+|faint|p1a: Kabutops
+|choice|switch 6|
+|
+|switch|p1a: Persian|Persian, L79|265\/265
+|turn|16
+|choice|move 1|move 1
+|
+|move|p1a: Persian|Slash|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|64\/285
+|move|p2a: Mewtwo|Psychic|p1a: Persian
+|-damage|p1a: Persian|157\/265
+|-unboost|p1a: Persian|spd|1
+|-unboost|p1a: Persian|spa|1
+|
+|turn|17
+|choice|move 1|move 1
+|
+|move|p1a: Persian|Slash|p2a: Mewtwo
+|-damage|p2a: Mewtwo|0 fnt
+|faint|p2a: Mewtwo
+|choice||switch 3
+|
+|switch|p2a: Articuno|Articuno, L79|304\/304
+|turn|18
+|choice|switch 5|move 4
+|
+|switch|p1a: Metapod|Metapod, L99|300\/300
+|move|p2a: Articuno|Reflect|p2a: Articuno
+|-start|p2a: Articuno|Reflect
+|
+|turn|19
+|choice|move 3|move 2
+|
+|move|p2a: Articuno|Blizzard|p1a: Metapod
+|-damage|p1a: Metapod|74\/300
+|move|p1a: Metapod|String Shot|p2a: Articuno
+|-unboost|p2a: Articuno|spe|1
+|
+|turn|20
+|choice|move 2|switch 6
+|
+|switch|p2a: Mew|Mew, L74|63\/300
+|move|p1a: Metapod|Tackle|p2a: Mew
+|-damage|p2a: Mew|45\/300
+|
+|turn|21
+|choice|switch 5|move 4
+|
+|switch|p1a: Persian|Persian, L79|157\/265
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-fail|p2a: Mew
+|
+|turn|22
+|choice|move 1|move 4
+|
+|move|p1a: Persian|Slash|p2a: Mew
+|-crit|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|choice||switch 6
+|
+|switch|p2a: Articuno|Articuno, L79|304\/304
+|turn|23
+|choice|move 1|move 4
+|
+|move|p1a: Persian|Slash|p2a: Articuno
+|-crit|p2a: Articuno
+|-damage|p2a: Articuno|196\/304
+|move|p2a: Articuno|Reflect|p2a: Articuno
+|-start|p2a: Articuno|Reflect
+|
+|turn|24
+|choice|move 1|move 2
+|
+|move|p1a: Persian|Slash|p2a: Articuno
+|-crit|p2a: Articuno
+|-damage|p2a: Articuno|88\/304
+|move|p2a: Articuno|Blizzard|p1a: Persian
+|-crit|p1a: Persian
+|-damage|p1a: Persian|0 fnt
+|faint|p1a: Persian
+|choice|switch 5|
+|
+|switch|p1a: Metapod|Metapod, L99|74\/300
+|turn|25
+|choice|move 3|move 3
+|
+|move|p2a: Articuno|Rest|p2a: Articuno
+|-status|p2a: Articuno|slp
+|-heal|p2a: Articuno|304\/304 slp|[silent]
+|-status|p2a: Articuno|slp|[from] move: Rest
+|move|p1a: Metapod|String Shot|p2a: Articuno
+|-unboost|p2a: Articuno|spe|1
+|
+|turn|26
+|choice|switch 4|move 2
+|
+|switch|p1a: Venusaur|Venusaur, L85|310\/310
+|cant|p2a: Articuno|slp
+|
+|turn|27
+|choice|move 2|move 2
+|
+|move|p1a: Venusaur|Leech Seed|p2a: Articuno
+|-start|p2a: Articuno|move: Leech Seed
+|-damage|p2a: Articuno|285\/304 slp|[from] Leech Seed|[of] p1a: Venusaur
+|-curestatus|p2a: Articuno|slp
+|
+|turn|28
+|choice|move 3|move 2
+|
+|move|p1a: Venusaur|Toxic|p2a: Articuno
+|-status|p2a: Articuno|tox
+|move|p2a: Articuno|Blizzard|p1a: Venusaur
+|-crit|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|choice|switch 4|
+|
+|switch|p1a: Metapod|Metapod, L99|74\/300
+|turn|29
+|choice|move 2|move 2
+|
+|move|p1a: Metapod|Tackle|p2a: Articuno
+|-damage|p2a: Articuno|276\/304 tox
+|move|p2a: Articuno|Blizzard|p1a: Metapod
+|-damage|p1a: Metapod|0 fnt
+|faint|p1a: Metapod
+|
+|win|LibertarianMaster
+|raw|riwu's rating: 1477 &rarr; <strong>1445<\/strong><br \/>(-32 for losing)
+|raw|LibertarianMaster's rating: 1257 &rarr; <strong>1296<\/strong><br \/>(+39 for winning)

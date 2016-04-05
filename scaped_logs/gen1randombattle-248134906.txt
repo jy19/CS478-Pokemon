@@ -1,0 +1,372 @@
+﻿|join|hiijjjilj
+|join|yaldyyyy
+|player|p1|hiijjjilj|169
+|player|p2|yaldyyyy|265
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Scyther|Scyther, L90|309\/309
+|switch|p2a: Starmie|Starmie, L79|257\/257
+|turn|1
+|
+|move|p1a: Scyther|Swords Dance|p1a: Scyther
+|-boost|p1a: Scyther|atk|2
+|move|p2a: Starmie|Thunderbolt|p1a: Scyther
+|-supereffective|p1a: Scyther
+|-damage|p1a: Scyther|152\/309
+|
+|turn|2
+|
+|switch|p2a: Nidoking|Nidoking, L85|311\/311
+|move|p1a: Scyther|Hyper Beam|p2a: Nidoking
+|-crit|p2a: Nidoking
+|-damage|p2a: Nidoking|24\/311
+|
+|turn|3
+|-mustrecharge|p1a: Scyther
+|-mustrecharge|p1a: Scyther
+|
+|cant|p1a: Scyther|recharge
+|move|p2a: Nidoking|Blizzard|p1a: Scyther
+|-supereffective|p1a: Scyther
+|-damage|p1a: Scyther|0 fnt
+|faint|p1a: Scyther
+|
+|switch|p1a: Vaporeon|Vaporeon, L85|395\/395
+|turn|4
+|
+|move|p2a: Nidoking|Thunder|p1a: Vaporeon|[miss]
+|-miss|p2a: Nidoking
+|move|p1a: Vaporeon|Body Slam|p2a: Nidoking
+|-damage|p2a: Nidoking|0 fnt
+|faint|p2a: Nidoking
+|
+|switch|p2a: Jolteon|Jolteon, L79|265\/265
+|turn|5
+|
+|switch|p1a: Oddish|Oddish, L96|281\/281
+|move|p2a: Jolteon|Thunderbolt|p1a: Oddish
+|-resisted|p1a: Oddish
+|-damage|p1a: Oddish|237\/281
+|
+|turn|6
+|
+|switch|p2a: Flareon|Flareon, L90|300\/300
+|move|p1a: Oddish|Sleep Powder|p2a: Flareon
+|-status|p2a: Flareon|slp
+|
+|turn|7
+|
+|switch|p2a: Tauros|Tauros, L79|280\/280
+|switch|p1a: Vaporeon|Vaporeon, L85|395\/395
+|
+|turn|8
+|
+|move|p2a: Tauros|Earthquake|p1a: Vaporeon
+|-crit|p1a: Vaporeon
+|-damage|p1a: Vaporeon|237\/395
+|move|p1a: Vaporeon|Surf|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|24\/280
+|
+|turn|9
+|
+|switch|p2a: Ivysaur|Ivysaur, L85|276\/276
+|switch|p1a: Oddish|Oddish, L96|237\/281
+|
+|turn|10
+|
+|move|p2a: Ivysaur|Swords Dance|p2a: Ivysaur
+|-boost|p2a: Ivysaur|atk|2
+|move|p1a: Oddish|Mega Drain|p2a: Ivysaur
+|-resisted|p2a: Ivysaur
+|-damage|p2a: Ivysaur|264\/276
+|-heal|p1a: Oddish|243\/281|[from] drain|[of] p2a: Ivysaur
+|
+|turn|11
+|
+|move|p2a: Ivysaur|Swords Dance|p2a: Ivysaur
+|-boost|p2a: Ivysaur|atk|2
+|move|p1a: Oddish|Mega Drain|p2a: Ivysaur
+|-resisted|p2a: Ivysaur
+|-damage|p2a: Ivysaur|253\/276
+|-heal|p1a: Oddish|248\/281|[from] drain|[of] p2a: Ivysaur
+|
+|turn|12
+|
+|move|p2a: Ivysaur|Swords Dance|p2a: Ivysaur
+|-boost|p2a: Ivysaur|atk|2
+|move|p1a: Oddish|Mega Drain|p2a: Ivysaur
+|-resisted|p2a: Ivysaur
+|-damage|p2a: Ivysaur|241\/276
+|-heal|p1a: Oddish|254\/281|[from] drain|[of] p2a: Ivysaur
+|
+|turn|13
+|
+|move|p2a: Ivysaur|Body Slam|p1a: Oddish
+|-damage|p1a: Oddish|33\/281
+|move|p1a: Oddish|Mega Drain|p2a: Ivysaur
+|-resisted|p2a: Ivysaur
+|-damage|p2a: Ivysaur|230\/276
+|-heal|p1a: Oddish|38\/281|[from] drain|[of] p2a: Ivysaur
+|
+|turn|14
+|
+|move|p2a: Ivysaur|Body Slam|p1a: Oddish
+|-crit|p1a: Oddish
+|-damage|p1a: Oddish|0 fnt
+|faint|p1a: Oddish
+|
+|switch|p1a: Jynx|Jynx, L79|265\/265
+|turn|15
+|
+|switch|p2a: Tauros|Tauros, L79|24\/280
+|move|p1a: Jynx|Blizzard|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|switch|p2a: Jolteon|Jolteon, L79|265\/265
+|turn|16
+|
+|switch|p1a: Weepinbell|Weepinbell, L85|284\/284
+|move|p2a: Jolteon|Thunderbolt|p1a: Weepinbell
+|-resisted|p1a: Weepinbell
+|-damage|p1a: Weepinbell|239\/284
+|
+|turn|17
+|
+|move|p2a: Jolteon|Thunder Wave|p1a: Weepinbell
+|-status|p1a: Weepinbell|par
+|move|p1a: Weepinbell|Stun Spore|p2a: Jolteon
+|-status|p2a: Jolteon|par
+|
+|turn|18
+|
+|move|p2a: Jolteon|Double Kick|p1a: Weepinbell
+|-crit|p1a: Weepinbell
+|-resisted|p1a: Weepinbell
+|-damage|p1a: Weepinbell|221\/284 par
+|-damage|p1a: Weepinbell|203\/284 par
+|-hitcount|p1a: Weepinbell|2
+|move|p1a: Weepinbell|Razor Leaf|p2a: Jolteon
+|-crit|p2a: Jolteon
+|-damage|p2a: Jolteon|173\/265 par
+|
+|turn|19
+|
+|switch|p2a: Ivysaur|Ivysaur, L85|230\/276
+|move|p1a: Weepinbell|Razor Leaf|p2a: Ivysaur
+|-crit|p2a: Ivysaur
+|-resisted|p2a: Ivysaur
+|-damage|p2a: Ivysaur|204\/276
+|
+|turn|20
+|
+|switch|p1a: Butterfree|Butterfree, L90|291\/291
+|move|p2a: Ivysaur|Body Slam|p1a: Butterfree
+|-damage|p1a: Butterfree|234\/291
+|
+|turn|21
+|
+|move|p1a: Butterfree|Psychic|p2a: Ivysaur
+|-supereffective|p2a: Ivysaur
+|-damage|p2a: Ivysaur|74\/276
+|move|p2a: Ivysaur|Body Slam|p1a: Butterfree
+|-damage|p1a: Butterfree|173\/291
+|
+|turn|22
+|
+|move|p1a: Butterfree|Stun Spore|p2a: Ivysaur
+|-status|p2a: Ivysaur|par
+|move|p2a: Ivysaur|Swords Dance|p2a: Ivysaur
+|-boost|p2a: Ivysaur|atk|2
+|
+|turn|23
+|
+|move|p1a: Butterfree|Psychic|p2a: Ivysaur
+|-supereffective|p2a: Ivysaur
+|-damage|p2a: Ivysaur|0 fnt
+|faint|p2a: Ivysaur
+|
+|switch|p2a: Starmie|Starmie, L79|257\/257
+|turn|24
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Butterfree
+|-supereffective|p1a: Butterfree
+|-damage|p1a: Butterfree|47\/291
+|-status|p1a: Butterfree|par
+|cant|p1a: Butterfree|par
+|
+|turn|25
+|
+|move|p2a: Starmie|Surf|p1a: Butterfree
+|-damage|p1a: Butterfree|0 fnt
+|faint|p1a: Butterfree
+|
+|switch|p1a: Weepinbell|Weepinbell, L85|203\/284 par
+|turn|26
+|
+|switch|p2a: Flareon|Flareon, L90|300\/300 slp
+|cant|p1a: Weepinbell|par
+|
+|turn|27
+|
+|switch|p1a: Vaporeon|Vaporeon, L85|237\/395
+|cant|p2a: Flareon|slp
+|
+|turn|28
+|
+|switch|p2a: Jolteon|Jolteon, L79|173\/265 par
+|move|p1a: Vaporeon|Body Slam|p2a: Jolteon
+|-damage|p2a: Jolteon|103\/265 par
+|
+|turn|29
+|
+|move|p1a: Vaporeon|Surf|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|
+|switch|p2a: Starmie|Starmie, L79|257\/257
+|turn|30
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|126\/395
+|move|p1a: Vaporeon|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|205\/257
+|
+|turn|31
+|
+|switch|p1a: Weepinbell|Weepinbell, L85|203\/284 par
+|move|p2a: Starmie|Thunderbolt|p1a: Weepinbell
+|-resisted|p1a: Weepinbell
+|-damage|p1a: Weepinbell|175\/284 par
+|
+|turn|32
+|
+|switch|p2a: Flareon|Flareon, L90|300\/300 slp
+|move|p1a: Weepinbell|Razor Leaf|p2a: Flareon
+|-crit|p2a: Flareon
+|-resisted|p2a: Flareon
+|-damage|p2a: Flareon|259\/300 slp
+|
+|turn|33
+|
+|switch|p1a: Jynx|Jynx, L79|265\/265
+|-curestatus|p2a: Flareon|slp
+|
+|turn|34
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: Flareon
+|-status|p2a: Flareon|slp
+|-curestatus|p2a: Flareon|slp
+|
+|turn|35
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: Flareon
+|-status|p2a: Flareon|slp
+|cant|p2a: Flareon|slp
+|
+|turn|36
+|
+|move|p1a: Jynx|Blizzard|p2a: Flareon|[miss]
+|-miss|p1a: Jynx
+|-curestatus|p2a: Flareon|slp
+|
+|turn|37
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: Flareon
+|-status|p2a: Flareon|slp
+|cant|p2a: Flareon|slp
+|
+|turn|38
+|
+|move|p1a: Jynx|Blizzard|p2a: Flareon
+|-damage|p2a: Flareon|172\/300 slp
+|cant|p2a: Flareon|slp
+|
+|turn|39
+|
+|move|p1a: Jynx|Blizzard|p2a: Flareon
+|-damage|p2a: Flareon|81\/300 slp
+|cant|p2a: Flareon|slp
+|
+|turn|40
+|
+|switch|p2a: Starmie|Starmie, L79|205\/257
+|move|p1a: Jynx|Blizzard|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|149\/257
+|
+|turn|41
+|
+|switch|p1a: Weepinbell|Weepinbell, L85|175\/284 par
+|move|p2a: Starmie|Thunderbolt|p1a: Weepinbell
+|-resisted|p1a: Weepinbell
+|-damage|p1a: Weepinbell|144\/284 par
+|
+|turn|42
+|
+|move|p2a: Starmie|Surf|p1a: Weepinbell
+|-resisted|p1a: Weepinbell
+|-damage|p1a: Weepinbell|98\/284 par
+|move|p1a: Weepinbell|Razor Leaf|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|33\/257
+|
+|turn|43
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|161\/257
+|cant|p1a: Weepinbell|par
+|
+|turn|44
+|
+|move|p2a: Starmie|Surf|p1a: Weepinbell
+|-resisted|p1a: Weepinbell
+|-damage|p1a: Weepinbell|49\/284 par
+|move|p1a: Weepinbell|Razor Leaf|p2a: Starmie
+|-crit|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|c|★hiijjjilj|lmfao you're sooooo bad
+|
+|switch|p2a: Flareon|Flareon, L90|81\/300 slp
+|turn|45
+|c|★hiijjjilj|every single time
+|c|★hiijjjilj|insane hax
+|c|★hiijjjilj|dirtiest team ever
+|
+|switch|p1a: Jynx|Jynx, L79|265\/265
+|cant|p2a: Flareon|slp
+|
+|turn|46
+|c|★hiijjjilj|and you're still stupid enough to be in this situation
+|c|★hiijjjilj|I take my hat off too you
+|c|★hiijjjilj|no one has played THIS MUCH and still sucks this hard
+|
+|move|p1a: Jynx|Psychic|p2a: Flareon
+|-crit|p2a: Flareon
+|-damage|p2a: Flareon|0 fnt
+|faint|p2a: Flareon
+|
+|win|hiijjjilj
+|raw|Ladder updating...
+|c|★yaldyyyy|:(((
+|c|★hiijjjilj|fuck you yaldyyyy
+|player|p1|baaast|169
+|c| baaast|;)
+|raw|hiijjjilj's rating: 1137 &rarr; <strong>1174<\/strong><br \/>(+37 for winning)
+|raw|yaldyyyy's rating: 1319 &rarr; <strong>1289<\/strong><br \/>(-30 for losing)
+|c|★yaldyyyy|love you too friend
+|c| baaast|yaldoooooooooo
+|leave|yaldyyyy
+|player|p2
+|c| baaast|to you*

@@ -1,0 +1,371 @@
+﻿|join|Eldougi
+|join|cfgvetds
+|player|p1|Eldougi|170
+|player|p2|cfgvetds|169
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Venonat|Venonat, L96|310\/310
+|switch|p2a: Pinsir|Pinsir, L85|284\/284
+|turn|1
+|
+|move|p2a: Pinsir|Body Slam|p1a: Venonat
+|-damage|p1a: Venonat|217\/310
+|move|p1a: Venonat|Stun Spore|p2a: Pinsir
+|-status|p2a: Pinsir|par
+|
+|turn|2
+|
+|move|p1a: Venonat|Psychic|p2a: Pinsir
+|-damage|p2a: Pinsir|224\/284 par
+|move|p2a: Pinsir|Body Slam|p1a: Venonat
+|-damage|p1a: Venonat|133\/310
+|-status|p1a: Venonat|par
+|
+|turn|3
+|
+|move|p2a: Pinsir|Body Slam|p1a: Venonat
+|-damage|p1a: Venonat|40\/310 par
+|move|p1a: Venonat|Psychic|p2a: Pinsir
+|-damage|p2a: Pinsir|162\/284 par
+|
+|turn|4
+|
+|cant|p2a: Pinsir|par
+|cant|p1a: Venonat|par
+|
+|turn|5
+|
+|move|p2a: Pinsir|Body Slam|p1a: Venonat
+|-damage|p1a: Venonat|0 fnt
+|faint|p1a: Venonat
+|
+|switch|p1a: Ninetales|Ninetales, L85|298\/298
+|turn|6
+|
+|move|p1a: Ninetales|Fire Blast|p2a: Pinsir
+|-supereffective|p2a: Pinsir
+|-damage|p2a: Pinsir|0 fnt
+|faint|p2a: Pinsir
+|
+|switch|p2a: Wartortle|Wartortle, L85|274\/274
+|turn|7
+|
+|switch|p1a: Jolteon|Jolteon, L79|265\/265
+|move|p2a: Wartortle|Surf|p1a: Jolteon
+|-damage|p1a: Jolteon|190\/265
+|
+|turn|8
+|
+|switch|p2a: Golem|Golem, L79|288\/288
+|move|p1a: Jolteon|Thunderbolt|p2a: Golem
+|-immune|p2a: Golem|[msg]
+|
+|turn|9
+|
+|switch|p1a: Sandslash|Sandslash, L85|301\/301
+|move|p2a: Golem|Earthquake|p1a: Sandslash
+|-damage|p1a: Sandslash|216\/301
+|
+|turn|10
+|
+|switch|p2a: Articuno|Articuno, L79|304\/304
+|move|p1a: Sandslash|Earthquake|p2a: Articuno
+|-immune|p2a: Articuno|[msg]
+|
+|turn|11
+|
+|switch|p1a: Ninetales|Ninetales, L85|298\/298
+|move|p2a: Articuno|Ice Beam|p1a: Ninetales
+|-damage|p1a: Ninetales|196\/298
+|
+|turn|12
+|
+|switch|p2a: Golem|Golem, L79|288\/288
+|move|p1a: Ninetales|Fire Blast|p2a: Golem|[miss]
+|-miss|p1a: Ninetales
+|
+|turn|13
+|
+|switch|p1a: Sandslash|Sandslash, L85|216\/301
+|move|p2a: Golem|Earthquake|p1a: Sandslash
+|-damage|p1a: Sandslash|123\/301
+|
+|turn|14
+|
+|switch|p2a: Articuno|Articuno, L79|304\/304
+|move|p1a: Sandslash|Substitute|p1a: Sandslash
+|-start|p1a: Sandslash|Substitute
+|-damage|p1a: Sandslash|48\/301
+|
+|turn|15
+|
+|move|p2a: Articuno|Ice Beam|p1a: Sandslash
+|-supereffective|p1a: Sandslash
+|-end|p1a: Sandslash|Substitute
+|move|p1a: Sandslash|Body Slam|p2a: Articuno
+|-damage|p2a: Articuno|246\/304
+|-status|p2a: Articuno|par
+|
+|turn|16
+|
+|switch|p1a: Ninetales|Ninetales, L85|196\/298
+|move|p2a: Articuno|Ice Beam|p1a: Ninetales
+|-crit|p1a: Ninetales
+|-damage|p1a: Ninetales|2\/298
+|
+|turn|17
+|
+|switch|p2a: Wartortle|Wartortle, L85|274\/274
+|move|p1a: Ninetales|Fire Blast|p2a: Wartortle|[miss]
+|-miss|p1a: Ninetales
+|
+|turn|18
+|
+|move|p1a: Ninetales|Hyper Beam|p2a: Wartortle
+|-crit|p2a: Wartortle
+|-damage|p2a: Wartortle|98\/274
+|move|p2a: Wartortle|Surf|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|switch|p1a: Starmie|Starmie, L79|257\/257
+|turn|19
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Wartortle
+|-crit|p2a: Wartortle
+|-supereffective|p2a: Wartortle
+|-damage|p2a: Wartortle|0 fnt
+|faint|p2a: Wartortle
+|
+|switch|p2a: Exeggutor|Exeggutor, L79|312\/312
+|turn|20
+|
+|switch|p1a: Porygon|Porygon, L85|284\/284
+|move|p2a: Exeggutor|Stun Spore|p1a: Porygon|[miss]
+|-miss|p2a: Exeggutor
+|
+|turn|21
+|
+|move|p2a: Exeggutor|Stun Spore|p1a: Porygon|[miss]
+|-miss|p2a: Exeggutor
+|move|p1a: Porygon|Thunder Wave|p2a: Exeggutor
+|-status|p2a: Exeggutor|par
+|
+|turn|22
+|
+|move|p1a: Porygon|Agility|p1a: Porygon
+|-boost|p1a: Porygon|spe|2
+|move|p2a: Exeggutor|Stun Spore|p1a: Porygon
+|-status|p1a: Porygon|par
+|
+|turn|23
+|
+|move|p1a: Porygon|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|290\/312 par
+|move|p2a: Exeggutor|Hyper Beam|p1a: Porygon
+|-damage|p1a: Porygon|180\/284 par
+|
+|turn|24
+|-mustrecharge|p2a: Exeggutor
+|-mustrecharge|p2a: Exeggutor
+|
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|284\/284 par
+|cant|p2a: Exeggutor|recharge
+|
+|turn|25
+|
+|move|p1a: Porygon|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|269\/312 par
+|move|p2a: Exeggutor|Egg Bomb|p1a: Porygon|[miss]
+|-miss|p2a: Exeggutor
+|
+|turn|26
+|
+|move|p1a: Porygon|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|244\/312 par
+|move|p2a: Exeggutor|Egg Bomb|p1a: Porygon|[miss]
+|-miss|p2a: Exeggutor
+|
+|turn|27
+|
+|move|p1a: Porygon|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|220\/312 par
+|move|p2a: Exeggutor|Egg Bomb|p1a: Porygon
+|-damage|p1a: Porygon|214\/284 par
+|
+|turn|28
+|
+|cant|p1a: Porygon|par
+|move|p2a: Exeggutor|Egg Bomb|p1a: Porygon|[miss]
+|-miss|p2a: Exeggutor
+|
+|turn|29
+|
+|move|p1a: Porygon|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|198\/312 par
+|move|p2a: Exeggutor|Egg Bomb|p1a: Porygon
+|-damage|p1a: Porygon|144\/284 par
+|
+|turn|30
+|
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|284\/284 par
+|move|p2a: Exeggutor|Egg Bomb|p1a: Porygon|[miss]
+|-miss|p2a: Exeggutor
+|
+|turn|31
+|
+|move|p1a: Porygon|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|177\/312 par
+|move|p2a: Exeggutor|Egg Bomb|p1a: Porygon
+|-crit|p1a: Porygon
+|-damage|p1a: Porygon|139\/284 par
+|
+|turn|32
+|
+|cant|p1a: Porygon|par
+|move|p2a: Exeggutor|Hyper Beam|p1a: Porygon
+|-damage|p1a: Porygon|34\/284 par
+|
+|turn|33
+|-mustrecharge|p2a: Exeggutor
+|-mustrecharge|p2a: Exeggutor
+|
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|176\/284 par
+|cant|p2a: Exeggutor|recharge
+|
+|turn|34
+|
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|284\/284 par
+|cant|p2a: Exeggutor|par
+|
+|turn|35
+|
+|move|p1a: Porygon|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|153\/312 par
+|-unboost|p2a: Exeggutor|spd|1
+|-unboost|p2a: Exeggutor|spa|1
+|move|p2a: Exeggutor|Egg Bomb|p1a: Porygon
+|-crit|p1a: Porygon
+|-damage|p1a: Porygon|150\/284 par
+|
+|turn|36
+|
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|284\/284 par
+|cant|p2a: Exeggutor|par
+|
+|turn|37
+|
+|move|p1a: Porygon|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|118\/312 par
+|-unboost|p2a: Exeggutor|spd|1
+|-unboost|p2a: Exeggutor|spa|1
+|move|p2a: Exeggutor|Egg Bomb|p1a: Porygon|[miss]
+|-miss|p2a: Exeggutor
+|
+|turn|38
+|
+|cant|p1a: Porygon|par
+|cant|p2a: Exeggutor|par
+|
+|turn|39
+|
+|move|p1a: Porygon|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|76\/312 par
+|cant|p2a: Exeggutor|par
+|
+|turn|40
+|
+|cant|p1a: Porygon|par
+|move|p2a: Exeggutor|Egg Bomb|p1a: Porygon
+|-damage|p1a: Porygon|214\/284 par
+|
+|turn|41
+|
+|move|p1a: Porygon|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|28\/312 par
+|move|p2a: Exeggutor|Egg Bomb|p1a: Porygon
+|-crit|p1a: Porygon
+|-damage|p1a: Porygon|71\/284 par
+|
+|turn|42
+|
+|cant|p1a: Porygon|par
+|move|p2a: Exeggutor|Hyper Beam|p1a: Porygon
+|-damage|p1a: Porygon|0 fnt
+|faint|p1a: Porygon
+|
+|switch|p1a: Starmie|Starmie, L79|257\/257
+|turn|43
+|
+|move|p1a: Starmie|Surf|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Kangaskhan|Kangaskhan, L85|352\/352
+|turn|44
+|
+|move|p1a: Starmie|Surf|p2a: Kangaskhan
+|-crit|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|107\/352
+|move|p2a: Kangaskhan|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|157\/257
+|-status|p1a: Starmie|par
+|
+|turn|45
+|
+|move|p2a: Kangaskhan|Hyper Beam|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|switch|p1a: Jolteon|Jolteon, L79|190\/265
+|turn|46
+|
+|move|p1a: Jolteon|Double Kick|p2a: Kangaskhan
+|-supereffective|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|73\/352
+|-damage|p2a: Kangaskhan|39\/352
+|-hitcount|p2a: Kangaskhan|2
+|move|p2a: Kangaskhan|Hyper Beam|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|switch|p1a: Sandslash|Sandslash, L85|48\/301
+|turn|47
+|c|★Eldougi|that one para changed all
+|c|★cfgvetds|yep
+|
+|move|p2a: Kangaskhan|Hyper Beam|p1a: Sandslash
+|-damage|p1a: Sandslash|0 fnt
+|faint|p1a: Sandslash
+|
+|win|cfgvetds
+|raw|Ladder updating...
+|c|★cfgvetds|and no, u luck crit
+|raw|Eldougi's rating: 1367 &rarr; <strong>1332<\/strong><br \/>(-35 for losing)
+|raw|cfgvetds's rating: 1040 &rarr; <strong>1099<\/strong><br \/>(+59 for winning)
+|leave|Eldougi
+|player|p1

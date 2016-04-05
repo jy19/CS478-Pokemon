@@ -1,0 +1,203 @@
+﻿|join|eldougi
+|join|MasterAlex05
+|player|p1|eldougi|170
+|player|p2|MasterAlex05|102
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Koffing|Koffing, L96|272\/272
+|switch|p2a: Electabuzz|Electabuzz, L85|284\/284
+|turn|1
+|
+|move|p2a: Electabuzz|Seismic Toss|p1a: Koffing
+|-damage|p1a: Koffing|187\/272
+|move|p1a: Koffing|Explosion|p2a: Electabuzz
+|-damage|p2a: Electabuzz|0 fnt
+|faint|p2a: Electabuzz
+|faint|p1a: Koffing
+|
+|switch|p1a: Rapidash|Rapidash, L90|300\/300
+|switch|p2a: Kakuna|Kakuna, L99|290\/290
+|turn|2
+|
+|move|p1a: Rapidash|Fire Blast|p2a: Kakuna
+|-supereffective|p2a: Kakuna
+|-damage|p2a: Kakuna|0 fnt
+|faint|p2a: Kakuna
+|
+|switch|p2a: Gyarados|Gyarados, L85|335\/335
+|turn|3
+|
+|switch|p1a: Weezing|Weezing, L90|300\/300
+|move|p2a: Gyarados|Surf|p1a: Weezing
+|-damage|p1a: Weezing|193\/300
+|
+|turn|4
+|
+|switch|p2a: Kangaskhan|Kangaskhan, L85|352\/352
+|move|p1a: Weezing|Thunderbolt|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|253\/352
+|
+|turn|5
+|
+|move|p2a: Kangaskhan|Earthquake|p1a: Weezing
+|-crit|p1a: Weezing
+|-supereffective|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|
+|switch|p1a: Machamp|Machamp, L90|345\/345
+|turn|6
+|
+|move|p2a: Kangaskhan|Earthquake|p1a: Machamp
+|-damage|p1a: Machamp|275\/345
+|move|p1a: Machamp|Submission|p2a: Kangaskhan
+|-supereffective|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|14\/352
+|-damage|p1a: Machamp|216\/345|[from] recoil|[of] p2a: Kangaskhan
+|
+|turn|7
+|
+|move|p2a: Kangaskhan|Hyper Beam|p1a: Machamp
+|-damage|p1a: Machamp|46\/345
+|move|p1a: Machamp|Body Slam|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|faint|p2a: Kangaskhan
+|
+|switch|p2a: Arcanine|Arcanine, L85|327\/327
+|turn|8
+|
+|move|p2a: Arcanine|Hyper Beam|p1a: Machamp
+|-damage|p1a: Machamp|0 fnt
+|faint|p1a: Machamp
+|
+|switch|p1a: Lapras|Lapras, L79|367\/367
+|turn|9
+|
+|switch|p2a: Gyarados|Gyarados, L85|335\/335
+|move|p1a: Lapras|Confuse Ray|p2a: Gyarados
+|-start|p2a: Gyarados|confusion
+|
+|turn|10
+|
+|-activate|p2a: Gyarados|confusion
+|move|p2a: Gyarados|Thunderbolt|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|235\/367
+|move|p1a: Lapras|Thunderbolt|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-damage|p2a: Gyarados|129\/335
+|
+|turn|11
+|
+|-activate|p2a: Gyarados|confusion
+|-damage|p2a: Gyarados|88\/335|[from] confusion
+|move|p1a: Lapras|Thunderbolt|p2a: Gyarados
+|-crit|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|switch|p2a: Arcanine|Arcanine, L85|327\/327
+|turn|12
+|
+|move|p2a: Arcanine|Hyper Beam|p1a: Lapras
+|-damage|p1a: Lapras|99\/367
+|move|p1a: Lapras|Confuse Ray|p2a: Arcanine
+|-start|p2a: Arcanine|confusion
+|
+|turn|13
+|-mustrecharge|p2a: Arcanine
+|-mustrecharge|p2a: Arcanine
+|
+|cant|p2a: Arcanine|recharge
+|move|p1a: Lapras|Thunderbolt|p2a: Arcanine
+|-damage|p2a: Arcanine|266\/327
+|
+|turn|14
+|
+|-activate|p2a: Arcanine|confusion
+|move|p2a: Arcanine|Hyper Beam|p1a: Lapras|[miss]
+|-miss|p2a: Arcanine
+|move|p1a: Lapras|Thunderbolt|p2a: Arcanine
+|-crit|p2a: Arcanine
+|-damage|p2a: Arcanine|148\/327
+|
+|turn|15
+|
+|-activate|p2a: Arcanine|confusion
+|move|p2a: Arcanine|Hyper Beam|p1a: Lapras
+|-crit|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|
+|switch|p1a: Rapidash|Rapidash, L90|300\/300
+|turn|16
+|
+|move|p1a: Rapidash|Reflect|p1a: Rapidash
+|-start|p1a: Rapidash|Reflect
+|-end|p2a: Arcanine|confusion
+|move|p2a: Arcanine|Mimic|p1a: Rapidash
+|-start|p2a: Arcanine|Mimic|Fire Blast
+|
+|turn|17
+|
+|move|p1a: Rapidash|Body Slam|p2a: Arcanine
+|-damage|p2a: Arcanine|70\/327
+|-status|p2a: Arcanine|par
+|move|p2a: Arcanine|Hyper Beam|p1a: Rapidash|[miss]
+|-miss|p2a: Arcanine
+|
+|turn|18
+|
+|move|p1a: Rapidash|Body Slam|p2a: Arcanine
+|-crit|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|switch|p2a: Moltres|Moltres, L85|327\/327
+|turn|19
+|
+|move|p1a: Rapidash|Toxic|p2a: Moltres
+|-status|p2a: Moltres|tox
+|move|p2a: Moltres|Agility|p2a: Moltres
+|-boost|p2a: Moltres|spe|2
+|-damage|p2a: Moltres|307\/327 tox|[from] psn
+|
+|turn|20
+|
+|move|p2a: Moltres|Hyper Beam|p1a: Rapidash
+|-damage|p1a: Rapidash|238\/300
+|-damage|p2a: Moltres|267\/327 tox|[from] tox|[of] p1a: Rapidash
+|move|p1a: Rapidash|Body Slam|p2a: Moltres
+|-damage|p2a: Moltres|194\/327 tox
+|
+|turn|21
+|-mustrecharge|p2a: Moltres
+|-mustrecharge|p2a: Moltres
+|
+|cant|p2a: Moltres|recharge
+|-damage|p2a: Moltres|134\/327 tox|[from] tox|[of] p1a: Rapidash
+|move|p1a: Rapidash|Body Slam|p2a: Moltres
+|-crit|p2a: Moltres
+|-damage|p2a: Moltres|6\/327 tox
+|
+|turn|22
+|
+|move|p2a: Moltres|Substitute|p2a: Moltres
+|-fail|p2a: Moltres|move: Substitute|[weak]
+|-damage|p2a: Moltres|0 fnt|[from] psn
+|faint|p2a: Moltres
+|
+|win|eldougi
+|raw|Ladder updating...
+|raw|eldougi's rating: 1230 &rarr; <strong>1240<\/strong><br \/>(+10 for winning)
+|raw|MasterAlex05's rating: 1000 &rarr; <strong>1000<\/strong><br \/>(+0 for losing)
+|leave|MasterAlex05
+|player|p2

@@ -1,0 +1,296 @@
+﻿|j|MALESANI
+|j|BulletTooth Tony
+|player|p1|MALESANI|238
+|player|p2|BulletTooth Tony|252
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|16531,46952,47425,1022
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Kangaskhan|Kangaskhan, L85|352\/352
+|switch|p2a: Magmar|Magmar, L90|300\/300
+|turn|1
+|choice|move 3|switch 6
+|
+|switch|p2a: Wigglytuff|Wigglytuff, L90|435\/435
+|move|p1a: Kangaskhan|Surf|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|383\/435
+|
+|turn|2
+|choice|switch 2|move 1
+|
+|switch|p1a: Gastly|Gastly, L96|252\/252
+|move|p2a: Wigglytuff|Thunder Wave|p1a: Gastly
+|-status|p1a: Gastly|par
+|
+|turn|3
+|choice|move 1|switch 4
+|
+|switch|p2a: Pinsir|Pinsir, L85|284\/284
+|move|p1a: Gastly|Hypnosis|p2a: Pinsir
+|-status|p2a: Pinsir|slp
+|
+|turn|4
+|choice|move 2|switch 6
+|
+|switch|p2a: Magmar|Magmar, L90|300\/300
+|move|p1a: Gastly|Psychic|p2a: Magmar
+|-damage|p2a: Magmar|226\/300
+|
+|turn|5
+|choice|switch 6|move 4
+|
+|switch|p1a: Dragonite|Dragonite, L85|328\/328
+|move|p2a: Magmar|Confuse Ray|p1a: Dragonite
+|-start|p1a: Dragonite|confusion
+|
+|turn|6
+|j|Daddy's Milk
+|choice|move 4|move 3
+|
+|move|p2a: Magmar|Body Slam|p1a: Dragonite
+|-damage|p1a: Dragonite|266\/328
+|-activate|p1a: Dragonite|confusion
+|-damage|p1a: Dragonite|228\/328|[from] confusion
+|
+|turn|7
+|choice|move 4|move 3
+|
+|move|p2a: Magmar|Body Slam|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-damage|p1a: Dragonite|95\/328
+|-end|p1a: Dragonite|confusion
+|move|p1a: Dragonite|Thunder Wave|p2a: Magmar
+|-status|p2a: Magmar|par
+|
+|turn|8
+|choice|move 1|move 3
+|
+|move|p1a: Dragonite|Surf|p2a: Magmar
+|-supereffective|p2a: Magmar
+|-damage|p2a: Magmar|100\/300 par
+|move|p2a: Magmar|Body Slam|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|choice|switch 3|
+|
+|switch|p1a: Kingler|Kingler, L85|267\/267
+|turn|9
+|choice|move 1|move 3
+|
+|move|p1a: Kingler|Crabhammer|p2a: Magmar
+|-crit|p2a: Magmar
+|-supereffective|p2a: Magmar
+|-damage|p2a: Magmar|0 fnt
+|faint|p2a: Magmar
+|c|★BulletTooth Tony|nice hit shane
+|c|★BulletTooth Tony|niiice hit
+|c| Daddy's Milk|fight club
+|choice||switch 4
+|
+|switch|p2a: Wigglytuff|Wigglytuff, L90|383\/435
+|turn|10
+|choice|switch 6|move 3
+|
+|switch|p1a: Gastly|Gastly, L96|252\/252 par
+|move|p2a: Wigglytuff|Sing|p1a: Gastly|[miss]
+|-miss|p2a: Wigglytuff
+|
+|turn|11
+|choice|move 2|switch 6
+|
+|switch|p2a: Pinsir|Pinsir, L85|284\/284 slp
+|cant|p1a: Gastly|par
+|
+|turn|12
+|choice|move 2|move 3
+|
+|cant|p2a: Pinsir|slp
+|move|p1a: Gastly|Psychic|p2a: Pinsir
+|-crit|p2a: Pinsir
+|-damage|p2a: Pinsir|75\/284 slp
+|-unboost|p2a: Pinsir|spd|1
+|-unboost|p2a: Pinsir|spa|1
+|
+|turn|13
+|choice|move 2|move 3
+|
+|cant|p2a: Pinsir|slp
+|move|p1a: Gastly|Psychic|p2a: Pinsir
+|-damage|p2a: Pinsir|0 fnt
+|faint|p2a: Pinsir
+|choice||switch 3
+|
+|switch|p2a: Nidoqueen|Nidoqueen, L85|327\/327
+|turn|14
+|choice|move 1|move 1
+|
+|move|p2a: Nidoqueen|Earthquake|p1a: Gastly
+|-supereffective|p1a: Gastly
+|-damage|p1a: Gastly|0 fnt
+|faint|p1a: Gastly
+|choice|switch 6|
+|
+|switch|p1a: Kingler|Kingler, L85|267\/267
+|turn|15
+|choice|move 1|switch 6
+|
+|switch|p2a: Wigglytuff|Wigglytuff, L90|383\/435
+|move|p1a: Kingler|Crabhammer|p2a: Wigglytuff
+|-crit|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|212\/435
+|
+|turn|16
+|choice|move 1|move 1
+|
+|move|p1a: Kingler|Crabhammer|p2a: Wigglytuff|[miss]
+|-miss|p1a: Kingler
+|move|p2a: Wigglytuff|Thunder Wave|p1a: Kingler
+|-status|p1a: Kingler|par
+|
+|turn|17
+|choice|move 1|move 2
+|
+|move|p2a: Wigglytuff|Double-Edge|p1a: Kingler
+|-damage|p1a: Kingler|178\/267 par
+|-damage|p2a: Wigglytuff|190\/435|[from] recoil|[of] p1a: Kingler
+|cant|p1a: Kingler|par
+|
+|turn|18
+|choice|move 2|move 2
+|
+|move|p2a: Wigglytuff|Double-Edge|p1a: Kingler
+|-crit|p1a: Kingler
+|-damage|p1a: Kingler|31\/267 par
+|-damage|p2a: Wigglytuff|154\/435|[from] recoil|[of] p1a: Kingler
+|move|p1a: Kingler|Hyper Beam|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|0 fnt
+|faint|p2a: Wigglytuff
+|choice||switch 2
+|
+|switch|p2a: Slowbro|Slowbro, L79|312\/312
+|turn|19
+|choice|move 3|move 1
+|
+|move|p2a: Slowbro|Surf|p1a: Kingler
+|-resisted|p1a: Kingler
+|-damage|p1a: Kingler|0 fnt
+|faint|p1a: Kingler
+|choice|switch 2|
+|
+|switch|p1a: Kangaskhan|Kangaskhan, L85|352\/352
+|turn|20
+|choice|move 1|move 3
+|
+|move|p1a: Kangaskhan|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|224\/312
+|move|p2a: Slowbro|Thunder Wave|p1a: Kangaskhan
+|-status|p1a: Kangaskhan|par
+|
+|turn|21
+|choice|move 1|move 2
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|move|p1a: Kangaskhan|Body Slam|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-damage|p2a: Slowbro|52\/312
+|-status|p2a: Slowbro|par
+|
+|turn|22
+|choice|move 1|move 4
+|
+|cant|p2a: Slowbro|par
+|move|p1a: Kangaskhan|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|choice||switch 5
+|
+|switch|p2a: Kabutops|Kabutops, L85|276\/276
+|turn|23
+|choice|move 4|move 4
+|
+|move|p2a: Kabutops|Surf|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|214\/352 par
+|move|p1a: Kangaskhan|Earthquake|p2a: Kabutops
+|-crit|p2a: Kabutops
+|-supereffective|p2a: Kabutops
+|-damage|p2a: Kabutops|33\/276
+|
+|turn|24
+|choice|move 4|move 4
+|
+|move|p2a: Kabutops|Surf|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|78\/352 par
+|cant|p1a: Kangaskhan|par
+|
+|turn|25
+|choice|move 4|move 4
+|
+|move|p2a: Kabutops|Surf|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|0 fnt
+|faint|p1a: Kangaskhan
+|choice|switch 5|
+|
+|switch|p1a: Hitmonlee|Hitmonlee, L90|273\/273
+|turn|26
+|choice|move 1|move 4
+|
+|move|p1a: Hitmonlee|Seismic Toss|p2a: Kabutops
+|-damage|p2a: Kabutops|0 fnt
+|faint|p2a: Kabutops
+|choice||switch 6
+|
+|switch|p2a: Nidoqueen|Nidoqueen, L85|327\/327
+|turn|27
+|choice|move 1|move 2
+|
+|move|p1a: Hitmonlee|Seismic Toss|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|237\/327
+|move|p2a: Nidoqueen|Blizzard|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|170\/273
+|
+|turn|28
+|choice|move 1|move 2
+|
+|move|p1a: Hitmonlee|Seismic Toss|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|147\/327
+|move|p2a: Nidoqueen|Blizzard|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|62\/273
+|
+|turn|29
+|choice|move 1|move 4
+|
+|move|p1a: Hitmonlee|Seismic Toss|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|57\/327
+|move|p2a: Nidoqueen|Body Slam|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|0 fnt
+|faint|p1a: Hitmonlee
+|choice|switch 4|
+|
+|switch|p1a: Lapras|Lapras, L79|367\/367
+|turn|30
+|choice|move 3|move 2
+|
+|move|p2a: Nidoqueen|Blizzard|p1a: Lapras
+|-resisted|p1a: Lapras
+|-damage|p1a: Lapras|348\/367
+|move|p1a: Lapras|Blizzard|p2a: Nidoqueen
+|-crit|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|0 fnt
+|faint|p2a: Nidoqueen
+|
+|win|MALESANI
+|player|p1
+|player|p2
+|raw|MALESANI's rating: 1450 &rarr; <strong>1458<\/strong><br \/>(+8 for winning)
+|raw|BulletTooth Tony's rating: 1228 &rarr; <strong>1217<\/strong><br \/>(-11 for losing)
+|c|★MALESANI|gg

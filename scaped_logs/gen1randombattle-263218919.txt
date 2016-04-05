@@ -1,0 +1,190 @@
+﻿|join|rdmm1234
+|join|andrewandres
+|player|p1|rdmm1234|293
+|player|p2|andrewandres|102
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Scyther|Scyther, L90|309\/309
+|switch|p2a: Bulbasaur|Bulbasaur, L96|281\/281
+|turn|1
+|c|★rdmm1234|Ah oc
+|
+|move|p1a: Scyther|Slash|p2a: Bulbasaur
+|-crit|p2a: Bulbasaur
+|-damage|p2a: Bulbasaur|135\/281
+|move|p2a: Bulbasaur|Sleep Powder|p1a: Scyther|[miss]
+|-miss|p2a: Bulbasaur
+|
+|turn|2
+|c|★andrewandres|si te bosteas
+|c|★andrewandres|ganas
+|
+|move|p1a: Scyther|Slash|p2a: Bulbasaur
+|-crit|p2a: Bulbasaur
+|-damage|p2a: Bulbasaur|0 fnt
+|faint|p2a: Bulbasaur
+|
+|switch|p2a: Arcanine|Arcanine, L85|327\/327
+|turn|3
+|
+|switch|p1a: Geodude|Geodude, L96|272\/272
+|move|p2a: Arcanine|Fire Blast|p1a: Geodude
+|-crit|p1a: Geodude
+|-resisted|p1a: Geodude
+|-damage|p1a: Geodude|99\/272
+|
+|turn|4
+|c|★andrewandres|parece que tengo la suerte en contra..
+|join|StarkVGC
+|
+|switch|p2a: Mew|Mew, L74|300\/300
+|move|p1a: Geodude|Earthquake|p2a: Mew
+|-damage|p2a: Mew|174\/300
+|
+|turn|5
+|
+|move|p2a: Mew|Earthquake|p1a: Geodude
+|-crit|p1a: Geodude
+|-supereffective|p1a: Geodude
+|-damage|p1a: Geodude|0 fnt
+|faint|p1a: Geodude
+|join|germandd
+|leave|germandd
+|
+|switch|p1a: Gengar|Gengar, L79|257\/257
+|turn|6
+|
+|move|p1a: Gengar|Hypnosis|p2a: Mew
+|-status|p2a: Mew|slp
+|cant|p2a: Mew|slp
+|
+|turn|7
+|c|★andrewandres|vaya ala primera
+|
+|switch|p2a: Arcanine|Arcanine, L85|327\/327
+|move|p1a: Gengar|Mega Drain|p2a: Arcanine
+|-crit|p2a: Arcanine
+|-resisted|p2a: Arcanine
+|-damage|p2a: Arcanine|294\/327
+|
+|turn|8
+|
+|move|p1a: Gengar|Psychic|p2a: Arcanine
+|-damage|p2a: Arcanine|219\/327
+|move|p2a: Arcanine|Fire Blast|p1a: Gengar|[miss]
+|-miss|p2a: Arcanine
+|
+|turn|9
+|c|★andrewandres|3-0
+|
+|move|p1a: Gengar|Psychic|p2a: Arcanine
+|-damage|p2a: Arcanine|143\/327
+|move|p2a: Arcanine|Fire Blast|p1a: Gengar
+|-damage|p1a: Gengar|168\/257
+|-status|p1a: Gengar|brn
+|
+|turn|10
+|join|PlazmaNoob
+|
+|move|p1a: Gengar|Psychic|p2a: Arcanine
+|-crit|p2a: Arcanine
+|-damage|p2a: Arcanine|13\/327
+|-unboost|p2a: Arcanine|spd|1
+|-unboost|p2a: Arcanine|spa|1
+|-damage|p1a: Gengar|152\/257 brn|[from] brn|[of] p2a: Arcanine
+|move|p2a: Arcanine|Fire Blast|p1a: Gengar
+|-damage|p1a: Gengar|85\/257 brn
+|
+|turn|11
+|
+|move|p1a: Gengar|Psychic|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|join|sakuralud
+|
+|switch|p2a: Tentacruel|Tentacruel, L85|310\/310
+|turn|12
+|
+|move|p2a: Tentacruel|Hydro Pump|p1a: Gengar|[miss]
+|-miss|p2a: Tentacruel
+|move|p1a: Gengar|Explosion|p2a: Tentacruel
+|-damage|p2a: Tentacruel|205\/310
+|faint|p1a: Gengar
+|c|★andrewandres|4-0
+|c|★rdmm1234|Khá
+|
+|switch|p1a: Magneton|Magneton, L90|273\/273
+|turn|13
+|leave|StarkVGC
+|
+|switch|p2a: Jolteon|Jolteon, L79|265\/265
+|move|p1a: Magneton|Thunder Wave|p2a: Jolteon
+|-status|p2a: Jolteon|par
+|
+|turn|14
+|
+|move|p1a: Magneton|Mimic|p2a: Jolteon
+|-start|p1a: Magneton|Mimic|Sand Attack
+|move|p2a: Jolteon|Body Slam|p1a: Magneton
+|-damage|p1a: Magneton|237\/273
+|
+|turn|15
+|
+|move|p1a: Magneton|Sand Attack|p2a: Jolteon
+|-unboost|p2a: Jolteon|accuracy|1
+|move|p2a: Jolteon|Body Slam|p1a: Magneton
+|-damage|p1a: Magneton|198\/273
+|
+|turn|16
+|c|★andrewandres|dos y no paraliza
+|
+|switch|p2a: Persian|Persian, L79|265\/265
+|move|p1a: Magneton|Double-Edge|p2a: Persian
+|-damage|p2a: Persian|190\/265
+|-damage|p1a: Magneton|180\/273|[from] recoil|[of] p2a: Persian
+|
+|turn|17
+|leave|sakuralud
+|
+|move|p2a: Persian|Slash|p1a: Magneton
+|-crit|p1a: Magneton
+|-damage|p1a: Magneton|89\/273
+|move|p1a: Magneton|Thunder Wave|p2a: Persian
+|-status|p2a: Persian|par
+|
+|turn|18
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Persian
+|-crit|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|faint|p2a: Persian
+|c|★andrewandres|q caxondo jajajaja
+|
+|switch|p2a: Tentacruel|Tentacruel, L85|205\/310
+|turn|19
+|c|★andrewandres|venga
+|c|★andrewandres|vuelve a fallar otra vez
+|
+|move|p2a: Tentacruel|Hydro Pump|p1a: Magneton|[miss]
+|-miss|p2a: Tentacruel
+|move|p1a: Magneton|Thunderbolt|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|c|★rdmm1234|ajjaja
+|c|★andrewandres|enfin..
+|c|★andrewandres|queda demostrado
+|c|★andrewandres|sin suerte
+|c|★andrewandres|no se me gana
+|c|★andrewandres|gracias x particpar
+|-message|andrewandres forfeited.
+|
+|win|rdmm1234
+|leave|andrewandres
+|player|p2

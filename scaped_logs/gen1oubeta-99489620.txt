@@ -1,0 +1,221 @@
+﻿|join|bumbaloe
+|join|The Dawgg
+|player|p1|bumbaloe|272
+|player|p2|The Dawgg|238
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Blastoise|Blastoise|361\/361
+|turn|1
+|
+|move|p1a: Alakazam|Reflect|p1a: Alakazam
+|move|p2a: Blastoise|Ice Beam|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|203\/313
+|
+|turn|2
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Blastoise
+|-status|p2a: Blastoise|par
+|move|p2a: Blastoise|Ice Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|148\/313
+|
+|turn|3
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|304\/313
+|move|p2a: Blastoise|Ice Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|246\/313
+|
+|turn|4
+|
+|switch|p1a: Gengar|Gengar|323\/323
+|move|p2a: Blastoise|Ice Beam|p1a: Gengar
+|-damage|p1a: Gengar|262\/323
+|-status|p1a: Gengar|frz
+|
+|turn|5
+|
+|cant|p1a: Gengar|frz
+|move|p2a: Blastoise|Ice Beam|p1a: Gengar
+|-damage|p1a: Gengar|203\/323 frz
+|
+|turn|6
+|
+|cant|p1a: Gengar|frz
+|move|p2a: Blastoise|Surf|p1a: Gengar
+|-damage|p1a: Gengar|115\/323 frz
+|
+|turn|7
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Blastoise|Surf|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|347\/393
+|
+|turn|8
+|
+|switch|p1a: Gengar|Gengar|115\/323 frz
+|switch|p2a: Dragonite|Dragonite|385\/385
+|
+|turn|9
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Dragonite|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|636\/703
+|
+|turn|10
+|
+|move|p2a: Dragonite|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|411\/703
+|-status|p1a: Chansey|par
+|cant|p1a: Chansey|par
+|
+|turn|11
+|
+|move|p2a: Dragonite|Body Slam|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|
+|switch|p1a: Exeggutor|Exeggutor|347\/393
+|turn|12
+|
+|move|p2a: Dragonite|Ice Beam|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|223\/393
+|-status|p1a: Exeggutor|frz
+|cant|p1a: Exeggutor|frz
+|
+|turn|13
+|
+|switch|p1a: Alakazam|Alakazam|246\/313
+|move|p2a: Dragonite|Body Slam|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|turn|14
+|
+|move|p2a: Dragonite|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|422\/523
+|move|p1a: Snorlax|Body Slam|p2a: Dragonite
+|-damage|p2a: Dragonite|271\/385
+|-status|p2a: Dragonite|par
+|
+|turn|15
+|
+|move|p1a: Snorlax|Body Slam|p2a: Dragonite
+|-damage|p2a: Dragonite|162\/385 par
+|move|p2a: Dragonite|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|311\/523
+|-status|p1a: Snorlax|par
+|
+|turn|16
+|
+|cant|p2a: Dragonite|par
+|cant|p1a: Snorlax|par
+|
+|turn|17
+|
+|cant|p2a: Dragonite|par
+|move|p1a: Snorlax|Hyper Beam|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|18
+|
+|switch|p1a: Gengar|Gengar|115\/323 frz
+|move|p2a: Tauros|Body Slam|p1a: Gengar
+|-immune|p1a: Gengar|[msg]
+|
+|turn|19
+|
+|cant|p1a: Gengar|frz
+|move|p2a: Tauros|Blizzard|p1a: Gengar
+|-crit|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|20
+|
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|247\/353
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|244\/353
+|
+|turn|21
+|
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|144\/353
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|139\/353
+|-status|p2a: Tauros|par
+|
+|turn|22
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|
+|switch|p2a: Zapdos|Zapdos|383\/383
+|turn|23
+|
+|move|p1a: Tauros|Blizzard|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|245\/383
+|move|p2a: Zapdos|Thunderbolt|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|
+|switch|p1a: Snorlax|Snorlax|311\/523 par
+|turn|24
+|
+|move|p2a: Zapdos|Thunder|p1a: Snorlax|[miss]
+|-miss|p2a: Zapdos
+|move|p1a: Snorlax|Hyper Beam|p2a: Zapdos|[miss]
+|-miss|p1a: Snorlax
+|
+|turn|25
+|
+|move|p2a: Zapdos|Thunder|p1a: Snorlax
+|-damage|p1a: Snorlax|114\/523 par
+|cant|p1a: Snorlax|par
+|
+|turn|26
+|chat|bumbaloe|dude
+|chat|bumbaloe|your rng
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|-message|bumbaloe forfeited.
+|
+|win|The Dawgg
+|raw|Ladder updating...
+|leave|bumbaloe
+|player|p1
+|raw|bumbaloe's rating: 1316 &rarr; <strong>1286<\/strong><br \/>(-30 for losing)
+|raw|The Dawgg's rating: 1125 &rarr; <strong>1163<\/strong><br \/>(+38 for winning)

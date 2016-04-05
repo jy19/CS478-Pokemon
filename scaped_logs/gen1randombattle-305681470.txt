@@ -1,0 +1,211 @@
+﻿|j|Libertarian Master
+|j|Dervodel
+|player|p1|Libertarian Master|1
+|player|p2|Dervodel|238
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|29654,25120,2462,28899
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Weezing|Weezing, L90|300\/300
+|switch|p2a: Rhydon|Rhydon, L79|328\/328
+|turn|1
+|c|★Libertarian Master|glhf
+|choice|switch 5|move 4
+|
+|switch|p1a: Golduck|Golduck, L85|310\/310
+|move|p2a: Rhydon|Earthquake|p1a: Golduck
+|-damage|p1a: Golduck|193\/310
+|
+|turn|2
+|choice|move 2|switch 5
+|
+|switch|p2a: Slowbro|Slowbro, L79|312\/312
+|move|p1a: Golduck|Surf|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|265\/312
+|
+|turn|3
+|choice|switch 6|move 2
+|
+|switch|p1a: Rhydon|Rhydon, L79|328\/328
+|move|p2a: Slowbro|Thunder Wave|p1a: Rhydon
+|-immune|p1a: Rhydon|[msg]
+|
+|turn|4
+|choice|switch 5|move 1
+|
+|switch|p1a: Weezing|Weezing, L90|300\/300
+|move|p2a: Slowbro|Surf|p1a: Weezing
+|-crit|p1a: Weezing
+|-damage|p1a: Weezing|142\/300
+|
+|turn|5
+|choice|move 4|switch 4
+|
+|switch|p2a: Graveler|Graveler, L85|267\/267
+|move|p1a: Weezing|Thunder|p2a: Graveler
+|-immune|p2a: Graveler|[msg]
+|
+|turn|6
+|choice|switch 4|move 2
+|
+|switch|p1a: Articuno|Articuno, L79|304\/304
+|move|p2a: Graveler|Rock Slide|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|0 fnt
+|faint|p1a: Articuno
+|choice|switch 6|
+|
+|switch|p1a: Golduck|Golduck, L85|193\/310
+|turn|7
+|choice|move 1|switch 4
+|
+|switch|p2a: Slowbro|Slowbro, L79|265\/312
+|move|p1a: Golduck|Amnesia|p1a: Golduck
+|-boost|p1a: Golduck|spd|2
+|-boost|p1a: Golduck|spa|2
+|
+|turn|8
+|choice|move 1|move 2
+|
+|move|p1a: Golduck|Amnesia|p1a: Golduck
+|-boost|p1a: Golduck|spd|2
+|-boost|p1a: Golduck|spa|2
+|move|p2a: Slowbro|Thunder Wave|p1a: Golduck
+|-status|p1a: Golduck|par
+|
+|turn|9
+|choice|move 1|move 4
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|move|p1a: Golduck|Amnesia|p1a: Golduck
+|-boost|p1a: Golduck|spd|2
+|-boost|p1a: Golduck|spa|2
+|
+|turn|10
+|choice|move 2|move 4
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|move|p1a: Golduck|Surf|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|198\/312
+|
+|turn|11
+|choice|move 2|move 4
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|cant|p1a: Golduck|par
+|
+|turn|12
+|choice|move 2|move 1
+|
+|move|p2a: Slowbro|Surf|p1a: Golduck
+|-resisted|p1a: Golduck
+|-damage|p1a: Golduck|154\/310 par
+|move|p1a: Golduck|Surf|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|143\/312
+|
+|turn|13
+|choice|move 2|move 1
+|
+|move|p2a: Slowbro|Surf|p1a: Golduck
+|-resisted|p1a: Golduck
+|-damage|p1a: Golduck|112\/310 par
+|move|p1a: Golduck|Surf|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|88\/312
+|
+|turn|14
+|choice|move 2|move 1
+|
+|move|p2a: Slowbro|Surf|p1a: Golduck
+|-resisted|p1a: Golduck
+|-damage|p1a: Golduck|74\/310 par
+|cant|p1a: Golduck|par
+|
+|turn|15
+|choice|move 2|move 1
+|
+|move|p2a: Slowbro|Surf|p1a: Golduck
+|-resisted|p1a: Golduck
+|-damage|p1a: Golduck|36\/310 par
+|move|p1a: Golduck|Surf|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|37\/312
+|
+|turn|16
+|choice|move 2|move 3
+|
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|-heal|p2a: Slowbro|312\/312 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|cant|p1a: Golduck|par
+|
+|turn|17
+|choice|switch 3|move 1
+|
+|switch|p1a: Persian|Persian, L79|265\/265
+|cant|p2a: Slowbro|slp
+|
+|turn|18
+|choice|move 2|move 1
+|
+|move|p1a: Persian|Bubble Beam|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|308\/312 slp
+|-curestatus|p2a: Slowbro|slp
+|
+|turn|19
+|choice|move 1|move 1
+|
+|move|p1a: Persian|Slash|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-damage|p2a: Slowbro|206\/312
+|move|p2a: Slowbro|Surf|p1a: Persian
+|-damage|p1a: Persian|0 fnt
+|faint|p1a: Persian
+|choice|switch 5|
+|
+|switch|p1a: Rhydon|Rhydon, L79|328\/328
+|turn|20
+|choice|move 1|move 1
+|
+|move|p1a: Rhydon|Earthquake|p2a: Slowbro
+|-damage|p2a: Slowbro|105\/312
+|move|p2a: Slowbro|Surf|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|choice|switch 2|
+|
+|switch|p1a: Hitmonchan|Hitmonchan, L90|273\/273
+|turn|21
+|choice|move 4|move 1
+|
+|move|p1a: Hitmonchan|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|39\/312
+|-status|p2a: Slowbro|par
+|move|p2a: Slowbro|Surf|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|0 fnt
+|faint|p1a: Hitmonchan
+|-message|Libertarian Master forfeited.
+|
+|win|Dervodel
+|l|Libertarian Master
+|player|p1
+|raw|Libertarian Master's rating: 1321 &rarr; <strong>1305<\/strong><br \/>(-16 for losing)
+|raw|Dervodel's rating: 1381 &rarr; <strong>1397<\/strong><br \/>(+16 for winning)

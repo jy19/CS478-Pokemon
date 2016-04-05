@@ -1,0 +1,282 @@
+﻿|join|Flykkiller
+|join|FailMoore
+|player|p1|Flykkiller|101
+|player|p2|FailMoore|153
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Magnemite|Magnemite, L96|243\/243
+|switch|p2a: Arbok|Arbok, L85|276\/276
+|turn|1
+|
+|move|p2a: Arbok|Earthquake|p1a: Magnemite
+|-supereffective|p1a: Magnemite
+|-damage|p1a: Magnemite|98\/243
+|move|p1a: Magnemite|Thunder Wave|p2a: Arbok
+|-status|p2a: Arbok|par
+|
+|turn|2
+|c|★Flykkiller|!weakness arbok
+|raw|<div class="infobox">Arbok (ignoring abilities):<br><span class="message-effect-weak">Weaknesses<\/span>: Ground, Psychic<br><span class="message-effect-resist">Resistances<\/span>: Bug, Fairy, Fighting, Grass, Poison<br><span class="message-effect-immune">Immunities<\/span>: <font color=#999999>None<\/font><\/div>
+|c|★FailMoore|so we meet again XD
+|
+|switch|p1a: Lickitung|Lickitung, L85|327\/327
+|move|p2a: Arbok|Earthquake|p1a: Lickitung
+|-damage|p1a: Lickitung|257\/327
+|
+|turn|3
+|
+|move|p1a: Lickitung|Earthquake|p2a: Arbok
+|-supereffective|p2a: Arbok
+|-damage|p2a: Arbok|162\/276 par
+|move|p2a: Arbok|Body Slam|p1a: Lickitung
+|-damage|p1a: Lickitung|191\/327
+|
+|turn|4
+|
+|move|p1a: Lickitung|Earthquake|p2a: Arbok
+|-supereffective|p2a: Arbok
+|-damage|p2a: Arbok|42\/276 par
+|move|p2a: Arbok|Body Slam|p1a: Lickitung
+|-crit|p1a: Lickitung
+|-damage|p1a: Lickitung|71\/327
+|
+|turn|5
+|
+|switch|p2a: Moltres|Moltres, L85|327\/327
+|move|p1a: Lickitung|Hyper Beam|p2a: Moltres
+|-damage|p2a: Moltres|218\/327
+|
+|turn|6
+|-mustrecharge|p1a: Lickitung
+|-mustrecharge|p1a: Lickitung
+|
+|move|p2a: Moltres|Fire Blast|p1a: Lickitung
+|-damage|p1a: Lickitung|0 fnt
+|faint|p1a: Lickitung
+|
+|switch|p1a: Vaporeon|Vaporeon, L85|395\/395
+|turn|7
+|
+|move|p2a: Moltres|Toxic|p1a: Vaporeon
+|-status|p1a: Vaporeon|tox
+|move|p1a: Vaporeon|Surf|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|44\/327
+|-damage|p1a: Vaporeon|371\/395 tox|[from] tox|[of] p2a: Moltres
+|
+|turn|8
+|
+|switch|p2a: Vaporeon|Vaporeon, L85|395\/395
+|move|p1a: Vaporeon|Blizzard|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|356\/395
+|-damage|p1a: Vaporeon|323\/395 tox|[from] tox|[of] p2a: Vaporeon
+|
+|turn|9
+|
+|switch|p1a: Kingler|Kingler, L85|267\/267
+|move|p2a: Vaporeon|Body Slam|p1a: Kingler
+|-crit|p1a: Kingler
+|-damage|p1a: Kingler|195\/267
+|
+|turn|10
+|
+|move|p1a: Kingler|Crabhammer|p2a: Vaporeon
+|-crit|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|300\/395
+|move|p2a: Vaporeon|Hydro Pump|p1a: Kingler
+|-resisted|p1a: Kingler
+|-damage|p1a: Kingler|97\/267
+|
+|turn|11
+|
+|move|p1a: Kingler|Body Slam|p2a: Vaporeon
+|-damage|p2a: Vaporeon|211\/395
+|-status|p2a: Vaporeon|par
+|move|p2a: Vaporeon|Hydro Pump|p1a: Kingler|[miss]
+|-miss|p2a: Vaporeon
+|
+|turn|12
+|
+|move|p1a: Kingler|Body Slam|p2a: Vaporeon
+|-crit|p2a: Vaporeon
+|-damage|p2a: Vaporeon|14\/395 par
+|move|p2a: Vaporeon|Hydro Pump|p1a: Kingler
+|-resisted|p1a: Kingler
+|-damage|p1a: Kingler|5\/267
+|
+|turn|13
+|
+|move|p1a: Kingler|Body Slam|p2a: Vaporeon
+|-crit|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|faint|p2a: Vaporeon
+|
+|switch|p2a: Raichu|Raichu, L85|276\/276
+|turn|14
+|
+|switch|p1a: Magnemite|Magnemite, L96|98\/243
+|move|p2a: Raichu|Body Slam|p1a: Magnemite
+|-damage|p1a: Magnemite|38\/243
+|
+|turn|15
+|
+|move|p2a: Raichu|Body Slam|p1a: Magnemite
+|-crit|p1a: Magnemite
+|-damage|p1a: Magnemite|0 fnt
+|faint|p1a: Magnemite
+|
+|switch|p1a: Venusaur|Venusaur, L85|310\/310
+|turn|16
+|
+|move|p2a: Raichu|Body Slam|p1a: Venusaur
+|-damage|p1a: Venusaur|250\/310
+|-status|p1a: Venusaur|par
+|cant|p1a: Venusaur|par
+|
+|turn|17
+|
+|move|p2a: Raichu|Body Slam|p1a: Venusaur
+|-damage|p1a: Venusaur|192\/310 par
+|move|p1a: Venusaur|Sleep Powder|p2a: Raichu
+|-status|p2a: Raichu|slp
+|
+|turn|18
+|
+|cant|p2a: Raichu|slp
+|move|p1a: Venusaur|Swords Dance|p1a: Venusaur
+|-boost|p1a: Venusaur|atk|2
+|
+|turn|19
+|
+|switch|p2a: Raticate|Raticate, L85|267\/267
+|move|p1a: Venusaur|Leech Seed|p2a: Raticate
+|-start|p2a: Raticate|move: Leech Seed
+|
+|turn|20
+|
+|move|p2a: Raticate|Blizzard|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|89\/310 par
+|-damage|p2a: Raticate|251\/267|[from] Leech Seed|[of] p1a: Venusaur
+|-heal|p1a: Venusaur|105\/310 par|[silent]
+|cant|p1a: Venusaur|par
+|
+|turn|21
+|
+|switch|p1a: Kingler|Kingler, L85|5\/267
+|move|p2a: Raticate|Blizzard|p1a: Kingler
+|-resisted|p1a: Kingler
+|-damage|p1a: Kingler|0 fnt
+|faint|p1a: Kingler
+|
+|switch|p1a: Nidorino|Nidorino, L90|293\/293
+|turn|22
+|
+|move|p2a: Raticate|Super Fang|p1a: Nidorino|[miss]
+|-miss|p2a: Raticate
+|-damage|p2a: Raticate|235\/267|[from] Leech Seed|[of] p1a: Nidorino
+|move|p1a: Nidorino|Bubble Beam|p2a: Raticate
+|-crit|p2a: Raticate
+|-damage|p2a: Raticate|139\/267
+|
+|turn|23
+|
+|move|p2a: Raticate|Super Fang|p1a: Nidorino
+|-damage|p1a: Nidorino|147\/293
+|-damage|p2a: Raticate|123\/267|[from] Leech Seed|[of] p1a: Nidorino
+|-heal|p1a: Nidorino|163\/293|[silent]
+|move|p1a: Nidorino|Bubble Beam|p2a: Raticate
+|-damage|p2a: Raticate|70\/267
+|-unboost|p2a: Raticate|spe|1
+|
+|turn|24
+|
+|move|p1a: Nidorino|Bubble Beam|p2a: Raticate
+|-damage|p2a: Raticate|23\/267
+|move|p2a: Raticate|Body Slam|p1a: Nidorino
+|-damage|p1a: Nidorino|60\/293
+|-status|p1a: Nidorino|par
+|-damage|p2a: Raticate|7\/267|[from] Leech Seed|[of] p1a: Nidorino
+|-heal|p1a: Nidorino|76\/293 par|[silent]
+|
+|turn|25
+|
+|move|p2a: Raticate|Body Slam|p1a: Nidorino
+|-damage|p1a: Nidorino|0 fnt
+|faint|p1a: Nidorino
+|
+|switch|p1a: Vaporeon|Vaporeon, L85|323\/395 tox
+|-status|p1a: Vaporeon|psn
+|turn|26
+|
+|move|p1a: Vaporeon|Blizzard|p2a: Raticate
+|-damage|p2a: Raticate|0 fnt
+|faint|p2a: Raticate
+|
+|switch|p2a: Beedrill|Beedrill, L85|284\/284
+|turn|27
+|
+|move|p2a: Beedrill|Hyper Beam|p1a: Vaporeon
+|-crit|p1a: Vaporeon
+|-damage|p1a: Vaporeon|93\/395 psn
+|move|p1a: Vaporeon|Blizzard|p2a: Beedrill
+|-damage|p2a: Beedrill|148\/284
+|-damage|p1a: Vaporeon|69\/395 psn|[from] psn|[of] p2a: Beedrill
+|
+|turn|28
+|-mustrecharge|p2a: Beedrill
+|-mustrecharge|p2a: Beedrill
+|
+|cant|p2a: Beedrill|recharge
+|move|p1a: Vaporeon|Blizzard|p2a: Beedrill
+|-damage|p2a: Beedrill|12\/284
+|-damage|p1a: Vaporeon|45\/395 psn|[from] psn|[of] p2a: Beedrill
+|
+|turn|29
+|
+|move|p2a: Beedrill|Hyper Beam|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|
+|switch|p1a: Venusaur|Venusaur, L85|105\/310 par
+|turn|30
+|c|★FailMoore|!weakness venusaur
+|raw|<div class="infobox">Venusaur (ignoring abilities):<br><span class="message-effect-weak">Weaknesses<\/span>: Fire, Flying, Ice, Psychic<br><span class="message-effect-resist">Resistances<\/span>: Electric, Fairy, Fighting, <b>Grass<\/b>, Water<br><span class="message-effect-immune">Immunities<\/span>: <font color=#999999>None<\/font><\/div>
+|
+|move|p2a: Beedrill|Hyper Beam|p1a: Venusaur
+|-damage|p1a: Venusaur|9\/310 par
+|move|p1a: Venusaur|Leech Seed|p2a: Beedrill
+|-start|p2a: Beedrill|move: Leech Seed
+|
+|turn|31
+|-mustrecharge|p2a: Beedrill
+|-mustrecharge|p2a: Beedrill
+|
+|cant|p2a: Beedrill|recharge
+|-damage|p2a: Beedrill|0 fnt|[from] Leech Seed|[of] p1a: Venusaur
+|-heal|p1a: Venusaur|21\/310 par|[silent]
+|faint|p2a: Beedrill
+|
+|switch|p2a: Moltres|Moltres, L85|44\/327
+|turn|32
+|
+|move|p2a: Moltres|Fire Blast|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|
+|win|FailMoore
+|raw|Ladder updating...
+|raw|Flykkiller's rating: 1122 &rarr; <strong>1093<\/strong><br \/>(-29 for losing)
+|raw|FailMoore's rating: 1067 &rarr; <strong>1102<\/strong><br \/>(+35 for winning)
+|leave|Flykkiller
+|player|p1

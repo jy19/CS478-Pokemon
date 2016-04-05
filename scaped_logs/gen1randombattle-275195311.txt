@@ -1,0 +1,285 @@
+﻿|join|ankitkhetrapal
+|join|KRiderW
+|player|p1|ankitkhetrapal|20
+|player|p2|KRiderW|101
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Venusaur|Venusaur, L85|310\/310
+|switch|p2a: Kingler|Kingler, L85|267\/267
+|turn|1
+|
+|switch|p2a: Flareon|Flareon, L90|300\/300
+|move|p1a: Venusaur|Sleep Powder|p2a: Flareon
+|-status|p2a: Flareon|slp
+|
+|turn|2
+|
+|switch|p1a: Blastoise|Blastoise, L85|308\/308
+|cant|p2a: Flareon|slp
+|
+|turn|3
+|
+|switch|p2a: Exeggutor|Exeggutor, L79|312\/312
+|move|p1a: Blastoise|Hydro Pump|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|263\/312
+|
+|turn|4
+|
+|move|p1a: Blastoise|Blizzard|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|129\/312
+|-status|p2a: Exeggutor|frz
+|cant|p2a: Exeggutor|frz
+|
+|turn|5
+|
+|switch|p1a: Venusaur|Venusaur, L85|310\/310
+|switch|p2a: Jolteon|Jolteon, L79|265\/265
+|
+|turn|6
+|
+|move|p2a: Jolteon|Pin Missile|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|278\/310
+|-damage|p1a: Venusaur|246\/310
+|-damage|p1a: Venusaur|214\/310
+|-damage|p1a: Venusaur|182\/310
+|-hitcount|p1a: Venusaur|4
+|move|p1a: Venusaur|Toxic|p2a: Jolteon
+|-status|p2a: Jolteon|tox
+|
+|turn|7
+|
+|switch|p1a: Onix|Onix, L90|246\/246
+|move|p2a: Jolteon|Pin Missile|p1a: Onix
+|-damage|p1a: Onix|241\/246
+|-damage|p1a: Onix|236\/246
+|-damage|p1a: Onix|231\/246
+|-damage|p1a: Onix|226\/246
+|-damage|p1a: Onix|221\/246
+|-hitcount|p1a: Onix|5
+|-damage|p2a: Jolteon|249\/265 tox|[from] tox|[of] p1a: Onix
+|
+|turn|8
+|
+|switch|p2a: Beedrill|Beedrill, L90|300\/300
+|move|p1a: Onix|Earthquake|p2a: Beedrill
+|-damage|p2a: Beedrill|190\/300
+|
+|turn|9
+|
+|switch|p2a: Victreebel|Victreebel, L85|310\/310
+|move|p1a: Onix|Rock Slide|p2a: Victreebel
+|-damage|p2a: Victreebel|243\/310
+|
+|turn|10
+|
+|switch|p1a: Venusaur|Venusaur, L85|182\/310
+|move|p2a: Victreebel|Swords Dance|p2a: Victreebel
+|-boost|p2a: Victreebel|atk|2
+|
+|turn|11
+|
+|move|p1a: Venusaur|Body Slam|p2a: Victreebel
+|-crit|p2a: Victreebel
+|-damage|p2a: Victreebel|113\/310
+|move|p2a: Victreebel|Body Slam|p1a: Venusaur
+|-damage|p1a: Venusaur|48\/310
+|
+|turn|12
+|
+|move|p1a: Venusaur|Body Slam|p2a: Victreebel
+|-damage|p2a: Victreebel|43\/310
+|-status|p2a: Victreebel|par
+|move|p2a: Victreebel|Body Slam|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|
+|switch|p1a: Persian|Persian, L79|265\/265
+|turn|13
+|
+|move|p1a: Persian|Slash|p2a: Victreebel
+|-crit|p2a: Victreebel
+|-damage|p2a: Victreebel|0 fnt
+|faint|p2a: Victreebel
+|
+|switch|p2a: Jolteon|Jolteon, L79|249\/265 tox
+|-status|p2a: Jolteon|psn
+|turn|14
+|
+|switch|p1a: Onix|Onix, L90|221\/246
+|move|p2a: Jolteon|Double Kick|p1a: Onix
+|-supereffective|p1a: Onix
+|-damage|p1a: Onix|203\/246
+|-damage|p1a: Onix|185\/246
+|-hitcount|p1a: Onix|2
+|-damage|p2a: Jolteon|233\/265 psn|[from] psn|[of] p1a: Onix
+|
+|turn|15
+|
+|switch|p2a: Exeggutor|Exeggutor, L79|129\/312 frz
+|move|p1a: Onix|Rock Slide|p2a: Exeggutor
+|-damage|p2a: Exeggutor|61\/312 frz
+|
+|turn|16
+|
+|move|p1a: Onix|Earthquake|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|18\/312 frz
+|cant|p2a: Exeggutor|frz
+|
+|turn|17
+|
+|move|p1a: Onix|Earthquake|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Kingler|Kingler, L85|267\/267
+|turn|18
+|
+|switch|p1a: Blastoise|Blastoise, L85|308\/308
+|move|p2a: Kingler|Blizzard|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|277\/308
+|
+|turn|19
+|
+|switch|p2a: Jolteon|Jolteon, L79|233\/265 psn
+|-damage|p2a: Jolteon|217\/265 psn|[from] psn
+|move|p1a: Blastoise|Hydro Pump|p2a: Jolteon
+|-damage|p2a: Jolteon|105\/265 psn
+|
+|turn|20
+|
+|switch|p1a: Onix|Onix, L90|185\/246
+|move|p2a: Jolteon|Double Kick|p1a: Onix
+|-supereffective|p1a: Onix
+|-damage|p1a: Onix|166\/246
+|-damage|p1a: Onix|147\/246
+|-hitcount|p1a: Onix|2
+|-damage|p2a: Jolteon|89\/265 psn|[from] psn|[of] p1a: Onix
+|
+|turn|21
+|
+|switch|p2a: Kingler|Kingler, L85|267\/267
+|move|p1a: Onix|Earthquake|p2a: Kingler
+|-damage|p2a: Kingler|201\/267
+|
+|turn|22
+|
+|switch|p1a: Blastoise|Blastoise, L85|277\/308
+|move|p2a: Kingler|Body Slam|p1a: Blastoise
+|-damage|p1a: Blastoise|208\/308
+|
+|turn|23
+|
+|switch|p2a: Jolteon|Jolteon, L79|89\/265 psn
+|-damage|p2a: Jolteon|73\/265 psn|[from] psn
+|move|p1a: Blastoise|Hydro Pump|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|
+|switch|p2a: Kingler|Kingler, L85|201\/267
+|turn|24
+|
+|move|p1a: Blastoise|Hydro Pump|p2a: Kingler
+|-resisted|p2a: Kingler
+|-damage|p2a: Kingler|123\/267
+|move|p2a: Kingler|Blizzard|p1a: Blastoise
+|-crit|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|145\/308
+|
+|turn|25
+|
+|move|p1a: Blastoise|Hydro Pump|p2a: Kingler|[miss]
+|-miss|p1a: Blastoise
+|move|p2a: Kingler|Body Slam|p1a: Blastoise
+|-crit|p1a: Blastoise
+|-damage|p1a: Blastoise|4\/308
+|
+|turn|26
+|
+|move|p1a: Blastoise|Hyper Beam|p2a: Kingler
+|-damage|p2a: Kingler|48\/267
+|move|p2a: Kingler|Body Slam|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|faint|p1a: Blastoise
+|
+|switch|p1a: Persian|Persian, L79|265\/265
+|turn|27
+|
+|move|p1a: Persian|Slash|p2a: Kingler
+|-crit|p2a: Kingler
+|-damage|p2a: Kingler|0 fnt
+|faint|p2a: Kingler
+|
+|switch|p2a: Flareon|Flareon, L90|300\/300 slp
+|turn|28
+|
+|move|p1a: Persian|Slash|p2a: Flareon|[miss]
+|-miss|p1a: Persian
+|cant|p2a: Flareon|slp
+|
+|turn|29
+|
+|move|p1a: Persian|Slash|p2a: Flareon
+|-crit|p2a: Flareon
+|-damage|p2a: Flareon|172\/300 slp
+|-curestatus|p2a: Flareon|slp
+|
+|turn|30
+|
+|move|p1a: Persian|Slash|p2a: Flareon
+|-crit|p2a: Flareon
+|-damage|p2a: Flareon|44\/300
+|move|p2a: Flareon|Fire Blast|p1a: Persian
+|-damage|p1a: Persian|60\/265
+|
+|turn|31
+|
+|move|p2a: Flareon|Quick Attack|p1a: Persian
+|-damage|p1a: Persian|8\/265
+|move|p1a: Persian|Slash|p2a: Flareon
+|-crit|p2a: Flareon
+|-damage|p2a: Flareon|0 fnt
+|faint|p2a: Flareon
+|
+|switch|p2a: Beedrill|Beedrill, L90|190\/300
+|turn|32
+|
+|move|p1a: Persian|Slash|p2a: Beedrill
+|-crit|p2a: Beedrill
+|-damage|p2a: Beedrill|29\/300
+|move|p2a: Beedrill|Hyper Beam|p1a: Persian
+|-damage|p1a: Persian|0 fnt
+|faint|p1a: Persian
+|
+|switch|p1a: Mew|Mew, L74|300\/300
+|turn|33
+|
+|move|p2a: Beedrill|Twineedle|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|246\/300
+|-status|p1a: Mew|psn
+|-damage|p1a: Mew|192\/300 psn
+|-hitcount|p1a: Mew|2
+|move|p1a: Mew|Psychic|p2a: Beedrill
+|-supereffective|p2a: Beedrill
+|-damage|p2a: Beedrill|0 fnt
+|faint|p2a: Beedrill
+|
+|win|ankitkhetrapal
+|raw|ankitkhetrapal's rating: 1319 &rarr; <strong>1332<\/strong><br \/>(+13 for winning)
+|raw|KRiderW's rating: 1196 &rarr; <strong>1179<\/strong><br \/>(-17 for losing)
+|leave|KRiderW
+|player|p2

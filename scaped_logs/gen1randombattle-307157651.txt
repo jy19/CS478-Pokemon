@@ -1,0 +1,254 @@
+﻿|j|MALESANI
+|j|242mavsrule
+|player|p1|MALESANI|238
+|player|p2|242mavsrule|154
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|38126,15787,27251,16481
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Nidoqueen|Nidoqueen, L85|327\/327
+|switch|p2a: Staryu|Staryu, L90|237\/237
+|turn|1
+|choice|switch 3|move 2
+|
+|switch|p1a: Raichu|Raichu, L85|276\/276
+|move|p2a: Staryu|Surf|p1a: Raichu
+|-crit|p1a: Raichu
+|-damage|p1a: Raichu|88\/276
+|
+|turn|2
+|choice|move 3|switch 3
+|
+|switch|p2a: Tangela|Tangela, L85|284\/284
+|move|p1a: Raichu|Body Slam|p2a: Tangela
+|-damage|p2a: Tangela|233\/284
+|
+|turn|3
+|choice|switch 2|move 1
+|
+|switch|p1a: Vulpix|Vulpix, L96|268\/268
+|move|p2a: Tangela|Body Slam|p1a: Vulpix
+|-damage|p1a: Vulpix|212\/268
+|-status|p1a: Vulpix|par
+|
+|turn|4
+|choice|move 2|switch 3
+|
+|switch|p2a: Staryu|Staryu, L90|237\/237
+|move|p1a: Vulpix|Confuse Ray|p2a: Staryu
+|-start|p2a: Staryu|confusion
+|
+|turn|5
+|choice|switch 5|move 2
+|
+|switch|p1a: Jynx|Jynx, L79|265\/265
+|-activate|p2a: Staryu|confusion
+|-damage|p2a: Staryu|208\/237|[from] confusion
+|
+|turn|6
+|choice|move 1|switch 4
+|
+|switch|p2a: Rapidash|Rapidash, L90|300\/300
+|move|p1a: Jynx|Psychic|p2a: Rapidash
+|-crit|p2a: Rapidash
+|-damage|p2a: Rapidash|148\/300
+|
+|turn|7
+|choice|switch 5|move 1
+|
+|switch|p1a: Vulpix|Vulpix, L96|212\/268 par
+|move|p2a: Rapidash|Fire Blast|p1a: Vulpix
+|-crit|p1a: Vulpix
+|-resisted|p1a: Vulpix
+|-damage|p1a: Vulpix|71\/268 par
+|
+|turn|8
+|choice|move 4|move 1
+|
+|move|p2a: Rapidash|Fire Blast|p1a: Vulpix
+|-resisted|p1a: Vulpix
+|-damage|p1a: Vulpix|0 fnt
+|faint|p1a: Vulpix
+|choice|switch 4|
+|
+|switch|p1a: Gyarados|Gyarados, L85|335\/335
+|turn|9
+|choice|move 2|move 1
+|
+|move|p2a: Rapidash|Fire Blast|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|274\/335
+|-status|p1a: Gyarados|brn
+|move|p1a: Gyarados|Blizzard|p2a: Rapidash
+|-damage|p2a: Rapidash|63\/300
+|-damage|p1a: Gyarados|254\/335 brn|[from] brn|[of] p2a: Rapidash
+|
+|turn|10
+|choice|move 3|switch 4
+|
+|switch|p2a: Staryu|Staryu, L90|208\/237
+|move|p1a: Gyarados|Surf|p2a: Staryu
+|-resisted|p2a: Staryu
+|-damage|p2a: Staryu|152\/237
+|-damage|p1a: Gyarados|234\/335 brn|[from] brn|[of] p2a: Staryu
+|
+|turn|11
+|choice|switch 5|move 1
+|
+|switch|p1a: Jynx|Jynx, L79|265\/265
+|move|p2a: Staryu|Recover|p2a: Staryu
+|-heal|p2a: Staryu|237\/237
+|
+|turn|12
+|choice|move 3|move 3
+|
+|move|p2a: Staryu|Thunder Wave|p1a: Jynx
+|-status|p1a: Jynx|par
+|move|p1a: Jynx|Lovely Kiss|p2a: Staryu
+|-status|p2a: Staryu|slp
+|
+|turn|13
+|choice|move 1|move 2
+|
+|cant|p2a: Staryu|slp
+|move|p1a: Jynx|Psychic|p2a: Staryu
+|-damage|p2a: Staryu|152\/237 slp
+|
+|turn|14
+|choice|move 1|switch 4
+|
+|switch|p2a: Rapidash|Rapidash, L90|63\/300
+|move|p1a: Jynx|Psychic|p2a: Rapidash
+|-damage|p2a: Rapidash|0 fnt
+|faint|p2a: Rapidash
+|choice||switch 5
+|
+|switch|p2a: Electrode|Electrode, L90|291\/291
+|turn|15
+|choice|switch 3|move 1
+|
+|switch|p1a: Nidoqueen|Nidoqueen, L85|327\/327
+|move|p2a: Electrode|Explosion|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|152\/327
+|faint|p2a: Electrode
+|choice||switch 6
+|
+|switch|p2a: Gengar|Gengar, L79|257\/257
+|turn|16
+|choice|move 1|move 4
+|
+|move|p2a: Gengar|Psychic|p1a: Nidoqueen
+|-supereffective|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|13\/327
+|move|p1a: Nidoqueen|Earthquake|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|choice||switch 2
+|
+|switch|p2a: Scyther|Scyther, L90|309\/309
+|turn|17
+|choice|move 2|move 3
+|
+|move|p2a: Scyther|Slash|p1a: Nidoqueen|[miss]
+|-miss|p2a: Scyther
+|move|p1a: Nidoqueen|Blizzard|p2a: Scyther
+|-supereffective|p2a: Scyther
+|-damage|p2a: Scyther|119\/309
+|-status|p2a: Scyther|frz
+|
+|turn|18
+|choice|move 4|move 3
+|
+|cant|p2a: Scyther|frz
+|move|p1a: Nidoqueen|Body Slam|p2a: Scyther
+|-damage|p2a: Scyther|61\/309 frz
+|
+|turn|19
+|choice|move 4|move 3
+|
+|cant|p2a: Scyther|frz
+|move|p1a: Nidoqueen|Body Slam|p2a: Scyther
+|-damage|p2a: Scyther|9\/309 frz
+|
+|turn|20
+|choice|move 4|move 3
+|
+|cant|p2a: Scyther|frz
+|move|p1a: Nidoqueen|Body Slam|p2a: Scyther
+|-damage|p2a: Scyther|0 fnt
+|faint|p2a: Scyther
+|choice||switch 3
+|
+|switch|p2a: Tangela|Tangela, L85|233\/284
+|turn|21
+|choice|move 2|move 4
+|
+|move|p1a: Nidoqueen|Blizzard|p2a: Tangela
+|-supereffective|p2a: Tangela
+|-damage|p2a: Tangela|102\/284
+|move|p2a: Tangela|Mega Drain|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|0 fnt
+|-heal|p2a: Tangela|108\/284|[from] drain|[of] p1a: Nidoqueen
+|faint|p1a: Nidoqueen
+|choice|switch 6|
+|
+|switch|p1a: Ivysaur|Ivysaur, L85|276\/276
+|turn|22
+|choice|move 3|move 1
+|
+|move|p1a: Ivysaur|Body Slam|p2a: Tangela
+|-damage|p2a: Tangela|70\/284
+|move|p2a: Tangela|Body Slam|p1a: Ivysaur
+|-crit|p1a: Ivysaur
+|-damage|p1a: Ivysaur|179\/276
+|
+|turn|23
+|choice|move 3|move 3
+|
+|move|p1a: Ivysaur|Body Slam|p2a: Tangela
+|-crit|p2a: Tangela
+|-damage|p2a: Tangela|0 fnt
+|faint|p2a: Tangela
+|choice||switch 4
+|
+|switch|p2a: Staryu|Staryu, L90|152\/237 slp
+|turn|24
+|choice|move 4|move 1
+|
+|cant|p2a: Staryu|slp
+|move|p1a: Ivysaur|Leech Seed|p2a: Staryu
+|-start|p2a: Staryu|move: Leech Seed
+|
+|turn|25
+|choice|move 3|move 1
+|
+|cant|p2a: Staryu|slp
+|-damage|p2a: Staryu|138\/237 slp|[from] Leech Seed|[of] p1a: Ivysaur
+|-heal|p1a: Ivysaur|193\/276|[silent]
+|move|p1a: Ivysaur|Body Slam|p2a: Staryu
+|-damage|p2a: Staryu|82\/237 slp
+|
+|turn|26
+|choice|move 3|move 1
+|
+|cant|p2a: Staryu|slp
+|-damage|p2a: Staryu|68\/237 slp|[from] Leech Seed|[of] p1a: Ivysaur
+|-heal|p1a: Ivysaur|207\/276|[silent]
+|move|p1a: Ivysaur|Body Slam|p2a: Staryu
+|-damage|p2a: Staryu|9\/237 slp
+|
+|turn|27
+|-message|242mavsrule forfeited.
+|
+|win|MALESANI
+|l|242mavsrule
+|player|p2
+|raw|MALESANI's rating: 1525 &rarr; <strong>1539<\/strong><br \/>(+14 for winning)
+|raw|242mavsrule's rating: 1410 &rarr; <strong>1396<\/strong><br \/>(-14 for losing)

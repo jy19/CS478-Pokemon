@@ -1,0 +1,437 @@
+﻿|j|electabuzzkinggg
+|j|Mandelbrot
+|player|p1|electabuzzkinggg|1
+|player|p2|Mandelbrot|101
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|seed|43977,35,53325,36639
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|turn|1
+|c|★Mandelbrot|gl hf
+|c|★electabuzzkinggg|gl gl
+|choice|move 2|move 1
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Exeggutor
+|-status|p2a: Exeggutor|par
+|move|p2a: Exeggutor|Sleep Powder|p1a: Alakazam
+|-status|p1a: Alakazam|slp
+|
+|turn|2
+|choice|move 1|move 3
+|
+|cant|p1a: Alakazam|slp
+|cant|p2a: Exeggutor|par
+|
+|turn|3
+|choice|move 1|switch 2
+|
+|switch|p2a: Lapras|Lapras|463\/463
+|cant|p1a: Alakazam|slp
+|
+|turn|4
+|choice|move 1|move 4
+|
+|cant|p1a: Alakazam|slp
+|move|p2a: Lapras|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|217\/313 slp
+|
+|turn|5
+|choice|move 4|move 4
+|
+|cant|p1a: Alakazam|slp
+|move|p2a: Lapras|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|125\/313 slp
+|
+|turn|6
+|choice|move 2|move 4
+|
+|cant|p1a: Alakazam|slp
+|move|p2a: Lapras|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|25\/313 slp
+|
+|turn|7
+|choice|move 2|move 1
+|
+|-curestatus|p1a: Alakazam|slp
+|move|p2a: Lapras|Ice Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|choice|switch 2|
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|turn|8
+|choice|switch 3|switch 2
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393 par
+|switch|p1a: Chansey|Chansey|703\/703
+|
+|turn|9
+|choice|move 4|move 1
+|
+|move|p1a: Chansey|Blizzard|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|69\/393 par
+|cant|p2a: Exeggutor|par
+|
+|turn|10
+|choice|move 3|move 4
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|choice||switch 3
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|turn|11
+|choice|switch 4|move 2
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: Chansey|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|426\/523
+|
+|turn|12
+|choice|move 3|move 4
+|
+|move|p2a: Chansey|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|
+|turn|13
+|choice|move 3|switch 4
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|
+|turn|14
+|choice|move 4|move 1
+|
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|155\/523 par
+|move|p1a: Snorlax|Surf|p2a: Tauros
+|-damage|p2a: Tauros|128\/353
+|
+|turn|15
+|choice|switch 3|move 2
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Tauros|Hyper Beam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|205\/393
+|
+|turn|16
+|-mustrecharge|p2a: Tauros
+|-mustrecharge|p2a: Tauros
+|choice|move 2|move 1
+|
+|cant|p2a: Tauros|recharge
+|move|p1a: Exeggutor|Stun Spore|p2a: Tauros|[miss]
+|-miss|p1a: Exeggutor
+|
+|turn|17
+|choice|move 4|move 3
+|
+|move|p2a: Tauros|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|80\/393
+|move|p1a: Exeggutor|Psychic|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|choice||switch 2
+|
+|switch|p2a: Lapras|Lapras|463\/463
+|turn|18
+|choice|switch 6|move 1
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|move|p2a: Lapras|Ice Beam|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|267\/323
+|
+|turn|19
+|choice|move 1|switch 4
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Starmie|Reflect|p1a: Starmie
+|-start|p1a: Starmie|Reflect
+|
+|turn|20
+|choice|switch 3|move 4
+|
+|switch|p1a: Snorlax|Snorlax|155\/523 par
+|move|p2a: Chansey|Thunder Wave|p1a: Snorlax
+|-fail|p1a: Snorlax|par
+|
+|turn|21
+|choice|move 2|move 3
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|60\/523 par
+|move|p1a: Snorlax|Self-Destruct|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|faint|p1a: Snorlax
+|c|★electabuzzkinggg|yeeeeaahhhh
+|c|★Mandelbrot|thought it was the rest variant
+|choice|switch 3|switch 6
+|
+|switch|p1a: Starmie|Starmie|267\/323
+|switch|p2a: Snorlax|Snorlax|523\/523
+|turn|22
+|c|★electabuzzkinggg|this is my exact yellow team same moves everything
+|c|★electabuzzkinggg|all level 75, gonna battle my friend soon
+|c|★Mandelbrot|This is my blue team.
+|choice|move 1|move 1
+|
+|move|p1a: Starmie|Reflect|p1a: Starmie
+|-start|p1a: Starmie|Reflect
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|
+|turn|23
+|choice|switch 6|move 1
+|
+|switch|p1a: Exeggutor|Exeggutor|80\/393
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|
+|turn|24
+|c|★electabuzzkinggg|amnesia lax is gonna be tough
+|choice|move 1|move 4
+|
+|move|p1a: Exeggutor|Explosion|p2a: Snorlax
+|-damage|p2a: Snorlax|182\/523
+|faint|p1a: Exeggutor
+|choice|switch 5|
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|25
+|choice|move 3|switch 5
+|
+|switch|p2a: Golem|Golem|363\/363
+|move|p1a: Tauros|Body Slam|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|324\/363
+|
+|turn|26
+|c|★electabuzzkinggg|omg u animal
+|choice|move 4|switch 4
+|
+|switch|p2a: Lapras|Lapras|463\/463
+|move|p1a: Tauros|Earthquake|p2a: Lapras
+|-damage|p2a: Lapras|373\/463
+|
+|turn|27
+|choice|switch 4|move 2
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Lapras|Confuse Ray|p1a: Chansey
+|-start|p1a: Chansey|confusion
+|
+|turn|28
+|choice|move 3|move 1
+|
+|move|p2a: Lapras|Ice Beam|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|504\/703
+|-activate|p1a: Chansey|confusion
+|-damage|p1a: Chansey|469\/703|[from] confusion
+|
+|turn|29
+|choice|move 3|move 1
+|
+|move|p2a: Lapras|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|360\/703
+|-activate|p1a: Chansey|confusion
+|move|p1a: Chansey|Seismic Toss|p2a: Lapras
+|-damage|p2a: Lapras|273\/463
+|
+|turn|30
+|choice|move 2|move 1
+|
+|move|p2a: Lapras|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|252\/703
+|-end|p1a: Chansey|confusion
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|603\/703
+|
+|turn|31
+|choice|move 3|move 2
+|
+|move|p2a: Lapras|Confuse Ray|p1a: Chansey
+|-start|p1a: Chansey|confusion
+|-activate|p1a: Chansey|confusion
+|-damage|p1a: Chansey|568\/703|[from] confusion
+|
+|turn|32
+|choice|move 3|move 1
+|
+|move|p2a: Lapras|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|454\/703
+|-status|p1a: Chansey|frz
+|cant|p1a: Chansey|frz
+|
+|turn|33
+|c|★Mandelbrot|There it is.
+|c|★electabuzzkinggg|gf
+|c|★Mandelbrot|#freezefishing2016
+|choice|switch 6|move 4
+|
+|switch|p1a: Starmie|Starmie|267\/323
+|move|p2a: Lapras|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|201\/323
+|-status|p1a: Starmie|par
+|
+|turn|34
+|c|★electabuzzkinggg|lapras is sucha tank
+|c|★Mandelbrot|IKR
+|choice|move 4|move 2
+|
+|move|p2a: Lapras|Confuse Ray|p1a: Starmie
+|-start|p1a: Starmie|confusion
+|-activate|p1a: Starmie|confusion
+|-damage|p1a: Starmie|168\/323 par|[from] confusion
+|
+|turn|35
+|choice|move 4|move 3
+|
+|move|p2a: Lapras|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|32\/323 par
+|-end|p1a: Starmie|confusion
+|move|p1a: Starmie|Thunderbolt|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|128\/463
+|
+|turn|36
+|c|★electabuzzkinggg|and has suca gr8 movepiool
+|choice|switch 4|move 3
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|move|p2a: Lapras|Thunderbolt|p1a: Tauros
+|-damage|p1a: Tauros|266\/353
+|
+|turn|37
+|choice|move 4|move 2
+|
+|move|p1a: Tauros|Earthquake|p2a: Lapras
+|-damage|p2a: Lapras|33\/463
+|move|p2a: Lapras|Confuse Ray|p1a: Tauros
+|-start|p1a: Tauros|confusion
+|
+|turn|38
+|choice|move 4|move 1
+|
+|-activate|p1a: Tauros|confusion
+|move|p1a: Tauros|Earthquake|p2a: Lapras
+|-crit|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|choice||switch 5
+|
+|switch|p2a: Snorlax|Snorlax|182\/523
+|turn|39
+|choice|move 4|move 2
+|
+|-end|p1a: Tauros|confusion
+|move|p1a: Tauros|Earthquake|p2a: Snorlax
+|-damage|p2a: Snorlax|72\/523
+|move|p2a: Snorlax|Reflect|p2a: Snorlax
+|-start|p2a: Snorlax|Reflect
+|
+|turn|40
+|choice|move 4|move 3
+|
+|move|p1a: Tauros|Earthquake|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|c|★Mandelbrot|crit mattered lol
+|choice||switch 4
+|
+|switch|p2a: Golem|Golem|324\/363
+|turn|41
+|c|★electabuzzkinggg|crit was golden
+|choice|move 4|move 1
+|
+|move|p1a: Tauros|Earthquake|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|184\/363
+|move|p2a: Golem|Earthquake|p1a: Tauros
+|-damage|p1a: Tauros|140\/353
+|
+|turn|42
+|c|★Mandelbrot|It is tauros though.
+|choice|switch 6|move 1
+|
+|switch|p1a: Chansey|Chansey|454\/703 frz
+|move|p2a: Golem|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|137\/703 frz
+|
+|turn|43
+|c|★Mandelbrot|So I shouldn't be surprised.
+|choice|move 1|move 3
+|
+|move|p2a: Golem|Substitute|p2a: Golem
+|-start|p2a: Golem|Substitute
+|-damage|p2a: Golem|94\/363
+|cant|p1a: Chansey|frz
+|
+|turn|44
+|c|★electabuzzkinggg|hes a monster!!
+|choice|move 3|move 1
+|
+|cant|p1a: Chansey|frz
+|move|p2a: Golem|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|choice|switch 4|
+|
+|switch|p1a: Starmie|Starmie|32\/323 par
+|turn|45
+|choice|move 3|move 1
+|
+|move|p2a: Golem|Earthquake|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|choice|switch 6|
+|
+|switch|p1a: Tauros|Tauros|140\/353
+|turn|46
+|c|★Mandelbrot|And the kicker...
+|choice|move 4|move 4
+|
+|move|p1a: Tauros|Earthquake|p2a: Golem
+|-supereffective|p2a: Golem
+|-end|p2a: Golem|Substitute
+|move|p2a: Golem|Explosion|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|faint|p2a: Golem
+|
+|win|Mandelbrot
+|player|p1
+|player|p2
+|raw|electabuzzkinggg's rating: 1172 &rarr; <strong>1160<\/strong><br \/>(-12 for losing)
+|raw|Mandelbrot's rating: 1374 &rarr; <strong>1383<\/strong><br \/>(+9 for winning)
+|c|★electabuzzkinggg|good fucking fight
+|c|★Mandelbrot|gg
+|l|electabuzzkinggg

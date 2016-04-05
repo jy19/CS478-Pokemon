@@ -1,0 +1,262 @@
+﻿|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|J|xJoelituh
+|J|metaphysical
+|player|p1|xJoelituh|134
+|player|p2|metaphysical|138
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|seed|45246,2,48508,21320
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jolteon|Jolteon|333\/333
+|switch|p2a: Alakazam|Alakazam|313\/313
+|turn|1
+|c|★xJoelituh|hf
+|J|choollio
+|J|Alexander
+|c|★metaphysical|warning
+|c|★metaphysical|this is my second RBY game
+|c|★metaphysical|ever
+|c|★metaphysical|n_n
+|c|★xJoelituh|lol
+|c|★xJoelituh|np
+|choice|switch 6|move 1
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Alakazam|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|337\/393
+|
+|turn|2
+|choice|move 1|move 4
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Exeggutor
+|-status|p1a: Exeggutor|par
+|move|p1a: Exeggutor|Sleep Powder|p2a: Alakazam
+|-status|p2a: Alakazam|slp
+|
+|turn|3
+|choice|move 4|switch 5
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Exeggutor|Stun Spore|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|turn|4
+|choice|move 2|switch 6
+|
+|switch|p2a: Rhydon|Rhydon|413\/413
+|move|p1a: Exeggutor|Psychic|p2a: Rhydon
+|-damage|p2a: Rhydon|227\/413
+|-unboost|p2a: Rhydon|spd|1
+|-unboost|p2a: Rhydon|spa|1
+|
+|turn|5
+|choice|move 2|switch 6
+|
+|switch|p2a: Chansey|Chansey|703\/703 par
+|cant|p1a: Exeggutor|par
+|
+|turn|6
+|choice|move 2|move 1
+|
+|move|p1a: Exeggutor|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|592\/703 par
+|move|p2a: Chansey|Ice Beam|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|196\/393 par
+|
+|turn|7
+|J|goodasspizzafam123
+|choice|switch 5|move 1
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: Chansey|Ice Beam|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|326\/523
+|
+|turn|8
+|choice|move 1|switch 6
+|
+|switch|p2a: Rhydon|Rhydon|227\/413
+|move|p1a: Snorlax|Body Slam|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|177\/413
+|
+|turn|9
+|choice|move 3|move 4
+|
+|move|p2a: Rhydon|Substitute|p2a: Rhydon
+|-start|p2a: Rhydon|Substitute
+|-damage|p2a: Rhydon|74\/413
+|move|p1a: Snorlax|Surf|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-end|p2a: Rhydon|Substitute
+|
+|turn|10
+|choice|move 3|move 3
+|
+|move|p2a: Rhydon|Rock Slide|p1a: Snorlax
+|-damage|p1a: Snorlax|191\/523
+|move|p1a: Snorlax|Surf|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|choice||switch 4
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|11
+|choice|move 4|move 4
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|choice|switch 6|
+|
+|switch|p1a: Jolteon|Jolteon|333\/333
+|turn|12
+|choice|move 4|move 3
+|
+|move|p1a: Jolteon|Double Kick|p2a: Tauros
+|-supereffective|p2a: Tauros
+|-damage|p2a: Tauros|317\/353
+|-damage|p2a: Tauros|281\/353
+|-hitcount|p2a: Tauros|2
+|move|p2a: Tauros|Earthquake|p1a: Jolteon
+|-supereffective|p1a: Jolteon
+|-damage|p1a: Jolteon|132\/333
+|
+|turn|13
+|c|★xJoelituh|lol
+|choice|move 3|move 3
+|
+|move|p1a: Jolteon|Thunder Wave|p2a: Tauros
+|-status|p2a: Tauros|par
+|move|p2a: Tauros|Earthquake|p1a: Jolteon
+|-supereffective|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|choice|switch 3|
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|14
+|choice|move 2|move 4
+|
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|181\/353 par
+|move|p2a: Tauros|Hyper Beam|p1a: Tauros
+|-damage|p1a: Tauros|161\/353
+|
+|turn|15
+|-mustrecharge|p2a: Tauros
+|-mustrecharge|p2a: Tauros
+|choice|move 2|move 1
+|
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|choice||switch 3
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|turn|16
+|choice|switch 4|move 3
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Snorlax|Hyper Beam|p1a: Chansey
+|-damage|p1a: Chansey|214\/703
+|
+|turn|17
+|-mustrecharge|p2a: Snorlax
+|-mustrecharge|p2a: Snorlax
+|choice|move 1|move 1
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|565\/703
+|cant|p2a: Snorlax|recharge
+|
+|turn|18
+|choice|switch 5|switch 2
+|
+|switch|p1a: Exeggutor|Exeggutor|196\/393 par
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|
+|turn|19
+|choice|move 4|switch 5
+|
+|switch|p2a: Alakazam|Alakazam|313\/313 slp
+|move|p1a: Exeggutor|Stun Spore|p2a: Alakazam
+|-fail|p2a: Alakazam
+|
+|turn|20
+|L|Alexander
+|choice|move 2|move 1
+|
+|cant|p2a: Alakazam|slp
+|move|p1a: Exeggutor|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|264\/313 slp
+|
+|turn|21
+|choice|move 3|move 1
+|
+|cant|p2a: Alakazam|slp
+|move|p1a: Exeggutor|Explosion|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|faint|p1a: Exeggutor
+|choice|switch 2|switch 2
+|
+|switch|p1a: Moltres|Moltres|383\/383
+|switch|p2a: Snorlax|Snorlax|523\/523
+|turn|22
+|choice|move 4|move 1
+|
+|move|p1a: Moltres|Fire Spin|p2a: Snorlax|[miss]
+|-miss|p1a: Moltres
+|move|p2a: Snorlax|Body Slam|p1a: Moltres
+|-crit|p1a: Moltres
+|-damage|p1a: Moltres|167\/383
+|-status|p1a: Moltres|par
+|
+|turn|23
+|c|★xJoelituh|rofl
+|c|★metaphysical|o.o
+|c|★xJoelituh|2 time that i got critted by lax
+|choice|move 4|move 3
+|
+|move|p2a: Snorlax|Hyper Beam|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|choice|switch 4|
+|
+|switch|p1a: Tauros|Tauros|161\/353
+|turn|24
+|choice|move 4|move 3
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|311\/523
+|move|p2a: Snorlax|Hyper Beam|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|choice|switch 5|
+|
+|switch|p1a: Chansey|Chansey|565\/703
+|turn|25
+|choice|move 4|move 4
+|
+|move|p1a: Chansey|Ice Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|204\/523
+|move|p2a: Snorlax|Self-Destruct|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|faint|p2a: Snorlax
+|
+|win|metaphysical

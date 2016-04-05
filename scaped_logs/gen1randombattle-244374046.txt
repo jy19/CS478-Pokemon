@@ -1,0 +1,259 @@
+﻿|join|andrewandres
+|join|apache driver
+|player|p1|andrewandres|16
+|player|p2|apache driver|15
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Kabuto|Kabuto, L96|252\/252
+|switch|p2a: Rattata|Rattata, L96|252\/252
+|turn|1
+|
+|move|p2a: Rattata|Thunderbolt|p1a: Kabuto
+|-supereffective|p1a: Kabuto
+|-damage|p1a: Kabuto|149\/252
+|-status|p1a: Kabuto|par
+|move|p1a: Kabuto|Body Slam|p2a: Rattata
+|-damage|p2a: Rattata|154\/252
+|
+|turn|2
+|
+|move|p2a: Rattata|Thunderbolt|p1a: Kabuto
+|-supereffective|p1a: Kabuto
+|-damage|p1a: Kabuto|31\/252 par
+|move|p1a: Kabuto|Slash|p2a: Rattata
+|-crit|p2a: Rattata
+|-damage|p2a: Rattata|0 fnt
+|faint|p2a: Rattata
+|
+|switch|p2a: Butterfree|Butterfree, L90|291\/291
+|turn|3
+|
+|move|p2a: Butterfree|Mega Drain|p1a: Kabuto
+|-supereffective|p1a: Kabuto
+|-damage|p1a: Kabuto|0 fnt
+|faint|p1a: Kabuto
+|
+|switch|p1a: Butterfree|Butterfree, L90|291\/291
+|turn|4
+|
+|move|p1a: Butterfree|Sleep Powder|p2a: Butterfree
+|-status|p2a: Butterfree|slp
+|cant|p2a: Butterfree|slp
+|-curestatus|p2a: Butterfree|slp
+|
+|turn|5
+|
+|move|p1a: Butterfree|Sleep Powder|p2a: Butterfree
+|-status|p2a: Butterfree|slp
+|cant|p2a: Butterfree|slp
+|
+|turn|6
+|
+|switch|p2a: Moltres|Moltres, L85|327\/327
+|switch|p1a: Mr. Mime|Mr. Mime, L85|242\/242
+|
+|turn|7
+|
+|move|p1a: Mr. Mime|Thunder Wave|p2a: Moltres
+|-status|p2a: Moltres|par
+|move|p2a: Moltres|Fire Blast|p1a: Mr. Mime
+|-crit|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|0 fnt
+|faint|p1a: Mr. Mime
+|
+|switch|p1a: Kingler|Kingler, L85|267\/267
+|turn|8
+|
+|switch|p2a: Butterfree|Butterfree, L90|291\/291 slp
+|move|p1a: Kingler|Swords Dance|p1a: Kingler
+|-boost|p1a: Kingler|atk|2
+|
+|turn|9
+|
+|cant|p2a: Butterfree|slp
+|move|p1a: Kingler|Body Slam|p2a: Butterfree
+|-damage|p2a: Butterfree|107\/291 slp
+|
+|turn|10
+|
+|cant|p2a: Butterfree|slp
+|-curestatus|p2a: Butterfree|slp
+|move|p1a: Kingler|Body Slam|p2a: Butterfree
+|-damage|p2a: Butterfree|0 fnt
+|faint|p2a: Butterfree
+|
+|switch|p2a: Primeape|Primeape, L90|300\/300
+|turn|11
+|
+|move|p2a: Primeape|Body Slam|p1a: Kingler
+|-damage|p1a: Kingler|201\/267
+|-status|p1a: Kingler|par
+|move|p1a: Kingler|Body Slam|p2a: Primeape
+|-damage|p2a: Primeape|109\/300
+|
+|turn|12
+|
+|move|p2a: Primeape|Hyper Beam|p1a: Kingler
+|-damage|p1a: Kingler|95\/267 par
+|cant|p1a: Kingler|par
+|
+|turn|13
+|-mustrecharge|p2a: Primeape
+|-mustrecharge|p2a: Primeape
+|
+|cant|p2a: Primeape|recharge
+|move|p1a: Kingler|Body Slam|p2a: Primeape
+|-damage|p2a: Primeape|0 fnt
+|faint|p2a: Primeape
+|
+|switch|p2a: Nidoqueen|Nidoqueen, L85|327\/327
+|turn|14
+|
+|move|p2a: Nidoqueen|Thunderbolt|p1a: Kingler
+|-supereffective|p1a: Kingler
+|-damage|p1a: Kingler|0 fnt
+|faint|p1a: Kingler
+|
+|switch|p1a: Parasect|Parasect, L90|291\/291
+|turn|15
+|
+|move|p2a: Nidoqueen|Blizzard|p1a: Parasect
+|-supereffective|p1a: Parasect
+|-damage|p1a: Parasect|149\/291
+|move|p1a: Parasect|Spore|p2a: Nidoqueen
+|-status|p2a: Nidoqueen|slp
+|
+|turn|16
+|
+|switch|p2a: Moltres|Moltres, L85|327\/327 par
+|switch|p1a: Charizard|Charizard, L85|306\/306
+|
+|turn|17
+|
+|switch|p2a: Nidoqueen|Nidoqueen, L85|327\/327 slp
+|move|p1a: Charizard|Swords Dance|p1a: Charizard
+|-boost|p1a: Charizard|atk|2
+|
+|turn|18
+|
+|move|p1a: Charizard|Swords Dance|p1a: Charizard
+|-boost|p1a: Charizard|atk|2
+|cant|p2a: Nidoqueen|slp
+|-curestatus|p2a: Nidoqueen|slp
+|
+|turn|19
+|
+|move|p1a: Charizard|Earthquake|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|0 fnt
+|faint|p2a: Nidoqueen
+|
+|switch|p2a: Sandslash|Sandslash, L85|301\/301
+|turn|20
+|
+|switch|p1a: Parasect|Parasect, L90|149\/291
+|move|p2a: Sandslash|Rock Slide|p1a: Parasect
+|-supereffective|p1a: Parasect
+|-damage|p1a: Parasect|28\/291
+|
+|turn|21
+|
+|move|p2a: Sandslash|Earthquake|p1a: Parasect
+|-resisted|p1a: Parasect
+|-damage|p1a: Parasect|1\/291
+|move|p1a: Parasect|Hyper Beam|p2a: Sandslash
+|-damage|p2a: Sandslash|206\/301
+|
+|turn|22
+|-mustrecharge|p1a: Parasect
+|-mustrecharge|p1a: Parasect
+|
+|move|p2a: Sandslash|Swords Dance|p2a: Sandslash
+|-boost|p2a: Sandslash|atk|2
+|cant|p1a: Parasect|recharge
+|
+|turn|23
+|
+|move|p2a: Sandslash|Earthquake|p1a: Parasect
+|-crit|p1a: Parasect
+|-resisted|p1a: Parasect
+|-damage|p1a: Parasect|0 fnt
+|faint|p1a: Parasect
+|
+|switch|p1a: Butterfree|Butterfree, L90|291\/291
+|turn|24
+|
+|move|p1a: Butterfree|Sleep Powder|p2a: Sandslash
+|-status|p2a: Sandslash|slp
+|cant|p2a: Sandslash|slp
+|
+|turn|25
+|
+|switch|p2a: Moltres|Moltres, L85|327\/327 par
+|move|p1a: Butterfree|Psychic|p2a: Moltres
+|-damage|p2a: Moltres|277\/327 par
+|-unboost|p2a: Moltres|spd|1
+|-unboost|p2a: Moltres|spa|1
+|
+|turn|26
+|
+|move|p1a: Butterfree|Psychic|p2a: Moltres
+|-damage|p2a: Moltres|206\/327 par
+|move|p2a: Moltres|Fire Blast|p1a: Butterfree
+|-crit|p1a: Butterfree
+|-supereffective|p1a: Butterfree
+|-damage|p1a: Butterfree|0 fnt
+|faint|p1a: Butterfree
+|
+|switch|p1a: Charizard|Charizard, L85|306\/306
+|turn|27
+|
+|move|p1a: Charizard|Swords Dance|p1a: Charizard
+|-boost|p1a: Charizard|atk|2
+|cant|p2a: Moltres|par
+|
+|turn|28
+|
+|move|p1a: Charizard|Body Slam|p2a: Moltres
+|-damage|p2a: Moltres|89\/327 par
+|move|p2a: Moltres|Hyper Beam|p1a: Charizard
+|-crit|p1a: Charizard
+|-damage|p1a: Charizard|79\/306
+|
+|turn|29
+|-mustrecharge|p2a: Moltres
+|-mustrecharge|p2a: Moltres
+|
+|move|p1a: Charizard|Swords Dance|p1a: Charizard
+|-boost|p1a: Charizard|atk|2
+|cant|p2a: Moltres|recharge
+|
+|turn|30
+|
+|move|p1a: Charizard|Body Slam|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|
+|switch|p2a: Sandslash|Sandslash, L85|206\/301 slp
+|turn|31
+|
+|move|p1a: Charizard|Body Slam|p2a: Sandslash
+|-damage|p2a: Sandslash|50\/301 slp
+|cant|p2a: Sandslash|slp
+|
+|turn|32
+|
+|move|p1a: Charizard|Earthquake|p2a: Sandslash
+|-crit|p2a: Sandslash
+|-damage|p2a: Sandslash|0 fnt
+|faint|p2a: Sandslash
+|
+|win|andrewandres
+|raw|Ladder updating...

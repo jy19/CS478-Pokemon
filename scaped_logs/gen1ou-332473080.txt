@@ -1,0 +1,309 @@
+﻿|j|Tsavoren
+|j|RocketSC
+|player|p1|Tsavoren|160
+|player|p2|RocketSC|210
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|seed|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Tauros|Tauros|100\/100
+|switch|p2a: Jolteon|Jolteon|100\/100
+|turn|1
+|choice||
+|
+|switch|p1a: Kyuubi|Ninetales|100\/100
+|move|p2a: Jolteon|Thunder Wave|p1a: Kyuubi
+|-status|p1a: Kyuubi|par
+|
+|turn|2
+|choice||
+|
+|switch|p2a: Slowbro|Slowbro|100\/100
+|move|p1a: Kyuubi|Toxic|p2a: Slowbro|[miss]
+|-miss|p1a: Kyuubi
+|
+|turn|3
+|choice||
+|
+|switch|p1a: Elza|Persian|100\/100
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|4
+|choice||
+|
+|move|p1a: Elza|Slash|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-damage|p2a: Slowbro|68\/100
+|move|p2a: Slowbro|Surf|p1a: Elza
+|-damage|p1a: Elza|19\/100
+|
+|turn|5
+|choice||
+|
+|move|p1a: Elza|Thunderbolt|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|50\/100
+|move|p2a: Slowbro|Surf|p1a: Elza
+|-crit|p1a: Elza
+|-damage|p1a: Elza|0 fnt
+|faint|p1a: Elza
+|choice||
+|
+|switch|p1a: Dragonite|Dragonite|100\/100
+|turn|6
+|choice||
+|
+|move|p1a: Dragonite|Hyper Beam|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|choice||
+|
+|switch|p2a: Jolteon|Jolteon|100\/100
+|turn|7
+|choice||
+|
+|switch|p1a: Kyuubi|Ninetales|100\/100 par
+|move|p2a: Jolteon|Thunder Wave|p1a: Kyuubi
+|-fail|p1a: Kyuubi|par
+|
+|turn|8
+|choice||
+|
+|switch|p2a: Snorlax|Snorlax|100\/100
+|move|p1a: Kyuubi|Reflect|p1a: Kyuubi
+|-start|p1a: Kyuubi|Reflect
+|
+|turn|9
+|choice||
+|
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|move|p1a: Kyuubi|Toxic|p2a: Snorlax
+|-status|p2a: Snorlax|tox
+|
+|turn|10
+|choice||
+|
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|-damage|p2a: Snorlax|94\/100 tox|[from] psn
+|cant|p1a: Kyuubi|par
+|
+|turn|11
+|choice||
+|
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|-damage|p2a: Snorlax|82\/100 tox|[from] psn
+|move|p1a: Kyuubi|Flamethrower|p2a: Snorlax
+|-damage|p2a: Snorlax|75\/100 tox
+|
+|turn|12
+|choice||
+|
+|switch|p1a: Konserwa|Cloyster|100\/100
+|move|p2a: Snorlax|Blizzard|p1a: Konserwa
+|-resisted|p1a: Konserwa
+|-damage|p1a: Konserwa|73\/100
+|-damage|p2a: Snorlax|57\/100 tox|[from] tox|[of] p1a: Konserwa
+|
+|turn|13
+|choice||
+|
+|move|p1a: Konserwa|Tri Attack|p2a: Snorlax
+|-damage|p2a: Snorlax|41\/100 tox
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp
+|-heal|p2a: Snorlax|100\/100 slp|[silent]
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|
+|turn|14
+|choice||
+|
+|move|p1a: Konserwa|Explosion|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|faint|p1a: Konserwa
+|choice||
+|
+|switch|p2a: Jolteon|Jolteon|100\/100
+|switch|p1a: Kyuubi|Ninetales|100\/100 par
+|turn|15
+|choice||
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Kyuubi
+|-damage|p1a: Kyuubi|66\/100 par
+|move|p1a: Kyuubi|Toxic|p2a: Jolteon
+|-status|p2a: Jolteon|tox
+|
+|turn|16
+|choice||
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Kyuubi
+|-damage|p1a: Kyuubi|34\/100 par
+|-damage|p2a: Jolteon|94\/100 tox|[from] tox|[of] p1a: Kyuubi
+|move|p1a: Kyuubi|Flamethrower|p2a: Jolteon
+|-damage|p2a: Jolteon|64\/100 tox
+|
+|turn|17
+|choice||
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Kyuubi
+|-damage|p1a: Kyuubi|0 fnt
+|faint|p1a: Kyuubi
+|choice||
+|
+|switch|p1a: Tauros|Tauros|100\/100
+|turn|18
+|choice||
+|
+|move|p2a: Jolteon|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|-damage|p2a: Jolteon|52\/100 tox|[from] tox|[of] p1a: Tauros
+|move|p1a: Tauros|Hyper Beam|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|choice||
+|
+|switch|p2a: Rhydon|Rhydon|100\/100
+|turn|19
+|choice||
+|
+|switch|p1a: Dragonite|Dragonite|100\/100
+|move|p2a: Rhydon|Substitute|p2a: Rhydon
+|-start|p2a: Rhydon|Substitute
+|-damage|p2a: Rhydon|76\/100
+|
+|turn|20
+|choice||
+|
+|move|p1a: Dragonite|Surf|p2a: Rhydon
+|-crit|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-end|p2a: Rhydon|Substitute
+|move|p2a: Rhydon|Rock Slide|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|39\/100
+|
+|turn|21
+|choice||
+|
+|switch|p2a: Alakazam|Alakazam|100\/100
+|move|p1a: Dragonite|Surf|p2a: Alakazam
+|-damage|p2a: Alakazam|83\/100
+|
+|turn|22
+|choice||
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Dragonite
+|-status|p1a: Dragonite|par
+|move|p1a: Dragonite|Thunder Wave|p2a: Alakazam
+|-status|p2a: Alakazam|par
+|
+|turn|23
+|choice||
+|
+|move|p2a: Alakazam|Reflect|p2a: Alakazam
+|-start|p2a: Alakazam|Reflect
+|move|p1a: Dragonite|Hyper Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|46\/100 par
+|
+|turn|24
+|-mustrecharge|p1a: Dragonite
+|-mustrecharge|p1a: Dragonite
+|choice||
+|
+|cant|p2a: Alakazam|par
+|cant|p1a: Dragonite|recharge
+|
+|turn|25
+|choice||
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|95\/100 par
+|move|p1a: Dragonite|Hyper Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|59\/100 par
+|
+|turn|26
+|-mustrecharge|p1a: Dragonite
+|c|★Tsavoren|:\
+|-mustrecharge|p1a: Dragonite
+|choice||
+|
+|switch|p2a: Rhydon|Rhydon|76\/100
+|cant|p1a: Dragonite|recharge
+|
+|turn|27
+|choice||
+|
+|move|p2a: Rhydon|Rock Slide|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|choice||
+|
+|switch|p1a: Tauros|Tauros|100\/100 par
+|turn|28
+|choice||
+|
+|move|p2a: Rhydon|Earthquake|p1a: Tauros
+|-damage|p1a: Tauros|58\/100 par
+|cant|p1a: Tauros|par
+|
+|turn|29
+|choice||
+|
+|move|p2a: Rhydon|Earthquake|p1a: Tauros
+|-damage|p1a: Tauros|16\/100 par
+|move|p1a: Tauros|Earthquake|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|44\/100
+|
+|turn|30
+|choice||
+|
+|move|p2a: Rhydon|Earthquake|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|choice||
+|
+|switch|p1a: FireLord|Charizard|100\/100
+|turn|31
+|choice||
+|
+|move|p1a: FireLord|Substitute|p1a: FireLord
+|-start|p1a: FireLord|Substitute
+|-damage|p1a: FireLord|76\/100
+|move|p2a: Rhydon|Rock Slide|p1a: FireLord
+|-supereffective|p1a: FireLord
+|-end|p1a: FireLord|Substitute
+|
+|turn|32
+|choice||
+|
+|move|p1a: FireLord|Seismic Toss|p2a: Rhydon
+|-damage|p2a: Rhydon|20\/100
+|move|p2a: Rhydon|Rock Slide|p1a: FireLord
+|-supereffective|p1a: FireLord
+|-damage|p1a: FireLord|0 fnt
+|faint|p1a: FireLord
+|
+|win|RocketSC
+|player|p1
+|player|p2
+|c|★RocketSC|gg

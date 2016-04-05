@@ -1,0 +1,264 @@
+﻿|join|Stormstuck
+|join|Bysshe
+|player|p1|Stormstuck|76
+|player|p2|Bysshe|265
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Ivysaur|Ivysaur, L86|279\/279
+|switch|p2a: Ninetales|Ninetales, L86|301\/301
+|turn|1
+|
+|switch|p1a: Chansey|Chansey, L82|578\/578
+|move|p2a: Ninetales|Fire Blast|p1a: Chansey
+|-damage|p1a: Chansey|456\/578
+|-status|p1a: Chansey|brn
+|
+|turn|2
+|
+|move|p2a: Ninetales|Confuse Ray|p1a: Chansey
+|-start|p1a: Chansey|confusion
+|-activate|p1a: Chansey|confusion
+|-damage|p1a: Chansey|441\/578 brn|[from] confusion
+|-damage|p1a: Chansey|405\/578 brn|[from] brn|[of] p2a: Ninetales
+|
+|turn|3
+|
+|move|p2a: Ninetales|Fire Spin|p1a: Chansey
+|-damage|p1a: Chansey|388\/578 brn
+|-activate|p1a: Chansey|move: Fire Spin|[of] p2a: Ninetales
+|cant|p1a: Chansey|partiallytrapped
+|-damage|p1a: Chansey|352\/578 brn|[from] brn|[of] p2a: Ninetales
+|
+|turn|4
+|
+|move|p2a: Ninetales|Fire Spin|p1a: Chansey
+|-damage|p1a: Chansey|335\/578 brn
+|cant|p1a: Chansey|partiallytrapped
+|-damage|p1a: Chansey|299\/578 brn|[from] brn|[of] p2a: Ninetales
+|
+|-end|p1a: Chansey|Fire Spin|[partiallytrapped]
+|turn|5
+|
+|move|p2a: Ninetales|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|159\/578 brn
+|-activate|p1a: Chansey|confusion
+|move|p1a: Chansey|Thunder Wave|p2a: Ninetales
+|-status|p2a: Ninetales|par
+|-damage|p1a: Chansey|123\/578 brn|[from] brn|[of] p2a: Ninetales
+|
+|turn|6
+|
+|-activate|p1a: Chansey|confusion
+|-damage|p1a: Chansey|108\/578 brn|[from] confusion
+|-damage|p1a: Chansey|72\/578 brn|[from] brn|[of] p2a: Ninetales
+|move|p2a: Ninetales|Body Slam|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|switch|p1a: Mr. Mime|Mr. Mime, L86|244\/244
+|turn|7
+|
+|move|p1a: Mr. Mime|Psychic|p2a: Ninetales
+|-damage|p2a: Ninetales|215\/301 par
+|move|p2a: Ninetales|Fire Blast|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|129\/244
+|
+|turn|8
+|
+|move|p1a: Mr. Mime|Psychic|p2a: Ninetales
+|-damage|p2a: Ninetales|116\/301 par
+|-unboost|p2a: Ninetales|spd|1
+|-unboost|p2a: Ninetales|spa|1
+|cant|p2a: Ninetales|par
+|
+|turn|9
+|
+|move|p1a: Mr. Mime|Psychic|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|switch|p2a: Rhydon|Rhydon, L82|340\/340
+|turn|10
+|
+|move|p1a: Mr. Mime|Psychic|p2a: Rhydon
+|-damage|p2a: Rhydon|177\/340
+|move|p2a: Rhydon|Earthquake|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|0 fnt
+|faint|p1a: Mr. Mime
+|
+|switch|p1a: Ivysaur|Ivysaur, L86|279\/279
+|turn|11
+|
+|switch|p2a: Articuno|Articuno, L86|330\/330
+|move|p1a: Ivysaur|Sleep Powder|p2a: Articuno
+|-status|p2a: Articuno|slp
+|
+|turn|12
+|
+|switch|p1a: Electrode|Electrode, L86|279\/279
+|cant|p2a: Articuno|slp
+|
+|turn|13
+|
+|switch|p2a: Rhydon|Rhydon, L82|177\/340
+|move|p1a: Electrode|Thunderbolt|p2a: Rhydon
+|-immune|p2a: Rhydon|[msg]
+|
+|turn|14
+|
+|switch|p1a: Ivysaur|Ivysaur, L86|279\/279
+|move|p2a: Rhydon|Substitute|p2a: Rhydon
+|-start|p2a: Rhydon|Substitute
+|-damage|p2a: Rhydon|92\/340
+|
+|turn|15
+|
+|move|p1a: Ivysaur|Swords Dance|p1a: Ivysaur
+|-boost|p1a: Ivysaur|atk|2
+|move|p2a: Rhydon|Earthquake|p1a: Ivysaur
+|-crit|p1a: Ivysaur
+|-damage|p1a: Ivysaur|0 fnt
+|faint|p1a: Ivysaur
+|
+|switch|p1a: Golbat|Golbat, L86|304\/304
+|turn|16
+|
+|move|p1a: Golbat|Mega Drain|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-end|p2a: Rhydon|Substitute
+|move|p2a: Rhydon|Rock Slide|p1a: Golbat
+|-supereffective|p1a: Golbat
+|-damage|p1a: Golbat|97\/304
+|
+|turn|17
+|
+|switch|p2a: Articuno|Articuno, L86|330\/330 slp
+|move|p1a: Golbat|Mega Drain|p2a: Articuno
+|-resisted|p2a: Articuno
+|-damage|p2a: Articuno|321\/330 slp
+|-heal|p1a: Golbat|101\/304|[from] drain|[of] p2a: Articuno
+|
+|turn|18
+|
+|move|p1a: Golbat|Hyper Beam|p2a: Articuno
+|-damage|p2a: Articuno|229\/330 slp
+|cant|p2a: Articuno|slp
+|
+|turn|19
+|
+|cant|p1a: Golbat|recharge
+|cant|p2a: Articuno|slp
+|
+|turn|20
+|
+|move|p1a: Golbat|Confuse Ray|p2a: Articuno
+|-start|p2a: Articuno|confusion
+|cant|p2a: Articuno|slp
+|
+|turn|21
+|
+|move|p1a: Golbat|Double-Edge|p2a: Articuno
+|-damage|p2a: Articuno|176\/330 slp
+|-damage|p1a: Golbat|88\/304|[from] recoil|[of] p2a: Articuno
+|cant|p2a: Articuno|slp
+|
+|turn|22
+|
+|switch|p1a: Jolteon|Jolteon, L86|287\/287
+|cant|p2a: Articuno|slp
+|-curestatus|p2a: Articuno|slp
+|
+|turn|23
+|
+|switch|p2a: Magikarp|Magikarp, L99|240\/240
+|move|p1a: Jolteon|Double Kick|p2a: Magikarp
+|-damage|p2a: Magikarp|222\/240
+|-damage|p2a: Magikarp|204\/240
+|-hitcount|p2a: Magikarp|2
+|
+|turn|24
+|
+|move|p1a: Jolteon|Body Slam|p2a: Magikarp
+|-damage|p2a: Magikarp|150\/240
+|move|p2a: Magikarp|Dragon Rage|p1a: Jolteon
+|-damage|p1a: Jolteon|247\/287
+|
+|turn|25
+|
+|move|p1a: Jolteon|Pin Missile|p2a: Magikarp
+|-damage|p2a: Magikarp|141\/240
+|-damage|p2a: Magikarp|132\/240
+|-damage|p2a: Magikarp|123\/240
+|-hitcount|p2a: Magikarp|3
+|move|p2a: Magikarp|Dragon Rage|p1a: Jolteon
+|-damage|p1a: Jolteon|207\/287
+|
+|turn|26
+|
+|move|p1a: Jolteon|Body Slam|p2a: Magikarp
+|-damage|p2a: Magikarp|67\/240
+|move|p2a: Magikarp|Dragon Rage|p1a: Jolteon
+|-damage|p1a: Jolteon|167\/287
+|
+|turn|27
+|
+|move|p1a: Jolteon|Body Slam|p2a: Magikarp
+|-damage|p2a: Magikarp|13\/240
+|move|p2a: Magikarp|Dragon Rage|p1a: Jolteon
+|-damage|p1a: Jolteon|127\/287
+|
+|turn|28
+|
+|move|p1a: Jolteon|Body Slam|p2a: Magikarp
+|-crit|p2a: Magikarp
+|-damage|p2a: Magikarp|0 fnt
+|faint|p2a: Magikarp
+|
+|switch|p2a: Machamp|Machamp, L86|330\/330
+|turn|29
+|
+|move|p1a: Jolteon|Sand Attack|p2a: Machamp
+|-unboost|p2a: Machamp|accuracy|1
+|move|p2a: Machamp|Earthquake|p1a: Jolteon
+|-crit|p1a: Jolteon
+|-supereffective|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|switch|p1a: Golbat|Golbat, L86|88\/304
+|turn|30
+|
+|move|p1a: Golbat|Confuse Ray|p2a: Machamp
+|-start|p2a: Machamp|confusion
+|-activate|p2a: Machamp|confusion
+|-damage|p2a: Machamp|289\/330|[from] confusion
+|
+|turn|31
+|
+|move|p1a: Golbat|Mega Drain|p2a: Machamp
+|-damage|p2a: Machamp|260\/330
+|-heal|p1a: Golbat|102\/304|[from] drain|[of] p2a: Machamp
+|-activate|p2a: Machamp|confusion
+|move|p2a: Machamp|Body Slam|p1a: Golbat
+|-crit|p1a: Golbat
+|-damage|p1a: Golbat|0 fnt
+|faint|p1a: Golbat
+|
+|switch|p1a: Electrode|Electrode, L86|279\/279
+|turn|32
+|-message|Stormstuck forfeited.
+|leave|Stormstuck
+|
+|win|Bysshe
+|raw|Ladder updating...
+|player|p1
+|raw|Stormstuck's rating: 1097 &rarr; <strong>1065<\/strong><br \/>(-32 for losing)
+|raw|Bysshe's rating: 1000 &rarr; <strong>1051<\/strong><br \/>(+51 for winning)

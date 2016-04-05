@@ -1,0 +1,48 @@
+﻿|join|Zamrock
+|join|shadowist
+|player|p1|Zamrock|293
+|player|p2|shadowist|269
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gyarados|Gyarados, L86|339\/339
+|switch|p2a: Tentacruel|Tentacruel, L86|313\/313
+|turn|1
+|
+|switch|p2a: Starmie|Starmie, L82|266\/266
+|move|p1a: Gyarados|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|184\/266
+|
+|turn|2
+|
+|switch|p1a: Parasect|Parasect, L86|279\/279
+|move|p2a: Starmie|Thunder Wave|p1a: Parasect
+|-status|p1a: Parasect|par
+|
+|turn|3
+|
+|move|p2a: Starmie|Blizzard|p1a: Parasect
+|-crit|p1a: Parasect
+|-supereffective|p1a: Parasect
+|-damage|p1a: Parasect|0 fnt
+|faint|p1a: Parasect
+|
+|switch|p1a: Magikarp|Magikarp, L99|240\/240
+|turn|4
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|266\/266
+|move|p1a: Magikarp|Dragon Rage|p2a: Starmie
+|-damage|p2a: Starmie|226\/266
+|
+|turn|5
+|-message|Zamrock forfeited.
+|
+|win|shadowist
+|raw|Ladder updating...

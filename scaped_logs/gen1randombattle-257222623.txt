@@ -1,0 +1,280 @@
+﻿|join|trolebastian
+|join|Zorage
+|player|p1|trolebastian|167
+|player|p2|Zorage|166
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Articuno|Articuno, L79|304\/304
+|switch|p2a: Paras|Paras, L96|262\/262
+|turn|1
+|
+|switch|p2a: Chansey|Chansey, L79|557\/557
+|move|p1a: Articuno|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|431\/557
+|
+|turn|2
+|
+|move|p1a: Articuno|Blizzard|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|180\/557
+|-status|p2a: Chansey|frz
+|cant|p2a: Chansey|frz
+|
+|turn|3
+|
+|move|p1a: Articuno|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|61\/557 frz
+|cant|p2a: Chansey|frz
+|
+|turn|4
+|
+|move|p1a: Articuno|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|switch|p2a: Vaporeon|Vaporeon, L85|395\/395
+|turn|5
+|
+|move|p1a: Articuno|Reflect|p1a: Articuno
+|-start|p1a: Articuno|Reflect
+|move|p2a: Vaporeon|Blizzard|p1a: Articuno
+|-damage|p1a: Articuno|223\/304
+|
+|turn|6
+|
+|move|p1a: Articuno|Blizzard|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|339\/395
+|move|p2a: Vaporeon|Hydro Pump|p1a: Articuno|[miss]
+|-miss|p2a: Vaporeon
+|
+|turn|7
+|
+|move|p1a: Articuno|Blizzard|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|280\/395
+|move|p2a: Vaporeon|Hydro Pump|p1a: Articuno
+|-damage|p1a: Articuno|100\/304
+|
+|turn|8
+|
+|move|p1a: Articuno|Rest|p1a: Articuno
+|-status|p1a: Articuno|slp
+|-heal|p1a: Articuno|304\/304 slp|[silent]
+|-status|p1a: Articuno|slp|[from] move: Rest
+|move|p2a: Vaporeon|Surf|p1a: Articuno
+|-damage|p1a: Articuno|211\/304 slp
+|
+|turn|9
+|
+|cant|p1a: Articuno|slp
+|move|p2a: Vaporeon|Surf|p1a: Articuno
+|-damage|p1a: Articuno|121\/304 slp
+|
+|turn|10
+|
+|-curestatus|p1a: Articuno|slp
+|move|p2a: Vaporeon|Hydro Pump|p1a: Articuno
+|-crit|p1a: Articuno
+|-damage|p1a: Articuno|0 fnt
+|faint|p1a: Articuno
+|
+|switch|p1a: Ivysaur|Ivysaur, L85|276\/276
+|turn|11
+|
+|move|p2a: Vaporeon|Blizzard|p1a: Ivysaur
+|-supereffective|p1a: Ivysaur
+|-damage|p1a: Ivysaur|77\/276
+|move|p1a: Ivysaur|Sleep Powder|p2a: Vaporeon|[miss]
+|-miss|p1a: Ivysaur
+|
+|turn|12
+|
+|move|p2a: Vaporeon|Blizzard|p1a: Ivysaur
+|-supereffective|p1a: Ivysaur
+|-damage|p1a: Ivysaur|0 fnt
+|faint|p1a: Ivysaur
+|
+|switch|p1a: Mewtwo|Mewtwo, L70|293\/293
+|turn|13
+|
+|move|p1a: Mewtwo|Psychic|p2a: Vaporeon
+|-crit|p2a: Vaporeon
+|-damage|p2a: Vaporeon|136\/395
+|move|p2a: Vaporeon|Blizzard|p1a: Mewtwo
+|-damage|p1a: Mewtwo|215\/293
+|
+|turn|14
+|
+|move|p1a: Mewtwo|Psychic|p2a: Vaporeon|[miss]
+|-miss|p1a: Mewtwo
+|move|p2a: Vaporeon|Rest|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp
+|-heal|p2a: Vaporeon|395\/395 slp|[silent]
+|-status|p2a: Vaporeon|slp|[from] move: Rest
+|
+|turn|15
+|
+|move|p1a: Mewtwo|Psychic|p2a: Vaporeon
+|-damage|p2a: Vaporeon|310\/395 slp
+|-unboost|p2a: Vaporeon|spd|1
+|-unboost|p2a: Vaporeon|spa|1
+|cant|p2a: Vaporeon|slp
+|
+|turn|16
+|
+|switch|p2a: Metapod|Metapod, L99|300\/300
+|move|p1a: Mewtwo|Psychic|p2a: Metapod
+|-damage|p2a: Metapod|138\/300
+|
+|turn|17
+|
+|move|p1a: Mewtwo|Psychic|p2a: Metapod
+|-damage|p2a: Metapod|0 fnt
+|faint|p2a: Metapod
+|
+|switch|p2a: Paras|Paras, L96|262\/262
+|turn|18
+|
+|move|p1a: Mewtwo|Ice Beam|p2a: Paras
+|-supereffective|p2a: Paras
+|-damage|p2a: Paras|108\/262
+|move|p2a: Paras|Toxic|p1a: Mewtwo
+|-status|p1a: Mewtwo|tox
+|
+|turn|19
+|
+|move|p1a: Mewtwo|Ice Beam|p2a: Paras
+|-supereffective|p2a: Paras
+|-damage|p2a: Paras|0 fnt
+|faint|p2a: Paras
+|
+|switch|p2a: Vaporeon|Vaporeon, L85|310\/395 slp
+|turn|20
+|
+|move|p1a: Mewtwo|Psychic|p2a: Vaporeon
+|-damage|p2a: Vaporeon|229\/395 slp
+|-damage|p1a: Mewtwo|197\/293 tox|[from] tox|[of] p2a: Vaporeon
+|-curestatus|p2a: Vaporeon|slp
+|
+|turn|21
+|
+|move|p1a: Mewtwo|Hyper Beam|p2a: Vaporeon
+|-damage|p2a: Vaporeon|132\/395
+|-damage|p1a: Mewtwo|161\/293 tox|[from] tox|[of] p2a: Vaporeon
+|move|p2a: Vaporeon|Surf|p1a: Mewtwo
+|-damage|p1a: Mewtwo|77\/293 tox
+|
+|turn|22
+|-mustrecharge|p1a: Mewtwo
+|-mustrecharge|p1a: Mewtwo
+|
+|cant|p1a: Mewtwo|recharge
+|-damage|p1a: Mewtwo|23\/293 tox|[from] tox|[of] p2a: Vaporeon
+|move|p2a: Vaporeon|Surf|p1a: Mewtwo
+|-crit|p1a: Mewtwo
+|-damage|p1a: Mewtwo|0 fnt
+|faint|p1a: Mewtwo
+|
+|switch|p1a: Muk|Muk, L90|372\/372
+|turn|23
+|
+|switch|p2a: Marowak|Marowak, L90|291\/291
+|move|p1a: Muk|Mega Drain|p2a: Marowak
+|-crit|p2a: Marowak
+|-supereffective|p2a: Marowak
+|-damage|p2a: Marowak|163\/291
+|
+|turn|24
+|
+|move|p1a: Muk|Sludge|p2a: Marowak
+|-resisted|p2a: Marowak
+|-damage|p2a: Marowak|128\/291
+|move|p2a: Marowak|Earthquake|p1a: Muk
+|-supereffective|p1a: Muk
+|-damage|p1a: Muk|162\/372
+|
+|turn|25
+|
+|move|p1a: Muk|Mega Drain|p2a: Marowak
+|-supereffective|p2a: Marowak
+|-damage|p2a: Marowak|57\/291
+|-heal|p1a: Muk|197\/372|[from] drain|[of] p2a: Marowak
+|move|p2a: Marowak|Earthquake|p1a: Muk
+|-supereffective|p1a: Muk
+|-damage|p1a: Muk|0 fnt
+|faint|p1a: Muk
+|
+|switch|p1a: Rattata|Rattata, L96|252\/252
+|turn|26
+|
+|move|p1a: Rattata|Bubble Beam|p2a: Marowak
+|-supereffective|p2a: Marowak
+|-damage|p2a: Marowak|0 fnt
+|faint|p2a: Marowak
+|
+|switch|p2a: Kabuto|Kabuto, L96|252\/252
+|turn|27
+|
+|move|p1a: Rattata|Blizzard|p2a: Kabuto|[miss]
+|-miss|p1a: Rattata
+|move|p2a: Kabuto|Toxic|p1a: Rattata
+|-status|p1a: Rattata|tox
+|
+|turn|28
+|
+|switch|p2a: Vaporeon|Vaporeon, L85|132\/395
+|move|p1a: Rattata|Body Slam|p2a: Vaporeon
+|-damage|p2a: Vaporeon|37\/395
+|-status|p2a: Vaporeon|par
+|-damage|p1a: Rattata|237\/252 tox|[from] tox|[of] p2a: Vaporeon
+|
+|turn|29
+|
+|move|p1a: Rattata|Body Slam|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|faint|p2a: Vaporeon
+|
+|switch|p2a: Kabuto|Kabuto, L96|252\/252
+|turn|30
+|
+|move|p1a: Rattata|Blizzard|p2a: Kabuto|[miss]
+|-miss|p1a: Rattata
+|-damage|p1a: Rattata|207\/252 tox|[from] tox|[of] p2a: Kabuto
+|move|p2a: Kabuto|Slash|p1a: Rattata
+|-damage|p1a: Rattata|122\/252 tox
+|
+|turn|31
+|
+|move|p1a: Rattata|Blizzard|p2a: Kabuto
+|-resisted|p2a: Kabuto
+|-damage|p2a: Kabuto|217\/252
+|-damage|p1a: Rattata|77\/252 tox|[from] tox|[of] p2a: Kabuto
+|move|p2a: Kabuto|Slash|p1a: Rattata
+|-crit|p1a: Rattata
+|-damage|p1a: Rattata|0 fnt
+|faint|p1a: Rattata
+|
+|switch|p1a: Graveler|Graveler, L85|267\/267
+|turn|32
+|
+|move|p2a: Kabuto|Surf|p1a: Graveler
+|-supereffective|p1a: Graveler
+|-damage|p1a: Graveler|0 fnt
+|faint|p1a: Graveler
+|
+|win|Zorage
+|raw|Ladder updating...
+|c|★trolebastian|gg
+|raw|trolebastian's rating: 1040 &rarr; <strong>1031<\/strong><br \/>(-9 for losing)
+|raw|Zorage's rating: 1198 &rarr; <strong>1213<\/strong><br \/>(+15 for winning)
+|c|★Zorage|I didn't think I would won
+|leave|trolebastian
+|player|p1

@@ -1,0 +1,321 @@
+﻿|join|jb champ
+|join|Salty Goku
+|player|p1|jb champ|150
+|player|p2|Salty Goku|15
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Arcanine|Arcanine, L86|330\/330
+|switch|p2a: Rapidash|Rapidash, L86|287\/287
+|turn|1
+|
+|switch|p2a: Seaking|Seaking, L86|313\/313
+|move|p1a: Arcanine|Reflect|p1a: Arcanine
+|
+|turn|2
+|
+|switch|p1a: Venusaur|Venusaur, L86|313\/313
+|move|p2a: Seaking|Surf|p1a: Venusaur
+|-resisted|p1a: Venusaur
+|-damage|p1a: Venusaur|275\/313
+|
+|turn|3
+|
+|move|p1a: Venusaur|Sleep Powder|p2a: Seaking
+|-status|p2a: Seaking|slp
+|cant|p2a: Seaking|slp
+|
+|turn|4
+|
+|switch|p2a: Rapidash|Rapidash, L86|287\/287
+|move|p1a: Venusaur|Body Slam|p2a: Rapidash
+|-damage|p2a: Rapidash|229\/287
+|-status|p2a: Rapidash|par
+|
+|turn|5
+|
+|switch|p1a: Rapidash|Rapidash, L86|287\/287
+|move|p2a: Rapidash|Fire Blast|p1a: Rapidash
+|-resisted|p1a: Rapidash
+|-damage|p1a: Rapidash|225\/287
+|
+|turn|6
+|
+|move|p1a: Rapidash|Body Slam|p2a: Rapidash
+|-crit|p2a: Rapidash
+|-damage|p2a: Rapidash|97\/287 par
+|cant|p2a: Rapidash|par
+|
+|turn|7
+|
+|move|p1a: Rapidash|Body Slam|p2a: Rapidash
+|-crit|p2a: Rapidash
+|-damage|p2a: Rapidash|0 fnt
+|faint|p2a: Rapidash
+|c|★jb champ|sorry
+|
+|switch|p2a: Dugtrio|Dugtrio, L86|236\/236
+|turn|8
+|
+|switch|p1a: Articuno|Articuno, L86|330\/330
+|move|p2a: Dugtrio|Earthquake|p1a: Articuno
+|-immune|p1a: Articuno|[msg]
+|
+|turn|9
+|
+|switch|p2a: Seaking|Seaking, L86|313\/313 slp
+|move|p1a: Articuno|Blizzard|p2a: Seaking
+|-resisted|p2a: Seaking
+|-damage|p2a: Seaking|231\/313 slp
+|
+|turn|10
+|
+|switch|p1a: Beedrill|Beedrill, L86|287\/287
+|cant|p2a: Seaking|slp
+|-curestatus|p2a: Seaking|slp
+|
+|turn|11
+|
+|move|p1a: Beedrill|Twineedle|p2a: Seaking
+|-damage|p2a: Seaking|201\/313
+|-damage|p2a: Seaking|171\/313
+|-hitcount|p2a: Seaking|2
+|move|p2a: Seaking|Blizzard|p1a: Beedrill
+|-crit|p1a: Beedrill
+|-damage|p1a: Beedrill|80\/287
+|
+|turn|12
+|
+|move|p1a: Beedrill|Hyper Beam|p2a: Seaking|[miss]
+|-miss|p1a: Beedrill
+|move|p2a: Seaking|Blizzard|p1a: Beedrill
+|-damage|p1a: Beedrill|0 fnt
+|faint|p1a: Beedrill
+|
+|switch|p1a: Venusaur|Venusaur, L86|275\/313
+|turn|13
+|
+|move|p1a: Venusaur|Body Slam|p2a: Seaking
+|-damage|p2a: Seaking|102\/313
+|move|p2a: Seaking|Blizzard|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|143\/313
+|
+|turn|14
+|
+|move|p1a: Venusaur|Body Slam|p2a: Seaking
+|-damage|p2a: Seaking|40\/313
+|-status|p2a: Seaking|par
+|move|p2a: Seaking|Blizzard|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|9\/313
+|
+|turn|15
+|
+|move|p1a: Venusaur|Body Slam|p2a: Seaking
+|-damage|p2a: Seaking|0 fnt
+|faint|p2a: Seaking
+|
+|switch|p2a: Dugtrio|Dugtrio, L86|236\/236
+|turn|16
+|
+|move|p2a: Dugtrio|Slash|p1a: Venusaur
+|-crit|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|
+|switch|p1a: Articuno|Articuno, L86|330\/330
+|turn|17
+|
+|switch|p2a: Blastoise|Blastoise, L86|311\/311
+|move|p1a: Articuno|Blizzard|p2a: Blastoise
+|-resisted|p2a: Blastoise
+|-damage|p2a: Blastoise|238\/311
+|
+|turn|18
+|
+|move|p1a: Articuno|Mimic|p2a: Blastoise
+|-start|p1a: Articuno|Mimic|Rest
+|move|p2a: Blastoise|Hydro Pump|p1a: Articuno|[miss]
+|-miss|p2a: Blastoise
+|
+|turn|19
+|
+|move|p1a: Articuno|Blizzard|p2a: Blastoise
+|-resisted|p2a: Blastoise
+|-damage|p2a: Blastoise|154\/311
+|move|p2a: Blastoise|Hydro Pump|p1a: Articuno|[miss]
+|-miss|p2a: Blastoise
+|
+|turn|20
+|
+|move|p1a: Articuno|Blizzard|p2a: Blastoise|[miss]
+|-miss|p1a: Articuno
+|move|p2a: Blastoise|Hydro Pump|p1a: Articuno
+|-damage|p1a: Articuno|228\/330
+|
+|turn|21
+|
+|move|p1a: Articuno|Blizzard|p2a: Blastoise
+|-resisted|p2a: Blastoise
+|-damage|p2a: Blastoise|75\/311
+|move|p2a: Blastoise|Hydro Pump|p1a: Articuno
+|-damage|p1a: Articuno|136\/330
+|
+|turn|22
+|
+|move|p1a: Articuno|Blizzard|p2a: Blastoise
+|-resisted|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|
+|switch|p2a: Mew|Mew, L77|312\/312
+|turn|23
+|
+|switch|p1a: Rapidash|Rapidash, L86|225\/287
+|move|p2a: Mew|Thunderbolt|p1a: Rapidash
+|-damage|p1a: Rapidash|171\/287
+|
+|turn|24
+|
+|move|p1a: Rapidash|Body Slam|p2a: Mew
+|-damage|p2a: Mew|244\/312
+|move|p2a: Mew|Thunderbolt|p1a: Rapidash
+|-damage|p1a: Rapidash|110\/287
+|-status|p1a: Rapidash|par
+|
+|turn|25
+|
+|move|p2a: Mew|Thunderbolt|p1a: Rapidash
+|-damage|p1a: Rapidash|49\/287 par
+|move|p1a: Rapidash|Body Slam|p2a: Mew
+|-damage|p2a: Mew|179\/312
+|
+|turn|26
+|
+|move|p2a: Mew|Thunderbolt|p1a: Rapidash
+|-damage|p1a: Rapidash|0 fnt
+|faint|p1a: Rapidash
+|
+|switch|p1a: Arcanine|Arcanine, L86|330\/330
+|turn|27
+|
+|move|p1a: Arcanine|Reflect|p1a: Arcanine
+|move|p2a: Mew|Thunderbolt|p1a: Arcanine
+|-damage|p1a: Arcanine|273\/330
+|
+|turn|28
+|
+|move|p1a: Arcanine|Fire Blast|p2a: Mew
+|-damage|p2a: Mew|61\/312
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|217\/312
+|
+|turn|29
+|
+|move|p1a: Arcanine|Mimic|p2a: Mew
+|-start|p1a: Arcanine|Mimic|Thunderbolt
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|312\/312
+|
+|turn|30
+|
+|move|p1a: Arcanine|Fire Blast|p2a: Mew
+|-damage|p2a: Mew|191\/312
+|move|p2a: Mew|Thunderbolt|p1a: Arcanine
+|-damage|p1a: Arcanine|216\/330
+|
+|turn|31
+|
+|switch|p1a: Graveler|Graveler, L86|270\/270
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|312\/312
+|
+|turn|32
+|
+|move|p2a: Mew|Swords Dance|p2a: Mew
+|-boost|p2a: Mew|atk|2
+|move|p1a: Graveler|Earthquake|p2a: Mew
+|-damage|p2a: Mew|210\/312
+|
+|turn|33
+|
+|move|p2a: Mew|Swords Dance|p2a: Mew
+|-boost|p2a: Mew|atk|2
+|move|p1a: Graveler|Body Slam|p2a: Mew
+|-damage|p2a: Mew|144\/312
+|
+|turn|34
+|
+|move|p2a: Mew|Explosion|p1a: Graveler
+|-resisted|p1a: Graveler
+|-damage|p1a: Graveler|19\/270
+|faint|p2a: Mew
+|
+|switch|p2a: Scyther|Scyther, L86|296\/296
+|turn|35
+|
+|move|p2a: Scyther|Slash|p1a: Graveler
+|-crit|p1a: Graveler
+|-resisted|p1a: Graveler
+|-damage|p1a: Graveler|0 fnt
+|faint|p1a: Graveler
+|
+|switch|p1a: Arcanine|Arcanine, L86|216\/330
+|turn|36
+|
+|switch|p2a: Dugtrio|Dugtrio, L86|236\/236
+|move|p1a: Arcanine|Fire Blast|p2a: Dugtrio
+|-damage|p2a: Dugtrio|103\/236
+|
+|turn|37
+|
+|move|p2a: Dugtrio|Substitute|p2a: Dugtrio
+|-start|p2a: Dugtrio|Substitute
+|-damage|p2a: Dugtrio|44\/236
+|move|p1a: Arcanine|Fire Blast|p2a: Dugtrio|[miss]
+|-miss|p1a: Arcanine
+|
+|turn|38
+|
+|switch|p1a: Articuno|Articuno, L86|136\/330
+|move|p2a: Dugtrio|Slash|p1a: Articuno
+|-crit|p1a: Articuno
+|-damage|p1a: Articuno|63\/330
+|
+|turn|39
+|
+|move|p2a: Dugtrio|Slash|p1a: Articuno
+|-crit|p1a: Articuno
+|-damage|p1a: Articuno|0 fnt
+|faint|p1a: Articuno
+|
+|switch|p1a: Arcanine|Arcanine, L86|216\/330
+|turn|40
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Arcanine
+|-crit|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|win|Salty Goku
+|raw|Ladder updating...
+|raw|jb champ's rating: 1284 &rarr; <strong>1264<\/strong><br \/>(-20 for losing)
+|raw|Salty Goku's rating: 1348 &rarr; <strong>1365<\/strong><br \/>(+17 for winning)
+|c|★Salty Goku|that was really close
+|c|★jb champ|yeah
+|c|★jb champ|i never really had a chance tbh
+|c|★Salty Goku|you probably had won if your fire blast didnt miss
+|c|★Salty Goku|then you'd break my sub and kill dugtrio
+|c|★jb champ|venu did not have razor leaf
+|c|★jb champ|yeah maybe
+|c|★jb champ|but it missed
+|c|★jb champ|gg anyway
+|c|★Salty Goku|yeah gg

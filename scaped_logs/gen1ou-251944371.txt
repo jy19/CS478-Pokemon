@@ -1,0 +1,355 @@
+﻿|join|Lusch
+|join|qsns
+|player|p1|Lusch|153
+|player|p2|qsns|217
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333\/333
+|switch|p2a: Jolteon|Jolteon|333\/333
+|turn|1
+|
+|switch|p1a: Rhydon|Rhydon|413\/413
+|move|p2a: Jolteon|Thunder Wave|p1a: Rhydon
+|-immune|p1a: Rhydon|[msg]
+|
+|turn|2
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|switch|p1a: Jynx|Jynx|333\/333
+|
+|turn|3
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: Exeggutor
+|-status|p2a: Exeggutor|slp
+|-curestatus|p2a: Exeggutor|slp
+|
+|turn|4
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|move|p1a: Jynx|Lovely Kiss|p2a: Starmie
+|-status|p2a: Starmie|slp
+|
+|turn|5
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Jynx|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|574\/703
+|
+|turn|6
+|
+|move|p1a: Jynx|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|450\/703
+|move|p2a: Chansey|Ice Beam|p1a: Jynx
+|-resisted|p1a: Jynx
+|-damage|p1a: Jynx|294\/333
+|
+|turn|7
+|
+|move|p1a: Jynx|Blizzard|p2a: Chansey|[miss]
+|-miss|p1a: Jynx
+|move|p2a: Chansey|Thunder Wave|p1a: Jynx
+|-status|p1a: Jynx|par
+|
+|turn|8
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703
+|move|p1a: Jynx|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|579\/703
+|
+|turn|9
+|
+|switch|p2a: Starmie|Starmie|323\/323 slp
+|switch|p1a: Alakazam|Alakazam|313\/313
+|
+|turn|10
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|223\/323 slp
+|cant|p2a: Starmie|slp
+|
+|turn|11
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Alakazam|Seismic Toss|p2a: Exeggutor
+|-damage|p2a: Exeggutor|293\/393
+|
+|turn|12
+|
+|switch|p1a: Jynx|Jynx|294\/333 par
+|move|p2a: Exeggutor|Sleep Powder|p1a: Jynx
+|-fail|p1a: Jynx
+|
+|turn|13
+|
+|switch|p2a: Chansey|Chansey|579\/703
+|switch|p1a: Alakazam|Alakazam|313\/313
+|
+|turn|14
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|
+|turn|15
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|454\/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703 par
+|
+|turn|16
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|switch|p2a: Exeggutor|Exeggutor|293\/393
+|
+|turn|17
+|
+|switch|p1a: Alakazam|Alakazam|313\/313 par
+|move|p2a: Exeggutor|Egg Bomb|p1a: Alakazam
+|-damage|p1a: Alakazam|200\/313 par
+|
+|turn|18
+|
+|move|p2a: Exeggutor|Egg Bomb|p1a: Alakazam
+|-damage|p1a: Alakazam|78\/313 par
+|move|p1a: Alakazam|Thunder Wave|p2a: Exeggutor
+|-status|p2a: Exeggutor|par
+|
+|turn|19
+|
+|cant|p1a: Alakazam|par
+|cant|p2a: Exeggutor|par
+|
+|turn|20
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|234\/313 par
+|cant|p2a: Exeggutor|par
+|
+|turn|21
+|
+|cant|p1a: Alakazam|par
+|move|p2a: Exeggutor|Egg Bomb|p1a: Alakazam
+|-damage|p1a: Alakazam|110\/313 par
+|
+|turn|22
+|
+|cant|p1a: Alakazam|par
+|move|p2a: Exeggutor|Egg Bomb|p1a: Alakazam|[miss]
+|-miss|p2a: Exeggutor
+|
+|turn|23
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|266\/313 par
+|move|p2a: Exeggutor|Egg Bomb|p1a: Alakazam
+|-damage|p1a: Alakazam|156\/313 par
+|
+|turn|24
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|312\/313 par
+|move|p2a: Exeggutor|Egg Bomb|p1a: Alakazam
+|-damage|p1a: Alakazam|198\/313 par
+|
+|turn|25
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Exeggutor
+|-damage|p2a: Exeggutor|193\/393 par
+|move|p2a: Exeggutor|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|148\/313 par
+|
+|turn|26
+|
+|switch|p2a: Moltres|Moltres|383\/383
+|move|p1a: Alakazam|Seismic Toss|p2a: Moltres
+|-damage|p2a: Moltres|283\/383
+|
+|turn|27
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|move|p2a: Moltres|Fire Blast|p1a: Starmie|[miss]
+|-miss|p2a: Moltres
+|
+|turn|28
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|switch|p2a: Chansey|Chansey|703\/703 par
+|
+|turn|29
+|
+|move|p1a: Snorlax|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|430\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|30
+|
+|switch|p2a: Starmie|Starmie|223\/323 slp
+|move|p1a: Snorlax|Body Slam|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|switch|p2a: Moltres|Moltres|283\/383
+|turn|31
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|move|p2a: Moltres|Fire Spin|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|312\/323
+|-activate|p1a: Starmie|move: Fire Spin|[of] p2a: Moltres
+|
+|turn|32
+|
+|switch|p1a: Rhydon|Rhydon|413\/413
+|switch|p2a: Jolteon|Jolteon|333\/333
+|
+|turn|33
+|
+|switch|p2a: Exeggutor|Exeggutor|193\/393 par
+|move|p1a: Rhydon|Rock Slide|p2a: Exeggutor
+|-damage|p2a: Exeggutor|82\/393 par
+|
+|turn|34
+|
+|move|p1a: Rhydon|Rock Slide|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|35
+|
+|switch|p1a: Alakazam|Alakazam|148\/313 par
+|move|p2a: Tauros|Blizzard|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|26\/313 par
+|
+|turn|36
+|
+|move|p2a: Tauros|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|turn|37
+|
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|390\/523
+|move|p1a: Snorlax|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|249\/353
+|
+|turn|38
+|
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|152\/523
+|move|p1a: Snorlax|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|131\/353
+|
+|turn|39
+|join|Yoda2798
+|
+|switch|p1a: Rhydon|Rhydon|413\/413
+|move|p2a: Tauros|Body Slam|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|372\/413
+|-status|p1a: Rhydon|par
+|
+|turn|40
+|
+|move|p2a: Tauros|Blizzard|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|146\/413 par
+|move|p1a: Rhydon|Earthquake|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|switch|p2a: Moltres|Moltres|283\/383
+|turn|41
+|
+|switch|p1a: Starmie|Starmie|312\/323
+|move|p2a: Moltres|Fire Blast|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|235\/323
+|
+|turn|42
+|
+|switch|p2a: Jolteon|Jolteon|333\/333
+|move|p1a: Starmie|Surf|p2a: Jolteon
+|-damage|p2a: Jolteon|235\/333
+|
+|turn|43
+|
+|switch|p1a: Rhydon|Rhydon|146\/413 par
+|move|p2a: Jolteon|Double Kick|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|112\/413 par
+|-damage|p1a: Rhydon|78\/413 par
+|-hitcount|p1a: Rhydon|2
+|
+|turn|44
+|
+|move|p2a: Jolteon|Double Kick|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|46\/413 par
+|-damage|p1a: Rhydon|14\/413 par
+|-hitcount|p1a: Rhydon|2
+|move|p1a: Rhydon|Earthquake|p2a: Jolteon
+|-supereffective|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|
+|switch|p2a: Moltres|Moltres|283\/383
+|turn|45
+|
+|move|p2a: Moltres|Fire Blast|p1a: Rhydon
+|-crit|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|46
+|
+|move|p1a: Tauros|Body Slam|p2a: Moltres
+|-damage|p2a: Moltres|177\/383
+|-status|p2a: Moltres|par
+|move|p2a: Moltres|Fire Blast|p1a: Tauros
+|-damage|p1a: Tauros|161\/353
+|
+|turn|47
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Moltres
+|-crit|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|
+|switch|p2a: Chansey|Chansey|430\/703 par
+|turn|48
+|c|★qsns|gg
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|win|Lusch
+|raw|Ladder updating...
+|raw|Lusch's rating: 1400 &rarr; <strong>1420<\/strong><br \/>(+20 for winning)
+|raw|qsns's rating: 1406 &rarr; <strong>1386<\/strong><br \/>(-20 for losing)
+|c|★Lusch|gg
+|leave|qsns
+|player|p2
+|leave|Yoda2798

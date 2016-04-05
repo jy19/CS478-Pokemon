@@ -1,0 +1,328 @@
+﻿|join|kid gf lol
+|join|Aerys
+|player|p1|kid gf lol|167
+|player|p2|Aerys|177
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|switch|p1a: First Lol|Alakazam|313\/313
+|switch|p2a: Tentacruel|Tentacruel|363\/363
+|turn|1
+|callback|decision
+|
+|move|p1a: First Lol|Psychic|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|134\/363
+|move|p2a: Tentacruel|Toxic|p1a: First Lol
+|-status|p1a: First Lol|tox
+|
+|turn|2
+|callback|decision
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: First Lol|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|575\/703
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|-damage|p1a: First Lol|294\/313 tox|[from] tox|[of] p2a: Chansey
+|
+|turn|3
+|callback|decision
+|
+|switch|p2a: Alakazam|Alakazam|313\/313
+|move|p1a: First Lol|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|262\/313
+|-damage|p1a: First Lol|256\/313 tox|[from] tox|[of] p2a: Alakazam
+|
+|turn|4
+|callback|decision
+|
+|switch|p2a: Chansey|Chansey|575\/703
+|move|p1a: First Lol|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|475\/703
+|-damage|p1a: First Lol|199\/313 tox|[from] tox|[of] p2a: Chansey
+|
+|turn|5
+|callback|decision
+|
+|switch|p1a: Future Steak|Tauros|353\/353
+|move|p2a: Chansey|Thunderbolt|p1a: Future Steak
+|-damage|p1a: Future Steak|264\/353
+|-status|p1a: Future Steak|par
+|
+|turn|6
+|callback|decision
+|
+|switch|p2a: Rhydon|Rhydon|413\/413
+|move|p1a: Future Steak|Body Slam|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|366\/413
+|
+|turn|7
+|callback|decision
+|
+|move|p2a: Rhydon|Earthquake|p1a: Future Steak
+|-damage|p1a: Future Steak|109\/353 par
+|cant|p1a: Future Steak|par
+|
+|turn|8
+|callback|decision
+|
+|move|p2a: Rhydon|Earthquake|p1a: Future Steak
+|-crit|p1a: Future Steak
+|-damage|p1a: Future Steak|0 fnt
+|faint|p1a: Future Steak
+|
+|callback|decision
+|
+|switch|p1a: Result of Incest|Exeggutor|393\/393
+|turn|9
+|callback|decision
+|
+|move|p1a: Result of Incest|Sleep Powder|p2a: Rhydon
+|-status|p2a: Rhydon|slp
+|cant|p2a: Rhydon|slp
+|
+|turn|10
+|callback|decision
+|
+|switch|p2a: Chansey|Chansey|475\/703
+|move|p1a: Result of Incest|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|347\/703
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|
+|turn|11
+|callback|decision
+|
+|switch|p2a: Rhydon|Rhydon|366\/413 slp
+|move|p1a: Result of Incest|Psychic|p2a: Rhydon
+|-damage|p2a: Rhydon|174\/413 slp
+|
+|turn|12
+|callback|decision
+|chat|kid gf lol|ggg!!!
+|
+|move|p1a: Result of Incest|Psychic|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|
+|callback|decision
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|13
+|callback|decision
+|
+|move|p2a: Gengar|Hypnosis|p1a: Result of Incest
+|-status|p1a: Result of Incest|slp
+|cant|p1a: Result of Incest|slp
+|
+|turn|14
+|callback|decision
+|
+|switch|p2a: Tentacruel|Tentacruel|134\/363
+|switch|p1a: Patrick|Starmie|323\/323
+|
+|turn|15
+|callback|decision
+|chat|kid gf lol|gg!!!
+|
+|switch|p2a: Chansey|Chansey|347\/703
+|move|p1a: Patrick|Thunderbolt|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|212\/703
+|
+|turn|16
+|callback|decision
+|
+|switch|p1a: TNT|Golem|363\/363
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|563\/703
+|
+|turn|17
+|callback|decision
+|chat|kid gf lol|gg gg gg!!!!
+|
+|move|p2a: Chansey|Blizzard|p1a: TNT
+|-supereffective|p1a: TNT
+|-damage|p1a: TNT|74\/363
+|move|p1a: TNT|Earthquake|p2a: Chansey
+|-damage|p2a: Chansey|246\/703
+|
+|turn|18
+|callback|decision
+|
+|switch|p1a: Patrick|Starmie|323\/323
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|597\/703
+|
+|turn|19
+|callback|decision
+|
+|move|p1a: Patrick|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Patrick
+|-status|p1a: Patrick|par
+|
+|turn|20
+|callback|decision
+|
+|switch|p1a: Result of Incest|Exeggutor|393\/393 slp
+|cant|p2a: Chansey|par
+|
+|turn|21
+|callback|decision
+|chat|kid gf lol|g gg gggg!!
+|
+|cant|p1a: Result of Incest|slp
+|move|p2a: Chansey|Blizzard|p1a: Result of Incest
+|-supereffective|p1a: Result of Incest
+|-damage|p1a: Result of Incest|233\/393 slp
+|
+|turn|22
+|callback|decision
+|
+|cant|p1a: Result of Incest|slp
+|-curestatus|p1a: Result of Incest|slp
+|move|p2a: Chansey|Blizzard|p1a: Result of Incest
+|-supereffective|p1a: Result of Incest
+|-damage|p1a: Result of Incest|53\/393
+|
+|turn|23
+|callback|decision
+|chat|kid gf lol|yes!!
+|
+|switch|p2a: Tentacruel|Tentacruel|134\/363
+|move|p1a: Result of Incest|Explosion|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|faint|p1a: Result of Incest
+|callback|decision
+|chat|kid gf lol|gg!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+|
+|switch|p1a: Patrick|Starmie|323\/323 par
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|24
+|callback|decision
+|
+|switch|p2a: Chansey|Chansey|597\/703 par
+|cant|p1a: Patrick|par
+|
+|turn|25
+|callback|decision
+|
+|switch|p1a: Breakfast Pouch|Chansey|703\/703
+|move|p2a: Chansey|Blizzard|p1a: Breakfast Pouch
+|-damage|p1a: Breakfast Pouch|604\/703
+|
+|turn|26
+|callback|decision
+|
+|switch|p1a: Patrick|Starmie|323\/323 par
+|move|p2a: Chansey|Blizzard|p1a: Patrick
+|-resisted|p1a: Patrick
+|-damage|p1a: Patrick|273\/323 par
+|
+|turn|27
+|callback|decision
+|
+|move|p1a: Patrick|Thunderbolt|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|451\/703 par
+|move|p2a: Chansey|Thunderbolt|p1a: Patrick
+|-supereffective|p1a: Patrick
+|-damage|p1a: Patrick|111\/323 par
+|
+|turn|28
+|callback|decision
+|chat|kid gf lol|gg!!!!!
+|
+|cant|p1a: Patrick|par
+|move|p2a: Chansey|Blizzard|p1a: Patrick
+|-resisted|p1a: Patrick
+|-damage|p1a: Patrick|64\/323 par
+|
+|turn|29
+|callback|decision
+|
+|move|p1a: Patrick|Recover|p1a: Patrick
+|-heal|p1a: Patrick|225\/323 par
+|cant|p2a: Chansey|par
+|
+|turn|30
+|callback|decision
+|join|miopo
+|
+|move|p1a: Patrick|Recover|p1a: Patrick
+|-heal|p1a: Patrick|323\/323 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703 par
+|
+|turn|31
+|callback|decision
+|
+|cant|p1a: Patrick|par
+|cant|p2a: Chansey|par
+|
+|turn|32
+|callback|decision
+|chat|kid gf lol|gg!!
+|
+|move|p1a: Patrick|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|636\/703 par
+|move|p2a: Chansey|Thunderbolt|p1a: Patrick
+|-supereffective|p1a: Patrick
+|-damage|p1a: Patrick|159\/323 par
+|
+|turn|33
+|callback|decision
+|
+|cant|p1a: Patrick|par
+|cant|p2a: Chansey|par
+|
+|turn|34
+|callback|decision
+|
+|cant|p1a: Patrick|par
+|move|p2a: Chansey|Thunderbolt|p1a: Patrick
+|-supereffective|p1a: Patrick
+|-damage|p1a: Patrick|0 fnt
+|faint|p1a: Patrick
+|
+|callback|decision
+|
+|switch|p1a: TNT|Golem|74\/363
+|turn|35
+|callback|decision
+|
+|move|p1a: TNT|Explosion|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|faint|p1a: TNT
+|callback|decision
+|leave|miopo
+|chat|kid gf lol|go!!
+|chat|kid gf lol|ggoo!!!
+|join|Anthem: Justice
+|chat|kid gf lol|go??
+|chat|kid gf lol|go!!!!
+|-message|Aerys lost due to inactivity.
+|
+|win|kid gf lol
+|raw|Ladder updating...
+|raw|kid gf lol's rating: 1177 &rarr; <strong>1190<\/strong><br \/>(+13 for winning)
+|raw|Aerys's rating: 1007 &rarr; <strong>1000<\/strong><br \/>(-7 for losing)
+|chat|kid gf lol|sad
+|leave|kid gf lol
+|player|p1

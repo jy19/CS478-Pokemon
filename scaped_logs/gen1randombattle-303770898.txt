@@ -1,0 +1,284 @@
+﻿|j|Broncosfan88
+|j|Merlin Engine
+|player|p1|Broncosfan88|1
+|player|p2|Merlin Engine|165
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|14634,6043,38484,38550
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gyarados|Gyarados, L85|335\/335
+|switch|p2a: Kangaskhan|Kangaskhan, L85|352\/352
+|turn|1
+|choice|move 1|switch 5
+|
+|switch|p2a: Vaporeon|Vaporeon, L85|395\/395
+|move|p1a: Gyarados|Surf|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|348\/395
+|
+|turn|2
+|choice|move 2|move 2
+|
+|move|p1a: Gyarados|Thunderbolt|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|232\/395
+|move|p2a: Vaporeon|Body Slam|p1a: Gyarados
+|-crit|p1a: Gyarados
+|-damage|p1a: Gyarados|238\/335
+|
+|turn|3
+|choice|move 2|move 4
+|
+|move|p1a: Gyarados|Thunderbolt|p2a: Vaporeon
+|-crit|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|7\/395
+|move|p2a: Vaporeon|Mimic|p1a: Gyarados
+|-start|p2a: Vaporeon|Mimic|Surf
+|
+|turn|4
+|choice|move 4|switch 3
+|
+|switch|p2a: Vileplume|Vileplume, L90|318\/318
+|move|p1a: Gyarados|Body Slam|p2a: Vileplume
+|-damage|p2a: Vileplume|252\/318
+|
+|turn|5
+|choice|move 3|move 4
+|
+|move|p1a: Gyarados|Blizzard|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|98\/318
+|move|p2a: Vileplume|Sleep Powder|p1a: Gyarados
+|-status|p1a: Gyarados|slp
+|
+|turn|6
+|choice|switch 2|move 2
+|
+|switch|p1a: Mewtwo|Mewtwo, L70|293\/293
+|move|p2a: Vileplume|Mega Drain|p1a: Mewtwo
+|-damage|p1a: Mewtwo|252\/293
+|-heal|p2a: Vileplume|118\/318|[from] drain|[of] p1a: Mewtwo
+|
+|turn|7
+|choice|move 1|switch 6
+|
+|switch|p2a: Blastoise|Blastoise, L85|308\/308
+|move|p1a: Mewtwo|Psychic|p2a: Blastoise
+|-damage|p2a: Blastoise|214\/308
+|
+|turn|8
+|choice|move 4|move 4
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Blastoise
+|-supereffective|p2a: Blastoise
+|-damage|p2a: Blastoise|78\/308
+|move|p2a: Blastoise|Hyper Beam|p1a: Mewtwo
+|-damage|p1a: Mewtwo|134\/293
+|
+|turn|9
+|-mustrecharge|p2a: Blastoise
+|-mustrecharge|p2a: Blastoise
+|choice|move 4|move 1
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Blastoise
+|-supereffective|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|choice||switch 2
+|
+|switch|p2a: Growlithe|Growlithe, L96|300\/300
+|turn|10
+|choice|move 1|move 3
+|
+|move|p1a: Mewtwo|Psychic|p2a: Growlithe
+|-damage|p2a: Growlithe|181\/300
+|-unboost|p2a: Growlithe|spd|1
+|-unboost|p2a: Growlithe|spa|1
+|move|p2a: Growlithe|Body Slam|p1a: Mewtwo
+|-damage|p1a: Mewtwo|57\/293
+|-status|p1a: Mewtwo|par
+|
+|turn|11
+|choice|switch 3|move 3
+|
+|switch|p1a: Geodude|Geodude, L96|272\/272
+|move|p2a: Growlithe|Body Slam|p1a: Geodude
+|-crit|p1a: Geodude
+|-resisted|p1a: Geodude
+|-damage|p1a: Geodude|223\/272
+|
+|turn|12
+|choice|move 1|switch 5
+|
+|switch|p2a: Kangaskhan|Kangaskhan, L85|352\/352
+|move|p1a: Geodude|Earthquake|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|218\/352
+|
+|turn|13
+|choice|switch 3|move 3
+|
+|switch|p1a: Mewtwo|Mewtwo, L70|57\/293 par
+|move|p2a: Kangaskhan|Earthquake|p1a: Mewtwo
+|-damage|p1a: Mewtwo|0 fnt
+|faint|p1a: Mewtwo
+|choice|switch 4|
+|
+|switch|p1a: Raichu|Raichu, L85|276\/276
+|turn|14
+|choice|move 4|switch 6
+|
+|switch|p2a: Vileplume|Vileplume, L90|118\/318
+|move|p1a: Raichu|Thunderbolt|p2a: Vileplume
+|-resisted|p2a: Vileplume
+|-damage|p2a: Vileplume|79\/318
+|
+|turn|15
+|choice|switch 6|move 1
+|
+|switch|p1a: Nidorino|Nidorino, L90|293\/293
+|move|p2a: Vileplume|Body Slam|p1a: Nidorino
+|-damage|p1a: Nidorino|221\/293
+|
+|turn|16
+|choice|move 3|move 2
+|
+|move|p1a: Nidorino|Blizzard|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|choice||switch 5
+|
+|switch|p2a: Growlithe|Growlithe, L96|181\/300
+|turn|17
+|choice|move 1|move 1
+|
+|move|p2a: Growlithe|Fire Blast|p1a: Nidorino
+|-damage|p1a: Nidorino|81\/293
+|-status|p1a: Nidorino|brn
+|move|p1a: Nidorino|Body Slam|p2a: Growlithe
+|-crit|p2a: Growlithe
+|-damage|p2a: Growlithe|50\/300
+|-damage|p1a: Nidorino|63\/293 brn|[from] brn|[of] p2a: Growlithe
+|
+|turn|18
+|choice|move 1|move 3
+|
+|move|p2a: Growlithe|Body Slam|p1a: Nidorino
+|-damage|p1a: Nidorino|0 fnt
+|faint|p1a: Nidorino
+|choice|switch 6|
+|
+|switch|p1a: Raichu|Raichu, L85|276\/276
+|turn|19
+|choice|move 4|move 1
+|
+|move|p1a: Raichu|Thunderbolt|p2a: Growlithe
+|-crit|p2a: Growlithe
+|-damage|p2a: Growlithe|0 fnt
+|faint|p2a: Growlithe
+|choice||switch 6
+|
+|switch|p2a: Kangaskhan|Kangaskhan, L85|218\/352
+|turn|20
+|choice|move 4|move 3
+|
+|move|p1a: Raichu|Thunderbolt|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|63\/352
+|move|p2a: Kangaskhan|Earthquake|p1a: Raichu
+|-crit|p1a: Raichu
+|-supereffective|p1a: Raichu
+|-damage|p1a: Raichu|0 fnt
+|faint|p1a: Raichu
+|choice|switch 5|
+|
+|switch|p1a: Tauros|Tauros, L79|280\/280
+|turn|21
+|choice|move 1|move 4
+|
+|move|p1a: Tauros|Body Slam|p2a: Kangaskhan
+|-crit|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|faint|p2a: Kangaskhan
+|choice||switch 4
+|
+|switch|p2a: Machoke|Machoke, L85|310\/310
+|turn|22
+|choice|move 1|move 1
+|
+|move|p1a: Tauros|Body Slam|p2a: Machoke
+|-damage|p2a: Machoke|215\/310
+|move|p2a: Machoke|Submission|p1a: Tauros
+|-supereffective|p1a: Tauros
+|-damage|p1a: Tauros|96\/280
+|-damage|p2a: Machoke|169\/310|[from] recoil|[of] p1a: Tauros
+|
+|turn|23
+|choice|switch 3|move 2
+|
+|switch|p1a: Geodude|Geodude, L96|223\/272
+|move|p2a: Machoke|Earthquake|p1a: Geodude
+|-supereffective|p1a: Geodude
+|-damage|p1a: Geodude|101\/272
+|
+|turn|24
+|choice|switch 2|move 2
+|
+|switch|p1a: Gyarados|Gyarados, L85|238\/335 slp
+|move|p2a: Machoke|Earthquake|p1a: Gyarados
+|-immune|p1a: Gyarados|[msg]
+|
+|turn|25
+|choice|move 2|move 3
+|
+|cant|p1a: Gyarados|slp
+|move|p2a: Machoke|Rock Slide|p1a: Gyarados|[miss]
+|-miss|p2a: Machoke
+|
+|turn|26
+|choice|move 1|move 3
+|
+|cant|p1a: Gyarados|slp
+|move|p2a: Machoke|Rock Slide|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|116\/335 slp
+|
+|turn|27
+|choice|move 1|move 3
+|
+|cant|p1a: Gyarados|slp
+|move|p2a: Machoke|Rock Slide|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|choice|switch 3|
+|
+|switch|p1a: Tauros|Tauros, L79|96\/280
+|turn|28
+|choice|move 4|move 2
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Machoke
+|-crit|p2a: Machoke
+|-damage|p2a: Machoke|0 fnt
+|faint|p2a: Machoke
+|choice||switch 3
+|
+|switch|p2a: Vaporeon|Vaporeon, L85|7\/395
+|turn|29
+|choice|move 1|move 1
+|
+|move|p1a: Tauros|Body Slam|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|faint|p2a: Vaporeon
+|
+|win|Broncosfan88
+|raw|Broncosfan88's rating: 1471 &rarr; <strong>1483<\/strong><br \/>(+12 for winning)
+|raw|Merlin Engine's rating: 1338 &rarr; <strong>1325<\/strong><br \/>(-13 for losing)
+|l|Broncosfan88
+|player|p1

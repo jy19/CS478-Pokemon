@@ -1,0 +1,306 @@
+﻿|join|FLARZ
+|join|kid gf lol
+|player|p1|FLARZ|99
+|player|p2|kid gf lol|168
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Foxxy Baby|Jolteon|333\/333
+|turn|1
+|chat|FLARZ|;-;
+|chat|kid gf lol|hi
+|chat|FLARZ|why kid
+|
+|switch|p1a: Golem|Golem|363\/363
+|move|p2a: Foxxy Baby|Thunder Wave|p1a: Golem
+|-immune|p1a: Golem|[msg]
+|
+|turn|2
+|
+|switch|p2a: Bad Luck Brian|Dragonite|385\/385
+|move|p1a: Golem|Rock Slide|p2a: Bad Luck Brian
+|-supereffective|p2a: Bad Luck Brian
+|-damage|p2a: Bad Luck Brian|178\/385
+|
+|turn|3
+|
+|move|p2a: Bad Luck Brian|Surf|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|0 fnt
+|faint|p1a: Golem
+|
+|
+|switch|p1a: Jynx|Jynx|333\/333
+|turn|4
+|
+|switch|p2a: Foxxy Baby|Jolteon|333\/333
+|move|p1a: Jynx|Lovely Kiss|p2a: Foxxy Baby
+|-status|p2a: Foxxy Baby|slp
+|
+|turn|5
+|
+|switch|p2a: Egg Kangaroo|Chansey|703\/703
+|move|p1a: Jynx|Psychic|p2a: Egg Kangaroo
+|-damage|p2a: Egg Kangaroo|599\/703
+|
+|turn|6
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Egg Kangaroo|Thunder Wave|p1a: Exeggutor
+|-status|p1a: Exeggutor|par
+|
+|turn|7
+|
+|move|p2a: Egg Kangaroo|Ice Beam|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|265\/393 par
+|move|p1a: Exeggutor|Explosion|p2a: Egg Kangaroo
+|-crit|p2a: Egg Kangaroo
+|-damage|p2a: Egg Kangaroo|0 fnt
+|faint|p2a: Egg Kangaroo
+|faint|p1a: Exeggutor
+|
+|switch|p2a: Star Role|Starmie|323\/323
+|switch|p1a: Jynx|Jynx|333\/333
+|turn|8
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|move|p2a: Star Role|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|
+|turn|9
+|
+|move|p2a: Star Role|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|272\/313 par
+|-unboost|p1a: Alakazam|spd|1
+|-unboost|p1a: Alakazam|spa|1
+|move|p1a: Alakazam|Thunder Wave|p2a: Star Role
+|-status|p2a: Star Role|par
+|
+|turn|10
+|
+|switch|p1a: Slowbro|Slowbro|393\/393
+|move|p2a: Star Role|Psychic|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|262\/393
+|
+|turn|11
+|
+|move|p1a: Slowbro|Psychic|p2a: Star Role
+|-resisted|p2a: Star Role
+|-damage|p2a: Star Role|277\/323 par
+|cant|p2a: Star Role|par
+|
+|turn|12
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|cant|p2a: Star Role|par
+|
+|turn|13
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|move|p2a: Star Role|Thunder Wave|p1a: Slowbro
+|-status|p1a: Slowbro|par
+|
+|turn|14
+|
+|switch|p2a: Eminem|Victreebel|363\/363
+|move|p1a: Slowbro|Psychic|p2a: Eminem
+|-supereffective|p2a: Eminem
+|-damage|p2a: Eminem|0 fnt
+|faint|p2a: Eminem
+|
+|chat|kid gf lol|k
+|chat|FLARZ|k
+|
+|switch|p2a: The Clamps|Cloyster|303\/303
+|turn|15
+|
+|move|p2a: The Clamps|Clamp|p1a: Slowbro|[miss]
+|-miss|p2a: The Clamps
+|move|p1a: Slowbro|Psychic|p2a: The Clamps
+|-damage|p2a: The Clamps|0 fnt
+|faint|p2a: The Clamps
+|
+|chat|kid gf lol|k
+|chat|FLARZ|k
+|
+|switch|p2a: Bad Luck Brian|Dragonite|178\/385
+|turn|16
+|chat|FLARZ|you realise
+|chat|FLARZ|you still have this right?
+|
+|move|p2a: Bad Luck Brian|Wrap|p1a: Slowbro
+|-damage|p1a: Slowbro|248\/393 par
+|-activate|p1a: Slowbro|move: Wrap|[of] p2a: Bad Luck Brian
+|cant|p1a: Slowbro|partiallytrapped
+|
+|turn|17
+|
+|move|p2a: Bad Luck Brian|Wrap|p1a: Slowbro
+|-damage|p1a: Slowbro|234\/393 par
+|cant|p1a: Slowbro|partiallytrapped
+|
+|turn|18
+|
+|move|p2a: Bad Luck Brian|Wrap|p1a: Slowbro
+|-damage|p1a: Slowbro|220\/393 par
+|cant|p1a: Slowbro|partiallytrapped
+|
+|-end|p1a: Slowbro|Wrap|[partiallytrapped]
+|turn|19
+|
+|move|p2a: Bad Luck Brian|Wrap|p1a: Slowbro
+|-damage|p1a: Slowbro|207\/393 par
+|-activate|p1a: Slowbro|move: Wrap|[of] p2a: Bad Luck Brian
+|cant|p1a: Slowbro|partiallytrapped
+|
+|turn|20
+|
+|move|p2a: Bad Luck Brian|Wrap|p1a: Slowbro
+|-damage|p1a: Slowbro|194\/393 par
+|cant|p1a: Slowbro|partiallytrapped
+|
+|-end|p1a: Slowbro|Wrap|[partiallytrapped]
+|turn|21
+|
+|move|p2a: Bad Luck Brian|Wrap|p1a: Slowbro
+|-damage|p1a: Slowbro|180\/393 par
+|-activate|p1a: Slowbro|move: Wrap|[of] p2a: Bad Luck Brian
+|cant|p1a: Slowbro|partiallytrapped
+|
+|turn|22
+|
+|move|p2a: Bad Luck Brian|Wrap|p1a: Slowbro
+|-damage|p1a: Slowbro|166\/393 par
+|cant|p1a: Slowbro|partiallytrapped
+|
+|-end|p1a: Slowbro|Wrap|[partiallytrapped]
+|turn|23
+|
+|move|p2a: Bad Luck Brian|Wrap|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-damage|p1a: Slowbro|134\/393 par
+|-activate|p1a: Slowbro|move: Wrap|[of] p2a: Bad Luck Brian
+|cant|p1a: Slowbro|par
+|
+|turn|24
+|
+|move|p2a: Bad Luck Brian|Wrap|p1a: Slowbro
+|-damage|p1a: Slowbro|102\/393 par
+|cant|p1a: Slowbro|par
+|
+|turn|25
+|
+|move|p2a: Bad Luck Brian|Wrap|p1a: Slowbro
+|-damage|p1a: Slowbro|70\/393 par
+|cant|p1a: Slowbro|par
+|
+|-end|p1a: Slowbro|Wrap|[partiallytrapped]
+|turn|26
+|
+|move|p2a: Bad Luck Brian|Wrap|p1a: Slowbro
+|-damage|p1a: Slowbro|55\/393 par
+|-activate|p1a: Slowbro|move: Wrap|[of] p2a: Bad Luck Brian
+|cant|p1a: Slowbro|partiallytrapped
+|
+|turn|27
+|
+|move|p2a: Bad Luck Brian|Wrap|p1a: Slowbro
+|-damage|p1a: Slowbro|40\/393 par
+|cant|p1a: Slowbro|partiallytrapped
+|
+|-end|p1a: Slowbro|Wrap|[partiallytrapped]
+|turn|28
+|
+|move|p2a: Bad Luck Brian|Wrap|p1a: Slowbro
+|-damage|p1a: Slowbro|26\/393 par
+|-activate|p1a: Slowbro|move: Wrap|[of] p2a: Bad Luck Brian
+|cant|p1a: Slowbro|partiallytrapped
+|
+|turn|29
+|
+|move|p2a: Bad Luck Brian|Wrap|p1a: Slowbro
+|-damage|p1a: Slowbro|12\/393 par
+|cant|p1a: Slowbro|partiallytrapped
+|
+|turn|30
+|
+|move|p2a: Bad Luck Brian|Wrap|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|
+|join|SonicJaxx
+|chat|kid gf lol|how? 
+|chat|FLARZ|did you not miss
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|31
+|
+|switch|p2a: Foxxy Baby|Jolteon|333\/333 slp
+|move|p1a: Tauros|Blizzard|p2a: Foxxy Baby
+|-damage|p2a: Foxxy Baby|267\/333 slp
+|
+|turn|32
+|
+|cant|p2a: Foxxy Baby|slp
+|move|p1a: Tauros|Body Slam|p2a: Foxxy Baby
+|-damage|p2a: Foxxy Baby|136\/333 slp
+|
+|turn|33
+|
+|cant|p2a: Foxxy Baby|slp
+|move|p1a: Tauros|Body Slam|p2a: Foxxy Baby
+|-damage|p2a: Foxxy Baby|2\/333 slp
+|
+|turn|34
+|
+|cant|p2a: Foxxy Baby|slp
+|move|p1a: Tauros|Body Slam|p2a: Foxxy Baby
+|-damage|p2a: Foxxy Baby|0 fnt
+|faint|p2a: Foxxy Baby
+|
+|
+|switch|p2a: Star Role|Starmie|277\/323 par
+|turn|35
+|
+|move|p1a: Tauros|Body Slam|p2a: Star Role
+|-damage|p2a: Star Role|172\/323 par
+|cant|p2a: Star Role|par
+|
+|turn|36
+|chat|kid gf lol|how do i have this?
+|chat|FLARZ|*had
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Star Role
+|-damage|p2a: Star Role|0 fnt
+|faint|p2a: Star Role
+|
+|chat|FLARZ|XD
+|-message|kid gf lol forfeited.
+|
+|win|FLARZ
+|raw|Ladder updating...
+|leave|kid gf lol
+|player|p2
+|leave|FLARZ
+|player|p1
+|raw|FLARZ's rating: 1151 &rarr; <strong>1188<\/strong><br \/>(+37 for winning)
+|raw|kid gf lol's rating: 1342 &rarr; <strong>1312<\/strong><br \/>(-30 for losing)

@@ -1,0 +1,91 @@
+﻿|join|Sergiot24
+|join|MALESANI
+|player|p1|Sergiot24|290
+|player|p2|MALESANI|238
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|18438,43210,54940,3447
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam, L79|249\/249
+|switch|p2a: Zapdos|Zapdos, L79|304\/304
+|turn|1
+|choice|move 3|move 1
+|
+|move|p1a: Alakazam|Reflect|p1a: Alakazam
+|-start|p1a: Alakazam|Reflect
+|move|p2a: Zapdos|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|
+|turn|2
+|choice|move 1|move 3
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|48\/249 par
+|cant|p1a: Alakazam|par
+|
+|turn|3
+|choice|move 1|move 3
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|choice|switch 2|
+|
+|switch|p1a: Clefairy|Clefairy, L95|326\/326
+|turn|4
+|choice|move 1|switch 6
+|
+|switch|p2a: Magneton|Magneton, L90|273\/273
+|move|p1a: Clefairy|Blizzard|p2a: Magneton
+|-damage|p2a: Magneton|211\/273
+|
+|turn|5
+|choice|move 4|move 3
+|
+|move|p2a: Magneton|Thunder Wave|p1a: Clefairy
+|-status|p1a: Clefairy|par
+|move|p1a: Clefairy|Metronome|p1a: Clefairy
+|move|p1a: Clefairy|Rolling Kick|p2a: Magneton|[from]Metronome
+|-damage|p2a: Magneton|177\/273
+|
+|turn|6
+|choice|switch 4|move 1
+|
+|switch|p1a: Arcanine|Arcanine, L85|327\/327
+|move|p2a: Magneton|Thunderbolt|p1a: Arcanine
+|-damage|p1a: Arcanine|197\/327
+|
+|turn|7
+|choice|move 2|move 3
+|
+|move|p1a: Arcanine|Fire Blast|p2a: Magneton
+|-damage|p2a: Magneton|84\/273
+|-status|p2a: Magneton|brn
+|move|p2a: Magneton|Thunder Wave|p1a: Arcanine
+|-status|p1a: Arcanine|par
+|-damage|p2a: Magneton|67\/273 brn|[from] brn|[of] p1a: Arcanine
+|
+|turn|8
+|choice|move 4|move 1
+|
+|move|p2a: Magneton|Thunderbolt|p1a: Arcanine
+|-damage|p1a: Arcanine|56\/327 par
+|-damage|p2a: Magneton|50\/273 brn|[from] brn|[of] p1a: Arcanine
+|move|p1a: Arcanine|Body Slam|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|faint|p2a: Magneton
+|-message|Sergiot24 forfeited.
+|leave|Sergiot24
+|
+|win|MALESANI
+|player|p1
+|choice||switch 5
+|
+|switch|p2a: Hitmonlee|Hitmonlee, L90|273\/273

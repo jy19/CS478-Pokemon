@@ -1,0 +1,363 @@
+﻿|join|riwu
+|join|hlavajda
+|player|p1|riwu|2
+|player|p2|hlavajda|27
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|32711,24822,4315,15047
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Tangela|Tangela, L85|284\/284
+|switch|p2a: Dewgong|Dewgong, L85|327\/327
+|turn|1
+|choice|move 3|move 2
+|
+|move|p2a: Dewgong|Blizzard|p1a: Tangela
+|-supereffective|p1a: Tangela
+|-damage|p1a: Tangela|62\/284
+|move|p1a: Tangela|Sleep Powder|p2a: Dewgong|[miss]
+|-miss|p1a: Tangela
+|
+|turn|2
+|choice|switch 6|move 2
+|
+|switch|p1a: Lapras|Lapras, L79|367\/367
+|move|p2a: Dewgong|Blizzard|p1a: Lapras|[miss]
+|-miss|p2a: Dewgong
+|
+|turn|3
+|choice|move 2|move 4
+|
+|move|p2a: Dewgong|Body Slam|p1a: Lapras
+|-damage|p1a: Lapras|310\/367
+|move|p1a: Lapras|Confuse Ray|p2a: Dewgong
+|-start|p2a: Dewgong|confusion
+|
+|turn|4
+|choice|move 1|move 4
+|
+|-activate|p2a: Dewgong|confusion
+|move|p2a: Dewgong|Body Slam|p1a: Lapras
+|-damage|p1a: Lapras|252\/367
+|-status|p1a: Lapras|par
+|move|p1a: Lapras|Blizzard|p2a: Dewgong
+|-resisted|p2a: Dewgong
+|-damage|p2a: Dewgong|301\/327
+|
+|turn|5
+|choice|move 4|switch 5
+|
+|switch|p2a: Electrode|Electrode, L90|291\/291
+|move|p1a: Lapras|Body Slam|p2a: Electrode
+|-damage|p2a: Electrode|239\/291
+|
+|turn|6
+|choice|switch 5|move 2
+|
+|switch|p1a: Metapod|Metapod, L99|300\/300
+|move|p2a: Electrode|Thunderbolt|p1a: Metapod
+|-crit|p1a: Metapod
+|-damage|p1a: Metapod|6\/300
+|
+|turn|7
+|choice|move 1|move 4
+|
+|move|p2a: Electrode|Reflect|p2a: Electrode
+|-start|p2a: Electrode|Reflect
+|move|p1a: Metapod|String Shot|p2a: Electrode
+|-unboost|p2a: Electrode|spe|1
+|
+|turn|8
+|choice|move 1|move 2
+|
+|move|p2a: Electrode|Thunderbolt|p1a: Metapod
+|-damage|p1a: Metapod|0 fnt
+|faint|p1a: Metapod
+|choice|switch 6|
+|
+|switch|p1a: Tangela|Tangela, L85|62\/284
+|turn|9
+|choice|move 3|move 2
+|
+|move|p2a: Electrode|Thunderbolt|p1a: Tangela
+|-resisted|p1a: Tangela
+|-damage|p1a: Tangela|17\/284
+|move|p1a: Tangela|Sleep Powder|p2a: Electrode
+|-status|p2a: Electrode|slp
+|
+|turn|10
+|choice|switch 2|move 2
+|
+|switch|p1a: Abra|Abra, L96|243\/243
+|-curestatus|p2a: Electrode|slp
+|
+|turn|11
+|choice|move 1|move 2
+|
+|move|p1a: Abra|Psychic|p2a: Electrode
+|-damage|p2a: Electrode|116\/291
+|move|p2a: Electrode|Thunderbolt|p1a: Abra
+|-damage|p1a: Abra|168\/243
+|
+|turn|12
+|choice|switch 2|switch 6
+|
+|switch|p1a: Tangela|Tangela, L85|17\/284
+|switch|p2a: Exeggutor|Exeggutor, L79|312\/312
+|
+|turn|13
+|choice|move 3|move 2
+|
+|move|p1a: Tangela|Sleep Powder|p2a: Exeggutor
+|-status|p2a: Exeggutor|slp
+|-curestatus|p2a: Exeggutor|slp
+|
+|turn|14
+|choice|move 3|move 2
+|
+|move|p1a: Tangela|Sleep Powder|p2a: Exeggutor
+|-status|p2a: Exeggutor|slp
+|cant|p2a: Exeggutor|slp
+|
+|turn|15
+|choice|switch 3|switch 6
+|
+|switch|p1a: Ninetales|Ninetales, L85|298\/298
+|switch|p2a: Electrode|Electrode, L90|116\/291
+|
+|turn|16
+|choice|switch 3|move 1
+|
+|switch|p1a: Tangela|Tangela, L85|17\/284
+|move|p2a: Electrode|Explosion|p1a: Tangela
+|-damage|p1a: Tangela|0 fnt
+|faint|p1a: Tangela
+|faint|p2a: Electrode
+|choice|switch 2|switch 2
+|
+|switch|p1a: Abra|Abra, L96|168\/243
+|switch|p2a: Raticate|Raticate, L85|267\/267
+|turn|17
+|choice|move 1|move 4
+|
+|move|p1a: Abra|Psychic|p2a: Raticate
+|-damage|p2a: Raticate|101\/267
+|move|p2a: Raticate|Body Slam|p1a: Abra
+|-damage|p1a: Abra|16\/243
+|-status|p1a: Abra|par
+|
+|turn|18
+|choice|move 1|move 4
+|
+|move|p2a: Raticate|Body Slam|p1a: Abra
+|-crit|p1a: Abra
+|-damage|p1a: Abra|0 fnt
+|faint|p1a: Abra
+|choice|switch 3|
+|
+|switch|p1a: Ninetales|Ninetales, L85|298\/298
+|turn|19
+|choice|move 1|move 1
+|
+|move|p1a: Ninetales|Fire Blast|p2a: Raticate
+|-crit|p2a: Raticate
+|-damage|p2a: Raticate|0 fnt
+|faint|p2a: Raticate
+|choice||switch 5
+|
+|switch|p2a: Dewgong|Dewgong, L85|301\/327
+|turn|20
+|choice|switch 5|move 1
+|
+|switch|p1a: Lapras|Lapras, L79|252\/367 par
+|move|p2a: Dewgong|Surf|p1a: Lapras
+|-resisted|p1a: Lapras
+|-damage|p1a: Lapras|201\/367 par
+|
+|turn|21
+|choice|move 2|move 4
+|
+|move|p2a: Dewgong|Body Slam|p1a: Lapras
+|-damage|p1a: Lapras|144\/367 par
+|move|p1a: Lapras|Confuse Ray|p2a: Dewgong
+|-start|p2a: Dewgong|confusion
+|
+|turn|22
+|choice|move 3|move 4
+|
+|-activate|p2a: Dewgong|confusion
+|-damage|p2a: Dewgong|273\/327|[from] confusion
+|move|p1a: Lapras|Rest|p1a: Lapras
+|-status|p1a: Lapras|slp
+|-heal|p1a: Lapras|367\/367 slp|[silent]
+|-status|p1a: Lapras|slp|[from] move: Rest
+|
+|turn|23
+|choice|move 4|switch 6
+|
+|switch|p2a: Exeggutor|Exeggutor, L79|312\/312 slp
+|cant|p1a: Lapras|slp
+|
+|turn|24
+|choice|move 1|move 3
+|
+|cant|p2a: Exeggutor|slp
+|-curestatus|p1a: Lapras|slp
+|
+|turn|25
+|choice|move 1|move 3
+|
+|cant|p2a: Exeggutor|slp
+|move|p1a: Lapras|Blizzard|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|136\/312 slp
+|
+|turn|26
+|choice|move 1|move 1
+|
+|-curestatus|p2a: Exeggutor|slp
+|move|p1a: Lapras|Blizzard|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|choice||switch 6
+|
+|switch|p2a: Dewgong|Dewgong, L85|273\/327
+|turn|27
+|choice|move 2|move 2
+|
+|move|p2a: Dewgong|Blizzard|p1a: Lapras
+|-resisted|p1a: Lapras
+|-damage|p1a: Lapras|337\/367
+|move|p1a: Lapras|Confuse Ray|p2a: Dewgong
+|-start|p2a: Dewgong|confusion
+|
+|turn|28
+|choice|move 4|move 2
+|
+|-activate|p2a: Dewgong|confusion
+|move|p2a: Dewgong|Blizzard|p1a: Lapras|[miss]
+|-miss|p2a: Dewgong
+|move|p1a: Lapras|Body Slam|p2a: Dewgong
+|-damage|p2a: Dewgong|219\/327
+|
+|turn|29
+|choice|move 4|move 2
+|
+|-end|p2a: Dewgong|confusion
+|move|p2a: Dewgong|Blizzard|p1a: Lapras
+|-resisted|p1a: Lapras
+|-damage|p1a: Lapras|307\/367
+|move|p1a: Lapras|Body Slam|p2a: Dewgong
+|-damage|p2a: Dewgong|169\/327
+|
+|turn|30
+|choice|move 2|move 2
+|
+|move|p2a: Dewgong|Blizzard|p1a: Lapras
+|-resisted|p1a: Lapras
+|-damage|p1a: Lapras|274\/367
+|move|p1a: Lapras|Confuse Ray|p2a: Dewgong
+|-start|p2a: Dewgong|confusion
+|
+|turn|31
+|choice|move 4|move 2
+|
+|-activate|p2a: Dewgong|confusion
+|move|p2a: Dewgong|Blizzard|p1a: Lapras
+|-resisted|p1a: Lapras
+|-damage|p1a: Lapras|242\/367
+|move|p1a: Lapras|Body Slam|p2a: Dewgong
+|-crit|p2a: Dewgong
+|-damage|p2a: Dewgong|69\/327
+|
+|turn|32
+|choice|move 4|move 2
+|
+|-activate|p2a: Dewgong|confusion
+|move|p2a: Dewgong|Blizzard|p1a: Lapras
+|-resisted|p1a: Lapras
+|-damage|p1a: Lapras|211\/367
+|move|p1a: Lapras|Body Slam|p2a: Dewgong
+|-damage|p2a: Dewgong|15\/327
+|-status|p2a: Dewgong|par
+|
+|turn|33
+|choice|move 4|move 4
+|
+|cant|p2a: Dewgong|par
+|move|p1a: Lapras|Body Slam|p2a: Dewgong
+|-damage|p2a: Dewgong|0 fnt
+|faint|p2a: Dewgong
+|choice||switch 4
+|
+|switch|p2a: Arcanine|Arcanine, L85|327\/327
+|turn|34
+|choice|move 2|move 1
+|
+|move|p2a: Arcanine|Reflect|p2a: Arcanine
+|-start|p2a: Arcanine|Reflect
+|move|p1a: Lapras|Confuse Ray|p2a: Arcanine
+|-start|p2a: Arcanine|confusion
+|
+|turn|35
+|choice|move 1|move 3
+|
+|-activate|p2a: Arcanine|confusion
+|-damage|p2a: Arcanine|290\/327|[from] confusion
+|move|p1a: Lapras|Blizzard|p2a: Arcanine
+|-crit|p2a: Arcanine
+|-damage|p2a: Arcanine|51\/327
+|
+|turn|36
+|choice|move 1|move 3
+|
+|-activate|p2a: Arcanine|confusion
+|-damage|p2a: Arcanine|14\/327|[from] confusion
+|move|p1a: Lapras|Blizzard|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|choice||switch 3
+|
+|switch|p2a: Aerodactyl|Aerodactyl, L90|327\/327
+|turn|37
+|choice|move 1|move 3
+|
+|move|p2a: Aerodactyl|Double-Edge|p1a: Lapras
+|-damage|p1a: Lapras|110\/367
+|-damage|p2a: Aerodactyl|302\/327|[from] recoil|[of] p1a: Lapras
+|move|p1a: Lapras|Blizzard|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|37\/327
+|
+|turn|38
+|choice|move 1|move 3
+|
+|move|p2a: Aerodactyl|Double-Edge|p1a: Lapras
+|-crit|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|-damage|p2a: Aerodactyl|10\/327|[from] recoil|[of] p1a: Lapras
+|faint|p1a: Lapras
+|choice|switch 4|
+|
+|switch|p1a: Moltres|Moltres, L85|327\/327
+|turn|39
+|choice|move 2|move 4
+|
+|move|p2a: Aerodactyl|Sky Attack|p1a: Moltres|[still]
+|-prepare|p2a: Aerodactyl|Sky Attack|p1a: Moltres
+|move|p1a: Moltres|Hyper Beam|p2a: Aerodactyl
+|-crit|p2a: Aerodactyl
+|-resisted|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|faint|p2a: Aerodactyl
+|
+|win|riwu
+|raw|riwu's rating: 1557 &rarr; <strong>1568<\/strong><br \/>(+11 for winning)
+|raw|hlavajda's rating: 1389 &rarr; <strong>1378<\/strong><br \/>(-11 for losing)
+|c|★hlavajda|gg

@@ -1,0 +1,96 @@
+﻿|join|riwu
+|join|ElPsyCongroo90
+|player|p1|riwu|102
+|player|p2|ElPsyCongroo90|162
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|50112,50066,10902,34370
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Caterpie|Caterpie, L99|290\/290
+|switch|p2a: Chansey|Chansey, L79|557\/557
+|turn|1
+|choice|switch 3|switch 2
+|
+|switch|p1a: Slowbro|Slowbro, L79|312\/312
+|switch|p2a: Poliwhirl|Poliwhirl, L85|284\/284
+|
+|turn|2
+|choice|move 4|move 4
+|
+|move|p2a: Poliwhirl|Hypnosis|p1a: Slowbro|[miss]
+|-miss|p2a: Poliwhirl
+|move|p1a: Slowbro|Thunder Wave|p2a: Poliwhirl
+|-status|p2a: Poliwhirl|par
+|
+|turn|3
+|choice|switch 3|move 4
+|
+|switch|p1a: Caterpie|Caterpie, L99|290\/290
+|move|p2a: Poliwhirl|Hypnosis|p1a: Caterpie
+|-status|p1a: Caterpie|slp
+|
+|turn|4
+|choice|switch 3|switch 4
+|
+|switch|p1a: Slowbro|Slowbro, L79|312\/312
+|switch|p2a: Venusaur|Venusaur, L85|310\/310
+|
+|turn|5
+|choice|switch 5|move 3
+|
+|switch|p1a: Weezing|Weezing, L90|300\/300
+|move|p2a: Venusaur|Razor Leaf|p1a: Weezing|[miss]
+|-miss|p2a: Venusaur
+|
+|turn|6
+|choice|move 2|switch 5
+|
+|switch|p2a: Golem|Golem, L79|288\/288
+|move|p1a: Weezing|Fire Blast|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|222\/288
+|
+|turn|7
+|choice|switch 4|move 1
+|
+|switch|p1a: Farfetch'd|Farfetch'd, L99|304\/304
+|move|p2a: Golem|Earthquake|p1a: Farfetch'd
+|-immune|p1a: Farfetch'd|[msg]
+|
+|turn|8
+|choice|switch 2|move 2
+|
+|switch|p1a: Onix|Onix, L90|246\/246
+|move|p2a: Golem|Rock Slide|p1a: Onix
+|-resisted|p1a: Onix
+|-damage|p1a: Onix|224\/246
+|
+|turn|9
+|choice|move 4|switch 3
+|
+|switch|p2a: Seadra|Seadra, L90|282\/282
+|move|p1a: Onix|Earthquake|p2a: Seadra
+|-damage|p2a: Seadra|215\/282
+|
+|turn|10
+|choice|switch 5|move 2
+|
+|switch|p1a: Slowbro|Slowbro, L79|312\/312
+|move|p2a: Seadra|Surf|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|245\/312
+|
+|turn|11
+|-message|ElPsyCongroo90 forfeited.
+|
+|win|riwu
+|leave|ElPsyCongroo90
+|player|p2
+|raw|riwu's rating: 1412 &rarr; <strong>1420<\/strong><br \/>(+8 for winning)
+|raw|ElPsyCongroo90's rating: 1164 &rarr; <strong>1154<\/strong><br \/>(-10 for losing)

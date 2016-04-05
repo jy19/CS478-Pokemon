@@ -1,0 +1,334 @@
+﻿|j|theoneandonlymason
+|j|Ciaocaro
+|player|p1|theoneandonlymason|148
+|player|p2|Ciaocaro|12
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|757,24796,51032,53877
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Mew|Mew, L74|300\/300
+|switch|p2a: Graveler|Graveler, L85|267\/267
+|turn|1
+|choice|move 4|move 1
+|
+|move|p1a: Mew|Fissure|p2a: Graveler|[miss]
+|-miss|p1a: Mew
+|move|p2a: Graveler|Earthquake|p1a: Mew
+|-crit|p1a: Mew
+|-damage|p1a: Mew|66\/300
+|
+|turn|2
+|choice|move 4|switch 5
+|
+|switch|p2a: Electabuzz|Electabuzz, L85|284\/284
+|move|p1a: Mew|Fissure|p2a: Electabuzz
+|-immune|p2a: Electabuzz|[ohko]
+|
+|turn|3
+|choice|move 1|move 4
+|
+|move|p2a: Electabuzz|Thunderbolt|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|choice|switch 4|
+|
+|switch|p1a: Nidoking|Nidoking, L85|311\/311
+|turn|4
+|choice|move 1|move 2
+|
+|move|p2a: Electabuzz|Psychic|p1a: Nidoking
+|-supereffective|p1a: Nidoking
+|-damage|p1a: Nidoking|169\/311
+|-unboost|p1a: Nidoking|spd|1
+|-unboost|p1a: Nidoking|spa|1
+|move|p1a: Nidoking|Earthquake|p2a: Electabuzz
+|-crit|p2a: Electabuzz
+|-supereffective|p2a: Electabuzz
+|-damage|p2a: Electabuzz|0 fnt
+|faint|p2a: Electabuzz
+|choice||switch 6
+|
+|switch|p2a: Cloyster|Cloyster, L83|253\/253
+|turn|5
+|choice|move 3|move 2
+|
+|move|p1a: Nidoking|Thunder|p2a: Cloyster
+|-supereffective|p2a: Cloyster
+|-damage|p2a: Cloyster|157\/253
+|move|p2a: Cloyster|Surf|p1a: Nidoking
+|-supereffective|p1a: Nidoking
+|-damage|p1a: Nidoking|0 fnt
+|faint|p1a: Nidoking
+|choice|switch 6|
+|
+|switch|p1a: Jolteon|Jolteon, L79|265\/265
+|turn|6
+|choice|move 2|move 1
+|
+|move|p1a: Jolteon|Double Kick|p2a: Cloyster
+|-supereffective|p2a: Cloyster
+|-damage|p2a: Cloyster|135\/253
+|-damage|p2a: Cloyster|113\/253
+|-hitcount|p2a: Cloyster|2
+|move|p2a: Cloyster|Explosion|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|faint|p2a: Cloyster
+|choice|switch 5|switch 3
+|
+|switch|p1a: Venomoth|Venomoth, L85|293\/293
+|switch|p2a: Lapras|Lapras, L79|367\/367
+|turn|7
+|choice|move 1|move 1
+|
+|move|p1a: Venomoth|Sleep Powder|p2a: Lapras
+|-status|p2a: Lapras|slp
+|cant|p2a: Lapras|slp
+|
+|turn|8
+|choice|move 3|move 3
+|
+|move|p1a: Venomoth|Mega Drain|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|309\/367 slp
+|cant|p2a: Lapras|slp
+|
+|turn|9
+|choice|move 2|switch 4
+|
+|switch|p2a: Mew|Mew, L74|300\/300
+|move|p1a: Venomoth|Psychic|p2a: Mew
+|-resisted|p2a: Mew
+|-damage|p2a: Mew|266\/300
+|
+|turn|10
+|choice|move 4|move 1
+|
+|move|p1a: Venomoth|Stun Spore|p2a: Mew
+|-status|p2a: Mew|par
+|move|p2a: Mew|Earthquake|p1a: Venomoth
+|-damage|p1a: Venomoth|219\/293
+|
+|turn|11
+|choice|move 3|move 3
+|
+|move|p1a: Venomoth|Mega Drain|p2a: Mew
+|-damage|p2a: Mew|238\/300 par
+|-heal|p1a: Venomoth|233\/293|[from] drain|[of] p2a: Mew
+|cant|p2a: Mew|par
+|
+|turn|12
+|choice|switch 2|move 3
+|
+|switch|p1a: Pidgeot|Pidgeot, L90|333\/333
+|move|p2a: Mew|Blizzard|p1a: Pidgeot|[miss]
+|-miss|p2a: Mew
+|
+|turn|13
+|choice|move 4|move 3
+|
+|move|p1a: Pidgeot|Sky Attack|p2a: Mew|[still]
+|-prepare|p1a: Pidgeot|Sky Attack|p2a: Mew
+|move|p2a: Mew|Blizzard|p1a: Pidgeot
+|-crit|p1a: Pidgeot
+|-supereffective|p1a: Pidgeot
+|-damage|p1a: Pidgeot|57\/333
+|
+|turn|14
+|choice|move 1|switch 5
+|
+|switch|p2a: Graveler|Graveler, L85|267\/267
+|move|p1a: Pidgeot|Sky Attack|p2a: Graveler|[from]Sky Attack
+|-resisted|p2a: Graveler
+|-damage|p2a: Graveler|200\/267
+|
+|turn|15
+|choice|move 3|move 1
+|
+|move|p1a: Pidgeot|Reflect|p1a: Pidgeot
+|-start|p1a: Pidgeot|Reflect
+|move|p2a: Graveler|Earthquake|p1a: Pidgeot
+|-immune|p1a: Pidgeot|[msg]
+|
+|turn|16
+|choice|move 2|move 3
+|
+|move|p1a: Pidgeot|Mimic|p2a: Graveler
+|-start|p1a: Pidgeot|Mimic|Earthquake
+|move|p2a: Graveler|Rock Slide|p1a: Pidgeot
+|-supereffective|p1a: Pidgeot
+|-damage|p1a: Pidgeot|0 fnt
+|faint|p1a: Pidgeot
+|choice|switch 3|
+|
+|switch|p1a: Ponyta|Ponyta, L96|291\/291
+|turn|17
+|choice|move 1|move 1
+|
+|move|p1a: Ponyta|Reflect|p1a: Ponyta
+|-start|p1a: Ponyta|Reflect
+|move|p2a: Graveler|Earthquake|p1a: Ponyta
+|-supereffective|p1a: Ponyta
+|-damage|p1a: Ponyta|153\/291
+|
+|turn|18
+|choice|move 4|move 1
+|
+|move|p1a: Ponyta|Fire Blast|p2a: Graveler
+|-resisted|p2a: Graveler
+|-damage|p2a: Graveler|114\/267
+|move|p2a: Graveler|Earthquake|p1a: Ponyta
+|-supereffective|p1a: Ponyta
+|-damage|p1a: Ponyta|26\/291
+|
+|turn|19
+|choice|move 4|move 1
+|
+|move|p1a: Ponyta|Fire Blast|p2a: Graveler
+|-crit|p2a: Graveler
+|-resisted|p2a: Graveler
+|-damage|p2a: Graveler|0 fnt
+|faint|p2a: Graveler
+|choice||switch 2
+|
+|switch|p2a: Sandslash|Sandslash, L85|301\/301
+|turn|20
+|choice|move 4|move 3
+|
+|move|p1a: Ponyta|Fire Blast|p2a: Sandslash
+|-damage|p2a: Sandslash|142\/301
+|-status|p2a: Sandslash|brn
+|move|p2a: Sandslash|Hyper Beam|p1a: Ponyta
+|-damage|p1a: Ponyta|0 fnt
+|faint|p1a: Ponyta
+|choice|switch 2|
+|
+|switch|p1a: Venomoth|Venomoth, L85|233\/293
+|turn|21
+|choice|move 3|move 2
+|
+|move|p1a: Venomoth|Mega Drain|p2a: Sandslash
+|-crit|p2a: Sandslash
+|-supereffective|p2a: Sandslash
+|-damage|p2a: Sandslash|8\/301 brn
+|-heal|p1a: Venomoth|293\/293|[from] drain|[of] p2a: Sandslash
+|move|p2a: Sandslash|Body Slam|p1a: Venomoth
+|-damage|p1a: Venomoth|252\/293
+|-damage|p2a: Sandslash|0 fnt|[from] brn|[of] p1a: Venomoth
+|faint|p2a: Sandslash
+|choice||switch 5
+|
+|switch|p2a: Mew|Mew, L74|238\/300 par
+|turn|22
+|choice|move 3|move 3
+|
+|move|p1a: Venomoth|Mega Drain|p2a: Mew
+|-damage|p2a: Mew|210\/300 par
+|-heal|p1a: Venomoth|266\/293|[from] drain|[of] p2a: Mew
+|move|p2a: Mew|Blizzard|p1a: Venomoth
+|-crit|p1a: Venomoth
+|-damage|p1a: Venomoth|139\/293
+|
+|turn|23
+|choice|move 2|move 3
+|
+|move|p1a: Venomoth|Psychic|p2a: Mew
+|-resisted|p2a: Mew
+|-damage|p2a: Mew|177\/300 par
+|move|p2a: Mew|Blizzard|p1a: Venomoth
+|-damage|p1a: Venomoth|71\/293
+|
+|turn|24
+|choice|move 2|move 3
+|
+|move|p1a: Venomoth|Psychic|p2a: Mew
+|-resisted|p2a: Mew
+|-damage|p2a: Mew|145\/300 par
+|-unboost|p2a: Mew|spd|1
+|-unboost|p2a: Mew|spa|1
+|move|p2a: Mew|Blizzard|p1a: Venomoth
+|-damage|p1a: Venomoth|30\/293
+|
+|turn|25
+|choice|move 3|move 1
+|
+|move|p1a: Venomoth|Mega Drain|p2a: Mew
+|-damage|p2a: Mew|102\/300 par
+|-heal|p1a: Venomoth|51\/293|[from] drain|[of] p2a: Mew
+|cant|p2a: Mew|par
+|
+|turn|26
+|choice|move 3|move 1
+|
+|move|p1a: Venomoth|Mega Drain|p2a: Mew
+|-crit|p2a: Mew
+|-damage|p2a: Mew|47\/300 par
+|-heal|p1a: Venomoth|78\/293|[from] drain|[of] p2a: Mew
+|cant|p2a: Mew|par
+|
+|turn|27
+|choice|move 3|move 1
+|
+|move|p1a: Venomoth|Mega Drain|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|-heal|p1a: Venomoth|101\/293|[from] drain|[of] p2a: Mew
+|faint|p2a: Mew
+|choice||switch 4
+|
+|switch|p2a: Lapras|Lapras, L79|309\/367 slp
+|turn|28
+|choice|move 3|move 2
+|
+|move|p1a: Venomoth|Mega Drain|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|248\/367 slp
+|-heal|p1a: Venomoth|131\/293|[from] drain|[of] p2a: Lapras
+|-curestatus|p2a: Lapras|slp
+|
+|turn|29
+|choice|move 1|move 1
+|
+|move|p1a: Venomoth|Sleep Powder|p2a: Lapras
+|-status|p2a: Lapras|slp
+|cant|p2a: Lapras|slp
+|
+|turn|30
+|choice|move 3|move 1
+|
+|move|p1a: Venomoth|Mega Drain|p2a: Lapras
+|-crit|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|135\/367 slp
+|-heal|p1a: Venomoth|187\/293|[from] drain|[of] p2a: Lapras
+|cant|p2a: Lapras|slp
+|
+|turn|31
+|choice|move 3|move 1
+|
+|move|p1a: Venomoth|Mega Drain|p2a: Lapras
+|-crit|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|32\/367 slp
+|-heal|p1a: Venomoth|238\/293|[from] drain|[of] p2a: Lapras
+|-curestatus|p2a: Lapras|slp
+|
+|turn|32
+|choice|move 3|move 1
+|
+|move|p1a: Venomoth|Mega Drain|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|-heal|p1a: Venomoth|254\/293|[from] drain|[of] p2a: Lapras
+|faint|p2a: Lapras
+|
+|win|theoneandonlymason
+|player|p1
+|player|p2
+|l|Ciaocaro
+||Ladder (probably) updated, but score could not be retrieved (Response not received).

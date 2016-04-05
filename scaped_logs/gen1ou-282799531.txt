@@ -1,0 +1,1214 @@
+﻿|join|Abstrix
+|join|douglasmougla
+|player|p1|Abstrix|8
+|player|p2|douglasmougla|1
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gengar|Gengar|323\/323
+|switch|p2a: Lapras|Lapras|463\/463
+|turn|1
+|
+|move|p1a: Gengar|Hypnosis|p2a: Lapras|[miss]
+|-miss|p1a: Gengar
+|move|p2a: Lapras|Sing|p1a: Gengar|[miss]
+|-miss|p2a: Lapras
+|
+|turn|2
+|
+|move|p1a: Gengar|Hypnosis|p2a: Lapras
+|-status|p2a: Lapras|slp
+|-curestatus|p2a: Lapras|slp
+|
+|turn|3
+|
+|move|p1a: Gengar|Hypnosis|p2a: Lapras
+|-status|p2a: Lapras|slp
+|cant|p2a: Lapras|slp
+|
+|turn|4
+|
+|switch|p2a: Rhydon|Rhydon|413\/413
+|move|p1a: Gengar|Thunderbolt|p2a: Rhydon
+|-immune|p2a: Rhydon|[msg]
+|
+|turn|5
+|
+|switch|p1a: Victreebel|Victreebel|363\/363
+|move|p2a: Rhydon|Earthquake|p1a: Victreebel
+|-damage|p1a: Victreebel|178\/363
+|
+|turn|6
+|
+|switch|p2a: Alakazam|Alakazam|313\/313
+|move|p1a: Victreebel|Razor Leaf|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-damage|p2a: Alakazam|205\/313
+|
+|turn|7
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|438\/703
+|
+|turn|8
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|turn|9
+|
+|move|p1a: Chansey|Defense Curl|p1a: Chansey
+|-boost|p1a: Chansey|def|1
+|cant|p2a: Chansey|par
+|
+|turn|10
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|603\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|11
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|503\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|12
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|403\/703 par
+|move|p2a: Chansey|Counter|p1a: Chansey
+|-damage|p1a: Chansey|238\/703
+|
+|turn|13
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|589\/703
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|515\/703
+|
+|turn|14
+|
+|switch|p1a: Gengar|Gengar|323\/323
+|move|p2a: Chansey|Ice Beam|p1a: Gengar
+|-damage|p1a: Gengar|254\/323
+|
+|turn|15
+|
+|move|p1a: Gengar|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|323\/703 par
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|674\/703 par
+|
+|turn|16
+|
+|move|p1a: Gengar|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|557\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|17
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Gengar|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|359\/393
+|
+|turn|18
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|move|p2a: Exeggutor|Sleep Powder|p1a: Starmie|[miss]
+|-miss|p2a: Exeggutor
+|
+|turn|19
+|
+|switch|p1a: Rhydon|Rhydon|413\/413
+|switch|p2a: Lapras|Lapras|463\/463 slp
+|
+|turn|20
+|
+|cant|p2a: Lapras|slp
+|move|p1a: Rhydon|Earthquake|p2a: Lapras
+|-damage|p2a: Lapras|288\/463 slp
+|
+|turn|21
+|
+|cant|p2a: Lapras|slp
+|move|p1a: Rhydon|Rock Slide|p2a: Lapras|[miss]
+|-miss|p1a: Rhydon
+|
+|turn|22
+|
+|-curestatus|p2a: Lapras|slp
+|move|p1a: Rhydon|Rock Slide|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|56\/463
+|
+|turn|23
+|
+|switch|p1a: Chansey|Chansey|515\/703
+|move|p2a: Lapras|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|409\/703
+|
+|turn|24
+|
+|move|p2a: Lapras|Sing|p1a: Chansey
+|-status|p1a: Chansey|slp
+|cant|p1a: Chansey|slp
+|
+|turn|25
+|
+|switch|p1a: Gengar|Gengar|254\/323
+|move|p2a: Lapras|Ice Beam|p1a: Gengar
+|-damage|p1a: Gengar|158\/323
+|
+|turn|26
+|
+|switch|p2a: Rhydon|Rhydon|413\/413
+|move|p1a: Gengar|Psychic|p2a: Rhydon
+|-damage|p2a: Rhydon|287\/413
+|-unboost|p2a: Rhydon|spd|1
+|-unboost|p2a: Rhydon|spa|1
+|
+|turn|27
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|move|p2a: Rhydon|Earthquake|p1a: Starmie
+|-damage|p1a: Starmie|162\/323
+|
+|turn|28
+|
+|switch|p2a: Chansey|Chansey|557\/703 par
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|323\/323
+|
+|turn|29
+|
+|switch|p1a: Chansey|Chansey|409\/703 slp
+|move|p2a: Chansey|Light Screen|p2a: Chansey
+|-start|p2a: Chansey|Light Screen
+|
+|turn|30
+|
+|switch|p2a: Rhydon|Rhydon|287\/413
+|-curestatus|p1a: Chansey|slp
+|
+|turn|31
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|move|p2a: Rhydon|Earthquake|p1a: Starmie
+|-damage|p1a: Starmie|159\/323
+|
+|turn|32
+|
+|switch|p2a: Alakazam|Alakazam|205\/313
+|move|p1a: Starmie|Ice Beam|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-damage|p2a: Alakazam|92\/313
+|
+|turn|33
+|
+|switch|p1a: Chansey|Chansey|409\/703
+|move|p2a: Alakazam|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|turn|34
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|248\/313
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703 par
+|
+|turn|35
+|
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|579\/703 par
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|move|p1a: Chansey|Thunder Wave|p2a: Alakazam
+|-status|p2a: Alakazam|par
+|
+|turn|36
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: Alakazam|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|
+|turn|37
+|
+|switch|p2a: Exeggutor|Exeggutor|359\/393
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|
+|turn|38
+|
+|switch|p2a: Lapras|Lapras|56\/463
+|move|p1a: Snorlax|Ice Beam|p2a: Lapras
+|-resisted|p2a: Lapras
+|-damage|p2a: Lapras|26\/463
+|
+|turn|39
+|
+|move|p2a: Lapras|Confuse Ray|p1a: Snorlax
+|-start|p1a: Snorlax|confusion
+|-activate|p1a: Snorlax|confusion
+|move|p1a: Snorlax|Thunderbolt|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|40
+|
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|387\/523 par
+|-activate|p1a: Snorlax|confusion
+|-damage|p1a: Snorlax|339\/523 par|[from] confusion
+|
+|turn|41
+|
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|220\/523 par
+|cant|p1a: Snorlax|par
+|
+|turn|42
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|9\/523 par
+|cant|p1a: Snorlax|par
+|
+|turn|43
+|-mustrecharge|p2a: Tauros
+|-mustrecharge|p2a: Tauros
+|
+|cant|p2a: Tauros|recharge
+|-end|p1a: Snorlax|confusion
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp
+|-heal|p1a: Snorlax|523\/523 slp|[silent]
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|
+|turn|44
+|
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|386\/523 slp
+|cant|p1a: Snorlax|slp
+|
+|turn|45
+|
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|250\/523 slp
+|-curestatus|p1a: Snorlax|slp
+|
+|turn|46
+|
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|121\/523
+|move|p1a: Snorlax|Ice Beam|p2a: Tauros
+|-damage|p2a: Tauros|212\/353
+|
+|turn|47
+|
+|switch|p1a: Gengar|Gengar|158\/323
+|move|p2a: Tauros|Body Slam|p1a: Gengar
+|-immune|p1a: Gengar|[msg]
+|
+|turn|48
+|
+|move|p1a: Gengar|Explosion|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|faint|p1a: Gengar
+|
+|switch|p1a: Starmie|Starmie|159\/323
+|switch|p2a: Alakazam|Alakazam|248\/313 par
+|turn|49
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|320\/323
+|move|p2a: Alakazam|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|255\/323
+|-unboost|p1a: Starmie|spd|1
+|-unboost|p1a: Starmie|spa|1
+|
+|turn|50
+|
+|switch|p1a: Chansey|Chansey|579\/703 par
+|move|p2a: Alakazam|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|
+|turn|51
+|
+|cant|p2a: Alakazam|par
+|move|p1a: Chansey|Seismic Toss|p2a: Alakazam
+|-damage|p2a: Alakazam|148\/313 par
+|
+|turn|52
+|
+|switch|p1a: Rhydon|Rhydon|413\/413
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|304\/313 par
+|
+|turn|53
+|
+|switch|p2a: Exeggutor|Exeggutor|359\/393
+|move|p1a: Rhydon|Body Slam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|278\/393
+|-status|p2a: Exeggutor|par
+|
+|turn|54
+|
+|switch|p1a: Starmie|Starmie|255\/323
+|move|p2a: Exeggutor|Stun Spore|p1a: Starmie
+|-status|p1a: Starmie|par
+|
+|turn|55
+|
+|switch|p2a: Alakazam|Alakazam|304\/313 par
+|cant|p1a: Starmie|par
+|
+|turn|56
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Starmie
+|-damage|p1a: Starmie|155\/323 par
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|316\/323 par
+|
+|turn|57
+|
+|switch|p1a: Chansey|Chansey|579\/703 par
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|453\/703 par
+|
+|turn|58
+|
+|cant|p2a: Alakazam|par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703 par
+|
+|turn|59
+|
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|577\/703 par
+|move|p1a: Chansey|Defense Curl|p1a: Chansey
+|-boost|p1a: Chansey|def|1
+|
+|turn|60
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Alakazam
+|-damage|p2a: Alakazam|204\/313 par
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|455\/703 par
+|
+|turn|61
+|
+|cant|p1a: Chansey|par
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|313\/313 par
+|
+|turn|62
+|
+|cant|p1a: Chansey|par
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|317\/703 par
+|
+|turn|63
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|668\/703 par
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|543\/703 par
+|
+|turn|64
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Alakazam
+|-damage|p2a: Alakazam|213\/313 par
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|411\/703 par
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|
+|turn|65
+|
+|switch|p1a: Starmie|Starmie|316\/323 par
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|313\/313 par
+|
+|turn|66
+|
+|move|p1a: Starmie|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|273\/313 par
+|move|p2a: Alakazam|Seismic Toss|p1a: Starmie
+|-damage|p1a: Starmie|216\/323 par
+|
+|turn|67
+|
+|switch|p1a: Chansey|Chansey|411\/703 par
+|move|p2a: Alakazam|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|311\/703 par
+|
+|turn|68
+|
+|cant|p1a: Chansey|par
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|187\/703 par
+|
+|turn|69
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|538\/703 par
+|cant|p2a: Alakazam|par
+|
+|turn|70
+|c|★douglasmougla|Why are chansey faster??
+|c|★Abstrix|Stat drop glitch
+|
+|switch|p2a: Rhydon|Rhydon|287\/413
+|move|p1a: Chansey|Seismic Toss|p2a: Rhydon
+|-damage|p2a: Rhydon|187\/413
+|
+|turn|71
+|
+|switch|p1a: Snorlax|Snorlax|121\/523
+|move|p2a: Rhydon|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|switch|p1a: Victreebel|Victreebel|178\/363
+|turn|72
+|
+|switch|p2a: Exeggutor|Exeggutor|278\/393 par
+|move|p1a: Victreebel|Razor Leaf|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|223\/393 par
+|
+|turn|73
+|
+|move|p1a: Victreebel|Wrap|p2a: Exeggutor
+|-damage|p2a: Exeggutor|208\/393 par
+|-activate|p2a: Exeggutor|move: Wrap|[of] p1a: Victreebel
+|cant|p2a: Exeggutor|partiallytrapped
+|
+|turn|74
+|
+|move|p1a: Victreebel|Wrap|p2a: Exeggutor
+|-damage|p2a: Exeggutor|193\/393 par
+|cant|p2a: Exeggutor|partiallytrapped
+|
+|turn|75
+|
+|move|p1a: Victreebel|Wrap|p2a: Exeggutor
+|-damage|p2a: Exeggutor|178\/393 par
+|cant|p2a: Exeggutor|par
+|
+|-end|p2a: Exeggutor|Wrap|[partiallytrapped]
+|turn|76
+|
+|move|p1a: Victreebel|Wrap|p2a: Exeggutor|[miss]
+|-miss|p1a: Victreebel
+|move|p2a: Exeggutor|Psychic|p1a: Victreebel
+|-supereffective|p1a: Victreebel
+|-damage|p1a: Victreebel|0 fnt
+|faint|p1a: Victreebel
+|
+|switch|p1a: Starmie|Starmie|216\/323 par
+|turn|77
+|
+|switch|p2a: Chansey|Chansey|557\/703 par
+|move|p1a: Starmie|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|480\/703 par
+|
+|turn|78
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|323\/323 par
+|cant|p2a: Chansey|par
+|
+|turn|79
+|
+|move|p1a: Starmie|Psychic|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|280\/703 par
+|move|p2a: Chansey|Ice Beam|p1a: Starmie
+|-crit|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|246\/323 par
+|
+|turn|80
+|
+|switch|p1a: Rhydon|Rhydon|413\/413
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|631\/703 par
+|
+|turn|81
+|
+|switch|p1a: Starmie|Starmie|246\/323 par
+|switch|p2a: Exeggutor|Exeggutor|178\/393 par
+|
+|turn|82
+|
+|switch|p2a: Alakazam|Alakazam|273\/313 par
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|323\/323 par
+|
+|turn|83
+|
+|move|p2a: Alakazam|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|256\/323 par
+|cant|p1a: Starmie|par
+|
+|turn|84
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Starmie
+|-damage|p1a: Starmie|156\/323 par
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|317\/323 par
+|
+|turn|85
+|
+|switch|p1a: Chansey|Chansey|538\/703 par
+|move|p2a: Alakazam|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|438\/703 par
+|
+|turn|86
+|
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|312\/703 par
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|663\/703 par
+|
+|turn|87
+|
+|switch|p1a: Starmie|Starmie|317\/323 par
+|move|p2a: Alakazam|Psychic|p1a: Starmie
+|-crit|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|187\/323 par
+|-unboost|p1a: Starmie|spd|1
+|-unboost|p1a: Starmie|spa|1
+|
+|turn|88
+|
+|switch|p1a: Chansey|Chansey|663\/703 par
+|move|p2a: Alakazam|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|563\/703 par
+|
+|turn|89
+|
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|318\/703 par
+|move|p1a: Chansey|Defense Curl|p1a: Chansey
+|-boost|p1a: Chansey|def|1
+|
+|turn|90
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|669\/703 par
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|546\/703 par
+|
+|turn|91
+|
+|cant|p1a: Chansey|par
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|416\/703 par
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|
+|turn|92
+|
+|cant|p2a: Alakazam|par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703 par
+|
+|turn|93
+|
+|switch|p2a: Chansey|Chansey|631\/703 par
+|move|p1a: Chansey|Defense Curl|p1a: Chansey
+|-boost|p1a: Chansey|def|1
+|
+|turn|94
+|
+|switch|p1a: Starmie|Starmie|187\/323 par
+|cant|p2a: Chansey|par
+|
+|turn|95
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|323\/323 par
+|cant|p2a: Chansey|par
+|
+|turn|96
+|
+|switch|p1a: Chansey|Chansey|703\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|97
+|
+|cant|p1a: Chansey|par
+|move|p2a: Chansey|Light Screen|p2a: Chansey
+|-start|p2a: Chansey|Light Screen
+|
+|turn|98
+|
+|move|p1a: Chansey|Defense Curl|p1a: Chansey
+|-boost|p1a: Chansey|def|1
+|move|p2a: Chansey|Counter|p1a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|99
+|
+|cant|p1a: Chansey|par
+|move|p2a: Chansey|Counter|p1a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|100
+|
+|move|p1a: Chansey|Defense Curl|p1a: Chansey
+|-boost|p1a: Chansey|def|1
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|627\/703 par
+|
+|turn|101
+|
+|move|p1a: Chansey|Defense Curl|p1a: Chansey
+|-boost|p1a: Chansey|def|1
+|move|p2a: Chansey|Counter|p1a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|102
+|
+|move|p1a: Chansey|Defense Curl|p1a: Chansey
+|-boost|p1a: Chansey|def|1
+|move|p2a: Chansey|Counter|p1a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|103
+|
+|move|p1a: Chansey|Defense Curl|p1a: Chansey
+|-boost|p1a: Chansey|def|1
+|move|p2a: Chansey|Counter|p1a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|104
+|
+|move|p1a: Chansey|Defense Curl|p1a: Chansey
+|-boost|p1a: Chansey|def|1
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|487\/703 par
+|
+|turn|105
+|
+|move|p1a: Chansey|Defense Curl|p1a: Chansey
+|-boost|p1a: Chansey|def|1
+|cant|p2a: Chansey|par
+|
+|turn|106
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|531\/703 par
+|move|p2a: Chansey|Counter|p1a: Chansey
+|-damage|p1a: Chansey|287\/703 par
+|
+|turn|107
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|638\/703 par
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|568\/703 par
+|
+|turn|108
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|496\/703 par
+|
+|turn|109
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703 par
+|
+|turn|110
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Counter|p1a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|111
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|419\/703 par
+|
+|turn|112
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Light Screen|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|113
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703 par
+|move|p2a: Chansey|Light Screen|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|114
+|
+|cant|p1a: Chansey|par
+|move|p2a: Chansey|Light Screen|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|115
+|
+|switch|p1a: Rhydon|Rhydon|413\/413
+|cant|p2a: Chansey|par
+|
+|turn|116
+|c|★douglasmougla|Daaammit
+|c|★Abstrix|PP stall
+|
+|switch|p1a: Starmie|Starmie|323\/323 par
+|move|p2a: Chansey|Ice Beam|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|282\/323 par
+|
+|turn|117
+|
+|switch|p2a: Alakazam|Alakazam|273\/313 par
+|move|p1a: Starmie|Thunder Wave|p2a: Alakazam
+|-fail|p2a: Alakazam|par
+|
+|turn|118
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Starmie
+|-damage|p1a: Starmie|182\/323 par
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|323\/323 par
+|
+|turn|119
+|
+|switch|p1a: Rhydon|Rhydon|413\/413
+|move|p2a: Alakazam|Seismic Toss|p1a: Rhydon
+|-damage|p1a: Rhydon|313\/413
+|
+|turn|120
+|
+|switch|p2a: Exeggutor|Exeggutor|178\/393 par
+|move|p1a: Rhydon|Rock Slide|p2a: Exeggutor
+|-damage|p2a: Exeggutor|69\/393 par
+|
+|turn|121
+|
+|move|p1a: Rhydon|Rock Slide|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Rhydon|Rhydon|187\/413
+|turn|122
+|
+|move|p2a: Rhydon|Earthquake|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|71\/413
+|move|p1a: Rhydon|Earthquake|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|
+|switch|p2a: Chansey|Chansey|703\/703 par
+|turn|123
+|
+|switch|p1a: Starmie|Starmie|323\/323 par
+|cant|p2a: Chansey|par
+|
+|turn|124
+|
+|cant|p1a: Starmie|par
+|move|p2a: Chansey|Light Screen|p2a: Chansey
+|-start|p2a: Chansey|Light Screen
+|
+|turn|125
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Light Screen|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|126
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Light Screen|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|127
+|
+|switch|p1a: Chansey|Chansey|703\/703 par
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|564\/703 par
+|
+|turn|128
+|
+|switch|p1a: Starmie|Starmie|323\/323 par
+|move|p2a: Chansey|Counter|p1a: Starmie
+|-fail|p2a: Chansey
+|
+|turn|129
+|
+|cant|p1a: Starmie|par
+|move|p2a: Chansey|Light Screen|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|130
+|
+|cant|p1a: Starmie|par
+|move|p2a: Chansey|Light Screen|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|131
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Light Screen|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|132
+|
+|switch|p2a: Alakazam|Alakazam|273\/313 par
+|move|p1a: Starmie|Thunder Wave|p2a: Alakazam
+|-fail|p2a: Alakazam|par
+|
+|turn|133
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Starmie
+|-damage|p1a: Starmie|223\/323 par
+|move|p1a: Starmie|Thunder Wave|p2a: Alakazam
+|-fail|p2a: Alakazam|par
+|
+|turn|134
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Starmie
+|-damage|p1a: Starmie|123\/323 par
+|cant|p1a: Starmie|par
+|
+|turn|135
+|
+|switch|p1a: Chansey|Chansey|564\/703 par
+|move|p2a: Alakazam|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|464\/703 par
+|
+|turn|136
+|
+|switch|p2a: Chansey|Chansey|703\/703 par
+|move|p1a: Chansey|Defense Curl|p1a: Chansey
+|-boost|p1a: Chansey|def|1
+|
+|turn|137
+|
+|switch|p1a: Starmie|Starmie|123\/323 par
+|move|p2a: Chansey|Ice Beam|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|82\/323 par
+|
+|turn|138
+|
+|cant|p1a: Starmie|par
+|move|p2a: Chansey|Ice Beam|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|41\/323 par
+|
+|turn|139
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|202\/323 par
+|move|p2a: Chansey|Ice Beam|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|160\/323 par
+|
+|turn|140
+|
+|switch|p2a: Alakazam|Alakazam|273\/313 par
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|321\/323 par
+|
+|turn|141
+|
+|switch|p1a: Chansey|Chansey|464\/703 par
+|cant|p2a: Alakazam|par
+|
+|turn|142
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|cant|p1a: Chansey|par
+|
+|turn|143
+|
+|cant|p2a: Alakazam|par
+|move|p1a: Chansey|Defense Curl|p1a: Chansey
+|-boost|p1a: Chansey|def|1
+|
+|turn|144
+|
+|cant|p1a: Chansey|par
+|move|p2a: Alakazam|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|364\/703 par
+|
+|turn|145
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703 par
+|move|p2a: Alakazam|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|603\/703 par
+|
+|turn|146
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Alakazam
+|-damage|p2a: Alakazam|173\/313 par
+|cant|p2a: Alakazam|par
+|
+|turn|147
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Alakazam
+|-damage|p2a: Alakazam|73\/313 par
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|229\/313 par
+|
+|turn|148
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Alakazam
+|-fail|p2a: Alakazam|par
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|313\/313 par
+|
+|turn|149
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Alakazam
+|-fail|p2a: Alakazam|par
+|cant|p2a: Alakazam|par
+|
+|turn|150
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Alakazam
+|-fail|p2a: Alakazam|par
+|move|p2a: Alakazam|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|503\/703 par
+|
+|turn|151
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Alakazam
+|-fail|p2a: Alakazam|par
+|move|p2a: Alakazam|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|403\/703 par
+|
+|turn|152
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Alakazam
+|-fail|p2a: Alakazam|par
+|move|p2a: Alakazam|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|303\/703 par
+|
+|turn|153
+|
+|switch|p2a: Chansey|Chansey|703\/703 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|654\/703 par
+|
+|turn|154
+|
+|switch|p1a: Starmie|Starmie|321\/323 par
+|cant|p2a: Chansey|par
+|
+|turn|155
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Light Screen|p2a: Chansey
+|-start|p2a: Chansey|Light Screen
+|
+|turn|156
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|cant|p2a: Chansey|par
+|
+|turn|157
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Light Screen|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|158
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|cant|p2a: Chansey|par
+|
+|turn|159
+|c|★Abstrix|Don't time stall
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Light Screen|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|160
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Light Screen|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|161
+|c|★douglasmougla|Im not! You are!
+|c|★douglasmougla|maybe its leg..
+|c|★Abstrix|What ? I click as soon as possible
+|c|★douglasmougla|Test
+|
+|cant|p1a: Starmie|par
+|move|p2a: Chansey|Light Screen|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|162
+|c|★douglasmougla|me too, its just leg
+|c|★Abstrix|It says you have 120 seconds left each turn
+|c|★Abstrix|Crap lag ! as if the battle was not long enough...
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Light Screen|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|163
+|c|★douglasmougla|Fuck this battle.. Turn 163, this was supposed to be a tie
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|cant|p2a: Chansey|par
+|
+|turn|164
+|c|★Abstrix|I will try to ask a tie in the help room
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|cant|p2a: Chansey|par
+|
+|turn|165
+|c|★douglasmougla|Is this possible?
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Ice Beam|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|280\/323 par
+|
+|turn|166
+|c|★Abstrix|A staff member may do it
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Light Screen|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|167
+|c|★douglasmougla|Great
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Light Screen|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|168
+|join|Wolf Obliteration
+|join|Grenn Ninjaa
+|join|Austin
+|join|Bashslash
+|c|★Abstrix|I asked
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Light Screen|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|169
+|c|★douglasmougla|Cool
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Ice Beam|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|240\/323 par
+|
+|turn|170
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Counter|p1a: Starmie
+|-fail|p2a: Chansey
+|
+|turn|171
+|join|xfix
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Light Screen|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|172
+|
+|cant|p1a: Starmie|par
+|move|p2a: Chansey|Counter|p1a: Starmie
+|-fail|p2a: Chansey
+|
+|turn|173
+|c|★douglasmougla|And so?
+|c|&xfix|Do you want a tie?
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|cant|p2a: Chansey|par
+|
+|turn|174
+|c|★douglasmougla|Yse
+|c|★douglasmougla|yes
+|c|★Abstrix|Since we can't FRZ there's no way to win
+|c|★Abstrix|Yes
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Light Screen|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|175
+|
+|tie

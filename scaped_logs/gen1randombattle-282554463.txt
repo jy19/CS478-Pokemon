@@ -1,0 +1,110 @@
+﻿|join|XianJu
+|join|joker sama
+|player|p1|XianJu|130
+|player|p2|joker sama|102
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Kadabra|Kadabra, L85|242\/242
+|switch|p2a: Rapidash|Rapidash, L90|300\/300
+|turn|1
+|
+|move|p2a: Rapidash|Fire Blast|p1a: Kadabra
+|-damage|p1a: Kadabra|137\/242
+|move|p1a: Kadabra|Thunder Wave|p2a: Rapidash
+|-status|p2a: Rapidash|par
+|
+|turn|2
+|
+|move|p1a: Kadabra|Recover|p1a: Kadabra
+|-heal|p1a: Kadabra|242\/242
+|cant|p2a: Rapidash|par
+|
+|turn|3
+|
+|move|p1a: Kadabra|Seismic Toss|p2a: Rapidash
+|-damage|p2a: Rapidash|215\/300 par
+|cant|p2a: Rapidash|par
+|
+|turn|4
+|
+|move|p1a: Kadabra|Psychic|p2a: Rapidash
+|-damage|p2a: Rapidash|103\/300 par
+|move|p2a: Rapidash|Body Slam|p1a: Kadabra
+|-damage|p1a: Kadabra|111\/242
+|
+|turn|5
+|
+|move|p1a: Kadabra|Psychic|p2a: Rapidash
+|-damage|p2a: Rapidash|0 fnt
+|faint|p2a: Rapidash
+|
+|switch|p2a: Pikachu|Pikachu, L96|262\/262
+|turn|6
+|
+|move|p2a: Pikachu|Thunderbolt|p1a: Kadabra
+|-damage|p1a: Kadabra|40\/242
+|move|p1a: Kadabra|Recover|p1a: Kadabra
+|-heal|p1a: Kadabra|161\/242
+|
+|turn|7
+|
+|move|p2a: Pikachu|Thunder Wave|p1a: Kadabra
+|-status|p1a: Kadabra|par
+|move|p1a: Kadabra|Recover|p1a: Kadabra
+|-heal|p1a: Kadabra|242\/242 par
+|
+|turn|8
+|
+|move|p2a: Pikachu|Thunder|p1a: Kadabra
+|-damage|p1a: Kadabra|160\/242 par
+|move|p1a: Kadabra|Seismic Toss|p2a: Pikachu
+|-damage|p2a: Pikachu|177\/262
+|
+|turn|9
+|
+|switch|p2a: Pidgeotto|Pidgeotto, L90|297\/297
+|move|p1a: Kadabra|Recover|p1a: Kadabra
+|-heal|p1a: Kadabra|242\/242 par
+|
+|turn|10
+|
+|move|p2a: Pidgeotto|Double-Edge|p1a: Kadabra
+|-damage|p1a: Kadabra|74\/242 par
+|-damage|p2a: Pidgeotto|255\/297|[from] recoil|[of] p1a: Kadabra
+|cant|p1a: Kadabra|par
+|
+|turn|11
+|
+|switch|p1a: Dragonite|Dragonite, L85|328\/328
+|move|p2a: Pidgeotto|Double-Edge|p1a: Dragonite
+|-damage|p1a: Dragonite|242\/328
+|-damage|p2a: Pidgeotto|234\/297|[from] recoil|[of] p1a: Dragonite
+|
+|turn|12
+|c|★joker sama|0h my
+|
+|switch|p2a: Cloyster|Cloyster, L83|253\/253
+|move|p1a: Dragonite|Thunderbolt|p2a: Cloyster
+|-supereffective|p2a: Cloyster
+|-damage|p2a: Cloyster|115\/253
+|
+|turn|13
+|
+|move|p1a: Dragonite|Thunderbolt|p2a: Cloyster
+|-supereffective|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p2a: Cloyster
+|-message|joker sama forfeited.
+|
+|win|XianJu
+|leave|joker sama
+|player|p2
+|raw|XianJu's rating: 1272 &rarr; <strong>1287<\/strong><br \/>(+15 for winning)
+|raw|joker sama's rating: 1125 &rarr; <strong>1110<\/strong><br \/>(-15 for losing)

@@ -1,0 +1,348 @@
+﻿|join|am14fg
+|join|Abstrix
+|player|p1|am14fg|2
+|player|p2|Abstrix|8
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Kakuna|Kakuna, L99|290\/290
+|switch|p2a: Aerodactyl|Aerodactyl, L90|327\/327
+|turn|1
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|293\/293
+|move|p1a: Kakuna|String Shot|p2a: Mewtwo
+|-unboost|p2a: Mewtwo|spe|1
+|
+|turn|2
+|
+|move|p1a: Kakuna|Poison Sting|p2a: Mewtwo
+|-damage|p2a: Mewtwo|279\/293
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|
+|turn|3
+|
+|switch|p1a: Vileplume|Vileplume, L90|318\/318
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|
+|turn|4
+|
+|switch|p2a: Kabuto|Kabuto, L96|252\/252
+|move|p1a: Vileplume|Sleep Powder|p2a: Kabuto
+|-status|p2a: Kabuto|slp
+|
+|turn|5
+|
+|switch|p2a: Flareon|Flareon, L90|300\/300
+|move|p1a: Vileplume|Mega Drain|p2a: Flareon
+|-resisted|p2a: Flareon
+|-damage|p2a: Flareon|282\/300
+|
+|turn|6
+|
+|switch|p1a: Starmie|Starmie, L79|257\/257
+|move|p2a: Flareon|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|172\/257
+|-status|p1a: Starmie|par
+|
+|turn|7
+|
+|switch|p2a: Vileplume|Vileplume, L90|318\/318
+|move|p1a: Starmie|Surf|p2a: Vileplume
+|-resisted|p2a: Vileplume
+|-damage|p2a: Vileplume|276\/318
+|
+|turn|8
+|
+|move|p2a: Vileplume|Mega Drain|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|80\/257 par
+|-heal|p2a: Vileplume|318\/318|[from] drain|[of] p1a: Starmie
+|move|p1a: Starmie|Thunder Wave|p2a: Vileplume
+|-status|p2a: Vileplume|par
+|
+|turn|9
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|208\/257 par
+|move|p2a: Vileplume|Swords Dance|p2a: Vileplume
+|-boost|p2a: Vileplume|atk|2
+|
+|turn|10
+|
+|cant|p2a: Vileplume|par
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|257\/257 par
+|
+|turn|11
+|
+|switch|p1a: Fearow|Fearow, L90|300\/300
+|move|p2a: Vileplume|Body Slam|p1a: Fearow
+|-damage|p1a: Fearow|161\/300
+|
+|turn|12
+|
+|move|p1a: Fearow|Drill Peck|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|151\/318 par
+|move|p2a: Vileplume|Body Slam|p1a: Fearow
+|-damage|p1a: Fearow|15\/300
+|
+|turn|13
+|
+|move|p1a: Fearow|Drill Peck|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|
+|switch|p2a: Aerodactyl|Aerodactyl, L90|327\/327
+|turn|14
+|
+|switch|p1a: Kakuna|Kakuna, L99|290\/290
+|move|p2a: Aerodactyl|Double-Edge|p1a: Kakuna
+|-damage|p1a: Kakuna|190\/290
+|-damage|p2a: Aerodactyl|302\/327|[from] recoil|[of] p1a: Kakuna
+|
+|turn|15
+|
+|switch|p2a: Flareon|Flareon, L90|282\/300
+|move|p1a: Kakuna|String Shot|p2a: Flareon
+|-unboost|p2a: Flareon|spe|1
+|
+|turn|16
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|279\/293
+|move|p1a: Kakuna|Poison Sting|p2a: Mewtwo
+|-damage|p2a: Mewtwo|264\/293
+|
+|turn|17
+|
+|switch|p1a: Fearow|Fearow, L90|15\/300
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|
+|turn|18
+|
+|switch|p2a: Aerodactyl|Aerodactyl, L90|302\/327
+|move|p1a: Fearow|Hyper Beam|p2a: Aerodactyl
+|-resisted|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|206\/327
+|
+|turn|19
+|-mustrecharge|p1a: Fearow
+|-mustrecharge|p1a: Fearow
+|
+|move|p2a: Aerodactyl|Double-Edge|p1a: Fearow
+|-damage|p1a: Fearow|0 fnt
+|-damage|p2a: Aerodactyl|203\/327|[from] recoil|[of] p1a: Fearow
+|faint|p1a: Fearow
+|
+|switch|p1a: Magneton|Magneton, L90|273\/273
+|turn|20
+|
+|move|p2a: Aerodactyl|Hyper Beam|p1a: Magneton
+|-damage|p1a: Magneton|161\/273
+|move|p1a: Magneton|Thunderbolt|p2a: Aerodactyl
+|-crit|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|faint|p2a: Aerodactyl
+|
+|switch|p2a: Ditto|Ditto, L99|296\/296
+|turn|21
+|
+|switch|p1a: Kakuna|Kakuna, L99|190\/290
+|move|p2a: Ditto|Transform|p1a: Kakuna
+|-transform|p2a: Ditto|p1a: Kakuna
+|
+|turn|22
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|264\/293
+|switch|p1a: Flareon|Flareon, L90|300\/300
+|
+|turn|23
+|
+|switch|p2a: Kabuto|Kabuto, L96|252\/252 slp
+|move|p1a: Flareon|Fire Blast|p2a: Kabuto
+|-resisted|p2a: Kabuto
+|-damage|p2a: Kabuto|199\/252 slp
+|
+|turn|24
+|
+|move|p1a: Flareon|Body Slam|p2a: Kabuto
+|-resisted|p2a: Kabuto
+|-damage|p2a: Kabuto|162\/252 slp
+|cant|p2a: Kabuto|slp
+|
+|turn|25
+|
+|move|p1a: Flareon|Fire Blast|p2a: Kabuto|[miss]
+|-miss|p1a: Flareon
+|cant|p2a: Kabuto|slp
+|
+|turn|26
+|
+|switch|p1a: Magneton|Magneton, L90|161\/273
+|cant|p2a: Kabuto|slp
+|
+|turn|27
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Kabuto
+|-supereffective|p2a: Kabuto
+|-damage|p2a: Kabuto|0 fnt
+|faint|p2a: Kabuto
+|
+|switch|p2a: Ditto|Ditto, L99|296\/296
+|turn|28
+|
+|switch|p1a: Kakuna|Kakuna, L99|190\/290
+|switch|p2a: Mewtwo|Mewtwo, L70|264\/293
+|
+|turn|29
+|
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|move|p1a: Kakuna|String Shot|p2a: Mewtwo
+|-unboost|p2a: Mewtwo|spe|1
+|
+|turn|30
+|
+|switch|p1a: Vileplume|Vileplume, L90|318\/318
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|
+|turn|31
+|
+|switch|p2a: Ditto|Ditto, L99|296\/296
+|move|p1a: Vileplume|Body Slam|p2a: Ditto
+|-damage|p2a: Ditto|227\/296
+|
+|turn|32
+|
+|switch|p1a: Flareon|Flareon, L90|300\/300
+|move|p2a: Ditto|Transform|p1a: Flareon
+|-transform|p2a: Ditto|p1a: Flareon
+|
+|turn|33
+|
+|switch|p1a: Starmie|Starmie, L79|257\/257 par
+|move|p2a: Ditto|Body Slam|p1a: Starmie
+|-crit|p1a: Starmie
+|-damage|p1a: Starmie|64\/257 par
+|
+|turn|34
+|
+|move|p2a: Ditto|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|6\/257 par
+|move|p1a: Starmie|Surf|p2a: Ditto
+|-supereffective|p2a: Ditto
+|-damage|p2a: Ditto|7\/296
+|
+|turn|35
+|
+|move|p2a: Ditto|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|switch|p1a: Flareon|Flareon, L90|300\/300
+|turn|36
+|
+|move|p1a: Flareon|Quick Attack|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|264\/293
+|turn|37
+|
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|move|p1a: Flareon|Body Slam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|165\/293
+|
+|turn|38
+|
+|move|p2a: Mewtwo|Psychic|p1a: Flareon
+|-crit|p1a: Flareon
+|-damage|p1a: Flareon|148\/300
+|move|p1a: Flareon|Body Slam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|73\/293
+|
+|turn|39
+|
+|move|p2a: Mewtwo|Psychic|p1a: Flareon
+|-damage|p1a: Flareon|0 fnt
+|faint|p1a: Flareon
+|
+|switch|p1a: Kakuna|Kakuna, L99|190\/290
+|turn|40
+|
+|move|p2a: Mewtwo|Psychic|p1a: Kakuna
+|-crit|p1a: Kakuna
+|-supereffective|p1a: Kakuna
+|-damage|p1a: Kakuna|0 fnt
+|faint|p1a: Kakuna
+|
+|switch|p1a: Vileplume|Vileplume, L90|318\/318
+|turn|41
+|
+|move|p2a: Mewtwo|Psychic|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|faint|p1a: Vileplume
+|
+|switch|p1a: Magneton|Magneton, L90|161\/273
+|turn|42
+|
+|move|p2a: Mewtwo|Rest|p2a: Mewtwo
+|-status|p2a: Mewtwo|slp
+|-heal|p2a: Mewtwo|293\/293 slp|[silent]
+|-status|p2a: Mewtwo|slp|[from] move: Rest
+|move|p1a: Magneton|Hyper Beam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|178\/293 slp
+|
+|turn|43
+|-mustrecharge|p1a: Magneton
+|-mustrecharge|p1a: Magneton
+|
+|cant|p2a: Mewtwo|slp
+|cant|p1a: Magneton|recharge
+|
+|turn|44
+|
+|-curestatus|p2a: Mewtwo|slp
+|move|p1a: Magneton|Double-Edge|p2a: Mewtwo
+|-damage|p2a: Mewtwo|109\/293
+|-damage|p1a: Magneton|144\/273|[from] recoil|[of] p2a: Mewtwo
+|
+|turn|45
+|
+|move|p2a: Mewtwo|Psychic|p1a: Magneton
+|-crit|p1a: Magneton
+|-damage|p1a: Magneton|14\/273
+|move|p1a: Magneton|Hyper Beam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|0 fnt
+|faint|p2a: Mewtwo
+|
+|switch|p2a: Flareon|Flareon, L90|282\/300
+|turn|46
+|
+|move|p2a: Flareon|Quick Attack|p1a: Magneton
+|-damage|p1a: Magneton|0 fnt
+|faint|p1a: Magneton
+|
+|win|Abstrix
+|raw|am14fg's rating: 1314 &rarr; <strong>1287<\/strong><br \/>(-27 for losing)
+|raw|Abstrix's rating: 1197 &rarr; <strong>1230<\/strong><br \/>(+33 for winning)

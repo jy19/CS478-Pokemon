@@ -1,0 +1,250 @@
+﻿|join|kid gf lol
+|join|BriIIance
+|player|p1|kid gf lol|168
+|player|p2|BriIIance|170
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|switch|p1a: Foxxy Baby|Jolteon|333\/333
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|1
+|
+|switch|p2a: Nidoking|Nidoking|365\/365
+|move|p1a: Foxxy Baby|Thunder Wave|p2a: Nidoking
+|-immune|p2a: Nidoking|[msg]
+|
+|turn|2
+|leave|BriIIance
+|player|p2
+|join|BriIIance
+|player|p2|BriIIance|170
+|
+|move|p1a: Foxxy Baby|Double Kick|p2a: Nidoking
+|-crit|p2a: Nidoking
+|-resisted|p2a: Nidoking
+|-damage|p2a: Nidoking|343\/365
+|-damage|p2a: Nidoking|321\/365
+|-hitcount|p2a: Nidoking|2
+|move|p2a: Nidoking|Body Slam|p1a: Foxxy Baby
+|-damage|p1a: Foxxy Baby|241\/333
+|
+|turn|3
+|
+|switch|p1a: Bad Luck Brian|Dragonite|385\/385
+|move|p2a: Nidoking|Earthquake|p1a: Bad Luck Brian
+|-immune|p1a: Bad Luck Brian|[msg]
+|
+|turn|4
+|
+|move|p2a: Nidoking|Blizzard|p1a: Bad Luck Brian|[miss]
+|-miss|p2a: Nidoking
+|move|p1a: Bad Luck Brian|Surf|p2a: Nidoking
+|-supereffective|p2a: Nidoking
+|-damage|p2a: Nidoking|155\/365
+|
+|turn|5
+|join|mart1705
+|
+|move|p2a: Nidoking|Blizzard|p1a: Bad Luck Brian
+|-crit|p1a: Bad Luck Brian
+|-supereffective|p1a: Bad Luck Brian
+|-damage|p1a: Bad Luck Brian|0 fnt
+|faint|p1a: Bad Luck Brian
+|
+|
+|switch|p1a: Star Role|Starmie|323\/323
+|turn|6
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|move|p1a: Star Role|Psychic|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|155\/323
+|
+|turn|7
+|
+|switch|p2a: Zapdos|Zapdos|383\/383
+|move|p1a: Star Role|Psychic|p2a: Zapdos
+|-damage|p2a: Zapdos|296\/383
+|
+|turn|8
+|
+|switch|p1a: Foxxy Baby|Jolteon|241\/333
+|switch|p2a: Victreebel|Victreebel|363\/363
+|
+|turn|9
+|
+|move|p1a: Foxxy Baby|Thunder Wave|p2a: Victreebel
+|-status|p2a: Victreebel|par
+|move|p2a: Victreebel|Sleep Powder|p1a: Foxxy Baby
+|-status|p1a: Foxxy Baby|slp
+|
+|turn|10
+|
+|switch|p1a: Eminem|Victreebel|363\/363
+|cant|p2a: Victreebel|par
+|
+|turn|11
+|leave|mart1705
+|
+|switch|p2a: Zapdos|Zapdos|296\/383
+|move|p1a: Eminem|Wrap|p2a: Zapdos
+|-damage|p2a: Zapdos|283\/383
+|-activate|p2a: Zapdos|move: Wrap|[of] p1a: Eminem
+|
+|turn|12
+|
+|switch|p1a: Egg Kangaroo|Chansey|703\/703
+|cant|p2a: Zapdos|partiallytrapped
+|
+|-end|p2a: Zapdos|Wrap|[partiallytrapped]
+|turn|13
+|
+|switch|p2a: Nidoking|Nidoking|155\/365
+|move|p1a: Egg Kangaroo|Ice Beam|p2a: Nidoking
+|-supereffective|p2a: Nidoking
+|-damage|p2a: Nidoking|0 fnt
+|faint|p2a: Nidoking
+|
+|
+|switch|p2a: Cloyster|Cloyster|303\/303
+|turn|14
+|
+|move|p2a: Cloyster|Blizzard|p1a: Egg Kangaroo
+|-crit|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|477\/703
+|move|p1a: Egg Kangaroo|Thunder Wave|p2a: Cloyster
+|-status|p2a: Cloyster|par
+|
+|turn|15
+|
+|switch|p1a: Star Role|Starmie|323\/323
+|move|p2a: Cloyster|Blizzard|p1a: Star Role
+|-resisted|p1a: Star Role
+|-damage|p1a: Star Role|261\/323
+|-status|p1a: Star Role|frz
+|
+|turn|16
+|
+|switch|p2a: Zapdos|Zapdos|283\/383
+|cant|p1a: Star Role|frz
+|
+|turn|17
+|
+|cant|p1a: Star Role|frz
+|move|p2a: Zapdos|Agility|p2a: Zapdos
+|-boost|p2a: Zapdos|spe|2
+|
+|turn|18
+|
+|move|p2a: Zapdos|Agility|p2a: Zapdos
+|-boost|p2a: Zapdos|spe|2
+|cant|p1a: Star Role|frz
+|
+|turn|19
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Star Role
+|-crit|p1a: Star Role
+|-supereffective|p1a: Star Role
+|-damage|p1a: Star Role|0 fnt
+|faint|p1a: Star Role
+|
+|
+|switch|p1a: Eminem|Victreebel|363\/363
+|turn|20
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Eminem
+|-supereffective|p1a: Eminem
+|-damage|p1a: Eminem|128\/363
+|move|p1a: Eminem|Sleep Powder|p2a: Zapdos|[miss]
+|-miss|p1a: Eminem
+|
+|turn|21
+|chat|kid gf lol|k
+|
+|switch|p1a: Foxxy Baby|Jolteon|241\/333 slp
+|move|p2a: Zapdos|Drill Peck|p1a: Foxxy Baby
+|-resisted|p1a: Foxxy Baby
+|-damage|p1a: Foxxy Baby|176\/333 slp
+|
+|turn|22
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Foxxy Baby
+|-resisted|p1a: Foxxy Baby
+|-damage|p1a: Foxxy Baby|113\/333 slp
+|cant|p1a: Foxxy Baby|slp
+|
+|turn|23
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Foxxy Baby
+|-resisted|p1a: Foxxy Baby
+|-damage|p1a: Foxxy Baby|54\/333 slp
+|cant|p1a: Foxxy Baby|slp
+|
+|turn|24
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Foxxy Baby
+|-resisted|p1a: Foxxy Baby
+|-damage|p1a: Foxxy Baby|0 fnt
+|faint|p1a: Foxxy Baby
+|
+|
+|switch|p1a: Egg Kangaroo|Chansey|477\/703
+|turn|25
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|227\/703
+|move|p1a: Egg Kangaroo|Ice Beam|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|141\/383
+|
+|turn|26
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|0 fnt
+|faint|p1a: Egg Kangaroo
+|
+|
+|switch|p1a: The Clamps|Cloyster|303\/303
+|turn|27
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: The Clamps
+|-supereffective|p1a: The Clamps
+|-damage|p1a: The Clamps|2\/303
+|move|p1a: The Clamps|Blizzard|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|
+|switch|p2a: Gengar|Gengar|155\/323
+|turn|28
+|
+|move|p2a: Gengar|Psychic|p1a: The Clamps
+|-damage|p1a: The Clamps|0 fnt
+|faint|p1a: The Clamps
+|
+|
+|switch|p1a: Eminem|Victreebel|128\/363
+|turn|29
+|
+|move|p2a: Gengar|Psychic|p1a: Eminem
+|-supereffective|p1a: Eminem
+|-damage|p1a: Eminem|0 fnt
+|faint|p1a: Eminem
+|
+|win|BriIIance
+|raw|Ladder updating...
+|raw|kid gf lol's rating: 1393 &rarr; <strong>1359<\/strong><br \/>(-34 for losing)
+|raw|BriIIance's rating: 1097 &rarr; <strong>1140<\/strong><br \/>(+43 for winning)
+|leave|kid gf lol
+|player|p1

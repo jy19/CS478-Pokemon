@@ -1,0 +1,255 @@
+﻿|join|MissyPotter
+|join|XianJu
+|player|p1|MissyPotter|163
+|player|p2|XianJu|130
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|seed|42753,9212,35898,9938
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Dodrio|Dodrio, L85|276\/276
+|switch|p2a: Staryu|Staryu, L90|237\/237
+|turn|1
+|c|★MissyPotter|cheater? xd
+|c|★MissyPotter|lol
+|choice|switch 5|move 3
+|
+|switch|p1a: Jolteon|Jolteon, L79|265\/265
+|move|p2a: Staryu|Blizzard|p1a: Jolteon|[miss]
+|-miss|p2a: Staryu
+|
+|turn|2
+|choice|move 3|switch 5
+|
+|switch|p2a: Dragonair|Dragonair, L85|277\/277
+|move|p1a: Jolteon|Thunder Wave|p2a: Dragonair
+|-status|p2a: Dragonair|par
+|
+|turn|3
+|choice|switch 2|move 1
+|
+|switch|p1a: Shellder|Shellder, L96|252\/252
+|move|p2a: Dragonair|Body Slam|p1a: Shellder
+|-damage|p1a: Shellder|203\/252
+|-status|p1a: Shellder|par
+|
+|turn|4
+|choice|move 4|move 1
+|
+|move|p2a: Dragonair|Body Slam|p1a: Shellder
+|-damage|p1a: Shellder|155\/252 par
+|move|p1a: Shellder|Supersonic|p2a: Dragonair|[miss]
+|-miss|p1a: Shellder
+|
+|turn|5
+|choice|move 2|move 1
+|
+|move|p2a: Dragonair|Body Slam|p1a: Shellder
+|-crit|p1a: Shellder
+|-damage|p1a: Shellder|70\/252 par
+|move|p1a: Shellder|Ice Beam|p2a: Dragonair
+|-supereffective|p2a: Dragonair
+|-damage|p2a: Dragonair|156\/277 par
+|
+|turn|6
+|choice|move 3|move 1
+|
+|cant|p2a: Dragonair|par
+|move|p1a: Shellder|Explosion|p2a: Dragonair
+|-damage|p2a: Dragonair|0 fnt
+|faint|p2a: Dragonair
+|faint|p1a: Shellder
+|choice|switch 2|switch 3
+|
+|switch|p1a: Jolteon|Jolteon, L79|265\/265
+|switch|p2a: Venomoth|Venomoth, L85|293\/293
+|turn|7
+|leave|MissyPotter
+|player|p1
+|join|MissyPotter
+|player|p1|MissyPotter|163
+|choice|move 1|move 2
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Venomoth
+|-damage|p2a: Venomoth|201\/293
+|move|p2a: Venomoth|Sleep Powder|p1a: Jolteon|[miss]
+|-miss|p2a: Venomoth
+|
+|turn|8
+|choice|move 3|move 2
+|
+|move|p1a: Jolteon|Thunder Wave|p2a: Venomoth
+|-status|p2a: Venomoth|par
+|move|p2a: Venomoth|Sleep Powder|p1a: Jolteon|[miss]
+|-miss|p2a: Venomoth
+|
+|turn|9
+|choice|move 4|move 2
+|
+|move|p1a: Jolteon|Sand Attack|p2a: Venomoth
+|-unboost|p2a: Venomoth|accuracy|1
+|move|p2a: Venomoth|Sleep Powder|p1a: Jolteon
+|-status|p1a: Jolteon|slp
+|
+|turn|10
+|choice|move 1|switch 4
+|
+|switch|p2a: Mew|Mew, L74|300\/300
+|cant|p1a: Jolteon|slp
+|
+|turn|11
+|choice|move 3|move 1
+|
+|cant|p1a: Jolteon|slp
+|move|p2a: Mew|Swords Dance|p2a: Mew
+|-boost|p2a: Mew|atk|2
+|
+|turn|12
+|choice|move 3|move 4
+|
+|cant|p1a: Jolteon|slp
+|move|p2a: Mew|Earthquake|p1a: Jolteon
+|-supereffective|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|c|★MissyPotter|CHEATER!
+|choice|switch 3|
+|
+|switch|p1a: Muk|Muk, L90|372\/372
+|turn|13
+|choice|move 2|move 4
+|
+|move|p2a: Mew|Earthquake|p1a: Muk
+|-supereffective|p1a: Muk
+|-damage|p1a: Muk|138\/372
+|move|p1a: Muk|Sludge|p2a: Mew
+|-damage|p2a: Mew|219\/300
+|-status|p2a: Mew|psn
+|
+|turn|14
+|choice|move 1|move 4
+|
+|move|p2a: Mew|Earthquake|p1a: Muk
+|-supereffective|p1a: Muk
+|-damage|p1a: Muk|0 fnt
+|faint|p1a: Muk
+|choice|switch 5|
+|
+|switch|p1a: Dodrio|Dodrio, L85|276\/276
+|turn|15
+|choice|move 4|move 3
+|
+|move|p1a: Dodrio|Mimic|p2a: Mew
+|-start|p1a: Dodrio|Mimic|Swords Dance
+|move|p2a: Mew|Thunderbolt|p1a: Dodrio
+|-crit|p1a: Dodrio
+|-supereffective|p1a: Dodrio
+|-damage|p1a: Dodrio|2\/276
+|-damage|p2a: Mew|201\/300 psn|[from] psn|[of] p1a: Dodrio
+|
+|turn|16
+|choice|move 2|move 3
+|
+|move|p1a: Dodrio|Hyper Beam|p2a: Mew
+|-damage|p2a: Mew|11\/300 psn
+|move|p2a: Mew|Thunderbolt|p1a: Dodrio
+|-crit|p1a: Dodrio
+|-supereffective|p1a: Dodrio
+|-damage|p1a: Dodrio|0 fnt
+|faint|p1a: Dodrio
+|choice|switch 4|
+|
+|switch|p1a: Machamp|Machamp, L90|345\/345
+|turn|17
+|choice|move 3|move 4
+|
+|move|p2a: Mew|Earthquake|p1a: Machamp
+|-crit|p1a: Machamp
+|-damage|p1a: Machamp|244\/345
+|-damage|p2a: Mew|0 fnt|[from] psn|[of] p1a: Machamp
+|faint|p2a: Mew
+|choice||switch 5
+|
+|switch|p2a: Staryu|Staryu, L90|237\/237
+|turn|18
+|choice|move 3|move 2
+|
+|move|p2a: Staryu|Thunder Wave|p1a: Machamp
+|-status|p1a: Machamp|par
+|move|p1a: Machamp|Body Slam|p2a: Staryu
+|-damage|p2a: Staryu|126\/237
+|
+|turn|19
+|choice|move 1|move 3
+|
+|move|p2a: Staryu|Blizzard|p1a: Machamp
+|-damage|p1a: Machamp|160\/345 par
+|move|p1a: Machamp|Rock Slide|p2a: Staryu|[miss]
+|-miss|p1a: Machamp
+|
+|turn|20
+|choice|move 3|move 1
+|
+|move|p2a: Staryu|Recover|p2a: Staryu
+|-heal|p2a: Staryu|237\/237
+|cant|p1a: Machamp|par
+|
+|turn|21
+|choice|move 3|move 3
+|
+|move|p2a: Staryu|Blizzard|p1a: Machamp
+|-damage|p1a: Machamp|72\/345 par
+|move|p1a: Machamp|Body Slam|p2a: Staryu
+|-crit|p2a: Staryu
+|-damage|p2a: Staryu|27\/237
+|
+|turn|22
+|c|★MissyPotter|cheater!!!
+|choice|move 4|move 4
+|
+|move|p2a: Staryu|Thunderbolt|p1a: Machamp
+|-damage|p1a: Machamp|0 fnt
+|faint|p1a: Machamp
+|choice|switch 6|
+|
+|switch|p1a: Parasect|Parasect, L90|291\/291
+|turn|23
+|choice|move 2|move 3
+|
+|move|p2a: Staryu|Blizzard|p1a: Parasect
+|-supereffective|p1a: Parasect
+|-damage|p1a: Parasect|126\/291
+|move|p1a: Parasect|Mega Drain|p2a: Staryu
+|-supereffective|p2a: Staryu
+|-damage|p2a: Staryu|0 fnt
+|-heal|p1a: Parasect|139\/291|[from] drain|[of] p2a: Staryu
+|faint|p2a: Staryu
+|choice||switch 2
+|
+|switch|p2a: Scyther|Scyther, L90|309\/309
+|turn|24
+|c|★MissyPotter|no miss?
+|choice|move 4|move 3
+|
+|move|p2a: Scyther|Slash|p1a: Parasect
+|-crit|p1a: Parasect
+|-damage|p1a: Parasect|28\/291
+|move|p1a: Parasect|Hyper Beam|p2a: Scyther
+|-damage|p2a: Scyther|186\/309
+|
+|turn|25
+|-mustrecharge|p1a: Parasect
+|-mustrecharge|p1a: Parasect
+|choice|move 1|move 3
+|
+|move|p2a: Scyther|Slash|p1a: Parasect
+|-crit|p1a: Parasect
+|-damage|p1a: Parasect|0 fnt
+|faint|p1a: Parasect
+|
+|win|XianJu
+|c|★XianJu|calm down?? im just better deal with it pal

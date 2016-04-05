@@ -1,0 +1,297 @@
+﻿|join|AitorMaster
+|join|thenatural91
+|player|p1|AitorMaster|163
+|player|p2|thenatural91|124
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|63769,61226,33939,27382
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Pidgeot|Pidgeot, L90|333\/333
+|switch|p2a: Parasect|Parasect, L90|291\/291
+|turn|1
+|choice|switch 2|switch 2
+|
+|switch|p1a: Weedle|Weedle, L99|280\/280
+|switch|p2a: Dewgong|Dewgong, L85|327\/327
+|
+|turn|2
+|choice|move 2|move 2
+|
+|move|p2a: Dewgong|Body Slam|p1a: Weedle
+|-crit|p1a: Weedle
+|-damage|p1a: Weedle|145\/280
+|move|p1a: Weedle|Poison Sting|p2a: Dewgong
+|-damage|p2a: Dewgong|313\/327
+|-status|p2a: Dewgong|psn
+|
+|turn|3
+|choice|move 1|move 3
+|
+|move|p2a: Dewgong|Blizzard|p1a: Weedle
+|-damage|p1a: Weedle|0 fnt
+|faint|p1a: Weedle
+|choice|switch 3|
+|
+|switch|p1a: Starmie|Starmie, L79|257\/257
+|turn|4
+|choice|move 2|switch 6
+|
+|switch|p2a: Nidorina|Nidorina, L90|309\/309
+|move|p1a: Starmie|Thunderbolt|p2a: Nidorina
+|-damage|p2a: Nidorina|239\/309
+|
+|turn|5
+|choice|switch 5|move 3
+|
+|switch|p1a: Snorlax|Snorlax, L79|415\/415
+|move|p2a: Nidorina|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|348\/415
+|-status|p1a: Snorlax|par
+|
+|turn|6
+|choice|move 1|move 3
+|
+|move|p2a: Nidorina|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|279\/415 par
+|cant|p1a: Snorlax|par
+|
+|turn|7
+|choice|move 1|move 3
+|
+|move|p2a: Nidorina|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|206\/415 par
+|cant|p1a: Snorlax|par
+|
+|turn|8
+|choice|move 2|move 3
+|
+|move|p2a: Nidorina|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|140\/415 par
+|move|p1a: Snorlax|Body Slam|p2a: Nidorina
+|-damage|p2a: Nidorina|147\/309
+|-status|p2a: Nidorina|par
+|
+|turn|9
+|choice|move 1|move 3
+|
+|move|p2a: Nidorina|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|71\/415 par
+|cant|p1a: Snorlax|par
+|
+|turn|10
+|choice|move 4|move 3
+|
+|move|p2a: Nidorina|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|choice|switch 6|
+|
+|switch|p1a: Vileplume|Vileplume, L90|318\/318
+|turn|11
+|choice|move 4|switch 4
+|
+|switch|p2a: Ninetales|Ninetales, L85|298\/298
+|move|p1a: Vileplume|Body Slam|p2a: Ninetales
+|-damage|p2a: Ninetales|229\/298
+|
+|turn|12
+|choice|switch 5|move 3
+|
+|switch|p1a: Starmie|Starmie, L79|257\/257
+|move|p2a: Ninetales|Toxic|p1a: Starmie
+|-status|p1a: Starmie|tox
+|
+|turn|13
+|choice|move 2|switch 4
+|
+|switch|p2a: Nidorina|Nidorina, L90|147\/309 par
+|move|p1a: Starmie|Thunderbolt|p2a: Nidorina
+|-damage|p2a: Nidorina|72\/309 par
+|-damage|p1a: Starmie|241\/257 tox|[from] tox|[of] p2a: Nidorina
+|
+|turn|14
+|choice|move 2|move 3
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Nidorina
+|-damage|p2a: Nidorina|3\/309 par
+|-damage|p1a: Starmie|209\/257 tox|[from] tox|[of] p2a: Nidorina
+|move|p2a: Nidorina|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|95\/257 tox
+|
+|turn|15
+|choice|move 2|move 3
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Nidorina
+|-damage|p2a: Nidorina|0 fnt
+|faint|p2a: Nidorina
+|choice||switch 5
+|
+|switch|p2a: Machamp|Machamp, L90|345\/345
+|turn|16
+|choice|move 1|move 1
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|223\/257 tox
+|-damage|p1a: Starmie|175\/257 tox|[from] psn
+|move|p2a: Machamp|Earthquake|p1a: Starmie
+|-damage|p1a: Starmie|70\/257 tox
+|
+|turn|17
+|choice|move 4|move 1
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Machamp
+|-status|p2a: Machamp|par
+|-damage|p1a: Starmie|6\/257 tox|[from] tox|[of] p2a: Machamp
+|move|p2a: Machamp|Earthquake|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|choice|switch 2|
+|
+|switch|p1a: Pidgeot|Pidgeot, L90|333\/333
+|turn|18
+|choice|move 1|switch 6
+|
+|switch|p2a: Dewgong|Dewgong, L85|313\/327 psn
+|-damage|p2a: Dewgong|293\/327 psn|[from] psn
+|move|p1a: Pidgeot|Double-Edge|p2a: Dewgong
+|-crit|p2a: Dewgong
+|-damage|p2a: Dewgong|56\/327 psn
+|-damage|p1a: Pidgeot|274\/333|[from] recoil|[of] p2a: Dewgong
+|
+|turn|19
+|choice|move 1|move 3
+|
+|move|p1a: Pidgeot|Double-Edge|p2a: Dewgong
+|-damage|p2a: Dewgong|0 fnt
+|-damage|p1a: Pidgeot|260\/333|[from] recoil|[of] p2a: Dewgong
+|faint|p2a: Dewgong
+|choice||switch 4
+|
+|switch|p2a: Ninetales|Ninetales, L85|229\/298
+|turn|20
+|choice|move 1|move 3
+|
+|move|p2a: Ninetales|Toxic|p1a: Pidgeot
+|-status|p1a: Pidgeot|tox
+|move|p1a: Pidgeot|Double-Edge|p2a: Ninetales
+|-damage|p2a: Ninetales|116\/298
+|-damage|p1a: Pidgeot|232\/333 tox|[from] recoil|[of] p2a: Ninetales
+|-damage|p1a: Pidgeot|212\/333 tox|[from] tox|[of] p2a: Ninetales
+|
+|turn|21
+|choice|move 1|switch 3
+|
+|switch|p2a: Spearow|Spearow, L96|272\/272
+|move|p1a: Pidgeot|Double-Edge|p2a: Spearow
+|-damage|p2a: Spearow|99\/272
+|-damage|p1a: Pidgeot|169\/333 tox|[from] recoil|[of] p2a: Spearow
+|-damage|p1a: Pidgeot|129\/333 tox|[from] tox|[of] p2a: Spearow
+|
+|turn|22
+|choice|move 1|move 4
+|
+|move|p1a: Pidgeot|Double-Edge|p2a: Spearow
+|-damage|p2a: Spearow|0 fnt
+|-damage|p1a: Pidgeot|105\/333 tox|[from] recoil|[of] p2a: Spearow
+|faint|p2a: Spearow
+|choice||switch 3
+|
+|switch|p2a: Ninetales|Ninetales, L85|116\/298
+|turn|23
+|choice|switch 5|move 2
+|
+|switch|p1a: Vileplume|Vileplume, L90|318\/318
+|move|p2a: Ninetales|Body Slam|p1a: Vileplume
+|-damage|p1a: Vileplume|268\/318
+|-status|p1a: Vileplume|par
+|
+|turn|24
+|choice|move 3|move 1
+|
+|move|p2a: Ninetales|Fire Blast|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|39\/318 par
+|move|p1a: Vileplume|Sleep Powder|p2a: Ninetales|[miss]
+|-miss|p1a: Vileplume
+|
+|turn|25
+|choice|move 4|move 2
+|
+|move|p2a: Ninetales|Body Slam|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|faint|p1a: Vileplume
+|choice|switch 4|
+|
+|switch|p1a: Magmar|Magmar, L90|300\/300
+|turn|26
+|choice|move 3|move 3
+|
+|move|p1a: Magmar|Hyper Beam|p2a: Ninetales
+|-crit|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|choice||switch 6
+|
+|switch|p2a: Machamp|Machamp, L90|345\/345 par
+|turn|27
+|choice|switch 5|move 3
+|
+|switch|p1a: Pidgeot|Pidgeot, L90|105\/333 tox
+|-status|p1a: Pidgeot|psn
+|-damage|p1a: Pidgeot|85\/333 psn|[from] psn
+|move|p2a: Machamp|Rock Slide|p1a: Pidgeot
+|-supereffective|p1a: Pidgeot
+|-damage|p1a: Pidgeot|0 fnt
+|faint|p1a: Pidgeot
+|choice|switch 5|
+|
+|switch|p1a: Magmar|Magmar, L90|300\/300
+|turn|28
+|choice|move 4|move 1
+|
+|move|p1a: Magmar|Body Slam|p2a: Machamp
+|-damage|p2a: Machamp|276\/345 par
+|cant|p2a: Machamp|par
+|
+|turn|29
+|choice|move 1|move 1
+|
+|move|p1a: Magmar|Confuse Ray|p2a: Machamp
+|-start|p2a: Machamp|confusion
+|-activate|p2a: Machamp|confusion
+|move|p2a: Machamp|Earthquake|p1a: Magmar
+|-supereffective|p1a: Magmar
+|-damage|p1a: Magmar|59\/300
+|
+|turn|30
+|choice|move 2|move 1
+|
+|move|p1a: Magmar|Mimic|p2a: Machamp
+|-start|p1a: Magmar|Mimic|Rock Slide
+|cant|p2a: Machamp|par
+|
+|turn|31
+|choice|move 2|move 1
+|
+|move|p1a: Magmar|Rock Slide|p2a: Machamp
+|-resisted|p2a: Machamp
+|-damage|p2a: Machamp|246\/345 par
+|-activate|p2a: Machamp|confusion
+|move|p2a: Machamp|Earthquake|p1a: Magmar
+|-supereffective|p1a: Magmar
+|-damage|p1a: Magmar|0 fnt
+|faint|p1a: Magmar
+|
+|win|thenatural91
+|c|★thenatural91|gg
+|leave|AitorMaster
+|player|p1
+|raw|AitorMaster's rating: 1240 &rarr; <strong>1211<\/strong><br \/>(-29 for losing)
+|raw|thenatural91's rating: 1183 &rarr; <strong>1212<\/strong><br \/>(+29 for winning)

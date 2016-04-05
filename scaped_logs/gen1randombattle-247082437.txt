@@ -1,0 +1,259 @@
+﻿|join|Ryan 1000
+|join|yaldyyyy
+|player|p1|Ryan 1000|162
+|player|p2|yaldyyyy|275
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Moltres|Moltres, L85|327\/327
+|switch|p2a: Vulpix|Vulpix, L96|268\/268
+|turn|1
+|
+|switch|p2a: Graveler|Graveler, L85|267\/267
+|move|p1a: Moltres|Toxic|p2a: Graveler
+|-status|p2a: Graveler|tox
+|
+|turn|2
+|
+|switch|p1a: Vileplume|Vileplume, L90|318\/318
+|move|p2a: Graveler|Rock Slide|p1a: Vileplume
+|-damage|p1a: Vileplume|236\/318
+|-damage|p2a: Graveler|251\/267 tox|[from] tox|[of] p1a: Vileplume
+|
+|turn|3
+|
+|switch|p2a: Vulpix|Vulpix, L96|268\/268
+|move|p1a: Vileplume|Mega Drain|p2a: Vulpix
+|-resisted|p2a: Vulpix
+|-damage|p2a: Vulpix|243\/268
+|-heal|p1a: Vileplume|248\/318|[from] drain|[of] p2a: Vulpix
+|
+|turn|4
+|
+|switch|p1a: Raticate|Raticate, L85|267\/267
+|move|p2a: Vulpix|Fire Blast|p1a: Raticate|[miss]
+|-miss|p2a: Vulpix
+|
+|turn|5
+|
+|move|p1a: Raticate|Super Fang|p2a: Vulpix
+|-damage|p2a: Vulpix|122\/268
+|move|p2a: Vulpix|Fire Blast|p1a: Raticate
+|-damage|p1a: Raticate|96\/267
+|
+|turn|6
+|
+|move|p1a: Raticate|Hyper Beam|p2a: Vulpix
+|-damage|p2a: Vulpix|0 fnt
+|faint|p2a: Vulpix
+|
+|switch|p2a: Fearow|Fearow, L90|300\/300
+|turn|7
+|
+|switch|p1a: Mewtwo|Mewtwo, L68|285\/285
+|move|p2a: Fearow|Hyper Beam|p1a: Mewtwo
+|-damage|p1a: Mewtwo|60\/285
+|
+|turn|8
+|-mustrecharge|p2a: Fearow
+|-mustrecharge|p2a: Fearow
+|
+|cant|p2a: Fearow|recharge
+|move|p1a: Mewtwo|Thunder Wave|p2a: Fearow
+|-status|p2a: Fearow|par
+|
+|turn|9
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Fearow
+|-supereffective|p2a: Fearow
+|-damage|p2a: Fearow|143\/300 par
+|move|p2a: Fearow|Drill Peck|p1a: Mewtwo
+|-damage|p1a: Mewtwo|0 fnt
+|faint|p1a: Mewtwo
+|
+|switch|p1a: Vulpix|Vulpix, L96|268\/268
+|turn|10
+|
+|move|p1a: Vulpix|Fire Blast|p2a: Fearow
+|-damage|p2a: Fearow|4\/300 par
+|cant|p2a: Fearow|par
+|
+|turn|11
+|
+|move|p1a: Vulpix|Fire Blast|p2a: Fearow
+|-damage|p2a: Fearow|0 fnt
+|faint|p2a: Fearow
+|
+|switch|p2a: Graveler|Graveler, L85|251\/267 tox
+|-status|p2a: Graveler|psn
+|turn|12
+|
+|switch|p1a: Vileplume|Vileplume, L90|248\/318
+|move|p2a: Graveler|Rock Slide|p1a: Vileplume|[miss]
+|-miss|p2a: Graveler
+|-damage|p2a: Graveler|235\/267 psn|[from] psn|[of] p1a: Vileplume
+|
+|turn|13
+|
+|switch|p2a: Venomoth|Venomoth, L85|293\/293
+|move|p1a: Vileplume|Sleep Powder|p2a: Venomoth
+|-status|p2a: Venomoth|slp
+|
+|turn|14
+|
+|switch|p2a: Moltres|Moltres, L85|327\/327
+|move|p1a: Vileplume|Swords Dance|p1a: Vileplume
+|-boost|p1a: Vileplume|atk|2
+|
+|turn|15
+|
+|switch|p1a: Vulpix|Vulpix, L96|268\/268
+|move|p2a: Moltres|Fire Blast|p1a: Vulpix
+|-resisted|p1a: Vulpix
+|-damage|p1a: Vulpix|188\/268
+|
+|turn|16
+|
+|switch|p2a: Lapras|Lapras, L79|367\/367
+|move|p1a: Vulpix|Confuse Ray|p2a: Lapras
+|-start|p2a: Lapras|confusion
+|
+|turn|17
+|
+|move|p1a: Vulpix|Toxic|p2a: Lapras
+|-status|p2a: Lapras|tox
+|-activate|p2a: Lapras|confusion
+|move|p2a: Lapras|Confuse Ray|p1a: Vulpix
+|-start|p1a: Vulpix|confusion
+|-damage|p2a: Lapras|345\/367 tox|[from] tox|[of] p1a: Vulpix
+|
+|turn|18
+|
+|switch|p1a: Vileplume|Vileplume, L90|248\/318
+|-activate|p2a: Lapras|confusion
+|-damage|p2a: Lapras|316\/367 tox|[from] confusion
+|-damage|p2a: Lapras|272\/367 tox|[from] tox|[of] p1a: Vileplume
+|
+|turn|19
+|
+|switch|p2a: Moltres|Moltres, L85|327\/327
+|move|p1a: Vileplume|Body Slam|p2a: Moltres
+|-damage|p2a: Moltres|262\/327
+|-status|p2a: Moltres|par
+|
+|turn|20
+|
+|switch|p1a: Vulpix|Vulpix, L96|188\/268
+|move|p2a: Moltres|Sky Attack|p1a: Vulpix|[still]
+|-prepare|p2a: Moltres|Sky Attack|p1a: Vulpix
+|
+|turn|21
+|
+|move|p1a: Vulpix|Confuse Ray|p2a: Moltres
+|-start|p2a: Moltres|confusion
+|-activate|p2a: Moltres|confusion
+|move|p2a: Moltres|Sky Attack|p1a: Vulpix
+|-damage|p1a: Vulpix|0 fnt
+|faint|p1a: Vulpix
+|
+|switch|p1a: Raticate|Raticate, L85|96\/267
+|turn|22
+|
+|move|p1a: Raticate|Super Fang|p2a: Moltres
+|-damage|p2a: Moltres|131\/327 par
+|-activate|p2a: Moltres|confusion
+|move|p2a: Moltres|Fire Blast|p1a: Raticate
+|-damage|p1a: Raticate|0 fnt
+|faint|p1a: Raticate
+|
+|switch|p1a: Moltres|Moltres, L85|327\/327
+|turn|23
+|
+|move|p1a: Moltres|Fire Blast|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|71\/327 par
+|cant|p2a: Moltres|par
+|
+|turn|24
+|
+|move|p1a: Moltres|Fire Blast|p2a: Moltres
+|-crit|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|
+|switch|p2a: Graveler|Graveler, L85|235\/267 psn
+|turn|25
+|
+|switch|p1a: Vileplume|Vileplume, L90|248\/318
+|move|p2a: Graveler|Earthquake|p1a: Vileplume
+|-damage|p1a: Vileplume|140\/318
+|-damage|p2a: Graveler|219\/267 psn|[from] psn|[of] p1a: Vileplume
+|
+|turn|26
+|
+|switch|p2a: Lapras|Lapras, L79|272\/367 tox
+|-status|p2a: Lapras|psn
+|-damage|p2a: Lapras|250\/367 psn|[from] psn
+|move|p1a: Vileplume|Mega Drain|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|143\/367 psn
+|-heal|p1a: Vileplume|193\/318|[from] drain|[of] p2a: Lapras
+|
+|turn|27
+|
+|move|p1a: Vileplume|Mega Drain|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|47\/367 psn
+|-heal|p1a: Vileplume|241\/318|[from] drain|[of] p2a: Lapras
+|move|p2a: Lapras|Blizzard|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|45\/318
+|-damage|p2a: Lapras|25\/367 psn|[from] psn|[of] p1a: Vileplume
+|
+|turn|28
+|
+|move|p1a: Vileplume|Mega Drain|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|-heal|p1a: Vileplume|57\/318|[from] drain|[of] p2a: Lapras
+|faint|p2a: Lapras
+|
+|switch|p2a: Graveler|Graveler, L85|219\/267 psn
+|turn|29
+|
+|move|p1a: Vileplume|Mega Drain|p2a: Graveler
+|-supereffective|p2a: Graveler
+|-damage|p2a: Graveler|0 fnt
+|-heal|p1a: Vileplume|166\/318|[from] drain|[of] p2a: Graveler
+|faint|p2a: Graveler
+|
+|switch|p2a: Venomoth|Venomoth, L85|293\/293 slp
+|turn|30
+|
+|cant|p2a: Venomoth|slp
+|move|p1a: Vileplume|Swords Dance|p1a: Vileplume
+|-boost|p1a: Vileplume|atk|2
+|
+|turn|31
+|
+|cant|p2a: Venomoth|slp
+|move|p1a: Vileplume|Body Slam|p2a: Venomoth
+|-crit|p2a: Venomoth
+|-damage|p2a: Venomoth|139\/293 slp
+|
+|turn|32
+|-message|yaldyyyy forfeited.
+|
+|win|Ryan 1000
+|raw|Ladder updating...
+|leave|yaldyyyy
+|player|p2
+|raw|Ryan 1000's rating: 1175 &rarr; <strong>1198<\/strong><br \/>(+23 for winning)
+|raw|yaldyyyy's rating: 1144 &rarr; <strong>1121<\/strong><br \/>(-23 for losing)

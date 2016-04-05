@@ -1,0 +1,444 @@
+﻿|join|charizard reyiz
+|join|mai na gioia
+|player|p1|charizard reyiz|117
+|player|p2|mai na gioia|157
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Alakazam|Alakazam|313\/313
+|turn|1
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|move|p1a: Alakazam|Thunder Wave|p2a: Alakazam
+|-status|p2a: Alakazam|par
+|
+|turn|2
+|
+|move|p2a: Alakazam|Psychic|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|204\/313 par
+|cant|p1a: Alakazam|par
+|
+|turn|3
+|
+|move|p2a: Alakazam|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|154\/313 par
+|move|p1a: Alakazam|Seismic Toss|p2a: Alakazam
+|-damage|p2a: Alakazam|213\/313 par
+|
+|turn|4
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Alakazam
+|-damage|p2a: Alakazam|113\/313 par
+|cant|p2a: Alakazam|par
+|
+|turn|5
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Alakazam
+|-damage|p2a: Alakazam|13\/313 par
+|cant|p2a: Alakazam|par
+|
+|turn|6
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|310\/313 par
+|
+|turn|7
+|
+|move|p2a: Snorlax|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|144\/313 par
+|move|p1a: Alakazam|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|
+|turn|8
+|
+|switch|p1a: Cloyster|Cloyster|303\/303
+|move|p2a: Snorlax|Body Slam|p1a: Cloyster
+|-crit|p1a: Cloyster
+|-damage|p1a: Cloyster|178\/303
+|
+|turn|9
+|
+|switch|p2a: Lapras|Lapras|463\/463
+|move|p1a: Cloyster|Clamp|p2a: Lapras
+|-crit|p2a: Lapras
+|-resisted|p2a: Lapras
+|-damage|p2a: Lapras|428\/463
+|-activate|p2a: Lapras|move: Clamp|[of] p1a: Cloyster
+|
+|turn|10
+|
+|move|p1a: Cloyster|Clamp|p2a: Lapras
+|-damage|p2a: Lapras|393\/463
+|cant|p2a: Lapras|partiallytrapped
+|
+|turn|11
+|
+|move|p1a: Cloyster|Clamp|p2a: Lapras
+|-damage|p2a: Lapras|358\/463
+|cant|p2a: Lapras|partiallytrapped
+|
+|-end|p2a: Lapras|Clamp|[partiallytrapped]
+|turn|12
+|
+|switch|p1a: Jolteon|Jolteon|333\/333
+|move|p2a: Lapras|Thunderbolt|p1a: Jolteon
+|-resisted|p1a: Jolteon
+|-damage|p1a: Jolteon|302\/333
+|
+|turn|13
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Jolteon|Thunderbolt|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|290\/393
+|
+|turn|14
+|
+|move|p1a: Jolteon|Pin Missile|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|243\/393
+|-damage|p2a: Exeggutor|196\/393
+|-damage|p2a: Exeggutor|149\/393
+|-hitcount|p2a: Exeggutor|3
+|move|p2a: Exeggutor|Psychic|p1a: Jolteon
+|-damage|p1a: Jolteon|188\/333
+|
+|turn|15
+|
+|move|p1a: Jolteon|Pin Missile|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|106\/393
+|-damage|p2a: Exeggutor|63\/393
+|-damage|p2a: Exeggutor|20\/393
+|-hitcount|p2a: Exeggutor|3
+|move|p2a: Exeggutor|Sleep Powder|p1a: Jolteon|[miss]
+|-miss|p2a: Exeggutor
+|
+|turn|16
+|
+|switch|p2a: Snorlax|Snorlax|523\/523 par
+|move|p1a: Jolteon|Thunderbolt|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|244\/523 par
+|
+|turn|17
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Snorlax
+|-damage|p2a: Snorlax|91\/523 par
+|move|p2a: Snorlax|Body Slam|p1a: Jolteon
+|-damage|p1a: Jolteon|49\/333
+|-status|p1a: Jolteon|par
+|
+|turn|18
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|switch|p2a: Zapdos|Zapdos|383\/383
+|turn|19
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Jolteon
+|-resisted|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|switch|p1a: Gengar|Gengar|323\/323
+|turn|20
+|
+|switch|p2a: Jolteon|Jolteon|333\/333
+|move|p1a: Gengar|Hypnosis|p2a: Jolteon
+|-status|p2a: Jolteon|slp
+|
+|turn|21
+|
+|switch|p1a: Alakazam|Alakazam|144\/313 par
+|cant|p2a: Jolteon|slp
+|
+|turn|22
+|
+|switch|p2a: Alakazam|Alakazam|13\/313 par
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|300\/313 par
+|
+|turn|23
+|
+|cant|p2a: Alakazam|par
+|move|p1a: Alakazam|Seismic Toss|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|switch|p2a: Exeggutor|Exeggutor|20\/393
+|turn|24
+|
+|switch|p1a: Gengar|Gengar|323\/323
+|move|p2a: Exeggutor|Sleep Powder|p1a: Gengar|[miss]
+|-miss|p2a: Exeggutor
+|
+|turn|25
+|c|★mai na gioia|strong
+|c|★charizard reyiz|strong??
+|
+|move|p1a: Gengar|Thunderbolt|p2a: Exeggutor|[miss]
+|-miss|p1a: Gengar
+|move|p2a: Exeggutor|Psychic|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|122\/323
+|
+|turn|26
+|
+|move|p1a: Gengar|Thunderbolt|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Zapdos|Zapdos|383\/383
+|turn|27
+|
+|move|p1a: Gengar|Hypnosis|p2a: Zapdos
+|-message|Sleep Clause Mod activated.
+|move|p2a: Zapdos|Drill Peck|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|switch|p1a: Alakazam|Alakazam|300\/313 par
+|turn|28
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Alakazam
+|-damage|p1a: Alakazam|160\/313 par
+|cant|p1a: Alakazam|par
+|
+|turn|29
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Alakazam
+|-damage|p1a: Alakazam|10\/313 par
+|move|p1a: Alakazam|Thunder Wave|p2a: Zapdos
+|-status|p2a: Zapdos|par
+|
+|turn|30
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|166\/313 par
+|cant|p2a: Zapdos|par
+|
+|turn|31
+|
+|cant|p1a: Alakazam|par
+|cant|p2a: Zapdos|par
+|
+|turn|32
+|
+|move|p1a: Alakazam|Psychic|p2a: Zapdos
+|-damage|p2a: Zapdos|273\/383 par
+|move|p2a: Zapdos|Agility|p2a: Zapdos
+|-boost|p2a: Zapdos|spe|2
+|
+|turn|33
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Alakazam
+|-damage|p1a: Alakazam|32\/313 par
+|move|p1a: Alakazam|Psychic|p2a: Zapdos
+|-damage|p2a: Zapdos|161\/383 par
+|-unboost|p2a: Zapdos|spd|1
+|-unboost|p2a: Zapdos|spa|1
+|
+|turn|34
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|switch|p1a: Cloyster|Cloyster|178\/303
+|turn|35
+|
+|move|p1a: Cloyster|Blizzard|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|switch|p2a: Lapras|Lapras|358\/463
+|turn|36
+|
+|move|p1a: Cloyster|Clamp|p2a: Lapras
+|-resisted|p2a: Lapras
+|-damage|p2a: Lapras|341\/463
+|-activate|p2a: Lapras|move: Clamp|[of] p1a: Cloyster
+|cant|p2a: Lapras|partiallytrapped
+|
+|turn|37
+|
+|move|p1a: Cloyster|Clamp|p2a: Lapras
+|-damage|p2a: Lapras|324\/463
+|cant|p2a: Lapras|partiallytrapped
+|
+|turn|38
+|
+|switch|p2a: Jolteon|Jolteon|333\/333 slp
+|move|p1a: Cloyster|Clamp|p2a: Jolteon
+|-damage|p2a: Jolteon|300\/333 slp
+|-activate|p2a: Jolteon|move: Clamp|[of] p1a: Cloyster
+|
+|turn|39
+|
+|switch|p1a: Dragonite|Dragonite|385\/385
+|cant|p2a: Jolteon|slp
+|
+|-end|p2a: Jolteon|Clamp|[partiallytrapped]
+|turn|40
+|
+|cant|p2a: Jolteon|slp
+|-curestatus|p2a: Jolteon|slp
+|move|p1a: Dragonite|Ice Beam|p2a: Jolteon
+|-damage|p2a: Jolteon|226\/333
+|
+|turn|41
+|
+|move|p2a: Jolteon|Thunder Wave|p1a: Dragonite
+|-status|p1a: Dragonite|par
+|move|p1a: Dragonite|Thunder Wave|p2a: Jolteon
+|-status|p2a: Jolteon|par
+|
+|turn|42
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Dragonite
+|-damage|p1a: Dragonite|271\/385 par
+|move|p1a: Dragonite|Thunder Wave|p2a: Jolteon
+|-fail|p2a: Jolteon|par
+|
+|turn|43
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-damage|p1a: Dragonite|31\/385 par
+|move|p1a: Dragonite|Hyper Beam|p2a: Jolteon
+|-damage|p2a: Jolteon|25\/333 par
+|
+|turn|44
+|-mustrecharge|p1a: Dragonite
+|-mustrecharge|p1a: Dragonite
+|
+|switch|p2a: Lapras|Lapras|324\/463
+|cant|p1a: Dragonite|recharge
+|
+|turn|45
+|
+|move|p2a: Lapras|Thunderbolt|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|switch|p1a: Cloyster|Cloyster|178\/303
+|turn|46
+|
+|switch|p2a: Jolteon|Jolteon|25\/333 par
+|move|p1a: Cloyster|Explosion|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|faint|p1a: Cloyster
+|
+|switch|p1a: Moltres|Moltres|383\/383
+|switch|p2a: Lapras|Lapras|324\/463
+|turn|47
+|
+|move|p1a: Moltres|Fire Spin|p2a: Lapras|[miss]
+|-miss|p1a: Moltres
+|move|p2a: Lapras|Sing|p1a: Moltres|[miss]
+|-miss|p2a: Lapras
+|
+|turn|48
+|
+|move|p1a: Moltres|Fire Spin|p2a: Lapras|[miss]
+|-miss|p1a: Moltres
+|move|p2a: Lapras|Sing|p1a: Moltres
+|-status|p1a: Moltres|slp
+|
+|turn|49
+|
+|cant|p1a: Moltres|slp
+|-curestatus|p1a: Moltres|slp
+|move|p2a: Lapras|Blizzard|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|139\/383
+|
+|turn|50
+|
+|move|p1a: Moltres|Fire Spin|p2a: Lapras
+|-damage|p2a: Lapras|301\/463
+|-activate|p2a: Lapras|move: Fire Spin|[of] p1a: Moltres
+|cant|p2a: Lapras|partiallytrapped
+|
+|turn|51
+|
+|move|p1a: Moltres|Fire Spin|p2a: Lapras
+|-damage|p2a: Lapras|278\/463
+|cant|p2a: Lapras|partiallytrapped
+|
+|-end|p2a: Lapras|Fire Spin|[partiallytrapped]
+|turn|52
+|
+|move|p1a: Moltres|Fire Spin|p2a: Lapras
+|-damage|p2a: Lapras|256\/463
+|-activate|p2a: Lapras|move: Fire Spin|[of] p1a: Moltres
+|cant|p2a: Lapras|partiallytrapped
+|
+|turn|53
+|
+|move|p1a: Moltres|Fire Spin|p2a: Lapras
+|-damage|p2a: Lapras|234\/463
+|cant|p2a: Lapras|partiallytrapped
+|
+|-end|p2a: Lapras|Fire Spin|[partiallytrapped]
+|turn|54
+|
+|move|p1a: Moltres|Fire Spin|p2a: Lapras
+|-crit|p2a: Lapras
+|-damage|p2a: Lapras|194\/463
+|-activate|p2a: Lapras|move: Fire Spin|[of] p1a: Moltres
+|cant|p2a: Lapras|partiallytrapped
+|
+|turn|55
+|
+|move|p1a: Moltres|Fire Spin|p2a: Lapras
+|-damage|p2a: Lapras|154\/463
+|cant|p2a: Lapras|partiallytrapped
+|
+|turn|56
+|
+|move|p1a: Moltres|Fire Spin|p2a: Lapras
+|-damage|p2a: Lapras|114\/463
+|cant|p2a: Lapras|partiallytrapped
+|
+|-end|p2a: Lapras|Fire Spin|[partiallytrapped]
+|turn|57
+|
+|move|p1a: Moltres|Fire Blast|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|
+|win|charizard reyiz
+|raw|Ladder updating...
+|raw|charizard reyiz's rating: 1152 &rarr; <strong>1184<\/strong><br \/>(+32 for winning)
+|raw|mai na gioia's rating: 1248 &rarr; <strong>1216<\/strong><br \/>(-32 for losing)
+|c|★charizard reyiz|gg
+|c|★mai na gioia|gg??
+|c|★mai na gioia|:||||||
+|c|★charizard reyiz|good game
+|c|★mai na gioia|this was a very bad game
+|c|★charizard reyiz|why
+|leave|mai na gioia
+|player|p2

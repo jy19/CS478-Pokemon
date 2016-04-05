@@ -1,0 +1,310 @@
+﻿|j|ALLIE X
+|j|42BigFish
+|player|p1|ALLIE X|101
+|player|p2|42BigFish|31
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Doduo|Doduo, L96|100\/100
+|switch|p2a: Machop|Machop, L96|100\/100
+|turn|1
+|choice||
+|
+|switch|p2a: Graveler|Graveler, L85|100\/100
+|move|p1a: Doduo|Reflect|p1a: Doduo
+|-start|p1a: Doduo|Reflect
+|
+|turn|2
+|choice||
+|
+|move|p1a: Doduo|Mimic|p2a: Graveler
+|-start|p1a: Doduo|Mimic|Rock Slide
+|move|p2a: Graveler|Rock Slide|p1a: Doduo
+|-supereffective|p1a: Doduo
+|-damage|p1a: Doduo|59\/100
+|
+|turn|3
+|choice||
+|
+|switch|p1a: Hypno|Hypno, L85|100\/100
+|move|p2a: Graveler|Body Slam|p1a: Hypno
+|-damage|p1a: Hypno|79\/100
+|-status|p1a: Hypno|par
+|
+|turn|4
+|choice||
+|
+|switch|p2a: Machop|Machop, L96|100\/100
+|move|p1a: Hypno|Hypnosis|p2a: Machop|[miss]
+|-miss|p1a: Hypno
+|
+|turn|5
+|choice||
+|
+|move|p2a: Machop|Earthquake|p1a: Hypno
+|-damage|p1a: Hypno|48\/100 par
+|cant|p1a: Hypno|par
+|
+|turn|6
+|choice||
+|
+|move|p2a: Machop|Rock Slide|p1a: Hypno
+|-damage|p1a: Hypno|27\/100 par
+|move|p1a: Hypno|Thunder Wave|p2a: Machop
+|-status|p2a: Machop|par
+|
+|turn|7
+|choice||
+|
+|move|p1a: Hypno|Psychic|p2a: Machop
+|-supereffective|p2a: Machop
+|-damage|p2a: Machop|11\/100 par
+|move|p2a: Machop|Earthquake|p1a: Hypno
+|-damage|p1a: Hypno|0 fnt
+|faint|p1a: Hypno
+|choice||
+|
+|switch|p1a: Doduo|Doduo, L96|59\/100
+|turn|8
+|choice||
+|
+|move|p1a: Doduo|Body Slam|p2a: Machop
+|-crit|p2a: Machop
+|-damage|p2a: Machop|0 fnt
+|faint|p2a: Machop
+|choice||
+|
+|switch|p2a: Graveler|Graveler, L85|100\/100
+|turn|9
+|choice||
+|
+|switch|p1a: Rhyhorn|Rhyhorn, L96|100\/100
+|move|p2a: Graveler|Body Slam|p1a: Rhyhorn
+|-resisted|p1a: Rhyhorn
+|-damage|p1a: Rhyhorn|94\/100
+|
+|turn|10
+|choice||
+|
+|switch|p2a: Blastoise|Blastoise, L85|100\/100
+|move|p1a: Rhyhorn|Earthquake|p2a: Blastoise
+|-damage|p2a: Blastoise|62\/100
+|
+|turn|11
+|choice||
+|
+|switch|p1a: Electrode|Electrode, L90|100\/100
+|move|p2a: Blastoise|Surf|p1a: Electrode
+|-damage|p1a: Electrode|66\/100
+|
+|turn|12
+|choice||
+|
+|switch|p2a: Graveler|Graveler, L85|100\/100
+|move|p1a: Electrode|Flash|p2a: Graveler|[miss]
+|-miss|p1a: Electrode
+|
+|turn|13
+|choice||
+|
+|switch|p1a: Charizard|Charizard, L85|100\/100
+|move|p2a: Graveler|Earthquake|p1a: Charizard
+|-immune|p1a: Charizard|[msg]
+|
+|turn|14
+|choice||
+|
+|switch|p1a: Rhyhorn|Rhyhorn, L96|94\/100
+|move|p2a: Graveler|Rock Slide|p1a: Rhyhorn
+|-resisted|p1a: Rhyhorn
+|-damage|p1a: Rhyhorn|85\/100
+|
+|turn|15
+|choice||
+|
+|move|p2a: Graveler|Earthquake|p1a: Rhyhorn
+|-supereffective|p1a: Rhyhorn
+|-damage|p1a: Rhyhorn|34\/100
+|move|p1a: Rhyhorn|Earthquake|p2a: Graveler
+|-supereffective|p2a: Graveler
+|-damage|p2a: Graveler|19\/100
+|
+|turn|16
+|choice||
+|
+|move|p2a: Graveler|Rock Slide|p1a: Rhyhorn
+|-resisted|p1a: Rhyhorn
+|-damage|p1a: Rhyhorn|23\/100
+|move|p1a: Rhyhorn|Earthquake|p2a: Graveler
+|-supereffective|p2a: Graveler
+|-damage|p2a: Graveler|0 fnt
+|faint|p2a: Graveler
+|choice||
+|
+|switch|p2a: Blastoise|Blastoise, L85|62\/100
+|turn|17
+|choice||
+|
+|switch|p1a: Electrode|Electrode, L90|66\/100
+|move|p2a: Blastoise|Surf|p1a: Electrode
+|-damage|p1a: Electrode|34\/100
+|
+|turn|18
+|choice||
+|
+|move|p1a: Electrode|Thunderbolt|p2a: Blastoise
+|-supereffective|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|choice||
+|
+|switch|p2a: Venomoth|Venomoth, L85|100\/100
+|turn|19
+|choice||
+|
+|move|p1a: Electrode|Explosion|p2a: Venomoth
+|-damage|p2a: Venomoth|24\/100
+|faint|p1a: Electrode
+|choice||
+|
+|switch|p1a: Charizard|Charizard, L85|100\/100
+|turn|20
+|choice||
+|
+|move|p1a: Charizard|Earthquake|p2a: Venomoth
+|-damage|p2a: Venomoth|0 fnt
+|faint|p2a: Venomoth
+|choice||
+|
+|switch|p2a: Tauros|Tauros, L79|100\/100
+|turn|21
+|choice||
+|
+|move|p1a: Charizard|Fire Blast|p2a: Tauros|[miss]
+|-miss|p1a: Charizard
+|move|p2a: Tauros|Body Slam|p1a: Charizard
+|-damage|p1a: Charizard|72\/100
+|
+|turn|22
+|choice||
+|
+|move|p1a: Charizard|Fire Blast|p2a: Tauros|[miss]
+|-miss|p1a: Charizard
+|move|p2a: Tauros|Body Slam|p1a: Charizard
+|-damage|p1a: Charizard|43\/100
+|-status|p1a: Charizard|par
+|
+|turn|23
+|choice||
+|
+|switch|p1a: Rhyhorn|Rhyhorn, L96|23\/100
+|move|p2a: Tauros|Hyper Beam|p1a: Rhyhorn
+|-resisted|p1a: Rhyhorn
+|-damage|p1a: Rhyhorn|8\/100
+|
+|turn|24
+|-mustrecharge|p2a: Tauros
+|-mustrecharge|p2a: Tauros
+|choice||
+|
+|cant|p2a: Tauros|recharge
+|move|p1a: Rhyhorn|Earthquake|p2a: Tauros|[miss]
+|-miss|p1a: Rhyhorn
+|
+|turn|25
+|choice||
+|
+|move|p2a: Tauros|Blizzard|p1a: Rhyhorn|[miss]
+|-miss|p2a: Tauros
+|move|p1a: Rhyhorn|Earthquake|p2a: Tauros
+|-damage|p2a: Tauros|58\/100
+|
+|turn|26
+|choice||
+|
+|move|p2a: Tauros|Blizzard|p1a: Rhyhorn
+|-supereffective|p1a: Rhyhorn
+|-damage|p1a: Rhyhorn|0 fnt
+|faint|p1a: Rhyhorn
+|choice||
+|
+|switch|p1a: Venomoth|Venomoth, L85|100\/100
+|turn|27
+|choice||
+|
+|move|p2a: Tauros|Blizzard|p1a: Venomoth
+|-damage|p1a: Venomoth|79\/100
+|move|p1a: Venomoth|Sleep Powder|p2a: Tauros
+|-status|p2a: Tauros|slp
+|
+|turn|28
+|choice||
+|
+|switch|p2a: Ninetales|Ninetales, L85|100\/100
+|move|p1a: Venomoth|Psychic|p2a: Ninetales
+|-damage|p2a: Ninetales|83\/100
+|-unboost|p2a: Ninetales|spd|1
+|-unboost|p2a: Ninetales|spa|1
+|
+|turn|29
+|choice||
+|
+|switch|p1a: Charizard|Charizard, L85|43\/100 par
+|move|p2a: Ninetales|Fire Blast|p1a: Charizard
+|-resisted|p1a: Charizard
+|-damage|p1a: Charizard|30\/100 par
+|
+|turn|30
+|choice||
+|
+|move|p2a: Ninetales|Double-Edge|p1a: Charizard
+|-damage|p1a: Charizard|7\/100 par
+|-damage|p2a: Ninetales|77\/100|[from] recoil|[of] p1a: Charizard
+|move|p1a: Charizard|Earthquake|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|27\/100
+|
+|turn|31
+|choice||
+|
+|move|p2a: Ninetales|Double-Edge|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|-damage|p2a: Ninetales|26\/100|[from] recoil|[of] p1a: Charizard
+|faint|p1a: Charizard
+|choice||
+|
+|switch|p1a: Doduo|Doduo, L96|59\/100
+|turn|32
+|choice||
+|
+|move|p2a: Ninetales|Hyper Beam|p1a: Doduo
+|-damage|p1a: Doduo|17\/100
+|move|p1a: Doduo|Body Slam|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|choice||
+|
+|switch|p2a: Tauros|Tauros, L79|58\/100 slp
+|turn|33
+|choice||
+|
+|cant|p2a: Tauros|slp
+|move|p1a: Doduo|Body Slam|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|win|ALLIE X
+|player|p1
+|player|p2
+|raw|ALLIE X's rating: 1285 &rarr; <strong>1305<\/strong><br \/>(+20 for winning)
+|raw|42BigFish's rating: 1215 &rarr; <strong>1195<\/strong><br \/>(-20 for losing)
+|c|★ALLIE X|gg
+|l|42BigFish

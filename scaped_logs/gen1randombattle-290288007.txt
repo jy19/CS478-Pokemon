@@ -1,0 +1,323 @@
+﻿|join|riwu
+|join|eldougi
+|player|p1|riwu|102
+|player|p2|eldougi|266
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|5391,13999,24317,3521
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Krabby|Krabby, L96|252\/252
+|switch|p2a: Ponyta|Ponyta, L96|291\/291
+|turn|1
+|choice|move 2|switch 4
+|
+|switch|p2a: Chansey|Chansey, L79|557\/557
+|move|p1a: Krabby|Crabhammer|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|440\/557
+|
+|turn|2
+|choice|switch 2|move 2
+|
+|switch|p1a: Tangela|Tangela, L85|284\/284
+|move|p2a: Chansey|Counter|p1a: Tangela
+|-fail|p2a: Chansey
+|
+|turn|3
+|choice|move 3|switch 5
+|
+|switch|p2a: Metapod|Metapod, L99|300\/300
+|move|p1a: Tangela|Sleep Powder|p2a: Metapod
+|-status|p2a: Metapod|slp
+|
+|turn|4
+|choice|move 1|switch 4
+|
+|switch|p2a: Ponyta|Ponyta, L96|291\/291
+|move|p1a: Tangela|Swords Dance|p1a: Tangela
+|-boost|p1a: Tangela|atk|2
+|
+|turn|5
+|choice|switch 2|move 1
+|
+|switch|p1a: Krabby|Krabby, L96|252\/252
+|move|p2a: Ponyta|Toxic|p1a: Krabby
+|-status|p1a: Krabby|tox
+|
+|turn|6
+|choice|move 2|switch 5
+|
+|switch|p2a: Chansey|Chansey, L79|440\/557
+|move|p1a: Krabby|Crabhammer|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|320\/557
+|-damage|p1a: Krabby|237\/252 tox|[from] tox|[of] p2a: Chansey
+|
+|turn|7
+|choice|move 4|move 1
+|
+|move|p1a: Krabby|Swords Dance|p1a: Krabby
+|-boost|p1a: Krabby|atk|2
+|-damage|p1a: Krabby|207\/252 tox|[from] psn
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|557\/557
+|
+|turn|8
+|choice|move 4|move 4
+|
+|move|p1a: Krabby|Swords Dance|p1a: Krabby
+|-boost|p1a: Krabby|atk|2
+|-damage|p1a: Krabby|162\/252 tox|[from] psn
+|move|p2a: Chansey|Thunderbolt|p1a: Krabby
+|-supereffective|p1a: Krabby
+|-damage|p1a: Krabby|0 fnt
+|faint|p1a: Krabby
+|choice|switch 3|
+|
+|switch|p1a: Lickitung|Lickitung, L90|345\/345
+|turn|9
+|choice|move 1|switch 3
+|
+|switch|p2a: Pidgeot|Pidgeot, L90|333\/333
+|move|p1a: Lickitung|Swords Dance|p1a: Lickitung
+|-boost|p1a: Lickitung|atk|2
+|
+|turn|10
+|choice|move 1|move 1
+|
+|move|p2a: Pidgeot|Double-Edge|p1a: Lickitung
+|-damage|p1a: Lickitung|235\/345
+|-damage|p2a: Pidgeot|306\/333|[from] recoil|[of] p1a: Lickitung
+|move|p1a: Lickitung|Swords Dance|p1a: Lickitung
+|-boost|p1a: Lickitung|atk|2
+|
+|turn|11
+|choice|move 2|move 1
+|
+|move|p2a: Pidgeot|Double-Edge|p1a: Lickitung
+|-damage|p1a: Lickitung|119\/345
+|-damage|p2a: Pidgeot|277\/333|[from] recoil|[of] p1a: Lickitung
+|move|p1a: Lickitung|Hyper Beam|p2a: Pidgeot|[miss]
+|-miss|p1a: Lickitung
+|
+|turn|12
+|choice|move 2|move 4
+|
+|move|p2a: Pidgeot|Hyper Beam|p1a: Lickitung
+|-damage|p1a: Lickitung|0 fnt
+|faint|p1a: Lickitung
+|choice|switch 5|
+|
+|switch|p1a: Dewgong|Dewgong, L85|327\/327
+|turn|13
+|choice|move 3|switch 3
+|
+|switch|p2a: Chansey|Chansey, L79|557\/557
+|move|p1a: Dewgong|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|437\/557
+|
+|turn|14
+|choice|switch 4|move 3
+|
+|switch|p1a: Ivysaur|Ivysaur, L85|276\/276
+|move|p2a: Chansey|Thunder Wave|p1a: Ivysaur
+|-status|p1a: Ivysaur|par
+|
+|turn|15
+|choice|move 2|switch 3
+|
+|switch|p2a: Pidgeot|Pidgeot, L90|277\/333
+|move|p1a: Ivysaur|Body Slam|p2a: Pidgeot
+|-damage|p2a: Pidgeot|229\/333
+|
+|turn|16
+|choice|switch 4|move 1
+|
+|switch|p1a: Dewgong|Dewgong, L85|327\/327
+|move|p2a: Pidgeot|Double-Edge|p1a: Dewgong
+|-damage|p1a: Dewgong|205\/327
+|-damage|p2a: Pidgeot|199\/333|[from] recoil|[of] p1a: Dewgong
+|
+|turn|17
+|choice|move 3|switch 3
+|
+|switch|p2a: Chansey|Chansey, L79|437\/557
+|move|p1a: Dewgong|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|309\/557
+|
+|turn|18
+|choice|switch 4|move 4
+|
+|switch|p1a: Ivysaur|Ivysaur, L85|276\/276 par
+|move|p2a: Chansey|Thunderbolt|p1a: Ivysaur
+|-resisted|p1a: Ivysaur
+|-damage|p1a: Ivysaur|244\/276 par
+|
+|turn|19
+|choice|move 2|switch 3
+|
+|switch|p2a: Pidgeot|Pidgeot, L90|199\/333
+|move|p1a: Ivysaur|Body Slam|p2a: Pidgeot
+|-damage|p2a: Pidgeot|150\/333
+|
+|turn|20
+|choice|switch 6|move 1
+|
+|switch|p1a: Machoke|Machoke, L85|310\/310
+|move|p2a: Pidgeot|Double-Edge|p1a: Machoke
+|-damage|p1a: Machoke|181\/310
+|-damage|p2a: Pidgeot|118\/333|[from] recoil|[of] p1a: Machoke
+|
+|turn|21
+|choice|move 1|move 4
+|
+|move|p2a: Pidgeot|Hyper Beam|p1a: Machoke
+|-damage|p1a: Machoke|0 fnt
+|faint|p1a: Machoke
+|choice|switch 4|
+|
+|switch|p1a: Dewgong|Dewgong, L85|205\/327
+|turn|22
+|choice|move 3|move 4
+|
+|move|p2a: Pidgeot|Hyper Beam|p1a: Dewgong
+|-damage|p1a: Dewgong|46\/327
+|move|p1a: Dewgong|Blizzard|p2a: Pidgeot
+|-supereffective|p2a: Pidgeot
+|-damage|p2a: Pidgeot|0 fnt
+|faint|p2a: Pidgeot
+|choice||switch 3
+|
+|switch|p2a: Chansey|Chansey, L79|309\/557
+|turn|23
+|choice|switch 6|move 4
+|
+|switch|p1a: Ivysaur|Ivysaur, L85|244\/276 par
+|move|p2a: Chansey|Thunderbolt|p1a: Ivysaur
+|-resisted|p1a: Ivysaur
+|-damage|p1a: Ivysaur|211\/276 par
+|
+|turn|24
+|choice|move 3|move 1
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|557\/557
+|move|p1a: Ivysaur|Toxic|p2a: Chansey
+|-status|p2a: Chansey|tox
+|
+|turn|25
+|choice|move 1|move 2
+|
+|move|p1a: Ivysaur|Leech Seed|p2a: Chansey
+|-start|p2a: Chansey|move: Leech Seed
+|move|p2a: Chansey|Counter|p1a: Ivysaur
+|-fail|p2a: Chansey
+|-damage|p2a: Chansey|523\/557 tox|[from] tox|[of] p1a: Ivysaur
+|-damage|p2a: Chansey|455\/557 tox|[from] Leech Seed|[of] p1a: Ivysaur
+|-heal|p1a: Ivysaur|276\/276 par|[silent]
+|
+|turn|26
+|choice|move 4|switch 5
+|
+|switch|p2a: Ponyta|Ponyta, L96|291\/291
+|move|p1a: Ivysaur|Swords Dance|p1a: Ivysaur
+|-boost|p1a: Ivysaur|atk|2
+|
+|turn|27
+|choice|move 3|move 2
+|
+|move|p2a: Ponyta|Substitute|p2a: Ponyta
+|-start|p2a: Ponyta|Substitute
+|-damage|p2a: Ponyta|219\/291
+|move|p1a: Ivysaur|Toxic|p2a: Ponyta|[miss]
+|-miss|p1a: Ivysaur
+|
+|turn|28
+|choice|move 2|switch 6
+|
+|switch|p2a: Onix|Onix, L90|246\/246
+|cant|p1a: Ivysaur|par
+|
+|turn|29
+|choice|switch 2|move 3
+|
+|switch|p1a: Tangela|Tangela, L85|284\/284
+|move|p2a: Onix|Explosion|p1a: Tangela
+|-damage|p1a: Tangela|132\/284
+|faint|p2a: Onix
+|choice||switch 2
+|
+|switch|p2a: Psyduck|Psyduck, L96|291\/291
+|turn|30
+|choice|move 4|move 1
+|
+|move|p2a: Psyduck|Amnesia|p2a: Psyduck
+|-boost|p2a: Psyduck|spd|2
+|-boost|p2a: Psyduck|spa|2
+|move|p1a: Tangela|Mega Drain|p2a: Psyduck
+|-supereffective|p2a: Psyduck
+|-damage|p2a: Psyduck|234\/291
+|-heal|p1a: Tangela|160\/284|[from] drain|[of] p2a: Psyduck
+|
+|turn|31
+|choice|move 2|move 1
+|
+|move|p2a: Psyduck|Amnesia|p2a: Psyduck
+|-boost|p2a: Psyduck|spd|2
+|-boost|p2a: Psyduck|spa|2
+|move|p1a: Tangela|Hyper Beam|p2a: Psyduck
+|-crit|p2a: Psyduck
+|-damage|p2a: Psyduck|51\/291
+|
+|turn|32
+|-mustrecharge|p1a: Tangela
+|-mustrecharge|p1a: Tangela
+|choice|move 1|move 1
+|
+|move|p2a: Psyduck|Amnesia|p2a: Psyduck
+|-boost|p2a: Psyduck|spd|2
+|-boost|p2a: Psyduck|spa|2
+|cant|p1a: Tangela|recharge
+|
+|turn|33
+|choice|move 2|move 4
+|
+|move|p2a: Psyduck|Ice Beam|p1a: Tangela
+|-supereffective|p1a: Tangela
+|-damage|p1a: Tangela|0 fnt
+|faint|p1a: Tangela
+|choice|switch 6|
+|
+|switch|p1a: Dewgong|Dewgong, L85|46\/327
+|turn|34
+|choice|move 1|switch 5
+|
+|switch|p2a: Chansey|Chansey, L79|455\/557 tox
+|-status|p2a: Chansey|psn
+|-damage|p2a: Chansey|421\/557 psn|[from] psn
+|move|p1a: Dewgong|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|297\/557 psn
+|
+|turn|35
+|choice|switch 2|move 4
+|
+|switch|p1a: Ivysaur|Ivysaur, L85|276\/276 par
+|move|p2a: Chansey|Thunderbolt|p1a: Ivysaur
+|-resisted|p1a: Ivysaur
+|-damage|p1a: Ivysaur|243\/276 par
+|-damage|p2a: Chansey|263\/557 psn|[from] psn|[of] p1a: Ivysaur
+|
+|turn|36
+|leave|eldougi
+|player|p2
+|-message|eldougi lost due to inactivity.
+|
+|win|riwu
+|raw|riwu's rating: 1283 &rarr; <strong>1314<\/strong><br \/>(+31 for winning)
+|raw|eldougi's rating: 1372 &rarr; <strong>1347<\/strong><br \/>(-25 for losing)

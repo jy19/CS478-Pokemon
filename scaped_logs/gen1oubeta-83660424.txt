@@ -1,0 +1,269 @@
+﻿|join|Dranbakim17
+|join|Shax
+|player|p1|Dranbakim17|40
+|player|p2|Shax|153
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Starmie|Starmie|323\/323
+|turn|1
+|callback|decision
+|
+|switch|p1a: Dewgong|Dewgong|383\/383
+|switch|p2a: Chansey|Chansey|703\/703
+|
+|turn|2
+|callback|decision
+|
+|move|p1a: Dewgong|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|568\/703
+|-status|p2a: Chansey|par
+|move|p2a: Chansey|Thunderbolt|p1a: Dewgong
+|-supereffective|p1a: Dewgong
+|-damage|p1a: Dewgong|218\/383
+|
+|turn|3
+|callback|decision
+|
+|move|p1a: Dewgong|Mimic|p2a: Chansey
+|-start|p1a: Dewgong|Mimic|Thunder Wave
+|move|p2a: Chansey|Thunderbolt|p1a: Dewgong
+|-supereffective|p1a: Dewgong
+|-damage|p1a: Dewgong|64\/383
+|
+|turn|4
+|callback|decision
+|
+|switch|p1a: Sandslash|Sandslash|353\/353
+|cant|p2a: Chansey|par
+|
+|turn|5
+|callback|decision
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Sandslash|Earthquake|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|263\/393
+|
+|turn|6
+|callback|decision
+|
+|switch|p1a: Dewgong|Dewgong|64\/383
+|move|p2a: Exeggutor|Psychic|p1a: Dewgong
+|-damage|p1a: Dewgong|0 fnt
+|faint|p1a: Dewgong
+|
+|callback|decision
+|
+|switch|p1a: Aerodactyl|Aerodactyl|363\/363
+|turn|7
+|callback|decision
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Aerodactyl|Sky Attack|p2a: Snorlax|[still]
+|-prepare|p1a: Aerodactyl|Sky Attack|p2a: Snorlax
+|
+|turn|8
+|callback|decision
+|
+|move|p1a: Aerodactyl|Sky Attack|p2a: Snorlax
+|-damage|p2a: Snorlax|288\/523
+|move|p2a: Snorlax|Body Slam|p1a: Aerodactyl
+|-resisted|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|296\/363
+|
+|turn|9
+|callback|decision
+|
+|move|p1a: Aerodactyl|Double-Edge|p2a: Snorlax
+|-damage|p2a: Snorlax|178\/523
+|-damage|p1a: Aerodactyl|268\/363|[from] recoil|[of] p2a: Snorlax
+|move|p2a: Snorlax|Self-Destruct|p1a: Aerodactyl
+|-resisted|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|67\/363
+|faint|p2a: Snorlax
+|callback|decision
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|turn|10
+|callback|decision
+|
+|move|p1a: Aerodactyl|Hyper Beam|p2a: Starmie
+|-damage|p2a: Starmie|199\/323
+|move|p2a: Starmie|Blizzard|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|0 fnt
+|faint|p1a: Aerodactyl
+|
+|callback|decision
+|
+|switch|p1a: Zapdos|Zapdos|383\/383
+|turn|11
+|callback|decision
+|
+|switch|p2a: Alakazam|Alakazam|313\/313
+|move|p1a: Zapdos|Drill Peck|p2a: Alakazam
+|-damage|p2a: Alakazam|178\/313
+|
+|turn|12
+|callback|decision
+|
+|move|p2a: Alakazam|Reflect|p2a: Alakazam
+|move|p1a: Zapdos|Thunder Wave|p2a: Alakazam
+|-status|p2a: Alakazam|par
+|
+|turn|13
+|callback|decision
+|
+|switch|p1a: Victreebel|Victreebel|363\/363
+|cant|p2a: Alakazam|par
+|
+|turn|14
+|callback|decision
+|
+|move|p1a: Victreebel|Swords Dance|p1a: Victreebel
+|-boost|p1a: Victreebel|atk|2
+|move|p2a: Alakazam|Psychic|p1a: Victreebel
+|-supereffective|p1a: Victreebel
+|-damage|p1a: Victreebel|116\/363
+|
+|turn|15
+|callback|decision
+|
+|move|p1a: Victreebel|Hyper Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|callback|decision
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|16
+|callback|decision
+|
+|move|p2a: Tauros|Earthquake|p1a: Victreebel
+|-damage|p1a: Victreebel|17\/363
+|move|p1a: Victreebel|Hyper Beam|p2a: Tauros
+|-damage|p2a: Tauros|85\/353
+|
+|turn|17
+|callback|decision
+|
+|move|p2a: Tauros|Body Slam|p1a: Victreebel
+|-crit|p1a: Victreebel
+|-damage|p1a: Victreebel|0 fnt
+|faint|p1a: Victreebel
+|
+|callback|decision
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|turn|18
+|callback|decision
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|callback|decision
+|
+|switch|p2a: Exeggutor|Exeggutor|263\/393
+|turn|19
+|callback|decision
+|
+|switch|p1a: Sandslash|Sandslash|353\/353
+|move|p2a: Exeggutor|Explosion|p1a: Sandslash
+|-damage|p1a: Sandslash|122\/353
+|faint|p2a: Exeggutor
+|callback|decision
+|
+|switch|p2a: Starmie|Starmie|199\/323
+|turn|20
+|callback|decision
+|
+|move|p2a: Starmie|Blizzard|p1a: Sandslash|[miss]
+|-miss|p2a: Starmie
+|move|p1a: Sandslash|Earthquake|p2a: Starmie
+|-damage|p2a: Starmie|63\/323
+|
+|turn|21
+|callback|decision
+|
+|move|p2a: Starmie|Blizzard|p1a: Sandslash
+|-crit|p1a: Sandslash
+|-supereffective|p1a: Sandslash
+|-damage|p1a: Sandslash|0 fnt
+|faint|p1a: Sandslash
+|
+|callback|decision
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|turn|22
+|callback|decision
+|
+|switch|p2a: Chansey|Chansey|568\/703 par
+|move|p1a: Alakazam|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|468\/703 par
+|
+|turn|23
+|callback|decision
+|
+|switch|p1a: Zapdos|Zapdos|383\/383
+|move|p2a: Chansey|Ice Beam|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|261\/383
+|
+|turn|24
+|callback|decision
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Chansey
+|-damage|p2a: Chansey|247\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|25
+|callback|decision
+|join|MichaelCarrick
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Chansey
+|-damage|p2a: Chansey|23\/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|374\/703 par
+|
+|turn|26
+|callback|decision
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|callback|decision
+|leave|MichaelCarrick
+|
+|switch|p2a: Starmie|Starmie|63\/323
+|turn|27
+|callback|decision
+|
+|move|p2a: Starmie|Blizzard|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|103\/383
+|move|p1a: Zapdos|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|win|Dranbakim17
+|raw|Ladder updating...
+|chat|Dranbakim17|gg
+|leave|Shax
+|player|p2

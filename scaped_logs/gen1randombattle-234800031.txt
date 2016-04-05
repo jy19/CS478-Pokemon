@@ -1,0 +1,238 @@
+﻿|join|amaniania
+|join|Eoep
+|player|p1|amaniania|112
+|player|p2|Eoep|290
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Raticate|Raticate, L85|267\/267
+|switch|p2a: Pidgeot|Pidgeot, L85|315\/315
+|turn|1
+|
+|move|p1a: Raticate|Super Fang|p2a: Pidgeot|[miss]
+|-miss|p1a: Raticate
+|move|p2a: Pidgeot|Sky Attack|p1a: Raticate|[still]
+|-prepare|p2a: Pidgeot|Sky Attack|p1a: Raticate
+|
+|turn|2
+|
+|move|p1a: Raticate|Super Fang|p2a: Pidgeot
+|-damage|p2a: Pidgeot|158\/315
+|move|p2a: Pidgeot|Sky Attack|p1a: Raticate
+|-damage|p1a: Raticate|101\/267
+|
+|turn|3
+|
+|move|p1a: Raticate|Hyper Beam|p2a: Pidgeot
+|-damage|p2a: Pidgeot|0 fnt
+|faint|p2a: Pidgeot
+|
+|switch|p2a: Alakazam|Alakazam, L79|249\/249
+|turn|4
+|
+|move|p2a: Alakazam|Psychic|p1a: Raticate
+|-damage|p1a: Raticate|0 fnt
+|faint|p1a: Raticate
+|
+|switch|p1a: Lickitung|Lickitung, L85|327\/327
+|turn|5
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Lickitung
+|-status|p1a: Lickitung|par
+|cant|p1a: Lickitung|par
+|
+|turn|6
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Lickitung
+|-damage|p1a: Lickitung|248\/327 par
+|cant|p1a: Lickitung|par
+|
+|turn|7
+|
+|move|p2a: Alakazam|Psychic|p1a: Lickitung
+|-damage|p1a: Lickitung|126\/327 par
+|-unboost|p1a: Lickitung|spd|1
+|-unboost|p1a: Lickitung|spa|1
+|cant|p1a: Lickitung|par
+|
+|turn|8
+|c|★amaniania|reaaaaaaaaaaaaaaaaaalllly
+|
+|move|p2a: Alakazam|Psychic|p1a: Lickitung
+|-damage|p1a: Lickitung|0 fnt
+|faint|p1a: Lickitung
+|
+|switch|p1a: Mewtwo|Mewtwo, L70|293\/293
+|turn|9
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Mewtwo
+|-status|p1a: Mewtwo|par
+|move|p1a: Mewtwo|Thunderbolt|p2a: Alakazam
+|-damage|p2a: Alakazam|198\/249
+|
+|turn|10
+|
+|move|p2a: Alakazam|Psychic|p1a: Mewtwo
+|-resisted|p1a: Mewtwo
+|-damage|p1a: Mewtwo|249\/293 par
+|-unboost|p1a: Mewtwo|spd|1
+|-unboost|p1a: Mewtwo|spa|1
+|move|p1a: Mewtwo|Thunderbolt|p2a: Alakazam
+|-damage|p2a: Alakazam|161\/249
+|
+|turn|11
+|
+|switch|p1a: Dragonair|Dragonair, L85|277\/277
+|move|p2a: Alakazam|Seismic Toss|p1a: Dragonair
+|-damage|p1a: Dragonair|198\/277
+|
+|turn|12
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Dragonair
+|-status|p1a: Dragonair|par
+|move|p1a: Dragonair|Blizzard|p2a: Alakazam
+|-damage|p2a: Alakazam|104\/249
+|
+|turn|13
+|
+|move|p2a: Alakazam|Psychic|p1a: Dragonair
+|-damage|p1a: Dragonair|85\/277 par
+|-unboost|p1a: Dragonair|spd|1
+|-unboost|p1a: Dragonair|spa|1
+|move|p1a: Dragonair|Hyper Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|switch|p2a: Caterpie|Caterpie, L99|290\/290
+|turn|14
+|
+|move|p2a: Caterpie|Tackle|p1a: Dragonair
+|-damage|p1a: Dragonair|62\/277 par
+|move|p1a: Dragonair|Blizzard|p2a: Caterpie
+|-damage|p2a: Caterpie|210\/290
+|
+|turn|15
+|
+|move|p2a: Caterpie|String Shot|p1a: Dragonair
+|-unboost|p1a: Dragonair|spe|1
+|move|p1a: Dragonair|Blizzard|p2a: Caterpie
+|-crit|p2a: Caterpie
+|-damage|p2a: Caterpie|0 fnt
+|faint|p2a: Caterpie
+|
+|switch|p2a: Slowbro|Slowbro, L79|312\/312
+|turn|16
+|
+|switch|p1a: Mewtwo|Mewtwo, L70|249\/293 par
+|move|p2a: Slowbro|Surf|p1a: Mewtwo
+|-damage|p1a: Mewtwo|184\/293 par
+|
+|turn|17
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|move|p1a: Mewtwo|Recover|p1a: Mewtwo
+|-heal|p1a: Mewtwo|293\/293 par
+|
+|turn|18
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|move|p1a: Mewtwo|Thunderbolt|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|10\/312
+|
+|turn|19
+|
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|-heal|p2a: Slowbro|312\/312 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|move|p1a: Mewtwo|Thunderbolt|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|236\/312 slp
+|
+|turn|20
+|
+|cant|p2a: Slowbro|slp
+|cant|p1a: Mewtwo|par
+|
+|turn|21
+|
+|cant|p2a: Slowbro|slp
+|-curestatus|p2a: Slowbro|slp
+|move|p1a: Mewtwo|Thunderbolt|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|
+|switch|p2a: Articuno|Articuno, L79|304\/304
+|turn|22
+|
+|move|p2a: Articuno|Blizzard|p1a: Mewtwo
+|-crit|p1a: Mewtwo
+|-damage|p1a: Mewtwo|89\/293 par
+|cant|p1a: Mewtwo|par
+|
+|turn|23
+|
+|move|p2a: Articuno|Ice Beam|p1a: Mewtwo
+|-damage|p1a: Mewtwo|0 fnt
+|faint|p1a: Mewtwo
+|
+|switch|p1a: Hitmonlee|Hitmonlee, L85|259\/259
+|turn|24
+|
+|move|p1a: Hitmonlee|Body Slam|p2a: Articuno
+|-damage|p2a: Articuno|232\/304
+|-status|p2a: Articuno|par
+|move|p2a: Articuno|Blizzard|p1a: Hitmonlee
+|-crit|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|0 fnt
+|faint|p1a: Hitmonlee
+|
+|switch|p1a: Venusaur|Venusaur, L85|310\/310
+|turn|25
+|
+|move|p1a: Venusaur|Leech Seed|p2a: Articuno
+|-start|p2a: Articuno|move: Leech Seed
+|move|p2a: Articuno|Blizzard|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|64\/310
+|-damage|p2a: Articuno|213\/304 par|[from] Leech Seed|[of] p1a: Venusaur
+|-heal|p1a: Venusaur|83\/310|[silent]
+|
+|turn|26
+|
+|move|p1a: Venusaur|Swords Dance|p1a: Venusaur
+|-boost|p1a: Venusaur|atk|2
+|cant|p2a: Articuno|par
+|-damage|p2a: Articuno|194\/304 par|[from] Leech Seed|[of] p1a: Venusaur
+|-heal|p1a: Venusaur|102\/310|[silent]
+|
+|turn|27
+|
+|move|p1a: Venusaur|Body Slam|p2a: Articuno
+|-damage|p2a: Articuno|89\/304 par
+|move|p2a: Articuno|Ice Beam|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|-message|amaniania forfeited.
+|leave|amaniania
+|
+|win|Eoep
+|raw|Ladder updating...
+|player|p1
+|raw|amaniania's rating: 1261 &rarr; <strong>1225<\/strong><br \/>(-36 for losing)
+|raw|Eoep's rating: 1094 &rarr; <strong>1132<\/strong><br \/>(+38 for winning)

@@ -1,0 +1,831 @@
+﻿|j|Whoremaster
+|j|Ch01W0n5h1n
+|player|p1|Whoremaster|43
+|player|p2|Ch01W0n5h1n|165
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|seed|3517,50410,40019,5078
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Hungry|Alakazam|313\/313
+|turn|1
+|choice|switch 3|switch 3
+|
+|switch|p2a: Chance E|Chansey|703\/703
+|switch|p1a: Chansey|Chansey|703\/703
+|
+|turn|2
+|c|★Whoremaster|hi
+|c|★Ch01W0n5h1n|hi
+|choice|switch 2|switch 2
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|switch|p2a: Cut.Exe|Exeggutor|393\/393
+|
+|turn|3
+|c|★Whoremaster|lol
+|choice|move 1|switch 3
+|
+|switch|p2a: Hungry|Alakazam|313\/313
+|move|p1a: Exeggutor|Sleep Powder|p2a: Hungry
+|-status|p2a: Hungry|slp
+|
+|turn|4
+|choice|move 2|switch 3
+|
+|switch|p2a: Cut.Exe|Exeggutor|393\/393
+|move|p1a: Exeggutor|Stun Spore|p2a: Cut.Exe
+|-status|p2a: Cut.Exe|par
+|
+|turn|5
+|choice|switch 3|move 1
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|move|p2a: Cut.Exe|Sleep Powder|p1a: Alakazam
+|-status|p1a: Alakazam|slp
+|
+|turn|6
+|choice|switch 2|move 2
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Cut.Exe|Double-Edge|p1a: Chansey
+|-damage|p1a: Chansey|501\/703
+|-damage|p2a: Cut.Exe|343\/393 par|[from] recoil|[of] p1a: Chansey
+|
+|turn|7
+|choice|move 1|switch 2
+|
+|switch|p2a: Chance E|Chansey|703\/703
+|move|p1a: Chansey|Ice Beam|p2a: Chance E
+|-damage|p2a: Chance E|626\/703
+|
+|turn|8
+|choice|move 3|move 1
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Chance E
+|-status|p2a: Chance E|par
+|move|p2a: Chance E|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|432\/703
+|
+|turn|9
+|choice|switch 4|move 1
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: Chance E|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|416\/523
+|
+|turn|10
+|choice|move 2|switch 4
+|
+|switch|p2a: Mega Gastly|Cloyster|303\/303
+|move|p1a: Snorlax|Headbutt|p2a: Mega Gastly
+|-damage|p2a: Mega Gastly|243\/303
+|
+|turn|11
+|choice|switch 4|move 3
+|
+|switch|p1a: Chansey|Chansey|432\/703
+|move|p2a: Mega Gastly|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|300\/703
+|
+|turn|12
+|choice|move 4|move 1
+|
+|move|p2a: Mega Gastly|Clamp|p1a: Chansey
+|-damage|p1a: Chansey|262\/703
+|-activate|p1a: Chansey|move: Clamp|[of] p2a: Mega Gastly
+|cant|p1a: Chansey|partiallytrapped
+|
+|turn|13
+|choice|switch 2|switch 5
+|
+|switch|p2a: Energy|Tauros|353\/353
+|switch|p1a: Alakazam|Alakazam|313\/313 slp
+|
+|turn|14
+|choice|switch 3|move 1
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Energy|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|276\/393
+|
+|turn|15
+|choice|move 2|switch 2
+|
+|switch|p2a: Cut.Exe|Exeggutor|343\/393 par
+|move|p1a: Exeggutor|Stun Spore|p2a: Cut.Exe
+|-fail|p2a: Cut.Exe|par
+|
+|turn|16
+|choice|move 3|move 2
+|
+|move|p1a: Exeggutor|Psychic|p2a: Cut.Exe
+|-resisted|p2a: Cut.Exe
+|-damage|p2a: Cut.Exe|287\/393 par
+|move|p2a: Cut.Exe|Double-Edge|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-damage|p1a: Exeggutor|117\/393
+|-damage|p2a: Cut.Exe|248\/393 par|[from] recoil|[of] p1a: Exeggutor
+|
+|turn|17
+|choice|move 3|switch 5
+|
+|switch|p2a: Mega Gastly|Cloyster|243\/303
+|move|p1a: Exeggutor|Psychic|p2a: Mega Gastly
+|-damage|p2a: Mega Gastly|99\/303
+|
+|turn|18
+|choice|move 3|move 3
+|
+|move|p2a: Mega Gastly|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|choice|switch 6|
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|19
+|choice|move 3|switch 6
+|
+|switch|p2a: Gorelax|Snorlax|523\/523
+|move|p1a: Tauros|Hyper Beam|p2a: Gorelax
+|-crit|p2a: Gorelax
+|-damage|p2a: Gorelax|65\/523
+|
+|turn|20
+|-mustrecharge|p1a: Tauros
+|-mustrecharge|p1a: Tauros
+|j|trueWario
+|choice|move 1|switch 2
+|
+|switch|p2a: Energy|Tauros|353\/353
+|cant|p1a: Tauros|recharge
+|
+|turn|21
+|choice|move 1|move 1
+|
+|move|p1a: Tauros|Body Slam|p2a: Energy
+|-damage|p2a: Energy|251\/353
+|move|p2a: Energy|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|250\/353
+|
+|turn|22
+|choice|move 1|move 1
+|
+|move|p1a: Tauros|Body Slam|p2a: Energy
+|-crit|p2a: Energy
+|-damage|p2a: Energy|44\/353
+|move|p2a: Energy|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|146\/353
+|
+|turn|23
+|choice|move 1|move 2
+|
+|move|p1a: Tauros|Body Slam|p2a: Energy
+|-damage|p2a: Energy|0 fnt
+|faint|p2a: Energy
+|choice||switch 6
+|
+|switch|p2a: Mega Gastly|Cloyster|99\/303
+|turn|24
+|l|trueWario
+|choice|move 3|switch 4
+|
+|switch|p2a: Chance E|Chansey|626\/703 par
+|move|p1a: Tauros|Hyper Beam|p2a: Chance E|[miss]
+|-miss|p1a: Tauros
+|
+|turn|25
+|choice|switch 4|move 2
+|
+|switch|p1a: Snorlax|Snorlax|416\/523
+|cant|p2a: Chance E|par
+|
+|turn|26
+|choice|move 2|switch 4
+|
+|switch|p2a: Mega Gastly|Cloyster|99\/303
+|move|p1a: Snorlax|Headbutt|p2a: Mega Gastly
+|-damage|p2a: Mega Gastly|41\/303
+|
+|turn|27
+|choice|switch 2|move 4
+|
+|switch|p1a: Chansey|Chansey|262\/703
+|move|p2a: Mega Gastly|Rest|p2a: Mega Gastly
+|-status|p2a: Mega Gastly|slp
+|-heal|p2a: Mega Gastly|303\/303 slp|[silent]
+|-status|p2a: Mega Gastly|slp|[from] move: Rest
+|
+|turn|28
+|choice|move 1|switch 4
+|
+|switch|p2a: Chance E|Chansey|626\/703 par
+|move|p1a: Chansey|Ice Beam|p2a: Chance E
+|-damage|p2a: Chance E|546\/703 par
+|
+|turn|29
+|choice|move 4|move 4
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|613\/703
+|move|p2a: Chance E|Soft-Boiled|p2a: Chance E
+|-heal|p2a: Chance E|703\/703 par
+|
+|turn|30
+|choice|switch 2|switch 3
+|
+|switch|p1a: Snorlax|Snorlax|416\/523
+|switch|p2a: Hungry|Alakazam|313\/313 slp
+|
+|turn|31
+|choice|move 1|move 2
+|
+|cant|p2a: Hungry|slp
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|
+|turn|32
+|choice|move 2|move 2
+|
+|-curestatus|p2a: Hungry|slp
+|move|p1a: Snorlax|Headbutt|p2a: Hungry
+|-damage|p2a: Hungry|167\/313
+|
+|turn|33
+|choice|move 2|move 1
+|
+|move|p2a: Hungry|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|move|p1a: Snorlax|Headbutt|p2a: Hungry
+|-damage|p2a: Hungry|22\/313
+|
+|turn|34
+|choice|move 3|move 4
+|
+|move|p2a: Hungry|Recover|p2a: Hungry
+|-heal|p2a: Hungry|178\/313
+|move|p1a: Snorlax|Blizzard|p2a: Hungry
+|-damage|p2a: Hungry|69\/313
+|-status|p2a: Hungry|frz
+|
+|turn|35
+|choice|move 1|switch 4
+|
+|switch|p2a: Mega Gastly|Cloyster|303\/303 slp
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|
+|turn|36
+|choice|move 2|move 3
+|
+|cant|p2a: Mega Gastly|slp
+|cant|p1a: Snorlax|par
+|
+|turn|37
+|choice|switch 2|move 3
+|
+|switch|p1a: Chansey|Chansey|613\/703
+|-curestatus|p2a: Mega Gastly|slp
+|
+|turn|38
+|choice|move 2|switch 3
+|
+|switch|p2a: Chance E|Chansey|703\/703 par
+|move|p1a: Chansey|Thunderbolt|p2a: Chance E
+|-crit|p2a: Chance E
+|-damage|p2a: Chance E|556\/703 par
+|
+|turn|39
+|choice|switch 2|move 4
+|
+|switch|p1a: Snorlax|Snorlax|416\/523 par
+|move|p2a: Chance E|Soft-Boiled|p2a: Chance E
+|-heal|p2a: Chance E|703\/703 par
+|
+|turn|40
+|choice|switch 2|switch 2
+|
+|switch|p2a: Gorelax|Snorlax|65\/523
+|switch|p1a: Chansey|Chansey|613\/703
+|
+|turn|41
+|choice|move 1|switch 2
+|
+|switch|p2a: Chance E|Chansey|703\/703 par
+|move|p1a: Chansey|Ice Beam|p2a: Chance E
+|-damage|p2a: Chance E|629\/703 par
+|
+|turn|42
+|choice|switch 2|move 1
+|
+|switch|p1a: Snorlax|Snorlax|416\/523 par
+|cant|p2a: Chance E|par
+|
+|turn|43
+|choice|move 2|switch 3
+|
+|switch|p2a: Mega Gastly|Cloyster|303\/303
+|move|p1a: Snorlax|Headbutt|p2a: Mega Gastly
+|-damage|p2a: Mega Gastly|244\/303
+|
+|turn|44
+|choice|switch 2|move 3
+|
+|switch|p1a: Chansey|Chansey|613\/703
+|move|p2a: Mega Gastly|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|487\/703
+|
+|turn|45
+|choice|move 3|switch 3
+|
+|switch|p2a: Chance E|Chansey|629\/703 par
+|move|p1a: Chansey|Thunder Wave|p2a: Chance E
+|-fail|p2a: Chance E|par
+|
+|turn|46
+|choice|switch 5|move 1
+|
+|switch|p1a: Golem|Golem|363\/363
+|move|p2a: Chance E|Ice Beam|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|141\/363
+|
+|turn|47
+|choice|move 2|switch 3
+|
+|switch|p2a: Mega Gastly|Cloyster|244\/303
+|move|p1a: Golem|Earthquake|p2a: Mega Gastly
+|-damage|p2a: Mega Gastly|157\/303
+|
+|turn|48
+|choice|switch 5|move 1
+|
+|switch|p1a: Chansey|Chansey|487\/703
+|move|p2a: Mega Gastly|Clamp|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|419\/703
+|-activate|p1a: Chansey|move: Clamp|[of] p2a: Mega Gastly
+|
+|turn|49
+|choice|move 2|move 1
+|
+|move|p2a: Mega Gastly|Clamp|p1a: Chansey|[from]Clamp
+|-damage|p1a: Chansey|351\/703
+|cant|p1a: Chansey|partiallytrapped
+|
+|turn|50
+|choice|move 4|move 1
+|
+|move|p2a: Mega Gastly|Clamp|p1a: Chansey|[from]Clamp
+|-damage|p1a: Chansey|283\/703
+|cant|p1a: Chansey|partiallytrapped
+|
+|-end|p1a: Chansey|Clamp|[partiallytrapped]
+|turn|51
+|choice|move 4|move 1
+|
+|move|p2a: Mega Gastly|Clamp|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|215\/703
+|-activate|p1a: Chansey|move: Clamp|[of] p2a: Mega Gastly
+|cant|p1a: Chansey|partiallytrapped
+|
+|turn|52
+|choice|move 3|move 1
+|
+|move|p2a: Mega Gastly|Clamp|p1a: Chansey|[from]Clamp
+|-damage|p1a: Chansey|147\/703
+|cant|p1a: Chansey|partiallytrapped
+|
+|turn|53
+|choice|move 3|move 1
+|
+|move|p2a: Mega Gastly|Clamp|p1a: Chansey|[from]Clamp
+|-damage|p1a: Chansey|79\/703
+|cant|p1a: Chansey|partiallytrapped
+|
+|turn|54
+|choice|switch 2|move 1
+|
+|switch|p1a: Snorlax|Snorlax|416\/523 par
+|move|p2a: Mega Gastly|Clamp|p1a: Snorlax
+|-damage|p1a: Snorlax|364\/523 par
+|-activate|p1a: Snorlax|move: Clamp|[of] p2a: Mega Gastly
+|
+|turn|55
+|choice|move 2|move 1
+|
+|move|p2a: Mega Gastly|Clamp|p1a: Snorlax|[from]Clamp
+|-damage|p1a: Snorlax|312\/523 par
+|cant|p1a: Snorlax|partiallytrapped
+|
+|-end|p1a: Snorlax|Clamp|[partiallytrapped]
+|turn|56
+|choice|switch 3|move 1
+|
+|switch|p1a: Alakazam|Alakazam|313\/313 slp
+|move|p2a: Mega Gastly|Clamp|p1a: Alakazam
+|-damage|p1a: Alakazam|283\/313 slp
+|-activate|p1a: Alakazam|move: Clamp|[of] p2a: Mega Gastly
+|
+|turn|57
+|choice|switch 2|switch 5
+|
+|switch|p1a: Chansey|Chansey|79\/703
+|switch|p2a: Cut.Exe|Exeggutor|248\/393 par
+|
+|turn|58
+|choice|move 1|move 2
+|
+|move|p1a: Chansey|Ice Beam|p2a: Cut.Exe
+|-crit|p2a: Cut.Exe
+|-supereffective|p2a: Cut.Exe
+|-damage|p2a: Cut.Exe|11\/393 par
+|cant|p2a: Cut.Exe|par
+|
+|turn|59
+|choice|move 1|switch 5
+|
+|switch|p2a: Mega Gastly|Cloyster|157\/303
+|move|p1a: Chansey|Ice Beam|p2a: Mega Gastly
+|-resisted|p2a: Mega Gastly
+|-damage|p2a: Mega Gastly|136\/303
+|
+|turn|60
+|choice|move 3|move 3
+|
+|move|p2a: Mega Gastly|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|choice|switch 4|
+|
+|switch|p1a: Tauros|Tauros|146\/353
+|turn|61
+|choice|move 1|switch 4
+|
+|switch|p2a: Hungry|Alakazam|69\/313 frz
+|move|p1a: Tauros|Body Slam|p2a: Hungry
+|-damage|p2a: Hungry|0 fnt
+|faint|p2a: Hungry
+|choice||switch 3
+|
+|switch|p2a: Chance E|Chansey|629\/703 par
+|turn|62
+|choice|switch 3|move 1
+|
+|switch|p1a: Snorlax|Snorlax|312\/523 par
+|move|p2a: Chance E|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|206\/523 par
+|
+|turn|63
+|choice|move 4|switch 5
+|
+|switch|p2a: Cut.Exe|Exeggutor|11\/393 par
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp
+|-heal|p1a: Snorlax|523\/523 slp|[silent]
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|
+|turn|64
+|choice|switch 2|move 4
+|
+|switch|p1a: Alakazam|Alakazam|283\/313 slp
+|move|p2a: Cut.Exe|Rest|p2a: Cut.Exe
+|-status|p2a: Cut.Exe|slp
+|-heal|p2a: Cut.Exe|393\/393 slp|[silent]
+|-status|p2a: Cut.Exe|slp|[from] move: Rest
+|
+|turn|65
+|choice|switch 3|move 2
+|
+|switch|p1a: Tauros|Tauros|146\/353
+|cant|p2a: Cut.Exe|slp
+|
+|turn|66
+|choice|move 1|move 2
+|
+|move|p1a: Tauros|Body Slam|p2a: Cut.Exe
+|-crit|p2a: Cut.Exe
+|-damage|p2a: Cut.Exe|171\/393 slp
+|-curestatus|p2a: Cut.Exe|slp
+|
+|turn|67
+|choice|move 3|move 3
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Cut.Exe
+|-crit|p2a: Cut.Exe
+|-damage|p2a: Cut.Exe|0 fnt
+|faint|p2a: Cut.Exe
+|choice||switch 5
+|
+|switch|p2a: Chance E|Chansey|629\/703 par
+|turn|68
+|choice|move 1|move 2
+|
+|move|p1a: Tauros|Body Slam|p2a: Chance E
+|-damage|p2a: Chance E|360\/703 par
+|move|p2a: Chance E|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|
+|turn|69
+|choice|move 3|switch 2
+|
+|switch|p2a: Gorelax|Snorlax|65\/523
+|cant|p1a: Tauros|par
+|
+|turn|70
+|choice|move 1|move 3
+|
+|move|p2a: Gorelax|Rest|p2a: Gorelax
+|-status|p2a: Gorelax|slp
+|-heal|p2a: Gorelax|523\/523 slp|[silent]
+|-status|p2a: Gorelax|slp|[from] move: Rest
+|move|p1a: Tauros|Body Slam|p2a: Gorelax
+|-damage|p2a: Gorelax|396\/523 slp
+|
+|turn|71
+|choice|switch 5|move 2
+|
+|switch|p1a: Golem|Golem|141\/363
+|cant|p2a: Gorelax|slp
+|
+|turn|72
+|choice|move 3|move 2
+|
+|move|p1a: Golem|Rock Slide|p2a: Gorelax|[miss]
+|-miss|p1a: Golem
+|-curestatus|p2a: Gorelax|slp
+|
+|turn|73
+|choice|move 4|move 2
+|
+|move|p1a: Golem|Explosion|p2a: Gorelax
+|-damage|p2a: Gorelax|26\/523
+|faint|p1a: Golem
+|c|★Whoremaster|grr
+|choice|switch 5|
+|
+|switch|p1a: Tauros|Tauros|146\/353 par
+|turn|74
+|choice|move 1|move 2
+|
+|move|p2a: Gorelax|Ice Beam|p1a: Tauros
+|-damage|p1a: Tauros|73\/353 par
+|move|p1a: Tauros|Body Slam|p2a: Gorelax
+|-damage|p2a: Gorelax|0 fnt
+|faint|p2a: Gorelax
+|choice||switch 4
+|
+|switch|p2a: Mega Gastly|Cloyster|136\/303
+|turn|75
+|choice|switch 3|move 3
+|
+|switch|p1a: Alakazam|Alakazam|283\/313 slp
+|move|p2a: Mega Gastly|Blizzard|p1a: Alakazam|[miss]
+|-miss|p2a: Mega Gastly
+|
+|turn|76
+|choice|move 4|switch 2
+|
+|switch|p2a: Chance E|Chansey|360\/703 par
+|cant|p1a: Alakazam|slp
+|
+|turn|77
+|choice|move 4|move 4
+|
+|cant|p1a: Alakazam|slp
+|move|p2a: Chance E|Soft-Boiled|p2a: Chance E
+|-heal|p2a: Chance E|703\/703 par
+|
+|turn|78
+|choice|move 4|move 1
+|
+|cant|p1a: Alakazam|slp
+|cant|p2a: Chance E|par
+|
+|turn|79
+|choice|move 4|move 1
+|
+|cant|p1a: Alakazam|slp
+|cant|p2a: Chance E|par
+|
+|turn|80
+|choice|move 4|move 1
+|
+|-curestatus|p1a: Alakazam|slp
+|move|p2a: Chance E|Ice Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|221\/313
+|
+|turn|81
+|j|Vasillios
+|choice|switch 2|move 1
+|
+|switch|p1a: Snorlax|Snorlax|523\/523 slp
+|move|p2a: Chance E|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|417\/523 slp
+|
+|turn|82
+|choice|move 1|switch 2
+|
+|switch|p2a: Mega Gastly|Cloyster|136\/303
+|cant|p1a: Snorlax|slp
+|
+|turn|83
+|choice|move 1|move 3
+|
+|move|p2a: Mega Gastly|Blizzard|p1a: Snorlax
+|-damage|p1a: Snorlax|254\/523 slp
+|-curestatus|p1a: Snorlax|slp
+|
+|turn|84
+|choice|move 1|move 1
+|
+|move|p2a: Mega Gastly|Clamp|p1a: Snorlax
+|-damage|p1a: Snorlax|203\/523
+|-activate|p1a: Snorlax|move: Clamp|[of] p2a: Mega Gastly
+|cant|p1a: Snorlax|partiallytrapped
+|
+|turn|85
+|choice|switch 3|move 1
+|
+|switch|p1a: Tauros|Tauros|73\/353 par
+|move|p2a: Mega Gastly|Clamp|p1a: Tauros
+|-damage|p1a: Tauros|28\/353 par
+|-activate|p1a: Tauros|move: Clamp|[of] p2a: Mega Gastly
+|
+|turn|86
+|choice|move 3|move 1
+|
+|move|p2a: Mega Gastly|Clamp|p1a: Tauros|[from]Clamp
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|choice|switch 2|
+|
+|switch|p1a: Alakazam|Alakazam|221\/313
+|turn|87
+|choice|move 3|switch 2
+|
+|switch|p2a: Chance E|Chansey|703\/703 par
+|move|p1a: Alakazam|Thunder Wave|p2a: Chance E
+|-fail|p2a: Chance E|par
+|
+|turn|88
+|choice|switch 3|move 1
+|
+|switch|p1a: Snorlax|Snorlax|203\/523
+|move|p2a: Chance E|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|110\/523
+|
+|turn|89
+|choice|move 4|switch 2
+|
+|switch|p2a: Mega Gastly|Cloyster|136\/303
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp
+|-heal|p1a: Snorlax|523\/523 slp|[silent]
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|
+|turn|90
+|choice|switch 3|move 3
+|
+|switch|p1a: Alakazam|Alakazam|221\/313
+|move|p2a: Mega Gastly|Blizzard|p1a: Alakazam
+|-damage|p1a: Alakazam|110\/313
+|
+|turn|91
+|choice|move 4|switch 2
+|
+|switch|p2a: Chance E|Chansey|703\/703 par
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|266\/313
+|
+|turn|92
+|c|★Ch01W0n5h1n|at one point i will freeze :P
+|c|★Whoremaster|true m8
+|choice|switch 3|move 1
+|
+|switch|p1a: Snorlax|Snorlax|523\/523 slp
+|move|p2a: Chance E|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|431\/523 slp
+|
+|turn|93
+|choice|move 1|switch 2
+|
+|switch|p2a: Mega Gastly|Cloyster|136\/303
+|cant|p1a: Snorlax|slp
+|
+|turn|94
+|choice|move 1|move 3
+|
+|move|p2a: Mega Gastly|Blizzard|p1a: Snorlax
+|-damage|p1a: Snorlax|260\/523 slp
+|-curestatus|p1a: Snorlax|slp
+|
+|turn|95
+|choice|switch 3|move 2
+|
+|switch|p1a: Alakazam|Alakazam|266\/313
+|move|p2a: Mega Gastly|Explosion|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|faint|p2a: Mega Gastly
+|choice|switch 3|switch 2
+|
+|switch|p1a: Snorlax|Snorlax|260\/523
+|switch|p2a: Chance E|Chansey|703\/703 par
+|turn|96
+|c| Vasillios|oh boy
+|c|★Whoremaster|now this will be tough
+|c|★Ch01W0n5h1n|well blizzards pp was gone so this was my only option
+|choice|move 1|move 1
+|
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|move|p2a: Chance E|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|207\/523
+|
+|turn|97
+|choice|move 4|move 1
+|
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp
+|-heal|p1a: Snorlax|523\/523 slp|[silent]
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|cant|p2a: Chance E|par
+|
+|turn|98
+|choice|move 2|move 3
+|
+|cant|p1a: Snorlax|slp
+|cant|p2a: Chance E|par
+|
+|turn|99
+|choice|move 2|move 3
+|
+|-curestatus|p1a: Snorlax|slp
+|move|p2a: Chance E|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|475\/523
+|
+|turn|100
+|choice|move 2|move 1
+|
+|move|p1a: Snorlax|Headbutt|p2a: Chance E
+|-damage|p2a: Chance E|468\/703 par
+|move|p2a: Chance E|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|425\/523
+|
+|turn|101
+|choice|move 2|move 4
+|
+|move|p1a: Snorlax|Headbutt|p2a: Chance E
+|-damage|p2a: Chance E|239\/703 par
+|cant|p2a: Chance E|flinch
+|
+|turn|102
+|choice|move 2|move 4
+|
+|move|p1a: Snorlax|Headbutt|p2a: Chance E
+|-damage|p2a: Chance E|9\/703 par
+|move|p2a: Chance E|Soft-Boiled|p2a: Chance E
+|-heal|p2a: Chance E|360\/703 par
+|
+|turn|103
+|c| Vasillios|amnesia won
+|choice|move 2|move 4
+|
+|move|p1a: Snorlax|Headbutt|p2a: Chance E
+|-damage|p2a: Chance E|106\/703 par
+|cant|p2a: Chance E|flinch
+|
+|turn|104
+|c|★Whoremaster|gg
+|c|★Ch01W0n5h1n|damn
+|c|★Whoremaster|was a very fun game
+|c|★Ch01W0n5h1n|gg
+|c|★Whoremaster|best ive had in a while
+|c|★Ch01W0n5h1n|it was pretty intense
+|choice|move 2|move 4
+|
+|move|p1a: Snorlax|Headbutt|p2a: Chance E
+|-damage|p2a: Chance E|0 fnt
+|faint|p2a: Chance E
+|
+|win|Whoremaster
+|player|p1
+|player|p2
+|raw|Whoremaster's rating: 1327 &rarr; <strong>1353<\/strong><br \/>(+26 for winning)
+|raw|Ch01W0n5h1n's rating: 1425 &rarr; <strong>1399<\/strong><br \/>(-26 for losing)
+|l|Vasillios

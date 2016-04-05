@@ -1,0 +1,241 @@
+﻿|j|MALESANI
+|j|inigooooo
+|player|p1|MALESANI|238
+|player|p2|inigooooo|101
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|61952,64561,1441,46736
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Exeggutor|Exeggutor, L79|312\/312
+|switch|p2a: Horsea|Horsea, L96|252\/252
+|turn|1
+|choice|move 2|move 3
+|
+|move|p2a: Horsea|Blizzard|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|3\/312
+|move|p1a: Exeggutor|Mega Drain|p2a: Horsea
+|-supereffective|p2a: Horsea
+|-damage|p2a: Horsea|172\/252
+|-heal|p1a: Exeggutor|43\/312|[from] drain|[of] p2a: Horsea
+|
+|turn|2
+|choice|move 3|move 3
+|
+|move|p2a: Horsea|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|choice|switch 5|
+|
+|switch|p1a: Electrode|Electrode, L90|291\/291
+|turn|3
+|choice|move 3|move 1
+|
+|move|p1a: Electrode|Thunder|p2a: Horsea|[miss]
+|-miss|p1a: Electrode
+|move|p2a: Horsea|Mimic|p1a: Electrode
+|-start|p2a: Horsea|Mimic|Explosion
+|
+|turn|4
+|choice|move 3|move 1
+|
+|move|p1a: Electrode|Thunder|p2a: Horsea
+|-supereffective|p2a: Horsea
+|-damage|p2a: Horsea|0 fnt
+|faint|p2a: Horsea
+|choice||switch 6
+|
+|switch|p2a: Sandslash|Sandslash, L85|301\/301
+|turn|5
+|choice|switch 2|move 1
+|
+|switch|p1a: Charizard|Charizard, L85|306\/306
+|move|p2a: Sandslash|Earthquake|p1a: Charizard
+|-immune|p1a: Charizard|[msg]
+|
+|turn|6
+|choice|move 4|move 2
+|
+|move|p1a: Charizard|Swords Dance|p1a: Charizard
+|-boost|p1a: Charizard|atk|2
+|move|p2a: Sandslash|Body Slam|p1a: Charizard
+|-damage|p1a: Charizard|237\/306
+|
+|turn|7
+|choice|move 1|move 2
+|
+|move|p1a: Charizard|Body Slam|p2a: Sandslash
+|-damage|p2a: Sandslash|200\/301
+|move|p2a: Sandslash|Body Slam|p1a: Charizard
+|-damage|p1a: Charizard|170\/306
+|
+|turn|8
+|choice|move 1|move 2
+|
+|move|p1a: Charizard|Body Slam|p2a: Sandslash
+|-damage|p2a: Sandslash|105\/301
+|-status|p2a: Sandslash|par
+|move|p2a: Sandslash|Body Slam|p1a: Charizard
+|-damage|p1a: Charizard|99\/306
+|
+|turn|9
+|choice|move 2|move 3
+|
+|move|p1a: Charizard|Hyper Beam|p2a: Sandslash
+|-damage|p2a: Sandslash|0 fnt
+|faint|p2a: Sandslash
+|choice||switch 5
+|
+|switch|p2a: Raticate|Raticate, L85|267\/267
+|turn|10
+|choice|move 2|move 2
+|
+|move|p1a: Charizard|Hyper Beam|p2a: Raticate
+|-damage|p2a: Raticate|38\/267
+|move|p2a: Raticate|Hyper Beam|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|choice|switch 6|
+|
+|switch|p1a: Tauros|Tauros, L79|280\/280
+|turn|11
+|choice|move 4|move 1
+|
+|move|p1a: Tauros|Body Slam|p2a: Raticate
+|-damage|p2a: Raticate|0 fnt
+|faint|p2a: Raticate
+|choice||switch 3
+|
+|switch|p2a: Machamp|Machamp, L90|345\/345
+|turn|12
+|choice|switch 4|move 1
+|
+|switch|p1a: Nidorina|Nidorina, L90|309\/309
+|move|p2a: Machamp|Submission|p1a: Nidorina
+|-resisted|p1a: Nidorina
+|-damage|p1a: Nidorina|243\/309
+|-damage|p2a: Machamp|329\/345|[from] recoil|[of] p1a: Nidorina
+|
+|turn|13
+|choice|move 1|move 3
+|
+|move|p1a: Nidorina|Thunderbolt|p2a: Machamp
+|-damage|p2a: Machamp|263\/345
+|move|p2a: Machamp|Earthquake|p1a: Nidorina
+|-supereffective|p1a: Nidorina
+|-damage|p1a: Nidorina|20\/309
+|
+|turn|14
+|choice|move 1|move 3
+|
+|move|p1a: Nidorina|Thunderbolt|p2a: Machamp
+|-damage|p2a: Machamp|200\/345
+|move|p2a: Machamp|Earthquake|p1a: Nidorina
+|-supereffective|p1a: Nidorina
+|-damage|p1a: Nidorina|0 fnt
+|faint|p1a: Nidorina
+|choice|switch 3|
+|
+|switch|p1a: Kingler|Kingler, L85|267\/267
+|turn|15
+|choice|move 1|move 4
+|
+|move|p1a: Kingler|Crabhammer|p2a: Machamp
+|-crit|p2a: Machamp
+|-damage|p2a: Machamp|61\/345
+|move|p2a: Machamp|Hyper Beam|p1a: Kingler
+|-damage|p1a: Kingler|142\/267
+|
+|turn|16
+|-mustrecharge|p2a: Machamp
+|-mustrecharge|p2a: Machamp
+|choice|move 3|move 1
+|
+|move|p1a: Kingler|Swords Dance|p1a: Kingler
+|-boost|p1a: Kingler|atk|2
+|cant|p2a: Machamp|recharge
+|
+|turn|17
+|choice|move 2|move 2
+|
+|move|p1a: Kingler|Body Slam|p2a: Machamp
+|-damage|p2a: Machamp|0 fnt
+|faint|p2a: Machamp
+|choice||switch 4
+|
+|switch|p2a: Gengar|Gengar, L79|257\/257
+|turn|18
+|choice|move 1|move 4
+|
+|move|p2a: Gengar|Mega Drain|p1a: Kingler
+|-supereffective|p1a: Kingler
+|-damage|p1a: Kingler|62\/267
+|move|p1a: Kingler|Crabhammer|p2a: Gengar
+|-crit|p2a: Gengar
+|-damage|p2a: Gengar|146\/257
+|
+|turn|19
+|choice|switch 2|move 4
+|
+|switch|p1a: Electrode|Electrode, L90|291\/291
+|move|p2a: Gengar|Mega Drain|p1a: Electrode
+|-damage|p1a: Electrode|259\/291
+|-heal|p2a: Gengar|162\/257|[from] drain|[of] p1a: Electrode
+|
+|turn|20
+|choice|move 3|move 1
+|
+|move|p1a: Electrode|Thunder|p2a: Gengar
+|-damage|p2a: Gengar|52\/257
+|-status|p2a: Gengar|par
+|cant|p2a: Gengar|par
+|
+|turn|21
+|choice|move 3|move 2
+|
+|move|p1a: Electrode|Thunder|p2a: Gengar
+|-crit|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|choice||switch 2
+|
+|switch|p2a: Doduo|Doduo, L96|262\/262
+|turn|22
+|choice|move 1|move 3
+|
+|move|p1a: Electrode|Explosion|p2a: Doduo
+|-damage|p2a: Doduo|39\/262
+|faint|p1a: Electrode
+|choice|switch 2|
+|
+|switch|p1a: Kingler|Kingler, L85|62\/267
+|turn|23
+|choice|move 2|move 1
+|
+|move|p2a: Doduo|Drill Peck|p1a: Kingler
+|-damage|p1a: Kingler|0 fnt
+|faint|p1a: Kingler
+|choice|switch 4|
+|
+|switch|p1a: Tauros|Tauros, L79|280\/280
+|turn|24
+|choice|move 4|move 1
+|
+|move|p1a: Tauros|Body Slam|p2a: Doduo
+|-crit|p2a: Doduo
+|-damage|p2a: Doduo|0 fnt
+|faint|p2a: Doduo
+|
+|win|MALESANI
+|player|p1
+|player|p2
+|raw|MALESANI's rating: 1500 &rarr; <strong>1506<\/strong><br \/>(+6 for winning)
+|raw|inigooooo's rating: 1217 &rarr; <strong>1209<\/strong><br \/>(-8 for losing)

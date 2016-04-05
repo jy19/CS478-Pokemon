@@ -1,0 +1,335 @@
+﻿|join|Airfoil
+|join|socandrewcer
+|player|p1|Airfoil|169
+|player|p2|socandrewcer|169
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|switch|p1a: Gengar|Gengar|323\/323
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|turn|1
+|join|knight0351
+|leave|knight0351
+|
+|move|p1a: Gengar|Hypnosis|p2a: Exeggutor
+|-status|p2a: Exeggutor|slp
+|cant|p2a: Exeggutor|slp
+|-curestatus|p2a: Exeggutor|slp
+|
+|turn|2
+|
+|move|p1a: Gengar|Hypnosis|p2a: Exeggutor
+|-status|p2a: Exeggutor|slp
+|cant|p2a: Exeggutor|slp
+|
+|turn|3
+|
+|move|p1a: Gengar|Confuse Ray|p2a: Exeggutor
+|-start|p2a: Exeggutor|confusion
+|cant|p2a: Exeggutor|slp
+|
+|turn|4
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|cant|p2a: Exeggutor|slp
+|-curestatus|p2a: Exeggutor|slp
+|
+|turn|5
+|
+|switch|p2a: Clefable|Clefable|393\/393
+|switch|p1a: Gengar|Gengar|323\/323
+|
+|turn|6
+|
+|move|p1a: Gengar|Hypnosis|p2a: Clefable
+|-status|p2a: Clefable|slp
+|cant|p2a: Clefable|slp
+|
+|turn|7
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|cant|p2a: Clefable|slp
+|
+|turn|8
+|
+|cant|p2a: Clefable|slp
+|-curestatus|p2a: Clefable|slp
+|move|p1a: Snorlax|Body Slam|p2a: Clefable
+|-damage|p2a: Clefable|270\/393
+|
+|turn|9
+|
+|move|p2a: Clefable|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|move|p1a: Snorlax|Body Slam|p2a: Clefable
+|-damage|p2a: Clefable|140\/393
+|
+|turn|10
+|
+|switch|p2a: Pinsir|Pinsir|333\/333
+|cant|p1a: Snorlax|par
+|
+|turn|11
+|
+|switch|p1a: Venusaur|Venusaur|363\/363
+|move|p2a: Pinsir|Slash|p1a: Venusaur
+|-crit|p1a: Venusaur
+|-damage|p1a: Venusaur|224\/363
+|
+|turn|12
+|
+|move|p2a: Pinsir|Slash|p1a: Venusaur
+|-crit|p1a: Venusaur
+|-damage|p1a: Venusaur|71\/363
+|move|p1a: Venusaur|Sleep Powder|p2a: Pinsir
+|-status|p2a: Pinsir|slp
+|
+|turn|13
+|
+|cant|p2a: Pinsir|slp
+|move|p1a: Venusaur|Leech Seed|p2a: Pinsir
+|-start|p2a: Pinsir|move: Leech Seed
+|
+|turn|14
+|
+|cant|p2a: Pinsir|slp
+|-damage|p2a: Pinsir|313\/333 slp|[from] Leech Seed|[of] p1a: Venusaur
+|-heal|p1a: Venusaur|91\/363|[silent]
+|move|p1a: Venusaur|Body Slam|p2a: Pinsir
+|-crit|p2a: Pinsir
+|-damage|p2a: Pinsir|187\/333 slp
+|
+|turn|15
+|
+|cant|p2a: Pinsir|slp
+|-damage|p2a: Pinsir|167\/333 slp|[from] Leech Seed|[of] p1a: Venusaur
+|-heal|p1a: Venusaur|111\/363|[silent]
+|move|p1a: Venusaur|Body Slam|p2a: Pinsir
+|-damage|p2a: Pinsir|105\/333 slp
+|
+|turn|16
+|
+|cant|p2a: Pinsir|slp
+|-damage|p2a: Pinsir|85\/333 slp|[from] Leech Seed|[of] p1a: Venusaur
+|-heal|p1a: Venusaur|131\/363|[silent]
+|-curestatus|p2a: Pinsir|slp
+|move|p1a: Venusaur|Body Slam|p2a: Pinsir
+|-damage|p2a: Pinsir|23\/333
+|
+|turn|17
+|
+|switch|p1a: Gengar|Gengar|323\/323
+|move|p2a: Pinsir|Slash|p1a: Gengar
+|-immune|p1a: Gengar|[msg]
+|-damage|p2a: Pinsir|3\/333|[from] Leech Seed|[of] p1a: Gengar
+|
+|turn|18
+|
+|switch|p1a: Venusaur|Venusaur|131\/363
+|move|p2a: Pinsir|Seismic Toss|p1a: Venusaur
+|-damage|p1a: Venusaur|31\/363
+|-damage|p2a: Pinsir|0 fnt|[from] Leech Seed|[of] p1a: Venusaur
+|-heal|p1a: Venusaur|34\/363|[silent]
+|faint|p2a: Pinsir
+|
+|
+|switch|p2a: Clefable|Clefable|140\/393
+|turn|19
+|
+|move|p1a: Venusaur|Sleep Powder|p2a: Clefable
+|-status|p2a: Clefable|slp
+|cant|p2a: Clefable|slp
+|
+|turn|20
+|
+|move|p1a: Venusaur|Leech Seed|p2a: Clefable
+|-start|p2a: Clefable|move: Leech Seed
+|cant|p2a: Clefable|slp
+|-damage|p2a: Clefable|116\/393 slp|[from] Leech Seed|[of] p1a: Venusaur
+|-heal|p1a: Venusaur|58\/363|[silent]
+|
+|turn|21
+|
+|switch|p2a: Ninetales|Ninetales|349\/349
+|move|p1a: Venusaur|Body Slam|p2a: Ninetales
+|-damage|p2a: Ninetales|276\/349
+|-status|p2a: Ninetales|par
+|
+|turn|22
+|
+|switch|p1a: Golem|Golem|363\/363
+|move|p2a: Ninetales|Flamethrower|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|288\/363
+|
+|turn|23
+|
+|switch|p2a: Slowbro|Slowbro|393\/393
+|move|p1a: Golem|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|326\/393
+|
+|turn|24
+|
+|move|p1a: Golem|Earthquake|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-damage|p2a: Slowbro|102\/393
+|move|p2a: Slowbro|Earthquake|p1a: Golem
+|-crit|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|48\/363
+|
+|turn|25
+|
+|move|p1a: Golem|Earthquake|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|turn|26
+|
+|switch|p1a: Venusaur|Venusaur|58\/363
+|move|p2a: Exeggutor|Psychic|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|
+|
+|switch|p1a: Lapras|Lapras|463\/463
+|turn|27
+|
+|move|p1a: Lapras|Blizzard|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|162\/393
+|-status|p2a: Exeggutor|frz
+|cant|p2a: Exeggutor|frz
+|
+|turn|28
+|
+|move|p1a: Lapras|Body Slam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|94\/393 frz
+|cant|p2a: Exeggutor|frz
+|
+|turn|29
+|
+|move|p1a: Lapras|Confuse Ray|p2a: Exeggutor
+|-start|p2a: Exeggutor|confusion
+|cant|p2a: Exeggutor|frz
+|
+|turn|30
+|
+|move|p1a: Lapras|Body Slam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|23\/393 frz
+|cant|p2a: Exeggutor|frz
+|
+|turn|31
+|
+|move|p1a: Lapras|Body Slam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|
+|switch|p2a: Electabuzz|Electabuzz|333\/333
+|turn|32
+|
+|switch|p1a: Golem|Golem|48\/363
+|move|p2a: Electabuzz|Thunder Wave|p1a: Golem
+|-immune|p1a: Golem|[msg]
+|
+|turn|33
+|
+|move|p2a: Electabuzz|Psychic|p1a: Golem
+|-damage|p1a: Golem|0 fnt
+|faint|p1a: Golem
+|
+|
+|switch|p1a: Snorlax|Snorlax|523\/523 par
+|turn|34
+|
+|move|p2a: Electabuzz|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|387\/523 par
+|move|p1a: Snorlax|Earthquake|p2a: Electabuzz
+|-supereffective|p2a: Electabuzz
+|-damage|p2a: Electabuzz|116\/333
+|
+|turn|35
+|
+|move|p2a: Electabuzz|Seismic Toss|p1a: Snorlax
+|-damage|p1a: Snorlax|287\/523 par
+|move|p1a: Snorlax|Earthquake|p2a: Electabuzz
+|-supereffective|p2a: Electabuzz
+|-damage|p2a: Electabuzz|0 fnt
+|faint|p2a: Electabuzz
+|
+|
+|switch|p2a: Clefable|Clefable|116\/393 slp
+|turn|36
+|
+|cant|p2a: Clefable|slp
+|move|p1a: Snorlax|Hyper Beam|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|
+|switch|p2a: Ninetales|Ninetales|276\/349 par
+|turn|37
+|
+|move|p2a: Ninetales|Confuse Ray|p1a: Snorlax
+|-start|p1a: Snorlax|confusion
+|cant|p1a: Snorlax|par
+|
+|turn|38
+|
+|switch|p1a: Raichu|Raichu|323\/323
+|move|p2a: Ninetales|Flamethrower|p1a: Raichu
+|-crit|p1a: Raichu
+|-damage|p1a: Raichu|86\/323
+|
+|turn|39
+|
+|move|p1a: Raichu|Surf|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|129\/349 par
+|move|p2a: Ninetales|Flamethrower|p1a: Raichu
+|-damage|p1a: Raichu|0 fnt
+|faint|p1a: Raichu
+|
+|
+|switch|p1a: Snorlax|Snorlax|287\/523 par
+|turn|40
+|
+|move|p2a: Ninetales|Confuse Ray|p1a: Snorlax
+|-start|p1a: Snorlax|confusion
+|-activate|p1a: Snorlax|confusion
+|-damage|p1a: Snorlax|242\/523 par|[from] confusion
+|
+|turn|41
+|
+|cant|p2a: Ninetales|par
+|cant|p1a: Snorlax|par
+|
+|turn|42
+|
+|cant|p2a: Ninetales|par
+|-end|p1a: Snorlax|confusion
+|move|p1a: Snorlax|Earthquake|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|win|Airfoil
+|raw|Ladder updating...
+|chat|Airfoil|gg
+|chat|socandrewcer|gg
+|raw|Airfoil's rating: 1070 &rarr; <strong>1097<\/strong><br \/>(+27 for winning)
+|raw|socandrewcer's rating: 1043 &rarr; <strong>1028<\/strong><br \/>(-15 for losing)

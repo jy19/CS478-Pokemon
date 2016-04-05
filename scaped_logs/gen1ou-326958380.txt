@@ -1,0 +1,390 @@
+﻿|j|smilzo
+|j|marcoasd
+|player|p1|smilzo|157
+|player|p2|marcoasd|169
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|seed|31085,5025,55757,21066
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Jolteon|Jolteon|333\/333
+|turn|1
+|c|★smilzo|hf
+|choice|move 1|switch 2
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Alakazam|Thunder Wave|p2a: Exeggutor
+|-status|p2a: Exeggutor|par
+|
+|turn|2
+|choice|move 3|move 1
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Exeggutor
+|-damage|p2a: Exeggutor|293\/393 par
+|move|p2a: Exeggutor|Sleep Powder|p1a: Alakazam
+|-status|p1a: Alakazam|slp
+|
+|turn|3
+|choice|move 3|move 3
+|
+|cant|p1a: Alakazam|slp
+|cant|p2a: Exeggutor|par
+|
+|turn|4
+|choice|move 3|move 3
+|
+|-curestatus|p1a: Alakazam|slp
+|move|p2a: Exeggutor|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|260\/313
+|-unboost|p1a: Alakazam|spd|1
+|-unboost|p1a: Alakazam|spa|1
+|
+|turn|5
+|choice|move 3|move 1
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Exeggutor
+|-damage|p2a: Exeggutor|193\/393 par
+|cant|p2a: Exeggutor|par
+|
+|turn|6
+|c|★smilzo|rivelo reflect ora sese
+|choice|move 3|move 4
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Exeggutor
+|-damage|p2a: Exeggutor|93\/393 par
+|move|p2a: Exeggutor|Explosion|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|faint|p2a: Exeggutor
+|c|★marcoasd|asd
+|choice|switch 3|switch 2
+|
+|switch|p2a: Jolteon|Jolteon|333\/333
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|turn|7
+|choice|move 1|move 2
+|
+|move|p2a: Jolteon|Thunder Wave|p1a: Exeggutor
+|-status|p1a: Exeggutor|par
+|move|p1a: Exeggutor|Sleep Powder|p2a: Jolteon|[miss]
+|-miss|p1a: Exeggutor
+|
+|turn|8
+|choice|move 1|move 4
+|
+|move|p2a: Jolteon|Pin Missile|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|349\/393 par
+|-damage|p1a: Exeggutor|305\/393 par
+|-damage|p1a: Exeggutor|261\/393 par
+|-damage|p1a: Exeggutor|217\/393 par
+|-hitcount|p1a: Exeggutor|4
+|move|p1a: Exeggutor|Sleep Powder|p2a: Jolteon
+|-status|p2a: Jolteon|slp
+|
+|turn|9
+|choice|move 3|move 4
+|
+|cant|p2a: Jolteon|slp
+|move|p1a: Exeggutor|Psychic|p2a: Jolteon
+|-damage|p2a: Jolteon|208\/333 slp
+|
+|turn|10
+|choice|move 3|switch 3
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|cant|p1a: Exeggutor|par
+|
+|turn|11
+|choice|switch 4|move 1
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Starmie|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|606\/703
+|
+|turn|12
+|choice|move 1|move 3
+|
+|move|p2a: Starmie|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|move|p1a: Chansey|Thunder Wave|p2a: Starmie
+|-status|p2a: Starmie|par
+|
+|turn|13
+|choice|move 1|switch 6
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Chansey|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|
+|turn|14
+|choice|switch 5|move 1
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|378\/523
+|
+|turn|15
+|choice|move 1|move 1
+|
+|move|p1a: Snorlax|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|383\/523 par
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|230\/523
+|
+|turn|16
+|choice|move 2|move 4
+|
+|move|p1a: Snorlax|Reflect|p1a: Snorlax
+|-start|p1a: Snorlax|Reflect
+|move|p2a: Snorlax|Counter|p1a: Snorlax
+|-fail|p2a: Snorlax
+|
+|turn|17
+|choice|move 3|switch 6
+|
+|switch|p2a: Starmie|Starmie|323\/323 par
+|move|p1a: Snorlax|Earthquake|p2a: Starmie
+|-damage|p2a: Starmie|237\/323 par
+|
+|turn|18
+|choice|switch 5|switch 4
+|
+|switch|p1a: Chansey|Chansey|606\/703 par
+|switch|p2a: Persian|Persian|333\/333
+|
+|turn|19
+|j|lowladderalt
+|choice|move 3|switch 6
+|
+|switch|p2a: Snorlax|Snorlax|383\/523 par
+|move|p1a: Chansey|Thunderbolt|p2a: Snorlax
+|-damage|p2a: Snorlax|280\/523 par
+|
+|turn|20
+|j|Alexander
+|choice|move 3|move 1
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Snorlax
+|-damage|p2a: Snorlax|181\/523 par
+|move|p2a: Snorlax|Body Slam|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|30\/703 par
+|
+|turn|21
+|l|lowladderalt
+|c|★smilzo|pf
+|choice|move 4|move 1
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|381\/703 par
+|move|p2a: Snorlax|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|90\/703 par
+|
+|turn|22
+|c|★marcoasd|powerforwars
+|choice|move 4|move 2
+|
+|cant|p1a: Chansey|par
+|move|p2a: Snorlax|Self-Destruct|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|faint|p2a: Snorlax
+|choice|switch 4|switch 4
+|
+|switch|p2a: Starmie|Starmie|237\/323 par
+|switch|p1a: Exeggutor|Exeggutor|217\/393 par
+|turn|23
+|choice|move 3|switch 3
+|
+|switch|p2a: Jolteon|Jolteon|208\/333 slp
+|cant|p1a: Exeggutor|par
+|
+|turn|24
+|c|★smilzo|nooo
+|choice|move 3|move 4
+|
+|cant|p2a: Jolteon|slp
+|move|p1a: Exeggutor|Psychic|p2a: Jolteon
+|-damage|p2a: Jolteon|92\/333 slp
+|-unboost|p2a: Jolteon|spd|1
+|-unboost|p2a: Jolteon|spa|1
+|
+|turn|25
+|c|★marcoasd|avevi tirato psychic?
+|c|★smilzo|si
+|c|★marcoasd|tecnicamente un veggente
+|choice|move 3|switch 3
+|
+|switch|p2a: Starmie|Starmie|237\/323 par
+|move|p1a: Exeggutor|Psychic|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|172\/323 par
+|-unboost|p2a: Starmie|spd|1
+|-unboost|p2a: Starmie|spa|1
+|
+|turn|26
+|c|★marcoasd|vai il mega drain della vita
+|choice|move 3|move 4
+|
+|move|p1a: Exeggutor|Psychic|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|86\/323 par
+|cant|p2a: Starmie|par
+|
+|turn|27
+|c|★smilzo|purtroppo niente drain
+|choice|move 3|switch 3
+|
+|switch|p2a: Jolteon|Jolteon|92\/333 slp
+|move|p1a: Exeggutor|Psychic|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|choice||switch 3
+|
+|switch|p2a: Starmie|Starmie|86\/323 par
+|turn|28
+|choice|switch 5|move 4
+|
+|switch|p1a: Snorlax|Snorlax|230\/523
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|247\/323 par
+|
+|turn|29
+|choice|move 1|move 4
+|
+|move|p1a: Snorlax|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|127\/323 par
+|cant|p2a: Starmie|par
+|
+|turn|30
+|choice|move 1|move 3
+|
+|move|p1a: Snorlax|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|2\/323 par
+|move|p2a: Starmie|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|
+|turn|31
+|choice|move 1|move 4
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|163\/323 par
+|cant|p1a: Snorlax|par
+|
+|turn|32
+|choice|move 1|move 4
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|323\/323 par
+|move|p1a: Snorlax|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|199\/323 par
+|
+|turn|33
+|choice|move 1|move 1
+|
+|move|p2a: Starmie|Blizzard|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|j|king sun
+|choice|switch 2|
+|
+|switch|p1a: Lapras|Lapras|463\/463
+|turn|34
+|choice|move 2|move 3
+|
+|move|p1a: Lapras|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|61\/323 par
+|move|p2a: Starmie|Thunder Wave|p1a: Lapras
+|-status|p1a: Lapras|par
+|
+|turn|35
+|choice|move 2|move 2
+|
+|cant|p2a: Starmie|par
+|move|p1a: Lapras|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|c|★smilzo|era meglio andare egg qui?
+|choice||switch 6
+|
+|switch|p2a: Persian|Persian|333\/333
+|turn|36
+|c|★marcoasd|boh... era meglio scoppiare subito exeggutor
+|c|★marcoasd|quando starmie era a 27
+|c|★smilzo|mm
+|choice|move 1|move 3
+|
+|move|p2a: Persian|Thunderbolt|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|349\/463 par
+|move|p1a: Lapras|Blizzard|p2a: Persian
+|-damage|p2a: Persian|152\/333
+|
+|turn|37
+|choice|move 1|move 1
+|
+|move|p2a: Persian|Slash|p1a: Lapras
+|-crit|p1a: Lapras
+|-damage|p1a: Lapras|213\/463 par
+|cant|p1a: Lapras|par
+|
+|turn|38
+|choice|move 1|move 3
+|
+|move|p2a: Persian|Thunderbolt|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|92\/463 par
+|move|p1a: Lapras|Blizzard|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|faint|p2a: Persian
+|choice||switch 5
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|39
+|choice|move 1|move 1
+|
+|move|p2a: Tauros|Body Slam|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|choice|switch 5|
+|
+|switch|p1a: Exeggutor|Exeggutor|217\/393 par
+|turn|40
+|choice|move 4|move 4
+|
+|move|p2a: Tauros|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|82\/393 par
+|move|p1a: Exeggutor|Explosion|p2a: Tauros
+|-damage|p2a: Tauros|86\/353
+|faint|p1a: Exeggutor
+|choice|switch 6|
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|41
+|c|★marcoasd|gg
+|choice|move 1|move 4
+|
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|win|smilzo
+|player|p1
+|player|p2
+|c|★smilzo|gg
+|l|marcoasd

@@ -1,0 +1,202 @@
+﻿|join|9815O56
+|join|hfeath
+|player|p1|9815O56|9
+|player|p2|hfeath|139
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jolteon|Jolteon, L86|287\/287
+|switch|p2a: Blastoise|Blastoise, L86|311\/311
+|turn|1
+|
+|switch|p2a: Mr. Mime|Mr. Mime, L86|244\/244
+|move|p1a: Jolteon|Body Slam|p2a: Mr. Mime
+|-crit|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|142\/244
+|-status|p2a: Mr. Mime|par
+|
+|turn|2
+|
+|switch|p1a: Lapras|Lapras, L82|381\/381
+|move|p2a: Mr. Mime|Thunder Wave|p1a: Lapras
+|-status|p1a: Lapras|par
+|
+|turn|3
+|
+|move|p2a: Mr. Mime|Thunderbolt|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|250\/381 par
+|move|p1a: Lapras|Confuse Ray|p2a: Mr. Mime
+|-start|p2a: Mr. Mime|confusion
+|
+|turn|4
+|
+|switch|p2a: Blastoise|Blastoise, L86|311\/311
+|move|p1a: Lapras|Body Slam|p2a: Blastoise
+|-damage|p2a: Blastoise|267\/311
+|
+|turn|5
+|
+|move|p2a: Blastoise|Mimic|p1a: Lapras
+|-start|p2a: Blastoise|Mimic|Body Slam
+|move|p1a: Lapras|Body Slam|p2a: Blastoise
+|-damage|p2a: Blastoise|218\/311
+|-status|p2a: Blastoise|par
+|
+|turn|6
+|
+|move|p2a: Blastoise|Body Slam|p1a: Lapras
+|-crit|p1a: Lapras
+|-damage|p1a: Lapras|125\/381 par
+|move|p1a: Lapras|Thunderbolt|p2a: Blastoise
+|-supereffective|p2a: Blastoise
+|-damage|p2a: Blastoise|91\/311 par
+|
+|turn|7
+|
+|move|p2a: Blastoise|Body Slam|p1a: Lapras
+|-damage|p1a: Lapras|63\/381 par
+|move|p1a: Lapras|Thunderbolt|p2a: Blastoise
+|-supereffective|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|
+|switch|p2a: Mr. Mime|Mr. Mime, L86|142\/244 par
+|turn|8
+|
+|cant|p2a: Mr. Mime|par
+|move|p1a: Lapras|Confuse Ray|p2a: Mr. Mime
+|-start|p2a: Mr. Mime|confusion
+|
+|turn|9
+|
+|-activate|p2a: Mr. Mime|confusion
+|-damage|p2a: Mr. Mime|117\/244 par|[from] confusion
+|move|p1a: Lapras|Body Slam|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|54\/244 par
+|
+|turn|10
+|c|★hfeath|good lord lapras get paralyzed once :O
+|
+|-activate|p2a: Mr. Mime|confusion
+|move|p2a: Mr. Mime|Thunderbolt|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|
+|switch|p1a: Jolteon|Jolteon, L86|287\/287
+|turn|11
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|0 fnt
+|faint|p2a: Mr. Mime
+|
+|switch|p2a: Jynx|Jynx, L82|274\/274
+|turn|12
+|
+|switch|p1a: Parasect|Parasect, L86|279\/279
+|move|p2a: Jynx|Lovely Kiss|p1a: Parasect
+|-status|p1a: Parasect|slp
+|
+|turn|13
+|
+|switch|p1a: Wigglytuff|Wigglytuff, L86|416\/416
+|move|p2a: Jynx|Blizzard|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|270\/416
+|
+|turn|14
+|
+|switch|p2a: Fearow|Fearow, L86|287\/287
+|move|p1a: Wigglytuff|Thunder Wave|p2a: Fearow
+|-status|p2a: Fearow|par
+|
+|turn|15
+|
+|move|p1a: Wigglytuff|Blizzard|p2a: Fearow|[miss]
+|-miss|p1a: Wigglytuff
+|move|p2a: Fearow|Double-Edge|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|119\/416
+|-damage|p2a: Fearow|250\/287 par|[from] recoil|[of] p1a: Wigglytuff
+|
+|turn|16
+|
+|move|p1a: Wigglytuff|Hyper Beam|p2a: Fearow
+|-damage|p2a: Fearow|102\/287 par
+|move|p2a: Fearow|Double-Edge|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|0 fnt
+|-damage|p2a: Fearow|73\/287 par|[from] recoil|[of] p1a: Wigglytuff
+|faint|p1a: Wigglytuff
+|
+|switch|p1a: Jolteon|Jolteon, L86|287\/287
+|turn|17
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Fearow
+|-supereffective|p2a: Fearow
+|-damage|p2a: Fearow|0 fnt
+|faint|p2a: Fearow
+|
+|switch|p2a: Persian|Persian, L82|274\/274
+|turn|18
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Persian
+|-damage|p2a: Persian|131\/274
+|-status|p2a: Persian|par
+|cant|p2a: Persian|par
+|
+|turn|19
+|c|★hfeath|well
+|c|★hfeath|fuck
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Persian
+|-crit|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|faint|p2a: Persian
+|
+|switch|p2a: Jynx|Jynx, L82|274\/274
+|turn|20
+|c|★hfeath|good job persian
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Jynx
+|-crit|p2a: Jynx
+|-damage|p2a: Jynx|70\/274
+|move|p2a: Jynx|Blizzard|p1a: Jolteon
+|-damage|p1a: Jolteon|193\/287
+|
+|turn|21
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|
+|switch|p2a: Dodrio|Dodrio, L86|279\/279
+|turn|22
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Dodrio
+|-supereffective|p2a: Dodrio
+|-damage|p2a: Dodrio|3\/279
+|-status|p2a: Dodrio|par
+|move|p2a: Dodrio|Body Slam|p1a: Jolteon
+|-damage|p1a: Jolteon|75\/287
+|
+|turn|23
+|
+|move|p1a: Jolteon|Double Kick|p2a: Dodrio
+|-crit|p2a: Dodrio
+|-damage|p2a: Dodrio|0 fnt
+|-hitcount|p2a: Dodrio|1
+|faint|p2a: Dodrio
+|
+|win|9815O56
+|raw|Ladder updating...
+|c|★9815O56|gg
+|raw|9815O56's rating: 1151 &rarr; <strong>1176<\/strong><br \/>(+25 for winning)
+|raw|hfeath's rating: 1146 &rarr; <strong>1122<\/strong><br \/>(-24 for losing)
+|c|★hfeath|gg
+|leave|hfeath
+|player|p2

@@ -1,0 +1,194 @@
+﻿|join|andreWandres
+|join|CShinyTrainer
+|player|p1|andreWandres|169
+|player|p2|CShinyTrainer|170
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Weedle|Weedle, L99|280\/280
+|switch|p2a: Dragonite|Dragonite, L85|328\/328
+|turn|1
+|
+|move|p2a: Dragonite|Thunder|p1a: Weedle
+|-damage|p1a: Weedle|134\/280
+|move|p1a: Weedle|String Shot|p2a: Dragonite
+|-unboost|p2a: Dragonite|spe|1
+|
+|turn|2
+|
+|move|p1a: Weedle|String Shot|p2a: Dragonite
+|-unboost|p2a: Dragonite|spe|1
+|move|p2a: Dragonite|Thunder|p1a: Weedle
+|-crit|p1a: Weedle
+|-damage|p1a: Weedle|0 fnt
+|faint|p1a: Weedle
+|
+|switch|p1a: Lapras|Lapras, L79|367\/367
+|turn|3
+|
+|switch|p2a: Golduck|Golduck, L85|310\/310
+|move|p1a: Lapras|Confuse Ray|p2a: Golduck
+|-start|p2a: Golduck|confusion
+|
+|turn|4
+|
+|-activate|p2a: Golduck|confusion
+|move|p2a: Golduck|Body Slam|p1a: Lapras
+|-damage|p1a: Lapras|308\/367
+|move|p1a: Lapras|Thunderbolt|p2a: Golduck
+|-supereffective|p2a: Golduck
+|-damage|p2a: Golduck|197\/310
+|
+|turn|5
+|
+|switch|p2a: Pikachu|Pikachu, L96|262\/262
+|move|p1a: Lapras|Thunderbolt|p2a: Pikachu
+|-resisted|p2a: Pikachu
+|-damage|p2a: Pikachu|229\/262
+|
+|turn|6
+|
+|move|p2a: Pikachu|Thunderbolt|p1a: Lapras
+|-crit|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|
+|switch|p1a: Rhydon|Rhydon, L79|328\/328
+|turn|7
+|
+|move|p2a: Pikachu|Surf|p1a: Rhydon
+|-crit|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|
+|switch|p1a: Mew|Mew, L74|300\/300
+|turn|8
+|
+|move|p2a: Pikachu|Thunder|p1a: Mew|[miss]
+|-miss|p2a: Pikachu
+|move|p1a: Mew|Earthquake|p2a: Pikachu
+|-crit|p2a: Pikachu
+|-supereffective|p2a: Pikachu
+|-damage|p2a: Pikachu|0 fnt
+|faint|p2a: Pikachu
+|
+|switch|p2a: Dragonite|Dragonite, L85|328\/328
+|turn|9
+|
+|move|p1a: Mew|Blizzard|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|73\/328
+|move|p2a: Dragonite|Thunder|p1a: Mew
+|-damage|p1a: Mew|214\/300
+|
+|turn|10
+|
+|move|p1a: Mew|Psychic|p2a: Dragonite
+|-damage|p2a: Dragonite|8\/328
+|move|p2a: Dragonite|Surf|p1a: Mew
+|-crit|p1a: Mew
+|-damage|p1a: Mew|68\/300
+|
+|turn|11
+|
+|move|p1a: Mew|Psychic|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|switch|p2a: Golduck|Golduck, L85|197\/310
+|turn|12
+|
+|move|p2a: Golduck|Body Slam|p1a: Mew
+|-damage|p1a: Mew|9\/300
+|move|p1a: Mew|Psychic|p2a: Golduck
+|-damage|p2a: Golduck|120\/310
+|
+|turn|13
+|
+|move|p2a: Golduck|Body Slam|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|switch|p1a: Tauros|Tauros, L79|280\/280
+|turn|14
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Golduck|[miss]
+|-miss|p1a: Tauros
+|move|p2a: Golduck|Blizzard|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|94\/280
+|
+|turn|15
+|c|★andreWandres|stupid lucker
+|c|★andreWandres|my goood..
+|c|★CShinyTrainer|:P
+|
+|move|p1a: Tauros|Earthquake|p2a: Golduck
+|-damage|p2a: Golduck|48\/310
+|move|p2a: Golduck|Blizzard|p1a: Tauros
+|-damage|p1a: Tauros|4\/280
+|
+|turn|16
+|
+|move|p1a: Tauros|Earthquake|p2a: Golduck
+|-damage|p2a: Golduck|0 fnt
+|faint|p2a: Golduck
+|
+|switch|p2a: Hypno|Hypno, L85|318\/318
+|turn|17
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Hypno
+|-damage|p2a: Hypno|163\/318
+|move|p2a: Hypno|Psychic|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|c|★CShinyTrainer|GG.
+|
+|switch|p1a: Dragonite|Dragonite, L85|328\/328
+|turn|18
+|
+|move|p1a: Dragonite|Hyper Beam|p2a: Hypno
+|-damage|p2a: Hypno|20\/318
+|move|p2a: Hypno|Hypnosis|p1a: Dragonite
+|-status|p1a: Dragonite|slp
+|
+|turn|19
+|
+|cant|p1a: Dragonite|slp
+|move|p2a: Hypno|Psychic|p1a: Dragonite
+|-damage|p1a: Dragonite|223\/328 slp
+|-unboost|p1a: Dragonite|spd|1
+|-unboost|p1a: Dragonite|spa|1
+|
+|turn|20
+|c|★andreWandres|stupid lucker..
+|
+|cant|p1a: Dragonite|slp
+|move|p2a: Hypno|Psychic|p1a: Dragonite
+|-damage|p1a: Dragonite|59\/328 slp
+|
+|turn|21
+|c|★CShinyTrainer|:D
+|
+|cant|p1a: Dragonite|slp
+|move|p2a: Hypno|Psychic|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|win|CShinyTrainer
+|raw|Ladder updating...
+|raw|andreWandres's rating: 1310 &rarr; <strong>1278<\/strong><br \/>(-32 for losing)
+|raw|CShinyTrainer's rating: 1089 &rarr; <strong>1131<\/strong><br \/>(+42 for winning)
+|c|★andreWandres|1089
+|c|★CShinyTrainer|GG.
+|c|★andreWandres|puag jajajajaja
+|c|★andreWandres|noob
+|c|★andreWandres|XDXDXD

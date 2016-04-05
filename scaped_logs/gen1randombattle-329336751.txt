@@ -1,0 +1,246 @@
+﻿|j|markle_21
+|j|B1ackJack94
+|player|p1|markle_21|266
+|player|p2|B1ackJack94|204
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|29579,52074,3107,63538
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Golem|Golem, L79|288\/288
+|switch|p2a: Rattata|Rattata, L96|252\/252
+|turn|1
+|choice|move 1|move 2
+|
+|move|p2a: Rattata|Blizzard|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|135\/288
+|-status|p1a: Golem|frz
+|cant|p1a: Golem|frz
+|
+|turn|2
+|choice|switch 3|switch 2
+|
+|switch|p2a: Venusaur|Venusaur, L85|310\/310
+|switch|p1a: Jigglypuff|Jigglypuff, L99|428\/428
+|
+|turn|3
+|choice|move 1|move 1
+|
+|move|p2a: Venusaur|Swords Dance|p2a: Venusaur
+|-boost|p2a: Venusaur|atk|2
+|move|p1a: Jigglypuff|Thunder Wave|p2a: Venusaur
+|-status|p2a: Venusaur|par
+|
+|turn|4
+|choice|move 4|move 1
+|
+|move|p1a: Jigglypuff|Double-Edge|p2a: Venusaur
+|-damage|p2a: Venusaur|209\/310 par
+|-damage|p1a: Jigglypuff|403\/428|[from] recoil|[of] p2a: Venusaur
+|move|p2a: Venusaur|Swords Dance|p2a: Venusaur
+|-boost|p2a: Venusaur|atk|2
+|
+|turn|5
+|choice|move 4|move 3
+|
+|move|p1a: Jigglypuff|Double-Edge|p2a: Venusaur
+|-damage|p2a: Venusaur|115\/310 par
+|-damage|p1a: Jigglypuff|380\/428|[from] recoil|[of] p2a: Venusaur
+|cant|p2a: Venusaur|par
+|
+|turn|6
+|choice|move 4|move 3
+|
+|move|p1a: Jigglypuff|Double-Edge|p2a: Venusaur
+|-damage|p2a: Venusaur|14\/310 par
+|-damage|p1a: Jigglypuff|355\/428|[from] recoil|[of] p2a: Venusaur
+|move|p2a: Venusaur|Body Slam|p1a: Jigglypuff
+|-damage|p1a: Jigglypuff|74\/428
+|
+|turn|7
+|choice|move 2|move 3
+|
+|move|p1a: Jigglypuff|Bubble Beam|p2a: Venusaur
+|-resisted|p2a: Venusaur
+|-damage|p2a: Venusaur|1\/310 par
+|-unboost|p2a: Venusaur|spe|1
+|move|p2a: Venusaur|Body Slam|p1a: Jigglypuff
+|-damage|p1a: Jigglypuff|0 fnt
+|faint|p1a: Jigglypuff
+|choice|switch 5|
+|
+|switch|p1a: Muk|Muk, L90|372\/372
+|turn|8
+|choice|move 2|move 2
+|
+|move|p1a: Muk|Sludge|p2a: Venusaur
+|-crit|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|faint|p2a: Venusaur
+|choice||switch 2
+|
+|switch|p2a: Rattata|Rattata, L96|252\/252
+|turn|9
+|choice|move 2|move 1
+|
+|move|p2a: Rattata|Super Fang|p1a: Muk
+|-damage|p1a: Muk|186\/372
+|move|p1a: Muk|Sludge|p2a: Rattata
+|-damage|p2a: Rattata|135\/252
+|
+|turn|10
+|choice|move 1|move 4
+|
+|move|p2a: Rattata|Body Slam|p1a: Muk
+|-damage|p1a: Muk|101\/372
+|move|p1a: Muk|Explosion|p2a: Rattata
+|-crit|p2a: Rattata
+|-damage|p2a: Rattata|0 fnt
+|faint|p2a: Rattata
+|faint|p1a: Muk
+|choice|switch 3|switch 5
+|
+|switch|p2a: Gyarados|Gyarados, L85|335\/335
+|switch|p1a: Golem|Golem, L79|135\/288 frz
+|turn|11
+|choice|move 3|switch 3
+|
+|switch|p2a: Jolteon|Jolteon, L79|265\/265
+|cant|p1a: Golem|frz
+|
+|turn|12
+|choice|move 3|move 2
+|
+|move|p2a: Jolteon|Double Kick|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|110\/288 frz
+|-damage|p1a: Golem|85\/288 frz
+|-hitcount|p1a: Golem|2
+|cant|p1a: Golem|frz
+|
+|turn|13
+|choice|move 3|move 2
+|
+|move|p2a: Jolteon|Double Kick|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|60\/288 frz
+|-damage|p1a: Golem|35\/288 frz
+|-hitcount|p1a: Golem|2
+|cant|p1a: Golem|frz
+|
+|turn|14
+|choice|move 3|move 2
+|
+|move|p2a: Jolteon|Double Kick|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|8\/288 frz
+|-damage|p1a: Golem|0 fnt
+|-hitcount|p1a: Golem|2
+|faint|p1a: Golem
+|choice|switch 6|
+|
+|switch|p1a: Alakazam|Alakazam, L79|249\/249
+|turn|15
+|choice|move 1|move 4
+|
+|move|p2a: Jolteon|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|move|p1a: Alakazam|Psychic|p2a: Jolteon
+|-crit|p2a: Jolteon
+|-damage|p2a: Jolteon|84\/265
+|-unboost|p2a: Jolteon|spd|1
+|-unboost|p2a: Jolteon|spa|1
+|
+|turn|16
+|choice|move 1|move 3
+|
+|move|p2a: Jolteon|Pin Missile|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-supereffective|p1a: Alakazam
+|-damage|p1a: Alakazam|207\/249 par
+|-damage|p1a: Alakazam|165\/249 par
+|-damage|p1a: Alakazam|123\/249 par
+|-damage|p1a: Alakazam|81\/249 par
+|-damage|p1a: Alakazam|39\/249 par
+|-hitcount|p1a: Alakazam|5
+|move|p1a: Alakazam|Psychic|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|choice||switch 6
+|
+|switch|p2a: Kangaskhan|Kangaskhan, L85|352\/352
+|turn|17
+|choice|move 2|move 3
+|
+|move|p2a: Kangaskhan|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|choice|switch 4|
+|
+|switch|p1a: Tentacruel|Tentacruel, L85|310\/310
+|turn|18
+|choice|move 3|move 3
+|
+|move|p1a: Tentacruel|Surf|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|169\/352
+|move|p2a: Kangaskhan|Body Slam|p1a: Tentacruel
+|-damage|p1a: Tentacruel|206\/310
+|-status|p1a: Tentacruel|par
+|
+|turn|19
+|choice|move 3|move 3
+|
+|move|p2a: Kangaskhan|Body Slam|p1a: Tentacruel
+|-damage|p1a: Tentacruel|93\/310 par
+|move|p1a: Tentacruel|Surf|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|3\/352
+|
+|turn|20
+|choice|move 2|move 3
+|
+|move|p2a: Kangaskhan|Body Slam|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|choice|switch 2|
+|
+|switch|p1a: Charizard|Charizard, L85|306\/306
+|turn|21
+|choice|move 1|move 2
+|
+|move|p1a: Charizard|Body Slam|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|faint|p2a: Kangaskhan
+|choice||switch 3
+|
+|switch|p2a: Gyarados|Gyarados, L85|335\/335
+|turn|22
+|choice|move 1|move 1
+|
+|move|p1a: Charizard|Body Slam|p2a: Gyarados
+|-damage|p2a: Gyarados|278\/335
+|move|p2a: Gyarados|Surf|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|84\/306
+|
+|turn|23
+|choice|move 1|move 1
+|
+|move|p1a: Charizard|Body Slam|p2a: Gyarados
+|-damage|p2a: Gyarados|219\/335
+|move|p2a: Gyarados|Surf|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|win|B1ackJack94
+|player|p1
+|player|p2
+|raw|markle_21's rating: 1229 &rarr; <strong>1200<\/strong><br \/>(-29 for losing)
+|raw|B1ackJack94's rating: 1164 &rarr; <strong>1194<\/strong><br \/>(+30 for winning)
+|l|markle_21

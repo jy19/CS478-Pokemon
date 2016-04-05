@@ -1,0 +1,229 @@
+﻿|join|eldougi
+|join|Cheesing
+|player|p1|eldougi|170
+|player|p2|Cheesing|244
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Kingler|Kingler, L85|267\/267
+|switch|p2a: Primeape|Primeape, L90|300\/300
+|turn|1
+|
+|switch|p2a: Starmie|Starmie, L79|257\/257
+|move|p1a: Kingler|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|178\/257
+|-status|p2a: Starmie|par
+|
+|turn|2
+|
+|move|p1a: Kingler|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|95\/257 par
+|move|p2a: Starmie|Thunder Wave|p1a: Kingler
+|-status|p1a: Kingler|par
+|
+|turn|3
+|
+|cant|p2a: Starmie|par
+|move|p1a: Kingler|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|18\/257 par
+|
+|turn|4
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|146\/257 par
+|move|p1a: Kingler|Body Slam|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|switch|p2a: Kangaskhan|Kangaskhan, L85|352\/352
+|turn|5
+|
+|move|p2a: Kangaskhan|Body Slam|p1a: Kingler
+|-damage|p1a: Kingler|188\/267 par
+|cant|p1a: Kingler|par
+|
+|turn|6
+|
+|move|p2a: Kangaskhan|Body Slam|p1a: Kingler
+|-crit|p1a: Kingler
+|-damage|p1a: Kingler|41\/267 par
+|cant|p1a: Kingler|par
+|
+|turn|7
+|
+|move|p2a: Kangaskhan|Body Slam|p1a: Kingler
+|-crit|p1a: Kingler
+|-damage|p1a: Kingler|0 fnt
+|faint|p1a: Kingler
+|
+|switch|p1a: Gengar|Gengar, L79|257\/257
+|turn|8
+|
+|switch|p2a: Porygon|Porygon, L85|284\/284
+|move|p1a: Gengar|Hypnosis|p2a: Porygon|[miss]
+|-miss|p1a: Gengar
+|
+|turn|9
+|
+|switch|p1a: Alakazam|Alakazam, L79|249\/249
+|move|p2a: Porygon|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|
+|turn|10
+|
+|move|p2a: Porygon|Sharpen|p2a: Porygon
+|-boost|p2a: Porygon|atk|1
+|cant|p1a: Alakazam|par
+|
+|turn|11
+|
+|move|p2a: Porygon|Tri Attack|p1a: Alakazam
+|-damage|p1a: Alakazam|100\/249 par
+|cant|p1a: Alakazam|par
+|
+|turn|12
+|
+|move|p2a: Porygon|Tri Attack|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|switch|p1a: Gengar|Gengar, L79|257\/257
+|turn|13
+|
+|move|p1a: Gengar|Hypnosis|p2a: Porygon
+|-status|p2a: Porygon|slp
+|cant|p2a: Porygon|slp
+|
+|turn|14
+|
+|switch|p2a: Kangaskhan|Kangaskhan, L85|352\/352
+|move|p1a: Gengar|Psychic|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|249\/352
+|-unboost|p2a: Kangaskhan|spd|1
+|-unboost|p2a: Kangaskhan|spa|1
+|
+|turn|15
+|
+|switch|p1a: Charizard|Charizard, L85|306\/306
+|move|p2a: Kangaskhan|Earthquake|p1a: Charizard
+|-immune|p1a: Charizard|[msg]
+|
+|turn|16
+|
+|switch|p2a: Primeape|Primeape, L90|300\/300
+|move|p1a: Charizard|Fire Blast|p2a: Primeape
+|-crit|p2a: Primeape
+|-damage|p2a: Primeape|29\/300
+|
+|turn|17
+|
+|switch|p1a: Marowak|Marowak, L90|291\/291
+|move|p2a: Primeape|Rock Slide|p1a: Marowak
+|-resisted|p1a: Marowak
+|-damage|p1a: Marowak|267\/291
+|
+|turn|18
+|
+|move|p2a: Primeape|Hyper Beam|p1a: Marowak
+|-damage|p1a: Marowak|161\/291
+|move|p1a: Marowak|Earthquake|p2a: Primeape
+|-damage|p2a: Primeape|0 fnt
+|faint|p2a: Primeape
+|
+|switch|p2a: Kangaskhan|Kangaskhan, L85|249\/352
+|turn|19
+|
+|switch|p1a: Charizard|Charizard, L85|306\/306
+|move|p2a: Kangaskhan|Earthquake|p1a: Charizard
+|-immune|p1a: Charizard|[msg]
+|
+|turn|20
+|
+|move|p1a: Charizard|Fire Blast|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|76\/352
+|move|p2a: Kangaskhan|Body Slam|p1a: Charizard
+|-damage|p1a: Charizard|200\/306
+|
+|turn|21
+|
+|switch|p2a: Magmar|Magmar, L90|300\/300
+|move|p1a: Charizard|Earthquake|p2a: Magmar
+|-supereffective|p2a: Magmar
+|-damage|p2a: Magmar|126\/300
+|
+|turn|22
+|
+|move|p2a: Magmar|Hyper Beam|p1a: Charizard
+|-damage|p1a: Charizard|66\/306
+|move|p1a: Charizard|Earthquake|p2a: Magmar
+|-supereffective|p2a: Magmar
+|-damage|p2a: Magmar|0 fnt
+|faint|p2a: Magmar
+|c|★Cheesing|gg
+|
+|switch|p2a: Hitmonchan|Hitmonchan, L90|273\/273
+|turn|23
+|
+|move|p1a: Charizard|Fire Blast|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|77\/273
+|move|p2a: Hitmonchan|Seismic Toss|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|switch|p1a: Gengar|Gengar, L79|257\/257
+|turn|24
+|
+|move|p1a: Gengar|Psychic|p2a: Hitmonchan
+|-supereffective|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|0 fnt
+|faint|p2a: Hitmonchan
+|
+|switch|p2a: Porygon|Porygon, L85|284\/284 slp
+|turn|25
+|
+|move|p1a: Gengar|Psychic|p2a: Porygon
+|-damage|p2a: Porygon|214\/284 slp
+|-unboost|p2a: Porygon|spd|1
+|-unboost|p2a: Porygon|spa|1
+|cant|p2a: Porygon|slp
+|-curestatus|p2a: Porygon|slp
+|
+|turn|26
+|
+|move|p1a: Gengar|Hypnosis|p2a: Porygon
+|-status|p2a: Porygon|slp
+|cant|p2a: Porygon|slp
+|
+|turn|27
+|
+|move|p1a: Gengar|Psychic|p2a: Porygon
+|-damage|p2a: Porygon|100\/284 slp
+|cant|p2a: Porygon|slp
+|
+|turn|28
+|
+|move|p1a: Gengar|Psychic|p2a: Porygon
+|-damage|p2a: Porygon|0 fnt
+|faint|p2a: Porygon
+|
+|switch|p2a: Kangaskhan|Kangaskhan, L85|76\/352
+|turn|29
+|
+|move|p1a: Gengar|Psychic|p2a: Kangaskhan
+|-crit|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|faint|p2a: Kangaskhan
+|
+|win|eldougi
+|raw|Ladder updating...
+|raw|eldougi's rating: 1356 &rarr; <strong>1374<\/strong><br \/>(+18 for winning)
+|raw|Cheesing's rating: 1334 &rarr; <strong>1315<\/strong><br \/>(-19 for losing)
+|leave|Cheesing
+|player|p2

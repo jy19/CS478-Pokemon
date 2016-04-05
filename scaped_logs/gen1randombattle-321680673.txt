@@ -1,0 +1,394 @@
+﻿|j|MALESANI
+|j|Genocide420
+|player|p1|MALESANI|238
+|player|p2|Genocide420|222
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|49388,39133,21001,57324
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Koffing|Koffing, L96|272\/272
+|switch|p2a: Moltres|Moltres, L85|327\/327
+|turn|1
+|choice|switch 6|move 2
+|
+|switch|p1a: Chansey|Chansey, L79|557\/557
+|move|p2a: Moltres|Substitute|p2a: Moltres
+|-start|p2a: Moltres|Substitute
+|-damage|p2a: Moltres|246\/327
+|
+|turn|2
+|choice|move 2|move 1
+|
+|move|p2a: Moltres|Fire Blast|p1a: Chansey
+|-damage|p1a: Chansey|400\/557
+|-status|p1a: Chansey|brn
+|move|p1a: Chansey|Thunder Wave|p2a: Moltres
+|-status|p2a: Moltres|par
+|-damage|p1a: Chansey|366\/557 brn|[from] brn|[of] p2a: Moltres
+|
+|turn|3
+|choice|move 4|move 3
+|
+|move|p1a: Chansey|Ice Beam|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-end|p2a: Moltres|Substitute
+|-damage|p1a: Chansey|332\/557 brn|[from] brn|[of] p2a: Moltres
+|move|p2a: Moltres|Hyper Beam|p1a: Chansey
+|-damage|p1a: Chansey|33\/557 brn
+|
+|turn|4
+|-mustrecharge|p2a: Moltres
+|-mustrecharge|p2a: Moltres
+|choice|move 1|move 1
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|311\/557 brn
+|-damage|p1a: Chansey|277\/557 brn|[from] brn
+|cant|p2a: Moltres|recharge
+|
+|turn|5
+|choice|move 1|move 3
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|555\/557 brn
+|-damage|p1a: Chansey|521\/557 brn|[from] brn
+|move|p2a: Moltres|Hyper Beam|p1a: Chansey
+|-damage|p1a: Chansey|214\/557 brn
+|
+|turn|6
+|-mustrecharge|p2a: Moltres
+|-mustrecharge|p2a: Moltres
+|choice|move 1|move 1
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|492\/557 brn
+|-damage|p1a: Chansey|458\/557 brn|[from] brn
+|cant|p2a: Moltres|recharge
+|
+|turn|7
+|choice|switch 4|switch 5
+|
+|switch|p1a: Golem|Golem, L79|288\/288
+|switch|p2a: Machamp|Machamp, L90|345\/345
+|
+|turn|8
+|choice|move 4|move 4
+|
+|move|p2a: Machamp|Earthquake|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|127\/288
+|move|p1a: Golem|Earthquake|p2a: Machamp
+|-damage|p2a: Machamp|248\/345
+|
+|turn|9
+|choice|switch 3|move 4
+|
+|switch|p1a: Dodrio|Dodrio, L85|276\/276
+|move|p2a: Machamp|Earthquake|p1a: Dodrio
+|-immune|p1a: Dodrio|[msg]
+|
+|turn|10
+|choice|move 2|move 2
+|
+|move|p1a: Dodrio|Drill Peck|p2a: Machamp
+|-supereffective|p2a: Machamp
+|-damage|p2a: Machamp|48\/345
+|move|p2a: Machamp|Rock Slide|p1a: Dodrio
+|-supereffective|p1a: Dodrio
+|-damage|p1a: Dodrio|104\/276
+|
+|turn|11
+|choice|move 3|move 2
+|
+|move|p1a: Dodrio|Body Slam|p2a: Machamp
+|-damage|p2a: Machamp|0 fnt
+|faint|p2a: Machamp
+|choice||switch 6
+|
+|switch|p2a: Raichu|Raichu, L85|276\/276
+|turn|12
+|choice|switch 4|move 1
+|
+|switch|p1a: Chansey|Chansey, L79|458\/557 brn
+|-damage|p1a: Chansey|424\/557 brn|[from] brn
+|move|p2a: Raichu|Surf|p1a: Chansey
+|-damage|p1a: Chansey|365\/557 brn
+|
+|turn|13
+|choice|move 2|move 4
+|
+|move|p2a: Raichu|Hyper Beam|p1a: Chansey
+|-damage|p1a: Chansey|97\/557 brn
+|move|p1a: Chansey|Thunder Wave|p2a: Raichu
+|-status|p2a: Raichu|par
+|-damage|p1a: Chansey|63\/557 brn|[from] brn|[of] p2a: Raichu
+|
+|turn|14
+|-mustrecharge|p2a: Raichu
+|-mustrecharge|p2a: Raichu
+|choice|move 1|move 1
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|341\/557 brn
+|-damage|p1a: Chansey|307\/557 brn|[from] brn
+|cant|p2a: Raichu|recharge
+|
+|turn|15
+|choice|switch 3|move 2
+|
+|switch|p1a: Golem|Golem, L79|127\/288
+|cant|p2a: Raichu|par
+|
+|turn|16
+|choice|move 4|move 1
+|
+|move|p1a: Golem|Earthquake|p2a: Raichu
+|-supereffective|p2a: Raichu
+|-damage|p2a: Raichu|27\/276 par
+|move|p2a: Raichu|Surf|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|0 fnt
+|faint|p1a: Golem
+|choice|switch 2|
+|
+|switch|p1a: Horsea|Horsea, L96|252\/252
+|turn|17
+|choice|move 1|switch 2
+|
+|switch|p2a: Parasect|Parasect, L90|291\/291
+|move|p1a: Horsea|Surf|p2a: Parasect
+|-resisted|p2a: Parasect
+|-damage|p2a: Parasect|237\/291
+|
+|turn|18
+|choice|move 3|move 2
+|
+|move|p1a: Horsea|Blizzard|p2a: Parasect
+|-supereffective|p2a: Parasect
+|-damage|p2a: Parasect|49\/291
+|-status|p2a: Parasect|frz
+|cant|p2a: Parasect|frz
+|
+|turn|19
+|choice|move 2|switch 4
+|
+|switch|p2a: Slowbro|Slowbro, L79|312\/312
+|move|p1a: Horsea|Mimic|p2a: Slowbro
+|-start|p1a: Horsea|Mimic|Amnesia
+|
+|turn|20
+|choice|move 2|move 4
+|
+|move|p1a: Horsea|Amnesia|p1a: Horsea
+|-boost|p1a: Horsea|spd|2
+|-boost|p1a: Horsea|spa|2
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|21
+|choice|move 2|move 4
+|
+|move|p1a: Horsea|Amnesia|p1a: Horsea
+|-boost|p1a: Horsea|spd|2
+|-boost|p1a: Horsea|spa|2
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|22
+|choice|move 4|move 1
+|
+|move|p1a: Horsea|Smokescreen|p2a: Slowbro
+|-unboost|p2a: Slowbro|accuracy|1
+|move|p2a: Slowbro|Thunder Wave|p1a: Horsea
+|-status|p1a: Horsea|par
+|
+|turn|23
+|choice|move 4|move 4
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|move|p1a: Horsea|Smokescreen|p2a: Slowbro
+|-unboost|p2a: Slowbro|accuracy|1
+|
+|turn|24
+|choice|move 1|move 2
+|
+|move|p2a: Slowbro|Surf|p1a: Horsea
+|-resisted|p1a: Horsea
+|-damage|p1a: Horsea|204\/252 par
+|move|p1a: Horsea|Surf|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|264\/312
+|
+|turn|25
+|choice|move 2|move 3
+|
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|-heal|p2a: Slowbro|312\/312 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|move|p1a: Horsea|Amnesia|p1a: Horsea
+|-boost|p1a: Horsea|spd|2
+|-boost|p1a: Horsea|spa|2
+|
+|turn|26
+|choice|move 1|move 3
+|
+|cant|p2a: Slowbro|slp
+|move|p1a: Horsea|Surf|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|249\/312 slp
+|
+|turn|27
+|choice|move 4|move 1
+|
+|-curestatus|p2a: Slowbro|slp
+|cant|p1a: Horsea|par
+|
+|turn|28
+|choice|move 4|move 2
+|
+|move|p2a: Slowbro|Surf|p1a: Horsea|[miss]
+|-miss|p2a: Slowbro
+|move|p1a: Horsea|Smokescreen|p2a: Slowbro
+|-unboost|p2a: Slowbro|accuracy|1
+|
+|turn|29
+|choice|move 4|move 2
+|
+|move|p2a: Slowbro|Surf|p1a: Horsea|[miss]
+|-miss|p2a: Slowbro
+|move|p1a: Horsea|Smokescreen|p2a: Slowbro
+|-unboost|p2a: Slowbro|accuracy|1
+|
+|turn|30
+|choice|move 1|switch 2
+|
+|switch|p2a: Raichu|Raichu, L85|27\/276 par
+|move|p1a: Horsea|Surf|p2a: Raichu
+|-damage|p2a: Raichu|0 fnt
+|faint|p2a: Raichu
+|choice||switch 3
+|
+|switch|p2a: Venomoth|Venomoth, L85|293\/293
+|turn|31
+|choice|move 1|move 2
+|
+|move|p2a: Venomoth|Mega Drain|p1a: Horsea
+|-crit|p1a: Horsea
+|-supereffective|p1a: Horsea
+|-damage|p1a: Horsea|109\/252 par
+|cant|p1a: Horsea|par
+|
+|turn|32
+|choice|move 1|move 2
+|
+|move|p2a: Venomoth|Mega Drain|p1a: Horsea
+|-supereffective|p1a: Horsea
+|-damage|p1a: Horsea|95\/252 par
+|move|p1a: Horsea|Surf|p2a: Venomoth
+|-damage|p2a: Venomoth|0 fnt
+|faint|p2a: Venomoth
+|choice||switch 5
+|
+|switch|p2a: Moltres|Moltres, L85|246\/327 par
+|turn|33
+|choice|move 1|move 3
+|
+|move|p2a: Moltres|Hyper Beam|p1a: Horsea
+|-damage|p1a: Horsea|0 fnt
+|faint|p1a: Horsea
+|choice|switch 5|
+|
+|switch|p1a: Mewtwo|Mewtwo, L68|285\/285
+|turn|34
+|choice|move 4|move 1
+|
+|move|p1a: Mewtwo|Amnesia|p1a: Mewtwo
+|-boost|p1a: Mewtwo|spd|2
+|-boost|p1a: Mewtwo|spa|2
+|move|p2a: Moltres|Fire Blast|p1a: Mewtwo
+|-damage|p1a: Mewtwo|222\/285
+|
+|turn|35
+|choice|move 4|move 3
+|
+|move|p1a: Mewtwo|Amnesia|p1a: Mewtwo
+|-boost|p1a: Mewtwo|spd|2
+|-boost|p1a: Mewtwo|spa|2
+|move|p2a: Moltres|Hyper Beam|p1a: Mewtwo
+|-damage|p1a: Mewtwo|84\/285
+|
+|turn|36
+|-mustrecharge|p2a: Moltres
+|-mustrecharge|p2a: Moltres
+|choice|move 2|move 1
+|
+|move|p1a: Mewtwo|Recover|p1a: Mewtwo
+|-heal|p1a: Mewtwo|226\/285
+|cant|p2a: Moltres|recharge
+|
+|turn|37
+|choice|move 1|move 1
+|
+|move|p1a: Mewtwo|Psychic|p2a: Moltres
+|-crit|p2a: Moltres
+|-damage|p2a: Moltres|112\/327 par
+|-unboost|p2a: Moltres|spd|1
+|-unboost|p2a: Moltres|spa|1
+|cant|p2a: Moltres|par
+|
+|turn|38
+|choice|move 1|move 1
+|
+|move|p1a: Mewtwo|Psychic|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|choice||switch 4
+|
+|switch|p2a: Parasect|Parasect, L90|49\/291 frz
+|turn|39
+|choice|move 4|move 1
+|
+|move|p1a: Mewtwo|Amnesia|p1a: Mewtwo
+|-boost|p1a: Mewtwo|spd|2
+|-boost|p1a: Mewtwo|spa|2
+|cant|p2a: Parasect|frz
+|
+|turn|40
+|choice|move 2|move 1
+|
+|move|p1a: Mewtwo|Recover|p1a: Mewtwo
+|-heal|p1a: Mewtwo|285\/285
+|cant|p2a: Parasect|frz
+|
+|turn|41
+|choice|move 1|move 3
+|
+|move|p1a: Mewtwo|Psychic|p2a: Parasect
+|-damage|p2a: Parasect|0 fnt
+|faint|p2a: Parasect
+|choice||switch 2
+|
+|switch|p2a: Slowbro|Slowbro, L79|249\/312
+|turn|42
+|choice|move 3|move 1
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|
+|win|MALESANI
+|player|p1
+|player|p2

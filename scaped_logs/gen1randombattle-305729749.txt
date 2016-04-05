@@ -1,0 +1,143 @@
+﻿|j|Abstrix
+|j|Nuclkes
+|player|p1|Abstrix|8
+|player|p2|Nuclkes|169
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|49223,11274,56626,50073
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Arcanine|Arcanine, L85|327\/327
+|switch|p2a: Sandslash|Sandslash, L85|301\/301
+|turn|1
+|choice|switch 3|move 1
+|
+|switch|p1a: Parasect|Parasect, L90|291\/291
+|move|p2a: Sandslash|Earthquake|p1a: Parasect
+|-resisted|p1a: Parasect
+|-damage|p1a: Parasect|263\/291
+|
+|turn|2
+|choice|move 4|switch 6
+|
+|switch|p2a: Electabuzz|Electabuzz, L85|284\/284
+|move|p1a: Parasect|Mega Drain|p2a: Electabuzz
+|-damage|p2a: Electabuzz|240\/284
+|-heal|p1a: Parasect|285\/291|[from] drain|[of] p2a: Electabuzz
+|
+|turn|3
+|choice|move 1|move 4
+|
+|move|p2a: Electabuzz|Psychic|p1a: Parasect
+|-damage|p1a: Parasect|226\/291
+|move|p1a: Parasect|Body Slam|p2a: Electabuzz
+|-damage|p2a: Electabuzz|151\/284
+|
+|turn|4
+|choice|move 1|move 1
+|
+|move|p2a: Electabuzz|Seismic Toss|p1a: Parasect
+|-damage|p1a: Parasect|141\/291
+|move|p1a: Parasect|Body Slam|p2a: Electabuzz
+|-damage|p2a: Electabuzz|64\/284
+|
+|turn|5
+|choice|move 1|move 3
+|
+|move|p2a: Electabuzz|Thunderbolt|p1a: Parasect
+|-resisted|p1a: Parasect
+|-damage|p1a: Parasect|98\/291
+|move|p1a: Parasect|Body Slam|p2a: Electabuzz
+|-damage|p2a: Electabuzz|0 fnt
+|faint|p2a: Electabuzz
+|choice||switch 4
+|
+|switch|p2a: Dragonair|Dragonair, L85|277\/277
+|turn|6
+|choice|move 1|move 2
+|
+|move|p2a: Dragonair|Blizzard|p1a: Parasect
+|-supereffective|p1a: Parasect
+|-damage|p1a: Parasect|0 fnt
+|faint|p1a: Parasect
+|choice|switch 2|
+|
+|switch|p1a: Kabutops|Kabutops, L85|276\/276
+|turn|7
+|choice|move 1|switch 3
+|
+|switch|p2a: Clefable|Clefable, L85|335\/335
+|move|p1a: Kabutops|Swords Dance|p1a: Kabutops
+|-boost|p1a: Kabutops|atk|2
+|
+|turn|8
+|choice|move 4|move 4
+|
+|move|p1a: Kabutops|Body Slam|p2a: Clefable
+|-damage|p2a: Clefable|183\/335
+|move|p2a: Clefable|Hyper Beam|p1a: Kabutops
+|-resisted|p1a: Kabutops
+|-damage|p1a: Kabutops|222\/276
+|
+|turn|9
+|-mustrecharge|p2a: Clefable
+|-mustrecharge|p2a: Clefable
+|choice|move 1|move 1
+|
+|move|p1a: Kabutops|Swords Dance|p1a: Kabutops
+|-boost|p1a: Kabutops|atk|2
+|cant|p2a: Clefable|recharge
+|
+|turn|10
+|choice|move 3|move 1
+|
+|move|p1a: Kabutops|Hyper Beam|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|choice||switch 5
+|
+|switch|p2a: Hitmonlee|Hitmonlee, L90|273\/273
+|turn|11
+|choice|move 3|move 3
+|
+|move|p1a: Kabutops|Hyper Beam|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|0 fnt
+|faint|p2a: Hitmonlee
+|choice||switch 6
+|
+|switch|p2a: Sandslash|Sandslash, L85|301\/301
+|turn|12
+|choice|move 3|move 1
+|
+|move|p1a: Kabutops|Hyper Beam|p2a: Sandslash
+|-damage|p2a: Sandslash|0 fnt
+|faint|p2a: Sandslash
+|choice||switch 2
+|
+|switch|p2a: Magneton|Magneton, L90|273\/273
+|turn|13
+|choice|move 3|move 2
+|
+|move|p1a: Kabutops|Hyper Beam|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|faint|p2a: Magneton
+|choice||switch 3
+|
+|switch|p2a: Dragonair|Dragonair, L85|277\/277
+|turn|14
+|choice|move 3|move 2
+|
+|move|p1a: Kabutops|Hyper Beam|p2a: Dragonair
+|-damage|p2a: Dragonair|0 fnt
+|faint|p2a: Dragonair
+|
+|win|Abstrix
+|raw|Abstrix's rating: 1130 &rarr; <strong>1146<\/strong><br \/>(+16 for winning)
+|raw|Nuclkes's rating: 1000 &rarr; <strong>1000<\/strong><br \/>(+0 for losing)
+|l|Nuclkes
+|player|p2

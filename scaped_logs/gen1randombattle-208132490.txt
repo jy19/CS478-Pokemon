@@ -1,0 +1,238 @@
+﻿|join|inoobunoob
+|join|Otherfiend007
+|player|p1|inoobunoob|265
+|player|p2|Otherfiend007|213
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Pinsir|Pinsir, L86|287\/287
+|switch|p2a: Machop|Machop, L95|326\/326
+|turn|1
+|
+|move|p1a: Pinsir|Swords Dance|p1a: Pinsir
+|-boost|p1a: Pinsir|atk|2
+|move|p2a: Machop|Body Slam|p1a: Pinsir
+|-damage|p1a: Pinsir|224\/287
+|
+|turn|2
+|
+|move|p1a: Pinsir|Body Slam|p2a: Machop
+|-crit|p2a: Machop
+|-damage|p2a: Machop|140\/326
+|-status|p2a: Machop|par
+|move|p2a: Machop|Counter|p1a: Pinsir
+|-damage|p1a: Pinsir|0 fnt
+|faint|p1a: Pinsir
+|c|★Otherfiend007|you noobed :)
+|
+|switch|p1a: Staryu|Staryu, L86|227\/227
+|turn|3
+|c|★Otherfiend007|dat crit thou :(
+|
+|move|p1a: Staryu|Thunderbolt|p2a: Machop
+|-damage|p2a: Machop|63\/326 par
+|cant|p2a: Machop|par
+|
+|turn|4
+|
+|move|p1a: Staryu|Thunderbolt|p2a: Machop
+|-damage|p2a: Machop|0 fnt
+|faint|p2a: Machop
+|
+|switch|p2a: Tangela|Tangela, L86|287\/287
+|turn|5
+|
+|switch|p1a: Paras|Paras, L95|259\/259
+|move|p2a: Tangela|Swords Dance|p2a: Tangela
+|-boost|p2a: Tangela|atk|2
+|
+|turn|6
+|
+|move|p2a: Tangela|Swords Dance|p2a: Tangela
+|-boost|p2a: Tangela|atk|2
+|move|p1a: Paras|Toxic|p2a: Tangela
+|-status|p2a: Tangela|tox
+|
+|turn|7
+|c|★Otherfiend007|beast modeeeeee
+|c|★Otherfiend007|feck
+|
+|move|p2a: Tangela|Bind|p1a: Paras
+|-damage|p1a: Paras|229\/259
+|-activate|p1a: Paras|move: Bind|[of] p2a: Tangela
+|-damage|p2a: Tangela|270\/287 tox|[from] tox|[of] p1a: Paras
+|cant|p1a: Paras|partiallytrapped
+|
+|turn|8
+|
+|move|p2a: Tangela|Bind|p1a: Paras
+|-damage|p1a: Paras|199\/259
+|-damage|p2a: Tangela|236\/287 tox|[from] tox|[of] p1a: Paras
+|cant|p1a: Paras|partiallytrapped
+|
+|-end|p1a: Paras|Bind|[partiallytrapped]
+|turn|9
+|
+|move|p2a: Tangela|Bind|p1a: Paras|[miss]
+|-miss|p2a: Tangela
+|-damage|p2a: Tangela|185\/287 tox|[from] tox|[of] p1a: Paras
+|move|p1a: Paras|Double-Edge|p2a: Tangela
+|-damage|p2a: Tangela|128\/287 tox
+|-damage|p1a: Paras|185\/259|[from] recoil|[of] p2a: Tangela
+|
+|turn|10
+|
+|switch|p2a: Gyarados|Gyarados, L86|339\/339
+|move|p1a: Paras|Double-Edge|p2a: Gyarados
+|-damage|p2a: Gyarados|262\/339
+|-damage|p1a: Paras|166\/259|[from] recoil|[of] p2a: Gyarados
+|
+|turn|11
+|
+|move|p2a: Gyarados|Blizzard|p1a: Paras
+|-supereffective|p1a: Paras
+|-damage|p1a: Paras|0 fnt
+|faint|p1a: Paras
+|
+|switch|p1a: Staryu|Staryu, L86|227\/227
+|turn|12
+|
+|switch|p2a: Golem|Golem, L80|292\/292
+|move|p1a: Staryu|Thunderbolt|p2a: Golem
+|-immune|p2a: Golem|[msg]
+|
+|turn|13
+|
+|switch|p2a: Tangela|Tangela, L86|128\/287 tox
+|-status|p2a: Tangela|psn
+|-damage|p2a: Tangela|111\/287 psn|[from] psn
+|move|p1a: Staryu|Blizzard|p2a: Tangela
+|-supereffective|p2a: Tangela
+|-damage|p2a: Tangela|0 fnt
+|faint|p2a: Tangela
+|
+|switch|p2a: Mankey|Mankey, L95|269\/269
+|turn|14
+|
+|move|p1a: Staryu|Thunder Wave|p2a: Mankey
+|-status|p2a: Mankey|par
+|move|p2a: Mankey|Rock Slide|p1a: Staryu
+|-damage|p1a: Staryu|149\/227
+|
+|turn|15
+|
+|move|p1a: Staryu|Blizzard|p2a: Mankey|[miss]
+|-miss|p1a: Staryu
+|move|p2a: Mankey|Submission|p1a: Staryu
+|-crit|p1a: Staryu
+|-damage|p1a: Staryu|0 fnt
+|-damage|p2a: Mankey|232\/269 par|[from] recoil|[of] p1a: Staryu
+|faint|p1a: Staryu
+|
+|switch|p1a: Arbok|Arbok, L86|279\/279
+|turn|16
+|
+|move|p1a: Arbok|Earthquake|p2a: Mankey
+|-damage|p2a: Mankey|138\/269 par
+|cant|p2a: Mankey|par
+|
+|turn|17
+|
+|move|p1a: Arbok|Earthquake|p2a: Mankey
+|-damage|p2a: Mankey|40\/269 par
+|move|p2a: Mankey|Submission|p1a: Arbok
+|-resisted|p1a: Arbok
+|-damage|p1a: Arbok|220\/279
+|-damage|p2a: Mankey|26\/269 par|[from] recoil|[of] p1a: Arbok
+|
+|turn|18
+|
+|move|p1a: Arbok|Body Slam|p2a: Mankey
+|-damage|p2a: Mankey|0 fnt
+|faint|p2a: Mankey
+|
+|switch|p2a: Golem|Golem, L80|292\/292
+|turn|19
+|
+|move|p1a: Arbok|Earthquake|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|181\/292
+|move|p2a: Golem|Earthquake|p1a: Arbok
+|-supereffective|p1a: Arbok
+|-damage|p1a: Arbok|0 fnt
+|faint|p1a: Arbok
+|
+|switch|p1a: Dewgong|Dewgong, L86|330\/330
+|turn|20
+|
+|move|p1a: Dewgong|Blizzard|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|
+|switch|p2a: Ninetales|Ninetales, L86|301\/301
+|turn|21
+|
+|move|p2a: Ninetales|Reflect|p2a: Ninetales
+|move|p1a: Dewgong|Surf|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|107\/301
+|
+|turn|22
+|
+|move|p2a: Ninetales|Hyper Beam|p1a: Dewgong
+|-crit|p1a: Dewgong
+|-damage|p1a: Dewgong|130\/330
+|move|p1a: Dewgong|Surf|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|switch|p2a: Gyarados|Gyarados, L86|262\/339
+|turn|23
+|
+|move|p2a: Gyarados|Hyper Beam|p1a: Dewgong
+|-damage|p1a: Dewgong|0 fnt
+|faint|p1a: Dewgong
+|
+|switch|p1a: Nidorina|Nidorina, L92|316\/316
+|turn|24
+|
+|move|p2a: Gyarados|Blizzard|p1a: Nidorina
+|-damage|p1a: Nidorina|201\/316
+|move|p1a: Nidorina|Thunderbolt|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-damage|p2a: Gyarados|55\/339
+|
+|turn|25
+|c|★Otherfiend007|nuuuuu
+|c|★Otherfiend007|hyper beam listen
+|c|★Otherfiend007|you have to crit
+|c|★Otherfiend007|ok?
+|c|★Otherfiend007|its our only hope
+|c|★Otherfiend007|blizzard ont freeze
+|
+|move|p2a: Gyarados|Hyper Beam|p1a: Nidorina|[miss]
+|-miss|p2a: Gyarados
+|move|p1a: Nidorina|Thunderbolt|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|win|inoobunoob
+|raw|Ladder updating...
+|raw|inoobunoob's rating: 1354 &rarr; <strong>1371<\/strong><br \/>(+17 for winning)
+|raw|Otherfiend007's rating: 1288 &rarr; <strong>1267<\/strong><br \/>(-21 for losing)
+|c|★Otherfiend007|NUUUU
+|c|★inoobunoob|u crited already
+|c|★inoobunoob|@@
+|c|★inoobunoob|gg
+|c|★Otherfiend007|hyper beam y!?!
+|leave|Otherfiend007
+|player|p2

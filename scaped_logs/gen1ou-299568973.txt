@@ -1,0 +1,142 @@
+﻿|join|KawaiiAlice-Chan
+|join|Eblank3218
+|player|p1|KawaiiAlice-Chan|287
+|player|p2|Eblank3218|238
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|seed|28207,19014,11364,32615
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Has science gone t|Exeggutor|393\/393
+|turn|1
+|choice|move 2|move 4
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Has science gone t
+|-status|p2a: Has science gone t|par
+|cant|p2a: Has science gone t|par
+|
+|turn|2
+|choice|move 1|move 4
+|
+|move|p1a: Alakazam|Reflect|p1a: Alakazam
+|-start|p1a: Alakazam|Reflect
+|move|p2a: Has science gone t|Toxic|p1a: Alakazam
+|-status|p1a: Alakazam|tox
+|
+|turn|3
+|choice|move 3|move 2
+|
+|move|p1a: Alakazam|Psychic|p2a: Has science gone t
+|-crit|p2a: Has science gone t
+|-resisted|p2a: Has science gone t
+|-damage|p2a: Has science gone t|293\/393 par
+|-unboost|p2a: Has science gone t|spd|1
+|-unboost|p2a: Has science gone t|spa|1
+|-damage|p1a: Alakazam|294\/313 tox|[from] tox|[of] p2a: Has science gone t
+|move|p2a: Has science gone t|Leech Seed|p1a: Alakazam
+|-start|p1a: Alakazam|move: Leech Seed
+|
+|turn|4
+|choice|switch 3|move 3
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: Has science gone t|Psychic|p1a: Snorlax
+|-damage|p1a: Snorlax|418\/523
+|-unboost|p1a: Snorlax|spd|1
+|-unboost|p1a: Snorlax|spa|1
+|
+|turn|5
+|choice|move 1|move 2
+|
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|cant|p2a: Has science gone t|par
+|
+|turn|6
+|choice|move 1|move 2
+|
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|move|p2a: Has science gone t|Leech Seed|p1a: Snorlax
+|-start|p1a: Snorlax|move: Leech Seed
+|
+|turn|7
+|choice|move 1|move 1
+|
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|-damage|p1a: Snorlax|386\/523|[from] Leech Seed|[of] p2a: Has science gone t
+|-heal|p2a: Has science gone t|325\/393 par|[silent]
+|move|p2a: Has science gone t|Sleep Powder|p1a: Snorlax
+|-status|p1a: Snorlax|slp
+|
+|turn|8
+|choice|move 1|move 3
+|
+|-damage|p1a: Snorlax|354\/523 slp|[from] Leech Seed|[of] p2a: Has science gone t
+|-heal|p2a: Has science gone t|357\/393 par|[silent]
+|-curestatus|p1a: Snorlax|slp
+|move|p2a: Has science gone t|Psychic|p1a: Snorlax
+|-damage|p1a: Snorlax|324\/523
+|-unboost|p1a: Snorlax|spd|1
+|-unboost|p1a: Snorlax|spa|1
+|
+|turn|9
+|choice|move 1|move 4
+|
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|-damage|p1a: Snorlax|292\/523|[from] Leech Seed|[of] p2a: Has science gone t
+|-heal|p2a: Has science gone t|389\/393 par|[silent]
+|move|p2a: Has science gone t|Toxic|p1a: Snorlax
+|-status|p1a: Snorlax|tox
+|
+|turn|10
+|choice|move 2|move 3
+|
+|move|p1a: Snorlax|Blizzard|p2a: Has science gone t
+|-supereffective|p2a: Has science gone t
+|-damage|p2a: Has science gone t|0 fnt
+|faint|p2a: Has science gone t
+|choice||switch 5
+|
+|switch|p2a: Canada|Chansey|703\/703
+|turn|11
+|choice|move 4|move 1
+|
+|move|p2a: Canada|Seismic Toss|p1a: Snorlax
+|-damage|p1a: Snorlax|192\/523 tox
+|move|p1a: Snorlax|Body Slam|p2a: Canada
+|-damage|p2a: Canada|422\/703
+|-damage|p1a: Snorlax|160\/523 tox|[from] tox|[of] p2a: Canada
+|-damage|p1a: Snorlax|96\/523 tox|[from] Leech Seed|[of] p2a: Canada
+|-heal|p2a: Canada|486\/703|[silent]
+|
+|turn|12
+|choice|move 3|move 1
+|
+|move|p2a: Canada|Seismic Toss|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|choice|switch 6|
+|
+|switch|p1a: Golem|Golem|363\/363
+|turn|13
+|-message|Eblank3218 forfeited.
+|
+|win|KawaiiAlice-Chan
+|leave|Eblank3218
+|player|p2

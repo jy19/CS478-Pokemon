@@ -1,0 +1,524 @@
+﻿|join|PK Mastr
+|join|Feena
+|player|p1|PK Mastr|257
+|player|p2|Feena|170
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: NEBULA|Starmie|323\/323
+|switch|p2a: Alakazam|Alakazam|313\/313
+|turn|1
+|
+|switch|p1a: PU-TAI|Snorlax|523\/523
+|move|p2a: Alakazam|Thunder Wave|p1a: PU-TAI
+|-status|p1a: PU-TAI|par
+|
+|turn|2
+|c|★PK Mastr|gl!!
+|
+|move|p2a: Alakazam|Psychic|p1a: PU-TAI
+|-damage|p1a: PU-TAI|339\/523 par
+|-unboost|p1a: PU-TAI|spd|1
+|-unboost|p1a: PU-TAI|spa|1
+|move|p1a: PU-TAI|Mega Kick|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|c|★Feena|gl
+|c|★PK Mastr|ouch
+|
+|switch|p2a: Lapras|Lapras|463\/463
+|turn|3
+|
+|switch|p1a: HADES|Gengar|323\/323
+|move|p2a: Lapras|Blizzard|p1a: HADES
+|-damage|p1a: HADES|201\/323
+|
+|turn|4
+|
+|move|p1a: HADES|Hypnosis|p2a: Lapras
+|-status|p2a: Lapras|slp
+|cant|p2a: Lapras|slp
+|
+|turn|5
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: HADES|Thunderbolt|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|357\/393
+|
+|turn|6
+|
+|move|p1a: HADES|Explosion|p2a: Exeggutor
+|-damage|p2a: Exeggutor|134\/393
+|faint|p1a: HADES
+|
+|switch|p1a: NEBULA|Starmie|323\/323
+|turn|7
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: NEBULA|Blizzard|p2a: Chansey|[miss]
+|-miss|p1a: NEBULA
+|
+|turn|8
+|c|★Feena|saint seiya?
+|c|★PK Mastr|saint seiya???
+|
+|switch|p1a: ANUBIS|Dragonite|385\/385
+|move|p2a: Chansey|Thunderbolt|p1a: ANUBIS
+|-damage|p1a: ANUBIS|307\/385
+|
+|turn|9
+|
+|move|p1a: ANUBIS|Wrap|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|621\/703
+|-activate|p2a: Chansey|move: Wrap|[of] p1a: ANUBIS
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|10
+|c|★Feena|the names of your pokes
+|
+|switch|p2a: Lapras|Lapras|463\/463 slp
+|move|p1a: ANUBIS|Wrap|p2a: Lapras
+|-crit|p2a: Lapras
+|-damage|p2a: Lapras|430\/463 slp
+|-activate|p2a: Lapras|move: Wrap|[of] p1a: ANUBIS
+|
+|turn|11
+|
+|switch|p1a: PU-TAI|Snorlax|339\/523 par
+|cant|p2a: Lapras|slp
+|
+|-end|p2a: Lapras|Wrap|[partiallytrapped]
+|turn|12
+|
+|cant|p2a: Lapras|slp
+|move|p1a: PU-TAI|Mega Kick|p2a: Lapras
+|-damage|p2a: Lapras|260\/463 slp
+|
+|turn|13
+|c|★PK Mastr|faaaaast assleeep
+|
+|cant|p2a: Lapras|slp
+|-curestatus|p2a: Lapras|slp
+|move|p1a: PU-TAI|Mega Kick|p2a: Lapras
+|-damage|p2a: Lapras|83\/463
+|
+|turn|14
+|
+|move|p2a: Lapras|Confuse Ray|p1a: PU-TAI
+|-start|p1a: PU-TAI|confusion
+|cant|p1a: PU-TAI|par
+|
+|turn|15
+|c|★PK Mastr|nice
+|
+|switch|p1a: NEBULA|Starmie|323\/323
+|move|p2a: Lapras|Blizzard|p1a: NEBULA
+|-resisted|p1a: NEBULA
+|-damage|p1a: NEBULA|257\/323
+|-status|p1a: NEBULA|frz
+|
+|turn|16
+|c|★PK Mastr|if ik my laprass
+|c|★PK Mastr|wtf!
+|c|★Feena|you are water
+|c|★Feena|not ice
+|c|★PK Mastr|ik ):
+|
+|cant|p1a: NEBULA|frz
+|move|p2a: Lapras|Blizzard|p1a: NEBULA
+|-resisted|p1a: NEBULA
+|-damage|p1a: NEBULA|187\/323 frz
+|
+|turn|17
+|
+|switch|p2a: Chansey|Chansey|621\/703
+|cant|p1a: NEBULA|frz
+|
+|turn|18
+|c|★PK Mastr|no rest?
+|
+|cant|p1a: NEBULA|frz
+|move|p2a: Chansey|Ice Beam|p1a: NEBULA
+|-resisted|p1a: NEBULA
+|-damage|p1a: NEBULA|149\/323 frz
+|
+|turn|19
+|
+|cant|p1a: NEBULA|frz
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703
+|
+|turn|20
+|c|★PK Mastr|sigh well that's sad
+|
+|cant|p1a: NEBULA|frz
+|move|p2a: Chansey|Thunderbolt|p1a: NEBULA
+|-supereffective|p1a: NEBULA
+|-damage|p1a: NEBULA|0 fnt
+|faint|p1a: NEBULA
+|
+|switch|p1a: PU-TAI|Snorlax|339\/523 par
+|turn|21
+|
+|move|p2a: Chansey|Ice Beam|p1a: PU-TAI
+|-damage|p1a: PU-TAI|230\/523 par
+|move|p1a: PU-TAI|Mega Kick|p2a: Chansey
+|-damage|p2a: Chansey|263\/703
+|
+|turn|22
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|614\/703
+|move|p1a: PU-TAI|Mega Kick|p2a: Chansey|[miss]
+|-miss|p1a: PU-TAI
+|
+|turn|23
+|
+|switch|p2a: Lapras|Lapras|83\/463
+|cant|p1a: PU-TAI|par
+|
+|turn|24
+|
+|move|p2a: Lapras|Blizzard|p1a: PU-TAI|[miss]
+|-miss|p2a: Lapras
+|move|p1a: PU-TAI|Mega Kick|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|
+|switch|p2a: Exeggutor|Exeggutor|134\/393
+|turn|25
+|c|★PK Mastr|ouch that hurt, srry
+|
+|move|p2a: Exeggutor|Psychic|p1a: PU-TAI
+|-damage|p1a: PU-TAI|71\/523 par
+|move|p1a: PU-TAI|Mega Kick|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Chansey|Chansey|614\/703
+|turn|26
+|
+|switch|p1a: ESP|Alakazam|313\/313
+|move|p2a: Chansey|Ice Beam|p1a: ESP
+|-damage|p1a: ESP|250\/313
+|
+|turn|27
+|
+|move|p1a: ESP|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|cant|p2a: Chansey|par
+|
+|turn|28
+|
+|switch|p1a: PU-TAI|Snorlax|71\/523 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703 par
+|
+|turn|29
+|
+|move|p2a: Chansey|Ice Beam|p1a: PU-TAI
+|-damage|p1a: PU-TAI|0 fnt
+|faint|p1a: PU-TAI
+|
+|switch|p1a: ANUBIS|Dragonite|307\/385
+|turn|30
+|
+|move|p1a: ANUBIS|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|660\/703 par
+|-activate|p2a: Chansey|move: Wrap|[of] p1a: ANUBIS
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|31
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: ANUBIS|Wrap|p2a: Snorlax|[miss]
+|-miss|p1a: ANUBIS
+|
+|turn|32
+|
+|move|p1a: ANUBIS|Wrap|p2a: Snorlax
+|-damage|p2a: Snorlax|503\/523
+|-activate|p2a: Snorlax|move: Wrap|[of] p1a: ANUBIS
+|cant|p2a: Snorlax|partiallytrapped
+|
+|turn|33
+|
+|switch|p2a: Chansey|Chansey|660\/703 par
+|move|p1a: ANUBIS|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|622\/703 par
+|-activate|p2a: Chansey|move: Wrap|[of] p1a: ANUBIS
+|
+|turn|34
+|c|★PK Mastr|i like your team
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|move|p1a: ANUBIS|Wrap|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|322\/353
+|-activate|p2a: Tauros|move: Wrap|[of] p1a: ANUBIS
+|
+|turn|35
+|c|★PK Mastr|you should nickname them
+|c|★Feena|yeah
+|c|★PK Mastr|make them your own!
+|c|★Feena|generally tauros is named sparky
+|c|★Feena|:P
+|
+|switch|p2a: Chansey|Chansey|622\/703 par
+|move|p1a: ANUBIS|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|580\/703 par
+|-activate|p2a: Chansey|move: Wrap|[of] p1a: ANUBIS
+|
+|turn|36
+|
+|move|p1a: ANUBIS|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|538\/703 par
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|37
+|c|★PK Mastr|sparky? hmm ineresting
+|
+|move|p1a: ANUBIS|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|496\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|38
+|c|★Feena|do you remember tracy?
+|c|★Feena|of pokemon
+|c|★PK Mastr|aaaah yeah!!!
+|c|★Feena|the anime
+|c|★PK Mastr|that's awesome!
+|c|★Feena|his pikachu has that nickname
+|
+|switch|p2a: Tauros|Tauros|322\/353
+|move|p1a: ANUBIS|Wrap|p2a: Tauros
+|-damage|p2a: Tauros|306\/353
+|-activate|p2a: Tauros|move: Wrap|[of] p1a: ANUBIS
+|
+|turn|39
+|
+|switch|p2a: Snorlax|Snorlax|503\/523
+|move|p1a: ANUBIS|Wrap|p2a: Snorlax
+|-damage|p2a: Snorlax|481\/523
+|-activate|p2a: Snorlax|move: Wrap|[of] p1a: ANUBIS
+|
+|turn|40
+|
+|switch|p2a: Chansey|Chansey|496\/703 par
+|move|p1a: ANUBIS|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|456\/703 par
+|-activate|p2a: Chansey|move: Wrap|[of] p1a: ANUBIS
+|
+|turn|41
+|
+|switch|p2a: Snorlax|Snorlax|481\/523
+|move|p1a: ANUBIS|Wrap|p2a: Snorlax
+|-damage|p2a: Snorlax|461\/523
+|-activate|p2a: Snorlax|move: Wrap|[of] p1a: ANUBIS
+|
+|turn|42
+|c|★PK Mastr|i wander if i can take a hit??
+|
+|move|p1a: ANUBIS|Wrap|p2a: Snorlax
+|-damage|p2a: Snorlax|441\/523
+|cant|p2a: Snorlax|partiallytrapped
+|
+|turn|43
+|
+|move|p1a: ANUBIS|Wrap|p2a: Snorlax
+|-damage|p2a: Snorlax|421\/523
+|cant|p2a: Snorlax|partiallytrapped
+|
+|-end|p2a: Snorlax|Wrap|[partiallytrapped]
+|turn|44
+|
+|switch|p2a: Tauros|Tauros|306\/353
+|move|p1a: ANUBIS|Wrap|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|276\/353
+|-activate|p2a: Tauros|move: Wrap|[of] p1a: ANUBIS
+|
+|turn|45
+|c|★PK Mastr|eather or ill like a rematch!!
+|
+|switch|p2a: Chansey|Chansey|456\/703 par
+|move|p1a: ANUBIS|Wrap|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|377\/703 par
+|-activate|p2a: Chansey|move: Wrap|[of] p1a: ANUBIS
+|
+|turn|46
+|
+|move|p1a: ANUBIS|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|298\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|47
+|
+|move|p1a: ANUBIS|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|219\/703 par
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|48
+|
+|move|p1a: ANUBIS|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|140\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|49
+|
+|move|p1a: ANUBIS|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|61\/703 par
+|cant|p2a: Chansey|partiallytrapped
+|
+|-end|p2a: Chansey|Wrap|[partiallytrapped]
+|turn|50
+|
+|move|p1a: ANUBIS|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|20\/703 par
+|-activate|p2a: Chansey|move: Wrap|[of] p1a: ANUBIS
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|51
+|c|★PK Mastr|9 left
+|
+|move|p1a: ANUBIS|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|c|★PK Mastr|don't sacrifice here ):
+|
+|switch|p2a: Tauros|Tauros|276\/353
+|turn|52
+|
+|switch|p1a: ESP|Alakazam|250\/313
+|move|p2a: Tauros|Blizzard|p1a: ESP
+|-crit|p1a: ESP
+|-damage|p1a: ESP|130\/313
+|
+|turn|53
+|
+|switch|p2a: Snorlax|Snorlax|421\/523
+|move|p1a: ESP|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|
+|turn|54
+|
+|move|p1a: ESP|Recover|p1a: ESP
+|-heal|p1a: ESP|286\/313
+|move|p2a: Snorlax|Body Slam|p1a: ESP
+|-damage|p1a: ESP|128\/313
+|
+|turn|55
+|
+|move|p1a: ESP|Recover|p1a: ESP
+|-heal|p1a: ESP|284\/313
+|move|p2a: Snorlax|Body Slam|p1a: ESP
+|-damage|p1a: ESP|116\/313
+|
+|turn|56
+|
+|move|p1a: ESP|Recover|p1a: ESP
+|-heal|p1a: ESP|272\/313
+|move|p2a: Snorlax|Body Slam|p1a: ESP
+|-damage|p1a: ESP|104\/313
+|
+|turn|57
+|
+|move|p1a: ESP|Recover|p1a: ESP
+|-heal|p1a: ESP|260\/313
+|cant|p2a: Snorlax|par
+|
+|turn|58
+|c|★PK Mastr|-.-
+|
+|move|p1a: ESP|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|236\/523 par
+|cant|p2a: Snorlax|par
+|
+|turn|59
+|c|★PK Mastr|its a pretty close game
+|
+|move|p1a: ESP|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|64\/523 par
+|move|p2a: Snorlax|Body Slam|p1a: ESP
+|-damage|p1a: ESP|103\/313
+|-status|p1a: ESP|par
+|
+|turn|60
+|c|★PK Mastr|sry for being annoying with dragonite and para
+|
+|move|p1a: ESP|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|switch|p2a: Tauros|Tauros|276\/353
+|turn|61
+|
+|move|p2a: Tauros|Body Slam|p1a: ESP
+|-damage|p1a: ESP|0 fnt
+|faint|p1a: ESP
+|
+|switch|p1a: ANUBIS|Dragonite|307\/385
+|turn|62
+|c|★Feena|i don´t like it but is part of the game
+|
+|move|p2a: Tauros|Blizzard|p1a: ANUBIS
+|-supereffective|p1a: ANUBIS
+|-damage|p1a: ANUBIS|0 fnt
+|faint|p1a: ANUBIS
+|
+|switch|p1a: TRIFORCE|Tauros|353\/353
+|turn|63
+|c|★PK Mastr|wow
+|c|★Feena|zelda power?
+|
+|move|p2a: Tauros|Body Slam|p1a: TRIFORCE
+|-damage|p1a: TRIFORCE|249\/353
+|move|p1a: TRIFORCE|Body Slam|p2a: Tauros|[miss]
+|-miss|p1a: TRIFORCE
+|
+|turn|64
+|c|★PK Mastr|woow i missed it -__-
+|
+|move|p2a: Tauros|Body Slam|p1a: TRIFORCE
+|-damage|p1a: TRIFORCE|138\/353
+|move|p1a: TRIFORCE|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|170\/353
+|
+|turn|65
+|
+|move|p1a: TRIFORCE|Hyper Beam|p2a: Tauros
+|-damage|p2a: Tauros|3\/353
+|move|p2a: Tauros|Hyper Beam|p1a: TRIFORCE
+|-damage|p1a: TRIFORCE|0 fnt
+|faint|p1a: TRIFORCE
+|
+|win|Feena
+|raw|Ladder updating...
+|raw|PK Mastr's rating: 1178 &rarr; <strong>1165<\/strong><br \/>(-13 for losing)
+|raw|Feena's rating: 1368 &rarr; <strong>1378<\/strong><br \/>(+10 for winning)
+|c|★PK Mastr|flip of a coin!
+|c|★PK Mastr|omg
+|c|★Feena|omg
+|c|★Feena|gg
+|c|★PK Mastr|wow what a great game
+|c|★Feena|yeah
+|c|★PK Mastr|worth the lost
+|c|★Feena|it was fair that i lose that match
+|c|★Feena|it should be*
+|c|★PK Mastr|fair is fair
+|c|★Feena|sorry for my broken english
+|c|★PK Mastr|lol np
+|c|★Feena|see you soon

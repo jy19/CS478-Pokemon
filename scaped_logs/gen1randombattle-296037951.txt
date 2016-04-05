@@ -1,0 +1,165 @@
+﻿|join|MALESANI
+|join|Cilan (Dento)!
+|player|p1|MALESANI|238
+|player|p2|Cilan (Dento)!|180
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|5620,25251,64020,1978
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Kakuna|Kakuna, L99|290\/290
+|switch|p2a: Moltres|Moltres, L85|327\/327
+|turn|1
+|choice|move 2|move 2
+|
+|move|p2a: Moltres|Sky Attack|p1a: Kakuna|[still]
+|-prepare|p2a: Moltres|Sky Attack|p1a: Kakuna
+|move|p1a: Kakuna|String Shot|p2a: Moltres
+|-unboost|p2a: Moltres|spe|1
+|
+|turn|2
+|choice|move 2|move 1
+|
+|move|p1a: Kakuna|String Shot|p2a: Moltres
+|-unboost|p2a: Moltres|spe|1
+|move|p2a: Moltres|Sky Attack|p1a: Kakuna|[miss]
+|-miss|p2a: Moltres
+|
+|turn|3
+|choice|move 1|move 4
+|
+|move|p1a: Kakuna|Poison Sting|p2a: Moltres
+|-damage|p2a: Moltres|315\/327
+|move|p2a: Moltres|Hyper Beam|p1a: Kakuna
+|-damage|p1a: Kakuna|157\/290
+|
+|turn|4
+|-mustrecharge|p2a: Moltres
+|-mustrecharge|p2a: Moltres
+|choice|switch 4|move 1
+|
+|switch|p1a: Zapdos|Zapdos, L79|304\/304
+|cant|p2a: Moltres|recharge
+|
+|turn|5
+|c|★Cilan (Dento)!|:O super intense !
+|choice|move 3|move 1
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|148\/327
+|move|p2a: Moltres|Fire Blast|p1a: Zapdos
+|-damage|p1a: Zapdos|172\/304
+|
+|turn|6
+|choice|move 4|move 4
+|
+|move|p1a: Zapdos|Thunder Wave|p2a: Moltres
+|-status|p2a: Moltres|par
+|move|p2a: Moltres|Hyper Beam|p1a: Zapdos
+|-damage|p1a: Zapdos|43\/304
+|
+|turn|7
+|-mustrecharge|p2a: Moltres
+|-mustrecharge|p2a: Moltres
+|choice|move 3|move 1
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|c|★Cilan (Dento)!|_.-
+|c|★Cilan (Dento)!|;-;
+|c|★Cilan (Dento)!|;_; i saw that coming from 10000 miles away.
+|choice||switch 3
+|
+|switch|p2a: Nidorina|Nidorina, L90|309\/309
+|turn|8
+|c|★MALESANI|haha
+|choice|move 3|move 1
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Nidorina
+|-damage|p2a: Nidorina|176\/309
+|move|p2a: Nidorina|Blizzard|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|choice|switch 5|
+|
+|switch|p1a: Mewtwo|Mewtwo, L68|285\/285
+|turn|9
+|c|★Cilan (Dento)!|rekt m923
+|choice|move 1|move 1
+|
+|move|p1a: Mewtwo|Psychic|p2a: Nidorina
+|-supereffective|p2a: Nidorina
+|-damage|p2a: Nidorina|0 fnt
+|faint|p2a: Nidorina
+|choice||switch 6
+|
+|switch|p2a: Jynx|Jynx, L79|265\/265
+|turn|10
+|choice|switch 4|move 3
+|
+|switch|p1a: Kakuna|Kakuna, L99|157\/290
+|move|p2a: Jynx|Lovely Kiss|p1a: Kakuna
+|-status|p1a: Kakuna|slp
+|
+|turn|11
+|choice|switch 4|move 4
+|
+|switch|p1a: Mewtwo|Mewtwo, L68|285\/285
+|move|p2a: Jynx|Mimic|p1a: Mewtwo
+|-start|p2a: Jynx|Mimic|Blizzard
+|
+|turn|12
+|choice|move 4|move 4
+|
+|move|p1a: Mewtwo|Amnesia|p1a: Mewtwo
+|-boost|p1a: Mewtwo|spd|2
+|-boost|p1a: Mewtwo|spa|2
+|move|p2a: Jynx|Blizzard|p1a: Mewtwo
+|-damage|p1a: Mewtwo|241\/285
+|
+|turn|13
+|choice|move 1|move 1
+|
+|move|p1a: Mewtwo|Psychic|p2a: Jynx
+|-resisted|p2a: Jynx
+|-damage|p2a: Jynx|176\/265
+|-unboost|p2a: Jynx|spd|1
+|-unboost|p2a: Jynx|spa|1
+|move|p2a: Jynx|Blizzard|p1a: Mewtwo
+|-damage|p1a: Mewtwo|211\/285
+|
+|turn|14
+|choice|move 1|move 3
+|
+|move|p1a: Mewtwo|Psychic|p2a: Jynx
+|-resisted|p2a: Jynx
+|-damage|p2a: Jynx|38\/265
+|move|p2a: Jynx|Lovely Kiss|p1a: Mewtwo
+|-message|Sleep Clause Mod activated.
+|
+|turn|15
+|choice|move 1|switch 2
+|
+|switch|p2a: Kingler|Kingler, L85|267\/267
+|move|p1a: Mewtwo|Psychic|p2a: Kingler
+|-crit|p2a: Kingler
+|-damage|p2a: Kingler|21\/267
+|
+|turn|16
+|c|★Cilan (Dento)!|I lost.
+|-message|Cilan (Dento)! forfeited.
+|
+|win|MALESANI
+|leave|Cilan (Dento)!
+|player|p2
+|raw|MALESANI's rating: 1326 &rarr; <strong>1333<\/strong><br \/>(+7 for winning)
+|raw|Cilan (Dento)!'s rating: 1043 &rarr; <strong>1037<\/strong><br \/>(-6 for losing)

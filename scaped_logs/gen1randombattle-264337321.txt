@@ -1,0 +1,279 @@
+﻿|join|benrutista13
+|join|Squadra di golbat
+|player|p1|benrutista13|144
+|player|p2|Squadra di golbat|101
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Wartortle|Wartortle, L85|274\/274
+|switch|p2a: Abra|Abra, L96|243\/243
+|turn|1
+|
+|move|p2a: Abra|Thunder Wave|p1a: Wartortle
+|-status|p1a: Wartortle|par
+|move|p1a: Wartortle|Hydro Pump|p2a: Abra
+|-damage|p2a: Abra|163\/243
+|
+|turn|2
+|
+|switch|p2a: Magneton|Magneton, L90|273\/273
+|move|p1a: Wartortle|Blizzard|p2a: Magneton
+|-damage|p2a: Magneton|218\/273
+|
+|turn|3
+|
+|switch|p1a: Rhydon|Rhydon, L79|328\/328
+|move|p2a: Magneton|Thunderbolt|p1a: Rhydon
+|-immune|p1a: Rhydon|[msg]
+|
+|turn|4
+|
+|switch|p2a: Metapod|Metapod, L99|300\/300
+|move|p1a: Rhydon|Earthquake|p2a: Metapod
+|-resisted|p2a: Metapod
+|-damage|p2a: Metapod|239\/300
+|
+|turn|5
+|
+|move|p2a: Metapod|Harden|p2a: Metapod
+|-boost|p2a: Metapod|def|1
+|move|p1a: Rhydon|Body Slam|p2a: Metapod
+|-damage|p2a: Metapod|194\/300
+|
+|turn|6
+|
+|switch|p1a: Ninetales|Ninetales, L85|298\/298
+|move|p2a: Metapod|Harden|p2a: Metapod
+|-boost|p2a: Metapod|def|1
+|
+|turn|7
+|
+|move|p1a: Ninetales|Fire Blast|p2a: Metapod
+|-supereffective|p2a: Metapod
+|-damage|p2a: Metapod|0 fnt
+|faint|p2a: Metapod
+|
+|switch|p2a: Golem|Golem, L79|288\/288
+|turn|8
+|
+|switch|p1a: Wartortle|Wartortle, L85|274\/274 par
+|move|p2a: Golem|Earthquake|p1a: Wartortle
+|-damage|p1a: Wartortle|174\/274 par
+|
+|turn|9
+|
+|switch|p2a: Magneton|Magneton, L90|218\/273
+|move|p1a: Wartortle|Hydro Pump|p2a: Magneton
+|-damage|p2a: Magneton|135\/273
+|
+|turn|10
+|
+|switch|p1a: Rhydon|Rhydon, L79|328\/328
+|move|p2a: Magneton|Mimic|p1a: Rhydon
+|-start|p2a: Magneton|Mimic|Earthquake
+|
+|turn|11
+|
+|move|p2a: Magneton|Earthquake|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|219\/328
+|move|p1a: Rhydon|Earthquake|p2a: Magneton
+|-supereffective|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|faint|p2a: Magneton
+|
+|switch|p2a: Vileplume|Vileplume, L90|318\/318
+|turn|12
+|
+|switch|p1a: Ninetales|Ninetales, L85|298\/298
+|move|p2a: Vileplume|Sleep Powder|p1a: Ninetales
+|-status|p1a: Ninetales|slp
+|
+|turn|13
+|
+|cant|p1a: Ninetales|slp
+|move|p2a: Vileplume|Swords Dance|p2a: Vileplume
+|-boost|p2a: Vileplume|atk|2
+|
+|turn|14
+|
+|cant|p1a: Ninetales|slp
+|move|p2a: Vileplume|Swords Dance|p2a: Vileplume
+|-boost|p2a: Vileplume|atk|2
+|
+|turn|15
+|
+|-curestatus|p1a: Ninetales|slp
+|move|p2a: Vileplume|Body Slam|p1a: Ninetales
+|-crit|p1a: Ninetales
+|-damage|p1a: Ninetales|161\/298
+|
+|turn|16
+|
+|switch|p2a: Ditto|Ditto, L99|296\/296
+|move|p1a: Ninetales|Fire Blast|p2a: Ditto
+|-damage|p2a: Ditto|124\/296
+|-status|p2a: Ditto|brn
+|
+|turn|17
+|
+|move|p1a: Ninetales|Fire Blast|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|
+|switch|p2a: Golem|Golem, L79|288\/288
+|turn|18
+|
+|switch|p1a: Wartortle|Wartortle, L85|174\/274 par
+|move|p2a: Golem|Earthquake|p1a: Wartortle
+|-damage|p1a: Wartortle|69\/274 par
+|
+|turn|19
+|
+|move|p2a: Golem|Earthquake|p1a: Wartortle
+|-crit|p1a: Wartortle
+|-damage|p1a: Wartortle|0 fnt
+|faint|p1a: Wartortle
+|
+|switch|p1a: Rhydon|Rhydon, L79|219\/328
+|turn|20
+|
+|switch|p2a: Vileplume|Vileplume, L90|318\/318
+|move|p1a: Rhydon|Earthquake|p2a: Vileplume
+|-crit|p2a: Vileplume
+|-damage|p2a: Vileplume|89\/318
+|
+|turn|21
+|
+|move|p2a: Vileplume|Mega Drain|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|-heal|p2a: Vileplume|198\/318|[from] drain|[of] p1a: Rhydon
+|faint|p1a: Rhydon
+|
+|switch|p1a: Ninetales|Ninetales, L85|161\/298
+|turn|22
+|
+|switch|p2a: Golem|Golem, L79|288\/288
+|move|p1a: Ninetales|Toxic|p2a: Golem
+|-status|p2a: Golem|tox
+|
+|turn|23
+|
+|switch|p1a: Nidoran-M|Nidoran-M, L96|283\/283
+|move|p2a: Golem|Earthquake|p1a: Nidoran-M
+|-supereffective|p1a: Nidoran-M
+|-damage|p1a: Nidoran-M|6\/283
+|-damage|p2a: Golem|270\/288 tox|[from] tox|[of] p1a: Nidoran-M
+|
+|turn|24
+|
+|move|p1a: Nidoran-M|Body Slam|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|248\/288 tox
+|move|p2a: Golem|Earthquake|p1a: Nidoran-M
+|-crit|p1a: Nidoran-M
+|-supereffective|p1a: Nidoran-M
+|-damage|p1a: Nidoran-M|0 fnt
+|faint|p1a: Nidoran-M
+|
+|switch|p1a: Persian|Persian, L79|265\/265
+|turn|25
+|
+|move|p1a: Persian|Hyper Beam|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|198\/288 tox
+|move|p2a: Golem|Earthquake|p1a: Persian
+|-damage|p1a: Persian|129\/265
+|-damage|p2a: Golem|162\/288 tox|[from] tox|[of] p1a: Persian
+|
+|turn|26
+|-mustrecharge|p1a: Persian
+|-mustrecharge|p1a: Persian
+|
+|cant|p1a: Persian|recharge
+|move|p2a: Golem|Earthquake|p1a: Persian
+|-damage|p1a: Persian|2\/265
+|-damage|p2a: Golem|108\/288 tox|[from] tox|[of] p1a: Persian
+|
+|turn|27
+|
+|move|p1a: Persian|Hyper Beam|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|64\/288 tox
+|move|p2a: Golem|Earthquake|p1a: Persian
+|-damage|p1a: Persian|0 fnt
+|faint|p1a: Persian
+|
+|switch|p1a: Ninetales|Ninetales, L85|161\/298
+|turn|28
+|
+|move|p1a: Ninetales|Fire Blast|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|
+|switch|p2a: Abra|Abra, L96|163\/243
+|turn|29
+|
+|move|p2a: Abra|Psychic|p1a: Ninetales
+|-crit|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|switch|p1a: Jynx|Jynx, L79|265\/265
+|turn|30
+|
+|move|p2a: Abra|Thunder Wave|p1a: Jynx
+|-status|p1a: Jynx|par
+|move|p1a: Jynx|Blizzard|p2a: Abra
+|-damage|p2a: Abra|81\/243
+|
+|turn|31
+|
+|move|p2a: Abra|Psychic|p1a: Jynx
+|-crit|p1a: Jynx
+|-resisted|p1a: Jynx
+|-damage|p1a: Jynx|145\/265 par
+|cant|p1a: Jynx|par
+|
+|turn|32
+|
+|move|p2a: Abra|Psychic|p1a: Jynx
+|-resisted|p1a: Jynx
+|-damage|p1a: Jynx|82\/265 par
+|move|p1a: Jynx|Psychic|p2a: Abra
+|-crit|p2a: Abra
+|-resisted|p2a: Abra
+|-damage|p2a: Abra|19\/243
+|-unboost|p2a: Abra|spd|1
+|-unboost|p2a: Abra|spa|1
+|
+|turn|33
+|
+|move|p2a: Abra|Psychic|p1a: Jynx
+|-resisted|p1a: Jynx
+|-damage|p1a: Jynx|38\/265 par
+|-unboost|p1a: Jynx|spd|1
+|-unboost|p1a: Jynx|spa|1
+|cant|p1a: Jynx|par
+|
+|turn|34
+|
+|move|p2a: Abra|Psychic|p1a: Jynx
+|-crit|p1a: Jynx
+|-resisted|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|
+|win|Squadra di golbat
+|raw|benrutista13's rating: 1053 &rarr; <strong>1040<\/strong><br \/>(-13 for losing)
+|raw|Squadra di golbat's rating: 1156 &rarr; <strong>1174<\/strong><br \/>(+18 for winning)
+|leave|benrutista13
+|player|p1

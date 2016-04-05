@@ -1,0 +1,316 @@
+﻿|join|Rickmeisterflex
+|join|Xinard
+|player|p1|Rickmeisterflex|101
+|player|p2|Xinard|169
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Onix|Onix, L86|236\/236
+|switch|p2a: Sandslash|Sandslash, L86|304\/304
+|turn|1
+|
+|switch|p1a: Farfetch'd|Farfetch'd, L99|304\/304
+|move|p2a: Sandslash|Earthquake|p1a: Farfetch'd
+|-immune|p1a: Farfetch'd|[msg]
+|
+|turn|2
+|
+|switch|p2a: Raichu|Raichu, L86|279\/279
+|move|p1a: Farfetch'd|Swords Dance|p1a: Farfetch'd
+|-boost|p1a: Farfetch'd|atk|2
+|
+|turn|3
+|
+|move|p2a: Raichu|Thunder Wave|p1a: Farfetch'd
+|-status|p1a: Farfetch'd|par
+|move|p1a: Farfetch'd|Slash|p2a: Raichu
+|-crit|p2a: Raichu
+|-damage|p2a: Raichu|70\/279
+|
+|turn|4
+|
+|move|p2a: Raichu|Body Slam|p1a: Farfetch'd
+|-damage|p1a: Farfetch'd|236\/304 par
+|cant|p1a: Farfetch'd|par
+|
+|turn|5
+|
+|move|p2a: Raichu|Hyper Beam|p1a: Farfetch'd
+|-damage|p1a: Farfetch'd|118\/304 par
+|move|p1a: Farfetch'd|Slash|p2a: Raichu
+|-crit|p2a: Raichu
+|-damage|p2a: Raichu|0 fnt
+|faint|p2a: Raichu
+|
+|switch|p2a: Sandslash|Sandslash, L86|304\/304
+|turn|6
+|
+|move|p2a: Sandslash|Body Slam|p1a: Farfetch'd
+|-damage|p1a: Farfetch'd|46\/304 par
+|move|p1a: Farfetch'd|Slash|p2a: Sandslash
+|-crit|p2a: Sandslash
+|-damage|p2a: Sandslash|172\/304
+|
+|turn|7
+|
+|move|p2a: Sandslash|Body Slam|p1a: Farfetch'd
+|-damage|p1a: Farfetch'd|0 fnt
+|faint|p1a: Farfetch'd
+|
+|switch|p1a: Ivysaur|Ivysaur, L86|279\/279
+|turn|8
+|
+|switch|p2a: Flareon|Flareon, L86|287\/287
+|move|p1a: Ivysaur|Sleep Powder|p2a: Flareon|[miss]
+|-miss|p1a: Ivysaur
+|
+|turn|9
+|
+|switch|p1a: Onix|Onix, L86|236\/236
+|move|p2a: Flareon|Fire Blast|p1a: Onix
+|-resisted|p1a: Onix
+|-damage|p1a: Onix|125\/236
+|
+|turn|10
+|
+|switch|p2a: Tangela|Tangela, L86|287\/287
+|move|p1a: Onix|Earthquake|p2a: Tangela
+|-crit|p2a: Tangela
+|-resisted|p2a: Tangela
+|-damage|p2a: Tangela|234\/287
+|
+|turn|11
+|
+|move|p1a: Onix|Explosion|p2a: Tangela
+|-crit|p2a: Tangela
+|-damage|p2a: Tangela|0 fnt
+|faint|p2a: Tangela
+|faint|p1a: Onix
+|
+|switch|p2a: Flareon|Flareon, L86|287\/287
+|switch|p1a: Machoke|Machoke, L86|313\/313
+|turn|12
+|
+|move|p2a: Flareon|Fire Blast|p1a: Machoke
+|-damage|p1a: Machoke|117\/313
+|-status|p1a: Machoke|brn
+|move|p1a: Machoke|Double-Edge|p2a: Flareon
+|-damage|p2a: Flareon|240\/287
+|-damage|p1a: Machoke|106\/313 brn|[from] recoil|[of] p2a: Flareon
+|-damage|p1a: Machoke|87\/313 brn|[from] brn|[of] p2a: Flareon
+|
+|turn|13
+|c|★Rickmeisterflex|fagit
+|
+|move|p2a: Flareon|Fire Blast|p1a: Machoke
+|-damage|p1a: Machoke|0 fnt
+|faint|p1a: Machoke
+|
+|switch|p1a: Nidoqueen|Nidoqueen, L86|330\/330
+|turn|14
+|
+|switch|p2a: Metapod|Metapod, L99|300\/300
+|move|p1a: Nidoqueen|Earthquake|p2a: Metapod
+|-resisted|p2a: Metapod
+|-damage|p2a: Metapod|248\/300
+|
+|turn|15
+|
+|move|p1a: Nidoqueen|Body Slam|p2a: Metapod
+|-damage|p2a: Metapod|187\/300
+|move|p2a: Metapod|String Shot|p1a: Nidoqueen
+|-unboost|p1a: Nidoqueen|spe|1
+|
+|turn|16
+|
+|move|p2a: Metapod|Harden|p2a: Metapod
+|-boost|p2a: Metapod|def|1
+|move|p1a: Nidoqueen|Body Slam|p2a: Metapod
+|-damage|p2a: Metapod|144\/300
+|
+|turn|17
+|
+|move|p2a: Metapod|Tackle|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|315\/330
+|move|p1a: Nidoqueen|Thunderbolt|p2a: Metapod
+|-damage|p2a: Metapod|51\/300
+|
+|turn|18
+|
+|switch|p1a: Ivysaur|Ivysaur, L86|279\/279
+|move|p2a: Metapod|Tackle|p1a: Ivysaur
+|-damage|p1a: Ivysaur|259\/279
+|
+|turn|19
+|
+|move|p1a: Ivysaur|Swords Dance|p1a: Ivysaur
+|-boost|p1a: Ivysaur|atk|2
+|move|p2a: Metapod|String Shot|p1a: Ivysaur
+|-unboost|p1a: Ivysaur|spe|1
+|
+|turn|20
+|
+|move|p2a: Metapod|Tackle|p1a: Ivysaur
+|-damage|p1a: Ivysaur|241\/279
+|move|p1a: Ivysaur|Body Slam|p2a: Metapod
+|-damage|p2a: Metapod|0 fnt
+|faint|p2a: Metapod
+|
+|switch|p2a: Flareon|Flareon, L86|240\/287
+|turn|21
+|
+|move|p2a: Flareon|Fire Blast|p1a: Ivysaur
+|-supereffective|p1a: Ivysaur
+|-damage|p1a: Ivysaur|0 fnt
+|faint|p1a: Ivysaur
+|
+|switch|p1a: Nidoqueen|Nidoqueen, L86|315\/330
+|turn|22
+|
+|move|p1a: Nidoqueen|Earthquake|p2a: Flareon
+|-crit|p2a: Flareon
+|-supereffective|p2a: Flareon
+|-damage|p2a: Flareon|0 fnt
+|faint|p2a: Flareon
+|
+|switch|p2a: Sandslash|Sandslash, L86|172\/304
+|turn|23
+|
+|move|p1a: Nidoqueen|Blizzard|p2a: Sandslash
+|-supereffective|p2a: Sandslash
+|-damage|p2a: Sandslash|0 fnt
+|faint|p2a: Sandslash
+|
+|switch|p2a: Vaporeon|Vaporeon, L86|399\/399
+|turn|24
+|
+|move|p1a: Nidoqueen|Thunderbolt|p2a: Vaporeon
+|-crit|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|220\/399
+|move|p2a: Vaporeon|Hydro Pump|p1a: Nidoqueen|[miss]
+|-miss|p2a: Vaporeon
+|
+|turn|25
+|
+|move|p1a: Nidoqueen|Thunderbolt|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|123\/399
+|move|p2a: Vaporeon|Hydro Pump|p1a: Nidoqueen
+|-supereffective|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|12\/330
+|
+|turn|26
+|
+|move|p1a: Nidoqueen|Thunderbolt|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|22\/399
+|move|p2a: Vaporeon|Rest|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp
+|-heal|p2a: Vaporeon|399\/399 slp|[silent]
+|-status|p2a: Vaporeon|slp|[from] move: Rest
+|
+|turn|27
+|
+|move|p1a: Nidoqueen|Thunderbolt|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|305\/399 slp
+|cant|p2a: Vaporeon|slp
+|
+|turn|28
+|
+|move|p1a: Nidoqueen|Thunderbolt|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|208\/399 slp
+|cant|p2a: Vaporeon|slp
+|-curestatus|p2a: Vaporeon|slp
+|
+|turn|29
+|
+|move|p1a: Nidoqueen|Thunderbolt|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|111\/399
+|move|p2a: Vaporeon|Body Slam|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|0 fnt
+|faint|p1a: Nidoqueen
+|
+|switch|p1a: Charmeleon|Charmeleon, L86|275\/275
+|turn|30
+|
+|move|p1a: Charmeleon|Slash|p2a: Vaporeon
+|-crit|p2a: Vaporeon
+|-damage|p2a: Vaporeon|15\/399
+|move|p2a: Vaporeon|Rest|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp
+|-heal|p2a: Vaporeon|399\/399 slp|[silent]
+|-status|p2a: Vaporeon|slp|[from] move: Rest
+|
+|turn|31
+|
+|move|p1a: Charmeleon|Swords Dance|p1a: Charmeleon
+|-boost|p1a: Charmeleon|atk|2
+|cant|p2a: Vaporeon|slp
+|
+|turn|32
+|
+|move|p1a: Charmeleon|Slash|p2a: Vaporeon
+|-crit|p2a: Vaporeon
+|-damage|p2a: Vaporeon|300\/399 slp
+|cant|p2a: Vaporeon|slp
+|-curestatus|p2a: Vaporeon|slp
+|
+|turn|33
+|
+|move|p1a: Charmeleon|Slash|p2a: Vaporeon
+|-crit|p2a: Vaporeon
+|-damage|p2a: Vaporeon|207\/399
+|move|p2a: Vaporeon|Hydro Pump|p1a: Charmeleon|[miss]
+|-miss|p2a: Vaporeon
+|
+|turn|34
+|c|★Rickmeisterflex|swords dance for nothing
+|
+|move|p1a: Charmeleon|Seismic Toss|p2a: Vaporeon
+|-damage|p2a: Vaporeon|121\/399
+|move|p2a: Vaporeon|Rest|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp
+|-heal|p2a: Vaporeon|399\/399 slp|[silent]
+|-status|p2a: Vaporeon|slp|[from] move: Rest
+|
+|turn|35
+|
+|move|p1a: Charmeleon|Slash|p2a: Vaporeon
+|-crit|p2a: Vaporeon
+|-damage|p2a: Vaporeon|305\/399 slp
+|cant|p2a: Vaporeon|slp
+|
+|turn|36
+|
+|move|p1a: Charmeleon|Slash|p2a: Vaporeon
+|-crit|p2a: Vaporeon
+|-damage|p2a: Vaporeon|205\/399 slp
+|cant|p2a: Vaporeon|slp
+|-curestatus|p2a: Vaporeon|slp
+|
+|turn|37
+|
+|move|p1a: Charmeleon|Slash|p2a: Vaporeon
+|-crit|p2a: Vaporeon
+|-damage|p2a: Vaporeon|113\/399
+|move|p2a: Vaporeon|Hydro Pump|p1a: Charmeleon
+|-supereffective|p1a: Charmeleon
+|-damage|p1a: Charmeleon|0 fnt
+|faint|p1a: Charmeleon
+|
+|win|Xinard
+|raw|Ladder updating...
+|raw|Rickmeisterflex's rating: 1246 &rarr; <strong>1228<\/strong><br \/>(-18 for losing)
+|raw|Xinard's rating: 1358 &rarr; <strong>1372<\/strong><br \/>(+14 for winning)
+|leave|Rickmeisterflex
+|player|p1

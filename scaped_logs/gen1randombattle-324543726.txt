@@ -1,0 +1,278 @@
+﻿|j|HenrytheSalamander
+|j|miguelthemagikarp
+|player|p1|HenrytheSalamander|165
+|player|p2|miguelthemagikarp|209
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|seed|195,53957,28379,48662
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Magneton|Magneton, L90|273\/273
+|switch|p2a: Voltorb|Voltorb, L96|272\/272
+|turn|1
+|choice|move 3|move Thunder Wave
+|
+|move|p2a: Voltorb|Thunder Wave|p1a: Magneton
+|-status|p1a: Magneton|par
+|move|p1a: Magneton|Thunder Wave|p2a: Voltorb
+|-status|p2a: Voltorb|par
+|
+|turn|2
+|choice|move 1|move Reflect
+|
+|move|p2a: Voltorb|Reflect|p2a: Voltorb
+|-start|p2a: Voltorb|Reflect
+|move|p1a: Magneton|Thunderbolt|p2a: Voltorb
+|-crit|p2a: Voltorb
+|-resisted|p2a: Voltorb
+|-damage|p2a: Voltorb|120\/272 par
+|
+|turn|3
+|choice|move 1|move Explosion
+|
+|cant|p2a: Voltorb|par
+|move|p1a: Magneton|Thunderbolt|p2a: Voltorb
+|-resisted|p2a: Voltorb
+|-damage|p2a: Voltorb|44\/272 par
+|
+|turn|4
+|choice|move 1|move Explosion
+|
+|move|p2a: Voltorb|Explosion|p1a: Magneton
+|-damage|p1a: Magneton|138\/273 par
+|faint|p2a: Voltorb
+|choice||switch 4
+|
+|switch|p2a: Ninetales|Ninetales, L85|298\/298
+|turn|5
+|choice|move 3|move Confuse Ray
+|
+|move|p2a: Ninetales|Confuse Ray|p1a: Magneton
+|-start|p1a: Magneton|confusion
+|-activate|p1a: Magneton|confusion
+|-damage|p1a: Magneton|113\/273 par|[from] confusion
+|
+|turn|6
+|choice|move 1|move Fire Blast
+|
+|move|p2a: Ninetales|Fire Blast|p1a: Magneton|[miss]
+|-miss|p2a: Ninetales
+|-activate|p1a: Magneton|confusion
+|move|p1a: Magneton|Thunderbolt|p2a: Ninetales
+|-crit|p2a: Ninetales
+|-damage|p2a: Ninetales|64\/298
+|
+|turn|7
+|choice|move 3|move Fire Blast
+|
+|move|p2a: Ninetales|Fire Blast|p1a: Magneton
+|-damage|p1a: Magneton|6\/273 par
+|-activate|p1a: Magneton|confusion
+|-damage|p1a: Magneton|0 fnt|[from] confusion
+|faint|p1a: Magneton
+|choice|switch 4|
+|
+|switch|p1a: Golduck|Golduck, L85|310\/310
+|turn|8
+|choice|move 3|move Confuse Ray
+|
+|move|p2a: Ninetales|Confuse Ray|p1a: Golduck
+|-start|p1a: Golduck|confusion
+|-activate|p1a: Golduck|confusion
+|move|p1a: Golduck|Surf|p2a: Ninetales
+|-crit|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|choice||switch 6
+|
+|switch|p2a: Slowbro|Slowbro, L79|312\/312
+|turn|9
+|choice|move 1|move Thunder Wave
+|
+|-activate|p1a: Golduck|confusion
+|-damage|p1a: Golduck|279\/310|[from] confusion
+|move|p2a: Slowbro|Thunder Wave|p1a: Golduck
+|-status|p1a: Golduck|par
+|
+|turn|10
+|choice|move 1|move Amnesia
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|-activate|p1a: Golduck|confusion
+|-damage|p1a: Golduck|248\/310 par|[from] confusion
+|
+|turn|11
+|choice|move 1|move Amnesia
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|cant|p1a: Golduck|par
+|
+|turn|12
+|choice|move 2|move Amnesia
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|-end|p1a: Golduck|confusion
+|move|p1a: Golduck|Rest|p1a: Golduck
+|-status|p1a: Golduck|slp
+|-heal|p1a: Golduck|310\/310 slp|[silent]
+|-status|p1a: Golduck|slp|[from] move: Rest
+|
+|turn|13
+|choice|move 1|move Surf
+|
+|move|p2a: Slowbro|Surf|p1a: Golduck
+|-resisted|p1a: Golduck
+|-damage|p1a: Golduck|156\/310 slp
+|cant|p1a: Golduck|slp
+|
+|turn|14
+|choice|move 1|move Surf
+|
+|move|p2a: Slowbro|Surf|p1a: Golduck
+|-resisted|p1a: Golduck
+|-damage|p1a: Golduck|0 fnt
+|faint|p1a: Golduck
+|choice|switch 2|
+|
+|switch|p1a: Venusaur|Venusaur, L85|310\/310
+|turn|15
+|choice|move 4|move Thunder Wave
+|
+|move|p1a: Venusaur|Razor Leaf|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|60\/312
+|move|p2a: Slowbro|Thunder Wave|p1a: Venusaur|[miss]
+|-miss|p2a: Slowbro
+|
+|turn|16
+|choice|move 4|move Thunder Wave
+|
+|move|p1a: Venusaur|Razor Leaf|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|choice||switch 3
+|
+|switch|p2a: Poliwhirl|Poliwhirl, L85|284\/284
+|turn|17
+|choice|move 4|move Hypnosis
+|
+|move|p2a: Poliwhirl|Hypnosis|p1a: Venusaur|[miss]
+|-miss|p2a: Poliwhirl
+|move|p1a: Venusaur|Razor Leaf|p2a: Poliwhirl
+|-crit|p2a: Poliwhirl
+|-supereffective|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|0 fnt
+|faint|p2a: Poliwhirl
+|choice||switch 5
+|
+|switch|p2a: Persian|Persian, L79|265\/265
+|turn|18
+|choice|move 2|move Slash
+|
+|move|p2a: Persian|Slash|p1a: Venusaur
+|-crit|p1a: Venusaur
+|-damage|p1a: Venusaur|204\/310
+|move|p1a: Venusaur|Leech Seed|p2a: Persian
+|-start|p2a: Persian|move: Leech Seed
+|
+|turn|19
+|choice|move 4|switch 2
+|
+|switch|p2a: Charmeleon|Charmeleon, L85|272\/272
+|move|p1a: Venusaur|Razor Leaf|p2a: Charmeleon
+|-crit|p2a: Charmeleon
+|-resisted|p2a: Charmeleon
+|-damage|p2a: Charmeleon|206\/272
+|
+|turn|20
+|choice|move 3|move Substitute
+|
+|move|p1a: Venusaur|Swords Dance|p1a: Venusaur
+|-boost|p1a: Venusaur|atk|2
+|move|p2a: Charmeleon|Substitute|p2a: Charmeleon
+|-start|p2a: Charmeleon|Substitute
+|-damage|p2a: Charmeleon|138\/272
+|
+|turn|21
+|choice|move 1|move Body Slam
+|
+|move|p2a: Charmeleon|Body Slam|p1a: Venusaur
+|-damage|p1a: Venusaur|152\/310
+|-status|p1a: Venusaur|par
+|move|p1a: Venusaur|Body Slam|p2a: Charmeleon
+|-end|p2a: Charmeleon|Substitute
+|
+|turn|22
+|choice|move 1|move Substitute
+|
+|move|p2a: Charmeleon|Substitute|p2a: Charmeleon
+|-start|p2a: Charmeleon|Substitute
+|-damage|p2a: Charmeleon|70\/272
+|move|p1a: Venusaur|Body Slam|p2a: Charmeleon
+|-end|p2a: Charmeleon|Substitute
+|
+|turn|23
+|choice|move 1|move Seismic Toss
+|
+|move|p2a: Charmeleon|Seismic Toss|p1a: Venusaur
+|-damage|p1a: Venusaur|67\/310 par
+|move|p1a: Venusaur|Body Slam|p2a: Charmeleon
+|-damage|p2a: Charmeleon|0 fnt
+|faint|p2a: Charmeleon
+|choice||switch 2
+|
+|switch|p2a: Persian|Persian, L79|265\/265
+|turn|24
+|choice|move 4|move Hyper Beam
+|
+|move|p2a: Persian|Hyper Beam|p1a: Venusaur|[miss]
+|-miss|p2a: Persian
+|move|p1a: Venusaur|Razor Leaf|p2a: Persian
+|-crit|p2a: Persian
+|-damage|p2a: Persian|116\/265
+|
+|turn|25
+|choice|move 1|move Slash
+|
+|move|p2a: Persian|Slash|p1a: Venusaur
+|-crit|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|choice|switch 3|
+|
+|switch|p1a: Hitmonlee|Hitmonlee, L90|273\/273
+|turn|26
+|choice|move 4|move Hyper Beam
+|
+|move|p2a: Persian|Hyper Beam|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|119\/273
+|move|p1a: Hitmonlee|Seismic Toss|p2a: Persian
+|-damage|p2a: Persian|26\/265
+|
+|turn|27
+|-mustrecharge|p2a: Persian
+|-mustrecharge|p2a: Persian
+|choice|move 4|move Recharge
+|
+|cant|p2a: Persian|recharge
+|move|p1a: Hitmonlee|Seismic Toss|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|faint|p2a: Persian
+|
+|win|HenrytheSalamander
+|player|p1
+|player|p2

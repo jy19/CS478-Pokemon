@@ -1,0 +1,266 @@
+﻿|join|kewltrainer
+|join|ankitkhetrapal
+|player|p1|kewltrainer|12
+|player|p2|ankitkhetrapal|84
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Kangaskhan|Kangaskhan, L85|352\/352
+|switch|p2a: Bellsprout|Bellsprout, L96|291\/291
+|turn|1
+|
+|move|p1a: Kangaskhan|Body Slam|p2a: Bellsprout
+|-damage|p2a: Bellsprout|167\/291
+|move|p2a: Bellsprout|Sleep Powder|p1a: Kangaskhan
+|-status|p1a: Kangaskhan|slp
+|
+|turn|2
+|
+|switch|p2a: Golduck|Golduck, L85|310\/310
+|cant|p1a: Kangaskhan|slp
+|
+|turn|3
+|
+|cant|p1a: Kangaskhan|slp
+|move|p2a: Golduck|Amnesia|p2a: Golduck
+|-boost|p2a: Golduck|spd|2
+|-boost|p2a: Golduck|spa|2
+|
+|turn|4
+|
+|-curestatus|p1a: Kangaskhan|slp
+|move|p2a: Golduck|Amnesia|p2a: Golduck
+|-boost|p2a: Golduck|spd|2
+|-boost|p2a: Golduck|spa|2
+|
+|turn|5
+|
+|move|p1a: Kangaskhan|Body Slam|p2a: Golduck
+|-damage|p2a: Golduck|205\/310
+|move|p2a: Golduck|Blizzard|p1a: Kangaskhan|[miss]
+|-miss|p2a: Golduck
+|
+|turn|6
+|
+|move|p1a: Kangaskhan|Body Slam|p2a: Golduck
+|-damage|p2a: Golduck|110\/310
+|move|p2a: Golduck|Blizzard|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|0 fnt
+|faint|p1a: Kangaskhan
+|
+|switch|p1a: Hypno|Hypno, L85|318\/318
+|turn|7
+|
+|move|p2a: Golduck|Body Slam|p1a: Hypno
+|-damage|p1a: Hypno|257\/318
+|move|p1a: Hypno|Thunder Wave|p2a: Golduck
+|-status|p2a: Golduck|par
+|
+|turn|8
+|
+|switch|p1a: Nidorina|Nidorina, L90|309\/309
+|move|p2a: Golduck|Blizzard|p1a: Nidorina
+|-crit|p1a: Nidorina
+|-damage|p1a: Nidorina|118\/309
+|
+|turn|9
+|
+|move|p1a: Nidorina|Thunderbolt|p2a: Golduck
+|-supereffective|p2a: Golduck
+|-damage|p2a: Golduck|72\/310 par
+|cant|p2a: Golduck|par
+|
+|turn|10
+|
+|move|p1a: Nidorina|Substitute|p1a: Nidorina
+|-start|p1a: Nidorina|Substitute
+|-damage|p1a: Nidorina|41\/309
+|move|p2a: Golduck|Blizzard|p1a: Nidorina
+|-end|p1a: Nidorina|Substitute
+|
+|turn|11
+|
+|move|p1a: Nidorina|Double-Edge|p2a: Golduck
+|-damage|p2a: Golduck|11\/310 par
+|-damage|p1a: Nidorina|26\/309|[from] recoil|[of] p2a: Golduck
+|move|p2a: Golduck|Ice Beam|p1a: Nidorina
+|-damage|p1a: Nidorina|0 fnt
+|faint|p1a: Nidorina
+|
+|switch|p1a: Mew|Mew, L74|300\/300
+|turn|12
+|
+|move|p1a: Mew|Swift|p2a: Golduck
+|-damage|p2a: Golduck|0 fnt
+|faint|p2a: Golduck
+|
+|switch|p2a: Muk|Muk, L90|372\/372
+|turn|13
+|
+|move|p1a: Mew|Swift|p2a: Muk
+|-damage|p2a: Muk|337\/372
+|move|p2a: Muk|Explosion|p1a: Mew
+|-damage|p1a: Mew|1\/300
+|faint|p2a: Muk
+|
+|switch|p2a: Rapidash|Rapidash, L90|300\/300
+|turn|14
+|
+|move|p2a: Rapidash|Fire Blast|p1a: Mew|[miss]
+|-miss|p2a: Rapidash
+|move|p1a: Mew|Explosion|p2a: Rapidash
+|-damage|p2a: Rapidash|112\/300
+|faint|p1a: Mew
+|
+|switch|p1a: Omanyte|Omanyte, L96|262\/262
+|turn|15
+|
+|switch|p2a: Exeggutor|Exeggutor, L79|312\/312
+|move|p1a: Omanyte|Surf|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|258\/312
+|
+|turn|16
+|
+|switch|p1a: Hypno|Hypno, L85|257\/318
+|move|p2a: Exeggutor|Sleep Powder|p1a: Hypno
+|-status|p1a: Hypno|slp
+|
+|turn|17
+|
+|switch|p2a: Rapidash|Rapidash, L90|112\/300
+|cant|p1a: Hypno|slp
+|
+|turn|18
+|
+|move|p2a: Rapidash|Fire Blast|p1a: Hypno
+|-damage|p1a: Hypno|152\/318 slp
+|-curestatus|p1a: Hypno|slp
+|
+|turn|19
+|
+|move|p2a: Rapidash|Fire Blast|p1a: Hypno
+|-damage|p1a: Hypno|41\/318
+|-status|p1a: Hypno|brn
+|move|p1a: Hypno|Psychic|p2a: Rapidash
+|-damage|p2a: Rapidash|0 fnt
+|faint|p2a: Rapidash
+|
+|switch|p2a: Clefable|Clefable, L85|335\/335
+|turn|20
+|
+|move|p1a: Hypno|Thunder Wave|p2a: Clefable
+|-status|p2a: Clefable|par
+|-damage|p1a: Hypno|22\/318 brn|[from] brn|[of] p2a: Clefable
+|move|p2a: Clefable|Hyper Beam|p1a: Hypno
+|-damage|p1a: Hypno|0 fnt
+|faint|p1a: Hypno
+|
+|switch|p1a: Omanyte|Omanyte, L96|262\/262
+|turn|21
+|
+|move|p1a: Omanyte|Surf|p2a: Clefable
+|-damage|p2a: Clefable|207\/335 par
+|move|p2a: Clefable|Sing|p1a: Omanyte
+|-status|p1a: Omanyte|slp
+|
+|turn|22
+|
+|switch|p2a: Bellsprout|Bellsprout, L96|167\/291
+|cant|p1a: Omanyte|slp
+|
+|turn|23
+|
+|switch|p1a: Gyarados|Gyarados, L85|335\/335
+|move|p2a: Bellsprout|Swords Dance|p2a: Bellsprout
+|-boost|p2a: Bellsprout|atk|2
+|
+|turn|24
+|
+|move|p1a: Gyarados|Blizzard|p2a: Bellsprout
+|-supereffective|p2a: Bellsprout
+|-damage|p2a: Bellsprout|0 fnt
+|faint|p2a: Bellsprout
+|
+|switch|p2a: Clefable|Clefable, L85|207\/335 par
+|turn|25
+|
+|switch|p1a: Omanyte|Omanyte, L96|262\/262 slp
+|move|p2a: Clefable|Thunder Wave|p1a: Omanyte
+|-fail|p1a: Omanyte
+|
+|turn|26
+|
+|-curestatus|p1a: Omanyte|slp
+|move|p2a: Clefable|Hyper Beam|p1a: Omanyte
+|-resisted|p1a: Omanyte
+|-damage|p1a: Omanyte|204\/262
+|
+|turn|27
+|-mustrecharge|p2a: Clefable
+|-mustrecharge|p2a: Clefable
+|
+|move|p1a: Omanyte|Surf|p2a: Clefable
+|-damage|p2a: Clefable|76\/335 par
+|cant|p2a: Clefable|recharge
+|
+|turn|28
+|
+|switch|p2a: Exeggutor|Exeggutor, L79|258\/312
+|move|p1a: Omanyte|Surf|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|208\/312
+|
+|turn|29
+|
+|move|p2a: Exeggutor|Sleep Powder|p1a: Omanyte
+|-status|p1a: Omanyte|slp
+|cant|p1a: Omanyte|slp
+|
+|turn|30
+|
+|move|p2a: Exeggutor|Psychic|p1a: Omanyte
+|-damage|p1a: Omanyte|123\/262 slp
+|cant|p1a: Omanyte|slp
+|
+|turn|31
+|
+|move|p2a: Exeggutor|Psychic|p1a: Omanyte
+|-crit|p1a: Omanyte
+|-damage|p1a: Omanyte|0 fnt
+|faint|p1a: Omanyte
+|
+|switch|p1a: Gyarados|Gyarados, L85|335\/335
+|turn|32
+|
+|move|p1a: Gyarados|Blizzard|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|59\/312
+|move|p2a: Exeggutor|Sleep Powder|p1a: Gyarados|[miss]
+|-miss|p2a: Exeggutor
+|
+|turn|33
+|
+|move|p1a: Gyarados|Body Slam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Clefable|Clefable, L85|76\/335 par
+|turn|34
+|
+|move|p1a: Gyarados|Body Slam|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|win|kewltrainer
+|raw|kewltrainer's rating: 1169 &rarr; <strong>1188<\/strong><br \/>(+19 for winning)
+|raw|ankitkhetrapal's rating: 1084 &rarr; <strong>1066<\/strong><br \/>(-18 for losing)
+|c|★ankitkhetrapal|Gg
+|leave|ankitkhetrapal
+|player|p2

@@ -1,0 +1,287 @@
+﻿|join|MALESANI
+|join|tlogsdon
+|player|p1|MALESANI|238
+|player|p2|tlogsdon|167
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|12056,54218,18880,27332
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Tentacool|Tentacool, L96|272\/272
+|switch|p2a: Ivysaur|Ivysaur, L85|276\/276
+|turn|1
+|choice|move 1|move 2
+|
+|move|p1a: Tentacool|Blizzard|p2a: Ivysaur
+|-supereffective|p2a: Ivysaur
+|-damage|p2a: Ivysaur|36\/276
+|move|p2a: Ivysaur|Leech Seed|p1a: Tentacool
+|-start|p1a: Tentacool|move: Leech Seed
+|
+|turn|2
+|choice|move 3|move 3
+|
+|move|p1a: Tentacool|Hydro Pump|p2a: Ivysaur
+|-crit|p2a: Ivysaur
+|-resisted|p2a: Ivysaur
+|-damage|p2a: Ivysaur|0 fnt
+|faint|p2a: Ivysaur
+|choice||switch 3
+|
+|switch|p2a: Kadabra|Kadabra, L85|242\/242
+|turn|3
+|choice|switch 2|move 4
+|
+|switch|p1a: Dragonite|Dragonite, L85|328\/328
+|move|p2a: Kadabra|Thunder Wave|p1a: Dragonite
+|-status|p1a: Dragonite|par
+|
+|turn|4
+|choice|move 1|move 2
+|
+|move|p2a: Kadabra|Reflect|p2a: Kadabra
+|-start|p2a: Kadabra|Reflect
+|cant|p1a: Dragonite|par
+|
+|turn|5
+|choice|move 1|move 1
+|
+|move|p2a: Kadabra|Psychic|p1a: Dragonite
+|-damage|p1a: Dragonite|219\/328 par
+|move|p1a: Dragonite|Thunder Wave|p2a: Kadabra
+|-status|p2a: Kadabra|par
+|
+|turn|6
+|choice|switch 3|move 1
+|
+|switch|p1a: Ninetales|Ninetales, L85|298\/298
+|move|p2a: Kadabra|Psychic|p1a: Ninetales
+|-damage|p1a: Ninetales|189\/298
+|
+|turn|7
+|choice|move 1|move 4
+|
+|move|p1a: Ninetales|Fire Blast|p2a: Kadabra|[miss]
+|-miss|p1a: Ninetales
+|move|p2a: Kadabra|Thunder Wave|p1a: Ninetales
+|-status|p1a: Ninetales|par
+|
+|turn|8
+|choice|move 1|move 1
+|
+|move|p2a: Kadabra|Psychic|p1a: Ninetales
+|-damage|p1a: Ninetales|80\/298 par
+|move|p1a: Ninetales|Fire Blast|p2a: Kadabra
+|-crit|p2a: Kadabra
+|-damage|p2a: Kadabra|27\/242 par
+|
+|turn|9
+|choice|move 1|move 1
+|
+|move|p2a: Kadabra|Psychic|p1a: Ninetales
+|-crit|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|choice|switch 6|
+|
+|switch|p1a: Hitmonlee|Hitmonlee, L90|273\/273
+|turn|10
+|choice|move 1|move 4
+|
+|move|p1a: Hitmonlee|Body Slam|p2a: Kadabra
+|-crit|p2a: Kadabra
+|-damage|p2a: Kadabra|0 fnt
+|faint|p2a: Kadabra
+|choice||switch 2
+|
+|switch|p2a: Goldeen|Goldeen, L96|281\/281
+|turn|11
+|choice|move 1|move 1
+|
+|move|p1a: Hitmonlee|Body Slam|p2a: Goldeen
+|-crit|p2a: Goldeen
+|-damage|p2a: Goldeen|118\/281
+|move|p2a: Goldeen|Supersonic|p1a: Hitmonlee
+|-start|p1a: Hitmonlee|confusion
+|
+|turn|12
+|choice|switch 3|move 3
+|
+|switch|p1a: Dragonite|Dragonite, L85|219\/328 par
+|move|p2a: Goldeen|Surf|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|181\/328 par
+|
+|turn|13
+|choice|move 3|move 1
+|
+|move|p2a: Goldeen|Supersonic|p1a: Dragonite
+|-start|p1a: Dragonite|confusion
+|cant|p1a: Dragonite|par
+|
+|turn|14
+|choice|switch 2|move 4
+|
+|switch|p1a: Tentacool|Tentacool, L96|272\/272
+|move|p2a: Goldeen|Double-Edge|p1a: Tentacool
+|-damage|p1a: Tentacool|173\/272
+|-damage|p2a: Goldeen|94\/281|[from] recoil|[of] p1a: Tentacool
+|
+|turn|15
+|choice|move 3|move 1
+|
+|move|p1a: Tentacool|Hydro Pump|p2a: Goldeen
+|-crit|p2a: Goldeen
+|-resisted|p2a: Goldeen
+|-damage|p2a: Goldeen|0 fnt
+|faint|p2a: Goldeen
+|choice||switch 4
+|
+|switch|p2a: Poliwhirl|Poliwhirl, L85|284\/284
+|turn|16
+|choice|switch 3|move 1
+|
+|switch|p1a: Hitmonlee|Hitmonlee, L90|273\/273
+|move|p2a: Poliwhirl|Amnesia|p2a: Poliwhirl
+|-boost|p2a: Poliwhirl|spd|2
+|-boost|p2a: Poliwhirl|spa|2
+|
+|turn|17
+|choice|move 4|move 2
+|
+|move|p1a: Hitmonlee|High Jump Kick|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|132\/284
+|move|p2a: Poliwhirl|Hypnosis|p1a: Hitmonlee
+|-status|p1a: Hitmonlee|slp
+|
+|turn|18
+|choice|switch 2|move 4
+|
+|switch|p1a: Dragonite|Dragonite, L85|181\/328 par
+|move|p2a: Poliwhirl|Psychic|p1a: Dragonite
+|-damage|p1a: Dragonite|101\/328 par
+|
+|turn|19
+|choice|move 1|move 4
+|
+|move|p2a: Poliwhirl|Psychic|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-damage|p1a: Dragonite|20\/328 par
+|-unboost|p1a: Dragonite|spd|1
+|-unboost|p1a: Dragonite|spa|1
+|move|p1a: Dragonite|Thunder Wave|p2a: Poliwhirl
+|-status|p2a: Poliwhirl|par
+|
+|turn|20
+|choice|move 3|move 4
+|
+|move|p2a: Poliwhirl|Psychic|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|choice|switch 5|
+|
+|switch|p1a: Charmeleon|Charmeleon, L85|272\/272
+|turn|21
+|choice|move 3|move 3
+|
+|move|p1a: Charmeleon|Body Slam|p2a: Poliwhirl
+|-crit|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|13\/284 par
+|cant|p2a: Poliwhirl|par
+|
+|turn|22
+|choice|move 3|move 3
+|
+|move|p1a: Charmeleon|Body Slam|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|0 fnt
+|faint|p2a: Poliwhirl
+|choice||switch 5
+|
+|switch|p2a: Snorlax|Snorlax, L79|415\/415
+|turn|23
+|choice|move 2|move 3
+|
+|move|p1a: Charmeleon|Swords Dance|p1a: Charmeleon
+|-boost|p1a: Charmeleon|atk|2
+|move|p2a: Snorlax|Earthquake|p1a: Charmeleon
+|-supereffective|p1a: Charmeleon
+|-damage|p1a: Charmeleon|95\/272
+|
+|turn|24
+|choice|move 1|move 3
+|
+|move|p1a: Charmeleon|Submission|p2a: Snorlax
+|-supereffective|p2a: Snorlax
+|-damage|p2a: Snorlax|169\/415
+|-damage|p1a: Charmeleon|34\/272|[from] recoil|[of] p2a: Snorlax
+|move|p2a: Snorlax|Earthquake|p1a: Charmeleon
+|-supereffective|p1a: Charmeleon
+|-damage|p1a: Charmeleon|0 fnt
+|faint|p1a: Charmeleon
+|choice|switch 4|
+|
+|switch|p1a: Wartortle|Wartortle, L85|274\/274
+|turn|25
+|choice|move 3|move 3
+|
+|move|p1a: Wartortle|Surf|p2a: Snorlax
+|-damage|p2a: Snorlax|65\/415
+|move|p2a: Snorlax|Earthquake|p1a: Wartortle
+|-damage|p1a: Wartortle|208\/274
+|
+|turn|26
+|choice|move 3|move 4
+|
+|move|p1a: Wartortle|Surf|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|choice||switch 6
+|
+|switch|p2a: Gengar|Gengar, L79|257\/257
+|turn|27
+|choice|move 2|move 2
+|
+|move|p2a: Gengar|Thunderbolt|p1a: Wartortle
+|-supereffective|p1a: Wartortle
+|-damage|p1a: Wartortle|39\/274
+|move|p1a: Wartortle|Blizzard|p2a: Gengar
+|-damage|p2a: Gengar|204\/257
+|-status|p2a: Gengar|frz
+|
+|turn|28
+|c|★tlogsdon|ugh
+|choice|move 3|move 4
+|
+|cant|p2a: Gengar|frz
+|move|p1a: Wartortle|Surf|p2a: Gengar
+|-damage|p2a: Gengar|133\/257 frz
+|
+|turn|29
+|c|★tlogsdon|dead
+|choice|move 3|move 4
+|
+|cant|p2a: Gengar|frz
+|move|p1a: Wartortle|Surf|p2a: Gengar
+|-damage|p2a: Gengar|67\/257 frz
+|
+|turn|30
+|choice|move 3|move 4
+|
+|cant|p2a: Gengar|frz
+|move|p1a: Wartortle|Surf|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|win|MALESANI
+|raw|MALESANI's rating: 1389 &rarr; <strong>1396<\/strong><br \/>(+7 for winning)
+|raw|tlogsdon's rating: 1130 &rarr; <strong>1121<\/strong><br \/>(-9 for losing)
+|c|★tlogsdon|gg
+|leave|tlogsdon
+|player|p2
+|c|★MALESANI|gg

@@ -1,0 +1,119 @@
+﻿|join|Krausekrause
+|join|XianJu
+|player|p1|Krausekrause|165
+|player|p2|XianJu|130
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|58586,13108,30542,42394
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Vulpix|Vulpix, L96|268\/268
+|switch|p2a: Nidoqueen|Nidoqueen, L85|327\/327
+|turn|1
+|choice|move 4|move 1
+|
+|move|p1a: Vulpix|Body Slam|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|280\/327
+|move|p2a: Nidoqueen|Earthquake|p1a: Vulpix
+|-supereffective|p1a: Vulpix
+|-damage|p1a: Vulpix|20\/268
+|
+|turn|2
+|choice|move 4|move 3
+|
+|move|p1a: Vulpix|Body Slam|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|231\/327
+|move|p2a: Nidoqueen|Body Slam|p1a: Vulpix
+|-crit|p1a: Vulpix
+|-damage|p1a: Vulpix|0 fnt
+|faint|p1a: Vulpix
+|choice|switch 5|
+|
+|switch|p1a: Blastoise|Blastoise, L85|308\/308
+|turn|3
+|choice|move 3|switch 3
+|
+|switch|p2a: Venomoth|Venomoth, L85|293\/293
+|move|p1a: Blastoise|Mimic|p2a: Venomoth
+|-start|p1a: Blastoise|Mimic|Psychic
+|
+|turn|4
+|choice|move 3|move 1
+|
+|move|p2a: Venomoth|Sleep Powder|p1a: Blastoise
+|-status|p1a: Blastoise|slp
+|cant|p1a: Blastoise|slp
+|
+|turn|5
+|choice|move 3|switch 6
+|
+|switch|p2a: Alakazam|Alakazam, L79|249\/249
+|cant|p1a: Blastoise|slp
+|
+|turn|6
+|choice|move 2|move 4
+|
+|move|p2a: Alakazam|Reflect|p2a: Alakazam
+|-start|p2a: Alakazam|Reflect
+|cant|p1a: Blastoise|slp
+|
+|turn|7
+|choice|move 2|move 1
+|
+|move|p2a: Alakazam|Psychic|p1a: Blastoise
+|-damage|p1a: Blastoise|210\/308 slp
+|cant|p1a: Blastoise|slp
+|
+|turn|8
+|choice|move 2|move 1
+|
+|move|p2a: Alakazam|Psychic|p1a: Blastoise
+|-damage|p1a: Blastoise|99\/308 slp
+|-curestatus|p1a: Blastoise|slp
+|
+|turn|9
+|choice|move 2|move 1
+|
+|move|p2a: Alakazam|Psychic|p1a: Blastoise
+|-crit|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|faint|p1a: Blastoise
+|choice|switch 2|
+|
+|switch|p1a: Paras|Paras, L96|262\/262
+|turn|10
+|choice|move 2|move 1
+|
+|move|p2a: Alakazam|Psychic|p1a: Paras
+|-damage|p1a: Paras|145\/262
+|move|p1a: Paras|Spore|p2a: Alakazam
+|-status|p2a: Alakazam|slp
+|
+|turn|11
+|choice|move 4|switch 2
+|
+|switch|p2a: Growlithe|Growlithe, L96|300\/300
+|move|p1a: Paras|Mega Drain|p2a: Growlithe
+|-resisted|p2a: Growlithe
+|-damage|p2a: Growlithe|278\/300
+|-heal|p1a: Paras|156\/262|[from] drain|[of] p2a: Growlithe
+|
+|turn|12
+|choice|move 2|move 1
+|
+|move|p2a: Growlithe|Fire Blast|p1a: Paras
+|-supereffective|p1a: Paras
+|-damage|p1a: Paras|0 fnt
+|faint|p1a: Paras
+|leave|Krausekrause
+|player|p1
+|-message|krausekrause lost due to inactivity.
+|
+|win|XianJu
+|raw|Krausekrause's rating: 1000 &rarr; <strong>1000<\/strong><br \/>(+0 for losing)
+|raw|XianJu's rating: 1178 &rarr; <strong>1191<\/strong><br \/>(+13 for winning)

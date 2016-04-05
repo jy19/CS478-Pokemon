@@ -1,0 +1,297 @@
+﻿|j|MALESANI
+|j|Parnasect
+|player|p1|MALESANI|238
+|player|p2|Parnasect|115
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|24665,51529,36319,10034
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Primeape|Primeape, L90|300\/300
+|switch|p2a: Goldeen|Goldeen, L96|281\/281
+|turn|1
+|choice|switch 2|move 2
+|
+|switch|p1a: Slowbro|Slowbro, L79|312\/312
+|move|p2a: Goldeen|Agility|p2a: Goldeen
+|-boost|p2a: Goldeen|spe|2
+|
+|turn|2
+|choice|move 2|move 4
+|
+|move|p2a: Goldeen|Surf|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|259\/312
+|move|p1a: Slowbro|Thunder Wave|p2a: Goldeen
+|-status|p2a: Goldeen|par
+|
+|turn|3
+|choice|move 4|move 4
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|move|p2a: Goldeen|Surf|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|234\/312
+|
+|turn|4
+|choice|move 4|switch 5
+|
+|switch|p2a: Clefable|Clefable, L85|335\/335
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|
+|turn|5
+|choice|move 2|move 2
+|
+|move|p2a: Clefable|Thunder Wave|p1a: Slowbro
+|-status|p1a: Slowbro|par
+|move|p1a: Slowbro|Thunder Wave|p2a: Clefable
+|-status|p2a: Clefable|par
+|
+|turn|6
+|choice|move 1|move 4
+|
+|move|p2a: Clefable|Thunderbolt|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|186\/312 par
+|cant|p1a: Slowbro|par
+|
+|turn|7
+|choice|move 1|move 4
+|
+|move|p2a: Clefable|Thunderbolt|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|133\/312 par
+|move|p1a: Slowbro|Surf|p2a: Clefable
+|-damage|p2a: Clefable|102\/335 par
+|
+|turn|8
+|choice|move 1|move 4
+|
+|move|p2a: Clefable|Thunderbolt|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|86\/312 par
+|move|p1a: Slowbro|Surf|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|choice||switch 2
+|
+|switch|p2a: Muk|Muk, L90|372\/372
+|turn|9
+|choice|switch 3|move 4
+|
+|switch|p1a: Arbok|Arbok, L90|291\/291
+|move|p2a: Muk|Mega Drain|p1a: Arbok
+|-resisted|p1a: Arbok
+|-damage|p1a: Arbok|277\/291
+|
+|turn|10
+|choice|move 4|switch 3
+|
+|switch|p2a: Chansey|Chansey, L79|557\/557
+|move|p1a: Arbok|Glare|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|turn|11
+|choice|switch 3|move 2
+|
+|switch|p1a: Slowbro|Slowbro, L79|86\/312 par
+|move|p2a: Chansey|Thunder Wave|p1a: Slowbro
+|-fail|p1a: Slowbro|par
+|
+|turn|12
+|choice|move 4|switch 3
+|
+|switch|p2a: Muk|Muk, L90|372\/372
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|
+|turn|13
+|choice|move 2|move 3
+|
+|move|p2a: Muk|Body Slam|p1a: Slowbro
+|-damage|p1a: Slowbro|14\/312 par
+|cant|p1a: Slowbro|par
+|
+|turn|14
+|choice|move 2|move 3
+|
+|move|p2a: Muk|Body Slam|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|choice|switch 3|
+|
+|switch|p1a: Arbok|Arbok, L90|277\/291
+|turn|15
+|choice|move 2|switch 3
+|
+|switch|p2a: Chansey|Chansey, L79|557\/557 par
+|move|p1a: Arbok|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|377\/557 par
+|
+|turn|16
+|choice|move 1|move 4
+|
+|move|p1a: Arbok|Earthquake|p2a: Chansey
+|-damage|p2a: Chansey|164\/557 par
+|move|p2a: Chansey|Counter|p1a: Arbok
+|-fail|p2a: Chansey
+|
+|turn|17
+|choice|move 1|move 1
+|
+|move|p1a: Arbok|Earthquake|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|choice||switch 4
+|
+|switch|p2a: Hitmonlee|Hitmonlee, L90|273\/273
+|turn|18
+|choice|move 4|move 3
+|
+|move|p2a: Hitmonlee|Seismic Toss|p1a: Arbok
+|-damage|p1a: Arbok|187\/291
+|move|p1a: Arbok|Glare|p2a: Hitmonlee
+|-status|p2a: Hitmonlee|par
+|
+|turn|19
+|choice|move 1|move 3
+|
+|move|p1a: Arbok|Earthquake|p2a: Hitmonlee
+|-crit|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|88\/273 par
+|move|p2a: Hitmonlee|Seismic Toss|p1a: Arbok
+|-damage|p1a: Arbok|97\/291
+|
+|turn|20
+|choice|move 1|move 3
+|
+|move|p1a: Arbok|Earthquake|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|0 fnt
+|faint|p2a: Hitmonlee
+|choice||switch 5
+|
+|switch|p2a: Goldeen|Goldeen, L96|281\/281 par
+|turn|21
+|choice|switch 4|move 4
+|
+|switch|p1a: Magneton|Magneton, L90|273\/273
+|move|p2a: Goldeen|Surf|p1a: Magneton
+|-crit|p1a: Magneton
+|-damage|p1a: Magneton|148\/273
+|
+|turn|22
+|choice|move 1|switch 6
+|
+|switch|p2a: Sandslash|Sandslash, L85|301\/301
+|move|p1a: Magneton|Thunderbolt|p2a: Sandslash
+|-immune|p2a: Sandslash|[msg]
+|
+|turn|23
+|choice|switch 5|move 1
+|
+|switch|p1a: Dodrio|Dodrio, L85|276\/276
+|move|p2a: Sandslash|Earthquake|p1a: Dodrio
+|-immune|p1a: Dodrio|[msg]
+|
+|turn|24
+|choice|move 3|move 3
+|
+|move|p1a: Dodrio|Body Slam|p2a: Sandslash
+|-damage|p2a: Sandslash|212\/301
+|move|p2a: Sandslash|Body Slam|p1a: Dodrio
+|-damage|p1a: Dodrio|210\/276
+|
+|turn|25
+|choice|move 3|switch 3
+|
+|switch|p2a: Muk|Muk, L90|372\/372
+|move|p1a: Dodrio|Body Slam|p2a: Muk
+|-damage|p2a: Muk|264\/372
+|
+|turn|26
+|choice|move 3|move 1
+|
+|move|p1a: Dodrio|Body Slam|p2a: Muk
+|-damage|p2a: Muk|163\/372
+|move|p2a: Muk|Explosion|p1a: Dodrio
+|-damage|p1a: Dodrio|0 fnt
+|faint|p1a: Dodrio
+|faint|p2a: Muk
+|choice|switch 5|switch 3
+|
+|switch|p1a: Magneton|Magneton, L90|148\/273
+|switch|p2a: Sandslash|Sandslash, L85|212\/301
+|turn|27
+|choice|move 3|move 1
+|
+|move|p1a: Magneton|Hyper Beam|p2a: Sandslash
+|-damage|p2a: Sandslash|138\/301
+|move|p2a: Sandslash|Earthquake|p1a: Magneton
+|-supereffective|p1a: Magneton
+|-damage|p1a: Magneton|0 fnt
+|faint|p1a: Magneton
+|choice|switch 4|
+|
+|switch|p1a: Arbok|Arbok, L90|97\/291
+|turn|28
+|choice|move 2|move 1
+|
+|move|p1a: Arbok|Body Slam|p2a: Sandslash
+|-crit|p2a: Sandslash
+|-damage|p2a: Sandslash|40\/301
+|move|p2a: Sandslash|Earthquake|p1a: Arbok
+|-supereffective|p1a: Arbok
+|-damage|p1a: Arbok|0 fnt
+|faint|p1a: Arbok
+|choice|switch 6|
+|
+|switch|p1a: Tauros|Tauros, L79|280\/280
+|turn|29
+|choice|move 2|move 1
+|
+|move|p1a: Tauros|Body Slam|p2a: Sandslash
+|-damage|p2a: Sandslash|0 fnt
+|faint|p2a: Sandslash
+|choice||switch 6
+|
+|switch|p2a: Goldeen|Goldeen, L96|281\/281 par
+|turn|30
+|choice|move 2|move 4
+|
+|move|p1a: Tauros|Body Slam|p2a: Goldeen
+|-crit|p2a: Goldeen
+|-damage|p2a: Goldeen|108\/281 par
+|move|p2a: Goldeen|Surf|p1a: Tauros
+|-damage|p1a: Tauros|178\/280
+|
+|turn|31
+|choice|move 4|move 4
+|
+|move|p1a: Tauros|Earthquake|p2a: Goldeen
+|-damage|p2a: Goldeen|44\/281 par
+|move|p2a: Goldeen|Surf|p1a: Tauros
+|-damage|p1a: Tauros|68\/280
+|
+|turn|32
+|choice|move 3|move 4
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Goldeen
+|-crit|p2a: Goldeen
+|-damage|p2a: Goldeen|0 fnt
+|faint|p2a: Goldeen
+|
+|win|MALESANI
+|player|p1
+|player|p2
+|raw|MALESANI's rating: 1397 &rarr; <strong>1411<\/strong><br \/>(+14 for winning)
+|raw|Parnasect's rating: 1292 &rarr; <strong>1274<\/strong><br \/>(-18 for losing)

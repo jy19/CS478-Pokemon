@@ -1,0 +1,338 @@
+﻿|join|Giju
+|join|Zorage
+|player|p1|Giju|163
+|player|p2|Zorage|166
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Exe|Exeggutor|393\/393
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|1
+|
+|move|p2a: Gengar|Hypnosis|p1a: Exe|[miss]
+|-miss|p2a: Gengar
+|move|p1a: Exe|Sleep Powder|p2a: Gengar|[miss]
+|-miss|p1a: Exe
+|
+|turn|2
+|
+|switch|p1a: Alak|Alakazam|313\/313
+|move|p2a: Gengar|Hypnosis|p1a: Alak
+|-status|p1a: Alak|slp
+|
+|turn|3
+|
+|switch|p1a: Exe|Exeggutor|393\/393
+|switch|p2a: Slowbro|Slowbro|393\/393
+|
+|turn|4
+|
+|switch|p2a: Rhydon|Rhydon|413\/413
+|move|p1a: Exe|Sleep Powder|p2a: Rhydon
+|-status|p2a: Rhydon|slp
+|
+|turn|5
+|c|★Giju|hf!
+|
+|switch|p1a: Chan|Chansey|703\/703
+|switch|p2a: Slowbro|Slowbro|393\/393
+|
+|turn|6
+|
+|switch|p2a: Rhydon|Rhydon|413\/413 slp
+|move|p1a: Chan|Thunderbolt|p2a: Rhydon
+|-immune|p2a: Rhydon|[msg]
+|
+|turn|7
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Chan|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|633\/703
+|
+|turn|8
+|
+|move|p2a: Chansey|Thunder Wave|p1a: Chan
+|-status|p1a: Chan|par
+|cant|p1a: Chan|par
+|
+|turn|9
+|
+|switch|p2a: Rhydon|Rhydon|413\/413 slp
+|move|p1a: Chan|Thunderbolt|p2a: Rhydon
+|-immune|p2a: Rhydon|[msg]
+|
+|turn|10
+|
+|-curestatus|p2a: Rhydon|slp
+|move|p1a: Chan|Thunderbolt|p2a: Rhydon
+|-immune|p2a: Rhydon|[msg]
+|
+|turn|11
+|
+|switch|p1a: Exe|Exeggutor|393\/393
+|move|p2a: Rhydon|Substitute|p2a: Rhydon
+|-start|p2a: Rhydon|Substitute
+|-damage|p2a: Rhydon|310\/413
+|
+|turn|12
+|
+|move|p1a: Exe|Stun Spore|p2a: Rhydon
+|-status|p2a: Rhydon|par
+|move|p2a: Rhydon|Body Slam|p1a: Exe
+|-damage|p1a: Exe|307\/393
+|-status|p1a: Exe|par
+|
+|turn|13
+|
+|move|p1a: Exe|Psychic|p2a: Rhydon
+|-end|p2a: Rhydon|Substitute
+|move|p2a: Rhydon|Rock Slide|p1a: Exe
+|-damage|p1a: Exe|196\/393 par
+|
+|turn|14
+|
+|switch|p2a: Slowbro|Slowbro|393\/393
+|cant|p1a: Exe|par
+|
+|turn|15
+|
+|switch|p2a: Chansey|Chansey|633\/703
+|move|p1a: Exe|Stun Spore|p2a: Chansey|[miss]
+|-miss|p1a: Exe
+|
+|turn|16
+|
+|switch|p1a: Chan|Chansey|703\/703 par
+|move|p2a: Chansey|Seismic Toss|p1a: Chan
+|-damage|p1a: Chan|603\/703 par
+|
+|turn|17
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Chan
+|-damage|p1a: Chan|503\/703 par
+|move|p1a: Chan|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|559\/703
+|
+|turn|18
+|
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-boost|p2a: Chansey|def|1
+|move|p1a: Chan|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|483\/703
+|
+|turn|19
+|
+|switch|p2a: Rhydon|Rhydon|310\/413 par
+|move|p1a: Chan|Ice Beam|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|86\/413 par
+|
+|turn|20
+|
+|move|p2a: Rhydon|Earthquake|p1a: Chan|[miss]
+|-miss|p2a: Rhydon
+|move|p1a: Chan|Ice Beam|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|c|★Zorage|256 I hate you so much
+|
+|switch|p2a: Victreebel|Victreebel|363\/363
+|turn|21
+|
+|move|p2a: Victreebel|Wrap|p1a: Chan
+|-damage|p1a: Chan|469\/703 par
+|-activate|p1a: Chan|move: Wrap|[of] p2a: Victreebel
+|cant|p1a: Chan|partiallytrapped
+|
+|turn|22
+|
+|move|p2a: Victreebel|Wrap|p1a: Chan
+|-damage|p1a: Chan|435\/703 par
+|cant|p1a: Chan|partiallytrapped
+|
+|turn|23
+|
+|move|p2a: Victreebel|Wrap|p1a: Chan
+|-damage|p1a: Chan|401\/703 par
+|cant|p1a: Chan|partiallytrapped
+|
+|-end|p1a: Chan|Wrap|[partiallytrapped]
+|turn|24
+|
+|move|p2a: Victreebel|Wrap|p1a: Chan
+|-damage|p1a: Chan|365\/703 par
+|-activate|p1a: Chan|move: Wrap|[of] p2a: Victreebel
+|cant|p1a: Chan|partiallytrapped
+|
+|turn|25
+|
+|switch|p1a: Snor|Snorlax|523\/523
+|move|p2a: Victreebel|Wrap|p1a: Snor
+|-damage|p1a: Snor|505\/523
+|-activate|p1a: Snor|move: Wrap|[of] p2a: Victreebel
+|
+|turn|26
+|
+|switch|p2a: Slowbro|Slowbro|393\/393
+|cant|p1a: Snor|partiallytrapped
+|
+|-end|p1a: Snor|Wrap|[partiallytrapped]
+|turn|27
+|
+|switch|p1a: Chan|Chansey|365\/703 par
+|move|p2a: Slowbro|Thunder Wave|p1a: Chan
+|-fail|p1a: Chan|par
+|
+|turn|28
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|cant|p1a: Chan|par
+|
+|turn|29
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|move|p1a: Chan|Thunderbolt|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|335\/393
+|
+|turn|30
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|cant|p1a: Chan|par
+|
+|turn|31
+|
+|move|p2a: Slowbro|Surf|p1a: Chan
+|-crit|p1a: Chan
+|-damage|p1a: Chan|174\/703 par
+|cant|p1a: Chan|par
+|
+|turn|32
+|c|★Giju|haxe
+|
+|move|p2a: Slowbro|Surf|p1a: Chan
+|-damage|p1a: Chan|0 fnt
+|faint|p1a: Chan
+|c|★Zorage|I would have killed you with earthquake
+|c|★Giju|yep
+|
+|switch|p1a: Snor|Snorlax|505\/523
+|turn|33
+|
+|move|p1a: Snor|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|229\/393
+|move|p2a: Slowbro|Surf|p1a: Snor
+|-crit|p1a: Snor
+|-damage|p1a: Snor|267\/523
+|
+|turn|34
+|
+|move|p1a: Snor|Hyper Beam|p2a: Slowbro
+|-damage|p2a: Slowbro|44\/393
+|move|p2a: Slowbro|Surf|p1a: Snor
+|-damage|p1a: Snor|0 fnt
+|faint|p1a: Snor
+|c|★Zorage|How can it crit so much ?
+|
+|switch|p1a: Gol|Golem|363\/363
+|turn|35
+|c|★Giju|dunno
+|
+|move|p1a: Gol|Earthquake|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|
+|switch|p2a: Victreebel|Victreebel|363\/363
+|turn|36
+|
+|switch|p1a: Exe|Exeggutor|196\/393 par
+|move|p2a: Victreebel|Razor Leaf|p1a: Exe
+|-crit|p1a: Exe
+|-resisted|p1a: Exe
+|-damage|p1a: Exe|147\/393 par
+|
+|turn|37
+|
+|move|p2a: Victreebel|Wrap|p1a: Exe
+|-damage|p1a: Exe|132\/393 par
+|-activate|p1a: Exe|move: Wrap|[of] p2a: Victreebel
+|cant|p1a: Exe|partiallytrapped
+|
+|turn|38
+|
+|move|p2a: Victreebel|Wrap|p1a: Exe
+|-damage|p1a: Exe|117\/393 par
+|cant|p1a: Exe|par
+|
+|-end|p1a: Exe|Wrap|[partiallytrapped]
+|turn|39
+|
+|switch|p2a: Chansey|Chansey|483\/703
+|move|p1a: Exe|Sleep Powder|p2a: Chansey
+|-status|p2a: Chansey|slp
+|
+|turn|40
+|
+|cant|p2a: Chansey|slp
+|cant|p1a: Exe|par
+|
+|turn|41
+|
+|switch|p1a: Tau|Tauros|353\/353
+|cant|p2a: Chansey|slp
+|
+|turn|42
+|
+|switch|p2a: Gyarados|Gyarados|393\/393
+|move|p1a: Tau|Earthquake|p2a: Gyarados
+|-immune|p2a: Gyarados|[msg]
+|
+|turn|43
+|
+|move|p1a: Tau|Body Slam|p2a: Gyarados
+|-damage|p2a: Gyarados|270\/393
+|move|p2a: Gyarados|Surf|p1a: Tau
+|-damage|p1a: Tau|216\/353
+|
+|turn|44
+|
+|move|p1a: Tau|Body Slam|p2a: Gyarados
+|-crit|p2a: Gyarados
+|-damage|p2a: Gyarados|41\/393
+|move|p2a: Gyarados|Surf|p1a: Tau
+|-crit|p1a: Tau
+|-damage|p1a: Tau|0 fnt
+|faint|p1a: Tau
+|
+|switch|p1a: Exe|Exeggutor|117\/393 par
+|turn|45
+|
+|move|p2a: Gyarados|Ice Beam|p1a: Exe
+|-crit|p1a: Exe
+|-supereffective|p1a: Exe
+|-damage|p1a: Exe|0 fnt
+|faint|p1a: Exe
+|-message|Giju forfeited.
+|
+|win|Zorage
+|leave|Giju
+|player|p1
+|raw|Giju's rating: 1322 &rarr; <strong>1288<\/strong><br \/>(-34 for losing)
+|raw|Zorage's rating: 1038 &rarr; <strong>1095<\/strong><br \/>(+57 for winning)

@@ -1,0 +1,250 @@
+﻿|join|rimr
+|join|yhyauaiaa
+|player|p1|rimr|15
+|player|p2|yhyauaiaa|169
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Staryu|Staryu, L90|237\/237
+|switch|p2a: Nidoqueen|Nidoqueen, L85|327\/327
+|turn|1
+|
+|switch|p2a: Venomoth|Venomoth, L85|293\/293
+|move|p1a: Staryu|Surf|p2a: Venomoth
+|-damage|p2a: Venomoth|197\/293
+|
+|turn|2
+|
+|switch|p1a: Weedle|Weedle, L99|280\/280
+|move|p2a: Venomoth|Stun Spore|p1a: Weedle
+|-status|p1a: Weedle|par
+|
+|turn|3
+|
+|move|p2a: Venomoth|Psychic|p1a: Weedle
+|-supereffective|p1a: Weedle
+|-damage|p1a: Weedle|56\/280 par
+|cant|p1a: Weedle|par
+|
+|turn|4
+|
+|switch|p1a: Staryu|Staryu, L90|237\/237
+|move|p2a: Venomoth|Psychic|p1a: Staryu
+|-damage|p1a: Staryu|166\/237
+|-unboost|p1a: Staryu|spd|1
+|-unboost|p1a: Staryu|spa|1
+|
+|turn|5
+|
+|move|p1a: Staryu|Thunder Wave|p2a: Venomoth
+|-status|p2a: Venomoth|par
+|move|p2a: Venomoth|Stun Spore|p1a: Staryu|[miss]
+|-miss|p2a: Venomoth
+|
+|turn|6
+|
+|switch|p1a: Weedle|Weedle, L99|56\/280 par
+|move|p2a: Venomoth|Sleep Powder|p1a: Weedle
+|-fail|p1a: Weedle
+|
+|turn|7
+|
+|switch|p1a: Parasect|Parasect, L90|291\/291
+|move|p2a: Venomoth|Psychic|p1a: Parasect
+|-crit|p1a: Parasect
+|-damage|p1a: Parasect|177\/291
+|-unboost|p1a: Parasect|spd|1
+|-unboost|p1a: Parasect|spa|1
+|
+|turn|8
+|
+|move|p1a: Parasect|Body Slam|p2a: Venomoth
+|-damage|p2a: Venomoth|107\/293 par
+|move|p2a: Venomoth|Sleep Powder|p1a: Parasect
+|-status|p1a: Parasect|slp
+|
+|turn|9
+|
+|switch|p2a: Wigglytuff|Wigglytuff, L90|435\/435
+|cant|p1a: Parasect|slp
+|
+|turn|10
+|
+|switch|p1a: Machamp|Machamp, L90|345\/345
+|move|p2a: Wigglytuff|Double-Edge|p1a: Machamp
+|-damage|p1a: Machamp|254\/345
+|-damage|p2a: Wigglytuff|413\/435|[from] recoil|[of] p1a: Machamp
+|
+|turn|11
+|
+|switch|p2a: Dragonite|Dragonite, L85|328\/328
+|move|p1a: Machamp|Submission|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|272\/328
+|-damage|p1a: Machamp|240\/345|[from] recoil|[of] p2a: Dragonite
+|
+|turn|12
+|
+|move|p2a: Dragonite|Thunder Wave|p1a: Machamp
+|-status|p1a: Machamp|par
+|move|p1a: Machamp|Rock Slide|p2a: Dragonite|[miss]
+|-miss|p1a: Machamp
+|
+|turn|13
+|
+|move|p2a: Dragonite|Blizzard|p1a: Machamp
+|-damage|p1a: Machamp|144\/345 par
+|move|p1a: Machamp|Rock Slide|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|137\/328
+|
+|turn|14
+|
+|move|p2a: Dragonite|Blizzard|p1a: Machamp
+|-damage|p1a: Machamp|51\/345 par
+|cant|p1a: Machamp|par
+|
+|turn|15
+|
+|move|p2a: Dragonite|Blizzard|p1a: Machamp
+|-damage|p1a: Machamp|0 fnt
+|faint|p1a: Machamp
+|
+|switch|p1a: Staryu|Staryu, L90|166\/237
+|turn|16
+|
+|switch|p2a: Wigglytuff|Wigglytuff, L90|413\/435
+|move|p1a: Staryu|Blizzard|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|313\/435
+|
+|turn|17
+|
+|move|p1a: Staryu|Thunder Wave|p2a: Wigglytuff
+|-status|p2a: Wigglytuff|par
+|move|p2a: Wigglytuff|Thunder Wave|p1a: Staryu
+|-status|p1a: Staryu|par
+|
+|turn|18
+|
+|cant|p1a: Staryu|par
+|move|p2a: Wigglytuff|Double-Edge|p1a: Staryu
+|-damage|p1a: Staryu|43\/237 par
+|-damage|p2a: Wigglytuff|283\/435 par|[from] recoil|[of] p1a: Staryu
+|
+|turn|19
+|
+|move|p1a: Staryu|Blizzard|p2a: Wigglytuff
+|-crit|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|68\/435 par
+|cant|p2a: Wigglytuff|par
+|
+|turn|20
+|
+|move|p1a: Staryu|Surf|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|0 fnt
+|faint|p2a: Wigglytuff
+|
+|switch|p2a: Starmie|Starmie, L79|257\/257
+|turn|21
+|
+|switch|p1a: Weedle|Weedle, L99|56\/280 par
+|move|p2a: Starmie|Thunderbolt|p1a: Weedle
+|-crit|p1a: Weedle
+|-damage|p1a: Weedle|0 fnt
+|faint|p1a: Weedle
+|
+|switch|p1a: Chansey|Chansey, L79|557\/557
+|turn|22
+|
+|switch|p2a: Venomoth|Venomoth, L85|107\/293 par
+|move|p1a: Chansey|Ice Beam|p2a: Venomoth
+|-damage|p2a: Venomoth|43\/293 par
+|
+|turn|23
+|
+|move|p1a: Chansey|Ice Beam|p2a: Venomoth
+|-damage|p2a: Venomoth|0 fnt
+|faint|p2a: Venomoth
+|
+|switch|p2a: Dragonite|Dragonite, L85|137\/328
+|turn|24
+|
+|move|p2a: Dragonite|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|move|p1a: Chansey|Ice Beam|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|switch|p2a: Nidoqueen|Nidoqueen, L85|327\/327
+|turn|25
+|
+|switch|p1a: Parasect|Parasect, L90|177\/291 slp
+|move|p2a: Nidoqueen|Earthquake|p1a: Parasect
+|-crit|p1a: Parasect
+|-resisted|p1a: Parasect
+|-damage|p1a: Parasect|128\/291 slp
+|
+|turn|26
+|
+|move|p2a: Nidoqueen|Blizzard|p1a: Parasect
+|-supereffective|p1a: Parasect
+|-damage|p1a: Parasect|0 fnt
+|faint|p1a: Parasect
+|
+|switch|p1a: Golem|Golem, L79|288\/288
+|turn|27
+|
+|switch|p2a: Vaporeon|Vaporeon, L85|395\/395
+|move|p1a: Golem|Earthquake|p2a: Vaporeon
+|-damage|p2a: Vaporeon|273\/395
+|
+|turn|28
+|
+|switch|p2a: Nidoqueen|Nidoqueen, L85|327\/327
+|switch|p1a: Chansey|Chansey, L79|557\/557 par
+|
+|turn|29
+|
+|move|p2a: Nidoqueen|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|304\/557 par
+|move|p1a: Chansey|Ice Beam|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|184\/327
+|
+|turn|30
+|
+|move|p2a: Nidoqueen|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|35\/557 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|313\/557 par
+|
+|turn|31
+|
+|move|p2a: Nidoqueen|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|59\/557 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|337\/557 par
+|
+|turn|32
+|
+|move|p2a: Nidoqueen|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|72\/557 par
+|cant|p1a: Chansey|par
+|
+|turn|33
+|c|★yhyauaiaa|:)
+|c|★yhyauaiaa|gg
+|-message|rimr forfeited.
+|
+|win|yhyauaiaa
+|leave|rimr
+|player|p1
+|raw|rimr's rating: 1227 &rarr; <strong>1195<\/strong><br \/>(-32 for losing)
+|raw|yhyauaiaa's rating: 1131 &rarr; <strong>1163<\/strong><br \/>(+32 for winning)

@@ -1,0 +1,227 @@
+﻿|j|trueWario
+|j|barbows
+|player|p1|trueWario|163
+|player|p2|barbows|10
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|seed|22802,20276,22745,39176
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Bicho no cru|Slowbro|393\/393
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|1
+|choice|move 3|switch 6
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Bicho no cru|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|355\/393
+|
+|turn|2
+|choice|move 2|move 1
+|
+|move|p2a: Exeggutor|Sleep Powder|p1a: Bicho no cru
+|-status|p1a: Bicho no cru|slp
+|cant|p1a: Bicho no cru|slp
+|
+|turn|3
+|choice|switch 6|switch 2
+|
+|switch|p2a: Golem|Golem|363\/363
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|
+|turn|4
+|choice|move 3|switch 2
+|
+|switch|p2a: Exeggutor|Exeggutor|355\/393
+|move|p1a: Exeggutor|Sleep Powder|p2a: Exeggutor
+|-status|p2a: Exeggutor|slp
+|
+|turn|5
+|choice|move 1|switch 4
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Exeggutor|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|584\/703
+|
+|turn|6
+|choice|switch 2|switch 6
+|
+|switch|p1a: Putinha|Chansey|703\/703
+|switch|p2a: Gengar|Gengar|323\/323
+|
+|turn|7
+|j|trueWario
+|choice|move 2|move 1
+|
+|move|p2a: Gengar|Hypnosis|p1a: Putinha
+|-message|Sleep Clause Mod activated.
+|move|p1a: Putinha|Ice Beam|p2a: Gengar
+|-damage|p2a: Gengar|259\/323
+|
+|turn|8
+|c|★trueWario|lol
+|c|★barbows|always
+|c|★barbows|always forget
+|choice|move 2|move 3
+|
+|move|p2a: Gengar|Thunderbolt|p1a: Putinha
+|-damage|p1a: Putinha|618\/703
+|-status|p1a: Putinha|par
+|move|p1a: Putinha|Ice Beam|p2a: Gengar
+|-damage|p2a: Gengar|197\/323
+|
+|turn|9
+|choice|switch 5|move 2
+|
+|switch|p1a: Pedra de crack|Golem|363\/363
+|move|p2a: Gengar|Explosion|p1a: Pedra de crack
+|-resisted|p1a: Pedra de crack
+|-damage|p1a: Pedra de crack|272\/363
+|faint|p2a: Gengar
+|choice||switch 3
+|
+|switch|p2a: Cloyster|Cloyster|303\/303
+|turn|10
+|choice|switch 5|move 1
+|
+|switch|p1a: Putinha|Chansey|618\/703 par
+|move|p2a: Cloyster|Clamp|p1a: Putinha
+|-damage|p1a: Putinha|581\/703 par
+|-activate|p1a: Putinha|move: Clamp|[of] p2a: Cloyster
+|
+|turn|11
+|choice|switch 4|move 1
+|
+|switch|p1a: Pai de santo|Alakazam|313\/313
+|move|p2a: Cloyster|Clamp|p1a: Pai de santo|[miss]
+|-miss|p2a: Cloyster
+|
+|turn|12
+|choice|move 1|move 3
+|
+|move|p1a: Pai de santo|Psychic|p2a: Cloyster
+|-damage|p2a: Cloyster|166\/303
+|move|p2a: Cloyster|Ice Beam|p1a: Pai de santo
+|-damage|p1a: Pai de santo|228\/313
+|
+|turn|13
+|choice|move 1|move 2
+|
+|move|p1a: Pai de santo|Psychic|p2a: Cloyster
+|-damage|p2a: Cloyster|26\/303
+|move|p2a: Cloyster|Explosion|p1a: Pai de santo
+|-damage|p1a: Pai de santo|0 fnt
+|faint|p1a: Pai de santo
+|faint|p2a: Cloyster
+|choice|switch 2|switch 6
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|switch|p2a: Chansey|Chansey|584\/703
+|turn|14
+|choice|switch 4|move 1
+|
+|switch|p1a: Putinha|Chansey|581\/703 par
+|move|p2a: Chansey|Ice Beam|p1a: Putinha
+|-damage|p1a: Putinha|506\/703 par
+|
+|turn|15
+|choice|move 2|switch 5
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|move|p1a: Putinha|Ice Beam|p2a: Tauros
+|-damage|p2a: Tauros|248\/353
+|
+|turn|16
+|choice|switch 6|move 3
+|
+|switch|p1a: Bicho no cru|Slowbro|393\/393 slp
+|move|p2a: Tauros|Body Slam|p1a: Bicho no cru
+|-crit|p1a: Bicho no cru
+|-damage|p1a: Bicho no cru|206\/393 slp
+|
+|turn|17
+|choice|switch 4|move 3
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Tauros|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|281\/393
+|
+|turn|18
+|choice|move 4|move 1
+|
+|move|p2a: Tauros|Blizzard|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|38\/393
+|move|p1a: Exeggutor|Stun Spore|p2a: Tauros|[miss]
+|-miss|p1a: Exeggutor
+|
+|turn|19
+|c|★trueWario|lol
+|choice|switch 4|move 3
+|
+|switch|p1a: Bicho no cru|Slowbro|206\/393 slp
+|move|p2a: Tauros|Body Slam|p1a: Bicho no cru
+|-damage|p1a: Bicho no cru|112\/393 slp
+|
+|turn|20
+|choice|move 3|move 3
+|
+|move|p2a: Tauros|Body Slam|p1a: Bicho no cru
+|-damage|p1a: Bicho no cru|25\/393 slp
+|cant|p1a: Bicho no cru|slp
+|
+|turn|21
+|choice|move 3|move 3
+|
+|move|p2a: Tauros|Body Slam|p1a: Bicho no cru
+|-damage|p1a: Bicho no cru|0 fnt
+|faint|p1a: Bicho no cru
+|choice|switch 3|
+|
+|switch|p1a: Minotauro|Tauros|353\/353
+|turn|22
+|choice|move 1|move 3
+|
+|move|p1a: Minotauro|Body Slam|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|62\/353
+|move|p2a: Tauros|Body Slam|p1a: Minotauro
+|-damage|p1a: Minotauro|256\/353
+|
+|turn|23
+|choice|move 2|move 4
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Minotauro
+|-crit|p1a: Minotauro
+|-damage|p1a: Minotauro|0 fnt
+|faint|p1a: Minotauro
+|c|★trueWario|vsrhli~th;ç~}
+|choice|switch 5|
+|
+|switch|p1a: Pedra de crack|Golem|272\/363
+|turn|24
+|choice|move 3|move 1
+|
+|move|p2a: Tauros|Blizzard|p1a: Pedra de crack
+|-crit|p1a: Pedra de crack
+|-supereffective|p1a: Pedra de crack
+|-damage|p1a: Pedra de crack|0 fnt
+|faint|p1a: Pedra de crack
+|c|★trueWario|vai da o cú pro cavalo
+|-message|trueWario forfeited.
+|l|trueWario
+|
+|win|barbows
+|player|p1
+|raw|trueWario's rating: 1309 &rarr; <strong>1286<\/strong><br \/>(-23 for losing)
+|raw|barbows's rating: 1257 &rarr; <strong>1286<\/strong><br \/>(+29 for winning)

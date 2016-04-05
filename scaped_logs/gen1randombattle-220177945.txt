@@ -1,0 +1,302 @@
+﻿|join|erik1erik
+|join|GaboPlasencia
+|player|p1|erik1erik|169
+|player|p2|GaboPlasencia|258
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Wartortle|Wartortle, L85|274\/274
+|switch|p2a: Hitmonchan|Hitmonchan, L85|259\/259
+|turn|1
+|
+|move|p2a: Hitmonchan|Body Slam|p1a: Wartortle
+|-damage|p1a: Wartortle|204\/274
+|move|p1a: Wartortle|Body Slam|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|207\/259
+|
+|turn|2
+|
+|switch|p1a: Haunter|Haunter, L85|250\/250
+|move|p2a: Hitmonchan|Body Slam|p1a: Haunter
+|-immune|p1a: Haunter|[msg]
+|
+|turn|3
+|
+|switch|p2a: Lickitung|Lickitung, L85|327\/327
+|move|p1a: Haunter|Hypnosis|p2a: Lickitung
+|-status|p2a: Lickitung|slp
+|
+|turn|4
+|
+|move|p1a: Haunter|Confuse Ray|p2a: Lickitung
+|-start|p2a: Lickitung|confusion
+|cant|p2a: Lickitung|slp
+|
+|turn|5
+|
+|move|p1a: Haunter|Mega Drain|p2a: Lickitung
+|-damage|p2a: Lickitung|285\/327 slp
+|cant|p2a: Lickitung|slp
+|
+|turn|6
+|
+|switch|p1a: Tangela|Tangela, L85|284\/284
+|cant|p2a: Lickitung|slp
+|
+|turn|7
+|
+|move|p1a: Tangela|Growth|p1a: Tangela
+|-boost|p1a: Tangela|spa|1
+|-boost|p1a: Tangela|spd|1
+|cant|p2a: Lickitung|slp
+|
+|turn|8
+|
+|move|p1a: Tangela|Growth|p1a: Tangela
+|-boost|p1a: Tangela|spa|1
+|-boost|p1a: Tangela|spd|1
+|cant|p2a: Lickitung|slp
+|
+|turn|9
+|
+|move|p1a: Tangela|Growth|p1a: Tangela
+|-boost|p1a: Tangela|spa|1
+|-boost|p1a: Tangela|spd|1
+|cant|p2a: Lickitung|slp
+|-curestatus|p2a: Lickitung|slp
+|
+|turn|10
+|
+|move|p1a: Tangela|Mega Drain|p2a: Lickitung
+|-damage|p2a: Lickitung|157\/327
+|-activate|p2a: Lickitung|confusion
+|-damage|p2a: Lickitung|131\/327|[from] confusion
+|
+|turn|11
+|
+|move|p1a: Tangela|Mega Drain|p2a: Lickitung
+|-damage|p2a: Lickitung|0 fnt
+|faint|p2a: Lickitung
+|
+|switch|p2a: Articuno|Articuno, L85|327\/327
+|turn|12
+|
+|move|p2a: Articuno|Ice Beam|p1a: Tangela
+|-supereffective|p1a: Tangela
+|-damage|p1a: Tangela|185\/284
+|move|p1a: Tangela|Stun Spore|p2a: Articuno|[miss]
+|-miss|p1a: Tangela
+|
+|turn|13
+|
+|move|p2a: Articuno|Blizzard|p1a: Tangela
+|-supereffective|p1a: Tangela
+|-damage|p1a: Tangela|60\/284
+|move|p1a: Tangela|Stun Spore|p2a: Articuno
+|-status|p2a: Articuno|par
+|
+|turn|14
+|
+|move|p1a: Tangela|Mega Drain|p2a: Articuno
+|-resisted|p2a: Articuno
+|-damage|p2a: Articuno|288\/327 par
+|-heal|p1a: Tangela|79\/284|[from] drain|[of] p2a: Articuno
+|move|p2a: Articuno|Ice Beam|p1a: Tangela
+|-supereffective|p1a: Tangela
+|-damage|p1a: Tangela|0 fnt
+|faint|p1a: Tangela
+|
+|switch|p1a: Lapras|Lapras, L79|367\/367
+|turn|15
+|
+|move|p1a: Lapras|Thunderbolt|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|194\/327 par
+|move|p2a: Articuno|Blizzard|p1a: Lapras
+|-resisted|p1a: Lapras
+|-damage|p1a: Lapras|329\/367
+|
+|turn|16
+|
+|move|p1a: Lapras|Ice Beam|p2a: Articuno
+|-damage|p2a: Articuno|130\/327 par
+|move|p2a: Articuno|Ice Beam|p1a: Lapras
+|-resisted|p1a: Lapras
+|-damage|p1a: Lapras|299\/367
+|
+|turn|17
+|
+|move|p1a: Lapras|Thunderbolt|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|38\/327 par
+|move|p2a: Articuno|Ice Beam|p1a: Lapras
+|-crit|p1a: Lapras
+|-resisted|p1a: Lapras
+|-damage|p1a: Lapras|238\/367
+|
+|turn|18
+|
+|switch|p2a: Poliwhirl|Poliwhirl, L85|284\/284
+|move|p1a: Lapras|Thunderbolt|p2a: Poliwhirl
+|-supereffective|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|134\/284
+|
+|turn|19
+|
+|move|p2a: Poliwhirl|Hypnosis|p1a: Lapras
+|-status|p1a: Lapras|slp
+|cant|p1a: Lapras|slp
+|
+|turn|20
+|
+|switch|p1a: Haunter|Haunter, L85|250\/250
+|move|p2a: Poliwhirl|Psychic|p1a: Haunter
+|-crit|p1a: Haunter
+|-supereffective|p1a: Haunter
+|-damage|p1a: Haunter|99\/250
+|
+|turn|21
+|
+|move|p1a: Haunter|Explosion|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|0 fnt
+|faint|p2a: Poliwhirl
+|faint|p1a: Haunter
+|
+|switch|p2a: Golbat|Golbat, L85|301\/301
+|switch|p1a: Growlithe|Growlithe, L96|300\/300
+|turn|22
+|
+|move|p2a: Golbat|Confuse Ray|p1a: Growlithe
+|-start|p1a: Growlithe|confusion
+|-activate|p1a: Growlithe|confusion
+|-damage|p1a: Growlithe|258\/300|[from] confusion
+|
+|turn|23
+|
+|move|p2a: Golbat|Double-Edge|p1a: Growlithe
+|-damage|p1a: Growlithe|171\/300
+|-damage|p2a: Golbat|280\/301|[from] recoil|[of] p1a: Growlithe
+|-activate|p1a: Growlithe|confusion
+|-damage|p1a: Growlithe|129\/300|[from] confusion
+|
+|turn|24
+|
+|move|p2a: Golbat|Hyper Beam|p1a: Growlithe
+|-crit|p1a: Growlithe
+|-damage|p1a: Growlithe|0 fnt
+|faint|p1a: Growlithe
+|
+|switch|p1a: Arcanine|Arcanine, L85|327\/327
+|turn|25
+|
+|move|p1a: Arcanine|Reflect|p1a: Arcanine
+|-start|p1a: Arcanine|Reflect
+|move|p2a: Golbat|Confuse Ray|p1a: Arcanine
+|-start|p1a: Arcanine|confusion
+|
+|turn|26
+|
+|switch|p1a: Wartortle|Wartortle, L85|204\/274
+|move|p2a: Golbat|Double-Edge|p1a: Wartortle
+|-damage|p1a: Wartortle|134\/274
+|-damage|p2a: Golbat|263\/301|[from] recoil|[of] p1a: Wartortle
+|
+|turn|27
+|
+|move|p2a: Golbat|Mega Drain|p1a: Wartortle
+|-supereffective|p1a: Wartortle
+|-damage|p1a: Wartortle|69\/274
+|-heal|p2a: Golbat|295\/301|[from] drain|[of] p1a: Wartortle
+|move|p1a: Wartortle|Blizzard|p2a: Golbat
+|-crit|p2a: Golbat
+|-supereffective|p2a: Golbat
+|-damage|p2a: Golbat|0 fnt
+|faint|p2a: Golbat
+|
+|switch|p2a: Hitmonchan|Hitmonchan, L85|207\/259
+|turn|28
+|
+|move|p2a: Hitmonchan|Seismic Toss|p1a: Wartortle
+|-damage|p1a: Wartortle|0 fnt
+|faint|p1a: Wartortle
+|
+|switch|p1a: Arcanine|Arcanine, L85|327\/327
+|turn|29
+|
+|move|p1a: Arcanine|Fire Blast|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|17\/259
+|move|p2a: Hitmonchan|Body Slam|p1a: Arcanine
+|-damage|p1a: Arcanine|255\/327
+|
+|turn|30
+|
+|move|p1a: Arcanine|Body Slam|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|0 fnt
+|faint|p2a: Hitmonchan
+|
+|switch|p2a: Articuno|Articuno, L85|38\/327 par
+|turn|31
+|
+|move|p1a: Arcanine|Body Slam|p2a: Articuno
+|-crit|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|faint|p2a: Articuno
+|
+|switch|p2a: Meowth|Meowth, L96|272\/272
+|turn|32
+|
+|move|p2a: Meowth|Bubble Beam|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|181\/327
+|move|p1a: Arcanine|Fire Blast|p2a: Meowth|[miss]
+|-miss|p1a: Arcanine
+|
+|turn|33
+|
+|move|p2a: Meowth|Bubble Beam|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|105\/327
+|move|p1a: Arcanine|Fire Blast|p2a: Meowth
+|-damage|p2a: Meowth|111\/272
+|-status|p2a: Meowth|brn
+|
+|turn|34
+|
+|move|p2a: Meowth|Slash|p1a: Arcanine
+|-crit|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|switch|p1a: Lapras|Lapras, L79|238\/367 slp
+|turn|35
+|
+|move|p2a: Meowth|Slash|p1a: Lapras
+|-crit|p1a: Lapras
+|-damage|p1a: Lapras|93\/367 slp
+|-damage|p2a: Meowth|94\/272 brn|[from] brn|[of] p1a: Lapras
+|cant|p1a: Lapras|slp
+|
+|turn|36
+|
+|move|p2a: Meowth|Slash|p1a: Lapras
+|-crit|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|
+|win|GaboPlasencia
+|raw|Ladder updating...
+|raw|erik1erik's rating: 1459 &rarr; <strong>1426<\/strong><br \/>(-33 for losing)
+|raw|GaboPlasencia's rating: 1180 &rarr; <strong>1222<\/strong><br \/>(+42 for winning)
+|leave|erik1erik
+|player|p1
+|leave|GaboPlasencia
+|player|p2
+|join|Krlox
+|join|GaboPlasencia
+|c|★GaboPlasencia|Dale en instant replay

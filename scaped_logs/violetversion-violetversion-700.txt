@@ -1,0 +1,371 @@
+﻿|J|KristophV
+|J|Anna says hi
+|player|p1|KristophV|kristophv.png
+|player|p2|Anna says hi|183
+|gametype|singles
+|gen|1
+|tier|Violet Version
+|clearpoke
+|poke|p1|Butterfree
+|poke|p1|Tauros
+|poke|p1|Exeggutor
+|poke|p1|Magneton
+|poke|p1|Snorlax
+|poke|p1|Machamp
+|poke|p2|Golduck
+|poke|p2|Jynx
+|poke|p2|Gengar
+|poke|p2|Chansey
+|poke|p2|Golem
+|poke|p2|Machamp
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|c|★KristophV|yes it has
+|
+|start
+|switch|p1a: Butterfree|Butterfree|343\/343
+|switch|p2a: Jynx|Jynx|333\/333
+|turn|1
+|
+|switch|p1a: Machamp|Machamp|403\/403
+|move|p2a: Jynx|Lovely Kiss|p1a: Machamp
+|-status|p1a: Machamp|slp
+|
+|turn|2
+|
+|switch|p1a: Butterfree|Butterfree|343\/343
+|move|p2a: Jynx|Blizzard|p1a: Butterfree
+|-crit|p1a: Butterfree
+|-damage|p1a: Butterfree|83\/343
+|
+|turn|3
+|
+|switch|p1a: Magneton|Magneton|443\/443
+|move|p2a: Jynx|Psychic|p1a: Magneton
+|-damage|p1a: Magneton|354\/443
+|
+|turn|4
+|
+|switch|p2a: Golem|Golem|363\/363
+|move|p1a: Magneton|Mimic|p2a: Golem
+|-start|p1a: Magneton|Mimic|Body Slam
+|
+|turn|5
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Golem|Earthquake|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|322\/393
+|
+|turn|6
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|move|p1a: Exeggutor|Mega Drain|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|299\/323
+|-heal|p1a: Exeggutor|346\/393|[from] drain|[of] p2a: Gengar
+|
+|turn|7
+|
+|move|p2a: Gengar|Mega Drain|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|315\/393
+|-heal|p2a: Gengar|323\/323|[from] drain|[of] p1a: Exeggutor
+|move|p1a: Exeggutor|Psychic|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|105\/323
+|
+|turn|8
+|
+|move|p2a: Gengar|Explosion|p1a: Exeggutor
+|-damage|p1a: Exeggutor|81\/393
+|faint|p2a: Gengar
+|
+|switch|p2a: Jynx|Jynx|333\/333
+|turn|9
+|
+|switch|p1a: Magneton|Magneton|354\/443
+|move|p2a: Jynx|Blizzard|p1a: Magneton
+|-damage|p1a: Magneton|226\/443
+|
+|turn|10
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|switch|p1a: Butterfree|Butterfree|83\/343
+|
+|turn|11
+|
+|move|p1a: Butterfree|Sleep Powder|p2a: Chansey
+|-status|p2a: Chansey|slp
+|-curestatus|p2a: Chansey|slp
+|
+|turn|12
+|
+|switch|p2a: Golduck|Golduck|363\/363
+|move|p1a: Butterfree|Sleep Powder|p2a: Golduck
+|-status|p2a: Golduck|slp
+|
+|turn|13
+|c|★Anna says hi|sleep clause?
+|c|★Anna says hi|oh right
+|c|★Anna says hi|nvm
+|c|★Anna says hi|didn't see chansey wake up
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Butterfree|Solar Beam|p2a: Chansey|[still]
+|-prepare|p1a: Butterfree|Solar Beam|p2a: Chansey
+|-boost|p1a: Butterfree|spa|1
+|-boost|p1a: Butterfree|spd|1
+|
+|turn|14
+|
+|move|p1a: Butterfree|Solar Beam|p2a: Chansey
+|-damage|p2a: Chansey|602\/703
+|move|p2a: Chansey|Thunder Wave|p1a: Butterfree
+|-status|p1a: Butterfree|par
+|
+|turn|15
+|
+|move|p2a: Chansey|Ice Beam|p1a: Butterfree
+|-crit|p1a: Butterfree
+|-damage|p1a: Butterfree|0 fnt
+|faint|p1a: Butterfree
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|turn|16
+|
+|move|p2a: Chansey|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|move|p1a: Snorlax|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|318\/703
+|
+|turn|17
+|
+|switch|p2a: Golduck|Golduck|363\/363 slp
+|cant|p1a: Snorlax|par
+|
+|turn|18
+|
+|switch|p1a: Exeggutor|Exeggutor|81\/393
+|cant|p2a: Golduck|slp
+|
+|turn|19
+|
+|cant|p2a: Golduck|slp
+|move|p1a: Exeggutor|Mega Drain|p2a: Golduck
+|-supereffective|p2a: Golduck
+|-damage|p2a: Golduck|238\/363 slp
+|-heal|p1a: Exeggutor|206\/393|[from] drain|[of] p2a: Golduck
+|
+|turn|20
+|
+|switch|p2a: Chansey|Chansey|318\/703
+|move|p1a: Exeggutor|Mega Drain|p2a: Chansey
+|-damage|p2a: Chansey|265\/703
+|-heal|p1a: Exeggutor|259\/393|[from] drain|[of] p2a: Chansey
+|
+|turn|21
+|
+|switch|p1a: Snorlax|Snorlax|523\/523 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|616\/703
+|
+|turn|22
+|
+|switch|p2a: Golduck|Golduck|238\/363 slp
+|move|p1a: Snorlax|Earthquake|p2a: Golduck
+|-damage|p2a: Golduck|141\/363 slp
+|
+|turn|23
+|
+|cant|p2a: Golduck|slp
+|move|p1a: Snorlax|Earthquake|p2a: Golduck
+|-damage|p2a: Golduck|42\/363 slp
+|
+|turn|24
+|
+|switch|p2a: Machamp|Machamp|403\/403
+|move|p1a: Snorlax|Earthquake|p2a: Machamp
+|-damage|p2a: Machamp|326\/403
+|
+|turn|25
+|
+|switch|p1a: Exeggutor|Exeggutor|259\/393
+|move|p2a: Machamp|Karate Chop|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|218\/393
+|
+|turn|26
+|
+|switch|p2a: Chansey|Chansey|616\/703
+|switch|p1a: Snorlax|Snorlax|523\/523 par
+|
+|turn|27
+|
+|switch|p2a: Golem|Golem|363\/363
+|move|p1a: Snorlax|Body Slam|p2a: Golem
+|-crit|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|283\/363
+|-status|p2a: Golem|par
+|
+|turn|28
+|
+|switch|p2a: Machamp|Machamp|326\/403
+|cant|p1a: Snorlax|par
+|
+|turn|29
+|
+|switch|p1a: Exeggutor|Exeggutor|218\/393
+|move|p2a: Machamp|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|125\/393
+|
+|turn|30
+|
+|move|p2a: Machamp|Hyper Beam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Snorlax|Snorlax|523\/523 par
+|turn|31
+|
+|move|p2a: Machamp|Karate Chop|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-supereffective|p1a: Snorlax
+|-damage|p1a: Snorlax|135\/523 par
+|move|p1a: Snorlax|Self-Destruct|p2a: Machamp
+|-damage|p2a: Machamp|17\/403
+|faint|p1a: Snorlax
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|32
+|
+|switch|p2a: Golduck|Golduck|42\/363 slp
+|move|p1a: Tauros|Earthquake|p2a: Golduck
+|-crit|p2a: Golduck
+|-damage|p2a: Golduck|0 fnt
+|faint|p2a: Golduck
+|
+|switch|p2a: Chansey|Chansey|616\/703
+|turn|33
+|
+|switch|p1a: Machamp|Machamp|403\/403 slp
+|move|p2a: Chansey|Thunder Wave|p1a: Machamp
+|-fail|p1a: Machamp
+|
+|turn|34
+|
+|switch|p2a: Jynx|Jynx|333\/333
+|cant|p1a: Machamp|slp
+|
+|turn|35
+|
+|move|p2a: Jynx|Blizzard|p1a: Machamp
+|-damage|p1a: Machamp|221\/403 slp
+|cant|p1a: Machamp|slp
+|
+|turn|36
+|
+|switch|p1a: Magneton|Magneton|226\/443
+|move|p2a: Jynx|Blizzard|p1a: Magneton
+|-damage|p1a: Magneton|107\/443
+|
+|turn|37
+|
+|move|p2a: Jynx|Blizzard|p1a: Magneton
+|-damage|p1a: Magneton|0 fnt
+|faint|p1a: Magneton
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|38
+|
+|switch|p2a: Golem|Golem|283\/363 par
+|move|p1a: Tauros|Body Slam|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|239\/363 par
+|
+|turn|39
+|
+|move|p1a: Tauros|Earthquake|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|108\/363 par
+|cant|p2a: Golem|par
+|
+|turn|40
+|c|★Anna says hi|gdi
+|
+|move|p1a: Tauros|Earthquake|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|
+|switch|p2a: Chansey|Chansey|616\/703
+|turn|41
+|
+|move|p1a: Tauros|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|364\/703
+|-status|p2a: Chansey|par
+|cant|p2a: Chansey|par
+|
+|turn|42
+|c|★KristophV|wow
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Chansey|[miss]
+|-miss|p1a: Tauros
+|move|p2a: Chansey|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|
+|turn|43
+|
+|cant|p1a: Tauros|par
+|cant|p2a: Chansey|par
+|
+|turn|44
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|switch|p2a: Machamp|Machamp|17\/403
+|turn|45
+|
+|move|p2a: Machamp|Karate Chop|p1a: Tauros
+|-supereffective|p1a: Tauros
+|-damage|p1a: Tauros|204\/353 par
+|cant|p1a: Tauros|par
+|
+|turn|46
+|
+|move|p2a: Machamp|Karate Chop|p1a: Tauros
+|-crit|p1a: Tauros
+|-supereffective|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|switch|p1a: Machamp|Machamp|221\/403 slp
+|turn|47
+|c|★Anna says hi|curse machamp's low crit rate
+|c|★KristophV|indeed
+|
+|move|p2a: Machamp|Karate Chop|p1a: Machamp
+|-crit|p1a: Machamp
+|-damage|p1a: Machamp|93\/403 slp
+|cant|p1a: Machamp|slp
+|
+|turn|48
+|
+|move|p2a: Machamp|Hyper Beam|p1a: Machamp
+|-damage|p1a: Machamp|0 fnt
+|faint|p1a: Machamp
+|
+|win|Anna says hi
+|c|★KristophV|gg
+|c|★Anna says hi|gg
+|L|KristophV
+|player|p1

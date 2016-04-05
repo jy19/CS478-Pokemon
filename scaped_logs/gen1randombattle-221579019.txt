@@ -1,0 +1,304 @@
+﻿|join|Buts X
+|join|pokeace96
+|player|p1|Buts X|43
+|player|p2|pokeace96|290
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Psyduck|Psyduck, L96|291\/291
+|switch|p2a: Gloom|Gloom, L85|276\/276
+|turn|1
+|
+|switch|p1a: Weepinbell|Weepinbell, L85|284\/284
+|move|p2a: Gloom|Sleep Powder|p1a: Weepinbell
+|-status|p1a: Weepinbell|slp
+|
+|turn|2
+|
+|switch|p1a: Wigglytuff|Wigglytuff, L85|412\/412
+|move|p2a: Gloom|Swords Dance|p2a: Gloom
+|-boost|p2a: Gloom|atk|2
+|
+|turn|3
+|
+|move|p1a: Wigglytuff|Thunder Wave|p2a: Gloom
+|-status|p2a: Gloom|par
+|move|p2a: Gloom|Double-Edge|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|244\/412
+|-damage|p2a: Gloom|234\/276 par|[from] recoil|[of] p1a: Wigglytuff
+|
+|turn|4
+|
+|move|p1a: Wigglytuff|Blizzard|p2a: Gloom
+|-supereffective|p2a: Gloom
+|-damage|p2a: Gloom|112\/276 par
+|move|p2a: Gloom|Double-Edge|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|73\/412
+|-damage|p2a: Gloom|70\/276 par|[from] recoil|[of] p1a: Wigglytuff
+|
+|turn|5
+|
+|switch|p2a: Starmie|Starmie, L79|257\/257
+|move|p1a: Wigglytuff|Hyper Beam|p2a: Starmie
+|-damage|p2a: Starmie|104\/257
+|
+|turn|6
+|
+|move|p2a: Starmie|Thunder Wave|p1a: Wigglytuff
+|-status|p1a: Wigglytuff|par
+|cant|p1a: Wigglytuff|recharge
+|
+|turn|7
+|
+|move|p2a: Starmie|Surf|p1a: Wigglytuff
+|-crit|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|0 fnt
+|faint|p1a: Wigglytuff
+|
+|switch|p1a: Kangaskhan|Kangaskhan, L85|352\/352
+|turn|8
+|
+|move|p2a: Starmie|Thunder Wave|p1a: Kangaskhan
+|-status|p1a: Kangaskhan|par
+|move|p1a: Kangaskhan|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|1\/257
+|
+|turn|9
+|c|★Buts X|realllly
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|129\/257
+|move|p1a: Kangaskhan|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|22\/257
+|-status|p2a: Starmie|par
+|
+|turn|10
+|c|★pokeace96|happy?
+|c|★Buts X|only a little bit
+|
+|cant|p2a: Starmie|par
+|move|p1a: Kangaskhan|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|c|★Buts X|now i def am
+|
+|switch|p2a: Poliwrath|Poliwrath, L85|327\/327
+|turn|11
+|
+|move|p2a: Poliwrath|Amnesia|p2a: Poliwrath
+|-boost|p2a: Poliwrath|spd|2
+|-boost|p2a: Poliwrath|spa|2
+|move|p1a: Kangaskhan|Body Slam|p2a: Poliwrath
+|-damage|p2a: Poliwrath|244\/327
+|
+|turn|12
+|c|★Buts X|i have no answer to water types
+|c|★Buts X|this is a bad spot
+|
+|move|p2a: Poliwrath|Surf|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|103\/352 par
+|move|p1a: Kangaskhan|Body Slam|p2a: Poliwrath
+|-damage|p2a: Poliwrath|163\/327
+|
+|turn|13
+|
+|move|p2a: Poliwrath|Surf|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|0 fnt
+|faint|p1a: Kangaskhan
+|
+|switch|p1a: Psyduck|Psyduck, L96|291\/291
+|turn|14
+|
+|move|p2a: Poliwrath|Amnesia|p2a: Poliwrath
+|-boost|p2a: Poliwrath|spd|2
+|-boost|p2a: Poliwrath|spa|2
+|move|p1a: Psyduck|Blizzard|p2a: Poliwrath
+|-resisted|p2a: Poliwrath
+|-damage|p2a: Poliwrath|149\/327
+|
+|turn|15
+|c|★Buts X|need popsicles
+|
+|move|p2a: Poliwrath|Surf|p1a: Psyduck
+|-resisted|p1a: Psyduck
+|-damage|p1a: Psyduck|127\/291
+|move|p1a: Psyduck|Blizzard|p2a: Poliwrath
+|-resisted|p2a: Poliwrath
+|-damage|p2a: Poliwrath|135\/327
+|-status|p2a: Poliwrath|frz
+|
+|turn|16
+|c|★Buts X|hmm
+|c|★pokeace96|bullshit
+|c|★Buts X|im still screwed
+|
+|switch|p2a: Gloom|Gloom, L85|70\/276 par
+|move|p1a: Psyduck|Amnesia|p1a: Psyduck
+|-boost|p1a: Psyduck|spd|2
+|-boost|p1a: Psyduck|spa|2
+|
+|turn|17
+|c|★Buts X|i have trash on the side
+|
+|move|p1a: Psyduck|Blizzard|p2a: Gloom
+|-supereffective|p2a: Gloom
+|-damage|p2a: Gloom|0 fnt
+|faint|p2a: Gloom
+|
+|switch|p2a: Raticate|Raticate, L85|267\/267
+|turn|18
+|
+|switch|p1a: Onix|Onix, L85|233\/233
+|move|p2a: Raticate|Body Slam|p1a: Onix
+|-resisted|p1a: Onix
+|-damage|p1a: Onix|207\/233
+|-status|p1a: Onix|par
+|
+|turn|19
+|
+|move|p2a: Raticate|Super Fang|p1a: Onix
+|-damage|p1a: Onix|104\/233 par
+|move|p1a: Onix|Rock Slide|p2a: Raticate
+|-damage|p2a: Raticate|196\/267
+|
+|turn|20
+|
+|move|p2a: Raticate|Bubble Beam|p1a: Onix
+|-supereffective|p1a: Onix
+|-damage|p1a: Onix|0 fnt
+|faint|p1a: Onix
+|
+|switch|p1a: Omastar|Omastar, L85|293\/293
+|turn|21
+|
+|move|p2a: Raticate|Super Fang|p1a: Omastar
+|-damage|p1a: Omastar|147\/293
+|move|p1a: Omastar|Hydro Pump|p2a: Raticate
+|-damage|p2a: Raticate|6\/267
+|
+|turn|22
+|
+|move|p2a: Raticate|Body Slam|p1a: Omastar
+|-resisted|p1a: Omastar
+|-damage|p1a: Omastar|114\/293
+|move|p1a: Omastar|Seismic Toss|p2a: Raticate
+|-damage|p2a: Raticate|0 fnt
+|faint|p2a: Raticate
+|
+|switch|p2a: Metapod|Metapod, L99|300\/300
+|turn|23
+|
+|switch|p1a: Psyduck|Psyduck, L96|127\/291
+|move|p2a: Metapod|String Shot|p1a: Psyduck
+|-unboost|p1a: Psyduck|spe|1
+|
+|turn|24
+|
+|switch|p2a: Golem|Golem, L79|288\/288
+|move|p1a: Psyduck|Amnesia|p1a: Psyduck
+|-boost|p1a: Psyduck|spd|2
+|-boost|p1a: Psyduck|spa|2
+|
+|turn|25
+|
+|move|p2a: Golem|Earthquake|p1a: Psyduck
+|-crit|p1a: Psyduck
+|-damage|p1a: Psyduck|0 fnt
+|faint|p1a: Psyduck
+|
+|switch|p1a: Omastar|Omastar, L85|114\/293
+|turn|26
+|
+|switch|p2a: Poliwrath|Poliwrath, L85|135\/327 frz
+|move|p1a: Omastar|Hydro Pump|p2a: Poliwrath
+|-resisted|p2a: Poliwrath
+|-damage|p2a: Poliwrath|52\/327 frz
+|
+|turn|27
+|c|★Buts X|oh right, he was frozen
+|
+|switch|p1a: Weepinbell|Weepinbell, L85|284\/284 slp
+|cant|p2a: Poliwrath|frz
+|
+|turn|28
+|c|★Buts X|having a metapod hurt you here
+|c|★Buts X|well, it always hurts, i guess
+|
+|switch|p2a: Golem|Golem, L79|288\/288
+|cant|p1a: Weepinbell|slp
+|
+|turn|29
+|
+|cant|p1a: Weepinbell|slp
+|move|p2a: Golem|Earthquake|p1a: Weepinbell
+|-damage|p1a: Weepinbell|137\/284 slp
+|
+|turn|30
+|
+|cant|p1a: Weepinbell|slp
+|move|p2a: Golem|Earthquake|p1a: Weepinbell
+|-damage|p1a: Weepinbell|2\/284 slp
+|
+|turn|31
+|c|★Buts X|aw
+|
+|cant|p1a: Weepinbell|slp
+|move|p2a: Golem|Earthquake|p1a: Weepinbell
+|-damage|p1a: Weepinbell|0 fnt
+|faint|p1a: Weepinbell
+|c|★Buts X|comes down to omastar
+|c|★Buts X|and your metapod is going to be huge here
+|
+|switch|p1a: Omastar|Omastar, L85|114\/293
+|turn|32
+|
+|switch|p2a: Poliwrath|Poliwrath, L85|52\/327 frz
+|move|p1a: Omastar|Hydro Pump|p2a: Poliwrath
+|-crit|p2a: Poliwrath
+|-resisted|p2a: Poliwrath
+|-damage|p2a: Poliwrath|0 fnt
+|faint|p2a: Poliwrath
+|
+|switch|p2a: Metapod|Metapod, L99|300\/300
+|turn|33
+|
+|move|p1a: Omastar|Blizzard|p2a: Metapod
+|-damage|p2a: Metapod|141\/300
+|move|p2a: Metapod|String Shot|p1a: Omastar
+|-unboost|p1a: Omastar|spe|1
+|
+|turn|34
+|c|★Buts X|god damn webs
+|c|★Buts X|thats what kills me
+|c|★Buts X|string shot
+|
+|move|p2a: Metapod|String Shot|p1a: Omastar
+|-unboost|p1a: Omastar|spe|1
+|move|p1a: Omastar|Blizzard|p2a: Metapod
+|-damage|p2a: Metapod|0 fnt
+|faint|p2a: Metapod
+|c|★pokeace96|gotta drop your speed so I go 1st
+|c|★Buts X|i know
+|
+|switch|p2a: Golem|Golem, L79|288\/288
+|turn|35
+|c|★Buts X|i really wish i had an option to switch out to and reset things
+|
+|move|p2a: Golem|Earthquake|p1a: Omastar
+|-supereffective|p1a: Omastar
+|-damage|p1a: Omastar|0 fnt
+|faint|p1a: Omastar
+|
+|win|pokeace96
+|raw|Ladder updating...
+|raw|Buts X's rating: 1398 &rarr; <strong>1365<\/strong><br \/>(-33 for losing)
+|raw|pokeace96's rating: 1138 &rarr; <strong>1179<\/strong><br \/>(+41 for winning)
+|c|★pokeace96|g
+|c|★pokeace96|gg
+|leave|Buts X

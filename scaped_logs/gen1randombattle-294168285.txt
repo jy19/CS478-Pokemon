@@ -1,0 +1,202 @@
+﻿|join|TitinhoRibeiro
+|join|ZeroPhi
+|player|p1|TitinhoRibeiro|161
+|player|p2|ZeroPhi|290
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|62349,30612,7321,16548
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Tauros|Tauros, L79|280\/280
+|switch|p2a: Mew|Mew, L74|300\/300
+|turn|1
+|choice|move 1|move 2
+|
+|move|p1a: Tauros|Body Slam|p2a: Mew
+|-damage|p2a: Mew|213\/300
+|move|p2a: Mew|Psychic|p1a: Tauros
+|-damage|p1a: Tauros|189\/280
+|
+|turn|2
+|choice|move 1|move 2
+|
+|move|p1a: Tauros|Body Slam|p2a: Mew
+|-damage|p2a: Mew|128\/300
+|move|p2a: Mew|Psychic|p1a: Tauros
+|-damage|p1a: Tauros|89\/280
+|
+|turn|3
+|choice|move 2|move 2
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|choice||switch 2
+|
+|switch|p2a: Fearow|Fearow, L90|300\/300
+|turn|4
+|choice|move 4|move 4
+|
+|move|p2a: Fearow|Double-Edge|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|-damage|p2a: Fearow|278\/300|[from] recoil|[of] p1a: Tauros
+|faint|p1a: Tauros
+|choice|switch 5|
+|
+|switch|p1a: Lapras|Lapras, L79|367\/367
+|turn|5
+|choice|move 4|move 4
+|
+|move|p2a: Fearow|Double-Edge|p1a: Lapras
+|-crit|p1a: Lapras
+|-damage|p1a: Lapras|110\/367
+|-damage|p2a: Fearow|214\/300|[from] recoil|[of] p1a: Lapras
+|move|p1a: Lapras|Ice Beam|p2a: Fearow
+|-supereffective|p2a: Fearow
+|-damage|p2a: Fearow|23\/300
+|
+|turn|6
+|choice|move 2|move 2
+|
+|move|p2a: Fearow|Drill Peck|p1a: Lapras
+|-damage|p1a: Lapras|1\/367
+|move|p1a: Lapras|Thunderbolt|p2a: Fearow
+|-crit|p2a: Fearow
+|-supereffective|p2a: Fearow
+|-damage|p2a: Fearow|0 fnt
+|faint|p2a: Fearow
+|choice||switch 4
+|
+|switch|p2a: Flareon|Flareon, L90|300\/300
+|turn|7
+|choice|switch 2|move 3
+|
+|switch|p1a: Poliwag|Poliwag, L96|272\/272
+|move|p2a: Flareon|Body Slam|p1a: Poliwag
+|-damage|p1a: Poliwag|149\/272
+|
+|turn|8
+|choice|move 2|move 3
+|
+|move|p1a: Poliwag|Surf|p2a: Flareon
+|-crit|p2a: Flareon
+|-supereffective|p2a: Flareon
+|-damage|p2a: Flareon|56\/300
+|move|p2a: Flareon|Body Slam|p1a: Poliwag
+|-damage|p1a: Poliwag|37\/272
+|
+|turn|9
+|choice|move 2|move 2
+|
+|move|p2a: Flareon|Quick Attack|p1a: Poliwag
+|-damage|p1a: Poliwag|0 fnt
+|faint|p1a: Poliwag
+|choice|switch 4|
+|
+|switch|p1a: Flareon|Flareon, L90|300\/300
+|turn|10
+|choice|move 3|move 1
+|
+|move|p1a: Flareon|Body Slam|p2a: Flareon
+|-crit|p2a: Flareon
+|-damage|p2a: Flareon|0 fnt
+|faint|p2a: Flareon
+|choice||switch 3
+|
+|switch|p2a: Starmie|Starmie, L79|257\/257
+|turn|11
+|choice|move 2|move 3
+|
+|move|p2a: Starmie|Thunder Wave|p1a: Flareon
+|-status|p1a: Flareon|par
+|move|p1a: Flareon|Fire Blast|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|177\/257
+|
+|turn|12
+|choice|switch 3|move 1
+|
+|switch|p1a: Oddish|Oddish, L96|281\/281
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|257\/257
+|
+|turn|13
+|choice|move 3|move 2
+|
+|move|p2a: Starmie|Blizzard|p1a: Oddish
+|-supereffective|p1a: Oddish
+|-damage|p1a: Oddish|125\/281
+|move|p1a: Oddish|Toxic|p2a: Starmie
+|-status|p2a: Starmie|tox
+|
+|turn|14
+|choice|move 4|move 2
+|
+|move|p2a: Starmie|Blizzard|p1a: Oddish
+|-crit|p1a: Oddish
+|-supereffective|p1a: Oddish
+|-damage|p1a: Oddish|0 fnt
+|faint|p1a: Oddish
+|choice|switch 6|
+|
+|switch|p1a: Mew|Mew, L74|300\/300
+|turn|15
+|choice|move 2|move 3
+|
+|move|p2a: Starmie|Thunder Wave|p1a: Mew
+|-status|p1a: Mew|par
+|-damage|p2a: Starmie|241\/257 tox|[from] tox|[of] p1a: Mew
+|move|p1a: Mew|Thunderbolt|p2a: Starmie|[miss]
+|-miss|p1a: Mew
+|
+|turn|16
+|c|★ZeroPhi|Thunderbolt.... missed?!
+|choice|move 1|switch 5
+|
+|switch|p2a: Weepinbell|Weepinbell, L85|284\/284
+|move|p1a: Mew|Horn Drill|p2a: Weepinbell
+|-immune|p2a: Weepinbell|[ohko]
+|
+|turn|17
+|choice|move 3|move 3
+|
+|move|p2a: Weepinbell|Swords Dance|p2a: Weepinbell
+|-boost|p2a: Weepinbell|atk|2
+|move|p1a: Mew|Swift|p2a: Weepinbell
+|-damage|p2a: Weepinbell|240\/284
+|
+|turn|18
+|choice|move 3|move 2
+|
+|move|p2a: Weepinbell|Body Slam|p1a: Mew
+|-damage|p1a: Mew|175\/300 par
+|move|p1a: Mew|Swift|p2a: Weepinbell
+|-damage|p2a: Weepinbell|193\/284
+|
+|turn|19
+|choice|move 2|move 3
+|
+|move|p2a: Weepinbell|Swords Dance|p2a: Weepinbell
+|-boost|p2a: Weepinbell|atk|2
+|move|p1a: Mew|Thunderbolt|p2a: Weepinbell
+|-resisted|p2a: Weepinbell
+|-damage|p2a: Weepinbell|167\/284
+|
+|turn|20
+|choice|move 4|move 2
+|
+|move|p2a: Weepinbell|Body Slam|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|leave|TitinhoRibeiro
+|player|p1
+|-message|titinhoribeiro lost due to inactivity.
+|
+|win|ZeroPhi
+|raw|TitinhoRibeiro's rating: 1136 &rarr; <strong>1110<\/strong><br \/>(-26 for losing)
+|raw|ZeroPhi's rating: 1118 &rarr; <strong>1145<\/strong><br \/>(+27 for winning)

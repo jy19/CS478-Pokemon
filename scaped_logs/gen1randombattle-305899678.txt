@@ -1,0 +1,308 @@
+﻿|j|Joelmachi
+|j|Jedipanta
+|player|p1|Joelmachi|265
+|player|p2|Jedipanta|102
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|16063,16708,46203,16590
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Pidgeot|Pidgeot, L90|333\/333
+|switch|p2a: Kangaskhan|Kangaskhan, L85|352\/352
+|turn|1
+|choice|move 3|move 3
+|
+|move|p1a: Pidgeot|Mimic|p2a: Kangaskhan
+|-start|p1a: Pidgeot|Mimic|Body Slam
+|move|p2a: Kangaskhan|Body Slam|p1a: Pidgeot
+|-damage|p1a: Pidgeot|241\/333
+|
+|turn|2
+|choice|move 3|move 3
+|
+|move|p1a: Pidgeot|Body Slam|p2a: Kangaskhan
+|-crit|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|166\/352
+|move|p2a: Kangaskhan|Body Slam|p1a: Pidgeot
+|-damage|p1a: Pidgeot|152\/333
+|
+|turn|3
+|choice|move 2|move 1
+|
+|move|p1a: Pidgeot|Hyper Beam|p2a: Kangaskhan|[miss]
+|-miss|p1a: Pidgeot
+|move|p2a: Kangaskhan|Hyper Beam|p1a: Pidgeot|[miss]
+|-miss|p2a: Kangaskhan
+|
+|turn|4
+|choice|move 3|move 1
+|
+|move|p1a: Pidgeot|Body Slam|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|71\/352
+|move|p2a: Kangaskhan|Hyper Beam|p1a: Pidgeot
+|-crit|p1a: Pidgeot
+|-damage|p1a: Pidgeot|0 fnt
+|faint|p1a: Pidgeot
+|choice|switch 5|
+|
+|switch|p1a: Machoke|Machoke, L85|310\/310
+|turn|5
+|choice|move 3|move 1
+|
+|move|p2a: Kangaskhan|Hyper Beam|p1a: Machoke|[miss]
+|-miss|p2a: Kangaskhan
+|move|p1a: Machoke|Earthquake|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|faint|p2a: Kangaskhan
+|choice||switch 4
+|
+|switch|p2a: Mr. Mime|Mr. Mime, L85|242\/242
+|turn|6
+|choice|switch 4|move 4
+|
+|switch|p1a: Alakazam|Alakazam, L79|249\/249
+|move|p2a: Mr. Mime|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|208\/249
+|
+|turn|7
+|choice|move 2|move 3
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Mr. Mime
+|-status|p2a: Mr. Mime|par
+|move|p2a: Mr. Mime|Thunderbolt|p1a: Alakazam
+|-damage|p1a: Alakazam|154\/249
+|
+|turn|8
+|choice|move 1|move 3
+|
+|move|p1a: Alakazam|Psychic|p2a: Mr. Mime
+|-resisted|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|198\/242 par
+|move|p2a: Mr. Mime|Thunderbolt|p1a: Alakazam
+|-damage|p1a: Alakazam|96\/249
+|
+|turn|9
+|choice|move 3|move 3
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|220\/249
+|move|p2a: Mr. Mime|Thunderbolt|p1a: Alakazam
+|-damage|p1a: Alakazam|163\/249
+|
+|turn|10
+|choice|move 4|move 3
+|
+|move|p1a: Alakazam|Reflect|p1a: Alakazam
+|-start|p1a: Alakazam|Reflect
+|move|p2a: Mr. Mime|Thunderbolt|p1a: Alakazam
+|-damage|p1a: Alakazam|103\/249
+|
+|turn|11
+|choice|move 3|move 3
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|227\/249
+|move|p2a: Mr. Mime|Thunderbolt|p1a: Alakazam
+|-damage|p1a: Alakazam|170\/249
+|
+|turn|12
+|choice|switch 2|move 1
+|
+|switch|p1a: Victreebel|Victreebel, L85|310\/310
+|cant|p2a: Mr. Mime|par
+|
+|turn|13
+|choice|move 3|switch 2
+|
+|switch|p2a: Nidorina|Nidorina, L90|309\/309
+|move|p1a: Victreebel|Body Slam|p2a: Nidorina
+|-damage|p2a: Nidorina|238\/309
+|
+|turn|14
+|choice|switch 2|move 3
+|
+|switch|p1a: Alakazam|Alakazam, L79|170\/249
+|move|p2a: Nidorina|Blizzard|p1a: Alakazam
+|-damage|p1a: Alakazam|117\/249
+|
+|turn|15
+|choice|move 3|move 3
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|241\/249
+|move|p2a: Nidorina|Blizzard|p1a: Alakazam
+|-damage|p1a: Alakazam|187\/249
+|
+|turn|16
+|choice|move 1|move 3
+|
+|move|p1a: Alakazam|Psychic|p2a: Nidorina
+|-supereffective|p2a: Nidorina
+|-damage|p2a: Nidorina|0 fnt
+|faint|p2a: Nidorina
+|choice||switch 2
+|
+|switch|p2a: Mr. Mime|Mr. Mime, L85|198\/242 par
+|turn|17
+|choice|switch 2|move 1
+|
+|switch|p1a: Victreebel|Victreebel, L85|310\/310
+|move|p2a: Mr. Mime|Thunder Wave|p1a: Victreebel
+|-status|p1a: Victreebel|par
+|
+|turn|18
+|choice|move 4|move 4
+|
+|cant|p2a: Mr. Mime|par
+|move|p1a: Victreebel|Swords Dance|p1a: Victreebel
+|-boost|p1a: Victreebel|atk|2
+|
+|turn|19
+|choice|move 3|switch 3
+|
+|switch|p2a: Nidoking|Nidoking, L85|311\/311
+|cant|p1a: Victreebel|par
+|
+|turn|20
+|choice|move 1|move 3
+|
+|move|p2a: Nidoking|Blizzard|p1a: Victreebel
+|-supereffective|p1a: Victreebel
+|-damage|p1a: Victreebel|166\/310 par
+|cant|p1a: Victreebel|par
+|
+|turn|21
+|choice|move 1|move 3
+|
+|move|p2a: Nidoking|Blizzard|p1a: Victreebel
+|-supereffective|p1a: Victreebel
+|-damage|p1a: Victreebel|27\/310 par
+|move|p1a: Victreebel|Razor Leaf|p2a: Nidoking
+|-crit|p2a: Nidoking
+|-damage|p2a: Nidoking|171\/311
+|
+|turn|22
+|choice|switch 6|move 2
+|
+|switch|p1a: Golduck|Golduck, L85|310\/310
+|move|p2a: Nidoking|Body Slam|p1a: Golduck
+|-damage|p1a: Golduck|244\/310
+|
+|turn|23
+|choice|move 4|move 4
+|
+|move|p1a: Golduck|Surf|p2a: Nidoking
+|-supereffective|p2a: Nidoking
+|-damage|p2a: Nidoking|0 fnt
+|faint|p2a: Nidoking
+|choice||switch 3
+|
+|switch|p2a: Mr. Mime|Mr. Mime, L85|198\/242 par
+|turn|24
+|choice|move 4|move 3
+|
+|move|p1a: Golduck|Surf|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|118\/242 par
+|move|p2a: Mr. Mime|Thunderbolt|p1a: Golduck
+|-supereffective|p1a: Golduck
+|-damage|p1a: Golduck|93\/310
+|
+|turn|25
+|choice|switch 6|move 3
+|
+|switch|p1a: Victreebel|Victreebel, L85|27\/310 par
+|cant|p2a: Mr. Mime|par
+|
+|turn|26
+|choice|move 3|switch 6
+|
+|switch|p2a: Pinsir|Pinsir, L85|284\/284
+|move|p1a: Victreebel|Body Slam|p2a: Pinsir
+|-damage|p2a: Pinsir|228\/284
+|
+|turn|27
+|choice|move 2|move 3
+|
+|move|p2a: Pinsir|Body Slam|p1a: Victreebel
+|-crit|p1a: Victreebel
+|-damage|p1a: Victreebel|0 fnt
+|faint|p1a: Victreebel
+|choice|switch 3|
+|
+|switch|p1a: Magmar|Magmar, L90|300\/300
+|turn|28
+|choice|move 1|switch 5
+|
+|switch|p2a: Alakazam|Alakazam, L79|249\/249
+|move|p1a: Magmar|Fire Blast|p2a: Alakazam
+|-damage|p2a: Alakazam|139\/249
+|
+|turn|29
+|choice|move 4|move 2
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|249\/249
+|move|p1a: Magmar|Confuse Ray|p2a: Alakazam
+|-start|p2a: Alakazam|confusion
+|
+|turn|30
+|choice|move 1|move 1
+|
+|-activate|p2a: Alakazam|confusion
+|move|p2a: Alakazam|Psychic|p1a: Magmar
+|-damage|p1a: Magmar|205\/300
+|-unboost|p1a: Magmar|spd|1
+|-unboost|p1a: Magmar|spa|1
+|move|p1a: Magmar|Fire Blast|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-damage|p2a: Alakazam|33\/249
+|
+|turn|31
+|choice|move 3|move 2
+|
+|-end|p2a: Alakazam|confusion
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|157\/249
+|move|p1a: Magmar|Hyper Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|choice||switch 6
+|
+|switch|p2a: Mr. Mime|Mr. Mime, L85|118\/242 par
+|turn|32
+|choice|move 1|move 3
+|
+|move|p1a: Magmar|Fire Blast|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|35\/242 par
+|move|p2a: Mr. Mime|Thunderbolt|p1a: Magmar
+|-crit|p1a: Magmar
+|-damage|p1a: Magmar|76\/300
+|
+|turn|33
+|choice|move 3|move 3
+|
+|move|p1a: Magmar|Hyper Beam|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|0 fnt
+|faint|p2a: Mr. Mime
+|choice||switch 5
+|
+|switch|p2a: Pinsir|Pinsir, L85|228\/284
+|turn|34
+|choice|move 1|move 1
+|
+|move|p1a: Magmar|Fire Blast|p2a: Pinsir
+|-supereffective|p2a: Pinsir
+|-damage|p2a: Pinsir|0 fnt
+|faint|p2a: Pinsir
+|
+|win|Joelmachi
+|raw|Joelmachi's rating: 1119 &rarr; <strong>1150<\/strong><br \/>(+31 for winning)
+|raw|Jedipanta's rating: 1200 &rarr; <strong>1169<\/strong><br \/>(-31 for losing)
+|l|Jedipanta
+|player|p2

@@ -1,0 +1,367 @@
+﻿|join|Giju
+|join|gen1masterrony
+|player|p1|Giju|163
+|player|p2|gen1masterrony|101
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333\/333
+|switch|p2a: Hypno|Hypno|373\/373
+|turn|1
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: Hypno
+|-status|p2a: Hypno|slp
+|cant|p2a: Hypno|slp
+|-curestatus|p2a: Hypno|slp
+|
+|turn|2
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: Hypno
+|-status|p2a: Hypno|slp
+|cant|p2a: Hypno|slp
+|-curestatus|p2a: Hypno|slp
+|
+|turn|3
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: Hypno
+|-status|p2a: Hypno|slp
+|cant|p2a: Hypno|slp
+|
+|turn|4
+|c|★Giju|hi
+|
+|switch|p2a: Alakazam|Alakazam|313\/313
+|move|p1a: Jynx|Reflect|p1a: Jynx
+|
+|turn|5
+|
+|switch|p1a: Hypno|Hypno|373\/373
+|move|p2a: Alakazam|Thunder Wave|p1a: Hypno
+|-status|p1a: Hypno|par
+|
+|turn|6
+|
+|move|p2a: Alakazam|Psychic|p1a: Hypno
+|-resisted|p1a: Hypno
+|-damage|p1a: Hypno|310\/373 par
+|-unboost|p1a: Hypno|spd|1
+|-unboost|p1a: Hypno|spa|1
+|cant|p1a: Hypno|par
+|
+|turn|7
+|
+|move|p2a: Alakazam|Psychic|p1a: Hypno
+|-resisted|p1a: Hypno
+|-damage|p1a: Hypno|218\/373 par
+|cant|p1a: Hypno|par
+|
+|turn|8
+|
+|move|p2a: Alakazam|Psychic|p1a: Hypno
+|-resisted|p1a: Hypno
+|-damage|p1a: Hypno|132\/373 par
+|move|p1a: Hypno|Thunder Wave|p2a: Alakazam
+|-status|p2a: Alakazam|par
+|
+|turn|9
+|
+|cant|p2a: Alakazam|par
+|cant|p1a: Hypno|par
+|
+|turn|10
+|
+|move|p2a: Alakazam|Psychic|p1a: Hypno
+|-resisted|p1a: Hypno
+|-damage|p1a: Hypno|48\/373 par
+|move|p1a: Hypno|Rest|p1a: Hypno
+|-status|p1a: Hypno|slp
+|-heal|p1a: Hypno|373\/373 slp|[silent]
+|-status|p1a: Hypno|slp|[from] move: Rest
+|
+|turn|11
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|switch|p1a: Tauros|Tauros|353\/353
+|
+|turn|12
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|switch|p1a: Starmie|Starmie|323\/323
+|
+|turn|13
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Exeggutor
+|-status|p2a: Exeggutor|par
+|move|p2a: Exeggutor|Sleep Powder|p1a: Starmie
+|-status|p1a: Starmie|slp
+|
+|turn|14
+|
+|switch|p1a: Jynx|Jynx|333\/333
+|cant|p2a: Exeggutor|par
+|
+|turn|15
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: Exeggutor
+|-fail|p2a: Exeggutor
+|cant|p2a: Exeggutor|par
+|
+|turn|16
+|
+|move|p1a: Jynx|Blizzard|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|147\/393 par
+|move|p2a: Exeggutor|Explosion|p1a: Jynx
+|-crit|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Alakazam|Alakazam|313\/313 par
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|17
+|
+|move|p1a: Tauros|Body Slam|p2a: Alakazam
+|-damage|p2a: Alakazam|167\/313 par
+|move|p2a: Alakazam|Reflect|p2a: Alakazam
+|
+|turn|18
+|
+|switch|p1a: Golem|Golem|363\/363
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|313\/313 par
+|
+|turn|19
+|
+|move|p1a: Golem|Earthquake|p2a: Alakazam
+|-damage|p2a: Alakazam|215\/313 par
+|cant|p2a: Alakazam|par
+|
+|turn|20
+|
+|move|p1a: Golem|Earthquake|p2a: Alakazam
+|-damage|p2a: Alakazam|120\/313 par
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|276\/313 par
+|
+|turn|21
+|
+|move|p1a: Golem|Earthquake|p2a: Alakazam
+|-damage|p2a: Alakazam|181\/313 par
+|cant|p2a: Alakazam|par
+|
+|turn|22
+|
+|move|p1a: Golem|Earthquake|p2a: Alakazam
+|-damage|p2a: Alakazam|72\/313 par
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|228\/313 par
+|
+|turn|23
+|
+|move|p1a: Golem|Rock Slide|p2a: Alakazam|[miss]
+|-miss|p1a: Golem
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|313\/313 par
+|
+|turn|24
+|
+|move|p1a: Golem|Explosion|p2a: Alakazam
+|-damage|p2a: Alakazam|97\/313 par
+|faint|p1a: Golem
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|25
+|
+|move|p1a: Tauros|Body Slam|p2a: Alakazam
+|-damage|p2a: Alakazam|11\/313 par
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|167\/313 par
+|
+|turn|26
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|32\/313 par
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|188\/313 par
+|
+|turn|27
+|
+|cant|p1a: Tauros|recharge
+|cant|p2a: Alakazam|par
+|
+|turn|28
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|44\/313 par
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|200\/313 par
+|
+|turn|29
+|c|★gen1masterrony|no
+|c|★gen1masterrony|use
+|c|★gen1masterrony|ma
+|
+|cant|p1a: Tauros|recharge
+|move|p2a: Alakazam|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|
+|turn|30
+|c|★Giju|ma?
+|
+|move|p2a: Alakazam|Psychic|p1a: Tauros
+|-damage|p1a: Tauros|200\/353 par
+|move|p1a: Tauros|Body Slam|p2a: Alakazam
+|-damage|p2a: Alakazam|127\/313 par
+|
+|turn|31
+|c|★Giju|but how long does reflect is working?
+|c|★Giju|O.O
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|283\/313 par
+|move|p1a: Tauros|Hyper Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|149\/313 par
+|
+|turn|32
+|c|★Giju|over 8 turns!
+|
+|cant|p2a: Alakazam|par
+|cant|p1a: Tauros|recharge
+|
+|turn|33
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|305\/313 par
+|move|p1a: Tauros|Body Slam|p2a: Alakazam
+|-damage|p2a: Alakazam|219\/313 par
+|
+|turn|34
+|
+|move|p2a: Alakazam|Psychic|p1a: Tauros
+|-damage|p1a: Tauros|48\/353 par
+|move|p1a: Tauros|Body Slam|p2a: Alakazam
+|-damage|p2a: Alakazam|138\/313 par
+|
+|turn|35
+|
+|move|p2a: Alakazam|Psychic|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|switch|p1a: Persian|Persian|333\/333
+|turn|36
+|
+|move|p1a: Persian|Slash|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-damage|p2a: Alakazam|30\/313 par
+|cant|p2a: Alakazam|par
+|
+|turn|37
+|
+|move|p1a: Persian|Slash|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|turn|38
+|c|★Giju|you know that was a bug probably?
+|
+|move|p2a: Starmie|Thunder Wave|p1a: Persian
+|-status|p1a: Persian|par
+|move|p1a: Persian|Thunderbolt|p2a: Starmie
+|-crit|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|109\/323
+|
+|turn|39
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|move|p1a: Persian|Hyper Beam|p2a: Tauros
+|-damage|p2a: Tauros|209\/353
+|
+|turn|40
+|
+|move|p2a: Tauros|Body Slam|p1a: Persian
+|-damage|p1a: Persian|200\/333 par
+|cant|p1a: Persian|recharge
+|
+|turn|41
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Persian
+|-damage|p1a: Persian|0 fnt
+|faint|p1a: Persian
+|
+|switch|p1a: Starmie|Starmie|323\/323 slp
+|turn|42
+|c|★gen1masterrony|i know u deserve a win man
+|
+|cant|p1a: Starmie|slp
+|move|p2a: Tauros|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|221\/323 slp
+|
+|turn|43
+|
+|cant|p1a: Starmie|slp
+|move|p2a: Tauros|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|103\/323 slp
+|
+|turn|44
+|
+|cant|p1a: Starmie|slp
+|move|p2a: Tauros|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|c|★Giju|ok i asked...
+|c|★Giju|reflect works 5 turns...
+|
+|switch|p1a: Hypno|Hypno|373\/373 slp
+|turn|45
+|
+|switch|p2a: Machamp|Machamp|383\/383
+|cant|p1a: Hypno|slp
+|
+|turn|46
+|
+|cant|p1a: Hypno|slp
+|-curestatus|p1a: Hypno|slp
+|move|p2a: Machamp|Earthquake|p1a: Hypno
+|-damage|p1a: Hypno|254\/373
+|
+|turn|47
+|
+|move|p1a: Hypno|Psychic|p2a: Machamp
+|-supereffective|p2a: Machamp
+|-damage|p2a: Machamp|60\/383
+|move|p2a: Machamp|Hyper Beam|p1a: Hypno
+|-damage|p1a: Hypno|92\/373
+|
+|turn|48
+|
+|move|p1a: Hypno|Psychic|p2a: Machamp
+|-crit|p2a: Machamp
+|-supereffective|p2a: Machamp
+|-damage|p2a: Machamp|0 fnt
+|faint|p2a: Machamp
+|
+|switch|p2a: Tauros|Tauros|209\/353
+|turn|49
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Hypno
+|-damage|p1a: Hypno|0 fnt
+|faint|p1a: Hypno
+|
+|win|gen1masterrony
+|raw|Ladder updating...
+|raw|Ladder (probably) updated, but score could not be retrieved (timeout).
+|raw|Ladder (probably) updated, but score could not be retrieved (Error: socket hang up).

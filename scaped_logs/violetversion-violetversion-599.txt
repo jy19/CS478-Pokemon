@@ -1,0 +1,590 @@
+﻿|J|Mister Tim
+|J|Disaster Area
+|player|p1|Mister Tim|1
+|player|p2|Disaster Area|32
+|gametype|singles
+|gen|1
+|tier|Violet Version
+|clearpoke
+|poke|p1|Gengar
+|poke|p1|Exeggutor
+|poke|p1|Chansey
+|poke|p1|Charizard
+|poke|p1|Tauros
+|poke|p1|Starmie
+|poke|p2|Moltres
+|poke|p2|Nidoqueen
+|poke|p2|Starmie
+|poke|p2|Exeggutor
+|poke|p2|Aerodactyl
+|poke|p2|Chansey
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|c|★Disaster Area|gl hf
+|c|★Mister Tim|no gl hf
+|
+|start
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|switch|p2a: Nidoqueen|Nidoqueen|383\/383
+|turn|1
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Nidoqueen|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|622\/703
+|
+|turn|2
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|603\/703
+|
+|turn|3
+|
+|switch|p1a: Gengar|Gengar|323\/323
+|move|p2a: Chansey|Solar Beam|p1a: Gengar|[still]
+|-prepare|p2a: Chansey|Solar Beam|p1a: Gengar
+|-boost|p2a: Chansey|spa|1
+|-boost|p2a: Chansey|spd|1
+|
+|turn|4
+|c|★Disaster Area|rip
+|
+|move|p1a: Gengar|Hypnosis|p2a: Chansey
+|-status|p2a: Chansey|slp
+|cant|p2a: Chansey|slp
+|-curestatus|p2a: Chansey|slp
+|
+|turn|5
+|c|★Disaster Area|sorry
+|
+|switch|p2a: Nidoqueen|Nidoqueen|383\/383
+|move|p1a: Gengar|Hypnosis|p2a: Nidoqueen
+|-status|p2a: Nidoqueen|slp
+|
+|turn|6
+|c|★Mister Tim|if u not write it
+|c|★Mister Tim|i use not hypnosis
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Gengar|Night Shade|p2a: Exeggutor
+|-damage|p2a: Exeggutor|293\/393
+|
+|turn|7
+|
+|move|p1a: Gengar|Explosion|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|faint|p1a: Gengar
+|c|★Mister Tim|rip
+|c|★Disaster Area|ouch rip sleeper
+|c|★Mister Tim|yeah
+|
+|switch|p2a: Moltres|Moltres|383\/383
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|turn|8
+|
+|move|p2a: Moltres|Reflect|p2a: Moltres
+|-start|p2a: Moltres|Reflect
+|move|p1a: Exeggutor|Stun Spore|p2a: Moltres
+|-status|p2a: Moltres|par
+|
+|turn|9
+|
+|move|p1a: Exeggutor|Psychic|p2a: Moltres
+|-damage|p2a: Moltres|276\/383 par
+|-unboost|p2a: Moltres|spd|1
+|-unboost|p2a: Moltres|spa|1
+|move|p2a: Moltres|Solar Beam|p1a: Exeggutor|[still]
+|-prepare|p2a: Moltres|Solar Beam|p1a: Exeggutor
+|
+|turn|10
+|c|★Disaster Area|ugh
+|c|★Disaster Area|bug
+|c|★Disaster Area|:(
+|c|★Mister Tim|=(
+|
+|move|p1a: Exeggutor|Psychic|p2a: Moltres
+|-damage|p2a: Moltres|104\/383 par
+|move|p2a: Moltres|Solar Beam|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|369\/393
+|
+|turn|11
+|
+|switch|p2a: Chansey|Chansey|603\/703
+|move|p1a: Exeggutor|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|479\/703
+|
+|turn|12
+|
+|move|p1a: Exeggutor|Stun Spore|p2a: Chansey
+|-status|p2a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Exeggutor
+|-status|p1a: Exeggutor|par
+|
+|turn|13
+|c|★Disaster Area|is pity cos it's a great win condition in this match :[
+|
+|move|p1a: Exeggutor|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|362\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|14
+|
+|move|p1a: Exeggutor|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|234\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|15
+|
+|move|p1a: Exeggutor|Explosion|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|faint|p1a: Exeggutor
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|switch|p1a: Chansey|Chansey|622\/703
+|turn|16
+|
+|move|p2a: Starmie|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|move|p1a: Chansey|Toxic|p2a: Starmie
+|-status|p2a: Starmie|tox
+|
+|turn|17
+|
+|switch|p2a: Moltres|Moltres|104\/383 par
+|move|p1a: Chansey|Seismic Toss|p2a: Moltres
+|-damage|p2a: Moltres|4\/383 par
+|
+|turn|18
+|c|★Mister Tim|hb ohkos?
+|c|★Disaster Area|n
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|move|p2a: Moltres|Rest|p2a: Moltres
+|-status|p2a: Moltres|slp
+|-heal|p2a: Moltres|383\/383 slp|[silent]
+|-status|p2a: Moltres|slp|[from] move: Rest
+|
+|turn|19
+|
+|switch|p2a: Nidoqueen|Nidoqueen|383\/383 slp
+|move|p1a: Starmie|Thunderbolt|p2a: Nidoqueen
+|-immune|p2a: Nidoqueen|[msg]
+|
+|turn|20
+|
+|switch|p2a: Starmie|Starmie|323\/323 tox
+|-status|p2a: Starmie|psn
+|-damage|p2a: Starmie|303\/323 psn|[from] psn
+|move|p1a: Starmie|Blizzard|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|259\/323 psn
+|
+|turn|21
+|
+|switch|p1a: Chansey|Chansey|622\/703 par
+|move|p2a: Starmie|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|-damage|p2a: Starmie|239\/323 psn|[from] psn|[of] p1a: Chansey
+|
+|turn|22
+|
+|switch|p2a: Moltres|Moltres|383\/383 slp
+|cant|p1a: Chansey|par
+|
+|turn|23
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|cant|p2a: Moltres|slp
+|
+|turn|24
+|
+|switch|p2a: Starmie|Starmie|239\/323 psn
+|-damage|p2a: Starmie|219\/323 psn|[from] psn
+|move|p1a: Starmie|Blizzard|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|171\/323 psn
+|
+|turn|25
+|
+|move|p2a: Starmie|Thunder Wave|p1a: Starmie
+|-status|p1a: Starmie|par
+|-damage|p2a: Starmie|151\/323 psn|[from] psn|[of] p1a: Starmie
+|move|p1a: Starmie|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|2\/323 psn
+|
+|turn|26
+|c|★Mister Tim|=\
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|move|p2a: Starmie|Thunderbolt|p1a: Tauros
+|-damage|p1a: Tauros|267\/353
+|-damage|p2a: Starmie|0 fnt|[from] psn|[of] p1a: Tauros
+|faint|p2a: Starmie
+|
+|switch|p2a: Moltres|Moltres|383\/383 slp
+|turn|27
+|
+|move|p1a: Tauros|Body Slam|p2a: Moltres
+|-crit|p2a: Moltres
+|-damage|p2a: Moltres|180\/383 slp
+|cant|p2a: Moltres|slp
+|-curestatus|p2a: Moltres|slp
+|
+|turn|28
+|c|★Disaster Area|:\/
+|
+|switch|p2a: Aerodactyl|Aerodactyl|363\/363
+|move|p1a: Tauros|Body Slam|p2a: Aerodactyl
+|-resisted|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|294\/363
+|
+|turn|29
+|
+|move|p2a: Aerodactyl|Sky Attack|p1a: Tauros|[still]
+|-prepare|p2a: Aerodactyl|Sky Attack|p1a: Tauros
+|-boost|p2a: Aerodactyl|def|1
+|move|p1a: Tauros|Blizzard|p2a: Aerodactyl|[miss]
+|-miss|p1a: Tauros
+|
+|turn|30
+|c|★Disaster Area|sorry
+|
+|switch|p1a: Charizard|Charizard|359\/359
+|move|p2a: Aerodactyl|Sky Attack|p1a: Charizard
+|-damage|p1a: Charizard|148\/359
+|
+|turn|31
+|
+|move|p2a: Aerodactyl|Rock Slide|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|switch|p1a: Starmie|Starmie|323\/323 par
+|turn|32
+|
+|switch|p2a: Nidoqueen|Nidoqueen|383\/383 slp
+|cant|p1a: Starmie|par
+|
+|turn|33
+|
+|cant|p2a: Nidoqueen|slp
+|move|p1a: Starmie|Blizzard|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|160\/383 slp
+|
+|turn|34
+|
+|switch|p1a: Tauros|Tauros|267\/353
+|cant|p2a: Nidoqueen|slp
+|
+|turn|35
+|
+|move|p1a: Tauros|Blizzard|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|0 fnt
+|faint|p2a: Nidoqueen
+|
+|switch|p2a: Aerodactyl|Aerodactyl|294\/363
+|turn|36
+|
+|move|p2a: Aerodactyl|Rock Slide|p1a: Tauros
+|-damage|p1a: Tauros|159\/353
+|move|p1a: Tauros|Blizzard|p2a: Aerodactyl
+|-crit|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|faint|p2a: Aerodactyl
+|
+|switch|p2a: Moltres|Moltres|180\/383
+|turn|37
+|c|★Disaster Area|gg
+|c|★Disaster Area|wp
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Moltres|[miss]
+|-miss|p1a: Tauros
+|move|p2a: Moltres|Fire Blast|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|c|★Mister Tim|=\
+|
+|switch|p1a: Starmie|Starmie|323\/323 par
+|turn|38
+|c|★Disaster Area|game still on !
+|
+|move|p2a: Moltres|Solar Beam|p1a: Starmie|[still]
+|-prepare|p2a: Moltres|Solar Beam|p1a: Starmie
+|-boost|p2a: Moltres|spa|1
+|-boost|p2a: Moltres|spd|1
+|move|p1a: Starmie|Thunderbolt|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|99\/383
+|
+|turn|39
+|
+|switch|p1a: Chansey|Chansey|622\/703 par
+|move|p2a: Moltres|Solar Beam|p1a: Chansey
+|-damage|p1a: Chansey|495\/703 par
+|
+|turn|40
+|
+|move|p2a: Moltres|Rest|p2a: Moltres
+|-status|p2a: Moltres|slp
+|-heal|p2a: Moltres|383\/383 slp|[silent]
+|-status|p2a: Moltres|slp|[from] move: Rest
+|move|p1a: Chansey|Toxic|p2a: Moltres
+|-fail|p2a: Moltres
+|
+|turn|41
+|
+|cant|p2a: Moltres|slp
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703 par
+|
+|turn|42
+|
+|cant|p2a: Moltres|slp
+|-curestatus|p2a: Moltres|slp
+|move|p1a: Chansey|Seismic Toss|p2a: Moltres
+|-damage|p2a: Moltres|283\/383
+|
+|turn|43
+|
+|move|p2a: Moltres|Solar Beam|p1a: Chansey|[still]
+|-prepare|p2a: Moltres|Solar Beam|p1a: Chansey
+|-boost|p2a: Moltres|spa|1
+|-boost|p2a: Moltres|spd|1
+|cant|p1a: Chansey|par
+|
+|turn|44
+|c|★Mister Tim|pls
+|
+|move|p2a: Moltres|Solar Beam|p1a: Chansey
+|-damage|p1a: Chansey|524\/703 par
+|move|p1a: Chansey|Toxic|p2a: Moltres
+|-status|p2a: Moltres|tox
+|
+|turn|45
+|c|★Disaster Area|rip
+|
+|move|p2a: Moltres|Reflect|p2a: Moltres
+|-start|p2a: Moltres|Reflect
+|-damage|p2a: Moltres|260\/383 tox|[from] psn
+|move|p1a: Chansey|Seismic Toss|p2a: Moltres
+|-damage|p2a: Moltres|160\/383 tox
+|
+|turn|46
+|
+|move|p2a: Moltres|Rest|p2a: Moltres
+|-status|p2a: Moltres|slp
+|-heal|p2a: Moltres|383\/383 slp|[silent]
+|-status|p2a: Moltres|slp|[from] move: Rest
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703 par
+|
+|turn|47
+|
+|switch|p1a: Starmie|Starmie|323\/323 par
+|cant|p2a: Moltres|slp
+|
+|turn|48
+|
+|cant|p2a: Moltres|slp
+|-curestatus|p2a: Moltres|slp
+|move|p1a: Starmie|Thunder Wave|p2a: Moltres
+|-status|p2a: Moltres|par
+|
+|turn|49
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|320\/383 par
+|move|p2a: Moltres|Solar Beam|p1a: Starmie|[still]
+|-prepare|p2a: Moltres|Solar Beam|p1a: Starmie
+|-boost|p2a: Moltres|spa|1
+|-boost|p2a: Moltres|spd|1
+|
+|turn|50
+|
+|cant|p1a: Starmie|par
+|move|p2a: Moltres|Solar Beam|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|switch|p1a: Chansey|Chansey|703\/703 par
+|turn|51
+|
+|move|p2a: Moltres|Solar Beam|p1a: Chansey|[still]
+|-prepare|p2a: Moltres|Solar Beam|p1a: Chansey
+|-boost|p2a: Moltres|spa|1
+|-boost|p2a: Moltres|spd|1
+|move|p1a: Chansey|Seismic Toss|p2a: Moltres
+|-damage|p2a: Moltres|220\/383 par
+|
+|turn|52
+|c|★Mister Tim|pls haxgod give me fully para
+|
+|move|p2a: Moltres|Solar Beam|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|531\/703 par
+|cant|p1a: Chansey|par
+|
+|turn|53
+|
+|move|p2a: Moltres|Fire Blast|p1a: Chansey
+|-damage|p1a: Chansey|68\/703 par
+|cant|p1a: Chansey|par
+|
+|turn|54
+|c|★Mister Tim|thx
+|c|★Disaster Area|lol
+|c|★Mister Tim|hax god
+|
+|cant|p2a: Moltres|par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|419\/703 par
+|
+|turn|55
+|
+|move|p2a: Moltres|Fire Blast|p1a: Chansey|[miss]
+|-miss|p2a: Moltres
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703 par
+|
+|turn|56
+|c|★Mister Tim|thx again
+|
+|move|p2a: Moltres|Rest|p2a: Moltres
+|-status|p2a: Moltres|slp
+|-heal|p2a: Moltres|383\/383 slp|[silent]
+|-status|p2a: Moltres|slp|[from] move: Rest
+|move|p1a: Chansey|Seismic Toss|p2a: Moltres
+|-damage|p2a: Moltres|283\/383 slp
+|
+|turn|57
+|
+|cant|p2a: Moltres|slp
+|move|p1a: Chansey|Seismic Toss|p2a: Moltres
+|-damage|p2a: Moltres|183\/383 slp
+|
+|turn|58
+|
+|cant|p2a: Moltres|slp
+|-curestatus|p2a: Moltres|slp
+|move|p1a: Chansey|Seismic Toss|p2a: Moltres
+|-damage|p2a: Moltres|83\/383
+|
+|turn|59
+|
+|move|p2a: Moltres|Rest|p2a: Moltres
+|-status|p2a: Moltres|slp
+|-heal|p2a: Moltres|383\/383 slp|[silent]
+|-status|p2a: Moltres|slp|[from] move: Rest
+|move|p1a: Chansey|Seismic Toss|p2a: Moltres
+|-damage|p2a: Moltres|283\/383 slp
+|
+|turn|60
+|
+|cant|p2a: Moltres|slp
+|cant|p1a: Chansey|par
+|
+|turn|61
+|
+|cant|p2a: Moltres|slp
+|-curestatus|p2a: Moltres|slp
+|move|p1a: Chansey|Seismic Toss|p2a: Moltres
+|-damage|p2a: Moltres|183\/383
+|
+|turn|62
+|
+|move|p2a: Moltres|Rest|p2a: Moltres
+|-status|p2a: Moltres|slp
+|-heal|p2a: Moltres|383\/383 slp|[silent]
+|-status|p2a: Moltres|slp|[from] move: Rest
+|move|p1a: Chansey|Seismic Toss|p2a: Moltres
+|-damage|p2a: Moltres|283\/383 slp
+|
+|turn|63
+|c|★Mister Tim|go raw
+|c|★Mister Tim|*draw
+|
+|cant|p2a: Moltres|slp
+|cant|p1a: Chansey|par
+|
+|turn|64
+|
+|cant|p2a: Moltres|slp
+|-curestatus|p2a: Moltres|slp
+|move|p1a: Chansey|Seismic Toss|p2a: Moltres
+|-damage|p2a: Moltres|183\/383
+|
+|turn|65
+|
+|move|p2a: Moltres|Reflect|p2a: Moltres
+|-fail|p2a: Moltres
+|cant|p1a: Chansey|par
+|
+|turn|66
+|
+|move|p2a: Moltres|Reflect|p2a: Moltres
+|-fail|p2a: Moltres
+|move|p1a: Chansey|Toxic|p2a: Moltres
+|-status|p2a: Moltres|tox
+|
+|turn|67
+|
+|move|p2a: Moltres|Reflect|p2a: Moltres
+|-fail|p2a: Moltres
+|-damage|p2a: Moltres|137\/383 tox|[from] psn
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-start|p1a: Chansey|Reflect
+|
+|turn|68
+|
+|move|p2a: Moltres|Rest|p2a: Moltres
+|-status|p2a: Moltres|slp
+|-heal|p2a: Moltres|383\/383 slp|[silent]
+|-status|p2a: Moltres|slp|[from] move: Rest
+|move|p1a: Chansey|Seismic Toss|p2a: Moltres
+|-damage|p2a: Moltres|283\/383 slp
+|
+|turn|69
+|
+|cant|p2a: Moltres|slp
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|
+|turn|70
+|
+|cant|p2a: Moltres|slp
+|-curestatus|p2a: Moltres|slp
+|cant|p1a: Chansey|par
+|
+|turn|71
+|
+|move|p2a: Moltres|Fire Blast|p1a: Chansey
+|-damage|p1a: Chansey|263\/703 par
+|move|p1a: Chansey|Seismic Toss|p2a: Moltres
+|-damage|p2a: Moltres|183\/383
+|
+|turn|72
+|
+|move|p2a: Moltres|Fire Blast|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|win|Disaster Area
+|c|★Mister Tim|gg
+|c|★Disaster Area|gg
+|c|★Disaster Area|sorry for HB miss

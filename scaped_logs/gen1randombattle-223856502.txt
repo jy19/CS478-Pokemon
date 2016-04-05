@@ -1,0 +1,247 @@
+﻿|join|Zank
+|join|gen1masterrony
+|player|p1|Zank|101
+|player|p2|gen1masterrony|102
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Magikarp|Magikarp, L99|240\/240
+|switch|p2a: Nidoran-M|Nidoran-M, L96|283\/283
+|turn|1
+|
+|move|p1a: Magikarp|Dragon Rage|p2a: Nidoran-M
+|-damage|p2a: Nidoran-M|243\/283
+|move|p2a: Nidoran-M|Body Slam|p1a: Magikarp
+|-damage|p1a: Magikarp|175\/240
+|-status|p1a: Magikarp|par
+|
+|turn|2
+|
+|move|p2a: Nidoran-M|Leer|p1a: Magikarp
+|-unboost|p1a: Magikarp|def|1
+|move|p1a: Magikarp|Dragon Rage|p2a: Nidoran-M
+|-damage|p2a: Nidoran-M|203\/283
+|
+|turn|3
+|
+|move|p2a: Nidoran-M|Body Slam|p1a: Magikarp
+|-damage|p1a: Magikarp|85\/240 par
+|move|p1a: Magikarp|Dragon Rage|p2a: Nidoran-M
+|-damage|p2a: Nidoran-M|163\/283
+|
+|turn|4
+|
+|move|p2a: Nidoran-M|Body Slam|p1a: Magikarp
+|-damage|p1a: Magikarp|0 fnt
+|faint|p1a: Magikarp
+|
+|switch|p1a: Mew|Mew, L74|300\/300
+|turn|5
+|
+|switch|p2a: Pinsir|Pinsir, L85|284\/284
+|move|p1a: Mew|Psychic|p2a: Pinsir
+|-damage|p2a: Pinsir|186\/284
+|
+|turn|6
+|
+|switch|p1a: Zapdos|Zapdos, L79|304\/304
+|move|p2a: Pinsir|Swords Dance|p2a: Pinsir
+|-boost|p2a: Pinsir|atk|2
+|
+|turn|7
+|
+|switch|p2a: Rhydon|Rhydon, L79|328\/328
+|move|p1a: Zapdos|Drill Peck|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|299\/328
+|
+|turn|8
+|
+|switch|p1a: Cloyster|Cloyster, L83|253\/253
+|move|p2a: Rhydon|Rock Slide|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|147\/253
+|
+|turn|9
+|
+|switch|p2a: Gengar|Gengar, L79|257\/257
+|move|p1a: Cloyster|Ice Beam|p2a: Gengar
+|-damage|p2a: Gengar|179\/257
+|
+|turn|10
+|
+|move|p2a: Gengar|Hypnosis|p1a: Cloyster
+|-status|p1a: Cloyster|slp
+|cant|p1a: Cloyster|slp
+|
+|turn|11
+|
+|switch|p1a: Mew|Mew, L74|300\/300
+|move|p2a: Gengar|Psychic|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|267\/300
+|
+|turn|12
+|
+|switch|p2a: Pinsir|Pinsir, L85|186\/284
+|move|p1a: Mew|Psychic|p2a: Pinsir
+|-damage|p2a: Pinsir|82\/284
+|
+|turn|13
+|
+|move|p2a: Pinsir|Body Slam|p1a: Mew
+|-crit|p1a: Mew
+|-damage|p1a: Mew|121\/300
+|-status|p1a: Mew|par
+|move|p1a: Mew|Psychic|p2a: Pinsir
+|-damage|p2a: Pinsir|0 fnt
+|faint|p2a: Pinsir
+|
+|switch|p2a: Charizard|Charizard, L85|306\/306
+|turn|14
+|
+|move|p2a: Charizard|Hyper Beam|p1a: Mew
+|-damage|p1a: Mew|26\/300 par
+|move|p1a: Mew|Explosion|p2a: Charizard
+|-crit|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|faint|p1a: Mew
+|
+|switch|p2a: Dewgong|Dewgong, L85|327\/327
+|switch|p1a: Snorlax|Snorlax, L79|415\/415
+|turn|15
+|
+|move|p2a: Dewgong|Blizzard|p1a: Snorlax|[miss]
+|-miss|p2a: Dewgong
+|move|p1a: Snorlax|Thunderbolt|p2a: Dewgong
+|-supereffective|p2a: Dewgong
+|-damage|p2a: Dewgong|235\/327
+|
+|turn|16
+|
+|switch|p2a: Nidoran-M|Nidoran-M, L96|163\/283
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|
+|turn|17
+|
+|move|p2a: Nidoran-M|Leer|p1a: Snorlax
+|-unboost|p1a: Snorlax|def|1
+|move|p1a: Snorlax|Ice Beam|p2a: Nidoran-M
+|-damage|p2a: Nidoran-M|36\/283
+|
+|turn|18
+|
+|move|p2a: Nidoran-M|Double-Edge|p1a: Snorlax
+|-damage|p1a: Snorlax|297\/415
+|-damage|p2a: Nidoran-M|7\/283|[from] recoil|[of] p1a: Snorlax
+|move|p1a: Snorlax|Ice Beam|p2a: Nidoran-M
+|-damage|p2a: Nidoran-M|0 fnt
+|faint|p2a: Nidoran-M
+|
+|switch|p2a: Rhydon|Rhydon, L79|299\/328
+|turn|19
+|
+|move|p2a: Rhydon|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|85\/415
+|move|p1a: Snorlax|Ice Beam|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|22\/328
+|
+|turn|20
+|
+|move|p2a: Rhydon|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|switch|p1a: Zapdos|Zapdos, L79|304\/304
+|turn|21
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|
+|switch|p2a: Gengar|Gengar, L79|179\/257
+|turn|22
+|
+|move|p2a: Gengar|Psychic|p1a: Zapdos
+|-damage|p1a: Zapdos|244\/304
+|move|p1a: Zapdos|Thunder Wave|p2a: Gengar
+|-status|p2a: Gengar|par
+|
+|turn|23
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Gengar
+|-damage|p2a: Gengar|85\/257 par
+|move|p2a: Gengar|Psychic|p1a: Zapdos
+|-damage|p1a: Zapdos|190\/304
+|-unboost|p1a: Zapdos|spd|1
+|-unboost|p1a: Zapdos|spa|1
+|
+|turn|24
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|switch|p2a: Dewgong|Dewgong, L85|235\/327
+|turn|25
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Dewgong
+|-supereffective|p2a: Dewgong
+|-damage|p2a: Dewgong|112\/327
+|move|p2a: Dewgong|Blizzard|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|switch|p1a: Golem|Golem, L79|288\/288
+|turn|26
+|
+|move|p2a: Dewgong|Surf|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|0 fnt
+|faint|p1a: Golem
+|
+|switch|p1a: Cloyster|Cloyster, L83|147\/253 slp
+|turn|27
+|
+|move|p2a: Dewgong|Surf|p1a: Cloyster
+|-resisted|p1a: Cloyster
+|-damage|p1a: Cloyster|96\/253 slp
+|cant|p1a: Cloyster|slp
+|
+|turn|28
+|
+|move|p2a: Dewgong|Surf|p1a: Cloyster
+|-resisted|p1a: Cloyster
+|-damage|p1a: Cloyster|40\/253 slp
+|cant|p1a: Cloyster|slp
+|
+|turn|29
+|c|★Zank|GG
+|
+|move|p2a: Dewgong|Surf|p1a: Cloyster
+|-resisted|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|win|gen1masterrony
+|raw|Ladder updating...
+|c|★gen1masterrony|gg
+|raw|Zank's rating: 1402 &rarr; <strong>1374<\/strong><br \/>(-28 for losing)
+|raw|gen1masterrony's rating: 1268 &rarr; <strong>1302<\/strong><br \/>(+34 for winning)
+|leave|Zank
+|leave|gen1masterrony
+|player|p1
+|join|gen1masterrony
+|player|p2

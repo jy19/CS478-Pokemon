@@ -1,0 +1,497 @@
+﻿|join|niggzzz
+|join|Kel9901
+|player|p1|niggzzz|2
+|player|p2|Kel9901|101
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333\/333
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|1
+|callback|decision
+|
+|move|p2a: Gengar|Hypnosis|p1a: Jynx
+|-status|p1a: Jynx|slp
+|cant|p1a: Jynx|slp
+|
+|turn|2
+|callback|decision
+|
+|move|p2a: Gengar|Night Shade|p1a: Jynx
+|-damage|p1a: Jynx|233\/333 slp
+|cant|p1a: Jynx|slp
+|
+|turn|3
+|callback|decision
+|
+|move|p2a: Gengar|Night Shade|p1a: Jynx
+|-damage|p1a: Jynx|133\/333 slp
+|cant|p1a: Jynx|slp
+|-curestatus|p1a: Jynx|slp
+|
+|turn|4
+|callback|decision
+|
+|move|p2a: Gengar|Hypnosis|p1a: Jynx
+|-status|p1a: Jynx|slp
+|cant|p1a: Jynx|slp
+|-curestatus|p1a: Jynx|slp
+|
+|turn|5
+|callback|decision
+|
+|move|p2a: Gengar|Hypnosis|p1a: Jynx
+|-status|p1a: Jynx|slp
+|cant|p1a: Jynx|slp
+|
+|turn|6
+|callback|decision
+|
+|move|p2a: Gengar|Thunderbolt|p1a: Jynx
+|-damage|p1a: Jynx|35\/333 slp
+|cant|p1a: Jynx|slp
+|
+|turn|7
+|callback|decision
+|
+|switch|p1a: Nidoqueen|Nidoqueen|383\/383
+|move|p2a: Gengar|Night Shade|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|283\/383
+|
+|turn|8
+|callback|decision
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Nidoqueen|Earthquake|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|334\/393
+|
+|turn|9
+|callback|decision
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Exeggutor|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|583\/703
+|
+|turn|10
+|callback|decision
+|
+|move|p2a: Exeggutor|Explosion|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|faint|p2a: Exeggutor
+|callback|decision
+|join|Rocknlol
+|
+|switch|p2a: Dragonite|Dragonite|385\/385
+|switch|p1a: Venusaur|Venusaur|363\/363
+|turn|11
+|callback|decision
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|move|p1a: Venusaur|Sleep Powder|p2a: Gengar|[miss]
+|-miss|p1a: Venusaur
+|
+|turn|12
+|callback|decision
+|
+|move|p2a: Gengar|Night Shade|p1a: Venusaur
+|-damage|p1a: Venusaur|263\/363
+|move|p1a: Venusaur|Sleep Powder|p2a: Gengar
+|-status|p2a: Gengar|slp
+|
+|turn|13
+|callback|decision
+|
+|cant|p2a: Gengar|slp
+|move|p1a: Venusaur|Razor Leaf|p2a: Gengar
+|-crit|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|268\/323 slp
+|
+|turn|14
+|callback|decision
+|
+|switch|p2a: Dragonite|Dragonite|385\/385
+|move|p1a: Venusaur|Razor Leaf|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|352\/385
+|
+|turn|15
+|callback|decision
+|
+|move|p1a: Venusaur|Body Slam|p2a: Dragonite
+|-damage|p2a: Dragonite|294\/385
+|move|p2a: Dragonite|Agility|p2a: Dragonite
+|-boost|p2a: Dragonite|spe|2
+|
+|turn|16
+|callback|decision
+|
+|switch|p1a: Lapras|Lapras|463\/463
+|move|p2a: Dragonite|Wrap|p1a: Lapras
+|-damage|p1a: Lapras|446\/463
+|-activate|p1a: Lapras|move: Wrap|[of] p2a: Dragonite
+|
+|turn|17
+|callback|decision
+|
+|move|p2a: Dragonite|Wrap|p1a: Lapras
+|-damage|p1a: Lapras|429\/463
+|cant|p1a: Lapras|partiallytrapped
+|
+|turn|18
+|callback|decision
+|
+|move|p2a: Dragonite|Wrap|p1a: Lapras
+|-damage|p1a: Lapras|412\/463
+|cant|p1a: Lapras|partiallytrapped
+|
+|-end|p1a: Lapras|Wrap|[partiallytrapped]
+|turn|19
+|callback|decision
+|
+|move|p2a: Dragonite|Wrap|p1a: Lapras
+|-damage|p1a: Lapras|394\/463
+|-activate|p1a: Lapras|move: Wrap|[of] p2a: Dragonite
+|cant|p1a: Lapras|partiallytrapped
+|
+|turn|20
+|callback|decision
+|
+|move|p2a: Dragonite|Wrap|p1a: Lapras
+|-damage|p1a: Lapras|376\/463
+|cant|p1a: Lapras|partiallytrapped
+|
+|-end|p1a: Lapras|Wrap|[partiallytrapped]
+|turn|21
+|callback|decision
+|
+|move|p2a: Dragonite|Wrap|p1a: Lapras|[miss]
+|-miss|p2a: Dragonite
+|move|p1a: Lapras|Confuse Ray|p2a: Dragonite
+|-start|p2a: Dragonite|confusion
+|
+|turn|22
+|callback|decision
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Lapras|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|589\/703
+|
+|turn|23
+|callback|decision
+|
+|move|p1a: Lapras|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|432\/703
+|move|p2a: Chansey|Thunder Wave|p1a: Lapras
+|-status|p1a: Lapras|par
+|
+|turn|24
+|callback|decision
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703
+|cant|p1a: Lapras|par
+|
+|turn|25
+|callback|decision
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|225\/463 par
+|move|p1a: Lapras|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|532\/703
+|
+|turn|26
+|callback|decision
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|71\/463 par
+|cant|p1a: Lapras|par
+|
+|turn|27
+|callback|decision
+|
+|switch|p1a: Nidoqueen|Nidoqueen|283\/383
+|move|p2a: Chansey|Thunderbolt|p1a: Nidoqueen
+|-immune|p1a: Nidoqueen|[msg]
+|
+|turn|28
+|callback|decision
+|
+|move|p1a: Nidoqueen|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|472\/703
+|move|p2a: Chansey|Ice Beam|p1a: Nidoqueen
+|-supereffective|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|88\/383
+|
+|turn|29
+|callback|decision
+|
+|move|p1a: Nidoqueen|Earthquake|p2a: Chansey
+|-damage|p2a: Chansey|202\/703
+|move|p2a: Chansey|Ice Beam|p1a: Nidoqueen
+|-supereffective|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|0 fnt
+|faint|p1a: Nidoqueen
+|
+|callback|decision
+|
+|switch|p1a: Persian|Persian|333\/333
+|turn|30
+|callback|decision
+|
+|switch|p2a: Gengar|Gengar|268\/323 slp
+|move|p1a: Persian|Slash|p2a: Gengar
+|-immune|p2a: Gengar|[msg]
+|
+|turn|31
+|callback|decision
+|
+|move|p1a: Persian|Bubble Beam|p2a: Gengar|[miss]
+|-miss|p1a: Persian
+|cant|p2a: Gengar|slp
+|
+|turn|32
+|callback|decision
+|
+|switch|p1a: Lapras|Lapras|71\/463 par
+|cant|p2a: Gengar|slp
+|
+|turn|33
+|callback|decision
+|
+|switch|p2a: Chansey|Chansey|202\/703
+|move|p1a: Lapras|Rest|p1a: Lapras
+|-status|p1a: Lapras|slp
+|-heal|p1a: Lapras|463\/463 slp|[silent]
+|-status|p1a: Lapras|slp|[from] move: Rest
+|
+|turn|34
+|callback|decision
+|
+|switch|p1a: Persian|Persian|333\/333
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|553\/703
+|
+|turn|35
+|callback|decision
+|
+|move|p1a: Persian|Slash|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|204\/703
+|move|p2a: Chansey|Thunder Wave|p1a: Persian|[miss]
+|-miss|p2a: Chansey
+|
+|turn|36
+|callback|decision
+|
+|switch|p2a: Gengar|Gengar|268\/323 slp
+|move|p1a: Persian|Slash|p2a: Gengar
+|-immune|p2a: Gengar|[msg]
+|
+|turn|37
+|callback|decision
+|
+|switch|p1a: Venusaur|Venusaur|263\/363
+|cant|p2a: Gengar|slp
+|
+|turn|38
+|callback|decision
+|
+|switch|p2a: Dragonite|Dragonite|294\/385
+|move|p1a: Venusaur|Razor Leaf|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|259\/385
+|
+|turn|39
+|callback|decision
+|
+|move|p2a: Dragonite|Agility|p2a: Dragonite
+|-boost|p2a: Dragonite|spe|2
+|move|p1a: Venusaur|Swords Dance|p1a: Venusaur
+|-boost|p1a: Venusaur|atk|2
+|
+|turn|40
+|callback|decision
+|
+|move|p2a: Dragonite|Wrap|p1a: Venusaur
+|-crit|p1a: Venusaur
+|-damage|p1a: Venusaur|227\/363
+|-activate|p1a: Venusaur|move: Wrap|[of] p2a: Dragonite
+|cant|p1a: Venusaur|partiallytrapped
+|
+|turn|41
+|callback|decision
+|
+|move|p2a: Dragonite|Wrap|p1a: Venusaur
+|-damage|p1a: Venusaur|191\/363
+|cant|p1a: Venusaur|partiallytrapped
+|
+|turn|42
+|callback|decision
+|
+|move|p2a: Dragonite|Wrap|p1a: Venusaur
+|-damage|p1a: Venusaur|155\/363
+|cant|p1a: Venusaur|partiallytrapped
+|
+|-end|p1a: Venusaur|Wrap|[partiallytrapped]
+|turn|43
+|callback|decision
+|
+|move|p2a: Dragonite|Wrap|p1a: Venusaur
+|-damage|p1a: Venusaur|138\/363
+|-activate|p1a: Venusaur|move: Wrap|[of] p2a: Dragonite
+|cant|p1a: Venusaur|partiallytrapped
+|
+|turn|44
+|callback|decision
+|
+|move|p2a: Dragonite|Wrap|p1a: Venusaur
+|-damage|p1a: Venusaur|121\/363
+|cant|p1a: Venusaur|partiallytrapped
+|
+|turn|45
+|callback|decision
+|
+|move|p2a: Dragonite|Wrap|p1a: Venusaur
+|-damage|p1a: Venusaur|104\/363
+|cant|p1a: Venusaur|partiallytrapped
+|
+|turn|46
+|callback|decision
+|
+|move|p2a: Dragonite|Wrap|p1a: Venusaur
+|-damage|p1a: Venusaur|87\/363
+|cant|p1a: Venusaur|partiallytrapped
+|
+|turn|47
+|callback|decision
+|
+|move|p2a: Dragonite|Wrap|p1a: Venusaur
+|-damage|p1a: Venusaur|70\/363
+|cant|p1a: Venusaur|partiallytrapped
+|
+|-end|p1a: Venusaur|Wrap|[partiallytrapped]
+|turn|48
+|callback|decision
+|
+|move|p2a: Dragonite|Blizzard|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|
+|callback|decision
+|
+|switch|p1a: Lapras|Lapras|463\/463 slp
+|turn|49
+|callback|decision
+|
+|move|p2a: Dragonite|Hyper Beam|p1a: Lapras
+|-crit|p1a: Lapras
+|-damage|p1a: Lapras|143\/463 slp
+|cant|p1a: Lapras|slp
+|
+|turn|50
+|callback|decision
+|
+|cant|p2a: Dragonite|recharge
+|cant|p1a: Lapras|slp
+|-curestatus|p1a: Lapras|slp
+|
+|turn|51
+|callback|decision
+|
+|switch|p1a: Jynx|Jynx|35\/333 slp
+|move|p2a: Dragonite|Hyper Beam|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|
+|callback|decision
+|
+|switch|p1a: Lapras|Lapras|143\/463
+|turn|52
+|callback|decision
+|
+|move|p2a: Dragonite|Hyper Beam|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|
+|callback|decision
+|
+|switch|p1a: Persian|Persian|333\/333
+|turn|53
+|callback|decision
+|
+|move|p2a: Dragonite|Wrap|p1a: Persian|[miss]
+|-miss|p2a: Dragonite
+|move|p1a: Persian|Hyper Beam|p2a: Dragonite
+|-damage|p2a: Dragonite|107\/385
+|
+|turn|54
+|callback|decision
+|
+|move|p2a: Dragonite|Blizzard|p1a: Persian
+|-damage|p1a: Persian|212\/333
+|cant|p1a: Persian|recharge
+|
+|turn|55
+|callback|decision
+|
+|move|p2a: Dragonite|Wrap|p1a: Persian
+|-damage|p1a: Persian|192\/333
+|-activate|p1a: Persian|move: Wrap|[of] p2a: Dragonite
+|cant|p1a: Persian|partiallytrapped
+|
+|turn|56
+|callback|decision
+|
+|move|p2a: Dragonite|Wrap|p1a: Persian
+|-damage|p1a: Persian|172\/333
+|cant|p1a: Persian|partiallytrapped
+|
+|turn|57
+|callback|decision
+|
+|move|p2a: Dragonite|Wrap|p1a: Persian
+|-damage|p1a: Persian|152\/333
+|cant|p1a: Persian|partiallytrapped
+|
+|turn|58
+|callback|decision
+|
+|move|p2a: Dragonite|Wrap|p1a: Persian
+|-damage|p1a: Persian|132\/333
+|cant|p1a: Persian|partiallytrapped
+|
+|-end|p1a: Persian|Wrap|[partiallytrapped]
+|turn|59
+|callback|decision
+|
+|move|p2a: Dragonite|Hyper Beam|p1a: Persian
+|-damage|p1a: Persian|0 fnt
+|faint|p1a: Persian
+|
+|win|Kel9901
+|raw|Ladder updating...
+|chat|Kel9901|gg
+|leave|niggzzz
+|player|p1
+|raw|niggzzz's rating: 1105 &rarr; <strong>1097<\/strong><br \/>(-8 for losing)
+|raw|Kel9901's rating: 1390 &rarr; <strong>1398<\/strong><br \/>(+8 for winning)
+|leave|Kel9901
+|player|p2

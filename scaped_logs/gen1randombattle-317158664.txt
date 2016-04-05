@@ -1,0 +1,249 @@
+﻿|j|Horatio001
+|j|ryanprescott12345
+|player|p1|Horatio001|169
+|player|p2|ryanprescott12345|169
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|seed|40786,62692,48588,39175
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Seel|Seel, L96|320\/320
+|switch|p2a: Mew|Mew, L74|300\/300
+|turn|1
+|choice|move 1|move 4
+|
+|move|p2a: Mew|Thunder Wave|p1a: Seel
+|-status|p1a: Seel|par
+|move|p1a: Seel|Body Slam|p2a: Mew
+|-damage|p2a: Mew|248\/300
+|
+|turn|2
+|choice|move 1|move 3
+|
+|move|p2a: Mew|Psychic|p1a: Seel
+|-damage|p1a: Seel|246\/320 par
+|move|p1a: Seel|Body Slam|p2a: Mew
+|-damage|p2a: Mew|198\/300
+|
+|turn|3
+|choice|move 1|switch 5
+|
+|switch|p2a: Kabutops|Kabutops, L85|276\/276
+|move|p1a: Seel|Body Slam|p2a: Kabutops
+|-resisted|p2a: Kabutops
+|-damage|p2a: Kabutops|256\/276
+|
+|turn|4
+|choice|move 1|move 4
+|
+|move|p2a: Kabutops|Surf|p1a: Seel
+|-resisted|p1a: Seel
+|-damage|p1a: Seel|204\/320 par
+|move|p1a: Seel|Body Slam|p2a: Kabutops
+|-resisted|p2a: Kabutops
+|-damage|p2a: Kabutops|236\/276
+|
+|turn|5
+|choice|move 1|move 3
+|
+|move|p2a: Kabutops|Body Slam|p1a: Seel
+|-crit|p1a: Seel
+|-damage|p1a: Seel|49\/320 par
+|move|p1a: Seel|Body Slam|p2a: Kabutops
+|-resisted|p2a: Kabutops
+|-damage|p2a: Kabutops|216\/276
+|-status|p2a: Kabutops|par
+|
+|turn|6
+|choice|move 3|move 3
+|
+|move|p2a: Kabutops|Body Slam|p1a: Seel
+|-damage|p1a: Seel|0 fnt
+|faint|p1a: Seel
+|choice|switch 2|
+|
+|switch|p1a: Kangaskhan|Kangaskhan, L85|352\/352
+|turn|7
+|choice|move 3|move 3
+|
+|move|p1a: Kangaskhan|Earthquake|p2a: Kabutops
+|-supereffective|p2a: Kabutops
+|-damage|p2a: Kabutops|81\/276 par
+|cant|p2a: Kabutops|par
+|
+|turn|8
+|choice|move 3|move 2
+|
+|move|p1a: Kangaskhan|Earthquake|p2a: Kabutops
+|-supereffective|p2a: Kabutops
+|-damage|p2a: Kabutops|0 fnt
+|faint|p2a: Kabutops
+|choice||switch 4
+|
+|switch|p2a: Rapidash|Rapidash, L90|300\/300
+|turn|9
+|choice|move 3|move 1
+|
+|move|p2a: Rapidash|Fire Blast|p1a: Kangaskhan|[miss]
+|-miss|p2a: Rapidash
+|move|p1a: Kangaskhan|Earthquake|p2a: Rapidash
+|-supereffective|p2a: Rapidash
+|-damage|p2a: Rapidash|134\/300
+|
+|turn|10
+|choice|move 3|move 1
+|
+|move|p2a: Rapidash|Fire Blast|p1a: Kangaskhan|[miss]
+|-miss|p2a: Rapidash
+|move|p1a: Kangaskhan|Earthquake|p2a: Rapidash
+|-supereffective|p2a: Rapidash
+|-damage|p2a: Rapidash|0 fnt
+|faint|p2a: Rapidash
+|choice||switch 6
+|
+|switch|p2a: Blastoise|Blastoise, L85|308\/308
+|turn|11
+|choice|move 4|move 2
+|
+|move|p2a: Blastoise|Surf|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|201\/352
+|move|p1a: Kangaskhan|Counter|p2a: Blastoise
+|-fail|p1a: Kangaskhan
+|
+|turn|12
+|choice|move 1|move 2
+|
+|move|p1a: Kangaskhan|Body Slam|p2a: Blastoise
+|-damage|p2a: Blastoise|226\/308
+|move|p2a: Blastoise|Surf|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|51\/352
+|
+|turn|13
+|choice|move 2|move 2
+|
+|move|p1a: Kangaskhan|Hyper Beam|p2a: Blastoise
+|-damage|p2a: Blastoise|68\/308
+|move|p2a: Blastoise|Surf|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|0 fnt
+|faint|p1a: Kangaskhan
+|choice|switch 3|
+|
+|switch|p1a: Pinsir|Pinsir, L85|284\/284
+|turn|14
+|choice|move 1|switch 5
+|
+|switch|p2a: Mew|Mew, L74|198\/300
+|move|p1a: Pinsir|Body Slam|p2a: Mew
+|-damage|p2a: Mew|127\/300
+|
+|turn|15
+|choice|switch 6|move 4
+|
+|switch|p1a: Marowak|Marowak, L90|291\/291
+|move|p2a: Mew|Thunder Wave|p1a: Marowak
+|-immune|p1a: Marowak|[msg]
+|
+|turn|16
+|choice|move 1|move 3
+|
+|move|p2a: Mew|Psychic|p1a: Marowak
+|-damage|p1a: Marowak|195\/291
+|move|p1a: Marowak|Body Slam|p2a: Mew
+|-damage|p2a: Mew|67\/300
+|
+|turn|17
+|choice|move 4|move 3
+|
+|move|p2a: Mew|Psychic|p1a: Marowak
+|-damage|p1a: Marowak|97\/291
+|move|p1a: Marowak|Earthquake|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|choice||switch 5
+|
+|switch|p2a: Blastoise|Blastoise, L85|68\/308
+|turn|18
+|choice|switch 4|move 4
+|
+|switch|p1a: Jynx|Jynx, L79|265\/265
+|move|p2a: Blastoise|Earthquake|p1a: Jynx
+|-damage|p1a: Jynx|153\/265
+|
+|turn|19
+|choice|move 3|move 2
+|
+|move|p1a: Jynx|Psychic|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|choice||switch 2
+|
+|switch|p2a: Jigglypuff|Jigglypuff, L99|428\/428
+|turn|20
+|choice|move 1|move 3
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: Jigglypuff
+|-status|p2a: Jigglypuff|slp
+|-curestatus|p2a: Jigglypuff|slp
+|
+|turn|21
+|choice|move 1|move 3
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: Jigglypuff
+|-status|p2a: Jigglypuff|slp
+|cant|p2a: Jigglypuff|slp
+|
+|turn|22
+|choice|move 3|move 3
+|
+|move|p1a: Jynx|Psychic|p2a: Jigglypuff
+|-damage|p2a: Jigglypuff|299\/428 slp
+|cant|p2a: Jigglypuff|slp
+|
+|turn|23
+|choice|move 2|move 3
+|
+|move|p1a: Jynx|Blizzard|p2a: Jigglypuff|[miss]
+|-miss|p1a: Jynx
+|cant|p2a: Jigglypuff|slp
+|
+|turn|24
+|choice|move 2|move 3
+|
+|move|p1a: Jynx|Blizzard|p2a: Jigglypuff
+|-crit|p2a: Jigglypuff
+|-damage|p2a: Jigglypuff|0 fnt
+|faint|p2a: Jigglypuff
+|choice||switch 3
+|
+|switch|p2a: Parasect|Parasect, L90|291\/291
+|turn|25
+|choice|move 1|move 2
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: Parasect
+|-status|p2a: Parasect|slp
+|cant|p2a: Parasect|slp
+|
+|turn|26
+|choice|move 2|move 2
+|
+|move|p1a: Jynx|Blizzard|p2a: Parasect
+|-supereffective|p2a: Parasect
+|-damage|p2a: Parasect|62\/291 slp
+|cant|p2a: Parasect|slp
+|
+|turn|27
+|choice|move 3|move 2
+|
+|move|p1a: Jynx|Psychic|p2a: Parasect
+|-damage|p2a: Parasect|0 fnt
+|faint|p2a: Parasect
+|
+|win|Horatio001
+|player|p1
+|player|p2
+|c|★Horatio001|gg
+|l|ryanprescott12345

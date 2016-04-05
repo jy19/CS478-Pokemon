@@ -1,0 +1,280 @@
+﻿|join|RMC2
+|join|cmhjayhawk
+|player|p1|RMC2|265
+|player|p2|cmhjayhawk|101
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Marowak|Marowak, L86|279\/279
+|switch|p2a: Gengar|Gengar, L82|266\/266
+|turn|1
+|
+|move|p2a: Gengar|Mega Drain|p1a: Marowak
+|-supereffective|p1a: Marowak
+|-damage|p1a: Marowak|191\/279
+|move|p1a: Marowak|Earthquake|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|13\/266
+|
+|turn|2
+|
+|switch|p2a: Exeggutor|Exeggutor, L82|324\/324
+|move|p1a: Marowak|Blizzard|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|227\/324
+|
+|turn|3
+|
+|switch|p1a: Ninetales|Ninetales, L86|301\/301
+|move|p2a: Exeggutor|Mega Drain|p1a: Ninetales
+|-crit|p1a: Ninetales
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|261\/301
+|-heal|p2a: Exeggutor|247\/324|[from] drain|[of] p1a: Ninetales
+|
+|turn|4
+|
+|switch|p2a: Gyarados|Gyarados, L86|339\/339
+|move|p1a: Ninetales|Confuse Ray|p2a: Gyarados
+|-start|p2a: Gyarados|confusion
+|
+|turn|5
+|
+|switch|p1a: Kabutops|Kabutops, L86|279\/279
+|-activate|p2a: Gyarados|confusion
+|-damage|p2a: Gyarados|298\/339|[from] confusion
+|
+|turn|6
+|
+|switch|p2a: Gengar|Gengar, L82|13\/266
+|move|p1a: Kabutops|Body Slam|p2a: Gengar
+|-immune|p2a: Gengar|[msg]
+|
+|turn|7
+|
+|switch|p1a: Ninetales|Ninetales, L86|261\/301
+|move|p2a: Gengar|Mega Drain|p1a: Ninetales
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|246\/301
+|-heal|p2a: Gengar|20\/266|[from] drain|[of] p1a: Ninetales
+|
+|turn|8
+|
+|switch|p1a: Nidorino|Nidorino, L88|287\/287
+|move|p2a: Gengar|Explosion|p1a: Nidorino
+|-damage|p1a: Nidorino|76\/287
+|faint|p2a: Gengar
+|
+|switch|p2a: Gyarados|Gyarados, L86|298\/339
+|turn|9
+|
+|move|p2a: Gyarados|Surf|p1a: Nidorino
+|-crit|p1a: Nidorino
+|-damage|p1a: Nidorino|0 fnt
+|faint|p1a: Nidorino
+|
+|switch|p1a: Kabutops|Kabutops, L86|279\/279
+|turn|10
+|
+|move|p2a: Gyarados|Thunderbolt|p1a: Kabutops
+|-supereffective|p1a: Kabutops
+|-damage|p1a: Kabutops|117\/279
+|move|p1a: Kabutops|Body Slam|p2a: Gyarados
+|-damage|p2a: Gyarados|228\/339
+|
+|turn|11
+|
+|move|p2a: Gyarados|Thunderbolt|p1a: Kabutops
+|-supereffective|p1a: Kabutops
+|-damage|p1a: Kabutops|0 fnt
+|faint|p1a: Kabutops
+|
+|switch|p1a: Ninetales|Ninetales, L86|246\/301
+|turn|12
+|
+|move|p1a: Ninetales|Confuse Ray|p2a: Gyarados
+|-start|p2a: Gyarados|confusion
+|-activate|p2a: Gyarados|confusion
+|-damage|p2a: Gyarados|187\/339|[from] confusion
+|
+|turn|13
+|
+|move|p1a: Ninetales|Fire Spin|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|179\/339
+|-activate|p2a: Gyarados|move: Fire Spin|[of] p1a: Ninetales
+|cant|p2a: Gyarados|partiallytrapped
+|
+|turn|14
+|
+|move|p1a: Ninetales|Fire Spin|p2a: Gyarados
+|-damage|p2a: Gyarados|171\/339
+|cant|p2a: Gyarados|partiallytrapped
+|
+|-end|p2a: Gyarados|Fire Spin|[partiallytrapped]
+|turn|15
+|
+|move|p1a: Ninetales|Fire Spin|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|163\/339
+|-activate|p2a: Gyarados|move: Fire Spin|[of] p1a: Ninetales
+|cant|p2a: Gyarados|partiallytrapped
+|
+|turn|16
+|
+|move|p1a: Ninetales|Fire Spin|p2a: Gyarados
+|-damage|p2a: Gyarados|155\/339
+|cant|p2a: Gyarados|partiallytrapped
+|
+|-end|p2a: Gyarados|Fire Spin|[partiallytrapped]
+|turn|17
+|
+|switch|p2a: Alakazam|Alakazam, L82|258\/258
+|move|p1a: Ninetales|Fire Spin|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-damage|p2a: Alakazam|233\/258
+|-activate|p2a: Alakazam|move: Fire Spin|[of] p1a: Ninetales
+|
+|turn|18
+|
+|cant|p2a: Alakazam|partiallytrapped
+|move|p1a: Ninetales|Fire Spin|p2a: Alakazam
+|-damage|p2a: Alakazam|208\/258
+|
+|turn|19
+|
+|cant|p2a: Alakazam|partiallytrapped
+|move|p1a: Ninetales|Fire Spin|p2a: Alakazam
+|-damage|p2a: Alakazam|183\/258
+|
+|turn|20
+|
+|cant|p2a: Alakazam|partiallytrapped
+|move|p1a: Ninetales|Fire Spin|p2a: Alakazam
+|-damage|p2a: Alakazam|158\/258
+|
+|-end|p2a: Alakazam|Fire Spin|[partiallytrapped]
+|turn|21
+|
+|switch|p1a: Marowak|Marowak, L86|191\/279
+|move|p2a: Alakazam|Thunder Wave|p1a: Marowak
+|-immune|p1a: Marowak|[msg]
+|
+|turn|22
+|
+|switch|p2a: Gyarados|Gyarados, L86|155\/339
+|move|p1a: Marowak|Earthquake|p2a: Gyarados
+|-immune|p2a: Gyarados|[msg]
+|
+|turn|23
+|
+|switch|p1a: Wartortle|Wartortle, L86|277\/277
+|move|p2a: Gyarados|Surf|p1a: Wartortle
+|-crit|p1a: Wartortle
+|-resisted|p1a: Wartortle
+|-damage|p1a: Wartortle|163\/277
+|
+|turn|24
+|
+|move|p2a: Gyarados|Thunderbolt|p1a: Wartortle
+|-crit|p1a: Wartortle
+|-supereffective|p1a: Wartortle
+|-damage|p1a: Wartortle|0 fnt
+|faint|p1a: Wartortle
+|
+|switch|p1a: Ninetales|Ninetales, L86|246\/301
+|turn|25
+|
+|move|p1a: Ninetales|Confuse Ray|p2a: Gyarados
+|-start|p2a: Gyarados|confusion
+|-activate|p2a: Gyarados|confusion
+|-damage|p2a: Gyarados|114\/339|[from] confusion
+|
+|turn|26
+|
+|move|p1a: Ninetales|Body Slam|p2a: Gyarados
+|-damage|p2a: Gyarados|57\/339
+|-activate|p2a: Gyarados|confusion
+|-damage|p2a: Gyarados|16\/339|[from] confusion
+|
+|turn|27
+|
+|move|p1a: Ninetales|Body Slam|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|switch|p2a: Alakazam|Alakazam, L82|158\/258
+|turn|28
+|
+|move|p2a: Alakazam|Psychic|p1a: Ninetales
+|-damage|p1a: Ninetales|143\/301
+|move|p1a: Ninetales|Body Slam|p2a: Alakazam
+|-damage|p2a: Alakazam|78\/258
+|-status|p2a: Alakazam|par
+|
+|turn|29
+|
+|move|p1a: Ninetales|Fire Spin|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-damage|p2a: Alakazam|51\/258 par
+|-activate|p2a: Alakazam|move: Fire Spin|[of] p1a: Ninetales
+|cant|p2a: Alakazam|partiallytrapped
+|
+|turn|30
+|
+|move|p1a: Ninetales|Fire Spin|p2a: Alakazam
+|-damage|p2a: Alakazam|24\/258 par
+|cant|p2a: Alakazam|partiallytrapped
+|
+|-end|p2a: Alakazam|Fire Spin|[partiallytrapped]
+|turn|31
+|
+|move|p1a: Ninetales|Body Slam|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|switch|p2a: Beedrill|Beedrill, L86|287\/287
+|turn|32
+|
+|move|p1a: Ninetales|Fire Spin|p2a: Beedrill
+|-supereffective|p2a: Beedrill
+|-damage|p2a: Beedrill|239\/287
+|-activate|p2a: Beedrill|move: Fire Spin|[of] p1a: Ninetales
+|cant|p2a: Beedrill|partiallytrapped
+|
+|turn|33
+|
+|move|p1a: Ninetales|Fire Spin|p2a: Beedrill
+|-damage|p2a: Beedrill|191\/287
+|cant|p2a: Beedrill|partiallytrapped
+|
+|-end|p2a: Beedrill|Fire Spin|[partiallytrapped]
+|turn|34
+|
+|move|p1a: Ninetales|Fire Blast|p2a: Beedrill
+|-supereffective|p2a: Beedrill
+|-damage|p2a: Beedrill|0 fnt
+|faint|p2a: Beedrill
+|
+|switch|p2a: Exeggutor|Exeggutor, L82|247\/324
+|turn|35
+|
+|move|p1a: Ninetales|Fire Spin|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|218\/324
+|-activate|p2a: Exeggutor|move: Fire Spin|[of] p1a: Ninetales
+|cant|p2a: Exeggutor|partiallytrapped
+|
+|turn|36
+|-message|cmhjayhawk forfeited.
+|leave|cmhjayhawk
+|
+|win|RMC2
+|raw|Ladder updating...
+|player|p2

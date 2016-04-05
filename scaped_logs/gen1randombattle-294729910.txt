@@ -1,0 +1,256 @@
+﻿|join|salpke
+|join|MALESANI
+|player|p1|salpke|170
+|player|p2|MALESANI|238
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|24644,12228,14516,41596
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Omanyte|Omanyte, L96|262\/262
+|switch|p2a: Tentacruel|Tentacruel, L85|310\/310
+|turn|1
+|choice|switch 4|move 1
+|
+|switch|p1a: Snorlax|Snorlax, L79|415\/415
+|move|p2a: Tentacruel|Surf|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|94\/415
+|
+|turn|2
+|choice|move 4|move 1
+|
+|move|p2a: Tentacruel|Surf|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|choice|switch 3|
+|
+|switch|p1a: Venusaur|Venusaur, L85|310\/310
+|turn|3
+|choice|move 1|move 2
+|
+|move|p2a: Tentacruel|Blizzard|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|114\/310
+|move|p1a: Venusaur|Razor Leaf|p2a: Tentacruel
+|-crit|p2a: Tentacruel
+|-damage|p2a: Tentacruel|209\/310
+|
+|turn|4
+|choice|move 4|move 2
+|
+|move|p2a: Tentacruel|Blizzard|p1a: Venusaur
+|-crit|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|choice|switch 2|
+|
+|switch|p1a: Eevee|Eevee, L96|300\/300
+|turn|5
+|choice|move 1|switch 3
+|
+|switch|p2a: Haunter|Haunter, L85|250\/250
+|move|p1a: Eevee|Body Slam|p2a: Haunter
+|-immune|p2a: Haunter|[msg]
+|
+|turn|6
+|choice|move 4|move 4
+|
+|move|p2a: Haunter|Thunderbolt|p1a: Eevee
+|-damage|p1a: Eevee|212\/300
+|move|p1a: Eevee|Mimic|p2a: Haunter
+|-start|p1a: Eevee|Mimic|Confuse Ray
+|
+|turn|7
+|choice|move 4|move 1
+|
+|move|p2a: Haunter|Hypnosis|p1a: Eevee|[miss]
+|-miss|p2a: Haunter
+|move|p1a: Eevee|Confuse Ray|p2a: Haunter
+|-start|p2a: Haunter|confusion
+|
+|turn|8
+|choice|switch 6|move 1
+|
+|switch|p1a: Marowak|Marowak, L90|291\/291
+|-activate|p2a: Haunter|confusion
+|move|p2a: Haunter|Hypnosis|p1a: Marowak|[miss]
+|-miss|p2a: Haunter
+|
+|turn|9
+|choice|move 3|switch 2
+|
+|switch|p2a: Aerodactyl|Aerodactyl, L90|327\/327
+|move|p1a: Marowak|Earthquake|p2a: Aerodactyl
+|-immune|p2a: Aerodactyl|[msg]
+|
+|turn|10
+|choice|move 4|move 4
+|
+|move|p2a: Aerodactyl|Double-Edge|p1a: Marowak
+|-crit|p1a: Marowak
+|-damage|p1a: Marowak|156\/291
+|-damage|p2a: Aerodactyl|294\/327|[from] recoil|[of] p1a: Marowak
+|move|p1a: Marowak|Blizzard|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|138\/327
+|
+|turn|11
+|choice|move 4|move 3
+|
+|move|p2a: Aerodactyl|Hyper Beam|p1a: Marowak|[miss]
+|-miss|p2a: Aerodactyl
+|move|p1a: Marowak|Blizzard|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|faint|p2a: Aerodactyl
+|choice||switch 6
+|
+|switch|p2a: Kadabra|Kadabra, L85|242\/242
+|turn|12
+|choice|switch 5|move 1
+|
+|switch|p1a: Moltres|Moltres, L85|327\/327
+|move|p2a: Kadabra|Psychic|p1a: Moltres
+|-damage|p1a: Moltres|239\/327
+|
+|turn|13
+|choice|move 1|move 2
+|
+|move|p2a: Kadabra|Thunder Wave|p1a: Moltres
+|-status|p1a: Moltres|par
+|cant|p1a: Moltres|par
+|
+|turn|14
+|choice|move 1|move 4
+|
+|move|p2a: Kadabra|Seismic Toss|p1a: Moltres
+|-damage|p1a: Moltres|154\/327 par
+|move|p1a: Moltres|Fire Blast|p2a: Kadabra
+|-damage|p2a: Kadabra|111\/242
+|-status|p2a: Kadabra|brn
+|
+|turn|15
+|choice|move 1|move 4
+|
+|move|p2a: Kadabra|Seismic Toss|p1a: Moltres
+|-damage|p1a: Moltres|69\/327 par
+|-damage|p2a: Kadabra|96\/242 brn|[from] brn|[of] p1a: Moltres
+|move|p1a: Moltres|Fire Blast|p2a: Kadabra
+|-damage|p2a: Kadabra|0 fnt
+|faint|p2a: Kadabra
+|choice||switch 4
+|
+|switch|p2a: Snorlax|Snorlax, L79|415\/415
+|turn|16
+|choice|move 1|move 2
+|
+|move|p2a: Snorlax|Ice Beam|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|choice|switch 6|
+|
+|switch|p1a: Eevee|Eevee, L96|212\/300
+|turn|17
+|choice|move 1|move 3
+|
+|move|p1a: Eevee|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|308\/415
+|move|p2a: Snorlax|Surf|p1a: Eevee
+|-damage|p1a: Eevee|160\/300
+|
+|turn|18
+|choice|move 1|move 3
+|
+|move|p1a: Eevee|Body Slam|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|101\/415
+|move|p2a: Snorlax|Surf|p1a: Eevee
+|-damage|p1a: Eevee|115\/300
+|
+|turn|19
+|choice|move 1|move 3
+|
+|move|p1a: Eevee|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|choice||switch 5
+|
+|switch|p2a: Alakazam|Alakazam, L79|249\/249
+|turn|20
+|choice|move 1|move 1
+|
+|move|p2a: Alakazam|Psychic|p1a: Eevee
+|-damage|p1a: Eevee|4\/300
+|move|p1a: Eevee|Body Slam|p2a: Alakazam
+|-damage|p2a: Alakazam|127\/249
+|-status|p2a: Alakazam|par
+|
+|turn|21
+|choice|move 1|move 3
+|
+|move|p1a: Eevee|Body Slam|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|choice||switch 2
+|
+|switch|p2a: Haunter|Haunter, L85|250\/250
+|turn|22
+|choice|move 3|move 2
+|
+|move|p2a: Haunter|Mega Drain|p1a: Eevee
+|-damage|p1a: Eevee|0 fnt
+|faint|p1a: Eevee
+|choice|switch 5|
+|
+|switch|p1a: Marowak|Marowak, L90|156\/291
+|turn|23
+|choice|move 3|move 2
+|
+|move|p2a: Haunter|Mega Drain|p1a: Marowak
+|-supereffective|p1a: Marowak
+|-damage|p1a: Marowak|64\/291
+|move|p1a: Marowak|Earthquake|p2a: Haunter
+|-supereffective|p2a: Haunter
+|-damage|p2a: Haunter|0 fnt
+|faint|p2a: Haunter
+|choice||switch 3
+|
+|switch|p2a: Tentacruel|Tentacruel, L85|209\/310
+|turn|24
+|choice|move 3|move 1
+|
+|move|p2a: Tentacruel|Surf|p1a: Marowak
+|-supereffective|p1a: Marowak
+|-damage|p1a: Marowak|0 fnt
+|faint|p1a: Marowak
+|choice|switch 4|
+|
+|switch|p1a: Omanyte|Omanyte, L96|262\/262
+|turn|25
+|choice|move 2|move 1
+|
+|move|p2a: Tentacruel|Surf|p1a: Omanyte
+|-crit|p1a: Omanyte
+|-damage|p1a: Omanyte|74\/262
+|move|p1a: Omanyte|Seismic Toss|p2a: Tentacruel
+|-damage|p2a: Tentacruel|113\/310
+|
+|turn|26
+|choice|move 1|move 1
+|
+|move|p2a: Tentacruel|Surf|p1a: Omanyte
+|-damage|p1a: Omanyte|0 fnt
+|faint|p1a: Omanyte
+|
+|win|MALESANI
+|raw|salpke's rating: 1296 &rarr; <strong>1272<\/strong><br \/>(-24 for losing)
+|raw|MALESANI's rating: 1299 &rarr; <strong>1324<\/strong><br \/>(+25 for winning)

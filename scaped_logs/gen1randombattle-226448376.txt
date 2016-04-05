@@ -1,0 +1,310 @@
+﻿|join|EinaiAsproKaiPaxi
+|join|yaldyyyy
+|player|p1|EinaiAsproKaiPaxi|2
+|player|p2|yaldyyyy|2
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Dodrio|Dodrio, L85|276\/276
+|switch|p2a: Sandslash|Sandslash, L85|301\/301
+|turn|1
+|
+|switch|p1a: Blastoise|Blastoise, L85|308\/308
+|move|p2a: Sandslash|Rock Slide|p1a: Blastoise|[miss]
+|-miss|p2a: Sandslash
+|
+|turn|2
+|
+|switch|p2a: Starmie|Starmie, L79|257\/257
+|move|p1a: Blastoise|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|195\/257
+|
+|turn|3
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Blastoise
+|-supereffective|p1a: Blastoise
+|-damage|p1a: Blastoise|191\/308
+|move|p1a: Blastoise|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|135\/257
+|
+|turn|4
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|257\/257
+|move|p1a: Blastoise|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|192\/257
+|-status|p2a: Starmie|par
+|
+|turn|5
+|
+|move|p1a: Blastoise|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|128\/257 par
+|move|p2a: Starmie|Thunderbolt|p1a: Blastoise
+|-supereffective|p1a: Blastoise
+|-damage|p1a: Blastoise|79\/308
+|
+|turn|6
+|
+|move|p1a: Blastoise|Hyper Beam|p2a: Starmie
+|-damage|p2a: Starmie|27\/257 par
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|155\/257 par
+|
+|turn|7
+|
+|cant|p1a: Blastoise|recharge
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|257\/257 par
+|
+|turn|8
+|
+|move|p1a: Blastoise|Body Slam|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|141\/257 par
+|move|p2a: Starmie|Thunderbolt|p1a: Blastoise
+|-supereffective|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|faint|p1a: Blastoise
+|
+|switch|p1a: Ivysaur|Ivysaur, L85|276\/276
+|turn|9
+|
+|switch|p2a: Chansey|Chansey, L79|557\/557
+|move|p1a: Ivysaur|Toxic|p2a: Chansey
+|-status|p2a: Chansey|tox
+|
+|turn|10
+|
+|move|p1a: Ivysaur|Sleep Powder|p2a: Chansey
+|-fail|p2a: Chansey
+|move|p2a: Chansey|Ice Beam|p1a: Ivysaur
+|-supereffective|p1a: Ivysaur
+|-damage|p1a: Ivysaur|150\/276
+|-damage|p2a: Chansey|523\/557 tox|[from] tox|[of] p1a: Ivysaur
+|
+|turn|11
+|
+|move|p1a: Ivysaur|Leech Seed|p2a: Chansey
+|-start|p2a: Chansey|move: Leech Seed
+|move|p2a: Chansey|Ice Beam|p1a: Ivysaur
+|-supereffective|p1a: Ivysaur
+|-damage|p1a: Ivysaur|22\/276
+|-damage|p2a: Chansey|421\/557 tox|[from] tox|[of] p1a: Ivysaur
+|-damage|p2a: Chansey|285\/557 tox|[from] Leech Seed|[of] p1a: Ivysaur
+|-heal|p1a: Ivysaur|158\/276|[silent]
+|
+|turn|12
+|
+|move|p1a: Ivysaur|Sleep Powder|p2a: Chansey|[miss]
+|-miss|p1a: Ivysaur
+|move|p2a: Chansey|Ice Beam|p1a: Ivysaur
+|-supereffective|p1a: Ivysaur
+|-damage|p1a: Ivysaur|37\/276
+|-damage|p2a: Chansey|115\/557 tox|[from] tox|[of] p1a: Ivysaur
+|-damage|p2a: Chansey|0 fnt|[from] Leech Seed|[of] p1a: Ivysaur
+|-heal|p1a: Ivysaur|152\/276|[silent]
+|faint|p2a: Chansey
+|
+|switch|p2a: Marowak|Marowak, L85|276\/276
+|turn|13
+|
+|move|p1a: Ivysaur|Sleep Powder|p2a: Marowak
+|-status|p2a: Marowak|slp
+|cant|p2a: Marowak|slp
+|
+|turn|14
+|
+|switch|p2a: Mr. Mime|Mr. Mime, L85|242\/242
+|move|p1a: Ivysaur|Leech Seed|p2a: Mr. Mime
+|-start|p2a: Mr. Mime|move: Leech Seed
+|
+|turn|15
+|
+|move|p2a: Mr. Mime|Psychic|p1a: Ivysaur
+|-supereffective|p1a: Ivysaur
+|-damage|p1a: Ivysaur|0 fnt
+|faint|p1a: Ivysaur
+|
+|switch|p1a: Lapras|Lapras, L79|367\/367
+|turn|16
+|
+|move|p2a: Mr. Mime|Thunderbolt|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|213\/367
+|-damage|p2a: Mr. Mime|227\/242|[from] Leech Seed|[of] p1a: Lapras
+|-heal|p1a: Lapras|228\/367|[silent]
+|move|p1a: Lapras|Confuse Ray|p2a: Mr. Mime
+|-start|p2a: Mr. Mime|confusion
+|
+|turn|17
+|
+|-activate|p2a: Mr. Mime|confusion
+|-damage|p2a: Mr. Mime|202\/242|[from] confusion
+|-damage|p2a: Mr. Mime|187\/242|[from] Leech Seed|[of] p1a: Lapras
+|-heal|p1a: Lapras|243\/367|[silent]
+|move|p1a: Lapras|Blizzard|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|89\/242
+|
+|turn|18
+|
+|-activate|p2a: Mr. Mime|confusion
+|-damage|p2a: Mr. Mime|64\/242|[from] confusion
+|-damage|p2a: Mr. Mime|49\/242|[from] Leech Seed|[of] p1a: Lapras
+|-heal|p1a: Lapras|258\/367|[silent]
+|move|p1a: Lapras|Rest|p1a: Lapras
+|-status|p1a: Lapras|slp
+|-heal|p1a: Lapras|367\/367 slp|[silent]
+|-status|p1a: Lapras|slp|[from] move: Rest
+|
+|turn|19
+|
+|-activate|p2a: Mr. Mime|confusion
+|move|p2a: Mr. Mime|Thunderbolt|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|211\/367 slp
+|-damage|p2a: Mr. Mime|34\/242|[from] Leech Seed|[of] p1a: Lapras
+|-heal|p1a: Lapras|226\/367 slp|[silent]
+|cant|p1a: Lapras|slp
+|
+|turn|20
+|
+|-activate|p2a: Mr. Mime|confusion
+|-damage|p2a: Mr. Mime|9\/242|[from] confusion
+|-damage|p2a: Mr. Mime|0 fnt|[from] Leech Seed|[of] p1a: Lapras
+|-heal|p1a: Lapras|235\/367 slp|[silent]
+|faint|p2a: Mr. Mime
+|
+|switch|p2a: Starmie|Starmie, L79|141\/257 par
+|turn|21
+|
+|switch|p1a: Graveler|Graveler, L85|267\/267
+|cant|p2a: Starmie|par
+|
+|turn|22
+|
+|move|p1a: Graveler|Earthquake|p2a: Starmie
+|-damage|p2a: Starmie|23\/257 par
+|cant|p2a: Starmie|par
+|
+|turn|23
+|
+|switch|p2a: Sandslash|Sandslash, L85|301\/301
+|move|p1a: Graveler|Earthquake|p2a: Sandslash
+|-damage|p2a: Sandslash|207\/301
+|
+|turn|24
+|
+|switch|p1a: Golbat|Golbat, L85|301\/301
+|move|p2a: Sandslash|Earthquake|p1a: Golbat
+|-immune|p1a: Golbat|[msg]
+|
+|turn|25
+|
+|move|p1a: Golbat|Confuse Ray|p2a: Sandslash
+|-start|p2a: Sandslash|confusion
+|-activate|p2a: Sandslash|confusion
+|move|p2a: Sandslash|Rock Slide|p1a: Golbat
+|-supereffective|p1a: Golbat
+|-damage|p1a: Golbat|167\/301
+|
+|turn|26
+|
+|move|p1a: Golbat|Mega Drain|p2a: Sandslash
+|-supereffective|p2a: Sandslash
+|-damage|p2a: Sandslash|143\/301
+|-heal|p1a: Golbat|199\/301|[from] drain|[of] p2a: Sandslash
+|-activate|p2a: Sandslash|confusion
+|-damage|p2a: Sandslash|115\/301|[from] confusion
+|
+|turn|27
+|
+|move|p1a: Golbat|Mega Drain|p2a: Sandslash
+|-supereffective|p2a: Sandslash
+|-damage|p2a: Sandslash|51\/301
+|-heal|p1a: Golbat|231\/301|[from] drain|[of] p2a: Sandslash
+|-end|p2a: Sandslash|confusion
+|move|p2a: Sandslash|Rock Slide|p1a: Golbat
+|-supereffective|p1a: Golbat
+|-damage|p1a: Golbat|111\/301
+|
+|turn|28
+|
+|move|p1a: Golbat|Mega Drain|p2a: Sandslash
+|-supereffective|p2a: Sandslash
+|-damage|p2a: Sandslash|0 fnt
+|-heal|p1a: Golbat|136\/301|[from] drain|[of] p2a: Sandslash
+|faint|p2a: Sandslash
+|
+|switch|p2a: Kabutops|Kabutops, L85|276\/276
+|turn|29
+|
+|move|p1a: Golbat|Mega Drain|p2a: Kabutops
+|-crit|p2a: Kabutops
+|-supereffective|p2a: Kabutops
+|-damage|p2a: Kabutops|42\/276
+|-heal|p1a: Golbat|253\/301|[from] drain|[of] p2a: Kabutops
+|move|p2a: Kabutops|Hyper Beam|p1a: Golbat
+|-damage|p1a: Golbat|119\/301
+|
+|turn|30
+|
+|move|p1a: Golbat|Mega Drain|p2a: Kabutops
+|-supereffective|p2a: Kabutops
+|-damage|p2a: Kabutops|0 fnt
+|-heal|p1a: Golbat|140\/301|[from] drain|[of] p2a: Kabutops
+|faint|p2a: Kabutops
+|c|★EinaiAsproKaiPaxi|im sexy and i know it
+|
+|switch|p2a: Marowak|Marowak, L85|276\/276 slp
+|turn|31
+|
+|move|p1a: Golbat|Mega Drain|p2a: Marowak
+|-supereffective|p2a: Marowak
+|-damage|p2a: Marowak|213\/276 slp
+|-heal|p1a: Golbat|171\/301|[from] drain|[of] p2a: Marowak
+|cant|p2a: Marowak|slp
+|
+|turn|32
+|
+|move|p1a: Golbat|Mega Drain|p2a: Marowak
+|-supereffective|p2a: Marowak
+|-damage|p2a: Marowak|142\/276 slp
+|-heal|p1a: Golbat|206\/301|[from] drain|[of] p2a: Marowak
+|cant|p2a: Marowak|slp
+|
+|turn|33
+|
+|move|p1a: Golbat|Mega Drain|p2a: Marowak
+|-supereffective|p2a: Marowak
+|-damage|p2a: Marowak|68\/276 slp
+|-heal|p1a: Golbat|243\/301|[from] drain|[of] p2a: Marowak
+|cant|p2a: Marowak|slp
+|
+|turn|34
+|
+|move|p1a: Golbat|Mega Drain|p2a: Marowak
+|-crit|p2a: Marowak
+|-supereffective|p2a: Marowak
+|-damage|p2a: Marowak|0 fnt
+|-heal|p1a: Golbat|277\/301|[from] drain|[of] p2a: Marowak
+|faint|p2a: Marowak
+|leave|yaldyyyy
+|player|p2
+|c|★EinaiAsproKaiPaxi|wait
+|c|★EinaiAsproKaiPaxi|where y go
+|c|★EinaiAsproKaiPaxi|stay with me
+|c|★EinaiAsproKaiPaxi|i dont like peole that get a good fuck and then leave...
+|c|★EinaiAsproKaiPaxi|shows no good manners
+|-message|yaldyyyy lost due to inactivity.
+|
+|win|EinaiAsproKaiPaxi
+|raw|Ladder updating...
+|c|★EinaiAsproKaiPaxi|i just wanted to have hugs with you after
+|raw|EinaiAsproKaiPaxi's rating: 1349 &rarr; <strong>1366<\/strong><br \/>(+17 for winning)
+|raw|yaldyyyy's rating: 1296 &rarr; <strong>1275<\/strong><br \/>(-21 for losing)

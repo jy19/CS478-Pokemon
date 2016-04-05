@@ -1,0 +1,451 @@
+﻿|join|rimr
+|join|Hargnyque
+|player|p1|rimr|15
+|player|p2|Hargnyque|26
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|seed|40036,41025,52468,62702
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Electrode|Electrode|323\/323
+|switch|p2a: Venomoth|Venomoth|343\/343
+|turn|1
+|c|★Hargnyque|Just too long
+|c|★Hargnyque|250 turns
+|c|★rimr|lol
+|c|★rimr|boring
+|c|★rimr|this one won't last long lol
+|choice|move 3|switch 4
+|
+|switch|p2a: Onix|Onix|273\/273
+|move|p1a: Electrode|Thunder Wave|p2a: Onix
+|-immune|p2a: Onix|[msg]
+|
+|turn|2
+|choice|switch 2|move 3
+|
+|switch|p1a: Parasect|Parasect|323\/323
+|move|p2a: Onix|Body Slam|p1a: Parasect
+|-damage|p1a: Parasect|272\/323
+|
+|turn|3
+|choice|move 3|switch 4
+|
+|switch|p2a: Venomoth|Venomoth|343\/343
+|move|p1a: Parasect|Spore|p2a: Venomoth
+|-status|p2a: Venomoth|slp
+|
+|turn|4
+|choice|move 1|move 2
+|
+|-curestatus|p2a: Venomoth|slp
+|move|p1a: Parasect|Body Slam|p2a: Venomoth
+|-damage|p2a: Venomoth|277\/343
+|
+|turn|5
+|choice|switch 2|move 1
+|
+|switch|p1a: Electrode|Electrode|323\/323
+|move|p2a: Venomoth|Sleep Powder|p1a: Electrode
+|-status|p1a: Electrode|slp
+|
+|turn|6
+|choice|move 1|switch 2
+|
+|switch|p2a: Charizard|Charizard|359\/359
+|cant|p1a: Electrode|slp
+|
+|turn|7
+|choice|switch 5|move 4
+|
+|switch|p1a: Sandslash|Sandslash|353\/353
+|move|p2a: Charizard|Swords Dance|p2a: Charizard
+|-boost|p2a: Charizard|atk|2
+|
+|turn|8
+|choice|move 2|switch 3
+|
+|switch|p2a: Poliwrath|Poliwrath|383\/383
+|move|p1a: Sandslash|Rock Slide|p2a: Poliwrath
+|-crit|p2a: Poliwrath
+|-resisted|p2a: Poliwrath
+|-damage|p2a: Poliwrath|319\/383
+|
+|turn|9
+|choice|switch 2|move 3
+|
+|switch|p1a: Parasect|Parasect|272\/323
+|move|p2a: Poliwrath|Surf|p1a: Parasect
+|-resisted|p1a: Parasect
+|-damage|p1a: Parasect|222\/323
+|
+|turn|10
+|choice|move 3|switch 2
+|
+|switch|p2a: Venomoth|Venomoth|277\/343
+|move|p1a: Parasect|Spore|p2a: Venomoth
+|-status|p2a: Venomoth|slp
+|
+|turn|11
+|choice|switch 6|switch 4
+|
+|switch|p2a: Onix|Onix|273\/273
+|switch|p1a: Golduck|Golduck|363\/363
+|
+|turn|12
+|choice|move 1|switch 6
+|
+|switch|p2a: Magneton|Magneton|303\/303
+|move|p1a: Golduck|Surf|p2a: Magneton
+|-damage|p2a: Magneton|212\/303
+|
+|turn|13
+|choice|switch 2|move 1
+|
+|switch|p1a: Sandslash|Sandslash|353\/353
+|move|p2a: Magneton|Thunderbolt|p1a: Sandslash
+|-immune|p1a: Sandslash|[msg]
+|
+|turn|14
+|choice|move 3|switch 2
+|
+|switch|p2a: Poliwrath|Poliwrath|319\/383
+|move|p1a: Sandslash|Swords Dance|p1a: Sandslash
+|-boost|p1a: Sandslash|atk|2
+|
+|turn|15
+|choice|switch 2|move 1
+|
+|switch|p1a: Golduck|Golduck|363\/363
+|move|p2a: Poliwrath|Amnesia|p2a: Poliwrath
+|-boost|p2a: Poliwrath|spd|2
+|-boost|p2a: Poliwrath|spa|2
+|
+|turn|16
+|choice|move 3|move 1
+|
+|move|p1a: Golduck|Amnesia|p1a: Golduck
+|-boost|p1a: Golduck|spd|2
+|-boost|p1a: Golduck|spa|2
+|move|p2a: Poliwrath|Amnesia|p2a: Poliwrath
+|-boost|p2a: Poliwrath|spd|2
+|-boost|p2a: Poliwrath|spa|2
+|
+|turn|17
+|choice|move 3|move 1
+|
+|move|p1a: Golduck|Amnesia|p1a: Golduck
+|-boost|p1a: Golduck|spd|2
+|-boost|p1a: Golduck|spa|2
+|move|p2a: Poliwrath|Amnesia|p2a: Poliwrath
+|-boost|p2a: Poliwrath|spd|2
+|-boost|p2a: Poliwrath|spa|2
+|
+|turn|18
+|choice|move 3|move 2
+|
+|move|p1a: Golduck|Amnesia|p1a: Golduck
+|-boost|p1a: Golduck|spd|2
+|-boost|p1a: Golduck|spa|2
+|move|p2a: Poliwrath|Submission|p1a: Golduck
+|-damage|p1a: Golduck|265\/363
+|-damage|p2a: Poliwrath|295\/383|[from] recoil|[of] p1a: Golduck
+|
+|turn|19
+|choice|move 4|move 2
+|
+|move|p1a: Golduck|Confusion|p2a: Poliwrath
+|-supereffective|p2a: Poliwrath
+|-damage|p2a: Poliwrath|206\/383
+|move|p2a: Poliwrath|Submission|p1a: Golduck
+|-damage|p1a: Golduck|169\/363
+|-damage|p2a: Poliwrath|182\/383|[from] recoil|[of] p1a: Golduck
+|
+|turn|20
+|choice|move 4|move 4
+|
+|move|p1a: Golduck|Confusion|p2a: Poliwrath
+|-supereffective|p2a: Poliwrath
+|-damage|p2a: Poliwrath|98\/383
+|move|p2a: Poliwrath|Rest|p2a: Poliwrath
+|-status|p2a: Poliwrath|slp
+|-heal|p2a: Poliwrath|383\/383 slp|[silent]
+|-status|p2a: Poliwrath|slp|[from] move: Rest
+|
+|turn|21
+|choice|move 4|move 3
+|
+|move|p1a: Golduck|Confusion|p2a: Poliwrath
+|-supereffective|p2a: Poliwrath
+|-damage|p2a: Poliwrath|305\/383 slp
+|cant|p2a: Poliwrath|slp
+|
+|turn|22
+|choice|move 4|move 3
+|
+|move|p1a: Golduck|Confusion|p2a: Poliwrath
+|-supereffective|p2a: Poliwrath
+|-damage|p2a: Poliwrath|222\/383 slp
+|-curestatus|p2a: Poliwrath|slp
+|
+|turn|23
+|choice|move 4|move 2
+|
+|move|p1a: Golduck|Confusion|p2a: Poliwrath
+|-supereffective|p2a: Poliwrath
+|-damage|p2a: Poliwrath|138\/383
+|move|p2a: Poliwrath|Submission|p1a: Golduck
+|-damage|p1a: Golduck|68\/363
+|-damage|p2a: Poliwrath|113\/383|[from] recoil|[of] p1a: Golduck
+|
+|turn|24
+|choice|move 4|move 2
+|
+|move|p1a: Golduck|Confusion|p2a: Poliwrath
+|-crit|p2a: Poliwrath
+|-supereffective|p2a: Poliwrath
+|-damage|p2a: Poliwrath|0 fnt
+|faint|p2a: Poliwrath
+|choice||switch 5
+|
+|switch|p2a: Raticate|Raticate|313\/313
+|turn|25
+|choice|switch 6|move 4
+|
+|switch|p1a: Parasect|Parasect|222\/323
+|move|p2a: Raticate|Body Slam|p1a: Parasect
+|-crit|p1a: Parasect
+|-damage|p1a: Parasect|34\/323
+|-status|p1a: Parasect|par
+|
+|turn|26
+|choice|move 4|move 4
+|
+|move|p2a: Raticate|Body Slam|p1a: Parasect
+|-damage|p1a: Parasect|0 fnt
+|faint|p1a: Parasect
+|choice|switch 3|
+|
+|switch|p1a: Weezing|Weezing|333\/333
+|turn|27
+|choice|move 2|switch 6
+|
+|switch|p2a: Onix|Onix|273\/273
+|move|p1a: Weezing|Fire Blast|p2a: Onix
+|-resisted|p2a: Onix
+|-damage|p2a: Onix|187\/273
+|
+|turn|28
+|choice|move 2|move 1
+|
+|move|p2a: Onix|Earthquake|p1a: Weezing
+|-supereffective|p1a: Weezing
+|-damage|p1a: Weezing|209\/333
+|move|p1a: Weezing|Fire Blast|p2a: Onix|[miss]
+|-miss|p1a: Weezing
+|
+|turn|29
+|c|★Hargnyque|wow still high damage
+|choice|switch 2|move 1
+|
+|switch|p1a: Sandslash|Sandslash|353\/353
+|move|p2a: Onix|Earthquake|p1a: Sandslash
+|-damage|p1a: Sandslash|284\/353
+|
+|turn|30
+|choice|move 1|move 4
+|
+|move|p2a: Onix|Explosion|p1a: Sandslash
+|-damage|p1a: Sandslash|117\/353
+|faint|p2a: Onix
+|choice||switch 6
+|
+|switch|p2a: Raticate|Raticate|313\/313
+|turn|31
+|c|★rimr|u mean fire blast ?
+|c|★Hargnyque|yes
+|choice|move 1|move 4
+|
+|move|p2a: Raticate|Body Slam|p1a: Sandslash
+|-damage|p1a: Sandslash|41\/353
+|-status|p1a: Sandslash|par
+|move|p1a: Sandslash|Earthquake|p2a: Raticate
+|-damage|p2a: Raticate|156\/313
+|
+|turn|32
+|c|★rimr|yeah weezing is good
+|choice|move 1|move 4
+|
+|move|p2a: Raticate|Body Slam|p1a: Sandslash
+|-damage|p1a: Sandslash|0 fnt
+|faint|p1a: Sandslash
+|choice|switch 4|
+|
+|switch|p1a: Ninetales|Ninetales|349\/349
+|turn|33
+|choice|move 3|switch 3
+|
+|switch|p2a: Charizard|Charizard|359\/359
+|move|p1a: Ninetales|Confuse Ray|p2a: Charizard
+|-start|p2a: Charizard|confusion
+|
+|turn|34
+|choice|move 2|move 3
+|
+|-activate|p2a: Charizard|confusion
+|-damage|p2a: Charizard|322\/359|[from] confusion
+|move|p1a: Ninetales|Body Slam|p2a: Charizard
+|-damage|p2a: Charizard|258\/359
+|
+|turn|35
+|c|★rimr|told u i'd drop scyther
+|choice|move 2|move 3
+|
+|move|p1a: Ninetales|Body Slam|p2a: Charizard
+|-damage|p2a: Charizard|197\/359
+|-activate|p2a: Charizard|confusion
+|-damage|p2a: Charizard|160\/359|[from] confusion
+|
+|turn|36
+|c|★Hargnyque|yes
+|choice|move 2|move 3
+|
+|-activate|p2a: Charizard|confusion
+|move|p2a: Charizard|Earthquake|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|185\/349
+|move|p1a: Ninetales|Body Slam|p2a: Charizard
+|-damage|p2a: Charizard|93\/359
+|
+|turn|37
+|choice|move 2|move 3
+|
+|move|p1a: Ninetales|Body Slam|p2a: Charizard
+|-damage|p2a: Charizard|29\/359
+|-status|p2a: Charizard|par
+|-activate|p2a: Charizard|confusion
+|move|p2a: Charizard|Earthquake|p1a: Ninetales
+|-crit|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|choice|switch 2|
+|
+|switch|p1a: Weezing|Weezing|209\/333
+|turn|38
+|choice|move 1|move 3
+|
+|move|p1a: Weezing|Sludge|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|choice||switch 2
+|
+|switch|p2a: Magneton|Magneton|212\/303
+|turn|39
+|choice|move 4|move 4
+|
+|move|p2a: Magneton|Reflect|p2a: Magneton
+|-start|p2a: Magneton|Reflect
+|move|p1a: Weezing|Explosion|p2a: Magneton
+|-damage|p2a: Magneton|87\/303
+|faint|p1a: Weezing
+|c|★rimr|well played
+|choice|switch 5|
+|
+|switch|p1a: Electrode|Electrode|323\/323 slp
+|turn|40
+|c|★Hargnyque|thanks
+|choice|move 1|move 2
+|
+|-curestatus|p1a: Electrode|slp
+|move|p2a: Magneton|Thunder Wave|p1a: Electrode
+|-status|p1a: Electrode|par
+|
+|turn|41
+|choice|move 3|move 3
+|
+|move|p2a: Magneton|Rest|p2a: Magneton
+|-status|p2a: Magneton|slp
+|-heal|p2a: Magneton|303\/303 slp|[silent]
+|-status|p2a: Magneton|slp|[from] move: Rest
+|move|p1a: Electrode|Thunder Wave|p2a: Magneton
+|-fail|p2a: Magneton
+|
+|turn|42
+|choice|move 1|move 1
+|
+|cant|p2a: Magneton|slp
+|cant|p1a: Electrode|par
+|
+|turn|43
+|c|★rimr|a paralysed electrode
+|choice|move 1|move 1
+|
+|-curestatus|p2a: Magneton|slp
+|move|p1a: Electrode|Thunderbolt|p2a: Magneton
+|-resisted|p2a: Magneton
+|-damage|p2a: Magneton|261\/303
+|
+|turn|44
+|c|★rimr|is a useless electrode
+|c|★Hargnyque|just like jolteon
+|choice|move 3|move 1
+|
+|move|p2a: Magneton|Thunderbolt|p1a: Electrode
+|-resisted|p1a: Electrode
+|-damage|p1a: Electrode|253\/323 par
+|move|p1a: Electrode|Thunder Wave|p2a: Magneton
+|-status|p2a: Magneton|par
+|
+|turn|45
+|choice|move 1|move 1
+|
+|cant|p1a: Electrode|par
+|move|p2a: Magneton|Thunderbolt|p1a: Electrode
+|-resisted|p1a: Electrode
+|-damage|p1a: Electrode|184\/323 par
+|
+|turn|46
+|choice|move 1|move 1
+|
+|move|p1a: Electrode|Thunderbolt|p2a: Magneton
+|-resisted|p2a: Magneton
+|-damage|p2a: Magneton|222\/303 par
+|move|p2a: Magneton|Thunderbolt|p1a: Electrode
+|-resisted|p1a: Electrode
+|-damage|p1a: Electrode|111\/323 par
+|
+|turn|47
+|choice|move 2|move 1
+|
+|move|p1a: Electrode|Explosion|p2a: Magneton
+|-damage|p2a: Magneton|124\/303 par
+|faint|p1a: Electrode
+|choice|switch 6|
+|
+|switch|p1a: Golduck|Golduck|68\/363
+|turn|48
+|choice|move 1|move 1
+|
+|move|p1a: Golduck|Surf|p2a: Magneton
+|-damage|p2a: Magneton|33\/303 par
+|move|p2a: Magneton|Thunderbolt|p1a: Golduck
+|-supereffective|p1a: Golduck
+|-damage|p1a: Golduck|0 fnt
+|faint|p1a: Golduck
+|
+|win|Hargnyque
+|c|★rimr|my loss
+|c|★Hargnyque|gg
+|c|★rimr|hey
+|c|★rimr|whatever u pimp them up
+|c|★Hargnyque|Not too much haxx to ruin it
+|c|★rimr|uu teams still look lackluster
+|c|★rimr|:)

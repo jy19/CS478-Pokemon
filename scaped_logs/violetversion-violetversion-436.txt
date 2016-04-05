@@ -1,0 +1,314 @@
+﻿|J|KristophV
+|J|Disaster Area
+|player|p1|KristophV|8
+|player|p2|Disaster Area|32
+|gametype|singles
+|gen|1
+|tier|Violet Version
+|clearpoke
+|poke|p1|Chansey
+|poke|p1|Nidoqueen
+|poke|p1|Hypno
+|poke|p1|Moltres
+|poke|p1|Cloyster
+|poke|p1|Electabuzz
+|poke|p2|Starmie
+|poke|p2|Butterfree
+|poke|p2|Chansey
+|poke|p2|Flareon
+|poke|p2|Golem
+|poke|p2|Machamp
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|c|★Disaster Area|gl hf
+|c|★KristophV|you too
+|c|★Disaster Area|leads work now right?
+|c|★KristophV|i don't think so actually
+|
+|start
+|switch|p1a: Cloyster|Cloyster|303\/303
+|switch|p2a: Starmie|Starmie|323\/323
+|turn|1
+|c|★Disaster Area|nop
+|c|★Disaster Area|=[
+|c|★KristophV|they will when the code gets updated but for some reason that's taking a while
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Starmie|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|636\/703
+|
+|turn|2
+|
+|move|p2a: Starmie|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|cant|p1a: Chansey|par
+|
+|turn|3
+|
+|switch|p2a: Eliza|Flareon|433\/433
+|move|p1a: Chansey|Thunder Wave|p2a: Eliza
+|-status|p2a: Eliza|par
+|
+|turn|4
+|
+|switch|p1a: Nidoqueen|Nidoqueen|383\/383
+|move|p2a: Eliza|Mimic|p1a: Nidoqueen
+|-start|p2a: Eliza|Mimic|Thunderbolt
+|
+|turn|5
+|
+|switch|p2a: Butterfree|Butterfree|343\/343
+|move|p1a: Nidoqueen|Blizzard|p2a: Butterfree
+|-damage|p2a: Butterfree|263\/343
+|
+|turn|6
+|
+|switch|p1a: Hypno|Hypno|373\/373
+|move|p2a: Butterfree|Psychic|p1a: Hypno
+|-resisted|p1a: Hypno
+|-damage|p1a: Hypno|326\/373
+|
+|turn|7
+|
+|move|p2a: Butterfree|Sleep Powder|p1a: Hypno
+|-status|p1a: Hypno|slp
+|cant|p1a: Hypno|slp
+|-curestatus|p1a: Hypno|slp
+|
+|turn|8
+|
+|move|p2a: Butterfree|Sleep Powder|p1a: Hypno|[miss]
+|-miss|p2a: Butterfree
+|move|p1a: Hypno|Tri Attack|p2a: Butterfree
+|-supereffective|p2a: Butterfree
+|-damage|p2a: Butterfree|97\/343
+|
+|turn|9
+|
+|move|p2a: Butterfree|Sleep Powder|p1a: Hypno|[miss]
+|-miss|p2a: Butterfree
+|move|p1a: Hypno|Tri Attack|p2a: Butterfree
+|-crit|p2a: Butterfree
+|-supereffective|p2a: Butterfree
+|-damage|p2a: Butterfree|0 fnt
+|faint|p2a: Butterfree
+|c|★KristophV|wow
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|turn|10
+|
+|switch|p1a: Chansey|Chansey|636\/703 par
+|switch|p2a: Eliza|Flareon|433\/433 par
+|
+|turn|11
+|
+|move|p2a: Eliza|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|404\/703 par
+|cant|p1a: Chansey|par
+|
+|turn|12
+|
+|move|p2a: Eliza|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|203\/703 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|554\/703 par
+|
+|turn|13
+|
+|switch|p1a: Nidoqueen|Nidoqueen|383\/383
+|cant|p2a: Eliza|par
+|
+|turn|14
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|move|p1a: Nidoqueen|Earthquake|p2a: Starmie
+|-damage|p2a: Starmie|203\/323
+|
+|turn|15
+|
+|switch|p1a: Chansey|Chansey|554\/703 par
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|323\/323
+|
+|turn|16
+|
+|switch|p2a: Machamp|Machamp|403\/403
+|move|p1a: Chansey|Thunder Wave|p2a: Machamp
+|-status|p2a: Machamp|par
+|
+|turn|17
+|
+|switch|p1a: Hypno|Hypno|326\/373
+|move|p2a: Machamp|Body Slam|p1a: Hypno
+|-crit|p1a: Hypno
+|-damage|p1a: Hypno|136\/373
+|
+|turn|18
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Hypno|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|595\/703
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|
+|turn|19
+|
+|switch|p2a: Eliza|Flareon|433\/433 par
+|move|p1a: Hypno|Psychic|p2a: Eliza
+|-damage|p2a: Eliza|320\/433 par
+|
+|turn|20
+|
+|move|p1a: Hypno|Psychic|p2a: Eliza
+|-damage|p2a: Eliza|215\/433 par
+|move|p2a: Eliza|Fire Blast|p1a: Hypno|[miss]
+|-miss|p2a: Eliza
+|
+|turn|21
+|
+|move|p1a: Hypno|Psychic|p2a: Eliza
+|-damage|p2a: Eliza|109\/433 par
+|-unboost|p2a: Eliza|spd|1
+|-unboost|p2a: Eliza|spa|1
+|move|p2a: Eliza|Rest|p2a: Eliza
+|-status|p2a: Eliza|slp
+|-heal|p2a: Eliza|433\/433 slp|[silent]
+|-status|p2a: Eliza|slp|[from] move: Rest
+|
+|turn|22
+|
+|switch|p2a: Chansey|Chansey|595\/703
+|move|p1a: Hypno|Tri Attack|p2a: Chansey
+|-immune|p2a: Chansey|[msg]
+|
+|turn|23
+|
+|move|p1a: Hypno|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|480\/703
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|move|p2a: Chansey|Thunder Wave|p1a: Hypno
+|-status|p1a: Hypno|par
+|
+|turn|24
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703
+|move|p1a: Hypno|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|533\/703
+|
+|turn|25
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Hypno
+|-damage|p1a: Hypno|92\/373 par
+|cant|p1a: Hypno|par
+|
+|turn|26
+|
+|switch|p2a: Golem|Golem|363\/363
+|move|p1a: Hypno|Psychic|p2a: Golem
+|-damage|p2a: Golem|196\/363
+|-unboost|p2a: Golem|spd|1
+|-unboost|p2a: Golem|spa|1
+|
+|turn|27
+|
+|switch|p1a: Cloyster|Cloyster|303\/303
+|move|p2a: Golem|Body Slam|p1a: Cloyster
+|-damage|p1a: Cloyster|259\/303
+|
+|turn|28
+|
+|switch|p2a: Chansey|Chansey|533\/703
+|move|p1a: Cloyster|Clamp|p2a: Chansey
+|-damage|p2a: Chansey|466\/703
+|-activate|p2a: Chansey|move: Clamp|[of] p1a: Cloyster
+|
+|turn|29
+|
+|switch|p1a: Chansey|Chansey|554\/703 par
+|switch|p2a: Starmie|Starmie|323\/323
+|
+|turn|30
+|
+|switch|p2a: Eliza|Flareon|433\/433 slp
+|switch|p1a: Nidoqueen|Nidoqueen|383\/383
+|
+|turn|31
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|move|p1a: Nidoqueen|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|189\/323
+|
+|turn|32
+|
+|switch|p1a: Chansey|Chansey|554\/703 par
+|move|p2a: Starmie|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|458\/703 par
+|
+|turn|33
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|323\/323
+|cant|p1a: Chansey|par
+|
+|turn|34
+|
+|switch|p2a: Machamp|Machamp|403\/403 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703 par
+|
+|turn|35
+|
+|switch|p1a: Cloyster|Cloyster|259\/303
+|move|p2a: Machamp|Body Slam|p1a: Cloyster
+|-damage|p1a: Cloyster|208\/303
+|-status|p1a: Cloyster|par
+|
+|turn|36
+|
+|move|p1a: Cloyster|Explosion|p2a: Machamp
+|-damage|p2a: Machamp|127\/403 par
+|faint|p1a: Cloyster
+|
+|switch|p1a: Electabuzz|Electabuzz|333\/333
+|turn|37
+|
+|move|p1a: Electabuzz|Thunderbolt|p2a: Machamp
+|-damage|p2a: Machamp|0 fnt
+|faint|p2a: Machamp
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|turn|38
+|
+|switch|p1a: Chansey|Chansey|703\/703 par
+|move|p2a: Starmie|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|
+|turn|39
+|
+|switch|p2a: Golem|Golem|196\/363
+|move|p1a: Chansey|Thunder Wave|p2a: Golem
+|-immune|p2a: Golem|[msg]
+|
+|turn|40
+|
+|move|p2a: Golem|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|339\/703 par
+|move|p1a: Chansey|Ice Beam|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|c|★Disaster Area|gg
+|-message|Disaster Area forfeited.
+|
+|win|KristophV
+|c|★KristophV|gg
+|c|★Disaster Area|shoulda exploded
+|c|★Disaster Area|lol

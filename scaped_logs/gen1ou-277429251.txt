@@ -1,0 +1,273 @@
+﻿|join|jb champ
+|join|Con de moi
+|player|p1|jb champ|150
+|player|p2|Con de moi|282
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333\/333
+|switch|p2a: Slaughterhouse|Tauros|353\/353
+|turn|1
+|
+|move|p2a: Slaughterhouse|Body Slam|p1a: Jynx
+|-crit|p1a: Jynx
+|-damage|p1a: Jynx|7\/333
+|move|p1a: Jynx|Lovely Kiss|p2a: Slaughterhouse
+|-status|p2a: Slaughterhouse|slp
+|
+|turn|2
+|
+|switch|p2a: L'homosexuelle|Chansey|703\/703
+|move|p1a: Jynx|Blizzard|p2a: L'homosexuelle
+|-damage|p2a: L'homosexuelle|574\/703
+|
+|turn|3
+|
+|move|p1a: Jynx|Blizzard|p2a: L'homosexuelle
+|-damage|p2a: L'homosexuelle|446\/703
+|move|p2a: L'homosexuelle|Thunderbolt|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|4
+|
+|switch|p2a: Stabber|Cloyster|303\/303
+|move|p1a: Tauros|Hyper Beam|p2a: Stabber
+|-damage|p2a: Stabber|195\/303
+|
+|turn|5
+|-mustrecharge|p1a: Tauros
+|-mustrecharge|p1a: Tauros
+|
+|cant|p1a: Tauros|recharge
+|move|p2a: Stabber|Ice Beam|p1a: Tauros
+|-damage|p1a: Tauros|228\/353
+|
+|turn|6
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Stabber|Clamp|p1a: Chansey|[miss]
+|-miss|p2a: Stabber
+|
+|turn|7
+|
+|switch|p2a: Putain|Exeggutor|393\/393
+|move|p1a: Chansey|Thunder Wave|p2a: Putain
+|-status|p2a: Putain|par
+|
+|turn|8
+|
+|switch|p1a: Blastoise|Blastoise|361\/361
+|move|p2a: Putain|Sleep Powder|p1a: Blastoise
+|-status|p1a: Blastoise|slp
+|
+|turn|9
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|switch|p2a: Nipz|Raichu|323\/323
+|
+|turn|10
+|
+|switch|p2a: L'homosexuelle|Chansey|446\/703
+|move|p1a: Chansey|Ice Beam|p2a: L'homosexuelle
+|-damage|p2a: L'homosexuelle|371\/703
+|
+|turn|11
+|
+|move|p1a: Chansey|Thunder Wave|p2a: L'homosexuelle
+|-status|p2a: L'homosexuelle|par
+|move|p2a: L'homosexuelle|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|628\/703
+|-status|p1a: Chansey|frz
+|
+|turn|12
+|
+|switch|p1a: Rhydon|Rhydon|413\/413
+|switch|p2a: Slaughterhouse|Tauros|353\/353 slp
+|
+|turn|13
+|
+|cant|p2a: Slaughterhouse|slp
+|move|p1a: Rhydon|Rock Slide|p2a: Slaughterhouse
+|-damage|p2a: Slaughterhouse|244\/353 slp
+|
+|turn|14
+|
+|cant|p2a: Slaughterhouse|slp
+|move|p1a: Rhydon|Rock Slide|p2a: Slaughterhouse
+|-damage|p2a: Slaughterhouse|131\/353 slp
+|
+|turn|15
+|
+|cant|p2a: Slaughterhouse|slp
+|move|p1a: Rhydon|Earthquake|p2a: Slaughterhouse
+|-damage|p2a: Slaughterhouse|0 fnt
+|faint|p2a: Slaughterhouse
+|
+|switch|p2a: Nipz|Raichu|323\/323
+|turn|16
+|
+|switch|p1a: Blastoise|Blastoise|361\/361 slp
+|move|p2a: Nipz|Surf|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|319\/361 slp
+|
+|turn|17
+|
+|switch|p1a: Jolteon|Jolteon|333\/333
+|move|p2a: Nipz|Thunderbolt|p1a: Jolteon
+|-resisted|p1a: Jolteon
+|-damage|p1a: Jolteon|288\/333
+|
+|turn|18
+|
+|switch|p2a: L'homosexuelle|Chansey|371\/703 par
+|move|p1a: Jolteon|Thunder Wave|p2a: L'homosexuelle
+|-fail|p2a: L'homosexuelle|par
+|
+|turn|19
+|
+|move|p1a: Jolteon|Double Kick|p2a: L'homosexuelle
+|-supereffective|p2a: L'homosexuelle
+|-damage|p2a: L'homosexuelle|271\/703 par
+|-damage|p2a: L'homosexuelle|171\/703 par
+|-hitcount|p2a: L'homosexuelle|2
+|cant|p2a: L'homosexuelle|par
+|
+|turn|20
+|
+|switch|p2a: Putain|Exeggutor|393\/393 par
+|move|p1a: Jolteon|Double Kick|p2a: Putain
+|-crit|p2a: Putain
+|-resisted|p2a: Putain
+|-damage|p2a: Putain|374\/393 par
+|-damage|p2a: Putain|355\/393 par
+|-hitcount|p2a: Putain|2
+|
+|turn|21
+|
+|move|p1a: Jolteon|Pin Missile|p2a: Putain
+|-supereffective|p2a: Putain
+|-damage|p2a: Putain|314\/393 par
+|-damage|p2a: Putain|273\/393 par
+|-damage|p2a: Putain|232\/393 par
+|-damage|p2a: Putain|191\/393 par
+|-damage|p2a: Putain|150\/393 par
+|-hitcount|p2a: Putain|5
+|move|p2a: Putain|Psychic|p1a: Jolteon
+|-damage|p1a: Jolteon|168\/333
+|-unboost|p1a: Jolteon|spd|1
+|-unboost|p1a: Jolteon|spa|1
+|
+|turn|22
+|
+|move|p1a: Jolteon|Pin Missile|p2a: Putain
+|-crit|p2a: Putain
+|-supereffective|p2a: Putain
+|-damage|p2a: Putain|73\/393 par
+|-damage|p2a: Putain|0 fnt
+|-hitcount|p2a: Putain|2
+|faint|p2a: Putain
+|
+|switch|p2a: Foxxyy|Alakazam|313\/313
+|turn|23
+|
+|switch|p1a: Chansey|Chansey|628\/703 frz
+|move|p2a: Foxxyy|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|497\/703 frz
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|
+|turn|24
+|
+|switch|p2a: Stabber|Cloyster|195\/303
+|cant|p1a: Chansey|frz
+|
+|turn|25
+|
+|switch|p1a: Blastoise|Blastoise|319\/361 slp
+|move|p2a: Stabber|Clamp|p1a: Blastoise
+|-crit|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|280\/361 slp
+|-activate|p1a: Blastoise|move: Clamp|[of] p2a: Stabber
+|
+|turn|26
+|
+|switch|p2a: Nipz|Raichu|323\/323
+|-curestatus|p1a: Blastoise|slp
+|
+|-end|p1a: Blastoise|Clamp|[partiallytrapped]
+|turn|27
+|
+|move|p2a: Nipz|Thunder Wave|p1a: Blastoise
+|-status|p1a: Blastoise|par
+|move|p1a: Blastoise|Earthquake|p2a: Nipz
+|-supereffective|p2a: Nipz
+|-damage|p2a: Nipz|137\/323
+|
+|turn|28
+|
+|move|p2a: Nipz|Thunderbolt|p1a: Blastoise
+|-supereffective|p1a: Blastoise
+|-damage|p1a: Blastoise|50\/361 par
+|cant|p1a: Blastoise|par
+|
+|turn|29
+|
+|move|p2a: Nipz|Thunderbolt|p1a: Blastoise
+|-crit|p1a: Blastoise
+|-supereffective|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|faint|p1a: Blastoise
+|
+|switch|p1a: Tauros|Tauros|228\/353
+|turn|30
+|
+|move|p1a: Tauros|Earthquake|p2a: Nipz
+|-crit|p2a: Nipz
+|-supereffective|p2a: Nipz
+|-damage|p2a: Nipz|0 fnt
+|faint|p2a: Nipz
+|
+|switch|p2a: Foxxyy|Alakazam|313\/313
+|turn|31
+|
+|move|p2a: Foxxyy|Psychic|p1a: Tauros
+|-damage|p1a: Tauros|59\/353
+|-unboost|p1a: Tauros|spd|1
+|-unboost|p1a: Tauros|spa|1
+|move|p1a: Tauros|Body Slam|p2a: Foxxyy
+|-damage|p2a: Foxxyy|147\/313
+|-status|p2a: Foxxyy|par
+|
+|turn|32
+|
+|move|p1a: Tauros|Body Slam|p2a: Foxxyy
+|-damage|p2a: Foxxyy|0 fnt
+|faint|p2a: Foxxyy
+|
+|switch|p2a: Stabber|Cloyster|195\/303
+|turn|33
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Stabber
+|-crit|p2a: Stabber
+|-damage|p2a: Stabber|0 fnt
+|faint|p2a: Stabber
+|-message|Con de moi forfeited.
+|
+|win|jb champ
+|leave|Con de moi
+|player|p2
+|raw|jb champ's rating: 1154 &rarr; <strong>1179<\/strong><br \/>(+25 for winning)
+|raw|Con de moi's rating: 1153 &rarr; <strong>1128<\/strong><br \/>(-25 for losing)

@@ -1,0 +1,559 @@
+﻿|join|hfeath
+|join|tjorfdc
+|player|p1|hfeath|139
+|player|p2|tjorfdc|110
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Tangela|Tangela, L86|287\/287
+|switch|p2a: Persian|Persian, L82|274\/274
+|turn|1
+|
+|move|p2a: Persian|Slash|p1a: Tangela
+|-crit|p1a: Tangela
+|-damage|p1a: Tangela|202\/287
+|move|p1a: Tangela|Sleep Powder|p2a: Persian
+|-status|p2a: Persian|slp
+|
+|turn|2
+|
+|switch|p2a: Victreebel|Victreebel, L86|313\/313
+|move|p1a: Tangela|Swords Dance|p1a: Tangela
+|-boost|p1a: Tangela|atk|2
+|
+|turn|3
+|
+|move|p2a: Victreebel|Sleep Powder|p1a: Tangela
+|-status|p1a: Tangela|slp
+|cant|p1a: Tangela|slp
+|
+|turn|4
+|
+|move|p2a: Victreebel|Wrap|p1a: Tangela
+|-damage|p1a: Tangela|191\/287 slp
+|-activate|p1a: Tangela|move: Wrap|[of] p2a: Victreebel
+|cant|p1a: Tangela|slp
+|
+|turn|5
+|
+|move|p2a: Victreebel|Wrap|p1a: Tangela
+|-damage|p1a: Tangela|180\/287 slp
+|cant|p1a: Tangela|slp
+|
+|-end|p1a: Tangela|Wrap|[partiallytrapped]
+|turn|6
+|
+|move|p2a: Victreebel|Wrap|p1a: Tangela
+|-damage|p1a: Tangela|170\/287 slp
+|-activate|p1a: Tangela|move: Wrap|[of] p2a: Victreebel
+|cant|p1a: Tangela|slp
+|
+|turn|7
+|
+|move|p2a: Victreebel|Wrap|p1a: Tangela
+|-damage|p1a: Tangela|160\/287 slp
+|cant|p1a: Tangela|slp
+|-curestatus|p1a: Tangela|slp
+|
+|turn|8
+|
+|move|p2a: Victreebel|Wrap|p1a: Tangela
+|-damage|p1a: Tangela|150\/287
+|cant|p1a: Tangela|partiallytrapped
+|
+|-end|p1a: Tangela|Wrap|[partiallytrapped]
+|turn|9
+|
+|move|p2a: Victreebel|Sleep Powder|p1a: Tangela|[miss]
+|-miss|p2a: Victreebel
+|move|p1a: Tangela|Hyper Beam|p2a: Victreebel
+|-damage|p2a: Victreebel|133\/313
+|
+|turn|10
+|
+|move|p2a: Victreebel|Sleep Powder|p1a: Tangela
+|-status|p1a: Tangela|slp
+|cant|p1a: Tangela|slp
+|-curestatus|p1a: Tangela|slp
+|
+|turn|11
+|
+|move|p2a: Victreebel|Wrap|p1a: Tangela
+|-crit|p1a: Tangela
+|-damage|p1a: Tangela|131\/287
+|-activate|p1a: Tangela|move: Wrap|[of] p2a: Victreebel
+|cant|p1a: Tangela|partiallytrapped
+|
+|turn|12
+|
+|move|p2a: Victreebel|Wrap|p1a: Tangela
+|-damage|p1a: Tangela|112\/287
+|cant|p1a: Tangela|partiallytrapped
+|
+|-end|p1a: Tangela|Wrap|[partiallytrapped]
+|turn|13
+|
+|move|p2a: Victreebel|Sleep Powder|p1a: Tangela
+|-status|p1a: Tangela|slp
+|cant|p1a: Tangela|slp
+|
+|turn|14
+|
+|move|p2a: Victreebel|Wrap|p1a: Tangela
+|-damage|p1a: Tangela|102\/287 slp
+|-activate|p1a: Tangela|move: Wrap|[of] p2a: Victreebel
+|cant|p1a: Tangela|slp
+|
+|turn|15
+|c|★tjorfdc|lol the nostalgia in this one
+|
+|move|p2a: Victreebel|Wrap|p1a: Tangela
+|-damage|p1a: Tangela|92\/287 slp
+|cant|p1a: Tangela|slp
+|-curestatus|p1a: Tangela|slp
+|
+|turn|16
+|
+|move|p2a: Victreebel|Wrap|p1a: Tangela
+|-damage|p1a: Tangela|82\/287
+|cant|p1a: Tangela|partiallytrapped
+|
+|turn|17
+|c|★hfeath|i'd forgotten about the wrap mechanics :P
+|
+|move|p2a: Victreebel|Wrap|p1a: Tangela
+|-damage|p1a: Tangela|72\/287
+|cant|p1a: Tangela|partiallytrapped
+|
+|-end|p1a: Tangela|Wrap|[partiallytrapped]
+|turn|18
+|c|★tjorfdc|it's crazy lol, so op
+|
+|move|p2a: Victreebel|Sleep Powder|p1a: Tangela
+|-status|p1a: Tangela|slp
+|cant|p1a: Tangela|slp
+|
+|turn|19
+|
+|move|p2a: Victreebel|Wrap|p1a: Tangela
+|-damage|p1a: Tangela|62\/287 slp
+|-activate|p1a: Tangela|move: Wrap|[of] p2a: Victreebel
+|cant|p1a: Tangela|slp
+|
+|turn|20
+|
+|move|p2a: Victreebel|Wrap|p1a: Tangela
+|-damage|p1a: Tangela|52\/287 slp
+|cant|p1a: Tangela|slp
+|-curestatus|p1a: Tangela|slp
+|
+|turn|21
+|
+|move|p2a: Victreebel|Wrap|p1a: Tangela
+|-damage|p1a: Tangela|42\/287
+|cant|p1a: Tangela|partiallytrapped
+|
+|-end|p1a: Tangela|Wrap|[partiallytrapped]
+|turn|22
+|
+|move|p2a: Victreebel|Wrap|p1a: Tangela
+|-damage|p1a: Tangela|31\/287
+|-activate|p1a: Tangela|move: Wrap|[of] p2a: Victreebel
+|cant|p1a: Tangela|partiallytrapped
+|
+|turn|23
+|
+|move|p2a: Victreebel|Wrap|p1a: Tangela
+|-damage|p1a: Tangela|20\/287
+|cant|p1a: Tangela|partiallytrapped
+|
+|turn|24
+|
+|move|p2a: Victreebel|Wrap|p1a: Tangela
+|-damage|p1a: Tangela|9\/287
+|cant|p1a: Tangela|partiallytrapped
+|
+|-end|p1a: Tangela|Wrap|[partiallytrapped]
+|turn|25
+|
+|move|p2a: Victreebel|Wrap|p1a: Tangela
+|-damage|p1a: Tangela|0 fnt
+|faint|p1a: Tangela
+|c|★hfeath|nice slow death for tangela there
+|c|★tjorfdc|sorry for that man
+|
+|switch|p1a: Gyarados|Gyarados, L86|339\/339
+|turn|26
+|c|★tjorfdc|but that's how it works in gen 1 lol
+|c|★hfeath|ehh gotta love the nostalgia :D
+|
+|move|p1a: Gyarados|Blizzard|p2a: Victreebel
+|-supereffective|p2a: Victreebel
+|-damage|p2a: Victreebel|0 fnt
+|faint|p2a: Victreebel
+|
+|switch|p2a: Electrode|Electrode, L86|279\/279
+|turn|27
+|
+|switch|p1a: Dugtrio|Dugtrio, L86|236\/236
+|move|p2a: Electrode|Thunderbolt|p1a: Dugtrio
+|-immune|p1a: Dugtrio|[msg]
+|
+|turn|28
+|
+|switch|p2a: Butterfree|Butterfree, L86|279\/279
+|move|p1a: Dugtrio|Earthquake|p2a: Butterfree
+|-immune|p2a: Butterfree|[msg]
+|
+|turn|29
+|c|★tjorfdc|yeah xd
+|
+|move|p1a: Dugtrio|Substitute|p1a: Dugtrio
+|-start|p1a: Dugtrio|Substitute
+|-damage|p1a: Dugtrio|177\/236
+|move|p2a: Butterfree|Mega Drain|p1a: Dugtrio
+|-supereffective|p1a: Dugtrio
+|-end|p1a: Dugtrio|Substitute
+|
+|turn|30
+|
+|switch|p1a: Arcanine|Arcanine, L86|330\/330
+|move|p2a: Butterfree|Sleep Powder|p1a: Arcanine
+|-status|p1a: Arcanine|slp
+|
+|turn|31
+|
+|switch|p2a: Persian|Persian, L82|274\/274 slp
+|cant|p1a: Arcanine|slp
+|
+|turn|32
+|
+|cant|p2a: Persian|slp
+|-curestatus|p2a: Persian|slp
+|cant|p1a: Arcanine|slp
+|
+|turn|33
+|
+|move|p2a: Persian|Bubble Beam|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|259\/330 slp
+|-unboost|p1a: Arcanine|spe|1
+|cant|p1a: Arcanine|slp
+|
+|turn|34
+|
+|move|p2a: Persian|Slash|p1a: Arcanine
+|-crit|p1a: Arcanine
+|-damage|p1a: Arcanine|152\/330 slp
+|cant|p1a: Arcanine|slp
+|
+|turn|35
+|c|★tjorfdc|lol the crits
+|
+|move|p2a: Persian|Slash|p1a: Arcanine
+|-crit|p1a: Arcanine
+|-damage|p1a: Arcanine|44\/330 slp
+|cant|p1a: Arcanine|slp
+|
+|turn|36
+|c|★hfeath|persians lethal in this gen x)
+|c|★tjorfdc|more speed = more crits lol, i need jolteon xd
+|c|★hfeath|and sleep lasts forever, apparently x)
+|
+|move|p2a: Persian|Bubble Beam|p1a: Arcanine
+|-crit|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|switch|p1a: Dragonite|Dragonite, L82|317\/317
+|turn|37
+|c|★tjorfdc|yeah i know xd
+|
+|move|p2a: Persian|Body Slam|p1a: Dragonite
+|-damage|p1a: Dragonite|247\/317
+|move|p1a: Dragonite|Agility|p1a: Dragonite
+|-boost|p1a: Dragonite|spe|2
+|
+|turn|38
+|
+|move|p1a: Dragonite|Wrap|p2a: Persian
+|-damage|p2a: Persian|257\/274
+|-activate|p2a: Persian|move: Wrap|[of] p1a: Dragonite
+|cant|p2a: Persian|partiallytrapped
+|
+|turn|39
+|c|★tjorfdc|oh god
+|c|★hfeath|xD
+|c|★tjorfdc|xd
+|c|★tjorfdc|here we go again xd
+|
+|move|p1a: Dragonite|Wrap|p2a: Persian
+|-damage|p2a: Persian|240\/274
+|cant|p2a: Persian|partiallytrapped
+|
+|-end|p2a: Persian|Wrap|[partiallytrapped]
+|turn|40
+|
+|move|p1a: Dragonite|Wrap|p2a: Persian
+|-damage|p2a: Persian|222\/274
+|-activate|p2a: Persian|move: Wrap|[of] p1a: Dragonite
+|cant|p2a: Persian|partiallytrapped
+|
+|turn|41
+|c|★hfeath|i'm bound to miss one at some point
+|
+|move|p1a: Dragonite|Wrap|p2a: Persian
+|-damage|p2a: Persian|204\/274
+|cant|p2a: Persian|partiallytrapped
+|
+|turn|42
+|
+|move|p1a: Dragonite|Wrap|p2a: Persian
+|-damage|p2a: Persian|186\/274
+|cant|p2a: Persian|partiallytrapped
+|
+|turn|43
+|c|★tjorfdc|even if you miss, i can't ko you xd
+|
+|move|p1a: Dragonite|Wrap|p2a: Persian
+|-damage|p2a: Persian|168\/274
+|cant|p2a: Persian|partiallytrapped
+|
+|turn|44
+|
+|move|p1a: Dragonite|Wrap|p2a: Persian
+|-damage|p2a: Persian|150\/274
+|cant|p2a: Persian|partiallytrapped
+|
+|-end|p2a: Persian|Wrap|[partiallytrapped]
+|turn|45
+|
+|move|p1a: Dragonite|Wrap|p2a: Persian
+|-damage|p2a: Persian|134\/274
+|-activate|p2a: Persian|move: Wrap|[of] p1a: Dragonite
+|cant|p2a: Persian|partiallytrapped
+|
+|turn|46
+|
+|move|p1a: Dragonite|Wrap|p2a: Persian
+|-damage|p2a: Persian|118\/274
+|cant|p2a: Persian|partiallytrapped
+|
+|turn|47
+|
+|move|p1a: Dragonite|Wrap|p2a: Persian
+|-damage|p2a: Persian|102\/274
+|cant|p2a: Persian|partiallytrapped
+|
+|turn|48
+|
+|move|p1a: Dragonite|Wrap|p2a: Persian
+|-damage|p2a: Persian|86\/274
+|cant|p2a: Persian|partiallytrapped
+|
+|-end|p2a: Persian|Wrap|[partiallytrapped]
+|turn|49
+|
+|move|p1a: Dragonite|Hyper Beam|p2a: Persian|[miss]
+|-miss|p1a: Dragonite
+|move|p2a: Persian|Hyper Beam|p1a: Dragonite
+|-damage|p1a: Dragonite|137\/317
+|
+|turn|50
+|c|★tjorfdc|lol
+|
+|move|p1a: Dragonite|Hyper Beam|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|faint|p2a: Persian
+|c|★hfeath|at least it didnt crit :P
+|
+|switch|p2a: Butterfree|Butterfree, L86|279\/279
+|turn|51
+|
+|move|p1a: Dragonite|Wrap|p2a: Butterfree
+|-damage|p2a: Butterfree|262\/279
+|-activate|p2a: Butterfree|move: Wrap|[of] p1a: Dragonite
+|cant|p2a: Butterfree|partiallytrapped
+|
+|turn|52
+|c|★hfeath|rinse and repeat
+|
+|move|p1a: Dragonite|Wrap|p2a: Butterfree
+|-damage|p2a: Butterfree|245\/279
+|cant|p2a: Butterfree|partiallytrapped
+|
+|-end|p2a: Butterfree|Wrap|[partiallytrapped]
+|turn|53
+|c|★tjorfdc|no recharge turn? lol xd
+|
+|move|p1a: Dragonite|Wrap|p2a: Butterfree|[miss]
+|-miss|p1a: Dragonite
+|move|p2a: Butterfree|Stun Spore|p1a: Dragonite|[miss]
+|-miss|p2a: Butterfree
+|
+|turn|54
+|c|★tjorfdc|noooooo
+|
+|move|p1a: Dragonite|Wrap|p2a: Butterfree
+|-damage|p2a: Butterfree|226\/279
+|-activate|p2a: Butterfree|move: Wrap|[of] p1a: Dragonite
+|cant|p2a: Butterfree|partiallytrapped
+|
+|turn|55
+|
+|move|p1a: Dragonite|Wrap|p2a: Butterfree
+|-damage|p2a: Butterfree|207\/279
+|cant|p2a: Butterfree|partiallytrapped
+|
+|-end|p2a: Butterfree|Wrap|[partiallytrapped]
+|turn|56
+|c|★hfeath|no recharge if you KO
+|c|★tjorfdc|that's right i remember xd
+|
+|move|p1a: Dragonite|Wrap|p2a: Butterfree
+|-damage|p2a: Butterfree|189\/279
+|-activate|p2a: Butterfree|move: Wrap|[of] p1a: Dragonite
+|cant|p2a: Butterfree|partiallytrapped
+|
+|turn|57
+|
+|move|p1a: Dragonite|Wrap|p2a: Butterfree
+|-damage|p2a: Butterfree|171\/279
+|cant|p2a: Butterfree|partiallytrapped
+|
+|-end|p2a: Butterfree|Wrap|[partiallytrapped]
+|turn|58
+|
+|move|p1a: Dragonite|Hyper Beam|p2a: Butterfree|[miss]
+|-miss|p1a: Dragonite
+|move|p2a: Butterfree|Stun Spore|p1a: Dragonite
+|-status|p1a: Dragonite|par
+|
+|turn|59
+|c|★hfeath|god dayam ;P
+|
+|move|p2a: Butterfree|Psychic|p1a: Dragonite
+|-damage|p1a: Dragonite|79\/317 par
+|cant|p1a: Dragonite|par
+|
+|turn|60
+|
+|move|p2a: Butterfree|Psychic|p1a: Dragonite
+|-damage|p1a: Dragonite|25\/317 par
+|move|p1a: Dragonite|Hyper Beam|p2a: Butterfree
+|-damage|p2a: Butterfree|1\/279
+|
+|turn|61
+|c|★hfeath|:|
+|c|★tjorfdc|lol
+|c|★tjorfdc|xd
+|c|★tjorfdc|nice
+|
+|move|p2a: Butterfree|Psychic|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|c|★hfeath|killed by butterfree
+|c|★tjorfdc|ikr xd
+|
+|switch|p1a: Gyarados|Gyarados, L86|339\/339
+|turn|62
+|
+|move|p1a: Gyarados|Body Slam|p2a: Butterfree
+|-crit|p2a: Butterfree
+|-damage|p2a: Butterfree|0 fnt
+|faint|p2a: Butterfree
+|
+|switch|p2a: Electrode|Electrode, L86|279\/279
+|turn|63
+|
+|switch|p1a: Dugtrio|Dugtrio, L86|177\/236
+|move|p2a: Electrode|Screech|p1a: Dugtrio
+|-unboost|p1a: Dugtrio|def|2
+|
+|turn|64
+|
+|move|p2a: Electrode|Explosion|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|faint|p2a: Electrode
+|
+|switch|p2a: Raticate|Raticate, L86|270\/270
+|switch|p1a: Gyarados|Gyarados, L86|339\/339
+|turn|65
+|c|★hfeath|not baf
+|c|★hfeath|*bad
+|c|★hfeath|forget that electrode is physical too in this gen
+|
+|move|p2a: Raticate|Body Slam|p1a: Gyarados
+|-damage|p1a: Gyarados|244\/339
+|move|p1a: Gyarados|Body Slam|p2a: Raticate
+|-damage|p2a: Raticate|174\/270
+|
+|turn|66
+|c|★tjorfdc|either way it was my only option since dugtrio is immune to tbolt and twave, i knew you wouldn't stay in with gyarados
+|
+|move|p2a: Raticate|Body Slam|p1a: Gyarados
+|-damage|p1a: Gyarados|160\/339
+|move|p1a: Gyarados|Body Slam|p2a: Raticate
+|-damage|p2a: Raticate|83\/270
+|
+|turn|67
+|
+|move|p2a: Raticate|Hyper Beam|p1a: Gyarados
+|-crit|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|switch|p1a: Vileplume|Vileplume, L86|304\/304
+|turn|68
+|c|★hfeath|damn, the crit ratio in this
+|c|★tjorfdc|raticate wins to gyarados lol xd
+|
+|move|p2a: Raticate|Blizzard|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|202\/304
+|-status|p1a: Vileplume|frz
+|cant|p1a: Vileplume|frz
+|
+|turn|69
+|c|★hfeath|OH FUCK
+|c|★tjorfdc|woooow
+|c|★tjorfdc|xd
+|c|★hfeath|freeze is the worst in gen1
+|c|★hfeath|yeah gg x)
+|c|★tjorfdc|i  know xd
+|c|★tjorfdc|sorry
+|c|★tjorfdc|xd
+|c|★hfeath|make it quick :P
+|
+|move|p2a: Raticate|Hyper Beam|p1a: Vileplume
+|-damage|p1a: Vileplume|57\/304 frz
+|cant|p1a: Vileplume|frz
+|
+|turn|70
+|
+|cant|p2a: Raticate|recharge
+|cant|p1a: Vileplume|frz
+|
+|turn|71
+|
+|move|p2a: Raticate|Hyper Beam|p1a: Vileplume
+|-crit|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|faint|p1a: Vileplume
+|
+|win|tjorfdc
+|raw|Ladder updating...
+|c|★tjorfdc|gg bro
+|raw|hfeath's rating: 1045 &rarr; <strong>1026<\/strong><br \/>(-19 for losing)
+|raw|tjorfdc's rating: 1000 &rarr; <strong>1045<\/strong><br \/>(+45 for winning)
+|c|★hfeath|gg :D
+|leave|hfeath
+|player|p1

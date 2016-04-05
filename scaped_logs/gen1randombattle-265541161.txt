@@ -1,0 +1,263 @@
+﻿|join|optic gold
+|join|infamous seb
+|player|p1|optic gold|266
+|player|p2|infamous seb|101
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Doduo|Doduo, L96|262\/262
+|switch|p2a: Nidoran-M|Nidoran-M, L96|283\/283
+|turn|1
+|
+|switch|p1a: Lickitung|Lickitung, L90|345\/345
+|move|p2a: Nidoran-M|Body Slam|p1a: Lickitung
+|-damage|p1a: Lickitung|291\/345
+|
+|turn|2
+|
+|move|p2a: Nidoran-M|Leer|p1a: Lickitung
+|-unboost|p1a: Lickitung|def|1
+|move|p1a: Lickitung|Earthquake|p2a: Nidoran-M
+|-supereffective|p2a: Nidoran-M
+|-damage|p2a: Nidoran-M|127\/283
+|
+|turn|3
+|
+|switch|p2a: Aerodactyl|Aerodactyl, L90|327\/327
+|move|p1a: Lickitung|Earthquake|p2a: Aerodactyl
+|-immune|p2a: Aerodactyl|[msg]
+|
+|turn|4
+|
+|switch|p1a: Metapod|Metapod, L99|300\/300
+|move|p2a: Aerodactyl|Double-Edge|p1a: Metapod
+|-crit|p1a: Metapod
+|-damage|p1a: Metapod|106\/300
+|-damage|p2a: Aerodactyl|279\/327|[from] recoil|[of] p1a: Metapod
+|
+|turn|5
+|
+|move|p2a: Aerodactyl|Sky Attack|p1a: Metapod|[still]
+|-prepare|p2a: Aerodactyl|Sky Attack|p1a: Metapod
+|move|p1a: Metapod|String Shot|p2a: Aerodactyl
+|-unboost|p2a: Aerodactyl|spe|1
+|
+|turn|6
+|
+|move|p2a: Aerodactyl|Sky Attack|p1a: Metapod
+|-crit|p1a: Metapod
+|-supereffective|p1a: Metapod
+|-damage|p1a: Metapod|0 fnt
+|faint|p1a: Metapod
+|
+|switch|p1a: Nidoking|Nidoking, L85|311\/311
+|turn|7
+|
+|switch|p2a: Nidoran-M|Nidoran-M, L96|127\/283
+|move|p1a: Nidoking|Blizzard|p2a: Nidoran-M
+|-damage|p2a: Nidoran-M|33\/283
+|
+|turn|8
+|
+|move|p1a: Nidoking|Earthquake|p2a: Nidoran-M
+|-supereffective|p2a: Nidoran-M
+|-damage|p2a: Nidoran-M|0 fnt
+|faint|p2a: Nidoran-M
+|
+|switch|p2a: Golduck|Golduck, L85|310\/310
+|turn|9
+|
+|switch|p1a: Jolteon|Jolteon, L79|265\/265
+|move|p2a: Golduck|Surf|p1a: Jolteon
+|-damage|p1a: Jolteon|185\/265
+|
+|turn|10
+|
+|switch|p2a: Muk|Muk, L90|372\/372
+|move|p1a: Jolteon|Thunderbolt|p2a: Muk
+|-damage|p2a: Muk|267\/372
+|
+|turn|11
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Muk
+|-damage|p2a: Muk|155\/372
+|move|p2a: Muk|Body Slam|p1a: Jolteon
+|-damage|p1a: Jolteon|92\/265
+|
+|turn|12
+|
+|switch|p1a: Gengar|Gengar, L79|257\/257
+|move|p2a: Muk|Sludge|p1a: Gengar
+|-resisted|p1a: Gengar
+|-damage|p1a: Gengar|229\/257
+|
+|turn|13
+|
+|switch|p2a: Golduck|Golduck, L85|310\/310
+|move|p1a: Gengar|Thunderbolt|p2a: Golduck
+|-supereffective|p2a: Golduck
+|-damage|p2a: Golduck|156\/310
+|
+|turn|14
+|
+|move|p1a: Gengar|Thunderbolt|p2a: Golduck
+|-supereffective|p2a: Golduck
+|-damage|p2a: Golduck|12\/310
+|move|p2a: Golduck|Blizzard|p1a: Gengar
+|-damage|p1a: Gengar|161\/257
+|
+|turn|15
+|
+|move|p1a: Gengar|Thunderbolt|p2a: Golduck
+|-supereffective|p2a: Golduck
+|-damage|p2a: Golduck|0 fnt
+|faint|p2a: Golduck
+|
+|switch|p2a: Rapidash|Rapidash, L90|300\/300
+|turn|16
+|
+|move|p2a: Rapidash|Fire Blast|p1a: Gengar
+|-damage|p1a: Gengar|46\/257
+|-status|p1a: Gengar|brn
+|move|p1a: Gengar|Hypnosis|p2a: Rapidash
+|-status|p2a: Rapidash|slp
+|-damage|p1a: Gengar|30\/257 brn|[from] brn|[of] p2a: Rapidash
+|
+|turn|17
+|
+|switch|p1a: Nidoking|Nidoking, L85|311\/311
+|cant|p2a: Rapidash|slp
+|
+|turn|18
+|
+|switch|p2a: Aerodactyl|Aerodactyl, L90|279\/327
+|move|p1a: Nidoking|Blizzard|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|107\/327
+|
+|turn|19
+|
+|move|p2a: Aerodactyl|Sky Attack|p1a: Nidoking|[still]
+|-prepare|p2a: Aerodactyl|Sky Attack|p1a: Nidoking
+|move|p1a: Nidoking|Thunderbolt|p2a: Aerodactyl
+|-crit|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|faint|p2a: Aerodactyl
+|
+|switch|p2a: Mew|Mew, L74|300\/300
+|turn|20
+|
+|switch|p1a: Gengar|Gengar, L79|30\/257 brn
+|-damage|p1a: Gengar|14\/257 brn|[from] brn
+|move|p2a: Mew|Blizzard|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|switch|p1a: Jolteon|Jolteon, L79|92\/265
+|turn|21
+|
+|move|p1a: Jolteon|Pin Missile|p2a: Mew
+|-crit|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|269\/300
+|-damage|p2a: Mew|238\/300
+|-hitcount|p2a: Mew|2
+|move|p2a: Mew|Hyper Beam|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|switch|p1a: Lickitung|Lickitung, L90|291\/345
+|turn|22
+|
+|move|p2a: Mew|Thunder Wave|p1a: Lickitung
+|-status|p1a: Lickitung|par
+|cant|p1a: Lickitung|par
+|
+|turn|23
+|
+|switch|p2a: Rapidash|Rapidash, L90|300\/300 slp
+|cant|p1a: Lickitung|par
+|
+|turn|24
+|
+|-curestatus|p2a: Rapidash|slp
+|move|p1a: Lickitung|Earthquake|p2a: Rapidash
+|-supereffective|p2a: Rapidash
+|-damage|p2a: Rapidash|175\/300
+|
+|turn|25
+|
+|move|p2a: Rapidash|Fire Blast|p1a: Lickitung
+|-damage|p1a: Lickitung|136\/345 par
+|move|p1a: Lickitung|Earthquake|p2a: Rapidash
+|-supereffective|p2a: Rapidash
+|-damage|p2a: Rapidash|39\/300
+|
+|turn|26
+|
+|move|p2a: Rapidash|Fire Blast|p1a: Lickitung
+|-damage|p1a: Lickitung|0 fnt
+|faint|p1a: Lickitung
+|
+|switch|p1a: Doduo|Doduo, L96|262\/262
+|turn|27
+|
+|switch|p2a: Muk|Muk, L90|155\/372
+|move|p1a: Doduo|Drill Peck|p2a: Muk
+|-damage|p2a: Muk|51\/372
+|
+|turn|28
+|
+|move|p1a: Doduo|Drill Peck|p2a: Muk
+|-damage|p2a: Muk|0 fnt
+|faint|p2a: Muk
+|
+|switch|p2a: Mew|Mew, L74|238\/300
+|turn|29
+|
+|move|p1a: Doduo|Drill Peck|p2a: Mew
+|-damage|p2a: Mew|139\/300
+|move|p2a: Mew|Blizzard|p1a: Doduo
+|-supereffective|p1a: Doduo
+|-damage|p1a: Doduo|77\/262
+|
+|turn|30
+|
+|move|p1a: Doduo|Drill Peck|p2a: Mew
+|-damage|p2a: Mew|39\/300
+|move|p2a: Mew|Hyper Beam|p1a: Doduo
+|-crit|p1a: Doduo
+|-damage|p1a: Doduo|0 fnt
+|faint|p1a: Doduo
+|
+|switch|p1a: Nidoking|Nidoking, L85|311\/311
+|turn|31
+|
+|move|p1a: Nidoking|Earthquake|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|c|★optic gold|gg
+|
+|switch|p2a: Rapidash|Rapidash, L90|39\/300
+|turn|32
+|
+|move|p2a: Rapidash|Fire Blast|p1a: Nidoking|[miss]
+|-miss|p2a: Rapidash
+|move|p1a: Nidoking|Earthquake|p2a: Rapidash
+|-supereffective|p2a: Rapidash
+|-damage|p2a: Rapidash|0 fnt
+|faint|p2a: Rapidash
+|
+|win|optic gold
+|c|★infamous seb|gg
+|raw|optic gold's rating: 1249 &rarr; <strong>1263<\/strong><br \/>(+14 for winning)
+|raw|infamous seb's rating: 1078 &rarr; <strong>1067<\/strong><br \/>(-11 for losing)
+|leave|infamous seb
+|player|p2

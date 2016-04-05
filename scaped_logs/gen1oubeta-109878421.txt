@@ -1,0 +1,318 @@
+﻿|join|kid gf lol
+|join|DavidXanatos
+|player|p1|kid gf lol|168
+|player|p2|DavidXanatos|291
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|switch|p1a: TNT|Gengar|323\/323
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|turn|1
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: TNT|Hypnosis|p2a: Chansey
+|-status|p2a: Chansey|slp
+|
+|turn|2
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: TNT|Hypnosis|p2a: Exeggutor
+|-message|Sleep Clause Mod activated.
+|
+|turn|3
+|
+|move|p1a: TNT|Explosion|p2a: Exeggutor
+|-damage|p2a: Exeggutor|149\/393
+|faint|p1a: TNT
+|join|PKMN Trainér N
+|
+|switch|p1a: Racist Joker|Jynx|333\/333
+|turn|4
+|
+|switch|p2a: Lapras|Lapras|463\/463
+|move|p1a: Racist Joker|Blizzard|p2a: Lapras
+|-resisted|p2a: Lapras
+|-damage|p2a: Lapras|428\/463
+|
+|turn|5
+|join|Arhops
+|
+|move|p1a: Racist Joker|Reflect|p1a: Racist Joker
+|move|p2a: Lapras|Confuse Ray|p1a: Racist Joker
+|-start|p1a: Racist Joker|confusion
+|
+|turn|6
+|
+|switch|p1a: Egg Kangaroo|Chansey|703\/703
+|move|p2a: Lapras|Body Slam|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|524\/703
+|
+|turn|7
+|
+|move|p2a: Lapras|Confuse Ray|p1a: Egg Kangaroo
+|-start|p1a: Egg Kangaroo|confusion
+|-activate|p1a: Egg Kangaroo|confusion
+|-damage|p1a: Egg Kangaroo|490\/703|[from] confusion
+|
+|turn|8
+|leave|PKMN Trainér N
+|
+|switch|p1a: TNT|Golem|363\/363
+|move|p2a: Lapras|Body Slam|p1a: TNT
+|-resisted|p1a: TNT
+|-damage|p1a: TNT|338\/363
+|
+|turn|9
+|
+|switch|p1a: Racist Joker|Jynx|333\/333
+|move|p2a: Lapras|Blizzard|p1a: Racist Joker
+|-crit|p1a: Racist Joker
+|-resisted|p1a: Racist Joker
+|-damage|p1a: Racist Joker|197\/333
+|
+|turn|10
+|
+|move|p1a: Racist Joker|Psychic|p2a: Lapras
+|-damage|p2a: Lapras|318\/463
+|-unboost|p2a: Lapras|spd|1
+|-unboost|p2a: Lapras|spa|1
+|move|p2a: Lapras|Body Slam|p1a: Racist Joker
+|-damage|p1a: Racist Joker|100\/333
+|
+|turn|11
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Racist Joker|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|387\/523
+|-unboost|p2a: Snorlax|spd|1
+|-unboost|p2a: Snorlax|spa|1
+|
+|turn|12
+|
+|move|p1a: Racist Joker|Blizzard|p2a: Snorlax
+|-damage|p2a: Snorlax|99\/523
+|move|p2a: Snorlax|Body Slam|p1a: Racist Joker
+|-damage|p1a: Racist Joker|0 fnt
+|faint|p1a: Racist Joker
+|
+|leave|Arhops
+|join|L3G10N41R3
+|
+|switch|p1a: Egg Kangaroo|Chansey|490\/703
+|turn|13
+|
+|switch|p2a: Exeggutor|Exeggutor|149\/393
+|move|p1a: Egg Kangaroo|Thunderbolt|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|115\/393
+|
+|turn|14
+|join|Onown Player
+|
+|move|p2a: Exeggutor|Sleep Powder|p1a: Egg Kangaroo
+|-status|p1a: Egg Kangaroo|slp
+|cant|p1a: Egg Kangaroo|slp
+|
+|turn|15
+|
+|switch|p2a: Golem|Golem|363\/363
+|cant|p1a: Egg Kangaroo|slp
+|
+|turn|16
+|leave|Onown Player
+|
+|switch|p1a: Result Of Incest|Exeggutor|393\/393
+|move|p2a: Golem|Earthquake|p1a: Result Of Incest
+|-resisted|p1a: Result Of Incest
+|-damage|p1a: Result Of Incest|328\/393
+|
+|turn|17
+|
+|switch|p2a: Chansey|Chansey|703\/703 slp
+|move|p1a: Result Of Incest|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|580\/703 slp
+|
+|turn|18
+|
+|move|p1a: Result Of Incest|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|467\/703 slp
+|cant|p2a: Chansey|slp
+|
+|turn|19
+|
+|switch|p2a: Lapras|Lapras|318\/463
+|move|p1a: Result Of Incest|Psychic|p2a: Lapras
+|-damage|p2a: Lapras|185\/463
+|
+|turn|20
+|
+|move|p2a: Lapras|Blizzard|p1a: Result Of Incest
+|-supereffective|p1a: Result Of Incest
+|-damage|p1a: Result Of Incest|90\/393
+|move|p1a: Result Of Incest|Mega Drain|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|72\/463
+|-heal|p1a: Result Of Incest|147\/393|[from] drain|[of] p2a: Lapras
+|
+|turn|21
+|
+|move|p2a: Lapras|Blizzard|p1a: Result Of Incest
+|-supereffective|p1a: Result Of Incest
+|-damage|p1a: Result Of Incest|0 fnt
+|faint|p1a: Result Of Incest
+|
+|
+|switch|p1a: That's Bull|Tauros|353\/353
+|turn|22
+|
+|move|p1a: That's Bull|Body Slam|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|
+|
+|switch|p2a: Golem|Golem|363\/363
+|turn|23
+|
+|switch|p1a: TNT|Golem|338\/363
+|move|p2a: Golem|Earthquake|p1a: TNT
+|-supereffective|p1a: TNT
+|-damage|p1a: TNT|122\/363
+|
+|turn|24
+|
+|move|p2a: Golem|Earthquake|p1a: TNT
+|-crit|p1a: TNT
+|-supereffective|p1a: TNT
+|-damage|p1a: TNT|0 fnt
+|faint|p1a: TNT
+|
+|
+|switch|p1a: That's Bull|Tauros|353\/353
+|turn|25
+|
+|move|p1a: That's Bull|Blizzard|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|151\/363
+|-status|p2a: Golem|frz
+|cant|p2a: Golem|frz
+|
+|turn|26
+|
+|move|p1a: That's Bull|Body Slam|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|111\/363 frz
+|cant|p2a: Golem|frz
+|
+|turn|27
+|
+|switch|p1a: Egg Kangaroo|Chansey|490\/703 slp
+|cant|p2a: Golem|frz
+|
+|turn|28
+|
+|switch|p1a: That's Bull|Tauros|353\/353
+|switch|p2a: Tauros|Tauros|353\/353
+|
+|turn|29
+|
+|switch|p2a: Golem|Golem|111\/363 frz
+|move|p1a: That's Bull|Body Slam|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|67\/363 frz
+|
+|turn|30
+|
+|switch|p1a: Egg Kangaroo|Chansey|490\/703 slp
+|cant|p2a: Golem|frz
+|
+|turn|31
+|
+|switch|p1a: That's Bull|Tauros|353\/353
+|switch|p2a: Tauros|Tauros|353\/353
+|
+|turn|32
+|
+|switch|p2a: Golem|Golem|67\/363 frz
+|move|p1a: That's Bull|Body Slam|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|22\/363 frz
+|
+|turn|33
+|
+|move|p1a: That's Bull|Body Slam|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|34
+|
+|move|p1a: That's Bull|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|248\/353
+|-status|p2a: Tauros|par
+|cant|p2a: Tauros|par
+|
+|turn|35
+|
+|move|p1a: That's Bull|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|141\/353 par
+|move|p2a: Tauros|Body Slam|p1a: That's Bull
+|-damage|p1a: That's Bull|244\/353
+|
+|turn|36
+|
+|move|p1a: That's Bull|Hyper Beam|p2a: Tauros|[miss]
+|-miss|p1a: That's Bull
+|move|p2a: Tauros|Body Slam|p1a: That's Bull
+|-damage|p1a: That's Bull|141\/353
+|
+|turn|37
+|chat|kid gf lol|bs
+|
+|move|p1a: That's Bull|Hyper Beam|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|
+|switch|p2a: Exeggutor|Exeggutor|115\/393
+|turn|38
+|
+|switch|p2a: Chansey|Chansey|467\/703 slp
+|move|p1a: That's Bull|Hyper Beam|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|
+|switch|p2a: Exeggutor|Exeggutor|115\/393
+|turn|39
+|
+|move|p1a: That's Bull|Hyper Beam|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|
+|switch|p2a: Snorlax|Snorlax|99\/523
+|turn|40
+|
+|move|p1a: That's Bull|Body Slam|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|win|kid gf lol
+|raw|Ladder updating...
+|raw|kid gf lol's rating: 1382 &rarr; <strong>1403<\/strong><br \/>(+21 for winning)
+|raw|DavidXanatos's rating: 1404 &rarr; <strong>1383<\/strong><br \/>(-21 for losing)
+|leave|kid gf lol

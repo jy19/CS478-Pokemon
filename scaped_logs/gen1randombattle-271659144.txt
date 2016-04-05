@@ -1,0 +1,255 @@
+﻿|join|ElPsyCongroo90
+|join|Bananakarp101
+|player|p1|ElPsyCongroo90|162
+|player|p2|Bananakarp101|266
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Shellder|Shellder, L96|252\/252
+|switch|p2a: Raichu|Raichu, L85|276\/276
+|turn|1
+|
+|move|p2a: Raichu|Surf|p1a: Shellder
+|-resisted|p1a: Shellder
+|-damage|p1a: Shellder|208\/252
+|move|p1a: Shellder|Blizzard|p2a: Raichu
+|-crit|p2a: Raichu
+|-damage|p2a: Raichu|134\/276
+|
+|turn|2
+|
+|move|p2a: Raichu|Thunderbolt|p1a: Shellder
+|-supereffective|p1a: Shellder
+|-damage|p1a: Shellder|0 fnt
+|faint|p1a: Shellder
+|
+|switch|p1a: Nidorino|Nidorino, L90|293\/293
+|turn|3
+|
+|move|p2a: Raichu|Thunder Wave|p1a: Nidorino
+|-status|p1a: Nidorino|par
+|move|p1a: Nidorino|Body Slam|p2a: Raichu
+|-damage|p2a: Raichu|65\/276
+|
+|turn|4
+|
+|move|p2a: Raichu|Hyper Beam|p1a: Nidorino
+|-damage|p1a: Nidorino|172\/293 par
+|cant|p1a: Nidorino|par
+|
+|turn|5
+|-mustrecharge|p2a: Raichu
+|-mustrecharge|p2a: Raichu
+|
+|cant|p2a: Raichu|recharge
+|move|p1a: Nidorino|Body Slam|p2a: Raichu
+|-damage|p2a: Raichu|0 fnt
+|faint|p2a: Raichu
+|
+|switch|p2a: Porygon|Porygon, L85|284\/284
+|turn|6
+|
+|move|p2a: Porygon|Blizzard|p1a: Nidorino
+|-damage|p1a: Nidorino|79\/293 par
+|move|p1a: Nidorino|Body Slam|p2a: Porygon
+|-damage|p2a: Porygon|220\/284
+|
+|turn|7
+|
+|move|p2a: Porygon|Blizzard|p1a: Nidorino
+|-damage|p1a: Nidorino|0 fnt
+|faint|p1a: Nidorino
+|
+|switch|p1a: Charmeleon|Charmeleon, L85|272\/272
+|turn|8
+|
+|move|p1a: Charmeleon|Fire Blast|p2a: Porygon
+|-damage|p2a: Porygon|102\/284
+|move|p2a: Porygon|Thunder Wave|p1a: Charmeleon
+|-status|p1a: Charmeleon|par
+|
+|turn|9
+|
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|244\/284
+|move|p1a: Charmeleon|Fire Blast|p2a: Porygon
+|-damage|p2a: Porygon|136\/284
+|
+|turn|10
+|
+|move|p2a: Porygon|Blizzard|p1a: Charmeleon
+|-damage|p1a: Charmeleon|180\/272 par
+|cant|p1a: Charmeleon|par
+|
+|turn|11
+|
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|278\/284
+|move|p1a: Charmeleon|Fire Blast|p2a: Porygon
+|-damage|p2a: Porygon|160\/284
+|
+|turn|12
+|
+|move|p2a: Porygon|Blizzard|p1a: Charmeleon
+|-damage|p1a: Charmeleon|96\/272 par
+|move|p1a: Charmeleon|Fire Blast|p2a: Porygon
+|-damage|p2a: Porygon|41\/284
+|
+|turn|13
+|
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|183\/284
+|move|p1a: Charmeleon|Fire Blast|p2a: Porygon|[miss]
+|-miss|p1a: Charmeleon
+|
+|turn|14
+|
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|284\/284
+|move|p1a: Charmeleon|Fire Blast|p2a: Porygon
+|-damage|p2a: Porygon|172\/284
+|
+|turn|15
+|
+|move|p2a: Porygon|Blizzard|p1a: Charmeleon
+|-damage|p1a: Charmeleon|12\/272 par
+|move|p1a: Charmeleon|Fire Blast|p2a: Porygon
+|-damage|p2a: Porygon|67\/284
+|
+|turn|16
+|
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|209\/284
+|move|p1a: Charmeleon|Fire Blast|p2a: Porygon
+|-damage|p2a: Porygon|94\/284
+|-status|p2a: Porygon|brn
+|
+|turn|17
+|
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|236\/284 brn
+|-damage|p2a: Porygon|219\/284 brn|[from] brn
+|move|p1a: Charmeleon|Submission|p2a: Porygon|[miss]
+|-miss|p1a: Charmeleon
+|
+|turn|18
+|
+|move|p2a: Porygon|Blizzard|p1a: Charmeleon
+|-damage|p1a: Charmeleon|0 fnt
+|faint|p1a: Charmeleon
+|
+|switch|p1a: Sandshrew|Sandshrew, L96|291\/291
+|turn|19
+|
+|move|p1a: Sandshrew|Earthquake|p2a: Porygon
+|-damage|p2a: Porygon|98\/284 brn
+|move|p2a: Porygon|Thunder Wave|p1a: Sandshrew
+|-immune|p1a: Sandshrew|[msg]
+|-damage|p2a: Porygon|81\/284 brn|[from] brn|[of] p1a: Sandshrew
+|
+|turn|20
+|
+|move|p1a: Sandshrew|Earthquake|p2a: Porygon
+|-damage|p2a: Porygon|0 fnt
+|faint|p2a: Porygon
+|
+|switch|p2a: Machamp|Machamp, L90|345\/345
+|turn|21
+|
+|move|p2a: Machamp|Submission|p1a: Sandshrew
+|-damage|p1a: Sandshrew|189\/291
+|-damage|p2a: Machamp|320\/345|[from] recoil|[of] p1a: Sandshrew
+|move|p1a: Sandshrew|Earthquake|p2a: Machamp
+|-damage|p2a: Machamp|211\/345
+|
+|turn|22
+|
+|move|p2a: Machamp|Submission|p1a: Sandshrew
+|-crit|p1a: Sandshrew
+|-damage|p1a: Sandshrew|0 fnt
+|-damage|p2a: Machamp|164\/345|[from] recoil|[of] p1a: Sandshrew
+|faint|p1a: Sandshrew
+|
+|switch|p1a: Pinsir|Pinsir, L85|284\/284
+|turn|23
+|c|★Bananakarp101|Dat crit
+|
+|move|p1a: Pinsir|Swords Dance|p1a: Pinsir
+|-boost|p1a: Pinsir|atk|2
+|move|p2a: Machamp|Submission|p1a: Pinsir
+|-resisted|p1a: Pinsir
+|-damage|p1a: Pinsir|227\/284
+|-damage|p2a: Machamp|150\/345|[from] recoil|[of] p1a: Pinsir
+|
+|turn|24
+|
+|move|p1a: Pinsir|Body Slam|p2a: Machamp
+|-damage|p2a: Machamp|0 fnt
+|faint|p2a: Machamp
+|
+|switch|p2a: Wigglytuff|Wigglytuff, L90|435\/435
+|turn|25
+|
+|move|p1a: Pinsir|Body Slam|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|238\/435
+|move|p2a: Wigglytuff|Blizzard|p1a: Pinsir|[miss]
+|-miss|p2a: Wigglytuff
+|
+|turn|26
+|
+|move|p1a: Pinsir|Hyper Beam|p2a: Wigglytuff|[miss]
+|-miss|p1a: Pinsir
+|move|p2a: Wigglytuff|Blizzard|p1a: Pinsir
+|-damage|p1a: Pinsir|148\/284
+|
+|turn|27
+|
+|move|p1a: Pinsir|Hyper Beam|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|0 fnt
+|faint|p2a: Wigglytuff
+|
+|switch|p2a: Vaporeon|Vaporeon, L85|395\/395
+|turn|28
+|
+|move|p1a: Pinsir|Body Slam|p2a: Vaporeon
+|-damage|p2a: Vaporeon|203\/395
+|move|p2a: Vaporeon|Blizzard|p1a: Pinsir
+|-damage|p1a: Pinsir|25\/284
+|
+|turn|29
+|
+|move|p1a: Pinsir|Hyper Beam|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|faint|p2a: Vaporeon
+|
+|switch|p2a: Charizard|Charizard, L85|306\/306
+|turn|30
+|c|★Bananakarp101|Char
+|
+|move|p2a: Charizard|Fire Blast|p1a: Pinsir|[miss]
+|-miss|p2a: Charizard
+|move|p1a: Pinsir|Hyper Beam|p2a: Charizard|[miss]
+|-miss|p1a: Pinsir
+|
+|turn|31
+|
+|move|p2a: Charizard|Body Slam|p1a: Pinsir
+|-damage|p1a: Pinsir|0 fnt
+|faint|p1a: Pinsir
+|-message|ElPsyCongroo90 forfeited.
+|
+|win|Bananakarp101
+|leave|ElPsyCongroo90
+|player|p1
+|raw|ElPsyCongroo90's rating: 1210 &rarr; <strong>1172<\/strong><br \/>(-38 for losing)
+|raw|Bananakarp101's rating: 1000 &rarr; <strong>1062<\/strong><br \/>(+62 for winning)
+|c|★Bananakarp101|Yeeeeeeeeeeeeeeeeessssssssss
+|c|★Bananakarp101|gggggggg
+|c|★Bananakarp101|Gg
+|c|★Bananakarp101|GG

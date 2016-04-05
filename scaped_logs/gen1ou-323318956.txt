@@ -1,0 +1,204 @@
+﻿|j|howiam
+|j|nsuet
+|player|p1|howiam|238
+|player|p2|nsuet|170
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|seed|5288,1202,46635,2500
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Electrode|Electrode|323\/323
+|turn|1
+|choice|move 2|move 2
+|
+|move|p2a: Electrode|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|move|p1a: Alakazam|Thunder Wave|p2a: Electrode
+|-status|p2a: Electrode|par
+|
+|turn|2
+|choice|move 1|move 1
+|
+|move|p2a: Electrode|Thunder|p1a: Alakazam
+|-damage|p1a: Alakazam|208\/313 par
+|move|p1a: Alakazam|Psychic|p2a: Electrode
+|-crit|p2a: Electrode
+|-damage|p2a: Electrode|42\/323 par
+|
+|turn|3
+|choice|move 1|move 1
+|
+|cant|p2a: Electrode|par
+|move|p1a: Alakazam|Psychic|p2a: Electrode
+|-damage|p2a: Electrode|0 fnt
+|faint|p2a: Electrode
+|choice||switch 5
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|turn|4
+|choice|move 2|move 1
+|
+|move|p2a: Exeggutor|Leech Seed|p1a: Alakazam
+|-start|p1a: Alakazam|move: Leech Seed
+|move|p1a: Alakazam|Thunder Wave|p2a: Exeggutor
+|-status|p2a: Exeggutor|par
+|-damage|p1a: Alakazam|189\/313 par|[from] Leech Seed|[of] p2a: Exeggutor
+|
+|turn|5
+|choice|move 1|move 4
+|
+|cant|p1a: Alakazam|par
+|-damage|p1a: Alakazam|170\/313 par|[from] Leech Seed|[of] p2a: Exeggutor
+|move|p2a: Exeggutor|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|121\/313 par
+|-unboost|p1a: Alakazam|spd|1
+|-unboost|p1a: Alakazam|spa|1
+|
+|turn|6
+|choice|move 3|move 4
+|
+|move|p2a: Exeggutor|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|44\/313 par
+|-unboost|p1a: Alakazam|spd|1
+|-unboost|p1a: Alakazam|spa|1
+|cant|p1a: Alakazam|par
+|-damage|p1a: Alakazam|25\/313 par|[from] Leech Seed|[of] p2a: Exeggutor
+|
+|turn|7
+|choice|move 3|move 4
+|
+|move|p2a: Exeggutor|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|choice|switch 2|
+|
+|switch|p1a: Zapdos|Zapdos|383\/383
+|turn|8
+|choice|move 2|switch 3
+|
+|switch|p2a: Jynx|Jynx|333\/333
+|move|p1a: Zapdos|Drill Peck|p2a: Jynx
+|-damage|p2a: Jynx|171\/333
+|
+|turn|9
+|choice|move 1|move 3
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Jynx
+|-crit|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|choice||switch 3
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393 par
+|turn|10
+|choice|move 2|move 2
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|189\/393 par
+|cant|p2a: Exeggutor|par
+|
+|turn|11
+|choice|move 2|move 3
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|choice||switch 6
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|12
+|choice|move 3|move 2
+|
+|move|p2a: Gengar|Hypnosis|p1a: Zapdos|[miss]
+|-miss|p2a: Gengar
+|move|p1a: Zapdos|Thunder Wave|p2a: Gengar
+|-status|p2a: Gengar|par
+|
+|turn|13
+|choice|move 1|move 2
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Gengar
+|-crit|p2a: Gengar
+|-damage|p2a: Gengar|97\/323 par
+|move|p2a: Gengar|Hypnosis|p1a: Zapdos|[miss]
+|-miss|p2a: Gengar
+|
+|turn|14
+|choice|move 1|move 2
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Gengar
+|-crit|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|choice||switch 4
+|
+|switch|p2a: Arcanine|Arcanine|383\/383
+|turn|15
+|choice|move 1|move 1
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Arcanine
+|-damage|p2a: Arcanine|240\/383
+|move|p2a: Arcanine|Fire Blast|p1a: Zapdos
+|-damage|p1a: Zapdos|285\/383
+|
+|turn|16
+|choice|move 1|move 1
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Arcanine
+|-damage|p2a: Arcanine|84\/383
+|move|p2a: Arcanine|Fire Blast|p1a: Zapdos|[miss]
+|-miss|p2a: Arcanine
+|
+|turn|17
+|choice|move 1|move 1
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Arcanine
+|-crit|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|choice||switch 2
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|turn|18
+|c|★nsuet|crap
+|choice|move 1|move 4
+|
+|move|p2a: Starmie|Blizzard|p1a: Zapdos|[miss]
+|-miss|p2a: Starmie
+|move|p1a: Zapdos|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|46\/323
+|-status|p2a: Starmie|par
+|
+|turn|19
+|c|★howiam|I've been lucky
+|c|★nsuet|yup
+|choice|move 1|move 4
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|win|howiam
+|player|p1
+|player|p2
+|raw|howiam's rating: 1089 &rarr; <strong>1109<\/strong><br \/>(+20 for winning)
+|raw|nsuet's rating: 1000 &rarr; <strong>1000<\/strong><br \/>(+0 for losing)
+|c|★howiam|gg
+|c|★nsuet|gg
+|l|nsuet

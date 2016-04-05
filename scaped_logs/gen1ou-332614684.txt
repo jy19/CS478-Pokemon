@@ -1,0 +1,141 @@
+﻿|j|punchguy
+|j|Mista Jay
+|player|p1|punchguy|163
+|player|p2|Mista Jay|101
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|seed|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Hype|Charizard|100\/100
+|switch|p2a: Starmie|Starmie|100\/100
+|turn|1
+|choice||
+|
+|move|p2a: Starmie|Thunder Wave|p1a: Hype
+|-status|p1a: Hype|par
+|move|p1a: Hype|Slash|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|68\/100
+|
+|turn|2
+|choice||
+|
+|move|p2a: Starmie|Blizzard|p1a: Hype
+|-supereffective|p1a: Hype
+|-damage|p1a: Hype|47\/100 par
+|move|p1a: Hype|Slash|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|37\/100
+|
+|turn|3
+|choice||
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|87\/100
+|move|p1a: Hype|Slash|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|54\/100
+|
+|turn|4
+|choice||
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|100\/100
+|cant|p1a: Hype|par
+|
+|turn|5
+|choice||
+|
+|move|p2a: Starmie|Blizzard|p1a: Hype
+|-supereffective|p1a: Hype
+|-damage|p1a: Hype|0 fnt
+|faint|p1a: Hype
+|choice||
+|
+|switch|p1a: Bzz bzz|Electrode|100\/100
+|turn|6
+|choice||
+|
+|switch|p2a: Snorlax|Snorlax|100\/100
+|move|p1a: Bzz bzz|Thunderbolt|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|53\/100
+|
+|turn|7
+|choice||
+|
+|switch|p1a: Toro|Tauros|100\/100
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|
+|turn|8
+|choice||
+|
+|move|p1a: Toro|Stomp|p2a: Snorlax
+|-damage|p2a: Snorlax|35\/100
+|move|p2a: Snorlax|Reflect|p2a: Snorlax
+|-start|p2a: Snorlax|Reflect
+|
+|turn|9
+|choice||
+|
+|move|p1a: Toro|Stomp|p2a: Snorlax
+|-damage|p2a: Snorlax|25\/100
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp
+|-heal|p2a: Snorlax|100\/100 slp|[silent]
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|
+|turn|10
+|choice||
+|
+|move|p1a: Toro|Stomp|p2a: Snorlax
+|-damage|p2a: Snorlax|91\/100 slp
+|cant|p2a: Snorlax|slp
+|
+|turn|11
+|choice||
+|
+|switch|p1a: Bahamut|Aerodactyl|100\/100
+|-curestatus|p2a: Snorlax|slp
+|
+|turn|12
+|c|★Mista Jay|weird team you got there
+|choice||
+|
+|move|p1a: Bahamut|Mimic|p2a: Snorlax
+|-start|p1a: Bahamut|Mimic|Amnesia
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|
+|turn|13
+|choice||
+|
+|move|p1a: Bahamut|Dragon Rage|p2a: Snorlax
+|-damage|p2a: Snorlax|84\/100
+|move|p2a: Snorlax|Psychic|p1a: Bahamut
+|-damage|p1a: Bahamut|43\/100
+|
+|turn|14
+|-message|punchguy forfeited.
+|
+|win|Mista Jay
+|player|p1
+|player|p2
+|l|punchguy
+|raw|punchguy's rating: 1041 &rarr; <strong>1035<\/strong><br \/>(-6 for losing)
+|raw|Mista Jay's rating: 1317 &rarr; <strong>1324<\/strong><br \/>(+7 for winning)
+|l|Mista Jay
+|j|lollerheil
+|c| lollerheil|Stomp :')

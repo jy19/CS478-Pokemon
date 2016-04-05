@@ -1,0 +1,289 @@
+﻿|join|XianJu
+|join|MG13
+|player|p1|XianJu|130
+|player|p2|MG13|126
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|57000,52532,41369,32306
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Hypno|Hypno, L85|318\/318
+|switch|p2a: Mankey|Mankey, L96|272\/272
+|turn|1
+|choice|move 1|move Body Slam
+|
+|move|p2a: Mankey|Body Slam|p1a: Hypno
+|-damage|p1a: Hypno|241\/318
+|-status|p1a: Hypno|par
+|move|p1a: Hypno|Psychic|p2a: Mankey
+|-supereffective|p2a: Mankey
+|-damage|p2a: Mankey|0 fnt
+|faint|p2a: Mankey
+|choice||switch 3
+|
+|switch|p2a: Rapidash|Rapidash, L90|300\/300
+|turn|2
+|choice|move 2|move Hyper Beam
+|
+|move|p2a: Rapidash|Hyper Beam|p1a: Hypno
+|-damage|p1a: Hypno|103\/318 par
+|move|p1a: Hypno|Hypnosis|p2a: Rapidash
+|-status|p2a: Rapidash|slp
+|
+|turn|3
+|-mustrecharge|p2a: Rapidash
+|-mustrecharge|p2a: Rapidash
+|choice|move 1|move Recharge
+|
+|cant|p2a: Rapidash|recharge
+|cant|p1a: Hypno|par
+|
+|turn|4
+|choice|move 1|move Fire Blast
+|
+|cant|p2a: Rapidash|slp
+|cant|p1a: Hypno|par
+|
+|turn|5
+|choice|move 1|move Fire Blast
+|
+|cant|p2a: Rapidash|slp
+|cant|p1a: Hypno|par
+|
+|turn|6
+|choice|move 1|move Fire Blast
+|
+|cant|p2a: Rapidash|slp
+|move|p1a: Hypno|Psychic|p2a: Rapidash
+|-damage|p2a: Rapidash|189\/300 slp
+|-unboost|p2a: Rapidash|spd|1
+|-unboost|p2a: Rapidash|spa|1
+|
+|turn|7
+|choice|move 1|move Fire Blast
+|
+|cant|p2a: Rapidash|slp
+|move|p1a: Hypno|Psychic|p2a: Rapidash
+|-damage|p2a: Rapidash|30\/300 slp
+|
+|turn|8
+|choice|move 3|move Fire Blast
+|
+|cant|p2a: Rapidash|slp
+|move|p1a: Hypno|Rest|p1a: Hypno
+|-status|p1a: Hypno|slp
+|-heal|p1a: Hypno|318\/318 slp|[silent]
+|-status|p1a: Hypno|slp|[from] move: Rest
+|
+|turn|9
+|choice|move 1|move Fire Blast
+|
+|-curestatus|p2a: Rapidash|slp
+|cant|p1a: Hypno|slp
+|
+|turn|10
+|choice|switch 3|move Fire Blast
+|
+|switch|p1a: Aerodactyl|Aerodactyl, L90|327\/327
+|move|p2a: Rapidash|Fire Blast|p1a: Aerodactyl
+|-resisted|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|277\/327
+|
+|turn|11
+|choice|move 2|move Hyper Beam
+|
+|move|p1a: Aerodactyl|Double-Edge|p2a: Rapidash
+|-damage|p2a: Rapidash|0 fnt
+|-damage|p1a: Aerodactyl|270\/327|[from] recoil|[of] p2a: Rapidash
+|faint|p2a: Rapidash
+|choice||switch 5
+|
+|switch|p2a: Wartortle|Wartortle, L85|274\/274
+|turn|12
+|choice|move 2|move Hydro Pump
+|
+|move|p1a: Aerodactyl|Double-Edge|p2a: Wartortle
+|-damage|p2a: Wartortle|188\/274
+|-damage|p1a: Aerodactyl|249\/327|[from] recoil|[of] p2a: Wartortle
+|move|p2a: Wartortle|Hydro Pump|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|6\/327
+|
+|turn|13
+|choice|switch 6|move Hydro Pump
+|
+|switch|p1a: Nidorina|Nidorina, L90|309\/309
+|move|p2a: Wartortle|Hydro Pump|p1a: Nidorina
+|-damage|p1a: Nidorina|179\/309
+|
+|turn|14
+|choice|move 4|switch 4
+|
+|switch|p2a: Machoke|Machoke, L85|310\/310
+|move|p1a: Nidorina|Thunderbolt|p2a: Machoke
+|-damage|p2a: Machoke|235\/310
+|
+|turn|15
+|choice|move 3|move Mega Kick
+|
+|move|p1a: Nidorina|Double-Edge|p2a: Machoke
+|-damage|p2a: Machoke|164\/310
+|-damage|p1a: Nidorina|162\/309|[from] recoil|[of] p2a: Machoke
+|move|p2a: Machoke|Mega Kick|p1a: Nidorina
+|-damage|p1a: Nidorina|62\/309
+|
+|turn|16
+|choice|move 3|move Double-Edge
+|
+|move|p1a: Nidorina|Double-Edge|p2a: Machoke
+|-damage|p2a: Machoke|96\/310
+|-damage|p1a: Nidorina|45\/309|[from] recoil|[of] p2a: Machoke
+|move|p2a: Machoke|Double-Edge|p1a: Nidorina
+|-damage|p1a: Nidorina|0 fnt
+|-damage|p2a: Machoke|85\/310|[from] recoil|[of] p1a: Nidorina
+|faint|p1a: Nidorina
+|choice|switch 6|
+|
+|switch|p1a: Aerodactyl|Aerodactyl, L90|6\/327
+|turn|17
+|choice|move 1|move Double-Edge
+|
+|move|p1a: Aerodactyl|Hyper Beam|p2a: Machoke|[miss]
+|-miss|p1a: Aerodactyl
+|move|p2a: Machoke|Double-Edge|p1a: Aerodactyl
+|-resisted|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|0 fnt
+|-damage|p2a: Machoke|84\/310|[from] recoil|[of] p1a: Aerodactyl
+|faint|p1a: Aerodactyl
+|choice|switch 2|
+|
+|switch|p1a: Charmeleon|Charmeleon, L85|272\/272
+|turn|18
+|choice|move 1|move Rock Slide
+|
+|move|p1a: Charmeleon|Body Slam|p2a: Machoke
+|-damage|p2a: Machoke|28\/310
+|move|p2a: Machoke|Rock Slide|p1a: Charmeleon
+|-supereffective|p1a: Charmeleon
+|-damage|p1a: Charmeleon|120\/272
+|
+|turn|19
+|choice|move 1|move Rock Slide
+|
+|move|p1a: Charmeleon|Body Slam|p2a: Machoke
+|-damage|p2a: Machoke|0 fnt
+|faint|p2a: Machoke
+|choice||switch 6
+|
+|switch|p2a: Persian|Persian, L79|265\/265
+|turn|20
+|choice|switch 5|move Bubble Beam
+|
+|switch|p1a: Persian|Persian, L79|265\/265
+|move|p2a: Persian|Bubble Beam|p1a: Persian
+|-damage|p1a: Persian|227\/265
+|
+|turn|21
+|choice|move 2|move Slash
+|
+|move|p1a: Persian|Body Slam|p2a: Persian
+|-crit|p2a: Persian
+|-damage|p2a: Persian|86\/265
+|move|p2a: Persian|Slash|p1a: Persian
+|-crit|p1a: Persian
+|-damage|p1a: Persian|98\/265
+|
+|turn|22
+|choice|move 1|move Hyper Beam
+|
+|move|p1a: Persian|Slash|p2a: Persian
+|-crit|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|faint|p2a: Persian
+|choice||switch 2
+|
+|switch|p2a: Charmeleon|Charmeleon, L85|272\/272
+|turn|23
+|choice|move 2|move Submission
+|
+|move|p1a: Persian|Body Slam|p2a: Charmeleon
+|-damage|p2a: Charmeleon|192\/272
+|move|p2a: Charmeleon|Submission|p1a: Persian|[miss]
+|-miss|p2a: Charmeleon
+|
+|turn|24
+|choice|move 2|move Submission
+|
+|move|p1a: Persian|Body Slam|p2a: Charmeleon
+|-damage|p2a: Charmeleon|116\/272
+|move|p2a: Charmeleon|Submission|p1a: Persian
+|-supereffective|p1a: Persian
+|-damage|p1a: Persian|0 fnt
+|-damage|p2a: Charmeleon|92\/272|[from] recoil|[of] p1a: Persian
+|faint|p1a: Persian
+|choice|switch 5|
+|
+|switch|p1a: Charmeleon|Charmeleon, L85|120\/272
+|turn|25
+|choice|move 1|move Substitute
+|
+|move|p2a: Charmeleon|Substitute|p2a: Charmeleon
+|-start|p2a: Charmeleon|Substitute
+|-damage|p2a: Charmeleon|24\/272
+|move|p1a: Charmeleon|Body Slam|p2a: Charmeleon
+|-activate|p2a: Charmeleon|Substitute|[damage]
+|
+|turn|26
+|choice|move 1|move Body Slam
+|
+|move|p1a: Charmeleon|Body Slam|p2a: Charmeleon
+|-end|p2a: Charmeleon|Substitute
+|move|p2a: Charmeleon|Body Slam|p1a: Charmeleon
+|-crit|p1a: Charmeleon
+|-damage|p1a: Charmeleon|0 fnt
+|faint|p1a: Charmeleon
+|choice|switch 3|
+|
+|switch|p1a: Hypno|Hypno, L85|318\/318 slp
+|turn|27
+|choice|move 1|move Swords Dance
+|
+|move|p2a: Charmeleon|Swords Dance|p2a: Charmeleon
+|-boost|p2a: Charmeleon|atk|2
+|-curestatus|p1a: Hypno|slp
+|
+|turn|28
+|choice|move 1|move Body Slam
+|
+|move|p2a: Charmeleon|Body Slam|p1a: Hypno
+|-damage|p1a: Hypno|215\/318
+|move|p1a: Hypno|Psychic|p2a: Charmeleon
+|-damage|p2a: Charmeleon|0 fnt
+|faint|p2a: Charmeleon
+|choice||switch 4
+|
+|switch|p2a: Wartortle|Wartortle, L85|188\/274
+|turn|29
+|choice|move 1|move Hydro Pump
+|
+|move|p1a: Hypno|Psychic|p2a: Wartortle
+|-damage|p2a: Wartortle|50\/274
+|-unboost|p2a: Wartortle|spd|1
+|-unboost|p2a: Wartortle|spa|1
+|move|p2a: Wartortle|Hydro Pump|p1a: Hypno
+|-damage|p1a: Hypno|157\/318
+|
+|turn|30
+|-message|MG13 forfeited.
+|leave|MG13
+|
+|win|XianJu
+|player|p2
+|raw|XianJu's rating: 1138 &rarr; <strong>1154<\/strong><br \/>(+16 for winning)
+|raw|MG13's rating: 1000 &rarr; <strong>1000<\/strong><br \/>(+0 for losing)
+|c|★XianJu|oh well yet again, did you not say youre gonna win next time

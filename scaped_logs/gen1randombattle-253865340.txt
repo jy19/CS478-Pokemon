@@ -1,0 +1,260 @@
+﻿|join|eldougi
+|join|BottenAnna
+|player|p1|eldougi|2
+|player|p2|BottenAnna|102
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Beedrill|Beedrill, L90|300\/300
+|switch|p2a: Hypno|Hypno, L85|318\/318
+|turn|1
+|
+|switch|p1a: Ditto|Ditto, L99|296\/296
+|move|p2a: Hypno|Psychic|p1a: Ditto
+|-damage|p1a: Ditto|160\/296
+|
+|turn|2
+|
+|move|p2a: Hypno|Psychic|p1a: Ditto
+|-damage|p1a: Ditto|23\/296
+|move|p1a: Ditto|Transform|p2a: Hypno
+|-transform|p1a: Ditto|p2a: Hypno
+|
+|turn|3
+|
+|move|p2a: Hypno|Psychic|p1a: Ditto
+|-resisted|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|
+|switch|p1a: Shellder|Shellder, L96|252\/252
+|turn|4
+|
+|move|p2a: Hypno|Hypnosis|p1a: Shellder|[miss]
+|-miss|p2a: Hypno
+|move|p1a: Shellder|Toxic|p2a: Hypno
+|-status|p2a: Hypno|tox
+|
+|turn|5
+|
+|move|p2a: Hypno|Hypnosis|p1a: Shellder
+|-status|p1a: Shellder|slp
+|-damage|p2a: Hypno|299\/318 tox|[from] tox|[of] p1a: Shellder
+|cant|p1a: Shellder|slp
+|
+|turn|6
+|
+|switch|p2a: Nidoqueen|Nidoqueen, L85|327\/327
+|switch|p1a: Mew|Mew, L74|300\/300
+|
+|turn|7
+|
+|move|p1a: Mew|Blizzard|p2a: Nidoqueen
+|-crit|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|27\/327
+|move|p2a: Nidoqueen|Thunder|p1a: Mew|[miss]
+|-miss|p2a: Nidoqueen
+|
+|turn|8
+|
+|move|p1a: Mew|Earthquake|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|0 fnt
+|faint|p2a: Nidoqueen
+|
+|switch|p2a: Articuno|Articuno, L79|304\/304
+|turn|9
+|
+|move|p1a: Mew|Blizzard|p2a: Articuno|[miss]
+|-miss|p1a: Mew
+|move|p2a: Articuno|Reflect|p2a: Articuno
+|-start|p2a: Articuno|Reflect
+|
+|turn|10
+|
+|move|p1a: Mew|Blizzard|p2a: Articuno|[miss]
+|-miss|p1a: Mew
+|move|p2a: Articuno|Ice Beam|p1a: Mew|[miss]
+|-miss|p2a: Articuno
+|
+|turn|11
+|
+|move|p1a: Mew|Blizzard|p2a: Articuno
+|-damage|p2a: Articuno|247\/304
+|move|p2a: Articuno|Ice Beam|p1a: Mew
+|-damage|p1a: Mew|183\/300
+|
+|turn|12
+|
+|move|p1a: Mew|Blizzard|p2a: Articuno
+|-damage|p2a: Articuno|195\/304
+|move|p2a: Articuno|Ice Beam|p1a: Mew
+|-damage|p1a: Mew|66\/300
+|
+|turn|13
+|
+|move|p1a: Mew|Hyper Beam|p2a: Articuno
+|-damage|p2a: Articuno|153\/304
+|move|p2a: Articuno|Ice Beam|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|switch|p1a: Gengar|Gengar, L79|257\/257
+|turn|14
+|
+|move|p1a: Gengar|Hypnosis|p2a: Articuno
+|-status|p2a: Articuno|slp
+|cant|p2a: Articuno|slp
+|
+|turn|15
+|
+|move|p1a: Gengar|Thunderbolt|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|38\/304 slp
+|cant|p2a: Articuno|slp
+|
+|turn|16
+|
+|move|p1a: Gengar|Psychic|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|faint|p2a: Articuno
+|
+|switch|p2a: Clefable|Clefable, L85|335\/335
+|turn|17
+|
+|move|p1a: Gengar|Hypnosis|p2a: Clefable|[miss]
+|-miss|p1a: Gengar
+|move|p2a: Clefable|Ice Beam|p1a: Gengar
+|-damage|p1a: Gengar|203\/257
+|
+|turn|18
+|
+|move|p1a: Gengar|Hypnosis|p2a: Clefable|[miss]
+|-miss|p1a: Gengar
+|move|p2a: Clefable|Thunder Wave|p1a: Gengar
+|-status|p1a: Gengar|par
+|
+|turn|19
+|
+|move|p2a: Clefable|Thunder|p1a: Gengar
+|-damage|p1a: Gengar|141\/257 par
+|move|p1a: Gengar|Psychic|p2a: Clefable
+|-damage|p2a: Clefable|270\/335
+|
+|turn|20
+|
+|move|p2a: Clefable|Ice Beam|p1a: Gengar
+|-damage|p1a: Gengar|93\/257 par
+|move|p1a: Gengar|Psychic|p2a: Clefable
+|-damage|p2a: Clefable|202\/335
+|
+|turn|21
+|
+|move|p2a: Clefable|Ice Beam|p1a: Gengar
+|-damage|p1a: Gengar|44\/257 par
+|move|p1a: Gengar|Psychic|p2a: Clefable
+|-damage|p2a: Clefable|130\/335
+|
+|turn|22
+|
+|move|p2a: Clefable|Ice Beam|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|switch|p1a: Shellder|Shellder, L96|252\/252 slp
+|turn|23
+|
+|move|p2a: Clefable|Thunder|p1a: Shellder
+|-supereffective|p1a: Shellder
+|-damage|p1a: Shellder|50\/252 slp
+|cant|p1a: Shellder|slp
+|
+|turn|24
+|
+|move|p2a: Clefable|Body Slam|p1a: Shellder
+|-damage|p1a: Shellder|0 fnt
+|faint|p1a: Shellder
+|
+|switch|p1a: Exeggcute|Exeggcute, L96|310\/310
+|turn|25
+|
+|move|p2a: Clefable|Ice Beam|p1a: Exeggcute
+|-supereffective|p1a: Exeggcute
+|-damage|p1a: Exeggcute|159\/310
+|move|p1a: Exeggcute|Psychic|p2a: Clefable
+|-damage|p2a: Clefable|35\/335
+|-unboost|p2a: Clefable|spd|1
+|-unboost|p2a: Clefable|spa|1
+|
+|turn|26
+|
+|move|p2a: Clefable|Ice Beam|p1a: Exeggcute
+|-supereffective|p1a: Exeggcute
+|-damage|p1a: Exeggcute|59\/310
+|move|p1a: Exeggcute|Psychic|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|switch|p2a: Chansey|Chansey, L79|557\/557
+|turn|27
+|
+|move|p1a: Exeggcute|Explosion|p2a: Chansey
+|-damage|p2a: Chansey|28\/557
+|faint|p1a: Exeggcute
+|
+|switch|p1a: Beedrill|Beedrill, L90|300\/300
+|turn|28
+|
+|move|p1a: Beedrill|Twineedle|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|-hitcount|p2a: Chansey|1
+|faint|p2a: Chansey
+|
+|switch|p2a: Dragonair|Dragonair, L85|277\/277
+|turn|29
+|
+|move|p1a: Beedrill|Swords Dance|p1a: Beedrill
+|-boost|p1a: Beedrill|atk|2
+|move|p2a: Dragonair|Thunderbolt|p1a: Beedrill
+|-damage|p1a: Beedrill|217\/300
+|
+|turn|30
+|
+|move|p1a: Beedrill|Swords Dance|p1a: Beedrill
+|-boost|p1a: Beedrill|atk|2
+|move|p2a: Dragonair|Hyper Beam|p1a: Beedrill
+|-damage|p1a: Beedrill|77\/300
+|
+|turn|31
+|-mustrecharge|p2a: Dragonair
+|-mustrecharge|p2a: Dragonair
+|
+|move|p1a: Beedrill|Swords Dance|p1a: Beedrill
+|-boost|p1a: Beedrill|atk|2
+|cant|p2a: Dragonair|recharge
+|
+|turn|32
+|
+|move|p1a: Beedrill|Hyper Beam|p2a: Dragonair
+|-damage|p2a: Dragonair|0 fnt
+|faint|p2a: Dragonair
+|
+|switch|p2a: Hypno|Hypno, L85|299\/318 tox
+|-status|p2a: Hypno|psn
+|turn|33
+|
+|move|p1a: Beedrill|Hyper Beam|p2a: Hypno
+|-damage|p2a: Hypno|0 fnt
+|faint|p2a: Hypno
+|
+|win|eldougi
+|raw|Ladder updating...
+|leave|BottenAnna
+|player|p2

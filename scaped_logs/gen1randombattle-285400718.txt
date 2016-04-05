@@ -1,0 +1,275 @@
+﻿|join|MALESANI
+|join|Such A Big Boy
+|player|p1|MALESANI|238
+|player|p2|Such A Big Boy|168
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Meowth|Meowth, L96|272\/272
+|switch|p2a: Pinsir|Pinsir, L85|284\/284
+|turn|1
+|
+|switch|p1a: Exeggutor|Exeggutor, L79|312\/312
+|move|p2a: Pinsir|Submission|p1a: Exeggutor|[miss]
+|-miss|p2a: Pinsir
+|
+|turn|2
+|
+|move|p2a: Pinsir|Hyper Beam|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-damage|p1a: Exeggutor|53\/312
+|move|p1a: Exeggutor|Stun Spore|p2a: Pinsir|[miss]
+|-miss|p1a: Exeggutor
+|
+|turn|3
+|-mustrecharge|p2a: Pinsir
+|-mustrecharge|p2a: Pinsir
+|
+|cant|p2a: Pinsir|recharge
+|move|p1a: Exeggutor|Psychic|p2a: Pinsir
+|-damage|p2a: Pinsir|146\/284
+|-unboost|p2a: Pinsir|spd|1
+|-unboost|p2a: Pinsir|spa|1
+|
+|turn|4
+|
+|move|p2a: Pinsir|Body Slam|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Poliwhirl|Poliwhirl, L85|284\/284
+|turn|5
+|
+|move|p1a: Poliwhirl|Hypnosis|p2a: Pinsir|[miss]
+|-miss|p1a: Poliwhirl
+|move|p2a: Pinsir|Body Slam|p1a: Poliwhirl
+|-damage|p1a: Poliwhirl|201\/284
+|
+|turn|6
+|
+|move|p1a: Poliwhirl|Hypnosis|p2a: Pinsir
+|-status|p2a: Pinsir|slp
+|-curestatus|p2a: Pinsir|slp
+|
+|turn|7
+|
+|move|p1a: Poliwhirl|Hypnosis|p2a: Pinsir
+|-status|p2a: Pinsir|slp
+|-curestatus|p2a: Pinsir|slp
+|
+|turn|8
+|
+|move|p1a: Poliwhirl|Hypnosis|p2a: Pinsir
+|-status|p2a: Pinsir|slp
+|-curestatus|p2a: Pinsir|slp
+|
+|turn|9
+|
+|move|p1a: Poliwhirl|Surf|p2a: Pinsir
+|-damage|p2a: Pinsir|8\/284
+|move|p2a: Pinsir|Body Slam|p1a: Poliwhirl
+|-damage|p1a: Poliwhirl|112\/284
+|
+|turn|10
+|
+|switch|p2a: Poliwhirl|Poliwhirl, L85|284\/284
+|move|p1a: Poliwhirl|Psychic|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|224\/284
+|
+|turn|11
+|
+|move|p1a: Poliwhirl|Hypnosis|p2a: Poliwhirl
+|-status|p2a: Poliwhirl|slp
+|cant|p2a: Poliwhirl|slp
+|
+|turn|12
+|
+|cant|p2a: Poliwhirl|slp
+|move|p1a: Poliwhirl|Amnesia|p1a: Poliwhirl
+|-boost|p1a: Poliwhirl|spd|2
+|-boost|p1a: Poliwhirl|spa|2
+|
+|turn|13
+|
+|switch|p2a: Butterfree|Butterfree, L90|291\/291
+|move|p1a: Poliwhirl|Amnesia|p1a: Poliwhirl
+|-boost|p1a: Poliwhirl|spd|2
+|-boost|p1a: Poliwhirl|spa|2
+|
+|turn|14
+|
+|move|p1a: Poliwhirl|Surf|p2a: Butterfree
+|-damage|p2a: Butterfree|79\/291
+|move|p2a: Butterfree|Sleep Powder|p1a: Poliwhirl
+|-status|p1a: Poliwhirl|slp
+|
+|turn|15
+|
+|switch|p1a: Meowth|Meowth, L96|272\/272
+|move|p2a: Butterfree|Mega Drain|p1a: Meowth
+|-damage|p1a: Meowth|232\/272
+|-heal|p2a: Butterfree|99\/291|[from] drain|[of] p1a: Meowth
+|
+|turn|16
+|
+|switch|p2a: Poliwhirl|Poliwhirl, L85|224\/284 slp
+|move|p1a: Meowth|Thunderbolt|p2a: Poliwhirl
+|-supereffective|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|89\/284 slp
+|
+|turn|17
+|
+|move|p1a: Meowth|Slash|p2a: Poliwhirl
+|-crit|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|0 fnt
+|faint|p2a: Poliwhirl
+|
+|switch|p2a: Growlithe|Growlithe, L96|300\/300
+|turn|18
+|
+|switch|p1a: Dragonair|Dragonair, L85|277\/277
+|move|p2a: Growlithe|Fire Blast|p1a: Dragonair
+|-resisted|p1a: Dragonair
+|-damage|p1a: Dragonair|219\/277
+|
+|turn|19
+|
+|move|p2a: Growlithe|Body Slam|p1a: Dragonair
+|-damage|p1a: Dragonair|143\/277
+|move|p1a: Dragonair|Surf|p2a: Growlithe
+|-supereffective|p2a: Growlithe
+|-damage|p2a: Growlithe|156\/300
+|
+|turn|20
+|
+|move|p2a: Growlithe|Body Slam|p1a: Dragonair
+|-crit|p1a: Dragonair
+|-damage|p1a: Dragonair|3\/277
+|move|p1a: Dragonair|Surf|p2a: Growlithe
+|-supereffective|p2a: Growlithe
+|-damage|p2a: Growlithe|28\/300
+|
+|turn|21
+|
+|move|p2a: Growlithe|Body Slam|p1a: Dragonair
+|-damage|p1a: Dragonair|0 fnt
+|faint|p1a: Dragonair
+|
+|switch|p1a: Meowth|Meowth, L96|232\/272
+|turn|22
+|
+|move|p1a: Meowth|Bubble Beam|p2a: Growlithe
+|-supereffective|p2a: Growlithe
+|-damage|p2a: Growlithe|0 fnt
+|faint|p2a: Growlithe
+|
+|switch|p2a: Dragonair|Dragonair, L85|277\/277
+|turn|23
+|
+|switch|p1a: Lapras|Lapras, L79|367\/367
+|move|p2a: Dragonair|Thunder|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|235\/367
+|
+|turn|24
+|
+|move|p2a: Dragonair|Thunder|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|100\/367
+|move|p1a: Lapras|Blizzard|p2a: Dragonair
+|-supereffective|p2a: Dragonair
+|-damage|p2a: Dragonair|30\/277
+|-status|p2a: Dragonair|frz
+|
+|turn|25
+|
+|switch|p1a: Poliwhirl|Poliwhirl, L85|112\/284 slp
+|cant|p2a: Dragonair|frz
+|
+|turn|26
+|
+|cant|p1a: Poliwhirl|slp
+|cant|p2a: Dragonair|frz
+|
+|turn|27
+|
+|switch|p2a: Magneton|Magneton, L90|273\/273
+|cant|p1a: Poliwhirl|slp
+|
+|turn|28
+|
+|-curestatus|p1a: Poliwhirl|slp
+|move|p2a: Magneton|Thunderbolt|p1a: Poliwhirl
+|-crit|p1a: Poliwhirl
+|-supereffective|p1a: Poliwhirl
+|-damage|p1a: Poliwhirl|0 fnt
+|faint|p1a: Poliwhirl
+|
+|switch|p1a: Primeape|Primeape, L90|300\/300
+|turn|29
+|
+|move|p1a: Primeape|Body Slam|p2a: Magneton
+|-damage|p2a: Magneton|210\/273
+|move|p2a: Magneton|Thunder Wave|p1a: Primeape
+|-status|p1a: Primeape|par
+|
+|turn|30
+|
+|switch|p2a: Dragonair|Dragonair, L85|30\/277 frz
+|cant|p1a: Primeape|par
+|
+|turn|31
+|
+|cant|p2a: Dragonair|frz
+|move|p1a: Primeape|Body Slam|p2a: Dragonair
+|-damage|p2a: Dragonair|0 fnt
+|faint|p2a: Dragonair
+|
+|switch|p2a: Butterfree|Butterfree, L90|99\/291
+|turn|32
+|
+|switch|p1a: Lapras|Lapras, L79|100\/367
+|move|p2a: Butterfree|Psychic|p1a: Lapras
+|-damage|p1a: Lapras|35\/367
+|
+|turn|33
+|
+|move|p2a: Butterfree|Psychic|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|
+|switch|p1a: Meowth|Meowth, L96|232\/272
+|turn|34
+|
+|move|p1a: Meowth|Slash|p2a: Butterfree
+|-crit|p2a: Butterfree
+|-damage|p2a: Butterfree|0 fnt
+|faint|p2a: Butterfree
+|
+|switch|p2a: Magneton|Magneton, L90|210\/273
+|turn|35
+|
+|move|p1a: Meowth|Slash|p2a: Magneton
+|-crit|p2a: Magneton
+|-damage|p2a: Magneton|101\/273
+|move|p2a: Magneton|Thunderbolt|p1a: Meowth
+|-damage|p1a: Meowth|62\/272
+|
+|turn|36
+|
+|move|p1a: Meowth|Slash|p2a: Magneton
+|-crit|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|faint|p2a: Magneton
+|-message|Such A Big Boy forfeited.
+|
+|win|MALESANI
+|leave|Such A Big Boy
+|player|p2

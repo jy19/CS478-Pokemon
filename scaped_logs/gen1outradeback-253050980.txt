@@ -1,0 +1,367 @@
+﻿|join|Shax
+|join|Jellicent
+|player|p1|Shax|163
+|player|p2|Jellicent|265
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (tradeback)
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Alakazam|Alakazam|313\/313
+|turn|1
+|join|baaste
+|c|★Jellicent|gl hf
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Alakazam|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|turn|2
+|
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|582\/703 par
+|move|p1a: Chansey|Ice Beam|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-damage|p2a: Alakazam|186\/313
+|-status|p2a: Alakazam|frz
+|
+|turn|3
+|join|blearcho
+|c| baaste|lol
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|switch|p1a: Persian|Persian|333\/333
+|
+|turn|4
+|
+|move|p1a: Persian|Hypnosis|p2a: Snorlax
+|-status|p2a: Snorlax|slp
+|cant|p2a: Snorlax|slp
+|
+|turn|5
+|join|fleggumfl
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Persian|Slash|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-damage|p2a: Exeggutor|251\/393
+|
+|turn|6
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|move|p2a: Exeggutor|Sleep Powder|p1a: Alakazam
+|-status|p1a: Alakazam|slp
+|
+|turn|7
+|
+|switch|p1a: Zapdos|Zapdos|383\/383
+|move|p2a: Exeggutor|Psychic|p1a: Zapdos
+|-damage|p1a: Zapdos|281\/383
+|-unboost|p1a: Zapdos|spd|1
+|-unboost|p1a: Zapdos|spa|1
+|
+|turn|8
+|join|StagiaireJVC
+|
+|switch|p2a: Golem|Golem|363\/363
+|move|p1a: Zapdos|Drill Peck|p2a: Golem
+|-crit|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|288\/363
+|
+|turn|9
+|leave|StagiaireJVC
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|move|p2a: Golem|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|279\/353
+|
+|turn|10
+|join|Natural Talents
+|leave|Natural Talents
+|
+|switch|p2a: Alakazam|Alakazam|186\/313 frz
+|move|p1a: Tauros|Surf|p2a: Alakazam
+|-damage|p2a: Alakazam|134\/313 frz
+|
+|turn|11
+|join|k3nan
+|
+|switch|p2a: Exeggutor|Exeggutor|251\/393
+|move|p1a: Tauros|Body Slam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|147\/393
+|-status|p2a: Exeggutor|par
+|
+|turn|12
+|
+|move|p1a: Tauros|Body Slam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|30\/393 par
+|move|p2a: Exeggutor|Explosion|p1a: Tauros
+|-damage|p1a: Tauros|23\/353
+|faint|p2a: Exeggutor
+|leave|k3nan
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|13
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Tauros
+|-damage|p2a: Tauros|180\/353
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|switch|p1a: Zapdos|Zapdos|281\/383
+|turn|14
+|
+|switch|p2a: Golem|Golem|288\/363
+|move|p1a: Zapdos|Drill Peck|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|253\/363
+|
+|turn|15
+|join|Mael oo
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: Golem|Rock Slide|p1a: Snorlax
+|-damage|p1a: Snorlax|399\/523
+|
+|turn|16
+|
+|move|p2a: Golem|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|225\/523
+|move|p1a: Snorlax|Body Slam|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|210\/363
+|
+|turn|17
+|
+|move|p2a: Golem|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|69\/523
+|move|p1a: Snorlax|Body Slam|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|166\/363
+|
+|turn|18
+|join|QuoteCS
+|
+|move|p2a: Golem|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|switch|p1a: Chansey|Chansey|582\/703 par
+|turn|19
+|
+|switch|p2a: Snorlax|Snorlax|523\/523 slp
+|move|p1a: Chansey|Ice Beam|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|323\/523 slp
+|
+|turn|20
+|join|thealfuckbet
+|join|Coolsoul
+|
+|switch|p1a: Persian|Persian|333\/333
+|cant|p2a: Snorlax|slp
+|
+|turn|21
+|
+|move|p1a: Persian|Slash|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|150\/523 slp
+|cant|p2a: Snorlax|slp
+|
+|turn|22
+|c| thealfuckbet|hey
+|c| Coolsoul|hey
+|
+|move|p1a: Persian|Slash|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|c| thealfuckbet|why r u here coolsoul?
+|c| Coolsoul|why r u here thealfuckbet?
+|c| thealfuckbet|this is just something im watching
+|c| baaste|why r u here fgts?
+|c| Coolsoul|i'm just here to see some Gen 1 power!
+|c| thealfuckbet|in oldgens room
+|join|Hawaii Express
+|
+|switch|p2a: Tauros|Tauros|180\/353
+|turn|23
+|c| Coolsoul|Woah, baaste, no need to get fiesty?
+|c| thealfuckbet|yeah
+|c| baaste|feisty*
+|c| thealfuckbet|lol
+|c| thealfuckbet|fiesty
+|
+|move|p1a: Persian|Slash|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|44\/353
+|move|p2a: Tauros|Hyper Beam|p1a: Persian
+|-damage|p1a: Persian|85\/333
+|
+|turn|24
+|-mustrecharge|p2a: Tauros
+|-mustrecharge|p2a: Tauros
+|
+|move|p1a: Persian|Slash|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|leave|Hawaii Express
+|
+|switch|p2a: Hypno|Hypno|373\/373
+|turn|25
+|
+|move|p1a: Persian|Slash|p2a: Hypno
+|-crit|p2a: Hypno
+|-damage|p2a: Hypno|217\/373
+|move|p2a: Hypno|Psychic|p1a: Persian
+|-damage|p1a: Persian|0 fnt
+|faint|p1a: Persian
+|c| Coolsoul|Naw, you right baaste.
+|
+|switch|p1a: Zapdos|Zapdos|281\/383
+|turn|26
+|
+|switch|p2a: Golem|Golem|166\/363
+|move|p1a: Zapdos|Drill Peck|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|127\/363
+|
+|turn|27
+|
+|switch|p1a: Chansey|Chansey|582\/703 par
+|move|p2a: Golem|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|404\/703 par
+|
+|turn|28
+|
+|switch|p2a: Alakazam|Alakazam|134\/313 frz
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703 par
+|
+|turn|29
+|
+|switch|p2a: Hypno|Hypno|217\/373
+|switch|p1a: Alakazam|Alakazam|313\/313 slp
+|
+|turn|30
+|
+|switch|p1a: Zapdos|Zapdos|281\/383
+|move|p2a: Hypno|Amnesia|p2a: Hypno
+|-boost|p2a: Hypno|spd|2
+|-boost|p2a: Hypno|spa|2
+|
+|turn|31
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Hypno
+|-damage|p2a: Hypno|100\/373
+|move|p2a: Hypno|Ice Punch|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|45\/383
+|
+|turn|32
+|
+|switch|p2a: Golem|Golem|127\/363
+|move|p1a: Zapdos|Drill Peck|p2a: Golem
+|-crit|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|54\/363
+|
+|turn|33
+|
+|move|p1a: Zapdos|Hyper Beam|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|6\/363
+|move|p2a: Golem|Body Slam|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|switch|p1a: Chansey|Chansey|703\/703 par
+|turn|34
+|
+|switch|p1a: Alakazam|Alakazam|313\/313 slp
+|move|p2a: Golem|Explosion|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|faint|p2a: Golem
+|
+|switch|p2a: Hypno|Hypno|100\/373
+|switch|p1a: Chansey|Chansey|703\/703 par
+|turn|35
+|
+|move|p2a: Hypno|Amnesia|p2a: Hypno
+|-boost|p2a: Hypno|spd|2
+|-boost|p2a: Hypno|spa|2
+|move|p1a: Chansey|Thunderbolt|p2a: Hypno
+|-damage|p2a: Hypno|66\/373
+|
+|turn|36
+|
+|move|p2a: Hypno|Rest|p2a: Hypno
+|-status|p2a: Hypno|slp
+|-heal|p2a: Hypno|373\/373 slp|[silent]
+|-status|p2a: Hypno|slp|[from] move: Rest
+|move|p1a: Chansey|Thunder Wave|p2a: Hypno
+|-fail|p2a: Hypno
+|
+|turn|37
+|leave|Coolsoul
+|
+|cant|p2a: Hypno|slp
+|move|p1a: Chansey|Thunderbolt|p2a: Hypno
+|-damage|p2a: Hypno|337\/373 slp
+|
+|turn|38
+|
+|-curestatus|p2a: Hypno|slp
+|cant|p1a: Chansey|par
+|
+|turn|39
+|
+|move|p2a: Hypno|Amnesia|p2a: Hypno
+|-boost|p2a: Hypno|spd|2
+|-boost|p2a: Hypno|spa|2
+|move|p1a: Chansey|Thunder Wave|p2a: Hypno
+|-status|p2a: Hypno|par
+|
+|turn|40
+|
+|move|p2a: Hypno|Amnesia|p2a: Hypno
+|-boost|p2a: Hypno|spd|2
+|-boost|p2a: Hypno|spa|2
+|move|p1a: Chansey|Thunderbolt|p2a: Hypno
+|-crit|p2a: Hypno
+|-damage|p2a: Hypno|195\/373 par
+|
+|turn|41
+|
+|move|p2a: Hypno|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|388\/703 par
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|move|p1a: Chansey|Thunderbolt|p2a: Hypno
+|-damage|p2a: Hypno|179\/373 par
+|
+|turn|42
+|
+|move|p2a: Hypno|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|win|Jellicent
+|c|★Jellicent|gg
+|c|★Shax|gg
+|leave|QuoteCS
+|leave|fleggumfl
+|leave|blearcho
+|leave|baaste

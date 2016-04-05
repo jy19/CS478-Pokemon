@@ -1,0 +1,325 @@
+﻿|join|FinishHonorFace
+|join|lksdjfieop
+|player|p1|FinishHonorFace|211
+|player|p2|lksdjfieop|265
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Haunter|Haunter, L85|250\/250
+|switch|p2a: Dodrio|Dodrio, L85|276\/276
+|turn|1
+|
+|move|p2a: Dodrio|Drill Peck|p1a: Haunter
+|-damage|p1a: Haunter|123\/250
+|move|p1a: Haunter|Thunderbolt|p2a: Dodrio
+|-crit|p2a: Dodrio
+|-supereffective|p2a: Dodrio
+|-damage|p2a: Dodrio|0 fnt
+|faint|p2a: Dodrio
+|
+|switch|p2a: Jynx|Jynx, L79|265\/265
+|turn|2
+|
+|switch|p1a: Magnemite|Magnemite, L96|243\/243
+|move|p2a: Jynx|Psychic|p1a: Magnemite
+|-damage|p1a: Magnemite|174\/243
+|-unboost|p1a: Magnemite|spd|1
+|-unboost|p1a: Magnemite|spa|1
+|
+|turn|3
+|
+|switch|p2a: Nidoqueen|Nidoqueen, L85|327\/327
+|move|p1a: Magnemite|Thunder Wave|p2a: Nidoqueen
+|-immune|p2a: Nidoqueen|[msg]
+|
+|turn|4
+|
+|switch|p1a: Pidgeot|Pidgeot, L90|333\/333
+|move|p2a: Nidoqueen|Earthquake|p1a: Pidgeot
+|-immune|p1a: Pidgeot|[msg]
+|
+|turn|5
+|
+|move|p1a: Pidgeot|Mimic|p2a: Nidoqueen
+|-start|p1a: Pidgeot|Mimic|Blizzard
+|move|p2a: Nidoqueen|Blizzard|p1a: Pidgeot
+|-supereffective|p1a: Pidgeot
+|-damage|p1a: Pidgeot|185\/333
+|
+|turn|6
+|
+|move|p1a: Pidgeot|Blizzard|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|162\/327
+|move|p2a: Nidoqueen|Thunderbolt|p1a: Pidgeot
+|-supereffective|p1a: Pidgeot
+|-damage|p1a: Pidgeot|49\/333
+|
+|turn|7
+|
+|switch|p2a: Flareon|Flareon, L90|300\/300
+|move|p1a: Pidgeot|Blizzard|p2a: Flareon
+|-damage|p2a: Flareon|236\/300
+|
+|turn|8
+|
+|move|p2a: Flareon|Quick Attack|p1a: Pidgeot
+|-damage|p1a: Pidgeot|10\/333
+|move|p1a: Pidgeot|Rest|p1a: Pidgeot
+|-status|p1a: Pidgeot|slp
+|-heal|p1a: Pidgeot|333\/333 slp|[silent]
+|-status|p1a: Pidgeot|slp|[from] move: Rest
+|
+|turn|9
+|
+|cant|p1a: Pidgeot|slp
+|move|p2a: Flareon|Fire Blast|p1a: Pidgeot
+|-damage|p1a: Pidgeot|156\/333 slp
+|
+|turn|10
+|
+|switch|p1a: Seadra|Seadra, L90|282\/282
+|move|p2a: Flareon|Fire Blast|p1a: Seadra
+|-resisted|p1a: Seadra
+|-damage|p1a: Seadra|212\/282
+|
+|turn|11
+|
+|switch|p2a: Seaking|Seaking, L90|327\/327
+|move|p1a: Seadra|Smokescreen|p2a: Seaking
+|-unboost|p2a: Seaking|accuracy|1
+|
+|turn|12
+|
+|move|p1a: Seadra|Smokescreen|p2a: Seaking
+|-unboost|p2a: Seaking|accuracy|1
+|move|p2a: Seaking|Double-Edge|p1a: Seadra
+|-damage|p1a: Seadra|140\/282
+|-damage|p2a: Seaking|309\/327|[from] recoil|[of] p1a: Seadra
+|
+|turn|13
+|
+|switch|p2a: Hitmonlee|Hitmonlee, L90|273\/273
+|move|p1a: Seadra|Smokescreen|p2a: Hitmonlee
+|-unboost|p2a: Hitmonlee|accuracy|1
+|
+|turn|14
+|
+|switch|p2a: Seaking|Seaking, L90|309\/327
+|move|p1a: Seadra|Smokescreen|p2a: Seaking
+|-unboost|p2a: Seaking|accuracy|1
+|
+|turn|15
+|
+|move|p1a: Seadra|Smokescreen|p2a: Seaking
+|-unboost|p2a: Seaking|accuracy|1
+|move|p2a: Seaking|Double-Edge|p1a: Seadra|[miss]
+|-miss|p2a: Seaking
+|
+|turn|16
+|
+|switch|p1a: Haunter|Haunter, L85|123\/250
+|move|p2a: Seaking|Double-Edge|p1a: Haunter
+|-immune|p1a: Haunter|[msg]
+|
+|turn|17
+|
+|switch|p2a: Nidoqueen|Nidoqueen, L85|162\/327
+|move|p1a: Haunter|Hypnosis|p2a: Nidoqueen|[miss]
+|-miss|p1a: Haunter
+|
+|turn|18
+|
+|move|p1a: Haunter|Psychic|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|0 fnt
+|faint|p2a: Nidoqueen
+|
+|switch|p2a: Jynx|Jynx, L79|265\/265
+|turn|19
+|
+|switch|p1a: Magnemite|Magnemite, L96|174\/243
+|move|p2a: Jynx|Psychic|p1a: Magnemite
+|-damage|p1a: Magnemite|106\/243
+|
+|turn|20
+|
+|move|p2a: Jynx|Lovely Kiss|p1a: Magnemite|[miss]
+|-miss|p2a: Jynx
+|move|p1a: Magnemite|Thunder Wave|p2a: Jynx
+|-status|p2a: Jynx|par
+|
+|turn|21
+|
+|move|p1a: Magnemite|Thunderbolt|p2a: Jynx
+|-damage|p2a: Jynx|139\/265 par
+|move|p2a: Jynx|Blizzard|p1a: Magnemite
+|-crit|p1a: Magnemite
+|-damage|p1a: Magnemite|0 fnt
+|faint|p1a: Magnemite
+|
+|switch|p1a: Pidgeot|Pidgeot, L90|156\/333 slp
+|turn|22
+|
+|-curestatus|p1a: Pidgeot|slp
+|move|p2a: Jynx|Blizzard|p1a: Pidgeot
+|-crit|p1a: Pidgeot
+|-supereffective|p1a: Pidgeot
+|-damage|p1a: Pidgeot|0 fnt
+|faint|p1a: Pidgeot
+|
+|switch|p1a: Tauros|Tauros, L79|280\/280
+|turn|23
+|
+|switch|p2a: Seaking|Seaking, L90|309\/327
+|move|p1a: Tauros|Earthquake|p2a: Seaking
+|-damage|p2a: Seaking|234\/327
+|
+|turn|24
+|
+|move|p1a: Tauros|Body Slam|p2a: Seaking
+|-damage|p2a: Seaking|148\/327
+|move|p2a: Seaking|Surf|p1a: Tauros
+|-damage|p1a: Tauros|160\/280
+|
+|turn|25
+|
+|move|p1a: Tauros|Body Slam|p2a: Seaking
+|-damage|p2a: Seaking|50\/327
+|move|p2a: Seaking|Blizzard|p1a: Tauros|[miss]
+|-miss|p2a: Seaking
+|
+|turn|26
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Seaking
+|-damage|p2a: Seaking|0 fnt
+|faint|p2a: Seaking
+|
+|switch|p2a: Flareon|Flareon, L90|236\/300
+|turn|27
+|
+|move|p1a: Tauros|Earthquake|p2a: Flareon
+|-supereffective|p2a: Flareon
+|-damage|p2a: Flareon|78\/300
+|move|p2a: Flareon|Fire Blast|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|switch|p1a: Seadra|Seadra, L90|140\/282
+|turn|28
+|
+|move|p1a: Seadra|Surf|p2a: Flareon
+|-supereffective|p2a: Flareon
+|-damage|p2a: Flareon|0 fnt
+|faint|p2a: Flareon
+|
+|switch|p2a: Hitmonlee|Hitmonlee, L90|273\/273
+|turn|29
+|
+|move|p2a: Hitmonlee|Body Slam|p1a: Seadra
+|-damage|p1a: Seadra|70\/282
+|-status|p1a: Seadra|par
+|move|p1a: Seadra|Smokescreen|p2a: Hitmonlee
+|-unboost|p2a: Hitmonlee|accuracy|1
+|
+|turn|30
+|
+|move|p2a: Hitmonlee|Body Slam|p1a: Seadra
+|-damage|p1a: Seadra|1\/282 par
+|move|p1a: Seadra|Smokescreen|p2a: Hitmonlee
+|-unboost|p2a: Hitmonlee|accuracy|1
+|
+|turn|31
+|
+|move|p2a: Hitmonlee|Body Slam|p1a: Seadra
+|-damage|p1a: Seadra|0 fnt
+|faint|p1a: Seadra
+|
+|switch|p1a: Haunter|Haunter, L85|123\/250
+|turn|32
+|
+|switch|p2a: Jynx|Jynx, L79|139\/265 par
+|move|p1a: Haunter|Psychic|p2a: Jynx
+|-resisted|p2a: Jynx
+|-damage|p2a: Jynx|105\/265 par
+|
+|turn|33
+|
+|move|p1a: Haunter|Thunderbolt|p2a: Jynx
+|-damage|p2a: Jynx|29\/265 par
+|move|p2a: Jynx|Psychic|p1a: Haunter
+|-supereffective|p1a: Haunter
+|-damage|p1a: Haunter|0 fnt
+|faint|p1a: Haunter
+|
+|switch|p1a: Gloom|Gloom, L90|291\/291
+|turn|34
+|
+|move|p1a: Gloom|Mega Drain|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|
+|switch|p2a: Hitmonlee|Hitmonlee, L90|273\/273
+|turn|35
+|
+|move|p2a: Hitmonlee|Body Slam|p1a: Gloom
+|-damage|p1a: Gloom|210\/291
+|-status|p1a: Gloom|par
+|cant|p1a: Gloom|par
+|
+|turn|36
+|
+|move|p2a: Hitmonlee|Substitute|p2a: Hitmonlee
+|-start|p2a: Hitmonlee|Substitute
+|-damage|p2a: Hitmonlee|205\/273
+|move|p1a: Gloom|Sleep Powder|p2a: Hitmonlee|[miss]
+|-miss|p1a: Gloom
+|
+|turn|37
+|
+|move|p2a: Hitmonlee|Body Slam|p1a: Gloom
+|-damage|p1a: Gloom|126\/291 par
+|move|p1a: Gloom|Mega Drain|p2a: Hitmonlee
+|-activate|p2a: Hitmonlee|Substitute|[damage]
+|-heal|p1a: Gloom|159\/291 par|[from] drain|[of] p2a: Hitmonlee
+|
+|turn|38
+|
+|move|p2a: Hitmonlee|Body Slam|p1a: Gloom
+|-damage|p1a: Gloom|73\/291 par
+|move|p1a: Gloom|Mega Drain|p2a: Hitmonlee
+|-end|p2a: Hitmonlee|Substitute
+|
+|turn|39
+|c|★lksdjfieop|lmao suck infinite dicks, you can sleep subs in gen 1
+|
+|move|p2a: Hitmonlee|Body Slam|p1a: Gloom
+|-damage|p1a: Gloom|0 fnt
+|faint|p1a: Gloom
+|
+|win|lksdjfieop
+|raw|Ladder updating...
+|c|★lksdjfieop|so bad
+|c|★lksdjfieop|lolol
+|c|★FinishHonorFace|nice name man
+|raw|FinishHonorFace's rating: 1278 &rarr; <strong>1238<\/strong><br \/>(-40 for losing)
+|raw|lksdjfieop's rating: 1040 &rarr; <strong>1094<\/strong><br \/>(+54 for winning)
+|c|★FinishHonorFace|and waiting til the end til talk trash
+|c|★lksdjfieop|nice L with hax and a better team
+|c|★FinishHonorFace|did your dad make that for you
+|c|★FinishHonorFace|after you sucked his dick
+|c|★lksdjfieop|I think he finished on your face
+|c|★lksdjfieop|much like I did
+|c|★FinishHonorFace|finish on her face, but you wouldnt get that
+|c|★FinishHonorFace|or do that
+|c|★FinishHonorFace|cuz your dad does for you
+|leave|FinishHonorFace
+|player|p1
+|c|★lksdjfieop|loool
+|c|★lksdjfieop|stay mad

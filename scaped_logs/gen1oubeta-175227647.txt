@@ -1,0 +1,732 @@
+﻿|join|Gij
+|join|Mirabel_
+|player|p1|Gij|162
+|player|p2|Mirabel_|260
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333\/333
+|switch|p2a: Alakazam|Alakazam|313\/313
+|turn|1
+|c|★Gij|hey! ^^
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|move|p1a: Jynx|Lovely Kiss|p2a: Starmie|[miss]
+|-miss|p1a: Jynx
+|
+|turn|2
+|
+|move|p2a: Starmie|Thunder Wave|p1a: Jynx
+|-status|p1a: Jynx|par
+|move|p1a: Jynx|Lovely Kiss|p2a: Starmie
+|-status|p2a: Starmie|slp
+|
+|turn|3
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|move|p1a: Jynx|Reflect|p1a: Jynx
+|
+|turn|4
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|move|p2a: Tauros|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|204\/323
+|
+|turn|5
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Tauros
+|-status|p2a: Tauros|par
+|move|p2a: Tauros|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|96\/323
+|
+|turn|6
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|257\/323
+|move|p2a: Tauros|Blizzard|p1a: Starmie
+|-crit|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|185\/323
+|
+|turn|7
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|174\/353 par
+|move|p2a: Tauros|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|72\/323
+|-status|p1a: Starmie|par
+|
+|turn|8
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|233\/323 par
+|move|p2a: Tauros|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|121\/323 par
+|
+|turn|9
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|282\/323 par
+|cant|p2a: Tauros|par
+|
+|turn|10
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Tauros
+|-damage|p2a: Tauros|80\/353 par
+|cant|p2a: Tauros|par
+|
+|turn|11
+|
+|switch|p2a: Golem|Golem|363\/363
+|move|p1a: Starmie|Thunderbolt|p2a: Golem
+|-immune|p2a: Golem|[msg]
+|
+|turn|12
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Starmie|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|607\/703
+|
+|turn|13
+|
+|switch|p1a: Hypno|Hypno|373\/373
+|move|p2a: Chansey|Ice Beam|p1a: Hypno
+|-damage|p1a: Hypno|300\/373
+|
+|turn|14
+|
+|move|p1a: Hypno|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Hypno
+|-status|p1a: Hypno|par
+|
+|turn|15
+|
+|move|p1a: Hypno|Headbutt|p2a: Chansey
+|-damage|p2a: Chansey|491\/703 par
+|move|p2a: Chansey|Thunderbolt|p1a: Hypno
+|-damage|p1a: Hypno|229\/373 par
+|
+|turn|16
+|
+|move|p1a: Hypno|Headbutt|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|242\/703 par
+|move|p2a: Chansey|Ice Beam|p1a: Hypno
+|-damage|p1a: Hypno|161\/373 par
+|
+|turn|17
+|
+|move|p1a: Hypno|Headbutt|p2a: Chansey
+|-damage|p2a: Chansey|123\/703 par
+|move|p2a: Chansey|Thunderbolt|p1a: Hypno
+|-damage|p1a: Hypno|89\/373 par
+|
+|turn|18
+|
+|switch|p2a: Golem|Golem|363\/363
+|move|p1a: Hypno|Psychic|p2a: Golem
+|-damage|p2a: Golem|208\/363
+|
+|turn|19
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: Golem|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|425\/523
+|
+|turn|20
+|
+|move|p2a: Golem|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|337\/523
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|
+|turn|21
+|
+|move|p2a: Golem|Explosion|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|faint|p2a: Golem
+|
+|switch|p1a: Jynx|Jynx|333\/333 par
+|switch|p2a: Snorlax|Snorlax|523\/523
+|turn|22
+|
+|switch|p1a: Starmie|Starmie|282\/323 par
+|move|p2a: Snorlax|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|155\/323 par
+|
+|turn|23
+|join|ytreza
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|move|p2a: Snorlax|Hyper Beam|p1a: Tauros
+|-damage|p1a: Tauros|151\/353
+|
+|turn|24
+|leave|ytreza
+|
+|move|p1a: Tauros|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|384\/523
+|cant|p2a: Snorlax|recharge
+|
+|turn|25
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|170\/523
+|move|p2a: Snorlax|Hyper Beam|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|switch|p1a: Jynx|Jynx|333\/333 par
+|turn|26
+|
+|move|p2a: Snorlax|Self-Destruct|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|faint|p2a: Snorlax
+|
+|switch|p1a: Hypno|Hypno|89\/373 par
+|switch|p2a: Chansey|Chansey|123\/703 par
+|turn|27
+|
+|move|p1a: Hypno|Rest|p1a: Hypno
+|-status|p1a: Hypno|slp
+|-heal|p1a: Hypno|373\/373 slp|[silent]
+|-status|p1a: Hypno|slp|[from] move: Rest
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|474\/703 par
+|
+|turn|28
+|
+|switch|p2a: Alakazam|Alakazam|313\/313
+|cant|p1a: Hypno|slp
+|
+|turn|29
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Hypno
+|-damage|p1a: Hypno|273\/373 slp
+|cant|p1a: Hypno|slp
+|-curestatus|p1a: Hypno|slp
+|
+|turn|30
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Hypno
+|-status|p1a: Hypno|par
+|move|p1a: Hypno|Thunder Wave|p2a: Alakazam
+|-status|p2a: Alakazam|par
+|
+|turn|31
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Hypno
+|-damage|p1a: Hypno|173\/373 par
+|move|p1a: Hypno|Rest|p1a: Hypno
+|-status|p1a: Hypno|slp
+|-heal|p1a: Hypno|373\/373 slp|[silent]
+|-status|p1a: Hypno|slp|[from] move: Rest
+|
+|turn|32
+|
+|switch|p2a: Tauros|Tauros|80\/353 par
+|cant|p1a: Hypno|slp
+|
+|turn|33
+|
+|cant|p2a: Tauros|par
+|cant|p1a: Hypno|slp
+|-curestatus|p1a: Hypno|slp
+|
+|turn|34
+|
+|move|p2a: Tauros|Body Slam|p1a: Hypno
+|-damage|p1a: Hypno|252\/373
+|move|p1a: Hypno|Psychic|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|switch|p2a: Alakazam|Alakazam|313\/313 par
+|turn|35
+|
+|cant|p2a: Alakazam|par
+|move|p1a: Hypno|Headbutt|p2a: Alakazam
+|-damage|p2a: Alakazam|243\/313 par
+|
+|turn|36
+|
+|cant|p2a: Alakazam|par
+|move|p1a: Hypno|Headbutt|p2a: Alakazam
+|-damage|p2a: Alakazam|169\/313 par
+|
+|turn|37
+|
+|cant|p2a: Alakazam|par
+|move|p1a: Hypno|Headbutt|p2a: Alakazam
+|-damage|p2a: Alakazam|102\/313 par
+|
+|turn|38
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Hypno
+|-status|p1a: Hypno|par
+|cant|p1a: Hypno|par
+|
+|turn|39
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|258\/313 par
+|move|p1a: Hypno|Headbutt|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-damage|p2a: Alakazam|115\/313 par
+|
+|turn|40
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|271\/313 par
+|move|p1a: Hypno|Headbutt|p2a: Alakazam
+|-damage|p2a: Alakazam|205\/313 par
+|
+|turn|41
+|
+|cant|p2a: Alakazam|par
+|move|p1a: Hypno|Psychic|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|115\/313 par
+|-unboost|p2a: Alakazam|spd|1
+|-unboost|p2a: Alakazam|spa|1
+|
+|turn|42
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|271\/313 par
+|move|p1a: Hypno|Headbutt|p2a: Alakazam
+|-damage|p2a: Alakazam|201\/313 par
+|
+|turn|43
+|
+|move|p2a: Alakazam|Psychic|p1a: Hypno
+|-resisted|p1a: Hypno
+|-damage|p1a: Hypno|211\/373 par
+|move|p1a: Hypno|Psychic|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|101\/313 par
+|
+|turn|44
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|257\/313 par
+|move|p1a: Hypno|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|187\/313 par
+|
+|turn|45
+|
+|switch|p2a: Starmie|Starmie|323\/323 slp
+|move|p1a: Hypno|Psychic|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|265\/323 slp
+|-unboost|p2a: Starmie|spd|1
+|-unboost|p2a: Starmie|spa|1
+|
+|turn|46
+|
+|cant|p2a: Starmie|slp
+|move|p1a: Hypno|Psychic|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|182\/323 slp
+|
+|turn|47
+|
+|cant|p2a: Starmie|slp
+|cant|p1a: Hypno|par
+|
+|turn|48
+|
+|cant|p2a: Starmie|slp
+|move|p1a: Hypno|Thunder Wave|p2a: Starmie
+|-fail|p2a: Starmie
+|
+|turn|49
+|
+|cant|p2a: Starmie|slp
+|move|p1a: Hypno|Thunder Wave|p2a: Starmie
+|-fail|p2a: Starmie
+|
+|turn|50
+|
+|switch|p2a: Chansey|Chansey|474\/703 par
+|move|p1a: Hypno|Headbutt|p2a: Chansey
+|-damage|p2a: Chansey|340\/703 par
+|
+|turn|51
+|
+|move|p1a: Hypno|Rest|p1a: Hypno
+|-status|p1a: Hypno|slp
+|-heal|p1a: Hypno|373\/373 slp|[silent]
+|-status|p1a: Hypno|slp|[from] move: Rest
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|691\/703 par
+|
+|turn|52
+|
+|cant|p1a: Hypno|slp
+|move|p2a: Chansey|Ice Beam|p1a: Hypno
+|-damage|p1a: Hypno|305\/373 slp
+|
+|turn|53
+|
+|cant|p1a: Hypno|slp
+|-curestatus|p1a: Hypno|slp
+|move|p2a: Chansey|Thunderbolt|p1a: Hypno
+|-damage|p1a: Hypno|233\/373
+|
+|turn|54
+|
+|move|p1a: Hypno|Headbutt|p2a: Chansey
+|-damage|p2a: Chansey|572\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|55
+|
+|move|p1a: Hypno|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|451\/703 par
+|move|p2a: Chansey|Thunderbolt|p1a: Hypno
+|-damage|p1a: Hypno|164\/373
+|-status|p1a: Hypno|par
+|
+|turn|56
+|
+|cant|p1a: Hypno|par
+|move|p2a: Chansey|Thunderbolt|p1a: Hypno
+|-damage|p1a: Hypno|98\/373 par
+|
+|turn|57
+|
+|move|p1a: Hypno|Rest|p1a: Hypno
+|-status|p1a: Hypno|slp
+|-heal|p1a: Hypno|373\/373 slp|[silent]
+|-status|p1a: Hypno|slp|[from] move: Rest
+|cant|p2a: Chansey|par
+|
+|turn|58
+|
+|cant|p1a: Hypno|slp
+|move|p2a: Chansey|Thunderbolt|p1a: Hypno
+|-damage|p1a: Hypno|304\/373 slp
+|
+|turn|59
+|
+|switch|p2a: Starmie|Starmie|182\/323 slp
+|cant|p1a: Hypno|slp
+|-curestatus|p1a: Hypno|slp
+|
+|turn|60
+|
+|cant|p2a: Starmie|slp
+|-curestatus|p2a: Starmie|slp
+|move|p1a: Hypno|Thunder Wave|p2a: Starmie
+|-status|p2a: Starmie|par
+|
+|turn|61
+|
+|move|p2a: Starmie|Blizzard|p1a: Hypno|[miss]
+|-miss|p2a: Starmie
+|move|p1a: Hypno|Headbutt|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|85\/323 par
+|
+|turn|62
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|246\/323 par
+|move|p1a: Hypno|Headbutt|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|152\/323 par
+|
+|turn|63
+|
+|cant|p2a: Starmie|par
+|move|p1a: Hypno|Psychic|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|90\/323 par
+|
+|turn|64
+|
+|cant|p2a: Starmie|par
+|move|p1a: Hypno|Psychic|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|33\/323 par
+|
+|turn|65
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|194\/323 par
+|move|p1a: Hypno|Psychic|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|141\/323 par
+|
+|turn|66
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|302\/323 par
+|move|p1a: Hypno|Headbutt|p2a: Starmie
+|-damage|p2a: Starmie|249\/323 par
+|
+|turn|67
+|
+|move|p2a: Starmie|Blizzard|p1a: Hypno
+|-damage|p1a: Hypno|211\/373
+|move|p1a: Hypno|Psychic|p2a: Starmie
+|-crit|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|124\/323 par
+|
+|turn|68
+|
+|switch|p1a: Starmie|Starmie|155\/323 par
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|285\/323 par
+|
+|turn|69
+|
+|switch|p2a: Chansey|Chansey|451\/703 par
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|316\/323 par
+|
+|turn|70
+|
+|switch|p1a: Rhydon|Rhydon|413\/413
+|cant|p2a: Chansey|par
+|
+|turn|71
+|
+|move|p1a: Rhydon|Earthquake|p2a: Chansey
+|-damage|p2a: Chansey|40\/703 par
+|move|p2a: Chansey|Ice Beam|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|184\/413
+|
+|turn|72
+|
+|move|p1a: Rhydon|Earthquake|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|switch|p2a: Starmie|Starmie|285\/323 par
+|turn|73
+|
+|switch|p1a: Starmie|Starmie|316\/323 par
+|move|p2a: Starmie|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|163\/323 par
+|
+|turn|74
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|24\/323 par
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|185\/323 par
+|
+|turn|75
+|
+|switch|p1a: Hypno|Hypno|211\/373
+|move|p2a: Starmie|Thunderbolt|p1a: Hypno
+|-damage|p1a: Hypno|147\/373
+|
+|turn|76
+|
+|move|p1a: Hypno|Rest|p1a: Hypno
+|-status|p1a: Hypno|slp
+|-heal|p1a: Hypno|373\/373 slp|[silent]
+|-status|p1a: Hypno|slp|[from] move: Rest
+|move|p2a: Starmie|Blizzard|p1a: Hypno|[miss]
+|-miss|p2a: Starmie
+|
+|turn|77
+|
+|switch|p2a: Alakazam|Alakazam|187\/313 par
+|cant|p1a: Hypno|slp
+|
+|turn|78
+|
+|cant|p1a: Hypno|slp
+|-curestatus|p1a: Hypno|slp
+|move|p2a: Alakazam|Seismic Toss|p1a: Hypno
+|-damage|p1a: Hypno|273\/373
+|
+|turn|79
+|
+|move|p1a: Hypno|Headbutt|p2a: Alakazam
+|-damage|p2a: Alakazam|111\/313 par
+|move|p2a: Alakazam|Seismic Toss|p1a: Hypno
+|-damage|p1a: Hypno|173\/373
+|
+|turn|80
+|
+|move|p1a: Hypno|Headbutt|p2a: Alakazam
+|-damage|p2a: Alakazam|44\/313 par
+|cant|p2a: Alakazam|flinch
+|
+|turn|81
+|
+|switch|p2a: Starmie|Starmie|285\/323 par
+|move|p1a: Hypno|Headbutt|p2a: Starmie
+|-damage|p2a: Starmie|239\/323 par
+|
+|turn|82
+|
+|move|p1a: Hypno|Psychic|p2a: Starmie
+|-crit|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|128\/323 par
+|move|p2a: Starmie|Blizzard|p1a: Hypno|[miss]
+|-miss|p2a: Starmie
+|
+|turn|83
+|
+|move|p1a: Hypno|Rest|p1a: Hypno
+|-status|p1a: Hypno|slp
+|-heal|p1a: Hypno|373\/373 slp|[silent]
+|-status|p1a: Hypno|slp|[from] move: Rest
+|cant|p2a: Starmie|par
+|
+|turn|84
+|
+|switch|p1a: Rhydon|Rhydon|184\/413
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|289\/323 par
+|
+|turn|85
+|
+|switch|p1a: Hypno|Hypno|373\/373 slp
+|move|p2a: Starmie|Blizzard|p1a: Hypno
+|-crit|p1a: Hypno
+|-damage|p1a: Hypno|215\/373 slp
+|
+|turn|86
+|
+|cant|p1a: Hypno|slp
+|move|p2a: Starmie|Thunderbolt|p1a: Hypno
+|-damage|p1a: Hypno|152\/373 slp
+|
+|turn|87
+|
+|cant|p1a: Hypno|slp
+|-curestatus|p1a: Hypno|slp
+|move|p2a: Starmie|Thunderbolt|p1a: Hypno
+|-damage|p1a: Hypno|79\/373
+|
+|turn|88
+|
+|move|p1a: Hypno|Rest|p1a: Hypno
+|-status|p1a: Hypno|slp
+|-heal|p1a: Hypno|373\/373 slp|[silent]
+|-status|p1a: Hypno|slp|[from] move: Rest
+|move|p2a: Starmie|Blizzard|p1a: Hypno
+|-damage|p1a: Hypno|294\/373 slp
+|
+|turn|89
+|
+|switch|p2a: Alakazam|Alakazam|44\/313 par
+|cant|p1a: Hypno|slp
+|
+|turn|90
+|
+|switch|p1a: Rhydon|Rhydon|184\/413
+|cant|p2a: Alakazam|par
+|
+|turn|91
+|
+|switch|p2a: Starmie|Starmie|289\/323 par
+|move|p1a: Rhydon|Earthquake|p2a: Starmie
+|-damage|p2a: Starmie|125\/323 par
+|
+|turn|92
+|
+|move|p1a: Rhydon|Earthquake|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|switch|p2a: Alakazam|Alakazam|44\/313 par
+|turn|93
+|
+|move|p1a: Rhydon|Earthquake|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|win|Gij
+|c|★Gij|gg
+|c|★Mirabel_|should have quit when I needed to leave lol
+|c|★Gij|i did my best :D
+|c|★Mirabel_|no idea how to beat hypno yet
+|c|★Gij|you fought well
+|c|★Mirabel_|that was my first RBY battle
+|c|★Gij|yeah hypno is a pain in the ass
+|c|★Mirabel_|I studied but no one takes hypno seriously
+|c|★Gij|first?
+|c|★Mirabel_|Yeah
+|c|★Mirabel_|I've played a few against myself
+|c|★Mirabel_|but that's it
+|c|★Gij|first time in first gen, what else?
+|c|★Gij|:)
+|c|★Gij|but you fought like an expert 
+|c|★Mirabel_|first loss
+|c|★Mirabel_|well I play a lot of Gen 2
+|c|★Mirabel_|Gen 1 teambuilding is easier
+|c|★Gij|yep
+|c|★Mirabel_|anyway I have a doctor a few towns over to drive to
+|c|★Mirabel_|hope to play again
+|c|★Gij|but i think is more difficult
+|c|★Mirabel_|keep asking in old gens
+|c|★Mirabel_|Oh
+|c|★Mirabel_|Yeah it's more difficult but that's mainly because there's less to think about
+|c|★Mirabel_|you can play meta but your opponent can throw victreebel\/hypno\/dragonite at you
+|c|★Gij|you will never be sure what the enemy will do
+|c|★Mirabel_|and you can not be prepped
+|c|★Mirabel_|And there's so little you can do in the face of luck
+|c|★Mirabel_|but play the odds
+|c|★Gij|i don't know why 
+|c|★Mirabel_|that's why I like doubles lol
+|c|★Gij|but
+|c|★Gij|why people dont't use hypno
+|c|★Gij|O.O
+|c|★Mirabel_|I think he loses to snorlax\/rocks
+|c|★Mirabel_|and tauros
+|c|★Mirabel_|just I fucked up and got them para'd and dead
+|c|★Gij|the trick is
+|c|★Gij|using reflect at first turn
+|c|★Gij|and you won't have problems ;)
+|c|★Mirabel_|wait
+|c|★Mirabel_|reflect is permanent in this game?
+|c|★Gij|just TW on taurosù
+|c|★Gij|no
+|c|★Gij|5 turns
+|c|★Mirabel_|okay
+|c|★Mirabel_|I was wondering
+|c|★Gij|but everything could happen in 5 turns
+|c|★Mirabel_|because I didn't see the screen go up
+|c|★Gij|in every gen
+|c|★Gij|me neither
+|c|★Gij|hey
+|c|★Gij|if you want
+|c|★Gij|i could give you my hypno!
+|c|★Mirabel_|lol
+|c|★Gij|replacingalakazam
+|c|★Mirabel_|Well I'll see how zam works
+|c|★Mirabel_|I'm not switching anything until I lose more
+|c|★Mirabel_|That WAS my first gen 1 game
+|c|★Gij|right choise :)
+|c|★Mirabel_|anyway later
+|c|★Gij|a very good game, i swear
+|leave|Mirabel_
+|player|p2

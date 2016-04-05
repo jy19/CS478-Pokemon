@@ -1,0 +1,350 @@
+﻿|join|Betathunder
+|join|Anna says hi
+|player|p1|Betathunder|217
+|player|p2|Anna says hi|183
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Challenge Cup
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Caterpie|Caterpie, L87|237\/237
+|switch|p2a: Mewtwo|Mewtwo, L57|226\/226
+|turn|1
+|join|em el gee
+|c|★Anna says hi|rof
+|c|★Betathunder|rof
+|
+|move|p2a: Mewtwo|Mist|p2a: Mewtwo
+|-sidestart|p2: Anna says hi|Mist
+|move|p1a: Caterpie|String Shot|p2a: Mewtwo
+|-activate|p2a: Mewtwo|Mist
+|
+|turn|2
+|c|★Betathunder|predonkted
+|
+|move|p2a: Mewtwo|Flamethrower|p1a: Caterpie
+|-supereffective|p1a: Caterpie
+|-damage|p1a: Caterpie|71\/237
+|move|p1a: Caterpie|Tackle|p2a: Mewtwo
+|-damage|p2a: Mewtwo|208\/226
+|
+|turn|3
+|c| em el gee|ayy
+|
+|move|p2a: Mewtwo|Flamethrower|p1a: Caterpie
+|-supereffective|p1a: Caterpie
+|-damage|p1a: Caterpie|0 fnt
+|faint|p1a: Caterpie
+|
+|switch|p1a: Slowpoke|Slowpoke, L78|300\/300
+|turn|4
+|
+|switch|p2a: Vileplume|Vileplume, L68|235\/235
+|move|p1a: Slowpoke|Stomp|p2a: Vileplume
+|-damage|p2a: Vileplume|193\/235
+|
+|turn|5
+|
+|move|p2a: Vileplume|Body Slam|p1a: Slowpoke
+|-damage|p1a: Slowpoke|248\/300
+|move|p1a: Slowpoke|Flamethrower|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|108\/235
+|
+|turn|6
+|
+|move|p2a: Vileplume|Solar Beam|p1a: Slowpoke|[still]
+|-prepare|p2a: Vileplume|Solar Beam|p1a: Slowpoke
+|move|p1a: Slowpoke|Flamethrower|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|20\/235
+|
+|-sideend|p2: Anna says hi|Mist
+|turn|7
+|c|★Anna says hi|why do I have pay day on something that isn't meowth
+|
+|switch|p1a: Butterfree|Butterfree, L73|220\/220
+|move|p2a: Vileplume|Solar Beam|p1a: Butterfree
+|-resisted|p1a: Butterfree
+|-damage|p1a: Butterfree|193\/220
+|
+|turn|8
+|
+|move|p1a: Butterfree|Psychic|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|
+|switch|p2a: Mewtwo|Mewtwo, L57|208\/226
+|turn|9
+|
+|move|p2a: Mewtwo|Flamethrower|p1a: Butterfree
+|-supereffective|p1a: Butterfree
+|-damage|p1a: Butterfree|92\/220
+|move|p1a: Butterfree|Bide|p1a: Butterfree
+|-start|p1a: Butterfree|Bide
+|
+|turn|10
+|
+|move|p2a: Mewtwo|Flamethrower|p1a: Butterfree
+|-crit|p1a: Butterfree
+|-supereffective|p1a: Butterfree
+|-damage|p1a: Butterfree|0 fnt
+|faint|p1a: Butterfree
+|
+|switch|p1a: Slowpoke|Slowpoke, L78|248\/300
+|turn|11
+|
+|move|p2a: Mewtwo|Flamethrower|p1a: Slowpoke
+|-resisted|p1a: Slowpoke
+|-damage|p1a: Slowpoke|211\/300
+|move|p1a: Slowpoke|Stomp|p2a: Mewtwo
+|-damage|p2a: Mewtwo|160\/226
+|
+|turn|12
+|
+|move|p2a: Mewtwo|Flamethrower|p1a: Slowpoke
+|-resisted|p1a: Slowpoke
+|-damage|p1a: Slowpoke|175\/300
+|move|p1a: Slowpoke|Stomp|p2a: Mewtwo
+|-damage|p2a: Mewtwo|114\/226
+|
+|turn|13
+|
+|move|p2a: Mewtwo|Flamethrower|p1a: Slowpoke
+|-crit|p1a: Slowpoke
+|-resisted|p1a: Slowpoke
+|-damage|p1a: Slowpoke|102\/300
+|move|p1a: Slowpoke|Stomp|p2a: Mewtwo
+|-damage|p2a: Mewtwo|71\/226
+|
+|turn|14
+|c|★Betathunder|stomped
+|
+|move|p2a: Mewtwo|Rest|p2a: Mewtwo
+|-status|p2a: Mewtwo|slp
+|-heal|p2a: Mewtwo|226\/226 slp|[silent]
+|-status|p2a: Mewtwo|slp|[from] move: Rest
+|move|p1a: Slowpoke|Stomp|p2a: Mewtwo
+|-damage|p2a: Mewtwo|182\/226 slp
+|
+|turn|15
+|
+|cant|p2a: Mewtwo|slp
+|move|p1a: Slowpoke|Dream Eater|p2a: Mewtwo
+|-resisted|p2a: Mewtwo
+|-damage|p2a: Mewtwo|155\/226 slp
+|-heal|p1a: Slowpoke|115\/300|[from] drain|[of] p2a: Mewtwo
+|
+|turn|16
+|c|★Betathunder|yum
+|c|★Anna says hi|rof
+|
+|-curestatus|p2a: Mewtwo|slp
+|move|p1a: Slowpoke|Dream Eater|p2a: Mewtwo
+|-immune|p2a: Mewtwo|[msg]
+|
+|turn|17
+|c|★Betathunder|fuck
+|
+|move|p2a: Mewtwo|Flamethrower|p1a: Slowpoke
+|-resisted|p1a: Slowpoke
+|-damage|p1a: Slowpoke|74\/300
+|-status|p1a: Slowpoke|brn
+|move|p1a: Slowpoke|Flamethrower|p2a: Mewtwo
+|-damage|p2a: Mewtwo|120\/226
+|-status|p2a: Mewtwo|brn
+|-damage|p1a: Slowpoke|56\/300 brn|[from] brn|[of] p2a: Mewtwo
+|
+|turn|18
+|
+|move|p2a: Mewtwo|Rest|p2a: Mewtwo
+|-status|p2a: Mewtwo|slp
+|-heal|p2a: Mewtwo|226\/226 slp|[silent]
+|-status|p2a: Mewtwo|slp|[from] move: Rest
+|move|p1a: Slowpoke|Stomp|p2a: Mewtwo
+|-damage|p2a: Mewtwo|203\/226 slp
+|-damage|p1a: Slowpoke|38\/300 brn|[from] brn|[of] p2a: Mewtwo
+|
+|turn|19
+|
+|cant|p2a: Mewtwo|slp
+|move|p1a: Slowpoke|Dream Eater|p2a: Mewtwo
+|-resisted|p2a: Mewtwo
+|-damage|p2a: Mewtwo|176\/226 slp
+|-heal|p1a: Slowpoke|51\/300 brn|[from] drain|[of] p2a: Mewtwo
+|-damage|p1a: Slowpoke|33\/300 brn|[from] brn|[of] p2a: Mewtwo
+|
+|turn|20
+|
+|-curestatus|p2a: Mewtwo|slp
+|move|p1a: Slowpoke|Dream Eater|p2a: Mewtwo
+|-immune|p2a: Mewtwo|[msg]
+|-damage|p1a: Slowpoke|15\/300 brn|[from] brn|[of] p2a: Mewtwo
+|
+|turn|21
+|c|★Betathunder|stop waking up
+|
+|move|p2a: Mewtwo|Flamethrower|p1a: Slowpoke
+|-resisted|p1a: Slowpoke
+|-damage|p1a: Slowpoke|0 fnt
+|faint|p1a: Slowpoke
+|
+|switch|p1a: Nidoking|Nidoking, L68|231\/231
+|turn|22
+|
+|move|p2a: Mewtwo|Flamethrower|p1a: Nidoking
+|-damage|p1a: Nidoking|175\/231
+|move|p1a: Nidoking|Mega Kick|p2a: Mewtwo|[miss]
+|-miss|p1a: Nidoking
+|
+|turn|23
+|
+|move|p2a: Mewtwo|Flamethrower|p1a: Nidoking
+|-damage|p1a: Nidoking|116\/231
+|-status|p1a: Nidoking|brn
+|move|p1a: Nidoking|Mega Kick|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|34\/226
+|-damage|p1a: Nidoking|102\/231 brn|[from] brn|[of] p2a: Mewtwo
+|
+|turn|24
+|c|★Betathunder|im getting lorded
+|
+|move|p2a: Mewtwo|Rest|p2a: Mewtwo
+|-status|p2a: Mewtwo|slp
+|-heal|p2a: Mewtwo|226\/226 slp|[silent]
+|-status|p2a: Mewtwo|slp|[from] move: Rest
+|move|p1a: Nidoking|Mega Kick|p2a: Mewtwo
+|-damage|p2a: Mewtwo|185\/226 slp
+|-damage|p1a: Nidoking|88\/231 brn|[from] brn|[of] p2a: Mewtwo
+|
+|turn|25
+|
+|cant|p2a: Mewtwo|slp
+|move|p1a: Nidoking|Mega Kick|p2a: Mewtwo|[miss]
+|-miss|p1a: Nidoking
+|-damage|p1a: Nidoking|74\/231 brn|[from] brn|[of] p2a: Mewtwo
+|
+|turn|26
+|c|★Betathunder|help
+|c|★Anna says hi|its mewtwo, what do you expect?
+|
+|-curestatus|p2a: Mewtwo|slp
+|move|p1a: Nidoking|Mega Kick|p2a: Mewtwo
+|-damage|p2a: Mewtwo|143\/226
+|-damage|p1a: Nidoking|60\/231 brn|[from] brn|[of] p2a: Mewtwo
+|
+|turn|27
+|join|E4 Flint
+|
+|move|p2a: Mewtwo|Flamethrower|p1a: Nidoking|[miss]
+|-miss|p2a: Mewtwo
+|move|p1a: Nidoking|Mega Kick|p2a: Mewtwo|[miss]
+|-miss|p1a: Nidoking
+|-damage|p1a: Nidoking|46\/231 brn|[from] brn|[of] p2a: Mewtwo
+|
+|turn|28
+|c|★Anna says hi|le based 1\/256 miss
+|
+|move|p2a: Mewtwo|Flamethrower|p1a: Nidoking
+|-crit|p1a: Nidoking
+|-damage|p1a: Nidoking|0 fnt
+|faint|p1a: Nidoking
+|c|★Betathunder|gg
+|
+|switch|p1a: Venusaur|Venusaur, L66|239\/239
+|turn|29
+|
+|move|p2a: Mewtwo|Flamethrower|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|128\/239
+|move|p1a: Venusaur|Razor Leaf|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|71\/226
+|
+|turn|30
+|
+|switch|p2a: Koffing|Koffing, L75|199\/199
+|move|p1a: Venusaur|Razor Leaf|p2a: Koffing
+|-crit|p2a: Koffing
+|-resisted|p2a: Koffing
+|-damage|p2a: Koffing|146\/199
+|
+|turn|31
+|
+|move|p1a: Venusaur|Razor Leaf|p2a: Koffing
+|-crit|p2a: Koffing
+|-resisted|p2a: Koffing
+|-damage|p2a: Koffing|91\/199
+|move|p2a: Koffing|Flamethrower|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|32\/239
+|
+|turn|32
+|join|I ONLY USE KLEFKI
+|c| I ONLY USE KLEFKI|hi anna
+|
+|move|p1a: Venusaur|Razor Leaf|p2a: Koffing
+|-crit|p2a: Koffing
+|-resisted|p2a: Koffing
+|-damage|p2a: Koffing|40\/199
+|move|p2a: Koffing|Flamethrower|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|
+|switch|p1a: Magnemite|Magnemite, L75|189\/189
+|turn|33
+|c|★Betathunder|nice 4\/6 mons weak to fire
+|c|★Betathunder|one of which is caterpie
+|
+|move|p2a: Koffing|Sludge|p1a: Magnemite
+|-damage|p1a: Magnemite|132\/189
+|move|p1a: Magnemite|Thunderbolt|p2a: Koffing
+|-damage|p2a: Koffing|0 fnt
+|faint|p2a: Koffing
+|c|★Anna says hi|i only see 3 mons weak to fire
+|
+|switch|p2a: Venonat|Venonat, L79|247\/247
+|turn|34
+|leave|E4 Flint
+|
+|move|p2a: Venonat|Toxic|p1a: Magnemite
+|-status|p1a: Magnemite|tox
+|move|p1a: Magnemite|Double-Edge|p2a: Venonat
+|-damage|p2a: Venonat|195\/247
+|-damage|p1a: Magnemite|119\/189 tox|[from] recoil|[of] p2a: Venonat
+|-damage|p1a: Magnemite|108\/189 tox|[from] tox|[of] p2a: Venonat
+|
+|turn|35
+|leave|I ONLY USE KLEFKI
+|c|★Betathunder|caterpie butterfree venu and this
+|
+|move|p2a: Venonat|Swift|p1a: Magnemite
+|-damage|p1a: Magnemite|71\/189 tox
+|move|p1a: Magnemite|Double-Edge|p2a: Venonat
+|-damage|p2a: Venonat|146\/247
+|-damage|p1a: Magnemite|59\/189 tox|[from] recoil|[of] p2a: Venonat
+|-damage|p1a: Magnemite|37\/189 tox|[from] tox|[of] p2a: Venonat
+|
+|turn|36
+|c|★Anna says hi|magnemite isn't weak to fire
+|c|★Betathunder|it isnt
+|c|★Betathunder|waaa
+|
+|move|p2a: Venonat|Swift|p1a: Magnemite
+|-damage|p1a: Magnemite|0 fnt
+|faint|p1a: Magnemite
+|
+|win|Anna says hi
+|c|★Anna says hi|electric isn't weak to fire in gen 1
+|c|★Betathunder|gen 1 is weird
+|leave|Betathunder
+|player|p1
+|leave|Anna says hi
+|player|p2
+|join|Anna says hi

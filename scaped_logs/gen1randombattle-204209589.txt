@@ -1,0 +1,304 @@
+﻿|join|Leotronico
+|join|Netpix
+|player|p1|Leotronico|156
+|player|p2|Netpix|169
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Clefable|Clefable, L86|339\/339
+|switch|p2a: Porygon|Porygon, L86|287\/287
+|turn|1
+|
+|move|p1a: Clefable|Thunder Wave|p2a: Porygon
+|-status|p2a: Porygon|par
+|cant|p2a: Porygon|par
+|
+|turn|2
+|
+|move|p1a: Clefable|Thunder|p2a: Porygon
+|-damage|p2a: Porygon|200\/287 par
+|move|p2a: Porygon|Ice Beam|p1a: Clefable
+|-damage|p1a: Clefable|281\/339
+|
+|turn|3
+|
+|move|p1a: Clefable|Thunder|p2a: Porygon|[miss]
+|-miss|p1a: Clefable
+|move|p2a: Porygon|Blizzard|p1a: Clefable
+|-damage|p1a: Clefable|209\/339
+|
+|turn|4
+|
+|move|p1a: Clefable|Thunder Wave|p2a: Porygon
+|-fail|p2a: Porygon|par
+|move|p2a: Porygon|Blizzard|p1a: Clefable
+|-damage|p1a: Clefable|131\/339
+|-status|p1a: Clefable|frz
+|
+|turn|5
+|
+|cant|p1a: Clefable|frz
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|287\/287 par
+|
+|turn|6
+|
+|switch|p1a: Ninetales|Ninetales, L86|301\/301
+|move|p2a: Porygon|Hyper Beam|p1a: Ninetales
+|-damage|p1a: Ninetales|157\/301
+|
+|turn|7
+|
+|move|p1a: Ninetales|Confuse Ray|p2a: Porygon
+|-start|p2a: Porygon|confusion
+|-activate|p2a: Porygon|confusion
+|-damage|p2a: Porygon|259\/287 par|[from] confusion
+|
+|turn|8
+|
+|move|p1a: Ninetales|Fire Blast|p2a: Porygon
+|-damage|p2a: Porygon|118\/287 par
+|-end|p2a: Porygon|confusion
+|move|p2a: Porygon|Hyper Beam|p1a: Ninetales
+|-crit|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|switch|p1a: Kangaskhan|Kangaskhan, L86|356\/356
+|turn|9
+|
+|move|p1a: Kangaskhan|Body Slam|p2a: Porygon
+|-damage|p2a: Porygon|13\/287 par
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|156\/287 par
+|
+|turn|10
+|
+|move|p1a: Kangaskhan|Body Slam|p2a: Porygon
+|-damage|p2a: Porygon|54\/287 par
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|197\/287 par
+|
+|turn|11
+|
+|move|p1a: Kangaskhan|Body Slam|p2a: Porygon
+|-damage|p2a: Porygon|96\/287 par
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|239\/287 par
+|
+|turn|12
+|
+|move|p1a: Kangaskhan|Body Slam|p2a: Porygon
+|-damage|p2a: Porygon|138\/287 par
+|move|p2a: Porygon|Blizzard|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|252\/356
+|
+|turn|13
+|
+|move|p1a: Kangaskhan|Hyper Beam|p2a: Porygon|[miss]
+|-miss|p1a: Kangaskhan
+|move|p2a: Porygon|Hyper Beam|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|113\/356
+|
+|turn|14
+|
+|move|p1a: Kangaskhan|Body Slam|p2a: Porygon
+|-damage|p2a: Porygon|38\/287 par
+|cant|p2a: Porygon|par
+|
+|turn|15
+|
+|move|p1a: Kangaskhan|Body Slam|p2a: Porygon
+|-damage|p2a: Porygon|0 fnt
+|faint|p2a: Porygon
+|
+|switch|p2a: Zapdos|Zapdos, L82|315\/315
+|turn|16
+|
+|switch|p1a: Golem|Golem, L82|299\/299
+|move|p2a: Zapdos|Thunderbolt|p1a: Golem
+|-immune|p1a: Golem|[msg]
+|
+|turn|17
+|
+|switch|p2a: Hitmonlee|Hitmonlee, L86|261\/261
+|move|p1a: Golem|Body Slam|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|183\/261
+|
+|turn|18
+|
+|switch|p1a: Clefable|Clefable, L86|131\/339 frz
+|move|p2a: Hitmonlee|Seismic Toss|p1a: Clefable
+|-damage|p1a: Clefable|45\/339 frz
+|
+|turn|19
+|
+|move|p2a: Hitmonlee|Seismic Toss|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|switch|p1a: Kadabra|Kadabra, L86|244\/244
+|turn|20
+|
+|switch|p2a: Zapdos|Zapdos, L82|315\/315
+|move|p1a: Kadabra|Psychic|p2a: Zapdos
+|-damage|p2a: Zapdos|220\/315
+|
+|turn|21
+|
+|switch|p1a: Golem|Golem, L82|299\/299
+|move|p2a: Zapdos|Thunder Wave|p1a: Golem
+|-immune|p1a: Golem|[msg]
+|
+|turn|22
+|
+|switch|p2a: Hitmonlee|Hitmonlee, L86|183\/261
+|move|p1a: Golem|Body Slam|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|107\/261
+|-status|p2a: Hitmonlee|par
+|
+|turn|23
+|
+|move|p1a: Golem|Earthquake|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|0 fnt
+|faint|p2a: Hitmonlee
+|
+|switch|p2a: Pinsir|Pinsir, L86|287\/287
+|turn|24
+|
+|move|p2a: Pinsir|Submission|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|187\/299
+|-damage|p2a: Pinsir|259\/287|[from] recoil|[of] p1a: Golem
+|move|p1a: Golem|Rock Slide|p2a: Pinsir
+|-supereffective|p2a: Pinsir
+|-damage|p2a: Pinsir|102\/287
+|
+|turn|25
+|
+|switch|p1a: Starmie|Starmie, L82|266\/266
+|move|p2a: Pinsir|Submission|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|229\/266
+|-damage|p2a: Pinsir|93\/287|[from] recoil|[of] p1a: Starmie
+|
+|turn|26
+|
+|move|p1a: Starmie|Surf|p2a: Pinsir
+|-damage|p2a: Pinsir|0 fnt
+|faint|p2a: Pinsir
+|
+|switch|p2a: Zapdos|Zapdos, L82|220\/315
+|turn|27
+|
+|switch|p1a: Golem|Golem, L82|187\/299
+|move|p2a: Zapdos|Drill Peck|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|159\/299
+|
+|turn|28
+|
+|switch|p2a: Golem|Golem, L82|299\/299
+|move|p1a: Golem|Body Slam|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|277\/299
+|
+|turn|29
+|
+|switch|p1a: Starmie|Starmie, L82|229\/266
+|move|p2a: Golem|Earthquake|p1a: Starmie
+|-damage|p1a: Starmie|117\/266
+|
+|turn|30
+|
+|switch|p2a: Zapdos|Zapdos, L82|220\/315
+|move|p1a: Starmie|Surf|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|64\/315
+|
+|turn|31
+|
+|switch|p1a: Golem|Golem, L82|159\/299
+|move|p2a: Zapdos|Drill Peck|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|129\/299
+|
+|turn|32
+|
+|switch|p2a: Golem|Golem, L82|277\/299
+|move|p1a: Golem|Earthquake|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|114\/299
+|
+|turn|33
+|
+|switch|p1a: Starmie|Starmie, L82|117\/266
+|move|p2a: Golem|Earthquake|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|switch|p1a: Kadabra|Kadabra, L86|244\/244
+|turn|34
+|
+|move|p1a: Kadabra|Psychic|p2a: Golem
+|-crit|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|
+|switch|p2a: Zapdos|Zapdos, L82|64\/315
+|turn|35
+|
+|switch|p1a: Golem|Golem, L82|129\/299
+|move|p2a: Zapdos|Drill Peck|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|101\/299
+|
+|turn|36
+|
+|switch|p2a: Butterfree|Butterfree, L86|279\/279
+|move|p1a: Golem|Body Slam|p2a: Butterfree
+|-damage|p2a: Butterfree|201\/279
+|
+|turn|37
+|
+|switch|p1a: Kangaskhan|Kangaskhan, L86|113\/356
+|move|p2a: Butterfree|Mega Drain|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|71\/356
+|-heal|p2a: Butterfree|222\/279|[from] drain|[of] p1a: Kangaskhan
+|
+|turn|38
+|
+|move|p1a: Kangaskhan|Hyper Beam|p2a: Butterfree|[miss]
+|-miss|p1a: Kangaskhan
+|move|p2a: Butterfree|Psychic|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|0 fnt
+|faint|p1a: Kangaskhan
+|
+|switch|p1a: Kadabra|Kadabra, L86|244\/244
+|turn|39
+|
+|move|p1a: Kadabra|Psychic|p2a: Butterfree
+|-crit|p2a: Butterfree
+|-damage|p2a: Butterfree|0 fnt
+|faint|p2a: Butterfree
+|c|★Leotronico|gg
+|c|★Netpix|gg
+|
+|switch|p2a: Zapdos|Zapdos, L82|64\/315
+|turn|40
+|
+|move|p1a: Kadabra|Psychic|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|win|Leotronico
+|raw|Ladder updating...
+|raw|Leotronico's rating: 1372 &rarr; <strong>1381<\/strong><br \/>(+9 for winning)
+|raw|Netpix's rating: 1162 &rarr; <strong>1150<\/strong><br \/>(-12 for losing)

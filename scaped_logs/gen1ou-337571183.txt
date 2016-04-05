@@ -1,0 +1,123 @@
+﻿|j|LiloS
+|j|Forest Hatman
+|player|p1|LiloS|1
+|player|p2|Forest Hatman|102
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|seed|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jolteon|Jolteon|100\/100
+|switch|p2a: Gengar|Gengar|100\/100
+|turn|1
+|choice||
+|
+|move|p1a: Jolteon|Thunder Wave|p2a: Gengar
+|-status|p2a: Gengar|par
+|move|p2a: Gengar|Hypnosis|p1a: Jolteon
+|-status|p1a: Jolteon|slp
+|
+|turn|2
+|choice||
+|
+|cant|p1a: Jolteon|slp
+|move|p2a: Gengar|Psychic|p1a: Jolteon
+|-damage|p1a: Jolteon|75\/100 slp
+|-unboost|p1a: Jolteon|spd|1
+|-unboost|p1a: Jolteon|spa|1
+|
+|turn|3
+|choice||
+|
+|cant|p1a: Jolteon|slp
+|move|p2a: Gengar|Psychic|p1a: Jolteon
+|-damage|p1a: Jolteon|40\/100 slp
+|-unboost|p1a: Jolteon|spd|1
+|-unboost|p1a: Jolteon|spa|1
+|
+|turn|4
+|choice||
+|
+|cant|p1a: Jolteon|slp
+|move|p2a: Gengar|Psychic|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|choice||
+|
+|switch|p1a: Tauros|Tauros|100\/100
+|turn|5
+|choice||
+|
+|switch|p2a: Exeggutor|Exeggutor|100\/100
+|move|p1a: Tauros|Earthquake|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|92\/100
+|
+|turn|6
+|choice||
+|
+|switch|p1a: Chansey|Chansey|100\/100
+|move|p2a: Exeggutor|Sleep Powder|p1a: Chansey
+|-status|p1a: Chansey|slp
+|
+|turn|7
+|choice||
+|
+|switch|p2a: Snorlax|Snorlax|100\/100
+|cant|p1a: Chansey|slp
+|
+|turn|8
+|choice||
+|
+|cant|p1a: Chansey|slp
+|move|p2a: Snorlax|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|57\/100 slp
+|
+|turn|9
+|choice||
+|
+|cant|p1a: Chansey|slp
+|move|p2a: Snorlax|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|18\/100 slp
+|
+|turn|10
+|choice||
+|
+|cant|p1a: Chansey|slp
+|move|p2a: Snorlax|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|choice||
+|
+|switch|p1a: Exeggutor|Exeggutor|100\/100
+|turn|11
+|choice||
+|
+|switch|p2a: Gengar|Gengar|100\/100 par
+|move|p1a: Exeggutor|Sleep Powder|p2a: Gengar|[miss]
+|-miss|p1a: Exeggutor
+|
+|turn|12
+|choice||
+|
+|move|p1a: Exeggutor|Explosion|p2a: Gengar
+|-immune|p2a: Gengar|[msg]
+|faint|p1a: Exeggutor
+|c|★LiloS|Gg man
+|c|★Forest Hatman|gg
+|-message|LiloS forfeited.
+|
+|win|Forest Hatman
+|player|p1
+|player|p2
+|l|LiloS
+|raw|LiloS's rating: 1157 &rarr; <strong>1121<\/strong><br \/>(-36 for losing)
+|raw|Forest Hatman's rating: 1000 &rarr; <strong>1057<\/strong><br \/>(+57 for winning)

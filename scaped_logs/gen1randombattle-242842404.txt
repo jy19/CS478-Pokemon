@@ -1,0 +1,182 @@
+﻿|join|Psychedelic Trip
+|join|LordB.P.
+|player|p1|Psychedelic Trip|168
+|player|p2|LordB.P.|266
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Persian|Persian, L79|265\/265
+|switch|p2a: Rhydon|Rhydon, L79|328\/328
+|turn|1
+|
+|switch|p1a: Porygon|Porygon, L85|284\/284
+|move|p2a: Rhydon|Body Slam|p1a: Porygon
+|-damage|p1a: Porygon|210\/284
+|
+|turn|2
+|
+|switch|p2a: Venomoth|Venomoth, L85|293\/293
+|move|p1a: Porygon|Tri Attack|p2a: Venomoth
+|-damage|p2a: Venomoth|211\/293
+|
+|turn|3
+|
+|move|p2a: Venomoth|Stun Spore|p1a: Porygon
+|-status|p1a: Porygon|par
+|move|p1a: Porygon|Sharpen|p1a: Porygon
+|-boost|p1a: Porygon|atk|1
+|
+|turn|4
+|
+|move|p2a: Venomoth|Psychic|p1a: Porygon
+|-damage|p1a: Porygon|136\/284 par
+|move|p1a: Porygon|Sharpen|p1a: Porygon
+|-boost|p1a: Porygon|atk|1
+|
+|turn|5
+|
+|move|p2a: Venomoth|Psychic|p1a: Porygon
+|-damage|p1a: Porygon|72\/284 par
+|-unboost|p1a: Porygon|spd|1
+|-unboost|p1a: Porygon|spa|1
+|move|p1a: Porygon|Tri Attack|p2a: Venomoth
+|-damage|p2a: Venomoth|59\/293
+|
+|turn|6
+|
+|move|p2a: Venomoth|Psychic|p1a: Porygon
+|-crit|p1a: Porygon
+|-damage|p1a: Porygon|0 fnt
+|faint|p1a: Porygon
+|
+|switch|p1a: Persian|Persian, L79|265\/265
+|turn|7
+|
+|switch|p2a: Rhydon|Rhydon, L79|328\/328
+|move|p1a: Persian|Slash|p2a: Rhydon
+|-crit|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|287\/328
+|
+|turn|8
+|
+|move|p1a: Persian|Screech|p2a: Rhydon
+|-unboost|p2a: Rhydon|def|2
+|move|p2a: Rhydon|Body Slam|p1a: Persian
+|-damage|p1a: Persian|182\/265
+|
+|turn|9
+|
+|move|p1a: Persian|Slash|p2a: Rhydon
+|-crit|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|245\/328
+|move|p2a: Rhydon|Body Slam|p1a: Persian
+|-crit|p1a: Persian
+|-damage|p1a: Persian|19\/265
+|
+|turn|10
+|
+|move|p1a: Persian|Hyper Beam|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|151\/328
+|move|p2a: Rhydon|Earthquake|p1a: Persian
+|-damage|p1a: Persian|0 fnt
+|faint|p1a: Persian
+|
+|switch|p1a: Victreebel|Victreebel, L85|310\/310
+|turn|11
+|
+|switch|p2a: Venusaur|Venusaur, L85|310\/310
+|move|p1a: Victreebel|Razor Leaf|p2a: Venusaur
+|-crit|p2a: Venusaur
+|-resisted|p2a: Venusaur
+|-damage|p2a: Venusaur|282\/310
+|
+|turn|12
+|
+|move|p2a: Venusaur|Sleep Powder|p1a: Victreebel
+|-status|p1a: Victreebel|slp
+|cant|p1a: Victreebel|slp
+|
+|turn|13
+|
+|switch|p1a: Flareon|Flareon, L90|300\/300
+|move|p2a: Venusaur|Swords Dance|p2a: Venusaur
+|-boost|p2a: Venusaur|atk|2
+|
+|turn|14
+|
+|switch|p2a: Seadra|Seadra, L90|282\/282
+|move|p1a: Flareon|Fire Blast|p2a: Seadra
+|-resisted|p2a: Seadra
+|-damage|p2a: Seadra|212\/282
+|
+|turn|15
+|
+|switch|p1a: Ivysaur|Ivysaur, L85|276\/276
+|move|p2a: Seadra|Surf|p1a: Ivysaur
+|-resisted|p1a: Ivysaur
+|-damage|p1a: Ivysaur|218\/276
+|
+|turn|16
+|
+|move|p2a: Seadra|Blizzard|p1a: Ivysaur
+|-crit|p1a: Ivysaur
+|-supereffective|p1a: Ivysaur
+|-damage|p1a: Ivysaur|0 fnt
+|faint|p1a: Ivysaur
+|
+|switch|p1a: Dragonair|Dragonair, L85|277\/277
+|turn|17
+|
+|move|p2a: Seadra|Blizzard|p1a: Dragonair
+|-crit|p1a: Dragonair
+|-supereffective|p1a: Dragonair
+|-damage|p1a: Dragonair|0 fnt
+|faint|p1a: Dragonair
+|
+|switch|p1a: Flareon|Flareon, L90|300\/300
+|turn|18
+|
+|move|p2a: Seadra|Hydro Pump|p1a: Flareon
+|-supereffective|p1a: Flareon
+|-damage|p1a: Flareon|80\/300
+|move|p1a: Flareon|Body Slam|p2a: Seadra
+|-damage|p2a: Seadra|135\/282
+|
+|turn|19
+|
+|move|p2a: Seadra|Surf|p1a: Flareon
+|-crit|p1a: Flareon
+|-supereffective|p1a: Flareon
+|-damage|p1a: Flareon|0 fnt
+|faint|p1a: Flareon
+|
+|switch|p1a: Victreebel|Victreebel, L85|310\/310 slp
+|turn|20
+|
+|move|p2a: Seadra|Blizzard|p1a: Victreebel|[miss]
+|-miss|p2a: Seadra
+|cant|p1a: Victreebel|slp
+|
+|turn|21
+|
+|move|p2a: Seadra|Blizzard|p1a: Victreebel
+|-crit|p1a: Victreebel
+|-supereffective|p1a: Victreebel
+|-damage|p1a: Victreebel|0 fnt
+|faint|p1a: Victreebel
+|
+|win|LordB.P.
+|raw|Ladder updating...
+|raw|Psychedelic Trip's rating: 1269 &rarr; <strong>1244<\/strong><br \/>(-25 for losing)
+|raw|LordB.P.'s rating: 1271 &rarr; <strong>1296<\/strong><br \/>(+25 for winning)
+|leave|Psychedelic Trip
+|player|p1

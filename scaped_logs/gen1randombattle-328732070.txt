@@ -1,0 +1,287 @@
+﻿|j|Dervodel2
+|j|thomas68hotmail.es
+|player|p1|Dervodel2|238
+|player|p2|thomas68hotmail.es|2
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|52553,45078,15648,33430
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Seadra|Seadra, L90|282\/282
+|switch|p2a: Dugtrio|Dugtrio, L85|233\/233
+|turn|1
+|choice|move 3|switch 3
+|
+|switch|p2a: Chansey|Chansey, L79|557\/557
+|move|p1a: Seadra|Blizzard|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|369\/557
+|
+|turn|2
+|choice|switch 5|move 3
+|
+|switch|p1a: Lickitung|Lickitung, L90|345\/345
+|move|p2a: Chansey|Thunder Wave|p1a: Lickitung
+|-status|p1a: Lickitung|par
+|
+|turn|3
+|choice|move 4|move 1
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|557\/557
+|cant|p1a: Lickitung|par
+|
+|turn|4
+|choice|move 4|switch 3
+|
+|switch|p2a: Dugtrio|Dugtrio, L85|233\/233
+|move|p1a: Lickitung|Swords Dance|p1a: Lickitung
+|-boost|p1a: Lickitung|atk|2
+|
+|turn|5
+|choice|move 3|move 4
+|
+|move|p2a: Dugtrio|Sand Attack|p1a: Lickitung
+|-unboost|p1a: Lickitung|accuracy|1
+|move|p1a: Lickitung|Earthquake|p2a: Dugtrio|[miss]
+|-miss|p1a: Lickitung
+|
+|turn|6
+|choice|move 3|move 1
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Lickitung
+|-crit|p1a: Lickitung
+|-damage|p1a: Lickitung|141\/345 par
+|move|p1a: Lickitung|Earthquake|p2a: Dugtrio|[miss]
+|-miss|p1a: Lickitung
+|
+|turn|7
+|choice|move 3|move 1
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Lickitung
+|-damage|p1a: Lickitung|46\/345 par
+|move|p1a: Lickitung|Earthquake|p2a: Dugtrio
+|-damage|p2a: Dugtrio|65\/233
+|
+|turn|8
+|choice|move 1|move 1
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Lickitung
+|-damage|p1a: Lickitung|0 fnt
+|faint|p1a: Lickitung
+|choice|switch 5|
+|
+|switch|p1a: Seadra|Seadra, L90|282\/282
+|turn|9
+|choice|move 4|move 3
+|
+|move|p2a: Dugtrio|Slash|p1a: Seadra
+|-crit|p1a: Seadra
+|-damage|p1a: Seadra|207\/282
+|move|p1a: Seadra|Mimic|p2a: Dugtrio
+|-start|p1a: Seadra|Mimic|Earthquake
+|
+|turn|10
+|choice|move 2|move 3
+|
+|move|p2a: Dugtrio|Slash|p1a: Seadra
+|-crit|p1a: Seadra
+|-damage|p1a: Seadra|130\/282
+|move|p1a: Seadra|Surf|p2a: Dugtrio
+|-crit|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|choice||switch 3
+|
+|switch|p2a: Chansey|Chansey, L79|557\/557
+|turn|11
+|choice|move 4|move 3
+|
+|move|p1a: Seadra|Earthquake|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|241\/557
+|move|p2a: Chansey|Thunder Wave|p1a: Seadra
+|-status|p1a: Seadra|par
+|
+|turn|12
+|choice|switch 6|move 1
+|
+|switch|p1a: Pinsir|Pinsir, L85|284\/284
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|519\/557
+|
+|turn|13
+|choice|move 3|move 4
+|
+|move|p1a: Pinsir|Submission|p2a: Chansey
+|-supereffective|p2a: Chansey
+|-damage|p2a: Chansey|164\/557
+|-damage|p1a: Pinsir|196\/284|[from] recoil|[of] p2a: Chansey
+|move|p2a: Chansey|Counter|p1a: Pinsir
+|-damage|p1a: Pinsir|0 fnt
+|faint|p1a: Pinsir
+|choice|switch 4|
+|
+|switch|p1a: Arcanine|Arcanine, L85|327\/327
+|turn|14
+|choice|move 3|move 3
+|
+|move|p1a: Arcanine|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|choice||switch 2
+|
+|switch|p2a: Omastar|Omastar, L90|309\/309
+|turn|15
+|choice|switch 6|move 3
+|
+|switch|p1a: Seadra|Seadra, L90|130\/282 par
+|move|p2a: Omastar|Hydro Pump|p1a: Seadra
+|-resisted|p1a: Seadra
+|-damage|p1a: Seadra|58\/282 par
+|
+|turn|16
+|choice|move 2|move 3
+|
+|move|p2a: Omastar|Hydro Pump|p1a: Seadra
+|-resisted|p1a: Seadra
+|-damage|p1a: Seadra|0 fnt
+|faint|p1a: Seadra
+|choice|switch 2|
+|
+|switch|p1a: Poliwag|Poliwag, L96|272\/272
+|turn|17
+|choice|move 3|switch 4
+|
+|switch|p2a: Raichu|Raichu, L85|276\/276
+|move|p1a: Poliwag|Hypnosis|p2a: Raichu
+|-status|p2a: Raichu|slp
+|
+|turn|18
+|choice|move 1|move 3
+|
+|move|p1a: Poliwag|Amnesia|p1a: Poliwag
+|-boost|p1a: Poliwag|spd|2
+|-boost|p1a: Poliwag|spa|2
+|-curestatus|p2a: Raichu|slp
+|
+|turn|19
+|choice|move 3|move 3
+|
+|move|p1a: Poliwag|Hypnosis|p2a: Raichu|[miss]
+|-miss|p1a: Poliwag
+|move|p2a: Raichu|Thunderbolt|p1a: Poliwag
+|-supereffective|p1a: Poliwag
+|-damage|p1a: Poliwag|128\/272
+|
+|turn|20
+|choice|move 3|move 3
+|
+|move|p1a: Poliwag|Hypnosis|p2a: Raichu
+|-status|p2a: Raichu|slp
+|cant|p2a: Raichu|slp
+|
+|turn|21
+|choice|move 1|move 3
+|
+|move|p1a: Poliwag|Amnesia|p1a: Poliwag
+|-boost|p1a: Poliwag|spd|2
+|-boost|p1a: Poliwag|spa|2
+|cant|p2a: Raichu|slp
+|
+|turn|22
+|choice|move 1|move 4
+|
+|move|p1a: Poliwag|Amnesia|p1a: Poliwag
+|-boost|p1a: Poliwag|spd|2
+|-boost|p1a: Poliwag|spa|2
+|cant|p2a: Raichu|slp
+|
+|turn|23
+|choice|move 4|move 4
+|
+|move|p1a: Poliwag|Psychic|p2a: Raichu
+|-crit|p2a: Raichu
+|-damage|p2a: Raichu|182\/276 slp
+|cant|p2a: Raichu|slp
+|
+|turn|24
+|choice|move 4|move 4
+|
+|move|p1a: Poliwag|Psychic|p2a: Raichu
+|-damage|p2a: Raichu|0 fnt
+|faint|p2a: Raichu
+|choice||switch 6
+|
+|switch|p2a: Arbok|Arbok, L90|291\/291
+|turn|25
+|choice|move 4|move 2
+|
+|move|p1a: Poliwag|Psychic|p2a: Arbok
+|-crit|p2a: Arbok
+|-supereffective|p2a: Arbok
+|-damage|p2a: Arbok|80\/291
+|move|p2a: Arbok|Body Slam|p1a: Poliwag
+|-damage|p1a: Poliwag|36\/272
+|-status|p1a: Poliwag|par
+|
+|turn|26
+|choice|move 4|move 2
+|
+|move|p2a: Arbok|Body Slam|p1a: Poliwag
+|-damage|p1a: Poliwag|0 fnt
+|faint|p1a: Poliwag
+|choice|switch 3|
+|
+|switch|p1a: Golem|Golem, L79|288\/288
+|turn|27
+|choice|move 2|switch 4
+|
+|switch|p2a: Omastar|Omastar, L90|309\/309
+|move|p1a: Golem|Earthquake|p2a: Omastar
+|-supereffective|p2a: Omastar
+|-damage|p2a: Omastar|155\/309
+|
+|turn|28
+|choice|move 2|move 3
+|
+|move|p2a: Omastar|Hydro Pump|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|0 fnt
+|faint|p1a: Golem
+|choice|switch 6|
+|
+|switch|p1a: Arcanine|Arcanine, L85|327\/327
+|turn|29
+|choice|move 2|move 3
+|
+|move|p1a: Arcanine|Fire Blast|p2a: Omastar
+|-resisted|p2a: Omastar
+|-damage|p2a: Omastar|132\/309
+|move|p2a: Omastar|Hydro Pump|p1a: Arcanine|[miss]
+|-miss|p2a: Omastar
+|
+|turn|30
+|choice|move 3|move 3
+|
+|move|p1a: Arcanine|Body Slam|p2a: Omastar
+|-resisted|p2a: Omastar
+|-damage|p2a: Omastar|108\/309
+|-status|p2a: Omastar|par
+|move|p2a: Omastar|Hydro Pump|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|win|thomas68hotmail.es
+|player|p1
+|player|p2
+|raw|Dervodel2's rating: 1281 &rarr; <strong>1248<\/strong><br \/>(-33 for losing)
+|raw|thomas68hotmail.es's rating: 1173 &rarr; <strong>1206<\/strong><br \/>(+33 for winning)
+|l|thomas68hotmail.es

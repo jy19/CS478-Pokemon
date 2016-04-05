@@ -1,0 +1,238 @@
+﻿|join|Bollowegen
+|join|Abstrix
+|player|p1|Bollowegen|100
+|player|p2|Abstrix|8
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Cubone|Cubone, L96|291\/291
+|switch|p2a: Nidoran-M|Nidoran-M, L96|283\/283
+|turn|1
+|
+|move|p2a: Nidoran-M|Body Slam|p1a: Cubone
+|-damage|p1a: Cubone|246\/291
+|move|p1a: Cubone|Earthquake|p2a: Nidoran-M
+|-supereffective|p2a: Nidoran-M
+|-damage|p2a: Nidoran-M|41\/283
+|
+|turn|2
+|
+|move|p2a: Nidoran-M|Body Slam|p1a: Cubone
+|-damage|p1a: Cubone|199\/291
+|move|p1a: Cubone|Body Slam|p2a: Nidoran-M
+|-damage|p2a: Nidoran-M|0 fnt
+|faint|p2a: Nidoran-M
+|
+|switch|p2a: Drowzee|Drowzee, L96|310\/310
+|turn|3
+|
+|switch|p1a: Drowzee|Drowzee, L96|310\/310
+|move|p2a: Drowzee|Hypnosis|p1a: Drowzee
+|-status|p1a: Drowzee|slp
+|
+|turn|4
+|
+|switch|p2a: Magneton|Magneton, L90|273\/273
+|switch|p1a: Lickitung|Lickitung, L90|345\/345
+|
+|turn|5
+|
+|switch|p2a: Machamp|Machamp, L90|345\/345
+|move|p1a: Lickitung|Earthquake|p2a: Machamp
+|-damage|p2a: Machamp|290\/345
+|
+|turn|6
+|
+|switch|p1a: Starmie|Starmie, L79|257\/257
+|move|p2a: Machamp|Submission|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|193\/257
+|-damage|p2a: Machamp|274\/345|[from] recoil|[of] p1a: Starmie
+|
+|turn|7
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Machamp
+|-status|p2a: Machamp|par
+|move|p2a: Machamp|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|100\/257
+|-status|p1a: Starmie|par
+|
+|turn|8
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|228\/257 par
+|move|p2a: Machamp|Hyper Beam|p1a: Starmie
+|-damage|p1a: Starmie|58\/257 par
+|
+|turn|9
+|-mustrecharge|p2a: Machamp
+|-mustrecharge|p2a: Machamp
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|186\/257 par
+|cant|p2a: Machamp|recharge
+|
+|turn|10
+|
+|move|p1a: Starmie|Surf|p2a: Machamp
+|-crit|p2a: Machamp
+|-damage|p2a: Machamp|65\/345 par
+|move|p2a: Machamp|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|88\/257 par
+|
+|turn|11
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|216\/257 par
+|cant|p2a: Machamp|par
+|
+|turn|12
+|
+|move|p1a: Starmie|Surf|p2a: Machamp
+|-damage|p2a: Machamp|0 fnt
+|faint|p2a: Machamp
+|
+|switch|p2a: Magneton|Magneton, L90|273\/273
+|turn|13
+|
+|switch|p1a: Cubone|Cubone, L96|199\/291
+|move|p2a: Magneton|Mimic|p1a: Cubone
+|-start|p2a: Magneton|Mimic|Blizzard
+|
+|turn|14
+|
+|switch|p1a: Drowzee|Drowzee, L96|310\/310 slp
+|move|p2a: Magneton|Blizzard|p1a: Drowzee|[miss]
+|-miss|p2a: Magneton
+|
+|turn|15
+|
+|switch|p1a: Cubone|Cubone, L96|199\/291
+|move|p2a: Magneton|Thunderbolt|p1a: Cubone
+|-immune|p1a: Cubone|[msg]
+|
+|turn|16
+|
+|switch|p1a: Drowzee|Drowzee, L96|310\/310 slp
+|move|p2a: Magneton|Blizzard|p1a: Drowzee
+|-damage|p1a: Drowzee|208\/310 slp
+|
+|turn|17
+|
+|move|p2a: Magneton|Blizzard|p1a: Drowzee
+|-damage|p1a: Drowzee|115\/310 slp
+|cant|p1a: Drowzee|slp
+|
+|turn|18
+|
+|move|p2a: Magneton|Thunderbolt|p1a: Drowzee
+|-damage|p1a: Drowzee|6\/310 slp
+|cant|p1a: Drowzee|slp
+|
+|turn|19
+|
+|switch|p1a: Lickitung|Lickitung, L90|345\/345
+|move|p2a: Magneton|Blizzard|p1a: Lickitung
+|-damage|p1a: Lickitung|222\/345
+|
+|turn|20
+|
+|move|p2a: Magneton|Blizzard|p1a: Lickitung
+|-damage|p1a: Lickitung|87\/345
+|move|p1a: Lickitung|Earthquake|p2a: Magneton
+|-supereffective|p2a: Magneton
+|-damage|p2a: Magneton|170\/273
+|
+|turn|21
+|
+|move|p2a: Magneton|Thunderbolt|p1a: Lickitung
+|-damage|p1a: Lickitung|0 fnt
+|faint|p1a: Lickitung
+|
+|switch|p1a: Hitmonchan|Hitmonchan, L90|273\/273
+|turn|22
+|
+|move|p1a: Hitmonchan|Body Slam|p2a: Magneton
+|-damage|p2a: Magneton|109\/273
+|move|p2a: Magneton|Thunderbolt|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|51\/273
+|
+|turn|23
+|
+|move|p1a: Hitmonchan|Submission|p2a: Magneton
+|-damage|p2a: Magneton|23\/273
+|-damage|p1a: Hitmonchan|30\/273|[from] recoil|[of] p2a: Magneton
+|move|p2a: Magneton|Thunderbolt|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|0 fnt
+|faint|p1a: Hitmonchan
+|
+|switch|p1a: Omastar|Omastar, L90|309\/309
+|turn|24
+|
+|move|p2a: Magneton|Thunderbolt|p1a: Omastar
+|-supereffective|p1a: Omastar
+|-damage|p1a: Omastar|104\/309
+|move|p1a: Omastar|Blizzard|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|faint|p2a: Magneton
+|
+|switch|p2a: Dugtrio|Dugtrio, L85|233\/233
+|turn|25
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Omastar
+|-supereffective|p1a: Omastar
+|-damage|p1a: Omastar|0 fnt
+|faint|p1a: Omastar
+|
+|switch|p1a: Starmie|Starmie, L79|216\/257 par
+|turn|26
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Starmie
+|-damage|p1a: Starmie|112\/257 par
+|cant|p1a: Starmie|par
+|
+|turn|27
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Starmie
+|-damage|p1a: Starmie|8\/257 par
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|136\/257 par
+|
+|turn|28
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Starmie
+|-damage|p1a: Starmie|32\/257 par
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|160\/257 par
+|
+|turn|29
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Starmie
+|-damage|p1a: Starmie|58\/257 par
+|cant|p1a: Starmie|par
+|
+|turn|30
+|
+|switch|p1a: Cubone|Cubone, L96|199\/291
+|move|p2a: Dugtrio|Earthquake|p1a: Cubone
+|-crit|p1a: Cubone
+|-damage|p1a: Cubone|48\/291
+|
+|turn|31
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Cubone
+|-damage|p1a: Cubone|0 fnt
+|faint|p1a: Cubone
+|-message|Bollowegen forfeited.
+|
+|win|Abstrix
+|leave|Bollowegen
+|player|p1
+|raw|Bollowegen's rating: 1409 &rarr; <strong>1376<\/strong><br \/>(-33 for losing)
+|raw|Abstrix's rating: 1156 &rarr; <strong>1197<\/strong><br \/>(+41 for winning)

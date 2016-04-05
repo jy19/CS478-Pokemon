@@ -1,0 +1,336 @@
+﻿|join|MrJeebus
+|join|Disband
+|player|p1|MrJeebus|169
+|player|p2|Disband|290
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Zubat|Zubat, L96|272\/272
+|switch|p2a: Machamp|Machamp, L90|345\/345
+|turn|1
+|
+|move|p1a: Zubat|Confuse Ray|p2a: Machamp
+|-start|p2a: Machamp|confusion
+|-activate|p2a: Machamp|confusion
+|move|p2a: Machamp|Rock Slide|p1a: Zubat|[miss]
+|-miss|p2a: Machamp
+|
+|turn|2
+|
+|move|p1a: Zubat|Screech|p2a: Machamp
+|-unboost|p2a: Machamp|def|2
+|-activate|p2a: Machamp|confusion
+|-damage|p2a: Machamp|259\/345|[from] confusion
+|
+|turn|3
+|
+|move|p1a: Zubat|Mega Drain|p2a: Machamp
+|-damage|p2a: Machamp|235\/345
+|-activate|p2a: Machamp|confusion
+|move|p2a: Machamp|Rock Slide|p1a: Zubat
+|-supereffective|p1a: Zubat
+|-damage|p1a: Zubat|53\/272
+|
+|turn|4
+|
+|switch|p2a: Charizard|Charizard, L85|306\/306
+|move|p1a: Zubat|Mega Drain|p2a: Charizard
+|-crit|p2a: Charizard
+|-resisted|p2a: Charizard
+|-damage|p2a: Charizard|295\/306
+|-heal|p1a: Zubat|58\/272|[from] drain|[of] p2a: Charizard
+|
+|turn|5
+|
+|move|p2a: Charizard|Body Slam|p1a: Zubat
+|-crit|p1a: Zubat
+|-damage|p1a: Zubat|0 fnt
+|faint|p1a: Zubat
+|
+|switch|p1a: Tentacruel|Tentacruel, L85|310\/310
+|turn|6
+|
+|move|p2a: Charizard|Earthquake|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|146\/310
+|move|p1a: Tentacruel|Hydro Pump|p2a: Charizard
+|-crit|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|switch|p2a: Machamp|Machamp, L90|235\/345
+|turn|7
+|
+|move|p1a: Tentacruel|Hydro Pump|p2a: Machamp
+|-damage|p2a: Machamp|65\/345
+|move|p2a: Machamp|Earthquake|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|switch|p1a: Rapidash|Rapidash, L90|300\/300
+|turn|8
+|
+|switch|p2a: Dragonair|Dragonair, L85|277\/277
+|move|p1a: Rapidash|Body Slam|p2a: Dragonair
+|-damage|p2a: Dragonair|192\/277
+|
+|turn|9
+|
+|move|p1a: Rapidash|Body Slam|p2a: Dragonair
+|-damage|p2a: Dragonair|106\/277
+|move|p2a: Dragonair|Thunder Wave|p1a: Rapidash
+|-status|p1a: Rapidash|par
+|
+|turn|10
+|c|★MrJeebus|just mean
+|
+|move|p2a: Dragonair|Blizzard|p1a: Rapidash
+|-damage|p1a: Rapidash|227\/300 par
+|cant|p1a: Rapidash|par
+|
+|turn|11
+|
+|move|p2a: Dragonair|Thunderbolt|p1a: Rapidash
+|-damage|p1a: Rapidash|169\/300 par
+|cant|p1a: Rapidash|par
+|
+|turn|12
+|
+|move|p2a: Dragonair|Thunderbolt|p1a: Rapidash
+|-damage|p1a: Rapidash|109\/300 par
+|move|p1a: Rapidash|Fire Blast|p2a: Dragonair
+|-resisted|p2a: Dragonair
+|-damage|p2a: Dragonair|31\/277
+|-status|p2a: Dragonair|brn
+|
+|turn|13
+|
+|move|p2a: Dragonair|Thunderbolt|p1a: Rapidash
+|-damage|p1a: Rapidash|50\/300 par
+|-damage|p2a: Dragonair|14\/277 brn|[from] brn|[of] p1a: Rapidash
+|move|p1a: Rapidash|Body Slam|p2a: Dragonair
+|-damage|p2a: Dragonair|0 fnt
+|faint|p2a: Dragonair
+|
+|switch|p2a: Machamp|Machamp, L90|65\/345
+|turn|14
+|
+|move|p2a: Machamp|Earthquake|p1a: Rapidash
+|-supereffective|p1a: Rapidash
+|-damage|p1a: Rapidash|0 fnt
+|faint|p1a: Rapidash
+|
+|switch|p1a: Electabuzz|Electabuzz, L85|284\/284
+|turn|15
+|
+|move|p1a: Electabuzz|Psychic|p2a: Machamp
+|-supereffective|p2a: Machamp
+|-damage|p2a: Machamp|0 fnt
+|faint|p2a: Machamp
+|
+|switch|p2a: Ditto|Ditto, L99|296\/296
+|turn|16
+|
+|move|p1a: Electabuzz|Thunder Wave|p2a: Ditto
+|-status|p2a: Ditto|par
+|move|p2a: Ditto|Transform|p1a: Electabuzz
+|-transform|p2a: Ditto|p1a: Electabuzz
+|
+|turn|17
+|
+|move|p1a: Electabuzz|Seismic Toss|p2a: Ditto
+|-damage|p2a: Ditto|211\/296 par
+|move|p2a: Ditto|Thunder Wave|p1a: Electabuzz
+|-status|p1a: Electabuzz|par
+|
+|turn|18
+|
+|move|p1a: Electabuzz|Seismic Toss|p2a: Ditto
+|-damage|p2a: Ditto|126\/296 par
+|move|p2a: Ditto|Seismic Toss|p1a: Electabuzz
+|-damage|p1a: Electabuzz|185\/284 par
+|
+|turn|19
+|c|★MrJeebus|how much hp do you have?
+|
+|move|p1a: Electabuzz|Seismic Toss|p2a: Ditto
+|-damage|p2a: Ditto|41\/296 par
+|move|p2a: Ditto|Seismic Toss|p1a: Electabuzz
+|-damage|p1a: Electabuzz|86\/284 par
+|
+|turn|20
+|
+|move|p1a: Electabuzz|Seismic Toss|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|
+|switch|p2a: Electrode|Electrode, L90|291\/291
+|turn|21
+|
+|move|p2a: Electrode|Thunderbolt|p1a: Electabuzz
+|-resisted|p1a: Electabuzz
+|-damage|p1a: Electabuzz|35\/284 par
+|move|p1a: Electabuzz|Thunder Wave|p2a: Electrode
+|-status|p2a: Electrode|par
+|
+|turn|22
+|
+|cant|p2a: Electrode|par
+|cant|p1a: Electabuzz|par
+|
+|turn|23
+|
+|cant|p2a: Electrode|par
+|move|p1a: Electabuzz|Psychic|p2a: Electrode
+|-damage|p2a: Electrode|231\/291 par
+|
+|turn|24
+|
+|cant|p2a: Electrode|par
+|cant|p1a: Electabuzz|par
+|
+|turn|25
+|
+|move|p2a: Electrode|Thunderbolt|p1a: Electabuzz
+|-resisted|p1a: Electabuzz
+|-damage|p1a: Electabuzz|0 fnt
+|faint|p1a: Electabuzz
+|
+|switch|p1a: Rhydon|Rhydon, L79|328\/328
+|turn|26
+|
+|switch|p2a: Vaporeon|Vaporeon, L85|395\/395
+|move|p1a: Rhydon|Substitute|p1a: Rhydon
+|-start|p1a: Rhydon|Substitute
+|-damage|p1a: Rhydon|246\/328
+|
+|turn|27
+|
+|move|p2a: Vaporeon|Surf|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-end|p1a: Rhydon|Substitute
+|move|p1a: Rhydon|Body Slam|p2a: Vaporeon
+|-damage|p2a: Vaporeon|317\/395
+|
+|turn|28
+|
+|switch|p1a: Chansey|Chansey, L79|557\/557
+|move|p2a: Vaporeon|Surf|p1a: Chansey
+|-damage|p1a: Chansey|454\/557
+|
+|turn|29
+|
+|move|p2a: Vaporeon|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|366\/557
+|move|p1a: Chansey|Thunder Wave|p2a: Vaporeon
+|-status|p2a: Vaporeon|par
+|
+|turn|30
+|
+|move|p1a: Chansey|Ice Beam|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|290\/395 par
+|move|p2a: Vaporeon|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|280\/557
+|
+|turn|31
+|c|★MrJeebus|you gonna freeze
+|c|★MrJeebus|and win
+|
+|switch|p2a: Electrode|Electrode, L90|231\/291 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|557\/557
+|
+|turn|32
+|
+|switch|p1a: Rhydon|Rhydon, L79|246\/328
+|move|p2a: Electrode|Screech|p1a: Rhydon
+|-unboost|p1a: Rhydon|def|2
+|
+|turn|33
+|
+|move|p1a: Rhydon|Earthquake|p2a: Electrode
+|-supereffective|p2a: Electrode
+|-damage|p2a: Electrode|1\/291 par
+|move|p2a: Electrode|Screech|p1a: Rhydon
+|-unboost|p1a: Rhydon|def|2
+|
+|turn|34
+|
+|move|p1a: Rhydon|Earthquake|p2a: Electrode
+|-supereffective|p2a: Electrode
+|-damage|p2a: Electrode|0 fnt
+|faint|p2a: Electrode
+|
+|switch|p2a: Vaporeon|Vaporeon, L85|290\/395 par
+|turn|35
+|
+|move|p1a: Rhydon|Earthquake|p2a: Vaporeon
+|-damage|p2a: Vaporeon|151\/395 par
+|move|p2a: Vaporeon|Blizzard|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|
+|switch|p1a: Chansey|Chansey, L79|557\/557
+|turn|36
+|
+|move|p1a: Chansey|Ice Beam|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|125\/395 par
+|move|p2a: Vaporeon|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|469\/557
+|
+|turn|37
+|
+|move|p1a: Chansey|Ice Beam|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|98\/395 par
+|move|p2a: Vaporeon|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|385\/557
+|-status|p1a: Chansey|frz
+|
+|turn|38
+|c|★MrJeebus|gg
+|c|★Disband|gg
+|
+|cant|p1a: Chansey|frz
+|move|p2a: Vaporeon|Hydro Pump|p1a: Chansey
+|-damage|p1a: Chansey|244\/557 frz
+|
+|turn|39
+|
+|cant|p1a: Chansey|frz
+|move|p2a: Vaporeon|Surf|p1a: Chansey
+|-damage|p1a: Chansey|141\/557 frz
+|
+|turn|40
+|
+|cant|p1a: Chansey|frz
+|move|p2a: Vaporeon|Hydro Pump|p1a: Chansey
+|-damage|p1a: Chansey|7\/557 frz
+|
+|turn|41
+|
+|cant|p1a: Chansey|frz
+|move|p2a: Vaporeon|Surf|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|win|Disband
+|c|★Disband|ez
+|c|★MrJeebus|lol
+|leave|MrJeebus
+|player|p1
+|raw|MrJeebus's rating: 1255 &rarr; <strong>1229<\/strong><br \/>(-26 for losing)
+|raw|Disband's rating: 1248 &rarr; <strong>1274<\/strong><br \/>(+26 for winning)
+|c|★Disband|^_^

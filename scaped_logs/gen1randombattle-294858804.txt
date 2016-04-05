@@ -1,0 +1,229 @@
+﻿|join|vsterel
+|join|Caesar Augustus
+|player|p1|vsterel|265
+|player|p2|Caesar Augustus|253
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|43604,15449,29466,41414
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Butterfree|Butterfree, L90|291\/291
+|switch|p2a: Nidorino|Nidorino, L90|293\/293
+|turn|1
+|choice|move 2|move 4
+|
+|move|p1a: Butterfree|Psychic|p2a: Nidorino
+|-supereffective|p2a: Nidorino
+|-damage|p2a: Nidorino|130\/293
+|move|p2a: Nidorino|Thunderbolt|p1a: Butterfree
+|-supereffective|p1a: Butterfree
+|-damage|p1a: Butterfree|181\/291
+|
+|turn|2
+|choice|move 2|move 4
+|
+|move|p1a: Butterfree|Psychic|p2a: Nidorino
+|-supereffective|p2a: Nidorino
+|-damage|p2a: Nidorino|0 fnt
+|faint|p2a: Nidorino
+|choice||switch 2
+|
+|switch|p2a: Porygon|Porygon, L85|284\/284
+|turn|3
+|choice|move 3|move 3
+|
+|move|p1a: Butterfree|Sleep Powder|p2a: Porygon|[miss]
+|-miss|p1a: Butterfree
+|move|p2a: Porygon|Agility|p2a: Porygon
+|-boost|p2a: Porygon|spe|2
+|
+|turn|4
+|choice|move 3|move 2
+|
+|move|p2a: Porygon|Hyper Beam|p1a: Butterfree
+|-damage|p1a: Butterfree|17\/291
+|move|p1a: Butterfree|Sleep Powder|p2a: Porygon
+|-status|p2a: Porygon|slp
+|
+|turn|5
+|-mustrecharge|p2a: Porygon
+|-mustrecharge|p2a: Porygon
+|choice|move 2|move 1
+|
+|cant|p2a: Porygon|recharge
+|move|p1a: Butterfree|Psychic|p2a: Porygon
+|-damage|p2a: Porygon|217\/284 slp
+|
+|turn|6
+|choice|move 2|move 4
+|
+|cant|p2a: Porygon|slp
+|move|p1a: Butterfree|Psychic|p2a: Porygon
+|-damage|p2a: Porygon|151\/284 slp
+|-unboost|p2a: Porygon|spd|1
+|-unboost|p2a: Porygon|spa|1
+|
+|turn|7
+|choice|move 2|switch 6
+|
+|switch|p2a: Alakazam|Alakazam, L79|249\/249
+|move|p1a: Butterfree|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|223\/249
+|
+|turn|8
+|choice|move 1|move 1
+|
+|move|p2a: Alakazam|Psychic|p1a: Butterfree
+|-damage|p1a: Butterfree|0 fnt
+|faint|p1a: Butterfree
+|choice|switch 6|
+|
+|switch|p1a: Flareon|Flareon, L90|300\/300
+|turn|9
+|choice|move 1|switch 3
+|
+|switch|p2a: Marowak|Marowak, L90|291\/291
+|move|p1a: Flareon|Body Slam|p2a: Marowak
+|-damage|p2a: Marowak|225\/291
+|
+|turn|10
+|choice|switch 2|move 4
+|
+|switch|p1a: Cloyster|Cloyster, L83|253\/253
+|move|p2a: Marowak|Earthquake|p1a: Cloyster
+|-damage|p1a: Cloyster|189\/253
+|
+|turn|11
+|choice|move 2|switch 6
+|
+|switch|p2a: Porygon|Porygon, L85|151\/284 slp
+|move|p1a: Cloyster|Ice Beam|p2a: Porygon
+|-crit|p2a: Porygon
+|-damage|p2a: Porygon|0 fnt
+|faint|p2a: Porygon
+|choice||switch 5
+|
+|switch|p2a: Poliwrath|Poliwrath, L85|327\/327
+|turn|12
+|choice|switch 4|move 1
+|
+|switch|p1a: Lickitung|Lickitung, L90|345\/345
+|move|p2a: Poliwrath|Amnesia|p2a: Poliwrath
+|-boost|p2a: Poliwrath|spd|2
+|-boost|p2a: Poliwrath|spa|2
+|
+|turn|13
+|choice|move 1|move 3
+|
+|move|p2a: Poliwrath|Surf|p1a: Lickitung
+|-damage|p1a: Lickitung|146\/345
+|move|p1a: Lickitung|Swords Dance|p1a: Lickitung
+|-boost|p1a: Lickitung|atk|2
+|
+|turn|14
+|choice|switch 5|move 3
+|
+|switch|p1a: Chansey|Chansey, L79|557\/557
+|move|p2a: Poliwrath|Surf|p1a: Chansey
+|-damage|p1a: Chansey|406\/557
+|
+|turn|15
+|choice|move 3|move 4
+|
+|move|p2a: Poliwrath|Submission|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|-damage|p2a: Poliwrath|226\/327|[from] recoil|[of] p1a: Chansey
+|faint|p1a: Chansey
+|choice|switch 4|
+|
+|switch|p1a: Cloyster|Cloyster, L83|189\/253
+|turn|16
+|choice|move 3|move 3
+|
+|move|p2a: Poliwrath|Surf|p1a: Cloyster
+|-resisted|p1a: Cloyster
+|-damage|p1a: Cloyster|103\/253
+|move|p1a: Cloyster|Explosion|p2a: Poliwrath
+|-crit|p2a: Poliwrath
+|-damage|p2a: Poliwrath|0 fnt
+|faint|p2a: Poliwrath
+|faint|p1a: Cloyster
+|c|★Caesar Augustus|boy
+|choice|switch 2|switch 6
+|
+|switch|p1a: Flareon|Flareon, L90|300\/300
+|switch|p2a: Marowak|Marowak, L90|225\/291
+|turn|17
+|choice|move 3|move 4
+|
+|move|p1a: Flareon|Fire Blast|p2a: Marowak
+|-crit|p2a: Marowak
+|-damage|p2a: Marowak|0 fnt
+|faint|p2a: Marowak
+|choice||switch 3
+|
+|switch|p2a: Alakazam|Alakazam, L79|223\/249
+|turn|18
+|choice|move 1|move 3
+|
+|move|p2a: Alakazam|Reflect|p2a: Alakazam
+|-start|p2a: Alakazam|Reflect
+|move|p1a: Flareon|Body Slam|p2a: Alakazam
+|-damage|p2a: Alakazam|159\/249
+|
+|turn|19
+|choice|move 3|move 1
+|
+|move|p2a: Alakazam|Psychic|p1a: Flareon
+|-damage|p1a: Flareon|219\/300
+|move|p1a: Flareon|Fire Blast|p2a: Alakazam
+|-damage|p2a: Alakazam|23\/249
+|
+|turn|20
+|choice|move 4|move 1
+|
+|move|p1a: Flareon|Quick Attack|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|choice||switch 4
+|
+|switch|p2a: Articuno|Articuno, L79|304\/304
+|turn|21
+|choice|move 3|move 3
+|
+|move|p2a: Articuno|Ice Beam|p1a: Flareon
+|-damage|p1a: Flareon|131\/300
+|move|p1a: Flareon|Fire Blast|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|43\/304
+|
+|turn|22
+|choice|move 4|move 3
+|
+|move|p1a: Flareon|Quick Attack|p2a: Articuno
+|-damage|p2a: Articuno|5\/304
+|move|p2a: Articuno|Ice Beam|p1a: Flareon
+|-damage|p1a: Flareon|44\/300
+|
+|turn|23
+|choice|move 4|move 3
+|
+|move|p1a: Flareon|Quick Attack|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|faint|p2a: Articuno
+|
+|win|vsterel
+|c|★Caesar Augustus|gg
+|leave|Caesar Augustus
+|player|p2
+|c|★vsterel|i was lucky
+|c|★vsterel|gg
+|raw|vsterel's rating: 1330 &rarr; <strong>1349<\/strong><br \/>(+19 for winning)
+|raw|Caesar Augustus's rating: 1315 &rarr; <strong>1296<\/strong><br \/>(-19 for losing)

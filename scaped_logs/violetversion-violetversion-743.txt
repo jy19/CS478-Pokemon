@@ -1,0 +1,436 @@
+﻿|J|KristophV
+|J|Disaster Area
+|player|p1|KristophV|kristophv.png
+|player|p2|Disaster Area|32
+|gametype|singles
+|gen|1
+|tier|Violet Version
+|clearpoke
+|poke|p1|Chansey
+|poke|p1|Nidoqueen
+|poke|p1|Hypno
+|poke|p1|Moltres
+|poke|p1|Cloyster
+|poke|p1|Electabuzz
+|poke|p2|Muk
+|poke|p2|Parasect
+|poke|p2|Ninetales
+|poke|p2|Cloyster
+|poke|p2|Primeape
+|poke|p2|Golem
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|c|★Disaster Area|gl hf
+|c|★KristophV|you too
+|c|★Disaster Area|hmm
+|c|★Disaster Area|damn this team is cloy weak x_x
+|
+|start
+|switch|p1a: Moltres|Moltres|383\/383
+|switch|p2a: Muk|Muk|493\/493
+|turn|1
+|
+|switch|p2a: Ninetales|Ninetales|349\/349
+|move|p1a: Moltres|Fire Blast|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|273\/349
+|
+|turn|2
+|
+|move|p2a: Ninetales|Body Slam|p1a: Moltres
+|-damage|p1a: Moltres|321\/383
+|move|p1a: Moltres|Fire Blast|p2a: Ninetales
+|-crit|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|115\/349
+|
+|turn|3
+|
+|switch|p1a: Hypno|Hypno|373\/373
+|move|p2a: Ninetales|Psychic|p1a: Hypno
+|-resisted|p1a: Hypno
+|-damage|p1a: Hypno|326\/373
+|
+|turn|4
+|
+|move|p2a: Ninetales|Fire Spin|p1a: Hypno
+|-damage|p1a: Hypno|294\/373
+|-activate|p1a: Hypno|move: Fire Spin|[of] p2a: Ninetales
+|cant|p1a: Hypno|partiallytrapped
+|
+|turn|5
+|
+|switch|p2a: Muk|Muk|493\/493
+|switch|p1a: Moltres|Moltres|321\/383
+|
+|turn|6
+|
+|move|p1a: Moltres|Fire Blast|p2a: Muk
+|-damage|p2a: Muk|289\/493
+|move|p2a: Muk|Explosion|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|faint|p2a: Muk
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|switch|p2a: Parasect|Parasect|383\/383
+|turn|7
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Parasect
+|-status|p2a: Parasect|par
+|move|p2a: Parasect|Spore|p1a: Chansey
+|-status|p1a: Chansey|slp
+|
+|turn|8
+|
+|switch|p1a: Nidoqueen|Nidoqueen|383\/383
+|move|p2a: Parasect|Stun Spore|p1a: Nidoqueen|[miss]
+|-miss|p2a: Parasect
+|
+|turn|9
+|
+|move|p1a: Nidoqueen|Thunderbolt|p2a: Parasect
+|-resisted|p2a: Parasect
+|-damage|p2a: Parasect|346\/383 par
+|move|p2a: Parasect|Stun Spore|p1a: Nidoqueen|[miss]
+|-miss|p2a: Parasect
+|
+|turn|10
+|
+|switch|p2a: Ninetales|Ninetales|115\/349
+|move|p1a: Nidoqueen|Blizzard|p2a: Ninetales
+|-crit|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|40\/349
+|
+|turn|11
+|
+|move|p2a: Ninetales|Psychic|p1a: Nidoqueen
+|-supereffective|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|137\/383
+|-unboost|p1a: Nidoqueen|spd|1
+|-unboost|p1a: Nidoqueen|spa|1
+|move|p1a: Nidoqueen|Earthquake|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|switch|p2a: Cloyster|Cloyster|303\/303
+|turn|12
+|
+|switch|p1a: Cloyster|Cloyster|303\/303
+|move|p2a: Cloyster|Blizzard|p1a: Cloyster
+|-resisted|p1a: Cloyster
+|-damage|p1a: Cloyster|267\/303
+|
+|turn|13
+|
+|move|p1a: Cloyster|Clamp|p2a: Cloyster
+|-resisted|p2a: Cloyster
+|-damage|p2a: Cloyster|263\/303
+|-activate|p2a: Cloyster|move: Clamp|[of] p1a: Cloyster
+|cant|p2a: Cloyster|partiallytrapped
+|
+|turn|14
+|
+|switch|p2a: Parasect|Parasect|346\/383 par
+|move|p1a: Cloyster|Clamp|p2a: Parasect|[miss]
+|-miss|p1a: Cloyster
+|
+|turn|15
+|
+|switch|p2a: Cloyster|Cloyster|263\/303
+|move|p1a: Cloyster|Blizzard|p2a: Cloyster
+|-crit|p2a: Cloyster
+|-resisted|p2a: Cloyster
+|-damage|p2a: Cloyster|193\/303
+|
+|turn|16
+|
+|switch|p1a: Chansey|Chansey|703\/703 slp
+|move|p2a: Cloyster|Clamp|p1a: Chansey
+|-damage|p1a: Chansey|632\/703 slp
+|-activate|p1a: Chansey|move: Clamp|[of] p2a: Cloyster
+|
+|turn|17
+|
+|switch|p2a: Primeape|Primeape|333\/333
+|cant|p1a: Chansey|slp
+|
+|-end|p1a: Chansey|Clamp|[partiallytrapped]
+|turn|18
+|
+|switch|p1a: Hypno|Hypno|294\/373
+|move|p2a: Primeape|Seismic Toss|p1a: Hypno
+|-damage|p1a: Hypno|194\/373
+|
+|turn|19
+|
+|switch|p2a: Parasect|Parasect|346\/383 par
+|move|p1a: Hypno|Body Slam|p2a: Parasect
+|-damage|p2a: Parasect|282\/383 par
+|
+|turn|20
+|
+|switch|p1a: Electabuzz|Electabuzz|333\/333
+|cant|p2a: Parasect|par
+|
+|turn|21
+|
+|move|p1a: Electabuzz|Submission|p2a: Parasect
+|-resisted|p2a: Parasect
+|-damage|p2a: Parasect|241\/383 par
+|-damage|p1a: Electabuzz|323\/333|[from] recoil|[of] p2a: Parasect
+|cant|p2a: Parasect|par
+|
+|turn|22
+|
+|move|p1a: Electabuzz|Psychic|p2a: Parasect
+|-damage|p2a: Parasect|166\/383 par
+|-unboost|p2a: Parasect|spd|1
+|-unboost|p2a: Parasect|spa|1
+|cant|p2a: Parasect|par
+|
+|turn|23
+|c|★Disaster Area|...
+|
+|switch|p2a: Golem|Golem|363\/363
+|move|p1a: Electabuzz|Psychic|p2a: Golem
+|-damage|p2a: Golem|279\/363
+|-unboost|p2a: Golem|spd|1
+|-unboost|p2a: Golem|spa|1
+|
+|turn|24
+|c|★Disaster Area|x_x
+|
+|switch|p1a: Hypno|Hypno|194\/373
+|move|p2a: Golem|Earthquake|p1a: Hypno
+|-damage|p1a: Hypno|38\/373
+|
+|turn|25
+|
+|switch|p2a: Parasect|Parasect|166\/383 par
+|move|p1a: Hypno|Psychic|p2a: Parasect
+|-damage|p2a: Parasect|39\/383 par
+|
+|turn|26
+|
+|move|p1a: Hypno|Psychic|p2a: Parasect
+|-crit|p2a: Parasect
+|-damage|p2a: Parasect|0 fnt
+|faint|p2a: Parasect
+|
+|switch|p2a: Primeape|Primeape|333\/333
+|turn|27
+|
+|move|p2a: Primeape|Seismic Toss|p1a: Hypno
+|-damage|p1a: Hypno|0 fnt
+|faint|p1a: Hypno
+|
+|switch|p1a: Nidoqueen|Nidoqueen|137\/383
+|turn|28
+|
+|move|p2a: Primeape|Seismic Toss|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|37\/383
+|move|p1a: Nidoqueen|Soft-Boiled|p1a: Nidoqueen
+|-heal|p1a: Nidoqueen|228\/383
+|
+|turn|29
+|
+|switch|p2a: Golem|Golem|279\/363
+|move|p1a: Nidoqueen|Earthquake|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|77\/363
+|
+|turn|30
+|c|★Disaster Area|x_x
+|
+|move|p1a: Nidoqueen|Earthquake|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|
+|switch|p2a: Cloyster|Cloyster|193\/303
+|turn|31
+|
+|switch|p1a: Chansey|Chansey|632\/703 slp
+|move|p2a: Cloyster|Blizzard|p1a: Chansey|[miss]
+|-miss|p2a: Cloyster
+|
+|turn|32
+|
+|switch|p2a: Primeape|Primeape|333\/333
+|cant|p1a: Chansey|slp
+|
+|turn|33
+|
+|switch|p1a: Nidoqueen|Nidoqueen|228\/383
+|move|p2a: Primeape|Karate Chop|p1a: Nidoqueen
+|-crit|p1a: Nidoqueen
+|-resisted|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|162\/383
+|
+|turn|34
+|
+|switch|p2a: Cloyster|Cloyster|193\/303
+|move|p1a: Nidoqueen|Soft-Boiled|p1a: Nidoqueen
+|-heal|p1a: Nidoqueen|353\/383
+|
+|turn|35
+|
+|switch|p1a: Chansey|Chansey|632\/703 slp
+|move|p2a: Cloyster|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|502\/703 slp
+|
+|turn|36
+|
+|move|p2a: Cloyster|Blizzard|p1a: Chansey|[miss]
+|-miss|p2a: Cloyster
+|cant|p1a: Chansey|slp
+|
+|turn|37
+|
+|move|p2a: Cloyster|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|372\/703 slp
+|cant|p1a: Chansey|slp
+|
+|turn|38
+|
+|move|p2a: Cloyster|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|259\/703 slp
+|cant|p1a: Chansey|slp
+|
+|turn|39
+|
+|move|p2a: Cloyster|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|145\/703 slp
+|-curestatus|p1a: Chansey|slp
+|
+|turn|40
+|
+|move|p2a: Cloyster|Clamp|p1a: Chansey
+|-damage|p1a: Chansey|68\/703
+|-activate|p1a: Chansey|move: Clamp|[of] p2a: Cloyster
+|cant|p1a: Chansey|partiallytrapped
+|
+|turn|41
+|
+|move|p2a: Cloyster|Clamp|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|switch|p1a: Electabuzz|Electabuzz|323\/333
+|turn|42
+|
+|switch|p2a: Primeape|Primeape|333\/333
+|move|p1a: Electabuzz|Thunderbolt|p2a: Primeape
+|-damage|p2a: Primeape|201\/333
+|
+|turn|43
+|
+|move|p2a: Primeape|Karate Chop|p1a: Electabuzz
+|-crit|p1a: Electabuzz
+|-damage|p1a: Electabuzz|143\/333
+|move|p1a: Electabuzz|Thunder Wave|p2a: Primeape
+|-status|p2a: Primeape|par
+|
+|turn|44
+|
+|switch|p1a: Nidoqueen|Nidoqueen|353\/383
+|switch|p2a: Cloyster|Cloyster|193\/303
+|
+|turn|45
+|
+|switch|p1a: Cloyster|Cloyster|267\/303
+|move|p2a: Cloyster|Blizzard|p1a: Cloyster
+|-resisted|p1a: Cloyster
+|-damage|p1a: Cloyster|235\/303
+|
+|turn|46
+|
+|move|p2a: Cloyster|Clamp|p1a: Cloyster|[miss]
+|-miss|p2a: Cloyster
+|move|p1a: Cloyster|Clamp|p2a: Cloyster
+|-resisted|p2a: Cloyster
+|-damage|p2a: Cloyster|153\/303
+|-activate|p2a: Cloyster|move: Clamp|[of] p1a: Cloyster
+|
+|turn|47
+|
+|cant|p2a: Cloyster|partiallytrapped
+|move|p1a: Cloyster|Clamp|p2a: Cloyster
+|-damage|p2a: Cloyster|113\/303
+|
+|-end|p2a: Cloyster|Clamp|[partiallytrapped]
+|turn|48
+|
+|move|p2a: Cloyster|Clamp|p1a: Cloyster
+|-resisted|p1a: Cloyster
+|-damage|p1a: Cloyster|190\/303
+|-activate|p1a: Cloyster|move: Clamp|[of] p2a: Cloyster
+|cant|p1a: Cloyster|partiallytrapped
+|
+|turn|49
+|c|★Disaster Area|nidoqueen outspeeds me anyway so p sure
+|c|★Disaster Area|I lose anyway
+|
+|switch|p2a: Primeape|Primeape|201\/333 par
+|cant|p1a: Cloyster|partiallytrapped
+|
+|-end|p1a: Cloyster|Clamp|[partiallytrapped]
+|turn|50
+|
+|switch|p1a: Nidoqueen|Nidoqueen|353\/383
+|move|p2a: Primeape|Thunderbolt|p1a: Nidoqueen
+|-immune|p1a: Nidoqueen|[msg]
+|
+|turn|51
+|
+|move|p1a: Nidoqueen|Thunderbolt|p2a: Primeape
+|-damage|p2a: Primeape|117\/333 par
+|cant|p2a: Primeape|par
+|
+|turn|52
+|c|★Disaster Area|gg
+|
+|move|p1a: Nidoqueen|Thunderbolt|p2a: Primeape
+|-damage|p2a: Primeape|33\/333 par
+|move|p2a: Primeape|Rock Slide|p1a: Nidoqueen
+|-crit|p1a: Nidoqueen
+|-resisted|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|281\/383
+|
+|turn|53
+|
+|move|p1a: Nidoqueen|Thunderbolt|p2a: Primeape
+|-damage|p2a: Primeape|0 fnt
+|faint|p2a: Primeape
+|
+|switch|p2a: Cloyster|Cloyster|113\/303
+|turn|54
+|
+|move|p1a: Nidoqueen|Thunderbolt|p2a: Cloyster
+|-supereffective|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p2a: Cloyster
+|
+|win|KristophV
+|c|★Disaster Area|needed to
+|c|★KristophV|gg
+|c|★Disaster Area|explode on queen
+|c|★Disaster Area|I think
+|c|★Disaster Area|x_x
+|c|★Disaster Area|gg
+|c|★Disaster Area|with my muk I mean
+|c|★KristophV|hmmm yeah maybe
+|c|★Disaster Area|muk teams require some
+|c|★Disaster Area|serious gameplan work
+|c|★Disaster Area|to function
+|c|★Disaster Area|it's tricky
+|L|KristophV
+|player|p1

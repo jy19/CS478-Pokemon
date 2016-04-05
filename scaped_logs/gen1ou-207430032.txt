@@ -1,0 +1,1327 @@
+﻿|join|klafkodentro
+|join|ggc
+|player|p1|klafkodentro|266
+|player|p2|ggc|209
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Lapras|Lapras|463\/463
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|1
+|
+|move|p2a: Gengar|Hypnosis|p1a: Lapras|[miss]
+|-miss|p2a: Gengar
+|move|p1a: Lapras|Confuse Ray|p2a: Gengar
+|-start|p2a: Gengar|confusion
+|
+|turn|2
+|
+|-activate|p2a: Gengar|confusion
+|move|p2a: Gengar|Hypnosis|p1a: Lapras|[miss]
+|-miss|p2a: Gengar
+|move|p1a: Lapras|Ice Beam|p2a: Gengar
+|-crit|p2a: Gengar
+|-damage|p2a: Gengar|159\/323
+|
+|turn|3
+|
+|-activate|p2a: Gengar|confusion
+|-damage|p2a: Gengar|122\/323|[from] confusion
+|move|p1a: Lapras|Ice Beam|p2a: Gengar
+|-crit|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|switch|p2a: Alakazam|Alakazam|313\/313
+|turn|4
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Alakazam|Reflect|p2a: Alakazam
+|
+|turn|5
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Exeggutor|Sleep Powder|p2a: Exeggutor
+|-status|p2a: Exeggutor|slp
+|
+|turn|6
+|
+|switch|p1a: Charizard|Charizard|359\/359
+|switch|p2a: Alakazam|Alakazam|313\/313
+|
+|turn|7
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Alakazam|Reflect|p2a: Alakazam
+|
+|turn|8
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Exeggutor
+|-status|p1a: Exeggutor|par
+|move|p1a: Exeggutor|Sleep Powder|p2a: Alakazam
+|-message|Sleep Clause Mod activated.
+|
+|turn|9
+|
+|move|p2a: Alakazam|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|340\/393 par
+|-unboost|p1a: Exeggutor|spd|1
+|-unboost|p1a: Exeggutor|spa|1
+|cant|p1a: Exeggutor|par
+|
+|turn|10
+|
+|move|p2a: Alakazam|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|260\/393 par
+|move|p1a: Exeggutor|Sleep Powder|p2a: Alakazam
+|-message|Sleep Clause Mod activated.
+|
+|turn|11
+|
+|move|p2a: Alakazam|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|170\/393 par
+|-unboost|p1a: Exeggutor|spd|1
+|-unboost|p1a: Exeggutor|spa|1
+|move|p1a: Exeggutor|Stun Spore|p2a: Alakazam
+|-status|p2a: Alakazam|par
+|
+|turn|12
+|
+|move|p2a: Alakazam|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|59\/393 par
+|cant|p1a: Exeggutor|par
+|
+|turn|13
+|
+|move|p2a: Alakazam|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Dragonite|Dragonite|385\/385
+|turn|14
+|
+|move|p1a: Dragonite|Wrap|p2a: Alakazam
+|-damage|p2a: Alakazam|301\/313 par
+|-activate|p2a: Alakazam|move: Wrap|[of] p1a: Dragonite
+|cant|p2a: Alakazam|partiallytrapped
+|
+|turn|15
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|move|p1a: Dragonite|Wrap|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|291\/323
+|-activate|p2a: Starmie|move: Wrap|[of] p1a: Dragonite
+|
+|turn|16
+|
+|cant|p2a: Starmie|partiallytrapped
+|move|p1a: Dragonite|Wrap|p2a: Starmie
+|-damage|p2a: Starmie|259\/323
+|
+|-end|p2a: Starmie|Wrap|[partiallytrapped]
+|turn|17
+|join|Scrubz Inc.
+|
+|switch|p1a: Lapras|Lapras|463\/463
+|move|p2a: Starmie|Blizzard|p1a: Lapras
+|-resisted|p1a: Lapras
+|-damage|p1a: Lapras|438\/463
+|
+|turn|18
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|294\/463
+|move|p1a: Lapras|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|109\/323
+|
+|turn|19
+|leave|Scrubz Inc.
+|
+|switch|p2a: Alakazam|Alakazam|301\/313 par
+|move|p1a: Lapras|Thunderbolt|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-damage|p2a: Alakazam|196\/313 par
+|
+|turn|20
+|
+|move|p1a: Lapras|Ice Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|108\/313 par
+|move|p2a: Alakazam|Thunder Wave|p1a: Lapras
+|-status|p1a: Lapras|par
+|
+|turn|21
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|264\/313 par
+|cant|p1a: Lapras|par
+|
+|turn|22
+|
+|move|p2a: Alakazam|Psychic|p1a: Lapras
+|-damage|p1a: Lapras|165\/463 par
+|move|p1a: Lapras|Confuse Ray|p2a: Alakazam
+|-start|p2a: Alakazam|confusion
+|
+|turn|23
+|
+|cant|p2a: Alakazam|par
+|move|p1a: Lapras|Rest|p1a: Lapras
+|-status|p1a: Lapras|slp
+|-heal|p1a: Lapras|463\/463 slp|[silent]
+|-status|p1a: Lapras|slp|[from] move: Rest
+|
+|turn|24
+|
+|-activate|p2a: Alakazam|confusion
+|-damage|p2a: Alakazam|227\/313 par|[from] confusion
+|cant|p1a: Lapras|slp
+|
+|turn|25
+|
+|-activate|p2a: Alakazam|confusion
+|-damage|p2a: Alakazam|190\/313 par|[from] confusion
+|cant|p1a: Lapras|slp
+|-curestatus|p1a: Lapras|slp
+|
+|turn|26
+|
+|switch|p1a: Dragonite|Dragonite|385\/385
+|cant|p2a: Alakazam|par
+|
+|turn|27
+|
+|move|p1a: Dragonite|Wrap|p2a: Alakazam
+|-damage|p2a: Alakazam|168\/313 par
+|-activate|p2a: Alakazam|move: Wrap|[of] p1a: Dragonite
+|cant|p2a: Alakazam|par
+|
+|turn|28
+|
+|switch|p2a: Starmie|Starmie|109\/323
+|move|p1a: Dragonite|Wrap|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|78\/323
+|-activate|p2a: Starmie|move: Wrap|[of] p1a: Dragonite
+|
+|turn|29
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393 slp
+|move|p1a: Dragonite|Wrap|p2a: Exeggutor
+|-damage|p2a: Exeggutor|377\/393 slp
+|-activate|p2a: Exeggutor|move: Wrap|[of] p1a: Dragonite
+|
+|turn|30
+|
+|move|p1a: Dragonite|Wrap|p2a: Exeggutor
+|-damage|p2a: Exeggutor|361\/393 slp
+|cant|p2a: Exeggutor|slp
+|
+|turn|31
+|
+|move|p1a: Dragonite|Wrap|p2a: Exeggutor
+|-damage|p2a: Exeggutor|345\/393 slp
+|cant|p2a: Exeggutor|slp
+|
+|-end|p2a: Exeggutor|Wrap|[partiallytrapped]
+|turn|32
+|
+|move|p1a: Dragonite|Hyper Beam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|194\/393 slp
+|cant|p2a: Exeggutor|slp
+|
+|turn|33
+|
+|cant|p1a: Dragonite|recharge
+|cant|p2a: Exeggutor|slp
+|
+|turn|34
+|
+|move|p1a: Dragonite|Wrap|p2a: Exeggutor
+|-damage|p2a: Exeggutor|176\/393 slp
+|-activate|p2a: Exeggutor|move: Wrap|[of] p1a: Dragonite
+|cant|p2a: Exeggutor|slp
+|
+|turn|35
+|
+|move|p1a: Dragonite|Wrap|p2a: Exeggutor
+|-damage|p2a: Exeggutor|158\/393 slp
+|cant|p2a: Exeggutor|slp
+|-curestatus|p2a: Exeggutor|slp
+|
+|-end|p2a: Exeggutor|Wrap|[partiallytrapped]
+|turn|36
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|move|p1a: Dragonite|Wrap|p2a: Tauros|[miss]
+|-miss|p1a: Dragonite
+|
+|turn|37
+|
+|move|p2a: Tauros|Body Slam|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-damage|p1a: Dragonite|198\/385
+|move|p1a: Dragonite|Thunder Wave|p2a: Tauros
+|-status|p2a: Tauros|par
+|
+|turn|38
+|
+|move|p1a: Dragonite|Wrap|p2a: Tauros
+|-damage|p2a: Tauros|338\/353 par
+|-activate|p2a: Tauros|move: Wrap|[of] p1a: Dragonite
+|cant|p2a: Tauros|partiallytrapped
+|
+|turn|39
+|
+|move|p1a: Dragonite|Wrap|p2a: Tauros
+|-damage|p2a: Tauros|323\/353 par
+|cant|p2a: Tauros|partiallytrapped
+|
+|turn|40
+|
+|move|p1a: Dragonite|Wrap|p2a: Tauros
+|-damage|p2a: Tauros|308\/353 par
+|cant|p2a: Tauros|partiallytrapped
+|
+|-end|p2a: Tauros|Wrap|[partiallytrapped]
+|turn|41
+|
+|move|p1a: Dragonite|Wrap|p2a: Tauros
+|-damage|p2a: Tauros|293\/353 par
+|-activate|p2a: Tauros|move: Wrap|[of] p1a: Dragonite
+|cant|p2a: Tauros|partiallytrapped
+|
+|turn|42
+|
+|move|p1a: Dragonite|Wrap|p2a: Tauros
+|-damage|p2a: Tauros|278\/353 par
+|cant|p2a: Tauros|partiallytrapped
+|
+|turn|43
+|
+|move|p1a: Dragonite|Wrap|p2a: Tauros
+|-damage|p2a: Tauros|263\/353 par
+|cant|p2a: Tauros|partiallytrapped
+|
+|-end|p2a: Tauros|Wrap|[partiallytrapped]
+|turn|44
+|
+|move|p1a: Dragonite|Wrap|p2a: Tauros
+|-damage|p2a: Tauros|248\/353 par
+|-activate|p2a: Tauros|move: Wrap|[of] p1a: Dragonite
+|cant|p2a: Tauros|partiallytrapped
+|
+|turn|45
+|
+|switch|p2a: Starmie|Starmie|78\/323
+|move|p1a: Dragonite|Wrap|p2a: Starmie
+|-damage|p2a: Starmie|60\/323
+|-activate|p2a: Starmie|move: Wrap|[of] p1a: Dragonite
+|
+|turn|46
+|
+|switch|p1a: Lapras|Lapras|463\/463
+|cant|p2a: Starmie|partiallytrapped
+|
+|-end|p2a: Starmie|Wrap|[partiallytrapped]
+|turn|47
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|221\/323
+|move|p1a: Lapras|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|73\/323
+|
+|turn|48
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|234\/323
+|move|p1a: Lapras|Thunderbolt|p2a: Starmie
+|-crit|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|switch|p2a: Alakazam|Alakazam|168\/313 par
+|turn|49
+|
+|move|p1a: Lapras|Ice Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|82\/313 par
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|238\/313 par
+|
+|turn|50
+|
+|move|p1a: Lapras|Confuse Ray|p2a: Alakazam
+|-start|p2a: Alakazam|confusion
+|-activate|p2a: Alakazam|confusion
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|313\/313 par
+|
+|turn|51
+|
+|switch|p1a: Charizard|Charizard|359\/359
+|-end|p2a: Alakazam|confusion
+|move|p2a: Alakazam|Thunder Wave|p1a: Charizard
+|-status|p1a: Charizard|par
+|
+|turn|52
+|
+|move|p2a: Alakazam|Reflect|p2a: Alakazam
+|move|p1a: Charizard|Earthquake|p2a: Alakazam
+|-damage|p2a: Alakazam|255\/313 par
+|
+|turn|53
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Charizard
+|-fail|p1a: Charizard|par
+|cant|p1a: Charizard|par
+|
+|turn|54
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Charizard
+|-fail|p1a: Charizard|par
+|move|p1a: Charizard|Swords Dance|p1a: Charizard
+|-boost|p1a: Charizard|atk|2
+|
+|turn|55
+|
+|move|p2a: Alakazam|Psychic|p1a: Charizard
+|-crit|p1a: Charizard
+|-damage|p1a: Charizard|91\/359 par
+|-unboost|p1a: Charizard|spd|1
+|-unboost|p1a: Charizard|spa|1
+|move|p1a: Charizard|Earthquake|p2a: Alakazam
+|-damage|p2a: Alakazam|135\/313 par
+|
+|turn|56
+|
+|cant|p2a: Alakazam|par
+|cant|p1a: Charizard|par
+|
+|turn|57
+|
+|cant|p2a: Alakazam|par
+|cant|p1a: Charizard|par
+|
+|turn|58
+|
+|cant|p2a: Alakazam|par
+|move|p1a: Charizard|Earthquake|p2a: Alakazam
+|-damage|p2a: Alakazam|31\/313 par
+|
+|turn|59
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|187\/313 par
+|move|p1a: Charizard|Earthquake|p2a: Alakazam
+|-damage|p2a: Alakazam|68\/313 par
+|
+|turn|60
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|224\/313 par
+|move|p1a: Charizard|Earthquake|p2a: Alakazam
+|-damage|p2a: Alakazam|121\/313 par
+|
+|turn|61
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|277\/313 par
+|cant|p1a: Charizard|par
+|
+|turn|62
+|
+|move|p2a: Alakazam|Psychic|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|switch|p1a: Dragonite|Dragonite|198\/385
+|turn|63
+|
+|move|p1a: Dragonite|Wrap|p2a: Alakazam|[miss]
+|-miss|p1a: Dragonite
+|move|p2a: Alakazam|Thunder Wave|p1a: Dragonite
+|-status|p1a: Dragonite|par
+|
+|turn|64
+|c|★ggc|get
+|c|★ggc|the
+|c|★ggc|fuck
+|c|★ggc|out
+|
+|switch|p1a: Rhydon|Rhydon|413\/413
+|move|p2a: Alakazam|Psychic|p1a: Rhydon
+|-damage|p1a: Rhydon|218\/413
+|-unboost|p1a: Rhydon|spd|1
+|-unboost|p1a: Rhydon|spa|1
+|
+|turn|65
+|
+|move|p1a: Rhydon|Substitute|p1a: Rhydon
+|-start|p1a: Rhydon|Substitute
+|-damage|p1a: Rhydon|115\/413
+|move|p2a: Alakazam|Psychic|p1a: Rhydon
+|-end|p1a: Rhydon|Substitute
+|
+|turn|66
+|c|★klafkodentro|xd
+|c|★klafkodentro|well played
+|
+|move|p1a: Rhydon|Earthquake|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|switch|p2a: Exeggutor|Exeggutor|158\/393
+|turn|67
+|c|★klafkodentro|dieee
+|c|★ggc|I knew it
+|c|★ggc|I thought to myself
+|c|★ggc|I could switch him out
+|c|★ggc|no way he'll crit
+|c|★klafkodentro|I think you'd die anyway
+|c|★ggc|I had reflect up
+|c|★ggc|so no
+|c|★ggc|I wouldn't have
+|
+|move|p2a: Exeggutor|Psychic|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|c|★klafkodentro|well you have to do the calculations to be sure
+|c|★ggc|no
+|c|★ggc|you don't
+|c|★ggc|it's not even close
+|c|★ggc|a reflected quake does not do 90%
+|
+|switch|p1a: Lapras|Lapras|463\/463
+|turn|68
+|c|★klafkodentro|rhydon is beast dude
+|
+|move|p1a: Lapras|Ice Beam|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Tauros|Tauros|248\/353 par
+|turn|69
+|c|★klafkodentro|but since I am not sure about it I can't tell you
+|
+|move|p1a: Lapras|Confuse Ray|p2a: Tauros
+|-start|p2a: Tauros|confusion
+|cant|p2a: Tauros|par
+|
+|turn|70
+|
+|move|p1a: Lapras|Ice Beam|p2a: Tauros
+|-damage|p2a: Tauros|122\/353 par
+|-activate|p2a: Tauros|confusion
+|move|p2a: Tauros|Body Slam|p1a: Lapras
+|-damage|p1a: Lapras|344\/463
+|
+|turn|71
+|
+|move|p1a: Lapras|Ice Beam|p2a: Tauros|[miss]
+|-miss|p1a: Lapras
+|-activate|p2a: Tauros|confusion
+|-damage|p2a: Tauros|86\/353 par|[from] confusion
+|
+|turn|72
+|
+|move|p1a: Lapras|Ice Beam|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|turn|73
+|
+|move|p1a: Lapras|Confuse Ray|p2a: Chansey
+|-start|p2a: Chansey|confusion
+|-activate|p2a: Chansey|confusion
+|move|p2a: Chansey|Light Screen|p2a: Chansey
+|
+|turn|74
+|
+|move|p1a: Lapras|Ice Beam|p2a: Chansey|[miss]
+|-miss|p1a: Lapras
+|-activate|p2a: Chansey|confusion
+|-damage|p2a: Chansey|668\/703|[from] confusion
+|
+|turn|75
+|
+|move|p1a: Lapras|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|616\/703
+|-end|p2a: Chansey|confusion
+|move|p2a: Chansey|Reflect|p2a: Chansey
+|
+|turn|76
+|
+|move|p1a: Lapras|Confuse Ray|p2a: Chansey
+|-start|p2a: Chansey|confusion
+|-activate|p2a: Chansey|confusion
+|-damage|p2a: Chansey|581\/703|[from] confusion
+|
+|turn|77
+|
+|switch|p1a: Gengar|Gengar|323\/323
+|-end|p2a: Chansey|confusion
+|move|p2a: Chansey|Light Screen|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|78
+|
+|move|p1a: Gengar|Hypnosis|p2a: Chansey|[miss]
+|-miss|p1a: Gengar
+|move|p2a: Chansey|Ice Beam|p1a: Gengar
+|-damage|p1a: Gengar|260\/323
+|
+|turn|79
+|
+|move|p1a: Gengar|Hypnosis|p2a: Chansey
+|-status|p2a: Chansey|slp
+|cant|p2a: Chansey|slp
+|
+|turn|80
+|
+|move|p1a: Gengar|Dream Eater|p2a: Chansey
+|-damage|p2a: Chansey|536\/703 slp
+|-heal|p1a: Gengar|282\/323|[from] drain|[of] p2a: Chansey
+|cant|p2a: Chansey|slp
+|-curestatus|p2a: Chansey|slp
+|
+|turn|81
+|
+|move|p1a: Gengar|Mega Drain|p2a: Chansey
+|-damage|p2a: Chansey|518\/703
+|-heal|p1a: Gengar|291\/323|[from] drain|[of] p2a: Chansey
+|move|p2a: Chansey|Ice Beam|p1a: Gengar
+|-damage|p1a: Gengar|226\/323
+|
+|turn|82
+|
+|move|p1a: Gengar|Mega Drain|p2a: Chansey
+|-damage|p2a: Chansey|498\/703
+|-heal|p1a: Gengar|236\/323|[from] drain|[of] p2a: Chansey
+|move|p2a: Chansey|Ice Beam|p1a: Gengar
+|-damage|p1a: Gengar|174\/323
+|
+|turn|83
+|
+|switch|p1a: Lapras|Lapras|344\/463
+|move|p2a: Chansey|Ice Beam|p1a: Lapras
+|-crit|p1a: Lapras
+|-resisted|p1a: Lapras
+|-damage|p1a: Lapras|307\/463
+|
+|turn|84
+|
+|move|p1a: Lapras|Confuse Ray|p2a: Chansey
+|-start|p2a: Chansey|confusion
+|-activate|p2a: Chansey|confusion
+|move|p2a: Chansey|Light Screen|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|85
+|
+|move|p1a: Lapras|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|443\/703
+|-activate|p2a: Chansey|confusion
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703
+|
+|turn|86
+|
+|switch|p1a: Dragonite|Dragonite|198\/385 par
+|-activate|p2a: Chansey|confusion
+|-damage|p2a: Chansey|668\/703|[from] confusion
+|
+|turn|87
+|
+|-activate|p2a: Chansey|confusion
+|-damage|p2a: Chansey|633\/703|[from] confusion
+|move|p1a: Dragonite|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|turn|88
+|
+|move|p1a: Dragonite|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|612\/703 par
+|-activate|p2a: Chansey|move: Wrap|[of] p1a: Dragonite
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|89
+|
+|move|p1a: Dragonite|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|591\/703 par
+|cant|p2a: Chansey|partiallytrapped
+|
+|-end|p2a: Chansey|Wrap|[partiallytrapped]
+|turn|90
+|c|★ggc|Be happy with your very undeserved win.
+|c|★klafkodentro|lol
+|c|★klafkodentro|I don't think that's true
+|
+|move|p1a: Dragonite|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|572\/703 par
+|-activate|p2a: Chansey|move: Wrap|[of] p1a: Dragonite
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|91
+|
+|cant|p1a: Dragonite|par
+|cant|p2a: Chansey|partiallytrapped
+|
+|-end|p2a: Chansey|Wrap|[partiallytrapped]
+|turn|92
+|
+|move|p1a: Dragonite|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|551\/703 par
+|-activate|p2a: Chansey|move: Wrap|[of] p1a: Dragonite
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|93
+|
+|move|p1a: Dragonite|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|530\/703 par
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|94
+|
+|move|p1a: Dragonite|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|509\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|95
+|
+|cant|p1a: Dragonite|par
+|cant|p2a: Chansey|par
+|
+|-end|p2a: Chansey|Wrap|[partiallytrapped]
+|turn|96
+|
+|cant|p1a: Dragonite|par
+|-end|p2a: Chansey|confusion
+|move|p2a: Chansey|Ice Beam|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|switch|p1a: Lapras|Lapras|307\/463
+|turn|97
+|
+|move|p1a: Lapras|Confuse Ray|p2a: Chansey
+|-start|p2a: Chansey|confusion
+|-activate|p2a: Chansey|confusion
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703 par
+|
+|turn|98
+|
+|move|p1a: Lapras|Ice Beam|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|494\/703 par
+|-activate|p2a: Chansey|confusion
+|-damage|p2a: Chansey|459\/703 par|[from] confusion
+|
+|turn|99
+|
+|move|p1a: Lapras|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|408\/703 par
+|-activate|p2a: Chansey|confusion
+|-damage|p2a: Chansey|373\/703 par|[from] confusion
+|
+|turn|100
+|
+|move|p1a: Lapras|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|320\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|101
+|
+|move|p1a: Lapras|Ice Beam|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|132\/703 par
+|-activate|p2a: Chansey|confusion
+|-damage|p2a: Chansey|97\/703 par|[from] confusion
+|
+|turn|102
+|
+|move|p1a: Lapras|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|40\/703 par
+|-end|p2a: Chansey|confusion
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|391\/703 par
+|
+|turn|103
+|
+|move|p1a: Lapras|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|356\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|104
+|
+|move|p1a: Lapras|Confuse Ray|p2a: Chansey
+|-start|p2a: Chansey|confusion
+|cant|p2a: Chansey|par
+|
+|turn|105
+|
+|move|p1a: Lapras|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|322\/703 par
+|-activate|p2a: Chansey|confusion
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|673\/703 par
+|
+|turn|106
+|
+|move|p1a: Lapras|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|637\/703 par
+|-activate|p2a: Chansey|confusion
+|-damage|p2a: Chansey|602\/703 par|[from] confusion
+|
+|turn|107
+|
+|move|p1a: Lapras|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|566\/703 par
+|-activate|p2a: Chansey|confusion
+|move|p2a: Chansey|Light Screen|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|108
+|
+|move|p1a: Lapras|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|531\/703 par
+|-activate|p2a: Chansey|confusion
+|move|p2a: Chansey|Light Screen|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|109
+|
+|move|p1a: Lapras|Thunderbolt|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|398\/703 par
+|-end|p2a: Chansey|confusion
+|move|p2a: Chansey|Light Screen|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|110
+|
+|move|p1a: Lapras|Confuse Ray|p2a: Chansey
+|-start|p2a: Chansey|confusion
+|-activate|p2a: Chansey|confusion
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703 par
+|
+|turn|111
+|
+|move|p1a: Lapras|Thunderbolt|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|569\/703 par
+|-activate|p2a: Chansey|confusion
+|-damage|p2a: Chansey|534\/703 par|[from] confusion
+|
+|turn|112
+|
+|move|p1a: Lapras|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|497\/703 par
+|-activate|p2a: Chansey|confusion
+|-damage|p2a: Chansey|462\/703 par|[from] confusion
+|
+|turn|113
+|
+|move|p1a: Lapras|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|424\/703 par
+|-activate|p2a: Chansey|confusion
+|move|p2a: Chansey|Reflect|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|114
+|
+|move|p1a: Lapras|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|387\/703 par
+|-end|p2a: Chansey|confusion
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703 par
+|
+|turn|115
+|
+|move|p1a: Lapras|Confuse Ray|p2a: Chansey
+|-start|p2a: Chansey|confusion
+|-activate|p2a: Chansey|confusion
+|-damage|p2a: Chansey|668\/703 par|[from] confusion
+|
+|turn|116
+|
+|move|p1a: Lapras|Thunderbolt|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|523\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|117
+|
+|move|p1a: Lapras|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|486\/703 par
+|-activate|p2a: Chansey|confusion
+|move|p2a: Chansey|Light Screen|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|118
+|
+|move|p1a: Lapras|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|452\/703 par
+|-activate|p2a: Chansey|confusion
+|-damage|p2a: Chansey|417\/703 par|[from] confusion
+|
+|turn|119
+|
+|move|p1a: Lapras|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|383\/703 par
+|-activate|p2a: Chansey|confusion
+|move|p2a: Chansey|Light Screen|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|120
+|
+|move|p1a: Lapras|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|345\/703 par
+|-end|p2a: Chansey|confusion
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|696\/703 par
+|
+|turn|121
+|
+|move|p1a: Lapras|Confuse Ray|p2a: Chansey
+|-start|p2a: Chansey|confusion
+|-activate|p2a: Chansey|confusion
+|move|p2a: Chansey|Reflect|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|122
+|
+|move|p1a: Lapras|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|663\/703 par
+|-end|p2a: Chansey|confusion
+|move|p2a: Chansey|Reflect|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|123
+|
+|move|p1a: Lapras|Confuse Ray|p2a: Chansey
+|-start|p2a: Chansey|confusion
+|cant|p2a: Chansey|par
+|
+|turn|124
+|c|★ggc|someone is running low on PP over there
+|c|★ggc|good thing you para'ed me and confused me to hell
+|c|★ggc|on top of my 100 pp
+|c|★ggc|that sure would suck If I stalled you out
+|c|★ggc|>_>
+|c|★ggc|no ice beams
+|c|★ggc|like 4 rays and tbolts a piece
+|c|★ggc|damn
+|c|★ggc|that sucks
+|
+|move|p1a: Lapras|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|629\/703 par
+|-activate|p2a: Chansey|confusion
+|move|p2a: Chansey|Light Screen|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|125
+|c|★klafkodentro|yeah
+|
+|move|p1a: Lapras|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|591\/703 par
+|-activate|p2a: Chansey|confusion
+|-damage|p2a: Chansey|556\/703 par|[from] confusion
+|
+|turn|126
+|
+|move|p1a: Lapras|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|519\/703 par
+|-activate|p2a: Chansey|confusion
+|-damage|p2a: Chansey|484\/703 par|[from] confusion
+|
+|turn|127
+|
+|move|p1a: Lapras|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|449\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|128
+|
+|move|p1a: Lapras|Rest|p1a: Lapras
+|-status|p1a: Lapras|slp
+|-heal|p1a: Lapras|463\/463 slp|[silent]
+|-status|p1a: Lapras|slp|[from] move: Rest
+|cant|p2a: Chansey|par
+|
+|turn|129
+|
+|cant|p1a: Lapras|slp
+|cant|p2a: Chansey|par
+|
+|turn|130
+|
+|cant|p1a: Lapras|slp
+|-curestatus|p1a: Lapras|slp
+|cant|p2a: Chansey|par
+|
+|turn|131
+|c|★ggc|bahahahah
+|c|★klafkodentro|lol
+|c|★klafkodentro|how much pp on softboiled do you have left?
+|
+|move|p1a: Lapras|Confuse Ray|p2a: Chansey
+|cant|p2a: Chansey|par
+|
+|turn|132
+|
+|switch|p1a: Gengar|Gengar|174\/323
+|-activate|p2a: Chansey|confusion
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703 par
+|
+|turn|133
+|c|★klafkodentro|damn
+|
+|move|p1a: Gengar|Mega Drain|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|632\/703 par
+|-heal|p1a: Gengar|209\/323|[from] drain|[of] p2a: Chansey
+|-end|p2a: Chansey|confusion
+|move|p2a: Chansey|Ice Beam|p1a: Gengar
+|-damage|p1a: Gengar|149\/323
+|
+|turn|134
+|
+|move|p1a: Gengar|Mega Drain|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|559\/703 par
+|-heal|p1a: Gengar|185\/323|[from] drain|[of] p2a: Chansey
+|move|p2a: Chansey|Ice Beam|p1a: Gengar
+|-damage|p1a: Gengar|118\/323
+|
+|turn|135
+|
+|move|p1a: Gengar|Mega Drain|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|494\/703 par
+|-heal|p1a: Gengar|150\/323|[from] drain|[of] p2a: Chansey
+|cant|p2a: Chansey|par
+|
+|turn|136
+|
+|move|p1a: Gengar|Mega Drain|p2a: Chansey
+|-damage|p2a: Chansey|475\/703 par
+|-heal|p1a: Gengar|159\/323|[from] drain|[of] p2a: Chansey
+|move|p2a: Chansey|Ice Beam|p1a: Gengar
+|-damage|p1a: Gengar|92\/323
+|
+|turn|137
+|
+|move|p1a: Gengar|Mega Drain|p2a: Chansey
+|-damage|p2a: Chansey|457\/703 par
+|-heal|p1a: Gengar|101\/323|[from] drain|[of] p2a: Chansey
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703 par
+|
+|turn|138
+|
+|move|p1a: Gengar|Mega Drain|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|629\/703 par
+|-heal|p1a: Gengar|138\/323|[from] drain|[of] p2a: Chansey
+|move|p2a: Chansey|Ice Beam|p1a: Gengar
+|-damage|p1a: Gengar|73\/323
+|
+|turn|139
+|
+|move|p1a: Gengar|Mega Drain|p2a: Chansey
+|-damage|p2a: Chansey|610\/703 par
+|-heal|p1a: Gengar|82\/323|[from] drain|[of] p2a: Chansey
+|move|p2a: Chansey|Ice Beam|p1a: Gengar
+|-damage|p1a: Gengar|19\/323
+|
+|turn|140
+|
+|move|p1a: Gengar|Explosion|p2a: Chansey
+|-damage|p2a: Chansey|310\/703 par
+|faint|p1a: Gengar
+|
+|switch|p1a: Lapras|Lapras|463\/463
+|turn|141
+|
+|move|p1a: Lapras|Confuse Ray|p2a: Chansey
+|-start|p2a: Chansey|confusion
+|cant|p2a: Chansey|par
+|
+|turn|142
+|c|★ggc|You have no more damaging moves
+|c|★ggc|and confusion doesn't last long enough to kill me
+|
+|move|p1a: Lapras|Rest|p1a: Lapras
+|-fail|p1a: Lapras
+|-activate|p2a: Chansey|confusion
+|-damage|p2a: Chansey|275\/703 par|[from] confusion
+|
+|turn|143
+|c|★ggc|and your remaining rests x 3 < my PP
+|
+|move|p1a: Lapras|Rest|p1a: Lapras
+|-fail|p1a: Lapras
+|-activate|p2a: Chansey|confusion
+|-damage|p2a: Chansey|240\/703 par|[from] confusion
+|
+|turn|144
+|c|★ggc|LOL
+|
+|move|p1a: Lapras|Rest|p1a: Lapras
+|-fail|p1a: Lapras
+|-activate|p2a: Chansey|confusion
+|-damage|p2a: Chansey|205\/703 par|[from] confusion
+|
+|turn|145
+|
+|move|p1a: Lapras|Rest|p1a: Lapras
+|-fail|p1a: Lapras
+|-activate|p2a: Chansey|confusion
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|556\/703 par
+|
+|turn|146
+|
+|move|p1a: Lapras|Rest|p1a: Lapras
+|-fail|p1a: Lapras
+|-end|p2a: Chansey|confusion
+|move|p2a: Chansey|Reflect|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|147
+|
+|move|p1a: Lapras|Confuse Ray|p2a: Chansey
+|-start|p2a: Chansey|confusion
+|cant|p2a: Chansey|par
+|
+|turn|148
+|
+|move|p1a: Lapras|Rest|p1a: Lapras
+|-fail|p1a: Lapras
+|cant|p2a: Chansey|par
+|
+|turn|149
+|join|kid gf lol
+|
+|move|p1a: Lapras|Rest|p1a: Lapras
+|-fail|p1a: Lapras
+|-activate|p2a: Chansey|confusion
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703 par
+|
+|turn|150
+|c|★klafkodentro|that sucks xd
+|
+|move|p1a: Lapras|Rest|p1a: Lapras
+|-fail|p1a: Lapras
+|-activate|p2a: Chansey|confusion
+|move|p2a: Chansey|Light Screen|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|151
+|
+|move|p1a: Lapras|Rest|p1a: Lapras
+|-fail|p1a: Lapras
+|-activate|p2a: Chansey|confusion
+|move|p2a: Chansey|Light Screen|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|152
+|
+|move|p1a: Lapras|Rest|p1a: Lapras
+|-fail|p1a: Lapras
+|-activate|p2a: Chansey|confusion
+|move|p2a: Chansey|Light Screen|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|153
+|
+|move|p1a: Lapras|Rest|p1a: Lapras
+|-fail|p1a: Lapras
+|-end|p2a: Chansey|confusion
+|move|p2a: Chansey|Light Screen|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|154
+|
+|move|p1a: Lapras|Rest|p1a: Lapras
+|-fail|p1a: Lapras
+|cant|p2a: Chansey|par
+|
+|turn|155
+|
+|move|p1a: Lapras|Rest|p1a: Lapras
+|-fail|p1a: Lapras
+|move|p2a: Chansey|Reflect|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|156
+|
+|move|p1a: Lapras|Rest|p1a: Lapras
+|-fail|p1a: Lapras
+|cant|p2a: Chansey|par
+|
+|turn|157
+|
+|-activate|p1a: Lapras|move: Struggle
+|move|p1a: Lapras|Struggle|p2a: Chansey
+|-damage|p2a: Chansey|653\/703 par
+|-damage|p1a: Lapras|438\/463|[from] recoil|[of] p2a: Chansey
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703 par
+|
+|turn|158
+|c|★klafkodentro|gg
+|
+|-activate|p1a: Lapras|move: Struggle
+|move|p1a: Lapras|Struggle|p2a: Chansey
+|-damage|p2a: Chansey|656\/703 par
+|-damage|p1a: Lapras|415\/463|[from] recoil|[of] p2a: Chansey
+|move|p2a: Chansey|Reflect|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|159
+|c|★ggc|gg
+|
+|-activate|p1a: Lapras|move: Struggle
+|move|p1a: Lapras|Struggle|p2a: Chansey
+|-damage|p2a: Chansey|604\/703 par
+|-damage|p1a: Lapras|389\/463|[from] recoil|[of] p2a: Chansey
+|move|p2a: Chansey|Reflect|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|160
+|c| kid gf lol|never seen this before
+|c|★klafkodentro|rematch?
+|
+|-activate|p1a: Lapras|move: Struggle
+|move|p1a: Lapras|Struggle|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|415\/703 par
+|-damage|p1a: Lapras|295\/463|[from] recoil|[of] p2a: Chansey
+|move|p2a: Chansey|Reflect|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|161
+|c|★ggc|it's almost 7 am here
+|c| kid gf lol|ive seen zam v egg and zam v zam tons of times pp stalling
+|c| kid gf lol|but not lap
+|
+|-activate|p1a: Lapras|move: Struggle
+|move|p1a: Lapras|Struggle|p2a: Chansey
+|-damage|p2a: Chansey|366\/703 par
+|-damage|p1a: Lapras|271\/463|[from] recoil|[of] p2a: Chansey
+|move|p2a: Chansey|Reflect|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|162
+|
+|-activate|p1a: Lapras|move: Struggle
+|move|p1a: Lapras|Struggle|p2a: Chansey
+|-damage|p2a: Chansey|320\/703 par
+|-damage|p1a: Lapras|248\/463|[from] recoil|[of] p2a: Chansey
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|671\/703 par
+|
+|turn|163
+|c|★ggc|I'll rematch you another time
+|c|★klafkodentro|okay
+|
+|-activate|p1a: Lapras|move: Struggle
+|move|p1a: Lapras|Struggle|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|471\/703 par
+|-damage|p1a: Lapras|148\/463|[from] recoil|[of] p2a: Chansey
+|cant|p2a: Chansey|par
+|
+|turn|164
+|c|★ggc|this was fucking exhausting
+|
+|-activate|p1a: Lapras|move: Struggle
+|move|p1a: Lapras|Struggle|p2a: Chansey
+|-damage|p2a: Chansey|418\/703 par
+|-damage|p1a: Lapras|122\/463|[from] recoil|[of] p2a: Chansey
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703 par
+|
+|turn|165
+|c|★klafkodentro|true
+|c|★ggc|well this happened because my chansey doesns't have electric
+|
+|-activate|p1a: Lapras|move: Struggle
+|move|p1a: Lapras|Struggle|p2a: Chansey
+|-damage|p2a: Chansey|655\/703 par
+|-damage|p1a: Lapras|98\/463|[from] recoil|[of] p2a: Chansey
+|move|p2a: Chansey|Reflect|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|166
+|c|★klafkodentro|I can now say that I officialy hate chansey
+|c|★ggc|but yes gf it is pretty odd
+|
+|-activate|p1a: Lapras|move: Struggle
+|move|p1a: Lapras|Struggle|p2a: Chansey
+|-damage|p2a: Chansey|607\/703 par
+|-damage|p1a: Lapras|74\/463|[from] recoil|[of] p2a: Chansey
+|cant|p2a: Chansey|par
+|
+|turn|167
+|
+|-activate|p1a: Lapras|move: Struggle
+|move|p1a: Lapras|Struggle|p2a: Chansey
+|-damage|p2a: Chansey|561\/703 par
+|-damage|p1a: Lapras|51\/463|[from] recoil|[of] p2a: Chansey
+|move|p2a: Chansey|Reflect|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|168
+|c|★ggc|this chansey always wins those match ups though
+|c|★ggc|since screen has 48 pp
+|
+|-activate|p1a: Lapras|move: Struggle
+|move|p1a: Lapras|Struggle|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|366\/703 par
+|-damage|p1a: Lapras|0 fnt|[from] recoil|[of] p2a: Chansey
+|faint|p1a: Lapras
+|
+|win|ggc
+|raw|Ladder updating...
+|raw|klafkodentro's rating: 1134 &rarr; <strong>1107<\/strong><br \/>(-27 for losing)
+|raw|ggc's rating: 1107 &rarr; <strong>1134<\/strong><br \/>(+27 for winning)
+|c|★klafkodentro|damn
+|c|★ggc|I look forward
+|c|★ggc|to our rematch
+|c|★klafkodentro|gg indeed
+|c|★ggc|gg
+|c|★klafkodentro|cool
+|c|★klafkodentro|bye
+|leave|ggc
+|player|p2
+|leave|kid gf lol

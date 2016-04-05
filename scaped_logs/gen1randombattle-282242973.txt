@@ -1,0 +1,288 @@
+﻿|join|UndeadKindNate
+|join|XianJu
+|player|p1|UndeadKindNate|162
+|player|p2|XianJu|130
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Slowbro|Slowbro, L79|312\/312
+|switch|p2a: Metapod|Metapod, L99|300\/300
+|turn|1
+|c|★UndeadKindNate|bruh really
+|c|★UndeadKindNate|are you gonna harden me to death?
+|
+|move|p2a: Metapod|Tackle|p1a: Slowbro
+|-damage|p1a: Slowbro|296\/312
+|move|p1a: Slowbro|Thunder Wave|p2a: Metapod
+|-status|p2a: Metapod|par
+|
+|turn|2
+|
+|switch|p2a: Tauros|Tauros, L79|280\/280
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|
+|turn|3
+|c|★XianJu|no need to stall
+|
+|move|p2a: Tauros|Body Slam|p1a: Slowbro
+|-damage|p1a: Slowbro|226\/312
+|move|p1a: Slowbro|Thunder Wave|p2a: Tauros
+|-status|p2a: Tauros|par
+|
+|turn|4
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|cant|p2a: Tauros|par
+|
+|turn|5
+|
+|move|p1a: Slowbro|Surf|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|switch|p2a: Mew|Mew, L74|300\/300
+|turn|6
+|
+|move|p2a: Mew|Thunder Wave|p1a: Slowbro
+|-status|p1a: Slowbro|par
+|cant|p1a: Slowbro|par
+|
+|turn|7
+|
+|move|p2a: Mew|Fissure|p1a: Slowbro|[miss]
+|-miss|p2a: Mew
+|move|p1a: Slowbro|Thunder Wave|p2a: Mew
+|-status|p2a: Mew|par
+|
+|turn|8
+|
+|move|p2a: Mew|Fissure|p1a: Slowbro|[miss]
+|-miss|p2a: Mew
+|cant|p1a: Slowbro|par
+|
+|turn|9
+|c|★UndeadKindNate|wooo wtf
+|c|★UndeadKindNate|no
+|
+|cant|p2a: Mew|par
+|move|p1a: Slowbro|Surf|p2a: Mew
+|-crit|p2a: Mew
+|-damage|p2a: Mew|138\/300 par
+|
+|turn|10
+|
+|move|p2a: Mew|Fissure|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|-ohko
+|faint|p1a: Slowbro
+|c|★UndeadKindNate|awwww
+|
+|switch|p1a: Pinsir|Pinsir, L85|284\/284
+|turn|11
+|
+|move|p1a: Pinsir|Swords Dance|p1a: Pinsir
+|-boost|p1a: Pinsir|atk|2
+|move|p2a: Mew|Thunder Wave|p1a: Pinsir
+|-status|p1a: Pinsir|par
+|
+|turn|12
+|
+|move|p1a: Pinsir|Body Slam|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|switch|p2a: Golbat|Golbat, L90|318\/318
+|turn|13
+|
+|move|p2a: Golbat|Confuse Ray|p1a: Pinsir
+|-start|p1a: Pinsir|confusion
+|-activate|p1a: Pinsir|confusion
+|move|p1a: Pinsir|Body Slam|p2a: Golbat
+|-damage|p2a: Golbat|157\/318
+|-status|p2a: Golbat|par
+|
+|turn|14
+|
+|move|p2a: Golbat|Screech|p1a: Pinsir
+|-unboost|p1a: Pinsir|def|2
+|-end|p1a: Pinsir|confusion
+|move|p1a: Pinsir|Body Slam|p2a: Golbat
+|-crit|p2a: Golbat
+|-damage|p2a: Golbat|0 fnt
+|faint|p2a: Golbat
+|
+|switch|p2a: Arbok|Arbok, L90|291\/291
+|turn|15
+|
+|move|p2a: Arbok|Rock Slide|p1a: Pinsir
+|-supereffective|p1a: Pinsir
+|-damage|p1a: Pinsir|80\/284 par
+|move|p1a: Pinsir|Hyper Beam|p2a: Arbok
+|-damage|p2a: Arbok|12\/291
+|
+|turn|16
+|-mustrecharge|p1a: Pinsir
+|-mustrecharge|p1a: Pinsir
+|
+|move|p2a: Arbok|Body Slam|p1a: Pinsir
+|-damage|p1a: Pinsir|0 fnt
+|faint|p1a: Pinsir
+|
+|switch|p1a: Spearow|Spearow, L96|272\/272
+|turn|17
+|
+|move|p2a: Arbok|Rock Slide|p1a: Spearow
+|-supereffective|p1a: Spearow
+|-damage|p1a: Spearow|99\/272
+|move|p1a: Spearow|Agility|p1a: Spearow
+|-boost|p1a: Spearow|spe|2
+|
+|turn|18
+|
+|move|p1a: Spearow|Drill Peck|p2a: Arbok
+|-damage|p2a: Arbok|0 fnt
+|faint|p2a: Arbok
+|c|★UndeadKindNate|gg
+|
+|switch|p2a: Metapod|Metapod, L99|300\/300 par
+|turn|19
+|
+|move|p1a: Spearow|Drill Peck|p2a: Metapod
+|-supereffective|p2a: Metapod
+|-damage|p2a: Metapod|120\/300 par
+|move|p2a: Metapod|String Shot|p1a: Spearow
+|-unboost|p1a: Spearow|spe|1
+|
+|turn|20
+|
+|move|p1a: Spearow|Agility|p1a: Spearow
+|-boost|p1a: Spearow|spe|2
+|move|p2a: Metapod|Tackle|p1a: Spearow
+|-damage|p1a: Spearow|73\/272
+|
+|turn|21
+|
+|move|p1a: Spearow|Drill Peck|p2a: Metapod
+|-crit|p2a: Metapod
+|-supereffective|p2a: Metapod
+|-damage|p2a: Metapod|0 fnt
+|faint|p2a: Metapod
+|
+|switch|p2a: Omastar|Omastar, L90|309\/309
+|turn|22
+|
+|move|p1a: Spearow|Double-Edge|p2a: Omastar
+|-resisted|p2a: Omastar
+|-damage|p2a: Omastar|274\/309
+|-damage|p1a: Spearow|65\/272|[from] recoil|[of] p2a: Omastar
+|move|p2a: Omastar|Blizzard|p1a: Spearow
+|-supereffective|p1a: Spearow
+|-damage|p1a: Spearow|0 fnt
+|faint|p1a: Spearow
+|
+|switch|p1a: Hitmonchan|Hitmonchan, L90|273\/273
+|turn|23
+|
+|move|p2a: Omastar|Blizzard|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|118\/273
+|move|p1a: Hitmonchan|Counter|p2a: Omastar
+|-fail|p1a: Hitmonchan
+|
+|turn|24
+|
+|move|p1a: Hitmonchan|Submission|p2a: Omastar
+|-supereffective|p2a: Omastar
+|-damage|p2a: Omastar|135\/309
+|-damage|p1a: Hitmonchan|84\/273|[from] recoil|[of] p2a: Omastar
+|move|p2a: Omastar|Blizzard|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|0 fnt
+|faint|p1a: Hitmonchan
+|
+|switch|p1a: Muk|Muk, L90|372\/372
+|turn|25
+|
+|move|p2a: Omastar|Blizzard|p1a: Muk
+|-damage|p1a: Muk|260\/372
+|move|p1a: Muk|Mega Drain|p2a: Omastar
+|-supereffective|p2a: Omastar
+|-damage|p2a: Omastar|51\/309
+|-heal|p1a: Muk|302\/372|[from] drain|[of] p2a: Omastar
+|
+|turn|26
+|c|★UndeadKindNate|this is gonna be a shocking victory
+|c|★UndeadKindNate|or should and explosivie victory
+|
+|move|p2a: Omastar|Rest|p2a: Omastar
+|-status|p2a: Omastar|slp
+|-heal|p2a: Omastar|309\/309 slp|[silent]
+|-status|p2a: Omastar|slp|[from] move: Rest
+|move|p1a: Muk|Explosion|p2a: Omastar
+|-resisted|p2a: Omastar
+|-damage|p2a: Omastar|211\/309 slp
+|faint|p1a: Muk
+|
+|switch|p1a: Flareon|Flareon, L90|300\/300
+|turn|27
+|
+|move|p1a: Flareon|Body Slam|p2a: Omastar
+|-resisted|p2a: Omastar
+|-damage|p2a: Omastar|181\/309 slp
+|cant|p2a: Omastar|slp
+|
+|turn|28
+|
+|move|p1a: Flareon|Fire Blast|p2a: Omastar
+|-resisted|p2a: Omastar
+|-damage|p2a: Omastar|150\/309 slp
+|-curestatus|p2a: Omastar|slp
+|
+|turn|29
+|
+|move|p1a: Flareon|Quick Attack|p2a: Omastar
+|-resisted|p2a: Omastar
+|-damage|p2a: Omastar|137\/309
+|move|p2a: Omastar|Blizzard|p1a: Flareon
+|-damage|p1a: Flareon|216\/300
+|
+|turn|30
+|
+|move|p1a: Flareon|Body Slam|p2a: Omastar
+|-resisted|p2a: Omastar
+|-damage|p2a: Omastar|105\/309
+|move|p2a: Omastar|Blizzard|p1a: Flareon
+|-damage|p1a: Flareon|126\/300
+|
+|turn|31
+|
+|move|p1a: Flareon|Body Slam|p2a: Omastar
+|-resisted|p2a: Omastar
+|-damage|p2a: Omastar|72\/309
+|-status|p2a: Omastar|par
+|move|p2a: Omastar|Blizzard|p1a: Flareon
+|-damage|p1a: Flareon|36\/300
+|-status|p1a: Flareon|frz
+|
+|turn|32
+|c|★UndeadKindNate|wow
+|
+|cant|p1a: Flareon|frz
+|move|p2a: Omastar|Seismic Toss|p1a: Flareon
+|-damage|p1a: Flareon|0 fnt
+|faint|p1a: Flareon
+|
+|win|XianJu
+|raw|UndeadKindNate's rating: 1194 &rarr; <strong>1175<\/strong><br \/>(-19 for losing)
+|raw|XianJu's rating: 1284 &rarr; <strong>1303<\/strong><br \/>(+19 for winning)
+|c|★UndeadKindNate|that was stupid
+|leave|UndeadKindNate
+|player|p1

@@ -1,0 +1,235 @@
+﻿|join|LibertarianMaster
+|join|MeimuHakurei
+|player|p1|LibertarianMaster|35
+|player|p2|MeimuHakurei|1
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam, L79|249\/249
+|switch|p2a: Marowak|Marowak, L90|291\/291
+|turn|1
+|
+|move|p1a: Alakazam|Psychic|p2a: Marowak
+|-damage|p2a: Marowak|155\/291
+|move|p2a: Marowak|Earthquake|p1a: Alakazam
+|-damage|p1a: Alakazam|81\/249
+|
+|turn|2
+|
+|switch|p1a: Zubat|Zubat, L96|272\/272
+|move|p2a: Marowak|Earthquake|p1a: Zubat
+|-immune|p1a: Zubat|[msg]
+|
+|turn|3
+|
+|switch|p2a: Muk|Muk, L90|372\/372
+|move|p1a: Zubat|Mega Drain|p2a: Muk
+|-resisted|p2a: Muk
+|-damage|p2a: Muk|360\/372
+|
+|turn|4
+|join|hfeath
+|
+|switch|p1a: Alakazam|Alakazam, L79|81\/249
+|move|p2a: Muk|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|switch|p1a: Exeggcute|Exeggcute, L96|310\/310
+|turn|5
+|
+|move|p2a: Muk|Sludge|p1a: Exeggcute
+|-supereffective|p1a: Exeggcute
+|-damage|p1a: Exeggcute|164\/310
+|move|p1a: Exeggcute|Psychic|p2a: Muk
+|-supereffective|p2a: Muk
+|-damage|p2a: Muk|146\/372
+|
+|turn|6
+|
+|move|p2a: Muk|Explosion|p1a: Exeggcute
+|-damage|p1a: Exeggcute|0 fnt
+|faint|p1a: Exeggcute
+|faint|p2a: Muk
+|
+|switch|p2a: Rapidash|Rapidash, L90|300\/300
+|switch|p1a: Charmeleon|Charmeleon, L85|272\/272
+|turn|7
+|
+|move|p2a: Rapidash|Substitute|p2a: Rapidash
+|-start|p2a: Rapidash|Substitute
+|-damage|p2a: Rapidash|225\/300
+|move|p1a: Charmeleon|Slash|p2a: Rapidash
+|-crit|p2a: Rapidash
+|-end|p2a: Rapidash|Substitute
+|
+|turn|8
+|
+|move|p2a: Rapidash|Hyper Beam|p1a: Charmeleon
+|-damage|p1a: Charmeleon|120\/272
+|move|p1a: Charmeleon|Slash|p2a: Rapidash
+|-crit|p2a: Rapidash
+|-damage|p2a: Rapidash|137\/300
+|
+|turn|9
+|-mustrecharge|p2a: Rapidash
+|-mustrecharge|p2a: Rapidash
+|
+|switch|p1a: Snorlax|Snorlax, L79|415\/415
+|cant|p2a: Rapidash|recharge
+|
+|turn|10
+|
+|move|p2a: Rapidash|Growl|p1a: Snorlax
+|-unboost|p1a: Snorlax|atk|1
+|move|p1a: Snorlax|Surf|p2a: Rapidash
+|-supereffective|p2a: Rapidash
+|-damage|p2a: Rapidash|50\/300
+|
+|turn|11
+|
+|switch|p2a: Poliwag|Poliwag, L96|272\/272
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|
+|turn|12
+|
+|move|p2a: Poliwag|Hypnosis|p1a: Snorlax|[miss]
+|-miss|p2a: Poliwag
+|move|p1a: Snorlax|Ice Beam|p2a: Poliwag
+|-resisted|p2a: Poliwag
+|-damage|p2a: Poliwag|213\/272
+|
+|turn|13
+|
+|move|p2a: Poliwag|Hypnosis|p1a: Snorlax
+|-status|p1a: Snorlax|slp
+|-curestatus|p1a: Snorlax|slp
+|
+|turn|14
+|
+|move|p2a: Poliwag|Hypnosis|p1a: Snorlax|[miss]
+|-miss|p2a: Poliwag
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|
+|turn|15
+|
+|move|p2a: Poliwag|Amnesia|p2a: Poliwag
+|-boost|p2a: Poliwag|spd|2
+|-boost|p2a: Poliwag|spa|2
+|move|p1a: Snorlax|Ice Beam|p2a: Poliwag
+|-crit|p2a: Poliwag
+|-resisted|p2a: Poliwag
+|-damage|p2a: Poliwag|149\/272
+|
+|turn|16
+|
+|move|p2a: Poliwag|Amnesia|p2a: Poliwag
+|-boost|p2a: Poliwag|spd|2
+|-boost|p2a: Poliwag|spa|2
+|move|p1a: Snorlax|Ice Beam|p2a: Poliwag
+|-resisted|p2a: Poliwag
+|-damage|p2a: Poliwag|118\/272
+|
+|turn|17
+|
+|move|p2a: Poliwag|Surf|p1a: Snorlax
+|-damage|p1a: Snorlax|308\/415
+|move|p1a: Snorlax|Body Slam|p2a: Poliwag
+|-damage|p2a: Poliwag|41\/272
+|-status|p2a: Poliwag|par
+|
+|turn|18
+|
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|move|p2a: Poliwag|Blizzard|p1a: Snorlax
+|-damage|p1a: Snorlax|244\/415
+|-status|p1a: Snorlax|frz
+|
+|turn|19
+|c|★LibertarianMaster|crap
+|
+|switch|p1a: Cloyster|Cloyster, L83|253\/253
+|cant|p2a: Poliwag|par
+|
+|turn|20
+|
+|move|p1a: Cloyster|Hyper Beam|p2a: Poliwag
+|-damage|p2a: Poliwag|0 fnt
+|faint|p2a: Poliwag
+|
+|switch|p2a: Hitmonchan|Hitmonchan, L90|273\/273
+|turn|21
+|
+|move|p2a: Hitmonchan|Submission|p1a: Cloyster
+|-crit|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|3\/253
+|-damage|p2a: Hitmonchan|211\/273|[from] recoil|[of] p1a: Cloyster
+|move|p1a: Cloyster|Ice Beam|p2a: Hitmonchan
+|-crit|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|0 fnt
+|faint|p2a: Hitmonchan
+|
+|switch|p2a: Rapidash|Rapidash, L90|50\/300
+|turn|22
+|
+|switch|p1a: Zubat|Zubat, L96|272\/272
+|move|p2a: Rapidash|Fire Blast|p1a: Zubat
+|-damage|p1a: Zubat|98\/272
+|
+|turn|23
+|
+|move|p2a: Rapidash|Hyper Beam|p1a: Zubat
+|-damage|p1a: Zubat|0 fnt
+|faint|p1a: Zubat
+|
+|switch|p1a: Charmeleon|Charmeleon, L85|120\/272
+|turn|24
+|
+|move|p2a: Rapidash|Hyper Beam|p1a: Charmeleon
+|-crit|p1a: Charmeleon
+|-damage|p1a: Charmeleon|0 fnt
+|faint|p1a: Charmeleon
+|
+|switch|p1a: Snorlax|Snorlax, L79|244\/415 frz
+|turn|25
+|
+|switch|p2a: Tangela|Tangela, L85|284\/284
+|cant|p1a: Snorlax|frz
+|
+|turn|26
+|
+|move|p2a: Tangela|Growth|p2a: Tangela
+|-boost|p2a: Tangela|spa|1
+|-boost|p2a: Tangela|spd|1
+|cant|p1a: Snorlax|frz
+|
+|turn|27
+|
+|switch|p1a: Cloyster|Cloyster, L83|3\/253
+|move|p2a: Tangela|Mega Drain|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|switch|p1a: Snorlax|Snorlax, L79|244\/415 frz
+|turn|28
+|-message|LibertarianMaster forfeited.
+|
+|win|MeimuHakurei
+|leave|LibertarianMaster
+|player|p1
+|raw|LibertarianMaster's rating: 1339 &rarr; <strong>1305<\/strong><br \/>(-34 for losing)
+|raw|MeimuHakurei's rating: 1056 &rarr; <strong>1109<\/strong><br \/>(+53 for winning)

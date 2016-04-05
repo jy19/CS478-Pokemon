@@ -1,0 +1,296 @@
+﻿|join|Kid gg lol
+|join|arafalo2
+|player|p1|Kid gg lol|168
+|player|p2|arafalo2|101
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333\/333
+|switch|p2a: Jynx|Jynx|333\/333
+|turn|1
+|
+|switch|p1a: Golem|Golem|363\/363
+|move|p2a: Jynx|Lovely Kiss|p1a: Golem|[miss]
+|-miss|p2a: Jynx
+|
+|turn|2
+|
+|switch|p1a: Jynx|Jynx|333\/333
+|move|p2a: Jynx|Lovely Kiss|p1a: Jynx|[miss]
+|-miss|p2a: Jynx
+|
+|turn|3
+|
+|switch|p1a: Golem|Golem|363\/363
+|move|p2a: Jynx|Lovely Kiss|p1a: Golem
+|-status|p1a: Golem|slp
+|
+|turn|4
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|switch|p1a: Tauros|Tauros|353\/353
+|
+|turn|5
+|
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|153\/353
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|256\/353
+|
+|turn|6
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Tauros|Hyper Beam|p2a: Exeggutor|[miss]
+|-miss|p1a: Tauros
+|
+|turn|7
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Exeggutor|Psychic|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|476\/703
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|
+|turn|8
+|
+|switch|p2a: Jynx|Jynx|333\/333
+|switch|p1a: Jynx|Jynx|333\/333
+|
+|turn|9
+|
+|move|p2a: Jynx|Psychic|p1a: Jynx
+|-crit|p1a: Jynx
+|-resisted|p1a: Jynx
+|-damage|p1a: Jynx|235\/333
+|move|p1a: Jynx|Lovely Kiss|p2a: Jynx|[miss]
+|-miss|p1a: Jynx
+|
+|turn|10
+|
+|move|p2a: Jynx|Psychic|p1a: Jynx
+|-resisted|p1a: Jynx
+|-damage|p1a: Jynx|184\/333
+|move|p1a: Jynx|Lovely Kiss|p2a: Jynx
+|-status|p2a: Jynx|slp
+|
+|turn|11
+|
+|switch|p1a: Tauros|Tauros|256\/353
+|switch|p2a: Alakazam|Alakazam|313\/313
+|
+|turn|12
+|
+|move|p2a: Alakazam|Psychic|p1a: Tauros
+|-damage|p1a: Tauros|85\/353
+|move|p1a: Tauros|Hyper Beam|p2a: Alakazam|[miss]
+|-miss|p1a: Tauros
+|
+|turn|13
+|
+|switch|p1a: Chansey|Chansey|476\/703
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|359\/703
+|
+|turn|14
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|cant|p1a: Chansey|par
+|
+|turn|15
+|
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|233\/703 par
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|
+|turn|16
+|
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|98\/703 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|449\/703 par
+|
+|turn|17
+|
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|179\/703 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|530\/703 par
+|
+|turn|18
+|
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|398\/703 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703 par
+|
+|turn|19
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|603\/703 par
+|move|p1a: Chansey|Ice Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|248\/313
+|
+|turn|20
+|
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|471\/703 par
+|move|p1a: Chansey|Ice Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|190\/313
+|-status|p2a: Alakazam|frz
+|
+|turn|21
+|
+|switch|p2a: Tauros|Tauros|153\/353
+|cant|p1a: Chansey|par
+|
+|turn|22
+|
+|move|p2a: Tauros|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|333\/703 par
+|cant|p1a: Chansey|par
+|
+|turn|23
+|
+|move|p2a: Tauros|Body Slam|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|39\/703 par
+|cant|p1a: Chansey|par
+|
+|turn|24
+|
+|move|p2a: Tauros|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|turn|25
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|579\/703
+|
+|turn|26
+|
+|switch|p1a: Tauros|Tauros|85\/353
+|move|p2a: Chansey|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|
+|turn|27
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|
+|switch|p1a: Jynx|Jynx|184\/333
+|turn|28
+|
+|move|p1a: Jynx|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|444\/703
+|move|p2a: Chansey|Thunder Wave|p1a: Jynx
+|-status|p1a: Jynx|par
+|
+|turn|29
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Jynx
+|-damage|p1a: Jynx|84\/333 par
+|move|p1a: Jynx|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|344\/703
+|
+|turn|30
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|695\/703
+|cant|p1a: Jynx|par
+|
+|turn|31
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|
+|
+|switch|p1a: Golem|Golem|363\/363 slp
+|turn|32
+|
+|move|p2a: Chansey|Ice Beam|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|140\/363 slp
+|cant|p1a: Golem|slp
+|
+|turn|33
+|
+|move|p2a: Chansey|Ice Beam|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|0 fnt
+|faint|p1a: Golem
+|
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|turn|34
+|
+|move|p1a: Starmie|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|609\/703
+|move|p2a: Chansey|Thunder Wave|p1a: Starmie
+|-status|p1a: Starmie|par
+|
+|turn|35
+|join|Flygonzo
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Starmie
+|-damage|p1a: Starmie|223\/323 par
+|move|p1a: Starmie|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|515\/703
+|
+|turn|36
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Starmie
+|-damage|p1a: Starmie|123\/323 par
+|move|p1a: Starmie|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|421\/703
+|
+|turn|37
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Starmie
+|-damage|p1a: Starmie|23\/323 par
+|move|p1a: Starmie|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|329\/703
+|
+|turn|38
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|680\/703
+|move|p1a: Starmie|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|591\/703
+|
+|turn|39
+|join|Julioistooop
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|-message|Kid gg lol forfeited.
+|
+|win|arafalo2
+|raw|Ladder updating...
+|leave|Kid gg lol
+|player|p1
+|raw|Kid gg lol's rating: 1231 &rarr; <strong>1222<\/strong><br \/>(-9 for losing)
+|raw|arafalo2's rating: 1478 &rarr; <strong>1486<\/strong><br \/>(+8 for winning)
+|chat|arafalo2|really hopeing for a freeze

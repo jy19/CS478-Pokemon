@@ -1,0 +1,191 @@
+﻿|join|XianJu
+|join|arafalo2
+|player|p1|XianJu|130
+|player|p2|arafalo2|1
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Vulpix|Vulpix, L96|268\/268
+|switch|p2a: Gyarados|Gyarados, L85|335\/335
+|turn|1
+|
+|switch|p1a: Lickitung|Lickitung, L90|345\/345
+|move|p2a: Gyarados|Body Slam|p1a: Lickitung
+|-damage|p1a: Lickitung|267\/345
+|
+|turn|2
+|
+|move|p2a: Gyarados|Surf|p1a: Lickitung
+|-damage|p1a: Lickitung|135\/345
+|move|p1a: Lickitung|Body Slam|p2a: Gyarados
+|-damage|p2a: Gyarados|254\/335
+|
+|turn|3
+|
+|move|p2a: Gyarados|Hyper Beam|p1a: Lickitung
+|-damage|p1a: Lickitung|2\/345
+|move|p1a: Lickitung|Body Slam|p2a: Gyarados
+|-damage|p2a: Gyarados|180\/335
+|
+|turn|4
+|-mustrecharge|p2a: Gyarados
+|-mustrecharge|p2a: Gyarados
+|-mustrecharge|p2a: Gyarados
+|-mustrecharge|p2a: Gyarados
+|-mustrecharge|p2a: Gyarados
+|-mustrecharge|p2a: Gyarados
+|
+|cant|p2a: Gyarados|recharge
+|move|p1a: Lickitung|Hyper Beam|p2a: Gyarados
+|-damage|p2a: Gyarados|48\/335
+|
+|turn|5
+|-mustrecharge|p1a: Lickitung
+|-mustrecharge|p1a: Lickitung
+|
+|move|p2a: Gyarados|Body Slam|p1a: Lickitung
+|-crit|p1a: Lickitung
+|-damage|p1a: Lickitung|0 fnt
+|faint|p1a: Lickitung
+|
+|switch|p1a: Hitmonlee|Hitmonlee, L90|273\/273
+|turn|6
+|
+|move|p1a: Hitmonlee|Seismic Toss|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|switch|p2a: Zapdos|Zapdos, L79|304\/304
+|turn|7
+|
+|switch|p1a: Onix|Onix, L90|246\/246
+|move|p2a: Zapdos|Drill Peck|p1a: Onix
+|-resisted|p1a: Onix
+|-damage|p1a: Onix|223\/246
+|
+|turn|8
+|
+|switch|p2a: Shellder|Shellder, L96|252\/252
+|move|p1a: Onix|Rock Slide|p2a: Shellder
+|-damage|p2a: Shellder|206\/252
+|
+|turn|9
+|
+|switch|p1a: Hitmonlee|Hitmonlee, L90|273\/273
+|move|p2a: Shellder|Surf|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|136\/273
+|
+|turn|10
+|
+|move|p1a: Hitmonlee|High Jump Kick|p2a: Shellder
+|-damage|p2a: Shellder|102\/252
+|move|p2a: Shellder|Surf|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|2\/273
+|
+|turn|11
+|
+|move|p1a: Hitmonlee|High Jump Kick|p2a: Shellder|[miss]
+|-miss|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|1\/273
+|move|p2a: Shellder|Surf|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|0 fnt
+|faint|p1a: Hitmonlee
+|
+|switch|p1a: Beedrill|Beedrill, L90|300\/300
+|turn|12
+|
+|move|p1a: Beedrill|Twineedle|p2a: Shellder
+|-damage|p2a: Shellder|78\/252
+|-damage|p2a: Shellder|54\/252
+|-hitcount|p2a: Shellder|2
+|move|p2a: Shellder|Explosion|p1a: Beedrill
+|-damage|p1a: Beedrill|0 fnt
+|faint|p1a: Beedrill
+|faint|p2a: Shellder
+|
+|switch|p1a: Onix|Onix, L90|223\/246
+|switch|p2a: Flareon|Flareon, L90|300\/300
+|turn|13
+|
+|move|p1a: Onix|Rock Slide|p2a: Flareon
+|-supereffective|p2a: Flareon
+|-damage|p2a: Flareon|149\/300
+|move|p2a: Flareon|Fire Blast|p1a: Onix
+|-resisted|p1a: Onix
+|-damage|p1a: Onix|85\/246
+|-status|p1a: Onix|brn
+|
+|turn|14
+|
+|switch|p1a: Vulpix|Vulpix, L96|268\/268
+|move|p2a: Flareon|Fire Blast|p1a: Vulpix
+|-resisted|p1a: Vulpix
+|-damage|p1a: Vulpix|189\/268
+|
+|turn|15
+|
+|move|p1a: Vulpix|Confuse Ray|p2a: Flareon
+|-start|p2a: Flareon|confusion
+|-activate|p2a: Flareon|confusion
+|-damage|p2a: Flareon|98\/300|[from] confusion
+|
+|turn|16
+|
+|switch|p2a: Zapdos|Zapdos, L79|304\/304
+|move|p1a: Vulpix|Body Slam|p2a: Zapdos
+|-damage|p2a: Zapdos|255\/304
+|-status|p2a: Zapdos|par
+|
+|turn|17
+|
+|move|p1a: Vulpix|Confuse Ray|p2a: Zapdos
+|-start|p2a: Zapdos|confusion
+|-activate|p2a: Zapdos|confusion
+|move|p2a: Zapdos|Drill Peck|p1a: Vulpix
+|-damage|p1a: Vulpix|91\/268
+|
+|turn|18
+|
+|move|p1a: Vulpix|Reflect|p1a: Vulpix
+|-start|p1a: Vulpix|Reflect
+|-activate|p2a: Zapdos|confusion
+|-damage|p2a: Zapdos|226\/304 par|[from] confusion
+|
+|turn|19
+|
+|move|p1a: Vulpix|Fire Blast|p2a: Zapdos
+|-damage|p2a: Zapdos|110\/304 par
+|-activate|p2a: Zapdos|confusion
+|-damage|p2a: Zapdos|81\/304 par|[from] confusion
+|
+|turn|20
+|
+|move|p1a: Vulpix|Fire Blast|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|switch|p2a: Flareon|Flareon, L90|98\/300
+|turn|21
+|
+|move|p1a: Vulpix|Confuse Ray|p2a: Flareon
+|-start|p2a: Flareon|confusion
+|-activate|p2a: Flareon|confusion
+|move|p2a: Flareon|Body Slam|p1a: Vulpix
+|-damage|p1a: Vulpix|30\/268
+|
+|turn|22
+|c|★XianJu|oh dont tell me youre gonna run once again
+|-message|arafalo2 lost due to inactivity.
+|
+|win|XianJu
+|raw|XianJu's rating: 1347 &rarr; <strong>1356<\/strong><br \/>(+9 for winning)
+|raw|arafalo2's rating: 1117 &rarr; <strong>1106<\/strong><br \/>(-11 for losing)
+|c|★XianJu|why are you so afraid of me
+|leave|XianJu
+|player|p1

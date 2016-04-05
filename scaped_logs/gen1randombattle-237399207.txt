@@ -1,0 +1,239 @@
+﻿|join|Andrew Nicolas31
+|join|yaldyyyy
+|player|p1|Andrew Nicolas31|262
+|player|p2|yaldyyyy|2
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Paras|Paras, L96|262\/262
+|switch|p2a: Jolteon|Jolteon, L79|265\/265
+|turn|1
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Paras
+|-crit|p1a: Paras
+|-resisted|p1a: Paras
+|-damage|p1a: Paras|154\/262
+|move|p1a: Paras|Spore|p2a: Jolteon
+|-status|p2a: Jolteon|slp
+|
+|turn|2
+|
+|switch|p2a: Wartortle|Wartortle, L85|274\/274
+|switch|p1a: Dugtrio|Dugtrio, L85|233\/233
+|
+|turn|3
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Wartortle
+|-damage|p2a: Wartortle|179\/274
+|move|p2a: Wartortle|Blizzard|p1a: Dugtrio|[miss]
+|-miss|p2a: Wartortle
+|
+|turn|4
+|
+|move|p1a: Dugtrio|Sand Attack|p2a: Wartortle
+|-unboost|p2a: Wartortle|accuracy|1
+|move|p2a: Wartortle|Blizzard|p1a: Dugtrio|[miss]
+|-miss|p2a: Wartortle
+|
+|turn|5
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Wartortle
+|-damage|p2a: Wartortle|80\/274
+|move|p2a: Wartortle|Blizzard|p1a: Dugtrio|[miss]
+|-miss|p2a: Wartortle
+|
+|turn|6
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Wartortle
+|-crit|p2a: Wartortle
+|-damage|p2a: Wartortle|0 fnt
+|faint|p2a: Wartortle
+|
+|switch|p2a: Slowpoke|Slowpoke, L96|368\/368
+|turn|7
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Slowpoke
+|-crit|p2a: Slowpoke
+|-damage|p2a: Slowpoke|176\/368
+|move|p2a: Slowpoke|Surf|p1a: Dugtrio
+|-supereffective|p1a: Dugtrio
+|-damage|p1a: Dugtrio|62\/233
+|
+|turn|8
+|
+|switch|p1a: Nidoqueen|Nidoqueen, L85|327\/327
+|switch|p2a: Raticate|Raticate, L85|267\/267
+|
+|turn|9
+|
+|move|p2a: Raticate|Bubble Beam|p1a: Nidoqueen
+|-crit|p1a: Nidoqueen
+|-supereffective|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|188\/327
+|move|p1a: Nidoqueen|Thunderbolt|p2a: Raticate
+|-crit|p2a: Raticate
+|-damage|p2a: Raticate|105\/267
+|
+|turn|10
+|
+|move|p2a: Raticate|Bubble Beam|p1a: Nidoqueen
+|-supereffective|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|121\/327
+|move|p1a: Nidoqueen|Earthquake|p2a: Raticate
+|-damage|p2a: Raticate|0 fnt
+|faint|p2a: Raticate
+|
+|switch|p2a: Exeggutor|Exeggutor, L79|312\/312
+|turn|11
+|
+|move|p1a: Nidoqueen|Thunderbolt|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|286\/312
+|move|p2a: Exeggutor|Hyper Beam|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|26\/327
+|
+|turn|12
+|-mustrecharge|p2a: Exeggutor
+|-mustrecharge|p2a: Exeggutor
+|
+|move|p1a: Nidoqueen|Earthquake|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|233\/312
+|cant|p2a: Exeggutor|recharge
+|
+|turn|13
+|
+|move|p1a: Nidoqueen|Blizzard|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|106\/312
+|move|p2a: Exeggutor|Hyper Beam|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|0 fnt
+|faint|p1a: Nidoqueen
+|
+|switch|p1a: Dugtrio|Dugtrio, L85|62\/233
+|turn|14
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|52\/312
+|move|p2a: Exeggutor|Hyper Beam|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|
+|switch|p1a: Paras|Paras, L96|154\/262
+|turn|15
+|
+|move|p2a: Exeggutor|Hyper Beam|p1a: Paras
+|-damage|p1a: Paras|51\/262
+|move|p1a: Paras|Spore|p2a: Exeggutor
+|-message|Sleep Clause Mod activated.
+|
+|turn|16
+|-mustrecharge|p2a: Exeggutor
+|-mustrecharge|p2a: Exeggutor
+|
+|cant|p2a: Exeggutor|recharge
+|move|p1a: Paras|Slash|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Slowpoke|Slowpoke, L96|176\/368
+|turn|17
+|
+|move|p1a: Paras|Spore|p2a: Slowpoke
+|-message|Sleep Clause Mod activated.
+|move|p2a: Slowpoke|Amnesia|p2a: Slowpoke
+|-boost|p2a: Slowpoke|spd|2
+|-boost|p2a: Slowpoke|spa|2
+|
+|turn|18
+|
+|move|p1a: Paras|Spore|p2a: Slowpoke
+|-message|Sleep Clause Mod activated.
+|move|p2a: Slowpoke|Rest|p2a: Slowpoke
+|-status|p2a: Slowpoke|slp
+|-heal|p2a: Slowpoke|368\/368 slp|[silent]
+|-status|p2a: Slowpoke|slp|[from] move: Rest
+|
+|turn|19
+|
+|move|p1a: Paras|Slash|p2a: Slowpoke
+|-crit|p2a: Slowpoke
+|-damage|p2a: Slowpoke|264\/368 slp
+|cant|p2a: Slowpoke|slp
+|
+|turn|20
+|
+|move|p1a: Paras|Slash|p2a: Slowpoke
+|-damage|p2a: Slowpoke|208\/368 slp
+|cant|p2a: Slowpoke|slp
+|-curestatus|p2a: Slowpoke|slp
+|
+|turn|21
+|
+|move|p1a: Paras|Toxic|p2a: Slowpoke|[miss]
+|-miss|p1a: Paras
+|move|p2a: Slowpoke|Surf|p1a: Paras
+|-crit|p1a: Paras
+|-resisted|p1a: Paras
+|-damage|p1a: Paras|0 fnt
+|faint|p1a: Paras
+|
+|switch|p1a: Kangaskhan|Kangaskhan, L85|352\/352
+|turn|22
+|
+|move|p1a: Kangaskhan|Body Slam|p2a: Slowpoke
+|-crit|p2a: Slowpoke
+|-damage|p2a: Slowpoke|26\/368
+|move|p2a: Slowpoke|Surf|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|104\/352
+|
+|turn|23
+|
+|move|p1a: Kangaskhan|Body Slam|p2a: Slowpoke
+|-damage|p2a: Slowpoke|0 fnt
+|faint|p2a: Slowpoke
+|
+|switch|p2a: Golem|Golem, L79|288\/288
+|turn|24
+|
+|move|p1a: Kangaskhan|Surf|p2a: Golem
+|-crit|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|
+|switch|p2a: Jolteon|Jolteon, L79|265\/265 slp
+|turn|25
+|
+|cant|p2a: Jolteon|slp
+|move|p1a: Kangaskhan|Body Slam|p2a: Jolteon|[miss]
+|-miss|p1a: Kangaskhan
+|
+|turn|26
+|
+|cant|p2a: Jolteon|slp
+|move|p1a: Kangaskhan|Body Slam|p2a: Jolteon
+|-damage|p2a: Jolteon|151\/265 slp
+|
+|turn|27
+|
+|cant|p2a: Jolteon|slp
+|move|p1a: Kangaskhan|Hyper Beam|p2a: Jolteon
+|-crit|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|
+|win|Andrew Nicolas31
+|raw|Ladder updating...
+|raw|Andrew Nicolas31's rating: 1000 &rarr; <strong>1048<\/strong><br \/>(+48 for winning)
+|raw|yaldyyyy's rating: 1069 &rarr; <strong>1045<\/strong><br \/>(-24 for losing)
+|leave|yaldyyyy
+|player|p2

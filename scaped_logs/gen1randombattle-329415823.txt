@@ -1,0 +1,226 @@
+﻿|j|imperialsunfr
+|j|Vultur
+|player|p1|imperialsunfr|101
+|player|p2|Vultur|2
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|seed|18824,62008,30794,11887
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Horsea|Horsea, L96|252\/252
+|switch|p2a: Oddish|Oddish, L96|281\/281
+|turn|1
+|choice|move 3|move 4
+|
+|move|p1a: Horsea|Blizzard|p2a: Oddish
+|-supereffective|p2a: Oddish
+|-damage|p2a: Oddish|120\/281
+|-status|p2a: Oddish|frz
+|cant|p2a: Oddish|frz
+|
+|turn|2
+|choice|move 3|move 3
+|
+|move|p1a: Horsea|Blizzard|p2a: Oddish
+|-supereffective|p2a: Oddish
+|-damage|p2a: Oddish|0 fnt
+|faint|p2a: Oddish
+|choice||switch 5
+|
+|switch|p2a: Gyarados|Gyarados, L85|335\/335
+|turn|3
+|choice|move 3|move 4
+|
+|move|p2a: Gyarados|Thunderbolt|p1a: Horsea
+|-supereffective|p1a: Horsea
+|-damage|p1a: Horsea|127\/252
+|move|p1a: Horsea|Blizzard|p2a: Gyarados
+|-damage|p2a: Gyarados|251\/335
+|
+|turn|4
+|choice|move 4|move 4
+|
+|move|p2a: Gyarados|Thunderbolt|p1a: Horsea
+|-supereffective|p1a: Horsea
+|-damage|p1a: Horsea|0 fnt
+|faint|p1a: Horsea
+|choice|switch 6|
+|
+|switch|p1a: Chansey|Chansey, L79|557\/557
+|turn|5
+|choice|move 4|move 1
+|
+|move|p2a: Gyarados|Blizzard|p1a: Chansey|[miss]
+|-miss|p2a: Gyarados
+|move|p1a: Chansey|Ice Beam|p2a: Gyarados
+|-damage|p2a: Gyarados|199\/335
+|
+|turn|6
+|choice|move 2|move 1
+|
+|move|p2a: Gyarados|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|470\/557
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-start|p1a: Chansey|Reflect
+|
+|turn|7
+|choice|move 4|move 1
+|
+|move|p2a: Gyarados|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|390\/557
+|move|p1a: Chansey|Ice Beam|p2a: Gyarados
+|-damage|p2a: Gyarados|147\/335
+|-status|p2a: Gyarados|frz
+|
+|turn|8
+|choice|move 4|switch 2
+|
+|switch|p2a: Primeape|Primeape, L90|300\/300
+|move|p1a: Chansey|Ice Beam|p2a: Primeape
+|-damage|p2a: Primeape|224\/300
+|
+|turn|9
+|choice|move 4|move 3
+|
+|move|p2a: Primeape|Submission|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|101\/557
+|-damage|p2a: Primeape|152\/300|[from] recoil|[of] p1a: Chansey
+|move|p1a: Chansey|Ice Beam|p2a: Primeape
+|-damage|p2a: Primeape|80\/300
+|-message|Freeze Clause activated.
+|
+|turn|10
+|choice|move 3|move 3
+|
+|move|p2a: Primeape|Submission|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|-damage|p2a: Primeape|55\/300|[from] recoil|[of] p1a: Chansey
+|faint|p1a: Chansey
+|choice|switch 5|
+|
+|switch|p1a: Rapidash|Rapidash, L90|300\/300
+|turn|11
+|choice|move 1|switch 2
+|
+|switch|p2a: Gyarados|Gyarados, L85|147\/335 frz
+|move|p1a: Rapidash|Fire Blast|p2a: Gyarados|[miss]
+|-miss|p1a: Rapidash
+|
+|turn|12
+|choice|move 4|move 2
+|
+|move|p1a: Rapidash|Body Slam|p2a: Gyarados
+|-damage|p2a: Gyarados|69\/335 frz
+|cant|p2a: Gyarados|frz
+|
+|turn|13
+|choice|move 4|move 2
+|
+|move|p1a: Rapidash|Body Slam|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|choice||switch 2
+|
+|switch|p2a: Primeape|Primeape, L90|55\/300
+|turn|14
+|choice|move 1|move 1
+|
+|move|p1a: Rapidash|Fire Blast|p2a: Primeape|[miss]
+|-miss|p1a: Rapidash
+|move|p2a: Primeape|Rock Slide|p1a: Rapidash|[miss]
+|-miss|p2a: Primeape
+|
+|turn|15
+|choice|move 1|move 1
+|
+|move|p1a: Rapidash|Fire Blast|p2a: Primeape
+|-damage|p2a: Primeape|0 fnt
+|faint|p2a: Primeape
+|choice||switch 4
+|
+|switch|p2a: Ninetales|Ninetales, L85|298\/298
+|turn|16
+|choice|move 4|move 2
+|
+|move|p1a: Rapidash|Body Slam|p2a: Ninetales
+|-crit|p2a: Ninetales
+|-damage|p2a: Ninetales|142\/298
+|move|p2a: Ninetales|Toxic|p1a: Rapidash
+|-status|p1a: Rapidash|tox
+|
+|turn|17
+|choice|move 4|move 3
+|
+|move|p1a: Rapidash|Body Slam|p2a: Ninetales
+|-damage|p2a: Ninetales|59\/298
+|-damage|p1a: Rapidash|282\/300 tox|[from] tox|[of] p2a: Ninetales
+|move|p2a: Ninetales|Hyper Beam|p1a: Rapidash
+|-damage|p1a: Rapidash|176\/300 tox
+|
+|turn|18
+|-mustrecharge|p2a: Ninetales
+|-mustrecharge|p2a: Ninetales
+|choice|move 4|move 1
+|
+|move|p1a: Rapidash|Body Slam|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|choice||switch 3
+|
+|switch|p2a: Pidgeot|Pidgeot, L90|333\/333
+|turn|19
+|choice|move 1|move 1
+|
+|move|p1a: Rapidash|Fire Blast|p2a: Pidgeot
+|-damage|p2a: Pidgeot|194\/333
+|-damage|p1a: Rapidash|140\/300 tox|[from] tox|[of] p2a: Pidgeot
+|move|p2a: Pidgeot|Double-Edge|p1a: Rapidash|[miss]
+|-miss|p2a: Pidgeot
+|
+|turn|20
+|choice|move 1|move 1
+|
+|move|p1a: Rapidash|Fire Blast|p2a: Pidgeot
+|-crit|p2a: Pidgeot
+|-damage|p2a: Pidgeot|0 fnt
+|faint|p2a: Pidgeot
+|choice||switch 6
+|
+|switch|p2a: Chansey|Chansey, L79|557\/557
+|turn|21
+|choice|move 1|move 3
+|
+|move|p1a: Rapidash|Fire Blast|p2a: Chansey
+|-damage|p2a: Chansey|427\/557
+|-damage|p1a: Rapidash|86\/300 tox|[from] tox|[of] p2a: Chansey
+|move|p2a: Chansey|Thunderbolt|p1a: Rapidash
+|-damage|p1a: Rapidash|25\/300 tox
+|
+|turn|22
+|choice|move 1|move 3
+|
+|move|p1a: Rapidash|Fire Blast|p2a: Chansey
+|-damage|p2a: Chansey|299\/557
+|-damage|p1a: Rapidash|0 fnt|[from] tox|[of] p2a: Chansey
+|faint|p1a: Rapidash
+|choice|switch 4|
+|
+|switch|p1a: Machoke|Machoke, L85|310\/310
+|turn|23
+|choice|move 4|move 1
+|
+|move|p1a: Machoke|Double-Edge|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|-damage|p1a: Machoke|236\/310|[from] recoil|[of] p2a: Chansey
+|faint|p2a: Chansey
+|
+|win|imperialsunfr
+|player|p1
+|player|p2

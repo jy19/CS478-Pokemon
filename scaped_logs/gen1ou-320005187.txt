@@ -1,0 +1,329 @@
+﻿|j|badaking
+|j|LeoDamin
+|player|p1|badaking|170
+|player|p2|LeoDamin|87
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|seed|51696,29847,39536,7219
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|1
+|choice|move 3|switch 2
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Alakazam|Thunder Wave|p2a: Exeggutor
+|-status|p2a: Exeggutor|par
+|
+|turn|2
+|choice|move 2|move 1
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Exeggutor
+|-damage|p2a: Exeggutor|293\/393 par
+|move|p2a: Exeggutor|Sleep Powder|p1a: Alakazam
+|-status|p1a: Alakazam|slp
+|
+|turn|3
+|choice|switch 4|switch 3
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|switch|p2a: Snorlax|Snorlax|523\/523
+|
+|turn|4
+|choice|move 3|switch 3
+|
+|switch|p2a: Exeggutor|Exeggutor|293\/393 par
+|move|p1a: Exeggutor|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|243\/393 par
+|
+|turn|5
+|choice|move 3|move 2
+|
+|move|p1a: Exeggutor|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|191\/393 par
+|-unboost|p2a: Exeggutor|spd|1
+|-unboost|p2a: Exeggutor|spa|1
+|cant|p2a: Exeggutor|par
+|
+|turn|6
+|choice|move 3|move 4
+|
+|move|p1a: Exeggutor|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|109\/393 par
+|move|p2a: Exeggutor|Explosion|p1a: Exeggutor
+|-damage|p1a: Exeggutor|122\/393
+|faint|p2a: Exeggutor
+|choice||switch 6
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|7
+|choice|switch 5|move 4
+|
+|switch|p1a: Lapras|Lapras|463\/463
+|move|p2a: Tauros|Blizzard|p1a: Lapras
+|-resisted|p1a: Lapras
+|-damage|p1a: Lapras|443\/463
+|
+|turn|8
+|choice|move 1|switch 3
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Lapras|Blizzard|p2a: Snorlax
+|-damage|p2a: Snorlax|345\/523
+|
+|turn|9
+|choice|move 1|move 1
+|
+|move|p1a: Lapras|Blizzard|p2a: Snorlax
+|-damage|p2a: Snorlax|180\/523
+|move|p2a: Snorlax|Body Slam|p1a: Lapras
+|-damage|p1a: Lapras|321\/463
+|
+|turn|10
+|choice|move 1|move 4
+|
+|move|p1a: Lapras|Blizzard|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|choice||switch 2
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|11
+|choice|switch 2|move 3
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Gengar|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|617\/703
+|
+|turn|12
+|choice|move 1|move 4
+|
+|move|p2a: Gengar|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|517\/703
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703
+|
+|turn|13
+|choice|move 1|switch 5
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-fail|p1a: Chansey
+|
+|turn|14
+|choice|move 3|move 3
+|
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|546\/703
+|move|p1a: Chansey|Sing|p2a: Chansey
+|-status|p2a: Chansey|slp
+|
+|turn|15
+|choice|move 1|move 3
+|
+|cant|p2a: Chansey|slp
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703
+|
+|turn|16
+|choice|switch 5|move 3
+|
+|switch|p1a: Exeggutor|Exeggutor|122\/393
+|cant|p2a: Chansey|slp
+|
+|turn|17
+|choice|move 2|switch 5
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|move|p1a: Exeggutor|Rest|p1a: Exeggutor
+|-status|p1a: Exeggutor|slp
+|-heal|p1a: Exeggutor|393\/393 slp|[silent]
+|-status|p1a: Exeggutor|slp|[from] move: Rest
+|
+|turn|18
+|choice|move 3|move 4
+|
+|move|p2a: Gengar|Seismic Toss|p1a: Exeggutor
+|-damage|p1a: Exeggutor|293\/393 slp
+|cant|p1a: Exeggutor|slp
+|
+|turn|19
+|choice|move 3|move 4
+|
+|move|p2a: Gengar|Seismic Toss|p1a: Exeggutor
+|-damage|p1a: Exeggutor|193\/393 slp
+|-curestatus|p1a: Exeggutor|slp
+|
+|turn|20
+|choice|switch 4|move 2
+|
+|switch|p1a: Alakazam|Alakazam|313\/313 slp
+|move|p2a: Gengar|Explosion|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|faint|p2a: Gengar
+|c|★badaking|gottem
+|c|★badaking|hehehe
+|c|★LeoDamin|good
+|choice|switch 2|switch 3
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|switch|p1a: Lapras|Lapras|321\/463
+|turn|21
+|choice|move 1|move 1
+|
+|move|p2a: Tauros|Body Slam|p1a: Lapras
+|-damage|p1a: Lapras|206\/463
+|move|p1a: Lapras|Blizzard|p2a: Tauros
+|-damage|p2a: Tauros|181\/353
+|-status|p2a: Tauros|frz
+|
+|turn|22
+|c|★badaking|gg
+|c|★LeoDamin|gg
+|c|★LeoDamin|I mean
+|c|★LeoDamin|hm
+|c|★LeoDamin|I still have a little shot
+|c|★badaking|u always have a shot
+|c|★LeoDamin|let me think
+|c|★LeoDamin|if it's worth it
+|c|★badaking|i could miss all my attacks
+|c|★LeoDamin|lol
+|choice|move 1|switch 4
+|
+|switch|p2a: Slowbro|Slowbro|393\/393
+|move|p1a: Lapras|Blizzard|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|318\/393
+|
+|turn|23
+|choice|move 3|move 1
+|
+|move|p1a: Lapras|Thunderbolt|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|150\/393
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|24
+|choice|move 4|move 4
+|
+|move|p1a: Lapras|Confuse Ray|p2a: Slowbro
+|-start|p2a: Slowbro|confusion
+|-activate|p2a: Slowbro|confusion
+|move|p2a: Slowbro|Thunder Wave|p1a: Lapras
+|-status|p1a: Lapras|par
+|
+|turn|25
+|choice|switch 4|move 3
+|
+|switch|p1a: Exeggutor|Exeggutor|193\/393
+|-end|p2a: Slowbro|confusion
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|-heal|p2a: Slowbro|393\/393 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|
+|turn|26
+|choice|move 1|move 2
+|
+|move|p1a: Exeggutor|Leech Seed|p2a: Slowbro
+|-start|p2a: Slowbro|move: Leech Seed
+|cant|p2a: Slowbro|slp
+|-damage|p2a: Slowbro|369\/393 slp|[from] Leech Seed|[of] p1a: Exeggutor
+|-heal|p1a: Exeggutor|217\/393|[silent]
+|
+|turn|27
+|choice|switch 3|move 4
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|-damage|p2a: Slowbro|345\/393 slp|[from] Leech Seed|[of] p1a: Tauros
+|-curestatus|p2a: Slowbro|slp
+|
+|turn|28
+|c|★LeoDamin|ah
+|c|★LeoDamin|the seed set
+|c|★LeoDamin|yh
+|c|★badaking|y
+|choice|switch 4|move 2
+|
+|switch|p1a: Lapras|Lapras|206\/463 par
+|move|p2a: Slowbro|Surf|p1a: Lapras
+|-resisted|p1a: Lapras
+|-damage|p1a: Lapras|101\/463 par
+|-damage|p2a: Slowbro|321\/393|[from] Leech Seed|[of] p1a: Lapras
+|-heal|p1a: Lapras|125\/463 par|[silent]
+|
+|turn|29
+|choice|move 4|move 1
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|-damage|p2a: Slowbro|297\/393|[from] Leech Seed|[of] p1a: Lapras
+|-heal|p1a: Lapras|149\/463 par|[silent]
+|move|p1a: Lapras|Confuse Ray|p2a: Slowbro
+|-start|p2a: Slowbro|confusion
+|
+|turn|30
+|choice|move 3|move 2
+|
+|-activate|p2a: Slowbro|confusion
+|move|p2a: Slowbro|Surf|p1a: Lapras
+|-resisted|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|c|★LeoDamin|wow
+|c|★LeoDamin|I actually
+|c|★LeoDamin|have a chance
+|c|★LeoDamin|lol
+|choice|switch 5|
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|turn|31
+|choice|move 2|move 1
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Slowbro
+|-status|p2a: Slowbro|par
+|-activate|p2a: Slowbro|confusion
+|-damage|p2a: Slowbro|269\/393 par|[from] confusion
+|-damage|p2a: Slowbro|245\/393 par|[from] Leech Seed|[of] p1a: Chansey
+|
+|turn|32
+|choice|move 4|move 3
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Slowbro
+|-damage|p2a: Slowbro|145\/393 par
+|-activate|p2a: Slowbro|confusion
+|-damage|p2a: Slowbro|117\/393 par|[from] confusion
+|-damage|p2a: Slowbro|93\/393 par|[from] Leech Seed|[of] p1a: Chansey
+|
+|turn|33
+|c|★badaking|gg
+|c|★LeoDamin|gg
+|choice|move 4|move 3
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|-message|LeoDamin forfeited.
+|
+|win|badaking
+|player|p1
+|player|p2
+|l|LeoDamin

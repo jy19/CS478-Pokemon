@@ -1,0 +1,387 @@
+﻿|join|NixHex
+|join|Feena
+|player|p1|NixHex|102
+|player|p2|Feena|170
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gengar|Gengar|323\/323
+|switch|p2a: Alakazam|Alakazam|313\/313
+|turn|1
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|444\/703
+|
+|turn|2
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703
+|
+|turn|3
+|
+|move|p2a: Exeggutor|Sleep Powder|p1a: Chansey
+|-status|p1a: Chansey|slp
+|cant|p1a: Chansey|slp
+|
+|turn|4
+|
+|switch|p1a: Zapdos|Zapdos|383\/383
+|move|p2a: Exeggutor|Psychic|p1a: Zapdos
+|-damage|p1a: Zapdos|273\/383
+|
+|turn|5
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|185\/393
+|move|p2a: Exeggutor|Psychic|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|83\/383
+|-unboost|p1a: Zapdos|spd|1
+|-unboost|p1a: Zapdos|spa|1
+|
+|turn|6
+|
+|switch|p2a: Lapras|Lapras|463\/463
+|move|p1a: Zapdos|Drill Peck|p2a: Lapras
+|-damage|p2a: Lapras|353\/463
+|
+|turn|7
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|163\/463
+|move|p2a: Lapras|Blizzard|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|turn|8
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|574\/703
+|
+|turn|9
+|
+|switch|p1a: Chansey|Chansey|703\/703 slp
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey
+|
+|turn|10
+|
+|switch|p2a: Exeggutor|Exeggutor|185\/393
+|cant|p1a: Chansey|slp
+|-curestatus|p1a: Chansey|slp
+|
+|turn|11
+|
+|switch|p1a: Gengar|Gengar|323\/323
+|move|p2a: Exeggutor|Sleep Powder|p1a: Gengar
+|-status|p1a: Gengar|slp
+|
+|turn|12
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Exeggutor|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|344\/393
+|-unboost|p1a: Exeggutor|spd|1
+|-unboost|p1a: Exeggutor|spa|1
+|
+|turn|13
+|
+|move|p1a: Exeggutor|Sleep Powder|p2a: Exeggutor
+|-status|p2a: Exeggutor|slp
+|cant|p2a: Exeggutor|slp
+|
+|turn|14
+|
+|switch|p2a: Alakazam|Alakazam|313\/313
+|move|p1a: Exeggutor|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|280\/313
+|
+|turn|15
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Exeggutor
+|-status|p1a: Exeggutor|par
+|move|p1a: Exeggutor|Explosion|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Chansey|Chansey|574\/703
+|turn|16
+|
+|switch|p1a: Gengar|Gengar|323\/323 slp
+|move|p2a: Chansey|Ice Beam|p1a: Gengar
+|-damage|p1a: Gengar|254\/323 slp
+|
+|turn|17
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|cant|p1a: Gengar|slp
+|
+|turn|18
+|
+|cant|p1a: Gengar|slp
+|move|p2a: Tauros|Earthquake|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|34\/323 slp
+|
+|turn|19
+|
+|cant|p1a: Gengar|slp
+|-curestatus|p1a: Gengar|slp
+|move|p2a: Tauros|Earthquake|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|turn|20
+|
+|switch|p2a: Chansey|Chansey|574\/703
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|turn|21
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703 par
+|
+|turn|22
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|583\/703 par
+|move|p2a: Chansey|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|
+|turn|23
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|316\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|24
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|53\/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|404\/703 par
+|
+|turn|25
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|275\/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|626\/703 par
+|
+|turn|26
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Alakazam|Reflect|p1a: Alakazam
+|-start|p1a: Alakazam|Reflect
+|
+|turn|27
+|
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|cant|p1a: Alakazam|par
+|
+|turn|28
+|
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|cant|p1a: Alakazam|par
+|
+|turn|29
+|
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|move|p1a: Alakazam|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|
+|turn|30
+|
+|move|p1a: Alakazam|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|479\/523 par
+|-unboost|p2a: Snorlax|spd|1
+|-unboost|p2a: Snorlax|spa|1
+|move|p2a: Snorlax|Blizzard|p1a: Alakazam
+|-damage|p1a: Alakazam|125\/313 par
+|
+|turn|31
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|281\/313 par
+|move|p2a: Snorlax|Blizzard|p1a: Alakazam
+|-damage|p1a: Alakazam|92\/313 par
+|
+|turn|32
+|
+|cant|p1a: Alakazam|par
+|move|p2a: Snorlax|Blizzard|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|switch|p1a: Rhydon|Rhydon|413\/413
+|turn|33
+|
+|move|p1a: Rhydon|Substitute|p1a: Rhydon
+|-start|p1a: Rhydon|Substitute
+|-damage|p1a: Rhydon|310\/413
+|cant|p2a: Snorlax|par
+|
+|turn|34
+|
+|switch|p2a: Lapras|Lapras|163\/463
+|move|p1a: Rhydon|Rock Slide|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|
+|switch|p2a: Snorlax|Snorlax|479\/523 par
+|turn|35
+|
+|move|p1a: Rhydon|Rock Slide|p2a: Snorlax
+|-damage|p2a: Snorlax|335\/523 par
+|move|p2a: Snorlax|Blizzard|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-end|p1a: Rhydon|Substitute
+|
+|turn|36
+|
+|move|p1a: Rhydon|Rock Slide|p2a: Snorlax|[miss]
+|-miss|p1a: Rhydon
+|move|p2a: Snorlax|Blizzard|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|69\/413
+|
+|turn|37
+|
+|move|p1a: Rhydon|Earthquake|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|2\/523 par
+|move|p2a: Snorlax|Blizzard|p1a: Rhydon
+|-crit|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|turn|38
+|
+|move|p1a: Chansey|Ice Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|switch|p2a: Chansey|Chansey|626\/703 par
+|turn|39
+|
+|move|p1a: Chansey|Thunder|p2a: Chansey|[miss]
+|-miss|p1a: Chansey
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|623\/703
+|
+|turn|40
+|
+|move|p1a: Chansey|Thunder|p2a: Chansey
+|-damage|p2a: Chansey|537\/703 par
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|543\/703
+|
+|turn|41
+|
+|move|p1a: Chansey|Thunder|p2a: Chansey
+|-damage|p2a: Chansey|447\/703 par
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|474\/703
+|
+|turn|42
+|
+|move|p1a: Chansey|Thunder|p2a: Chansey
+|-damage|p2a: Chansey|350\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|43
+|
+|move|p1a: Chansey|Thunder|p2a: Chansey
+|-damage|p2a: Chansey|260\/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|611\/703 par
+|
+|turn|44
+|
+|move|p1a: Chansey|Thunder|p2a: Chansey
+|-damage|p2a: Chansey|512\/703 par
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|395\/703
+|
+|turn|45
+|
+|move|p1a: Chansey|Thunder|p2a: Chansey
+|-damage|p2a: Chansey|412\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|46
+|c|★NixHex|i don't even remember why i have thunder on this
+|
+|move|p1a: Chansey|Thunder|p2a: Chansey
+|-damage|p2a: Chansey|322\/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|673\/703 par
+|
+|turn|47
+|
+|move|p1a: Chansey|Thunder|p2a: Chansey
+|-damage|p2a: Chansey|581\/703 par
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|323\/703
+|-status|p1a: Chansey|frz
+|
+|turn|48
+|c|★Feena|gg
+|c|★NixHex|gg
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|cant|p1a: Chansey|frz
+|
+|turn|49
+|
+|move|p2a: Tauros|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|48\/703 frz
+|cant|p1a: Chansey|frz
+|
+|turn|50
+|
+|move|p2a: Tauros|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|win|Feena
+|raw|Ladder updating...
+|raw|NixHex's rating: 1225 &rarr; <strong>1212<\/strong><br \/>(-13 for losing)
+|raw|Feena's rating: 1411 &rarr; <strong>1421<\/strong><br \/>(+10 for winning)
+|leave|NixHex

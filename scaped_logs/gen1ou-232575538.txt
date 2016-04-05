@@ -1,0 +1,261 @@
+﻿|join|charizard reyiz
+|join|dennis9
+|player|p1|charizard reyiz|117
+|player|p2|dennis9|167
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Mind of neuron|Alakazam|313\/313
+|switch|p2a: Clefable|Clefable|393\/393
+|turn|1
+|c|★charizard reyiz|gl hf
+|
+|move|p1a: Mind of neuron|Reflect|p1a: Mind of neuron
+|-start|p1a: Mind of neuron|Reflect
+|move|p2a: Clefable|Double Slap|p1a: Mind of neuron|[miss]
+|-miss|p2a: Clefable
+|
+|turn|2
+|
+|move|p1a: Mind of neuron|Psychic|p2a: Clefable
+|-damage|p2a: Clefable|248\/393
+|move|p2a: Clefable|Blizzard|p1a: Mind of neuron
+|-crit|p1a: Mind of neuron
+|-damage|p1a: Mind of neuron|176\/313
+|
+|turn|3
+|
+|move|p1a: Mind of neuron|Psychic|p2a: Clefable
+|-crit|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|switch|p2a: Alakazam|Alakazam|313\/313
+|turn|4
+|
+|move|p2a: Alakazam|Reflect|p2a: Alakazam
+|-start|p2a: Alakazam|Reflect
+|move|p1a: Mind of neuron|Thunder Wave|p2a: Alakazam
+|-status|p2a: Alakazam|par
+|
+|turn|5
+|
+|move|p1a: Mind of neuron|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|265\/313 par
+|-unboost|p2a: Alakazam|spd|1
+|-unboost|p2a: Alakazam|spa|1
+|move|p2a: Alakazam|Confusion|p1a: Mind of neuron
+|-crit|p1a: Mind of neuron
+|-resisted|p1a: Mind of neuron
+|-damage|p1a: Mind of neuron|115\/313
+|
+|turn|6
+|
+|move|p1a: Mind of neuron|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|183\/313 par
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|313\/313 par
+|
+|turn|7
+|
+|move|p1a: Mind of neuron|Psychic|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|203\/313 par
+|move|p2a: Alakazam|Confusion|p1a: Mind of neuron
+|-crit|p1a: Mind of neuron
+|-resisted|p1a: Mind of neuron
+|-damage|p1a: Mind of neuron|56\/313
+|
+|turn|8
+|
+|move|p1a: Mind of neuron|Recover|p1a: Mind of neuron
+|-heal|p1a: Mind of neuron|212\/313
+|move|p2a: Alakazam|Confusion|p1a: Mind of neuron
+|-resisted|p1a: Mind of neuron
+|-damage|p1a: Mind of neuron|194\/313
+|
+|turn|9
+|
+|move|p1a: Mind of neuron|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|129\/313 par
+|cant|p2a: Alakazam|par
+|
+|turn|10
+|
+|move|p1a: Mind of neuron|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|51\/313 par
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|207\/313 par
+|
+|turn|11
+|
+|move|p1a: Mind of neuron|Psychic|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|101\/313 par
+|move|p2a: Alakazam|Psybeam|p1a: Mind of neuron
+|-resisted|p1a: Mind of neuron
+|-damage|p1a: Mind of neuron|170\/313
+|
+|turn|12
+|
+|move|p1a: Mind of neuron|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|20\/313 par
+|move|p2a: Alakazam|Confusion|p1a: Mind of neuron
+|-resisted|p1a: Mind of neuron
+|-damage|p1a: Mind of neuron|152\/313
+|
+|turn|13
+|
+|move|p1a: Mind of neuron|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|switch|p2a: Charizard|Charizard|359\/359
+|turn|14
+|
+|move|p1a: Mind of neuron|Psychic|p2a: Charizard
+|-damage|p2a: Charizard|207\/359
+|-unboost|p2a: Charizard|spd|1
+|-unboost|p2a: Charizard|spa|1
+|move|p2a: Charizard|Fire Spin|p1a: Mind of neuron
+|-crit|p1a: Mind of neuron
+|-damage|p1a: Mind of neuron|126\/313
+|-activate|p1a: Mind of neuron|move: Fire Spin|[of] p2a: Charizard
+|
+|turn|15
+|
+|cant|p1a: Mind of neuron|partiallytrapped
+|move|p2a: Charizard|Fire Spin|p1a: Mind of neuron
+|-damage|p1a: Mind of neuron|100\/313
+|
+|turn|16
+|
+|cant|p1a: Mind of neuron|partiallytrapped
+|move|p2a: Charizard|Fire Spin|p1a: Mind of neuron
+|-damage|p1a: Mind of neuron|74\/313
+|
+|-end|p1a: Mind of neuron|Fire Spin|[partiallytrapped]
+|turn|17
+|
+|move|p1a: Mind of neuron|Psychic|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|switch|p2a: Venusaur|Venusaur|363\/363
+|turn|18
+|
+|move|p1a: Mind of neuron|Recover|p1a: Mind of neuron
+|-heal|p1a: Mind of neuron|230\/313
+|move|p2a: Venusaur|Solar Beam|p1a: Mind of neuron|[still]
+|-prepare|p2a: Venusaur|Solar Beam|p1a: Mind of neuron
+|
+|turn|19
+|
+|move|p1a: Mind of neuron|Psychic|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|90\/363
+|move|p2a: Venusaur|Solar Beam|p1a: Mind of neuron
+|-damage|p1a: Mind of neuron|106\/313
+|
+|turn|20
+|
+|move|p1a: Mind of neuron|Psychic|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|faint|p2a: Venusaur
+|
+|switch|p2a: Gyarados|Gyarados|393\/393
+|turn|21
+|
+|move|p1a: Mind of neuron|Psychic|p2a: Gyarados
+|-damage|p2a: Gyarados|273\/393
+|-unboost|p2a: Gyarados|spd|1
+|-unboost|p2a: Gyarados|spa|1
+|move|p2a: Gyarados|Bite|p1a: Mind of neuron
+|-damage|p1a: Mind of neuron|79\/313
+|
+|turn|22
+|
+|move|p1a: Mind of neuron|Recover|p1a: Mind of neuron
+|-heal|p1a: Mind of neuron|235\/313
+|move|p2a: Gyarados|Dragon Rage|p1a: Mind of neuron
+|-damage|p1a: Mind of neuron|195\/313
+|
+|turn|23
+|
+|move|p1a: Mind of neuron|Psychic|p2a: Gyarados
+|-damage|p2a: Gyarados|75\/393
+|-unboost|p2a: Gyarados|spd|1
+|-unboost|p2a: Gyarados|spa|1
+|move|p2a: Gyarados|Hyper Beam|p1a: Mind of neuron
+|-crit|p1a: Mind of neuron
+|-damage|p1a: Mind of neuron|0 fnt
+|faint|p1a: Mind of neuron
+|
+|switch|p1a: Slayer|Persian|333\/333
+|turn|24
+|
+|move|p1a: Slayer|Slash|p2a: Gyarados
+|-crit|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|switch|p2a: Dragonite|Dragonite|385\/385
+|turn|25
+|
+|move|p1a: Slayer|Slash|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-damage|p2a: Dragonite|254\/385
+|move|p2a: Dragonite|Thunder Wave|p1a: Slayer
+|-status|p1a: Slayer|par
+|
+|turn|26
+|
+|move|p2a: Dragonite|Slam|p1a: Slayer
+|-damage|p1a: Slayer|227\/333 par
+|cant|p1a: Slayer|par
+|
+|turn|27
+|
+|move|p2a: Dragonite|Dragon Rage|p1a: Slayer
+|-damage|p1a: Slayer|187\/333 par
+|move|p1a: Slayer|Slash|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-damage|p2a: Dragonite|112\/385
+|
+|turn|28
+|
+|move|p2a: Dragonite|Dragon Rage|p1a: Slayer
+|-damage|p1a: Slayer|147\/333 par
+|cant|p1a: Slayer|par
+|
+|turn|29
+|
+|move|p2a: Dragonite|Dragon Rage|p1a: Slayer
+|-damage|p1a: Slayer|107\/333 par
+|move|p1a: Slayer|Slash|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|win|charizard reyiz
+|raw|Ladder updating...
+|raw|charizard reyiz's rating: 1093 &rarr; <strong>1113<\/strong><br \/>(+20 for winning)
+|raw|dennis9's rating: 1000 &rarr; <strong>1000<\/strong><br \/>(+0 for losing)

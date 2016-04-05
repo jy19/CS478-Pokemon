@@ -1,0 +1,378 @@
+﻿|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|J|KyleCole
+|J|Haruno
+|player|p1|KyleCole|84
+|player|p2|Haruno|289
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Chansey|Chansey, L82|578\/578
+|switch|p2a: Mr. Mime|Mr. Mime, L86|244\/244
+|turn|1
+|c|★Haruno|this is a fair lead
+|c|★KyleCole|:]
+|J|GiraGoomy
+|
+|move|p2a: Mr. Mime|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|move|p1a: Chansey|Thunder Wave|p2a: Mr. Mime
+|-status|p2a: Mr. Mime|par
+|
+|turn|2
+|
+|move|p2a: Mr. Mime|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|489\/578 par
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|move|p1a: Chansey|Thunder Wave|p2a: Mr. Mime
+|-fail|p2a: Mr. Mime|par
+|
+|turn|3
+|
+|move|p2a: Mr. Mime|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|342\/578 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|578\/578 par
+|
+|turn|4
+|
+|move|p2a: Mr. Mime|Psychic|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|403\/578 par
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|move|p1a: Chansey|Thunderbolt|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|214\/244 par
+|
+|turn|5
+|c|★Haruno|not bad
+|
+|move|p2a: Mr. Mime|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|205\/578 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|494\/578 par
+|
+|turn|6
+|c|★Haruno|crit drop
+|
+|switch|p1a: Rhydon|Rhydon, L82|340\/340
+|move|p2a: Mr. Mime|Psychic|p1a: Rhydon
+|-damage|p1a: Rhydon|176\/340
+|-unboost|p1a: Rhydon|spd|1
+|-unboost|p1a: Rhydon|spa|1
+|
+|turn|7
+|c|★KyleCole|oh
+|c|★KyleCole|that does a lot
+|
+|move|p1a: Rhydon|Earthquake|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|61\/244 par
+|move|p2a: Mr. Mime|Psychic|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|c|★KyleCole|nice
+|c|★KyleCole|fukn
+|c|★KyleCole|rolls
+|
+|switch|p1a: Aerodactyl|Aerodactyl, L86|313\/313
+|turn|8
+|
+|move|p1a: Aerodactyl|Double-Edge|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|0 fnt
+|-damage|p1a: Aerodactyl|298\/313|[from] recoil|[of] p2a: Mr. Mime
+|faint|p2a: Mr. Mime
+|
+|switch|p2a: Exeggutor|Exeggutor, L82|324\/324
+|turn|9
+|
+|switch|p1a: Chansey|Chansey, L82|494\/578 par
+|move|p2a: Exeggutor|Sleep Powder|p1a: Chansey
+|-fail|p1a: Chansey
+|
+|turn|10
+|
+|move|p2a: Exeggutor|Explosion|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|faint|p2a: Exeggutor
+|c|★KyleCole|rip chansey
+|c|★KyleCole|she had
+|c|★KyleCole|no chance ;_;
+|
+|switch|p1a: Aerodactyl|Aerodactyl, L86|298\/313
+|switch|p2a: Jolteon|Jolteon, L86|287\/287
+|turn|11
+|c|★Haruno|alright
+|c|★Haruno|based speed tie
+|c|★Haruno|lfgi
+|
+|move|p1a: Aerodactyl|Double-Edge|p2a: Jolteon
+|-damage|p2a: Jolteon|193\/287
+|-damage|p1a: Aerodactyl|275\/313|[from] recoil|[of] p2a: Jolteon
+|move|p2a: Jolteon|Body Slam|p1a: Aerodactyl
+|-resisted|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|248\/313
+|-status|p1a: Aerodactyl|par
+|
+|turn|12
+|c|★KyleCole|ok
+|
+|move|p2a: Jolteon|Double Kick|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|227\/313 par
+|-damage|p1a: Aerodactyl|206\/313 par
+|-hitcount|p1a: Aerodactyl|2
+|move|p1a: Aerodactyl|Hyper Beam|p2a: Jolteon
+|-damage|p2a: Jolteon|45\/287
+|
+|turn|13
+|c|★Haruno|that's sex
+|c|★KyleCole|SHIIIIT
+|
+|switch|p2a: Kingler|Kingler, L86|270\/270
+|cant|p1a: Aerodactyl|recharge
+|
+|turn|14
+|
+|move|p2a: Kingler|Swords Dance|p2a: Kingler
+|-boost|p2a: Kingler|atk|2
+|move|p1a: Aerodactyl|Reflect|p1a: Aerodactyl
+|
+|turn|15
+|
+|move|p2a: Kingler|Crabhammer|p1a: Aerodactyl
+|-crit|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|0 fnt
+|faint|p1a: Aerodactyl
+|
+|switch|p1a: Gyarados|Gyarados, L86|339\/339
+|turn|16
+|
+|move|p1a: Gyarados|Thunderbolt|p2a: Kingler
+|-crit|p2a: Kingler
+|-supereffective|p2a: Kingler
+|-damage|p2a: Kingler|0 fnt
+|faint|p2a: Kingler
+|c|★Haruno|r u srs
+|c|★KyleCole|bop
+|
+|switch|p2a: Tangela|Tangela, L86|287\/287
+|turn|17
+|
+|switch|p1a: Weezing|Weezing, L86|287\/287
+|move|p2a: Tangela|Growth|p2a: Tangela
+|-boost|p2a: Tangela|spa|1
+|-boost|p2a: Tangela|spd|1
+|
+|turn|18
+|c|★Haruno|ty audio
+|c|★Haruno|not putting
+|L|GiraGoomy
+|c|★Haruno|fucking tbolt on jolteon
+|c|★KyleCole|ikr
+|
+|move|p2a: Tangela|Body Slam|p1a: Weezing
+|-damage|p1a: Weezing|253\/287
+|move|p1a: Weezing|Explosion|p2a: Tangela
+|-damage|p2a: Tangela|110\/287
+|faint|p1a: Weezing
+|c|★KyleCole|it gets based twinneddle tho
+|c|★KyleCole|DAMN
+|c|★KyleCole|THAT DID 0
+|
+|switch|p1a: Gyarados|Gyarados, L86|339\/339
+|turn|19
+|c|★KyleCole|shit u might win
+|c|★Haruno|http:\/\/smogtours.psim.us\/battle-ou-32936
+|c|★Haruno|http:\/\/smogtours.psim.us\/battle-ou-32936
+|c|★Haruno|http:\/\/smogtours.psim.us\/battle-ou-32936
+|
+|move|p1a: Gyarados|Blizzard|p2a: Tangela
+|-supereffective|p2a: Tangela
+|-damage|p2a: Tangela|0 fnt
+|faint|p2a: Tangela
+|
+|switch|p2a: Moltres|Moltres, L86|330\/330
+|turn|20
+|c|★KyleCole|LOL look at the team doom brought
+|
+|move|p2a: Moltres|Fire Spin|p1a: Gyarados|[miss]
+|-miss|p2a: Moltres
+|move|p1a: Gyarados|Surf|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|149\/330
+|
+|turn|21
+|
+|move|p2a: Moltres|Fire Spin|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|331\/339
+|-activate|p1a: Gyarados|move: Fire Spin|[of] p2a: Moltres
+|cant|p1a: Gyarados|partiallytrapped
+|
+|turn|22
+|c|★Haruno|why 
+|c|★Haruno|does it not hit
+|
+|move|p2a: Moltres|Fire Spin|p1a: Gyarados
+|-damage|p1a: Gyarados|323\/339
+|cant|p1a: Gyarados|partiallytrapped
+|
+|turn|23
+|c|★Haruno|when i need it to
+|c|★KyleCole|wait
+|c|★KyleCole|i just
+|c|★KyleCole|cant move now
+|c|★Haruno|alright based moltres
+|c|★KyleCole|r u srs
+|
+|move|p2a: Moltres|Fire Spin|p1a: Gyarados
+|-damage|p1a: Gyarados|315\/339
+|cant|p1a: Gyarados|partiallytrapped
+|
+|-end|p1a: Gyarados|Fire Spin|[partiallytrapped]
+|turn|24
+|c|★Haruno|keep it up
+|c|★Haruno|yh
+|c|★Haruno|fire spin mechs are great
+|
+|move|p2a: Moltres|Fire Spin|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|306\/339
+|-activate|p1a: Gyarados|move: Fire Spin|[of] p2a: Moltres
+|cant|p1a: Gyarados|partiallytrapped
+|
+|turn|25
+|c|★KyleCole|damn
+|c|★KyleCole|this is a good af gen
+|
+|move|p2a: Moltres|Fire Spin|p1a: Gyarados
+|-damage|p1a: Gyarados|297\/339
+|cant|p1a: Gyarados|partiallytrapped
+|
+|-end|p1a: Gyarados|Fire Spin|[partiallytrapped]
+|turn|26
+|
+|move|p2a: Moltres|Fire Spin|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|288\/339
+|-activate|p1a: Gyarados|move: Fire Spin|[of] p2a: Moltres
+|cant|p1a: Gyarados|partiallytrapped
+|
+|turn|27
+|c|★Haruno|can moltres
+|c|★Haruno|achieve
+|
+|move|p2a: Moltres|Fire Spin|p1a: Gyarados
+|-damage|p1a: Gyarados|279\/339
+|cant|p1a: Gyarados|partiallytrapped
+|
+|turn|28
+|c|★KyleCole|no
+|c|★KyleCole|u dont hav
+|c|★KyleCole|the pp
+|
+|move|p2a: Moltres|Fire Spin|p1a: Gyarados
+|-damage|p1a: Gyarados|270\/339
+|cant|p1a: Gyarados|partiallytrapped
+|
+|-end|p1a: Gyarados|Fire Spin|[partiallytrapped]
+|turn|29
+|c|★Haruno|nig
+|c|★Haruno|it costs 1 fire spin
+|c|★Haruno|pp
+|c|★KyleCole|what
+|c|★Haruno|per whole spin cycle
+|c|★KyleCole|WHAT
+|c|★KyleCole|OML
+|c|★KyleCole|MISS
+|c|★Haruno|i only used 3pp
+|c|★Haruno|so far
+|c|★Haruno|LOL
+|
+|move|p2a: Moltres|Fire Spin|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|261\/339
+|-activate|p1a: Gyarados|move: Fire Spin|[of] p2a: Moltres
+|cant|p1a: Gyarados|partiallytrapped
+|
+|turn|30
+|
+|move|p2a: Moltres|Fire Spin|p1a: Gyarados
+|-damage|p1a: Gyarados|252\/339
+|cant|p1a: Gyarados|partiallytrapped
+|
+|turn|31
+|
+|move|p2a: Moltres|Fire Spin|p1a: Gyarados
+|-damage|p1a: Gyarados|243\/339
+|cant|p1a: Gyarados|partiallytrapped
+|
+|turn|32
+|
+|move|p2a: Moltres|Fire Spin|p1a: Gyarados
+|-damage|p1a: Gyarados|234\/339
+|cant|p1a: Gyarados|partiallytrapped
+|
+|turn|33
+|
+|move|p2a: Moltres|Fire Spin|p1a: Gyarados
+|-damage|p1a: Gyarados|225\/339
+|cant|p1a: Gyarados|partiallytrapped
+|
+|-end|p1a: Gyarados|Fire Spin|[partiallytrapped]
+|turn|34
+|c|★KyleCole|this cant be real
+|
+|move|p2a: Moltres|Fire Spin|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|216\/339
+|-activate|p1a: Gyarados|move: Fire Spin|[of] p2a: Moltres
+|cant|p1a: Gyarados|partiallytrapped
+|
+|turn|35
+|c|★Haruno|im at 19pp rn
+|
+|move|p2a: Moltres|Fire Spin|p1a: Gyarados
+|-damage|p1a: Gyarados|207\/339
+|cant|p1a: Gyarados|partiallytrapped
+|
+|turn|36
+|c|★KyleCole|who would design this into a game
+|
+|move|p2a: Moltres|Fire Spin|p1a: Gyarados
+|-damage|p1a: Gyarados|198\/339
+|cant|p1a: Gyarados|partiallytrapped
+|
+|-end|p1a: Gyarados|Fire Spin|[partiallytrapped]
+|turn|37
+|c|★Haruno|this is why you dont sack ur faster mons :X
+|
+|move|p2a: Moltres|Fire Spin|p1a: Gyarados|[miss]
+|-miss|p2a: Moltres
+|move|p1a: Gyarados|Surf|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|c|★Haruno|FUCK
+|c|★Haruno|FUCK
+|c|★Haruno|FUCK
+|c|★KyleCole|:]
+|c|★Haruno|HAX
+|
+|switch|p2a: Jolteon|Jolteon, L86|45\/287
+|turn|38
+|c|★KyleCole|get rekt x2
+|
+|move|p2a: Jolteon|Body Slam|p1a: Gyarados
+|-damage|p1a: Gyarados|144\/339
+|move|p1a: Gyarados|Surf|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|
+|win|KyleCole

@@ -1,0 +1,289 @@
+﻿|j|So breeezy
+|j|Vector04
+|player|p1|So breeezy|169
+|player|p2|Vector04|169
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|seed|45098,19729,62405,45529
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Parasect|Parasect, L90|291\/291
+|switch|p2a: Zubat|Zubat, L96|272\/272
+|turn|1
+|choice|switch 5|move 3
+|
+|switch|p1a: Magneton|Magneton, L90|273\/273
+|move|p2a: Zubat|Supersonic|p1a: Magneton
+|-start|p1a: Magneton|confusion
+|
+|turn|2
+|choice|move 1|switch 2
+|
+|switch|p2a: Sandslash|Sandslash, L85|301\/301
+|-activate|p1a: Magneton|confusion
+|-damage|p1a: Magneton|248\/273|[from] confusion
+|
+|turn|3
+|choice|switch 6|move 3
+|
+|switch|p1a: Gyarados|Gyarados, L85|335\/335
+|move|p2a: Sandslash|Swords Dance|p2a: Sandslash
+|-boost|p2a: Sandslash|atk|2
+|
+|turn|4
+|choice|move 3|switch 2
+|
+|switch|p2a: Zubat|Zubat, L96|272\/272
+|move|p1a: Gyarados|Blizzard|p2a: Zubat
+|-supereffective|p2a: Zubat
+|-damage|p2a: Zubat|36\/272
+|
+|turn|5
+|choice|move 3|move 3
+|
+|move|p1a: Gyarados|Blizzard|p2a: Zubat|[miss]
+|-miss|p1a: Gyarados
+|move|p2a: Zubat|Supersonic|p1a: Gyarados|[miss]
+|-miss|p2a: Zubat
+|
+|turn|6
+|choice|move 4|move 3
+|
+|move|p1a: Gyarados|Body Slam|p2a: Zubat
+|-damage|p2a: Zubat|0 fnt
+|faint|p2a: Zubat
+|choice||switch 3
+|
+|switch|p2a: Electrode|Electrode, L90|291\/291
+|turn|7
+|choice|switch 3|move 4
+|
+|switch|p1a: Kangaskhan|Kangaskhan, L85|352\/352
+|move|p2a: Electrode|Thunder Wave|p1a: Kangaskhan
+|-status|p1a: Kangaskhan|par
+|
+|turn|8
+|choice|move 1|switch 4
+|
+|switch|p2a: Beedrill|Beedrill, L90|300\/300
+|cant|p1a: Kangaskhan|par
+|
+|turn|9
+|choice|move 3|move 4
+|
+|move|p2a: Beedrill|Swords Dance|p2a: Beedrill
+|-boost|p2a: Beedrill|atk|2
+|cant|p1a: Kangaskhan|par
+|
+|turn|10
+|choice|move 3|move 1
+|
+|move|p2a: Beedrill|Twineedle|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|295\/352 par
+|-damage|p1a: Kangaskhan|238\/352 par
+|-hitcount|p1a: Kangaskhan|2
+|move|p1a: Kangaskhan|Body Slam|p2a: Beedrill
+|-damage|p2a: Beedrill|171\/300
+|
+|turn|11
+|choice|move 3|move 1
+|
+|move|p2a: Beedrill|Twineedle|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|182\/352 par
+|-damage|p1a: Kangaskhan|126\/352 par
+|-hitcount|p1a: Kangaskhan|2
+|cant|p1a: Kangaskhan|par
+|
+|turn|12
+|choice|move 3|move 1
+|
+|move|p2a: Beedrill|Twineedle|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|66\/352 par
+|-damage|p1a: Kangaskhan|6\/352 par
+|-hitcount|p1a: Kangaskhan|2
+|move|p1a: Kangaskhan|Body Slam|p2a: Beedrill
+|-damage|p2a: Beedrill|36\/300
+|-status|p2a: Beedrill|par
+|
+|turn|13
+|choice|move 4|move 1
+|
+|cant|p2a: Beedrill|par
+|move|p1a: Kangaskhan|Counter|p2a: Beedrill
+|-fail|p1a: Kangaskhan
+|
+|turn|14
+|choice|move 3|move 1
+|
+|move|p2a: Beedrill|Twineedle|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|0 fnt
+|-hitcount|p1a: Kangaskhan|1
+|faint|p1a: Kangaskhan
+|c|★Vector04|Lol
+|choice|switch 6|
+|
+|switch|p1a: Magneton|Magneton, L90|248\/273
+|turn|15
+|choice|move 3|move 2
+|
+|move|p1a: Magneton|Hyper Beam|p2a: Beedrill
+|-damage|p2a: Beedrill|0 fnt
+|faint|p2a: Beedrill
+|choice||switch 6
+|
+|switch|p2a: Tauros|Tauros, L79|280\/280
+|turn|16
+|choice|switch 2|move 4
+|
+|switch|p1a: Poliwrath|Poliwrath, L85|327\/327
+|move|p2a: Tauros|Body Slam|p1a: Poliwrath
+|-crit|p1a: Poliwrath
+|-damage|p1a: Poliwrath|187\/327
+|-status|p1a: Poliwrath|par
+|
+|turn|17
+|choice|move 3|move 4
+|
+|move|p2a: Tauros|Body Slam|p1a: Poliwrath
+|-damage|p1a: Poliwrath|107\/327 par
+|move|p1a: Poliwrath|Submission|p2a: Tauros|[miss]
+|-miss|p1a: Poliwrath
+|
+|turn|18
+|choice|move 3|move 3
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Poliwrath
+|-damage|p1a: Poliwrath|0 fnt
+|faint|p1a: Poliwrath
+|choice|switch 2|
+|
+|switch|p1a: Magneton|Magneton, L90|248\/273
+|turn|19
+|choice|move 3|move 4
+|
+|move|p2a: Tauros|Body Slam|p1a: Magneton
+|-damage|p1a: Magneton|178\/273
+|-status|p1a: Magneton|par
+|move|p1a: Magneton|Hyper Beam|p2a: Tauros|[miss]
+|-miss|p1a: Magneton
+|
+|turn|20
+|choice|move 1|move 2
+|
+|move|p2a: Tauros|Earthquake|p1a: Magneton
+|-supereffective|p1a: Magneton
+|-damage|p1a: Magneton|65\/273 par
+|move|p1a: Magneton|Thunderbolt|p2a: Tauros
+|-damage|p2a: Tauros|103\/280
+|
+|turn|21
+|choice|move 1|move 4
+|
+|move|p2a: Tauros|Body Slam|p1a: Magneton
+|-damage|p1a: Magneton|0 fnt
+|faint|p1a: Magneton
+|choice|switch 3|
+|
+|switch|p1a: Gyarados|Gyarados, L85|335\/335
+|turn|22
+|choice|move 3|move 4
+|
+|move|p2a: Tauros|Body Slam|p1a: Gyarados
+|-damage|p1a: Gyarados|254\/335
+|move|p1a: Gyarados|Blizzard|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|choice||switch 4
+|
+|switch|p2a: Electrode|Electrode, L90|291\/291
+|turn|23
+|choice|move 3|move 3
+|
+|move|p2a: Electrode|Thunderbolt|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|choice|switch 5|
+|
+|switch|p1a: Parasect|Parasect, L90|291\/291
+|turn|24
+|choice|move 4|move 4
+|
+|move|p2a: Electrode|Thunder Wave|p1a: Parasect
+|-status|p1a: Parasect|par
+|move|p1a: Parasect|Swords Dance|p1a: Parasect
+|-boost|p1a: Parasect|atk|2
+|
+|turn|25
+|choice|move 3|move 3
+|
+|move|p2a: Electrode|Thunderbolt|p1a: Parasect
+|-resisted|p1a: Parasect
+|-damage|p1a: Parasect|239\/291 par
+|move|p1a: Parasect|Hyper Beam|p2a: Electrode
+|-damage|p2a: Electrode|17\/291
+|
+|turn|26
+|-mustrecharge|p1a: Parasect
+|-mustrecharge|p1a: Parasect
+|choice|move 1|move 3
+|
+|move|p2a: Electrode|Thunderbolt|p1a: Parasect
+|-resisted|p1a: Parasect
+|-damage|p1a: Parasect|190\/291 par
+|cant|p1a: Parasect|recharge
+|
+|turn|27
+|choice|move 3|move 1
+|
+|move|p2a: Electrode|Explosion|p1a: Parasect
+|-crit|p1a: Parasect
+|-damage|p1a: Parasect|0 fnt
+|faint|p1a: Parasect
+|faint|p2a: Electrode
+|choice|switch 4|switch 2
+|
+|switch|p1a: Mewtwo|Mewtwo, L70|293\/293
+|switch|p2a: Sandslash|Sandslash, L85|301\/301
+|turn|28
+|choice|move 4|move 4
+|
+|move|p1a: Mewtwo|Blizzard|p2a: Sandslash
+|-supereffective|p2a: Sandslash
+|-damage|p2a: Sandslash|93\/301
+|move|p2a: Sandslash|Substitute|p2a: Sandslash
+|-start|p2a: Sandslash|Substitute
+|-damage|p2a: Sandslash|18\/301
+|
+|turn|29
+|choice|move 4|move 1
+|
+|move|p1a: Mewtwo|Blizzard|p2a: Sandslash|[miss]
+|-miss|p1a: Mewtwo
+|move|p2a: Sandslash|Earthquake|p1a: Mewtwo
+|-damage|p1a: Mewtwo|159\/293
+|
+|turn|30
+|choice|move 4|move 1
+|
+|move|p1a: Mewtwo|Blizzard|p2a: Sandslash|[miss]
+|-miss|p1a: Mewtwo
+|move|p2a: Sandslash|Earthquake|p1a: Mewtwo
+|-damage|p1a: Mewtwo|29\/293
+|
+|turn|31
+|choice|move 2|move 1
+|
+|move|p1a: Mewtwo|Barrier|p1a: Mewtwo
+|-boost|p1a: Mewtwo|def|2
+|move|p2a: Sandslash|Earthquake|p1a: Mewtwo
+|-damage|p1a: Mewtwo|0 fnt
+|faint|p1a: Mewtwo
+|
+|win|Vector04
+|player|p1
+|player|p2

@@ -1,0 +1,372 @@
+﻿|join|Hargnyque
+|join|touchable
+|player|p1|Hargnyque|26
+|player|p2|touchable|24
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: hû|Gengar|323\/323
+|switch|p2a: Michael Jackson|Clefable|393\/393
+|turn|1
+|
+|move|p1a: hû|Hypnosis|p2a: Michael Jackson
+|-status|p2a: Michael Jackson|slp
+|cant|p2a: Michael Jackson|slp
+|
+|turn|2
+|
+|switch|p2a: Hamburger|Tauros|353\/353
+|move|p1a: hû|Thunderbolt|p2a: Hamburger
+|-damage|p2a: Hamburger|238\/353
+|
+|turn|3
+|
+|move|p1a: hû|Thunderbolt|p2a: Hamburger
+|-damage|p2a: Hamburger|135\/353
+|-status|p2a: Hamburger|par
+|move|p2a: Hamburger|Ice Beam|p1a: hû
+|-damage|p1a: hû|270\/323
+|
+|turn|4
+|
+|switch|p2a: La Diosaz|Kangaskhan|413\/413
+|move|p1a: hû|Thunderbolt|p2a: La Diosaz
+|-damage|p2a: La Diosaz|267\/413
+|
+|turn|5
+|
+|move|p1a: hû|Thunderbolt|p2a: La Diosaz
+|-damage|p2a: La Diosaz|110\/413
+|move|p2a: La Diosaz|Earthquake|p1a: hû
+|-supereffective|p1a: hû
+|-damage|p1a: hû|55\/323
+|
+|turn|6
+|
+|move|p1a: hû|Thunderbolt|p2a: La Diosaz
+|-damage|p2a: La Diosaz|0 fnt
+|faint|p2a: La Diosaz
+|
+|switch|p2a: Michael Jackson|Clefable|393\/393 slp
+|turn|7
+|
+|move|p1a: hû|Explosion|p2a: Michael Jackson
+|-damage|p2a: Michael Jackson|154\/393 slp
+|faint|p1a: hû
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|turn|8
+|
+|move|p1a: Starmie|Psychic|p2a: Michael Jackson
+|-damage|p2a: Michael Jackson|37\/393 slp
+|cant|p2a: Michael Jackson|slp
+|
+|turn|9
+|
+|move|p1a: Starmie|Psychic|p2a: Michael Jackson
+|-crit|p2a: Michael Jackson
+|-damage|p2a: Michael Jackson|0 fnt
+|faint|p2a: Michael Jackson
+|
+|switch|p2a: Fries|Snorlax|523\/523
+|turn|10
+|
+|move|p1a: Starmie|Psychic|p2a: Fries
+|-damage|p2a: Fries|383\/523
+|move|p2a: Fries|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|210\/323
+|-status|p1a: Starmie|par
+|
+|turn|11
+|
+|switch|p1a: Victreebel|Victreebel|363\/363
+|move|p2a: Fries|Body Slam|p1a: Victreebel
+|-damage|p1a: Victreebel|231\/363
+|
+|turn|12
+|
+|move|p1a: Victreebel|Wrap|p2a: Fries
+|-damage|p2a: Fries|367\/523
+|-activate|p2a: Fries|move: Wrap|[of] p1a: Victreebel
+|cant|p2a: Fries|partiallytrapped
+|
+|turn|13
+|
+|move|p1a: Victreebel|Wrap|p2a: Fries
+|-damage|p2a: Fries|351\/523
+|cant|p2a: Fries|partiallytrapped
+|
+|-end|p2a: Fries|Wrap|[partiallytrapped]
+|turn|14
+|
+|move|p1a: Victreebel|Wrap|p2a: Fries
+|-damage|p2a: Fries|334\/523
+|-activate|p2a: Fries|move: Wrap|[of] p1a: Victreebel
+|cant|p2a: Fries|partiallytrapped
+|
+|turn|15
+|
+|move|p1a: Victreebel|Wrap|p2a: Fries
+|-damage|p2a: Fries|317\/523
+|cant|p2a: Fries|partiallytrapped
+|
+|-end|p2a: Fries|Wrap|[partiallytrapped]
+|turn|16
+|
+|move|p1a: Victreebel|Wrap|p2a: Fries
+|-damage|p2a: Fries|299\/523
+|-activate|p2a: Fries|move: Wrap|[of] p1a: Victreebel
+|cant|p2a: Fries|partiallytrapped
+|
+|turn|17
+|
+|switch|p2a: Dominatrix|Persian|333\/333
+|move|p1a: Victreebel|Wrap|p2a: Dominatrix|[miss]
+|-miss|p1a: Victreebel
+|
+|turn|18
+|
+|move|p2a: Dominatrix|Slash|p1a: Victreebel
+|-crit|p1a: Victreebel
+|-damage|p1a: Victreebel|55\/363
+|move|p1a: Victreebel|Stun Spore|p2a: Dominatrix
+|-status|p2a: Dominatrix|par
+|
+|turn|19
+|
+|move|p1a: Victreebel|Wrap|p2a: Dominatrix
+|-damage|p2a: Dominatrix|315\/333 par
+|-activate|p2a: Dominatrix|move: Wrap|[of] p1a: Victreebel
+|cant|p2a: Dominatrix|partiallytrapped
+|
+|turn|20
+|
+|move|p1a: Victreebel|Wrap|p2a: Dominatrix
+|-damage|p2a: Dominatrix|297\/333 par
+|cant|p2a: Dominatrix|partiallytrapped
+|
+|-end|p2a: Dominatrix|Wrap|[partiallytrapped]
+|turn|21
+|
+|move|p1a: Victreebel|Wrap|p2a: Dominatrix|[miss]
+|-miss|p1a: Victreebel
+|move|p2a: Dominatrix|Slash|p1a: Victreebel
+|-crit|p1a: Victreebel
+|-damage|p1a: Victreebel|0 fnt
+|faint|p1a: Victreebel
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|turn|22
+|
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|move|p2a: Dominatrix|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|412\/523
+|
+|turn|23
+|
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|move|p2a: Dominatrix|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|301\/523
+|
+|turn|24
+|
+|move|p1a: Snorlax|Thunderbolt|p2a: Dominatrix
+|-damage|p2a: Dominatrix|57\/333 par
+|cant|p2a: Dominatrix|par
+|
+|turn|25
+|
+|move|p1a: Snorlax|Thunderbolt|p2a: Dominatrix
+|-damage|p2a: Dominatrix|0 fnt
+|faint|p2a: Dominatrix
+|
+|switch|p2a: Fries|Snorlax|299\/523
+|turn|26
+|
+|move|p2a: Fries|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|154\/523
+|move|p1a: Snorlax|Ice Beam|p2a: Fries
+|-crit|p2a: Fries
+|-damage|p2a: Fries|150\/523
+|
+|turn|27
+|
+|move|p2a: Fries|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|27\/523
+|move|p1a: Snorlax|Ice Beam|p2a: Fries
+|-damage|p2a: Fries|0 fnt
+|faint|p2a: Fries
+|
+|switch|p2a: Louche|Chansey|703\/703
+|turn|28
+|
+|move|p2a: Louche|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|switch|p1a: Starmie|Starmie|210\/323 par
+|turn|29
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Louche|Thunderbolt|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|566\/703
+|
+|turn|30
+|
+|switch|p1a: Starmie|Starmie|210\/323 par
+|move|p2a: Louche|Ice Beam|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|174\/323 par
+|
+|turn|31
+|
+|switch|p1a: Chansey|Chansey|566\/703
+|move|p2a: Louche|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|496\/703
+|
+|turn|32
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703
+|move|p2a: Louche|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|630\/703
+|
+|turn|33
+|
+|switch|p1a: Starmie|Starmie|174\/323 par
+|move|p2a: Louche|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|24\/323 par
+|
+|turn|34
+|
+|switch|p1a: Chansey|Chansey|630\/703
+|move|p2a: Louche|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|551\/703
+|
+|turn|35
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Louche
+|-status|p2a: Louche|par
+|cant|p2a: Louche|par
+|
+|turn|36
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Louche
+|-damage|p2a: Louche|603\/703 par
+|move|p2a: Louche|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|477\/703
+|
+|turn|37
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Louche
+|-damage|p2a: Louche|503\/703 par
+|move|p2a: Louche|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|408\/703
+|
+|turn|38
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Louche
+|-damage|p2a: Louche|403\/703 par
+|move|p2a: Louche|Soft-Boiled|p2a: Louche
+|-heal|p2a: Louche|703\/703 par
+|
+|turn|39
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Louche
+|-damage|p2a: Louche|603\/703 par
+|move|p2a: Louche|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|338\/703
+|
+|turn|40
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Louche
+|-damage|p2a: Louche|503\/703 par
+|move|p2a: Louche|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|259\/703
+|
+|turn|41
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Louche
+|-damage|p2a: Louche|403\/703 par
+|move|p2a: Louche|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|190\/703
+|
+|turn|42
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Louche
+|-damage|p2a: Louche|303\/703 par
+|cant|p2a: Louche|par
+|
+|turn|43
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Louche
+|-fail|p2a: Louche|par
+|cant|p2a: Louche|par
+|
+|turn|44
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Louche
+|-fail|p2a: Louche|par
+|move|p2a: Louche|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|turn|45
+|
+|switch|p2a: Hamburger|Tauros|135\/353 par
+|switch|p1a: Starmie|Starmie|24\/323 par
+|
+|turn|46
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Hamburger
+|-fail|p2a: Hamburger|par
+|cant|p2a: Hamburger|par
+|
+|turn|47
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Hamburger
+|-fail|p2a: Hamburger|par
+|cant|p2a: Hamburger|par
+|
+|turn|48
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Hamburger
+|-fail|p2a: Hamburger|par
+|move|p2a: Hamburger|Body Slam|p1a: Starmie
+|-crit|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|switch|p1a: Rhydon|Rhydon|413\/413
+|turn|49
+|
+|move|p1a: Rhydon|Earthquake|p2a: Hamburger
+|-damage|p2a: Hamburger|0 fnt
+|faint|p2a: Hamburger
+|
+|switch|p2a: Louche|Chansey|303\/703 par
+|turn|50
+|
+|move|p1a: Rhydon|Earthquake|p2a: Louche
+|-damage|p2a: Louche|0 fnt
+|faint|p2a: Louche
+|
+|win|Hargnyque
+|raw|Hargnyque's rating: 1201 &rarr; <strong>1230<\/strong><br \/>(+29 for winning)
+|raw|touchable's rating: 1263 &rarr; <strong>1233<\/strong><br \/>(-30 for losing)
+|leave|touchable
+|player|p2

@@ -1,0 +1,230 @@
+﻿|join|kcroxsox
+|join|AmnesiaLOL
+|player|p1|kcroxsox|101
+|player|p2|AmnesiaLOL|220
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Eevee|Eevee, L96|300\/300
+|switch|p2a: Blastoise|Blastoise, L85|308\/308
+|turn|1
+|
+|move|p2a: Blastoise|Body Slam|p1a: Eevee
+|-crit|p1a: Eevee
+|-damage|p1a: Eevee|179\/300
+|move|p1a: Eevee|Sand Attack|p2a: Blastoise
+|-unboost|p2a: Blastoise|accuracy|1
+|
+|turn|2
+|
+|move|p2a: Blastoise|Body Slam|p1a: Eevee
+|-damage|p1a: Eevee|109\/300
+|move|p1a: Eevee|Sand Attack|p2a: Blastoise
+|-unboost|p2a: Blastoise|accuracy|1
+|
+|turn|3
+|
+|move|p2a: Blastoise|Blizzard|p1a: Eevee|[miss]
+|-miss|p2a: Blastoise
+|move|p1a: Eevee|Reflect|p1a: Eevee
+|-start|p1a: Eevee|Reflect
+|
+|turn|4
+|
+|move|p2a: Blastoise|Blizzard|p1a: Eevee|[miss]
+|-miss|p2a: Blastoise
+|move|p1a: Eevee|Body Slam|p2a: Blastoise
+|-crit|p2a: Blastoise
+|-damage|p2a: Blastoise|165\/308
+|
+|turn|5
+|
+|move|p2a: Blastoise|Blizzard|p1a: Eevee
+|-damage|p1a: Eevee|23\/300
+|move|p1a: Eevee|Body Slam|p2a: Blastoise
+|-damage|p2a: Blastoise|85\/308
+|
+|turn|6
+|
+|move|p2a: Blastoise|Rest|p2a: Blastoise
+|-status|p2a: Blastoise|slp
+|-heal|p2a: Blastoise|308\/308 slp|[silent]
+|-status|p2a: Blastoise|slp|[from] move: Rest
+|move|p1a: Eevee|Body Slam|p2a: Blastoise
+|-damage|p2a: Blastoise|236\/308 slp
+|
+|turn|7
+|
+|switch|p2a: Slowbro|Slowbro, L79|312\/312
+|move|p1a: Eevee|Sand Attack|p2a: Slowbro
+|-unboost|p2a: Slowbro|accuracy|1
+|
+|turn|8
+|
+|move|p1a: Eevee|Sand Attack|p2a: Slowbro
+|-unboost|p2a: Slowbro|accuracy|1
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|9
+|
+|move|p1a: Eevee|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|234\/312
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|10
+|
+|move|p1a: Eevee|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|153\/312
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|11
+|
+|move|p1a: Eevee|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|83\/312
+|-status|p2a: Slowbro|par
+|move|p2a: Slowbro|Surf|p1a: Eevee|[miss]
+|-miss|p2a: Slowbro
+|
+|turn|12
+|
+|move|p1a: Eevee|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|12\/312 par
+|cant|p2a: Slowbro|par
+|
+|turn|13
+|c|★AmnesiaLOL|im so fucking done
+|c|★AmnesiaLOL|a fucking eevee
+|
+|move|p1a: Eevee|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|
+|switch|p2a: Electabuzz|Electabuzz, L85|284\/284
+|turn|14
+|
+|move|p2a: Electabuzz|Thunderbolt|p1a: Eevee
+|-damage|p1a: Eevee|0 fnt
+|faint|p1a: Eevee
+|
+|switch|p1a: Sandslash|Sandslash, L85|301\/301
+|turn|15
+|
+|switch|p2a: Sandslash|Sandslash, L85|301\/301
+|move|p1a: Sandslash|Earthquake|p2a: Sandslash
+|-damage|p2a: Sandslash|211\/301
+|
+|turn|16
+|c|★kcroxsox|I didn't think Eevee had it in her
+|
+|move|p1a: Sandslash|Earthquake|p2a: Sandslash
+|-damage|p2a: Sandslash|118\/301
+|move|p2a: Sandslash|Body Slam|p1a: Sandslash
+|-damage|p1a: Sandslash|250\/301
+|-status|p1a: Sandslash|par
+|
+|turn|17
+|
+|move|p2a: Sandslash|Earthquake|p1a: Sandslash
+|-damage|p1a: Sandslash|154\/301 par
+|move|p1a: Sandslash|Earthquake|p2a: Sandslash
+|-damage|p2a: Sandslash|18\/301
+|
+|turn|18
+|
+|move|p2a: Sandslash|Earthquake|p1a: Sandslash
+|-damage|p1a: Sandslash|64\/301 par
+|cant|p1a: Sandslash|par
+|
+|turn|19
+|
+|move|p2a: Sandslash|Earthquake|p1a: Sandslash
+|-damage|p1a: Sandslash|0 fnt
+|faint|p1a: Sandslash
+|
+|switch|p1a: Persian|Persian, L79|265\/265
+|turn|20
+|
+|switch|p2a: Electabuzz|Electabuzz, L85|284\/284
+|move|p1a: Persian|Body Slam|p2a: Electabuzz
+|-damage|p2a: Electabuzz|207\/284
+|
+|turn|21
+|
+|move|p2a: Electabuzz|Thunderbolt|p1a: Persian
+|-damage|p1a: Persian|145\/265
+|move|p1a: Persian|Body Slam|p2a: Electabuzz
+|-crit|p2a: Electabuzz
+|-damage|p2a: Electabuzz|51\/284
+|
+|turn|22
+|
+|move|p2a: Electabuzz|Thunder Wave|p1a: Persian
+|-status|p1a: Persian|par
+|move|p1a: Persian|Body Slam|p2a: Electabuzz
+|-damage|p2a: Electabuzz|0 fnt
+|faint|p2a: Electabuzz
+|
+|switch|p2a: Sandslash|Sandslash, L85|18\/301
+|turn|23
+|
+|move|p2a: Sandslash|Earthquake|p1a: Persian
+|-damage|p1a: Persian|1\/265 par
+|move|p1a: Persian|Bubble Beam|p2a: Sandslash
+|-supereffective|p2a: Sandslash
+|-damage|p2a: Sandslash|0 fnt
+|faint|p2a: Sandslash
+|c|★AmnesiaLOL|yeah fuck off
+|
+|switch|p2a: Nidorino|Nidorino, L90|293\/293
+|turn|24
+|
+|move|p2a: Nidorino|Bubble Beam|p1a: Persian
+|-damage|p1a: Persian|0 fnt
+|faint|p1a: Persian
+|c|★AmnesiaLOL|luckiest person I've played in a long time
+|
+|switch|p1a: Alakazam|Alakazam, L79|249\/249
+|turn|25
+|c|★kcroxsox|Yeah things have definitely been going my way.
+|
+|move|p1a: Alakazam|Psychic|p2a: Nidorino
+|-crit|p2a: Nidorino
+|-supereffective|p2a: Nidorino
+|-damage|p2a: Nidorino|0 fnt
+|faint|p2a: Nidorino
+|
+|switch|p2a: Butterfree|Butterfree, L90|291\/291
+|turn|26
+|c|★kcroxsox|Worst I had against me was someone hitting with 7 Lovely Kisses from Jynx in a row
+|
+|move|p1a: Alakazam|Psychic|p2a: Butterfree
+|-damage|p2a: Butterfree|180\/291
+|move|p2a: Butterfree|Sleep Powder|p1a: Alakazam|[miss]
+|-miss|p2a: Butterfree
+|
+|turn|27
+|
+|move|p1a: Alakazam|Psychic|p2a: Butterfree
+|-crit|p2a: Butterfree
+|-damage|p2a: Butterfree|0 fnt
+|faint|p2a: Butterfree
+|-message|AmnesiaLOL forfeited.
+|leave|AmnesiaLOL
+|
+|win|kcroxsox
+|raw|Ladder updating...
+|player|p2
+|raw|kcroxsox's rating: 1193 &rarr; <strong>1225<\/strong><br \/>(+32 for winning)
+|raw|AmnesiaLOL's rating: 1290 &rarr; <strong>1258<\/strong><br \/>(-32 for losing)

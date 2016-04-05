@@ -1,0 +1,288 @@
+﻿|j|pazzini
+|j|LoD Hadar
+|player|p1|pazzini|114
+|player|p2|LoD Hadar|80
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|seed|55282,7483,60611,5588
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Nidoking|Nidoking|365\/365
+|switch|p2a: Ninetales|Ninetales|349\/349
+|turn|1
+|choice|move 2|switch 3
+|
+|switch|p2a: Slowbro|Slowbro|393\/393
+|move|p1a: Nidoking|Earthquake|p2a: Slowbro
+|-damage|p2a: Slowbro|295\/393
+|
+|turn|2
+|choice|move 1|move 1
+|
+|move|p1a: Nidoking|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|234\/393
+|move|p2a: Slowbro|Thunder Wave|p1a: Nidoking
+|-immune|p1a: Nidoking|[msg]
+|
+|turn|3
+|choice|switch 3|move 3
+|
+|switch|p1a: Dragonite|Dragonite|385\/385
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|4
+|choice|move 2|move 1
+|
+|move|p1a: Dragonite|Thunderbolt|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|146\/393
+|move|p2a: Slowbro|Thunder Wave|p1a: Dragonite
+|-status|p1a: Dragonite|par
+|
+|turn|5
+|choice|move 2|move 4
+|
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|-heal|p2a: Slowbro|393\/393 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|move|p1a: Dragonite|Thunderbolt|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|309\/393 slp
+|
+|turn|6
+|choice|move 2|switch 2
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Dragonite|Thunderbolt|p2a: Chansey|[miss]
+|-miss|p1a: Dragonite
+|
+|turn|7
+|choice|switch 3|move 1
+|
+|switch|p1a: Nidoking|Nidoking|365\/365
+|move|p2a: Chansey|Ice Beam|p1a: Nidoking
+|-supereffective|p1a: Nidoking
+|-damage|p1a: Nidoking|166\/365
+|
+|turn|8
+|choice|move 3|move 1
+|
+|move|p1a: Nidoking|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|603\/703
+|move|p2a: Chansey|Ice Beam|p1a: Nidoking
+|-supereffective|p1a: Nidoking
+|-damage|p1a: Nidoking|0 fnt
+|faint|p1a: Nidoking
+|choice|switch 2|
+|
+|switch|p1a: Gengar|Gengar|323\/323
+|turn|9
+|choice|move 4|move 3
+|
+|move|p1a: Gengar|Hypnosis|p2a: Chansey|[miss]
+|-miss|p1a: Gengar
+|move|p2a: Chansey|Thunder Wave|p1a: Gengar
+|-status|p1a: Gengar|par
+|
+|turn|10
+|choice|move 4|switch 2
+|
+|switch|p2a: Slowbro|Slowbro|309\/393 slp
+|move|p1a: Gengar|Hypnosis|p2a: Slowbro
+|-fail|p2a: Slowbro|slp
+|
+|turn|11
+|choice|move 2|switch 4
+|
+|switch|p2a: Golem|Golem|363\/363
+|move|p1a: Gengar|Dream Eater|p2a: Golem
+|-immune|p2a: Golem|[msg]
+|
+|turn|12
+|choice|move 3|move 1
+|
+|move|p2a: Golem|Earthquake|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|choice|switch 4|
+|
+|switch|p1a: Cloyster|Cloyster|303\/303
+|turn|13
+|choice|move 3|switch 4
+|
+|switch|p2a: Slowbro|Slowbro|309\/393 slp
+|move|p1a: Cloyster|Supersonic|p2a: Slowbro
+|-start|p2a: Slowbro|confusion
+|
+|turn|14
+|choice|move 2|switch 5
+|
+|switch|p2a: Zapdos|Zapdos|383\/383
+|move|p1a: Cloyster|Withdraw|p1a: Cloyster
+|-boost|p1a: Cloyster|def|1
+|
+|turn|15
+|choice|move 4|move 1
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|choice|switch 6|
+|
+|switch|p1a: Electabuzz|Electabuzz|333\/333
+|turn|16
+|choice|move 1|switch 3
+|
+|switch|p2a: Ninetales|Ninetales|349\/349
+|move|p1a: Electabuzz|Thunder Wave|p2a: Ninetales
+|-status|p2a: Ninetales|par
+|
+|turn|17
+|choice|move 3|switch 4
+|
+|switch|p2a: Golem|Golem|363\/363
+|move|p1a: Electabuzz|Light Screen|p1a: Electabuzz
+|-start|p1a: Electabuzz|Light Screen
+|
+|turn|18
+|choice|switch 3|move 1
+|
+|switch|p1a: Dragonite|Dragonite|385\/385 par
+|move|p2a: Golem|Earthquake|p1a: Dragonite
+|-immune|p1a: Dragonite|[msg]
+|
+|turn|19
+|choice|move 3|switch 2
+|
+|switch|p2a: Chansey|Chansey|603\/703
+|move|p1a: Dragonite|Surf|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|474\/703
+|
+|turn|20
+|choice|move 2|move 1
+|
+|move|p2a: Chansey|Ice Beam|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|57\/385 par
+|move|p1a: Dragonite|Thunderbolt|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|325\/703
+|
+|turn|21
+|choice|move 1|move 4
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|676\/703
+|move|p1a: Dragonite|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|606\/703
+|
+|turn|22
+|choice|move 4|move 1
+|
+|move|p2a: Chansey|Ice Beam|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|choice|switch 5|
+|
+|switch|p1a: Charizard|Charizard|359\/359
+|turn|23
+|choice|move 3|move 3
+|
+|move|p1a: Charizard|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|506\/703
+|move|p2a: Chansey|Thunder Wave|p1a: Charizard
+|-status|p1a: Charizard|par
+|
+|turn|24
+|choice|move 4|move 2
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|199\/359 par
+|cant|p1a: Charizard|par
+|
+|turn|25
+|choice|move 2|move 2
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|16\/359 par
+|move|p1a: Charizard|Earthquake|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|161\/703
+|
+|turn|26
+|choice|switch 3|move 4
+|
+|switch|p1a: Electabuzz|Electabuzz|333\/333
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|512\/703
+|
+|turn|27
+|choice|move 1|move 3
+|
+|move|p1a: Electabuzz|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Electabuzz
+|-status|p1a: Electabuzz|par
+|
+|turn|28
+|choice|move 4|switch 2
+|
+|switch|p2a: Golem|Golem|363\/363
+|move|p1a: Electabuzz|Psychic|p2a: Golem
+|-damage|p2a: Golem|265\/363
+|-unboost|p2a: Golem|spd|1
+|-unboost|p2a: Golem|spa|1
+|
+|turn|29
+|choice|switch 3|move 1
+|
+|switch|p1a: Charizard|Charizard|16\/359 par
+|move|p2a: Golem|Earthquake|p1a: Charizard
+|-immune|p1a: Charizard|[msg]
+|
+|turn|30
+|choice|move 3|move 3
+|
+|move|p2a: Golem|Body Slam|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|choice|switch 3|
+|
+|switch|p1a: Electabuzz|Electabuzz|333\/333 par
+|turn|31
+|choice|move 1|move 1
+|
+|move|p2a: Golem|Earthquake|p1a: Electabuzz
+|-supereffective|p1a: Electabuzz
+|-damage|p1a: Electabuzz|6\/333 par
+|cant|p1a: Electabuzz|par
+|
+|turn|32
+|choice|move 4|move 3
+|
+|move|p2a: Golem|Body Slam|p1a: Electabuzz
+|-damage|p1a: Electabuzz|0 fnt
+|faint|p1a: Electabuzz
+|
+|win|LoD Hadar
+|player|p1
+|player|p2
+|raw|pazzini's rating: 1000 &rarr; <strong>1000<\/strong><br \/>(+0 for losing)
+|raw|LoD Hadar's rating: 1246 &rarr; <strong>1256<\/strong><br \/>(+10 for winning)

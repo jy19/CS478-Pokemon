@@ -1,0 +1,510 @@
+﻿|J|KristophV
+|J|Disaster Area
+|player|p1|KristophV|kristophv.png
+|player|p2|Disaster Area|32
+|gametype|singles
+|gen|1
+|tier|Violet Version
+|clearpoke
+|poke|p1|Tangela
+|poke|p1|Dragonite
+|poke|p1|Gengar
+|poke|p1|Cloyster
+|poke|p1|Hypno
+|poke|p1|Aerodactyl
+|poke|p2|Gengar
+|poke|p2|Butterfree
+|poke|p2|Golem
+|poke|p2|Snorlax
+|poke|p2|Flareon
+|poke|p2|Gyarados
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|c|★Disaster Area|also looks like it took me on average
+|c|★Disaster Area|20 minutes per team yesterday
+|c|★Disaster Area|not bad :]
+|c|★Disaster Area|gl hf
+|c|★KristophV|you too
+|
+|start
+|switch|p1a: Gengar|Gengar|323\/323
+|switch|p2a: Butterfree|Butterfree|343\/343
+|turn|1
+|
+|move|p1a: Gengar|Hypnosis|p2a: Butterfree|[miss]
+|-miss|p1a: Gengar
+|move|p2a: Butterfree|Sleep Powder|p1a: Gengar|[miss]
+|-miss|p2a: Butterfree
+|
+|turn|2
+|
+|move|p1a: Gengar|Hypnosis|p2a: Butterfree
+|-status|p2a: Butterfree|slp
+|cant|p2a: Butterfree|slp
+|
+|turn|3
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Gengar|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|418\/523
+|
+|turn|4
+|
+|switch|p1a: Tangela|Tangela|373\/373
+|move|p2a: Snorlax|Earthquake|p1a: Tangela
+|-resisted|p1a: Tangela
+|-damage|p1a: Tangela|335\/373
+|
+|turn|5
+|
+|switch|p2a: Flareon|Flareon|433\/433
+|move|p1a: Tangela|Bind|p2a: Flareon
+|-resisted|p2a: Flareon
+|-damage|p2a: Flareon|421\/433
+|-activate|p2a: Flareon|move: Bind|[of] p1a: Tangela
+|
+|turn|6
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|switch|p1a: Aerodactyl|Aerodactyl|363\/363
+|
+|turn|7
+|
+|switch|p1a: Gengar|Gengar|323\/323
+|switch|p2a: Golem|Golem|363\/363
+|
+|turn|8
+|
+|switch|p1a: Tangela|Tangela|335\/373
+|switch|p2a: Flareon|Flareon|421\/433
+|
+|turn|9
+|
+|switch|p1a: Aerodactyl|Aerodactyl|363\/363
+|move|p2a: Flareon|Fire Blast|p1a: Aerodactyl
+|-resisted|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|258\/363
+|
+|turn|10
+|
+|switch|p1a: Cloyster|Cloyster|303\/303
+|switch|p2a: Golem|Golem|363\/363
+|
+|turn|11
+|
+|switch|p2a: Gyarados|Gyarados|393\/393
+|move|p1a: Cloyster|Toxic|p2a: Gyarados
+|-status|p2a: Gyarados|tox
+|
+|turn|12
+|
+|switch|p1a: Tangela|Tangela|335\/373
+|move|p2a: Gyarados|Thunderbolt|p1a: Tangela
+|-resisted|p1a: Tangela
+|-damage|p1a: Tangela|299\/373
+|-damage|p2a: Gyarados|369\/393 tox|[from] tox|[of] p1a: Tangela
+|
+|turn|13
+|
+|switch|p2a: Flareon|Flareon|421\/433
+|move|p1a: Tangela|Toxic|p2a: Flareon
+|-status|p2a: Flareon|tox
+|
+|turn|14
+|
+|switch|p1a: Hypno|Hypno|373\/373
+|move|p2a: Flareon|Mimic|p1a: Hypno
+|-start|p2a: Flareon|Mimic|Dream Eater
+|-damage|p2a: Flareon|394\/433 tox|[from] tox|[of] p1a: Hypno
+|
+|turn|15
+|c|★Disaster Area|i forgot it learnt that tbh..
+|c|★KristophV|hahahahaha nooo
+|
+|switch|p2a: Snorlax|Snorlax|418\/523
+|move|p1a: Hypno|Psychic|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|120\/523
+|
+|turn|16
+|
+|move|p1a: Hypno|Psychic|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|c|★Disaster Area|x_x
+|c|★Disaster Area|poor lax
+|c|★Disaster Area|lol
+|
+|switch|p2a: Gyarados|Gyarados|369\/393 tox
+|-status|p2a: Gyarados|psn
+|turn|17
+|
+|move|p2a: Gyarados|Tri Attack|p1a: Hypno
+|-supereffective|p1a: Hypno
+|-damage|p1a: Hypno|195\/373
+|-status|p1a: Hypno|frz
+|-damage|p2a: Gyarados|345\/393 psn|[from] psn|[of] p1a: Hypno
+|cant|p1a: Hypno|frz
+|
+|turn|18
+|c|★KristophV|no
+|c|★Disaster Area|YES
+|c|★KristophV|noooo
+|c|★Disaster Area|YEEEEEEEEEEEEES
+|c|★KristophV|why god
+|c|★Disaster Area|ill prolly
+|c|★Disaster Area|still lose tbh
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|switch|p1a: Tangela|Tangela|299\/373
+|
+|turn|19
+|
+|move|p2a: Gengar|Toxic|p1a: Tangela
+|-status|p1a: Tangela|tox
+|move|p1a: Tangela|Disable|p2a: Gengar
+|-start|p2a: Gengar|Disable|Toxic
+|-damage|p1a: Tangela|276\/373 tox|[from] tox|[of] p2a: Gengar
+|
+|turn|20
+|c|★KristophV|loll
+|
+|switch|p2a: Flareon|Flareon|394\/433 tox
+|-status|p2a: Flareon|psn
+|-damage|p2a: Flareon|367\/433 psn|[from] psn
+|move|p1a: Tangela|Disable|p2a: Flareon
+|-start|p2a: Flareon|Disable|Rest
+|-damage|p1a: Tangela|230\/373 tox|[from] tox|[of] p2a: Flareon
+|
+|turn|21
+|
+|switch|p1a: Gengar|Gengar|323\/323
+|move|p2a: Flareon|Body Slam|p1a: Gengar
+|-immune|p1a: Gengar|[msg]
+|-damage|p2a: Flareon|340\/433 psn|[from] psn|[of] p1a: Gengar
+|
+|turn|22
+|
+|switch|p2a: Golem|Golem|363\/363
+|move|p1a: Gengar|Psychic|p2a: Golem
+|-damage|p2a: Golem|249\/363
+|-unboost|p2a: Golem|spd|1
+|-unboost|p2a: Golem|spa|1
+|
+|turn|23
+|
+|switch|p1a: Cloyster|Cloyster|303\/303
+|move|p2a: Golem|Earthquake|p1a: Cloyster
+|-damage|p1a: Cloyster|215\/303
+|
+|turn|24
+|
+|switch|p2a: Gyarados|Gyarados|345\/393 psn
+|-damage|p2a: Gyarados|321\/393 psn|[from] psn
+|move|p1a: Cloyster|Clamp|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|285\/393 psn
+|-activate|p2a: Gyarados|move: Clamp|[of] p1a: Cloyster
+|
+|turn|25
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|switch|p1a: Aerodactyl|Aerodactyl|258\/363
+|
+|turn|26
+|
+|move|p1a: Aerodactyl|Rock Slide|p2a: Gengar
+|-damage|p2a: Gengar|184\/323
+|move|p2a: Gengar|Toxic|p1a: Aerodactyl
+|-status|p1a: Aerodactyl|tox
+|
+|turn|27
+|
+|switch|p1a: Hypno|Hypno|195\/373 frz
+|switch|p2a: Golem|Golem|249\/363
+|
+|turn|28
+|
+|switch|p1a: Tangela|Tangela|230\/373 tox
+|-status|p1a: Tangela|psn
+|-damage|p1a: Tangela|207\/373 psn|[from] psn
+|move|p2a: Golem|Toxic|p1a: Tangela
+|-fail|p1a: Tangela
+|
+|turn|29
+|
+|switch|p2a: Butterfree|Butterfree|343\/343 slp
+|move|p1a: Tangela|Mega Drain|p2a: Butterfree
+|-resisted|p2a: Butterfree
+|-damage|p2a: Butterfree|320\/343 slp
+|-heal|p1a: Tangela|230\/373 psn|[from] drain|[of] p2a: Butterfree
+|-damage|p1a: Tangela|207\/373 psn|[from] psn|[of] p2a: Butterfree
+|
+|turn|30
+|
+|-curestatus|p2a: Butterfree|slp
+|move|p1a: Tangela|Bind|p2a: Butterfree
+|-crit|p2a: Butterfree
+|-supereffective|p2a: Butterfree
+|-damage|p2a: Butterfree|204\/343
+|-activate|p2a: Butterfree|move: Bind|[of] p1a: Tangela
+|-damage|p1a: Tangela|184\/373 psn|[from] psn|[of] p2a: Butterfree
+|
+|turn|31
+|
+|switch|p2a: Gengar|Gengar|184\/323
+|move|p1a: Tangela|Bind|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|177\/323
+|-activate|p2a: Gengar|move: Bind|[of] p1a: Tangela
+|-damage|p1a: Tangela|161\/373 psn|[from] psn|[of] p2a: Gengar
+|
+|turn|32
+|
+|switch|p2a: Flareon|Flareon|340\/433 psn
+|-damage|p2a: Flareon|313\/433 psn|[from] psn
+|move|p1a: Tangela|Bind|p2a: Flareon|[miss]
+|-miss|p1a: Tangela
+|-damage|p1a: Tangela|138\/373 psn|[from] psn|[of] p2a: Flareon
+|
+|turn|33
+|c|★Disaster Area|this is intense now
+|
+|switch|p1a: Gengar|Gengar|323\/323
+|move|p2a: Flareon|Fire Blast|p1a: Gengar|[miss]
+|-miss|p2a: Flareon
+|-damage|p2a: Flareon|286\/433 psn|[from] psn|[of] p1a: Gengar
+|
+|turn|34
+|
+|move|p1a: Gengar|Hypnosis|p2a: Flareon
+|-fail|p2a: Flareon
+|move|p2a: Flareon|Fire Blast|p1a: Gengar
+|-damage|p1a: Gengar|192\/323
+|-damage|p2a: Flareon|259\/433 psn|[from] psn|[of] p1a: Gengar
+|
+|turn|35
+|
+|switch|p1a: Aerodactyl|Aerodactyl|258\/363 tox
+|-status|p1a: Aerodactyl|psn
+|-damage|p1a: Aerodactyl|236\/363 psn|[from] psn
+|move|p2a: Flareon|Fire Blast|p1a: Aerodactyl
+|-resisted|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|131\/363 psn
+|-damage|p2a: Flareon|232\/433 psn|[from] psn|[of] p1a: Aerodactyl
+|
+|turn|36
+|
+|switch|p2a: Golem|Golem|249\/363
+|move|p1a: Aerodactyl|Soft-Boiled|p1a: Aerodactyl
+|-heal|p1a: Aerodactyl|312\/363 psn
+|-damage|p1a: Aerodactyl|290\/363 psn|[from] psn
+|
+|turn|37
+|
+|switch|p1a: Tangela|Tangela|138\/373 psn
+|-damage|p1a: Tangela|115\/373 psn|[from] psn
+|move|p2a: Golem|Rock Slide|p1a: Tangela|[miss]
+|-miss|p2a: Golem
+|
+|turn|38
+|
+|switch|p2a: Gengar|Gengar|177\/323
+|move|p1a: Tangela|Bind|p2a: Gengar
+|-crit|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|163\/323
+|-activate|p2a: Gengar|move: Bind|[of] p1a: Tangela
+|-damage|p1a: Tangela|92\/373 psn|[from] psn|[of] p2a: Gengar
+|
+|turn|39
+|c|★Disaster Area|how do you feel about
+|c|★Disaster Area|tangela now?
+|c|★Disaster Area|was I right in suggesting it would make
+|c|★Disaster Area|a good addition?
+|c|★KristophV|yeah
+|c|★Disaster Area|:]
+|
+|switch|p1a: Aerodactyl|Aerodactyl|290\/363 psn
+|-damage|p1a: Aerodactyl|268\/363 psn|[from] psn
+|cant|p2a: Gengar|partiallytrapped
+|
+|-end|p2a: Gengar|Bind|[partiallytrapped]
+|turn|40
+|c|★Disaster Area|this match is pretty insane.
+|
+|switch|p2a: Golem|Golem|249\/363
+|move|p1a: Aerodactyl|Sky Attack|p2a: Golem|[still]
+|-prepare|p1a: Aerodactyl|Sky Attack|p2a: Golem
+|-boost|p1a: Aerodactyl|def|1
+|-damage|p1a: Aerodactyl|246\/363 psn|[from] psn|[of] p2a: Golem
+|
+|turn|41
+|
+|move|p1a: Aerodactyl|Sky Attack|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|184\/363
+|-damage|p1a: Aerodactyl|224\/363 psn|[from] psn|[of] p2a: Golem
+|move|p2a: Golem|Rock Slide|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|29\/363 psn
+|
+|turn|42
+|
+|move|p1a: Aerodactyl|Rock Slide|p2a: Golem
+|-crit|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|95\/363
+|-damage|p1a: Aerodactyl|7\/363 psn|[from] psn|[of] p2a: Golem
+|move|p2a: Golem|Rock Slide|p1a: Aerodactyl
+|-crit|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|0 fnt
+|faint|p1a: Aerodactyl
+|
+|switch|p1a: Dragonite|Dragonite|385\/385
+|turn|43
+|
+|switch|p1a: Cloyster|Cloyster|215\/303
+|move|p2a: Golem|Toxic|p1a: Cloyster
+|-status|p1a: Cloyster|tox
+|
+|turn|44
+|c|★Disaster Area|!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+|
+|switch|p2a: Gyarados|Gyarados|285\/393 psn
+|-damage|p2a: Gyarados|261\/393 psn|[from] psn
+|move|p1a: Cloyster|Blizzard|p2a: Gyarados
+|-damage|p2a: Gyarados|124\/393 psn
+|-damage|p1a: Cloyster|197\/303 tox|[from] tox|[of] p2a: Gyarados
+|
+|turn|45
+|c|★Disaster Area|u should make a vid
+|c|★Disaster Area|of this match
+|c|★Disaster Area|yy
+|c|★KristophV|possibly!  
+|
+|move|p2a: Gyarados|Thunderbolt|p1a: Cloyster
+|-crit|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|switch|p1a: Gengar|Gengar|192\/323
+|turn|46
+|
+|move|p1a: Gengar|Psychic|p2a: Gyarados
+|-damage|p2a: Gyarados|32\/393 psn
+|move|p2a: Gyarados|Tri Attack|p1a: Gengar
+|-crit|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|c|★Disaster Area|that was a sack
+|c|★Disaster Area|x_x
+|
+|switch|p1a: Dragonite|Dragonite|385\/385
+|turn|47
+|
+|move|p2a: Gyarados|Tri Attack|p1a: Dragonite
+|-damage|p1a: Dragonite|307\/385
+|-damage|p2a: Gyarados|8\/393 psn|[from] psn|[of] p1a: Dragonite
+|move|p1a: Dragonite|Agility|p1a: Dragonite
+|-boost|p1a: Dragonite|spe|2
+|
+|turn|48
+|
+|move|p1a: Dragonite|Wrap|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|switch|p2a: Gengar|Gengar|163\/323
+|turn|49
+|
+|move|p1a: Dragonite|Thrash|p2a: Gengar
+|-damage|p2a: Gengar|62\/323
+|move|p2a: Gengar|Toxic|p1a: Dragonite
+|-status|p1a: Dragonite|tox
+|
+|turn|50
+|
+|switch|p2a: Golem|Golem|95\/363
+|move|p1a: Dragonite|Thrash|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|-start|p1a: Dragonite|confusion|[silent]
+|faint|p2a: Golem
+|
+|switch|p2a: Butterfree|Butterfree|204\/343
+|turn|51
+|
+|-activate|p1a: Dragonite|confusion
+|-damage|p1a: Dragonite|263\/385 tox|[from] confusion
+|-damage|p1a: Dragonite|239\/385 tox|[from] tox|[of] p2a: Butterfree
+|move|p2a: Butterfree|Psychic|p1a: Dragonite
+|-damage|p1a: Dragonite|132\/385 tox
+|-unboost|p1a: Dragonite|spd|1
+|-unboost|p1a: Dragonite|spa|1
+|
+|turn|52
+|
+|switch|p1a: Tangela|Tangela|92\/373 psn
+|-damage|p1a: Tangela|69\/373 psn|[from] psn
+|move|p2a: Butterfree|Psychic|p1a: Tangela
+|-damage|p1a: Tangela|0 fnt
+|faint|p1a: Tangela
+|c|★Disaster Area|gg
+|
+|switch|p1a: Dragonite|Dragonite|132\/385 tox
+|-status|p1a: Dragonite|psn
+|turn|53
+|
+|move|p1a: Dragonite|Hyper Beam|p2a: Butterfree
+|-damage|p2a: Butterfree|22\/343
+|-damage|p1a: Dragonite|108\/385 psn|[from] psn|[of] p2a: Butterfree
+|move|p2a: Butterfree|Psychic|p1a: Dragonite
+|-damage|p1a: Dragonite|8\/385 psn
+|
+|turn|54
+|-mustrecharge|p1a: Dragonite
+|-mustrecharge|p1a: Dragonite
+|
+|move|p2a: Butterfree|Leech Life|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|-heal|p2a: Butterfree|30\/343|[from] drain|[of] p1a: Dragonite
+|faint|p1a: Dragonite
+|
+|switch|p1a: Hypno|Hypno|195\/373 frz
+|turn|55
+|c|★Disaster Area|also i was running
+|c|★Disaster Area|a pretty kooky gar
+|c|★Disaster Area|mega drain psychic toxic dream eater
+|c|★Disaster Area|:]
+|
+|move|p2a: Butterfree|Leech Life|p1a: Hypno
+|-supereffective|p1a: Hypno
+|-damage|p1a: Hypno|77\/373 frz
+|-heal|p2a: Butterfree|148\/343|[from] drain|[of] p1a: Hypno
+|cant|p1a: Hypno|frz
+|
+|turn|56
+|
+|move|p2a: Butterfree|Leech Life|p1a: Hypno
+|-supereffective|p1a: Hypno
+|-damage|p1a: Hypno|0 fnt
+|-heal|p2a: Butterfree|225\/343|[from] drain|[of] p1a: Hypno
+|faint|p1a: Hypno
+|
+|win|Disaster Area
+|c|★KristophV|gg
+|c|★Disaster Area|think I stole that game
+|c|★Disaster Area|from you
+|c|★Disaster Area|gg
+|L|KristophV
+|player|p1

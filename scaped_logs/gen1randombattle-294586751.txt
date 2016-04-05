@@ -1,0 +1,262 @@
+﻿|join|MALESANI
+|join|paolo.bassi
+|player|p1|MALESANI|238
+|player|p2|paolo.bassi|169
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|50414,45902,38321,59746
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Dragonite|Dragonite, L85|328\/328
+|switch|p2a: Poliwag|Poliwag, L96|272\/272
+|turn|1
+|choice|move 3|move 4
+|
+|move|p2a: Poliwag|Hypnosis|p1a: Dragonite|[miss]
+|-miss|p2a: Poliwag
+|move|p1a: Dragonite|Thunder|p2a: Poliwag
+|-supereffective|p2a: Poliwag
+|-damage|p2a: Poliwag|19\/272
+|
+|turn|2
+|choice|switch 5|move 4
+|
+|switch|p1a: Dewgong|Dewgong, L85|327\/327
+|move|p2a: Poliwag|Hypnosis|p1a: Dewgong
+|-status|p1a: Dewgong|slp
+|
+|turn|3
+|choice|switch 4|move 1
+|
+|switch|p1a: Jolteon|Jolteon, L79|265\/265
+|move|p2a: Poliwag|Amnesia|p2a: Poliwag
+|-boost|p2a: Poliwag|spd|2
+|-boost|p2a: Poliwag|spa|2
+|
+|turn|4
+|choice|move 2|switch 2
+|
+|switch|p2a: Bellsprout|Bellsprout, L96|291\/291
+|move|p1a: Jolteon|Double Kick|p2a: Bellsprout
+|-crit|p2a: Bellsprout
+|-resisted|p2a: Bellsprout
+|-damage|p2a: Bellsprout|272\/291
+|-damage|p2a: Bellsprout|253\/291
+|-hitcount|p2a: Bellsprout|2
+|
+|turn|5
+|choice|switch 5|move 2
+|
+|switch|p1a: Dragonite|Dragonite, L85|328\/328
+|move|p2a: Bellsprout|Body Slam|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-damage|p1a: Dragonite|211\/328
+|-status|p1a: Dragonite|par
+|
+|turn|6
+|choice|move 4|move 2
+|
+|move|p2a: Bellsprout|Body Slam|p1a: Dragonite
+|-damage|p1a: Dragonite|145\/328 par
+|move|p1a: Dragonite|Blizzard|p2a: Bellsprout
+|-supereffective|p2a: Bellsprout
+|-damage|p2a: Bellsprout|84\/291
+|
+|turn|7
+|choice|move 1|move 2
+|
+|move|p2a: Bellsprout|Body Slam|p1a: Dragonite
+|-damage|p1a: Dragonite|83\/328 par
+|move|p1a: Dragonite|Body Slam|p2a: Bellsprout
+|-damage|p2a: Bellsprout|0 fnt
+|faint|p2a: Bellsprout
+|choice||switch 4
+|
+|switch|p2a: Raichu|Raichu, L85|276\/276
+|turn|8
+|choice|move 1|move 4
+|
+|move|p2a: Raichu|Thunder|p1a: Dragonite|[miss]
+|-miss|p2a: Raichu
+|move|p1a: Dragonite|Body Slam|p2a: Raichu
+|-damage|p2a: Raichu|177\/276
+|
+|turn|9
+|choice|move 1|move 4
+|
+|move|p2a: Raichu|Thunder|p1a: Dragonite|[miss]
+|-miss|p2a: Raichu
+|move|p1a: Dragonite|Body Slam|p2a: Raichu
+|-damage|p2a: Raichu|76\/276
+|
+|turn|10
+|choice|move 1|move 4
+|
+|move|p2a: Raichu|Thunder|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|choice|switch 6|
+|
+|switch|p1a: Mr. Mime|Mr. Mime, L85|242\/242
+|turn|11
+|choice|move 1|move 4
+|
+|move|p2a: Raichu|Thunder|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|128\/242
+|move|p1a: Mr. Mime|Psychic|p2a: Raichu
+|-damage|p2a: Raichu|0 fnt
+|faint|p2a: Raichu
+|choice||switch 2
+|
+|switch|p2a: Poliwag|Poliwag, L96|19\/272
+|turn|12
+|choice|move 3|move 3
+|
+|move|p2a: Poliwag|Surf|p1a: Mr. Mime
+|-crit|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|0 fnt
+|faint|p1a: Mr. Mime
+|choice|switch 5|
+|
+|switch|p1a: Jolteon|Jolteon, L79|265\/265
+|turn|13
+|choice|move 2|move 3
+|
+|move|p1a: Jolteon|Double Kick|p2a: Poliwag
+|-damage|p2a: Poliwag|1\/272
+|-damage|p2a: Poliwag|0 fnt
+|-hitcount|p2a: Poliwag|2
+|faint|p2a: Poliwag
+|choice||switch 3
+|
+|switch|p2a: Kadabra|Kadabra, L85|242\/242
+|turn|14
+|choice|move 4|move 1
+|
+|move|p1a: Jolteon|Thunder Wave|p2a: Kadabra
+|-status|p2a: Kadabra|par
+|cant|p2a: Kadabra|par
+|
+|turn|15
+|choice|move 1|move 1
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Kadabra
+|-damage|p2a: Kadabra|167\/242 par
+|cant|p2a: Kadabra|par
+|
+|turn|16
+|choice|move 1|move 3
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Kadabra
+|-damage|p2a: Kadabra|95\/242 par
+|move|p2a: Kadabra|Recover|p2a: Kadabra
+|-heal|p2a: Kadabra|216\/242 par
+|
+|turn|17
+|choice|move 1|move 1
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Kadabra
+|-damage|p2a: Kadabra|132\/242 par
+|move|p2a: Kadabra|Psychic|p1a: Jolteon
+|-damage|p1a: Jolteon|166\/265
+|
+|turn|18
+|choice|move 1|move 3
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Kadabra
+|-damage|p2a: Kadabra|52\/242 par
+|move|p2a: Kadabra|Recover|p2a: Kadabra
+|-heal|p2a: Kadabra|173\/242 par
+|
+|turn|19
+|choice|move 1|move 1
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Kadabra
+|-damage|p2a: Kadabra|96\/242 par
+|move|p2a: Kadabra|Psychic|p1a: Jolteon
+|-damage|p1a: Jolteon|59\/265
+|
+|turn|20
+|choice|move 1|move 1
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Kadabra
+|-damage|p2a: Kadabra|14\/242 par
+|move|p2a: Kadabra|Psychic|p1a: Jolteon
+|-crit|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|choice|switch 2|
+|
+|switch|p1a: Flareon|Flareon, L90|300\/300
+|turn|21
+|choice|move 2|move 1
+|
+|move|p1a: Flareon|Body Slam|p2a: Kadabra
+|-damage|p2a: Kadabra|0 fnt
+|faint|p2a: Kadabra
+|choice||switch 5
+|
+|switch|p2a: Hitmonchan|Hitmonchan, L90|273\/273
+|turn|22
+|choice|move 3|move 3
+|
+|move|p2a: Hitmonchan|Body Slam|p1a: Flareon
+|-damage|p1a: Flareon|216\/300
+|move|p1a: Flareon|Fire Blast|p2a: Hitmonchan|[miss]
+|-miss|p1a: Flareon
+|
+|turn|23
+|choice|move 3|move 1
+|
+|move|p2a: Hitmonchan|Submission|p1a: Flareon
+|-damage|p1a: Flareon|88\/300
+|-damage|p2a: Hitmonchan|241\/273|[from] recoil|[of] p1a: Flareon
+|move|p1a: Flareon|Fire Blast|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|16\/273
+|
+|turn|24
+|choice|move 1|move 1
+|
+|move|p1a: Flareon|Quick Attack|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|0 fnt
+|faint|p2a: Hitmonchan
+|choice||switch 6
+|
+|switch|p2a: Butterfree|Butterfree, L90|291\/291
+|turn|25
+|choice|switch 3|move 1
+|
+|switch|p1a: Graveler|Graveler, L85|267\/267
+|move|p2a: Butterfree|Psychic|p1a: Graveler
+|-crit|p1a: Graveler
+|-damage|p1a: Graveler|76\/267
+|-unboost|p1a: Graveler|spd|1
+|-unboost|p1a: Graveler|spa|1
+|
+|turn|26
+|choice|move 2|move 1
+|
+|move|p2a: Butterfree|Psychic|p1a: Graveler
+|-damage|p1a: Graveler|0 fnt
+|faint|p1a: Graveler
+|choice|switch 3|
+|
+|switch|p1a: Flareon|Flareon, L90|88\/300
+|turn|27
+|choice|move 3|move 1
+|
+|move|p2a: Butterfree|Psychic|p1a: Flareon
+|-damage|p1a: Flareon|34\/300
+|move|p1a: Flareon|Fire Blast|p2a: Butterfree
+|-supereffective|p2a: Butterfree
+|-damage|p2a: Butterfree|0 fnt
+|faint|p2a: Butterfree
+|
+|win|MALESANI
+|raw|MALESANI's rating: 1309 &rarr; <strong>1330<\/strong><br \/>(+21 for winning)
+|raw|paolo.bassi's rating: 1323 &rarr; <strong>1303<\/strong><br \/>(-20 for losing)

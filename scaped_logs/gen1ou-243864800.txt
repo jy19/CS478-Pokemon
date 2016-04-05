@@ -1,0 +1,419 @@
+﻿|join|qsns
+|join|Austin
+|player|p1|qsns|190
+|player|p2|Austin|164
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gengar|Gengar|323\/323
+|switch|p2a: Candy|Starmie|323\/323
+|turn|1
+|
+|switch|p2a: Eggs|Chansey|703\/703
+|switch|p1a: Chansey|Chansey|703\/703
+|
+|turn|2
+|
+|move|p1a: Chansey|Ice Beam|p2a: Eggs
+|-damage|p2a: Eggs|626\/703
+|move|p2a: Eggs|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|turn|3
+|
+|switch|p2a: Cookie|Golem|363\/363
+|move|p1a: Chansey|Ice Beam|p2a: Cookie
+|-supereffective|p2a: Cookie
+|-damage|p2a: Cookie|126\/363
+|
+|turn|4
+|c|★Austin|>'
+|c|★qsns|you lost the chansey freeze war already
+|
+|switch|p2a: Cake|Lapras|463\/463
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|
+|turn|5
+|
+|switch|p1a: Chansey|Chansey|703\/703 par
+|move|p2a: Cake|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|570\/703 par
+|
+|turn|6
+|
+|move|p2a: Cake|Confuse Ray|p1a: Chansey
+|-start|p1a: Chansey|confusion
+|cant|p1a: Chansey|par
+|
+|turn|7
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|move|p2a: Cake|Body Slam|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|125\/313
+|-status|p1a: Alakazam|par
+|
+|turn|8
+|c|★qsns|lol
+|
+|switch|p1a: Chansey|Chansey|570\/703 par
+|move|p2a: Cake|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|397\/703 par
+|
+|turn|9
+|c|★Austin|lol
+|
+|move|p2a: Cake|Confuse Ray|p1a: Chansey
+|-start|p1a: Chansey|confusion
+|cant|p1a: Chansey|par
+|
+|turn|10
+|c|★qsns|i hate this thing
+|
+|move|p2a: Cake|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|240\/703 par
+|cant|p1a: Chansey|par
+|
+|turn|11
+|c|★qsns|holy fuck please no
+|c|★Austin|:P
+|
+|switch|p1a: Gengar|Gengar|323\/323
+|move|p2a: Cake|Body Slam|p1a: Gengar
+|-immune|p1a: Gengar|[msg]
+|
+|turn|12
+|
+|switch|p2a: Eggs|Chansey|626\/703
+|move|p1a: Gengar|Hypnosis|p2a: Eggs
+|-status|p2a: Eggs|slp
+|
+|turn|13
+|
+|switch|p1a: Chansey|Chansey|240\/703 par
+|switch|p2a: Ice Cream|Exeggutor|393\/393
+|
+|turn|14
+|
+|move|p2a: Ice Cream|Egg Bomb|p1a: Chansey|[miss]
+|-miss|p2a: Ice Cream
+|cant|p1a: Chansey|par
+|
+|turn|15
+|c|★qsns|oh hey
+|c|★qsns|i know this rmt
+|c|★qsns|this was the first rby team i used
+|
+|move|p2a: Ice Cream|Egg Bomb|p1a: Chansey|[miss]
+|-miss|p2a: Ice Cream
+|cant|p1a: Chansey|par
+|
+|turn|16
+|c|★Austin|:
+|c|★Austin|[
+|c|★qsns|:
+|c|★qsns|[
+|
+|switch|p1a: Gengar|Gengar|323\/323
+|move|p2a: Ice Cream|Egg Bomb|p1a: Gengar
+|-immune|p1a: Gengar|[msg]
+|
+|turn|17
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Ice Cream|Sleep Powder|p1a: Exeggutor
+|-status|p1a: Exeggutor|slp
+|
+|turn|18
+|
+|move|p2a: Ice Cream|Egg Bomb|p1a: Exeggutor
+|-damage|p1a: Exeggutor|304\/393 slp
+|cant|p1a: Exeggutor|slp
+|
+|turn|19
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|switch|p2a: Cake|Lapras|463\/463
+|
+|turn|20
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Cake
+|-status|p2a: Cake|par
+|move|p2a: Cake|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|186\/323
+|
+|turn|21
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Cake
+|-supereffective|p2a: Cake
+|-damage|p2a: Cake|311\/463 par
+|cant|p2a: Cake|par
+|
+|turn|22
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Cake
+|-supereffective|p2a: Cake
+|-damage|p2a: Cake|163\/463 par
+|cant|p2a: Cake|par
+|
+|turn|23
+|c|★qsns|ayo
+|c|★Austin|lol
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Cake
+|-supereffective|p2a: Cake
+|-damage|p2a: Cake|10\/463 par
+|cant|p2a: Cake|par
+|
+|turn|24
+|c|★qsns|lmao
+|c|★Austin|ooo
+|c|★qsns|i <3 rby
+|
+|switch|p2a: Cookie|Golem|126\/363
+|move|p1a: Starmie|Thunderbolt|p2a: Cookie
+|-immune|p2a: Cookie|[msg]
+|
+|turn|25
+|
+|switch|p2a: Cake|Lapras|10\/463 par
+|move|p1a: Starmie|Ice Beam|p2a: Cake
+|-crit|p2a: Cake
+|-resisted|p2a: Cake
+|-damage|p2a: Cake|0 fnt
+|faint|p2a: Cake
+|c|★qsns|nice pp waste
+|c|★Austin|playzzzzzz
+|c|★qsns|you got me
+|
+|switch|p2a: Candy|Starmie|323\/323
+|turn|26
+|
+|switch|p1a: Chansey|Chansey|240\/703 par
+|move|p2a: Candy|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|168\/703 par
+|
+|turn|27
+|
+|switch|p2a: Cookie|Golem|126\/363
+|cant|p1a: Chansey|par
+|
+|turn|28
+|c|★qsns|motherfucker
+|
+|switch|p1a: Exeggutor|Exeggutor|304\/393 slp
+|move|p2a: Cookie|Earthquake|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|238\/393 slp
+|
+|turn|29
+|join|deoxys speed lol
+|
+|switch|p2a: Candy|Starmie|323\/323
+|cant|p1a: Exeggutor|slp
+|
+|turn|30
+|
+|move|p2a: Candy|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|75\/393 slp
+|cant|p1a: Exeggutor|slp
+|
+|turn|31
+|
+|move|p2a: Candy|Thunderbolt|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|43\/393 slp
+|cant|p1a: Exeggutor|slp
+|
+|turn|32
+|
+|move|p2a: Candy|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|c|★qsns|fuck eggy
+|c|★Austin|:6
+|
+|switch|p1a: Gengar|Gengar|323\/323
+|turn|33
+|
+|switch|p2a: Ice Cream|Exeggutor|393\/393
+|move|p1a: Gengar|Explosion|p2a: Ice Cream
+|-damage|p2a: Ice Cream|167\/393
+|faint|p1a: Gengar
+|c|★Austin|o
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|34
+|
+|move|p1a: Tauros|Blizzard|p2a: Ice Cream|[miss]
+|-miss|p1a: Tauros
+|move|p2a: Ice Cream|Explosion|p1a: Tauros
+|-damage|p1a: Tauros|76\/353
+|faint|p2a: Ice Cream
+|c|★qsns|i love pokemon
+|c|★Austin|really
+|c|★Austin|you too
+|c|★Austin|?
+|c|★qsns|;_;
+|
+|switch|p2a: Candy|Starmie|323\/323
+|turn|35
+|
+|switch|p1a: Chansey|Chansey|168\/703 par
+|move|p2a: Candy|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|68\/703 par
+|
+|turn|36
+|c|★qsns|miss
+|c|★qsns|1\/256 mofo
+|
+|move|p2a: Candy|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|c|★qsns|fucking
+|c|★qsns|haxed
+|
+|switch|p1a: Starmie|Starmie|186\/323
+|turn|37
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Candy
+|-status|p2a: Candy|par
+|move|p2a: Candy|Thunderbolt|p1a: Starmie|[miss]
+|-miss|p2a: Candy
+|
+|turn|38
+|c|★qsns|ayo
+|c|★Austin|you
+|c|★Austin|ae
+|c|★Austin|joking
+|
+|switch|p2a: Eggs|Chansey|626\/703 slp
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|323\/323
+|
+|turn|39
+|
+|switch|p1a: Alakazam|Alakazam|125\/313 par
+|cant|p2a: Eggs|slp
+|
+|turn|40
+|c|★qsns|freeeeeeeeeeeeeee
+|
+|cant|p2a: Eggs|slp
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|281\/313 par
+|
+|turn|41
+|
+|cant|p2a: Eggs|slp
+|cant|p1a: Alakazam|par
+|
+|turn|42
+|c|★qsns|not free
+|c|★qsns|:(
+|
+|cant|p2a: Eggs|slp
+|-curestatus|p2a: Eggs|slp
+|move|p1a: Alakazam|Psychic|p2a: Eggs
+|-damage|p2a: Eggs|488\/703
+|-unboost|p2a: Eggs|spd|1
+|-unboost|p2a: Eggs|spa|1
+|
+|turn|43
+|
+|switch|p2a: Candy|Starmie|323\/323 par
+|move|p1a: Alakazam|Psychic|p2a: Candy
+|-resisted|p2a: Candy
+|-damage|p2a: Candy|253\/323 par
+|-unboost|p2a: Candy|spd|1
+|-unboost|p2a: Candy|spa|1
+|
+|turn|44
+|
+|move|p1a: Alakazam|Psychic|p2a: Candy
+|-resisted|p2a: Candy
+|-damage|p2a: Candy|152\/323 par
+|move|p2a: Candy|Psychic|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|203\/313 par
+|
+|turn|45
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|move|p2a: Candy|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|285\/323
+|
+|turn|46
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Candy
+|-crit|p2a: Candy
+|-supereffective|p2a: Candy
+|-damage|p2a: Candy|0 fnt
+|faint|p2a: Candy
+|
+|switch|p2a: Eggs|Chansey|488\/703
+|turn|47
+|
+|switch|p1a: Alakazam|Alakazam|203\/313 par
+|switch|p2a: Cookie|Golem|126\/363
+|
+|turn|48
+|c|★Austin|gosh
+|c|★Austin|you are easy
+|c|★qsns|.played
+|
+|switch|p1a: Starmie|Starmie|285\/323
+|move|p2a: Cookie|Explosion|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|faint|p2a: Cookie
+|c|★Austin|GOSH
+|c|★Austin|YOU
+|c|★Austin|ARE
+|c|★Austin|EZ
+|c|★Austin|oml
+|c|★qsns|???
+|c|★qsns|o_k kid
+|c|★qsns|i lose now i think
+|c|★qsns|i need a hyper beam miss from tauros
+|
+|switch|p2a: Chocolate|Tauros|353\/353
+|switch|p1a: Alakazam|Alakazam|203\/313 par
+|turn|49
+|c|★Austin|:[
+|
+|move|p2a: Chocolate|Body Slam|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|c|★qsns|what the fuck
+|c|★Austin|lgi
+|c|★qsns|i live that
+|c|★qsns|I LIVE THAT
+|
+|switch|p1a: Tauros|Tauros|76\/353
+|turn|50
+|c|★Austin|CALC
+|c|★Austin|it
+|
+|move|p2a: Chocolate|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|win|Austin
+|c|★Austin|gg
+|c|★qsns|i know my fucking ala calcs
+|c|★qsns|gg

@@ -1,0 +1,67 @@
+﻿|join|paves
+|join|Avos5
+|player|p1|paves|1
+|player|p2|Avos5|266
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gloom|Gloom, L86|279\/279
+|switch|p2a: Lickitung|Lickitung, L86|330\/330
+|turn|1
+|
+|move|p1a: Gloom|Sleep Powder|p2a: Lickitung|[miss]
+|-miss|p1a: Gloom
+|move|p2a: Lickitung|Swords Dance|p2a: Lickitung
+|-boost|p2a: Lickitung|atk|2
+|
+|turn|2
+|
+|move|p1a: Gloom|Sleep Powder|p2a: Lickitung
+|-status|p2a: Lickitung|slp
+|cant|p2a: Lickitung|slp
+|
+|turn|3
+|
+|move|p1a: Gloom|Swords Dance|p1a: Gloom
+|-boost|p1a: Gloom|atk|2
+|cant|p2a: Lickitung|slp
+|
+|turn|4
+|join|adityapratama
+|
+|move|p1a: Gloom|Swords Dance|p1a: Gloom
+|-boost|p1a: Gloom|atk|2
+|cant|p2a: Lickitung|slp
+|
+|turn|5
+|
+|move|p1a: Gloom|Swords Dance|p1a: Gloom
+|-boost|p1a: Gloom|atk|2
+|cant|p2a: Lickitung|slp
+|-curestatus|p2a: Lickitung|slp
+|
+|turn|6
+|
+|move|p1a: Gloom|Body Slam|p2a: Lickitung
+|-damage|p2a: Lickitung|126\/330
+|move|p2a: Lickitung|Hyper Beam|p1a: Gloom|[miss]
+|-miss|p2a: Lickitung
+|
+|turn|7
+|c|★Avos5|ahhh fuck that
+|-message|Avos5 forfeited.
+|leave|Avos5
+|
+|win|paves
+|raw|Ladder updating...
+|player|p2
+|raw|paves's rating: 1000 &rarr; <strong>1040<\/strong><br \/>(+40 for winning)
+|raw|Avos5's rating: 1000 &rarr; <strong>1000<\/strong><br \/>(+0 for losing)
+|leave|paves
+|player|p1

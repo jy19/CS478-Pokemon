@@ -1,0 +1,207 @@
+﻿|join|MALESANI
+|join|LaganjaStranja
+|player|p1|MALESANI|238
+|player|p2|LaganjaStranja|292
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|11061,9848,25459,14335
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Ivysaur|Ivysaur, L85|276\/276
+|switch|p2a: Snorlax|Snorlax, L79|415\/415
+|turn|1
+|choice|move 4|switch 2
+|
+|switch|p2a: Butterfree|Butterfree, L90|291\/291
+|move|p1a: Ivysaur|Sleep Powder|p2a: Butterfree
+|-status|p2a: Butterfree|slp
+|
+|turn|2
+|choice|move 1|switch 4
+|
+|switch|p2a: Drowzee|Drowzee, L96|310\/310
+|move|p1a: Ivysaur|Swords Dance|p1a: Ivysaur
+|-boost|p1a: Ivysaur|atk|2
+|
+|turn|3
+|choice|move 3|move 4
+|
+|move|p1a: Ivysaur|Body Slam|p2a: Drowzee
+|-damage|p2a: Drowzee|199\/310
+|move|p2a: Drowzee|Thunder Wave|p1a: Ivysaur
+|-status|p1a: Ivysaur|par
+|
+|turn|4
+|choice|move 3|switch 3
+|
+|switch|p2a: Aerodactyl|Aerodactyl, L90|327\/327
+|move|p1a: Ivysaur|Body Slam|p2a: Aerodactyl
+|-resisted|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|278\/327
+|
+|turn|5
+|choice|move 2|move 1
+|
+|move|p2a: Aerodactyl|Sky Attack|p1a: Ivysaur|[still]
+|-prepare|p2a: Aerodactyl|Sky Attack|p1a: Ivysaur
+|move|p1a: Ivysaur|Razor Leaf|p2a: Aerodactyl
+|-crit|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|160\/327
+|
+|turn|6
+|choice|switch 5|move 1
+|
+|switch|p1a: Zapdos|Zapdos, L79|304\/304
+|move|p2a: Aerodactyl|Sky Attack|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|204\/304
+|
+|turn|7
+|choice|move 4|move 4
+|
+|move|p2a: Aerodactyl|Hyper Beam|p1a: Zapdos
+|-damage|p1a: Zapdos|65\/304
+|move|p1a: Zapdos|Thunderbolt|p2a: Aerodactyl
+|-crit|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|faint|p2a: Aerodactyl
+|choice||switch 5
+|
+|switch|p2a: Primeape|Primeape, L90|300\/300
+|turn|8
+|choice|switch 5|move 1
+|
+|switch|p1a: Ivysaur|Ivysaur, L85|276\/276 par
+|move|p2a: Primeape|Body Slam|p1a: Ivysaur
+|-crit|p1a: Ivysaur
+|-damage|p1a: Ivysaur|109\/276 par
+|
+|turn|9
+|choice|move 2|move 3
+|
+|move|p2a: Primeape|Hyper Beam|p1a: Ivysaur
+|-damage|p1a: Ivysaur|0 fnt
+|faint|p1a: Ivysaur
+|choice|switch 3|
+|
+|switch|p1a: Mr. Mime|Mr. Mime, L85|242\/242
+|turn|10
+|choice|move 1|move 3
+|
+|move|p2a: Primeape|Hyper Beam|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|99\/242
+|move|p1a: Mr. Mime|Thunder Wave|p2a: Primeape
+|-status|p2a: Primeape|par
+|
+|turn|11
+|-mustrecharge|p2a: Primeape
+|-mustrecharge|p2a: Primeape
+|choice|move 3|move 1
+|
+|move|p1a: Mr. Mime|Psychic|p2a: Primeape
+|-supereffective|p2a: Primeape
+|-damage|p2a: Primeape|64\/300 par
+|-unboost|p2a: Primeape|spd|1
+|-unboost|p2a: Primeape|spa|1
+|cant|p2a: Primeape|recharge
+|
+|turn|12
+|choice|move 3|switch 3
+|
+|switch|p2a: Drowzee|Drowzee, L96|199\/310
+|move|p1a: Mr. Mime|Psychic|p2a: Drowzee
+|-resisted|p2a: Drowzee
+|-damage|p2a: Drowzee|156\/310
+|-unboost|p2a: Drowzee|spd|1
+|-unboost|p2a: Drowzee|spa|1
+|
+|turn|13
+|choice|move 4|move 4
+|
+|move|p1a: Mr. Mime|Thunderbolt|p2a: Drowzee
+|-damage|p2a: Drowzee|70\/310
+|move|p2a: Drowzee|Thunder Wave|p1a: Mr. Mime
+|-status|p1a: Mr. Mime|par
+|
+|turn|14
+|choice|move 2|move 2
+|
+|move|p2a: Drowzee|Hypnosis|p1a: Mr. Mime|[miss]
+|-miss|p2a: Drowzee
+|cant|p1a: Mr. Mime|par
+|
+|turn|15
+|choice|move 2|move 3
+|
+|move|p2a: Drowzee|Rest|p2a: Drowzee
+|-status|p2a: Drowzee|slp
+|-heal|p2a: Drowzee|310\/310 slp|[silent]
+|-status|p2a: Drowzee|slp|[from] move: Rest
+|move|p1a: Mr. Mime|Seismic Toss|p2a: Drowzee
+|-damage|p2a: Drowzee|225\/310 slp
+|
+|turn|16
+|choice|move 4|switch 6
+|
+|switch|p2a: Pinsir|Pinsir, L85|284\/284
+|move|p1a: Mr. Mime|Thunderbolt|p2a: Pinsir
+|-damage|p2a: Pinsir|195\/284
+|
+|turn|17
+|choice|move 3|move 4
+|
+|move|p2a: Pinsir|Body Slam|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|5\/242 par
+|cant|p1a: Mr. Mime|par
+|
+|turn|18
+|choice|move 3|move 4
+|
+|move|p2a: Pinsir|Body Slam|p1a: Mr. Mime
+|-crit|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|0 fnt
+|faint|p1a: Mr. Mime
+|choice|switch 2|
+|
+|switch|p1a: Flareon|Flareon, L90|300\/300
+|turn|19
+|choice|move 2|move 4
+|
+|move|p2a: Pinsir|Body Slam|p1a: Flareon
+|-damage|p1a: Flareon|207\/300
+|move|p1a: Flareon|Fire Blast|p2a: Pinsir
+|-supereffective|p2a: Pinsir
+|-damage|p2a: Pinsir|0 fnt
+|faint|p2a: Pinsir
+|choice||switch 2
+|
+|switch|p2a: Snorlax|Snorlax, L79|415\/415
+|turn|20
+|choice|move 2|move 1
+|
+|move|p1a: Flareon|Fire Blast|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|19\/415
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|
+|turn|21
+|choice|move 4|move 2
+|
+|move|p1a: Flareon|Quick Attack|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|-message|LaganjaStranja forfeited.
+|
+|win|MALESANI
+|leave|LaganjaStranja
+|player|p2
+|raw|MALESANI's rating: 1297 &rarr; <strong>1310<\/strong><br \/>(+13 for winning)
+|raw|LaganjaStranja's rating: 1111 &rarr; <strong>1098<\/strong><br \/>(-13 for losing)

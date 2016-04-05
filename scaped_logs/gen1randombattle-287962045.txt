@@ -1,0 +1,337 @@
+﻿|join|Rafa2604
+|join|MALESANI
+|player|p1|Rafa2604|6
+|player|p2|MALESANI|238
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|21142,34643,61026,24406
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Weezing|Weezing, L90|300\/300
+|switch|p2a: Weedle|Weedle, L99|280\/280
+|turn|1
+|choice|move 3|switch 6
+|
+|switch|p2a: Magneton|Magneton, L90|273\/273
+|move|p1a: Weezing|Fire Blast|p2a: Magneton
+|-damage|p2a: Magneton|200\/273
+|
+|turn|2
+|choice|move 2|move 4
+|
+|move|p2a: Magneton|Thunder Wave|p1a: Weezing
+|-status|p1a: Weezing|par
+|move|p1a: Weezing|Sludge|p2a: Magneton
+|-damage|p2a: Magneton|134\/273
+|
+|turn|3
+|choice|move 2|move 1
+|
+|move|p2a: Magneton|Thunderbolt|p1a: Weezing
+|-crit|p1a: Weezing
+|-damage|p1a: Weezing|58\/300 par
+|cant|p1a: Weezing|par
+|
+|turn|4
+|choice|switch 2|move 1
+|
+|switch|p1a: Diglett|Diglett, L96|214\/214
+|move|p2a: Magneton|Thunderbolt|p1a: Diglett
+|-immune|p1a: Diglett|[msg]
+|
+|turn|5
+|choice|move 1|switch 4
+|
+|switch|p2a: Dragonite|Dragonite, L85|328\/328
+|move|p1a: Diglett|Earthquake|p2a: Dragonite
+|-immune|p2a: Dragonite|[msg]
+|
+|turn|6
+|choice|switch 6|move 2
+|
+|switch|p1a: Wartortle|Wartortle, L85|274\/274
+|move|p2a: Dragonite|Ice Beam|p1a: Wartortle
+|-resisted|p1a: Wartortle
+|-damage|p1a: Wartortle|236\/274
+|
+|turn|7
+|choice|move 4|switch 6
+|
+|switch|p2a: Weedle|Weedle, L99|280\/280
+|move|p1a: Wartortle|Blizzard|p2a: Weedle
+|-damage|p2a: Weedle|159\/280
+|
+|turn|8
+|choice|move 4|move 2
+|
+|move|p2a: Weedle|Poison Sting|p1a: Wartortle
+|-damage|p1a: Wartortle|221\/274
+|-status|p1a: Wartortle|psn
+|move|p1a: Wartortle|Blizzard|p2a: Weedle
+|-damage|p2a: Weedle|47\/280
+|-damage|p1a: Wartortle|204\/274 psn|[from] psn|[of] p2a: Weedle
+|
+|turn|9
+|choice|move 2|move 2
+|
+|move|p2a: Weedle|Poison Sting|p1a: Wartortle
+|-crit|p1a: Wartortle
+|-damage|p1a: Wartortle|176\/274 psn
+|move|p1a: Wartortle|Surf|p2a: Weedle
+|-damage|p2a: Weedle|0 fnt
+|faint|p2a: Weedle
+|choice||switch 2
+|
+|switch|p2a: Starmie|Starmie, L79|257\/257
+|turn|10
+|choice|move 2|move 2
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Wartortle
+|-supereffective|p1a: Wartortle
+|-damage|p1a: Wartortle|36\/274 psn
+|move|p1a: Wartortle|Surf|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|220\/257
+|-damage|p1a: Wartortle|19\/274 psn|[from] psn|[of] p2a: Starmie
+|
+|turn|11
+|choice|move 3|move 4
+|
+|move|p2a: Starmie|Surf|p1a: Wartortle
+|-resisted|p1a: Wartortle
+|-damage|p1a: Wartortle|0 fnt
+|faint|p1a: Wartortle
+|choice|switch 5|
+|
+|switch|p1a: Jolteon|Jolteon, L79|265\/265
+|turn|12
+|choice|move 1|switch 6
+|
+|switch|p2a: Dragonite|Dragonite, L85|328\/328
+|move|p1a: Jolteon|Thunderbolt|p2a: Dragonite
+|-damage|p2a: Dragonite|244\/328
+|
+|turn|13
+|choice|move 4|move 2
+|
+|move|p1a: Jolteon|Thunder Wave|p2a: Dragonite
+|-status|p2a: Dragonite|par
+|cant|p2a: Dragonite|par
+|
+|turn|14
+|choice|move 1|move 2
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Dragonite
+|-damage|p2a: Dragonite|149\/328 par
+|move|p2a: Dragonite|Ice Beam|p1a: Jolteon
+|-damage|p1a: Jolteon|205\/265
+|
+|turn|15
+|choice|move 1|move 3
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Dragonite
+|-damage|p2a: Dragonite|60\/328 par
+|move|p2a: Dragonite|Hyper Beam|p1a: Jolteon
+|-damage|p1a: Jolteon|33\/265
+|
+|turn|16
+|-mustrecharge|p2a: Dragonite
+|-mustrecharge|p2a: Dragonite
+|choice|move 1|move 1
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|choice||switch 4
+|
+|switch|p2a: Magneton|Magneton, L90|134\/273
+|turn|17
+|choice|move 3|move 3
+|
+|move|p1a: Jolteon|Pin Missile|p2a: Magneton
+|-damage|p2a: Magneton|127\/273
+|-damage|p2a: Magneton|120\/273
+|-damage|p2a: Magneton|113\/273
+|-damage|p2a: Magneton|106\/273
+|-hitcount|p2a: Magneton|4
+|move|p2a: Magneton|Double-Edge|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|-damage|p2a: Magneton|98\/273|[from] recoil|[of] p1a: Jolteon
+|faint|p1a: Jolteon
+|choice|switch 6|
+|
+|switch|p1a: Diglett|Diglett, L96|214\/214
+|turn|18
+|choice|move 3|switch 6
+|
+|switch|p2a: Starmie|Starmie, L79|220\/257
+|move|p1a: Diglett|Slash|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|117\/257
+|
+|turn|19
+|choice|switch 3|move 1
+|
+|switch|p1a: Gloom|Gloom, L90|291\/291
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|245\/257
+|
+|turn|20
+|choice|move 1|switch 6
+|
+|switch|p2a: Magneton|Magneton, L90|98\/273
+|move|p1a: Gloom|Sleep Powder|p2a: Magneton
+|-status|p2a: Magneton|slp
+|
+|turn|21
+|choice|move 4|switch 5
+|
+|switch|p2a: Parasect|Parasect, L90|291\/291
+|move|p1a: Gloom|Swords Dance|p1a: Gloom
+|-boost|p1a: Gloom|atk|2
+|
+|turn|22
+|choice|move 3|move 4
+|
+|move|p1a: Gloom|Double-Edge|p2a: Parasect
+|-damage|p2a: Parasect|176\/291
+|-damage|p1a: Gloom|263\/291|[from] recoil|[of] p2a: Parasect
+|move|p2a: Parasect|Slash|p1a: Gloom
+|-damage|p1a: Gloom|198\/291
+|
+|turn|23
+|choice|move 2|move 1
+|
+|move|p1a: Gloom|Mega Drain|p2a: Parasect
+|-resisted|p2a: Parasect
+|-damage|p2a: Parasect|166\/291
+|-heal|p1a: Gloom|203\/291|[from] drain|[of] p2a: Parasect
+|move|p2a: Parasect|Body Slam|p1a: Gloom
+|-damage|p1a: Gloom|129\/291
+|-status|p1a: Gloom|par
+|
+|turn|24
+|choice|move 3|move 1
+|
+|move|p2a: Parasect|Body Slam|p1a: Gloom
+|-damage|p1a: Gloom|49\/291 par
+|move|p1a: Gloom|Double-Edge|p2a: Parasect
+|-damage|p2a: Parasect|39\/291
+|-damage|p1a: Gloom|18\/291 par|[from] recoil|[of] p2a: Parasect
+|
+|turn|25
+|choice|move 3|move 4
+|
+|move|p2a: Parasect|Slash|p1a: Gloom
+|-crit|p1a: Gloom
+|-damage|p1a: Gloom|0 fnt
+|faint|p1a: Gloom
+|choice|switch 3|
+|
+|switch|p1a: Diglett|Diglett, L96|214\/214
+|turn|26
+|choice|move 1|move 3
+|
+|move|p1a: Diglett|Earthquake|p2a: Parasect
+|-resisted|p2a: Parasect
+|-damage|p2a: Parasect|17\/291
+|move|p2a: Parasect|Hyper Beam|p1a: Diglett|[miss]
+|-miss|p2a: Parasect
+|
+|turn|27
+|choice|move 3|move 3
+|
+|move|p1a: Diglett|Slash|p2a: Parasect
+|-crit|p2a: Parasect
+|-damage|p2a: Parasect|0 fnt
+|faint|p2a: Parasect
+|choice||switch 6
+|
+|switch|p2a: Starmie|Starmie, L79|245\/257
+|turn|28
+|choice|move 1|move 4
+|
+|move|p1a: Diglett|Earthquake|p2a: Starmie
+|-damage|p2a: Starmie|133\/257
+|move|p2a: Starmie|Surf|p1a: Diglett
+|-supereffective|p1a: Diglett
+|-damage|p1a: Diglett|0 fnt
+|faint|p1a: Diglett
+|choice|switch 2|
+|
+|switch|p1a: Weezing|Weezing, L90|58\/300 par
+|turn|29
+|choice|move 1|move 4
+|
+|move|p2a: Starmie|Surf|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|choice|switch 4|
+|
+|switch|p1a: Arcanine|Arcanine, L85|327\/327
+|turn|30
+|choice|move 3|switch 5
+|
+|switch|p2a: Magneton|Magneton, L90|98\/273 slp
+|move|p1a: Arcanine|Body Slam|p2a: Magneton
+|-damage|p2a: Magneton|35\/273 slp
+|
+|turn|31
+|choice|move 2|move 4
+|
+|move|p1a: Arcanine|Reflect|p1a: Arcanine
+|-start|p1a: Arcanine|Reflect
+|cant|p2a: Magneton|slp
+|
+|turn|32
+|choice|move 1|move 4
+|
+|move|p1a: Arcanine|Mimic|p2a: Magneton
+|-start|p1a: Arcanine|Mimic|Thunderbolt
+|-curestatus|p2a: Magneton|slp
+|
+|turn|33
+|choice|move 3|move 4
+|
+|move|p1a: Arcanine|Body Slam|p2a: Magneton
+|-crit|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|faint|p2a: Magneton
+|choice||switch 3
+|
+|switch|p2a: Cloyster|Cloyster, L83|253\/253
+|turn|34
+|choice|move 1|move 1
+|
+|move|p1a: Arcanine|Thunderbolt|p2a: Cloyster
+|-supereffective|p2a: Cloyster
+|-damage|p2a: Cloyster|128\/253
+|move|p2a: Cloyster|Surf|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|147\/327
+|
+|turn|35
+|choice|move 1|move 1
+|
+|move|p1a: Arcanine|Thunderbolt|p2a: Cloyster
+|-crit|p2a: Cloyster
+|-supereffective|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p2a: Cloyster
+|choice||switch 5
+|
+|switch|p2a: Starmie|Starmie, L79|133\/257
+|turn|36
+|choice|move 4|move 4
+|
+|move|p2a: Starmie|Surf|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|win|MALESANI

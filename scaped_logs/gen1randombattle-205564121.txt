@@ -1,0 +1,175 @@
+﻿|join|Spinoraptyrex
+|join|Chuosta
+|player|p1|Spinoraptyrex|130
+|player|p2|Chuosta|7
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Nidorina|Nidorina, L88|303\/303
+|switch|p2a: Alakazam|Alakazam, L82|258\/258
+|turn|1
+|
+|move|p2a: Alakazam|Psychic|p1a: Nidorina
+|-supereffective|p1a: Nidorina
+|-damage|p1a: Nidorina|16\/303
+|move|p1a: Nidorina|Thunderbolt|p2a: Alakazam
+|-damage|p2a: Alakazam|219\/258
+|
+|turn|2
+|
+|move|p2a: Alakazam|Psychic|p1a: Nidorina
+|-supereffective|p1a: Nidorina
+|-damage|p1a: Nidorina|0 fnt
+|faint|p1a: Nidorina
+|
+|switch|p1a: Exeggutor|Exeggutor, L82|324\/324
+|turn|3
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Exeggutor
+|-status|p1a: Exeggutor|par
+|move|p1a: Exeggutor|Stun Spore|p2a: Alakazam
+|-status|p2a: Alakazam|par
+|
+|turn|4
+|
+|switch|p2a: Ninetales|Ninetales, L86|301\/301
+|cant|p1a: Exeggutor|par
+|
+|turn|5
+|
+|switch|p1a: Onix|Onix, L86|236\/236
+|move|p2a: Ninetales|Fire Blast|p1a: Onix
+|-resisted|p1a: Onix
+|-damage|p1a: Onix|117\/236
+|
+|turn|6
+|
+|move|p2a: Ninetales|Fire Blast|p1a: Onix
+|-resisted|p1a: Onix
+|-damage|p1a: Onix|0 fnt
+|faint|p1a: Onix
+|
+|switch|p1a: Flareon|Flareon, L86|287\/287
+|turn|7
+|
+|move|p2a: Ninetales|Confuse Ray|p1a: Flareon
+|-start|p1a: Flareon|confusion
+|-activate|p1a: Flareon|confusion
+|-damage|p1a: Flareon|238\/287|[from] confusion
+|
+|turn|8
+|
+|switch|p2a: Nidorina|Nidorina, L88|303\/303
+|-activate|p1a: Flareon|confusion
+|-damage|p1a: Flareon|189\/287|[from] confusion
+|
+|turn|9
+|
+|-activate|p1a: Flareon|confusion
+|-damage|p1a: Flareon|140\/287|[from] confusion
+|move|p2a: Nidorina|Bubble Beam|p1a: Flareon
+|-supereffective|p1a: Flareon
+|-damage|p1a: Flareon|79\/287
+|
+|turn|10
+|
+|-activate|p1a: Flareon|confusion
+|-damage|p1a: Flareon|30\/287|[from] confusion
+|move|p2a: Nidorina|Bubble Beam|p1a: Flareon
+|-supereffective|p1a: Flareon
+|-damage|p1a: Flareon|0 fnt
+|faint|p1a: Flareon
+|
+|switch|p1a: Nidoking|Nidoking, L86|315\/315
+|turn|11
+|
+|switch|p2a: Alakazam|Alakazam, L82|219\/258 par
+|move|p1a: Nidoking|Thunderbolt|p2a: Alakazam
+|-damage|p2a: Alakazam|170\/258 par
+|
+|turn|12
+|
+|move|p1a: Nidoking|Earthquake|p2a: Alakazam
+|-damage|p2a: Alakazam|6\/258 par
+|move|p2a: Alakazam|Psychic|p1a: Nidoking
+|-supereffective|p1a: Nidoking
+|-damage|p1a: Nidoking|82\/315
+|-unboost|p1a: Nidoking|spd|1
+|-unboost|p1a: Nidoking|spa|1
+|
+|turn|13
+|
+|switch|p2a: Snorlax|Snorlax, L82|430\/430
+|move|p1a: Nidoking|Earthquake|p2a: Snorlax
+|-damage|p2a: Snorlax|309\/430
+|
+|turn|14
+|
+|move|p1a: Nidoking|Thunderbolt|p2a: Snorlax
+|-damage|p2a: Snorlax|259\/430
+|move|p2a: Snorlax|Hyper Beam|p1a: Nidoking
+|-crit|p1a: Nidoking
+|-damage|p1a: Nidoking|0 fnt
+|faint|p1a: Nidoking
+|
+|switch|p1a: Persian|Persian, L82|274\/274
+|turn|15
+|
+|move|p1a: Persian|Screech|p2a: Snorlax
+|-unboost|p2a: Snorlax|def|2
+|move|p2a: Snorlax|Body Slam|p1a: Persian
+|-damage|p1a: Persian|148\/274
+|
+|turn|16
+|
+|move|p1a: Persian|Slash|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|111\/430
+|move|p2a: Snorlax|Body Slam|p1a: Persian
+|-damage|p1a: Persian|22\/274
+|
+|turn|17
+|
+|move|p1a: Persian|Slash|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|switch|p2a: Electabuzz|Electabuzz, L86|287\/287
+|turn|18
+|
+|move|p1a: Persian|Slash|p2a: Electabuzz
+|-crit|p2a: Electabuzz
+|-damage|p2a: Electabuzz|142\/287
+|move|p2a: Electabuzz|Thunderbolt|p1a: Persian
+|-damage|p1a: Persian|0 fnt
+|faint|p1a: Persian
+|
+|switch|p1a: Exeggutor|Exeggutor, L82|324\/324 par
+|turn|19
+|
+|switch|p2a: Ninetales|Ninetales, L86|301\/301
+|move|p1a: Exeggutor|Mega Drain|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|280\/301
+|
+|turn|20
+|
+|move|p2a: Ninetales|Fire Blast|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|win|Chuosta
+|raw|Ladder updating...
+|raw|Spinoraptyrex's rating: 1106 &rarr; <strong>1083<\/strong><br \/>(-23 for losing)
+|raw|Chuosta's rating: 1137 &rarr; <strong>1160<\/strong><br \/>(+23 for winning)
+|leave|Spinoraptyrex
+|player|p1

@@ -1,0 +1,825 @@
+﻿|join|Amourson
+|join|farmertome
+|player|p1|Amourson|163
+|player|p2|farmertome|265
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|32432,39930,33862,9469
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Persian|Persian, L79|265\/265
+|switch|p2a: Nidoking|Nidoking, L85|311\/311
+|turn|1
+|choice|move 1|move 3
+|
+|move|p1a: Persian|Slash|p2a: Nidoking
+|-crit|p2a: Nidoking
+|-damage|p2a: Nidoking|199\/311
+|move|p2a: Nidoking|Body Slam|p1a: Persian
+|-damage|p1a: Persian|192\/265
+|
+|turn|2
+|choice|move 1|switch 2
+|
+|switch|p2a: Omanyte|Omanyte, L96|262\/262
+|move|p1a: Persian|Slash|p2a: Omanyte
+|-crit|p2a: Omanyte
+|-resisted|p2a: Omanyte
+|-damage|p2a: Omanyte|222\/262
+|
+|turn|3
+|choice|switch 2|move 3
+|
+|switch|p1a: Exeggcute|Exeggcute, L96|310\/310
+|move|p2a: Omanyte|Hydro Pump|p1a: Exeggcute
+|-resisted|p1a: Exeggcute
+|-damage|p1a: Exeggcute|227\/310
+|
+|turn|4
+|choice|move 3|switch 4
+|
+|switch|p2a: Hypno|Hypno, L85|318\/318
+|move|p1a: Exeggcute|Mega Drain|p2a: Hypno
+|-damage|p2a: Hypno|280\/318
+|-heal|p1a: Exeggcute|246\/310|[from] drain|[of] p2a: Hypno
+|
+|turn|5
+|choice|move 4|move 2
+|
+|move|p2a: Hypno|Hypnosis|p1a: Exeggcute
+|-status|p1a: Exeggcute|slp
+|cant|p1a: Exeggcute|slp
+|
+|turn|6
+|choice|switch 5|move 1
+|
+|switch|p1a: Mew|Mew, L74|300\/300
+|move|p2a: Hypno|Psychic|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|245\/300
+|
+|turn|7
+|choice|move 2|move 1
+|
+|move|p1a: Mew|Earthquake|p2a: Hypno
+|-damage|p2a: Hypno|217\/318
+|move|p2a: Hypno|Psychic|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|188\/300
+|-unboost|p1a: Mew|spd|1
+|-unboost|p1a: Mew|spa|1
+|
+|turn|8
+|choice|move 3|move 1
+|
+|move|p1a: Mew|Horn Drill|p2a: Hypno
+|-damage|p2a: Hypno|0 fnt
+|-ohko
+|faint|p2a: Hypno
+|choice||switch 3
+|
+|switch|p2a: Charizard|Charizard, L85|306\/306
+|turn|9
+|choice|switch 6|move 3
+|
+|switch|p1a: Omastar|Omastar, L90|309\/309
+|move|p2a: Charizard|Swords Dance|p2a: Charizard
+|-boost|p2a: Charizard|atk|2
+|
+|turn|10
+|choice|move 3|move 2
+|
+|move|p2a: Charizard|Earthquake|p1a: Omastar|[miss]
+|-miss|p2a: Charizard
+|move|p1a: Omastar|Surf|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|31\/306
+|
+|turn|11
+|choice|move 3|move 2
+|
+|move|p2a: Charizard|Earthquake|p1a: Omastar
+|-supereffective|p1a: Omastar
+|-damage|p1a: Omastar|110\/309
+|move|p1a: Omastar|Surf|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|choice||switch 2
+|
+|switch|p2a: Nidoking|Nidoking, L85|199\/311
+|turn|12
+|choice|move 3|move 1
+|
+|move|p2a: Nidoking|Earthquake|p1a: Omastar
+|-supereffective|p1a: Omastar
+|-damage|p1a: Omastar|0 fnt
+|faint|p1a: Omastar
+|choice|switch 3|
+|
+|switch|p1a: Sandslash|Sandslash, L85|301\/301
+|turn|13
+|choice|move 1|move 4
+|
+|move|p2a: Nidoking|Blizzard|p1a: Sandslash
+|-supereffective|p1a: Sandslash
+|-damage|p1a: Sandslash|107\/301
+|move|p1a: Sandslash|Earthquake|p2a: Nidoking
+|-supereffective|p2a: Nidoking
+|-damage|p2a: Nidoking|0 fnt
+|faint|p2a: Nidoking
+|choice||switch 5
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|293\/293
+|turn|14
+|choice|move 1|move 2
+|
+|move|p2a: Mewtwo|Ice Beam|p1a: Sandslash
+|-supereffective|p1a: Sandslash
+|-damage|p1a: Sandslash|0 fnt
+|faint|p1a: Sandslash
+|choice|switch 6|
+|
+|switch|p1a: Mew|Mew, L74|188\/300
+|turn|15
+|choice|move 4|move 2
+|
+|move|p2a: Mewtwo|Ice Beam|p1a: Mew
+|-damage|p1a: Mew|124\/300
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|274\/300
+|
+|turn|16
+|choice|move 3|move 2
+|
+|move|p2a: Mewtwo|Ice Beam|p1a: Mew
+|-damage|p1a: Mew|210\/300
+|move|p1a: Mew|Horn Drill|p2a: Mewtwo
+|-immune|p2a: Mewtwo|[ohko]
+|
+|turn|17
+|choice|move 2|move 1
+|
+|move|p2a: Mewtwo|Psychic|p1a: Mew
+|-crit|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|118\/300
+|move|p1a: Mew|Earthquake|p2a: Mewtwo
+|-damage|p2a: Mewtwo|231\/293
+|
+|turn|18
+|choice|move 4|move 1
+|
+|move|p2a: Mewtwo|Psychic|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|72\/300
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|222\/300
+|
+|turn|19
+|choice|move 2|move 1
+|
+|move|p2a: Mewtwo|Psychic|p1a: Mew
+|-crit|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|126\/300
+|-unboost|p1a: Mew|spd|1
+|-unboost|p1a: Mew|spa|1
+|move|p1a: Mew|Earthquake|p2a: Mewtwo
+|-damage|p2a: Mewtwo|161\/293
+|
+|turn|20
+|choice|move 4|move 1
+|
+|move|p2a: Mewtwo|Psychic|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|55\/300
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|205\/300
+|
+|turn|21
+|choice|move 4|move 1
+|
+|move|p2a: Mewtwo|Psychic|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|125\/300
+|-unboost|p1a: Mew|spd|1
+|-unboost|p1a: Mew|spa|1
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|275\/300
+|
+|turn|22
+|choice|move 2|move 4
+|
+|move|p2a: Mewtwo|Rest|p2a: Mewtwo
+|-status|p2a: Mewtwo|slp
+|-heal|p2a: Mewtwo|293\/293 slp|[silent]
+|-status|p2a: Mewtwo|slp|[from] move: Rest
+|move|p1a: Mew|Earthquake|p2a: Mewtwo
+|-damage|p2a: Mewtwo|227\/293 slp
+|
+|turn|23
+|choice|move 2|move 1
+|
+|cant|p2a: Mewtwo|slp
+|move|p1a: Mew|Earthquake|p2a: Mewtwo
+|-damage|p2a: Mewtwo|158\/293 slp
+|
+|turn|24
+|choice|move 2|move 1
+|
+|-curestatus|p2a: Mewtwo|slp
+|move|p1a: Mew|Earthquake|p2a: Mewtwo
+|-damage|p2a: Mewtwo|90\/293
+|
+|turn|25
+|choice|move 2|move 4
+|
+|move|p2a: Mewtwo|Rest|p2a: Mewtwo
+|-status|p2a: Mewtwo|slp
+|-heal|p2a: Mewtwo|293\/293 slp|[silent]
+|-status|p2a: Mewtwo|slp|[from] move: Rest
+|move|p1a: Mew|Earthquake|p2a: Mewtwo
+|-damage|p2a: Mewtwo|228\/293 slp
+|
+|turn|26
+|choice|move 2|move 1
+|
+|cant|p2a: Mewtwo|slp
+|move|p1a: Mew|Earthquake|p2a: Mewtwo
+|-damage|p2a: Mewtwo|168\/293 slp
+|
+|turn|27
+|choice|move 2|move 1
+|
+|-curestatus|p2a: Mewtwo|slp
+|move|p1a: Mew|Earthquake|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|50\/293
+|
+|turn|28
+|choice|move 2|move 4
+|
+|move|p2a: Mewtwo|Rest|p2a: Mewtwo
+|-status|p2a: Mewtwo|slp
+|-heal|p2a: Mewtwo|293\/293 slp|[silent]
+|-status|p2a: Mewtwo|slp|[from] move: Rest
+|move|p1a: Mew|Earthquake|p2a: Mewtwo
+|-damage|p2a: Mewtwo|227\/293 slp
+|
+|turn|29
+|choice|move 2|move 1
+|
+|cant|p2a: Mewtwo|slp
+|move|p1a: Mew|Earthquake|p2a: Mewtwo
+|-damage|p2a: Mewtwo|157\/293 slp
+|
+|turn|30
+|choice|move 2|move 1
+|
+|-curestatus|p2a: Mewtwo|slp
+|move|p1a: Mew|Earthquake|p2a: Mewtwo
+|-damage|p2a: Mewtwo|87\/293
+|
+|turn|31
+|choice|move 2|move 4
+|
+|move|p2a: Mewtwo|Rest|p2a: Mewtwo
+|-status|p2a: Mewtwo|slp
+|-heal|p2a: Mewtwo|293\/293 slp|[silent]
+|-status|p2a: Mewtwo|slp|[from] move: Rest
+|move|p1a: Mew|Earthquake|p2a: Mewtwo
+|-damage|p2a: Mewtwo|232\/293 slp
+|
+|turn|32
+|choice|move 2|move 1
+|
+|cant|p2a: Mewtwo|slp
+|move|p1a: Mew|Earthquake|p2a: Mewtwo
+|-damage|p2a: Mewtwo|162\/293 slp
+|
+|turn|33
+|choice|move 2|move 1
+|
+|-curestatus|p2a: Mewtwo|slp
+|move|p1a: Mew|Earthquake|p2a: Mewtwo
+|-damage|p2a: Mewtwo|96\/293
+|
+|turn|34
+|choice|switch 2|move 2
+|
+|switch|p1a: Persian|Persian, L79|192\/265
+|move|p2a: Mewtwo|Ice Beam|p1a: Persian
+|-damage|p1a: Persian|105\/265
+|
+|turn|35
+|choice|move 1|switch 4
+|
+|switch|p2a: Omanyte|Omanyte, L96|222\/262
+|move|p1a: Persian|Slash|p2a: Omanyte
+|-crit|p2a: Omanyte
+|-resisted|p2a: Omanyte
+|-damage|p2a: Omanyte|182\/262
+|
+|turn|36
+|choice|switch 4|move 3
+|
+|switch|p1a: Kabutops|Kabutops, L85|276\/276
+|move|p2a: Omanyte|Hydro Pump|p1a: Kabutops
+|-damage|p1a: Kabutops|111\/276
+|
+|turn|37
+|choice|move 1|move 3
+|
+|move|p1a: Kabutops|Surf|p2a: Omanyte
+|-damage|p2a: Omanyte|110\/262
+|move|p2a: Omanyte|Hydro Pump|p1a: Kabutops|[miss]
+|-miss|p2a: Omanyte
+|
+|turn|38
+|choice|move 1|move 3
+|
+|move|p1a: Kabutops|Surf|p2a: Omanyte
+|-damage|p2a: Omanyte|33\/262
+|move|p2a: Omanyte|Hydro Pump|p1a: Kabutops|[miss]
+|-miss|p2a: Omanyte
+|
+|turn|39
+|choice|move 1|switch 6
+|
+|switch|p2a: Wigglytuff|Wigglytuff, L90|435\/435
+|move|p1a: Kabutops|Surf|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|333\/435
+|
+|turn|40
+|choice|move 4|move 1
+|
+|move|p1a: Kabutops|Hyper Beam|p2a: Wigglytuff
+|-crit|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|18\/435
+|move|p2a: Wigglytuff|Thunder Wave|p1a: Kabutops
+|-status|p1a: Kabutops|par
+|
+|turn|41
+|-mustrecharge|p1a: Kabutops
+|-mustrecharge|p1a: Kabutops
+|choice|move 1|switch 6
+|
+|switch|p2a: Omanyte|Omanyte, L96|33\/262
+|cant|p1a: Kabutops|recharge
+|
+|turn|42
+|choice|move 1|move 4
+|
+|move|p2a: Omanyte|Rest|p2a: Omanyte
+|-status|p2a: Omanyte|slp
+|-heal|p2a: Omanyte|262\/262 slp|[silent]
+|-status|p2a: Omanyte|slp|[from] move: Rest
+|move|p1a: Kabutops|Surf|p2a: Omanyte
+|-damage|p2a: Omanyte|190\/262 slp
+|
+|turn|43
+|choice|move 1|move 1
+|
+|cant|p2a: Omanyte|slp
+|cant|p1a: Kabutops|par
+|
+|turn|44
+|choice|switch 2|move 3
+|
+|switch|p1a: Mew|Mew, L74|275\/300
+|-curestatus|p2a: Omanyte|slp
+|
+|turn|45
+|choice|move 3|switch 6
+|
+|switch|p2a: Wigglytuff|Wigglytuff, L90|18\/435
+|move|p1a: Mew|Horn Drill|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|0 fnt
+|-ohko
+|faint|p2a: Wigglytuff
+|choice||switch 4
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|96\/293
+|turn|46
+|choice|move 2|move 1
+|
+|move|p2a: Mewtwo|Psychic|p1a: Mew
+|-crit|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|177\/300
+|move|p1a: Mew|Earthquake|p2a: Mewtwo
+|-damage|p2a: Mewtwo|34\/293
+|
+|turn|47
+|choice|move 1|move 4
+|
+|move|p2a: Mewtwo|Rest|p2a: Mewtwo
+|-status|p2a: Mewtwo|slp
+|-heal|p2a: Mewtwo|293\/293 slp|[silent]
+|-status|p2a: Mewtwo|slp|[from] move: Rest
+|move|p1a: Mew|Swift|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|213\/293 slp
+|
+|turn|48
+|choice|move 1|move 1
+|
+|cant|p2a: Mewtwo|slp
+|move|p1a: Mew|Swift|p2a: Mewtwo
+|-damage|p2a: Mewtwo|176\/293 slp
+|
+|turn|49
+|choice|move 1|move 1
+|
+|-curestatus|p2a: Mewtwo|slp
+|move|p1a: Mew|Swift|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|95\/293
+|
+|turn|50
+|choice|move 4|move 1
+|
+|move|p2a: Mewtwo|Psychic|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|130\/300
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|280\/300
+|
+|turn|51
+|choice|move 1|move 1
+|
+|move|p2a: Mewtwo|Psychic|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|235\/300
+|-unboost|p1a: Mew|spd|1
+|-unboost|p1a: Mew|spa|1
+|move|p1a: Mew|Swift|p2a: Mewtwo
+|-damage|p2a: Mewtwo|52\/293
+|
+|turn|52
+|choice|switch 5|move 4
+|
+|switch|p1a: Exeggcute|Exeggcute, L96|246\/310 slp
+|move|p2a: Mewtwo|Rest|p2a: Mewtwo
+|-status|p2a: Mewtwo|slp
+|-heal|p2a: Mewtwo|293\/293 slp|[silent]
+|-status|p2a: Mewtwo|slp|[from] move: Rest
+|
+|turn|53
+|choice|move 3|switch 6
+|
+|switch|p2a: Omanyte|Omanyte, L96|190\/262
+|-curestatus|p1a: Exeggcute|slp
+|
+|turn|54
+|choice|move 3|switch 6
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|293\/293 slp
+|move|p1a: Exeggcute|Mega Drain|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|225\/293 slp
+|-heal|p1a: Exeggcute|280\/310|[from] drain|[of] p2a: Mewtwo
+|
+|turn|55
+|choice|switch 5|move 2
+|
+|switch|p1a: Mew|Mew, L74|235\/300
+|cant|p2a: Mewtwo|slp
+|
+|turn|56
+|choice|move 1|move 2
+|
+|-curestatus|p2a: Mewtwo|slp
+|move|p1a: Mew|Swift|p2a: Mewtwo
+|-damage|p2a: Mewtwo|183\/293
+|
+|turn|57
+|choice|move 1|move 1
+|
+|move|p2a: Mewtwo|Psychic|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|185\/300
+|move|p1a: Mew|Swift|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|106\/293
+|
+|turn|58
+|choice|move 1|move 2
+|
+|move|p2a: Mewtwo|Ice Beam|p1a: Mew
+|-crit|p1a: Mew
+|-damage|p1a: Mew|53\/300
+|move|p1a: Mew|Swift|p2a: Mewtwo
+|-damage|p2a: Mewtwo|64\/293
+|
+|turn|59
+|choice|move 1|move 4
+|
+|move|p2a: Mewtwo|Rest|p2a: Mewtwo
+|-status|p2a: Mewtwo|slp
+|-heal|p2a: Mewtwo|293\/293 slp|[silent]
+|-status|p2a: Mewtwo|slp|[from] move: Rest
+|move|p1a: Mew|Swift|p2a: Mewtwo
+|-damage|p2a: Mewtwo|257\/293 slp
+|
+|turn|60
+|choice|move 4|move 2
+|
+|cant|p2a: Mewtwo|slp
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|203\/300
+|
+|turn|61
+|choice|move 4|move 2
+|
+|-curestatus|p2a: Mewtwo|slp
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|300\/300
+|
+|turn|62
+|choice|move 1|move 1
+|
+|move|p2a: Mewtwo|Psychic|p1a: Mew
+|-crit|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|203\/300
+|-unboost|p1a: Mew|spd|1
+|-unboost|p1a: Mew|spa|1
+|move|p1a: Mew|Swift|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|186\/293
+|
+|turn|63
+|choice|move 1|move 2
+|
+|move|p2a: Mewtwo|Ice Beam|p1a: Mew
+|-damage|p1a: Mew|100\/300
+|move|p1a: Mew|Swift|p2a: Mewtwo
+|-damage|p2a: Mewtwo|144\/293
+|
+|turn|64
+|choice|move 4|move 4
+|
+|move|p2a: Mewtwo|Rest|p2a: Mewtwo
+|-status|p2a: Mewtwo|slp
+|-heal|p2a: Mewtwo|293\/293 slp|[silent]
+|-status|p2a: Mewtwo|slp|[from] move: Rest
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|250\/300
+|
+|turn|65
+|choice|move 1|move 2
+|
+|cant|p2a: Mewtwo|slp
+|move|p1a: Mew|Swift|p2a: Mewtwo
+|-damage|p2a: Mewtwo|252\/293 slp
+|
+|turn|66
+|choice|move 1|move 2
+|
+|-curestatus|p2a: Mewtwo|slp
+|move|p1a: Mew|Swift|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|171\/293
+|
+|turn|67
+|choice|move 1|move 2
+|
+|move|p2a: Mewtwo|Ice Beam|p1a: Mew
+|-damage|p1a: Mew|142\/300
+|move|p1a: Mew|Swift|p2a: Mewtwo
+|-damage|p2a: Mewtwo|131\/293
+|
+|turn|68
+|choice|move 4|move 4
+|
+|move|p2a: Mewtwo|Rest|p2a: Mewtwo
+|-status|p2a: Mewtwo|slp
+|-heal|p2a: Mewtwo|293\/293 slp|[silent]
+|-status|p2a: Mewtwo|slp|[from] move: Rest
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|292\/300
+|
+|turn|69
+|choice|move 1|move 2
+|
+|cant|p2a: Mewtwo|slp
+|move|p1a: Mew|Swift|p2a: Mewtwo
+|-damage|p2a: Mewtwo|255\/293 slp
+|
+|turn|70
+|choice|move 1|move 2
+|
+|-curestatus|p2a: Mewtwo|slp
+|move|p1a: Mew|Swift|p2a: Mewtwo
+|-damage|p2a: Mewtwo|216\/293
+|
+|turn|71
+|choice|move 1|switch 6
+|
+|switch|p2a: Omanyte|Omanyte, L96|190\/262
+|move|p1a: Mew|Swift|p2a: Omanyte
+|-crit|p2a: Omanyte
+|-resisted|p2a: Omanyte
+|-damage|p2a: Omanyte|165\/262
+|
+|turn|72
+|choice|move 3|move 3
+|
+|move|p1a: Mew|Horn Drill|p2a: Omanyte
+|-damage|p2a: Omanyte|0 fnt
+|-ohko
+|faint|p2a: Omanyte
+|choice||switch 6
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|216\/293
+|turn|73
+|choice|move 1|move 1
+|
+|move|p2a: Mewtwo|Psychic|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|214\/300
+|move|p1a: Mew|Swift|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|133\/293
+|
+|turn|74
+|choice|move 1|move 4
+|
+|move|p2a: Mewtwo|Rest|p2a: Mewtwo
+|-status|p2a: Mewtwo|slp
+|-heal|p2a: Mewtwo|293\/293 slp|[silent]
+|-status|p2a: Mewtwo|slp|[from] move: Rest
+|move|p1a: Mew|Swift|p2a: Mewtwo
+|-damage|p2a: Mewtwo|257\/293 slp
+|
+|turn|75
+|choice|move 1|move 2
+|
+|cant|p2a: Mewtwo|slp
+|move|p1a: Mew|Swift|p2a: Mewtwo
+|-damage|p2a: Mewtwo|218\/293 slp
+|
+|turn|76
+|choice|move 1|move 2
+|
+|-curestatus|p2a: Mewtwo|slp
+|move|p1a: Mew|Swift|p2a: Mewtwo
+|-damage|p2a: Mewtwo|179\/293
+|
+|turn|77
+|choice|move 4|move 2
+|
+|move|p2a: Mewtwo|Ice Beam|p1a: Mew
+|-damage|p1a: Mew|112\/300
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|262\/300
+|
+|turn|78
+|choice|move 1|move 1
+|
+|move|p2a: Mewtwo|Psychic|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|187\/300
+|-unboost|p1a: Mew|spd|1
+|-unboost|p1a: Mew|spa|1
+|move|p1a: Mew|Swift|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|106\/293
+|
+|turn|79
+|choice|move 4|move 2
+|
+|move|p2a: Mewtwo|Ice Beam|p1a: Mew
+|-damage|p1a: Mew|42\/300
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|192\/300
+|
+|turn|80
+|choice|move 1|move 4
+|
+|move|p2a: Mewtwo|Rest|p2a: Mewtwo
+|-status|p2a: Mewtwo|slp
+|-heal|p2a: Mewtwo|293\/293 slp|[silent]
+|-status|p2a: Mewtwo|slp|[from] move: Rest
+|move|p1a: Mew|Swift|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|218\/293 slp
+|
+|turn|81
+|choice|move 1|move 2
+|
+|cant|p2a: Mewtwo|slp
+|move|p1a: Mew|Swift|p2a: Mewtwo
+|-damage|p2a: Mewtwo|179\/293 slp
+|
+|turn|82
+|choice|move 1|move 2
+|
+|-curestatus|p2a: Mewtwo|slp
+|move|p1a: Mew|Swift|p2a: Mewtwo
+|-damage|p2a: Mewtwo|138\/293
+|
+|turn|83
+|choice|move 4|move 1
+|
+|move|p2a: Mewtwo|Psychic|p1a: Mew
+|-crit|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|103\/300
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|253\/300
+|
+|turn|84
+|choice|move 1|move 2
+|
+|move|p2a: Mewtwo|Ice Beam|p1a: Mew
+|-damage|p1a: Mew|121\/300
+|move|p1a: Mew|Swift|p2a: Mewtwo
+|-damage|p2a: Mewtwo|96\/293
+|
+|turn|85
+|choice|move 1|move 4
+|
+|move|p2a: Mewtwo|Rest|p2a: Mewtwo
+|-status|p2a: Mewtwo|slp
+|-heal|p2a: Mewtwo|293\/293 slp|[silent]
+|-status|p2a: Mewtwo|slp|[from] move: Rest
+|move|p1a: Mew|Swift|p2a: Mewtwo
+|-damage|p2a: Mewtwo|254\/293 slp
+|
+|turn|86
+|choice|move 4|move 2
+|
+|cant|p2a: Mewtwo|slp
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|271\/300
+|
+|turn|87
+|choice|move 1|move 2
+|
+|-curestatus|p2a: Mewtwo|slp
+|move|p1a: Mew|Swift|p2a: Mewtwo
+|-damage|p2a: Mewtwo|212\/293
+|
+|turn|88
+|choice|move 1|move 3
+|
+|move|p2a: Mewtwo|Hyper Beam|p1a: Mew
+|-damage|p1a: Mew|183\/300
+|move|p1a: Mew|Swift|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|138\/293
+|
+|turn|89
+|-mustrecharge|p2a: Mewtwo
+|-mustrecharge|p2a: Mewtwo
+|choice|move 1|move 1
+|
+|cant|p2a: Mewtwo|recharge
+|move|p1a: Mew|Swift|p2a: Mewtwo
+|-damage|p2a: Mewtwo|96\/293
+|
+|turn|90
+|choice|switch 5|move 1
+|
+|switch|p1a: Exeggcute|Exeggcute, L96|280\/310
+|move|p2a: Mewtwo|Psychic|p1a: Exeggcute
+|-crit|p1a: Exeggcute
+|-resisted|p1a: Exeggcute
+|-damage|p1a: Exeggcute|186\/310
+|
+|turn|91
+|choice|move 2|move 4
+|
+|move|p2a: Mewtwo|Rest|p2a: Mewtwo
+|-status|p2a: Mewtwo|slp
+|-heal|p2a: Mewtwo|293\/293 slp|[silent]
+|-status|p2a: Mewtwo|slp|[from] move: Rest
+|move|p1a: Exeggcute|Explosion|p2a: Mewtwo
+|-damage|p2a: Mewtwo|65\/293 slp
+|faint|p1a: Exeggcute
+|choice|switch 4|
+|
+|switch|p1a: Persian|Persian, L79|105\/265
+|turn|92
+|choice|move 1|move 2
+|
+|move|p1a: Persian|Slash|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|0 fnt
+|faint|p2a: Mewtwo
+|
+|win|Amourson
+|c|★Amourson|That was a long and boring fight. XD
+|c|★Amourson|Have a nice day. ;)
+|leave|farmertome
+|player|p2
+|raw|Amourson's rating: 1406 &rarr; <strong>1419<\/strong><br \/>(+13 for winning)
+|raw|farmertome's rating: 1289 &rarr; <strong>1272<\/strong><br \/>(-17 for losing)

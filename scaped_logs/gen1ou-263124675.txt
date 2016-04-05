@@ -1,0 +1,76 @@
+﻿|join|Alexander
+|join|ashleylion
+|player|p1|Alexander|101
+|player|p2|ashleylion|102
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Venusaur|Venusaur|363\/363
+|turn|1
+|
+|move|p1a: Alakazam|Psychic|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|96\/363
+|-unboost|p2a: Venusaur|spd|1
+|-unboost|p2a: Venusaur|spa|1
+|move|p2a: Venusaur|Tackle|p1a: Alakazam
+|-damage|p1a: Alakazam|284\/313
+|
+|turn|2
+|
+|move|p1a: Alakazam|Psychic|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|faint|p2a: Venusaur
+|
+|switch|p2a: Charizard|Charizard|359\/359
+|turn|3
+|
+|move|p1a: Alakazam|Psychic|p2a: Charizard
+|-crit|p2a: Charizard
+|-damage|p2a: Charizard|82\/359
+|-unboost|p2a: Charizard|spd|1
+|-unboost|p2a: Charizard|spa|1
+|move|p2a: Charizard|Ember|p1a: Alakazam
+|-damage|p1a: Alakazam|260\/313
+|
+|turn|4
+|
+|move|p1a: Alakazam|Psychic|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|switch|p2a: Blastoise|Blastoise|361\/361
+|turn|5
+|
+|move|p1a: Alakazam|Psychic|p2a: Blastoise
+|-damage|p2a: Blastoise|228\/361
+|move|p2a: Blastoise|Tackle|p1a: Alakazam
+|-damage|p1a: Alakazam|227\/313
+|
+|turn|6
+|
+|move|p1a: Alakazam|Psychic|p2a: Blastoise
+|-damage|p2a: Blastoise|78\/361
+|move|p2a: Blastoise|Tackle|p1a: Alakazam
+|-damage|p1a: Alakazam|196\/313
+|
+|turn|7
+|
+|move|p1a: Alakazam|Psychic|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|
+|win|Alexander
+|raw|Alexander's rating: 1212 &rarr; <strong>1224<\/strong><br \/>(+12 for winning)
+|raw|ashleylion's rating: 1000 &rarr; <strong>1000<\/strong><br \/>(+0 for losing)

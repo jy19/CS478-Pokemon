@@ -1,0 +1,214 @@
+﻿|join|yaldyyyy
+|join|Pimplupz
+|player|p1|yaldyyyy|170
+|player|p2|Pimplupz|137
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Mew|Mew, L74|300\/300
+|switch|p2a: Sandslash|Sandslash, L85|301\/301
+|turn|1
+|
+|switch|p1a: Tangela|Tangela, L85|284\/284
+|move|p2a: Sandslash|Earthquake|p1a: Tangela
+|-resisted|p1a: Tangela
+|-damage|p1a: Tangela|235\/284
+|
+|turn|2
+|
+|switch|p2a: Flareon|Flareon, L90|300\/300
+|move|p1a: Tangela|Mega Drain|p2a: Flareon
+|-resisted|p2a: Flareon
+|-damage|p2a: Flareon|281\/300
+|-heal|p1a: Tangela|244\/284|[from] drain|[of] p2a: Flareon
+|
+|turn|3
+|
+|switch|p1a: Nidoqueen|Nidoqueen, L85|327\/327
+|move|p2a: Flareon|Fire Blast|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|144\/327
+|
+|turn|4
+|
+|move|p1a: Nidoqueen|Earthquake|p2a: Flareon
+|-supereffective|p2a: Flareon
+|-damage|p2a: Flareon|67\/300
+|move|p2a: Flareon|Fire Blast|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|0 fnt
+|faint|p1a: Nidoqueen
+|
+|switch|p1a: Kabuto|Kabuto, L96|252\/252
+|turn|5
+|
+|switch|p2a: Squirtle|Squirtle, L96|279\/279
+|move|p1a: Kabuto|Surf|p2a: Squirtle
+|-resisted|p2a: Squirtle
+|-damage|p2a: Squirtle|229\/279
+|
+|turn|6
+|
+|move|p1a: Kabuto|Slash|p2a: Squirtle
+|-crit|p2a: Squirtle
+|-damage|p2a: Squirtle|109\/279
+|move|p2a: Squirtle|Surf|p1a: Kabuto
+|-damage|p1a: Kabuto|139\/252
+|
+|turn|7
+|
+|move|p1a: Kabuto|Slash|p2a: Squirtle
+|-damage|p2a: Squirtle|48\/279
+|move|p2a: Squirtle|Surf|p1a: Kabuto
+|-damage|p1a: Kabuto|23\/252
+|
+|turn|8
+|
+|switch|p2a: Sandslash|Sandslash, L85|301\/301
+|move|p1a: Kabuto|Slash|p2a: Sandslash
+|-crit|p2a: Sandslash
+|-damage|p2a: Sandslash|205\/301
+|
+|turn|9
+|
+|move|p1a: Kabuto|Surf|p2a: Sandslash
+|-supereffective|p2a: Sandslash
+|-damage|p2a: Sandslash|3\/301
+|move|p2a: Sandslash|Earthquake|p1a: Kabuto
+|-supereffective|p1a: Kabuto
+|-damage|p1a: Kabuto|0 fnt
+|faint|p1a: Kabuto
+|
+|switch|p1a: Mew|Mew, L74|300\/300
+|turn|10
+|
+|move|p1a: Mew|Earthquake|p2a: Sandslash
+|-damage|p2a: Sandslash|0 fnt
+|faint|p2a: Sandslash
+|
+|switch|p2a: Fearow|Fearow, L90|300\/300
+|turn|11
+|
+|move|p2a: Fearow|Double-Edge|p1a: Mew
+|-crit|p1a: Mew
+|-damage|p1a: Mew|61\/300
+|-damage|p2a: Fearow|241\/300|[from] recoil|[of] p1a: Mew
+|move|p1a: Mew|Blizzard|p2a: Fearow
+|-supereffective|p2a: Fearow
+|-damage|p2a: Fearow|91\/300
+|-status|p2a: Fearow|frz
+|
+|turn|12
+|
+|cant|p2a: Fearow|frz
+|move|p1a: Mew|Thunderbolt|p2a: Fearow
+|-supereffective|p2a: Fearow
+|-damage|p2a: Fearow|0 fnt
+|faint|p2a: Fearow
+|
+|switch|p2a: Raticate|Raticate, L85|267\/267
+|turn|13
+|
+|switch|p1a: Tangela|Tangela, L85|244\/284
+|move|p2a: Raticate|Hyper Beam|p1a: Tangela
+|-damage|p1a: Tangela|123\/284
+|
+|turn|14
+|-mustrecharge|p2a: Raticate
+|-mustrecharge|p2a: Raticate
+|
+|cant|p2a: Raticate|recharge
+|move|p1a: Tangela|Stun Spore|p2a: Raticate
+|-status|p2a: Raticate|par
+|
+|turn|15
+|
+|move|p1a: Tangela|Mega Drain|p2a: Raticate
+|-damage|p2a: Raticate|209\/267 par
+|-heal|p1a: Tangela|152\/284|[from] drain|[of] p2a: Raticate
+|move|p2a: Raticate|Hyper Beam|p1a: Tangela
+|-damage|p1a: Tangela|26\/284
+|
+|turn|16
+|-mustrecharge|p2a: Raticate
+|-mustrecharge|p2a: Raticate
+|
+|switch|p1a: Hypno|Hypno, L85|318\/318
+|cant|p2a: Raticate|recharge
+|
+|turn|17
+|
+|move|p1a: Hypno|Psychic|p2a: Raticate
+|-damage|p2a: Raticate|56\/267 par
+|move|p2a: Raticate|Super Fang|p1a: Hypno
+|-damage|p1a: Hypno|159\/318
+|
+|turn|18
+|
+|move|p1a: Hypno|Psychic|p2a: Raticate
+|-damage|p2a: Raticate|0 fnt
+|faint|p2a: Raticate
+|
+|switch|p2a: Flareon|Flareon, L90|67\/300
+|turn|19
+|
+|move|p2a: Flareon|Fire Blast|p1a: Hypno
+|-damage|p1a: Hypno|39\/318
+|-status|p1a: Hypno|brn
+|move|p1a: Hypno|Psychic|p2a: Flareon
+|-damage|p2a: Flareon|0 fnt
+|faint|p2a: Flareon
+|
+|switch|p2a: Squirtle|Squirtle, L96|48\/279
+|turn|20
+|
+|move|p1a: Hypno|Psychic|p2a: Squirtle
+|-damage|p2a: Squirtle|0 fnt
+|faint|p2a: Squirtle
+|
+|switch|p2a: Primeape|Primeape, L90|300\/300
+|turn|21
+|
+|switch|p1a: Tangela|Tangela, L85|26\/284
+|move|p2a: Primeape|Body Slam|p1a: Tangela
+|-damage|p1a: Tangela|0 fnt
+|faint|p1a: Tangela
+|
+|switch|p1a: Charmeleon|Charmeleon, L85|272\/272
+|turn|22
+|
+|move|p2a: Primeape|Rock Slide|p1a: Charmeleon
+|-supereffective|p1a: Charmeleon
+|-damage|p1a: Charmeleon|108\/272
+|move|p1a: Charmeleon|Fire Blast|p2a: Primeape
+|-damage|p2a: Primeape|179\/300
+|
+|turn|23
+|
+|move|p2a: Primeape|Rock Slide|p1a: Charmeleon
+|-supereffective|p1a: Charmeleon
+|-damage|p1a: Charmeleon|0 fnt
+|faint|p1a: Charmeleon
+|
+|switch|p1a: Mew|Mew, L74|61\/300
+|turn|24
+|
+|move|p2a: Primeape|Body Slam|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|switch|p1a: Hypno|Hypno, L85|39\/318 brn
+|turn|25
+|
+|move|p2a: Primeape|Body Slam|p1a: Hypno
+|-damage|p1a: Hypno|0 fnt
+|faint|p1a: Hypno
+|
+|win|Pimplupz
+|raw|Ladder updating...
+|leave|yaldyyyy
+|player|p1

@@ -1,0 +1,142 @@
+﻿|j|Mandelbrot
+|j|michaelvey023
+|player|p1|Mandelbrot|101
+|player|p2|michaelvey023|101
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|seed|9589,7584,34062,2090
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|switch|p2a: Venusaur|Venusaur|363\/363
+|turn|1
+|choice|move 1|switch 2
+|
+|switch|p2a: Cloyster|Cloyster|303\/303
+|move|p1a: Exeggutor|Sleep Powder|p2a: Cloyster
+|-status|p2a: Cloyster|slp
+|
+|turn|2
+|choice|switch 4|switch 6
+|
+|switch|p2a: Dragonite|Dragonite|385\/385
+|switch|p1a: Lapras|Lapras|463\/463
+|
+|turn|3
+|choice|move 1|switch 4
+|
+|switch|p2a: HI!|Alakazam|313\/313
+|move|p1a: Lapras|Ice Beam|p2a: HI!
+|-damage|p2a: HI!|227\/313
+|-status|p2a: HI!|frz
+|
+|turn|4
+|c|★michaelvey023|NUUUUUUUUUUUUUU
+|choice|move 3|move 3
+|
+|cant|p2a: HI!|frz
+|move|p1a: Lapras|Body Slam|p2a: HI!
+|-damage|p2a: HI!|139\/313 frz
+|
+|turn|5
+|c|★Mandelbrot|yeah...
+|choice|move 3|move 3
+|
+|cant|p2a: HI!|frz
+|move|p1a: Lapras|Body Slam|p2a: HI!
+|-damage|p2a: HI!|41\/313 frz
+|
+|turn|6
+|choice|move 3|move 1
+|
+|cant|p2a: HI!|frz
+|move|p1a: Lapras|Body Slam|p2a: HI!
+|-damage|p2a: HI!|0 fnt
+|faint|p2a: HI!
+|choice||switch 5
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|turn|7
+|choice|move 4|move 4
+|
+|move|p1a: Lapras|Confuse Ray|p2a: Snorlax
+|-start|p2a: Snorlax|confusion
+|-activate|p2a: Snorlax|confusion
+|-damage|p2a: Snorlax|475\/523|[from] confusion
+|
+|turn|8
+|choice|move 1|move 4
+|
+|move|p1a: Lapras|Ice Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|329\/523
+|-activate|p2a: Snorlax|confusion
+|-damage|p2a: Snorlax|281\/523|[from] confusion
+|
+|turn|9
+|choice|move 1|move 4
+|
+|move|p1a: Lapras|Ice Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|130\/523
+|-activate|p2a: Snorlax|confusion
+|-damage|p2a: Snorlax|82\/523|[from] confusion
+|
+|turn|10
+|choice|move 1|move 4
+|
+|move|p1a: Lapras|Ice Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|choice||switch 4
+|
+|switch|p2a: Dragonite|Dragonite|385\/385
+|turn|11
+|choice|move 1|move 3
+|
+|move|p2a: Dragonite|Thunderbolt|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|310\/463
+|move|p1a: Lapras|Ice Beam|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|choice||switch 2
+|
+|switch|p2a: Venusaur|Venusaur|363\/363
+|turn|12
+|choice|move 1|move 1
+|
+|move|p2a: Venusaur|Leech Seed|p1a: Lapras
+|-start|p1a: Lapras|move: Leech Seed
+|move|p1a: Lapras|Ice Beam|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|127\/363
+|-damage|p1a: Lapras|282\/463|[from] Leech Seed|[of] p2a: Venusaur
+|-heal|p2a: Venusaur|155\/363|[silent]
+|
+|turn|13
+|choice|move 1|move 4
+|
+|move|p2a: Venusaur|Razor Leaf|p1a: Lapras
+|-crit|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|16\/463
+|move|p1a: Lapras|Ice Beam|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|faint|p2a: Venusaur
+|-message|michaelvey023 forfeited.
+|
+|win|Mandelbrot
+|player|p1
+|player|p2
+|l|michaelvey023
+|raw|Mandelbrot's rating: 1089 &rarr; <strong>1113<\/strong><br \/>(+24 for winning)
+|raw|michaelvey023's rating: 1057 &rarr; <strong>1040<\/strong><br \/>(-17 for losing)

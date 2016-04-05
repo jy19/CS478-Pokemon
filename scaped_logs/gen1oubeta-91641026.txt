@@ -1,0 +1,179 @@
+﻿|join|Tendoh
+|join|luc1993
+|player|p1|Tendoh|244
+|player|p2|luc1993|153
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|switch|p1a: Luma|Starmie|323\/323
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|turn|1
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Luma|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|616\/703
+|
+|turn|2
+|
+|switch|p1a: Whorey|Chansey|703\/703
+|move|p2a: Chansey|Thunder Wave|p1a: Whorey
+|-status|p1a: Whorey|par
+|
+|turn|3
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Whorey
+|-damage|p1a: Whorey|603\/703 par
+|move|p1a: Whorey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|539\/703
+|-status|p2a: Chansey|frz
+|
+|turn|4
+|
+|switch|p2a: Slowbro|Slowbro|393\/393
+|switch|p1a: Thor|Zapdos|383\/383
+|
+|turn|5
+|
+|switch|p2a: Rhydon|Rhydon|413\/413
+|move|p1a: Thor|Thunderbolt|p2a: Rhydon
+|-immune|p2a: Rhydon|[msg]
+|
+|turn|6
+|
+|switch|p1a: Hensel Sisters|Exeggutor|393\/393
+|move|p2a: Rhydon|Body Slam|p1a: Hensel Sisters
+|-damage|p1a: Hensel Sisters|298\/393
+|-status|p1a: Hensel Sisters|par
+|
+|turn|7
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Hensel Sisters|Sleep Powder|p2a: Exeggutor|[miss]
+|-miss|p1a: Hensel Sisters
+|
+|turn|8
+|
+|move|p2a: Exeggutor|Psychic|p1a: Hensel Sisters
+|-resisted|p1a: Hensel Sisters
+|-damage|p1a: Hensel Sisters|247\/393 par
+|move|p1a: Hensel Sisters|Sleep Powder|p2a: Exeggutor
+|-status|p2a: Exeggutor|slp
+|
+|turn|9
+|
+|cant|p2a: Exeggutor|slp
+|move|p1a: Hensel Sisters|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|338\/393 slp
+|
+|turn|10
+|
+|cant|p2a: Exeggutor|slp
+|move|p1a: Hensel Sisters|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|289\/393 slp
+|
+|turn|11
+|
+|cant|p2a: Exeggutor|slp
+|-curestatus|p2a: Exeggutor|slp
+|move|p1a: Hensel Sisters|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|239\/393
+|
+|turn|12
+|
+|move|p2a: Exeggutor|Explosion|p1a: Hensel Sisters
+|-damage|p1a: Hensel Sisters|0 fnt
+|faint|p1a: Hensel Sisters
+|faint|p2a: Exeggutor
+|
+|switch|p1a: Luma|Starmie|323\/323
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|13
+|
+|move|p1a: Luma|Surf|p2a: Tauros
+|-damage|p2a: Tauros|206\/353
+|move|p2a: Tauros|Body Slam|p1a: Luma
+|-damage|p1a: Luma|206\/323
+|-status|p1a: Luma|par
+|
+|turn|14
+|
+|move|p2a: Tauros|Body Slam|p1a: Luma
+|-crit|p1a: Luma
+|-damage|p1a: Luma|0 fnt
+|faint|p1a: Luma
+|
+|
+|switch|p1a: Corrida Killer|Tauros|353\/353
+|turn|15
+|
+|move|p1a: Corrida Killer|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|99\/353
+|-status|p2a: Tauros|par
+|move|p2a: Tauros|Body Slam|p1a: Corrida Killer
+|-crit|p1a: Corrida Killer
+|-damage|p1a: Corrida Killer|151\/353
+|-status|p1a: Corrida Killer|par
+|
+|turn|16
+|
+|move|p1a: Corrida Killer|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|
+|switch|p2a: Machamp|Machamp|383\/383
+|turn|17
+|
+|switch|p1a: Ness|Alakazam|313\/313
+|move|p2a: Machamp|Submission|p1a: Ness
+|-resisted|p1a: Ness
+|-damage|p1a: Ness|218\/313
+|-damage|p2a: Machamp|359\/383|[from] recoil|[of] p1a: Ness
+|
+|turn|18
+|
+|switch|p2a: Slowbro|Slowbro|393\/393
+|move|p1a: Ness|Psychic|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|316\/393
+|
+|turn|19
+|
+|switch|p1a: Thor|Zapdos|383\/383
+|move|p2a: Slowbro|Thunder Wave|p1a: Thor
+|-status|p1a: Thor|par
+|
+|turn|20
+|
+|switch|p2a: Rhydon|Rhydon|413\/413
+|move|p1a: Thor|Thunderbolt|p2a: Rhydon
+|-immune|p2a: Rhydon|[msg]
+|
+|turn|21
+|
+|switch|p1a: Ness|Alakazam|218\/313
+|move|p2a: Rhydon|Earthquake|p1a: Ness
+|-damage|p1a: Ness|0 fnt
+|faint|p1a: Ness
+|
+|-message|Tendoh forfeited.
+|
+|win|luc1993
+|raw|Ladder updating...
+|leave|Tendoh
+|player|p1
+|raw|Tendoh's rating: 1368 &rarr; <strong>1334<\/strong><br \/>(-34 for losing)
+|raw|luc1993's rating: 1228 &rarr; <strong>1263<\/strong><br \/>(+35 for winning)

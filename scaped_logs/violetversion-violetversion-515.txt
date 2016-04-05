@@ -1,0 +1,447 @@
+﻿|J|KristophV
+|J|Disaster Area
+|player|p1|KristophV|kristophv.png
+|player|p2|Disaster Area|32
+|gametype|singles
+|gen|1
+|tier|Violet Version
+|clearpoke
+|poke|p1|Butterfree
+|poke|p1|Tauros
+|poke|p1|Exeggutor
+|poke|p1|Magneton
+|poke|p1|Snorlax
+|poke|p1|Machamp
+|poke|p2|Kabutops
+|poke|p2|Chansey
+|poke|p2|Ninetales
+|poke|p2|Snorlax
+|poke|p2|Gengar
+|poke|p2|Tangela
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|c|★KristophV|kabutops
+|c|★Disaster Area|:P
+|c|★Disaster Area|gl hf
+|c|★Disaster Area|yep yet another
+|c|★KristophV|you too
+|c|★Disaster Area|underrated mon
+|c|★Disaster Area|it's pretty cool actually
+|c|★Disaster Area|I like it
+|c|★Disaster Area|rock is a great coverage type as well
+|c|★Disaster Area|has like no issue lol
+|c|★KristophV|yeah
+|c|★Disaster Area|also this team has 2 potential disablers
+|c|★Disaster Area|;~;
+|c|★Disaster Area|but 0 actual disable
+|c|★Disaster Area|lol
+|c|★Disaster Area|altho iirc
+|c|★Disaster Area|this ninetales
+|c|★KristophV|yeah but keep in mind you can't stack multiple disables
+|c|★Disaster Area|doesn't need disable
+|c|★Disaster Area|too badly
+|c|★Disaster Area|oh
+|c|★KristophV|in the way i want it to work
+|c|★KristophV|to avoid just such a situation
+|c|★KristophV|like disabling three different moves would be really devastating
+|c|★Disaster Area|yeah but it's hard to stack
+|c|★Disaster Area|disablers really
+|c|★Disaster Area|owel imo it's fine either way
+|c|★Disaster Area|imo do whichever turns out to be
+|c|★Disaster Area|easier to code
+|c|★KristophV|nah i definitely want it the way where it doesnt stack
+|c|★KristophV|the way it should work is
+|c|★KristophV|first disable acts as you'd expect
+|c|★Disaster Area|okay
+|c|★Disaster Area|fair :]
+|c|★KristophV|second disable does work, but overwrites the first one
+|c|★KristophV|3 pp
+|c|★KristophV|so there's still some advantage to having more than one disable because then you can swap from a suboptimal disabled move
+|c|★KristophV|to one that's more advantageous later in the match or whatever
+|
+|start
+|switch|p1a: Tauros|Tauros|353\/353
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|1
+|c|★Disaster Area|yeah but at the cost of a moveslot
+|c|★KristophV|yeah pretty doubtful that you'd actually do it but there's at least some advantage to be gained 
+|
+|switch|p1a: Magneton|Magneton|443\/443
+|move|p2a: Gengar|Hypnosis|p1a: Magneton|[miss]
+|-miss|p2a: Gengar
+|
+|turn|2
+|c|★KristophV|if it were stackable there would be other issues too like, how many pp do you let it have
+|c|★KristophV|probably just one
+|c|★KristophV|which is fine but then that's very rng dependent 
+|c|★KristophV|as opposed to the way it'll actually be, which will let you try again to get a better disable
+|c|★Disaster Area|i just wanted it to be
+|c|★Disaster Area|only one thing disabled
+|c|★Disaster Area|per pokemon
+|c|★Disaster Area|but extra pokemon mean u can disable more things out of a team
+|
+|move|p2a: Gengar|Hypnosis|p1a: Magneton
+|-status|p1a: Magneton|slp
+|cant|p1a: Magneton|slp
+|
+|turn|3
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: Gengar|Night Shade|p1a: Snorlax
+|-damage|p1a: Snorlax|423\/523
+|
+|turn|4
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|switch|p1a: Butterfree|Butterfree|343\/343
+|
+|turn|5
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|move|p1a: Butterfree|Sleep Powder|p2a: Gengar
+|-status|p2a: Gengar|slp
+|
+|turn|6
+|
+|switch|p2a: Ninetales|Ninetales|349\/349
+|switch|p1a: Snorlax|Snorlax|423\/523
+|
+|turn|7
+|
+|move|p2a: Ninetales|Fire Blast|p1a: Snorlax
+|-damage|p1a: Snorlax|242\/523
+|-status|p1a: Snorlax|brn
+|move|p1a: Snorlax|Body Slam|p2a: Ninetales
+|-damage|p2a: Ninetales|281\/349
+|-damage|p1a: Snorlax|210\/523 brn|[from] brn|[of] p2a: Ninetales
+|
+|turn|8
+|
+|move|p2a: Ninetales|Fire Spin|p1a: Snorlax
+|-damage|p1a: Snorlax|166\/523 brn
+|-activate|p1a: Snorlax|move: Fire Spin|[of] p2a: Ninetales
+|cant|p1a: Snorlax|partiallytrapped
+|-damage|p1a: Snorlax|134\/523 brn|[from] brn|[of] p2a: Ninetales
+|
+|turn|9
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|move|p2a: Ninetales|Fire Spin|p1a: Tauros
+|-damage|p1a: Tauros|309\/353
+|-activate|p1a: Tauros|move: Fire Spin|[of] p2a: Ninetales
+|
+|turn|10
+|
+|switch|p1a: Magneton|Magneton|443\/443 slp
+|move|p2a: Ninetales|Fire Spin|p1a: Magneton
+|-crit|p1a: Magneton
+|-resisted|p1a: Magneton
+|-damage|p1a: Magneton|415\/443 slp
+|-activate|p1a: Magneton|move: Fire Spin|[of] p2a: Ninetales
+|
+|turn|11
+|
+|move|p2a: Ninetales|Fire Spin|p1a: Magneton
+|-damage|p1a: Magneton|387\/443 slp
+|cant|p1a: Magneton|slp
+|
+|-end|p1a: Magneton|Fire Spin|[partiallytrapped]
+|turn|12
+|
+|move|p2a: Ninetales|Psychic|p1a: Magneton
+|-crit|p1a: Magneton
+|-damage|p1a: Magneton|196\/443 slp
+|-unboost|p1a: Magneton|spd|1
+|-unboost|p1a: Magneton|spa|1
+|cant|p1a: Magneton|slp
+|
+|turn|13
+|c|★Disaster Area|ouch
+|c|★Disaster Area|sorry
+|
+|switch|p1a: Snorlax|Snorlax|134\/523 brn
+|-damage|p1a: Snorlax|102\/523 brn|[from] brn
+|move|p2a: Ninetales|Psychic|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|switch|p1a: Tauros|Tauros|309\/353
+|turn|14
+|
+|move|p1a: Tauros|Body Slam|p2a: Ninetales
+|-crit|p2a: Ninetales
+|-damage|p2a: Ninetales|56\/349
+|move|p2a: Ninetales|Fire Blast|p1a: Tauros
+|-damage|p1a: Tauros|131\/353
+|
+|turn|15
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Tauros|Earthquake|p2a: Snorlax
+|-damage|p2a: Snorlax|412\/523
+|
+|turn|16
+|
+|switch|p1a: Machamp|Machamp|403\/403
+|move|p2a: Snorlax|Body Slam|p1a: Machamp
+|-damage|p1a: Machamp|291\/403
+|
+|turn|17
+|
+|switch|p2a: Tangela|Tangela|373\/373
+|move|p1a: Machamp|Earthquake|p2a: Tangela
+|-resisted|p2a: Tangela
+|-damage|p2a: Tangela|332\/373
+|
+|turn|18
+|
+|move|p2a: Tangela|Stun Spore|p1a: Machamp
+|-status|p1a: Machamp|par
+|move|p1a: Machamp|Body Slam|p2a: Tangela
+|-damage|p2a: Tangela|254\/373
+|-status|p2a: Tangela|par
+|
+|turn|19
+|
+|cant|p2a: Tangela|par
+|move|p1a: Machamp|Karate Chop|p2a: Tangela
+|-damage|p2a: Tangela|190\/373 par
+|
+|turn|20
+|
+|cant|p2a: Tangela|par
+|move|p1a: Machamp|Karate Chop|p2a: Tangela
+|-damage|p2a: Tangela|129\/373 par
+|
+|turn|21
+|c|★Disaster Area|is that still
+|c|★Disaster Area|a high crit move?
+|c|★KristophV|yeah
+|
+|move|p2a: Tangela|Mega Drain|p1a: Machamp
+|-damage|p1a: Machamp|234\/403 par
+|-heal|p2a: Tangela|186\/373 par|[from] drain|[of] p1a: Machamp
+|move|p1a: Machamp|Karate Chop|p2a: Tangela
+|-damage|p2a: Tangela|120\/373 par
+|
+|turn|22
+|c|★Disaster Area|hardly critted at all today
+|c|★KristophV|hmmmmm
+|
+|move|p2a: Tangela|Mega Drain|p1a: Machamp
+|-damage|p1a: Machamp|168\/403 par
+|-heal|p2a: Tangela|186\/373 par|[from] drain|[of] p1a: Machamp
+|move|p1a: Machamp|Karate Chop|p2a: Tangela
+|-crit|p2a: Tangela
+|-damage|p2a: Tangela|56\/373 par
+|
+|turn|23
+|c|★KristophV|ok
+|c|★KristophV|i think it has like 80% crit rate with machamp
+|c|★KristophV|so that wasn't like too ridiculous
+|c|★Disaster Area|yeah#
+|
+|move|p2a: Tangela|Mega Drain|p1a: Machamp
+|-damage|p1a: Machamp|110\/403 par
+|-heal|p2a: Tangela|114\/373 par|[from] drain|[of] p1a: Machamp
+|cant|p1a: Machamp|par
+|
+|turn|24
+|
+|move|p2a: Tangela|Mega Drain|p1a: Machamp
+|-damage|p1a: Machamp|51\/403 par
+|-heal|p2a: Tangela|173\/373 par|[from] drain|[of] p1a: Machamp
+|move|p1a: Machamp|Karate Chop|p2a: Tangela
+|-damage|p2a: Tangela|111\/373 par
+|
+|turn|25
+|
+|move|p2a: Tangela|Mega Drain|p1a: Machamp
+|-damage|p1a: Machamp|0 fnt
+|-heal|p2a: Tangela|162\/373 par|[from] drain|[of] p1a: Machamp
+|faint|p1a: Machamp
+|
+|switch|p1a: Tauros|Tauros|131\/353
+|turn|26
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Tangela
+|-damage|p2a: Tangela|0 fnt
+|faint|p2a: Tangela
+|
+|switch|p2a: Snorlax|Snorlax|412\/523
+|turn|27
+|
+|move|p1a: Tauros|Earthquake|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|203\/523
+|move|p2a: Snorlax|Counter|p1a: Tauros
+|-fail|p2a: Snorlax
+|
+|turn|28
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|turn|29
+|
+|switch|p1a: Butterfree|Butterfree|343\/343
+|move|p2a: Chansey|Thunder Wave|p1a: Butterfree
+|-status|p1a: Butterfree|par
+|
+|turn|30
+|
+|switch|p2a: Ninetales|Ninetales|56\/349
+|switch|p1a: Tauros|Tauros|131\/353
+|
+|turn|31
+|
+|move|p1a: Tauros|Body Slam|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|switch|p2a: Kabutops|Kabutops|323\/323
+|turn|32
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Kabutops|Rock Slide|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-damage|p1a: Exeggutor|164\/393
+|
+|turn|33
+|c|★KristophV|that was painful
+|c|★Disaster Area|Kabutops Rock Slide vs. Exeggutor on a critical hit: 219-258 (55.7 - 65.6%) -- guaranteed 2HKO
+|c|★Disaster Area|nb
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Exeggutor|Mega Drain|p2a: Chansey
+|-damage|p2a: Chansey|653\/703
+|-heal|p1a: Exeggutor|214\/393|[from] drain|[of] p2a: Chansey
+|
+|turn|34
+|
+|switch|p1a: Butterfree|Butterfree|343\/343 par
+|move|p2a: Chansey|Ice Beam|p1a: Butterfree
+|-damage|p1a: Butterfree|260\/343 par
+|
+|turn|35
+|
+|move|p2a: Chansey|Ice Beam|p1a: Butterfree
+|-damage|p1a: Butterfree|179\/343 par
+|move|p1a: Butterfree|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|553\/703
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|
+|turn|36
+|
+|switch|p2a: Gengar|Gengar|323\/323 slp
+|move|p1a: Butterfree|Leech Life|p2a: Gengar
+|-crit|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|291\/323 slp
+|-heal|p1a: Butterfree|211\/343 par|[from] drain|[of] p2a: Gengar
+|
+|turn|37
+|
+|switch|p2a: Kabutops|Kabutops|323\/323
+|move|p1a: Butterfree|Psychic|p2a: Kabutops
+|-crit|p2a: Kabutops
+|-damage|p2a: Kabutops|78\/323
+|
+|turn|38
+|c|★Disaster Area|._.
+|c|★Disaster Area|rip xD
+|
+|switch|p1a: Magneton|Magneton|196\/443 slp
+|move|p2a: Kabutops|Rock Slide|p1a: Magneton
+|-damage|p1a: Magneton|89\/443 slp
+|
+|turn|39
+|
+|move|p2a: Kabutops|Rock Slide|p1a: Magneton
+|-crit|p1a: Magneton
+|-damage|p1a: Magneton|0 fnt
+|faint|p1a: Magneton
+|
+|switch|p1a: Tauros|Tauros|131\/353
+|turn|40
+|c|★Disaster Area|damn this is tricky..
+|c|★Disaster Area|hmm
+|c|★Disaster Area|do I
+|c|★Disaster Area|hope for HB miss
+|c|★Disaster Area|or do I
+|c|★Disaster Area|hope for
+|c|★Disaster Area|a sleep powder miss
+|c|★Disaster Area|sleep powder I guess..
+|
+|switch|p2a: Gengar|Gengar|291\/323 slp
+|move|p1a: Tauros|Earthquake|p2a: Gengar
+|-crit|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|switch|p2a: Chansey|Chansey|553\/703
+|turn|41
+|c|★Disaster Area|basically tauros beating ninetales
+|c|★Disaster Area|won u the game
+|c|★Disaster Area|I think
+|c|★Disaster Area|that was the key
+|
+|move|p1a: Tauros|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|300\/703
+|-status|p2a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|
+|turn|42
+|c|★Disaster Area|turning point in the match
+|c|★Disaster Area|rly
+|
+|cant|p1a: Tauros|par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|651\/703 par
+|
+|turn|43
+|
+|move|p1a: Tauros|Body Slam|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|114\/703 par
+|move|p2a: Chansey|Ice Beam|p1a: Tauros
+|-damage|p1a: Tauros|37\/353 par
+|
+|turn|44
+|
+|switch|p2a: Kabutops|Kabutops|78\/323
+|move|p1a: Tauros|Earthquake|p2a: Kabutops
+|-supereffective|p2a: Kabutops
+|-damage|p2a: Kabutops|0 fnt
+|faint|p2a: Kabutops
+|
+|switch|p2a: Chansey|Chansey|114\/703 par
+|turn|45
+|c|★Disaster Area|gg
+|
+|cant|p1a: Tauros|par
+|cant|p2a: Chansey|par
+|
+|turn|46
+|
+|move|p1a: Tauros|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|win|KristophV
+|c|★KristophV|gg
+|c|★Disaster Area|tough match
+|c|★KristophV|these matches are hard
+|c|★Disaster Area|2 laxen
+|c|★Disaster Area|!
+|c|★Disaster Area|yeah

@@ -1,0 +1,423 @@
+﻿|j|Brendonfa
+|j|Dr. Fondle
+|player|p1|Brendonfa|229
+|player|p2|Dr. Fondle|229
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Seadra|Seadra, L90|100\/100
+|switch|p2a: Vileplume|Vileplume, L90|100\/100
+|turn|1
+|choice||
+|
+|switch|p2a: Vaporeon|Vaporeon, L85|100\/100
+|move|p1a: Seadra|Blizzard|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|91\/100
+|
+|turn|2
+|choice||
+|
+|move|p1a: Seadra|Smokescreen|p2a: Vaporeon
+|-unboost|p2a: Vaporeon|accuracy|1
+|move|p2a: Vaporeon|Blizzard|p1a: Seadra|[miss]
+|-miss|p2a: Vaporeon
+|
+|turn|3
+|choice||
+|
+|move|p1a: Seadra|Smokescreen|p2a: Vaporeon
+|-unboost|p2a: Vaporeon|accuracy|1
+|move|p2a: Vaporeon|Body Slam|p1a: Seadra|[miss]
+|-miss|p2a: Vaporeon
+|
+|turn|4
+|choice||
+|
+|move|p1a: Seadra|Smokescreen|p2a: Vaporeon
+|-unboost|p2a: Vaporeon|accuracy|1
+|move|p2a: Vaporeon|Body Slam|p1a: Seadra
+|-damage|p1a: Seadra|86\/100
+|-status|p1a: Seadra|par
+|
+|turn|5
+|choice||
+|
+|switch|p2a: Nidorina|Nidorina, L90|100\/100
+|move|p1a: Seadra|Blizzard|p2a: Nidorina
+|-damage|p2a: Nidorina|60\/100
+|
+|turn|6
+|choice||
+|
+|switch|p1a: Primeape|Primeape, L90|100\/100
+|move|p2a: Nidorina|Substitute|p2a: Nidorina
+|-start|p2a: Nidorina|Substitute
+|-damage|p2a: Nidorina|35\/100
+|
+|turn|7
+|choice||
+|
+|move|p1a: Primeape|Body Slam|p2a: Nidorina
+|-end|p2a: Nidorina|Substitute
+|move|p2a: Nidorina|Body Slam|p1a: Primeape
+|-damage|p1a: Primeape|81\/100
+|
+|turn|8
+|choice||
+|
+|switch|p2a: Sandslash|Sandslash, L85|100\/100
+|move|p1a: Primeape|Hyper Beam|p2a: Sandslash
+|-damage|p2a: Sandslash|66\/100
+|
+|turn|9
+|-mustrecharge|p1a: Primeape
+|-mustrecharge|p1a: Primeape
+|choice||
+|
+|cant|p1a: Primeape|recharge
+|move|p2a: Sandslash|Earthquake|p1a: Primeape
+|-damage|p1a: Primeape|39\/100
+|
+|turn|10
+|choice||
+|
+|switch|p1a: Articuno|Articuno, L79|100\/100
+|move|p2a: Sandslash|Earthquake|p1a: Articuno
+|-immune|p1a: Articuno|[msg]
+|
+|turn|11
+|choice||
+|
+|switch|p2a: Jigglypuff|Jigglypuff, L99|100\/100
+|move|p1a: Articuno|Blizzard|p2a: Jigglypuff
+|-damage|p2a: Jigglypuff|53\/100
+|
+|turn|12
+|choice||
+|
+|switch|p1a: Seadra|Seadra, L90|86\/100 par
+|move|p2a: Jigglypuff|Disable|p1a: Seadra|[miss]
+|-miss|p2a: Jigglypuff
+|
+|turn|13
+|choice||
+|
+|move|p2a: Jigglypuff|Disable|p1a: Seadra|[miss]
+|-miss|p2a: Jigglypuff
+|move|p1a: Seadra|Hydro Pump|p2a: Jigglypuff
+|-damage|p2a: Jigglypuff|4\/100
+|
+|turn|14
+|choice||
+|
+|move|p2a: Jigglypuff|Disable|p1a: Seadra
+|-start|p1a: Seadra|Disable|Hydro Pump
+|move|p1a: Seadra|Mimic|p2a: Jigglypuff
+|-start|p1a: Seadra|Mimic|Disable
+|
+|-end|p1a: Seadra|Disable
+|turn|15
+|choice||
+|
+|switch|p2a: Vaporeon|Vaporeon, L85|91\/100
+|move|p1a: Seadra|Hydro Pump|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|74\/100
+|
+|turn|16
+|choice||
+|
+|move|p2a: Vaporeon|Hydro Pump|p1a: Seadra
+|-resisted|p1a: Seadra
+|-damage|p1a: Seadra|65\/100 par
+|move|p1a: Seadra|Disable|p2a: Vaporeon
+|-start|p2a: Vaporeon|Disable|Blizzard
+|
+|turn|17
+|choice||
+|
+|move|p2a: Vaporeon|Body Slam|p1a: Seadra
+|-damage|p1a: Seadra|50\/100 par
+|cant|p1a: Seadra|par
+|
+|turn|18
+|choice||
+|
+|move|p2a: Vaporeon|Body Slam|p1a: Seadra
+|-damage|p1a: Seadra|35\/100 par
+|cant|p1a: Seadra|par
+|
+|-end|p2a: Vaporeon|Disable
+|turn|19
+|choice||
+|
+|move|p2a: Vaporeon|Body Slam|p1a: Seadra
+|-damage|p1a: Seadra|20\/100 par
+|move|p1a: Seadra|Hydro Pump|p2a: Vaporeon|[miss]
+|-miss|p1a: Seadra
+|
+|turn|20
+|choice||
+|
+|move|p2a: Vaporeon|Body Slam|p1a: Seadra
+|-damage|p1a: Seadra|4\/100 par
+|move|p1a: Seadra|Blizzard|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|64\/100
+|
+|turn|21
+|choice||
+|
+|move|p2a: Vaporeon|Body Slam|p1a: Seadra
+|-damage|p1a: Seadra|0 fnt
+|faint|p1a: Seadra
+|choice||
+|
+|switch|p1a: Primeape|Primeape, L90|39\/100
+|turn|22
+|c|★Dr. Fondle|ill trade u jigglypuff 4 articuno
+|choice||
+|
+|switch|p2a: Jigglypuff|Jigglypuff, L99|4\/100
+|move|p1a: Primeape|Hyper Beam|p2a: Jigglypuff
+|-crit|p2a: Jigglypuff
+|-damage|p2a: Jigglypuff|0 fnt
+|faint|p2a: Jigglypuff
+|choice||
+|
+|switch|p2a: Vileplume|Vileplume, L90|100\/100
+|turn|23
+|choice||
+|
+|move|p1a: Primeape|Body Slam|p2a: Vileplume
+|-damage|p2a: Vileplume|78\/100
+|move|p2a: Vileplume|Sleep Powder|p1a: Primeape
+|-status|p1a: Primeape|slp
+|
+|turn|24
+|c|★Brendonfa|?
+|choice||
+|
+|switch|p1a: Alakazam|Alakazam, L79|100\/100
+|move|p2a: Vileplume|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|63\/100
+|
+|turn|25
+|c|★Dr. Fondle|damn dude, ur team is good af
+|choice||
+|
+|switch|p2a: Nidorina|Nidorina, L90|35\/100
+|move|p1a: Alakazam|Reflect|p1a: Alakazam
+|-start|p1a: Alakazam|Reflect
+|
+|turn|26
+|c|★Brendonfa|yea it is lol
+|choice||
+|
+|move|p1a: Alakazam|Psychic|p2a: Nidorina
+|-crit|p2a: Nidorina
+|-supereffective|p2a: Nidorina
+|-damage|p2a: Nidorina|0 fnt
+|faint|p2a: Nidorina
+|c|★Brendonfa|my other 2 are good too
+|choice||
+|
+|switch|p2a: Jolteon|Jolteon, L79|100\/100
+|turn|27
+|c|★Dr. Fondle|i know u have a golem
+|c|★Dr. Fondle|or rhydon
+|choice||
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|6\/100
+|move|p1a: Alakazam|Psychic|p2a: Jolteon
+|-damage|p2a: Jolteon|66\/100
+|
+|turn|28
+|c|★Brendonfa|shit wasnt expecting the crit
+|choice||
+|
+|move|p2a: Jolteon|Pin Missile|p1a: Alakazam
+|-supereffective|p1a: Alakazam
+|-damage|p1a: Alakazam|1\/100
+|-damage|p1a: Alakazam|0 fnt
+|-hitcount|p1a: Alakazam|2
+|faint|p1a: Alakazam
+|choice||
+|
+|switch|p1a: Magmar|Magmar, L90|100\/100
+|turn|29
+|c|★Dr. Fondle|jesus
+|c|★Brendonfa|lol
+|choice||
+|
+|move|p2a: Jolteon|Thunder Wave|p1a: Magmar
+|-status|p1a: Magmar|par
+|move|p1a: Magmar|Body Slam|p2a: Jolteon
+|-damage|p2a: Jolteon|31\/100
+|
+|turn|30
+|choice||
+|
+|switch|p2a: Vaporeon|Vaporeon, L85|64\/100
+|move|p1a: Magmar|Body Slam|p2a: Vaporeon
+|-damage|p2a: Vaporeon|43\/100
+|
+|turn|31
+|choice||
+|
+|switch|p1a: Mewtwo|Mewtwo, L70|100\/100
+|move|p2a: Vaporeon|Hydro Pump|p1a: Mewtwo
+|-damage|p1a: Mewtwo|62\/100
+|
+|turn|32
+|c|★Dr. Fondle|ugh
+|c|★Brendonfa|lol
+|choice||
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|15\/100
+|move|p2a: Vaporeon|Blizzard|p1a: Mewtwo|[miss]
+|-miss|p2a: Vaporeon
+|
+|turn|33
+|c|★Dr. Fondle|hax time
+|c|★Dr. Fondle|sigh
+|choice||
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Vaporeon
+|-crit|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|faint|p2a: Vaporeon
+|choice||
+|
+|switch|p2a: Vileplume|Vileplume, L90|78\/100
+|turn|34
+|c|★Brendonfa|how do people hack this?
+|c|★Dr. Fondle|this is so unfair haha
+|choice||
+|
+|move|p1a: Mewtwo|Psychic|p2a: Vileplume
+|-crit|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|c|★Dr. Fondle|hax as in i wanted to freeze
+|c|★Dr. Fondle|u
+|c|★Brendonfa|ooooo
+|c|★Dr. Fondle|that crit helped
+|c|★Brendonfa|it did it really did
+|c|★Dr. Fondle|my lord, i was destined to lose
+|c|★Dr. Fondle|lol
+|c|★Dr. Fondle|this is so bogus
+|choice||
+|
+|switch|p2a: Jolteon|Jolteon, L79|31\/100
+|turn|35
+|c|★Brendonfa|yea this is probably the best team they ever gave me
+|choice||
+|
+|move|p2a: Jolteon|Thunder Wave|p1a: Mewtwo
+|-status|p1a: Mewtwo|par
+|move|p1a: Mewtwo|Thunder Wave|p2a: Jolteon
+|-status|p2a: Jolteon|par
+|
+|turn|36
+|choice||
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Mewtwo
+|-crit|p1a: Mewtwo
+|-damage|p1a: Mewtwo|5\/100 par
+|cant|p1a: Mewtwo|par
+|
+|turn|37
+|c|★Brendonfa|jolteon with those crits
+|choice||
+|
+|cant|p2a: Jolteon|par
+|cant|p1a: Mewtwo|par
+|
+|turn|38
+|choice||
+|
+|cant|p2a: Jolteon|par
+|move|p1a: Mewtwo|Psychic|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|choice||
+|
+|switch|p2a: Sandslash|Sandslash, L85|66\/100
+|turn|39
+|c|★Dr. Fondle|ugh
+|choice||
+|
+|move|p2a: Sandslash|Earthquake|p1a: Mewtwo
+|-damage|p1a: Mewtwo|0 fnt
+|faint|p1a: Mewtwo
+|choice||
+|
+|switch|p1a: Magmar|Magmar, L90|100\/100 par
+|turn|40
+|c|★Dr. Fondle|i was about to swords dance
+|c|★Dr. Fondle|up hoping you'd get para'd
+|c|★Dr. Fondle|but my luck this game has been absolutely awful
+|choice||
+|
+|move|p2a: Sandslash|Rock Slide|p1a: Magmar
+|-supereffective|p1a: Magmar
+|-damage|p1a: Magmar|57\/100 par
+|move|p1a: Magmar|Fire Blast|p2a: Sandslash
+|-damage|p2a: Sandslash|7\/100
+|
+|turn|41
+|c|★Brendonfa|you could try? lol
+|choice||
+|
+|move|p2a: Sandslash|Earthquake|p1a: Magmar
+|-supereffective|p1a: Magmar
+|-damage|p1a: Magmar|0 fnt
+|faint|p1a: Magmar
+|choice||
+|
+|switch|p1a: Articuno|Articuno, L79|100\/100
+|turn|42
+|c|★Dr. Fondle|u have to miss this
+|choice||
+|
+|move|p1a: Articuno|Blizzard|p2a: Sandslash|[miss]
+|-miss|p1a: Articuno
+|move|p2a: Sandslash|Rock Slide|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|33\/100
+|
+|turn|43
+|c|★Brendonfa|!!!
+|choice||
+|
+|move|p1a: Articuno|Blizzard|p2a: Sandslash
+|-supereffective|p2a: Sandslash
+|-damage|p2a: Sandslash|0 fnt
+|faint|p2a: Sandslash
+|
+|win|Brendonfa
+|player|p1
+|player|p2
+|c|★Brendonfa|another miss coming up
+|raw|Brendonfa's rating: 1368 &rarr; <strong>1391<\/strong><br \/>(+23 for winning)
+|raw|Dr. Fondle's rating: 1426 &rarr; <strong>1403<\/strong><br \/>(-23 for losing)
+|c|★Dr. Fondle|ugh
+|c|★Brendonfa|shoot nvm
+|c|★Dr. Fondle|gg
+|c|★Brendonfa|gg
+|l|Brendonfa

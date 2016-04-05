@@ -1,0 +1,305 @@
+﻿|j|Elite4Birm
+|j|Green Vessel
+|player|p1|Elite4Birm|10
+|player|p2|Green Vessel|198
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|59953,11799,22608,57102
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Meowth|Meowth, L96|272\/272
+|switch|p2a: Bellsprout|Bellsprout, L96|291\/291
+|turn|1
+|choice|move 1|move 1
+|
+|move|p1a: Meowth|Slash|p2a: Bellsprout
+|-crit|p2a: Bellsprout
+|-damage|p2a: Bellsprout|108\/291
+|move|p2a: Bellsprout|Sleep Powder|p1a: Meowth
+|-status|p1a: Meowth|slp
+|
+|turn|2
+|c|★Elite4Birm|ballsack
+|choice|switch 6|move 3
+|
+|switch|p1a: Zapdos|Zapdos, L79|304\/304
+|move|p2a: Bellsprout|Razor Leaf|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|252\/304
+|
+|turn|3
+|choice|move 2|move 2
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Bellsprout
+|-supereffective|p2a: Bellsprout
+|-damage|p2a: Bellsprout|0 fnt
+|faint|p2a: Bellsprout
+|choice||switch 2
+|
+|switch|p2a: Kakuna|Kakuna, L99|290\/290
+|turn|4
+|choice|switch 2|move 3
+|
+|switch|p1a: Slowbro|Slowbro, L79|312\/312
+|move|p2a: Kakuna|String Shot|p1a: Slowbro
+|-unboost|p1a: Slowbro|spe|1
+|
+|turn|5
+|choice|move 4|switch 6
+|
+|switch|p2a: Persian|Persian, L79|265\/265
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|
+|turn|6
+|choice|move 1|move 1
+|
+|move|p2a: Persian|Slash|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-damage|p1a: Slowbro|209\/312
+|move|p1a: Slowbro|Surf|p2a: Persian
+|-damage|p2a: Persian|66\/265
+|
+|turn|7
+|choice|move 1|move 1
+|
+|move|p2a: Persian|Slash|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-damage|p1a: Slowbro|116\/312
+|move|p1a: Slowbro|Surf|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|faint|p2a: Persian
+|choice||switch 3
+|
+|switch|p2a: Mew|Mew, L74|300\/300
+|turn|8
+|choice|move 1|move 1
+|
+|move|p2a: Mew|Hyper Beam|p1a: Slowbro
+|-damage|p1a: Slowbro|44\/312
+|move|p1a: Slowbro|Surf|p2a: Mew
+|-damage|p2a: Mew|142\/300
+|
+|turn|9
+|-mustrecharge|p2a: Mew
+|-mustrecharge|p2a: Mew
+|choice|move 1|move 1
+|
+|cant|p2a: Mew|recharge
+|move|p1a: Slowbro|Surf|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|choice||switch 4
+|
+|switch|p2a: Zapdos|Zapdos, L79|304\/304
+|turn|10
+|choice|switch 5|move 1
+|
+|switch|p1a: Rhydon|Rhydon, L79|328\/328
+|move|p2a: Zapdos|Drill Peck|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|297\/328
+|
+|turn|11
+|choice|move 1|switch 6
+|
+|switch|p2a: Kakuna|Kakuna, L99|290\/290
+|move|p1a: Rhydon|Substitute|p1a: Rhydon
+|-start|p1a: Rhydon|Substitute
+|-damage|p1a: Rhydon|215\/328
+|
+|turn|12
+|choice|move 4|move 3
+|
+|move|p2a: Kakuna|String Shot|p1a: Rhydon
+|-fail|p1a: Rhydon
+|move|p1a: Rhydon|Rock Slide|p2a: Kakuna
+|-supereffective|p2a: Kakuna
+|-damage|p2a: Kakuna|87\/290
+|
+|turn|13
+|choice|move 4|move 2
+|
+|move|p2a: Kakuna|Poison Sting|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-activate|p1a: Rhydon|Substitute|[damage]
+|move|p1a: Rhydon|Rock Slide|p2a: Kakuna
+|-supereffective|p2a: Kakuna
+|-damage|p2a: Kakuna|0 fnt
+|faint|p2a: Kakuna
+|choice||switch 5
+|
+|switch|p2a: Lapras|Lapras, L79|367\/367
+|turn|14
+|choice|move 4|move 3
+|
+|move|p2a: Lapras|Blizzard|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-end|p1a: Rhydon|Substitute
+|move|p1a: Rhydon|Rock Slide|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|175\/367
+|
+|turn|15
+|choice|move 4|move 3
+|
+|move|p2a: Lapras|Blizzard|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|choice|switch 2|
+|
+|switch|p1a: Zapdos|Zapdos, L79|252\/304
+|turn|16
+|choice|move 4|move 3
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|choice||switch 6
+|
+|switch|p2a: Zapdos|Zapdos, L79|304\/304
+|turn|17
+|choice|move 4|move 3
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Zapdos
+|-damage|p2a: Zapdos|215\/304
+|move|p2a: Zapdos|Thunder Wave|p1a: Zapdos
+|-status|p1a: Zapdos|par
+|
+|turn|18
+|choice|move 4|move 2
+|
+|move|p2a: Zapdos|Agility|p2a: Zapdos
+|-boost|p2a: Zapdos|spe|2
+|move|p1a: Zapdos|Thunderbolt|p2a: Zapdos
+|-damage|p2a: Zapdos|134\/304
+|
+|turn|19
+|choice|move 4|move 4
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Zapdos
+|-damage|p1a: Zapdos|162\/304 par
+|cant|p1a: Zapdos|par
+|
+|turn|20
+|choice|move 3|move 4
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Zapdos
+|-damage|p1a: Zapdos|78\/304 par
+|cant|p1a: Zapdos|par
+|
+|turn|21
+|choice|move 3|move 4
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|choice|switch 4|
+|
+|switch|p1a: Jolteon|Jolteon, L79|265\/265
+|turn|22
+|choice|move 1|move 3
+|
+|move|p2a: Zapdos|Thunder Wave|p1a: Jolteon
+|-status|p1a: Jolteon|par
+|move|p1a: Jolteon|Thunderbolt|p2a: Zapdos
+|-damage|p2a: Zapdos|57\/304
+|
+|turn|23
+|choice|move 1|move 1
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Jolteon
+|-resisted|p1a: Jolteon
+|-damage|p1a: Jolteon|215\/265 par
+|cant|p1a: Jolteon|par
+|
+|turn|24
+|choice|move 1|move 4
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Jolteon
+|-crit|p1a: Jolteon
+|-resisted|p1a: Jolteon
+|-damage|p1a: Jolteon|120\/265 par
+|cant|p1a: Jolteon|par
+|
+|turn|25
+|choice|move 1|move 4
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Jolteon
+|-resisted|p1a: Jolteon
+|-damage|p1a: Jolteon|75\/265 par
+|cant|p1a: Jolteon|par
+|
+|turn|26
+|choice|move 1|move 4
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Jolteon
+|-resisted|p1a: Jolteon
+|-damage|p1a: Jolteon|28\/265 par
+|cant|p1a: Jolteon|par
+|
+|turn|27
+|c|★Elite4Birm|dude thats fucked
+|choice|move 1|move 4
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Jolteon
+|-resisted|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|choice|switch 3|
+|
+|switch|p1a: Metapod|Metapod, L99|300\/300
+|turn|28
+|choice|move 2|move 4
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Metapod
+|-crit|p1a: Metapod
+|-damage|p1a: Metapod|0 fnt
+|faint|p1a: Metapod
+|choice|switch 6|
+|
+|switch|p1a: Meowth|Meowth, L96|272\/272 slp
+|turn|29
+|choice|move 1|move 4
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Meowth
+|-crit|p1a: Meowth
+|-damage|p1a: Meowth|6\/272 slp
+|cant|p1a: Meowth|slp
+|
+|turn|30
+|choice|move 1|move 1
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Meowth
+|-damage|p1a: Meowth|0 fnt
+|faint|p1a: Meowth
+|c|★Elite4Birm|4 in a row paralysis
+|c|★Elite4Birm|bull shit
+|choice|switch 5|
+|
+|switch|p1a: Slowbro|Slowbro, L79|44\/312
+|turn|31
+|c|★Green Vessel|Did you think you had won?
+|c|★Green Vessel|Zapdos'd.
+|c|★Elite4Birm|i certainly had you right where I wanted you
+|choice|move 1|move 4
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|
+|win|Green Vessel
+|raw|Elite4Birm's rating: 1285 &rarr; <strong>1262<\/strong><br \/>(-23 for losing)
+|raw|Green Vessel's rating: 1305 &rarr; <strong>1324<\/strong><br \/>(+19 for winning)
+|c|★Elite4Birm|i took a zap dos earlier
+|c|★Elite4Birm|gg

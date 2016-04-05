@@ -1,0 +1,890 @@
+﻿|join|Mirabel
+|join|Erik Reeds
+|player|p1|Mirabel|260
+|player|p2|Erik Reeds|244
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Custom Game
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Haunter|Haunter|293\/293
+|switch|p2a: Hypno|Hypno|373\/373
+|turn|1
+|
+|move|p1a: Haunter|Hypnosis|p2a: Hypno
+|debug|randBW(256) = 42
+|-status|p2a: Hypno|slp
+|debug|randBW(1, 7) = 2
+|cant|p2a: Hypno|slp
+|
+|turn|2
+|
+|move|p1a: Haunter|Confuse Ray|p2a: Hypno
+|debug|randBW(256) = 172
+|-start|p2a: Hypno|confusion
+|debug|randBW(2, 6) = 3
+|-curestatus|p2a: Hypno|slp
+|
+|turn|3
+|
+|move|p1a: Haunter|Hypnosis|p2a: Hypno|[miss]
+|debug|randBW(256) = 176
+|-miss|p1a: Haunter
+|-activate|p2a: Hypno|confusion
+|debug|randBW(256) = 105
+|move|p2a: Hypno|Psychic|p1a: Haunter
+|debug|randBW(256) = 207
+|debug|randBW(256) = 142
+|-supereffective|p1a: Haunter
+|debug|randBW(217, 256) = 227
+|-damage|p1a: Haunter|89\/293
+|debug|randBW(256) = 86
+|
+|turn|4
+|
+|move|p1a: Haunter|Hypnosis|p2a: Hypno
+|debug|randBW(256) = 59
+|-status|p2a: Hypno|slp
+|debug|randBW(1, 7) = 3
+|cant|p2a: Hypno|slp
+|
+|turn|5
+|
+|switch|p1a: Kadabra|Kadabra|283\/283
+|cant|p2a: Hypno|slp
+|
+|turn|6
+|
+|move|p1a: Kadabra|Psychic|p2a: Hypno
+|debug|randBW(256) = 217
+|debug|randBW(256) = 224
+|-resisted|p2a: Hypno
+|debug|randBW(217, 256) = 236
+|-damage|p2a: Hypno|319\/373 slp
+|debug|randBW(256) = 159
+|-curestatus|p2a: Hypno|slp
+|
+|turn|7
+|
+|move|p1a: Kadabra|Psychic|p2a: Hypno
+|debug|randBW(256) = 215
+|debug|randBW(256) = 233
+|-resisted|p2a: Hypno
+|debug|randBW(217, 256) = 235
+|-damage|p2a: Hypno|265\/373
+|debug|randBW(256) = 30
+|-unboost|p2a: Hypno|spd|1
+|-unboost|p2a: Hypno|spa|1
+|-activate|p2a: Hypno|confusion
+|debug|randBW(256) = 31
+|move|p2a: Hypno|Hypnosis|p1a: Kadabra|[miss]
+|debug|randBW(256) = 239
+|-miss|p2a: Hypno
+|
+|turn|8
+|
+|switch|p1a: Haunter|Haunter|89\/293
+|-end|p2a: Hypno|confusion
+|move|p2a: Hypno|Thunder Wave|p1a: Haunter
+|debug|randBW(256) = 150
+|-status|p1a: Haunter|par
+|
+|turn|9
+|
+|switch|p1a: Kadabra|Kadabra|283\/283
+|move|p2a: Hypno|Psychic|p1a: Kadabra
+|debug|randBW(256) = 232
+|debug|randBW(256) = 33
+|-resisted|p1a: Kadabra
+|debug|randBW(217, 256) = 222
+|-damage|p1a: Kadabra|251\/283
+|debug|randBW(256) = 206
+|
+|turn|10
+|
+|move|p1a: Kadabra|Thunder Wave|p2a: Hypno
+|debug|randBW(256) = 194
+|-status|p2a: Hypno|par
+|debug|randBW(256) = 18
+|cant|p2a: Hypno|par
+|
+|turn|11
+|
+|move|p1a: Kadabra|Reflect|p1a: Kadabra
+|-start|p1a: Kadabra|Reflect
+|debug|randBW(256) = 229
+|move|p2a: Hypno|Thunder Wave|p1a: Kadabra
+|debug|randBW(256) = 8
+|-status|p1a: Kadabra|par
+|
+|turn|12
+|
+|debug|randBW(256) = 254
+|move|p1a: Kadabra|Thunder Wave|p2a: Hypno
+|debug|randBW(256) = 47
+|-fail|p2a: Hypno|par
+|debug|randBW(256) = 111
+|move|p2a: Hypno|Rest|p2a: Hypno
+|-status|p2a: Hypno|slp
+|debug|randBW(1, 7) = 6
+|-heal|p2a: Hypno|373\/373 slp|[silent]
+|-status|p2a: Hypno|slp|[from] move: Rest
+|
+|turn|13
+|
+|switch|p1a: Moltres|Moltres|383\/383
+|switch|p2a: Moltres|Moltres|383\/383
+|
+|turn|14
+|
+|switch|p2a: Gyarados|Gyarados|393\/393
+|move|p1a: Moltres|Reflect|p1a: Moltres
+|-start|p1a: Moltres|Reflect
+|
+|turn|15
+|
+|switch|p1a: Electabuzz|Electabuzz|333\/333
+|move|p2a: Gyarados|Surf|p1a: Electabuzz
+|debug|randBW(256) = 243
+|debug|randBW(256) = 175
+|debug|randBW(217, 256) = 231
+|-damage|p1a: Electabuzz|211\/333
+|
+|turn|16
+|
+|switch|p2a: Nidoking|Nidoking|365\/365
+|move|p1a: Electabuzz|Thunder Wave|p2a: Nidoking
+|debug|natural immunity
+|-immune|p2a: Nidoking|[msg]
+|
+|turn|17
+|
+|move|p1a: Electabuzz|Psychic|p2a: Nidoking
+|debug|randBW(256) = 110
+|debug|randBW(256) = 24
+|-crit|p2a: Nidoking
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|-supereffective|p2a: Nidoking
+|debug|randBW(217, 256) = 254
+|-damage|p2a: Nidoking|45\/365
+|debug|randBW(256) = 34
+|-unboost|p2a: Nidoking|spd|1
+|-unboost|p2a: Nidoking|spa|1
+|move|p2a: Nidoking|Body Slam|p1a: Electabuzz
+|debug|randBW(256) = 53
+|debug|randBW(256) = 192
+|debug|randBW(217, 256) = 232
+|-damage|p1a: Electabuzz|124\/333
+|debug|randBW(256) = 120
+|
+|turn|18
+|
+|switch|p2a: Hypno|Hypno|373\/373 slp
+|move|p1a: Electabuzz|Psychic|p2a: Hypno
+|debug|randBW(256) = 109
+|debug|randBW(256) = 141
+|-resisted|p2a: Hypno
+|debug|randBW(217, 256) = 252
+|-damage|p2a: Hypno|343\/373 slp
+|debug|randBW(256) = 240
+|
+|turn|19
+|
+|move|p1a: Electabuzz|Seismic Toss|p2a: Hypno
+|debug|randBW(256) = 124
+|-damage|p2a: Hypno|243\/373 slp
+|cant|p2a: Hypno|slp
+|
+|turn|20
+|
+|move|p1a: Electabuzz|Seismic Toss|p2a: Hypno
+|debug|randBW(256) = 197
+|-damage|p2a: Hypno|143\/373 slp
+|-curestatus|p2a: Hypno|slp
+|
+|turn|21
+|
+|move|p1a: Electabuzz|Thunder Wave|p2a: Hypno
+|debug|randBW(256) = 83
+|-status|p2a: Hypno|par
+|debug|randBW(256) = 116
+|move|p2a: Hypno|Thunder Wave|p1a: Electabuzz
+|debug|randBW(256) = 203
+|-status|p1a: Electabuzz|par
+|
+|turn|22
+|
+|debug|randBW(256) = 106
+|move|p1a: Electabuzz|Seismic Toss|p2a: Hypno
+|debug|randBW(256) = 122
+|-damage|p2a: Hypno|43\/373 par
+|debug|randBW(256) = 134
+|move|p2a: Hypno|Rest|p2a: Hypno
+|-status|p2a: Hypno|slp
+|debug|randBW(1, 7) = 3
+|-heal|p2a: Hypno|373\/373 slp|[silent]
+|-status|p2a: Hypno|slp|[from] move: Rest
+|
+|turn|23
+|
+|debug|randBW(256) = 14
+|cant|p1a: Electabuzz|par
+|cant|p2a: Hypno|slp
+|
+|turn|24
+|c|★Erik Reeds|hypno is pretty good in this meta
+|
+|debug|randBW(256) = 189
+|move|p1a: Electabuzz|Seismic Toss|p2a: Hypno
+|debug|randBW(256) = 133
+|-damage|p2a: Hypno|273\/373 slp
+|-curestatus|p2a: Hypno|slp
+|
+|turn|25
+|c|★Mirabel|so it seems
+|c|★Mirabel|no real threat to it
+|
+|debug|randBW(256) = 46
+|cant|p1a: Electabuzz|par
+|move|p2a: Hypno|Psychic|p1a: Electabuzz
+|debug|randBW(256) = 134
+|debug|randBW(256) = 141
+|debug|randBW(217, 256) = 238
+|-damage|p1a: Electabuzz|0 fnt
+|debug|randBW(256) = 202
+|faint|p1a: Electabuzz
+|
+|switch|p1a: Kadabra|Kadabra|251\/283 par
+|turn|26
+|
+|switch|p2a: Nidoking|Nidoking|45\/365
+|debug|randBW(256) = 2
+|cant|p1a: Kadabra|par
+|
+|turn|27
+|
+|move|p2a: Nidoking|Earthquake|p1a: Kadabra
+|debug|randBW(256) = 113
+|debug|randBW(256) = 82
+|debug|randBW(217, 256) = 250
+|-damage|p1a: Kadabra|28\/283 par
+|debug|randBW(256) = 77
+|move|p1a: Kadabra|Psychic|p2a: Nidoking
+|debug|randBW(256) = 117
+|debug|randBW(256) = 1
+|-crit|p2a: Nidoking
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|-supereffective|p2a: Nidoking
+|debug|randBW(217, 256) = 237
+|-damage|p2a: Nidoking|0 fnt
+|debug|randBW(256) = 201
+|faint|p2a: Nidoking
+|
+|switch|p2a: Gyarados|Gyarados|393\/393
+|turn|28
+|
+|switch|p1a: Haunter|Haunter|89\/293 par
+|move|p2a: Gyarados|Surf|p1a: Haunter
+|debug|randBW(256) = 163
+|debug|randBW(256) = 65
+|debug|randBW(217, 256) = 250
+|-damage|p1a: Haunter|0 fnt
+|faint|p1a: Haunter
+|
+|switch|p1a: Kadabra|Kadabra|28\/283 par
+|turn|29
+|c|★Mirabel|Think I might end up needing to run hyp
+|
+|move|p2a: Gyarados|Surf|p1a: Kadabra
+|debug|randBW(256) = 225
+|debug|randBW(256) = 61
+|debug|randBW(217, 256) = 219
+|-damage|p1a: Kadabra|0 fnt
+|faint|p1a: Kadabra
+|
+|switch|p1a: Dodrio|Dodrio|323\/323
+|turn|30
+|
+|move|p1a: Dodrio|Body Slam|p2a: Gyarados
+|debug|randBW(256) = 42
+|debug|randBW(256) = 25
+|-crit|p2a: Gyarados
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|debug|randBW(217, 256) = 221
+|-damage|p2a: Gyarados|167\/393
+|debug|randBW(256) = 138
+|move|p2a: Gyarados|Thunderbolt|p1a: Dodrio
+|debug|randBW(256) = 6
+|debug|randBW(256) = 125
+|-supereffective|p1a: Dodrio
+|debug|randBW(217, 256) = 248
+|-damage|p1a: Dodrio|108\/323
+|debug|randBW(256) = 107
+|
+|turn|31
+|
+|move|p1a: Dodrio|Body Slam|p2a: Gyarados
+|debug|randBW(256) = 248
+|debug|randBW(256) = 14
+|-crit|p2a: Gyarados
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|debug|randBW(217, 256) = 217
+|-damage|p2a: Gyarados|0 fnt
+|debug|randBW(256) = 128
+|faint|p2a: Gyarados
+|
+|switch|p2a: Clefable|Clefable|393\/393
+|turn|32
+|
+|move|p1a: Dodrio|Hyper Beam|p2a: Clefable|[miss]
+|debug|randBW(256) = 247
+|-miss|p1a: Dodrio
+|move|p2a: Clefable|Blizzard|p1a: Dodrio
+|debug|randBW(256) = 108
+|debug|randBW(256) = 218
+|-supereffective|p1a: Dodrio
+|debug|randBW(217, 256) = 244
+|-damage|p1a: Dodrio|0 fnt
+|debug|randBW(256) = 3
+|faint|p1a: Dodrio
+|
+|switch|p1a: Moltres|Moltres|383\/383
+|turn|33
+|
+|move|p1a: Moltres|Substitute|p1a: Moltres
+|-start|p1a: Moltres|Substitute
+|-damage|p1a: Moltres|288\/383
+|move|p2a: Clefable|Thunder Wave|p1a: Moltres
+|debug|randBW(256) = 104
+|-status|p1a: Moltres|par
+|
+|turn|34
+|c|★Mirabel|wat
+|c|★Erik Reeds|bruh
+|c|★Erik Reeds|sub is trash in gen 1
+|c|★Erik Reeds|just go
+|c|★Mirabel|I just don't know how it works lol
+|c|★Erik Reeds|agility\/spin\/blast\/beam
+|
+|move|p2a: Clefable|Body Slam|p1a: Moltres
+|debug|randBW(256) = 231
+|debug|randBW(256) = 58
+|debug|randBW(217, 256) = 237
+|-activate|p1a: Moltres|Substitute|[damage]
+|debug|randBW(256) = 169
+|debug|randBW(256) = 144
+|move|p1a: Moltres|Reflect|p1a: Moltres
+|-start|p1a: Moltres|Reflect
+|
+|turn|35
+|
+|move|p2a: Clefable|Body Slam|p1a: Moltres
+|debug|randBW(256) = 20
+|debug|randBW(256) = 19
+|debug|Screen doubling (Sp)Def
+|-crit|p1a: Moltres
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|debug|randBW(217, 256) = 251
+|-end|p1a: Moltres|Substitute
+|debug|randBW(256) = 143
+|debug|randBW(256) = 57
+|cant|p1a: Moltres|par
+|
+|turn|36
+|
+|move|p2a: Clefable|Blizzard|p1a: Moltres
+|debug|randBW(256) = 165
+|debug|randBW(256) = 62
+|-supereffective|p1a: Moltres
+|debug|randBW(217, 256) = 238
+|-damage|p1a: Moltres|141\/383 par
+|debug|randBW(256) = 43
+|debug|randBW(256) = 72
+|move|p1a: Moltres|Substitute|p1a: Moltres
+|-start|p1a: Moltres|Substitute
+|-damage|p1a: Moltres|46\/383 par
+|
+|turn|37
+|
+|move|p2a: Clefable|Blizzard|p1a: Moltres
+|debug|randBW(256) = 135
+|debug|randBW(256) = 218
+|-supereffective|p1a: Moltres
+|debug|randBW(217, 256) = 247
+|-end|p1a: Moltres|Substitute
+|debug|randBW(256) = 34
+|debug|randBW(256) = 254
+|move|p1a: Moltres|Rest|p1a: Moltres
+|-status|p1a: Moltres|slp
+|debug|randBW(1, 7) = 3
+|-heal|p1a: Moltres|383\/383 slp|[silent]
+|-status|p1a: Moltres|slp|[from] move: Rest
+|
+|turn|38
+|
+|switch|p2a: Moltres|Moltres|383\/383
+|cant|p1a: Moltres|slp
+|
+|turn|39
+|
+|move|p2a: Moltres|Agility|p2a: Moltres
+|-boost|p2a: Moltres|spe|2
+|-curestatus|p1a: Moltres|slp
+|
+|turn|40
+|
+|move|p2a: Moltres|Fire Spin|p1a: Moltres
+|debug|randBW(256) = 155
+|debug|randBW(256) = 8
+|-crit|p1a: Moltres
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|-resisted|p1a: Moltres
+|debug|randBW(217, 256) = 237
+|-damage|p1a: Moltres|366\/383
+|-activate|p1a: Moltres|move: Fire Spin|[of] p2a: Moltres
+|debug|randBW(8) = 1
+|cant|p1a: Moltres|partiallytrapped
+|
+|turn|41
+|
+|move|p2a: Moltres|Fire Spin|p1a: Moltres
+|-damage|p1a: Moltres|349\/383
+|cant|p1a: Moltres|partiallytrapped
+|
+|-end|p1a: Moltres|Fire Spin|[partiallytrapped]
+|turn|42
+|
+|move|p2a: Moltres|Fire Spin|p1a: Moltres
+|debug|randBW(256) = 2
+|debug|randBW(256) = 61
+|-resisted|p1a: Moltres
+|debug|randBW(217, 256) = 232
+|-damage|p1a: Moltres|340\/383
+|-activate|p1a: Moltres|move: Fire Spin|[of] p2a: Moltres
+|debug|randBW(8) = 7
+|cant|p1a: Moltres|partiallytrapped
+|
+|turn|43
+|
+|move|p2a: Moltres|Fire Spin|p1a: Moltres
+|-damage|p1a: Moltres|331\/383
+|cant|p1a: Moltres|partiallytrapped
+|
+|turn|44
+|
+|move|p2a: Moltres|Fire Spin|p1a: Moltres
+|-damage|p1a: Moltres|322\/383
+|cant|p1a: Moltres|partiallytrapped
+|
+|turn|45
+|
+|move|p2a: Moltres|Fire Spin|p1a: Moltres
+|-damage|p1a: Moltres|313\/383
+|cant|p1a: Moltres|partiallytrapped
+|
+|turn|46
+|
+|move|p2a: Moltres|Fire Spin|p1a: Moltres
+|-damage|p1a: Moltres|304\/383
+|cant|p1a: Moltres|partiallytrapped
+|
+|-end|p1a: Moltres|Fire Spin|[partiallytrapped]
+|turn|47
+|
+|move|p2a: Moltres|Fire Spin|p1a: Moltres
+|debug|randBW(256) = 112
+|debug|randBW(256) = 14
+|-crit|p1a: Moltres
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|-resisted|p1a: Moltres
+|debug|randBW(217, 256) = 234
+|-damage|p1a: Moltres|287\/383
+|-activate|p1a: Moltres|move: Fire Spin|[of] p2a: Moltres
+|debug|randBW(8) = 4
+|cant|p1a: Moltres|partiallytrapped
+|
+|turn|48
+|
+|move|p2a: Moltres|Fire Spin|p1a: Moltres
+|-damage|p1a: Moltres|270\/383
+|cant|p1a: Moltres|partiallytrapped
+|
+|turn|49
+|
+|move|p2a: Moltres|Fire Spin|p1a: Moltres
+|-damage|p1a: Moltres|253\/383
+|cant|p1a: Moltres|partiallytrapped
+|
+|-end|p1a: Moltres|Fire Spin|[partiallytrapped]
+|turn|50
+|
+|move|p2a: Moltres|Fire Spin|p1a: Moltres
+|debug|randBW(256) = 149
+|debug|randBW(256) = 55
+|-resisted|p1a: Moltres
+|debug|randBW(217, 256) = 225
+|-damage|p1a: Moltres|245\/383
+|-activate|p1a: Moltres|move: Fire Spin|[of] p2a: Moltres
+|debug|randBW(8) = 6
+|cant|p1a: Moltres|partiallytrapped
+|
+|turn|51
+|
+|move|p2a: Moltres|Fire Spin|p1a: Moltres
+|-damage|p1a: Moltres|237\/383
+|cant|p1a: Moltres|partiallytrapped
+|
+|turn|52
+|
+|move|p2a: Moltres|Fire Spin|p1a: Moltres
+|-damage|p1a: Moltres|229\/383
+|cant|p1a: Moltres|partiallytrapped
+|
+|turn|53
+|
+|move|p2a: Moltres|Fire Spin|p1a: Moltres
+|-damage|p1a: Moltres|221\/383
+|cant|p1a: Moltres|partiallytrapped
+|
+|-end|p1a: Moltres|Fire Spin|[partiallytrapped]
+|turn|54
+|
+|move|p2a: Moltres|Fire Spin|p1a: Moltres
+|debug|randBW(256) = 94
+|debug|randBW(256) = 193
+|-resisted|p1a: Moltres
+|debug|randBW(217, 256) = 218
+|-damage|p1a: Moltres|213\/383
+|-activate|p1a: Moltres|move: Fire Spin|[of] p2a: Moltres
+|debug|randBW(8) = 2
+|cant|p1a: Moltres|partiallytrapped
+|
+|turn|55
+|
+|move|p2a: Moltres|Fire Spin|p1a: Moltres
+|-damage|p1a: Moltres|205\/383
+|cant|p1a: Moltres|partiallytrapped
+|
+|-end|p1a: Moltres|Fire Spin|[partiallytrapped]
+|turn|56
+|
+|move|p2a: Moltres|Fire Spin|p1a: Moltres|[miss]
+|debug|randBW(256) = 254
+|-miss|p2a: Moltres
+|move|p1a: Moltres|Double-Edge|p2a: Moltres
+|debug|randBW(256) = 46
+|debug|randBW(256) = 217
+|debug|randBW(217, 256) = 233
+|-damage|p2a: Moltres|299\/383
+|-damage|p1a: Moltres|184\/383|[from] recoil|[of] p2a: Moltres
+|
+|turn|57
+|
+|move|p2a: Moltres|Fire Spin|p1a: Moltres
+|debug|randBW(256) = 116
+|debug|randBW(256) = 32
+|-crit|p1a: Moltres
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|-resisted|p1a: Moltres
+|debug|randBW(217, 256) = 250
+|-damage|p1a: Moltres|166\/383
+|-activate|p1a: Moltres|move: Fire Spin|[of] p2a: Moltres
+|debug|randBW(8) = 5
+|cant|p1a: Moltres|partiallytrapped
+|
+|turn|58
+|
+|move|p2a: Moltres|Fire Spin|p1a: Moltres
+|-damage|p1a: Moltres|148\/383
+|cant|p1a: Moltres|partiallytrapped
+|
+|turn|59
+|
+|move|p2a: Moltres|Fire Spin|p1a: Moltres
+|-damage|p1a: Moltres|130\/383
+|cant|p1a: Moltres|partiallytrapped
+|
+|-end|p1a: Moltres|Fire Spin|[partiallytrapped]
+|turn|60
+|
+|move|p2a: Moltres|Fire Spin|p1a: Moltres|[miss]
+|debug|randBW(256) = 182
+|-miss|p2a: Moltres
+|move|p1a: Moltres|Double-Edge|p2a: Moltres
+|debug|randBW(256) = 89
+|debug|randBW(256) = 2
+|-crit|p2a: Moltres
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|debug|randBW(217, 256) = 251
+|-damage|p2a: Moltres|125\/383
+|-damage|p1a: Moltres|87\/383|[from] recoil|[of] p2a: Moltres
+|
+|turn|61
+|
+|move|p2a: Moltres|Fire Spin|p1a: Moltres|[miss]
+|debug|randBW(256) = 252
+|-miss|p2a: Moltres
+|move|p1a: Moltres|Rest|p1a: Moltres
+|-status|p1a: Moltres|slp
+|debug|randBW(1, 7) = 6
+|-heal|p1a: Moltres|383\/383 slp|[silent]
+|-status|p1a: Moltres|slp|[from] move: Rest
+|
+|turn|62
+|c|★Erik Reeds|hmm
+|
+|switch|p2a: Dodrio|Dodrio|323\/323
+|cant|p1a: Moltres|slp
+|
+|turn|63
+|
+|move|p2a: Dodrio|Mimic|p1a: Moltres
+|debug|randBW(4) = 3
+|-start|p2a: Dodrio|Mimic|Double-Edge
+|-curestatus|p1a: Moltres|slp
+|
+|turn|64
+|
+|switch|p2a: Hypno|Hypno|273\/373
+|move|p1a: Moltres|Double-Edge|p2a: Hypno
+|debug|randBW(256) = 15
+|debug|randBW(256) = 38
+|-crit|p2a: Hypno
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|debug|randBW(217, 256) = 231
+|-damage|p2a: Hypno|86\/373
+|-damage|p1a: Moltres|337\/383|[from] recoil|[of] p2a: Hypno
+|
+|turn|65
+|
+|switch|p2a: Clefable|Clefable|393\/393
+|move|p1a: Moltres|Double-Edge|p2a: Clefable
+|debug|randBW(256) = 203
+|debug|randBW(256) = 188
+|debug|randBW(217, 256) = 244
+|-damage|p2a: Clefable|295\/393
+|-damage|p1a: Moltres|313\/383|[from] recoil|[of] p2a: Clefable
+|
+|turn|66
+|
+|move|p2a: Clefable|Blizzard|p1a: Moltres
+|debug|randBW(256) = 211
+|debug|randBW(256) = 243
+|-supereffective|p1a: Moltres
+|debug|randBW(217, 256) = 225
+|-damage|p1a: Moltres|174\/383
+|debug|randBW(256) = 18
+|-status|p1a: Moltres|frz
+|cant|p1a: Moltres|frz
+|
+|turn|67
+|
+|switch|p2a: Dodrio|Dodrio|323\/323
+|switch|p1a: Omastar|Omastar|343\/343
+|
+|turn|68
+|
+|move|p2a: Dodrio|Body Slam|p1a: Omastar
+|debug|randBW(256) = 149
+|debug|randBW(256) = 212
+|-resisted|p1a: Omastar
+|debug|randBW(217, 256) = 217
+|-damage|p1a: Omastar|302\/343
+|debug|randBW(256) = 129
+|move|p1a: Omastar|Blizzard|p2a: Dodrio
+|debug|randBW(256) = 57
+|debug|randBW(256) = 12
+|-crit|p2a: Dodrio
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|-supereffective|p2a: Dodrio
+|debug|randBW(217, 256) = 222
+|-damage|p2a: Dodrio|0 fnt
+|debug|randBW(256) = 223
+|faint|p2a: Dodrio
+|
+|switch|p2a: Moltres|Moltres|125\/383
+|turn|69
+|
+|move|p2a: Moltres|Fire Spin|p1a: Omastar
+|debug|randBW(256) = 115
+|debug|randBW(256) = 140
+|-resisted|p1a: Omastar
+|debug|randBW(217, 256) = 245
+|-damage|p1a: Omastar|298\/343
+|-activate|p1a: Omastar|move: Fire Spin|[of] p2a: Moltres
+|debug|randBW(8) = 0
+|cant|p1a: Omastar|partiallytrapped
+|
+|turn|70
+|
+|move|p2a: Moltres|Fire Spin|p1a: Omastar
+|-damage|p1a: Omastar|294\/343
+|cant|p1a: Omastar|partiallytrapped
+|
+|-end|p1a: Omastar|Fire Spin|[partiallytrapped]
+|turn|71
+|
+|move|p2a: Moltres|Fire Blast|p1a: Omastar
+|debug|randBW(256) = 188
+|debug|randBW(256) = 62
+|-resisted|p1a: Omastar
+|debug|randBW(217, 256) = 245
+|-damage|p1a: Omastar|256\/343
+|debug|randBW(256) = 183
+|move|p1a: Omastar|Surf|p2a: Moltres
+|debug|randBW(256) = 246
+|debug|randBW(256) = 249
+|-supereffective|p2a: Moltres
+|debug|randBW(217, 256) = 244
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|c|★Mirabel|lol
+|
+|switch|p2a: Clefable|Clefable|295\/393
+|turn|72
+|c|★Mirabel|glad I saved this guy
+|
+|move|p2a: Clefable|Thunder Wave|p1a: Omastar
+|debug|randBW(256) = 172
+|-status|p1a: Omastar|par
+|debug|randBW(256) = 226
+|move|p1a: Omastar|Surf|p2a: Clefable
+|debug|randBW(256) = 63
+|debug|randBW(256) = 231
+|debug|randBW(217, 256) = 249
+|-damage|p2a: Clefable|151\/393
+|
+|turn|73
+|
+|move|p2a: Clefable|Body Slam|p1a: Omastar
+|debug|randBW(256) = 193
+|debug|randBW(256) = 213
+|-resisted|p1a: Omastar
+|debug|randBW(217, 256) = 249
+|-damage|p1a: Omastar|220\/343 par
+|debug|randBW(256) = 246
+|debug|randBW(256) = 229
+|move|p1a: Omastar|Surf|p2a: Clefable
+|debug|randBW(256) = 135
+|debug|randBW(256) = 149
+|debug|randBW(217, 256) = 230
+|-damage|p2a: Clefable|18\/393
+|
+|turn|74
+|c|★Erik Reeds|omastar might actually be p good
+|
+|move|p2a: Clefable|Body Slam|p1a: Omastar
+|debug|randBW(256) = 190
+|debug|randBW(256) = 227
+|-resisted|p1a: Omastar
+|debug|randBW(217, 256) = 234
+|-damage|p1a: Omastar|187\/343 par
+|debug|randBW(256) = 70
+|debug|randBW(256) = 209
+|move|p1a: Omastar|Surf|p2a: Clefable
+|debug|randBW(256) = 211
+|debug|randBW(256) = 42
+|debug|randBW(217, 256) = 251
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|c|★Mirabel|i'm certain of it
+|
+|switch|p2a: Hypno|Hypno|86\/373
+|turn|75
+|c|★Mirabel|only weakness is no rock stab
+|c|★Mirabel|and bad atk\/spd
+|
+|move|p2a: Hypno|Rest|p2a: Hypno
+|-status|p2a: Hypno|slp
+|debug|randBW(1, 7) = 4
+|-heal|p2a: Hypno|373\/373 slp|[silent]
+|-status|p2a: Hypno|slp|[from] move: Rest
+|debug|randBW(256) = 253
+|move|p1a: Omastar|Seismic Toss|p2a: Hypno
+|debug|randBW(256) = 42
+|-damage|p2a: Hypno|273\/373 slp
+|
+|turn|76
+|c|★Erik Reeds|bliz\/surf\/??\/??
+|
+|cant|p2a: Hypno|slp
+|debug|randBW(256) = 38
+|cant|p1a: Omastar|par
+|
+|turn|77
+|
+|-curestatus|p2a: Hypno|slp
+|debug|randBW(256) = 160
+|move|p1a: Omastar|Surf|p2a: Hypno
+|debug|randBW(256) = 139
+|debug|randBW(256) = 248
+|debug|randBW(217, 256) = 243
+|-damage|p2a: Hypno|158\/373
+|
+|turn|78
+|
+|move|p2a: Hypno|Psychic|p1a: Omastar
+|debug|randBW(256) = 198
+|debug|randBW(256) = 232
+|debug|randBW(217, 256) = 218
+|-damage|p1a: Omastar|89\/343 par
+|debug|randBW(256) = 111
+|debug|randBW(256) = 5
+|cant|p1a: Omastar|par
+|
+|turn|79
+|c|★Mirabel|ya blizsurf
+|
+|move|p2a: Hypno|Psychic|p1a: Omastar
+|debug|randBW(256) = 138
+|debug|randBW(256) = 186
+|debug|randBW(217, 256) = 248
+|-damage|p1a: Omastar|0 fnt
+|debug|randBW(256) = 71
+|faint|p1a: Omastar
+|c|★Mirabel|darn it
+|c|★Erik Reeds|dude
+|c|★Erik Reeds|i want
+|c|★Erik Reeds|glitchmons
+|c|★Erik Reeds|balanced glitchmons
+|
+|switch|p1a: Moltres|Moltres|174\/383 frz
+|turn|80
+|c|★Erik Reeds|to be an actual tier
+|
+|cant|p1a: Moltres|frz
+|move|p2a: Hypno|Psychic|p1a: Moltres
+|debug|randBW(256) = 91
+|debug|randBW(256) = 148
+|debug|randBW(217, 256) = 235
+|-damage|p1a: Moltres|74\/383 frz
+|debug|randBW(256) = 245
+|
+|turn|81
+|c|★Mirabel|naaaaa
+|
+|cant|p1a: Moltres|frz
+|move|p2a: Hypno|Psychic|p1a: Moltres
+|debug|randBW(256) = 219
+|debug|randBW(256) = 178
+|debug|randBW(217, 256) = 246
+|-damage|p1a: Moltres|0 fnt
+|debug|randBW(256) = 84
+|faint|p1a: Moltres
+|
+|win|Erik Reeds
+|c|★Mirabel|COULD HAVE COME BACK
+|c|★Erik Reeds|http:\/\/bulbapedia.bulbagarden.net\/wiki\/%E3%82%A5_.4
+|c|★Erik Reeds|shit like that

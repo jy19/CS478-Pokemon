@@ -1,0 +1,209 @@
+﻿|join|XianJu
+|join|Astiz
+|player|p1|XianJu|130
+|player|p2|Astiz|92
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|5528,55632,18000,21033
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gengar|Gengar, L79|257\/257
+|switch|p2a: Slowbro|Slowbro, L79|312\/312
+|turn|1
+|choice|move 3|switch 2
+|
+|switch|p2a: Horsea|Horsea, L96|252\/252
+|move|p1a: Gengar|Thunderbolt|p2a: Horsea
+|-supereffective|p2a: Horsea
+|-damage|p2a: Horsea|115\/252
+|
+|turn|2
+|choice|move 4|switch 3
+|
+|switch|p2a: Clefairy|Clefairy, L95|326\/326
+|move|p1a: Gengar|Mega Drain|p2a: Clefairy
+|-damage|p2a: Clefairy|293\/326
+|
+|turn|3
+|choice|move 1|move 3
+|
+|move|p1a: Gengar|Hypnosis|p2a: Clefairy|[miss]
+|-miss|p1a: Gengar
+|move|p2a: Clefairy|Sing|p1a: Gengar|[miss]
+|-miss|p2a: Clefairy
+|
+|turn|4
+|choice|move 1|switch 3
+|
+|switch|p2a: Horsea|Horsea, L96|115\/252
+|move|p1a: Gengar|Hypnosis|p2a: Horsea
+|-status|p2a: Horsea|slp
+|
+|turn|5
+|choice|move 3|switch 4
+|
+|switch|p2a: Electabuzz|Electabuzz, L85|284\/284
+|move|p1a: Gengar|Thunderbolt|p2a: Electabuzz
+|-resisted|p2a: Electabuzz
+|-damage|p2a: Electabuzz|251\/284
+|
+|turn|6
+|choice|move 4|move 3
+|
+|move|p2a: Electabuzz|Thunder Wave|p1a: Gengar
+|-status|p1a: Gengar|par
+|move|p1a: Gengar|Mega Drain|p2a: Electabuzz
+|-damage|p2a: Electabuzz|220\/284
+|
+|turn|7
+|choice|switch 4|move 1
+|
+|switch|p1a: Geodude|Geodude, L96|272\/272
+|move|p2a: Electabuzz|Psychic|p1a: Geodude
+|-damage|p1a: Geodude|185\/272
+|
+|turn|8
+|choice|move 3|switch 2
+|
+|switch|p2a: Slowbro|Slowbro, L79|312\/312
+|move|p1a: Geodude|Earthquake|p2a: Slowbro
+|-damage|p2a: Slowbro|197\/312
+|
+|turn|9
+|choice|move 3|move 2
+|
+|move|p1a: Geodude|Earthquake|p2a: Slowbro
+|-damage|p2a: Slowbro|90\/312
+|move|p2a: Slowbro|Thunder Wave|p1a: Geodude
+|-immune|p1a: Geodude|[msg]
+|
+|turn|10
+|choice|move 3|switch 5
+|
+|switch|p2a: Pinsir|Pinsir, L85|284\/284
+|move|p1a: Geodude|Earthquake|p2a: Pinsir
+|-resisted|p2a: Pinsir
+|-damage|p2a: Pinsir|228\/284
+|
+|turn|11
+|choice|move 4|move 1
+|
+|move|p2a: Pinsir|Submission|p1a: Geodude
+|-supereffective|p1a: Geodude
+|-damage|p1a: Geodude|71\/272
+|-damage|p2a: Pinsir|200\/284|[from] recoil|[of] p1a: Geodude
+|move|p1a: Geodude|Rock Slide|p2a: Pinsir
+|-supereffective|p2a: Pinsir
+|-damage|p2a: Pinsir|30\/284
+|
+|turn|12
+|choice|switch 4|move 1
+|
+|switch|p1a: Gengar|Gengar, L79|257\/257 par
+|move|p2a: Pinsir|Submission|p1a: Gengar
+|-immune|p1a: Gengar|[msg]
+|
+|turn|13
+|choice|move 4|switch 2
+|
+|switch|p2a: Electabuzz|Electabuzz, L85|220\/284
+|move|p1a: Gengar|Mega Drain|p2a: Electabuzz
+|-damage|p2a: Electabuzz|190\/284
+|
+|turn|14
+|choice|switch 5|move 1
+|
+|switch|p1a: Raticate|Raticate, L85|267\/267
+|move|p2a: Electabuzz|Psychic|p1a: Raticate
+|-damage|p1a: Raticate|180\/267
+|-unboost|p1a: Raticate|spd|1
+|-unboost|p1a: Raticate|spa|1
+|
+|turn|15
+|choice|move 1|switch 3
+|
+|switch|p2a: Clefairy|Clefairy, L95|293\/326
+|move|p1a: Raticate|Super Fang|p2a: Clefairy
+|-damage|p2a: Clefairy|147\/326
+|
+|turn|16
+|choice|move 2|move 2
+|
+|move|p1a: Raticate|Hyper Beam|p2a: Clefairy
+|-damage|p2a: Clefairy|0 fnt
+|faint|p2a: Clefairy
+|choice||switch 3
+|
+|switch|p2a: Electabuzz|Electabuzz, L85|190\/284
+|turn|17
+|choice|move 1|move 2
+|
+|move|p2a: Electabuzz|Seismic Toss|p1a: Raticate
+|-damage|p1a: Raticate|95\/267
+|move|p1a: Raticate|Super Fang|p2a: Electabuzz
+|-damage|p2a: Electabuzz|95\/284
+|
+|turn|18
+|choice|switch 6|move 4
+|
+|switch|p1a: Onix|Onix, L90|246\/246
+|move|p2a: Electabuzz|Thunderbolt|p1a: Onix
+|-immune|p1a: Onix|[msg]
+|
+|turn|19
+|choice|move 4|move 1
+|
+|move|p2a: Electabuzz|Psychic|p1a: Onix
+|-crit|p1a: Onix
+|-damage|p1a: Onix|50\/246
+|move|p1a: Onix|Earthquake|p2a: Electabuzz
+|-supereffective|p2a: Electabuzz
+|-damage|p2a: Electabuzz|0 fnt
+|faint|p2a: Electabuzz
+|choice||switch 6
+|
+|switch|p2a: Magmar|Magmar, L90|300\/300
+|turn|20
+|choice|move 1|move 1
+|
+|move|p2a: Magmar|Fire Blast|p1a: Onix
+|-resisted|p1a: Onix
+|-damage|p1a: Onix|0 fnt
+|faint|p1a: Onix
+|choice|switch 5|
+|
+|switch|p1a: Gengar|Gengar, L79|257\/257 par
+|turn|21
+|choice|move 2|move 1
+|
+|move|p2a: Magmar|Fire Blast|p1a: Gengar
+|-damage|p1a: Gengar|139\/257 par
+|cant|p1a: Gengar|par
+|
+|turn|22
+|choice|move 2|move 1
+|
+|move|p2a: Magmar|Fire Blast|p1a: Gengar
+|-damage|p1a: Gengar|28\/257 par
+|move|p1a: Gengar|Explosion|p2a: Magmar
+|-crit|p2a: Magmar
+|-damage|p2a: Magmar|0 fnt
+|faint|p2a: Magmar
+|faint|p1a: Gengar
+|choice|switch 6|switch 2
+|
+|switch|p1a: Raticate|Raticate, L85|95\/267
+|switch|p2a: Pinsir|Pinsir, L85|30\/284
+|turn|23
+|-message|Astiz forfeited.
+|
+|win|XianJu
+|leave|Astiz
+|player|p2
+|raw|XianJu's rating: 1269 &rarr; <strong>1303<\/strong><br \/>(+34 for winning)
+|raw|Astiz's rating: 1405 &rarr; <strong>1377<\/strong><br \/>(-28 for losing)

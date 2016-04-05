@@ -1,0 +1,261 @@
+﻿|join|Lusch
+|join|Bedschibaer
+|join|Rocknlol
+|player|p1|Lusch|153
+|player|p2|Bedschibaer|252
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Seaking|Seaking, L86|313\/313
+|switch|p2a: Mr. Mime|Mr. Mime, L86|244\/244
+|turn|1
+|
+|move|p2a: Mr. Mime|Thunder Wave|p1a: Seaking
+|-status|p1a: Seaking|par
+|move|p1a: Seaking|Double-Edge|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|158\/244
+|-damage|p1a: Seaking|292\/313 par|[from] recoil|[of] p2a: Mr. Mime
+|
+|turn|2
+|
+|move|p2a: Mr. Mime|Thunderbolt|p1a: Seaking
+|-supereffective|p1a: Seaking
+|-damage|p1a: Seaking|153\/313 par
+|move|p1a: Seaking|Hyper Beam|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|27\/244
+|
+|turn|3
+|
+|move|p2a: Mr. Mime|Thunderbolt|p1a: Seaking
+|-supereffective|p1a: Seaking
+|-damage|p1a: Seaking|11\/313 par
+|cant|p1a: Seaking|recharge
+|
+|turn|4
+|
+|move|p2a: Mr. Mime|Psychic|p1a: Seaking
+|-damage|p1a: Seaking|0 fnt
+|faint|p1a: Seaking
+|
+|switch|p1a: Electabuzz|Electabuzz, L86|287\/287
+|turn|5
+|
+|switch|p2a: Venusaur|Venusaur, L86|313\/313
+|move|p1a: Electabuzz|Seismic Toss|p2a: Venusaur
+|-damage|p2a: Venusaur|227\/313
+|
+|turn|6
+|
+|switch|p1a: Hitmonchan|Hitmonchan, L86|261\/261
+|move|p2a: Venusaur|Sleep Powder|p1a: Hitmonchan
+|-status|p1a: Hitmonchan|slp
+|
+|turn|7
+|
+|switch|p1a: Arcanine|Arcanine, L86|330\/330
+|move|p2a: Venusaur|Razor Leaf|p1a: Arcanine
+|-crit|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|-damage|p1a: Arcanine|271\/330
+|
+|turn|8
+|join|FaZe XxRamsayxX
+|c| FaZe XxRamsayxX|bedschibaer u got dis
+|
+|switch|p2a: Blastoise|Blastoise, L86|311\/311
+|move|p1a: Arcanine|Fire Blast|p2a: Blastoise|[miss]
+|-miss|p1a: Arcanine
+|
+|turn|9
+|
+|switch|p1a: Vaporeon|Vaporeon, L86|399\/399
+|move|p2a: Blastoise|Surf|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|359\/399
+|
+|turn|10
+|
+|move|p2a: Blastoise|Body Slam|p1a: Vaporeon
+|-damage|p1a: Vaporeon|284\/399
+|move|p1a: Vaporeon|Body Slam|p2a: Blastoise
+|-damage|p2a: Blastoise|268\/311
+|
+|turn|11
+|leave|FaZe XxRamsayxX
+|
+|move|p2a: Blastoise|Body Slam|p1a: Vaporeon
+|-damage|p1a: Vaporeon|216\/399
+|move|p1a: Vaporeon|Body Slam|p2a: Blastoise
+|-crit|p2a: Blastoise
+|-damage|p2a: Blastoise|181\/311
+|
+|turn|12
+|
+|move|p2a: Blastoise|Body Slam|p1a: Vaporeon
+|-damage|p1a: Vaporeon|146\/399
+|-status|p1a: Vaporeon|par
+|move|p1a: Vaporeon|Body Slam|p2a: Blastoise
+|-crit|p2a: Blastoise
+|-damage|p2a: Blastoise|89\/311
+|
+|turn|13
+|
+|move|p2a: Blastoise|Body Slam|p1a: Vaporeon
+|-damage|p1a: Vaporeon|74\/399 par
+|move|p1a: Vaporeon|Rest|p1a: Vaporeon
+|-status|p1a: Vaporeon|slp
+|-heal|p1a: Vaporeon|399\/399 slp|[silent]
+|-status|p1a: Vaporeon|slp|[from] move: Rest
+|
+|turn|14
+|
+|switch|p2a: Venusaur|Venusaur, L86|227\/313
+|cant|p1a: Vaporeon|slp
+|
+|turn|15
+|
+|switch|p1a: Arcanine|Arcanine, L86|271\/330
+|move|p2a: Venusaur|Body Slam|p1a: Arcanine
+|-damage|p1a: Arcanine|215\/330
+|
+|turn|16
+|
+|switch|p2a: Blastoise|Blastoise, L86|89\/311
+|move|p1a: Arcanine|Fire Blast|p2a: Blastoise
+|-resisted|p2a: Blastoise
+|-damage|p2a: Blastoise|35\/311
+|-status|p2a: Blastoise|brn
+|
+|turn|17
+|
+|move|p1a: Arcanine|Body Slam|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|
+|switch|p2a: Pidgeot|Pidgeot, L86|318\/318
+|turn|18
+|
+|switch|p1a: Vaporeon|Vaporeon, L86|399\/399 slp
+|move|p2a: Pidgeot|Double-Edge|p1a: Vaporeon
+|-damage|p1a: Vaporeon|284\/399 slp
+|-damage|p2a: Pidgeot|290\/318|[from] recoil|[of] p1a: Vaporeon
+|
+|turn|19
+|
+|move|p2a: Pidgeot|Double-Edge|p1a: Vaporeon
+|-crit|p1a: Vaporeon
+|-damage|p1a: Vaporeon|69\/399 slp
+|-damage|p2a: Pidgeot|237\/318|[from] recoil|[of] p1a: Vaporeon
+|cant|p1a: Vaporeon|slp
+|-curestatus|p1a: Vaporeon|slp
+|
+|turn|20
+|
+|move|p2a: Pidgeot|Double-Edge|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|-damage|p2a: Pidgeot|220\/318|[from] recoil|[of] p1a: Vaporeon
+|faint|p1a: Vaporeon
+|
+|switch|p1a: Electabuzz|Electabuzz, L86|287\/287
+|turn|21
+|
+|move|p1a: Electabuzz|Psychic|p2a: Pidgeot
+|-damage|p2a: Pidgeot|152\/318
+|move|p2a: Pidgeot|Hyper Beam|p1a: Electabuzz
+|-damage|p1a: Electabuzz|98\/287
+|
+|turn|22
+|
+|move|p1a: Electabuzz|Thunderbolt|p2a: Pidgeot
+|-supereffective|p2a: Pidgeot
+|-damage|p2a: Pidgeot|0 fnt
+|faint|p2a: Pidgeot
+|join|Not Canadian
+|
+|switch|p2a: Venusaur|Venusaur, L86|227\/313
+|turn|23
+|
+|move|p1a: Electabuzz|Psychic|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|124\/313
+|move|p2a: Venusaur|Razor Leaf|p1a: Electabuzz
+|-crit|p1a: Electabuzz
+|-damage|p1a: Electabuzz|0 fnt
+|faint|p1a: Electabuzz
+|join|bulletpunchz
+|
+|switch|p1a: Arcanine|Arcanine, L86|215\/330
+|turn|24
+|c| bulletpunchz|gooo bed
+|
+|switch|p2a: Vaporeon|Vaporeon, L86|399\/399
+|move|p1a: Arcanine|Fire Blast|p2a: Vaporeon
+|-crit|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|311\/399
+|
+|turn|25
+|c|★Lusch|hehe
+|c|★Lusch|nice team u got there
+|
+|move|p1a: Arcanine|Body Slam|p2a: Vaporeon
+|-damage|p2a: Vaporeon|224\/399
+|move|p2a: Vaporeon|Surf|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|switch|p1a: Nidoqueen|Nidoqueen, L86|330\/330
+|turn|26
+|c|★Bedschibaer|yup, got kinda lucky i guess
+|
+|move|p1a: Nidoqueen|Thunderbolt|p2a: Vaporeon
+|-crit|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|22\/399
+|move|p2a: Vaporeon|Surf|p1a: Nidoqueen
+|-supereffective|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|84\/330
+|
+|turn|27
+|c|★Lusch|wasnt much to win with my pokes against yours
+|c|★Lusch|no sleeper
+|c|★Lusch|nothing ...
+|
+|move|p1a: Nidoqueen|Body Slam|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|faint|p2a: Vaporeon
+|c| bulletpunchz|hmm was that an insult lol?
+|c|★Lusch|still could have played it a little better though
+|c|★Lusch|no
+|c|★Lusch|no insult
+|
+|switch|p2a: Mr. Mime|Mr. Mime, L86|27\/244
+|turn|28
+|c|★Bedschibaer|well, that's always the problem with randbats, whoever has the better luck has a huge advantage
+|c|★Lusch|of course
+|
+|move|p2a: Mr. Mime|Psychic|p1a: Nidoqueen
+|-supereffective|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|0 fnt
+|faint|p1a: Nidoqueen
+|c|★Lusch|and its alright^^
+|
+|switch|p1a: Hitmonchan|Hitmonchan, L86|261\/261 slp
+|turn|29
+|c| bulletpunchz|and with the small gen 1 pool too
+|c|★Lusch|yeah
+|
+|move|p2a: Mr. Mime|Psychic|p1a: Hitmonchan
+|-supereffective|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|0 fnt
+|faint|p1a: Hitmonchan
+|
+|win|Bedschibaer
+|c|★Bedschibaer|gg
+|leave|Bedschibaer

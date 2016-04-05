@@ -1,0 +1,48 @@
+﻿|join|zanghost123
+|join|PK Mastr
+|player|p1|zanghost123|170
+|player|p2|PK Mastr|170
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|13936,11122,58870,8103
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Weedle|Weedle, L99|280\/280
+|switch|p2a: Nidorino|Nidorino, L90|293\/293
+|turn|1
+|choice|switch 3|move 3
+|
+|switch|p1a: Chansey|Chansey, L79|557\/557
+|move|p2a: Nidorino|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|489\/557
+|
+|turn|2
+|choice|move 4|switch 5
+|
+|switch|p2a: Onix|Onix, L90|246\/246
+|move|p1a: Chansey|Thunder Wave|p2a: Onix
+|-immune|p2a: Onix|[msg]
+|
+|turn|3
+|choice|move 2|move 4
+|
+|move|p2a: Onix|Earthquake|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|106\/557
+|move|p1a: Chansey|Ice Beam|p2a: Onix
+|-supereffective|p2a: Onix
+|-damage|p2a: Onix|46\/246
+|
+|turn|4
+|-message|zanghost123 forfeited.
+|
+|win|PK Mastr
+|leave|zanghost123
+|player|p1
+|raw|zanghost123's rating: 1040 &rarr; <strong>1027<\/strong><br \/>(-13 for losing)
+|raw|PK Mastr's rating: 1105 &rarr; <strong>1125<\/strong><br \/>(+20 for winning)

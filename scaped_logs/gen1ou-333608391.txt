@@ -1,0 +1,257 @@
+﻿|j|Agarest
+|j|samusco
+|player|p1|Agarest|209
+|player|p2|samusco|258
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|seed|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jolteon|Jolteon|100\/100
+|switch|p2a: Jynx|Jynx|100\/100
+|turn|1
+|choice||
+|
+|move|p1a: Jolteon|Thunder Wave|p2a: Jynx
+|-status|p2a: Jynx|par
+|move|p2a: Jynx|Lovely Kiss|p1a: Jolteon
+|-status|p1a: Jolteon|slp
+|
+|turn|2
+|choice||
+|
+|switch|p1a: Slowbro|Slowbro|100\/100
+|move|p2a: Jynx|Blizzard|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|62\/100
+|
+|turn|3
+|choice||
+|
+|switch|p2a: Gengar|Gengar|100\/100
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|
+|turn|4
+|choice||
+|
+|switch|p1a: Exeggutor|Exeggutor|100\/100
+|move|p2a: Gengar|Thunderbolt|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|82\/100
+|
+|turn|5
+|choice||
+|
+|switch|p2a: Exeggutor|Exeggutor|100\/100
+|move|p1a: Exeggutor|Psychic|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|76\/100
+|
+|turn|6
+|choice||
+|
+|move|p1a: Exeggutor|Sleep Powder|p2a: Exeggutor
+|-status|p2a: Exeggutor|slp
+|cant|p2a: Exeggutor|slp
+|
+|turn|7
+|choice||
+|
+|switch|p1a: Moltres|Moltres|100\/100
+|switch|p2a: Jynx|Jynx|100\/100 par
+|
+|turn|8
+|choice||
+|
+|move|p1a: Moltres|Fire Spin|p2a: Jynx
+|-supereffective|p2a: Jynx
+|-damage|p2a: Jynx|86\/100 par
+|cant|p2a: Jynx|partiallytrapped
+|
+|turn|9
+|choice||
+|
+|switch|p2a: Gengar|Gengar|100\/100
+|move|p1a: Moltres|Fire Spin|p2a: Gengar
+|-damage|p2a: Gengar|94\/100
+|
+|turn|10
+|choice||
+|
+|cant|p2a: Gengar|partiallytrapped
+|move|p1a: Moltres|Fire Spin|p2a: Gengar|[from]Fire Spin
+|-damage|p2a: Gengar|88\/100
+|
+|turn|11
+|choice||
+|
+|switch|p1a: Exeggutor|Exeggutor|82\/100
+|cant|p2a: Gengar|partiallytrapped
+|
+|turn|12
+|choice||
+|
+|switch|p2a: Slowbro|Slowbro|100\/100
+|move|p1a: Exeggutor|Psychic|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|83\/100
+|-unboost|p2a: Slowbro|spd|1
+|-unboost|p2a: Slowbro|spa|1
+|
+|turn|13
+|choice||
+|
+|move|p1a: Exeggutor|Psychic|p2a: Slowbro|[miss]
+|-miss|p1a: Exeggutor
+|move|p2a: Slowbro|Thunder Wave|p1a: Exeggutor
+|-status|p1a: Exeggutor|par
+|
+|turn|14
+|choice||
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|move|p1a: Exeggutor|Explosion|p2a: Slowbro
+|-damage|p2a: Slowbro|20\/100
+|faint|p1a: Exeggutor
+|choice||
+|
+|switch|p1a: Tauros|Tauros|100\/100
+|turn|15
+|choice||
+|
+|switch|p2a: Tauros|Tauros|100\/100
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|72\/100
+|
+|turn|16
+|choice||
+|
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|11\/100
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|72\/100
+|
+|turn|17
+|choice||
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Tauros
+|-damage|p1a: Tauros|19\/100
+|move|p1a: Tauros|Earthquake|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|choice||
+|
+|switch|p2a: Gengar|Gengar|88\/100
+|turn|18
+|choice||
+|
+|switch|p1a: Chansey|Chansey|100\/100
+|move|p2a: Gengar|Night Shade|p1a: Chansey
+|-damage|p1a: Chansey|86\/100
+|
+|turn|19
+|choice||
+|
+|move|p2a: Gengar|Thunderbolt|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|63\/100
+|move|p1a: Chansey|Thunder Wave|p2a: Gengar
+|-status|p2a: Gengar|par
+|
+|turn|20
+|choice||
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|100\/100
+|move|p2a: Gengar|Explosion|p1a: Chansey
+|-damage|p1a: Chansey|15\/100
+|faint|p2a: Gengar
+|choice||
+|
+|switch|p2a: Golem|Golem|100\/100
+|turn|21
+|choice||
+|
+|move|p1a: Chansey|Ice Beam|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|43\/100
+|move|p2a: Golem|Rock Slide|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|choice||
+|
+|switch|p1a: Tauros|Tauros|19\/100
+|turn|22
+|choice||
+|
+|move|p1a: Tauros|Blizzard|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|choice||
+|
+|switch|p2a: Jynx|Jynx|86\/100 par
+|turn|23
+|choice||
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|choice||
+|
+|switch|p2a: Exeggutor|Exeggutor|76\/100 slp
+|turn|24
+|choice||
+|
+|move|p1a: Tauros|Blizzard|p2a: Exeggutor|[miss]
+|-miss|p1a: Tauros
+|cant|p2a: Exeggutor|slp
+|
+|turn|25
+|choice||
+|
+|move|p1a: Tauros|Blizzard|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|44\/100 slp
+|cant|p2a: Exeggutor|slp
+|
+|turn|26
+|choice||
+|
+|move|p1a: Tauros|Body Slam|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|choice||
+|
+|switch|p2a: Slowbro|Slowbro|20\/100
+|turn|27
+|choice||
+|
+|move|p1a: Tauros|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|
+|win|Agarest
+|player|p1
+|player|p2
+|c|★Agarest|gg
+|raw|Agarest's rating: 1262 &rarr; <strong>1292<\/strong><br \/>(+30 for winning)
+|raw|samusco's rating: 1337 &rarr; <strong>1313<\/strong><br \/>(-24 for losing)
+|l|samusco

@@ -1,0 +1,376 @@
+﻿|j|Wwender
+|j|TheVisualNovel
+|player|p1|Wwender|15
+|player|p2|TheVisualNovel|279
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Blastoise|Blastoise, L85|100\/100
+|switch|p2a: Dragonite|Dragonite, L85|100\/100
+|turn|1
+|choice||
+|
+|switch|p2a: Porygon|Porygon, L85|100\/100
+|move|p1a: Blastoise|Hydro Pump|p2a: Porygon
+|-damage|p2a: Porygon|54\/100
+|
+|turn|2
+|choice||
+|
+|move|p1a: Blastoise|Mimic|p2a: Porygon
+|-start|p1a: Blastoise|Mimic|Recover
+|move|p2a: Porygon|Thunder Wave|p1a: Blastoise
+|-status|p1a: Blastoise|par
+|
+|turn|3
+|choice||
+|
+|move|p2a: Porygon|Thunderbolt|p1a: Blastoise
+|-supereffective|p1a: Blastoise
+|-damage|p1a: Blastoise|62\/100 par
+|move|p1a: Blastoise|Earthquake|p2a: Porygon
+|-damage|p2a: Porygon|28\/100
+|
+|turn|4
+|choice||
+|
+|move|p2a: Porygon|Thunderbolt|p1a: Blastoise
+|-supereffective|p1a: Blastoise
+|-damage|p1a: Blastoise|22\/100 par
+|move|p1a: Blastoise|Recover|p1a: Blastoise
+|-heal|p1a: Blastoise|72\/100 par
+|
+|turn|5
+|choice||
+|
+|move|p2a: Porygon|Thunderbolt|p1a: Blastoise
+|-supereffective|p1a: Blastoise
+|-damage|p1a: Blastoise|36\/100 par
+|cant|p1a: Blastoise|par
+|
+|turn|6
+|choice||
+|
+|switch|p1a: Cubone|Cubone, L96|100\/100
+|move|p2a: Porygon|Thunderbolt|p1a: Cubone
+|-immune|p1a: Cubone|[msg]
+|
+|turn|7
+|choice||
+|
+|move|p1a: Cubone|Earthquake|p2a: Porygon
+|-damage|p2a: Porygon|0 fnt
+|faint|p2a: Porygon
+|choice||
+|
+|switch|p2a: Dragonite|Dragonite, L85|100\/100
+|turn|8
+|choice||
+|
+|move|p2a: Dragonite|Blizzard|p1a: Cubone
+|-supereffective|p1a: Cubone
+|-damage|p1a: Cubone|21\/100
+|move|p1a: Cubone|Blizzard|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|31\/100
+|
+|turn|9
+|choice||
+|
+|switch|p1a: Blastoise|Blastoise, L85|36\/100 par
+|move|p2a: Dragonite|Surf|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|25\/100 par
+|
+|turn|10
+|choice||
+|
+|move|p2a: Dragonite|Thunderbolt|p1a: Blastoise
+|-supereffective|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|faint|p1a: Blastoise
+|choice||
+|
+|switch|p1a: Electrode|Electrode, L90|100\/100
+|turn|11
+|choice||
+|
+|move|p1a: Electrode|Thunder Wave|p2a: Dragonite
+|-status|p2a: Dragonite|par
+|cant|p2a: Dragonite|par
+|
+|turn|12
+|choice||
+|
+|switch|p1a: Zapdos|Zapdos, L79|100\/100
+|cant|p2a: Dragonite|par
+|
+|turn|13
+|choice||
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|choice||
+|
+|switch|p2a: Haunter|Haunter, L85|100\/100
+|turn|14
+|choice||
+|
+|move|p2a: Haunter|Confuse Ray|p1a: Zapdos
+|-start|p1a: Zapdos|confusion
+|-activate|p1a: Zapdos|confusion
+|-damage|p1a: Zapdos|91\/100|[from] confusion
+|
+|turn|15
+|choice||
+|
+|switch|p1a: Electrode|Electrode, L90|100\/100
+|move|p2a: Haunter|Hypnosis|p1a: Electrode|[miss]
+|-miss|p2a: Haunter
+|
+|turn|16
+|choice||
+|
+|move|p1a: Electrode|Thunder Wave|p2a: Haunter
+|-status|p2a: Haunter|par
+|move|p2a: Haunter|Hypnosis|p1a: Electrode
+|-status|p1a: Electrode|slp
+|
+|turn|17
+|choice||
+|
+|switch|p1a: Zapdos|Zapdos, L79|91\/100
+|move|p2a: Haunter|Psychic|p1a: Zapdos
+|-damage|p1a: Zapdos|70\/100
+|-unboost|p1a: Zapdos|spd|1
+|-unboost|p1a: Zapdos|spa|1
+|
+|turn|18
+|choice||
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Haunter
+|-damage|p2a: Haunter|79\/100 par
+|move|p2a: Haunter|Psychic|p1a: Zapdos
+|-damage|p1a: Zapdos|39\/100
+|-unboost|p1a: Zapdos|spd|1
+|-unboost|p1a: Zapdos|spa|1
+|
+|turn|19
+|choice||
+|
+|switch|p1a: Electrode|Electrode, L90|100\/100 slp
+|move|p2a: Haunter|Psychic|p1a: Electrode
+|-damage|p1a: Electrode|76\/100 slp
+|
+|turn|20
+|choice||
+|
+|switch|p1a: Zapdos|Zapdos, L79|39\/100
+|move|p2a: Haunter|Psychic|p1a: Zapdos
+|-damage|p1a: Zapdos|18\/100
+|-unboost|p1a: Zapdos|spd|1
+|-unboost|p1a: Zapdos|spa|1
+|
+|turn|21
+|choice||
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Haunter
+|-damage|p2a: Haunter|54\/100 par
+|move|p2a: Haunter|Psychic|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|c|★TheVisualNovel|the hax . . .
+|choice||
+|
+|switch|p1a: Cubone|Cubone, L96|21\/100
+|turn|22
+|choice||
+|
+|move|p1a: Cubone|Earthquake|p2a: Haunter
+|-crit|p2a: Haunter
+|-supereffective|p2a: Haunter
+|-damage|p2a: Haunter|0 fnt
+|faint|p2a: Haunter
+|choice||
+|
+|switch|p2a: Machoke|Machoke, L85|100\/100
+|turn|23
+|choice||
+|
+|move|p1a: Cubone|Earthquake|p2a: Machoke
+|-damage|p2a: Machoke|67\/100
+|move|p2a: Machoke|Double-Edge|p1a: Cubone
+|-damage|p1a: Cubone|2\/100
+|-damage|p2a: Machoke|63\/100|[from] recoil|[of] p1a: Cubone
+|
+|turn|24
+|choice||
+|
+|move|p1a: Cubone|Earthquake|p2a: Machoke
+|-damage|p2a: Machoke|28\/100
+|move|p2a: Machoke|Double-Edge|p1a: Cubone
+|-crit|p1a: Cubone
+|-damage|p1a: Cubone|0 fnt
+|-damage|p2a: Machoke|27\/100|[from] recoil|[of] p1a: Cubone
+|faint|p1a: Cubone
+|choice||
+|
+|switch|p1a: Venomoth|Venomoth, L85|100\/100
+|turn|25
+|choice||
+|
+|move|p1a: Venomoth|Psychic|p2a: Machoke
+|-supereffective|p2a: Machoke
+|-damage|p2a: Machoke|0 fnt
+|faint|p2a: Machoke
+|choice||
+|
+|switch|p2a: Vulpix|Vulpix, L96|100\/100
+|turn|26
+|choice||
+|
+|move|p1a: Venomoth|Sleep Powder|p2a: Vulpix
+|-status|p2a: Vulpix|slp
+|cant|p2a: Vulpix|slp
+|
+|turn|27
+|choice||
+|
+|switch|p2a: Ninetales|Ninetales, L85|100\/100
+|move|p1a: Venomoth|Psychic|p2a: Ninetales
+|-damage|p2a: Ninetales|82\/100
+|-unboost|p2a: Ninetales|spd|1
+|-unboost|p2a: Ninetales|spa|1
+|
+|turn|28
+|choice||
+|
+|switch|p1a: Arcanine|Arcanine, L85|100\/100
+|move|p2a: Ninetales|Fire Blast|p1a: Arcanine
+|-crit|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|-damage|p1a: Arcanine|62\/100
+|
+|turn|29
+|choice||
+|
+|switch|p2a: Vulpix|Vulpix, L96|100\/100 slp
+|move|p1a: Arcanine|Body Slam|p2a: Vulpix
+|-damage|p2a: Vulpix|68\/100 slp
+|
+|turn|30
+|choice||
+|
+|move|p1a: Arcanine|Body Slam|p2a: Vulpix
+|-damage|p2a: Vulpix|33\/100 slp
+|cant|p2a: Vulpix|slp
+|
+|turn|31
+|choice||
+|
+|move|p1a: Arcanine|Reflect|p1a: Arcanine
+|-start|p1a: Arcanine|Reflect
+|cant|p2a: Vulpix|slp
+|
+|turn|32
+|choice||
+|
+|move|p1a: Arcanine|Body Slam|p2a: Vulpix
+|-damage|p2a: Vulpix|1\/100 slp
+|-curestatus|p2a: Vulpix|slp
+|
+|turn|33
+|choice||
+|
+|move|p1a: Arcanine|Body Slam|p2a: Vulpix
+|-damage|p2a: Vulpix|0 fnt
+|faint|p2a: Vulpix
+|choice||
+|
+|switch|p2a: Ninetales|Ninetales, L85|82\/100
+|turn|34
+|choice||
+|
+|move|p2a: Ninetales|Confuse Ray|p1a: Arcanine
+|-start|p1a: Arcanine|confusion
+|-activate|p1a: Arcanine|confusion
+|-damage|p1a: Arcanine|51\/100|[from] confusion
+|
+|turn|35
+|choice||
+|
+|switch|p1a: Electrode|Electrode, L90|76\/100 slp
+|move|p2a: Ninetales|Fire Blast|p1a: Electrode
+|-crit|p1a: Electrode
+|-damage|p1a: Electrode|0 fnt
+|faint|p1a: Electrode
+|choice||
+|
+|switch|p1a: Venomoth|Venomoth, L85|100\/100
+|turn|36
+|choice||
+|
+|move|p2a: Ninetales|Fire Blast|p1a: Venomoth|[miss]
+|-miss|p2a: Ninetales
+|move|p1a: Venomoth|Sleep Powder|p2a: Ninetales
+|-status|p2a: Ninetales|slp
+|
+|turn|37
+|c|★TheVisualNovel|gg
+|choice||
+|
+|-curestatus|p2a: Ninetales|slp
+|move|p1a: Venomoth|Psychic|p2a: Ninetales
+|-damage|p2a: Ninetales|63\/100
+|
+|turn|38
+|choice||
+|
+|switch|p1a: Arcanine|Arcanine, L85|51\/100
+|move|p2a: Ninetales|Fire Blast|p1a: Arcanine
+|-crit|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|-damage|p1a: Arcanine|10\/100
+|
+|turn|39
+|choice||
+|
+|move|p2a: Ninetales|Body Slam|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|choice||
+|
+|switch|p1a: Venomoth|Venomoth, L85|100\/100
+|turn|40
+|choice||
+|
+|move|p2a: Ninetales|Fire Blast|p1a: Venomoth
+|-supereffective|p1a: Venomoth
+|-damage|p1a: Venomoth|16\/100
+|-status|p1a: Venomoth|brn
+|move|p1a: Venomoth|Sleep Powder|p2a: Ninetales|[miss]
+|-miss|p1a: Venomoth
+|-damage|p1a: Venomoth|9\/100 brn|[from] brn|[of] p2a: Ninetales
+|
+|turn|41
+|choice||
+|
+|move|p2a: Ninetales|Body Slam|p1a: Venomoth
+|-crit|p1a: Venomoth
+|-damage|p1a: Venomoth|0 fnt
+|faint|p1a: Venomoth
+|
+|win|TheVisualNovel
+|player|p1
+|player|p2
+|raw|Wwender's rating: 1264 &rarr; <strong>1234<\/strong><br \/>(-30 for losing)
+|raw|TheVisualNovel's rating: 1186 &rarr; <strong>1217<\/strong><br \/>(+31 for winning)

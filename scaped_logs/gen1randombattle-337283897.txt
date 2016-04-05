@@ -1,0 +1,460 @@
+﻿|j|beltrob
+|j|tsun34
+|player|p1|beltrob|220
+|player|p2|tsun34|25
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Clefable|Clefable, L85|100\/100
+|switch|p2a: Drowzee|Drowzee, L96|100\/100
+|turn|1
+|c|★tsun34|hello
+|choice||
+|
+|move|p1a: Clefable|Thunder Wave|p2a: Drowzee
+|-status|p2a: Drowzee|par
+|move|p2a: Drowzee|Hypnosis|p1a: Clefable|[miss]
+|-miss|p2a: Drowzee
+|
+|turn|2
+|choice||
+|
+|move|p1a: Clefable|Hyper Beam|p2a: Drowzee
+|-damage|p2a: Drowzee|44\/100 par
+|move|p2a: Drowzee|Hypnosis|p1a: Clefable
+|-status|p1a: Clefable|slp
+|
+|turn|3
+|-mustrecharge|p1a: Clefable
+|-mustrecharge|p1a: Clefable
+|choice||
+|
+|switch|p2a: Scyther|Scyther, L90|100\/100
+|cant|p1a: Clefable|recharge
+|
+|turn|4
+|choice||
+|
+|move|p2a: Scyther|Agility|p2a: Scyther
+|-boost|p2a: Scyther|spe|2
+|-curestatus|p1a: Clefable|slp
+|
+|turn|5
+|choice||
+|
+|move|p2a: Scyther|Swords Dance|p2a: Scyther
+|-boost|p2a: Scyther|atk|2
+|move|p1a: Clefable|Blizzard|p2a: Scyther
+|-supereffective|p2a: Scyther
+|-damage|p2a: Scyther|32\/100
+|
+|turn|6
+|choice||
+|
+|move|p2a: Scyther|Hyper Beam|p1a: Clefable
+|-damage|p1a: Clefable|11\/100
+|move|p1a: Clefable|Hyper Beam|p2a: Scyther
+|-damage|p2a: Scyther|0 fnt
+|faint|p2a: Scyther
+|choice||
+|
+|switch|p2a: Mr. Mime|Mr. Mime, L85|100\/100
+|turn|7
+|choice||
+|
+|move|p2a: Mr. Mime|Seismic Toss|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|choice||
+|
+|switch|p1a: Mewtwo|Mewtwo, L70|100\/100
+|turn|8
+|choice||
+|
+|move|p1a: Mewtwo|Thunder Wave|p2a: Mr. Mime
+|-status|p2a: Mr. Mime|par
+|move|p2a: Mr. Mime|Thunder Wave|p1a: Mewtwo
+|-status|p1a: Mewtwo|par
+|
+|turn|9
+|choice||
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Mr. Mime
+|-crit|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|56\/100 par
+|move|p2a: Mr. Mime|Seismic Toss|p1a: Mewtwo
+|-damage|p1a: Mewtwo|71\/100 par
+|
+|turn|10
+|choice||
+|
+|switch|p2a: Drowzee|Drowzee, L96|44\/100 par
+|move|p1a: Mewtwo|Hyper Beam|p2a: Drowzee|[miss]
+|-miss|p1a: Mewtwo
+|
+|turn|11
+|choice||
+|
+|move|p1a: Mewtwo|Hyper Beam|p2a: Drowzee
+|-damage|p2a: Drowzee|11\/100 par
+|move|p2a: Drowzee|Rest|p2a: Drowzee
+|-status|p2a: Drowzee|slp
+|-heal|p2a: Drowzee|100\/100 slp|[silent]
+|-status|p2a: Drowzee|slp|[from] move: Rest
+|
+|turn|12
+|-mustrecharge|p1a: Mewtwo
+|-mustrecharge|p1a: Mewtwo
+|choice||
+|
+|cant|p1a: Mewtwo|recharge
+|cant|p2a: Drowzee|slp
+|
+|turn|13
+|choice||
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Drowzee
+|-crit|p2a: Drowzee
+|-damage|p2a: Drowzee|68\/100 slp
+|-curestatus|p2a: Drowzee|slp
+|
+|turn|14
+|choice||
+|
+|cant|p1a: Mewtwo|par
+|move|p2a: Drowzee|Psychic|p1a: Mewtwo
+|-resisted|p1a: Mewtwo
+|-damage|p1a: Mewtwo|56\/100 par
+|
+|turn|15
+|choice||
+|
+|cant|p1a: Mewtwo|par
+|move|p2a: Drowzee|Psychic|p1a: Mewtwo
+|-resisted|p1a: Mewtwo
+|-damage|p1a: Mewtwo|40\/100 par
+|
+|turn|16
+|choice||
+|
+|move|p1a: Mewtwo|Hyper Beam|p2a: Drowzee
+|-damage|p2a: Drowzee|33\/100
+|move|p2a: Drowzee|Psychic|p1a: Mewtwo
+|-resisted|p1a: Mewtwo
+|-damage|p1a: Mewtwo|23\/100 par
+|
+|turn|17
+|-mustrecharge|p1a: Mewtwo
+|-mustrecharge|p1a: Mewtwo
+|choice||
+|
+|cant|p1a: Mewtwo|recharge
+|move|p2a: Drowzee|Rest|p2a: Drowzee
+|-status|p2a: Drowzee|slp
+|-heal|p2a: Drowzee|100\/100 slp|[silent]
+|-status|p2a: Drowzee|slp|[from] move: Rest
+|
+|turn|18
+|choice||
+|
+|cant|p1a: Mewtwo|par
+|cant|p2a: Drowzee|slp
+|
+|turn|19
+|choice||
+|
+|move|p1a: Mewtwo|Thunder Wave|p2a: Drowzee
+|-fail|p2a: Drowzee
+|-curestatus|p2a: Drowzee|slp
+|
+|turn|20
+|choice||
+|
+|move|p1a: Mewtwo|Psychic|p2a: Drowzee
+|-crit|p2a: Drowzee
+|-resisted|p2a: Drowzee
+|-damage|p2a: Drowzee|73\/100
+|move|p2a: Drowzee|Psychic|p1a: Mewtwo
+|-resisted|p1a: Mewtwo
+|-damage|p1a: Mewtwo|8\/100 par
+|
+|turn|21
+|choice||
+|
+|cant|p1a: Mewtwo|par
+|move|p2a: Drowzee|Psychic|p1a: Mewtwo
+|-resisted|p1a: Mewtwo
+|-damage|p1a: Mewtwo|0 fnt
+|faint|p1a: Mewtwo
+|choice||
+|
+|switch|p1a: Rapidash|Rapidash, L90|100\/100
+|turn|22
+|choice||
+|
+|move|p1a: Rapidash|Fire Blast|p2a: Drowzee
+|-damage|p2a: Drowzee|34\/100
+|-status|p2a: Drowzee|brn
+|move|p2a: Drowzee|Thunder Wave|p1a: Rapidash
+|-status|p1a: Rapidash|par
+|-damage|p2a: Drowzee|28\/100 brn|[from] brn|[of] p1a: Rapidash
+|
+|turn|23
+|choice||
+|
+|move|p1a: Rapidash|Body Slam|p2a: Drowzee
+|-crit|p2a: Drowzee
+|-damage|p2a: Drowzee|0 fnt
+|faint|p2a: Drowzee
+|choice||
+|
+|switch|p2a: Seaking|Seaking, L90|100\/100
+|turn|24
+|choice||
+|
+|switch|p1a: Tangela|Tangela, L85|100\/100
+|move|p2a: Seaking|Surf|p1a: Tangela
+|-crit|p1a: Tangela
+|-resisted|p1a: Tangela
+|-damage|p1a: Tangela|67\/100
+|
+|turn|25
+|choice||
+|
+|switch|p2a: Dratini|Dratini, L96|100\/100
+|move|p1a: Tangela|Sleep Powder|p2a: Dratini
+|-status|p2a: Dratini|slp
+|
+|turn|26
+|choice||
+|
+|cant|p2a: Dratini|slp
+|move|p1a: Tangela|Growth|p1a: Tangela
+|-boost|p1a: Tangela|spa|1
+|-boost|p1a: Tangela|spd|1
+|
+|turn|27
+|choice||
+|
+|cant|p2a: Dratini|slp
+|move|p1a: Tangela|Growth|p1a: Tangela
+|-boost|p1a: Tangela|spa|1
+|-boost|p1a: Tangela|spd|1
+|
+|turn|28
+|choice||
+|
+|switch|p2a: Mr. Mime|Mr. Mime, L85|56\/100 par
+|move|p1a: Tangela|Growth|p1a: Tangela
+|-boost|p1a: Tangela|spa|1
+|-boost|p1a: Tangela|spd|1
+|
+|turn|29
+|choice||
+|
+|move|p1a: Tangela|Mega Drain|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|12\/100 par
+|-heal|p1a: Tangela|86\/100|[from] drain|[of] p2a: Mr. Mime
+|move|p2a: Mr. Mime|Thunder Wave|p1a: Tangela
+|-status|p1a: Tangela|par
+|
+|turn|30
+|choice||
+|
+|move|p1a: Tangela|Mega Drain|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|0 fnt
+|-heal|p1a: Tangela|91\/100 par|[from] drain|[of] p2a: Mr. Mime
+|faint|p2a: Mr. Mime
+|choice||
+|
+|switch|p2a: Snorlax|Snorlax, L79|100\/100
+|turn|31
+|choice||
+|
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|move|p1a: Tangela|Mega Drain|p2a: Snorlax
+|-damage|p2a: Snorlax|83\/100
+|-heal|p1a: Tangela|100\/100 par|[from] drain|[of] p2a: Snorlax
+|
+|turn|32
+|choice||
+|
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|move|p1a: Tangela|Mega Drain|p2a: Snorlax
+|-damage|p2a: Snorlax|72\/100
+|
+|turn|33
+|choice||
+|
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|move|p1a: Tangela|Mega Drain|p2a: Snorlax
+|-damage|p2a: Snorlax|63\/100
+|
+|turn|34
+|choice||
+|
+|move|p2a: Snorlax|Ice Beam|p1a: Tangela
+|-supereffective|p1a: Tangela
+|-damage|p1a: Tangela|56\/100 par
+|cant|p1a: Tangela|par
+|
+|turn|35
+|choice||
+|
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|cant|p1a: Tangela|par
+|
+|turn|36
+|choice||
+|
+|move|p2a: Snorlax|Ice Beam|p1a: Tangela
+|-supereffective|p1a: Tangela
+|-damage|p1a: Tangela|12\/100 par
+|move|p1a: Tangela|Mega Drain|p2a: Snorlax
+|-damage|p2a: Snorlax|54\/100
+|-heal|p1a: Tangela|18\/100 par|[from] drain|[of] p2a: Snorlax
+|
+|turn|37
+|choice||
+|
+|move|p2a: Snorlax|Ice Beam|p1a: Tangela
+|-supereffective|p1a: Tangela
+|-damage|p1a: Tangela|0 fnt
+|faint|p1a: Tangela
+|choice||
+|
+|switch|p1a: Machamp|Machamp, L90|100\/100
+|turn|38
+|choice||
+|
+|switch|p2a: Dratini|Dratini, L96|100\/100 slp
+|move|p1a: Machamp|Submission|p2a: Dratini
+|-damage|p2a: Dratini|42\/100 slp
+|-damage|p1a: Machamp|89\/100|[from] recoil|[of] p2a: Dratini
+|
+|turn|39
+|choice||
+|
+|cant|p2a: Dratini|slp
+|move|p1a: Machamp|Hyper Beam|p2a: Dratini
+|-damage|p2a: Dratini|0 fnt
+|faint|p2a: Dratini
+|choice||
+|
+|switch|p2a: Seaking|Seaking, L90|100\/100
+|turn|40
+|choice||
+|
+|move|p2a: Seaking|Blizzard|p1a: Machamp
+|-crit|p1a: Machamp
+|-damage|p1a: Machamp|32\/100
+|-status|p1a: Machamp|frz
+|cant|p1a: Machamp|frz
+|
+|turn|41
+|choice||
+|
+|switch|p1a: Weepinbell|Weepinbell, L85|100\/100
+|move|p2a: Seaking|Surf|p1a: Weepinbell
+|-resisted|p1a: Weepinbell
+|-damage|p1a: Weepinbell|82\/100
+|
+|turn|42
+|choice||
+|
+|switch|p2a: Snorlax|Snorlax, L79|54\/100
+|move|p1a: Weepinbell|Razor Leaf|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|22\/100
+|
+|turn|43
+|choice||
+|
+|move|p1a: Weepinbell|Razor Leaf|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|choice||
+|
+|switch|p2a: Seaking|Seaking, L90|100\/100
+|turn|44
+|c|★tsun34|gg
+|choice||
+|
+|move|p2a: Seaking|Blizzard|p1a: Weepinbell
+|-supereffective|p1a: Weepinbell
+|-damage|p1a: Weepinbell|24\/100
+|-message|Freeze Clause activated.
+|move|p1a: Weepinbell|Toxic|p2a: Seaking
+|-status|p2a: Seaking|tox
+|
+|turn|45
+|choice||
+|
+|switch|p1a: Machamp|Machamp, L90|32\/100 frz
+|move|p2a: Seaking|Double-Edge|p1a: Machamp
+|-damage|p1a: Machamp|10\/100 frz
+|-damage|p2a: Seaking|95\/100 tox|[from] recoil|[of] p1a: Machamp
+|-damage|p2a: Seaking|89\/100 tox|[from] tox|[of] p1a: Machamp
+|
+|turn|46
+|choice||
+|
+|move|p2a: Seaking|Surf|p1a: Machamp
+|-damage|p1a: Machamp|0 fnt
+|faint|p1a: Machamp
+|choice||
+|
+|switch|p1a: Weepinbell|Weepinbell, L85|24\/100
+|turn|47
+|choice||
+|
+|move|p2a: Seaking|Double-Edge|p1a: Weepinbell
+|-damage|p1a: Weepinbell|0 fnt
+|-damage|p2a: Seaking|83\/100 tox|[from] recoil|[of] p1a: Weepinbell
+|faint|p1a: Weepinbell
+|choice||
+|
+|switch|p1a: Rapidash|Rapidash, L90|100\/100 par
+|turn|48
+|choice||
+|
+|move|p2a: Seaking|Surf|p1a: Rapidash
+|-supereffective|p1a: Rapidash
+|-damage|p1a: Rapidash|29\/100 par
+|-damage|p2a: Seaking|71\/100 tox|[from] tox|[of] p1a: Rapidash
+|move|p1a: Rapidash|Body Slam|p2a: Seaking
+|-crit|p2a: Seaking
+|-damage|p2a: Seaking|26\/100 tox
+|
+|turn|49
+|choice||
+|
+|move|p2a: Seaking|Surf|p1a: Rapidash
+|-supereffective|p1a: Rapidash
+|-damage|p1a: Rapidash|0 fnt
+|faint|p1a: Rapidash
+|
+|win|tsun34
+|player|p1
+|player|p2
+|raw|beltrob's rating: 1261 &rarr; <strong>1231<\/strong><br \/>(-30 for losing)
+|raw|tsun34's rating: 1191 &rarr; <strong>1221<\/strong><br \/>(+30 for winning)
+|c|★beltrob|gg
+|c|★tsun34|gg
+|l|beltrob

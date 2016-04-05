@@ -1,0 +1,289 @@
+﻿|join|SonicJaxx
+|join|Life's Pointless
+|player|p1|SonicJaxx|80
+|player|p2|Life's Pointless|95
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Onix|Onix, L90|246\/246
+|switch|p2a: Poliwhirl|Poliwhirl, L85|284\/284
+|turn|1
+|
+|switch|p1a: Dewgong|Dewgong, L85|327\/327
+|move|p2a: Poliwhirl|Surf|p1a: Dewgong
+|-resisted|p1a: Dewgong
+|-damage|p1a: Dewgong|295\/327
+|
+|turn|2
+|
+|move|p2a: Poliwhirl|Hypnosis|p1a: Dewgong|[miss]
+|-miss|p2a: Poliwhirl
+|move|p1a: Dewgong|Body Slam|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|226\/284
+|
+|turn|3
+|
+|switch|p1a: Shellder|Shellder, L96|252\/252
+|move|p2a: Poliwhirl|Hypnosis|p1a: Shellder
+|-status|p1a: Shellder|slp
+|
+|turn|4
+|
+|switch|p1a: Dewgong|Dewgong, L85|295\/327
+|move|p2a: Poliwhirl|Amnesia|p2a: Poliwhirl
+|-boost|p2a: Poliwhirl|spd|2
+|-boost|p2a: Poliwhirl|spa|2
+|
+|turn|5
+|
+|move|p2a: Poliwhirl|Surf|p1a: Dewgong
+|-crit|p1a: Dewgong
+|-resisted|p1a: Dewgong
+|-damage|p1a: Dewgong|228\/327
+|move|p1a: Dewgong|Body Slam|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|167\/284
+|
+|turn|6
+|
+|move|p2a: Poliwhirl|Surf|p1a: Dewgong
+|-resisted|p1a: Dewgong
+|-damage|p1a: Dewgong|157\/327
+|move|p1a: Dewgong|Body Slam|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|111\/284
+|-status|p2a: Poliwhirl|par
+|
+|turn|7
+|
+|move|p1a: Dewgong|Body Slam|p2a: Poliwhirl
+|-crit|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|0 fnt
+|faint|p2a: Poliwhirl
+|
+|switch|p2a: Raichu|Raichu, L85|276\/276
+|turn|8
+|
+|switch|p1a: Shellder|Shellder, L96|252\/252 slp
+|move|p2a: Raichu|Surf|p1a: Shellder
+|-resisted|p1a: Shellder
+|-damage|p1a: Shellder|207\/252 slp
+|
+|turn|9
+|
+|move|p2a: Raichu|Thunderbolt|p1a: Shellder
+|-supereffective|p1a: Shellder
+|-damage|p1a: Shellder|0 fnt
+|faint|p1a: Shellder
+|
+|switch|p1a: Beedrill|Beedrill, L90|300\/300
+|turn|10
+|
+|switch|p2a: Doduo|Doduo, L96|262\/262
+|move|p1a: Beedrill|Agility|p1a: Beedrill
+|-boost|p1a: Beedrill|spe|2
+|
+|turn|11
+|
+|move|p1a: Beedrill|Swords Dance|p1a: Beedrill
+|-boost|p1a: Beedrill|atk|2
+|move|p2a: Doduo|Drill Peck|p1a: Beedrill
+|-crit|p1a: Beedrill
+|-supereffective|p1a: Beedrill
+|-damage|p1a: Beedrill|0 fnt
+|faint|p1a: Beedrill
+|
+|switch|p1a: Onix|Onix, L90|246\/246
+|turn|12
+|
+|move|p2a: Doduo|Reflect|p2a: Doduo
+|-start|p2a: Doduo|Reflect
+|move|p1a: Onix|Earthquake|p2a: Doduo
+|-immune|p2a: Doduo|[msg]
+|
+|turn|13
+|
+|move|p2a: Doduo|Body Slam|p1a: Onix
+|-resisted|p1a: Onix
+|-damage|p1a: Onix|215\/246
+|move|p1a: Onix|Rock Slide|p2a: Doduo
+|-supereffective|p2a: Doduo
+|-damage|p2a: Doduo|187\/262
+|
+|turn|14
+|
+|move|p2a: Doduo|Body Slam|p1a: Onix
+|-crit|p1a: Onix
+|-resisted|p1a: Onix
+|-damage|p1a: Onix|149\/246
+|move|p1a: Onix|Rock Slide|p2a: Doduo
+|-supereffective|p2a: Doduo
+|-damage|p2a: Doduo|106\/262
+|
+|turn|15
+|
+|move|p2a: Doduo|Body Slam|p1a: Onix
+|-crit|p1a: Onix
+|-resisted|p1a: Onix
+|-damage|p1a: Onix|88\/246
+|move|p1a: Onix|Rock Slide|p2a: Doduo|[miss]
+|-miss|p1a: Onix
+|
+|turn|16
+|
+|move|p2a: Doduo|Body Slam|p1a: Onix
+|-resisted|p1a: Onix
+|-damage|p1a: Onix|55\/246
+|move|p1a: Onix|Rock Slide|p2a: Doduo
+|-supereffective|p2a: Doduo
+|-damage|p2a: Doduo|27\/262
+|
+|turn|17
+|
+|move|p2a: Doduo|Body Slam|p1a: Onix
+|-resisted|p1a: Onix
+|-damage|p1a: Onix|24\/246
+|move|p1a: Onix|Rock Slide|p2a: Doduo
+|-crit|p2a: Doduo
+|-supereffective|p2a: Doduo
+|-damage|p2a: Doduo|0 fnt
+|faint|p2a: Doduo
+|
+|switch|p2a: Haunter|Haunter, L85|250\/250
+|turn|18
+|
+|move|p2a: Haunter|Mega Drain|p1a: Onix
+|-supereffective|p1a: Onix
+|-damage|p1a: Onix|0 fnt
+|faint|p1a: Onix
+|
+|switch|p1a: Fearow|Fearow, L90|300\/300
+|turn|19
+|
+|move|p1a: Fearow|Drill Peck|p2a: Haunter
+|-crit|p2a: Haunter
+|-damage|p2a: Haunter|0 fnt
+|faint|p2a: Haunter
+|
+|switch|p2a: Raichu|Raichu, L85|276\/276
+|turn|20
+|
+|move|p1a: Fearow|Double-Edge|p2a: Raichu
+|-crit|p2a: Raichu
+|-damage|p2a: Raichu|0 fnt
+|-damage|p1a: Fearow|231\/300|[from] recoil|[of] p2a: Raichu
+|faint|p2a: Raichu
+|
+|switch|p2a: Starmie|Starmie, L79|257\/257
+|turn|21
+|
+|move|p1a: Fearow|Double-Edge|p2a: Starmie
+|-damage|p2a: Starmie|127\/257
+|-damage|p1a: Fearow|199\/300|[from] recoil|[of] p2a: Starmie
+|move|p2a: Starmie|Blizzard|p1a: Fearow
+|-supereffective|p1a: Fearow
+|-damage|p1a: Fearow|36\/300
+|
+|turn|22
+|
+|switch|p2a: Moltres|Moltres, L85|327\/327
+|move|p1a: Fearow|Hyper Beam|p2a: Moltres
+|-damage|p2a: Moltres|154\/327
+|
+|turn|23
+|-mustrecharge|p1a: Fearow
+|-mustrecharge|p1a: Fearow
+|
+|cant|p1a: Fearow|recharge
+|move|p2a: Moltres|Fire Blast|p1a: Fearow
+|-crit|p1a: Fearow
+|-damage|p1a: Fearow|0 fnt
+|faint|p1a: Fearow
+|
+|switch|p1a: Magmar|Magmar, L90|300\/300
+|turn|24
+|
+|move|p1a: Magmar|Confuse Ray|p2a: Moltres
+|-start|p2a: Moltres|confusion
+|-activate|p2a: Moltres|confusion
+|move|p2a: Moltres|Reflect|p2a: Moltres
+|-start|p2a: Moltres|Reflect
+|
+|turn|25
+|
+|switch|p1a: Dewgong|Dewgong, L85|157\/327
+|-end|p2a: Moltres|confusion
+|move|p2a: Moltres|Sky Attack|p1a: Dewgong|[still]
+|-prepare|p2a: Moltres|Sky Attack|p1a: Dewgong
+|
+|turn|26
+|
+|move|p2a: Moltres|Sky Attack|p1a: Dewgong
+|-damage|p1a: Dewgong|0 fnt
+|faint|p1a: Dewgong
+|
+|switch|p1a: Magmar|Magmar, L90|300\/300
+|turn|27
+|
+|move|p1a: Magmar|Confuse Ray|p2a: Moltres
+|-start|p2a: Moltres|confusion
+|-activate|p2a: Moltres|confusion
+|-damage|p2a: Moltres|122\/327|[from] confusion
+|
+|turn|28
+|
+|move|p1a: Magmar|Body Slam|p2a: Moltres
+|-damage|p2a: Moltres|90\/327
+|-activate|p2a: Moltres|confusion
+|-damage|p2a: Moltres|58\/327|[from] confusion
+|
+|turn|29
+|
+|move|p1a: Magmar|Body Slam|p2a: Moltres
+|-damage|p2a: Moltres|23\/327
+|-end|p2a: Moltres|confusion
+|move|p2a: Moltres|Sky Attack|p1a: Magmar|[still]
+|-prepare|p2a: Moltres|Sky Attack|p1a: Magmar
+|
+|turn|30
+|
+|move|p1a: Magmar|Body Slam|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|
+|switch|p2a: Starmie|Starmie, L79|127\/257
+|turn|31
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|255\/257
+|move|p1a: Magmar|Confuse Ray|p2a: Starmie
+|-start|p2a: Starmie|confusion
+|
+|turn|32
+|
+|-activate|p2a: Starmie|confusion
+|move|p2a: Starmie|Surf|p1a: Magmar
+|-supereffective|p1a: Magmar
+|-damage|p1a: Magmar|140\/300
+|move|p1a: Magmar|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|176\/257
+|-status|p2a: Starmie|par
+|
+|turn|33
+|
+|move|p1a: Magmar|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|103\/257 par
+|-activate|p2a: Starmie|confusion
+|move|p2a: Starmie|Surf|p1a: Magmar
+|-supereffective|p1a: Magmar
+|-damage|p1a: Magmar|0 fnt
+|faint|p1a: Magmar
+|
+|win|Life's Pointless
+|raw|Ladder updating...
+|raw|SonicJaxx's rating: 1400 &rarr; <strong>1375<\/strong><br \/>(-25 for losing)
+|raw|Life&apos;s Pointless's rating: 1310 &rarr; <strong>1335<\/strong><br \/>(+25 for winning)

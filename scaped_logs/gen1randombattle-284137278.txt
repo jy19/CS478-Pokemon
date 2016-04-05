@@ -1,0 +1,300 @@
+﻿|join|XianJu
+|join|Elfin64
+|player|p1|XianJu|130
+|player|p2|Elfin64|293
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Doduo|Doduo, L96|262\/262
+|switch|p2a: Starmie|Starmie, L79|257\/257
+|turn|1
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Doduo
+|-crit|p1a: Doduo
+|-supereffective|p1a: Doduo
+|-damage|p1a: Doduo|0 fnt
+|faint|p1a: Doduo
+|join|vulcanfox
+|leave|vulcanfox
+|
+|switch|p1a: Victreebel|Victreebel, L85|310\/310
+|turn|2
+|
+|switch|p2a: Flareon|Flareon, L90|300\/300
+|move|p1a: Victreebel|Sleep Powder|p2a: Flareon|[miss]
+|-miss|p1a: Victreebel
+|
+|turn|3
+|
+|switch|p1a: Vulpix|Vulpix, L96|268\/268
+|move|p2a: Flareon|Fire Blast|p1a: Vulpix
+|-resisted|p1a: Vulpix
+|-damage|p1a: Vulpix|182\/268
+|
+|turn|4
+|
+|move|p2a: Flareon|Quick Attack|p1a: Vulpix
+|-damage|p1a: Vulpix|128\/268
+|move|p1a: Vulpix|Confuse Ray|p2a: Flareon
+|-start|p2a: Flareon|confusion
+|
+|turn|5
+|
+|-activate|p2a: Flareon|confusion
+|-damage|p2a: Flareon|249\/300|[from] confusion
+|move|p1a: Vulpix|Reflect|p1a: Vulpix
+|-start|p1a: Vulpix|Reflect
+|
+|turn|6
+|
+|switch|p2a: Nidorina|Nidorina, L90|309\/309
+|move|p1a: Vulpix|Body Slam|p2a: Nidorina
+|-damage|p2a: Nidorina|259\/309
+|
+|turn|7
+|
+|move|p1a: Vulpix|Confuse Ray|p2a: Nidorina
+|-start|p2a: Nidorina|confusion
+|-activate|p2a: Nidorina|confusion
+|-damage|p2a: Nidorina|228\/309|[from] confusion
+|
+|turn|8
+|
+|switch|p2a: Starmie|Starmie, L79|257\/257
+|move|p1a: Vulpix|Fire Blast|p2a: Starmie|[miss]
+|-miss|p1a: Vulpix
+|
+|turn|9
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Vulpix
+|-crit|p1a: Vulpix
+|-damage|p1a: Vulpix|0 fnt
+|faint|p1a: Vulpix
+|
+|switch|p1a: Victreebel|Victreebel, L85|310\/310
+|turn|10
+|
+|switch|p2a: Flareon|Flareon, L90|249\/300
+|move|p1a: Victreebel|Sleep Powder|p2a: Flareon
+|-status|p2a: Flareon|slp
+|
+|turn|11
+|
+|switch|p2a: Clefable|Clefable, L85|335\/335
+|switch|p1a: Ditto|Ditto, L99|296\/296
+|
+|turn|12
+|
+|move|p1a: Ditto|Transform|p2a: Clefable
+|-transform|p1a: Ditto|p2a: Clefable
+|move|p2a: Clefable|Sing|p1a: Ditto|[miss]
+|-miss|p2a: Clefable
+|
+|turn|13
+|
+|switch|p2a: Machoke|Machoke, L85|310\/310
+|move|p1a: Ditto|Thunder Wave|p2a: Machoke
+|-status|p2a: Machoke|par
+|
+|turn|14
+|
+|switch|p1a: Victreebel|Victreebel, L85|310\/310
+|move|p2a: Machoke|Earthquake|p1a: Victreebel
+|-damage|p1a: Victreebel|227\/310
+|
+|turn|15
+|
+|switch|p2a: Nidorina|Nidorina, L90|228\/309
+|move|p1a: Victreebel|Razor Leaf|p2a: Nidorina
+|-crit|p2a: Nidorina
+|-resisted|p2a: Nidorina
+|-damage|p2a: Nidorina|153\/309
+|
+|turn|16
+|
+|move|p1a: Victreebel|Stun Spore|p2a: Nidorina
+|-status|p2a: Nidorina|par
+|move|p2a: Nidorina|Thunderbolt|p1a: Victreebel
+|-resisted|p1a: Victreebel
+|-damage|p1a: Victreebel|204\/310
+|
+|turn|17
+|
+|switch|p2a: Dewgong|Dewgong, L85|327\/327
+|move|p1a: Victreebel|Razor Leaf|p2a: Dewgong
+|-crit|p2a: Dewgong
+|-supereffective|p2a: Dewgong
+|-damage|p2a: Dewgong|112\/327
+|
+|turn|18
+|
+|move|p2a: Dewgong|Surf|p1a: Victreebel
+|-resisted|p1a: Victreebel
+|-damage|p1a: Victreebel|161\/310
+|move|p1a: Victreebel|Razor Leaf|p2a: Dewgong
+|-crit|p2a: Dewgong
+|-supereffective|p2a: Dewgong
+|-damage|p2a: Dewgong|0 fnt
+|faint|p2a: Dewgong
+|
+|switch|p2a: Flareon|Flareon, L90|249\/300 slp
+|turn|19
+|
+|switch|p1a: Ditto|Ditto, L99|296\/296
+|cant|p2a: Flareon|slp
+|
+|turn|20
+|
+|cant|p2a: Flareon|slp
+|move|p1a: Ditto|Transform|p2a: Flareon
+|-transform|p1a: Ditto|p2a: Flareon
+|
+|turn|21
+|
+|switch|p2a: Starmie|Starmie, L79|257\/257
+|move|p1a: Ditto|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|196\/257
+|-status|p2a: Starmie|par
+|
+|turn|22
+|
+|switch|p1a: Victreebel|Victreebel, L85|161\/310
+|move|p2a: Starmie|Thunderbolt|p1a: Victreebel
+|-resisted|p1a: Victreebel
+|-damage|p1a: Victreebel|132\/310
+|
+|turn|23
+|
+|switch|p2a: Machoke|Machoke, L85|310\/310 par
+|move|p1a: Victreebel|Razor Leaf|p2a: Machoke
+|-crit|p2a: Machoke
+|-damage|p2a: Machoke|152\/310 par
+|
+|turn|24
+|
+|move|p1a: Victreebel|Razor Leaf|p2a: Machoke
+|-crit|p2a: Machoke
+|-damage|p2a: Machoke|0 fnt
+|faint|p2a: Machoke
+|
+|switch|p2a: Clefable|Clefable, L85|335\/335
+|turn|25
+|
+|move|p1a: Victreebel|Stun Spore|p2a: Clefable
+|-status|p2a: Clefable|par
+|cant|p2a: Clefable|par
+|
+|turn|26
+|
+|switch|p1a: Ditto|Ditto, L99|296\/296
+|move|p2a: Clefable|Hyper Beam|p1a: Ditto
+|-damage|p1a: Ditto|123\/296
+|
+|turn|27
+|-mustrecharge|p2a: Clefable
+|-mustrecharge|p2a: Clefable
+|
+|move|p1a: Ditto|Transform|p2a: Clefable
+|-transform|p1a: Ditto|p2a: Clefable
+|cant|p2a: Clefable|recharge
+|
+|turn|28
+|
+|move|p1a: Ditto|Hyper Beam|p2a: Clefable
+|-damage|p2a: Clefable|163\/335 par
+|move|p2a: Clefable|Hyper Beam|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|
+|switch|p1a: Victreebel|Victreebel, L85|132\/310
+|turn|29
+|
+|move|p1a: Victreebel|Hyper Beam|p2a: Clefable|[miss]
+|-miss|p1a: Victreebel
+|move|p2a: Clefable|Hyper Beam|p1a: Victreebel
+|-damage|p1a: Victreebel|0 fnt
+|faint|p1a: Victreebel
+|
+|switch|p1a: Primeape|Primeape, L90|300\/300
+|turn|30
+|
+|move|p1a: Primeape|Hyper Beam|p2a: Clefable
+|-damage|p2a: Clefable|24\/335 par
+|move|p2a: Clefable|Hyper Beam|p1a: Primeape
+|-damage|p1a: Primeape|131\/300
+|
+|turn|31
+|-mustrecharge|p1a: Primeape
+|-mustrecharge|p2a: Clefable
+|-mustrecharge|p2a: Clefable
+|-mustrecharge|p1a: Primeape
+|
+|cant|p1a: Primeape|recharge
+|cant|p2a: Clefable|recharge
+|
+|turn|32
+|
+|switch|p2a: Nidorina|Nidorina, L90|153\/309 par
+|move|p1a: Primeape|Body Slam|p2a: Nidorina
+|-damage|p2a: Nidorina|66\/309 par
+|
+|turn|33
+|
+|move|p1a: Primeape|Body Slam|p2a: Nidorina
+|-damage|p2a: Nidorina|0 fnt
+|faint|p2a: Nidorina
+|
+|switch|p2a: Starmie|Starmie, L79|196\/257 par
+|turn|34
+|
+|move|p1a: Primeape|Mega Kick|p2a: Starmie
+|-damage|p2a: Starmie|94\/257 par
+|move|p2a: Starmie|Thunderbolt|p1a: Primeape
+|-crit|p1a: Primeape
+|-damage|p1a: Primeape|0 fnt
+|faint|p1a: Primeape
+|
+|switch|p1a: Cloyster|Cloyster, L83|253\/253
+|turn|35
+|
+|move|p1a: Cloyster|Hyper Beam|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|switch|p2a: Clefable|Clefable, L85|24\/335 par
+|turn|36
+|
+|move|p1a: Cloyster|Surf|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|switch|p2a: Flareon|Flareon, L90|249\/300 slp
+|turn|37
+|
+|-curestatus|p2a: Flareon|slp
+|move|p1a: Cloyster|Surf|p2a: Flareon
+|-supereffective|p2a: Flareon
+|-damage|p2a: Flareon|107\/300
+|
+|turn|38
+|
+|move|p2a: Flareon|Quick Attack|p1a: Cloyster
+|-damage|p1a: Cloyster|231\/253
+|move|p1a: Cloyster|Surf|p2a: Flareon
+|-supereffective|p2a: Flareon
+|-damage|p2a: Flareon|0 fnt
+|faint|p2a: Flareon
+|
+|win|XianJu
+|raw|XianJu's rating: 1313 &rarr; <strong>1319<\/strong><br \/>(+6 for winning)
+|raw|Elfin64's rating: 1040 &rarr; <strong>1034<\/strong><br \/>(-6 for losing)
+|c|★Elfin64|gg
+|c|★XianJu|gg
+|leave|Elfin64
+|player|p2

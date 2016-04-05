@@ -1,0 +1,364 @@
+﻿|j|Dervodel2
+|j|robertovera1110
+|player|p1|Dervodel2|238
+|player|p2|robertovera1110|101
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|21646,2372,48150,30112
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Grimer|Grimer, L96|348\/348
+|switch|p2a: Dratini|Dratini, L96|274\/274
+|turn|1
+|choice|move 2|move 2
+|
+|move|p2a: Dratini|Blizzard|p1a: Grimer
+|-damage|p1a: Grimer|246\/348
+|move|p1a: Grimer|Sludge|p2a: Dratini
+|-damage|p2a: Dratini|167\/274
+|
+|turn|2
+|choice|move 2|move 3
+|
+|move|p2a: Dratini|Thunderbolt|p1a: Grimer
+|-damage|p1a: Grimer|167\/348
+|move|p1a: Grimer|Sludge|p2a: Dratini
+|-damage|p2a: Dratini|73\/274
+|
+|turn|3
+|choice|move 2|move 4
+|
+|move|p2a: Dratini|Hyper Beam|p1a: Grimer|[miss]
+|-miss|p2a: Dratini
+|move|p1a: Grimer|Sludge|p2a: Dratini
+|-damage|p2a: Dratini|0 fnt
+|faint|p2a: Dratini
+|choice||switch 5
+|
+|switch|p2a: Seadra|Seadra, L90|282\/282
+|turn|4
+|choice|switch 3|move 2
+|
+|switch|p1a: Slowbro|Slowbro, L79|312\/312
+|move|p2a: Seadra|Surf|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|199\/312
+|
+|turn|5
+|choice|move 3|move 4
+|
+|move|p2a: Seadra|Smokescreen|p1a: Slowbro
+|-unboost|p1a: Slowbro|accuracy|1
+|move|p1a: Slowbro|Thunder Wave|p2a: Seadra|[miss]
+|-miss|p1a: Slowbro
+|
+|turn|6
+|choice|move 3|move 4
+|
+|move|p2a: Seadra|Smokescreen|p1a: Slowbro
+|-unboost|p1a: Slowbro|accuracy|1
+|move|p1a: Slowbro|Thunder Wave|p2a: Seadra
+|-status|p2a: Seadra|par
+|
+|turn|7
+|choice|move 1|move 1
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|move|p2a: Seadra|Mimic|p1a: Slowbro
+|-start|p2a: Seadra|Mimic|Amnesia
+|
+|turn|8
+|choice|switch 3|move 1
+|
+|switch|p1a: Grimer|Grimer, L96|167\/348
+|cant|p2a: Seadra|par
+|
+|turn|9
+|choice|move 4|move 2
+|
+|move|p1a: Grimer|Mega Drain|p2a: Seadra
+|-supereffective|p2a: Seadra
+|-damage|p2a: Seadra|239\/282 par
+|-heal|p1a: Grimer|188\/348|[from] drain|[of] p2a: Seadra
+|move|p2a: Seadra|Surf|p1a: Grimer
+|-damage|p1a: Grimer|29\/348
+|
+|turn|10
+|choice|move 1|move 2
+|
+|move|p1a: Grimer|Explosion|p2a: Seadra
+|-damage|p2a: Seadra|2\/282 par
+|faint|p1a: Grimer
+|choice|switch 3|
+|
+|switch|p1a: Slowbro|Slowbro, L79|199\/312
+|turn|11
+|choice|move 1|move 4
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|move|p2a: Seadra|Smokescreen|p1a: Slowbro
+|-unboost|p1a: Slowbro|accuracy|1
+|
+|turn|12
+|choice|move 2|move 4
+|
+|move|p1a: Slowbro|Surf|p2a: Seadra
+|-resisted|p2a: Seadra
+|-damage|p2a: Seadra|0 fnt
+|faint|p2a: Seadra
+|choice||switch 2
+|
+|switch|p2a: Magneton|Magneton, L90|273\/273
+|turn|13
+|choice|switch 4|move 1
+|
+|switch|p1a: Dugtrio|Dugtrio, L85|233\/233
+|move|p2a: Magneton|Thunderbolt|p1a: Dugtrio
+|-immune|p1a: Dugtrio|[msg]
+|
+|turn|14
+|choice|move 4|move 2
+|
+|move|p1a: Dugtrio|Substitute|p1a: Dugtrio
+|-start|p1a: Dugtrio|Substitute
+|-damage|p1a: Dugtrio|175\/233
+|move|p2a: Magneton|Double-Edge|p1a: Dugtrio
+|-end|p1a: Dugtrio|Substitute
+|-damage|p2a: Magneton|258\/273|[from] recoil|[of] p1a: Dugtrio
+|
+|turn|15
+|choice|move 1|move 2
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Magneton
+|-supereffective|p2a: Magneton
+|-damage|p2a: Magneton|70\/273
+|move|p2a: Magneton|Double-Edge|p1a: Dugtrio
+|-damage|p1a: Dugtrio|90\/233
+|-damage|p2a: Magneton|49\/273|[from] recoil|[of] p1a: Dugtrio
+|
+|turn|16
+|choice|move 1|move 4
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Magneton
+|-supereffective|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|faint|p2a: Magneton
+|choice||switch 4
+|
+|switch|p2a: Poliwhirl|Poliwhirl, L85|284\/284
+|turn|17
+|choice|switch 4|move 3
+|
+|switch|p1a: Slowbro|Slowbro, L79|199\/312
+|move|p2a: Poliwhirl|Surf|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|157\/312
+|
+|turn|18
+|choice|move 3|move 4
+|
+|move|p2a: Poliwhirl|Hypnosis|p1a: Slowbro|[miss]
+|-miss|p2a: Poliwhirl
+|move|p1a: Slowbro|Thunder Wave|p2a: Poliwhirl
+|-status|p2a: Poliwhirl|par
+|
+|turn|19
+|choice|move 2|move 4
+|
+|move|p1a: Slowbro|Surf|p2a: Poliwhirl
+|-resisted|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|234\/284 par
+|move|p2a: Poliwhirl|Hypnosis|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|
+|turn|20
+|choice|switch 5|move 2
+|
+|switch|p1a: Electabuzz|Electabuzz, L85|284\/284
+|cant|p2a: Poliwhirl|par
+|
+|turn|21
+|choice|move 2|switch 6
+|
+|switch|p2a: Golem|Golem, L79|288\/288
+|move|p1a: Electabuzz|Thunderbolt|p2a: Golem
+|-immune|p2a: Golem|[msg]
+|
+|turn|22
+|choice|switch 2|move 4
+|
+|switch|p1a: Dodrio|Dodrio, L85|276\/276
+|move|p2a: Golem|Earthquake|p1a: Dodrio
+|-immune|p1a: Dodrio|[msg]
+|
+|turn|23
+|choice|switch 6|move 2
+|
+|switch|p1a: Mewtwo|Mewtwo, L68|285\/285
+|move|p2a: Golem|Rock Slide|p1a: Mewtwo
+|-crit|p1a: Mewtwo
+|-damage|p1a: Mewtwo|103\/285
+|
+|turn|24
+|choice|move 1|move 2
+|
+|move|p1a: Mewtwo|Psychic|p2a: Golem
+|-damage|p2a: Golem|175\/288
+|move|p2a: Golem|Rock Slide|p1a: Mewtwo
+|-damage|p1a: Mewtwo|10\/285
+|
+|turn|25
+|choice|move 2|move 2
+|
+|move|p1a: Mewtwo|Recover|p1a: Mewtwo
+|-heal|p1a: Mewtwo|152\/285
+|move|p2a: Golem|Rock Slide|p1a: Mewtwo
+|-damage|p1a: Mewtwo|62\/285
+|
+|turn|26
+|choice|move 2|move 4
+|
+|move|p1a: Mewtwo|Recover|p1a: Mewtwo
+|-heal|p1a: Mewtwo|204\/285
+|move|p2a: Golem|Earthquake|p1a: Mewtwo
+|-damage|p1a: Mewtwo|78\/285
+|
+|turn|27
+|choice|move 2|move 4
+|
+|move|p1a: Mewtwo|Recover|p1a: Mewtwo
+|-heal|p1a: Mewtwo|220\/285
+|move|p2a: Golem|Earthquake|p1a: Mewtwo
+|-damage|p1a: Mewtwo|101\/285
+|
+|turn|28
+|choice|move 4|move 2
+|
+|move|p1a: Mewtwo|Barrier|p1a: Mewtwo
+|-boost|p1a: Mewtwo|def|2
+|move|p2a: Golem|Rock Slide|p1a: Mewtwo
+|-damage|p1a: Mewtwo|56\/285
+|
+|turn|29
+|choice|move 2|move 3
+|
+|move|p1a: Mewtwo|Recover|p1a: Mewtwo
+|-heal|p1a: Mewtwo|198\/285
+|move|p2a: Golem|Explosion|p1a: Mewtwo
+|-damage|p1a: Mewtwo|51\/285
+|faint|p2a: Golem
+|choice||switch 3
+|
+|switch|p2a: Machoke|Machoke, L85|310\/310
+|turn|30
+|choice|move 2|move 1
+|
+|move|p1a: Mewtwo|Recover|p1a: Mewtwo
+|-heal|p1a: Mewtwo|193\/285
+|move|p2a: Machoke|Submission|p1a: Mewtwo
+|-resisted|p1a: Mewtwo
+|-damage|p1a: Mewtwo|167\/285
+|-damage|p2a: Machoke|304\/310|[from] recoil|[of] p1a: Mewtwo
+|
+|turn|31
+|choice|move 2|move 2
+|
+|move|p1a: Mewtwo|Recover|p1a: Mewtwo
+|-heal|p1a: Mewtwo|285\/285
+|move|p2a: Machoke|Leer|p1a: Mewtwo
+|-unboost|p1a: Mewtwo|def|1
+|
+|turn|32
+|choice|move 3|move 4
+|
+|move|p1a: Mewtwo|Amnesia|p1a: Mewtwo
+|-boost|p1a: Mewtwo|spd|2
+|-boost|p1a: Mewtwo|spa|2
+|move|p2a: Machoke|Body Slam|p1a: Mewtwo
+|-damage|p1a: Mewtwo|230\/285
+|-status|p1a: Mewtwo|par
+|
+|turn|33
+|choice|move 3|move 2
+|
+|move|p2a: Machoke|Leer|p1a: Mewtwo
+|move|p1a: Mewtwo|Amnesia|p1a: Mewtwo
+|-boost|p1a: Mewtwo|spd|2
+|-boost|p1a: Mewtwo|spa|2
+|
+|turn|34
+|choice|move 4|move 3
+|
+|move|p2a: Machoke|Rock Slide|p1a: Mewtwo
+|-damage|p1a: Mewtwo|185\/285 par
+|cant|p1a: Mewtwo|par
+|
+|turn|35
+|choice|move 2|move 1
+|
+|move|p2a: Machoke|Submission|p1a: Mewtwo
+|-resisted|p1a: Mewtwo
+|-damage|p1a: Mewtwo|150\/285 par
+|-damage|p2a: Machoke|296\/310|[from] recoil|[of] p1a: Mewtwo
+|move|p1a: Mewtwo|Recover|p1a: Mewtwo
+|-heal|p1a: Mewtwo|285\/285 par
+|
+|turn|36
+|choice|move 4|move 2
+|
+|move|p2a: Machoke|Leer|p1a: Mewtwo
+|-unboost|p1a: Mewtwo|def|1
+|move|p1a: Mewtwo|Barrier|p1a: Mewtwo
+|-boost|p1a: Mewtwo|def|2
+|
+|turn|37
+|choice|move 4|move 2
+|
+|move|p2a: Machoke|Leer|p1a: Mewtwo
+|cant|p1a: Mewtwo|par
+|
+|turn|38
+|choice|move 4|move 3
+|
+|move|p2a: Machoke|Rock Slide|p1a: Mewtwo
+|-damage|p1a: Mewtwo|243\/285 par
+|move|p1a: Mewtwo|Barrier|p1a: Mewtwo
+|-boost|p1a: Mewtwo|def|2
+|
+|turn|39
+|choice|move 1|move 2
+|
+|move|p2a: Machoke|Leer|p1a: Mewtwo
+|-unboost|p1a: Mewtwo|def|1
+|move|p1a: Mewtwo|Psychic|p2a: Machoke
+|-supereffective|p2a: Machoke
+|-damage|p2a: Machoke|0 fnt
+|faint|p2a: Machoke
+|choice||switch 6
+|
+|switch|p2a: Poliwhirl|Poliwhirl, L85|234\/284 par
+|turn|40
+|choice|move 1|move 4
+|
+|move|p2a: Poliwhirl|Hypnosis|p1a: Mewtwo|[miss]
+|-miss|p2a: Poliwhirl
+|move|p1a: Mewtwo|Psychic|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|0 fnt
+|faint|p2a: Poliwhirl
+|
+|win|Dervodel2
+|player|p1
+|player|p2
+|raw|Dervodel2's rating: 1314 &rarr; <strong>1327<\/strong><br \/>(+13 for winning)
+|raw|robertovera1110's rating: 1188 &rarr; <strong>1171<\/strong><br \/>(-17 for losing)
+|l|robertovera1110

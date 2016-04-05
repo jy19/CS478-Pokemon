@@ -1,0 +1,210 @@
+﻿|J|Dice
+|J|M Dragon
+|player|p1|Dice|265
+|player|p2|M Dragon|1
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|seed|50717,36686,7685,26716
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333\/333
+|switch|p2a: Alakazam|Alakazam, M|313\/313
+|turn|1
+|J|SOMALIA
+|choice|move 4|move 1
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Jynx
+|-status|p1a: Jynx|par
+|move|p1a: Jynx|Lovely Kiss|p2a: Alakazam
+|-status|p2a: Alakazam|slp
+|
+|turn|2
+|choice|move 1|switch 5
+|
+|switch|p2a: Lapras|Lapras, M|463\/463
+|move|p1a: Jynx|Blizzard|p2a: Lapras|[miss]
+|-miss|p1a: Jynx
+|
+|turn|3
+|choice|move 2|move 3
+|
+|move|p2a: Lapras|Thunderbolt|p1a: Jynx
+|-damage|p1a: Jynx|260\/333 par
+|move|p1a: Jynx|Psychic|p2a: Lapras
+|-damage|p2a: Lapras|354\/463
+|-unboost|p2a: Lapras|spd|1
+|-unboost|p2a: Lapras|spa|1
+|
+|turn|4
+|J|badaking
+|J|IBIREVER
+|choice|move 2|switch 2
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|cant|p1a: Jynx|par
+|
+|turn|5
+|J|Aussicht
+|choice|switch 6|move 1
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Starmie|Hydro Pump|p1a: Chansey|[miss]
+|-miss|p2a: Starmie
+|
+|turn|6
+|choice|move 2|switch 6
+|
+|switch|p2a: Exeggutor|Exeggutor, M|393\/393
+|move|p1a: Chansey|Ice Beam|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|250\/393
+|
+|turn|7
+|J|BKC
+|choice|move 2|switch 4
+|
+|switch|p2a: Snorlax|Snorlax, M|523\/523
+|move|p1a: Chansey|Ice Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|430\/523
+|-status|p2a: Snorlax|frz
+|
+|turn|8
+|choice|move 1|switch 2
+|
+|switch|p2a: Lapras|Lapras, M|354\/463
+|move|p1a: Chansey|Thunderbolt|p2a: Lapras
+|-crit|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|61\/463
+|
+|turn|9
+|choice|switch 6|move 4
+|
+|switch|p1a: Jynx|Jynx|260\/333 par
+|move|p2a: Lapras|Sing|p1a: Jynx|[miss]
+|-miss|p2a: Lapras
+|
+|turn|10
+|choice|move 2|switch 6
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|cant|p1a: Jynx|par
+|
+|turn|11
+|choice|switch 6|move 4
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Starmie|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|615\/703
+|
+|turn|12
+|choice|move 1|switch 4
+|
+|switch|p2a: Exeggutor|Exeggutor, M|250\/393
+|move|p1a: Chansey|Thunderbolt|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|220\/393
+|
+|turn|13
+|choice|switch 6|switch 4
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|switch|p1a: Jynx|Jynx|260\/333 par
+|
+|turn|14
+|J|smurfer
+|choice|switch 6|move 4
+|
+|switch|p1a: Chansey|Chansey|615\/703
+|move|p2a: Starmie|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|524\/703
+|
+|turn|15
+|J|Bloody alfa
+|choice|move 3|move 4
+|
+|move|p2a: Starmie|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|431\/703
+|move|p1a: Chansey|Thunder Wave|p2a: Starmie
+|-status|p2a: Starmie|par
+|
+|turn|16
+|choice|move 4|move 4
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703
+|move|p2a: Starmie|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|607\/703
+|
+|turn|17
+|choice|move 1|move 4
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|153\/323 par
+|move|p2a: Starmie|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|514\/703
+|
+|turn|18
+|choice|move 2|switch 4
+|
+|switch|p2a: Exeggutor|Exeggutor, M|220\/393
+|move|p1a: Chansey|Ice Beam|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|84\/393
+|
+|turn|19
+|choice|switch 6|switch 3
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|switch|p1a: Jynx|Jynx|260\/333 par
+|
+|turn|20
+|choice|switch 2|move 3
+|
+|switch|p1a: Cloyster|Cloyster|303\/303
+|move|p2a: Tauros|Earthquake|p1a: Cloyster
+|-damage|p1a: Cloyster|247\/303
+|
+|turn|21
+|choice|move 1|move 2
+|
+|move|p2a: Tauros|Body Slam|p1a: Cloyster
+|-damage|p1a: Cloyster|181\/303
+|move|p1a: Cloyster|Blizzard|p2a: Tauros
+|-damage|p2a: Tauros|204\/353
+|
+|turn|22
+|choice|move 2|move 2
+|
+|move|p2a: Tauros|Body Slam|p1a: Cloyster
+|-damage|p1a: Cloyster|109\/303
+|-status|p1a: Cloyster|par
+|move|p1a: Cloyster|Explosion|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|faint|p1a: Cloyster
+|J|SunnyORAS
+|c|★M Dragon|yeah gg
+|choice|switch 4|switch 4
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|switch|p2a: Starmie|Starmie|153\/323 par
+|turn|23
+|c|★Dice|ye prob
+|choice|move 4|move 3
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|L|smurfer
+|-message|M Dragon forfeited.
+|
+|win|Dice

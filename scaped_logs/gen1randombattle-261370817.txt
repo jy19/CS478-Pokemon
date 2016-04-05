@@ -1,0 +1,224 @@
+﻿|join|Chargin' Chuck
+|join|slizzurp
+|player|p1|Chargin' Chuck|176
+|player|p2|slizzurp|101
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Machoke|Machoke, L85|310\/310
+|switch|p2a: Oddish|Oddish, L96|281\/281
+|turn|1
+|
+|move|p1a: Machoke|Body Slam|p2a: Oddish
+|-damage|p2a: Oddish|208\/281
+|-status|p2a: Oddish|par
+|move|p2a: Oddish|Mega Drain|p1a: Machoke
+|-damage|p1a: Machoke|249\/310
+|-heal|p2a: Oddish|238\/281 par|[from] drain|[of] p1a: Machoke
+|
+|turn|2
+|
+|switch|p1a: Rapidash|Rapidash, L90|300\/300
+|move|p2a: Oddish|Toxic|p1a: Rapidash
+|-status|p1a: Rapidash|tox
+|
+|turn|3
+|
+|switch|p2a: Wartortle|Wartortle, L85|274\/274
+|move|p1a: Rapidash|Fire Blast|p2a: Wartortle
+|-resisted|p2a: Wartortle
+|-damage|p2a: Wartortle|197\/274
+|-damage|p1a: Rapidash|282\/300 tox|[from] tox|[of] p2a: Wartortle
+|
+|turn|4
+|
+|switch|p1a: Magneton|Magneton, L90|273\/273
+|move|p2a: Wartortle|Hydro Pump|p1a: Magneton
+|-crit|p1a: Magneton
+|-damage|p1a: Magneton|133\/273
+|
+|turn|5
+|
+|switch|p2a: Rhydon|Rhydon, L79|328\/328
+|move|p1a: Magneton|Thunderbolt|p2a: Rhydon
+|-immune|p2a: Rhydon|[msg]
+|
+|turn|6
+|
+|switch|p1a: Machoke|Machoke, L85|249\/310
+|move|p2a: Rhydon|Body Slam|p1a: Machoke
+|-damage|p1a: Machoke|173\/310
+|
+|turn|7
+|
+|switch|p2a: Oddish|Oddish, L96|238\/281 par
+|move|p1a: Machoke|Counter|p2a: Oddish
+|-damage|p2a: Oddish|86\/281 par
+|
+|turn|8
+|
+|move|p1a: Machoke|Double-Edge|p2a: Oddish
+|-damage|p2a: Oddish|0 fnt
+|-damage|p1a: Machoke|152\/310|[from] recoil|[of] p2a: Oddish
+|faint|p2a: Oddish
+|
+|switch|p2a: Wartortle|Wartortle, L85|197\/274
+|turn|9
+|
+|move|p2a: Wartortle|Surf|p1a: Machoke
+|-crit|p1a: Machoke
+|-damage|p1a: Machoke|0 fnt
+|faint|p1a: Machoke
+|
+|switch|p1a: Magneton|Magneton, L90|133\/273
+|turn|10
+|
+|switch|p2a: Rhydon|Rhydon, L79|328\/328
+|move|p1a: Magneton|Mimic|p2a: Rhydon
+|-start|p1a: Magneton|Mimic|Substitute
+|
+|turn|11
+|
+|switch|p1a: Seaking|Seaking, L90|327\/327
+|move|p2a: Rhydon|Body Slam|p1a: Seaking
+|-damage|p1a: Seaking|255\/327
+|
+|turn|12
+|
+|switch|p2a: Dewgong|Dewgong, L85|327\/327
+|move|p1a: Seaking|Surf|p2a: Dewgong
+|-resisted|p2a: Dewgong
+|-damage|p2a: Dewgong|278\/327
+|
+|turn|13
+|
+|switch|p1a: Scyther|Scyther, L90|309\/309
+|move|p2a: Dewgong|Body Slam|p1a: Scyther
+|-damage|p1a: Scyther|262\/309
+|
+|turn|14
+|
+|move|p1a: Scyther|Slash|p2a: Dewgong
+|-crit|p2a: Dewgong
+|-damage|p2a: Dewgong|145\/327
+|move|p2a: Dewgong|Blizzard|p1a: Scyther
+|-supereffective|p1a: Scyther
+|-damage|p1a: Scyther|0 fnt
+|faint|p1a: Scyther
+|
+|switch|p1a: Rapidash|Rapidash, L90|282\/300 tox
+|-status|p1a: Rapidash|psn
+|turn|15
+|
+|move|p1a: Rapidash|Fire Blast|p2a: Dewgong
+|-damage|p2a: Dewgong|23\/327
+|-damage|p1a: Rapidash|264\/300 psn|[from] psn|[of] p2a: Dewgong
+|move|p2a: Dewgong|Surf|p1a: Rapidash
+|-supereffective|p1a: Rapidash
+|-damage|p1a: Rapidash|56\/300 psn
+|
+|turn|16
+|
+|move|p1a: Rapidash|Fire Blast|p2a: Dewgong
+|-crit|p2a: Dewgong
+|-damage|p2a: Dewgong|0 fnt
+|faint|p2a: Dewgong
+|
+|switch|p2a: Rhydon|Rhydon, L79|328\/328
+|turn|17
+|
+|move|p1a: Rapidash|Fire Blast|p2a: Rhydon
+|-crit|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|131\/328
+|-damage|p1a: Rapidash|38\/300 psn|[from] psn|[of] p2a: Rhydon
+|move|p2a: Rhydon|Body Slam|p1a: Rapidash
+|-damage|p1a: Rapidash|0 fnt
+|faint|p1a: Rapidash
+|
+|switch|p1a: Nidoqueen|Nidoqueen, L85|327\/327
+|turn|18
+|
+|move|p1a: Nidoqueen|Earthquake|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|
+|switch|p2a: Wartortle|Wartortle, L85|197\/274
+|turn|19
+|
+|move|p1a: Nidoqueen|Thunderbolt|p2a: Wartortle
+|-supereffective|p2a: Wartortle
+|-damage|p2a: Wartortle|62\/274
+|-status|p2a: Wartortle|par
+|move|p2a: Wartortle|Hydro Pump|p1a: Nidoqueen
+|-supereffective|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|99\/327
+|
+|turn|20
+|
+|move|p1a: Nidoqueen|Thunderbolt|p2a: Wartortle
+|-supereffective|p2a: Wartortle
+|-damage|p2a: Wartortle|0 fnt
+|faint|p2a: Wartortle
+|
+|switch|p2a: Lickitung|Lickitung, L90|345\/345
+|turn|21
+|
+|move|p1a: Nidoqueen|Body Slam|p2a: Lickitung
+|-crit|p2a: Lickitung
+|-damage|p2a: Lickitung|243\/345
+|move|p2a: Lickitung|Swords Dance|p2a: Lickitung
+|-boost|p2a: Lickitung|atk|2
+|
+|turn|22
+|
+|move|p1a: Nidoqueen|Earthquake|p2a: Lickitung
+|-damage|p2a: Lickitung|134\/345
+|move|p2a: Lickitung|Earthquake|p1a: Nidoqueen
+|-supereffective|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|0 fnt
+|faint|p1a: Nidoqueen
+|
+|switch|p1a: Magneton|Magneton, L90|133\/273
+|turn|23
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Lickitung
+|-damage|p2a: Lickitung|0 fnt
+|faint|p2a: Lickitung
+|
+|switch|p2a: Clefable|Clefable, L85|335\/335
+|turn|24
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Clefable
+|-damage|p2a: Clefable|201\/335
+|move|p2a: Clefable|Hyper Beam|p1a: Magneton
+|-damage|p1a: Magneton|21\/273
+|
+|turn|25
+|-mustrecharge|p2a: Clefable
+|-mustrecharge|p2a: Clefable
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Clefable
+|-damage|p2a: Clefable|59\/335
+|-status|p2a: Clefable|par
+|cant|p2a: Clefable|recharge
+|
+|turn|26
+|c|★slizzurp|gg
+|c|★Chargin' Chuck|gg
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|win|Chargin' Chuck
+|raw|Ladder updating...
+|raw|Chargin&apos; Chuck's rating: 1171 &rarr; <strong>1190<\/strong><br \/>(+19 for winning)
+|raw|slizzurp's rating: 1087 &rarr; <strong>1070<\/strong><br \/>(-17 for losing)

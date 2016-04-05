@@ -1,0 +1,695 @@
+﻿|join|marcoasd
+|join|Disaster Area
+|player|p1|marcoasd|2
+|player|p2|Disaster Area|32
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Starmie|Starmie|323\/323
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|1
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Starmie|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|turn|2
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: Chansey|Reflect|p2a: Chansey
+|-start|p2a: Chansey|Reflect
+|
+|turn|3
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|move|p1a: Snorlax|Body Slam|p2a: Gengar
+|-immune|p2a: Gengar|[msg]
+|
+|turn|4
+|
+|move|p2a: Gengar|Hypnosis|p1a: Snorlax
+|-status|p1a: Snorlax|slp
+|cant|p1a: Snorlax|slp
+|
+|turn|5
+|
+|switch|p2a: Zapdos|Zapdos|383\/383
+|switch|p1a: Chansey|Chansey|703\/703
+|
+|turn|6
+|
+|switch|p2a: Chansey|Chansey|703\/703 par
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|
+|turn|7
+|
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|632\/703 par
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|turn|8
+|c|★Disaster Area|think I just misplayed rip
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|move|p2a: Chansey|Reflect|p2a: Chansey
+|-start|p2a: Chansey|Reflect
+|
+|turn|9
+|
+|move|p1a: Tauros|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|492\/703 par
+|move|p2a: Chansey|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|
+|turn|10
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|move|p1a: Tauros|Body Slam|p2a: Gengar
+|-immune|p2a: Gengar|[msg]
+|
+|turn|11
+|
+|switch|p2a: Zapdos|Zapdos|383\/383
+|move|p1a: Tauros|Earthquake|p2a: Zapdos
+|-immune|p2a: Zapdos|[msg]
+|
+|turn|12
+|
+|switch|p1a: Golem|Golem|363\/363
+|move|p2a: Zapdos|Drill Peck|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|328\/363
+|
+|turn|13
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Golem|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|434\/523
+|
+|turn|14
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Snorlax|Ice Beam|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|289\/393
+|
+|turn|15
+|
+|switch|p2a: Chansey|Chansey|492\/703 par
+|move|p1a: Exeggutor|Psychic|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|275\/703 par
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|
+|turn|16
+|
+|move|p1a: Exeggutor|Psychic|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|54\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|17
+|c|★Disaster Area|ouch
+|c|★Disaster Area|wow
+|c|★Disaster Area|ok then
+|c|★marcoasd|here we go
+|
+|switch|p2a: Zapdos|Zapdos|383\/383
+|move|p1a: Exeggutor|Psychic|p2a: Zapdos
+|-damage|p2a: Zapdos|268\/383
+|
+|turn|18
+|
+|switch|p1a: Golem|Golem|328\/363
+|move|p2a: Zapdos|Drill Peck|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|291\/363
+|
+|turn|19
+|
+|switch|p2a: Cloyster|Cloyster|303\/303
+|move|p1a: Golem|Rock Slide|p2a: Cloyster
+|-supereffective|p2a: Cloyster
+|-damage|p2a: Cloyster|176\/303
+|
+|turn|20
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|move|p2a: Cloyster|Blizzard|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|262\/323
+|
+|turn|21
+|c|★Disaster Area|hmm
+|c|★Disaster Area|I should have clamped I guess
+|c|★Disaster Area|**CLAMPS**
+|
+|switch|p2a: Chansey|Chansey|54\/703 par
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|323\/323
+|
+|turn|22
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|switch|p2a: Snorlax|Snorlax|434\/523
+|turn|23
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|move|p2a: Snorlax|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|211\/323
+|
+|turn|24
+|
+|move|p1a: Starmie|Blizzard|p2a: Snorlax
+|-damage|p2a: Snorlax|313\/523 par
+|cant|p2a: Snorlax|par
+|
+|turn|25
+|
+|move|p1a: Starmie|Blizzard|p2a: Snorlax
+|-damage|p2a: Snorlax|189\/523 par
+|cant|p2a: Snorlax|par
+|
+|turn|26
+|
+|switch|p1a: Tauros|Tauros|353\/353 par
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp
+|-heal|p2a: Snorlax|523\/523 slp|[silent]
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|
+|turn|27
+|c|★marcoasd|awww
+|c|★Disaster Area|:]
+|
+|switch|p1a: Exeggutor|Exeggutor|289\/393
+|cant|p2a: Snorlax|slp
+|
+|turn|28
+|
+|switch|p2a: Zapdos|Zapdos|268\/383
+|move|p1a: Exeggutor|Psychic|p2a: Zapdos
+|-damage|p2a: Zapdos|168\/383
+|
+|turn|29
+|
+|switch|p1a: Chansey|Chansey|703\/703 par
+|move|p2a: Zapdos|Drill Peck|p1a: Chansey
+|-damage|p1a: Chansey|446\/703 par
+|
+|turn|30
+|
+|switch|p1a: Golem|Golem|291\/363
+|move|p2a: Zapdos|Light Screen|p2a: Zapdos
+|-start|p2a: Zapdos|Light Screen
+|
+|turn|31
+|
+|switch|p2a: Cloyster|Cloyster|176\/303
+|move|p1a: Golem|Body Slam|p2a: Cloyster
+|-damage|p2a: Cloyster|126\/303
+|
+|turn|32
+|
+|switch|p1a: Chansey|Chansey|446\/703 par
+|move|p2a: Cloyster|Rest|p2a: Cloyster
+|-status|p2a: Cloyster|slp
+|-heal|p2a: Cloyster|303\/303 slp|[silent]
+|-status|p2a: Cloyster|slp|[from] move: Rest
+|
+|turn|33
+|
+|switch|p2a: Snorlax|Snorlax|523\/523 slp
+|switch|p1a: Exeggutor|Exeggutor|289\/393
+|
+|turn|34
+|
+|move|p1a: Exeggutor|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|368\/523 slp
+|-curestatus|p2a: Snorlax|slp
+|
+|turn|35
+|
+|switch|p2a: Zapdos|Zapdos|168\/383
+|move|p1a: Exeggutor|Sleep Powder|p2a: Zapdos|[miss]
+|-miss|p1a: Exeggutor
+|
+|turn|36
+|c|★Disaster Area|lol
+|
+|switch|p2a: Koopacow|Tauros|353\/353
+|switch|p1a: Golem|Golem|291\/363
+|
+|turn|37
+|
+|switch|p1a: Tauros|Tauros|353\/353 par
+|move|p2a: Koopacow|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|247\/353 par
+|
+|turn|38
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|cant|p1a: Tauros|par
+|
+|turn|39
+|
+|switch|p2a: Koopacow|Tauros|353\/353
+|move|p1a: Tauros|Blizzard|p2a: Koopacow
+|-damage|p2a: Koopacow|264\/353
+|-status|p2a: Koopacow|frz
+|
+|turn|40
+|c|★marcoasd|lol
+|c|★Disaster Area|lol
+|c|★Disaster Area|u've had
+|c|★Disaster Area|some great luck
+|c|★Disaster Area|this match
+|c|★Disaster Area|xD
+|c|★marcoasd|yeah
+|c|★marcoasd|a shitty team mu
+|c|★marcoasd|and good luck
+|c|★Disaster Area|for who?
+|c|★marcoasd|me
+|c|★Disaster Area|rip
+|c|★Disaster Area|how is it
+|c|★Disaster Area|shitty?
+|c|★Disaster Area|golem walls 2\/6 of my team
+|c|★marcoasd|well maybe it was hard for both
+|c|★Disaster Area|exeggutor haxed my chansey to oblivion
+|c|★Disaster Area|double crit + fp
+|c|★marcoasd|yeah
+|c|★Disaster Area|;~;
+|c|★marcoasd|luck helped
+|c|★Disaster Area|+ froze my tauros
+|
+|switch|p2a: Cloyster|Cloyster|303\/303 slp
+|move|p1a: Tauros|Body Slam|p2a: Cloyster
+|-damage|p2a: Cloyster|242\/303 slp
+|
+|turn|41
+|c|★Disaster Area|maybe I misplayed not trying to bring this out vs it
+|
+|switch|p1a: Starmie|Starmie|211\/323
+|cant|p2a: Cloyster|slp
+|
+|turn|42
+|
+|switch|p2a: Koopacow|Tauros|264\/353 frz
+|move|p1a: Starmie|Thunder Wave|p2a: Koopacow
+|-fail|p2a: Koopacow
+|
+|turn|43
+|c|★Disaster Area|it woulda been a game full of
+|c|★Disaster Area|fun doubles
+|c|★Disaster Area|and stuff
+|c|★Disaster Area|if i hadn't been haxed :\/
+|c|★Disaster Area|rip
+|c|★Disaster Area|we have
+|c|★Disaster Area|2 more games
+|c|★Disaster Area|and then can we play
+|c|★Disaster Area|one for fun
+|c|★Disaster Area|with my testing out
+|c|★Disaster Area|one of my 'ideas'
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|323\/323
+|cant|p2a: Koopacow|frz
+|
+|turn|44
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|move|p1a: Starmie|Thunderbolt|p2a: Gengar
+|-damage|p2a: Gengar|260\/323
+|
+|turn|45
+|
+|switch|p1a: Chansey|Chansey|446\/703 par
+|move|p2a: Gengar|Night Shade|p1a: Chansey
+|-damage|p1a: Chansey|346\/703 par
+|
+|turn|46
+|
+|switch|p2a: Zapdos|Zapdos|168\/383
+|cant|p1a: Chansey|par
+|
+|turn|47
+|
+|switch|p1a: Golem|Golem|291\/363
+|move|p2a: Zapdos|Drill Peck|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|256\/363
+|
+|turn|48
+|
+|switch|p2a: Gengar|Gengar|260\/323
+|move|p1a: Golem|Earthquake|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|c|★Disaster Area|damn
+|c|★Disaster Area|got me
+|
+|switch|p2a: Snorlax|Snorlax|368\/523
+|turn|49
+|c|★Disaster Area|nb my set was standard
+|c|★marcoasd|red handed
+|c|★Disaster Area|no mega drain fun :'(
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|move|p2a: Snorlax|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|209\/323
+|-status|p1a: Starmie|par
+|
+|turn|50
+|
+|move|p2a: Snorlax|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|95\/323 par
+|move|p1a: Starmie|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|
+|turn|51
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|256\/323 par
+|move|p2a: Snorlax|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|129\/323 par
+|
+|turn|52
+|c|★Disaster Area|no fp for me
+|c|★Disaster Area|then
+|c|★Disaster Area|;~;
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|290\/323 par
+|move|p2a: Snorlax|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|175\/323 par
+|
+|turn|53
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|323\/323 par
+|move|p2a: Snorlax|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|211\/323 par
+|
+|turn|54
+|
+|switch|p2a: Zapdos|Zapdos|168\/383
+|cant|p1a: Starmie|par
+|
+|turn|55
+|c|★marcoasd|asd it was blizzard
+|
+|switch|p1a: Golem|Golem|256\/363
+|move|p2a: Zapdos|Drill Peck|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|221\/363
+|
+|turn|56
+|c|★Disaster Area|rip
+|c|★Disaster Area|lol
+|c|★Disaster Area|my zapdos has done
+|c|★Disaster Area|40% on its own
+|c|★Disaster Area|this match
+|c|★marcoasd|lol
+|c|★Disaster Area|to your golem
+|c|★Disaster Area|rofl
+|c|★Disaster Area|no crits
+|c|★Disaster Area|if they all crit, 80% :D
+|
+|switch|p2a: Koopacow|Tauros|264\/353 frz
+|move|p1a: Golem|Rock Slide|p2a: Koopacow
+|-damage|p2a: Koopacow|164\/353 frz
+|
+|turn|57
+|c|★Disaster Area|needed tauros
+|c|★Disaster Area|to win this match tho
+|c|★marcoasd|obv
+|c|★marcoasd|vs golem
+|c|★Disaster Area|just needed to get the starmie para'
+|c|★Disaster Area|d
+|c|★Disaster Area|yeah
+|
+|cant|p2a: Koopacow|frz
+|move|p1a: Golem|Rock Slide|p2a: Koopacow
+|-damage|p2a: Koopacow|61\/353 frz
+|
+|turn|58
+|
+|switch|p1a: Chansey|Chansey|346\/703 par
+|cant|p2a: Koopacow|frz
+|
+|turn|59
+|
+|switch|p2a: Zapdos|Zapdos|168\/383
+|cant|p1a: Chansey|par
+|
+|turn|60
+|c|★Disaster Area|can still sweep with cloyster y\/n
+|join|shyguywarrior
+|
+|switch|p1a: Golem|Golem|221\/363
+|move|p2a: Zapdos|Drill Peck|p1a: Golem
+|-crit|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|145\/363
+|
+|turn|61
+|c|★Disaster Area|rofl
+|
+|switch|p2a: Koopacow|Tauros|61\/353 frz
+|switch|p1a: Chansey|Chansey|346\/703 par
+|
+|turn|62
+|
+|switch|p2a: Zapdos|Zapdos|168\/383
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|697\/703 par
+|
+|turn|63
+|
+|switch|p1a: Golem|Golem|145\/363
+|move|p2a: Zapdos|Drill Peck|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|107\/363
+|
+|turn|64
+|
+|switch|p2a: Koopacow|Tauros|61\/353 frz
+|move|p1a: Golem|Rock Slide|p2a: Koopacow
+|-damage|p2a: Koopacow|0 fnt
+|faint|p2a: Koopacow
+|
+|switch|p2a: Cloyster|Cloyster|242\/303 slp
+|turn|65
+|
+|-curestatus|p2a: Cloyster|slp
+|move|p1a: Golem|Body Slam|p2a: Cloyster
+|-damage|p2a: Cloyster|193\/303
+|-status|p2a: Cloyster|par
+|
+|turn|66
+|c|★marcoasd|awwww
+|c|★Disaster Area|:.
+|c|★Disaster Area|u r
+|c|★Disaster Area|lucky
+|c|★Disaster Area|:\/
+|
+|switch|p1a: Starmie|Starmie|211\/323 par
+|switch|p2a: Zapdos|Zapdos|168\/383
+|
+|turn|67
+|c|★Disaster Area|what a prediction :^)
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|c|★Disaster Area|:O
+|
+|switch|p1a: Golem|Golem|107\/363
+|turn|68
+|c|★marcoasd|it's all good
+|c|★Disaster Area|how tf
+|c|★Disaster Area|am i still in this
+|c|★Disaster Area|rofl
+|c| shyguywarrior|magic
+|
+|switch|p2a: Snorlax|Snorlax|368\/523 par
+|move|p1a: Golem|Rock Slide|p2a: Snorlax
+|-damage|p2a: Snorlax|250\/523 par
+|
+|turn|69
+|
+|switch|p1a: Exeggutor|Exeggutor|289\/393
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp
+|-heal|p2a: Snorlax|523\/523 slp|[silent]
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|
+|turn|70
+|
+|move|p1a: Exeggutor|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|356\/523 slp
+|-unboost|p2a: Snorlax|spd|1
+|-unboost|p2a: Snorlax|spa|1
+|cant|p2a: Snorlax|slp
+|
+|turn|71
+|
+|switch|p2a: Cloyster|Cloyster|193\/303 par
+|move|p1a: Exeggutor|Psychic|p2a: Cloyster
+|-damage|p2a: Cloyster|51\/303 par
+|
+|turn|72
+|
+|move|p1a: Exeggutor|Psychic|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p2a: Cloyster
+|
+|switch|p2a: Zapdos|Zapdos|168\/383
+|turn|73
+|c|★Disaster Area|zapdos
+|c|★Disaster Area|please
+|
+|switch|p1a: Snorlax|Snorlax|523\/523 slp
+|move|p2a: Zapdos|Drill Peck|p1a: Snorlax
+|-damage|p1a: Snorlax|410\/523 slp
+|
+|turn|74
+|c|★Disaster Area|crit your little heart out
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Snorlax
+|-damage|p1a: Snorlax|291\/523 slp
+|cant|p1a: Snorlax|slp
+|
+|turn|75
+|
+|switch|p1a: Chansey|Chansey|697\/703 par
+|move|p2a: Zapdos|Drill Peck|p1a: Chansey
+|-damage|p1a: Chansey|471\/703 par
+|
+|turn|76
+|
+|switch|p2a: Snorlax|Snorlax|356\/523 slp
+|move|p1a: Chansey|Ice Beam|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|149\/523 slp
+|
+|turn|77
+|c|★marcoasd|oh
+|c|★Disaster Area|COME ON
+|
+|switch|p2a: Zapdos|Zapdos|168\/383
+|switch|p1a: Golem|Golem|107\/363
+|
+|turn|78
+|c|★marcoasd|gg
+|c|★Disaster Area|gg
+|c|★Disaster Area|wp
+|c|★Disaster Area|miss rock slide
+|c|★Disaster Area|it's only fair
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|70\/363
+|move|p1a: Golem|Rock Slide|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|c|★Disaster Area|no
+|c|★Disaster Area|it crits
+|c|★Disaster Area|good lord
+|
+|switch|p2a: Snorlax|Snorlax|149\/523 slp
+|turn|79
+|c|★marcoasd|lol
+|c|★Disaster Area|did I put up
+|c|★marcoasd|terribbile
+|c|★Disaster Area|a god fight?
+|c|★Disaster Area|made u work for
+|c|★Disaster Area|your victory?
+|c|★marcoasd|i had luck
+|
+|move|p1a: Golem|Earthquake|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|win|marcoasd
+|leave|shyguywarrior
+|c|★marcoasd|on my side
+|c|★marcoasd|that changed the game
+|c|★Disaster Area|indeed
+|c|★Disaster Area|did I play well?
+|c|★Disaster Area|lol
+|c|★marcoasd|btw
+|c|★marcoasd|it was tanklax
+|c|★marcoasd|so gengar walled it and starmie
+|c|★Disaster Area|oh
+|c|★Disaster Area|nice
+|c|★marcoasd|you see, it was tough both ways
+|c|★Disaster Area|lol
+|c|★Disaster Area|well
+|c|★Disaster Area|it got slept
+|c|★Disaster Area|so
+|c|★Disaster Area|it was fine for you
+|c|★Disaster Area|xD
+|c|★marcoasd|i let it sleep
+|c|★Disaster Area|indeed
+|c|★marcoasd|haxed chansey
+|c|★Disaster Area|I know that
+|c|★marcoasd|a posto
+|c|★Disaster Area|yeah
+|c|★Disaster Area|lol
+|c|★marcoasd|froze tauros
+|c|★marcoasd|even more a posto
+|join|Lutra
+|c|★marcoasd|ok gonna have a coffeeeeee
+|c|★Disaster Area|okay
+|c|★Disaster Area|g2 after?
+|c|★marcoasd|then i'll brb
+|c|★marcoasd|sure
+|c| Lutra|back
+|c|★Disaster Area|:D
+|leave|marcoasd
+|player|p1
+|c|★Disaster Area|hey lutra
+|c|★Disaster Area|http:\/\/replay.pokemonshowdown.com\/gen1ou-247395621
+|c|★Disaster Area|is the replay of this
+|c|★Disaster Area|u should have a watch
+|c|★Disaster Area|it's a rly good game altho
+|c|★Disaster Area|luck is on marco's side
+|c| Lutra|ok
+|c|★Disaster Area|also u see
+|c|★Disaster Area|that 20% golem
+|c|★Disaster Area|on the screen
+|c|★Disaster Area|zapdos did all of it
+|c|★Disaster Area|i only got like 1 crit with its drill pecks too
+|join|CowboyDan1
+|leave|CowboyDan1
+|c| Lutra|looks boring tbh
+|c| Lutra|too straightforward
+|c|★Disaster Area|maybe it was more fun
+|c|★Disaster Area|to play it
+|c|★Disaster Area|either way a game where
+|c|★Disaster Area|zapdos wears down golem
+|c|★Disaster Area|as much as that
+|c|★Disaster Area|and has to do it with
+|c|★Disaster Area|no chansey to support it
+|c|★Disaster Area|and tauros frozen
+|c|★Disaster Area|is pretty intense

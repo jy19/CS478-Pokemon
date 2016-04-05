@@ -1,0 +1,233 @@
+﻿|join|toiho-toiho
+|join|andrewandres
+|player|p1|toiho-toiho|102
+|player|p2|andrewandres|5
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Rhydon|Rhydon, L79|328\/328
+|switch|p2a: Koffing|Koffing, L96|272\/272
+|turn|1
+|
+|switch|p2a: Marowak|Marowak, L85|276\/276
+|move|p1a: Rhydon|Earthquake|p2a: Marowak
+|-damage|p2a: Marowak|174\/276
+|
+|turn|2
+|
+|switch|p1a: Nidorino|Nidorino, L90|293\/293
+|move|p2a: Marowak|Blizzard|p1a: Nidorino|[miss]
+|-miss|p2a: Marowak
+|
+|turn|3
+|
+|move|p1a: Nidorino|Blizzard|p2a: Marowak
+|-supereffective|p2a: Marowak
+|-damage|p2a: Marowak|0 fnt
+|faint|p2a: Marowak
+|
+|switch|p2a: Porygon|Porygon, L85|284\/284
+|turn|4
+|
+|move|p1a: Nidorino|Blizzard|p2a: Porygon
+|-damage|p2a: Porygon|215\/284
+|move|p2a: Porygon|Psychic|p1a: Nidorino
+|-crit|p1a: Nidorino
+|-supereffective|p1a: Nidorino
+|-damage|p1a: Nidorino|9\/293
+|
+|turn|5
+|
+|move|p1a: Nidorino|Blizzard|p2a: Porygon
+|-damage|p2a: Porygon|139\/284
+|move|p2a: Porygon|Thunder Wave|p1a: Nidorino
+|-status|p1a: Nidorino|par
+|
+|turn|6
+|
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|281\/284
+|move|p1a: Nidorino|Blizzard|p2a: Porygon
+|-damage|p2a: Porygon|209\/284
+|
+|turn|7
+|
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|284\/284
+|move|p1a: Nidorino|Blizzard|p2a: Porygon
+|-damage|p2a: Porygon|206\/284
+|
+|turn|8
+|
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|284\/284
+|move|p1a: Nidorino|Blizzard|p2a: Porygon
+|-damage|p2a: Porygon|211\/284
+|
+|turn|9
+|
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|284\/284
+|move|p1a: Nidorino|Blizzard|p2a: Porygon
+|-damage|p2a: Porygon|210\/284
+|
+|turn|10
+|
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|284\/284
+|move|p1a: Nidorino|Blizzard|p2a: Porygon
+|-damage|p2a: Porygon|202\/284
+|
+|turn|11
+|c|★andrewandres|paralized ??
+|
+|switch|p1a: Spearow|Spearow, L96|272\/272
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|284\/284
+|
+|turn|12
+|
+|move|p1a: Spearow|Drill Peck|p2a: Porygon
+|-damage|p2a: Porygon|196\/284
+|move|p2a: Porygon|Thunder Wave|p1a: Spearow
+|-status|p1a: Spearow|par
+|
+|turn|13
+|
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|284\/284
+|move|p1a: Spearow|Agility|p1a: Spearow
+|-boost|p1a: Spearow|spe|2
+|
+|turn|14
+|
+|move|p1a: Spearow|Drill Peck|p2a: Porygon
+|-damage|p2a: Porygon|186\/284
+|move|p2a: Porygon|Psychic|p1a: Spearow
+|-damage|p1a: Spearow|193\/272 par
+|
+|turn|15
+|
+|move|p1a: Spearow|Drill Peck|p2a: Porygon
+|-damage|p2a: Porygon|94\/284
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|236\/284
+|
+|turn|16
+|
+|move|p1a: Spearow|Drill Peck|p2a: Porygon
+|-damage|p2a: Porygon|149\/284
+|move|p2a: Porygon|Psychic|p1a: Spearow
+|-damage|p1a: Spearow|116\/272 par
+|
+|turn|17
+|
+|move|p1a: Spearow|Drill Peck|p2a: Porygon
+|-damage|p2a: Porygon|55\/284
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|197\/284
+|
+|turn|18
+|
+|move|p1a: Spearow|Drill Peck|p2a: Porygon
+|-crit|p2a: Porygon
+|-damage|p2a: Porygon|21\/284
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|163\/284
+|
+|turn|19
+|
+|move|p1a: Spearow|Drill Peck|p2a: Porygon
+|-crit|p2a: Porygon
+|-damage|p2a: Porygon|0 fnt
+|faint|p2a: Porygon
+|c|★andrewandres|2 criticals
+|c|★andrewandres|of course
+|
+|switch|p2a: Onix|Onix, L85|233\/233
+|turn|20
+|
+|switch|p1a: Rhydon|Rhydon, L79|328\/328
+|move|p2a: Onix|Earthquake|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|209\/328
+|
+|turn|21
+|
+|move|p2a: Onix|Earthquake|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|87\/328
+|move|p1a: Rhydon|Earthquake|p2a: Onix
+|-supereffective|p2a: Onix
+|-damage|p2a: Onix|87\/233
+|
+|turn|22
+|
+|move|p2a: Onix|Earthquake|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|
+|switch|p1a: Golbat|Golbat, L85|301\/301
+|turn|23
+|
+|move|p1a: Golbat|Mega Drain|p2a: Onix
+|-crit|p2a: Onix
+|-supereffective|p2a: Onix
+|-damage|p2a: Onix|0 fnt
+|faint|p2a: Onix
+|
+|switch|p2a: Nidorina|Nidorina, L90|309\/309
+|turn|24
+|
+|move|p1a: Golbat|Confuse Ray|p2a: Nidorina
+|-start|p2a: Nidorina|confusion
+|-activate|p2a: Nidorina|confusion
+|move|p2a: Nidorina|Thunder|p1a: Golbat
+|-crit|p1a: Golbat
+|-supereffective|p1a: Golbat
+|-damage|p1a: Golbat|0 fnt
+|faint|p1a: Golbat
+|
+|switch|p1a: Alakazam|Alakazam, L79|249\/249
+|turn|25
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Nidorina
+|-status|p2a: Nidorina|par
+|-activate|p2a: Nidorina|confusion
+|-damage|p2a: Nidorina|278\/309 par|[from] confusion
+|
+|turn|26
+|
+|move|p1a: Alakazam|Psychic|p2a: Nidorina
+|-crit|p2a: Nidorina
+|-supereffective|p2a: Nidorina
+|-damage|p2a: Nidorina|0 fnt
+|faint|p2a: Nidorina
+|
+|switch|p2a: Koffing|Koffing, L96|272\/272
+|turn|27
+|
+|switch|p1a: Nidorino|Nidorino, L90|9\/293 par
+|move|p2a: Koffing|Explosion|p1a: Nidorino
+|-damage|p1a: Nidorino|0 fnt
+|faint|p1a: Nidorino
+|faint|p2a: Koffing
+|
+|switch|p1a: Alakazam|Alakazam, L79|249\/249
+|switch|p2a: Hitmonlee|Hitmonlee, L85|259\/259
+|turn|28
+|-message|andrewandres forfeited.
+|
+|win|toiho-toiho
+|raw|Ladder updating...
+|leave|andrewandres
+|player|p2
+|raw|toiho-toiho's rating: 1262 &rarr; <strong>1291<\/strong><br \/>(+29 for winning)
+|raw|andrewandres's rating: 1325 &rarr; <strong>1301<\/strong><br \/>(-24 for losing)

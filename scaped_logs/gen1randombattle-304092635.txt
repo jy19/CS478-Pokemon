@@ -1,0 +1,85 @@
+﻿|j|croiser14
+|j|Life's Pointless
+|player|p1|croiser14|92
+|player|p2|Life's Pointless|95
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|38195,11215,38398,62257
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Charmeleon|Charmeleon, L85|272\/272
+|switch|p2a: Magikarp|Magikarp, L99|240\/240
+|turn|1
+|choice|switch 3|move 2
+|
+|switch|p1a: Jolteon|Jolteon, L79|265\/265
+|move|p2a: Magikarp|Dragon Rage|p1a: Jolteon
+|-damage|p1a: Jolteon|225\/265
+|
+|turn|2
+|choice|move 1|move 2
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Magikarp
+|-supereffective|p2a: Magikarp
+|-damage|p2a: Magikarp|0 fnt
+|faint|p2a: Magikarp
+|choice||switch 2
+|
+|switch|p2a: Tauros|Tauros, L79|280\/280
+|turn|3
+|choice|move 4|move 4
+|
+|move|p1a: Jolteon|Double Kick|p2a: Tauros
+|-supereffective|p2a: Tauros
+|-damage|p2a: Tauros|251\/280
+|-damage|p2a: Tauros|222\/280
+|-hitcount|p2a: Tauros|2
+|move|p2a: Tauros|Earthquake|p1a: Jolteon
+|-supereffective|p1a: Jolteon
+|-damage|p1a: Jolteon|49\/265
+|
+|turn|4
+|choice|move 3|move 2
+|
+|move|p1a: Jolteon|Thunder Wave|p2a: Tauros
+|-status|p2a: Tauros|par
+|cant|p2a: Tauros|par
+|
+|turn|5
+|choice|move 4|move 2
+|
+|move|p1a: Jolteon|Double Kick|p2a: Tauros
+|-supereffective|p2a: Tauros
+|-damage|p2a: Tauros|192\/280 par
+|-damage|p2a: Tauros|162\/280 par
+|-hitcount|p2a: Tauros|2
+|move|p2a: Tauros|Body Slam|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|choice|switch 6|
+|
+|switch|p1a: Machamp|Machamp, L90|345\/345
+|turn|6
+|choice|move 1|move 3
+|
+|move|p1a: Machamp|Submission|p2a: Tauros
+|-supereffective|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|-damage|p1a: Machamp|305\/345|[from] recoil|[of] p2a: Tauros
+|faint|p2a: Tauros
+|choice||switch 3
+|
+|switch|p2a: Mew|Mew, L74|300\/300
+|turn|7
+|-message|croiser14 lost due to inactivity.
+|
+|win|Life's Pointless
+|raw|croiser14's rating: 1079 &rarr; <strong>1061<\/strong><br \/>(-18 for losing)
+|raw|Life&apos;s Pointless's rating: 1143 &rarr; <strong>1164<\/strong><br \/>(+21 for winning)
+|l|croiser14
+|player|p1

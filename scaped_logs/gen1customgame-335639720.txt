@@ -1,0 +1,314 @@
+﻿|j|supernintendo64
+|j|Mandelbrot
+|player|p1|supernintendo64|265
+|player|p2|Mandelbrot|60
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Custom Game
+|seed|
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Bulbasaur|Bulbasaur, L5|24\/24
+|switch|p2a: Abra|Abra, L5|22\/22
+|turn|1
+|choice||
+|
+|move|p2a: Abra|Psychic|p1a: Bulbasaur
+|debug|randBW(256) = 61
+|debug|randBW(256) = 1
+|-crit|p1a: Bulbasaur
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|-supereffective|p1a: Bulbasaur
+|debug|randBW(217, 256) = 241
+|-damage|p1a: Bulbasaur|0 fnt
+|debug|randBW(256) = 164
+|faint|p1a: Bulbasaur
+|choice||
+|
+|switch|p1a: Drowzee|Drowzee, L5|25\/25
+|turn|2
+|choice||
+|
+|move|p2a: Abra|Thunder Wave|p1a: Drowzee
+|debug|randBW(256) = 93
+|-status|p1a: Drowzee|par
+|debug|randBW(256) = 192
+|move|p1a: Drowzee|Thunder Wave|p2a: Abra
+|debug|randBW(256) = 249
+|-status|p2a: Abra|par
+|
+|turn|3
+|choice||
+|
+|debug|randBW(256) = 56
+|cant|p2a: Abra|par
+|debug|randBW(256) = 190
+|move|p1a: Drowzee|Amnesia|p1a: Drowzee
+|-boost|p1a: Drowzee|spd|2
+|-boost|p1a: Drowzee|spa|2
+|
+|turn|4
+|choice||
+|
+|switch|p2a: Exeggcute|Exeggcute, L5|25\/25
+|debug|randBW(256) = 233
+|move|p1a: Drowzee|Amnesia|p1a: Drowzee
+|-boost|p1a: Drowzee|spd|2
+|-boost|p1a: Drowzee|spa|2
+|
+|turn|5
+|choice||
+|
+|move|p2a: Exeggcute|Explosion|p1a: Drowzee
+|debug|randBW(256) = 79
+|debug|randBW(256) = 56
+|debug|randBW(217, 256) = 232
+|-damage|p1a: Drowzee|1\/25 par
+|faint|p2a: Exeggcute
+|choice||
+|
+|switch|p2a: Pikachu|Pikachu, L5|23\/23
+|turn|6
+|choice||
+|
+|move|p2a: Pikachu|Surf|p1a: Drowzee
+|debug|randBW(256) = 78
+|debug|randBW(256) = 45
+|debug|randBW(217, 256) = 248
+|-damage|p1a: Drowzee|0 fnt
+|faint|p1a: Drowzee
+|choice||
+|
+|switch|p1a: Dratini|Dratini, L5|23\/23
+|turn|7
+|choice||
+|
+|switch|p2a: Gastly|Gastly, L5|22\/22
+|move|p1a: Dratini|Thunder Wave|p2a: Gastly
+|debug|randBW(256) = 171
+|-status|p2a: Gastly|par
+|
+|turn|8
+|choice||
+|
+|switch|p1a: Rhyhorn|Rhyhorn, L5|27\/27
+|debug|randBW(256) = 93
+|move|p2a: Gastly|Hypnosis|p1a: Rhyhorn
+|debug|randBW(256) = 111
+|-status|p1a: Rhyhorn|slp
+|debug|randBW(1, 7) = 4
+|
+|turn|9
+|choice||
+|
+|switch|p1a: Doduo|Doduo, L5|23\/23
+|debug|randBW(256) = 243
+|move|p2a: Gastly|Mega Drain|p1a: Doduo
+|debug|randBW(256) = 22
+|debug|randBW(256) = 220
+|-resisted|p1a: Doduo
+|debug|randBW(217, 256) = 236
+|-damage|p1a: Doduo|21\/23
+|
+|turn|10
+|choice||
+|
+|switch|p2a: Geodude|Geodude, L5|23\/23
+|move|p1a: Doduo|Drill Peck|p2a: Geodude
+|debug|randBW(256) = 210
+|debug|randBW(256) = 141
+|-resisted|p2a: Geodude
+|debug|randBW(217, 256) = 253
+|-damage|p2a: Geodude|18\/23
+|
+|turn|11
+|j|gengasaur
+|choice||
+|
+|switch|p1a: Rhyhorn|Rhyhorn, L5|27\/27 slp
+|move|p2a: Geodude|Substitute|p2a: Geodude
+|-start|p2a: Geodude|Substitute
+|-damage|p2a: Geodude|13\/23
+|
+|turn|12
+|j|TonyRBY
+|choice||
+|
+|cant|p1a: Rhyhorn|slp
+|move|p2a: Geodude|Earthquake|p1a: Rhyhorn
+|debug|randBW(256) = 136
+|debug|randBW(256) = 164
+|-supereffective|p1a: Rhyhorn
+|debug|randBW(217, 256) = 243
+|-damage|p1a: Rhyhorn|3\/27 slp
+|
+|turn|13
+|choice||
+|
+|cant|p1a: Rhyhorn|slp
+|move|p2a: Geodude|Earthquake|p1a: Rhyhorn
+|debug|randBW(256) = 25
+|debug|randBW(256) = 199
+|-supereffective|p1a: Rhyhorn
+|debug|randBW(217, 256) = 220
+|-damage|p1a: Rhyhorn|0 fnt
+|faint|p1a: Rhyhorn
+|choice||
+|
+|switch|p1a: Dratini|Dratini, L5|23\/23
+|turn|14
+|choice||
+|
+|move|p1a: Dratini|Blizzard|p2a: Geodude
+|debug|randBW(256) = 56
+|debug|randBW(256) = 157
+|-supereffective|p2a: Geodude
+|debug|randBW(217, 256) = 246
+|-end|p2a: Geodude|Substitute
+|debug|randBW(256) = 208
+|move|p2a: Geodude|Earthquake|p1a: Dratini
+|debug|randBW(256) = 49
+|debug|randBW(256) = 202
+|debug|randBW(217, 256) = 224
+|-damage|p1a: Dratini|9\/23
+|
+|turn|15
+|c| gengasaur|do i just choose OU for the team type and then make a team of all level 5s?
+|choice||
+|
+|switch|p2a: Omanyte|Omanyte, L5|23\/23
+|move|p1a: Dratini|Blizzard|p2a: Omanyte
+|debug|randBW(256) = 68
+|debug|randBW(256) = 153
+|-resisted|p2a: Omanyte
+|debug|randBW(217, 256) = 218
+|-damage|p2a: Omanyte|20\/23
+|debug|randBW(256) = 175
+|
+|turn|16
+|choice||
+|
+|move|p1a: Dratini|Thunderbolt|p2a: Omanyte
+|debug|randBW(256) = 21
+|debug|randBW(256) = 201
+|-supereffective|p2a: Omanyte
+|debug|randBW(217, 256) = 254
+|-damage|p2a: Omanyte|7\/23
+|debug|randBW(256) = 251
+|move|p2a: Omanyte|Ice Beam|p1a: Dratini
+|debug|randBW(256) = 161
+|debug|randBW(256) = 115
+|-supereffective|p1a: Dratini
+|debug|randBW(217, 256) = 230
+|-damage|p1a: Dratini|0 fnt
+|debug|randBW(256) = 161
+|faint|p1a: Dratini
+|c|★Mandelbrot|yes
+|c|★supernintendo64|yeah
+|choice||
+|
+|switch|p1a: Staryu|Staryu, L5|22\/22
+|turn|17
+|c| gengasaur|cool ill make a team
+|c|★supernintendo64|sounds good
+|c| TonyRBY|this is adorable
+|c|★supernintendo64|=3
+|c| TonyRBY|XD
+|choice||
+|
+|move|p1a: Staryu|Thunderbolt|p2a: Omanyte
+|debug|randBW(256) = 138
+|debug|randBW(256) = 204
+|-supereffective|p2a: Omanyte
+|debug|randBW(217, 256) = 243
+|-damage|p2a: Omanyte|0 fnt
+|debug|randBW(256) = 157
+|faint|p2a: Omanyte
+|c| TonyRBY|:3
+|c| gengasaur|youre adorable
+|choice||
+|
+|switch|p2a: Gastly|Gastly, L5|22\/22 par
+|turn|18
+|c| TonyRBY|:*
+|choice||
+|
+|switch|p1a: Doduo|Doduo, L5|21\/23
+|debug|randBW(256) = 194
+|move|p2a: Gastly|Explosion|p1a: Doduo
+|debug|randBW(256) = 187
+|debug|randBW(256) = 182
+|debug|randBW(217, 256) = 232
+|-damage|p1a: Doduo|0 fnt
+|faint|p1a: Doduo
+|faint|p2a: Gastly
+|choice||
+|
+|switch|p1a: Staryu|Staryu, L5|22\/22
+|switch|p2a: Abra|Abra, L5|22\/22 par
+|turn|19
+|choice||
+|
+|move|p1a: Staryu|Blizzard|p2a: Abra
+|debug|randBW(256) = 107
+|debug|randBW(256) = 20
+|-crit|p2a: Abra
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|debug|randBW(217, 256) = 233
+|-damage|p2a: Abra|11\/22 par
+|debug|randBW(256) = 100
+|debug|randBW(256) = 26
+|cant|p2a: Abra|par
+|
+|turn|20
+|choice||
+|
+|move|p1a: Staryu|Blizzard|p2a: Abra
+|debug|randBW(256) = 220
+|debug|randBW(256) = 121
+|debug|randBW(217, 256) = 217
+|-damage|p2a: Abra|4\/22 par
+|debug|randBW(256) = 62
+|debug|randBW(256) = 90
+|move|p2a: Abra|Thunder Wave|p1a: Staryu
+|debug|randBW(256) = 67
+|-status|p1a: Staryu|par
+|
+|turn|21
+|choice||
+|
+|debug|randBW(256) = 240
+|move|p1a: Staryu|Blizzard|p2a: Abra
+|debug|randBW(256) = 203
+|debug|randBW(256) = 202
+|debug|randBW(217, 256) = 228
+|-damage|p2a: Abra|0 fnt
+|debug|randBW(256) = 6
+|faint|p2a: Abra
+|choice||
+|
+|switch|p2a: Geodude|Geodude, L5|13\/23
+|turn|22
+|choice||
+|
+|move|p2a: Geodude|Explosion|p1a: Staryu
+|debug|randBW(256) = 110
+|debug|randBW(256) = 165
+|debug|randBW(217, 256) = 253
+|-damage|p1a: Staryu|0 fnt
+|faint|p1a: Staryu
+|faint|p2a: Geodude
+|
+|win|Mandelbrot
+|player|p1
+|player|p2
+|c|★supernintendo64|gg
+|c|★Mandelbrot|gg
+|l|supernintendo64
+|l|TonyRBY
+|l|Mandelbrot
+|l|gengasaur
+|j|Mandelbrot

@@ -1,0 +1,91 @@
+﻿|j|Judo
+|j|triforce400
+|player|p1|Judo|70
+|player|p2|triforce400|110
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|61198,53249,59442,43701
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gloom|Gloom, L90|291\/291
+|switch|p2a: Weepinbell|Weepinbell, L85|284\/284
+|turn|1
+|c|★Judo|glhf
+|choice|move 4|move 3
+|
+|move|p2a: Weepinbell|Swords Dance|p2a: Weepinbell
+|-boost|p2a: Weepinbell|atk|2
+|move|p1a: Gloom|Sleep Powder|p2a: Weepinbell
+|-status|p2a: Weepinbell|slp
+|
+|turn|2
+|c|★triforce400|u too
+|choice|move 3|move 2
+|
+|cant|p2a: Weepinbell|slp
+|move|p1a: Gloom|Swords Dance|p1a: Gloom
+|-boost|p1a: Gloom|atk|2
+|
+|turn|3
+|choice|move 2|move 2
+|
+|cant|p2a: Weepinbell|slp
+|move|p1a: Gloom|Double-Edge|p2a: Weepinbell
+|-damage|p2a: Weepinbell|117\/284 slp
+|-damage|p1a: Gloom|250\/291|[from] recoil|[of] p2a: Weepinbell
+|
+|turn|4
+|choice|move 2|move 2
+|
+|cant|p2a: Weepinbell|slp
+|move|p1a: Gloom|Double-Edge|p2a: Weepinbell
+|-damage|p2a: Weepinbell|0 fnt
+|-damage|p1a: Gloom|221\/291|[from] recoil|[of] p2a: Weepinbell
+|faint|p2a: Weepinbell
+|choice||switch 2
+|
+|switch|p2a: Rapidash|Rapidash, L90|300\/300
+|turn|5
+|choice|switch 4|move 1
+|
+|switch|p1a: Tentacruel|Tentacruel, L85|310\/310
+|move|p2a: Rapidash|Fire Blast|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|258\/310
+|
+|turn|6
+|choice|move 1|switch 3
+|
+|switch|p2a: Scyther|Scyther, L90|309\/309
+|move|p1a: Tentacruel|Swords Dance|p1a: Tentacruel
+|-boost|p1a: Tentacruel|atk|2
+|
+|turn|7
+|choice|move 2|move 2
+|
+|move|p2a: Scyther|Slash|p1a: Tentacruel
+|-crit|p1a: Tentacruel
+|-damage|p1a: Tentacruel|113\/310
+|move|p1a: Tentacruel|Blizzard|p2a: Scyther
+|-crit|p2a: Scyther
+|-supereffective|p2a: Scyther
+|-damage|p2a: Scyther|0 fnt
+|faint|p2a: Scyther
+|choice||switch 4
+|
+|switch|p2a: Machamp|Machamp, L90|345\/345
+|turn|8
+|l|triforce400
+|player|p2
+Judo turned on modjoin.
+|raw|<div class="broadcast-red"><b>Moderated chat was set to +!<\/b><br \/>Only users of rank + and higher can talk.<\/div>
+Judo made this room hidden.
+|-message|triforce400 lost due to inactivity.
+|
+|win|Judo
+|player|p1

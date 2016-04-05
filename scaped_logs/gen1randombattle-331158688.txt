@@ -1,0 +1,282 @@
+﻿|j|lookbropez
+|j|business is cool
+|player|p1|lookbropez|214
+|player|p2|business is cool|82
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|33813,43140,42254,61024
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Venonat|Venonat, L96|310\/310
+|switch|p2a: Machop|Machop, L96|329\/329
+|turn|1
+|choice|move 3|move 2
+|
+|move|p1a: Venonat|Sleep Powder|p2a: Machop
+|-status|p2a: Machop|slp
+|cant|p2a: Machop|slp
+|
+|turn|2
+|choice|move 2|switch 4
+|
+|switch|p2a: Pidgeot|Pidgeot, L90|333\/333
+|move|p1a: Venonat|Psychic|p2a: Pidgeot
+|-damage|p2a: Pidgeot|278\/333
+|-unboost|p2a: Pidgeot|spd|1
+|-unboost|p2a: Pidgeot|spa|1
+|
+|turn|3
+|choice|switch 5|move 3
+|
+|switch|p1a: Golem|Golem, L79|288\/288
+|move|p2a: Pidgeot|Sky Attack|p1a: Golem|[still]
+|-prepare|p2a: Pidgeot|Sky Attack|p1a: Golem
+|
+|turn|4
+|choice|move 3|move 1
+|
+|move|p2a: Pidgeot|Sky Attack|p1a: Golem|[from]Sky Attack|[miss]
+|-miss|p2a: Pidgeot
+|move|p1a: Golem|Rock Slide|p2a: Pidgeot
+|-supereffective|p2a: Pidgeot
+|-damage|p2a: Pidgeot|130\/333
+|
+|turn|5
+|choice|move 3|move 1
+|
+|move|p2a: Pidgeot|Double-Edge|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|246\/288
+|-damage|p2a: Pidgeot|120\/333|[from] recoil|[of] p1a: Golem
+|move|p1a: Golem|Rock Slide|p2a: Pidgeot
+|-supereffective|p2a: Pidgeot
+|-damage|p2a: Pidgeot|0 fnt
+|faint|p2a: Pidgeot
+|choice||switch 6
+|
+|switch|p2a: Dewgong|Dewgong, L85|327\/327
+|turn|6
+|choice|switch 6|move 1
+|
+|switch|p1a: Tauros|Tauros, L79|280\/280
+|move|p2a: Dewgong|Blizzard|p1a: Tauros
+|-damage|p1a: Tauros|134\/280
+|-status|p1a: Tauros|frz
+|
+|turn|7
+|choice|switch 5|move 1
+|
+|switch|p1a: Venonat|Venonat, L96|310\/310
+|move|p2a: Dewgong|Blizzard|p1a: Venonat
+|-crit|p1a: Venonat
+|-damage|p1a: Venonat|0 fnt
+|faint|p1a: Venonat
+|choice|switch 6|
+|
+|switch|p1a: Golem|Golem, L79|246\/288
+|turn|8
+|choice|move 3|move 1
+|
+|move|p2a: Dewgong|Blizzard|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|0 fnt
+|faint|p1a: Golem
+|choice|switch 4|
+|
+|switch|p1a: Mew|Mew, L74|300\/300
+|turn|9
+|choice|move 4|move 4
+|
+|move|p1a: Mew|Thunder Wave|p2a: Dewgong
+|-status|p2a: Dewgong|par
+|move|p2a: Dewgong|Surf|p1a: Mew
+|-damage|p1a: Mew|196\/300
+|
+|turn|10
+|choice|move 1|move 1
+|
+|move|p1a: Mew|Psychic|p2a: Dewgong
+|-damage|p2a: Dewgong|259\/327 par
+|move|p2a: Dewgong|Blizzard|p1a: Mew
+|-damage|p1a: Mew|61\/300
+|
+|turn|11
+|choice|move 2|move 4
+|
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|211\/300
+|move|p2a: Dewgong|Surf|p1a: Mew
+|-damage|p1a: Mew|98\/300
+|
+|turn|12
+|choice|move 2|move 1
+|
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|248\/300
+|move|p2a: Dewgong|Blizzard|p1a: Mew|[miss]
+|-miss|p2a: Dewgong
+|
+|turn|13
+|choice|move 1|move 1
+|
+|move|p1a: Mew|Psychic|p2a: Dewgong
+|-crit|p2a: Dewgong
+|-damage|p2a: Dewgong|126\/327 par
+|move|p2a: Dewgong|Blizzard|p1a: Mew
+|-damage|p1a: Mew|121\/300
+|
+|turn|14
+|choice|move 2|move 1
+|
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|271\/300
+|move|p2a: Dewgong|Blizzard|p1a: Mew
+|-crit|p1a: Mew
+|-damage|p1a: Mew|20\/300
+|
+|turn|15
+|choice|move 2|move 1
+|
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|170\/300
+|move|p2a: Dewgong|Blizzard|p1a: Mew
+|-damage|p1a: Mew|37\/300
+|
+|turn|16
+|choice|move 2|move 2
+|
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|187\/300
+|cant|p2a: Dewgong|par
+|
+|turn|17
+|choice|move 1|move 4
+|
+|move|p1a: Mew|Psychic|p2a: Dewgong
+|-damage|p2a: Dewgong|55\/327 par
+|-unboost|p2a: Dewgong|spd|1
+|-unboost|p2a: Dewgong|spa|1
+|move|p2a: Dewgong|Surf|p1a: Mew
+|-damage|p1a: Mew|123\/300
+|
+|turn|18
+|choice|move 1|move 3
+|
+|move|p1a: Mew|Psychic|p2a: Dewgong
+|-damage|p2a: Dewgong|0 fnt
+|faint|p2a: Dewgong
+|choice||switch 2
+|
+|switch|p2a: Drowzee|Drowzee, L96|310\/310
+|turn|19
+|choice|move 2|move 4
+|
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|273\/300
+|move|p2a: Drowzee|Hypnosis|p1a: Mew
+|-status|p1a: Mew|slp
+|
+|turn|20
+|choice|switch 3|move 2
+|
+|switch|p1a: Venusaur|Venusaur, L85|310\/310
+|move|p2a: Drowzee|Psychic|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|96\/310
+|
+|turn|21
+|choice|switch 2|move 2
+|
+|switch|p1a: Flareon|Flareon, L90|300\/300
+|move|p2a: Drowzee|Psychic|p1a: Flareon
+|-damage|p1a: Flareon|211\/300
+|
+|turn|22
+|choice|move 2|move 2
+|
+|move|p1a: Flareon|Fire Blast|p2a: Drowzee|[miss]
+|-miss|p1a: Flareon
+|move|p2a: Drowzee|Psychic|p1a: Flareon
+|-damage|p1a: Flareon|124\/300
+|
+|turn|23
+|choice|move 2|move 2
+|
+|move|p1a: Flareon|Fire Blast|p2a: Drowzee
+|-damage|p2a: Drowzee|170\/310
+|move|p2a: Drowzee|Psychic|p1a: Flareon
+|-damage|p1a: Flareon|37\/300
+|
+|turn|24
+|choice|move 4|move 2
+|
+|move|p1a: Flareon|Quick Attack|p2a: Drowzee
+|-damage|p2a: Drowzee|116\/310
+|move|p2a: Drowzee|Psychic|p1a: Flareon
+|-damage|p1a: Flareon|0 fnt
+|faint|p1a: Flareon
+|choice|switch 3|
+|
+|switch|p1a: Mew|Mew, L74|273\/300 slp
+|turn|25
+|choice|move 2|switch 3
+|
+|switch|p2a: Mewtwo|Mewtwo, L68|285\/285
+|cant|p1a: Mew|slp
+|
+|turn|26
+|choice|move 2|move 3
+|
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|cant|p1a: Mew|slp
+|
+|turn|27
+|choice|move 2|move 3
+|
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|-curestatus|p1a: Mew|slp
+|
+|turn|28
+|choice|move 4|move 4
+|
+|move|p2a: Mewtwo|Ice Beam|p1a: Mew
+|-crit|p1a: Mew
+|-damage|p1a: Mew|141\/300
+|move|p1a: Mew|Thunder Wave|p2a: Mewtwo
+|-status|p2a: Mewtwo|par
+|
+|turn|29
+|choice|move 3|move 4
+|
+|move|p1a: Mew|Fissure|p2a: Mewtwo|[miss]
+|-miss|p1a: Mew
+|move|p2a: Mewtwo|Ice Beam|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|choice|switch 5|
+|
+|switch|p1a: Tauros|Tauros, L79|134\/280 frz
+|turn|30
+|choice|move 2|switch 3
+|
+|switch|p2a: Drowzee|Drowzee, L96|116\/310
+|cant|p1a: Tauros|frz
+|
+|turn|31
+|-message|lookbropez forfeited.
+|
+|win|business is cool
+|player|p1
+|player|p2
+|l|lookbropez
+|raw|lookbropez's rating: 1103 &rarr; <strong>1086<\/strong><br \/>(-17 for losing)
+|raw|business is cool's rating: 1212 &rarr; <strong>1230<\/strong><br \/>(+18 for winning)

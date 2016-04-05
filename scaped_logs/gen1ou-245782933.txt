@@ -1,0 +1,65 @@
+﻿|join|PK Mastr
+|join|Nanako chin
+|player|p1|PK Mastr|257
+|player|p2|Nanako chin|101
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: E.S.P.|Alakazam|313\/313
+|switch|p2a: ▀█▀ █ ▀█▀ ▄█▀|Jynx|333\/333
+|turn|1
+|c|★PK Mastr|lmfao
+|c|★PK Mastr|how did you alter the letters bro?
+|
+|move|p1a: E.S.P.|Seismic Toss|p2a: ▀█▀ █ ▀█▀ ▄█▀
+|-damage|p2a: ▀█▀ █ ▀█▀ ▄█▀|233\/333
+|move|p2a: ▀█▀ █ ▀█▀ ▄█▀|Lovely Kiss|p1a: E.S.P.
+|-status|p1a: E.S.P.|slp
+|
+|turn|2
+|
+|switch|p1a: TRIFORCE|Tauros|353\/353
+|move|p2a: ▀█▀ █ ▀█▀ ▄█▀|Substitute|p2a: ▀█▀ █ ▀█▀ ▄█▀
+|-start|p2a: ▀█▀ █ ▀█▀ ▄█▀|Substitute
+|-damage|p2a: ▀█▀ █ ▀█▀ ▄█▀|150\/333
+|
+|turn|3
+|
+|move|p1a: TRIFORCE|Earthquake|p2a: ▀█▀ █ ▀█▀ ▄█▀
+|-end|p2a: ▀█▀ █ ▀█▀ ▄█▀|Substitute
+|move|p2a: ▀█▀ █ ▀█▀ ▄█▀|Blizzard|p1a: TRIFORCE
+|-damage|p1a: TRIFORCE|166\/353
+|
+|turn|4
+|
+|move|p1a: TRIFORCE|Body Slam|p2a: ▀█▀ █ ▀█▀ ▄█▀
+|-damage|p2a: ▀█▀ █ ▀█▀ ▄█▀|0 fnt
+|faint|p2a: ▀█▀ █ ▀█▀ ▄█▀
+|
+|switch|p2a: Breakfast Tree|Exeggutor|393\/393
+|turn|5
+|
+|move|p1a: TRIFORCE|Hyper Beam|p2a: Breakfast Tree|[miss]
+|-miss|p1a: TRIFORCE
+|move|p2a: Breakfast Tree|Explosion|p1a: TRIFORCE
+|-crit|p1a: TRIFORCE
+|-damage|p1a: TRIFORCE|0 fnt
+|faint|p1a: TRIFORCE
+|faint|p2a: Breakfast Tree
+|leave|PK Mastr
+|player|p1
+|-message|pkmastr lost due to inactivity.
+|
+|win|Nanako chin
+|raw|Ladder updating...
+|raw|PK Mastr's rating: 1234 &rarr; <strong>1194<\/strong><br \/>(-40 for losing)
+|raw|Nanako chin's rating: 1000 &rarr; <strong>1063<\/strong><br \/>(+63 for winning)

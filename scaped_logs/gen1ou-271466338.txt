@@ -1,0 +1,181 @@
+﻿|join|Sederts
+|join|Enigami
+|player|p1|Sederts|250
+|player|p2|Enigami|169
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333\/333
+|switch|p2a: Jynx|Jynx|333\/333
+|turn|1
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: Jynx|[miss]
+|-miss|p1a: Jynx
+|move|p2a: Jynx|Lovely Kiss|p1a: Jynx
+|-status|p1a: Jynx|slp
+|
+|turn|2
+|c|★Enigami|:\
+|c|★Sederts|:\/
+|
+|switch|p2a: Zapdos|Zapdos|383\/383
+|switch|p1a: Snorlax|Snorlax|523\/523
+|
+|turn|3
+|
+|move|p2a: Zapdos|Reflect|p2a: Zapdos
+|-start|p2a: Zapdos|Reflect
+|move|p1a: Snorlax|Body Slam|p2a: Zapdos
+|-damage|p2a: Zapdos|322\/383
+|
+|turn|4
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|361\/523
+|move|p1a: Snorlax|Body Slam|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|76\/383
+|
+|turn|5
+|c|★Enigami|D:
+|
+|move|p2a: Zapdos|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|move|p1a: Snorlax|Hyper Beam|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|turn|6
+|
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|212\/523 par
+|move|p1a: Snorlax|Self-Destruct|p2a: Snorlax
+|-damage|p2a: Snorlax|113\/523
+|faint|p1a: Snorlax
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|7
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Tauros|Body Slam|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-damage|p2a: Exeggutor|180\/393
+|-status|p2a: Exeggutor|par
+|
+|turn|8
+|c|★Sederts|ouch
+|c|★Enigami|Oh good lord.
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|9
+|
+|move|p2a: Tauros|Fire Blast|p1a: Tauros|[miss]
+|-miss|p2a: Tauros
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|163\/353
+|
+|turn|10
+|c|★Enigami|AAAAA
+|c|★Enigami|FRICK
+|c|★Sederts|dat overpredict
+|c|★Enigami|Wasn't an overpredict.
+|c|★Enigami|That was to try to burn you.
+|c|★Sederts|oh i c
+|c|★Sederts|what's the burn rate on fblast
+|c|★Sederts|in gen 1
+|c|★Enigami|30%.
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|c|★Sederts|crit didn't matter
+|c|★Enigami|You are getting ALL the hax.
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|turn|11
+|c|★Enigami|I know, but still.
+|c|★Sederts|it's 47-55 on the rolls
+|c|★Enigami|Plus you got first move.
+|c|★Sederts|but yeah
+|c|★Sederts|first move
+|
+|move|p1a: Tauros|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|421\/703
+|move|p2a: Chansey|Thunderbolt|p1a: Tauros
+|-damage|p1a: Tauros|258\/353
+|
+|turn|12
+|
+|switch|p2a: Jynx|Jynx|333\/333
+|move|p1a: Tauros|Hyper Beam|p2a: Jynx
+|-damage|p2a: Jynx|45\/333
+|
+|turn|13
+|-mustrecharge|p1a: Tauros
+|-mustrecharge|p1a: Tauros
+|
+|cant|p1a: Tauros|recharge
+|move|p2a: Jynx|Blizzard|p1a: Tauros|[miss]
+|-miss|p2a: Jynx
+|
+|turn|14
+|c|★Enigami|FREEZE
+|c|★Enigami|NO
+|c|★Sederts|rip
+|c|★Sederts|im so
+|c|★Sederts|sorry
+|
+|move|p1a: Tauros|Body Slam|p2a: Jynx
+|-crit|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|c|★Sederts|:\/
+|c|★Enigami|I have not ever had a game this bad before.
+|
+|switch|p2a: Chansey|Chansey|421\/703
+|turn|15
+|c|★Sederts|im actually
+|c|★Sederts|so sorry
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|c|★Sederts|lol
+|c|★Sederts|i mean
+|c|★Enigami|Eh, maybe it'll take way the hax from the other games.
+|
+|switch|p2a: Snorlax|Snorlax|113\/523
+|turn|16
+|c|★Sederts|i thought it was 20% not 80%
+|c|★Sederts|lel
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|win|Sederts
+|c|★Sederts|oml
+|c|★Enigami|Wow.
+|c|★Sederts|so many
+|c|★Sederts|crit
+|leave|Enigami
+|player|p2
+|c|★Sederts|all irrelevant
+|c|★Sederts|but still

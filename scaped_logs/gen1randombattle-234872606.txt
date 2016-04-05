@@ -1,0 +1,371 @@
+﻿|join|Psychedelic Trip
+|join|Lait
+|player|p1|Psychedelic Trip|168
+|player|p2|Lait|159
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Vulpix|Vulpix, L96|268\/268
+|switch|p2a: Machoke|Machoke, L85|310\/310
+|turn|1
+|
+|move|p1a: Vulpix|Reflect|p1a: Vulpix
+|-start|p1a: Vulpix|Reflect
+|move|p2a: Machoke|Body Slam|p1a: Vulpix
+|-damage|p1a: Vulpix|226\/268
+|-status|p1a: Vulpix|par
+|
+|turn|2
+|
+|switch|p2a: Squirtle|Squirtle, L96|279\/279
+|move|p1a: Vulpix|Confuse Ray|p2a: Squirtle
+|-start|p2a: Squirtle|confusion
+|
+|turn|3
+|
+|switch|p1a: Venusaur|Venusaur, L85|310\/310
+|-activate|p2a: Squirtle|confusion
+|-damage|p2a: Squirtle|250\/279|[from] confusion
+|
+|turn|4
+|
+|switch|p2a: Machoke|Machoke, L85|310\/310
+|move|p1a: Venusaur|Sleep Powder|p2a: Machoke
+|-status|p2a: Machoke|slp
+|
+|turn|5
+|
+|move|p1a: Venusaur|Leech Seed|p2a: Machoke
+|-start|p2a: Machoke|move: Leech Seed
+|cant|p2a: Machoke|slp
+|-damage|p2a: Machoke|291\/310 slp|[from] Leech Seed|[of] p1a: Venusaur
+|
+|turn|6
+|
+|switch|p1a: Vulpix|Vulpix, L96|226\/268 par
+|cant|p2a: Machoke|slp
+|-damage|p2a: Machoke|272\/310 slp|[from] Leech Seed|[of] p1a: Vulpix
+|-heal|p1a: Vulpix|245\/268 par|[silent]
+|
+|turn|7
+|
+|switch|p2a: Squirtle|Squirtle, L96|250\/279
+|move|p1a: Vulpix|Confuse Ray|p2a: Squirtle
+|-start|p2a: Squirtle|confusion
+|
+|turn|8
+|
+|switch|p1a: Arbok|Arbok, L85|276\/276
+|-activate|p2a: Squirtle|confusion
+|move|p2a: Squirtle|Blizzard|p1a: Arbok
+|-damage|p1a: Arbok|194\/276
+|
+|turn|9
+|
+|move|p1a: Arbok|Body Slam|p2a: Squirtle
+|-damage|p2a: Squirtle|192\/279
+|-activate|p2a: Squirtle|confusion
+|move|p2a: Squirtle|Surf|p1a: Arbok
+|-crit|p1a: Arbok
+|-damage|p1a: Arbok|0 fnt
+|faint|p1a: Arbok
+|
+|switch|p1a: Venusaur|Venusaur, L85|310\/310
+|turn|10
+|
+|switch|p2a: Chansey|Chansey, L79|557\/557
+|move|p1a: Venusaur|Razor Leaf|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|440\/557
+|
+|turn|11
+|
+|move|p1a: Venusaur|Toxic|p2a: Chansey
+|-status|p2a: Chansey|tox
+|move|p2a: Chansey|Ice Beam|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|190\/310
+|-damage|p2a: Chansey|406\/557 tox|[from] tox|[of] p1a: Venusaur
+|
+|turn|12
+|
+|move|p1a: Venusaur|Leech Seed|p2a: Chansey
+|-start|p2a: Chansey|move: Leech Seed
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|557\/557 tox
+|-damage|p2a: Chansey|455\/557 tox|[from] psn
+|-damage|p2a: Chansey|319\/557 tox|[from] Leech Seed|[of] p1a: Venusaur
+|-heal|p1a: Venusaur|310\/310|[silent]
+|
+|turn|13
+|
+|switch|p1a: Vulpix|Vulpix, L96|245\/268 par
+|switch|p2a: Machoke|Machoke, L85|272\/310 slp
+|
+|turn|14
+|
+|cant|p2a: Machoke|slp
+|-curestatus|p2a: Machoke|slp
+|move|p1a: Vulpix|Confuse Ray|p2a: Machoke
+|-start|p2a: Machoke|confusion
+|
+|turn|15
+|
+|switch|p1a: Venusaur|Venusaur, L85|310\/310
+|-activate|p2a: Machoke|confusion
+|move|p2a: Machoke|Double-Edge|p1a: Venusaur
+|-damage|p1a: Venusaur|231\/310
+|-damage|p2a: Machoke|253\/310|[from] recoil|[of] p1a: Venusaur
+|
+|turn|16
+|
+|move|p1a: Venusaur|Sleep Powder|p2a: Machoke
+|-status|p2a: Machoke|slp
+|cant|p2a: Machoke|slp
+|
+|turn|17
+|
+|move|p1a: Venusaur|Toxic|p2a: Machoke
+|-fail|p2a: Machoke
+|cant|p2a: Machoke|slp
+|
+|turn|18
+|
+|move|p1a: Venusaur|Razor Leaf|p2a: Machoke
+|-crit|p2a: Machoke
+|-damage|p2a: Machoke|99\/310 slp
+|cant|p2a: Machoke|slp
+|
+|turn|19
+|
+|move|p1a: Venusaur|Leech Seed|p2a: Machoke
+|-start|p2a: Machoke|move: Leech Seed
+|cant|p2a: Machoke|slp
+|-damage|p2a: Machoke|80\/310 slp|[from] Leech Seed|[of] p1a: Venusaur
+|-heal|p1a: Venusaur|250\/310|[silent]
+|
+|turn|20
+|
+|switch|p2a: Nidorina|Nidorina, L90|309\/309
+|move|p1a: Venusaur|Toxic|p2a: Nidorina
+|
+|turn|21
+|
+|move|p1a: Venusaur|Leech Seed|p2a: Nidorina
+|-start|p2a: Nidorina|move: Leech Seed
+|move|p2a: Nidorina|Body Slam|p1a: Venusaur
+|-damage|p1a: Venusaur|199\/310
+|-damage|p2a: Nidorina|290\/309|[from] Leech Seed|[of] p1a: Venusaur
+|-heal|p1a: Venusaur|218\/310|[silent]
+|
+|turn|22
+|
+|switch|p1a: Vulpix|Vulpix, L96|245\/268 par
+|move|p2a: Nidorina|Body Slam|p1a: Vulpix
+|-damage|p1a: Vulpix|171\/268 par
+|-damage|p2a: Nidorina|271\/309|[from] Leech Seed|[of] p1a: Vulpix
+|-heal|p1a: Vulpix|190\/268 par|[silent]
+|
+|turn|23
+|
+|switch|p2a: Chansey|Chansey, L79|319\/557 tox
+|-status|p2a: Chansey|psn
+|-damage|p2a: Chansey|285\/557 psn|[from] psn
+|move|p1a: Vulpix|Confuse Ray|p2a: Chansey
+|-start|p2a: Chansey|confusion
+|
+|turn|24
+|
+|-activate|p2a: Chansey|confusion
+|-damage|p2a: Chansey|257\/557 psn|[from] confusion
+|-damage|p2a: Chansey|223\/557 psn|[from] psn
+|move|p1a: Vulpix|Body Slam|p2a: Chansey|[miss]
+|-miss|p1a: Vulpix
+|
+|turn|25
+|
+|-activate|p2a: Chansey|confusion
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|501\/557 psn
+|-damage|p2a: Chansey|467\/557 psn|[from] psn
+|move|p1a: Vulpix|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|332\/557 psn
+|
+|turn|26
+|
+|switch|p2a: Kangaskhan|Kangaskhan, L85|352\/352
+|move|p1a: Vulpix|Body Slam|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|298\/352
+|
+|turn|27
+|
+|switch|p1a: Machoke|Machoke, L85|310\/310
+|move|p2a: Kangaskhan|Earthquake|p1a: Machoke
+|-damage|p1a: Machoke|232\/310
+|
+|turn|28
+|
+|switch|p2a: Nidorina|Nidorina, L90|271\/309
+|move|p1a: Machoke|Submission|p2a: Nidorina
+|-resisted|p2a: Nidorina
+|-damage|p2a: Nidorina|225\/309
+|-damage|p1a: Machoke|221\/310|[from] recoil|[of] p2a: Nidorina
+|
+|turn|29
+|
+|move|p2a: Nidorina|Body Slam|p1a: Machoke
+|-damage|p1a: Machoke|161\/310
+|move|p1a: Machoke|Mega Kick|p2a: Nidorina|[miss]
+|-miss|p1a: Machoke
+|
+|turn|30
+|
+|move|p2a: Nidorina|Body Slam|p1a: Machoke
+|-crit|p1a: Machoke
+|-damage|p1a: Machoke|53\/310
+|move|p1a: Machoke|Double-Edge|p2a: Nidorina
+|-damage|p2a: Nidorina|138\/309
+|-damage|p1a: Machoke|32\/310|[from] recoil|[of] p2a: Nidorina
+|
+|turn|31
+|
+|switch|p1a: Vulpix|Vulpix, L96|190\/268 par
+|move|p2a: Nidorina|Body Slam|p1a: Vulpix
+|-damage|p1a: Vulpix|115\/268 par
+|
+|turn|32
+|
+|move|p2a: Nidorina|Bubble Beam|p1a: Vulpix
+|-supereffective|p1a: Vulpix
+|-damage|p1a: Vulpix|36\/268 par
+|move|p1a: Vulpix|Confuse Ray|p2a: Nidorina
+|-start|p2a: Nidorina|confusion
+|
+|turn|33
+|
+|switch|p2a: Squirtle|Squirtle, L96|192\/279
+|move|p1a: Vulpix|Confuse Ray|p2a: Squirtle
+|-start|p2a: Squirtle|confusion
+|
+|turn|34
+|
+|switch|p2a: Kangaskhan|Kangaskhan, L85|298\/352
+|move|p1a: Vulpix|Fire Blast|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|114\/352
+|
+|turn|35
+|
+|move|p2a: Kangaskhan|Body Slam|p1a: Vulpix
+|-damage|p1a: Vulpix|0 fnt
+|faint|p1a: Vulpix
+|
+|switch|p1a: Venusaur|Venusaur, L85|218\/310
+|turn|36
+|
+|switch|p2a: Nidorina|Nidorina, L90|138\/309
+|move|p1a: Venusaur|Sleep Powder|p2a: Nidorina|[miss]
+|-miss|p1a: Venusaur
+|
+|turn|37
+|
+|move|p1a: Venusaur|Sleep Powder|p2a: Nidorina
+|-message|Sleep Clause Mod activated.
+|move|p2a: Nidorina|Body Slam|p1a: Venusaur
+|-crit|p1a: Venusaur
+|-damage|p1a: Venusaur|117\/310
+|
+|turn|38
+|
+|move|p1a: Venusaur|Leech Seed|p2a: Nidorina
+|-start|p2a: Nidorina|move: Leech Seed
+|move|p2a: Nidorina|Body Slam|p1a: Venusaur
+|-damage|p1a: Venusaur|61\/310
+|-damage|p2a: Nidorina|119\/309|[from] Leech Seed|[of] p1a: Venusaur
+|-heal|p1a: Venusaur|80\/310|[silent]
+|
+|turn|39
+|
+|switch|p1a: Machoke|Machoke, L85|32\/310
+|move|p2a: Nidorina|Rest|p2a: Nidorina
+|-status|p2a: Nidorina|slp
+|-heal|p2a: Nidorina|309\/309 slp|[silent]
+|-status|p2a: Nidorina|slp|[from] move: Rest
+|-damage|p2a: Nidorina|290\/309 slp|[from] Leech Seed|[of] p1a: Machoke
+|-heal|p1a: Machoke|51\/310|[silent]
+|
+|turn|40
+|
+|switch|p2a: Machoke|Machoke, L85|80\/310 slp
+|switch|p1a: Graveler|Graveler, L85|267\/267
+|
+|turn|41
+|
+|switch|p1a: Venusaur|Venusaur, L85|80\/310
+|cant|p2a: Machoke|slp
+|
+|turn|42
+|
+|switch|p2a: Chansey|Chansey, L79|332\/557 psn
+|-damage|p2a: Chansey|298\/557 psn|[from] psn
+|move|p1a: Venusaur|Leech Seed|p2a: Chansey|[miss]
+|-miss|p1a: Venusaur
+|
+|turn|43
+|
+|move|p1a: Venusaur|Leech Seed|p2a: Chansey
+|-start|p2a: Chansey|move: Leech Seed
+|move|p2a: Chansey|Ice Beam|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|
+|switch|p1a: Machoke|Machoke, L85|51\/310
+|turn|44
+|
+|move|p1a: Machoke|Rock Slide|p2a: Chansey
+|-damage|p2a: Chansey|157\/557 psn
+|move|p2a: Chansey|Counter|p1a: Machoke
+|-fail|p2a: Chansey
+|-damage|p2a: Chansey|89\/557 psn|[from] psn|[of] p1a: Machoke
+|-damage|p2a: Chansey|21\/557 psn|[from] Leech Seed|[of] p1a: Machoke
+|-heal|p1a: Machoke|119\/310|[silent]
+|
+|turn|45
+|
+|move|p1a: Machoke|Rock Slide|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|switch|p2a: Squirtle|Squirtle, L96|192\/279
+|turn|46
+|
+|move|p2a: Squirtle|Surf|p1a: Machoke
+|-damage|p1a: Machoke|0 fnt
+|faint|p1a: Machoke
+|
+|switch|p1a: Graveler|Graveler, L85|267\/267
+|turn|47
+|
+|move|p2a: Squirtle|Surf|p1a: Graveler
+|-supereffective|p1a: Graveler
+|-damage|p1a: Graveler|0 fnt
+|faint|p1a: Graveler
+|
+|switch|p1a: Rhydon|Rhydon, L79|328\/328
+|turn|48
+|
+|move|p2a: Squirtle|Surf|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|
+|win|Lait
+|raw|Ladder updating...
+|raw|Psychedelic Trip's rating: 1239 &rarr; <strong>1215<\/strong><br \/>(-24 for losing)
+|raw|Lait's rating: 1248 &rarr; <strong>1272<\/strong><br \/>(+24 for winning)

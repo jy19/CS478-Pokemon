@@ -1,0 +1,278 @@
+﻿|join|SunnyORAS
+|join|Enigami
+|player|p1|SunnyORAS|1
+|player|p2|Enigami|2
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Jynx|Jynx|333\/333
+|turn|1
+|c|★SunnyORAS|ggl
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Jynx
+|-status|p2a: Jynx|par
+|move|p2a: Jynx|Lovely Kiss|p1a: Alakazam
+|-status|p1a: Alakazam|slp
+|
+|turn|2
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: Jynx|Blizzard|p1a: Snorlax
+|-damage|p1a: Snorlax|348\/523
+|
+|turn|3
+|
+|move|p1a: Snorlax|Earthquake|p2a: Jynx
+|-damage|p2a: Jynx|179\/333 par
+|move|p2a: Jynx|Counter|p1a: Snorlax
+|-fail|p2a: Jynx
+|
+|turn|4
+|c|★Enigami|Darn.
+|c|★SunnyORAS|:P
+|
+|move|p1a: Snorlax|Body Slam|p2a: Jynx
+|-damage|p2a: Jynx|5\/333 par
+|move|p2a: Jynx|Blizzard|p1a: Snorlax
+|-damage|p1a: Snorlax|174\/523
+|
+|turn|5
+|c|★SunnyORAS|aw
+|
+|move|p1a: Snorlax|Body Slam|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|
+|switch|p2a: Zapdos|Zapdos|383\/383
+|turn|6
+|
+|switch|p1a: Rhydon|Rhydon|413\/413
+|move|p2a: Zapdos|Thunder|p1a: Rhydon
+|-immune|p1a: Rhydon|[msg]
+|
+|turn|7
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Rhydon|Body Slam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|311\/393
+|
+|turn|8
+|c|★SunnyORAS|i'm bad so i use rhydon in spite of nerf
+|c|★Enigami|Eh, its still C-rank.
+|
+|switch|p1a: Alakazam|Alakazam|313\/313 slp
+|move|p2a: Exeggutor|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|263\/313 slp
+|
+|turn|9
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|switch|p2a: Zapdos|Zapdos|383\/383
+|
+|turn|10
+|
+|switch|p1a: Rhydon|Rhydon|413\/413
+|move|p2a: Zapdos|Drill Peck|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|375\/413
+|
+|turn|11
+|
+|switch|p2a: Exeggutor|Exeggutor|311\/393
+|move|p1a: Rhydon|Body Slam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|223\/393
+|-status|p2a: Exeggutor|par
+|
+|turn|12
+|
+|switch|p1a: Alakazam|Alakazam|263\/313 slp
+|move|p2a: Exeggutor|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|215\/313 slp
+|
+|turn|13
+|
+|switch|p1a: Rhydon|Rhydon|375\/413
+|move|p2a: Exeggutor|Explosion|p1a: Rhydon
+|-crit|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|148\/413
+|faint|p2a: Exeggutor
+|c|★SunnyORAS|n_n
+|c|★Enigami|Nuts.
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|14
+|
+|switch|p1a: Alakazam|Alakazam|215\/313 slp
+|move|p2a: Tauros|Blizzard|p1a: Alakazam|[miss]
+|-miss|p2a: Tauros
+|
+|turn|15
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Tauros|Earthquake|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|347\/393
+|
+|turn|16
+|
+|switch|p2a: Zapdos|Zapdos|383\/383
+|move|p1a: Exeggutor|Stun Spore|p2a: Zapdos
+|-status|p2a: Zapdos|par
+|
+|turn|17
+|
+|switch|p1a: Rhydon|Rhydon|148\/413
+|move|p2a: Zapdos|Drill Peck|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|110\/413
+|
+|turn|18
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Rhydon|Rock Slide|p2a: Chansey
+|-damage|p2a: Chansey|419\/703
+|
+|turn|19
+|
+|switch|p1a: Exeggutor|Exeggutor|347\/393
+|move|p2a: Chansey|Ice Beam|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|206\/393
+|
+|turn|20
+|
+|move|p1a: Exeggutor|Explosion|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|faint|p1a: Exeggutor
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|21
+|
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|156\/353
+|move|p2a: Tauros|Blizzard|p1a: Tauros
+|-damage|p1a: Tauros|260\/353
+|
+|turn|22
+|
+|switch|p2a: Zapdos|Zapdos|383\/383 par
+|move|p1a: Tauros|Hyper Beam|p2a: Zapdos
+|-damage|p2a: Zapdos|196\/383 par
+|
+|turn|23
+|-mustrecharge|p1a: Tauros
+|-mustrecharge|p1a: Tauros
+|
+|cant|p1a: Tauros|recharge
+|move|p2a: Zapdos|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|
+|turn|24
+|c|★SunnyORAS|can i improve a little lol
+|
+|switch|p2a: Kingler|Kingler|313\/313
+|move|p1a: Tauros|Hyper Beam|p2a: Kingler|[miss]
+|-miss|p1a: Tauros
+|
+|turn|25
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Kingler|Crabhammer|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|568\/703
+|
+|turn|26
+|
+|switch|p2a: Zapdos|Zapdos|196\/383 par
+|move|p1a: Chansey|Thunder Wave|p2a: Zapdos
+|-fail|p2a: Zapdos|par
+|
+|turn|27
+|
+|move|p1a: Chansey|Ice Beam|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|switch|p2a: Tauros|Tauros|156\/353
+|turn|28
+|
+|move|p2a: Tauros|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|280\/703
+|move|p1a: Chansey|Thunder Wave|p2a: Tauros
+|-status|p2a: Tauros|par
+|
+|turn|29
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|631\/703
+|move|p2a: Tauros|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|553\/703
+|
+|turn|30
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Tauros
+|-damage|p2a: Tauros|63\/353 par
+|move|p2a: Tauros|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|483\/703
+|
+|turn|31
+|c|★SunnyORAS|gg I think
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|switch|p2a: Kingler|Kingler|313\/313
+|turn|32
+|c|★Enigami|Crit Hyper Beam go!
+|
+|move|p2a: Kingler|Hyper Beam|p1a: Chansey
+|-damage|p1a: Chansey|98\/703
+|move|p1a: Chansey|Thunder Wave|p2a: Kingler
+|-status|p2a: Kingler|par
+|
+|turn|33
+|-mustrecharge|p2a: Kingler
+|c|★Enigami|Aw.
+|-mustrecharge|p2a: Kingler
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Kingler
+|-supereffective|p2a: Kingler
+|-damage|p2a: Kingler|72\/313 par
+|cant|p2a: Kingler|recharge
+|
+|turn|34
+|c|★SunnyORAS|gottem
+|c|★SunnyORAS|:x
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Kingler
+|-crit|p2a: Kingler
+|-supereffective|p2a: Kingler
+|-damage|p2a: Kingler|0 fnt
+|faint|p2a: Kingler
+|
+|win|SunnyORAS
+|c|★SunnyORAS|next game
+|c|★SunnyORAS|y\/n
+|c|★Enigami|If  I had gotten Chansey paralyzed, Kingler would've swept. :|
+|c|★Enigami|y
+|leave|Enigami
+|player|p2

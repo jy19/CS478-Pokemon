@@ -1,0 +1,235 @@
+﻿|join|nullpointer
+|join|Kel9901
+|player|p1|nullpointer|96
+|player|p2|Kel9901|265
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gengar|Gengar|323\/323
+|switch|p2a: kid gf lol sucks|Tauros|353\/353
+|turn|1
+|
+|move|p1a: Gengar|Hypnosis|p2a: kid gf lol sucks|[miss]
+|-miss|p1a: Gengar
+|move|p2a: kid gf lol sucks|Earthquake|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|97\/323
+|
+|turn|2
+|join|MoxieInfinite
+|
+|switch|p1a: Dragonite|Dragonite|385\/385
+|move|p2a: kid gf lol sucks|Earthquake|p1a: Dragonite
+|-immune|p1a: Dragonite|[msg]
+|
+|turn|3
+|
+|move|p2a: kid gf lol sucks|Body Slam|p1a: Dragonite
+|-damage|p1a: Dragonite|284\/385
+|move|p1a: Dragonite|Agility|p1a: Dragonite
+|-boost|p1a: Dragonite|spe|2
+|
+|turn|4
+|
+|move|p1a: Dragonite|Wrap|p2a: kid gf lol sucks
+|-damage|p2a: kid gf lol sucks|337\/353
+|-activate|p2a: kid gf lol sucks|move: Wrap|[of] p1a: Dragonite
+|cant|p2a: kid gf lol sucks|partiallytrapped
+|
+|turn|5
+|
+|move|p1a: Dragonite|Wrap|p2a: kid gf lol sucks
+|-damage|p2a: kid gf lol sucks|321\/353
+|cant|p2a: kid gf lol sucks|partiallytrapped
+|
+|-end|p2a: kid gf lol sucks|Wrap|[partiallytrapped]
+|turn|6
+|
+|move|p1a: Dragonite|Wrap|p2a: kid gf lol sucks|[miss]
+|-miss|p1a: Dragonite
+|move|p2a: kid gf lol sucks|Body Slam|p1a: Dragonite
+|-damage|p1a: Dragonite|188\/385
+|
+|turn|7
+|
+|move|p1a: Dragonite|Wrap|p2a: kid gf lol sucks
+|-damage|p2a: kid gf lol sucks|306\/353
+|-activate|p2a: kid gf lol sucks|move: Wrap|[of] p1a: Dragonite
+|cant|p2a: kid gf lol sucks|partiallytrapped
+|
+|turn|8
+|c|★nullpointer|My mons need glasses
+|c|★Kel9901|lol
+|
+|switch|p2a: powerful|Rhydon|413\/413
+|move|p1a: Dragonite|Wrap|p2a: powerful
+|-resisted|p2a: powerful
+|-damage|p2a: powerful|407\/413
+|-activate|p2a: powerful|move: Wrap|[of] p1a: Dragonite
+|
+|turn|9
+|join|charizard reyiz
+|
+|switch|p1a: Gengar|Gengar|97\/323
+|switch|p2a: gtfo kid|Chansey|703\/703
+|
+|turn|10
+|
+|move|p1a: Gengar|Hypnosis|p2a: gtfo kid|[miss]
+|-miss|p1a: Gengar
+|move|p2a: gtfo kid|Thunder Wave|p1a: Gengar
+|-status|p1a: Gengar|par
+|
+|turn|11
+|
+|move|p2a: gtfo kid|Ice Beam|p1a: Gengar
+|-damage|p1a: Gengar|35\/323 par
+|move|p1a: Gengar|Hypnosis|p2a: gtfo kid|[miss]
+|-miss|p1a: Gengar
+|
+|turn|12
+|c|★nullpointer|it keeps happening
+|
+|move|p2a: gtfo kid|Thunderbolt|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|switch|p1a: Rhydon|Rhydon|413\/413
+|
+|turn|13
+|
+|move|p2a: gtfo kid|Ice Beam|p1a: Rhydon
+|-crit|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|
+|turn|14
+|
+|move|p1a: Tauros|Body Slam|p2a: gtfo kid
+|-damage|p2a: gtfo kid|450\/703
+|move|p2a: gtfo kid|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|
+|turn|15
+|
+|move|p2a: gtfo kid|Soft-Boiled|p2a: gtfo kid
+|-heal|p2a: gtfo kid|703\/703
+|move|p1a: Tauros|Hyper Beam|p2a: gtfo kid
+|-damage|p2a: gtfo kid|192\/703
+|
+|turn|16
+|c| charizard reyiz|:DDDD
+|
+|move|p2a: gtfo kid|Soft-Boiled|p2a: gtfo kid
+|-fail|p2a: gtfo kid
+|cant|p1a: Tauros|recharge
+|
+|turn|17
+|raw|<div class="broadcast-red"><b>Moderated chat was set to +!<\/b><br \/>Only users of rank + and higher can talk.<\/div>
+|c|★Kel9901|fuck
+|
+|move|p2a: gtfo kid|Ice Beam|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|179\/353 par
+|move|p1a: Tauros|Body Slam|p2a: gtfo kid
+|-damage|p2a: gtfo kid|0 fnt
+|faint|p2a: gtfo kid
+|
+|switch|p2a: kid is scrub|Snorlax|523\/523
+|
+|turn|18
+|
+|move|p2a: kid is scrub|Hyper Beam|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|switch|p1a: Dragonite|Dragonite|188\/385
+|
+|turn|19
+|
+|move|p1a: Dragonite|Wrap|p2a: kid is scrub|[miss]
+|-miss|p1a: Dragonite
+|move|p2a: kid is scrub|Hyper Beam|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|
+|turn|20
+|
+|move|p1a: Starmie|Blizzard|p2a: kid is scrub
+|-damage|p2a: kid is scrub|394\/523
+|move|p2a: kid is scrub|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|205\/323
+|
+|turn|21
+|
+|move|p1a: Starmie|Blizzard|p2a: kid is scrub
+|-damage|p2a: kid is scrub|266\/523
+|move|p2a: kid is scrub|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|90\/323
+|
+|turn|22
+|
+|switch|p2a: anti-cloyster|Jolteon|333\/333
+|move|p1a: Starmie|Blizzard|p2a: anti-cloyster
+|-damage|p2a: anti-cloyster|242\/333
+|
+|turn|23
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: anti-cloyster|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|598\/703
+|
+|turn|24
+|
+|switch|p2a: powerful|Rhydon|407\/413
+|move|p1a: Chansey|Thunder Wave|p2a: powerful
+|-immune|p2a: powerful|[msg]
+|
+|turn|25
+|
+|switch|p2a: u wanna go m9|Exeggutor|393\/393
+|move|p1a: Chansey|Counter|p2a: u wanna go m9
+|-fail|p2a: u wanna go m9
+|
+|turn|26
+|
+|switch|p1a: Starmie|Starmie|90\/323
+|move|p2a: u wanna go m9|Explosion|p1a: Starmie
+|-crit|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|faint|p2a: u wanna go m9
+|
+|switch|p1a: Chansey|Chansey|598\/703
+|switch|p2a: kid is scrub|Snorlax|266\/523
+|turn|27
+|
+|move|p1a: Chansey|Ice Beam|p2a: kid is scrub
+|-damage|p2a: kid is scrub|166\/523
+|move|p2a: kid is scrub|Self-Destruct|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|faint|p2a: kid is scrub
+|
+|win|Kel9901
+|raw|Ladder updating...
+|raw|nullpointer's rating: 1000 &rarr; <strong>1000<\/strong><br \/>(+0 for losing)
+|raw|Kel9901's rating: 1156 &rarr; <strong>1171<\/strong><br \/>(+15 for winning)
+|c|★Kel9901|gg
+|c|★nullpointer|gg
+|leave|nullpointer
+|player|p1

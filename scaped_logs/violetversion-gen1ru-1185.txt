@@ -1,0 +1,698 @@
+﻿|J|Lusch
+|J|Peasounay
+|player|p1|Lusch|153
+|player|p2|Peasounay|80
+|gametype|singles
+|gen|1
+|tier|[Gen 1] RU
+|seed|47168,50656,30960,52624
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Exeggcute|Exeggcute|323\/323
+|switch|p2a: Tangela|Tangela|333\/333
+|turn|1
+|choice|move 3|move 1
+|
+|move|p2a: Tangela|Sleep Powder|p1a: Exeggcute|[miss]
+|-miss|p2a: Tangela
+|move|p1a: Exeggcute|Sleep Powder|p2a: Tangela|[miss]
+|-miss|p1a: Exeggcute
+|
+|turn|2
+|c|★Lusch|gl hf
+|choice|move 3|move 1
+|
+|move|p2a: Tangela|Sleep Powder|p1a: Exeggcute
+|-status|p1a: Exeggcute|slp
+|-curestatus|p1a: Exeggcute|slp
+|
+|turn|3
+|c|★Peasounay|u2
+|choice|move 3|move 1
+|
+|move|p2a: Tangela|Sleep Powder|p1a: Exeggcute|[miss]
+|-miss|p2a: Tangela
+|move|p1a: Exeggcute|Sleep Powder|p2a: Tangela
+|-status|p2a: Tangela|slp
+|
+|turn|4
+|choice|move 2|move 1
+|
+|-curestatus|p2a: Tangela|slp
+|move|p1a: Exeggcute|Psychic|p2a: Tangela
+|-damage|p2a: Tangela|252\/333
+|
+|turn|5
+|choice|move 3|move 1
+|
+|move|p2a: Tangela|Sleep Powder|p1a: Exeggcute
+|-status|p1a: Exeggcute|slp
+|cant|p1a: Exeggcute|slp
+|
+|turn|6
+|choice|move 3|switch 6
+|
+|switch|p2a: Flareon|Flareon|333\/333
+|cant|p1a: Exeggcute|slp
+|
+|turn|7
+|choice|switch 4|move 3
+|
+|switch|p1a: Vaporeon|Vaporeon|463\/463
+|move|p2a: Flareon|Body Slam|p1a: Vaporeon
+|-damage|p1a: Vaporeon|349\/463
+|
+|turn|8
+|choice|move 3|switch 5
+|
+|switch|p2a: Dewgong|Dewgong|383\/383
+|move|p1a: Vaporeon|Surf|p2a: Dewgong
+|-resisted|p2a: Dewgong
+|-damage|p2a: Dewgong|321\/383
+|
+|turn|9
+|choice|move 3|move 3
+|
+|move|p2a: Dewgong|Body Slam|p1a: Vaporeon
+|-crit|p1a: Vaporeon
+|-damage|p1a: Vaporeon|217\/463
+|move|p1a: Vaporeon|Surf|p2a: Dewgong
+|-crit|p2a: Dewgong
+|-resisted|p2a: Dewgong
+|-damage|p2a: Dewgong|196\/383
+|
+|turn|10
+|choice|move 3|move 3
+|
+|move|p2a: Dewgong|Body Slam|p1a: Vaporeon
+|-crit|p1a: Vaporeon
+|-damage|p1a: Vaporeon|80\/463
+|-status|p1a: Vaporeon|par
+|move|p1a: Vaporeon|Surf|p2a: Dewgong
+|-resisted|p2a: Dewgong
+|-damage|p2a: Dewgong|131\/383
+|
+|turn|11
+|choice|move 4|move 4
+|
+|move|p2a: Dewgong|Rest|p2a: Dewgong
+|-status|p2a: Dewgong|slp
+|-heal|p2a: Dewgong|383\/383 slp|[silent]
+|-status|p2a: Dewgong|slp|[from] move: Rest
+|move|p1a: Vaporeon|Rest|p1a: Vaporeon
+|-status|p1a: Vaporeon|slp
+|-heal|p1a: Vaporeon|463\/463 slp|[silent]
+|-status|p1a: Vaporeon|slp|[from] move: Rest
+|
+|turn|12
+|choice|move 3|switch 4
+|
+|switch|p2a: Electabuzz|Electabuzz|333\/333
+|cant|p1a: Vaporeon|slp
+|
+|turn|13
+|choice|switch 6|move 4
+|
+|switch|p1a: Dugtrio|Dugtrio|273\/273
+|move|p2a: Electabuzz|Body Slam|p1a: Dugtrio
+|-damage|p1a: Dugtrio|185\/273
+|
+|turn|14
+|c|★Lusch|oh nice
+|choice|move 4|switch 6
+|
+|switch|p2a: Tangela|Tangela|252\/333
+|move|p1a: Dugtrio|Slash|p2a: Tangela
+|-crit|p2a: Tangela
+|-damage|p2a: Tangela|169\/333
+|
+|turn|15
+|c|★Peasounay|yeah flar needs para 
+|choice|switch 4|move 2
+|
+|switch|p1a: Exeggcute|Exeggcute|323\/323 slp
+|move|p2a: Tangela|Mega Drain|p1a: Exeggcute
+|-resisted|p1a: Exeggcute
+|-damage|p1a: Exeggcute|288\/323 slp
+|-heal|p2a: Tangela|186\/333|[from] drain|[of] p1a: Exeggcute
+|
+|turn|16
+|choice|switch 6|move 2
+|
+|switch|p1a: Vaporeon|Vaporeon|463\/463 slp
+|move|p2a: Tangela|Mega Drain|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|366\/463 slp
+|-heal|p2a: Tangela|234\/333|[from] drain|[of] p1a: Vaporeon
+|
+|turn|17
+|choice|move 2|switch 4
+|
+|switch|p2a: Dewgong|Dewgong|383\/383 slp
+|-curestatus|p1a: Vaporeon|slp
+|
+|turn|18
+|choice|switch 3|move 2
+|
+|switch|p1a: Electabuzz|Electabuzz|333\/333
+|cant|p2a: Dewgong|slp
+|
+|turn|19
+|choice|move 2|switch 4
+|
+|switch|p2a: Tangela|Tangela|234\/333
+|move|p1a: Electabuzz|Seismic Toss|p2a: Tangela
+|-damage|p2a: Tangela|134\/333
+|
+|turn|20
+|c|★Lusch|fucking tangela
+|c|★Lusch|annoying^^
+|J|Disaster Area
+|c|★Peasounay|i'm liking it
+|c|@Disaster Area|do you think it could even b
+|c|@Disaster Area|be
+|c|@Disaster Area|C rank material?
+|c|★Peasounay|it's my first game with it
+|c|★Lusch|I don't
+|c|★Peasounay|but it's decent
+|c|★Lusch|I've used it before
+|c|★Peasounay|and the mega drain actually isn't bad
+|choice|switch 6|move 3
+|
+|switch|p1a: Exeggcute|Exeggcute|288\/323 slp
+|move|p2a: Tangela|Stun Spore|p1a: Exeggcute
+|-fail|p1a: Exeggcute
+|
+|turn|21
+|c|@Disaster Area|what set are you running
+|c|@Disaster Area|i saw marco try body slam
+|c|★Peasounay|i actually have bslam
+|choice|switch 3|move 2
+|
+|switch|p1a: Vaporeon|Vaporeon|366\/463
+|move|p2a: Tangela|Mega Drain|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|273\/463
+|-heal|p2a: Tangela|180\/333|[from] drain|[of] p1a: Vaporeon
+|
+|turn|22
+|choice|switch 6|switch 4
+|
+|switch|p1a: Electabuzz|Electabuzz|333\/333
+|switch|p2a: Dewgong|Dewgong|383\/383 slp
+|
+|turn|23
+|choice|move 3|switch 2
+|
+|switch|p2a: Clefable|Clefable|393\/393
+|move|p1a: Electabuzz|Thunderbolt|p2a: Clefable
+|-damage|p2a: Clefable|279\/393
+|
+|turn|24
+|choice|switch 4|move 4
+|
+|switch|p1a: Dugtrio|Dugtrio|185\/273
+|move|p2a: Clefable|Body Slam|p1a: Dugtrio
+|-damage|p1a: Dugtrio|70\/273
+|-status|p1a: Dugtrio|par
+|
+|turn|25
+|choice|move 4|move 4
+|
+|move|p2a: Clefable|Body Slam|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|choice|switch 6|
+|
+|switch|p1a: Vaporeon|Vaporeon|273\/463
+|turn|26
+|choice|move 3|move 3
+|
+|move|p1a: Vaporeon|Surf|p2a: Clefable
+|-damage|p2a: Clefable|146\/393
+|move|p2a: Clefable|Light Screen|p2a: Clefable
+|-start|p2a: Clefable|Light Screen
+|
+|turn|27
+|choice|move 3|move 1
+|
+|move|p1a: Vaporeon|Surf|p2a: Clefable
+|-damage|p2a: Clefable|78\/393
+|move|p2a: Clefable|Rest|p2a: Clefable
+|-status|p2a: Clefable|slp
+|-heal|p2a: Clefable|393\/393 slp|[silent]
+|-status|p2a: Clefable|slp|[from] move: Rest
+|
+|turn|28
+|choice|move 1|move 3
+|
+|move|p1a: Vaporeon|Haze|p1a: Vaporeon
+|-clearallboost
+|-end|p2a: Clefable|lightscreen
+|move|p2a: Clefable|Light Screen|p2a: Clefable
+|-start|p2a: Clefable|Light Screen
+|
+|turn|29
+|c|★Peasounay|lol u kidding
+|c|★Lusch|hahahahaa
+|c|★Lusch|i thought lol
+|c|★Lusch|light scree
+|c|★Lusch|n
+|c|★Peasounay|wait does it cancel it or not ?
+|c|★Peasounay|i thought so
+|c|★Lusch|it does
+|c|★Lusch|but i think it should cue ur sleep too
+|c|★Peasounay|screw then lmao
+|c|★Peasounay|screw you*
+|choice|move 2|move 4
+|
+|move|p1a: Vaporeon|Ice Beam|p2a: Clefable
+|-damage|p2a: Clefable|352\/393
+|move|p2a: Clefable|Body Slam|p1a: Vaporeon
+|-damage|p1a: Vaporeon|159\/463
+|
+|turn|30
+|choice|move 4|move 4
+|
+|move|p1a: Vaporeon|Rest|p1a: Vaporeon
+|-status|p1a: Vaporeon|slp
+|-heal|p1a: Vaporeon|463\/463 slp|[silent]
+|-status|p1a: Vaporeon|slp|[from] move: Rest
+|move|p2a: Clefable|Body Slam|p1a: Vaporeon
+|-damage|p1a: Vaporeon|346\/463 slp
+|
+|turn|31
+|choice|move 2|move 4
+|
+|cant|p1a: Vaporeon|slp
+|move|p2a: Clefable|Body Slam|p1a: Vaporeon
+|-damage|p1a: Vaporeon|241\/463 slp
+|
+|turn|32
+|choice|move 3|move 4
+|
+|-curestatus|p1a: Vaporeon|slp
+|move|p2a: Clefable|Body Slam|p1a: Vaporeon
+|-crit|p1a: Vaporeon
+|-damage|p1a: Vaporeon|20\/463
+|
+|turn|33
+|choice|move 4|switch 6
+|
+|switch|p2a: Electabuzz|Electabuzz|333\/333
+|move|p1a: Vaporeon|Rest|p1a: Vaporeon
+|-status|p1a: Vaporeon|slp
+|-heal|p1a: Vaporeon|463\/463 slp|[silent]
+|-status|p1a: Vaporeon|slp|[from] move: Rest
+|
+|turn|34
+|choice|move 3|move 1
+|
+|move|p2a: Electabuzz|Thunder Wave|p1a: Vaporeon
+|-fail|p1a: Vaporeon
+|cant|p1a: Vaporeon|slp
+|
+|turn|35
+|choice|switch 4|move 1
+|
+|switch|p1a: Electabuzz|Electabuzz|333\/333
+|move|p2a: Electabuzz|Thunder Wave|p1a: Electabuzz
+|-status|p1a: Electabuzz|par
+|
+|turn|36
+|choice|move 4|switch 2
+|
+|switch|p2a: Dewgong|Dewgong|383\/383 slp
+|move|p1a: Electabuzz|Thunder Wave|p2a: Dewgong
+|-fail|p2a: Dewgong
+|
+|turn|37
+|choice|move 4|switch 4
+|
+|switch|p2a: Tangela|Tangela|180\/333
+|move|p1a: Electabuzz|Thunder Wave|p2a: Tangela
+|-status|p2a: Tangela|par
+|
+|turn|38
+|choice|move 2|move 2
+|
+|move|p1a: Electabuzz|Seismic Toss|p2a: Tangela
+|-damage|p2a: Tangela|80\/333 par
+|move|p2a: Tangela|Mega Drain|p1a: Electabuzz
+|-damage|p1a: Electabuzz|276\/333 par
+|-heal|p2a: Tangela|108\/333 par|[from] drain|[of] p1a: Electabuzz
+|
+|turn|39
+|c|★Lusch|are u kidding
+|c|★Peasounay|noo
+|c|★Lusch|lets u survive another one
+|c|★Lusch|man im nor getting that shit down
+|choice|switch 4|move 4
+|
+|switch|p1a: Vaporeon|Vaporeon|463\/463 slp
+|move|p2a: Tangela|Body Slam|p1a: Vaporeon
+|-damage|p1a: Vaporeon|396\/463 slp
+|
+|turn|40
+|choice|move 2|move 3
+|
+|-curestatus|p1a: Vaporeon|slp
+|move|p2a: Tangela|Stun Spore|p1a: Vaporeon|[miss]
+|-miss|p2a: Tangela
+|
+|turn|41
+|choice|switch 4|switch 4
+|
+|switch|p1a: Electabuzz|Electabuzz|276\/333 par
+|switch|p2a: Dewgong|Dewgong|383\/383 slp
+|
+|turn|42
+|choice|move 3|switch 6
+|
+|switch|p2a: Clefable|Clefable|352\/393
+|move|p1a: Electabuzz|Thunderbolt|p2a: Clefable
+|-damage|p2a: Clefable|245\/393
+|
+|turn|43
+|choice|move 4|move 4
+|
+|move|p2a: Clefable|Body Slam|p1a: Electabuzz
+|-crit|p1a: Electabuzz
+|-damage|p1a: Electabuzz|51\/333 par
+|move|p1a: Electabuzz|Thunder Wave|p2a: Clefable
+|-status|p2a: Clefable|par
+|
+|turn|44
+|choice|move 3|switch 4
+|
+|switch|p2a: Tangela|Tangela|108\/333 par
+|cant|p1a: Electabuzz|par
+|
+|turn|45
+|choice|move 1|move 4
+|
+|move|p1a: Electabuzz|Psychic|p2a: Tangela
+|-damage|p2a: Tangela|45\/333 par
+|-unboost|p2a: Tangela|spd|1
+|-unboost|p2a: Tangela|spa|1
+|move|p2a: Tangela|Body Slam|p1a: Electabuzz
+|-damage|p1a: Electabuzz|0 fnt
+|faint|p1a: Electabuzz
+|choice|switch 4|
+|
+|switch|p1a: Vaporeon|Vaporeon|396\/463
+|turn|46
+|choice|move 3|move 3
+|
+|move|p1a: Vaporeon|Surf|p2a: Tangela
+|-resisted|p2a: Tangela
+|-damage|p2a: Tangela|0 fnt
+|faint|p2a: Tangela
+|choice||switch 6
+|
+|switch|p2a: Dewgong|Dewgong|383\/383 slp
+|turn|47
+|choice|move 3|move 3
+|
+|-curestatus|p2a: Dewgong|slp
+|move|p1a: Vaporeon|Surf|p2a: Dewgong
+|-resisted|p2a: Dewgong
+|-damage|p2a: Dewgong|323\/383
+|
+|turn|48
+|choice|move 3|move 2
+|
+|move|p2a: Dewgong|Blizzard|p1a: Vaporeon|[miss]
+|-miss|p2a: Dewgong
+|move|p1a: Vaporeon|Surf|p2a: Dewgong
+|-resisted|p2a: Dewgong
+|-damage|p2a: Dewgong|266\/383
+|
+|turn|49
+|choice|move 3|move 2
+|
+|move|p2a: Dewgong|Blizzard|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|334\/463
+|move|p1a: Vaporeon|Surf|p2a: Dewgong
+|-resisted|p2a: Dewgong
+|-damage|p2a: Dewgong|206\/383
+|
+|turn|50
+|J|Enigami
+|choice|move 3|move 2
+|
+|move|p2a: Dewgong|Blizzard|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|271\/463
+|move|p1a: Vaporeon|Surf|p2a: Dewgong
+|-resisted|p2a: Dewgong
+|-damage|p2a: Dewgong|142\/383
+|
+|turn|51
+|choice|switch 2|move 3
+|
+|switch|p1a: Ninetales|Ninetales|349\/349
+|move|p2a: Dewgong|Body Slam|p1a: Ninetales
+|-damage|p1a: Ninetales|283\/349
+|
+|turn|52
+|choice|move 3|switch 2
+|
+|switch|p2a: Electabuzz|Electabuzz|333\/333
+|move|p1a: Ninetales|Body Slam|p2a: Electabuzz
+|-damage|p2a: Electabuzz|252\/333
+|
+|turn|53
+|c|★Peasounay|dodged a bullet
+|choice|switch 3|move 1
+|
+|switch|p1a: Exeggcute|Exeggcute|288\/323 slp
+|move|p2a: Electabuzz|Thunder Wave|p1a: Exeggcute
+|-fail|p1a: Exeggcute
+|
+|turn|54
+|choice|move 2|move 4
+|
+|move|p2a: Electabuzz|Body Slam|p1a: Exeggcute
+|-damage|p1a: Exeggcute|216\/323 slp
+|cant|p1a: Exeggcute|slp
+|
+|turn|55
+|choice|move 2|move 4
+|
+|move|p2a: Electabuzz|Body Slam|p1a: Exeggcute
+|-crit|p1a: Exeggcute
+|-damage|p1a: Exeggcute|73\/323 slp
+|cant|p1a: Exeggcute|slp
+|
+|turn|56
+|choice|move 2|move 4
+|
+|move|p2a: Electabuzz|Body Slam|p1a: Exeggcute
+|-damage|p1a: Exeggcute|8\/323 slp
+|cant|p1a: Exeggcute|slp
+|
+|turn|57
+|choice|move 2|move 4
+|
+|move|p2a: Electabuzz|Body Slam|p1a: Exeggcute
+|-damage|p1a: Exeggcute|0 fnt
+|faint|p1a: Exeggcute
+|choice|switch 5|
+|
+|switch|p1a: Mr. Mime|Mr. Mime|283\/283
+|turn|58
+|choice|move 1|switch 4
+|
+|switch|p2a: Clefable|Clefable|245\/393 par
+|move|p1a: Mr. Mime|Psychic|p2a: Clefable
+|-damage|p2a: Clefable|132\/393 par
+|
+|turn|59
+|choice|move 1|move 1
+|
+|move|p1a: Mr. Mime|Psychic|p2a: Clefable
+|-damage|p2a: Clefable|8\/393 par
+|-unboost|p2a: Clefable|spd|1
+|-unboost|p2a: Clefable|spa|1
+|move|p2a: Clefable|Rest|p2a: Clefable
+|-status|p2a: Clefable|slp
+|-heal|p2a: Clefable|393\/393 slp|[silent]
+|-status|p2a: Clefable|slp|[from] move: Rest
+|
+|turn|60
+|c|@Disaster Area|longest 3u match i've seen o.o
+|c|@Disaster Area|i think
+|c|★Peasounay|yeah me too
+|choice|move 4|switch 3
+|
+|switch|p2a: Mr. Mime|Mr. Mime|283\/283
+|move|p1a: Mr. Mime|Thunder Wave|p2a: Mr. Mime
+|-status|p2a: Mr. Mime|par
+|
+|turn|61
+|c|★Peasounay|argh nice
+|choice|switch 2|move 1
+|
+|switch|p1a: Vaporeon|Vaporeon|271\/463
+|move|p2a: Mr. Mime|Thunder Wave|p1a: Vaporeon
+|-status|p1a: Vaporeon|par
+|
+|turn|62
+|choice|move 4|move 2
+|
+|move|p2a: Mr. Mime|Thunderbolt|p1a: Vaporeon
+|-crit|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|choice|switch 3|
+|
+|switch|p1a: Ninetales|Ninetales|283\/349
+|turn|63
+|choice|move 2|move 1
+|
+|move|p1a: Ninetales|Confuse Ray|p2a: Mr. Mime
+|-start|p2a: Mr. Mime|confusion
+|-activate|p2a: Mr. Mime|confusion
+|-damage|p2a: Mr. Mime|254\/283 par|[from] confusion
+|
+|turn|64
+|c|★Peasounay|u dirty
+|choice|move 4|switch 3
+|
+|switch|p2a: Clefable|Clefable|393\/393 slp
+|move|p1a: Ninetales|Fire Spin|p2a: Clefable|[miss]
+|-miss|p1a: Ninetales
+|
+|turn|65
+|choice|move 1|move 2
+|
+|move|p1a: Ninetales|Fire Blast|p2a: Clefable
+|-crit|p2a: Clefable
+|-damage|p2a: Clefable|94\/393 slp
+|cant|p2a: Clefable|slp
+|
+|turn|66
+|choice|switch 2|move 4
+|
+|switch|p1a: Mr. Mime|Mr. Mime|283\/283
+|-curestatus|p2a: Clefable|slp
+|
+|turn|67
+|choice|move 2|move 4
+|
+|move|p1a: Mr. Mime|Seismic Toss|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|choice||switch 3
+|
+|switch|p2a: Mr. Mime|Mr. Mime|254\/283 par
+|turn|68
+|choice|move 2|move 1
+|
+|move|p1a: Mr. Mime|Seismic Toss|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|154\/283 par
+|move|p2a: Mr. Mime|Thunder Wave|p1a: Mr. Mime
+|-status|p1a: Mr. Mime|par
+|
+|turn|69
+|choice|move 2|move 4
+|
+|move|p1a: Mr. Mime|Seismic Toss|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|54\/283 par
+|cant|p2a: Mr. Mime|par
+|
+|turn|70
+|c|★Lusch|cmon mimie
+|choice|move 2|move 4
+|
+|move|p1a: Mr. Mime|Seismic Toss|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|0 fnt
+|faint|p2a: Mr. Mime
+|c|★Lusch|good one
+|choice||switch 2
+|
+|switch|p2a: Dewgong|Dewgong|142\/383
+|turn|71
+|c|★Lusch|well if we can believe bulbapedia
+|c|★Lusch|then haze should cure status from the opponent
+|c|★Lusch|ergo u should have woken up with fable earlier
+|choice|move 3|move 1
+|
+|move|p2a: Dewgong|Surf|p1a: Mr. Mime
+|-crit|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|57\/283 par
+|cant|p1a: Mr. Mime|par
+|
+|turn|72
+|c|★Peasounay|maybe yeah
+|choice|move 3|move 1
+|
+|move|p2a: Dewgong|Surf|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|0 fnt
+|faint|p1a: Mr. Mime
+|choice|switch 2|
+|
+|switch|p1a: Ninetales|Ninetales|283\/349
+|turn|73
+|choice|move 1|move 1
+|
+|move|p1a: Ninetales|Fire Blast|p2a: Dewgong
+|-damage|p2a: Dewgong|0 fnt
+|faint|p2a: Dewgong
+|choice||switch 4
+|
+|switch|p2a: Electabuzz|Electabuzz|252\/333
+|turn|74
+|c|★Peasounay|bslam is pretty decent
+|c|★Lusch|yeah atually
+|c|★Peasounay|when your team hates dug
+|c|★Peasounay|on buzz
+|c|★Lusch|ur right
+|c|★Lusch|so tales
+|c|★Lusch|how are we winning this
+|choice|move 1|move 1
+|
+|move|p2a: Electabuzz|Thunder Wave|p1a: Ninetales
+|-status|p1a: Ninetales|par
+|cant|p1a: Ninetales|par
+|
+|turn|75
+|c|★Lusch|not like that
+|choice|move 1|move 2
+|
+|move|p2a: Electabuzz|Thunderbolt|p1a: Ninetales
+|-damage|p1a: Ninetales|179\/349 par
+|cant|p1a: Ninetales|par
+|
+|turn|76
+|c|★Lusch|gg
+|c|★Peasounay|gg
+|choice|move 2|move 2
+|
+|move|p2a: Electabuzz|Thunderbolt|p1a: Ninetales
+|-damage|p1a: Ninetales|72\/349 par
+|cant|p1a: Ninetales|par
+|
+|turn|77
+|c|★Lusch|and yeah
+|c|★Peasounay|interesting game
+|c|★Lusch|dont think ive ever seen a 78 turn 3U battle
+|c|★Peasounay|first time there's a bit of stall in this format
+|choice|move 1|move 2
+|
+|move|p2a: Electabuzz|Thunderbolt|p1a: Ninetales
+|-crit|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|win|Peasounay
+|c|★Peasounay|obv saving replay

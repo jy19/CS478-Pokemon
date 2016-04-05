@@ -1,0 +1,82 @@
+﻿|join|yaldyyyy
+|join|Mokcikkampong
+|player|p1|yaldyyyy|169
+|player|p2|Mokcikkampong|170
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Meowth|Meowth, L96|272\/272
+|switch|p2a: Pidgeot|Pidgeot, L90|333\/333
+|turn|1
+|
+|move|p1a: Meowth|Slash|p2a: Pidgeot
+|-crit|p2a: Pidgeot
+|-damage|p2a: Pidgeot|211\/333
+|move|p2a: Pidgeot|Reflect|p2a: Pidgeot
+|-start|p2a: Pidgeot|Reflect
+|
+|turn|2
+|
+|switch|p2a: Onix|Onix, L90|246\/246
+|move|p1a: Meowth|Slash|p2a: Onix
+|-crit|p2a: Onix
+|-resisted|p2a: Onix
+|-damage|p2a: Onix|211\/246
+|
+|turn|3
+|
+|move|p1a: Meowth|Bubble Beam|p2a: Onix
+|-supereffective|p2a: Onix
+|-damage|p2a: Onix|0 fnt
+|faint|p2a: Onix
+|
+|switch|p2a: Pidgeot|Pidgeot, L90|211\/333
+|turn|4
+|
+|move|p1a: Meowth|Thunderbolt|p2a: Pidgeot
+|-supereffective|p2a: Pidgeot
+|-damage|p2a: Pidgeot|88\/333
+|move|p2a: Pidgeot|Double-Edge|p1a: Meowth
+|-crit|p1a: Meowth
+|-damage|p1a: Meowth|0 fnt
+|-damage|p2a: Pidgeot|20\/333|[from] recoil|[of] p1a: Meowth
+|faint|p1a: Meowth
+|
+|switch|p1a: Onix|Onix, L90|246\/246
+|turn|5
+|
+|move|p2a: Pidgeot|Mirror Move|p2a: Pidgeot
+|-fail|p2a: Pidgeot
+|move|p1a: Onix|Rock Slide|p2a: Pidgeot
+|-supereffective|p2a: Pidgeot
+|-damage|p2a: Pidgeot|0 fnt
+|faint|p2a: Pidgeot
+|
+|switch|p2a: Shellder|Shellder, L96|252\/252
+|turn|6
+|
+|switch|p1a: Magneton|Magneton, L90|273\/273
+|move|p2a: Shellder|Surf|p1a: Magneton
+|-damage|p1a: Magneton|208\/273
+|
+|turn|7
+|
+|switch|p2a: Raticate|Raticate, L85|267\/267
+|move|p1a: Magneton|Thunderbolt|p2a: Raticate
+|-damage|p2a: Raticate|73\/267
+|
+|turn|8
+|-message|Mokcikkampong forfeited.
+|
+|win|yaldyyyy
+|raw|Ladder updating...
+|leave|Mokcikkampong
+|player|p2
+|raw|yaldyyyy's rating: 1214 &rarr; <strong>1227<\/strong><br \/>(+13 for winning)
+|raw|Mokcikkampong's rating: 1045 &rarr; <strong>1035<\/strong><br \/>(-10 for losing)

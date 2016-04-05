@@ -1,0 +1,214 @@
+﻿|join|MALESANI
+|join|Bagsby
+|player|p1|MALESANI|238
+|player|p2|Bagsby|10
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|54301,15688,16203,50454
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Meowth|Meowth, L96|272\/272
+|switch|p2a: Voltorb|Voltorb, L96|272\/272
+|turn|1
+|choice|switch 4|move 2
+|
+|switch|p1a: Marowak|Marowak, L90|291\/291
+|move|p2a: Voltorb|Reflect|p2a: Voltorb
+|-start|p2a: Voltorb|Reflect
+|
+|turn|2
+|choice|move 2|move 4
+|
+|move|p2a: Voltorb|Flash|p1a: Marowak
+|-unboost|p1a: Marowak|accuracy|1
+|move|p1a: Marowak|Earthquake|p2a: Voltorb
+|-supereffective|p2a: Voltorb
+|-damage|p2a: Voltorb|146\/272
+|
+|turn|3
+|choice|move 1|move 1
+|
+|move|p2a: Voltorb|Explosion|p1a: Marowak
+|-damage|p1a: Marowak|150\/291
+|faint|p2a: Voltorb
+|choice||switch 2
+|
+|switch|p2a: Lickitung|Lickitung, L90|345\/345
+|turn|4
+|choice|switch 3|move 4
+|
+|switch|p1a: Primeape|Primeape, L90|300\/300
+|move|p2a: Lickitung|Swords Dance|p2a: Lickitung
+|-boost|p2a: Lickitung|atk|2
+|
+|turn|5
+|choice|move 3|move 1
+|
+|move|p1a: Primeape|Submission|p2a: Lickitung
+|-crit|p2a: Lickitung
+|-supereffective|p2a: Lickitung
+|-damage|p2a: Lickitung|0 fnt
+|-damage|p1a: Primeape|214\/300|[from] recoil|[of] p2a: Lickitung
+|faint|p2a: Lickitung
+|choice||switch 6
+|
+|switch|p2a: Sandslash|Sandslash, L85|301\/301
+|turn|6
+|choice|move 3|move 3
+|
+|move|p1a: Primeape|Submission|p2a: Sandslash
+|-damage|p2a: Sandslash|218\/301
+|-damage|p1a: Primeape|194\/300|[from] recoil|[of] p2a: Sandslash
+|move|p2a: Sandslash|Swords Dance|p2a: Sandslash
+|-boost|p2a: Sandslash|atk|2
+|
+|turn|7
+|choice|move 1|move 4
+|
+|move|p1a: Primeape|Body Slam|p2a: Sandslash
+|-damage|p2a: Sandslash|152\/301
+|move|p2a: Sandslash|Rock Slide|p1a: Primeape
+|-crit|p1a: Primeape
+|-resisted|p1a: Primeape
+|-damage|p1a: Primeape|126\/300
+|
+|turn|8
+|choice|move 1|move 1
+|
+|move|p1a: Primeape|Body Slam|p2a: Sandslash
+|-damage|p2a: Sandslash|93\/301
+|-status|p2a: Sandslash|par
+|move|p2a: Sandslash|Earthquake|p1a: Primeape
+|-damage|p1a: Primeape|0 fnt
+|faint|p1a: Primeape
+|choice|switch 5|
+|
+|switch|p1a: Mr. Mime|Mr. Mime, L85|242\/242
+|turn|9
+|choice|move 3|move 1
+|
+|move|p1a: Mr. Mime|Psychic|p2a: Sandslash
+|-damage|p2a: Sandslash|0 fnt
+|faint|p2a: Sandslash
+|choice||switch 3
+|
+|switch|p2a: Dodrio|Dodrio, L85|276\/276
+|turn|10
+|choice|move 1|move 2
+|
+|move|p2a: Dodrio|Drill Peck|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|122\/242
+|move|p1a: Mr. Mime|Thunder Wave|p2a: Dodrio
+|-status|p2a: Dodrio|par
+|
+|turn|11
+|choice|move 4|move 1
+|
+|move|p1a: Mr. Mime|Thunderbolt|p2a: Dodrio
+|-supereffective|p2a: Dodrio
+|-damage|p2a: Dodrio|110\/276 par
+|move|p2a: Dodrio|Hyper Beam|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|0 fnt
+|faint|p1a: Mr. Mime
+|choice|switch 6|
+|
+|switch|p1a: Farfetch'd|Farfetch'd, L99|304\/304
+|turn|12
+|choice|move 1|move 1
+|
+|move|p1a: Farfetch'd|Slash|p2a: Dodrio
+|-crit|p2a: Dodrio
+|-damage|p2a: Dodrio|0 fnt
+|faint|p2a: Dodrio
+|choice||switch 5
+|
+|switch|p2a: Magneton|Magneton, L90|273\/273
+|turn|13
+|choice|switch 3|move 1
+|
+|switch|p1a: Marowak|Marowak, L90|150\/291
+|move|p2a: Magneton|Thunderbolt|p1a: Marowak
+|-immune|p1a: Marowak|[msg]
+|
+|turn|14
+|choice|move 2|move 3
+|
+|move|p2a: Magneton|Double-Edge|p1a: Marowak
+|-damage|p1a: Marowak|97\/291
+|-damage|p2a: Magneton|260\/273|[from] recoil|[of] p1a: Marowak
+|move|p1a: Marowak|Earthquake|p2a: Magneton
+|-supereffective|p2a: Magneton
+|-damage|p2a: Magneton|69\/273
+|
+|turn|15
+|choice|move 4|switch 4
+|
+|switch|p2a: Flareon|Flareon, L90|300\/300
+|move|p1a: Marowak|Seismic Toss|p2a: Flareon
+|-damage|p2a: Flareon|210\/300
+|
+|turn|16
+|choice|move 2|move 1
+|
+|move|p2a: Flareon|Hyper Beam|p1a: Marowak
+|-damage|p1a: Marowak|0 fnt
+|faint|p1a: Marowak
+|choice|switch 4|
+|
+|switch|p1a: Meowth|Meowth, L96|272\/272
+|turn|17
+|choice|move 2|move 3
+|
+|move|p1a: Meowth|Body Slam|p2a: Flareon
+|-damage|p2a: Flareon|124\/300
+|move|p2a: Flareon|Fire Blast|p1a: Meowth
+|-damage|p1a: Meowth|43\/272
+|
+|turn|18
+|choice|move 1|move 1
+|
+|move|p1a: Meowth|Slash|p2a: Flareon
+|-crit|p2a: Flareon
+|-damage|p2a: Flareon|0 fnt
+|faint|p2a: Flareon
+|choice||switch 4
+|
+|switch|p2a: Magneton|Magneton, L90|69\/273
+|turn|19
+|choice|move 3|move 1
+|
+|move|p1a: Meowth|Pay Day|p2a: Magneton
+|-damage|p2a: Magneton|35\/273
+|-fieldactivate|move: Pay Day
+|move|p2a: Magneton|Thunderbolt|p1a: Meowth
+|-damage|p1a: Meowth|0 fnt
+|faint|p1a: Meowth
+|choice|switch 3|
+|
+|switch|p1a: Farfetch'd|Farfetch'd, L99|304\/304
+|turn|20
+|choice|switch 2|move 1
+|
+|switch|p1a: Slowpoke|Slowpoke, L96|368\/368
+|move|p2a: Magneton|Thunderbolt|p1a: Slowpoke
+|-supereffective|p1a: Slowpoke
+|-damage|p1a: Slowpoke|0 fnt
+|faint|p1a: Slowpoke
+|choice|switch 2|
+|
+|switch|p1a: Farfetch'd|Farfetch'd, L99|304\/304
+|turn|21
+|choice|move 1|move 1
+|
+|move|p1a: Farfetch'd|Slash|p2a: Magneton
+|-crit|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|faint|p2a: Magneton
+|
+|win|MALESANI
+|c|★Bagsby|gg

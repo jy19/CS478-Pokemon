@@ -1,0 +1,246 @@
+﻿|join|rimus80
+|join|pupute
+|player|p1|rimus80|15
+|player|p2|pupute|126
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Wigglytuff|Wigglytuff, L90|435\/435
+|switch|p2a: Goldeen|Goldeen, L96|281\/281
+|turn|1
+|
+|move|p2a: Goldeen|Toxic|p1a: Wigglytuff
+|-status|p1a: Wigglytuff|tox
+|move|p1a: Wigglytuff|Thunder Wave|p2a: Goldeen
+|-status|p2a: Goldeen|par
+|-damage|p1a: Wigglytuff|408\/435 tox|[from] tox|[of] p2a: Goldeen
+|
+|turn|2
+|
+|switch|p1a: Bellsprout|Bellsprout, L96|291\/291
+|move|p2a: Goldeen|Surf|p1a: Bellsprout
+|-resisted|p1a: Bellsprout
+|-damage|p1a: Bellsprout|248\/291
+|
+|turn|3
+|
+|switch|p2a: Grimer|Grimer, L96|348\/348
+|move|p1a: Bellsprout|Razor Leaf|p2a: Grimer
+|-resisted|p2a: Grimer
+|-damage|p2a: Grimer|308\/348
+|
+|turn|4
+|
+|move|p1a: Bellsprout|Body Slam|p2a: Grimer
+|-damage|p2a: Grimer|233\/348
+|move|p2a: Grimer|Sludge|p1a: Bellsprout
+|-damage|p1a: Bellsprout|143\/291
+|
+|turn|5
+|
+|move|p1a: Bellsprout|Sleep Powder|p2a: Grimer|[miss]
+|-miss|p1a: Bellsprout
+|move|p2a: Grimer|Sludge|p1a: Bellsprout
+|-damage|p1a: Bellsprout|41\/291
+|
+|turn|6
+|
+|move|p1a: Bellsprout|Body Slam|p2a: Grimer
+|-damage|p2a: Grimer|149\/348
+|move|p2a: Grimer|Sludge|p1a: Bellsprout
+|-damage|p1a: Bellsprout|0 fnt
+|faint|p1a: Bellsprout
+|
+|switch|p1a: Onix|Onix, L90|246\/246
+|turn|7
+|
+|move|p1a: Onix|Earthquake|p2a: Grimer
+|-supereffective|p2a: Grimer
+|-damage|p2a: Grimer|0 fnt
+|faint|p2a: Grimer
+|
+|switch|p2a: Goldeen|Goldeen, L96|281\/281 par
+|turn|8
+|
+|switch|p1a: Machop|Machop, L96|329\/329
+|move|p2a: Goldeen|Supersonic|p1a: Machop
+|-start|p1a: Machop|confusion
+|
+|turn|9
+|
+|-activate|p1a: Machop|confusion
+|move|p1a: Machop|Mega Kick|p2a: Goldeen
+|-damage|p2a: Goldeen|174\/281 par
+|cant|p2a: Goldeen|par
+|
+|turn|10
+|
+|-end|p1a: Machop|confusion
+|move|p1a: Machop|Mega Kick|p2a: Goldeen
+|-damage|p2a: Goldeen|75\/281 par
+|move|p2a: Goldeen|Surf|p1a: Machop
+|-damage|p1a: Machop|199\/329
+|
+|turn|11
+|
+|move|p1a: Machop|Double-Edge|p2a: Goldeen
+|-damage|p2a: Goldeen|0 fnt
+|-damage|p1a: Machop|181\/329|[from] recoil|[of] p2a: Goldeen
+|faint|p2a: Goldeen
+|
+|switch|p2a: Zapdos|Zapdos, L79|304\/304
+|turn|12
+|
+|switch|p1a: Onix|Onix, L90|246\/246
+|move|p2a: Zapdos|Drill Peck|p1a: Onix
+|-resisted|p1a: Onix
+|-damage|p1a: Onix|223\/246
+|
+|turn|13
+|
+|switch|p2a: Tangela|Tangela, L85|284\/284
+|move|p1a: Onix|Rock Slide|p2a: Tangela
+|-damage|p2a: Tangela|231\/284
+|
+|turn|14
+|
+|switch|p1a: Wigglytuff|Wigglytuff, L90|408\/435 tox
+|-status|p1a: Wigglytuff|psn
+|-damage|p1a: Wigglytuff|381\/435 psn|[from] psn
+|move|p2a: Tangela|Sleep Powder|p1a: Wigglytuff|[miss]
+|-miss|p2a: Tangela
+|
+|turn|15
+|
+|move|p2a: Tangela|Swords Dance|p2a: Tangela
+|-boost|p2a: Tangela|atk|2
+|move|p1a: Wigglytuff|Thunder Wave|p2a: Tangela
+|-status|p2a: Tangela|par
+|-damage|p1a: Wigglytuff|354\/435 psn|[from] psn|[of] p2a: Tangela
+|
+|turn|16
+|
+|move|p1a: Wigglytuff|Body Slam|p2a: Tangela
+|-damage|p2a: Tangela|157\/284 par
+|-damage|p1a: Wigglytuff|327\/435 psn|[from] psn|[of] p2a: Tangela
+|cant|p2a: Tangela|par
+|
+|turn|17
+|
+|move|p1a: Wigglytuff|Body Slam|p2a: Tangela
+|-damage|p2a: Tangela|89\/284 par
+|-damage|p1a: Wigglytuff|300\/435 psn|[from] psn|[of] p2a: Tangela
+|move|p2a: Tangela|Hyper Beam|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|98\/435 psn
+|
+|turn|18
+|-mustrecharge|p2a: Tangela
+|-mustrecharge|p2a: Tangela
+|
+|move|p1a: Wigglytuff|Body Slam|p2a: Tangela
+|-damage|p2a: Tangela|24\/284 par
+|-damage|p1a: Wigglytuff|71\/435 psn|[from] psn|[of] p2a: Tangela
+|cant|p2a: Tangela|recharge
+|
+|turn|19
+|
+|move|p1a: Wigglytuff|Body Slam|p2a: Tangela
+|-damage|p2a: Tangela|0 fnt
+|faint|p2a: Tangela
+|
+|switch|p2a: Primeape|Primeape, L90|300\/300
+|turn|20
+|
+|switch|p1a: Machop|Machop, L96|181\/329
+|move|p2a: Primeape|Body Slam|p1a: Machop
+|-damage|p1a: Machop|90\/329
+|-status|p1a: Machop|par
+|
+|turn|21
+|
+|move|p2a: Primeape|Hyper Beam|p1a: Machop
+|-damage|p1a: Machop|0 fnt
+|faint|p1a: Machop
+|
+|switch|p1a: Raticate|Raticate, L85|267\/267
+|turn|22
+|
+|move|p2a: Primeape|Submission|p1a: Raticate
+|-supereffective|p1a: Raticate
+|-damage|p1a: Raticate|21\/267
+|-damage|p2a: Primeape|239\/300|[from] recoil|[of] p1a: Raticate
+|move|p1a: Raticate|Super Fang|p2a: Primeape
+|-damage|p2a: Primeape|120\/300
+|
+|turn|23
+|
+|move|p2a: Primeape|Body Slam|p1a: Raticate
+|-damage|p1a: Raticate|0 fnt
+|faint|p1a: Raticate
+|
+|switch|p1a: Flareon|Flareon, L90|300\/300
+|turn|24
+|
+|move|p2a: Primeape|Hyper Beam|p1a: Flareon
+|-damage|p1a: Flareon|142\/300
+|move|p1a: Flareon|Body Slam|p2a: Primeape
+|-damage|p2a: Primeape|17\/300
+|
+|turn|25
+|-mustrecharge|p2a: Primeape
+|-mustrecharge|p2a: Primeape
+|
+|switch|p1a: Onix|Onix, L90|223\/246
+|cant|p2a: Primeape|recharge
+|
+|turn|26
+|
+|move|p2a: Primeape|Submission|p1a: Onix
+|-crit|p1a: Onix
+|-supereffective|p1a: Onix
+|-damage|p1a: Onix|0 fnt
+|-damage|p2a: Primeape|0 fnt|[from] recoil|[of] p1a: Onix
+|faint|p1a: Onix
+|faint|p2a: Primeape
+|
+|switch|p2a: Zapdos|Zapdos, L79|304\/304
+|switch|p1a: Flareon|Flareon, L90|142\/300
+|turn|27
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Flareon|[miss]
+|-miss|p2a: Zapdos
+|move|p1a: Flareon|Body Slam|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|137\/304
+|
+|turn|28
+|
+|switch|p2a: Lickitung|Lickitung, L90|345\/345
+|move|p1a: Flareon|Body Slam|p2a: Lickitung
+|-damage|p2a: Lickitung|252\/345
+|
+|turn|29
+|
+|switch|p1a: Wigglytuff|Wigglytuff, L90|71\/435 psn
+|-damage|p1a: Wigglytuff|44\/435 psn|[from] psn
+|move|p2a: Lickitung|Earthquake|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|0 fnt
+|faint|p1a: Wigglytuff
+|
+|switch|p1a: Flareon|Flareon, L90|142\/300
+|turn|30
+|
+|move|p1a: Flareon|Body Slam|p2a: Lickitung
+|-damage|p2a: Lickitung|160\/345
+|move|p2a: Lickitung|Earthquake|p1a: Flareon
+|-supereffective|p1a: Flareon
+|-damage|p1a: Flareon|0 fnt
+|faint|p1a: Flareon
+|
+|win|pupute

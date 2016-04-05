@@ -1,0 +1,236 @@
+﻿|j|Parnas
+|j|icekingninja
+|player|p1|Parnas|252
+|player|p2|icekingninja|96
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|35498,12197,48396,36931
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Persian|Persian, L79|265\/265
+|switch|p2a: Metapod|Metapod, L99|300\/300
+|turn|1
+|choice|move 1|move 2
+|
+|move|p1a: Persian|Slash|p2a: Metapod
+|-crit|p2a: Metapod
+|-damage|p2a: Metapod|176\/300
+|move|p2a: Metapod|Harden|p2a: Metapod
+|-boost|p2a: Metapod|def|1
+|
+|turn|2
+|choice|move 1|move 3
+|
+|move|p1a: Persian|Slash|p2a: Metapod
+|-crit|p2a: Metapod
+|-damage|p2a: Metapod|64\/300
+|move|p2a: Metapod|String Shot|p1a: Persian
+|-unboost|p1a: Persian|spe|1
+|
+|turn|3
+|choice|switch 4|move 3
+|
+|switch|p1a: Nidorino|Nidorino, L90|293\/293
+|move|p2a: Metapod|String Shot|p1a: Nidorino
+|-unboost|p1a: Nidorino|spe|1
+|
+|turn|4
+|choice|move 4|move 3
+|
+|move|p2a: Metapod|String Shot|p1a: Nidorino
+|-unboost|p1a: Nidorino|spe|1
+|move|p1a: Nidorino|Body Slam|p2a: Metapod
+|-damage|p2a: Metapod|20\/300
+|
+|turn|5
+|choice|move 4|move 3
+|
+|move|p2a: Metapod|String Shot|p1a: Nidorino
+|-unboost|p1a: Nidorino|spe|1
+|move|p1a: Nidorino|Body Slam|p2a: Metapod
+|-damage|p2a: Metapod|0 fnt
+|faint|p2a: Metapod
+|choice||switch 4
+|
+|switch|p2a: Rhydon|Rhydon, L79|328\/328
+|turn|6
+|choice|move 3|move 4
+|
+|move|p2a: Rhydon|Earthquake|p1a: Nidorino
+|-supereffective|p1a: Nidorino
+|-damage|p1a: Nidorino|38\/293
+|move|p1a: Nidorino|Blizzard|p2a: Rhydon
+|-crit|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|choice||switch 5
+|
+|switch|p2a: Jolteon|Jolteon, L79|265\/265
+|turn|7
+|choice|move 2|move 1
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Nidorino
+|-damage|p1a: Nidorino|0 fnt
+|faint|p1a: Nidorino
+|choice|switch 4|
+|
+|switch|p1a: Persian|Persian, L79|265\/265
+|turn|8
+|choice|move 1|move 4
+|
+|move|p2a: Jolteon|Thunder Wave|p1a: Persian
+|-status|p1a: Persian|par
+|move|p1a: Persian|Slash|p2a: Jolteon
+|-crit|p2a: Jolteon
+|-damage|p2a: Jolteon|125\/265
+|
+|turn|9
+|choice|move 1|move 1
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Persian
+|-damage|p1a: Persian|136\/265 par
+|move|p1a: Persian|Slash|p2a: Jolteon
+|-crit|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|choice||switch 6
+|
+|switch|p2a: Snorlax|Snorlax, L79|415\/415
+|turn|10
+|choice|move 1|move 1
+|
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|move|p1a: Persian|Slash|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|284\/415
+|
+|turn|11
+|choice|move 1|move 4
+|
+|move|p2a: Snorlax|Surf|p1a: Persian
+|-damage|p1a: Persian|11\/265 par
+|move|p1a: Persian|Slash|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|142\/415
+|
+|turn|12
+|choice|move 1|move 4
+|
+|move|p2a: Snorlax|Surf|p1a: Persian
+|-damage|p1a: Persian|0 fnt
+|faint|p1a: Persian
+|choice|switch 3|
+|
+|switch|p1a: Mew|Mew, L74|300\/300
+|turn|13
+|choice|move 3|move 3
+|
+|move|p1a: Mew|Hyper Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|39\/415
+|move|p2a: Snorlax|Blizzard|p1a: Mew
+|-damage|p1a: Mew|184\/300
+|
+|turn|14
+|-mustrecharge|p1a: Mew
+|-mustrecharge|p1a: Mew
+|choice|move 1|move 4
+|
+|cant|p1a: Mew|recharge
+|move|p2a: Snorlax|Surf|p1a: Mew
+|-damage|p1a: Mew|81\/300
+|
+|turn|15
+|choice|move 4|move 2
+|
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|231\/300
+|move|p2a: Snorlax|Earthquake|p1a: Mew
+|-damage|p1a: Mew|164\/300
+|
+|turn|16
+|choice|move 4|move 4
+|
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|300\/300
+|move|p2a: Snorlax|Surf|p1a: Mew
+|-damage|p1a: Mew|209\/300
+|
+|turn|17
+|choice|move 3|move 4
+|
+|move|p1a: Mew|Hyper Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|choice||switch 3
+|
+|switch|p2a: Starmie|Starmie, L79|257\/257
+|turn|18
+|choice|move 1|move 2
+|
+|move|p2a: Starmie|Surf|p1a: Mew
+|-crit|p1a: Mew
+|-damage|p1a: Mew|18\/300
+|move|p1a: Mew|Explosion|p2a: Starmie
+|-damage|p2a: Starmie|63\/257
+|faint|p1a: Mew
+|choice|switch 6|
+|
+|switch|p1a: Gengar|Gengar, L79|257\/257
+|turn|19
+|choice|move 1|move 2
+|
+|move|p2a: Starmie|Surf|p1a: Gengar
+|-damage|p1a: Gengar|186\/257
+|move|p1a: Gengar|Hypnosis|p2a: Starmie
+|-status|p2a: Starmie|slp
+|
+|turn|20
+|choice|move 3|switch 2
+|
+|switch|p2a: Cloyster|Cloyster, L83|253\/253
+|move|p1a: Gengar|Mega Drain|p2a: Cloyster
+|-supereffective|p2a: Cloyster
+|-damage|p2a: Cloyster|192\/253
+|-heal|p1a: Gengar|216\/257|[from] drain|[of] p2a: Cloyster
+|
+|turn|21
+|choice|move 2|move 1
+|
+|move|p1a: Gengar|Psychic|p2a: Cloyster
+|-crit|p2a: Cloyster
+|-damage|p2a: Cloyster|65\/253
+|move|p2a: Cloyster|Blizzard|p1a: Gengar
+|-damage|p1a: Gengar|117\/257
+|
+|turn|22
+|choice|move 2|switch 2
+|
+|switch|p2a: Starmie|Starmie, L79|63\/257 slp
+|move|p1a: Gengar|Psychic|p2a: Starmie
+|-crit|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|choice||switch 2
+|
+|switch|p2a: Cloyster|Cloyster, L83|65\/253
+|turn|23
+|choice|move 4|move 2
+|
+|move|p1a: Gengar|Explosion|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p2a: Cloyster
+|faint|p1a: Gengar
+|
+|win|Parnas
+|raw|Parnas's rating: 1473 &rarr; <strong>1480<\/strong><br \/>(+7 for winning)
+|raw|icekingninja's rating: 1198 &rarr; <strong>1189<\/strong><br \/>(-9 for losing)
+|c|★icekingninja|gg

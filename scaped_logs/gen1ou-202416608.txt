@@ -1,0 +1,171 @@
+﻿|join|bumbaloe
+|join|devil0150
+|player|p1|bumbaloe|232
+|player|p2|devil0150|169
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|switch|p2a: Charizard|Charizard|359\/359
+|turn|1
+|
+|switch|p1a: Golem|Golem|363\/363
+|move|p2a: Charizard|Flamethrower|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|290\/363
+|
+|turn|2
+|
+|switch|p2a: Dragonite|Dragonite|385\/385
+|move|p1a: Golem|Rock Slide|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|173\/385
+|
+|turn|3
+|
+|move|p2a: Dragonite|Hyper Beam|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|229\/363
+|move|p1a: Golem|Rock Slide|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|switch|p2a: Venusaur|Venusaur|363\/363
+|turn|4
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Venusaur|Sleep Powder|p1a: Exeggutor
+|-status|p1a: Exeggutor|slp
+|
+|turn|5
+|
+|switch|p2a: Charizard|Charizard|359\/359
+|cant|p1a: Exeggutor|slp
+|
+|turn|6
+|
+|switch|p1a: Golem|Golem|229\/363
+|move|p2a: Charizard|Fire Blast|p1a: Golem
+|-crit|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|53\/363
+|
+|turn|7
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Charizard|Flamethrower|p1a: Chansey
+|-damage|p1a: Chansey|606\/703
+|
+|turn|8
+|
+|move|p2a: Charizard|Fire Blast|p1a: Chansey
+|-damage|p1a: Chansey|490\/703
+|move|p1a: Chansey|Ice Beam|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|186\/359
+|
+|turn|9
+|
+|switch|p2a: Machamp|Machamp|383\/383
+|move|p1a: Chansey|Ice Beam|p2a: Machamp
+|-damage|p2a: Machamp|280\/383
+|
+|turn|10
+|
+|move|p2a: Machamp|Focus Energy|p2a: Machamp
+|-start|p2a: Machamp|move: Focus Energy
+|move|p1a: Chansey|Thunder Wave|p2a: Machamp
+|-status|p2a: Machamp|par
+|
+|turn|11
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703
+|move|p2a: Machamp|Low Kick|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|249\/703
+|
+|turn|12
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|move|p2a: Machamp|Low Kick|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|248\/313
+|
+|turn|13
+|
+|move|p1a: Alakazam|Reflect|p1a: Alakazam
+|move|p2a: Machamp|Hyper Beam|p1a: Alakazam|[miss]
+|-miss|p2a: Machamp
+|
+|turn|14
+|
+|move|p1a: Alakazam|Psychic|p2a: Machamp
+|-supereffective|p2a: Machamp
+|-damage|p2a: Machamp|0 fnt
+|faint|p2a: Machamp
+|
+|switch|p2a: Golem|Golem|363\/363
+|turn|15
+|
+|move|p1a: Alakazam|Psychic|p2a: Golem
+|-damage|p2a: Golem|175\/363
+|move|p2a: Golem|Toxic|p1a: Alakazam
+|-status|p1a: Alakazam|tox
+|
+|turn|16
+|
+|move|p1a: Alakazam|Psychic|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|
+|switch|p2a: Charizard|Charizard|186\/359
+|turn|17
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Charizard
+|-status|p2a: Charizard|par
+|-damage|p1a: Alakazam|229\/313 tox|[from] tox|[of] p2a: Charizard
+|move|p2a: Charizard|Fire Blast|p1a: Alakazam
+|-damage|p1a: Alakazam|123\/313 tox
+|
+|turn|18
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|279\/313 tox
+|-damage|p1a: Alakazam|241\/313 tox|[from] psn
+|cant|p2a: Charizard|par
+|
+|turn|19
+|
+|move|p1a: Alakazam|Psychic|p2a: Charizard
+|-damage|p2a: Charizard|43\/359 par
+|-unboost|p2a: Charizard|spd|1
+|-unboost|p2a: Charizard|spa|1
+|-damage|p1a: Alakazam|184\/313 tox|[from] tox|[of] p2a: Charizard
+|cant|p2a: Charizard|par
+|
+|turn|20
+|
+|move|p1a: Alakazam|Psychic|p2a: Charizard
+|-crit|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|c|★devil0150|gg
+|-message|devil0150 forfeited.
+|
+|win|bumbaloe
+|raw|Ladder updating...
+|leave|devil0150
+|player|p2
+|raw|bumbaloe's rating: 1078 &rarr; <strong>1100<\/strong><br \/>(+22 for winning)
+|raw|devil0150's rating: 1000 &rarr; <strong>1000<\/strong><br \/>(+0 for losing)

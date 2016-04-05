@@ -1,0 +1,520 @@
+﻿|join|PJ
+|join|amaniania
+|player|p1|PJ|169
+|player|p2|amaniania|257
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Satantakethewheel|Gengar|323\/323
+|turn|1
+|callback|decision
+|chat|PJ|looks like a re match
+|
+|switch|p2a: Eggbro|Exeggutor|393\/393
+|move|p1a: Alakazam|Thunder Wave|p2a: Eggbro
+|-status|p2a: Eggbro|par
+|
+|turn|2
+|callback|decision
+|chat|amaniania|lol
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Eggbro|Sleep Powder|p1a: Chansey
+|-status|p1a: Chansey|slp
+|
+|turn|3
+|callback|decision
+|
+|switch|p2a: Spoonbro|Alakazam|313\/313
+|cant|p1a: Chansey|slp
+|
+|turn|4
+|callback|decision
+|
+|move|p2a: Spoonbro|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|567\/703 slp
+|cant|p1a: Chansey|slp
+|-curestatus|p1a: Chansey|slp
+|
+|turn|5
+|callback|decision
+|
+|switch|p2a: Satantakethewheel|Gengar|323\/323
+|move|p1a: Chansey|Thunder Wave|p2a: Satantakethewheel
+|-status|p2a: Satantakethewheel|par
+|
+|turn|6
+|callback|decision
+|
+|move|p1a: Chansey|Ice Beam|p2a: Satantakethewheel
+|-damage|p2a: Satantakethewheel|263\/323 par
+|move|p2a: Satantakethewheel|Hypnosis|p1a: Chansey
+|-status|p1a: Chansey|slp
+|
+|turn|7
+|callback|decision
+|
+|switch|p2a: Builtbro|Snorlax|523\/523
+|cant|p1a: Chansey|slp
+|
+|turn|8
+|callback|decision
+|
+|switch|p1a: Rhydon|Rhydon|413\/413
+|move|p2a: Builtbro|Body Slam|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|369\/413
+|-status|p1a: Rhydon|par
+|
+|turn|9
+|callback|decision
+|
+|move|p2a: Builtbro|Earthquake|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|224\/413 par
+|move|p1a: Rhydon|Earthquake|p2a: Builtbro
+|-damage|p2a: Builtbro|346\/523
+|
+|turn|10
+|callback|decision
+|
+|move|p2a: Builtbro|Earthquake|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|69\/413 par
+|move|p1a: Rhydon|Earthquake|p2a: Builtbro
+|-damage|p2a: Builtbro|167\/523
+|
+|turn|11
+|callback|decision
+|
+|switch|p1a: Zapdos|Zapdos|383\/383
+|move|p2a: Builtbro|Earthquake|p1a: Zapdos
+|-immune|p1a: Zapdos|[msg]
+|
+|turn|12
+|callback|decision
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Builtbro
+|-damage|p2a: Builtbro|2\/523
+|move|p2a: Builtbro|Self-Destruct|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|faint|p2a: Builtbro
+|callback|decision
+|
+|switch|p2a: Spoonbro|Alakazam|313\/313
+|switch|p1a: Rhydon|Rhydon|69\/413 par
+|turn|13
+|callback|decision
+|
+|move|p2a: Spoonbro|Psychic|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|
+|callback|decision
+|
+|switch|p1a: Chansey|Chansey|567\/703 slp
+|turn|14
+|callback|decision
+|
+|switch|p2a: Bullbro|Tauros|353\/353
+|cant|p1a: Chansey|slp
+|
+|turn|15
+|callback|decision
+|
+|switch|p1a: Lapras|Lapras|463\/463
+|move|p2a: Bullbro|Body Slam|p1a: Lapras
+|-damage|p1a: Lapras|351\/463
+|
+|turn|16
+|callback|decision
+|
+|move|p2a: Bullbro|Body Slam|p1a: Lapras
+|-damage|p1a: Lapras|233\/463
+|move|p1a: Lapras|Confuse Ray|p2a: Bullbro
+|-start|p2a: Bullbro|confusion
+|
+|turn|17
+|callback|decision
+|
+|switch|p2a: Sickeggbeats|Chansey|703\/703
+|move|p1a: Lapras|Ice Beam|p2a: Sickeggbeats
+|-damage|p2a: Sickeggbeats|597\/703
+|-status|p2a: Sickeggbeats|frz
+|
+|turn|18
+|callback|decision
+|chat|amaniania|lmao
+|chat|amaniania|first hit freeze :(
+|
+|switch|p2a: Bullbro|Tauros|353\/353
+|move|p1a: Lapras|Confuse Ray|p2a: Bullbro
+|-start|p2a: Bullbro|confusion
+|
+|turn|19
+|callback|decision
+|
+|-activate|p2a: Bullbro|confusion
+|move|p2a: Bullbro|Body Slam|p1a: Lapras
+|-damage|p1a: Lapras|116\/463
+|-status|p1a: Lapras|par
+|cant|p1a: Lapras|par
+|
+|turn|20
+|callback|decision
+|
+|-activate|p2a: Bullbro|confusion
+|move|p2a: Bullbro|Body Slam|p1a: Lapras
+|-crit|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|
+|callback|decision
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|turn|21
+|callback|decision
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Bullbro
+|-status|p2a: Bullbro|par
+|cant|p2a: Bullbro|par
+|
+|turn|22
+|callback|decision
+|
+|switch|p2a: Eggbro|Exeggutor|393\/393 par
+|move|p1a: Alakazam|Reflect|p1a: Alakazam
+|
+|turn|23
+|callback|decision
+|
+|switch|p1a: Chansey|Chansey|567\/703 slp
+|cant|p2a: Eggbro|par
+|
+|turn|24
+|callback|decision
+|
+|cant|p1a: Chansey|slp
+|cant|p2a: Eggbro|par
+|
+|turn|25
+|callback|decision
+|
+|cant|p1a: Chansey|slp
+|-curestatus|p1a: Chansey|slp
+|cant|p2a: Eggbro|par
+|
+|turn|26
+|callback|decision
+|
+|move|p1a: Chansey|Ice Beam|p2a: Eggbro
+|-supereffective|p2a: Eggbro
+|-damage|p2a: Eggbro|264\/393 par
+|move|p2a: Eggbro|Sleep Powder|p1a: Chansey
+|-status|p1a: Chansey|slp
+|
+|turn|27
+|callback|decision
+|
+|cant|p1a: Chansey|slp
+|move|p2a: Eggbro|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|452\/703 slp
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|
+|turn|28
+|callback|decision
+|
+|cant|p1a: Chansey|slp
+|move|p2a: Eggbro|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|273\/703 slp
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|
+|turn|29
+|callback|decision
+|
+|cant|p1a: Chansey|slp
+|move|p2a: Eggbro|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|31\/703 slp
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|
+|turn|30
+|callback|decision
+|
+|cant|p1a: Chansey|slp
+|move|p2a: Eggbro|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|callback|decision
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|turn|31
+|callback|decision
+|
+|move|p1a: Alakazam|Reflect|p1a: Alakazam
+|move|p2a: Eggbro|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|264\/313
+|
+|turn|32
+|callback|decision
+|
+|move|p1a: Alakazam|Psychic|p2a: Eggbro
+|-resisted|p2a: Eggbro
+|-damage|p2a: Eggbro|212\/393 par
+|-unboost|p2a: Eggbro|spd|1
+|-unboost|p2a: Eggbro|spa|1
+|move|p2a: Eggbro|Explosion|p1a: Alakazam
+|-damage|p1a: Alakazam|73\/313
+|faint|p2a: Eggbro
+|callback|decision
+|
+|switch|p2a: Spoonbro|Alakazam|313\/313
+|turn|33
+|callback|decision
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|229\/313
+|move|p2a: Spoonbro|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|
+|turn|34
+|callback|decision
+|
+|move|p2a: Spoonbro|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|179\/313 par
+|move|p1a: Alakazam|Thunder Wave|p2a: Spoonbro
+|-status|p2a: Spoonbro|par
+|
+|turn|35
+|callback|decision
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|313\/313 par
+|move|p2a: Spoonbro|Psychic|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|201\/313 par
+|
+|turn|36
+|callback|decision
+|
+|move|p2a: Spoonbro|Psychic|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|99\/313 par
+|move|p1a: Alakazam|Psychic|p2a: Spoonbro
+|-crit|p2a: Spoonbro
+|-resisted|p2a: Spoonbro
+|-damage|p2a: Spoonbro|209\/313 par
+|-unboost|p2a: Spoonbro|spd|1
+|-unboost|p2a: Spoonbro|spa|1
+|
+|turn|37
+|callback|decision
+|chat|PJ|psychic between alakazams....
+|
+|switch|p2a: Sickeggbeats|Chansey|597\/703 frz
+|cant|p1a: Alakazam|par
+|
+|turn|38
+|callback|decision
+|
+|switch|p2a: Bullbro|Tauros|353\/353 par
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|255\/313 par
+|
+|turn|39
+|callback|decision
+|
+|cant|p1a: Alakazam|par
+|move|p2a: Bullbro|Hyper Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|112\/313 par
+|
+|turn|40
+|callback|decision
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|268\/313 par
+|cant|p2a: Bullbro|recharge
+|
+|turn|41
+|callback|decision
+|
+|move|p1a: Alakazam|Psychic|p2a: Bullbro
+|-damage|p2a: Bullbro|176\/353 par
+|move|p2a: Bullbro|Blizzard|p1a: Alakazam
+|-damage|p1a: Alakazam|207\/313 par
+|
+|turn|42
+|callback|decision
+|
+|move|p1a: Alakazam|Psychic|p2a: Bullbro
+|-crit|p2a: Bullbro
+|-damage|p2a: Bullbro|0 fnt
+|faint|p2a: Bullbro
+|
+|callback|decision
+|
+|switch|p2a: Satantakethewheel|Gengar|263\/323 par
+|turn|43
+|callback|decision
+|
+|cant|p1a: Alakazam|par
+|move|p2a: Satantakethewheel|Explosion|p1a: Alakazam
+|-damage|p1a: Alakazam|52\/313 par
+|faint|p2a: Satantakethewheel
+|callback|decision
+|
+|switch|p2a: Spoonbro|Alakazam|209\/313 par
+|turn|44
+|callback|decision
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|208\/313 par
+|move|p2a: Spoonbro|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|154\/313 par
+|
+|turn|45
+|callback|decision
+|chat|amaniania|your last guy is snorlax right
+|
+|move|p2a: Spoonbro|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|103\/313 par
+|-unboost|p1a: Alakazam|spd|1
+|-unboost|p1a: Alakazam|spa|1
+|cant|p1a: Alakazam|par
+|
+|turn|46
+|callback|decision
+|chat|PJ|yep.
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|259\/313 par
+|cant|p2a: Spoonbro|par
+|
+|turn|47
+|callback|decision
+|
+|move|p2a: Spoonbro|Recover|p2a: Spoonbro
+|-heal|p2a: Spoonbro|313\/313 par
+|move|p1a: Alakazam|Psychic|p2a: Spoonbro
+|-resisted|p2a: Spoonbro
+|-damage|p2a: Spoonbro|279\/313 par
+|-unboost|p2a: Spoonbro|spd|1
+|-unboost|p2a: Spoonbro|spa|1
+|
+|turn|48
+|callback|decision
+|
+|move|p2a: Spoonbro|Reflect|p2a: Spoonbro
+|cant|p1a: Alakazam|par
+|
+|turn|49
+|callback|decision
+|
+|move|p2a: Spoonbro|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|202\/313 par
+|-unboost|p1a: Alakazam|spd|1
+|-unboost|p1a: Alakazam|spa|1
+|cant|p1a: Alakazam|par
+|
+|turn|50
+|callback|decision
+|
+|move|p2a: Spoonbro|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|127\/313 par
+|move|p1a: Alakazam|Psychic|p2a: Spoonbro
+|-resisted|p2a: Spoonbro
+|-damage|p2a: Spoonbro|239\/313 par
+|-unboost|p2a: Spoonbro|spd|1
+|-unboost|p2a: Spoonbro|spa|1
+|
+|turn|51
+|callback|decision
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|283\/313 par
+|move|p2a: Spoonbro|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|229\/313 par
+|
+|turn|52
+|callback|decision
+|
+|move|p2a: Spoonbro|Psychic|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|132\/313 par
+|-unboost|p1a: Alakazam|spd|1
+|-unboost|p1a: Alakazam|spa|1
+|move|p1a: Alakazam|Psychic|p2a: Spoonbro
+|-crit|p2a: Spoonbro
+|-resisted|p2a: Spoonbro
+|-damage|p2a: Spoonbro|142\/313 par
+|-unboost|p2a: Spoonbro|spd|1
+|-unboost|p2a: Spoonbro|spa|1
+|
+|turn|53
+|callback|decision
+|
+|move|p1a: Alakazam|Psychic|p2a: Spoonbro
+|-resisted|p2a: Spoonbro
+|-damage|p2a: Spoonbro|88\/313 par
+|-unboost|p2a: Spoonbro|spd|1
+|-unboost|p2a: Spoonbro|spa|1
+|move|p2a: Spoonbro|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|91\/313 par
+|
+|turn|54
+|callback|decision
+|
+|move|p2a: Spoonbro|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|43\/313 par
+|cant|p1a: Alakazam|par
+|
+|turn|55
+|callback|decision
+|
+|move|p2a: Spoonbro|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|3\/313 par
+|move|p1a: Alakazam|Psychic|p2a: Spoonbro
+|-crit|p2a: Spoonbro
+|-resisted|p2a: Spoonbro
+|-damage|p2a: Spoonbro|0 fnt
+|faint|p2a: Spoonbro
+|
+|callback|decision
+|chat|amaniania|gg
+|-message|amaniania forfeited.
+|
+|win|PJ
+|raw|Ladder updating...
+|chat|PJ|gg
+|leave|amaniania
+|player|p2
+|raw|PJ's rating: 1079 &rarr; <strong>1106<\/strong><br \/>(+27 for winning)
+|raw|amaniania's rating: 1109 &rarr; <strong>1082<\/strong><br \/>(-27 for losing)

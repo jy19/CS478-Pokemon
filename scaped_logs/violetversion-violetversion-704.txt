@@ -1,0 +1,186 @@
+﻿|J|KristophV
+|J|Anna says hi
+|player|p1|KristophV|kristophv.png
+|player|p2|Anna says hi|183
+|gametype|singles
+|gen|1
+|tier|Violet Version
+|clearpoke
+|poke|p1|Chansey
+|poke|p1|Nidoqueen
+|poke|p1|Hypno
+|poke|p1|Moltres
+|poke|p1|Cloyster
+|poke|p1|Electabuzz
+|poke|p2|Beedrill
+|poke|p2|Vileplume
+|poke|p2|Gengar
+|poke|p2|Chansey
+|poke|p2|Zapdos
+|poke|p2|Golduck
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|
+|start
+|switch|p1a: Chansey|Chansey|703\/703
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|1
+|
+|move|p2a: Gengar|Hypnosis|p1a: Chansey
+|-status|p1a: Chansey|slp
+|-curestatus|p1a: Chansey|slp
+|
+|turn|2
+|
+|move|p2a: Gengar|Hypnosis|p1a: Chansey
+|-status|p1a: Chansey|slp
+|cant|p1a: Chansey|slp
+|
+|turn|3
+|
+|switch|p2a: Vileplume|Vileplume|363\/363
+|switch|p1a: Hypno|Hypno|373\/373
+|
+|turn|4
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Hypno|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|594\/703
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|
+|turn|5
+|
+|switch|p1a: Nidoqueen|Nidoqueen|383\/383
+|move|p2a: Chansey|Thunder Wave|p1a: Nidoqueen
+|-immune|p1a: Nidoqueen|[msg]
+|
+|turn|6
+|
+|switch|p2a: Golduck|Golduck|363\/363
+|move|p1a: Nidoqueen|Earthquake|p2a: Golduck
+|-crit|p2a: Golduck
+|-damage|p2a: Golduck|91\/363
+|
+|turn|7
+|
+|move|p1a: Nidoqueen|Earthquake|p2a: Golduck
+|-damage|p2a: Golduck|0 fnt
+|faint|p2a: Golduck
+|
+|switch|p2a: Chansey|Chansey|594\/703
+|turn|8
+|c|★Anna says hi|when did that thing get a speed boost?
+|c|★KristophV|it has nidoking speed in this
+|c|★KristophV|which iirc is like 2 base higher than golduck or something
+|c|★Anna says hi|eg a speed tie with golduck
+|c|★KristophV|oh is it a tie
+|
+|switch|p1a: Hypno|Hypno|373\/373
+|move|p2a: Chansey|Ice Beam|p1a: Hypno
+|-damage|p1a: Hypno|309\/373
+|
+|turn|9
+|
+|switch|p1a: Chansey|Chansey|703\/703 slp
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey
+|
+|turn|10
+|
+|switch|p1a: Hypno|Hypno|309\/373
+|move|p2a: Chansey|Thunder Wave|p1a: Hypno
+|-status|p1a: Hypno|par
+|
+|turn|11
+|
+|move|p2a: Chansey|Ice Beam|p1a: Hypno
+|-damage|p1a: Hypno|242\/373 par
+|cant|p1a: Hypno|par
+|
+|turn|12
+|
+|move|p2a: Chansey|Ice Beam|p1a: Hypno
+|-damage|p1a: Hypno|169\/373 par
+|move|p1a: Hypno|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|399\/703
+|
+|turn|13
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703
+|move|p1a: Hypno|Submission|p2a: Chansey
+|-crit|p2a: Chansey
+|-supereffective|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|-damage|p1a: Hypno|0 fnt|[from] recoil|[of] p2a: Chansey
+|faint|p2a: Chansey
+|faint|p1a: Hypno
+|c|★KristophV|wow
+|
+|switch|p1a: Electabuzz|Electabuzz|333\/333
+|switch|p2a: Vileplume|Vileplume|363\/363
+|turn|14
+|c|★Anna says hi|ripno
+|
+|move|p1a: Electabuzz|Thunder Wave|p2a: Vileplume
+|-status|p2a: Vileplume|par
+|cant|p2a: Vileplume|par
+|
+|turn|15
+|
+|move|p1a: Electabuzz|Psychic|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|240\/363 par
+|-unboost|p2a: Vileplume|spd|1
+|-unboost|p2a: Vileplume|spa|1
+|move|p2a: Vileplume|Swords Dance|p2a: Vileplume
+|-boost|p2a: Vileplume|atk|2
+|
+|turn|16
+|
+|move|p1a: Electabuzz|Psychic|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|57\/363 par
+|move|p2a: Vileplume|Acid|p1a: Electabuzz
+|-crit|p1a: Electabuzz
+|-damage|p1a: Electabuzz|111\/333
+|
+|turn|17
+|
+|move|p1a: Electabuzz|Psychic|p2a: Vileplume
+|-crit|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|
+|switch|p2a: Beedrill|Beedrill|333\/333
+|turn|18
+|
+|switch|p1a: Nidoqueen|Nidoqueen|383\/383
+|move|p2a: Beedrill|Poison Sting|p1a: Nidoqueen
+|-resisted|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|358\/383
+|
+|turn|19
+|
+|switch|p2a: Zapdos|Zapdos|383\/383
+|move|p1a: Nidoqueen|Blizzard|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|245\/383
+|-status|p2a: Zapdos|frz
+|
+|turn|20
+|c|★Anna says hi|gg
+|c|★Anna says hi|have nothing for this
+|-message|Anna says hi forfeited.
+|
+|win|KristophV
+|L|Anna says hi
+|player|p2
+|c|★KristophV|gg

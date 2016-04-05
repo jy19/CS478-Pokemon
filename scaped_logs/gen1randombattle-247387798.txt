@@ -1,0 +1,270 @@
+﻿|join|Ccrescent
+|join|Ryan1000
+|player|p1|Ccrescent|158
+|player|p2|Ryan1000|162
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Rattata|Rattata, L96|252\/252
+|switch|p2a: Sandshrew|Sandshrew, L96|291\/291
+|turn|1
+|
+|move|p1a: Rattata|Bubble Beam|p2a: Sandshrew
+|-supereffective|p2a: Sandshrew
+|-damage|p2a: Sandshrew|201\/291
+|-unboost|p2a: Sandshrew|spe|1
+|move|p2a: Sandshrew|Earthquake|p1a: Rattata
+|-damage|p1a: Rattata|82\/252
+|
+|turn|2
+|
+|move|p1a: Rattata|Bubble Beam|p2a: Sandshrew
+|-crit|p2a: Sandshrew
+|-supereffective|p2a: Sandshrew
+|-damage|p2a: Sandshrew|11\/291
+|move|p2a: Sandshrew|Earthquake|p1a: Rattata
+|-damage|p1a: Rattata|0 fnt
+|faint|p1a: Rattata
+|
+|switch|p1a: Muk|Muk, L90|372\/372
+|turn|3
+|
+|move|p1a: Muk|Body Slam|p2a: Sandshrew
+|-damage|p2a: Sandshrew|0 fnt
+|faint|p2a: Sandshrew
+|
+|switch|p2a: Slowbro|Slowbro, L79|312\/312
+|turn|4
+|
+|switch|p1a: Pidgeot|Pidgeot, L90|333\/333
+|move|p2a: Slowbro|Thunder Wave|p1a: Pidgeot
+|-status|p1a: Pidgeot|par
+|
+|turn|5
+|
+|move|p2a: Slowbro|Surf|p1a: Pidgeot
+|-damage|p1a: Pidgeot|251\/333 par
+|move|p1a: Pidgeot|Double-Edge|p2a: Slowbro
+|-damage|p2a: Slowbro|209\/312
+|-damage|p1a: Pidgeot|226\/333 par|[from] recoil|[of] p2a: Slowbro
+|
+|turn|6
+|
+|move|p2a: Slowbro|Surf|p1a: Pidgeot
+|-damage|p1a: Pidgeot|139\/333 par
+|move|p1a: Pidgeot|Double-Edge|p2a: Slowbro
+|-damage|p2a: Slowbro|113\/312
+|-damage|p1a: Pidgeot|115\/333 par|[from] recoil|[of] p2a: Slowbro
+|
+|turn|7
+|
+|move|p2a: Slowbro|Surf|p1a: Pidgeot
+|-damage|p1a: Pidgeot|37\/333 par
+|move|p1a: Pidgeot|Hyper Beam|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|
+|switch|p2a: Pinsir|Pinsir, L85|284\/284
+|turn|8
+|
+|move|p2a: Pinsir|Body Slam|p1a: Pidgeot
+|-damage|p1a: Pidgeot|0 fnt
+|faint|p1a: Pidgeot
+|
+|switch|p1a: Slowpoke|Slowpoke, L96|368\/368
+|turn|9
+|
+|move|p2a: Pinsir|Body Slam|p1a: Slowpoke
+|-damage|p1a: Slowpoke|284\/368
+|move|p1a: Slowpoke|Thunder Wave|p2a: Pinsir
+|-status|p2a: Pinsir|par
+|
+|turn|10
+|
+|move|p1a: Slowpoke|Amnesia|p1a: Slowpoke
+|-boost|p1a: Slowpoke|spd|2
+|-boost|p1a: Slowpoke|spa|2
+|move|p2a: Pinsir|Swords Dance|p2a: Pinsir
+|-boost|p2a: Pinsir|atk|2
+|
+|turn|11
+|
+|move|p1a: Slowpoke|Amnesia|p1a: Slowpoke
+|-boost|p1a: Slowpoke|spd|2
+|-boost|p1a: Slowpoke|spa|2
+|move|p2a: Pinsir|Body Slam|p1a: Slowpoke
+|-crit|p1a: Slowpoke
+|-damage|p1a: Slowpoke|140\/368
+|
+|turn|12
+|
+|move|p1a: Slowpoke|Amnesia|p1a: Slowpoke
+|-boost|p1a: Slowpoke|spd|2
+|-boost|p1a: Slowpoke|spa|2
+|cant|p2a: Pinsir|par
+|
+|turn|13
+|
+|move|p1a: Slowpoke|Rest|p1a: Slowpoke
+|-status|p1a: Slowpoke|slp
+|-heal|p1a: Slowpoke|368\/368 slp|[silent]
+|-status|p1a: Slowpoke|slp|[from] move: Rest
+|move|p2a: Pinsir|Body Slam|p1a: Slowpoke
+|-damage|p1a: Slowpoke|209\/368 slp
+|
+|turn|14
+|
+|cant|p1a: Slowpoke|slp
+|move|p2a: Pinsir|Body Slam|p1a: Slowpoke
+|-damage|p1a: Slowpoke|50\/368 slp
+|
+|turn|15
+|
+|-curestatus|p1a: Slowpoke|slp
+|move|p2a: Pinsir|Body Slam|p1a: Slowpoke
+|-damage|p1a: Slowpoke|0 fnt
+|faint|p1a: Slowpoke
+|
+|switch|p1a: Nidoking|Nidoking, L85|311\/311
+|turn|16
+|
+|move|p1a: Nidoking|Thunderbolt|p2a: Pinsir
+|-damage|p2a: Pinsir|210\/284 par
+|move|p2a: Pinsir|Body Slam|p1a: Nidoking
+|-damage|p1a: Nidoking|154\/311
+|
+|turn|17
+|
+|move|p1a: Nidoking|Blizzard|p2a: Pinsir
+|-damage|p2a: Pinsir|117\/284 par
+|cant|p2a: Pinsir|par
+|
+|turn|18
+|
+|move|p1a: Nidoking|Thunderbolt|p2a: Pinsir
+|-damage|p2a: Pinsir|40\/284 par
+|cant|p2a: Pinsir|par
+|
+|turn|19
+|
+|move|p1a: Nidoking|Thunderbolt|p2a: Pinsir
+|-damage|p2a: Pinsir|0 fnt
+|faint|p2a: Pinsir
+|
+|switch|p2a: Dragonair|Dragonair, L85|277\/277
+|turn|20
+|
+|move|p1a: Nidoking|Blizzard|p2a: Dragonair
+|-supereffective|p2a: Dragonair
+|-damage|p2a: Dragonair|115\/277
+|move|p2a: Dragonair|Ice Beam|p1a: Nidoking
+|-supereffective|p1a: Nidoking
+|-damage|p1a: Nidoking|34\/311
+|
+|turn|21
+|
+|move|p1a: Nidoking|Blizzard|p2a: Dragonair
+|-supereffective|p2a: Dragonair
+|-damage|p2a: Dragonair|0 fnt
+|faint|p2a: Dragonair
+|
+|switch|p2a: Aerodactyl|Aerodactyl, L90|327\/327
+|turn|22
+|
+|move|p2a: Aerodactyl|Hyper Beam|p1a: Nidoking
+|-damage|p1a: Nidoking|0 fnt
+|faint|p1a: Nidoking
+|
+|switch|p1a: Muk|Muk, L90|372\/372
+|turn|23
+|
+|move|p2a: Aerodactyl|Double-Edge|p1a: Muk
+|-damage|p1a: Muk|288\/372
+|-damage|p2a: Aerodactyl|306\/327|[from] recoil|[of] p1a: Muk
+|move|p1a: Muk|Screech|p2a: Aerodactyl
+|-unboost|p2a: Aerodactyl|def|2
+|
+|turn|24
+|
+|move|p2a: Aerodactyl|Double-Edge|p1a: Muk
+|-damage|p1a: Muk|200\/372
+|-damage|p2a: Aerodactyl|284\/327|[from] recoil|[of] p1a: Muk
+|move|p1a: Muk|Body Slam|p2a: Aerodactyl
+|-resisted|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|200\/327
+|-status|p2a: Aerodactyl|par
+|
+|turn|25
+|
+|move|p1a: Muk|Body Slam|p2a: Aerodactyl
+|-resisted|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|116\/327 par
+|move|p2a: Aerodactyl|Double-Edge|p1a: Muk
+|-damage|p1a: Muk|107\/372
+|-damage|p2a: Aerodactyl|93\/327 par|[from] recoil|[of] p1a: Muk
+|
+|turn|26
+|
+|move|p1a: Muk|Body Slam|p2a: Aerodactyl
+|-resisted|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|7\/327 par
+|move|p2a: Aerodactyl|Hyper Beam|p1a: Muk
+|-crit|p1a: Muk
+|-damage|p1a: Muk|0 fnt
+|faint|p1a: Muk
+|
+|switch|p1a: Charmeleon|Charmeleon, L85|272\/272
+|turn|27
+|
+|move|p1a: Charmeleon|Seismic Toss|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|faint|p2a: Aerodactyl
+|
+|switch|p2a: Ninetales|Ninetales, L85|298\/298
+|turn|28
+|
+|move|p2a: Ninetales|Body Slam|p1a: Charmeleon
+|-damage|p1a: Charmeleon|202\/272
+|move|p1a: Charmeleon|Substitute|p1a: Charmeleon
+|-start|p1a: Charmeleon|Substitute
+|-damage|p1a: Charmeleon|134\/272
+|
+|turn|29
+|
+|move|p2a: Ninetales|Body Slam|p1a: Charmeleon
+|-end|p1a: Charmeleon|Substitute
+|move|p1a: Charmeleon|Body Slam|p2a: Ninetales
+|-damage|p2a: Ninetales|243\/298
+|
+|turn|30
+|
+|move|p2a: Ninetales|Body Slam|p1a: Charmeleon
+|-damage|p1a: Charmeleon|66\/272
+|-status|p1a: Charmeleon|par
+|move|p1a: Charmeleon|Body Slam|p2a: Ninetales
+|-damage|p2a: Ninetales|194\/298
+|-status|p2a: Ninetales|par
+|
+|turn|31
+|
+|cant|p2a: Ninetales|par
+|cant|p1a: Charmeleon|par
+|
+|turn|32
+|
+|move|p2a: Ninetales|Hyper Beam|p1a: Charmeleon
+|-damage|p1a: Charmeleon|0 fnt
+|faint|p1a: Charmeleon
+|
+|win|Ryan1000
+|raw|Ladder updating...
+|raw|Ccrescent's rating: 1259 &rarr; <strong>1230<\/strong><br \/>(-29 for losing)
+|raw|Ryan1000's rating: 1200 &rarr; <strong>1229<\/strong><br \/>(+29 for winning)
+|leave|Ccrescent
+|player|p1

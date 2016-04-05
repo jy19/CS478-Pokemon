@@ -1,0 +1,230 @@
+﻿|join|kcroxsox
+|join|Laxustribute
+|player|p1|kcroxsox|167
+|player|p2|Laxustribute|170
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Goldeen|Goldeen, L96|281\/281
+|switch|p2a: Weezing|Weezing, L90|300\/300
+|turn|1
+|
+|move|p1a: Goldeen|Agility|p1a: Goldeen
+|-boost|p1a: Goldeen|spe|2
+|move|p2a: Weezing|Thunder|p1a: Goldeen|[miss]
+|-miss|p2a: Weezing
+|
+|turn|2
+|
+|move|p1a: Goldeen|Supersonic|p2a: Weezing|[miss]
+|-miss|p1a: Goldeen
+|move|p2a: Weezing|Thunderbolt|p1a: Goldeen
+|-supereffective|p1a: Goldeen
+|-damage|p1a: Goldeen|111\/281
+|
+|turn|3
+|
+|move|p1a: Goldeen|Supersonic|p2a: Weezing|[miss]
+|-miss|p1a: Goldeen
+|move|p2a: Weezing|Thunderbolt|p1a: Goldeen
+|-crit|p1a: Goldeen
+|-supereffective|p1a: Goldeen
+|-damage|p1a: Goldeen|0 fnt
+|faint|p1a: Goldeen
+|
+|switch|p1a: Lickitung|Lickitung, L90|345\/345
+|turn|4
+|
+|move|p2a: Weezing|Fire Blast|p1a: Lickitung
+|-damage|p1a: Lickitung|247\/345
+|-status|p1a: Lickitung|brn
+|move|p1a: Lickitung|Swords Dance|p1a: Lickitung
+|-boost|p1a: Lickitung|atk|2
+|-damage|p1a: Lickitung|226\/345 brn|[from] brn
+|
+|turn|5
+|
+|switch|p2a: Tangela|Tangela, L85|284\/284
+|move|p1a: Lickitung|Earthquake|p2a: Tangela
+|-resisted|p2a: Tangela
+|-damage|p2a: Tangela|234\/284
+|-damage|p1a: Lickitung|205\/345 brn|[from] brn|[of] p2a: Tangela
+|
+|turn|6
+|
+|move|p2a: Tangela|Growth|p2a: Tangela
+|-boost|p2a: Tangela|spa|1
+|-boost|p2a: Tangela|spd|1
+|move|p1a: Lickitung|Body Slam|p2a: Tangela
+|-damage|p2a: Tangela|171\/284
+|-damage|p1a: Lickitung|184\/345 brn|[from] brn|[of] p2a: Tangela
+|
+|turn|7
+|
+|move|p2a: Tangela|Mega Drain|p1a: Lickitung
+|-damage|p1a: Lickitung|111\/345 brn
+|-heal|p2a: Tangela|207\/284|[from] drain|[of] p1a: Lickitung
+|move|p1a: Lickitung|Body Slam|p2a: Tangela
+|-damage|p2a: Tangela|145\/284
+|-damage|p1a: Lickitung|90\/345 brn|[from] brn|[of] p2a: Tangela
+|
+|turn|8
+|
+|move|p2a: Tangela|Mega Drain|p1a: Lickitung
+|-damage|p1a: Lickitung|5\/345 brn
+|-heal|p2a: Tangela|187\/284|[from] drain|[of] p1a: Lickitung
+|move|p1a: Lickitung|Hyper Beam|p2a: Tangela
+|-damage|p2a: Tangela|72\/284
+|-damage|p1a: Lickitung|0 fnt|[from] brn|[of] p2a: Tangela
+|faint|p1a: Lickitung
+|
+|switch|p1a: Arcanine|Arcanine, L85|327\/327
+|turn|9
+|
+|switch|p2a: Wartortle|Wartortle, L85|274\/274
+|move|p1a: Arcanine|Reflect|p1a: Arcanine
+|-start|p1a: Arcanine|Reflect
+|
+|turn|10
+|
+|move|p1a: Arcanine|Hyper Beam|p2a: Wartortle
+|-damage|p2a: Wartortle|155\/274
+|move|p2a: Wartortle|Surf|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|144\/327
+|
+|turn|11
+|-mustrecharge|p1a: Arcanine
+|-mustrecharge|p1a: Arcanine
+|
+|cant|p1a: Arcanine|recharge
+|move|p2a: Wartortle|Surf|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|switch|p1a: Hitmonlee|Hitmonlee, L90|273\/273
+|turn|12
+|
+|switch|p2a: Weezing|Weezing, L90|300\/300
+|move|p1a: Hitmonlee|High Jump Kick|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|253\/300
+|
+|turn|13
+|
+|move|p1a: Hitmonlee|Substitute|p1a: Hitmonlee
+|-start|p1a: Hitmonlee|Substitute
+|-damage|p1a: Hitmonlee|205\/273
+|move|p2a: Weezing|Fire Blast|p1a: Hitmonlee
+|-end|p1a: Hitmonlee|Substitute
+|
+|turn|14
+|
+|move|p1a: Hitmonlee|Seismic Toss|p2a: Weezing
+|-damage|p2a: Weezing|163\/300
+|move|p2a: Weezing|Fire Blast|p1a: Hitmonlee
+|-crit|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|0 fnt
+|faint|p1a: Hitmonlee
+|
+|switch|p1a: Nidoran-F|Nidoran-F, L96|300\/300
+|turn|15
+|
+|switch|p2a: Farfetch'd|Farfetch'd, L99|304\/304
+|move|p1a: Nidoran-F|Double-Edge|p2a: Farfetch'd
+|-damage|p2a: Farfetch'd|237\/304
+|-damage|p1a: Nidoran-F|284\/300|[from] recoil|[of] p2a: Farfetch'd
+|
+|turn|16
+|
+|move|p2a: Farfetch'd|Swords Dance|p2a: Farfetch'd
+|-boost|p2a: Farfetch'd|atk|2
+|move|p1a: Nidoran-F|Substitute|p1a: Nidoran-F
+|-start|p1a: Nidoran-F|Substitute
+|-damage|p1a: Nidoran-F|209\/300
+|
+|turn|17
+|
+|move|p2a: Farfetch'd|Slash|p1a: Nidoran-F
+|-crit|p1a: Nidoran-F
+|-end|p1a: Nidoran-F|Substitute
+|move|p1a: Nidoran-F|Leer|p2a: Farfetch'd
+|-unboost|p2a: Farfetch'd|def|1
+|
+|turn|18
+|
+|move|p2a: Farfetch'd|Slash|p1a: Nidoran-F
+|-crit|p1a: Nidoran-F
+|-damage|p1a: Nidoran-F|24\/300
+|move|p1a: Nidoran-F|Double-Edge|p2a: Farfetch'd
+|-damage|p2a: Farfetch'd|140\/304
+|-damage|p1a: Nidoran-F|0 fnt|[from] recoil|[of] p2a: Farfetch'd
+|faint|p1a: Nidoran-F
+|
+|switch|p1a: Seaking|Seaking, L90|327\/327
+|turn|19
+|
+|switch|p2a: Wartortle|Wartortle, L85|155\/274
+|move|p1a: Seaking|Blizzard|p2a: Wartortle
+|-resisted|p2a: Wartortle
+|-damage|p2a: Wartortle|101\/274
+|
+|turn|20
+|
+|move|p1a: Seaking|Double-Edge|p2a: Wartortle
+|-damage|p2a: Wartortle|15\/274
+|-damage|p1a: Seaking|306\/327|[from] recoil|[of] p2a: Wartortle
+|move|p2a: Wartortle|Rest|p2a: Wartortle
+|-status|p2a: Wartortle|slp
+|-heal|p2a: Wartortle|274\/274 slp|[silent]
+|-status|p2a: Wartortle|slp|[from] move: Rest
+|
+|turn|21
+|
+|move|p1a: Seaking|Double-Edge|p2a: Wartortle
+|-crit|p2a: Wartortle
+|-damage|p2a: Wartortle|113\/274 slp
+|-damage|p1a: Seaking|266\/327|[from] recoil|[of] p2a: Wartortle
+|cant|p2a: Wartortle|slp
+|
+|turn|22
+|
+|switch|p2a: Weezing|Weezing, L90|163\/300
+|move|p1a: Seaking|Hyper Beam|p2a: Weezing
+|-damage|p2a: Weezing|73\/300
+|
+|turn|23
+|-mustrecharge|p1a: Seaking
+|c|★kcroxsox|Good swap
+|-mustrecharge|p1a: Seaking
+|
+|cant|p1a: Seaking|recharge
+|move|p2a: Weezing|Thunderbolt|p1a: Seaking
+|-supereffective|p1a: Seaking
+|-damage|p1a: Seaking|128\/327
+|
+|turn|24
+|c|★Laxustribute|Yep
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|293\/293
+|move|p1a: Seaking|Surf|p2a: Mewtwo
+|-damage|p2a: Mewtwo|212\/293
+|
+|turn|25
+|c|★kcroxsox|I'm screwed
+|
+|move|p2a: Mewtwo|Thunderbolt|p1a: Seaking
+|-supereffective|p1a: Seaking
+|-damage|p1a: Seaking|0 fnt
+|faint|p1a: Seaking
+|
+|win|Laxustribute
+|c|★kcroxsox|Gg
+|c|★Laxustribute|Good game :D

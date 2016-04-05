@@ -1,0 +1,213 @@
+﻿|join|caputo11234
+|join|gen1masterrony
+|player|p1|caputo11234|1
+|player|p2|gen1masterrony|266
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Weedle|Weedle, L99|280\/280
+|switch|p2a: Blastoise|Blastoise, L85|308\/308
+|turn|1
+|join|PickleSleuth
+|
+|switch|p1a: Electrode|Electrode, L90|291\/291
+|move|p2a: Blastoise|Blizzard|p1a: Electrode
+|-damage|p1a: Electrode|212\/291
+|
+|turn|2
+|
+|switch|p2a: Voltorb|Voltorb, L96|272\/272
+|move|p1a: Electrode|Thunder Wave|p2a: Voltorb
+|-status|p2a: Voltorb|par
+|
+|turn|3
+|
+|switch|p1a: Tauros|Tauros, L79|280\/280
+|move|p2a: Voltorb|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|
+|turn|4
+|
+|switch|p2a: Articuno|Articuno, L79|304\/304
+|move|p1a: Tauros|Earthquake|p2a: Articuno
+|-immune|p2a: Articuno|[msg]
+|
+|turn|5
+|
+|switch|p1a: Electrode|Electrode, L90|212\/291
+|move|p2a: Articuno|Blizzard|p1a: Electrode
+|-crit|p1a: Electrode
+|-damage|p1a: Electrode|0 fnt
+|faint|p1a: Electrode
+|
+|switch|p1a: Chansey|Chansey, L79|557\/557
+|turn|6
+|c|★gen1masterrony|is this the final ?
+|
+|switch|p2a: Voltorb|Voltorb, L96|272\/272 par
+|move|p1a: Chansey|Counter|p2a: Voltorb
+|-fail|p1a: Chansey
+|
+|turn|7
+|
+|move|p1a: Chansey|Ice Beam|p2a: Voltorb
+|-damage|p2a: Voltorb|206\/272 par
+|move|p2a: Voltorb|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|turn|8
+|
+|move|p2a: Voltorb|Explosion|p1a: Chansey
+|-damage|p1a: Chansey|122\/557 par
+|faint|p2a: Voltorb
+|c|★caputo11234|yes
+|
+|switch|p2a: Dragonair|Dragonair, L85|277\/277
+|turn|9
+|
+|move|p2a: Dragonair|Hyper Beam|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|switch|p1a: Mewtwo|Mewtwo, L70|293\/293
+|turn|10
+|
+|move|p1a: Mewtwo|Blizzard|p2a: Dragonair
+|-supereffective|p2a: Dragonair
+|-damage|p2a: Dragonair|97\/277
+|move|p2a: Dragonair|Thunder Wave|p1a: Mewtwo
+|-status|p1a: Mewtwo|par
+|
+|turn|11
+|
+|move|p2a: Dragonair|Hyper Beam|p1a: Mewtwo
+|-damage|p1a: Mewtwo|181\/293 par
+|cant|p1a: Mewtwo|par
+|
+|turn|12
+|-mustrecharge|p2a: Dragonair
+|-mustrecharge|p2a: Dragonair
+|
+|cant|p2a: Dragonair|recharge
+|move|p1a: Mewtwo|Blizzard|p2a: Dragonair
+|-supereffective|p2a: Dragonair
+|-damage|p2a: Dragonair|0 fnt
+|faint|p2a: Dragonair
+|
+|switch|p2a: Persian|Persian, L79|265\/265
+|turn|13
+|
+|move|p2a: Persian|Slash|p1a: Mewtwo
+|-crit|p1a: Mewtwo
+|-damage|p1a: Mewtwo|48\/293 par
+|cant|p1a: Mewtwo|par
+|
+|turn|14
+|
+|move|p2a: Persian|Slash|p1a: Mewtwo
+|-crit|p1a: Mewtwo
+|-damage|p1a: Mewtwo|0 fnt
+|faint|p1a: Mewtwo
+|
+|switch|p1a: Tauros|Tauros, L79|280\/280 par
+|turn|15
+|
+|move|p2a: Persian|Slash|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|181\/280 par
+|move|p1a: Tauros|Earthquake|p2a: Persian
+|-damage|p2a: Persian|184\/265
+|
+|turn|16
+|
+|move|p2a: Persian|Thunderbolt|p1a: Tauros
+|-damage|p1a: Tauros|120\/280 par
+|move|p1a: Tauros|Blizzard|p2a: Persian
+|-damage|p2a: Persian|109\/265
+|-status|p2a: Persian|frz
+|
+|turn|17
+|
+|cant|p2a: Persian|frz
+|move|p1a: Tauros|Earthquake|p2a: Persian
+|-damage|p2a: Persian|25\/265 frz
+|
+|turn|18
+|
+|cant|p2a: Persian|frz
+|cant|p1a: Tauros|par
+|
+|turn|19
+|
+|cant|p2a: Persian|frz
+|move|p1a: Tauros|Earthquake|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|faint|p2a: Persian
+|
+|switch|p2a: Articuno|Articuno, L79|304\/304
+|turn|20
+|
+|move|p2a: Articuno|Blizzard|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|switch|p1a: Parasect|Parasect, L90|291\/291
+|turn|21
+|
+|switch|p2a: Blastoise|Blastoise, L85|308\/308
+|move|p1a: Parasect|Mega Drain|p2a: Blastoise
+|-supereffective|p2a: Blastoise
+|-damage|p2a: Blastoise|225\/308
+|
+|turn|22
+|
+|move|p2a: Blastoise|Blizzard|p1a: Parasect
+|-supereffective|p1a: Parasect
+|-damage|p1a: Parasect|140\/291
+|move|p1a: Parasect|Mega Drain|p2a: Blastoise
+|-supereffective|p2a: Blastoise
+|-damage|p2a: Blastoise|133\/308
+|-heal|p1a: Parasect|186\/291|[from] drain|[of] p2a: Blastoise
+|
+|turn|23
+|
+|move|p2a: Blastoise|Blizzard|p1a: Parasect
+|-supereffective|p1a: Parasect
+|-damage|p1a: Parasect|38\/291
+|move|p1a: Parasect|Mega Drain|p2a: Blastoise
+|-supereffective|p2a: Blastoise
+|-damage|p2a: Blastoise|50\/308
+|-heal|p1a: Parasect|79\/291|[from] drain|[of] p2a: Blastoise
+|
+|turn|24
+|c|★gen1masterrony|gg
+|
+|move|p2a: Blastoise|Blizzard|p1a: Parasect
+|-supereffective|p1a: Parasect
+|-damage|p1a: Parasect|0 fnt
+|faint|p1a: Parasect
+|
+|switch|p1a: Weedle|Weedle, L99|280\/280
+|turn|25
+|
+|move|p2a: Blastoise|Blizzard|p1a: Weedle
+|-crit|p1a: Weedle
+|-damage|p1a: Weedle|29\/280
+|move|p1a: Weedle|Poison Sting|p2a: Blastoise
+|-damage|p2a: Blastoise|36\/308
+|
+|turn|26
+|
+|move|p2a: Blastoise|Blizzard|p1a: Weedle
+|-damage|p1a: Weedle|0 fnt
+|faint|p1a: Weedle
+|
+|win|gen1masterrony
+|c| PickleSleuth|gg
+|leave|caputo11234
+|player|p1

@@ -1,0 +1,1375 @@
+﻿|j|cutipay
+|j|whaoo.
+|player|p1|cutipay|12
+|player|p2|whaoo.|7
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|seed|32590,3359,16472,47468
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Chansey|Chansey|703\/703
+|turn|1
+|choice|switch 2|move 3
+|
+|switch|p1a: Rhydon|Rhydon|413\/413
+|move|p2a: Chansey|Thunder Wave|p1a: Rhydon
+|-immune|p1a: Rhydon|[msg]
+|
+|turn|2
+|choice|move 2|move 4
+|
+|move|p2a: Chansey|Bubble Beam|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|104\/413
+|move|p1a: Rhydon|Rock Slide|p2a: Chansey|[miss]
+|-miss|p1a: Rhydon
+|
+|turn|3
+|choice|move 1|move 4
+|
+|move|p2a: Chansey|Bubble Beam|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|choice|switch 6|
+|
+|switch|p1a: Jolteon|Jolteon|333\/333
+|turn|4
+|choice|move 4|move 2
+|
+|move|p1a: Jolteon|Toxic|p2a: Chansey
+|-status|p2a: Chansey|tox
+|move|p2a: Chansey|Substitute|p2a: Chansey
+|-start|p2a: Chansey|Substitute
+|-damage|p2a: Chansey|528\/703 tox
+|-damage|p2a: Chansey|485\/703 tox|[from] psn
+|
+|turn|5
+|choice|switch 3|move 4
+|
+|switch|p1a: Slowbro|Slowbro|393\/393
+|move|p2a: Chansey|Bubble Beam|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|362\/393
+|-damage|p2a: Chansey|399\/703 tox|[from] tox|[of] p1a: Slowbro
+|
+|turn|6
+|choice|move 3|move 3
+|
+|move|p2a: Chansey|Thunder Wave|p1a: Slowbro
+|-status|p1a: Slowbro|par
+|-damage|p2a: Chansey|270\/703 tox|[from] tox|[of] p1a: Slowbro
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|
+|turn|7
+|choice|move 3|move 1
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|621\/703 tox
+|-damage|p2a: Chansey|449\/703 tox|[from] psn
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|
+|turn|8
+|choice|move 3|switch 5
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|
+|turn|9
+|choice|move 2|move 1
+|
+|move|p2a: Tauros|Double-Edge|p1a: Slowbro
+|-damage|p1a: Slowbro|258\/393 par
+|-damage|p2a: Tauros|327\/353|[from] recoil|[of] p1a: Slowbro
+|move|p1a: Slowbro|Thunder Wave|p2a: Tauros
+|-status|p2a: Tauros|par
+|
+|turn|10
+|choice|move 4|move 1
+|
+|move|p2a: Tauros|Double-Edge|p1a: Slowbro|[miss]
+|-miss|p2a: Tauros
+|move|p1a: Slowbro|Rest|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|-heal|p1a: Slowbro|393\/393 slp|[silent]
+|-status|p1a: Slowbro|slp|[from] move: Rest
+|
+|turn|11
+|choice|move 1|move 1
+|
+|cant|p2a: Tauros|par
+|cant|p1a: Slowbro|slp
+|
+|turn|12
+|choice|move 1|move 1
+|
+|move|p2a: Tauros|Double-Edge|p1a: Slowbro
+|-damage|p1a: Slowbro|279\/393 slp
+|-damage|p2a: Tauros|299\/353 par|[from] recoil|[of] p1a: Slowbro
+|-curestatus|p1a: Slowbro|slp
+|
+|turn|13
+|choice|move 1|move 1
+|
+|cant|p2a: Tauros|par
+|move|p1a: Slowbro|Psychic|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|choice||switch 3
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|turn|14
+|choice|move 2|move 1
+|
+|move|p2a: Exeggutor|Sleep Powder|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|-curestatus|p1a: Slowbro|slp
+|
+|turn|15
+|choice|move 2|move 1
+|
+|move|p2a: Exeggutor|Sleep Powder|p1a: Slowbro|[miss]
+|-miss|p2a: Exeggutor
+|move|p1a: Slowbro|Thunder Wave|p2a: Exeggutor
+|-status|p2a: Exeggutor|par
+|
+|turn|16
+|choice|move 1|move 1
+|
+|move|p2a: Exeggutor|Sleep Powder|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|cant|p1a: Slowbro|slp
+|
+|turn|17
+|choice|move 1|move 2
+|
+|cant|p2a: Exeggutor|par
+|cant|p1a: Slowbro|slp
+|
+|turn|18
+|choice|move 1|move 2
+|
+|move|p2a: Exeggutor|Leech Seed|p1a: Slowbro
+|-start|p1a: Slowbro|move: Leech Seed
+|cant|p1a: Slowbro|slp
+|-damage|p1a: Slowbro|255\/393 slp|[from] Leech Seed|[of] p2a: Exeggutor
+|
+|turn|19
+|choice|switch 4|move 3
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|move|p2a: Exeggutor|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|260\/323
+|
+|turn|20
+|choice|move 2|move 4
+|
+|move|p1a: Starmie|Ice Beam|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|271\/393 par
+|move|p2a: Exeggutor|Explosion|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|faint|p2a: Exeggutor
+|choice|switch 2|switch 2
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Golem|Golem|363\/363
+|turn|21
+|choice|move 1|move 2
+|
+|move|p1a: Alakazam|Psychic|p2a: Golem
+|-damage|p2a: Golem|168\/363
+|move|p2a: Golem|Earthquake|p1a: Alakazam
+|-damage|p1a: Alakazam|99\/313
+|
+|turn|22
+|choice|move 1|move 2
+|
+|move|p1a: Alakazam|Psychic|p2a: Golem
+|-crit|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|choice||switch 6
+|
+|switch|p2a: Machamp|Machamp|383\/383
+|turn|23
+|choice|move 1|move 4
+|
+|move|p1a: Alakazam|Psychic|p2a: Machamp
+|-supereffective|p2a: Machamp
+|-damage|p2a: Machamp|39\/383
+|move|p2a: Machamp|Earthquake|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|choice|switch 3|
+|
+|switch|p1a: Jolteon|Jolteon|333\/333
+|turn|24
+|choice|move 1|move 3
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Machamp
+|-crit|p2a: Machamp
+|-damage|p2a: Machamp|0 fnt
+|faint|p2a: Machamp
+|choice||switch 5
+|
+|switch|p2a: Chansey|Chansey|449\/703 tox
+|-status|p2a: Chansey|psn
+|turn|25
+|choice|switch 4|move 3
+|
+|switch|p1a: Slowbro|Slowbro|255\/393 slp
+|move|p2a: Chansey|Thunder Wave|p1a: Slowbro
+|-fail|p1a: Slowbro
+|-damage|p2a: Chansey|406\/703 psn|[from] psn|[of] p1a: Slowbro
+|
+|turn|26
+|choice|move 3|move 4
+|
+|move|p2a: Chansey|Bubble Beam|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|224\/393 slp
+|-damage|p2a: Chansey|363\/703 psn|[from] psn|[of] p1a: Slowbro
+|cant|p1a: Slowbro|slp
+|
+|turn|27
+|choice|move 3|switch 4
+|
+|switch|p2a: Slowbro|Slowbro|393\/393
+|cant|p1a: Slowbro|slp
+|
+|turn|28
+|choice|switch 4|move 1
+|
+|switch|p1a: Jolteon|Jolteon|333\/333
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|29
+|choice|move 4|move 1
+|
+|move|p1a: Jolteon|Toxic|p2a: Slowbro|[miss]
+|-miss|p1a: Jolteon
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|30
+|choice|move 4|move 3
+|
+|move|p1a: Jolteon|Toxic|p2a: Slowbro
+|-status|p2a: Slowbro|tox
+|move|p2a: Slowbro|Psychic|p1a: Jolteon
+|-damage|p1a: Jolteon|58\/333
+|-damage|p2a: Slowbro|369\/393 tox|[from] tox|[of] p1a: Jolteon
+|
+|turn|31
+|choice|move 3|move 3
+|
+|move|p1a: Jolteon|Sand Attack|p2a: Slowbro
+|-unboost|p2a: Slowbro|accuracy|1
+|move|p2a: Slowbro|Psychic|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|choice|switch 5|
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|turn|32
+|choice|move 1|move 3
+|
+|move|p1a: Snorlax|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|266\/393 tox
+|move|p2a: Slowbro|Psychic|p1a: Snorlax
+|-damage|p1a: Snorlax|152\/523
+|-damage|p2a: Slowbro|218\/393 tox|[from] tox|[of] p1a: Snorlax
+|
+|turn|33
+|choice|move 2|move 2
+|
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|-heal|p2a: Slowbro|393\/393 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|move|p1a: Snorlax|Hyper Beam|p2a: Slowbro
+|-damage|p2a: Slowbro|217\/393 slp
+|
+|turn|34
+|-mustrecharge|p1a: Snorlax
+|-mustrecharge|p1a: Snorlax
+|choice|move 1|move 3
+|
+|cant|p1a: Snorlax|recharge
+|cant|p2a: Slowbro|slp
+|
+|turn|35
+|choice|move 1|move 2
+|
+|-curestatus|p2a: Slowbro|slp
+|move|p1a: Snorlax|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|125\/393
+|
+|turn|36
+|choice|move 1|move 3
+|
+|move|p1a: Snorlax|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|27\/393
+|move|p2a: Slowbro|Psychic|p1a: Snorlax|[miss]
+|-miss|p2a: Slowbro
+|
+|turn|37
+|choice|move 3|move 2
+|
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|-heal|p2a: Slowbro|393\/393 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|move|p1a: Snorlax|Self-Destruct|p2a: Slowbro
+|-damage|p2a: Slowbro|103\/393 slp
+|faint|p1a: Snorlax
+|choice|switch 4|
+|
+|switch|p1a: Slowbro|Slowbro|224\/393 slp
+|turn|38
+|choice|move 1|move 2
+|
+|-curestatus|p1a: Slowbro|slp
+|cant|p2a: Slowbro|slp
+|
+|turn|39
+|choice|move 1|move 2
+|
+|move|p1a: Slowbro|Psychic|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|85\/393 slp
+|-curestatus|p2a: Slowbro|slp
+|
+|turn|40
+|choice|move 1|move 2
+|
+|move|p1a: Slowbro|Psychic|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|68\/393
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|-heal|p2a: Slowbro|393\/393 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|
+|turn|41
+|choice|move 3|move 1
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|cant|p2a: Slowbro|slp
+|
+|turn|42
+|choice|move 3|move 3
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|-curestatus|p2a: Slowbro|slp
+|
+|turn|43
+|choice|move 2|move 3
+|
+|move|p2a: Slowbro|Psychic|p1a: Slowbro|[miss]
+|-miss|p2a: Slowbro
+|move|p1a: Slowbro|Thunder Wave|p2a: Slowbro
+|-status|p2a: Slowbro|par
+|
+|turn|44
+|choice|move 3|move 3
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|move|p2a: Slowbro|Psychic|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|181\/393
+|
+|turn|45
+|choice|move 1|move 3
+|
+|move|p1a: Slowbro|Psychic|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|323\/393 par
+|move|p2a: Slowbro|Psychic|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|139\/393
+|
+|turn|46
+|choice|move 4|move 1
+|
+|move|p1a: Slowbro|Rest|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|-heal|p1a: Slowbro|393\/393 slp|[silent]
+|-status|p1a: Slowbro|slp|[from] move: Rest
+|cant|p2a: Slowbro|par
+|
+|turn|47
+|choice|move 1|move 1
+|
+|cant|p1a: Slowbro|slp
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|48
+|choice|move 1|move 3
+|
+|-curestatus|p1a: Slowbro|slp
+|move|p2a: Slowbro|Psychic|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|340\/393
+|-unboost|p1a: Slowbro|spd|1
+|-unboost|p1a: Slowbro|spa|1
+|
+|turn|49
+|choice|move 1|move 3
+|
+|move|p1a: Slowbro|Psychic|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|274\/393 par
+|-unboost|p2a: Slowbro|spd|1
+|-unboost|p2a: Slowbro|spa|1
+|move|p2a: Slowbro|Psychic|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|290\/393
+|
+|turn|50
+|choice|move 1|move 3
+|
+|move|p1a: Slowbro|Psychic|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|224\/393 par
+|move|p2a: Slowbro|Psychic|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|236\/393
+|
+|turn|51
+|choice|move 1|move 3
+|
+|move|p1a: Slowbro|Psychic|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|174\/393 par
+|-unboost|p2a: Slowbro|spd|1
+|-unboost|p2a: Slowbro|spa|1
+|cant|p2a: Slowbro|par
+|
+|turn|52
+|choice|move 1|move 2
+|
+|move|p1a: Slowbro|Psychic|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|113\/393 par
+|cant|p2a: Slowbro|par
+|
+|turn|53
+|choice|move 1|move 1
+|
+|move|p1a: Slowbro|Psychic|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|55\/393 par
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|54
+|choice|move 1|move 2
+|
+|move|p1a: Slowbro|Psychic|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|9\/393 par
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|-heal|p2a: Slowbro|393\/393 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|
+|turn|55
+|choice|move 3|move 3
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|cant|p2a: Slowbro|slp
+|
+|turn|56
+|choice|move 4|move 3
+|
+|move|p1a: Slowbro|Rest|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|-heal|p1a: Slowbro|393\/393 slp|[silent]
+|-status|p1a: Slowbro|slp|[from] move: Rest
+|-curestatus|p2a: Slowbro|slp
+|
+|turn|57
+|choice|move 2|move 3
+|
+|cant|p1a: Slowbro|slp
+|move|p2a: Slowbro|Psychic|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|338\/393 slp
+|
+|turn|58
+|choice|move 2|move 3
+|
+|-curestatus|p1a: Slowbro|slp
+|move|p2a: Slowbro|Psychic|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|283\/393
+|
+|turn|59
+|choice|move 2|move 3
+|
+|move|p1a: Slowbro|Thunder Wave|p2a: Slowbro
+|-status|p2a: Slowbro|par
+|move|p2a: Slowbro|Psychic|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|231\/393
+|
+|turn|60
+|choice|move 1|move 3
+|
+|move|p1a: Slowbro|Psychic|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|344\/393 par
+|cant|p2a: Slowbro|par
+|
+|turn|61
+|choice|move 1|move 3
+|
+|move|p1a: Slowbro|Psychic|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|238\/393 par
+|move|p2a: Slowbro|Psychic|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|176\/393
+|
+|turn|62
+|choice|move 4|move 3
+|
+|move|p1a: Slowbro|Rest|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|-heal|p1a: Slowbro|393\/393 slp|[silent]
+|-status|p1a: Slowbro|slp|[from] move: Rest
+|move|p2a: Slowbro|Psychic|p1a: Slowbro|[miss]
+|-miss|p2a: Slowbro
+|
+|turn|63
+|choice|move 3|move 3
+|
+|cant|p1a: Slowbro|slp
+|move|p2a: Slowbro|Psychic|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|295\/393 slp
+|
+|turn|64
+|choice|move 3|move 4
+|
+|-curestatus|p1a: Slowbro|slp
+|move|p2a: Slowbro|Ice Beam|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|259\/393
+|
+|turn|65
+|choice|move 3|move 4
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|move|p2a: Slowbro|Ice Beam|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|220\/393
+|
+|turn|66
+|choice|move 3|move 4
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|move|p2a: Slowbro|Ice Beam|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|185\/393
+|
+|turn|67
+|choice|move 3|move 4
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|move|p2a: Slowbro|Ice Beam|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|147\/393
+|
+|turn|68
+|choice|move 4|move 1
+|
+|move|p1a: Slowbro|Rest|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|-heal|p1a: Slowbro|393\/393 slp|[silent]
+|-status|p1a: Slowbro|slp|[from] move: Rest
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|69
+|choice|move 2|move 2
+|
+|cant|p1a: Slowbro|slp
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|-heal|p2a: Slowbro|393\/393 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|
+|turn|70
+|c|★cutipay|pp stall xd
+|choice|move 2|move 2
+|
+|-curestatus|p1a: Slowbro|slp
+|cant|p2a: Slowbro|slp
+|
+|turn|71
+|c|★whaoo.|who is the most sleeper?
+|choice|move 2|move 2
+|
+|move|p1a: Slowbro|Thunder Wave|p2a: Slowbro
+|-fail|p2a: Slowbro
+|-curestatus|p2a: Slowbro|slp
+|
+|turn|72
+|choice|move 2|move 1
+|
+|move|p1a: Slowbro|Thunder Wave|p2a: Slowbro
+|-status|p2a: Slowbro|par
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|73
+|choice|move 2|move 1
+|
+|move|p1a: Slowbro|Thunder Wave|p2a: Slowbro
+|-fail|p2a: Slowbro|par
+|cant|p2a: Slowbro|par
+|
+|turn|74
+|choice|move 2|move 1
+|
+|move|p1a: Slowbro|Thunder Wave|p2a: Slowbro
+|-fail|p2a: Slowbro|par
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|75
+|choice|move 3|move 1
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|76
+|choice|move 3|move 1
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|77
+|choice|move 3|move 1
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|78
+|choice|move 3|move 1
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|cant|p2a: Slowbro|par
+|
+|turn|79
+|choice|move 2|move 2
+|
+|move|p1a: Slowbro|Thunder Wave|p2a: Slowbro
+|-fail|p2a: Slowbro|par
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-fail|p2a: Slowbro
+|
+|turn|80
+|choice|move 2|move 4
+|
+|move|p1a: Slowbro|Thunder Wave|p2a: Slowbro
+|-fail|p2a: Slowbro|par
+|move|p2a: Slowbro|Ice Beam|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|353\/393
+|
+|turn|81
+|choice|move 1|move 4
+|
+|move|p1a: Slowbro|Psychic|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|341\/393 par
+|cant|p2a: Slowbro|par
+|
+|turn|82
+|choice|move 2|move 4
+|
+|move|p1a: Slowbro|Thunder Wave|p2a: Slowbro
+|-fail|p2a: Slowbro|par
+|cant|p2a: Slowbro|par
+|
+|turn|83
+|choice|move 2|move 4
+|
+|move|p1a: Slowbro|Thunder Wave|p2a: Slowbro
+|-fail|p2a: Slowbro|par
+|move|p2a: Slowbro|Ice Beam|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|316\/393
+|
+|turn|84
+|choice|move 2|move 4
+|
+|move|p1a: Slowbro|Thunder Wave|p2a: Slowbro
+|-fail|p2a: Slowbro|par
+|move|p2a: Slowbro|Ice Beam|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|281\/393
+|
+|turn|85
+|choice|move 2|move 4
+|
+|move|p1a: Slowbro|Thunder Wave|p2a: Slowbro
+|-fail|p2a: Slowbro|par
+|cant|p2a: Slowbro|par
+|
+|turn|86
+|choice|move 2|move 4
+|
+|move|p1a: Slowbro|Thunder Wave|p2a: Slowbro
+|-fail|p2a: Slowbro|par
+|move|p2a: Slowbro|Ice Beam|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|244\/393
+|
+|turn|87
+|choice|move 4|move 4
+|
+|move|p1a: Slowbro|Rest|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|-heal|p1a: Slowbro|393\/393 slp|[silent]
+|-status|p1a: Slowbro|slp|[from] move: Rest
+|move|p2a: Slowbro|Ice Beam|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|355\/393 slp
+|
+|turn|88
+|choice|move 2|move 4
+|
+|cant|p1a: Slowbro|slp
+|move|p2a: Slowbro|Ice Beam|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|317\/393 slp
+|
+|turn|89
+|choice|move 2|move 1
+|
+|-curestatus|p1a: Slowbro|slp
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|90
+|choice|move 2|move 1
+|
+|move|p1a: Slowbro|Thunder Wave|p2a: Slowbro
+|-fail|p2a: Slowbro|par
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|91
+|choice|move 4|move 1
+|
+|move|p1a: Slowbro|Rest|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|-heal|p1a: Slowbro|393\/393 slp|[silent]
+|-status|p1a: Slowbro|slp|[from] move: Rest
+|cant|p2a: Slowbro|par
+|
+|turn|92
+|choice|move 3|move 1
+|
+|cant|p1a: Slowbro|slp
+|cant|p2a: Slowbro|par
+|
+|turn|93
+|choice|move 3|move 1
+|
+|-curestatus|p1a: Slowbro|slp
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|94
+|choice|move 3|move 4
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|cant|p2a: Slowbro|par
+|
+|turn|95
+|choice|move 3|move 4
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|move|p2a: Slowbro|Ice Beam|p1a: Slowbro|[miss]
+|-miss|p2a: Slowbro
+|
+|turn|96
+|choice|move 2|move 4
+|
+|move|p1a: Slowbro|Thunder Wave|p2a: Slowbro
+|-fail|p2a: Slowbro|par
+|move|p2a: Slowbro|Ice Beam|p1a: Slowbro|[miss]
+|-miss|p2a: Slowbro
+|
+|turn|97
+|choice|move 2|move 4
+|
+|move|p1a: Slowbro|Thunder Wave|p2a: Slowbro
+|-fail|p2a: Slowbro|par
+|move|p2a: Slowbro|Ice Beam|p1a: Slowbro|[miss]
+|-miss|p2a: Slowbro
+|
+|turn|98
+|choice|move 2|move 4
+|
+|move|p1a: Slowbro|Thunder Wave|p2a: Slowbro
+|-fail|p2a: Slowbro|par
+|move|p2a: Slowbro|Ice Beam|p1a: Slowbro|[miss]
+|-miss|p2a: Slowbro
+|
+|turn|99
+|choice|move 2|move 4
+|
+|move|p1a: Slowbro|Thunder Wave|p2a: Slowbro
+|-fail|p2a: Slowbro|par
+|move|p2a: Slowbro|Ice Beam|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|357\/393
+|
+|turn|100
+|c|★whaoo.|._.
+|choice|move 4|move 1
+|
+|move|p1a: Slowbro|Rest|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|-heal|p1a: Slowbro|393\/393 slp|[silent]
+|-status|p1a: Slowbro|slp|[from] move: Rest
+|cant|p2a: Slowbro|par
+|
+|turn|101
+|choice|move 2|move 1
+|
+|cant|p1a: Slowbro|slp
+|cant|p2a: Slowbro|par
+|
+|turn|102
+|choice|move 3|move 1
+|
+|-curestatus|p1a: Slowbro|slp
+|cant|p2a: Slowbro|par
+|
+|turn|103
+|choice|move 3|move 2
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|-heal|p2a: Slowbro|393\/393 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|
+|turn|104
+|choice|move 4|move 1
+|
+|move|p1a: Slowbro|Rest|p1a: Slowbro
+|-fail|p1a: Slowbro
+|cant|p2a: Slowbro|slp
+|
+|turn|105
+|choice|move 3|move 1
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|-curestatus|p2a: Slowbro|slp
+|
+|turn|106
+|choice|move 3|move 1
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|107
+|choice|move 3|move 1
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|108
+|choice|move 3|move 1
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|109
+|choice|move 3|move 1
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|110
+|choice|move 3|move 1
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|111
+|choice|move 3|move 1
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|112
+|choice|move 3|move 1
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|113
+|choice|move 3|move 1
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|114
+|choice|move 3|move 1
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|115
+|choice|move 3|move 1
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|116
+|choice|move 3|move 1
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|117
+|choice|move 3|move 1
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|118
+|choice|move 3|move 1
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|119
+|choice|move 3|move 1
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|120
+|choice|move 4|move 1
+|
+|move|p1a: Slowbro|Rest|p1a: Slowbro
+|-fail|p1a: Slowbro
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|121
+|choice|move 4|move 1
+|
+|move|p1a: Slowbro|Rest|p1a: Slowbro
+|-fail|p1a: Slowbro
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|122
+|choice|move 4|move 1
+|
+|move|p1a: Slowbro|Rest|p1a: Slowbro
+|-fail|p1a: Slowbro
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|123
+|choice|move 4|move 1
+|
+|move|p1a: Slowbro|Rest|p1a: Slowbro
+|-fail|p1a: Slowbro
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|124
+|choice|move 2|move 1
+|
+|move|p1a: Slowbro|Thunder Wave|p2a: Slowbro
+|-status|p2a: Slowbro|par
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|125
+|choice|move 2|move 2
+|
+|move|p1a: Slowbro|Thunder Wave|p2a: Slowbro
+|-fail|p2a: Slowbro|par
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-fail|p2a: Slowbro
+|
+|turn|126
+|choice|move 2|move 4
+|
+|move|p1a: Slowbro|Thunder Wave|p2a: Slowbro
+|-fail|p2a: Slowbro|par
+|move|p2a: Slowbro|Ice Beam|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|356\/393
+|
+|turn|127
+|c|★whaoo.|He perdido, he perdido amnesiaaaa
+|choice|move 2|move 2
+|
+|move|p1a: Slowbro|Thunder Wave|p2a: Slowbro
+|-fail|p2a: Slowbro|par
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-fail|p2a: Slowbro
+|
+|turn|128
+|choice|move 2|switch 4
+|
+|switch|p2a: Chansey|Chansey|363\/703 psn
+|-damage|p2a: Chansey|320\/703 psn|[from] psn
+|move|p1a: Slowbro|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|129
+|choice|move 1|move 1
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|671\/703 psn
+|-damage|p2a: Chansey|628\/703 psn|[from] psn
+|move|p1a: Slowbro|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|312\/703 psn
+|
+|turn|130
+|choice|move 1|move 1
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|663\/703 psn
+|-damage|p2a: Chansey|620\/703 psn|[from] psn
+|move|p1a: Slowbro|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|285\/703 psn
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|
+|turn|131
+|choice|move 1|switch 4
+|
+|switch|p2a: Slowbro|Slowbro|393\/393 par
+|move|p1a: Slowbro|Psychic|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|185\/393 par
+|
+|turn|132
+|choice|move 2|move 2
+|
+|move|p1a: Slowbro|Thunder Wave|p2a: Slowbro
+|-fail|p2a: Slowbro|par
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|-heal|p2a: Slowbro|393\/393 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|
+|turn|133
+|choice|move 4|switch 4
+|
+|switch|p2a: Chansey|Chansey|285\/703 psn
+|-damage|p2a: Chansey|242\/703 psn|[from] psn
+|move|p1a: Slowbro|Rest|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|-heal|p1a: Slowbro|393\/393 slp|[silent]
+|-status|p1a: Slowbro|slp|[from] move: Rest
+|
+|turn|134
+|choice|move 2|move 1
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|593\/703 psn
+|-damage|p2a: Chansey|550\/703 psn|[from] psn
+|cant|p1a: Slowbro|slp
+|
+|turn|135
+|choice|move 2|switch 4
+|
+|switch|p2a: Slowbro|Slowbro|393\/393 slp
+|-curestatus|p1a: Slowbro|slp
+|
+|turn|136
+|choice|move 2|switch 4
+|
+|switch|p2a: Chansey|Chansey|550\/703 psn
+|-damage|p2a: Chansey|507\/703 psn|[from] psn
+|move|p1a: Slowbro|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|137
+|choice|move 2|move 2
+|
+|move|p2a: Chansey|Substitute|p2a: Chansey
+|-start|p2a: Chansey|Substitute
+|-damage|p2a: Chansey|332\/703 psn
+|-damage|p2a: Chansey|289\/703 psn|[from] psn
+|move|p1a: Slowbro|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|138
+|choice|move 2|move 1
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|640\/703 psn
+|-damage|p2a: Chansey|597\/703 psn|[from] psn
+|move|p1a: Slowbro|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|139
+|choice|move 2|move 4
+|
+|move|p2a: Chansey|Bubble Beam|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|386\/393
+|-damage|p2a: Chansey|554\/703 psn|[from] psn|[of] p1a: Slowbro
+|move|p1a: Slowbro|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|140
+|choice|move 4|move 4
+|
+|move|p2a: Chansey|Bubble Beam|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|378\/393
+|-damage|p2a: Chansey|511\/703 psn|[from] psn|[of] p1a: Slowbro
+|move|p1a: Slowbro|Rest|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|-heal|p1a: Slowbro|393\/393 slp|[silent]
+|-status|p1a: Slowbro|slp|[from] move: Rest
+|
+|turn|141
+|choice|move 2|move 4
+|
+|move|p2a: Chansey|Bubble Beam|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|385\/393 slp
+|-damage|p2a: Chansey|468\/703 psn|[from] psn|[of] p1a: Slowbro
+|cant|p1a: Slowbro|slp
+|
+|turn|142
+|choice|move 2|move 4
+|
+|move|p2a: Chansey|Bubble Beam|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|378\/393 slp
+|-damage|p2a: Chansey|425\/703 psn|[from] psn|[of] p1a: Slowbro
+|-curestatus|p1a: Slowbro|slp
+|
+|turn|143
+|choice|move 2|move 4
+|
+|move|p2a: Chansey|Bubble Beam|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|370\/393
+|-damage|p2a: Chansey|382\/703 psn|[from] psn|[of] p1a: Slowbro
+|move|p1a: Slowbro|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|144
+|choice|move 2|move 1
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703 psn
+|-damage|p2a: Chansey|660\/703 psn|[from] psn
+|move|p1a: Slowbro|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|145
+|choice|move 4|move 4
+|
+|move|p2a: Chansey|Bubble Beam|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|362\/393
+|-damage|p2a: Chansey|617\/703 psn|[from] psn|[of] p1a: Slowbro
+|move|p1a: Slowbro|Rest|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|-heal|p1a: Slowbro|393\/393 slp|[silent]
+|-status|p1a: Slowbro|slp|[from] move: Rest
+|
+|turn|146
+|choice|move 1|move 4
+|
+|move|p2a: Chansey|Bubble Beam|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|385\/393 slp
+|-damage|p2a: Chansey|574\/703 psn|[from] psn|[of] p1a: Slowbro
+|cant|p1a: Slowbro|slp
+|
+|turn|147
+|choice|move 1|move 4
+|
+|move|p2a: Chansey|Bubble Beam|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|377\/393 slp
+|-damage|p2a: Chansey|531\/703 psn|[from] psn|[of] p1a: Slowbro
+|-curestatus|p1a: Slowbro|slp
+|
+|turn|148
+|choice|move 1|move 4
+|
+|move|p2a: Chansey|Bubble Beam|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|370\/393
+|-damage|p2a: Chansey|488\/703 psn|[from] psn|[of] p1a: Slowbro
+|move|p1a: Slowbro|Struggle|p2a: Chansey
+|-activate|p2a: Chansey|Substitute|[damage]
+|-damage|p1a: Slowbro|321\/393|[from] recoil|[of] p2a: Chansey
+|
+|turn|149
+|c|★cutipay|lollll
+|choice|move 1|move 4
+|
+|move|p2a: Chansey|Bubble Beam|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|313\/393
+|-damage|p2a: Chansey|445\/703 psn|[from] psn|[of] p1a: Slowbro
+|move|p1a: Slowbro|Struggle|p2a: Chansey
+|-end|p2a: Chansey|Substitute
+|-damage|p1a: Slowbro|274\/393|[from] recoil|[of] p2a: Chansey
+|
+|turn|150
+|c|★whaoo.|tan tan
+|-message|cutipay lost due to inactivity.
+|
+|win|whaoo.
+|player|p1
+|player|p2
+|raw|cutipay's rating: 1088 &rarr; <strong>1062<\/strong><br \/>(-26 for losing)
+|raw|whaoo.'s rating: 1045 &rarr; <strong>1082<\/strong><br \/>(+37 for winning)
+|l|cutipay

@@ -1,0 +1,201 @@
+﻿|join|jynx2000
+|join|PeteGoggles
+|player|p1|jynx2000|25
+|player|p2|PeteGoggles|1
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Porygon|Porygon, L85|284\/284
+|switch|p2a: Drowzee|Drowzee, L96|310\/310
+|turn|1
+|
+|move|p2a: Drowzee|Hypnosis|p1a: Porygon|[miss]
+|-miss|p2a: Drowzee
+|move|p1a: Porygon|Tri Attack|p2a: Drowzee
+|-damage|p2a: Drowzee|224\/310
+|
+|turn|2
+|
+|move|p2a: Drowzee|Hypnosis|p1a: Porygon
+|-status|p1a: Porygon|slp
+|cant|p1a: Porygon|slp
+|
+|turn|3
+|
+|switch|p1a: Tangela|Tangela, L85|284\/284
+|move|p2a: Drowzee|Psychic|p1a: Tangela
+|-damage|p1a: Tangela|183\/284
+|
+|turn|4
+|
+|switch|p2a: Jigglypuff|Jigglypuff, L99|428\/428
+|move|p1a: Tangela|Sleep Powder|p2a: Jigglypuff|[miss]
+|-miss|p1a: Tangela
+|
+|turn|5
+|
+|move|p1a: Tangela|Sleep Powder|p2a: Jigglypuff
+|-status|p2a: Jigglypuff|slp
+|-curestatus|p2a: Jigglypuff|slp
+|
+|turn|6
+|
+|move|p1a: Tangela|Sleep Powder|p2a: Jigglypuff
+|-status|p2a: Jigglypuff|slp
+|cant|p2a: Jigglypuff|slp
+|
+|turn|7
+|
+|switch|p2a: Vileplume|Vileplume, L90|318\/318
+|move|p1a: Tangela|Body Slam|p2a: Vileplume
+|-damage|p2a: Vileplume|279\/318
+|
+|turn|8
+|
+|move|p1a: Tangela|Stun Spore|p2a: Vileplume
+|-status|p2a: Vileplume|par
+|move|p2a: Vileplume|Body Slam|p1a: Tangela
+|-damage|p1a: Tangela|128\/284
+|
+|turn|9
+|
+|switch|p1a: Gengar|Gengar, L79|257\/257
+|move|p2a: Vileplume|Body Slam|p1a: Gengar
+|-immune|p1a: Gengar|[msg]
+|
+|turn|10
+|
+|move|p1a: Gengar|Psychic|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|152\/318 par
+|move|p2a: Vileplume|Mega Drain|p1a: Gengar
+|-crit|p1a: Gengar
+|-resisted|p1a: Gengar
+|-damage|p1a: Gengar|216\/257
+|-heal|p2a: Vileplume|172\/318 par|[from] drain|[of] p1a: Gengar
+|
+|turn|11
+|
+|move|p1a: Gengar|Psychic|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|51\/318 par
+|-unboost|p2a: Vileplume|spd|1
+|-unboost|p2a: Vileplume|spa|1
+|cant|p2a: Vileplume|par
+|
+|turn|12
+|
+|move|p1a: Gengar|Psychic|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|
+|switch|p2a: Drowzee|Drowzee, L96|224\/310
+|turn|13
+|
+|switch|p1a: Mew|Mew, L74|300\/300
+|move|p2a: Drowzee|Psychic|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|235\/300
+|-unboost|p1a: Mew|spd|1
+|-unboost|p1a: Mew|spa|1
+|
+|turn|14
+|
+|move|p1a: Mew|Swords Dance|p1a: Mew
+|-boost|p1a: Mew|atk|2
+|move|p2a: Drowzee|Psychic|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|147\/300
+|
+|turn|15
+|
+|move|p1a: Mew|Explosion|p2a: Drowzee
+|-damage|p2a: Drowzee|0 fnt
+|faint|p2a: Drowzee
+|faint|p1a: Mew
+|
+|switch|p2a: Electrode|Electrode, L90|291\/291
+|switch|p1a: Tangela|Tangela, L85|128\/284
+|turn|16
+|
+|switch|p2a: Weezing|Weezing, L90|300\/300
+|move|p1a: Tangela|Stun Spore|p2a: Weezing
+|-status|p2a: Weezing|par
+|
+|turn|17
+|
+|switch|p1a: Dratini|Dratini, L96|274\/274
+|move|p2a: Weezing|Fire Blast|p1a: Dratini
+|-resisted|p1a: Dratini
+|-damage|p1a: Dratini|218\/274
+|
+|turn|18
+|
+|move|p1a: Dratini|Surf|p2a: Weezing
+|-damage|p2a: Weezing|246\/300 par
+|move|p2a: Weezing|Explosion|p1a: Dratini
+|-damage|p1a: Dratini|0 fnt
+|faint|p1a: Dratini
+|faint|p2a: Weezing
+|
+|switch|p2a: Electrode|Electrode, L90|291\/291
+|switch|p1a: Tangela|Tangela, L85|128\/284
+|turn|19
+|
+|move|p2a: Electrode|Explosion|p1a: Tangela
+|-damage|p1a: Tangela|0 fnt
+|faint|p1a: Tangela
+|faint|p2a: Electrode
+|
+|switch|p1a: Gengar|Gengar, L79|216\/257
+|switch|p2a: Jigglypuff|Jigglypuff, L99|428\/428 slp
+|turn|20
+|
+|move|p1a: Gengar|Psychic|p2a: Jigglypuff
+|-damage|p2a: Jigglypuff|317\/428 slp
+|cant|p2a: Jigglypuff|slp
+|
+|turn|21
+|
+|move|p1a: Gengar|Psychic|p2a: Jigglypuff
+|-crit|p2a: Jigglypuff
+|-damage|p2a: Jigglypuff|113\/428 slp
+|cant|p2a: Jigglypuff|slp
+|
+|turn|22
+|
+|move|p1a: Gengar|Psychic|p2a: Jigglypuff
+|-crit|p2a: Jigglypuff
+|-damage|p2a: Jigglypuff|0 fnt
+|faint|p2a: Jigglypuff
+|
+|switch|p2a: Fearow|Fearow, L90|300\/300
+|turn|23
+|
+|move|p2a: Fearow|Drill Peck|p1a: Gengar
+|-damage|p1a: Gengar|90\/257
+|move|p1a: Gengar|Explosion|p2a: Fearow
+|-damage|p2a: Fearow|99\/300
+|faint|p1a: Gengar
+|
+|switch|p1a: Omastar|Omastar, L90|309\/309
+|turn|24
+|c|★jynx2000|suck my dick
+|
+|move|p2a: Fearow|Drill Peck|p1a: Omastar
+|-resisted|p1a: Omastar
+|-damage|p1a: Omastar|277\/309
+|move|p1a: Omastar|Hydro Pump|p2a: Fearow
+|-damage|p2a: Fearow|0 fnt
+|faint|p2a: Fearow
+|
+|win|jynx2000
+|raw|jynx2000's rating: 1336 &rarr; <strong>1360<\/strong><br \/>(+24 for winning)
+|raw|PeteGoggles's rating: 1400 &rarr; <strong>1376<\/strong><br \/>(-24 for losing)

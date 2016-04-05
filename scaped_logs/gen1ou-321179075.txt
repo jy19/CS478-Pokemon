@@ -1,0 +1,633 @@
+﻿|j|Stryxx
+|j|HydreigonRoco
+|player|p1|Stryxx|202
+|player|p2|HydreigonRoco|92
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|seed|17022,10225,8665,60475
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Double Cake|Alakazam|313\/313
+|switch|p2a: Jynx|Jynx|333\/333
+|turn|1
+|choice|move 3|move 1
+|
+|move|p1a: Double Cake|Thunder Wave|p2a: Jynx
+|-status|p2a: Jynx|par
+|move|p2a: Jynx|Lovely Kiss|p1a: Double Cake
+|-status|p1a: Double Cake|slp
+|
+|turn|2
+|choice|switch 2|switch 4
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|switch|p2a: Tauros|Tauros|353\/353
+|
+|turn|3
+|choice|move 3|move 1
+|
+|move|p2a: Tauros|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|436\/703
+|move|p1a: Chansey|Thunder Wave|p2a: Tauros
+|-status|p2a: Tauros|par
+|
+|turn|4
+|choice|switch 4|move 1
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|390\/523
+|
+|turn|5
+|choice|move 1|move 1
+|
+|move|p1a: Snorlax|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|247\/353 par
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|139\/523
+|
+|turn|6
+|choice|move 4|move 1
+|
+|move|p1a: Snorlax|Self-Destruct|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|faint|p1a: Snorlax
+|choice|switch 4|switch 5
+|
+|switch|p1a: Chansey|Chansey|436\/703
+|switch|p2a: Snorlax|Snorlax|523\/523
+|turn|7
+|choice|move 4|move 1
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-start|p1a: Chansey|Reflect
+|move|p2a: Snorlax|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|299\/703
+|
+|turn|8
+|choice|move 3|move 1
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|move|p2a: Snorlax|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|162\/703
+|
+|turn|9
+|choice|move 2|move 1
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|513\/703
+|move|p2a: Snorlax|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|364\/703
+|
+|turn|10
+|choice|move 2|switch 6
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703
+|
+|turn|11
+|choice|move 1|move 4
+|
+|move|p2a: Exeggutor|Stun Spore|p1a: Chansey|[miss]
+|-miss|p2a: Exeggutor
+|move|p1a: Chansey|Seismic Toss|p2a: Exeggutor
+|-damage|p2a: Exeggutor|293\/393
+|
+|turn|12
+|choice|move 1|move 4
+|
+|move|p2a: Exeggutor|Stun Spore|p1a: Chansey
+|-status|p1a: Chansey|par
+|move|p1a: Chansey|Seismic Toss|p2a: Exeggutor
+|-damage|p2a: Exeggutor|193\/393
+|
+|turn|13
+|choice|move 1|move 1
+|
+|move|p2a: Exeggutor|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|581\/703 par
+|move|p1a: Chansey|Seismic Toss|p2a: Exeggutor
+|-damage|p2a: Exeggutor|93\/393
+|
+|turn|14
+|c|★HydreigonRoco|reflect never ends?
+|c|★Stryxx|no
+|choice|move 2|move 3
+|
+|move|p2a: Exeggutor|Explosion|p1a: Chansey
+|-damage|p1a: Chansey|232\/703 par
+|faint|p2a: Exeggutor
+|choice||switch 6
+|
+|switch|p2a: Snorlax|Snorlax|523\/523 par
+|turn|15
+|choice|move 2|move 4
+|
+|cant|p1a: Chansey|par
+|move|p2a: Snorlax|Hyper Beam|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|choice|switch 6|
+|
+|switch|p1a: Lapras|Lapras|463\/463
+|turn|16
+|choice|move 4|move 1
+|
+|move|p1a: Lapras|Confuse Ray|p2a: Snorlax
+|-start|p2a: Snorlax|confusion
+|-activate|p2a: Snorlax|confusion
+|-damage|p2a: Snorlax|475\/523 par|[from] confusion
+|
+|turn|17
+|choice|move 1|move 1
+|
+|move|p1a: Lapras|Blizzard|p2a: Snorlax
+|-damage|p2a: Snorlax|287\/523 par
+|-activate|p2a: Snorlax|confusion
+|-damage|p2a: Snorlax|239\/523 par|[from] confusion
+|
+|turn|18
+|choice|move 1|move 4
+|
+|move|p1a: Lapras|Blizzard|p2a: Snorlax
+|-damage|p2a: Snorlax|71\/523 par
+|-activate|p2a: Snorlax|confusion
+|-damage|p2a: Snorlax|23\/523 par|[from] confusion
+|
+|turn|19
+|choice|move 3|move 4
+|
+|move|p1a: Lapras|Thunderbolt|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|choice||switch 2
+|
+|switch|p2a: Alakazam|Alakazam|313\/313
+|turn|20
+|choice|switch 5|move 2
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Alakazam|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|336\/393
+|
+|turn|21
+|choice|move 1|switch 4
+|
+|switch|p2a: Jynx|Jynx|333\/333 par
+|move|p1a: Exeggutor|Sleep Powder|p2a: Jynx
+|-fail|p2a: Jynx
+|
+|turn|22
+|choice|switch 5|move 2
+|
+|switch|p1a: Lapras|Lapras|463\/463
+|move|p2a: Jynx|Blizzard|p1a: Lapras|[miss]
+|-miss|p2a: Jynx
+|
+|turn|23
+|choice|move 4|move 3
+|
+|move|p1a: Lapras|Confuse Ray|p2a: Jynx
+|-start|p2a: Jynx|confusion
+|-activate|p2a: Jynx|confusion
+|-damage|p2a: Jynx|292\/333 par|[from] confusion
+|
+|turn|24
+|choice|move 2|move 3
+|
+|move|p1a: Lapras|Body Slam|p2a: Jynx
+|-damage|p2a: Jynx|190\/333 par
+|-activate|p2a: Jynx|confusion
+|-damage|p2a: Jynx|149\/333 par|[from] confusion
+|
+|turn|25
+|choice|move 2|move 3
+|
+|move|p1a: Lapras|Body Slam|p2a: Jynx
+|-damage|p2a: Jynx|41\/333 par
+|-activate|p2a: Jynx|confusion
+|move|p2a: Jynx|Rest|p2a: Jynx
+|-status|p2a: Jynx|slp
+|-heal|p2a: Jynx|333\/333 slp|[silent]
+|-status|p2a: Jynx|slp|[from] move: Rest
+|
+|turn|26
+|choice|switch 3|switch 3
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|switch|p2a: Chansey|Chansey|703\/703
+|
+|turn|27
+|choice|switch 5|move 1
+|
+|switch|p1a: Exeggutor|Exeggutor|336\/393
+|move|p2a: Chansey|Thunder Wave|p1a: Exeggutor
+|-status|p1a: Exeggutor|par
+|
+|turn|28
+|choice|switch 5|move 3
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|move|p2a: Chansey|Ice Beam|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|177\/353
+|
+|turn|29
+|choice|move 1|move 1
+|
+|move|p1a: Tauros|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|410\/703
+|move|p2a: Chansey|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|
+|turn|30
+|choice|move 1|move 4
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703
+|cant|p1a: Tauros|par
+|
+|turn|31
+|choice|move 1|move 3
+|
+|move|p2a: Chansey|Ice Beam|p1a: Tauros
+|-damage|p1a: Tauros|75\/353 par
+|move|p1a: Tauros|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|428\/703
+|
+|turn|32
+|choice|move 4|move 2
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|choice|switch 3|
+|
+|switch|p1a: Lapras|Lapras|463\/463
+|turn|33
+|choice|move 4|move 1
+|
+|move|p1a: Lapras|Confuse Ray|p2a: Chansey
+|-start|p2a: Chansey|confusion
+|-activate|p2a: Chansey|confusion
+|-damage|p2a: Chansey|393\/703|[from] confusion
+|
+|turn|34
+|choice|move 2|move 1
+|
+|move|p1a: Lapras|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|231\/703
+|-activate|p2a: Chansey|confusion
+|move|p2a: Chansey|Thunder Wave|p1a: Lapras
+|-status|p1a: Lapras|par
+|
+|turn|35
+|choice|move 2|switch 3
+|
+|switch|p2a: Jynx|Jynx|333\/333 slp
+|move|p1a: Lapras|Body Slam|p2a: Jynx
+|-damage|p2a: Jynx|224\/333 slp
+|
+|turn|36
+|choice|move 2|switch 3
+|
+|switch|p2a: Chansey|Chansey|231\/703
+|move|p1a: Lapras|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|74\/703
+|
+|turn|37
+|choice|switch 5|move 4
+|
+|switch|p1a: Exeggutor|Exeggutor|336\/393 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|425\/703
+|
+|turn|38
+|choice|move 1|move 4
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703
+|move|p1a: Exeggutor|Sleep Powder|p2a: Chansey
+|-status|p2a: Chansey|slp
+|
+|turn|39
+|choice|move 2|move 2
+|
+|cant|p2a: Chansey|slp
+|move|p1a: Exeggutor|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|585\/703 slp
+|
+|turn|40
+|choice|move 2|move 2
+|
+|cant|p2a: Chansey|slp
+|cant|p1a: Exeggutor|par
+|
+|turn|41
+|choice|move 2|move 2
+|
+|cant|p2a: Chansey|slp
+|move|p1a: Exeggutor|Psychic|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|345\/703 slp
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|
+|turn|42
+|choice|move 2|switch 3
+|
+|switch|p2a: Jynx|Jynx|224\/333 slp
+|move|p1a: Exeggutor|Psychic|p2a: Jynx
+|-resisted|p2a: Jynx
+|-damage|p2a: Jynx|156\/333 slp
+|
+|turn|43
+|choice|move 4|move 3
+|
+|cant|p2a: Jynx|slp
+|move|p1a: Exeggutor|Stun Spore|p2a: Jynx
+|-fail|p2a: Jynx
+|
+|turn|44
+|choice|move 4|move 3
+|
+|-curestatus|p2a: Jynx|slp
+|move|p1a: Exeggutor|Stun Spore|p2a: Jynx
+|-status|p2a: Jynx|par
+|
+|turn|45
+|choice|switch 5|move 3
+|
+|switch|p1a: Lapras|Lapras|463\/463 par
+|move|p2a: Jynx|Rest|p2a: Jynx
+|-status|p2a: Jynx|slp
+|-heal|p2a: Jynx|333\/333 slp|[silent]
+|-status|p2a: Jynx|slp|[from] move: Rest
+|
+|turn|46
+|choice|move 2|switch 4
+|
+|switch|p2a: Alakazam|Alakazam|313\/313
+|cant|p1a: Lapras|par
+|
+|turn|47
+|choice|switch 5|move 2
+|
+|switch|p1a: Exeggutor|Exeggutor|336\/393 par
+|move|p2a: Alakazam|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|283\/393 par
+|
+|turn|48
+|choice|move 2|switch 3
+|
+|switch|p2a: Chansey|Chansey|345\/703 slp
+|move|p1a: Exeggutor|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|225\/703 slp
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|
+|turn|49
+|choice|move 1|switch 4
+|
+|switch|p2a: Jynx|Jynx|333\/333 slp
+|move|p1a: Exeggutor|Sleep Powder|p2a: Jynx
+|-fail|p2a: Jynx|slp
+|
+|turn|50
+|choice|switch 5|move 2
+|
+|switch|p1a: Lapras|Lapras|463\/463 par
+|cant|p2a: Jynx|slp
+|
+|turn|51
+|choice|move 2|move 2
+|
+|-curestatus|p2a: Jynx|slp
+|move|p1a: Lapras|Body Slam|p2a: Jynx
+|-damage|p2a: Jynx|233\/333
+|
+|turn|52
+|choice|move 2|switch 3
+|
+|switch|p2a: Alakazam|Alakazam|313\/313
+|move|p1a: Lapras|Body Slam|p2a: Alakazam
+|-damage|p2a: Alakazam|213\/313
+|
+|turn|53
+|choice|switch 5|move 3
+|
+|switch|p1a: Exeggutor|Exeggutor|283\/393 par
+|move|p2a: Alakazam|Seismic Toss|p1a: Exeggutor
+|-damage|p1a: Exeggutor|183\/393 par
+|
+|turn|54
+|choice|move 4|switch 4
+|
+|switch|p2a: Chansey|Chansey|225\/703 slp
+|move|p1a: Exeggutor|Stun Spore|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|55
+|choice|move 1|move 4
+|
+|cant|p2a: Chansey|slp
+|move|p1a: Exeggutor|Sleep Powder|p2a: Chansey
+|-fail|p2a: Chansey|slp
+|
+|turn|56
+|choice|move 1|move 4
+|
+|-curestatus|p2a: Chansey|slp
+|cant|p1a: Exeggutor|par
+|
+|turn|57
+|choice|move 1|move 3
+|
+|move|p2a: Chansey|Ice Beam|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|52\/393 par
+|move|p1a: Exeggutor|Sleep Powder|p2a: Chansey|[miss]
+|-miss|p1a: Exeggutor
+|
+|turn|58
+|choice|switch 2|move 2
+|
+|switch|p1a: Double Cake|Alakazam|313\/313 slp
+|move|p2a: Chansey|Seismic Toss|p1a: Double Cake
+|-damage|p1a: Double Cake|213\/313 slp
+|
+|turn|59
+|choice|move 2|move 4
+|
+|cant|p1a: Double Cake|slp
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|576\/703
+|
+|turn|60
+|choice|move 3|move 2
+|
+|cant|p1a: Double Cake|slp
+|move|p2a: Chansey|Seismic Toss|p1a: Double Cake
+|-damage|p1a: Double Cake|113\/313 slp
+|
+|turn|61
+|choice|move 3|move 2
+|
+|-curestatus|p1a: Double Cake|slp
+|move|p2a: Chansey|Seismic Toss|p1a: Double Cake
+|-damage|p1a: Double Cake|13\/313
+|
+|turn|62
+|choice|move 4|move 1
+|
+|move|p1a: Double Cake|Recover|p1a: Double Cake
+|-heal|p1a: Double Cake|169\/313
+|move|p2a: Chansey|Thunder Wave|p1a: Double Cake
+|-status|p1a: Double Cake|par
+|
+|turn|63
+|choice|move 3|move 2
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Double Cake
+|-damage|p1a: Double Cake|69\/313 par
+|move|p1a: Double Cake|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|turn|64
+|choice|move 4|move 2
+|
+|move|p1a: Double Cake|Recover|p1a: Double Cake
+|-heal|p1a: Double Cake|225\/313 par
+|move|p2a: Chansey|Seismic Toss|p1a: Double Cake
+|-damage|p1a: Double Cake|125\/313 par
+|
+|turn|65
+|choice|move 4|move 2
+|
+|move|p1a: Double Cake|Recover|p1a: Double Cake
+|-heal|p1a: Double Cake|281\/313 par
+|move|p2a: Chansey|Seismic Toss|p1a: Double Cake
+|-damage|p1a: Double Cake|181\/313 par
+|
+|turn|66
+|choice|move 4|move 2
+|
+|move|p1a: Double Cake|Recover|p1a: Double Cake
+|-heal|p1a: Double Cake|313\/313 par
+|move|p2a: Chansey|Seismic Toss|p1a: Double Cake
+|-damage|p1a: Double Cake|213\/313 par
+|
+|turn|67
+|choice|move 1|move 2
+|
+|move|p1a: Double Cake|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|449\/703 par
+|move|p2a: Chansey|Seismic Toss|p1a: Double Cake
+|-damage|p1a: Double Cake|113\/313 par
+|
+|turn|68
+|choice|move 4|move 2
+|
+|cant|p1a: Double Cake|par
+|cant|p2a: Chansey|par
+|
+|turn|69
+|choice|move 4|move 2
+|
+|move|p1a: Double Cake|Recover|p1a: Double Cake
+|-heal|p1a: Double Cake|269\/313 par
+|move|p2a: Chansey|Seismic Toss|p1a: Double Cake
+|-damage|p1a: Double Cake|169\/313 par
+|
+|turn|70
+|choice|move 1|move 2
+|
+|move|p1a: Double Cake|Psychic|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|221\/703 par
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|move|p2a: Chansey|Seismic Toss|p1a: Double Cake
+|-damage|p1a: Double Cake|69\/313 par
+|
+|turn|71
+|choice|move 1|move 4
+|
+|cant|p1a: Double Cake|par
+|cant|p2a: Chansey|par
+|
+|turn|72
+|choice|switch 2|switch 4
+|
+|switch|p1a: Exeggutor|Exeggutor|52\/393 par
+|switch|p2a: Alakazam|Alakazam|213\/313
+|
+|turn|73
+|choice|switch 5|move 3
+|
+|switch|p1a: Lapras|Lapras|463\/463 par
+|move|p2a: Alakazam|Seismic Toss|p1a: Lapras
+|-damage|p1a: Lapras|363\/463 par
+|
+|turn|74
+|choice|move 2|move 2
+|
+|move|p2a: Alakazam|Psychic|p1a: Lapras
+|-damage|p1a: Lapras|221\/463 par
+|move|p1a: Lapras|Body Slam|p2a: Alakazam
+|-damage|p2a: Alakazam|122\/313
+|
+|turn|75
+|choice|move 2|move 3
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Lapras
+|-damage|p1a: Lapras|121\/463 par
+|cant|p1a: Lapras|par
+|
+|turn|76
+|choice|move 2|move 2
+|
+|move|p2a: Alakazam|Psychic|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|choice|switch 2|
+|
+|switch|p1a: Double Cake|Alakazam|69\/313 par
+|turn|77
+|c|★HydreigonRoco|gg
+|c|★Stryxx|wp
+|choice|move 4|move 3
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Double Cake
+|-damage|p1a: Double Cake|0 fnt
+|faint|p1a: Double Cake
+|choice|switch 5|
+|
+|switch|p1a: Exeggutor|Exeggutor|52\/393 par
+|turn|78
+|choice|move 1|move 3
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|win|HydreigonRoco
+|player|p1
+|player|p2
+|raw|Stryxx's rating: 1428 &rarr; <strong>1397<\/strong><br \/>(-31 for losing)
+|raw|HydreigonRoco's rating: 1223 &rarr; <strong>1261<\/strong><br \/>(+38 for winning)
+|l|Stryxx

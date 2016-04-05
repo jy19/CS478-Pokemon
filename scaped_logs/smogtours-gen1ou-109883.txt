@@ -1,0 +1,301 @@
+﻿|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|J|Nails
+|J|Zenadark
+|player|p1|Nails|2
+|player|p2|Zenadark|164
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|seed|20868,16324,5285,3697
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|1
+|c|★Zenadark|hf 
+|choice|move 2|switch 2
+|
+|switch|p2a: Zapdos|Zapdos|383\/383
+|move|p1a: Alakazam|Thunder Wave|p2a: Zapdos
+|-status|p2a: Zapdos|par
+|
+|turn|2
+|c|★Nails|u2
+|choice|move 1|move 2
+|
+|move|p1a: Alakazam|Psychic|p2a: Zapdos
+|-damage|p2a: Zapdos|265\/383 par
+|-unboost|p2a: Zapdos|spd|1
+|-unboost|p2a: Zapdos|spa|1
+|cant|p2a: Zapdos|par
+|
+|turn|3
+|choice|move 1|move 2
+|
+|move|p1a: Alakazam|Psychic|p2a: Zapdos
+|-damage|p2a: Zapdos|99\/383 par
+|move|p2a: Zapdos|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|
+|turn|4
+|choice|move 1|switch 6
+|
+|switch|p2a: Rhydon|Rhydon|413\/413
+|move|p1a: Alakazam|Psychic|p2a: Rhydon
+|-damage|p2a: Rhydon|213\/413
+|
+|turn|5
+|choice|switch 3|move 1
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Rhydon|Substitute|p2a: Rhydon
+|-start|p2a: Rhydon|Substitute
+|-damage|p2a: Rhydon|110\/413
+|
+|turn|6
+|choice|move 1|move 4
+|
+|move|p1a: Exeggutor|Sleep Powder|p2a: Rhydon
+|-status|p2a: Rhydon|slp
+|cant|p2a: Rhydon|slp
+|
+|turn|7
+|choice|move 2|move 4
+|
+|move|p1a: Exeggutor|Psychic|p2a: Rhydon|[miss]
+|-miss|p1a: Exeggutor
+|cant|p2a: Rhydon|slp
+|
+|turn|8
+|choice|move 2|move 4
+|
+|move|p1a: Exeggutor|Psychic|p2a: Rhydon
+|-end|p2a: Rhydon|Substitute
+|-curestatus|p2a: Rhydon|slp
+|
+|turn|9
+|choice|move 2|switch 6
+|
+|switch|p2a: Zapdos|Zapdos|99\/383 par
+|move|p1a: Exeggutor|Psychic|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|choice||switch 2
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|10
+|choice|switch 3|move 1
+|
+|switch|p1a: Alakazam|Alakazam|313\/313 par
+|move|p2a: Gengar|Hypnosis|p1a: Alakazam|[miss]
+|-miss|p2a: Gengar
+|
+|turn|11
+|choice|move 1|move 4
+|
+|move|p2a: Gengar|Explosion|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|faint|p2a: Gengar
+|choice|switch 3|switch 4
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|turn|12
+|choice|move 1|move 1
+|
+|move|p2a: Exeggutor|Sleep Powder|p1a: Exeggutor
+|-status|p1a: Exeggutor|slp
+|-curestatus|p1a: Exeggutor|slp
+|
+|turn|13
+|c|★Nails|o.o
+|choice|move 1|move 1
+|
+|move|p1a: Exeggutor|Sleep Powder|p2a: Exeggutor
+|-status|p2a: Exeggutor|slp
+|cant|p2a: Exeggutor|slp
+|
+|turn|14
+|choice|switch 5|move 1
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|-curestatus|p2a: Exeggutor|slp
+|
+|turn|15
+|choice|switch 2|move 1
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|move|p2a: Exeggutor|Sleep Powder|p1a: Starmie|[miss]
+|-miss|p2a: Exeggutor
+|
+|turn|16
+|choice|move 4|move 1
+|
+|move|p1a: Starmie|Blizzard|p2a: Exeggutor|[miss]
+|-miss|p1a: Starmie
+|move|p2a: Exeggutor|Sleep Powder|p1a: Starmie
+|-status|p1a: Starmie|slp
+|
+|turn|17
+|choice|move 4|move 4
+|
+|cant|p1a: Starmie|slp
+|move|p2a: Exeggutor|Mega Drain|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|204\/323 slp
+|
+|turn|18
+|choice|switch 5|move 4
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Exeggutor|Mega Drain|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|371\/393
+|
+|turn|19
+|choice|move 1|switch 6
+|
+|switch|p2a: Rhydon|Rhydon|110\/413
+|move|p1a: Exeggutor|Sleep Powder|p2a: Rhydon
+|-status|p2a: Rhydon|slp
+|
+|turn|20
+|choice|switch 6|move 2
+|
+|switch|p1a: Zapdos|Zapdos|383\/383
+|cant|p2a: Rhydon|slp
+|
+|turn|21
+|choice|move 2|move 3
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|70\/413 slp
+|cant|p2a: Rhydon|slp
+|
+|turn|22
+|choice|move 2|move 3
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|34\/413 slp
+|-curestatus|p2a: Rhydon|slp
+|
+|turn|23
+|choice|move 2|move 3
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|choice||switch 5
+|
+|switch|p2a: Persian|Persian|333\/333
+|turn|24
+|choice|move 1|move 1
+|
+|move|p2a: Persian|Slash|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|236\/383
+|move|p1a: Zapdos|Thunder Wave|p2a: Persian
+|-status|p2a: Persian|par
+|
+|turn|25
+|choice|switch 2|move 1
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: Persian|Slash|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|357\/523
+|
+|turn|26
+|choice|move 2|move 1
+|
+|move|p2a: Persian|Slash|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|191\/523
+|move|p1a: Snorlax|Counter|p2a: Persian
+|-damage|p2a: Persian|1\/333 par
+|
+|turn|27
+|choice|move 1|move 4
+|
+|move|p1a: Snorlax|Body Slam|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|faint|p2a: Persian
+|choice||switch 6
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|turn|28
+|choice|switch 6|move 2
+|
+|switch|p1a: Exeggutor|Exeggutor|371\/393
+|move|p2a: Exeggutor|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|319\/393
+|
+|turn|29
+|choice|move 1|move 2
+|
+|move|p1a: Exeggutor|Sleep Powder|p2a: Exeggutor
+|-status|p2a: Exeggutor|slp
+|cant|p2a: Exeggutor|slp
+|
+|turn|30
+|choice|switch 2|move 2
+|
+|switch|p1a: Zapdos|Zapdos|236\/383
+|cant|p2a: Exeggutor|slp
+|
+|turn|31
+|choice|move 2|move 2
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|182\/393 slp
+|cant|p2a: Exeggutor|slp
+|
+|turn|32
+|choice|move 4|move 2
+|
+|move|p1a: Zapdos|Agility|p1a: Zapdos
+|-boost|p1a: Zapdos|spe|2
+|cant|p2a: Exeggutor|slp
+|
+|turn|33
+|choice|move 2|move 2
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|choice||switch 3
+|
+|switch|p2a: Cloyster|Cloyster|303\/303
+|turn|34
+|c|★Zenadark|gg 
+|c|★Nails|gg
+|choice|move 3|move 2
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Cloyster
+|-supereffective|p2a: Cloyster
+|-damage|p2a: Cloyster|18\/303
+|move|p2a: Cloyster|Blizzard|p1a: Zapdos|[miss]
+|-miss|p2a: Cloyster
+|
+|turn|35
+|choice|move 3|move 2
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Cloyster
+|-supereffective|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p2a: Cloyster
+|
+|win|Nails

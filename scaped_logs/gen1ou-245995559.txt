@@ -1,0 +1,413 @@
+﻿|join|prohart
+|join|markus1000
+|player|p1|prohart|102
+|player|p2|markus1000|20
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333\/333
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|1
+|
+|move|p2a: Gengar|Hypnosis|p1a: Jynx|[miss]
+|-miss|p2a: Gengar
+|move|p1a: Jynx|Psychic|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|147\/323
+|-unboost|p2a: Gengar|spd|1
+|-unboost|p2a: Gengar|spa|1
+|
+|turn|2
+|
+|move|p2a: Gengar|Hypnosis|p1a: Jynx
+|-status|p1a: Jynx|slp
+|cant|p1a: Jynx|slp
+|
+|turn|3
+|
+|move|p2a: Gengar|Explosion|p1a: Jynx
+|-crit|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|faint|p2a: Gengar
+|
+|switch|p2a: Victreebel|Victreebel|363\/363
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|turn|4
+|
+|move|p2a: Victreebel|Sleep Powder|p1a: Exeggutor
+|-status|p1a: Exeggutor|slp
+|cant|p1a: Exeggutor|slp
+|
+|turn|5
+|
+|move|p2a: Victreebel|Razor Leaf|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|340\/393 slp
+|cant|p1a: Exeggutor|slp
+|
+|turn|6
+|
+|move|p2a: Victreebel|Razor Leaf|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|283\/393 slp
+|cant|p1a: Exeggutor|slp
+|
+|turn|7
+|
+|move|p2a: Victreebel|Swords Dance|p2a: Victreebel
+|-boost|p2a: Victreebel|atk|2
+|cant|p1a: Exeggutor|slp
+|-curestatus|p1a: Exeggutor|slp
+|
+|turn|8
+|
+|move|p2a: Victreebel|Sleep Powder|p1a: Exeggutor|[miss]
+|-miss|p2a: Victreebel
+|move|p1a: Exeggutor|Sleep Powder|p2a: Victreebel
+|-status|p2a: Victreebel|slp
+|
+|turn|9
+|
+|switch|p2a: Moltres|Moltres|383\/383
+|move|p1a: Exeggutor|Psychic|p2a: Moltres
+|-damage|p2a: Moltres|283\/383
+|-unboost|p2a: Moltres|spd|1
+|-unboost|p2a: Moltres|spa|1
+|
+|turn|10
+|
+|switch|p1a: Slowbro|Slowbro|393\/393
+|move|p2a: Moltres|Fire Spin|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|386\/393
+|-activate|p1a: Slowbro|move: Fire Spin|[of] p2a: Moltres
+|
+|turn|11
+|
+|switch|p2a: Victreebel|Victreebel|363\/363 slp
+|cant|p1a: Slowbro|partiallytrapped
+|
+|-end|p1a: Slowbro|Fire Spin|[partiallytrapped]
+|turn|12
+|
+|cant|p2a: Victreebel|slp
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|
+|turn|13
+|
+|cant|p2a: Victreebel|slp
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|
+|turn|14
+|
+|cant|p2a: Victreebel|slp
+|move|p1a: Slowbro|Surf|p2a: Victreebel
+|-resisted|p2a: Victreebel
+|-damage|p2a: Victreebel|229\/363 slp
+|
+|turn|15
+|
+|cant|p2a: Victreebel|slp
+|-curestatus|p2a: Victreebel|slp
+|move|p1a: Slowbro|Surf|p2a: Victreebel
+|-resisted|p2a: Victreebel
+|-damage|p2a: Victreebel|85\/363
+|
+|turn|16
+|
+|move|p2a: Victreebel|Sleep Powder|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|cant|p1a: Slowbro|slp
+|
+|turn|17
+|
+|switch|p1a: Exeggutor|Exeggutor|283\/393
+|move|p2a: Victreebel|Razor Leaf|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|228\/393
+|
+|turn|18
+|
+|move|p2a: Victreebel|Hyper Beam|p1a: Exeggutor|[miss]
+|-miss|p2a: Victreebel
+|move|p1a: Exeggutor|Sleep Powder|p2a: Victreebel
+|-status|p2a: Victreebel|slp
+|
+|turn|19
+|
+|switch|p2a: Moltres|Moltres|283\/383
+|move|p1a: Exeggutor|Psychic|p2a: Moltres
+|-damage|p2a: Moltres|185\/383
+|
+|turn|20
+|
+|switch|p1a: Slowbro|Slowbro|386\/393 slp
+|move|p2a: Moltres|Fire Blast|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|209\/393 slp
+|
+|turn|21
+|
+|move|p2a: Moltres|Fire Blast|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|105\/393 slp
+|cant|p1a: Slowbro|slp
+|
+|turn|22
+|
+|move|p2a: Moltres|Sky Attack|p1a: Slowbro|[still]
+|-prepare|p2a: Moltres|Sky Attack|p1a: Slowbro
+|cant|p1a: Slowbro|slp
+|
+|turn|23
+|
+|move|p2a: Moltres|Sky Attack|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|
+|switch|p1a: Zapdos|Zapdos|383\/383
+|turn|24
+|
+|switch|p2a: Rhydon|Rhydon|413\/413
+|move|p1a: Zapdos|Thunderbolt|p2a: Rhydon
+|-immune|p2a: Rhydon|[msg]
+|
+|turn|25
+|
+|switch|p1a: Exeggutor|Exeggutor|228\/393
+|move|p2a: Rhydon|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|136\/393
+|-status|p1a: Exeggutor|par
+|
+|turn|26
+|
+|move|p2a: Rhydon|Hyper Beam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|turn|27
+|
+|switch|p2a: Slowbro|Slowbro|393\/393
+|move|p1a: Snorlax|Surf|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|358\/393
+|
+|turn|28
+|
+|move|p1a: Snorlax|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|263\/393
+|move|p2a: Slowbro|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|
+|turn|29
+|
+|move|p2a: Slowbro|Surf|p1a: Snorlax
+|-damage|p1a: Snorlax|407\/523 par
+|move|p1a: Snorlax|Body Slam|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-damage|p2a: Slowbro|63\/393
+|-status|p2a: Slowbro|par
+|
+|turn|30
+|
+|move|p1a: Snorlax|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|
+|switch|p2a: Moltres|Moltres|185\/383
+|turn|31
+|
+|move|p2a: Moltres|Fire Spin|p1a: Snorlax
+|-damage|p1a: Snorlax|379\/523 par
+|-activate|p1a: Snorlax|move: Fire Spin|[of] p2a: Moltres
+|cant|p1a: Snorlax|partiallytrapped
+|
+|turn|32
+|
+|move|p2a: Moltres|Fire Spin|p1a: Snorlax
+|-damage|p1a: Snorlax|351\/523 par
+|cant|p1a: Snorlax|partiallytrapped
+|
+|turn|33
+|
+|switch|p1a: Zapdos|Zapdos|383\/383
+|move|p2a: Moltres|Fire Spin|p1a: Zapdos
+|-damage|p1a: Zapdos|363\/383
+|-activate|p1a: Zapdos|move: Fire Spin|[of] p2a: Moltres
+|
+|turn|34
+|
+|switch|p2a: Rhydon|Rhydon|413\/413
+|cant|p1a: Zapdos|partiallytrapped
+|
+|-end|p1a: Zapdos|Fire Spin|[partiallytrapped]
+|turn|35
+|
+|switch|p1a: Snorlax|Snorlax|351\/523 par
+|move|p2a: Rhydon|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|177\/523 par
+|
+|turn|36
+|
+|switch|p2a: Moltres|Moltres|185\/383
+|move|p1a: Snorlax|Surf|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|85\/383
+|
+|turn|37
+|
+|move|p2a: Moltres|Fire Blast|p1a: Snorlax|[miss]
+|-miss|p2a: Moltres
+|cant|p1a: Snorlax|par
+|
+|turn|38
+|
+|move|p2a: Moltres|Fire Blast|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|turn|39
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|474\/703
+|
+|turn|40
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|
+|turn|41
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|354\/703 par
+|move|p2a: Chansey|Ice Beam|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|183\/313 par
+|
+|turn|42
+|
+|switch|p2a: Rhydon|Rhydon|413\/413
+|move|p1a: Alakazam|Body Slam|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|393\/413
+|-status|p2a: Rhydon|par
+|
+|turn|43
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|313\/313 par
+|cant|p2a: Rhydon|par
+|
+|turn|44
+|c|★markus1000|body slam alakazam
+|c|★markus1000|new meta
+|
+|move|p1a: Alakazam|Psychic|p2a: Rhydon
+|-damage|p2a: Rhydon|179\/413 par
+|cant|p2a: Rhydon|par
+|
+|turn|45
+|
+|switch|p2a: Chansey|Chansey|354\/703 par
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|216\/703 par
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|
+|turn|46
+|
+|cant|p1a: Alakazam|par
+|cant|p2a: Chansey|par
+|
+|turn|47
+|
+|cant|p1a: Alakazam|par
+|cant|p2a: Chansey|par
+|
+|turn|48
+|
+|cant|p1a: Alakazam|par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|567\/703 par
+|
+|turn|49
+|
+|cant|p1a: Alakazam|par
+|move|p2a: Chansey|Thunderbolt|p1a: Alakazam
+|-damage|p1a: Alakazam|271\/313 par
+|
+|turn|50
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|370\/703 par
+|move|p2a: Chansey|Thunderbolt|p1a: Alakazam
+|-damage|p1a: Alakazam|228\/313 par
+|
+|turn|51
+|
+|switch|p2a: Victreebel|Victreebel|85\/363 slp
+|move|p1a: Alakazam|Psychic|p2a: Victreebel
+|-supereffective|p2a: Victreebel
+|-damage|p2a: Victreebel|0 fnt
+|faint|p2a: Victreebel
+|
+|switch|p2a: Moltres|Moltres|85\/383
+|turn|52
+|
+|move|p2a: Moltres|Fire Spin|p1a: Alakazam|[miss]
+|-miss|p2a: Moltres
+|move|p1a: Alakazam|Psychic|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|
+|switch|p2a: Rhydon|Rhydon|179\/413 par
+|turn|53
+|
+|move|p1a: Alakazam|Psychic|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|
+|switch|p2a: Chansey|Chansey|370\/703 par
+|turn|54
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|128\/703 par
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|move|p2a: Chansey|Ice Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|187\/313 par
+|
+|turn|55
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|win|prohart
+|raw|Ladder updating...
+|c|★markus1000|hilarios

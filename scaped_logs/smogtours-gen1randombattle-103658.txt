@@ -1,0 +1,266 @@
+﻿|J|Nails
+|J|TDK
+|player|p1|Nails|1
+|player|p2|TDK|96
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|seed|7408,11061,5820,14507
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Vileplume|Vileplume, L90|318\/318
+|switch|p2a: Hitmonlee|Hitmonlee, L90|273\/273
+|turn|1
+|J|FlamingVictini
+|J|bouff
+|choice|move 3|switch 6
+|
+|switch|p2a: Parasect|Parasect, L90|291\/291
+|move|p1a: Vileplume|Body Slam|p2a: Parasect
+|-damage|p2a: Parasect|226\/291
+|
+|turn|2
+|c|+bouff|Lose,Tdkek
+|choice|move 2|move 2
+|
+|move|p1a: Vileplume|Sleep Powder|p2a: Parasect
+|-status|p2a: Parasect|slp
+|cant|p2a: Parasect|slp
+|
+|turn|3
+|c|★TDK|no!!
+|J|Slurmz
+|choice|move 3|switch 3
+|
+|switch|p2a: Nidoran-M|Nidoran-M, L96|283\/283
+|move|p1a: Vileplume|Body Slam|p2a: Nidoran-M
+|-damage|p2a: Nidoran-M|195\/283
+|-status|p2a: Nidoran-M|par
+|
+|turn|4
+|c|+bouff|__yes__
+|c|+Slurmz|Gen 1 rand bats
+|c|+Slurmz|For spl
+|J|KratosMana
+|choice|move 3|move 4
+|
+|move|p1a: Vileplume|Body Slam|p2a: Nidoran-M
+|-damage|p2a: Nidoran-M|112\/283 par
+|move|p2a: Nidoran-M|Leer|p1a: Vileplume
+|-unboost|p1a: Vileplume|def|1
+|
+|turn|5
+|J|ULT CHAMAEL
+|c|+Slurmz|much competitive
+|L|KratosMana
+|choice|switch 5|move 2
+|
+|switch|p1a: Kakuna|Kakuna, L99|290\/290
+|move|p2a: Nidoran-M|Double-Edge|p1a: Kakuna
+|-damage|p1a: Kakuna|215\/290
+|-damage|p2a: Nidoran-M|94\/283 par|[from] recoil|[of] p1a: Kakuna
+|
+|turn|6
+|c|★Nails|nice
+|c|★TDK|i was predicted
+|c|★Nails|kakuna did damage
+|choice|move 1|move 3
+|
+|move|p1a: Kakuna|Poison Sting|p2a: Nidoran-M
+|-resisted|p2a: Nidoran-M
+|-damage|p2a: Nidoran-M|87\/283 par
+|move|p2a: Nidoran-M|Rest|p2a: Nidoran-M
+|-status|p2a: Nidoran-M|slp
+|-heal|p2a: Nidoran-M|283\/283 slp|[silent]
+|-status|p2a: Nidoran-M|slp|[from] move: Rest
+|
+|turn|7
+|choice|switch 3|move 2
+|
+|switch|p1a: Jynx|Jynx, L79|265\/265
+|cant|p2a: Nidoran-M|slp
+|
+|turn|8
+|choice|move 3|move 2
+|
+|move|p1a: Jynx|Psychic|p2a: Nidoran-M
+|-supereffective|p2a: Nidoran-M
+|-damage|p2a: Nidoran-M|67\/283 slp
+|-curestatus|p2a: Nidoran-M|slp
+|
+|turn|9
+|choice|move 3|move 2
+|
+|move|p1a: Jynx|Psychic|p2a: Nidoran-M
+|-supereffective|p2a: Nidoran-M
+|-damage|p2a: Nidoran-M|0 fnt
+|faint|p2a: Nidoran-M
+|choice||switch 2
+|
+|switch|p2a: Kingler|Kingler, L85|267\/267
+|turn|10
+|choice|switch 3|move 2
+|
+|switch|p1a: Kakuna|Kakuna, L99|215\/290
+|move|p2a: Kingler|Body Slam|p1a: Kakuna
+|-damage|p1a: Kakuna|130\/290
+|-status|p1a: Kakuna|par
+|
+|turn|11
+|J|III
+|choice|move 1|move 3
+|
+|move|p2a: Kingler|Swords Dance|p2a: Kingler
+|-boost|p2a: Kingler|atk|2
+|cant|p1a: Kakuna|par
+|
+|turn|12
+|L|III
+|choice|move 2|move 1
+|
+|move|p2a: Kingler|Crabhammer|p1a: Kakuna
+|-crit|p1a: Kakuna
+|-damage|p1a: Kakuna|0 fnt
+|faint|p1a: Kakuna
+|choice|switch 4|
+|
+|switch|p1a: Magnemite|Magnemite, L96|243\/243
+|turn|13
+|choice|move 1|move 1
+|
+|move|p2a: Kingler|Crabhammer|p1a: Magnemite
+|-crit|p1a: Magnemite
+|-damage|p1a: Magnemite|134\/243
+|move|p1a: Magnemite|Thunder Wave|p2a: Kingler
+|-status|p2a: Kingler|par
+|
+|turn|14
+|c|★TDK|wait
+|c|+Slurmz|its
+|c|★TDK|water & ice are special right
+|c|+Slurmz|Special
+|c|★Nails|kingler's special is kinda ass
+|c|★TDK|why is
+|c|+Slurmz|ye
+|c|★TDK|this SD then
+|J|River Martini
+|c|★Nails|because it has body slam
+|c|★TDK|.cry
+|c|+Slurmz|Lol
+|choice|move 3|move 2
+|
+|move|p1a: Magnemite|Thunder|p2a: Kingler
+|-supereffective|p2a: Kingler
+|-damage|p2a: Kingler|0 fnt
+|faint|p2a: Kingler
+|c|★TDK|0
+|choice||switch 4
+|
+|switch|p2a: Tauros|Tauros, L79|280\/280
+|turn|15
+|c|★TDK|sending out the big guns
+|choice|switch 2|move 2
+|
+|switch|p1a: Aerodactyl|Aerodactyl, L90|327\/327
+|move|p2a: Tauros|Earthquake|p1a: Aerodactyl
+|-immune|p1a: Aerodactyl|[msg]
+|
+|turn|16
+|c|★TDK|ok
+|choice|move 3|move 1
+|
+|move|p1a: Aerodactyl|Reflect|p1a: Aerodactyl
+|-start|p1a: Aerodactyl|Reflect
+|move|p2a: Tauros|Blizzard|p1a: Aerodactyl
+|-crit|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|62\/327
+|
+|turn|17
+|choice|move 2|move 1
+|
+|move|p1a: Aerodactyl|Hyper Beam|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|49\/280
+|move|p2a: Tauros|Blizzard|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|0 fnt
+|faint|p1a: Aerodactyl
+|choice|switch 5|
+|
+|switch|p1a: Vileplume|Vileplume, L90|318\/318
+|turn|18
+|choice|move 3|switch 6
+|
+|switch|p2a: Hitmonlee|Hitmonlee, L90|273\/273
+|move|p1a: Vileplume|Body Slam|p2a: Hitmonlee
+|-crit|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|124\/273
+|
+|turn|19
+|c|★TDK|stop!!
+|L|FlamingVictini
+|choice|move 3|move 4
+|
+|move|p2a: Hitmonlee|Mimic|p1a: Vileplume
+|-start|p2a: Hitmonlee|Mimic|Swords Dance
+|move|p1a: Vileplume|Body Slam|p2a: Hitmonlee
+|-crit|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|0 fnt
+|faint|p2a: Hitmonlee
+|c|★TDK|bad hitmonlee
+|c|★Nails|easy tbh
+|choice||switch 6
+|
+|switch|p2a: Tauros|Tauros, L79|49\/280
+|turn|20
+|c|★TDK|ok
+|c|★TDK|what is higher odds
+|c|★Nails|no frz plz
+|c|★TDK|freeze or crit hyper beam
+|c|★Nails|crit beam probably doesnt kill
+|c|★Nails|wanna find out
+|c|★TDK|i wont even crit
+|c|★TDK|probably
+|choice|move 3|move 4
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Vileplume
+|-damage|p1a: Vileplume|186\/318
+|move|p1a: Vileplume|Body Slam|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|L|Slurmz
+|c|★TDK|rip
+|choice||switch 5
+|
+|switch|p2a: Kabutops|Kabutops, L85|276\/276
+|turn|21
+|c|★TDK|no razor leaf
+|c|★TDK|pls
+|choice|move 1|move 1
+|
+|move|p2a: Kabutops|Swords Dance|p2a: Kabutops
+|-boost|p2a: Kabutops|atk|2
+|move|p1a: Vileplume|Mega Drain|p2a: Kabutops
+|-supereffective|p2a: Kabutops
+|-damage|p2a: Kabutops|56\/276
+|-heal|p1a: Vileplume|296\/318|[from] drain|[of] p2a: Kabutops
+|
+|turn|22
+|choice|move 1|move 3
+|
+|move|p2a: Kabutops|Hyper Beam|p1a: Vileplume
+|-damage|p1a: Vileplume|55\/318
+|move|p1a: Vileplume|Mega Drain|p2a: Kabutops
+|-supereffective|p2a: Kabutops
+|-damage|p2a: Kabutops|0 fnt
+|-heal|p1a: Vileplume|83\/318|[from] drain|[of] p2a: Kabutops
+|faint|p2a: Kabutops
+|c|★TDK|GG
+|-message|TDK forfeited.
+|
+|win|Nails

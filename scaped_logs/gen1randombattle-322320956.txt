@@ -1,0 +1,390 @@
+﻿|j|pineapple pizza
+|j|Kel9901
+|player|p1|pineapple pizza|2
+|player|p2|Kel9901|169
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|seed|50255,7177,47072,18934
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Seadra|Seadra, L90|282\/282
+|switch|p2a: Primeape|Primeape, L90|300\/300
+|turn|1
+|choice|move 3|move 4
+|
+|move|p2a: Primeape|Body Slam|p1a: Seadra
+|-crit|p1a: Seadra
+|-damage|p1a: Seadra|149\/282
+|move|p1a: Seadra|Smokescreen|p2a: Primeape
+|-unboost|p2a: Primeape|accuracy|1
+|
+|turn|2
+|choice|move 4|move 4
+|
+|move|p2a: Primeape|Body Slam|p1a: Seadra
+|-damage|p1a: Seadra|87\/282
+|move|p1a: Seadra|Hydro Pump|p2a: Primeape
+|-damage|p2a: Primeape|139\/300
+|
+|turn|3
+|c|★Kel9901|lol smokescreen
+|c|★Kel9901|poopyhead move
+|choice|move 4|move 2
+|
+|move|p2a: Primeape|Hyper Beam|p1a: Seadra
+|-crit|p1a: Seadra
+|-damage|p1a: Seadra|0 fnt
+|faint|p1a: Seadra
+|c|★Kel9901|hah no misses
+|choice|switch 5|
+|
+|switch|p1a: Alakazam|Alakazam, L79|249\/249
+|turn|4
+|choice|move 3|move 4
+|
+|move|p1a: Alakazam|Reflect|p1a: Alakazam
+|-start|p1a: Alakazam|Reflect
+|move|p2a: Primeape|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|189\/249
+|
+|turn|5
+|choice|move 1|move 4
+|
+|move|p1a: Alakazam|Psychic|p2a: Primeape
+|-crit|p2a: Primeape
+|-supereffective|p2a: Primeape
+|-damage|p2a: Primeape|0 fnt
+|faint|p2a: Primeape
+|choice||switch 6
+|
+|switch|p2a: Articuno|Articuno, L79|304\/304
+|turn|6
+|choice|move 2|move 4
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Articuno
+|-status|p2a: Articuno|par
+|cant|p2a: Articuno|par
+|
+|turn|7
+|choice|move 1|move 4
+|
+|move|p1a: Alakazam|Psychic|p2a: Articuno
+|-damage|p2a: Articuno|221\/304 par
+|move|p2a: Articuno|Blizzard|p1a: Alakazam
+|-damage|p1a: Alakazam|92\/249
+|
+|turn|8
+|choice|move 4|move 4
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|216\/249
+|cant|p2a: Articuno|par
+|
+|turn|9
+|choice|switch 4|move 4
+|
+|switch|p1a: Jynx|Jynx, L79|265\/265
+|move|p2a: Articuno|Blizzard|p1a: Jynx|[miss]
+|-miss|p2a: Articuno
+|
+|turn|10
+|choice|move 1|move 3
+|
+|move|p1a: Jynx|Blizzard|p2a: Articuno
+|-damage|p2a: Articuno|123\/304 par
+|move|p2a: Articuno|Mimic|p1a: Jynx
+|-start|p2a: Articuno|Mimic|Mimic
+|
+|turn|11
+|c|★Kel9901|OMG
+|c|★pineapple pizza|lmao
+|choice|move 1|move 1
+|
+|move|p1a: Jynx|Blizzard|p2a: Articuno|[miss]
+|-miss|p1a: Jynx
+|move|p2a: Articuno|Rest|p2a: Articuno
+|-status|p2a: Articuno|slp
+|-heal|p2a: Articuno|304\/304 slp|[silent]
+|-status|p2a: Articuno|slp|[from] move: Rest
+|
+|turn|12
+|choice|switch 3|move 3
+|
+|switch|p1a: Kabutops|Kabutops, L85|276\/276
+|cant|p2a: Articuno|slp
+|
+|turn|13
+|c|★Kel9901|u and ur shit
+|choice|move 3|switch 2
+|
+|switch|p2a: Bellsprout|Bellsprout, L96|291\/291
+|move|p1a: Kabutops|Swords Dance|p1a: Kabutops
+|-boost|p1a: Kabutops|atk|2
+|
+|turn|14
+|choice|move 2|move 2
+|
+|move|p1a: Kabutops|Body Slam|p2a: Bellsprout
+|-damage|p2a: Bellsprout|91\/291
+|move|p2a: Bellsprout|Razor Leaf|p1a: Kabutops
+|-crit|p1a: Kabutops
+|-supereffective|p1a: Kabutops
+|-damage|p1a: Kabutops|0 fnt
+|faint|p1a: Kabutops
+|choice|switch 2|
+|
+|switch|p1a: Wigglytuff|Wigglytuff, L90|435\/435
+|turn|15
+|choice|move 3|move 1
+|
+|move|p2a: Bellsprout|Sleep Powder|p1a: Wigglytuff
+|-status|p1a: Wigglytuff|slp
+|cant|p1a: Wigglytuff|slp
+|
+|turn|16
+|choice|move 3|move 4
+|
+|move|p2a: Bellsprout|Body Slam|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|338\/435 slp
+|cant|p1a: Wigglytuff|slp
+|
+|turn|17
+|choice|move 3|move 2
+|
+|move|p2a: Bellsprout|Razor Leaf|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|264\/435 slp
+|cant|p1a: Wigglytuff|slp
+|
+|turn|18
+|choice|move 3|move 2
+|
+|move|p2a: Bellsprout|Razor Leaf|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|183\/435 slp
+|cant|p1a: Wigglytuff|slp
+|
+|turn|19
+|choice|move 3|move 2
+|
+|move|p2a: Bellsprout|Razor Leaf|p1a: Wigglytuff
+|-crit|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|19\/435 slp
+|-curestatus|p1a: Wigglytuff|slp
+|
+|turn|20
+|choice|move 3|move 4
+|
+|move|p2a: Bellsprout|Body Slam|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|0 fnt
+|faint|p1a: Wigglytuff
+|choice|switch 3|
+|
+|switch|p1a: Jynx|Jynx, L79|265\/265
+|turn|21
+|choice|move 1|move 4
+|
+|move|p1a: Jynx|Blizzard|p2a: Bellsprout
+|-supereffective|p2a: Bellsprout
+|-damage|p2a: Bellsprout|0 fnt
+|faint|p2a: Bellsprout
+|choice||switch 5
+|
+|switch|p2a: Blastoise|Blastoise, L85|308\/308
+|turn|22
+|choice|move 3|move 3
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: Blastoise
+|-status|p2a: Blastoise|slp
+|cant|p2a: Blastoise|slp
+|
+|turn|23
+|choice|switch 4|switch 3
+|
+|switch|p1a: Alakazam|Alakazam, L79|216\/249
+|switch|p2a: Flareon|Flareon, L90|300\/300
+|
+|turn|24
+|choice|move 2|move 3
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Flareon
+|-status|p2a: Flareon|par
+|move|p2a: Flareon|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|80\/249
+|
+|turn|25
+|choice|move 3|move 3
+|
+|move|p1a: Alakazam|Reflect|p1a: Alakazam
+|-start|p1a: Alakazam|Reflect
+|move|p2a: Flareon|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|12\/249
+|-status|p1a: Alakazam|par
+|
+|turn|26
+|choice|move 4|move 4
+|
+|move|p2a: Flareon|Quick Attack|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|c|★Kel9901|lol poopyhead
+|choice|switch 6|
+|
+|switch|p1a: Marowak|Marowak, L90|291\/291
+|turn|27
+|c|★pineapple pizza|no u
+|choice|move 1|switch 2
+|
+|switch|p2a: Articuno|Articuno, L79|304\/304 slp
+|move|p1a: Marowak|Seismic Toss|p2a: Articuno
+|-damage|p2a: Articuno|214\/304 slp
+|
+|turn|28
+|choice|move 1|move 4
+|
+|-curestatus|p2a: Articuno|slp
+|move|p1a: Marowak|Seismic Toss|p2a: Articuno
+|-damage|p2a: Articuno|124\/304
+|
+|turn|29
+|choice|switch 4|move 4
+|
+|switch|p1a: Jynx|Jynx, L79|265\/265
+|move|p2a: Articuno|Blizzard|p1a: Jynx
+|-resisted|p1a: Jynx
+|-damage|p1a: Jynx|200\/265
+|
+|turn|30
+|choice|switch 4|move 1
+|
+|switch|p1a: Marowak|Marowak, L90|291\/291
+|move|p2a: Articuno|Rest|p2a: Articuno
+|-status|p2a: Articuno|slp
+|-heal|p2a: Articuno|304\/304 slp|[silent]
+|-status|p2a: Articuno|slp|[from] move: Rest
+|
+|turn|31
+|c|★Kel9901|ur mom is fagit
+|choice|move 1|move 4
+|
+|cant|p2a: Articuno|slp
+|move|p1a: Marowak|Seismic Toss|p2a: Articuno
+|-damage|p2a: Articuno|214\/304 slp
+|
+|turn|32
+|choice|move 3|move 4
+|
+|-curestatus|p2a: Articuno|slp
+|move|p1a: Marowak|Body Slam|p2a: Articuno
+|-damage|p2a: Articuno|158\/304
+|-status|p2a: Articuno|par
+|
+|turn|33
+|choice|move 1|move 4
+|
+|move|p1a: Marowak|Seismic Toss|p2a: Articuno
+|-damage|p2a: Articuno|68\/304 par
+|cant|p2a: Articuno|par
+|
+|turn|34
+|c|★Kel9901|die die die
+|c|★Kel9901|FUCK
+|c|★pineapple pizza|l0l
+|c|★Kel9901|NOOOOOOOOOOOOOOOOOOOOO
+|choice|move 1|move 1
+|
+|move|p1a: Marowak|Seismic Toss|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|faint|p2a: Articuno
+|choice||switch 4
+|
+|switch|p2a: Marowak|Marowak, L90|291\/291
+|turn|35
+|choice|move 4|move 2
+|
+|move|p1a: Marowak|Blizzard|p2a: Marowak
+|-supereffective|p2a: Marowak
+|-damage|p2a: Marowak|122\/291
+|move|p2a: Marowak|Earthquake|p1a: Marowak
+|-damage|p1a: Marowak|205\/291
+|
+|turn|36
+|choice|move 4|move 4
+|
+|move|p1a: Marowak|Blizzard|p2a: Marowak
+|-supereffective|p2a: Marowak
+|-damage|p2a: Marowak|0 fnt
+|faint|p2a: Marowak
+|choice||switch 3
+|
+|switch|p2a: Blastoise|Blastoise, L85|308\/308 slp
+|turn|37
+|choice|move 2|move 2
+|
+|cant|p2a: Blastoise|slp
+|move|p1a: Marowak|Earthquake|p2a: Blastoise
+|-damage|p2a: Blastoise|210\/308 slp
+|
+|turn|38
+|choice|move 2|move 3
+|
+|cant|p2a: Blastoise|slp
+|move|p1a: Marowak|Earthquake|p2a: Blastoise
+|-damage|p2a: Blastoise|112\/308 slp
+|
+|turn|39
+|c|★Kel9901|SLEEPYHEAD AHHh
+|choice|move 2|move 3
+|
+|cant|p2a: Blastoise|slp
+|move|p1a: Marowak|Earthquake|p2a: Blastoise
+|-damage|p2a: Blastoise|9\/308 slp
+|
+|turn|40
+|c|★pineapple pizza|gg
+|c|★pineapple pizza|l0lz
+|c|★Kel9901|WAKE UP
+|choice|move 3|move 3
+|
+|-curestatus|p2a: Blastoise|slp
+|move|p1a: Marowak|Body Slam|p2a: Blastoise
+|-crit|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|c|★Kel9901|NO U
+|choice||switch 2
+|
+|switch|p2a: Flareon|Flareon, L90|300\/300 par
+|turn|41
+|c|★pineapple pizza|gg kid
+|choice|move 2|move 2
+|
+|move|p1a: Marowak|Earthquake|p2a: Flareon
+|-supereffective|p2a: Flareon
+|-damage|p2a: Flareon|69\/300 par
+|move|p2a: Flareon|Fire Blast|p1a: Marowak
+|-damage|p1a: Marowak|0 fnt
+|faint|p1a: Marowak
+|c|★pineapple pizza|m f w
+|choice|switch 4|
+|
+|switch|p1a: Jynx|Jynx, L79|200\/265
+|turn|42
+|choice|move 2|move 1
+|
+|move|p1a: Jynx|Psychic|p2a: Flareon
+|-damage|p2a: Flareon|4\/300 par
+|move|p2a: Flareon|Hyper Beam|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|
+|win|Kel9901
+|player|p1
+|player|p2
+|c|★pineapple pizza|m f w
+|c|★pineapple pizza|fucking
+|c|★Kel9901|HHHHHHHHH
+|c|★Kel9901|LOOOOOOOOOOL
+|l|pineapple pizza

@@ -1,0 +1,354 @@
+﻿|j|Giju
+|j|Sniffles
+|player|p1|Giju|198
+|player|p2|Sniffles|293
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|seed|38890,26415,23037,62745
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: GZA|Alakazam|313\/313
+|turn|1
+|choice|switch 3|move 2
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: GZA|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|turn|2
+|choice|move 3|switch 6
+|
+|switch|p2a: Method Man|Rhydon|413\/413
+|move|p1a: Chansey|Ice Beam|p2a: Method Man
+|-supereffective|p2a: Method Man
+|-damage|p2a: Method Man|163\/413
+|
+|turn|3
+|choice|switch 2|switch 6
+|
+|switch|p2a: GZA|Alakazam|313\/313
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|
+|turn|4
+|choice|switch 2|move 2
+|
+|switch|p1a: Chansey|Chansey|703\/703 par
+|move|p2a: GZA|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|
+|turn|5
+|choice|move 3|move 1
+|
+|move|p2a: GZA|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|575\/703 par
+|move|p1a: Chansey|Ice Beam|p2a: GZA
+|-damage|p2a: GZA|253\/313
+|
+|turn|6
+|choice|move 3|move 4
+|
+|move|p2a: GZA|Reflect|p2a: GZA
+|-start|p2a: GZA|Reflect
+|cant|p1a: Chansey|par
+|
+|turn|7
+|choice|move 3|move 1
+|
+|move|p2a: GZA|Psychic|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|336\/703 par
+|cant|p1a: Chansey|par
+|
+|turn|8
+|choice|move 4|move 1
+|
+|move|p2a: GZA|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|202\/703 par
+|cant|p1a: Chansey|par
+|
+|turn|9
+|choice|move 4|move 1
+|
+|move|p2a: GZA|Psychic|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|choice|switch 2|
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|turn|10
+|choice|move 1|move 2
+|
+|move|p2a: GZA|Thunder Wave|p1a: Exeggutor
+|-status|p1a: Exeggutor|par
+|cant|p1a: Exeggutor|par
+|
+|turn|11
+|choice|move 1|move 1
+|
+|move|p2a: GZA|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|340\/393 par
+|cant|p1a: Exeggutor|par
+|
+|turn|12
+|c|★Giju|haxe
+|choice|move 1|move 1
+|
+|move|p2a: GZA|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|284\/393 par
+|-unboost|p1a: Exeggutor|spd|1
+|-unboost|p1a: Exeggutor|spa|1
+|move|p1a: Exeggutor|Sleep Powder|p2a: GZA
+|-status|p2a: GZA|slp
+|
+|turn|13
+|c|★Sniffles|yeah no kidding
+|choice|switch 3|move 1
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|cant|p2a: GZA|slp
+|
+|turn|14
+|choice|move 3|move 3
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: GZA
+|-damage|p2a: GZA|153\/313 slp
+|-curestatus|p2a: GZA|slp
+|
+|turn|15
+|choice|switch 3|move 3
+|
+|switch|p1a: Exeggutor|Exeggutor|284\/393 par
+|move|p2a: GZA|Recover|p2a: GZA
+|-heal|p2a: GZA|309\/313
+|
+|turn|16
+|choice|move 1|switch 6
+|
+|switch|p2a: Method Man|Rhydon|163\/413
+|cant|p1a: Exeggutor|par
+|
+|turn|17
+|choice|move 3|move 4
+|
+|move|p2a: Method Man|Substitute|p2a: Method Man
+|-start|p2a: Method Man|Substitute
+|-damage|p2a: Method Man|60\/413
+|move|p1a: Exeggutor|Psychic|p2a: Method Man
+|-crit|p2a: Method Man
+|-end|p2a: Method Man|Substitute
+|
+|turn|18
+|choice|move 3|switch 6
+|
+|switch|p2a: GZA|Alakazam|309\/313
+|cant|p1a: Exeggutor|par
+|
+|turn|19
+|choice|move 1|move 1
+|
+|move|p2a: GZA|Psychic|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|175\/393 par
+|move|p1a: Exeggutor|Sleep Powder|p2a: GZA
+|-status|p2a: GZA|slp
+|
+|turn|20
+|choice|switch 3|switch 5
+|
+|switch|p2a: Raekwon|Zapdos|383\/383
+|switch|p1a: Alakazam|Alakazam|313\/313
+|
+|turn|21
+|choice|switch 5|move 4
+|
+|switch|p1a: Golem|Golem|363\/363
+|move|p2a: Raekwon|Thunder Wave|p1a: Golem
+|-immune|p1a: Golem|[msg]
+|
+|turn|22
+|choice|move 1|switch 4
+|
+|switch|p2a: Ol Dirty Bastard|Exeggutor|393\/393
+|move|p1a: Golem|Earthquake|p2a: Ol Dirty Bastard
+|-resisted|p2a: Ol Dirty Bastard
+|-damage|p2a: Ol Dirty Bastard|326\/393
+|
+|turn|23
+|choice|switch 3|move 1
+|
+|switch|p1a: Exeggutor|Exeggutor|175\/393 par
+|move|p2a: Ol Dirty Bastard|Mega Drain|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|151\/393 par
+|-heal|p2a: Ol Dirty Bastard|338\/393|[from] drain|[of] p1a: Exeggutor
+|
+|turn|24
+|choice|move 3|switch 3
+|
+|switch|p2a: Ghostface Killah|Tauros|353\/353
+|move|p1a: Exeggutor|Psychic|p2a: Ghostface Killah
+|-damage|p2a: Ghostface Killah|200\/353
+|
+|turn|25
+|choice|move 3|move 4
+|
+|move|p2a: Ghostface Killah|Blizzard|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|choice|switch 6|
+|
+|switch|p1a: Lapras|Lapras|463\/463
+|turn|26
+|choice|move 4|switch 5
+|
+|switch|p2a: GZA|Alakazam|309\/313 slp
+|move|p1a: Lapras|Blizzard|p2a: GZA
+|-damage|p2a: GZA|191\/313 slp
+|
+|turn|27
+|choice|move 2|move 3
+|
+|cant|p2a: GZA|slp
+|move|p1a: Lapras|Body Slam|p2a: GZA
+|-damage|p2a: GZA|91\/313 slp
+|
+|turn|28
+|choice|move 2|move 3
+|
+|cant|p2a: GZA|slp
+|move|p1a: Lapras|Body Slam|p2a: GZA
+|-damage|p2a: GZA|0 fnt
+|faint|p2a: GZA
+|choice||switch 2
+|
+|switch|p2a: RZA|Dragonite|385\/385
+|turn|29
+|choice|move 4|move 4
+|
+|move|p2a: RZA|Wrap|p1a: Lapras|[miss]
+|-miss|p2a: RZA
+|move|p1a: Lapras|Blizzard|p2a: RZA
+|-supereffective|p2a: RZA
+|-damage|p2a: RZA|0 fnt
+|faint|p2a: RZA
+|choice||switch 4
+|
+|switch|p2a: Raekwon|Zapdos|383\/383
+|turn|30
+|choice|switch 3|switch 6
+|
+|switch|p2a: Method Man|Rhydon|60\/413
+|switch|p1a: Golem|Golem|363\/363
+|
+|turn|31
+|choice|move 1|move 3
+|
+|move|p1a: Golem|Earthquake|p2a: Method Man
+|-crit|p2a: Method Man
+|-supereffective|p2a: Method Man
+|-damage|p2a: Method Man|0 fnt
+|faint|p2a: Method Man
+|choice||switch 3
+|
+|switch|p2a: Ol Dirty Bastard|Exeggutor|338\/393
+|turn|32
+|choice|switch 5|move 3
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|move|p2a: Ol Dirty Bastard|Sleep Powder|p1a: Alakazam|[miss]
+|-miss|p2a: Ol Dirty Bastard
+|
+|turn|33
+|choice|move 1|move 3
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Ol Dirty Bastard
+|-status|p2a: Ol Dirty Bastard|par
+|move|p2a: Ol Dirty Bastard|Sleep Powder|p1a: Alakazam
+|-status|p1a: Alakazam|slp
+|
+|turn|34
+|choice|switch 3|switch 5
+|
+|switch|p1a: Lapras|Lapras|463\/463
+|switch|p2a: Ghostface Killah|Tauros|200\/353
+|
+|turn|35
+|choice|move 4|move 1
+|
+|move|p2a: Ghostface Killah|Body Slam|p1a: Lapras
+|-damage|p1a: Lapras|341\/463
+|move|p1a: Lapras|Blizzard|p2a: Ghostface Killah
+|-crit|p2a: Ghostface Killah
+|-damage|p2a: Ghostface Killah|0 fnt
+|faint|p2a: Ghostface Killah
+|choice||switch 5
+|
+|switch|p2a: Ol Dirty Bastard|Exeggutor|338\/393 par
+|turn|36
+|choice|move 4|move 1
+|
+|move|p1a: Lapras|Blizzard|p2a: Ol Dirty Bastard
+|-supereffective|p2a: Ol Dirty Bastard
+|-damage|p2a: Ol Dirty Bastard|101\/393 par
+|move|p2a: Ol Dirty Bastard|Mega Drain|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|226\/463
+|-heal|p2a: Ol Dirty Bastard|158\/393 par|[from] drain|[of] p1a: Lapras
+|
+|turn|37
+|choice|move 4|switch 6
+|
+|switch|p2a: Raekwon|Zapdos|383\/383
+|move|p1a: Lapras|Blizzard|p2a: Raekwon
+|-supereffective|p2a: Raekwon
+|-damage|p2a: Raekwon|132\/383
+|-status|p2a: Raekwon|frz
+|
+|turn|38
+|c|★Sniffles|gg
+|choice|move 2|move 1
+|
+|cant|p2a: Raekwon|frz
+|move|p1a: Lapras|Body Slam|p2a: Raekwon
+|-damage|p2a: Raekwon|68\/383 frz
+|
+|turn|39
+|choice|move 2|move 1
+|
+|cant|p2a: Raekwon|frz
+|move|p1a: Lapras|Body Slam|p2a: Raekwon
+|-damage|p2a: Raekwon|0 fnt
+|faint|p2a: Raekwon
+|choice||switch 6
+|
+|switch|p2a: Ol Dirty Bastard|Exeggutor|158\/393 par
+|turn|40
+|choice|move 4|move 2
+|
+|move|p1a: Lapras|Blizzard|p2a: Ol Dirty Bastard
+|-supereffective|p2a: Ol Dirty Bastard
+|-damage|p2a: Ol Dirty Bastard|0 fnt
+|faint|p2a: Ol Dirty Bastard
+|
+|win|Giju
+|player|p1
+|player|p2
+|c|★Giju|g
+|raw|Giju's rating: 1338 &rarr; <strong>1345<\/strong><br \/>(+7 for winning)
+|raw|Sniffles's rating: 1075 &rarr; <strong>1067<\/strong><br \/>(-8 for losing)
+|l|Sniffles

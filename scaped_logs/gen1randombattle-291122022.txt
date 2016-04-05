@@ -1,0 +1,34 @@
+﻿|join|PickledBeets
+|join|kmph
+|player|p1|PickledBeets|162
+|player|p2|kmph|101
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|19110,41519,40635,33528
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Hitmonchan|Hitmonchan, L90|273\/273
+|switch|p2a: Zapdos|Zapdos, L79|304\/304
+|turn|1
+|c|★kmph|hi there
+|choice|move 3|move 2
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Hitmonchan
+|-supereffective|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|126\/273
+|move|p1a: Hitmonchan|Counter|p2a: Zapdos
+|-fail|p1a: Hitmonchan
+|
+|turn|2
+|-message|PickledBeets forfeited.
+|
+|win|kmph
+|leave|PickledBeets
+|player|p1
+|raw|PickledBeets's rating: 1301 &rarr; <strong>1270<\/strong><br \/>(-31 for losing)
+|raw|kmph's rating: 1078 &rarr; <strong>1122<\/strong><br \/>(+44 for winning)

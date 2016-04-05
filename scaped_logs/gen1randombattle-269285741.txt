@@ -1,0 +1,126 @@
+﻿|join|sciberbia
+|join|Ramplestilskin
+|player|p1|sciberbia|52
+|player|p2|Ramplestilskin|163
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Machoke|Machoke, L85|310\/310
+|switch|p2a: Caterpie|Caterpie, L99|290\/290
+|turn|1
+|
+|switch|p2a: Scyther|Scyther, L90|309\/309
+|move|p1a: Machoke|Earthquake|p2a: Scyther
+|-immune|p2a: Scyther|[msg]
+|
+|turn|2
+|
+|move|p2a: Scyther|Swords Dance|p2a: Scyther
+|-boost|p2a: Scyther|atk|2
+|move|p1a: Machoke|Mega Kick|p2a: Scyther|[miss]
+|-miss|p1a: Machoke
+|
+|turn|3
+|
+|move|p2a: Scyther|Slash|p1a: Machoke
+|-crit|p1a: Machoke
+|-damage|p1a: Machoke|178\/310
+|move|p1a: Machoke|Mega Kick|p2a: Scyther|[miss]
+|-miss|p1a: Machoke
+|
+|turn|4
+|
+|move|p2a: Scyther|Agility|p2a: Scyther
+|-boost|p2a: Scyther|spe|2
+|move|p1a: Machoke|Mega Kick|p2a: Scyther
+|-damage|p2a: Scyther|227\/309
+|
+|turn|5
+|
+|move|p2a: Scyther|Hyper Beam|p1a: Machoke
+|-damage|p1a: Machoke|0 fnt
+|faint|p1a: Machoke
+|
+|switch|p1a: Dewgong|Dewgong, L85|327\/327
+|turn|6
+|
+|move|p2a: Scyther|Slash|p1a: Dewgong
+|-crit|p1a: Dewgong
+|-damage|p1a: Dewgong|199\/327
+|move|p1a: Dewgong|Blizzard|p2a: Scyther
+|-supereffective|p2a: Scyther
+|-damage|p2a: Scyther|0 fnt
+|faint|p2a: Scyther
+|
+|switch|p2a: Mew|Mew, L74|300\/300
+|turn|7
+|
+|switch|p1a: Chansey|Chansey, L79|557\/557
+|move|p2a: Mew|Fissure|p1a: Chansey|[miss]
+|-miss|p2a: Mew
+|
+|turn|8
+|
+|move|p2a: Mew|Fissure|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|-ohko
+|faint|p1a: Chansey
+|
+|switch|p1a: Dewgong|Dewgong, L85|199\/327
+|turn|9
+|
+|move|p2a: Mew|Fissure|p1a: Dewgong
+|-damage|p1a: Dewgong|0 fnt
+|-ohko
+|faint|p1a: Dewgong
+|
+|switch|p1a: Lickitung|Lickitung, L90|345\/345
+|turn|10
+|
+|move|p2a: Mew|Fissure|p1a: Lickitung|[miss]
+|-miss|p2a: Mew
+|move|p1a: Lickitung|Swords Dance|p1a: Lickitung
+|-boost|p1a: Lickitung|atk|2
+|
+|turn|11
+|
+|move|p2a: Mew|Fissure|p1a: Lickitung|[miss]
+|-miss|p2a: Mew
+|move|p1a: Lickitung|Swords Dance|p1a: Lickitung
+|-boost|p1a: Lickitung|atk|2
+|
+|turn|12
+|
+|move|p2a: Mew|Fissure|p1a: Lickitung
+|-damage|p1a: Lickitung|0 fnt
+|-ohko
+|faint|p1a: Lickitung
+|
+|switch|p1a: Exeggutor|Exeggutor, L79|312\/312
+|turn|13
+|
+|move|p2a: Mew|Fissure|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|-ohko
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Zubat|Zubat, L96|272\/272
+|turn|14
+|
+|move|p2a: Mew|Psychic|p1a: Zubat
+|-crit|p1a: Zubat
+|-supereffective|p1a: Zubat
+|-damage|p1a: Zubat|0 fnt
+|faint|p1a: Zubat
+|
+|win|Ramplestilskin
+|raw|sciberbia's rating: 1384 &rarr; <strong>1352<\/strong><br \/>(-32 for losing)
+|raw|Ramplestilskin's rating: 1147 &rarr; <strong>1187<\/strong><br \/>(+40 for winning)
+|leave|sciberbia
+|player|p1

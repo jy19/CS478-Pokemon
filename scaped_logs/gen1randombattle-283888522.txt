@@ -1,0 +1,116 @@
+﻿|join|XianJu
+|join|arafalo2
+|player|p1|XianJu|130
+|player|p2|arafalo2|1
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Weepinbell|Weepinbell, L85|284\/284
+|switch|p2a: Fearow|Fearow, L90|300\/300
+|turn|1
+|c|★arafalo2|Gg
+|
+|switch|p1a: Golduck|Golduck, L85|310\/310
+|move|p2a: Fearow|Drill Peck|p1a: Golduck
+|-damage|p1a: Golduck|214\/310
+|
+|turn|2
+|
+|switch|p2a: Electrode|Electrode, L90|291\/291
+|move|p1a: Golduck|Ice Beam|p2a: Electrode
+|-crit|p2a: Electrode
+|-damage|p2a: Electrode|171\/291
+|
+|turn|3
+|
+|switch|p1a: Weepinbell|Weepinbell, L85|284\/284
+|move|p2a: Electrode|Thunder Wave|p1a: Weepinbell
+|-status|p1a: Weepinbell|par
+|
+|turn|4
+|
+|move|p2a: Electrode|Explosion|p1a: Weepinbell
+|-crit|p1a: Weepinbell
+|-damage|p1a: Weepinbell|0 fnt
+|faint|p1a: Weepinbell
+|faint|p2a: Electrode
+|
+|switch|p2a: Nidorino|Nidorino, L90|293\/293
+|switch|p1a: Hypno|Hypno, L85|318\/318
+|turn|5
+|
+|move|p2a: Nidorino|Body Slam|p1a: Hypno
+|-damage|p1a: Hypno|255\/318
+|-status|p1a: Hypno|par
+|cant|p1a: Hypno|par
+|
+|turn|6
+|
+|move|p2a: Nidorino|Substitute|p2a: Nidorino
+|-start|p2a: Nidorino|Substitute
+|-damage|p2a: Nidorino|220\/293
+|move|p1a: Hypno|Psychic|p2a: Nidorino
+|-supereffective|p2a: Nidorino
+|-end|p2a: Nidorino|Substitute
+|
+|turn|7
+|
+|move|p2a: Nidorino|Substitute|p2a: Nidorino
+|-start|p2a: Nidorino|Substitute
+|-damage|p2a: Nidorino|147\/293
+|cant|p1a: Hypno|par
+|
+|turn|8
+|
+|move|p2a: Nidorino|Double-Edge|p1a: Hypno
+|-damage|p1a: Hypno|181\/318 par
+|-damage|p2a: Nidorino|129\/293|[from] recoil|[of] p1a: Hypno
+|move|p1a: Hypno|Hypnosis|p2a: Nidorino
+|-status|p2a: Nidorino|slp
+|
+|turn|9
+|
+|cant|p2a: Nidorino|slp
+|cant|p1a: Hypno|par
+|
+|turn|10
+|
+|cant|p2a: Nidorino|slp
+|move|p1a: Hypno|Psychic|p2a: Nidorino
+|-supereffective|p2a: Nidorino
+|-end|p2a: Nidorino|Substitute
+|
+|turn|11
+|
+|switch|p2a: Fearow|Fearow, L90|300\/300
+|switch|p1a: Golduck|Golduck, L85|214\/310
+|
+|turn|12
+|
+|move|p2a: Fearow|Drill Peck|p1a: Golduck
+|-damage|p1a: Golduck|117\/310
+|move|p1a: Golduck|Ice Beam|p2a: Fearow
+|-crit|p2a: Fearow
+|-supereffective|p2a: Fearow
+|-damage|p2a: Fearow|7\/300
+|
+|turn|13
+|
+|move|p2a: Fearow|Hyper Beam|p1a: Golduck|[miss]
+|-miss|p2a: Fearow
+|move|p1a: Golduck|Surf|p2a: Fearow
+|-damage|p2a: Fearow|0 fnt
+|faint|p2a: Fearow
+|-message|arafalo2 forfeited.
+|
+|win|XianJu
+|leave|arafalo2
+|player|p2
+|raw|XianJu's rating: 1300 &rarr; <strong>1323<\/strong><br \/>(+23 for winning)
+|raw|arafalo2's rating: 1275 &rarr; <strong>1252<\/strong><br \/>(-23 for losing)

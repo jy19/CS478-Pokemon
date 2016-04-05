@@ -1,0 +1,349 @@
+﻿|join|Agarest
+|join|XianJu
+|player|p1|Agarest|161
+|player|p2|XianJu|130
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|17699,24280,58325,15773
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Sandslash|Sandslash, L85|301\/301
+|switch|p2a: Ivysaur|Ivysaur, L85|276\/276
+|turn|1
+|choice|move 1|move 1
+|
+|move|p1a: Sandslash|Earthquake|p2a: Ivysaur
+|-damage|p2a: Ivysaur|149\/276
+|move|p2a: Ivysaur|Razor Leaf|p1a: Sandslash
+|-crit|p1a: Sandslash
+|-supereffective|p1a: Sandslash
+|-damage|p1a: Sandslash|43\/301
+|
+|turn|2
+|join|C3POX
+|choice|move 1|move 3
+|
+|move|p1a: Sandslash|Earthquake|p2a: Ivysaur
+|-damage|p2a: Ivysaur|16\/276
+|move|p2a: Ivysaur|Leech Seed|p1a: Sandslash
+|-start|p1a: Sandslash|move: Leech Seed
+|
+|turn|3
+|choice|move 2|switch 4
+|
+|switch|p2a: Seaking|Seaking, L90|327\/327
+|move|p1a: Sandslash|Body Slam|p2a: Seaking
+|-damage|p2a: Seaking|254\/327
+|-status|p2a: Seaking|par
+|-damage|p1a: Sandslash|25\/301|[from] Leech Seed|[of] p2a: Seaking
+|-heal|p2a: Seaking|272\/327 par|[silent]
+|
+|turn|4
+|choice|switch 4|switch 3
+|
+|switch|p1a: Starmie|Starmie, L79|257\/257
+|switch|p2a: Hypno|Hypno, L85|318\/318
+|
+|turn|5
+|choice|move 3|move 3
+|
+|move|p1a: Starmie|Blizzard|p2a: Hypno
+|-damage|p2a: Hypno|259\/318
+|move|p2a: Hypno|Thunder Wave|p1a: Starmie
+|-status|p1a: Starmie|par
+|
+|turn|6
+|leave|C3POX
+|choice|move 3|move 1
+|
+|move|p2a: Hypno|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|209\/257 par
+|-unboost|p1a: Starmie|spd|1
+|-unboost|p1a: Starmie|spa|1
+|move|p1a: Starmie|Blizzard|p2a: Hypno
+|-damage|p2a: Hypno|216\/318
+|
+|turn|7
+|choice|switch 2|switch 3
+|
+|switch|p2a: Seaking|Seaking, L90|272\/327 par
+|switch|p1a: Eevee|Eevee, L96|300\/300
+|
+|turn|8
+|choice|move 1|move 2
+|
+|move|p1a: Eevee|Body Slam|p2a: Seaking
+|-damage|p2a: Seaking|176\/327 par
+|cant|p2a: Seaking|par
+|
+|turn|9
+|choice|move 1|move 2
+|
+|move|p1a: Eevee|Body Slam|p2a: Seaking
+|-damage|p2a: Seaking|76\/327 par
+|cant|p2a: Seaking|par
+|
+|turn|10
+|choice|move 1|switch 2
+|
+|switch|p2a: Omanyte|Omanyte, L96|262\/262
+|move|p1a: Eevee|Body Slam|p2a: Omanyte
+|-crit|p2a: Omanyte
+|-resisted|p2a: Omanyte
+|-damage|p2a: Omanyte|194\/262
+|
+|turn|11
+|choice|move 3|move 4
+|
+|move|p1a: Eevee|Toxic|p2a: Omanyte
+|-status|p2a: Omanyte|tox
+|move|p2a: Omanyte|Hydro Pump|p1a: Eevee
+|-damage|p1a: Eevee|139\/300
+|-damage|p2a: Omanyte|178\/262 tox|[from] tox|[of] p1a: Eevee
+|
+|turn|12
+|choice|switch 2|move 4
+|
+|switch|p1a: Starmie|Starmie, L79|209\/257 par
+|move|p2a: Omanyte|Hydro Pump|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|134\/257 par
+|-damage|p2a: Omanyte|146\/262 tox|[from] tox|[of] p1a: Starmie
+|
+|turn|13
+|choice|move 1|move 3
+|
+|move|p2a: Omanyte|Seismic Toss|p1a: Starmie
+|-damage|p1a: Starmie|38\/257 par
+|-damage|p2a: Omanyte|98\/262 tox|[from] tox|[of] p1a: Starmie
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|166\/257 par
+|
+|turn|14
+|choice|move 1|move 3
+|
+|move|p2a: Omanyte|Seismic Toss|p1a: Starmie
+|-damage|p1a: Starmie|70\/257 par
+|-damage|p2a: Omanyte|34\/262 tox|[from] tox|[of] p1a: Starmie
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|198\/257 par
+|
+|turn|15
+|choice|move 1|move 3
+|
+|move|p2a: Omanyte|Seismic Toss|p1a: Starmie
+|-damage|p1a: Starmie|102\/257 par
+|-damage|p2a: Omanyte|0 fnt|[from] tox|[of] p1a: Starmie
+|faint|p2a: Omanyte
+|choice||switch 4
+|
+|switch|p2a: Ivysaur|Ivysaur, L85|16\/276
+|turn|16
+|choice|switch 4|move 1
+|
+|switch|p1a: Sandslash|Sandslash, L85|25\/301
+|move|p2a: Ivysaur|Razor Leaf|p1a: Sandslash
+|-crit|p1a: Sandslash
+|-supereffective|p1a: Sandslash
+|-damage|p1a: Sandslash|0 fnt
+|faint|p1a: Sandslash
+|choice|switch 2|
+|
+|switch|p1a: Eevee|Eevee, L96|139\/300
+|turn|17
+|choice|move 1|switch 6
+|
+|switch|p2a: Weezing|Weezing, L90|300\/300
+|move|p1a: Eevee|Body Slam|p2a: Weezing
+|-crit|p2a: Weezing
+|-damage|p2a: Weezing|171\/300
+|
+|turn|18
+|choice|move 1|move 4
+|
+|move|p1a: Eevee|Body Slam|p2a: Weezing
+|-crit|p2a: Weezing
+|-damage|p2a: Weezing|46\/300
+|move|p2a: Weezing|Sludge|p1a: Eevee
+|-damage|p1a: Eevee|41\/300
+|
+|turn|19
+|choice|move 1|switch 3
+|
+|switch|p2a: Hypno|Hypno, L85|216\/318
+|move|p1a: Eevee|Body Slam|p2a: Hypno
+|-damage|p2a: Hypno|118\/318
+|
+|turn|20
+|choice|switch 4|move 1
+|
+|switch|p1a: Starmie|Starmie, L79|102\/257 par
+|move|p2a: Hypno|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|47\/257 par
+|
+|turn|21
+|choice|move 1|move 1
+|
+|move|p2a: Hypno|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|choice|switch 6|
+|
+|switch|p1a: Porygon|Porygon, L85|284\/284
+|turn|22
+|choice|move 2|move 3
+|
+|move|p2a: Hypno|Thunder Wave|p1a: Porygon
+|-status|p1a: Porygon|par
+|move|p1a: Porygon|Blizzard|p2a: Hypno
+|-damage|p2a: Hypno|61\/318
+|
+|turn|23
+|choice|move 2|move 4
+|
+|move|p2a: Hypno|Rest|p2a: Hypno
+|-status|p2a: Hypno|slp
+|-heal|p2a: Hypno|318\/318 slp|[silent]
+|-status|p2a: Hypno|slp|[from] move: Rest
+|move|p1a: Porygon|Blizzard|p2a: Hypno|[miss]
+|-miss|p1a: Porygon
+|
+|turn|24
+|choice|switch 3|move 1
+|
+|switch|p1a: Poliwhirl|Poliwhirl, L85|284\/284
+|cant|p2a: Hypno|slp
+|
+|turn|25
+|choice|move 1|switch 5
+|
+|switch|p2a: Electrode|Electrode, L90|291\/291
+|move|p1a: Poliwhirl|Amnesia|p1a: Poliwhirl
+|-boost|p1a: Poliwhirl|spd|2
+|-boost|p1a: Poliwhirl|spa|2
+|
+|turn|26
+|choice|switch 5|move 2
+|
+|switch|p1a: Raichu|Raichu, L85|276\/276
+|move|p2a: Electrode|Thunder Wave|p1a: Raichu
+|-status|p1a: Raichu|par
+|
+|turn|27
+|choice|move 2|move 4
+|
+|move|p2a: Electrode|Reflect|p2a: Electrode
+|-start|p2a: Electrode|Reflect
+|cant|p1a: Raichu|par
+|
+|turn|28
+|choice|move 2|move 1
+|
+|move|p2a: Electrode|Explosion|p1a: Raichu
+|-crit|p1a: Raichu
+|-damage|p1a: Raichu|0 fnt
+|faint|p1a: Raichu
+|faint|p2a: Electrode
+|choice|switch 5|switch 3
+|
+|switch|p1a: Poliwhirl|Poliwhirl, L85|284\/284
+|switch|p2a: Weezing|Weezing, L90|46\/300
+|turn|29
+|choice|move 3|move 2
+|
+|move|p1a: Poliwhirl|Surf|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|choice||switch 6
+|
+|switch|p2a: Ivysaur|Ivysaur, L85|16\/276
+|turn|30
+|choice|move 3|move 2
+|
+|move|p1a: Poliwhirl|Surf|p2a: Ivysaur
+|-crit|p2a: Ivysaur
+|-resisted|p2a: Ivysaur
+|-damage|p2a: Ivysaur|0 fnt
+|faint|p2a: Ivysaur
+|choice||switch 2
+|
+|switch|p2a: Seaking|Seaking, L90|76\/327 par
+|turn|31
+|choice|move 1|move 1
+|
+|move|p1a: Poliwhirl|Amnesia|p1a: Poliwhirl
+|-boost|p1a: Poliwhirl|spd|2
+|-boost|p1a: Poliwhirl|spa|2
+|move|p2a: Seaking|Hyper Beam|p1a: Poliwhirl
+|-damage|p1a: Poliwhirl|135\/284
+|
+|turn|32
+|-mustrecharge|p2a: Seaking
+|-mustrecharge|p2a: Seaking
+|choice|move 1|move 1
+|
+|move|p1a: Poliwhirl|Amnesia|p1a: Poliwhirl
+|-boost|p1a: Poliwhirl|spd|2
+|-boost|p1a: Poliwhirl|spa|2
+|cant|p2a: Seaking|recharge
+|
+|turn|33
+|choice|move 3|move 1
+|
+|move|p1a: Poliwhirl|Surf|p2a: Seaking
+|-resisted|p2a: Seaking
+|-damage|p2a: Seaking|0 fnt
+|faint|p2a: Seaking
+|choice||switch 5
+|
+|switch|p2a: Hypno|Hypno, L85|318\/318 slp
+|turn|34
+|choice|move 3|move 3
+|
+|move|p1a: Poliwhirl|Surf|p2a: Hypno
+|-crit|p2a: Hypno
+|-damage|p2a: Hypno|207\/318 slp
+|-curestatus|p2a: Hypno|slp
+|
+|turn|35
+|choice|move 3|move 3
+|
+|move|p1a: Poliwhirl|Surf|p2a: Hypno
+|-damage|p2a: Hypno|46\/318
+|move|p2a: Hypno|Thunder Wave|p1a: Poliwhirl
+|-status|p1a: Poliwhirl|par
+|
+|turn|36
+|choice|move 3|move 4
+|
+|move|p2a: Hypno|Rest|p2a: Hypno
+|-status|p2a: Hypno|slp
+|-heal|p2a: Hypno|318\/318 slp|[silent]
+|-status|p2a: Hypno|slp|[from] move: Rest
+|cant|p1a: Poliwhirl|par
+|
+|turn|37
+|choice|move 3|move 1
+|
+|cant|p2a: Hypno|slp
+|move|p1a: Poliwhirl|Surf|p2a: Hypno
+|-damage|p2a: Hypno|130\/318 slp
+|
+|turn|38
+|choice|move 3|move 1
+|
+|-curestatus|p2a: Hypno|slp
+|move|p1a: Poliwhirl|Surf|p2a: Hypno
+|-damage|p2a: Hypno|0 fnt
+|faint|p2a: Hypno
+|
+|win|Agarest
+|c|★Agarest|gg

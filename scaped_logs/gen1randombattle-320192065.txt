@@ -1,0 +1,284 @@
+﻿|j|Snap5
+|j|shattedpants
+|player|p1|Snap5|153
+|player|p2|shattedpants|266
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|49623,14007,49654,43713
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Aerodactyl|Aerodactyl, L90|327\/327
+|switch|p2a: Electabuzz|Electabuzz, L85|284\/284
+|turn|1
+|choice|switch 5|move 3
+|
+|switch|p1a: Marowak|Marowak, L90|291\/291
+|move|p2a: Electabuzz|Thunder Wave|p1a: Marowak
+|-immune|p1a: Marowak|[msg]
+|
+|turn|2
+|choice|move 1|switch 6
+|
+|switch|p2a: Wigglytuff|Wigglytuff, L90|435\/435
+|move|p1a: Marowak|Body Slam|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|359\/435
+|
+|turn|3
+|choice|switch 4|move 1
+|
+|switch|p1a: Pinsir|Pinsir, L85|284\/284
+|move|p2a: Wigglytuff|Blizzard|p1a: Pinsir
+|-crit|p1a: Pinsir
+|-damage|p1a: Pinsir|108\/284
+|
+|turn|4
+|choice|move 3|move 1
+|
+|move|p1a: Pinsir|Submission|p2a: Wigglytuff|[miss]
+|-miss|p1a: Pinsir
+|move|p2a: Wigglytuff|Blizzard|p1a: Pinsir
+|-damage|p1a: Pinsir|28\/284
+|-status|p1a: Pinsir|frz
+|
+|turn|5
+|choice|switch 3|move 4
+|
+|switch|p1a: Magneton|Magneton, L90|273\/273
+|move|p2a: Wigglytuff|Hyper Beam|p1a: Magneton
+|-damage|p1a: Magneton|147\/273
+|
+|turn|6
+|-mustrecharge|p2a: Wigglytuff
+|-mustrecharge|p2a: Wigglytuff
+|choice|move 1|move 1
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|182\/435
+|cant|p2a: Wigglytuff|recharge
+|
+|turn|7
+|choice|move 1|switch 3
+|
+|switch|p2a: Dugtrio|Dugtrio, L85|233\/233
+|move|p1a: Magneton|Thunderbolt|p2a: Dugtrio
+|-immune|p2a: Dugtrio|[msg]
+|
+|turn|8
+|choice|switch 4|move 2
+|
+|switch|p1a: Marowak|Marowak, L90|291\/291
+|move|p2a: Dugtrio|Slash|p1a: Marowak
+|-crit|p1a: Marowak
+|-damage|p1a: Marowak|226\/291
+|
+|turn|9
+|choice|move 3|move 3
+|
+|move|p2a: Dugtrio|Sand Attack|p1a: Marowak
+|-unboost|p1a: Marowak|accuracy|1
+|move|p1a: Marowak|Blizzard|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-damage|p2a: Dugtrio|93\/233
+|-status|p2a: Dugtrio|frz
+|
+|turn|10
+|choice|move 1|switch 2
+|
+|switch|p2a: Goldeen|Goldeen, L96|281\/281
+|move|p1a: Marowak|Body Slam|p2a: Goldeen
+|-damage|p2a: Goldeen|217\/281
+|
+|turn|11
+|choice|switch 4|move 3
+|
+|switch|p1a: Magneton|Magneton, L90|147\/273
+|move|p2a: Goldeen|Blizzard|p1a: Magneton
+|-damage|p1a: Magneton|88\/273
+|
+|turn|12
+|choice|switch 4|switch 4
+|
+|switch|p2a: Rhydon|Rhydon, L79|328\/328
+|switch|p1a: Marowak|Marowak, L90|226\/291
+|
+|turn|13
+|choice|move 3|move 3
+|
+|move|p1a: Marowak|Blizzard|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|115\/328
+|move|p2a: Rhydon|Body Slam|p1a: Marowak
+|-damage|p1a: Marowak|169\/291
+|
+|turn|14
+|choice|move 4|move 4
+|
+|move|p1a: Marowak|Earthquake|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|choice||switch 3
+|
+|switch|p2a: Wigglytuff|Wigglytuff, L90|182\/435
+|turn|15
+|choice|switch 4|move 1
+|
+|switch|p1a: Magneton|Magneton, L90|88\/273
+|move|p2a: Wigglytuff|Blizzard|p1a: Magneton
+|-damage|p1a: Magneton|35\/273
+|
+|turn|16
+|choice|move 1|switch 2
+|
+|switch|p2a: Dugtrio|Dugtrio, L85|93\/233 frz
+|move|p1a: Magneton|Thunderbolt|p2a: Dugtrio
+|-immune|p2a: Dugtrio|[msg]
+|
+|turn|17
+|choice|move 4|move 4
+|
+|cant|p2a: Dugtrio|frz
+|move|p1a: Magneton|Mimic|p2a: Dugtrio
+|-start|p1a: Magneton|Mimic|Slash
+|
+|turn|18
+|choice|move 4|move 4
+|
+|cant|p2a: Dugtrio|frz
+|move|p1a: Magneton|Slash|p2a: Dugtrio
+|-crit|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|choice||switch 6
+|
+|switch|p2a: Electabuzz|Electabuzz, L85|284\/284
+|turn|19
+|choice|switch 4|move 2
+|
+|switch|p1a: Marowak|Marowak, L90|169\/291
+|move|p2a: Electabuzz|Seismic Toss|p1a: Marowak
+|-damage|p1a: Marowak|84\/291
+|
+|turn|20
+|choice|move 4|move 2
+|
+|move|p2a: Electabuzz|Seismic Toss|p1a: Marowak
+|-damage|p1a: Marowak|0 fnt
+|faint|p1a: Marowak
+|choice|switch 2|
+|
+|switch|p1a: Grimer|Grimer, L96|348\/348
+|turn|21
+|choice|move 4|move 1
+|
+|move|p2a: Electabuzz|Psychic|p1a: Grimer
+|-crit|p1a: Grimer
+|-supereffective|p1a: Grimer
+|-damage|p1a: Grimer|43\/348
+|move|p1a: Grimer|Body Slam|p2a: Electabuzz
+|-damage|p2a: Electabuzz|202\/284
+|
+|turn|22
+|choice|switch 3|move 2
+|
+|switch|p1a: Pinsir|Pinsir, L85|28\/284 frz
+|move|p2a: Electabuzz|Seismic Toss|p1a: Pinsir
+|-damage|p1a: Pinsir|0 fnt
+|faint|p1a: Pinsir
+|choice|switch 6|
+|
+|switch|p1a: Jolteon|Jolteon, L79|265\/265
+|turn|23
+|choice|move 4|move 1
+|
+|move|p1a: Jolteon|Body Slam|p2a: Electabuzz
+|-crit|p2a: Electabuzz
+|-damage|p2a: Electabuzz|91\/284
+|move|p2a: Electabuzz|Psychic|p1a: Jolteon
+|-damage|p1a: Jolteon|212\/265
+|
+|turn|24
+|choice|move 4|move 3
+|
+|move|p1a: Jolteon|Body Slam|p2a: Electabuzz
+|-damage|p2a: Electabuzz|36\/284
+|move|p2a: Electabuzz|Thunder Wave|p1a: Jolteon
+|-status|p1a: Jolteon|par
+|
+|turn|25
+|choice|move 4|move 4
+|
+|move|p2a: Electabuzz|Thunderbolt|p1a: Jolteon
+|-crit|p1a: Jolteon
+|-resisted|p1a: Jolteon
+|-damage|p1a: Jolteon|135\/265 par
+|move|p1a: Jolteon|Body Slam|p2a: Electabuzz
+|-damage|p2a: Electabuzz|0 fnt
+|faint|p2a: Electabuzz
+|choice||switch 2
+|
+|switch|p2a: Wigglytuff|Wigglytuff, L90|182\/435
+|turn|26
+|choice|move 1|move 3
+|
+|move|p2a: Wigglytuff|Double-Edge|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|-damage|p2a: Wigglytuff|149\/435|[from] recoil|[of] p1a: Jolteon
+|faint|p1a: Jolteon
+|choice|switch 4|
+|
+|switch|p1a: Magneton|Magneton, L90|35\/273
+|turn|27
+|choice|move 3|move 4
+|
+|move|p1a: Magneton|Hyper Beam|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|15\/435
+|move|p2a: Wigglytuff|Hyper Beam|p1a: Magneton
+|-crit|p1a: Magneton
+|-damage|p1a: Magneton|0 fnt
+|faint|p1a: Magneton
+|choice|switch 5|
+|
+|switch|p1a: Aerodactyl|Aerodactyl, L90|327\/327
+|turn|28
+|choice|move 3|move 2
+|
+|move|p1a: Aerodactyl|Double-Edge|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|0 fnt
+|-damage|p1a: Aerodactyl|324\/327|[from] recoil|[of] p2a: Wigglytuff
+|faint|p2a: Wigglytuff
+|choice||switch 4
+|
+|switch|p2a: Goldeen|Goldeen, L96|217\/281
+|turn|29
+|choice|move 3|move 3
+|
+|move|p1a: Aerodactyl|Double-Edge|p2a: Goldeen
+|-damage|p2a: Goldeen|119\/281
+|-damage|p1a: Aerodactyl|300\/327|[from] recoil|[of] p2a: Goldeen
+|move|p2a: Goldeen|Blizzard|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|130\/327
+|
+|turn|30
+|choice|move 2|move 3
+|
+|move|p1a: Aerodactyl|Hyper Beam|p2a: Goldeen|[miss]
+|-miss|p1a: Aerodactyl
+|move|p2a: Goldeen|Blizzard|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|0 fnt
+|faint|p1a: Aerodactyl
+|-message|Snap5 forfeited.
+|
+|win|shattedpants
+|player|p1
+|player|p2
+|raw|Snap5's rating: 1297 &rarr; <strong>1261<\/strong><br \/>(-36 for losing)
+|raw|shattedpants's rating: 1136 &rarr; <strong>1172<\/strong><br \/>(+36 for winning)
+|l|Snap5

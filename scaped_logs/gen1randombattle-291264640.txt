@@ -1,0 +1,292 @@
+﻿|join|riwu
+|join|Arafalo2
+|player|p1|riwu|170
+|player|p2|Arafalo2|1
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|819,24645,15495,1662
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Starmie|Starmie, L79|257\/257
+|switch|p2a: Tentacruel|Tentacruel, L85|310\/310
+|turn|1
+|choice|move 4|switch 2
+|
+|switch|p2a: Voltorb|Voltorb, L96|272\/272
+|move|p1a: Starmie|Thunderbolt|p2a: Voltorb
+|-crit|p2a: Voltorb
+|-resisted|p2a: Voltorb
+|-damage|p2a: Voltorb|205\/272
+|
+|turn|2
+|c|★Arafalo2|Gg
+|choice|switch 3|move 2
+|
+|switch|p1a: Nidoking|Nidoking, L85|311\/311
+|move|p2a: Voltorb|Thunderbolt|p1a: Nidoking
+|-immune|p1a: Nidoking|[msg]
+|
+|turn|3
+|choice|move 3|switch 6
+|
+|switch|p2a: Gyarados|Gyarados, L85|335\/335
+|move|p1a: Nidoking|Body Slam|p2a: Gyarados
+|-damage|p2a: Gyarados|269\/335
+|-status|p2a: Gyarados|par
+|
+|turn|4
+|choice|move 4|switch 3
+|
+|switch|p2a: Dugtrio|Dugtrio, L85|233\/233
+|move|p1a: Nidoking|Thunder|p2a: Dugtrio
+|-immune|p2a: Dugtrio|[msg]
+|
+|turn|5
+|c|★Arafalo2|Go
+|choice|switch 5|move 1
+|
+|switch|p1a: Snorlax|Snorlax, L79|415\/415
+|move|p2a: Dugtrio|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|297\/415
+|
+|turn|6
+|choice|move 2|move 4
+|
+|move|p2a: Dugtrio|Substitute|p2a: Dugtrio
+|-start|p2a: Dugtrio|Substitute
+|-damage|p2a: Dugtrio|175\/233
+|move|p1a: Snorlax|Blizzard|p2a: Dugtrio|[miss]
+|-miss|p1a: Snorlax
+|
+|turn|7
+|choice|move 3|move 1
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|172\/415
+|move|p1a: Snorlax|Body Slam|p2a: Dugtrio
+|-end|p2a: Dugtrio|Substitute
+|
+|turn|8
+|choice|move 2|move 4
+|
+|move|p2a: Dugtrio|Substitute|p2a: Dugtrio
+|-start|p2a: Dugtrio|Substitute
+|-damage|p2a: Dugtrio|117\/233
+|move|p1a: Snorlax|Blizzard|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-end|p2a: Dugtrio|Substitute
+|
+|turn|9
+|choice|move 3|switch 2
+|
+|switch|p2a: Tentacruel|Tentacruel, L85|310\/310
+|move|p1a: Snorlax|Body Slam|p2a: Tentacruel
+|-damage|p2a: Tentacruel|206\/310
+|
+|turn|10
+|choice|switch 3|move 4
+|
+|switch|p1a: Starmie|Starmie, L79|257\/257
+|move|p2a: Tentacruel|Surf|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|199\/257
+|
+|turn|11
+|choice|move 4|switch 6
+|
+|switch|p2a: Voltorb|Voltorb, L96|205\/272
+|move|p1a: Starmie|Thunderbolt|p2a: Voltorb
+|-resisted|p2a: Voltorb
+|-damage|p2a: Voltorb|171\/272
+|
+|turn|12
+|choice|switch 5|move 3
+|
+|switch|p1a: Nidoking|Nidoking, L85|311\/311
+|move|p2a: Voltorb|Screech|p1a: Nidoking
+|-unboost|p1a: Nidoking|def|2
+|
+|turn|13
+|choice|move 1|switch 2
+|
+|switch|p2a: Dugtrio|Dugtrio, L85|117\/233
+|move|p1a: Nidoking|Earthquake|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|choice||switch 4
+|
+|switch|p2a: Mewtwo|Mewtwo, L68|285\/285
+|turn|14
+|choice|switch 5|move 1
+|
+|switch|p1a: Starmie|Starmie, L79|199\/257
+|move|p2a: Mewtwo|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|155\/257
+|
+|turn|15
+|choice|move 3|switch 2
+|
+|switch|p2a: Voltorb|Voltorb, L96|171\/272
+|move|p1a: Starmie|Blizzard|p2a: Voltorb
+|-damage|p2a: Voltorb|82\/272
+|
+|turn|16
+|choice|switch 5|move 2
+|
+|switch|p1a: Nidoking|Nidoking, L85|311\/311
+|move|p2a: Voltorb|Thunderbolt|p1a: Nidoking
+|-immune|p1a: Nidoking|[msg]
+|
+|turn|17
+|choice|move 1|switch 3
+|
+|switch|p2a: Gyarados|Gyarados, L85|269\/335 par
+|move|p1a: Nidoking|Earthquake|p2a: Gyarados
+|-immune|p2a: Gyarados|[msg]
+|
+|turn|18
+|choice|move 4|move 2
+|
+|move|p1a: Nidoking|Thunder|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|choice||switch 2
+|
+|switch|p2a: Mewtwo|Mewtwo, L68|285\/285
+|turn|19
+|choice|switch 5|move 1
+|
+|switch|p1a: Starmie|Starmie, L79|155\/257
+|move|p2a: Mewtwo|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|113\/257
+|
+|turn|20
+|choice|move 1|switch 5
+|
+|switch|p2a: Machamp|Machamp, L90|345\/345
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|241\/257
+|
+|turn|21
+|c|★Arafalo2|Go
+|choice|switch 4|move 1
+|
+|switch|p1a: Dragonair|Dragonair, L85|277\/277
+|move|p2a: Machamp|Body Slam|p1a: Dragonair
+|-damage|p1a: Dragonair|171\/277
+|-status|p1a: Dragonair|par
+|
+|turn|22
+|c|★riwu|Go
+|choice|move 4|move 1
+|
+|move|p2a: Machamp|Body Slam|p1a: Dragonair
+|-damage|p1a: Dragonair|77\/277 par
+|move|p1a: Dragonair|Thunder Wave|p2a: Machamp
+|-status|p2a: Machamp|par
+|
+|turn|23
+|choice|move 3|move 1
+|
+|move|p1a: Dragonair|Surf|p2a: Machamp
+|-crit|p2a: Machamp
+|-damage|p2a: Machamp|216\/345 par
+|move|p2a: Machamp|Body Slam|p1a: Dragonair
+|-damage|p1a: Dragonair|0 fnt
+|faint|p1a: Dragonair
+|choice|switch 3|
+|
+|switch|p1a: Snorlax|Snorlax, L79|172\/415
+|turn|24
+|choice|move 3|switch 3
+|
+|switch|p2a: Voltorb|Voltorb, L96|82\/272
+|move|p1a: Snorlax|Body Slam|p2a: Voltorb
+|-damage|p2a: Voltorb|0 fnt
+|faint|p2a: Voltorb
+|choice||switch 5
+|
+|switch|p2a: Mewtwo|Mewtwo, L68|285\/285
+|turn|25
+|choice|move 3|move 3
+|
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|move|p1a: Snorlax|Body Slam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|185\/285
+|
+|turn|26
+|choice|move 3|move 1
+|
+|move|p2a: Mewtwo|Psychic|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|choice|switch 2|
+|
+|switch|p1a: Magmar|Magmar, L90|300\/300
+|turn|27
+|choice|move 1|move 2
+|
+|move|p1a: Magmar|Body Slam|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|32\/285
+|-status|p2a: Mewtwo|par
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|174\/285 par
+|
+|turn|28
+|choice|move 1|move 2
+|
+|move|p1a: Magmar|Body Slam|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|14\/285 par
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|156\/285 par
+|
+|turn|29
+|choice|move 1|move 1
+|
+|move|p1a: Magmar|Body Slam|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|0 fnt
+|faint|p2a: Mewtwo
+|choice||switch 6
+|
+|switch|p2a: Tentacruel|Tentacruel, L85|206\/310
+|turn|30
+|choice|switch 4|move 4
+|
+|switch|p1a: Starmie|Starmie, L79|241\/257
+|move|p2a: Tentacruel|Surf|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|182\/257
+|
+|turn|31
+|choice|move 4|move 2
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|116\/310
+|-status|p2a: Tentacruel|par
+|move|p2a: Tentacruel|Blizzard|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|137\/257
+|
+|turn|32
+|-message|Arafalo2 forfeited.
+|
+|win|riwu
+|leave|Arafalo2
+|player|p2
+|raw|riwu's rating: 1496 &rarr; <strong>1509<\/strong><br \/>(+13 for winning)
+|raw|Arafalo2's rating: 1368 &rarr; <strong>1355<\/strong><br \/>(-13 for losing)

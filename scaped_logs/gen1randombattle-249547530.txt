@@ -1,0 +1,200 @@
+﻿|join|MALESANI
+|join|Hankus Balooo
+|player|p1|MALESANI|238
+|player|p2|Hankus Balooo|101
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Poliwag|Poliwag, L96|272\/272
+|switch|p2a: Nidoking|Nidoking, L85|311\/311
+|turn|1
+|
+|move|p1a: Poliwag|Surf|p2a: Nidoking
+|-supereffective|p2a: Nidoking
+|-damage|p2a: Nidoking|127\/311
+|move|p2a: Nidoking|Thunder|p1a: Poliwag
+|-supereffective|p1a: Poliwag
+|-damage|p1a: Poliwag|73\/272
+|-status|p1a: Poliwag|par
+|
+|turn|2
+|
+|move|p2a: Nidoking|Thunder|p1a: Poliwag
+|-supereffective|p1a: Poliwag
+|-damage|p1a: Poliwag|0 fnt
+|faint|p1a: Poliwag
+|c|★Hankus Balooo|peace out polifag
+|
+|switch|p1a: Venomoth|Venomoth, L85|293\/293
+|turn|3
+|c|★MALESANI|just luck
+|
+|move|p1a: Venomoth|Psychic|p2a: Nidoking
+|-supereffective|p2a: Nidoking
+|-damage|p2a: Nidoking|0 fnt
+|faint|p2a: Nidoking
+|
+|switch|p2a: Gloom|Gloom, L90|291\/291
+|turn|4
+|
+|move|p1a: Venomoth|Psychic|p2a: Gloom
+|-supereffective|p2a: Gloom
+|-damage|p2a: Gloom|178\/291
+|-unboost|p2a: Gloom|spd|1
+|-unboost|p2a: Gloom|spa|1
+|move|p2a: Gloom|Sleep Powder|p1a: Venomoth
+|-status|p1a: Venomoth|slp
+|
+|turn|5
+|
+|cant|p1a: Venomoth|slp
+|move|p2a: Gloom|Swords Dance|p2a: Gloom
+|-boost|p2a: Gloom|atk|2
+|
+|turn|6
+|
+|switch|p1a: Moltres|Moltres, L85|327\/327
+|move|p2a: Gloom|Swords Dance|p2a: Gloom
+|-boost|p2a: Gloom|atk|2
+|
+|turn|7
+|
+|move|p1a: Moltres|Fire Blast|p2a: Gloom
+|-supereffective|p2a: Gloom
+|-damage|p2a: Gloom|0 fnt
+|faint|p2a: Gloom
+|
+|switch|p2a: Primeape|Primeape, L90|300\/300
+|turn|8
+|
+|move|p2a: Primeape|Rock Slide|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|90\/327
+|move|p1a: Moltres|Fire Blast|p2a: Primeape
+|-damage|p2a: Primeape|113\/300
+|
+|turn|9
+|
+|switch|p1a: Magneton|Magneton, L90|273\/273
+|move|p2a: Primeape|Hyper Beam|p1a: Magneton
+|-damage|p1a: Magneton|150\/273
+|
+|turn|10
+|-mustrecharge|p2a: Primeape
+|-mustrecharge|p2a: Primeape
+|
+|cant|p2a: Primeape|recharge
+|move|p1a: Magneton|Thunderbolt|p2a: Primeape
+|-damage|p2a: Primeape|0 fnt
+|faint|p2a: Primeape
+|
+|switch|p2a: Parasect|Parasect, L90|291\/291
+|turn|11
+|
+|move|p1a: Magneton|Thunder Wave|p2a: Parasect
+|-status|p2a: Parasect|par
+|move|p2a: Parasect|Stun Spore|p1a: Magneton|[miss]
+|-miss|p2a: Parasect
+|
+|turn|12
+|
+|move|p1a: Magneton|Double-Edge|p2a: Parasect
+|-damage|p2a: Parasect|227\/291 par
+|-damage|p1a: Magneton|134\/273|[from] recoil|[of] p2a: Parasect
+|move|p2a: Parasect|Toxic|p1a: Magneton
+|-status|p1a: Magneton|tox
+|
+|turn|13
+|
+|switch|p2a: Kadabra|Kadabra, L85|242\/242
+|move|p1a: Magneton|Thunderbolt|p2a: Kadabra
+|-damage|p2a: Kadabra|133\/242
+|-damage|p1a: Magneton|117\/273 tox|[from] tox|[of] p2a: Kadabra
+|
+|turn|14
+|
+|move|p2a: Kadabra|Recover|p2a: Kadabra
+|-heal|p2a: Kadabra|242\/242
+|move|p1a: Magneton|Thunderbolt|p2a: Kadabra
+|-damage|p2a: Kadabra|138\/242
+|-damage|p1a: Magneton|83\/273 tox|[from] tox|[of] p2a: Kadabra
+|
+|turn|15
+|
+|move|p2a: Kadabra|Recover|p2a: Kadabra
+|-heal|p2a: Kadabra|242\/242
+|move|p1a: Magneton|Thunder Wave|p2a: Kadabra
+|-status|p2a: Kadabra|par
+|-damage|p1a: Magneton|32\/273 tox|[from] tox|[of] p2a: Kadabra
+|
+|turn|16
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Kadabra
+|-damage|p2a: Kadabra|142\/242 par
+|-damage|p1a: Magneton|0 fnt|[from] tox|[of] p2a: Kadabra
+|faint|p1a: Magneton
+|
+|switch|p1a: Zapdos|Zapdos, L79|304\/304
+|turn|17
+|c|★Hankus Balooo|lol
+|c|★Hankus Balooo|zapdos and moltres
+|c|★Hankus Balooo|bitch
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Kadabra
+|-damage|p2a: Kadabra|13\/242 par
+|move|p2a: Kadabra|Recover|p2a: Kadabra
+|-heal|p2a: Kadabra|134\/242 par
+|
+|turn|18
+|
+|switch|p2a: Pidgeot|Pidgeot, L90|333\/333
+|move|p1a: Zapdos|Thunderbolt|p2a: Pidgeot
+|-supereffective|p2a: Pidgeot
+|-damage|p2a: Pidgeot|104\/333
+|
+|turn|19
+|
+|move|p2a: Pidgeot|Hyper Beam|p1a: Zapdos
+|-damage|p1a: Zapdos|118\/304
+|move|p1a: Zapdos|Thunderbolt|p2a: Pidgeot
+|-supereffective|p2a: Pidgeot
+|-damage|p2a: Pidgeot|0 fnt
+|faint|p2a: Pidgeot
+|
+|switch|p2a: Kadabra|Kadabra, L85|134\/242 par
+|turn|20
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Kadabra
+|-damage|p2a: Kadabra|14\/242 par
+|cant|p2a: Kadabra|par
+|
+|turn|21
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Kadabra
+|-damage|p2a: Kadabra|0 fnt
+|faint|p2a: Kadabra
+|
+|switch|p2a: Parasect|Parasect, L90|227\/291 par
+|turn|22
+|c|★MALESANI|lol
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Parasect
+|-supereffective|p2a: Parasect
+|-damage|p2a: Parasect|0 fnt
+|faint|p2a: Parasect
+|
+|win|MALESANI
+|raw|Ladder updating...
+|leave|Hankus Balooo
+|player|p2
+|c|★MALESANI|mo non fai er gradasso eh?
+|c|★MALESANI|cojone
+|c|★MALESANI|magari mori
+|raw|MALESANI's rating: 1216 &rarr; <strong>1233<\/strong><br \/>(+17 for winning)
+|raw|Hankus Balooo's rating: 1093 &rarr; <strong>1077<\/strong><br \/>(-16 for losing)

@@ -1,0 +1,314 @@
+﻿|join|PsyMuk
+|join|Buts X
+|player|p1|PsyMuk|154
+|player|p2|Buts X|43
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Marowak|Marowak, L85|276\/276
+|switch|p2a: Exeggcute|Exeggcute, L96|310\/310
+|turn|1
+|c|★Buts X|ooh high ranking battle
+|
+|switch|p1a: Flareon|Flareon, L85|284\/284
+|move|p2a: Exeggcute|Sleep Powder|p1a: Flareon
+|-status|p1a: Flareon|slp
+|
+|turn|2
+|c|★Buts X|and my lineup has weeeeakknesses
+|c|★PsyMuk|im not very good just sometimes lucky
+|c|★Buts X|you dont get a 1359 by luck
+|
+|switch|p1a: Scyther|Scyther, L85|293\/293
+|move|p2a: Exeggcute|Psychic|p1a: Scyther
+|-damage|p1a: Scyther|168\/293
+|
+|turn|3
+|
+|move|p1a: Scyther|Swords Dance|p1a: Scyther
+|-boost|p1a: Scyther|atk|2
+|move|p2a: Exeggcute|Stun Spore|p1a: Scyther|[miss]
+|-miss|p2a: Exeggcute
+|
+|turn|4
+|
+|move|p1a: Scyther|Swords Dance|p1a: Scyther
+|-boost|p1a: Scyther|atk|2
+|move|p2a: Exeggcute|Stun Spore|p1a: Scyther|[miss]
+|-miss|p2a: Exeggcute
+|
+|turn|5
+|c|★Buts X|oh really
+|
+|switch|p2a: Onix|Onix, L85|233\/233
+|move|p1a: Scyther|Hyper Beam|p2a: Onix
+|-resisted|p2a: Onix
+|-damage|p2a: Onix|115\/233
+|
+|turn|6
+|c|★Buts X|whew
+|
+|cant|p1a: Scyther|recharge
+|move|p2a: Onix|Rock Slide|p1a: Scyther
+|-supereffective|p1a: Scyther
+|-damage|p1a: Scyther|0 fnt
+|faint|p1a: Scyther
+|
+|switch|p1a: Wartortle|Wartortle, L85|274\/274
+|turn|7
+|
+|switch|p2a: Kakuna|Kakuna, L99|290\/290
+|move|p1a: Wartortle|Blizzard|p2a: Kakuna
+|-damage|p2a: Kakuna|180\/290
+|
+|turn|8
+|
+|switch|p1a: Flareon|Flareon, L85|284\/284 slp
+|move|p2a: Kakuna|String Shot|p1a: Flareon
+|-unboost|p1a: Flareon|spe|1
+|
+|turn|9
+|
+|switch|p2a: Onix|Onix, L85|115\/233
+|cant|p1a: Flareon|slp
+|
+|turn|10
+|
+|switch|p1a: Wartortle|Wartortle, L85|274\/274
+|move|p2a: Onix|Earthquake|p1a: Wartortle
+|-damage|p1a: Wartortle|199\/274
+|
+|turn|11
+|
+|switch|p2a: Kakuna|Kakuna, L99|180\/290
+|move|p1a: Wartortle|Surf|p2a: Kakuna
+|-crit|p2a: Kakuna
+|-damage|p2a: Kakuna|0 fnt
+|faint|p2a: Kakuna
+|
+|switch|p2a: Exeggcute|Exeggcute, L96|310\/310
+|turn|12
+|
+|move|p1a: Wartortle|Blizzard|p2a: Exeggcute
+|-supereffective|p2a: Exeggcute
+|-damage|p2a: Exeggcute|154\/310
+|move|p2a: Exeggcute|Stun Spore|p1a: Wartortle
+|-status|p1a: Wartortle|par
+|
+|turn|13
+|
+|move|p2a: Exeggcute|Mega Drain|p1a: Wartortle
+|-supereffective|p1a: Wartortle
+|-damage|p1a: Wartortle|100\/274 par
+|-heal|p2a: Exeggcute|203\/310|[from] drain|[of] p1a: Wartortle
+|move|p1a: Wartortle|Blizzard|p2a: Exeggcute
+|-supereffective|p2a: Exeggcute
+|-damage|p2a: Exeggcute|58\/310
+|-status|p2a: Exeggcute|frz
+|
+|turn|14
+|c|★Buts X|awwwwwww
+|
+|cant|p2a: Exeggcute|frz
+|cant|p1a: Wartortle|par
+|
+|turn|15
+|
+|cant|p2a: Exeggcute|frz
+|cant|p1a: Wartortle|par
+|
+|turn|16
+|
+|cant|p2a: Exeggcute|frz
+|cant|p1a: Wartortle|par
+|
+|turn|17
+|c|★Buts X|cmon kill me
+|c|★Buts X|plz
+|c|★PsyMuk|tryin
+|
+|switch|p2a: Slowbro|Slowbro, L79|312\/312
+|cant|p1a: Wartortle|par
+|
+|turn|18
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|move|p1a: Wartortle|Rest|p1a: Wartortle
+|-status|p1a: Wartortle|slp
+|-heal|p1a: Wartortle|274\/274 slp|[silent]
+|-status|p1a: Wartortle|slp|[from] move: Rest
+|
+|turn|19
+|
+|switch|p1a: Lapras|Lapras, L79|367\/367
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|20
+|
+|move|p1a: Lapras|Thunderbolt|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|265\/312
+|move|p2a: Slowbro|Thunder Wave|p1a: Lapras
+|-status|p1a: Lapras|par
+|
+|turn|21
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|cant|p1a: Lapras|par
+|
+|turn|22
+|
+|move|p2a: Slowbro|Surf|p1a: Lapras
+|-resisted|p1a: Lapras
+|-damage|p1a: Lapras|218\/367 par
+|cant|p1a: Lapras|par
+|
+|turn|23
+|c|★Buts X|paralysis has been great
+|
+|move|p2a: Slowbro|Surf|p1a: Lapras
+|-resisted|p1a: Lapras
+|-damage|p1a: Lapras|64\/367 par
+|move|p1a: Lapras|Thunderbolt|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|231\/312
+|
+|turn|24
+|
+|move|p2a: Slowbro|Surf|p1a: Lapras
+|-resisted|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|
+|switch|p1a: Lickitung|Lickitung, L85|327\/327
+|turn|25
+|
+|move|p1a: Lickitung|Hyper Beam|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-damage|p2a: Slowbro|32\/312
+|move|p2a: Slowbro|Surf|p1a: Lickitung
+|-damage|p1a: Lickitung|0 fnt
+|faint|p1a: Lickitung
+|
+|switch|p1a: Marowak|Marowak, L85|276\/276
+|turn|26
+|c|★Buts X|that crit hyper beam helped you immensely
+|
+|move|p1a: Marowak|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|
+|switch|p2a: Onix|Onix, L85|115\/233
+|turn|27
+|c|★PsyMuk|my 50000 paralyzes helped u too
+|
+|move|p2a: Onix|Earthquake|p1a: Marowak
+|-damage|p1a: Marowak|214\/276
+|move|p1a: Marowak|Earthquake|p2a: Onix
+|-supereffective|p2a: Onix
+|-damage|p2a: Onix|0 fnt
+|faint|p2a: Onix
+|c|★Buts X|yeahhh but i needed slowbro
+|c|★Buts X|he was my sweeper
+|c|★PsyMuk|my other 2 guys are asleep
+|
+|switch|p2a: Magmar|Magmar, L85|284\/284
+|turn|28
+|
+|move|p2a: Magmar|Fire Blast|p1a: Marowak
+|-damage|p1a: Marowak|63\/276
+|move|p1a: Marowak|Earthquake|p2a: Magmar
+|-supereffective|p2a: Magmar
+|-damage|p2a: Magmar|17\/284
+|
+|turn|29
+|c|★Buts X|whew
+|c|★Buts X|hoped id live
+|c|★Buts X|now i gotta hit
+|
+|switch|p1a: Wartortle|Wartortle, L85|274\/274 slp
+|move|p2a: Magmar|Hyper Beam|p1a: Wartortle
+|-damage|p1a: Wartortle|156\/274 slp
+|
+|turn|30
+|c|★Buts X|oh no. stay down, turtle
+|
+|cant|p2a: Magmar|recharge
+|cant|p1a: Wartortle|slp
+|
+|turn|31
+|
+|move|p2a: Magmar|Body Slam|p1a: Wartortle
+|-damage|p1a: Wartortle|96\/274 slp
+|cant|p1a: Wartortle|slp
+|-curestatus|p1a: Wartortle|slp
+|
+|turn|32
+|c|★PsyMuk|wake up turn
+|
+|move|p2a: Magmar|Hyper Beam|p1a: Wartortle
+|-damage|p1a: Wartortle|0 fnt
+|faint|p1a: Wartortle
+|
+|switch|p1a: Flareon|Flareon, L85|284\/284 slp
+|turn|33
+|
+|cant|p1a: Flareon|slp
+|move|p2a: Magmar|Body Slam|p1a: Flareon
+|-damage|p1a: Flareon|210\/284 slp
+|
+|turn|34
+|
+|cant|p1a: Flareon|slp
+|move|p2a: Magmar|Body Slam|p1a: Flareon
+|-damage|p1a: Flareon|136\/284 slp
+|
+|turn|35
+|
+|cant|p1a: Flareon|slp
+|move|p2a: Magmar|Body Slam|p1a: Flareon
+|-damage|p1a: Flareon|64\/284 slp
+|
+|turn|36
+|c|★Buts X|magmar is great today too
+|
+|cant|p1a: Flareon|slp
+|move|p2a: Magmar|Body Slam|p1a: Flareon
+|-damage|p1a: Flareon|0 fnt
+|faint|p1a: Flareon
+|
+|switch|p1a: Marowak|Marowak, L85|63\/276
+|turn|37
+|
+|move|p2a: Magmar|Body Slam|p1a: Marowak
+|-damage|p1a: Marowak|11\/276
+|move|p1a: Marowak|Body Slam|p2a: Magmar
+|-damage|p2a: Magmar|0 fnt
+|faint|p2a: Magmar
+|
+|switch|p2a: Gengar|Gengar, L79|257\/257
+|turn|38
+|
+|move|p2a: Gengar|Mega Drain|p1a: Marowak
+|-supereffective|p1a: Marowak
+|-damage|p1a: Marowak|0 fnt
+|faint|p1a: Marowak
+|
+|win|Buts X
+|raw|Ladder updating...
+|raw|PsyMuk's rating: 1359 &rarr; <strong>1340<\/strong><br \/>(-19 for losing)
+|raw|Buts X's rating: 1386 &rarr; <strong>1404<\/strong><br \/>(+18 for winning)
+|c|★PsyMuk|gg
+|leave|Buts X

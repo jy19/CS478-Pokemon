@@ -1,0 +1,213 @@
+﻿|join|MALESANI
+|join|lady not gaga
+|player|p1|MALESANI|238
+|player|p2|lady not gaga|76
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|5884,65272,25826,27457
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Machamp|Machamp, L90|345\/345
+|switch|p2a: Lickitung|Lickitung, L90|345\/345
+|turn|1
+|choice|move 4|move 3
+|
+|move|p1a: Machamp|Submission|p2a: Lickitung
+|-supereffective|p2a: Lickitung
+|-damage|p2a: Lickitung|108\/345
+|-damage|p1a: Machamp|286\/345|[from] recoil|[of] p2a: Lickitung
+|move|p2a: Lickitung|Swords Dance|p2a: Lickitung
+|-boost|p2a: Lickitung|atk|2
+|
+|turn|2
+|choice|move 2|move 2
+|
+|move|p1a: Machamp|Earthquake|p2a: Lickitung
+|-damage|p2a: Lickitung|11\/345
+|move|p2a: Lickitung|Body Slam|p1a: Machamp
+|-damage|p1a: Machamp|149\/345
+|
+|turn|3
+|choice|move 2|move 2
+|
+|move|p1a: Machamp|Earthquake|p2a: Lickitung
+|-damage|p2a: Lickitung|0 fnt
+|faint|p2a: Lickitung
+|choice||switch 3
+|
+|switch|p2a: Articuno|Articuno, L79|304\/304
+|turn|4
+|choice|move 1|move 1
+|
+|move|p2a: Articuno|Blizzard|p1a: Machamp
+|-damage|p1a: Machamp|12\/345
+|move|p1a: Machamp|Rock Slide|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|11\/304
+|
+|turn|5
+|choice|move 4|move 1
+|
+|move|p2a: Articuno|Blizzard|p1a: Machamp
+|-damage|p1a: Machamp|0 fnt
+|faint|p1a: Machamp
+|choice|switch 5|
+|
+|switch|p1a: Dodrio|Dodrio, L85|276\/276
+|turn|6
+|choice|move 3|move 1
+|
+|move|p1a: Dodrio|Body Slam|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|faint|p2a: Articuno
+|choice||switch 2
+|
+|switch|p2a: Poliwag|Poliwag, L96|272\/272
+|turn|7
+|choice|switch 2|move 1
+|
+|switch|p1a: Wigglytuff|Wigglytuff, L90|435\/435
+|move|p2a: Poliwag|Amnesia|p2a: Poliwag
+|-boost|p2a: Poliwag|spd|2
+|-boost|p2a: Poliwag|spa|2
+|
+|turn|8
+|choice|move 2|move 1
+|
+|move|p2a: Poliwag|Amnesia|p2a: Poliwag
+|-boost|p2a: Poliwag|spd|2
+|-boost|p2a: Poliwag|spa|2
+|move|p1a: Wigglytuff|Sing|p2a: Poliwag
+|-status|p2a: Poliwag|slp
+|
+|turn|9
+|choice|move 3|move 1
+|
+|cant|p2a: Poliwag|slp
+|move|p1a: Wigglytuff|Hyper Beam|p2a: Poliwag|[miss]
+|-miss|p1a: Wigglytuff
+|
+|turn|10
+|choice|move 3|move 1
+|
+|cant|p2a: Poliwag|slp
+|move|p1a: Wigglytuff|Hyper Beam|p2a: Poliwag
+|-damage|p2a: Poliwag|59\/272 slp
+|
+|turn|11
+|-mustrecharge|p1a: Wigglytuff
+|-mustrecharge|p1a: Wigglytuff
+|choice|move 1|move 1
+|
+|-curestatus|p2a: Poliwag|slp
+|cant|p1a: Wigglytuff|recharge
+|
+|turn|12
+|choice|move 1|move 4
+|
+|move|p2a: Poliwag|Surf|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|142\/435
+|move|p1a: Wigglytuff|Thunder Wave|p2a: Poliwag
+|-status|p2a: Poliwag|par
+|
+|turn|13
+|choice|move 3|move 4
+|
+|move|p1a: Wigglytuff|Hyper Beam|p2a: Poliwag
+|-damage|p2a: Poliwag|0 fnt
+|faint|p2a: Poliwag
+|choice||switch 5
+|
+|switch|p2a: Hitmonlee|Hitmonlee, L90|273\/273
+|turn|14
+|choice|move 1|move 3
+|
+|move|p2a: Hitmonlee|Body Slam|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|27\/435
+|move|p1a: Wigglytuff|Thunder Wave|p2a: Hitmonlee
+|-status|p2a: Hitmonlee|par
+|
+|turn|15
+|choice|move 3|move 3
+|
+|move|p1a: Wigglytuff|Hyper Beam|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|95\/273 par
+|move|p2a: Hitmonlee|Body Slam|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|0 fnt
+|faint|p1a: Wigglytuff
+|choice|switch 2|
+|
+|switch|p1a: Dodrio|Dodrio, L85|276\/276
+|turn|16
+|choice|move 4|move 3
+|
+|move|p1a: Dodrio|Drill Peck|p2a: Hitmonlee
+|-supereffective|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|0 fnt
+|faint|p2a: Hitmonlee
+|choice||switch 6
+|
+|switch|p2a: Charmeleon|Charmeleon, L85|272\/272
+|turn|17
+|choice|switch 4|move 3
+|
+|switch|p1a: Tentacruel|Tentacruel, L85|310\/310
+|move|p2a: Charmeleon|Slash|p1a: Tentacruel
+|-crit|p1a: Tentacruel
+|-damage|p1a: Tentacruel|215\/310
+|
+|turn|18
+|choice|move 1|move 4
+|
+|move|p1a: Tentacruel|Surf|p2a: Charmeleon
+|-supereffective|p2a: Charmeleon
+|-damage|p2a: Charmeleon|0 fnt
+|faint|p2a: Charmeleon
+|choice||switch 4
+|
+|switch|p2a: Vileplume|Vileplume, L90|318\/318
+|turn|19
+|choice|move 2|move 3
+|
+|move|p1a: Tentacruel|Blizzard|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|144\/318
+|move|p2a: Vileplume|Swords Dance|p2a: Vileplume
+|-boost|p2a: Vileplume|atk|2
+|
+|turn|20
+|choice|move 1|move 1
+|
+|move|p1a: Tentacruel|Surf|p2a: Vileplume
+|-resisted|p2a: Vileplume
+|-damage|p2a: Vileplume|97\/318
+|move|p2a: Vileplume|Mega Drain|p1a: Tentacruel
+|-damage|p1a: Tentacruel|174\/310
+|-heal|p2a: Vileplume|117\/318|[from] drain|[of] p1a: Tentacruel
+|
+|turn|21
+|choice|move 1|move 4
+|
+|move|p1a: Tentacruel|Surf|p2a: Vileplume
+|-resisted|p2a: Vileplume
+|-damage|p2a: Vileplume|63\/318
+|move|p2a: Vileplume|Body Slam|p1a: Tentacruel
+|-damage|p1a: Tentacruel|21\/310
+|
+|turn|22
+|choice|move 1|move 4
+|
+|move|p1a: Tentacruel|Surf|p2a: Vileplume
+|-crit|p2a: Vileplume
+|-resisted|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|
+|win|MALESANI
+|raw|MALESANI's rating: 1237 &rarr; <strong>1253<\/strong><br \/>(+16 for winning)
+|raw|lady not gaga's rating: 1113 &rarr; <strong>1097<\/strong><br \/>(-16 for losing)

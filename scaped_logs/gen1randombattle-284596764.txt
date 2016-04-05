@@ -1,0 +1,94 @@
+﻿|join|AYYYYYYYEEE
+|join|midnitefirefly
+|player|p1|AYYYYYYYEEE|266
+|player|p2|midnitefirefly|170
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Seel|Seel, L96|320\/320
+|switch|p2a: Oddish|Oddish, L96|281\/281
+|turn|1
+|
+|switch|p1a: Beedrill|Beedrill, L90|300\/300
+|move|p2a: Oddish|Swords Dance|p2a: Oddish
+|-boost|p2a: Oddish|atk|2
+|
+|turn|2
+|
+|move|p1a: Beedrill|Swords Dance|p1a: Beedrill
+|-boost|p1a: Beedrill|atk|2
+|move|p2a: Oddish|Double-Edge|p1a: Beedrill
+|-damage|p1a: Beedrill|118\/300
+|-damage|p2a: Oddish|236\/281|[from] recoil|[of] p1a: Beedrill
+|
+|turn|3
+|
+|move|p1a: Beedrill|Hyper Beam|p2a: Oddish
+|-damage|p2a: Oddish|6\/281
+|move|p2a: Oddish|Double-Edge|p1a: Beedrill
+|-damage|p1a: Beedrill|0 fnt
+|-damage|p2a: Oddish|0 fnt|[from] recoil|[of] p1a: Beedrill
+|faint|p1a: Beedrill
+|faint|p2a: Oddish
+|
+|switch|p2a: Magnemite|Magnemite, L96|243\/243
+|switch|p1a: Exeggcute|Exeggcute, L96|310\/310
+|turn|4
+|
+|move|p2a: Magnemite|Thunder Wave|p1a: Exeggcute
+|-status|p1a: Exeggcute|par
+|move|p1a: Exeggcute|Psychic|p2a: Magnemite
+|-damage|p2a: Magnemite|162\/243
+|-unboost|p2a: Magnemite|spd|1
+|-unboost|p2a: Magnemite|spa|1
+|
+|turn|5
+|
+|switch|p2a: Porygon|Porygon, L85|284\/284
+|move|p1a: Exeggcute|Psychic|p2a: Porygon
+|-damage|p2a: Porygon|178\/284
+|-unboost|p2a: Porygon|spd|1
+|-unboost|p2a: Porygon|spa|1
+|
+|turn|6
+|
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|284\/284
+|move|p1a: Exeggcute|Stun Spore|p2a: Porygon
+|-status|p2a: Porygon|par
+|
+|turn|7
+|
+|move|p1a: Exeggcute|Mega Drain|p2a: Porygon
+|-damage|p2a: Porygon|217\/284 par
+|cant|p2a: Porygon|par
+|
+|turn|8
+|
+|move|p1a: Exeggcute|Psychic|p2a: Porygon
+|-damage|p2a: Porygon|76\/284 par
+|move|p2a: Porygon|Blizzard|p1a: Exeggcute
+|-supereffective|p1a: Exeggcute
+|-damage|p1a: Exeggcute|197\/310 par
+|
+|turn|9
+|
+|move|p1a: Exeggcute|Mega Drain|p2a: Porygon
+|-damage|p2a: Porygon|3\/284 par
+|-heal|p1a: Exeggcute|233\/310 par|[from] drain|[of] p2a: Porygon
+|cant|p2a: Porygon|par
+|
+|turn|10
+|-message|midnitefirefly forfeited.
+|
+|win|AYYYYYYYEEE
+|leave|midnitefirefly
+|player|p2
+|raw|AYYYYYYYEEE's rating: 1051 &rarr; <strong>1089<\/strong><br \/>(+38 for winning)
+|raw|midnitefirefly's rating: 1109 &rarr; <strong>1080<\/strong><br \/>(-29 for losing)

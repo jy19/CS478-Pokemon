@@ -1,0 +1,299 @@
+﻿|join|GamerRB
+|join|grogggy
+|player|p1|GamerRB|124
+|player|p2|grogggy|12
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Charmeleon|Charmeleon, L86|275\/275
+|switch|p2a: Farfetch'd|Farfetch'd, L95|292\/292
+|turn|1
+|
+|switch|p2a: Graveler|Graveler, L86|270\/270
+|move|p1a: Charmeleon|Body Slam|p2a: Graveler
+|-crit|p2a: Graveler
+|-resisted|p2a: Graveler
+|-damage|p2a: Graveler|230\/270
+|
+|turn|2
+|
+|switch|p1a: Bulbasaur|Bulbasaur, L92|270\/270
+|move|p2a: Graveler|Rock Slide|p1a: Bulbasaur
+|-damage|p1a: Bulbasaur|173\/270
+|
+|turn|3
+|
+|switch|p2a: Farfetch'd|Farfetch'd, L95|292\/292
+|move|p1a: Bulbasaur|Swords Dance|p1a: Bulbasaur
+|-boost|p1a: Bulbasaur|atk|2
+|
+|turn|4
+|
+|move|p2a: Farfetch'd|Slash|p1a: Bulbasaur
+|-crit|p1a: Bulbasaur
+|-damage|p1a: Bulbasaur|0 fnt
+|faint|p1a: Bulbasaur
+|
+|switch|p1a: Cloyster|Cloyster, L82|250\/250
+|turn|5
+|
+|move|p2a: Farfetch'd|Toxic|p1a: Cloyster
+|-status|p1a: Cloyster|tox
+|move|p1a: Cloyster|Blizzard|p2a: Farfetch'd
+|-supereffective|p2a: Farfetch'd
+|-damage|p2a: Farfetch'd|61\/292
+|-status|p2a: Farfetch'd|frz
+|-damage|p1a: Cloyster|235\/250 tox|[from] tox|[of] p2a: Farfetch'd
+|
+|turn|6
+|
+|cant|p2a: Farfetch'd|frz
+|move|p1a: Cloyster|Clamp|p2a: Farfetch'd
+|-damage|p2a: Farfetch'd|24\/292 frz
+|-activate|p2a: Farfetch'd|move: Clamp|[of] p1a: Cloyster
+|-damage|p1a: Cloyster|205\/250 tox|[from] tox|[of] p2a: Farfetch'd
+|
+|turn|7
+|
+|cant|p2a: Farfetch'd|frz
+|move|p1a: Cloyster|Clamp|p2a: Farfetch'd
+|-damage|p2a: Farfetch'd|0 fnt
+|faint|p2a: Farfetch'd
+|
+|switch|p2a: Mewtwo|Mewtwo, L71|297\/297
+|turn|8
+|
+|move|p2a: Mewtwo|Psychic|p1a: Cloyster
+|-crit|p1a: Cloyster
+|-damage|p1a: Cloyster|29\/250 tox
+|-unboost|p1a: Cloyster|spd|1
+|-unboost|p1a: Cloyster|spa|1
+|move|p1a: Cloyster|Blizzard|p2a: Mewtwo|[miss]
+|-miss|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt|[from] tox|[of] p2a: Mewtwo
+|faint|p1a: Cloyster
+|
+|switch|p1a: Exeggutor|Exeggutor, L82|324\/324
+|turn|9
+|
+|switch|p2a: Nidorino|Nidorino, L88|287\/287
+|move|p1a: Exeggutor|Sleep Powder|p2a: Nidorino
+|-status|p2a: Nidorino|slp
+|
+|turn|10
+|
+|switch|p2a: Raichu|Raichu, L86|279\/279
+|move|p1a: Exeggutor|Psychic|p2a: Raichu
+|-damage|p2a: Raichu|172\/279
+|-unboost|p2a: Raichu|spd|1
+|-unboost|p2a: Raichu|spa|1
+|
+|turn|11
+|
+|move|p2a: Raichu|Thunder Wave|p1a: Exeggutor
+|-status|p1a: Exeggutor|par
+|move|p1a: Exeggutor|Psychic|p2a: Raichu
+|-damage|p2a: Raichu|14\/279
+|
+|turn|12
+|
+|move|p2a: Raichu|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|257\/324 par
+|cant|p1a: Exeggutor|par
+|
+|turn|13
+|
+|move|p2a: Raichu|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|193\/324 par
+|move|p1a: Exeggutor|Psychic|p2a: Raichu
+|-damage|p2a: Raichu|0 fnt
+|faint|p2a: Raichu
+|
+|switch|p2a: Gloom|Gloom, L86|279\/279
+|turn|14
+|
+|move|p2a: Gloom|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|138\/324 par
+|cant|p1a: Exeggutor|par
+|
+|turn|15
+|
+|move|p2a: Gloom|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|85\/324 par
+|cant|p1a: Exeggutor|par
+|
+|turn|16
+|
+|move|p2a: Gloom|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|31\/324 par
+|move|p1a: Exeggutor|Psychic|p2a: Gloom
+|-supereffective|p2a: Gloom
+|-damage|p2a: Gloom|78\/279
+|
+|turn|17
+|
+|move|p2a: Gloom|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Charmeleon|Charmeleon, L86|275\/275
+|turn|18
+|
+|move|p1a: Charmeleon|Substitute|p1a: Charmeleon
+|-start|p1a: Charmeleon|Substitute
+|-damage|p1a: Charmeleon|207\/275
+|move|p2a: Gloom|Sleep Powder|p1a: Charmeleon|[miss]
+|-miss|p2a: Gloom
+|
+|turn|19
+|
+|switch|p2a: Graveler|Graveler, L86|230\/270
+|move|p1a: Charmeleon|Flamethrower|p2a: Graveler
+|-resisted|p2a: Graveler
+|-damage|p2a: Graveler|169\/270
+|
+|turn|20
+|
+|move|p1a: Charmeleon|Flamethrower|p2a: Graveler
+|-resisted|p2a: Graveler
+|-damage|p2a: Graveler|114\/270
+|move|p2a: Graveler|Rock Slide|p1a: Charmeleon
+|-supereffective|p1a: Charmeleon
+|-end|p1a: Charmeleon|Substitute
+|
+|turn|21
+|
+|move|p1a: Charmeleon|Flamethrower|p2a: Graveler
+|-resisted|p2a: Graveler
+|-damage|p2a: Graveler|56\/270
+|move|p2a: Graveler|Rock Slide|p1a: Charmeleon
+|-supereffective|p1a: Charmeleon
+|-damage|p1a: Charmeleon|0 fnt
+|faint|p1a: Charmeleon
+|
+|switch|p1a: Beedrill|Beedrill, L86|287\/287
+|turn|22
+|
+|move|p1a: Beedrill|Hyper Beam|p2a: Graveler
+|-resisted|p2a: Graveler
+|-damage|p2a: Graveler|18\/270
+|move|p2a: Graveler|Rock Slide|p1a: Beedrill
+|-supereffective|p1a: Beedrill
+|-damage|p1a: Beedrill|51\/287
+|
+|turn|23
+|
+|cant|p1a: Beedrill|recharge
+|move|p2a: Graveler|Body Slam|p1a: Beedrill
+|-crit|p1a: Beedrill
+|-damage|p1a: Beedrill|0 fnt
+|faint|p1a: Beedrill
+|
+|switch|p1a: Zapdos|Zapdos, L82|315\/315
+|turn|24
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Graveler
+|-crit|p2a: Graveler
+|-resisted|p2a: Graveler
+|-damage|p2a: Graveler|0 fnt
+|faint|p2a: Graveler
+|
+|switch|p2a: Mewtwo|Mewtwo, L71|297\/297
+|turn|25
+|
+|move|p2a: Mewtwo|Psychic|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|179\/315
+|-unboost|p1a: Zapdos|spd|1
+|-unboost|p1a: Zapdos|spa|1
+|move|p1a: Zapdos|Thunder Wave|p2a: Mewtwo
+|-status|p2a: Mewtwo|par
+|
+|turn|26
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|109\/297 par
+|cant|p2a: Mewtwo|par
+|
+|turn|27
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Mewtwo
+|-damage|p2a: Mewtwo|47\/297 par
+|move|p2a: Mewtwo|Rest|p2a: Mewtwo
+|-status|p2a: Mewtwo|slp
+|-heal|p2a: Mewtwo|297\/297 slp|[silent]
+|-status|p2a: Mewtwo|slp|[from] move: Rest
+|
+|turn|28
+|
+|move|p1a: Zapdos|Agility|p1a: Zapdos
+|-boost|p1a: Zapdos|spe|2
+|cant|p2a: Mewtwo|slp
+|
+|turn|29
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|124\/297 slp
+|cant|p2a: Mewtwo|slp
+|-curestatus|p2a: Mewtwo|slp
+|
+|turn|30
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Mewtwo
+|-damage|p2a: Mewtwo|66\/297
+|move|p2a: Mewtwo|Psychic|p1a: Zapdos
+|-damage|p1a: Zapdos|67\/315
+|
+|turn|31
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|0 fnt
+|faint|p2a: Mewtwo
+|
+|switch|p2a: Gloom|Gloom, L86|78\/279
+|turn|32
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Gloom
+|-supereffective|p2a: Gloom
+|-damage|p2a: Gloom|0 fnt
+|faint|p2a: Gloom
+|
+|switch|p2a: Nidorino|Nidorino, L88|287\/287 slp
+|turn|33
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Nidorino
+|-damage|p2a: Nidorino|199\/287 slp
+|cant|p2a: Nidorino|slp
+|
+|turn|34
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Nidorino
+|-damage|p2a: Nidorino|112\/287 slp
+|cant|p2a: Nidorino|slp
+|-curestatus|p2a: Nidorino|slp
+|
+|turn|35
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Nidorino
+|-damage|p2a: Nidorino|24\/287
+|move|p2a: Nidorino|Body Slam|p1a: Zapdos
+|-damage|p1a: Zapdos|13\/315
+|
+|turn|36
+|-message|grogggy forfeited.
+|leave|grogggy
+|
+|win|GamerRB
+|raw|Ladder updating...
+|player|p2
+|raw|GamerRB's rating: 1087 &rarr; <strong>1119<\/strong><br \/>(+32 for winning)
+|raw|grogggy's rating: 1153 &rarr; <strong>1123<\/strong><br \/>(-30 for losing)

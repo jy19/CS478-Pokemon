@@ -1,0 +1,397 @@
+﻿|join|charrol
+|join|jb champ
+|player|p1|charrol|102
+|player|p2|jb champ|150
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Starmie|Starmie|323\/323
+|switch|p2a: Jynx|Jynx|333\/333
+|turn|1
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Jynx
+|-status|p2a: Jynx|par
+|move|p2a: Jynx|Lovely Kiss|p1a: Starmie|[miss]
+|-miss|p2a: Jynx
+|
+|turn|2
+|
+|move|p1a: Starmie|Psychic|p2a: Jynx
+|-resisted|p2a: Jynx
+|-damage|p2a: Jynx|281\/333 par
+|-unboost|p2a: Jynx|spd|1
+|-unboost|p2a: Jynx|spa|1
+|move|p2a: Jynx|Lovely Kiss|p1a: Starmie|[miss]
+|-miss|p2a: Jynx
+|
+|turn|3
+|
+|move|p1a: Starmie|Psychic|p2a: Jynx
+|-resisted|p2a: Jynx
+|-damage|p2a: Jynx|205\/333 par
+|move|p2a: Jynx|Lovely Kiss|p1a: Starmie
+|-status|p1a: Starmie|slp
+|
+|turn|4
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|switch|p2a: Chansey|Chansey|703\/703
+|
+|turn|5
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|turn|6
+|
+|switch|p2a: Jynx|Jynx|205\/333 par
+|move|p1a: Chansey|Ice Beam|p2a: Jynx
+|-resisted|p2a: Jynx
+|-damage|p2a: Jynx|168\/333 par
+|
+|turn|7
+|
+|switch|p2a: Rhydon|Rhydon|413\/413
+|move|p1a: Chansey|Thunderbolt|p2a: Rhydon
+|-immune|p2a: Rhydon|[msg]
+|
+|turn|8
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Rhydon|Earthquake|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|314\/393
+|
+|turn|9
+|
+|switch|p2a: Jynx|Jynx|168\/333 par
+|move|p1a: Exeggutor|Psychic|p2a: Jynx
+|-resisted|p2a: Jynx
+|-damage|p2a: Jynx|108\/333 par
+|-unboost|p2a: Jynx|spd|1
+|-unboost|p2a: Jynx|spa|1
+|
+|turn|10
+|
+|move|p1a: Exeggutor|Psychic|p2a: Jynx
+|-resisted|p2a: Jynx
+|-damage|p2a: Jynx|16\/333 par
+|cant|p2a: Jynx|par
+|
+|turn|11
+|
+|move|p1a: Exeggutor|Psychic|p2a: Jynx
+|-resisted|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|
+|switch|p2a: Blastoise|Blastoise|361\/361
+|turn|12
+|
+|switch|p1a: Chansey|Chansey|703\/703 par
+|move|p2a: Blastoise|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|617\/703 par
+|
+|turn|13
+|
+|move|p2a: Blastoise|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|441\/703 par
+|move|p1a: Chansey|Ice Beam|p2a: Blastoise
+|-resisted|p2a: Blastoise
+|-damage|p2a: Blastoise|317\/361
+|
+|turn|14
+|
+|switch|p2a: Rhydon|Rhydon|413\/413
+|cant|p1a: Chansey|par
+|
+|turn|15
+|
+|switch|p1a: Exeggutor|Exeggutor|314\/393
+|move|p2a: Rhydon|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|228\/393
+|
+|turn|16
+|
+|switch|p2a: Blastoise|Blastoise|317\/361
+|move|p1a: Exeggutor|Sleep Powder|p2a: Blastoise
+|-status|p2a: Blastoise|slp
+|
+|turn|17
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Exeggutor|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|590\/703
+|
+|turn|18
+|
+|switch|p1a: Chansey|Chansey|441\/703 par
+|switch|p2a: Rhydon|Rhydon|413\/413
+|
+|turn|19
+|
+|switch|p1a: Exeggutor|Exeggutor|228\/393
+|move|p2a: Rhydon|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|141\/393
+|
+|turn|20
+|
+|switch|p2a: Chansey|Chansey|590\/703
+|move|p1a: Exeggutor|Psychic|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|357\/703
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|
+|turn|21
+|
+|switch|p1a: Chansey|Chansey|441\/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703
+|
+|turn|22
+|
+|switch|p2a: Rhydon|Rhydon|413\/413
+|move|p1a: Chansey|Ice Beam|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|177\/413
+|
+|turn|23
+|
+|switch|p1a: Exeggutor|Exeggutor|141\/393
+|move|p2a: Rhydon|Rock Slide|p1a: Exeggutor
+|-damage|p1a: Exeggutor|20\/393
+|
+|turn|24
+|
+|move|p1a: Exeggutor|Psychic|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|25
+|
+|move|p2a: Tauros|Body Slam|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|turn|26
+|
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|385\/523
+|move|p1a: Snorlax|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|247\/353
+|
+|turn|27
+|
+|switch|p2a: Blastoise|Blastoise|317\/361 slp
+|move|p1a: Snorlax|Body Slam|p2a: Blastoise
+|-damage|p2a: Blastoise|200\/361 slp
+|
+|turn|28
+|
+|cant|p2a: Blastoise|slp
+|move|p1a: Snorlax|Body Slam|p2a: Blastoise
+|-damage|p2a: Blastoise|93\/361 slp
+|
+|turn|29
+|
+|-curestatus|p2a: Blastoise|slp
+|move|p1a: Snorlax|Body Slam|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|
+|switch|p2a: Tauros|Tauros|247\/353
+|turn|30
+|
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|252\/523
+|move|p1a: Snorlax|Self-Destruct|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|faint|p1a: Snorlax
+|
+|switch|p2a: Jolteon|Jolteon|333\/333
+|switch|p1a: Chansey|Chansey|441\/703 par
+|turn|31
+|
+|move|p2a: Jolteon|Double Kick|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|347\/703 par
+|-damage|p1a: Chansey|253\/703 par
+|-hitcount|p1a: Chansey|2
+|cant|p1a: Chansey|par
+|
+|turn|32
+|
+|move|p2a: Jolteon|Double Kick|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|153\/703 par
+|-damage|p1a: Chansey|53\/703 par
+|-hitcount|p1a: Chansey|2
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|404\/703 par
+|
+|turn|33
+|
+|move|p2a: Jolteon|Double Kick|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|304\/703 par
+|-damage|p1a: Chansey|204\/703 par
+|-hitcount|p1a: Chansey|2
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|555\/703 par
+|
+|turn|34
+|
+|move|p2a: Jolteon|Double Kick|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|460\/703 par
+|-damage|p1a: Chansey|365\/703 par
+|-hitcount|p1a: Chansey|2
+|move|p1a: Chansey|Thunder Wave|p2a: Jolteon
+|-status|p2a: Jolteon|par
+|
+|turn|35
+|
+|move|p2a: Jolteon|Double Kick|p1a: Chansey
+|-crit|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|169\/703 par
+|-damage|p1a: Chansey|0 fnt
+|-hitcount|p1a: Chansey|2
+|faint|p1a: Chansey
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|36
+|
+|move|p1a: Tauros|Earthquake|p2a: Jolteon
+|-supereffective|p2a: Jolteon
+|-damage|p2a: Jolteon|129\/333 par
+|move|p2a: Jolteon|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|
+|turn|37
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|73\/353 par
+|cant|p1a: Tauros|par
+|
+|turn|38
+|
+|cant|p2a: Jolteon|par
+|move|p1a: Tauros|Earthquake|p2a: Jolteon
+|-crit|p2a: Jolteon
+|-supereffective|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|turn|39
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|switch|p1a: Zapdos|Zapdos|383\/383
+|turn|40
+|
+|move|p1a: Zapdos|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Zapdos
+|-status|p1a: Zapdos|par
+|
+|turn|41
+|
+|cant|p1a: Zapdos|par
+|move|p2a: Chansey|Ice Beam|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|247\/383 par
+|
+|turn|42
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Chansey
+|-damage|p2a: Chansey|449\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|43
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Chansey
+|-damage|p2a: Chansey|224\/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|575\/703 par
+|
+|turn|44
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|114\/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|465\/703 par
+|
+|turn|45
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Chansey
+|-damage|p2a: Chansey|220\/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|571\/703 par
+|
+|turn|46
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Chansey
+|-damage|p2a: Chansey|326\/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|677\/703 par
+|
+|turn|47
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Chansey
+|-damage|p2a: Chansey|438\/703 par
+|move|p2a: Chansey|Ice Beam|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|125\/383 par
+|
+|turn|48
+|
+|cant|p1a: Zapdos|par
+|move|p2a: Chansey|Ice Beam|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|switch|p1a: Starmie|Starmie|323\/323 slp
+|turn|49
+|
+|cant|p1a: Starmie|slp
+|move|p2a: Chansey|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|155\/323 slp
+|
+|turn|50
+|
+|-curestatus|p1a: Starmie|slp
+|move|p2a: Chansey|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|win|jb champ
+|c|★jb champ|gg
+|leave|charrol
+|player|p1
+|raw|charrol's rating: 1353 &rarr; <strong>1321<\/strong><br \/>(-32 for losing)
+|raw|jb champ's rating: 1114 &rarr; <strong>1154<\/strong><br \/>(+40 for winning)

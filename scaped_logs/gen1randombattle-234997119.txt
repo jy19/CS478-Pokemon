@@ -1,0 +1,183 @@
+﻿|join|andrewandres
+|join|BoJack Horsem(2)
+|player|p1|andrewandres|101
+|player|p2|BoJack Horsem(2)|1
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Clefairy|Clefairy, L95|326\/326
+|switch|p2a: Tentacruel|Tentacruel, L85|310\/310
+|turn|1
+|
+|move|p2a: Tentacruel|Hydro Pump|p1a: Clefairy
+|-crit|p1a: Clefairy
+|-damage|p1a: Clefairy|19\/326
+|move|p1a: Clefairy|Thunderbolt|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|204\/310
+|
+|turn|2
+|c|★andrewandres|critic...of course
+|
+|move|p2a: Tentacruel|Hydro Pump|p1a: Clefairy|[miss]
+|-miss|p2a: Tentacruel
+|move|p1a: Clefairy|Thunderbolt|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|107\/310
+|
+|turn|3
+|
+|move|p2a: Tentacruel|Surf|p1a: Clefairy
+|-damage|p1a: Clefairy|0 fnt
+|faint|p1a: Clefairy
+|
+|switch|p1a: Blastoise|Blastoise, L85|308\/308
+|turn|4
+|
+|switch|p2a: Electrode|Electrode, L85|276\/276
+|move|p1a: Blastoise|Earthquake|p2a: Electrode
+|-supereffective|p2a: Electrode
+|-damage|p2a: Electrode|132\/276
+|
+|turn|5
+|
+|switch|p1a: Magnemite|Magnemite, L96|243\/243
+|move|p2a: Electrode|Thunder|p1a: Magnemite
+|-resisted|p1a: Magnemite
+|-damage|p1a: Magnemite|197\/243
+|
+|turn|6
+|
+|switch|p2a: Rhydon|Rhydon, L79|328\/328
+|move|p1a: Magnemite|Thunder Wave|p2a: Rhydon
+|-immune|p2a: Rhydon|[msg]
+|
+|turn|7
+|
+|switch|p1a: Blastoise|Blastoise, L85|308\/308
+|move|p2a: Rhydon|Rock Slide|p1a: Blastoise
+|-damage|p1a: Blastoise|234\/308
+|
+|turn|8
+|
+|switch|p2a: Kingler|Kingler, L85|267\/267
+|move|p1a: Blastoise|Earthquake|p2a: Kingler
+|-crit|p2a: Kingler
+|-damage|p2a: Kingler|157\/267
+|
+|turn|9
+|
+|move|p1a: Blastoise|Earthquake|p2a: Kingler
+|-damage|p2a: Kingler|103\/267
+|move|p2a: Kingler|Hyper Beam|p1a: Blastoise|[miss]
+|-miss|p2a: Kingler
+|
+|turn|10
+|
+|move|p1a: Blastoise|Earthquake|p2a: Kingler
+|-damage|p2a: Kingler|44\/267
+|move|p2a: Kingler|Hyper Beam|p1a: Blastoise
+|-damage|p1a: Blastoise|121\/308
+|
+|turn|11
+|-mustrecharge|p2a: Kingler
+|-mustrecharge|p2a: Kingler
+|
+|move|p1a: Blastoise|Mimic|p2a: Kingler
+|-start|p1a: Blastoise|Mimic|Blizzard
+|cant|p2a: Kingler|recharge
+|
+|turn|12
+|
+|switch|p2a: Parasect|Parasect, L85|276\/276
+|move|p1a: Blastoise|Earthquake|p2a: Parasect
+|-resisted|p2a: Parasect
+|-damage|p2a: Parasect|261\/276
+|
+|turn|13
+|
+|move|p1a: Blastoise|Blizzard|p2a: Parasect|[miss]
+|-miss|p1a: Blastoise
+|move|p2a: Parasect|Hyper Beam|p1a: Blastoise
+|-damage|p1a: Blastoise|24\/308
+|
+|turn|14
+|-mustrecharge|p2a: Parasect
+|c|★andrewandres|my god...
+|-mustrecharge|p2a: Parasect
+|
+|move|p1a: Blastoise|Blizzard|p2a: Parasect
+|-supereffective|p2a: Parasect
+|-damage|p2a: Parasect|82\/276
+|-status|p2a: Parasect|frz
+|cant|p2a: Parasect|recharge
+|
+|turn|15
+|
+|move|p1a: Blastoise|Rest|p1a: Blastoise
+|-status|p1a: Blastoise|slp
+|-heal|p1a: Blastoise|308\/308 slp|[silent]
+|-status|p1a: Blastoise|slp|[from] move: Rest
+|cant|p2a: Parasect|frz
+|
+|turn|16
+|
+|switch|p2a: Electrode|Electrode, L85|132\/276
+|cant|p1a: Blastoise|slp
+|
+|turn|17
+|
+|switch|p1a: Magnemite|Magnemite, L96|197\/243
+|move|p2a: Electrode|Thunder|p1a: Magnemite
+|-crit|p1a: Magnemite
+|-resisted|p1a: Magnemite
+|-damage|p1a: Magnemite|102\/243
+|
+|turn|18
+|
+|switch|p2a: Rhydon|Rhydon, L79|328\/328
+|switch|p1a: Clefable|Clefable, L85|335\/335
+|
+|turn|19
+|
+|move|p1a: Clefable|Blizzard|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|84\/328
+|move|p2a: Rhydon|Earthquake|p1a: Clefable
+|-crit|p1a: Clefable
+|-damage|p1a: Clefable|107\/335
+|
+|turn|20
+|c|★andrewandres|critical..
+|
+|switch|p2a: Electrode|Electrode, L85|132\/276
+|move|p1a: Clefable|Body Slam|p2a: Electrode
+|-damage|p2a: Electrode|38\/276
+|-status|p2a: Electrode|par
+|
+|turn|21
+|
+|move|p1a: Clefable|Body Slam|p2a: Electrode
+|-damage|p2a: Electrode|0 fnt
+|faint|p2a: Electrode
+|
+|switch|p2a: Moltres|Moltres, L85|327\/327
+|turn|22
+|-message|BoJack Horsem(2) lost due to inactivity.
+|c|★andrewandres|that sad...
+|
+|move|p2a: Moltres|Fire Blast|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|c|★andrewandres|sad sad sad...
+|
+|win|andrewandres
+|raw|Ladder updating...
+|
+|switch|p1a: Blastoise|Blastoise, L85|308\/308 slp

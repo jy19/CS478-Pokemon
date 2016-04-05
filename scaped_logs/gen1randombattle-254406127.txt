@@ -1,0 +1,286 @@
+﻿|join|andrewandres
+|join|TsukiDog
+|player|p1|andrewandres|266
+|player|p2|TsukiDog|1
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Zapdos|Zapdos, L79|304\/304
+|switch|p2a: Gyarados|Gyarados, L85|335\/335
+|turn|1
+|
+|switch|p2a: Articuno|Articuno, L79|304\/304
+|move|p1a: Zapdos|Thunderbolt|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|134\/304
+|-status|p2a: Articuno|par
+|
+|turn|2
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|faint|p2a: Articuno
+|
+|switch|p2a: Wigglytuff|Wigglytuff, L90|435\/435
+|turn|3
+|
+|switch|p1a: Magikarp|Magikarp, L99|240\/240
+|move|p2a: Wigglytuff|Blizzard|p1a: Magikarp
+|-resisted|p1a: Magikarp
+|-damage|p1a: Magikarp|185\/240
+|
+|turn|4
+|
+|switch|p2a: Vileplume|Vileplume, L90|318\/318
+|move|p1a: Magikarp|Dragon Rage|p2a: Vileplume
+|-damage|p2a: Vileplume|278\/318
+|
+|turn|5
+|
+|move|p1a: Magikarp|Dragon Rage|p2a: Vileplume
+|-damage|p2a: Vileplume|238\/318
+|move|p2a: Vileplume|Mega Drain|p1a: Magikarp
+|-supereffective|p1a: Magikarp
+|-damage|p1a: Magikarp|4\/240
+|-heal|p2a: Vileplume|318\/318|[from] drain|[of] p1a: Magikarp
+|
+|turn|6
+|
+|move|p1a: Magikarp|Dragon Rage|p2a: Vileplume
+|-damage|p2a: Vileplume|278\/318
+|move|p2a: Vileplume|Body Slam|p1a: Magikarp
+|-damage|p1a: Magikarp|0 fnt
+|faint|p1a: Magikarp
+|
+|switch|p1a: Wigglytuff|Wigglytuff, L90|435\/435
+|turn|7
+|
+|move|p2a: Vileplume|Sleep Powder|p1a: Wigglytuff
+|-status|p1a: Wigglytuff|slp
+|cant|p1a: Wigglytuff|slp
+|
+|turn|8
+|
+|switch|p1a: Zapdos|Zapdos, L79|304\/304
+|move|p2a: Vileplume|Swords Dance|p2a: Vileplume
+|-boost|p2a: Vileplume|atk|2
+|
+|turn|9
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Vileplume
+|-crit|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|
+|switch|p2a: Wigglytuff|Wigglytuff, L90|435\/435
+|turn|10
+|
+|switch|p1a: Hitmonlee|Hitmonlee, L90|273\/273
+|move|p2a: Wigglytuff|Blizzard|p1a: Hitmonlee|[miss]
+|-miss|p2a: Wigglytuff
+|
+|turn|11
+|
+|switch|p2a: Gyarados|Gyarados, L85|335\/335
+|move|p1a: Hitmonlee|Substitute|p1a: Hitmonlee
+|-start|p1a: Hitmonlee|Substitute
+|-damage|p1a: Hitmonlee|205\/273
+|
+|turn|12
+|
+|move|p1a: Hitmonlee|Mimic|p2a: Gyarados
+|-start|p1a: Hitmonlee|Mimic|Body Slam
+|move|p2a: Gyarados|Body Slam|p1a: Hitmonlee
+|-end|p1a: Hitmonlee|Substitute
+|
+|turn|13
+|
+|move|p2a: Gyarados|Body Slam|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|112\/273
+|move|p1a: Hitmonlee|Counter|p2a: Gyarados
+|-damage|p2a: Gyarados|149\/335
+|
+|turn|14
+|
+|move|p1a: Hitmonlee|Body Slam|p2a: Gyarados
+|-crit|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|switch|p2a: Ninetales|Ninetales, L85|298\/298
+|turn|15
+|
+|move|p2a: Ninetales|Fire Blast|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|0 fnt
+|faint|p1a: Hitmonlee
+|
+|switch|p1a: Rhydon|Rhydon, L79|328\/328
+|turn|16
+|
+|switch|p2a: Wigglytuff|Wigglytuff, L90|435\/435
+|move|p1a: Rhydon|Earthquake|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|271\/435
+|
+|turn|17
+|
+|switch|p1a: Wigglytuff|Wigglytuff, L90|435\/435 slp
+|move|p2a: Wigglytuff|Blizzard|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|350\/435 slp
+|
+|turn|18
+|
+|move|p2a: Wigglytuff|Blizzard|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|262\/435 slp
+|cant|p1a: Wigglytuff|slp
+|
+|turn|19
+|
+|switch|p2a: Ninetales|Ninetales, L85|298\/298
+|cant|p1a: Wigglytuff|slp
+|
+|turn|20
+|
+|move|p2a: Ninetales|Fire Blast|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|99\/435 slp
+|-curestatus|p1a: Wigglytuff|slp
+|
+|turn|21
+|
+|move|p2a: Ninetales|Fire Blast|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|0 fnt
+|faint|p1a: Wigglytuff
+|
+|switch|p1a: Snorlax|Snorlax, L79|415\/415
+|turn|22
+|
+|move|p2a: Ninetales|Toxic|p1a: Snorlax
+|-status|p1a: Snorlax|tox
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|-damage|p1a: Snorlax|390\/415 tox|[from] psn
+|
+|turn|23
+|
+|move|p2a: Ninetales|Double-Edge|p1a: Snorlax
+|-damage|p1a: Snorlax|316\/415 tox
+|-damage|p2a: Ninetales|280\/298|[from] recoil|[of] p1a: Snorlax
+|move|p1a: Snorlax|Earthquake|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|126\/298
+|-damage|p1a: Snorlax|266\/415 tox|[from] tox|[of] p2a: Ninetales
+|
+|turn|24
+|
+|move|p2a: Ninetales|Reflect|p2a: Ninetales
+|-start|p2a: Ninetales|Reflect
+|move|p1a: Snorlax|Earthquake|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|52\/298
+|-damage|p1a: Snorlax|191\/415 tox|[from] tox|[of] p2a: Ninetales
+|
+|turn|25
+|
+|move|p2a: Ninetales|Double-Edge|p1a: Snorlax
+|-damage|p1a: Snorlax|107\/415 tox
+|-damage|p2a: Ninetales|31\/298|[from] recoil|[of] p1a: Snorlax
+|move|p1a: Snorlax|Thunderbolt|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|switch|p2a: Wigglytuff|Wigglytuff, L90|271\/435
+|turn|26
+|
+|move|p2a: Wigglytuff|Blizzard|p1a: Snorlax
+|-damage|p1a: Snorlax|67\/415 tox
+|move|p1a: Snorlax|Hyper Beam|p2a: Wigglytuff|[miss]
+|-miss|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt|[from] tox|[of] p2a: Wigglytuff
+|faint|p1a: Snorlax
+|
+|switch|p1a: Rhydon|Rhydon, L79|328\/328
+|turn|27
+|
+|move|p2a: Wigglytuff|Blizzard|p1a: Rhydon|[miss]
+|-miss|p2a: Wigglytuff
+|move|p1a: Rhydon|Body Slam|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|189\/435
+|
+|turn|28
+|
+|move|p2a: Wigglytuff|Blizzard|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|116\/328
+|move|p1a: Rhydon|Earthquake|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|32\/435
+|
+|turn|29
+|
+|move|p2a: Wigglytuff|Blizzard|p1a: Rhydon|[miss]
+|-miss|p2a: Wigglytuff
+|move|p1a: Rhydon|Body Slam|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|0 fnt
+|faint|p2a: Wigglytuff
+|
+|switch|p2a: Raichu|Raichu, L85|276\/276
+|turn|30
+|
+|switch|p1a: Zapdos|Zapdos, L79|304\/304
+|move|p2a: Raichu|Surf|p1a: Zapdos
+|-damage|p1a: Zapdos|245\/304
+|
+|turn|31
+|
+|move|p2a: Raichu|Thunderbolt|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|87\/304
+|move|p1a: Zapdos|Thunder Wave|p2a: Raichu
+|-status|p2a: Raichu|par
+|
+|turn|32
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Raichu
+|-resisted|p2a: Raichu
+|-damage|p2a: Raichu|221\/276 par
+|cant|p2a: Raichu|par
+|
+|turn|33
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Raichu
+|-resisted|p2a: Raichu
+|-damage|p2a: Raichu|174\/276 par
+|move|p2a: Raichu|Thunderbolt|p1a: Zapdos
+|-damage|p1a: Zapdos|10\/304
+|
+|turn|34
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Raichu
+|-crit|p2a: Raichu
+|-resisted|p2a: Raichu
+|-damage|p2a: Raichu|76\/276 par
+|cant|p2a: Raichu|par
+|
+|turn|35
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Raichu
+|-resisted|p2a: Raichu
+|-damage|p2a: Raichu|29\/276 par
+|cant|p2a: Raichu|par
+|
+|turn|36
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Raichu
+|-resisted|p2a: Raichu
+|-damage|p2a: Raichu|0 fnt
+|faint|p2a: Raichu
+|
+|win|andrewandres
+|raw|Ladder updating...

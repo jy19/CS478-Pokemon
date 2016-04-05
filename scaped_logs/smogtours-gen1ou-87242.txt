@@ -1,0 +1,333 @@
+﻿|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|J|xJoelituh
+|J|Ortheore
+|player|p1|xJoelituh|134
+|player|p2|Ortheore|101
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Starmie|Starmie|323\/323
+|switch|p2a: Alakazam|Alakazam|313\/313
+|turn|1
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Starmie|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|turn|2
+|
+|switch|p1a: Rhydon|Rhydon|413\/413
+|move|p2a: Chansey|Sing|p1a: Rhydon
+|-status|p1a: Rhydon|slp
+|
+|turn|3
+|
+|cant|p1a: Rhydon|slp
+|move|p2a: Chansey|Ice Beam|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|184\/413 slp
+|
+|turn|4
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|move|p2a: Chansey|Ice Beam|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|284\/323
+|
+|turn|5
+|
+|move|p1a: Starmie|Blizzard|p2a: Chansey|[miss]
+|-miss|p1a: Starmie
+|cant|p2a: Chansey|par
+|
+|turn|6
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Chansey|Ice Beam|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|261\/393
+|
+|turn|7
+|
+|move|p1a: Exeggutor|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|588\/703 par
+|move|p2a: Chansey|Ice Beam|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|136\/393
+|-status|p1a: Exeggutor|frz
+|
+|turn|8
+|
+|cant|p1a: Exeggutor|frz
+|move|p2a: Chansey|Thunder Wave|p1a: Exeggutor
+|-fail|p1a: Exeggutor
+|
+|turn|9
+|
+|switch|p1a: Rhydon|Rhydon|184\/413 slp
+|cant|p2a: Chansey|par
+|
+|turn|10
+|
+|cant|p1a: Rhydon|slp
+|move|p2a: Chansey|Thunder Wave|p1a: Rhydon
+|-immune|p1a: Rhydon|[msg]
+|
+|turn|11
+|
+|-curestatus|p1a: Rhydon|slp
+|move|p2a: Chansey|Ice Beam|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|12
+|
+|move|p1a: Tauros|Body Slam|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|46\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|13
+|c|★xJoelituh|sry
+|
+|move|p1a: Tauros|Earthquake|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|turn|14
+|
+|switch|p1a: Exeggutor|Exeggutor|136\/393 frz
+|move|p2a: Exeggutor|Sleep Powder|p1a: Exeggutor|[miss]
+|-miss|p2a: Exeggutor
+|
+|turn|15
+|
+|move|p2a: Exeggutor|Sleep Powder|p1a: Exeggutor
+|-fail|p1a: Exeggutor
+|cant|p1a: Exeggutor|frz
+|
+|turn|16
+|
+|move|p2a: Exeggutor|Sleep Powder|p1a: Exeggutor
+|-fail|p1a: Exeggutor
+|cant|p1a: Exeggutor|frz
+|
+|turn|17
+|
+|move|p2a: Exeggutor|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|83\/393 frz
+|cant|p1a: Exeggutor|frz
+|
+|turn|18
+|
+|cant|p1a: Exeggutor|frz
+|move|p2a: Exeggutor|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|32\/393 frz
+|-unboost|p1a: Exeggutor|spd|1
+|-unboost|p1a: Exeggutor|spa|1
+|
+|turn|19
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|cant|p1a: Exeggutor|frz
+|
+|turn|20
+|
+|switch|p1a: Starmie|Starmie|284\/323
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|
+|turn|21
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|cant|p2a: Snorlax|par
+|
+|turn|22
+|
+|move|p1a: Starmie|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|450\/523 par
+|move|p2a: Snorlax|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|156\/323
+|-status|p1a: Starmie|par
+|
+|turn|23
+|
+|cant|p1a: Starmie|par
+|cant|p2a: Snorlax|par
+|
+|turn|24
+|
+|move|p1a: Starmie|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|375\/523 par
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|
+|turn|25
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|move|p2a: Snorlax|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|240\/353
+|
+|turn|26
+|
+|move|p1a: Tauros|Body Slam|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|122\/523 par
+|cant|p2a: Snorlax|par
+|
+|turn|27
+|
+|move|p1a: Tauros|Body Slam|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|turn|28
+|
+|switch|p1a: Exeggutor|Exeggutor|32\/393 frz
+|move|p2a: Exeggutor|Sleep Powder|p1a: Exeggutor
+|-fail|p1a: Exeggutor
+|
+|turn|29
+|
+|switch|p2a: Zapdos|Zapdos|383\/383
+|cant|p1a: Exeggutor|frz
+|
+|turn|30
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|turn|31
+|
+|move|p2a: Zapdos|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|move|p1a: Chansey|Thunder Wave|p2a: Zapdos
+|-status|p2a: Zapdos|par
+|
+|turn|32
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Chansey
+|-damage|p1a: Chansey|474\/703 par
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-start|p1a: Chansey|Reflect
+|
+|turn|33
+|
+|switch|p2a: Alakazam|Alakazam|313\/313
+|move|p1a: Chansey|Seismic Toss|p2a: Alakazam
+|-damage|p2a: Alakazam|213\/313
+|
+|turn|34
+|
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|348\/703 par
+|move|p1a: Chansey|Seismic Toss|p2a: Alakazam
+|-damage|p2a: Alakazam|113\/313
+|
+|turn|35
+|
+|switch|p1a: Starmie|Starmie|156\/323 par
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|269\/313
+|
+|turn|36
+|
+|switch|p2a: Zapdos|Zapdos|383\/383 par
+|move|p1a: Starmie|Thunder Wave|p2a: Zapdos
+|-fail|p2a: Zapdos|par
+|
+|turn|37
+|
+|move|p1a: Starmie|Blizzard|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|229\/383 par
+|move|p2a: Zapdos|Thunderbolt|p1a: Starmie
+|-crit|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|switch|p1a: Articuno|Articuno|383\/383
+|turn|38
+|
+|switch|p2a: Alakazam|Alakazam|269\/313
+|move|p1a: Articuno|Blizzard|p2a: Alakazam
+|-damage|p2a: Alakazam|142\/313
+|-status|p2a: Alakazam|frz
+|
+|turn|39
+|
+|cant|p2a: Alakazam|frz
+|move|p1a: Articuno|Blizzard|p2a: Alakazam|[miss]
+|-miss|p1a: Articuno
+|
+|turn|40
+|
+|cant|p2a: Alakazam|frz
+|move|p1a: Articuno|Agility|p1a: Articuno
+|-boost|p1a: Articuno|spe|2
+|
+|turn|41
+|
+|move|p1a: Articuno|Hyper Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|turn|42
+|
+|move|p1a: Articuno|Blizzard|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|43
+|
+|move|p1a: Articuno|Blizzard|p2a: Tauros
+|-damage|p2a: Tauros|158\/353
+|move|p2a: Tauros|Body Slam|p1a: Articuno
+|-damage|p1a: Articuno|277\/383
+|
+|turn|44
+|
+|move|p1a: Articuno|Blizzard|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|c|★xJoelituh|gg
+|c|★Ortheore|gg
+|
+|switch|p2a: Zapdos|Zapdos|229\/383 par
+|turn|45
+|
+|move|p1a: Articuno|Blizzard|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|win|xJoelituh
+|L|xJoelituh
+|player|p1

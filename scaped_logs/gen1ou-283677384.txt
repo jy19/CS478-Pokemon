@@ -1,0 +1,474 @@
+﻿|join|touchable
+|join|Tendoh
+|player|p1|touchable|215
+|player|p2|Tendoh|265
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Michael Jackson|Clefable|393\/393
+|switch|p2a: Luma|Starmie|323\/323
+|turn|1
+|
+|switch|p2a: Whorey|Chansey|703\/703
+|move|p1a: Michael Jackson|Sing|p2a: Whorey|[miss]
+|-miss|p1a: Michael Jackson
+|
+|turn|2
+|
+|move|p1a: Michael Jackson|Ice Beam|p2a: Whorey
+|-crit|p2a: Whorey
+|-damage|p2a: Whorey|578\/703
+|move|p2a: Whorey|Ice Beam|p1a: Michael Jackson
+|-damage|p1a: Michael Jackson|305\/393
+|
+|turn|3
+|
+|move|p1a: Michael Jackson|Ice Beam|p2a: Whorey
+|-damage|p2a: Whorey|515\/703
+|move|p2a: Whorey|Ice Beam|p1a: Michael Jackson
+|-damage|p1a: Michael Jackson|226\/393
+|
+|turn|4
+|
+|move|p1a: Michael Jackson|Sing|p2a: Whorey
+|-status|p2a: Whorey|slp
+|cant|p2a: Whorey|slp
+|
+|turn|5
+|
+|move|p1a: Michael Jackson|Ice Beam|p2a: Whorey
+|-damage|p2a: Whorey|445\/703 slp
+|cant|p2a: Whorey|slp
+|
+|turn|6
+|
+|move|p1a: Michael Jackson|Psychic|p2a: Whorey
+|-damage|p2a: Whorey|382\/703 slp
+|cant|p2a: Whorey|slp
+|
+|turn|7
+|
+|switch|p2a: Kim Peek|Alakazam|313\/313
+|move|p1a: Michael Jackson|Psychic|p2a: Kim Peek
+|-resisted|p2a: Kim Peek
+|-damage|p2a: Kim Peek|289\/313
+|
+|turn|8
+|
+|move|p2a: Kim Peek|Psychic|p1a: Michael Jackson
+|-damage|p1a: Michael Jackson|81\/393
+|-unboost|p1a: Michael Jackson|spd|1
+|-unboost|p1a: Michael Jackson|spa|1
+|move|p1a: Michael Jackson|Ice Beam|p2a: Kim Peek
+|-damage|p2a: Kim Peek|250\/313
+|
+|turn|9
+|
+|switch|p1a: La petite mort|Chansey|703\/703
+|move|p2a: Kim Peek|Seismic Toss|p1a: La petite mort
+|-damage|p1a: La petite mort|603\/703
+|
+|turn|10
+|
+|switch|p2a: Whorey|Chansey|382\/703 slp
+|move|p1a: La petite mort|Ice Beam|p2a: Whorey
+|-damage|p2a: Whorey|306\/703 slp
+|
+|turn|11
+|
+|switch|p1a: Hamburger|Tauros|353\/353
+|cant|p2a: Whorey|slp
+|
+|turn|12
+|
+|switch|p2a: Digitamamon|Exeggutor|393\/393
+|move|p1a: Hamburger|Body Slam|p2a: Digitamamon
+|-damage|p2a: Digitamamon|290\/393
+|-status|p2a: Digitamamon|par
+|
+|turn|13
+|
+|switch|p1a: Michael Jackson|Clefable|81\/393
+|move|p2a: Digitamamon|Sleep Powder|p1a: Michael Jackson
+|-status|p1a: Michael Jackson|slp
+|
+|turn|14
+|
+|switch|p1a: La petite mort|Chansey|603\/703
+|move|p2a: Digitamamon|Psychic|p1a: La petite mort
+|-damage|p1a: La petite mort|487\/703
+|-unboost|p1a: La petite mort|spd|1
+|-unboost|p1a: La petite mort|spa|1
+|
+|turn|15
+|
+|switch|p1a: Hamburger|Tauros|353\/353
+|switch|p2a: Whorey|Chansey|306\/703 slp
+|
+|turn|16
+|
+|switch|p2a: Luma|Starmie|323\/323
+|move|p1a: Hamburger|Body Slam|p2a: Luma
+|-damage|p2a: Luma|205\/323
+|
+|turn|17
+|
+|switch|p1a: Fries|Snorlax|523\/523
+|move|p2a: Luma|Blizzard|p1a: Fries|[miss]
+|-miss|p2a: Luma
+|
+|turn|18
+|
+|move|p2a: Luma|Blizzard|p1a: Fries|[miss]
+|-miss|p2a: Luma
+|move|p1a: Fries|Body Slam|p2a: Luma
+|-damage|p2a: Luma|95\/323
+|
+|turn|19
+|
+|move|p2a: Luma|Recover|p2a: Luma
+|-heal|p2a: Luma|256\/323
+|move|p1a: Fries|Body Slam|p2a: Luma
+|-crit|p2a: Luma
+|-damage|p2a: Luma|10\/323
+|
+|turn|20
+|
+|move|p2a: Luma|Blizzard|p1a: Fries
+|-damage|p1a: Fries|402\/523
+|move|p1a: Fries|Body Slam|p2a: Luma
+|-crit|p2a: Luma
+|-damage|p2a: Luma|0 fnt
+|faint|p2a: Luma
+|
+|switch|p2a: Denver|Dragonite|385\/385
+|turn|21
+|
+|move|p2a: Denver|Agility|p2a: Denver
+|-boost|p2a: Denver|spe|2
+|move|p1a: Fries|Blizzard|p2a: Denver
+|-supereffective|p2a: Denver
+|-damage|p2a: Denver|72\/385
+|
+|turn|22
+|
+|move|p2a: Denver|Wrap|p1a: Fries
+|-damage|p1a: Fries|381\/523
+|-activate|p1a: Fries|move: Wrap|[of] p2a: Denver
+|cant|p1a: Fries|partiallytrapped
+|
+|turn|23
+|
+|move|p2a: Denver|Wrap|p1a: Fries
+|-damage|p1a: Fries|360\/523
+|cant|p1a: Fries|partiallytrapped
+|
+|turn|24
+|
+|move|p2a: Denver|Wrap|p1a: Fries
+|-damage|p1a: Fries|339\/523
+|cant|p1a: Fries|partiallytrapped
+|
+|turn|25
+|
+|move|p2a: Denver|Wrap|p1a: Fries
+|-damage|p1a: Fries|318\/523
+|cant|p1a: Fries|partiallytrapped
+|
+|-end|p1a: Fries|Wrap|[partiallytrapped]
+|turn|26
+|
+|switch|p1a: Hamburger|Tauros|353\/353
+|move|p2a: Denver|Wrap|p1a: Hamburger
+|-damage|p1a: Hamburger|339\/353
+|-activate|p1a: Hamburger|move: Wrap|[of] p2a: Denver
+|
+|turn|27
+|
+|switch|p1a: Dominatrix|Persian|333\/333
+|move|p2a: Denver|Wrap|p1a: Dominatrix|[miss]
+|-miss|p2a: Denver
+|
+|turn|28
+|
+|move|p2a: Denver|Wrap|p1a: Dominatrix
+|-damage|p1a: Dominatrix|312\/333
+|-activate|p1a: Dominatrix|move: Wrap|[of] p2a: Denver
+|cant|p1a: Dominatrix|partiallytrapped
+|
+|turn|29
+|
+|move|p2a: Denver|Wrap|p1a: Dominatrix
+|-damage|p1a: Dominatrix|291\/333
+|cant|p1a: Dominatrix|partiallytrapped
+|
+|turn|30
+|
+|switch|p1a: Michael Jackson|Clefable|81\/393 slp
+|move|p2a: Denver|Wrap|p1a: Michael Jackson
+|-damage|p1a: Michael Jackson|62\/393 slp
+|-activate|p1a: Michael Jackson|move: Wrap|[of] p2a: Denver
+|
+|turn|31
+|
+|switch|p1a: Hamburger|Tauros|339\/353
+|move|p2a: Denver|Wrap|p1a: Hamburger
+|-damage|p1a: Hamburger|325\/353
+|-activate|p1a: Hamburger|move: Wrap|[of] p2a: Denver
+|
+|turn|32
+|
+|switch|p1a: La petite mort|Chansey|487\/703
+|move|p2a: Denver|Wrap|p1a: La petite mort
+|-damage|p1a: La petite mort|446\/703
+|-activate|p1a: La petite mort|move: Wrap|[of] p2a: Denver
+|
+|turn|33
+|
+|move|p2a: Denver|Wrap|p1a: La petite mort
+|-damage|p1a: La petite mort|405\/703
+|cant|p1a: La petite mort|partiallytrapped
+|
+|turn|34
+|
+|move|p2a: Denver|Wrap|p1a: La petite mort
+|-damage|p1a: La petite mort|364\/703
+|cant|p1a: La petite mort|partiallytrapped
+|
+|-end|p1a: La petite mort|Wrap|[partiallytrapped]
+|turn|35
+|
+|switch|p1a: Hamburger|Tauros|325\/353
+|move|p2a: Denver|Wrap|p1a: Hamburger
+|-damage|p1a: Hamburger|310\/353
+|-activate|p1a: Hamburger|move: Wrap|[of] p2a: Denver
+|
+|turn|36
+|
+|switch|p1a: La petite mort|Chansey|364\/703
+|move|p2a: Denver|Wrap|p1a: La petite mort
+|-crit|p1a: La petite mort
+|-damage|p1a: La petite mort|284\/703
+|-activate|p1a: La petite mort|move: Wrap|[of] p2a: Denver
+|
+|turn|37
+|
+|switch|p1a: Fries|Snorlax|318\/523
+|move|p2a: Denver|Wrap|p1a: Fries
+|-damage|p1a: Fries|298\/523
+|-activate|p1a: Fries|move: Wrap|[of] p2a: Denver
+|
+|turn|38
+|
+|switch|p1a: Hamburger|Tauros|310\/353
+|move|p2a: Denver|Wrap|p1a: Hamburger
+|-damage|p1a: Hamburger|294\/353
+|-activate|p1a: Hamburger|move: Wrap|[of] p2a: Denver
+|
+|turn|39
+|
+|move|p2a: Denver|Wrap|p1a: Hamburger
+|-damage|p1a: Hamburger|278\/353
+|cant|p1a: Hamburger|partiallytrapped
+|
+|turn|40
+|
+|switch|p1a: La petite mort|Chansey|284\/703
+|move|p2a: Denver|Wrap|p1a: La petite mort
+|-damage|p1a: La petite mort|244\/703
+|-activate|p1a: La petite mort|move: Wrap|[of] p2a: Denver
+|
+|turn|41
+|
+|move|p2a: Denver|Wrap|p1a: La petite mort
+|-damage|p1a: La petite mort|204\/703
+|cant|p1a: La petite mort|partiallytrapped
+|
+|turn|42
+|
+|move|p2a: Denver|Wrap|p1a: La petite mort
+|-damage|p1a: La petite mort|164\/703
+|cant|p1a: La petite mort|partiallytrapped
+|
+|turn|43
+|
+|move|p2a: Denver|Wrap|p1a: La petite mort
+|-damage|p1a: La petite mort|124\/703
+|cant|p1a: La petite mort|partiallytrapped
+|
+|-end|p1a: La petite mort|Wrap|[partiallytrapped]
+|turn|44
+|
+|switch|p1a: Dominatrix|Persian|291\/333
+|move|p2a: Denver|Wrap|p1a: Dominatrix
+|-damage|p1a: Dominatrix|270\/333
+|-activate|p1a: Dominatrix|move: Wrap|[of] p2a: Denver
+|
+|turn|45
+|
+|switch|p1a: Hamburger|Tauros|278\/353
+|move|p2a: Denver|Wrap|p1a: Hamburger
+|-damage|p1a: Hamburger|264\/353
+|-activate|p1a: Hamburger|move: Wrap|[of] p2a: Denver
+|
+|turn|46
+|
+|move|p2a: Denver|Wrap|p1a: Hamburger
+|-damage|p1a: Hamburger|250\/353
+|cant|p1a: Hamburger|partiallytrapped
+|
+|-end|p1a: Hamburger|Wrap|[partiallytrapped]
+|turn|47
+|
+|move|p2a: Denver|Wrap|p1a: Hamburger
+|-damage|p1a: Hamburger|236\/353
+|-activate|p1a: Hamburger|move: Wrap|[of] p2a: Denver
+|cant|p1a: Hamburger|partiallytrapped
+|
+|turn|48
+|
+|move|p2a: Denver|Wrap|p1a: Hamburger
+|-damage|p1a: Hamburger|222\/353
+|cant|p1a: Hamburger|partiallytrapped
+|
+|turn|49
+|
+|move|p2a: Denver|Wrap|p1a: Hamburger
+|-damage|p1a: Hamburger|208\/353
+|cant|p1a: Hamburger|partiallytrapped
+|
+|-end|p1a: Hamburger|Wrap|[partiallytrapped]
+|turn|50
+|
+|move|p2a: Denver|Wrap|p1a: Hamburger
+|-damage|p1a: Hamburger|194\/353
+|-activate|p1a: Hamburger|move: Wrap|[of] p2a: Denver
+|cant|p1a: Hamburger|partiallytrapped
+|
+|turn|51
+|
+|switch|p1a: La Diosaz|Kangaskhan|413\/413
+|move|p2a: Denver|Wrap|p1a: La Diosaz
+|-damage|p1a: La Diosaz|397\/413
+|-activate|p1a: La Diosaz|move: Wrap|[of] p2a: Denver
+|
+|turn|52
+|
+|move|p2a: Denver|Wrap|p1a: La Diosaz
+|-damage|p1a: La Diosaz|381\/413
+|cant|p1a: La Diosaz|partiallytrapped
+|
+|-end|p1a: La Diosaz|Wrap|[partiallytrapped]
+|turn|53
+|
+|move|p2a: Denver|Wrap|p1a: La Diosaz
+|-damage|p1a: La Diosaz|363\/413
+|-activate|p1a: La Diosaz|move: Wrap|[of] p2a: Denver
+|cant|p1a: La Diosaz|partiallytrapped
+|
+|turn|54
+|
+|move|p2a: Denver|Wrap|p1a: La Diosaz
+|-damage|p1a: La Diosaz|345\/413
+|cant|p1a: La Diosaz|partiallytrapped
+|
+|turn|55
+|
+|move|p2a: Denver|Wrap|p1a: La Diosaz
+|-damage|p1a: La Diosaz|327\/413
+|cant|p1a: La Diosaz|partiallytrapped
+|
+|-end|p1a: La Diosaz|Wrap|[partiallytrapped]
+|turn|56
+|
+|move|p2a: Denver|Wrap|p1a: La Diosaz
+|-damage|p1a: La Diosaz|309\/413
+|-activate|p1a: La Diosaz|move: Wrap|[of] p2a: Denver
+|cant|p1a: La Diosaz|partiallytrapped
+|
+|turn|57
+|
+|move|p2a: Denver|Wrap|p1a: La Diosaz
+|-damage|p1a: La Diosaz|291\/413
+|cant|p1a: La Diosaz|partiallytrapped
+|
+|-end|p1a: La Diosaz|Wrap|[partiallytrapped]
+|turn|58
+|
+|move|p2a: Denver|Wrap|p1a: La Diosaz|[miss]
+|-miss|p2a: Denver
+|move|p1a: La Diosaz|Body Slam|p2a: Denver
+|-damage|p2a: Denver|0 fnt
+|faint|p2a: Denver
+|
+|switch|p2a: Kim Peek|Alakazam|250\/313
+|turn|59
+|
+|move|p2a: Kim Peek|Psychic|p1a: La Diosaz
+|-damage|p1a: La Diosaz|80\/413
+|move|p1a: La Diosaz|Hyper Beam|p2a: Kim Peek
+|-crit|p2a: Kim Peek
+|-damage|p2a: Kim Peek|0 fnt
+|faint|p2a: Kim Peek
+|
+|switch|p2a: Corrida|Tauros|353\/353
+|turn|60
+|
+|move|p2a: Corrida|Body Slam|p1a: La Diosaz
+|-damage|p1a: La Diosaz|0 fnt
+|faint|p1a: La Diosaz
+|
+|switch|p1a: Fries|Snorlax|298\/523
+|turn|61
+|
+|move|p2a: Corrida|Body Slam|p1a: Fries
+|-damage|p1a: Fries|174\/523
+|move|p1a: Fries|Self-Destruct|p2a: Corrida
+|-damage|p2a: Corrida|7\/353
+|faint|p1a: Fries
+|
+|switch|p1a: Dominatrix|Persian|270\/333
+|turn|62
+|
+|move|p1a: Dominatrix|Body Slam|p2a: Corrida
+|-crit|p2a: Corrida
+|-damage|p2a: Corrida|0 fnt
+|faint|p2a: Corrida
+|
+|switch|p2a: Digitamamon|Exeggutor|290\/393 par
+|turn|63
+|
+|move|p1a: Dominatrix|Slash|p2a: Digitamamon
+|-crit|p2a: Digitamamon
+|-damage|p2a: Digitamamon|151\/393 par
+|move|p2a: Digitamamon|Psychic|p1a: Dominatrix
+|-damage|p1a: Dominatrix|111\/333
+|
+|turn|64
+|
+|move|p1a: Dominatrix|Hyper Beam|p2a: Digitamamon
+|-damage|p2a: Digitamamon|0 fnt
+|faint|p2a: Digitamamon
+|
+|switch|p2a: Whorey|Chansey|306\/703 slp
+|turn|65
+|
+|move|p1a: Dominatrix|Slash|p2a: Whorey
+|-crit|p2a: Whorey
+|-damage|p2a: Whorey|0 fnt
+|faint|p2a: Whorey
+|
+|win|touchable
+|leave|Tendoh
+|player|p2
+|raw|touchable's rating: 1337 &rarr; <strong>1359<\/strong><br \/>(+22 for winning)
+|raw|Tendoh's rating: 1375 &rarr; <strong>1353<\/strong><br \/>(-22 for losing)

@@ -1,0 +1,106 @@
+﻿|join|matdelucca
+|join|figo42
+|player|p1|matdelucca|266
+|player|p2|figo42|163
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|seed|28709,26735,22668,28899
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Doduo|Doduo, L96|262\/262
+|switch|p2a: Poliwag|Poliwag, L96|272\/272
+|turn|1
+|choice|move Growl|move 4
+|
+|move|p2a: Poliwag|Hypnosis|p1a: Doduo
+|-status|p1a: Doduo|slp
+|cant|p1a: Doduo|slp
+|
+|turn|2
+|choice|switch 2|move 1
+|
+|switch|p1a: Dragonair|Dragonair, L85|277\/277
+|move|p2a: Poliwag|Amnesia|p2a: Poliwag
+|-boost|p2a: Poliwag|spd|2
+|-boost|p2a: Poliwag|spa|2
+|
+|turn|3
+|choice|move Thunderbolt|move 2
+|
+|move|p2a: Poliwag|Blizzard|p1a: Dragonair
+|-supereffective|p1a: Dragonair
+|-damage|p1a: Dragonair|0 fnt
+|faint|p1a: Dragonair
+|choice|switch 6|
+|
+|switch|p1a: Kingler|Kingler, L85|267\/267
+|turn|4
+|choice|move Swords Dance|move 3
+|
+|move|p2a: Poliwag|Psychic|p1a: Kingler
+|-damage|p1a: Kingler|130\/267
+|move|p1a: Kingler|Swords Dance|p1a: Kingler
+|-boost|p1a: Kingler|atk|2
+|
+|turn|5
+|choice|move Hyper Beam|move 3
+|
+|move|p2a: Poliwag|Psychic|p1a: Kingler
+|-crit|p1a: Kingler
+|-damage|p1a: Kingler|0 fnt
+|faint|p1a: Kingler
+|choice|switch 3|
+|
+|switch|p1a: Mr. Mime|Mr. Mime, L85|242\/242
+|turn|6
+|choice|move Psychic|move 1
+|
+|move|p2a: Poliwag|Amnesia|p2a: Poliwag
+|-boost|p2a: Poliwag|spd|2
+|-boost|p2a: Poliwag|spa|2
+|move|p1a: Mr. Mime|Psychic|p2a: Poliwag
+|-damage|p2a: Poliwag|231\/272
+|-unboost|p2a: Poliwag|spd|1
+|-unboost|p2a: Poliwag|spa|1
+|
+|turn|7
+|choice|move Thunderbolt|move 1
+|
+|move|p2a: Poliwag|Amnesia|p2a: Poliwag
+|-boost|p2a: Poliwag|spd|2
+|-boost|p2a: Poliwag|spa|2
+|move|p1a: Mr. Mime|Thunderbolt|p2a: Poliwag
+|-supereffective|p2a: Poliwag
+|-damage|p2a: Poliwag|177\/272
+|
+|turn|8
+|choice|move Thunderbolt|move 2
+|
+|move|p2a: Poliwag|Blizzard|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|15\/242
+|-status|p1a: Mr. Mime|frz
+|cant|p1a: Mr. Mime|frz
+|
+|turn|9
+|choice|switch 4|move 3
+|
+|switch|p1a: Kangaskhan|Kangaskhan, L85|352\/352
+|move|p2a: Poliwag|Psychic|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|84\/352
+|
+|turn|10
+|choice|move Earthquake|move 3
+|
+|move|p2a: Poliwag|Psychic|p1a: Kangaskhan
+|-crit|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|0 fnt
+|faint|p1a: Kangaskhan
+|-message|matdelucca forfeited.
+|
+|win|figo42
+|leave|matdelucca
+|player|p1

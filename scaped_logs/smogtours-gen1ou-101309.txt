@@ -1,0 +1,367 @@
+﻿|J|teal6
+|J|SOMALIA
+|player|p1|teal6|102
+|player|p2|SOMALIA|#somalia
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|seed|25001,26422,14354,8225
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333\/333
+|switch|p2a: Alakazam|Alakazam|313\/313
+|turn|1
+|choice|move 2|move 1
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Jynx
+|-status|p1a: Jynx|par
+|move|p1a: Jynx|Lovely Kiss|p2a: Alakazam
+|-status|p2a: Alakazam|slp
+|
+|turn|2
+|choice|move 4|move 2
+|
+|cant|p2a: Alakazam|slp
+|move|p1a: Jynx|Blizzard|p2a: Alakazam
+|-damage|p2a: Alakazam|205\/313 slp
+|
+|turn|3
+|choice|move 4|switch 2
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|move|p1a: Jynx|Blizzard|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|249\/323
+|-status|p2a: Starmie|frz
+|
+|turn|4
+|choice|move 1|switch 2
+|
+|switch|p2a: Alakazam|Alakazam|205\/313 slp
+|move|p1a: Jynx|Psychic|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|123\/313 slp
+|
+|turn|5
+|choice|move 1|move 3
+|
+|cant|p2a: Alakazam|slp
+|cant|p1a: Jynx|par
+|
+|turn|6
+|choice|move 4|move 2
+|
+|cant|p2a: Alakazam|slp
+|move|p1a: Jynx|Blizzard|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|choice||switch 5
+|
+|switch|p2a: Golem|Golem|363\/363
+|turn|7
+|choice|switch 6|move 2
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Golem|Rock Slide|p1a: Chansey
+|-damage|p1a: Chansey|426\/703
+|
+|turn|8
+|choice|move 2|move 1
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703
+|move|p2a: Golem|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|341\/703
+|
+|turn|9
+|c|★SOMALIA|WUT NIGGA
+|choice|switch 5|move 1
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Golem|Earthquake|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|327\/393
+|
+|turn|10
+|c|★SOMALIA|since when was
+|c|★SOMALIA|this sloweer
+|c|★SOMALIA|than chanse
+|c|★SOMALIA|!dt chansey
+|c|~|\/data-pokemon Chansey
+|raw|<font size="1"><font color=#585858>Dex#:<\/font> 113&nbsp;|&ThickSpace;<font color=#585858>Gen:<\/font> 1&nbsp;|&ThickSpace;<font color=#585858>Height:<\/font> 1.1 m&nbsp;|&ThickSpace;<font color=#585858>Weight:<\/font> 34.6 kg <em>(60 BP)<\/em>&nbsp;|&ThickSpace;<font color=#585858>Dex Colour:<\/font> Pink&nbsp;|&ThickSpace;<font color=#585858>Egg Group(s):<\/font> Fairy&nbsp;|&ThickSpace;<font color=#585858>Evolution:<\/font> Blissey (2)<\/font>
+|c|★SOMALIA|!dt golem
+|c|~|\/data-pokemon Golem
+|raw|<font size="1"><font color=#585858>Dex#:<\/font> 76&nbsp;|&ThickSpace;<font color=#585858>Gen:<\/font> 1&nbsp;|&ThickSpace;<font color=#585858>Height:<\/font> 1.4 m&nbsp;|&ThickSpace;<font color=#585858>Weight:<\/font> 300 kg <em>(120 BP)<\/em>&nbsp;|&ThickSpace;<font color=#585858>Dex Colour:<\/font> Brown&nbsp;|&ThickSpace;<font color=#585858>Egg Group(s):<\/font> Mineral&nbsp;|&ThickSpace;<font color=#585858><font color=#585858>Does Not Evolve<\/font><\/font><\/font>
+|c|★teal6|188 to 198
+|c|★teal6|haha
+|c|★SOMALIA|NAH
+|choice|move 2|switch 6
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Exeggutor|Sleep Powder|p2a: Exeggutor
+|-status|p2a: Exeggutor|slp
+|
+|turn|11
+|choice|switch 5|switch 2
+|
+|switch|p2a: Starmie|Starmie|249\/323 frz
+|switch|p1a: Chansey|Chansey|341\/703
+|
+|turn|12
+|choice|move 2|switch 4
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|692\/703
+|
+|turn|13
+|choice|move 3|move 2
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|cant|p2a: Snorlax|par
+|
+|turn|14
+|choice|move 1|move 1
+|
+|move|p1a: Chansey|Ice Beam|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|338\/523 par
+|move|p2a: Snorlax|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|386\/703
+|
+|turn|15
+|choice|move 1|move 1
+|
+|move|p1a: Chansey|Ice Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|238\/523 par
+|move|p2a: Snorlax|Body Slam|p1a: Chansey|[miss]
+|-miss|p2a: Snorlax
+|
+|turn|16
+|choice|move 1|move 1
+|
+|move|p1a: Chansey|Ice Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|133\/523 par
+|cant|p2a: Snorlax|par
+|
+|turn|17
+|choice|switch 6|move 3
+|
+|switch|p1a: Jynx|Jynx|333\/333 par
+|move|p2a: Snorlax|Hyper Beam|p1a: Jynx
+|-damage|p1a: Jynx|18\/333 par
+|
+|turn|18
+|-mustrecharge|p2a: Snorlax
+|c|★SOMALIA|huh
+|c|★SOMALIA|it dont kill
+|c|★SOMALIA|lmao
+|-mustrecharge|p2a: Snorlax
+|c|★teal6|i thought u were
+|c|★teal6|exploding
+|c|★teal6|lol
+|c|★SOMALIA|i gotta beat the sterotype
+|c|★SOMALIA|of somalians being suicude bombers
+|c|★teal6|fair
+|c|★SOMALIA|u know
+|c|★teal6|lmao
+|-mustrecharge|p2a: Snorlax
+|choice|move 1|move 1
+|
+|cant|p1a: Jynx|par
+|cant|p2a: Snorlax|recharge
+|
+|turn|19
+|choice|move 1|move 1
+|
+|move|p1a: Jynx|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|choice||switch 3
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|20
+|choice|move 4|move 2
+|
+|move|p2a: Tauros|Body Slam|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|choice|switch 5|
+|
+|switch|p1a: Exeggutor|Exeggutor|327\/393
+|turn|21
+|choice|move 4|switch 2
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393 slp
+|move|p1a: Exeggutor|Stun Spore|p2a: Exeggutor
+|-fail|p2a: Exeggutor
+|
+|turn|22
+|J|Psychotic
+|choice|switch 6|switch 6
+|
+|switch|p2a: Golem|Golem|363\/363
+|switch|p1a: Chansey|Chansey|386\/703
+|
+|turn|23
+|choice|move 1|move 1
+|
+|move|p1a: Chansey|Ice Beam|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|137\/363
+|move|p2a: Golem|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|18\/703
+|
+|turn|24
+|c|★SOMALIA|CRIT
+|choice|move 1|switch 2
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|move|p1a: Chansey|Ice Beam|p2a: Tauros
+|-damage|p2a: Tauros|260\/353
+|
+|turn|25
+|choice|move 1|move 2
+|
+|move|p2a: Tauros|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|choice|switch 4|
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|turn|26
+|choice|move 1|move 2
+|
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|398\/523
+|move|p1a: Snorlax|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|151\/353
+|
+|turn|27
+|choice|move 3|switch 4
+|
+|switch|p2a: Starmie|Starmie|249\/323 frz
+|move|p1a: Snorlax|Hyper Beam|p2a: Starmie
+|-damage|p2a: Starmie|32\/323 frz
+|
+|turn|28
+|-mustrecharge|p1a: Snorlax
+|-mustrecharge|p1a: Snorlax
+|choice|move 1|switch 6
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393 slp
+|cant|p1a: Snorlax|recharge
+|
+|turn|29
+|choice|move 1|move 4
+|
+|cant|p2a: Exeggutor|slp
+|move|p1a: Snorlax|Body Slam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|280\/393 slp
+|
+|turn|30
+|choice|move 1|move 4
+|
+|cant|p2a: Exeggutor|slp
+|move|p1a: Snorlax|Body Slam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|158\/393 slp
+|
+|turn|31
+|choice|move 3|switch 2
+|
+|switch|p2a: Golem|Golem|137\/363
+|move|p1a: Snorlax|Hyper Beam|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|54\/363
+|
+|turn|32
+|-mustrecharge|p1a: Snorlax
+|-mustrecharge|p1a: Snorlax
+|choice|move 1|move 4
+|
+|move|p2a: Golem|Explosion|p1a: Snorlax
+|-damage|p1a: Snorlax|39\/523
+|faint|p2a: Golem
+|choice||switch 4
+|
+|switch|p2a: Tauros|Tauros|151\/353
+|turn|33
+|-mustrecharge|p1a: Snorlax
+|-mustrecharge|p1a: Snorlax
+|choice|move 1|move 2
+|
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|choice|switch 2|
+|
+|switch|p1a: Zapdos|Zapdos|383\/383
+|turn|34
+|c|★SOMALIA|im decent u know
+|c|★teal6|this gen
+|c|★teal6|hardly rewards
+|c|★teal6|good players
+|c|★teal6|hahaha
+|c|★SOMALIA|lolol
+|c|★teal6|i love it though
+|c|★SOMALIA|yh its fun
+|c|★SOMALIA|as hell
+|c|★SOMALIA|this and oras ubers
+|c|★SOMALIA|hmm
+|c|★SOMALIA|does hb
+|c|★SOMALIA|crit kill
+|c|★teal6|lemme check
+|c|★teal6|Tauros Hyper Beam vs. Zapdos on a critical hit: 348-409 (90.8 - 106.7%) -- 43.6% chance to OHKO
+|c|★SOMALIA|rofl
+|choice|move 4|move 4
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|13\/383
+|move|p1a: Zapdos|Thunder Wave|p2a: Tauros
+|-status|p2a: Tauros|par
+|
+|turn|35
+|-mustrecharge|p2a: Tauros
+|c|★teal6|oo
+|c|★SOMALIA|damn son
+|-mustrecharge|p2a: Tauros
+|choice|move 1|move 1
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|c|★SOMALIA|gg bro
+|choice||switch 6
+|
+|switch|p2a: Starmie|Starmie|32\/323 frz
+|turn|36
+|c|★teal6|gg man
+|choice|move 1|move 1
+|
+|cant|p2a: Starmie|frz
+|move|p1a: Zapdos|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|choice||switch 2
+|
+|switch|p2a: Exeggutor|Exeggutor|158\/393 slp
+|turn|37
+|choice|move 3|move 2
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|win|teal6

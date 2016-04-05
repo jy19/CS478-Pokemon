@@ -1,0 +1,745 @@
+﻿|join|XianJu
+|join|zambi13
+|player|p1|XianJu|130
+|player|p2|zambi13|290
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|36413,62639,9299,37115
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Grimer|Grimer, L96|348\/348
+|switch|p2a: Articuno|Articuno, L79|304\/304
+|turn|1
+|choice|move 1|move 4
+|
+|move|p2a: Articuno|Ice Beam|p1a: Grimer
+|-damage|p1a: Grimer|199\/348
+|-status|p1a: Grimer|frz
+|cant|p1a: Grimer|frz
+|
+|turn|2
+|choice|switch 3|move 2
+|
+|switch|p1a: Dewgong|Dewgong, L85|327\/327
+|move|p2a: Articuno|Blizzard|p1a: Dewgong
+|-crit|p1a: Dewgong
+|-resisted|p1a: Dewgong
+|-damage|p1a: Dewgong|270\/327
+|
+|turn|3
+|choice|move 3|switch 6
+|
+|switch|p2a: Snorlax|Snorlax, L79|415\/415
+|move|p1a: Dewgong|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|351\/415
+|
+|turn|4
+|choice|move 2|move 1
+|
+|move|p1a: Dewgong|Blizzard|p2a: Snorlax
+|-damage|p2a: Snorlax|197\/415
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|
+|turn|5
+|choice|move 2|move 3
+|
+|move|p1a: Dewgong|Blizzard|p2a: Snorlax
+|-damage|p2a: Snorlax|109\/415
+|move|p2a: Snorlax|Surf|p1a: Dewgong
+|-resisted|p1a: Dewgong
+|-damage|p1a: Dewgong|226\/327
+|
+|turn|6
+|choice|move 2|move 2
+|
+|move|p1a: Dewgong|Blizzard|p2a: Snorlax
+|-damage|p2a: Snorlax|21\/415
+|move|p2a: Snorlax|Hyper Beam|p1a: Dewgong
+|-damage|p1a: Dewgong|67\/327
+|
+|turn|7
+|-mustrecharge|p2a: Snorlax
+|-mustrecharge|p2a: Snorlax
+|choice|move 1|move 1
+|
+|move|p1a: Dewgong|Mimic|p2a: Snorlax
+|-start|p1a: Dewgong|Mimic|Amnesia
+|cant|p2a: Snorlax|recharge
+|
+|turn|8
+|choice|move 3|move 4
+|
+|move|p1a: Dewgong|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|choice||switch 3
+|
+|switch|p2a: Tauros|Tauros, L79|280\/280
+|turn|9
+|choice|move 2|move 4
+|
+|move|p2a: Tauros|Earthquake|p1a: Dewgong
+|-damage|p1a: Dewgong|2\/327
+|move|p1a: Dewgong|Blizzard|p2a: Tauros
+|-damage|p2a: Tauros|125\/280
+|
+|turn|10
+|choice|switch 3|move 3
+|
+|switch|p1a: Grimer|Grimer, L96|199\/348 frz
+|move|p2a: Tauros|Body Slam|p1a: Grimer
+|-damage|p1a: Grimer|109\/348 frz
+|
+|turn|11
+|choice|move 1|move 4
+|
+|move|p2a: Tauros|Earthquake|p1a: Grimer|[miss]
+|-miss|p2a: Tauros
+|cant|p1a: Grimer|frz
+|
+|turn|12
+|choice|move 1|move 3
+|
+|move|p2a: Tauros|Body Slam|p1a: Grimer
+|-damage|p1a: Grimer|8\/348 frz
+|cant|p1a: Grimer|frz
+|
+|turn|13
+|choice|move 1|move 3
+|
+|move|p2a: Tauros|Body Slam|p1a: Grimer
+|-crit|p1a: Grimer
+|-damage|p1a: Grimer|0 fnt
+|faint|p1a: Grimer
+|choice|switch 6|
+|
+|switch|p1a: Exeggutor|Exeggutor, L79|312\/312
+|turn|14
+|choice|move 1|move 1
+|
+|move|p2a: Tauros|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|209\/312
+|move|p1a: Exeggutor|Sleep Powder|p2a: Tauros
+|-status|p2a: Tauros|slp
+|
+|turn|15
+|choice|move 3|move 3
+|
+|cant|p2a: Tauros|slp
+|move|p1a: Exeggutor|Mega Drain|p2a: Tauros
+|-damage|p2a: Tauros|73\/280 slp
+|-heal|p1a: Exeggutor|235\/312|[from] drain|[of] p2a: Tauros
+|
+|turn|16
+|choice|move 3|switch 5
+|
+|switch|p2a: Charmeleon|Charmeleon, L85|272\/272
+|move|p1a: Exeggutor|Mega Drain|p2a: Charmeleon
+|-crit|p2a: Charmeleon
+|-resisted|p2a: Charmeleon
+|-damage|p2a: Charmeleon|220\/272
+|-heal|p1a: Exeggutor|261\/312|[from] drain|[of] p2a: Charmeleon
+|
+|turn|17
+|choice|switch 2|move 3
+|
+|switch|p1a: Dragonair|Dragonair, L85|277\/277
+|move|p2a: Charmeleon|Fire Blast|p1a: Dragonair
+|-resisted|p1a: Dragonair
+|-damage|p1a: Dragonair|221\/277
+|-status|p1a: Dragonair|brn
+|
+|turn|18
+|choice|move 3|switch 5
+|
+|switch|p2a: Tauros|Tauros, L79|73\/280 slp
+|move|p1a: Dragonair|Surf|p2a: Tauros
+|-damage|p2a: Tauros|3\/280 slp
+|-damage|p1a: Dragonair|204\/277 brn|[from] brn|[of] p2a: Tauros
+|
+|turn|19
+|choice|move 3|move 1
+|
+|cant|p2a: Tauros|slp
+|move|p1a: Dragonair|Surf|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|choice||switch 6
+|
+|switch|p2a: Articuno|Articuno, L79|304\/304
+|turn|20
+|choice|switch 4|move 2
+|
+|switch|p1a: Chansey|Chansey, L79|557\/557
+|move|p2a: Articuno|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|428\/557
+|
+|turn|21
+|choice|move 2|switch 5
+|
+|switch|p2a: Charmeleon|Charmeleon, L85|220\/272
+|move|p1a: Chansey|Thunderbolt|p2a: Charmeleon
+|-damage|p2a: Charmeleon|144\/272
+|
+|turn|22
+|choice|move 4|move 2
+|
+|move|p2a: Charmeleon|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|343\/557
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-start|p1a: Chansey|Reflect
+|
+|turn|23
+|choice|move 1|move 4
+|
+|move|p2a: Charmeleon|Submission|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|219\/557
+|-damage|p2a: Charmeleon|113\/272|[from] recoil|[of] p1a: Chansey
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|497\/557
+|
+|turn|24
+|choice|move 2|move 4
+|
+|move|p2a: Charmeleon|Submission|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|377\/557
+|-damage|p2a: Charmeleon|83\/272|[from] recoil|[of] p1a: Chansey
+|move|p1a: Chansey|Thunderbolt|p2a: Charmeleon
+|-damage|p2a: Charmeleon|13\/272
+|
+|turn|25
+|choice|move 1|move 3
+|
+|move|p2a: Charmeleon|Fire Blast|p1a: Chansey
+|-damage|p1a: Chansey|284\/557
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|557\/557
+|
+|turn|26
+|choice|move 2|move 2
+|
+|move|p2a: Charmeleon|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|472\/557
+|move|p1a: Chansey|Thunderbolt|p2a: Charmeleon
+|-crit|p2a: Charmeleon
+|-damage|p2a: Charmeleon|0 fnt
+|faint|p2a: Charmeleon
+|choice||switch 4
+|
+|switch|p2a: Arcanine|Arcanine, L85|327\/327
+|turn|27
+|choice|move 2|move 1
+|
+|move|p2a: Arcanine|Reflect|p2a: Arcanine
+|-start|p2a: Arcanine|Reflect
+|move|p1a: Chansey|Thunderbolt|p2a: Arcanine
+|-damage|p2a: Arcanine|266\/327
+|
+|turn|28
+|choice|move 2|move 2
+|
+|move|p2a: Arcanine|Hyper Beam|p1a: Chansey
+|-damage|p1a: Chansey|308\/557
+|move|p1a: Chansey|Thunderbolt|p2a: Arcanine
+|-damage|p2a: Arcanine|198\/327
+|
+|turn|29
+|-mustrecharge|p2a: Arcanine
+|-mustrecharge|p2a: Arcanine
+|choice|move 2|move 1
+|
+|cant|p2a: Arcanine|recharge
+|move|p1a: Chansey|Thunderbolt|p2a: Arcanine
+|-crit|p2a: Arcanine
+|-damage|p2a: Arcanine|77\/327
+|
+|turn|30
+|choice|move 1|move 3
+|
+|move|p2a: Arcanine|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|219\/557
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|497\/557
+|
+|turn|31
+|choice|move 1|move 2
+|
+|move|p2a: Arcanine|Hyper Beam|p1a: Chansey
+|-damage|p1a: Chansey|348\/557
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|557\/557
+|
+|turn|32
+|-mustrecharge|p2a: Arcanine
+|-mustrecharge|p2a: Arcanine
+|choice|move 2|move 1
+|
+|cant|p2a: Arcanine|recharge
+|move|p1a: Chansey|Thunderbolt|p2a: Arcanine
+|-damage|p2a: Arcanine|10\/327
+|
+|turn|33
+|choice|move 2|move 3
+|
+|move|p2a: Arcanine|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|469\/557
+|move|p1a: Chansey|Thunderbolt|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|choice||switch 2
+|
+|switch|p2a: Staryu|Staryu, L90|237\/237
+|turn|34
+|choice|move 2|move 4
+|
+|move|p2a: Staryu|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|move|p1a: Chansey|Thunderbolt|p2a: Staryu
+|-supereffective|p2a: Staryu
+|-damage|p2a: Staryu|93\/237
+|
+|turn|35
+|choice|move 2|move 1
+|
+|move|p2a: Staryu|Recover|p2a: Staryu
+|-heal|p2a: Staryu|211\/237
+|move|p1a: Chansey|Thunderbolt|p2a: Staryu
+|-supereffective|p2a: Staryu
+|-damage|p2a: Staryu|82\/237
+|
+|turn|36
+|choice|move 2|move 1
+|
+|move|p2a: Staryu|Recover|p2a: Staryu
+|-heal|p2a: Staryu|200\/237
+|move|p1a: Chansey|Thunderbolt|p2a: Staryu
+|-supereffective|p2a: Staryu
+|-damage|p2a: Staryu|54\/237
+|
+|turn|37
+|choice|move 2|move 1
+|
+|move|p2a: Staryu|Recover|p2a: Staryu
+|-heal|p2a: Staryu|172\/237
+|cant|p1a: Chansey|par
+|
+|turn|38
+|choice|move 2|move 1
+|
+|move|p2a: Staryu|Recover|p2a: Staryu
+|-heal|p2a: Staryu|237\/237
+|move|p1a: Chansey|Thunderbolt|p2a: Staryu
+|-supereffective|p2a: Staryu
+|-damage|p2a: Staryu|106\/237
+|
+|turn|39
+|choice|move 2|move 1
+|
+|move|p2a: Staryu|Recover|p2a: Staryu
+|-heal|p2a: Staryu|224\/237
+|cant|p1a: Chansey|par
+|
+|turn|40
+|choice|move 2|move 2
+|
+|move|p2a: Staryu|Surf|p1a: Chansey
+|-damage|p1a: Chansey|382\/557 par
+|move|p1a: Chansey|Thunderbolt|p2a: Staryu
+|-supereffective|p2a: Staryu
+|-damage|p2a: Staryu|89\/237
+|
+|turn|41
+|choice|move 2|move 1
+|
+|move|p2a: Staryu|Recover|p2a: Staryu
+|-heal|p2a: Staryu|207\/237
+|move|p1a: Chansey|Thunderbolt|p2a: Staryu
+|-supereffective|p2a: Staryu
+|-damage|p2a: Staryu|68\/237
+|
+|turn|42
+|choice|move 2|move 1
+|
+|move|p2a: Staryu|Recover|p2a: Staryu
+|-heal|p2a: Staryu|186\/237
+|cant|p1a: Chansey|par
+|
+|turn|43
+|choice|move 1|move 1
+|
+|move|p2a: Staryu|Recover|p2a: Staryu
+|-heal|p2a: Staryu|237\/237
+|cant|p1a: Chansey|par
+|
+|turn|44
+|choice|move 1|move 3
+|
+|move|p2a: Staryu|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|308\/557 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|557\/557 par
+|
+|turn|45
+|choice|move 2|move 2
+|
+|move|p2a: Staryu|Surf|p1a: Chansey
+|-damage|p1a: Chansey|470\/557 par
+|move|p1a: Chansey|Thunderbolt|p2a: Staryu
+|-supereffective|p2a: Staryu
+|-damage|p2a: Staryu|111\/237
+|
+|turn|46
+|choice|move 2|move 1
+|
+|move|p2a: Staryu|Recover|p2a: Staryu
+|-heal|p2a: Staryu|229\/237
+|move|p1a: Chansey|Thunderbolt|p2a: Staryu
+|-supereffective|p2a: Staryu
+|-damage|p2a: Staryu|101\/237
+|
+|turn|47
+|choice|move 2|move 1
+|
+|move|p2a: Staryu|Recover|p2a: Staryu
+|-heal|p2a: Staryu|219\/237
+|move|p1a: Chansey|Thunderbolt|p2a: Staryu
+|-supereffective|p2a: Staryu
+|-damage|p2a: Staryu|83\/237
+|-status|p2a: Staryu|par
+|
+|turn|48
+|choice|move 2|move 1
+|
+|move|p2a: Staryu|Recover|p2a: Staryu
+|-heal|p2a: Staryu|201\/237 par
+|move|p1a: Chansey|Thunderbolt|p2a: Staryu
+|-supereffective|p2a: Staryu
+|-damage|p2a: Staryu|68\/237 par
+|
+|turn|49
+|choice|move 2|move 1
+|
+|move|p2a: Staryu|Recover|p2a: Staryu
+|-heal|p2a: Staryu|186\/237 par
+|move|p1a: Chansey|Thunderbolt|p2a: Staryu
+|-supereffective|p2a: Staryu
+|-damage|p2a: Staryu|62\/237 par
+|
+|turn|50
+|choice|move 2|move 1
+|
+|move|p2a: Staryu|Recover|p2a: Staryu
+|-heal|p2a: Staryu|180\/237 par
+|move|p1a: Chansey|Thunderbolt|p2a: Staryu
+|-supereffective|p2a: Staryu
+|-damage|p2a: Staryu|51\/237 par
+|
+|turn|51
+|choice|move 2|move 1
+|
+|move|p2a: Staryu|Recover|p2a: Staryu
+|-heal|p2a: Staryu|169\/237 par
+|move|p1a: Chansey|Thunderbolt|p2a: Staryu
+|-supereffective|p2a: Staryu
+|-damage|p2a: Staryu|45\/237 par
+|
+|turn|52
+|choice|move 2|move 1
+|
+|cant|p2a: Staryu|par
+|move|p1a: Chansey|Thunderbolt|p2a: Staryu
+|-supereffective|p2a: Staryu
+|-damage|p2a: Staryu|0 fnt
+|faint|p2a: Staryu
+|c|★zambi13|lucky
+|choice||switch 5
+|
+|switch|p2a: Articuno|Articuno, L79|304\/304
+|turn|53
+|choice|move 2|move 2
+|
+|move|p2a: Articuno|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|348\/557 par
+|move|p1a: Chansey|Thunderbolt|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|189\/304
+|
+|turn|54
+|choice|move 2|move 2
+|
+|move|p2a: Articuno|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|220\/557 par
+|move|p1a: Chansey|Thunderbolt|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|76\/304
+|
+|turn|55
+|choice|move 3|move 3
+|
+|move|p2a: Articuno|Rest|p2a: Articuno
+|-status|p2a: Articuno|slp
+|-heal|p2a: Articuno|304\/304 slp|[silent]
+|-status|p2a: Articuno|slp|[from] move: Rest
+|move|p1a: Chansey|Ice Beam|p2a: Articuno
+|-damage|p2a: Articuno|251\/304 slp
+|
+|turn|56
+|choice|move 1|move 2
+|
+|cant|p2a: Articuno|slp
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|498\/557 par
+|
+|turn|57
+|choice|move 3|move 2
+|
+|-curestatus|p2a: Articuno|slp
+|cant|p1a: Chansey|par
+|
+|turn|58
+|choice|move 3|move 2
+|
+|move|p2a: Articuno|Blizzard|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|261\/557 par
+|move|p1a: Chansey|Ice Beam|p2a: Articuno
+|-damage|p2a: Articuno|195\/304
+|
+|turn|59
+|choice|move 1|move 2
+|
+|move|p2a: Articuno|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|133\/557 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|411\/557 par
+|
+|turn|60
+|choice|move 1|move 2
+|
+|move|p2a: Articuno|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|281\/557 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|557\/557 par
+|
+|turn|61
+|choice|move 3|move 2
+|
+|move|p2a: Articuno|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|429\/557 par
+|move|p1a: Chansey|Ice Beam|p2a: Articuno
+|-crit|p2a: Articuno
+|-damage|p2a: Articuno|94\/304
+|
+|turn|62
+|choice|move 3|move 3
+|
+|move|p2a: Articuno|Rest|p2a: Articuno
+|-status|p2a: Articuno|slp
+|-heal|p2a: Articuno|304\/304 slp|[silent]
+|-status|p2a: Articuno|slp|[from] move: Rest
+|cant|p1a: Chansey|par
+|
+|turn|63
+|choice|move 3|move 4
+|
+|cant|p2a: Articuno|slp
+|cant|p1a: Chansey|par
+|
+|turn|64
+|choice|move 3|move 4
+|
+|-curestatus|p2a: Articuno|slp
+|move|p1a: Chansey|Ice Beam|p2a: Articuno
+|-damage|p2a: Articuno|249\/304
+|
+|turn|65
+|choice|move 3|move 4
+|
+|move|p2a: Articuno|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|328\/557 par
+|move|p1a: Chansey|Ice Beam|p2a: Articuno
+|-damage|p2a: Articuno|193\/304
+|
+|turn|66
+|choice|move 3|move 4
+|
+|move|p2a: Articuno|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|226\/557 par
+|move|p1a: Chansey|Ice Beam|p2a: Articuno
+|-damage|p2a: Articuno|142\/304
+|
+|turn|67
+|choice|move 3|move 4
+|
+|move|p2a: Articuno|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|123\/557 par
+|move|p1a: Chansey|Ice Beam|p2a: Articuno
+|-damage|p2a: Articuno|92\/304
+|
+|turn|68
+|choice|move 1|move 4
+|
+|move|p2a: Articuno|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|33\/557 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|311\/557 par
+|
+|turn|69
+|choice|move 3|move 3
+|
+|move|p2a: Articuno|Rest|p2a: Articuno
+|-status|p2a: Articuno|slp
+|-heal|p2a: Articuno|304\/304 slp|[silent]
+|-status|p2a: Articuno|slp|[from] move: Rest
+|cant|p1a: Chansey|par
+|
+|turn|70
+|choice|move 1|move 4
+|
+|cant|p2a: Articuno|slp
+|cant|p1a: Chansey|par
+|
+|turn|71
+|choice|move 1|move 4
+|
+|-curestatus|p2a: Articuno|slp
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|557\/557 par
+|
+|turn|72
+|choice|move 3|move 4
+|
+|move|p2a: Articuno|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|464\/557 par
+|cant|p1a: Chansey|par
+|
+|turn|73
+|choice|move 3|move 4
+|
+|move|p2a: Articuno|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|368\/557 par
+|move|p1a: Chansey|Ice Beam|p2a: Articuno
+|-damage|p2a: Articuno|247\/304
+|
+|turn|74
+|choice|move 3|move 4
+|
+|move|p2a: Articuno|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|268\/557 par
+|move|p1a: Chansey|Ice Beam|p2a: Articuno
+|-damage|p2a: Articuno|192\/304
+|
+|turn|75
+|choice|move 3|move 4
+|
+|move|p2a: Articuno|Ice Beam|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|63\/557 par
+|move|p1a: Chansey|Ice Beam|p2a: Articuno
+|-damage|p2a: Articuno|137\/304
+|
+|turn|76
+|choice|move 3|move 4
+|
+|move|p2a: Articuno|Ice Beam|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|choice|switch 5|
+|
+|switch|p1a: Beedrill|Beedrill, L90|300\/300
+|turn|77
+|choice|move 1|move 4
+|
+|move|p1a: Beedrill|Hyper Beam|p2a: Articuno
+|-damage|p2a: Articuno|23\/304
+|move|p2a: Articuno|Ice Beam|p1a: Beedrill
+|-damage|p1a: Beedrill|156\/300
+|
+|turn|78
+|-mustrecharge|p1a: Beedrill
+|-mustrecharge|p1a: Beedrill
+|choice|move 1|move 4
+|
+|cant|p1a: Beedrill|recharge
+|move|p2a: Articuno|Ice Beam|p1a: Beedrill
+|-crit|p1a: Beedrill
+|-damage|p1a: Beedrill|0 fnt
+|faint|p1a: Beedrill
+|choice|switch 4|
+|
+|switch|p1a: Dragonair|Dragonair, L85|204\/277 brn
+|turn|79
+|choice|move 1|move 3
+|
+|move|p2a: Articuno|Rest|p2a: Articuno
+|-status|p2a: Articuno|slp
+|-heal|p2a: Articuno|304\/304 slp|[silent]
+|-status|p2a: Articuno|slp|[from] move: Rest
+|move|p1a: Dragonair|Thunderbolt|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|212\/304 slp
+|-damage|p1a: Dragonair|187\/277 brn|[from] brn|[of] p2a: Articuno
+|
+|turn|80
+|choice|move 1|move 4
+|
+|cant|p2a: Articuno|slp
+|move|p1a: Dragonair|Thunderbolt|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|109\/304 slp
+|-damage|p1a: Dragonair|170\/277 brn|[from] brn|[of] p2a: Articuno
+|
+|turn|81
+|choice|move 1|move 4
+|
+|-curestatus|p2a: Articuno|slp
+|move|p1a: Dragonair|Thunderbolt|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|11\/304
+|-damage|p1a: Dragonair|153\/277 brn|[from] brn|[of] p2a: Articuno
+|
+|turn|82
+|choice|move 1|move 4
+|
+|move|p2a: Articuno|Ice Beam|p1a: Dragonair
+|-supereffective|p1a: Dragonair
+|-damage|p1a: Dragonair|0 fnt
+|faint|p1a: Dragonair
+|choice|switch 3|
+|
+|switch|p1a: Dewgong|Dewgong, L85|2\/327
+|turn|83
+|choice|move 3|move 4
+|
+|move|p2a: Articuno|Ice Beam|p1a: Dewgong
+|-resisted|p1a: Dewgong
+|-damage|p1a: Dewgong|0 fnt
+|faint|p1a: Dewgong
+|choice|switch 2|
+|
+|switch|p1a: Exeggutor|Exeggutor, L79|261\/312
+|turn|84
+|choice|move 4|move 4
+|
+|move|p2a: Articuno|Ice Beam|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|93\/312
+|move|p1a: Exeggutor|Psychic|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|faint|p2a: Articuno
+|
+|win|XianJu
+|raw|XianJu's rating: 1257 &rarr; <strong>1271<\/strong><br \/>(+14 for winning)
+|raw|zambi13's rating: 1085 &rarr; <strong>1073<\/strong><br \/>(-12 for losing)
+|c|★zambi13|GTFO

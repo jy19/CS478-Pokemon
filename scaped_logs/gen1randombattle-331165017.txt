@@ -1,0 +1,252 @@
+﻿|j|B1ackJack94
+|j|business is cool
+|player|p1|B1ackJack94|204
+|player|p2|business is cool|82
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|12196,30619,54197,38573
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Muk|Muk, L90|372\/372
+|switch|p2a: Kadabra|Kadabra, L85|242\/242
+|turn|1
+|choice|move 1|switch 4
+|
+|switch|p2a: Porygon|Porygon, L85|284\/284
+|move|p1a: Muk|Explosion|p2a: Porygon
+|-damage|p2a: Porygon|0 fnt
+|faint|p2a: Porygon
+|faint|p1a: Muk
+|choice|switch 6|switch 4
+|
+|switch|p1a: Jolteon|Jolteon, L79|265\/265
+|switch|p2a: Kadabra|Kadabra, L85|242\/242
+|turn|2
+|choice|move 2|switch 5
+|
+|switch|p2a: Marowak|Marowak, L90|291\/291
+|move|p1a: Jolteon|Thunder Wave|p2a: Marowak
+|-immune|p2a: Marowak|[msg]
+|
+|turn|3
+|choice|switch 2|move 3
+|
+|switch|p1a: Gyarados|Gyarados, L85|335\/335
+|move|p2a: Marowak|Blizzard|p1a: Gyarados|[miss]
+|-miss|p2a: Marowak
+|
+|turn|4
+|choice|move 4|switch 2
+|
+|switch|p2a: Golduck|Golduck, L85|310\/310
+|move|p1a: Gyarados|Body Slam|p2a: Golduck
+|-damage|p2a: Golduck|235\/310
+|
+|turn|5
+|choice|move 1|move 3
+|
+|move|p2a: Golduck|Blizzard|p1a: Gyarados
+|-crit|p1a: Gyarados
+|-damage|p1a: Gyarados|191\/335
+|move|p1a: Gyarados|Thunderbolt|p2a: Golduck
+|-supereffective|p2a: Golduck
+|-damage|p2a: Golduck|92\/310
+|
+|turn|6
+|choice|move 1|move 4
+|
+|move|p2a: Golduck|Surf|p1a: Gyarados
+|-crit|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|117\/335
+|move|p1a: Gyarados|Thunderbolt|p2a: Golduck
+|-supereffective|p2a: Golduck
+|-damage|p2a: Golduck|0 fnt
+|faint|p2a: Golduck
+|choice||switch 3
+|
+|switch|p2a: Zapdos|Zapdos, L79|304\/304
+|turn|7
+|choice|move 4|move 2
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|choice|switch 3|
+|
+|switch|p1a: Exeggutor|Exeggutor, L79|312\/312
+|turn|8
+|choice|move 1|switch 6
+|
+|switch|p2a: Magmar|Magmar, L90|300\/300
+|move|p1a: Exeggutor|Sleep Powder|p2a: Magmar
+|-status|p2a: Magmar|slp
+|
+|turn|9
+|choice|switch 2|switch 6
+|
+|switch|p2a: Zapdos|Zapdos, L79|304\/304
+|switch|p1a: Jolteon|Jolteon, L79|265\/265
+|
+|turn|10
+|choice|switch 2|switch 2
+|
+|switch|p1a: Exeggutor|Exeggutor, L79|312\/312
+|switch|p2a: Marowak|Marowak, L90|291\/291
+|
+|turn|11
+|choice|move 4|switch 2
+|
+|switch|p2a: Zapdos|Zapdos, L79|304\/304
+|move|p1a: Exeggutor|Mega Drain|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|268\/304
+|
+|turn|12
+|choice|move 2|move 4
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|168\/312
+|move|p1a: Exeggutor|Explosion|p2a: Zapdos
+|-damage|p2a: Zapdos|35\/304
+|faint|p1a: Exeggutor
+|choice|switch 4|
+|
+|switch|p1a: Moltres|Moltres, L85|327\/327
+|turn|13
+|choice|move 4|move 2
+|
+|move|p1a: Moltres|Agility|p1a: Moltres
+|-boost|p1a: Moltres|spe|2
+|move|p2a: Zapdos|Thunderbolt|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|163\/327
+|
+|turn|14
+|choice|move 1|move 2
+|
+|move|p1a: Moltres|Fire Blast|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|choice||switch 2
+|
+|switch|p2a: Marowak|Marowak, L90|291\/291
+|turn|15
+|choice|move 2|move 3
+|
+|move|p1a: Moltres|Substitute|p1a: Moltres
+|-start|p1a: Moltres|Substitute
+|-damage|p1a: Moltres|82\/327
+|move|p2a: Marowak|Blizzard|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-end|p1a: Moltres|Substitute
+|
+|turn|16
+|choice|move 1|move 3
+|
+|move|p1a: Moltres|Fire Blast|p2a: Marowak
+|-damage|p2a: Marowak|73\/291
+|-status|p2a: Marowak|brn
+|move|p2a: Marowak|Blizzard|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|choice|switch 5|
+|
+|switch|p1a: Machamp|Machamp, L90|345\/345
+|turn|17
+|choice|move 3|move 1
+|
+|move|p1a: Machamp|Earthquake|p2a: Marowak
+|-damage|p2a: Marowak|0 fnt
+|faint|p2a: Marowak
+|choice||switch 6
+|
+|switch|p2a: Magmar|Magmar, L90|300\/300 slp
+|turn|18
+|choice|move 3|move 4
+|
+|cant|p2a: Magmar|slp
+|move|p1a: Machamp|Earthquake|p2a: Magmar
+|-supereffective|p2a: Magmar
+|-damage|p2a: Magmar|65\/300 slp
+|
+|turn|19
+|choice|move 3|move 4
+|
+|-curestatus|p2a: Magmar|slp
+|move|p1a: Machamp|Earthquake|p2a: Magmar
+|-supereffective|p2a: Magmar
+|-damage|p2a: Magmar|0 fnt
+|faint|p2a: Magmar
+|choice||switch 5
+|
+|switch|p2a: Kadabra|Kadabra, L85|242\/242
+|turn|20
+|choice|move 1|move 1
+|
+|move|p2a: Kadabra|Psychic|p1a: Machamp
+|-crit|p1a: Machamp
+|-supereffective|p1a: Machamp
+|-damage|p1a: Machamp|0 fnt
+|faint|p1a: Machamp
+|choice|switch 2|
+|
+|switch|p1a: Jolteon|Jolteon, L79|265\/265
+|turn|21
+|choice|move 2|move 2
+|
+|move|p1a: Jolteon|Thunder Wave|p2a: Kadabra
+|-status|p2a: Kadabra|par
+|move|p2a: Kadabra|Thunder Wave|p1a: Jolteon
+|-status|p1a: Jolteon|par
+|
+|turn|22
+|choice|move 4|move 1
+|
+|move|p1a: Jolteon|Pin Missile|p2a: Kadabra
+|-crit|p2a: Kadabra
+|-supereffective|p2a: Kadabra
+|-damage|p2a: Kadabra|194\/242 par
+|-damage|p2a: Kadabra|146\/242 par
+|-hitcount|p2a: Kadabra|2
+|cant|p2a: Kadabra|par
+|
+|turn|23
+|choice|move 4|move 1
+|
+|move|p1a: Jolteon|Pin Missile|p2a: Kadabra|[miss]
+|-miss|p1a: Jolteon
+|cant|p2a: Kadabra|par
+|
+|turn|24
+|choice|move 1|move 1
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Kadabra
+|-damage|p2a: Kadabra|70\/242 par
+|move|p2a: Kadabra|Psychic|p1a: Jolteon
+|-damage|p1a: Jolteon|161\/265 par
+|-unboost|p1a: Jolteon|spd|1
+|-unboost|p1a: Jolteon|spa|1
+|
+|turn|25
+|choice|move 4|move 1
+|
+|move|p2a: Kadabra|Psychic|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|win|business is cool
+|player|p1
+|player|p2
+|raw|B1ackJack94's rating: 1308 &rarr; <strong>1284<\/strong><br \/>(-24 for losing)
+|raw|business is cool's rating: 1240 &rarr; <strong>1270<\/strong><br \/>(+30 for winning)
+|c|★business is cool|gg

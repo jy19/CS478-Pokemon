@@ -1,0 +1,337 @@
+﻿|join|andrewandres
+|join|XianJu
+|player|p1|andrewandres|1
+|player|p2|XianJu|130
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Parasect|Parasect, L90|291\/291
+|switch|p2a: Paras|Paras, L96|262\/262
+|turn|1
+|
+|switch|p2a: Tauros|Tauros, L79|280\/280
+|move|p1a: Parasect|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|213\/280
+|
+|turn|2
+|
+|switch|p1a: Cloyster|Cloyster, L83|253\/253
+|move|p2a: Tauros|Blizzard|p1a: Cloyster
+|-crit|p1a: Cloyster
+|-resisted|p1a: Cloyster
+|-damage|p1a: Cloyster|223\/253
+|
+|turn|3
+|
+|move|p2a: Tauros|Body Slam|p1a: Cloyster
+|-damage|p1a: Cloyster|178\/253
+|-status|p1a: Cloyster|par
+|move|p1a: Cloyster|Blizzard|p2a: Tauros
+|-damage|p2a: Tauros|74\/280
+|
+|turn|4
+|
+|switch|p2a: Slowbro|Slowbro, L79|312\/312
+|move|p1a: Cloyster|Ice Beam|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|261\/312
+|
+|turn|5
+|
+|switch|p1a: Ditto|Ditto, L99|296\/296
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|6
+|
+|move|p1a: Ditto|Transform|p2a: Slowbro
+|-transform|p1a: Ditto|p2a: Slowbro
+|move|p2a: Slowbro|Thunder Wave|p1a: Ditto
+|-status|p1a: Ditto|par
+|
+|turn|7
+|
+|switch|p2a: Dratini|Dratini, L96|274\/274
+|move|p1a: Ditto|Surf|p2a: Dratini
+|-resisted|p2a: Dratini
+|-damage|p2a: Dratini|220\/274
+|
+|turn|8
+|
+|move|p2a: Dratini|Thunderbolt|p1a: Ditto
+|-supereffective|p1a: Ditto
+|-damage|p1a: Ditto|151\/296 par
+|cant|p1a: Ditto|par
+|
+|turn|9
+|
+|move|p2a: Dratini|Thunderbolt|p1a: Ditto
+|-supereffective|p1a: Ditto
+|-damage|p1a: Ditto|13\/296 par
+|cant|p1a: Ditto|par
+|
+|turn|10
+|
+|move|p2a: Dratini|Thunderbolt|p1a: Ditto
+|-supereffective|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|
+|switch|p1a: Mankey|Mankey, L96|272\/272
+|turn|11
+|
+|move|p1a: Mankey|Body Slam|p2a: Dratini
+|-damage|p2a: Dratini|128\/274
+|move|p2a: Dratini|Thunderbolt|p1a: Mankey
+|-damage|p1a: Mankey|195\/272
+|
+|turn|12
+|
+|move|p1a: Mankey|Body Slam|p2a: Dratini
+|-damage|p2a: Dratini|38\/274
+|move|p2a: Dratini|Thunderbolt|p1a: Mankey
+|-damage|p1a: Mankey|107\/272
+|
+|turn|13
+|
+|switch|p2a: Tauros|Tauros, L79|74\/280
+|move|p1a: Mankey|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|8\/280
+|
+|turn|14
+|
+|switch|p1a: Cloyster|Cloyster, L83|178\/253 par
+|move|p2a: Tauros|Hyper Beam|p1a: Cloyster
+|-damage|p1a: Cloyster|87\/253 par
+|
+|turn|15
+|-mustrecharge|p2a: Tauros
+|-mustrecharge|p2a: Tauros
+|
+|cant|p2a: Tauros|recharge
+|move|p1a: Cloyster|Surf|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|switch|p2a: Dratini|Dratini, L96|38\/274
+|turn|16
+|
+|switch|p1a: Mankey|Mankey, L96|107\/272
+|move|p2a: Dratini|Thunderbolt|p1a: Mankey
+|-damage|p1a: Mankey|22\/272
+|
+|turn|17
+|
+|switch|p2a: Blastoise|Blastoise, L85|308\/308
+|move|p1a: Mankey|Body Slam|p2a: Blastoise
+|-damage|p2a: Blastoise|243\/308
+|
+|turn|18
+|
+|move|p1a: Mankey|Body Slam|p2a: Blastoise
+|-damage|p2a: Blastoise|184\/308
+|move|p2a: Blastoise|Earthquake|p1a: Mankey
+|-damage|p1a: Mankey|0 fnt
+|faint|p1a: Mankey
+|
+|switch|p1a: Hitmonlee|Hitmonlee, L90|273\/273
+|turn|19
+|
+|move|p1a: Hitmonlee|High Jump Kick|p2a: Blastoise
+|-damage|p2a: Blastoise|80\/308
+|move|p2a: Blastoise|Blizzard|p1a: Hitmonlee
+|-crit|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|31\/273
+|
+|turn|20
+|
+|switch|p2a: Muk|Muk, L90|372\/372
+|move|p1a: Hitmonlee|High Jump Kick|p2a: Muk
+|-resisted|p2a: Muk
+|-damage|p2a: Muk|306\/372
+|
+|turn|21
+|
+|move|p1a: Hitmonlee|Body Slam|p2a: Muk
+|-damage|p2a: Muk|219\/372
+|move|p2a: Muk|Sludge|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|0 fnt
+|faint|p1a: Hitmonlee
+|
+|switch|p1a: Alakazam|Alakazam, L79|249\/249
+|turn|22
+|
+|switch|p2a: Slowbro|Slowbro, L79|261\/312
+|move|p1a: Alakazam|Psychic|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|205\/312
+|
+|turn|23
+|
+|switch|p1a: Cloyster|Cloyster, L83|87\/253 par
+|move|p2a: Slowbro|Thunder Wave|p1a: Cloyster
+|-fail|p1a: Cloyster|par
+|
+|turn|24
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|move|p1a: Cloyster|Hyper Beam|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-damage|p2a: Slowbro|36\/312
+|
+|turn|25
+|-mustrecharge|p1a: Cloyster
+|-mustrecharge|p1a: Cloyster
+|
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|-heal|p2a: Slowbro|312\/312 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|cant|p1a: Cloyster|recharge
+|
+|turn|26
+|
+|switch|p1a: Parasect|Parasect, L90|291\/291
+|cant|p2a: Slowbro|slp
+|
+|turn|27
+|
+|switch|p2a: Blastoise|Blastoise, L85|80\/308
+|move|p1a: Parasect|Swords Dance|p1a: Parasect
+|-boost|p1a: Parasect|atk|2
+|
+|turn|28
+|
+|move|p2a: Blastoise|Blizzard|p1a: Parasect
+|-supereffective|p1a: Parasect
+|-damage|p1a: Parasect|119\/291
+|move|p1a: Parasect|Body Slam|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|
+|switch|p2a: Muk|Muk, L90|219\/372
+|turn|29
+|
+|switch|p1a: Cloyster|Cloyster, L83|87\/253 par
+|move|p2a: Muk|Sludge|p1a: Cloyster
+|-damage|p1a: Cloyster|40\/253 par
+|
+|turn|30
+|
+|move|p2a: Muk|Sludge|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|switch|p1a: Alakazam|Alakazam, L79|249\/249
+|turn|31
+|
+|switch|p2a: Dratini|Dratini, L96|38\/274
+|move|p1a: Alakazam|Psychic|p2a: Dratini
+|-damage|p2a: Dratini|0 fnt
+|faint|p2a: Dratini
+|
+|switch|p2a: Slowbro|Slowbro, L79|312\/312 slp
+|turn|32
+|
+|switch|p1a: Parasect|Parasect, L90|119\/291
+|-curestatus|p2a: Slowbro|slp
+|
+|turn|33
+|
+|switch|p2a: Muk|Muk, L90|219\/372
+|move|p1a: Parasect|Body Slam|p2a: Muk
+|-damage|p2a: Muk|152\/372
+|
+|turn|34
+|
+|switch|p1a: Alakazam|Alakazam, L79|249\/249
+|move|p2a: Muk|Sludge|p1a: Alakazam
+|-damage|p1a: Alakazam|125\/249
+|
+|turn|35
+|
+|move|p1a: Alakazam|Psychic|p2a: Muk
+|-crit|p2a: Muk
+|-supereffective|p2a: Muk
+|-damage|p2a: Muk|0 fnt
+|faint|p2a: Muk
+|
+|switch|p2a: Slowbro|Slowbro, L79|312\/312
+|turn|36
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Slowbro
+|-status|p2a: Slowbro|par
+|move|p2a: Slowbro|Surf|p1a: Alakazam
+|-damage|p1a: Alakazam|60\/249
+|
+|turn|37
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Slowbro
+|-damage|p2a: Slowbro|233\/312 par
+|cant|p2a: Slowbro|par
+|
+|turn|38
+|
+|move|p1a: Alakazam|Psychic|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|125\/312 par
+|move|p2a: Slowbro|Surf|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|switch|p1a: Parasect|Parasect, L90|119\/291
+|turn|39
+|
+|move|p1a: Parasect|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|61\/312 par
+|move|p2a: Slowbro|Thunder Wave|p1a: Parasect
+|-status|p1a: Parasect|par
+|
+|turn|40
+|
+|cant|p1a: Parasect|par
+|cant|p2a: Slowbro|par
+|
+|turn|41
+|
+|cant|p1a: Parasect|par
+|move|p2a: Slowbro|Surf|p1a: Parasect
+|-resisted|p1a: Parasect
+|-damage|p1a: Parasect|83\/291 par
+|
+|turn|42
+|
+|cant|p1a: Parasect|par
+|move|p2a: Slowbro|Surf|p1a: Parasect
+|-resisted|p1a: Parasect
+|-damage|p1a: Parasect|46\/291 par
+|
+|turn|43
+|c|★andrewandres|stupdi lucker...
+|c|★andrewandres|my god
+|
+|move|p1a: Parasect|Double-Edge|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|-damage|p1a: Parasect|31\/291 par|[from] recoil|[of] p2a: Slowbro
+|faint|p2a: Slowbro
+|
+|switch|p2a: Paras|Paras, L96|262\/262
+|turn|44
+|
+|move|p2a: Paras|Body Slam|p1a: Parasect
+|-damage|p1a: Parasect|0 fnt
+|faint|p1a: Parasect
+|
+|win|XianJu
+|leave|andrewandres
+|player|p1

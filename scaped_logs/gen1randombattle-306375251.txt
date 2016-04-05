@@ -1,0 +1,159 @@
+﻿|j|MALESANI
+|j|haldobaglio
+|player|p1|MALESANI|238
+|player|p2|haldobaglio|161
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|47394,63898,36634,56791
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Nidoqueen|Nidoqueen, L85|327\/327
+|switch|p2a: Gloom|Gloom, L90|291\/291
+|turn|1
+|choice|move 4|move 1
+|
+|move|p1a: Nidoqueen|Blizzard|p2a: Gloom
+|-crit|p2a: Gloom
+|-supereffective|p2a: Gloom
+|-damage|p2a: Gloom|4\/291
+|move|p2a: Gloom|Mega Drain|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|279\/327
+|-heal|p2a: Gloom|28\/291|[from] drain|[of] p1a: Nidoqueen
+|
+|turn|2
+|choice|move 1|move 4
+|
+|move|p1a: Nidoqueen|Earthquake|p2a: Gloom
+|-crit|p2a: Gloom
+|-damage|p2a: Gloom|0 fnt
+|faint|p2a: Gloom
+|c|★haldobaglio|sta squadra è na giungla cazo
+|choice||switch 3
+|
+|switch|p2a: Omastar|Omastar, L90|309\/309
+|turn|3
+|c|★MALESANI|è 'no schifo 'sta roba qua
+|choice|switch 4|move 2
+|
+|switch|p1a: Hypno|Hypno, L85|318\/318
+|move|p2a: Omastar|Surf|p1a: Hypno
+|-crit|p1a: Hypno
+|-damage|p1a: Hypno|126\/318
+|
+|turn|4
+|choice|move 3|move 2
+|
+|move|p1a: Hypno|Thunder Wave|p2a: Omastar
+|-status|p2a: Omastar|par
+|move|p2a: Omastar|Surf|p1a: Hypno
+|-damage|p1a: Hypno|19\/318
+|
+|turn|5
+|choice|move 4|move 2
+|
+|move|p1a: Hypno|Rest|p1a: Hypno
+|-status|p1a: Hypno|slp
+|-heal|p1a: Hypno|318\/318 slp|[silent]
+|-status|p1a: Hypno|slp|[from] move: Rest
+|move|p2a: Omastar|Surf|p1a: Hypno
+|-damage|p1a: Hypno|214\/318 slp
+|
+|turn|6
+|choice|move 1|move 4
+|
+|cant|p1a: Hypno|slp
+|move|p2a: Omastar|Mimic|p1a: Hypno
+|-start|p2a: Omastar|Mimic|Thunder Wave
+|
+|turn|7
+|choice|move 1|move 3
+|
+|-curestatus|p1a: Hypno|slp
+|move|p2a: Omastar|Rest|p2a: Omastar
+|-fail|p2a: Omastar
+|
+|turn|8
+|choice|move 1|move 2
+|
+|move|p1a: Hypno|Psychic|p2a: Omastar
+|-damage|p2a: Omastar|227\/309 par
+|cant|p2a: Omastar|par
+|
+|turn|9
+|choice|move 1|move 4
+|
+|move|p1a: Hypno|Psychic|p2a: Omastar
+|-damage|p2a: Omastar|137\/309 par
+|-unboost|p2a: Omastar|spd|1
+|-unboost|p2a: Omastar|spa|1
+|cant|p2a: Omastar|par
+|
+|turn|10
+|choice|move 1|move 4
+|
+|move|p1a: Hypno|Psychic|p2a: Omastar
+|-damage|p2a: Omastar|12\/309 par
+|-unboost|p2a: Omastar|spd|1
+|-unboost|p2a: Omastar|spa|1
+|cant|p2a: Omastar|par
+|
+|turn|11
+|choice|move 1|move 2
+|
+|move|p1a: Hypno|Psychic|p2a: Omastar
+|-damage|p2a: Omastar|0 fnt
+|faint|p2a: Omastar
+|choice||switch 2
+|
+|switch|p2a: Farfetch'd|Farfetch'd, L99|304\/304
+|turn|12
+|choice|switch 6|move 1
+|
+|switch|p1a: Kabutops|Kabutops, L85|276\/276
+|move|p2a: Farfetch'd|Slash|p1a: Kabutops
+|-crit|p1a: Kabutops
+|-resisted|p1a: Kabutops
+|-damage|p1a: Kabutops|207\/276
+|
+|turn|13
+|choice|move 3|switch 5
+|
+|switch|p2a: Electrode|Electrode, L90|291\/291
+|move|p1a: Kabutops|Surf|p2a: Electrode
+|-damage|p2a: Electrode|213\/291
+|
+|turn|14
+|choice|switch 4|switch 4
+|
+|switch|p2a: Hitmonchan|Hitmonchan, L90|273\/273
+|switch|p1a: Nidoqueen|Nidoqueen, L85|279\/327
+|
+|turn|15
+|choice|move 1|move 3
+|
+|move|p2a: Hitmonchan|Body Slam|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|205\/327
+|move|p1a: Nidoqueen|Earthquake|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|172\/273
+|
+|turn|16
+|choice|switch 5|move 4
+|
+|switch|p1a: Hitmonlee|Hitmonlee, L90|273\/273
+|move|p2a: Hitmonchan|Counter|p1a: Hitmonlee
+|-fail|p2a: Hitmonchan
+|
+|turn|17
+|c|★haldobaglio|hai vinto
+|c|★haldobaglio|bella
+|c|★MALESANI|probabile
+|-message|haldobaglio forfeited.
+|
+|win|MALESANI
+|l|haldobaglio
+|player|p2

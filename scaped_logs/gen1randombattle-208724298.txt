@@ -1,0 +1,167 @@
+﻿|join|isaac123456789
+|join|Pokemon manager
+|player|p1|isaac123456789|66
+|player|p2|Pokemon manager|163
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Nidoran-M|Nidoran-M, L95|280\/280
+|switch|p2a: Nidoking|Nidoking, L86|315\/315
+|turn|1
+|
+|move|p2a: Nidoking|Earthquake|p1a: Nidoran-M
+|-crit|p1a: Nidoran-M
+|-supereffective|p1a: Nidoran-M
+|-damage|p1a: Nidoran-M|0 fnt
+|faint|p1a: Nidoran-M
+|
+|switch|p1a: Blastoise|Blastoise, L86|311\/311
+|turn|2
+|
+|switch|p2a: Kingler|Kingler, L86|270\/270
+|move|p1a: Blastoise|Surf|p2a: Kingler
+|-crit|p2a: Kingler
+|-resisted|p2a: Kingler
+|-damage|p2a: Kingler|138\/270
+|
+|turn|3
+|
+|move|p1a: Blastoise|Body Slam|p2a: Kingler
+|-damage|p2a: Kingler|96\/270
+|move|p2a: Kingler|Body Slam|p1a: Blastoise
+|-damage|p1a: Blastoise|245\/311
+|
+|turn|4
+|
+|move|p1a: Blastoise|Body Slam|p2a: Kingler
+|-damage|p2a: Kingler|47\/270
+|move|p2a: Kingler|Body Slam|p1a: Blastoise
+|-damage|p1a: Blastoise|175\/311
+|
+|turn|5
+|
+|move|p1a: Blastoise|Body Slam|p2a: Kingler
+|-damage|p2a: Kingler|4\/270
+|move|p2a: Kingler|Body Slam|p1a: Blastoise
+|-damage|p1a: Blastoise|104\/311
+|
+|turn|6
+|
+|move|p1a: Blastoise|Body Slam|p2a: Kingler
+|-damage|p2a: Kingler|0 fnt
+|faint|p2a: Kingler
+|
+|switch|p2a: Mewtwo|Mewtwo, L71|297\/297
+|turn|7
+|
+|move|p2a: Mewtwo|Psychic|p1a: Blastoise
+|-crit|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|faint|p1a: Blastoise
+|
+|switch|p1a: Dugtrio|Dugtrio, L86|236\/236
+|turn|8
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Mewtwo
+|-damage|p2a: Mewtwo|178\/297
+|move|p2a: Mewtwo|Blizzard|p1a: Dugtrio
+|-supereffective|p1a: Dugtrio
+|-damage|p1a: Dugtrio|32\/236
+|
+|turn|9
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Mewtwo
+|-damage|p2a: Mewtwo|60\/297
+|move|p2a: Mewtwo|Psychic|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|
+|switch|p1a: Kadabra|Kadabra, L86|244\/244
+|turn|10
+|
+|move|p1a: Kadabra|Seismic Toss|p2a: Mewtwo
+|-damage|p2a: Mewtwo|0 fnt
+|faint|p2a: Mewtwo
+|
+|switch|p2a: Electrode|Electrode, L86|279\/279
+|turn|11
+|
+|move|p2a: Electrode|Thunder Wave|p1a: Kadabra
+|-status|p1a: Kadabra|par
+|move|p1a: Kadabra|Psychic|p2a: Electrode
+|-damage|p2a: Electrode|153\/279
+|
+|turn|12
+|
+|move|p2a: Electrode|Screech|p1a: Kadabra
+|-unboost|p1a: Kadabra|def|2
+|cant|p1a: Kadabra|par
+|
+|turn|13
+|
+|switch|p1a: Machop|Machop, L95|326\/326
+|move|p2a: Electrode|Explosion|p1a: Machop
+|-damage|p1a: Machop|122\/326
+|faint|p2a: Electrode
+|
+|switch|p2a: Nidoking|Nidoking, L86|315\/315
+|turn|14
+|
+|move|p2a: Nidoking|Earthquake|p1a: Machop
+|-damage|p1a: Machop|0 fnt
+|faint|p1a: Machop
+|
+|switch|p1a: Kadabra|Kadabra, L86|244\/244 par
+|turn|15
+|
+|move|p2a: Nidoking|Earthquake|p1a: Kadabra
+|-damage|p1a: Kadabra|55\/244 par
+|cant|p1a: Kadabra|par
+|
+|turn|16
+|
+|move|p2a: Nidoking|Thunderbolt|p1a: Kadabra
+|-damage|p1a: Kadabra|5\/244 par
+|move|p1a: Kadabra|Psychic|p2a: Nidoking
+|-crit|p2a: Nidoking
+|-supereffective|p2a: Nidoking
+|-damage|p2a: Nidoking|0 fnt
+|faint|p2a: Nidoking
+|
+|switch|p2a: Jynx|Jynx, L80|268\/268
+|turn|17
+|
+|move|p2a: Jynx|Psychic|p1a: Kadabra
+|-resisted|p1a: Kadabra
+|-damage|p1a: Kadabra|0 fnt
+|faint|p1a: Kadabra
+|
+|switch|p1a: Machoke|Machoke, L86|313\/313
+|turn|18
+|
+|move|p2a: Jynx|Psychic|p1a: Machoke
+|-supereffective|p1a: Machoke
+|-damage|p1a: Machoke|92\/313
+|-unboost|p1a: Machoke|spd|1
+|-unboost|p1a: Machoke|spa|1
+|move|p1a: Machoke|Submission|p2a: Jynx
+|-damage|p2a: Jynx|118\/268
+|-damage|p1a: Machoke|55\/313|[from] recoil|[of] p2a: Jynx
+|
+|turn|19
+|
+|move|p2a: Jynx|Psychic|p1a: Machoke
+|-supereffective|p1a: Machoke
+|-damage|p1a: Machoke|0 fnt
+|faint|p1a: Machoke
+|
+|win|Pokemon manager
+|raw|Ladder updating...
+|raw|isaac123456789's rating: 1022 &rarr; <strong>1012<\/strong><br \/>(-10 for losing)
+|raw|Pokemon manager's rating: 1118 &rarr; <strong>1137<\/strong><br \/>(+19 for winning)

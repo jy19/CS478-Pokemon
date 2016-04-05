@@ -1,0 +1,330 @@
+﻿|j|Jimmm
+|j|Dervodel2
+|player|p1|Jimmm|169
+|player|p2|Dervodel2|266
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|25668,39553,54120,65430
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Charizard|Charizard, L85|306\/306
+|switch|p2a: Cloyster|Cloyster, L83|253\/253
+|turn|1
+|choice|switch 2|move 2
+|
+|switch|p1a: Wartortle|Wartortle, L85|274\/274
+|move|p2a: Cloyster|Surf|p1a: Wartortle
+|-resisted|p1a: Wartortle
+|-damage|p1a: Wartortle|220\/274
+|
+|turn|2
+|choice|move 1|move 3
+|
+|move|p2a: Cloyster|Hyper Beam|p1a: Wartortle
+|-damage|p1a: Wartortle|104\/274
+|move|p1a: Wartortle|Body Slam|p2a: Cloyster
+|-crit|p2a: Cloyster
+|-damage|p2a: Cloyster|196\/253
+|
+|turn|3
+|-mustrecharge|p2a: Cloyster
+|-mustrecharge|p2a: Cloyster
+|choice|switch 5|move 1
+|
+|switch|p1a: Jolteon|Jolteon, L79|265\/265
+|cant|p2a: Cloyster|recharge
+|
+|turn|4
+|choice|move 1|switch 5
+|
+|switch|p2a: Vileplume|Vileplume, L90|318\/318
+|move|p1a: Jolteon|Thunderbolt|p2a: Vileplume
+|-resisted|p2a: Vileplume
+|-damage|p2a: Vileplume|275\/318
+|
+|turn|5
+|choice|move 4|move 1
+|
+|move|p1a: Jolteon|Body Slam|p2a: Vileplume
+|-damage|p2a: Vileplume|236\/318
+|move|p2a: Vileplume|Body Slam|p1a: Jolteon
+|-damage|p1a: Jolteon|183\/265
+|
+|turn|6
+|choice|switch 5|move 3
+|
+|switch|p1a: Wartortle|Wartortle, L85|104\/274
+|move|p2a: Vileplume|Sleep Powder|p1a: Wartortle
+|-status|p1a: Wartortle|slp
+|
+|turn|7
+|choice|move 4|move 1
+|
+|cant|p1a: Wartortle|slp
+|move|p2a: Vileplume|Body Slam|p1a: Wartortle
+|-damage|p1a: Wartortle|36\/274 slp
+|
+|turn|8
+|choice|move 4|move 1
+|
+|cant|p1a: Wartortle|slp
+|move|p2a: Vileplume|Body Slam|p1a: Wartortle
+|-damage|p1a: Wartortle|0 fnt
+|faint|p1a: Wartortle
+|choice|switch 4|
+|
+|switch|p1a: Magmar|Magmar, L90|300\/300
+|turn|9
+|choice|move 4|switch 2
+|
+|switch|p2a: Electabuzz|Electabuzz, L85|284\/284
+|move|p1a: Magmar|Fire Blast|p2a: Electabuzz
+|-damage|p2a: Electabuzz|146\/284
+|
+|turn|10
+|choice|move 3|move 4
+|
+|move|p2a: Electabuzz|Thunder Wave|p1a: Magmar
+|-status|p1a: Magmar|par
+|move|p1a: Magmar|Body Slam|p2a: Electabuzz
+|-damage|p2a: Electabuzz|64\/284
+|
+|turn|11
+|choice|move 3|switch 5
+|
+|switch|p2a: Cloyster|Cloyster, L83|196\/253
+|move|p1a: Magmar|Body Slam|p2a: Cloyster
+|-damage|p2a: Cloyster|156\/253
+|
+|turn|12
+|choice|move 4|move 3
+|
+|move|p2a: Cloyster|Hyper Beam|p1a: Magmar
+|-damage|p1a: Magmar|177\/300 par
+|cant|p1a: Magmar|par
+|
+|turn|13
+|-mustrecharge|p2a: Cloyster
+|-mustrecharge|p2a: Cloyster
+|choice|move 4|move 1
+|
+|cant|p2a: Cloyster|recharge
+|move|p1a: Magmar|Fire Blast|p2a: Cloyster|[miss]
+|-miss|p1a: Magmar
+|
+|turn|14
+|c|★Jimmm|ok then
+|choice|move 4|move 2
+|
+|move|p2a: Cloyster|Surf|p1a: Magmar
+|-supereffective|p1a: Magmar
+|-damage|p1a: Magmar|6\/300 par
+|cant|p1a: Magmar|par
+|
+|turn|15
+|c|★Jimmm|kill me now
+|choice|move 4|move 3
+|
+|move|p2a: Cloyster|Hyper Beam|p1a: Magmar
+|-damage|p1a: Magmar|0 fnt
+|faint|p1a: Magmar
+|choice|switch 5|
+|
+|switch|p1a: Jolteon|Jolteon, L79|183\/265
+|turn|16
+|choice|move 1|switch 2
+|
+|switch|p2a: Vileplume|Vileplume, L90|236\/318
+|move|p1a: Jolteon|Thunderbolt|p2a: Vileplume
+|-resisted|p2a: Vileplume
+|-damage|p2a: Vileplume|198\/318
+|
+|turn|17
+|choice|switch 3|move 3
+|
+|switch|p1a: Exeggutor|Exeggutor, L79|312\/312
+|move|p2a: Vileplume|Sleep Powder|p1a: Exeggutor
+|-status|p1a: Exeggutor|slp
+|
+|turn|18
+|choice|move 4|move 1
+|
+|move|p2a: Vileplume|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|250\/312 slp
+|cant|p1a: Exeggutor|slp
+|
+|turn|19
+|choice|move 4|move 4
+|
+|move|p2a: Vileplume|Swords Dance|p2a: Vileplume
+|-boost|p2a: Vileplume|atk|2
+|cant|p1a: Exeggutor|slp
+|
+|turn|20
+|choice|move 4|move 1
+|
+|move|p2a: Vileplume|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|125\/312 slp
+|cant|p1a: Exeggutor|slp
+|
+|turn|21
+|choice|move 3|move 4
+|
+|move|p2a: Vileplume|Swords Dance|p2a: Vileplume
+|-boost|p2a: Vileplume|atk|2
+|cant|p1a: Exeggutor|slp
+|
+|turn|22
+|choice|move 3|move 1
+|
+|move|p2a: Vileplume|Body Slam|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-damage|p1a: Exeggutor|6\/312 slp
+|cant|p1a: Exeggutor|slp
+|
+|turn|23
+|choice|move 4|move 1
+|
+|move|p2a: Vileplume|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|choice|switch 2|
+|
+|switch|p1a: Charizard|Charizard, L85|306\/306
+|turn|24
+|choice|move 1|move 1
+|
+|move|p1a: Charizard|Fire Blast|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|choice||switch 6
+|
+|switch|p2a: Jolteon|Jolteon, L79|265\/265
+|turn|25
+|choice|move 4|move 3
+|
+|move|p2a: Jolteon|Thunder Wave|p1a: Charizard
+|-status|p1a: Charizard|par
+|move|p1a: Charizard|Earthquake|p2a: Jolteon
+|-supereffective|p2a: Jolteon
+|-damage|p2a: Jolteon|101\/265
+|
+|turn|26
+|choice|move 4|move 1
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Charizard
+|-crit|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|choice|switch 6|
+|
+|switch|p1a: Chansey|Chansey, L79|557\/557
+|turn|27
+|choice|move 3|move 3
+|
+|move|p2a: Jolteon|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|move|p1a: Chansey|Thunder Wave|p2a: Jolteon
+|-status|p2a: Jolteon|par
+|
+|turn|28
+|choice|move 4|move 2
+|
+|cant|p2a: Jolteon|par
+|move|p1a: Chansey|Ice Beam|p2a: Jolteon
+|-damage|p2a: Jolteon|41\/265 par
+|
+|turn|29
+|choice|move 4|move 2
+|
+|move|p2a: Jolteon|Double Kick|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|479\/557 par
+|-damage|p1a: Chansey|401\/557 par
+|-hitcount|p1a: Chansey|2
+|move|p1a: Chansey|Ice Beam|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|choice||switch 2
+|
+|switch|p2a: Cloyster|Cloyster, L83|156\/253
+|turn|30
+|choice|move 2|move 3
+|
+|move|p2a: Cloyster|Hyper Beam|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|choice|switch 3|
+|
+|switch|p1a: Jolteon|Jolteon, L79|183\/265
+|turn|31
+|choice|move 1|move 1
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Cloyster
+|-supereffective|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p2a: Cloyster
+|choice||switch 5
+|
+|switch|p2a: Electabuzz|Electabuzz, L85|64\/284
+|turn|32
+|choice|move 4|move 4
+|
+|move|p1a: Jolteon|Body Slam|p2a: Electabuzz
+|-crit|p2a: Electabuzz
+|-damage|p2a: Electabuzz|0 fnt
+|faint|p2a: Electabuzz
+|choice||switch 4
+|
+|switch|p2a: Venomoth|Venomoth, L85|293\/293
+|turn|33
+|choice|move 1|move 4
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Venomoth
+|-crit|p2a: Venomoth
+|-damage|p2a: Venomoth|120\/293
+|move|p2a: Venomoth|Sleep Powder|p1a: Jolteon
+|-status|p1a: Jolteon|slp
+|
+|turn|34
+|choice|move 1|move 2
+|
+|cant|p1a: Jolteon|slp
+|move|p2a: Venomoth|Psychic|p1a: Jolteon
+|-damage|p1a: Jolteon|130\/265 slp
+|-unboost|p1a: Jolteon|spd|1
+|-unboost|p1a: Jolteon|spa|1
+|
+|turn|35
+|choice|move 1|move 2
+|
+|-curestatus|p1a: Jolteon|slp
+|move|p2a: Venomoth|Psychic|p1a: Jolteon
+|-damage|p1a: Jolteon|37\/265
+|-unboost|p1a: Jolteon|spd|1
+|-unboost|p1a: Jolteon|spa|1
+|
+|turn|36
+|choice|move 1|move 2
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Venomoth
+|-damage|p2a: Venomoth|70\/293
+|-status|p2a: Venomoth|par
+|move|p2a: Venomoth|Psychic|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|win|Dervodel2
+|player|p1
+|player|p2
+|raw|Jimmm's rating: 1245 &rarr; <strong>1229<\/strong><br \/>(-16 for losing)
+|raw|Dervodel2's rating: 1374 &rarr; <strong>1387<\/strong><br \/>(+13 for winning)
+|l|Jimmm

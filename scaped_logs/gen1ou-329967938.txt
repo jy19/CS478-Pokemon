@@ -1,0 +1,542 @@
+﻿|j|smilzo
+|j|marcoasd
+|player|p1|smilzo|157
+|player|p2|marcoasd|101
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|seed|14474,5604,53126,54681
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gengar|Gengar, M|323\/323
+|switch|p2a: Jolteon|Jolteon, M|333\/333
+|turn|1
+|c|★marcoasd|ah capito
+|choice|move 1|move 2
+|
+|move|p2a: Jolteon|Thunder Wave|p1a: Gengar
+|-status|p1a: Gengar|par
+|cant|p1a: Gengar|par
+|
+|turn|2
+|choice|move 1|move 1
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Gengar
+|-crit|p1a: Gengar
+|-damage|p1a: Gengar|127\/323 par
+|cant|p1a: Gengar|par
+|
+|turn|3
+|c|★smilzo|male
+|c|★marcoasd|molto
+|choice|move 1|move 1
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Gengar
+|-damage|p1a: Gengar|19\/323 par
+|move|p1a: Gengar|Hypnosis|p2a: Jolteon
+|-status|p2a: Jolteon|slp
+|
+|turn|4
+|choice|move 3|move 3
+|
+|cant|p2a: Jolteon|slp
+|move|p1a: Gengar|Night Shade|p2a: Jolteon
+|-damage|p2a: Jolteon|233\/333 slp
+|
+|turn|5
+|choice|move 4|switch 6
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|move|p1a: Gengar|Explosion|p2a: Starmie
+|-damage|p2a: Starmie|95\/323
+|faint|p1a: Gengar
+|choice|switch 5|
+|
+|switch|p1a: Snorlax|Snorlax, M|523\/523
+|turn|6
+|choice|move 1|switch 2
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Snorlax|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|406\/703
+|
+|turn|7
+|choice|switch 4|move 2
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Chansey|Reflect|p2a: Chansey
+|-start|p2a: Chansey|Reflect
+|
+|turn|8
+|choice|move 1|move 4
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|turn|9
+|choice|move 2|move 3
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-start|p1a: Chansey|Reflect
+|move|p2a: Chansey|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|603\/703
+|
+|turn|10
+|choice|move 3|move 3
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|603\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|11
+|choice|move 1|move 3
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|503\/703
+|
+|turn|12
+|choice|move 1|move 3
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|403\/703
+|
+|turn|13
+|choice|move 1|switch 3
+|
+|switch|p2a: Exeggutor|Exeggutor, M|393\/393
+|move|p1a: Chansey|Thunder Wave|p2a: Exeggutor
+|-status|p2a: Exeggutor|par
+|
+|turn|14
+|c|★smilzo|brutto gesto
+|choice|switch 3|move 1
+|
+|switch|p1a: Exeggutor|Exeggutor, M|393\/393
+|cant|p2a: Exeggutor|par
+|
+|turn|15
+|choice|move 3|move 1
+|
+|move|p1a: Exeggutor|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|340\/393 par
+|move|p2a: Exeggutor|Sleep Powder|p1a: Exeggutor|[miss]
+|-miss|p2a: Exeggutor
+|
+|turn|16
+|choice|move 3|move 1
+|
+|move|p1a: Exeggutor|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|286\/393 par
+|move|p2a: Exeggutor|Sleep Powder|p1a: Exeggutor
+|-status|p1a: Exeggutor|slp
+|
+|turn|17
+|choice|move 3|switch 2
+|
+|switch|p2a: Starmie|Starmie|95\/323
+|cant|p1a: Exeggutor|slp
+|
+|turn|18
+|choice|switch 3|move 4
+|
+|switch|p1a: Chansey|Chansey|403\/703
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|256\/323
+|
+|turn|19
+|choice|move 4|switch 3
+|
+|switch|p2a: Chansey|Chansey|603\/703 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703
+|
+|turn|20
+|choice|switch 4|move 3
+|
+|switch|p1a: Snorlax|Snorlax, M|523\/523
+|cant|p2a: Chansey|par
+|
+|turn|21
+|choice|move 1|move 2
+|
+|move|p1a: Snorlax|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|312\/703 par
+|move|p2a: Chansey|Reflect|p2a: Chansey
+|-start|p2a: Chansey|Reflect
+|
+|turn|22
+|c|★marcoasd|sì botto in faccia
+|c|★marcoasd|if real man
+|c|★marcoasd|con zapdos dietro
+|j|crew di bastardi
+|c|★smilzo|sh se fosse zapdos non sarebbe male
+|c|★smilzo|eh*
+|j|Zaelleaz
+|choice|switch 2|move 4
+|
+|switch|p1a: Cloyster|Cloyster, M|303\/303
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|663\/703 par
+|
+|turn|23
+|c| crew di bastardi|yeah
+|choice|move 2|move 1
+|
+|move|p1a: Cloyster|Clamp|p2a: Chansey
+|-damage|p2a: Chansey|624\/703 par
+|-activate|p2a: Chansey|move: Clamp|[of] p1a: Cloyster
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|24
+|c| crew di bastardi|se hai zapdos ti denuncio
+|choice|move 2|switch 3
+|
+|switch|p2a: Starmie|Starmie|256\/323
+|move|p1a: Cloyster|Clamp|p2a: Starmie|[miss]
+|-miss|p1a: Cloyster
+|
+|turn|25
+|choice|switch 4|move 1
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Starmie|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|618\/703
+|
+|turn|26
+|choice|switch 2|switch 3
+|
+|switch|p2a: Chansey|Chansey|624\/703 par
+|switch|p1a: Snorlax|Snorlax, M|523\/523
+|
+|turn|27
+|choice|move 1|move 1
+|
+|move|p1a: Snorlax|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|354\/703 par
+|move|p2a: Chansey|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|
+|turn|28
+|choice|move 1|switch 4
+|
+|switch|p2a: Snorlax|Snorlax, M|523\/523
+|cant|p1a: Snorlax|par
+|
+|turn|29
+|c| crew di bastardi|classic af
+|l|crew di bastardi
+|choice|switch 4|move 1
+|
+|switch|p1a: Cloyster|Cloyster, M|303\/303
+|move|p2a: Snorlax|Body Slam|p1a: Cloyster
+|-damage|p1a: Cloyster|227\/303
+|-status|p1a: Cloyster|par
+|
+|turn|30
+|c|★smilzo|cattivo sisi
+|choice|move 1|switch 3
+|
+|switch|p2a: Starmie|Starmie|256\/323
+|move|p1a: Cloyster|Blizzard|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|197\/323
+|
+|turn|31
+|choice|switch 2|move 4
+|
+|switch|p1a: Chansey|Chansey|618\/703
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|323\/323
+|
+|turn|32
+|choice|switch 2|move 3
+|
+|switch|p1a: Cloyster|Cloyster, M|227\/303 par
+|move|p2a: Starmie|Thunder Wave|p1a: Cloyster
+|-fail|p1a: Cloyster|par
+|
+|turn|33
+|choice|switch 2|move 1
+|
+|switch|p1a: Chansey|Chansey|618\/703
+|move|p2a: Starmie|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|533\/703
+|
+|turn|34
+|choice|move 1|switch 4
+|
+|switch|p2a: Chansey|Chansey|354\/703 par
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|
+|turn|35
+|choice|switch 2|move 4
+|
+|switch|p1a: Cloyster|Cloyster, M|227\/303 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703 par
+|
+|turn|36
+|choice|move 2|move 3
+|
+|move|p1a: Cloyster|Clamp|p2a: Chansey
+|-damage|p2a: Chansey|664\/703 par
+|-activate|p2a: Chansey|move: Clamp|[of] p1a: Cloyster
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|37
+|choice|switch 4|switch 4
+|
+|switch|p1a: Snorlax|Snorlax, M|523\/523 par
+|switch|p2a: Starmie|Starmie|323\/323
+|
+|turn|38
+|choice|move 1|move 1
+|
+|move|p2a: Starmie|Blizzard|p1a: Snorlax
+|-damage|p1a: Snorlax|411\/523 par
+|cant|p1a: Snorlax|par
+|
+|turn|39
+|j|Ch01W0n5h1n
+|choice|move 2|switch 3
+|
+|switch|p2a: Snorlax|Snorlax, M|523\/523
+|cant|p1a: Snorlax|par
+|
+|turn|40
+|choice|switch 2|move 1
+|
+|switch|p1a: Chansey|Chansey|533\/703
+|move|p2a: Snorlax|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|225\/703
+|
+|turn|41
+|choice|move 4|move 1
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|576\/703
+|move|p2a: Snorlax|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|270\/703
+|
+|turn|42
+|choice|move 4|move 1
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|621\/703
+|move|p2a: Snorlax|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|308\/703
+|
+|turn|43
+|choice|move 2|move 1
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-start|p1a: Chansey|Reflect
+|move|p2a: Snorlax|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|153\/703
+|
+|turn|44
+|choice|move 4|move 1
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|504\/703
+|move|p2a: Snorlax|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|366\/703
+|
+|turn|45
+|choice|move 4|switch 4
+|
+|switch|p2a: Chansey|Chansey|664\/703 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703
+|
+|turn|46
+|choice|switch 4|move 2
+|
+|switch|p1a: Cloyster|Cloyster, M|227\/303 par
+|move|p2a: Chansey|Reflect|p2a: Chansey
+|-start|p2a: Chansey|Reflect
+|
+|turn|47
+|choice|move 2|move 3
+|
+|move|p1a: Cloyster|Clamp|p2a: Chansey
+|-damage|p2a: Chansey|628\/703 par
+|-activate|p2a: Chansey|move: Clamp|[of] p1a: Cloyster
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|48
+|choice|move 2|switch 3
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|move|p1a: Cloyster|Clamp|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|305\/323
+|-activate|p2a: Starmie|move: Clamp|[of] p1a: Cloyster
+|
+|turn|49
+|choice|switch 2|switch 4
+|
+|switch|p2a: Snorlax|Snorlax, M|523\/523
+|switch|p1a: Snorlax|Snorlax, M|411\/523 par
+|
+|turn|50
+|choice|switch 2|move 1
+|
+|switch|p1a: Cloyster|Cloyster, M|227\/303 par
+|move|p2a: Snorlax|Body Slam|p1a: Cloyster
+|-damage|p1a: Cloyster|152\/303 par
+|
+|turn|51
+|choice|move 4|switch 4
+|
+|switch|p2a: Starmie|Starmie|305\/323
+|move|p1a: Cloyster|Explosion|p2a: Starmie
+|-damage|p2a: Starmie|7\/323
+|faint|p1a: Cloyster
+|choice|switch 2|
+|
+|switch|p1a: Snorlax|Snorlax, M|411\/523 par
+|turn|52
+|choice|move 1|switch 4
+|
+|switch|p2a: Snorlax|Snorlax, M|523\/523
+|move|p1a: Snorlax|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|391\/523
+|
+|turn|53
+|choice|move 2|move 1
+|
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|283\/523 par
+|cant|p1a: Snorlax|par
+|
+|turn|54
+|choice|switch 4|move 1
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Snorlax|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|392\/703
+|
+|turn|55
+|choice|move 1|move 1
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|move|p2a: Snorlax|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|81\/703
+|
+|turn|56
+|choice|move 4|move 3
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|432\/703
+|move|p2a: Snorlax|Hyper Beam|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|l|Ch01W0n5h1n
+|choice|switch 4|
+|
+|switch|p1a: Snorlax|Snorlax, M|283\/523 par
+|turn|57
+|choice|move 2|move 2
+|
+|cant|p1a: Snorlax|par
+|move|p2a: Snorlax|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|177\/523 par
+|
+|turn|58
+|c|★smilzo|porcoddio
+|choice|move 4|move 3
+|
+|move|p1a: Snorlax|Self-Destruct|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|faint|p1a: Snorlax
+|c|★smilzo|fanculo
+|c|★smilzo|lol
+|choice|switch 6|switch 4
+|
+|switch|p2a: Starmie|Starmie|7\/323
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|59
+|choice|move 3|move 3
+|
+|move|p2a: Starmie|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|move|p1a: Tauros|Hyper Beam|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|c|★marcoasd|mi sa che è muort
+|choice||switch 2
+|
+|switch|p2a: Exeggutor|Exeggutor, M|286\/393 par
+|turn|60
+|choice|move 4|move 3
+|
+|cant|p1a: Tauros|par
+|move|p2a: Exeggutor|Psychic|p1a: Tauros
+|-damage|p1a: Tauros|196\/353 par
+|
+|turn|61
+|choice|move 3|move 4
+|
+|cant|p1a: Tauros|par
+|move|p2a: Exeggutor|Explosion|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|faint|p2a: Exeggutor
+|choice|switch 3|switch 5
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|switch|p1a: Exeggutor|Exeggutor, M|393\/393 slp
+|turn|62
+|choice|move 2|move 1
+|
+|move|p2a: Tauros|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|274\/393 slp
+|cant|p1a: Exeggutor|slp
+|
+|turn|63
+|choice|move 2|move 1
+|
+|move|p2a: Tauros|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|155\/393 slp
+|cant|p1a: Exeggutor|slp
+|
+|turn|64
+|c|★marcoasd|gg
+|choice|move 4|move 1
+|
+|move|p2a: Tauros|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|45\/393 slp
+|-curestatus|p1a: Exeggutor|slp
+|
+|turn|65
+|j|Kenui
+|c|★smilzo|gg
+|c|★smilzo|miss :o
+|choice|move 4|move 1
+|
+|move|p2a: Tauros|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|win|marcoasd
+|player|p1
+|player|p2

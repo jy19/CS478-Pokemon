@@ -1,0 +1,157 @@
+﻿|join|bpizzizzle
+|join|trickster is a fag
+|player|p1|bpizzizzle|252
+|player|p2|trickster is a fag|2
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|47590,63063,54918,5465
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Tauros|Tauros, L79|280\/280
+|switch|p2a: Seel|Seel, L96|320\/320
+|turn|1
+|choice|move 4|move 2
+|
+|move|p1a: Tauros|Body Slam|p2a: Seel
+|-damage|p2a: Seel|230\/320
+|move|p2a: Seel|Surf|p1a: Tauros
+|-damage|p1a: Tauros|145\/280
+|
+|turn|2
+|choice|move 4|move 2
+|
+|move|p1a: Tauros|Body Slam|p2a: Seel
+|-damage|p2a: Seel|136\/320
+|move|p2a: Seel|Surf|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|choice|switch 5|
+|
+|switch|p1a: Electrode|Electrode, L90|291\/291
+|turn|3
+|choice|move 2|switch 6
+|
+|switch|p2a: Dugtrio|Dugtrio, L85|233\/233
+|move|p1a: Electrode|Thunder|p2a: Dugtrio
+|-immune|p2a: Dugtrio|[msg]
+|
+|turn|4
+|choice|switch 4|move 3
+|
+|switch|p1a: Pidgeot|Pidgeot, L90|333\/333
+|move|p2a: Dugtrio|Slash|p1a: Pidgeot
+|-crit|p1a: Pidgeot
+|-damage|p1a: Pidgeot|250\/333
+|
+|turn|5
+|choice|move 1|switch 3
+|
+|switch|p2a: Onix|Onix, L90|246\/246
+|move|p1a: Pidgeot|Double-Edge|p2a: Onix
+|-resisted|p2a: Onix
+|-damage|p2a: Onix|212\/246
+|-damage|p1a: Pidgeot|242\/333|[from] recoil|[of] p2a: Onix
+|
+|turn|6
+|choice|switch 3|move 1
+|
+|switch|p1a: Parasect|Parasect, L90|291\/291
+|move|p2a: Onix|Rock Slide|p1a: Parasect
+|-supereffective|p1a: Parasect
+|-damage|p1a: Parasect|165\/291
+|
+|turn|7
+|choice|move 3|switch 6
+|
+|switch|p2a: Seel|Seel, L96|136\/320
+|move|p1a: Parasect|Spore|p2a: Seel
+|-status|p2a: Seel|slp
+|
+|turn|8
+|choice|move 4|switch 2
+|
+|switch|p2a: Mankey|Mankey, L96|272\/272
+|move|p1a: Parasect|Mega Drain|p2a: Mankey
+|-damage|p2a: Mankey|207\/272
+|-heal|p1a: Parasect|197\/291|[from] drain|[of] p2a: Mankey
+|
+|turn|9
+|choice|move 4|move 2
+|
+|move|p2a: Mankey|Rock Slide|p1a: Parasect|[miss]
+|-miss|p2a: Mankey
+|move|p1a: Parasect|Mega Drain|p2a: Mankey
+|-damage|p2a: Mankey|141\/272
+|-heal|p1a: Parasect|230\/291|[from] drain|[of] p2a: Mankey
+|
+|turn|10
+|choice|move 4|move 2
+|
+|move|p2a: Mankey|Rock Slide|p1a: Parasect
+|-supereffective|p1a: Parasect
+|-damage|p1a: Parasect|102\/291
+|move|p1a: Parasect|Mega Drain|p2a: Mankey
+|-damage|p2a: Mankey|77\/272
+|-heal|p1a: Parasect|134\/291|[from] drain|[of] p2a: Mankey
+|
+|turn|11
+|choice|move 4|move 2
+|
+|move|p2a: Mankey|Rock Slide|p1a: Parasect
+|-supereffective|p1a: Parasect
+|-damage|p1a: Parasect|19\/291
+|move|p1a: Parasect|Mega Drain|p2a: Mankey|[miss]
+|-miss|p1a: Parasect
+|
+|turn|12
+|choice|move 4|move 3
+|
+|move|p2a: Mankey|Body Slam|p1a: Parasect
+|-crit|p1a: Parasect
+|-damage|p1a: Parasect|0 fnt
+|faint|p1a: Parasect
+|choice|switch 6|
+|
+|switch|p1a: Primeape|Primeape, L90|300\/300
+|turn|13
+|choice|move 1|switch 2
+|
+|switch|p2a: Seel|Seel, L96|136\/320 slp
+|move|p1a: Primeape|Body Slam|p2a: Seel
+|-damage|p2a: Seel|47\/320 slp
+|
+|turn|14
+|choice|switch 2|move 2
+|
+|switch|p1a: Poliwhirl|Poliwhirl, L85|284\/284
+|cant|p2a: Seel|slp
+|
+|turn|15
+|choice|move 1|switch 4
+|
+|switch|p2a: Cloyster|Cloyster, L83|253\/253
+|move|p1a: Poliwhirl|Amnesia|p1a: Poliwhirl
+|-boost|p1a: Poliwhirl|spd|2
+|-boost|p1a: Poliwhirl|spa|2
+|
+|turn|16
+|choice|switch 3|move 3
+|
+|switch|p1a: Pidgeot|Pidgeot, L90|242\/333
+|move|p2a: Cloyster|Blizzard|p1a: Pidgeot
+|-supereffective|p1a: Pidgeot
+|-damage|p1a: Pidgeot|0 fnt
+|faint|p1a: Pidgeot
+|-message|bpizzizzle forfeited.
+|
+|win|trickster is a fag
+|leave|bpizzizzle
+|player|p1
+|raw|bpizzizzle's rating: 1279 &rarr; <strong>1262<\/strong><br \/>(-17 for losing)
+|raw|trickster is a fag's rating: 1403 &rarr; <strong>1416<\/strong><br \/>(+13 for winning)

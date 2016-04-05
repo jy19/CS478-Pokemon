@@ -1,0 +1,319 @@
+﻿|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|J|Real FV13
+|J|marcoasd
+|player|p1|Real FV13|183
+|player|p2|marcoasd|102
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Ubers
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333\/333
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|1
+|
+|move|p2a: Gengar|Hypnosis|p1a: Jynx
+|-status|p1a: Jynx|slp
+|-curestatus|p1a: Jynx|slp
+|
+|turn|2
+|J|Not Troller
+|
+|move|p2a: Gengar|Explosion|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|faint|p2a: Gengar
+|
+|switch|p1a: Mewtwo|Mewtwo|415\/415
+|switch|p2a: Chansey|Chansey|703\/703
+|turn|3
+|
+|switch|p1a: Rhydon|Rhydon|413\/413
+|move|p2a: Chansey|Sing|p1a: Rhydon
+|-status|p1a: Rhydon|slp
+|
+|turn|4
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: Chansey|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|422\/523
+|
+|turn|5
+|
+|move|p2a: Chansey|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|move|p1a: Snorlax|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|424\/703
+|
+|turn|6
+|J|PR) Romper
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703
+|move|p1a: Snorlax|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|435\/703
+|
+|turn|7
+|J|Krahzer
+|L|Krahzer
+|
+|switch|p2a: Slowbro|Slowbro|393\/393
+|move|p1a: Snorlax|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|292\/393
+|
+|turn|8
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|move|p1a: Snorlax|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|191\/393
+|-status|p2a: Slowbro|par
+|
+|turn|9
+|
+|move|p2a: Slowbro|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|245\/523 par
+|move|p1a: Snorlax|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|89\/393 par
+|
+|turn|10
+|
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|-heal|p2a: Slowbro|393\/393 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|cant|p1a: Snorlax|par
+|
+|turn|11
+|
+|cant|p2a: Slowbro|slp
+|move|p1a: Snorlax|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|297\/393 slp
+|
+|turn|12
+|
+|-curestatus|p2a: Slowbro|slp
+|move|p1a: Snorlax|Self-Destruct|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|faint|p1a: Snorlax
+|
+|switch|p2a: Mewtwo|Mewtwo|415\/415
+|switch|p1a: Mew|Mew|403\/403
+|turn|13
+|
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|move|p1a: Mew|Body Slam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|347\/415
+|
+|turn|14
+|
+|move|p2a: Mewtwo|Ice Beam|p1a: Mew
+|-crit|p1a: Mew
+|-damage|p1a: Mew|211\/403
+|move|p1a: Mew|Body Slam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|273\/415
+|-status|p2a: Mewtwo|par
+|
+|turn|15
+|
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|403\/403
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|415\/415 par
+|
+|turn|16
+|
+|move|p1a: Mew|Swords Dance|p1a: Mew
+|-boost|p1a: Mew|atk|2
+|move|p2a: Mewtwo|Ice Beam|p1a: Mew
+|-damage|p1a: Mew|212\/403
+|
+|turn|17
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Mew|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|347\/523
+|
+|turn|18
+|J|Zng
+|
+|move|p1a: Mew|Earthquake|p2a: Snorlax
+|-damage|p2a: Snorlax|130\/523
+|move|p2a: Snorlax|Body Slam|p1a: Mew
+|-damage|p1a: Mew|110\/403
+|
+|turn|19
+|J|majaspic22
+|
+|switch|p2a: Chansey|Chansey|435\/703
+|move|p1a: Mew|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|43\/703
+|
+|turn|20
+|
+|move|p1a: Mew|Earthquake|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|switch|p2a: Mew|Mew|403\/403
+|turn|21
+|
+|move|p2a: Mew|Body Slam|p1a: Mew
+|-crit|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|switch|p1a: Slowbro|Slowbro|393\/393
+|turn|22
+|
+|move|p2a: Mew|Swords Dance|p2a: Mew
+|-boost|p2a: Mew|atk|2
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|
+|turn|23
+|
+|move|p2a: Mew|Body Slam|p1a: Slowbro
+|-damage|p1a: Slowbro|270\/393
+|move|p1a: Slowbro|Thunder Wave|p2a: Mew
+|-status|p2a: Mew|par
+|
+|turn|24
+|
+|move|p1a: Slowbro|Surf|p2a: Mew
+|-damage|p2a: Mew|204\/403 par
+|move|p2a: Mew|Body Slam|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-damage|p1a: Slowbro|142\/393
+|
+|turn|25
+|
+|move|p1a: Slowbro|Surf|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|switch|p2a: Snorlax|Snorlax|130\/523
+|turn|26
+|
+|move|p2a: Snorlax|Self-Destruct|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|faint|p2a: Snorlax
+|
+|switch|p1a: Mewtwo|Mewtwo|415\/415
+|switch|p2a: Mewtwo|Mewtwo|415\/415 par
+|turn|27
+|
+|move|p1a: Mewtwo|Amnesia|p1a: Mewtwo
+|-boost|p1a: Mewtwo|spd|2
+|-boost|p1a: Mewtwo|spa|2
+|cant|p2a: Mewtwo|par
+|
+|turn|28
+|
+|move|p1a: Mewtwo|Amnesia|p1a: Mewtwo
+|-boost|p1a: Mewtwo|spd|2
+|-boost|p1a: Mewtwo|spa|2
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|
+|turn|29
+|
+|move|p1a: Mewtwo|Amnesia|p1a: Mewtwo
+|-boost|p1a: Mewtwo|spd|2
+|-boost|p1a: Mewtwo|spa|2
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|
+|turn|30
+|
+|move|p1a: Mewtwo|Psychic|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-resisted|p2a: Mewtwo
+|-damage|p2a: Mewtwo|311\/415 par
+|move|p2a: Mewtwo|Ice Beam|p1a: Mewtwo
+|-damage|p1a: Mewtwo|337\/415
+|-status|p1a: Mewtwo|frz
+|
+|turn|31
+|c|★marcoasd|gg
+|c|★Real FV13|where's my luck
+|c|★Real FV13|0 today
+|c|★marcoasd|rip
+|
+|cant|p1a: Mewtwo|frz
+|move|p2a: Mewtwo|Ice Beam|p1a: Mewtwo
+|-damage|p1a: Mewtwo|259\/415 frz
+|
+|turn|32
+|c|★marcoasd|troller is on my side
+|
+|cant|p1a: Mewtwo|frz
+|move|p2a: Mewtwo|Ice Beam|p1a: Mewtwo
+|-crit|p1a: Mewtwo
+|-damage|p1a: Mewtwo|117\/415 frz
+|
+|turn|33
+|
+|cant|p1a: Mewtwo|frz
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|415\/415 par
+|
+|turn|34
+|
+|cant|p1a: Mewtwo|frz
+|move|p2a: Mewtwo|Psychic|p1a: Mewtwo
+|-resisted|p1a: Mewtwo
+|-damage|p1a: Mewtwo|68\/415 frz
+|-unboost|p1a: Mewtwo|spd|1
+|-unboost|p1a: Mewtwo|spa|1
+|
+|turn|35
+|
+|cant|p1a: Mewtwo|frz
+|move|p2a: Mewtwo|Psychic|p1a: Mewtwo
+|-resisted|p1a: Mewtwo
+|-damage|p1a: Mewtwo|17\/415 frz
+|-unboost|p1a: Mewtwo|spd|1
+|-unboost|p1a: Mewtwo|spa|1
+|
+|turn|36
+|
+|cant|p1a: Mewtwo|frz
+|cant|p2a: Mewtwo|par
+|
+|turn|37
+|
+|cant|p1a: Mewtwo|frz
+|cant|p2a: Mewtwo|par
+|
+|turn|38
+|
+|switch|p1a: Rhydon|Rhydon|413\/413 slp
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|
+|turn|39
+|
+|-curestatus|p1a: Rhydon|slp
+|move|p2a: Mewtwo|Ice Beam|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|-message|Real FV13 forfeited.
+|
+|win|marcoasd

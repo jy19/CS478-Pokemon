@@ -1,0 +1,174 @@
+﻿|join|MALESANI
+|join|shadowist
+|player|p1|MALESANI|238
+|player|p2|shadowist|269
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|51234,22901,42325,24866
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Chansey|Chansey, L79|557\/557
+|switch|p2a: Nidoking|Nidoking, L85|311\/311
+|turn|1
+|choice|move 3|switch 2
+|
+|switch|p2a: Electrode|Electrode, L90|291\/291
+|move|p1a: Chansey|Ice Beam|p2a: Electrode
+|-crit|p2a: Electrode
+|-damage|p2a: Electrode|171\/291
+|
+|turn|2
+|choice|switch 3|move 1
+|
+|switch|p1a: Tangela|Tangela, L85|284\/284
+|move|p2a: Electrode|Explosion|p1a: Tangela
+|-damage|p1a: Tangela|126\/284
+|faint|p2a: Electrode
+|choice||switch 4
+|
+|switch|p2a: Rapidash|Rapidash, L90|300\/300
+|turn|3
+|choice|switch 3|move 1
+|
+|switch|p1a: Chansey|Chansey, L79|557\/557
+|move|p2a: Rapidash|Fire Blast|p1a: Chansey
+|-damage|p1a: Chansey|434\/557
+|
+|turn|4
+|choice|move 4|move 3
+|
+|move|p2a: Rapidash|Substitute|p2a: Rapidash
+|-start|p2a: Rapidash|Substitute
+|-damage|p2a: Rapidash|225\/300
+|move|p1a: Chansey|Thunderbolt|p2a: Rapidash
+|-crit|p2a: Rapidash
+|-end|p2a: Rapidash|Substitute
+|
+|turn|5
+|choice|move 1|move 4
+|
+|move|p2a: Rapidash|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|243\/557
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|521\/557
+|
+|turn|6
+|choice|move 2|move 4
+|
+|move|p2a: Rapidash|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|341\/557
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-start|p1a: Chansey|Reflect
+|
+|turn|7
+|choice|move 1|switch 2
+|
+|switch|p2a: Nidoking|Nidoking, L85|311\/311
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|557\/557
+|
+|turn|8
+|choice|move 3|move 4
+|
+|move|p2a: Nidoking|Blizzard|p1a: Chansey|[miss]
+|-miss|p2a: Nidoking
+|move|p1a: Chansey|Ice Beam|p2a: Nidoking
+|-supereffective|p2a: Nidoking
+|-damage|p2a: Nidoking|171\/311
+|
+|turn|9
+|choice|move 3|move 4
+|
+|move|p2a: Nidoking|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|492\/557
+|move|p1a: Chansey|Ice Beam|p2a: Nidoking
+|-supereffective|p2a: Nidoking
+|-damage|p2a: Nidoking|39\/311
+|
+|turn|10
+|choice|move 3|move 4
+|
+|move|p2a: Nidoking|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|419\/557
+|move|p1a: Chansey|Ice Beam|p2a: Nidoking
+|-supereffective|p2a: Nidoking
+|-damage|p2a: Nidoking|0 fnt
+|faint|p2a: Nidoking
+|choice||switch 5
+|
+|switch|p2a: Scyther|Scyther, L90|309\/309
+|turn|11
+|choice|move 4|move 2
+|
+|move|p2a: Scyther|Swords Dance|p2a: Scyther
+|-boost|p2a: Scyther|atk|2
+|move|p1a: Chansey|Thunderbolt|p2a: Scyther
+|-supereffective|p2a: Scyther
+|-damage|p2a: Scyther|151\/309
+|
+|turn|12
+|choice|move 4|move 3
+|
+|move|p2a: Scyther|Hyper Beam|p1a: Chansey
+|-damage|p1a: Chansey|55\/557
+|move|p1a: Chansey|Thunderbolt|p2a: Scyther
+|-supereffective|p2a: Scyther
+|-damage|p2a: Scyther|0 fnt
+|faint|p2a: Scyther
+|choice||switch 2
+|
+|switch|p2a: Rapidash|Rapidash, L90|225\/300
+|turn|13
+|choice|switch 6|move 4
+|
+|switch|p1a: Poliwrath|Poliwrath, L85|327\/327
+|move|p2a: Rapidash|Body Slam|p1a: Poliwrath
+|-damage|p1a: Poliwrath|256\/327
+|
+|turn|14
+|choice|move 3|switch 6
+|
+|switch|p2a: Wigglytuff|Wigglytuff, L90|435\/435
+|move|p1a: Poliwrath|Hypnosis|p2a: Wigglytuff
+|-status|p2a: Wigglytuff|slp
+|
+|turn|15
+|choice|move 1|move 4
+|
+|move|p1a: Poliwrath|Amnesia|p1a: Poliwrath
+|-boost|p1a: Poliwrath|spd|2
+|-boost|p1a: Poliwrath|spa|2
+|cant|p2a: Wigglytuff|slp
+|
+|turn|16
+|choice|move 1|move 4
+|
+|move|p1a: Poliwrath|Amnesia|p1a: Poliwrath
+|-boost|p1a: Poliwrath|spd|2
+|-boost|p1a: Poliwrath|spa|2
+|cant|p2a: Wigglytuff|slp
+|
+|turn|17
+|choice|move 1|move 4
+|
+|move|p1a: Poliwrath|Amnesia|p1a: Poliwrath
+|-boost|p1a: Poliwrath|spd|2
+|-boost|p1a: Poliwrath|spa|2
+|cant|p2a: Wigglytuff|slp
+|
+|turn|18
+|choice|move 4|move 4
+|
+|move|p1a: Poliwrath|Surf|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|0 fnt
+|faint|p2a: Wigglytuff
+|-message|shadowist forfeited.
+|
+|win|MALESANI
+|leave|shadowist
+|player|p2

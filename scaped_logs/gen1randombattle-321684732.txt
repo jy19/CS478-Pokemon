@@ -1,0 +1,249 @@
+﻿|j|MALESANI
+|j|Gymleaderfabe
+|player|p1|MALESANI|238
+|player|p2|Gymleaderfabe|241
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|52255,28609,790,30259
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Abra|Abra, L96|243\/243
+|switch|p2a: Gastly|Gastly, L96|252\/252
+|turn|1
+|choice|move 1|switch 3
+|
+|switch|p2a: Charizard|Charizard, L85|306\/306
+|move|p1a: Abra|Psychic|p2a: Charizard
+|-damage|p2a: Charizard|179\/306
+|-unboost|p2a: Charizard|spd|1
+|-unboost|p2a: Charizard|spa|1
+|
+|turn|2
+|choice|move 3|move 2
+|
+|move|p1a: Abra|Thunder Wave|p2a: Charizard
+|-status|p2a: Charizard|par
+|move|p2a: Charizard|Body Slam|p1a: Abra
+|-damage|p1a: Abra|145\/243
+|-status|p1a: Abra|par
+|
+|turn|3
+|choice|move 1|move 2
+|
+|move|p1a: Abra|Psychic|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|choice||switch 5
+|
+|switch|p2a: Kangaskhan|Kangaskhan, L85|352\/352
+|turn|4
+|choice|switch 2|move 1
+|
+|switch|p1a: Gloom|Gloom, L90|291\/291
+|move|p2a: Kangaskhan|Hyper Beam|p1a: Gloom
+|-damage|p1a: Gloom|127\/291
+|
+|turn|5
+|-mustrecharge|p2a: Kangaskhan
+|-mustrecharge|p2a: Kangaskhan
+|choice|move 2|move 1
+|
+|cant|p2a: Kangaskhan|recharge
+|move|p1a: Gloom|Sleep Powder|p2a: Kangaskhan
+|-status|p2a: Kangaskhan|slp
+|
+|turn|6
+|choice|move 4|switch 4
+|
+|switch|p2a: Mew|Mew, L74|300\/300
+|move|p1a: Gloom|Mega Drain|p2a: Mew
+|-damage|p2a: Mew|251\/300
+|-heal|p1a: Gloom|151\/291|[from] drain|[of] p2a: Mew
+|
+|turn|7
+|choice|move 3|move 4
+|
+|move|p2a: Mew|Blizzard|p1a: Gloom
+|-supereffective|p1a: Gloom
+|-damage|p1a: Gloom|31\/291
+|move|p1a: Gloom|Double-Edge|p2a: Mew
+|-damage|p2a: Mew|183\/300
+|-damage|p1a: Gloom|14\/291|[from] recoil|[of] p2a: Mew
+|
+|turn|8
+|choice|move 3|move 2
+|
+|move|p2a: Mew|Earthquake|p1a: Gloom
+|-damage|p1a: Gloom|0 fnt
+|faint|p1a: Gloom
+|choice|switch 4|
+|
+|switch|p1a: Raticate|Raticate, L85|267\/267
+|turn|9
+|choice|move 3|move 4
+|
+|move|p1a: Raticate|Body Slam|p2a: Mew
+|-damage|p2a: Mew|103\/300
+|move|p2a: Mew|Blizzard|p1a: Raticate|[miss]
+|-miss|p2a: Mew
+|
+|turn|10
+|choice|move 4|switch 3
+|
+|switch|p2a: Gastly|Gastly, L96|252\/252
+|move|p1a: Raticate|Hyper Beam|p2a: Gastly
+|-immune|p2a: Gastly|[msg]
+|
+|turn|11
+|choice|switch 2|move 1
+|
+|switch|p1a: Abra|Abra, L96|145\/243 par
+|move|p2a: Gastly|Hypnosis|p1a: Abra|[miss]
+|-miss|p2a: Gastly
+|
+|turn|12
+|choice|move 3|switch 6
+|
+|switch|p2a: Graveler|Graveler, L85|267\/267
+|move|p1a: Abra|Thunder Wave|p2a: Graveler
+|-immune|p2a: Graveler|[msg]
+|
+|turn|13
+|choice|switch 6|move 4
+|
+|switch|p1a: Sandslash|Sandslash, L85|301\/301
+|move|p2a: Graveler|Body Slam|p1a: Sandslash
+|-damage|p1a: Sandslash|251\/301
+|
+|turn|14
+|choice|move 1|switch 2
+|
+|switch|p2a: Poliwag|Poliwag, L96|272\/272
+|move|p1a: Sandslash|Earthquake|p2a: Poliwag
+|-damage|p2a: Poliwag|119\/272
+|
+|turn|15
+|choice|switch 6|move 3
+|
+|switch|p1a: Abra|Abra, L96|145\/243 par
+|move|p2a: Poliwag|Surf|p1a: Abra
+|-damage|p1a: Abra|87\/243 par
+|
+|turn|16
+|choice|move 1|move 3
+|
+|move|p2a: Poliwag|Surf|p1a: Abra
+|-damage|p1a: Abra|26\/243 par
+|move|p1a: Abra|Psychic|p2a: Poliwag
+|-damage|p2a: Poliwag|0 fnt
+|faint|p2a: Poliwag
+|choice||switch 6
+|
+|switch|p2a: Gastly|Gastly, L96|252\/252
+|turn|17
+|choice|move 1|move 4
+|
+|move|p2a: Gastly|Psychic|p1a: Abra
+|-resisted|p1a: Abra
+|-damage|p1a: Abra|0 fnt
+|faint|p1a: Abra
+|choice|switch 6|
+|
+|switch|p1a: Sandslash|Sandslash, L85|251\/301
+|turn|18
+|choice|move 1|move 1
+|
+|move|p2a: Gastly|Hypnosis|p1a: Sandslash|[miss]
+|-miss|p2a: Gastly
+|move|p1a: Sandslash|Earthquake|p2a: Gastly
+|-supereffective|p2a: Gastly
+|-damage|p2a: Gastly|0 fnt
+|faint|p2a: Gastly
+|choice||switch 2
+|
+|switch|p2a: Graveler|Graveler, L85|267\/267
+|turn|19
+|choice|move 1|move 1
+|
+|move|p1a: Sandslash|Earthquake|p2a: Graveler
+|-supereffective|p2a: Graveler
+|-damage|p2a: Graveler|77\/267
+|move|p2a: Graveler|Explosion|p1a: Sandslash
+|-damage|p1a: Sandslash|51\/301
+|faint|p2a: Graveler
+|choice||switch 3
+|
+|switch|p2a: Mew|Mew, L74|103\/300
+|turn|20
+|choice|move 1|move 4
+|
+|move|p2a: Mew|Blizzard|p1a: Sandslash
+|-supereffective|p1a: Sandslash
+|-damage|p1a: Sandslash|0 fnt
+|faint|p1a: Sandslash
+|choice|switch 5|
+|
+|switch|p1a: Hitmonlee|Hitmonlee, L90|273\/273
+|turn|21
+|choice|move 1|move 4
+|
+|move|p1a: Hitmonlee|Body Slam|p2a: Mew
+|-damage|p2a: Mew|14\/300
+|move|p2a: Mew|Blizzard|p1a: Hitmonlee|[miss]
+|-miss|p2a: Mew
+|
+|turn|22
+|choice|move 2|move 2
+|
+|move|p1a: Hitmonlee|Seismic Toss|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|choice||switch 4
+|
+|switch|p2a: Kangaskhan|Kangaskhan, L85|352\/352 slp
+|turn|23
+|choice|switch 3|move 4
+|
+|switch|p1a: Slowbro|Slowbro, L79|312\/312
+|cant|p2a: Kangaskhan|slp
+|
+|turn|24
+|choice|move 3|move 2
+|
+|cant|p2a: Kangaskhan|slp
+|move|p1a: Slowbro|Surf|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|231\/352 slp
+|
+|turn|25
+|choice|move 3|move 2
+|
+|cant|p2a: Kangaskhan|slp
+|move|p1a: Slowbro|Surf|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|122\/352 slp
+|
+|turn|26
+|choice|move 4|move 2
+|
+|cant|p2a: Kangaskhan|slp
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|
+|turn|27
+|choice|move 3|move 2
+|
+|-curestatus|p2a: Kangaskhan|slp
+|move|p1a: Slowbro|Surf|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|faint|p2a: Kangaskhan
+|
+|win|MALESANI
+|player|p1
+|player|p2
+|raw|MALESANI's rating: 1254 &rarr; <strong>1278<\/strong><br \/>(+24 for winning)
+|raw|Gymleaderfabe's rating: 1232 &rarr; <strong>1209<\/strong><br \/>(-23 for losing)

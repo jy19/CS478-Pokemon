@@ -1,0 +1,279 @@
+﻿|join|Melchior Vulpius
+|join|Kel9901
+|player|p1|Melchior Vulpius|265
+|player|p2|Kel9901|1
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333\/333
+|switch|p2a: moxie sucks|Gengar|323\/323
+|turn|1
+|
+|move|p2a: moxie sucks|Hypnosis|p1a: Jynx
+|-status|p1a: Jynx|slp
+|cant|p1a: Jynx|slp
+|
+|turn|2
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|move|p2a: moxie sucks|Night Shade|p1a: Alakazam
+|-damage|p1a: Alakazam|213\/313
+|
+|turn|3
+|
+|switch|p2a: gtfo moxie|Alakazam|313\/313
+|move|p1a: Alakazam|Thunder Wave|p2a: gtfo moxie
+|-status|p2a: gtfo moxie|par
+|
+|turn|4
+|
+|switch|p1a: Lapras|Lapras|463\/463
+|cant|p2a: gtfo moxie|par
+|
+|turn|5
+|
+|move|p1a: Lapras|Confuse Ray|p2a: gtfo moxie
+|-start|p2a: gtfo moxie|confusion
+|-activate|p2a: gtfo moxie|confusion
+|-damage|p2a: gtfo moxie|276\/313 par|[from] confusion
+|
+|turn|6
+|
+|switch|p2a: moxie sucks|Gengar|323\/323
+|move|p1a: Lapras|Body Slam|p2a: moxie sucks
+|-immune|p2a: moxie sucks|[msg]
+|
+|turn|7
+|
+|move|p2a: moxie sucks|Thunderbolt|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|293\/463
+|move|p1a: Lapras|Confuse Ray|p2a: moxie sucks
+|-start|p2a: moxie sucks|confusion
+|
+|turn|8
+|
+|-activate|p2a: moxie sucks|confusion
+|-damage|p2a: moxie sucks|286\/323|[from] confusion
+|move|p1a: Lapras|Blizzard|p2a: moxie sucks
+|-damage|p2a: moxie sucks|174\/323
+|
+|turn|9
+|
+|-end|p2a: moxie sucks|confusion
+|move|p2a: moxie sucks|Thunderbolt|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|93\/463
+|move|p1a: Lapras|Blizzard|p2a: moxie sucks
+|-damage|p2a: moxie sucks|68\/323
+|
+|turn|10
+|
+|switch|p1a: Alakazam|Alakazam|213\/313
+|move|p2a: moxie sucks|Explosion|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|faint|p2a: moxie sucks
+|
+|switch|p2a: clamp|Cloyster|303\/303
+|switch|p1a: Lapras|Lapras|93\/463
+|turn|11
+|
+|move|p2a: clamp|Clamp|p1a: Lapras
+|-resisted|p1a: Lapras
+|-damage|p1a: Lapras|74\/463
+|-activate|p1a: Lapras|move: Clamp|[of] p2a: clamp
+|cant|p1a: Lapras|partiallytrapped
+|
+|turn|12
+|
+|move|p2a: clamp|Clamp|p1a: Lapras
+|-damage|p1a: Lapras|55\/463
+|cant|p1a: Lapras|partiallytrapped
+|
+|turn|13
+|
+|move|p2a: clamp|Clamp|p1a: Lapras
+|-damage|p1a: Lapras|36\/463
+|cant|p1a: Lapras|partiallytrapped
+|
+|-end|p1a: Lapras|Clamp|[partiallytrapped]
+|turn|14
+|
+|move|p2a: clamp|Clamp|p1a: Lapras
+|-resisted|p1a: Lapras
+|-damage|p1a: Lapras|15\/463
+|-activate|p1a: Lapras|move: Clamp|[of] p2a: clamp
+|cant|p1a: Lapras|partiallytrapped
+|
+|turn|15
+|
+|move|p2a: clamp|Clamp|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|turn|16
+|
+|switch|p2a: gtfo moxie|Alakazam|276\/313 par
+|move|p1a: Starmie|Thunder Wave|p2a: gtfo moxie
+|-fail|p2a: gtfo moxie|par
+|
+|turn|17
+|
+|switch|p1a: Jynx|Jynx|333\/333 slp
+|move|p2a: gtfo moxie|Thunder Wave|p1a: Jynx
+|-fail|p1a: Jynx
+|
+|turn|18
+|
+|switch|p2a: gengar is amazing|Persian|333\/333
+|cant|p1a: Jynx|slp
+|-curestatus|p1a: Jynx|slp
+|
+|turn|19
+|
+|move|p2a: gengar is amazing|Thunderbolt|p1a: Jynx
+|-damage|p1a: Jynx|274\/333
+|move|p1a: Jynx|Lovely Kiss|p2a: gengar is amazing|[miss]
+|-miss|p1a: Jynx
+|
+|turn|20
+|
+|move|p2a: gengar is amazing|Slash|p1a: Jynx
+|-crit|p1a: Jynx
+|-damage|p1a: Jynx|46\/333
+|move|p1a: Jynx|Lovely Kiss|p2a: gengar is amazing
+|-status|p2a: gengar is amazing|slp
+|
+|turn|21
+|
+|cant|p2a: gengar is amazing|slp
+|move|p1a: Jynx|Blizzard|p2a: gengar is amazing
+|-damage|p2a: gengar is amazing|168\/333 slp
+|
+|turn|22
+|
+|cant|p2a: gengar is amazing|slp
+|move|p1a: Jynx|Blizzard|p2a: gengar is amazing
+|-crit|p2a: gengar is amazing
+|-damage|p2a: gengar is amazing|0 fnt
+|faint|p2a: gengar is amazing
+|
+|switch|p2a: tauros sucks|Jolteon|333\/333
+|turn|23
+|
+|move|p2a: tauros sucks|Thunderbolt|p1a: Jynx
+|-crit|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|turn|24
+|
+|move|p2a: tauros sucks|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|move|p1a: Snorlax|Body Slam|p2a: tauros sucks
+|-damage|p2a: tauros sucks|183\/333
+|
+|turn|25
+|
+|switch|p2a: clamp|Cloyster|303\/303
+|move|p1a: Snorlax|Body Slam|p2a: clamp
+|-damage|p2a: clamp|234\/303
+|
+|turn|26
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|move|p2a: clamp|Clamp|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|305\/323
+|-activate|p1a: Starmie|move: Clamp|[of] p2a: clamp
+|
+|turn|27
+|
+|switch|p2a: tauros sucks|Jolteon|183\/333
+|cant|p1a: Starmie|partiallytrapped
+|
+|-end|p1a: Starmie|Clamp|[partiallytrapped]
+|turn|28
+|
+|switch|p1a: Snorlax|Snorlax|523\/523 par
+|move|p2a: tauros sucks|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|359\/523 par
+|
+|turn|29
+|
+|switch|p2a: clamp|Cloyster|234\/303
+|move|p1a: Snorlax|Body Slam|p2a: clamp
+|-crit|p2a: clamp
+|-damage|p2a: clamp|92\/303
+|
+|turn|30
+|
+|move|p2a: clamp|Explosion|p1a: Snorlax
+|-damage|p1a: Snorlax|14\/523 par
+|faint|p2a: clamp
+|
+|switch|p2a: tauros sucks|Jolteon|183\/333
+|turn|31
+|
+|move|p2a: tauros sucks|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|32
+|
+|switch|p2a: gtfo moxie|Alakazam|276\/313 par
+|move|p1a: Tauros|Earthquake|p2a: gtfo moxie
+|-damage|p2a: gtfo moxie|160\/313 par
+|
+|turn|33
+|
+|move|p1a: Tauros|Hyper Beam|p2a: gtfo moxie
+|-damage|p2a: gtfo moxie|0 fnt
+|faint|p2a: gtfo moxie
+|
+|switch|p2a: get rekt moxie|Dragonite|385\/385
+|turn|34
+|
+|move|p1a: Tauros|Blizzard|p2a: get rekt moxie
+|-supereffective|p2a: get rekt moxie
+|-damage|p2a: get rekt moxie|99\/385
+|move|p2a: get rekt moxie|Agility|p2a: get rekt moxie
+|-boost|p2a: get rekt moxie|spe|2
+|
+|turn|35
+|
+|move|p2a: get rekt moxie|Wrap|p1a: Tauros|[miss]
+|-miss|p2a: get rekt moxie
+|move|p1a: Tauros|Body Slam|p2a: get rekt moxie
+|-damage|p2a: get rekt moxie|0 fnt
+|faint|p2a: get rekt moxie
+|
+|switch|p2a: tauros sucks|Jolteon|183\/333
+|turn|36
+|c|★Kel9901|gg
+|c|★Melchior Vulpius|gg :)
+|
+|move|p2a: tauros sucks|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|move|p1a: Tauros|Earthquake|p2a: tauros sucks
+|-supereffective|p2a: tauros sucks
+|-damage|p2a: tauros sucks|0 fnt
+|faint|p2a: tauros sucks
+|
+|win|Melchior Vulpius
+|raw|Ladder updating...
+|raw|Melchior Vulpius's rating: 1098 &rarr; <strong>1137<\/strong><br \/>(+39 for winning)
+|raw|Kel9901's rating: 1308 &rarr; <strong>1277<\/strong><br \/>(-31 for losing)

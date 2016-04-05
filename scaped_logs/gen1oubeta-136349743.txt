@@ -1,0 +1,223 @@
+﻿|join|Whoremaster
+|join|gr1234
+|player|p1|Whoremaster|43
+|player|p2|gr1234|102
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|switch|p1a: Spoonbrah|Alakazam|313\/313
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|1
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Spoonbrah|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|341\/393
+|-unboost|p2a: Exeggutor|spd|1
+|-unboost|p2a: Exeggutor|spa|1
+|
+|turn|2
+|
+|move|p1a: Spoonbrah|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|260\/393
+|move|p2a: Exeggutor|Sleep Powder|p1a: Spoonbrah|[miss]
+|-miss|p2a: Exeggutor
+|
+|turn|3
+|chat|gr1234|glhf
+|chat|Whoremaster|gl brah
+|
+|move|p1a: Spoonbrah|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|177\/393
+|move|p2a: Exeggutor|Sleep Powder|p1a: Spoonbrah
+|-status|p1a: Spoonbrah|slp
+|
+|turn|4
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Exeggutor|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|357\/393
+|
+|turn|5
+|
+|move|p2a: Exeggutor|Explosion|p1a: Exeggutor
+|-damage|p1a: Exeggutor|90\/393
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|6
+|
+|switch|p1a: Gengar|Gengar|323\/323
+|move|p2a: Tauros|Blizzard|p1a: Gengar
+|-damage|p1a: Gengar|265\/323
+|
+|turn|7
+|
+|switch|p2a: Persian|Persian|333\/333
+|move|p1a: Gengar|Thunderbolt|p2a: Persian
+|-damage|p2a: Persian|217\/333
+|
+|turn|8
+|
+|move|p2a: Persian|Thunderbolt|p1a: Gengar
+|-damage|p1a: Gengar|216\/323
+|move|p1a: Gengar|Thunderbolt|p2a: Persian
+|-damage|p2a: Persian|110\/333
+|
+|turn|9
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|move|p1a: Gengar|Thunderbolt|p2a: Gengar
+|-damage|p2a: Gengar|255\/323
+|
+|turn|10
+|
+|switch|p1a: Exeggutor|Exeggutor|90\/393
+|move|p2a: Gengar|Psychic|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|19\/393
+|-unboost|p1a: Exeggutor|spd|1
+|-unboost|p1a: Exeggutor|spa|1
+|
+|turn|11
+|
+|move|p2a: Gengar|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|chat|Whoremaster|oops
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|turn|12
+|chat|gr1234|ouch
+|
+|switch|p2a: Cloyster|Cloyster|303\/303
+|move|p1a: Snorlax|Earthquake|p2a: Cloyster
+|-damage|p2a: Cloyster|246\/303
+|
+|turn|13
+|
+|switch|p1a: Gengar|Gengar|216\/323
+|move|p2a: Cloyster|Clamp|p1a: Gengar
+|-damage|p1a: Gengar|183\/323
+|-activate|p1a: Gengar|move: Clamp|[of] p2a: Cloyster
+|
+|turn|14
+|
+|cant|p1a: Gengar|partiallytrapped
+|move|p2a: Cloyster|Clamp|p1a: Gengar
+|-damage|p1a: Gengar|150\/323
+|
+|-end|p1a: Gengar|Clamp|[partiallytrapped]
+|turn|15
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Gengar|Thunderbolt|p2a: Snorlax
+|-damage|p2a: Snorlax|404\/523
+|
+|turn|16
+|
+|move|p1a: Gengar|Explosion|p2a: Snorlax
+|-damage|p2a: Snorlax|140\/523
+|faint|p1a: Gengar
+|
+|switch|p1a: Persian|Persian|333\/333
+|turn|17
+|
+|move|p1a: Persian|Slash|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|
+|switch|p2a: Persian|Persian|110\/333
+|turn|18
+|
+|move|p2a: Persian|Hyper Beam|p1a: Persian
+|-crit|p1a: Persian
+|-damage|p1a: Persian|0 fnt
+|faint|p1a: Persian
+|
+|chat|Whoremaster|damn son
+|chat|gr1234|lucky me
+|
+|switch|p1a: Bitch Tits|Chansey|703\/703
+|turn|19
+|
+|move|p2a: Persian|Hyper Beam|p1a: Bitch Tits
+|-crit|p1a: Bitch Tits
+|-damage|p1a: Bitch Tits|0 fnt
+|faint|p1a: Bitch Tits
+|
+|chat|Whoremaster|LOL
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|turn|20
+|chat|gr1234|sorry 
+|
+|move|p2a: Persian|Hyper Beam|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|132\/523
+|move|p1a: Snorlax|Body Slam|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|faint|p2a: Persian
+|
+|chat|gr1234|dem hacks
+|chat|Whoremaster|thats some sort of record
+|chat|gr1234|hmmm
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|21
+|chat|Whoremaster|tauros + persion work well together
+|chat|Whoremaster|if they not para
+|chat|gr1234|true
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|
+|switch|p1a: Spoonbrah|Alakazam|313\/313 slp
+|turn|22
+|chat|Whoremaster|gg
+|chat|gr1234|gg 
+|
+|cant|p1a: Spoonbrah|slp
+|move|p2a: Tauros|Body Slam|p1a: Spoonbrah
+|-crit|p1a: Spoonbrah
+|-damage|p1a: Spoonbrah|6\/313 slp
+|
+|turn|23
+|chat|gr1234|so much hacks
+|chat|Whoremaster|crit master
+|
+|cant|p1a: Spoonbrah|slp
+|move|p2a: Tauros|Body Slam|p1a: Spoonbrah
+|-crit|p1a: Spoonbrah
+|-damage|p1a: Spoonbrah|0 fnt
+|faint|p1a: Spoonbrah
+|
+|win|gr1234
+|raw|Ladder updating...
+|raw|Whoremaster's rating: 1164 &rarr; <strong>1132<\/strong><br \/>(-32 for losing)
+|raw|gr1234's rating: 1052 &rarr; <strong>1094<\/strong><br \/>(+42 for winning)
+|chat|gr1234|gg
+|chat|Whoremaster|gg later
+|leave|Whoremaster
+|player|p1
+|chat|gr1234|cya

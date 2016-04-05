@@ -1,0 +1,748 @@
+﻿|J|Ciele
+|J|Dice
+|player|p1|Ciele|51
+|player|p2|Dice|168
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|seed|26925,36817,3773,10951
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gengar|Gengar|323\/323
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|1
+|J|River Martini
+|c|★Ciele|bad tier
+|choice|move 1|move 1
+|
+|move|p2a: Gengar|Hypnosis|p1a: Gengar
+|-status|p1a: Gengar|slp
+|cant|p1a: Gengar|slp
+|
+|turn|2
+|choice|move 1|move 4
+|
+|-curestatus|p1a: Gengar|slp
+|move|p2a: Gengar|Night Shade|p1a: Gengar
+|-damage|p1a: Gengar|223\/323
+|
+|turn|3
+|J|Alexander
+|choice|move 1|move 1
+|
+|move|p2a: Gengar|Hypnosis|p1a: Gengar|[miss]
+|-miss|p2a: Gengar
+|move|p1a: Gengar|Hypnosis|p2a: Gengar
+|-status|p2a: Gengar|slp
+|
+|turn|4
+|c|★Dice|hax
+|c|+Alexander|top tier
+|c|★Ciele|why does this not have seismic toss
+|J|steelphoenix
+|c|★Dice|it doesnt learn it
+|c|★Ciele|it is objectively better
+|c|★Dice|:(
+|c|+Alexander|no
+|c|★Dice|idt
+|c|★Dice|night shade
+|c|+Alexander|cus counter
+|c|★Dice|still hits
+|c|+Alexander|!!!
+|c|★Dice|chansey
+|c|★Ciele|wait
+|c|★Ciele|counter works on toss?
+|c|★Dice|ye
+|c|★Ciele|ok nvm
+|J|SparksBlade
+|choice|move 3|switch 4
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Gengar|Night Shade|p2a: Chansey
+|-damage|p2a: Chansey|603\/703
+|
+|turn|5
+|choice|switch 2|move 1
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Chansey|Sing|p1a: Chansey
+|-status|p1a: Chansey|slp
+|
+|turn|6
+|c|★Ciele|rude
+|choice|move 3|switch 5
+|
+|switch|p2a: Rhydon|Rhydon|413\/413
+|cant|p1a: Chansey|slp
+|
+|turn|7
+|choice|switch 4|move 1
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Rhydon|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|307\/393
+|
+|turn|8
+|J|Time Stall
+|choice|move 3|switch 5
+|
+|switch|p2a: Chansey|Chansey|603\/703
+|move|p1a: Exeggutor|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|493\/703
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|
+|turn|9
+|J|Ary
+|choice|switch 4|move 4
+|
+|switch|p1a: Chansey|Chansey|703\/703 slp
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey
+|
+|turn|10
+|choice|move 3|switch 5
+|
+|switch|p2a: Rhydon|Rhydon|413\/413
+|-curestatus|p1a: Chansey|slp
+|
+|turn|11
+|J|sugarhigh
+|c|★Dice|rude
+|c|★Ciele|my pkmn don't like sleeping
+|choice|switch 4|switch 5
+|
+|switch|p1a: Exeggutor|Exeggutor|307\/393
+|switch|p2a: Chansey|Chansey|493\/703
+|
+|turn|12
+|c|+steelphoenix|chonsey.
+|choice|switch 2|switch 5
+|
+|switch|p1a: Gengar|Gengar|223\/323
+|switch|p2a: Rhydon|Rhydon|413\/413
+|
+|turn|13
+|c|★Ciele|this might have mega drain.
+|c|★Dice|i'll take my chances
+|choice|switch 2|move 1
+|
+|switch|p1a: Exeggutor|Exeggutor|307\/393
+|move|p2a: Rhydon|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|223\/393
+|-status|p1a: Exeggutor|par
+|
+|turn|14
+|choice|move 2|switch 5
+|
+|switch|p2a: Chansey|Chansey|493\/703
+|move|p1a: Exeggutor|Stun Spore|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|turn|15
+|choice|move 3|move 3
+|
+|move|p1a: Exeggutor|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|367\/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703 par
+|
+|turn|16
+|choice|move 3|move 2
+|
+|cant|p1a: Exeggutor|par
+|cant|p2a: Chansey|par
+|
+|turn|17
+|choice|move 3|move 2
+|
+|move|p1a: Exeggutor|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|590\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|18
+|L|sugarhigh
+|choice|move 3|switch 5
+|
+|switch|p2a: Rhydon|Rhydon|413\/413
+|move|p1a: Exeggutor|Psychic|p2a: Rhydon
+|-damage|p2a: Rhydon|233\/413
+|
+|turn|19
+|J|FINCHINAtor
+|choice|move 2|move 4
+|
+|move|p2a: Rhydon|Rock Slide|p1a: Exeggutor
+|-damage|p1a: Exeggutor|115\/393 par
+|cant|p1a: Exeggutor|par
+|
+|turn|20
+|L|FINCHINAtor
+|c|★Ciele|hax.
+|c|★Dice|paraflinch yn
+|c|★Dice|.trl
+|c|+Time Stall|y
+|L|River Martini
+|c|★Dice|i should put stomp
+|c|★Dice|on this guy
+|c|★Dice|i swear i always want it
+|J|Rei
+|choice|move 3|switch 6
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Exeggutor|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|358\/523
+|
+|turn|21
+|choice|switch 2|move 2
+|
+|switch|p1a: Gengar|Gengar|223\/323
+|move|p2a: Snorlax|Body Slam|p1a: Gengar
+|-immune|p1a: Gengar|[msg]
+|
+|turn|22
+|c|★Ciele|countered
+|c|+Ary|what does stomp do
+|c|★Dice|flinch
+|c|★Dice|rock slide doesnt have flinch chance
+|c|★Dice|in rby
+|c|+Ary|oh
+|c|+Ary|didnt know that
+|c|+Alexander|stomp is gud imo
+|c|+Alexander|30% flinch
+|choice|move 3|move 3
+|
+|move|p1a: Gengar|Night Shade|p2a: Snorlax
+|-damage|p2a: Snorlax|258\/523
+|move|p2a: Snorlax|Earthquake|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|2\/323
+|
+|turn|23
+|c|★Dice|ciele u are
+|c|+Alexander|on egg 
+|c|★Dice|booming
+|c|★Dice|yn
+|c|★Ciele|y
+|choice|move 4|move 3
+|
+|move|p1a: Gengar|Explosion|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|faint|p1a: Gengar
+|c|★Dice|damn
+|c|★Dice|i shoulda known
+|c|★Dice|ciele never lies
+|c|★Ciele|Gengar Explosion vs. Snorlax: 244-287 (46.6 - 54.8%)
+|c|★Ciele|gengar is so weak
+|c|★Dice|it does like
+|c|★Dice|75-80 to chansey
+|c|★Dice|or something
+|choice|switch 6|switch 6
+|
+|switch|p1a: Lapras|Lapras|463\/463
+|switch|p2a: Rhydon|Rhydon|233\/413
+|turn|24
+|c|★Dice|ugh
+|choice|switch 3|switch 5
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|switch|p2a: Chansey|Chansey|590\/703 par
+|
+|turn|25
+|c|★Dice|hm
+|choice|move 1|move 1
+|
+|move|p1a: Snorlax|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|298\/703 par
+|move|p2a: Chansey|Sing|p1a: Snorlax
+|-status|p1a: Snorlax|slp
+|
+|turn|26
+|c|★Ciele|relaxo no
+|c|★Dice|relaxo yes
+|c|★Dice|7 turn sleep
+|choice|switch 2|move 3
+|
+|switch|p1a: Exeggutor|Exeggutor|115\/393 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|649\/703 par
+|
+|turn|27
+|c|★Dice|pls
+|choice|move 2|switch 4
+|
+|switch|p2a: Gengar|Gengar|323\/323 slp
+|move|p1a: Exeggutor|Stun Spore|p2a: Gengar
+|-fail|p2a: Gengar
+|
+|turn|28
+|choice|move 3|switch 4
+|
+|switch|p2a: Chansey|Chansey|649\/703 par
+|move|p1a: Exeggutor|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|534\/703 par
+|
+|turn|29
+|choice|move 2|move 2
+|
+|move|p1a: Exeggutor|Stun Spore|p2a: Chansey|[miss]
+|-miss|p1a: Exeggutor
+|move|p2a: Chansey|Seismic Toss|p1a: Exeggutor
+|-damage|p1a: Exeggutor|15\/393 par
+|
+|turn|30
+|choice|move 3|move 2
+|
+|move|p1a: Exeggutor|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|423\/703 par
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|cant|p2a: Chansey|par
+|
+|turn|31
+|c|★Dice|hax
+|choice|move 4|switch 5
+|
+|switch|p2a: Rhydon|Rhydon|233\/413
+|move|p1a: Exeggutor|Explosion|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|112\/413
+|faint|p1a: Exeggutor
+|c|★Ciele|rude
+|L|steelphoenix
+|choice|switch 3|
+|
+|switch|p1a: Lapras|Lapras|463\/463
+|turn|32
+|c|★Dice|man
+|c|★Dice|ur tauros
+|c|★Dice|si gonna be a bitch
+|c|★Dice|hmmmmmmmmmm
+|c|★Ciele|what if I have a jolteon
+|c|★Ciele|or a moltres
+|c|★Dice|u dont.
+|choice|move 1|switch 3
+|
+|switch|p2a: Slowbro|Slowbro|393\/393
+|move|p1a: Lapras|Blizzard|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|310\/393
+|
+|turn|33
+|J|mfhoundoom
+|c|★Ciele|I don't know how to play around slowbro
+|c|+Alexander|canto
+|c|+Alexander|go
+|choice|move 2|switch 5
+|
+|switch|p2a: Chansey|Chansey|423\/703 par
+|move|p1a: Lapras|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|352\/703 par
+|
+|turn|34
+|choice|move 4|move 3
+|
+|move|p1a: Lapras|Confuse Ray|p2a: Chansey
+|-start|p2a: Chansey|confusion
+|cant|p2a: Chansey|par
+|
+|turn|35
+|c|★Dice|dont do it
+|J|Kanbe Kotori
+|c|★Dice|ur gonna body slam crit
+|choice|move 3|move 3
+|
+|move|p1a: Lapras|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|190\/703 par
+|-activate|p2a: Chansey|confusion
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|541\/703 par
+|
+|turn|36
+|c|★Dice|confuse here
+|c|★Dice|NICE
+|c|★Dice|go girl
+|choice|switch 2|move 4
+|
+|switch|p1a: Snorlax|Snorlax|523\/523 slp
+|-activate|p2a: Chansey|confusion
+|-damage|p2a: Chansey|506\/703 par|[from] confusion
+|
+|turn|37
+|choice|move 1|switch 4
+|
+|switch|p2a: Gengar|Gengar|323\/323 slp
+|cant|p1a: Snorlax|slp
+|
+|turn|38
+|choice|move 2|move 4
+|
+|cant|p2a: Gengar|slp
+|cant|p1a: Snorlax|slp
+|
+|turn|39
+|choice|move 2|move 4
+|
+|cant|p2a: Gengar|slp
+|cant|p1a: Snorlax|slp
+|
+|turn|40
+|choice|move 2|move 4
+|
+|cant|p2a: Gengar|slp
+|-curestatus|p1a: Snorlax|slp
+|
+|turn|41
+|c|★Ciele|good relaxo
+|choice|move 2|switch 5
+|
+|switch|p2a: Slowbro|Slowbro|310\/393
+|move|p1a: Snorlax|Earthquake|p2a: Slowbro
+|-damage|p2a: Slowbro|231\/393
+|
+|turn|42
+|c|★Dice|bad ghost
+|choice|move 1|move 2
+|
+|move|p1a: Snorlax|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|131\/393
+|-status|p2a: Slowbro|par
+|move|p2a: Slowbro|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|
+|turn|43
+|choice|switch 2|switch 3
+|
+|switch|p2a: Rhydon|Rhydon|112\/413
+|switch|p1a: Lapras|Lapras|463\/463
+|
+|turn|44
+|choice|move 1|switch 4
+|
+|switch|p2a: Chansey|Chansey|506\/703 par
+|move|p1a: Lapras|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|379\/703 par
+|
+|turn|45
+|choice|move 4|move 3
+|
+|move|p1a: Lapras|Confuse Ray|p2a: Chansey
+|-start|p2a: Chansey|confusion
+|-activate|p2a: Chansey|confusion
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703 par
+|
+|turn|46
+|choice|switch 2|switch 3
+|
+|switch|p1a: Snorlax|Snorlax|523\/523 par
+|switch|p2a: Slowbro|Slowbro|131\/393 par
+|
+|turn|47
+|c|★Dice|speed tie
+|c|★Dice|u hyper beam
+|c|★Dice|yn
+|c|★Ciele|n
+|choice|switch 2|move 4
+|
+|switch|p1a: Lapras|Lapras|463\/463
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|-heal|p2a: Slowbro|393\/393 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|
+|turn|48
+|choice|switch 2|switch 3
+|
+|switch|p1a: Snorlax|Snorlax|523\/523 par
+|switch|p2a: Chansey|Chansey|703\/703 par
+|
+|turn|49
+|c|★Dice|my last is
+|c|★Dice|zapdos
+|c|★Dice|yn
+|c|★Ciele|y
+|choice|move 1|switch 3
+|
+|switch|p2a: Slowbro|Slowbro|393\/393 slp
+|move|p1a: Snorlax|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|291\/393 slp
+|
+|turn|50
+|J|steelphoenix
+|L|steelphoenix
+|choice|move 1|move 1
+|
+|cant|p2a: Slowbro|slp
+|cant|p1a: Snorlax|par
+|
+|turn|51
+|choice|move 1|move 1
+|
+|-curestatus|p2a: Slowbro|slp
+|move|p1a: Snorlax|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|191\/393
+|
+|turn|52
+|J|Conflict
+|choice|move 1|move 1
+|
+|move|p2a: Slowbro|Psychic|p1a: Snorlax
+|-damage|p1a: Snorlax|404\/523 par
+|cant|p1a: Snorlax|par
+|
+|turn|53
+|c|★Ciele|should have crit imo
+|choice|switch 2|move 1
+|
+|switch|p1a: Lapras|Lapras|463\/463
+|move|p2a: Slowbro|Psychic|p1a: Lapras
+|-damage|p1a: Lapras|373\/463
+|
+|turn|54
+|choice|move 4|switch 3
+|
+|switch|p2a: Chansey|Chansey|703\/703 par
+|move|p1a: Lapras|Confuse Ray|p2a: Chansey
+|-start|p2a: Chansey|confusion
+|
+|turn|55
+|choice|move 3|switch 3
+|
+|switch|p2a: Slowbro|Slowbro|191\/393
+|move|p1a: Lapras|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|136\/393
+|
+|turn|56
+|choice|move 2|switch 3
+|
+|switch|p2a: Chansey|Chansey|703\/703 par
+|move|p1a: Lapras|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|638\/703 par
+|
+|turn|57
+|choice|switch 2|switch 3
+|
+|switch|p1a: Snorlax|Snorlax|404\/523 par
+|switch|p2a: Slowbro|Slowbro|136\/393
+|
+|turn|58
+|c|★Ciele|ugh
+|c|★Ciele|I really wanted to tbolt
+|c|★Ciele|wasn't brave enough
+|c|★Dice|u are not
+|choice|move 1|move 1
+|
+|move|p2a: Slowbro|Psychic|p1a: Snorlax
+|-damage|p1a: Snorlax|275\/523 par
+|-unboost|p1a: Snorlax|spd|1
+|-unboost|p1a: Snorlax|spa|1
+|move|p1a: Snorlax|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|30\/393
+|
+|turn|59
+|c|★Dice|minus speed
+|c|★Dice|yn
+|c|★Ciele|y
+|choice|switch 4|move 4
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|-heal|p2a: Slowbro|393\/393 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|
+|turn|60
+|choice|move 1|switch 3
+|
+|switch|p2a: Chansey|Chansey|638\/703 par
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|562\/703 par
+|
+|turn|61
+|choice|switch 4|switch 4
+|
+|switch|p1a: Snorlax|Snorlax|275\/523 par
+|switch|p2a: Rhydon|Rhydon|112\/413
+|
+|turn|62
+|choice|switch 2|move 3
+|
+|switch|p1a: Lapras|Lapras|373\/463
+|move|p2a: Rhydon|Earthquake|p1a: Lapras
+|-damage|p1a: Lapras|207\/463
+|
+|turn|63
+|choice|move 1|switch 4
+|
+|switch|p2a: Chansey|Chansey|562\/703 par
+|move|p1a: Lapras|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|419\/703 par
+|
+|turn|64
+|choice|move 4|move 3
+|
+|move|p1a: Lapras|Confuse Ray|p2a: Chansey
+|-start|p2a: Chansey|confusion
+|-activate|p2a: Chansey|confusion
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703 par
+|
+|turn|65
+|L|Ary
+|choice|move 3|move 4
+|
+|move|p1a: Lapras|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|549\/703 par
+|-activate|p2a: Chansey|confusion
+|-damage|p2a: Chansey|514\/703 par|[from] confusion
+|
+|turn|66
+|choice|switch 2|move 4
+|
+|switch|p1a: Snorlax|Snorlax|275\/523 par
+|-activate|p2a: Chansey|confusion
+|-damage|p2a: Chansey|479\/703 par|[from] confusion
+|
+|turn|67
+|c|★Dice|hax
+|choice|switch 2|switch 2
+|
+|switch|p2a: Dragonite|Dragonite|385\/385
+|switch|p1a: Lapras|Lapras|207\/463
+|
+|turn|68
+|c|★Ciele|o_o
+|c|★Ciele|I actually didn't expect tauros
+|c|★Ciele|but didn't see this coming
+|c|★Dice|o_o
+|choice|move 1|move 2
+|
+|move|p2a: Dragonite|Wrap|p1a: Lapras
+|-crit|p1a: Lapras
+|-damage|p1a: Lapras|173\/463
+|-activate|p1a: Lapras|move: Wrap|[of] p2a: Dragonite
+|cant|p1a: Lapras|partiallytrapped
+|
+|turn|69
+|choice|switch 4|move 2
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Dragonite|Wrap|p1a: Chansey
+|-damage|p1a: Chansey|666\/703
+|-activate|p1a: Chansey|move: Wrap|[of] p2a: Dragonite
+|
+|turn|70
+|choice|move 3|switch 2
+|
+|switch|p2a: Chansey|Chansey|479\/703 par
+|cant|p1a: Chansey|partiallytrapped
+|
+|-end|p1a: Chansey|Wrap|[partiallytrapped]
+|turn|71
+|c|+Alexander|dnite is rly rude
+|choice|switch 2|move 2
+|
+|switch|p1a: Snorlax|Snorlax|275\/523 par
+|move|p2a: Chansey|Seismic Toss|p1a: Snorlax
+|-damage|p1a: Snorlax|175\/523 par
+|
+|turn|72
+|c|★Ciele|ban wrap.
+|choice|move 1|switch 5
+|
+|switch|p2a: Gengar|Gengar|323\/323 slp
+|move|p1a: Snorlax|Body Slam|p2a: Gengar
+|-immune|p2a: Gengar|[msg]
+|
+|turn|73
+|choice|move 2|switch 2
+|
+|switch|p2a: Dragonite|Dragonite|385\/385
+|move|p1a: Snorlax|Earthquake|p2a: Dragonite
+|-immune|p2a: Dragonite|[msg]
+|
+|turn|74
+|c|★Ciele|I need less speed
+|choice|switch 2|move 2
+|
+|switch|p1a: Chansey|Chansey|666\/703
+|move|p2a: Dragonite|Wrap|p1a: Chansey
+|-damage|p1a: Chansey|628\/703
+|-activate|p1a: Chansey|move: Wrap|[of] p2a: Dragonite
+|
+|turn|75
+|choice|move 3|switch 5
+|
+|switch|p2a: Chansey|Chansey|479\/703 par
+|cant|p1a: Chansey|partiallytrapped
+|
+|-end|p1a: Chansey|Wrap|[partiallytrapped]
+|turn|76
+|choice|switch 2|move 2
+|
+|switch|p1a: Snorlax|Snorlax|175\/523 par
+|move|p2a: Chansey|Seismic Toss|p1a: Snorlax
+|-damage|p1a: Snorlax|75\/523 par
+|
+|turn|77
+|choice|move 2|move 2
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|choice|switch 4|
+|
+|switch|p1a: Lapras|Lapras|173\/463
+|turn|78
+|choice|move 4|move 1
+|
+|move|p1a: Lapras|Confuse Ray|p2a: Chansey
+|-start|p2a: Chansey|confusion
+|-activate|p2a: Chansey|confusion
+|move|p2a: Chansey|Sing|p1a: Lapras|[miss]
+|-miss|p2a: Chansey
+|
+|turn|79
+|choice|move 3|move 1
+|
+|move|p1a: Lapras|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|307\/703 par
+|-activate|p2a: Chansey|confusion
+|move|p2a: Chansey|Sing|p1a: Lapras|[miss]
+|-miss|p2a: Chansey
+|
+|turn|80
+|choice|move 3|move 1
+|
+|move|p1a: Lapras|Body Slam|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|choice||switch 5
+|
+|switch|p2a: Dragonite|Dragonite|385\/385
+|turn|81
+|c|★Ciele|I wonder how much luck tauros needs
+|c|★Ciele|maybe just blizzard crit\/freeze
+|choice|move 1|move 2
+|
+|move|p2a: Dragonite|Wrap|p1a: Lapras|[miss]
+|-miss|p2a: Dragonite
+|move|p1a: Lapras|Blizzard|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|c|★Dice|dam
+|c|★Dice|gg
+|-message|Dice forfeited.
+|
+|win|Ciele

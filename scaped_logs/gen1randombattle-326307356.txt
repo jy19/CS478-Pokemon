@@ -1,0 +1,232 @@
+﻿|j|beMypokeBitch
+|j|Dervodel2
+|player|p1|beMypokeBitch|25
+|player|p2|Dervodel2|238
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|11921,60941,39831,34399
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Weedle|Weedle, L99|280\/280
+|switch|p2a: Primeape|Primeape, L90|300\/300
+|turn|1
+|choice|move 2|move 3
+|
+|move|p2a: Primeape|Body Slam|p1a: Weedle
+|-damage|p1a: Weedle|175\/280
+|move|p1a: Weedle|String Shot|p2a: Primeape
+|-unboost|p2a: Primeape|spe|1
+|
+|turn|2
+|choice|move 1|move 4
+|
+|move|p1a: Weedle|Poison Sting|p2a: Primeape
+|-damage|p2a: Primeape|283\/300
+|move|p2a: Primeape|Rock Slide|p1a: Weedle
+|-supereffective|p1a: Weedle
+|-damage|p1a: Weedle|0 fnt
+|faint|p1a: Weedle
+|choice|switch 4|
+|
+|switch|p1a: Alakazam|Alakazam, L79|249\/249
+|turn|3
+|choice|move 1|switch 2
+|
+|switch|p2a: Clefable|Clefable, L85|335\/335
+|move|p1a: Alakazam|Psychic|p2a: Clefable
+|-damage|p2a: Clefable|237\/335
+|-unboost|p2a: Clefable|spd|1
+|-unboost|p2a: Clefable|spa|1
+|
+|turn|4
+|choice|move 1|move 3
+|
+|move|p1a: Alakazam|Psychic|p2a: Clefable
+|-damage|p2a: Clefable|71\/335
+|move|p2a: Clefable|Hyper Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|42\/249
+|
+|turn|5
+|-mustrecharge|p2a: Clefable
+|-mustrecharge|p2a: Clefable
+|choice|move 2|move 1
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|166\/249
+|cant|p2a: Clefable|recharge
+|
+|turn|6
+|choice|move 1|switch 5
+|
+|switch|p2a: Electrode|Electrode, L90|291\/291
+|move|p1a: Alakazam|Psychic|p2a: Electrode
+|-damage|p2a: Electrode|192\/291
+|-unboost|p2a: Electrode|spd|1
+|-unboost|p2a: Electrode|spa|1
+|
+|turn|7
+|choice|switch 2|move 3
+|
+|switch|p1a: Golem|Golem, L79|288\/288
+|move|p2a: Electrode|Thunder Wave|p1a: Golem
+|-immune|p1a: Golem|[msg]
+|
+|turn|8
+|choice|move 3|switch 6
+|
+|switch|p2a: Dragonite|Dragonite, L85|328\/328
+|move|p1a: Golem|Earthquake|p2a: Dragonite
+|-immune|p2a: Dragonite|[msg]
+|
+|turn|9
+|choice|switch 3|move 1
+|
+|switch|p1a: Starmie|Starmie, L79|257\/257
+|move|p2a: Dragonite|Substitute|p2a: Dragonite
+|-start|p2a: Dragonite|Substitute
+|-damage|p2a: Dragonite|246\/328
+|
+|turn|10
+|choice|move 3|move 4
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Dragonite
+|-activate|p2a: Dragonite|Substitute|[damage]
+|move|p2a: Dragonite|Body Slam|p1a: Starmie
+|-crit|p1a: Starmie
+|-damage|p1a: Starmie|93\/257
+|-status|p1a: Starmie|par
+|
+|turn|11
+|c|★beMypokeBitch|LOL
+|choice|move 4|move 4
+|
+|move|p2a: Dragonite|Body Slam|p1a: Starmie
+|-crit|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|choice|switch 6|
+|
+|switch|p1a: Snorlax|Snorlax, L79|415\/415
+|turn|12
+|choice|move 4|move 4
+|
+|move|p2a: Dragonite|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|323\/415
+|move|p1a: Snorlax|Body Slam|p2a: Dragonite
+|-end|p2a: Dragonite|Substitute
+|
+|turn|13
+|choice|move 2|switch 5
+|
+|switch|p2a: Clefable|Clefable, L85|71\/335
+|move|p1a: Snorlax|Blizzard|p2a: Clefable
+|-damage|p2a: Clefable|13\/335
+|
+|turn|14
+|choice|move 4|move 2
+|
+|move|p2a: Clefable|Blizzard|p1a: Snorlax
+|-damage|p1a: Snorlax|220\/415
+|move|p1a: Snorlax|Body Slam|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|choice||switch 2
+|
+|switch|p2a: Primeape|Primeape, L90|283\/300
+|turn|15
+|choice|move 4|move 3
+|
+|move|p2a: Primeape|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|125\/415
+|move|p1a: Snorlax|Body Slam|p2a: Primeape
+|-damage|p2a: Primeape|189\/300
+|
+|turn|16
+|choice|move 4|move 2
+|
+|move|p2a: Primeape|Submission|p1a: Snorlax|[miss]
+|-miss|p2a: Primeape
+|move|p1a: Snorlax|Body Slam|p2a: Primeape
+|-damage|p2a: Primeape|82\/300
+|
+|turn|17
+|choice|move 4|move 2
+|
+|move|p2a: Primeape|Submission|p1a: Snorlax
+|-supereffective|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|-damage|p2a: Primeape|51\/300|[from] recoil|[of] p1a: Snorlax
+|faint|p1a: Snorlax
+|choice|switch 2|
+|
+|switch|p1a: Alakazam|Alakazam, L79|166\/249
+|turn|18
+|choice|move 1|move 3
+|
+|move|p1a: Alakazam|Psychic|p2a: Primeape
+|-supereffective|p2a: Primeape
+|-damage|p2a: Primeape|0 fnt
+|faint|p2a: Primeape
+|choice||switch 3
+|
+|switch|p2a: Dugtrio|Dugtrio, L85|233\/233
+|turn|19
+|choice|switch 5|move 3
+|
+|switch|p1a: Lapras|Lapras, L79|367\/367
+|move|p2a: Dugtrio|Slash|p1a: Lapras
+|-crit|p1a: Lapras
+|-damage|p1a: Lapras|270\/367
+|
+|turn|20
+|choice|move 2|switch 6
+|
+|switch|p2a: Electrode|Electrode, L90|192\/291
+|move|p1a: Lapras|Blizzard|p2a: Electrode
+|-damage|p2a: Electrode|81\/291
+|
+|turn|21
+|choice|move 2|move 4
+|
+|move|p2a: Electrode|Thunder|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|18\/367
+|-status|p1a: Lapras|par
+|move|p1a: Lapras|Blizzard|p2a: Electrode
+|-damage|p2a: Electrode|0 fnt
+|faint|p2a: Electrode
+|choice||switch 6
+|
+|switch|p2a: Dugtrio|Dugtrio, L85|233\/233
+|turn|22
+|choice|move 2|move 1
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|choice|switch 3|
+|
+|switch|p1a: Golem|Golem, L79|288\/288
+|turn|23
+|choice|move 1|move 1
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|114\/288
+|move|p1a: Golem|Rock Slide|p2a: Dugtrio|[miss]
+|-miss|p1a: Golem
+|
+|turn|24
+|-message|beMypokeBitch forfeited.
+|
+|win|Dervodel2
+|player|p1
+|player|p2
+|l|beMypokeBitch
+|raw|beMypokeBitch's rating: 1400 &rarr; <strong>1376<\/strong><br \/>(-24 for losing)
+|raw|Dervodel2's rating: 1332 &rarr; <strong>1356<\/strong><br \/>(+24 for winning)

@@ -1,0 +1,218 @@
+﻿|j|pkthis
+|j|Dervodel2
+|player|p1|pkthis|161
+|player|p2|Dervodel2|238
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|37357,34251,10079,2465
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Dragonite|Dragonite, L85|328\/328
+|switch|p2a: Nidoqueen|Nidoqueen, L85|327\/327
+|turn|1
+|choice|move 4|move 4
+|
+|move|p1a: Dragonite|Ice Beam|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|184\/327
+|move|p2a: Nidoqueen|Blizzard|p1a: Dragonite|[miss]
+|-miss|p2a: Nidoqueen
+|
+|turn|2
+|choice|move 4|move 4
+|
+|move|p1a: Dragonite|Ice Beam|p2a: Nidoqueen
+|-crit|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|0 fnt
+|faint|p2a: Nidoqueen
+|c|★Dervodel2|you ppl
+|choice||switch 5
+|
+|switch|p2a: Zapdos|Zapdos, L79|304\/304
+|turn|3
+|choice|move 4|move 4
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Dragonite
+|-damage|p1a: Dragonite|240\/328
+|move|p1a: Dragonite|Ice Beam|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|187\/304
+|
+|turn|4
+|choice|move 4|move 2
+|
+|move|p2a: Zapdos|Thunder Wave|p1a: Dragonite
+|-status|p1a: Dragonite|par
+|move|p1a: Dragonite|Ice Beam|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|76\/304
+|
+|turn|5
+|choice|move 4|move 4
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Dragonite
+|-damage|p1a: Dragonite|152\/328 par
+|move|p1a: Dragonite|Ice Beam|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|choice||switch 3
+|
+|switch|p2a: Articuno|Articuno, L79|304\/304
+|turn|6
+|choice|move 2|move 1
+|
+|move|p2a: Articuno|Ice Beam|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|choice|switch 2|
+|
+|switch|p1a: Jolteon|Jolteon, L79|265\/265
+|turn|7
+|choice|move 1|switch 2
+|
+|switch|p2a: Kakuna|Kakuna, L99|290\/290
+|move|p1a: Jolteon|Thunderbolt|p2a: Kakuna
+|-damage|p2a: Kakuna|144\/290
+|
+|turn|8
+|choice|move 1|move 1
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Kakuna
+|-damage|p2a: Kakuna|0 fnt
+|faint|p2a: Kakuna
+|choice||switch 6
+|
+|switch|p2a: Snorlax|Snorlax, L79|415\/415
+|turn|9
+|choice|move 1|move 1
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Snorlax
+|-damage|p2a: Snorlax|299\/415
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|
+|turn|10
+|choice|move 1|move 1
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Snorlax
+|-damage|p2a: Snorlax|239\/415
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|
+|turn|11
+|choice|move 1|move 2
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Snorlax
+|-damage|p2a: Snorlax|197\/415
+|move|p2a: Snorlax|Ice Beam|p1a: Jolteon
+|-damage|p1a: Jolteon|150\/265
+|
+|turn|12
+|choice|move 1|move 3
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Snorlax
+|-damage|p2a: Snorlax|155\/415
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp
+|-heal|p2a: Snorlax|415\/415 slp|[silent]
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|
+|turn|13
+|choice|switch 6|move 1
+|
+|switch|p1a: Articuno|Articuno, L79|304\/304
+|cant|p2a: Snorlax|slp
+|
+|turn|14
+|choice|move 3|move 1
+|
+|move|p1a: Articuno|Blizzard|p2a: Snorlax
+|-damage|p2a: Snorlax|358\/415 slp
+|-curestatus|p2a: Snorlax|slp
+|
+|turn|15
+|choice|move 2|move 4
+|
+|move|p1a: Articuno|Reflect|p1a: Articuno
+|-start|p1a: Articuno|Reflect
+|move|p2a: Snorlax|Thunderbolt|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|59\/304
+|
+|turn|16
+|choice|switch 3|move 4
+|
+|switch|p1a: Abra|Abra, L96|243\/243
+|move|p2a: Snorlax|Thunderbolt|p1a: Abra
+|-damage|p1a: Abra|129\/243
+|
+|turn|17
+|choice|move 1|move 1
+|
+|move|p1a: Abra|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|
+|turn|18
+|choice|move 4|move 2
+|
+|move|p1a: Abra|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|316\/415 par
+|cant|p2a: Snorlax|par
+|
+|turn|19
+|choice|move 4|move 2
+|
+|move|p1a: Abra|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|274\/415 par
+|move|p2a: Snorlax|Ice Beam|p1a: Abra
+|-crit|p1a: Abra
+|-damage|p1a: Abra|54\/243
+|
+|turn|20
+|choice|move 4|move 2
+|
+|move|p1a: Abra|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|228\/415 par
+|move|p2a: Snorlax|Ice Beam|p1a: Abra
+|-damage|p1a: Abra|0 fnt
+|faint|p1a: Abra
+|choice|switch 4|
+|
+|switch|p1a: Beedrill|Beedrill, L90|300\/300
+|turn|21
+|choice|move 1|move 2
+|
+|move|p1a: Beedrill|Swords Dance|p1a: Beedrill
+|-boost|p1a: Beedrill|atk|2
+|move|p2a: Snorlax|Ice Beam|p1a: Beedrill
+|-damage|p1a: Beedrill|56\/300
+|
+|turn|22
+|choice|move 4|move 2
+|
+|move|p1a: Beedrill|Hyper Beam|p2a: Snorlax|[miss]
+|-miss|p1a: Beedrill
+|move|p2a: Snorlax|Ice Beam|p1a: Beedrill
+|-damage|p1a: Beedrill|0 fnt
+|faint|p1a: Beedrill
+|-message|pkthis forfeited.
+|l|pkthis
+|
+|win|Dervodel2
+|player|p1
+|raw|pkthis's rating: 1214 &rarr; <strong>1195<\/strong><br \/>(-19 for losing)
+|raw|Dervodel2's rating: 1299 &rarr; <strong>1318<\/strong><br \/>(+19 for winning)

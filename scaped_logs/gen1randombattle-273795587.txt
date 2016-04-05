@@ -1,0 +1,384 @@
+﻿|join|Terris
+|join|librarynoob
+|player|p1|Terris|211
+|player|p2|librarynoob|169
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Nidoqueen|Nidoqueen, L85|327\/327
+|switch|p2a: Tangela|Tangela, L85|284\/284
+|turn|1
+|
+|move|p1a: Nidoqueen|Blizzard|p2a: Tangela
+|-supereffective|p2a: Tangela
+|-damage|p2a: Tangela|157\/284
+|move|p2a: Tangela|Stun Spore|p1a: Nidoqueen
+|-status|p1a: Nidoqueen|par
+|
+|turn|2
+|
+|switch|p2a: Starmie|Starmie, L79|257\/257
+|move|p1a: Nidoqueen|Blizzard|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|219\/257
+|
+|turn|3
+|
+|move|p2a: Starmie|Blizzard|p1a: Nidoqueen
+|-supereffective|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|169\/327 par
+|move|p1a: Nidoqueen|Thunder|p2a: Starmie|[miss]
+|-miss|p1a: Nidoqueen
+|
+|turn|4
+|
+|move|p2a: Starmie|Blizzard|p1a: Nidoqueen
+|-supereffective|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|0 fnt
+|faint|p1a: Nidoqueen
+|
+|switch|p1a: Magneton|Magneton, L90|273\/273
+|turn|5
+|
+|switch|p2a: Tangela|Tangela, L85|157\/284
+|move|p1a: Magneton|Thunder Wave|p2a: Tangela
+|-status|p2a: Tangela|par
+|
+|turn|6
+|
+|switch|p1a: Eevee|Eevee, L96|300\/300
+|move|p2a: Tangela|Stun Spore|p1a: Eevee
+|-status|p1a: Eevee|par
+|
+|turn|7
+|
+|cant|p1a: Eevee|par
+|move|p2a: Tangela|Growth|p2a: Tangela
+|-boost|p2a: Tangela|spa|1
+|-boost|p2a: Tangela|spd|1
+|
+|turn|8
+|
+|move|p2a: Tangela|Growth|p2a: Tangela
+|-boost|p2a: Tangela|spa|1
+|-boost|p2a: Tangela|spd|1
+|move|p1a: Eevee|Body Slam|p2a: Tangela
+|-damage|p2a: Tangela|87\/284 par
+|
+|turn|9
+|
+|move|p2a: Tangela|Mega Drain|p1a: Eevee
+|-damage|p1a: Eevee|198\/300 par
+|-heal|p2a: Tangela|138\/284 par|[from] drain|[of] p1a: Eevee
+|move|p1a: Eevee|Double-Edge|p2a: Tangela
+|-damage|p2a: Tangela|55\/284 par
+|-damage|p1a: Eevee|178\/300 par|[from] recoil|[of] p2a: Tangela
+|
+|turn|10
+|
+|cant|p2a: Tangela|par
+|cant|p1a: Eevee|par
+|
+|turn|11
+|
+|cant|p2a: Tangela|par
+|move|p1a: Eevee|Double-Edge|p2a: Tangela
+|-damage|p2a: Tangela|0 fnt
+|-damage|p1a: Eevee|165\/300 par|[from] recoil|[of] p2a: Tangela
+|faint|p2a: Tangela
+|
+|switch|p2a: Starmie|Starmie, L79|219\/257
+|turn|12
+|
+|move|p2a: Starmie|Blizzard|p1a: Eevee
+|-damage|p1a: Eevee|81\/300 par
+|move|p1a: Eevee|Toxic|p2a: Starmie
+|-status|p2a: Starmie|tox
+|
+|turn|13
+|
+|move|p2a: Starmie|Blizzard|p1a: Eevee
+|-damage|p1a: Eevee|5\/300 par
+|-damage|p2a: Starmie|203\/257 tox|[from] tox|[of] p1a: Eevee
+|cant|p1a: Eevee|par
+|
+|turn|14
+|
+|move|p2a: Starmie|Surf|p1a: Eevee
+|-damage|p1a: Eevee|0 fnt
+|faint|p1a: Eevee
+|
+|switch|p1a: Magneton|Magneton, L90|273\/273
+|turn|15
+|
+|switch|p2a: Weedle|Weedle, L99|280\/280
+|move|p1a: Magneton|Mimic|p2a: Weedle
+|-start|p1a: Magneton|Mimic|String Shot
+|
+|turn|16
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Weedle
+|-damage|p2a: Weedle|53\/280
+|move|p2a: Weedle|String Shot|p1a: Magneton
+|-unboost|p1a: Magneton|spe|1
+|
+|turn|17
+|
+|move|p2a: Weedle|Poison Sting|p1a: Magneton
+|-damage|p1a: Magneton|261\/273
+|move|p1a: Magneton|Thunderbolt|p2a: Weedle
+|-crit|p2a: Weedle
+|-damage|p2a: Weedle|0 fnt
+|faint|p2a: Weedle
+|
+|switch|p2a: Chansey|Chansey, L79|557\/557
+|turn|18
+|
+|switch|p1a: Kangaskhan|Kangaskhan, L85|352\/352
+|move|p2a: Chansey|Thunder Wave|p1a: Kangaskhan
+|-status|p1a: Kangaskhan|par
+|
+|turn|19
+|
+|switch|p2a: Zapdos|Zapdos, L79|304\/304
+|move|p1a: Kangaskhan|Body Slam|p2a: Zapdos
+|-damage|p2a: Zapdos|212\/304
+|
+|turn|20
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|184\/352 par
+|move|p1a: Kangaskhan|Body Slam|p2a: Zapdos
+|-damage|p2a: Zapdos|112\/304
+|
+|turn|21
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|31\/352 par
+|move|p1a: Kangaskhan|Hyper Beam|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|switch|p2a: Starmie|Starmie, L79|203\/257 tox
+|-status|p2a: Starmie|psn
+|turn|22
+|
+|move|p2a: Starmie|Surf|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|0 fnt
+|faint|p1a: Kangaskhan
+|
+|switch|p1a: Magneton|Magneton, L90|261\/273
+|turn|23
+|
+|switch|p2a: Chansey|Chansey, L79|557\/557
+|move|p1a: Magneton|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|439\/557
+|
+|turn|24
+|
+|move|p1a: Magneton|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Magneton
+|-status|p1a: Magneton|par
+|
+|turn|25
+|
+|move|p1a: Magneton|Double-Edge|p2a: Chansey
+|-damage|p2a: Chansey|272\/557 par
+|-damage|p1a: Magneton|220\/273 par|[from] recoil|[of] p2a: Chansey
+|move|p2a: Chansey|Reflect|p2a: Chansey
+|-start|p2a: Chansey|Reflect
+|
+|turn|26
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|157\/557 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|435\/557 par
+|
+|turn|27
+|
+|move|p1a: Magneton|Mimic|p2a: Chansey
+|-start|p1a: Magneton|Mimic|Thunder Wave
+|move|p2a: Chansey|Counter|p1a: Magneton
+|-fail|p2a: Chansey
+|
+|turn|28
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|312\/557 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|557\/557 par
+|
+|turn|29
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|422\/557 par
+|move|p2a: Chansey|Counter|p1a: Magneton
+|-fail|p2a: Chansey
+|
+|turn|30
+|
+|cant|p1a: Magneton|par
+|cant|p2a: Chansey|par
+|
+|turn|31
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|294\/557 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|557\/557 par
+|
+|turn|32
+|
+|switch|p2a: Primeape|Primeape, L90|300\/300
+|move|p1a: Magneton|Thunder Wave|p2a: Primeape
+|-status|p2a: Primeape|par
+|
+|turn|33
+|
+|switch|p1a: Dragonite|Dragonite, L85|328\/328
+|move|p2a: Primeape|Mega Kick|p1a: Dragonite
+|-damage|p1a: Dragonite|230\/328
+|
+|turn|34
+|
+|switch|p2a: Chansey|Chansey, L79|557\/557 par
+|move|p1a: Dragonite|Substitute|p1a: Dragonite
+|-start|p1a: Dragonite|Substitute
+|-damage|p1a: Dragonite|148\/328
+|
+|turn|35
+|
+|move|p1a: Dragonite|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|351\/557 par
+|move|p2a: Chansey|Thunder Wave|p1a: Dragonite
+|-status|p1a: Dragonite|par
+|
+|turn|36
+|
+|move|p1a: Dragonite|Agility|p1a: Dragonite
+|-boost|p1a: Dragonite|spe|2
+|move|p2a: Chansey|Counter|p1a: Dragonite
+|-fail|p2a: Chansey
+|
+|turn|37
+|
+|move|p1a: Dragonite|Body Slam|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|switch|p2a: Starmie|Starmie, L79|203\/257 psn
+|turn|38
+|
+|cant|p1a: Dragonite|par
+|move|p2a: Starmie|Blizzard|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-end|p1a: Dragonite|Substitute
+|-damage|p2a: Starmie|187\/257 psn|[from] psn|[of] p1a: Dragonite
+|
+|turn|39
+|
+|move|p1a: Dragonite|Hyper Beam|p2a: Starmie|[miss]
+|-miss|p1a: Dragonite
+|move|p2a: Starmie|Blizzard|p1a: Dragonite|[miss]
+|-miss|p2a: Starmie
+|-damage|p2a: Starmie|171\/257 psn|[from] psn|[of] p1a: Dragonite
+|
+|turn|40
+|
+|move|p1a: Dragonite|Hyper Beam|p2a: Starmie
+|-damage|p2a: Starmie|16\/257 psn
+|move|p2a: Starmie|Blizzard|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|switch|p1a: Seadra|Seadra, L90|282\/282
+|turn|41
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|144\/257 psn
+|-damage|p2a: Starmie|128\/257 psn|[from] psn
+|move|p1a: Seadra|Surf|p2a: Starmie
+|-crit|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|17\/257 psn
+|
+|turn|42
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|145\/257 psn
+|-damage|p2a: Starmie|129\/257 psn|[from] psn
+|move|p1a: Seadra|Smokescreen|p2a: Starmie
+|-unboost|p2a: Starmie|accuracy|1
+|
+|turn|43
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|257\/257 psn
+|-damage|p2a: Starmie|241\/257 psn|[from] psn
+|move|p1a: Seadra|Smokescreen|p2a: Starmie
+|-unboost|p2a: Starmie|accuracy|1
+|
+|turn|44
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Seadra
+|-supereffective|p1a: Seadra
+|-damage|p1a: Seadra|182\/282
+|-damage|p2a: Starmie|225\/257 psn|[from] psn|[of] p1a: Seadra
+|move|p1a: Seadra|Smokescreen|p2a: Starmie
+|-unboost|p2a: Starmie|accuracy|1
+|
+|turn|45
+|
+|switch|p1a: Magneton|Magneton, L90|220\/273 par
+|move|p2a: Starmie|Thunderbolt|p1a: Magneton|[miss]
+|-miss|p2a: Starmie
+|-damage|p2a: Starmie|209\/257 psn|[from] psn|[of] p1a: Magneton
+|
+|turn|46
+|
+|switch|p2a: Primeape|Primeape, L90|300\/300 par
+|move|p1a: Magneton|Mimic|p2a: Primeape
+|-start|p1a: Magneton|Mimic|Submission
+|
+|turn|47
+|
+|cant|p2a: Primeape|par
+|move|p1a: Magneton|Thunderbolt|p2a: Primeape
+|-damage|p2a: Primeape|135\/300 par
+|
+|turn|48
+|
+|move|p2a: Primeape|Hyper Beam|p1a: Magneton
+|-damage|p1a: Magneton|105\/273 par
+|move|p1a: Magneton|Thunderbolt|p2a: Primeape
+|-damage|p2a: Primeape|0 fnt
+|faint|p2a: Primeape
+|
+|switch|p2a: Starmie|Starmie, L79|209\/257 psn
+|turn|49
+|
+|move|p2a: Starmie|Blizzard|p1a: Magneton
+|-damage|p1a: Magneton|51\/273 par
+|-damage|p2a: Starmie|193\/257 psn|[from] psn|[of] p1a: Magneton
+|move|p1a: Magneton|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|win|Terris
+|raw|Terris's rating: 1310 &rarr; <strong>1331<\/strong><br \/>(+21 for winning)
+|raw|librarynoob's rating: 1326 &rarr; <strong>1305<\/strong><br \/>(-21 for losing)
+|c|★Terris|gg
+|leave|librarynoob
+|player|p2

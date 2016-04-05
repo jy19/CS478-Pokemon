@@ -1,0 +1,407 @@
+﻿|join|bloodyloliokachan
+|join|Shayminlover123
+|player|p1|bloodyloliokachan|115
+|player|p2|Shayminlover123|136
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333\/333
+|switch|p2a: Chansey|Chansey|703\/703
+|turn|1
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: Chansey
+|-status|p2a: Chansey|slp
+|cant|p2a: Chansey|slp
+|
+|turn|2
+|
+|switch|p1a: Dragonite|Dragonite|385\/385
+|switch|p2a: Slowbro|Slowbro|393\/393
+|
+|turn|3
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|move|p1a: Dragonite|Wrap|p2a: Gengar
+|-damage|p2a: Gengar|323\/323
+|-activate|p2a: Gengar|move: Wrap|[of] p1a: Dragonite
+|
+|turn|4
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|cant|p2a: Gengar|partiallytrapped
+|
+|-end|p2a: Gengar|Wrap|[partiallytrapped]
+|turn|5
+|chat|Shayminlover123|....
+|chat|Shayminlover123|I didn't know that could happen
+|
+|switch|p2a: Dragonite|Dragonite|385\/385
+|move|p1a: Exeggutor|Psychic|p2a: Dragonite
+|-damage|p2a: Dragonite|268\/385
+|
+|turn|6
+|
+|move|p2a: Dragonite|Wrap|p1a: Exeggutor
+|-damage|p1a: Exeggutor|375\/393
+|-activate|p1a: Exeggutor|move: Wrap|[of] p2a: Dragonite
+|cant|p1a: Exeggutor|partiallytrapped
+|
+|turn|7
+|
+|switch|p1a: Gengar|Gengar|323\/323
+|move|p2a: Dragonite|Wrap|p1a: Gengar
+|-damage|p1a: Gengar|323\/323
+|-activate|p1a: Gengar|move: Wrap|[of] p2a: Dragonite
+|
+|turn|8
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|cant|p1a: Gengar|partiallytrapped
+|
+|-end|p1a: Gengar|Wrap|[partiallytrapped]
+|turn|9
+|
+|switch|p1a: Exeggutor|Exeggutor|375\/393
+|move|p2a: Tauros|Earthquake|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|335\/393
+|
+|turn|10
+|
+|move|p2a: Tauros|Body Slam|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-damage|p1a: Exeggutor|105\/393
+|move|p1a: Exeggutor|Stun Spore|p2a: Tauros|[miss]
+|-miss|p1a: Exeggutor
+|
+|turn|11
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|move|p2a: Tauros|Blizzard|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|285\/323
+|-status|p1a: Starmie|frz
+|
+|turn|12
+|
+|cant|p1a: Starmie|frz
+|move|p2a: Tauros|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|179\/323 frz
+|
+|turn|13
+|
+|cant|p1a: Starmie|frz
+|move|p2a: Tauros|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|74\/323 frz
+|
+|turn|14
+|
+|cant|p1a: Starmie|frz
+|move|p2a: Tauros|Body Slam|p1a: Starmie
+|-crit|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|15
+|
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|256\/353
+|-status|p2a: Tauros|par
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|247\/353
+|
+|turn|16
+|
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|161\/353 par
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|146\/353
+|
+|turn|17
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|
+|switch|p2a: Slowbro|Slowbro|393\/393
+|turn|18
+|
+|move|p1a: Tauros|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|302\/393
+|move|p2a: Slowbro|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|
+|turn|19
+|
+|move|p2a: Slowbro|Surf|p1a: Tauros
+|-damage|p1a: Tauros|14\/353 par
+|move|p1a: Tauros|Hyper Beam|p2a: Slowbro
+|-damage|p2a: Slowbro|133\/393
+|
+|turn|20
+|
+|move|p2a: Slowbro|Surf|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|
+|switch|p1a: Gengar|Gengar|323\/323
+|turn|21
+|
+|switch|p2a: Chansey|Chansey|703\/703 slp
+|move|p1a: Gengar|Thunderbolt|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|540\/703 slp
+|
+|turn|22
+|
+|switch|p1a: Exeggutor|Exeggutor|105\/393
+|cant|p2a: Chansey|slp
+|
+|turn|23
+|
+|move|p1a: Exeggutor|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|420\/703 slp
+|cant|p2a: Chansey|slp
+|
+|turn|24
+|
+|move|p1a: Exeggutor|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|307\/703 slp
+|cant|p2a: Chansey|slp
+|-curestatus|p2a: Chansey|slp
+|
+|turn|25
+|
+|move|p1a: Exeggutor|Explosion|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Gengar|Gengar|323\/323
+|switch|p2a: Dragonite|Dragonite|268\/385
+|turn|26
+|
+|move|p1a: Gengar|Hypnosis|p2a: Dragonite
+|-status|p2a: Dragonite|slp
+|cant|p2a: Dragonite|slp
+|
+|turn|27
+|
+|switch|p1a: Jynx|Jynx|333\/333
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|
+|turn|28
+|
+|switch|p1a: Gengar|Gengar|323\/323
+|move|p2a: Exeggutor|Stun Spore|p1a: Gengar
+|-status|p1a: Gengar|par
+|
+|turn|29
+|
+|switch|p1a: Dragonite|Dragonite|385\/385
+|move|p2a: Exeggutor|Psychic|p1a: Dragonite
+|-damage|p1a: Dragonite|269\/385
+|
+|turn|30
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|move|p1a: Dragonite|Wrap|p2a: Gengar
+|-damage|p2a: Gengar|323\/323
+|-activate|p2a: Gengar|move: Wrap|[of] p1a: Dragonite
+|
+|turn|31
+|
+|switch|p1a: Gengar|Gengar|323\/323 par
+|cant|p2a: Gengar|partiallytrapped
+|
+|-end|p2a: Gengar|Wrap|[partiallytrapped]
+|turn|32
+|
+|move|p2a: Gengar|Thunderbolt|p1a: Gengar
+|-damage|p1a: Gengar|253\/323 par
+|move|p1a: Gengar|Thunderbolt|p2a: Gengar
+|-damage|p2a: Gengar|251\/323
+|-status|p2a: Gengar|par
+|
+|turn|33
+|
+|switch|p1a: Jynx|Jynx|333\/333
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|
+|turn|34
+|
+|move|p1a: Jynx|Blizzard|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|175\/393
+|move|p2a: Exeggutor|Stun Spore|p1a: Jynx
+|-status|p1a: Jynx|par
+|
+|turn|35
+|
+|switch|p2a: Slowbro|Slowbro|133\/393
+|move|p1a: Jynx|Blizzard|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|52\/393
+|
+|turn|36
+|
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|-heal|p2a: Slowbro|393\/393 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|cant|p1a: Jynx|par
+|
+|turn|37
+|
+|cant|p2a: Slowbro|slp
+|move|p1a: Jynx|Reflect|p1a: Jynx
+|
+|turn|38
+|
+|cant|p2a: Slowbro|slp
+|-curestatus|p2a: Slowbro|slp
+|move|p1a: Jynx|Blizzard|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|320\/393
+|
+|turn|39
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|move|p1a: Jynx|Blizzard|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|279\/393
+|
+|turn|40
+|
+|move|p2a: Slowbro|Surf|p1a: Jynx
+|-damage|p1a: Jynx|117\/333 par
+|move|p1a: Jynx|Blizzard|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|241\/393
+|-status|p2a: Slowbro|frz
+|
+|turn|41
+|join|thisguy999
+|
+|switch|p2a: Gengar|Gengar|251\/323 par
+|move|p1a: Jynx|Psychic|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|71\/323 par
+|-unboost|p2a: Gengar|spd|1
+|-unboost|p2a: Gengar|spa|1
+|
+|turn|42
+|
+|move|p2a: Gengar|Thunderbolt|p1a: Jynx
+|-damage|p1a: Jynx|52\/333 par
+|cant|p1a: Jynx|par
+|
+|turn|43
+|
+|cant|p2a: Gengar|par
+|move|p1a: Jynx|Psychic|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|
+|switch|p2a: Exeggutor|Exeggutor|175\/393
+|turn|44
+|
+|move|p2a: Exeggutor|Mega Drain|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|-heal|p2a: Exeggutor|201\/393|[from] drain|[of] p1a: Jynx
+|faint|p1a: Jynx
+|
+|leave|thisguy999
+|
+|switch|p1a: Dragonite|Dragonite|269\/385
+|turn|45
+|
+|move|p1a: Dragonite|Wrap|p2a: Exeggutor
+|-damage|p2a: Exeggutor|184\/393
+|-activate|p2a: Exeggutor|move: Wrap|[of] p1a: Dragonite
+|cant|p2a: Exeggutor|partiallytrapped
+|
+|turn|46
+|
+|move|p1a: Dragonite|Wrap|p2a: Exeggutor
+|-damage|p2a: Exeggutor|167\/393
+|cant|p2a: Exeggutor|partiallytrapped
+|
+|turn|47
+|
+|move|p1a: Dragonite|Wrap|p2a: Exeggutor
+|-damage|p2a: Exeggutor|150\/393
+|cant|p2a: Exeggutor|partiallytrapped
+|
+|turn|48
+|
+|move|p1a: Dragonite|Wrap|p2a: Exeggutor
+|-damage|p2a: Exeggutor|133\/393
+|cant|p2a: Exeggutor|partiallytrapped
+|
+|turn|49
+|
+|move|p1a: Dragonite|Wrap|p2a: Exeggutor
+|-damage|p2a: Exeggutor|116\/393
+|cant|p2a: Exeggutor|partiallytrapped
+|
+|-end|p2a: Exeggutor|Wrap|[partiallytrapped]
+|turn|50
+|
+|switch|p2a: Dragonite|Dragonite|268\/385 slp
+|move|p1a: Dragonite|Hyper Beam|p2a: Dragonite
+|-damage|p2a: Dragonite|129\/385 slp
+|
+|turn|51
+|
+|cant|p1a: Dragonite|recharge
+|cant|p2a: Dragonite|slp
+|
+|turn|52
+|
+|cant|p2a: Dragonite|slp
+|move|p1a: Dragonite|Surf|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|93\/385 slp
+|
+|turn|53
+|
+|move|p1a: Dragonite|Hyper Beam|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|
+|switch|p2a: Exeggutor|Exeggutor|116\/393
+|turn|54
+|
+|move|p1a: Dragonite|Hyper Beam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|-message|Shayminlover123 forfeited.
+|
+|win|bloodyloliokachan
+|raw|Ladder updating...
+|leave|Shayminlover123
+|player|p2
+|raw|bloodyloliokachan's rating: 1245 &rarr; <strong>1259<\/strong><br \/>(+14 for winning)
+|raw|Shayminlover123's rating: 1080 &rarr; <strong>1068<\/strong><br \/>(-12 for losing)

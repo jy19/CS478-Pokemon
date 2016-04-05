@@ -1,0 +1,187 @@
+﻿|j|Judo
+|j|magmarw\/ofireblast
+|player|p1|Judo|70
+|player|p2|magmarw\/ofireblast|125
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Dewgong|Dewgong, L85|100\/100
+|switch|p2a: Arcanine|Arcanine, L85|100\/100
+|turn|1
+|c|★Judo|glhf
+|choice||
+|
+|switch|p2a: Wartortle|Wartortle, L85|100\/100
+|move|p1a: Dewgong|Body Slam|p2a: Wartortle
+|-crit|p2a: Wartortle
+|-damage|p2a: Wartortle|63\/100
+|
+|turn|2
+|c|★magmarw\/ofireblast|thanks
+|choice||
+|
+|move|p1a: Dewgong|Body Slam|p2a: Wartortle
+|-damage|p2a: Wartortle|43\/100
+|-status|p2a: Wartortle|par
+|move|p2a: Wartortle|Body Slam|p1a: Dewgong
+|-damage|p1a: Dewgong|86\/100
+|
+|turn|3
+|choice||
+|
+|move|p1a: Dewgong|Body Slam|p2a: Wartortle
+|-crit|p2a: Wartortle
+|-damage|p2a: Wartortle|4\/100 par
+|cant|p2a: Wartortle|par
+|
+|turn|4
+|choice||
+|
+|move|p1a: Dewgong|Body Slam|p2a: Wartortle
+|-crit|p2a: Wartortle
+|-damage|p2a: Wartortle|0 fnt
+|faint|p2a: Wartortle
+|choice||
+|
+|switch|p2a: Victreebel|Victreebel, L85|100\/100
+|turn|5
+|choice||
+|
+|move|p2a: Victreebel|Razor Leaf|p1a: Dewgong
+|-crit|p1a: Dewgong
+|-supereffective|p1a: Dewgong
+|-damage|p1a: Dewgong|20\/100
+|move|p1a: Dewgong|Blizzard|p2a: Victreebel
+|-supereffective|p2a: Victreebel
+|-damage|p2a: Victreebel|24\/100
+|-status|p2a: Victreebel|frz
+|
+|turn|6
+|choice||
+|
+|switch|p2a: Arcanine|Arcanine, L85|100\/100
+|move|p1a: Dewgong|Body Slam|p2a: Arcanine
+|-damage|p2a: Arcanine|86\/100
+|-status|p2a: Arcanine|par
+|
+|turn|7
+|c|★Judo|ah gen 1... all the hax all the time
+|choice||
+|
+|switch|p2a: Victreebel|Victreebel, L85|24\/100 frz
+|move|p1a: Dewgong|Surf|p2a: Victreebel
+|-resisted|p2a: Victreebel
+|-damage|p2a: Victreebel|8\/100 frz
+|
+|turn|8
+|choice||
+|
+|switch|p1a: Tangela|Tangela, L85|100\/100
+|cant|p2a: Victreebel|frz
+|
+|turn|9
+|choice||
+|
+|switch|p2a: Jynx|Jynx, L79|100\/100
+|move|p1a: Tangela|Growth|p1a: Tangela
+|-boost|p1a: Tangela|spa|1
+|-boost|p1a: Tangela|spd|1
+|
+|turn|10
+|choice||
+|
+|move|p2a: Jynx|Blizzard|p1a: Tangela
+|-supereffective|p1a: Tangela
+|-damage|p1a: Tangela|52\/100
+|move|p1a: Tangela|Sleep Powder|p2a: Jynx
+|-status|p2a: Jynx|slp
+|
+|turn|11
+|choice||
+|
+|-curestatus|p2a: Jynx|slp
+|move|p1a: Tangela|Growth|p1a: Tangela
+|-boost|p1a: Tangela|spa|1
+|-boost|p1a: Tangela|spd|1
+|
+|turn|12
+|choice||
+|
+|move|p2a: Jynx|Lovely Kiss|p1a: Tangela|[miss]
+|-miss|p2a: Jynx
+|move|p1a: Tangela|Sleep Powder|p2a: Jynx
+|-status|p2a: Jynx|slp
+|
+|turn|13
+|choice||
+|
+|cant|p2a: Jynx|slp
+|move|p1a: Tangela|Mega Drain|p2a: Jynx
+|-damage|p2a: Jynx|68\/100 slp
+|-heal|p1a: Tangela|67\/100|[from] drain|[of] p2a: Jynx
+|
+|turn|14
+|choice||
+|
+|cant|p2a: Jynx|slp
+|move|p1a: Tangela|Mega Drain|p2a: Jynx
+|-damage|p2a: Jynx|35\/100 slp
+|-heal|p1a: Tangela|82\/100|[from] drain|[of] p2a: Jynx
+|
+|turn|15
+|choice||
+|
+|switch|p2a: Victreebel|Victreebel, L85|8\/100 frz
+|move|p1a: Tangela|Hyper Beam|p2a: Victreebel
+|-damage|p2a: Victreebel|0 fnt
+|faint|p2a: Victreebel
+|choice||
+|
+|switch|p2a: Mew|Mew, L74|100\/100
+|turn|16
+|choice||
+|
+|switch|p1a: Jynx|Jynx, L79|100\/100
+|move|p2a: Mew|Fissure|p1a: Jynx
+|-immune|p1a: Jynx|[ohko]
+|
+|turn|17
+|choice||
+|
+|move|p1a: Jynx|Blizzard|p2a: Mew
+|-damage|p2a: Mew|60\/100
+|move|p2a: Mew|Thunder Wave|p1a: Jynx
+|-status|p1a: Jynx|par
+|
+|turn|18
+|choice||
+|
+|move|p2a: Mew|Fissure|p1a: Jynx|[miss]
+|-miss|p2a: Mew
+|move|p1a: Jynx|Blizzard|p2a: Mew
+|-crit|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|c|★magmarw\/ofireblast|dhrztsdfrjtsmtr
+|c|★magmarw\/ofireblast|fdbdfcnbfzdndz
+|c|★magmarw\/ofireblast|zdhgfzngfxn
+|c|★magmarw\/ofireblast|nhxfgngfxngfxn
+|c|★magmarw\/ofireblast|nbgfhnxgfnfg
+|c|★magmarw\/ofireblast|fnfxgnsgrn
+|c|★magmarw\/ofireblast|fzgnfxngrsn
+|-message|magmarw\/ofireblast forfeited.
+|
+|win|Judo
+|player|p1
+|player|p2
+|l|magmarw\/ofireblast
+|c|★Judo|welcome to gen 1 B-)
+|raw|Judo's rating: 1337 &rarr; <strong>1359<\/strong><br \/>(+22 for winning)
+|raw|magmarw&#x2f;ofireblast's rating: 1372 &rarr; <strong>1350<\/strong><br \/>(-22 for losing)

@@ -1,0 +1,315 @@
+﻿|join|XianJu
+|join|andreWandres
+|player|p1|XianJu|130
+|player|p2|andreWandres|169
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|29229,27588,1441,36564
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Wartortle|Wartortle, L85|274\/274
+|switch|p2a: Kadabra|Kadabra, L85|242\/242
+|turn|1
+|choice|move 2|switch 4
+|
+|switch|p2a: Dewgong|Dewgong, L85|327\/327
+|move|p1a: Wartortle|Body Slam|p2a: Dewgong
+|-damage|p2a: Dewgong|278\/327
+|-status|p2a: Dewgong|par
+|
+|turn|2
+|choice|move 2|move 3
+|
+|move|p1a: Wartortle|Body Slam|p2a: Dewgong
+|-crit|p2a: Dewgong
+|-damage|p2a: Dewgong|181\/327 par
+|cant|p2a: Dewgong|par
+|
+|turn|3
+|choice|move 2|move 3
+|
+|move|p1a: Wartortle|Body Slam|p2a: Dewgong
+|-damage|p2a: Dewgong|133\/327 par
+|move|p2a: Dewgong|Body Slam|p1a: Wartortle
+|-damage|p1a: Wartortle|221\/274
+|
+|turn|4
+|choice|move 2|move 3
+|
+|move|p1a: Wartortle|Body Slam|p2a: Dewgong
+|-damage|p2a: Dewgong|79\/327 par
+|move|p2a: Dewgong|Body Slam|p1a: Wartortle
+|-damage|p1a: Wartortle|169\/274
+|
+|turn|5
+|choice|move 1|move 3
+|
+|move|p1a: Wartortle|Hydro Pump|p2a: Dewgong
+|-resisted|p2a: Dewgong
+|-damage|p2a: Dewgong|28\/327 par
+|cant|p2a: Dewgong|par
+|
+|turn|6
+|c|★andreWandres|my god..
+|choice|move 2|move 3
+|
+|move|p1a: Wartortle|Body Slam|p2a: Dewgong
+|-damage|p2a: Dewgong|0 fnt
+|faint|p2a: Dewgong
+|choice||switch 3
+|
+|switch|p2a: Zapdos|Zapdos, L79|304\/304
+|turn|7
+|choice|switch 2|move 4
+|
+|switch|p1a: Dratini|Dratini, L96|274\/274
+|move|p2a: Zapdos|Thunderbolt|p1a: Dratini
+|-resisted|p1a: Dratini
+|-damage|p1a: Dratini|207\/274
+|-status|p1a: Dratini|par
+|
+|turn|8
+|choice|move 3|switch 5
+|
+|switch|p2a: Chansey|Chansey, L79|557\/557
+|move|p1a: Dratini|Blizzard|p2a: Chansey|[miss]
+|-miss|p1a: Dratini
+|
+|turn|9
+|choice|move 2|move 2
+|
+|move|p2a: Chansey|Ice Beam|p1a: Dratini
+|-supereffective|p1a: Dratini
+|-damage|p1a: Dratini|55\/274 par
+|move|p1a: Dratini|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|389\/557
+|
+|turn|10
+|choice|switch 5|move 2
+|
+|switch|p1a: Arcanine|Arcanine, L85|327\/327
+|move|p2a: Chansey|Ice Beam|p1a: Arcanine
+|-damage|p1a: Arcanine|262\/327
+|
+|turn|11
+|choice|move 2|move 4
+|
+|move|p1a: Arcanine|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|213\/557
+|move|p2a: Chansey|Thunder Wave|p1a: Arcanine
+|-status|p1a: Arcanine|par
+|
+|turn|12
+|choice|move 1|move 1
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|491\/557
+|move|p1a: Arcanine|Hyper Beam|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|c|★andreWandres|my god..
+|choice||switch 6
+|
+|switch|p2a: Snorlax|Snorlax, L79|415\/415
+|turn|13
+|choice|move 4|move 1
+|
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|move|p1a: Arcanine|Fire Blast|p2a: Snorlax
+|-damage|p2a: Snorlax|341\/415
+|-status|p2a: Snorlax|brn
+|
+|turn|14
+|choice|move 2|move 4
+|
+|move|p2a: Snorlax|Surf|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|59\/327 par
+|-damage|p2a: Snorlax|316\/415 brn|[from] brn|[of] p1a: Arcanine
+|cant|p1a: Arcanine|par
+|
+|turn|15
+|choice|switch 5|move 4
+|
+|switch|p1a: Dratini|Dratini, L96|55\/274 par
+|move|p2a: Snorlax|Surf|p1a: Dratini
+|-resisted|p1a: Dratini
+|-damage|p1a: Dratini|0 fnt
+|faint|p1a: Dratini
+|choice|switch 4|
+|
+|switch|p1a: Hitmonchan|Hitmonchan, L90|273\/273
+|turn|16
+|choice|move 2|move 4
+|
+|move|p1a: Hitmonchan|Submission|p2a: Snorlax
+|-supereffective|p2a: Snorlax
+|-damage|p2a: Snorlax|49\/415 brn
+|-damage|p1a: Hitmonchan|207\/273|[from] recoil|[of] p2a: Snorlax
+|move|p2a: Snorlax|Surf|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|73\/273
+|-damage|p2a: Snorlax|24\/415 brn|[from] brn|[of] p1a: Hitmonchan
+|
+|turn|17
+|choice|move 1|move 3
+|
+|move|p1a: Hitmonchan|Seismic Toss|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|choice||switch 4
+|
+|switch|p2a: Kadabra|Kadabra, L85|242\/242
+|turn|18
+|choice|switch 5|move 1
+|
+|switch|p1a: Arcanine|Arcanine, L85|59\/327 par
+|move|p2a: Kadabra|Psychic|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|choice|switch 3|
+|
+|switch|p1a: Farfetch'd|Farfetch'd, L99|304\/304
+|turn|19
+|choice|move 1|move 3
+|
+|move|p2a: Kadabra|Thunder Wave|p1a: Farfetch'd
+|-status|p1a: Farfetch'd|par
+|cant|p1a: Farfetch'd|par
+|
+|turn|20
+|choice|move 4|move 1
+|
+|move|p2a: Kadabra|Psychic|p1a: Farfetch'd
+|-crit|p1a: Farfetch'd
+|-damage|p1a: Farfetch'd|53\/304 par
+|move|p1a: Farfetch'd|Sand Attack|p2a: Kadabra
+|-unboost|p2a: Kadabra|accuracy|1
+|
+|turn|21
+|choice|move 2|switch 5
+|
+|switch|p2a: Zapdos|Zapdos, L79|304\/304
+|move|p1a: Farfetch'd|Body Slam|p2a: Zapdos
+|-damage|p2a: Zapdos|195\/304
+|-status|p2a: Zapdos|par
+|
+|turn|22
+|c|★andreWandres|my god...
+|choice|move 1|move 1
+|
+|cant|p2a: Zapdos|par
+|move|p1a: Farfetch'd|Slash|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|15\/304 par
+|
+|turn|23
+|choice|move 2|move 4
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Farfetch'd
+|-supereffective|p1a: Farfetch'd
+|-damage|p1a: Farfetch'd|0 fnt
+|faint|p1a: Farfetch'd
+|choice|switch 2|
+|
+|switch|p1a: Wartortle|Wartortle, L85|169\/274
+|turn|24
+|choice|move 2|move 4
+|
+|move|p1a: Wartortle|Body Slam|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|choice||switch 5
+|
+|switch|p2a: Kadabra|Kadabra, L85|242\/242
+|turn|25
+|choice|move 2|move 1
+|
+|move|p2a: Kadabra|Psychic|p1a: Wartortle
+|-damage|p1a: Wartortle|22\/274
+|-unboost|p1a: Wartortle|spd|1
+|-unboost|p1a: Wartortle|spa|1
+|move|p1a: Wartortle|Body Slam|p2a: Kadabra
+|-damage|p2a: Kadabra|159\/242
+|
+|turn|26
+|choice|move 2|move 1
+|
+|move|p2a: Kadabra|Psychic|p1a: Wartortle
+|-damage|p1a: Wartortle|0 fnt
+|faint|p1a: Wartortle
+|choice|switch 6|
+|
+|switch|p1a: Mewtwo|Mewtwo, L68|285\/285
+|turn|27
+|choice|move 2|move 3
+|
+|move|p2a: Kadabra|Thunder Wave|p1a: Mewtwo
+|-status|p1a: Mewtwo|par
+|cant|p1a: Mewtwo|par
+|
+|turn|28
+|choice|move 2|move 4
+|
+|move|p2a: Kadabra|Reflect|p2a: Kadabra
+|-start|p2a: Kadabra|Reflect
+|move|p1a: Mewtwo|Amnesia|p1a: Mewtwo
+|-boost|p1a: Mewtwo|spd|2
+|-boost|p1a: Mewtwo|spa|2
+|
+|turn|29
+|choice|move 2|move 1
+|
+|move|p2a: Kadabra|Psychic|p1a: Mewtwo
+|-resisted|p1a: Mewtwo
+|-damage|p1a: Mewtwo|260\/285 par
+|move|p1a: Mewtwo|Amnesia|p1a: Mewtwo
+|-boost|p1a: Mewtwo|spd|2
+|-boost|p1a: Mewtwo|spa|2
+|
+|turn|30
+|choice|move 3|move 1
+|
+|move|p2a: Kadabra|Psychic|p1a: Mewtwo
+|-resisted|p1a: Mewtwo
+|-damage|p1a: Mewtwo|245\/285 par
+|-unboost|p1a: Mewtwo|spd|1
+|-unboost|p1a: Mewtwo|spa|1
+|move|p1a: Mewtwo|Blizzard|p2a: Kadabra
+|-damage|p2a: Kadabra|8\/242
+|
+|turn|31
+|choice|move 3|move 1
+|
+|move|p2a: Kadabra|Psychic|p1a: Mewtwo
+|-resisted|p1a: Mewtwo
+|-damage|p1a: Mewtwo|228\/285 par
+|move|p1a: Mewtwo|Blizzard|p2a: Kadabra
+|-damage|p2a: Kadabra|0 fnt
+|faint|p2a: Kadabra
+|choice||switch 2
+|
+|switch|p2a: Dugtrio|Dugtrio, L85|233\/233
+|turn|32
+|choice|move 3|move 4
+|
+|move|p2a: Dugtrio|Sand Attack|p1a: Mewtwo
+|-unboost|p1a: Mewtwo|accuracy|1
+|move|p1a: Mewtwo|Blizzard|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|
+|win|XianJu
+|raw|XianJu's rating: 1114 &rarr; <strong>1147<\/strong><br \/>(+33 for winning)
+|raw|andreWandres's rating: 1222 &rarr; <strong>1189<\/strong><br \/>(-33 for losing)
+|leave|andreWandres
+|player|p2

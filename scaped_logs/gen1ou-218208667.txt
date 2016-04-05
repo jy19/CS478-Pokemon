@@ -1,0 +1,274 @@
+﻿|join|markus1000
+|join|Ugly Casanova
+|player|p1|markus1000|20
+|player|p2|Ugly Casanova|102
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Starmie|Starmie|323\/323
+|turn|1
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Alakazam|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|turn|2
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: Chansey|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|
+|turn|3
+|
+|switch|p2a: Slowbro|Slowbro|393\/393
+|move|p1a: Snorlax|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|295\/393
+|
+|turn|4
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|5
+|
+|move|p1a: Exeggutor|Sleep Powder|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|cant|p2a: Slowbro|slp
+|
+|turn|6
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|move|p1a: Exeggutor|Explosion|p2a: Starmie
+|-damage|p2a: Starmie|25\/323
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|turn|7
+|
+|switch|p1a: Rhydon|Rhydon|413\/413
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|
+|turn|8
+|
+|switch|p1a: Snorlax|Snorlax|523\/523 par
+|move|p2a: Exeggutor|Psychic|p1a: Snorlax
+|-damage|p1a: Snorlax|348\/523 par
+|
+|turn|9
+|
+|move|p2a: Exeggutor|Psychic|p1a: Snorlax
+|-damage|p1a: Snorlax|191\/523 par
+|move|p1a: Snorlax|Self-Destruct|p2a: Exeggutor
+|-damage|p2a: Exeggutor|4\/393
+|faint|p1a: Snorlax
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|turn|10
+|
+|switch|p2a: Chansey|Chansey|703\/703 par
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|456\/703 par
+|
+|turn|11
+|
+|switch|p1a: Rhydon|Rhydon|413\/413
+|move|p2a: Chansey|Ice Beam|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|159\/413
+|
+|turn|12
+|
+|switch|p2a: Starmie|Starmie|25\/323
+|move|p1a: Rhydon|Earthquake|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|13
+|
+|switch|p1a: Kingler|Kingler|313\/313
+|move|p2a: Tauros|Blizzard|p1a: Kingler|[miss]
+|-miss|p2a: Tauros
+|
+|turn|14
+|
+|switch|p2a: Exeggutor|Exeggutor|4\/393
+|move|p1a: Kingler|Crabhammer|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Slowbro|Slowbro|295\/393 slp
+|turn|15
+|
+|move|p1a: Kingler|Swords Dance|p1a: Kingler
+|-boost|p1a: Kingler|atk|2
+|cant|p2a: Slowbro|slp
+|
+|turn|16
+|
+|move|p1a: Kingler|Swords Dance|p1a: Kingler
+|-boost|p1a: Kingler|atk|2
+|cant|p2a: Slowbro|slp
+|-curestatus|p2a: Slowbro|slp
+|
+|turn|17
+|
+|move|p1a: Kingler|Hyper Beam|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|turn|18
+|
+|move|p1a: Kingler|Hyper Beam|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|180\/523
+|move|p2a: Snorlax|Counter|p1a: Kingler
+|-damage|p1a: Kingler|0 fnt
+|faint|p1a: Kingler
+|
+|switch|p1a: Jolteon|Jolteon|333\/333
+|turn|19
+|
+|move|p1a: Jolteon|Thunder|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|20
+|
+|move|p1a: Jolteon|Thunder Wave|p2a: Tauros
+|-status|p2a: Tauros|par
+|cant|p2a: Tauros|par
+|
+|turn|21
+|
+|move|p1a: Jolteon|Thunder|p2a: Tauros|[miss]
+|-miss|p1a: Jolteon
+|cant|p2a: Tauros|par
+|
+|turn|22
+|
+|move|p1a: Jolteon|Thunder|p2a: Tauros|[miss]
+|-miss|p1a: Jolteon
+|cant|p2a: Tauros|par
+|
+|turn|23
+|
+|move|p1a: Jolteon|Thunder|p2a: Tauros
+|-damage|p2a: Tauros|179\/353 par
+|move|p2a: Tauros|Earthquake|p1a: Jolteon
+|-supereffective|p1a: Jolteon
+|-damage|p1a: Jolteon|113\/333
+|
+|turn|24
+|
+|move|p1a: Jolteon|Thunder|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|switch|p2a: Chansey|Chansey|456\/703 par
+|turn|25
+|
+|move|p1a: Jolteon|Thunder|p2a: Chansey|[miss]
+|-miss|p1a: Jolteon
+|cant|p2a: Chansey|par
+|
+|turn|26
+|
+|move|p1a: Jolteon|Thunder|p2a: Chansey
+|-damage|p2a: Chansey|312\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|27
+|
+|move|p1a: Jolteon|Thunder|p2a: Chansey
+|-damage|p2a: Chansey|170\/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|521\/703 par
+|
+|turn|28
+|
+|move|p1a: Jolteon|Thunder|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|217\/703 par
+|move|p2a: Chansey|Ice Beam|p1a: Jolteon
+|-damage|p1a: Jolteon|35\/333
+|
+|turn|29
+|
+|move|p1a: Jolteon|Thunder|p2a: Chansey
+|-damage|p2a: Chansey|70\/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|421\/703 par
+|
+|turn|30
+|
+|move|p1a: Jolteon|Thunder|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|128\/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|479\/703 par
+|
+|turn|31
+|
+|move|p1a: Jolteon|Thunder|p2a: Chansey
+|-damage|p2a: Chansey|339\/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|690\/703 par
+|
+|turn|32
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|move|p2a: Chansey|Ice Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|250\/313
+|
+|turn|33
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|567\/703 par
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|move|p2a: Chansey|Ice Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|209\/313
+|
+|turn|34
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|372\/703 par
+|move|p2a: Chansey|Ice Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|167\/313
+|
+|turn|35
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|172\/703 par
+|move|p2a: Chansey|Ice Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|123\/313
+|
+|turn|36
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|win|markus1000
+|raw|Ladder updating...
+|raw|markus1000's rating: 1136 &rarr; <strong>1175<\/strong><br \/>(+39 for winning)
+|raw|Ugly Casanova's rating: 1355 &rarr; <strong>1324<\/strong><br \/>(-31 for losing)

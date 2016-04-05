@@ -1,0 +1,389 @@
+﻿|j|Whoremaster
+|j|LibertarianMaster
+|player|p1|Whoremaster|43
+|player|p2|LibertarianMaster|101
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|seed|578,2525,43925,31420
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Double Pentagram|Starmie|323\/323
+|turn|1
+|j|AMFB_28
+|c|★LibertarianMaster|glhf
+|c|★Whoremaster|u2
+|choice|switch 3|move 1
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Double Pentagram|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|turn|2
+|choice|move 1|switch 2
+|
+|switch|p2a: Rock Hard|Golem|363\/363
+|move|p1a: Chansey|Ice Beam|p2a: Rock Hard
+|-crit|p2a: Rock Hard
+|-supereffective|p2a: Rock Hard
+|-damage|p2a: Rock Hard|0 fnt
+|faint|p2a: Rock Hard
+|choice||switch 6
+|
+|switch|p2a: I'm fat but I fly|Dragonite|385\/385
+|turn|3
+|choice|move 3|move 2
+|
+|move|p2a: I'm fat but I fly|Wrap|p1a: Chansey
+|-damage|p1a: Chansey|662\/703 par
+|-activate|p1a: Chansey|move: Wrap|[of] p2a: I'm fat but I fly
+|cant|p1a: Chansey|partiallytrapped
+|
+|turn|4
+|choice|move 3|move 2
+|
+|move|p2a: I'm fat but I fly|Wrap|p1a: Chansey|[from]Wrap
+|-damage|p1a: Chansey|621\/703 par
+|cant|p1a: Chansey|partiallytrapped
+|
+|turn|5
+|choice|move 3|move 2
+|
+|move|p2a: I'm fat but I fly|Wrap|p1a: Chansey|[from]Wrap
+|-damage|p1a: Chansey|580\/703 par
+|cant|p1a: Chansey|partiallytrapped
+|
+|turn|6
+|choice|move 3|move 2
+|
+|move|p2a: I'm fat but I fly|Wrap|p1a: Chansey|[from]Wrap
+|-damage|p1a: Chansey|539\/703 par
+|cant|p1a: Chansey|partiallytrapped
+|
+|-end|p1a: Chansey|Wrap|[partiallytrapped]
+|turn|7
+|choice|move 3|move 2
+|
+|move|p2a: I'm fat but I fly|Wrap|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|456\/703 par
+|-activate|p1a: Chansey|move: Wrap|[of] p2a: I'm fat but I fly
+|cant|p1a: Chansey|partiallytrapped
+|
+|turn|8
+|choice|switch 4|move 2
+|
+|switch|p1a: Golem|Golem|363\/363
+|move|p2a: I'm fat but I fly|Wrap|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|357\/363
+|-activate|p1a: Golem|move: Wrap|[of] p2a: I'm fat but I fly
+|
+|turn|9
+|choice|switch 3|move 2
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|move|p2a: I'm fat but I fly|Wrap|p1a: Alakazam
+|-damage|p1a: Alakazam|290\/313
+|-activate|p1a: Alakazam|move: Wrap|[of] p2a: I'm fat but I fly
+|
+|turn|10
+|choice|move 3|move 2
+|
+|cant|p1a: Alakazam|partiallytrapped
+|move|p2a: I'm fat but I fly|Wrap|p1a: Alakazam|[from]Wrap
+|-damage|p1a: Alakazam|267\/313
+|
+|turn|11
+|choice|move 3|move 2
+|
+|cant|p1a: Alakazam|partiallytrapped
+|move|p2a: I'm fat but I fly|Wrap|p1a: Alakazam|[from]Wrap
+|-damage|p1a: Alakazam|244\/313
+|
+|-end|p1a: Alakazam|Wrap|[partiallytrapped]
+|turn|12
+|choice|move 3|switch 3
+|
+|switch|p2a: Parthenogenesis|Chansey|703\/703
+|move|p1a: Alakazam|Thunder Wave|p2a: Parthenogenesis
+|-status|p2a: Parthenogenesis|par
+|
+|turn|13
+|choice|switch 4|move 2
+|
+|switch|p1a: Chansey|Chansey|456\/703 par
+|move|p2a: Parthenogenesis|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|
+|turn|14
+|choice|move 3|move 3
+|
+|cant|p1a: Chansey|par
+|move|p2a: Parthenogenesis|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|380\/703 par
+|
+|turn|15
+|choice|move 4|move 3
+|
+|move|p2a: Parthenogenesis|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|305\/703 par
+|cant|p1a: Chansey|par
+|
+|turn|16
+|choice|move 3|switch 5
+|
+|switch|p2a: Bully|Tauros|353\/353
+|move|p1a: Chansey|Thunder Wave|p2a: Bully
+|-status|p2a: Bully|par
+|
+|turn|17
+|choice|move 4|move 1
+|
+|move|p2a: Bully|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|23\/703 par
+|cant|p1a: Chansey|par
+|
+|turn|18
+|c|★Whoremaster|hax life
+|choice|move 4|move 4
+|
+|cant|p2a: Bully|par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|374\/703 par
+|
+|turn|19
+|choice|switch 3|move 3
+|
+|switch|p1a: Golem|Golem|357\/363
+|move|p2a: Bully|Hyper Beam|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|279\/363
+|
+|turn|20
+|-mustrecharge|p2a: Bully
+|-mustrecharge|p2a: Bully
+|choice|move 2|move 1
+|
+|move|p1a: Golem|Earthquake|p2a: Bully
+|-damage|p2a: Bully|221\/353 par
+|cant|p2a: Bully|recharge
+|
+|turn|21
+|choice|move 4|switch 3
+|
+|switch|p2a: I'm fat but I fly|Dragonite|385\/385
+|move|p1a: Golem|Explosion|p2a: I'm fat but I fly
+|-damage|p2a: I'm fat but I fly|80\/385
+|faint|p1a: Golem
+|choice|switch 4|
+|
+|switch|p1a: Alakazam|Alakazam|244\/313
+|turn|22
+|choice|move 1|switch 5
+|
+|switch|p2a: Parthenogenesis|Chansey|703\/703 par
+|move|p1a: Alakazam|Psychic|p2a: Parthenogenesis
+|-damage|p2a: Parthenogenesis|576\/703 par
+|
+|turn|23
+|choice|switch 3|move 3
+|
+|switch|p1a: Chansey|Chansey|374\/703 par
+|move|p2a: Parthenogenesis|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|306\/703 par
+|
+|turn|24
+|choice|move 1|switch 5
+|
+|switch|p2a: I'm fat but I fly|Dragonite|80\/385
+|move|p1a: Chansey|Ice Beam|p2a: I'm fat but I fly
+|-supereffective|p2a: I'm fat but I fly
+|-damage|p2a: I'm fat but I fly|0 fnt
+|faint|p2a: I'm fat but I fly
+|choice||switch 3
+|
+|switch|p2a: Bully|Tauros|221\/353 par
+|turn|25
+|choice|switch 2|move 1
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Bully|Body Slam|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-damage|p1a: Exeggutor|194\/393
+|
+|turn|26
+|choice|move 4|move 4
+|
+|move|p1a: Exeggutor|Explosion|p2a: Bully
+|-damage|p2a: Bully|0 fnt
+|faint|p2a: Bully
+|faint|p1a: Exeggutor
+|choice|switch 3|switch 5
+|
+|switch|p1a: Alakazam|Alakazam|244\/313
+|switch|p2a: Parthenogenesis|Chansey|576\/703 par
+|turn|27
+|choice|switch 2|move 3
+|
+|switch|p1a: Chansey|Chansey|306\/703 par
+|move|p2a: Parthenogenesis|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|235\/703 par
+|
+|turn|28
+|choice|move 4|move 4
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|586\/703 par
+|move|p2a: Parthenogenesis|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|509\/703 par
+|
+|turn|29
+|choice|move 2|move 4
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Parthenogenesis
+|-damage|p2a: Parthenogenesis|501\/703 par
+|cant|p2a: Parthenogenesis|par
+|
+|turn|30
+|choice|move 3|move 4
+|
+|move|p2a: Parthenogenesis|Thunderbolt|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|358\/703 par
+|move|p1a: Chansey|Thunder Wave|p2a: Parthenogenesis
+|-fail|p2a: Parthenogenesis|par
+|
+|turn|31
+|choice|move 4|move 4
+|
+|cant|p1a: Chansey|par
+|cant|p2a: Parthenogenesis|par
+|
+|turn|32
+|choice|move 4|move 4
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703 par
+|move|p2a: Parthenogenesis|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|626\/703 par
+|
+|turn|33
+|j|Pr0n Snow
+|choice|move 1|move 4
+|
+|move|p2a: Parthenogenesis|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|546\/703 par
+|move|p1a: Chansey|Ice Beam|p2a: Parthenogenesis
+|-damage|p2a: Parthenogenesis|425\/703 par
+|
+|turn|34
+|choice|move 1|move 4
+|
+|move|p2a: Parthenogenesis|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|472\/703 par
+|move|p1a: Chansey|Ice Beam|p2a: Parthenogenesis
+|-damage|p2a: Parthenogenesis|346\/703 par
+|
+|turn|35
+|choice|move 2|move 3
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Parthenogenesis
+|-damage|p2a: Parthenogenesis|269\/703 par
+|move|p2a: Parthenogenesis|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|403\/703 par
+|
+|turn|36
+|choice|switch 5|move 1
+|
+|switch|p1a: Persian|Persian|333\/333
+|move|p2a: Parthenogenesis|Soft-Boiled|p2a: Parthenogenesis
+|-heal|p2a: Parthenogenesis|620\/703 par
+|
+|turn|37
+|choice|move 1|move 2
+|
+|move|p1a: Persian|Slash|p2a: Parthenogenesis
+|-crit|p2a: Parthenogenesis
+|-damage|p2a: Parthenogenesis|256\/703 par
+|cant|p2a: Parthenogenesis|par
+|
+|turn|38
+|choice|move 1|switch 2
+|
+|switch|p2a: Double Pentagram|Starmie|323\/323
+|move|p1a: Persian|Slash|p2a: Double Pentagram
+|-crit|p2a: Double Pentagram
+|-damage|p2a: Double Pentagram|180\/323
+|
+|turn|39
+|choice|move 1|move 3
+|
+|move|p2a: Double Pentagram|Thunderbolt|p1a: Persian
+|-damage|p1a: Persian|228\/333
+|move|p1a: Persian|Slash|p2a: Double Pentagram
+|-crit|p2a: Double Pentagram
+|-damage|p2a: Double Pentagram|33\/323
+|
+|turn|40
+|choice|move 4|move 2
+|
+|move|p1a: Persian|Thunderbolt|p2a: Double Pentagram
+|-supereffective|p2a: Double Pentagram
+|-damage|p2a: Double Pentagram|0 fnt
+|faint|p2a: Double Pentagram
+|choice||switch 4
+|
+|switch|p2a: There's no spoon|Alakazam|313\/313
+|turn|41
+|choice|move 1|move 1
+|
+|move|p2a: There's no spoon|Thunder Wave|p1a: Persian
+|-status|p1a: Persian|par
+|move|p1a: Persian|Slash|p2a: There's no spoon
+|-crit|p2a: There's no spoon
+|-damage|p2a: There's no spoon|95\/313
+|
+|turn|42
+|l|Pr0n Snow
+|choice|move 1|move 4
+|
+|move|p2a: There's no spoon|Recover|p2a: There's no spoon
+|-heal|p2a: There's no spoon|251\/313
+|move|p1a: Persian|Slash|p2a: There's no spoon
+|-crit|p2a: There's no spoon
+|-damage|p2a: There's no spoon|37\/313
+|
+|turn|43
+|choice|move 2|move 4
+|
+|move|p2a: There's no spoon|Recover|p2a: There's no spoon
+|-heal|p2a: There's no spoon|193\/313
+|move|p1a: Persian|Hyper Beam|p2a: There's no spoon
+|-damage|p2a: There's no spoon|0 fnt
+|faint|p2a: There's no spoon
+|choice||switch 2
+|
+|switch|p2a: Parthenogenesis|Chansey|256\/703 par
+|turn|44
+|choice|move 1|move 4
+|
+|move|p1a: Persian|Slash|p2a: Parthenogenesis
+|-crit|p2a: Parthenogenesis
+|-damage|p2a: Parthenogenesis|0 fnt
+|faint|p2a: Parthenogenesis
+|
+|win|Whoremaster
+|player|p1
+|player|p2
+|c|★Whoremaster|gg
+|c|★LibertarianMaster|well played
+|c|★LibertarianMaster|gg
+|l|LibertarianMaster

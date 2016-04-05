@@ -1,0 +1,254 @@
+﻿|j|MALESANI
+|j|sacman838
+|player|p1|MALESANI|238
+|player|p2|sacman838|10
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|64438,647,17730,53006
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Lickitung|Lickitung, L90|345\/345
+|switch|p2a: Voltorb|Voltorb, L96|272\/272
+|turn|1
+|choice|move 3|move 3
+|
+|move|p2a: Voltorb|Thunderbolt|p1a: Lickitung
+|-damage|p1a: Lickitung|235\/345
+|move|p1a: Lickitung|Earthquake|p2a: Voltorb
+|-supereffective|p2a: Voltorb
+|-damage|p2a: Voltorb|121\/272
+|
+|turn|2
+|choice|move 3|move 1
+|
+|move|p2a: Voltorb|Explosion|p1a: Lickitung
+|-damage|p1a: Lickitung|63\/345
+|faint|p2a: Voltorb
+|choice||switch 5
+|
+|switch|p2a: Kangaskhan|Kangaskhan, L85|352\/352
+|turn|3
+|choice|move 1|move 2
+|
+|move|p2a: Kangaskhan|Body Slam|p1a: Lickitung
+|-damage|p1a: Lickitung|0 fnt
+|faint|p1a: Lickitung
+|choice|switch 5|
+|
+|switch|p1a: Machoke|Machoke, L85|310\/310
+|turn|4
+|choice|move 4|switch 6
+|
+|switch|p2a: Venomoth|Venomoth, L85|293\/293
+|move|p1a: Machoke|Submission|p2a: Venomoth|[miss]
+|-miss|p1a: Machoke
+|
+|turn|5
+|choice|move 3|move 2
+|
+|move|p2a: Venomoth|Psychic|p1a: Machoke
+|-supereffective|p1a: Machoke
+|-damage|p1a: Machoke|129\/310
+|-unboost|p1a: Machoke|spd|1
+|-unboost|p1a: Machoke|spa|1
+|move|p1a: Machoke|Earthquake|p2a: Venomoth
+|-damage|p2a: Venomoth|196\/293
+|
+|turn|6
+|choice|move 3|move 2
+|
+|move|p2a: Venomoth|Psychic|p1a: Machoke
+|-supereffective|p1a: Machoke
+|-damage|p1a: Machoke|0 fnt
+|faint|p1a: Machoke
+|choice|switch 6|
+|
+|switch|p1a: Moltres|Moltres, L85|327\/327
+|turn|7
+|choice|move 1|move 2
+|
+|move|p2a: Venomoth|Psychic|p1a: Moltres
+|-crit|p1a: Moltres
+|-damage|p1a: Moltres|227\/327
+|move|p1a: Moltres|Fire Blast|p2a: Venomoth|[miss]
+|-miss|p1a: Moltres
+|
+|turn|8
+|choice|move 1|move 2
+|
+|move|p1a: Moltres|Fire Blast|p2a: Venomoth
+|-supereffective|p2a: Venomoth
+|-damage|p2a: Venomoth|0 fnt
+|faint|p2a: Venomoth
+|choice||switch 6
+|
+|switch|p2a: Kangaskhan|Kangaskhan, L85|352\/352
+|turn|9
+|choice|move 1|move 2
+|
+|move|p2a: Kangaskhan|Body Slam|p1a: Moltres
+|-damage|p1a: Moltres|136\/327
+|move|p1a: Moltres|Fire Blast|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|132\/352
+|
+|turn|10
+|choice|switch 4|move 1
+|
+|switch|p1a: Gengar|Gengar, L79|257\/257
+|move|p2a: Kangaskhan|Hyper Beam|p1a: Gengar
+|-immune|p1a: Gengar|[msg]
+|
+|turn|11
+|choice|move 2|move 3
+|
+|move|p1a: Gengar|Psychic|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|21\/352
+|move|p2a: Kangaskhan|Earthquake|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|69\/257
+|
+|turn|12
+|choice|move 3|move 3
+|
+|move|p1a: Gengar|Thunderbolt|p2a: Kangaskhan
+|-crit|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|faint|p2a: Kangaskhan
+|choice||switch 4
+|
+|switch|p2a: Sandslash|Sandslash, L85|301\/301
+|turn|13
+|choice|move 1|move 2
+|
+|move|p1a: Gengar|Hypnosis|p2a: Sandslash|[miss]
+|-miss|p1a: Gengar
+|move|p2a: Sandslash|Rock Slide|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|choice|switch 2|
+|
+|switch|p1a: Dewgong|Dewgong, L85|327\/327
+|turn|14
+|choice|move 3|switch 3
+|
+|switch|p2a: Kabutops|Kabutops, L85|276\/276
+|move|p1a: Dewgong|Blizzard|p2a: Kabutops
+|-resisted|p2a: Kabutops
+|-damage|p2a: Kabutops|202\/276
+|
+|turn|15
+|choice|move 1|move 1
+|
+|move|p2a: Kabutops|Body Slam|p1a: Dewgong
+|-damage|p1a: Dewgong|258\/327
+|move|p1a: Dewgong|Surf|p2a: Kabutops
+|-damage|p2a: Kabutops|82\/276
+|
+|turn|16
+|choice|move 1|move 1
+|
+|move|p2a: Kabutops|Body Slam|p1a: Dewgong
+|-damage|p1a: Dewgong|185\/327
+|-status|p1a: Dewgong|par
+|move|p1a: Dewgong|Surf|p2a: Kabutops
+|-damage|p2a: Kabutops|0 fnt
+|faint|p2a: Kabutops
+|choice||switch 2
+|
+|switch|p2a: Zubat|Zubat, L96|272\/272
+|turn|17
+|choice|switch 3|move 4
+|
+|switch|p1a: Sandslash|Sandslash, L85|301\/301
+|move|p2a: Zubat|Mega Drain|p1a: Sandslash
+|-supereffective|p1a: Sandslash
+|-damage|p1a: Sandslash|239\/301
+|
+|turn|18
+|choice|switch 4|move 4
+|
+|switch|p1a: Moltres|Moltres, L85|136\/327
+|move|p2a: Zubat|Mega Drain|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|132\/327
+|
+|turn|19
+|choice|move 1|move 1
+|
+|move|p1a: Moltres|Fire Blast|p2a: Zubat|[miss]
+|-miss|p1a: Moltres
+|move|p2a: Zubat|Supersonic|p1a: Moltres|[miss]
+|-miss|p2a: Zubat
+|
+|turn|20
+|choice|move 1|move 1
+|
+|move|p1a: Moltres|Fire Blast|p2a: Zubat|[miss]
+|-miss|p1a: Moltres
+|move|p2a: Zubat|Supersonic|p1a: Moltres
+|-start|p1a: Moltres|confusion
+|
+|turn|21
+|choice|switch 4|switch 3
+|
+|switch|p1a: Sandslash|Sandslash, L85|239\/301
+|switch|p2a: Sandslash|Sandslash, L85|301\/301
+|
+|turn|22
+|choice|move 1|move 4
+|
+|move|p1a: Sandslash|Earthquake|p2a: Sandslash
+|-damage|p2a: Sandslash|201\/301
+|move|p2a: Sandslash|Swords Dance|p2a: Sandslash
+|-boost|p2a: Sandslash|atk|2
+|
+|turn|23
+|choice|move 1|move 1
+|
+|move|p2a: Sandslash|Earthquake|p1a: Sandslash
+|-damage|p1a: Sandslash|40\/301
+|move|p1a: Sandslash|Earthquake|p2a: Sandslash
+|-crit|p2a: Sandslash
+|-damage|p2a: Sandslash|15\/301
+|
+|turn|24
+|choice|move 2|move 2
+|
+|move|p1a: Sandslash|Hyper Beam|p2a: Sandslash
+|-damage|p2a: Sandslash|0 fnt
+|faint|p2a: Sandslash
+|choice||switch 3
+|
+|switch|p2a: Zubat|Zubat, L96|272\/272
+|turn|25
+|choice|move 2|move 4
+|
+|move|p2a: Zubat|Mega Drain|p1a: Sandslash
+|-supereffective|p1a: Sandslash
+|-damage|p1a: Sandslash|0 fnt
+|faint|p1a: Sandslash
+|choice|switch 3|
+|
+|switch|p1a: Dewgong|Dewgong, L85|185\/327 par
+|turn|26
+|choice|move 3|move 4
+|
+|move|p2a: Zubat|Mega Drain|p1a: Dewgong
+|-supereffective|p1a: Dewgong
+|-damage|p1a: Dewgong|141\/327 par
+|move|p1a: Dewgong|Blizzard|p2a: Zubat
+|-supereffective|p2a: Zubat
+|-damage|p2a: Zubat|0 fnt
+|faint|p2a: Zubat
+|
+|win|MALESANI
+|player|p1
+|player|p2
+|raw|MALESANI's rating: 1424 &rarr; <strong>1435<\/strong><br \/>(+11 for winning)
+|raw|sacman838's rating: 1261 &rarr; <strong>1247<\/strong><br \/>(-14 for losing)
+|l|sacman838

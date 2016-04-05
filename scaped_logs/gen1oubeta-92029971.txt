@@ -1,0 +1,366 @@
+﻿|join|luc1993
+|join|kid gf lol
+|player|p1|luc1993|153
+|player|p2|kid gf lol|167
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|switch|p2a: Zam Lead|Alakazam|313\/313
+|turn|1
+|chat|luc1993|hey
+|chat|kid gf lol|hey
+|chat|luc1993|was dced before
+|
+|move|p2a: Zam Lead|Seismic Toss|p1a: Exeggutor
+|-damage|p1a: Exeggutor|293\/393
+|move|p1a: Exeggutor|Sleep Powder|p2a: Zam Lead
+|-status|p2a: Zam Lead|slp
+|
+|turn|2
+|chat|kid gf lol|figured afk
+|
+|switch|p2a: Multi Purpose Guy|Exeggutor|393\/393
+|move|p1a: Exeggutor|Psychic|p2a: Multi Purpose Guy
+|-resisted|p2a: Multi Purpose Guy
+|-damage|p2a: Multi Purpose Guy|338\/393
+|
+|turn|3
+|
+|move|p2a: Multi Purpose Guy|Sleep Powder|p1a: Exeggutor
+|-status|p1a: Exeggutor|slp
+|cant|p1a: Exeggutor|slp
+|
+|turn|4
+|
+|switch|p2a: Wall Gal|Chansey|703\/703
+|switch|p1a: Slowbro|Slowbro|393\/393
+|
+|turn|5
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Wall Gal|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|627\/703
+|
+|turn|6
+|
+|switch|p2a: Zam Lead|Alakazam|313\/313 slp
+|move|p1a: Chansey|Ice Beam|p2a: Zam Lead
+|-damage|p2a: Zam Lead|252\/313 slp
+|
+|turn|7
+|
+|cant|p2a: Zam Lead|slp
+|-curestatus|p2a: Zam Lead|slp
+|move|p1a: Chansey|Seismic Toss|p2a: Zam Lead
+|-damage|p2a: Zam Lead|152\/313
+|
+|turn|8
+|
+|switch|p2a: Wall Gal|Chansey|703\/703
+|move|p1a: Chansey|Thunder Wave|p2a: Wall Gal
+|-status|p2a: Wall Gal|par
+|
+|turn|9
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|move|p2a: Wall Gal|Ice Beam|p1a: Tauros
+|-damage|p1a: Tauros|251\/353
+|
+|turn|10
+|
+|switch|p2a: Patrick|Snorlax|523\/523
+|move|p1a: Tauros|Body Slam|p2a: Patrick
+|-damage|p2a: Patrick|391\/523
+|
+|turn|11
+|
+|switch|p1a: Slowbro|Slowbro|393\/393
+|move|p2a: Patrick|Body Slam|p1a: Slowbro
+|-damage|p1a: Slowbro|292\/393
+|
+|turn|12
+|
+|move|p1a: Slowbro|Thunder Wave|p2a: Patrick
+|-status|p2a: Patrick|par
+|move|p2a: Patrick|Body Slam|p1a: Slowbro
+|-damage|p1a: Slowbro|192\/393
+|
+|turn|13
+|
+|move|p1a: Slowbro|Rest|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|-heal|p1a: Slowbro|393\/393 slp|[silent]
+|-status|p1a: Slowbro|slp|[from] move: Rest
+|move|p2a: Patrick|Body Slam|p1a: Slowbro
+|-damage|p1a: Slowbro|294\/393 slp
+|
+|turn|14
+|
+|switch|p2a: Wall Gal|Chansey|703\/703 par
+|cant|p1a: Slowbro|slp
+|
+|turn|15
+|
+|switch|p1a: Rhydon|Rhydon|413\/413
+|move|p2a: Wall Gal|Thunderbolt|p1a: Rhydon
+|-immune|p1a: Rhydon|[msg]
+|
+|turn|16
+|
+|switch|p2a: Multi Purpose Guy|Exeggutor|338\/393
+|move|p1a: Rhydon|Earthquake|p2a: Multi Purpose Guy
+|-resisted|p2a: Multi Purpose Guy
+|-damage|p2a: Multi Purpose Guy|259\/393
+|
+|turn|17
+|
+|switch|p1a: Exeggutor|Exeggutor|293\/393 slp
+|move|p2a: Multi Purpose Guy|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|244\/393 slp
+|
+|turn|18
+|
+|switch|p2a: Strong Guy|Tauros|353\/353
+|cant|p1a: Exeggutor|slp
+|
+|turn|19
+|
+|switch|p1a: Slowbro|Slowbro|294\/393 slp
+|move|p2a: Strong Guy|Blizzard|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|249\/393 slp
+|
+|turn|20
+|
+|switch|p2a: Wall Gal|Chansey|703\/703 par
+|cant|p1a: Slowbro|slp
+|-curestatus|p1a: Slowbro|slp
+|
+|turn|21
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|move|p2a: Wall Gal|Thunderbolt|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|159\/393
+|
+|turn|22
+|
+|switch|p2a: Patrick|Snorlax|391\/523 par
+|move|p1a: Slowbro|Rest|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|-heal|p1a: Slowbro|393\/393 slp|[silent]
+|-status|p1a: Slowbro|slp|[from] move: Rest
+|
+|turn|23
+|
+|cant|p1a: Slowbro|slp
+|move|p2a: Patrick|Body Slam|p1a: Slowbro
+|-damage|p1a: Slowbro|295\/393 slp
+|
+|turn|24
+|
+|cant|p1a: Slowbro|slp
+|-curestatus|p1a: Slowbro|slp
+|move|p2a: Patrick|Surf|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|280\/393
+|
+|turn|25
+|
+|move|p1a: Slowbro|Surf|p2a: Patrick
+|-damage|p2a: Patrick|157\/523 par
+|cant|p2a: Patrick|par
+|
+|turn|26
+|
+|move|p1a: Slowbro|Surf|p2a: Patrick
+|-damage|p2a: Patrick|0 fnt
+|faint|p2a: Patrick
+|
+|
+|switch|p2a: Multi Purpose Guy|Exeggutor|259\/393
+|turn|27
+|
+|move|p2a: Multi Purpose Guy|Explosion|p1a: Slowbro
+|-damage|p1a: Slowbro|39\/393
+|faint|p2a: Multi Purpose Guy
+|
+|switch|p2a: Strong Guy|Tauros|353\/353
+|turn|28
+|
+|move|p2a: Strong Guy|Body Slam|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|
+|
+|switch|p1a: Machamp|Machamp|383\/383
+|turn|29
+|
+|move|p2a: Strong Guy|Body Slam|p1a: Machamp
+|-damage|p1a: Machamp|266\/383
+|move|p1a: Machamp|Body Slam|p2a: Strong Guy
+|-damage|p2a: Strong Guy|268\/353
+|
+|turn|30
+|
+|move|p2a: Strong Guy|Body Slam|p1a: Machamp
+|-damage|p1a: Machamp|147\/383
+|move|p1a: Machamp|Counter|p2a: Strong Guy
+|-damage|p2a: Strong Guy|30\/353
+|
+|turn|31
+|
+|switch|p1a: Rhydon|Rhydon|413\/413
+|move|p2a: Strong Guy|Hyper Beam|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|330\/413
+|
+|turn|32
+|
+|cant|p2a: Strong Guy|recharge
+|move|p1a: Rhydon|Body Slam|p2a: Strong Guy
+|-damage|p2a: Strong Guy|0 fnt
+|faint|p2a: Strong Guy
+|
+|
+|switch|p2a: TNT|Golem|363\/363
+|turn|33
+|
+|switch|p1a: Exeggutor|Exeggutor|244\/393 slp
+|move|p2a: TNT|Earthquake|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|104\/393 slp
+|
+|turn|34
+|
+|switch|p2a: Zam Lead|Alakazam|152\/313
+|cant|p1a: Exeggutor|slp
+|
+|turn|35
+|
+|move|p2a: Zam Lead|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|48\/393 slp
+|cant|p1a: Exeggutor|slp
+|
+|turn|36
+|
+|move|p2a: Zam Lead|Recover|p2a: Zam Lead
+|-heal|p2a: Zam Lead|308\/313
+|cant|p1a: Exeggutor|slp
+|
+|turn|37
+|
+|move|p2a: Zam Lead|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|
+|switch|p1a: Chansey|Chansey|627\/703
+|turn|38
+|
+|switch|p2a: Wall Gal|Chansey|703\/703 par
+|switch|p1a: Rhydon|Rhydon|330\/413
+|
+|turn|39
+|
+|move|p1a: Rhydon|Earthquake|p2a: Wall Gal
+|-damage|p2a: Wall Gal|317\/703 par
+|move|p2a: Wall Gal|Ice Beam|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|80\/413
+|
+|turn|40
+|
+|switch|p2a: TNT|Golem|363\/363
+|move|p1a: Rhydon|Earthquake|p2a: TNT
+|-supereffective|p2a: TNT
+|-damage|p2a: TNT|121\/363
+|
+|turn|41
+|
+|move|p2a: TNT|Earthquake|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|
+|
+|switch|p1a: Tauros|Tauros|251\/353
+|turn|42
+|
+|move|p1a: Tauros|Blizzard|p2a: TNT
+|-supereffective|p2a: TNT
+|-damage|p2a: TNT|0 fnt
+|faint|p2a: TNT
+|
+|
+|switch|p2a: Zam Lead|Alakazam|308\/313
+|turn|43
+|
+|switch|p1a: Chansey|Chansey|627\/703
+|move|p2a: Zam Lead|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|507\/703
+|
+|turn|44
+|
+|switch|p2a: Wall Gal|Chansey|317\/703 par
+|switch|p1a: Tauros|Tauros|251\/353
+|
+|turn|45
+|
+|move|p1a: Tauros|Body Slam|p2a: Wall Gal
+|-damage|p2a: Wall Gal|43\/703 par
+|move|p2a: Wall Gal|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|
+|turn|46
+|
+|move|p1a: Tauros|Body Slam|p2a: Wall Gal
+|-damage|p2a: Wall Gal|0 fnt
+|faint|p2a: Wall Gal
+|
+|
+|switch|p2a: Zam Lead|Alakazam|308\/313
+|turn|47
+|
+|move|p2a: Zam Lead|Psychic|p1a: Tauros
+|-damage|p1a: Tauros|83\/353 par
+|move|p1a: Tauros|Body Slam|p2a: Zam Lead
+|-damage|p2a: Zam Lead|154\/313
+|-status|p2a: Zam Lead|par
+|
+|turn|48
+|
+|move|p2a: Zam Lead|Psychic|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|
+|switch|p1a: Machamp|Machamp|147\/383
+|turn|49
+|
+|move|p1a: Machamp|Hyper Beam|p2a: Zam Lead
+|-damage|p2a: Zam Lead|0 fnt
+|faint|p2a: Zam Lead
+|
+|win|luc1993
+|raw|Ladder updating...
+|raw|luc1993's rating: 1223 &rarr; <strong>1255<\/strong><br \/>(+32 for winning)
+|raw|kid gf lol's rating: 1323 &rarr; <strong>1291<\/strong><br \/>(-32 for losing)
+|chat|luc1993|gg

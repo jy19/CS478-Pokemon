@@ -1,0 +1,258 @@
+﻿|join|ThunderDave
+|join|Psychedelic Trip
+|player|p1|ThunderDave|123
+|player|p2|Psychedelic Trip|168
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Ponyta|Ponyta, L96|291\/291
+|switch|p2a: Nidorino|Nidorino, L90|293\/293
+|turn|1
+|
+|move|p1a: Ponyta|Body Slam|p2a: Nidorino
+|-crit|p2a: Nidorino
+|-damage|p2a: Nidorino|124\/293
+|move|p2a: Nidorino|Bubble Beam|p1a: Ponyta
+|-supereffective|p1a: Ponyta
+|-damage|p1a: Ponyta|209\/291
+|
+|turn|2
+|
+|move|p1a: Ponyta|Body Slam|p2a: Nidorino
+|-damage|p2a: Nidorino|39\/293
+|move|p2a: Nidorino|Body Slam|p1a: Ponyta
+|-crit|p1a: Ponyta
+|-damage|p1a: Ponyta|71\/291
+|-status|p1a: Ponyta|par
+|
+|turn|3
+|
+|move|p2a: Nidorino|Bubble Beam|p1a: Ponyta
+|-supereffective|p1a: Ponyta
+|-damage|p1a: Ponyta|0 fnt
+|faint|p1a: Ponyta
+|
+|switch|p1a: Poliwhirl|Poliwhirl, L85|284\/284
+|turn|4
+|
+|switch|p2a: Parasect|Parasect, L90|291\/291
+|move|p1a: Poliwhirl|Surf|p2a: Parasect
+|-crit|p2a: Parasect
+|-resisted|p2a: Parasect
+|-damage|p2a: Parasect|221\/291
+|
+|turn|5
+|
+|move|p1a: Poliwhirl|Hypnosis|p2a: Parasect|[miss]
+|-miss|p1a: Poliwhirl
+|move|p2a: Parasect|Spore|p1a: Poliwhirl
+|-status|p1a: Poliwhirl|slp
+|
+|turn|6
+|
+|cant|p1a: Poliwhirl|slp
+|move|p2a: Parasect|Mega Drain|p1a: Poliwhirl
+|-supereffective|p1a: Poliwhirl
+|-damage|p1a: Poliwhirl|161\/284 slp
+|-heal|p2a: Parasect|282\/291|[from] drain|[of] p1a: Poliwhirl
+|
+|turn|7
+|
+|cant|p1a: Poliwhirl|slp
+|move|p2a: Parasect|Mega Drain|p1a: Poliwhirl
+|-crit|p1a: Poliwhirl
+|-supereffective|p1a: Poliwhirl
+|-damage|p1a: Poliwhirl|0 fnt
+|-heal|p2a: Parasect|291\/291|[from] drain|[of] p1a: Poliwhirl
+|faint|p1a: Poliwhirl
+|
+|switch|p1a: Lapras|Lapras, L79|367\/367
+|turn|8
+|
+|switch|p2a: Nidorino|Nidorino, L90|39\/293
+|move|p1a: Lapras|Blizzard|p2a: Nidorino
+|-damage|p2a: Nidorino|0 fnt
+|faint|p2a: Nidorino
+|
+|switch|p2a: Raticate|Raticate, L85|267\/267
+|turn|9
+|
+|move|p2a: Raticate|Super Fang|p1a: Lapras
+|-damage|p1a: Lapras|184\/367
+|move|p1a: Lapras|Confuse Ray|p2a: Raticate
+|-start|p2a: Raticate|confusion
+|
+|turn|10
+|
+|switch|p2a: Flareon|Flareon, L90|300\/300
+|move|p1a: Lapras|Blizzard|p2a: Flareon
+|-crit|p2a: Flareon
+|-damage|p2a: Flareon|117\/300
+|
+|turn|11
+|
+|switch|p1a: Graveler|Graveler, L85|267\/267
+|move|p2a: Flareon|Fire Blast|p1a: Graveler|[miss]
+|-miss|p2a: Flareon
+|
+|turn|12
+|
+|switch|p2a: Raticate|Raticate, L85|267\/267
+|move|p1a: Graveler|Earthquake|p2a: Raticate
+|-damage|p2a: Raticate|128\/267
+|
+|turn|13
+|
+|move|p2a: Raticate|Bubble Beam|p1a: Graveler
+|-supereffective|p1a: Graveler
+|-damage|p1a: Graveler|67\/267
+|-unboost|p1a: Graveler|spe|1
+|move|p1a: Graveler|Earthquake|p2a: Raticate
+|-damage|p2a: Raticate|0 fnt
+|faint|p2a: Raticate
+|
+|switch|p2a: Parasect|Parasect, L90|291\/291
+|turn|14
+|
+|move|p2a: Parasect|Mega Drain|p1a: Graveler
+|-supereffective|p1a: Graveler
+|-damage|p1a: Graveler|0 fnt
+|faint|p1a: Graveler
+|
+|switch|p1a: Lapras|Lapras, L79|184\/367
+|turn|15
+|
+|switch|p2a: Grimer|Grimer, L96|348\/348
+|move|p1a: Lapras|Blizzard|p2a: Grimer
+|-damage|p2a: Grimer|192\/348
+|
+|turn|16
+|
+|move|p1a: Lapras|Confuse Ray|p2a: Grimer
+|-start|p2a: Grimer|confusion
+|-activate|p2a: Grimer|confusion
+|-damage|p2a: Grimer|149\/348|[from] confusion
+|
+|turn|17
+|
+|move|p1a: Lapras|Blizzard|p2a: Grimer
+|-damage|p2a: Grimer|0 fnt
+|faint|p2a: Grimer
+|
+|switch|p2a: Flareon|Flareon, L90|117\/300
+|turn|18
+|
+|move|p2a: Flareon|Fire Blast|p1a: Lapras
+|-damage|p1a: Lapras|15\/367
+|move|p1a: Lapras|Confuse Ray|p2a: Flareon
+|-start|p2a: Flareon|confusion
+|
+|turn|19
+|
+|-activate|p2a: Flareon|confusion
+|move|p2a: Flareon|Quick Attack|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|
+|switch|p1a: Electabuzz|Electabuzz, L85|284\/284
+|turn|20
+|
+|switch|p2a: Parasect|Parasect, L90|291\/291
+|move|p1a: Electabuzz|Thunderbolt|p2a: Parasect
+|-resisted|p2a: Parasect
+|-damage|p2a: Parasect|246\/291
+|
+|turn|21
+|
+|move|p1a: Electabuzz|Thunder Wave|p2a: Parasect
+|-status|p2a: Parasect|par
+|move|p2a: Parasect|Spore|p1a: Electabuzz
+|-status|p1a: Electabuzz|slp
+|
+|turn|22
+|
+|switch|p1a: Marowak|Marowak, L90|291\/291
+|switch|p2a: Flareon|Flareon, L90|117\/300
+|
+|turn|23
+|
+|move|p2a: Flareon|Fire Blast|p1a: Marowak
+|-crit|p1a: Marowak
+|-damage|p1a: Marowak|0 fnt
+|faint|p1a: Marowak
+|
+|switch|p1a: Electabuzz|Electabuzz, L85|284\/284 slp
+|turn|24
+|
+|cant|p1a: Electabuzz|slp
+|-curestatus|p1a: Electabuzz|slp
+|move|p2a: Flareon|Body Slam|p1a: Electabuzz
+|-damage|p1a: Electabuzz|171\/284
+|
+|turn|25
+|
+|move|p2a: Flareon|Quick Attack|p1a: Electabuzz
+|-damage|p1a: Electabuzz|123\/284
+|move|p1a: Electabuzz|Thunderbolt|p2a: Flareon
+|-damage|p2a: Flareon|39\/300
+|
+|turn|26
+|
+|move|p2a: Flareon|Quick Attack|p1a: Electabuzz
+|-damage|p1a: Electabuzz|71\/284
+|move|p1a: Electabuzz|Thunderbolt|p2a: Flareon
+|-damage|p2a: Flareon|0 fnt
+|faint|p2a: Flareon
+|
+|switch|p2a: Parasect|Parasect, L90|246\/291 par
+|turn|27
+|
+|move|p1a: Electabuzz|Psychic|p2a: Parasect
+|-crit|p2a: Parasect
+|-damage|p2a: Parasect|127\/291 par
+|-unboost|p2a: Parasect|spd|1
+|-unboost|p2a: Parasect|spa|1
+|cant|p2a: Parasect|par
+|
+|turn|28
+|
+|switch|p2a: Poliwrath|Poliwrath, L85|327\/327
+|move|p1a: Electabuzz|Psychic|p2a: Poliwrath
+|-supereffective|p2a: Poliwrath
+|-damage|p2a: Poliwrath|192\/327
+|-unboost|p2a: Poliwrath|spd|1
+|-unboost|p2a: Poliwrath|spa|1
+|
+|turn|29
+|
+|switch|p2a: Parasect|Parasect, L90|127\/291 par
+|move|p1a: Electabuzz|Thunderbolt|p2a: Parasect
+|-resisted|p2a: Parasect
+|-damage|p2a: Parasect|78\/291 par
+|
+|turn|30
+|
+|move|p1a: Electabuzz|Seismic Toss|p2a: Parasect
+|-damage|p2a: Parasect|0 fnt
+|faint|p2a: Parasect
+|
+|switch|p2a: Poliwrath|Poliwrath, L85|192\/327
+|turn|31
+|
+|move|p1a: Electabuzz|Thunderbolt|p2a: Poliwrath
+|-crit|p2a: Poliwrath
+|-supereffective|p2a: Poliwrath
+|-damage|p2a: Poliwrath|0 fnt
+|faint|p2a: Poliwrath
+|
+|win|ThunderDave
+|raw|Ladder updating...
+|raw|ThunderDave's rating: 1308 &rarr; <strong>1329<\/strong><br \/>(+21 for winning)
+|raw|Psychedelic Trip's rating: 1323 &rarr; <strong>1302<\/strong><br \/>(-21 for losing)
+|c|★ThunderDave|gg

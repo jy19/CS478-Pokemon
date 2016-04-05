@@ -1,0 +1,558 @@
+﻿|J|hodor
+|J|qht
+|player|p1|hodor|2
+|player|p2|qht|2
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Challenge Cup
+|seed|60171,56412,33631,38870
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Mr. Mime|Mr. Mime, L70|191\/191
+|switch|p2a: Krabby|Krabby, L77|200\/200
+|turn|1
+|choice|move 4|switch 6
+|
+|switch|p2a: Wigglytuff|Wigglytuff, L72|349\/349
+|move|p1a: Mr. Mime|Thunder|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|256\/349
+|
+|turn|2
+|choice|switch 6|move 2
+|
+|switch|p1a: Machop|Machop, L79|268\/268
+|move|p2a: Wigglytuff|Double-Edge|p1a: Machop
+|-damage|p1a: Machop|169\/268
+|-damage|p2a: Wigglytuff|232\/349|[from] recoil|[of] p1a: Machop
+|
+|turn|3
+|choice|move 3|switch 4
+|
+|switch|p2a: Weedle|Weedle, L87|228\/228
+|move|p1a: Machop|Mega Kick|p2a: Weedle|[miss]
+|-miss|p1a: Machop
+|
+|turn|4
+|c|★qht|0
+|choice|move 3|move 1
+|
+|move|p2a: Weedle|Poison Sting|p1a: Machop
+|-crit|p1a: Machop
+|-damage|p1a: Machop|138\/268
+|move|p1a: Machop|Mega Kick|p2a: Weedle
+|-damage|p2a: Weedle|110\/228
+|
+|turn|5
+|choice|move 3|move 1
+|
+|move|p2a: Weedle|Poison Sting|p1a: Machop
+|-damage|p1a: Machop|122\/268
+|move|p1a: Machop|Mega Kick|p2a: Weedle
+|-damage|p2a: Weedle|0 fnt
+|faint|p2a: Weedle
+|choice||switch 5
+|
+|switch|p2a: Seadra|Seadra, L68|202\/202
+|turn|6
+|choice|switch 6|move 2
+|
+|switch|p1a: Mr. Mime|Mr. Mime, L70|191\/191
+|move|p2a: Seadra|Surf|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|113\/191
+|
+|turn|7
+|choice|move 4|switch 4
+|
+|switch|p2a: Wigglytuff|Wigglytuff, L72|232\/349
+|move|p1a: Mr. Mime|Thunder|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|132\/349
+|
+|turn|8
+|choice|switch 4|move 2
+|
+|switch|p1a: Dragonite|Dragonite, L63|233\/233
+|move|p2a: Wigglytuff|Double-Edge|p1a: Dragonite
+|-damage|p1a: Dragonite|144\/233
+|-damage|p2a: Wigglytuff|110\/349|[from] recoil|[of] p1a: Dragonite
+|
+|turn|9
+|choice|move 1|switch 6
+|
+|switch|p2a: Krabby|Krabby, L77|200\/200
+|move|p1a: Dragonite|Slam|p2a: Krabby
+|-crit|p2a: Krabby
+|-damage|p2a: Krabby|113\/200
+|
+|turn|10
+|choice|switch 2|move 2
+|
+|switch|p1a: Psyduck|Psyduck, L78|236\/236
+|move|p2a: Krabby|Ice Beam|p1a: Psyduck
+|-crit|p1a: Psyduck
+|-resisted|p1a: Psyduck
+|-damage|p1a: Psyduck|192\/236
+|
+|turn|11
+|choice|move 3|switch 6
+|
+|switch|p2a: Wigglytuff|Wigglytuff, L72|110\/349
+|move|p1a: Psyduck|Headbutt|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|63\/349
+|
+|turn|12
+|choice|move 4|move 2
+|
+|move|p1a: Psyduck|Bubble Beam|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|0 fnt
+|faint|p2a: Wigglytuff
+|c|★qht|o
+|choice||switch 4
+|
+|switch|p2a: Seadra|Seadra, L68|202\/202
+|turn|13
+|choice|move 3|move 2
+|
+|move|p2a: Seadra|Surf|p1a: Psyduck
+|-resisted|p1a: Psyduck
+|-damage|p1a: Psyduck|143\/236
+|move|p1a: Psyduck|Headbutt|p2a: Seadra
+|-damage|p2a: Seadra|171\/202
+|
+|turn|14
+|choice|move 2|move 2
+|
+|move|p2a: Seadra|Surf|p1a: Psyduck
+|-resisted|p1a: Psyduck
+|-damage|p1a: Psyduck|97\/236
+|move|p1a: Psyduck|Double Team|p1a: Psyduck
+|-boost|p1a: Psyduck|evasion|1
+|
+|turn|15
+|choice|move 1|move 2
+|
+|move|p2a: Seadra|Surf|p1a: Psyduck|[miss]
+|-miss|p2a: Seadra
+|move|p1a: Psyduck|Rest|p1a: Psyduck
+|-status|p1a: Psyduck|slp
+|-heal|p1a: Psyduck|236\/236 slp|[silent]
+|-status|p1a: Psyduck|slp|[from] move: Rest
+|
+|turn|16
+|choice|move 2|switch 3
+|
+|switch|p2a: Cloyster|Cloyster, L64|178\/178
+|cant|p1a: Psyduck|slp
+|
+|turn|17
+|choice|move 2|move 4
+|
+|-curestatus|p1a: Psyduck|slp
+|move|p2a: Cloyster|Mimic|p1a: Psyduck
+|-start|p2a: Cloyster|Mimic|Bubble Beam
+|
+|turn|18
+|choice|move 2|switch 3
+|
+|switch|p2a: Seadra|Seadra, L68|171\/202
+|move|p1a: Psyduck|Double Team|p1a: Psyduck
+|-boost|p1a: Psyduck|evasion|1
+|
+|turn|19
+|choice|move 2|switch 3
+|
+|switch|p2a: Cloyster|Cloyster, L64|178\/178
+|move|p1a: Psyduck|Double Team|p1a: Psyduck
+|-boost|p1a: Psyduck|evasion|1
+|
+|turn|20
+|choice|move 3|move 4
+|
+|move|p1a: Psyduck|Headbutt|p2a: Cloyster
+|-crit|p2a: Cloyster
+|-damage|p2a: Cloyster|134\/178
+|move|p2a: Cloyster|Mimic|p1a: Psyduck
+|-start|p2a: Cloyster|Mimic|Headbutt
+|
+|turn|21
+|choice|move 3|switch 3
+|
+|switch|p2a: Seadra|Seadra, L68|171\/202
+|move|p1a: Psyduck|Headbutt|p2a: Seadra
+|-damage|p2a: Seadra|141\/202
+|
+|turn|22
+|choice|move 3|switch 3
+|
+|switch|p2a: Cloyster|Cloyster, L64|134\/178
+|move|p1a: Psyduck|Headbutt|p2a: Cloyster
+|-crit|p2a: Cloyster
+|-damage|p2a: Cloyster|93\/178
+|
+|turn|23
+|choice|move 3|move 4
+|
+|move|p1a: Psyduck|Headbutt|p2a: Cloyster
+|-damage|p2a: Cloyster|72\/178
+|move|p2a: Cloyster|Mimic|p1a: Psyduck
+|-start|p2a: Cloyster|Mimic|Rest
+|
+|turn|24
+|choice|move 3|move 4
+|
+|move|p1a: Psyduck|Headbutt|p2a: Cloyster
+|-damage|p2a: Cloyster|52\/178
+|move|p2a: Cloyster|Rest|p2a: Cloyster
+|-status|p2a: Cloyster|slp
+|-heal|p2a: Cloyster|178\/178 slp|[silent]
+|-status|p2a: Cloyster|slp|[from] move: Rest
+|
+|turn|25
+|choice|switch 4|move 1
+|
+|switch|p1a: Mr. Mime|Mr. Mime, L70|113\/191
+|cant|p2a: Cloyster|slp
+|
+|turn|26
+|choice|move 4|switch 6
+|
+|switch|p2a: Krabby|Krabby, L77|113\/200
+|move|p1a: Mr. Mime|Thunder|p2a: Krabby
+|-supereffective|p2a: Krabby
+|-damage|p2a: Krabby|0 fnt
+|faint|p2a: Krabby
+|choice||switch 2
+|
+|switch|p2a: Charizard|Charizard, L67|239\/239
+|turn|27
+|choice|move 4|move 1
+|
+|move|p2a: Charizard|Fire Spin|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|101\/191
+|-activate|p1a: Mr. Mime|move: Fire Spin|[of] p2a: Charizard
+|cant|p1a: Mr. Mime|partiallytrapped
+|
+|turn|28
+|choice|switch 3|move 1
+|
+|switch|p1a: Vulpix|Vulpix, L78|208\/208
+|move|p2a: Charizard|Fire Spin|p1a: Vulpix|[miss]
+|-miss|p2a: Charizard
+|
+|turn|29
+|choice|switch 2|switch 3
+|
+|switch|p2a: Seadra|Seadra, L68|141\/202
+|switch|p1a: Dragonite|Dragonite, L63|144\/233
+|
+|turn|30
+|choice|switch 2|move 2
+|
+|switch|p1a: Vulpix|Vulpix, L78|208\/208
+|move|p2a: Seadra|Surf|p1a: Vulpix
+|-supereffective|p1a: Vulpix
+|-damage|p1a: Vulpix|31\/208
+|
+|turn|31
+|choice|move 1|move 2
+|
+|move|p1a: Vulpix|Dig|p2a: Seadra|[still]
+|-prepare|p1a: Vulpix|Dig|p2a: Seadra
+|move|p2a: Seadra|Surf|p1a: Vulpix|[miss]
+|-message|The foe Vulpix can't be hit underground!
+|-miss|p2a: Seadra
+|
+|turn|32
+|choice|move 1|move 2
+|
+|move|p1a: Vulpix|Dig|p2a: Seadra|[from]Dig
+|-crit|p2a: Seadra
+|-damage|p2a: Seadra|56\/202
+|move|p2a: Seadra|Surf|p1a: Vulpix
+|-crit|p1a: Vulpix
+|-supereffective|p1a: Vulpix
+|-damage|p1a: Vulpix|0 fnt
+|faint|p1a: Vulpix
+|choice|switch 3|
+|
+|switch|p1a: Mr. Mime|Mr. Mime, L70|101\/191
+|turn|33
+|choice|move 4|move 2
+|
+|move|p1a: Mr. Mime|Thunder|p2a: Seadra
+|-supereffective|p2a: Seadra
+|-damage|p2a: Seadra|0 fnt
+|faint|p2a: Seadra
+|choice||switch 3
+|
+|switch|p2a: Charizard|Charizard, L67|239\/239
+|turn|34
+|choice|move 4|move 1
+|
+|move|p2a: Charizard|Fire Spin|p1a: Mr. Mime
+|-crit|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|79\/191
+|-activate|p1a: Mr. Mime|move: Fire Spin|[of] p2a: Charizard
+|cant|p1a: Mr. Mime|partiallytrapped
+|
+|turn|35
+|choice|switch 5|move 1
+|
+|switch|p1a: Eevee|Eevee, L76|231\/231
+|move|p2a: Charizard|Fire Spin|p1a: Eevee
+|-damage|p1a: Eevee|216\/231
+|-activate|p1a: Eevee|move: Fire Spin|[of] p2a: Charizard
+|
+|turn|36
+|choice|switch 2|move 1
+|
+|switch|p1a: Dragonite|Dragonite, L63|144\/233
+|move|p2a: Charizard|Fire Spin|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|139\/233
+|-activate|p1a: Dragonite|move: Fire Spin|[of] p2a: Charizard
+|
+|turn|37
+|choice|move 4|move 1
+|
+|move|p2a: Charizard|Fire Spin|p1a: Dragonite|[from]Fire Spin
+|-damage|p1a: Dragonite|134\/233
+|cant|p1a: Dragonite|partiallytrapped
+|
+|turn|38
+|choice|move 4|move 1
+|
+|move|p2a: Charizard|Fire Spin|p1a: Dragonite|[from]Fire Spin
+|-damage|p1a: Dragonite|129\/233
+|cant|p1a: Dragonite|partiallytrapped
+|
+|turn|39
+|choice|move 4|move 1
+|
+|move|p2a: Charizard|Fire Spin|p1a: Dragonite|[from]Fire Spin
+|-damage|p1a: Dragonite|124\/233
+|cant|p1a: Dragonite|partiallytrapped
+|
+|turn|40
+|choice|move 4|move 1
+|
+|move|p2a: Charizard|Fire Spin|p1a: Dragonite|[from]Fire Spin
+|-damage|p1a: Dragonite|119\/233
+|cant|p1a: Dragonite|partiallytrapped
+|
+|-end|p1a: Dragonite|Fire Spin|[partiallytrapped]
+|turn|41
+|choice|move 4|move 1
+|
+|move|p2a: Charizard|Fire Spin|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|114\/233
+|-activate|p1a: Dragonite|move: Fire Spin|[of] p2a: Charizard
+|cant|p1a: Dragonite|partiallytrapped
+|
+|turn|42
+|choice|switch 2|move 1
+|
+|switch|p1a: Eevee|Eevee, L76|216\/231
+|move|p2a: Charizard|Fire Spin|p1a: Eevee|[miss]
+|-miss|p2a: Charizard
+|
+|turn|43
+|c|★qht|burn baby burn,,
+|choice|move 3|move 1
+|
+|move|p2a: Charizard|Fire Spin|p1a: Eevee
+|-damage|p1a: Eevee|201\/231
+|-activate|p1a: Eevee|move: Fire Spin|[of] p2a: Charizard
+|cant|p1a: Eevee|partiallytrapped
+|
+|turn|44
+|choice|switch 2|move 1
+|
+|switch|p1a: Dragonite|Dragonite, L63|114\/233
+|move|p2a: Charizard|Fire Spin|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|109\/233
+|-activate|p1a: Dragonite|move: Fire Spin|[of] p2a: Charizard
+|
+|turn|45
+|choice|switch 2|move 1
+|
+|switch|p1a: Eevee|Eevee, L76|201\/231
+|move|p2a: Charizard|Fire Spin|p1a: Eevee
+|-damage|p1a: Eevee|187\/231
+|-activate|p1a: Eevee|move: Fire Spin|[of] p2a: Charizard
+|
+|turn|46
+|choice|switch 6|move 1
+|
+|switch|p1a: Machop|Machop, L79|122\/268
+|move|p2a: Charizard|Fire Spin|p1a: Machop
+|-crit|p1a: Machop
+|-damage|p1a: Machop|93\/268
+|-activate|p1a: Machop|move: Fire Spin|[of] p2a: Charizard
+|
+|turn|47
+|choice|move 4|move 1
+|
+|move|p2a: Charizard|Fire Spin|p1a: Machop|[from]Fire Spin
+|-damage|p1a: Machop|64\/268
+|cant|p1a: Machop|partiallytrapped
+|
+|turn|48
+|choice|move 4|move 1
+|
+|move|p2a: Charizard|Fire Spin|p1a: Machop|[from]Fire Spin
+|-damage|p1a: Machop|35\/268
+|cant|p1a: Machop|partiallytrapped
+|
+|-end|p1a: Machop|Fire Spin|[partiallytrapped]
+|turn|49
+|choice|move 4|move 2
+|
+|move|p2a: Charizard|Body Slam|p1a: Machop
+|-damage|p1a: Machop|0 fnt
+|faint|p1a: Machop
+|choice|switch 6|
+|
+|switch|p1a: Eevee|Eevee, L76|187\/231
+|turn|50
+|choice|move 3|move 1
+|
+|move|p2a: Charizard|Fire Spin|p1a: Eevee
+|-damage|p1a: Eevee|173\/231
+|-activate|p1a: Eevee|move: Fire Spin|[of] p2a: Charizard
+|cant|p1a: Eevee|partiallytrapped
+|
+|turn|51
+|choice|switch 2|move 1
+|
+|switch|p1a: Dragonite|Dragonite, L63|109\/233
+|move|p2a: Charizard|Fire Spin|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|98\/233
+|-activate|p1a: Dragonite|move: Fire Spin|[of] p2a: Charizard
+|
+|turn|52
+|choice|switch 2|move 1
+|
+|switch|p1a: Eevee|Eevee, L76|173\/231
+|move|p2a: Charizard|Fire Spin|p1a: Eevee
+|-crit|p1a: Eevee
+|-damage|p1a: Eevee|145\/231
+|-activate|p1a: Eevee|move: Fire Spin|[of] p2a: Charizard
+|
+|turn|53
+|choice|switch 2|move 1
+|
+|switch|p1a: Dragonite|Dragonite, L63|98\/233
+|move|p2a: Charizard|Fire Spin|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|93\/233
+|-activate|p1a: Dragonite|move: Fire Spin|[of] p2a: Charizard
+|
+|turn|54
+|c|★qht|oh neat
+|choice|switch 2|move 1
+|
+|switch|p1a: Eevee|Eevee, L76|145\/231
+|move|p2a: Charizard|Fire Spin|p1a: Eevee
+|-damage|p1a: Eevee|132\/231
+|-activate|p1a: Eevee|move: Fire Spin|[of] p2a: Charizard
+|
+|turn|55
+|c|★qht|ps fixed the wrap counter
+|choice|switch 2|move 1
+|
+|switch|p1a: Dragonite|Dragonite, L63|93\/233
+|move|p2a: Charizard|Fire Spin|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|88\/233
+|-activate|p1a: Dragonite|move: Fire Spin|[of] p2a: Charizard
+|
+|turn|56
+|c|★hodor|this is so dumb
+|choice|switch 2|move 1
+|
+|switch|p1a: Eevee|Eevee, L76|132\/231
+|move|p2a: Charizard|Fire Spin|p1a: Eevee
+|-damage|p1a: Eevee|117\/231
+|-activate|p1a: Eevee|move: Fire Spin|[of] p2a: Charizard
+|
+|turn|57
+|choice|switch 2|move 1
+|
+|switch|p1a: Dragonite|Dragonite, L63|88\/233
+|move|p2a: Charizard|Fire Spin|p1a: Dragonite|[miss]
+|-miss|p2a: Charizard
+|
+|turn|58
+|c|★qht|yea idk why rbyers dont use this shit
+|c|★qht|it's broken
+|choice|move 4|move 2
+|
+|move|p2a: Charizard|Body Slam|p1a: Dragonite
+|-damage|p1a: Dragonite|48\/233
+|move|p1a: Dragonite|Waterfall|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|142\/239
+|
+|turn|59
+|choice|move 4|move 1
+|
+|move|p2a: Charizard|Fire Spin|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|43\/233
+|-activate|p1a: Dragonite|move: Fire Spin|[of] p2a: Charizard
+|cant|p1a: Dragonite|partiallytrapped
+|
+|turn|60
+|choice|move 4|move 1
+|
+|move|p2a: Charizard|Fire Spin|p1a: Dragonite|[from]Fire Spin
+|-damage|p1a: Dragonite|38\/233
+|cant|p1a: Dragonite|partiallytrapped
+|
+|turn|61
+|choice|move 4|move 1
+|
+|move|p2a: Charizard|Fire Spin|p1a: Dragonite|[from]Fire Spin
+|-damage|p1a: Dragonite|33\/233
+|cant|p1a: Dragonite|partiallytrapped
+|
+|-end|p1a: Dragonite|Fire Spin|[partiallytrapped]
+|turn|62
+|choice|move 4|move 2
+|
+|move|p2a: Charizard|Body Slam|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|choice|switch 5|
+|
+|switch|p1a: Mr. Mime|Mr. Mime, L70|79\/191
+|turn|63
+|c|★qht|it's inconsistent but
+|c|★qht|so so strong
+|choice|move 4|move 1
+|
+|move|p2a: Charizard|Fire Spin|p1a: Mr. Mime
+|-crit|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|57\/191
+|-activate|p1a: Mr. Mime|move: Fire Spin|[of] p2a: Charizard
+|cant|p1a: Mr. Mime|partiallytrapped
+|
+|turn|64
+|c|★qht|when it works
+|choice|move 4|move 1
+|
+|move|p2a: Charizard|Fire Spin|p1a: Mr. Mime|[from]Fire Spin
+|-damage|p1a: Mr. Mime|35\/191
+|cant|p1a: Mr. Mime|partiallytrapped
+|
+|turn|65
+|-message|hodor forfeited.
+|
+|win|qht

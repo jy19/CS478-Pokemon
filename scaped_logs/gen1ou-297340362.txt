@@ -1,0 +1,449 @@
+﻿|join|Lusch
+|join|fapkingg
+|player|p1|Lusch|153
+|player|p2|fapkingg|25
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|seed|65241,62798,416,46653
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Jynx|Jynx|333\/333
+|turn|1
+|c|★fapkingg|hf n_n
+|c|★Lusch|u2
+|join|Beds
+|choice|move 1|move 1
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Jynx
+|-status|p2a: Jynx|par
+|move|p2a: Jynx|Lovely Kiss|p1a: Alakazam
+|-status|p1a: Alakazam|slp
+|
+|turn|2
+|choice|switch 3|move 2
+|
+|switch|p1a: Slowbro|Slowbro|393\/393
+|move|p2a: Jynx|Blizzard|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|319\/393
+|
+|turn|3
+|choice|move 4|move 2
+|
+|move|p1a: Slowbro|Thunder Wave|p2a: Jynx
+|-fail|p2a: Jynx|par
+|move|p2a: Jynx|Blizzard|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|244\/393
+|
+|turn|4
+|choice|move 1|move 2
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|move|p2a: Jynx|Blizzard|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|207\/393
+|
+|turn|5
+|choice|move 2|move 2
+|
+|move|p1a: Slowbro|Surf|p2a: Jynx
+|-damage|p2a: Jynx|135\/333 par
+|cant|p2a: Jynx|par
+|
+|turn|6
+|choice|move 2|switch 2
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|move|p1a: Slowbro|Surf|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|222\/323
+|
+|turn|7
+|choice|move 4|move 3
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|choice|switch 6|
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|turn|8
+|choice|move 1|switch 2
+|
+|switch|p2a: Jynx|Jynx|135\/333 par
+|move|p1a: Exeggutor|Sleep Powder|p2a: Jynx|[miss]
+|-miss|p1a: Exeggutor
+|
+|turn|9
+|choice|move 3|move 2
+|
+|move|p1a: Exeggutor|Hyper Beam|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|choice||switch 2
+|
+|switch|p2a: Starmie|Starmie|222\/323
+|turn|10
+|choice|switch 2|move 2
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: Starmie|Blizzard|p1a: Snorlax
+|-damage|p1a: Snorlax|394\/523
+|
+|turn|11
+|choice|move 3|move 1
+|
+|move|p2a: Starmie|Hydro Pump|p1a: Snorlax
+|-damage|p1a: Snorlax|200\/523
+|move|p1a: Snorlax|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|99\/323
+|-status|p2a: Starmie|par
+|
+|turn|12
+|choice|move 3|switch 4
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Snorlax|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|395\/703
+|
+|turn|13
+|choice|move 3|move 3
+|
+|move|p2a: Chansey|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|cant|p1a: Snorlax|par
+|
+|turn|14
+|choice|move 2|move 4
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp
+|-heal|p1a: Snorlax|523\/523 slp|[silent]
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|
+|turn|15
+|choice|move 3|switch 3
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|cant|p1a: Snorlax|slp
+|
+|turn|16
+|choice|switch 2|switch 4
+|
+|switch|p2a: Starmie|Starmie|99\/323 par
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|
+|turn|17
+|choice|move 3|switch 4
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Exeggutor|Hyper Beam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|267\/393
+|
+|turn|18
+|-mustrecharge|p1a: Exeggutor
+|-mustrecharge|p1a: Exeggutor
+|choice|move 1|move 4
+|
+|cant|p1a: Exeggutor|recharge
+|move|p2a: Exeggutor|Explosion|p1a: Exeggutor
+|-damage|p1a: Exeggutor|119\/393
+|faint|p2a: Exeggutor
+|choice||switch 6
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|19
+|choice|switch 4|move 4
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|move|p2a: Tauros|Blizzard|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|285\/323
+|
+|turn|20
+|choice|switch 4|switch 3
+|
+|switch|p1a: Exeggutor|Exeggutor|119\/393
+|switch|p2a: Chansey|Chansey|703\/703
+|
+|turn|21
+|choice|move 1|switch 4
+|
+|switch|p2a: Starmie|Starmie|99\/323 par
+|move|p1a: Exeggutor|Sleep Powder|p2a: Starmie
+|-fail|p2a: Starmie
+|
+|turn|22
+|choice|move 3|switch 5
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Exeggutor|Hyper Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|364\/523
+|
+|turn|23
+|-mustrecharge|p1a: Exeggutor
+|-mustrecharge|p1a: Exeggutor
+|choice|move 1|move 3
+|
+|cant|p1a: Exeggutor|recharge
+|move|p2a: Snorlax|Hyper Beam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|choice|switch 2|
+|
+|switch|p1a: Snorlax|Snorlax|523\/523 slp
+|turn|24
+|choice|move 2|move 1
+|
+|-curestatus|p1a: Snorlax|slp
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|385\/523
+|
+|turn|25
+|choice|move 1|move 4
+|
+|move|p1a: Snorlax|Reflect|p1a: Snorlax
+|-start|p1a: Snorlax|Reflect
+|move|p2a: Snorlax|Self-Destruct|p1a: Snorlax
+|-damage|p1a: Snorlax|174\/523
+|faint|p2a: Snorlax
+|choice||switch 4
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|turn|26
+|choice|move 2|move 1
+|
+|move|p2a: Chansey|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|76\/523
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp
+|-heal|p1a: Snorlax|523\/523 slp|[silent]
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|
+|turn|27
+|choice|move 3|switch 5
+|
+|switch|p2a: Starmie|Starmie|99\/323 par
+|cant|p1a: Snorlax|slp
+|
+|turn|28
+|choice|move 3|move 4
+|
+|-curestatus|p1a: Snorlax|slp
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|260\/323 par
+|
+|turn|29
+|choice|move 3|switch 5
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Snorlax|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|398\/703
+|
+|turn|30
+|choice|move 3|move 3
+|
+|move|p2a: Chansey|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|move|p1a: Snorlax|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|123\/703
+|
+|turn|31
+|choice|switch 5|move 4
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|474\/703
+|
+|turn|32
+|choice|move 4|move 3
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Chansey|[miss]
+|-miss|p1a: Tauros
+|move|p2a: Chansey|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|
+|turn|33
+|c|★fapkingg|eh :x
+|choice|move 2|move 4
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703
+|move|p1a: Tauros|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|443\/703
+|
+|turn|34
+|choice|move 2|switch 5
+|
+|switch|p2a: Starmie|Starmie|260\/323 par
+|cant|p1a: Tauros|par
+|
+|turn|35
+|choice|switch 5|move 1
+|
+|switch|p1a: Snorlax|Snorlax|523\/523 par
+|move|p2a: Starmie|Hydro Pump|p1a: Snorlax
+|-damage|p1a: Snorlax|329\/523 par
+|
+|turn|36
+|choice|switch 4|move 1
+|
+|switch|p1a: Starmie|Starmie|285\/323
+|move|p2a: Starmie|Hydro Pump|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|218\/323
+|
+|turn|37
+|choice|move 3|switch 5
+|
+|switch|p2a: Chansey|Chansey|443\/703
+|move|p1a: Starmie|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|347\/703
+|
+|turn|38
+|choice|switch 4|switch 5
+|
+|switch|p1a: Snorlax|Snorlax|329\/523 par
+|switch|p2a: Starmie|Starmie|260\/323 par
+|
+|turn|39
+|choice|move 2|move 1
+|
+|move|p2a: Starmie|Hydro Pump|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|choice|switch 4|
+|
+|switch|p1a: Starmie|Starmie|218\/323
+|turn|40
+|choice|move 2|move 3
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Starmie
+|-crit|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|choice||switch 5
+|
+|switch|p2a: Chansey|Chansey|347\/703
+|turn|41
+|choice|switch 5|move 4
+|
+|switch|p1a: Tauros|Tauros|353\/353 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|698\/703
+|
+|turn|42
+|choice|move 2|move 1
+|
+|move|p2a: Chansey|Ice Beam|p1a: Tauros
+|-damage|p1a: Tauros|255\/353 par
+|move|p1a: Tauros|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|430\/703
+|
+|turn|43
+|choice|move 2|move 4
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703
+|cant|p1a: Tauros|par
+|
+|turn|44
+|choice|move 2|move 1
+|
+|move|p2a: Chansey|Ice Beam|p1a: Tauros
+|-damage|p1a: Tauros|150\/353 par
+|move|p1a: Tauros|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|436\/703
+|
+|turn|45
+|choice|move 2|move 4
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703
+|move|p1a: Tauros|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|435\/703
+|
+|turn|46
+|choice|move 2|move 4
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703
+|move|p1a: Tauros|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|432\/703
+|
+|turn|47
+|choice|move 2|move 4
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703
+|move|p1a: Tauros|Body Slam|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|150\/703
+|
+|turn|48
+|choice|move 4|move 4
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|501\/703
+|move|p1a: Tauros|Hyper Beam|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|choice||switch 3
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|49
+|choice|move 4|move 2
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|choice|switch 3|
+|
+|switch|p1a: Alakazam|Alakazam|313\/313 slp
+|turn|50
+|choice|move 3|move 1
+|
+|cant|p1a: Alakazam|slp
+|move|p2a: Tauros|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|163\/313 slp
+|
+|turn|51
+|choice|move 4|move 2
+|
+|cant|p1a: Alakazam|slp
+|move|p2a: Tauros|Hyper Beam|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|choice|switch 5|
+|
+|switch|p1a: Starmie|Starmie|218\/323
+|turn|52
+|choice|move 1|move 1
+|
+|move|p1a: Starmie|Hydro Pump|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|win|Lusch
+|c|★fapkingg|gg
+|c|★Lusch|gg
+|c|★fapkingg|gl in next rounds

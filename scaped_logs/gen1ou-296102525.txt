@@ -1,0 +1,510 @@
+﻿|join|Peasounay
+|join|Disaster Area
+|player|p1|Peasounay|80
+|player|p2|Disaster Area|4
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|seed|9930,8660,35780,44934
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: WellIStallYourFace|Alakazam|313\/313
+|switch|p2a: Alakazam|Alakazam|313\/313
+|turn|1
+|join|Noratraika
+|c|★Disaster Area|gl hf
+|c|★Peasounay|gl hf :)
+|choice|switch 5|move 4
+|
+|switch|p1a: I Own RBY|Chansey|703\/703
+|move|p2a: Alakazam|Thunder Wave|p1a: I Own RBY
+|-status|p1a: I Own RBY|par
+|
+|turn|2
+|choice|move 4|move 3
+|
+|move|p2a: Alakazam|Psychic|p1a: I Own RBY
+|-damage|p1a: I Own RBY|584\/703 par
+|-unboost|p1a: I Own RBY|spd|1
+|-unboost|p1a: I Own RBY|spa|1
+|move|p1a: I Own RBY|Sing|p2a: Alakazam|[miss]
+|-miss|p1a: I Own RBY
+|
+|turn|3
+|choice|move 4|move 3
+|
+|move|p2a: Alakazam|Psychic|p1a: I Own RBY
+|-damage|p1a: I Own RBY|386\/703 par
+|cant|p1a: I Own RBY|par
+|
+|turn|4
+|choice|move 1|move 3
+|
+|move|p2a: Alakazam|Psychic|p1a: I Own RBY
+|-damage|p1a: I Own RBY|207\/703 par
+|cant|p1a: I Own RBY|par
+|
+|turn|5
+|choice|move 1|move 3
+|
+|move|p2a: Alakazam|Psychic|p1a: I Own RBY
+|-damage|p1a: I Own RBY|22\/703 par
+|move|p1a: I Own RBY|Soft-Boiled|p1a: I Own RBY
+|-heal|p1a: I Own RBY|373\/703 par
+|
+|turn|6
+|choice|move 1|move 3
+|
+|move|p2a: Alakazam|Psychic|p1a: I Own RBY
+|-damage|p1a: I Own RBY|182\/703 par
+|-unboost|p1a: I Own RBY|spd|1
+|-unboost|p1a: I Own RBY|spa|1
+|move|p1a: I Own RBY|Soft-Boiled|p1a: I Own RBY
+|-heal|p1a: I Own RBY|533\/703 par
+|
+|turn|7
+|choice|switch 2|move 4
+|
+|switch|p1a: Wear Candoms Kid|Exeggutor|393\/393
+|move|p2a: Alakazam|Thunder Wave|p1a: Wear Candoms Kid
+|-status|p1a: Wear Candoms Kid|par
+|
+|turn|8
+|choice|switch 2|move 1
+|
+|switch|p1a: I Own RBY|Chansey|533\/703 par
+|move|p2a: Alakazam|Seismic Toss|p1a: I Own RBY
+|-damage|p1a: I Own RBY|433\/703 par
+|
+|turn|9
+|choice|move 1|move 3
+|
+|move|p2a: Alakazam|Psychic|p1a: I Own RBY
+|-damage|p1a: I Own RBY|312\/703 par
+|move|p1a: I Own RBY|Soft-Boiled|p1a: I Own RBY
+|-heal|p1a: I Own RBY|663\/703 par
+|
+|turn|10
+|choice|move 4|move 3
+|
+|move|p2a: Alakazam|Psychic|p1a: I Own RBY
+|-damage|p1a: I Own RBY|528\/703 par
+|move|p1a: I Own RBY|Sing|p2a: Alakazam
+|-status|p2a: Alakazam|slp
+|
+|turn|11
+|choice|switch 3|switch 4
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|switch|p1a: Yo Momma|Snorlax|523\/523
+|
+|turn|12
+|choice|switch 3|switch 2
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|switch|p1a: I Own RBY|Chansey|528\/703 par
+|
+|turn|13
+|choice|switch 3|move 4
+|
+|switch|p1a: Yo Momma|Snorlax|523\/523
+|move|p2a: Snorlax|Body Slam|p1a: Yo Momma
+|-damage|p1a: Yo Momma|384\/523
+|
+|turn|14
+|choice|move 2|move 2
+|
+|move|p1a: Yo Momma|Earthquake|p2a: Snorlax
+|-damage|p2a: Snorlax|406\/523
+|move|p2a: Snorlax|Reflect|p2a: Snorlax
+|-start|p2a: Snorlax|Reflect
+|
+|turn|15
+|choice|move 3|move 4
+|
+|move|p2a: Snorlax|Body Slam|p1a: Yo Momma
+|-damage|p1a: Yo Momma|241\/523
+|move|p1a: Yo Momma|Counter|p2a: Snorlax
+|-damage|p2a: Snorlax|120\/523
+|
+|turn|16
+|choice|move 1|move 3
+|
+|move|p1a: Yo Momma|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|49\/523
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp
+|-heal|p2a: Snorlax|523\/523 slp|[silent]
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|
+|turn|17
+|choice|switch 6|move 4
+|
+|switch|p1a: ZFap ZFap ZFap|Zapdos|383\/383
+|cant|p2a: Snorlax|slp
+|
+|turn|18
+|choice|move 2|switch 6
+|
+|switch|p2a: Jolteon|Jolteon|333\/333
+|move|p1a: ZFap ZFap ZFap|Thunderbolt|p2a: Jolteon
+|-resisted|p2a: Jolteon
+|-damage|p2a: Jolteon|271\/333
+|
+|turn|19
+|choice|move 3|move 3
+|
+|move|p2a: Jolteon|Thunder Wave|p1a: ZFap ZFap ZFap
+|-status|p1a: ZFap ZFap ZFap|par
+|move|p1a: ZFap ZFap ZFap|Thunder Wave|p2a: Jolteon
+|-status|p2a: Jolteon|par
+|
+|turn|20
+|c| Noratraika|lol
+|c|★Peasounay|disaster is always in my head
+|c|★Disaster Area|^
+|c| Noratraika|Useless jolteon and zapdos
+|c|★Disaster Area|he's lucky I can't take full advantage of that though cos my french is mediocre xD :^)
+|choice|move 2|move 2
+|
+|cant|p2a: Jolteon|par
+|move|p1a: ZFap ZFap ZFap|Thunderbolt|p2a: Jolteon
+|-resisted|p2a: Jolteon
+|-damage|p2a: Jolteon|209\/333 par
+|
+|turn|21
+|c|★Peasounay|haha
+|choice|switch 3|move 2
+|
+|switch|p1a: I Own RBY|Chansey|528\/703 par
+|cant|p2a: Jolteon|par
+|
+|turn|22
+|choice|move 1|move 4
+|
+|move|p2a: Jolteon|Double Kick|p1a: I Own RBY
+|-supereffective|p1a: I Own RBY
+|-damage|p1a: I Own RBY|434\/703 par
+|-damage|p1a: I Own RBY|340\/703 par
+|-hitcount|p1a: I Own RBY|2
+|move|p1a: I Own RBY|Soft-Boiled|p1a: I Own RBY
+|-heal|p1a: I Own RBY|691\/703 par
+|
+|turn|23
+|choice|move 2|move 2
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: I Own RBY
+|-damage|p1a: I Own RBY|574\/703 par
+|move|p1a: I Own RBY|Seismic Toss|p2a: Jolteon
+|-damage|p2a: Jolteon|109\/333 par
+|
+|turn|24
+|choice|move 1|move 4
+|
+|move|p2a: Jolteon|Double Kick|p1a: I Own RBY
+|-supereffective|p1a: I Own RBY
+|-damage|p1a: I Own RBY|478\/703 par
+|-damage|p1a: I Own RBY|382\/703 par
+|-hitcount|p1a: I Own RBY|2
+|move|p1a: I Own RBY|Soft-Boiled|p1a: I Own RBY
+|-heal|p1a: I Own RBY|703\/703 par
+|
+|turn|25
+|choice|move 2|move 4
+|
+|cant|p2a: Jolteon|par
+|move|p1a: I Own RBY|Seismic Toss|p2a: Jolteon
+|-damage|p2a: Jolteon|9\/333 par
+|
+|turn|26
+|choice|move 2|move 4
+|
+|cant|p2a: Jolteon|par
+|move|p1a: I Own RBY|Seismic Toss|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|choice||switch 6
+|
+|switch|p2a: Snorlax|Snorlax|523\/523 slp
+|turn|27
+|choice|switch 6|move 2
+|
+|switch|p1a: Yo Momma|Snorlax|241\/523
+|-curestatus|p2a: Snorlax|slp
+|
+|turn|28
+|choice|move 4|move 2
+|
+|move|p1a: Yo Momma|Self-Destruct|p2a: Snorlax
+|-damage|p2a: Snorlax|108\/523
+|faint|p1a: Yo Momma
+|c|★Peasounay|phew
+|choice|switch 5|
+|
+|switch|p1a: WellIStallYourFace|Alakazam|313\/313
+|turn|29
+|choice|move 2|switch 2
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: WellIStallYourFace|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|585\/703
+|
+|turn|30
+|choice|move 2|move 2
+|
+|move|p1a: WellIStallYourFace|Psychic|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|328\/703
+|move|p2a: Chansey|Thunder Wave|p1a: WellIStallYourFace
+|-status|p1a: WellIStallYourFace|par
+|
+|turn|31
+|choice|move 1|move 1
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|679\/703
+|move|p1a: WellIStallYourFace|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|turn|32
+|join|LOL tu PUes
+|c| Noratraika|No FRZ attempt ?
+|choice|move 2|move 4
+|
+|move|p1a: WellIStallYourFace|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|543\/703 par
+|move|p2a: Chansey|Ice Beam|p1a: WellIStallYourFace
+|-damage|p1a: WellIStallYourFace|252\/313 par
+|
+|turn|33
+|c|★Disaster Area|nah
+|c|★Disaster Area|not for my team\/how i want to play\/how the odds are should I try to do that
+|choice|move 2|move 1
+|
+|move|p1a: WellIStallYourFace|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|409\/703 par
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703 par
+|
+|turn|34
+|choice|move 2|switch 4
+|
+|switch|p2a: Alakazam|Alakazam|313\/313 slp
+|cant|p1a: WellIStallYourFace|par
+|
+|turn|35
+|choice|switch 3|move 3
+|
+|switch|p1a: ZFap ZFap ZFap|Zapdos|383\/383 par
+|cant|p2a: Alakazam|slp
+|
+|turn|36
+|c| Noratraika|I always try to FRZ chansey first
+|c|★Disaster Area|o u mean him on me
+|c|★Disaster Area|nah his team is very
+|c|★Disaster Area|para focussed
+|c| Noratraika|Yes
+|choice|move 1|switch 3
+|
+|switch|p2a: Lapras|Lapras|463\/463
+|move|p1a: ZFap ZFap ZFap|Drill Peck|p2a: Lapras
+|-crit|p2a: Lapras
+|-damage|p2a: Lapras|276\/463
+|
+|turn|37
+|choice|move 2|move 2
+|
+|move|p2a: Lapras|Blizzard|p1a: ZFap ZFap ZFap
+|-supereffective|p1a: ZFap ZFap ZFap
+|-damage|p1a: ZFap ZFap ZFap|154\/383 par
+|move|p1a: ZFap ZFap ZFap|Thunderbolt|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|choice||switch 4
+|
+|switch|p2a: Chansey|Chansey|703\/703 par
+|turn|38
+|c|★Peasounay|i don't like how this battle is going haha
+|c|★Peasounay|3 times already you overpredict me
+|choice|switch 3|move 4
+|
+|switch|p1a: WellIStallYourFace|Alakazam|252\/313 par
+|move|p2a: Chansey|Ice Beam|p1a: WellIStallYourFace
+|-damage|p1a: WellIStallYourFace|192\/313 par
+|
+|turn|39
+|choice|move 2|switch 3
+|
+|switch|p2a: Alakazam|Alakazam|313\/313 slp
+|cant|p1a: WellIStallYourFace|par
+|
+|turn|40
+|choice|move 4|switch 5
+|
+|switch|p2a: Koopacow|Tauros|353\/353
+|cant|p1a: WellIStallYourFace|par
+|
+|turn|41
+|choice|move 1|move 1
+|
+|move|p2a: Koopacow|Body Slam|p1a: WellIStallYourFace
+|-damage|p1a: WellIStallYourFace|26\/313 par
+|cant|p1a: WellIStallYourFace|par
+|
+|turn|42
+|choice|move 3|move 1
+|
+|move|p2a: Koopacow|Body Slam|p1a: WellIStallYourFace
+|-crit|p1a: WellIStallYourFace
+|-damage|p1a: WellIStallYourFace|0 fnt
+|faint|p1a: WellIStallYourFace
+|choice|switch 4|
+|
+|switch|p1a: ShowMeUrAss|Tauros|353\/353
+|turn|43
+|choice|move 2|move 1
+|
+|move|p1a: ShowMeUrAss|Body Slam|p2a: Koopacow
+|-damage|p2a: Koopacow|241\/353
+|move|p2a: Koopacow|Body Slam|p1a: ShowMeUrAss
+|-damage|p1a: ShowMeUrAss|251\/353
+|
+|turn|44
+|choice|move 2|move 2
+|
+|move|p2a: Koopacow|Blizzard|p1a: ShowMeUrAss
+|-damage|p1a: ShowMeUrAss|163\/353
+|move|p1a: ShowMeUrAss|Body Slam|p2a: Koopacow
+|-crit|p2a: Koopacow
+|-damage|p2a: Koopacow|55\/353
+|
+|turn|45
+|choice|switch 2|move 4
+|
+|switch|p1a: Wear Candoms Kid|Exeggutor|393\/393 par
+|move|p2a: Koopacow|Hyper Beam|p1a: Wear Candoms Kid
+|-damage|p1a: Wear Candoms Kid|213\/393 par
+|
+|turn|46
+|-mustrecharge|p2a: Koopacow
+|c| Noratraika|Why Blizzard ?
+|c|★Disaster Area|still puts him in HB range
+|c|★Disaster Area|but has frz chance
+|-mustrecharge|p2a: Koopacow
+|choice|move 2|move 1
+|
+|cant|p2a: Koopacow|recharge
+|move|p1a: Wear Candoms Kid|Psychic|p2a: Koopacow
+|-damage|p2a: Koopacow|0 fnt
+|faint|p2a: Koopacow
+|choice||switch 2
+|
+|switch|p2a: Snorlax|Snorlax|108\/523
+|turn|47
+|c| Noratraika|What's the range for hyper beam ? I though it was only 40%
+|c|★Disaster Area|Tauros Hyper Beam vs. Tauros: 166-196 (47 - 55.5%) -- 76.2% chance to 2HKO
+|c|★Peasounay|47-55
+|c| Noratraika|Didn't think it was so high
+|choice|move 2|move 1
+|
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|move|p1a: Wear Candoms Kid|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|25\/523
+|
+|turn|48
+|choice|switch 2|move 3
+|
+|switch|p1a: ShowMeUrAss|Tauros|163\/353
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp
+|-heal|p2a: Snorlax|523\/523 slp|[silent]
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|
+|turn|49
+|choice|move 2|move 4
+|
+|move|p1a: ShowMeUrAss|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|389\/523 slp
+|cant|p2a: Snorlax|slp
+|
+|turn|50
+|choice|move 2|move 2
+|
+|move|p1a: ShowMeUrAss|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|248\/523 slp
+|-curestatus|p2a: Snorlax|slp
+|
+|turn|51
+|c|★Disaster Area|no crits plz
+|choice|move 2|move 2
+|
+|move|p1a: ShowMeUrAss|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|124\/523
+|move|p2a: Snorlax|Reflect|p2a: Snorlax
+|-start|p2a: Snorlax|Reflect
+|
+|turn|52
+|choice|move 2|move 3
+|
+|move|p1a: ShowMeUrAss|Body Slam|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|c|★Disaster Area|rip
+|c|★Disaster Area|that's p much gg lol
+|choice||switch 3
+|
+|switch|p2a: Chansey|Chansey|703\/703 par
+|turn|53
+|choice|move 2|move 2
+|
+|move|p1a: ShowMeUrAss|Body Slam|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|175\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|54
+|c|★Peasounay|that bull is on fire
+|choice|move 2|move 2
+|
+|move|p1a: ShowMeUrAss|Body Slam|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|choice||switch 5
+|
+|switch|p2a: Alakazam|Alakazam|313\/313 slp
+|turn|55
+|c|★Disaster Area|wake here
+|choice|move 2|move 3
+|
+|cant|p2a: Alakazam|slp
+|move|p1a: ShowMeUrAss|Body Slam|p2a: Alakazam
+|-damage|p2a: Alakazam|168\/313 slp
+|
+|turn|56
+|c|★Disaster Area|low roll + wake here \/ miss hb
+|choice|move 3|move 3
+|
+|-curestatus|p2a: Alakazam|slp
+|move|p1a: ShowMeUrAss|Hyper Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|win|Peasounay
+|c|★Peasounay|nope
+|c|★Peasounay|haha
+|c|★Peasounay|good game
+|c| Noratraika|256 lol
+|c|★Disaster Area|gg

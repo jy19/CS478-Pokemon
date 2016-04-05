@@ -1,0 +1,179 @@
+﻿|j|MALESANI
+|j|Tobidinho
+|player|p1|MALESANI|238
+|player|p2|Tobidinho|161
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|45612,51554,34080,11047
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Venomoth|Venomoth, L85|293\/293
+|switch|p2a: Beedrill|Beedrill, L90|300\/300
+|turn|1
+|choice|move 1|move 3
+|
+|move|p1a: Venomoth|Psychic|p2a: Beedrill
+|-supereffective|p2a: Beedrill
+|-damage|p2a: Beedrill|125\/300
+|move|p2a: Beedrill|Swords Dance|p2a: Beedrill
+|-boost|p2a: Beedrill|atk|2
+|
+|turn|2
+|choice|move 1|move 1
+|
+|move|p1a: Venomoth|Psychic|p2a: Beedrill
+|-crit|p2a: Beedrill
+|-supereffective|p2a: Beedrill
+|-damage|p2a: Beedrill|0 fnt
+|faint|p2a: Beedrill
+|choice||switch 4
+|
+|switch|p2a: Mew|Mew, L74|300\/300
+|turn|3
+|choice|move 2|move 1
+|
+|move|p1a: Venomoth|Sleep Powder|p2a: Mew
+|-status|p2a: Mew|slp
+|cant|p2a: Mew|slp
+|
+|turn|4
+|choice|switch 5|move 1
+|
+|switch|p1a: Lickitung|Lickitung, L90|345\/345
+|-curestatus|p2a: Mew|slp
+|
+|turn|5
+|choice|move 1|move 3
+|
+|move|p2a: Mew|Hyper Beam|p1a: Lickitung
+|-damage|p1a: Lickitung|257\/345
+|move|p1a: Lickitung|Body Slam|p2a: Mew
+|-damage|p2a: Mew|217\/300
+|
+|turn|6
+|-mustrecharge|p2a: Mew
+|-mustrecharge|p2a: Mew
+|choice|move 4|move 1
+|
+|cant|p2a: Mew|recharge
+|move|p1a: Lickitung|Swords Dance|p1a: Lickitung
+|-boost|p1a: Lickitung|atk|2
+|
+|turn|7
+|choice|move 1|move 4
+|
+|move|p2a: Mew|Psychic|p1a: Lickitung
+|-damage|p1a: Lickitung|171\/345
+|move|p1a: Lickitung|Body Slam|p2a: Mew
+|-damage|p2a: Mew|66\/300
+|
+|turn|8
+|choice|move 1|move 1
+|
+|move|p2a: Mew|Earthquake|p1a: Lickitung
+|-damage|p1a: Lickitung|111\/345
+|move|p1a: Lickitung|Body Slam|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|choice||switch 3
+|
+|switch|p2a: Raticate|Raticate, L85|267\/267
+|turn|9
+|choice|move 3|move 4
+|
+|move|p2a: Raticate|Body Slam|p1a: Lickitung
+|-damage|p1a: Lickitung|19\/345
+|move|p1a: Lickitung|Hyper Beam|p2a: Raticate
+|-damage|p2a: Raticate|0 fnt
+|faint|p2a: Raticate
+|choice||switch 6
+|
+|switch|p2a: Kabutops|Kabutops, L85|276\/276
+|turn|10
+|choice|move 2|move 4
+|
+|move|p2a: Kabutops|Swords Dance|p2a: Kabutops
+|-boost|p2a: Kabutops|atk|2
+|move|p1a: Lickitung|Earthquake|p2a: Kabutops
+|-supereffective|p2a: Kabutops
+|-damage|p2a: Kabutops|66\/276
+|
+|turn|11
+|choice|move 2|move 1
+|
+|move|p2a: Kabutops|Body Slam|p1a: Lickitung
+|-damage|p1a: Lickitung|0 fnt
+|faint|p1a: Lickitung
+|choice|switch 5|
+|
+|switch|p1a: Venomoth|Venomoth, L85|293\/293
+|turn|12
+|choice|move 4|move 1
+|
+|move|p1a: Venomoth|Mega Drain|p2a: Kabutops
+|-supereffective|p2a: Kabutops
+|-damage|p2a: Kabutops|0 fnt
+|faint|p2a: Kabutops
+|choice||switch 2
+|
+|switch|p2a: Zapdos|Zapdos, L79|304\/304
+|turn|13
+|choice|move 2|move 4
+|
+|move|p1a: Venomoth|Sleep Powder|p2a: Zapdos
+|-status|p2a: Zapdos|slp
+|cant|p2a: Zapdos|slp
+|
+|turn|14
+|choice|switch 4|move 4
+|
+|switch|p1a: Cloyster|Cloyster, L83|253\/253
+|cant|p2a: Zapdos|slp
+|
+|turn|15
+|choice|move 2|move 4
+|
+|cant|p2a: Zapdos|slp
+|move|p1a: Cloyster|Ice Beam|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|159\/304 slp
+|
+|turn|16
+|choice|switch 2|move 4
+|
+|switch|p1a: Nidoran-M|Nidoran-M, L96|283\/283
+|cant|p2a: Zapdos|slp
+|
+|turn|17
+|choice|move 4|move 4
+|
+|cant|p2a: Zapdos|slp
+|move|p1a: Nidoran-M|Double-Edge|p2a: Zapdos
+|-damage|p2a: Zapdos|86\/304 slp
+|-damage|p1a: Nidoran-M|265\/283|[from] recoil|[of] p2a: Zapdos
+|
+|turn|18
+|choice|switch 3|move 4
+|
+|switch|p1a: Moltres|Moltres, L85|327\/327
+|-curestatus|p2a: Zapdos|slp
+|
+|turn|19
+|choice|move 2|move 4
+|
+|move|p1a: Moltres|Hyper Beam|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|-message|Tobidinho forfeited.
+|
+|win|MALESANI
+|player|p1
+|player|p2
+|l|Tobidinho
+|raw|MALESANI's rating: 1331 &rarr; <strong>1338<\/strong><br \/>(+7 for winning)
+|raw|Tobidinho's rating: 1081 &rarr; <strong>1072<\/strong><br \/>(-9 for losing)

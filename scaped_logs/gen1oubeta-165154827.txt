@@ -1,0 +1,688 @@
+﻿|join|TotallyNotGGC
+|join|Gij
+|player|p1|TotallyNotGGC|10
+|player|p2|Gij|163
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gengar|Gengar|323\/323
+|switch|p2a: Alak|Alakazam|313\/313
+|turn|1
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Alak|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|583\/703
+|
+|turn|2
+|
+|switch|p2a: Persian|Persian|333\/333
+|move|p1a: Chansey|Light Screen|p1a: Chansey
+|
+|turn|3
+|
+|switch|p1a: Gengar|Gengar|323\/323
+|move|p2a: Persian|Thunderbolt|p1a: Gengar
+|-damage|p1a: Gengar|279\/323
+|
+|turn|4
+|
+|switch|p2a: Exe|Exeggutor|393\/393
+|move|p1a: Gengar|Hypnosis|p2a: Exe
+|-status|p2a: Exe|slp
+|
+|turn|5
+|
+|move|p1a: Gengar|Seismic Toss|p2a: Exe
+|-damage|p2a: Exe|293\/393 slp
+|cant|p2a: Exe|slp
+|
+|turn|6
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|move|p1a: Gengar|Seismic Toss|p2a: Gengar
+|-damage|p2a: Gengar|223\/323
+|
+|turn|7
+|
+|move|p1a: Gengar|Seismic Toss|p2a: Gengar
+|-damage|p2a: Gengar|123\/323
+|move|p2a: Gengar|Psychic|p1a: Gengar
+|-crit|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|turn|8
+|join|I'm a Genesect
+|
+|switch|p2a: Alak|Alakazam|313\/313
+|move|p1a: Alakazam|Psychic|p2a: Alak
+|-resisted|p2a: Alak
+|-damage|p2a: Alak|260\/313
+|-unboost|p2a: Alak|spd|1
+|-unboost|p2a: Alak|spa|1
+|
+|turn|9
+|
+|switch|p1a: Chansey|Chansey|583\/703
+|move|p2a: Alak|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|turn|10
+|
+|switch|p2a: Persian|Persian|333\/333
+|move|p1a: Chansey|Light Screen|p1a: Chansey
+|
+|turn|11
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Persian|Slash|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-damage|p1a: Exeggutor|236\/393
+|
+|turn|12
+|
+|move|p2a: Persian|Slash|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-damage|p1a: Exeggutor|78\/393
+|move|p1a: Exeggutor|Stun Spore|p2a: Persian
+|-status|p2a: Persian|par
+|
+|turn|13
+|
+|move|p1a: Exeggutor|Psychic|p2a: Persian
+|-damage|p2a: Persian|174\/333 par
+|move|p2a: Persian|Slash|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|turn|14
+|
+|move|p1a: Alakazam|Psychic|p2a: Persian
+|-crit|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|faint|p2a: Persian
+|
+|switch|p2a: Snor|Snorlax|523\/523
+|turn|15
+|
+|move|p1a: Alakazam|Reflect|p1a: Alakazam
+|move|p2a: Snor|Amnesia|p2a: Snor
+|-boost|p2a: Snor|spd|2
+|-boost|p2a: Snor|spa|2
+|
+|turn|16
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Snor
+|-status|p2a: Snor|par
+|move|p2a: Snor|Harden|p2a: Snor
+|-boost|p2a: Snor|def|1
+|
+|turn|17
+|
+|move|p1a: Alakazam|Psychic|p2a: Snor
+|-damage|p2a: Snor|439\/523 par
+|cant|p2a: Snor|par
+|
+|turn|18
+|
+|move|p1a: Alakazam|Psychic|p2a: Snor
+|-damage|p2a: Snor|356\/523 par
+|move|p2a: Snor|Amnesia|p2a: Snor
+|-boost|p2a: Snor|spd|2
+|-boost|p2a: Snor|spa|2
+|
+|turn|19
+|
+|move|p1a: Alakazam|Psychic|p2a: Snor
+|-damage|p2a: Snor|295\/523 par
+|-unboost|p2a: Snor|spd|1
+|-unboost|p2a: Snor|spa|1
+|move|p2a: Snor|Amnesia|p2a: Snor
+|-boost|p2a: Snor|spd|2
+|-boost|p2a: Snor|spa|2
+|
+|turn|20
+|
+|move|p1a: Alakazam|Psychic|p2a: Snor
+|-damage|p2a: Snor|243\/523 par
+|cant|p2a: Snor|par
+|
+|turn|21
+|
+|move|p1a: Alakazam|Psychic|p2a: Snor
+|-damage|p2a: Snor|191\/523 par
+|move|p2a: Snor|Rest|p2a: Snor
+|-status|p2a: Snor|slp
+|-heal|p2a: Snor|523\/523 slp|[silent]
+|-status|p2a: Snor|slp|[from] move: Rest
+|
+|turn|22
+|
+|move|p1a: Alakazam|Psychic|p2a: Snor
+|-damage|p2a: Snor|475\/523 slp
+|cant|p2a: Snor|slp
+|
+|turn|23
+|
+|move|p1a: Alakazam|Psychic|p2a: Snor
+|-damage|p2a: Snor|427\/523 slp
+|cant|p2a: Snor|slp
+|-curestatus|p2a: Snor|slp
+|
+|turn|24
+|
+|move|p1a: Alakazam|Psychic|p2a: Snor
+|-damage|p2a: Snor|377\/523
+|move|p2a: Snor|Ice Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|149\/313
+|
+|turn|25
+|
+|move|p1a: Alakazam|Psychic|p2a: Snor
+|-damage|p2a: Snor|331\/523
+|move|p2a: Snor|Amnesia|p2a: Snor
+|-boost|p2a: Snor|spd|2
+|-boost|p2a: Snor|spa|2
+|
+|turn|26
+|
+|move|p1a: Alakazam|Psychic|p2a: Snor
+|-damage|p2a: Snor|289\/523
+|move|p2a: Snor|Ice Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|27
+|
+|move|p1a: Tauros|Body Slam|p2a: Snor
+|-damage|p2a: Snor|207\/523
+|move|p2a: Snor|Harden|p2a: Snor
+|-boost|p2a: Snor|def|1
+|
+|turn|28
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Snor
+|-damage|p2a: Snor|89\/523
+|move|p2a: Snor|Harden|p2a: Snor
+|-boost|p2a: Snor|def|1
+|
+|turn|29
+|
+|cant|p1a: Tauros|recharge
+|move|p2a: Snor|Rest|p2a: Snor
+|-status|p2a: Snor|slp
+|-heal|p2a: Snor|523\/523 slp|[silent]
+|-status|p2a: Snor|slp|[from] move: Rest
+|
+|turn|30
+|
+|switch|p1a: Chansey|Chansey|583\/703 par
+|cant|p2a: Snor|slp
+|
+|turn|31
+|
+|cant|p1a: Chansey|par
+|cant|p2a: Snor|slp
+|-curestatus|p2a: Snor|slp
+|
+|turn|32
+|
+|move|p1a: Chansey|Light Screen|p1a: Chansey
+|move|p2a: Snor|Harden|p2a: Snor
+|-boost|p2a: Snor|def|1
+|
+|turn|33
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|move|p2a: Snor|Harden|p2a: Snor
+|-boost|p2a: Snor|def|1
+|
+|turn|34
+|
+|move|p1a: Chansey|Ice Beam|p2a: Snor
+|-damage|p2a: Snor|496\/523
+|move|p2a: Snor|Harden|p2a: Snor
+|-boost|p2a: Snor|def|1
+|
+|turn|35
+|
+|move|p1a: Chansey|Ice Beam|p2a: Snor
+|-damage|p2a: Snor|471\/523
+|move|p2a: Snor|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|479\/703 par
+|
+|turn|36
+|
+|cant|p1a: Chansey|par
+|move|p2a: Snor|Rest|p2a: Snor
+|-status|p2a: Snor|slp
+|-heal|p2a: Snor|523\/523 slp|[silent]
+|-status|p2a: Snor|slp|[from] move: Rest
+|
+|turn|37
+|leave|I'm a Genesect
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703 par
+|cant|p2a: Snor|slp
+|
+|turn|38
+|
+|move|p1a: Chansey|Light Screen|p1a: Chansey
+|-fail|p1a: Chansey
+|cant|p2a: Snor|slp
+|-curestatus|p2a: Snor|slp
+|
+|turn|39
+|
+|cant|p1a: Chansey|par
+|move|p2a: Snor|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|600\/703 par
+|
+|turn|40
+|
+|move|p1a: Chansey|Ice Beam|p2a: Snor
+|-damage|p2a: Snor|498\/523
+|move|p2a: Snor|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|483\/703 par
+|
+|turn|41
+|
+|move|p1a: Chansey|Ice Beam|p2a: Snor
+|-damage|p2a: Snor|472\/523
+|move|p2a: Snor|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|379\/703 par
+|
+|turn|42
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703 par
+|move|p2a: Snor|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|597\/703 par
+|
+|turn|43
+|
+|switch|p2a: Rhydon|Rhydon|413\/413
+|move|p1a: Chansey|Ice Beam|p2a: Rhydon
+|-crit|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|
+|switch|p2a: Alak|Alakazam|260\/313
+|turn|44
+|
+|move|p2a: Alak|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|534\/703 par
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|move|p1a: Chansey|Ice Beam|p2a: Alak
+|-damage|p2a: Alak|220\/313
+|
+|turn|45
+|
+|move|p2a: Alak|Substitute|p2a: Alak
+|-start|p2a: Alak|Substitute
+|-damage|p2a: Alak|142\/313
+|move|p1a: Chansey|Ice Beam|p2a: Alak
+|-activate|p2a: Alak|Substitute|[damage]
+|
+|turn|46
+|
+|move|p2a: Alak|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|443\/703 par
+|move|p1a: Chansey|Ice Beam|p2a: Alak
+|-end|p2a: Alak|Substitute
+|
+|turn|47
+|
+|move|p2a: Alak|Substitute|p2a: Alak
+|-start|p2a: Alak|Substitute
+|-damage|p2a: Alak|64\/313
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703 par
+|
+|turn|48
+|
+|move|p2a: Alak|Recover|p2a: Alak
+|-heal|p2a: Alak|220\/313
+|move|p1a: Chansey|Ice Beam|p2a: Alak
+|-activate|p2a: Alak|Substitute|[damage]
+|
+|turn|49
+|
+|move|p2a: Alak|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|604\/703 par
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|cant|p1a: Chansey|par
+|
+|turn|50
+|
+|move|p2a: Alak|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|475\/703 par
+|move|p1a: Chansey|Ice Beam|p2a: Alak
+|-activate|p2a: Alak|Substitute|[damage]
+|
+|turn|51
+|
+|move|p2a: Alak|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|346\/703 par
+|cant|p1a: Chansey|par
+|
+|turn|52
+|
+|move|p2a: Alak|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|228\/703 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|579\/703 par
+|
+|turn|53
+|
+|move|p2a: Alak|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|444\/703 par
+|move|p1a: Chansey|Ice Beam|p2a: Alak
+|-end|p2a: Alak|Substitute
+|
+|turn|54
+|
+|move|p2a: Alak|Substitute|p2a: Alak
+|-start|p2a: Alak|Substitute
+|-damage|p2a: Alak|142\/313
+|move|p1a: Chansey|Ice Beam|p2a: Alak
+|-activate|p2a: Alak|Substitute|[damage]
+|
+|turn|55
+|
+|move|p2a: Alak|Recover|p2a: Alak
+|-heal|p2a: Alak|298\/313
+|move|p1a: Chansey|Ice Beam|p2a: Alak
+|-activate|p2a: Alak|Substitute|[damage]
+|
+|turn|56
+|
+|move|p2a: Alak|Psychic|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|309\/703 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|660\/703 par
+|
+|turn|57
+|
+|switch|p2a: Gengar|Gengar|123\/323
+|switch|p1a: Starmie|Starmie|323\/323
+|
+|turn|58
+|
+|switch|p2a: Alak|Alakazam|298\/313
+|move|p1a: Starmie|Hydro Pump|p2a: Alak
+|-damage|p2a: Alak|184\/313
+|
+|turn|59
+|
+|switch|p1a: Chansey|Chansey|660\/703 par
+|move|p2a: Alak|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|
+|turn|60
+|
+|switch|p2a: Gengar|Gengar|123\/323
+|cant|p1a: Chansey|par
+|
+|turn|61
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|move|p2a: Gengar|Mega Drain|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|241\/323
+|-heal|p2a: Gengar|164\/323|[from] drain|[of] p1a: Starmie
+|
+|turn|62
+|
+|move|p1a: Starmie|Hydro Pump|p2a: Gengar|[miss]
+|-miss|p1a: Starmie
+|move|p2a: Gengar|Mega Drain|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|164\/323
+|-heal|p2a: Gengar|203\/323|[from] drain|[of] p1a: Starmie
+|
+|turn|63
+|
+|switch|p1a: Chansey|Chansey|660\/703 par
+|move|p2a: Gengar|Mega Drain|p1a: Chansey
+|-damage|p1a: Chansey|621\/703 par
+|-heal|p2a: Gengar|223\/323|[from] drain|[of] p1a: Chansey
+|
+|turn|64
+|
+|move|p2a: Gengar|Mega Drain|p1a: Chansey
+|-damage|p1a: Chansey|584\/703 par
+|-heal|p2a: Gengar|242\/323|[from] drain|[of] p1a: Chansey
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|
+|turn|65
+|
+|move|p2a: Gengar|Mega Drain|p1a: Chansey
+|-damage|p1a: Chansey|547\/703 par
+|-heal|p2a: Gengar|261\/323|[from] drain|[of] p1a: Chansey
+|move|p1a: Chansey|Light Screen|p1a: Chansey
+|
+|turn|66
+|
+|move|p2a: Gengar|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|501\/703 par
+|move|p1a: Chansey|Ice Beam|p2a: Gengar
+|-damage|p2a: Gengar|198\/323
+|
+|turn|67
+|
+|move|p2a: Gengar|Mega Drain|p1a: Chansey
+|-damage|p1a: Chansey|481\/703 par
+|-heal|p2a: Gengar|208\/323|[from] drain|[of] p1a: Chansey
+|cant|p1a: Chansey|par
+|
+|turn|68
+|
+|move|p2a: Gengar|Explosion|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|faint|p2a: Gengar
+|
+|switch|p2a: Alak|Alakazam|184\/313
+|switch|p1a: Starmie|Starmie|164\/323
+|turn|69
+|
+|move|p2a: Alak|Substitute|p2a: Alak
+|-start|p2a: Alak|Substitute
+|-damage|p2a: Alak|106\/313
+|move|p1a: Starmie|Hydro Pump|p2a: Alak
+|-end|p2a: Alak|Substitute
+|
+|turn|70
+|
+|move|p2a: Alak|Recover|p2a: Alak
+|-heal|p2a: Alak|262\/313
+|move|p1a: Starmie|Hydro Pump|p2a: Alak|[miss]
+|-miss|p1a: Starmie
+|
+|turn|71
+|
+|move|p2a: Alak|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|94\/323
+|move|p1a: Starmie|Hydro Pump|p2a: Alak
+|-damage|p2a: Alak|155\/313
+|
+|turn|72
+|
+|move|p2a: Alak|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|33\/323
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|194\/323
+|
+|turn|73
+|
+|move|p2a: Alak|Recover|p2a: Alak
+|-heal|p2a: Alak|311\/313
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|323\/323
+|
+|turn|74
+|
+|move|p2a: Alak|Thunder Wave|p1a: Starmie
+|-status|p1a: Starmie|par
+|move|p1a: Starmie|Blizzard|p2a: Alak
+|-damage|p2a: Alak|232\/313
+|-status|p2a: Alak|frz
+|
+|turn|75
+|
+|switch|p2a: Snor|Snorlax|472\/523
+|move|p1a: Starmie|Thunderbolt|p2a: Snor
+|-damage|p2a: Snor|374\/523
+|-status|p2a: Snor|par
+|
+|turn|76
+|
+|move|p1a: Starmie|Hydro Pump|p2a: Snor
+|-damage|p2a: Snor|185\/523 par
+|move|p2a: Snor|Amnesia|p2a: Snor
+|-boost|p2a: Snor|spd|2
+|-boost|p2a: Snor|spa|2
+|
+|turn|77
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|cant|p2a: Snor|par
+|
+|turn|78
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Snor
+|-damage|p2a: Snor|0 fnt
+|faint|p2a: Snor
+|
+|switch|p2a: Exe|Exeggutor|293\/393 slp
+|turn|79
+|
+|move|p1a: Tauros|Blizzard|p2a: Exe|[miss]
+|-miss|p1a: Tauros
+|cant|p2a: Exe|slp
+|-curestatus|p2a: Exe|slp
+|
+|turn|80
+|
+|switch|p1a: Starmie|Starmie|323\/323 par
+|move|p2a: Exe|Sleep Powder|p1a: Starmie
+|-fail|p1a: Starmie
+|
+|turn|81
+|
+|move|p2a: Exe|Mega Drain|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|216\/323 par
+|-heal|p2a: Exe|347\/393|[from] drain|[of] p1a: Starmie
+|cant|p1a: Starmie|par
+|
+|turn|82
+|
+|move|p2a: Exe|Mega Drain|p1a: Starmie
+|-crit|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|2\/323 par
+|-heal|p2a: Exe|393\/393|[from] drain|[of] p1a: Starmie
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|163\/323 par
+|
+|turn|83
+|
+|move|p2a: Exe|Mega Drain|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|51\/323 par
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|212\/323 par
+|
+|turn|84
+|
+|move|p2a: Exe|Mega Drain|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|103\/323 par
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|264\/323 par
+|
+|turn|85
+|
+|move|p2a: Exe|Mega Drain|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|145\/323 par
+|move|p1a: Starmie|Blizzard|p2a: Exe|[miss]
+|-miss|p1a: Starmie
+|
+|turn|86
+|
+|move|p2a: Exe|Mega Drain|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|31\/323 par
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|192\/323 par
+|
+|turn|87
+|
+|move|p2a: Exe|Mega Drain|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|83\/323 par
+|cant|p1a: Starmie|par
+|
+|turn|88
+|
+|move|p2a: Exe|Mega Drain|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|89
+|
+|move|p1a: Tauros|Blizzard|p2a: Exe|[miss]
+|-miss|p1a: Tauros
+|move|p2a: Exe|Sleep Powder|p1a: Tauros
+|-status|p1a: Tauros|slp
+|
+|turn|90
+|c|★TotallyNotGGC|fuck that
+|
+|cant|p1a: Tauros|slp
+|move|p2a: Exe|Psychic|p1a: Tauros
+|-damage|p1a: Tauros|187\/353 slp
+|-unboost|p1a: Tauros|spd|1
+|-unboost|p1a: Tauros|spa|1
+|
+|turn|91
+|
+|cant|p1a: Tauros|slp
+|move|p2a: Exe|Explosion|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|faint|p2a: Exe
+|
+|win|Gij
+|raw|Ladder updating...
+|raw|TotallyNotGGC's rating: 1000 &rarr; <strong>1000<\/strong><br \/>(+0 for losing)
+|raw|Gij's rating: 1168 &rarr; <strong>1182<\/strong><br \/>(+14 for winning)
+|leave|TotallyNotGGC
+|player|p1
+|join|MasterSAS

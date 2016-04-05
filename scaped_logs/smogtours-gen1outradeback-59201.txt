@@ -1,0 +1,275 @@
+﻿|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|J|smilzo
+|J|Terraquaza
+|player|p1|smilzo|157
+|player|p2|Terraquaza|138
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (tradeback)
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gengar|Gengar|323\/323
+|switch|p2a: Jynx|Jynx|333\/333
+|turn|1
+|J|Stall Hater
+|J|Tomahawk
+|
+|move|p1a: Gengar|Hypnosis|p2a: Jynx
+|-status|p2a: Jynx|slp
+|cant|p2a: Jynx|slp
+|
+|turn|2
+|L|Stall Hater
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|cant|p2a: Jynx|slp
+|
+|turn|3
+|J|yung lion
+|
+|switch|p2a: Rhydon|Rhydon|413\/413
+|move|p1a: Snorlax|Body Slam|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|369\/413
+|
+|turn|4
+|L|yung lion
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Rhydon|Earthquake|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|313\/393
+|
+|turn|5
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Exeggutor|Stun Spore|p2a: Chansey|[miss]
+|-miss|p1a: Exeggutor
+|
+|turn|6
+|J|The Quasar
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: Chansey|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|
+|turn|7
+|
+|switch|p2a: Rhydon|Rhydon|369\/413
+|cant|p1a: Snorlax|par
+|
+|turn|8
+|
+|switch|p1a: Exeggutor|Exeggutor|313\/393
+|move|p2a: Rhydon|Substitute|p2a: Rhydon
+|-start|p2a: Rhydon|Substitute
+|-damage|p2a: Rhydon|266\/413
+|
+|turn|9
+|
+|move|p1a: Exeggutor|Stun Spore|p2a: Rhydon
+|-status|p2a: Rhydon|par
+|cant|p2a: Rhydon|par
+|
+|turn|10
+|
+|move|p1a: Exeggutor|Psychic|p2a: Rhydon
+|-end|p2a: Rhydon|Substitute
+|cant|p2a: Rhydon|par
+|
+|turn|11
+|
+|move|p1a: Exeggutor|Psychic|p2a: Rhydon
+|-damage|p2a: Rhydon|85\/413 par
+|move|p2a: Rhydon|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|224\/393
+|
+|turn|12
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Exeggutor|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|586\/703
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|
+|turn|13
+|J|MoxieInfinite
+|
+|switch|p1a: Snorlax|Snorlax|523\/523 par
+|switch|p2a: Tauros|Tauros|353\/353
+|
+|turn|14
+|
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|402\/523 par
+|cant|p1a: Snorlax|par
+|
+|turn|15
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Snorlax|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|395\/523
+|
+|turn|16
+|
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|270\/523 par
+|move|p1a: Snorlax|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|257\/523
+|
+|turn|17
+|J|Fakkesi
+|
+|switch|p1a: Lapras|Lapras|463\/463
+|move|p2a: Snorlax|Self-Destruct|p1a: Lapras
+|-damage|p1a: Lapras|73\/463
+|faint|p2a: Snorlax
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|18
+|
+|move|p2a: Tauros|Body Slam|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|
+|switch|p1a: Exeggutor|Exeggutor|224\/393
+|turn|19
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Exeggutor|Stun Spore|p2a: Exeggutor
+|-status|p2a: Exeggutor|par
+|
+|turn|20
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Exeggutor|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|580\/703
+|
+|turn|21
+|
+|move|p1a: Chansey|Ice Beam|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|261\/393 par
+|cant|p2a: Exeggutor|par
+|
+|turn|22
+|
+|move|p1a: Chansey|Ice Beam|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|120\/393 par
+|move|p2a: Exeggutor|Stun Spore|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|turn|23
+|
+|switch|p1a: Gengar|Gengar|323\/323
+|move|p2a: Exeggutor|Psychic|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|127\/323
+|
+|turn|24
+|
+|switch|p1a: Snorlax|Snorlax|270\/523 par
+|switch|p2a: Rhydon|Rhydon|85\/413 par
+|
+|turn|25
+|
+|cant|p2a: Rhydon|par
+|move|p1a: Snorlax|Earthquake|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|
+|switch|p2a: Exeggutor|Exeggutor|120\/393 par
+|turn|26
+|
+|move|p2a: Exeggutor|Psychic|p1a: Snorlax
+|-damage|p1a: Snorlax|111\/523 par
+|-unboost|p1a: Snorlax|spd|1
+|-unboost|p1a: Snorlax|spa|1
+|move|p1a: Snorlax|Body Slam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|1\/393 par
+|
+|turn|27
+|
+|move|p2a: Exeggutor|Psychic|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|switch|p1a: Gengar|Gengar|127\/323
+|turn|28
+|
+|switch|p2a: Jynx|Jynx|333\/333 slp
+|move|p1a: Gengar|Night Shade|p2a: Jynx
+|-damage|p2a: Jynx|233\/333 slp
+|
+|turn|29
+|
+|move|p1a: Gengar|Night Shade|p2a: Jynx
+|-damage|p2a: Jynx|133\/333 slp
+|cant|p2a: Jynx|slp
+|
+|turn|30
+|
+|move|p1a: Gengar|Night Shade|p2a: Jynx
+|-damage|p2a: Jynx|33\/333 slp
+|cant|p2a: Jynx|slp
+|
+|turn|31
+|
+|switch|p2a: Exeggutor|Exeggutor|1\/393 par
+|move|p1a: Gengar|Night Shade|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|32
+|
+|switch|p2a: Chansey|Chansey|586\/703
+|move|p1a: Gengar|Explosion|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|faint|p1a: Gengar
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|switch|p1a: Exeggutor|Exeggutor|224\/393
+|turn|33
+|
+|move|p2a: Tauros|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|88\/393
+|move|p1a: Exeggutor|Stun Spore|p2a: Tauros
+|-status|p2a: Tauros|par
+|
+|turn|34
+|
+|move|p1a: Exeggutor|Psychic|p2a: Tauros
+|-damage|p2a: Tauros|193\/353 par
+|-unboost|p2a: Tauros|spd|1
+|-unboost|p2a: Tauros|spa|1
+|move|p2a: Tauros|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|35
+|
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|switch|p2a: Jynx|Jynx|33\/333 slp
+|turn|36
+|
+|move|p1a: Tauros|Body Slam|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|
+|win|smilzo

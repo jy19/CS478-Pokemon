@@ -1,0 +1,301 @@
+﻿|join|LekasDisneyPrinces
+|join|andrewandres
+|player|p1|LekasDisneyPrinces|169
+|player|p2|andrewandres|101
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Vulpix|Vulpix, L96|268\/268
+|switch|p2a: Exeggutor|Exeggutor, L79|312\/312
+|turn|1
+|
+|switch|p2a: Growlithe|Growlithe, L96|300\/300
+|move|p1a: Vulpix|Confuse Ray|p2a: Growlithe
+|-start|p2a: Growlithe|confusion
+|
+|turn|2
+|
+|move|p1a: Vulpix|Body Slam|p2a: Growlithe
+|-damage|p2a: Growlithe|239\/300
+|-status|p2a: Growlithe|par
+|cant|p2a: Growlithe|par
+|
+|turn|3
+|
+|move|p1a: Vulpix|Fire Blast|p2a: Growlithe
+|-resisted|p2a: Growlithe
+|-damage|p2a: Growlithe|157\/300 par
+|-activate|p2a: Growlithe|confusion
+|-damage|p2a: Growlithe|115\/300 par|[from] confusion
+|
+|turn|4
+|
+|move|p1a: Vulpix|Fire Blast|p2a: Growlithe
+|-resisted|p2a: Growlithe
+|-damage|p2a: Growlithe|36\/300 par
+|cant|p2a: Growlithe|par
+|
+|turn|5
+|c|★andrewandres|mygod..
+|
+|move|p1a: Vulpix|Body Slam|p2a: Growlithe
+|-damage|p2a: Growlithe|0 fnt
+|faint|p2a: Growlithe
+|
+|switch|p2a: Snorlax|Snorlax, L79|415\/415
+|turn|6
+|
+|move|p1a: Vulpix|Fire Blast|p2a: Snorlax|[miss]
+|-miss|p1a: Vulpix
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|
+|turn|7
+|
+|move|p1a: Vulpix|Confuse Ray|p2a: Snorlax
+|-start|p2a: Snorlax|confusion
+|-activate|p2a: Snorlax|confusion
+|move|p2a: Snorlax|Surf|p1a: Vulpix
+|-supereffective|p1a: Vulpix
+|-damage|p1a: Vulpix|64\/268
+|
+|turn|8
+|
+|move|p1a: Vulpix|Fire Blast|p2a: Snorlax
+|-damage|p2a: Snorlax|331\/415
+|-end|p2a: Snorlax|confusion
+|move|p2a: Snorlax|Surf|p1a: Vulpix
+|-supereffective|p1a: Vulpix
+|-damage|p1a: Vulpix|0 fnt
+|faint|p1a: Vulpix
+|
+|switch|p1a: Kingler|Kingler, L85|267\/267
+|turn|9
+|
+|move|p1a: Kingler|Crabhammer|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|176\/415
+|move|p2a: Snorlax|Blizzard|p1a: Kingler
+|-resisted|p1a: Kingler
+|-damage|p1a: Kingler|191\/267
+|
+|turn|10
+|
+|move|p1a: Kingler|Body Slam|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|switch|p2a: Exeggutor|Exeggutor, L79|312\/312
+|turn|11
+|
+|switch|p1a: Mew|Mew, L74|300\/300
+|move|p2a: Exeggutor|Sleep Powder|p1a: Mew
+|-status|p1a: Mew|slp
+|
+|turn|12
+|
+|switch|p1a: Pidgeotto|Pidgeotto, L90|297\/297
+|move|p2a: Exeggutor|Stun Spore|p1a: Pidgeotto
+|-status|p1a: Pidgeotto|par
+|
+|turn|13
+|
+|switch|p2a: Horsea|Horsea, L96|252\/252
+|move|p1a: Pidgeotto|Sky Attack|p2a: Horsea|[still]
+|-prepare|p1a: Pidgeotto|Sky Attack|p2a: Horsea
+|
+|turn|14
+|
+|move|p2a: Horsea|Blizzard|p1a: Pidgeotto|[miss]
+|-miss|p2a: Horsea
+|move|p1a: Pidgeotto|Sky Attack|p2a: Horsea
+|-damage|p2a: Horsea|122\/252
+|
+|turn|15
+|
+|switch|p1a: Kingler|Kingler, L85|191\/267
+|move|p2a: Horsea|Blizzard|p1a: Kingler
+|-resisted|p1a: Kingler
+|-damage|p1a: Kingler|133\/267
+|
+|turn|16
+|
+|move|p1a: Kingler|Hyper Beam|p2a: Horsea
+|-damage|p2a: Horsea|0 fnt
+|faint|p2a: Horsea
+|
+|switch|p2a: Pidgeot|Pidgeot, L90|333\/333
+|turn|17
+|
+|switch|p1a: Gengar|Gengar, L79|257\/257
+|move|p2a: Pidgeot|Double-Edge|p1a: Gengar
+|-immune|p1a: Gengar|[msg]
+|
+|turn|18
+|c|★LekasDisneyPrinces|princess???
+|c|★LekasDisneyPrinces|why you play so badly????
+|
+|move|p2a: Pidgeot|Double-Edge|p1a: Gengar
+|-immune|p1a: Gengar|[msg]
+|move|p1a: Gengar|Hypnosis|p2a: Pidgeot|[miss]
+|-miss|p1a: Gengar
+|
+|turn|19
+|
+|move|p2a: Pidgeot|Mirror Move|p2a: Pidgeot
+|move|p2a: Pidgeot|Hypnosis|p1a: Gengar|[from]Mirror Move
+|-message|Sleep Clause Mod activated.
+|move|p1a: Gengar|Hypnosis|p2a: Pidgeot
+|-status|p2a: Pidgeot|slp
+|
+|turn|20
+|
+|switch|p2a: Exeggutor|Exeggutor, L79|312\/312
+|move|p1a: Gengar|Thunderbolt|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|281\/312
+|
+|turn|21
+|c|★LekasDisneyPrinces|ooo poor poor princess
+|
+|switch|p1a: Pidgeotto|Pidgeotto, L90|297\/297 par
+|move|p2a: Exeggutor|Stun Spore|p1a: Pidgeotto
+|-fail|p1a: Pidgeotto|par
+|
+|turn|22
+|
+|move|p2a: Exeggutor|Egg Bomb|p1a: Pidgeotto
+|-damage|p1a: Pidgeotto|221\/297 par
+|move|p1a: Pidgeotto|Agility|p1a: Pidgeotto
+|-boost|p1a: Pidgeotto|spe|2
+|
+|turn|23
+|
+|move|p1a: Pidgeotto|Sky Attack|p2a: Exeggutor|[still]
+|-prepare|p1a: Pidgeotto|Sky Attack|p2a: Exeggutor
+|move|p2a: Exeggutor|Egg Bomb|p1a: Pidgeotto|[miss]
+|-miss|p2a: Exeggutor
+|
+|turn|24
+|
+|switch|p2a: Pidgeot|Pidgeot, L90|333\/333 slp
+|move|p1a: Pidgeotto|Sky Attack|p2a: Pidgeot
+|-damage|p2a: Pidgeot|210\/333 slp
+|
+|turn|25
+|
+|move|p1a: Pidgeotto|Double-Edge|p2a: Pidgeot
+|-damage|p2a: Pidgeot|124\/333 slp
+|-damage|p1a: Pidgeotto|200\/297 par|[from] recoil|[of] p2a: Pidgeot
+|cant|p2a: Pidgeot|slp
+|
+|turn|26
+|
+|move|p1a: Pidgeotto|Double-Edge|p2a: Pidgeot
+|-damage|p2a: Pidgeot|34\/333 slp
+|-damage|p1a: Pidgeotto|178\/297 par|[from] recoil|[of] p2a: Pidgeot
+|cant|p2a: Pidgeot|slp
+|
+|turn|27
+|
+|move|p1a: Pidgeotto|Double-Edge|p2a: Pidgeot
+|-damage|p2a: Pidgeot|0 fnt
+|-damage|p1a: Pidgeotto|170\/297 par|[from] recoil|[of] p2a: Pidgeot
+|faint|p2a: Pidgeot
+|
+|switch|p2a: Mewtwo|Mewtwo, L68|285\/285
+|turn|28
+|
+|cant|p1a: Pidgeotto|par
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|
+|turn|29
+|
+|move|p2a: Mewtwo|Psychic|p1a: Pidgeotto
+|-damage|p1a: Pidgeotto|60\/297 par
+|cant|p1a: Pidgeotto|par
+|
+|turn|30
+|
+|move|p2a: Mewtwo|Psychic|p1a: Pidgeotto
+|-damage|p1a: Pidgeotto|0 fnt
+|faint|p1a: Pidgeotto
+|
+|switch|p1a: Mew|Mew, L74|300\/300 slp
+|turn|31
+|
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|cant|p1a: Mew|slp
+|
+|turn|32
+|
+|move|p2a: Mewtwo|Psychic|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|211\/300 slp
+|cant|p1a: Mew|slp
+|
+|turn|33
+|
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|-curestatus|p1a: Mew|slp
+|
+|turn|34
+|
+|move|p2a: Mewtwo|Thunder Wave|p1a: Mew
+|-status|p1a: Mew|par
+|move|p1a: Mew|Thunder Wave|p2a: Mewtwo
+|-status|p2a: Mewtwo|par
+|
+|turn|35
+|
+|move|p2a: Mewtwo|Psychic|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|86\/300 par
+|move|p1a: Mew|Explosion|p2a: Mewtwo
+|-damage|p2a: Mewtwo|168\/285 par
+|faint|p1a: Mew
+|
+|switch|p1a: Kingler|Kingler, L85|133\/267
+|turn|36
+|
+|move|p1a: Kingler|Crabhammer|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|63\/285 par
+|cant|p2a: Mewtwo|par
+|
+|turn|37
+|
+|move|p1a: Kingler|Crabhammer|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|0 fnt
+|faint|p2a: Mewtwo
+|
+|switch|p2a: Exeggutor|Exeggutor, L79|281\/312
+|turn|38
+|-message|andrewandres forfeited.
+|
+|win|LekasDisneyPrinces
+|raw|Ladder updating...
+|raw|LekasDisneyPrinces's rating: 1323 &rarr; <strong>1341<\/strong><br \/>(+18 for winning)
+|raw|andrewandres's rating: 1288 &rarr; <strong>1265<\/strong><br \/>(-23 for losing)
+|leave|andrewandres
+|player|p2
+|c|★LekasDisneyPrinces|shiiittttttttttttt
+|c|★LekasDisneyPrinces|fuckkkkkkkkkkkkkkkkkkk
+|c|★LekasDisneyPrinces|shitttttttttttttttttttt
+|c|★LekasDisneyPrinces|i upload this replay to porn-hub
+|c|★LekasDisneyPrinces|under the title
+|c|★LekasDisneyPrinces|skiny teen hate fuck

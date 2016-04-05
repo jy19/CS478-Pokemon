@@ -1,0 +1,381 @@
+﻿|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|J|Nails
+|J|HODOR
+|player|p1|Nails|2
+|player|p2|HODOR|2
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Challenge Cup
+|seed|40609,18612,41212,10312
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Slowpoke|Slowpoke, L78|279\/279
+|switch|p2a: Victreebel|Victreebel, L67|227\/227
+|turn|1
+|choice|switch 2|move 1
+|
+|switch|p1a: Ponyta|Ponyta, L72|201\/201
+|move|p2a: Victreebel|Bide|p2a: Victreebel
+|-start|p2a: Victreebel|Bide
+|
+|turn|2
+|J|slurmz
+|c|+slurmz|very
+|choice|move 3|move 1
+|
+|move|p1a: Ponyta|Tail Whip|p2a: Victreebel
+|-unboost|p2a: Victreebel|def|1
+|-activate|p2a: Victreebel|Bide
+|
+|turn|3
+|c|+slurmz|competitive tier
+|c|★Nails|ye
+|choice|move 4|move 1
+|
+|move|p1a: Ponyta|Skull Bash|p2a: Victreebel|[still]
+|-prepare|p1a: Ponyta|Skull Bash|p2a: Victreebel
+|-fail|p2a: Victreebel
+|
+|turn|4
+|choice|move 1|switch 2
+|
+|switch|p2a: Omastar|Omastar, L65|225\/225
+|move|p1a: Ponyta|Skull Bash|p2a: Omastar|[from]Skull Bash
+|-resisted|p2a: Omastar
+|-damage|p2a: Omastar|200\/225
+|
+|turn|5
+|choice|switch 4|move 2
+|
+|switch|p1a: Goldeen|Goldeen, L77|226\/226
+|move|p2a: Omastar|Hydro Pump|p1a: Goldeen
+|-crit|p1a: Goldeen
+|-resisted|p1a: Goldeen
+|-damage|p1a: Goldeen|80\/226
+|
+|turn|6
+|choice|move 1|switch 2
+|
+|switch|p2a: Victreebel|Victreebel, L67|227\/227
+|move|p1a: Goldeen|Surf|p2a: Victreebel
+|-resisted|p2a: Victreebel
+|-damage|p2a: Victreebel|195\/227
+|
+|turn|7
+|choice|move 2|move 4
+|
+|move|p1a: Goldeen|Fury Attack|p2a: Victreebel|[miss]
+|-miss|p1a: Goldeen
+|move|p2a: Victreebel|Acid|p1a: Goldeen
+|-damage|p1a: Goldeen|37\/226
+|
+|turn|8
+|choice|move 2|move 3
+|
+|move|p1a: Goldeen|Fury Attack|p2a: Victreebel
+|-damage|p2a: Victreebel|184\/227
+|-damage|p2a: Victreebel|173\/227
+|-damage|p2a: Victreebel|162\/227
+|-hitcount|p2a: Victreebel|3
+|move|p2a: Victreebel|Cut|p1a: Goldeen|[miss]
+|-miss|p2a: Victreebel
+|
+|turn|9
+|choice|move 2|move 4
+|
+|move|p1a: Goldeen|Fury Attack|p2a: Victreebel
+|-damage|p2a: Victreebel|151\/227
+|-damage|p2a: Victreebel|140\/227
+|-damage|p2a: Victreebel|129\/227
+|-hitcount|p2a: Victreebel|3
+|move|p2a: Victreebel|Acid|p1a: Goldeen
+|-damage|p1a: Goldeen|0 fnt
+|faint|p1a: Goldeen
+|c|★HODOR|:\/
+|choice|switch 5|
+|
+|switch|p1a: Gengar|Gengar, L65|210\/210
+|turn|10
+|choice|move 3|move 1
+|
+|move|p1a: Gengar|Mega Kick|p2a: Victreebel
+|-damage|p2a: Victreebel|77\/227
+|move|p2a: Victreebel|Bide|p2a: Victreebel
+|-start|p2a: Victreebel|Bide
+|
+|turn|11
+|choice|move 1|move 1
+|
+|move|p1a: Gengar|Strength|p2a: Victreebel
+|-crit|p2a: Victreebel
+|-damage|p2a: Victreebel|3\/227
+|-activate|p2a: Victreebel|Bide
+|
+|turn|12
+|choice|move 1|move 1
+|
+|move|p1a: Gengar|Strength|p2a: Victreebel
+|-damage|p2a: Victreebel|0 fnt
+|faint|p2a: Victreebel
+|choice||switch 4
+|
+|switch|p2a: Zubat|Zubat, L82|224\/224
+|turn|13
+|L|slurmz
+|choice|move 1|move 3
+|
+|move|p1a: Gengar|Strength|p2a: Zubat
+|-damage|p2a: Zubat|181\/224
+|move|p2a: Zubat|Leech Life|p1a: Gengar
+|-damage|p1a: Gengar|196\/210
+|-heal|p2a: Zubat|188\/224|[from] drain|[of] p1a: Gengar
+|
+|turn|14
+|choice|move 3|switch 3
+|
+|switch|p2a: Butterfree|Butterfree, L73|232\/232
+|move|p1a: Gengar|Mega Kick|p2a: Butterfree
+|-damage|p2a: Butterfree|169\/232
+|
+|turn|15
+|choice|switch 4|move 1
+|
+|switch|p1a: Ponyta|Ponyta, L72|201\/201
+|move|p2a: Butterfree|Psychic|p1a: Ponyta
+|-damage|p1a: Ponyta|143\/201
+|
+|turn|16
+|choice|move 2|switch 2
+|
+|switch|p2a: Omastar|Omastar, L65|200\/225
+|move|p1a: Ponyta|Swift|p2a: Omastar
+|-resisted|p2a: Omastar
+|-damage|p2a: Omastar|186\/225
+|
+|turn|17
+|choice|switch 2|move 2
+|
+|switch|p1a: Slowpoke|Slowpoke, L78|279\/279
+|move|p2a: Omastar|Hydro Pump|p1a: Slowpoke
+|-resisted|p1a: Slowpoke
+|-damage|p1a: Slowpoke|203\/279
+|
+|turn|18
+|choice|move 1|move 2
+|
+|move|p2a: Omastar|Hydro Pump|p1a: Slowpoke
+|-crit|p1a: Slowpoke
+|-resisted|p1a: Slowpoke
+|-damage|p1a: Slowpoke|57\/279
+|move|p1a: Slowpoke|Thunder Wave|p2a: Omastar
+|-status|p2a: Omastar|par
+|
+|turn|19
+|choice|move 4|move 2
+|
+|move|p1a: Slowpoke|Earthquake|p2a: Omastar
+|-supereffective|p2a: Omastar
+|-damage|p2a: Omastar|82\/225 par
+|move|p2a: Omastar|Hydro Pump|p1a: Slowpoke
+|-resisted|p1a: Slowpoke
+|-damage|p1a: Slowpoke|0 fnt
+|faint|p1a: Slowpoke
+|choice|switch 3|
+|
+|switch|p1a: Omastar|Omastar, L65|216\/216
+|turn|20
+|choice|move 3|move 2
+|
+|move|p1a: Omastar|Submission|p2a: Omastar
+|-supereffective|p2a: Omastar
+|-damage|p2a: Omastar|30\/225 par
+|-damage|p1a: Omastar|203\/216|[from] recoil|[of] p2a: Omastar
+|move|p2a: Omastar|Hydro Pump|p1a: Omastar
+|-damage|p1a: Omastar|98\/216
+|
+|turn|21
+|choice|move 2|move 2
+|
+|move|p1a: Omastar|Water Gun|p2a: Omastar
+|-damage|p2a: Omastar|0 fnt
+|faint|p2a: Omastar
+|choice||switch 2
+|
+|switch|p2a: Butterfree|Butterfree, L73|169\/232
+|turn|22
+|choice|switch 2|move 1
+|
+|switch|p1a: Ponyta|Ponyta, L72|143\/201
+|move|p2a: Butterfree|Psychic|p1a: Ponyta
+|-damage|p1a: Ponyta|85\/201
+|
+|turn|23
+|choice|move 2|switch 5
+|
+|switch|p2a: Grimer|Grimer, L78|279\/279
+|move|p1a: Ponyta|Swift|p2a: Grimer
+|-damage|p2a: Grimer|235\/279
+|
+|turn|24
+|choice|switch 4|move 3
+|
+|switch|p1a: Gengar|Gengar, L65|196\/210
+|move|p2a: Grimer|Bide|p2a: Grimer
+|-start|p2a: Grimer|Bide
+|
+|turn|25
+|choice|switch 2|move 3
+|
+|switch|p1a: Omastar|Omastar, L65|98\/216
+|-activate|p2a: Grimer|Bide
+|
+|turn|26
+|choice|move 4|move 3
+|
+|move|p1a: Omastar|Substitute|p1a: Omastar
+|-start|p1a: Omastar|Substitute
+|-damage|p1a: Omastar|44\/216
+|-fail|p2a: Grimer
+|
+|turn|27
+|choice|move 2|switch 6
+|
+|switch|p2a: Venomoth|Venomoth, L69|235\/235
+|move|p1a: Omastar|Water Gun|p2a: Venomoth
+|-damage|p2a: Venomoth|202\/235
+|
+|turn|28
+|choice|move 2|move 2
+|
+|move|p2a: Venomoth|Psywave|p1a: Omastar
+|-activate|p1a: Omastar|Substitute|[damage]
+|move|p1a: Omastar|Water Gun|p2a: Venomoth
+|-damage|p2a: Venomoth|167\/235
+|
+|turn|29
+|choice|move 2|move 2
+|
+|move|p2a: Venomoth|Psywave|p1a: Omastar
+|-end|p1a: Omastar|Substitute
+|move|p1a: Omastar|Water Gun|p2a: Venomoth
+|-damage|p2a: Venomoth|132\/235
+|
+|turn|30
+|choice|switch 4|move 2
+|
+|switch|p1a: Ponyta|Ponyta, L72|85\/201
+|move|p2a: Venomoth|Psywave|p1a: Ponyta|[miss]
+|-miss|p2a: Venomoth
+|
+|turn|31
+|choice|move 2|switch 6
+|
+|switch|p2a: Grimer|Grimer, L78|235\/279
+|move|p1a: Ponyta|Swift|p2a: Grimer
+|-damage|p2a: Grimer|188\/279
+|
+|turn|32
+|choice|move 2|move 2
+|
+|move|p1a: Ponyta|Swift|p2a: Grimer
+|-damage|p2a: Grimer|143\/279
+|move|p2a: Grimer|Fire Punch|p1a: Ponyta
+|-resisted|p1a: Ponyta
+|-damage|p1a: Ponyta|69\/201
+|
+|turn|33
+|choice|move 3|move 1
+|
+|move|p1a: Ponyta|Tail Whip|p2a: Grimer
+|-unboost|p2a: Grimer|def|1
+|move|p2a: Grimer|Explosion|p1a: Ponyta
+|-damage|p1a: Ponyta|0 fnt
+|faint|p1a: Ponyta
+|faint|p2a: Grimer
+|choice|switch 2|switch 5
+|
+|switch|p1a: Gengar|Gengar, L65|196\/210
+|switch|p2a: Butterfree|Butterfree, L73|169\/232
+|turn|34
+|choice|switch 6|move 1
+|
+|switch|p1a: Poliwag|Poliwag, L79|216\/216
+|move|p2a: Butterfree|Psychic|p1a: Poliwag
+|-damage|p1a: Poliwag|135\/216
+|
+|turn|35
+|choice|move 1|move 1
+|
+|move|p1a: Poliwag|Toxic|p2a: Butterfree
+|-status|p2a: Butterfree|tox
+|move|p2a: Butterfree|Psychic|p1a: Poliwag
+|-damage|p1a: Poliwag|62\/216
+|-unboost|p1a: Poliwag|spd|1
+|-unboost|p1a: Poliwag|spa|1
+|-damage|p2a: Butterfree|155\/232 tox|[from] tox|[of] p1a: Poliwag
+|
+|turn|36
+|choice|move 2|move 1
+|
+|move|p1a: Poliwag|Take Down|p2a: Butterfree
+|-damage|p2a: Butterfree|95\/232 tox
+|-damage|p1a: Poliwag|47\/216|[from] recoil|[of] p2a: Butterfree
+|move|p2a: Butterfree|Psychic|p1a: Poliwag
+|-damage|p1a: Poliwag|0 fnt
+|faint|p1a: Poliwag
+|choice|switch 6|
+|
+|switch|p1a: Gengar|Gengar, L65|196\/210
+|turn|37
+|choice|move 2|move 1
+|
+|move|p1a: Gengar|Hyper Beam|p2a: Butterfree|[miss]
+|-miss|p1a: Gengar
+|move|p2a: Butterfree|Psychic|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|117\/210
+|-damage|p2a: Butterfree|67\/232 tox|[from] tox|[of] p1a: Gengar
+|
+|turn|38
+|choice|move 3|move 1
+|
+|move|p1a: Gengar|Mega Kick|p2a: Butterfree
+|-damage|p2a: Butterfree|7\/232 tox
+|move|p2a: Butterfree|Psychic|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|28\/210
+|-damage|p2a: Butterfree|0 fnt|[from] tox|[of] p1a: Gengar
+|faint|p2a: Butterfree
+|c|★Nails|fuk
+|c|★Nails|gg
+|choice||switch 6
+|
+|switch|p2a: Venomoth|Venomoth, L69|132\/235
+|turn|39
+|choice|move 2|move 2
+|
+|move|p1a: Gengar|Hyper Beam|p2a: Venomoth
+|-damage|p2a: Venomoth|62\/235
+|move|p2a: Venomoth|Psywave|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|choice|switch 4|
+|
+|switch|p1a: Omastar|Omastar, L65|44\/216
+|turn|40
+|choice|move 2|move 2
+|
+|move|p2a: Venomoth|Psywave|p1a: Omastar|[miss]
+|-miss|p2a: Venomoth
+|move|p1a: Omastar|Water Gun|p2a: Venomoth
+|-damage|p2a: Venomoth|29\/235
+|
+|turn|41
+|c|★HODOR|NAILS
+|c|★HODOR|PICK
+|-message|Nails lost due to inactivity.
+|
+|win|HODOR

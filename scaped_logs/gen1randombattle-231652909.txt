@@ -1,0 +1,322 @@
+﻿|join|librarynoob
+|join|Badrking
+|player|p1|librarynoob|2
+|player|p2|Badrking|156
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Marowak|Marowak, L85|276\/276
+|switch|p2a: Machamp|Machamp, L85|327\/327
+|turn|1
+|join|Colchon Pikolin
+|leave|Colchon Pikolin
+|
+|switch|p1a: Hypno|Hypno, L85|318\/318
+|move|p2a: Machamp|Earthquake|p1a: Hypno
+|-damage|p1a: Hypno|214\/318
+|
+|turn|2
+|
+|move|p1a: Hypno|Psychic|p2a: Machamp
+|-supereffective|p2a: Machamp
+|-damage|p2a: Machamp|77\/327
+|move|p2a: Machamp|Body Slam|p1a: Hypno
+|-damage|p1a: Hypno|121\/318
+|-status|p1a: Hypno|par
+|
+|turn|3
+|
+|move|p2a: Machamp|Submission|p1a: Hypno
+|-resisted|p1a: Hypno
+|-damage|p1a: Hypno|58\/318 par
+|-damage|p2a: Machamp|62\/327|[from] recoil|[of] p1a: Hypno
+|move|p1a: Hypno|Rest|p1a: Hypno
+|-status|p1a: Hypno|slp
+|-heal|p1a: Hypno|318\/318 slp|[silent]
+|-status|p1a: Hypno|slp|[from] move: Rest
+|
+|turn|4
+|
+|switch|p2a: Vileplume|Vileplume, L85|301\/301
+|cant|p1a: Hypno|slp
+|
+|turn|5
+|
+|move|p2a: Vileplume|Swords Dance|p2a: Vileplume
+|-boost|p2a: Vileplume|atk|2
+|cant|p1a: Hypno|slp
+|-curestatus|p1a: Hypno|slp
+|
+|turn|6
+|
+|move|p2a: Vileplume|Sleep Powder|p1a: Hypno|[miss]
+|-miss|p2a: Vileplume
+|move|p1a: Hypno|Psychic|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|109\/301
+|-unboost|p2a: Vileplume|spd|1
+|-unboost|p2a: Vileplume|spa|1
+|
+|turn|7
+|
+|switch|p1a: Lickitung|Lickitung, L85|327\/327
+|move|p2a: Vileplume|Sleep Powder|p1a: Lickitung
+|-status|p1a: Lickitung|slp
+|
+|turn|8
+|
+|switch|p1a: Hypno|Hypno, L85|318\/318
+|move|p2a: Vileplume|Mega Drain|p1a: Hypno
+|-damage|p1a: Hypno|293\/318
+|-heal|p2a: Vileplume|121\/301|[from] drain|[of] p1a: Hypno
+|
+|turn|9
+|
+|move|p1a: Hypno|Psychic|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|
+|switch|p2a: Zapdos|Zapdos, L79|304\/304
+|turn|10
+|
+|switch|p1a: Lickitung|Lickitung, L85|327\/327 slp
+|move|p2a: Zapdos|Thunderbolt|p1a: Lickitung
+|-damage|p1a: Lickitung|190\/327 slp
+|
+|turn|11
+|
+|switch|p1a: Marowak|Marowak, L85|276\/276
+|move|p2a: Zapdos|Drill Peck|p1a: Marowak
+|-crit|p1a: Marowak
+|-damage|p1a: Marowak|150\/276
+|
+|turn|12
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Marowak
+|-crit|p1a: Marowak
+|-damage|p1a: Marowak|20\/276
+|move|p1a: Marowak|Blizzard|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|209\/304
+|
+|turn|13
+|
+|switch|p1a: Magneton|Magneton, L85|259\/259
+|move|p2a: Zapdos|Drill Peck|p1a: Magneton
+|-crit|p1a: Magneton
+|-resisted|p1a: Magneton
+|-damage|p1a: Magneton|199\/259
+|
+|turn|14
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Magneton
+|-resisted|p1a: Magneton
+|-damage|p1a: Magneton|159\/259
+|move|p1a: Magneton|Thunder Wave|p2a: Zapdos
+|-status|p2a: Zapdos|par
+|
+|turn|15
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Zapdos
+|-damage|p2a: Zapdos|99\/304 par
+|cant|p2a: Zapdos|par
+|
+|turn|16
+|
+|switch|p2a: Machamp|Machamp, L85|62\/327
+|move|p1a: Magneton|Thunderbolt|p2a: Machamp
+|-damage|p2a: Machamp|0 fnt
+|faint|p2a: Machamp
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|293\/293
+|turn|17
+|
+|move|p2a: Mewtwo|Psychic|p1a: Magneton
+|-damage|p1a: Magneton|84\/259
+|move|p1a: Magneton|Thunder Wave|p2a: Mewtwo
+|-status|p2a: Mewtwo|par
+|
+|turn|18
+|
+|move|p1a: Magneton|Mimic|p2a: Mewtwo
+|-start|p1a: Magneton|Mimic|Hyper Beam
+|cant|p2a: Mewtwo|par
+|
+|turn|19
+|
+|move|p1a: Magneton|Hyper Beam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|204\/293 par
+|move|p2a: Mewtwo|Psychic|p1a: Magneton
+|-damage|p1a: Magneton|12\/259
+|
+|turn|20
+|-mustrecharge|p1a: Magneton
+|-mustrecharge|p1a: Magneton
+|
+|cant|p1a: Magneton|recharge
+|move|p2a: Mewtwo|Body Slam|p1a: Magneton
+|-damage|p1a: Magneton|0 fnt
+|faint|p1a: Magneton
+|
+|switch|p1a: Parasect|Parasect, L85|276\/276
+|turn|21
+|
+|move|p1a: Parasect|Growth|p1a: Parasect
+|-boost|p1a: Parasect|spa|1
+|-boost|p1a: Parasect|spd|1
+|move|p2a: Mewtwo|Psychic|p1a: Parasect
+|-crit|p1a: Parasect
+|-damage|p1a: Parasect|81\/276
+|
+|turn|22
+|
+|move|p1a: Parasect|Body Slam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|135\/293 par
+|move|p2a: Mewtwo|Body Slam|p1a: Parasect
+|-damage|p1a: Parasect|35\/276
+|
+|turn|23
+|
+|move|p1a: Parasect|Hyper Beam|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|0 fnt
+|faint|p2a: Mewtwo
+|
+|switch|p2a: Pidgeotto|Pidgeotto, L85|281\/281
+|turn|24
+|
+|move|p2a: Pidgeotto|Double-Edge|p1a: Parasect
+|-damage|p1a: Parasect|0 fnt
+|-damage|p2a: Pidgeotto|273\/281|[from] recoil|[of] p1a: Parasect
+|faint|p1a: Parasect
+|
+|switch|p1a: Hypno|Hypno, L85|293\/318
+|turn|25
+|
+|move|p2a: Pidgeotto|Double-Edge|p1a: Hypno
+|-damage|p1a: Hypno|195\/318
+|-damage|p2a: Pidgeotto|249\/281|[from] recoil|[of] p1a: Hypno
+|move|p1a: Hypno|Hypnosis|p2a: Pidgeotto
+|-status|p2a: Pidgeotto|slp
+|
+|turn|26
+|
+|cant|p2a: Pidgeotto|slp
+|move|p1a: Hypno|Psychic|p2a: Pidgeotto
+|-damage|p2a: Pidgeotto|107\/281 slp
+|-unboost|p2a: Pidgeotto|spd|1
+|-unboost|p2a: Pidgeotto|spa|1
+|
+|turn|27
+|
+|cant|p2a: Pidgeotto|slp
+|move|p1a: Hypno|Psychic|p2a: Pidgeotto
+|-damage|p2a: Pidgeotto|0 fnt
+|faint|p2a: Pidgeotto
+|
+|switch|p2a: Zapdos|Zapdos, L79|99\/304 par
+|turn|28
+|
+|move|p1a: Hypno|Psychic|p2a: Zapdos
+|-damage|p2a: Zapdos|4\/304 par
+|-unboost|p2a: Zapdos|spd|1
+|-unboost|p2a: Zapdos|spa|1
+|cant|p2a: Zapdos|par
+|
+|turn|29
+|
+|move|p1a: Hypno|Psychic|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|switch|p2a: Golduck|Golduck, L85|310\/310
+|turn|30
+|
+|move|p2a: Golduck|Amnesia|p2a: Golduck
+|-boost|p2a: Golduck|spd|2
+|-boost|p2a: Golduck|spa|2
+|move|p1a: Hypno|Hypnosis|p2a: Golduck
+|-status|p2a: Golduck|slp
+|
+|turn|31
+|
+|cant|p2a: Golduck|slp
+|move|p1a: Hypno|Psychic|p2a: Golduck
+|-damage|p2a: Golduck|249\/310 slp
+|
+|turn|32
+|
+|switch|p1a: Primeape|Primeape, L85|284\/284
+|cant|p2a: Golduck|slp
+|
+|turn|33
+|
+|move|p1a: Primeape|Mega Kick|p2a: Golduck
+|-damage|p2a: Golduck|154\/310 slp
+|cant|p2a: Golduck|slp
+|-curestatus|p2a: Golduck|slp
+|
+|turn|34
+|
+|move|p1a: Primeape|Hyper Beam|p2a: Golduck|[miss]
+|-miss|p1a: Primeape
+|move|p2a: Golduck|Ice Beam|p1a: Primeape
+|-damage|p1a: Primeape|131\/284
+|
+|turn|35
+|
+|move|p1a: Primeape|Hyper Beam|p2a: Golduck|[miss]
+|-miss|p1a: Primeape
+|move|p2a: Golduck|Ice Beam|p1a: Primeape
+|-damage|p1a: Primeape|0 fnt
+|faint|p1a: Primeape
+|
+|switch|p1a: Hypno|Hypno, L85|195\/318
+|turn|36
+|
+|move|p2a: Golduck|Amnesia|p2a: Golduck
+|-boost|p2a: Golduck|spd|2
+|-boost|p2a: Golduck|spa|2
+|move|p1a: Hypno|Hypnosis|p2a: Golduck
+|-status|p2a: Golduck|slp
+|
+|turn|37
+|
+|switch|p1a: Marowak|Marowak, L85|20\/276
+|cant|p2a: Golduck|slp
+|-curestatus|p2a: Golduck|slp
+|
+|turn|38
+|
+|move|p2a: Golduck|Ice Beam|p1a: Marowak
+|-crit|p1a: Marowak
+|-supereffective|p1a: Marowak
+|-damage|p1a: Marowak|0 fnt
+|faint|p1a: Marowak
+|
+|switch|p1a: Hypno|Hypno, L85|195\/318
+|turn|39
+|
+|move|p2a: Golduck|Ice Beam|p1a: Hypno
+|-damage|p1a: Hypno|36\/318
+|move|p1a: Hypno|Hypnosis|p2a: Golduck|[miss]
+|-miss|p1a: Hypno
+|
+|turn|40
+|
+|move|p2a: Golduck|Ice Beam|p1a: Hypno
+|-damage|p1a: Hypno|0 fnt
+|faint|p1a: Hypno
+|-message|librarynoob forfeited.
+|leave|librarynoob
+|
+|win|Badrking
+|raw|Ladder updating...
+|player|p1

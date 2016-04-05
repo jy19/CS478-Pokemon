@@ -1,0 +1,41 @@
+﻿|join|erik1erik
+|join|oscar123456789
+|player|p1|erik1erik|102
+|player|p2|oscar123456789|1
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Growlithe|Growlithe, L96|300\/300
+|switch|p2a: Pikachu|Pikachu, L96|262\/262
+|turn|1
+|
+|move|p2a: Pikachu|Surf|p1a: Growlithe
+|-supereffective|p1a: Growlithe
+|-damage|p1a: Growlithe|154\/300
+|move|p1a: Growlithe|Body Slam|p2a: Pikachu
+|-damage|p2a: Pikachu|173\/262
+|
+|turn|2
+|
+|switch|p1a: Victreebel|Victreebel, L85|310\/310
+|move|p2a: Pikachu|Surf|p1a: Victreebel
+|-crit|p1a: Victreebel
+|-resisted|p1a: Victreebel
+|-damage|p1a: Victreebel|262\/310
+|
+|turn|3
+|leave|oscar123456789
+|player|p2
+|-message|oscar123456789 lost due to inactivity.
+|
+|win|erik1erik
+|raw|erik1erik's rating: 1380 &rarr; <strong>1387<\/strong><br \/>(+7 for winning)
+|raw|oscar123456789's rating: 1105 &rarr; <strong>1097<\/strong><br \/>(-8 for losing)
+|leave|erik1erik
+|player|p1

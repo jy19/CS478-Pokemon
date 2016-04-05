@@ -1,0 +1,305 @@
+﻿|join|MALESANI
+|join|Azawa
+|player|p1|MALESANI|238
+|player|p2|Azawa|108
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|14409,9892,33268,39289
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gastly|Gastly, L96|252\/252
+|switch|p2a: Growlithe|Growlithe, L96|300\/300
+|turn|1
+|choice|move 1|move 1
+|
+|move|p1a: Gastly|Hypnosis|p2a: Growlithe|[miss]
+|-miss|p1a: Gastly
+|move|p2a: Growlithe|Fire Blast|p1a: Gastly
+|-damage|p1a: Gastly|160\/252
+|
+|turn|2
+|choice|move 1|move 1
+|
+|move|p1a: Gastly|Hypnosis|p2a: Growlithe
+|-status|p2a: Growlithe|slp
+|cant|p2a: Growlithe|slp
+|
+|turn|3
+|choice|move 4|switch 2
+|
+|switch|p2a: Exeggcute|Exeggcute, L96|310\/310
+|move|p1a: Gastly|Psychic|p2a: Exeggcute
+|-resisted|p2a: Exeggcute
+|-damage|p2a: Exeggcute|268\/310
+|
+|turn|4
+|choice|move 4|move 1
+|
+|move|p1a: Gastly|Psychic|p2a: Exeggcute|[miss]
+|-miss|p1a: Gastly
+|move|p2a: Exeggcute|Psychic|p1a: Gastly
+|-supereffective|p1a: Gastly
+|-damage|p1a: Gastly|12\/252
+|-unboost|p1a: Gastly|spd|1
+|-unboost|p1a: Gastly|spa|1
+|
+|turn|5
+|choice|move 3|move 1
+|
+|move|p1a: Gastly|Explosion|p2a: Exeggcute
+|-crit|p2a: Exeggcute
+|-damage|p2a: Exeggcute|0 fnt
+|faint|p2a: Exeggcute
+|faint|p1a: Gastly
+|choice|switch 3|switch 5
+|
+|switch|p2a: Nidorino|Nidorino, L90|293\/293
+|switch|p1a: Porygon|Porygon, L85|284\/284
+|turn|6
+|choice|move 4|move 3
+|
+|move|p2a: Nidorino|Body Slam|p1a: Porygon
+|-damage|p1a: Porygon|217\/284
+|move|p1a: Porygon|Psychic|p2a: Nidorino
+|-supereffective|p2a: Nidorino
+|-damage|p2a: Nidorino|153\/293
+|-unboost|p2a: Nidorino|spd|1
+|-unboost|p2a: Nidorino|spa|1
+|
+|turn|7
+|choice|move 1|switch 6
+|
+|switch|p2a: Lickitung|Lickitung, L90|345\/345
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|284\/284
+|
+|turn|8
+|choice|move 3|move 4
+|
+|move|p1a: Porygon|Blizzard|p2a: Lickitung
+|-damage|p2a: Lickitung|256\/345
+|move|p2a: Lickitung|Swords Dance|p2a: Lickitung
+|-boost|p2a: Lickitung|atk|2
+|
+|turn|9
+|choice|move 4|move 4
+|
+|move|p1a: Porygon|Psychic|p2a: Lickitung
+|-damage|p2a: Lickitung|186\/345
+|-unboost|p2a: Lickitung|spd|1
+|-unboost|p2a: Lickitung|spa|1
+|move|p2a: Lickitung|Swords Dance|p2a: Lickitung
+|-boost|p2a: Lickitung|atk|2
+|
+|turn|10
+|choice|move 3|move 2
+|
+|move|p1a: Porygon|Blizzard|p2a: Lickitung
+|-damage|p2a: Lickitung|49\/345
+|move|p2a: Lickitung|Earthquake|p1a: Porygon
+|-damage|p1a: Porygon|97\/284
+|
+|turn|11
+|choice|move 1|move 1
+|
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|239\/284
+|move|p2a: Lickitung|Body Slam|p1a: Porygon
+|-damage|p1a: Porygon|7\/284
+|
+|turn|12
+|choice|move 2|move 1
+|
+|move|p1a: Porygon|Thunderbolt|p2a: Lickitung
+|-damage|p2a: Lickitung|0 fnt
+|faint|p2a: Lickitung
+|choice||switch 6
+|
+|switch|p2a: Nidorino|Nidorino, L90|153\/293
+|turn|13
+|choice|switch 2|move 3
+|
+|switch|p1a: Hypno|Hypno, L85|318\/318
+|move|p2a: Nidorino|Body Slam|p1a: Hypno
+|-damage|p1a: Hypno|249\/318
+|
+|turn|14
+|choice|move 2|move 3
+|
+|move|p2a: Nidorino|Body Slam|p1a: Hypno
+|-damage|p1a: Hypno|185\/318
+|move|p1a: Hypno|Thunder Wave|p2a: Nidorino
+|-status|p2a: Nidorino|par
+|
+|turn|15
+|choice|move 1|move 3
+|
+|move|p1a: Hypno|Psychic|p2a: Nidorino
+|-supereffective|p2a: Nidorino
+|-damage|p2a: Nidorino|0 fnt
+|faint|p2a: Nidorino
+|choice||switch 3
+|
+|switch|p2a: Marowak|Marowak, L90|291\/291
+|turn|16
+|choice|switch 6|move 4
+|
+|switch|p1a: Butterfree|Butterfree, L90|291\/291
+|move|p2a: Marowak|Earthquake|p1a: Butterfree
+|-immune|p1a: Butterfree|[msg]
+|
+|turn|17
+|choice|move 4|move 1
+|
+|move|p1a: Butterfree|Psychic|p2a: Marowak
+|-damage|p2a: Marowak|211\/291
+|move|p2a: Marowak|Blizzard|p1a: Butterfree
+|-supereffective|p1a: Butterfree
+|-damage|p1a: Butterfree|168\/291
+|-status|p1a: Butterfree|frz
+|
+|turn|18
+|choice|move 3|move 1
+|
+|cant|p1a: Butterfree|frz
+|move|p2a: Marowak|Blizzard|p1a: Butterfree
+|-supereffective|p1a: Butterfree
+|-damage|p1a: Butterfree|34\/291 frz
+|
+|turn|19
+|choice|move 2|move 3
+|
+|cant|p1a: Butterfree|frz
+|move|p2a: Marowak|Body Slam|p1a: Butterfree
+|-damage|p1a: Butterfree|0 fnt
+|faint|p1a: Butterfree
+|choice|switch 6|
+|
+|switch|p1a: Hypno|Hypno, L85|185\/318
+|turn|20
+|choice|move 1|move 3
+|
+|move|p1a: Hypno|Psychic|p2a: Marowak
+|-damage|p2a: Marowak|62\/291
+|-unboost|p2a: Marowak|spd|1
+|-unboost|p2a: Marowak|spa|1
+|move|p2a: Marowak|Body Slam|p1a: Hypno
+|-damage|p1a: Hypno|111\/318
+|-status|p1a: Hypno|par
+|
+|turn|21
+|choice|move 1|move 4
+|
+|move|p2a: Marowak|Earthquake|p1a: Hypno
+|-damage|p1a: Hypno|0 fnt
+|faint|p1a: Hypno
+|choice|switch 5|
+|
+|switch|p1a: Arbok|Arbok, L90|291\/291
+|turn|22
+|choice|move 3|move 4
+|
+|move|p1a: Arbok|Hyper Beam|p2a: Marowak|[miss]
+|-miss|p1a: Arbok
+|move|p2a: Marowak|Earthquake|p1a: Arbok
+|-supereffective|p1a: Arbok
+|-damage|p1a: Arbok|65\/291
+|
+|turn|23
+|choice|move 3|move 3
+|
+|move|p1a: Arbok|Hyper Beam|p2a: Marowak
+|-damage|p2a: Marowak|0 fnt
+|faint|p2a: Marowak
+|choice||switch 4
+|
+|switch|p2a: Alakazam|Alakazam, L79|249\/249
+|turn|24
+|choice|move 1|move 1
+|
+|move|p2a: Alakazam|Psychic|p1a: Arbok
+|-crit|p1a: Arbok
+|-supereffective|p1a: Arbok
+|-damage|p1a: Arbok|0 fnt
+|faint|p1a: Arbok
+|choice|switch 4|
+|
+|switch|p1a: Rhydon|Rhydon, L79|328\/328
+|turn|25
+|choice|move 2|switch 2
+|
+|switch|p2a: Growlithe|Growlithe, L96|300\/300 slp
+|move|p1a: Rhydon|Body Slam|p2a: Growlithe
+|-damage|p2a: Growlithe|220\/300 slp
+|
+|turn|26
+|choice|switch 2|move 2
+|
+|switch|p1a: Porygon|Porygon, L85|7\/284
+|cant|p2a: Growlithe|slp
+|
+|turn|27
+|choice|move 1|switch 2
+|
+|switch|p2a: Alakazam|Alakazam, L79|249\/249
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|149\/284
+|
+|turn|28
+|choice|move 3|move 1
+|
+|move|p2a: Alakazam|Psychic|p1a: Porygon
+|-damage|p1a: Porygon|42\/284
+|move|p1a: Porygon|Blizzard|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-damage|p2a: Alakazam|132\/249
+|
+|turn|29
+|choice|move 3|move 1
+|
+|move|p2a: Alakazam|Psychic|p1a: Porygon
+|-damage|p1a: Porygon|0 fnt
+|faint|p1a: Porygon
+|choice|switch 2|
+|
+|switch|p1a: Rhydon|Rhydon, L79|328\/328
+|turn|30
+|choice|move 2|move 4
+|
+|move|p2a: Alakazam|Reflect|p2a: Alakazam
+|-start|p2a: Alakazam|Reflect
+|move|p1a: Rhydon|Body Slam|p2a: Alakazam
+|-damage|p2a: Alakazam|84\/249
+|
+|turn|31
+|choice|move 1|move 1
+|
+|move|p2a: Alakazam|Psychic|p1a: Rhydon
+|-crit|p1a: Rhydon
+|-damage|p1a: Rhydon|10\/328
+|-unboost|p1a: Rhydon|spd|1
+|-unboost|p1a: Rhydon|spa|1
+|move|p1a: Rhydon|Earthquake|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|choice||switch 2
+|
+|switch|p2a: Growlithe|Growlithe, L96|220\/300 slp
+|turn|32
+|choice|move 1|move 4
+|
+|cant|p2a: Growlithe|slp
+|move|p1a: Rhydon|Earthquake|p2a: Growlithe
+|-crit|p2a: Growlithe
+|-supereffective|p2a: Growlithe
+|-damage|p2a: Growlithe|0 fnt
+|faint|p2a: Growlithe
+|
+|win|MALESANI
+|raw|MALESANI's rating: 1298 &rarr; <strong>1321<\/strong><br \/>(+23 for winning)
+|raw|Azawa's rating: 1277 &rarr; <strong>1254<\/strong><br \/>(-23 for losing)

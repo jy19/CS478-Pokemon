@@ -1,0 +1,471 @@
+﻿|j|PelipperToRescue
+|j|SinisterHFigure
+|player|p1|PelipperToRescue|80
+|player|p2|SinisterHFigure|269
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|seed|6952,56101,20318,2734
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Arcanine|Arcanine|383\/383
+|switch|p2a: Dragonair|Dragonair|325\/325
+|turn|1
+|choice|move 4|move 2
+|
+|move|p1a: Arcanine|Reflect|p1a: Arcanine
+|-start|p1a: Arcanine|Reflect
+|move|p2a: Dragonair|Thunder Wave|p1a: Arcanine
+|-status|p1a: Arcanine|par
+|
+|turn|2
+|choice|move 2|move 1
+|
+|move|p2a: Dragonair|Wrap|p1a: Arcanine
+|-damage|p1a: Arcanine|376\/383 par
+|-activate|p1a: Arcanine|move: Wrap|[of] p2a: Dragonair
+|cant|p1a: Arcanine|partiallytrapped
+|
+|turn|3
+|choice|move 2|move 1
+|
+|move|p2a: Dragonair|Wrap|p1a: Arcanine
+|-damage|p1a: Arcanine|369\/383 par
+|cant|p1a: Arcanine|partiallytrapped
+|
+|turn|4
+|choice|switch 5|move 1
+|
+|switch|p1a: Gengar|Gengar|323\/323
+|move|p2a: Dragonair|Wrap|p1a: Gengar
+|-damage|p1a: Gengar|323\/323
+|-activate|p1a: Gengar|move: Wrap|[of] p2a: Dragonair
+|
+|turn|5
+|choice|move 1|move 1
+|
+|cant|p1a: Gengar|partiallytrapped
+|move|p2a: Dragonair|Wrap|p1a: Gengar
+|-damage|p1a: Gengar|323\/323
+|
+|-end|p1a: Gengar|Wrap|[partiallytrapped]
+|turn|6
+|choice|move 1|move 2
+|
+|move|p1a: Gengar|Hypnosis|p2a: Dragonair|[miss]
+|-miss|p1a: Gengar
+|move|p2a: Dragonair|Thunder Wave|p1a: Gengar
+|-status|p1a: Gengar|par
+|
+|turn|7
+|choice|move 1|move 1
+|
+|move|p2a: Dragonair|Wrap|p1a: Gengar|[miss]
+|-miss|p2a: Dragonair
+|cant|p1a: Gengar|par
+|
+|turn|8
+|choice|move 1|move 1
+|
+|move|p2a: Dragonair|Wrap|p1a: Gengar
+|-damage|p1a: Gengar|323\/323 par
+|-activate|p1a: Gengar|move: Wrap|[of] p2a: Dragonair
+|cant|p1a: Gengar|partiallytrapped
+|
+|turn|9
+|choice|move 1|move 1
+|
+|move|p2a: Dragonair|Wrap|p1a: Gengar
+|-damage|p1a: Gengar|323\/323 par
+|cant|p1a: Gengar|partiallytrapped
+|
+|turn|10
+|choice|move 1|move 1
+|
+|move|p2a: Dragonair|Wrap|p1a: Gengar
+|-damage|p1a: Gengar|323\/323 par
+|cant|p1a: Gengar|par
+|
+|-end|p1a: Gengar|Wrap|[partiallytrapped]
+|turn|11
+|choice|move 1|move 1
+|
+|move|p2a: Dragonair|Wrap|p1a: Gengar
+|-damage|p1a: Gengar|323\/323 par
+|-activate|p1a: Gengar|move: Wrap|[of] p2a: Dragonair
+|cant|p1a: Gengar|par
+|
+|turn|12
+|choice|move 1|move 1
+|
+|move|p2a: Dragonair|Wrap|p1a: Gengar
+|-damage|p1a: Gengar|323\/323 par
+|cant|p1a: Gengar|partiallytrapped
+|
+|turn|13
+|choice|move 1|switch 2
+|
+|switch|p2a: Lickitung|Lickitung|383\/383
+|cant|p1a: Gengar|partiallytrapped
+|
+|-end|p1a: Gengar|Wrap|[partiallytrapped]
+|turn|14
+|choice|move 1|move 2
+|
+|move|p2a: Lickitung|Earthquake|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|167\/323 par
+|move|p1a: Gengar|Hypnosis|p2a: Lickitung
+|-status|p2a: Lickitung|slp
+|
+|turn|15
+|choice|switch 2|move 2
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|-curestatus|p2a: Lickitung|slp
+|
+|turn|16
+|choice|move 1|move 3
+|
+|move|p1a: Alakazam|Psychic|p2a: Lickitung
+|-damage|p2a: Lickitung|211\/383
+|move|p2a: Lickitung|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|209\/313
+|
+|turn|17
+|choice|move 1|move 3
+|
+|move|p1a: Alakazam|Psychic|p2a: Lickitung
+|-damage|p2a: Lickitung|27\/383
+|move|p2a: Lickitung|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|91\/313
+|
+|turn|18
+|choice|move 2|move 1
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|247\/313
+|move|p2a: Lickitung|Wrap|p1a: Alakazam|[miss]
+|-miss|p2a: Lickitung
+|
+|turn|19
+|choice|move 1|move 3
+|
+|move|p1a: Alakazam|Psychic|p2a: Lickitung
+|-damage|p2a: Lickitung|0 fnt
+|faint|p2a: Lickitung
+|choice||switch 2
+|
+|switch|p2a: Dragonair|Dragonair|325\/325
+|turn|20
+|choice|switch 2|move 2
+|
+|switch|p1a: Gengar|Gengar|167\/323 par
+|move|p2a: Dragonair|Thunder Wave|p1a: Gengar
+|-fail|p1a: Gengar|par
+|
+|turn|21
+|choice|move 1|move 1
+|
+|move|p2a: Dragonair|Wrap|p1a: Gengar
+|-damage|p1a: Gengar|167\/323 par
+|-activate|p1a: Gengar|move: Wrap|[of] p2a: Dragonair
+|cant|p1a: Gengar|partiallytrapped
+|
+|turn|22
+|choice|move 1|switch 6
+|
+|switch|p2a: Cloyster|Cloyster|303\/303
+|cant|p1a: Gengar|partiallytrapped
+|
+|-end|p1a: Gengar|Wrap|[partiallytrapped]
+|turn|23
+|choice|move 3|move 1
+|
+|move|p2a: Cloyster|Clamp|p1a: Gengar
+|-damage|p1a: Gengar|131\/323 par
+|-activate|p1a: Gengar|move: Clamp|[of] p2a: Cloyster
+|cant|p1a: Gengar|par
+|
+|turn|24
+|choice|move 3|move 1
+|
+|move|p2a: Cloyster|Clamp|p1a: Gengar
+|-damage|p1a: Gengar|95\/323 par
+|cant|p1a: Gengar|par
+|
+|-end|p1a: Gengar|Clamp|[partiallytrapped]
+|turn|25
+|choice|move 3|move 1
+|
+|move|p2a: Cloyster|Clamp|p1a: Gengar
+|-damage|p1a: Gengar|60\/323 par
+|-activate|p1a: Gengar|move: Clamp|[of] p2a: Cloyster
+|cant|p1a: Gengar|partiallytrapped
+|
+|turn|26
+|choice|move 3|move 1
+|
+|move|p2a: Cloyster|Clamp|p1a: Gengar
+|-damage|p1a: Gengar|25\/323 par
+|cant|p1a: Gengar|partiallytrapped
+|
+|-end|p1a: Gengar|Clamp|[partiallytrapped]
+|turn|27
+|choice|move 4|move 2
+|
+|move|p2a: Cloyster|Blizzard|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|choice|switch 6|
+|
+|switch|p1a: Zapdos|Zapdos|383\/383
+|turn|28
+|choice|move 1|switch 6
+|
+|switch|p2a: Dragonair|Dragonair|325\/325
+|move|p1a: Zapdos|Thunderbolt|p2a: Dragonair
+|-resisted|p2a: Dragonair
+|-damage|p2a: Dragonair|246\/325
+|
+|turn|29
+|choice|move 2|move 2
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Dragonair
+|-damage|p2a: Dragonair|138\/325
+|move|p2a: Dragonair|Thunder Wave|p1a: Zapdos
+|-status|p1a: Zapdos|par
+|
+|turn|30
+|choice|switch 4|move 1
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: Dragonair|Wrap|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|495\/523
+|-activate|p1a: Snorlax|move: Wrap|[of] p2a: Dragonair
+|
+|turn|31
+|choice|move 2|move 1
+|
+|move|p2a: Dragonair|Wrap|p1a: Snorlax
+|-damage|p1a: Snorlax|467\/523
+|cant|p1a: Snorlax|partiallytrapped
+|
+|turn|32
+|choice|move 2|move 1
+|
+|move|p2a: Dragonair|Wrap|p1a: Snorlax
+|-damage|p1a: Snorlax|439\/523
+|cant|p1a: Snorlax|partiallytrapped
+|
+|-end|p1a: Snorlax|Wrap|[partiallytrapped]
+|turn|33
+|choice|move 2|move 1
+|
+|move|p2a: Dragonair|Wrap|p1a: Snorlax
+|-damage|p1a: Snorlax|425\/523
+|-activate|p1a: Snorlax|move: Wrap|[of] p2a: Dragonair
+|cant|p1a: Snorlax|partiallytrapped
+|
+|turn|34
+|choice|switch 5|move 1
+|
+|switch|p1a: Arcanine|Arcanine|369\/383 par
+|move|p2a: Dragonair|Wrap|p1a: Arcanine
+|-damage|p1a: Arcanine|357\/383 par
+|-activate|p1a: Arcanine|move: Wrap|[of] p2a: Dragonair
+|
+|turn|35
+|choice|move 3|move 1
+|
+|move|p2a: Dragonair|Wrap|p1a: Arcanine
+|-damage|p1a: Arcanine|345\/383 par
+|cant|p1a: Arcanine|partiallytrapped
+|
+|turn|36
+|choice|move 3|move 1
+|
+|move|p2a: Dragonair|Wrap|p1a: Arcanine
+|-damage|p1a: Arcanine|333\/383 par
+|cant|p1a: Arcanine|partiallytrapped
+|
+|-end|p1a: Arcanine|Wrap|[partiallytrapped]
+|turn|37
+|choice|move 3|move 1
+|
+|move|p2a: Dragonair|Wrap|p1a: Arcanine
+|-damage|p1a: Arcanine|321\/383 par
+|-activate|p1a: Arcanine|move: Wrap|[of] p2a: Dragonair
+|cant|p1a: Arcanine|partiallytrapped
+|
+|turn|38
+|choice|move 3|move 1
+|
+|move|p2a: Dragonair|Wrap|p1a: Arcanine
+|-damage|p1a: Arcanine|309\/383 par
+|cant|p1a: Arcanine|partiallytrapped
+|
+|turn|39
+|choice|move 3|move 1
+|
+|move|p2a: Dragonair|Wrap|p1a: Arcanine
+|-damage|p1a: Arcanine|297\/383 par
+|cant|p1a: Arcanine|partiallytrapped
+|
+|-end|p1a: Arcanine|Wrap|[partiallytrapped]
+|turn|40
+|choice|move 3|move 1
+|
+|move|p2a: Dragonair|Wrap|p1a: Arcanine
+|-damage|p1a: Arcanine|284\/383 par
+|-activate|p1a: Arcanine|move: Wrap|[of] p2a: Dragonair
+|cant|p1a: Arcanine|partiallytrapped
+|
+|turn|41
+|choice|move 3|move 1
+|
+|move|p2a: Dragonair|Wrap|p1a: Arcanine
+|-damage|p1a: Arcanine|271\/383 par
+|cant|p1a: Arcanine|partiallytrapped
+|
+|turn|42
+|choice|move 3|move 1
+|
+|move|p2a: Dragonair|Wrap|p1a: Arcanine
+|-damage|p1a: Arcanine|258\/383 par
+|cant|p1a: Arcanine|partiallytrapped
+|
+|-end|p1a: Arcanine|Wrap|[partiallytrapped]
+|turn|43
+|choice|move 3|move 1
+|
+|move|p2a: Dragonair|Wrap|p1a: Arcanine
+|-damage|p1a: Arcanine|246\/383 par
+|-activate|p1a: Arcanine|move: Wrap|[of] p2a: Dragonair
+|cant|p1a: Arcanine|partiallytrapped
+|
+|turn|44
+|choice|move 3|move 1
+|
+|move|p2a: Dragonair|Wrap|p1a: Arcanine
+|-damage|p1a: Arcanine|234\/383 par
+|cant|p1a: Arcanine|partiallytrapped
+|
+|-end|p1a: Arcanine|Wrap|[partiallytrapped]
+|turn|45
+|c|★PelipperToRescue|why don't you use dragonite? because of articuno?
+|choice|move 3|move 1
+|
+|move|p2a: Dragonair|Wrap|p1a: Arcanine
+|-crit|p1a: Arcanine
+|-damage|p1a: Arcanine|208\/383 par
+|-activate|p1a: Arcanine|move: Wrap|[of] p2a: Dragonair
+|cant|p1a: Arcanine|partiallytrapped
+|
+|turn|46
+|choice|move 3|move 1
+|
+|move|p2a: Dragonair|Wrap|p1a: Arcanine
+|-damage|p1a: Arcanine|182\/383 par
+|cant|p1a: Arcanine|par
+|
+|turn|47
+|choice|move 3|move 1
+|
+|move|p2a: Dragonair|Wrap|p1a: Arcanine
+|-damage|p1a: Arcanine|156\/383 par
+|cant|p1a: Arcanine|partiallytrapped
+|
+|turn|48
+|choice|move 3|move 1
+|
+|move|p2a: Dragonair|Wrap|p1a: Arcanine
+|-damage|p1a: Arcanine|130\/383 par
+|cant|p1a: Arcanine|partiallytrapped
+|
+|turn|49
+|choice|move 3|move 1
+|
+|move|p2a: Dragonair|Wrap|p1a: Arcanine
+|-damage|p1a: Arcanine|104\/383 par
+|cant|p1a: Arcanine|partiallytrapped
+|
+|-end|p1a: Arcanine|Wrap|[partiallytrapped]
+|turn|50
+|choice|move 3|move 1
+|
+|move|p2a: Dragonair|Wrap|p1a: Arcanine
+|-damage|p1a: Arcanine|91\/383 par
+|-activate|p1a: Arcanine|move: Wrap|[of] p2a: Dragonair
+|cant|p1a: Arcanine|partiallytrapped
+|
+|turn|51
+|choice|move 3|move 1
+|
+|move|p2a: Dragonair|Wrap|p1a: Arcanine
+|-damage|p1a: Arcanine|78\/383 par
+|cant|p1a: Arcanine|partiallytrapped
+|
+|turn|52
+|choice|move 3|move 1
+|
+|move|p2a: Dragonair|Wrap|p1a: Arcanine
+|-damage|p1a: Arcanine|65\/383 par
+|cant|p1a: Arcanine|partiallytrapped
+|
+|-end|p1a: Arcanine|Wrap|[partiallytrapped]
+|turn|53
+|choice|move 3|move 4
+|
+|move|p2a: Dragonair|Agility|p2a: Dragonair
+|-boost|p2a: Dragonair|spe|2
+|cant|p1a: Arcanine|par
+|
+|turn|54
+|choice|move 3|move 3
+|
+|move|p2a: Dragonair|Surf|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|choice|switch 2|
+|
+|switch|p1a: Alakazam|Alakazam|247\/313
+|turn|55
+|c|★PelipperToRescue|gg
+|choice|move 1|move 2
+|
+|move|p2a: Dragonair|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|move|p1a: Alakazam|Psychic|p2a: Dragonair
+|-damage|p2a: Dragonair|0 fnt
+|faint|p2a: Dragonair
+|c|★PelipperToRescue|never mind
+|choice||switch 4
+|
+|switch|p2a: Arbok|Arbok|323\/323
+|turn|56
+|choice|move 1|move 2
+|
+|move|p2a: Arbok|Wrap|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|215\/313 par
+|-activate|p1a: Alakazam|move: Wrap|[of] p2a: Arbok
+|cant|p1a: Alakazam|partiallytrapped
+|
+|turn|57
+|-message|PelipperToRescue forfeited.
+|
+|win|SinisterHFigure
+|l|PelipperToRescue
+|player|p1
+|raw|PelipperToRescue's rating: 1000 &rarr; <strong>1000<\/strong><br \/>(+0 for losing)
+|raw|SinisterHFigure's rating: 1050 &rarr; <strong>1078<\/strong><br \/>(+28 for winning)

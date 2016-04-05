@@ -1,0 +1,150 @@
+﻿|join|idnasaernda
+|join|am14fg
+|player|p1|idnasaernda|84
+|player|p2|am14fg|2
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Krabby|Krabby, L96|252\/252
+|switch|p2a: Meowth|Meowth, L96|272\/272
+|turn|1
+|
+|move|p2a: Meowth|Slash|p1a: Krabby
+|-crit|p1a: Krabby
+|-damage|p1a: Krabby|141\/252
+|move|p1a: Krabby|Crabhammer|p2a: Meowth|[miss]
+|-miss|p1a: Krabby
+|
+|turn|2
+|
+|move|p2a: Meowth|Slash|p1a: Krabby
+|-crit|p1a: Krabby
+|-damage|p1a: Krabby|28\/252
+|move|p1a: Krabby|Crabhammer|p2a: Meowth
+|-crit|p2a: Meowth
+|-damage|p2a: Meowth|109\/272
+|
+|turn|3
+|
+|switch|p1a: Nidoking|Nidoking, L85|311\/311
+|move|p2a: Meowth|Slash|p1a: Nidoking
+|-crit|p1a: Nidoking
+|-damage|p1a: Nidoking|189\/311
+|
+|turn|4
+|
+|move|p2a: Meowth|Slash|p1a: Nidoking
+|-crit|p1a: Nidoking
+|-damage|p1a: Nidoking|64\/311
+|move|p1a: Nidoking|Body Slam|p2a: Meowth
+|-damage|p2a: Meowth|30\/272
+|
+|turn|5
+|
+|switch|p1a: Metapod|Metapod, L99|300\/300
+|move|p2a: Meowth|Slash|p1a: Metapod
+|-crit|p1a: Metapod
+|-damage|p1a: Metapod|162\/300
+|
+|turn|6
+|
+|move|p2a: Meowth|Slash|p1a: Metapod
+|-crit|p1a: Metapod
+|-damage|p1a: Metapod|26\/300
+|move|p1a: Metapod|Tackle|p2a: Meowth
+|-damage|p2a: Meowth|6\/272
+|
+|turn|7
+|
+|move|p2a: Meowth|Slash|p1a: Metapod
+|-crit|p1a: Metapod
+|-damage|p1a: Metapod|0 fnt
+|faint|p1a: Metapod
+|
+|switch|p1a: Krabby|Krabby, L96|28\/252
+|turn|8
+|
+|move|p2a: Meowth|Slash|p1a: Krabby
+|-crit|p1a: Krabby
+|-damage|p1a: Krabby|0 fnt
+|faint|p1a: Krabby
+|
+|switch|p1a: Zapdos|Zapdos, L79|304\/304
+|turn|9
+|
+|move|p2a: Meowth|Slash|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|166\/304
+|move|p1a: Zapdos|Drill Peck|p2a: Meowth
+|-damage|p2a: Meowth|0 fnt
+|faint|p2a: Meowth
+|
+|switch|p2a: Graveler|Graveler, L85|267\/267
+|turn|10
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Graveler
+|-immune|p2a: Graveler|[msg]
+|move|p2a: Graveler|Rock Slide|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|switch|p1a: Flareon|Flareon, L90|300\/300
+|turn|11
+|
+|move|p1a: Flareon|Fire Blast|p2a: Graveler
+|-resisted|p2a: Graveler
+|-damage|p2a: Graveler|155\/267
+|move|p2a: Graveler|Earthquake|p1a: Flareon
+|-supereffective|p1a: Flareon
+|-damage|p1a: Flareon|37\/300
+|
+|turn|12
+|
+|switch|p1a: Wigglytuff|Wigglytuff, L90|435\/435
+|move|p2a: Graveler|Earthquake|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|287\/435
+|
+|turn|13
+|
+|move|p1a: Wigglytuff|Bubble Beam|p2a: Graveler
+|-supereffective|p2a: Graveler
+|-damage|p2a: Graveler|0 fnt
+|faint|p2a: Graveler
+|
+|switch|p2a: Machamp|Machamp, L90|345\/345
+|turn|14
+|
+|move|p2a: Machamp|Submission|p1a: Wigglytuff
+|-supereffective|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|0 fnt
+|-damage|p2a: Machamp|274\/345|[from] recoil|[of] p1a: Wigglytuff
+|faint|p1a: Wigglytuff
+|
+|switch|p1a: Flareon|Flareon, L90|37\/300
+|turn|15
+|
+|move|p1a: Flareon|Quick Attack|p2a: Machamp
+|-damage|p2a: Machamp|238\/345
+|move|p2a: Machamp|Earthquake|p1a: Flareon
+|-supereffective|p1a: Flareon
+|-damage|p1a: Flareon|0 fnt
+|faint|p1a: Flareon
+|
+|switch|p1a: Nidoking|Nidoking, L85|64\/311
+|turn|16
+|
+|move|p1a: Nidoking|Earthquake|p2a: Machamp
+|-crit|p2a: Machamp
+|-damage|p2a: Machamp|52\/345
+|move|p2a: Machamp|Earthquake|p1a: Nidoking
+|-supereffective|p1a: Nidoking
+|-damage|p1a: Nidoking|0 fnt
+|faint|p1a: Nidoking
+|
+|win|am14fg

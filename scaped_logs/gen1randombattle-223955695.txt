@@ -1,0 +1,1238 @@
+﻿|join|Buts X
+|join|Lenz
+|player|p1|Buts X|43
+|player|p2|Lenz|179
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Psyduck|Psyduck, L96|291\/291
+|switch|p2a: Ditto|Ditto, L99|296\/296
+|turn|1
+|
+|switch|p1a: Nidorina|Nidorina, L90|309\/309
+|move|p2a: Ditto|Transform|p1a: Nidorina
+|-transform|p2a: Ditto|p1a: Nidorina
+|
+|turn|2
+|
+|move|p1a: Nidorina|Double-Edge|p2a: Ditto
+|-damage|p2a: Ditto|223\/296
+|-damage|p1a: Nidorina|291\/309|[from] recoil|[of] p2a: Ditto
+|move|p2a: Ditto|Thunder|p1a: Nidorina
+|-damage|p1a: Nidorina|201\/309
+|
+|turn|3
+|
+|move|p2a: Ditto|Double-Edge|p1a: Nidorina
+|-damage|p1a: Nidorina|122\/309
+|-damage|p2a: Ditto|204\/296|[from] recoil|[of] p1a: Nidorina
+|move|p1a: Nidorina|Body Slam|p2a: Ditto
+|-damage|p2a: Ditto|142\/296
+|
+|turn|4
+|
+|move|p1a: Nidorina|Body Slam|p2a: Ditto
+|-damage|p2a: Ditto|83\/296
+|-status|p2a: Ditto|par
+|move|p2a: Ditto|Body Slam|p1a: Nidorina
+|-crit|p1a: Nidorina
+|-damage|p1a: Nidorina|3\/309
+|-status|p1a: Nidorina|par
+|
+|turn|5
+|
+|move|p1a: Nidorina|Thunder|p2a: Ditto|[miss]
+|-miss|p1a: Nidorina
+|cant|p2a: Ditto|par
+|
+|turn|6
+|
+|move|p2a: Ditto|Body Slam|p1a: Nidorina
+|-damage|p1a: Nidorina|0 fnt
+|faint|p1a: Nidorina
+|
+|switch|p1a: Lickitung|Lickitung, L85|327\/327
+|turn|7
+|
+|move|p1a: Lickitung|Earthquake|p2a: Ditto
+|-supereffective|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|
+|switch|p2a: Cloyster|Cloyster, L83|253\/253
+|turn|8
+|
+|move|p2a: Cloyster|Surf|p1a: Lickitung
+|-damage|p1a: Lickitung|209\/327
+|move|p1a: Lickitung|Earthquake|p2a: Cloyster
+|-damage|p2a: Cloyster|221\/253
+|
+|turn|9
+|
+|move|p2a: Cloyster|Surf|p1a: Lickitung
+|-damage|p1a: Lickitung|103\/327
+|move|p1a: Lickitung|Hyper Beam|p2a: Cloyster
+|-damage|p2a: Cloyster|144\/253
+|
+|turn|10
+|
+|move|p2a: Cloyster|Surf|p1a: Lickitung
+|-damage|p1a: Lickitung|0 fnt
+|faint|p1a: Lickitung
+|
+|switch|p1a: Raichu|Raichu, L85|276\/276
+|turn|11
+|
+|move|p1a: Raichu|Thunderbolt|p2a: Cloyster
+|-supereffective|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p2a: Cloyster
+|
+|switch|p2a: Alakazam|Alakazam, L79|249\/249
+|turn|12
+|
+|move|p2a: Alakazam|Psychic|p1a: Raichu
+|-damage|p1a: Raichu|168\/276
+|move|p1a: Raichu|Body Slam|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-damage|p2a: Alakazam|82\/249
+|
+|turn|13
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Raichu
+|-status|p1a: Raichu|par
+|move|p1a: Raichu|Body Slam|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|switch|p2a: Rhydon|Rhydon, L79|328\/328
+|turn|14
+|
+|move|p2a: Rhydon|Earthquake|p1a: Raichu
+|-supereffective|p1a: Raichu
+|-damage|p1a: Raichu|0 fnt
+|faint|p1a: Raichu
+|
+|switch|p1a: Psyduck|Psyduck, L96|291\/291
+|turn|15
+|
+|switch|p2a: Slowbro|Slowbro, L79|312\/312
+|move|p1a: Psyduck|Surf|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|265\/312
+|
+|turn|16
+|
+|move|p1a: Psyduck|Amnesia|p1a: Psyduck
+|-boost|p1a: Psyduck|spd|2
+|-boost|p1a: Psyduck|spa|2
+|move|p2a: Slowbro|Thunder Wave|p1a: Psyduck
+|-status|p1a: Psyduck|par
+|
+|turn|17
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|move|p1a: Psyduck|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|218\/312
+|
+|turn|18
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|move|p1a: Psyduck|Amnesia|p1a: Psyduck
+|-boost|p1a: Psyduck|spd|2
+|-boost|p1a: Psyduck|spa|2
+|
+|turn|19
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|move|p1a: Psyduck|Amnesia|p1a: Psyduck
+|-boost|p1a: Psyduck|spd|2
+|-boost|p1a: Psyduck|spa|2
+|
+|turn|20
+|c|★Buts X|this will be a battle to the death
+|
+|move|p2a: Slowbro|Surf|p1a: Psyduck
+|-resisted|p1a: Psyduck
+|-damage|p1a: Psyduck|245\/291 par
+|move|p1a: Psyduck|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|168\/312
+|
+|turn|21
+|
+|move|p2a: Slowbro|Surf|p1a: Psyduck
+|-resisted|p1a: Psyduck
+|-damage|p1a: Psyduck|200\/291 par
+|move|p1a: Psyduck|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|119\/312
+|
+|turn|22
+|
+|move|p2a: Slowbro|Surf|p1a: Psyduck
+|-resisted|p1a: Psyduck
+|-damage|p1a: Psyduck|151\/291 par
+|move|p1a: Psyduck|Body Slam|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-damage|p2a: Slowbro|31\/312
+|
+|turn|23
+|
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|-heal|p2a: Slowbro|312\/312 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|cant|p1a: Psyduck|par
+|
+|turn|24
+|
+|cant|p2a: Slowbro|slp
+|cant|p1a: Psyduck|par
+|
+|turn|25
+|
+|cant|p2a: Slowbro|slp
+|-curestatus|p2a: Slowbro|slp
+|cant|p1a: Psyduck|par
+|
+|turn|26
+|
+|move|p2a: Slowbro|Surf|p1a: Psyduck
+|-resisted|p1a: Psyduck
+|-damage|p1a: Psyduck|103\/291 par
+|move|p1a: Psyduck|Rest|p1a: Psyduck
+|-status|p1a: Psyduck|slp
+|-heal|p1a: Psyduck|291\/291 slp|[silent]
+|-status|p1a: Psyduck|slp|[from] move: Rest
+|
+|turn|27
+|
+|move|p2a: Slowbro|Surf|p1a: Psyduck
+|-resisted|p1a: Psyduck
+|-damage|p1a: Psyduck|246\/291 slp
+|cant|p1a: Psyduck|slp
+|
+|turn|28
+|
+|move|p2a: Slowbro|Surf|p1a: Psyduck
+|-resisted|p1a: Psyduck
+|-damage|p1a: Psyduck|196\/291 slp
+|cant|p1a: Psyduck|slp
+|-curestatus|p1a: Psyduck|slp
+|
+|turn|29
+|
+|move|p2a: Slowbro|Surf|p1a: Psyduck
+|-resisted|p1a: Psyduck
+|-damage|p1a: Psyduck|151\/291
+|move|p1a: Psyduck|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|267\/312
+|
+|turn|30
+|
+|move|p2a: Slowbro|Surf|p1a: Psyduck
+|-resisted|p1a: Psyduck
+|-damage|p1a: Psyduck|107\/291
+|move|p1a: Psyduck|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|215\/312
+|-status|p2a: Slowbro|par
+|
+|turn|31
+|
+|move|p1a: Psyduck|Rest|p1a: Psyduck
+|-status|p1a: Psyduck|slp
+|-heal|p1a: Psyduck|291\/291 slp|[silent]
+|-status|p1a: Psyduck|slp|[from] move: Rest
+|move|p2a: Slowbro|Surf|p1a: Psyduck
+|-crit|p1a: Psyduck
+|-resisted|p1a: Psyduck
+|-damage|p1a: Psyduck|203\/291 slp
+|
+|turn|32
+|
+|cant|p1a: Psyduck|slp
+|cant|p2a: Slowbro|par
+|
+|turn|33
+|
+|cant|p1a: Psyduck|slp
+|-curestatus|p1a: Psyduck|slp
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|-heal|p2a: Slowbro|312\/312 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|
+|turn|34
+|
+|move|p1a: Psyduck|Surf|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|259\/312 slp
+|cant|p2a: Slowbro|slp
+|
+|turn|35
+|
+|move|p1a: Psyduck|Surf|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|209\/312 slp
+|cant|p2a: Slowbro|slp
+|-curestatus|p2a: Slowbro|slp
+|
+|turn|36
+|
+|move|p1a: Psyduck|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|164\/312
+|move|p2a: Slowbro|Thunder Wave|p1a: Psyduck
+|-status|p1a: Psyduck|par
+|
+|turn|37
+|
+|move|p1a: Psyduck|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|114\/312
+|move|p2a: Slowbro|Surf|p1a: Psyduck
+|-resisted|p1a: Psyduck
+|-damage|p1a: Psyduck|153\/291 par
+|
+|turn|38
+|
+|move|p1a: Psyduck|Body Slam|p2a: Slowbro|[miss]
+|-miss|p1a: Psyduck
+|move|p2a: Slowbro|Surf|p1a: Psyduck
+|-resisted|p1a: Psyduck
+|-damage|p1a: Psyduck|103\/291 par
+|
+|turn|39
+|
+|move|p1a: Psyduck|Rest|p1a: Psyduck
+|-status|p1a: Psyduck|slp
+|-heal|p1a: Psyduck|291\/291 slp|[silent]
+|-status|p1a: Psyduck|slp|[from] move: Rest
+|move|p2a: Slowbro|Surf|p1a: Psyduck
+|-resisted|p1a: Psyduck
+|-damage|p1a: Psyduck|245\/291 slp
+|
+|turn|40
+|
+|cant|p1a: Psyduck|slp
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|-heal|p2a: Slowbro|312\/312 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|
+|turn|41
+|
+|cant|p1a: Psyduck|slp
+|-curestatus|p1a: Psyduck|slp
+|cant|p2a: Slowbro|slp
+|
+|turn|42
+|
+|move|p1a: Psyduck|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|259\/312 slp
+|cant|p2a: Slowbro|slp
+|-curestatus|p2a: Slowbro|slp
+|
+|turn|43
+|
+|move|p1a: Psyduck|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|209\/312
+|move|p2a: Slowbro|Thunder Wave|p1a: Psyduck
+|-status|p1a: Psyduck|par
+|
+|turn|44
+|
+|cant|p1a: Psyduck|par
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|
+|turn|45
+|
+|move|p1a: Psyduck|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|157\/312
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|
+|turn|46
+|c|★Buts X|out of surfs?
+|c|★Lenz|no
+|c|★Lenz|i have surfs
+|c|★Buts X|conserving surfs?
+|c|★Lenz|ye
+|
+|cant|p1a: Psyduck|par
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|
+|turn|47
+|c|★Buts X|we'll be struggling before that
+|c|★Lenz|Surrender, friend
+|c|★Buts X|i'd rather die!
+|
+|cant|p1a: Psyduck|par
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|
+|turn|48
+|
+|move|p1a: Psyduck|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|106\/312
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|
+|turn|49
+|c|★Buts X|cmon crit
+|
+|move|p1a: Psyduck|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|54\/312
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|-heal|p2a: Slowbro|312\/312 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|
+|turn|50
+|c|★Buts X|dang
+|c|★Lenz|surrender
+|c|★Lenz|xDDD
+|c|★Buts X|DEATH FIRST!
+|
+|move|p1a: Psyduck|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|261\/312 slp
+|cant|p2a: Slowbro|slp
+|
+|turn|51
+|
+|move|p1a: Psyduck|Surf|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|211\/312 slp
+|cant|p2a: Slowbro|slp
+|-curestatus|p2a: Slowbro|slp
+|
+|turn|52
+|
+|move|p1a: Psyduck|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|160\/312
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|
+|turn|53
+|
+|move|p1a: Psyduck|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|114\/312
+|-status|p2a: Slowbro|par
+|move|p2a: Slowbro|Thunder Wave|p1a: Psyduck
+|-fail|p1a: Psyduck|par
+|
+|turn|54
+|c|★Lenz|lol man, i want to go to the bathroom
+|c|★Buts X|hope its a number two... so you time out
+|
+|move|p1a: Psyduck|Surf|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|66\/312 par
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|-heal|p2a: Slowbro|312\/312 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|
+|turn|55
+|
+|move|p1a: Psyduck|Surf|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|266\/312 slp
+|cant|p2a: Slowbro|slp
+|
+|turn|56
+|
+|move|p1a: Psyduck|Amnesia|p1a: Psyduck
+|cant|p2a: Slowbro|slp
+|-curestatus|p2a: Slowbro|slp
+|
+|turn|57
+|
+|move|p1a: Psyduck|Rest|p1a: Psyduck
+|-status|p1a: Psyduck|slp
+|-heal|p1a: Psyduck|291\/291 slp|[silent]
+|-status|p1a: Psyduck|slp|[from] move: Rest
+|move|p2a: Slowbro|Thunder Wave|p1a: Psyduck
+|-fail|p1a: Psyduck
+|
+|turn|58
+|
+|cant|p1a: Psyduck|slp
+|move|p2a: Slowbro|Thunder Wave|p1a: Psyduck
+|-fail|p1a: Psyduck
+|
+|turn|59
+|c|★Lenz|well, i stop the timer
+|c|★Lenz|i go to the bathroom
+|
+|cant|p1a: Psyduck|slp
+|-curestatus|p1a: Psyduck|slp
+|move|p2a: Slowbro|Thunder Wave|p1a: Psyduck
+|-status|p1a: Psyduck|par
+|
+|turn|60
+|c|★Lenz|pls
+|
+|move|p1a: Psyduck|Amnesia|p1a: Psyduck
+|move|p2a: Slowbro|Thunder Wave|p1a: Psyduck
+|-fail|p1a: Psyduck|par
+|
+|turn|61
+|
+|move|p1a: Psyduck|Amnesia|p1a: Psyduck
+|move|p2a: Slowbro|Thunder Wave|p1a: Psyduck
+|-fail|p1a: Psyduck|par
+|
+|turn|62
+|
+|move|p1a: Psyduck|Amnesia|p1a: Psyduck
+|move|p2a: Slowbro|Thunder Wave|p1a: Psyduck
+|-fail|p1a: Psyduck|par
+|
+|turn|63
+|
+|move|p1a: Psyduck|Amnesia|p1a: Psyduck
+|move|p2a: Slowbro|Thunder Wave|p1a: Psyduck
+|-fail|p1a: Psyduck|par
+|
+|turn|64
+|
+|move|p1a: Psyduck|Amnesia|p1a: Psyduck
+|move|p2a: Slowbro|Thunder Wave|p1a: Psyduck
+|-fail|p1a: Psyduck|par
+|
+|turn|65
+|c|★Buts X|how many total moves left?
+|
+|move|p1a: Psyduck|Amnesia|p1a: Psyduck
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|
+|turn|66
+|c|★Lenz|umm
+|c|★Lenz|20 thunder waves
+|c|★Lenz|12 surf
+|c|★Lenz|22 amnesia
+|c|★Lenz|and 11 rest
+|c|★Lenz|and you?
+|c|★Buts X|they add up to 59
+|
+|move|p1a: Psyduck|Amnesia|p1a: Psyduck
+|move|p2a: Slowbro|Thunder Wave|p1a: Psyduck
+|-fail|p1a: Psyduck|par
+|
+|turn|67
+|c|★Buts X|but i can be paralyzed which is helpful
+|
+|move|p1a: Psyduck|Amnesia|p1a: Psyduck
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|
+|turn|68
+|c|★Buts X|i can honestly say this has never happened to me, this type of stalemate
+|c|★Lenz|xDD
+|
+|move|p1a: Psyduck|Amnesia|p1a: Psyduck
+|move|p2a: Slowbro|Thunder Wave|p1a: Psyduck
+|-fail|p1a: Psyduck|par
+|
+|turn|69
+|
+|move|p1a: Psyduck|Amnesia|p1a: Psyduck
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|
+|turn|70
+|c|★Lenz|Surrender friend
+|
+|move|p1a: Psyduck|Amnesia|p1a: Psyduck
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|
+|turn|71
+|
+|cant|p1a: Psyduck|par
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|
+|turn|72
+|
+|move|p1a: Psyduck|Amnesia|p1a: Psyduck
+|move|p2a: Slowbro|Thunder Wave|p1a: Psyduck
+|-fail|p1a: Psyduck|par
+|
+|turn|73
+|
+|move|p1a: Psyduck|Amnesia|p1a: Psyduck
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|
+|turn|74
+|
+|cant|p1a: Psyduck|par
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|
+|turn|75
+|
+|move|p1a: Psyduck|Amnesia|p1a: Psyduck
+|move|p2a: Slowbro|Thunder Wave|p1a: Psyduck
+|-fail|p1a: Psyduck|par
+|
+|turn|76
+|
+|move|p1a: Psyduck|Amnesia|p1a: Psyduck
+|move|p2a: Slowbro|Thunder Wave|p1a: Psyduck
+|-fail|p1a: Psyduck|par
+|
+|turn|77
+|
+|move|p1a: Psyduck|Amnesia|p1a: Psyduck
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|
+|turn|78
+|
+|cant|p1a: Psyduck|par
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|
+|turn|79
+|
+|move|p1a: Psyduck|Amnesia|p1a: Psyduck
+|move|p2a: Slowbro|Thunder Wave|p1a: Psyduck
+|-fail|p1a: Psyduck|par
+|
+|turn|80
+|
+|move|p1a: Psyduck|Amnesia|p1a: Psyduck
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|
+|turn|81
+|
+|move|p1a: Psyduck|Amnesia|p1a: Psyduck
+|move|p2a: Slowbro|Thunder Wave|p1a: Psyduck
+|-fail|p1a: Psyduck|par
+|
+|turn|82
+|
+|move|p1a: Psyduck|Amnesia|p1a: Psyduck
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|
+|turn|83
+|
+|move|p1a: Psyduck|Amnesia|p1a: Psyduck
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|-heal|p2a: Slowbro|312\/312 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|
+|turn|84
+|
+|move|p1a: Psyduck|Surf|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|260\/312 slp
+|cant|p2a: Slowbro|slp
+|
+|turn|85
+|
+|move|p1a: Psyduck|Surf|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|208\/312 slp
+|cant|p2a: Slowbro|slp
+|-curestatus|p2a: Slowbro|slp
+|
+|turn|86
+|
+|cant|p1a: Psyduck|par
+|move|p2a: Slowbro|Thunder Wave|p1a: Psyduck
+|-fail|p1a: Psyduck|par
+|
+|turn|87
+|
+|move|p1a: Psyduck|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|161\/312
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|-heal|p2a: Slowbro|312\/312 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|
+|turn|88
+|
+|cant|p1a: Psyduck|par
+|cant|p2a: Slowbro|slp
+|
+|turn|89
+|
+|move|p1a: Psyduck|Amnesia|p1a: Psyduck
+|cant|p2a: Slowbro|slp
+|-curestatus|p2a: Slowbro|slp
+|
+|turn|90
+|
+|cant|p1a: Psyduck|par
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|
+|turn|91
+|
+|cant|p1a: Psyduck|par
+|move|p2a: Slowbro|Thunder Wave|p1a: Psyduck
+|-fail|p1a: Psyduck|par
+|
+|turn|92
+|c|★Lenz|Surrender first
+|
+|move|p1a: Psyduck|Amnesia|p1a: Psyduck
+|move|p2a: Slowbro|Surf|p1a: Psyduck
+|-resisted|p1a: Psyduck
+|-damage|p1a: Psyduck|241\/291 par
+|
+|turn|93
+|
+|cant|p1a: Psyduck|par
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|
+|turn|94
+|
+|move|p1a: Psyduck|Rest|p1a: Psyduck
+|-status|p1a: Psyduck|slp
+|-heal|p1a: Psyduck|291\/291 slp|[silent]
+|-status|p1a: Psyduck|slp|[from] move: Rest
+|move|p2a: Slowbro|Thunder Wave|p1a: Psyduck
+|-fail|p1a: Psyduck
+|
+|turn|95
+|
+|cant|p1a: Psyduck|slp
+|move|p2a: Slowbro|Surf|p1a: Psyduck
+|-resisted|p1a: Psyduck
+|-damage|p1a: Psyduck|246\/291 slp
+|
+|turn|96
+|
+|cant|p1a: Psyduck|slp
+|-curestatus|p1a: Psyduck|slp
+|move|p2a: Slowbro|Thunder Wave|p1a: Psyduck
+|-status|p1a: Psyduck|par
+|
+|turn|97
+|
+|move|p1a: Psyduck|Rest|p1a: Psyduck
+|-status|p1a: Psyduck|slp
+|-heal|p1a: Psyduck|291\/291 slp|[silent]
+|-status|p1a: Psyduck|slp|[from] move: Rest
+|move|p2a: Slowbro|Surf|p1a: Psyduck
+|-resisted|p1a: Psyduck
+|-damage|p1a: Psyduck|247\/291 slp
+|
+|turn|98
+|
+|cant|p1a: Psyduck|slp
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|
+|turn|99
+|
+|cant|p1a: Psyduck|slp
+|-curestatus|p1a: Psyduck|slp
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-fail|p2a: Slowbro
+|
+|turn|100
+|
+|move|p1a: Psyduck|Rest|p1a: Psyduck
+|-status|p1a: Psyduck|slp
+|-heal|p1a: Psyduck|291\/291 slp|[silent]
+|-status|p1a: Psyduck|slp|[from] move: Rest
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|
+|turn|101
+|
+|cant|p1a: Psyduck|slp
+|move|p2a: Slowbro|Surf|p1a: Psyduck
+|-resisted|p1a: Psyduck
+|-damage|p1a: Psyduck|242\/291 slp
+|
+|turn|102
+|
+|cant|p1a: Psyduck|slp
+|-curestatus|p1a: Psyduck|slp
+|move|p2a: Slowbro|Thunder Wave|p1a: Psyduck
+|-status|p1a: Psyduck|par
+|
+|turn|103
+|c|★Lenz|surrender, friend
+|
+|cant|p1a: Psyduck|par
+|move|p2a: Slowbro|Thunder Wave|p1a: Psyduck
+|-fail|p1a: Psyduck|par
+|
+|turn|104
+|c|★Buts X|my ranking is higher. i have way more to lose by forfieting
+|
+|move|p1a: Psyduck|Rest|p1a: Psyduck
+|-status|p1a: Psyduck|slp
+|-heal|p1a: Psyduck|291\/291 slp|[silent]
+|-status|p1a: Psyduck|slp|[from] move: Rest
+|move|p2a: Slowbro|Surf|p1a: Psyduck
+|-resisted|p1a: Psyduck
+|-damage|p1a: Psyduck|244\/291 slp
+|
+|turn|105
+|c|★Buts X|you forfeit, you only lose a little bit
+|c|★Lenz|na
+|
+|cant|p1a: Psyduck|slp
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|
+|turn|106
+|
+|cant|p1a: Psyduck|slp
+|-curestatus|p1a: Psyduck|slp
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-fail|p2a: Slowbro
+|
+|turn|107
+|c|★Buts X|either way, i'm saving this replay.
+|c|★Lenz|xDDD
+|c|★Lenz|ok, I will publish this battle
+|
+|move|p1a: Psyduck|Rest|p1a: Psyduck
+|-status|p1a: Psyduck|slp
+|-heal|p1a: Psyduck|291\/291 slp|[silent]
+|-status|p1a: Psyduck|slp|[from] move: Rest
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-fail|p2a: Slowbro
+|
+|turn|108
+|
+|cant|p1a: Psyduck|slp
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|
+|turn|109
+|join|dany981205
+|join|bluedragon2000
+|c| dany981205|éhk
+|join|KikFighter
+|leave|bluedragon2000
+|
+|cant|p1a: Psyduck|slp
+|-curestatus|p1a: Psyduck|slp
+|move|p2a: Slowbro|Surf|p1a: Psyduck
+|-resisted|p1a: Psyduck
+|-damage|p1a: Psyduck|246\/291
+|
+|turn|110
+|c| KikFighter|ho no
+|join|guapote
+|leave|KikFighter
+|join|Nebang
+|
+|move|p1a: Psyduck|Rest|p1a: Psyduck
+|-status|p1a: Psyduck|slp
+|-heal|p1a: Psyduck|291\/291 slp|[silent]
+|-status|p1a: Psyduck|slp|[from] move: Rest
+|move|p2a: Slowbro|Thunder Wave|p1a: Psyduck
+|-fail|p1a: Psyduck
+|
+|turn|111
+|
+|cant|p1a: Psyduck|slp
+|move|p2a: Slowbro|Thunder Wave|p1a: Psyduck
+|-fail|p1a: Psyduck
+|
+|turn|112
+|leave|dany981205
+|
+|cant|p1a: Psyduck|slp
+|-curestatus|p1a: Psyduck|slp
+|move|p2a: Slowbro|Surf|p1a: Psyduck
+|-crit|p1a: Psyduck
+|-resisted|p1a: Psyduck
+|-damage|p1a: Psyduck|195\/291
+|
+|turn|113
+|join|Rah Luke
+|join|UpAndComing
+|join|CakesXD
+|join|mrmoneydonutsFTW
+|join|Light Wobbuffet
+|join|Foxyy
+|leave|Nebang
+|c| CakesXD|oh god
+|
+|move|p1a: Psyduck|Rest|p1a: Psyduck
+|-status|p1a: Psyduck|slp
+|-heal|p1a: Psyduck|291\/291 slp|[silent]
+|-status|p1a: Psyduck|slp|[from] move: Rest
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|
+|turn|114
+|c| mrmoneydonutsFTW|uh oh!
+|c|★Lenz|oh uh
+|c| Rah Luke|hoe gawd
+|join|vg9600
+|join|djbkfrb
+|leave|djbkfrb
+|
+|cant|p1a: Psyduck|slp
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-fail|p2a: Slowbro
+|
+|turn|115
+|join|Vincent (Liepard)
+|leave|vg9600
+|leave|Vincent (Liepard)
+|c|★Buts X|this wont end
+|
+|cant|p1a: Psyduck|slp
+|-curestatus|p1a: Psyduck|slp
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-fail|p2a: Slowbro
+|
+|turn|116
+|c|★Buts X|i once had a chance to kill him with a crit. but it didnt crit.
+|leave|Rah Luke
+|
+|move|p1a: Psyduck|Amnesia|p1a: Psyduck
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|
+|turn|117
+|c| mrmoneydonutsFTW|http:\/\/strawpoll.me\/4086009
+|
+|move|p1a: Psyduck|Amnesia|p1a: Psyduck
+|move|p2a: Slowbro|Surf|p1a: Psyduck
+|-resisted|p1a: Psyduck
+|-damage|p1a: Psyduck|241\/291
+|
+|turn|118
+|
+|move|p1a: Psyduck|Rest|p1a: Psyduck
+|-status|p1a: Psyduck|slp
+|-heal|p1a: Psyduck|291\/291 slp|[silent]
+|-status|p1a: Psyduck|slp|[from] move: Rest
+|move|p2a: Slowbro|Thunder Wave|p1a: Psyduck
+|-fail|p1a: Psyduck
+|
+|turn|119
+|join|RoyMustangInferno
+|c| RoyMustangInferno|buts
+|c|★Buts X|yeah
+|c| RoyMustangInferno|you'll never guess
+|c| RoyMustangInferno|what happened last night
+|c|★Buts X|did you take top man down?
+|c| RoyMustangInferno|yup
+|
+|cant|p1a: Psyduck|slp
+|move|p2a: Slowbro|Thunder Wave|p1a: Psyduck
+|-fail|p1a: Psyduck
+|
+|turn|120
+|c|★Buts X|hell yeah dude
+|c| RoyMustangInferno|I saved it, I'll show you after this
+|c|★Buts X|was he on his main account? and did he shit talk?
+|c| RoyMustangInferno|to be fair, I did have like a perfect team
+|c| RoyMustangInferno|nah, he was cool
+|c|★Buts X|this isnt going to end anyitme soon, btw
+|
+|cant|p1a: Psyduck|slp
+|-curestatus|p1a: Psyduck|slp
+|move|p2a: Slowbro|Surf|p1a: Psyduck
+|-resisted|p1a: Psyduck
+|-damage|p1a: Psyduck|247\/291
+|
+|turn|121
+|c| RoyMustangInferno|he was on the randbats is gay one
+|c|★Buts X|ah
+|join|dany981205
+|c|★Buts X|yeah that guy was normal last night for the first time ever
+|c| dany981205|Oc? Oc
+|join|sadrecoxxxx
+|c|★Lenz|oc
+|
+|move|p1a: Psyduck|Rest|p1a: Psyduck
+|-status|p1a: Psyduck|slp
+|-heal|p1a: Psyduck|291\/291 slp|[silent]
+|-status|p1a: Psyduck|slp|[from] move: Rest
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|
+|turn|122
+|c| dany981205|Las weas con defensa
+|c|★Lenz|se
+|leave|dany981205
+|
+|cant|p1a: Psyduck|slp
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-fail|p2a: Slowbro
+|
+|turn|123
+|
+|cant|p1a: Psyduck|slp
+|-curestatus|p1a: Psyduck|slp
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-fail|p2a: Slowbro
+|
+|turn|124
+|c| RoyMustangInferno|is slowbro out of attack moves?
+|c|★Lenz|no
+|c| RoyMustangInferno|so this is gonna come down to struggle
+|c| RoyMustangInferno|oh
+|
+|move|p1a: Psyduck|Amnesia|p1a: Psyduck
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|
+|turn|125
+|c| guapote|:v
+|c| guapote|:v
+|c| guapote|:v
+|c| guapote|:v
+|c| guapote|:v
+|c| guapote|:v
+|c| guapote|:v
+|c| guapote|:v
+|c| guapote|:v
+|c|★Lenz|pls guapote
+|c| guapote|:v
+|c| guapote|:v
+|c|★Buts X|im almost out of amnesias...
+|c| guapote|:v
+|c| guapote|:v
+|c| guapote|:v
+|c| guapote|:v
+|c| guapote|:v
+|c| guapote|:v
+|c| guapote|:v
+|c| guapote|:v
+|
+|move|p1a: Psyduck|Amnesia|p1a: Psyduck
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|
+|turn|126
+|c| guapote|:v
+|c| guapote|:v
+|c| guapote|:v
+|c| guapote|:v
+|c| guapote|:v
+|c| guapote|:v
+|c| guapote|spam time
+|c| RoyMustangInferno|y u do dis
+|c|★Lenz|no
+|c|★Buts X|just \/\/ignore him
+|leave|guapote
+|
+|move|p1a: Psyduck|Amnesia|p1a: Psyduck
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|
+|turn|127
+|c|★Buts X|no more amnesias.... whats your status lenz
+|c|★Lenz|no more amnesias
+|
+|move|p1a: Psyduck|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|259\/312
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|-heal|p2a: Slowbro|312\/312 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|
+|turn|128
+|c|★Buts X|cmon crits!
+|
+|move|p1a: Psyduck|Surf|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|265\/312 slp
+|cant|p2a: Slowbro|slp
+|
+|turn|129
+|
+|move|p1a: Psyduck|Surf|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|215\/312 slp
+|cant|p2a: Slowbro|slp
+|-curestatus|p2a: Slowbro|slp
+|
+|turn|130
+|c|★Buts X|cmon para
+|
+|move|p1a: Psyduck|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|167\/312
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|-heal|p2a: Slowbro|312\/312 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|
+|turn|131
+|c|★Buts X|oh no
+|c|★Buts X|how many more rests?
+|
+|move|p1a: Psyduck|Surf|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|261\/312 slp
+|cant|p2a: Slowbro|slp
+|
+|turn|132
+|c|★Lenz|ummm, no X'D
+|c|★Buts X|cant be too many... you burned through a bunch that failed
+|
+|move|p1a: Psyduck|Surf|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|208\/312 slp
+|cant|p2a: Slowbro|slp
+|-curestatus|p2a: Slowbro|slp
+|
+|turn|133
+|c|★Buts X|but you had a lot of t waves
+|c|★Lenz|yes, i have t waves
+|
+|move|p1a: Psyduck|Surf|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|161\/312
+|move|p2a: Slowbro|Thunder Wave|p1a: Psyduck
+|-status|p1a: Psyduck|par
+|
+|turn|134
+|
+|move|p1a: Psyduck|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|109\/312
+|-status|p2a: Slowbro|par
+|cant|p2a: Slowbro|par
+|
+|turn|135
+|c|★Buts X|OH OH
+|c|★Lenz|haha
+|c| RoyMustangInferno|will this get to turn 200?
+|c|★Lenz|NICE
+|c| RoyMustangInferno|is there a record
+|c| RoyMustangInferno|for longest battle ever
+|c|★Buts X|this is the most boring battle ever...
+|
+|move|p1a: Psyduck|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|62\/312 par
+|move|p2a: Slowbro|Surf|p1a: Psyduck
+|-resisted|p1a: Psyduck
+|-damage|p1a: Psyduck|244\/291 par
+|
+|turn|136
+|c|★Buts X|cmon crit crit
+|c|★Lenz|haha man, gg
+|
+|move|p1a: Psyduck|Surf|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|10\/312 par
+|move|p2a: Slowbro|Surf|p1a: Psyduck
+|-resisted|p1a: Psyduck
+|-damage|p1a: Psyduck|196\/291 par
+|
+|turn|137
+|c|★Buts X|or you para.
+|c|★Buts X|oh my
+|c| RoyMustangInferno|out of rest?
+|c|★Lenz|yes
+|c|★Buts X|ah, rhydon will kill me now
+|
+|move|p1a: Psyduck|Rest|p1a: Psyduck
+|-status|p1a: Psyduck|slp
+|-heal|p1a: Psyduck|291\/291 slp|[silent]
+|-status|p1a: Psyduck|slp|[from] move: Rest
+|cant|p2a: Slowbro|par
+|
+|turn|138
+|
+|cant|p1a: Psyduck|slp
+|cant|p2a: Slowbro|par
+|
+|turn|139
+|
+|cant|p1a: Psyduck|slp
+|-curestatus|p1a: Psyduck|slp
+|move|p2a: Slowbro|Thunder Wave|p1a: Psyduck
+|-status|p1a: Psyduck|par
+|
+|turn|140
+|c|★Lenz|oh damn, turn 140
+|
+|move|p1a: Psyduck|Surf|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|
+|switch|p2a: Rhydon|Rhydon, L79|328\/328
+|turn|141
+|
+|move|p2a: Rhydon|Earthquake|p1a: Psyduck
+|-damage|p1a: Psyduck|146\/291 par
+|move|p1a: Psyduck|Surf|p2a: Rhydon
+|-crit|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|c|★Buts X|whew
+|c|★Buts X|cmon ducks
+|c|★Buts X|mighty duck
+|c|★Lenz|haha
+|c| RoyMustangInferno|ifyou got paralyzed there...
+|
+|switch|p2a: Snorlax|Snorlax, L79|415\/415
+|turn|142
+|c|★Buts X|NO
+|c|★Lenz|yes
+|c|★Buts X|this might happen all over again
+|
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|cant|p1a: Psyduck|par
+|
+|turn|143
+|c|★Lenz|Other turns :DDD
+|
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|move|p1a: Psyduck|Surf|p2a: Snorlax
+|-damage|p2a: Snorlax|268\/415
+|
+|turn|144
+|c| RoyMustangInferno|hope that snorlax doesn't have rest
+|
+|move|p2a: Snorlax|Body Slam|p1a: Psyduck
+|-damage|p1a: Psyduck|42\/291 par
+|cant|p1a: Psyduck|par
+|
+|turn|145
+|c|★Buts X|ugh being paralyzed hurt a lot there
+|c|★Buts X|ohhh no
+|c|★Lenz|dead duck
+|
+|move|p2a: Snorlax|Body Slam|p1a: Psyduck
+|-damage|p1a: Psyduck|0 fnt
+|faint|p1a: Psyduck
+|c|★Buts X|my paralysis was really not ideal
+|c|★Buts X|dam your unlimited t waves
+|c|★Lenz|xDD
+|
+|switch|p1a: Farfetch'd|Farfetch'd, L99|304\/304
+|turn|146
+|
+|move|p1a: Farfetch'd|Slash|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|79\/415
+|move|p2a: Snorlax|Blizzard|p1a: Farfetch'd|[miss]
+|-miss|p2a: Snorlax
+|
+|turn|147
+|c| RoyMustangInferno|nice
+|c|★Buts X|oh shit oh shit can this be
+|c|★Lenz|gg
+|
+|move|p1a: Farfetch'd|Slash|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|win|Buts X
+|raw|Ladder updating...
+|raw|Buts X's rating: 1378 &rarr; <strong>1386<\/strong><br \/>(+8 for winning)
+|raw|Lenz's rating: 1142 &rarr; <strong>1132<\/strong><br \/>(-10 for losing)
+|c|★Buts X|worlds worst battle!!!
+|c|★Lenz|nice battle man
+|c|★Lenz|:D
+|c|★Buts X|all for 8 goddamn points
+|leave|RoyMustangInferno
+|c|★Lenz|XDDDD
+|leave|Light Wobbuffet
+|leave|UpAndComing

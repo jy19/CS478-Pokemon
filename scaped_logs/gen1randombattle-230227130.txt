@@ -1,0 +1,245 @@
+﻿|join|Ch01W0n5h1n
+|join|Regnar
+|player|p1|Ch01W0n5h1n|165
+|player|p2|Regnar|274
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Slowbro|Slowbro, L79|312\/312
+|switch|p2a: Alakazam|Alakazam, L79|249\/249
+|turn|1
+|
+|move|p2a: Alakazam|Reflect|p2a: Alakazam
+|-start|p2a: Alakazam|Reflect
+|move|p1a: Slowbro|Thunder Wave|p2a: Alakazam
+|-status|p2a: Alakazam|par
+|
+|turn|2
+|
+|switch|p2a: Exeggutor|Exeggutor, L79|312\/312
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|
+|turn|3
+|
+|move|p2a: Exeggutor|Sleep Powder|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|cant|p1a: Slowbro|slp
+|
+|turn|4
+|
+|move|p2a: Exeggutor|Hyper Beam|p1a: Slowbro
+|-damage|p1a: Slowbro|223\/312 slp
+|cant|p1a: Slowbro|slp
+|
+|turn|5
+|-mustrecharge|p2a: Exeggutor
+|-mustrecharge|p2a: Exeggutor
+|
+|cant|p2a: Exeggutor|recharge
+|cant|p1a: Slowbro|slp
+|
+|turn|6
+|
+|move|p2a: Exeggutor|Psychic|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|123\/312 slp
+|-unboost|p1a: Slowbro|spd|1
+|-unboost|p1a: Slowbro|spa|1
+|cant|p1a: Slowbro|slp
+|
+|turn|7
+|
+|move|p2a: Exeggutor|Psychic|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|84\/312 slp
+|cant|p1a: Slowbro|slp
+|-curestatus|p1a: Slowbro|slp
+|
+|turn|8
+|
+|move|p2a: Exeggutor|Sleep Powder|p1a: Slowbro|[miss]
+|-miss|p2a: Exeggutor
+|move|p1a: Slowbro|Thunder Wave|p2a: Exeggutor
+|-status|p2a: Exeggutor|par
+|
+|turn|9
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|cant|p2a: Exeggutor|par
+|
+|turn|10
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|cant|p2a: Exeggutor|par
+|
+|turn|11
+|
+|move|p1a: Slowbro|Surf|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|251\/312 par
+|move|p2a: Exeggutor|Sleep Powder|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|
+|turn|12
+|
+|cant|p1a: Slowbro|slp
+|cant|p2a: Exeggutor|par
+|
+|turn|13
+|
+|cant|p1a: Slowbro|slp
+|-curestatus|p1a: Slowbro|slp
+|cant|p2a: Exeggutor|par
+|
+|turn|14
+|
+|move|p1a: Slowbro|Rest|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|-heal|p1a: Slowbro|312\/312 slp|[silent]
+|-status|p1a: Slowbro|slp|[from] move: Rest
+|cant|p2a: Exeggutor|par
+|
+|turn|15
+|
+|cant|p1a: Slowbro|slp
+|cant|p2a: Exeggutor|par
+|
+|turn|16
+|
+|cant|p1a: Slowbro|slp
+|-curestatus|p1a: Slowbro|slp
+|cant|p2a: Exeggutor|par
+|
+|turn|17
+|
+|move|p1a: Slowbro|Surf|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|136\/312 par
+|move|p2a: Exeggutor|Explosion|p1a: Slowbro
+|-damage|p1a: Slowbro|131\/312
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Alakazam|Alakazam, L79|249\/249 par
+|turn|18
+|
+|move|p1a: Slowbro|Surf|p2a: Alakazam
+|-damage|p2a: Alakazam|26\/249 par
+|move|p2a: Alakazam|Seismic Toss|p1a: Slowbro
+|-damage|p1a: Slowbro|52\/312
+|
+|turn|19
+|
+|move|p1a: Slowbro|Rest|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|-heal|p1a: Slowbro|312\/312 slp|[silent]
+|-status|p1a: Slowbro|slp|[from] move: Rest
+|cant|p2a: Alakazam|par
+|
+|turn|20
+|
+|cant|p1a: Slowbro|slp
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|150\/249 par
+|
+|turn|21
+|
+|cant|p1a: Slowbro|slp
+|-curestatus|p1a: Slowbro|slp
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|249\/249 par
+|
+|turn|22
+|
+|move|p1a: Slowbro|Surf|p2a: Alakazam
+|-damage|p2a: Alakazam|19\/249 par
+|move|p2a: Alakazam|Reflect|p2a: Alakazam
+|-start|p2a: Alakazam|Reflect
+|
+|turn|23
+|
+|move|p1a: Slowbro|Surf|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|switch|p2a: Snorlax|Snorlax, L79|415\/415
+|turn|24
+|
+|move|p1a: Slowbro|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|cant|p2a: Snorlax|par
+|
+|turn|25
+|
+|move|p1a: Slowbro|Surf|p2a: Snorlax
+|-damage|p2a: Snorlax|96\/415 par
+|cant|p2a: Snorlax|par
+|
+|turn|26
+|
+|move|p1a: Slowbro|Surf|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|switch|p2a: Porygon|Porygon, L85|284\/284
+|turn|27
+|
+|move|p2a: Porygon|Tri Attack|p1a: Slowbro
+|-damage|p1a: Slowbro|248\/312
+|move|p1a: Slowbro|Thunder Wave|p2a: Porygon
+|-status|p2a: Porygon|par
+|
+|turn|28
+|
+|move|p1a: Slowbro|Surf|p2a: Porygon
+|-damage|p2a: Porygon|2\/284 par
+|move|p2a: Porygon|Agility|p2a: Porygon
+|-boost|p2a: Porygon|spe|2
+|
+|turn|29
+|
+|move|p2a: Porygon|Blizzard|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|236\/312
+|move|p1a: Slowbro|Surf|p2a: Porygon
+|-damage|p2a: Porygon|0 fnt
+|faint|p2a: Porygon
+|
+|switch|p2a: Flareon|Flareon, L85|284\/284
+|turn|30
+|
+|move|p2a: Flareon|Hyper Beam|p1a: Slowbro
+|-damage|p1a: Slowbro|106\/312
+|move|p1a: Slowbro|Surf|p2a: Flareon
+|-supereffective|p2a: Flareon
+|-damage|p2a: Flareon|0 fnt
+|faint|p2a: Flareon
+|
+|switch|p2a: Cubone|Cubone, L96|291\/291
+|turn|31
+|
+|move|p2a: Cubone|Body Slam|p1a: Slowbro
+|-damage|p1a: Slowbro|54\/312
+|move|p1a: Slowbro|Surf|p2a: Cubone
+|-supereffective|p2a: Cubone
+|-damage|p2a: Cubone|0 fnt
+|faint|p2a: Cubone
+|
+|win|Ch01W0n5h1n
+|raw|Ladder updating...
+|raw|Ch01W0n5h1n's rating: 1333 &rarr; <strong>1339<\/strong><br \/>(+6 for winning)
+|raw|Regnar's rating: 1040 &rarr; <strong>1035<\/strong><br \/>(-5 for losing)
+|leave|Regnar

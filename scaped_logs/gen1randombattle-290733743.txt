@@ -1,0 +1,212 @@
+﻿|join|FrediFuchs
+|join|MALESANI
+|player|p1|FrediFuchs|84
+|player|p2|MALESANI|238
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|24057,44179,29444,45874
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Parasect|Parasect, L90|291\/291
+|switch|p2a: Abra|Abra, L96|243\/243
+|turn|1
+|choice|move 3|switch 6
+|
+|switch|p2a: Arbok|Arbok, L90|291\/291
+|move|p1a: Parasect|Stun Spore|p2a: Arbok
+|-status|p2a: Arbok|par
+|
+|turn|2
+|choice|move 4|move 4
+|
+|move|p1a: Parasect|Swords Dance|p1a: Parasect
+|-boost|p1a: Parasect|atk|2
+|move|p2a: Arbok|Rock Slide|p1a: Parasect
+|-supereffective|p1a: Parasect
+|-damage|p1a: Parasect|180\/291
+|
+|turn|3
+|choice|move 2|move 3
+|
+|move|p1a: Parasect|Double-Edge|p2a: Arbok
+|-damage|p2a: Arbok|119\/291 par
+|-damage|p1a: Parasect|137\/291|[from] recoil|[of] p2a: Arbok
+|move|p2a: Arbok|Body Slam|p1a: Parasect
+|-damage|p1a: Parasect|76\/291
+|-status|p1a: Parasect|par
+|
+|turn|4
+|choice|move 2|move 1
+|
+|move|p1a: Parasect|Double-Edge|p2a: Arbok
+|-damage|p2a: Arbok|0 fnt
+|-damage|p1a: Parasect|47\/291 par|[from] recoil|[of] p2a: Arbok
+|faint|p2a: Arbok
+|choice||switch 2
+|
+|switch|p2a: Poliwag|Poliwag, L96|272\/272
+|turn|5
+|choice|move 2|move 4
+|
+|move|p2a: Poliwag|Psychic|p1a: Parasect
+|-damage|p1a: Parasect|0 fnt
+|faint|p1a: Parasect
+|choice|switch 4|
+|
+|switch|p1a: Weezing|Weezing, L90|300\/300
+|turn|6
+|choice|move 3|move 3
+|
+|move|p2a: Poliwag|Hypnosis|p1a: Weezing|[miss]
+|-miss|p2a: Poliwag
+|move|p1a: Weezing|Thunderbolt|p2a: Poliwag
+|-supereffective|p2a: Poliwag
+|-damage|p2a: Poliwag|89\/272
+|
+|turn|7
+|choice|move 4|move 3
+|
+|move|p2a: Poliwag|Hypnosis|p1a: Weezing|[miss]
+|-miss|p2a: Poliwag
+|move|p1a: Weezing|Sludge|p2a: Poliwag
+|-damage|p2a: Poliwag|0 fnt
+|faint|p2a: Poliwag
+|choice||switch 6
+|
+|switch|p2a: Abra|Abra, L96|243\/243
+|turn|8
+|choice|move 4|move 1
+|
+|move|p2a: Abra|Psychic|p1a: Weezing
+|-supereffective|p1a: Weezing
+|-damage|p1a: Weezing|69\/300
+|move|p1a: Weezing|Sludge|p2a: Abra
+|-damage|p2a: Abra|103\/243
+|
+|turn|9
+|choice|move 3|move 1
+|
+|move|p2a: Abra|Psychic|p1a: Weezing
+|-supereffective|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|choice|switch 5|
+|
+|switch|p1a: Lickitung|Lickitung, L90|345\/345
+|turn|10
+|choice|move 4|switch 5
+|
+|switch|p2a: Golem|Golem, L79|288\/288
+|move|p1a: Lickitung|Body Slam|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|256\/288
+|
+|turn|11
+|choice|move 1|move 4
+|
+|move|p2a: Golem|Earthquake|p1a: Lickitung
+|-damage|p1a: Lickitung|232\/345
+|move|p1a: Lickitung|Earthquake|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|161\/288
+|
+|turn|12
+|choice|move 1|move 4
+|
+|move|p2a: Golem|Earthquake|p1a: Lickitung
+|-crit|p1a: Lickitung
+|-damage|p1a: Lickitung|29\/345
+|move|p1a: Lickitung|Earthquake|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|67\/288
+|
+|turn|13
+|choice|move 1|move 3
+|
+|move|p2a: Golem|Body Slam|p1a: Lickitung
+|-damage|p1a: Lickitung|0 fnt
+|faint|p1a: Lickitung
+|choice|switch 2|
+|
+|switch|p1a: Poliwrath|Poliwrath, L85|327\/327
+|turn|14
+|choice|move 2|move 2
+|
+|move|p1a: Poliwrath|Surf|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|choice||switch 5
+|
+|switch|p2a: Abra|Abra, L96|103\/243
+|turn|15
+|choice|move 2|move 1
+|
+|move|p2a: Abra|Psychic|p1a: Poliwrath
+|-crit|p1a: Poliwrath
+|-supereffective|p1a: Poliwrath
+|-damage|p1a: Poliwrath|0 fnt
+|faint|p1a: Poliwrath
+|choice|switch 6|
+|
+|switch|p1a: Tauros|Tauros, L79|280\/280
+|turn|16
+|choice|move 3|move 1
+|
+|move|p2a: Abra|Psychic|p1a: Tauros
+|-damage|p1a: Tauros|117\/280
+|move|p1a: Tauros|Body Slam|p2a: Abra
+|-damage|p2a: Abra|0 fnt
+|faint|p2a: Abra
+|choice||switch 4
+|
+|switch|p2a: Gyarados|Gyarados, L85|335\/335
+|turn|17
+|choice|move 3|move 3
+|
+|move|p1a: Tauros|Body Slam|p2a: Gyarados
+|-damage|p2a: Gyarados|248\/335
+|move|p2a: Gyarados|Surf|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|choice|switch 3|
+|
+|switch|p1a: Vulpix|Vulpix, L96|268\/268
+|turn|18
+|choice|move 4|switch 3
+|
+|switch|p2a: Rhydon|Rhydon, L79|328\/328
+|move|p1a: Vulpix|Confuse Ray|p2a: Rhydon
+|-start|p2a: Rhydon|confusion
+|
+|turn|19
+|choice|move 2|move 3
+|
+|move|p1a: Vulpix|Reflect|p1a: Vulpix
+|-start|p1a: Vulpix|Reflect
+|-activate|p2a: Rhydon|confusion
+|move|p2a: Rhydon|Earthquake|p1a: Vulpix
+|-supereffective|p1a: Vulpix
+|-damage|p1a: Vulpix|116\/268
+|
+|turn|20
+|choice|move 3|move 3
+|
+|move|p1a: Vulpix|Toxic|p2a: Rhydon
+|-status|p2a: Rhydon|tox
+|-activate|p2a: Rhydon|confusion
+|move|p2a: Rhydon|Earthquake|p1a: Vulpix
+|-supereffective|p1a: Vulpix
+|-damage|p1a: Vulpix|0 fnt
+|faint|p1a: Vulpix
+|
+|win|MALESANI
+|leave|FrediFuchs
+|player|p1
+|raw|FrediFuchs's rating: 1040 &rarr; <strong>1034<\/strong><br \/>(-6 for losing)
+|raw|MALESANI's rating: 1287 &rarr; <strong>1297<\/strong><br \/>(+10 for winning)

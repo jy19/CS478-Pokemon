@@ -1,0 +1,188 @@
+﻿|join|yaldyyyy
+|join|Asdre45
+|player|p1|yaldyyyy|101
+|player|p2|Asdre45|265
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Rhyhorn|Rhyhorn, L96|348\/348
+|switch|p2a: Tangela|Tangela, L85|284\/284
+|turn|1
+|
+|switch|p1a: Arbok|Arbok, L90|291\/291
+|move|p2a: Tangela|Sleep Powder|p1a: Arbok|[miss]
+|-miss|p2a: Tangela
+|
+|turn|2
+|
+|move|p1a: Arbok|Glare|p2a: Tangela|[miss]
+|-miss|p1a: Arbok
+|move|p2a: Tangela|Sleep Powder|p1a: Arbok|[miss]
+|-miss|p2a: Tangela
+|
+|turn|3
+|
+|switch|p2a: Kingler|Kingler, L85|267\/267
+|move|p1a: Arbok|Glare|p2a: Kingler
+|-status|p2a: Kingler|par
+|
+|turn|4
+|
+|move|p1a: Arbok|Body Slam|p2a: Kingler
+|-damage|p2a: Kingler|218\/267 par
+|move|p2a: Kingler|Body Slam|p1a: Arbok
+|-damage|p1a: Arbok|205\/291
+|
+|turn|5
+|
+|move|p1a: Arbok|Earthquake|p2a: Kingler
+|-damage|p2a: Kingler|151\/267 par
+|move|p2a: Kingler|Crabhammer|p1a: Arbok
+|-crit|p1a: Arbok
+|-damage|p1a: Arbok|66\/291
+|
+|turn|6
+|
+|move|p1a: Arbok|Hyper Beam|p2a: Kingler
+|-damage|p2a: Kingler|60\/267 par
+|move|p2a: Kingler|Crabhammer|p1a: Arbok
+|-crit|p1a: Arbok
+|-damage|p1a: Arbok|0 fnt
+|faint|p1a: Arbok
+|
+|switch|p1a: Mew|Mew, L74|300\/300
+|turn|7
+|
+|move|p1a: Mew|Psychic|p2a: Kingler
+|-damage|p2a: Kingler|0 fnt
+|faint|p2a: Kingler
+|
+|switch|p2a: Nidoqueen|Nidoqueen, L85|327\/327
+|turn|8
+|
+|move|p1a: Mew|Psychic|p2a: Nidoqueen
+|-crit|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|0 fnt
+|faint|p2a: Nidoqueen
+|
+|switch|p2a: Blastoise|Blastoise, L85|308\/308
+|turn|9
+|
+|move|p1a: Mew|Thunderbolt|p2a: Blastoise
+|-supereffective|p2a: Blastoise
+|-damage|p2a: Blastoise|203\/308
+|move|p2a: Blastoise|Earthquake|p1a: Mew
+|-damage|p1a: Mew|226\/300
+|
+|turn|10
+|
+|move|p1a: Mew|Psychic|p2a: Blastoise
+|-damage|p2a: Blastoise|120\/308
+|move|p2a: Blastoise|Earthquake|p1a: Mew
+|-damage|p1a: Mew|161\/300
+|
+|turn|11
+|
+|move|p1a: Mew|Psychic|p2a: Blastoise
+|-damage|p2a: Blastoise|46\/308
+|-unboost|p2a: Blastoise|spd|1
+|-unboost|p2a: Blastoise|spa|1
+|move|p2a: Blastoise|Earthquake|p1a: Mew
+|-crit|p1a: Mew
+|-damage|p1a: Mew|36\/300
+|
+|turn|12
+|
+|move|p1a: Mew|Thunderbolt|p2a: Blastoise
+|-supereffective|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|
+|switch|p2a: Rapidash|Rapidash, L90|300\/300
+|turn|13
+|
+|switch|p1a: Rhyhorn|Rhyhorn, L96|348\/348
+|move|p2a: Rapidash|Fire Blast|p1a: Rhyhorn
+|-resisted|p1a: Rhyhorn
+|-damage|p1a: Rhyhorn|253\/348
+|
+|turn|14
+|
+|move|p2a: Rapidash|Fire Blast|p1a: Rhyhorn|[miss]
+|-miss|p2a: Rapidash
+|move|p1a: Rhyhorn|Earthquake|p2a: Rapidash
+|-supereffective|p2a: Rapidash
+|-damage|p2a: Rapidash|10\/300
+|
+|turn|15
+|
+|move|p2a: Rapidash|Fire Blast|p1a: Rhyhorn
+|-resisted|p1a: Rhyhorn
+|-damage|p1a: Rhyhorn|159\/348
+|-status|p1a: Rhyhorn|brn
+|move|p1a: Rhyhorn|Rock Slide|p2a: Rapidash
+|-supereffective|p2a: Rapidash
+|-damage|p2a: Rapidash|0 fnt
+|faint|p2a: Rapidash
+|
+|switch|p2a: Venusaur|Venusaur, L85|310\/310
+|turn|16
+|
+|switch|p1a: Vileplume|Vileplume, L90|318\/318
+|move|p2a: Venusaur|Body Slam|p1a: Vileplume
+|-damage|p1a: Vileplume|262\/318
+|-status|p1a: Vileplume|par
+|
+|turn|17
+|
+|move|p2a: Venusaur|Body Slam|p1a: Vileplume
+|-damage|p1a: Vileplume|213\/318 par
+|move|p1a: Vileplume|Sleep Powder|p2a: Venusaur
+|-status|p2a: Venusaur|slp
+|
+|turn|18
+|
+|switch|p1a: Jynx|Jynx, L79|265\/265
+|cant|p2a: Venusaur|slp
+|
+|turn|19
+|
+|move|p1a: Jynx|Blizzard|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|113\/310 slp
+|cant|p2a: Venusaur|slp
+|
+|turn|20
+|
+|move|p1a: Jynx|Blizzard|p2a: Venusaur|[miss]
+|-miss|p1a: Jynx
+|cant|p2a: Venusaur|slp
+|
+|turn|21
+|
+|move|p1a: Jynx|Blizzard|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|faint|p2a: Venusaur
+|
+|switch|p2a: Tangela|Tangela, L85|284\/284
+|turn|22
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: Tangela
+|-status|p2a: Tangela|slp
+|cant|p2a: Tangela|slp
+|
+|turn|23
+|-message|Asdre45 forfeited.
+|
+|win|yaldyyyy
+|raw|Ladder updating...
+|leave|Asdre45
+|player|p2

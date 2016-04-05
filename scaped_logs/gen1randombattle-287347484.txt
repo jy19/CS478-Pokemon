@@ -1,0 +1,201 @@
+﻿|join|Lakshuma
+|join|XianJu
+|player|p1|Lakshuma|167
+|player|p2|XianJu|130
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|seed|44061,62055,33179,21834
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Porygon|Porygon, L85|284\/284
+|switch|p2a: Slowbro|Slowbro, L79|312\/312
+|turn|1
+|choice|move 4|move 4
+|
+|move|p1a: Porygon|Thunder Wave|p2a: Slowbro
+|-status|p2a: Slowbro|par
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|2
+|choice|switch 3|move 2
+|
+|switch|p1a: Victreebel|Victreebel, L85|310\/310
+|cant|p2a: Slowbro|par
+|
+|turn|3
+|choice|move 1|move 2
+|
+|move|p1a: Victreebel|Razor Leaf|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|50\/312 par
+|move|p2a: Slowbro|Thunder Wave|p1a: Victreebel
+|-status|p1a: Victreebel|par
+|
+|turn|4
+|choice|move 1|switch 2
+|
+|switch|p2a: Snorlax|Snorlax, L79|415\/415
+|move|p1a: Victreebel|Razor Leaf|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|267\/415
+|
+|turn|5
+|choice|move 2|move 1
+|
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|move|p1a: Victreebel|Stun Spore|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|
+|turn|6
+|c|★Lakshuma|wtf
+|choice|move 1|move 3
+|
+|move|p2a: Snorlax|Surf|p1a: Victreebel
+|-resisted|p1a: Victreebel
+|-damage|p1a: Victreebel|268\/310 par
+|move|p1a: Victreebel|Razor Leaf|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|120\/415 par
+|
+|turn|7
+|c|★Lakshuma|fuck you man lie, cheat, steal
+|c|★Lakshuma|you fucking shit
+|choice|move 1|move 4
+|
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp
+|-heal|p2a: Snorlax|415\/415 slp|[silent]
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|move|p1a: Victreebel|Razor Leaf|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|267\/415 slp
+|
+|turn|8
+|c|★Lakshuma|are you india
+|choice|move 1|switch 3
+|
+|switch|p2a: Kakuna|Kakuna, L99|290\/290
+|move|p1a: Victreebel|Razor Leaf|p2a: Kakuna|[miss]
+|-miss|p1a: Victreebel
+|
+|turn|9
+|choice|move 2|move 1
+|
+|move|p2a: Kakuna|Poison Sting|p1a: Victreebel
+|-damage|p1a: Victreebel|253\/310 par
+|move|p1a: Victreebel|Stun Spore|p2a: Kakuna|[miss]
+|-miss|p1a: Victreebel
+|
+|turn|10
+|choice|move 2|move 3
+|
+|move|p2a: Kakuna|String Shot|p1a: Victreebel
+|-unboost|p1a: Victreebel|spe|1
+|move|p1a: Victreebel|Stun Spore|p2a: Kakuna
+|-status|p2a: Kakuna|par
+|
+|turn|11
+|choice|switch 3|move 1
+|
+|switch|p1a: Porygon|Porygon, L85|284\/284
+|cant|p2a: Kakuna|par
+|
+|turn|12
+|choice|move 2|move 3
+|
+|move|p1a: Porygon|Blizzard|p2a: Kakuna
+|-damage|p2a: Kakuna|180\/290 par
+|cant|p2a: Kakuna|par
+|
+|turn|13
+|choice|move 2|move 3
+|
+|move|p1a: Porygon|Blizzard|p2a: Kakuna
+|-damage|p2a: Kakuna|58\/290 par
+|move|p2a: Kakuna|String Shot|p1a: Porygon
+|-unboost|p1a: Porygon|spe|1
+|
+|turn|14
+|c|★Lakshuma|blizzard is the most common move
+|choice|move 3|move 3
+|
+|move|p1a: Porygon|Agility|p1a: Porygon
+|-boost|p1a: Porygon|spe|2
+|move|p2a: Kakuna|String Shot|p1a: Porygon
+|
+|turn|15
+|choice|move 2|move 3
+|
+|move|p1a: Porygon|Blizzard|p2a: Kakuna
+|-damage|p2a: Kakuna|0 fnt
+|faint|p2a: Kakuna
+|choice||switch 3
+|
+|switch|p2a: Snorlax|Snorlax, L79|267\/415 slp
+|turn|16
+|choice|move 2|move 3
+|
+|move|p1a: Porygon|Blizzard|p2a: Snorlax
+|-damage|p2a: Snorlax|174\/415 slp
+|cant|p2a: Snorlax|slp
+|
+|turn|17
+|choice|move 2|move 3
+|
+|move|p1a: Porygon|Blizzard|p2a: Snorlax
+|-damage|p2a: Snorlax|80\/415 slp
+|-curestatus|p2a: Snorlax|slp
+|
+|turn|18
+|choice|move 2|switch 6
+|
+|switch|p2a: Seadra|Seadra, L90|282\/282
+|move|p1a: Porygon|Blizzard|p2a: Seadra
+|-resisted|p2a: Seadra
+|-damage|p2a: Seadra|251\/282
+|
+|turn|19
+|choice|move 4|move 1
+|
+|move|p2a: Seadra|Hydro Pump|p1a: Porygon|[miss]
+|-miss|p2a: Seadra
+|move|p1a: Porygon|Thunder Wave|p2a: Seadra
+|-status|p2a: Seadra|par
+|
+|turn|20
+|c|★Lakshuma|!dt porygon
+|c|~|\/data-pokemon Porygon
+|raw|<font size="1"><font color=#585858>Dex#:<\/font> 137&nbsp;|&ThickSpace;<font color=#585858>Gen:<\/font> 1&nbsp;|&ThickSpace;<font color=#585858>Height:<\/font> 0.8 m&nbsp;|&ThickSpace;<font color=#585858>Weight:<\/font> 36.5 kg <em>(60 BP)<\/em>&nbsp;|&ThickSpace;<font color=#585858>Dex Colour:<\/font> Pink&nbsp;|&ThickSpace;<font color=#585858>Egg Group(s):<\/font> Mineral&nbsp;|&ThickSpace;<font color=#585858>Evolution:<\/font> Porygon2 (1)<\/font>
+|choice|switch 2|move 1
+|
+|switch|p1a: Koffing|Koffing, L96|272\/272
+|move|p2a: Seadra|Hydro Pump|p1a: Koffing
+|-crit|p1a: Koffing
+|-damage|p1a: Koffing|0 fnt
+|faint|p1a: Koffing
+|c|★Lakshuma|!dt koffing
+|c|~|\/data-pokemon Koffing
+|raw|<font size="1"><font color=#585858>Dex#:<\/font> 109&nbsp;|&ThickSpace;<font color=#585858>Gen:<\/font> 1&nbsp;|&ThickSpace;<font color=#585858>Height:<\/font> 0.6 m&nbsp;|&ThickSpace;<font color=#585858>Weight:<\/font> 1 kg <em>(20 BP)<\/em>&nbsp;|&ThickSpace;<font color=#585858>Dex Colour:<\/font> Purple&nbsp;|&ThickSpace;<font color=#585858>Egg Group(s):<\/font> Amorphous&nbsp;|&ThickSpace;<font color=#585858>Evolution:<\/font> Weezing (35)<\/font>
+|choice|switch 3|
+|
+|switch|p1a: Victreebel|Victreebel, L85|253\/310 par
+|turn|21
+|choice|move 1|move 2
+|
+|cant|p2a: Seadra|par
+|cant|p1a: Victreebel|par
+|
+|turn|22
+|-message|Lakshuma lost due to inactivity.
+|
+|win|XianJu
+|c|★XianJu|are you gonna lose again? cmon you told me youre getting better

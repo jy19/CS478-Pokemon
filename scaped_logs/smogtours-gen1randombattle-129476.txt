@@ -1,0 +1,385 @@
+﻿|J|hodor
+|J|qht
+|player|p1|hodor|2
+|player|p2|qht|2
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|seed|48122,46274,12458,51906
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Parasect|Parasect, L90|291\/291
+|switch|p2a: Abra|Abra, L96|243\/243
+|turn|1
+|choice|switch 5|switch 2
+|
+|switch|p2a: Golbat|Golbat, L90|318\/318
+|switch|p1a: Jynx|Jynx, L79|265\/265
+|
+|turn|2
+|J|LT2 Zokuru
+|choice|move 2|move 4
+|
+|move|p2a: Golbat|Double-Edge|p1a: Jynx
+|-damage|p1a: Jynx|147\/265
+|-damage|p2a: Golbat|289\/318|[from] recoil|[of] p1a: Jynx
+|move|p1a: Jynx|Lovely Kiss|p2a: Golbat
+|-status|p2a: Golbat|slp
+|
+|turn|3
+|L|LT2 Zokuru
+|choice|move 1|switch 2
+|
+|switch|p2a: Abra|Abra, L96|243\/243
+|move|p1a: Jynx|Blizzard|p2a: Abra
+|-damage|p2a: Abra|164\/243
+|-status|p2a: Abra|frz
+|
+|turn|4
+|choice|move 4|switch 6
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|293\/293
+|move|p1a: Jynx|Psychic|p2a: Mewtwo
+|-resisted|p2a: Mewtwo
+|-damage|p2a: Mewtwo|259\/293
+|
+|turn|5
+|choice|switch 6|move 4
+|
+|switch|p1a: Magneton|Magneton, L90|273\/273
+|move|p2a: Mewtwo|Thunderbolt|p1a: Magneton
+|-resisted|p1a: Magneton
+|-damage|p1a: Magneton|248\/273
+|
+|turn|6
+|choice|move 3|switch 5
+|
+|switch|p2a: Golem|Golem, L79|288\/288
+|move|p1a: Magneton|Thunder Wave|p2a: Golem
+|-immune|p2a: Golem|[msg]
+|
+|turn|7
+|choice|switch 3|move 4
+|
+|switch|p1a: Seadra|Seadra, L90|282\/282
+|move|p2a: Golem|Body Slam|p1a: Seadra
+|-damage|p1a: Seadra|234\/282
+|
+|turn|8
+|choice|move 4|switch 5
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|259\/293
+|move|p1a: Seadra|Surf|p2a: Mewtwo
+|-damage|p2a: Mewtwo|162\/293
+|
+|turn|9
+|choice|switch 4|move 1
+|
+|switch|p1a: Graveler|Graveler, L85|267\/267
+|move|p2a: Mewtwo|Psychic|p1a: Graveler
+|-damage|p1a: Graveler|143\/267
+|
+|turn|10
+|choice|move 1|switch 2
+|
+|switch|p2a: Golbat|Golbat, L90|289\/318 slp
+|move|p1a: Graveler|Explosion|p2a: Golbat
+|-damage|p2a: Golbat|21\/318 slp
+|faint|p1a: Graveler
+|choice|switch 5|
+|
+|switch|p1a: Parasect|Parasect, L90|291\/291
+|turn|11
+|choice|move 3|switch 3
+|
+|switch|p2a: Venomoth|Venomoth, L85|293\/293
+|move|p1a: Parasect|Swords Dance|p1a: Parasect
+|-boost|p1a: Parasect|atk|2
+|
+|turn|12
+|choice|switch 6|move 1
+|
+|switch|p1a: Jynx|Jynx, L79|147\/265
+|move|p2a: Venomoth|Sleep Powder|p1a: Jynx
+|-status|p1a: Jynx|slp
+|
+|turn|13
+|choice|switch 2|move 3
+|
+|switch|p1a: Gastly|Gastly, L96|252\/252
+|move|p2a: Venomoth|Stun Spore|p1a: Gastly
+|-status|p1a: Gastly|par
+|
+|turn|14
+|choice|move 4|move 4
+|
+|move|p2a: Venomoth|Psychic|p1a: Gastly
+|-supereffective|p1a: Gastly
+|-damage|p1a: Gastly|159\/252 par
+|cant|p1a: Gastly|par
+|
+|turn|15
+|choice|switch 3|move 4
+|
+|switch|p1a: Magneton|Magneton, L90|248\/273
+|move|p2a: Venomoth|Psychic|p1a: Magneton
+|-damage|p1a: Magneton|203\/273
+|-unboost|p1a: Magneton|spd|1
+|-unboost|p1a: Magneton|spa|1
+|
+|turn|16
+|choice|switch 6|switch 5
+|
+|switch|p2a: Golem|Golem, L79|288\/288
+|switch|p1a: Parasect|Parasect, L90|291\/291
+|
+|turn|17
+|choice|switch 3|switch 5
+|
+|switch|p2a: Venomoth|Venomoth, L85|293\/293
+|switch|p1a: Gastly|Gastly, L96|159\/252 par
+|
+|turn|18
+|choice|move 4|move 4
+|
+|move|p2a: Venomoth|Psychic|p1a: Gastly
+|-supereffective|p1a: Gastly
+|-damage|p1a: Gastly|59\/252 par
+|move|p1a: Gastly|Confuse Ray|p2a: Venomoth
+|-start|p2a: Venomoth|confusion
+|
+|turn|19
+|choice|switch 3|switch 5
+|
+|switch|p2a: Golem|Golem, L79|288\/288
+|switch|p1a: Parasect|Parasect, L90|291\/291
+|
+|turn|20
+|choice|move 1|switch 5
+|
+|switch|p2a: Venomoth|Venomoth, L85|293\/293
+|move|p1a: Parasect|Body Slam|p2a: Venomoth
+|-damage|p2a: Venomoth|215\/293
+|
+|turn|21
+|choice|move 1|move 3
+|
+|move|p2a: Venomoth|Stun Spore|p1a: Parasect
+|-status|p1a: Parasect|par
+|cant|p1a: Parasect|par
+|
+|turn|22
+|choice|move 1|move 4
+|
+|move|p2a: Venomoth|Psychic|p1a: Parasect
+|-damage|p1a: Parasect|228\/291 par
+|move|p1a: Parasect|Body Slam|p2a: Venomoth
+|-damage|p2a: Venomoth|133\/293
+|
+|turn|23
+|choice|move 1|switch 5
+|
+|switch|p2a: Golem|Golem, L79|288\/288
+|move|p1a: Parasect|Body Slam|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|259\/288
+|
+|turn|24
+|choice|move 4|move 2
+|
+|move|p2a: Golem|Rock Slide|p1a: Parasect
+|-supereffective|p1a: Parasect
+|-damage|p1a: Parasect|84\/291 par
+|move|p1a: Parasect|Mega Drain|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|3\/288
+|-heal|p1a: Parasect|212\/291 par|[from] drain|[of] p2a: Golem
+|
+|turn|25
+|c|★qht|fuck
+|c|★qht|you had it
+|choice|switch 6|move 2
+|
+|switch|p1a: Magneton|Magneton, L90|203\/273
+|move|p2a: Golem|Rock Slide|p1a: Magneton
+|-damage|p1a: Magneton|135\/273
+|
+|turn|26
+|choice|move 4|move 3
+|
+|move|p1a: Magneton|Double-Edge|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|-damage|p1a: Magneton|134\/273|[from] recoil|[of] p2a: Golem
+|faint|p2a: Golem
+|choice||switch 2
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|162\/293
+|turn|27
+|choice|move 3|move 1
+|
+|move|p2a: Mewtwo|Psychic|p1a: Magneton
+|-damage|p1a: Magneton|64\/273
+|-unboost|p1a: Magneton|spd|1
+|-unboost|p1a: Magneton|spa|1
+|move|p1a: Magneton|Thunder Wave|p2a: Mewtwo
+|-status|p2a: Mewtwo|par
+|
+|turn|28
+|choice|switch 3|move 2
+|
+|switch|p1a: Gastly|Gastly, L96|59\/252 par
+|cant|p2a: Mewtwo|par
+|
+|turn|29
+|choice|move 4|move 1
+|
+|move|p2a: Mewtwo|Psychic|p1a: Gastly
+|-supereffective|p1a: Gastly
+|-damage|p1a: Gastly|0 fnt
+|faint|p1a: Gastly
+|choice|switch 4|
+|
+|switch|p1a: Seadra|Seadra, L90|234\/282
+|turn|30
+|choice|move 4|move 4
+|
+|move|p1a: Seadra|Surf|p2a: Mewtwo
+|-damage|p2a: Mewtwo|77\/293 par
+|move|p2a: Mewtwo|Thunderbolt|p1a: Seadra
+|-crit|p1a: Seadra
+|-supereffective|p1a: Seadra
+|-damage|p1a: Seadra|1\/282
+|
+|turn|31
+|choice|move 4|switch 3
+|
+|switch|p2a: Golbat|Golbat, L90|21\/318 slp
+|move|p1a: Seadra|Surf|p2a: Golbat
+|-damage|p2a: Golbat|0 fnt
+|faint|p2a: Golbat
+|choice||switch 5
+|
+|switch|p2a: Venomoth|Venomoth, L85|133\/293
+|turn|32
+|choice|move 4|move 4
+|
+|move|p1a: Seadra|Surf|p2a: Venomoth
+|-damage|p2a: Venomoth|27\/293
+|move|p2a: Venomoth|Psychic|p1a: Seadra
+|-damage|p1a: Seadra|0 fnt
+|faint|p1a: Seadra
+|choice|switch 6|
+|
+|switch|p1a: Parasect|Parasect, L90|212\/291 par
+|turn|33
+|choice|move 1|move 4
+|
+|move|p2a: Venomoth|Psychic|p1a: Parasect
+|-damage|p1a: Parasect|147\/291 par
+|-unboost|p1a: Parasect|spd|1
+|-unboost|p1a: Parasect|spa|1
+|move|p1a: Parasect|Body Slam|p2a: Venomoth
+|-damage|p2a: Venomoth|0 fnt
+|faint|p2a: Venomoth
+|choice||switch 3
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|77\/293 par
+|turn|34
+|choice|switch 2|move 1
+|
+|switch|p1a: Jynx|Jynx, L79|147\/265 slp
+|move|p2a: Mewtwo|Psychic|p1a: Jynx
+|-resisted|p1a: Jynx
+|-damage|p1a: Jynx|97\/265 slp
+|-unboost|p1a: Jynx|spd|1
+|-unboost|p1a: Jynx|spa|1
+|
+|turn|35
+|choice|move 1|move 2
+|
+|cant|p1a: Jynx|slp
+|move|p2a: Mewtwo|Rest|p2a: Mewtwo
+|-status|p2a: Mewtwo|slp
+|-heal|p2a: Mewtwo|293\/293 slp|[silent]
+|-status|p2a: Mewtwo|slp|[from] move: Rest
+|
+|turn|36
+|choice|switch 3|move 1
+|
+|switch|p1a: Magneton|Magneton, L90|64\/273
+|cant|p2a: Mewtwo|slp
+|
+|turn|37
+|choice|move 1|switch 6
+|
+|switch|p2a: Abra|Abra, L96|164\/243 frz
+|move|p1a: Magneton|Thunderbolt|p2a: Abra
+|-damage|p2a: Abra|65\/243 frz
+|
+|turn|38
+|choice|move 1|move 2
+|
+|cant|p2a: Abra|frz
+|move|p1a: Magneton|Thunderbolt|p2a: Abra
+|-damage|p2a: Abra|0 fnt
+|faint|p2a: Abra
+|choice||switch 4
+|
+|switch|p2a: Golduck|Golduck, L85|310\/310
+|turn|39
+|choice|move 1|move 2
+|
+|move|p2a: Golduck|Blizzard|p1a: Magneton
+|-damage|p1a: Magneton|1\/273
+|move|p1a: Magneton|Thunderbolt|p2a: Golduck
+|-supereffective|p2a: Golduck
+|-damage|p2a: Golduck|39\/310
+|
+|turn|40
+|choice|switch 3|move 3
+|
+|switch|p1a: Jynx|Jynx, L79|97\/265 slp
+|move|p2a: Golduck|Body Slam|p1a: Jynx
+|-damage|p1a: Jynx|5\/265 slp
+|
+|turn|41
+|choice|move 4|move 1
+|
+|move|p2a: Golduck|Amnesia|p2a: Golduck
+|-boost|p2a: Golduck|spd|2
+|-boost|p2a: Golduck|spa|2
+|cant|p1a: Jynx|slp
+|
+|turn|42
+|choice|move 4|move 3
+|
+|move|p2a: Golduck|Body Slam|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|choice|switch 2|
+|
+|switch|p1a: Parasect|Parasect, L90|147\/291 par
+|turn|43
+|choice|move 1|move 2
+|
+|move|p2a: Golduck|Blizzard|p1a: Parasect
+|-supereffective|p1a: Parasect
+|-damage|p1a: Parasect|0 fnt
+|faint|p1a: Parasect
+|c|★qht|gg
+|choice|switch 3|
+|
+|switch|p1a: Magneton|Magneton, L90|1\/273
+|turn|44
+|c|★hodor|g_g
+|choice|move 1|move 3
+|
+|move|p2a: Golduck|Body Slam|p1a: Magneton
+|-damage|p1a: Magneton|0 fnt
+|faint|p1a: Magneton
+|
+|win|qht

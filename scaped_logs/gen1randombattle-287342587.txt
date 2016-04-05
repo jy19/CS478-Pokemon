@@ -1,0 +1,236 @@
+﻿|join|XianJu
+|join|Omargf16
+|player|p1|XianJu|130
+|player|p2|Omargf16|102
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|27788,1513,24059,1402
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Articuno|Articuno, L79|304\/304
+|switch|p2a: Wigglytuff|Wigglytuff, L90|435\/435
+|turn|1
+|choice|move 2|move 2
+|
+|move|p1a: Articuno|Blizzard|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|270\/435
+|move|p2a: Wigglytuff|Sing|p1a: Articuno|[miss]
+|-miss|p2a: Wigglytuff
+|
+|turn|2
+|choice|switch 6|move 3
+|
+|switch|p1a: Electrode|Electrode, L90|291\/291
+|move|p2a: Wigglytuff|Thunder Wave|p1a: Electrode
+|-status|p1a: Electrode|par
+|
+|turn|3
+|join|staresqulla
+|choice|move 4|move 1
+|
+|move|p2a: Wigglytuff|Body Slam|p1a: Electrode
+|-damage|p1a: Electrode|194\/291 par
+|move|p1a: Electrode|Thunder Wave|p2a: Wigglytuff
+|-status|p2a: Wigglytuff|par
+|
+|turn|4
+|choice|switch 4|move 1
+|
+|switch|p1a: Charmeleon|Charmeleon, L85|272\/272
+|move|p2a: Wigglytuff|Body Slam|p1a: Charmeleon
+|-damage|p1a: Charmeleon|158\/272
+|
+|turn|5
+|choice|move 2|move 3
+|
+|move|p1a: Charmeleon|Submission|p2a: Wigglytuff
+|-crit|p2a: Wigglytuff
+|-supereffective|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|44\/435 par
+|-damage|p1a: Charmeleon|102\/272|[from] recoil|[of] p2a: Wigglytuff
+|cant|p2a: Wigglytuff|par
+|
+|turn|6
+|choice|move 4|move 3
+|
+|move|p1a: Charmeleon|Seismic Toss|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|0 fnt
+|faint|p2a: Wigglytuff
+|leave|staresqulla
+|choice||switch 3
+|
+|switch|p2a: Golduck|Golduck, L85|310\/310
+|turn|7
+|choice|switch 3|move 4
+|
+|switch|p1a: Clefable|Clefable, L85|335\/335
+|move|p2a: Golduck|Surf|p1a: Clefable
+|-damage|p1a: Clefable|237\/335
+|
+|turn|8
+|choice|move 4|move 1
+|
+|move|p2a: Golduck|Amnesia|p2a: Golduck
+|-boost|p2a: Golduck|spd|2
+|-boost|p2a: Golduck|spa|2
+|move|p1a: Clefable|Thunderbolt|p2a: Golduck
+|-supereffective|p2a: Golduck
+|-damage|p2a: Golduck|248\/310
+|
+|turn|9
+|choice|move 1|move 2
+|
+|move|p2a: Golduck|Body Slam|p1a: Clefable
+|-damage|p1a: Clefable|176\/335
+|move|p1a: Clefable|Thunder Wave|p2a: Golduck
+|-status|p2a: Golduck|par
+|
+|turn|10
+|choice|move 4|move 4
+|
+|move|p1a: Clefable|Thunderbolt|p2a: Golduck
+|-supereffective|p2a: Golduck
+|-damage|p2a: Golduck|184\/310 par
+|cant|p2a: Golduck|par
+|
+|turn|11
+|choice|move 4|move 4
+|
+|move|p1a: Clefable|Thunderbolt|p2a: Golduck
+|-crit|p2a: Golduck
+|-supereffective|p2a: Golduck
+|-damage|p2a: Golduck|0 fnt
+|faint|p2a: Golduck
+|choice||switch 4
+|
+|switch|p2a: Nidoking|Nidoking, L85|311\/311
+|turn|12
+|choice|move 3|move 1
+|
+|move|p2a: Nidoking|Earthquake|p1a: Clefable
+|-damage|p1a: Clefable|61\/335
+|move|p1a: Clefable|Ice Beam|p2a: Nidoking
+|-supereffective|p2a: Nidoking
+|-damage|p2a: Nidoking|162\/311
+|
+|turn|13
+|choice|switch 6|move 1
+|
+|switch|p1a: Articuno|Articuno, L79|304\/304
+|move|p2a: Nidoking|Earthquake|p1a: Articuno
+|-immune|p1a: Articuno|[msg]
+|
+|turn|14
+|choice|move 2|move 2
+|
+|move|p2a: Nidoking|Thunderbolt|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|198\/304
+|move|p1a: Articuno|Blizzard|p2a: Nidoking
+|-supereffective|p2a: Nidoking
+|-damage|p2a: Nidoking|0 fnt
+|faint|p2a: Nidoking
+|choice||switch 6
+|
+|switch|p2a: Kadabra|Kadabra, L85|242\/242
+|turn|15
+|choice|switch 4|move 3
+|
+|switch|p1a: Electrode|Electrode, L90|194\/291 par
+|move|p2a: Kadabra|Thunder Wave|p1a: Electrode
+|-fail|p1a: Electrode|par
+|
+|turn|16
+|choice|move 2|move 4
+|
+|move|p2a: Kadabra|Reflect|p2a: Kadabra
+|-start|p2a: Kadabra|Reflect
+|move|p1a: Electrode|Screech|p2a: Kadabra
+|-unboost|p2a: Kadabra|def|2
+|
+|turn|17
+|choice|move 1|move 1
+|
+|move|p2a: Kadabra|Psychic|p1a: Electrode
+|-crit|p1a: Electrode
+|-damage|p1a: Electrode|0 fnt
+|faint|p1a: Electrode
+|choice|switch 2|
+|
+|switch|p1a: Tentacool|Tentacool, L96|272\/272
+|turn|18
+|choice|move 4|move 3
+|
+|move|p2a: Kadabra|Thunder Wave|p1a: Tentacool
+|-status|p1a: Tentacool|par
+|move|p1a: Tentacool|Double-Edge|p2a: Kadabra
+|-damage|p2a: Kadabra|141\/242
+|-damage|p1a: Tentacool|247\/272 par|[from] recoil|[of] p2a: Kadabra
+|
+|turn|19
+|choice|move 4|move 1
+|
+|move|p2a: Kadabra|Psychic|p1a: Tentacool
+|-supereffective|p1a: Tentacool
+|-damage|p1a: Tentacool|69\/272 par
+|move|p1a: Tentacool|Double-Edge|p2a: Kadabra
+|-crit|p2a: Kadabra
+|-damage|p2a: Kadabra|0 fnt
+|-damage|p1a: Tentacool|34\/272 par|[from] recoil|[of] p2a: Kadabra
+|faint|p2a: Kadabra
+|choice||switch 5
+|
+|switch|p2a: Persian|Persian, L79|265\/265
+|turn|20
+|choice|move 3|move 1
+|
+|move|p2a: Persian|Slash|p1a: Tentacool
+|-crit|p1a: Tentacool
+|-damage|p1a: Tentacool|0 fnt
+|faint|p1a: Tentacool
+|choice|switch 4|
+|
+|switch|p1a: Articuno|Articuno, L79|198\/304
+|turn|21
+|choice|move 2|move 4
+|
+|move|p2a: Persian|Hyper Beam|p1a: Articuno
+|-damage|p1a: Articuno|86\/304
+|move|p1a: Articuno|Blizzard|p2a: Persian|[miss]
+|-miss|p1a: Articuno
+|
+|turn|22
+|-mustrecharge|p2a: Persian
+|-mustrecharge|p2a: Persian
+|choice|move 2|move 1
+|
+|cant|p2a: Persian|recharge
+|move|p1a: Articuno|Blizzard|p2a: Persian
+|-crit|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|faint|p2a: Persian
+|choice||switch 2
+|
+|switch|p2a: Ivysaur|Ivysaur, L85|276\/276
+|turn|23
+|choice|move 1|move 4
+|
+|move|p1a: Articuno|Ice Beam|p2a: Ivysaur
+|-supereffective|p2a: Ivysaur
+|-damage|p2a: Ivysaur|63\/276
+|-status|p2a: Ivysaur|frz
+|cant|p2a: Ivysaur|frz
+|
+|turn|24
+|-message|Omargf16 forfeited.
+|
+|win|XianJu
+|raw|XianJu's rating: 1355 &rarr; <strong>1362<\/strong><br \/>(+7 for winning)
+|raw|Omargf16's rating: 1086 &rarr; <strong>1078<\/strong><br \/>(-8 for losing)
+|leave|Omargf16
+|player|p2

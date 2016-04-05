@@ -1,0 +1,339 @@
+﻿|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|J|xJoelituh
+|J|Ortheore
+|player|p1|xJoelituh|134
+|player|p2|Ortheore|101
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333\/333
+|switch|p2a: Alakazam|Alakazam|313\/313
+|turn|1
+|c|★xJoelituh|hf!
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Jynx
+|-status|p1a: Jynx|par
+|cant|p1a: Jynx|par
+|
+|turn|2
+|c|★Ortheore|you too
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Jynx
+|-damage|p1a: Jynx|233\/333 par
+|move|p1a: Jynx|Lovely Kiss|p2a: Alakazam
+|-status|p2a: Alakazam|slp
+|
+|turn|3
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|cant|p1a: Jynx|par
+|
+|turn|4
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Snorlax|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|280\/393
+|-status|p1a: Exeggutor|par
+|
+|turn|5
+|
+|switch|p2a: Alakazam|Alakazam|313\/313 slp
+|move|p1a: Exeggutor|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|260\/313 slp
+|-unboost|p2a: Alakazam|spd|1
+|-unboost|p2a: Alakazam|spa|1
+|
+|turn|6
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|cant|p1a: Exeggutor|par
+|
+|turn|7
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: Chansey|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|417\/523
+|
+|turn|8
+|
+|move|p2a: Chansey|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|cant|p1a: Snorlax|par
+|
+|turn|9
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|311\/523 par
+|move|p1a: Snorlax|Earthquake|p2a: Chansey
+|-damage|p2a: Chansey|492\/703
+|
+|turn|10
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|switch|p1a: Zapdos|Zapdos|383\/383
+|
+|turn|11
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Zapdos|Drill Peck|p2a: Snorlax
+|-damage|p2a: Snorlax|400\/523
+|
+|turn|12
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|switch|p2a: Golem|Golem|363\/363
+|
+|turn|13
+|
+|switch|p2a: Alakazam|Alakazam|260\/313 slp
+|move|p1a: Chansey|Ice Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|197\/313 slp
+|
+|turn|14
+|
+|switch|p2a: Chansey|Chansey|492\/703
+|switch|p1a: Jynx|Jynx|233\/333 par
+|
+|turn|15
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Jynx
+|-damage|p1a: Jynx|148\/333 par
+|move|p1a: Jynx|Blizzard|p2a: Chansey|[miss]
+|-miss|p1a: Jynx
+|
+|turn|16
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Jynx
+|-damage|p1a: Jynx|64\/333 par
+|cant|p1a: Jynx|par
+|
+|turn|17
+|
+|switch|p1a: Zapdos|Zapdos|383\/383
+|move|p2a: Chansey|Thunderbolt|p1a: Zapdos
+|-damage|p1a: Zapdos|314\/383
+|
+|turn|18
+|
+|switch|p1a: Exeggutor|Exeggutor|280\/393 par
+|move|p2a: Chansey|Thunder Wave|p1a: Exeggutor
+|-fail|p1a: Exeggutor|par
+|
+|turn|19
+|
+|switch|p2a: Alakazam|Alakazam|197\/313 slp
+|move|p1a: Exeggutor|Psychic|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|97\/313 slp
+|
+|turn|20
+|
+|switch|p2a: Chansey|Chansey|492\/703
+|move|p1a: Exeggutor|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|373\/703
+|
+|turn|21
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703
+|cant|p1a: Exeggutor|par
+|
+|turn|22
+|
+|move|p2a: Chansey|Ice Beam|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|140\/393 par
+|cant|p1a: Exeggutor|par
+|
+|turn|23
+|
+|switch|p2a: Alakazam|Alakazam|97\/313 slp
+|switch|p1a: Snorlax|Snorlax|311\/523 par
+|
+|turn|24
+|
+|-curestatus|p2a: Alakazam|slp
+|cant|p1a: Snorlax|par
+|
+|turn|25
+|J|Isa RC
+|
+|switch|p2a: Golem|Golem|363\/363
+|move|p1a: Snorlax|Earthquake|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|221\/363
+|
+|turn|26
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|switch|p1a: Zapdos|Zapdos|314\/383
+|
+|turn|27
+|
+|switch|p2a: Golem|Golem|221\/363
+|move|p1a: Zapdos|Drill Peck|p2a: Golem
+|-crit|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|153\/363
+|
+|turn|28
+|
+|switch|p1a: Snorlax|Snorlax|311\/523 par
+|move|p2a: Golem|Rock Slide|p1a: Snorlax
+|-damage|p1a: Snorlax|194\/523 par
+|
+|turn|29
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Snorlax|Self-Destruct|p2a: Exeggutor
+|-damage|p2a: Exeggutor|52\/393
+|faint|p1a: Snorlax
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|30
+|
+|switch|p2a: Golem|Golem|153\/363
+|move|p1a: Tauros|Blizzard|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|31
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Tauros|Body Slam|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|173\/703
+|
+|turn|32
+|
+|move|p2a: Tauros|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|switch|p1a: Zapdos|Zapdos|314\/383
+|turn|33
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Zapdos|Drill Peck|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|246\/703
+|
+|turn|34
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Chansey
+|-damage|p2a: Chansey|5\/703
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|356\/703
+|
+|turn|35
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Chansey
+|-damage|p2a: Chansey|130\/703
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|481\/703
+|
+|turn|36
+|
+|switch|p1a: Jynx|Jynx|64\/333 par
+|move|p2a: Chansey|Thunder Wave|p1a: Jynx
+|-fail|p1a: Jynx|par
+|
+|turn|37
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|
+|switch|p1a: Exeggutor|Exeggutor|140\/393 par
+|turn|38
+|
+|switch|p2a: Exeggutor|Exeggutor|52\/393
+|cant|p1a: Exeggutor|par
+|
+|turn|39
+|
+|move|p2a: Exeggutor|Explosion|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|faint|p2a: Exeggutor
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|40
+|
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|168\/353
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|164\/353
+|
+|turn|41
+|c|★xJoelituh|lol
+|
+|switch|p1a: Zapdos|Zapdos|314\/383
+|move|p2a: Tauros|Hyper Beam|p1a: Zapdos
+|-damage|p1a: Zapdos|132\/383
+|
+|turn|42
+|-mustrecharge|p2a: Tauros
+|-mustrecharge|p2a: Tauros
+|
+|cant|p2a: Tauros|recharge
+|move|p1a: Zapdos|Thunder Wave|p2a: Tauros
+|-status|p2a: Tauros|par
+|
+|turn|43
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Tauros
+|-damage|p2a: Tauros|75\/353 par
+|move|p2a: Tauros|Hyper Beam|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|switch|p1a: Tauros|Tauros|168\/353
+|turn|44
+|
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|switch|p2a: Alakazam|Alakazam|97\/313
+|turn|45
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|cant|p1a: Tauros|par
+|
+|turn|46
+|
+|move|p2a: Alakazam|Psychic|p1a: Tauros
+|-damage|p1a: Tauros|7\/353 par
+|move|p1a: Tauros|Body Slam|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|c|★xJoelituh|welp
+|c|★xJoelituh|gg
+|c|★Ortheore|gg
+|
+|switch|p2a: Snorlax|Snorlax|400\/523
+|turn|47
+|
+|move|p2a: Snorlax|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|win|Ortheore

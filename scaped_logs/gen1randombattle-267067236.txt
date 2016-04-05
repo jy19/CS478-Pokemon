@@ -1,0 +1,212 @@
+﻿|join|Subject Platinum
+|join|Masterplaner
+|player|p1|Subject Platinum|70
+|player|p2|Masterplaner|163
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Golbat|Golbat, L90|318\/318
+|switch|p2a: Pidgeotto|Pidgeotto, L90|297\/297
+|turn|1
+|c|★Masterplaner|glhf
+|c|★Subject Platinum|u2
+|
+|switch|p2a: Mew|Mew, L74|300\/300
+|move|p1a: Golbat|Double-Edge|p2a: Mew
+|-damage|p2a: Mew|220\/300
+|-damage|p1a: Golbat|298\/318|[from] recoil|[of] p2a: Mew
+|
+|turn|2
+|
+|move|p1a: Golbat|Screech|p2a: Mew
+|-unboost|p2a: Mew|def|2
+|move|p2a: Mew|Thunderbolt|p1a: Golbat
+|-supereffective|p1a: Golbat
+|-damage|p1a: Golbat|186\/318
+|
+|turn|3
+|
+|move|p1a: Golbat|Double-Edge|p2a: Mew
+|-damage|p2a: Mew|81\/300
+|-damage|p1a: Golbat|152\/318|[from] recoil|[of] p2a: Mew
+|move|p2a: Mew|Thunderbolt|p1a: Golbat
+|-supereffective|p1a: Golbat
+|-damage|p1a: Golbat|45\/318
+|
+|turn|4
+|
+|move|p1a: Golbat|Double-Edge|p2a: Mew|[miss]
+|-miss|p1a: Golbat
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|231\/300
+|
+|turn|5
+|
+|move|p1a: Golbat|Hyper Beam|p2a: Mew
+|-damage|p2a: Mew|23\/300
+|move|p2a: Mew|Thunderbolt|p1a: Golbat
+|-supereffective|p1a: Golbat
+|-damage|p1a: Golbat|0 fnt
+|faint|p1a: Golbat
+|
+|switch|p1a: Tauros|Tauros, L79|280\/280
+|turn|6
+|
+|switch|p2a: Dugtrio|Dugtrio, L85|233\/233
+|move|p1a: Tauros|Body Slam|p2a: Dugtrio
+|-damage|p2a: Dugtrio|131\/233
+|-status|p2a: Dugtrio|par
+|
+|turn|7
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Dugtrio|[miss]
+|-miss|p1a: Tauros
+|move|p2a: Dugtrio|Earthquake|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|99\/280
+|
+|turn|8
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|
+|switch|p2a: Arcanine|Arcanine, L85|327\/327
+|turn|9
+|
+|move|p1a: Tauros|Earthquake|p2a: Arcanine
+|-crit|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|76\/327
+|move|p2a: Arcanine|Hyper Beam|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|switch|p1a: Rapidash|Rapidash, L90|300\/300
+|turn|10
+|
+|switch|p2a: Tentacruel|Tentacruel, L85|310\/310
+|move|p1a: Rapidash|Hyper Beam|p2a: Tentacruel
+|-damage|p2a: Tentacruel|156\/310
+|
+|turn|11
+|-mustrecharge|p1a: Rapidash
+|-mustrecharge|p1a: Rapidash
+|
+|cant|p1a: Rapidash|recharge
+|move|p2a: Tentacruel|Hydro Pump|p1a: Rapidash
+|-supereffective|p1a: Rapidash
+|-damage|p1a: Rapidash|21\/300
+|
+|turn|12
+|
+|switch|p1a: Parasect|Parasect, L90|291\/291
+|move|p2a: Tentacruel|Surf|p1a: Parasect
+|-resisted|p1a: Parasect
+|-damage|p1a: Parasect|237\/291
+|
+|turn|13
+|
+|move|p2a: Tentacruel|Blizzard|p1a: Parasect
+|-supereffective|p1a: Parasect
+|-damage|p1a: Parasect|24\/291
+|move|p1a: Parasect|Stun Spore|p2a: Tentacruel
+|-status|p2a: Tentacruel|par
+|
+|turn|14
+|
+|move|p1a: Parasect|Body Slam|p2a: Tentacruel
+|-damage|p2a: Tentacruel|76\/310 par
+|cant|p2a: Tentacruel|par
+|
+|turn|15
+|
+|move|p1a: Parasect|Body Slam|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|switch|p2a: Pidgeotto|Pidgeotto, L90|297\/297
+|turn|16
+|
+|move|p2a: Pidgeotto|Double-Edge|p1a: Parasect
+|-damage|p1a: Parasect|0 fnt
+|-damage|p2a: Pidgeotto|291\/297|[from] recoil|[of] p1a: Parasect
+|faint|p1a: Parasect
+|
+|switch|p1a: Jynx|Jynx, L79|265\/265
+|turn|17
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: Pidgeotto
+|-status|p2a: Pidgeotto|slp
+|cant|p2a: Pidgeotto|slp
+|
+|turn|18
+|
+|switch|p2a: Arcanine|Arcanine, L85|76\/327
+|move|p1a: Jynx|Blizzard|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|switch|p2a: Arbok|Arbok, L90|291\/291
+|turn|19
+|
+|move|p2a: Arbok|Earthquake|p1a: Jynx
+|-damage|p1a: Jynx|140\/265
+|move|p1a: Jynx|Psychic|p2a: Arbok
+|-supereffective|p2a: Arbok
+|-damage|p2a: Arbok|104\/291
+|-unboost|p2a: Arbok|spd|1
+|-unboost|p2a: Arbok|spa|1
+|
+|turn|20
+|
+|move|p2a: Arbok|Hyper Beam|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|
+|switch|p1a: Rapidash|Rapidash, L90|21\/300
+|turn|21
+|
+|switch|p2a: Mew|Mew, L74|23\/300
+|move|p1a: Rapidash|Hyper Beam|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|switch|p2a: Pidgeotto|Pidgeotto, L90|291\/297 slp
+|turn|22
+|
+|move|p1a: Rapidash|Fire Blast|p2a: Pidgeotto
+|-crit|p2a: Pidgeotto
+|-damage|p2a: Pidgeotto|0 fnt
+|faint|p2a: Pidgeotto
+|
+|switch|p2a: Arbok|Arbok, L90|104\/291
+|turn|23
+|
+|move|p1a: Rapidash|Hyper Beam|p2a: Arbok|[miss]
+|-miss|p1a: Rapidash
+|move|p2a: Arbok|Earthquake|p1a: Rapidash
+|-supereffective|p1a: Rapidash
+|-damage|p1a: Rapidash|0 fnt
+|faint|p1a: Rapidash
+|
+|switch|p1a: Seel|Seel, L96|320\/320
+|turn|24
+|
+|move|p2a: Arbok|Glare|p1a: Seel
+|-status|p1a: Seel|par
+|move|p1a: Seel|Surf|p2a: Arbok
+|-damage|p2a: Arbok|0 fnt
+|faint|p2a: Arbok
+|
+|win|Subject Platinum
+|raw|Subject Platinum's rating: 1303 &rarr; <strong>1311<\/strong><br \/>(+8 for winning)
+|raw|Masterplaner's rating: 1074 &rarr; <strong>1065<\/strong><br \/>(-9 for losing)
+|c|★Subject Platinum|gg
+|c|★Masterplaner|gg

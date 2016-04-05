@@ -1,0 +1,444 @@
+﻿|join|charizard reyiz
+|join|Khaytra
+|player|p1|charizard reyiz|1
+|player|p2|Khaytra|291
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Starmie|Starmie|323\/323
+|turn|1
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Starmie
+|-status|p2a: Starmie|par
+|move|p2a: Starmie|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|
+|turn|2
+|
+|cant|p1a: Alakazam|par
+|move|p2a: Starmie|Thunderbolt|p1a: Alakazam
+|-damage|p1a: Alakazam|251\/313 par
+|
+|turn|3
+|
+|switch|p2a: Zapdos|Zapdos|383\/383
+|cant|p1a: Alakazam|par
+|
+|turn|4
+|
+|switch|p1a: Sandslash|Sandslash|353\/353
+|move|p2a: Zapdos|Drill Peck|p1a: Sandslash
+|-damage|p1a: Sandslash|267\/353
+|
+|turn|5
+|
+|switch|p2a: Starmie|Starmie|323\/323 par
+|move|p1a: Sandslash|Rock Slide|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|188\/323 par
+|
+|turn|6
+|
+|switch|p1a: Alakazam|Alakazam|251\/313 par
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|323\/323 par
+|
+|turn|7
+|
+|cant|p1a: Alakazam|par
+|move|p2a: Starmie|Thunderbolt|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|142\/313 par
+|
+|turn|8
+|
+|switch|p2a: Rhydon|Rhydon|413\/413
+|cant|p1a: Alakazam|par
+|
+|turn|9
+|
+|switch|p1a: Sandslash|Sandslash|267\/353
+|move|p2a: Rhydon|Substitute|p2a: Rhydon
+|-start|p2a: Rhydon|Substitute
+|-damage|p2a: Rhydon|310\/413
+|
+|turn|10
+|
+|move|p1a: Sandslash|Earthquake|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-end|p2a: Rhydon|Substitute
+|move|p2a: Rhydon|Earthquake|p1a: Sandslash
+|-damage|p1a: Sandslash|144\/353
+|
+|turn|11
+|
+|switch|p2a: Dragonite|Dragonite|385\/385
+|move|p1a: Sandslash|Earthquake|p2a: Dragonite
+|-immune|p2a: Dragonite|[msg]
+|
+|turn|12
+|
+|move|p2a: Dragonite|Surf|p1a: Sandslash
+|-supereffective|p1a: Sandslash
+|-damage|p1a: Sandslash|0 fnt
+|faint|p1a: Sandslash
+|
+|switch|p1a: Alakazam|Alakazam|142\/313 par
+|turn|13
+|
+|move|p2a: Dragonite|Hyper Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|switch|p1a: Persian|Persian|333\/333
+|turn|14
+|
+|switch|p2a: Starmie|Starmie|323\/323 par
+|move|p1a: Persian|Slash|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|177\/323 par
+|
+|turn|15
+|
+|move|p1a: Persian|Slash|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|28\/323 par
+|move|p2a: Starmie|Thunder Wave|p1a: Persian
+|-status|p1a: Persian|par
+|
+|turn|16
+|
+|switch|p2a: Rhydon|Rhydon|310\/413
+|move|p1a: Persian|Slash|p2a: Rhydon
+|-crit|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|259\/413
+|
+|turn|17
+|
+|move|p2a: Rhydon|Earthquake|p1a: Persian
+|-damage|p1a: Persian|125\/333 par
+|move|p1a: Persian|Bubble Beam|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|12\/413
+|
+|turn|18
+|
+|move|p2a: Rhydon|Earthquake|p1a: Persian
+|-damage|p1a: Persian|0 fnt
+|faint|p1a: Persian
+|
+|switch|p1a: Victreebel|Victreebel|363\/363
+|turn|19
+|
+|move|p1a: Victreebel|Razor Leaf|p2a: Rhydon
+|-crit|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|
+|switch|p2a: Zapdos|Zapdos|383\/383
+|turn|20
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Victreebel
+|-supereffective|p1a: Victreebel
+|-damage|p1a: Victreebel|136\/363
+|move|p1a: Victreebel|Sleep Powder|p2a: Zapdos
+|-status|p2a: Zapdos|slp
+|
+|turn|21
+|
+|switch|p2a: Dragonite|Dragonite|385\/385
+|switch|p1a: Moltres|Moltres|383\/383
+|
+|turn|22
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Moltres|Fire Spin|p2a: Chansey
+|-damage|p2a: Chansey|682\/703
+|-activate|p2a: Chansey|move: Fire Spin|[of] p1a: Moltres
+|
+|turn|23
+|
+|switch|p1a: Poliwhirl|Poliwhirl|333\/333
+|cant|p2a: Chansey|partiallytrapped
+|
+|-end|p2a: Chansey|Fire Spin|[partiallytrapped]
+|turn|24
+|
+|switch|p2a: Dragonite|Dragonite|385\/385
+|move|p1a: Poliwhirl|Amnesia|p1a: Poliwhirl
+|-boost|p1a: Poliwhirl|spd|2
+|-boost|p1a: Poliwhirl|spa|2
+|
+|turn|25
+|
+|move|p1a: Poliwhirl|Blizzard|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|26
+|
+|move|p2a: Tauros|Body Slam|p1a: Poliwhirl
+|-crit|p1a: Poliwhirl
+|-damage|p1a: Poliwhirl|94\/333
+|move|p1a: Poliwhirl|Surf|p2a: Tauros
+|-damage|p2a: Tauros|178\/353
+|
+|turn|27
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Poliwhirl
+|-crit|p1a: Poliwhirl
+|-damage|p1a: Poliwhirl|0 fnt
+|faint|p1a: Poliwhirl
+|
+|switch|p1a: Moltres|Moltres|383\/383
+|turn|28
+|c|★charizard reyiz|cmon maaan
+|c|★charizard reyiz|lol
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Moltres
+|-damage|p1a: Moltres|183\/383
+|move|p1a: Moltres|Agility|p1a: Moltres
+|-boost|p1a: Moltres|spe|2
+|
+|turn|29
+|-mustrecharge|p2a: Tauros
+|-mustrecharge|p2a: Tauros
+|
+|move|p1a: Moltres|Fire Blast|p2a: Tauros|[miss]
+|-miss|p1a: Moltres
+|cant|p2a: Tauros|recharge
+|
+|turn|30
+|
+|switch|p2a: Chansey|Chansey|682\/703
+|move|p1a: Moltres|Fire Blast|p2a: Chansey
+|-damage|p2a: Chansey|517\/703
+|
+|turn|31
+|
+|move|p1a: Moltres|Fire Spin|p2a: Chansey|[miss]
+|-miss|p1a: Moltres
+|move|p2a: Chansey|Blizzard|p1a: Moltres|[miss]
+|-miss|p2a: Chansey
+|
+|turn|32
+|
+|move|p1a: Moltres|Fire Spin|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|478\/703
+|-activate|p2a: Chansey|move: Fire Spin|[of] p1a: Moltres
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|33
+|
+|move|p1a: Moltres|Fire Spin|p2a: Chansey
+|-damage|p2a: Chansey|439\/703
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|34
+|
+|move|p1a: Moltres|Fire Spin|p2a: Chansey
+|-damage|p2a: Chansey|400\/703
+|cant|p2a: Chansey|partiallytrapped
+|
+|-end|p2a: Chansey|Fire Spin|[partiallytrapped]
+|turn|35
+|
+|move|p1a: Moltres|Fire Spin|p2a: Chansey|[miss]
+|-miss|p1a: Moltres
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703
+|
+|turn|36
+|
+|move|p1a: Moltres|Fire Spin|p2a: Chansey
+|-damage|p2a: Chansey|681\/703
+|-activate|p2a: Chansey|move: Fire Spin|[of] p1a: Moltres
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|37
+|
+|move|p1a: Moltres|Fire Spin|p2a: Chansey
+|-damage|p2a: Chansey|659\/703
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|38
+|
+|move|p1a: Moltres|Fire Spin|p2a: Chansey
+|-damage|p2a: Chansey|637\/703
+|cant|p2a: Chansey|partiallytrapped
+|
+|-end|p2a: Chansey|Fire Spin|[partiallytrapped]
+|turn|39
+|
+|move|p1a: Moltres|Fire Spin|p2a: Chansey
+|-damage|p2a: Chansey|615\/703
+|-activate|p2a: Chansey|move: Fire Spin|[of] p1a: Moltres
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|40
+|
+|move|p1a: Moltres|Fire Spin|p2a: Chansey
+|-damage|p2a: Chansey|593\/703
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|41
+|
+|move|p1a: Moltres|Fire Spin|p2a: Chansey
+|-damage|p2a: Chansey|571\/703
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|42
+|
+|move|p1a: Moltres|Fire Spin|p2a: Chansey
+|-damage|p2a: Chansey|549\/703
+|cant|p2a: Chansey|partiallytrapped
+|
+|-end|p2a: Chansey|Fire Spin|[partiallytrapped]
+|turn|43
+|
+|move|p1a: Moltres|Fire Spin|p2a: Chansey
+|-damage|p2a: Chansey|527\/703
+|-activate|p2a: Chansey|move: Fire Spin|[of] p1a: Moltres
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|44
+|
+|move|p1a: Moltres|Fire Spin|p2a: Chansey
+|-damage|p2a: Chansey|505\/703
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|45
+|
+|move|p1a: Moltres|Fire Spin|p2a: Chansey
+|-damage|p2a: Chansey|483\/703
+|cant|p2a: Chansey|partiallytrapped
+|
+|-end|p2a: Chansey|Fire Spin|[partiallytrapped]
+|turn|46
+|
+|move|p1a: Moltres|Fire Spin|p2a: Chansey
+|-damage|p2a: Chansey|462\/703
+|-activate|p2a: Chansey|move: Fire Spin|[of] p1a: Moltres
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|47
+|
+|move|p1a: Moltres|Fire Spin|p2a: Chansey
+|-damage|p2a: Chansey|441\/703
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|48
+|
+|move|p1a: Moltres|Fire Spin|p2a: Chansey
+|-damage|p2a: Chansey|420\/703
+|cant|p2a: Chansey|partiallytrapped
+|
+|-end|p2a: Chansey|Fire Spin|[partiallytrapped]
+|turn|49
+|
+|move|p1a: Moltres|Fire Spin|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|379\/703
+|-activate|p2a: Chansey|move: Fire Spin|[of] p1a: Moltres
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|50
+|
+|move|p1a: Moltres|Fire Spin|p2a: Chansey
+|-damage|p2a: Chansey|338\/703
+|cant|p2a: Chansey|partiallytrapped
+|
+|-end|p2a: Chansey|Fire Spin|[partiallytrapped]
+|turn|51
+|
+|move|p1a: Moltres|Fire Spin|p2a: Chansey
+|-damage|p2a: Chansey|317\/703
+|-activate|p2a: Chansey|move: Fire Spin|[of] p1a: Moltres
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|52
+|
+|move|p1a: Moltres|Fire Spin|p2a: Chansey
+|-damage|p2a: Chansey|296\/703
+|cant|p2a: Chansey|partiallytrapped
+|
+|-end|p2a: Chansey|Fire Spin|[partiallytrapped]
+|turn|53
+|
+|move|p1a: Moltres|Fire Spin|p2a: Chansey|[miss]
+|-miss|p1a: Moltres
+|move|p2a: Chansey|Thunderbolt|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|54\/383
+|
+|turn|54
+|
+|move|p1a: Moltres|Fire Spin|p2a: Chansey
+|-damage|p2a: Chansey|272\/703
+|-activate|p2a: Chansey|move: Fire Spin|[of] p1a: Moltres
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|55
+|
+|move|p1a: Moltres|Fire Spin|p2a: Chansey
+|-damage|p2a: Chansey|248\/703
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|56
+|
+|move|p1a: Moltres|Fire Spin|p2a: Chansey
+|-damage|p2a: Chansey|224\/703
+|cant|p2a: Chansey|partiallytrapped
+|
+|-end|p2a: Chansey|Fire Spin|[partiallytrapped]
+|turn|57
+|
+|move|p1a: Moltres|Fire Spin|p2a: Chansey|[miss]
+|-miss|p1a: Moltres
+|move|p2a: Chansey|Thunderbolt|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|switch|p1a: Victreebel|Victreebel|136\/363
+|turn|58
+|
+|move|p1a: Victreebel|Razor Leaf|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|106\/703
+|move|p2a: Chansey|Blizzard|p1a: Victreebel|[miss]
+|-miss|p2a: Chansey
+|
+|turn|59
+|
+|move|p1a: Victreebel|Razor Leaf|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|switch|p2a: Tauros|Tauros|178\/353
+|turn|60
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Victreebel
+|-damage|p1a: Victreebel|0 fnt
+|faint|p1a: Victreebel
+|
+|win|Khaytra
+|raw|Ladder updating...
+|c|★Khaytra|gg :)

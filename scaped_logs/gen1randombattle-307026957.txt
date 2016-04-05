@@ -1,0 +1,305 @@
+﻿|j|Blackhawkpotato
+|j|Frogmite
+|player|p1|Blackhawkpotato|102
+|player|p2|Frogmite|10
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|52525,37426,46574,26748
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Omastar|Omastar, L90|309\/309
+|switch|p2a: Weezing|Weezing, L90|300\/300
+|turn|1
+|choice|move 3|move 3
+|
+|move|p2a: Weezing|Thunder|p1a: Omastar|[miss]
+|-miss|p2a: Weezing
+|move|p1a: Omastar|Surf|p2a: Weezing
+|-damage|p2a: Weezing|172\/300
+|
+|turn|2
+|choice|switch 3|move 3
+|
+|switch|p1a: Tangela|Tangela, L85|284\/284
+|move|p2a: Weezing|Thunder|p1a: Tangela|[miss]
+|-miss|p2a: Weezing
+|
+|turn|3
+|choice|move 4|move 2
+|
+|move|p2a: Weezing|Sludge|p1a: Tangela
+|-supereffective|p1a: Tangela
+|-damage|p1a: Tangela|156\/284
+|-status|p1a: Tangela|psn
+|move|p1a: Tangela|Body Slam|p2a: Weezing
+|-damage|p2a: Weezing|141\/300
+|-damage|p1a: Tangela|139\/284 psn|[from] psn|[of] p2a: Weezing
+|
+|turn|4
+|choice|move 3|move 2
+|
+|move|p2a: Weezing|Sludge|p1a: Tangela
+|-supereffective|p1a: Tangela
+|-damage|p1a: Tangela|7\/284 psn
+|move|p1a: Tangela|Hyper Beam|p2a: Weezing
+|-damage|p2a: Weezing|87\/300
+|-damage|p1a: Tangela|0 fnt|[from] psn|[of] p2a: Weezing
+|faint|p1a: Tangela
+|choice|switch 6|
+|
+|switch|p1a: Rapidash|Rapidash, L90|300\/300
+|turn|5
+|choice|move 1|switch 4
+|
+|switch|p2a: Tentacruel|Tentacruel, L85|310\/310
+|move|p1a: Rapidash|Fire Blast|p2a: Tentacruel
+|-crit|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|202\/310
+|-status|p2a: Tentacruel|brn
+|
+|turn|6
+|choice|switch 4|move 3
+|
+|switch|p1a: Vileplume|Vileplume, L90|318\/318
+|move|p2a: Tentacruel|Hydro Pump|p1a: Vileplume|[miss]
+|-miss|p2a: Tentacruel
+|-damage|p2a: Tentacruel|183\/310 brn|[from] brn|[of] p1a: Vileplume
+|
+|turn|7
+|choice|move 2|move 1
+|
+|move|p2a: Tentacruel|Blizzard|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|154\/318
+|-status|p1a: Vileplume|frz
+|-damage|p2a: Tentacruel|164\/310 brn|[from] brn|[of] p1a: Vileplume
+|cant|p1a: Vileplume|frz
+|
+|turn|8
+|choice|move 2|move 3
+|
+|move|p2a: Tentacruel|Hydro Pump|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|90\/318 frz
+|-damage|p2a: Tentacruel|145\/310 brn|[from] brn|[of] p1a: Vileplume
+|cant|p1a: Vileplume|frz
+|
+|turn|9
+|choice|move 2|switch 5
+|
+|switch|p2a: Rhydon|Rhydon, L79|328\/328
+|cant|p1a: Vileplume|frz
+|
+|turn|10
+|choice|move 2|move 2
+|
+|cant|p1a: Vileplume|frz
+|move|p2a: Rhydon|Substitute|p2a: Rhydon
+|-start|p2a: Rhydon|Substitute
+|-damage|p2a: Rhydon|246\/328
+|
+|turn|11
+|choice|move 2|move 4
+|
+|cant|p1a: Vileplume|frz
+|move|p2a: Rhydon|Earthquake|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|faint|p1a: Vileplume
+|choice|switch 3|
+|
+|switch|p1a: Omastar|Omastar, L90|309\/309
+|turn|12
+|choice|switch 2|move 4
+|
+|switch|p1a: Charizard|Charizard, L85|306\/306
+|move|p2a: Rhydon|Earthquake|p1a: Charizard
+|-immune|p1a: Charizard|[msg]
+|
+|turn|13
+|choice|move 2|move 1
+|
+|move|p1a: Charizard|Earthquake|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-end|p2a: Rhydon|Substitute
+|move|p2a: Rhydon|Rock Slide|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|choice|switch 2|
+|
+|switch|p1a: Omastar|Omastar, L90|309\/309
+|turn|14
+|choice|move 3|switch 6
+|
+|switch|p2a: Electabuzz|Electabuzz, L85|284\/284
+|move|p1a: Omastar|Surf|p2a: Electabuzz
+|-damage|p2a: Electabuzz|144\/284
+|
+|turn|15
+|choice|switch 5|move 4
+|
+|switch|p1a: Jynx|Jynx, L79|265\/265
+|move|p2a: Electabuzz|Thunderbolt|p1a: Jynx
+|-damage|p1a: Jynx|164\/265
+|
+|turn|16
+|choice|move 3|move 3
+|
+|move|p2a: Electabuzz|Thunder Wave|p1a: Jynx
+|-status|p1a: Jynx|par
+|move|p1a: Jynx|Lovely Kiss|p2a: Electabuzz
+|-status|p2a: Electabuzz|slp
+|
+|turn|17
+|choice|move 4|move 4
+|
+|cant|p2a: Electabuzz|slp
+|cant|p1a: Jynx|par
+|
+|turn|18
+|choice|move 4|move 4
+|
+|cant|p2a: Electabuzz|slp
+|move|p1a: Jynx|Psychic|p2a: Electabuzz
+|-damage|p2a: Electabuzz|66\/284 slp
+|
+|turn|19
+|choice|move 4|switch 2
+|
+|switch|p2a: Spearow|Spearow, L96|272\/272
+|move|p1a: Jynx|Psychic|p2a: Spearow
+|-damage|p2a: Spearow|138\/272
+|
+|turn|20
+|choice|move 2|switch 3
+|
+|switch|p2a: Arcanine|Arcanine, L85|327\/327
+|cant|p1a: Jynx|par
+|
+|turn|21
+|choice|switch 4|move 2
+|
+|switch|p1a: Rapidash|Rapidash, L90|300\/300
+|move|p2a: Arcanine|Body Slam|p1a: Rapidash
+|-damage|p1a: Rapidash|222\/300
+|
+|turn|22
+|choice|move 4|move 2
+|
+|move|p1a: Rapidash|Body Slam|p2a: Arcanine
+|-damage|p2a: Arcanine|255\/327
+|-status|p2a: Arcanine|par
+|move|p2a: Arcanine|Body Slam|p1a: Rapidash
+|-damage|p1a: Rapidash|152\/300
+|
+|turn|23
+|choice|switch 5|move 2
+|
+|switch|p1a: Omastar|Omastar, L90|309\/309
+|move|p2a: Arcanine|Body Slam|p1a: Omastar
+|-resisted|p1a: Omastar
+|-damage|p1a: Omastar|286\/309
+|
+|turn|24
+|choice|move 3|switch 3
+|
+|switch|p2a: Spearow|Spearow, L96|138\/272
+|move|p1a: Omastar|Surf|p2a: Spearow
+|-damage|p2a: Spearow|0 fnt
+|faint|p2a: Spearow
+|choice||switch 4
+|
+|switch|p2a: Weezing|Weezing, L90|87\/300
+|turn|25
+|choice|switch 4|move 3
+|
+|switch|p1a: Jynx|Jynx, L79|164\/265 par
+|move|p2a: Weezing|Thunder|p1a: Jynx
+|-damage|p1a: Jynx|78\/265 par
+|
+|turn|26
+|choice|move 4|move 4
+|
+|move|p2a: Weezing|Fire Blast|p1a: Jynx
+|-supereffective|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|choice|switch 5|
+|
+|switch|p1a: Rapidash|Rapidash, L90|152\/300
+|turn|27
+|choice|move 4|switch 2
+|
+|switch|p2a: Electabuzz|Electabuzz, L85|66\/284 slp
+|move|p1a: Rapidash|Body Slam|p2a: Electabuzz
+|-damage|p2a: Electabuzz|0 fnt
+|faint|p2a: Electabuzz
+|choice||switch 6
+|
+|switch|p2a: Rhydon|Rhydon, L79|246\/328
+|turn|28
+|choice|switch 4|move 4
+|
+|switch|p1a: Omastar|Omastar, L90|286\/309
+|move|p2a: Rhydon|Earthquake|p1a: Omastar
+|-supereffective|p1a: Omastar
+|-damage|p1a: Omastar|123\/309
+|
+|turn|29
+|c|★Blackhawkpotato|at least it wasnt a sweep
+|c|★Frogmite|yeah
+|c|★Blackhawkpotato|you play very well or im just too predictable or both
+|c|★Frogmite|this isnt over yet though
+|choice|move 3|switch 3
+|
+|switch|p2a: Arcanine|Arcanine, L85|255\/327 par
+|move|p1a: Omastar|Surf|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|choice||switch 2
+|
+|switch|p2a: Weezing|Weezing, L90|87\/300
+|turn|30
+|choice|move 1|move 3
+|
+|move|p2a: Weezing|Thunder|p1a: Omastar
+|-supereffective|p1a: Omastar
+|-damage|p1a: Omastar|0 fnt
+|faint|p1a: Omastar
+|choice|switch 4|
+|
+|switch|p1a: Rapidash|Rapidash, L90|152\/300
+|turn|31
+|choice|move 1|move 1
+|
+|move|p1a: Rapidash|Fire Blast|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|choice||switch 3
+|
+|switch|p2a: Rhydon|Rhydon, L79|246\/328
+|turn|32
+|choice|move 1|move 4
+|
+|move|p1a: Rapidash|Fire Blast|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|155\/328
+|move|p2a: Rhydon|Earthquake|p1a: Rapidash
+|-supereffective|p1a: Rapidash
+|-damage|p1a: Rapidash|0 fnt
+|faint|p1a: Rapidash
+|
+|win|Frogmite
+|raw|Blackhawkpotato's rating: 1063 &rarr; <strong>1051<\/strong><br \/>(-12 for losing)
+|raw|Frogmite's rating: 1200 &rarr; <strong>1216<\/strong><br \/>(+16 for winning)
+|c|★Blackhawkpotato|gg
+|c|★Frogmite|gg
+|l|Blackhawkpotato
+|player|p1

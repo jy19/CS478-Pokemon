@@ -1,0 +1,170 @@
+﻿|j|www.memebig.net
+|j|Addri Trainer 99
+|player|p1|www.memebig.net|101
+|player|p2|Addri Trainer 99|265
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|3318,1947,54831,47388
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Articuno|Articuno, L79|304\/304
+|switch|p2a: Primeape|Primeape, L90|300\/300
+|turn|1
+|choice|move 3|move 3
+|
+|move|p2a: Primeape|Rock Slide|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|66\/304
+|move|p1a: Articuno|Blizzard|p2a: Primeape
+|-damage|p2a: Primeape|159\/300
+|
+|turn|2
+|choice|switch 3|move 4
+|
+|switch|p1a: Slowbro|Slowbro, L79|312\/312
+|move|p2a: Primeape|Hyper Beam|p1a: Slowbro
+|-damage|p1a: Slowbro|204\/312
+|
+|turn|3
+|-mustrecharge|p2a: Primeape
+|-mustrecharge|p2a: Primeape
+|choice|move 3|move 1
+|
+|cant|p2a: Primeape|recharge
+|move|p1a: Slowbro|Thunder Wave|p2a: Primeape
+|-status|p2a: Primeape|par
+|
+|turn|4
+|choice|move 4|move 2
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|move|p2a: Primeape|Body Slam|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-damage|p1a: Slowbro|78\/312
+|-status|p1a: Slowbro|par
+|
+|turn|5
+|choice|move 1|move 4
+|
+|cant|p1a: Slowbro|par
+|move|p2a: Primeape|Hyper Beam|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|choice|switch 3|
+|
+|switch|p1a: Articuno|Articuno, L79|66\/304
+|turn|6
+|choice|move 3|move 4
+|
+|move|p1a: Articuno|Blizzard|p2a: Primeape
+|-damage|p2a: Primeape|15\/300 par
+|move|p2a: Primeape|Hyper Beam|p1a: Articuno
+|-damage|p1a: Articuno|0 fnt
+|faint|p1a: Articuno
+|choice|switch 5|
+|
+|switch|p1a: Exeggutor|Exeggutor, L79|312\/312
+|turn|7
+|choice|move 4|move 4
+|
+|move|p1a: Exeggutor|Mega Drain|p2a: Primeape
+|-damage|p2a: Primeape|0 fnt
+|faint|p2a: Primeape
+|choice||switch 5
+|
+|switch|p2a: Jynx|Jynx, L79|265\/265
+|turn|8
+|choice|move 1|move 3
+|
+|move|p2a: Jynx|Blizzard|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|choice|switch 4|
+|
+|switch|p1a: Chansey|Chansey, L79|557\/557
+|turn|9
+|choice|switch 2|move 2
+|
+|switch|p1a: Metapod|Metapod, L99|300\/300
+|move|p2a: Jynx|Lovely Kiss|p1a: Metapod
+|-status|p1a: Metapod|slp
+|
+|turn|10
+|choice|switch 2|switch 2
+|
+|switch|p2a: Gloom|Gloom, L90|291\/291
+|switch|p1a: Chansey|Chansey, L79|557\/557
+|
+|turn|11
+|choice|move 2|move 2
+|
+|move|p2a: Gloom|Swords Dance|p2a: Gloom
+|-boost|p2a: Gloom|atk|2
+|move|p1a: Chansey|Ice Beam|p2a: Gloom
+|-supereffective|p2a: Gloom
+|-damage|p2a: Gloom|176\/291
+|
+|turn|12
+|choice|move 4|move 2
+|
+|move|p2a: Gloom|Swords Dance|p2a: Gloom
+|-boost|p2a: Gloom|atk|2
+|move|p1a: Chansey|Counter|p2a: Gloom
+|-fail|p1a: Chansey
+|
+|turn|13
+|choice|move 2|move 2
+|
+|move|p2a: Gloom|Swords Dance|p2a: Gloom
+|-boost|p2a: Gloom|atk|2
+|move|p1a: Chansey|Ice Beam|p2a: Gloom
+|-crit|p2a: Gloom
+|-supereffective|p2a: Gloom
+|-damage|p2a: Gloom|0 fnt
+|faint|p2a: Gloom
+|choice||switch 6
+|
+|switch|p2a: Kingler|Kingler, L85|267\/267
+|turn|14
+|choice|move 3|move 3
+|
+|move|p2a: Kingler|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|504\/557
+|-status|p1a: Chansey|frz
+|cant|p1a: Chansey|frz
+|
+|turn|15
+|choice|switch 6|move 1
+|
+|switch|p1a: Tauros|Tauros, L79|280\/280
+|move|p2a: Kingler|Crabhammer|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|124\/280
+|
+|turn|16
+|choice|move 1|move 2
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Kingler
+|-damage|p2a: Kingler|154\/267
+|move|p2a: Kingler|Hyper Beam|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|-message|www.memebig.net forfeited.
+|
+|win|Addri Trainer 99
+|player|p1
+|player|p2
+|l|www.memebig.net
+|raw|www.memebig.net's rating: 1185 &rarr; <strong>1154<\/strong><br \/>(-31 for losing)
+|raw|Addri Trainer 99's rating: 1098 &rarr; <strong>1129<\/strong><br \/>(+31 for winning)
+|c|★Addri Trainer 99|Gg
+|c|★Addri Trainer 99|;)

@@ -1,0 +1,156 @@
+﻿|j|B1ackJack94
+|j|PancakeAlchemist
+|player|p1|B1ackJack94|204
+|player|p2|PancakeAlchemist|80
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Lapras|Lapras, L79|100\/100
+|switch|p2a: Kingler|Kingler, L85|100\/100
+|turn|1
+|choice||
+|
+|move|p2a: Kingler|Swords Dance|p2a: Kingler
+|-boost|p2a: Kingler|atk|2
+|move|p1a: Lapras|Thunderbolt|p2a: Kingler
+|-supereffective|p2a: Kingler
+|-damage|p2a: Kingler|39\/100
+|
+|turn|2
+|choice||
+|
+|move|p2a: Kingler|Hyper Beam|p1a: Lapras
+|-damage|p1a: Lapras|15\/100
+|move|p1a: Lapras|Thunderbolt|p2a: Kingler
+|-supereffective|p2a: Kingler
+|-damage|p2a: Kingler|0 fnt
+|faint|p2a: Kingler
+|choice||
+|
+|switch|p2a: Electrode|Electrode, L90|100\/100
+|turn|3
+|choice||
+|
+|move|p2a: Electrode|Thunderbolt|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|choice||
+|
+|switch|p1a: Venonat|Venonat, L96|100\/100
+|turn|4
+|choice||
+|
+|move|p2a: Electrode|Flash|p1a: Venonat|[miss]
+|-miss|p2a: Electrode
+|move|p1a: Venonat|Sleep Powder|p2a: Electrode
+|-status|p2a: Electrode|slp
+|
+|turn|5
+|choice||
+|
+|switch|p1a: Scyther|Scyther, L90|100\/100
+|cant|p2a: Electrode|slp
+|
+|turn|6
+|choice||
+|
+|cant|p2a: Electrode|slp
+|move|p1a: Scyther|Swords Dance|p1a: Scyther
+|-boost|p1a: Scyther|atk|2
+|
+|turn|7
+|choice||
+|
+|cant|p2a: Electrode|slp
+|move|p1a: Scyther|Swords Dance|p1a: Scyther
+|-boost|p1a: Scyther|atk|2
+|
+|turn|8
+|choice||
+|
+|cant|p2a: Electrode|slp
+|move|p1a: Scyther|Hyper Beam|p2a: Electrode
+|-damage|p2a: Electrode|0 fnt
+|faint|p2a: Electrode
+|choice||
+|
+|switch|p2a: Jolteon|Jolteon, L79|100\/100
+|turn|9
+|choice||
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Scyther
+|-supereffective|p1a: Scyther
+|-damage|p1a: Scyther|25\/100
+|move|p1a: Scyther|Hyper Beam|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|choice||
+|
+|switch|p2a: Mr. Mime|Mr. Mime, L85|100\/100
+|turn|10
+|choice||
+|
+|move|p1a: Scyther|Hyper Beam|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|0 fnt
+|faint|p2a: Mr. Mime
+|choice||
+|
+|switch|p2a: Kangaskhan|Kangaskhan, L85|100\/100
+|turn|11
+|choice||
+|
+|move|p1a: Scyther|Hyper Beam|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|faint|p2a: Kangaskhan
+|choice||
+|
+|switch|p2a: Golbat|Golbat, L90|100\/100
+|turn|12
+|choice||
+|
+|move|p1a: Scyther|Hyper Beam|p2a: Golbat
+|-crit|p2a: Golbat
+|-damage|p2a: Golbat|9\/100
+|move|p2a: Golbat|Double-Edge|p1a: Scyther
+|-damage|p1a: Scyther|2\/100
+|-damage|p2a: Golbat|3\/100|[from] recoil|[of] p1a: Scyther
+|
+|turn|13
+|-mustrecharge|p1a: Scyther
+|-mustrecharge|p1a: Scyther
+|choice||
+|
+|cant|p1a: Scyther|recharge
+|move|p2a: Golbat|Mega Drain|p1a: Scyther
+|-crit|p1a: Scyther
+|-resisted|p1a: Scyther
+|-damage|p1a: Scyther|0 fnt
+|-heal|p2a: Golbat|4\/100|[from] drain|[of] p1a: Scyther
+|faint|p1a: Scyther
+|choice||
+|
+|switch|p1a: Jynx|Jynx, L79|100\/100
+|turn|14
+|choice||
+|
+|move|p2a: Golbat|Double-Edge|p1a: Jynx
+|-damage|p1a: Jynx|53\/100
+|-damage|p2a: Golbat|0 fnt|[from] recoil|[of] p1a: Jynx
+|faint|p2a: Golbat
+|
+|win|B1ackJack94
+|player|p1
+|player|p2
+|raw|B1ackJack94's rating: 1430 &rarr; <strong>1433<\/strong><br \/>(+3 for winning)
+|raw|PancakeAlchemist's rating: 1000 &rarr; <strong>1000<\/strong><br \/>(+0 for losing)
+|c|★B1ackJack94|gg
+|c|★PancakeAlchemist|gg
+|l|PancakeAlchemist

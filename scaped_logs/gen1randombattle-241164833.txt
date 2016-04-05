@@ -1,0 +1,271 @@
+﻿|join|biiist
+|join|eldougi
+|player|p1|biiist|1
+|player|p2|eldougi|265
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Pidgey|Pidgey, L96|272\/272
+|switch|p2a: Nidoqueen|Nidoqueen, L85|327\/327
+|turn|1
+|
+|move|p2a: Nidoqueen|Body Slam|p1a: Pidgey
+|-crit|p1a: Pidgey
+|-damage|p1a: Pidgey|122\/272
+|move|p1a: Pidgey|Agility|p1a: Pidgey
+|-boost|p1a: Pidgey|spe|2
+|
+|turn|2
+|
+|move|p1a: Pidgey|Double-Edge|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|238\/327
+|-damage|p1a: Pidgey|100\/272|[from] recoil|[of] p2a: Nidoqueen
+|move|p2a: Nidoqueen|Thunderbolt|p1a: Pidgey
+|-supereffective|p1a: Pidgey
+|-damage|p1a: Pidgey|0 fnt
+|faint|p1a: Pidgey
+|
+|switch|p1a: Sandslash|Sandslash, L85|301\/301
+|turn|3
+|
+|switch|p2a: Poliwhirl|Poliwhirl, L85|284\/284
+|move|p1a: Sandslash|Earthquake|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|143\/284
+|
+|turn|4
+|
+|switch|p1a: Magneton|Magneton, L90|273\/273
+|move|p2a: Poliwhirl|Surf|p1a: Magneton
+|-damage|p1a: Magneton|224\/273
+|
+|turn|5
+|
+|switch|p2a: Geodude|Geodude, L96|272\/272
+|move|p1a: Magneton|Thunderbolt|p2a: Geodude
+|-immune|p2a: Geodude|[msg]
+|
+|turn|6
+|
+|switch|p1a: Seel|Seel, L96|320\/320
+|move|p2a: Geodude|Earthquake|p1a: Seel
+|-damage|p1a: Seel|192\/320
+|
+|turn|7
+|
+|switch|p2a: Electrode|Electrode, L90|291\/291
+|move|p1a: Seel|Body Slam|p2a: Electrode
+|-crit|p2a: Electrode
+|-damage|p2a: Electrode|186\/291
+|
+|turn|8
+|
+|switch|p1a: Sandslash|Sandslash, L85|301\/301
+|move|p2a: Electrode|Reflect|p2a: Electrode
+|-start|p2a: Electrode|Reflect
+|
+|turn|9
+|
+|move|p2a: Electrode|Explosion|p1a: Sandslash
+|-crit|p1a: Sandslash
+|-damage|p1a: Sandslash|7\/301
+|faint|p2a: Electrode
+|c|★biiist|ncf
+|
+|switch|p2a: Poliwhirl|Poliwhirl, L85|143\/284
+|turn|10
+|
+|move|p2a: Poliwhirl|Psychic|p1a: Sandslash
+|-damage|p1a: Sandslash|0 fnt
+|faint|p1a: Sandslash
+|
+|switch|p1a: Magneton|Magneton, L90|224\/273
+|turn|11
+|
+|switch|p2a: Nidoqueen|Nidoqueen, L85|238\/327
+|switch|p1a: Seel|Seel, L96|192\/320
+|
+|turn|12
+|
+|move|p2a: Nidoqueen|Thunderbolt|p1a: Seel
+|-crit|p1a: Seel
+|-supereffective|p1a: Seel
+|-damage|p1a: Seel|0 fnt
+|faint|p1a: Seel
+|c|★biiist|NCF
+|
+|switch|p1a: Chansey|Chansey, L79|557\/557
+|turn|13
+|
+|move|p2a: Nidoqueen|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|315\/557
+|move|p1a: Chansey|Ice Beam|p2a: Nidoqueen
+|-crit|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|0 fnt
+|faint|p2a: Nidoqueen
+|
+|switch|p2a: Machamp|Machamp, L90|345\/345
+|turn|14
+|
+|switch|p1a: Zapdos|Zapdos, L79|304\/304
+|move|p2a: Machamp|Submission|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|238\/304
+|-damage|p2a: Machamp|329\/345|[from] recoil|[of] p1a: Zapdos
+|
+|turn|15
+|
+|switch|p2a: Geodude|Geodude, L96|272\/272
+|move|p1a: Zapdos|Drill Peck|p2a: Geodude
+|-crit|p2a: Geodude
+|-resisted|p2a: Geodude
+|-damage|p2a: Geodude|219\/272
+|
+|turn|16
+|
+|switch|p1a: Chansey|Chansey, L79|315\/557
+|move|p2a: Geodude|Rock Slide|p1a: Chansey
+|-damage|p1a: Chansey|75\/557
+|
+|turn|17
+|
+|switch|p2a: Machamp|Machamp, L90|329\/345
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|353\/557
+|
+|turn|18
+|
+|move|p2a: Machamp|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|115\/557
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-start|p1a: Chansey|Reflect
+|
+|turn|19
+|
+|move|p2a: Machamp|Rock Slide|p1a: Chansey
+|-damage|p1a: Chansey|23\/557
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|301\/557
+|
+|turn|20
+|
+|move|p2a: Machamp|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|191\/557
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|469\/557
+|
+|turn|21
+|
+|move|p2a: Machamp|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|349\/557
+|move|p1a: Chansey|Counter|p2a: Machamp
+|-damage|p2a: Machamp|89\/345
+|
+|turn|22
+|
+|move|p2a: Machamp|Hyper Beam|p1a: Chansey
+|-damage|p1a: Chansey|154\/557
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|432\/557
+|
+|turn|23
+|-mustrecharge|p2a: Machamp
+|-mustrecharge|p2a: Machamp
+|
+|cant|p2a: Machamp|recharge
+|move|p1a: Chansey|Ice Beam|p2a: Machamp
+|-damage|p2a: Machamp|24\/345
+|
+|turn|24
+|
+|switch|p2a: Poliwhirl|Poliwhirl, L85|143\/284
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|557\/557
+|
+|turn|25
+|
+|switch|p1a: Magneton|Magneton, L90|224\/273
+|move|p2a: Poliwhirl|Blizzard|p1a: Magneton
+|-crit|p1a: Magneton
+|-damage|p1a: Magneton|131\/273
+|
+|turn|26
+|
+|switch|p2a: Geodude|Geodude, L96|219\/272
+|move|p1a: Magneton|Mimic|p2a: Geodude
+|-start|p1a: Magneton|Mimic|Earthquake
+|
+|turn|27
+|
+|move|p1a: Magneton|Earthquake|p2a: Geodude
+|-crit|p2a: Geodude
+|-supereffective|p2a: Geodude
+|-damage|p2a: Geodude|34\/272
+|move|p2a: Geodude|Rock Slide|p1a: Magneton
+|-damage|p1a: Magneton|52\/273
+|
+|turn|28
+|
+|switch|p2a: Machamp|Machamp, L90|24\/345
+|move|p1a: Magneton|Earthquake|p2a: Machamp
+|-damage|p2a: Machamp|0 fnt
+|faint|p2a: Machamp
+|
+|switch|p2a: Poliwhirl|Poliwhirl, L85|143\/284
+|turn|29
+|
+|move|p2a: Poliwhirl|Surf|p1a: Magneton
+|-crit|p1a: Magneton
+|-damage|p1a: Magneton|0 fnt
+|faint|p1a: Magneton
+|
+|switch|p1a: Zapdos|Zapdos, L79|238\/304
+|turn|30
+|
+|move|p2a: Poliwhirl|Blizzard|p1a: Zapdos|[miss]
+|-miss|p2a: Poliwhirl
+|move|p1a: Zapdos|Thunderbolt|p2a: Poliwhirl
+|-supereffective|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|0 fnt
+|faint|p2a: Poliwhirl
+|
+|switch|p2a: Geodude|Geodude, L96|34\/272
+|turn|31
+|
+|switch|p1a: Chansey|Chansey, L79|557\/557
+|move|p2a: Geodude|Explosion|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|faint|p2a: Geodude
+|
+|switch|p1a: Zapdos|Zapdos, L79|238\/304
+|switch|p2a: Victreebel|Victreebel, L85|310\/310
+|turn|32
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Victreebel
+|-supereffective|p2a: Victreebel
+|-damage|p2a: Victreebel|153\/310
+|move|p2a: Victreebel|Stun Spore|p1a: Zapdos
+|-status|p1a: Zapdos|par
+|
+|turn|33
+|
+|move|p2a: Victreebel|Body Slam|p1a: Zapdos
+|-damage|p1a: Zapdos|170\/304 par
+|move|p1a: Zapdos|Drill Peck|p2a: Victreebel
+|-supereffective|p2a: Victreebel
+|-damage|p2a: Victreebel|0 fnt
+|faint|p2a: Victreebel
+|
+|win|biiist
+|raw|Ladder updating...
+|raw|biiist's rating: 1306 &rarr; <strong>1328<\/strong><br \/>(+22 for winning)
+|raw|eldougi's rating: 1333 &rarr; <strong>1312<\/strong><br \/>(-21 for losing)
+|c|★biiist|suck a dick
+|c|★eldougi|gg

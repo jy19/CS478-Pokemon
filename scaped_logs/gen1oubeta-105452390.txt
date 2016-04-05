@@ -1,0 +1,336 @@
+﻿|join|J. hegg's beard
+|join|Airfoil
+|player|p1|J. hegg's beard|23
+|player|p2|Airfoil|169
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|switch|p1a: Overeasy|Exeggutor|393\/393
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|1
+|
+|move|p2a: Gengar|Hypnosis|p1a: Overeasy
+|-status|p1a: Overeasy|slp
+|cant|p1a: Overeasy|slp
+|
+|turn|2
+|
+|move|p2a: Gengar|Confuse Ray|p1a: Overeasy
+|-start|p1a: Overeasy|confusion
+|cant|p1a: Overeasy|slp
+|
+|turn|3
+|
+|switch|p2a: Lapras|Lapras|463\/463
+|cant|p1a: Overeasy|slp
+|
+|turn|4
+|
+|switch|p1a: Prowler|Gengar|323\/323
+|move|p2a: Lapras|Body Slam|p1a: Prowler
+|-immune|p1a: Prowler|[msg]
+|
+|turn|5
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|move|p1a: Prowler|Hypnosis|p2a: Gengar
+|-status|p2a: Gengar|slp
+|
+|turn|6
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Prowler|Thunderbolt|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|354\/393
+|
+|turn|7
+|
+|switch|p1a: Overeasy|Exeggutor|393\/393 slp
+|move|p2a: Exeggutor|Psychic|p1a: Overeasy
+|-resisted|p1a: Overeasy
+|-damage|p1a: Overeasy|345\/393 slp
+|
+|turn|8
+|
+|switch|p2a: Lapras|Lapras|463\/463
+|cant|p1a: Overeasy|slp
+|
+|turn|9
+|
+|switch|p2a: Exeggutor|Exeggutor|354\/393
+|switch|p1a: Prowler|Gengar|323\/323
+|
+|turn|10
+|
+|switch|p1a: Overeasy|Exeggutor|345\/393 slp
+|move|p2a: Exeggutor|Psychic|p1a: Overeasy
+|-resisted|p1a: Overeasy
+|-damage|p1a: Overeasy|294\/393 slp
+|
+|turn|11
+|
+|switch|p2a: Lapras|Lapras|463\/463
+|cant|p1a: Overeasy|slp
+|-curestatus|p1a: Overeasy|slp
+|
+|turn|12
+|
+|switch|p1a: Prowler|Gengar|323\/323
+|move|p2a: Lapras|Blizzard|p1a: Prowler|[miss]
+|-miss|p2a: Lapras
+|
+|turn|13
+|
+|switch|p2a: Exeggutor|Exeggutor|354\/393
+|move|p1a: Prowler|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|320\/393
+|-unboost|p2a: Exeggutor|spd|1
+|-unboost|p2a: Exeggutor|spa|1
+|
+|turn|14
+|
+|move|p1a: Prowler|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|263\/393
+|move|p2a: Exeggutor|Sleep Powder|p1a: Prowler
+|-status|p1a: Prowler|slp
+|
+|turn|15
+|
+|switch|p1a: Patrick|Starmie|323\/323
+|switch|p2a: Lapras|Lapras|463\/463
+|
+|turn|16
+|
+|move|p1a: Patrick|Thunderbolt|p2a: Lapras
+|-crit|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|141\/463
+|move|p2a: Lapras|Thunderbolt|p1a: Patrick
+|-supereffective|p1a: Patrick
+|-damage|p1a: Patrick|189\/323
+|
+|turn|17
+|
+|switch|p2a: Raichu|Raichu|323\/323
+|move|p1a: Patrick|Thunderbolt|p2a: Raichu
+|-resisted|p2a: Raichu
+|-damage|p2a: Raichu|285\/323
+|
+|turn|18
+|
+|switch|p1a: Overeasy|Exeggutor|294\/393
+|move|p2a: Raichu|Thunder Wave|p1a: Overeasy
+|-status|p1a: Overeasy|par
+|
+|turn|19
+|
+|switch|p2a: Exeggutor|Exeggutor|263\/393
+|cant|p1a: Overeasy|par
+|
+|turn|20
+|
+|switch|p2a: Lapras|Lapras|141\/463
+|cant|p1a: Overeasy|par
+|
+|turn|21
+|
+|switch|p1a: Prowler|Gengar|323\/323 slp
+|move|p2a: Lapras|Confuse Ray|p1a: Prowler
+|-start|p1a: Prowler|confusion
+|
+|turn|22
+|
+|switch|p1a: Dreamer|Snorlax|523\/523
+|move|p2a: Lapras|Blizzard|p1a: Dreamer
+|-crit|p1a: Dreamer
+|-damage|p1a: Dreamer|175\/523
+|
+|turn|23
+|
+|move|p2a: Lapras|Confuse Ray|p1a: Dreamer
+|-start|p1a: Dreamer|confusion
+|-activate|p1a: Dreamer|confusion
+|move|p1a: Dreamer|Hyper Beam|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|turn|24
+|
+|switch|p1a: Grounders|Golem|363\/363
+|move|p2a: Snorlax|Earthquake|p1a: Grounders
+|-supereffective|p1a: Grounders
+|-damage|p1a: Grounders|219\/363
+|
+|turn|25
+|
+|switch|p1a: Overeasy|Exeggutor|294\/393 par
+|switch|p2a: Exeggutor|Exeggutor|263\/393
+|
+|turn|26
+|
+|move|p2a: Exeggutor|Leech Seed|p1a: Overeasy|[miss]
+|-miss|p2a: Exeggutor
+|move|p1a: Overeasy|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|211\/393
+|
+|turn|27
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Overeasy|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|369\/523
+|
+|turn|28
+|
+|move|p2a: Snorlax|Earthquake|p1a: Overeasy
+|-resisted|p1a: Overeasy
+|-damage|p1a: Overeasy|246\/393 par
+|move|p1a: Overeasy|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|203\/523
+|-unboost|p2a: Snorlax|spd|1
+|-unboost|p2a: Snorlax|spa|1
+|
+|turn|29
+|
+|switch|p1a: Prowler|Gengar|323\/323 slp
+|move|p2a: Snorlax|Body Slam|p1a: Prowler
+|-immune|p1a: Prowler|[msg]
+|
+|turn|30
+|
+|cant|p1a: Prowler|slp
+|move|p2a: Snorlax|Earthquake|p1a: Prowler
+|-supereffective|p1a: Prowler
+|-damage|p1a: Prowler|113\/323 slp
+|
+|turn|31
+|
+|switch|p1a: Patrick|Starmie|189\/323
+|switch|p2a: Golem|Golem|363\/363
+|
+|turn|32
+|
+|switch|p2a: Exeggutor|Exeggutor|211\/393
+|move|p1a: Patrick|Blizzard|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|50\/393
+|
+|turn|33
+|
+|move|p1a: Patrick|Blizzard|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|
+|switch|p2a: Raichu|Raichu|285\/323
+|turn|34
+|
+|switch|p1a: Overeasy|Exeggutor|246\/393 par
+|move|p2a: Raichu|Body Slam|p1a: Overeasy
+|-damage|p1a: Overeasy|172\/393 par
+|
+|turn|35
+|
+|switch|p2a: Snorlax|Snorlax|203\/523
+|cant|p1a: Overeasy|par
+|
+|turn|36
+|
+|move|p2a: Snorlax|Body Slam|p1a: Overeasy
+|-damage|p1a: Overeasy|58\/393 par
+|move|p1a: Overeasy|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|35\/523
+|
+|turn|37
+|
+|move|p2a: Snorlax|Body Slam|p1a: Overeasy
+|-damage|p1a: Overeasy|0 fnt
+|faint|p1a: Overeasy
+|
+|
+|switch|p1a: Patrick|Starmie|189\/323
+|turn|38
+|
+|move|p1a: Patrick|Thunderbolt|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|
+|switch|p2a: Raichu|Raichu|285\/323
+|turn|39
+|
+|switch|p1a: Prowler|Gengar|113\/323 slp
+|move|p2a: Raichu|Body Slam|p1a: Prowler
+|-immune|p1a: Prowler|[msg]
+|
+|turn|40
+|
+|cant|p1a: Prowler|slp
+|-curestatus|p1a: Prowler|slp
+|move|p2a: Raichu|Thunderbolt|p1a: Prowler
+|-damage|p1a: Prowler|20\/323
+|
+|turn|41
+|
+|move|p1a: Prowler|Explosion|p2a: Raichu
+|-damage|p2a: Raichu|8\/323
+|faint|p1a: Prowler
+|
+|switch|p1a: RBR|Tauros|353\/353
+|turn|42
+|
+|move|p1a: RBR|Earthquake|p2a: Raichu
+|-crit|p2a: Raichu
+|-supereffective|p2a: Raichu
+|-damage|p2a: Raichu|0 fnt
+|faint|p2a: Raichu
+|
+|
+|switch|p2a: Golem|Golem|363\/363
+|turn|43
+|
+|move|p1a: RBR|Blizzard|p2a: Golem
+|-crit|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|
+|
+|switch|p2a: Gengar|Gengar|323\/323 slp
+|turn|44
+|
+|cant|p2a: Gengar|slp
+|move|p1a: RBR|Earthquake|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|124\/323 slp
+|
+|turn|45
+|
+|move|p1a: RBR|Earthquake|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|win|J. hegg's beard
+|raw|Ladder updating...
+|raw|J. hegg&apos;s beard's rating: 1264 &rarr; <strong>1278<\/strong><br \/>(+14 for winning)
+|raw|Airfoil's rating: 1097 &rarr; <strong>1084<\/strong><br \/>(-13 for losing)
+|chat|J. hegg's beard|gg
+|leave|J. hegg's beard
+|player|p1

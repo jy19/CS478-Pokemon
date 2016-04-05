@@ -1,0 +1,276 @@
+﻿|join|Praj.pran
+|join|Enigami
+|player|p1|Praj.pran|169
+|player|p2|Enigami|1
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: lead|Zapdos|383\/383
+|switch|p2a: Jolteon|Jolteon|333\/333
+|turn|1
+|c|★Praj.pran|Hf
+|c|★Enigami|You too.
+|
+|move|p2a: Jolteon|Thunder Wave|p1a: lead
+|-status|p1a: lead|par
+|move|p1a: lead|Light Screen|p1a: lead
+|-start|p1a: lead|Light Screen
+|
+|turn|2
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: lead
+|-crit|p1a: lead
+|-damage|p1a: lead|200\/383 par
+|move|p1a: lead|Drill Peck|p2a: Jolteon
+|-resisted|p2a: Jolteon
+|-damage|p2a: Jolteon|273\/333
+|
+|turn|3
+|
+|switch|p1a: breaker 1|Sandslash|353\/353
+|move|p2a: Jolteon|Thunderbolt|p1a: breaker 1
+|-immune|p1a: breaker 1|[msg]
+|
+|turn|4
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: breaker 1|Earthquake|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|325\/393
+|
+|turn|5
+|
+|switch|p1a: lead|Zapdos|200\/383 par
+|move|p2a: Exeggutor|Sleep Powder|p1a: lead|[miss]
+|-miss|p2a: Exeggutor
+|
+|turn|6
+|
+|switch|p2a: Jolteon|Jolteon|273\/333
+|cant|p1a: lead|par
+|
+|turn|7
+|
+|switch|p2a: Exeggutor|Exeggutor|325\/393
+|switch|p1a: breaker 1|Sandslash|353\/353
+|
+|turn|8
+|
+|switch|p1a: lead|Zapdos|200\/383 par
+|move|p2a: Exeggutor|Psychic|p1a: lead
+|-damage|p1a: lead|90\/383 par
+|
+|turn|9
+|
+|move|p2a: Exeggutor|Psychic|p1a: lead
+|-damage|p1a: lead|0 fnt
+|faint|p1a: lead
+|
+|switch|p1a: utility|Exeggutor|393\/393
+|turn|10
+|
+|move|p1a: utility|Sleep Powder|p2a: Exeggutor|[miss]
+|-miss|p1a: utility
+|move|p2a: Exeggutor|Sleep Powder|p1a: utility
+|-status|p1a: utility|slp
+|
+|turn|11
+|
+|switch|p2a: Moltres|Moltres|383\/383
+|cant|p1a: utility|slp
+|
+|turn|12
+|
+|switch|p1a: breaker 2|Kingler|313\/313
+|move|p2a: Moltres|Agility|p2a: Moltres
+|-boost|p2a: Moltres|spe|2
+|
+|turn|13
+|
+|move|p2a: Moltres|Fire Spin|p1a: breaker 2
+|-resisted|p1a: breaker 2
+|-damage|p1a: breaker 2|296\/313
+|-activate|p1a: breaker 2|move: Fire Spin|[of] p2a: Moltres
+|cant|p1a: breaker 2|partiallytrapped
+|
+|turn|14
+|
+|switch|p2a: Exeggutor|Exeggutor|325\/393
+|cant|p1a: breaker 2|partiallytrapped
+|
+|-end|p1a: breaker 2|Fire Spin|[partiallytrapped]
+|turn|15
+|
+|switch|p1a: utility|Exeggutor|393\/393 slp
+|move|p2a: Exeggutor|Stun Spore|p1a: utility
+|-fail|p1a: utility
+|
+|turn|16
+|
+|switch|p2a: Jolteon|Jolteon|273\/333
+|cant|p1a: utility|slp
+|
+|turn|17
+|
+|move|p2a: Jolteon|Pin Missile|p1a: utility
+|-supereffective|p1a: utility
+|-damage|p1a: utility|348\/393 slp
+|-damage|p1a: utility|303\/393 slp
+|-damage|p1a: utility|258\/393 slp
+|-hitcount|p1a: utility|3
+|cant|p1a: utility|slp
+|
+|turn|18
+|
+|switch|p1a: breaker 1|Sandslash|353\/353
+|move|p2a: Jolteon|Pin Missile|p1a: breaker 1
+|-crit|p1a: breaker 1
+|-damage|p1a: breaker 1|336\/353
+|-damage|p1a: breaker 1|319\/353
+|-damage|p1a: breaker 1|302\/353
+|-hitcount|p1a: breaker 1|3
+|
+|turn|19
+|
+|switch|p2a: Moltres|Moltres|383\/383
+|move|p1a: breaker 1|Rock Slide|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|125\/383
+|
+|turn|20
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: breaker 1|Rock Slide|p2a: Snorlax
+|-damage|p2a: Snorlax|444\/523
+|
+|turn|21
+|
+|move|p1a: breaker 1|Substitute|p1a: breaker 1
+|-start|p1a: breaker 1|Substitute
+|-damage|p1a: breaker 1|214\/353
+|move|p2a: Snorlax|Surf|p1a: breaker 1
+|-supereffective|p1a: breaker 1
+|-end|p1a: breaker 1|Substitute
+|
+|turn|22
+|
+|switch|p1a: speed|Tauros|353\/353
+|move|p2a: Snorlax|Body Slam|p1a: speed
+|-damage|p1a: speed|245\/353
+|
+|turn|23
+|
+|move|p1a: speed|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|310\/523
+|move|p2a: Snorlax|Counter|p1a: speed
+|-damage|p1a: speed|0 fnt
+|faint|p1a: speed
+|
+|switch|p1a: breaker 2|Kingler|296\/313
+|turn|24
+|
+|move|p1a: breaker 2|Swords Dance|p1a: breaker 2
+|-boost|p1a: breaker 2|atk|2
+|move|p2a: Snorlax|Self-Destruct|p1a: breaker 2
+|-crit|p1a: breaker 2
+|-damage|p1a: breaker 2|0 fnt
+|faint|p1a: breaker 2
+|faint|p2a: Snorlax
+|
+|switch|p1a: utility|Exeggutor|258\/393 slp
+|switch|p2a: Chansey|Chansey|703\/703
+|turn|25
+|
+|switch|p1a: sweeper|Porygon|333\/333
+|move|p2a: Chansey|Ice Beam|p1a: sweeper
+|-damage|p1a: sweeper|233\/333
+|
+|turn|26
+|
+|move|p2a: Chansey|Ice Beam|p1a: sweeper
+|-damage|p1a: sweeper|143\/333
+|move|p1a: sweeper|Tri Attack|p2a: Chansey
+|-damage|p2a: Chansey|504\/703
+|
+|turn|27
+|
+|move|p2a: Chansey|Ice Beam|p1a: sweeper
+|-damage|p1a: sweeper|54\/333
+|move|p1a: sweeper|Recover|p1a: sweeper
+|-heal|p1a: sweeper|220\/333
+|
+|turn|28
+|
+|move|p2a: Chansey|Thunder Wave|p1a: sweeper
+|-status|p1a: sweeper|par
+|move|p1a: sweeper|Recover|p1a: sweeper
+|-heal|p1a: sweeper|333\/333 par
+|
+|turn|29
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|move|p1a: sweeper|Ice Beam|p2a: Tauros
+|-damage|p2a: Tauros|279\/353
+|
+|turn|30
+|
+|move|p2a: Tauros|Body Slam|p1a: sweeper
+|-crit|p1a: sweeper
+|-damage|p1a: sweeper|106\/333 par
+|move|p1a: sweeper|Recover|p1a: sweeper
+|-heal|p1a: sweeper|272\/333 par
+|
+|turn|31
+|
+|move|p2a: Tauros|Body Slam|p1a: sweeper
+|-damage|p1a: sweeper|146\/333 par
+|move|p1a: sweeper|Recover|p1a: sweeper
+|-heal|p1a: sweeper|312\/333 par
+|
+|turn|32
+|
+|move|p2a: Tauros|Body Slam|p1a: sweeper
+|-damage|p1a: sweeper|196\/333 par
+|move|p1a: sweeper|Tri Attack|p2a: Tauros
+|-damage|p2a: Tauros|203\/353
+|
+|turn|33
+|
+|move|p2a: Tauros|Hyper Beam|p1a: sweeper
+|-damage|p1a: sweeper|0 fnt
+|faint|p1a: sweeper
+|
+|switch|p1a: breaker 1|Sandslash|214\/353
+|turn|34
+|
+|move|p2a: Tauros|Blizzard|p1a: breaker 1
+|-supereffective|p1a: breaker 1
+|-damage|p1a: breaker 1|0 fnt
+|faint|p1a: breaker 1
+|
+|switch|p1a: utility|Exeggutor|258\/393 slp
+|turn|35
+|c|★Praj.pran|gg
+|c|★Enigami|gg
+|
+|move|p2a: Tauros|Blizzard|p1a: utility
+|-supereffective|p1a: utility
+|-damage|p1a: utility|137\/393 slp
+|-curestatus|p1a: utility|slp
+|
+|turn|36
+|
+|move|p2a: Tauros|Hyper Beam|p1a: utility
+|-crit|p1a: utility
+|-damage|p1a: utility|0 fnt
+|faint|p1a: utility
+|
+|win|Enigami

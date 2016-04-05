@@ -1,0 +1,372 @@
+﻿|j|Pokeman dylan
+|j|samusco
+|player|p1|Pokeman dylan|163
+|player|p2|samusco|258
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|seed|11284,53547,17868,32563
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Slasha|Charizard|359\/359
+|switch|p2a: Jynx|Jynx|333\/333
+|turn|1
+|choice|move 1|move 1
+|
+|move|p1a: Slasha|Fire Blast|p2a: Jynx
+|-crit|p2a: Jynx
+|-supereffective|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|c|★Pokeman dylan|Crit
+|choice||switch 5
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|2
+|choice|move 1|move 1
+|
+|move|p2a: Tauros|Blizzard|p1a: Slasha
+|-supereffective|p1a: Slasha
+|-damage|p1a: Slasha|191\/359
+|move|p1a: Slasha|Fire Blast|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|57\/353
+|
+|turn|3
+|choice|move 3|move 1
+|
+|move|p2a: Tauros|Blizzard|p1a: Slasha
+|-crit|p1a: Slasha
+|-supereffective|p1a: Slasha
+|-damage|p1a: Slasha|0 fnt
+|faint|p1a: Slasha
+|choice|switch 4|
+|
+|switch|p1a: Spoonz|Alakazam|313\/313
+|turn|4
+|choice|move 4|move 3
+|
+|move|p1a: Spoonz|Hyper Beam|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|choice||switch 3
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|turn|5
+|choice|move 1|move 4
+|
+|move|p1a: Spoonz|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|335\/393
+|move|p2a: Exeggutor|Sleep Powder|p1a: Spoonz
+|-status|p1a: Spoonz|slp
+|
+|turn|6
+|choice|move 2|move 1
+|
+|-curestatus|p1a: Spoonz|slp
+|move|p2a: Exeggutor|Mega Drain|p1a: Spoonz
+|-crit|p1a: Spoonz
+|-damage|p1a: Spoonz|221\/313
+|-heal|p2a: Exeggutor|381\/393|[from] drain|[of] p1a: Spoonz
+|
+|turn|7
+|choice|move 4|move 4
+|
+|move|p1a: Spoonz|Hyper Beam|p2a: Exeggutor|[miss]
+|-miss|p1a: Spoonz
+|move|p2a: Exeggutor|Sleep Powder|p1a: Spoonz|[miss]
+|-miss|p2a: Exeggutor
+|
+|turn|8
+|choice|move 4|move 4
+|
+|move|p1a: Spoonz|Hyper Beam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|321\/393
+|move|p2a: Exeggutor|Sleep Powder|p1a: Spoonz
+|-status|p1a: Spoonz|slp
+|
+|turn|9
+|-mustrecharge|p1a: Spoonz
+|-mustrecharge|p1a: Spoonz
+|choice|move 1|move 1
+|
+|cant|p1a: Spoonz|recharge
+|move|p2a: Exeggutor|Mega Drain|p1a: Spoonz
+|-damage|p1a: Spoonz|177\/313 slp
+|-heal|p2a: Exeggutor|343\/393|[from] drain|[of] p1a: Spoonz
+|
+|turn|10
+|choice|move 4|switch 4
+|
+|switch|p2a: Golem|Golem|363\/363
+|cant|p1a: Spoonz|slp
+|
+|turn|11
+|j|Diegolh
+|l|Diegolh
+|choice|move 1|move 2
+|
+|-curestatus|p1a: Spoonz|slp
+|move|p2a: Golem|Earthquake|p1a: Spoonz
+|-damage|p1a: Spoonz|0 fnt
+|faint|p1a: Spoonz
+|choice|switch 2|
+|
+|switch|p1a: Dizzy|Poliwrath|383\/383
+|turn|12
+|choice|move 1|switch 4
+|
+|switch|p2a: Exeggutor|Exeggutor|343\/393
+|move|p1a: Dizzy|Hypnosis|p2a: Exeggutor
+|-status|p2a: Exeggutor|slp
+|
+|turn|13
+|choice|move 4|move 4
+|
+|move|p1a: Dizzy|Surf|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|304\/393 slp
+|cant|p2a: Exeggutor|slp
+|
+|turn|14
+|choice|move 4|move 4
+|
+|move|p1a: Dizzy|Surf|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|264\/393 slp
+|cant|p2a: Exeggutor|slp
+|
+|turn|15
+|choice|move 4|move 4
+|
+|move|p1a: Dizzy|Surf|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|229\/393 slp
+|cant|p2a: Exeggutor|slp
+|
+|turn|16
+|choice|move 4|move 1
+|
+|move|p1a: Dizzy|Surf|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|191\/393 slp
+|-curestatus|p2a: Exeggutor|slp
+|
+|turn|17
+|choice|move 1|move 1
+|
+|move|p1a: Dizzy|Hypnosis|p2a: Exeggutor
+|-status|p2a: Exeggutor|slp
+|cant|p2a: Exeggutor|slp
+|
+|turn|18
+|choice|move 4|move 1
+|
+|move|p1a: Dizzy|Surf|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|152\/393 slp
+|cant|p2a: Exeggutor|slp
+|
+|turn|19
+|choice|move 4|move 1
+|
+|move|p1a: Dizzy|Surf|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|111\/393 slp
+|-curestatus|p2a: Exeggutor|slp
+|
+|turn|20
+|choice|move 1|move 1
+|
+|move|p1a: Dizzy|Hypnosis|p2a: Exeggutor|[miss]
+|-miss|p1a: Dizzy
+|move|p2a: Exeggutor|Mega Drain|p1a: Dizzy
+|-supereffective|p1a: Dizzy
+|-damage|p1a: Dizzy|238\/383
+|-heal|p2a: Exeggutor|183\/393|[from] drain|[of] p1a: Dizzy
+|
+|turn|21
+|choice|move 1|move 3
+|
+|move|p1a: Dizzy|Hypnosis|p2a: Exeggutor
+|-status|p2a: Exeggutor|slp
+|-curestatus|p2a: Exeggutor|slp
+|
+|turn|22
+|choice|move 1|move 3
+|
+|move|p1a: Dizzy|Hypnosis|p2a: Exeggutor|[miss]
+|-miss|p1a: Dizzy
+|move|p2a: Exeggutor|Toxic|p1a: Dizzy
+|-status|p1a: Dizzy|tox
+|
+|turn|23
+|choice|move 1|move 2
+|
+|move|p1a: Dizzy|Hypnosis|p2a: Exeggutor|[miss]
+|-miss|p1a: Dizzy
+|-damage|p1a: Dizzy|215\/383 tox|[from] tox|[of] p2a: Exeggutor
+|move|p2a: Exeggutor|Leech Seed|p1a: Dizzy
+|-start|p1a: Dizzy|move: Leech Seed
+|
+|turn|24
+|choice|move 1|move 1
+|
+|move|p1a: Dizzy|Hypnosis|p2a: Exeggutor
+|-status|p2a: Exeggutor|slp
+|-damage|p1a: Dizzy|169\/383 tox|[from] tox|[of] p2a: Exeggutor
+|-damage|p1a: Dizzy|100\/383 tox|[from] Leech Seed|[of] p2a: Exeggutor
+|-heal|p2a: Exeggutor|252\/393 slp|[silent]
+|cant|p2a: Exeggutor|slp
+|
+|turn|25
+|choice|move 4|move 1
+|
+|move|p1a: Dizzy|Surf|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|216\/393 slp
+|-damage|p1a: Dizzy|8\/383 tox|[from] tox|[of] p2a: Exeggutor
+|-damage|p1a: Dizzy|0 fnt|[from] Leech Seed|[of] p2a: Exeggutor
+|-heal|p2a: Exeggutor|224\/393 slp|[silent]
+|faint|p1a: Dizzy
+|choice|switch 6|
+|
+|switch|p1a: The king|Nidoking|365\/365
+|turn|26
+|c|★Pokeman dylan|Gg
+|choice|move 4|move 4
+|
+|move|p1a: The king|Fire Blast|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|95\/393 slp
+|cant|p2a: Exeggutor|slp
+|
+|turn|27
+|choice|move 4|move 4
+|
+|move|p1a: The king|Fire Blast|p2a: Exeggutor|[miss]
+|-miss|p1a: The king
+|cant|p2a: Exeggutor|slp
+|
+|turn|28
+|choice|move 4|move 4
+|
+|move|p1a: The king|Fire Blast|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|choice||switch 4
+|
+|switch|p2a: Golem|Golem|363\/363
+|turn|29
+|choice|switch 5|move 1
+|
+|switch|p1a: Venus|Victreebel|363\/363
+|move|p2a: Golem|Rock Slide|p1a: Venus
+|-damage|p1a: Venus|245\/363
+|
+|turn|30
+|choice|move 2|move 2
+|
+|move|p1a: Venus|Mega Drain|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|113\/363
+|-heal|p1a: Venus|363\/363|[from] drain|[of] p2a: Golem
+|move|p2a: Golem|Earthquake|p1a: Venus
+|-damage|p1a: Venus|209\/363
+|
+|turn|31
+|j|Nugget Bitch
+|choice|move 2|switch 6
+|
+|switch|p2a: Electrode|Electrode|323\/323
+|move|p1a: Venus|Mega Drain|p2a: Electrode
+|-damage|p2a: Electrode|272\/323
+|-heal|p1a: Venus|234\/363|[from] drain|[of] p2a: Electrode
+|
+|turn|32
+|choice|move 1|move 3
+|
+|move|p2a: Electrode|Thunder Wave|p1a: Venus
+|-status|p1a: Venus|par
+|cant|p1a: Venus|par
+|
+|turn|33
+|j|Diegolh
+|choice|move 4|move 1
+|
+|move|p2a: Electrode|Light Screen|p2a: Electrode
+|-start|p2a: Electrode|Light Screen
+|move|p1a: Venus|Toxic|p2a: Electrode
+|-status|p2a: Electrode|tox
+|
+|turn|34
+|choice|move 2|move 2
+|
+|move|p2a: Electrode|Thunderbolt|p1a: Venus
+|-resisted|p1a: Venus
+|-damage|p1a: Venus|182\/363 par
+|-damage|p2a: Electrode|252\/323 tox|[from] tox|[of] p1a: Venus
+|move|p1a: Venus|Mega Drain|p2a: Electrode
+|-damage|p2a: Electrode|222\/323 tox
+|-heal|p1a: Venus|197\/363 par|[from] drain|[of] p2a: Electrode
+|
+|turn|35
+|choice|move 2|move 4
+|
+|move|p2a: Electrode|Explosion|p1a: Venus
+|-damage|p1a: Venus|0 fnt
+|faint|p1a: Venus
+|faint|p2a: Electrode
+|choice|switch 3|switch 6
+|
+|switch|p1a: Zapper|Raichu|323\/323
+|switch|p2a: Golem|Golem|113\/363
+|turn|36
+|choice|move 3|move 2
+|
+|move|p1a: Zapper|Skull Bash|p2a: Golem|[still]
+|-prepare|p1a: Zapper|Skull Bash|p2a: Golem
+|move|p2a: Golem|Earthquake|p1a: Zapper
+|-supereffective|p1a: Zapper
+|-damage|p1a: Zapper|0 fnt
+|faint|p1a: Zapper
+|choice|switch 5|
+|
+|switch|p1a: The king|Nidoking|365\/365
+|turn|37
+|choice|move 2|move 4
+|
+|move|p1a: The king|Earthquake|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|choice||switch 2
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|38
+|choice|move 2|move 1
+|
+|move|p2a: Gengar|Thunderbolt|p1a: The king
+|-immune|p1a: The king|[msg]
+|move|p1a: The king|Earthquake|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|win|Pokeman dylan
+|player|p1
+|player|p2
+|l|Nugget Bitch
+|l|samusco
+|c|★Pokeman dylan|Gg
+|l|Pokeman dylan
+|l|Diegolh
+|j|Pokeman dylan

@@ -1,0 +1,53 @@
+﻿|j|It was all a dream
+|j|Skibbid
+|player|p1|It was all a dream|229
+|player|p2|Skibbid|293
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|seed|10316,16055,1976,45649
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gamer|Starmie|323\/323
+|switch|p2a: Alakazam|Alakazam|313\/313
+|turn|1
+|choice|switch 3|move 3
+|
+|switch|p1a: Atta|Golem|363\/363
+|move|p2a: Alakazam|Thunder Wave|p1a: Atta
+|-immune|p1a: Atta|[msg]
+|
+|turn|2
+|choice|move 1|move 4
+|
+|move|p2a: Alakazam|Tri Attack|p1a: Atta
+|-crit|p1a: Atta
+|-resisted|p1a: Atta
+|-damage|p1a: Atta|331\/363
+|move|p1a: Atta|Body Slam|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-damage|p2a: Alakazam|96\/313
+|
+|turn|3
+|choice|move 2|switch 2
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|move|p1a: Atta|Earthquake|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|-message|Skibbid forfeited.
+|
+|win|It was all a dream
+|player|p1
+|player|p2
+|l|Skibbid
+|raw|It was all a dream's rating: 1000 &rarr; <strong>1051<\/strong><br \/>(+51 for winning)
+|raw|Skibbid's rating: 1103 &rarr; <strong>1070<\/strong><br \/>(-33 for losing)

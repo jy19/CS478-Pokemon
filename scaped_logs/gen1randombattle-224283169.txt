@@ -1,0 +1,258 @@
+﻿|join|gen1masterrony
+|join|blgh
+|player|p1|gen1masterrony|162
+|player|p2|blgh|135
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Exeggcute|Exeggcute, L96|310\/310
+|switch|p2a: Flareon|Flareon, L85|284\/284
+|turn|1
+|
+|move|p2a: Flareon|Fire Blast|p1a: Exeggcute
+|-supereffective|p1a: Exeggcute
+|-damage|p1a: Exeggcute|4\/310
+|-status|p1a: Exeggcute|brn
+|move|p1a: Exeggcute|Sleep Powder|p2a: Flareon
+|-status|p2a: Flareon|slp
+|-damage|p1a: Exeggcute|0 fnt|[from] brn|[of] p2a: Flareon
+|faint|p1a: Exeggcute
+|
+|switch|p1a: Lickitung|Lickitung, L85|327\/327
+|turn|2
+|
+|switch|p2a: Blastoise|Blastoise, L85|308\/308
+|move|p1a: Lickitung|Swords Dance|p1a: Lickitung
+|-boost|p1a: Lickitung|atk|2
+|
+|turn|3
+|
+|move|p2a: Blastoise|Hydro Pump|p1a: Lickitung|[miss]
+|-miss|p2a: Blastoise
+|move|p1a: Lickitung|Body Slam|p2a: Blastoise
+|-damage|p2a: Blastoise|195\/308
+|
+|turn|4
+|
+|move|p2a: Blastoise|Hydro Pump|p1a: Lickitung
+|-damage|p1a: Lickitung|180\/327
+|move|p1a: Lickitung|Body Slam|p2a: Blastoise
+|-damage|p2a: Blastoise|67\/308
+|-status|p2a: Blastoise|par
+|
+|turn|5
+|
+|move|p1a: Lickitung|Body Slam|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|
+|switch|p2a: Aerodactyl|Aerodactyl, L85|310\/310
+|turn|6
+|
+|move|p2a: Aerodactyl|Double-Edge|p1a: Lickitung
+|-damage|p1a: Lickitung|90\/327
+|-damage|p2a: Aerodactyl|288\/310|[from] recoil|[of] p1a: Lickitung
+|move|p1a: Lickitung|Body Slam|p2a: Aerodactyl
+|-resisted|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|204\/310
+|
+|turn|7
+|
+|move|p2a: Aerodactyl|Double-Edge|p1a: Lickitung
+|-damage|p1a: Lickitung|9\/327
+|-damage|p2a: Aerodactyl|184\/310|[from] recoil|[of] p1a: Lickitung
+|move|p1a: Lickitung|Hyper Beam|p2a: Aerodactyl
+|-resisted|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|47\/310
+|
+|turn|8
+|
+|move|p2a: Aerodactyl|Double-Edge|p1a: Lickitung
+|-damage|p1a: Lickitung|0 fnt
+|-damage|p2a: Aerodactyl|45\/310|[from] recoil|[of] p1a: Lickitung
+|faint|p1a: Lickitung
+|
+|switch|p1a: Kingler|Kingler, L85|267\/267
+|turn|9
+|
+|switch|p2a: Electrode|Electrode, L85|276\/276
+|move|p1a: Kingler|Crabhammer|p2a: Electrode
+|-crit|p2a: Electrode
+|-damage|p2a: Electrode|150\/276
+|
+|turn|10
+|
+|switch|p1a: Nidorino|Nidorino, L90|293\/293
+|move|p2a: Electrode|Thunderbolt|p1a: Nidorino
+|-damage|p1a: Nidorino|183\/293
+|
+|turn|11
+|
+|move|p2a: Electrode|Thunderbolt|p1a: Nidorino
+|-damage|p1a: Nidorino|67\/293
+|move|p1a: Nidorino|Blizzard|p2a: Electrode
+|-damage|p2a: Electrode|80\/276
+|
+|turn|12
+|
+|move|p2a: Electrode|Thunderbolt|p1a: Nidorino
+|-damage|p1a: Nidorino|0 fnt
+|faint|p1a: Nidorino
+|
+|switch|p1a: Arbok|Arbok, L85|276\/276
+|turn|13
+|
+|switch|p2a: Aerodactyl|Aerodactyl, L85|45\/310
+|move|p1a: Arbok|Body Slam|p2a: Aerodactyl
+|-crit|p2a: Aerodactyl
+|-resisted|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|faint|p2a: Aerodactyl
+|
+|switch|p2a: Rhydon|Rhydon, L79|328\/328
+|turn|14
+|
+|switch|p1a: Kingler|Kingler, L85|267\/267
+|move|p2a: Rhydon|Earthquake|p1a: Kingler
+|-damage|p1a: Kingler|167\/267
+|
+|turn|15
+|
+|switch|p2a: Slowpoke|Slowpoke, L96|368\/368
+|move|p1a: Kingler|Crabhammer|p2a: Slowpoke
+|-crit|p2a: Slowpoke
+|-resisted|p2a: Slowpoke
+|-damage|p2a: Slowpoke|288\/368
+|
+|turn|16
+|
+|move|p1a: Kingler|Swords Dance|p1a: Kingler
+|-boost|p1a: Kingler|atk|2
+|move|p2a: Slowpoke|Thunder Wave|p1a: Kingler
+|-status|p1a: Kingler|par
+|
+|turn|17
+|
+|move|p2a: Slowpoke|Amnesia|p2a: Slowpoke
+|-boost|p2a: Slowpoke|spd|2
+|-boost|p2a: Slowpoke|spa|2
+|move|p1a: Kingler|Body Slam|p2a: Slowpoke
+|-damage|p2a: Slowpoke|138\/368
+|-status|p2a: Slowpoke|par
+|
+|turn|18
+|
+|move|p1a: Kingler|Body Slam|p2a: Slowpoke
+|-damage|p2a: Slowpoke|0 fnt
+|faint|p2a: Slowpoke
+|
+|switch|p2a: Electrode|Electrode, L85|80\/276
+|turn|19
+|
+|switch|p1a: Arbok|Arbok, L85|276\/276
+|move|p2a: Electrode|Thunderbolt|p1a: Arbok
+|-damage|p1a: Arbok|162\/276
+|
+|turn|20
+|
+|switch|p2a: Rhydon|Rhydon, L79|328\/328
+|move|p1a: Arbok|Glare|p2a: Rhydon
+|-status|p2a: Rhydon|par
+|
+|turn|21
+|
+|move|p1a: Arbok|Hyper Beam|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|286\/328 par
+|move|p2a: Rhydon|Earthquake|p1a: Arbok
+|-supereffective|p1a: Arbok
+|-damage|p1a: Arbok|0 fnt
+|faint|p1a: Arbok
+|
+|switch|p1a: Kingler|Kingler, L85|167\/267 par
+|turn|22
+|
+|switch|p2a: Flareon|Flareon, L85|284\/284 slp
+|move|p1a: Kingler|Crabhammer|p2a: Flareon|[miss]
+|-miss|p1a: Kingler
+|
+|turn|23
+|
+|cant|p2a: Flareon|slp
+|move|p1a: Kingler|Crabhammer|p2a: Flareon
+|-crit|p2a: Flareon
+|-supereffective|p2a: Flareon
+|-damage|p2a: Flareon|76\/284 slp
+|
+|turn|24
+|
+|cant|p2a: Flareon|slp
+|move|p1a: Kingler|Crabhammer|p2a: Flareon
+|-crit|p2a: Flareon
+|-supereffective|p2a: Flareon
+|-damage|p2a: Flareon|0 fnt
+|faint|p2a: Flareon
+|
+|switch|p2a: Electrode|Electrode, L85|80\/276
+|turn|25
+|
+|switch|p1a: Arcanine|Arcanine, L85|327\/327
+|move|p2a: Electrode|Thunderbolt|p1a: Arcanine
+|-damage|p1a: Arcanine|225\/327
+|
+|turn|26
+|
+|switch|p2a: Rhydon|Rhydon, L79|286\/328 par
+|move|p1a: Arcanine|Reflect|p1a: Arcanine
+|-start|p1a: Arcanine|Reflect
+|
+|turn|27
+|
+|move|p1a: Arcanine|Fire Blast|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|193\/328 par
+|cant|p2a: Rhydon|par
+|
+|turn|28
+|
+|move|p1a: Arcanine|Fire Blast|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|103\/328 par
+|cant|p2a: Rhydon|par
+|
+|turn|29
+|
+|move|p1a: Arcanine|Fire Blast|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|17\/328 par
+|move|p2a: Rhydon|Earthquake|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|112\/327
+|
+|turn|30
+|
+|move|p1a: Arcanine|Body Slam|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|
+|switch|p2a: Electrode|Electrode, L85|80\/276
+|turn|31
+|
+|move|p2a: Electrode|Thunderbolt|p1a: Arcanine
+|-damage|p1a: Arcanine|17\/327
+|move|p1a: Arcanine|Fire Blast|p2a: Electrode
+|-damage|p2a: Electrode|0 fnt
+|faint|p2a: Electrode
+|
+|win|gen1masterrony
+|raw|Ladder updating...
+|raw|gen1masterrony's rating: 1241 &rarr; <strong>1260<\/strong><br \/>(+19 for winning)
+|raw|blgh's rating: 1159 &rarr; <strong>1140<\/strong><br \/>(-19 for losing)
+|c|★blgh|gg

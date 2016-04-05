@@ -1,0 +1,367 @@
+﻿|j|MALESANI
+|j|Daddy's Milk
+|player|p1|MALESANI|238
+|player|p2|Daddy's Milk|43
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|8129,49897,8721,46623
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Magmar|Magmar, L90|300\/300
+|switch|p2a: Charmander|Charmander, L96|270\/270
+|turn|1
+|choice|move 3|move 3
+|
+|move|p1a: Magmar|Body Slam|p2a: Charmander
+|-damage|p2a: Charmander|178\/270
+|move|p2a: Charmander|Slash|p1a: Magmar
+|-crit|p1a: Magmar
+|-damage|p1a: Magmar|196\/300
+|
+|turn|2
+|choice|move 3|move 3
+|
+|move|p1a: Magmar|Body Slam|p2a: Charmander
+|-damage|p2a: Charmander|85\/270
+|move|p2a: Charmander|Slash|p1a: Magmar
+|-crit|p1a: Magmar
+|-damage|p1a: Magmar|86\/300
+|
+|turn|3
+|choice|move 3|move 3
+|
+|move|p1a: Magmar|Body Slam|p2a: Charmander
+|-damage|p2a: Charmander|0 fnt
+|faint|p2a: Charmander
+|choice||switch 3
+|
+|switch|p2a: Krabby|Krabby, L96|252\/252
+|turn|4
+|choice|switch 2|move 1
+|
+|switch|p1a: Slowpoke|Slowpoke, L96|368\/368
+|move|p2a: Krabby|Body Slam|p1a: Slowpoke
+|-damage|p1a: Slowpoke|279\/368
+|
+|turn|5
+|choice|move 1|move 1
+|
+|move|p2a: Krabby|Body Slam|p1a: Slowpoke
+|-damage|p1a: Slowpoke|199\/368
+|move|p1a: Slowpoke|Thunder Wave|p2a: Krabby
+|-status|p2a: Krabby|par
+|
+|turn|6
+|choice|move 2|move 1
+|
+|move|p1a: Slowpoke|Amnesia|p1a: Slowpoke
+|-boost|p1a: Slowpoke|spd|2
+|-boost|p1a: Slowpoke|spa|2
+|move|p2a: Krabby|Body Slam|p1a: Slowpoke
+|-damage|p1a: Slowpoke|115\/368
+|
+|turn|7
+|choice|move 3|move 1
+|
+|move|p1a: Slowpoke|Rest|p1a: Slowpoke
+|-status|p1a: Slowpoke|slp
+|-heal|p1a: Slowpoke|368\/368 slp|[silent]
+|-status|p1a: Slowpoke|slp|[from] move: Rest
+|move|p2a: Krabby|Body Slam|p1a: Slowpoke
+|-damage|p1a: Slowpoke|285\/368 slp
+|
+|turn|8
+|choice|move 1|move 3
+|
+|cant|p1a: Slowpoke|slp
+|move|p2a: Krabby|Swords Dance|p2a: Krabby
+|-boost|p2a: Krabby|atk|2
+|
+|turn|9
+|choice|move 4|move 1
+|
+|-curestatus|p1a: Slowpoke|slp
+|cant|p2a: Krabby|par
+|
+|turn|10
+|choice|move 4|move 1
+|
+|move|p1a: Slowpoke|Surf|p2a: Krabby
+|-resisted|p2a: Krabby
+|-damage|p2a: Krabby|127\/252 par
+|move|p2a: Krabby|Body Slam|p1a: Slowpoke
+|-crit|p1a: Slowpoke
+|-damage|p1a: Slowpoke|124\/368
+|
+|turn|11
+|choice|move 3|move 1
+|
+|move|p1a: Slowpoke|Rest|p1a: Slowpoke
+|-status|p1a: Slowpoke|slp
+|-heal|p1a: Slowpoke|368\/368 slp|[silent]
+|-status|p1a: Slowpoke|slp|[from] move: Rest
+|cant|p2a: Krabby|par
+|
+|turn|12
+|j|Honest Tree
+|choice|switch 4|move 1
+|
+|switch|p1a: Gengar|Gengar, L79|257\/257
+|move|p2a: Krabby|Body Slam|p1a: Gengar
+|-immune|p1a: Gengar|[msg]
+|
+|turn|13
+|choice|move 3|move 4
+|
+|move|p1a: Gengar|Thunderbolt|p2a: Krabby
+|-supereffective|p2a: Krabby
+|-damage|p2a: Krabby|0 fnt
+|faint|p2a: Krabby
+|choice||switch 4
+|
+|switch|p2a: Butterfree|Butterfree, L90|291\/291
+|turn|14
+|choice|move 1|move 4
+|
+|move|p1a: Gengar|Hypnosis|p2a: Butterfree
+|-status|p2a: Butterfree|slp
+|cant|p2a: Butterfree|slp
+|
+|turn|15
+|choice|switch 4|move 1
+|
+|switch|p1a: Slowpoke|Slowpoke, L96|368\/368 slp
+|cant|p2a: Butterfree|slp
+|
+|turn|16
+|choice|move 1|move 1
+|
+|-curestatus|p2a: Butterfree|slp
+|cant|p1a: Slowpoke|slp
+|
+|turn|17
+|choice|switch 2|move 1
+|
+|switch|p1a: Magmar|Magmar, L90|86\/300
+|move|p2a: Butterfree|Psychic|p1a: Magmar
+|-damage|p1a: Magmar|29\/300
+|
+|turn|18
+|choice|move 4|move 1
+|
+|move|p1a: Magmar|Fire Blast|p2a: Butterfree
+|-supereffective|p2a: Butterfree
+|-damage|p2a: Butterfree|9\/291
+|move|p2a: Butterfree|Psychic|p1a: Magmar
+|-damage|p1a: Magmar|0 fnt
+|faint|p1a: Magmar
+|choice|switch 4|
+|
+|switch|p1a: Gengar|Gengar, L79|257\/257
+|turn|19
+|choice|move 3|move 4
+|
+|move|p1a: Gengar|Thunderbolt|p2a: Butterfree
+|-supereffective|p2a: Butterfree
+|-damage|p2a: Butterfree|0 fnt
+|faint|p2a: Butterfree
+|choice||switch 2
+|
+|switch|p2a: Snorlax|Snorlax, L79|415\/415
+|turn|20
+|choice|move 1|move 1
+|
+|move|p1a: Gengar|Hypnosis|p2a: Snorlax
+|-status|p2a: Snorlax|slp
+|cant|p2a: Snorlax|slp
+|
+|turn|21
+|choice|switch 2|move 1
+|
+|switch|p1a: Slowpoke|Slowpoke, L96|368\/368 slp
+|cant|p2a: Snorlax|slp
+|
+|turn|22
+|choice|move 1|move 1
+|
+|cant|p2a: Snorlax|slp
+|-curestatus|p1a: Slowpoke|slp
+|
+|turn|23
+|choice|move 2|move 1
+|
+|-curestatus|p2a: Snorlax|slp
+|move|p1a: Slowpoke|Amnesia|p1a: Slowpoke
+|-boost|p1a: Slowpoke|spd|2
+|-boost|p1a: Slowpoke|spa|2
+|
+|turn|24
+|choice|move 1|move 1
+|
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|move|p1a: Slowpoke|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|
+|turn|25
+|choice|move 2|move 3
+|
+|move|p1a: Slowpoke|Amnesia|p1a: Slowpoke
+|-boost|p1a: Slowpoke|spd|2
+|-boost|p1a: Slowpoke|spa|2
+|move|p2a: Snorlax|Thunderbolt|p1a: Slowpoke
+|-supereffective|p1a: Slowpoke
+|-damage|p1a: Slowpoke|286\/368
+|
+|turn|26
+|choice|move 4|move 4
+|
+|move|p1a: Slowpoke|Surf|p2a: Snorlax
+|-damage|p2a: Snorlax|265\/415 par
+|move|p2a: Snorlax|Body Slam|p1a: Slowpoke
+|-damage|p1a: Slowpoke|189\/368
+|
+|turn|27
+|choice|move 4|move 4
+|
+|move|p1a: Slowpoke|Surf|p2a: Snorlax
+|-damage|p2a: Snorlax|119\/415 par
+|move|p2a: Snorlax|Body Slam|p1a: Slowpoke
+|-damage|p1a: Slowpoke|92\/368
+|
+|turn|28
+|choice|move 4|move 4
+|
+|move|p1a: Slowpoke|Surf|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|choice||switch 5
+|
+|switch|p2a: Golem|Golem, L79|288\/288
+|turn|29
+|choice|move 4|move 3
+|
+|move|p2a: Golem|Earthquake|p1a: Slowpoke
+|-damage|p1a: Slowpoke|0 fnt
+|faint|p1a: Slowpoke
+|choice|switch 5|
+|
+|switch|p1a: Weepinbell|Weepinbell, L85|284\/284
+|turn|30
+|choice|move 1|switch 6
+|
+|switch|p2a: Gengar|Gengar, L79|257\/257
+|move|p1a: Weepinbell|Razor Leaf|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|233\/257
+|
+|turn|31
+|choice|move 1|move 1
+|
+|move|p2a: Gengar|Hypnosis|p1a: Weepinbell|[miss]
+|-miss|p2a: Gengar
+|move|p1a: Weepinbell|Razor Leaf|p2a: Gengar
+|-crit|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|187\/257
+|
+|turn|32
+|choice|move 1|move 1
+|
+|move|p2a: Gengar|Hypnosis|p1a: Weepinbell|[miss]
+|-miss|p2a: Gengar
+|move|p1a: Weepinbell|Razor Leaf|p2a: Gengar
+|-crit|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|146\/257
+|
+|turn|33
+|choice|move 1|move 1
+|
+|move|p2a: Gengar|Hypnosis|p1a: Weepinbell|[miss]
+|-miss|p2a: Gengar
+|move|p1a: Weepinbell|Razor Leaf|p2a: Gengar
+|-crit|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|104\/257
+|
+|turn|34
+|c|★Daddy's Milk|holy lluck
+|choice|move 1|move 3
+|
+|move|p2a: Gengar|Psychic|p1a: Weepinbell
+|-supereffective|p1a: Weepinbell
+|-damage|p1a: Weepinbell|145\/284
+|move|p1a: Weepinbell|Razor Leaf|p2a: Gengar
+|-crit|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|62\/257
+|
+|turn|35
+|choice|move 1|move 3
+|
+|move|p2a: Gengar|Psychic|p1a: Weepinbell
+|-supereffective|p1a: Weepinbell
+|-damage|p1a: Weepinbell|18\/284
+|move|p1a: Weepinbell|Razor Leaf|p2a: Gengar
+|-crit|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|18\/257
+|
+|turn|36
+|choice|move 1|move 3
+|
+|move|p2a: Gengar|Psychic|p1a: Weepinbell
+|-supereffective|p1a: Weepinbell
+|-damage|p1a: Weepinbell|0 fnt
+|faint|p1a: Weepinbell
+|choice|switch 3|
+|
+|switch|p1a: Flareon|Flareon, L90|300\/300
+|turn|37
+|choice|move 1|move 1
+|
+|move|p2a: Gengar|Hypnosis|p1a: Flareon
+|-status|p1a: Flareon|slp
+|cant|p1a: Flareon|slp
+|
+|turn|38
+|choice|switch 6|switch 6
+|
+|switch|p2a: Golem|Golem, L79|288\/288
+|switch|p1a: Golduck|Golduck, L85|310\/310
+|
+|turn|39
+|choice|move 4|move 1
+|
+|move|p1a: Golduck|Surf|p2a: Golem
+|-crit|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|c|★Daddy's Milk|lucky ass puss
+|choice||switch 6
+|
+|switch|p2a: Gengar|Gengar, L79|18\/257
+|turn|40
+|c|★MALESANI|lol
+|choice|move 4|move 4
+|
+|move|p2a: Gengar|Thunderbolt|p1a: Golduck
+|-supereffective|p1a: Golduck
+|-damage|p1a: Golduck|163\/310
+|move|p1a: Golduck|Surf|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|win|MALESANI
+|player|p1
+|player|p2
+|raw|MALESANI's rating: 1533 &rarr; <strong>1541<\/strong><br \/>(+8 for winning)
+|raw|Daddy&apos;s Milk's rating: 1281 &rarr; <strong>1271<\/strong><br \/>(-10 for losing)

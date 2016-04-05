@@ -1,0 +1,268 @@
+﻿|join|Fisher Master
+|join|MALESANI
+|player|p1|Fisher Master|266
+|player|p2|MALESANI|238
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|14852,3594,54338,17464
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Slowbro|Slowbro, L79|312\/312
+|switch|p2a: Flareon|Flareon, L90|300\/300
+|turn|1
+|choice|move Surf|move 4
+|
+|move|p2a: Flareon|Body Slam|p1a: Slowbro
+|-damage|p1a: Slowbro|236\/312
+|-status|p1a: Slowbro|par
+|move|p1a: Slowbro|Surf|p2a: Flareon
+|-crit|p2a: Flareon
+|-supereffective|p2a: Flareon
+|-damage|p2a: Flareon|48\/300
+|
+|turn|2
+|choice|move Surf|move 1
+|
+|move|p2a: Flareon|Hyper Beam|p1a: Slowbro
+|-damage|p1a: Slowbro|98\/312 par
+|cant|p1a: Slowbro|par
+|
+|turn|3
+|-mustrecharge|p2a: Flareon
+|-mustrecharge|p2a: Flareon
+|choice|move Surf|move 1
+|
+|cant|p2a: Flareon|recharge
+|move|p1a: Slowbro|Surf|p2a: Flareon
+|-supereffective|p2a: Flareon
+|-damage|p2a: Flareon|0 fnt
+|faint|p2a: Flareon
+|choice||switch 6
+|
+|switch|p2a: Persian|Persian, L79|265\/265
+|turn|4
+|choice|move Thunder Wave|move 2
+|
+|move|p2a: Persian|Thunderbolt|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|choice|switch 3|
+|
+|switch|p1a: Golem|Golem, L79|288\/288
+|turn|5
+|choice|move Earthquake|move 3
+|
+|move|p2a: Persian|Bubble Beam|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|104\/288
+|move|p1a: Golem|Earthquake|p2a: Persian
+|-damage|p2a: Persian|123\/265
+|
+|turn|6
+|choice|switch 4|move 3
+|
+|switch|p1a: Rattata|Rattata, L96|252\/252
+|move|p2a: Persian|Bubble Beam|p1a: Rattata
+|-damage|p1a: Rattata|203\/252
+|
+|turn|7
+|choice|move Body Slam|move 1
+|
+|move|p2a: Persian|Slash|p1a: Rattata
+|-crit|p1a: Rattata
+|-damage|p1a: Rattata|47\/252
+|move|p1a: Rattata|Body Slam|p2a: Persian
+|-damage|p2a: Persian|8\/265
+|
+|turn|8
+|choice|move Body Slam|move 1
+|
+|move|p2a: Persian|Slash|p1a: Rattata
+|-crit|p1a: Rattata
+|-damage|p1a: Rattata|0 fnt
+|faint|p1a: Rattata
+|choice|switch 5|
+|
+|switch|p1a: Raichu|Raichu, L85|276\/276
+|turn|9
+|choice|move Surf|switch 3
+|
+|switch|p2a: Magikarp|Magikarp, L99|240\/240
+|move|p1a: Raichu|Surf|p2a: Magikarp
+|-resisted|p2a: Magikarp
+|-damage|p2a: Magikarp|183\/240
+|
+|turn|10
+|choice|move Thunder|move 1
+|
+|move|p2a: Magikarp|Dragon Rage|p1a: Raichu
+|-damage|p1a: Raichu|236\/276
+|move|p1a: Raichu|Thunder|p2a: Magikarp|[miss]
+|-miss|p1a: Raichu
+|
+|turn|11
+|choice|move Thunder|move 1
+|
+|move|p2a: Magikarp|Dragon Rage|p1a: Raichu
+|-damage|p1a: Raichu|196\/276
+|move|p1a: Raichu|Thunder|p2a: Magikarp|[miss]
+|-miss|p1a: Raichu
+|
+|turn|12
+|choice|move Thunder|move 1
+|
+|move|p2a: Magikarp|Dragon Rage|p1a: Raichu
+|-damage|p1a: Raichu|156\/276
+|move|p1a: Raichu|Thunder|p2a: Magikarp|[miss]
+|-miss|p1a: Raichu
+|
+|turn|13
+|choice|move Thunder|move 1
+|
+|move|p2a: Magikarp|Dragon Rage|p1a: Raichu
+|-damage|p1a: Raichu|116\/276
+|move|p1a: Raichu|Thunder|p2a: Magikarp
+|-supereffective|p2a: Magikarp
+|-damage|p2a: Magikarp|0 fnt
+|faint|p2a: Magikarp
+|choice||switch 4
+|
+|switch|p2a: Exeggutor|Exeggutor, L79|312\/312
+|turn|14
+|choice|move Thunder Wave|move 3
+|
+|move|p1a: Raichu|Thunder Wave|p2a: Exeggutor
+|-status|p2a: Exeggutor|par
+|cant|p2a: Exeggutor|par
+|
+|turn|15
+|choice|move Surf|move 3
+|
+|move|p1a: Raichu|Surf|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|260\/312 par
+|move|p2a: Exeggutor|Psychic|p1a: Raichu
+|-crit|p1a: Raichu
+|-damage|p1a: Raichu|0 fnt
+|faint|p1a: Raichu
+|choice|switch 2|
+|
+|switch|p1a: Magmar|Magmar, L90|300\/300
+|turn|16
+|choice|move Fire Blast|move 1
+|
+|move|p1a: Magmar|Fire Blast|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|26\/312 par
+|move|p2a: Exeggutor|Sleep Powder|p1a: Magmar
+|-status|p1a: Magmar|slp
+|
+|turn|17
+|choice|move Confuse Ray|switch 3
+|
+|switch|p2a: Persian|Persian, L79|8\/265
+|cant|p1a: Magmar|slp
+|
+|turn|18
+|choice|switch 6|move 3
+|
+|switch|p1a: Butterfree|Butterfree, L90|291\/291
+|move|p2a: Persian|Bubble Beam|p1a: Butterfree
+|-damage|p1a: Butterfree|259\/291
+|
+|turn|19
+|choice|move Mega Drain|switch 5
+|
+|switch|p2a: Ditto|Ditto, L99|296\/296
+|move|p1a: Butterfree|Mega Drain|p2a: Ditto
+|-damage|p2a: Ditto|262\/296
+|-heal|p1a: Butterfree|276\/291|[from] drain|[of] p2a: Ditto
+|
+|turn|20
+|choice|move Sleep Powder|move 1
+|
+|move|p1a: Butterfree|Sleep Powder|p2a: Ditto|[miss]
+|-miss|p1a: Butterfree
+|move|p2a: Ditto|Transform|p1a: Butterfree
+|-transform|p2a: Ditto|p1a: Butterfree
+|
+|turn|21
+|choice|move Sleep Powder|move 2
+|
+|move|p1a: Butterfree|Sleep Powder|p2a: Ditto
+|-status|p2a: Ditto|slp
+|cant|p2a: Ditto|slp
+|
+|turn|22
+|choice|move Psychic|switch 3
+|
+|switch|p2a: Exeggutor|Exeggutor, L79|26\/312 par
+|move|p1a: Butterfree|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|choice||switch 2
+|
+|switch|p2a: Graveler|Graveler, L85|267\/267
+|turn|23
+|choice|move Stun Spore|move 1
+|
+|move|p1a: Butterfree|Stun Spore|p2a: Graveler
+|-status|p2a: Graveler|par
+|move|p2a: Graveler|Explosion|p1a: Butterfree
+|-damage|p1a: Butterfree|0 fnt
+|faint|p1a: Butterfree
+|faint|p2a: Graveler
+|choice|switch 6|switch 5
+|
+|switch|p2a: Persian|Persian, L79|8\/265
+|switch|p1a: Magmar|Magmar, L90|300\/300 slp
+|turn|24
+|choice|move Confuse Ray|move 3
+|
+|move|p2a: Persian|Bubble Beam|p1a: Magmar
+|-crit|p1a: Magmar
+|-supereffective|p1a: Magmar
+|-damage|p1a: Magmar|177\/300 slp
+|cant|p1a: Magmar|slp
+|
+|turn|25
+|choice|move Confuse Ray|move 1
+|
+|move|p2a: Persian|Slash|p1a: Magmar
+|-crit|p1a: Magmar
+|-damage|p1a: Magmar|42\/300 slp
+|cant|p1a: Magmar|slp
+|
+|turn|26
+|choice|move Confuse Ray|move 3
+|
+|move|p2a: Persian|Bubble Beam|p1a: Magmar
+|-crit|p1a: Magmar
+|-supereffective|p1a: Magmar
+|-damage|p1a: Magmar|0 fnt
+|faint|p1a: Magmar
+|choice|switch 4|
+|
+|switch|p1a: Golem|Golem, L79|104\/288
+|turn|27
+|choice|move Earthquake|move 3
+|
+|move|p2a: Persian|Bubble Beam|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|0 fnt
+|faint|p1a: Golem
+|
+|win|MALESANI
+|raw|Fisher Master's rating: 1210 &rarr; <strong>1192<\/strong><br \/>(-18 for losing)
+|raw|MALESANI's rating: 1316 &rarr; <strong>1330<\/strong><br \/>(+14 for winning)
+|leave|Fisher Master
+|player|p1

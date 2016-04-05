@@ -1,0 +1,37 @@
+﻿|join|Subject Platinum
+|join|coolio to extreme
+|player|p1|Subject Platinum|70
+|player|p2|coolio to extreme|74
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Mewtwo|Mewtwo, L70|293\/293
+|switch|p2a: Shellder|Shellder, L96|252\/252
+|turn|1
+|
+|move|p1a: Mewtwo|Amnesia|p1a: Mewtwo
+|-boost|p1a: Mewtwo|spd|2
+|-boost|p1a: Mewtwo|spa|2
+|move|p2a: Shellder|Surf|p1a: Mewtwo
+|-damage|p1a: Mewtwo|258\/293
+|
+|turn|2
+|
+|move|p1a: Mewtwo|Amnesia|p1a: Mewtwo
+|-boost|p1a: Mewtwo|spd|2
+|-boost|p1a: Mewtwo|spa|2
+|move|p2a: Shellder|Supersonic|p1a: Mewtwo|[miss]
+|-miss|p2a: Shellder
+|
+|turn|3
+|-message|coolio to extreme forfeited.
+|
+|win|Subject Platinum
+|leave|coolio to extreme
+|player|p2

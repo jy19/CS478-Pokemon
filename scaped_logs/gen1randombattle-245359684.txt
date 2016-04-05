@@ -1,0 +1,262 @@
+﻿|join|Exons
+|join|andreWandres
+|player|p1|Exons|43
+|player|p2|andreWandres|25
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Dugtrio|Dugtrio, L85|233\/233
+|switch|p2a: Dewgong|Dewgong, L85|327\/327
+|turn|1
+|
+|move|p1a: Dugtrio|Sand Attack|p2a: Dewgong
+|-unboost|p2a: Dewgong|accuracy|1
+|move|p2a: Dewgong|Blizzard|p1a: Dugtrio
+|-supereffective|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|
+|switch|p1a: Primeape|Primeape, L90|300\/300
+|turn|2
+|
+|switch|p2a: Sandslash|Sandslash, L85|301\/301
+|move|p1a: Primeape|Body Slam|p2a: Sandslash
+|-crit|p2a: Sandslash
+|-damage|p2a: Sandslash|186\/301
+|
+|turn|3
+|
+|move|p1a: Primeape|Mega Kick|p2a: Sandslash
+|-damage|p2a: Sandslash|95\/301
+|move|p2a: Sandslash|Body Slam|p1a: Primeape
+|-damage|p1a: Primeape|222\/300
+|
+|turn|4
+|
+|move|p1a: Primeape|Body Slam|p2a: Sandslash
+|-damage|p2a: Sandslash|30\/301
+|move|p2a: Sandslash|Body Slam|p1a: Primeape
+|-damage|p1a: Primeape|146\/300
+|-status|p1a: Primeape|par
+|
+|turn|5
+|
+|move|p2a: Sandslash|Hyper Beam|p1a: Primeape
+|-damage|p1a: Primeape|9\/300 par
+|move|p1a: Primeape|Body Slam|p2a: Sandslash
+|-damage|p2a: Sandslash|0 fnt
+|faint|p2a: Sandslash
+|
+|switch|p2a: Lickitung|Lickitung, L90|345\/345
+|turn|6
+|
+|move|p2a: Lickitung|Body Slam|p1a: Primeape
+|-damage|p1a: Primeape|0 fnt
+|faint|p1a: Primeape
+|
+|switch|p1a: Charizard|Charizard, L85|306\/306
+|turn|7
+|
+|move|p1a: Charizard|Fire Blast|p2a: Lickitung
+|-damage|p2a: Lickitung|193\/345
+|move|p2a: Lickitung|Body Slam|p1a: Charizard
+|-damage|p1a: Charizard|231\/306
+|-status|p1a: Charizard|par
+|
+|turn|8
+|
+|move|p2a: Lickitung|Swords Dance|p2a: Lickitung
+|-boost|p2a: Lickitung|atk|2
+|move|p1a: Charizard|Fire Blast|p2a: Lickitung
+|-damage|p2a: Lickitung|42\/345
+|
+|turn|9
+|
+|move|p2a: Lickitung|Hyper Beam|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|switch|p1a: Hypno|Hypno, L85|318\/318
+|turn|10
+|
+|move|p1a: Hypno|Psychic|p2a: Lickitung
+|-damage|p2a: Lickitung|0 fnt
+|faint|p2a: Lickitung
+|
+|switch|p2a: Dewgong|Dewgong, L85|327\/327
+|turn|11
+|
+|move|p2a: Dewgong|Blizzard|p1a: Hypno
+|-damage|p1a: Hypno|206\/318
+|move|p1a: Hypno|Thunder Wave|p2a: Dewgong
+|-status|p2a: Dewgong|par
+|
+|turn|12
+|
+|move|p1a: Hypno|Psychic|p2a: Dewgong
+|-damage|p2a: Dewgong|219\/327 par
+|move|p2a: Dewgong|Blizzard|p1a: Hypno
+|-damage|p1a: Hypno|101\/318
+|
+|turn|13
+|
+|move|p1a: Hypno|Psychic|p2a: Dewgong
+|-damage|p2a: Dewgong|114\/327 par
+|move|p2a: Dewgong|Blizzard|p1a: Hypno
+|-damage|p1a: Hypno|2\/318
+|
+|turn|14
+|
+|move|p1a: Hypno|Psychic|p2a: Dewgong
+|-damage|p2a: Dewgong|14\/327 par
+|move|p2a: Dewgong|Blizzard|p1a: Hypno
+|-damage|p1a: Hypno|0 fnt
+|faint|p1a: Hypno
+|
+|switch|p1a: Kadabra|Kadabra, L85|242\/242
+|turn|15
+|
+|move|p1a: Kadabra|Psychic|p2a: Dewgong
+|-damage|p2a: Dewgong|0 fnt
+|faint|p2a: Dewgong
+|
+|switch|p2a: Charmeleon|Charmeleon, L85|272\/272
+|turn|16
+|
+|move|p1a: Kadabra|Psychic|p2a: Charmeleon
+|-damage|p2a: Charmeleon|139\/272
+|move|p2a: Charmeleon|Slash|p1a: Kadabra
+|-crit|p1a: Kadabra
+|-damage|p1a: Kadabra|108\/242
+|
+|turn|17
+|
+|move|p1a: Kadabra|Recover|p1a: Kadabra
+|-heal|p1a: Kadabra|229\/242
+|move|p2a: Charmeleon|Slash|p1a: Kadabra
+|-crit|p1a: Kadabra
+|-damage|p1a: Kadabra|95\/242
+|
+|turn|18
+|
+|move|p1a: Kadabra|Recover|p1a: Kadabra
+|-heal|p1a: Kadabra|216\/242
+|move|p2a: Charmeleon|Slash|p1a: Kadabra
+|-crit|p1a: Kadabra
+|-damage|p1a: Kadabra|87\/242
+|
+|turn|19
+|
+|move|p1a: Kadabra|Recover|p1a: Kadabra
+|-heal|p1a: Kadabra|208\/242
+|move|p2a: Charmeleon|Slash|p1a: Kadabra
+|-crit|p1a: Kadabra
+|-damage|p1a: Kadabra|70\/242
+|
+|turn|20
+|
+|move|p1a: Kadabra|Recover|p1a: Kadabra
+|-heal|p1a: Kadabra|191\/242
+|move|p2a: Charmeleon|Slash|p1a: Kadabra
+|-crit|p1a: Kadabra
+|-damage|p1a: Kadabra|57\/242
+|
+|turn|21
+|
+|move|p1a: Kadabra|Recover|p1a: Kadabra
+|-heal|p1a: Kadabra|178\/242
+|move|p2a: Charmeleon|Slash|p1a: Kadabra
+|-crit|p1a: Kadabra
+|-damage|p1a: Kadabra|57\/242
+|
+|turn|22
+|
+|move|p1a: Kadabra|Recover|p1a: Kadabra
+|-heal|p1a: Kadabra|178\/242
+|move|p2a: Charmeleon|Slash|p1a: Kadabra
+|-crit|p1a: Kadabra
+|-damage|p1a: Kadabra|52\/242
+|
+|turn|23
+|
+|move|p1a: Kadabra|Recover|p1a: Kadabra
+|-heal|p1a: Kadabra|173\/242
+|move|p2a: Charmeleon|Slash|p1a: Kadabra
+|-crit|p1a: Kadabra
+|-damage|p1a: Kadabra|39\/242
+|
+|turn|24
+|
+|move|p1a: Kadabra|Recover|p1a: Kadabra
+|-heal|p1a: Kadabra|160\/242
+|move|p2a: Charmeleon|Slash|p1a: Kadabra
+|-crit|p1a: Kadabra
+|-damage|p1a: Kadabra|19\/242
+|
+|turn|25
+|c|★Exons|HOW ARE YOU GETTING A CRIT EACH TIME
+|
+|move|p1a: Kadabra|Recover|p1a: Kadabra
+|-heal|p1a: Kadabra|140\/242
+|move|p2a: Charmeleon|Slash|p1a: Kadabra
+|-crit|p1a: Kadabra
+|-damage|p1a: Kadabra|8\/242
+|
+|turn|26
+|
+|move|p1a: Kadabra|Psychic|p2a: Charmeleon
+|-crit|p2a: Charmeleon
+|-damage|p2a: Charmeleon|0 fnt
+|faint|p2a: Charmeleon
+|
+|switch|p2a: Golduck|Golduck, L85|310\/310
+|turn|27
+|
+|move|p1a: Kadabra|Thunder Wave|p2a: Golduck
+|-status|p2a: Golduck|par
+|move|p2a: Golduck|Amnesia|p2a: Golduck
+|-boost|p2a: Golduck|spd|2
+|-boost|p2a: Golduck|spa|2
+|
+|turn|28
+|
+|move|p1a: Kadabra|Psychic|p2a: Golduck
+|-crit|p2a: Golduck
+|-damage|p2a: Golduck|86\/310 par
+|move|p2a: Golduck|Surf|p1a: Kadabra
+|-damage|p1a: Kadabra|0 fnt
+|faint|p1a: Kadabra
+|
+|switch|p1a: Moltres|Moltres, L85|327\/327
+|turn|29
+|
+|move|p1a: Moltres|Sky Attack|p2a: Golduck|[still]
+|-prepare|p1a: Moltres|Sky Attack|p2a: Golduck
+|move|p2a: Golduck|Surf|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|45\/327
+|
+|turn|30
+|
+|move|p1a: Moltres|Sky Attack|p2a: Golduck
+|-damage|p2a: Golduck|0 fnt
+|faint|p2a: Golduck
+|
+|switch|p2a: Dodrio|Dodrio, L85|276\/276
+|turn|31
+|
+|move|p2a: Dodrio|Body Slam|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|win|andreWandres
+|raw|Ladder updating...
+|c|★Exons|GG
+|leave|Exons
+|player|p1

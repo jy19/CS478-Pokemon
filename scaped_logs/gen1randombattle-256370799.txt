@@ -1,0 +1,195 @@
+﻿|join|byyste
+|join|ankitkhetrapal
+|player|p1|byyste|101
+|player|p2|ankitkhetrapal|2
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Machoke|Machoke, L85|310\/310
+|switch|p2a: Muk|Muk, L90|372\/372
+|turn|1
+|
+|move|p2a: Muk|Screech|p1a: Machoke
+|-unboost|p1a: Machoke|def|2
+|move|p1a: Machoke|Earthquake|p2a: Muk
+|-supereffective|p2a: Muk
+|-damage|p2a: Muk|224\/372
+|
+|turn|2
+|
+|switch|p1a: Gengar|Gengar, L79|257\/257
+|move|p2a: Muk|Body Slam|p1a: Gengar
+|-immune|p1a: Gengar|[msg]
+|
+|turn|3
+|
+|switch|p2a: Jolteon|Jolteon, L79|265\/265
+|move|p1a: Gengar|Psychic|p2a: Jolteon
+|-damage|p2a: Jolteon|205\/265
+|
+|turn|4
+|
+|switch|p1a: Mew|Mew, L74|300\/300
+|move|p2a: Jolteon|Thunderbolt|p1a: Mew
+|-damage|p1a: Mew|202\/300
+|
+|turn|5
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Mew
+|-damage|p1a: Mew|96\/300
+|move|p1a: Mew|Thunder Wave|p2a: Jolteon
+|-status|p2a: Jolteon|par
+|
+|turn|6
+|
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|246\/300
+|move|p2a: Jolteon|Thunderbolt|p1a: Mew
+|-damage|p1a: Mew|149\/300
+|
+|turn|7
+|
+|switch|p2a: Muk|Muk, L90|224\/372
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|299\/300
+|
+|turn|8
+|
+|switch|p1a: Gengar|Gengar, L79|257\/257
+|move|p2a: Muk|Explosion|p1a: Gengar
+|-immune|p1a: Gengar|[msg]
+|faint|p2a: Muk
+|c|★byyste|rekt
+|c|★ankitkhetrapal|:\/
+|
+|switch|p2a: Dugtrio|Dugtrio, L85|233\/233
+|turn|9
+|
+|switch|p1a: Dragonite|Dragonite, L85|328\/328
+|move|p2a: Dugtrio|Earthquake|p1a: Dragonite
+|-immune|p1a: Dragonite|[msg]
+|
+|turn|10
+|
+|switch|p2a: Seadra|Seadra, L90|282\/282
+|move|p1a: Dragonite|Body Slam|p2a: Seadra
+|-damage|p2a: Seadra|208\/282
+|
+|turn|11
+|
+|switch|p1a: Mew|Mew, L74|299\/300
+|move|p2a: Seadra|Hydro Pump|p1a: Mew
+|-crit|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|switch|p1a: Abra|Abra, L96|243\/243
+|turn|12
+|
+|move|p1a: Abra|Psychic|p2a: Seadra
+|-damage|p2a: Seadra|101\/282
+|-unboost|p2a: Seadra|spd|1
+|-unboost|p2a: Seadra|spa|1
+|move|p2a: Seadra|Hydro Pump|p1a: Abra
+|-damage|p1a: Abra|165\/243
+|
+|turn|13
+|
+|switch|p2a: Clefable|Clefable, L85|335\/335
+|move|p1a: Abra|Psychic|p2a: Clefable
+|-damage|p2a: Clefable|198\/335
+|-unboost|p2a: Clefable|spd|1
+|-unboost|p2a: Clefable|spa|1
+|
+|turn|14
+|
+|move|p1a: Abra|Psychic|p2a: Clefable
+|-damage|p2a: Clefable|4\/335
+|-unboost|p2a: Clefable|spd|1
+|-unboost|p2a: Clefable|spa|1
+|move|p2a: Clefable|Sing|p1a: Abra
+|-status|p1a: Abra|slp
+|
+|turn|15
+|
+|switch|p1a: Gengar|Gengar, L79|257\/257
+|move|p2a: Clefable|Hyper Beam|p1a: Gengar
+|-immune|p1a: Gengar|[msg]
+|
+|turn|16
+|
+|switch|p2a: Jolteon|Jolteon, L79|205\/265 par
+|move|p1a: Gengar|Psychic|p2a: Jolteon
+|-damage|p2a: Jolteon|148\/265 par
+|-unboost|p2a: Jolteon|spd|1
+|-unboost|p2a: Jolteon|spa|1
+|
+|turn|17
+|
+|switch|p1a: Machoke|Machoke, L85|310\/310
+|move|p2a: Jolteon|Thunderbolt|p1a: Machoke
+|-damage|p1a: Machoke|231\/310
+|
+|turn|18
+|
+|move|p1a: Machoke|Earthquake|p2a: Jolteon
+|-supereffective|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|
+|switch|p2a: Clefable|Clefable, L85|4\/335
+|turn|19
+|
+|switch|p1a: Gengar|Gengar, L79|257\/257
+|move|p2a: Clefable|Sing|p1a: Gengar|[miss]
+|-miss|p2a: Clefable
+|
+|turn|20
+|
+|switch|p2a: Dugtrio|Dugtrio, L85|233\/233
+|move|p1a: Gengar|Psychic|p2a: Dugtrio
+|-crit|p2a: Dugtrio
+|-damage|p2a: Dugtrio|72\/233
+|
+|turn|21
+|
+|switch|p1a: Dragonite|Dragonite, L85|328\/328
+|move|p2a: Dugtrio|Substitute|p2a: Dugtrio
+|-start|p2a: Dugtrio|Substitute
+|-damage|p2a: Dugtrio|14\/233
+|
+|turn|22
+|
+|move|p2a: Dugtrio|Slash|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-damage|p1a: Dragonite|245\/328
+|move|p1a: Dragonite|Agility|p1a: Dragonite
+|-boost|p1a: Dragonite|spe|2
+|
+|turn|23
+|
+|move|p1a: Dragonite|Body Slam|p2a: Dugtrio
+|-end|p2a: Dugtrio|Substitute
+|move|p2a: Dugtrio|Mimic|p1a: Dragonite
+|-start|p2a: Dugtrio|Mimic|Agility
+|
+|turn|24
+|c|★byyste|lol ok
+|
+|move|p1a: Dragonite|Body Slam|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|-message|ankitkhetrapal forfeited.
+|leave|ankitkhetrapal
+|
+|win|byyste
+|raw|Ladder updating...
+|player|p2
+|raw|byyste's rating: 1372 &rarr; <strong>1382<\/strong><br \/>(+10 for winning)
+|raw|ankitkhetrapal's rating: 1184 &rarr; <strong>1171<\/strong><br \/>(-13 for losing)

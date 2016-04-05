@@ -1,0 +1,441 @@
+﻿|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|J|TDK
+|J|Nails
+|player|p1|TDK|96
+|player|p2|Nails|170
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|seed|50606,45592,19634,53627
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Krabby|Krabby, L96|252\/252
+|switch|p2a: Mew|Mew, L74|300\/300
+|turn|1
+|c|★TDK|.
+|J|Toon Linked
+|choice|move 3|move 4
+|
+|move|p2a: Mew|Thunder Wave|p1a: Krabby
+|-status|p1a: Krabby|par
+|cant|p1a: Krabby|par
+|
+|turn|2
+|choice|move 3|switch 3
+|
+|switch|p2a: Staryu|Staryu, L90|237\/237
+|move|p1a: Krabby|Swords Dance|p1a: Krabby
+|-boost|p1a: Krabby|atk|2
+|
+|turn|3
+|choice|move 2|move 3
+|
+|move|p2a: Staryu|Thunderbolt|p1a: Krabby
+|-supereffective|p1a: Krabby
+|-damage|p1a: Krabby|32\/252 par
+|move|p1a: Krabby|Body Slam|p2a: Staryu
+|-damage|p2a: Staryu|32\/237
+|-status|p2a: Staryu|par
+|
+|turn|4
+|choice|move 2|move 3
+|
+|move|p2a: Staryu|Thunderbolt|p1a: Krabby
+|-crit|p1a: Krabby
+|-supereffective|p1a: Krabby
+|-damage|p1a: Krabby|0 fnt
+|faint|p1a: Krabby
+|choice|switch 4|
+|
+|switch|p1a: Magmar|Magmar, L90|300\/300
+|turn|5
+|choice|move 2|switch 3
+|
+|switch|p2a: Mew|Mew, L74|300\/300
+|move|p1a: Magmar|Body Slam|p2a: Mew
+|-damage|p2a: Mew|225\/300
+|
+|turn|6
+|choice|move 2|move 4
+|
+|move|p1a: Magmar|Body Slam|p2a: Mew
+|-damage|p2a: Mew|154\/300
+|move|p2a: Mew|Thunder Wave|p1a: Magmar
+|-status|p1a: Magmar|par
+|
+|turn|7
+|choice|move 2|switch 3
+|
+|switch|p2a: Staryu|Staryu, L90|32\/237 par
+|move|p1a: Magmar|Body Slam|p2a: Staryu
+|-damage|p2a: Staryu|0 fnt
+|faint|p2a: Staryu
+|choice||switch 4
+|
+|switch|p2a: Ninetales|Ninetales, L85|298\/298
+|turn|8
+|choice|move 2|move 2
+|
+|move|p2a: Ninetales|Confuse Ray|p1a: Magmar
+|-start|p1a: Magmar|confusion
+|-activate|p1a: Magmar|confusion
+|move|p1a: Magmar|Body Slam|p2a: Ninetales
+|-damage|p2a: Ninetales|229\/298
+|-status|p2a: Ninetales|par
+|
+|turn|9
+|choice|move 4|move 1
+|
+|-end|p1a: Magmar|confusion
+|move|p1a: Magmar|Confuse Ray|p2a: Ninetales
+|-start|p2a: Ninetales|confusion
+|-activate|p2a: Ninetales|confusion
+|move|p2a: Ninetales|Fire Blast|p1a: Magmar
+|-crit|p1a: Magmar
+|-resisted|p1a: Magmar
+|-damage|p1a: Magmar|166\/300 par
+|
+|turn|10
+|choice|move 2|move 1
+|
+|move|p1a: Magmar|Body Slam|p2a: Ninetales
+|-damage|p2a: Ninetales|148\/298 par
+|cant|p2a: Ninetales|par
+|
+|turn|11
+|choice|move 1|move 1
+|
+|move|p1a: Magmar|Hyper Beam|p2a: Ninetales
+|-damage|p2a: Ninetales|17\/298 par
+|-activate|p2a: Ninetales|confusion
+|-damage|p2a: Ninetales|0 fnt|[from] confusion
+|faint|p2a: Ninetales
+|choice||switch 5
+|
+|switch|p2a: Pinsir|Pinsir, L85|284\/284
+|turn|12
+|-mustrecharge|p1a: Magmar
+|-mustrecharge|p1a: Magmar
+|choice|move 1|move 3
+|
+|move|p2a: Pinsir|Swords Dance|p2a: Pinsir
+|-boost|p2a: Pinsir|atk|2
+|cant|p1a: Magmar|recharge
+|
+|turn|13
+|choice|move 4|move 4
+|
+|move|p2a: Pinsir|Body Slam|p1a: Magmar
+|-crit|p1a: Magmar
+|-damage|p1a: Magmar|1\/300 par
+|move|p1a: Magmar|Confuse Ray|p2a: Pinsir
+|-start|p2a: Pinsir|confusion
+|
+|turn|14
+|choice|move 2|switch 3
+|
+|switch|p2a: Mew|Mew, L74|154\/300
+|cant|p1a: Magmar|par
+|
+|turn|15
+|choice|move 1|move 2
+|
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|300\/300
+|move|p1a: Magmar|Hyper Beam|p2a: Mew
+|-crit|p2a: Mew
+|-damage|p2a: Mew|61\/300
+|
+|turn|16
+|-mustrecharge|p1a: Magmar
+|-mustrecharge|p1a: Magmar
+|choice|move 1|move 2
+|
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|211\/300
+|cant|p1a: Magmar|recharge
+|
+|turn|17
+|choice|move 2|move 1
+|
+|move|p2a: Mew|Blizzard|p1a: Magmar
+|-damage|p1a: Magmar|0 fnt
+|faint|p1a: Magmar
+|choice|switch 2|
+|
+|switch|p1a: Lickitung|Lickitung, L90|345\/345
+|turn|18
+|choice|move 2|move 4
+|
+|move|p2a: Mew|Thunder Wave|p1a: Lickitung
+|-status|p1a: Lickitung|par
+|move|p1a: Lickitung|Body Slam|p2a: Mew
+|-damage|p2a: Mew|132\/300
+|
+|turn|19
+|choice|move 2|move 2
+|
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|282\/300
+|cant|p1a: Lickitung|par
+|
+|turn|20
+|choice|move 2|move 1
+|
+|move|p2a: Mew|Blizzard|p1a: Lickitung
+|-damage|p1a: Lickitung|262\/345 par
+|move|p1a: Lickitung|Body Slam|p2a: Mew
+|-damage|p2a: Mew|203\/300
+|-status|p2a: Mew|par
+|
+|turn|21
+|choice|move 4|move 1
+|
+|move|p2a: Mew|Blizzard|p1a: Lickitung
+|-damage|p1a: Lickitung|185\/345 par
+|move|p1a: Lickitung|Swords Dance|p1a: Lickitung
+|-boost|p1a: Lickitung|atk|2
+|
+|turn|22
+|choice|move 1|move 1
+|
+|move|p1a: Lickitung|Hyper Beam|p2a: Mew
+|-crit|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|choice||switch 2
+|
+|switch|p2a: Wigglytuff|Wigglytuff, L90|435\/435
+|turn|23
+|choice|move 1|move 1
+|
+|move|p2a: Wigglytuff|Blizzard|p1a: Lickitung
+|-crit|p1a: Lickitung
+|-damage|p1a: Lickitung|22\/345 par
+|move|p1a: Lickitung|Hyper Beam|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|99\/435
+|
+|turn|24
+|-mustrecharge|p1a: Lickitung
+|-mustrecharge|p1a: Lickitung
+|choice|move 1|move 1
+|
+|move|p2a: Wigglytuff|Blizzard|p1a: Lickitung|[miss]
+|-miss|p2a: Wigglytuff
+|cant|p1a: Lickitung|recharge
+|
+|turn|25
+|choice|move 2|move 1
+|
+|move|p2a: Wigglytuff|Blizzard|p1a: Lickitung
+|-damage|p1a: Lickitung|0 fnt
+|faint|p1a: Lickitung
+|choice|switch 6|
+|
+|switch|p1a: Muk|Muk, L90|372\/372
+|turn|26
+|choice|move 4|move 4
+|
+|move|p1a: Muk|Body Slam|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|1\/435
+|move|p2a: Wigglytuff|Sing|p1a: Muk
+|-status|p1a: Muk|slp
+|
+|turn|27
+|choice|move 4|switch 3
+|
+|switch|p2a: Pinsir|Pinsir, L85|284\/284
+|-curestatus|p1a: Muk|slp
+|
+|turn|28
+|choice|move 4|switch 3
+|
+|switch|p2a: Wigglytuff|Wigglytuff, L90|1\/435
+|move|p1a: Muk|Body Slam|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|0 fnt
+|faint|p2a: Wigglytuff
+|choice||switch 6
+|
+|switch|p2a: Venusaur|Venusaur, L85|310\/310
+|turn|29
+|choice|move 1|move 2
+|
+|move|p2a: Venusaur|Sleep Powder|p1a: Muk
+|-status|p1a: Muk|slp
+|cant|p1a: Muk|slp
+|
+|turn|30
+|choice|move 4|move 1
+|
+|move|p2a: Venusaur|Razor Leaf|p1a: Muk
+|-crit|p1a: Muk
+|-resisted|p1a: Muk
+|-damage|p1a: Muk|311\/372 slp
+|cant|p1a: Muk|slp
+|
+|turn|31
+|choice|move 4|move 4
+|
+|move|p2a: Venusaur|Leech Seed|p1a: Muk
+|-start|p1a: Muk|move: Leech Seed
+|cant|p1a: Muk|slp
+|-damage|p1a: Muk|288\/372 slp|[from] Leech Seed|[of] p2a: Venusaur
+|
+|turn|32
+|choice|move 4|move 1
+|
+|move|p2a: Venusaur|Razor Leaf|p1a: Muk
+|-crit|p1a: Muk
+|-resisted|p1a: Muk
+|-damage|p1a: Muk|217\/372 slp
+|cant|p1a: Muk|slp
+|-damage|p1a: Muk|194\/372 slp|[from] Leech Seed|[of] p2a: Venusaur
+|
+|turn|33
+|choice|move 4|move 1
+|
+|move|p2a: Venusaur|Razor Leaf|p1a: Muk
+|-crit|p1a: Muk
+|-resisted|p1a: Muk
+|-damage|p1a: Muk|124\/372 slp
+|cant|p1a: Muk|slp
+|-damage|p1a: Muk|101\/372 slp|[from] Leech Seed|[of] p2a: Venusaur
+|
+|turn|34
+|choice|move 1|move 1
+|
+|move|p2a: Venusaur|Razor Leaf|p1a: Muk
+|-crit|p1a: Muk
+|-resisted|p1a: Muk
+|-damage|p1a: Muk|31\/372 slp
+|-damage|p1a: Muk|8\/372 slp|[from] Leech Seed|[of] p2a: Venusaur
+|-curestatus|p1a: Muk|slp
+|
+|turn|35
+|choice|move 1|move 1
+|
+|move|p2a: Venusaur|Razor Leaf|p1a: Muk
+|-crit|p1a: Muk
+|-resisted|p1a: Muk
+|-damage|p1a: Muk|0 fnt
+|faint|p1a: Muk
+|choice|switch 3|
+|
+|switch|p1a: Snorlax|Snorlax, L79|415\/415
+|turn|36
+|choice|switch 5|move 2
+|
+|switch|p1a: Nidorina|Nidorina, L90|309\/309
+|move|p2a: Venusaur|Sleep Powder|p1a: Nidorina
+|-status|p1a: Nidorina|slp
+|
+|turn|37
+|choice|switch 5|move 4
+|
+|switch|p1a: Snorlax|Snorlax, L79|415\/415
+|move|p2a: Venusaur|Leech Seed|p1a: Snorlax
+|-start|p1a: Snorlax|move: Leech Seed
+|
+|turn|38
+|choice|move 1|move 1
+|
+|move|p2a: Venusaur|Razor Leaf|p1a: Snorlax|[miss]
+|-miss|p2a: Venusaur
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|-damage|p1a: Snorlax|390\/415|[from] Leech Seed|[of] p2a: Venusaur
+|
+|turn|39
+|choice|move 2|move 1
+|
+|move|p2a: Venusaur|Razor Leaf|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|229\/415
+|move|p1a: Snorlax|Ice Beam|p2a: Venusaur
+|-crit|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|157\/310
+|-damage|p1a: Snorlax|204\/415|[from] Leech Seed|[of] p2a: Venusaur
+|-heal|p2a: Venusaur|182\/310|[silent]
+|
+|turn|40
+|choice|move 2|move 1
+|
+|move|p2a: Venusaur|Razor Leaf|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|43\/415
+|move|p1a: Snorlax|Ice Beam|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|23\/310
+|-damage|p1a: Snorlax|18\/415|[from] Leech Seed|[of] p2a: Venusaur
+|-heal|p2a: Venusaur|48\/310|[silent]
+|
+|turn|41
+|c|★TDK|.
+|choice|move 2|move 1
+|
+|move|p2a: Venusaur|Razor Leaf|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|choice|switch 5|
+|
+|switch|p1a: Nidorina|Nidorina, L90|309\/309 slp
+|turn|42
+|choice|move 3|move 4
+|
+|move|p2a: Venusaur|Leech Seed|p1a: Nidorina
+|-start|p1a: Nidorina|move: Leech Seed
+|cant|p1a: Nidorina|slp
+|-damage|p1a: Nidorina|290\/309 slp|[from] Leech Seed|[of] p2a: Venusaur
+|-heal|p2a: Venusaur|67\/310|[silent]
+|
+|turn|43
+|choice|move 3|move 1
+|
+|move|p2a: Venusaur|Razor Leaf|p1a: Nidorina
+|-crit|p1a: Nidorina
+|-resisted|p1a: Nidorina
+|-damage|p1a: Nidorina|216\/309 slp
+|cant|p1a: Nidorina|slp
+|-damage|p1a: Nidorina|197\/309 slp|[from] Leech Seed|[of] p2a: Venusaur
+|-heal|p2a: Venusaur|86\/310|[silent]
+|
+|turn|44
+|choice|move 3|move 1
+|
+|move|p2a: Venusaur|Razor Leaf|p1a: Nidorina
+|-crit|p1a: Nidorina
+|-resisted|p1a: Nidorina
+|-damage|p1a: Nidorina|127\/309 slp
+|-damage|p1a: Nidorina|108\/309 slp|[from] Leech Seed|[of] p2a: Venusaur
+|-heal|p2a: Venusaur|105\/310|[silent]
+|-curestatus|p1a: Nidorina|slp
+|
+|turn|45
+|choice|move 3|move 1
+|
+|move|p2a: Venusaur|Razor Leaf|p1a: Nidorina
+|-crit|p1a: Nidorina
+|-resisted|p1a: Nidorina
+|-damage|p1a: Nidorina|41\/309
+|move|p1a: Nidorina|Double-Edge|p2a: Venusaur
+|-damage|p2a: Venusaur|42\/310
+|-damage|p1a: Nidorina|26\/309|[from] recoil|[of] p2a: Venusaur
+|-damage|p1a: Nidorina|7\/309|[from] Leech Seed|[of] p2a: Venusaur
+|-heal|p2a: Venusaur|61\/310|[silent]
+|
+|turn|46
+|choice|move 3|move 1
+|
+|move|p2a: Venusaur|Razor Leaf|p1a: Nidorina
+|-crit|p1a: Nidorina
+|-resisted|p1a: Nidorina
+|-damage|p1a: Nidorina|0 fnt
+|faint|p1a: Nidorina
+|
+|win|Nails

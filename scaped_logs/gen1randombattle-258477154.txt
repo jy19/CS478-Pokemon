@@ -1,0 +1,269 @@
+﻿|join|ElPsyCongroo90
+|join|prototokos
+|player|p1|ElPsyCongroo90|162
+|player|p2|prototokos|265
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Tentacruel|Tentacruel, L85|310\/310
+|switch|p2a: Dugtrio|Dugtrio, L85|233\/233
+|turn|1
+|
+|switch|p2a: Wartortle|Wartortle, L85|274\/274
+|move|p1a: Tentacruel|Surf|p2a: Wartortle
+|-resisted|p2a: Wartortle
+|-damage|p2a: Wartortle|199\/274
+|
+|turn|2
+|
+|move|p1a: Tentacruel|Surf|p2a: Wartortle
+|-resisted|p2a: Wartortle
+|-damage|p2a: Wartortle|125\/274
+|move|p2a: Wartortle|Body Slam|p1a: Tentacruel
+|-damage|p1a: Tentacruel|251\/310
+|-status|p1a: Tentacruel|par
+|
+|turn|3
+|
+|move|p2a: Wartortle|Mimic|p1a: Tentacruel
+|-start|p2a: Wartortle|Mimic|Blizzard
+|cant|p1a: Tentacruel|par
+|
+|turn|4
+|
+|move|p2a: Wartortle|Body Slam|p1a: Tentacruel
+|-damage|p1a: Tentacruel|198\/310 par
+|cant|p1a: Tentacruel|par
+|
+|turn|5
+|
+|move|p2a: Wartortle|Body Slam|p1a: Tentacruel
+|-damage|p1a: Tentacruel|141\/310 par
+|cant|p1a: Tentacruel|par
+|
+|turn|6
+|
+|move|p2a: Wartortle|Body Slam|p1a: Tentacruel
+|-damage|p1a: Tentacruel|88\/310 par
+|cant|p1a: Tentacruel|par
+|
+|turn|7
+|
+|move|p2a: Wartortle|Body Slam|p1a: Tentacruel
+|-damage|p1a: Tentacruel|28\/310 par
+|move|p1a: Tentacruel|Surf|p2a: Wartortle
+|-resisted|p2a: Wartortle
+|-damage|p2a: Wartortle|58\/274
+|
+|turn|8
+|
+|move|p2a: Wartortle|Rest|p2a: Wartortle
+|-status|p2a: Wartortle|slp
+|-heal|p2a: Wartortle|274\/274 slp|[silent]
+|-status|p2a: Wartortle|slp|[from] move: Rest
+|move|p1a: Tentacruel|Surf|p2a: Wartortle
+|-resisted|p2a: Wartortle
+|-damage|p2a: Wartortle|202\/274 slp
+|
+|turn|9
+|
+|cant|p2a: Wartortle|slp
+|move|p1a: Tentacruel|Surf|p2a: Wartortle
+|-resisted|p2a: Wartortle
+|-damage|p2a: Wartortle|125\/274 slp
+|
+|turn|10
+|
+|switch|p1a: Alakazam|Alakazam, L79|249\/249
+|-curestatus|p2a: Wartortle|slp
+|
+|turn|11
+|
+|move|p1a: Alakazam|Psychic|p2a: Wartortle
+|-crit|p2a: Wartortle
+|-damage|p2a: Wartortle|0 fnt
+|faint|p2a: Wartortle
+|
+|switch|p2a: Dugtrio|Dugtrio, L85|233\/233
+|turn|12
+|
+|switch|p1a: Tentacruel|Tentacruel, L85|28\/310 par
+|move|p2a: Dugtrio|Earthquake|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|switch|p1a: Ivysaur|Ivysaur, L85|276\/276
+|turn|13
+|
+|switch|p2a: Arbok|Arbok, L90|291\/291
+|move|p1a: Ivysaur|Razor Leaf|p2a: Arbok
+|-crit|p2a: Arbok
+|-resisted|p2a: Arbok
+|-damage|p2a: Arbok|230\/291
+|
+|turn|14
+|
+|move|p2a: Arbok|Body Slam|p1a: Ivysaur
+|-damage|p1a: Ivysaur|195\/276
+|-status|p1a: Ivysaur|par
+|move|p1a: Ivysaur|Sleep Powder|p2a: Arbok
+|-status|p2a: Arbok|slp
+|
+|turn|15
+|
+|switch|p2a: Weezing|Weezing, L90|300\/300
+|switch|p1a: Alakazam|Alakazam, L79|249\/249
+|
+|turn|16
+|
+|switch|p2a: Ditto|Ditto, L99|296\/296
+|move|p1a: Alakazam|Psychic|p2a: Ditto
+|-damage|p2a: Ditto|171\/296
+|
+|turn|17
+|
+|switch|p1a: Ivysaur|Ivysaur, L85|195\/276 par
+|move|p2a: Ditto|Transform|p1a: Ivysaur
+|-transform|p2a: Ditto|p1a: Ivysaur
+|
+|turn|18
+|
+|move|p2a: Ditto|Sleep Powder|p1a: Ivysaur
+|-fail|p1a: Ivysaur
+|move|p1a: Ivysaur|Razor Leaf|p2a: Ditto
+|-crit|p2a: Ditto
+|-resisted|p2a: Ditto
+|-damage|p2a: Ditto|145\/296
+|
+|turn|19
+|
+|switch|p1a: Rapidash|Rapidash, L90|300\/300
+|move|p2a: Ditto|Razor Leaf|p1a: Rapidash
+|-crit|p1a: Rapidash
+|-resisted|p1a: Rapidash
+|-damage|p1a: Rapidash|244\/300
+|
+|turn|20
+|
+|switch|p2a: Seaking|Seaking, L90|327\/327
+|move|p1a: Rapidash|Fire Blast|p2a: Seaking|[miss]
+|-miss|p1a: Rapidash
+|
+|turn|21
+|
+|switch|p1a: Persian|Persian, L79|265\/265
+|move|p2a: Seaking|Blizzard|p1a: Persian
+|-damage|p1a: Persian|150\/265
+|
+|turn|22
+|
+|move|p1a: Persian|Slash|p2a: Seaking
+|-crit|p2a: Seaking
+|-damage|p2a: Seaking|205\/327
+|move|p2a: Seaking|Hyper Beam|p1a: Persian|[miss]
+|-miss|p2a: Seaking
+|
+|turn|23
+|
+|move|p1a: Persian|Slash|p2a: Seaking
+|-crit|p2a: Seaking
+|-damage|p2a: Seaking|91\/327
+|move|p2a: Seaking|Hyper Beam|p1a: Persian
+|-damage|p1a: Persian|3\/265
+|
+|turn|24
+|-mustrecharge|p2a: Seaking
+|-mustrecharge|p2a: Seaking
+|
+|move|p1a: Persian|Slash|p2a: Seaking
+|-crit|p2a: Seaking
+|-damage|p2a: Seaking|0 fnt
+|faint|p2a: Seaking
+|
+|switch|p2a: Dugtrio|Dugtrio, L85|233\/233
+|turn|25
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Persian
+|-damage|p1a: Persian|0 fnt
+|faint|p1a: Persian
+|
+|switch|p1a: Ivysaur|Ivysaur, L85|195\/276 par
+|turn|26
+|
+|switch|p2a: Weezing|Weezing, L90|300\/300
+|switch|p1a: Alakazam|Alakazam, L79|249\/249
+|
+|turn|27
+|
+|move|p1a: Alakazam|Psychic|p2a: Weezing
+|-supereffective|p2a: Weezing
+|-damage|p2a: Weezing|100\/300
+|-unboost|p2a: Weezing|spd|1
+|-unboost|p2a: Weezing|spa|1
+|move|p2a: Weezing|Explosion|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|faint|p2a: Weezing
+|
+|switch|p2a: Dugtrio|Dugtrio, L85|233\/233
+|switch|p1a: Rapidash|Rapidash, L90|244\/300
+|turn|28
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Rapidash
+|-supereffective|p1a: Rapidash
+|-damage|p1a: Rapidash|36\/300
+|move|p1a: Rapidash|Fire Blast|p2a: Dugtrio
+|-crit|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|c|★prototokos|gg
+|
+|switch|p2a: Ditto|Ditto, L99|145\/296
+|turn|29
+|
+|move|p1a: Rapidash|Fire Blast|p2a: Ditto|[miss]
+|-miss|p1a: Rapidash
+|move|p2a: Ditto|Transform|p1a: Rapidash
+|-transform|p2a: Ditto|p1a: Rapidash
+|
+|turn|30
+|
+|move|p1a: Rapidash|Body Slam|p2a: Ditto
+|-crit|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|
+|switch|p2a: Arbok|Arbok, L90|230\/291 slp
+|turn|31
+|
+|move|p1a: Rapidash|Body Slam|p2a: Arbok
+|-crit|p2a: Arbok
+|-damage|p2a: Arbok|78\/291 slp
+|cant|p2a: Arbok|slp
+|
+|turn|32
+|
+|move|p1a: Rapidash|Body Slam|p2a: Arbok
+|-damage|p2a: Arbok|1\/291 slp
+|cant|p2a: Arbok|slp
+|
+|turn|33
+|
+|move|p1a: Rapidash|Body Slam|p2a: Arbok
+|-crit|p2a: Arbok
+|-damage|p2a: Arbok|0 fnt
+|faint|p2a: Arbok
+|
+|win|ElPsyCongroo90
+|raw|Ladder updating...
+|raw|ElPsyCongroo90's rating: 1386 &rarr; <strong>1403<\/strong><br \/>(+17 for winning)
+|raw|prototokos's rating: 1344 &rarr; <strong>1326<\/strong><br \/>(-18 for losing)
+|leave|ElPsyCongroo90
+|player|p1

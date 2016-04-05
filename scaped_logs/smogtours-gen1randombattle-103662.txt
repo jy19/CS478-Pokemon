@@ -1,0 +1,328 @@
+﻿|J|Nails
+|J|TDK
+|player|p1|Nails|1
+|player|p2|TDK|96
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|seed|18806,6864,31126,18900
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Pinsir|Pinsir, L85|284\/284
+|switch|p2a: Kabuto|Kabuto, L96|252\/252
+|turn|1
+|J|Of Moose & Men
+|choice|switch 6|move 2
+|
+|switch|p1a: Magneton|Magneton, L90|273\/273
+|move|p2a: Kabuto|Body Slam|p1a: Magneton
+|-damage|p1a: Magneton|210\/273
+|
+|turn|2
+|J|gamerpro45
+|choice|move 1|switch 4
+|
+|switch|p2a: Nidoqueen|Nidoqueen, L85|327\/327
+|move|p1a: Magneton|Thunderbolt|p2a: Nidoqueen
+|-immune|p2a: Nidoqueen|[msg]
+|
+|turn|3
+|choice|switch 2|move 3
+|
+|switch|p1a: Doduo|Doduo, L96|262\/262
+|move|p2a: Nidoqueen|Body Slam|p1a: Doduo
+|-damage|p1a: Doduo|191\/262
+|
+|turn|4
+|choice|move 2|move 2
+|
+|move|p1a: Doduo|Body Slam|p2a: Nidoqueen
+|-crit|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|126\/327
+|move|p2a: Nidoqueen|Blizzard|p1a: Doduo
+|-crit|p1a: Doduo
+|-supereffective|p1a: Doduo
+|-damage|p1a: Doduo|0 fnt
+|faint|p1a: Doduo
+|L|Of Moose & Men
+|choice|switch 4|
+|
+|switch|p1a: Machamp|Machamp, L90|345\/345
+|turn|5
+|choice|move 1|move 1
+|
+|move|p2a: Nidoqueen|Earthquake|p1a: Machamp
+|-damage|p1a: Machamp|240\/345
+|move|p1a: Machamp|Earthquake|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|0 fnt
+|faint|p2a: Nidoqueen
+|J|Ary
+|choice||switch 5
+|
+|switch|p2a: Butterfree|Butterfree, L90|291\/291
+|turn|6
+|choice|move 4|move 2
+|
+|move|p2a: Butterfree|Sleep Powder|p1a: Machamp|[miss]
+|-miss|p2a: Butterfree
+|move|p1a: Machamp|Rock Slide|p2a: Butterfree
+|-supereffective|p2a: Butterfree
+|-damage|p2a: Butterfree|0 fnt
+|faint|p2a: Butterfree
+|c|★TDK|ok
+|choice||switch 3
+|
+|switch|p2a: Nidorina|Nidorina, L90|309\/309
+|turn|7
+|c|★Nails|where compoundeyes
+|c|★TDK|next to your wins without hax
+|choice|move 1|move 4
+|
+|move|p2a: Nidorina|Blizzard|p1a: Machamp
+|-damage|p1a: Machamp|164\/345
+|move|p1a: Machamp|Earthquake|p2a: Nidorina
+|-supereffective|p2a: Nidorina
+|-damage|p2a: Nidorina|106\/309
+|
+|turn|8
+|choice|move 1|move 4
+|
+|move|p2a: Nidorina|Blizzard|p1a: Machamp
+|-damage|p1a: Machamp|82\/345
+|move|p1a: Machamp|Earthquake|p2a: Nidorina
+|-supereffective|p2a: Nidorina
+|-damage|p2a: Nidorina|0 fnt
+|faint|p2a: Nidorina
+|choice||switch 2
+|
+|switch|p2a: Magneton|Magneton, L90|273\/273
+|turn|9
+|choice|switch 2|move 1
+|
+|switch|p1a: Magneton|Magneton, L90|210\/273
+|move|p2a: Magneton|Thunderbolt|p1a: Magneton
+|-crit|p1a: Magneton
+|-resisted|p1a: Magneton
+|-damage|p1a: Magneton|106\/273
+|
+|turn|10
+|choice|move 2|move 2
+|
+|move|p1a: Magneton|Thunder Wave|p2a: Magneton
+|-status|p2a: Magneton|par
+|move|p2a: Magneton|Hyper Beam|p1a: Magneton
+|-damage|p1a: Magneton|26\/273
+|
+|turn|11
+|-mustrecharge|p2a: Magneton
+|-mustrecharge|p2a: Magneton
+|c|★TDK|dmg
+|choice|switch 2|move 1
+|
+|switch|p1a: Machamp|Machamp, L90|82\/345
+|cant|p2a: Magneton|recharge
+|
+|turn|12
+|choice|move 1|move 1
+|
+|move|p1a: Machamp|Earthquake|p2a: Magneton
+|-supereffective|p2a: Magneton
+|-damage|p2a: Magneton|81\/273 par
+|move|p2a: Magneton|Thunderbolt|p1a: Machamp
+|-crit|p1a: Machamp
+|-damage|p1a: Machamp|0 fnt
+|faint|p1a: Machamp
+|choice|switch 3|
+|
+|switch|p1a: Fearow|Fearow, L90|300\/300
+|turn|13
+|choice|move 3|move 4
+|
+|move|p1a: Fearow|Double-Edge|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|-damage|p1a: Fearow|280\/300|[from] recoil|[of] p2a: Magneton
+|faint|p2a: Magneton
+|choice||switch 4
+|
+|switch|p2a: Kabuto|Kabuto, L96|252\/252
+|turn|14
+|c|★TDK|go kabuto
+|choice|switch 5|move 3
+|
+|switch|p1a: Magmar|Magmar, L90|300\/300
+|move|p2a: Kabuto|Harden|p2a: Kabuto
+|-boost|p2a: Kabuto|def|1
+|
+|turn|15
+|choice|move 3|move 1
+|
+|move|p1a: Magmar|Confuse Ray|p2a: Kabuto
+|-start|p2a: Kabuto|confusion
+|-activate|p2a: Kabuto|confusion
+|-damage|p2a: Kabuto|231\/252|[from] confusion
+|
+|turn|16
+|choice|move 1|move 1
+|
+|move|p1a: Magmar|Body Slam|p2a: Kabuto
+|-resisted|p2a: Kabuto
+|-damage|p2a: Kabuto|211\/252
+|-activate|p2a: Kabuto|confusion
+|-damage|p2a: Kabuto|190\/252|[from] confusion
+|
+|turn|17
+|c|★TDK|ok
+|choice|move 1|move 1
+|
+|move|p1a: Magmar|Body Slam|p2a: Kabuto
+|-resisted|p2a: Kabuto
+|-damage|p2a: Kabuto|172\/252
+|-activate|p2a: Kabuto|confusion
+|-damage|p2a: Kabuto|151\/252|[from] confusion
+|
+|turn|18
+|choice|move 1|move 1
+|
+|move|p1a: Magmar|Body Slam|p2a: Kabuto
+|-resisted|p2a: Kabuto
+|-damage|p2a: Kabuto|132\/252
+|-status|p2a: Kabuto|par
+|-activate|p2a: Kabuto|confusion
+|-damage|p2a: Kabuto|111\/252 par|[from] confusion
+|
+|turn|19
+|c|★TDK|...
+|L|gamerpro45
+|choice|move 1|move 1
+|
+|move|p1a: Magmar|Body Slam|p2a: Kabuto
+|-resisted|p2a: Kabuto
+|-damage|p2a: Kabuto|92\/252 par
+|-end|p2a: Kabuto|confusion
+|move|p2a: Kabuto|Surf|p1a: Magmar
+|-crit|p1a: Magmar
+|-supereffective|p1a: Magmar
+|-damage|p1a: Magmar|12\/300
+|
+|turn|20
+|choice|move 3|move 2
+|
+|move|p1a: Magmar|Confuse Ray|p2a: Kabuto
+|-start|p2a: Kabuto|confusion
+|-activate|p2a: Kabuto|confusion
+|-damage|p2a: Kabuto|71\/252 par|[from] confusion
+|
+|turn|21
+|choice|move 4|move 2
+|
+|move|p1a: Magmar|Hyper Beam|p2a: Kabuto
+|-resisted|p2a: Kabuto
+|-damage|p2a: Kabuto|39\/252 par
+|cant|p2a: Kabuto|par
+|
+|turn|22
+|-mustrecharge|p1a: Magmar
+|-mustrecharge|p1a: Magmar
+|choice|move 1|move 2
+|
+|cant|p1a: Magmar|recharge
+|-activate|p2a: Kabuto|confusion
+|move|p2a: Kabuto|Body Slam|p1a: Magmar
+|-damage|p1a: Magmar|0 fnt
+|faint|p1a: Magmar
+|choice|switch 2|
+|
+|switch|p1a: Magneton|Magneton, L90|26\/273
+|turn|23
+|choice|move 1|move 1
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Kabuto
+|-supereffective|p2a: Kabuto
+|-damage|p2a: Kabuto|0 fnt
+|faint|p2a: Kabuto
+|choice||switch 6
+|
+|switch|p2a: Chansey|Chansey, L79|557\/557
+|turn|24
+|choice|move 2|move 2
+|
+|move|p1a: Magneton|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|move|p2a: Chansey|Reflect|p2a: Chansey
+|-start|p2a: Chansey|Reflect
+|
+|turn|25
+|choice|move 1|move 3
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|313\/557 par
+|move|p2a: Chansey|Thunderbolt|p1a: Magneton
+|-resisted|p1a: Magneton
+|-damage|p1a: Magneton|1\/273
+|
+|turn|26
+|choice|move 3|move 1
+|
+|move|p1a: Magneton|Hyper Beam|p2a: Chansey
+|-damage|p2a: Chansey|186\/557 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|464\/557 par
+|
+|turn|27
+|-mustrecharge|p1a: Magneton
+|-mustrecharge|p1a: Magneton
+|choice|move 1|move 3
+|
+|cant|p1a: Magneton|recharge
+|move|p2a: Chansey|Thunderbolt|p1a: Magneton
+|-resisted|p1a: Magneton
+|-damage|p1a: Magneton|0 fnt
+|faint|p1a: Magneton
+|choice|switch 6|
+|
+|switch|p1a: Pinsir|Pinsir, L85|284\/284
+|turn|28
+|choice|move 4|move 1
+|
+|move|p1a: Pinsir|Swords Dance|p1a: Pinsir
+|-boost|p1a: Pinsir|atk|2
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|557\/557 par
+|
+|turn|29
+|choice|move 4|move 4
+|
+|move|p1a: Pinsir|Swords Dance|p1a: Pinsir
+|-boost|p1a: Pinsir|atk|2
+|move|p2a: Chansey|Counter|p1a: Pinsir
+|-fail|p2a: Chansey
+|
+|turn|30
+|choice|move 3|move 3
+|
+|move|p1a: Pinsir|Hyper Beam|p2a: Chansey
+|-damage|p2a: Chansey|75\/557 par
+|move|p2a: Chansey|Thunderbolt|p1a: Pinsir
+|-damage|p1a: Pinsir|204\/284
+|
+|turn|31
+|-mustrecharge|p1a: Pinsir
+|-mustrecharge|p1a: Pinsir
+|choice|move 1|move 3
+|
+|cant|p1a: Pinsir|recharge
+|cant|p2a: Chansey|par
+|
+|turn|32
+|choice|move 2|move 1
+|
+|move|p1a: Pinsir|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|win|Nails

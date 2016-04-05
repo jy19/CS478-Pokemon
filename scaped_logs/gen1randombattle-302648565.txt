@@ -1,0 +1,475 @@
+﻿|j|Snap5
+|j|Dervodel
+|player|p1|Snap5|2
+|player|p2|Dervodel|238
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|49203,52005,40134,47351
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Charizard|Charizard, L85|306\/306
+|switch|p2a: Arcanine|Arcanine, L85|327\/327
+|turn|1
+|choice|move 2|move 4
+|
+|move|p1a: Charizard|Earthquake|p2a: Arcanine
+|-crit|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|78\/327
+|move|p2a: Arcanine|Reflect|p2a: Arcanine
+|-start|p2a: Arcanine|Reflect
+|
+|turn|2
+|c|★Dervodel|sick reflekt xD
+|c|★Snap5|lol
+|choice|move 2|move 2
+|
+|move|p1a: Charizard|Earthquake|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|2\/327
+|move|p2a: Arcanine|Body Slam|p1a: Charizard
+|-damage|p1a: Charizard|232\/306
+|
+|turn|3
+|choice|move 2|move 1
+|
+|move|p1a: Charizard|Earthquake|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|choice||switch 5
+|
+|switch|p2a: Seadra|Seadra, L90|282\/282
+|turn|4
+|choice|switch 6|move 2
+|
+|switch|p1a: Magneton|Magneton, L90|273\/273
+|move|p2a: Seadra|Blizzard|p1a: Magneton|[miss]
+|-miss|p2a: Seadra
+|
+|turn|5
+|choice|move 4|switch 3
+|
+|switch|p2a: Magneton|Magneton, L90|273\/273
+|move|p1a: Magneton|Thunder Wave|p2a: Magneton
+|-status|p2a: Magneton|par
+|
+|turn|6
+|choice|switch 4|move 4
+|
+|switch|p1a: Golem|Golem, L79|288\/288
+|move|p2a: Magneton|Thunder Wave|p1a: Golem
+|-immune|p1a: Golem|[msg]
+|
+|turn|7
+|choice|move 1|switch 3
+|
+|switch|p2a: Seadra|Seadra, L90|282\/282
+|move|p1a: Golem|Body Slam|p2a: Seadra
+|-damage|p2a: Seadra|226\/282
+|
+|turn|8
+|choice|switch 5|move 2
+|
+|switch|p1a: Mew|Mew, L74|300\/300
+|move|p2a: Seadra|Blizzard|p1a: Mew
+|-damage|p1a: Mew|201\/300
+|
+|turn|9
+|choice|move 2|switch 3
+|
+|switch|p2a: Magneton|Magneton, L90|273\/273 par
+|move|p1a: Mew|Earthquake|p2a: Magneton
+|-supereffective|p2a: Magneton
+|-damage|p2a: Magneton|178\/273 par
+|
+|turn|10
+|c|★Dervodel|guess thats gg
+|choice|move 2|move 1
+|
+|move|p1a: Mew|Earthquake|p2a: Magneton
+|-crit|p2a: Magneton
+|-supereffective|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|faint|p2a: Magneton
+|choice||switch 3
+|
+|switch|p2a: Seadra|Seadra, L90|226\/282
+|turn|11
+|choice|switch 4|move 4
+|
+|switch|p1a: Magneton|Magneton, L90|273\/273
+|move|p2a: Seadra|Hydro Pump|p1a: Magneton
+|-crit|p1a: Magneton
+|-damage|p1a: Magneton|49\/273
+|
+|turn|12
+|choice|move 1|move 4
+|
+|move|p2a: Seadra|Hydro Pump|p1a: Magneton
+|-crit|p1a: Magneton
+|-damage|p1a: Magneton|0 fnt
+|faint|p1a: Magneton
+|choice|switch 2|
+|
+|switch|p1a: Gastly|Gastly, L96|252\/252
+|turn|13
+|choice|move 3|move 4
+|
+|move|p1a: Gastly|Thunderbolt|p2a: Seadra
+|-supereffective|p2a: Seadra
+|-damage|p2a: Seadra|69\/282
+|move|p2a: Seadra|Hydro Pump|p1a: Gastly
+|-damage|p1a: Gastly|136\/252
+|
+|turn|14
+|choice|move 2|switch 4
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|293\/293
+|move|p1a: Gastly|Mega Drain|p2a: Mewtwo
+|-damage|p2a: Mewtwo|260\/293
+|-heal|p1a: Gastly|152\/252|[from] drain|[of] p2a: Mewtwo
+|
+|turn|15
+|choice|switch 4|move 1
+|
+|switch|p1a: Mew|Mew, L74|201\/300
+|move|p2a: Mewtwo|Psychic|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|155\/300
+|-unboost|p1a: Mew|spd|1
+|-unboost|p1a: Mew|spa|1
+|
+|turn|16
+|choice|move 4|move 4
+|
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|300\/300
+|
+|turn|17
+|choice|move 1|move 1
+|
+|move|p2a: Mewtwo|Psychic|p1a: Mew
+|-crit|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|210\/300
+|move|p1a: Mew|Horn Drill|p2a: Mewtwo
+|-immune|p2a: Mewtwo|[ohko]
+|
+|turn|18
+|choice|move 2|move 3
+|
+|move|p2a: Mewtwo|Body Slam|p1a: Mew
+|-damage|p1a: Mew|161\/300
+|-status|p1a: Mew|par
+|cant|p1a: Mew|par
+|
+|turn|19
+|choice|move 4|move 1
+|
+|move|p2a: Mewtwo|Psychic|p1a: Mew
+|-crit|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|67\/300 par
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|217\/300 par
+|
+|turn|20
+|choice|move 4|move 1
+|
+|move|p2a: Mewtwo|Psychic|p1a: Mew
+|-crit|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|117\/300 par
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|267\/300 par
+|
+|turn|21
+|choice|move 2|move 1
+|
+|move|p2a: Mewtwo|Psychic|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|195\/300 par
+|move|p1a: Mew|Earthquake|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|133\/293
+|
+|turn|22
+|choice|move 2|move 2
+|
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|279\/293
+|move|p1a: Mew|Earthquake|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|143\/293
+|
+|turn|23
+|choice|move 2|move 2
+|
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|289\/293
+|move|p1a: Mew|Earthquake|p2a: Mewtwo
+|-damage|p2a: Mewtwo|258\/293
+|
+|turn|24
+|choice|move 4|move 1
+|
+|move|p2a: Mewtwo|Psychic|p1a: Mew
+|-crit|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|99\/300 par
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|249\/300 par
+|
+|turn|25
+|choice|move 2|move 1
+|
+|move|p2a: Mewtwo|Psychic|p1a: Mew
+|-crit|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|155\/300 par
+|-unboost|p1a: Mew|spd|1
+|-unboost|p1a: Mew|spa|1
+|move|p1a: Mew|Earthquake|p2a: Mewtwo
+|-damage|p2a: Mewtwo|227\/293
+|
+|turn|26
+|choice|move 4|move 1
+|
+|move|p2a: Mewtwo|Psychic|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|55\/300 par
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|205\/300 par
+|
+|turn|27
+|choice|move 4|move 1
+|
+|move|p2a: Mewtwo|Psychic|p1a: Mew
+|-crit|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|112\/300 par
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|262\/300 par
+|
+|turn|28
+|choice|move 2|move 1
+|
+|move|p2a: Mewtwo|Psychic|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|158\/300 par
+|move|p1a: Mew|Earthquake|p2a: Mewtwo
+|-damage|p2a: Mewtwo|197\/293
+|
+|turn|29
+|choice|move 4|move 1
+|
+|move|p2a: Mewtwo|Psychic|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|51\/300 par
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|201\/300 par
+|
+|turn|30
+|c|★Dervodel|c mon
+|c|★Dervodel|be paralized
+|c|★Snap5|not
+|choice|move 4|move 1
+|
+|move|p2a: Mewtwo|Psychic|p1a: Mew
+|-crit|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|104\/300 par
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|254\/300 par
+|
+|turn|31
+|c|★Snap5|:P
+|choice|move 4|switch 4
+|
+|switch|p2a: Seadra|Seadra, L90|69\/282
+|cant|p1a: Mew|par
+|
+|turn|32
+|choice|switch 4|move 4
+|
+|switch|p1a: Gastly|Gastly, L96|152\/252
+|move|p2a: Seadra|Hydro Pump|p1a: Gastly|[miss]
+|-miss|p2a: Seadra
+|
+|turn|33
+|choice|move 1|switch 4
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|197\/293
+|move|p1a: Gastly|Hypnosis|p2a: Mewtwo
+|-status|p2a: Mewtwo|slp
+|
+|turn|34
+|choice|move 3|move 1
+|
+|cant|p2a: Mewtwo|slp
+|move|p1a: Gastly|Thunderbolt|p2a: Mewtwo
+|-damage|p2a: Mewtwo|124\/293 slp
+|
+|turn|35
+|choice|move 3|move 1
+|
+|-curestatus|p2a: Mewtwo|slp
+|move|p1a: Gastly|Thunderbolt|p2a: Mewtwo
+|-damage|p2a: Mewtwo|58\/293
+|
+|turn|36
+|choice|move 1|move 1
+|
+|move|p2a: Mewtwo|Psychic|p1a: Gastly
+|-crit|p1a: Gastly
+|-supereffective|p1a: Gastly
+|-damage|p1a: Gastly|0 fnt
+|faint|p1a: Gastly
+|choice|switch 6|
+|
+|switch|p1a: Charizard|Charizard, L85|232\/306
+|turn|37
+|choice|move 2|switch 2
+|
+|switch|p2a: Koffing|Koffing, L96|272\/272
+|move|p1a: Charizard|Earthquake|p2a: Koffing
+|-supereffective|p2a: Koffing
+|-damage|p2a: Koffing|169\/272
+|
+|turn|38
+|choice|switch 5|move 4
+|
+|switch|p1a: Golem|Golem, L79|288\/288
+|move|p2a: Koffing|Thunderbolt|p1a: Golem
+|-immune|p1a: Golem|[msg]
+|
+|turn|39
+|choice|move 1|switch 6
+|
+|switch|p2a: Hitmonlee|Hitmonlee, L90|273\/273
+|move|p1a: Golem|Body Slam|p2a: Hitmonlee|[miss]
+|-miss|p1a: Golem
+|
+|turn|40
+|choice|switch 4|move 1
+|
+|switch|p1a: Mew|Mew, L74|254\/300 par
+|move|p2a: Hitmonlee|High Jump Kick|p1a: Mew
+|-crit|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|140\/300 par
+|
+|turn|41
+|choice|move 4|move 1
+|
+|move|p2a: Hitmonlee|High Jump Kick|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|76\/300 par
+|cant|p1a: Mew|par
+|
+|turn|42
+|choice|move 4|move 1
+|
+|move|p2a: Hitmonlee|High Jump Kick|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|10\/300 par
+|cant|p1a: Mew|par
+|
+|turn|43
+|choice|move 4|move 2
+|
+|move|p2a: Hitmonlee|Substitute|p2a: Hitmonlee
+|-start|p2a: Hitmonlee|Substitute
+|-damage|p2a: Hitmonlee|205\/273
+|cant|p1a: Mew|par
+|
+|turn|44
+|choice|move 4|move 1
+|
+|move|p2a: Hitmonlee|High Jump Kick|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|choice|switch 3|
+|
+|switch|p1a: Seadra|Seadra, L90|282\/282
+|turn|45
+|choice|move 2|move 1
+|
+|move|p2a: Hitmonlee|High Jump Kick|p1a: Seadra
+|-damage|p1a: Seadra|180\/282
+|move|p1a: Seadra|Blizzard|p2a: Hitmonlee|[miss]
+|-miss|p1a: Seadra
+|
+|turn|46
+|choice|move 1|move 1
+|
+|move|p2a: Hitmonlee|High Jump Kick|p1a: Seadra
+|-crit|p1a: Seadra
+|-damage|p1a: Seadra|0 fnt
+|faint|p1a: Seadra
+|choice|switch 5|
+|
+|switch|p1a: Charizard|Charizard, L85|232\/306
+|turn|47
+|choice|move 3|move 1
+|
+|move|p1a: Charizard|Hyper Beam|p2a: Hitmonlee
+|-end|p2a: Hitmonlee|Substitute
+|move|p2a: Hitmonlee|High Jump Kick|p1a: Charizard
+|-resisted|p1a: Charizard
+|-damage|p1a: Charizard|164\/306
+|
+|turn|48
+|choice|move 4|move 3
+|
+|move|p1a: Charizard|Fire Blast|p2a: Hitmonlee
+|-crit|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|0 fnt
+|faint|p2a: Hitmonlee
+|choice||switch 6
+|
+|switch|p2a: Koffing|Koffing, L96|169\/272
+|turn|49
+|choice|switch 4|switch 2
+|
+|switch|p1a: Golem|Golem, L79|288\/288
+|switch|p2a: Mewtwo|Mewtwo, L70|58\/293
+|
+|turn|50
+|choice|move 2|move 2
+|
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|204\/293
+|move|p1a: Golem|Explosion|p2a: Mewtwo
+|-damage|p2a: Mewtwo|0 fnt
+|faint|p2a: Mewtwo
+|faint|p1a: Golem
+|choice|switch 4|switch 4
+|
+|switch|p1a: Charizard|Charizard, L85|164\/306
+|switch|p2a: Seadra|Seadra, L90|69\/282
+|turn|51
+|choice|move 2|move 4
+|
+|move|p1a: Charizard|Earthquake|p2a: Seadra
+|-damage|p2a: Seadra|5\/282
+|move|p2a: Seadra|Hydro Pump|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|win|Dervodel
+|l|Snap5
+|player|p1
+|raw|Snap5's rating: 1156 &rarr; <strong>1140<\/strong><br \/>(-16 for losing)
+|raw|Dervodel's rating: 1280 &rarr; <strong>1297<\/strong><br \/>(+17 for winning)
+|c|★Dervodel|lol

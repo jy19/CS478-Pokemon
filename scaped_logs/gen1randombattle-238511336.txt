@@ -1,0 +1,237 @@
+﻿|join|Lusch
+|join|Korobein Aris
+|player|p1|Lusch|153
+|player|p2|Korobein Aris|290
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Pidgeotto|Pidgeotto, L85|281\/281
+|switch|p2a: Dugtrio|Dugtrio, L85|233\/233
+|turn|1
+|
+|move|p2a: Dugtrio|Slash|p1a: Pidgeotto
+|-crit|p1a: Pidgeotto
+|-damage|p1a: Pidgeotto|169\/281
+|move|p1a: Pidgeotto|Double-Edge|p2a: Dugtrio
+|-damage|p2a: Dugtrio|129\/233
+|-damage|p1a: Pidgeotto|143\/281|[from] recoil|[of] p2a: Dugtrio
+|
+|turn|2
+|
+|move|p2a: Dugtrio|Slash|p1a: Pidgeotto
+|-crit|p1a: Pidgeotto
+|-damage|p1a: Pidgeotto|29\/281
+|move|p1a: Pidgeotto|Double-Edge|p2a: Dugtrio
+|-damage|p2a: Dugtrio|18\/233
+|-damage|p1a: Pidgeotto|2\/281|[from] recoil|[of] p2a: Dugtrio
+|
+|turn|3
+|
+|move|p2a: Dugtrio|Slash|p1a: Pidgeotto
+|-crit|p1a: Pidgeotto
+|-damage|p1a: Pidgeotto|0 fnt
+|faint|p1a: Pidgeotto
+|
+|switch|p1a: Onix|Onix, L85|233\/233
+|turn|4
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Onix
+|-crit|p1a: Onix
+|-supereffective|p1a: Onix
+|-damage|p1a: Onix|0 fnt
+|faint|p1a: Onix
+|
+|switch|p1a: Golbat|Golbat, L85|301\/301
+|turn|5
+|
+|move|p2a: Dugtrio|Slash|p1a: Golbat
+|-crit|p1a: Golbat
+|-damage|p1a: Golbat|196\/301
+|move|p1a: Golbat|Mega Drain|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|-heal|p1a: Golbat|205\/301|[from] drain|[of] p2a: Dugtrio
+|faint|p2a: Dugtrio
+|
+|switch|p2a: Porygon|Porygon, L85|284\/284
+|turn|6
+|
+|move|p1a: Golbat|Screech|p2a: Porygon
+|-unboost|p2a: Porygon|def|2
+|move|p2a: Porygon|Thunderbolt|p1a: Golbat
+|-supereffective|p1a: Golbat
+|-damage|p1a: Golbat|65\/301
+|
+|turn|7
+|
+|move|p1a: Golbat|Hyper Beam|p2a: Porygon
+|-crit|p2a: Porygon
+|-damage|p2a: Porygon|63\/284
+|move|p2a: Porygon|Thunderbolt|p1a: Golbat
+|-supereffective|p1a: Golbat
+|-damage|p1a: Golbat|0 fnt
+|faint|p1a: Golbat
+|
+|switch|p1a: Kingler|Kingler, L85|267\/267
+|turn|8
+|
+|move|p1a: Kingler|Body Slam|p2a: Porygon
+|-damage|p2a: Porygon|0 fnt
+|faint|p2a: Porygon
+|
+|switch|p2a: Venomoth|Venomoth, L85|293\/293
+|turn|9
+|
+|switch|p1a: Graveler|Graveler, L85|267\/267
+|move|p2a: Venomoth|Sleep Powder|p1a: Graveler|[miss]
+|-miss|p2a: Venomoth
+|
+|turn|10
+|
+|move|p2a: Venomoth|Mega Drain|p1a: Graveler
+|-crit|p1a: Graveler
+|-supereffective|p1a: Graveler
+|-damage|p1a: Graveler|0 fnt
+|faint|p1a: Graveler
+|
+|switch|p1a: Flareon|Flareon, L85|284\/284
+|turn|11
+|
+|move|p2a: Venomoth|Sleep Powder|p1a: Flareon
+|-status|p1a: Flareon|slp
+|cant|p1a: Flareon|slp
+|
+|turn|12
+|
+|switch|p2a: Blastoise|Blastoise, L85|308\/308
+|cant|p1a: Flareon|slp
+|
+|turn|13
+|
+|switch|p1a: Kingler|Kingler, L85|267\/267
+|move|p2a: Blastoise|Hydro Pump|p1a: Kingler|[miss]
+|-miss|p2a: Blastoise
+|
+|turn|14
+|
+|move|p2a: Blastoise|Body Slam|p1a: Kingler
+|-damage|p1a: Kingler|217\/267
+|move|p1a: Kingler|Body Slam|p2a: Blastoise
+|-damage|p2a: Blastoise|245\/308
+|-status|p2a: Blastoise|par
+|
+|turn|15
+|
+|switch|p2a: Mankey|Mankey, L96|272\/272
+|move|p1a: Kingler|Crabhammer|p2a: Mankey
+|-crit|p2a: Mankey
+|-damage|p2a: Mankey|83\/272
+|
+|turn|16
+|
+|move|p2a: Mankey|Mega Kick|p1a: Kingler|[miss]
+|-miss|p2a: Mankey
+|move|p1a: Kingler|Crabhammer|p2a: Mankey
+|-crit|p2a: Mankey
+|-damage|p2a: Mankey|0 fnt
+|faint|p2a: Mankey
+|
+|switch|p2a: Beedrill|Beedrill, L85|284\/284
+|turn|17
+|
+|move|p1a: Kingler|Crabhammer|p2a: Beedrill
+|-crit|p2a: Beedrill
+|-damage|p2a: Beedrill|106\/284
+|move|p2a: Beedrill|Hyper Beam|p1a: Kingler
+|-damage|p1a: Kingler|141\/267
+|
+|turn|18
+|-mustrecharge|p2a: Beedrill
+|-mustrecharge|p2a: Beedrill
+|
+|cant|p2a: Beedrill|recharge
+|move|p1a: Kingler|Crabhammer|p2a: Beedrill
+|-crit|p2a: Beedrill
+|-damage|p2a: Beedrill|0 fnt
+|faint|p2a: Beedrill
+|
+|switch|p2a: Venomoth|Venomoth, L85|293\/293
+|turn|19
+|
+|move|p2a: Venomoth|Mega Drain|p1a: Kingler
+|-supereffective|p1a: Kingler
+|-damage|p1a: Kingler|60\/267
+|move|p1a: Kingler|Body Slam|p2a: Venomoth
+|-damage|p2a: Venomoth|201\/293
+|-status|p2a: Venomoth|par
+|
+|turn|20
+|
+|switch|p1a: Flareon|Flareon, L85|284\/284 slp
+|move|p2a: Venomoth|Mega Drain|p1a: Flareon
+|-crit|p1a: Flareon
+|-resisted|p1a: Flareon
+|-damage|p1a: Flareon|261\/284 slp
+|-heal|p2a: Venomoth|212\/293 par|[from] drain|[of] p1a: Flareon
+|
+|turn|21
+|
+|switch|p1a: Kingler|Kingler, L85|60\/267
+|switch|p2a: Blastoise|Blastoise, L85|245\/308 par
+|
+|turn|22
+|
+|move|p1a: Kingler|Crabhammer|p2a: Blastoise
+|-crit|p2a: Blastoise
+|-resisted|p2a: Blastoise
+|-damage|p2a: Blastoise|176\/308 par
+|move|p2a: Blastoise|Earthquake|p1a: Kingler
+|-damage|p1a: Kingler|4\/267
+|
+|turn|23
+|
+|move|p1a: Kingler|Hyper Beam|p2a: Blastoise
+|-crit|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|
+|switch|p2a: Venomoth|Venomoth, L85|212\/293 par
+|turn|24
+|
+|move|p1a: Kingler|Crabhammer|p2a: Venomoth
+|-crit|p2a: Venomoth
+|-damage|p2a: Venomoth|81\/293 par
+|move|p2a: Venomoth|Mega Drain|p1a: Kingler
+|-supereffective|p1a: Kingler
+|-damage|p1a: Kingler|0 fnt
+|-heal|p2a: Venomoth|83\/293 par|[from] drain|[of] p1a: Kingler
+|faint|p1a: Kingler
+|
+|switch|p1a: Flareon|Flareon, L85|261\/284 slp
+|turn|25
+|
+|cant|p1a: Flareon|slp
+|move|p2a: Venomoth|Psychic|p1a: Flareon
+|-damage|p1a: Flareon|204\/284 slp
+|
+|turn|26
+|-message|Korobein Aris forfeited.
+|leave|Korobein Aris
+|
+|cant|p1a: Flareon|slp
+|move|p2a: Venomoth|Psychic|p1a: Flareon
+|-damage|p1a: Flareon|151\/284 slp
+|
+|turn|27
+|
+|win|Lusch
+|raw|Ladder updating...
+|player|p2
+|raw|Lusch's rating: 1324 &rarr; <strong>1331<\/strong><br \/>(+7 for winning)
+|raw|Korobein Aris's rating: 1056 &rarr; <strong>1049<\/strong><br \/>(-7 for losing)

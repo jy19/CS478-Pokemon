@@ -1,0 +1,283 @@
+﻿|j|artmezcua
+|j|Mandelbrot
+|player|p1|artmezcua|162
+|player|p2|Mandelbrot|101
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|2638,60739,18335,33176
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Mr. Mime|Mr. Mime, L85|242\/242
+|switch|p2a: Weepinbell|Weepinbell, L85|284\/284
+|turn|1
+|choice|move 4|switch 5
+|
+|switch|p2a: Electrode|Electrode, L90|291\/291
+|move|p1a: Mr. Mime|Thunder Wave|p2a: Electrode
+|-status|p2a: Electrode|par
+|
+|turn|2
+|choice|move 3|move 3
+|
+|move|p1a: Mr. Mime|Psychic|p2a: Electrode
+|-crit|p2a: Electrode
+|-damage|p2a: Electrode|106\/291 par
+|-unboost|p2a: Electrode|spd|1
+|-unboost|p2a: Electrode|spa|1
+|cant|p2a: Electrode|par
+|
+|turn|3
+|choice|move 3|move 1
+|
+|move|p1a: Mr. Mime|Psychic|p2a: Electrode
+|-damage|p2a: Electrode|0 fnt
+|faint|p2a: Electrode
+|choice||switch 2
+|
+|switch|p2a: Dodrio|Dodrio, L85|276\/276
+|turn|4
+|choice|move 4|move 1
+|
+|move|p2a: Dodrio|Body Slam|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|127\/242
+|move|p1a: Mr. Mime|Thunder Wave|p2a: Dodrio
+|-status|p2a: Dodrio|par
+|
+|turn|5
+|choice|move 1|move 4
+|
+|move|p1a: Mr. Mime|Thunderbolt|p2a: Dodrio
+|-crit|p2a: Dodrio
+|-supereffective|p2a: Dodrio
+|-damage|p2a: Dodrio|0 fnt
+|faint|p2a: Dodrio
+|choice||switch 4
+|
+|switch|p2a: Tauros|Tauros, L79|280\/280
+|turn|6
+|choice|move 4|move 2
+|
+|move|p2a: Tauros|Body Slam|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|29\/242
+|-status|p1a: Mr. Mime|par
+|cant|p1a: Mr. Mime|par
+|
+|turn|7
+|choice|move 4|move 2
+|
+|move|p2a: Tauros|Body Slam|p1a: Mr. Mime
+|-crit|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|0 fnt
+|faint|p1a: Mr. Mime
+|choice|switch 3|
+|
+|switch|p1a: Wigglytuff|Wigglytuff, L90|435\/435
+|turn|8
+|choice|move 1|switch 5
+|
+|switch|p2a: Weepinbell|Weepinbell, L85|284\/284
+|move|p1a: Wigglytuff|Thunder Wave|p2a: Weepinbell
+|-status|p2a: Weepinbell|par
+|
+|turn|9
+|choice|move 3|move 3
+|
+|move|p1a: Wigglytuff|Blizzard|p2a: Weepinbell
+|-supereffective|p2a: Weepinbell
+|-damage|p2a: Weepinbell|153\/284 par
+|move|p2a: Weepinbell|Body Slam|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|350\/435
+|
+|turn|10
+|choice|move 2|switch 3
+|
+|switch|p2a: Primeape|Primeape, L90|300\/300
+|move|p1a: Wigglytuff|Hyper Beam|p2a: Primeape|[miss]
+|-miss|p1a: Wigglytuff
+|
+|turn|11
+|choice|switch 4|move 1
+|
+|switch|p1a: Poliwrath|Poliwrath, L85|327\/327
+|move|p2a: Primeape|Submission|p1a: Poliwrath
+|-damage|p1a: Poliwrath|227\/327
+|-damage|p2a: Primeape|275\/300|[from] recoil|[of] p1a: Poliwrath
+|
+|turn|12
+|choice|move 1|move 3
+|
+|move|p2a: Primeape|Body Slam|p1a: Poliwrath
+|-crit|p1a: Poliwrath
+|-damage|p1a: Poliwrath|104\/327
+|-status|p1a: Poliwrath|par
+|move|p1a: Poliwrath|Amnesia|p1a: Poliwrath
+|-boost|p1a: Poliwrath|spd|2
+|-boost|p1a: Poliwrath|spa|2
+|
+|turn|13
+|choice|move 2|move 2
+|
+|move|p2a: Primeape|Hyper Beam|p1a: Poliwrath
+|-damage|p1a: Poliwrath|0 fnt
+|faint|p1a: Poliwrath
+|choice|switch 4|
+|
+|switch|p1a: Wigglytuff|Wigglytuff, L90|350\/435
+|turn|14
+|choice|move 1|move 1
+|
+|move|p2a: Primeape|Submission|p1a: Wigglytuff
+|-supereffective|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|70\/435
+|-damage|p2a: Primeape|205\/300|[from] recoil|[of] p1a: Wigglytuff
+|move|p1a: Wigglytuff|Thunder Wave|p2a: Primeape
+|-status|p2a: Primeape|par
+|
+|turn|15
+|choice|move 2|move 3
+|
+|move|p1a: Wigglytuff|Hyper Beam|p2a: Primeape
+|-damage|p2a: Primeape|28\/300 par
+|move|p2a: Primeape|Body Slam|p1a: Wigglytuff
+|-crit|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|0 fnt
+|faint|p1a: Wigglytuff
+|choice|switch 6|
+|
+|switch|p1a: Beedrill|Beedrill, L90|300\/300
+|turn|16
+|choice|move 1|move 4
+|
+|move|p1a: Beedrill|Swords Dance|p1a: Beedrill
+|-boost|p1a: Beedrill|atk|2
+|move|p2a: Primeape|Rock Slide|p1a: Beedrill
+|-supereffective|p1a: Beedrill
+|-damage|p1a: Beedrill|128\/300
+|
+|turn|17
+|choice|move 3|move 4
+|
+|move|p1a: Beedrill|Agility|p1a: Beedrill
+|-boost|p1a: Beedrill|spe|2
+|move|p2a: Primeape|Rock Slide|p1a: Beedrill
+|-supereffective|p1a: Beedrill
+|-damage|p1a: Beedrill|0 fnt
+|faint|p1a: Beedrill
+|choice|switch 2|
+|
+|switch|p1a: Vaporeon|Vaporeon, L85|395\/395
+|turn|18
+|choice|move 4|move 3
+|
+|move|p1a: Vaporeon|Blizzard|p2a: Primeape
+|-damage|p2a: Primeape|0 fnt
+|faint|p2a: Primeape
+|choice||switch 6
+|
+|switch|p2a: Golduck|Golduck, L85|310\/310
+|turn|19
+|choice|switch 5|move 1
+|
+|switch|p1a: Chansey|Chansey, L79|557\/557
+|move|p2a: Golduck|Amnesia|p2a: Golduck
+|-boost|p2a: Golduck|spd|2
+|-boost|p2a: Golduck|spa|2
+|
+|turn|20
+|choice|move 3|move 1
+|
+|move|p2a: Golduck|Amnesia|p2a: Golduck
+|-boost|p2a: Golduck|spd|2
+|-boost|p2a: Golduck|spa|2
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-start|p1a: Chansey|Reflect
+|
+|turn|21
+|choice|move 4|move 1
+|
+|move|p2a: Golduck|Amnesia|p2a: Golduck
+|-boost|p2a: Golduck|spd|2
+|-boost|p2a: Golduck|spa|2
+|move|p1a: Chansey|Thunderbolt|p2a: Golduck
+|-crit|p2a: Golduck
+|-supereffective|p2a: Golduck
+|-damage|p2a: Golduck|44\/310
+|
+|turn|22
+|choice|move 4|move 4
+|
+|move|p2a: Golduck|Surf|p1a: Chansey
+|-damage|p1a: Chansey|187\/557
+|move|p1a: Chansey|Thunderbolt|p2a: Golduck
+|-supereffective|p2a: Golduck
+|-damage|p2a: Golduck|9\/310
+|
+|turn|23
+|choice|move 1|move 4
+|
+|move|p2a: Golduck|Surf|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|28\/557
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|306\/557
+|
+|turn|24
+|choice|move 4|move 4
+|
+|move|p2a: Golduck|Surf|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|choice|switch 5|
+|
+|switch|p1a: Vaporeon|Vaporeon, L85|395\/395
+|turn|25
+|choice|move 4|move 4
+|
+|move|p2a: Golduck|Surf|p1a: Vaporeon
+|-crit|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|321\/395
+|move|p1a: Vaporeon|Blizzard|p2a: Golduck
+|-resisted|p2a: Golduck
+|-damage|p2a: Golduck|0 fnt
+|faint|p2a: Golduck
+|choice||switch 3
+|
+|switch|p2a: Weepinbell|Weepinbell, L85|153\/284 par
+|turn|26
+|choice|move 4|move 1
+|
+|move|p1a: Vaporeon|Blizzard|p2a: Weepinbell
+|-supereffective|p2a: Weepinbell
+|-damage|p2a: Weepinbell|0 fnt
+|faint|p2a: Weepinbell
+|choice||switch 5
+|
+|switch|p2a: Tauros|Tauros, L79|280\/280
+|turn|27
+|choice|move 1|move 2
+|
+|move|p2a: Tauros|Body Slam|p1a: Vaporeon
+|-crit|p1a: Vaporeon
+|-damage|p1a: Vaporeon|114\/395
+|move|p1a: Vaporeon|Hydro Pump|p2a: Tauros
+|-damage|p2a: Tauros|107\/280
+|
+|turn|28
+|choice|move 2|move 4
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|
+|win|Mandelbrot
+|raw|artmezcua's rating: 1206 &rarr; <strong>1178<\/strong><br \/>(-28 for losing)
+|raw|Mandelbrot's rating: 1168 &rarr; <strong>1195<\/strong><br \/>(+27 for winning)
+|c|★Mandelbrot|gg
+|l|artmezcua
+|player|p1

@@ -1,0 +1,66 @@
+﻿|join|Umby17
+|join|Medeiros
+|player|p1|Umby17|130
+|player|p2|Medeiros|145
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333\/333
+|switch|p2a: Dragonite|Dragonite|385\/385
+|turn|1
+|join|Wilkhun
+|
+|move|p1a: Jynx|Blizzard|p2a: Dragonite|[miss]
+|-miss|p1a: Jynx
+|move|p2a: Dragonite|Wrap|p1a: Jynx|[miss]
+|-miss|p2a: Dragonite
+|
+|turn|2
+|join|Dan the Cowboy
+|
+|move|p1a: Jynx|Blizzard|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|3
+|
+|move|p2a: Tauros|Body Slam|p1a: Jynx
+|-damage|p1a: Jynx|157\/333
+|move|p1a: Jynx|Counter|p2a: Tauros
+|-damage|p2a: Tauros|1\/353
+|
+|turn|4
+|
+|move|p2a: Tauros|Body Slam|p1a: Jynx
+|-crit|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|turn|5
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|win|Umby17
+|raw|Ladder updating...
+|raw|Umby17's rating: 1214 &rarr; <strong>1226<\/strong><br \/>(+12 for winning)
+|raw|Medeiros's rating: 1000 &rarr; <strong>1000<\/strong><br \/>(+0 for losing)
+|join|sj73
+|leave|Umby17
+|player|p1
+|leave|Wilkhun
+|leave|Dan the Cowboy

@@ -1,0 +1,278 @@
+﻿|join|Giju
+|join|xtra$hine
+|player|p1|Giju|163
+|player|p2|xtra$hine|265
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jyn|Jynx|333\/333
+|switch|p2a: Jolteon|Jolteon|333\/333
+|turn|1
+|
+|switch|p1a: Gol|Golem|363\/363
+|move|p2a: Jolteon|Thunder Wave|p1a: Gol
+|-immune|p1a: Gol|[msg]
+|
+|turn|2
+|c|★Giju|hf ^^
+|c|★xtra$hine|u2 =]
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|move|p1a: Gol|Rock Slide|p2a: Starmie
+|-damage|p2a: Starmie|222\/323
+|
+|turn|3
+|
+|switch|p1a: Chan|Chansey|703\/703
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|323\/323
+|
+|turn|4
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Chan|Thunder Wave|p2a: Exeggutor
+|-status|p2a: Exeggutor|par
+|
+|turn|5
+|
+|switch|p1a: Jyn|Jynx|333\/333
+|move|p2a: Exeggutor|Sleep Powder|p1a: Jyn|[miss]
+|-miss|p2a: Exeggutor
+|
+|turn|6
+|
+|switch|p2a: Jolteon|Jolteon|333\/333
+|move|p1a: Jyn|Lovely Kiss|p2a: Jolteon
+|-status|p2a: Jolteon|slp
+|
+|turn|7
+|join|Typhlito
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|move|p1a: Jyn|Blizzard|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|257\/323
+|
+|turn|8
+|
+|switch|p1a: Chan|Chansey|703\/703
+|move|p2a: Starmie|Psychic|p1a: Chan
+|-damage|p1a: Chan|606\/703
+|
+|turn|9
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393 par
+|move|p1a: Chan|Ice Beam|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|263\/393 par
+|
+|turn|10
+|
+|move|p1a: Chan|Ice Beam|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|136\/393 par
+|move|p2a: Exeggutor|Sleep Powder|p1a: Chan
+|-status|p1a: Chan|slp
+|
+|turn|11
+|
+|cant|p1a: Chan|slp
+|move|p2a: Exeggutor|Stun Spore|p1a: Chan
+|-fail|p1a: Chan
+|
+|turn|12
+|
+|cant|p1a: Chan|slp
+|move|p2a: Exeggutor|Stun Spore|p1a: Chan
+|-fail|p1a: Chan
+|
+|turn|13
+|
+|cant|p1a: Chan|slp
+|move|p2a: Exeggutor|Explosion|p1a: Chan
+|-damage|p1a: Chan|0 fnt
+|faint|p1a: Chan
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Starmie|Starmie|257\/323
+|switch|p1a: Snor|Snorlax|523\/523
+|turn|14
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Snor|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|376\/523
+|
+|turn|15
+|
+|move|p1a: Snor|Reflect|p1a: Snor
+|-start|p1a: Snor|Reflect
+|move|p2a: Snorlax|Body Slam|p1a: Snor
+|-damage|p1a: Snor|448\/523
+|
+|turn|16
+|
+|switch|p2a: Starmie|Starmie|257\/323
+|move|p1a: Snor|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|139\/323
+|-status|p2a: Starmie|par
+|
+|turn|17
+|
+|move|p1a: Snor|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|20\/323 par
+|cant|p2a: Starmie|par
+|
+|turn|18
+|
+|move|p1a: Snor|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|switch|p2a: Zapdos|Zapdos|383\/383
+|turn|19
+|
+|switch|p1a: Gol|Golem|363\/363
+|move|p2a: Zapdos|Thunderbolt|p1a: Gol
+|-immune|p1a: Gol|[msg]
+|
+|turn|20
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|move|p1a: Gol|Rock Slide|p2a: Tauros
+|-damage|p2a: Tauros|248\/353
+|
+|turn|21
+|
+|switch|p1a: Snor|Snorlax|448\/523
+|move|p2a: Tauros|Blizzard|p1a: Snor
+|-damage|p1a: Snor|341\/523
+|
+|turn|22
+|
+|move|p2a: Tauros|Body Slam|p1a: Snor
+|-damage|p1a: Snor|200\/523
+|move|p1a: Snor|Reflect|p1a: Snor
+|-start|p1a: Snor|Reflect
+|
+|turn|23
+|
+|move|p2a: Tauros|Blizzard|p1a: Snor
+|-damage|p1a: Snor|100\/523
+|move|p1a: Snor|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|142\/353
+|
+|turn|24
+|
+|move|p2a: Tauros|Blizzard|p1a: Snor
+|-damage|p1a: Snor|0 fnt
+|faint|p1a: Snor
+|
+|switch|p1a: Tau|Tauros|353\/353
+|turn|25
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Tau
+|-damage|p1a: Tau|181\/353
+|move|p1a: Tau|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|40\/353
+|
+|turn|26
+|-mustrecharge|p2a: Tauros
+|-mustrecharge|p2a: Tauros
+|
+|cant|p2a: Tauros|recharge
+|move|p1a: Tau|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|switch|p2a: Zapdos|Zapdos|383\/383
+|turn|27
+|
+|switch|p1a: Gol|Golem|363\/363
+|switch|p2a: Snorlax|Snorlax|376\/523
+|
+|turn|28
+|join|asbdsp
+|
+|switch|p1a: Tau|Tauros|181\/353
+|move|p2a: Snorlax|Earthquake|p1a: Tau
+|-damage|p1a: Tau|101\/353
+|
+|turn|29
+|
+|move|p1a: Tau|Hyper Beam|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|switch|p2a: Zapdos|Zapdos|383\/383
+|turn|30
+|
+|switch|p1a: Gol|Golem|363\/363
+|move|p2a: Zapdos|Agility|p2a: Zapdos
+|-boost|p2a: Zapdos|spe|2
+|
+|turn|31
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Gol
+|-resisted|p1a: Gol
+|-damage|p1a: Gol|328\/363
+|move|p1a: Gol|Rock Slide|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|184\/383
+|
+|turn|32
+|c|★xtra$hine|i brought
+|c|★xtra$hine|double electric
+|c|★xtra$hine|even when i knew u had golem
+|c|★xtra$hine|just to see how it wud fail LOL
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Gol
+|-resisted|p1a: Gol
+|-damage|p1a: Gol|291\/363
+|move|p1a: Gol|Rock Slide|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|c|★Giju|xD
+|
+|switch|p2a: Jolteon|Jolteon|333\/333 slp
+|turn|33
+|
+|cant|p2a: Jolteon|slp
+|-curestatus|p2a: Jolteon|slp
+|move|p1a: Gol|Earthquake|p2a: Jolteon
+|-supereffective|p2a: Jolteon
+|-damage|p2a: Jolteon|1\/333
+|
+|turn|34
+|
+|move|p2a: Jolteon|Double Kick|p1a: Gol
+|-crit|p1a: Gol
+|-supereffective|p1a: Gol
+|-damage|p1a: Gol|234\/363
+|-damage|p1a: Gol|177\/363
+|-hitcount|p1a: Gol|2
+|move|p1a: Gol|Body Slam|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|
+|win|Giju
+|leave|xtra$hine
+|player|p2
+|c|★Giju|gg :)
+|leave|asbdsp
+|join|innovamania
+|leave|innovamania
+|join|ParaSlam
+|leave|ParaSlam
+|join|zbuu
+|leave|zbuu
+|leave|Typhlito

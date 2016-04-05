@@ -1,0 +1,352 @@
+﻿|join|c353
+|join|DavidXanatos
+|player|p1|c353|167
+|player|p2|DavidXanatos|165
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|seed|13802,14941,37067,51528
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: never miss sleep|Jynx|333\/333
+|switch|p2a: Jynx|Jynx|333\/333
+|turn|1
+|choice|move 1|move 1
+|
+|move|p1a: never miss sleep|Lovely Kiss|p2a: Jynx|[miss]
+|-miss|p1a: never miss sleep
+|move|p2a: Jynx|Lovely Kiss|p1a: never miss sleep
+|-status|p1a: never miss sleep|slp
+|
+|turn|2
+|choice|switch 2|switch 5
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|switch|p1a: hypnosis hit|Gengar|323\/323
+|
+|turn|3
+|choice|move 1|switch 5
+|
+|switch|p2a: Jynx|Jynx|333\/333
+|move|p1a: hypnosis hit|Hypnosis|p2a: Jynx
+|-status|p2a: Jynx|slp
+|
+|turn|4
+|choice|move 3|switch 3
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: hypnosis hit|Confuse Ray|p2a: Exeggutor
+|-start|p2a: Exeggutor|confusion
+|
+|turn|5
+|choice|switch 4|switch 5
+|
+|switch|p1a: trap 2|Cloyster|303\/303
+|switch|p2a: Snorlax|Snorlax|523\/523
+|
+|turn|6
+|choice|move 1|move 1
+|
+|move|p1a: trap 2|Clamp|p2a: Snorlax|[miss]
+|-miss|p1a: trap 2
+|move|p2a: Snorlax|Body Slam|p1a: trap 2
+|-damage|p1a: trap 2|228\/303
+|-status|p1a: trap 2|par
+|
+|turn|7
+|choice|move 1|switch 2
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|move|p1a: trap 2|Clamp|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|303\/323
+|-activate|p2a: Starmie|move: Clamp|[of] p1a: trap 2
+|
+|turn|8
+|c|★c353|i dont know why i made this team
+|choice|move 1|move 2
+|
+|cant|p2a: Starmie|partiallytrapped
+|cant|p1a: trap 2|par
+|
+|-end|p2a: Starmie|Clamp|[partiallytrapped]
+|turn|9
+|choice|move 4|move 2
+|
+|move|p2a: Starmie|Psychic|p1a: trap 2|[miss]
+|-miss|p2a: Starmie
+|move|p1a: trap 2|Blizzard|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|245\/323
+|
+|turn|10
+|choice|move 2|move 2
+|
+|move|p2a: Starmie|Psychic|p1a: trap 2
+|-damage|p1a: trap 2|104\/303 par
+|-unboost|p1a: trap 2|spd|1
+|-unboost|p1a: trap 2|spa|1
+|move|p1a: trap 2|Explosion|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|faint|p1a: trap 2
+|choice|switch 3|switch 2
+|
+|switch|p1a: trap|Dragonite|385\/385
+|switch|p2a: Snorlax|Snorlax|523\/523
+|turn|11
+|choice|move 1|move 1
+|
+|move|p1a: trap|Agility|p1a: trap
+|-boost|p1a: trap|spe|2
+|move|p2a: Snorlax|Body Slam|p1a: trap
+|-damage|p1a: trap|276\/385
+|
+|turn|12
+|choice|move 2|move 1
+|
+|move|p1a: trap|Wrap|p2a: Snorlax|[miss]
+|-miss|p1a: trap
+|move|p2a: Snorlax|Body Slam|p1a: trap
+|-damage|p1a: trap|172\/385
+|-status|p1a: trap|par
+|
+|turn|13
+|choice|move 2|move 2
+|
+|move|p2a: Snorlax|Hyper Beam|p1a: trap
+|-damage|p1a: trap|0 fnt
+|faint|p1a: trap
+|choice|switch 5|
+|
+|switch|p1a: trap 3|Victreebel|363\/363
+|turn|14
+|choice|move 3|move 1
+|
+|move|p1a: trap 3|Swords Dance|p1a: trap 3
+|-boost|p1a: trap 3|atk|2
+|move|p2a: Snorlax|Body Slam|p1a: trap 3
+|-damage|p1a: trap 3|215\/363
+|-status|p1a: trap 3|par
+|
+|turn|15
+|choice|move 1|move 2
+|
+|move|p2a: Snorlax|Hyper Beam|p1a: trap 3|[miss]
+|-miss|p2a: Snorlax
+|move|p1a: trap 3|Razor Leaf|p2a: Snorlax|[miss]
+|-miss|p1a: trap 3
+|
+|turn|16
+|choice|move 1|move 1
+|
+|move|p2a: Snorlax|Body Slam|p1a: trap 3
+|-damage|p1a: trap 3|80\/363 par
+|move|p1a: trap 3|Razor Leaf|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|352\/523
+|
+|turn|17
+|choice|switch 4|move 1
+|
+|switch|p1a: hypnosis hit|Gengar|323\/323
+|move|p2a: Snorlax|Body Slam|p1a: hypnosis hit
+|-immune|p1a: hypnosis hit|[msg]
+|
+|turn|18
+|choice|move 3|switch 3
+|
+|switch|p2a: Jynx|Jynx|333\/333 slp
+|move|p1a: hypnosis hit|Confuse Ray|p2a: Jynx
+|-start|p2a: Jynx|confusion
+|
+|turn|19
+|choice|switch 6|switch 5
+|
+|switch|p1a: no t-bolt crit pls|Slowbro|393\/393
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|
+|turn|20
+|choice|move 4|move 2
+|
+|move|p2a: Exeggutor|Psychic|p1a: no t-bolt crit pls
+|-resisted|p1a: no t-bolt crit pls
+|-damage|p1a: no t-bolt crit pls|327\/393
+|move|p1a: no t-bolt crit pls|Thunder Wave|p2a: Exeggutor
+|-status|p2a: Exeggutor|par
+|
+|turn|21
+|choice|move 1|move 3
+|
+|move|p1a: no t-bolt crit pls|Amnesia|p1a: no t-bolt crit pls
+|-boost|p1a: no t-bolt crit pls|spd|2
+|-boost|p1a: no t-bolt crit pls|spa|2
+|move|p2a: Exeggutor|Explosion|p1a: no t-bolt crit pls|[miss]
+|-miss|p2a: Exeggutor
+|faint|p2a: Exeggutor
+|choice||switch 4
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|turn|22
+|choice|move 4|move 4
+|
+|move|p2a: Chansey|Thunderbolt|p1a: no t-bolt crit pls
+|-supereffective|p1a: no t-bolt crit pls
+|-damage|p1a: no t-bolt crit pls|241\/393
+|move|p1a: no t-bolt crit pls|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|turn|23
+|choice|move 1|move 2
+|
+|move|p1a: no t-bolt crit pls|Amnesia|p1a: no t-bolt crit pls
+|-boost|p1a: no t-bolt crit pls|spd|2
+|-boost|p1a: no t-bolt crit pls|spa|2
+|cant|p2a: Chansey|par
+|
+|turn|24
+|choice|move 1|move 2
+|
+|move|p1a: no t-bolt crit pls|Amnesia|p1a: no t-bolt crit pls
+|-boost|p1a: no t-bolt crit pls|spd|2
+|-boost|p1a: no t-bolt crit pls|spa|2
+|move|p2a: Chansey|Thunder Wave|p1a: no t-bolt crit pls
+|-status|p1a: no t-bolt crit pls|par
+|
+|turn|25
+|choice|move 3|move 4
+|
+|cant|p1a: no t-bolt crit pls|par
+|move|p2a: Chansey|Thunderbolt|p1a: no t-bolt crit pls
+|-supereffective|p1a: no t-bolt crit pls
+|-damage|p1a: no t-bolt crit pls|196\/393 par
+|
+|turn|26
+|choice|move 3|move 4
+|
+|cant|p1a: no t-bolt crit pls|par
+|move|p2a: Chansey|Thunderbolt|p1a: no t-bolt crit pls
+|-supereffective|p1a: no t-bolt crit pls
+|-damage|p1a: no t-bolt crit pls|145\/393 par
+|
+|turn|27
+|choice|move 3|move 4
+|
+|move|p1a: no t-bolt crit pls|Rest|p1a: no t-bolt crit pls
+|-status|p1a: no t-bolt crit pls|slp
+|-heal|p1a: no t-bolt crit pls|393\/393 slp|[silent]
+|-status|p1a: no t-bolt crit pls|slp|[from] move: Rest
+|move|p2a: Chansey|Thunderbolt|p1a: no t-bolt crit pls
+|-supereffective|p1a: no t-bolt crit pls
+|-damage|p1a: no t-bolt crit pls|346\/393 slp
+|
+|turn|28
+|choice|move 2|switch 3
+|
+|switch|p2a: Snorlax|Snorlax|352\/523
+|cant|p1a: no t-bolt crit pls|slp
+|
+|turn|29
+|choice|move 2|move 4
+|
+|move|p2a: Snorlax|Earthquake|p1a: no t-bolt crit pls
+|-damage|p1a: no t-bolt crit pls|266\/393 slp
+|-curestatus|p1a: no t-bolt crit pls|slp
+|
+|turn|30
+|choice|move 2|switch 3
+|
+|switch|p2a: Chansey|Chansey|703\/703 par
+|move|p1a: no t-bolt crit pls|Surf|p2a: Chansey
+|-damage|p2a: Chansey|364\/703 par
+|
+|turn|31
+|choice|move 2|move 4
+|
+|move|p2a: Chansey|Thunderbolt|p1a: no t-bolt crit pls
+|-supereffective|p1a: no t-bolt crit pls
+|-damage|p1a: no t-bolt crit pls|222\/393
+|move|p1a: no t-bolt crit pls|Surf|p2a: Chansey
+|-damage|p2a: Chansey|26\/703 par
+|
+|turn|32
+|choice|move 2|move 4
+|
+|move|p2a: Chansey|Thunderbolt|p1a: no t-bolt crit pls
+|-supereffective|p1a: no t-bolt crit pls
+|-damage|p1a: no t-bolt crit pls|175\/393
+|move|p1a: no t-bolt crit pls|Surf|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|choice||switch 6
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|33
+|choice|move 2|move 2
+|
+|move|p2a: Tauros|Hyper Beam|p1a: no t-bolt crit pls
+|-damage|p1a: no t-bolt crit pls|7\/393
+|move|p1a: no t-bolt crit pls|Surf|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|choice||switch 3
+|
+|switch|p2a: Snorlax|Snorlax|352\/523
+|turn|34
+|choice|move 2|move 1
+|
+|move|p2a: Snorlax|Body Slam|p1a: no t-bolt crit pls
+|-damage|p1a: no t-bolt crit pls|0 fnt
+|faint|p1a: no t-bolt crit pls
+|choice|switch 6|
+|
+|switch|p1a: hypnosis hit|Gengar|323\/323
+|turn|35
+|choice|move 3|move 4
+|
+|move|p1a: hypnosis hit|Confuse Ray|p2a: Snorlax
+|-start|p2a: Snorlax|confusion
+|-activate|p2a: Snorlax|confusion
+|-damage|p2a: Snorlax|304\/523|[from] confusion
+|
+|turn|36
+|choice|move 4|move 4
+|
+|move|p1a: hypnosis hit|Thunderbolt|p2a: Snorlax|[miss]
+|-miss|p1a: hypnosis hit
+|-activate|p2a: Snorlax|confusion
+|-damage|p2a: Snorlax|256\/523|[from] confusion
+|
+|turn|37
+|choice|move 4|move 4
+|
+|move|p1a: hypnosis hit|Thunderbolt|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|30\/523
+|-activate|p2a: Snorlax|confusion
+|-damage|p2a: Snorlax|0 fnt|[from] confusion
+|faint|p2a: Snorlax
+|choice||switch 5
+|
+|switch|p2a: Jynx|Jynx|333\/333 slp
+|turn|38
+|choice|move 2|move 3
+|
+|move|p1a: hypnosis hit|Explosion|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|faint|p1a: hypnosis hit
+|
+|win|c353
+|raw|c353's rating: 1166 &rarr; <strong>1208<\/strong><br \/>(+42 for winning)
+|raw|DavidXanatos's rating: 1442 &rarr; <strong>1409<\/strong><br \/>(-33 for losing)
+|leave|DavidXanatos
+|player|p2
+|c|★c353|im sorry

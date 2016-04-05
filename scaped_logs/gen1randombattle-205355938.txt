@@ -1,0 +1,271 @@
+﻿|join|mario10293
+|join|aptitud
+|player|p1|mario10293|170
+|player|p2|aptitud|144
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Muk|Muk, L86|356\/356
+|switch|p2a: Charizard|Charizard, L86|310\/310
+|turn|1
+|
+|move|p2a: Charizard|Fire Blast|p1a: Muk
+|-damage|p1a: Muk|203\/356
+|-status|p1a: Muk|brn
+|move|p1a: Muk|Body Slam|p2a: Charizard
+|-damage|p2a: Charizard|276\/310
+|-damage|p1a: Muk|181\/356 brn|[from] brn|[of] p2a: Charizard
+|
+|turn|2
+|
+|move|p2a: Charizard|Fire Blast|p1a: Muk
+|-crit|p1a: Muk
+|-damage|p1a: Muk|0 fnt
+|faint|p1a: Muk
+|
+|switch|p1a: Nidoqueen|Nidoqueen, L86|330\/330
+|turn|3
+|
+|move|p2a: Charizard|Fire Blast|p1a: Nidoqueen
+|-crit|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|69\/330
+|move|p1a: Nidoqueen|Thunderbolt|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|152\/310
+|
+|turn|4
+|
+|move|p2a: Charizard|Flamethrower|p1a: Nidoqueen
+|-crit|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|0 fnt
+|faint|p1a: Nidoqueen
+|
+|switch|p1a: Raichu|Raichu, L86|279\/279
+|turn|5
+|
+|move|p1a: Raichu|Thunder|p2a: Charizard|[miss]
+|-miss|p1a: Raichu
+|move|p2a: Charizard|Fire Blast|p1a: Raichu|[miss]
+|-miss|p2a: Charizard
+|
+|turn|6
+|
+|move|p1a: Raichu|Thunder|p2a: Charizard
+|-crit|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|switch|p2a: Lickitung|Lickitung, L86|330\/330
+|turn|7
+|
+|switch|p1a: Aerodactyl|Aerodactyl, L86|313\/313
+|move|p2a: Lickitung|Earthquake|p1a: Aerodactyl
+|-immune|p1a: Aerodactyl|[msg]
+|
+|turn|8
+|
+|move|p1a: Aerodactyl|Reflect|p1a: Aerodactyl
+|move|p2a: Lickitung|Body Slam|p1a: Aerodactyl
+|-resisted|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|295\/313
+|
+|turn|9
+|
+|move|p1a: Aerodactyl|Double-Edge|p2a: Lickitung
+|-damage|p2a: Lickitung|249\/330
+|-damage|p1a: Aerodactyl|275\/313|[from] recoil|[of] p2a: Lickitung
+|move|p2a: Lickitung|Body Slam|p1a: Aerodactyl
+|-resisted|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|258\/313
+|
+|turn|10
+|
+|move|p1a: Aerodactyl|Double-Edge|p2a: Lickitung
+|-crit|p2a: Lickitung
+|-damage|p2a: Lickitung|96\/330
+|-damage|p1a: Aerodactyl|220\/313|[from] recoil|[of] p2a: Lickitung
+|move|p2a: Lickitung|Body Slam|p1a: Aerodactyl
+|-resisted|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|201\/313
+|
+|turn|11
+|
+|move|p1a: Aerodactyl|Double-Edge|p2a: Lickitung
+|-damage|p2a: Lickitung|7\/330
+|-damage|p1a: Aerodactyl|179\/313|[from] recoil|[of] p2a: Lickitung
+|move|p2a: Lickitung|Body Slam|p1a: Aerodactyl
+|-resisted|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|160\/313
+|
+|turn|12
+|
+|move|p1a: Aerodactyl|Double-Edge|p2a: Lickitung
+|-damage|p2a: Lickitung|0 fnt
+|-damage|p1a: Aerodactyl|159\/313|[from] recoil|[of] p2a: Lickitung
+|faint|p2a: Lickitung
+|
+|switch|p2a: Poliwrath|Poliwrath, L86|330\/330
+|turn|13
+|
+|move|p1a: Aerodactyl|Sky Attack|p2a: Poliwrath|[still]
+|-prepare|p1a: Aerodactyl|Sky Attack|p2a: Poliwrath
+|move|p2a: Poliwrath|Blizzard|p1a: Aerodactyl|[miss]
+|-miss|p2a: Poliwrath
+|
+|turn|14
+|
+|move|p1a: Aerodactyl|Sky Attack|p2a: Poliwrath
+|-supereffective|p2a: Poliwrath
+|-damage|p2a: Poliwrath|44\/330
+|move|p2a: Poliwrath|Blizzard|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|0 fnt
+|faint|p1a: Aerodactyl
+|
+|switch|p1a: Raichu|Raichu, L86|279\/279
+|turn|15
+|
+|move|p1a: Raichu|Thunderbolt|p2a: Poliwrath
+|-supereffective|p2a: Poliwrath
+|-damage|p2a: Poliwrath|0 fnt
+|faint|p2a: Poliwrath
+|
+|switch|p2a: Exeggutor|Exeggutor, L82|324\/324
+|turn|16
+|
+|move|p1a: Raichu|Thunder Wave|p2a: Exeggutor
+|-status|p2a: Exeggutor|par
+|move|p2a: Exeggutor|Psychic|p1a: Raichu
+|-damage|p1a: Raichu|171\/279
+|
+|turn|17
+|
+|switch|p1a: Tangela|Tangela, L86|287\/287
+|cant|p2a: Exeggutor|par
+|
+|turn|18
+|
+|move|p1a: Tangela|Swords Dance|p1a: Tangela
+|-boost|p1a: Tangela|atk|2
+|cant|p2a: Exeggutor|par
+|
+|turn|19
+|
+|move|p1a: Tangela|Swords Dance|p1a: Tangela
+|-boost|p1a: Tangela|atk|2
+|move|p2a: Exeggutor|Psychic|p1a: Tangela
+|-damage|p1a: Tangela|187\/287
+|-unboost|p1a: Tangela|spd|1
+|-unboost|p1a: Tangela|spa|1
+|
+|turn|20
+|
+|move|p1a: Tangela|Body Slam|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-damage|p2a: Exeggutor|234\/324 par
+|move|p2a: Exeggutor|Stun Spore|p1a: Tangela
+|-status|p1a: Tangela|par
+|
+|turn|21
+|
+|move|p1a: Tangela|Body Slam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|106\/324 par
+|cant|p2a: Exeggutor|par
+|
+|turn|22
+|
+|cant|p1a: Tangela|par
+|cant|p2a: Exeggutor|par
+|
+|turn|23
+|
+|move|p1a: Tangela|Body Slam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Hitmonlee|Hitmonlee, L86|261\/261
+|turn|24
+|
+|move|p2a: Hitmonlee|Substitute|p2a: Hitmonlee
+|-start|p2a: Hitmonlee|Substitute
+|-damage|p2a: Hitmonlee|196\/261
+|move|p1a: Tangela|Sleep Powder|p2a: Hitmonlee
+|-status|p2a: Hitmonlee|slp
+|
+|turn|25
+|
+|cant|p2a: Hitmonlee|slp
+|move|p1a: Tangela|Body Slam|p2a: Hitmonlee
+|-end|p2a: Hitmonlee|Substitute
+|
+|turn|26
+|
+|cant|p2a: Hitmonlee|slp
+|-curestatus|p2a: Hitmonlee|slp
+|move|p1a: Tangela|Body Slam|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|14\/261
+|
+|turn|27
+|
+|move|p2a: Hitmonlee|Body Slam|p1a: Tangela
+|-damage|p1a: Tangela|133\/287 par
+|move|p1a: Tangela|Body Slam|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|0 fnt
+|faint|p2a: Hitmonlee
+|
+|switch|p2a: Slowbro|Slowbro, L82|324\/324
+|turn|28
+|
+|move|p2a: Slowbro|Surf|p1a: Tangela
+|-resisted|p1a: Tangela
+|-damage|p1a: Tangela|77\/287 par
+|cant|p1a: Tangela|par
+|
+|turn|29
+|
+|move|p2a: Slowbro|Surf|p1a: Tangela
+|-resisted|p1a: Tangela
+|-damage|p1a: Tangela|24\/287 par
+|cant|p1a: Tangela|par
+|
+|turn|30
+|
+|move|p2a: Slowbro|Surf|p1a: Tangela
+|-resisted|p1a: Tangela
+|-damage|p1a: Tangela|0 fnt
+|faint|p1a: Tangela
+|
+|switch|p1a: Raichu|Raichu, L86|171\/279
+|turn|31
+|
+|move|p1a: Raichu|Thunder Wave|p2a: Slowbro
+|-status|p2a: Slowbro|par
+|cant|p2a: Slowbro|par
+|
+|turn|32
+|
+|move|p1a: Raichu|Thunderbolt|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|106\/324 par
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|33
+|
+|move|p1a: Raichu|Thunderbolt|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|
+|win|mario10293
+|raw|Ladder updating...
+|raw|mario10293's rating: 1195 &rarr; <strong>1222<\/strong><br \/>(+27 for winning)
+|raw|aptitud's rating: 1223 &rarr; <strong>1196<\/strong><br \/>(-27 for losing)

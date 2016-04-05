@@ -1,0 +1,379 @@
+﻿|join|Serafila
+|join|the jews
+|player|p1|Serafila|255
+|player|p2|the jews|101
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Hypno|Hypno, L85|318\/318
+|switch|p2a: Golbat|Golbat, L85|301\/301
+|turn|1
+|
+|move|p2a: Golbat|Confuse Ray|p1a: Hypno
+|-start|p1a: Hypno|confusion
+|-activate|p1a: Hypno|confusion
+|-damage|p1a: Hypno|287\/318|[from] confusion
+|
+|turn|2
+|
+|switch|p2a: Chansey|Chansey, L79|557\/557
+|-activate|p1a: Hypno|confusion
+|-damage|p1a: Hypno|256\/318|[from] confusion
+|
+|turn|3
+|
+|switch|p1a: Kakuna|Kakuna, L99|290\/290
+|move|p2a: Chansey|Thunder Wave|p1a: Kakuna
+|-status|p1a: Kakuna|par
+|
+|turn|4
+|
+|switch|p2a: Slowbro|Slowbro, L79|312\/312
+|move|p1a: Kakuna|Poison Sting|p2a: Slowbro
+|-damage|p2a: Slowbro|301\/312
+|
+|turn|5
+|
+|switch|p1a: Chansey|Chansey, L79|557\/557
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|6
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|230\/312
+|move|p2a: Slowbro|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|turn|7
+|
+|switch|p2a: Machamp|Machamp, L85|327\/327
+|cant|p1a: Chansey|par
+|
+|turn|8
+|
+|switch|p1a: Hypno|Hypno, L85|256\/318
+|move|p2a: Machamp|Body Slam|p1a: Hypno
+|-damage|p1a: Hypno|163\/318
+|
+|turn|9
+|
+|switch|p1a: Pinsir|Pinsir, L85|284\/284
+|switch|p2a: Chansey|Chansey, L79|557\/557
+|
+|turn|10
+|
+|switch|p2a: Golbat|Golbat, L85|301\/301
+|move|p1a: Pinsir|Body Slam|p2a: Golbat
+|-crit|p2a: Golbat
+|-damage|p2a: Golbat|127\/301
+|
+|turn|11
+|
+|switch|p1a: Chansey|Chansey, L79|557\/557 par
+|move|p2a: Golbat|Confuse Ray|p1a: Chansey
+|-start|p1a: Chansey|confusion
+|
+|turn|12
+|
+|move|p2a: Golbat|Screech|p1a: Chansey
+|-unboost|p1a: Chansey|def|2
+|-activate|p1a: Chansey|confusion
+|move|p1a: Chansey|Thunder Wave|p2a: Golbat
+|-status|p2a: Golbat|par
+|
+|turn|13
+|
+|switch|p1a: Hypno|Hypno, L85|163\/318
+|cant|p2a: Golbat|par
+|
+|turn|14
+|
+|move|p1a: Hypno|Psychic|p2a: Golbat
+|-supereffective|p2a: Golbat
+|-damage|p2a: Golbat|0 fnt
+|faint|p2a: Golbat
+|
+|switch|p2a: Chansey|Chansey, L79|557\/557
+|turn|15
+|
+|switch|p1a: Chansey|Chansey, L79|557\/557 par
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|
+|turn|16
+|
+|switch|p2a: Machamp|Machamp, L85|327\/327
+|move|p1a: Chansey|Ice Beam|p2a: Machamp
+|-damage|p2a: Machamp|251\/327
+|
+|turn|17
+|
+|switch|p1a: Kakuna|Kakuna, L99|290\/290 par
+|move|p2a: Machamp|Body Slam|p1a: Kakuna
+|-damage|p1a: Kakuna|202\/290 par
+|
+|turn|18
+|
+|switch|p2a: Parasect|Parasect, L85|276\/276
+|move|p1a: Kakuna|Poison Sting|p2a: Parasect
+|-supereffective|p2a: Parasect
+|-damage|p2a: Parasect|222\/276
+|
+|turn|19
+|
+|move|p2a: Parasect|Swords Dance|p2a: Parasect
+|-boost|p2a: Parasect|atk|2
+|move|p1a: Kakuna|Poison Sting|p2a: Parasect
+|-supereffective|p2a: Parasect
+|-damage|p2a: Parasect|169\/276
+|-status|p2a: Parasect|psn
+|
+|turn|20
+|
+|move|p2a: Parasect|Double-Edge|p1a: Kakuna
+|-damage|p1a: Kakuna|43\/290 par
+|-damage|p2a: Parasect|130\/276 psn|[from] recoil|[of] p1a: Kakuna
+|-damage|p2a: Parasect|113\/276 psn|[from] psn|[of] p1a: Kakuna
+|move|p1a: Kakuna|Poison Sting|p2a: Parasect
+|-crit|p2a: Parasect
+|-supereffective|p2a: Parasect
+|-damage|p2a: Parasect|17\/276 psn
+|
+|turn|21
+|
+|move|p2a: Parasect|Double-Edge|p1a: Kakuna
+|-damage|p1a: Kakuna|0 fnt
+|-damage|p2a: Parasect|7\/276 psn|[from] recoil|[of] p1a: Kakuna
+|faint|p1a: Kakuna
+|
+|switch|p1a: Pinsir|Pinsir, L85|284\/284
+|turn|22
+|
+|move|p1a: Pinsir|Body Slam|p2a: Parasect
+|-damage|p2a: Parasect|0 fnt
+|faint|p2a: Parasect
+|
+|switch|p2a: Pidgeot|Pidgeot, L85|315\/315
+|turn|23
+|
+|switch|p1a: Cloyster|Cloyster, L83|253\/253
+|move|p2a: Pidgeot|Double-Edge|p1a: Cloyster
+|-damage|p1a: Cloyster|199\/253
+|-damage|p2a: Pidgeot|302\/315|[from] recoil|[of] p1a: Cloyster
+|
+|turn|24
+|
+|switch|p2a: Chansey|Chansey, L79|557\/557
+|move|p1a: Cloyster|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|449\/557
+|
+|turn|25
+|
+|switch|p1a: Chansey|Chansey, L79|557\/557 par
+|switch|p2a: Machamp|Machamp, L85|251\/327
+|
+|turn|26
+|
+|switch|p1a: Cloyster|Cloyster, L83|199\/253
+|move|p2a: Machamp|Body Slam|p1a: Cloyster
+|-damage|p1a: Cloyster|154\/253
+|-status|p1a: Cloyster|par
+|
+|turn|27
+|
+|switch|p2a: Chansey|Chansey, L79|449\/557
+|move|p1a: Cloyster|Blizzard|p2a: Chansey|[miss]
+|-miss|p1a: Cloyster
+|
+|turn|28
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|14\/253 par
+|move|p1a: Cloyster|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|347\/557
+|
+|turn|29
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|switch|p1a: Pinsir|Pinsir, L85|284\/284
+|turn|30
+|
+|move|p1a: Pinsir|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|136\/557
+|move|p2a: Chansey|Thunder Wave|p1a: Pinsir
+|-status|p1a: Pinsir|par
+|
+|turn|31
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|414\/557
+|move|p1a: Pinsir|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|223\/557
+|
+|turn|32
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|501\/557
+|move|p1a: Pinsir|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|295\/557
+|
+|turn|33
+|
+|switch|p2a: Pidgeot|Pidgeot, L85|302\/315
+|move|p1a: Pinsir|Swords Dance|p1a: Pinsir
+|-boost|p1a: Pinsir|atk|2
+|
+|turn|34
+|
+|move|p2a: Pidgeot|Mirror Move|p2a: Pidgeot
+|move|p2a: Pidgeot|Swords Dance|p2a: Pidgeot|[from]Mirror Move
+|-boost|p2a: Pidgeot|atk|2
+|move|p1a: Pinsir|Body Slam|p2a: Pidgeot
+|-damage|p2a: Pidgeot|131\/315
+|
+|turn|35
+|
+|move|p2a: Pidgeot|Double-Edge|p1a: Pinsir
+|-damage|p1a: Pinsir|104\/284 par
+|-damage|p2a: Pidgeot|86\/315|[from] recoil|[of] p1a: Pinsir
+|move|p1a: Pinsir|Body Slam|p2a: Pidgeot
+|-damage|p2a: Pidgeot|0 fnt
+|faint|p2a: Pidgeot
+|
+|switch|p2a: Machamp|Machamp, L85|251\/327
+|turn|36
+|
+|move|p2a: Machamp|Hyper Beam|p1a: Pinsir
+|-damage|p1a: Pinsir|0 fnt
+|faint|p1a: Pinsir
+|
+|switch|p1a: Hypno|Hypno, L85|163\/318
+|turn|37
+|
+|switch|p2a: Chansey|Chansey, L79|295\/557
+|move|p1a: Hypno|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|197\/557
+|
+|turn|38
+|
+|move|p1a: Hypno|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|91\/557
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|369\/557
+|
+|turn|39
+|
+|switch|p2a: Slowbro|Slowbro, L79|230\/312
+|move|p1a: Hypno|Psychic|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|167\/312
+|
+|turn|40
+|
+|move|p1a: Hypno|Thunder Wave|p2a: Slowbro
+|-status|p2a: Slowbro|par
+|cant|p2a: Slowbro|par
+|
+|turn|41
+|
+|move|p1a: Hypno|Psychic|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|108\/312 par
+|-unboost|p2a: Slowbro|spd|1
+|-unboost|p2a: Slowbro|spa|1
+|move|p2a: Slowbro|Thunder Wave|p1a: Hypno
+|-status|p1a: Hypno|par
+|
+|turn|42
+|
+|switch|p2a: Chansey|Chansey, L79|369\/557
+|move|p1a: Hypno|Psychic|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|165\/557
+|
+|turn|43
+|
+|switch|p1a: Chansey|Chansey, L79|557\/557 par
+|move|p2a: Chansey|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|499\/557 par
+|
+|turn|44
+|
+|switch|p2a: Machamp|Machamp, L85|251\/327
+|move|p1a: Chansey|Thunder Wave|p2a: Machamp
+|-status|p2a: Machamp|par
+|
+|turn|45
+|
+|switch|p1a: Hypno|Hypno, L85|163\/318 par
+|cant|p2a: Machamp|par
+|
+|turn|46
+|c|★the jews|god damn irt
+|c|★the jews|two crucial paras
+|
+|switch|p2a: Slowbro|Slowbro, L79|108\/312 par
+|move|p1a: Hypno|Psychic|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|48\/312 par
+|
+|turn|47
+|
+|cant|p1a: Hypno|par
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|48
+|
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|-heal|p2a: Slowbro|312\/312 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|cant|p1a: Hypno|par
+|
+|turn|49
+|
+|switch|p2a: Machamp|Machamp, L85|251\/327 par
+|switch|p1a: Dragonite|Dragonite, L85|328\/328
+|
+|turn|50
+|
+|move|p1a: Dragonite|Body Slam|p2a: Machamp
+|-damage|p2a: Machamp|167\/327 par
+|move|p2a: Machamp|Body Slam|p1a: Dragonite
+|-damage|p1a: Dragonite|257\/328
+|
+|turn|51
+|
+|move|p1a: Dragonite|Thunderbolt|p2a: Machamp
+|-crit|p2a: Machamp
+|-damage|p2a: Machamp|16\/327 par
+|move|p2a: Machamp|Body Slam|p1a: Dragonite
+|-damage|p1a: Dragonite|185\/328
+|
+|turn|52
+|-message|the jews forfeited.
+|leave|the jews
+|
+|win|Serafila
+|raw|Ladder updating...
+|player|p2
+|raw|Serafila's rating: 1114 &rarr; <strong>1146<\/strong><br \/>(+32 for winning)
+|raw|the jews's rating: 1216 &rarr; <strong>1184<\/strong><br \/>(-32 for losing)

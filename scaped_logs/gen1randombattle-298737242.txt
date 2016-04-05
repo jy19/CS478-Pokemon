@@ -1,0 +1,293 @@
+﻿|join|Noratraika
+|join|filthy maxican
+|player|p1|Noratraika|285
+|player|p2|filthy maxican|1
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|55780,2892,56986,50503
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Nidoran-M|Nidoran-M, L96|283\/283
+|switch|p2a: Dragonair|Dragonair, L85|277\/277
+|turn|1
+|join|no.1 kek
+|choice|move 3|switch 5
+|
+|switch|p2a: Kadabra|Kadabra, L85|242\/242
+|move|p1a: Nidoran-M|Body Slam|p2a: Kadabra
+|-damage|p2a: Kadabra|140\/242
+|
+|turn|2
+|choice|move 3|move 1
+|
+|move|p2a: Kadabra|Psychic|p1a: Nidoran-M
+|-crit|p1a: Nidoran-M
+|-supereffective|p1a: Nidoran-M
+|-damage|p1a: Nidoran-M|0 fnt
+|faint|p1a: Nidoran-M
+|choice|switch 6|
+|
+|switch|p1a: Exeggutor|Exeggutor, L79|312\/312
+|turn|3
+|choice|move 1|switch 4
+|
+|switch|p2a: Flareon|Flareon, L90|300\/300
+|move|p1a: Exeggutor|Sleep Powder|p2a: Flareon
+|-status|p2a: Flareon|slp
+|
+|turn|4
+|choice|move 2|move 1
+|
+|cant|p2a: Flareon|slp
+|move|p1a: Exeggutor|Psychic|p2a: Flareon
+|-damage|p2a: Flareon|223\/300 slp
+|
+|turn|5
+|choice|switch 4|move 1
+|
+|switch|p1a: Wartortle|Wartortle, L85|274\/274
+|cant|p2a: Flareon|slp
+|
+|turn|6
+|choice|move 1|switch 2
+|
+|switch|p2a: Electabuzz|Electabuzz, L85|284\/284
+|move|p1a: Wartortle|Mimic|p2a: Electabuzz
+|-start|p1a: Wartortle|Mimic|Thunderbolt
+|
+|turn|7
+|choice|switch 5|move 2
+|
+|switch|p1a: Golem|Golem, L79|288\/288
+|move|p2a: Electabuzz|Thunder Wave|p1a: Golem
+|-immune|p1a: Golem|[msg]
+|
+|turn|8
+|choice|move 3|switch 5
+|
+|switch|p2a: Dragonair|Dragonair, L85|277\/277
+|move|p1a: Golem|Body Slam|p2a: Dragonair
+|-damage|p2a: Dragonair|209\/277
+|
+|turn|9
+|choice|switch 5|move 4
+|
+|switch|p1a: Wartortle|Wartortle, L85|274\/274
+|move|p2a: Dragonair|Surf|p1a: Wartortle
+|-resisted|p1a: Wartortle
+|-damage|p1a: Wartortle|241\/274
+|
+|turn|10
+|choice|move 3|move 2
+|
+|move|p2a: Dragonair|Thunderbolt|p1a: Wartortle
+|-crit|p1a: Wartortle
+|-supereffective|p1a: Wartortle
+|-damage|p1a: Wartortle|0 fnt
+|faint|p1a: Wartortle
+|choice|switch 4|
+|
+|switch|p1a: Exeggutor|Exeggutor, L79|312\/312
+|turn|11
+|choice|move 2|move 3
+|
+|move|p2a: Dragonair|Ice Beam|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|221\/312
+|move|p1a: Exeggutor|Psychic|p2a: Dragonair
+|-damage|p2a: Dragonair|100\/277
+|
+|turn|12
+|choice|move 2|switch 2
+|
+|switch|p2a: Flareon|Flareon, L90|223\/300 slp
+|move|p1a: Exeggutor|Psychic|p2a: Flareon
+|-damage|p2a: Flareon|140\/300 slp
+|
+|turn|13
+|choice|move 2|move 1
+|
+|-curestatus|p2a: Flareon|slp
+|move|p1a: Exeggutor|Psychic|p2a: Flareon
+|-damage|p2a: Flareon|65\/300
+|
+|turn|14
+|choice|switch 5|move 1
+|
+|switch|p1a: Golem|Golem, L79|288\/288
+|move|p2a: Flareon|Fire Blast|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|172\/288
+|
+|turn|15
+|choice|move 4|switch 6
+|
+|switch|p2a: Kangaskhan|Kangaskhan, L85|352\/352
+|move|p1a: Golem|Earthquake|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|243\/352
+|
+|turn|16
+|choice|switch 3|move 4
+|
+|switch|p1a: Cloyster|Cloyster, L83|253\/253
+|move|p2a: Kangaskhan|Surf|p1a: Cloyster
+|-resisted|p1a: Cloyster
+|-damage|p1a: Cloyster|230\/253
+|
+|turn|17
+|choice|move 2|move 2
+|
+|move|p1a: Cloyster|Surf|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|99\/352
+|move|p2a: Kangaskhan|Counter|p1a: Cloyster
+|-fail|p2a: Kangaskhan
+|
+|turn|18
+|choice|move 2|switch 3
+|
+|switch|p2a: Persian|Persian, L79|265\/265
+|move|p1a: Cloyster|Surf|p2a: Persian
+|-crit|p2a: Persian
+|-damage|p2a: Persian|48\/265
+|
+|turn|19
+|choice|move 2|move 4
+|
+|move|p2a: Persian|Hyper Beam|p1a: Cloyster
+|-damage|p1a: Cloyster|157\/253
+|move|p1a: Cloyster|Surf|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|faint|p2a: Persian
+|choice||switch 5
+|
+|switch|p2a: Electabuzz|Electabuzz, L85|284\/284
+|turn|20
+|choice|switch 3|move 3
+|
+|switch|p1a: Golem|Golem, L79|172\/288
+|move|p2a: Electabuzz|Thunderbolt|p1a: Golem
+|-immune|p1a: Golem|[msg]
+|
+|turn|21
+|choice|move 4|switch 3
+|
+|switch|p2a: Kangaskhan|Kangaskhan, L85|99\/352
+|move|p1a: Golem|Earthquake|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|2\/352
+|
+|turn|22
+|choice|switch 3|move 4
+|
+|switch|p1a: Cloyster|Cloyster, L83|157\/253
+|move|p2a: Kangaskhan|Surf|p1a: Cloyster
+|-resisted|p1a: Cloyster
+|-damage|p1a: Cloyster|133\/253
+|
+|turn|23
+|choice|move 2|move 3
+|
+|move|p2a: Kangaskhan|Hyper Beam|p1a: Cloyster|[miss]
+|-miss|p2a: Kangaskhan
+|move|p1a: Cloyster|Surf|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|faint|p2a: Kangaskhan
+|choice||switch 3
+|
+|switch|p2a: Electabuzz|Electabuzz, L85|284\/284
+|turn|24
+|choice|switch 3|move 1
+|
+|switch|p1a: Golem|Golem, L79|172\/288
+|move|p2a: Electabuzz|Psychic|p1a: Golem
+|-crit|p1a: Golem
+|-damage|p1a: Golem|8\/288
+|-unboost|p1a: Golem|spd|1
+|-unboost|p1a: Golem|spa|1
+|
+|turn|25
+|choice|move 2|move 4
+|
+|move|p2a: Electabuzz|Seismic Toss|p1a: Golem
+|-damage|p1a: Golem|0 fnt
+|faint|p1a: Golem
+|choice|switch 5|
+|
+|switch|p1a: Exeggutor|Exeggutor, L79|221\/312
+|turn|26
+|choice|move 2|move 2
+|
+|move|p2a: Electabuzz|Thunder Wave|p1a: Exeggutor
+|-status|p1a: Exeggutor|par
+|cant|p1a: Exeggutor|par
+|
+|turn|27
+|choice|move 2|move 4
+|
+|move|p2a: Electabuzz|Seismic Toss|p1a: Exeggutor
+|-damage|p1a: Exeggutor|136\/312 par
+|move|p1a: Exeggutor|Psychic|p2a: Electabuzz
+|-damage|p2a: Electabuzz|186\/284
+|
+|turn|28
+|choice|move 4|move 4
+|
+|move|p2a: Electabuzz|Seismic Toss|p1a: Exeggutor
+|-damage|p1a: Exeggutor|51\/312 par
+|move|p1a: Exeggutor|Explosion|p2a: Electabuzz
+|-damage|p2a: Electabuzz|0 fnt
+|faint|p2a: Electabuzz
+|faint|p1a: Exeggutor
+|choice|switch 3|switch 4
+|
+|switch|p2a: Kadabra|Kadabra, L85|140\/242
+|switch|p1a: Cloyster|Cloyster, L83|133\/253
+|turn|29
+|choice|move 1|move 1
+|
+|move|p2a: Kadabra|Psychic|p1a: Cloyster
+|-damage|p1a: Cloyster|16\/253
+|-unboost|p1a: Cloyster|spd|1
+|-unboost|p1a: Cloyster|spa|1
+|move|p1a: Cloyster|Explosion|p2a: Kadabra
+|-damage|p2a: Kadabra|0 fnt
+|faint|p2a: Kadabra
+|faint|p1a: Cloyster
+|choice|switch 2|switch 2
+|
+|switch|p1a: Pinsir|Pinsir, L85|284\/284
+|switch|p2a: Dragonair|Dragonair, L85|100\/277
+|turn|30
+|choice|move 1|move 2
+|
+|move|p1a: Pinsir|Hyper Beam|p2a: Dragonair|[miss]
+|-miss|p1a: Pinsir
+|move|p2a: Dragonair|Thunderbolt|p1a: Pinsir
+|-damage|p1a: Pinsir|212\/284
+|
+|turn|31
+|choice|move 1|move 2
+|
+|move|p1a: Pinsir|Hyper Beam|p2a: Dragonair
+|-damage|p2a: Dragonair|0 fnt
+|faint|p2a: Dragonair
+|choice||switch 6
+|
+|switch|p2a: Flareon|Flareon, L90|65\/300
+|turn|32
+|choice|move 4|move 1
+|
+|move|p1a: Pinsir|Body Slam|p2a: Flareon
+|-crit|p2a: Flareon
+|-damage|p2a: Flareon|0 fnt
+|faint|p2a: Flareon
+|
+|win|Noratraika
+|raw|Noratraika's rating: 1164 &rarr; <strong>1178<\/strong><br \/>(+14 for winning)
+|raw|filthy maxican's rating: 1000 &rarr; <strong>1000<\/strong><br \/>(+0 for losing)
+|leave|filthy maxican
+|player|p2

@@ -1,0 +1,465 @@
+﻿|join|BriIIance
+|join|kid gf lol
+|player|p1|BriIIance|266
+|player|p2|kid gf lol|168
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|switch|p2a: Mr Mime|Gengar|323\/323
+|turn|1
+|
+|move|p2a: Mr Mime|Hypnosis|p1a: Exeggutor
+|-status|p1a: Exeggutor|slp
+|cant|p1a: Exeggutor|slp
+|
+|turn|2
+|
+|switch|p2a: GhostInaShell|Cloyster|303\/303
+|cant|p1a: Exeggutor|slp
+|-curestatus|p1a: Exeggutor|slp
+|
+|turn|3
+|
+|switch|p1a: You're gonna be pi|Starmie|323\/323
+|move|p2a: GhostInaShell|Clamp|p1a: You're gonna be pi
+|-resisted|p1a: You're gonna be pi
+|-damage|p1a: You're gonna be pi|305\/323
+|-activate|p1a: You're gonna be pi|move: Clamp|[of] p2a: GhostInaShell
+|
+|turn|4
+|
+|switch|p2a: Egg Kangaroo|Chansey|703\/703
+|cant|p1a: You're gonna be pi|partiallytrapped
+|
+|-end|p1a: You're gonna be pi|Clamp|[partiallytrapped]
+|turn|5
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Egg Kangaroo|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|631\/703
+|
+|turn|6
+|
+|switch|p2a: GhostInaShell|Cloyster|303\/303
+|move|p1a: Chansey|Ice Beam|p2a: GhostInaShell
+|-resisted|p2a: GhostInaShell
+|-damage|p2a: GhostInaShell|282\/303
+|
+|turn|7
+|
+|switch|p2a: Egg Kangaroo|Chansey|703\/703
+|move|p1a: Chansey|Thunder Wave|p2a: Egg Kangaroo
+|-status|p2a: Egg Kangaroo|par
+|
+|turn|8
+|
+|switch|p1a: Lapras|Lapras|463\/463
+|cant|p2a: Egg Kangaroo|par
+|
+|turn|9
+|
+|move|p1a: Lapras|Confuse Ray|p2a: Egg Kangaroo
+|-start|p2a: Egg Kangaroo|confusion
+|cant|p2a: Egg Kangaroo|par
+|
+|turn|10
+|
+|switch|p2a: Mr Mime|Gengar|323\/323
+|move|p1a: Lapras|Body Slam|p2a: Mr Mime
+|-immune|p2a: Mr Mime|[msg]
+|
+|turn|11
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Mr Mime|Hypnosis|p1a: Exeggutor
+|-status|p1a: Exeggutor|slp
+|
+|turn|12
+|
+|switch|p2a: GhostInaShell|Cloyster|282\/303
+|cant|p1a: Exeggutor|slp
+|
+|turn|13
+|
+|switch|p1a: You're gonna be pi|Starmie|305\/323
+|move|p2a: GhostInaShell|Clamp|p1a: You're gonna be pi
+|-resisted|p1a: You're gonna be pi
+|-damage|p1a: You're gonna be pi|287\/323
+|-activate|p1a: You're gonna be pi|move: Clamp|[of] p2a: GhostInaShell
+|
+|turn|14
+|
+|switch|p1a: Lapras|Lapras|463\/463
+|switch|p2a: Egg Kangaroo|Chansey|703\/703 par
+|
+|turn|15
+|
+|move|p1a: Lapras|Body Slam|p2a: Egg Kangaroo
+|-damage|p2a: Egg Kangaroo|528\/703 par
+|cant|p2a: Egg Kangaroo|par
+|
+|turn|16
+|join|Armagedon17
+|join|BoomBangBoi
+|
+|move|p1a: Lapras|Thunderbolt|p2a: Egg Kangaroo
+|-damage|p2a: Egg Kangaroo|461\/703 par
+|cant|p2a: Egg Kangaroo|par
+|
+|turn|17
+|
+|switch|p1a: Golem|Golem|363\/363
+|move|p2a: Egg Kangaroo|Soft-Boiled|p2a: Egg Kangaroo
+|-heal|p2a: Egg Kangaroo|703\/703 par
+|
+|turn|18
+|
+|switch|p2a: Result of Incest|Exeggutor|393\/393
+|move|p1a: Golem|Rock Slide|p2a: Result of Incest
+|-damage|p2a: Result of Incest|297\/393
+|
+|turn|19
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393 slp
+|move|p2a: Result of Incest|Mega Drain|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|371\/393 slp
+|-heal|p2a: Result of Incest|308\/393|[from] drain|[of] p1a: Exeggutor
+|
+|turn|20
+|
+|switch|p2a: GhostInaShell|Cloyster|282\/303
+|cant|p1a: Exeggutor|slp
+|
+|turn|21
+|leave|BoomBangBoi
+|
+|switch|p1a: You're gonna be pi|Starmie|287\/323
+|move|p2a: GhostInaShell|Blizzard|p1a: You're gonna be pi
+|-resisted|p1a: You're gonna be pi
+|-damage|p1a: You're gonna be pi|227\/323
+|
+|turn|22
+|
+|switch|p2a: Mr Mime|Gengar|323\/323
+|move|p1a: You're gonna be pi|Psychic|p2a: Mr Mime
+|-crit|p2a: Mr Mime
+|-supereffective|p2a: Mr Mime
+|-damage|p2a: Mr Mime|0 fnt
+|faint|p2a: Mr Mime
+|
+|chat|kid gf lol|wdf
+|
+|switch|p2a: Egg Kangaroo|Chansey|703\/703 par
+|turn|23
+|
+|switch|p1a: Lapras|Lapras|463\/463
+|move|p2a: Egg Kangaroo|Thunder Wave|p1a: Lapras
+|-status|p1a: Lapras|par
+|
+|turn|24
+|
+|move|p1a: Lapras|Confuse Ray|p2a: Egg Kangaroo
+|-start|p2a: Egg Kangaroo|confusion
+|-activate|p2a: Egg Kangaroo|confusion
+|move|p2a: Egg Kangaroo|Light Screen|p2a: Egg Kangaroo
+|
+|turn|25
+|
+|move|p1a: Lapras|Body Slam|p2a: Egg Kangaroo
+|-damage|p2a: Egg Kangaroo|526\/703 par
+|cant|p2a: Egg Kangaroo|par
+|
+|turn|26
+|
+|move|p1a: Lapras|Body Slam|p2a: Egg Kangaroo
+|-damage|p2a: Egg Kangaroo|374\/703 par
+|cant|p2a: Egg Kangaroo|par
+|
+|turn|27
+|
+|cant|p1a: Lapras|par
+|-activate|p2a: Egg Kangaroo|confusion
+|-damage|p2a: Egg Kangaroo|344\/703 par|[from] confusion
+|
+|turn|28
+|
+|move|p1a: Lapras|Body Slam|p2a: Egg Kangaroo
+|-damage|p2a: Egg Kangaroo|171\/703 par
+|cant|p2a: Egg Kangaroo|par
+|
+|turn|29
+|
+|switch|p2a: Badluck Brian|Victreebel|363\/363
+|move|p1a: Lapras|Body Slam|p2a: Badluck Brian
+|-crit|p2a: Badluck Brian
+|-damage|p2a: Badluck Brian|193\/363
+|
+|turn|30
+|
+|switch|p1a: Exeggutor|Exeggutor|371\/393 slp
+|move|p2a: Badluck Brian|Wrap|p1a: Exeggutor|[miss]
+|-miss|p2a: Badluck Brian
+|
+|turn|31
+|
+|move|p2a: Badluck Brian|Wrap|p1a: Exeggutor
+|-damage|p1a: Exeggutor|357\/393 slp
+|-activate|p1a: Exeggutor|move: Wrap|[of] p2a: Badluck Brian
+|cant|p1a: Exeggutor|slp
+|
+|turn|32
+|
+|move|p2a: Badluck Brian|Wrap|p1a: Exeggutor
+|-damage|p1a: Exeggutor|343\/393 slp
+|cant|p1a: Exeggutor|slp
+|
+|-end|p1a: Exeggutor|Wrap|[partiallytrapped]
+|turn|33
+|
+|move|p2a: Badluck Brian|Razor Leaf|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|288\/393 slp
+|cant|p1a: Exeggutor|slp
+|
+|turn|34
+|
+|move|p2a: Badluck Brian|Razor Leaf|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|234\/393 slp
+|cant|p1a: Exeggutor|slp
+|-curestatus|p1a: Exeggutor|slp
+|
+|turn|35
+|
+|move|p2a: Badluck Brian|Wrap|p1a: Exeggutor
+|-damage|p1a: Exeggutor|219\/393
+|-activate|p1a: Exeggutor|move: Wrap|[of] p2a: Badluck Brian
+|cant|p1a: Exeggutor|partiallytrapped
+|
+|turn|36
+|
+|move|p2a: Badluck Brian|Wrap|p1a: Exeggutor
+|-damage|p1a: Exeggutor|204\/393
+|cant|p1a: Exeggutor|partiallytrapped
+|
+|turn|37
+|
+|move|p2a: Badluck Brian|Wrap|p1a: Exeggutor
+|-damage|p1a: Exeggutor|189\/393
+|cant|p1a: Exeggutor|partiallytrapped
+|
+|-end|p1a: Exeggutor|Wrap|[partiallytrapped]
+|turn|38
+|
+|move|p2a: Badluck Brian|Wrap|p1a: Exeggutor|[miss]
+|-miss|p2a: Badluck Brian
+|move|p1a: Exeggutor|Psychic|p2a: Badluck Brian
+|-crit|p2a: Badluck Brian
+|-supereffective|p2a: Badluck Brian
+|-damage|p2a: Badluck Brian|0 fnt
+|faint|p2a: Badluck Brian
+|
+|
+|switch|p2a: GhostInaShell|Cloyster|282\/303
+|turn|39
+|
+|switch|p1a: You're gonna be pi|Starmie|227\/323
+|move|p2a: GhostInaShell|Blizzard|p1a: You're gonna be pi
+|-resisted|p1a: You're gonna be pi
+|-damage|p1a: You're gonna be pi|167\/323
+|
+|turn|40
+|
+|switch|p1a: Golem|Golem|363\/363
+|switch|p2a: Result of Incest|Exeggutor|308\/393
+|
+|turn|41
+|
+|switch|p2a: GhostInaShell|Cloyster|282\/303
+|switch|p1a: Chansey|Chansey|631\/703
+|
+|turn|42
+|
+|move|p2a: GhostInaShell|Clamp|p1a: Chansey
+|-damage|p1a: Chansey|593\/703
+|-activate|p1a: Chansey|move: Clamp|[of] p2a: GhostInaShell
+|cant|p1a: Chansey|partiallytrapped
+|
+|turn|43
+|
+|move|p2a: GhostInaShell|Clamp|p1a: Chansey
+|-damage|p1a: Chansey|555\/703
+|cant|p1a: Chansey|partiallytrapped
+|
+|turn|44
+|
+|move|p2a: GhostInaShell|Clamp|p1a: Chansey
+|-damage|p1a: Chansey|517\/703
+|cant|p1a: Chansey|partiallytrapped
+|
+|turn|45
+|
+|switch|p1a: Lapras|Lapras|463\/463 par
+|move|p2a: GhostInaShell|Clamp|p1a: Lapras
+|-resisted|p1a: Lapras
+|-damage|p1a: Lapras|443\/463 par
+|-activate|p1a: Lapras|move: Clamp|[of] p2a: GhostInaShell
+|
+|turn|46
+|
+|switch|p1a: You're gonna be pi|Starmie|167\/323
+|move|p2a: GhostInaShell|Clamp|p1a: You're gonna be pi
+|-resisted|p1a: You're gonna be pi
+|-damage|p1a: You're gonna be pi|148\/323
+|-activate|p1a: You're gonna be pi|move: Clamp|[of] p2a: GhostInaShell
+|
+|turn|47
+|
+|switch|p1a: Chansey|Chansey|517\/703
+|move|p2a: GhostInaShell|Clamp|p1a: Chansey
+|-damage|p1a: Chansey|483\/703
+|-activate|p1a: Chansey|move: Clamp|[of] p2a: GhostInaShell
+|
+|turn|48
+|
+|switch|p1a: Lapras|Lapras|443\/463 par
+|move|p2a: GhostInaShell|Clamp|p1a: Lapras
+|-crit|p1a: Lapras
+|-resisted|p1a: Lapras
+|-damage|p1a: Lapras|407\/463 par
+|-activate|p1a: Lapras|move: Clamp|[of] p2a: GhostInaShell
+|
+|turn|49
+|
+|switch|p1a: Chansey|Chansey|483\/703
+|move|p2a: GhostInaShell|Clamp|p1a: Chansey
+|-damage|p1a: Chansey|446\/703
+|-activate|p1a: Chansey|move: Clamp|[of] p2a: GhostInaShell
+|
+|turn|50
+|
+|switch|p1a: Lapras|Lapras|407\/463 par
+|move|p2a: GhostInaShell|Clamp|p1a: Lapras
+|-resisted|p1a: Lapras
+|-damage|p1a: Lapras|389\/463 par
+|-activate|p1a: Lapras|move: Clamp|[of] p2a: GhostInaShell
+|
+|turn|51
+|
+|switch|p1a: Chansey|Chansey|446\/703
+|move|p2a: GhostInaShell|Clamp|p1a: Chansey
+|-damage|p1a: Chansey|407\/703
+|-activate|p1a: Chansey|move: Clamp|[of] p2a: GhostInaShell
+|
+|turn|52
+|
+|switch|p1a: Lapras|Lapras|389\/463 par
+|move|p2a: GhostInaShell|Clamp|p1a: Lapras
+|-resisted|p1a: Lapras
+|-damage|p1a: Lapras|370\/463 par
+|-activate|p1a: Lapras|move: Clamp|[of] p2a: GhostInaShell
+|
+|turn|53
+|
+|switch|p2a: Egg Kangaroo|Chansey|171\/703 par
+|cant|p1a: Lapras|partiallytrapped
+|
+|-end|p1a: Lapras|Clamp|[partiallytrapped]
+|turn|54
+|
+|move|p1a: Lapras|Body Slam|p2a: Egg Kangaroo
+|-crit|p2a: Egg Kangaroo
+|-damage|p2a: Egg Kangaroo|0 fnt
+|faint|p2a: Egg Kangaroo
+|
+|chat|kid gf lol|wtf? this makes no sense
+|
+|switch|p2a: GhostInaShell|Cloyster|282\/303
+|turn|55
+|
+|move|p2a: GhostInaShell|Clamp|p1a: Lapras
+|-resisted|p1a: Lapras
+|-damage|p1a: Lapras|351\/463 par
+|-activate|p1a: Lapras|move: Clamp|[of] p2a: GhostInaShell
+|cant|p1a: Lapras|partiallytrapped
+|
+|turn|56
+|
+|switch|p1a: Chansey|Chansey|407\/703
+|move|p2a: GhostInaShell|Clamp|p1a: Chansey
+|-damage|p1a: Chansey|370\/703
+|-activate|p1a: Chansey|move: Clamp|[of] p2a: GhostInaShell
+|
+|turn|57
+|
+|switch|p1a: Lapras|Lapras|351\/463 par
+|move|p2a: GhostInaShell|Clamp|p1a: Lapras
+|-resisted|p1a: Lapras
+|-damage|p1a: Lapras|333\/463 par
+|-activate|p1a: Lapras|move: Clamp|[of] p2a: GhostInaShell
+|
+|turn|58
+|
+|switch|p1a: Chansey|Chansey|370\/703
+|move|p2a: GhostInaShell|Clamp|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|302\/703
+|-activate|p1a: Chansey|move: Clamp|[of] p2a: GhostInaShell
+|
+|turn|59
+|
+|switch|p2a: Result of Incest|Exeggutor|308\/393
+|switch|p1a: Lapras|Lapras|333\/463 par
+|
+|turn|60
+|
+|move|p2a: Result of Incest|Leech Seed|p1a: Lapras
+|-start|p1a: Lapras|move: Leech Seed
+|move|p1a: Lapras|Confuse Ray|p2a: Result of Incest
+|-start|p2a: Result of Incest|confusion
+|-damage|p1a: Lapras|305\/463 par|[from] Leech Seed|[of] p2a: Result of Incest
+|-heal|p2a: Result of Incest|336\/393|[silent]
+|
+|turn|61
+|
+|-activate|p2a: Result of Incest|confusion
+|-damage|p2a: Result of Incest|304\/393|[from] confusion
+|move|p1a: Lapras|Blizzard|p2a: Result of Incest
+|-supereffective|p2a: Result of Incest
+|-damage|p2a: Result of Incest|73\/393
+|-damage|p1a: Lapras|277\/463 par|[from] Leech Seed|[of] p2a: Result of Incest
+|-heal|p2a: Result of Incest|101\/393|[silent]
+|
+|turn|62
+|chat|kid gf lol|ok
+|
+|-activate|p2a: Result of Incest|confusion
+|-damage|p2a: Result of Incest|69\/393|[from] confusion
+|move|p1a: Lapras|Blizzard|p2a: Result of Incest
+|-supereffective|p2a: Result of Incest
+|-damage|p2a: Result of Incest|0 fnt
+|faint|p2a: Result of Incest
+|
+|chat|kid gf lol|this match was pure bs, not continuing this
+|-message|kid gf lol forfeited.
+|
+|win|BriIIance
+|raw|Ladder updating...
+|leave|kid gf lol
+|player|p2
+|raw|BriIIance's rating: 1207 &rarr; <strong>1246<\/strong><br \/>(+39 for winning)
+|raw|kid gf lol's rating: 1433 &rarr; <strong>1402<\/strong><br \/>(-31 for losing)

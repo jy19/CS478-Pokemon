@@ -1,0 +1,300 @@
+﻿|j|izicual
+|j|callmebigmeat
+|player|p1|izicual|169
+|player|p2|callmebigmeat|1
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|seed|30134,36121,38688,54929
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Exeggutor|Exeggutor, L79|312\/312
+|switch|p2a: Charmeleon|Charmeleon, L85|272\/272
+|turn|1
+|choice|move 1|move 1
+|
+|move|p2a: Charmeleon|Fire Blast|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|choice|switch 2|
+|
+|switch|p1a: Gyarados|Gyarados, L85|335\/335
+|turn|2
+|choice|move 4|switch 5
+|
+|switch|p2a: Gengar|Gengar, L79|257\/257
+|move|p1a: Gyarados|Blizzard|p2a: Gengar
+|-damage|p2a: Gengar|178\/257
+|-status|p2a: Gengar|frz
+|
+|turn|3
+|choice|move 2|move 1
+|
+|cant|p2a: Gengar|frz
+|move|p1a: Gyarados|Surf|p2a: Gengar
+|-damage|p2a: Gengar|89\/257 frz
+|
+|turn|4
+|choice|move 2|move 1
+|
+|cant|p2a: Gengar|frz
+|move|p1a: Gyarados|Surf|p2a: Gengar
+|-damage|p2a: Gengar|1\/257 frz
+|
+|turn|5
+|choice|move 3|move 1
+|
+|cant|p2a: Gengar|frz
+|move|p1a: Gyarados|Body Slam|p2a: Gengar
+|-immune|p2a: Gengar|[msg]
+|
+|turn|6
+|choice|move 2|move 1
+|
+|cant|p2a: Gengar|frz
+|move|p1a: Gyarados|Surf|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|choice||switch 3
+|
+|switch|p2a: Scyther|Scyther, L90|309\/309
+|turn|7
+|choice|move 4|move 1
+|
+|move|p2a: Scyther|Slash|p1a: Gyarados
+|-crit|p1a: Gyarados
+|-damage|p1a: Gyarados|206\/335
+|move|p1a: Gyarados|Blizzard|p2a: Scyther
+|-supereffective|p2a: Scyther
+|-damage|p2a: Scyther|96\/309
+|
+|turn|8
+|choice|move 4|move 1
+|
+|move|p2a: Scyther|Slash|p1a: Gyarados
+|-crit|p1a: Gyarados
+|-damage|p1a: Gyarados|89\/335
+|move|p1a: Gyarados|Blizzard|p2a: Scyther
+|-supereffective|p2a: Scyther
+|-damage|p2a: Scyther|0 fnt
+|faint|p2a: Scyther
+|choice||switch 2
+|
+|switch|p2a: Hypno|Hypno, L85|318\/318
+|turn|9
+|choice|move 1|move 1
+|
+|move|p1a: Gyarados|Thunderbolt|p2a: Hypno
+|-crit|p2a: Hypno
+|-damage|p2a: Hypno|206\/318
+|move|p2a: Hypno|Psychic|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|choice|switch 6|
+|
+|switch|p1a: Rhydon|Rhydon, L79|328\/328
+|turn|10
+|choice|move 4|switch 4
+|
+|switch|p2a: Ivysaur|Ivysaur, L85|276\/276
+|move|p1a: Rhydon|Earthquake|p2a: Ivysaur
+|-damage|p2a: Ivysaur|146\/276
+|
+|turn|11
+|choice|move 4|move 4
+|
+|move|p2a: Ivysaur|Razor Leaf|p1a: Rhydon
+|-crit|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|choice|switch 5|
+|
+|switch|p1a: Starmie|Starmie, L79|257\/257
+|turn|12
+|choice|move 4|move 4
+|
+|move|p1a: Starmie|Blizzard|p2a: Ivysaur
+|-supereffective|p2a: Ivysaur
+|-damage|p2a: Ivysaur|0 fnt
+|faint|p2a: Ivysaur
+|choice||switch 4
+|
+|switch|p2a: Hypno|Hypno, L85|206\/318
+|turn|13
+|choice|move 3|move 4
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Hypno
+|-status|p2a: Hypno|par
+|cant|p2a: Hypno|par
+|
+|turn|14
+|choice|move 4|move 4
+|
+|move|p1a: Starmie|Blizzard|p2a: Hypno
+|-crit|p2a: Hypno
+|-damage|p2a: Hypno|82\/318 par
+|move|p2a: Hypno|Hypnosis|p1a: Starmie|[miss]
+|-miss|p2a: Hypno
+|
+|turn|15
+|choice|move 4|move 4
+|
+|move|p1a: Starmie|Blizzard|p2a: Hypno
+|-damage|p2a: Hypno|21\/318 par
+|cant|p2a: Hypno|par
+|
+|turn|16
+|choice|move 2|move 3
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Hypno
+|-damage|p2a: Hypno|0 fnt
+|faint|p2a: Hypno
+|choice||switch 6
+|
+|switch|p2a: Magmar|Magmar, L90|300\/300
+|turn|17
+|choice|move 3|move 2
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Magmar
+|-status|p2a: Magmar|par
+|move|p2a: Magmar|Confuse Ray|p1a: Starmie
+|-start|p1a: Starmie|confusion
+|
+|turn|18
+|choice|move 4|move 3
+|
+|-activate|p1a: Starmie|confusion
+|move|p1a: Starmie|Blizzard|p2a: Magmar
+|-damage|p2a: Magmar|225\/300 par
+|cant|p2a: Magmar|par
+|
+|turn|19
+|choice|move 4|move 3
+|
+|-activate|p1a: Starmie|confusion
+|-damage|p1a: Starmie|231\/257|[from] confusion
+|cant|p2a: Magmar|par
+|
+|turn|20
+|choice|move 4|move 3
+|
+|-activate|p1a: Starmie|confusion
+|move|p1a: Starmie|Blizzard|p2a: Magmar|[miss]
+|-miss|p1a: Starmie
+|cant|p2a: Magmar|par
+|
+|turn|21
+|choice|move 4|move 3
+|
+|-end|p1a: Starmie|confusion
+|move|p1a: Starmie|Blizzard|p2a: Magmar
+|-damage|p2a: Magmar|156\/300 par
+|move|p2a: Magmar|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|151\/257
+|
+|turn|22
+|choice|move 1|move 2
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|257\/257
+|move|p2a: Magmar|Confuse Ray|p1a: Starmie
+|-start|p1a: Starmie|confusion
+|
+|turn|23
+|choice|move 2|move 3
+|
+|-activate|p1a: Starmie|confusion
+|-damage|p1a: Starmie|231\/257|[from] confusion
+|cant|p2a: Magmar|par
+|
+|turn|24
+|choice|move 2|move 3
+|
+|-activate|p1a: Starmie|confusion
+|-damage|p1a: Starmie|205\/257|[from] confusion
+|cant|p2a: Magmar|par
+|
+|turn|25
+|choice|move 2|move 3
+|
+|-activate|p1a: Starmie|confusion
+|move|p1a: Starmie|Thunderbolt|p2a: Magmar
+|-damage|p2a: Magmar|94\/300 par
+|cant|p2a: Magmar|par
+|
+|turn|26
+|choice|move 4|move 3
+|
+|-activate|p1a: Starmie|confusion
+|move|p1a: Starmie|Blizzard|p2a: Magmar
+|-damage|p2a: Magmar|17\/300 par
+|cant|p2a: Magmar|par
+|
+|turn|27
+|choice|move 4|move 3
+|
+|-end|p1a: Starmie|confusion
+|move|p1a: Starmie|Blizzard|p2a: Magmar
+|-damage|p2a: Magmar|0 fnt
+|faint|p2a: Magmar
+|choice||switch 5
+|
+|switch|p2a: Charmeleon|Charmeleon, L85|272\/272
+|turn|28
+|choice|switch 3|move 3
+|
+|switch|p1a: Metapod|Metapod, L99|300\/300
+|move|p2a: Charmeleon|Slash|p1a: Metapod
+|-crit|p1a: Metapod
+|-damage|p1a: Metapod|212\/300
+|
+|turn|29
+|choice|move 3|move 1
+|
+|move|p2a: Charmeleon|Fire Blast|p1a: Metapod
+|-supereffective|p1a: Metapod
+|-damage|p1a: Metapod|0 fnt
+|faint|p1a: Metapod
+|choice|switch 4|
+|
+|switch|p1a: Chansey|Chansey, L79|557\/557
+|turn|30
+|choice|move 3|move 4
+|
+|move|p2a: Charmeleon|Submission|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|328\/557
+|-damage|p2a: Charmeleon|215\/272|[from] recoil|[of] p1a: Chansey
+|move|p1a: Chansey|Thunderbolt|p2a: Charmeleon
+|-damage|p2a: Charmeleon|144\/272
+|
+|turn|31
+|choice|move 4|move 1
+|
+|move|p2a: Charmeleon|Fire Blast|p1a: Chansey
+|-damage|p1a: Chansey|237\/557
+|-status|p1a: Chansey|brn
+|move|p1a: Chansey|Ice Beam|p2a: Charmeleon
+|-damage|p2a: Charmeleon|66\/272
+|-damage|p1a: Chansey|203\/557 brn|[from] brn|[of] p2a: Charmeleon
+|
+|turn|32
+|choice|move 4|move 3
+|
+|move|p2a: Charmeleon|Slash|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|1\/557 brn
+|move|p1a: Chansey|Ice Beam|p2a: Charmeleon
+|-damage|p2a: Charmeleon|0 fnt
+|faint|p2a: Charmeleon
+|
+|win|izicual
+|player|p1
+|player|p2
+|l|callmebigmeat

@@ -1,0 +1,304 @@
+﻿|join|BlotterSpotter
+|join|MALESANI
+|player|p1|BlotterSpotter|219
+|player|p2|MALESANI|238
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|51341,62083,15734,61292
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Bellsprout|Bellsprout, L96|291\/291
+|switch|p2a: Bellsprout|Bellsprout, L96|291\/291
+|turn|1
+|c|★BlotterSpotter|lol great start
+|c|★MALESANI|mirror
+|choice|move 1|move 1
+|
+|move|p1a: Bellsprout|Sleep Powder|p2a: Bellsprout
+|-status|p2a: Bellsprout|slp
+|-curestatus|p2a: Bellsprout|slp
+|
+|turn|2
+|choice|move 1|move 4
+|
+|move|p1a: Bellsprout|Sleep Powder|p2a: Bellsprout
+|-status|p2a: Bellsprout|slp
+|cant|p2a: Bellsprout|slp
+|
+|turn|3
+|choice|move 3|switch 4
+|
+|switch|p2a: Butterfree|Butterfree, L90|291\/291
+|move|p1a: Bellsprout|Swords Dance|p1a: Bellsprout
+|-boost|p1a: Bellsprout|atk|2
+|
+|turn|4
+|choice|move 2|move 2
+|
+|move|p2a: Butterfree|Psychic|p1a: Bellsprout
+|-supereffective|p1a: Bellsprout
+|-damage|p1a: Bellsprout|149\/291
+|move|p1a: Bellsprout|Stun Spore|p2a: Butterfree
+|-status|p2a: Butterfree|par
+|
+|turn|5
+|choice|move 4|move 2
+|
+|move|p1a: Bellsprout|Body Slam|p2a: Butterfree
+|-damage|p2a: Butterfree|122\/291 par
+|move|p2a: Butterfree|Psychic|p1a: Bellsprout|[miss]
+|-miss|p2a: Butterfree
+|
+|turn|6
+|choice|move 4|move 2
+|
+|move|p1a: Bellsprout|Body Slam|p2a: Butterfree
+|-damage|p2a: Butterfree|0 fnt
+|faint|p2a: Butterfree
+|choice||switch 5
+|
+|switch|p2a: Kadabra|Kadabra, L85|242\/242
+|turn|7
+|choice|move 4|move 1
+|
+|move|p2a: Kadabra|Psychic|p1a: Bellsprout
+|-supereffective|p1a: Bellsprout
+|-damage|p1a: Bellsprout|0 fnt
+|faint|p1a: Bellsprout
+|choice|switch 2|
+|
+|switch|p1a: Dratini|Dratini, L96|274\/274
+|turn|8
+|choice|move 2|switch 4
+|
+|switch|p2a: Bellsprout|Bellsprout, L96|291\/291 slp
+|move|p1a: Dratini|Thunder Wave|p2a: Bellsprout
+|-fail|p2a: Bellsprout
+|
+|turn|9
+|choice|move 4|move 2
+|
+|move|p1a: Dratini|Substitute|p1a: Dratini
+|-start|p1a: Dratini|Substitute
+|-damage|p1a: Dratini|206\/274
+|cant|p2a: Bellsprout|slp
+|
+|turn|10
+|choice|move 3|switch 3
+|
+|switch|p2a: Clefable|Clefable, L85|335\/335
+|move|p1a: Dratini|Agility|p1a: Dratini
+|-boost|p1a: Dratini|spe|2
+|
+|turn|11
+|choice|move 2|move 2
+|
+|move|p1a: Dratini|Thunder Wave|p2a: Clefable
+|-status|p2a: Clefable|par
+|move|p2a: Clefable|Ice Beam|p1a: Dratini
+|-supereffective|p1a: Dratini
+|-end|p1a: Dratini|Substitute
+|
+|turn|12
+|choice|switch 6|move 4
+|
+|switch|p1a: Magneton|Magneton, L90|273\/273
+|cant|p2a: Clefable|par
+|
+|turn|13
+|choice|move 1|move 1
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Clefable
+|-damage|p2a: Clefable|193\/335 par
+|cant|p2a: Clefable|par
+|
+|turn|14
+|choice|move 1|move 4
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Clefable
+|-damage|p2a: Clefable|57\/335 par
+|move|p2a: Clefable|Blizzard|p1a: Magneton
+|-damage|p1a: Magneton|214\/273
+|
+|turn|15
+|choice|move 1|move 1
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|choice||switch 2
+|
+|switch|p2a: Ninetales|Ninetales, L85|298\/298
+|turn|16
+|choice|switch 6|move 1
+|
+|switch|p1a: Dratini|Dratini, L96|206\/274
+|move|p2a: Ninetales|Fire Blast|p1a: Dratini|[miss]
+|-miss|p2a: Ninetales
+|
+|turn|17
+|choice|move 2|switch 6
+|
+|switch|p2a: Golduck|Golduck, L85|310\/310
+|move|p1a: Dratini|Thunder Wave|p2a: Golduck
+|-status|p2a: Golduck|par
+|
+|turn|18
+|choice|switch 6|move 3
+|
+|switch|p1a: Magneton|Magneton, L90|214\/273
+|move|p2a: Golduck|Ice Beam|p1a: Magneton
+|-damage|p1a: Magneton|170\/273
+|
+|turn|19
+|choice|move 1|switch 6
+|
+|switch|p2a: Ninetales|Ninetales, L85|298\/298
+|move|p1a: Magneton|Thunderbolt|p2a: Ninetales
+|-damage|p2a: Ninetales|170\/298
+|
+|turn|20
+|choice|switch 6|move 1
+|
+|switch|p1a: Dratini|Dratini, L96|206\/274
+|move|p2a: Ninetales|Fire Blast|p1a: Dratini|[miss]
+|-miss|p2a: Ninetales
+|
+|turn|21
+|c|★BlotterSpotter|wow
+|c|★MALESANI|luck is definitely by your side today
+|c|★BlotterSpotter|yup
+|choice|move 1|switch 6
+|
+|switch|p2a: Golduck|Golduck, L85|310\/310 par
+|move|p1a: Dratini|Thunderbolt|p2a: Golduck
+|-supereffective|p2a: Golduck
+|-damage|p2a: Golduck|180\/310 par
+|
+|turn|22
+|choice|switch 6|move 3
+|
+|switch|p1a: Magneton|Magneton, L90|170\/273
+|move|p2a: Golduck|Ice Beam|p1a: Magneton
+|-damage|p1a: Magneton|127\/273
+|
+|turn|23
+|choice|move 1|switch 3
+|
+|switch|p2a: Bellsprout|Bellsprout, L96|291\/291 slp
+|move|p1a: Magneton|Thunderbolt|p2a: Bellsprout
+|-resisted|p2a: Bellsprout
+|-damage|p2a: Bellsprout|225\/291 slp
+|
+|turn|24
+|choice|move 3|move 3
+|
+|move|p1a: Magneton|Double-Edge|p2a: Bellsprout
+|-damage|p2a: Bellsprout|133\/291 slp
+|-damage|p1a: Magneton|104\/273|[from] recoil|[of] p2a: Bellsprout
+|-curestatus|p2a: Bellsprout|slp
+|
+|turn|25
+|choice|move 1|move 1
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Bellsprout
+|-resisted|p2a: Bellsprout
+|-damage|p2a: Bellsprout|60\/291
+|move|p2a: Bellsprout|Sleep Powder|p1a: Magneton|[miss]
+|-miss|p2a: Bellsprout
+|
+|turn|26
+|c|★MALESANI|...definitely haha
+|choice|move 1|move 1
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Bellsprout
+|-crit|p2a: Bellsprout
+|-resisted|p2a: Bellsprout
+|-damage|p2a: Bellsprout|0 fnt
+|faint|p2a: Bellsprout
+|c|★BlotterSpotter|lol damn
+|choice||switch 4
+|
+|switch|p2a: Kadabra|Kadabra, L85|242\/242
+|turn|27
+|choice|move 2|move 1
+|
+|move|p2a: Kadabra|Psychic|p1a: Magneton
+|-damage|p1a: Magneton|13\/273
+|move|p1a: Magneton|Thunder Wave|p2a: Kadabra
+|-status|p2a: Kadabra|par
+|
+|turn|28
+|choice|switch 6|move 3
+|
+|switch|p1a: Dratini|Dratini, L96|206\/274
+|move|p2a: Kadabra|Seismic Toss|p1a: Dratini
+|-damage|p1a: Dratini|121\/274
+|
+|turn|29
+|choice|move 1|move 1
+|
+|move|p1a: Dratini|Thunderbolt|p2a: Kadabra
+|-damage|p2a: Kadabra|197\/242 par
+|move|p2a: Kadabra|Psychic|p1a: Dratini
+|-damage|p1a: Dratini|0 fnt
+|faint|p1a: Dratini
+|choice|switch 5|
+|
+|switch|p1a: Magmar|Magmar, L90|300\/300
+|turn|30
+|choice|move 1|move 2
+|
+|move|p1a: Magmar|Confuse Ray|p2a: Kadabra
+|-start|p2a: Kadabra|confusion
+|-activate|p2a: Kadabra|confusion
+|-damage|p2a: Kadabra|165\/242 par|[from] confusion
+|
+|turn|31
+|choice|move 3|move 2
+|
+|move|p1a: Magmar|Fire Blast|p2a: Kadabra
+|-crit|p2a: Kadabra
+|-damage|p2a: Kadabra|0 fnt
+|faint|p2a: Kadabra
+|choice||switch 3
+|
+|switch|p2a: Golduck|Golduck, L85|180\/310 par
+|turn|32
+|choice|move 1|move 2
+|
+|move|p1a: Magmar|Confuse Ray|p2a: Golduck
+|-start|p2a: Golduck|confusion
+|-activate|p2a: Golduck|confusion
+|-damage|p2a: Golduck|149\/310 par|[from] confusion
+|
+|turn|33
+|choice|switch 6|move 1
+|
+|switch|p1a: Magneton|Magneton, L90|13\/273
+|-activate|p2a: Golduck|confusion
+|move|p2a: Golduck|Amnesia|p2a: Golduck
+|-boost|p2a: Golduck|spd|2
+|-boost|p2a: Golduck|spa|2
+|
+|turn|34
+|choice|move 1|move 2
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Golduck
+|-supereffective|p2a: Golduck
+|-damage|p2a: Golduck|13\/310 par
+|-activate|p2a: Golduck|confusion
+|-damage|p2a: Golduck|0 fnt|[from] confusion
+|faint|p2a: Golduck
+|-message|MALESANI forfeited.
+|
+|win|BlotterSpotter
+|leave|MALESANI
+|player|p2
+|raw|BlotterSpotter's rating: 1109 &rarr; <strong>1149<\/strong><br \/>(+40 for winning)
+|raw|MALESANI's rating: 1350 &rarr; <strong>1318<\/strong><br \/>(-32 for losing)

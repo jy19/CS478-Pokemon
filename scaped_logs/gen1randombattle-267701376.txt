@@ -1,0 +1,371 @@
+﻿|join|reykarjr96
+|join|am14fg
+|player|p1|reykarjr96|102
+|player|p2|am14fg|265
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Kabutops|Kabutops, L85|276\/276
+|switch|p2a: Seel|Seel, L96|320\/320
+|turn|1
+|
+|switch|p1a: Muk|Muk, L90|372\/372
+|move|p2a: Seel|Surf|p1a: Muk
+|-damage|p1a: Muk|260\/372
+|
+|turn|2
+|
+|move|p2a: Seel|Blizzard|p1a: Muk
+|-damage|p1a: Muk|156\/372
+|move|p1a: Muk|Mega Drain|p2a: Seel
+|-supereffective|p2a: Seel
+|-damage|p2a: Seel|271\/320
+|-heal|p1a: Muk|180\/372|[from] drain|[of] p2a: Seel
+|
+|turn|3
+|
+|move|p2a: Seel|Surf|p1a: Muk
+|-damage|p1a: Muk|64\/372
+|move|p1a: Muk|Body Slam|p2a: Seel
+|-crit|p2a: Seel
+|-damage|p2a: Seel|119\/320
+|-status|p2a: Seel|par
+|
+|turn|4
+|
+|move|p1a: Muk|Explosion|p2a: Seel
+|-damage|p2a: Seel|0 fnt
+|faint|p2a: Seel
+|faint|p1a: Muk
+|
+|switch|p1a: Kabutops|Kabutops, L85|276\/276
+|switch|p2a: Dewgong|Dewgong, L85|327\/327
+|turn|5
+|
+|move|p1a: Kabutops|Swords Dance|p1a: Kabutops
+|-boost|p1a: Kabutops|atk|2
+|move|p2a: Dewgong|Surf|p1a: Kabutops
+|-damage|p1a: Kabutops|159\/276
+|
+|turn|6
+|
+|move|p1a: Kabutops|Body Slam|p2a: Dewgong
+|-damage|p2a: Dewgong|187\/327
+|move|p2a: Dewgong|Blizzard|p1a: Kabutops|[miss]
+|-miss|p2a: Dewgong
+|
+|turn|7
+|
+|move|p1a: Kabutops|Body Slam|p2a: Dewgong
+|-damage|p2a: Dewgong|50\/327
+|move|p2a: Dewgong|Blizzard|p1a: Kabutops
+|-resisted|p1a: Kabutops
+|-damage|p1a: Kabutops|86\/276
+|
+|turn|8
+|
+|move|p1a: Kabutops|Body Slam|p2a: Dewgong
+|-damage|p2a: Dewgong|0 fnt
+|faint|p2a: Dewgong
+|
+|switch|p2a: Tauros|Tauros, L79|280\/280
+|turn|9
+|
+|move|p2a: Tauros|Earthquake|p1a: Kabutops
+|-supereffective|p1a: Kabutops
+|-damage|p1a: Kabutops|0 fnt
+|faint|p1a: Kabutops
+|
+|switch|p1a: Tauros|Tauros, L79|280\/280
+|turn|10
+|
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|200\/280
+|move|p1a: Tauros|Earthquake|p2a: Tauros
+|-damage|p2a: Tauros|217\/280
+|
+|turn|11
+|
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|116\/280
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|136\/280
+|
+|turn|12
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|switch|p1a: Kadabra|Kadabra, L85|242\/242
+|turn|13
+|
+|move|p1a: Kadabra|Psychic|p2a: Tauros
+|-damage|p2a: Tauros|4\/280
+|-unboost|p2a: Tauros|spd|1
+|-unboost|p2a: Tauros|spa|1
+|move|p2a: Tauros|Body Slam|p1a: Kadabra
+|-damage|p1a: Kadabra|95\/242
+|
+|turn|14
+|
+|move|p1a: Kadabra|Psychic|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|switch|p2a: Chansey|Chansey, L79|557\/557
+|turn|15
+|
+|switch|p1a: Ponyta|Ponyta, L96|291\/291
+|move|p2a: Chansey|Thunder Wave|p1a: Ponyta
+|-status|p1a: Ponyta|par
+|
+|turn|16
+|
+|cant|p1a: Ponyta|par
+|move|p2a: Chansey|Counter|p1a: Ponyta
+|-fail|p2a: Chansey
+|
+|turn|17
+|
+|move|p1a: Ponyta|Toxic|p2a: Chansey
+|-status|p2a: Chansey|tox
+|move|p2a: Chansey|Counter|p1a: Ponyta
+|-fail|p2a: Chansey
+|-damage|p2a: Chansey|523\/557 tox|[from] tox|[of] p1a: Ponyta
+|
+|turn|18
+|
+|switch|p2a: Marowak|Marowak, L90|291\/291
+|move|p1a: Ponyta|Substitute|p1a: Ponyta
+|-start|p1a: Ponyta|Substitute
+|-damage|p1a: Ponyta|219\/291 par
+|
+|turn|19
+|
+|switch|p1a: Kadabra|Kadabra, L85|95\/242
+|move|p2a: Marowak|Earthquake|p1a: Kadabra
+|-damage|p1a: Kadabra|0 fnt
+|faint|p1a: Kadabra
+|
+|switch|p1a: Ditto|Ditto, L99|296\/296
+|turn|20
+|
+|move|p1a: Ditto|Transform|p2a: Marowak
+|-transform|p1a: Ditto|p2a: Marowak
+|move|p2a: Marowak|Earthquake|p1a: Ditto
+|-damage|p1a: Ditto|170\/296
+|
+|turn|21
+|
+|move|p1a: Ditto|Blizzard|p2a: Marowak
+|-supereffective|p2a: Marowak
+|-damage|p2a: Marowak|93\/291
+|-status|p2a: Marowak|frz
+|cant|p2a: Marowak|frz
+|
+|turn|22
+|
+|move|p1a: Ditto|Blizzard|p2a: Marowak|[miss]
+|-miss|p1a: Ditto
+|cant|p2a: Marowak|frz
+|
+|turn|23
+|
+|move|p1a: Ditto|Blizzard|p2a: Marowak
+|-supereffective|p2a: Marowak
+|-damage|p2a: Marowak|0 fnt
+|faint|p2a: Marowak
+|
+|switch|p2a: Chansey|Chansey, L79|523\/557 tox
+|-status|p2a: Chansey|psn
+|turn|24
+|
+|move|p1a: Ditto|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|424\/557 psn
+|move|p2a: Chansey|Counter|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|
+|switch|p1a: Ponyta|Ponyta, L96|219\/291 par
+|turn|25
+|
+|move|p1a: Ponyta|Toxic|p2a: Chansey|[miss]
+|-miss|p1a: Ponyta
+|move|p2a: Chansey|Counter|p1a: Ponyta
+|-fail|p2a: Chansey
+|-damage|p2a: Chansey|390\/557 psn|[from] psn|[of] p1a: Ponyta
+|
+|turn|26
+|
+|move|p1a: Ponyta|Substitute|p1a: Ponyta
+|-start|p1a: Ponyta|Substitute
+|-damage|p1a: Ponyta|147\/291 par
+|move|p2a: Chansey|Counter|p1a: Ponyta
+|-fail|p2a: Chansey
+|-damage|p2a: Chansey|356\/557 psn|[from] psn|[of] p1a: Ponyta
+|
+|turn|27
+|
+|cant|p1a: Ponyta|par
+|move|p2a: Chansey|Counter|p1a: Ponyta
+|-fail|p2a: Chansey
+|-damage|p2a: Chansey|322\/557 psn|[from] psn|[of] p1a: Ponyta
+|
+|turn|28
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|557\/557 psn
+|-damage|p2a: Chansey|523\/557 psn|[from] psn
+|move|p1a: Ponyta|Growl|p2a: Chansey
+|-unboost|p2a: Chansey|atk|1
+|
+|turn|29
+|
+|move|p1a: Ponyta|Growl|p2a: Chansey
+|-unboost|p2a: Chansey|atk|1
+|move|p2a: Chansey|Counter|p1a: Ponyta
+|-fail|p2a: Chansey
+|-damage|p2a: Chansey|489\/557 psn|[from] psn|[of] p1a: Ponyta
+|
+|turn|30
+|
+|cant|p1a: Ponyta|par
+|move|p2a: Chansey|Counter|p1a: Ponyta
+|-fail|p2a: Chansey
+|-damage|p2a: Chansey|455\/557 psn|[from] psn|[of] p1a: Ponyta
+|
+|turn|31
+|
+|move|p1a: Ponyta|Growl|p2a: Chansey
+|-unboost|p2a: Chansey|atk|1
+|move|p2a: Chansey|Counter|p1a: Ponyta
+|-fail|p2a: Chansey
+|-damage|p2a: Chansey|421\/557 psn|[from] psn|[of] p1a: Ponyta
+|
+|turn|32
+|
+|move|p1a: Ponyta|Growl|p2a: Chansey
+|-unboost|p2a: Chansey|atk|1
+|move|p2a: Chansey|Counter|p1a: Ponyta
+|-fail|p2a: Chansey
+|-damage|p2a: Chansey|387\/557 psn|[from] psn|[of] p1a: Ponyta
+|
+|turn|33
+|
+|move|p1a: Ponyta|Growl|p2a: Chansey
+|-unboost|p2a: Chansey|atk|1
+|move|p2a: Chansey|Counter|p1a: Ponyta
+|-fail|p2a: Chansey
+|-damage|p2a: Chansey|353\/557 psn|[from] psn|[of] p1a: Ponyta
+|
+|turn|34
+|
+|move|p1a: Ponyta|Growl|p2a: Chansey
+|-unboost|p2a: Chansey|atk|1
+|move|p2a: Chansey|Counter|p1a: Ponyta
+|-fail|p2a: Chansey
+|-damage|p2a: Chansey|319\/557 psn|[from] psn|[of] p1a: Ponyta
+|
+|turn|35
+|
+|move|p1a: Ponyta|Growl|p2a: Chansey
+|-unboost|p2a: Chansey|atk|1
+|move|p2a: Chansey|Counter|p1a: Ponyta
+|-fail|p2a: Chansey
+|-damage|p2a: Chansey|285\/557 psn|[from] psn|[of] p1a: Ponyta
+|
+|turn|36
+|
+|cant|p1a: Ponyta|par
+|move|p2a: Chansey|Counter|p1a: Ponyta
+|-fail|p2a: Chansey
+|-damage|p2a: Chansey|251\/557 psn|[from] psn|[of] p1a: Ponyta
+|
+|turn|37
+|
+|move|p1a: Ponyta|Growl|p2a: Chansey
+|-unboost|p2a: Chansey|atk|1
+|move|p2a: Chansey|Counter|p1a: Ponyta
+|-fail|p2a: Chansey
+|-damage|p2a: Chansey|217\/557 psn|[from] psn|[of] p1a: Ponyta
+|
+|turn|38
+|
+|move|p1a: Ponyta|Growl|p2a: Chansey
+|-unboost|p2a: Chansey|atk|1
+|move|p2a: Chansey|Counter|p1a: Ponyta
+|-fail|p2a: Chansey
+|-damage|p2a: Chansey|183\/557 psn|[from] psn|[of] p1a: Ponyta
+|
+|turn|39
+|c|★am14fg|What is ur 4th attack?
+|
+|cant|p1a: Ponyta|par
+|move|p2a: Chansey|Counter|p1a: Ponyta
+|-fail|p2a: Chansey
+|-damage|p2a: Chansey|149\/557 psn|[from] psn|[of] p1a: Ponyta
+|
+|turn|40
+|
+|move|p1a: Ponyta|Growl|p2a: Chansey
+|-unboost|p2a: Chansey|atk|1
+|move|p2a: Chansey|Counter|p1a: Ponyta
+|-fail|p2a: Chansey
+|-damage|p2a: Chansey|115\/557 psn|[from] psn|[of] p1a: Ponyta
+|
+|turn|41
+|
+|move|p1a: Ponyta|Growl|p2a: Chansey
+|-unboost|p2a: Chansey|atk|1
+|move|p2a: Chansey|Counter|p1a: Ponyta
+|-fail|p2a: Chansey
+|-damage|p2a: Chansey|81\/557 psn|[from] psn|[of] p1a: Ponyta
+|
+|turn|42
+|
+|cant|p1a: Ponyta|par
+|move|p2a: Chansey|Counter|p1a: Ponyta
+|-fail|p2a: Chansey
+|-damage|p2a: Chansey|47\/557 psn|[from] psn|[of] p1a: Ponyta
+|
+|turn|43
+|
+|move|p1a: Ponyta|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|switch|p2a: Charmeleon|Charmeleon, L85|272\/272
+|turn|44
+|
+|move|p2a: Charmeleon|Slash|p1a: Ponyta
+|-crit|p1a: Ponyta
+|-end|p1a: Ponyta|Substitute
+|move|p1a: Ponyta|Body Slam|p2a: Charmeleon
+|-damage|p2a: Charmeleon|176\/272
+|-status|p2a: Charmeleon|par
+|
+|turn|45
+|
+|move|p1a: Ponyta|Body Slam|p2a: Charmeleon
+|-damage|p2a: Charmeleon|84\/272 par
+|cant|p2a: Charmeleon|par
+|
+|turn|46
+|
+|move|p1a: Ponyta|Body Slam|p2a: Charmeleon
+|-damage|p2a: Charmeleon|0 fnt
+|faint|p2a: Charmeleon
+|
+|win|reykarjr96
+|leave|am14fg
+|player|p2
+|raw|reykarjr96's rating: 1139 &rarr; <strong>1169<\/strong><br \/>(+30 for winning)
+|raw|am14fg's rating: 1218 &rarr; <strong>1187<\/strong><br \/>(-31 for losing)
+|c|★reykarjr96|xdddddddddd

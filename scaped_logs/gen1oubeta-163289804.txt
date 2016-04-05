@@ -1,0 +1,782 @@
+﻿|join|kabutops man
+|join|darkadri038
+|player|p1|kabutops man|115
+|player|p2|darkadri038|162
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gengar|Gengar|323\/323
+|switch|p2a: Rhydon|Rhydon|413\/413
+|turn|1
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Rhydon|Earthquake|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|320\/393
+|
+|turn|2
+|
+|move|p1a: Exeggutor|Sleep Powder|p2a: Rhydon|[miss]
+|-miss|p1a: Exeggutor
+|move|p2a: Rhydon|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|236\/393
+|
+|turn|3
+|
+|move|p1a: Exeggutor|Sleep Powder|p2a: Rhydon
+|-status|p2a: Rhydon|slp
+|cant|p2a: Rhydon|slp
+|
+|turn|4
+|c|★kabutops man|you + me = love
+|
+|move|p1a: Exeggutor|Psychic|p2a: Rhydon
+|-damage|p2a: Rhydon|234\/413 slp
+|cant|p2a: Rhydon|slp
+|
+|turn|5
+|
+|move|p1a: Exeggutor|Psychic|p2a: Rhydon
+|-damage|p2a: Rhydon|34\/413 slp
+|cant|p2a: Rhydon|slp
+|
+|turn|6
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Exeggutor|Stun Spore|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|turn|7
+|
+|switch|p2a: Rhydon|Rhydon|34\/413 slp
+|move|p1a: Exeggutor|Psychic|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|
+|switch|p2a: Lapras|Lapras|463\/463
+|turn|8
+|c|★kabutops man|eggggyyyy!!!!!
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Lapras|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|607\/703
+|
+|turn|9
+|
+|switch|p2a: Chansey|Chansey|703\/703 par
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|
+|turn|10
+|
+|switch|p1a: Cloyster|Cloyster|303\/303
+|move|p2a: Chansey|Ice Beam|p1a: Cloyster
+|-resisted|p1a: Cloyster
+|-damage|p1a: Cloyster|284\/303
+|
+|turn|11
+|
+|move|p1a: Cloyster|Clamp|p2a: Chansey
+|-damage|p2a: Chansey|667\/703 par
+|-activate|p2a: Chansey|move: Clamp|[of] p1a: Cloyster
+|cant|p2a: Chansey|par
+|
+|turn|12
+|
+|switch|p1a: Gengar|Gengar|323\/323
+|cant|p2a: Chansey|par
+|
+|-end|p2a: Chansey|Clamp|[partiallytrapped]
+|turn|13
+|
+|move|p1a: Gengar|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|575\/703 par
+|move|p2a: Chansey|Thunder Wave|p1a: Gengar
+|-status|p1a: Gengar|par
+|
+|turn|14
+|
+|switch|p1a: Chansey|Chansey|607\/703
+|move|p2a: Chansey|Thunderbolt|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|467\/703
+|-status|p1a: Chansey|par
+|
+|turn|15
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|475\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|16
+|
+|cant|p2a: Chansey|par
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|375\/703 par
+|
+|turn|17
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|cant|p2a: Chansey|par
+|
+|turn|18
+|c|★kabutops man|I AM KABUTOPS MAN
+|
+|move|p1a: Tauros|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|83\/703 par
+|move|p2a: Chansey|Ice Beam|p1a: Tauros
+|-damage|p1a: Tauros|252\/353
+|
+|turn|19
+|
+|move|p1a: Tauros|Body Slam|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|switch|p2a: Alakazam|Alakazam|313\/313
+|turn|20
+|
+|move|p2a: Alakazam|Reflect|p2a: Alakazam
+|move|p1a: Tauros|Body Slam|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-damage|p2a: Alakazam|146\/313
+|
+|turn|21
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|move|p1a: Tauros|Hyper Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|5\/313
+|
+|turn|22
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|161\/313
+|cant|p1a: Tauros|recharge
+|
+|turn|23
+|c|★kabutops man|lucky bastard
+|
+|switch|p1a: Exeggutor|Exeggutor|236\/393
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|313\/313
+|
+|turn|24
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Exeggutor
+|-status|p1a: Exeggutor|par
+|move|p1a: Exeggutor|Sleep Powder|p2a: Alakazam
+|-status|p2a: Alakazam|slp
+|
+|turn|25
+|
+|switch|p1a: Tauros|Tauros|252\/353 par
+|cant|p2a: Alakazam|slp
+|-curestatus|p2a: Alakazam|slp
+|
+|turn|26
+|
+|switch|p1a: Exeggutor|Exeggutor|236\/393 par
+|move|p2a: Alakazam|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|185\/393 par
+|
+|turn|27
+|
+|move|p2a: Alakazam|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|131\/393 par
+|cant|p1a: Exeggutor|par
+|
+|turn|28
+|
+|move|p2a: Alakazam|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|77\/393 par
+|move|p1a: Exeggutor|Explosion|p2a: Alakazam
+|-damage|p2a: Alakazam|102\/313
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Golem|Golem|363\/363
+|turn|29
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|258\/313
+|move|p1a: Golem|Earthquake|p2a: Alakazam
+|-damage|p2a: Alakazam|153\/313
+|
+|turn|30
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|309\/313
+|move|p1a: Golem|Body Slam|p2a: Alakazam
+|-damage|p2a: Alakazam|251\/313
+|
+|turn|31
+|
+|switch|p1a: Chansey|Chansey|467\/703 par
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|349\/703 par
+|
+|turn|32
+|
+|switch|p2a: Lapras|Lapras|463\/463
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|700\/703 par
+|
+|turn|33
+|
+|switch|p1a: Gengar|Gengar|323\/323 par
+|move|p2a: Lapras|Confuse Ray|p1a: Gengar
+|-start|p1a: Gengar|confusion
+|
+|turn|34
+|
+|move|p2a: Lapras|Hydro Pump|p1a: Gengar
+|-damage|p1a: Gengar|207\/323 par
+|-activate|p1a: Gengar|confusion
+|move|p1a: Gengar|Hypnosis|p2a: Lapras
+|-status|p2a: Lapras|slp
+|
+|turn|35
+|c|★kabutops man|psychic > confuse ray, you messed up
+|
+|cant|p2a: Lapras|slp
+|-end|p1a: Gengar|confusion
+|move|p1a: Gengar|Thunderbolt|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|278\/463 slp
+|
+|turn|36
+|
+|cant|p2a: Lapras|slp
+|move|p1a: Gengar|Thunderbolt|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|99\/463 slp
+|
+|turn|37
+|
+|cant|p2a: Lapras|slp
+|cant|p1a: Gengar|par
+|
+|turn|38
+|
+|cant|p2a: Lapras|slp
+|move|p1a: Gengar|Thunderbolt|p2a: Lapras
+|-crit|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|
+|switch|p2a: Alakazam|Alakazam|251\/313
+|turn|39
+|
+|switch|p1a: Chansey|Chansey|700\/703 par
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|575\/703 par
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|
+|turn|40
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|move|p1a: Chansey|Thunder Wave|p2a: Tauros
+|-status|p2a: Tauros|par
+|
+|turn|41
+|
+|switch|p1a: Cloyster|Cloyster|284\/303
+|move|p2a: Tauros|Body Slam|p1a: Cloyster
+|-crit|p1a: Cloyster
+|-damage|p1a: Cloyster|159\/303
+|
+|turn|42
+|
+|move|p1a: Cloyster|Blizzard|p2a: Tauros
+|-damage|p2a: Tauros|194\/353 par
+|move|p2a: Tauros|Body Slam|p1a: Cloyster
+|-damage|p1a: Cloyster|98\/303
+|-status|p1a: Cloyster|par
+|
+|turn|43
+|
+|move|p2a: Tauros|Body Slam|p1a: Cloyster
+|-damage|p1a: Cloyster|36\/303 par
+|move|p1a: Cloyster|Explosion|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|faint|p1a: Cloyster
+|
+|switch|p2a: Dragonite|Dragonite|385\/385
+|switch|p1a: Golem|Golem|363\/363
+|turn|44
+|
+|move|p2a: Dragonite|Ice Beam|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|157\/363
+|move|p1a: Golem|Rock Slide|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|173\/385
+|
+|turn|45
+|
+|switch|p1a: Chansey|Chansey|575\/703 par
+|move|p2a: Dragonite|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|504\/703 par
+|
+|turn|46
+|
+|move|p2a: Dragonite|Wrap|p1a: Chansey
+|-damage|p1a: Chansey|464\/703 par
+|-activate|p1a: Chansey|move: Wrap|[of] p2a: Dragonite
+|cant|p1a: Chansey|partiallytrapped
+|
+|turn|47
+|
+|switch|p1a: Golem|Golem|157\/363
+|move|p2a: Dragonite|Wrap|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|151\/363
+|-activate|p1a: Golem|move: Wrap|[of] p2a: Dragonite
+|
+|turn|48
+|
+|switch|p1a: Gengar|Gengar|207\/323 par
+|move|p2a: Dragonite|Wrap|p1a: Gengar
+|-damage|p1a: Gengar|207\/323 par
+|-activate|p1a: Gengar|move: Wrap|[of] p2a: Dragonite
+|
+|turn|49
+|
+|switch|p2a: Alakazam|Alakazam|251\/313
+|switch|p1a: Golem|Golem|151\/363
+|
+|turn|50
+|
+|switch|p1a: Chansey|Chansey|464\/703 par
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|329\/703 par
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|
+|turn|51
+|
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|127\/703 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|478\/703 par
+|
+|turn|52
+|c|★kabutops man|duh fuck....
+|
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|216\/703 par
+|move|p1a: Chansey|Thunder Wave|p2a: Alakazam
+|-status|p2a: Alakazam|par
+|
+|turn|53
+|
+|switch|p1a: Tauros|Tauros|252\/353 par
+|cant|p2a: Alakazam|par
+|
+|turn|54
+|
+|move|p2a: Alakazam|Psychic|p1a: Tauros
+|-damage|p1a: Tauros|102\/353 par
+|-unboost|p1a: Tauros|spd|1
+|-unboost|p1a: Tauros|spa|1
+|move|p1a: Tauros|Hyper Beam|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|switch|p2a: Dragonite|Dragonite|173\/385
+|turn|55
+|
+|move|p2a: Dragonite|Ice Beam|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|switch|p1a: Gengar|Gengar|207\/323 par
+|turn|56
+|
+|move|p2a: Dragonite|Thunderbolt|p1a: Gengar
+|-damage|p1a: Gengar|148\/323 par
+|cant|p1a: Gengar|par
+|
+|turn|57
+|
+|move|p2a: Dragonite|Thunderbolt|p1a: Gengar
+|-damage|p1a: Gengar|89\/323 par
+|move|p1a: Gengar|Hypnosis|p2a: Dragonite|[miss]
+|-miss|p1a: Gengar
+|
+|turn|58
+|
+|move|p2a: Dragonite|Thunderbolt|p1a: Gengar
+|-damage|p1a: Gengar|21\/323 par
+|cant|p1a: Gengar|par
+|
+|turn|59
+|
+|switch|p1a: Chansey|Chansey|216\/703 par
+|move|p2a: Dragonite|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|149\/703 par
+|
+|turn|60
+|
+|move|p2a: Dragonite|Wrap|p1a: Chansey
+|-damage|p1a: Chansey|111\/703 par
+|-activate|p1a: Chansey|move: Wrap|[of] p2a: Dragonite
+|cant|p1a: Chansey|partiallytrapped
+|
+|turn|61
+|
+|switch|p1a: Gengar|Gengar|21\/323 par
+|move|p2a: Dragonite|Wrap|p1a: Gengar
+|-damage|p1a: Gengar|21\/323 par
+|-activate|p1a: Gengar|move: Wrap|[of] p2a: Dragonite
+|
+|turn|62
+|
+|switch|p1a: Golem|Golem|151\/363
+|move|p2a: Dragonite|Wrap|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|145\/363
+|-activate|p1a: Golem|move: Wrap|[of] p2a: Dragonite
+|
+|turn|63
+|
+|switch|p1a: Gengar|Gengar|21\/323 par
+|move|p2a: Dragonite|Wrap|p1a: Gengar
+|-damage|p1a: Gengar|21\/323 par
+|-activate|p1a: Gengar|move: Wrap|[of] p2a: Dragonite
+|
+|turn|64
+|
+|switch|p1a: Golem|Golem|145\/363
+|move|p2a: Dragonite|Wrap|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|139\/363
+|-activate|p1a: Golem|move: Wrap|[of] p2a: Dragonite
+|
+|turn|65
+|
+|switch|p1a: Gengar|Gengar|21\/323 par
+|move|p2a: Dragonite|Wrap|p1a: Gengar
+|-damage|p1a: Gengar|21\/323 par
+|-activate|p1a: Gengar|move: Wrap|[of] p2a: Dragonite
+|
+|turn|66
+|
+|switch|p1a: Golem|Golem|139\/363
+|move|p2a: Dragonite|Wrap|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|133\/363
+|-activate|p1a: Golem|move: Wrap|[of] p2a: Dragonite
+|
+|turn|67
+|
+|switch|p1a: Gengar|Gengar|21\/323 par
+|move|p2a: Dragonite|Wrap|p1a: Gengar
+|-damage|p1a: Gengar|21\/323 par
+|-activate|p1a: Gengar|move: Wrap|[of] p2a: Dragonite
+|
+|turn|68
+|
+|switch|p1a: Golem|Golem|133\/363
+|move|p2a: Dragonite|Wrap|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|127\/363
+|-activate|p1a: Golem|move: Wrap|[of] p2a: Dragonite
+|
+|turn|69
+|
+|switch|p1a: Gengar|Gengar|21\/323 par
+|move|p2a: Dragonite|Wrap|p1a: Gengar
+|-damage|p1a: Gengar|21\/323 par
+|-activate|p1a: Gengar|move: Wrap|[of] p2a: Dragonite
+|
+|turn|70
+|
+|switch|p1a: Golem|Golem|127\/363
+|move|p2a: Dragonite|Wrap|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|121\/363
+|-activate|p1a: Golem|move: Wrap|[of] p2a: Dragonite
+|
+|turn|71
+|
+|switch|p1a: Gengar|Gengar|21\/323 par
+|move|p2a: Dragonite|Wrap|p1a: Gengar
+|-damage|p1a: Gengar|21\/323 par
+|-activate|p1a: Gengar|move: Wrap|[of] p2a: Dragonite
+|
+|turn|72
+|
+|switch|p1a: Golem|Golem|121\/363
+|move|p2a: Dragonite|Wrap|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|115\/363
+|-activate|p1a: Golem|move: Wrap|[of] p2a: Dragonite
+|
+|turn|73
+|
+|switch|p1a: Gengar|Gengar|21\/323 par
+|move|p2a: Dragonite|Wrap|p1a: Gengar
+|-damage|p1a: Gengar|21\/323 par
+|-activate|p1a: Gengar|move: Wrap|[of] p2a: Dragonite
+|
+|turn|74
+|
+|switch|p1a: Golem|Golem|115\/363
+|move|p2a: Dragonite|Wrap|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|109\/363
+|-activate|p1a: Golem|move: Wrap|[of] p2a: Dragonite
+|
+|turn|75
+|
+|switch|p1a: Gengar|Gengar|21\/323 par
+|move|p2a: Dragonite|Wrap|p1a: Gengar
+|-damage|p1a: Gengar|21\/323 par
+|-activate|p1a: Gengar|move: Wrap|[of] p2a: Dragonite
+|
+|turn|76
+|
+|switch|p1a: Golem|Golem|109\/363
+|move|p2a: Dragonite|Wrap|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|103\/363
+|-activate|p1a: Golem|move: Wrap|[of] p2a: Dragonite
+|
+|turn|77
+|
+|switch|p1a: Gengar|Gengar|21\/323 par
+|move|p2a: Dragonite|Wrap|p1a: Gengar
+|-damage|p1a: Gengar|21\/323 par
+|-activate|p1a: Gengar|move: Wrap|[of] p2a: Dragonite
+|
+|turn|78
+|
+|switch|p1a: Golem|Golem|103\/363
+|move|p2a: Dragonite|Wrap|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|97\/363
+|-activate|p1a: Golem|move: Wrap|[of] p2a: Dragonite
+|
+|turn|79
+|
+|switch|p1a: Gengar|Gengar|21\/323 par
+|move|p2a: Dragonite|Wrap|p1a: Gengar
+|-damage|p1a: Gengar|21\/323 par
+|-activate|p1a: Gengar|move: Wrap|[of] p2a: Dragonite
+|
+|turn|80
+|
+|switch|p1a: Golem|Golem|97\/363
+|move|p2a: Dragonite|Wrap|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|91\/363
+|-activate|p1a: Golem|move: Wrap|[of] p2a: Dragonite
+|
+|turn|81
+|
+|switch|p1a: Gengar|Gengar|21\/323 par
+|move|p2a: Dragonite|Wrap|p1a: Gengar
+|-damage|p1a: Gengar|21\/323 par
+|-activate|p1a: Gengar|move: Wrap|[of] p2a: Dragonite
+|
+|turn|82
+|
+|switch|p1a: Golem|Golem|91\/363
+|move|p2a: Dragonite|Wrap|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|84\/363
+|-activate|p1a: Golem|move: Wrap|[of] p2a: Dragonite
+|
+|turn|83
+|
+|switch|p1a: Gengar|Gengar|21\/323 par
+|move|p2a: Dragonite|Wrap|p1a: Gengar
+|-damage|p1a: Gengar|21\/323 par
+|-activate|p1a: Gengar|move: Wrap|[of] p2a: Dragonite
+|
+|turn|84
+|
+|switch|p1a: Golem|Golem|84\/363
+|move|p2a: Dragonite|Wrap|p1a: Golem
+|-crit|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|72\/363
+|-activate|p1a: Golem|move: Wrap|[of] p2a: Dragonite
+|
+|turn|85
+|
+|switch|p1a: Gengar|Gengar|21\/323 par
+|move|p2a: Dragonite|Wrap|p1a: Gengar
+|-damage|p1a: Gengar|21\/323 par
+|-activate|p1a: Gengar|move: Wrap|[of] p2a: Dragonite
+|
+|turn|86
+|
+|switch|p1a: Golem|Golem|72\/363
+|move|p2a: Dragonite|Wrap|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|66\/363
+|-activate|p1a: Golem|move: Wrap|[of] p2a: Dragonite
+|
+|turn|87
+|
+|switch|p1a: Gengar|Gengar|21\/323 par
+|move|p2a: Dragonite|Wrap|p1a: Gengar
+|-damage|p1a: Gengar|21\/323 par
+|-activate|p1a: Gengar|move: Wrap|[of] p2a: Dragonite
+|
+|turn|88
+|
+|switch|p1a: Golem|Golem|66\/363
+|move|p2a: Dragonite|Wrap|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|60\/363
+|-activate|p1a: Golem|move: Wrap|[of] p2a: Dragonite
+|
+|turn|89
+|
+|switch|p1a: Gengar|Gengar|21\/323 par
+|move|p2a: Dragonite|Wrap|p1a: Gengar
+|-damage|p1a: Gengar|21\/323 par
+|-activate|p1a: Gengar|move: Wrap|[of] p2a: Dragonite
+|
+|turn|90
+|
+|switch|p1a: Golem|Golem|60\/363
+|move|p2a: Dragonite|Wrap|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|54\/363
+|-activate|p1a: Golem|move: Wrap|[of] p2a: Dragonite
+|
+|turn|91
+|
+|switch|p1a: Gengar|Gengar|21\/323 par
+|move|p2a: Dragonite|Wrap|p1a: Gengar
+|-damage|p1a: Gengar|21\/323 par
+|-activate|p1a: Gengar|move: Wrap|[of] p2a: Dragonite
+|
+|turn|92
+|
+|switch|p1a: Golem|Golem|54\/363
+|move|p2a: Dragonite|Wrap|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|48\/363
+|-activate|p1a: Golem|move: Wrap|[of] p2a: Dragonite
+|
+|turn|93
+|
+|switch|p1a: Gengar|Gengar|21\/323 par
+|move|p2a: Dragonite|Wrap|p1a: Gengar
+|-damage|p1a: Gengar|21\/323 par
+|-activate|p1a: Gengar|move: Wrap|[of] p2a: Dragonite
+|
+|turn|94
+|c|★kabutops man|what pp are you around...
+|
+|switch|p1a: Golem|Golem|48\/363
+|move|p2a: Dragonite|Wrap|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|42\/363
+|-activate|p1a: Golem|move: Wrap|[of] p2a: Dragonite
+|
+|turn|95
+|c|★darkadri038|bug showdown pp full restored
+|
+|switch|p1a: Gengar|Gengar|21\/323 par
+|move|p2a: Dragonite|Wrap|p1a: Gengar
+|-damage|p1a: Gengar|21\/323 par
+|-activate|p1a: Gengar|move: Wrap|[of] p2a: Dragonite
+|
+|turn|96
+|c|★kabutops man|wait what?
+|c|★kabutops man|is that real?
+|
+|switch|p1a: Golem|Golem|42\/363
+|move|p2a: Dragonite|Wrap|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|36\/363
+|-activate|p1a: Golem|move: Wrap|[of] p2a: Dragonite
+|
+|turn|97
+|c|★darkadri038|yes
+|
+|switch|p1a: Gengar|Gengar|21\/323 par
+|move|p2a: Dragonite|Wrap|p1a: Gengar
+|-damage|p1a: Gengar|21\/323 par
+|-activate|p1a: Gengar|move: Wrap|[of] p2a: Dragonite
+|
+|turn|98
+|
+|move|p2a: Dragonite|Wrap|p1a: Gengar
+|-damage|p1a: Gengar|21\/323 par
+|cant|p1a: Gengar|partiallytrapped
+|
+|-end|p1a: Gengar|Wrap|[partiallytrapped]
+|turn|99
+|
+|move|p2a: Dragonite|Ice Beam|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|switch|p1a: Chansey|Chansey|111\/703 par
+|turn|100
+|
+|move|p2a: Dragonite|Wrap|p1a: Chansey
+|-damage|p1a: Chansey|71\/703 par
+|-activate|p1a: Chansey|move: Wrap|[of] p2a: Dragonite
+|cant|p1a: Chansey|partiallytrapped
+|
+|turn|101
+|
+|move|p2a: Dragonite|Wrap|p1a: Chansey
+|-damage|p1a: Chansey|31\/703 par
+|cant|p1a: Chansey|partiallytrapped
+|
+|turn|102
+|
+|move|p2a: Dragonite|Wrap|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|switch|p1a: Golem|Golem|36\/363
+|turn|103
+|
+|move|p2a: Dragonite|Wrap|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|30\/363
+|-activate|p1a: Golem|move: Wrap|[of] p2a: Dragonite
+|cant|p1a: Golem|partiallytrapped
+|
+|turn|104
+|
+|move|p2a: Dragonite|Wrap|p1a: Golem
+|-damage|p1a: Golem|0 fnt
+|faint|p1a: Golem
+|
+|win|darkadri038
+|raw|Ladder updating...
+|c|★kabutops man|wtf... 
+|c|★kabutops man|that was so gay i got para twice in a row with gengar
+|c|★kabutops man|i should have won
+|raw|Ladder (probably) updated, but score could not be retrieved (timeout).
+|raw|Ladder (probably) updated, but score could not be retrieved (Error: socket hang up).
+|leave|kabutops man
+|player|p1

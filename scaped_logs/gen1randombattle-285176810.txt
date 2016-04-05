@@ -1,0 +1,192 @@
+﻿|join|Azawa
+|join|salennox92
+|player|p1|Azawa|108
+|player|p2|salennox92|169
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Slowbro|Slowbro, L79|312\/312
+|switch|p2a: Paras|Paras, L96|262\/262
+|turn|1
+|
+|move|p2a: Paras|Mega Drain|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|218\/312
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|
+|turn|2
+|
+|move|p2a: Paras|Toxic|p1a: Slowbro
+|-status|p1a: Slowbro|tox
+|move|p1a: Slowbro|Thunder Wave|p2a: Paras|[miss]
+|-miss|p1a: Slowbro
+|-damage|p1a: Slowbro|199\/312 tox|[from] tox|[of] p2a: Paras
+|
+|turn|3
+|
+|move|p2a: Paras|Mega Drain|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|151\/312 tox
+|move|p1a: Slowbro|Thunder Wave|p2a: Paras
+|-status|p2a: Paras|par
+|-damage|p1a: Slowbro|113\/312 tox|[from] tox|[of] p2a: Paras
+|
+|turn|4
+|c|★Azawa|What?
+|c|★salennox92|huh?
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|-damage|p1a: Slowbro|56\/312 tox|[from] psn
+|cant|p2a: Paras|par
+|
+|turn|5
+|
+|move|p1a: Slowbro|Rest|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|-heal|p1a: Slowbro|312\/312 slp|[silent]
+|-status|p1a: Slowbro|slp|[from] move: Rest
+|cant|p2a: Paras|par
+|
+|turn|6
+|
+|cant|p1a: Slowbro|slp
+|move|p2a: Paras|Mega Drain|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|277\/312 slp
+|
+|turn|7
+|
+|-curestatus|p1a: Slowbro|slp
+|move|p2a: Paras|Mega Drain|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|243\/312
+|
+|turn|8
+|
+|move|p1a: Slowbro|Surf|p2a: Paras
+|-resisted|p2a: Paras
+|-damage|p2a: Paras|121\/262 par
+|cant|p2a: Paras|par
+|
+|turn|9
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|move|p2a: Paras|Mega Drain|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|220\/312
+|-heal|p2a: Paras|132\/262 par|[from] drain|[of] p1a: Slowbro
+|
+|turn|10
+|
+|move|p1a: Slowbro|Surf|p2a: Paras
+|-resisted|p2a: Paras
+|-damage|p2a: Paras|0 fnt
+|faint|p2a: Paras
+|
+|switch|p2a: Jolteon|Jolteon, L79|265\/265
+|turn|11
+|
+|move|p2a: Jolteon|Thunder Wave|p1a: Slowbro
+|-status|p1a: Slowbro|par
+|cant|p1a: Slowbro|par
+|
+|turn|12
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|161\/312 par
+|cant|p1a: Slowbro|par
+|
+|turn|13
+|
+|move|p2a: Jolteon|Sand Attack|p1a: Slowbro
+|-unboost|p1a: Slowbro|accuracy|1
+|move|p1a: Slowbro|Surf|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|
+|switch|p2a: Kangaskhan|Kangaskhan, L85|352\/352
+|turn|14
+|
+|move|p2a: Kangaskhan|Body Slam|p1a: Slowbro
+|-damage|p1a: Slowbro|80\/312 par
+|move|p1a: Slowbro|Surf|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|faint|p2a: Kangaskhan
+|
+|switch|p2a: Seadra|Seadra, L90|282\/282
+|turn|15
+|
+|move|p2a: Seadra|Blizzard|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|66\/312 par
+|move|p1a: Slowbro|Thunder Wave|p2a: Seadra
+|-status|p2a: Seadra|par
+|
+|turn|16
+|
+|move|p2a: Seadra|Smokescreen|p1a: Slowbro
+|-unboost|p1a: Slowbro|accuracy|1
+|cant|p1a: Slowbro|par
+|
+|turn|17
+|
+|cant|p2a: Seadra|par
+|move|p1a: Slowbro|Rest|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|-heal|p1a: Slowbro|312\/312 slp|[silent]
+|-status|p1a: Slowbro|slp|[from] move: Rest
+|
+|turn|18
+|
+|move|p2a: Seadra|Blizzard|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|201\/312 slp
+|cant|p1a: Slowbro|slp
+|
+|turn|19
+|
+|move|p2a: Seadra|Blizzard|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|187\/312 slp
+|-curestatus|p1a: Slowbro|slp
+|
+|turn|20
+|
+|move|p2a: Seadra|Blizzard|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|174\/312
+|move|p1a: Slowbro|Surf|p2a: Seadra
+|-resisted|p2a: Seadra
+|-damage|p2a: Seadra|154\/282 par
+|
+|turn|21
+|
+|move|p2a: Seadra|Blizzard|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|161\/312
+|move|p1a: Slowbro|Surf|p2a: Seadra
+|-resisted|p2a: Seadra
+|-damage|p2a: Seadra|23\/282 par
+|
+|turn|22
+|-message|salennox92 forfeited.
+|
+|win|Azawa
+|leave|salennox92
+|player|p2
+|raw|Azawa's rating: 1193 &rarr; <strong>1205<\/strong><br \/>(+12 for winning)
+|raw|salennox92's rating: 1000 &rarr; <strong>1000<\/strong><br \/>(+0 for losing)

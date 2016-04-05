@@ -1,0 +1,292 @@
+﻿|join|sciberbia
+|join|MALESANI
+|player|p1|sciberbia|52
+|player|p2|MALESANI|238
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|37646,6463,15239,34036
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Meowth|Meowth, L96|272\/272
+|switch|p2a: Dragonite|Dragonite, L85|328\/328
+|turn|1
+|choice|move 1|move 4
+|
+|move|p1a: Meowth|Slash|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-damage|p2a: Dragonite|208\/328
+|move|p2a: Dragonite|Blizzard|p1a: Meowth
+|-damage|p1a: Meowth|160\/272
+|
+|turn|2
+|choice|move 1|move 4
+|
+|move|p1a: Meowth|Slash|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-damage|p2a: Dragonite|95\/328
+|move|p2a: Dragonite|Blizzard|p1a: Meowth
+|-damage|p1a: Meowth|38\/272
+|-status|p1a: Meowth|frz
+|
+|turn|3
+|choice|move 4|move 3
+|
+|cant|p1a: Meowth|frz
+|move|p2a: Dragonite|Agility|p2a: Dragonite
+|-boost|p2a: Dragonite|spe|2
+|
+|turn|4
+|choice|move 4|move 4
+|
+|move|p2a: Dragonite|Blizzard|p1a: Meowth
+|-damage|p1a: Meowth|0 fnt
+|faint|p1a: Meowth
+|choice|switch 4|
+|
+|switch|p1a: Flareon|Flareon, L90|300\/300
+|turn|5
+|choice|move 4|move 4
+|
+|move|p2a: Dragonite|Blizzard|p1a: Flareon
+|-crit|p1a: Flareon
+|-damage|p1a: Flareon|163\/300
+|move|p1a: Flareon|Hyper Beam|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|choice||switch 2
+|
+|switch|p2a: Charizard|Charizard, L85|306\/306
+|turn|6
+|choice|switch 2|move 3
+|
+|switch|p1a: Spearow|Spearow, L96|272\/272
+|move|p2a: Charizard|Body Slam|p1a: Spearow
+|-crit|p1a: Spearow
+|-damage|p1a: Spearow|105\/272
+|
+|turn|7
+|choice|move 3|move 1
+|
+|move|p2a: Charizard|Fire Blast|p1a: Spearow
+|-crit|p1a: Spearow
+|-damage|p1a: Spearow|0 fnt
+|faint|p1a: Spearow
+|choice|switch 3|
+|
+|switch|p1a: Poliwhirl|Poliwhirl, L85|284\/284
+|turn|8
+|choice|move 1|switch 5
+|
+|switch|p2a: Jolteon|Jolteon, L79|265\/265
+|move|p1a: Poliwhirl|Amnesia|p1a: Poliwhirl
+|-boost|p1a: Poliwhirl|spd|2
+|-boost|p1a: Poliwhirl|spa|2
+|
+|turn|9
+|choice|switch 6|move 1
+|
+|switch|p1a: Gloom|Gloom, L90|291\/291
+|move|p2a: Jolteon|Thunderbolt|p1a: Gloom
+|-resisted|p1a: Gloom
+|-damage|p1a: Gloom|242\/291
+|
+|turn|10
+|choice|move 3|switch 6
+|
+|switch|p2a: Cloyster|Cloyster, L83|253\/253
+|move|p1a: Gloom|Sleep Powder|p2a: Cloyster
+|-status|p2a: Cloyster|slp
+|
+|turn|11
+|choice|switch 6|switch 5
+|
+|switch|p2a: Charizard|Charizard, L85|306\/306
+|switch|p1a: Poliwhirl|Poliwhirl, L85|284\/284
+|
+|turn|12
+|choice|move 2|switch 6
+|
+|switch|p2a: Jolteon|Jolteon, L79|265\/265
+|move|p1a: Poliwhirl|Surf|p2a: Jolteon
+|-crit|p2a: Jolteon
+|-damage|p2a: Jolteon|148\/265
+|
+|turn|13
+|choice|switch 6|move 1
+|
+|switch|p1a: Gloom|Gloom, L90|242\/291
+|move|p2a: Jolteon|Thunderbolt|p1a: Gloom
+|-resisted|p1a: Gloom
+|-damage|p1a: Gloom|197\/291
+|
+|turn|14
+|choice|switch 6|switch 6
+|
+|switch|p2a: Charizard|Charizard, L85|306\/306
+|switch|p1a: Poliwhirl|Poliwhirl, L85|284\/284
+|
+|turn|15
+|choice|move 2|switch 6
+|
+|switch|p2a: Jolteon|Jolteon, L79|148\/265
+|move|p1a: Poliwhirl|Surf|p2a: Jolteon
+|-damage|p2a: Jolteon|82\/265
+|
+|turn|16
+|choice|switch 6|move 2
+|
+|switch|p1a: Gloom|Gloom, L90|197\/291
+|move|p2a: Jolteon|Pin Missile|p1a: Gloom
+|-supereffective|p1a: Gloom
+|-damage|p1a: Gloom|162\/291
+|-damage|p1a: Gloom|127\/291
+|-hitcount|p1a: Gloom|2
+|
+|turn|17
+|choice|move 4|switch 3
+|
+|switch|p2a: Primeape|Primeape, L90|300\/300
+|move|p1a: Gloom|Double-Edge|p2a: Primeape
+|-damage|p2a: Primeape|225\/300
+|-damage|p1a: Gloom|109\/291|[from] recoil|[of] p2a: Primeape
+|
+|turn|18
+|choice|move 4|move 2
+|
+|move|p2a: Primeape|Body Slam|p1a: Gloom
+|-damage|p1a: Gloom|27\/291
+|-status|p1a: Gloom|par
+|move|p1a: Gloom|Double-Edge|p2a: Primeape
+|-damage|p2a: Primeape|148\/300
+|-damage|p1a: Gloom|8\/291 par|[from] recoil|[of] p2a: Primeape
+|
+|turn|19
+|choice|move 4|move 2
+|
+|move|p2a: Primeape|Body Slam|p1a: Gloom
+|-crit|p1a: Gloom
+|-damage|p1a: Gloom|0 fnt
+|faint|p1a: Gloom
+|choice|switch 5|
+|
+|switch|p1a: Magmar|Magmar, L90|300\/300
+|turn|20
+|choice|move 1|move 2
+|
+|move|p2a: Primeape|Body Slam|p1a: Magmar
+|-damage|p1a: Magmar|212\/300
+|move|p1a: Magmar|Fire Blast|p2a: Primeape
+|-crit|p2a: Primeape
+|-damage|p2a: Primeape|0 fnt
+|faint|p2a: Primeape
+|choice||switch 4
+|
+|switch|p2a: Sandslash|Sandslash, L85|301\/301
+|turn|21
+|choice|move 1|move 1
+|
+|move|p1a: Magmar|Fire Blast|p2a: Sandslash|[miss]
+|-miss|p1a: Magmar
+|move|p2a: Sandslash|Earthquake|p1a: Magmar
+|-crit|p1a: Magmar
+|-supereffective|p1a: Magmar
+|-damage|p1a: Magmar|0 fnt
+|faint|p1a: Magmar
+|choice|switch 6|
+|
+|switch|p1a: Poliwhirl|Poliwhirl, L85|284\/284
+|turn|22
+|choice|move 2|switch 6
+|
+|switch|p2a: Charizard|Charizard, L85|306\/306
+|move|p1a: Poliwhirl|Surf|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|157\/306
+|
+|turn|23
+|choice|move 2|move 3
+|
+|move|p2a: Charizard|Body Slam|p1a: Poliwhirl
+|-damage|p1a: Poliwhirl|220\/284
+|-status|p1a: Poliwhirl|par
+|move|p1a: Poliwhirl|Surf|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|9\/306
+|
+|turn|24
+|choice|move 2|move 3
+|
+|move|p2a: Charizard|Body Slam|p1a: Poliwhirl
+|-damage|p1a: Poliwhirl|157\/284 par
+|move|p1a: Poliwhirl|Surf|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|choice||switch 3
+|
+|switch|p2a: Jolteon|Jolteon, L79|82\/265
+|turn|25
+|choice|move 2|move 1
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Poliwhirl
+|-supereffective|p1a: Poliwhirl
+|-damage|p1a: Poliwhirl|0 fnt
+|faint|p1a: Poliwhirl
+|choice|switch 2|
+|
+|switch|p1a: Flareon|Flareon, L90|163\/300
+|turn|26
+|choice|move 4|move 1
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Flareon
+|-crit|p1a: Flareon
+|-damage|p1a: Flareon|1\/300
+|move|p1a: Flareon|Hyper Beam|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|choice||switch 5
+|
+|switch|p2a: Cloyster|Cloyster, L83|253\/253 slp
+|turn|27
+|choice|move 3|move 3
+|
+|move|p1a: Flareon|Fire Blast|p2a: Cloyster
+|-damage|p2a: Cloyster|85\/253 slp
+|cant|p2a: Cloyster|slp
+|
+|turn|28
+|choice|move 3|move 3
+|
+|move|p1a: Flareon|Fire Blast|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p2a: Cloyster
+|choice||switch 6
+|
+|switch|p2a: Sandslash|Sandslash, L85|301\/301
+|turn|29
+|c|★sciberbia|think i'll crit?
+|c|★MALESANI|if crit you win
+|c|★sciberbia|lol all comes down to this!!
+|choice|move 3|move 1
+|
+|move|p1a: Flareon|Fire Blast|p2a: Sandslash
+|-damage|p2a: Sandslash|86\/301
+|-status|p2a: Sandslash|brn
+|move|p2a: Sandslash|Earthquake|p1a: Flareon
+|-crit|p1a: Flareon
+|-supereffective|p1a: Flareon
+|-damage|p1a: Flareon|0 fnt
+|faint|p1a: Flareon
+|
+|win|MALESANI
+|raw|sciberbia's rating: 1316 &rarr; <strong>1302<\/strong><br \/>(-14 for losing)
+|raw|MALESANI's rating: 1416 &rarr; <strong>1430<\/strong><br \/>(+14 for winning)
+|c|★sciberbia|:(
+|c|★sciberbia|gg
+|c|★MALESANI|gg

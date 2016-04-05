@@ -1,0 +1,455 @@
+﻿|j|downsey238
+|j|Light vi Britannia
+|player|p1|downsey238|56
+|player|p2|Light vi Britannia|162
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|59205,19066,39948,27045
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Kingler|Kingler, L85|267\/267
+|switch|p2a: Aerodactyl|Aerodactyl, L90|327\/327
+|turn|1
+|choice|move 2|switch 4
+|
+|switch|p2a: Kingler|Kingler, L85|267\/267
+|move|p1a: Kingler|Blizzard|p2a: Kingler
+|-resisted|p2a: Kingler
+|-damage|p2a: Kingler|225\/267
+|
+|turn|2
+|c|★Light vi Britannia|i see your kingler
+|c|★Light vi Britannia|and call
+|choice|move 3|move 3
+|
+|move|p2a: Kingler|Body Slam|p1a: Kingler
+|-damage|p1a: Kingler|200\/267
+|move|p1a: Kingler|Body Slam|p2a: Kingler
+|-damage|p2a: Kingler|159\/267
+|
+|turn|3
+|choice|move 3|move 3
+|
+|move|p2a: Kingler|Body Slam|p1a: Kingler
+|-damage|p1a: Kingler|132\/267
+|move|p1a: Kingler|Body Slam|p2a: Kingler
+|-damage|p2a: Kingler|101\/267
+|
+|turn|4
+|choice|move 3|move 3
+|
+|move|p1a: Kingler|Body Slam|p2a: Kingler
+|-damage|p2a: Kingler|33\/267
+|move|p2a: Kingler|Body Slam|p1a: Kingler
+|-damage|p1a: Kingler|66\/267
+|
+|turn|5
+|choice|move 3|move 2
+|
+|move|p1a: Kingler|Body Slam|p2a: Kingler
+|-crit|p2a: Kingler
+|-damage|p2a: Kingler|0 fnt
+|faint|p2a: Kingler
+|choice||switch 3
+|
+|switch|p2a: Gengar|Gengar, L79|257\/257
+|turn|6
+|choice|move 1|move 4
+|
+|move|p2a: Gengar|Thunderbolt|p1a: Kingler
+|-crit|p1a: Kingler
+|-supereffective|p1a: Kingler
+|-damage|p1a: Kingler|0 fnt
+|faint|p1a: Kingler
+|choice|switch 2|
+|
+|switch|p1a: Tauros|Tauros, L79|280\/280
+|turn|7
+|choice|move 1|switch 4
+|
+|switch|p2a: Aerodactyl|Aerodactyl, L90|327\/327
+|move|p1a: Tauros|Earthquake|p2a: Aerodactyl
+|-immune|p2a: Aerodactyl|[msg]
+|
+|turn|8
+|choice|move 4|move 3
+|
+|move|p2a: Aerodactyl|Reflect|p2a: Aerodactyl
+|-start|p2a: Aerodactyl|Reflect
+|move|p1a: Tauros|Blizzard|p2a: Aerodactyl
+|-crit|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|52\/327
+|
+|turn|9
+|choice|move 2|switch 6
+|
+|switch|p2a: Pinsir|Pinsir, L85|284\/284
+|move|p1a: Tauros|Hyper Beam|p2a: Pinsir
+|-damage|p2a: Pinsir|146\/284
+|
+|turn|10
+|-mustrecharge|p1a: Tauros
+|-mustrecharge|p1a: Tauros
+|choice|move 1|move 2
+|
+|cant|p1a: Tauros|recharge
+|move|p2a: Pinsir|Submission|p1a: Tauros
+|-supereffective|p1a: Tauros
+|-damage|p1a: Tauros|143\/280
+|-damage|p2a: Pinsir|112\/284|[from] recoil|[of] p1a: Tauros
+|
+|turn|11
+|choice|move 2|move 4
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Pinsir
+|-damage|p2a: Pinsir|0 fnt
+|faint|p2a: Pinsir
+|choice||switch 2
+|
+|switch|p2a: Marowak|Marowak, L90|291\/291
+|turn|12
+|choice|move 4|move 3
+|
+|move|p1a: Tauros|Blizzard|p2a: Marowak|[miss]
+|-miss|p1a: Tauros
+|move|p2a: Marowak|Earthquake|p1a: Tauros
+|-damage|p1a: Tauros|40\/280
+|
+|turn|13
+|choice|move 4|switch 5
+|
+|switch|p2a: Persian|Persian, L79|265\/265
+|move|p1a: Tauros|Blizzard|p2a: Persian
+|-damage|p2a: Persian|182\/265
+|
+|turn|14
+|choice|move 2|move 1
+|
+|move|p2a: Persian|Slash|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|choice|switch 6|
+|
+|switch|p1a: Vileplume|Vileplume, L90|318\/318
+|turn|15
+|choice|move 1|move 1
+|
+|move|p2a: Persian|Slash|p1a: Vileplume
+|-crit|p1a: Vileplume
+|-damage|p1a: Vileplume|224\/318
+|move|p1a: Vileplume|Sleep Powder|p2a: Persian
+|-status|p2a: Persian|slp
+|
+|turn|16
+|choice|move 3|switch 4
+|
+|switch|p2a: Gengar|Gengar, L79|257\/257
+|move|p1a: Vileplume|Mega Drain|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|238\/257
+|-heal|p1a: Vileplume|233\/318|[from] drain|[of] p2a: Gengar
+|
+|turn|17
+|choice|move 3|move 1
+|
+|move|p2a: Gengar|Hypnosis|p1a: Vileplume|[miss]
+|-miss|p2a: Gengar
+|move|p1a: Vileplume|Mega Drain|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|216\/257
+|-heal|p1a: Vileplume|244\/318|[from] drain|[of] p2a: Gengar
+|
+|turn|18
+|choice|move 3|move 1
+|
+|move|p2a: Gengar|Hypnosis|p1a: Vileplume
+|-status|p1a: Vileplume|slp
+|cant|p1a: Vileplume|slp
+|
+|turn|19
+|choice|switch 3|switch 6
+|
+|switch|p2a: Aerodactyl|Aerodactyl, L90|52\/327
+|switch|p1a: Arbok|Arbok, L90|291\/291
+|
+|turn|20
+|choice|move 2|switch 5
+|
+|switch|p2a: Marowak|Marowak, L90|291\/291
+|move|p1a: Arbok|Rock Slide|p2a: Marowak
+|-resisted|p2a: Marowak
+|-damage|p2a: Marowak|268\/291
+|
+|turn|21
+|choice|switch 5|move 3
+|
+|switch|p1a: Scyther|Scyther, L90|309\/309
+|move|p2a: Marowak|Earthquake|p1a: Scyther
+|-immune|p1a: Scyther|[msg]
+|
+|turn|22
+|choice|move 1|move 2
+|
+|move|p1a: Scyther|Swords Dance|p1a: Scyther
+|-boost|p1a: Scyther|atk|2
+|move|p2a: Marowak|Body Slam|p1a: Scyther
+|-damage|p1a: Scyther|247\/309
+|-status|p1a: Scyther|par
+|
+|turn|23
+|choice|move 4|move 1
+|
+|move|p2a: Marowak|Blizzard|p1a: Scyther
+|-supereffective|p1a: Scyther
+|-damage|p1a: Scyther|96\/309 par
+|move|p1a: Scyther|Slash|p2a: Marowak
+|-crit|p2a: Marowak
+|-damage|p2a: Marowak|164\/291
+|
+|turn|24
+|choice|move 2|move 1
+|
+|move|p2a: Marowak|Blizzard|p1a: Scyther
+|-supereffective|p1a: Scyther
+|-damage|p1a: Scyther|0 fnt
+|faint|p1a: Scyther
+|c|★Light vi Britannia|blizzard marowak
+|c|★Light vi Britannia|only in gen 1
+|choice|switch 4|
+|
+|switch|p1a: Arcanine|Arcanine, L85|327\/327
+|turn|25
+|choice|move 1|move 3
+|
+|move|p1a: Arcanine|Hyper Beam|p2a: Marowak
+|-crit|p2a: Marowak
+|-damage|p2a: Marowak|0 fnt
+|faint|p2a: Marowak
+|choice||switch 6
+|
+|switch|p2a: Gengar|Gengar, L79|216\/257
+|turn|26
+|choice|move 3|move 4
+|
+|move|p2a: Gengar|Thunderbolt|p1a: Arcanine
+|-damage|p1a: Arcanine|250\/327
+|move|p1a: Arcanine|Mimic|p2a: Gengar
+|-start|p1a: Arcanine|Mimic|Mega Drain
+|
+|turn|27
+|choice|move 3|move 4
+|
+|move|p2a: Gengar|Thunderbolt|p1a: Arcanine
+|-damage|p1a: Arcanine|169\/327
+|move|p1a: Arcanine|Mega Drain|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|205\/257
+|-heal|p1a: Arcanine|174\/327|[from] drain|[of] p2a: Gengar
+|
+|turn|28
+|choice|switch 5|move 4
+|
+|switch|p1a: Arbok|Arbok, L90|291\/291
+|move|p2a: Gengar|Thunderbolt|p1a: Arbok
+|-damage|p1a: Arbok|207\/291
+|
+|turn|29
+|choice|move 3|move 4
+|
+|move|p2a: Gengar|Thunderbolt|p1a: Arbok
+|-damage|p1a: Arbok|120\/291
+|move|p1a: Arbok|Glare|p2a: Gengar|[miss]
+|-miss|p1a: Arbok
+|
+|turn|30
+|choice|move 3|switch 4
+|
+|switch|p2a: Persian|Persian, L79|182\/265 slp
+|move|p1a: Arbok|Glare|p2a: Persian|[miss]
+|-miss|p1a: Arbok
+|
+|turn|31
+|c|★Light vi Britannia|!!!
+|choice|move 1|move 1
+|
+|cant|p2a: Persian|slp
+|move|p1a: Arbok|Body Slam|p2a: Persian
+|-damage|p2a: Persian|103\/265 slp
+|
+|turn|32
+|c|★Light vi Britannia|oh no you don't
+|c|★Light vi Britannia|silly wabbit
+|choice|move 2|move 3
+|
+|cant|p2a: Persian|slp
+|move|p1a: Arbok|Rock Slide|p2a: Persian|[miss]
+|-miss|p1a: Arbok
+|
+|turn|33
+|choice|move 4|move 1
+|
+|cant|p2a: Persian|slp
+|move|p1a: Arbok|Hyper Beam|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|faint|p2a: Persian
+|choice||switch 5
+|
+|switch|p2a: Aerodactyl|Aerodactyl, L90|52\/327
+|turn|34
+|choice|move 4|move 4
+|
+|move|p2a: Aerodactyl|Hyper Beam|p1a: Arbok
+|-damage|p1a: Arbok|0 fnt
+|faint|p1a: Arbok
+|choice|switch 3|
+|
+|switch|p1a: Vileplume|Vileplume, L90|244\/318 slp
+|turn|35
+|choice|move 3|move 2
+|
+|move|p2a: Aerodactyl|Sky Attack|p1a: Vileplume|[still]
+|-prepare|p2a: Aerodactyl|Sky Attack|p1a: Vileplume
+|cant|p1a: Vileplume|slp
+|
+|turn|36
+|choice|switch 5|move 1
+|
+|switch|p1a: Arcanine|Arcanine, L85|174\/327
+|move|p2a: Aerodactyl|Sky Attack|p1a: Arcanine|[from]Sky Attack|[miss]
+|-miss|p2a: Aerodactyl
+|
+|turn|37
+|choice|move 1|switch 4
+|
+|switch|p2a: Gengar|Gengar, L79|205\/257
+|move|p1a: Arcanine|Hyper Beam|p2a: Gengar
+|-immune|p2a: Gengar|[msg]
+|
+|turn|38
+|choice|move 3|move 4
+|
+|move|p2a: Gengar|Thunderbolt|p1a: Arcanine
+|-damage|p1a: Arcanine|98\/327
+|move|p1a: Arcanine|Mimic|p2a: Gengar
+|-start|p1a: Arcanine|Mimic|Mega Drain
+|
+|turn|39
+|choice|switch 5|move 4
+|
+|switch|p1a: Vileplume|Vileplume, L90|244\/318 slp
+|move|p2a: Gengar|Thunderbolt|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|213\/318 slp
+|
+|turn|40
+|choice|move 1|move 4
+|
+|move|p2a: Gengar|Thunderbolt|p1a: Vileplume
+|-crit|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|157\/318 slp
+|-curestatus|p1a: Vileplume|slp
+|
+|turn|41
+|choice|move 1|move 1
+|
+|move|p2a: Gengar|Hypnosis|p1a: Vileplume|[miss]
+|-miss|p2a: Gengar
+|move|p1a: Vileplume|Sleep Powder|p2a: Gengar
+|-status|p2a: Gengar|slp
+|
+|turn|42
+|choice|switch 5|move 1
+|
+|switch|p1a: Arcanine|Arcanine, L85|98\/327
+|cant|p2a: Gengar|slp
+|
+|turn|43
+|choice|move 3|move 1
+|
+|cant|p2a: Gengar|slp
+|move|p1a: Arcanine|Mimic|p2a: Gengar
+|-start|p1a: Arcanine|Mimic|Hypnosis
+|
+|turn|44
+|choice|move 4|move 4
+|
+|-curestatus|p2a: Gengar|slp
+|move|p1a: Arcanine|Reflect|p1a: Arcanine
+|-start|p1a: Arcanine|Reflect
+|
+|turn|45
+|choice|move 3|move 4
+|
+|move|p2a: Gengar|Thunderbolt|p1a: Arcanine
+|-damage|p1a: Arcanine|27\/327
+|move|p1a: Arcanine|Hypnosis|p2a: Gengar
+|-status|p2a: Gengar|slp
+|
+|turn|46
+|choice|switch 5|move 4
+|
+|switch|p1a: Vileplume|Vileplume, L90|157\/318
+|cant|p2a: Gengar|slp
+|
+|turn|47
+|choice|move 3|move 1
+|
+|-curestatus|p2a: Gengar|slp
+|move|p1a: Vileplume|Mega Drain|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|186\/257
+|-heal|p1a: Vileplume|166\/318|[from] drain|[of] p2a: Gengar
+|
+|turn|48
+|choice|move 1|move 1
+|
+|move|p2a: Gengar|Hypnosis|p1a: Vileplume
+|-status|p1a: Vileplume|slp
+|cant|p1a: Vileplume|slp
+|
+|turn|49
+|choice|move 2|switch 4
+|
+|switch|p2a: Aerodactyl|Aerodactyl, L90|52\/327
+|cant|p1a: Vileplume|slp
+|
+|turn|50
+|c|★Light vi Britannia|gg
+|choice|move 3|move 2
+|
+|move|p2a: Aerodactyl|Sky Attack|p1a: Vileplume|[still]
+|-prepare|p2a: Aerodactyl|Sky Attack|p1a: Vileplume
+|-curestatus|p1a: Vileplume|slp
+|
+|turn|51
+|choice|move 3|move 1
+|
+|move|p2a: Aerodactyl|Sky Attack|p1a: Vileplume|[from]Sky Attack
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|faint|p1a: Vileplume
+|choice|switch 5|
+|
+|switch|p1a: Arcanine|Arcanine, L85|27\/327
+|turn|52
+|choice|move 1|move 1
+|
+|move|p2a: Aerodactyl|Double-Edge|p1a: Arcanine
+|-crit|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|-damage|p2a: Aerodactyl|46\/327|[from] recoil|[of] p1a: Arcanine
+|faint|p1a: Arcanine
+|
+|win|Light vi Britannia
+|player|p1
+|player|p2
+|raw|downsey238's rating: 1138 &rarr; <strong>1110<\/strong><br \/>(-28 for losing)
+|raw|Light vi Britannia's rating: 1097 &rarr; <strong>1126<\/strong><br \/>(+29 for winning)

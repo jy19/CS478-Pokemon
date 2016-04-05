@@ -1,0 +1,276 @@
+﻿|join|andrewandres
+|join|Filososquirtle
+|player|p1|andrewandres|102
+|player|p2|Filososquirtle|181
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Venonat|Venonat, L96|310\/310
+|switch|p2a: Eevee|Eevee, L96|300\/300
+|turn|1
+|
+|move|p2a: Eevee|Sand Attack|p1a: Venonat
+|-unboost|p1a: Venonat|accuracy|1
+|move|p1a: Venonat|Psychic|p2a: Eevee|[miss]
+|-miss|p1a: Venonat
+|
+|turn|2
+|c|★Filososquirtle|toma arena
+|c|★Filososquirtle|OH SY UN LEGENDARIO
+|
+|move|p2a: Eevee|Sand Attack|p1a: Venonat
+|-unboost|p1a: Venonat|accuracy|1
+|move|p1a: Venonat|Psychic|p2a: Eevee|[miss]
+|-miss|p1a: Venonat
+|
+|turn|3
+|
+|switch|p1a: Voltorb|Voltorb, L96|272\/272
+|move|p2a: Eevee|Tail Whip|p1a: Voltorb
+|-unboost|p1a: Voltorb|def|1
+|
+|turn|4
+|
+|move|p1a: Voltorb|Thunder Wave|p2a: Eevee
+|-status|p2a: Eevee|par
+|move|p2a: Eevee|Sand Attack|p1a: Voltorb
+|-unboost|p1a: Voltorb|accuracy|1
+|
+|turn|5
+|
+|switch|p1a: Venonat|Venonat, L96|310\/310
+|cant|p2a: Eevee|par
+|
+|turn|6
+|
+|move|p1a: Venonat|Psychic|p2a: Eevee
+|-damage|p2a: Eevee|251\/300 par
+|-unboost|p2a: Eevee|spd|1
+|-unboost|p2a: Eevee|spa|1
+|move|p2a: Eevee|Tail Whip|p1a: Venonat
+|-unboost|p1a: Venonat|def|1
+|
+|turn|7
+|
+|move|p1a: Venonat|Psychic|p2a: Eevee
+|-damage|p2a: Eevee|175\/300 par
+|move|p2a: Eevee|Sand Attack|p1a: Venonat
+|-unboost|p1a: Venonat|accuracy|1
+|
+|turn|8
+|
+|move|p1a: Venonat|Psychic|p2a: Eevee
+|-damage|p2a: Eevee|100\/300 par
+|move|p2a: Eevee|Double-Edge|p1a: Venonat
+|-crit|p1a: Venonat
+|-damage|p1a: Venonat|88\/310
+|-damage|p2a: Eevee|45\/300 par|[from] recoil|[of] p1a: Venonat
+|
+|turn|9
+|
+|move|p1a: Venonat|Psychic|p2a: Eevee
+|-damage|p2a: Eevee|0 fnt
+|faint|p2a: Eevee
+|c|★Filososquirtle|Es hora de sacar el Shukiztrukiz
+|
+|switch|p2a: Zapdos|Zapdos, L79|304\/304
+|turn|10
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Venonat
+|-crit|p1a: Venonat
+|-damage|p1a: Venonat|0 fnt
+|faint|p1a: Venonat
+|
+|switch|p1a: Voltorb|Voltorb, L96|272\/272
+|turn|11
+|
+|move|p1a: Voltorb|Thunder Wave|p2a: Zapdos
+|-status|p2a: Zapdos|par
+|move|p2a: Zapdos|Thunder Wave|p1a: Voltorb
+|-status|p1a: Voltorb|par
+|
+|turn|12
+|
+|switch|p2a: Nidoking|Nidoking, L85|311\/311
+|move|p1a: Voltorb|Screech|p2a: Nidoking
+|-unboost|p2a: Nidoking|def|2
+|
+|turn|13
+|
+|switch|p1a: Vaporeon|Vaporeon, L85|395\/395
+|move|p2a: Nidoking|Earthquake|p1a: Vaporeon
+|-crit|p1a: Vaporeon
+|-damage|p1a: Vaporeon|136\/395
+|
+|turn|14
+|
+|move|p2a: Nidoking|Thunderbolt|p1a: Vaporeon
+|-crit|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|c|★Filososquirtle|:3
+|
+|switch|p1a: Parasect|Parasect, L90|291\/291
+|turn|15
+|
+|move|p2a: Nidoking|Body Slam|p1a: Parasect
+|-damage|p1a: Parasect|229\/291
+|-status|p1a: Parasect|par
+|move|p1a: Parasect|Spore|p2a: Nidoking
+|-status|p2a: Nidoking|slp
+|
+|turn|16
+|
+|switch|p2a: Charmeleon|Charmeleon, L85|272\/272
+|move|p1a: Parasect|Slash|p2a: Charmeleon
+|-damage|p2a: Charmeleon|201\/272
+|
+|turn|17
+|
+|move|p2a: Charmeleon|Fire Blast|p1a: Parasect
+|-crit|p1a: Parasect
+|-supereffective|p1a: Parasect
+|-damage|p1a: Parasect|0 fnt
+|faint|p1a: Parasect
+|
+|switch|p1a: Jolteon|Jolteon, L79|265\/265
+|turn|18
+|c|★andrewandres|creo q ganaste
+|
+|move|p1a: Jolteon|Body Slam|p2a: Charmeleon
+|-crit|p2a: Charmeleon
+|-damage|p2a: Charmeleon|98\/272
+|move|p2a: Charmeleon|Fire Blast|p1a: Jolteon
+|-damage|p1a: Jolteon|165\/265
+|
+|turn|19
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Charmeleon
+|-crit|p2a: Charmeleon
+|-damage|p2a: Charmeleon|0 fnt
+|faint|p2a: Charmeleon
+|
+|switch|p2a: Vileplume|Vileplume, L90|318\/318
+|turn|20
+|
+|switch|p1a: Voltorb|Voltorb, L96|272\/272 par
+|move|p2a: Vileplume|Sleep Powder|p1a: Voltorb
+|-fail|p1a: Voltorb
+|
+|turn|21
+|c|★Filososquirtle|fuck
+|
+|move|p2a: Vileplume|Swords Dance|p2a: Vileplume
+|-boost|p2a: Vileplume|atk|2
+|move|p1a: Voltorb|Explosion|p2a: Vileplume
+|-damage|p2a: Vileplume|149\/318
+|faint|p1a: Voltorb
+|c|★Filososquirtle|oie ziiii
+|
+|switch|p1a: Exeggutor|Exeggutor, L79|312\/312
+|turn|22
+|
+|move|p2a: Vileplume|Sleep Powder|p1a: Exeggutor
+|-status|p1a: Exeggutor|slp
+|cant|p1a: Exeggutor|slp
+|
+|turn|23
+|
+|switch|p2a: Zapdos|Zapdos, L79|304\/304 par
+|switch|p1a: Jolteon|Jolteon, L79|165\/265
+|
+|turn|24
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|146\/304 par
+|cant|p2a: Zapdos|par
+|
+|turn|25
+|
+|move|p1a: Jolteon|Body Slam|p2a: Zapdos
+|-damage|p2a: Zapdos|102\/304 par
+|move|p2a: Zapdos|Thunder Wave|p1a: Jolteon
+|-status|p1a: Jolteon|par
+|
+|turn|26
+|
+|switch|p2a: Nidoking|Nidoking, L85|311\/311 slp
+|move|p1a: Jolteon|Thunderbolt|p2a: Nidoking
+|-immune|p2a: Nidoking|[msg]
+|
+|turn|27
+|
+|cant|p2a: Nidoking|slp
+|move|p1a: Jolteon|Body Slam|p2a: Nidoking
+|-damage|p2a: Nidoking|263\/311 slp
+|
+|turn|28
+|
+|cant|p2a: Nidoking|slp
+|move|p1a: Jolteon|Body Slam|p2a: Nidoking
+|-crit|p2a: Nidoking
+|-damage|p2a: Nidoking|178\/311 slp
+|
+|turn|29
+|
+|cant|p2a: Nidoking|slp
+|-curestatus|p2a: Nidoking|slp
+|move|p1a: Jolteon|Body Slam|p2a: Nidoking
+|-damage|p2a: Nidoking|133\/311
+|
+|turn|30
+|
+|switch|p1a: Exeggutor|Exeggutor, L79|312\/312 slp
+|move|p2a: Nidoking|Earthquake|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|257\/312 slp
+|
+|turn|31
+|
+|move|p2a: Nidoking|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|190\/312 slp
+|cant|p1a: Exeggutor|slp
+|
+|turn|32
+|
+|move|p2a: Nidoking|Thunder|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|159\/312 slp
+|cant|p1a: Exeggutor|slp
+|-curestatus|p1a: Exeggutor|slp
+|
+|turn|33
+|
+|move|p2a: Nidoking|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|94\/312
+|move|p1a: Exeggutor|Egg Bomb|p2a: Nidoking
+|-damage|p2a: Nidoking|69\/311
+|
+|turn|34
+|
+|move|p2a: Nidoking|Body Slam|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|c|★andrewandres|critico encima jajja
+|c|★andrewandres|tellego acascar el hyperrayo..
+|
+|switch|p1a: Jolteon|Jolteon, L79|165\/265 par
+|turn|35
+|c|★andrewandres|cachis
+|c|★andrewandres|gg
+|
+|move|p2a: Nidoking|Earthquake|p1a: Jolteon
+|-crit|p1a: Jolteon
+|-supereffective|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|win|Filososquirtle

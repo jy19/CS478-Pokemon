@@ -1,0 +1,191 @@
+﻿|join|XianJu
+|join|ShivyS10
+|player|p1|XianJu|130
+|player|p2|ShivyS10|214
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|44141,10933,1846,59636
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Mankey|Mankey, L96|272\/272
+|switch|p2a: Bellsprout|Bellsprout, L96|291\/291
+|turn|1
+|choice|move 3|move 3
+|
+|move|p1a: Mankey|Body Slam|p2a: Bellsprout
+|-damage|p2a: Bellsprout|197\/291
+|-status|p2a: Bellsprout|par
+|move|p2a: Bellsprout|Swords Dance|p2a: Bellsprout
+|-boost|p2a: Bellsprout|atk|2
+|
+|turn|2
+|choice|move 4|move 1
+|
+|move|p1a: Mankey|Mega Kick|p2a: Bellsprout
+|-damage|p2a: Bellsprout|60\/291 par
+|move|p2a: Bellsprout|Sleep Powder|p1a: Mankey|[miss]
+|-miss|p2a: Bellsprout
+|
+|turn|3
+|choice|move 3|move 1
+|
+|move|p1a: Mankey|Body Slam|p2a: Bellsprout
+|-crit|p2a: Bellsprout
+|-damage|p2a: Bellsprout|0 fnt
+|faint|p2a: Bellsprout
+|choice||switch 4
+|
+|switch|p2a: Alakazam|Alakazam, L79|249\/249
+|turn|4
+|choice|switch 3|move 1
+|
+|switch|p1a: Mr. Mime|Mr. Mime, L85|242\/242
+|move|p2a: Alakazam|Psychic|p1a: Mr. Mime
+|-resisted|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|196\/242
+|
+|turn|5
+|choice|move 3|switch 3
+|
+|switch|p2a: Beedrill|Beedrill, L90|300\/300
+|move|p1a: Mr. Mime|Thunder Wave|p2a: Beedrill
+|-status|p2a: Beedrill|par
+|
+|turn|6
+|choice|move 4|move 2
+|
+|move|p1a: Mr. Mime|Psychic|p2a: Beedrill
+|-supereffective|p2a: Beedrill
+|-damage|p2a: Beedrill|11\/300 par
+|-unboost|p2a: Beedrill|spd|1
+|-unboost|p2a: Beedrill|spa|1
+|move|p2a: Beedrill|Twineedle|p1a: Mr. Mime
+|-supereffective|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|134\/242
+|-damage|p1a: Mr. Mime|72\/242
+|-status|p1a: Mr. Mime|psn
+|-hitcount|p1a: Mr. Mime|2
+|
+|turn|7
+|choice|move 4|switch 5
+|
+|switch|p2a: Flareon|Flareon, L90|300\/300
+|move|p1a: Mr. Mime|Psychic|p2a: Flareon
+|-damage|p2a: Flareon|223\/300
+|-damage|p1a: Mr. Mime|57\/242 psn|[from] psn|[of] p2a: Flareon
+|
+|turn|8
+|choice|move 3|move 2
+|
+|move|p2a: Flareon|Quick Attack|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|6\/242 psn
+|move|p1a: Mr. Mime|Thunder Wave|p2a: Flareon
+|-status|p2a: Flareon|par
+|-damage|p1a: Mr. Mime|0 fnt|[from] psn|[of] p2a: Flareon
+|faint|p1a: Mr. Mime
+|choice|switch 3|
+|
+|switch|p1a: Mankey|Mankey, L96|272\/272
+|turn|9
+|choice|move 1|switch 3
+|
+|switch|p2a: Alakazam|Alakazam, L79|249\/249
+|move|p1a: Mankey|Rock Slide|p2a: Alakazam
+|-damage|p2a: Alakazam|153\/249
+|
+|turn|10
+|choice|move 3|move 2
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Mankey
+|-status|p1a: Mankey|par
+|cant|p1a: Mankey|par
+|
+|turn|11
+|choice|switch 2|move 1
+|
+|switch|p1a: Goldeen|Goldeen, L96|281\/281
+|move|p2a: Alakazam|Psychic|p1a: Goldeen
+|-crit|p1a: Goldeen
+|-damage|p1a: Goldeen|22\/281
+|-unboost|p1a: Goldeen|spd|1
+|-unboost|p1a: Goldeen|spa|1
+|
+|turn|12
+|choice|switch 2|move 1
+|
+|switch|p1a: Mankey|Mankey, L96|272\/272 par
+|move|p2a: Alakazam|Psychic|p1a: Mankey
+|-supereffective|p1a: Mankey
+|-damage|p1a: Mankey|0 fnt
+|faint|p1a: Mankey
+|choice|switch 5|
+|
+|switch|p1a: Mewtwo|Mewtwo, L68|285\/285
+|turn|13
+|choice|move 3|move 2
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Mewtwo
+|-status|p1a: Mewtwo|par
+|move|p1a: Mewtwo|Amnesia|p1a: Mewtwo
+|-boost|p1a: Mewtwo|spd|2
+|-boost|p1a: Mewtwo|spa|2
+|
+|turn|14
+|choice|move 2|move 4
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Mewtwo
+|-damage|p1a: Mewtwo|206\/285 par
+|move|p1a: Mewtwo|Thunder Wave|p2a: Alakazam
+|-status|p2a: Alakazam|par
+|
+|turn|15
+|choice|move 1|switch 2
+|
+|switch|p2a: Fearow|Fearow, L90|300\/300
+|cant|p1a: Mewtwo|par
+|
+|turn|16
+|choice|move 4|move 3
+|
+|move|p2a: Fearow|Double-Edge|p1a: Mewtwo
+|-damage|p1a: Mewtwo|61\/285 par
+|-damage|p2a: Fearow|264\/300|[from] recoil|[of] p1a: Mewtwo
+|move|p1a: Mewtwo|Ice Beam|p2a: Fearow
+|-supereffective|p2a: Fearow
+|-damage|p2a: Fearow|0 fnt
+|faint|p2a: Fearow
+|choice||switch 6
+|
+|switch|p2a: Wartortle|Wartortle, L85|274\/274
+|turn|17
+|choice|switch 6|move 3
+|
+|switch|p1a: Blastoise|Blastoise, L85|308\/308
+|move|p2a: Wartortle|Hydro Pump|p1a: Blastoise|[miss]
+|-miss|p2a: Wartortle
+|
+|turn|18
+|choice|move 4|switch 2
+|
+|switch|p2a: Alakazam|Alakazam, L79|153\/249 par
+|move|p1a: Blastoise|Body Slam|p2a: Alakazam
+|-damage|p2a: Alakazam|67\/249 par
+|
+|turn|19
+|choice|move 4|move 3
+|
+|move|p1a: Blastoise|Body Slam|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|-message|ShivyS10 forfeited.
+|
+|win|XianJu
+|leave|ShivyS10
+|player|p2
+|raw|XianJu's rating: 1372 &rarr; <strong>1383<\/strong><br \/>(+11 for winning)
+|raw|ShivyS10's rating: 1184 &rarr; <strong>1171<\/strong><br \/>(-13 for losing)

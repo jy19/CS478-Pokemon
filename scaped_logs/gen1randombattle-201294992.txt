@@ -1,0 +1,248 @@
+﻿|join|DJ Chill
+|join|thunderstone
+|player|p1|DJ Chill|238
+|player|p2|thunderstone|25
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Primeape|Primeape, L86|287\/287
+|switch|p2a: Beedrill|Beedrill, L86|287\/287
+|turn|1
+|
+|move|p1a: Primeape|Rock Slide|p2a: Beedrill
+|-supereffective|p2a: Beedrill
+|-damage|p2a: Beedrill|107\/287
+|move|p2a: Beedrill|Swords Dance|p2a: Beedrill
+|-boost|p2a: Beedrill|atk|2
+|
+|turn|2
+|
+|move|p1a: Primeape|Rock Slide|p2a: Beedrill
+|-supereffective|p2a: Beedrill
+|-damage|p2a: Beedrill|0 fnt
+|faint|p2a: Beedrill
+|
+|switch|p2a: Wigglytuff|Wigglytuff, L86|416\/416
+|turn|3
+|
+|move|p1a: Primeape|Submission|p2a: Wigglytuff|[miss]
+|-miss|p1a: Primeape
+|move|p2a: Wigglytuff|Thunder Wave|p1a: Primeape
+|-status|p1a: Primeape|par
+|
+|turn|4
+|
+|move|p2a: Wigglytuff|Double-Edge|p1a: Primeape
+|-damage|p1a: Primeape|175\/287 par
+|-damage|p2a: Wigglytuff|388\/416|[from] recoil|[of] p1a: Primeape
+|move|p1a: Primeape|Body Slam|p2a: Wigglytuff
+|-crit|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|197\/416
+|
+|turn|5
+|
+|move|p2a: Wigglytuff|Double-Edge|p1a: Primeape
+|-damage|p1a: Primeape|63\/287 par
+|-damage|p2a: Wigglytuff|169\/416|[from] recoil|[of] p1a: Primeape
+|move|p1a: Primeape|Submission|p2a: Wigglytuff|[miss]
+|-miss|p1a: Primeape
+|
+|turn|6
+|
+|move|p2a: Wigglytuff|Double-Edge|p1a: Primeape
+|-damage|p1a: Primeape|0 fnt
+|-damage|p2a: Wigglytuff|154\/416|[from] recoil|[of] p1a: Primeape
+|faint|p1a: Primeape
+|
+|switch|p1a: Omastar|Omastar, L86|296\/296
+|turn|7
+|
+|move|p1a: Omastar|Surf|p2a: Wigglytuff
+|-crit|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|0 fnt
+|faint|p2a: Wigglytuff
+|
+|switch|p2a: Raichu|Raichu, L86|279\/279
+|turn|8
+|
+|switch|p1a: Hypno|Hypno, L86|322\/322
+|move|p2a: Raichu|Thunderbolt|p1a: Hypno
+|-crit|p1a: Hypno
+|-damage|p1a: Hypno|166\/322
+|
+|turn|9
+|
+|move|p2a: Raichu|Thunder Wave|p1a: Hypno
+|-status|p1a: Hypno|par
+|move|p1a: Hypno|Hypnosis|p2a: Raichu|[miss]
+|-miss|p1a: Hypno
+|
+|turn|10
+|
+|move|p2a: Raichu|Thunderbolt|p1a: Hypno
+|-crit|p1a: Hypno
+|-damage|p1a: Hypno|5\/322 par
+|move|p1a: Hypno|Hypnosis|p2a: Raichu
+|-status|p2a: Raichu|slp
+|
+|turn|11
+|
+|cant|p2a: Raichu|slp
+|move|p1a: Hypno|Rest|p1a: Hypno
+|-status|p1a: Hypno|slp
+|-heal|p1a: Hypno|322\/322 slp|[silent]
+|-status|p1a: Hypno|slp|[from] move: Rest
+|
+|turn|12
+|
+|cant|p2a: Raichu|slp
+|cant|p1a: Hypno|slp
+|
+|turn|13
+|
+|cant|p2a: Raichu|slp
+|-curestatus|p2a: Raichu|slp
+|cant|p1a: Hypno|slp
+|-curestatus|p1a: Hypno|slp
+|
+|turn|14
+|
+|move|p2a: Raichu|Thunder Wave|p1a: Hypno
+|-status|p1a: Hypno|par
+|cant|p1a: Hypno|par
+|
+|turn|15
+|
+|move|p2a: Raichu|Thunderbolt|p1a: Hypno
+|-damage|p1a: Hypno|240\/322 par
+|cant|p1a: Hypno|par
+|
+|turn|16
+|
+|move|p2a: Raichu|Thunderbolt|p1a: Hypno
+|-damage|p1a: Hypno|161\/322 par
+|cant|p1a: Hypno|par
+|
+|turn|17
+|
+|move|p2a: Raichu|Thunderbolt|p1a: Hypno
+|-damage|p1a: Hypno|83\/322 par
+|cant|p1a: Hypno|par
+|
+|turn|18
+|
+|move|p2a: Raichu|Thunderbolt|p1a: Hypno
+|-damage|p1a: Hypno|0 fnt
+|faint|p1a: Hypno
+|c|★DJ Chill|paralysis is such a bitch in gen 1
+|
+|switch|p1a: Magmar|Magmar, L86|287\/287
+|turn|19
+|
+|move|p2a: Raichu|Thunder Wave|p1a: Magmar
+|-status|p1a: Magmar|par
+|cant|p1a: Magmar|par
+|
+|turn|20
+|
+|move|p2a: Raichu|Surf|p1a: Magmar
+|-crit|p1a: Magmar
+|-supereffective|p1a: Magmar
+|-damage|p1a: Magmar|40\/287 par
+|move|p1a: Magmar|Confuse Ray|p2a: Raichu
+|-start|p2a: Raichu|confusion
+|
+|turn|21
+|
+|-activate|p2a: Raichu|confusion
+|-damage|p2a: Raichu|239\/279|[from] confusion
+|move|p1a: Magmar|Body Slam|p2a: Raichu
+|-damage|p2a: Raichu|157\/279
+|
+|turn|22
+|
+|-activate|p2a: Raichu|confusion
+|move|p2a: Raichu|Thunderbolt|p1a: Magmar
+|-damage|p1a: Magmar|0 fnt
+|faint|p1a: Magmar
+|
+|switch|p1a: Moltres|Moltres, L86|330\/330
+|turn|23
+|
+|-activate|p2a: Raichu|confusion
+|move|p2a: Raichu|Thunder Wave|p1a: Moltres
+|-status|p1a: Moltres|par
+|move|p1a: Moltres|Fire Blast|p2a: Raichu
+|-damage|p2a: Raichu|0 fnt
+|faint|p2a: Raichu
+|
+|switch|p2a: Charizard|Charizard, L86|310\/310
+|turn|24
+|
+|move|p2a: Charizard|Body Slam|p1a: Moltres
+|-damage|p1a: Moltres|273\/330 par
+|move|p1a: Moltres|Agility|p1a: Moltres
+|-boost|p1a: Moltres|spe|2
+|
+|turn|25
+|
+|move|p1a: Moltres|Fire Blast|p2a: Charizard|[miss]
+|-miss|p1a: Moltres
+|move|p2a: Charizard|Swords Dance|p2a: Charizard
+|-boost|p2a: Charizard|atk|2
+|
+|turn|26
+|
+|move|p1a: Moltres|Hyper Beam|p2a: Charizard
+|-damage|p2a: Charizard|194\/310
+|move|p2a: Charizard|Swords Dance|p2a: Charizard
+|-boost|p2a: Charizard|atk|2
+|
+|turn|27
+|
+|cant|p1a: Moltres|par
+|move|p2a: Charizard|Body Slam|p1a: Moltres
+|-damage|p1a: Moltres|109\/330 par
+|
+|turn|28
+|
+|move|p1a: Moltres|Hyper Beam|p2a: Charizard
+|-damage|p2a: Charizard|80\/310
+|move|p2a: Charizard|Body Slam|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|switch|p1a: Omastar|Omastar, L86|296\/296
+|turn|29
+|
+|move|p2a: Charizard|Earthquake|p1a: Omastar
+|-supereffective|p1a: Omastar
+|-damage|p1a: Omastar|0 fnt
+|faint|p1a: Omastar
+|
+|switch|p1a: Blastoise|Blastoise, L86|311\/311
+|turn|30
+|
+|move|p2a: Charizard|Body Slam|p1a: Blastoise
+|-damage|p1a: Blastoise|165\/311
+|-status|p1a: Blastoise|par
+|cant|p1a: Blastoise|par
+|
+|turn|31
+|
+|move|p2a: Charizard|Body Slam|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|faint|p1a: Blastoise
+|
+|win|thunderstone
+|raw|Ladder updating...
+|raw|DJ Chill's rating: 1047 &rarr; <strong>1030<\/strong><br \/>(-17 for losing)
+|raw|thunderstone's rating: 1040 &rarr; <strong>1075<\/strong><br \/>(+35 for winning)
+|leave|thunderstone
+|player|p2

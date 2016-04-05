@@ -1,0 +1,420 @@
+﻿|join|erik1erik
+|join|LordB.P.
+|player|p1|erik1erik|1
+|player|p2|LordB.P.|102
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Dragonair|Dragonair, L85|277\/277
+|switch|p2a: Starmie|Starmie, L79|257\/257
+|turn|1
+|
+|move|p2a: Starmie|Thunder Wave|p1a: Dragonair
+|-status|p1a: Dragonair|par
+|move|p1a: Dragonair|Thunder|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|106\/257
+|
+|turn|2
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|234\/257
+|move|p1a: Dragonair|Thunder|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|101\/257
+|
+|turn|3
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|229\/257
+|cant|p1a: Dragonair|par
+|
+|turn|4
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Dragonair
+|-crit|p1a: Dragonair
+|-resisted|p1a: Dragonair
+|-damage|p1a: Dragonair|213\/277 par
+|move|p1a: Dragonair|Thunder|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|86\/257
+|
+|turn|5
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|214\/257
+|move|p1a: Dragonair|Thunder|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|65\/257
+|
+|turn|6
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|193\/257
+|cant|p1a: Dragonair|par
+|
+|turn|7
+|
+|switch|p2a: Ivysaur|Ivysaur, L85|276\/276
+|move|p1a: Dragonair|Thunder|p2a: Ivysaur
+|-resisted|p2a: Ivysaur
+|-damage|p2a: Ivysaur|239\/276
+|
+|turn|8
+|
+|move|p2a: Ivysaur|Leech Seed|p1a: Dragonair
+|-start|p1a: Dragonair|move: Leech Seed
+|cant|p1a: Dragonair|par
+|-damage|p1a: Dragonair|196\/277 par|[from] Leech Seed|[of] p2a: Ivysaur
+|-heal|p2a: Ivysaur|256\/276|[silent]
+|
+|turn|9
+|
+|switch|p2a: Haunter|Haunter, L85|250\/250
+|move|p1a: Dragonair|Ice Beam|p2a: Haunter
+|-damage|p2a: Haunter|207\/250
+|-damage|p1a: Dragonair|179\/277 par|[from] Leech Seed|[of] p2a: Haunter
+|-heal|p2a: Haunter|224\/250|[silent]
+|
+|turn|10
+|
+|switch|p1a: Jynx|Jynx, L79|265\/265
+|move|p2a: Haunter|Confuse Ray|p1a: Jynx
+|-start|p1a: Jynx|confusion
+|
+|turn|11
+|
+|switch|p2a: Blastoise|Blastoise, L85|308\/308
+|-activate|p1a: Jynx|confusion
+|-damage|p1a: Jynx|232\/265|[from] confusion
+|
+|turn|12
+|
+|-end|p1a: Jynx|confusion
+|move|p1a: Jynx|Lovely Kiss|p2a: Blastoise|[miss]
+|-miss|p1a: Jynx
+|move|p2a: Blastoise|Body Slam|p1a: Jynx
+|-crit|p1a: Jynx
+|-damage|p1a: Jynx|53\/265
+|-status|p1a: Jynx|par
+|
+|turn|13
+|
+|move|p2a: Blastoise|Body Slam|p1a: Jynx
+|-crit|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|
+|switch|p1a: Tangela|Tangela, L85|284\/284
+|turn|14
+|
+|switch|p2a: Haunter|Haunter, L85|224\/250
+|move|p1a: Tangela|Sleep Powder|p2a: Haunter|[miss]
+|-miss|p1a: Tangela
+|
+|turn|15
+|
+|move|p2a: Haunter|Confuse Ray|p1a: Tangela
+|-start|p1a: Tangela|confusion
+|-activate|p1a: Tangela|confusion
+|move|p1a: Tangela|Sleep Powder|p2a: Haunter|[miss]
+|-miss|p1a: Tangela
+|
+|turn|16
+|
+|move|p2a: Haunter|Psychic|p1a: Tangela
+|-damage|p1a: Tangela|222\/284
+|-end|p1a: Tangela|confusion
+|move|p1a: Tangela|Sleep Powder|p2a: Haunter
+|-status|p2a: Haunter|slp
+|
+|turn|17
+|
+|switch|p2a: Porygon|Porygon, L85|284\/284
+|move|p1a: Tangela|Stun Spore|p2a: Porygon
+|-status|p2a: Porygon|par
+|
+|turn|18
+|
+|switch|p1a: Golbat|Golbat, L85|301\/301
+|move|p2a: Porygon|Thunder Wave|p1a: Golbat
+|-status|p1a: Golbat|par
+|
+|turn|19
+|
+|switch|p2a: Haunter|Haunter, L85|224\/250 slp
+|move|p1a: Golbat|Screech|p2a: Haunter
+|-unboost|p2a: Haunter|def|2
+|
+|turn|20
+|
+|switch|p1a: Electabuzz|Electabuzz, L85|284\/284
+|cant|p2a: Haunter|slp
+|
+|turn|21
+|
+|switch|p2a: Ivysaur|Ivysaur, L85|256\/276
+|move|p1a: Electabuzz|Thunderbolt|p2a: Ivysaur
+|-resisted|p2a: Ivysaur
+|-damage|p2a: Ivysaur|209\/276
+|
+|turn|22
+|
+|move|p1a: Electabuzz|Psychic|p2a: Ivysaur
+|-supereffective|p2a: Ivysaur
+|-damage|p2a: Ivysaur|92\/276
+|move|p2a: Ivysaur|Leech Seed|p1a: Electabuzz
+|-start|p1a: Electabuzz|move: Leech Seed
+|
+|turn|23
+|
+|move|p1a: Electabuzz|Psychic|p2a: Ivysaur
+|-crit|p2a: Ivysaur
+|-supereffective|p2a: Ivysaur
+|-damage|p2a: Ivysaur|0 fnt
+|faint|p2a: Ivysaur
+|
+|switch|p2a: Haunter|Haunter, L85|224\/250 slp
+|turn|24
+|
+|switch|p1a: Dragonair|Dragonair, L85|179\/277 par
+|cant|p2a: Haunter|slp
+|
+|turn|25
+|
+|cant|p2a: Haunter|slp
+|move|p1a: Dragonair|Ice Beam|p2a: Haunter
+|-damage|p2a: Haunter|176\/250 slp
+|
+|turn|26
+|
+|switch|p1a: Electabuzz|Electabuzz, L85|284\/284
+|cant|p2a: Haunter|slp
+|
+|turn|27
+|
+|move|p1a: Electabuzz|Psychic|p2a: Haunter
+|-supereffective|p2a: Haunter
+|-damage|p2a: Haunter|80\/250 slp
+|-unboost|p2a: Haunter|spd|1
+|-unboost|p2a: Haunter|spa|1
+|cant|p2a: Haunter|slp
+|-curestatus|p2a: Haunter|slp
+|
+|turn|28
+|
+|move|p1a: Electabuzz|Thunderbolt|p2a: Haunter
+|-damage|p2a: Haunter|0 fnt
+|faint|p2a: Haunter
+|
+|switch|p2a: Starmie|Starmie, L79|193\/257
+|turn|29
+|
+|move|p1a: Electabuzz|Thunder Wave|p2a: Starmie
+|-status|p2a: Starmie|par
+|move|p2a: Starmie|Thunder Wave|p1a: Electabuzz
+|-status|p1a: Electabuzz|par
+|
+|turn|30
+|
+|switch|p2a: Primeape|Primeape, L85|284\/284
+|move|p1a: Electabuzz|Thunderbolt|p2a: Primeape
+|-damage|p2a: Primeape|170\/284
+|
+|turn|31
+|
+|switch|p1a: Golbat|Golbat, L85|301\/301 par
+|move|p2a: Primeape|Hyper Beam|p1a: Golbat
+|-damage|p1a: Golbat|167\/301 par
+|
+|turn|32
+|
+|cant|p2a: Primeape|recharge
+|cant|p1a: Golbat|par
+|
+|turn|33
+|
+|move|p2a: Primeape|Rock Slide|p1a: Golbat
+|-supereffective|p1a: Golbat
+|-damage|p1a: Golbat|28\/301 par
+|move|p1a: Golbat|Double-Edge|p2a: Primeape
+|-crit|p2a: Primeape
+|-damage|p2a: Primeape|13\/284
+|-damage|p1a: Golbat|0 fnt|[from] recoil|[of] p2a: Primeape
+|faint|p1a: Golbat
+|
+|switch|p1a: Ninetales|Ninetales, L85|298\/298
+|turn|34
+|
+|switch|p2a: Blastoise|Blastoise, L85|308\/308
+|move|p1a: Ninetales|Body Slam|p2a: Blastoise
+|-damage|p2a: Blastoise|257\/308
+|
+|turn|35
+|
+|switch|p1a: Dragonair|Dragonair, L85|179\/277 par
+|move|p2a: Blastoise|Blizzard|p1a: Dragonair
+|-supereffective|p1a: Dragonair
+|-damage|p1a: Dragonair|7\/277 par
+|
+|turn|36
+|
+|move|p2a: Blastoise|Body Slam|p1a: Dragonair
+|-crit|p1a: Dragonair
+|-damage|p1a: Dragonair|0 fnt
+|faint|p1a: Dragonair
+|
+|switch|p1a: Tangela|Tangela, L85|222\/284
+|turn|37
+|
+|move|p2a: Blastoise|Blizzard|p1a: Tangela
+|-supereffective|p1a: Tangela
+|-damage|p1a: Tangela|84\/284
+|move|p1a: Tangela|Sleep Powder|p2a: Blastoise|[miss]
+|-miss|p1a: Tangela
+|
+|turn|38
+|
+|move|p2a: Blastoise|Blizzard|p1a: Tangela
+|-supereffective|p1a: Tangela
+|-damage|p1a: Tangela|0 fnt
+|faint|p1a: Tangela
+|
+|switch|p1a: Electabuzz|Electabuzz, L85|284\/284 par
+|turn|39
+|
+|move|p2a: Blastoise|Body Slam|p1a: Electabuzz
+|-damage|p1a: Electabuzz|211\/284 par
+|move|p1a: Electabuzz|Thunderbolt|p2a: Blastoise
+|-crit|p2a: Blastoise
+|-supereffective|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|
+|switch|p2a: Primeape|Primeape, L85|13\/284
+|turn|40
+|
+|switch|p1a: Ninetales|Ninetales, L85|298\/298
+|move|p2a: Primeape|Rock Slide|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|178\/298
+|
+|turn|41
+|
+|switch|p2a: Starmie|Starmie, L79|193\/257 par
+|move|p1a: Ninetales|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|136\/257 par
+|
+|turn|42
+|
+|move|p1a: Ninetales|Confuse Ray|p2a: Starmie
+|-start|p2a: Starmie|confusion
+|-activate|p2a: Starmie|confusion
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|257\/257 par
+|
+|turn|43
+|
+|switch|p2a: Porygon|Porygon, L85|284\/284 par
+|move|p1a: Ninetales|Reflect|p1a: Ninetales
+|
+|turn|44
+|
+|move|p1a: Ninetales|Body Slam|p2a: Porygon
+|-crit|p2a: Porygon
+|-damage|p2a: Porygon|165\/284 par
+|move|p2a: Porygon|Thunder Wave|p1a: Ninetales
+|-status|p1a: Ninetales|par
+|
+|turn|45
+|
+|move|p1a: Ninetales|Body Slam|p2a: Porygon
+|-crit|p2a: Porygon
+|-damage|p2a: Porygon|47\/284 par
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|189\/284 par
+|
+|turn|46
+|
+|cant|p1a: Ninetales|par
+|cant|p2a: Porygon|par
+|
+|turn|47
+|
+|move|p1a: Ninetales|Body Slam|p2a: Porygon
+|-damage|p2a: Porygon|132\/284 par
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|274\/284 par
+|
+|turn|48
+|
+|switch|p2a: Starmie|Starmie, L79|257\/257 par
+|move|p1a: Ninetales|Confuse Ray|p2a: Starmie
+|-start|p2a: Starmie|confusion
+|
+|turn|49
+|
+|-activate|p2a: Starmie|confusion
+|-damage|p2a: Starmie|231\/257 par|[from] confusion
+|cant|p1a: Ninetales|par
+|
+|turn|50
+|
+|switch|p1a: Electabuzz|Electabuzz, L85|211\/284 par
+|-activate|p2a: Starmie|confusion
+|-damage|p2a: Starmie|205\/257 par|[from] confusion
+|
+|turn|51
+|
+|switch|p2a: Porygon|Porygon, L85|274\/284 par
+|move|p1a: Electabuzz|Thunderbolt|p2a: Porygon
+|-crit|p2a: Porygon
+|-damage|p2a: Porygon|80\/284 par
+|
+|turn|52
+|
+|move|p1a: Electabuzz|Thunderbolt|p2a: Porygon
+|-damage|p2a: Porygon|0 fnt
+|faint|p2a: Porygon
+|
+|switch|p2a: Primeape|Primeape, L85|13\/284
+|turn|53
+|
+|move|p2a: Primeape|Rock Slide|p1a: Electabuzz
+|-damage|p1a: Electabuzz|133\/284 par
+|cant|p1a: Electabuzz|par
+|
+|turn|54
+|
+|move|p2a: Primeape|Hyper Beam|p1a: Electabuzz
+|-damage|p1a: Electabuzz|0 fnt
+|faint|p1a: Electabuzz
+|
+|switch|p1a: Ninetales|Ninetales, L85|178\/298 par
+|turn|55
+|
+|move|p2a: Primeape|Rock Slide|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|59\/298 par
+|cant|p1a: Ninetales|par
+|
+|turn|56
+|
+|move|p2a: Primeape|Rock Slide|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|win|LordB.P.
+|raw|Ladder updating...
+|raw|erik1erik's rating: 1366 &rarr; <strong>1340<\/strong><br \/>(-26 for losing)
+|raw|LordB.P.'s rating: 1262 &rarr; <strong>1294<\/strong><br \/>(+32 for winning)
+|c|★LordB.P.|gg!!!
+|leave|erik1erik
+|player|p1

@@ -1,0 +1,313 @@
+﻿|join|The Underwhelmer
+|join|Loroand
+|player|p1|The Underwhelmer|200
+|player|p2|Loroand|102
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|36509,26892,37476,23518
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Arbok|Arbok, L90|291\/291
+|switch|p2a: Sandslash|Sandslash, L85|301\/301
+|turn|1
+|choice|switch 3|move 4
+|
+|switch|p1a: Articuno|Articuno, L79|304\/304
+|move|p2a: Sandslash|Swords Dance|p2a: Sandslash
+|-boost|p2a: Sandslash|atk|2
+|
+|turn|2
+|choice|move 4|move 2
+|
+|move|p1a: Articuno|Ice Beam|p2a: Sandslash
+|-supereffective|p2a: Sandslash
+|-damage|p2a: Sandslash|32\/301
+|move|p2a: Sandslash|Body Slam|p1a: Articuno
+|-damage|p1a: Articuno|179\/304
+|
+|turn|3
+|choice|move 4|switch 4
+|
+|switch|p2a: Lapras|Lapras, L79|367\/367
+|move|p1a: Articuno|Ice Beam|p2a: Lapras
+|-crit|p2a: Lapras
+|-resisted|p2a: Lapras
+|-damage|p2a: Lapras|317\/367
+|
+|turn|4
+|choice|switch 4|move 3
+|
+|switch|p1a: Electabuzz|Electabuzz, L85|284\/284
+|move|p2a: Lapras|Confuse Ray|p1a: Electabuzz
+|-start|p1a: Electabuzz|confusion
+|
+|turn|5
+|choice|move 2|move 4
+|
+|-activate|p1a: Electabuzz|confusion
+|-damage|p1a: Electabuzz|246\/284|[from] confusion
+|move|p2a: Lapras|Blizzard|p1a: Electabuzz
+|-damage|p1a: Electabuzz|134\/284
+|
+|turn|6
+|choice|move 2|move 4
+|
+|-activate|p1a: Electabuzz|confusion
+|move|p1a: Electabuzz|Thunderbolt|p2a: Lapras
+|-crit|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|choice||switch 5
+|
+|switch|p2a: Alakazam|Alakazam, L79|249\/249
+|turn|7
+|choice|move 4|move 1
+|
+|move|p2a: Alakazam|Psychic|p1a: Electabuzz
+|-damage|p1a: Electabuzz|24\/284
+|-unboost|p1a: Electabuzz|spd|1
+|-unboost|p1a: Electabuzz|spa|1
+|-activate|p1a: Electabuzz|confusion
+|-damage|p1a: Electabuzz|0 fnt|[from] confusion
+|faint|p1a: Electabuzz
+|choice|switch 6|
+|
+|switch|p1a: Kadabra|Kadabra, L85|242\/242
+|turn|8
+|choice|move 2|move 2
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Kadabra
+|-status|p1a: Kadabra|par
+|move|p1a: Kadabra|Thunder Wave|p2a: Alakazam
+|-status|p2a: Alakazam|par
+|
+|turn|9
+|choice|move 1|move 3
+|
+|cant|p2a: Alakazam|par
+|cant|p1a: Kadabra|par
+|
+|turn|10
+|choice|move 4|move 3
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Kadabra
+|-damage|p1a: Kadabra|163\/242 par
+|move|p1a: Kadabra|Seismic Toss|p2a: Alakazam
+|-damage|p2a: Alakazam|164\/249 par
+|
+|turn|11
+|choice|move 4|move 3
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Kadabra
+|-damage|p1a: Kadabra|84\/242 par
+|move|p1a: Kadabra|Seismic Toss|p2a: Alakazam
+|-damage|p2a: Alakazam|79\/249 par
+|
+|turn|12
+|choice|move 4|move 4
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|203\/249 par
+|move|p1a: Kadabra|Seismic Toss|p2a: Alakazam
+|-damage|p2a: Alakazam|118\/249 par
+|
+|turn|13
+|choice|move 4|move 3
+|
+|cant|p2a: Alakazam|par
+|cant|p1a: Kadabra|par
+|
+|turn|14
+|choice|move 4|move 3
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Kadabra
+|-damage|p1a: Kadabra|5\/242 par
+|cant|p1a: Kadabra|par
+|
+|turn|15
+|choice|move 4|move 3
+|
+|cant|p2a: Alakazam|par
+|move|p1a: Kadabra|Seismic Toss|p2a: Alakazam
+|-damage|p2a: Alakazam|33\/249 par
+|
+|turn|16
+|choice|move 4|move 3
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Kadabra
+|-damage|p1a: Kadabra|0 fnt
+|faint|p1a: Kadabra
+|choice|switch 4|
+|
+|switch|p1a: Articuno|Articuno, L79|179\/304
+|turn|17
+|choice|move 4|move 2
+|
+|move|p1a: Articuno|Ice Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|choice||switch 3
+|
+|switch|p2a: Electrode|Electrode, L90|291\/291
+|turn|18
+|choice|move 4|move 3
+|
+|move|p2a: Electrode|Thunderbolt|p1a: Articuno
+|-crit|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|0 fnt
+|faint|p1a: Articuno
+|choice|switch 3|
+|
+|switch|p1a: Arbok|Arbok, L90|291\/291
+|turn|19
+|choice|move 1|move 3
+|
+|move|p2a: Electrode|Thunderbolt|p1a: Arbok
+|-damage|p1a: Arbok|185\/291
+|move|p1a: Arbok|Glare|p2a: Electrode
+|-status|p2a: Electrode|par
+|
+|turn|20
+|choice|move 4|move 3
+|
+|move|p1a: Arbok|Rock Slide|p2a: Electrode|[miss]
+|-miss|p1a: Arbok
+|move|p2a: Electrode|Thunderbolt|p1a: Arbok
+|-damage|p1a: Arbok|80\/291
+|
+|turn|21
+|choice|move 4|move 3
+|
+|move|p1a: Arbok|Rock Slide|p2a: Electrode
+|-crit|p2a: Electrode
+|-damage|p2a: Electrode|178\/291 par
+|cant|p2a: Electrode|par
+|
+|turn|22
+|choice|move 4|move 3
+|
+|move|p1a: Arbok|Rock Slide|p2a: Electrode
+|-damage|p2a: Electrode|115\/291 par
+|move|p2a: Electrode|Thunderbolt|p1a: Arbok
+|-damage|p1a: Arbok|0 fnt
+|faint|p1a: Arbok
+|choice|switch 5|
+|
+|switch|p1a: Hitmonchan|Hitmonchan, L90|273\/273
+|turn|23
+|choice|move 3|move 4
+|
+|move|p1a: Hitmonchan|Body Slam|p2a: Electrode
+|-crit|p2a: Electrode
+|-damage|p2a: Electrode|0 fnt
+|faint|p2a: Electrode
+|choice||switch 2
+|
+|switch|p2a: Bellsprout|Bellsprout, L96|291\/291
+|turn|24
+|choice|move 3|move 1
+|
+|move|p1a: Hitmonchan|Body Slam|p2a: Bellsprout
+|-damage|p2a: Bellsprout|179\/291
+|move|p2a: Bellsprout|Sleep Powder|p1a: Hitmonchan|[miss]
+|-miss|p2a: Bellsprout
+|
+|turn|25
+|choice|move 3|move 1
+|
+|move|p1a: Hitmonchan|Body Slam|p2a: Bellsprout
+|-damage|p2a: Bellsprout|83\/291
+|move|p2a: Bellsprout|Sleep Powder|p1a: Hitmonchan
+|-status|p1a: Hitmonchan|slp
+|
+|turn|26
+|choice|move 3|move 4
+|
+|cant|p1a: Hitmonchan|slp
+|move|p2a: Bellsprout|Razor Leaf|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|177\/273 slp
+|
+|turn|27
+|choice|move 3|move 4
+|
+|cant|p1a: Hitmonchan|slp
+|move|p2a: Bellsprout|Razor Leaf|p1a: Hitmonchan
+|-crit|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|0 fnt
+|faint|p1a: Hitmonchan
+|choice|switch 2|
+|
+|switch|p1a: Vaporeon|Vaporeon, L85|395\/395
+|turn|28
+|choice|move 4|move 1
+|
+|move|p1a: Vaporeon|Blizzard|p2a: Bellsprout|[miss]
+|-miss|p1a: Vaporeon
+|move|p2a: Bellsprout|Sleep Powder|p1a: Vaporeon
+|-status|p1a: Vaporeon|slp
+|
+|turn|29
+|choice|move 4|move 4
+|
+|-curestatus|p1a: Vaporeon|slp
+|move|p2a: Bellsprout|Razor Leaf|p1a: Vaporeon
+|-crit|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|195\/395
+|
+|turn|30
+|choice|move 4|move 4
+|
+|move|p1a: Vaporeon|Blizzard|p2a: Bellsprout
+|-supereffective|p2a: Bellsprout
+|-damage|p2a: Bellsprout|0 fnt
+|faint|p2a: Bellsprout
+|choice||switch 6
+|
+|switch|p2a: Starmie|Starmie, L79|257\/257
+|turn|31
+|choice|move 2|move 4
+|
+|move|p2a: Starmie|Thunder Wave|p1a: Vaporeon
+|-status|p1a: Vaporeon|par
+|move|p1a: Vaporeon|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|205\/257
+|
+|turn|32
+|choice|move 2|move 3
+|
+|move|p2a: Starmie|Surf|p1a: Vaporeon
+|-crit|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|118\/395 par
+|move|p1a: Vaporeon|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|155\/257
+|
+|turn|33
+|choice|move 2|move 3
+|
+|move|p2a: Starmie|Surf|p1a: Vaporeon
+|-crit|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|37\/395 par
+|move|p1a: Vaporeon|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|99\/257
+|
+|turn|34
+|choice|move 4|move 3
+|
+|move|p2a: Starmie|Surf|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|
+|win|Loroand
+|raw|The Underwhelmer's rating: 1270 &rarr; <strong>1234<\/strong><br \/>(-36 for losing)
+|raw|Loroand's rating: 1108 &rarr; <strong>1144<\/strong><br \/>(+36 for winning)

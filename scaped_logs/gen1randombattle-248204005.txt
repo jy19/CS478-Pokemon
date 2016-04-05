@@ -1,0 +1,331 @@
+﻿|join|whaoo.
+|join|HurricaneNatty
+|player|p1|whaoo.|7
+|player|p2|HurricaneNatty|156
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Vileplume|Vileplume, L90|318\/318
+|switch|p2a: Moltres|Moltres, L85|327\/327
+|turn|1
+|
+|move|p2a: Moltres|Fire Blast|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|69\/318
+|move|p1a: Vileplume|Sleep Powder|p2a: Moltres
+|-status|p2a: Moltres|slp
+|
+|turn|2
+|
+|switch|p2a: Tauros|Tauros, L79|280\/280
+|switch|p1a: Chansey|Chansey, L79|557\/557
+|
+|turn|3
+|
+|move|p2a: Tauros|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|381\/557
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-start|p1a: Chansey|Reflect
+|
+|turn|4
+|
+|move|p2a: Tauros|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|298\/557
+|move|p1a: Chansey|Counter|p2a: Tauros
+|-fail|p1a: Chansey
+|
+|turn|5
+|
+|move|p2a: Tauros|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|194\/557
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|472\/557
+|
+|turn|6
+|
+|move|p2a: Tauros|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|413\/557
+|move|p1a: Chansey|Ice Beam|p2a: Tauros
+|-damage|p2a: Tauros|204\/280
+|
+|turn|7
+|
+|move|p2a: Tauros|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|359\/557
+|move|p1a: Chansey|Ice Beam|p2a: Tauros
+|-damage|p2a: Tauros|124\/280
+|
+|turn|8
+|
+|move|p2a: Tauros|Blizzard|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|244\/557
+|move|p1a: Chansey|Ice Beam|p2a: Tauros
+|-damage|p2a: Tauros|47\/280
+|
+|turn|9
+|
+|move|p2a: Tauros|Blizzard|p1a: Chansey|[miss]
+|-miss|p2a: Tauros
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|522\/557
+|
+|turn|10
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Chansey
+|-damage|p1a: Chansey|347\/557
+|move|p1a: Chansey|Ice Beam|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|switch|p2a: Machamp|Machamp, L90|345\/345
+|turn|11
+|
+|switch|p1a: Metapod|Metapod, L99|300\/300
+|move|p2a: Machamp|Submission|p1a: Metapod
+|-resisted|p1a: Metapod
+|-damage|p1a: Metapod|238\/300
+|-damage|p2a: Machamp|330\/345|[from] recoil|[of] p1a: Metapod
+|
+|turn|12
+|
+|move|p2a: Machamp|Rock Slide|p1a: Metapod|[miss]
+|-miss|p2a: Machamp
+|move|p1a: Metapod|Harden|p1a: Metapod
+|-boost|p1a: Metapod|def|1
+|
+|turn|13
+|
+|move|p2a: Machamp|Rock Slide|p1a: Metapod
+|-supereffective|p1a: Metapod
+|-damage|p1a: Metapod|132\/300
+|move|p1a: Metapod|Harden|p1a: Metapod
+|-boost|p1a: Metapod|def|1
+|
+|turn|14
+|
+|move|p2a: Machamp|Earthquake|p1a: Metapod
+|-resisted|p1a: Metapod
+|-damage|p1a: Metapod|106\/300
+|move|p1a: Metapod|Harden|p1a: Metapod
+|-boost|p1a: Metapod|def|1
+|
+|turn|15
+|
+|move|p2a: Machamp|Rock Slide|p1a: Metapod
+|-supereffective|p1a: Metapod
+|-damage|p1a: Metapod|43\/300
+|move|p1a: Metapod|Tackle|p2a: Machamp
+|-damage|p2a: Machamp|313\/345
+|
+|turn|16
+|
+|switch|p2a: Moltres|Moltres, L85|327\/327 slp
+|move|p1a: Metapod|Tackle|p2a: Moltres
+|-damage|p2a: Moltres|310\/327 slp
+|
+|turn|17
+|
+|cant|p2a: Moltres|slp
+|move|p1a: Metapod|Tackle|p2a: Moltres
+|-damage|p2a: Moltres|295\/327 slp
+|
+|turn|18
+|
+|switch|p1a: Cloyster|Cloyster, L83|253\/253
+|cant|p2a: Moltres|slp
+|
+|turn|19
+|
+|switch|p2a: Zubat|Zubat, L96|272\/272
+|move|p1a: Cloyster|Surf|p2a: Zubat
+|-damage|p2a: Zubat|142\/272
+|
+|turn|20
+|
+|move|p2a: Zubat|Confuse Ray|p1a: Cloyster
+|-start|p1a: Cloyster|confusion
+|-activate|p1a: Cloyster|confusion
+|move|p1a: Cloyster|Ice Beam|p2a: Zubat
+|-supereffective|p2a: Zubat
+|-damage|p2a: Zubat|0 fnt
+|faint|p2a: Zubat
+|
+|switch|p2a: Mew|Mew, L74|300\/300
+|turn|21
+|c|★whaoo.|:ooooooooooooo
+|c|★whaoo.|hate u
+|
+|move|p2a: Mew|Thunder Wave|p1a: Cloyster
+|-status|p1a: Cloyster|par
+|-activate|p1a: Cloyster|confusion
+|move|p1a: Cloyster|Blizzard|p2a: Mew
+|-crit|p2a: Mew
+|-damage|p2a: Mew|86\/300
+|
+|turn|22
+|
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|236\/300
+|-activate|p1a: Cloyster|confusion
+|-damage|p1a: Cloyster|234\/253 par|[from] confusion
+|
+|turn|23
+|
+|move|p2a: Mew|Fissure|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|-ohko
+|faint|p1a: Cloyster
+|
+|switch|p1a: Metapod|Metapod, L99|43\/300
+|turn|24
+|
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|300\/300
+|move|p1a: Metapod|Tackle|p2a: Mew
+|-damage|p2a: Mew|283\/300
+|
+|turn|25
+|
+|move|p2a: Mew|Hyper Beam|p1a: Metapod
+|-crit|p1a: Metapod
+|-damage|p1a: Metapod|0 fnt
+|faint|p1a: Metapod
+|
+|switch|p1a: Vileplume|Vileplume, L90|69\/318
+|turn|26
+|
+|move|p2a: Mew|Hyper Beam|p1a: Vileplume
+|-crit|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|faint|p1a: Vileplume
+|
+|switch|p1a: Persian|Persian, L79|265\/265
+|turn|27
+|
+|move|p1a: Persian|Body Slam|p2a: Mew
+|-damage|p2a: Mew|215\/300
+|-status|p2a: Mew|par
+|move|p2a: Mew|Thunder Wave|p1a: Persian
+|-status|p1a: Persian|par
+|
+|turn|28
+|
+|cant|p1a: Persian|par
+|cant|p2a: Mew|par
+|
+|turn|29
+|
+|switch|p2a: Moltres|Moltres, L85|295\/327 slp
+|move|p1a: Persian|Slash|p2a: Moltres
+|-crit|p2a: Moltres
+|-damage|p2a: Moltres|197\/327 slp
+|
+|turn|30
+|
+|cant|p2a: Moltres|slp
+|move|p1a: Persian|Thunderbolt|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|128\/327 slp
+|
+|turn|31
+|
+|-curestatus|p2a: Moltres|slp
+|move|p1a: Persian|Slash|p2a: Moltres
+|-crit|p2a: Moltres
+|-damage|p2a: Moltres|31\/327
+|
+|turn|32
+|
+|move|p2a: Moltres|Fire Blast|p1a: Persian
+|-damage|p1a: Persian|77\/265 par
+|move|p1a: Persian|Slash|p2a: Moltres
+|-crit|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|
+|switch|p2a: Machamp|Machamp, L90|313\/345
+|turn|33
+|
+|move|p2a: Machamp|Earthquake|p1a: Persian
+|-damage|p1a: Persian|0 fnt
+|faint|p1a: Persian
+|
+|switch|p1a: Jynx|Jynx, L79|265\/265
+|turn|34
+|
+|move|p1a: Jynx|Psychic|p2a: Machamp
+|-supereffective|p2a: Machamp
+|-damage|p2a: Machamp|132\/345
+|-unboost|p2a: Machamp|spd|1
+|-unboost|p2a: Machamp|spa|1
+|move|p2a: Machamp|Rock Slide|p1a: Jynx
+|-supereffective|p1a: Jynx
+|-damage|p1a: Jynx|6\/265
+|
+|turn|35
+|
+|move|p1a: Jynx|Psychic|p2a: Machamp
+|-supereffective|p2a: Machamp
+|-damage|p2a: Machamp|0 fnt
+|faint|p2a: Machamp
+|
+|switch|p2a: Metapod|Metapod, L99|300\/300
+|turn|36
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: Metapod
+|-status|p2a: Metapod|slp
+|cant|p2a: Metapod|slp
+|
+|turn|37
+|
+|move|p1a: Jynx|Blizzard|p2a: Metapod|[miss]
+|-miss|p1a: Jynx
+|-curestatus|p2a: Metapod|slp
+|
+|turn|38
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: Metapod
+|-status|p2a: Metapod|slp
+|cant|p2a: Metapod|slp
+|
+|turn|39
+|
+|move|p1a: Jynx|Blizzard|p2a: Metapod
+|-damage|p2a: Metapod|135\/300 slp
+|cant|p2a: Metapod|slp
+|
+|turn|40
+|
+|move|p1a: Jynx|Blizzard|p2a: Metapod
+|-damage|p2a: Metapod|0 fnt
+|faint|p2a: Metapod
+|
+|switch|p2a: Mew|Mew, L74|215\/300 par
+|turn|41
+|
+|move|p1a: Jynx|Blizzard|p2a: Mew
+|-damage|p2a: Mew|92\/300 par
+|cant|p2a: Mew|par
+|
+|turn|42
+|
+|move|p1a: Jynx|Blizzard|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|win|whaoo.
+|raw|Ladder updating...
+|c|★whaoo.|gg
+|c|★HurricaneNatty|nooo
+|c|★HurricaneNatty|gg
+|leave|HurricaneNatty
+|player|p2
+|raw|whaoo.'s rating: 1000 &rarr; <strong>1052<\/strong><br \/>(+52 for winning)
+|raw|HurricaneNatty's rating: 1105 &rarr; <strong>1073<\/strong><br \/>(-32 for losing)

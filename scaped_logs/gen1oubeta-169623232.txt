@@ -1,0 +1,199 @@
+﻿|join|charizard reyiz
+|join|biswajit
+|player|p1|charizard reyiz|101
+|player|p2|biswajit|266
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Chansey|Chansey|703\/703
+|switch|p2a: Hypno|Hypno|373\/373
+|turn|1
+|
+|move|p2a: Hypno|Hypnosis|p1a: Chansey
+|-status|p1a: Chansey|slp
+|cant|p1a: Chansey|slp
+|
+|turn|2
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|move|p2a: Hypno|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|270\/313
+|
+|turn|3
+|
+|move|p1a: Alakazam|Toxic|p2a: Hypno
+|-status|p2a: Hypno|tox
+|move|p2a: Hypno|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|-damage|p2a: Hypno|350\/373 tox|[from] tox|[of] p1a: Alakazam
+|
+|turn|4
+|
+|move|p2a: Hypno|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|227\/313 par
+|-damage|p2a: Hypno|304\/373 tox|[from] tox|[of] p1a: Alakazam
+|move|p1a: Alakazam|Seismic Toss|p2a: Hypno
+|-damage|p2a: Hypno|204\/373 tox
+|
+|turn|5
+|
+|move|p2a: Hypno|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|183\/313 par
+|-damage|p2a: Hypno|135\/373 tox|[from] tox|[of] p1a: Alakazam
+|move|p1a: Alakazam|Seismic Toss|p2a: Hypno
+|-damage|p2a: Hypno|35\/373 tox
+|
+|turn|6
+|
+|switch|p1a: Chansey|Chansey|703\/703 slp
+|move|p2a: Hypno|Hyper Beam|p1a: Chansey
+|-damage|p1a: Chansey|440\/703 slp
+|-damage|p2a: Hypno|0 fnt|[from] tox|[of] p1a: Chansey
+|faint|p2a: Hypno
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|7
+|
+|move|p2a: Tauros|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|160\/703 slp
+|cant|p1a: Chansey|slp
+|
+|turn|8
+|
+|switch|p1a: Cloyster|Cloyster|303\/303
+|move|p2a: Tauros|Body Slam|p1a: Cloyster
+|-damage|p1a: Cloyster|235\/303
+|
+|turn|9
+|
+|move|p2a: Tauros|Body Slam|p1a: Cloyster
+|-damage|p1a: Cloyster|169\/303
+|move|p1a: Cloyster|Clamp|p2a: Tauros
+|-damage|p2a: Tauros|308\/353
+|-activate|p2a: Tauros|move: Clamp|[of] p1a: Cloyster
+|
+|turn|10
+|
+|switch|p2a: Alakazam|Alakazam|313\/313
+|move|p1a: Cloyster|Clamp|p2a: Alakazam
+|-damage|p2a: Alakazam|279\/313
+|-activate|p2a: Alakazam|move: Clamp|[of] p1a: Cloyster
+|
+|turn|11
+|
+|cant|p2a: Alakazam|partiallytrapped
+|move|p1a: Cloyster|Clamp|p2a: Alakazam
+|-damage|p2a: Alakazam|234\/313
+|
+|-end|p2a: Alakazam|Clamp|[partiallytrapped]
+|turn|12
+|
+|switch|p1a: Alakazam|Alakazam|183\/313 par
+|move|p2a: Alakazam|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|128\/313 par
+|
+|turn|13
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|28\/313 par
+|move|p1a: Alakazam|Thunder Wave|p2a: Alakazam
+|-status|p2a: Alakazam|par
+|
+|turn|14
+|
+|cant|p1a: Alakazam|par
+|move|p2a: Alakazam|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|switch|p1a: Golem|Golem|363\/363
+|turn|15
+|
+|move|p1a: Golem|Earthquake|p2a: Alakazam
+|-damage|p2a: Alakazam|40\/313 par
+|move|p2a: Alakazam|Psychic|p1a: Golem
+|-damage|p1a: Golem|188\/363
+|-unboost|p1a: Golem|spd|1
+|-unboost|p1a: Golem|spa|1
+|
+|turn|16
+|
+|move|p1a: Golem|Earthquake|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|turn|17
+|
+|switch|p1a: Raichu|Raichu|323\/323
+|move|p2a: Starmie|Psychic|p1a: Raichu
+|-crit|p1a: Raichu
+|-damage|p1a: Raichu|97\/323
+|
+|turn|18
+|
+|move|p2a: Starmie|Psychic|p1a: Raichu
+|-damage|p1a: Raichu|0 fnt
+|faint|p1a: Raichu
+|
+|switch|p1a: Chansey|Chansey|160\/703 slp
+|turn|19
+|
+|move|p2a: Starmie|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|57\/703 slp
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|cant|p1a: Chansey|slp
+|-curestatus|p1a: Chansey|slp
+|
+|turn|20
+|
+|move|p2a: Starmie|Psychic|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|switch|p1a: Cloyster|Cloyster|169\/303
+|turn|21
+|
+|move|p2a: Starmie|Thunder Wave|p1a: Cloyster
+|-status|p1a: Cloyster|par
+|move|p1a: Cloyster|Explosion|p2a: Starmie
+|-damage|p2a: Starmie|15\/323
+|faint|p1a: Cloyster
+|c|★biswajit|lol
+|
+|switch|p1a: Dragonite|Dragonite|385\/385
+|turn|22
+|
+|move|p2a: Starmie|Blizzard|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|switch|p1a: Golem|Golem|188\/363
+|turn|23
+|c|★biswajit|lol
+|
+|move|p2a: Starmie|Blizzard|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|0 fnt
+|faint|p1a: Golem
+|
+|win|biswajit
+|raw|Ladder updating...
+|raw|charizard reyiz's rating: 1019 &rarr; <strong>1011<\/strong><br \/>(-8 for losing)
+|raw|biswajit's rating: 1144 &rarr; <strong>1161<\/strong><br \/>(+17 for winning)
+|c|★charizard reyiz|nooo starmieee groan

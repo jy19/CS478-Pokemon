@@ -1,0 +1,224 @@
+﻿|j|Tamer Lance
+|j|potatoskill
+|player|p1|Tamer Lance|153
+|player|p2|potatoskill|1
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Doduo|Doduo, L96|100\/100
+|switch|p2a: Golbat|Golbat, L90|100\/100
+|turn|1
+|choice||
+|
+|move|p2a: Golbat|Screech|p1a: Doduo
+|-unboost|p1a: Doduo|def|2
+|move|p1a: Doduo|Reflect|p1a: Doduo
+|-start|p1a: Doduo|Reflect
+|
+|turn|2
+|choice||
+|
+|move|p2a: Golbat|Screech|p1a: Doduo
+|-unboost|p1a: Doduo|def|2
+|move|p1a: Doduo|Agility|p1a: Doduo
+|-boost|p1a: Doduo|spe|2
+|
+|turn|3
+|choice||
+|
+|move|p1a: Doduo|Growl|p2a: Golbat
+|-unboost|p2a: Golbat|atk|1
+|move|p2a: Golbat|Hyper Beam|p1a: Doduo
+|-damage|p1a: Doduo|46\/100
+|
+|turn|4
+|-mustrecharge|p2a: Golbat
+|-mustrecharge|p2a: Golbat
+|choice||
+|
+|move|p1a: Doduo|Growl|p2a: Golbat
+|-unboost|p2a: Golbat|atk|1
+|cant|p2a: Golbat|recharge
+|
+|turn|5
+|choice||
+|
+|move|p1a: Doduo|Double-Edge|p2a: Golbat
+|-crit|p2a: Golbat
+|-damage|p2a: Golbat|15\/100
+|-damage|p1a: Doduo|20\/100|[from] recoil|[of] p2a: Golbat
+|move|p2a: Golbat|Screech|p1a: Doduo|[miss]
+|-miss|p2a: Golbat
+|
+|turn|6
+|choice||
+|
+|switch|p2a: Dugtrio|Dugtrio, L85|100\/100
+|move|p1a: Doduo|Double-Edge|p2a: Dugtrio
+|-damage|p2a: Dugtrio|33\/100
+|-damage|p1a: Doduo|5\/100|[from] recoil|[of] p2a: Dugtrio
+|
+|turn|7
+|choice||
+|
+|move|p1a: Doduo|Double-Edge|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|-damage|p1a: Doduo|0 fnt|[from] recoil|[of] p2a: Dugtrio
+|faint|p2a: Dugtrio
+|faint|p1a: Doduo
+|choice||
+|
+|switch|p2a: Golbat|Golbat, L90|15\/100
+|switch|p1a: Nidorina|Nidorina, L90|100\/100
+|turn|8
+|choice||
+|
+|move|p2a: Golbat|Hyper Beam|p1a: Nidorina
+|-damage|p1a: Nidorina|60\/100
+|move|p1a: Nidorina|Blizzard|p2a: Golbat
+|-supereffective|p2a: Golbat
+|-damage|p2a: Golbat|0 fnt
+|faint|p2a: Golbat
+|choice||
+|
+|switch|p2a: Ninetales|Ninetales, L85|100\/100
+|turn|9
+|choice||
+|
+|move|p2a: Ninetales|Confuse Ray|p1a: Nidorina
+|-start|p1a: Nidorina|confusion
+|-activate|p1a: Nidorina|confusion
+|-damage|p1a: Nidorina|50\/100|[from] confusion
+|
+|turn|10
+|choice||
+|
+|move|p2a: Ninetales|Reflect|p2a: Ninetales
+|-start|p2a: Ninetales|Reflect
+|-activate|p1a: Nidorina|confusion
+|-damage|p1a: Nidorina|40\/100|[from] confusion
+|
+|turn|11
+|choice||
+|
+|move|p2a: Ninetales|Hyper Beam|p1a: Nidorina
+|-damage|p1a: Nidorina|9\/100
+|-activate|p1a: Nidorina|confusion
+|-damage|p1a: Nidorina|0 fnt|[from] confusion
+|faint|p1a: Nidorina
+|choice||
+|
+|switch|p1a: Machamp|Machamp, L90|100\/100
+|turn|12
+|-mustrecharge|p2a: Ninetales
+|-mustrecharge|p2a: Ninetales
+|choice||
+|
+|cant|p2a: Ninetales|recharge
+|move|p1a: Machamp|Earthquake|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|65\/100
+|
+|turn|13
+|choice||
+|
+|move|p2a: Ninetales|Fire Blast|p1a: Machamp
+|-damage|p1a: Machamp|56\/100
+|-status|p1a: Machamp|brn
+|move|p1a: Machamp|Body Slam|p2a: Ninetales
+|-damage|p2a: Ninetales|58\/100
+|-status|p2a: Ninetales|par
+|-damage|p1a: Machamp|50\/100 brn|[from] brn|[of] p2a: Ninetales
+|
+|turn|14
+|choice||
+|
+|move|p1a: Machamp|Earthquake|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|38\/100 par
+|-damage|p1a: Machamp|44\/100 brn|[from] brn|[of] p2a: Ninetales
+|move|p2a: Ninetales|Confuse Ray|p1a: Machamp
+|-start|p1a: Machamp|confusion
+|
+|turn|15
+|choice||
+|
+|switch|p1a: Mewtwo|Mewtwo, L68|100\/100
+|move|p2a: Ninetales|Fire Blast|p1a: Mewtwo
+|-crit|p1a: Mewtwo
+|-damage|p1a: Mewtwo|25\/100
+|-status|p1a: Mewtwo|brn
+|
+|turn|16
+|c|★potatoskill|back
+|choice||
+|
+|move|p1a: Mewtwo|Psychic|p2a: Ninetales
+|-damage|p2a: Ninetales|13\/100 par
+|-unboost|p2a: Ninetales|spd|1
+|-unboost|p2a: Ninetales|spa|1
+|-damage|p1a: Mewtwo|19\/100 brn|[from] brn|[of] p2a: Ninetales
+|cant|p2a: Ninetales|par
+|
+|turn|17
+|choice||
+|
+|switch|p2a: Starmie|Starmie, L79|100\/100
+|move|p1a: Mewtwo|Ice Beam|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|90\/100
+|-damage|p1a: Mewtwo|13\/100 brn|[from] brn|[of] p2a: Starmie
+|
+|turn|18
+|choice||
+|
+|switch|p1a: Machamp|Machamp, L90|44\/100 brn
+|-damage|p1a: Machamp|38\/100 brn|[from] brn
+|move|p2a: Starmie|Surf|p1a: Machamp
+|-crit|p1a: Machamp
+|-damage|p1a: Machamp|0 fnt
+|faint|p1a: Machamp
+|choice||
+|
+|switch|p1a: Fearow|Fearow, L90|100\/100
+|turn|19
+|choice||
+|
+|move|p1a: Fearow|Hyper Beam|p2a: Starmie
+|-damage|p2a: Starmie|15\/100
+|move|p2a: Starmie|Thunder Wave|p1a: Fearow
+|-status|p1a: Fearow|par
+|
+|turn|20
+|-mustrecharge|p1a: Fearow
+|-mustrecharge|p1a: Fearow
+|choice||
+|
+|switch|p2a: Raichu|Raichu, L85|100\/100
+|cant|p1a: Fearow|recharge
+|
+|turn|21
+|choice||
+|
+|switch|p1a: Pinsir|Pinsir, L85|100\/100
+|move|p2a: Raichu|Thunderbolt|p1a: Pinsir
+|-crit|p1a: Pinsir
+|-damage|p1a: Pinsir|6\/100
+|
+|turn|22
+|-message|Tamer Lance forfeited.
+|
+|win|potatoskill
+|player|p1
+|player|p2
+|l|Tamer Lance
+|raw|Tamer Lance's rating: 1314 &rarr; <strong>1285<\/strong><br \/>(-29 for losing)
+|raw|potatoskill's rating: 1149 &rarr; <strong>1185<\/strong><br \/>(+36 for winning)
+|c|★potatoskill|gg

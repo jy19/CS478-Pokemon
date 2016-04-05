@@ -1,0 +1,273 @@
+﻿|join|XianJu
+|join|touchable
+|player|p1|XianJu|130
+|player|p2|touchable|24
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Electabuzz|Electabuzz, L85|284\/284
+|switch|p2a: Grimer|Grimer, L96|348\/348
+|turn|1
+|
+|move|p1a: Electabuzz|Psychic|p2a: Grimer
+|-supereffective|p2a: Grimer
+|-damage|p2a: Grimer|175\/348
+|move|p2a: Grimer|Sludge|p1a: Electabuzz
+|-damage|p1a: Electabuzz|184\/284
+|
+|turn|2
+|
+|move|p1a: Electabuzz|Psychic|p2a: Grimer
+|-supereffective|p2a: Grimer
+|-damage|p2a: Grimer|17\/348
+|-unboost|p2a: Grimer|spd|1
+|-unboost|p2a: Grimer|spa|1
+|move|p2a: Grimer|Sludge|p1a: Electabuzz
+|-damage|p1a: Electabuzz|80\/284
+|
+|turn|3
+|
+|move|p1a: Electabuzz|Psychic|p2a: Grimer
+|-supereffective|p2a: Grimer
+|-damage|p2a: Grimer|0 fnt
+|faint|p2a: Grimer
+|
+|switch|p2a: Jolteon|Jolteon, L79|265\/265
+|turn|4
+|
+|move|p2a: Jolteon|Body Slam|p1a: Electabuzz
+|-damage|p1a: Electabuzz|28\/284
+|move|p1a: Electabuzz|Thunder Wave|p2a: Jolteon
+|-status|p2a: Jolteon|par
+|
+|turn|5
+|
+|move|p1a: Electabuzz|Seismic Toss|p2a: Jolteon
+|-damage|p2a: Jolteon|180\/265 par
+|move|p2a: Jolteon|Body Slam|p1a: Electabuzz
+|-damage|p1a: Electabuzz|0 fnt
+|faint|p1a: Electabuzz
+|
+|switch|p1a: Ditto|Ditto, L99|296\/296
+|turn|6
+|
+|switch|p2a: Poliwrath|Poliwrath, L85|327\/327
+|move|p1a: Ditto|Transform|p2a: Poliwrath
+|-transform|p1a: Ditto|p2a: Poliwrath
+|
+|turn|7
+|
+|move|p2a: Poliwrath|Hypnosis|p1a: Ditto|[miss]
+|-miss|p2a: Poliwrath
+|move|p1a: Ditto|Hypnosis|p2a: Poliwrath
+|-status|p2a: Poliwrath|slp
+|
+|turn|8
+|
+|switch|p2a: Magneton|Magneton, L90|273\/273
+|move|p1a: Ditto|Amnesia|p1a: Ditto
+|-boost|p1a: Ditto|spd|2
+|-boost|p1a: Ditto|spa|2
+|
+|turn|9
+|
+|move|p2a: Magneton|Thunder Wave|p1a: Ditto
+|-status|p1a: Ditto|par
+|move|p1a: Ditto|Surf|p2a: Magneton
+|-damage|p2a: Magneton|96\/273
+|
+|turn|10
+|
+|move|p2a: Magneton|Thunderbolt|p1a: Ditto
+|-crit|p1a: Ditto
+|-supereffective|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|
+|switch|p1a: Aerodactyl|Aerodactyl, L90|327\/327
+|turn|11
+|
+|move|p1a: Aerodactyl|Hyper Beam|p2a: Magneton|[miss]
+|-miss|p1a: Aerodactyl
+|move|p2a: Magneton|Thunderbolt|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|0 fnt
+|faint|p1a: Aerodactyl
+|
+|switch|p1a: Venusaur|Venusaur, L85|310\/310
+|turn|12
+|
+|move|p1a: Venusaur|Body Slam|p2a: Magneton
+|-damage|p2a: Magneton|46\/273
+|move|p2a: Magneton|Thunder Wave|p1a: Venusaur
+|-status|p1a: Venusaur|par
+|
+|turn|13
+|
+|move|p2a: Magneton|Hyper Beam|p1a: Venusaur
+|-crit|p1a: Venusaur
+|-damage|p1a: Venusaur|123\/310 par
+|move|p1a: Venusaur|Body Slam|p2a: Magneton
+|-damage|p2a: Magneton|1\/273
+|
+|turn|14
+|-mustrecharge|p2a: Magneton
+|-mustrecharge|p2a: Magneton
+|
+|cant|p2a: Magneton|recharge
+|move|p1a: Venusaur|Body Slam|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|faint|p2a: Magneton
+|
+|switch|p2a: Tangela|Tangela, L85|284\/284
+|turn|15
+|
+|move|p2a: Tangela|Body Slam|p1a: Venusaur
+|-damage|p1a: Venusaur|79\/310 par
+|move|p1a: Venusaur|Toxic|p2a: Tangela|[miss]
+|-miss|p1a: Venusaur
+|
+|turn|16
+|
+|switch|p1a: Wigglytuff|Wigglytuff, L90|435\/435
+|move|p2a: Tangela|Body Slam|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|376\/435
+|
+|turn|17
+|
+|move|p2a: Tangela|Sleep Powder|p1a: Wigglytuff|[miss]
+|-miss|p2a: Tangela
+|move|p1a: Wigglytuff|Body Slam|p2a: Tangela
+|-damage|p2a: Tangela|213\/284
+|
+|turn|18
+|
+|switch|p1a: Venusaur|Venusaur, L85|79\/310 par
+|move|p2a: Tangela|Sleep Powder|p1a: Venusaur
+|-fail|p1a: Venusaur
+|
+|turn|19
+|
+|move|p2a: Tangela|Body Slam|p1a: Venusaur
+|-damage|p1a: Venusaur|34\/310 par
+|move|p1a: Venusaur|Body Slam|p2a: Tangela
+|-crit|p2a: Tangela
+|-damage|p2a: Tangela|123\/284
+|
+|turn|20
+|
+|move|p2a: Tangela|Body Slam|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|
+|switch|p1a: Golduck|Golduck, L85|310\/310
+|turn|21
+|
+|move|p1a: Golduck|Ice Beam|p2a: Tangela
+|-supereffective|p2a: Tangela
+|-damage|p2a: Tangela|20\/284
+|move|p2a: Tangela|Sleep Powder|p1a: Golduck
+|-status|p1a: Golduck|slp
+|
+|turn|22
+|
+|cant|p1a: Golduck|slp
+|move|p2a: Tangela|Mega Drain|p1a: Golduck
+|-supereffective|p1a: Golduck
+|-damage|p1a: Golduck|208\/310 slp
+|-heal|p2a: Tangela|71\/284|[from] drain|[of] p1a: Golduck
+|
+|turn|23
+|
+|switch|p1a: Wigglytuff|Wigglytuff, L90|376\/435
+|move|p2a: Tangela|Mega Drain|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|317\/435
+|-heal|p2a: Tangela|100\/284|[from] drain|[of] p1a: Wigglytuff
+|
+|turn|24
+|
+|move|p2a: Tangela|Body Slam|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|260\/435
+|move|p1a: Wigglytuff|Hyper Beam|p2a: Tangela
+|-damage|p2a: Tangela|0 fnt
+|faint|p2a: Tangela
+|
+|switch|p2a: Pidgey|Pidgey, L96|272\/272
+|turn|25
+|
+|switch|p1a: Golduck|Golduck, L85|208\/310 slp
+|move|p2a: Pidgey|Double-Edge|p1a: Golduck
+|-damage|p1a: Golduck|118\/310 slp
+|-damage|p2a: Pidgey|250\/272|[from] recoil|[of] p1a: Golduck
+|
+|turn|26
+|
+|cant|p1a: Golduck|slp
+|move|p2a: Pidgey|Double-Edge|p1a: Golduck
+|-damage|p1a: Golduck|28\/310 slp
+|-damage|p2a: Pidgey|228\/272|[from] recoil|[of] p1a: Golduck
+|
+|turn|27
+|
+|-curestatus|p1a: Golduck|slp
+|move|p2a: Pidgey|Double-Edge|p1a: Golduck
+|-damage|p1a: Golduck|0 fnt
+|-damage|p2a: Pidgey|221\/272|[from] recoil|[of] p1a: Golduck
+|faint|p1a: Golduck
+|
+|switch|p1a: Wigglytuff|Wigglytuff, L90|260\/435
+|turn|28
+|
+|move|p2a: Pidgey|Double-Edge|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|138\/435
+|-damage|p2a: Pidgey|191\/272|[from] recoil|[of] p1a: Wigglytuff
+|move|p1a: Wigglytuff|Hyper Beam|p2a: Pidgey
+|-crit|p2a: Pidgey
+|-damage|p2a: Pidgey|0 fnt
+|faint|p2a: Pidgey
+|
+|switch|p2a: Jolteon|Jolteon, L79|180\/265 par
+|turn|29
+|
+|move|p1a: Wigglytuff|Hyper Beam|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|
+|switch|p2a: Poliwrath|Poliwrath, L85|327\/327 slp
+|turn|30
+|
+|cant|p2a: Poliwrath|slp
+|move|p1a: Wigglytuff|Hyper Beam|p2a: Poliwrath
+|-damage|p2a: Poliwrath|191\/327 slp
+|
+|turn|31
+|-mustrecharge|p1a: Wigglytuff
+|-mustrecharge|p1a: Wigglytuff
+|
+|cant|p2a: Poliwrath|slp
+|cant|p1a: Wigglytuff|recharge
+|
+|turn|32
+|
+|cant|p2a: Poliwrath|slp
+|move|p1a: Wigglytuff|Body Slam|p2a: Poliwrath
+|-damage|p2a: Poliwrath|108\/327 slp
+|
+|turn|33
+|
+|cant|p2a: Poliwrath|slp
+|move|p1a: Wigglytuff|Hyper Beam|p2a: Poliwrath
+|-damage|p2a: Poliwrath|0 fnt
+|faint|p2a: Poliwrath
+|
+|win|XianJu
+|leave|touchable
+|player|p2
+|raw|XianJu's rating: 1333 &rarr; <strong>1346<\/strong><br \/>(+13 for winning)
+|raw|touchable's rating: 1206 &rarr; <strong>1190<\/strong><br \/>(-16 for losing)

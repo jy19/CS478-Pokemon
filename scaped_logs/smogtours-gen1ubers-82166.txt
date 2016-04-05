@@ -1,0 +1,965 @@
+﻿|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|J|marcoasd
+|J|RainPB
+|player|p1|marcoasd|266
+|player|p2|RainPB|285
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Ubers
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Tauros|Tauros|353\/353
+|switch|p2a: Starmie|Starmie|323\/323
+|turn|1
+|
+|switch|p1a: Mewtwo|Mewtwo|415\/415
+|move|p2a: Starmie|Toxic|p1a: Mewtwo
+|-status|p1a: Mewtwo|tox
+|
+|turn|2
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Mewtwo|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|609\/703
+|-damage|p1a: Mewtwo|390\/415 tox|[from] tox|[of] p2a: Chansey
+|
+|turn|3
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|switch|p2a: Starmie|Starmie|323\/323
+|
+|turn|4
+|J|choollio
+|
+|switch|p2a: Slowbro|Slowbro|393\/393
+|switch|p1a: Mewtwo|Mewtwo|390\/415 tox
+|-status|p1a: Mewtwo|psn
+|-damage|p1a: Mewtwo|365\/415 psn|[from] psn
+|
+|turn|5
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|switch|p2a: Chansey|Chansey|609\/703
+|
+|turn|6
+|
+|switch|p2a: Slowbro|Slowbro|393\/393
+|move|p1a: Exeggutor|Sleep Powder|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|
+|turn|7
+|J|LoserMcNoob
+|
+|switch|p1a: Mewtwo|Mewtwo|365\/415 psn
+|-damage|p1a: Mewtwo|340\/415 psn|[from] psn
+|switch|p2a: Mew|Mew|403\/403
+|
+|turn|8
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Mewtwo|Amnesia|p1a: Mewtwo
+|-boost|p1a: Mewtwo|spd|2
+|-boost|p1a: Mewtwo|spa|2
+|-damage|p1a: Mewtwo|315\/415 psn|[from] psn
+|
+|turn|9
+|J|Mr.378
+|
+|move|p1a: Mewtwo|Ice Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|251\/523
+|-damage|p1a: Mewtwo|290\/415 psn|[from] psn|[of] p2a: Snorlax
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|
+|turn|10
+|c|+Mr.378|Mewtwo's lair of despair. 
+|
+|move|p1a: Mewtwo|Ice Beam|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|5\/523
+|-status|p2a: Snorlax|frz
+|-damage|p1a: Mewtwo|265\/415 psn|[from] psn|[of] p2a: Snorlax
+|cant|p2a: Snorlax|frz
+|
+|turn|11
+|
+|switch|p2a: Chansey|Chansey|609\/703
+|move|p1a: Mewtwo|Recover|p1a: Mewtwo
+|-heal|p1a: Mewtwo|415\/415 psn
+|-damage|p1a: Mewtwo|390\/415 psn|[from] psn
+|
+|turn|12
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|410\/703
+|-damage|p1a: Mewtwo|365\/415 psn|[from] psn|[of] p2a: Chansey
+|move|p2a: Chansey|Light Screen|p2a: Chansey
+|-start|p2a: Chansey|Light Screen
+|
+|turn|13
+|J|Lutra
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|312\/703
+|-damage|p1a: Mewtwo|340\/415 psn|[from] psn|[of] p2a: Chansey
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|663\/703
+|
+|turn|14
+|
+|move|p1a: Mewtwo|Amnesia|p1a: Mewtwo
+|-boost|p1a: Mewtwo|spd|2
+|-boost|p1a: Mewtwo|spa|2
+|-damage|p1a: Mewtwo|315\/415 psn|[from] psn
+|move|p2a: Chansey|Seismic Toss|p1a: Mewtwo
+|-damage|p1a: Mewtwo|215\/415 psn
+|
+|turn|15
+|
+|move|p1a: Mewtwo|Recover|p1a: Mewtwo
+|-heal|p1a: Mewtwo|415\/415 psn
+|-damage|p1a: Mewtwo|390\/415 psn|[from] psn
+|move|p2a: Chansey|Seismic Toss|p1a: Mewtwo
+|-damage|p1a: Mewtwo|290\/415 psn
+|
+|turn|16
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|543\/703
+|-damage|p1a: Mewtwo|265\/415 psn|[from] psn|[of] p2a: Chansey
+|move|p2a: Chansey|Seismic Toss|p1a: Mewtwo
+|-damage|p1a: Mewtwo|165\/415 psn
+|
+|turn|17
+|
+|move|p1a: Mewtwo|Recover|p1a: Mewtwo
+|-heal|p1a: Mewtwo|372\/415 psn
+|-damage|p1a: Mewtwo|347\/415 psn|[from] psn
+|move|p2a: Chansey|Seismic Toss|p1a: Mewtwo
+|-damage|p1a: Mewtwo|247\/415 psn
+|
+|turn|18
+|
+|move|p1a: Mewtwo|Recover|p1a: Mewtwo
+|-heal|p1a: Mewtwo|415\/415 psn
+|-damage|p1a: Mewtwo|390\/415 psn|[from] psn
+|move|p2a: Chansey|Seismic Toss|p1a: Mewtwo
+|-damage|p1a: Mewtwo|290\/415 psn
+|
+|turn|19
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|414\/703
+|-damage|p1a: Mewtwo|265\/415 psn|[from] psn|[of] p2a: Chansey
+|move|p2a: Chansey|Seismic Toss|p1a: Mewtwo
+|-damage|p1a: Mewtwo|165\/415 psn
+|
+|turn|20
+|
+|move|p1a: Mewtwo|Recover|p1a: Mewtwo
+|-heal|p1a: Mewtwo|372\/415 psn
+|-damage|p1a: Mewtwo|347\/415 psn|[from] psn
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703
+|
+|turn|21
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|514\/703
+|-damage|p1a: Mewtwo|322\/415 psn|[from] psn|[of] p2a: Chansey
+|move|p2a: Chansey|Seismic Toss|p1a: Mewtwo
+|-damage|p1a: Mewtwo|222\/415 psn
+|
+|turn|22
+|
+|move|p1a: Mewtwo|Recover|p1a: Mewtwo
+|-heal|p1a: Mewtwo|415\/415 psn
+|-damage|p1a: Mewtwo|390\/415 psn|[from] psn
+|move|p2a: Chansey|Seismic Toss|p1a: Mewtwo
+|-damage|p1a: Mewtwo|290\/415 psn
+|
+|turn|23
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|387\/703
+|-damage|p1a: Mewtwo|265\/415 psn|[from] psn|[of] p2a: Chansey
+|move|p2a: Chansey|Seismic Toss|p1a: Mewtwo
+|-damage|p1a: Mewtwo|165\/415 psn
+|
+|turn|24
+|
+|move|p1a: Mewtwo|Recover|p1a: Mewtwo
+|-heal|p1a: Mewtwo|372\/415 psn
+|-damage|p1a: Mewtwo|347\/415 psn|[from] psn
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703
+|
+|turn|25
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|581\/703
+|-damage|p1a: Mewtwo|322\/415 psn|[from] psn|[of] p2a: Chansey
+|move|p2a: Chansey|Seismic Toss|p1a: Mewtwo
+|-damage|p1a: Mewtwo|222\/415 psn
+|
+|turn|26
+|
+|move|p1a: Mewtwo|Recover|p1a: Mewtwo
+|-heal|p1a: Mewtwo|415\/415 psn
+|-damage|p1a: Mewtwo|390\/415 psn|[from] psn
+|move|p2a: Chansey|Seismic Toss|p1a: Mewtwo
+|-damage|p1a: Mewtwo|290\/415 psn
+|
+|turn|27
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|454\/703
+|-damage|p1a: Mewtwo|265\/415 psn|[from] psn|[of] p2a: Chansey
+|move|p2a: Chansey|Seismic Toss|p1a: Mewtwo
+|-damage|p1a: Mewtwo|165\/415 psn
+|
+|turn|28
+|
+|move|p1a: Mewtwo|Recover|p1a: Mewtwo
+|-heal|p1a: Mewtwo|372\/415 psn
+|-damage|p1a: Mewtwo|347\/415 psn|[from] psn
+|move|p2a: Chansey|Seismic Toss|p1a: Mewtwo
+|-damage|p1a: Mewtwo|247\/415 psn
+|
+|turn|29
+|
+|move|p1a: Mewtwo|Recover|p1a: Mewtwo
+|-heal|p1a: Mewtwo|415\/415 psn
+|-damage|p1a: Mewtwo|390\/415 psn|[from] psn
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703
+|
+|turn|30
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|581\/703
+|-status|p2a: Chansey|par
+|-damage|p1a: Mewtwo|365\/415 psn|[from] psn|[of] p2a: Chansey
+|move|p2a: Chansey|Seismic Toss|p1a: Mewtwo
+|-damage|p1a: Mewtwo|265\/415 psn
+|
+|turn|31
+|
+|move|p1a: Mewtwo|Recover|p1a: Mewtwo
+|-heal|p1a: Mewtwo|415\/415 psn
+|-damage|p1a: Mewtwo|390\/415 psn|[from] psn
+|move|p2a: Chansey|Seismic Toss|p1a: Mewtwo
+|-damage|p1a: Mewtwo|290\/415 psn
+|
+|turn|32
+|
+|move|p1a: Mewtwo|Ice Beam|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|387\/703 par
+|-damage|p1a: Mewtwo|265\/415 psn|[from] psn|[of] p2a: Chansey
+|move|p2a: Chansey|Seismic Toss|p1a: Mewtwo
+|-damage|p1a: Mewtwo|165\/415 psn
+|
+|turn|33
+|
+|move|p1a: Mewtwo|Recover|p1a: Mewtwo
+|-heal|p1a: Mewtwo|372\/415 psn
+|-damage|p1a: Mewtwo|347\/415 psn|[from] psn
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703 par
+|
+|turn|34
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|cant|p2a: Chansey|par
+|
+|turn|35
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|move|p1a: Snorlax|Earthquake|p2a: Starmie
+|-damage|p2a: Starmie|226\/323
+|
+|turn|36
+|
+|switch|p1a: Mewtwo|Mewtwo|347\/415 psn
+|-damage|p1a: Mewtwo|322\/415 psn|[from] psn
+|move|p2a: Starmie|Harden|p2a: Starmie
+|-boost|p2a: Starmie|def|1
+|
+|turn|37
+|
+|switch|p2a: Chansey|Chansey|703\/703 par
+|move|p1a: Mewtwo|Amnesia|p1a: Mewtwo
+|-boost|p1a: Mewtwo|spd|2
+|-boost|p1a: Mewtwo|spa|2
+|-damage|p1a: Mewtwo|297\/415 psn|[from] psn
+|
+|turn|38
+|
+|move|p1a: Mewtwo|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|491\/703 par
+|-damage|p1a: Mewtwo|272\/415 psn|[from] psn|[of] p2a: Chansey
+|move|p2a: Chansey|Light Screen|p2a: Chansey
+|-start|p2a: Chansey|Light Screen
+|
+|turn|39
+|
+|move|p1a: Mewtwo|Recover|p1a: Mewtwo
+|-heal|p1a: Mewtwo|415\/415 psn
+|-damage|p1a: Mewtwo|390\/415 psn|[from] psn
+|move|p2a: Chansey|Seismic Toss|p1a: Mewtwo
+|-damage|p1a: Mewtwo|290\/415 psn
+|
+|turn|40
+|
+|move|p1a: Mewtwo|Ice Beam|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|306\/703 par
+|-damage|p1a: Mewtwo|265\/415 psn|[from] psn|[of] p2a: Chansey
+|cant|p2a: Chansey|par
+|
+|turn|41
+|
+|move|p1a: Mewtwo|Recover|p1a: Mewtwo
+|-heal|p1a: Mewtwo|415\/415 psn
+|-damage|p1a: Mewtwo|390\/415 psn|[from] psn
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|657\/703 par
+|
+|turn|42
+|
+|move|p1a: Mewtwo|Ice Beam|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|460\/703 par
+|-damage|p1a: Mewtwo|365\/415 psn|[from] psn|[of] p2a: Chansey
+|cant|p2a: Chansey|par
+|
+|turn|43
+|J|MoxieInfinite
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|cant|p2a: Chansey|par
+|
+|turn|44
+|L|MoxieInfinite
+|
+|switch|p2a: Mew|Mew|403\/403
+|move|p1a: Snorlax|Body Slam|p2a: Mew
+|-damage|p2a: Mew|296\/403
+|-status|p2a: Mew|par
+|
+|turn|45
+|
+|move|p1a: Snorlax|Body Slam|p2a: Mew
+|-damage|p2a: Mew|196\/403 par
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|397\/403 par
+|
+|turn|46
+|J|theurbandear
+|
+|move|p1a: Snorlax|Body Slam|p2a: Mew
+|-damage|p2a: Mew|287\/403 par
+|move|p2a: Mew|Reflect|p2a: Mew
+|-start|p2a: Mew|Reflect
+|
+|turn|47
+|
+|switch|p1a: Slowbro|Slowbro|393\/393
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|403\/403 par
+|
+|turn|48
+|
+|switch|p2a: Mewtwo|Mewtwo|415\/415
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|
+|turn|49
+|
+|switch|p1a: Mewtwo|Mewtwo|365\/415 psn
+|-damage|p1a: Mewtwo|340\/415 psn|[from] psn
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|
+|turn|50
+|
+|move|p2a: Mewtwo|Thunderbolt|p1a: Mewtwo
+|-damage|p1a: Mewtwo|180\/415 psn
+|move|p1a: Mewtwo|Amnesia|p1a: Mewtwo
+|-boost|p1a: Mewtwo|spd|2
+|-boost|p1a: Mewtwo|spa|2
+|-damage|p1a: Mewtwo|155\/415 psn|[from] psn
+|
+|turn|51
+|
+|move|p1a: Mewtwo|Recover|p1a: Mewtwo
+|-heal|p1a: Mewtwo|362\/415 psn
+|-damage|p1a: Mewtwo|337\/415 psn|[from] psn
+|move|p2a: Mewtwo|Thunderbolt|p1a: Mewtwo
+|-damage|p1a: Mewtwo|263\/415 psn
+|
+|turn|52
+|
+|move|p1a: Mewtwo|Recover|p1a: Mewtwo
+|-heal|p1a: Mewtwo|415\/415 psn
+|-damage|p1a: Mewtwo|390\/415 psn|[from] psn
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|
+|turn|53
+|
+|move|p1a: Mewtwo|Amnesia|p1a: Mewtwo
+|-boost|p1a: Mewtwo|spd|2
+|-boost|p1a: Mewtwo|spa|2
+|-damage|p1a: Mewtwo|365\/415 psn|[from] psn
+|move|p2a: Mewtwo|Thunderbolt|p1a: Mewtwo
+|-crit|p1a: Mewtwo
+|-damage|p1a: Mewtwo|214\/415 psn
+|
+|turn|54
+|
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|move|p1a: Mewtwo|Recover|p1a: Mewtwo
+|-heal|p1a: Mewtwo|415\/415 psn
+|-damage|p1a: Mewtwo|390\/415 psn|[from] psn
+|
+|turn|55
+|
+|move|p2a: Mewtwo|Thunderbolt|p1a: Mewtwo
+|-damage|p1a: Mewtwo|321\/415 psn
+|move|p1a: Mewtwo|Amnesia|p1a: Mewtwo
+|-boost|p1a: Mewtwo|spd|2
+|-boost|p1a: Mewtwo|spa|2
+|-damage|p1a: Mewtwo|296\/415 psn|[from] psn
+|
+|turn|56
+|
+|move|p1a: Mewtwo|Recover|p1a: Mewtwo
+|-heal|p1a: Mewtwo|415\/415 psn
+|-damage|p1a: Mewtwo|390\/415 psn|[from] psn
+|move|p2a: Mewtwo|Thunderbolt|p1a: Mewtwo
+|-damage|p1a: Mewtwo|318\/415 psn
+|
+|turn|57
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Mewtwo
+|-damage|p2a: Mewtwo|342\/415
+|-damage|p1a: Mewtwo|293\/415 psn|[from] psn|[of] p2a: Mewtwo
+|move|p2a: Mewtwo|Thunderbolt|p1a: Mewtwo
+|-crit|p1a: Mewtwo
+|-damage|p1a: Mewtwo|140\/415 psn
+|
+|turn|58
+|
+|move|p2a: Mewtwo|Thunderbolt|p1a: Mewtwo
+|-crit|p1a: Mewtwo
+|-damage|p1a: Mewtwo|6\/415 psn
+|move|p1a: Mewtwo|Recover|p1a: Mewtwo
+|-heal|p1a: Mewtwo|213\/415 psn
+|-damage|p1a: Mewtwo|188\/415 psn|[from] psn
+|
+|turn|59
+|
+|move|p1a: Mewtwo|Recover|p1a: Mewtwo
+|-heal|p1a: Mewtwo|395\/415 psn
+|-damage|p1a: Mewtwo|370\/415 psn|[from] psn
+|move|p2a: Mewtwo|Thunderbolt|p1a: Mewtwo
+|-damage|p1a: Mewtwo|292\/415 psn
+|
+|turn|60
+|
+|move|p2a: Mewtwo|Thunderbolt|p1a: Mewtwo
+|-crit|p1a: Mewtwo
+|-damage|p1a: Mewtwo|153\/415 psn
+|move|p1a: Mewtwo|Thunderbolt|p2a: Mewtwo
+|-damage|p2a: Mewtwo|268\/415
+|-damage|p1a: Mewtwo|128\/415 psn|[from] psn|[of] p2a: Mewtwo
+|
+|turn|61
+|
+|move|p2a: Mewtwo|Thunderbolt|p1a: Mewtwo
+|-damage|p1a: Mewtwo|57\/415 psn
+|move|p1a: Mewtwo|Recover|p1a: Mewtwo
+|-heal|p1a: Mewtwo|264\/415 psn
+|-damage|p1a: Mewtwo|239\/415 psn|[from] psn
+|
+|turn|62
+|
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|415\/415
+|move|p1a: Mewtwo|Recover|p1a: Mewtwo
+|-heal|p1a: Mewtwo|415\/415 psn
+|-damage|p1a: Mewtwo|390\/415 psn|[from] psn
+|
+|turn|63
+|
+|move|p2a: Mewtwo|Ice Beam|p1a: Mewtwo
+|-crit|p1a: Mewtwo
+|-damage|p1a: Mewtwo|255\/415 psn
+|move|p1a: Mewtwo|Thunderbolt|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|267\/415
+|-damage|p1a: Mewtwo|230\/415 psn|[from] psn|[of] p2a: Mewtwo
+|
+|turn|64
+|
+|move|p2a: Mewtwo|Thunderbolt|p1a: Mewtwo
+|-damage|p1a: Mewtwo|154\/415 psn
+|move|p1a: Mewtwo|Recover|p1a: Mewtwo
+|-heal|p1a: Mewtwo|361\/415 psn
+|-damage|p1a: Mewtwo|336\/415 psn|[from] psn
+|
+|turn|65
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|123\/415
+|-damage|p1a: Mewtwo|311\/415 psn|[from] psn|[of] p2a: Mewtwo
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|330\/415
+|
+|turn|66
+|
+|move|p2a: Mewtwo|Thunderbolt|p1a: Mewtwo
+|-damage|p1a: Mewtwo|231\/415 psn
+|move|p1a: Mewtwo|Thunderbolt|p2a: Mewtwo
+|-damage|p2a: Mewtwo|256\/415
+|-damage|p1a: Mewtwo|206\/415 psn|[from] psn|[of] p2a: Mewtwo
+|
+|turn|67
+|
+|move|p2a: Mewtwo|Thunderbolt|p1a: Mewtwo
+|-damage|p1a: Mewtwo|128\/415 psn
+|move|p1a: Mewtwo|Recover|p1a: Mewtwo
+|-heal|p1a: Mewtwo|335\/415 psn
+|-damage|p1a: Mewtwo|310\/415 psn|[from] psn
+|
+|turn|68
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|118\/415
+|-damage|p1a: Mewtwo|285\/415 psn|[from] psn|[of] p2a: Mewtwo
+|move|p2a: Mewtwo|Ice Beam|p1a: Mewtwo
+|-damage|p1a: Mewtwo|212\/415 psn
+|
+|turn|69
+|
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|325\/415
+|move|p1a: Mewtwo|Thunderbolt|p2a: Mewtwo
+|-damage|p2a: Mewtwo|244\/415
+|-damage|p1a: Mewtwo|187\/415 psn|[from] psn|[of] p2a: Mewtwo
+|
+|turn|70
+|
+|move|p1a: Mewtwo|Recover|p1a: Mewtwo
+|-heal|p1a: Mewtwo|394\/415 psn
+|-damage|p1a: Mewtwo|369\/415 psn|[from] psn
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|415\/415
+|
+|turn|71
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|271\/415
+|-damage|p1a: Mewtwo|344\/415 psn|[from] psn|[of] p2a: Mewtwo
+|move|p2a: Mewtwo|Thunderbolt|p1a: Mewtwo
+|-crit|p1a: Mewtwo
+|-damage|p1a: Mewtwo|208\/415 psn
+|
+|turn|72
+|
+|move|p1a: Mewtwo|Recover|p1a: Mewtwo
+|-heal|p1a: Mewtwo|415\/415 psn
+|-damage|p1a: Mewtwo|390\/415 psn|[from] psn
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|415\/415
+|
+|turn|73
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Mewtwo
+|-damage|p2a: Mewtwo|343\/415
+|-damage|p1a: Mewtwo|365\/415 psn|[from] psn|[of] p2a: Mewtwo
+|move|p2a: Mewtwo|Thunderbolt|p1a: Mewtwo
+|-crit|p1a: Mewtwo
+|-damage|p1a: Mewtwo|223\/415 psn
+|
+|turn|74
+|
+|move|p1a: Mewtwo|Recover|p1a: Mewtwo
+|-heal|p1a: Mewtwo|415\/415 psn
+|-damage|p1a: Mewtwo|390\/415 psn|[from] psn
+|move|p2a: Mewtwo|Ice Beam|p1a: Mewtwo
+|-damage|p1a: Mewtwo|319\/415 psn
+|
+|turn|75
+|
+|move|p2a: Mewtwo|Thunderbolt|p1a: Mewtwo
+|-crit|p1a: Mewtwo
+|-damage|p1a: Mewtwo|169\/415 psn
+|move|p1a: Mewtwo|Thunderbolt|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|196\/415
+|-damage|p1a: Mewtwo|144\/415 psn|[from] psn|[of] p2a: Mewtwo
+|
+|turn|76
+|
+|move|p1a: Mewtwo|Recover|p1a: Mewtwo
+|-heal|p1a: Mewtwo|351\/415 psn
+|-damage|p1a: Mewtwo|326\/415 psn|[from] psn
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|403\/415
+|
+|turn|77
+|
+|move|p2a: Mewtwo|Ice Beam|p1a: Mewtwo
+|-crit|p1a: Mewtwo
+|-damage|p1a: Mewtwo|185\/415 psn
+|move|p1a: Mewtwo|Thunderbolt|p2a: Mewtwo
+|-damage|p2a: Mewtwo|329\/415
+|-damage|p1a: Mewtwo|160\/415 psn|[from] psn|[of] p2a: Mewtwo
+|
+|turn|78
+|
+|move|p2a: Mewtwo|Ice Beam|p1a: Mewtwo
+|-damage|p1a: Mewtwo|81\/415 psn
+|move|p1a: Mewtwo|Recover|p1a: Mewtwo
+|-heal|p1a: Mewtwo|288\/415 psn
+|-damage|p1a: Mewtwo|263\/415 psn|[from] psn
+|
+|turn|79
+|
+|move|p1a: Mewtwo|Recover|p1a: Mewtwo
+|-heal|p1a: Mewtwo|415\/415 psn
+|-damage|p1a: Mewtwo|390\/415 psn|[from] psn
+|move|p2a: Mewtwo|Ice Beam|p1a: Mewtwo
+|-damage|p1a: Mewtwo|317\/415 psn
+|
+|turn|80
+|
+|move|p2a: Mewtwo|Thunderbolt|p1a: Mewtwo
+|-damage|p1a: Mewtwo|246\/415 psn
+|move|p1a: Mewtwo|Thunderbolt|p2a: Mewtwo
+|-damage|p2a: Mewtwo|251\/415
+|-damage|p1a: Mewtwo|221\/415 psn|[from] psn|[of] p2a: Mewtwo
+|
+|turn|81
+|
+|move|p2a: Mewtwo|Thunderbolt|p1a: Mewtwo
+|-crit|p1a: Mewtwo
+|-damage|p1a: Mewtwo|73\/415 psn
+|move|p1a: Mewtwo|Recover|p1a: Mewtwo
+|-heal|p1a: Mewtwo|280\/415 psn
+|-damage|p1a: Mewtwo|255\/415 psn|[from] psn
+|
+|turn|82
+|
+|move|p1a: Mewtwo|Ice Beam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|180\/415
+|-damage|p1a: Mewtwo|230\/415 psn|[from] psn|[of] p2a: Mewtwo
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|387\/415
+|
+|turn|83
+|
+|move|p1a: Mewtwo|Recover|p1a: Mewtwo
+|-heal|p1a: Mewtwo|415\/415 psn
+|-damage|p1a: Mewtwo|390\/415 psn|[from] psn
+|move|p2a: Mewtwo|Ice Beam|p1a: Mewtwo
+|-damage|p1a: Mewtwo|309\/415 psn
+|
+|turn|84
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Mewtwo
+|-damage|p2a: Mewtwo|314\/415
+|-damage|p1a: Mewtwo|284\/415 psn|[from] psn|[of] p2a: Mewtwo
+|move|p2a: Mewtwo|Ice Beam|p1a: Mewtwo
+|-damage|p1a: Mewtwo|216\/415 psn
+|
+|turn|85
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Mewtwo
+|-damage|p2a: Mewtwo|238\/415
+|-damage|p1a: Mewtwo|191\/415 psn|[from] psn|[of] p2a: Mewtwo
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|415\/415
+|
+|turn|86
+|
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-fail|p2a: Mewtwo
+|move|p1a: Mewtwo|Thunderbolt|p2a: Mewtwo
+|-damage|p2a: Mewtwo|338\/415
+|-damage|p1a: Mewtwo|166\/415 psn|[from] psn|[of] p2a: Mewtwo
+|
+|turn|87
+|
+|move|p2a: Mewtwo|Ice Beam|p1a: Mewtwo
+|-damage|p1a: Mewtwo|86\/415 psn
+|move|p1a: Mewtwo|Ice Beam|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|188\/415
+|-damage|p1a: Mewtwo|61\/415 psn|[from] psn|[of] p2a: Mewtwo
+|
+|turn|88
+|
+|move|p1a: Mewtwo|Ice Beam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|111\/415
+|-damage|p1a: Mewtwo|36\/415 psn|[from] psn|[of] p2a: Mewtwo
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|318\/415
+|
+|turn|89
+|
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|415\/415
+|move|p1a: Mewtwo|Ice Beam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|335\/415
+|-damage|p1a: Mewtwo|11\/415 psn|[from] psn|[of] p2a: Mewtwo
+|
+|turn|90
+|
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|415\/415
+|move|p1a: Mewtwo|Ice Beam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|338\/415
+|-damage|p1a: Mewtwo|0 fnt|[from] psn|[of] p2a: Mewtwo
+|faint|p1a: Mewtwo
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|turn|91
+|
+|switch|p2a: Slowbro|Slowbro|393\/393 slp
+|move|p1a: Snorlax|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|291\/393 slp
+|
+|turn|92
+|
+|switch|p2a: Starmie|Starmie|226\/323
+|move|p1a: Snorlax|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|109\/323
+|
+|turn|93
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|270\/323
+|move|p1a: Snorlax|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|154\/323
+|-status|p2a: Starmie|par
+|
+|turn|94
+|
+|move|p1a: Snorlax|Hyper Beam|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|switch|p2a: Mew|Mew|403\/403 par
+|turn|95
+|
+|move|p1a: Snorlax|Body Slam|p2a: Mew
+|-damage|p2a: Mew|295\/403 par
+|cant|p2a: Mew|par
+|
+|turn|96
+|
+|move|p1a: Snorlax|Body Slam|p2a: Mew
+|-damage|p2a: Mew|187\/403 par
+|move|p2a: Mew|Reflect|p2a: Mew
+|-start|p2a: Mew|Reflect
+|
+|turn|97
+|
+|move|p1a: Snorlax|Body Slam|p2a: Mew
+|-damage|p2a: Mew|132\/403 par
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|333\/403 par
+|
+|turn|98
+|
+|move|p1a: Snorlax|Body Slam|p2a: Mew
+|-damage|p2a: Mew|277\/403 par
+|move|p2a: Mew|Swords Dance|p2a: Mew
+|-boost|p2a: Mew|atk|2
+|
+|turn|99
+|
+|move|p1a: Snorlax|Body Slam|p2a: Mew
+|-damage|p2a: Mew|222\/403 par
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|403\/403 par
+|
+|turn|100
+|
+|move|p1a: Snorlax|Body Slam|p2a: Mew
+|-damage|p2a: Mew|352\/403 par
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|403\/403 par
+|
+|turn|101
+|
+|move|p1a: Snorlax|Body Slam|p2a: Mew
+|-damage|p2a: Mew|351\/403 par
+|move|p2a: Mew|Swords Dance|p2a: Mew
+|-boost|p2a: Mew|atk|2
+|
+|turn|102
+|
+|move|p1a: Snorlax|Body Slam|p2a: Mew
+|-damage|p2a: Mew|295\/403 par
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|403\/403 par
+|
+|turn|103
+|
+|move|p1a: Snorlax|Body Slam|p2a: Mew
+|-damage|p2a: Mew|354\/403 par
+|move|p2a: Mew|Swords Dance|p2a: Mew
+|-boost|p2a: Mew|atk|2
+|
+|turn|104
+|
+|move|p1a: Snorlax|Body Slam|p2a: Mew
+|-damage|p2a: Mew|303\/403 par
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|403\/403 par
+|
+|turn|105
+|
+|move|p1a: Snorlax|Body Slam|p2a: Mew
+|-damage|p2a: Mew|352\/403 par
+|move|p2a: Mew|Double-Edge|p1a: Snorlax
+|-damage|p1a: Snorlax|206\/523
+|-damage|p2a: Mew|273\/403 par|[from] recoil|[of] p1a: Snorlax
+|
+|turn|106
+|
+|move|p1a: Snorlax|Self-Destruct|p2a: Mew
+|-damage|p2a: Mew|97\/403 par
+|faint|p1a: Snorlax
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|107
+|
+|move|p1a: Tauros|Body Slam|p2a: Mew
+|-damage|p2a: Mew|47\/403 par
+|cant|p2a: Mew|par
+|
+|turn|108
+|
+|move|p1a: Tauros|Blizzard|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|switch|p2a: Mewtwo|Mewtwo|338\/415
+|turn|109
+|
+|move|p2a: Mewtwo|Ice Beam|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|95\/353
+|move|p1a: Tauros|Body Slam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|222\/415
+|
+|turn|110
+|
+|switch|p1a: Slowbro|Slowbro|393\/393
+|move|p2a: Mewtwo|Ice Beam|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|332\/393
+|
+|turn|111
+|
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|415\/415
+|move|p1a: Slowbro|Thunder Wave|p2a: Mewtwo
+|-status|p2a: Mewtwo|par
+|
+|turn|112
+|
+|switch|p1a: Mew|Mew|403\/403
+|move|p2a: Mewtwo|Ice Beam|p1a: Mew
+|-damage|p1a: Mew|301\/403
+|
+|turn|113
+|
+|move|p1a: Mew|Swords Dance|p1a: Mew
+|-boost|p1a: Mew|atk|2
+|cant|p2a: Mewtwo|par
+|
+|turn|114
+|
+|move|p1a: Mew|Body Slam|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|273\/415 par
+|move|p2a: Mewtwo|Ice Beam|p1a: Mew
+|-damage|p1a: Mew|201\/403
+|
+|turn|115
+|
+|move|p1a: Mew|Body Slam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|140\/415 par
+|cant|p2a: Mewtwo|par
+|
+|turn|116
+|
+|move|p1a: Mew|Body Slam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|0 fnt
+|faint|p2a: Mewtwo
+|
+|switch|p2a: Chansey|Chansey|460\/703 par
+|turn|117
+|
+|move|p1a: Mew|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|69\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|118
+|
+|move|p1a: Mew|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|switch|p2a: Slowbro|Slowbro|291\/393 slp
+|turn|119
+|
+|move|p1a: Mew|Body Slam|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-damage|p2a: Slowbro|175\/393 slp
+|cant|p2a: Slowbro|slp
+|
+|turn|120
+|
+|move|p1a: Mew|Body Slam|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-damage|p2a: Slowbro|45\/393 slp
+|cant|p2a: Slowbro|slp
+|
+|turn|121
+|c|★marcoasd|gg
+|
+|move|p1a: Mew|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|c|★RainPB|gg
+|-message|RainPB forfeited.
+|
+|win|marcoasd
+|L|RainPB
+|player|p2
+|L|marcoasd
+|player|p1

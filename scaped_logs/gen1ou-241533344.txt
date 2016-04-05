@@ -1,0 +1,376 @@
+﻿|join|shadowliam7
+|join|Nolanzer
+|player|p1|shadowliam7|5
+|player|p2|Nolanzer|209
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: TreeBoggle|Exeggutor|393\/393
+|switch|p2a: Dragonite|Dragonite|385\/385
+|turn|1
+|
+|move|p2a: Dragonite|Wrap|p1a: TreeBoggle
+|-damage|p1a: TreeBoggle|378\/393
+|-activate|p1a: TreeBoggle|move: Wrap|[of] p2a: Dragonite
+|cant|p1a: TreeBoggle|partiallytrapped
+|
+|turn|2
+|
+|move|p2a: Dragonite|Wrap|p1a: TreeBoggle
+|-damage|p1a: TreeBoggle|363\/393
+|cant|p1a: TreeBoggle|partiallytrapped
+|
+|turn|3
+|
+|move|p2a: Dragonite|Wrap|p1a: TreeBoggle
+|-damage|p1a: TreeBoggle|348\/393
+|cant|p1a: TreeBoggle|partiallytrapped
+|
+|-end|p1a: TreeBoggle|Wrap|[partiallytrapped]
+|turn|4
+|
+|move|p2a: Dragonite|Wrap|p1a: TreeBoggle
+|-damage|p1a: TreeBoggle|334\/393
+|-activate|p1a: TreeBoggle|move: Wrap|[of] p2a: Dragonite
+|cant|p1a: TreeBoggle|partiallytrapped
+|
+|turn|5
+|
+|switch|p1a: FAPDOSE|Zapdos|383\/383
+|move|p2a: Dragonite|Wrap|p1a: FAPDOSE
+|-damage|p1a: FAPDOSE|368\/383
+|-activate|p1a: FAPDOSE|move: Wrap|[of] p2a: Dragonite
+|
+|turn|6
+|
+|cant|p1a: FAPDOSE|partiallytrapped
+|move|p2a: Dragonite|Wrap|p1a: FAPDOSE
+|-damage|p1a: FAPDOSE|353\/383
+|
+|-end|p1a: FAPDOSE|Wrap|[partiallytrapped]
+|turn|7
+|
+|move|p1a: FAPDOSE|Thunderbolt|p2a: Dragonite
+|-damage|p2a: Dragonite|256\/385
+|move|p2a: Dragonite|Wrap|p1a: FAPDOSE|[miss]
+|-miss|p2a: Dragonite
+|
+|turn|8
+|
+|switch|p2a: Zapdos|Zapdos|383\/383
+|move|p1a: FAPDOSE|Thunderbolt|p2a: Zapdos
+|-damage|p2a: Zapdos|264\/383
+|
+|turn|9
+|
+|move|p2a: Zapdos|Agility|p2a: Zapdos
+|-boost|p2a: Zapdos|spe|2
+|move|p1a: FAPDOSE|Thunder Wave|p2a: Zapdos
+|-status|p2a: Zapdos|par
+|
+|turn|10
+|
+|switch|p1a: Defense Guy|Rhydon|413\/413
+|move|p2a: Zapdos|Thunder Wave|p1a: Defense Guy
+|-immune|p1a: Defense Guy|[msg]
+|
+|turn|11
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Defense Guy|Rock Slide|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-damage|p2a: Exeggutor|165\/393
+|
+|turn|12
+|
+|move|p2a: Exeggutor|Sleep Powder|p1a: Defense Guy
+|-status|p1a: Defense Guy|slp
+|cant|p1a: Defense Guy|slp
+|
+|turn|13
+|
+|switch|p1a: FAPDOSE|Zapdos|353\/383
+|move|p2a: Exeggutor|Mega Drain|p1a: FAPDOSE
+|-resisted|p1a: FAPDOSE
+|-damage|p1a: FAPDOSE|328\/383
+|-heal|p2a: Exeggutor|177\/393|[from] drain|[of] p1a: FAPDOSE
+|
+|turn|14
+|c|★shadowliam7|dat nickname tho
+|
+|move|p1a: FAPDOSE|Drill Peck|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|32\/393
+|move|p2a: Exeggutor|Explosion|p1a: FAPDOSE
+|-damage|p1a: FAPDOSE|91\/383
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|15
+|c|★shadowliam7|aye
+|c|★shadowliam7|ugh not this ass
+|
+|move|p2a: Tauros|Body Slam|p1a: FAPDOSE
+|-damage|p1a: FAPDOSE|0 fnt
+|faint|p1a: FAPDOSE
+|
+|switch|p1a: GenGARG|Gengar|323\/323
+|turn|16
+|
+|move|p2a: Tauros|Earthquake|p1a: GenGARG
+|-crit|p1a: GenGARG
+|-supereffective|p1a: GenGARG
+|-damage|p1a: GenGARG|0 fnt
+|faint|p1a: GenGARG
+|c|★shadowliam7|crap forgot that
+|c|★shadowliam7|THIS BULL IS BULL
+|
+|switch|p1a: THAT CRY IS BAE|Articuno|383\/383
+|turn|17
+|
+|move|p2a: Tauros|Body Slam|p1a: THAT CRY IS BAE
+|-damage|p1a: THAT CRY IS BAE|275\/383
+|move|p1a: THAT CRY IS BAE|Blizzard|p2a: Tauros
+|-damage|p2a: Tauros|148\/353
+|
+|turn|18
+|
+|move|p2a: Tauros|Hyper Beam|p1a: THAT CRY IS BAE
+|-crit|p1a: THAT CRY IS BAE
+|-damage|p1a: THAT CRY IS BAE|0 fnt
+|faint|p1a: THAT CRY IS BAE
+|
+|switch|p1a: KHAAAAAAAAAN|Kangaskhan|413\/413
+|turn|19
+|
+|move|p2a: Tauros|Hyper Beam|p1a: KHAAAAAAAAAN|[miss]
+|-miss|p2a: Tauros
+|move|p1a: KHAAAAAAAAAN|Hyper Beam|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|switch|p2a: Cloyster|Cloyster|303\/303
+|turn|20
+|
+|move|p1a: KHAAAAAAAAAN|Body Slam|p2a: Cloyster
+|-damage|p2a: Cloyster|251\/303
+|move|p2a: Cloyster|Clamp|p1a: KHAAAAAAAAAN
+|-damage|p1a: KHAAAAAAAAAN|354\/413
+|-activate|p1a: KHAAAAAAAAAN|move: Clamp|[of] p2a: Cloyster
+|
+|turn|21
+|
+|switch|p1a: TreeBoggle|Exeggutor|334\/393
+|move|p2a: Cloyster|Clamp|p1a: TreeBoggle
+|-resisted|p1a: TreeBoggle
+|-damage|p1a: TreeBoggle|317\/393
+|-activate|p1a: TreeBoggle|move: Clamp|[of] p2a: Cloyster
+|
+|turn|22
+|
+|move|p2a: Cloyster|Clamp|p1a: TreeBoggle
+|-damage|p1a: TreeBoggle|300\/393
+|cant|p1a: TreeBoggle|partiallytrapped
+|
+|turn|23
+|c|★shadowliam7|practically gg m8's
+|
+|move|p2a: Cloyster|Clamp|p1a: TreeBoggle
+|-damage|p1a: TreeBoggle|283\/393
+|cant|p1a: TreeBoggle|partiallytrapped
+|
+|turn|24
+|
+|move|p2a: Cloyster|Clamp|p1a: TreeBoggle
+|-damage|p1a: TreeBoggle|266\/393
+|cant|p1a: TreeBoggle|partiallytrapped
+|
+|turn|25
+|
+|move|p2a: Cloyster|Clamp|p1a: TreeBoggle
+|-damage|p1a: TreeBoggle|249\/393
+|cant|p1a: TreeBoggle|partiallytrapped
+|
+|-end|p1a: TreeBoggle|Clamp|[partiallytrapped]
+|turn|26
+|c|★shadowliam7|#Gen1Metagame
+|
+|move|p2a: Cloyster|Blizzard|p1a: TreeBoggle|[miss]
+|-miss|p2a: Cloyster
+|move|p1a: TreeBoggle|Sleep Powder|p2a: Cloyster|[miss]
+|-miss|p1a: TreeBoggle
+|
+|turn|27
+|
+|move|p2a: Cloyster|Blizzard|p1a: TreeBoggle
+|-supereffective|p1a: TreeBoggle
+|-damage|p1a: TreeBoggle|35\/393
+|move|p1a: TreeBoggle|Sleep Powder|p2a: Cloyster
+|-status|p2a: Cloyster|slp
+|
+|turn|28
+|
+|cant|p2a: Cloyster|slp
+|move|p1a: TreeBoggle|Explosion|p2a: Cloyster
+|-damage|p2a: Cloyster|106\/303 slp
+|faint|p1a: TreeBoggle
+|
+|switch|p1a: KHAAAAAAAAAN|Kangaskhan|354\/413
+|turn|29
+|
+|move|p1a: KHAAAAAAAAAN|Hyper Beam|p2a: Cloyster|[miss]
+|-miss|p1a: KHAAAAAAAAAN
+|cant|p2a: Cloyster|slp
+|
+|turn|30
+|
+|move|p1a: KHAAAAAAAAAN|Hyper Beam|p2a: Cloyster
+|-damage|p2a: Cloyster|21\/303 slp
+|cant|p2a: Cloyster|slp
+|
+|turn|31
+|-mustrecharge|p1a: KHAAAAAAAAAN
+|c|★shadowliam7|ugh
+|-mustrecharge|p1a: KHAAAAAAAAAN
+|
+|cant|p1a: KHAAAAAAAAAN|recharge
+|cant|p2a: Cloyster|slp
+|
+|turn|32
+|
+|move|p1a: KHAAAAAAAAAN|Body Slam|p2a: Cloyster
+|-crit|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p2a: Cloyster
+|
+|switch|p2a: Dragonite|Dragonite|256\/385
+|turn|33
+|c|★shadowliam7|oh boy....thanks for the crit...
+|
+|move|p1a: KHAAAAAAAAAN|Body Slam|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-damage|p2a: Dragonite|85\/385
+|-status|p2a: Dragonite|par
+|move|p2a: Dragonite|Wrap|p1a: KHAAAAAAAAAN
+|-crit|p1a: KHAAAAAAAAAN
+|-damage|p1a: KHAAAAAAAAAN|327\/413
+|-activate|p1a: KHAAAAAAAAAN|move: Wrap|[of] p2a: Dragonite
+|
+|turn|34
+|
+|cant|p1a: KHAAAAAAAAAN|partiallytrapped
+|cant|p2a: Dragonite|par
+|
+|-end|p1a: KHAAAAAAAAAN|Wrap|[partiallytrapped]
+|turn|35
+|
+|move|p1a: KHAAAAAAAAAN|Body Slam|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|switch|p2a: Articuno|Articuno|383\/383
+|turn|36
+|c|★shadowliam7|oh man that was sexy
+|
+|move|p1a: KHAAAAAAAAAN|Body Slam|p2a: Articuno
+|-damage|p2a: Articuno|301\/383
+|-status|p2a: Articuno|par
+|cant|p2a: Articuno|par
+|
+|turn|37
+|c|★shadowliam7|byotiful
+|
+|move|p1a: KHAAAAAAAAAN|Body Slam|p2a: Articuno
+|-damage|p2a: Articuno|224\/383 par
+|move|p2a: Articuno|Hyper Beam|p1a: KHAAAAAAAAAN
+|-damage|p1a: KHAAAAAAAAAN|233\/413
+|
+|turn|38
+|-mustrecharge|p2a: Articuno
+|-mustrecharge|p2a: Articuno
+|
+|move|p1a: KHAAAAAAAAAN|Body Slam|p2a: Articuno
+|-damage|p2a: Articuno|144\/383 par
+|cant|p2a: Articuno|recharge
+|
+|turn|39
+|
+|move|p1a: KHAAAAAAAAAN|Body Slam|p2a: Articuno
+|-crit|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|faint|p2a: Articuno
+|
+|switch|p2a: Zapdos|Zapdos|264\/383 par
+|turn|40
+|c|★shadowliam7|MMM CRITS 4 DAYS
+|c|★shadowliam7|im so sorry
+|
+|move|p1a: KHAAAAAAAAAN|Body Slam|p2a: Zapdos
+|-damage|p2a: Zapdos|172\/383 par
+|move|p2a: Zapdos|Drill Peck|p1a: KHAAAAAAAAAN
+|-damage|p1a: KHAAAAAAAAAN|154\/413
+|
+|turn|41
+|
+|move|p1a: KHAAAAAAAAAN|Body Slam|p2a: Zapdos
+|-damage|p2a: Zapdos|92\/383 par
+|move|p2a: Zapdos|Thunderbolt|p1a: KHAAAAAAAAAN
+|-damage|p1a: KHAAAAAAAAAN|0 fnt
+|faint|p1a: KHAAAAAAAAAN
+|c|★shadowliam7|GG
+|c|★shadowliam7|GG
+|
+|switch|p1a: Defense Guy|Rhydon|413\/413 slp
+|turn|42
+|
+|cant|p1a: Defense Guy|slp
+|move|p2a: Zapdos|Agility|p2a: Zapdos
+|-boost|p2a: Zapdos|spe|2
+|
+|turn|43
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Defense Guy
+|-resisted|p1a: Defense Guy
+|-damage|p1a: Defense Guy|384\/413 slp
+|cant|p1a: Defense Guy|slp
+|
+|turn|44
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Defense Guy
+|-resisted|p1a: Defense Guy
+|-damage|p1a: Defense Guy|353\/413 slp
+|cant|p1a: Defense Guy|slp
+|
+|turn|45
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Defense Guy
+|-resisted|p1a: Defense Guy
+|-damage|p1a: Defense Guy|322\/413 slp
+|cant|p1a: Defense Guy|slp
+|-curestatus|p1a: Defense Guy|slp
+|
+|turn|46
+|
+|cant|p2a: Zapdos|par
+|move|p1a: Defense Guy|Rock Slide|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|win|shadowliam7
+|raw|Ladder updating...
+|raw|shadowliam7's rating: 1107 &rarr; <strong>1125<\/strong><br \/>(+18 for winning)
+|raw|Nolanzer's rating: 1000 &rarr; <strong>1000<\/strong><br \/>(+0 for losing)
+|c|★shadowliam7|gg
+|c|★Nolanzer|gg
+|c|★shadowliam7|KANGASKHAN OP PLZ NERF
+|c|★shadowliam7|xD

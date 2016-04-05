@@ -1,0 +1,418 @@
+﻿|join|bibbby
+|join|jb champ
+|player|p1|bibbby|62
+|player|p2|jb champ|150
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|switch|p1a: Purplejack|Gengar|323\/323
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|1
+|chat|jb champ|hey there
+|
+|move|p1a: Purplejack|Psychic|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|188\/323
+|move|p2a: Gengar|Hypnosis|p1a: Purplejack|[miss]
+|-miss|p2a: Gengar
+|
+|turn|2
+|chat|bibbby|hi
+|
+|move|p1a: Purplejack|Psychic|p2a: Gengar
+|-crit|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|chat|jb champ|now that was a good job by my gengar...
+|chat|bibbby|:]
+|chat|jb champ|im so proud of him
+|
+|switch|p2a: Alakazam|Alakazam|313\/313
+|turn|3
+|
+|switch|p1a: Dr. Robotnik|Chansey|703\/703
+|move|p2a: Alakazam|Psychic|p1a: Dr. Robotnik
+|-damage|p1a: Dr. Robotnik|575\/703
+|-unboost|p1a: Dr. Robotnik|spd|1
+|-unboost|p1a: Dr. Robotnik|spa|1
+|
+|turn|4
+|
+|move|p2a: Alakazam|Psychic|p1a: Dr. Robotnik
+|-damage|p1a: Dr. Robotnik|375\/703
+|move|p1a: Dr. Robotnik|Thunder Wave|p2a: Alakazam
+|-status|p2a: Alakazam|par
+|
+|turn|5
+|
+|move|p1a: Dr. Robotnik|Soft-Boiled|p1a: Dr. Robotnik
+|-heal|p1a: Dr. Robotnik|703\/703
+|cant|p2a: Alakazam|par
+|
+|turn|6
+|
+|switch|p1a: Catnap|Snorlax|523\/523
+|cant|p2a: Alakazam|par
+|
+|turn|7
+|
+|move|p1a: Catnap|Earthquake|p2a: Alakazam
+|-damage|p2a: Alakazam|191\/313 par
+|move|p2a: Alakazam|Thunder Wave|p1a: Catnap
+|-status|p1a: Catnap|par
+|
+|turn|8
+|
+|switch|p2a: Slowbro|Slowbro|393\/393
+|move|p1a: Catnap|Hyper Beam|p2a: Slowbro
+|-damage|p2a: Slowbro|221\/393
+|
+|turn|9
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|cant|p1a: Catnap|par
+|
+|turn|10
+|
+|move|p2a: Slowbro|Surf|p1a: Catnap
+|-damage|p1a: Catnap|270\/523 par
+|cant|p1a: Catnap|par
+|
+|turn|11
+|
+|switch|p2a: Golem|Golem|363\/363
+|cant|p1a: Catnap|par
+|
+|turn|12
+|
+|move|p2a: Golem|Substitute|p2a: Golem
+|-start|p2a: Golem|Substitute
+|-damage|p2a: Golem|273\/363
+|move|p1a: Catnap|Earthquake|p2a: Golem
+|-supereffective|p2a: Golem
+|-end|p2a: Golem|Substitute
+|
+|turn|13
+|
+|move|p2a: Golem|Substitute|p2a: Golem
+|-start|p2a: Golem|Substitute
+|-damage|p2a: Golem|183\/363
+|move|p1a: Catnap|Earthquake|p2a: Golem
+|-supereffective|p2a: Golem
+|-end|p2a: Golem|Substitute
+|
+|turn|14
+|
+|move|p2a: Golem|Substitute|p2a: Golem
+|-start|p2a: Golem|Substitute
+|-damage|p2a: Golem|93\/363
+|move|p1a: Catnap|Earthquake|p2a: Golem
+|-supereffective|p2a: Golem
+|-end|p2a: Golem|Substitute
+|
+|turn|15
+|
+|move|p2a: Golem|Substitute|p2a: Golem
+|-start|p2a: Golem|Substitute
+|-damage|p2a: Golem|3\/363
+|move|p1a: Catnap|Earthquake|p2a: Golem
+|-supereffective|p2a: Golem
+|-end|p2a: Golem|Substitute
+|
+|turn|16
+|join|riley cyrus
+|chat|jb champ|golem is in a good shape as well
+|
+|move|p2a: Golem|Earthquake|p1a: Catnap
+|-crit|p1a: Catnap
+|-damage|p1a: Catnap|0 fnt
+|faint|p1a: Catnap
+|
+|leave|riley cyrus
+|
+|switch|p1a: Hevad Khan|Tauros|353\/353
+|turn|17
+|
+|move|p1a: Hevad Khan|Body Slam|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|
+|
+|switch|p2a: Slowbro|Slowbro|221\/393
+|turn|18
+|
+|move|p1a: Hevad Khan|Hyper Beam|p2a: Slowbro
+|-damage|p2a: Slowbro|50\/393
+|move|p2a: Slowbro|Thunder Wave|p1a: Hevad Khan
+|-status|p1a: Hevad Khan|par
+|
+|turn|19
+|
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|-heal|p2a: Slowbro|393\/393 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|cant|p1a: Hevad Khan|recharge
+|
+|turn|20
+|
+|cant|p2a: Slowbro|slp
+|move|p1a: Hevad Khan|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|305\/393 slp
+|
+|turn|21
+|
+|cant|p2a: Slowbro|slp
+|-curestatus|p2a: Slowbro|slp
+|move|p1a: Hevad Khan|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|213\/393
+|
+|turn|22
+|join|Sylivian
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|move|p1a: Hevad Khan|Hyper Beam|p2a: Slowbro
+|-damage|p2a: Slowbro|51\/393
+|
+|turn|23
+|
+|move|p2a: Slowbro|Surf|p1a: Hevad Khan
+|-damage|p1a: Hevad Khan|102\/353 par
+|cant|p1a: Hevad Khan|par
+|
+|turn|24
+|
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|-heal|p2a: Slowbro|393\/393 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|move|p1a: Hevad Khan|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|305\/393 slp
+|
+|turn|25
+|
+|cant|p2a: Slowbro|slp
+|move|p1a: Hevad Khan|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|206\/393 slp
+|
+|turn|26
+|
+|cant|p2a: Slowbro|slp
+|-curestatus|p2a: Slowbro|slp
+|move|p1a: Hevad Khan|Hyper Beam|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|
+|
+|switch|p2a: Alakazam|Alakazam|191\/313 par
+|turn|27
+|
+|move|p2a: Alakazam|Psychic|p1a: Hevad Khan
+|-damage|p1a: Hevad Khan|0 fnt
+|faint|p1a: Hevad Khan
+|
+|
+|switch|p1a: Dr. Robotnik|Chansey|703\/703
+|turn|28
+|
+|move|p1a: Dr. Robotnik|Ice Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|131\/313 par
+|cant|p2a: Alakazam|par
+|
+|turn|29
+|
+|move|p1a: Dr. Robotnik|Ice Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|71\/313 par
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|227\/313 par
+|
+|turn|30
+|
+|move|p1a: Dr. Robotnik|Ice Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|163\/313 par
+|move|p2a: Alakazam|Thunder Wave|p1a: Dr. Robotnik
+|-status|p1a: Dr. Robotnik|par
+|
+|turn|31
+|
+|switch|p1a: Poppy Bro Sr.|Alakazam|313\/313
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|313\/313 par
+|
+|turn|32
+|leave|Sylivian
+|
+|move|p1a: Poppy Bro Sr.|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|264\/313 par
+|-unboost|p2a: Alakazam|spd|1
+|-unboost|p2a: Alakazam|spa|1
+|cant|p2a: Alakazam|par
+|
+|turn|33
+|
+|move|p1a: Poppy Bro Sr.|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|184\/313 par
+|cant|p2a: Alakazam|par
+|
+|turn|34
+|
+|move|p1a: Poppy Bro Sr.|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|106\/313 par
+|move|p2a: Alakazam|Thunder Wave|p1a: Poppy Bro Sr.
+|-status|p1a: Poppy Bro Sr.|par
+|
+|turn|35
+|
+|cant|p2a: Alakazam|par
+|move|p1a: Poppy Bro Sr.|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|27\/313 par
+|
+|turn|36
+|
+|move|p1a: Poppy Bro Sr.|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|
+|switch|p2a: Kangaskhan|Kangaskhan|413\/413
+|turn|37
+|
+|move|p2a: Kangaskhan|Body Slam|p1a: Poppy Bro Sr.
+|-damage|p1a: Poppy Bro Sr.|164\/313 par
+|cant|p1a: Poppy Bro Sr.|par
+|
+|turn|38
+|
+|move|p2a: Kangaskhan|Hyper Beam|p1a: Poppy Bro Sr.
+|-damage|p1a: Poppy Bro Sr.|0 fnt
+|faint|p1a: Poppy Bro Sr.
+|
+|
+|switch|p1a: 23is#1|Exeggutor|393\/393
+|turn|39
+|
+|move|p2a: Kangaskhan|Body Slam|p1a: 23is#1
+|-damage|p1a: 23is#1|289\/393
+|move|p1a: 23is#1|Sleep Powder|p2a: Kangaskhan|[miss]
+|-miss|p1a: 23is#1
+|
+|turn|40
+|
+|move|p2a: Kangaskhan|Body Slam|p1a: 23is#1
+|-damage|p1a: 23is#1|189\/393
+|move|p1a: 23is#1|Sleep Powder|p2a: Kangaskhan|[miss]
+|-miss|p1a: 23is#1
+|
+|turn|41
+|
+|move|p2a: Kangaskhan|Hyper Beam|p1a: 23is#1|[miss]
+|-miss|p2a: Kangaskhan
+|move|p1a: 23is#1|Sleep Powder|p2a: Kangaskhan
+|-status|p2a: Kangaskhan|slp
+|
+|turn|42
+|
+|cant|p2a: Kangaskhan|slp
+|move|p1a: 23is#1|Psychic|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|204\/413 slp
+|
+|turn|43
+|
+|cant|p2a: Kangaskhan|slp
+|move|p1a: 23is#1|Psychic|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|4\/413 slp
+|-unboost|p2a: Kangaskhan|spd|1
+|-unboost|p2a: Kangaskhan|spa|1
+|
+|turn|44
+|
+|cant|p2a: Kangaskhan|slp
+|-curestatus|p2a: Kangaskhan|slp
+|move|p1a: 23is#1|Psychic|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|faint|p2a: Kangaskhan
+|
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|45
+|
+|move|p2a: Tauros|Hyper Beam|p1a: 23is#1
+|-crit|p1a: 23is#1
+|-damage|p1a: 23is#1|0 fnt
+|faint|p1a: 23is#1
+|
+|
+|switch|p1a: Dr. Robotnik|Chansey|703\/703 par
+|turn|46
+|
+|move|p2a: Tauros|Earthquake|p1a: Dr. Robotnik
+|-damage|p1a: Dr. Robotnik|489\/703 par
+|cant|p1a: Dr. Robotnik|par
+|
+|turn|47
+|
+|move|p2a: Tauros|Earthquake|p1a: Dr. Robotnik
+|-damage|p1a: Dr. Robotnik|270\/703 par
+|cant|p1a: Dr. Robotnik|par
+|
+|turn|48
+|
+|switch|p1a: Purplejack|Gengar|323\/323
+|move|p2a: Tauros|Hyper Beam|p1a: Purplejack
+|-immune|p1a: Purplejack|[msg]
+|
+|turn|49
+|
+|move|p2a: Tauros|Earthquake|p1a: Purplejack
+|-supereffective|p1a: Purplejack
+|-damage|p1a: Purplejack|112\/323
+|move|p1a: Purplejack|Hypnosis|p2a: Tauros|[miss]
+|-miss|p1a: Purplejack
+|
+|turn|50
+|
+|move|p2a: Tauros|Earthquake|p1a: Purplejack
+|-supereffective|p1a: Purplejack
+|-damage|p1a: Purplejack|0 fnt
+|faint|p1a: Purplejack
+|
+|chat|jb champ|wow
+|
+|switch|p1a: Dr. Robotnik|Chansey|270\/703 par
+|turn|51
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Dr. Robotnik
+|-crit|p1a: Dr. Robotnik
+|-damage|p1a: Dr. Robotnik|0 fnt
+|faint|p1a: Dr. Robotnik
+|
+|win|jb champ
+|raw|Ladder updating...
+|raw|bibbby's rating: 1201 &rarr; <strong>1184<\/strong><br \/>(-17 for losing)
+|raw|jb champ's rating: 1309 &rarr; <strong>1323<\/strong><br \/>(+14 for winning)
+|leave|bibbby
+|player|p1
+|chat|jb champ|well

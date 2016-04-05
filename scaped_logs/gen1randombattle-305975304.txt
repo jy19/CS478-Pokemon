@@ -1,0 +1,180 @@
+﻿|j|People Are Mean
+|j|Skego
+|player|p1|People Are Mean|113
+|player|p2|Skego|126
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|14127,45745,15676,59633
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Scyther|Scyther, L90|309\/309
+|switch|p2a: Marowak|Marowak, L90|291\/291
+|turn|1
+|choice|switch 4|move 1
+|
+|switch|p1a: Dewgong|Dewgong, L85|327\/327
+|move|p2a: Marowak|Blizzard|p1a: Dewgong
+|-resisted|p1a: Dewgong
+|-damage|p1a: Dewgong|312\/327
+|
+|turn|2
+|choice|move 2|switch 6
+|
+|switch|p2a: Primeape|Primeape, L90|300\/300
+|move|p1a: Dewgong|Blizzard|p2a: Primeape
+|-damage|p2a: Primeape|140\/300
+|
+|turn|3
+|choice|switch 6|move 2
+|
+|switch|p1a: Haunter|Haunter, L85|250\/250
+|move|p2a: Primeape|Submission|p1a: Haunter
+|-immune|p1a: Haunter|[msg]
+|
+|turn|4
+|c|★Skego|my team -.-
+|choice|move 3|switch 4
+|
+|switch|p2a: Snorlax|Snorlax, L79|415\/415
+|move|p1a: Haunter|Psychic|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|228\/415
+|
+|turn|5
+|choice|switch 4|move 1
+|
+|switch|p1a: Scyther|Scyther, L90|309\/309
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|
+|turn|6
+|choice|move 4|move 4
+|
+|move|p1a: Scyther|Slash|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|80\/415
+|move|p2a: Snorlax|Blizzard|p1a: Scyther
+|-supereffective|p1a: Scyther
+|-damage|p1a: Scyther|38\/309
+|
+|turn|7
+|choice|move 4|switch 2
+|
+|switch|p2a: Vileplume|Vileplume, L90|318\/318
+|move|p1a: Scyther|Slash|p2a: Vileplume
+|-crit|p2a: Vileplume
+|-damage|p2a: Vileplume|203\/318
+|
+|turn|8
+|choice|move 1|move 2
+|
+|move|p1a: Scyther|Hyper Beam|p2a: Vileplume
+|-damage|p2a: Vileplume|80\/318
+|move|p2a: Vileplume|Body Slam|p1a: Scyther
+|-damage|p1a: Scyther|0 fnt
+|faint|p1a: Scyther
+|choice|switch 4|
+|
+|switch|p1a: Haunter|Haunter, L85|250\/250
+|turn|9
+|choice|move 3|switch 3
+|
+|switch|p2a: Moltres|Moltres, L85|327\/327
+|move|p1a: Haunter|Psychic|p2a: Moltres
+|-damage|p2a: Moltres|272\/327
+|
+|turn|10
+|choice|move 1|move 3
+|
+|move|p1a: Haunter|Hypnosis|p2a: Moltres
+|-status|p2a: Moltres|slp
+|cant|p2a: Moltres|slp
+|
+|turn|11
+|choice|move 2|move 3
+|
+|move|p1a: Haunter|Thunderbolt|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|144\/327 slp
+|-curestatus|p2a: Moltres|slp
+|
+|turn|12
+|choice|move 1|switch 2
+|
+|switch|p2a: Snorlax|Snorlax, L79|80\/415
+|move|p1a: Haunter|Hypnosis|p2a: Snorlax|[miss]
+|-miss|p1a: Haunter
+|
+|turn|13
+|choice|move 2|move 2
+|
+|move|p1a: Haunter|Thunderbolt|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|choice||switch 6
+|
+|switch|p2a: Marowak|Marowak, L90|291\/291
+|turn|14
+|choice|switch 6|move 3
+|
+|switch|p1a: Dewgong|Dewgong, L85|312\/327
+|move|p2a: Marowak|Earthquake|p1a: Dewgong
+|-damage|p1a: Dewgong|202\/327
+|
+|turn|15
+|choice|move 4|switch 5
+|
+|switch|p2a: Articuno|Articuno, L79|304\/304
+|move|p1a: Dewgong|Surf|p2a: Articuno
+|-crit|p2a: Articuno
+|-damage|p2a: Articuno|133\/304
+|
+|turn|16
+|choice|move 2|move 1
+|
+|move|p2a: Articuno|Ice Beam|p1a: Dewgong
+|-resisted|p1a: Dewgong
+|-damage|p1a: Dewgong|179\/327
+|move|p1a: Dewgong|Blizzard|p2a: Articuno
+|-damage|p2a: Articuno|18\/304
+|
+|turn|17
+|choice|move 1|move 3
+|
+|move|p2a: Articuno|Rest|p2a: Articuno
+|-status|p2a: Articuno|slp
+|-heal|p2a: Articuno|304\/304 slp|[silent]
+|-status|p2a: Articuno|slp|[from] move: Rest
+|move|p1a: Dewgong|Body Slam|p2a: Articuno
+|-damage|p2a: Articuno|252\/304 slp
+|
+|turn|18
+|c|★Skego|what is my fukin team?
+|choice|switch 3|switch 2
+|
+|switch|p2a: Moltres|Moltres, L85|144\/327
+|switch|p1a: Arcanine|Arcanine, L85|327\/327
+|
+|turn|19
+|choice|move 1|move 2
+|
+|move|p1a: Arcanine|Body Slam|p2a: Moltres
+|-damage|p2a: Moltres|76\/327
+|-status|p2a: Moltres|par
+|move|p2a: Moltres|Substitute|p2a: Moltres
+|-fail|p2a: Moltres|move: Substitute|[weak]
+|
+|turn|20
+|-message|Skego forfeited.
+|
+|win|People Are Mean
+|l|Skego
+|player|p2
+|raw|People Are Mean's rating: 1301 &rarr; <strong>1319<\/strong><br \/>(+18 for winning)
+|raw|Skego's rating: 1272 &rarr; <strong>1249<\/strong><br \/>(-23 for losing)

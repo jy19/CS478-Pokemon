@@ -1,0 +1,196 @@
+﻿|join|katje eet vis
+|join|Czapper
+|player|p1|katje eet vis|12
+|player|p2|Czapper|169
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|2895,38481,49130,39910
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Flareon|Flareon, L90|300\/300
+|switch|p2a: Victreebel|Victreebel, L85|310\/310
+|turn|1
+|choice|move 4|switch 2
+|
+|switch|p2a: Rhyhorn|Rhyhorn, L96|348\/348
+|move|p1a: Flareon|Fire Blast|p2a: Rhyhorn
+|-resisted|p2a: Rhyhorn
+|-damage|p2a: Rhyhorn|217\/348
+|
+|turn|2
+|choice|switch 5|move 4
+|
+|switch|p1a: Starmie|Starmie, L79|257\/257
+|move|p2a: Rhyhorn|Earthquake|p1a: Starmie
+|-damage|p1a: Starmie|130\/257
+|
+|turn|3
+|choice|move 4|switch 2
+|
+|switch|p2a: Victreebel|Victreebel, L85|310\/310
+|move|p1a: Starmie|Blizzard|p2a: Victreebel
+|-supereffective|p2a: Victreebel
+|-damage|p2a: Victreebel|164\/310
+|-status|p2a: Victreebel|frz
+|
+|turn|4
+|choice|move 1|move 2
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|257\/257
+|cant|p2a: Victreebel|frz
+|
+|turn|5
+|choice|move 4|move 3
+|
+|move|p1a: Starmie|Blizzard|p2a: Victreebel
+|-supereffective|p2a: Victreebel
+|-damage|p2a: Victreebel|33\/310 frz
+|cant|p2a: Victreebel|frz
+|
+|turn|6
+|choice|move 3|move 3
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Victreebel
+|-crit|p2a: Victreebel
+|-resisted|p2a: Victreebel
+|-damage|p2a: Victreebel|0 fnt
+|faint|p2a: Victreebel
+|choice||switch 3
+|
+|switch|p2a: Raticate|Raticate, L85|267\/267
+|turn|7
+|choice|move 4|move 1
+|
+|move|p1a: Starmie|Blizzard|p2a: Raticate
+|-damage|p2a: Raticate|167\/267
+|move|p2a: Raticate|Super Fang|p1a: Starmie
+|-damage|p1a: Starmie|129\/257
+|
+|turn|8
+|choice|move 4|move 2
+|
+|move|p1a: Starmie|Blizzard|p2a: Raticate
+|-damage|p2a: Raticate|61\/267
+|-status|p2a: Raticate|frz
+|cant|p2a: Raticate|frz
+|
+|turn|9
+|c|★katje eet vis|lol
+|choice|move 1|move 2
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|257\/257
+|cant|p2a: Raticate|frz
+|
+|turn|10
+|choice|move 3|move 2
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Raticate
+|-damage|p2a: Raticate|0 fnt
+|faint|p2a: Raticate
+|choice||switch 5
+|
+|switch|p2a: Jynx|Jynx, L79|265\/265
+|turn|11
+|choice|move 2|move 1
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Jynx
+|-status|p2a: Jynx|par
+|cant|p2a: Jynx|par
+|
+|turn|12
+|choice|switch 2|move 1
+|
+|switch|p1a: Meowth|Meowth, L96|272\/272
+|cant|p2a: Jynx|par
+|
+|turn|13
+|choice|move 1|move 1
+|
+|move|p1a: Meowth|Slash|p2a: Jynx
+|-crit|p2a: Jynx
+|-damage|p2a: Jynx|50\/265 par
+|move|p2a: Jynx|Lovely Kiss|p1a: Meowth|[miss]
+|-miss|p2a: Jynx
+|
+|turn|14
+|choice|move 2|move 1
+|
+|move|p1a: Meowth|Pay Day|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|-fieldactivate|move: Pay Day
+|faint|p2a: Jynx
+|choice||switch 6
+|
+|switch|p2a: Hitmonlee|Hitmonlee, L90|273\/273
+|turn|15
+|choice|move 1|move 4
+|
+|move|p1a: Meowth|Slash|p2a: Hitmonlee
+|-crit|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|125\/273
+|move|p2a: Hitmonlee|Seismic Toss|p1a: Meowth
+|-damage|p1a: Meowth|182\/272
+|
+|turn|16
+|choice|move 1|switch 2
+|
+|switch|p2a: Rhyhorn|Rhyhorn, L96|217\/348
+|move|p1a: Meowth|Slash|p2a: Rhyhorn
+|-crit|p2a: Rhyhorn
+|-resisted|p2a: Rhyhorn
+|-damage|p2a: Rhyhorn|168\/348
+|
+|turn|17
+|choice|move 3|move 4
+|
+|move|p1a: Meowth|Bubble Beam|p2a: Rhyhorn
+|-crit|p2a: Rhyhorn
+|-supereffective|p2a: Rhyhorn
+|-damage|p2a: Rhyhorn|0 fnt
+|faint|p2a: Rhyhorn
+|choice||switch 4
+|
+|switch|p2a: Raichu|Raichu, L85|276\/276
+|turn|18
+|choice|move 1|move 3
+|
+|move|p1a: Meowth|Slash|p2a: Raichu
+|-crit|p2a: Raichu
+|-damage|p2a: Raichu|125\/276
+|move|p2a: Raichu|Hyper Beam|p1a: Meowth
+|-damage|p1a: Meowth|25\/272
+|
+|turn|19
+|-mustrecharge|p2a: Raichu
+|-mustrecharge|p2a: Raichu
+|choice|move 1|move 1
+|
+|move|p1a: Meowth|Slash|p2a: Raichu
+|-crit|p2a: Raichu
+|-damage|p2a: Raichu|0 fnt
+|faint|p2a: Raichu
+|choice||switch 2
+|
+|switch|p2a: Hitmonlee|Hitmonlee, L90|125\/273
+|turn|20
+|choice|move 1|move 1
+|
+|move|p1a: Meowth|Slash|p2a: Hitmonlee
+|-crit|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|0 fnt
+|faint|p2a: Hitmonlee
+|
+|win|katje eet vis
+|c|★katje eet vis|gg
+|c|★Czapper|yeh
+|raw|katje eet vis's rating: 1295 &rarr; <strong>1313<\/strong><br \/>(+18 for winning)
+|raw|Czapper's rating: 1192 &rarr; <strong>1174<\/strong><br \/>(-18 for losing)
+|leave|Czapper
+|player|p2

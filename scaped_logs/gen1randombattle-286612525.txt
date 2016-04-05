@@ -1,0 +1,330 @@
+﻿|join|Azawa
+|join|Dervodel
+|player|p1|Azawa|2
+|player|p2|Dervodel|238
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|46691,40720,60173,47448
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Onix|Onix, L90|246\/246
+|switch|p2a: Clefairy|Clefairy, L95|326\/326
+|turn|1
+|choice|move 4|move 1
+|
+|move|p1a: Onix|Earthquake|p2a: Clefairy
+|-damage|p2a: Clefairy|228\/326
+|move|p2a: Clefairy|Counter|p1a: Onix
+|-fail|p2a: Clefairy
+|
+|turn|2
+|choice|move 1|switch 6
+|
+|switch|p2a: Vileplume|Vileplume, L90|318\/318
+|move|p1a: Onix|Toxic|p2a: Vileplume
+|
+|turn|3
+|choice|switch 6|move 4
+|
+|switch|p1a: Parasect|Parasect, L90|291\/291
+|move|p2a: Vileplume|Mega Drain|p1a: Parasect
+|-resisted|p1a: Parasect
+|-damage|p1a: Parasect|280\/291
+|
+|turn|4
+|choice|move 4|move 2
+|
+|move|p2a: Vileplume|Sleep Powder|p1a: Parasect
+|-status|p1a: Parasect|slp
+|cant|p1a: Parasect|slp
+|
+|turn|5
+|choice|switch 3|move 1
+|
+|switch|p1a: Psyduck|Psyduck, L96|291\/291
+|move|p2a: Vileplume|Swords Dance|p2a: Vileplume
+|-boost|p2a: Vileplume|atk|2
+|
+|turn|6
+|choice|move 3|move 4
+|
+|move|p1a: Psyduck|Blizzard|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|201\/318
+|move|p2a: Vileplume|Mega Drain|p1a: Psyduck
+|-supereffective|p1a: Psyduck
+|-damage|p1a: Psyduck|166\/291
+|-heal|p2a: Vileplume|263\/318|[from] drain|[of] p1a: Psyduck
+|
+|turn|7
+|choice|move 3|move 4
+|
+|move|p1a: Psyduck|Blizzard|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|130\/318
+|move|p2a: Vileplume|Mega Drain|p1a: Psyduck
+|-supereffective|p1a: Psyduck
+|-damage|p1a: Psyduck|44\/291
+|-heal|p2a: Vileplume|191\/318|[from] drain|[of] p1a: Psyduck
+|
+|turn|8
+|choice|move 3|move 4
+|
+|move|p1a: Psyduck|Blizzard|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|58\/318
+|move|p2a: Vileplume|Mega Drain|p1a: Psyduck
+|-supereffective|p1a: Psyduck
+|-damage|p1a: Psyduck|0 fnt
+|-heal|p2a: Vileplume|80\/318|[from] drain|[of] p1a: Psyduck
+|faint|p1a: Psyduck
+|choice|switch 6|
+|
+|switch|p1a: Onix|Onix, L90|246\/246
+|turn|9
+|choice|move 4|move 4
+|
+|move|p1a: Onix|Earthquake|p2a: Vileplume
+|-damage|p2a: Vileplume|4\/318
+|move|p2a: Vileplume|Mega Drain|p1a: Onix
+|-supereffective|p1a: Onix
+|-damage|p1a: Onix|0 fnt
+|-heal|p2a: Vileplume|127\/318|[from] drain|[of] p1a: Onix
+|faint|p1a: Onix
+|choice|switch 4|
+|
+|switch|p1a: Ditto|Ditto, L99|296\/296
+|turn|10
+|choice|move 1|move 3
+|
+|move|p1a: Ditto|Transform|p2a: Vileplume
+|-transform|p1a: Ditto|p2a: Vileplume
+|move|p2a: Vileplume|Body Slam|p1a: Ditto
+|-damage|p1a: Ditto|155\/296
+|
+|turn|11
+|choice|move 3|move 3
+|
+|move|p1a: Ditto|Body Slam|p2a: Vileplume
+|-damage|p2a: Vileplume|71\/318
+|move|p2a: Vileplume|Body Slam|p1a: Ditto
+|-damage|p1a: Ditto|6\/296
+|-status|p1a: Ditto|par
+|
+|turn|12
+|choice|move 3|move 4
+|
+|move|p2a: Vileplume|Mega Drain|p1a: Ditto
+|-resisted|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|-heal|p2a: Vileplume|74\/318|[from] drain|[of] p1a: Ditto
+|faint|p1a: Ditto
+|choice|switch 5|
+|
+|switch|p1a: Omastar|Omastar, L90|309\/309
+|turn|13
+|choice|move 1|move 4
+|
+|move|p1a: Omastar|Blizzard|p2a: Vileplume|[miss]
+|-miss|p1a: Omastar
+|move|p2a: Vileplume|Mega Drain|p1a: Omastar
+|-supereffective|p1a: Omastar
+|-damage|p1a: Omastar|152\/309
+|-heal|p2a: Vileplume|152\/318|[from] drain|[of] p1a: Omastar
+|
+|turn|14
+|choice|move 1|move 4
+|
+|move|p1a: Omastar|Blizzard|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|choice||switch 3
+|
+|switch|p2a: Electabuzz|Electabuzz, L85|284\/284
+|turn|15
+|choice|switch 2|move 4
+|
+|switch|p1a: Magnemite|Magnemite, L96|243\/243
+|move|p2a: Electabuzz|Thunderbolt|p1a: Magnemite
+|-resisted|p1a: Magnemite
+|-damage|p1a: Magnemite|203\/243
+|
+|turn|16
+|choice|move 3|move 1
+|
+|move|p2a: Electabuzz|Thunder Wave|p1a: Magnemite
+|-status|p1a: Magnemite|par
+|move|p1a: Magnemite|Thunder Wave|p2a: Electabuzz
+|-status|p2a: Electabuzz|par
+|
+|turn|17
+|choice|switch 3|move 3
+|
+|switch|p1a: Parasect|Parasect, L90|280\/291 slp
+|move|p2a: Electabuzz|Seismic Toss|p1a: Parasect
+|-damage|p1a: Parasect|195\/291 slp
+|
+|turn|18
+|choice|move 2|switch 5
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|293\/293
+|-curestatus|p1a: Parasect|slp
+|
+|turn|19
+|choice|move 1|move 2
+|
+|move|p2a: Mewtwo|Blizzard|p1a: Parasect|[miss]
+|-miss|p2a: Mewtwo
+|move|p1a: Parasect|Body Slam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|214\/293
+|
+|turn|20
+|choice|switch 2|move 2
+|
+|switch|p1a: Omastar|Omastar, L90|152\/309
+|move|p2a: Mewtwo|Blizzard|p1a: Omastar
+|-resisted|p1a: Omastar
+|-damage|p1a: Omastar|120\/309
+|
+|turn|21
+|choice|move 1|move 4
+|
+|move|p2a: Mewtwo|Thunderbolt|p1a: Omastar
+|-crit|p1a: Omastar
+|-supereffective|p1a: Omastar
+|-damage|p1a: Omastar|0 fnt
+|faint|p1a: Omastar
+|choice|switch 3|
+|
+|switch|p1a: Magnemite|Magnemite, L96|203\/243 par
+|turn|22
+|choice|move 4|switch 5
+|
+|switch|p2a: Electabuzz|Electabuzz, L85|284\/284 par
+|move|p1a: Magnemite|Thunder|p2a: Electabuzz
+|-resisted|p2a: Electabuzz
+|-damage|p2a: Electabuzz|210\/284 par
+|
+|turn|23
+|choice|switch 2|move 3
+|
+|switch|p1a: Parasect|Parasect, L90|195\/291
+|move|p2a: Electabuzz|Seismic Toss|p1a: Parasect
+|-damage|p1a: Parasect|110\/291
+|
+|turn|24
+|choice|move 1|move 1
+|
+|move|p1a: Parasect|Body Slam|p2a: Electabuzz
+|-damage|p2a: Electabuzz|128\/284 par
+|move|p2a: Electabuzz|Thunder Wave|p1a: Parasect
+|-status|p1a: Parasect|par
+|
+|turn|25
+|choice|move 1|move 2
+|
+|move|p2a: Electabuzz|Psychic|p1a: Parasect
+|-damage|p1a: Parasect|48\/291 par
+|move|p1a: Parasect|Body Slam|p2a: Electabuzz
+|-damage|p2a: Electabuzz|48\/284 par
+|
+|turn|26
+|choice|move 1|move 3
+|
+|move|p2a: Electabuzz|Seismic Toss|p1a: Parasect
+|-damage|p1a: Parasect|0 fnt
+|faint|p1a: Parasect
+|c|★Dervodel|gg
+|choice|switch 2|
+|
+|switch|p1a: Magnemite|Magnemite, L96|203\/243 par
+|turn|27
+|c|★Azawa|gg
+|choice|move 4|move 3
+|
+|cant|p2a: Electabuzz|par
+|move|p1a: Magnemite|Thunder|p2a: Electabuzz|[miss]
+|-miss|p1a: Magnemite
+|
+|turn|28
+|choice|move 4|move 3
+|
+|cant|p2a: Electabuzz|par
+|move|p1a: Magnemite|Thunder|p2a: Electabuzz
+|-resisted|p2a: Electabuzz
+|-damage|p2a: Electabuzz|0 fnt
+|faint|p2a: Electabuzz
+|choice||switch 6
+|
+|switch|p2a: Clefairy|Clefairy, L95|228\/326
+|turn|29
+|choice|move 4|move 3
+|
+|move|p2a: Clefairy|Sing|p1a: Magnemite|[miss]
+|-miss|p2a: Clefairy
+|move|p1a: Magnemite|Thunder|p2a: Clefairy
+|-damage|p2a: Clefairy|59\/326
+|
+|turn|30
+|choice|move 2|move 4
+|
+|move|p2a: Clefairy|Metronome|p2a: Clefairy
+|move|p2a: Clefairy|Rest|p2a: Clefairy|[from]Metronome
+|-status|p2a: Clefairy|slp
+|-heal|p2a: Clefairy|326\/326 slp|[silent]
+|-status|p2a: Clefairy|slp|[from] move: Rest
+|cant|p1a: Magnemite|par
+|
+|turn|31
+|c|★Dervodel|lol
+|choice|move 4|move 4
+|
+|cant|p2a: Clefairy|slp
+|move|p1a: Magnemite|Thunder|p2a: Clefairy
+|-damage|p2a: Clefairy|136\/326 slp
+|
+|turn|32
+|choice|move 4|move 4
+|
+|-curestatus|p2a: Clefairy|slp
+|move|p1a: Magnemite|Thunder|p2a: Clefairy
+|-damage|p2a: Clefairy|0 fnt
+|faint|p2a: Clefairy
+|choice||switch 2
+|
+|switch|p2a: Ninetales|Ninetales, L85|298\/298
+|turn|33
+|choice|move 4|move 3
+|
+|move|p2a: Ninetales|Confuse Ray|p1a: Magnemite
+|-start|p1a: Magnemite|confusion
+|-activate|p1a: Magnemite|confusion
+|-damage|p1a: Magnemite|179\/243 par|[from] confusion
+|
+|turn|34
+|choice|move 4|move 1
+|
+|move|p2a: Ninetales|Fire Blast|p1a: Magnemite
+|-damage|p1a: Magnemite|64\/243 par
+|-activate|p1a: Magnemite|confusion
+|move|p1a: Magnemite|Thunder|p2a: Ninetales
+|-damage|p2a: Ninetales|146\/298
+|
+|turn|35
+|choice|move 4|move 4
+|
+|move|p2a: Ninetales|Body Slam|p1a: Magnemite
+|-damage|p1a: Magnemite|8\/243 par
+|-activate|p1a: Magnemite|confusion
+|-damage|p1a: Magnemite|0 fnt|[from] confusion
+|faint|p1a: Magnemite
+|
+|win|Dervodel
+|raw|Azawa's rating: 1167 &rarr; <strong>1156<\/strong><br \/>(-11 for losing)
+|raw|Dervodel's rating: 1374 &rarr; <strong>1384<\/strong><br \/>(+10 for winning)

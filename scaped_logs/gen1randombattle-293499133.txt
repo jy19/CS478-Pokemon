@@ -1,0 +1,121 @@
+﻿|join|RoonGamer
+|join|yaldyyyy
+|player|p1|RoonGamer|102
+|player|p2|yaldyyyy|170
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|2605,52112,55980,13800
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Staryu|Staryu, L90|237\/237
+|switch|p2a: Venomoth|Venomoth, L85|293\/293
+|turn|1
+|choice|move 3|move 4
+|
+|move|p1a: Staryu|Thunder Wave|p2a: Venomoth
+|-status|p2a: Venomoth|par
+|move|p2a: Venomoth|Sleep Powder|p1a: Staryu
+|-status|p1a: Staryu|slp
+|
+|turn|2
+|choice|switch 5|move 3
+|
+|switch|p1a: Mewtwo|Mewtwo, L68|285\/285
+|cant|p2a: Venomoth|par
+|
+|turn|3
+|choice|move 4|switch 2
+|
+|switch|p2a: Horsea|Horsea, L96|252\/252
+|move|p1a: Mewtwo|Amnesia|p1a: Mewtwo
+|-boost|p1a: Mewtwo|spd|2
+|-boost|p1a: Mewtwo|spa|2
+|
+|turn|4
+|c|★yaldyyyy|Ffs
+|choice|move 1|move 4
+|
+|move|p1a: Mewtwo|Psychic|p2a: Horsea
+|-damage|p2a: Horsea|86\/252
+|move|p2a: Horsea|Blizzard|p1a: Mewtwo
+|-damage|p1a: Mewtwo|250\/285
+|
+|turn|5
+|choice|move 1|move 4
+|
+|move|p1a: Mewtwo|Psychic|p2a: Horsea
+|-damage|p2a: Horsea|0 fnt
+|faint|p2a: Horsea
+|choice||switch 3
+|
+|switch|p2a: Dewgong|Dewgong, L85|327\/327
+|turn|6
+|choice|move 4|move 2
+|
+|move|p1a: Mewtwo|Amnesia|p1a: Mewtwo
+|-boost|p1a: Mewtwo|spd|2
+|-boost|p1a: Mewtwo|spa|2
+|move|p2a: Dewgong|Blizzard|p1a: Mewtwo
+|-damage|p1a: Mewtwo|216\/285
+|-status|p1a: Mewtwo|frz
+|
+|turn|7
+|choice|move 4|move 1
+|
+|cant|p1a: Mewtwo|frz
+|move|p2a: Dewgong|Mimic|p1a: Mewtwo
+|-start|p2a: Dewgong|Mimic|Blizzard
+|
+|turn|8
+|choice|move 4|move 2
+|
+|cant|p1a: Mewtwo|frz
+|move|p2a: Dewgong|Blizzard|p1a: Mewtwo
+|-damage|p1a: Mewtwo|182\/285 frz
+|
+|turn|9
+|choice|move 4|move 4
+|
+|cant|p1a: Mewtwo|frz
+|move|p2a: Dewgong|Body Slam|p1a: Mewtwo
+|-damage|p1a: Mewtwo|121\/285 frz
+|
+|turn|10
+|choice|move 3|move 4
+|
+|cant|p1a: Mewtwo|frz
+|move|p2a: Dewgong|Body Slam|p1a: Mewtwo
+|-damage|p1a: Mewtwo|56\/285 frz
+|
+|turn|11
+|c|★RoonGamer|Hi
+|choice|move 3|move 4
+|
+|cant|p1a: Mewtwo|frz
+|move|p2a: Dewgong|Body Slam|p1a: Mewtwo
+|-damage|p1a: Mewtwo|0 fnt
+|faint|p1a: Mewtwo
+|choice|switch 2|
+|
+|switch|p1a: Golduck|Golduck, L85|310\/310
+|turn|12
+|choice|move 1|move 4
+|
+|move|p1a: Golduck|Amnesia|p1a: Golduck
+|-boost|p1a: Golduck|spd|2
+|-boost|p1a: Golduck|spa|2
+|move|p2a: Dewgong|Body Slam|p1a: Golduck
+|-damage|p1a: Golduck|260\/310
+|-status|p1a: Golduck|par
+|
+|turn|13
+|-message|RoonGamer forfeited.
+|
+|win|yaldyyyy
+|leave|RoonGamer
+|player|p1

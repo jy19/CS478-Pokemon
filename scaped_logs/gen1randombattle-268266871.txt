@@ -1,0 +1,268 @@
+﻿|join|qweerrtyuu
+|join|LibertarianMaster
+|player|p1|qweerrtyuu|1
+|player|p2|LibertarianMaster|266
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Poliwrath|Poliwrath, L85|327\/327
+|switch|p2a: Persian|Persian, L79|265\/265
+|turn|1
+|c|★LibertarianMaster|glhf
+|
+|move|p2a: Persian|Thunderbolt|p1a: Poliwrath
+|-supereffective|p1a: Poliwrath
+|-damage|p1a: Poliwrath|216\/327
+|move|p1a: Poliwrath|Surf|p2a: Persian
+|-damage|p2a: Persian|151\/265
+|
+|turn|2
+|
+|switch|p1a: Pikachu|Pikachu, L96|262\/262
+|move|p2a: Persian|Thunderbolt|p1a: Pikachu
+|-resisted|p1a: Pikachu
+|-damage|p1a: Pikachu|235\/262
+|
+|turn|3
+|
+|move|p1a: Pikachu|Thunder|p2a: Persian
+|-damage|p2a: Persian|3\/265
+|move|p2a: Persian|Slash|p1a: Pikachu
+|-crit|p1a: Pikachu
+|-damage|p1a: Pikachu|75\/262
+|
+|turn|4
+|
+|switch|p2a: Sandslash|Sandslash, L85|301\/301
+|move|p1a: Pikachu|Surf|p2a: Sandslash
+|-supereffective|p2a: Sandslash
+|-damage|p2a: Sandslash|160\/301
+|
+|turn|5
+|
+|switch|p1a: Mew|Mew, L74|300\/300
+|switch|p2a: Oddish|Oddish, L96|281\/281
+|
+|turn|6
+|
+|move|p1a: Mew|Blizzard|p2a: Oddish|[miss]
+|-miss|p1a: Mew
+|move|p2a: Oddish|Sleep Powder|p1a: Mew
+|-status|p1a: Mew|slp
+|
+|turn|7
+|
+|switch|p2a: Persian|Persian, L79|3\/265
+|-curestatus|p1a: Mew|slp
+|
+|turn|8
+|
+|move|p2a: Persian|Slash|p1a: Mew
+|-crit|p1a: Mew
+|-damage|p1a: Mew|199\/300
+|move|p1a: Mew|Thunderbolt|p2a: Persian
+|-crit|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|faint|p2a: Persian
+|
+|switch|p2a: Mr. Mime|Mr. Mime, L85|242\/242
+|turn|9
+|
+|move|p2a: Mr. Mime|Thunder Wave|p1a: Mew
+|-status|p1a: Mew|par
+|cant|p1a: Mew|par
+|
+|turn|10
+|
+|switch|p1a: Arcanine|Arcanine, L85|327\/327
+|move|p2a: Mr. Mime|Thunderbolt|p1a: Arcanine
+|-damage|p1a: Arcanine|257\/327
+|
+|turn|11
+|
+|switch|p2a: Magmar|Magmar, L90|300\/300
+|move|p1a: Arcanine|Hyper Beam|p2a: Magmar
+|-crit|p2a: Magmar
+|-damage|p2a: Magmar|24\/300
+|
+|turn|12
+|-mustrecharge|p1a: Arcanine
+|-mustrecharge|p1a: Arcanine
+|
+|move|p2a: Magmar|Body Slam|p1a: Arcanine
+|-damage|p1a: Arcanine|181\/327
+|-status|p1a: Arcanine|par
+|cant|p1a: Arcanine|recharge
+|
+|turn|13
+|
+|switch|p1a: Poliwrath|Poliwrath, L85|216\/327
+|move|p2a: Magmar|Body Slam|p1a: Poliwrath
+|-damage|p1a: Poliwrath|150\/327
+|
+|turn|14
+|
+|move|p2a: Magmar|Confuse Ray|p1a: Poliwrath
+|-start|p1a: Poliwrath|confusion
+|-activate|p1a: Poliwrath|confusion
+|-damage|p1a: Poliwrath|122\/327|[from] confusion
+|
+|turn|15
+|
+|switch|p1a: Mew|Mew, L74|199\/300 par
+|move|p2a: Magmar|Body Slam|p1a: Mew
+|-damage|p1a: Mew|134\/300 par
+|
+|turn|16
+|
+|move|p2a: Magmar|Fire Blast|p1a: Mew|[miss]
+|-miss|p2a: Magmar
+|move|p1a: Mew|Thunderbolt|p2a: Magmar
+|-damage|p2a: Magmar|0 fnt
+|faint|p2a: Magmar
+|
+|switch|p2a: Mr. Mime|Mr. Mime, L85|242\/242
+|turn|17
+|
+|move|p2a: Mr. Mime|Thunderbolt|p1a: Mew
+|-damage|p1a: Mew|65\/300 par
+|cant|p1a: Mew|par
+|
+|turn|18
+|
+|switch|p1a: Arcanine|Arcanine, L85|181\/327 par
+|move|p2a: Mr. Mime|Thunderbolt|p1a: Arcanine
+|-damage|p1a: Arcanine|110\/327 par
+|
+|turn|19
+|
+|move|p2a: Mr. Mime|Psychic|p1a: Arcanine
+|-damage|p1a: Arcanine|3\/327 par
+|move|p1a: Arcanine|Hyper Beam|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|110\/242
+|
+|turn|20
+|-mustrecharge|p1a: Arcanine
+|-mustrecharge|p1a: Arcanine
+|
+|move|p2a: Mr. Mime|Seismic Toss|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|switch|p1a: Beedrill|Beedrill, L90|300\/300
+|turn|21
+|
+|move|p2a: Mr. Mime|Psychic|p1a: Beedrill
+|-supereffective|p1a: Beedrill
+|-damage|p1a: Beedrill|47\/300
+|move|p1a: Beedrill|Hyper Beam|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|0 fnt
+|faint|p2a: Mr. Mime
+|
+|switch|p2a: Sandslash|Sandslash, L85|160\/301
+|turn|22
+|
+|move|p1a: Beedrill|Hyper Beam|p2a: Sandslash|[miss]
+|-miss|p1a: Beedrill
+|move|p2a: Sandslash|Earthquake|p1a: Beedrill
+|-crit|p1a: Beedrill
+|-damage|p1a: Beedrill|0 fnt
+|faint|p1a: Beedrill
+|
+|switch|p1a: Pidgeotto|Pidgeotto, L90|297\/297
+|turn|23
+|
+|move|p1a: Pidgeotto|Double-Edge|p2a: Sandslash
+|-damage|p2a: Sandslash|80\/301
+|-damage|p1a: Pidgeotto|277\/297|[from] recoil|[of] p2a: Sandslash
+|move|p2a: Sandslash|Swords Dance|p2a: Sandslash
+|-boost|p2a: Sandslash|atk|2
+|
+|turn|24
+|
+|move|p1a: Pidgeotto|Double-Edge|p2a: Sandslash
+|-damage|p2a: Sandslash|0 fnt
+|-damage|p1a: Pidgeotto|257\/297|[from] recoil|[of] p2a: Sandslash
+|faint|p2a: Sandslash
+|
+|switch|p2a: Vaporeon|Vaporeon, L85|395\/395
+|turn|25
+|
+|move|p1a: Pidgeotto|Double-Edge|p2a: Vaporeon
+|-damage|p2a: Vaporeon|285\/395
+|-damage|p1a: Pidgeotto|230\/297|[from] recoil|[of] p2a: Vaporeon
+|move|p2a: Vaporeon|Blizzard|p1a: Pidgeotto
+|-supereffective|p1a: Pidgeotto
+|-damage|p1a: Pidgeotto|0 fnt
+|faint|p1a: Pidgeotto
+|
+|switch|p1a: Poliwrath|Poliwrath, L85|122\/327
+|turn|26
+|
+|move|p1a: Poliwrath|Submission|p2a: Vaporeon|[miss]
+|-miss|p1a: Poliwrath
+|move|p2a: Vaporeon|Body Slam|p1a: Poliwrath
+|-damage|p1a: Poliwrath|76\/327
+|
+|turn|27
+|
+|move|p1a: Poliwrath|Surf|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|248\/395
+|move|p2a: Vaporeon|Body Slam|p1a: Poliwrath
+|-damage|p1a: Poliwrath|33\/327
+|-status|p1a: Poliwrath|par
+|
+|turn|28
+|
+|switch|p1a: Mew|Mew, L74|65\/300 par
+|move|p2a: Vaporeon|Body Slam|p1a: Mew
+|-damage|p1a: Mew|18\/300 par
+|
+|turn|29
+|
+|move|p2a: Vaporeon|Body Slam|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|switch|p1a: Pikachu|Pikachu, L96|75\/262
+|turn|30
+|
+|switch|p2a: Oddish|Oddish, L96|281\/281
+|move|p1a: Pikachu|Thunder|p2a: Oddish
+|-resisted|p2a: Oddish
+|-damage|p2a: Oddish|230\/281
+|
+|turn|31
+|
+|move|p1a: Pikachu|Thunder|p2a: Oddish
+|-resisted|p2a: Oddish
+|-damage|p2a: Oddish|176\/281
+|-status|p2a: Oddish|par
+|move|p2a: Oddish|Double-Edge|p1a: Pikachu
+|-damage|p1a: Pikachu|0 fnt
+|-damage|p2a: Oddish|158\/281 par|[from] recoil|[of] p1a: Pikachu
+|faint|p1a: Pikachu
+|
+|switch|p1a: Poliwrath|Poliwrath, L85|33\/327 par
+|turn|32
+|c|★LibertarianMaster|gg
+|
+|cant|p1a: Poliwrath|par
+|move|p2a: Oddish|Double-Edge|p1a: Poliwrath
+|-damage|p1a: Poliwrath|0 fnt
+|-damage|p2a: Oddish|150\/281 par|[from] recoil|[of] p1a: Poliwrath
+|faint|p1a: Poliwrath
+|
+|win|LibertarianMaster
+|raw|qweerrtyuu's rating: 1110 &rarr; <strong>1094<\/strong><br \/>(-16 for losing)
+|raw|LibertarianMaster's rating: 1234 &rarr; <strong>1250<\/strong><br \/>(+16 for winning)
+|leave|LibertarianMaster
+|player|p2
+|join|rico92

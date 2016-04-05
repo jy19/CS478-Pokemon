@@ -1,0 +1,285 @@
+﻿|j|yaldyyyy
+|j|MALESANI
+|player|p1|yaldyyyy|30
+|player|p2|MALESANI|238
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|38858,47879,28868,16300
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Wartortle|Wartortle, L85|274\/274
+|switch|p2a: Poliwhirl|Poliwhirl, L85|284\/284
+|turn|1
+|choice|switch 4|move 2
+|
+|switch|p1a: Jynx|Jynx, L79|265\/265
+|move|p2a: Poliwhirl|Hypnosis|p1a: Jynx|[miss]
+|-miss|p2a: Poliwhirl
+|
+|turn|2
+|c|★yaldyyyy|sorry friend
+|c|★MALESANI|no problem!
+|choice|switch 2|move 2
+|
+|switch|p1a: Pidgeot|Pidgeot, L90|333\/333
+|move|p2a: Poliwhirl|Hypnosis|p1a: Pidgeot
+|-status|p1a: Pidgeot|slp
+|
+|turn|3
+|choice|switch 2|move 1
+|
+|switch|p1a: Jynx|Jynx, L79|265\/265
+|move|p2a: Poliwhirl|Amnesia|p2a: Poliwhirl
+|-boost|p2a: Poliwhirl|spd|2
+|-boost|p2a: Poliwhirl|spa|2
+|
+|turn|4
+|choice|move 3|move 3
+|
+|move|p2a: Poliwhirl|Blizzard|p1a: Jynx
+|-crit|p1a: Jynx
+|-resisted|p1a: Jynx
+|-damage|p1a: Jynx|204\/265
+|move|p1a: Jynx|Lovely Kiss|p2a: Poliwhirl
+|-status|p2a: Poliwhirl|slp
+|
+|turn|5
+|choice|move 4|move 4
+|
+|cant|p2a: Poliwhirl|slp
+|move|p1a: Jynx|Mimic|p2a: Poliwhirl
+|-start|p1a: Jynx|Mimic|Blizzard
+|
+|turn|6
+|choice|move 2|move 4
+|
+|cant|p2a: Poliwhirl|slp
+|move|p1a: Jynx|Psychic|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|230\/284 slp
+|
+|turn|7
+|choice|move 2|move 4
+|
+|cant|p2a: Poliwhirl|slp
+|move|p1a: Jynx|Psychic|p2a: Poliwhirl
+|-crit|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|25\/284 slp
+|
+|turn|8
+|choice|move 2|switch 6
+|
+|switch|p2a: Arcanine|Arcanine, L85|327\/327
+|move|p1a: Jynx|Psychic|p2a: Arcanine
+|-damage|p2a: Arcanine|236\/327
+|
+|turn|9
+|choice|switch 4|move 4
+|
+|switch|p1a: Wartortle|Wartortle, L85|274\/274
+|move|p2a: Arcanine|Fire Blast|p1a: Wartortle
+|-crit|p1a: Wartortle
+|-resisted|p1a: Wartortle
+|-damage|p1a: Wartortle|151\/274
+|
+|turn|10
+|choice|move 2|move 2
+|
+|move|p2a: Arcanine|Hyper Beam|p1a: Wartortle
+|-damage|p1a: Wartortle|30\/274
+|move|p1a: Wartortle|Hydro Pump|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|6\/327
+|
+|turn|11
+|-mustrecharge|p2a: Arcanine
+|-mustrecharge|p2a: Arcanine
+|choice|move 4|move 1
+|
+|cant|p2a: Arcanine|recharge
+|move|p1a: Wartortle|Body Slam|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|choice||switch 2
+|
+|switch|p2a: Aerodactyl|Aerodactyl, L90|327\/327
+|turn|12
+|choice|move 3|move 3
+|
+|move|p2a: Aerodactyl|Double-Edge|p1a: Wartortle
+|-damage|p1a: Wartortle|0 fnt
+|-damage|p2a: Aerodactyl|320\/327|[from] recoil|[of] p1a: Wartortle
+|faint|p1a: Wartortle
+|choice|switch 5|
+|
+|switch|p1a: Jolteon|Jolteon, L79|265\/265
+|turn|13
+|choice|move 1|switch 6
+|
+|switch|p2a: Poliwhirl|Poliwhirl, L85|25\/284 slp
+|move|p1a: Jolteon|Thunderbolt|p2a: Poliwhirl
+|-supereffective|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|0 fnt
+|faint|p2a: Poliwhirl
+|choice||switch 4
+|
+|switch|p2a: Venomoth|Venomoth, L85|293\/293
+|turn|14
+|choice|switch 6|move 1
+|
+|switch|p1a: Muk|Muk, L90|372\/372
+|move|p2a: Venomoth|Stun Spore|p1a: Muk
+|-status|p1a: Muk|par
+|
+|turn|15
+|choice|move 1|move 4
+|
+|move|p2a: Venomoth|Psychic|p1a: Muk
+|-supereffective|p1a: Muk
+|-damage|p1a: Muk|238\/372 par
+|move|p1a: Muk|Explosion|p2a: Venomoth|[miss]
+|-miss|p1a: Muk
+|faint|p1a: Muk
+|c|★yaldyyyy|what the actual fuck
+|choice|switch 4|
+|
+|switch|p1a: Jynx|Jynx, L79|204\/265
+|turn|16
+|choice|move 2|move 1
+|
+|move|p2a: Venomoth|Stun Spore|p1a: Jynx
+|-status|p1a: Jynx|par
+|move|p1a: Jynx|Psychic|p2a: Venomoth
+|-supereffective|p2a: Venomoth
+|-damage|p2a: Venomoth|131\/293
+|-unboost|p2a: Venomoth|spd|1
+|-unboost|p2a: Venomoth|spa|1
+|
+|turn|17
+|choice|move 2|move 3
+|
+|move|p2a: Venomoth|Mega Drain|p1a: Jynx
+|-damage|p1a: Jynx|186\/265 par
+|-heal|p2a: Venomoth|140\/293|[from] drain|[of] p1a: Jynx
+|move|p1a: Jynx|Psychic|p2a: Venomoth
+|-supereffective|p2a: Venomoth
+|-damage|p2a: Venomoth|0 fnt
+|faint|p2a: Venomoth
+|choice||switch 5
+|
+|switch|p2a: Zapdos|Zapdos, L79|304\/304
+|turn|18
+|choice|move 1|move 4
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Jynx
+|-damage|p1a: Jynx|84\/265 par
+|cant|p1a: Jynx|par
+|
+|turn|19
+|choice|switch 3|move 4
+|
+|switch|p1a: Onix|Onix, L90|246\/246
+|move|p2a: Zapdos|Thunderbolt|p1a: Onix
+|-immune|p1a: Onix|[msg]
+|
+|turn|20
+|choice|move 2|switch 3
+|
+|switch|p2a: Primeape|Primeape, L90|300\/300
+|move|p1a: Onix|Rock Slide|p2a: Primeape
+|-resisted|p2a: Primeape
+|-damage|p2a: Primeape|268\/300
+|
+|turn|21
+|choice|switch 6|move 3
+|
+|switch|p1a: Jolteon|Jolteon, L79|265\/265
+|move|p2a: Primeape|Submission|p1a: Jolteon
+|-damage|p1a: Jolteon|130\/265
+|-damage|p2a: Primeape|235\/300|[from] recoil|[of] p1a: Jolteon
+|
+|turn|22
+|choice|move 3|move 3
+|
+|move|p1a: Jolteon|Thunder Wave|p2a: Primeape
+|-status|p2a: Primeape|par
+|cant|p2a: Primeape|par
+|
+|turn|23
+|choice|switch 2|move 3
+|
+|switch|p1a: Pidgeot|Pidgeot, L90|333\/333 slp
+|move|p2a: Primeape|Submission|p1a: Pidgeot
+|-damage|p1a: Pidgeot|221\/333 slp
+|-damage|p2a: Primeape|207\/300 par|[from] recoil|[of] p1a: Pidgeot
+|
+|turn|24
+|choice|move 2|move 4
+|
+|cant|p1a: Pidgeot|slp
+|move|p2a: Primeape|Rock Slide|p1a: Pidgeot
+|-supereffective|p1a: Pidgeot
+|-damage|p1a: Pidgeot|81\/333 slp
+|
+|turn|25
+|choice|move 1|move 2
+|
+|cant|p1a: Pidgeot|slp
+|move|p2a: Primeape|Body Slam|p1a: Pidgeot
+|-damage|p1a: Pidgeot|1\/333 slp
+|
+|turn|26
+|choice|move 1|move 2
+|
+|cant|p1a: Pidgeot|slp
+|move|p2a: Primeape|Body Slam|p1a: Pidgeot
+|-damage|p1a: Pidgeot|0 fnt
+|faint|p1a: Pidgeot
+|choice|switch 6|
+|
+|switch|p1a: Onix|Onix, L90|246\/246
+|turn|27
+|choice|move 4|move 3
+|
+|move|p1a: Onix|Explosion|p2a: Primeape
+|-damage|p2a: Primeape|5\/300 par
+|faint|p1a: Onix
+|choice|switch 2|
+|
+|switch|p1a: Jolteon|Jolteon, L79|130\/265
+|turn|28
+|choice|move 1|move 2
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Primeape
+|-damage|p2a: Primeape|0 fnt
+|faint|p2a: Primeape
+|choice||switch 6
+|
+|switch|p2a: Aerodactyl|Aerodactyl, L90|320\/327
+|turn|29
+|choice|move 1|move 4
+|
+|move|p2a: Aerodactyl|Hyper Beam|p1a: Jolteon
+|-crit|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|choice|switch 3|
+|
+|switch|p1a: Jynx|Jynx, L79|84\/265 par
+|turn|30
+|choice|move 3|move 4
+|
+|move|p2a: Aerodactyl|Hyper Beam|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|
+|win|MALESANI
+|player|p1
+|player|p2
+|raw|yaldyyyy's rating: 1196 &rarr; <strong>1186<\/strong><br \/>(-10 for losing)
+|raw|MALESANI's rating: 1436 &rarr; <strong>1444<\/strong><br \/>(+8 for winning)
+|l|yaldyyyy

@@ -1,0 +1,226 @@
+﻿|J|smurfer
+|J|Dice
+|player|p1|smurfer|164
+|player|p2|Dice|2
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|seed|2583,48742,46746,50829
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Dugtrio|Dugtrio, M|273\/273
+|switch|p2a: Starmie|Starmie|323\/323
+|turn|1
+|J|zoroarkforever
+|J|Starmei
+|J|BKC
+|L|Starmei
+|J|Calloflochie
+|choice|switch 6|move 2
+|
+|switch|p1a: Exeggutor|Exeggutor, M|393\/393
+|move|p2a: Starmie|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|226\/393
+|
+|turn|2
+|J|Omfuga
+|J|Bloody alfa
+|J|aimless oo
+|L|aimless oo
+|J|dash spam
+|choice|move 2|move 2
+|
+|move|p2a: Starmie|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|72\/393
+|move|p1a: Exeggutor|Sleep Powder|p2a: Starmie
+|-status|p2a: Starmie|slp
+|
+|turn|3
+|J|Mr.378
+|choice|move 4|move 1
+|
+|cant|p2a: Starmie|slp
+|move|p1a: Exeggutor|Egg Bomb|p2a: Starmie|[miss]
+|-miss|p1a: Exeggutor
+|
+|turn|4
+|choice|move 1|move 2
+|
+|cant|p2a: Starmie|slp
+|move|p1a: Exeggutor|Explosion|p2a: Starmie
+|-damage|p2a: Starmie|55\/323 slp
+|faint|p1a: Exeggutor
+|J|MegaStarUniverse
+|L|MegaStarUniverse
+|choice|switch 6|
+|
+|switch|p1a: Dugtrio|Dugtrio, M|273\/273
+|turn|5
+|choice|move 2|switch 5
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Dugtrio|Slash|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-damage|p2a: Exeggutor|293\/393
+|
+|turn|6
+|choice|move 3|move 3
+|
+|move|p1a: Dugtrio|Substitute|p1a: Dugtrio
+|-start|p1a: Dugtrio|Substitute
+|-damage|p1a: Dugtrio|205\/273
+|move|p2a: Exeggutor|Sleep Powder|p1a: Dugtrio|[miss]
+|-miss|p2a: Exeggutor
+|
+|turn|7
+|choice|move 4|move 3
+|
+|move|p1a: Dugtrio|Sand Attack|p2a: Exeggutor
+|-unboost|p2a: Exeggutor|accuracy|1
+|move|p2a: Exeggutor|Sleep Powder|p1a: Dugtrio
+|-status|p1a: Dugtrio|slp
+|
+|turn|8
+|c|★smurfer|wtf
+|choice|move 2|switch 4
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|cant|p1a: Dugtrio|slp
+|
+|turn|9
+|choice|switch 2|move 1
+|
+|switch|p1a: Cloyster|Cloyster, M|303\/303
+|move|p2a: Snorlax|Body Slam|p1a: Cloyster
+|-damage|p1a: Cloyster|233\/303
+|-status|p1a: Cloyster|par
+|
+|turn|10
+|choice|move 3|move 1
+|
+|move|p2a: Snorlax|Body Slam|p1a: Cloyster
+|-damage|p1a: Cloyster|166\/303 par
+|move|p1a: Cloyster|Blizzard|p2a: Snorlax
+|-damage|p2a: Snorlax|351\/523
+|
+|turn|11
+|choice|move 2|move 1
+|
+|move|p2a: Snorlax|Body Slam|p1a: Cloyster
+|-damage|p1a: Cloyster|98\/303 par
+|cant|p1a: Cloyster|par
+|
+|turn|12
+|choice|move 2|move 3
+|
+|move|p2a: Snorlax|Hyper Beam|p1a: Cloyster|[miss]
+|-miss|p2a: Snorlax
+|move|p1a: Cloyster|Double-Edge|p2a: Snorlax
+|-damage|p2a: Snorlax|255\/523
+|-damage|p1a: Cloyster|74\/303 par|[from] recoil|[of] p2a: Snorlax
+|
+|turn|13
+|choice|move 3|move 1
+|
+|move|p2a: Snorlax|Body Slam|p1a: Cloyster
+|-damage|p1a: Cloyster|1\/303 par
+|cant|p1a: Cloyster|par
+|
+|turn|14
+|choice|move 3|move 2
+|
+|move|p2a: Snorlax|Earthquake|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|choice|switch 3|
+|
+|switch|p1a: Jynx|Jynx|333\/333
+|turn|15
+|choice|move 2|move 4
+|
+|move|p1a: Jynx|Blizzard|p2a: Snorlax
+|-damage|p2a: Snorlax|83\/523
+|move|p2a: Snorlax|Self-Destruct|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|faint|p2a: Snorlax
+|choice|switch 4|switch 6
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|switch|p2a: Chansey|Chansey|703\/703
+|turn|16
+|choice|switch 5|move 3
+|
+|switch|p1a: Snorlax|Snorlax, M|523\/523
+|move|p2a: Chansey|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|
+|turn|17
+|choice|move 1|switch 2
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|move|p1a: Snorlax|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|244\/353
+|
+|turn|18
+|choice|move 1|move 1
+|
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|289\/523 par
+|move|p1a: Snorlax|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|140\/353
+|
+|turn|19
+|choice|move 3|move 1
+|
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|149\/523 par
+|move|p1a: Snorlax|Hyper Beam|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|choice||switch 3
+|
+|switch|p2a: Persian|Persian|333\/333
+|turn|20
+|choice|move 4|move 3
+|
+|move|p2a: Persian|Slash|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|choice|switch 5|
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|21
+|choice|move 1|move 3
+|
+|move|p2a: Persian|Slash|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|213\/353
+|move|p1a: Tauros|Body Slam|p2a: Persian
+|-damage|p2a: Persian|187\/333
+|
+|turn|22
+|J|Confide
+|choice|move 4|move 3
+|
+|move|p2a: Persian|Slash|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|82\/353
+|move|p1a: Tauros|Hyper Beam|p2a: Persian|[miss]
+|-miss|p1a: Tauros
+|
+|turn|23
+|c|★smurfer|gg
+|-message|smurfer forfeited.
+|
+|win|Dice

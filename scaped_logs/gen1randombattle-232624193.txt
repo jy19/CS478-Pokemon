@@ -1,0 +1,290 @@
+﻿|join|jb champ
+|join|Lusch
+|player|p1|jb champ|150
+|player|p2|Lusch|153
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Exeggutor|Exeggutor, L79|312\/312
+|switch|p2a: Wartortle|Wartortle, L85|274\/274
+|turn|1
+|
+|move|p2a: Wartortle|Blizzard|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|97\/312
+|move|p1a: Exeggutor|Sleep Powder|p2a: Wartortle
+|-status|p2a: Wartortle|slp
+|
+|turn|2
+|
+|switch|p2a: Exeggutor|Exeggutor, L79|312\/312
+|move|p1a: Exeggutor|Psychic|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|234\/312
+|-unboost|p2a: Exeggutor|spd|1
+|-unboost|p2a: Exeggutor|spa|1
+|
+|turn|3
+|
+|move|p1a: Exeggutor|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|172\/312
+|-unboost|p2a: Exeggutor|spd|1
+|-unboost|p2a: Exeggutor|spa|1
+|move|p2a: Exeggutor|Hyper Beam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Ninetales|Ninetales, L85|298\/298
+|turn|4
+|
+|switch|p2a: Tentacruel|Tentacruel, L85|310\/310
+|move|p1a: Ninetales|Fire Blast|p2a: Tentacruel
+|-crit|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|212\/310
+|
+|turn|5
+|
+|switch|p1a: Poliwhirl|Poliwhirl, L85|284\/284
+|move|p2a: Tentacruel|Hydro Pump|p1a: Poliwhirl
+|-resisted|p1a: Poliwhirl
+|-damage|p1a: Poliwhirl|189\/284
+|
+|turn|6
+|
+|switch|p2a: Exeggutor|Exeggutor, L79|172\/312
+|move|p1a: Poliwhirl|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|154\/312
+|
+|turn|7
+|
+|move|p1a: Poliwhirl|Blizzard|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|50\/312
+|move|p2a: Exeggutor|Sleep Powder|p1a: Poliwhirl
+|-status|p1a: Poliwhirl|slp
+|
+|turn|8
+|
+|cant|p1a: Poliwhirl|slp
+|move|p2a: Exeggutor|Stun Spore|p1a: Poliwhirl
+|-fail|p1a: Poliwhirl
+|
+|turn|9
+|
+|cant|p1a: Poliwhirl|slp
+|-curestatus|p1a: Poliwhirl|slp
+|move|p2a: Exeggutor|Egg Bomb|p1a: Poliwhirl|[miss]
+|-miss|p2a: Exeggutor
+|
+|turn|10
+|
+|move|p1a: Poliwhirl|Blizzard|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Hypno|Hypno, L85|318\/318
+|turn|11
+|
+|switch|p1a: Bellsprout|Bellsprout, L96|291\/291
+|move|p2a: Hypno|Psychic|p1a: Bellsprout
+|-crit|p1a: Bellsprout
+|-supereffective|p1a: Bellsprout
+|-damage|p1a: Bellsprout|0 fnt
+|faint|p1a: Bellsprout
+|
+|switch|p1a: Ninetales|Ninetales, L85|298\/298
+|turn|12
+|
+|move|p1a: Ninetales|Confuse Ray|p2a: Hypno
+|-start|p2a: Hypno|confusion
+|-activate|p2a: Hypno|confusion
+|-damage|p2a: Hypno|287\/318|[from] confusion
+|
+|turn|13
+|
+|switch|p2a: Aerodactyl|Aerodactyl, L85|310\/310
+|move|p1a: Ninetales|Confuse Ray|p2a: Aerodactyl
+|-start|p2a: Aerodactyl|confusion
+|
+|turn|14
+|
+|switch|p1a: Diglett|Diglett, L96|214\/214
+|-activate|p2a: Aerodactyl|confusion
+|move|p2a: Aerodactyl|Double-Edge|p1a: Diglett
+|-damage|p1a: Diglett|99\/214
+|-damage|p2a: Aerodactyl|282\/310|[from] recoil|[of] p1a: Diglett
+|
+|turn|15
+|
+|-activate|p2a: Aerodactyl|confusion
+|-damage|p2a: Aerodactyl|242\/310|[from] confusion
+|move|p1a: Diglett|Sand Attack|p2a: Aerodactyl
+|-unboost|p2a: Aerodactyl|accuracy|1
+|
+|turn|16
+|
+|-activate|p2a: Aerodactyl|confusion
+|move|p2a: Aerodactyl|Double-Edge|p1a: Diglett
+|-damage|p1a: Diglett|0 fnt
+|-damage|p2a: Aerodactyl|218\/310|[from] recoil|[of] p1a: Diglett
+|faint|p1a: Diglett
+|
+|switch|p1a: Poliwhirl|Poliwhirl, L85|189\/284
+|turn|17
+|
+|switch|p2a: Tentacruel|Tentacruel, L85|212\/310
+|move|p1a: Poliwhirl|Amnesia|p1a: Poliwhirl
+|-boost|p1a: Poliwhirl|spd|2
+|-boost|p1a: Poliwhirl|spa|2
+|
+|turn|18
+|
+|move|p2a: Tentacruel|Swords Dance|p2a: Tentacruel
+|-boost|p2a: Tentacruel|atk|2
+|move|p1a: Poliwhirl|Psychic|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|65\/310
+|
+|turn|19
+|
+|move|p2a: Tentacruel|Hyper Beam|p1a: Poliwhirl|[miss]
+|-miss|p2a: Tentacruel
+|move|p1a: Poliwhirl|Psychic|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|switch|p2a: Hypno|Hypno, L85|287\/318
+|turn|20
+|
+|move|p1a: Poliwhirl|Blizzard|p2a: Hypno
+|-damage|p2a: Hypno|193\/318
+|move|p2a: Hypno|Hypnosis|p1a: Poliwhirl
+|-status|p1a: Poliwhirl|slp
+|
+|turn|21
+|
+|switch|p1a: Ninetales|Ninetales, L85|298\/298
+|switch|p2a: Aerodactyl|Aerodactyl, L85|218\/310
+|
+|turn|22
+|
+|move|p2a: Aerodactyl|Sky Attack|p1a: Ninetales|[still]
+|-prepare|p2a: Aerodactyl|Sky Attack|p1a: Ninetales
+|move|p1a: Ninetales|Confuse Ray|p2a: Aerodactyl
+|-start|p2a: Aerodactyl|confusion
+|
+|turn|23
+|
+|-activate|p2a: Aerodactyl|confusion
+|-damage|p2a: Aerodactyl|178\/310|[from] confusion
+|move|p1a: Ninetales|Reflect|p1a: Ninetales
+|-start|p1a: Ninetales|Reflect
+|
+|turn|24
+|
+|-activate|p2a: Aerodactyl|confusion
+|move|p2a: Aerodactyl|Double-Edge|p1a: Ninetales
+|-damage|p1a: Ninetales|258\/298
+|-damage|p2a: Aerodactyl|168\/310|[from] recoil|[of] p1a: Ninetales
+|move|p1a: Ninetales|Fire Blast|p2a: Aerodactyl
+|-crit|p2a: Aerodactyl
+|-resisted|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|21\/310
+|
+|turn|25
+|
+|-activate|p2a: Aerodactyl|confusion
+|-damage|p2a: Aerodactyl|0 fnt|[from] confusion
+|faint|p2a: Aerodactyl
+|
+|switch|p2a: Hypno|Hypno, L85|193\/318
+|turn|26
+|
+|move|p1a: Ninetales|Confuse Ray|p2a: Hypno
+|-start|p2a: Hypno|confusion
+|-activate|p2a: Hypno|confusion
+|move|p2a: Hypno|Thunder Wave|p1a: Ninetales
+|-status|p1a: Ninetales|par
+|
+|turn|27
+|
+|-activate|p2a: Hypno|confusion
+|-damage|p2a: Hypno|162\/318|[from] confusion
+|move|p1a: Ninetales|Fire Blast|p2a: Hypno|[miss]
+|-miss|p1a: Ninetales
+|
+|turn|28
+|
+|-activate|p2a: Hypno|confusion
+|-damage|p2a: Hypno|131\/318|[from] confusion
+|cant|p1a: Ninetales|par
+|
+|turn|29
+|
+|-end|p2a: Hypno|confusion
+|move|p2a: Hypno|Psychic|p1a: Ninetales
+|-damage|p1a: Ninetales|162\/298 par
+|cant|p1a: Ninetales|par
+|
+|turn|30
+|
+|move|p2a: Hypno|Psychic|p1a: Ninetales
+|-damage|p1a: Ninetales|63\/298 par
+|move|p1a: Ninetales|Fire Blast|p2a: Hypno
+|-damage|p2a: Hypno|28\/318
+|-status|p2a: Hypno|brn
+|
+|turn|31
+|
+|move|p2a: Hypno|Psychic|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|switch|p1a: Alakazam|Alakazam, L79|249\/249
+|turn|32
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Hypno
+|-damage|p2a: Hypno|0 fnt
+|faint|p2a: Hypno
+|
+|switch|p2a: Machamp|Machamp, L85|327\/327
+|turn|33
+|
+|move|p1a: Alakazam|Psychic|p2a: Machamp
+|-supereffective|p2a: Machamp
+|-damage|p2a: Machamp|64\/327
+|-unboost|p2a: Machamp|spd|1
+|-unboost|p2a: Machamp|spa|1
+|move|p2a: Machamp|Hyper Beam|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|switch|p1a: Poliwhirl|Poliwhirl, L85|189\/284 slp
+|turn|34
+|
+|cant|p1a: Poliwhirl|slp
+|move|p2a: Machamp|Earthquake|p1a: Poliwhirl
+|-damage|p1a: Poliwhirl|77\/284 slp
+|
+|turn|35
+|
+|cant|p1a: Poliwhirl|slp
+|move|p2a: Machamp|Earthquake|p1a: Poliwhirl
+|-crit|p1a: Poliwhirl
+|-damage|p1a: Poliwhirl|0 fnt
+|faint|p1a: Poliwhirl
+|
+|win|Lusch

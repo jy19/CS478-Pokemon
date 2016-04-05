@@ -1,0 +1,306 @@
+﻿|join|Enigami
+|join|Sederts
+|player|p1|Enigami|169
+|player|p2|Sederts|250
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|1
+|c|★Enigami|gl hf
+|c|★Sederts|you too
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Alakazam|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|340\/393
+|
+|turn|2
+|join|Disaster Area
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Exeggutor
+|-damage|p2a: Exeggutor|240\/393
+|move|p2a: Exeggutor|Sleep Powder|p1a: Alakazam
+|-status|p1a: Alakazam|slp
+|
+|turn|3
+|
+|cant|p1a: Alakazam|slp
+|move|p2a: Exeggutor|Explosion|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|turn|4
+|
+|move|p2a: Gengar|Hypnosis|p1a: Exeggutor
+|-status|p1a: Exeggutor|slp
+|cant|p1a: Exeggutor|slp
+|
+|turn|5
+|c|★Enigami|Argh.
+|c|★Enigami|Hoped you'd miss.
+|
+|switch|p2a: Lapras|Lapras|463\/463
+|cant|p1a: Exeggutor|slp
+|
+|turn|6
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|move|p2a: Lapras|Blizzard|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|259\/323
+|
+|turn|7
+|c|★Sederts|yeah 60% is notoriusly unreliable
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Lapras
+|-status|p2a: Lapras|par
+|move|p2a: Lapras|Confuse Ray|p1a: Starmie
+|-start|p1a: Starmie|confusion
+|
+|turn|8
+|
+|-activate|p1a: Starmie|confusion
+|move|p1a: Starmie|Thunderbolt|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|313\/463 par
+|cant|p2a: Lapras|par
+|
+|turn|9
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: Lapras|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|431\/523
+|-status|p1a: Snorlax|par
+|
+|turn|10
+|c|★Enigami|...
+|
+|move|p2a: Lapras|Confuse Ray|p1a: Snorlax
+|-start|p1a: Snorlax|confusion
+|-activate|p1a: Snorlax|confusion
+|move|p1a: Snorlax|Body Slam|p2a: Lapras
+|-damage|p2a: Lapras|178\/463 par
+|
+|turn|11
+|c|★Enigami|:D
+|c|★Sederts|ikr i wanted a blizz freeze on starmie
+|c|★Sederts|instead
+|c|★Sederts|also confusion is fucking useless sometimes
+|c|★Sederts|smh
+|
+|switch|p1a: Starmie|Starmie|259\/323
+|cant|p2a: Lapras|par
+|
+|turn|12
+|c|★Sederts|fking hell
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Starmie|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|631\/703
+|
+|turn|13
+|
+|switch|p1a: Snorlax|Snorlax|431\/523 par
+|move|p2a: Chansey|Thunder Wave|p1a: Snorlax
+|-fail|p1a: Snorlax|par
+|
+|turn|14
+|
+|move|p1a: Snorlax|Earthquake|p2a: Chansey
+|-damage|p2a: Chansey|386\/703
+|move|p2a: Chansey|Counter|p1a: Snorlax
+|-fail|p2a: Chansey
+|
+|turn|15
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703
+|move|p1a: Snorlax|Self-Destruct|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|faint|p1a: Snorlax
+|c|★Sederts|almost went gar
+|c|★Sederts|ngl
+|
+|switch|p1a: Starmie|Starmie|259\/323
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|16
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Tauros
+|-status|p2a: Tauros|par
+|cant|p2a: Tauros|par
+|
+|turn|17
+|c|★Sederts|so much paras
+|
+|switch|p1a: Rhydon|Rhydon|413\/413
+|move|p2a: Tauros|Body Slam|p1a: Rhydon
+|-crit|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|329\/413
+|
+|turn|18
+|
+|move|p1a: Rhydon|Substitute|p1a: Rhydon
+|-start|p1a: Rhydon|Substitute
+|-damage|p1a: Rhydon|226\/413
+|move|p2a: Tauros|Blizzard|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-end|p1a: Rhydon|Substitute
+|
+|turn|19
+|
+|move|p1a: Rhydon|Substitute|p1a: Rhydon
+|-start|p1a: Rhydon|Substitute
+|-damage|p1a: Rhydon|123\/413
+|move|p2a: Tauros|Blizzard|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-end|p1a: Rhydon|Substitute
+|
+|turn|20
+|
+|move|p1a: Rhydon|Substitute|p1a: Rhydon
+|-start|p1a: Rhydon|Substitute
+|-damage|p1a: Rhydon|20\/413
+|cant|p2a: Tauros|par
+|
+|turn|21
+|
+|move|p1a: Rhydon|Earthquake|p2a: Tauros
+|-damage|p2a: Tauros|211\/353 par
+|move|p2a: Tauros|Blizzard|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-end|p1a: Rhydon|Substitute
+|
+|turn|22
+|c|★Enigami|Can I have your Tauros?
+|
+|move|p1a: Rhydon|Earthquake|p2a: Tauros
+|-damage|p2a: Tauros|67\/353 par
+|move|p2a: Tauros|Earthquake|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|c|★Sederts|it got parad 1\/4 times
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|23
+|c|★Sederts|thats normal smh
+|c|★Enigami|But yours hit every Blizzard. :P
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Tauros|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|399\/523
+|
+|turn|24
+|c|★Sederts|thats true
+|
+|move|p1a: Tauros|Earthquake|p2a: Snorlax
+|-damage|p2a: Snorlax|297\/523
+|move|p2a: Snorlax|Counter|p1a: Tauros
+|-fail|p2a: Snorlax
+|
+|turn|25
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393 slp
+|move|p2a: Snorlax|Self-Destruct|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|faint|p2a: Snorlax
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|26
+|c|★Sederts|speed tie
+|c|★Sederts|:\
+|c|★Sederts|misplayed there with lax
+|
+|switch|p1a: Starmie|Starmie|259\/323
+|move|p2a: Gengar|Hypnosis|p1a: Starmie
+|-status|p1a: Starmie|slp
+|
+|turn|27
+|c|★Sederts|was hoping you would
+|c|★Sederts|over predict
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|move|p2a: Gengar|Thunderbolt|p1a: Tauros
+|-damage|p1a: Tauros|237\/353
+|
+|turn|28
+|
+|move|p1a: Tauros|Earthquake|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|122\/323
+|move|p2a: Gengar|Thunderbolt|p1a: Tauros
+|-damage|p1a: Tauros|127\/353
+|
+|turn|29
+|
+|move|p2a: Gengar|Explosion|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|faint|p2a: Gengar
+|c|★Sederts|GAR
+|c|★Sederts|YEAH
+|c|★Enigami|FRICK
+|
+|switch|p1a: Starmie|Starmie|259\/323 slp
+|switch|p2a: Lapras|Lapras|178\/463 par
+|turn|30
+|c| Disaster Area|still it's a fairly healthy sleeping starmie could be worse tbh
+|c|★Enigami|FP
+|
+|cant|p1a: Starmie|slp
+|move|p2a: Lapras|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|105\/323 slp
+|
+|turn|31
+|c|★Enigami|FP!!!
+|c|★Sederts|n
+|
+|-curestatus|p1a: Starmie|slp
+|cant|p2a: Lapras|par
+|
+|turn|32
+|c|★Enigami|YES
+|c|★Sederts|FUUUUUU
+|c|★Sederts|both
+|c|★Sederts|why do i always get
+|c|★Sederts|shitty sleep rolls
+|c|★Sederts|ngl
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|14\/463 par
+|move|p2a: Lapras|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|win|Sederts
+|c|★Sederts|YEE
+|c|★Enigami|Needed crit.
+|c|★Enigami|gg
+|c|★Sederts|lapras op
+|c|★Sederts|gg
+|c|★Sederts|wp
+|c|★Enigami|Fun playing with you.
+|c|★Sederts|close af
+|leave|Enigami
+|player|p1

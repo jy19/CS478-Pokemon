@@ -1,0 +1,87 @@
+﻿|J|tamahome
+|J|Dice
+|player|p1|tamahome|169
+|player|p2|Dice|134
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|seed|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam, M|100\/100
+|switch|p2a: Gengar|Gengar|100\/100
+|turn|1
+|choice||
+|
+|switch|p2a: Chansey|Chansey|100\/100
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|83\/100
+|
+|turn|2
+|J|Abstract Rude
+|choice||
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|65\/100
+|move|p2a: Chansey|Ice Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|82\/100
+|
+|turn|3
+|choice||
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|46\/100
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|96\/100
+|
+|turn|4
+|choice||
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|78\/100
+|move|p2a: Chansey|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|
+|turn|5
+|choice||
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|100\/100
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|82\/100
+|
+|turn|6
+|choice||
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Alakazam
+|-damage|p1a: Alakazam|63\/100 par
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|64\/100
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|
+|turn|7
+|choice||
+|
+|switch|p1a: Chansey|Chansey|100\/100
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|100\/100
+|
+|turn|8
+|choice||
+|
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|93\/100
+|-status|p1a: Chansey|frz
+|cant|p1a: Chansey|frz
+|
+|turn|9
+|-message|tamahome forfeited.
+|
+|win|Dice

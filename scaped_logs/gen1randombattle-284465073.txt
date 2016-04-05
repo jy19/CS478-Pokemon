@@ -1,0 +1,179 @@
+﻿|join|XianJu
+|join|froggy1L
+|player|p1|XianJu|130
+|player|p2|froggy1L|124
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Hypno|Hypno, L85|318\/318
+|switch|p2a: Persian|Persian, L79|265\/265
+|turn|1
+|
+|move|p2a: Persian|Slash|p1a: Hypno
+|-crit|p1a: Hypno
+|-damage|p1a: Hypno|208\/318
+|move|p1a: Hypno|Hypnosis|p2a: Persian
+|-status|p2a: Persian|slp
+|
+|turn|2
+|
+|switch|p1a: Dugtrio|Dugtrio, L85|233\/233
+|-curestatus|p2a: Persian|slp
+|
+|turn|3
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Persian
+|-damage|p2a: Persian|134\/265
+|move|p2a: Persian|Slash|p1a: Dugtrio
+|-crit|p1a: Dugtrio
+|-damage|p1a: Dugtrio|99\/233
+|
+|turn|4
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Persian
+|-damage|p2a: Persian|7\/265
+|move|p2a: Persian|Hyper Beam|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|
+|switch|p1a: Kangaskhan|Kangaskhan, L85|352\/352
+|turn|5
+|
+|move|p2a: Persian|Hyper Beam|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|237\/352
+|move|p1a: Kangaskhan|Earthquake|p2a: Persian
+|-crit|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|faint|p2a: Persian
+|
+|switch|p2a: Snorlax|Snorlax, L79|415\/415
+|turn|6
+|
+|move|p1a: Kangaskhan|Earthquake|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|239\/415
+|move|p2a: Snorlax|Body Slam|p1a: Kangaskhan
+|-crit|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|57\/352
+|
+|turn|7
+|
+|move|p1a: Kangaskhan|Hyper Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|36\/415
+|move|p2a: Snorlax|Blizzard|p1a: Kangaskhan
+|-crit|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|0 fnt
+|faint|p1a: Kangaskhan
+|
+|switch|p1a: Vileplume|Vileplume, L90|318\/318
+|turn|8
+|
+|move|p1a: Vileplume|Body Slam|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|switch|p2a: Articuno|Articuno, L79|304\/304
+|turn|9
+|
+|switch|p1a: Seaking|Seaking, L90|327\/327
+|move|p2a: Articuno|Ice Beam|p1a: Seaking
+|-resisted|p1a: Seaking
+|-damage|p1a: Seaking|274\/327
+|
+|turn|10
+|
+|move|p2a: Articuno|Reflect|p2a: Articuno
+|-start|p2a: Articuno|Reflect
+|move|p1a: Seaking|Blizzard|p2a: Articuno
+|-damage|p2a: Articuno|237\/304
+|
+|turn|11
+|
+|move|p2a: Articuno|Ice Beam|p1a: Seaking
+|-resisted|p1a: Seaking
+|-damage|p1a: Seaking|226\/327
+|move|p1a: Seaking|Surf|p2a: Articuno
+|-crit|p2a: Articuno
+|-damage|p2a: Articuno|81\/304
+|
+|turn|12
+|
+|switch|p2a: Scyther|Scyther, L90|309\/309
+|move|p1a: Seaking|Hyper Beam|p2a: Scyther
+|-damage|p2a: Scyther|186\/309
+|
+|turn|13
+|-mustrecharge|p1a: Seaking
+|-mustrecharge|p1a: Seaking
+|
+|move|p2a: Scyther|Slash|p1a: Seaking
+|-crit|p1a: Seaking
+|-damage|p1a: Seaking|92\/327
+|cant|p1a: Seaking|recharge
+|
+|turn|14
+|
+|move|p2a: Scyther|Hyper Beam|p1a: Seaking
+|-damage|p1a: Seaking|0 fnt
+|faint|p1a: Seaking
+|
+|switch|p1a: Charizard|Charizard, L85|306\/306
+|turn|15
+|
+|switch|p2a: Nidoqueen|Nidoqueen, L85|327\/327
+|move|p1a: Charizard|Fire Blast|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|202\/327
+|
+|turn|16
+|
+|move|p1a: Charizard|Fire Blast|p2a: Nidoqueen
+|-crit|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|0 fnt
+|faint|p2a: Nidoqueen
+|
+|switch|p2a: Scyther|Scyther, L90|186\/309
+|turn|17
+|
+|move|p2a: Scyther|Hyper Beam|p1a: Charizard|[miss]
+|-miss|p2a: Scyther
+|move|p1a: Charizard|Fire Blast|p2a: Scyther
+|-crit|p2a: Scyther
+|-supereffective|p2a: Scyther
+|-damage|p2a: Scyther|0 fnt
+|faint|p2a: Scyther
+|
+|switch|p2a: Articuno|Articuno, L79|81\/304
+|turn|18
+|
+|move|p1a: Charizard|Hyper Beam|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|faint|p2a: Articuno
+|
+|switch|p2a: Charmander|Charmander, L96|270\/270
+|turn|19
+|
+|move|p1a: Charizard|Earthquake|p2a: Charmander
+|-supereffective|p2a: Charmander
+|-damage|p2a: Charmander|110\/270
+|move|p2a: Charmander|Swords Dance|p2a: Charmander
+|-boost|p2a: Charmander|atk|2
+|
+|turn|20
+|
+|move|p1a: Charizard|Earthquake|p2a: Charmander
+|-supereffective|p2a: Charmander
+|-damage|p2a: Charmander|0 fnt
+|faint|p2a: Charmander
+|
+|win|XianJu
+|leave|froggy1L
+|player|p2
+|raw|XianJu's rating: 1313 &rarr; <strong>1330<\/strong><br \/>(+17 for winning)
+|raw|froggy1L's rating: 1256 &rarr; <strong>1235<\/strong><br \/>(-21 for losing)

@@ -1,0 +1,286 @@
+﻿|j|erik1erik
+|j|Dervodel2
+|player|p1|erik1erik|2
+|player|p2|Dervodel2|238
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|25170,52017,53274,48914
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Rapidash|Rapidash, L90|300\/300
+|switch|p2a: Dragonite|Dragonite, L85|328\/328
+|turn|1
+|choice|switch 2|move 2
+|
+|switch|p1a: Machoke|Machoke, L85|310\/310
+|move|p2a: Dragonite|Substitute|p2a: Dragonite
+|-start|p2a: Dragonite|Substitute
+|-damage|p2a: Dragonite|246\/328
+|
+|turn|2
+|choice|move 1|move 1
+|
+|move|p2a: Dragonite|Body Slam|p1a: Machoke
+|-damage|p1a: Machoke|218\/310
+|-status|p1a: Machoke|par
+|move|p1a: Machoke|Rock Slide|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-end|p2a: Dragonite|Substitute
+|
+|turn|3
+|choice|move 3|move 1
+|
+|move|p2a: Dragonite|Body Slam|p1a: Machoke
+|-damage|p1a: Machoke|133\/310 par
+|cant|p1a: Machoke|par
+|
+|turn|4
+|choice|move 3|move 3
+|
+|move|p2a: Dragonite|Hyper Beam|p1a: Machoke
+|-damage|p1a: Machoke|0 fnt
+|faint|p1a: Machoke
+|choice|switch 5|
+|
+|switch|p1a: Raticate|Raticate, L85|267\/267
+|turn|5
+|choice|move 2|move 4
+|
+|move|p1a: Raticate|Blizzard|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|26\/328
+|move|p2a: Dragonite|Thunder|p1a: Raticate
+|-damage|p1a: Raticate|154\/267
+|
+|turn|6
+|choice|move 3|move 3
+|
+|move|p1a: Raticate|Body Slam|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|choice||switch 6
+|
+|switch|p2a: Hypno|Hypno, L85|318\/318
+|turn|7
+|choice|move 3|move 4
+|
+|move|p1a: Raticate|Body Slam|p2a: Hypno
+|-damage|p2a: Hypno|219\/318
+|-status|p2a: Hypno|par
+|cant|p2a: Hypno|par
+|
+|turn|8
+|choice|move 3|move 3
+|
+|move|p1a: Raticate|Body Slam|p2a: Hypno
+|-damage|p2a: Hypno|127\/318 par
+|move|p2a: Hypno|Hypnosis|p1a: Raticate
+|-status|p1a: Raticate|slp
+|
+|turn|9
+|choice|switch 2|move 1
+|
+|switch|p1a: Rapidash|Rapidash, L90|300\/300
+|move|p2a: Hypno|Psychic|p1a: Rapidash
+|-damage|p1a: Rapidash|195\/300
+|-unboost|p1a: Rapidash|spd|1
+|-unboost|p1a: Rapidash|spa|1
+|
+|turn|10
+|choice|move 3|move 1
+|
+|move|p1a: Rapidash|Hyper Beam|p2a: Hypno
+|-crit|p2a: Hypno
+|-damage|p2a: Hypno|0 fnt
+|faint|p2a: Hypno
+|choice||switch 2
+|
+|switch|p2a: Aerodactyl|Aerodactyl, L90|327\/327
+|turn|11
+|choice|switch 3|move 3
+|
+|switch|p1a: Onix|Onix, L90|246\/246
+|move|p2a: Aerodactyl|Hyper Beam|p1a: Onix
+|-resisted|p1a: Onix
+|-damage|p1a: Onix|205\/246
+|
+|turn|12
+|-mustrecharge|p2a: Aerodactyl
+|-mustrecharge|p2a: Aerodactyl
+|choice|move 3|move 1
+|
+|cant|p2a: Aerodactyl|recharge
+|move|p1a: Onix|Rock Slide|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|204\/327
+|
+|turn|13
+|choice|move 2|switch 4
+|
+|switch|p2a: Wigglytuff|Wigglytuff, L90|435\/435
+|move|p1a: Onix|Earthquake|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|334\/435
+|
+|turn|14
+|choice|switch 3|move 3
+|
+|switch|p1a: Rapidash|Rapidash, L90|195\/300
+|move|p2a: Wigglytuff|Blizzard|p1a: Rapidash
+|-damage|p1a: Rapidash|133\/300
+|
+|turn|15
+|choice|move 1|move 1
+|
+|move|p1a: Rapidash|Fire Blast|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|165\/435
+|move|p2a: Wigglytuff|Thunder Wave|p1a: Rapidash
+|-status|p1a: Rapidash|par
+|
+|turn|16
+|choice|move 1|move 4
+|
+|move|p2a: Wigglytuff|Double-Edge|p1a: Rapidash
+|-damage|p1a: Rapidash|32\/300 par
+|-damage|p2a: Wigglytuff|140\/435|[from] recoil|[of] p1a: Rapidash
+|move|p1a: Rapidash|Fire Blast|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|0 fnt
+|faint|p2a: Wigglytuff
+|choice||switch 5
+|
+|switch|p2a: Electabuzz|Electabuzz, L85|284\/284
+|turn|17
+|choice|move 1|move 4
+|
+|move|p2a: Electabuzz|Psychic|p1a: Rapidash
+|-crit|p1a: Rapidash
+|-damage|p1a: Rapidash|0 fnt
+|faint|p1a: Rapidash
+|choice|switch 3|
+|
+|switch|p1a: Onix|Onix, L90|205\/246
+|turn|18
+|choice|move 2|move 4
+|
+|move|p2a: Electabuzz|Psychic|p1a: Onix
+|-crit|p1a: Onix
+|-damage|p1a: Onix|5\/246
+|move|p1a: Onix|Earthquake|p2a: Electabuzz
+|-supereffective|p2a: Electabuzz
+|-damage|p2a: Electabuzz|76\/284
+|
+|turn|19
+|choice|move 2|move 4
+|
+|move|p2a: Electabuzz|Psychic|p1a: Onix
+|-damage|p1a: Onix|0 fnt
+|faint|p1a: Onix
+|choice|switch 6|
+|
+|switch|p1a: Dragonite|Dragonite, L85|328\/328
+|turn|20
+|choice|move 2|move 3
+|
+|move|p2a: Electabuzz|Thunder Wave|p1a: Dragonite
+|-status|p1a: Dragonite|par
+|cant|p1a: Dragonite|par
+|
+|turn|21
+|choice|move 2|switch 3
+|
+|switch|p2a: Cloyster|Cloyster, L83|253\/253
+|cant|p1a: Dragonite|par
+|
+|turn|22
+|choice|switch 2|move 2
+|
+|switch|p1a: Raticate|Raticate, L85|154\/267 slp
+|move|p2a: Cloyster|Surf|p1a: Raticate
+|-damage|p1a: Raticate|32\/267 slp
+|
+|turn|23
+|choice|move 3|move 2
+|
+|cant|p1a: Raticate|slp
+|move|p2a: Cloyster|Surf|p1a: Raticate
+|-damage|p1a: Raticate|0 fnt
+|faint|p1a: Raticate
+|choice|switch 4|
+|
+|switch|p1a: Kingler|Kingler, L85|267\/267
+|turn|24
+|choice|move 3|move 2
+|
+|move|p1a: Kingler|Body Slam|p2a: Cloyster
+|-damage|p2a: Cloyster|208\/253
+|move|p2a: Cloyster|Surf|p1a: Kingler
+|-resisted|p1a: Kingler
+|-damage|p1a: Kingler|206\/267
+|
+|turn|25
+|choice|move 1|move 2
+|
+|move|p1a: Kingler|Crabhammer|p2a: Cloyster
+|-crit|p2a: Cloyster
+|-resisted|p2a: Cloyster
+|-damage|p2a: Cloyster|141\/253
+|move|p2a: Cloyster|Surf|p1a: Kingler
+|-resisted|p1a: Kingler
+|-damage|p1a: Kingler|145\/267
+|
+|turn|26
+|choice|move 1|move 2
+|
+|move|p1a: Kingler|Crabhammer|p2a: Cloyster
+|-crit|p2a: Cloyster
+|-resisted|p2a: Cloyster
+|-damage|p2a: Cloyster|75\/253
+|move|p2a: Cloyster|Surf|p1a: Kingler
+|-resisted|p1a: Kingler
+|-damage|p1a: Kingler|84\/267
+|
+|turn|27
+|choice|move 4|move 2
+|
+|move|p1a: Kingler|Hyper Beam|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p2a: Cloyster
+|choice||switch 3
+|
+|switch|p2a: Electabuzz|Electabuzz, L85|76\/284
+|turn|28
+|choice|switch 2|move 1
+|
+|switch|p1a: Dragonite|Dragonite, L85|328\/328 par
+|move|p2a: Electabuzz|Thunderbolt|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-damage|p1a: Dragonite|172\/328 par
+|
+|turn|29
+|choice|move 3|move 1
+|
+|move|p2a: Electabuzz|Thunderbolt|p1a: Dragonite
+|-damage|p1a: Dragonite|93\/328 par
+|move|p1a: Dragonite|Surf|p2a: Electabuzz
+|-damage|p2a: Electabuzz|3\/284
+|
+|turn|30
+|choice|move 3|move 2
+|
+|move|p2a: Electabuzz|Seismic Toss|p1a: Dragonite
+|-damage|p1a: Dragonite|8\/328 par
+|cant|p1a: Dragonite|par
+|
+|turn|31
+|-message|erik1erik forfeited.
+|
+|win|Dervodel2
+|player|p1
+|player|p2
+|l|erik1erik
+|raw|erik1erik's rating: 1462 &rarr; <strong>1434<\/strong><br \/>(-28 for losing)
+|raw|Dervodel2's rating: 1302 &rarr; <strong>1331<\/strong><br \/>(+29 for winning)

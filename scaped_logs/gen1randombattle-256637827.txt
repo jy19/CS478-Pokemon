@@ -1,0 +1,188 @@
+﻿|join|MALESANI
+|join|byyyst
+|player|p1|MALESANI|238
+|player|p2|byyyst|266
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Exeggcute|Exeggcute, L96|310\/310
+|switch|p2a: Hitmonchan|Hitmonchan, L90|273\/273
+|turn|1
+|
+|switch|p2a: Mew|Mew, L74|300\/300
+|move|p1a: Exeggcute|Psychic|p2a: Mew
+|-crit|p2a: Mew
+|-resisted|p2a: Mew
+|-damage|p2a: Mew|210\/300
+|
+|turn|2
+|
+|switch|p2a: Magikarp|Magikarp, L99|240\/240
+|move|p1a: Exeggcute|Sleep Powder|p2a: Magikarp
+|-status|p2a: Magikarp|slp
+|
+|turn|3
+|
+|switch|p2a: Rapidash|Rapidash, L90|300\/300
+|move|p1a: Exeggcute|Psychic|p2a: Rapidash
+|-damage|p2a: Rapidash|203\/300
+|-unboost|p2a: Rapidash|spd|1
+|-unboost|p2a: Rapidash|spa|1
+|
+|turn|4
+|
+|move|p2a: Rapidash|Fire Blast|p1a: Exeggcute
+|-supereffective|p1a: Exeggcute
+|-damage|p1a: Exeggcute|134\/310
+|move|p1a: Exeggcute|Explosion|p2a: Rapidash
+|-damage|p2a: Rapidash|15\/300
+|faint|p1a: Exeggcute
+|
+|switch|p1a: Flareon|Flareon, L90|300\/300
+|turn|5
+|
+|switch|p2a: Marowak|Marowak, L90|291\/291
+|move|p1a: Flareon|Quick Attack|p2a: Marowak
+|-damage|p2a: Marowak|256\/291
+|
+|turn|6
+|
+|switch|p1a: Moltres|Moltres, L85|327\/327
+|move|p2a: Marowak|Earthquake|p1a: Moltres
+|-immune|p1a: Moltres|[msg]
+|
+|turn|7
+|
+|move|p1a: Moltres|Fire Blast|p2a: Marowak
+|-damage|p2a: Marowak|68\/291
+|move|p2a: Marowak|Blizzard|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|231\/327
+|
+|turn|8
+|
+|move|p1a: Moltres|Fire Blast|p2a: Marowak
+|-damage|p2a: Marowak|0 fnt
+|faint|p2a: Marowak
+|
+|switch|p2a: Mew|Mew, L74|210\/300
+|turn|9
+|
+|move|p1a: Moltres|Toxic|p2a: Mew
+|-status|p2a: Mew|tox
+|move|p2a: Mew|Thunder Wave|p1a: Moltres
+|-status|p1a: Moltres|par
+|-damage|p2a: Mew|192\/300 tox|[from] tox|[of] p1a: Moltres
+|
+|turn|10
+|
+|move|p2a: Mew|Thunderbolt|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|143\/327 par
+|-damage|p2a: Mew|156\/300 tox|[from] tox|[of] p1a: Moltres
+|move|p1a: Moltres|Agility|p1a: Moltres
+|-boost|p1a: Moltres|spe|2
+|
+|turn|11
+|
+|move|p1a: Moltres|Fire Blast|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|switch|p2a: Dragonite|Dragonite, L85|328\/328
+|turn|12
+|
+|move|p1a: Moltres|Toxic|p2a: Dragonite
+|-status|p2a: Dragonite|tox
+|move|p2a: Dragonite|Thunder|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|2\/327 par
+|-damage|p2a: Dragonite|308\/328 tox|[from] tox|[of] p1a: Moltres
+|
+|turn|13
+|
+|move|p1a: Moltres|Fire Blast|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|237\/328 tox
+|move|p2a: Dragonite|Ice Beam|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|switch|p1a: Electabuzz|Electabuzz, L85|284\/284
+|turn|14
+|c|★byyyst|lmfao
+|c|★byyyst|i had a 0% chance of winning this from the start
+|c|★byyyst|your team is much much better, plus hax in your favor
+|
+|move|p1a: Electabuzz|Seismic Toss|p2a: Dragonite
+|-damage|p2a: Dragonite|152\/328 tox
+|move|p2a: Dragonite|Hyper Beam|p1a: Electabuzz
+|-damage|p1a: Electabuzz|117\/284
+|-damage|p2a: Dragonite|112\/328 tox|[from] tox|[of] p1a: Electabuzz
+|
+|turn|15
+|-mustrecharge|p2a: Dragonite
+|-mustrecharge|p2a: Dragonite
+|
+|move|p1a: Electabuzz|Thunderbolt|p2a: Dragonite
+|-damage|p2a: Dragonite|24\/328 tox
+|cant|p2a: Dragonite|recharge
+|-damage|p2a: Dragonite|0 fnt|[from] tox|[of] p1a: Electabuzz
+|faint|p2a: Dragonite
+|
+|switch|p2a: Rapidash|Rapidash, L90|15\/300
+|turn|16
+|
+|move|p2a: Rapidash|Fire Blast|p1a: Electabuzz
+|-damage|p1a: Electabuzz|0 fnt
+|faint|p1a: Electabuzz
+|
+|switch|p1a: Flareon|Flareon, L90|300\/300
+|turn|17
+|
+|switch|p2a: Magikarp|Magikarp, L99|240\/240 slp
+|move|p1a: Flareon|Quick Attack|p2a: Magikarp
+|-damage|p2a: Magikarp|195\/240 slp
+|
+|turn|18
+|
+|cant|p2a: Magikarp|slp
+|move|p1a: Flareon|Body Slam|p2a: Magikarp
+|-damage|p2a: Magikarp|93\/240 slp
+|
+|turn|19
+|
+|cant|p2a: Magikarp|slp
+|move|p1a: Flareon|Body Slam|p2a: Magikarp
+|-damage|p2a: Magikarp|0 fnt
+|faint|p2a: Magikarp
+|
+|switch|p2a: Hitmonchan|Hitmonchan, L90|273\/273
+|turn|20
+|
+|move|p1a: Flareon|Fire Blast|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|25\/273
+|move|p2a: Hitmonchan|Counter|p1a: Flareon
+|-fail|p2a: Hitmonchan
+|
+|turn|21
+|
+|move|p1a: Flareon|Quick Attack|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|0 fnt
+|faint|p2a: Hitmonchan
+|c|★byyyst|welp gg you lucky scrub
+|c|★MALESANI|yeah
+|-message|byyyst forfeited.
+|
+|win|MALESANI
+|raw|Ladder updating...
+|leave|byyyst
+|player|p2
+|c|★MALESANI|cojone de merda

@@ -1,0 +1,599 @@
+﻿|j|Verge88
+|j|aya46
+|player|p1|Verge88|266
+|player|p2|aya46|157
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|53158,46556,34216,36920
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Venomoth|Venomoth, L85|293\/293
+|switch|p2a: Golbat|Golbat, L90|318\/318
+|turn|1
+|choice|move 3|move 1
+|
+|move|p2a: Golbat|Hyper Beam|p1a: Venomoth
+|-damage|p1a: Venomoth|151\/293
+|move|p1a: Venomoth|Sleep Powder|p2a: Golbat
+|-status|p2a: Golbat|slp
+|
+|turn|2
+|-mustrecharge|p2a: Golbat
+|-mustrecharge|p2a: Golbat
+|choice|move 2|move 1
+|
+|cant|p2a: Golbat|recharge
+|move|p1a: Venomoth|Psychic|p2a: Golbat
+|-supereffective|p2a: Golbat
+|-damage|p2a: Golbat|185\/318 slp
+|
+|turn|3
+|choice|move 2|switch 6
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|293\/293
+|move|p1a: Venomoth|Psychic|p2a: Mewtwo
+|-resisted|p2a: Mewtwo
+|-damage|p2a: Mewtwo|270\/293
+|
+|turn|4
+|choice|switch 2|move 1
+|
+|switch|p1a: Hypno|Hypno, L85|318\/318
+|move|p2a: Mewtwo|Psychic|p1a: Hypno
+|-resisted|p1a: Hypno
+|-damage|p1a: Hypno|276\/318
+|-unboost|p1a: Hypno|spd|1
+|-unboost|p1a: Hypno|spa|1
+|
+|turn|5
+|choice|move 4|move 4
+|
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|move|p1a: Hypno|Thunder Wave|p2a: Mewtwo
+|-status|p2a: Mewtwo|par
+|
+|turn|6
+|choice|move 1|move 2
+|
+|move|p1a: Hypno|Psychic|p2a: Mewtwo
+|-resisted|p2a: Mewtwo
+|-damage|p2a: Mewtwo|243\/293 par
+|-unboost|p2a: Mewtwo|spd|1
+|-unboost|p2a: Mewtwo|spa|1
+|move|p2a: Mewtwo|Ice Beam|p1a: Hypno
+|-damage|p1a: Hypno|218\/318
+|
+|turn|7
+|choice|switch 6|move 3
+|
+|switch|p1a: Slowbro|Slowbro, L79|312\/312
+|cant|p2a: Mewtwo|par
+|
+|turn|8
+|choice|move 2|switch 5
+|
+|switch|p2a: Clefable|Clefable, L85|335\/335
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|
+|turn|9
+|choice|move 4|move 2
+|
+|move|p2a: Clefable|Sing|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|-curestatus|p1a: Slowbro|slp
+|
+|turn|10
+|choice|switch 2|move 2
+|
+|switch|p1a: Venomoth|Venomoth, L85|151\/293
+|move|p2a: Clefable|Sing|p1a: Venomoth
+|-status|p1a: Venomoth|slp
+|
+|turn|11
+|choice|switch 2|move 3
+|
+|switch|p1a: Slowbro|Slowbro, L79|312\/312
+|move|p2a: Clefable|Body Slam|p1a: Slowbro
+|-damage|p1a: Slowbro|241\/312
+|-status|p1a: Slowbro|par
+|
+|turn|12
+|choice|move 4|move 3
+|
+|move|p2a: Clefable|Body Slam|p1a: Slowbro
+|-damage|p1a: Slowbro|170\/312 par
+|cant|p1a: Slowbro|par
+|
+|turn|13
+|choice|move 4|move 3
+|
+|move|p2a: Clefable|Body Slam|p1a: Slowbro
+|-damage|p1a: Slowbro|96\/312 par
+|move|p1a: Slowbro|Thunder Wave|p2a: Clefable
+|-status|p2a: Clefable|par
+|
+|turn|14
+|choice|move 3|move 3
+|
+|move|p2a: Clefable|Body Slam|p1a: Slowbro
+|-damage|p1a: Slowbro|30\/312 par
+|move|p1a: Slowbro|Rest|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|-heal|p1a: Slowbro|312\/312 slp|[silent]
+|-status|p1a: Slowbro|slp|[from] move: Rest
+|
+|turn|15
+|choice|move 2|switch 2
+|
+|switch|p2a: Rhydon|Rhydon, L79|328\/328
+|cant|p1a: Slowbro|slp
+|
+|turn|16
+|choice|move 2|move 1
+|
+|move|p2a: Rhydon|Earthquake|p1a: Slowbro
+|-damage|p1a: Slowbro|203\/312 slp
+|-curestatus|p1a: Slowbro|slp
+|
+|turn|17
+|choice|move 1|switch 2
+|
+|switch|p2a: Clefable|Clefable, L85|335\/335 par
+|move|p1a: Slowbro|Surf|p2a: Clefable
+|-damage|p2a: Clefable|254\/335 par
+|
+|turn|18
+|choice|move 2|move 3
+|
+|move|p2a: Clefable|Body Slam|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-damage|p1a: Slowbro|65\/312
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|
+|turn|19
+|choice|switch 4|switch 2
+|
+|switch|p1a: Golem|Golem, L79|288\/288
+|switch|p2a: Rhydon|Rhydon, L79|328\/328
+|
+|turn|20
+|choice|move 2|switch 4
+|
+|switch|p2a: Vaporeon|Vaporeon, L85|395\/395
+|move|p1a: Golem|Earthquake|p2a: Vaporeon
+|-damage|p2a: Vaporeon|270\/395
+|
+|turn|21
+|choice|switch 6|move 2
+|
+|switch|p1a: Hypno|Hypno, L85|218\/318
+|move|p2a: Vaporeon|Surf|p1a: Hypno
+|-damage|p1a: Hypno|128\/318
+|
+|turn|22
+|choice|move 4|switch 2
+|
+|switch|p2a: Clefable|Clefable, L85|254\/335 par
+|move|p1a: Hypno|Thunder Wave|p2a: Clefable
+|-fail|p2a: Clefable|par
+|
+|turn|23
+|choice|switch 6|move 3
+|
+|switch|p1a: Golem|Golem, L79|288\/288
+|cant|p2a: Clefable|par
+|
+|turn|24
+|choice|move 2|move 1
+|
+|move|p1a: Golem|Earthquake|p2a: Clefable
+|-damage|p2a: Clefable|143\/335 par
+|cant|p2a: Clefable|par
+|
+|turn|25
+|choice|switch 3|move 4
+|
+|switch|p1a: Tentacruel|Tentacruel, L85|310\/310
+|move|p2a: Clefable|Ice Beam|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|286\/310
+|-status|p1a: Tentacruel|frz
+|
+|turn|26
+|c|★aya46|sorry, too bad :(
+|c|★Verge88|yeah, it happens though
+|c|★Verge88|there's always the risk :)
+|choice|switch 6|switch 4
+|
+|switch|p1a: Hypno|Hypno, L85|128\/318
+|switch|p2a: Rhydon|Rhydon, L79|328\/328
+|
+|turn|27
+|choice|move 1|move 1
+|
+|move|p1a: Hypno|Psychic|p2a: Rhydon
+|-damage|p2a: Rhydon|145\/328
+|move|p2a: Rhydon|Earthquake|p1a: Hypno
+|-damage|p1a: Hypno|0 fnt
+|faint|p1a: Hypno
+|choice|switch 3|
+|
+|switch|p1a: Golem|Golem, L79|288\/288
+|turn|28
+|choice|move 2|switch 6
+|
+|switch|p2a: Golbat|Golbat, L90|185\/318 slp
+|move|p1a: Golem|Earthquake|p2a: Golbat
+|-immune|p2a: Golbat|[msg]
+|
+|turn|29
+|choice|move 2|switch 2
+|
+|switch|p2a: Vaporeon|Vaporeon, L85|270\/395
+|move|p1a: Golem|Earthquake|p2a: Vaporeon
+|-damage|p2a: Vaporeon|144\/395
+|
+|turn|30
+|choice|switch 6|move 2
+|
+|switch|p1a: Tentacruel|Tentacruel, L85|286\/310 frz
+|move|p2a: Vaporeon|Surf|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|242\/310 frz
+|
+|turn|31
+|choice|move 1|move 4
+|
+|cant|p1a: Tentacruel|frz
+|move|p2a: Vaporeon|Mimic|p1a: Tentacruel
+|-start|p2a: Vaporeon|Mimic|Hydro Pump
+|
+|turn|32
+|choice|move 1|move 3
+|
+|cant|p1a: Tentacruel|frz
+|move|p2a: Vaporeon|Body Slam|p1a: Tentacruel
+|-damage|p1a: Tentacruel|185\/310 frz
+|
+|turn|33
+|choice|move 1|switch 3
+|
+|switch|p2a: Ekans|Ekans, L96|262\/262
+|cant|p1a: Tentacruel|frz
+|
+|turn|34
+|choice|move 1|move 3
+|
+|cant|p1a: Tentacruel|frz
+|move|p2a: Ekans|Earthquake|p1a: Tentacruel
+|-crit|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|choice|switch 4|
+|
+|switch|p1a: Slowbro|Slowbro, L79|65\/312
+|turn|35
+|choice|move 3|move 3
+|
+|move|p2a: Ekans|Earthquake|p1a: Slowbro
+|-damage|p1a: Slowbro|2\/312
+|move|p1a: Slowbro|Rest|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|-heal|p1a: Slowbro|312\/312 slp|[silent]
+|-status|p1a: Slowbro|slp|[from] move: Rest
+|
+|turn|36
+|c|★aya46|-_-
+|c|★Verge88|haha :D
+|c|★Verge88|too bad
+|c|★aya46|1 more %
+|choice|move 1|switch 4
+|
+|switch|p2a: Clefable|Clefable, L85|143\/335 par
+|cant|p1a: Slowbro|slp
+|
+|turn|37
+|choice|move 2|move 3
+|
+|-curestatus|p1a: Slowbro|slp
+|move|p2a: Clefable|Body Slam|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-damage|p1a: Slowbro|170\/312
+|-status|p1a: Slowbro|par
+|
+|turn|38
+|c|★Verge88|here we go tralalalaa
+|choice|move 3|move 3
+|
+|cant|p2a: Clefable|par
+|move|p1a: Slowbro|Rest|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|-heal|p1a: Slowbro|312\/312 slp|[silent]
+|-status|p1a: Slowbro|slp|[from] move: Rest
+|
+|turn|39
+|choice|move 1|move 3
+|
+|move|p2a: Clefable|Body Slam|p1a: Slowbro
+|-damage|p1a: Slowbro|241\/312 slp
+|cant|p1a: Slowbro|slp
+|
+|turn|40
+|choice|switch 6|move 3
+|
+|switch|p1a: Golem|Golem, L79|288\/288
+|move|p2a: Clefable|Body Slam|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|255\/288
+|-status|p1a: Golem|par
+|
+|turn|41
+|c|★aya46|nice!
+|c|★Verge88|nice para
+|choice|move 2|move 4
+|
+|move|p2a: Clefable|Ice Beam|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|88\/288 par
+|cant|p1a: Golem|par
+|
+|turn|42
+|c|★aya46|our party have no speedy pokemon, so its very good
+|choice|switch 6|move 4
+|
+|switch|p1a: Slowbro|Slowbro, L79|241\/312 slp
+|move|p2a: Clefable|Ice Beam|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|174\/312 slp
+|
+|turn|43
+|choice|move 1|move 3
+|
+|-curestatus|p1a: Slowbro|slp
+|move|p2a: Clefable|Body Slam|p1a: Slowbro
+|-damage|p1a: Slowbro|110\/312
+|
+|turn|44
+|choice|move 1|move 3
+|
+|move|p1a: Slowbro|Surf|p2a: Clefable
+|-damage|p2a: Clefable|58\/335 par
+|move|p2a: Clefable|Body Slam|p1a: Slowbro
+|-damage|p1a: Slowbro|46\/312
+|
+|turn|45
+|choice|move 3|switch 6
+|
+|switch|p2a: Rhydon|Rhydon, L79|145\/328
+|move|p1a: Slowbro|Rest|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|-heal|p1a: Slowbro|312\/312 slp|[silent]
+|-status|p1a: Slowbro|slp|[from] move: Rest
+|
+|turn|46
+|choice|move 1|move 1
+|
+|move|p2a: Rhydon|Earthquake|p1a: Slowbro
+|-damage|p1a: Slowbro|207\/312 slp
+|cant|p1a: Slowbro|slp
+|
+|turn|47
+|choice|switch 2|move 1
+|
+|switch|p1a: Venomoth|Venomoth, L85|151\/293 slp
+|move|p2a: Rhydon|Earthquake|p1a: Venomoth
+|-damage|p1a: Venomoth|1\/293 slp
+|
+|turn|48
+|choice|move 1|move 4
+|
+|cant|p1a: Venomoth|slp
+|move|p2a: Rhydon|Body Slam|p1a: Venomoth
+|-damage|p1a: Venomoth|0 fnt
+|faint|p1a: Venomoth
+|choice|switch 5|
+|
+|switch|p1a: Magmar|Magmar, L90|300\/300
+|turn|49
+|choice|move 3|switch 6
+|
+|switch|p2a: Clefable|Clefable, L85|58\/335 par
+|move|p1a: Magmar|Confuse Ray|p2a: Clefable
+|-start|p2a: Clefable|confusion
+|
+|turn|50
+|choice|switch 2|move 2
+|
+|switch|p1a: Slowbro|Slowbro, L79|207\/312 slp
+|-activate|p2a: Clefable|confusion
+|-damage|p2a: Clefable|28\/335 par|[from] confusion
+|
+|turn|51
+|choice|move 1|switch 6
+|
+|switch|p2a: Rhydon|Rhydon, L79|145\/328
+|-curestatus|p1a: Slowbro|slp
+|
+|turn|52
+|c|★aya46|...
+|choice|move 2|switch 2
+|
+|switch|p2a: Golbat|Golbat, L90|185\/318 slp
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|
+|turn|53
+|choice|move 2|move 2
+|
+|cant|p2a: Golbat|slp
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|
+|turn|54
+|choice|move 1|move 2
+|
+|cant|p2a: Golbat|slp
+|move|p1a: Slowbro|Surf|p2a: Golbat
+|-damage|p2a: Golbat|0 fnt
+|faint|p2a: Golbat
+|choice||switch 4
+|
+|switch|p2a: Ekans|Ekans, L96|262\/262
+|turn|55
+|choice|move 4|move 4
+|
+|move|p2a: Ekans|Glare|p1a: Slowbro|[miss]
+|-miss|p2a: Ekans
+|move|p1a: Slowbro|Thunder Wave|p2a: Ekans
+|-status|p2a: Ekans|par
+|
+|turn|56
+|choice|move 3|move 4
+|
+|move|p1a: Slowbro|Rest|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|-heal|p1a: Slowbro|312\/312 slp|[silent]
+|-status|p1a: Slowbro|slp|[from] move: Rest
+|move|p2a: Ekans|Glare|p1a: Slowbro|[miss]
+|-miss|p2a: Ekans
+|
+|turn|57
+|choice|move 1|switch 6
+|
+|switch|p2a: Clefable|Clefable, L85|28\/335 par
+|cant|p1a: Slowbro|slp
+|
+|turn|58
+|choice|move 1|move 2
+|
+|-curestatus|p1a: Slowbro|slp
+|move|p2a: Clefable|Sing|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|
+|turn|59
+|choice|move 1|switch 2
+|
+|switch|p2a: Rhydon|Rhydon, L79|145\/328
+|cant|p1a: Slowbro|slp
+|
+|turn|60
+|choice|move 1|move 1
+|
+|move|p2a: Rhydon|Earthquake|p1a: Slowbro
+|-damage|p1a: Slowbro|205\/312 slp
+|cant|p1a: Slowbro|slp
+|
+|turn|61
+|choice|switch 6|move 1
+|
+|switch|p1a: Golem|Golem, L79|88\/288 par
+|move|p2a: Rhydon|Earthquake|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|0 fnt
+|faint|p1a: Golem
+|choice|switch 2|
+|
+|switch|p1a: Magmar|Magmar, L90|300\/300
+|turn|62
+|choice|move 3|move 1
+|
+|move|p1a: Magmar|Confuse Ray|p2a: Rhydon
+|-start|p2a: Rhydon|confusion
+|-activate|p2a: Rhydon|confusion
+|-damage|p2a: Rhydon|116\/328|[from] confusion
+|
+|turn|63
+|choice|move 4|switch 6
+|
+|switch|p2a: Ekans|Ekans, L96|262\/262 par
+|move|p1a: Magmar|Fire Blast|p2a: Ekans|[miss]
+|-miss|p1a: Magmar
+|
+|turn|64
+|choice|move 3|move 3
+|
+|move|p1a: Magmar|Confuse Ray|p2a: Ekans
+|-start|p2a: Ekans|confusion
+|-activate|p2a: Ekans|confusion
+|move|p2a: Ekans|Earthquake|p1a: Magmar
+|-supereffective|p1a: Magmar
+|-damage|p1a: Magmar|141\/300
+|
+|turn|65
+|choice|move 4|move 3
+|
+|move|p1a: Magmar|Fire Blast|p2a: Ekans
+|-damage|p2a: Ekans|73\/262 par
+|-activate|p2a: Ekans|confusion
+|-damage|p2a: Ekans|34\/262 par|[from] confusion
+|
+|turn|66
+|choice|move 4|move 3
+|
+|move|p1a: Magmar|Fire Blast|p2a: Ekans
+|-damage|p2a: Ekans|0 fnt
+|faint|p2a: Ekans
+|choice||switch 3
+|
+|switch|p2a: Vaporeon|Vaporeon, L85|144\/395
+|turn|67
+|choice|switch 6|move 2
+|
+|switch|p1a: Slowbro|Slowbro, L79|205\/312 slp
+|move|p2a: Vaporeon|Surf|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|80\/312 slp
+|
+|turn|68
+|choice|move 4|move 3
+|
+|move|p2a: Vaporeon|Body Slam|p1a: Slowbro
+|-damage|p1a: Slowbro|34\/312 slp
+|cant|p1a: Slowbro|slp
+|
+|turn|69
+|c|★Verge88|huoh
+|choice|move 4|move 3
+|
+|move|p2a: Vaporeon|Body Slam|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|choice|switch 6|
+|
+|switch|p1a: Magmar|Magmar, L90|141\/300
+|turn|70
+|c|★aya46|gg
+|choice|move 2|move 2
+|
+|move|p1a: Magmar|Hyper Beam|p2a: Vaporeon|[miss]
+|-miss|p1a: Magmar
+|move|p2a: Vaporeon|Surf|p1a: Magmar
+|-supereffective|p1a: Magmar
+|-damage|p1a: Magmar|0 fnt
+|faint|p1a: Magmar
+|
+|win|aya46
+|player|p1
+|player|p2
+|raw|Verge88's rating: 1508 &rarr; <strong>1482<\/strong><br \/>(-26 for losing)
+|raw|aya46's rating: 1386 &rarr; <strong>1413<\/strong><br \/>(+27 for winning)
+|c|★Verge88|not for me
+|c|★aya46|sorry crit and fre :(
+|c|★Verge88|happens
+|c|★Verge88|gg
+|l|Verge88

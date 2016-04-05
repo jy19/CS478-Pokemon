@@ -1,0 +1,101 @@
+﻿|j|trickster is a fag
+|j|CaptainCarter
+|player|p1|trickster is a fag|169
+|player|p2|CaptainCarter|1
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|40956,59349,1929,62118
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Zubat|Zubat, L96|272\/272
+|switch|p2a: Arcanine|Arcanine, L85|327\/327
+|turn|1
+|choice|move 3|move 4
+|
+|move|p2a: Arcanine|Reflect|p2a: Arcanine
+|-start|p2a: Arcanine|Reflect
+|move|p1a: Zubat|Double-Edge|p2a: Arcanine
+|-damage|p2a: Arcanine|294\/327
+|-damage|p1a: Zubat|264\/272|[from] recoil|[of] p2a: Arcanine
+|
+|turn|2
+|choice|move 4|move 3
+|
+|move|p2a: Arcanine|Fire Blast|p1a: Zubat
+|-crit|p1a: Zubat
+|-damage|p1a: Zubat|0 fnt
+|faint|p1a: Zubat
+|choice|switch 2|
+|
+|switch|p1a: Squirtle|Squirtle, L96|279\/279
+|turn|3
+|choice|move 4|move 2
+|
+|move|p2a: Arcanine|Mimic|p1a: Squirtle
+|-start|p2a: Arcanine|Mimic|Blizzard
+|move|p1a: Squirtle|Surf|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|105\/327
+|
+|turn|4
+|choice|move 4|move 1
+|
+|move|p2a: Arcanine|Hyper Beam|p1a: Squirtle
+|-damage|p1a: Squirtle|161\/279
+|move|p1a: Squirtle|Surf|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|choice||switch 2
+|
+|switch|p2a: Venusaur|Venusaur, L85|310\/310
+|turn|5
+|choice|switch 4|move 1
+|
+|switch|p1a: Mr. Mime|Mr. Mime, L85|242\/242
+|move|p2a: Venusaur|Razor Leaf|p1a: Mr. Mime
+|-crit|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|135\/242
+|
+|turn|6
+|choice|move 2|move 2
+|
+|move|p1a: Mr. Mime|Psychic|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|137\/310
+|-unboost|p2a: Venusaur|spd|1
+|-unboost|p2a: Venusaur|spa|1
+|move|p2a: Venusaur|Leech Seed|p1a: Mr. Mime
+|-start|p1a: Mr. Mime|move: Leech Seed
+|
+|turn|7
+|choice|move 2|switch 6
+|
+|switch|p2a: Weezing|Weezing, L90|300\/300
+|move|p1a: Mr. Mime|Psychic|p2a: Weezing
+|-supereffective|p2a: Weezing
+|-damage|p2a: Weezing|109\/300
+|-damage|p1a: Mr. Mime|120\/242|[from] Leech Seed|[of] p2a: Weezing
+|-heal|p2a: Weezing|124\/300|[silent]
+|
+|turn|8
+|choice|move 2|move 3
+|
+|move|p1a: Mr. Mime|Psychic|p2a: Weezing
+|-crit|p2a: Weezing
+|-supereffective|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|-message|CaptainCarter forfeited.
+|
+|win|trickster is a fag
+|player|p1
+|player|p2
+|l|CaptainCarter
+|raw|trickster is a fag's rating: 1419 &rarr; <strong>1426<\/strong><br \/>(+7 for winning)
+|raw|CaptainCarter's rating: 1151 &rarr; <strong>1142<\/strong><br \/>(-9 for losing)

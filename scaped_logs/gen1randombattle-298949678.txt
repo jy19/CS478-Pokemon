@@ -1,0 +1,296 @@
+﻿|join|Bollowegen
+|join|Aliceia
+|player|p1|Bollowegen|100
+|player|p2|Aliceia|26
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|62327,15013,37857,8400
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Rhydon|Rhydon, L79|328\/328
+|switch|p2a: Ninetales|Ninetales, L85|298\/298
+|turn|1
+|choice|move 1|switch 3
+|
+|switch|p2a: Poliwrath|Poliwrath, L85|327\/327
+|move|p1a: Rhydon|Body Slam|p2a: Poliwrath
+|-damage|p2a: Poliwrath|264\/327
+|-status|p2a: Poliwrath|par
+|
+|turn|2
+|choice|switch 3|move 3
+|
+|switch|p1a: Oddish|Oddish, L96|281\/281
+|cant|p2a: Poliwrath|par
+|
+|turn|3
+|choice|move 4|move 2
+|
+|move|p1a: Oddish|Mega Drain|p2a: Poliwrath
+|-supereffective|p2a: Poliwrath
+|-damage|p2a: Poliwrath|150\/327 par
+|move|p2a: Poliwrath|Blizzard|p1a: Oddish
+|-supereffective|p1a: Oddish
+|-damage|p1a: Oddish|131\/281
+|
+|turn|4
+|choice|move 4|move 2
+|
+|move|p1a: Oddish|Mega Drain|p2a: Poliwrath
+|-supereffective|p2a: Poliwrath
+|-damage|p2a: Poliwrath|36\/327 par
+|-heal|p1a: Oddish|188\/281|[from] drain|[of] p2a: Poliwrath
+|move|p2a: Poliwrath|Blizzard|p1a: Oddish|[miss]
+|-miss|p2a: Poliwrath
+|
+|turn|5
+|choice|move 4|move 2
+|
+|move|p1a: Oddish|Mega Drain|p2a: Poliwrath
+|-crit|p2a: Poliwrath
+|-supereffective|p2a: Poliwrath
+|-damage|p2a: Poliwrath|0 fnt
+|-heal|p1a: Oddish|206\/281|[from] drain|[of] p2a: Poliwrath
+|faint|p2a: Poliwrath
+|choice||switch 3
+|
+|switch|p2a: Ninetales|Ninetales, L85|298\/298
+|turn|6
+|choice|switch 6|move 2
+|
+|switch|p1a: Raichu|Raichu, L85|276\/276
+|move|p2a: Ninetales|Confuse Ray|p1a: Raichu
+|-start|p1a: Raichu|confusion
+|
+|turn|7
+|choice|move 4|move 1
+|
+|move|p2a: Ninetales|Fire Blast|p1a: Raichu
+|-crit|p1a: Raichu
+|-damage|p1a: Raichu|35\/276
+|-activate|p1a: Raichu|confusion
+|-damage|p1a: Raichu|0 fnt|[from] confusion
+|faint|p1a: Raichu
+|choice|switch 3|
+|
+|switch|p1a: Rhydon|Rhydon, L79|328\/328
+|turn|8
+|choice|move 2|switch 4
+|
+|switch|p2a: Slowbro|Slowbro, L79|312\/312
+|move|p1a: Rhydon|Earthquake|p2a: Slowbro
+|-damage|p2a: Slowbro|210\/312
+|
+|turn|9
+|choice|switch 4|move 3
+|
+|switch|p1a: Mew|Mew, L74|300\/300
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|10
+|choice|move 4|move 4
+|
+|move|p1a: Mew|Swords Dance|p1a: Mew
+|-boost|p1a: Mew|atk|2
+|move|p2a: Slowbro|Surf|p1a: Mew
+|-damage|p1a: Mew|137\/300
+|
+|turn|11
+|choice|move 1|move 4
+|
+|move|p1a: Mew|Hyper Beam|p2a: Slowbro|[miss]
+|-miss|p1a: Mew
+|move|p2a: Slowbro|Surf|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|choice|switch 6|
+|
+|switch|p1a: Oddish|Oddish, L96|206\/281
+|turn|12
+|choice|move 4|switch 4
+|
+|switch|p2a: Ninetales|Ninetales, L85|298\/298
+|move|p1a: Oddish|Mega Drain|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|279\/298
+|-heal|p1a: Oddish|215\/281|[from] drain|[of] p2a: Ninetales
+|
+|turn|13
+|choice|move 2|move 2
+|
+|move|p2a: Ninetales|Confuse Ray|p1a: Oddish
+|-start|p1a: Oddish|confusion
+|-activate|p1a: Oddish|confusion
+|move|p1a: Oddish|Double-Edge|p2a: Ninetales
+|-damage|p2a: Ninetales|210\/298
+|-damage|p1a: Oddish|198\/281|[from] recoil|[of] p2a: Ninetales
+|
+|turn|14
+|choice|move 2|move 1
+|
+|move|p2a: Ninetales|Fire Blast|p1a: Oddish
+|-supereffective|p1a: Oddish
+|-damage|p1a: Oddish|0 fnt
+|faint|p1a: Oddish
+|choice|switch 4|
+|
+|switch|p1a: Rhydon|Rhydon, L79|328\/328
+|turn|15
+|choice|move 1|switch 4
+|
+|switch|p2a: Slowbro|Slowbro, L79|210\/312
+|move|p1a: Rhydon|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|153\/312
+|-status|p2a: Slowbro|par
+|
+|turn|16
+|choice|switch 5|move 4
+|
+|switch|p1a: Jolteon|Jolteon, L79|265\/265
+|move|p2a: Slowbro|Surf|p1a: Jolteon
+|-damage|p1a: Jolteon|190\/265
+|
+|turn|17
+|choice|move 1|switch 6
+|
+|switch|p2a: Arcanine|Arcanine, L85|327\/327
+|move|p1a: Jolteon|Thunderbolt|p2a: Arcanine
+|-crit|p2a: Arcanine
+|-damage|p2a: Arcanine|124\/327
+|
+|turn|18
+|choice|move 1|move 4
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Arcanine
+|-damage|p2a: Arcanine|27\/327
+|move|p2a: Arcanine|Fire Blast|p1a: Jolteon
+|-damage|p1a: Jolteon|77\/265
+|
+|turn|19
+|choice|move 1|move 2
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|choice||switch 4
+|
+|switch|p2a: Ninetales|Ninetales, L85|210\/298
+|turn|20
+|choice|switch 5|move 4
+|
+|switch|p1a: Rhydon|Rhydon, L79|328\/328
+|move|p2a: Ninetales|Body Slam|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|304\/328
+|
+|turn|21
+|choice|move 2|switch 6
+|
+|switch|p2a: Slowbro|Slowbro, L79|153\/312 par
+|move|p1a: Rhydon|Earthquake|p2a: Slowbro
+|-damage|p2a: Slowbro|47\/312 par
+|
+|turn|22
+|choice|move 2|move 4
+|
+|move|p1a: Rhydon|Earthquake|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|choice||switch 5
+|
+|switch|p2a: Persian|Persian, L79|265\/265
+|turn|23
+|choice|switch 2|move 4
+|
+|switch|p1a: Primeape|Primeape, L90|300\/300
+|move|p2a: Persian|Bubble Beam|p1a: Primeape
+|-damage|p1a: Primeape|263\/300
+|
+|turn|24
+|choice|move 2|switch 2
+|
+|switch|p2a: Hitmonchan|Hitmonchan, L90|273\/273
+|move|p1a: Primeape|Submission|p2a: Hitmonchan|[miss]
+|-miss|p1a: Primeape
+|
+|turn|25
+|choice|move 1|move 2
+|
+|move|p1a: Primeape|Body Slam|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|194\/273
+|move|p2a: Hitmonchan|Counter|p1a: Primeape
+|-damage|p1a: Primeape|105\/300
+|
+|turn|26
+|choice|move 4|move 2
+|
+|move|p1a: Primeape|Rock Slide|p2a: Hitmonchan
+|-resisted|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|162\/273
+|move|p2a: Hitmonchan|Counter|p1a: Primeape
+|-fail|p2a: Hitmonchan
+|
+|turn|27
+|choice|move 4|move 3
+|
+|move|p1a: Primeape|Rock Slide|p2a: Hitmonchan
+|-resisted|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|132\/273
+|move|p2a: Hitmonchan|Submission|p1a: Primeape
+|-damage|p1a: Primeape|0 fnt
+|-damage|p2a: Hitmonchan|106\/273|[from] recoil|[of] p1a: Primeape
+|faint|p1a: Primeape
+|choice|switch 5|
+|
+|switch|p1a: Jolteon|Jolteon, L79|77\/265
+|turn|28
+|choice|move 1|move 1
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|0 fnt
+|faint|p2a: Hitmonchan
+|choice||switch 2
+|
+|switch|p2a: Persian|Persian, L79|265\/265
+|turn|29
+|choice|move 3|move 1
+|
+|move|p1a: Jolteon|Body Slam|p2a: Persian
+|-damage|p2a: Persian|212\/265
+|move|p2a: Persian|Slash|p1a: Jolteon
+|-crit|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|choice|switch 2|
+|
+|switch|p1a: Rhydon|Rhydon, L79|304\/328
+|turn|30
+|choice|move 1|move 4
+|
+|move|p2a: Persian|Bubble Beam|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|110\/328
+|move|p1a: Rhydon|Body Slam|p2a: Persian
+|-damage|p2a: Persian|130\/265
+|
+|turn|31
+|choice|move 2|move 4
+|
+|move|p2a: Persian|Bubble Beam|p1a: Rhydon
+|-crit|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|
+|win|Aliceia
+|raw|Bollowegen's rating: 1289 &rarr; <strong>1252<\/strong><br \/>(-37 for losing)
+|raw|Aliceia's rating: 1105 &rarr; <strong>1142<\/strong><br \/>(+37 for winning)
+|leave|Bollowegen
+|player|p1

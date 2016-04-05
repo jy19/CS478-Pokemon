@@ -1,0 +1,368 @@
+﻿|join|golderzoa333
+|join|shogux
+|player|p1|golderzoa333|101
+|player|p2|shogux|53
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Arbok|Arbok, L86|279\/279
+|switch|p2a: Rhydon|Rhydon, L80|332\/332
+|turn|1
+|
+|switch|p1a: Charizard|Charizard, L86|310\/310
+|move|p2a: Rhydon|Earthquake|p1a: Charizard
+|-immune|p1a: Charizard|[msg]
+|
+|turn|2
+|
+|move|p1a: Charizard|Earthquake|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|215\/332
+|move|p2a: Rhydon|Rock Slide|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|switch|p1a: Vaporeon|Vaporeon, L86|399\/399
+|turn|3
+|
+|switch|p2a: Seaking|Seaking, L86|313\/313
+|move|p1a: Vaporeon|Blizzard|p2a: Seaking
+|-resisted|p2a: Seaking
+|-damage|p2a: Seaking|264\/313
+|
+|turn|4
+|
+|move|p2a: Seaking|Double-Edge|p1a: Vaporeon
+|-damage|p1a: Vaporeon|307\/399
+|-damage|p2a: Seaking|241\/313|[from] recoil|[of] p1a: Vaporeon
+|move|p1a: Vaporeon|Body Slam|p2a: Seaking
+|-crit|p2a: Seaking
+|-damage|p2a: Seaking|138\/313
+|
+|turn|5
+|
+|move|p2a: Seaking|Double-Edge|p1a: Vaporeon
+|-damage|p1a: Vaporeon|213\/399
+|-damage|p2a: Seaking|115\/313|[from] recoil|[of] p1a: Vaporeon
+|move|p1a: Vaporeon|Body Slam|p2a: Seaking
+|-damage|p2a: Seaking|61\/313
+|
+|turn|6
+|
+|switch|p1a: Electrode|Electrode, L86|279\/279
+|move|p2a: Seaking|Blizzard|p1a: Electrode
+|-damage|p1a: Electrode|204\/279
+|
+|turn|7
+|
+|switch|p2a: Onix|Onix, L86|236\/236
+|move|p1a: Electrode|Flash|p2a: Onix|[miss]
+|-miss|p1a: Electrode
+|
+|turn|8
+|
+|move|p1a: Electrode|Flash|p2a: Onix
+|-unboost|p2a: Onix|accuracy|1
+|move|p2a: Onix|Toxic|p1a: Electrode|[miss]
+|-miss|p2a: Onix
+|
+|turn|9
+|
+|move|p1a: Electrode|Screech|p2a: Onix
+|-unboost|p2a: Onix|def|2
+|move|p2a: Onix|Toxic|p1a: Electrode|[miss]
+|-miss|p2a: Onix
+|
+|turn|10
+|
+|switch|p1a: Arbok|Arbok, L86|279\/279
+|move|p2a: Onix|Earthquake|p1a: Arbok|[miss]
+|-miss|p2a: Onix
+|
+|turn|11
+|c|★shogux|tits
+|c|★golderzoa333|you mist like that word a lot
+|
+|switch|p2a: Seaking|Seaking, L86|61\/313
+|move|p1a: Arbok|Earthquake|p2a: Seaking
+|-damage|p2a: Seaking|0 fnt
+|faint|p2a: Seaking
+|c|★golderzoa333|must*
+|
+|switch|p2a: Rhydon|Rhydon, L80|215\/332
+|turn|12
+|
+|switch|p1a: Dragonite|Dragonite, L80|310\/310
+|move|p2a: Rhydon|Earthquake|p1a: Dragonite
+|-immune|p1a: Dragonite|[msg]
+|
+|turn|13
+|
+|switch|p2a: Lapras|Lapras, L80|372\/372
+|move|p1a: Dragonite|Substitute|p1a: Dragonite
+|-start|p1a: Dragonite|Substitute
+|-damage|p1a: Dragonite|233\/310
+|
+|turn|14
+|c|★golderzoa333|geez no hyper beam on this dragonite what were they thinking
+|
+|move|p1a: Dragonite|Thunder Wave|p2a: Lapras
+|-status|p2a: Lapras|par
+|move|p2a: Lapras|Ice Beam|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-end|p1a: Dragonite|Substitute
+|
+|turn|15
+|
+|move|p1a: Dragonite|Substitute|p1a: Dragonite
+|-start|p1a: Dragonite|Substitute
+|-damage|p1a: Dragonite|156\/310
+|move|p2a: Lapras|Ice Beam|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-end|p1a: Dragonite|Substitute
+|
+|turn|16
+|
+|switch|p1a: Electrode|Electrode, L86|204\/279
+|move|p2a: Lapras|Ice Beam|p1a: Electrode
+|-damage|p1a: Electrode|108\/279
+|
+|turn|17
+|
+|switch|p2a: Onix|Onix, L86|236\/236
+|move|p1a: Electrode|Flash|p2a: Onix
+|-unboost|p2a: Onix|accuracy|1
+|
+|turn|18
+|
+|move|p1a: Electrode|Thunder|p2a: Onix
+|-immune|p2a: Onix|[msg]
+|move|p2a: Onix|Earthquake|p1a: Electrode
+|-supereffective|p1a: Electrode
+|-damage|p1a: Electrode|0 fnt
+|faint|p1a: Electrode
+|
+|switch|p1a: Arbok|Arbok, L86|279\/279
+|turn|19
+|
+|switch|p2a: Hypno|Hypno, L86|322\/322
+|move|p1a: Arbok|Body Slam|p2a: Hypno
+|-crit|p2a: Hypno
+|-damage|p2a: Hypno|204\/322
+|
+|turn|20
+|
+|switch|p1a: Vaporeon|Vaporeon, L86|213\/399
+|move|p2a: Hypno|Thunder Wave|p1a: Vaporeon
+|-status|p1a: Vaporeon|par
+|
+|turn|21
+|
+|move|p2a: Hypno|Psychic|p1a: Vaporeon
+|-damage|p1a: Vaporeon|116\/399 par
+|move|p1a: Vaporeon|Blizzard|p2a: Hypno
+|-damage|p2a: Hypno|130\/322
+|-status|p2a: Hypno|frz
+|
+|turn|22
+|c|★shogux|OMFG
+|c|★golderzoa333|what are the odds
+|
+|switch|p2a: Lapras|Lapras, L80|372\/372 par
+|move|p1a: Vaporeon|Blizzard|p2a: Lapras
+|-resisted|p2a: Lapras
+|-damage|p2a: Lapras|347\/372 par
+|
+|turn|23
+|
+|switch|p1a: Dragonite|Dragonite, L80|156\/310
+|move|p2a: Lapras|Thunderbolt|p1a: Dragonite
+|-damage|p1a: Dragonite|100\/310
+|
+|turn|24
+|
+|move|p1a: Dragonite|Thunder|p2a: Lapras|[miss]
+|-miss|p1a: Dragonite
+|move|p2a: Lapras|Ice Beam|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|switch|p1a: Arbok|Arbok, L86|279\/279
+|turn|25
+|
+|switch|p2a: Hypno|Hypno, L86|130\/322 frz
+|move|p1a: Arbok|Rock Slide|p2a: Hypno
+|-damage|p2a: Hypno|75\/322 frz
+|
+|turn|26
+|
+|switch|p1a: Nidorino|Nidorino, L92|299\/299
+|cant|p2a: Hypno|frz
+|
+|turn|27
+|c|★golderzoa333|free sub lets go
+|
+|switch|p2a: Onix|Onix, L86|236\/236
+|move|p1a: Nidorino|Substitute|p1a: Nidorino
+|-start|p1a: Nidorino|Substitute
+|-damage|p1a: Nidorino|225\/299
+|
+|turn|28
+|
+|move|p1a: Nidorino|Bubble Beam|p2a: Onix
+|-supereffective|p2a: Onix
+|-damage|p2a: Onix|0 fnt
+|faint|p2a: Onix
+|
+|switch|p2a: Lapras|Lapras, L80|347\/372 par
+|turn|29
+|
+|move|p1a: Nidorino|Thunder|p2a: Lapras
+|-crit|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|50\/372 par
+|move|p2a: Lapras|Ice Beam|p1a: Nidorino
+|-end|p1a: Nidorino|Substitute
+|
+|turn|30
+|c|★shogux|omg more hax yaaaaaaaaaay
+|
+|switch|p2a: Hypno|Hypno, L86|75\/322 frz
+|move|p1a: Nidorino|Body Slam|p2a: Hypno
+|-crit|p2a: Hypno
+|-damage|p2a: Hypno|0 fnt
+|faint|p2a: Hypno
+|
+|switch|p2a: Haunter|Haunter, L86|253\/253
+|turn|31
+|
+|switch|p1a: Vaporeon|Vaporeon, L86|116\/399 par
+|move|p2a: Haunter|Confuse Ray|p1a: Vaporeon
+|-start|p1a: Vaporeon|confusion
+|
+|turn|32
+|
+|move|p2a: Haunter|Mega Drain|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|60\/399 par
+|-activate|p1a: Vaporeon|confusion
+|move|p1a: Vaporeon|Hydro Pump|p2a: Haunter|[miss]
+|-miss|p1a: Vaporeon
+|
+|turn|33
+|
+|move|p2a: Haunter|Mega Drain|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|1\/399 par
+|cant|p1a: Vaporeon|par
+|
+|turn|34
+|
+|move|p2a: Haunter|Mega Drain|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|c|★golderzoa333|well i guess that evens it out then
+|
+|switch|p1a: Arbok|Arbok, L86|279\/279
+|turn|35
+|
+|switch|p2a: Lapras|Lapras, L80|50\/372 par
+|move|p1a: Arbok|Earthquake|p2a: Lapras
+|-crit|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|
+|switch|p2a: Rhydon|Rhydon, L80|215\/332
+|turn|36
+|
+|move|p1a: Arbok|Body Slam|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|191\/332
+|-status|p2a: Rhydon|par
+|move|p2a: Rhydon|Earthquake|p1a: Arbok
+|-supereffective|p1a: Arbok
+|-damage|p1a: Arbok|0 fnt
+|faint|p1a: Arbok
+|
+|switch|p1a: Nidorino|Nidorino, L92|225\/299
+|turn|37
+|
+|switch|p2a: Haunter|Haunter, L86|253\/253
+|move|p1a: Nidorino|Substitute|p1a: Nidorino
+|-start|p1a: Nidorino|Substitute
+|-damage|p1a: Nidorino|151\/299
+|
+|turn|38
+|
+|move|p2a: Haunter|Confuse Ray|p1a: Nidorino
+|-fail|p1a: Nidorino
+|move|p1a: Nidorino|Thunder|p2a: Haunter
+|-damage|p2a: Haunter|192\/253
+|
+|turn|39
+|
+|move|p2a: Haunter|Hypnosis|p1a: Nidorino|[miss]
+|-miss|p2a: Haunter
+|move|p1a: Nidorino|Thunder|p2a: Haunter
+|-damage|p2a: Haunter|136\/253
+|
+|turn|40
+|
+|move|p2a: Haunter|Hypnosis|p1a: Nidorino|[miss]
+|-miss|p2a: Haunter
+|move|p1a: Nidorino|Thunder|p2a: Haunter
+|-damage|p2a: Haunter|78\/253
+|
+|turn|41
+|
+|move|p2a: Haunter|Hypnosis|p1a: Nidorino|[miss]
+|-miss|p2a: Haunter
+|move|p1a: Nidorino|Bubble Beam|p2a: Haunter
+|-damage|p2a: Haunter|46\/253
+|
+|turn|42
+|
+|move|p2a: Haunter|Hypnosis|p1a: Nidorino
+|-status|p1a: Nidorino|slp
+|cant|p1a: Nidorino|slp
+|-curestatus|p1a: Nidorino|slp
+|
+|turn|43
+|c|★shogux|TITS
+|c|★shogux|OMG
+|
+|move|p2a: Haunter|Hypnosis|p1a: Nidorino
+|-status|p1a: Nidorino|slp
+|cant|p1a: Nidorino|slp
+|
+|turn|44
+|
+|switch|p2a: Rhydon|Rhydon, L80|191\/332 par
+|cant|p1a: Nidorino|slp
+|
+|turn|45
+|
+|cant|p1a: Nidorino|slp
+|move|p2a: Rhydon|Earthquake|p1a: Nidorino
+|-supereffective|p1a: Nidorino
+|-end|p1a: Nidorino|Substitute
+|
+|turn|46
+|
+|cant|p1a: Nidorino|slp
+|-curestatus|p1a: Nidorino|slp
+|move|p2a: Rhydon|Earthquake|p1a: Nidorino
+|-supereffective|p1a: Nidorino
+|-damage|p1a: Nidorino|0 fnt
+|faint|p1a: Nidorino
+|
+|win|shogux
+|c|★golderzoa333|gg

@@ -1,0 +1,238 @@
+﻿|join|ric30
+|join|silverboom
+|player|p1|ric30|226
+|player|p2|silverboom|201
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Tentacruel|Tentacruel, L85|310\/310
+|switch|p2a: Abra|Abra, L96|243\/243
+|turn|1
+|
+|switch|p1a: Porygon|Porygon, L85|284\/284
+|move|p2a: Abra|Psychic|p1a: Porygon
+|-damage|p1a: Porygon|144\/284
+|
+|turn|2
+|
+|move|p2a: Abra|Psychic|p1a: Porygon
+|-crit|p1a: Porygon
+|-damage|p1a: Porygon|0 fnt
+|faint|p1a: Porygon
+|
+|switch|p1a: Alakazam|Alakazam, L79|249\/249
+|turn|3
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Abra
+|-status|p2a: Abra|par
+|move|p2a: Abra|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|
+|turn|4
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Abra
+|-damage|p2a: Abra|164\/243 par
+|move|p2a: Abra|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|199\/249 par
+|-unboost|p1a: Alakazam|spd|1
+|-unboost|p1a: Alakazam|spa|1
+|
+|turn|5
+|
+|move|p2a: Abra|Psychic|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|92\/249 par
+|move|p1a: Alakazam|Seismic Toss|p2a: Abra
+|-damage|p2a: Abra|85\/243 par
+|
+|turn|6
+|
+|switch|p1a: Aerodactyl|Aerodactyl, L90|327\/327
+|cant|p2a: Abra|par
+|
+|turn|7
+|
+|move|p1a: Aerodactyl|Double-Edge|p2a: Abra
+|-damage|p2a: Abra|0 fnt
+|-damage|p1a: Aerodactyl|306\/327|[from] recoil|[of] p2a: Abra
+|faint|p2a: Abra
+|
+|switch|p2a: Poliwhirl|Poliwhirl, L85|284\/284
+|turn|8
+|
+|switch|p1a: Weepinbell|Weepinbell, L85|284\/284
+|move|p2a: Poliwhirl|Hypnosis|p1a: Weepinbell|[miss]
+|-miss|p2a: Poliwhirl
+|
+|turn|9
+|
+|switch|p2a: Venusaur|Venusaur, L85|310\/310
+|switch|p1a: Alakazam|Alakazam, L79|92\/249 par
+|
+|turn|10
+|
+|move|p2a: Venusaur|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|12\/249 par
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|136\/249 par
+|
+|turn|11
+|
+|move|p2a: Venusaur|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|49\/249 par
+|move|p1a: Alakazam|Psychic|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|113\/310
+|
+|turn|12
+|
+|move|p2a: Venusaur|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|switch|p1a: Weepinbell|Weepinbell, L85|284\/284
+|turn|13
+|
+|move|p2a: Venusaur|Sleep Powder|p1a: Weepinbell
+|-status|p1a: Weepinbell|slp
+|cant|p1a: Weepinbell|slp
+|
+|turn|14
+|
+|switch|p1a: Aerodactyl|Aerodactyl, L90|306\/327
+|move|p2a: Venusaur|Swords Dance|p2a: Venusaur
+|-boost|p2a: Venusaur|atk|2
+|
+|turn|15
+|
+|move|p1a: Aerodactyl|Sky Attack|p2a: Venusaur|[still]
+|-prepare|p1a: Aerodactyl|Sky Attack|p2a: Venusaur
+|move|p2a: Venusaur|Body Slam|p1a: Aerodactyl
+|-resisted|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|244\/327
+|-status|p1a: Aerodactyl|par
+|
+|turn|16
+|
+|switch|p2a: Marowak|Marowak, L90|291\/291
+|move|p1a: Aerodactyl|Sky Attack|p2a: Marowak
+|-damage|p2a: Marowak|134\/291
+|
+|turn|17
+|
+|move|p2a: Marowak|Blizzard|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|82\/327 par
+|move|p1a: Aerodactyl|Reflect|p1a: Aerodactyl
+|-start|p1a: Aerodactyl|Reflect
+|
+|turn|18
+|
+|move|p2a: Marowak|Blizzard|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|0 fnt
+|faint|p1a: Aerodactyl
+|
+|switch|p1a: Tentacruel|Tentacruel, L85|310\/310
+|turn|19
+|
+|switch|p2a: Poliwhirl|Poliwhirl, L85|284\/284
+|move|p1a: Tentacruel|Surf|p2a: Poliwhirl
+|-resisted|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|202\/284
+|
+|turn|20
+|
+|move|p1a: Tentacruel|Swords Dance|p1a: Tentacruel
+|-boost|p1a: Tentacruel|atk|2
+|move|p2a: Poliwhirl|Psychic|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|239\/310
+|
+|turn|21
+|
+|move|p1a: Tentacruel|Swords Dance|p1a: Tentacruel
+|-boost|p1a: Tentacruel|atk|2
+|move|p2a: Poliwhirl|Amnesia|p2a: Poliwhirl
+|-boost|p2a: Poliwhirl|spd|2
+|-boost|p2a: Poliwhirl|spa|2
+|
+|turn|22
+|
+|move|p1a: Tentacruel|Hyper Beam|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|0 fnt
+|faint|p2a: Poliwhirl
+|
+|switch|p2a: Primeape|Primeape, L90|300\/300
+|turn|23
+|
+|move|p2a: Primeape|Mega Kick|p1a: Tentacruel
+|-damage|p1a: Tentacruel|114\/310
+|move|p1a: Tentacruel|Hydro Pump|p2a: Primeape|[miss]
+|-miss|p1a: Tentacruel
+|
+|turn|24
+|
+|switch|p1a: Weepinbell|Weepinbell, L85|284\/284 slp
+|move|p2a: Primeape|Mega Kick|p1a: Weepinbell
+|-damage|p1a: Weepinbell|144\/284 slp
+|
+|turn|25
+|
+|move|p2a: Primeape|Body Slam|p1a: Weepinbell
+|-damage|p1a: Weepinbell|45\/284 slp
+|-curestatus|p1a: Weepinbell|slp
+|
+|turn|26
+|
+|move|p2a: Primeape|Body Slam|p1a: Weepinbell
+|-damage|p1a: Weepinbell|0 fnt
+|faint|p1a: Weepinbell
+|
+|switch|p1a: Electrode|Electrode, L90|291\/291
+|turn|27
+|
+|switch|p2a: Marowak|Marowak, L90|134\/291
+|move|p1a: Electrode|Screech|p2a: Marowak|[miss]
+|-miss|p1a: Electrode
+|
+|turn|28
+|
+|move|p1a: Electrode|Explosion|p2a: Marowak
+|-damage|p2a: Marowak|0 fnt
+|faint|p2a: Marowak
+|faint|p1a: Electrode
+|
+|switch|p2a: Primeape|Primeape, L90|300\/300
+|switch|p1a: Tentacruel|Tentacruel, L85|114\/310
+|turn|29
+|
+|move|p2a: Primeape|Body Slam|p1a: Tentacruel
+|-damage|p1a: Tentacruel|34\/310
+|move|p1a: Tentacruel|Hydro Pump|p2a: Primeape
+|-crit|p2a: Primeape
+|-damage|p2a: Primeape|0 fnt
+|faint|p2a: Primeape
+|
+|switch|p2a: Venusaur|Venusaur, L85|113\/310
+|turn|30
+|
+|move|p1a: Tentacruel|Hyper Beam|p2a: Venusaur
+|-damage|p2a: Venusaur|23\/310
+|move|p2a: Venusaur|Body Slam|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|win|silverboom
+|raw|ric30's rating: 1344 &rarr; <strong>1311<\/strong><br \/>(-33 for losing)
+|raw|silverboom's rating: 1085 &rarr; <strong>1129<\/strong><br \/>(+44 for winning)
+|leave|ric30
+|player|p1

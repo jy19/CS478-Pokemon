@@ -1,0 +1,271 @@
+﻿|j|THE REAL AJ STYLES
+|j|Dervodel1
+|player|p1|THE REAL AJ STYLES|12
+|player|p2|Dervodel1|265
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|59671,34471,50658,63527
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Staryu|Staryu, L90|237\/237
+|switch|p2a: Chansey|Chansey, L79|557\/557
+|turn|1
+|choice|switch 4|move 3
+|
+|switch|p1a: Dugtrio|Dugtrio, L85|233\/233
+|move|p2a: Chansey|Thunder Wave|p1a: Dugtrio
+|-immune|p1a: Dugtrio|[msg]
+|
+|turn|2
+|choice|move 2|move 2
+|
+|move|p1a: Dugtrio|Slash|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|313\/557
+|move|p2a: Chansey|Ice Beam|p1a: Dugtrio
+|-supereffective|p1a: Dugtrio
+|-damage|p1a: Dugtrio|102\/233
+|
+|turn|3
+|choice|move 1|switch 2
+|
+|switch|p2a: Mew|Mew, L74|300\/300
+|move|p1a: Dugtrio|Earthquake|p2a: Mew
+|-damage|p2a: Mew|193\/300
+|
+|turn|4
+|choice|move 2|move 1
+|
+|move|p1a: Dugtrio|Slash|p2a: Mew
+|-crit|p2a: Mew
+|-damage|p2a: Mew|103\/300
+|move|p2a: Mew|Psychic|p1a: Dugtrio
+|-damage|p1a: Dugtrio|23\/233
+|-unboost|p1a: Dugtrio|spd|1
+|-unboost|p1a: Dugtrio|spa|1
+|
+|turn|5
+|choice|move 1|move 1
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Mew
+|-crit|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|choice||switch 5
+|
+|switch|p2a: Ivysaur|Ivysaur, L85|276\/276
+|turn|6
+|choice|switch 6|move 2
+|
+|switch|p1a: Gengar|Gengar, L79|257\/257
+|move|p2a: Ivysaur|Razor Leaf|p1a: Gengar
+|-crit|p1a: Gengar
+|-resisted|p1a: Gengar
+|-damage|p1a: Gengar|218\/257
+|
+|turn|7
+|choice|move 2|move 1
+|
+|move|p1a: Gengar|Psychic|p2a: Ivysaur
+|-supereffective|p2a: Ivysaur
+|-damage|p2a: Ivysaur|142\/276
+|move|p2a: Ivysaur|Leech Seed|p1a: Gengar
+|-start|p1a: Gengar|move: Leech Seed
+|
+|turn|8
+|choice|move 2|switch 6
+|
+|switch|p2a: Starmie|Starmie, L79|257\/257
+|move|p1a: Gengar|Psychic|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|226\/257
+|-damage|p1a: Gengar|202\/257|[from] Leech Seed|[of] p2a: Starmie
+|-heal|p2a: Starmie|242\/257|[silent]
+|
+|turn|9
+|choice|move 1|move 2
+|
+|move|p2a: Starmie|Thunder Wave|p1a: Gengar
+|-status|p1a: Gengar|par
+|move|p1a: Gengar|Hypnosis|p2a: Starmie|[miss]
+|-miss|p1a: Gengar
+|-damage|p1a: Gengar|186\/257 par|[from] Leech Seed|[of] p2a: Starmie
+|-heal|p2a: Starmie|257\/257|[silent]
+|
+|turn|10
+|choice|move 1|switch 6
+|
+|switch|p2a: Ivysaur|Ivysaur, L85|142\/276
+|move|p1a: Gengar|Hypnosis|p2a: Ivysaur
+|-status|p2a: Ivysaur|slp
+|-damage|p1a: Gengar|170\/257 par|[from] Leech Seed|[of] p2a: Ivysaur
+|-heal|p2a: Ivysaur|158\/276 slp|[silent]
+|
+|turn|11
+|choice|move 2|switch 6
+|
+|switch|p2a: Starmie|Starmie, L79|257\/257
+|cant|p1a: Gengar|par
+|-damage|p1a: Gengar|154\/257 par|[from] Leech Seed|[of] p2a: Starmie
+|
+|turn|12
+|choice|move 4|move 3
+|
+|move|p2a: Starmie|Surf|p1a: Gengar
+|-damage|p1a: Gengar|82\/257 par
+|move|p1a: Gengar|Mega Drain|p2a: Starmie
+|-crit|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|139\/257
+|-heal|p1a: Gengar|141\/257 par|[from] drain|[of] p2a: Starmie
+|-damage|p1a: Gengar|125\/257 par|[from] Leech Seed|[of] p2a: Starmie
+|-heal|p2a: Starmie|155\/257|[silent]
+|
+|turn|13
+|choice|move 4|move 4
+|
+|move|p2a: Starmie|Blizzard|p1a: Gengar
+|-damage|p1a: Gengar|59\/257 par
+|move|p1a: Gengar|Mega Drain|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|91\/257
+|-heal|p1a: Gengar|91\/257 par|[from] drain|[of] p2a: Starmie
+|-damage|p1a: Gengar|75\/257 par|[from] Leech Seed|[of] p2a: Starmie
+|-heal|p2a: Starmie|107\/257|[silent]
+|
+|turn|14
+|choice|move 4|move 1
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|235\/257
+|move|p1a: Gengar|Mega Drain|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|178\/257
+|-heal|p1a: Gengar|103\/257 par|[from] drain|[of] p2a: Starmie
+|-damage|p1a: Gengar|87\/257 par|[from] Leech Seed|[of] p2a: Starmie
+|-heal|p2a: Starmie|194\/257|[silent]
+|
+|turn|15
+|choice|move 3|move 3
+|
+|move|p2a: Starmie|Surf|p1a: Gengar
+|-damage|p1a: Gengar|17\/257 par
+|move|p1a: Gengar|Explosion|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|faint|p1a: Gengar
+|choice|switch 6|switch 2
+|
+|switch|p1a: Dugtrio|Dugtrio, L85|23\/233
+|switch|p2a: Chansey|Chansey, L79|313\/557
+|turn|16
+|choice|move 1|move 2
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Chansey
+|-damage|p2a: Chansey|56\/557
+|move|p2a: Chansey|Ice Beam|p1a: Dugtrio
+|-supereffective|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|choice|switch 5|
+|
+|switch|p1a: Persian|Persian, L79|265\/265
+|turn|17
+|choice|move 1|switch 4
+|
+|switch|p2a: Rhydon|Rhydon, L79|328\/328
+|move|p1a: Persian|Slash|p2a: Rhydon
+|-crit|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|286\/328
+|
+|turn|18
+|choice|move 4|move 1
+|
+|move|p1a: Persian|Bubble Beam|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|80\/328
+|move|p2a: Rhydon|Substitute|p2a: Rhydon
+|-fail|p2a: Rhydon|move: Substitute|[weak]
+|
+|turn|19
+|choice|move 4|switch 3
+|
+|switch|p2a: Electrode|Electrode, L90|291\/291
+|move|p1a: Persian|Bubble Beam|p2a: Electrode
+|-damage|p2a: Electrode|259\/291
+|
+|turn|20
+|choice|move 1|move 2
+|
+|move|p2a: Electrode|Thunderbolt|p1a: Persian
+|-damage|p1a: Persian|126\/265
+|move|p1a: Persian|Slash|p2a: Electrode
+|-crit|p2a: Electrode
+|-damage|p2a: Electrode|138\/291
+|
+|turn|21
+|choice|move 2|move 2
+|
+|move|p2a: Electrode|Thunderbolt|p1a: Persian
+|-crit|p1a: Persian
+|-damage|p1a: Persian|0 fnt
+|faint|p1a: Persian
+|choice|switch 2|
+|
+|switch|p1a: Mewtwo|Mewtwo, L70|293\/293
+|turn|22
+|choice|move 1|move 2
+|
+|move|p2a: Electrode|Thunderbolt|p1a: Mewtwo
+|-damage|p1a: Mewtwo|210\/293
+|move|p1a: Mewtwo|Psychic|p2a: Electrode
+|-damage|p2a: Electrode|39\/291
+|
+|turn|23
+|choice|move 1|move 1
+|
+|move|p2a: Electrode|Explosion|p1a: Mewtwo
+|-damage|p1a: Mewtwo|0 fnt
+|faint|p1a: Mewtwo
+|faint|p2a: Electrode
+|choice|switch 4|switch 4
+|
+|switch|p1a: Staryu|Staryu, L90|237\/237
+|switch|p2a: Chansey|Chansey, L79|56\/557
+|turn|24
+|choice|move 2|move 1
+|
+|move|p1a: Staryu|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|choice||switch 6
+|
+|switch|p2a: Ivysaur|Ivysaur, L85|158\/276 slp
+|turn|25
+|choice|move 4|move 2
+|
+|move|p1a: Staryu|Blizzard|p2a: Ivysaur
+|-supereffective|p2a: Ivysaur
+|-damage|p2a: Ivysaur|0 fnt
+|faint|p2a: Ivysaur
+|choice||switch 3
+|
+|switch|p2a: Rhydon|Rhydon, L79|80\/328
+|turn|26
+|choice|move 4|move 4
+|
+|move|p1a: Staryu|Blizzard|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|
+|win|THE REAL AJ STYLES
+|raw|THE REAL AJ STYLES's rating: 1312 &rarr; <strong>1330<\/strong><br \/>(+18 for winning)
+|raw|Dervodel1's rating: 1290 &rarr; <strong>1266<\/strong><br \/>(-24 for losing)

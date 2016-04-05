@@ -1,0 +1,482 @@
+﻿|j|markus1000
+|j|Vashimus
+|player|p1|markus1000|20
+|player|p2|Vashimus|1
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|seed|35652,33348,46984,12358
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gengar|Gengar|323\/323
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|turn|1
+|choice|move 1|move 2
+|
+|move|p1a: Gengar|Hypnosis|p2a: Exeggutor
+|-status|p2a: Exeggutor|slp
+|cant|p2a: Exeggutor|slp
+|
+|turn|2
+|choice|switch 3|switch 2
+|
+|switch|p1a: Moltres|Moltres|383\/383
+|switch|p2a: Chansey|Chansey|703\/703
+|
+|turn|3
+|choice|move 2|move 2
+|
+|move|p1a: Moltres|Fire Spin|p2a: Chansey|[miss]
+|-miss|p1a: Moltres
+|move|p2a: Chansey|Thunderbolt|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|258\/383
+|
+|turn|4
+|choice|switch 3|move 1
+|
+|switch|p1a: Gengar|Gengar|323\/323
+|move|p2a: Chansey|Ice Beam|p1a: Gengar
+|-damage|p1a: Gengar|255\/323
+|
+|turn|5
+|choice|move 2|switch 6
+|
+|switch|p2a: Golem|Golem|363\/363
+|move|p1a: Gengar|Explosion|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|277\/363
+|faint|p1a: Gengar
+|choice|switch 2|
+|
+|switch|p1a: Slowbro|Slowbro|393\/393
+|turn|6
+|choice|move 3|switch 6
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|
+|turn|7
+|choice|move 1|move 2
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|310\/393
+|move|p1a: Slowbro|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|turn|8
+|choice|move 2|move 2
+|
+|move|p1a: Slowbro|Surf|p2a: Chansey
+|-damage|p2a: Chansey|527\/703 par
+|move|p2a: Chansey|Thunderbolt|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|221\/393
+|
+|turn|9
+|choice|move 3|switch 4
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|
+|turn|10
+|choice|move 1|move 2
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|choice|switch 5|
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|turn|11
+|choice|switch 4|switch 4
+|
+|switch|p2a: Chansey|Chansey|527\/703 par
+|switch|p1a: Rhydon|Rhydon|413\/413
+|
+|turn|12
+|choice|move 1|switch 2
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393 slp
+|move|p1a: Rhydon|Earthquake|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|316\/393 slp
+|
+|turn|13
+|choice|move 2|move 2
+|
+|cant|p2a: Exeggutor|slp
+|move|p1a: Rhydon|Rock Slide|p2a: Exeggutor
+|-damage|p2a: Exeggutor|206\/393 slp
+|
+|turn|14
+|choice|move 2|move 3
+|
+|cant|p2a: Exeggutor|slp
+|move|p1a: Rhydon|Rock Slide|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|choice||switch 6
+|
+|switch|p2a: Golem|Golem|277\/363
+|turn|15
+|choice|switch 3|move 2
+|
+|switch|p1a: Moltres|Moltres|258\/383
+|move|p2a: Golem|Earthquake|p1a: Moltres
+|-immune|p1a: Moltres|[msg]
+|
+|turn|16
+|choice|switch 6|move 1
+|
+|switch|p1a: Victreebel|Victreebel|363\/363
+|move|p2a: Golem|Rock Slide|p1a: Victreebel
+|-damage|p1a: Victreebel|244\/363
+|
+|turn|17
+|choice|move 2|switch 5
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Victreebel|Swords Dance|p1a: Victreebel
+|-boost|p1a: Victreebel|atk|2
+|
+|turn|18
+|choice|move 1|move 1
+|
+|move|p1a: Victreebel|Sleep Powder|p2a: Snorlax
+|-status|p2a: Snorlax|slp
+|cant|p2a: Snorlax|slp
+|
+|turn|19
+|choice|move 4|move 4
+|
+|move|p1a: Victreebel|Razor Leaf|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|362\/523 slp
+|cant|p2a: Snorlax|slp
+|
+|turn|20
+|choice|move 4|move 1
+|
+|move|p1a: Victreebel|Razor Leaf|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|195\/523 slp
+|-curestatus|p2a: Snorlax|slp
+|
+|turn|21
+|choice|move 1|move 4
+|
+|move|p1a: Victreebel|Sleep Powder|p2a: Snorlax
+|-status|p2a: Snorlax|slp
+|cant|p2a: Snorlax|slp
+|
+|turn|22
+|choice|move 4|move 4
+|
+|move|p1a: Victreebel|Razor Leaf|p2a: Snorlax|[miss]
+|-miss|p1a: Victreebel
+|cant|p2a: Snorlax|slp
+|
+|turn|23
+|choice|move 4|move 4
+|
+|move|p1a: Victreebel|Razor Leaf|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|20\/523 slp
+|cant|p2a: Snorlax|slp
+|
+|turn|24
+|choice|move 4|move 4
+|
+|move|p1a: Victreebel|Razor Leaf|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|choice||switch 3
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|25
+|choice|move 1|move 3
+|
+|move|p2a: Tauros|Blizzard|p1a: Victreebel
+|-supereffective|p1a: Victreebel
+|-damage|p1a: Victreebel|104\/363
+|move|p1a: Victreebel|Sleep Powder|p2a: Tauros
+|-status|p2a: Tauros|slp
+|
+|turn|26
+|choice|move 4|switch 5
+|
+|switch|p2a: Golem|Golem|277\/363
+|move|p1a: Victreebel|Razor Leaf|p2a: Golem
+|-crit|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|choice||switch 4
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|turn|27
+|choice|switch 4|move 1
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Starmie|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|611\/703
+|
+|turn|28
+|choice|move 4|switch 5
+|
+|switch|p2a: Tauros|Tauros|353\/353 slp
+|move|p1a: Chansey|Thunderbolt|p2a: Tauros
+|-damage|p2a: Tauros|250\/353 slp
+|
+|turn|29
+|choice|move 4|move 1
+|
+|cant|p2a: Tauros|slp
+|move|p1a: Chansey|Thunderbolt|p2a: Tauros
+|-damage|p2a: Tauros|157\/353 slp
+|
+|turn|30
+|choice|switch 6|move 1
+|
+|switch|p1a: Moltres|Moltres|258\/383
+|cant|p2a: Tauros|slp
+|
+|turn|31
+|choice|move 1|move 3
+|
+|-curestatus|p2a: Tauros|slp
+|move|p1a: Moltres|Fire Blast|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|choice||switch 5
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|turn|32
+|choice|switch 6|move 1
+|
+|switch|p1a: Chansey|Chansey|611\/703
+|move|p2a: Starmie|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|513\/703
+|-status|p1a: Chansey|frz
+|
+|turn|33
+|choice|move 4|move 1
+|
+|move|p2a: Starmie|Blizzard|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|339\/703 frz
+|cant|p1a: Chansey|frz
+|
+|turn|34
+|c|★markus1000|ha thats gen 1 for you
+|choice|move 4|move 2
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|272\/703 frz
+|cant|p1a: Chansey|frz
+|
+|turn|35
+|choice|move 4|move 1
+|
+|move|p2a: Starmie|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|179\/703 frz
+|cant|p1a: Chansey|frz
+|
+|turn|36
+|choice|move 4|move 2
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|108\/703 frz
+|cant|p1a: Chansey|frz
+|
+|turn|37
+|choice|switch 3|move 2
+|
+|switch|p1a: Rhydon|Rhydon|413\/413
+|move|p2a: Starmie|Thunderbolt|p1a: Rhydon
+|-immune|p1a: Rhydon|[msg]
+|
+|turn|38
+|choice|switch 3|move 1
+|
+|switch|p1a: Chansey|Chansey|108\/703 frz
+|move|p2a: Starmie|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|13\/703 frz
+|
+|turn|39
+|choice|move 3|move 2
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|choice|switch 6|
+|
+|switch|p1a: Moltres|Moltres|258\/383
+|turn|40
+|choice|move 1|move 2
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|129\/383
+|move|p1a: Moltres|Fire Blast|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|236\/323
+|
+|turn|41
+|choice|move 1|move 2
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|10\/383
+|move|p1a: Moltres|Fire Blast|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|151\/323
+|
+|turn|42
+|choice|move 1|move 3
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|312\/323
+|move|p1a: Moltres|Fire Blast|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|229\/323
+|
+|turn|43
+|choice|move 1|move 3
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|323\/323
+|move|p1a: Moltres|Fire Blast|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|236\/323
+|-status|p2a: Starmie|brn
+|
+|turn|44
+|choice|switch 3|move 2
+|
+|switch|p1a: Rhydon|Rhydon|413\/413
+|move|p2a: Starmie|Thunderbolt|p1a: Rhydon
+|-immune|p1a: Rhydon|[msg]
+|-damage|p2a: Starmie|216\/323 brn|[from] brn|[of] p1a: Rhydon
+|
+|turn|45
+|choice|move 1|move 1
+|
+|move|p2a: Starmie|Blizzard|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|115\/413
+|-damage|p2a: Starmie|196\/323 brn|[from] brn|[of] p1a: Rhydon
+|move|p1a: Rhydon|Earthquake|p2a: Starmie
+|-damage|p2a: Starmie|27\/323 brn
+|
+|turn|46
+|choice|switch 3|move 3
+|
+|switch|p1a: Moltres|Moltres|10\/383
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|188\/323 brn
+|-damage|p2a: Starmie|168\/323 brn|[from] brn
+|
+|turn|47
+|choice|switch 3|move 3
+|
+|switch|p1a: Rhydon|Rhydon|115\/413
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|323\/323 brn
+|-damage|p2a: Starmie|303\/323 brn|[from] brn
+|
+|turn|48
+|choice|switch 3|move 1
+|
+|switch|p1a: Moltres|Moltres|10\/383
+|move|p2a: Starmie|Blizzard|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|choice|switch 3|
+|
+|switch|p1a: Rhydon|Rhydon|115\/413
+|turn|49
+|choice|switch 4|move 1
+|
+|switch|p1a: Victreebel|Victreebel|104\/363
+|move|p2a: Starmie|Blizzard|p1a: Victreebel
+|-supereffective|p1a: Victreebel
+|-damage|p1a: Victreebel|0 fnt
+|faint|p1a: Victreebel
+|choice|switch 4|
+|
+|switch|p1a: Rhydon|Rhydon|115\/413
+|turn|50
+|choice|move 1|move 3
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|323\/323 brn
+|-damage|p2a: Starmie|303\/323 brn|[from] brn
+|move|p1a: Rhydon|Earthquake|p2a: Starmie
+|-damage|p2a: Starmie|145\/323 brn
+|
+|turn|51
+|choice|move 2|move 3
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|306\/323 brn
+|-damage|p2a: Starmie|286\/323 brn|[from] brn
+|move|p1a: Rhydon|Rock Slide|p2a: Starmie
+|-damage|p2a: Starmie|174\/323 brn
+|
+|turn|52
+|choice|move 2|move 3
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|323\/323 brn
+|-damage|p2a: Starmie|303\/323 brn|[from] brn
+|move|p1a: Rhydon|Rock Slide|p2a: Starmie
+|-damage|p2a: Starmie|182\/323 brn
+|
+|turn|53
+|choice|move 2|move 2
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Rhydon
+|-immune|p1a: Rhydon|[msg]
+|-damage|p2a: Starmie|162\/323 brn|[from] brn|[of] p1a: Rhydon
+|move|p1a: Rhydon|Rock Slide|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|choice||switch 2
+|
+|switch|p2a: Chansey|Chansey|527\/703 par
+|turn|54
+|choice|move 1|move 1
+|
+|move|p1a: Rhydon|Earthquake|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|win|markus1000
+|player|p1
+|player|p2
+|raw|markus1000's rating: 1140 &rarr; <strong>1166<\/strong><br \/>(+26 for winning)
+|raw|Vashimus's rating: 1154 &rarr; <strong>1128<\/strong><br \/>(-26 for losing)
+|l|Vashimus
+|c|★markus1000|gg

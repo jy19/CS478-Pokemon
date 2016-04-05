@@ -1,0 +1,243 @@
+﻿|join|Large John
+|join|Lusch
+|player|p1|Large John|124
+|player|p2|Lusch|153
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Raichu|Raichu, L85|276\/276
+|switch|p2a: Pidgey|Pidgey, L96|272\/272
+|turn|1
+|
+|switch|p2a: Tangela|Tangela, L85|284\/284
+|move|p1a: Raichu|Surf|p2a: Tangela
+|-resisted|p2a: Tangela
+|-damage|p2a: Tangela|254\/284
+|
+|turn|2
+|
+|switch|p1a: Nidorina|Nidorina, L90|309\/309
+|move|p2a: Tangela|Sleep Powder|p1a: Nidorina|[miss]
+|-miss|p2a: Tangela
+|
+|turn|3
+|
+|move|p1a: Nidorina|Thunder|p2a: Tangela|[miss]
+|-miss|p1a: Nidorina
+|move|p2a: Tangela|Sleep Powder|p1a: Nidorina|[miss]
+|-miss|p2a: Tangela
+|
+|turn|4
+|
+|move|p1a: Nidorina|Thunder|p2a: Tangela|[miss]
+|-miss|p1a: Nidorina
+|move|p2a: Tangela|Sleep Powder|p1a: Nidorina
+|-status|p1a: Nidorina|slp
+|
+|turn|5
+|
+|switch|p1a: Muk|Muk, L85|352\/352
+|move|p2a: Tangela|Growth|p2a: Tangela
+|-boost|p2a: Tangela|spa|1
+|-boost|p2a: Tangela|spd|1
+|
+|turn|6
+|
+|move|p2a: Tangela|Growth|p2a: Tangela
+|-boost|p2a: Tangela|spa|1
+|-boost|p2a: Tangela|spd|1
+|move|p1a: Muk|Screech|p2a: Tangela
+|-unboost|p2a: Tangela|def|2
+|
+|turn|7
+|
+|switch|p2a: Omastar|Omastar, L85|293\/293
+|move|p1a: Muk|Sludge|p2a: Omastar
+|-resisted|p2a: Omastar
+|-damage|p2a: Omastar|265\/293
+|
+|turn|8
+|
+|switch|p1a: Raichu|Raichu, L85|276\/276
+|move|p2a: Omastar|Hydro Pump|p1a: Raichu
+|-damage|p1a: Raichu|136\/276
+|
+|turn|9
+|
+|switch|p2a: Tangela|Tangela, L85|254\/284
+|move|p1a: Raichu|Thunderbolt|p2a: Tangela
+|-resisted|p2a: Tangela
+|-damage|p2a: Tangela|212\/284
+|
+|turn|10
+|
+|switch|p2a: Omastar|Omastar, L85|265\/293
+|move|p1a: Raichu|Thunder Wave|p2a: Omastar
+|-status|p2a: Omastar|par
+|
+|turn|11
+|
+|switch|p2a: Tangela|Tangela, L85|212\/284
+|move|p1a: Raichu|Thunderbolt|p2a: Tangela
+|-resisted|p2a: Tangela
+|-damage|p2a: Tangela|168\/284
+|-status|p2a: Tangela|par
+|
+|turn|12
+|
+|switch|p1a: Muk|Muk, L85|352\/352
+|move|p2a: Tangela|Mega Drain|p1a: Muk
+|-resisted|p1a: Muk
+|-damage|p1a: Muk|328\/352
+|-heal|p2a: Tangela|180\/284 par|[from] drain|[of] p1a: Muk
+|
+|turn|13
+|
+|switch|p2a: Omastar|Omastar, L85|265\/293 par
+|move|p1a: Muk|Screech|p2a: Omastar|[miss]
+|-miss|p1a: Muk
+|
+|turn|14
+|
+|move|p1a: Muk|Screech|p2a: Omastar
+|-unboost|p2a: Omastar|def|2
+|move|p2a: Omastar|Hydro Pump|p1a: Muk
+|-damage|p1a: Muk|167\/352
+|
+|turn|15
+|
+|switch|p2a: Weezing|Weezing, L85|284\/284
+|move|p1a: Muk|Sludge|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|254\/284
+|
+|turn|16
+|
+|move|p2a: Weezing|Fire Blast|p1a: Muk
+|-damage|p1a: Muk|79\/352
+|move|p1a: Muk|Body Slam|p2a: Weezing
+|-damage|p2a: Weezing|202\/284
+|
+|turn|17
+|
+|move|p2a: Weezing|Fire Blast|p1a: Muk|[miss]
+|-miss|p2a: Weezing
+|move|p1a: Muk|Explosion|p2a: Weezing
+|-damage|p2a: Weezing|10\/284
+|faint|p1a: Muk
+|
+|switch|p1a: Zapdos|Zapdos, L79|304\/304
+|turn|18
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|
+|switch|p2a: Farfetch'd|Farfetch'd, L99|304\/304
+|turn|19
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Farfetch'd
+|-supereffective|p2a: Farfetch'd
+|-damage|p2a: Farfetch'd|56\/304
+|move|p2a: Farfetch'd|Toxic|p1a: Zapdos|[miss]
+|-miss|p2a: Farfetch'd
+|
+|turn|20
+|c|★Lusch|lol
+|c|★Lusch|i have absolutely no chance against zapdos with my team
+|
+|switch|p2a: Tangela|Tangela, L85|180\/284 par
+|move|p1a: Zapdos|Thunderbolt|p2a: Tangela
+|-resisted|p2a: Tangela
+|-damage|p2a: Tangela|131\/284 par
+|
+|turn|21
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Tangela
+|-supereffective|p2a: Tangela
+|-damage|p2a: Tangela|6\/284 par
+|cant|p2a: Tangela|par
+|
+|turn|22
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Tangela
+|-resisted|p2a: Tangela
+|-damage|p2a: Tangela|0 fnt
+|faint|p2a: Tangela
+|
+|switch|p2a: Pidgey|Pidgey, L96|272\/272
+|turn|23
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Pidgey
+|-supereffective|p2a: Pidgey
+|-damage|p2a: Pidgey|0 fnt
+|faint|p2a: Pidgey
+|
+|switch|p2a: Omastar|Omastar, L85|265\/293 par
+|turn|24
+|c|★Large John|yeah you got a very tbolt-weak team
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Omastar
+|-supereffective|p2a: Omastar
+|-damage|p2a: Omastar|90\/293 par
+|move|p2a: Omastar|Blizzard|p1a: Zapdos|[miss]
+|-miss|p2a: Omastar
+|
+|turn|25
+|
+|switch|p2a: Oddish|Oddish, L96|281\/281
+|move|p1a: Zapdos|Thunderbolt|p2a: Oddish
+|-resisted|p2a: Oddish
+|-damage|p2a: Oddish|228\/281
+|
+|turn|26
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Oddish
+|-supereffective|p2a: Oddish
+|-damage|p2a: Oddish|57\/281
+|move|p2a: Oddish|Double-Edge|p1a: Zapdos
+|-damage|p1a: Zapdos|238\/304
+|-damage|p2a: Oddish|41\/281|[from] recoil|[of] p1a: Zapdos
+|
+|turn|27
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Oddish
+|-supereffective|p2a: Oddish
+|-damage|p2a: Oddish|0 fnt
+|faint|p2a: Oddish
+|c|★Lusch|and two grass types that resist tbolt but are weak to drill peck
+|c|★Lusch|sone of which knew stun spore
+|c|★Lusch|so i culdnt even have hoped for hax^^
+|c|★Lusch|*none
+|
+|switch|p2a: Omastar|Omastar, L85|90\/293 par
+|turn|28
+|c|★Large John|yeah that sucks
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Omastar
+|-supereffective|p2a: Omastar
+|-damage|p2a: Omastar|0 fnt
+|faint|p2a: Omastar
+|c|★Lusch|well thats randbats
+|c|★Lusch|but im pretty sure i have never had a team that had such a small chance against the opposing team
+|
+|switch|p2a: Farfetch'd|Farfetch'd, L99|56\/304
+|turn|29
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Farfetch'd
+|-supereffective|p2a: Farfetch'd
+|-damage|p2a: Farfetch'd|0 fnt
+|faint|p2a: Farfetch'd
+|
+|win|Large John
+|raw|Ladder updating...
+|raw|Large John's rating: 1381 &rarr; <strong>1395<\/strong><br \/>(+14 for winning)
+|raw|Lusch's rating: 1261 &rarr; <strong>1245<\/strong><br \/>(-16 for losing)
+|leave|Large John
+|player|p1

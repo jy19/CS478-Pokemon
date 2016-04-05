@@ -1,0 +1,411 @@
+﻿|join|Psychedelic Trip
+|join|sddgrtyh
+|player|p1|Psychedelic Trip|168
+|player|p2|sddgrtyh|101
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jolteon|Jolteon, L79|265\/265
+|switch|p2a: Vileplume|Vileplume, L85|301\/301
+|turn|1
+|
+|move|p1a: Jolteon|Sand Attack|p2a: Vileplume
+|-unboost|p2a: Vileplume|accuracy|1
+|move|p2a: Vileplume|Sleep Powder|p1a: Jolteon
+|-status|p1a: Jolteon|slp
+|
+|turn|2
+|
+|switch|p1a: Charmeleon|Charmeleon, L85|272\/272
+|switch|p2a: Machop|Machop, L96|329\/329
+|
+|turn|3
+|
+|switch|p1a: Beedrill|Beedrill, L85|284\/284
+|move|p2a: Machop|Earthquake|p1a: Beedrill
+|-damage|p1a: Beedrill|156\/284
+|
+|turn|4
+|
+|move|p1a: Beedrill|Twineedle|p2a: Machop|[miss]
+|-miss|p1a: Beedrill
+|move|p2a: Machop|Body Slam|p1a: Beedrill
+|-damage|p1a: Beedrill|59\/284
+|
+|turn|5
+|
+|switch|p1a: Slowbro|Slowbro, L79|312\/312
+|move|p2a: Machop|Body Slam|p1a: Slowbro
+|-damage|p1a: Slowbro|255\/312
+|
+|turn|6
+|
+|move|p2a: Machop|Body Slam|p1a: Slowbro
+|-damage|p1a: Slowbro|197\/312
+|-status|p1a: Slowbro|par
+|move|p1a: Slowbro|Thunder Wave|p2a: Machop
+|-status|p2a: Machop|par
+|
+|turn|7
+|
+|switch|p2a: Starmie|Starmie, L79|257\/257
+|cant|p1a: Slowbro|par
+|
+|turn|8
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|67\/312 par
+|move|p1a: Slowbro|Thunder Wave|p2a: Starmie
+|-status|p2a: Starmie|par
+|
+|turn|9
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|
+|switch|p1a: Jolteon|Jolteon, L79|265\/265 slp
+|turn|10
+|
+|switch|p2a: Machop|Machop, L96|329\/329 par
+|cant|p1a: Jolteon|slp
+|
+|turn|11
+|
+|switch|p1a: Sandslash|Sandslash, L85|301\/301
+|move|p2a: Machop|Body Slam|p1a: Sandslash
+|-damage|p1a: Sandslash|241\/301
+|
+|turn|12
+|
+|switch|p2a: Poliwhirl|Poliwhirl, L85|284\/284
+|move|p1a: Sandslash|Earthquake|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|149\/284
+|
+|turn|13
+|
+|move|p2a: Poliwhirl|Amnesia|p2a: Poliwhirl
+|-boost|p2a: Poliwhirl|spd|2
+|-boost|p2a: Poliwhirl|spa|2
+|move|p1a: Sandslash|Earthquake|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|19\/284
+|
+|turn|14
+|
+|move|p2a: Poliwhirl|Blizzard|p1a: Sandslash|[miss]
+|-miss|p2a: Poliwhirl
+|move|p1a: Sandslash|Body Slam|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|0 fnt
+|faint|p2a: Poliwhirl
+|
+|switch|p2a: Starmie|Starmie, L79|257\/257 par
+|turn|15
+|
+|switch|p1a: Jolteon|Jolteon, L79|265\/265 slp
+|cant|p2a: Starmie|par
+|
+|turn|16
+|
+|cant|p1a: Jolteon|slp
+|move|p2a: Starmie|Thunder Wave|p1a: Jolteon|[miss]
+|-miss|p2a: Starmie
+|
+|turn|17
+|
+|cant|p1a: Jolteon|slp
+|move|p2a: Starmie|Thunder Wave|p1a: Jolteon
+|-fail|p1a: Jolteon
+|
+|turn|18
+|
+|cant|p1a: Jolteon|slp
+|-curestatus|p1a: Jolteon|slp
+|move|p2a: Starmie|Thunder Wave|p1a: Jolteon
+|-status|p1a: Jolteon|par
+|
+|turn|19
+|
+|switch|p2a: Vileplume|Vileplume, L85|301\/301
+|move|p1a: Jolteon|Thunderbolt|p2a: Vileplume
+|-resisted|p2a: Vileplume
+|-damage|p2a: Vileplume|258\/301
+|
+|turn|20
+|
+|switch|p1a: Beedrill|Beedrill, L85|59\/284
+|move|p2a: Vileplume|Sleep Powder|p1a: Beedrill
+|-status|p1a: Beedrill|slp
+|
+|turn|21
+|
+|switch|p1a: Charmeleon|Charmeleon, L85|272\/272
+|move|p2a: Vileplume|Swords Dance|p2a: Vileplume
+|-boost|p2a: Vileplume|atk|2
+|
+|turn|22
+|
+|switch|p2a: Starmie|Starmie, L79|257\/257 par
+|move|p1a: Charmeleon|Slash|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|170\/257 par
+|
+|turn|23
+|
+|switch|p1a: Beedrill|Beedrill, L85|59\/284 slp
+|cant|p2a: Starmie|par
+|
+|turn|24
+|
+|cant|p1a: Beedrill|slp
+|-curestatus|p1a: Beedrill|slp
+|cant|p2a: Starmie|par
+|
+|turn|25
+|
+|switch|p2a: Gengar|Gengar, L79|257\/257
+|move|p1a: Beedrill|Twineedle|p2a: Gengar
+|-damage|p2a: Gengar|225\/257
+|-damage|p2a: Gengar|193\/257
+|-hitcount|p2a: Gengar|2
+|
+|turn|26
+|
+|move|p2a: Gengar|Psychic|p1a: Beedrill
+|-supereffective|p1a: Beedrill
+|-damage|p1a: Beedrill|0 fnt
+|faint|p1a: Beedrill
+|
+|switch|p1a: Sandslash|Sandslash, L85|241\/301
+|turn|27
+|
+|move|p2a: Gengar|Hypnosis|p1a: Sandslash|[miss]
+|-miss|p2a: Gengar
+|move|p1a: Sandslash|Earthquake|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|c|★sddgrtyh|wanna get luckier
+|c|★sddgrtyh|my god
+|
+|switch|p2a: Vileplume|Vileplume, L85|258\/301
+|turn|28
+|
+|switch|p1a: Jolteon|Jolteon, L79|265\/265 par
+|move|p2a: Vileplume|Sleep Powder|p1a: Jolteon
+|-fail|p1a: Jolteon
+|
+|turn|29
+|
+|move|p2a: Vileplume|Body Slam|p1a: Jolteon
+|-damage|p1a: Jolteon|193\/265 par
+|move|p1a: Jolteon|Thunder Wave|p2a: Vileplume
+|-status|p2a: Vileplume|par
+|
+|turn|30
+|
+|move|p1a: Jolteon|Sand Attack|p2a: Vileplume
+|-unboost|p2a: Vileplume|accuracy|1
+|move|p2a: Vileplume|Body Slam|p1a: Jolteon
+|-damage|p1a: Jolteon|120\/265 par
+|
+|turn|31
+|
+|switch|p2a: Tauros|Tauros, L79|280\/280
+|move|p1a: Jolteon|Pin Missile|p2a: Tauros
+|-damage|p2a: Tauros|272\/280
+|-damage|p2a: Tauros|264\/280
+|-damage|p2a: Tauros|256\/280
+|-damage|p2a: Tauros|248\/280
+|-damage|p2a: Tauros|240\/280
+|-hitcount|p2a: Tauros|5
+|
+|turn|32
+|
+|switch|p1a: Sandslash|Sandslash, L85|241\/301
+|move|p2a: Tauros|Earthquake|p1a: Sandslash
+|-damage|p1a: Sandslash|181\/301
+|
+|turn|33
+|
+|move|p2a: Tauros|Blizzard|p1a: Sandslash
+|-supereffective|p1a: Sandslash
+|-damage|p1a: Sandslash|23\/301
+|-status|p1a: Sandslash|frz
+|cant|p1a: Sandslash|frz
+|
+|turn|34
+|
+|switch|p2a: Starmie|Starmie, L79|170\/257 par
+|cant|p1a: Sandslash|frz
+|
+|turn|35
+|
+|switch|p1a: Jolteon|Jolteon, L79|120\/265 par
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|257\/257 par
+|
+|turn|36
+|
+|switch|p2a: Machop|Machop, L96|329\/329 par
+|move|p1a: Jolteon|Thunderbolt|p2a: Machop
+|-damage|p2a: Machop|183\/329 par
+|
+|turn|37
+|
+|switch|p1a: Sandslash|Sandslash, L85|23\/301 frz
+|move|p2a: Machop|Earthquake|p1a: Sandslash
+|-damage|p1a: Sandslash|0 fnt
+|faint|p1a: Sandslash
+|
+|switch|p1a: Geodude|Geodude, L96|272\/272
+|turn|38
+|
+|move|p1a: Geodude|Body Slam|p2a: Machop
+|-damage|p2a: Machop|105\/329 par
+|cant|p2a: Machop|par
+|
+|turn|39
+|
+|move|p1a: Geodude|Earthquake|p2a: Machop
+|-damage|p2a: Machop|0 fnt
+|faint|p2a: Machop
+|
+|switch|p2a: Vileplume|Vileplume, L85|258\/301 par
+|turn|40
+|
+|switch|p1a: Charmeleon|Charmeleon, L85|272\/272
+|move|p2a: Vileplume|Sleep Powder|p1a: Charmeleon
+|-status|p1a: Charmeleon|slp
+|
+|turn|41
+|
+|cant|p1a: Charmeleon|slp
+|move|p2a: Vileplume|Body Slam|p1a: Charmeleon
+|-damage|p1a: Charmeleon|204\/272 slp
+|
+|turn|42
+|
+|switch|p2a: Starmie|Starmie, L79|257\/257 par
+|cant|p1a: Charmeleon|slp
+|-curestatus|p1a: Charmeleon|slp
+|
+|turn|43
+|
+|move|p1a: Charmeleon|Slash|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|173\/257 par
+|move|p2a: Starmie|Blizzard|p1a: Charmeleon
+|-crit|p1a: Charmeleon
+|-damage|p1a: Charmeleon|28\/272
+|
+|turn|44
+|
+|move|p1a: Charmeleon|Slash|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|97\/257 par
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|225\/257 par
+|
+|turn|45
+|
+|move|p1a: Charmeleon|Slash|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|140\/257 par
+|cant|p2a: Starmie|par
+|
+|turn|46
+|
+|move|p1a: Charmeleon|Slash|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|55\/257 par
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|183\/257 par
+|
+|turn|47
+|
+|move|p1a: Charmeleon|Slash|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|93\/257 par
+|move|p2a: Starmie|Thunder Wave|p1a: Charmeleon
+|-status|p1a: Charmeleon|par
+|
+|turn|48
+|
+|switch|p1a: Jolteon|Jolteon, L79|120\/265 par
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|221\/257 par
+|
+|turn|49
+|
+|switch|p2a: Vileplume|Vileplume, L85|258\/301 par
+|move|p1a: Jolteon|Thunderbolt|p2a: Vileplume
+|-resisted|p2a: Vileplume
+|-damage|p2a: Vileplume|217\/301 par
+|
+|turn|50
+|
+|cant|p1a: Jolteon|par
+|move|p2a: Vileplume|Body Slam|p1a: Jolteon
+|-damage|p1a: Jolteon|44\/265 par
+|
+|turn|51
+|
+|move|p1a: Jolteon|Sand Attack|p2a: Vileplume
+|-unboost|p2a: Vileplume|accuracy|1
+|move|p2a: Vileplume|Body Slam|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|switch|p1a: Charmeleon|Charmeleon, L85|28\/272 par
+|turn|52
+|
+|move|p1a: Charmeleon|Slash|p2a: Vileplume
+|-crit|p2a: Vileplume
+|-damage|p2a: Vileplume|138\/301 par
+|cant|p2a: Vileplume|par
+|
+|turn|53
+|
+|move|p1a: Charmeleon|Slash|p2a: Vileplume
+|-crit|p2a: Vileplume
+|-damage|p2a: Vileplume|60\/301 par
+|cant|p2a: Vileplume|par
+|
+|turn|54
+|c|★sddgrtyh|you're fucking terrible, you realize if no insaaane hax this isnt even remotely close
+|
+|move|p1a: Charmeleon|Slash|p2a: Vileplume
+|-crit|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|
+|switch|p2a: Starmie|Starmie, L79|221\/257 par
+|turn|55
+|
+|move|p2a: Starmie|Blizzard|p1a: Charmeleon
+|-damage|p1a: Charmeleon|0 fnt
+|faint|p1a: Charmeleon
+|
+|switch|p1a: Geodude|Geodude, L96|272\/272
+|turn|56
+|
+|move|p1a: Geodude|Explosion|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|faint|p1a: Geodude
+|
+|win|sddgrtyh
+|raw|Ladder updating...
+|raw|Psychedelic Trip's rating: 1253 &rarr; <strong>1214<\/strong><br \/>(-39 for losing)
+|raw|sddgrtyh's rating: 1033 &rarr; <strong>1087<\/strong><br \/>(+54 for winning)
+|c|★sddgrtyh|get fucked
+|leave|Psychedelic Trip
+|player|p1

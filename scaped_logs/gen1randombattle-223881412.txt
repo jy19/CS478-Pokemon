@@ -1,0 +1,270 @@
+﻿|join|SunaKi10
+|join|bpizzizzle
+|player|p1|SunaKi10|116
+|player|p2|bpizzizzle|252
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Rattata|Rattata, L96|252\/252
+|switch|p2a: Magmar|Magmar, L85|284\/284
+|turn|1
+|
+|move|p2a: Magmar|Fire Blast|p1a: Rattata
+|-damage|p1a: Rattata|73\/252
+|move|p1a: Rattata|Bubble Beam|p2a: Magmar
+|-supereffective|p2a: Magmar
+|-damage|p2a: Magmar|222\/284
+|
+|turn|2
+|c|★SunaKi10|...
+|
+|move|p2a: Magmar|Hyper Beam|p1a: Rattata
+|-damage|p1a: Rattata|0 fnt
+|faint|p1a: Rattata
+|
+|switch|p1a: Kangaskhan|Kangaskhan, L85|352\/352
+|turn|3
+|
+|move|p2a: Magmar|Fire Blast|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|157\/352
+|-status|p1a: Kangaskhan|brn
+|move|p1a: Kangaskhan|Earthquake|p2a: Magmar
+|-supereffective|p2a: Magmar
+|-damage|p2a: Magmar|124\/284
+|-damage|p1a: Kangaskhan|135\/352 brn|[from] brn|[of] p2a: Magmar
+|
+|turn|4
+|c|★SunaKi10|oh no Burn?
+|c|★SunaKi10|Realy?
+|
+|move|p2a: Magmar|Fire Blast|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|0 fnt
+|faint|p1a: Kangaskhan
+|c|★SunaKi10|damn, this Meta have a good Quote
+|
+|switch|p1a: Gengar|Gengar, L79|257\/257
+|turn|5
+|
+|move|p1a: Gengar|Hypnosis|p2a: Magmar|[miss]
+|-miss|p1a: Gengar
+|move|p2a: Magmar|Confuse Ray|p1a: Gengar
+|-start|p1a: Gengar|confusion
+|
+|turn|6
+|c|★SunaKi10|oh man.
+|
+|switch|p1a: Magmar|Magmar, L85|284\/284
+|move|p2a: Magmar|Fire Blast|p1a: Magmar
+|-resisted|p1a: Magmar
+|-damage|p1a: Magmar|225\/284
+|
+|turn|7
+|
+|move|p1a: Magmar|Body Slam|p2a: Magmar
+|-damage|p2a: Magmar|43\/284
+|move|p2a: Magmar|Confuse Ray|p1a: Magmar
+|-start|p1a: Magmar|confusion
+|
+|turn|8
+|
+|move|p2a: Magmar|Hyper Beam|p1a: Magmar
+|-damage|p1a: Magmar|84\/284
+|-activate|p1a: Magmar|confusion
+|-damage|p1a: Magmar|43\/284|[from] confusion
+|
+|turn|9
+|c|★SunaKi10|not my day
+|
+|switch|p1a: Gengar|Gengar, L79|257\/257
+|cant|p2a: Magmar|recharge
+|
+|turn|10
+|
+|move|p1a: Gengar|Thunderbolt|p2a: Magmar
+|-damage|p2a: Magmar|0 fnt
+|faint|p2a: Magmar
+|
+|switch|p2a: Dugtrio|Dugtrio, L85|233\/233
+|turn|11
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|15\/257
+|move|p1a: Gengar|Hypnosis|p2a: Dugtrio|[miss]
+|-miss|p1a: Gengar
+|
+|turn|12
+|c|★SunaKi10|oh yesh i have Chancel to a Switch und i miss. Isnt a good Game
+|
+|switch|p1a: Parasect|Parasect, L85|276\/276
+|move|p2a: Dugtrio|Earthquake|p1a: Parasect
+|-resisted|p1a: Parasect
+|-damage|p1a: Parasect|251\/276
+|
+|turn|13
+|
+|switch|p2a: Tangela|Tangela, L85|284\/284
+|move|p1a: Parasect|Stun Spore|p2a: Tangela
+|-status|p2a: Tangela|par
+|
+|turn|14
+|
+|switch|p1a: Magmar|Magmar, L85|43\/284
+|move|p2a: Tangela|Stun Spore|p1a: Magmar
+|-status|p1a: Magmar|par
+|
+|turn|15
+|
+|move|p1a: Magmar|Fire Blast|p2a: Tangela|[miss]
+|-miss|p1a: Magmar
+|move|p2a: Tangela|Body Slam|p1a: Magmar
+|-damage|p1a: Magmar|0 fnt
+|faint|p1a: Magmar
+|c|★SunaKi10|realy? It is a yoke right?
+|
+|switch|p1a: Pinsir|Pinsir, L85|284\/284
+|turn|16
+|
+|move|p1a: Pinsir|Swords Dance|p1a: Pinsir
+|-boost|p1a: Pinsir|atk|2
+|move|p2a: Tangela|Stun Spore|p1a: Pinsir
+|-status|p1a: Pinsir|par
+|
+|turn|17
+|
+|move|p1a: Pinsir|Swords Dance|p1a: Pinsir
+|-boost|p1a: Pinsir|atk|2
+|move|p2a: Tangela|Body Slam|p1a: Pinsir
+|-damage|p1a: Pinsir|247\/284 par
+|
+|turn|18
+|
+|move|p1a: Pinsir|Hyper Beam|p2a: Tangela
+|-damage|p2a: Tangela|0 fnt
+|faint|p2a: Tangela
+|
+|switch|p2a: Dragonite|Dragonite, L85|328\/328
+|turn|19
+|
+|move|p2a: Dragonite|Thunderbolt|p1a: Pinsir
+|-damage|p1a: Pinsir|161\/284 par
+|move|p1a: Pinsir|Hyper Beam|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|switch|p2a: Wartortle|Wartortle, L85|274\/274
+|turn|20
+|
+|move|p2a: Wartortle|Surf|p1a: Pinsir
+|-crit|p1a: Pinsir
+|-damage|p1a: Pinsir|0 fnt
+|faint|p1a: Pinsir
+|
+|switch|p1a: Gengar|Gengar, L79|15\/257
+|turn|21
+|
+|move|p1a: Gengar|Mega Drain|p2a: Wartortle
+|-crit|p2a: Wartortle
+|-supereffective|p2a: Wartortle
+|-damage|p2a: Wartortle|128\/274
+|-heal|p1a: Gengar|88\/257|[from] drain|[of] p2a: Wartortle
+|move|p2a: Wartortle|Surf|p1a: Gengar
+|-damage|p1a: Gengar|20\/257
+|
+|turn|22
+|
+|move|p1a: Gengar|Mega Drain|p2a: Wartortle
+|-supereffective|p2a: Wartortle
+|-damage|p2a: Wartortle|48\/274
+|-heal|p1a: Gengar|60\/257|[from] drain|[of] p2a: Wartortle
+|move|p2a: Wartortle|Surf|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|c|★SunaKi10|wath????
+|c|★SunaKi10|shit a crit
+|
+|switch|p1a: Parasect|Parasect, L85|251\/276
+|turn|23
+|
+|move|p2a: Wartortle|Blizzard|p1a: Parasect
+|-supereffective|p1a: Parasect
+|-damage|p1a: Parasect|105\/276
+|move|p1a: Parasect|Mega Drain|p2a: Wartortle
+|-supereffective|p2a: Wartortle
+|-damage|p2a: Wartortle|0 fnt
+|-heal|p1a: Parasect|129\/276|[from] drain|[of] p2a: Wartortle
+|faint|p2a: Wartortle
+|
+|switch|p2a: Nidoking|Nidoking, L85|311\/311
+|turn|24
+|
+|move|p2a: Nidoking|Body Slam|p1a: Parasect
+|-damage|p1a: Parasect|69\/276
+|move|p1a: Parasect|Spore|p2a: Nidoking
+|-status|p2a: Nidoking|slp
+|
+|turn|25
+|
+|cant|p2a: Nidoking|slp
+|move|p1a: Parasect|Mega Drain|p2a: Nidoking
+|-damage|p2a: Nidoking|265\/311 slp
+|-heal|p1a: Parasect|92\/276|[from] drain|[of] p2a: Nidoking
+|
+|turn|26
+|c|★SunaKi10|damn Crit
+|
+|cant|p2a: Nidoking|slp
+|move|p1a: Parasect|Mega Drain|p2a: Nidoking
+|-damage|p2a: Nidoking|223\/311 slp
+|-heal|p1a: Parasect|113\/276|[from] drain|[of] p2a: Nidoking
+|
+|turn|27
+|
+|cant|p2a: Nidoking|slp
+|-curestatus|p2a: Nidoking|slp
+|move|p1a: Parasect|Mega Drain|p2a: Nidoking
+|-damage|p2a: Nidoking|178\/311
+|-heal|p1a: Parasect|135\/276|[from] drain|[of] p2a: Nidoking
+|
+|turn|28
+|
+|move|p2a: Nidoking|Body Slam|p1a: Parasect
+|-damage|p1a: Parasect|78\/276
+|move|p1a: Parasect|Spore|p2a: Nidoking
+|-status|p2a: Nidoking|slp
+|
+|turn|29
+|
+|switch|p2a: Dugtrio|Dugtrio, L85|233\/233
+|move|p1a: Parasect|Mega Drain|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-damage|p2a: Dugtrio|145\/233
+|-heal|p1a: Parasect|122\/276|[from] drain|[of] p2a: Dugtrio
+|
+|turn|30
+|
+|move|p2a: Dugtrio|Slash|p1a: Parasect
+|-crit|p1a: Parasect
+|-damage|p1a: Parasect|30\/276
+|move|p1a: Parasect|Stun Spore|p2a: Dugtrio|[miss]
+|-miss|p1a: Parasect
+|
+|turn|31
+|c|★SunaKi10|damn
+|c|★SunaKi10|you not bad, but this was hax
+|
+|move|p2a: Dugtrio|Slash|p1a: Parasect
+|-crit|p1a: Parasect
+|-damage|p1a: Parasect|0 fnt
+|faint|p1a: Parasect
+|
+|win|bpizzizzle
+|raw|Ladder updating...
+|raw|SunaKi10's rating: 1404 &rarr; <strong>1383<\/strong><br \/>(-21 for losing)
+|raw|bpizzizzle's rating: 1391 &rarr; <strong>1412<\/strong><br \/>(+21 for winning)

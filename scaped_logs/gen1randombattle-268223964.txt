@@ -1,0 +1,231 @@
+﻿|join|rikitoism
+|join|Dervodel
+|player|p1|rikitoism|161
+|player|p2|Dervodel|266
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gyarados|Gyarados, L85|335\/335
+|switch|p2a: Wartortle|Wartortle, L85|274\/274
+|turn|1
+|
+|move|p1a: Gyarados|Body Slam|p2a: Wartortle
+|-damage|p2a: Wartortle|191\/274
+|move|p2a: Wartortle|Blizzard|p1a: Gyarados
+|-damage|p1a: Gyarados|270\/335
+|
+|turn|2
+|join|Firebolt Sky
+|
+|move|p1a: Gyarados|Body Slam|p2a: Wartortle
+|-damage|p2a: Wartortle|112\/274
+|move|p2a: Wartortle|Body Slam|p1a: Gyarados
+|-damage|p1a: Gyarados|222\/335
+|
+|turn|3
+|leave|Firebolt Sky
+|
+|switch|p2a: Raichu|Raichu, L85|276\/276
+|move|p1a: Gyarados|Hyper Beam|p2a: Raichu
+|-crit|p2a: Raichu
+|-damage|p2a: Raichu|0 fnt
+|faint|p2a: Raichu
+|
+|switch|p2a: Kangaskhan|Kangaskhan, L85|352\/352
+|turn|4
+|
+|switch|p1a: Dratini|Dratini, L96|274\/274
+|move|p2a: Kangaskhan|Counter|p1a: Dratini
+|-damage|p1a: Dratini|0 fnt
+|faint|p1a: Dratini
+|
+|switch|p1a: Alakazam|Alakazam, L79|249\/249
+|turn|5
+|
+|move|p1a: Alakazam|Reflect|p1a: Alakazam
+|-start|p1a: Alakazam|Reflect
+|move|p2a: Kangaskhan|Earthquake|p1a: Alakazam
+|-damage|p1a: Alakazam|192\/249
+|
+|turn|6
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Kangaskhan
+|-status|p2a: Kangaskhan|par
+|move|p2a: Kangaskhan|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|115\/249
+|
+|turn|7
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|239\/249
+|move|p2a: Kangaskhan|Body Slam|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|switch|p1a: Gyarados|Gyarados, L85|222\/335
+|turn|8
+|
+|move|p1a: Gyarados|Blizzard|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|218\/352 par
+|move|p2a: Kangaskhan|Body Slam|p1a: Gyarados
+|-crit|p1a: Gyarados
+|-damage|p1a: Gyarados|49\/335
+|-status|p1a: Gyarados|par
+|
+|turn|9
+|
+|cant|p2a: Kangaskhan|par
+|move|p1a: Gyarados|Surf|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|52\/352 par
+|
+|turn|10
+|
+|cant|p2a: Kangaskhan|par
+|move|p1a: Gyarados|Surf|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|faint|p2a: Kangaskhan
+|
+|switch|p2a: Graveler|Graveler, L85|267\/267
+|turn|11
+|
+|move|p2a: Graveler|Body Slam|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|switch|p1a: Wartortle|Wartortle, L85|274\/274
+|turn|12
+|
+|switch|p2a: Wartortle|Wartortle, L85|112\/274
+|move|p1a: Wartortle|Surf|p2a: Wartortle
+|-resisted|p2a: Wartortle
+|-damage|p2a: Wartortle|64\/274
+|
+|turn|13
+|
+|move|p2a: Wartortle|Blizzard|p1a: Wartortle|[miss]
+|-miss|p2a: Wartortle
+|move|p1a: Wartortle|Body Slam|p2a: Wartortle
+|-damage|p2a: Wartortle|11\/274
+|
+|turn|14
+|
+|move|p2a: Wartortle|Rest|p2a: Wartortle
+|-status|p2a: Wartortle|slp
+|-heal|p2a: Wartortle|274\/274 slp|[silent]
+|-status|p2a: Wartortle|slp|[from] move: Rest
+|move|p1a: Wartortle|Body Slam|p2a: Wartortle
+|-damage|p2a: Wartortle|224\/274 slp
+|
+|turn|15
+|
+|switch|p1a: Gengar|Gengar, L79|257\/257
+|cant|p2a: Wartortle|slp
+|
+|turn|16
+|
+|switch|p2a: Mew|Mew, L74|300\/300
+|move|p1a: Gengar|Mega Drain|p2a: Mew
+|-damage|p2a: Mew|269\/300
+|
+|turn|17
+|
+|switch|p1a: Sandslash|Sandslash, L85|301\/301
+|move|p2a: Mew|Earthquake|p1a: Sandslash
+|-damage|p1a: Sandslash|255\/301
+|
+|turn|18
+|
+|move|p2a: Mew|Horn Drill|p1a: Sandslash|[miss]
+|-miss|p2a: Mew
+|move|p1a: Sandslash|Swords Dance|p1a: Sandslash
+|-boost|p1a: Sandslash|atk|2
+|
+|turn|19
+|
+|move|p2a: Mew|Fissure|p1a: Sandslash
+|-damage|p1a: Sandslash|0 fnt
+|-ohko
+|faint|p1a: Sandslash
+|
+|switch|p1a: Wartortle|Wartortle, L85|274\/274
+|turn|20
+|
+|move|p2a: Mew|Earthquake|p1a: Wartortle
+|-damage|p1a: Wartortle|212\/274
+|move|p1a: Wartortle|Surf|p2a: Mew
+|-damage|p2a: Mew|189\/300
+|
+|turn|21
+|
+|switch|p2a: Wartortle|Wartortle, L85|224\/274 slp
+|move|p1a: Wartortle|Body Slam|p2a: Wartortle
+|-damage|p2a: Wartortle|177\/274 slp
+|
+|turn|22
+|
+|move|p1a: Wartortle|Body Slam|p2a: Wartortle
+|-damage|p2a: Wartortle|130\/274 slp
+|-curestatus|p2a: Wartortle|slp
+|
+|turn|23
+|
+|move|p1a: Wartortle|Body Slam|p2a: Wartortle
+|-damage|p2a: Wartortle|80\/274
+|move|p2a: Wartortle|Blizzard|p1a: Wartortle
+|-resisted|p1a: Wartortle
+|-damage|p1a: Wartortle|175\/274
+|
+|turn|24
+|
+|move|p2a: Wartortle|Blizzard|p1a: Wartortle|[miss]
+|-miss|p2a: Wartortle
+|move|p1a: Wartortle|Body Slam|p2a: Wartortle
+|-damage|p2a: Wartortle|27\/274
+|
+|turn|25
+|
+|move|p1a: Wartortle|Body Slam|p2a: Wartortle
+|-damage|p2a: Wartortle|0 fnt
+|faint|p2a: Wartortle
+|
+|switch|p2a: Pidgey|Pidgey, L96|272\/272
+|turn|26
+|
+|move|p2a: Pidgey|Double-Edge|p1a: Wartortle
+|-crit|p1a: Wartortle
+|-damage|p1a: Wartortle|0 fnt
+|-damage|p2a: Pidgey|229\/272|[from] recoil|[of] p1a: Wartortle
+|faint|p1a: Wartortle
+|
+|switch|p1a: Gengar|Gengar, L79|257\/257
+|turn|27
+|
+|move|p1a: Gengar|Hypnosis|p2a: Pidgey
+|-status|p2a: Pidgey|slp
+|cant|p2a: Pidgey|slp
+|
+|turn|28
+|
+|switch|p2a: Graveler|Graveler, L85|267\/267
+|move|p1a: Gengar|Psychic|p2a: Graveler
+|-damage|p2a: Graveler|174\/267
+|
+|turn|29
+|
+|move|p1a: Gengar|Psychic|p2a: Graveler
+|-damage|p2a: Graveler|85\/267
+|move|p2a: Graveler|Earthquake|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|win|Dervodel
+|raw|rikitoism's rating: 1051 &rarr; <strong>1042<\/strong><br \/>(-9 for losing)
+|raw|Dervodel's rating: 1245 &rarr; <strong>1257<\/strong><br \/>(+12 for winning)

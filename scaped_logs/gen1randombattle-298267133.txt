@@ -1,0 +1,138 @@
+﻿|join|mackdaddyyoshi
+|join|dpschreber
+|player|p1|mackdaddyyoshi|117
+|player|p2|dpschreber|169
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|63043,10343,51714,25593
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Scyther|Scyther, L90|309\/309
+|switch|p2a: Pidgeot|Pidgeot, L90|333\/333
+|turn|1
+|choice|move 1|switch 4
+|
+|switch|p2a: Onix|Onix, L90|246\/246
+|move|p1a: Scyther|Swords Dance|p1a: Scyther
+|-boost|p1a: Scyther|atk|2
+|
+|turn|2
+|choice|switch 5|move 2
+|
+|switch|p1a: Seadra|Seadra, L90|282\/282
+|move|p2a: Onix|Rock Slide|p1a: Seadra
+|-damage|p1a: Seadra|232\/282
+|
+|turn|3
+|choice|move 4|switch 3
+|
+|switch|p2a: Slowbro|Slowbro, L79|312\/312
+|move|p1a: Seadra|Smokescreen|p2a: Slowbro
+|-unboost|p2a: Slowbro|accuracy|1
+|
+|turn|4
+|choice|switch 5|move 2
+|
+|switch|p1a: Scyther|Scyther, L90|309\/309
+|move|p2a: Slowbro|Thunder Wave|p1a: Scyther|[miss]
+|-miss|p2a: Slowbro
+|
+|turn|5
+|choice|move 1|switch 2
+|
+|switch|p2a: Haunter|Haunter, L85|250\/250
+|move|p1a: Scyther|Swords Dance|p1a: Scyther
+|-boost|p1a: Scyther|atk|2
+|
+|turn|6
+|choice|switch 4|move 4
+|
+|switch|p1a: Chansey|Chansey, L79|557\/557
+|move|p2a: Haunter|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|481\/557
+|
+|turn|7
+|choice|move 2|switch 3
+|
+|switch|p2a: Onix|Onix, L90|246\/246
+|move|p1a: Chansey|Thunder Wave|p2a: Onix
+|-immune|p2a: Onix|[msg]
+|
+|turn|8
+|choice|move 3|move 1
+|
+|move|p2a: Onix|Earthquake|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|49\/557
+|move|p1a: Chansey|Counter|p2a: Onix
+|-fail|p1a: Chansey
+|
+|turn|9
+|choice|switch 5|move 2
+|
+|switch|p1a: Seadra|Seadra, L90|232\/282
+|move|p2a: Onix|Rock Slide|p1a: Seadra
+|-damage|p1a: Seadra|180\/282
+|
+|turn|10
+|choice|move 4|switch 2
+|
+|switch|p2a: Slowbro|Slowbro, L79|312\/312
+|move|p1a: Seadra|Smokescreen|p2a: Slowbro
+|-unboost|p2a: Slowbro|accuracy|1
+|
+|turn|11
+|choice|switch 5|move 2
+|
+|switch|p1a: Chansey|Chansey, L79|49\/557
+|move|p2a: Slowbro|Thunder Wave|p1a: Chansey|[miss]
+|-miss|p2a: Slowbro
+|
+|turn|12
+|choice|move 1|switch 2
+|
+|switch|p2a: Onix|Onix, L90|246\/246
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|327\/557
+|
+|turn|13
+|choice|move 3|move 1
+|
+|move|p2a: Onix|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|135\/557
+|move|p1a: Chansey|Counter|p2a: Onix
+|-fail|p1a: Chansey
+|
+|turn|14
+|choice|switch 5|move 1
+|
+|switch|p1a: Seadra|Seadra, L90|180\/282
+|move|p2a: Onix|Earthquake|p1a: Seadra
+|-damage|p1a: Seadra|111\/282
+|
+|turn|15
+|choice|move 3|switch 2
+|
+|switch|p2a: Slowbro|Slowbro, L79|312\/312
+|move|p1a: Seadra|Mimic|p2a: Slowbro
+|-start|p1a: Seadra|Mimic|Surf
+|
+|turn|16
+|choice|move 4|move 2
+|
+|move|p1a: Seadra|Smokescreen|p2a: Slowbro
+|-unboost|p2a: Slowbro|accuracy|1
+|move|p2a: Slowbro|Thunder Wave|p1a: Seadra
+|-status|p1a: Seadra|par
+|
+|turn|17
+|-message|dpschreber lost due to inactivity.
+|
+|win|mackdaddyyoshi
+|raw|mackdaddyyoshi's rating: 1135 &rarr; <strong>1152<\/strong><br \/>(+17 for winning)
+|raw|dpschreber's rating: 1019 &rarr; <strong>1010<\/strong><br \/>(-9 for losing)

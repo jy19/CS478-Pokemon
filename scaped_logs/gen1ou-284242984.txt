@@ -1,0 +1,326 @@
+﻿|join|Erik Reeds
+|join|TSV3CTOR
+|player|p1|Erik Reeds|244
+|player|p2|TSV3CTOR|183
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Hypno|Hypno|373\/373
+|turn|1
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Hypno
+|-damage|p2a: Hypno|273\/373
+|move|p2a: Hypno|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|
+|turn|2
+|
+|switch|p2a: Golem|Golem|363\/363
+|move|p1a: Alakazam|Seismic Toss|p2a: Golem
+|-damage|p2a: Golem|263\/363
+|
+|turn|3
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Golem|Body Slam|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-damage|p1a: Exeggutor|238\/393
+|
+|turn|4
+|
+|switch|p2a: Victreebel|Victreebel|363\/363
+|move|p1a: Exeggutor|Sleep Powder|p2a: Victreebel
+|-status|p2a: Victreebel|slp
+|
+|turn|5
+|
+|switch|p2a: Articuno|Articuno|383\/383
+|move|p1a: Exeggutor|Stun Spore|p2a: Articuno
+|-status|p2a: Articuno|par
+|
+|turn|6
+|
+|switch|p1a: Jolteon|Jolteon|333\/333
+|cant|p2a: Articuno|par
+|
+|turn|7
+|
+|switch|p2a: Golem|Golem|263\/363
+|move|p1a: Jolteon|Double Kick|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|228\/363
+|-damage|p2a: Golem|193\/363
+|-hitcount|p2a: Golem|2
+|
+|turn|8
+|
+|switch|p1a: Exeggutor|Exeggutor|238\/393
+|switch|p2a: Articuno|Articuno|383\/383 par
+|
+|turn|9
+|
+|switch|p1a: Jolteon|Jolteon|333\/333
+|cant|p2a: Articuno|par
+|
+|turn|10
+|c|★Erik Reeds|:\/
+|
+|switch|p2a: Golem|Golem|193\/363
+|move|p1a: Jolteon|Thunderbolt|p2a: Golem
+|-immune|p2a: Golem|[msg]
+|
+|turn|11
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: Golem|Explosion|p1a: Snorlax
+|-damage|p1a: Snorlax|132\/523
+|faint|p2a: Golem
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|12
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|switch|p1a: Jolteon|Jolteon|333\/333
+|turn|13
+|
+|switch|p2a: Hypno|Hypno|273\/373
+|move|p1a: Jolteon|Thunder Wave|p2a: Hypno
+|-status|p2a: Hypno|par
+|
+|turn|14
+|
+|switch|p1a: Alakazam|Alakazam|313\/313 par
+|move|p2a: Hypno|Thunder Wave|p1a: Alakazam
+|-fail|p1a: Alakazam|par
+|
+|turn|15
+|
+|switch|p2a: Articuno|Articuno|383\/383 par
+|move|p1a: Alakazam|Seismic Toss|p2a: Articuno
+|-damage|p2a: Articuno|283\/383 par
+|
+|turn|16
+|
+|move|p1a: Alakazam|Psychic|p2a: Articuno
+|-damage|p2a: Articuno|175\/383 par
+|-unboost|p2a: Articuno|spd|1
+|-unboost|p2a: Articuno|spa|1
+|cant|p2a: Articuno|par
+|
+|turn|17
+|
+|move|p1a: Alakazam|Psychic|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|faint|p2a: Articuno
+|
+|switch|p2a: Hypno|Hypno|273\/373 par
+|turn|18
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Hypno
+|-damage|p2a: Hypno|173\/373 par
+|cant|p2a: Hypno|par
+|
+|turn|19
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Hypno
+|-fail|p2a: Hypno|par
+|cant|p2a: Hypno|par
+|
+|turn|20
+|c|★Erik Reeds|wtf
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Hypno
+|-damage|p2a: Hypno|73\/373 par
+|move|p2a: Hypno|Rest|p2a: Hypno
+|-status|p2a: Hypno|slp
+|-heal|p2a: Hypno|373\/373 slp|[silent]
+|-status|p2a: Hypno|slp|[from] move: Rest
+|
+|turn|21
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|cant|p2a: Hypno|slp
+|
+|turn|22
+|
+|switch|p2a: Victreebel|Victreebel|363\/363 slp
+|move|p1a: Tauros|Body Slam|p2a: Victreebel
+|-damage|p2a: Victreebel|224\/363 slp
+|
+|turn|23
+|
+|move|p1a: Tauros|Body Slam|p2a: Victreebel
+|-damage|p2a: Victreebel|90\/363 slp
+|cant|p2a: Victreebel|slp
+|
+|turn|24
+|
+|move|p1a: Tauros|Body Slam|p2a: Victreebel
+|-damage|p2a: Victreebel|0 fnt
+|faint|p2a: Victreebel
+|
+|switch|p2a: Hypno|Hypno|373\/373 slp
+|turn|25
+|
+|move|p1a: Tauros|Body Slam|p2a: Hypno
+|-damage|p2a: Hypno|240\/373 slp
+|-curestatus|p2a: Hypno|slp
+|
+|turn|26
+|
+|switch|p1a: Alakazam|Alakazam|313\/313 par
+|move|p2a: Hypno|Thunder Wave|p1a: Alakazam
+|-fail|p1a: Alakazam|par
+|
+|turn|27
+|
+|move|p2a: Hypno|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|213\/313 par
+|move|p1a: Alakazam|Thunder Wave|p2a: Hypno
+|-status|p2a: Hypno|par
+|
+|turn|28
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Hypno
+|-damage|p2a: Hypno|140\/373 par
+|move|p2a: Hypno|Thunder Wave|p1a: Alakazam
+|-fail|p1a: Alakazam|par
+|
+|turn|29
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Hypno
+|-damage|p2a: Hypno|40\/373 par
+|move|p2a: Hypno|Rest|p2a: Hypno
+|-status|p2a: Hypno|slp
+|-heal|p2a: Hypno|373\/373 slp|[silent]
+|-status|p2a: Hypno|slp|[from] move: Rest
+|
+|turn|30
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|switch|p2a: Tauros|Tauros|353\/353
+|
+|turn|31
+|
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|252\/353
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|244\/353
+|
+|turn|32
+|
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|134\/353
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|141\/353
+|
+|turn|33
+|
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|29\/353
+|move|p1a: Tauros|Hyper Beam|p2a: Tauros|[miss]
+|-miss|p1a: Tauros
+|
+|turn|34
+|
+|switch|p2a: Hypno|Hypno|373\/373 slp
+|move|p1a: Tauros|Hyper Beam|p2a: Hypno|[miss]
+|-miss|p1a: Tauros
+|
+|turn|35
+|
+|move|p1a: Tauros|Body Slam|p2a: Hypno
+|-damage|p2a: Hypno|248\/373 slp
+|cant|p2a: Hypno|slp
+|
+|turn|36
+|
+|move|p1a: Tauros|Body Slam|p2a: Hypno
+|-damage|p2a: Hypno|117\/373 slp
+|-curestatus|p2a: Hypno|slp
+|
+|turn|37
+|
+|switch|p2a: Tauros|Tauros|141\/353
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|turn|38
+|
+|switch|p1a: Jolteon|Jolteon|333\/333
+|move|p2a: Snorlax|Body Slam|p1a: Jolteon
+|-damage|p1a: Jolteon|180\/333
+|-status|p1a: Jolteon|par
+|
+|turn|39
+|
+|switch|p2a: Hypno|Hypno|117\/373
+|move|p1a: Jolteon|Thunder Wave|p2a: Hypno
+|-status|p2a: Hypno|par
+|
+|turn|40
+|
+|move|p1a: Jolteon|Pin Missile|p2a: Hypno
+|-supereffective|p2a: Hypno
+|-damage|p2a: Hypno|95\/373 par
+|-damage|p2a: Hypno|73\/373 par
+|-damage|p2a: Hypno|51\/373 par
+|-damage|p2a: Hypno|29\/373 par
+|-hitcount|p2a: Hypno|4
+|cant|p2a: Hypno|par
+|
+|turn|41
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Jolteon|Thunderbolt|p2a: Snorlax
+|-damage|p2a: Snorlax|378\/523
+|
+|turn|42
+|
+|move|p2a: Snorlax|Earthquake|p1a: Jolteon
+|-supereffective|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|switch|p1a: Tauros|Tauros|29\/353
+|turn|43
+|
+|move|p1a: Tauros|Body Slam|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|143\/523
+|move|p2a: Snorlax|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|switch|p1a: Zapdos|Zapdos|383\/383
+|turn|44
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|switch|p2a: Hypno|Hypno|29\/373 par
+|turn|45
+|c|★TSV3CTOR|gg mate
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Hypno
+|-damage|p2a: Hypno|0 fnt
+|faint|p2a: Hypno
+|
+|win|Erik Reeds
+|c|★Erik Reeds|ggs

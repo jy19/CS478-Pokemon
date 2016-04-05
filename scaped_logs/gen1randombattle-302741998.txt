@@ -1,0 +1,293 @@
+﻿|j|ALLIE X
+|j|StellarMelon
+|player|p1|ALLIE X|95
+|player|p2|StellarMelon|121
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|49236,48274,10149,23239
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Moltres|Moltres, L85|327\/327
+|switch|p2a: Machoke|Machoke, L85|310\/310
+|turn|1
+|choice|switch 4|move 2
+|
+|switch|p1a: Exeggutor|Exeggutor, L79|312\/312
+|move|p2a: Machoke|Rock Slide|p1a: Exeggutor
+|-damage|p1a: Exeggutor|253\/312
+|
+|turn|2
+|choice|move 2|switch 4
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|293\/293
+|move|p1a: Exeggutor|Psychic|p2a: Mewtwo
+|-resisted|p2a: Mewtwo
+|-damage|p2a: Mewtwo|252\/293
+|
+|turn|3
+|choice|move 1|move 2
+|
+|move|p2a: Mewtwo|Ice Beam|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|145\/312
+|move|p1a: Exeggutor|Sleep Powder|p2a: Mewtwo|[miss]
+|-miss|p1a: Exeggutor
+|
+|turn|4
+|choice|move 1|switch 4
+|
+|switch|p2a: Machoke|Machoke, L85|310\/310
+|move|p1a: Exeggutor|Sleep Powder|p2a: Machoke
+|-status|p2a: Machoke|slp
+|
+|turn|5
+|choice|move 2|switch 4
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|252\/293
+|move|p1a: Exeggutor|Psychic|p2a: Mewtwo
+|-resisted|p2a: Mewtwo
+|-damage|p2a: Mewtwo|215\/293
+|
+|turn|6
+|choice|move 4|move 2
+|
+|move|p2a: Mewtwo|Ice Beam|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|choice|switch 3|
+|
+|switch|p1a: Ninetales|Ninetales, L85|298\/298
+|turn|7
+|c|★StellarMelon|THE GAME IS MINE!
+|choice|move 3|switch 5
+|
+|switch|p2a: Electabuzz|Electabuzz, L85|284\/284
+|move|p1a: Ninetales|Confuse Ray|p2a: Electabuzz
+|-start|p2a: Electabuzz|confusion
+|
+|turn|8
+|c|★ALLIE X|no...
+|choice|move 1|move 3
+|
+|-activate|p2a: Electabuzz|confusion
+|move|p2a: Electabuzz|Thunder Wave|p1a: Ninetales
+|-status|p1a: Ninetales|par
+|move|p1a: Ninetales|Fire Blast|p2a: Electabuzz
+|-damage|p2a: Electabuzz|143\/284
+|
+|turn|9
+|choice|move 1|switch 6
+|
+|switch|p2a: Magmar|Magmar, L90|300\/300
+|move|p1a: Ninetales|Fire Blast|p2a: Magmar
+|-resisted|p2a: Magmar
+|-damage|p2a: Magmar|239\/300
+|
+|turn|10
+|choice|move 3|move 4
+|
+|move|p2a: Magmar|Confuse Ray|p1a: Ninetales
+|-start|p1a: Ninetales|confusion
+|-activate|p1a: Ninetales|confusion
+|move|p1a: Ninetales|Confuse Ray|p2a: Magmar
+|-start|p2a: Magmar|confusion
+|
+|turn|11
+|choice|switch 6|switch 5
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|215\/293
+|switch|p1a: Weezing|Weezing, L90|300\/300
+|
+|turn|12
+|choice|move 1|move 1
+|
+|move|p2a: Mewtwo|Psychic|p1a: Weezing
+|-supereffective|p1a: Weezing
+|-damage|p1a: Weezing|121\/300
+|-unboost|p1a: Weezing|spd|1
+|-unboost|p1a: Weezing|spa|1
+|move|p1a: Weezing|Explosion|p2a: Mewtwo
+|-damage|p2a: Mewtwo|0 fnt
+|faint|p2a: Mewtwo
+|faint|p1a: Weezing
+|choice|switch 6|switch 6
+|
+|switch|p2a: Electabuzz|Electabuzz, L85|143\/284
+|switch|p1a: Ninetales|Ninetales, L85|298\/298 par
+|turn|13
+|choice|move 1|move 4
+|
+|move|p2a: Electabuzz|Thunderbolt|p1a: Ninetales
+|-crit|p1a: Ninetales
+|-damage|p1a: Ninetales|142\/298 par
+|cant|p1a: Ninetales|par
+|
+|turn|14
+|choice|move 1|move 4
+|
+|move|p2a: Electabuzz|Thunderbolt|p1a: Ninetales
+|-damage|p1a: Ninetales|57\/298 par
+|move|p1a: Ninetales|Fire Blast|p2a: Electabuzz
+|-damage|p2a: Electabuzz|7\/284
+|
+|turn|15
+|choice|move 4|move 4
+|
+|move|p2a: Electabuzz|Thunderbolt|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|c|★StellarMelon|show me your stuff
+|choice|switch 2|
+|
+|switch|p1a: Scyther|Scyther, L90|309\/309
+|turn|16
+|choice|move 2|switch 2
+|
+|switch|p2a: Gloom|Gloom, L90|291\/291
+|move|p1a: Scyther|Slash|p2a: Gloom
+|-crit|p2a: Gloom
+|-damage|p2a: Gloom|159\/291
+|
+|turn|17
+|choice|switch 4|move 3
+|
+|switch|p1a: Moltres|Moltres, L85|327\/327
+|move|p2a: Gloom|Sleep Powder|p1a: Moltres
+|-status|p1a: Moltres|slp
+|
+|turn|18
+|choice|move 2|switch 3
+|
+|switch|p2a: Chansey|Chansey, L79|557\/557
+|cant|p1a: Moltres|slp
+|
+|turn|19
+|choice|switch 5|move 2
+|
+|switch|p1a: Kadabra|Kadabra, L85|242\/242
+|move|p2a: Chansey|Ice Beam|p1a: Kadabra
+|-crit|p1a: Kadabra
+|-damage|p1a: Kadabra|151\/242
+|
+|turn|20
+|choice|switch 5|move 2
+|
+|switch|p1a: Moltres|Moltres, L85|327\/327 slp
+|move|p2a: Chansey|Ice Beam|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|221\/327 slp
+|
+|turn|21
+|choice|switch 5|move 2
+|
+|switch|p1a: Kadabra|Kadabra, L85|151\/242
+|move|p2a: Chansey|Ice Beam|p1a: Kadabra
+|-damage|p1a: Kadabra|100\/242
+|
+|turn|22
+|choice|move 4|move 2
+|
+|move|p1a: Kadabra|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|move|p2a: Chansey|Ice Beam|p1a: Kadabra
+|-damage|p1a: Kadabra|52\/242
+|
+|turn|23
+|choice|move 2|move 2
+|
+|move|p1a: Kadabra|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|472\/557 par
+|move|p2a: Chansey|Ice Beam|p1a: Kadabra
+|-damage|p1a: Kadabra|0 fnt
+|faint|p1a: Kadabra
+|choice|switch 4|
+|
+|switch|p1a: Scyther|Scyther, L90|309\/309
+|turn|24
+|choice|move 1|move 2
+|
+|move|p1a: Scyther|Swords Dance|p1a: Scyther
+|-boost|p1a: Scyther|atk|2
+|move|p2a: Chansey|Ice Beam|p1a: Scyther
+|-supereffective|p1a: Scyther
+|-damage|p1a: Scyther|154\/309
+|
+|turn|25
+|choice|move 4|switch 4
+|
+|switch|p2a: Machoke|Machoke, L85|310\/310 slp
+|move|p1a: Scyther|Hyper Beam|p2a: Machoke
+|-damage|p2a: Machoke|16\/310 slp
+|
+|turn|26
+|-mustrecharge|p1a: Scyther
+|-mustrecharge|p1a: Scyther
+|choice|move 1|switch 5
+|
+|switch|p2a: Magmar|Magmar, L90|239\/300
+|cant|p1a: Scyther|recharge
+|
+|turn|27
+|c|★StellarMelon|;)
+|choice|move 4|move 3
+|
+|move|p1a: Scyther|Hyper Beam|p2a: Magmar
+|-damage|p2a: Magmar|0 fnt
+|faint|p2a: Magmar
+|choice||switch 2
+|
+|switch|p2a: Electabuzz|Electabuzz, L85|7\/284
+|turn|28
+|choice|move 2|move 3
+|
+|move|p1a: Scyther|Slash|p2a: Electabuzz
+|-crit|p2a: Electabuzz
+|-damage|p2a: Electabuzz|0 fnt
+|faint|p2a: Electabuzz
+|choice||switch 3
+|
+|switch|p2a: Gloom|Gloom, L90|159\/291
+|turn|29
+|choice|move 2|move 1
+|
+|move|p1a: Scyther|Slash|p2a: Gloom
+|-crit|p2a: Gloom
+|-damage|p2a: Gloom|40\/291
+|move|p2a: Gloom|Double-Edge|p1a: Scyther
+|-damage|p1a: Scyther|92\/309
+|-damage|p2a: Gloom|25\/291|[from] recoil|[of] p1a: Scyther
+|
+|turn|30
+|choice|move 2|move 1
+|
+|move|p1a: Scyther|Slash|p2a: Gloom
+|-crit|p2a: Gloom
+|-damage|p2a: Gloom|0 fnt
+|faint|p2a: Gloom
+|choice||switch 4
+|
+|switch|p2a: Chansey|Chansey, L79|472\/557 par
+|turn|31
+|choice|move 4|move 2
+|
+|move|p1a: Scyther|Hyper Beam|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|-message|StellarMelon forfeited.
+|l|StellarMelon
+|choice||switch 5
+|
+|switch|p2a: Machoke|Machoke, L85|16\/310 slp
+|turn|32
+|
+|win|ALLIE X
+|player|p2
+|raw|ALLIE X's rating: 1325 &rarr; <strong>1345<\/strong><br \/>(+20 for winning)
+|raw|StellarMelon's rating: 1328 &rarr; <strong>1308<\/strong><br \/>(-20 for losing)

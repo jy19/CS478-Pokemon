@@ -1,0 +1,346 @@
+﻿|join|bpizzizzle
+|join|buuust
+|player|p1|bpizzizzle|252
+|player|p2|buuust|2
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Persian|Persian, L79|265\/265
+|switch|p2a: Dodrio|Dodrio, L85|276\/276
+|turn|1
+|
+|switch|p1a: Cloyster|Cloyster, L83|253\/253
+|switch|p2a: Graveler|Graveler, L85|267\/267
+|
+|turn|2
+|
+|switch|p2a: Lapras|Lapras, L79|367\/367
+|move|p1a: Cloyster|Ice Beam|p2a: Lapras
+|-resisted|p2a: Lapras
+|-damage|p2a: Lapras|345\/367
+|
+|turn|3
+|
+|switch|p1a: Jolteon|Jolteon, L79|265\/265
+|move|p2a: Lapras|Blizzard|p1a: Jolteon
+|-crit|p1a: Jolteon
+|-damage|p1a: Jolteon|82\/265
+|
+|turn|4
+|
+|switch|p1a: Cloyster|Cloyster, L83|253\/253
+|switch|p2a: Graveler|Graveler, L85|267\/267
+|
+|turn|5
+|
+|switch|p2a: Lapras|Lapras, L79|345\/367
+|move|p1a: Cloyster|Blizzard|p2a: Lapras
+|-resisted|p2a: Lapras
+|-damage|p2a: Lapras|318\/367
+|
+|turn|6
+|
+|move|p1a: Cloyster|Ice Beam|p2a: Lapras
+|-resisted|p2a: Lapras
+|-damage|p2a: Lapras|297\/367
+|move|p2a: Lapras|Thunderbolt|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|140\/253
+|
+|turn|7
+|
+|switch|p1a: Jolteon|Jolteon, L79|82\/265
+|move|p2a: Lapras|Blizzard|p1a: Jolteon|[miss]
+|-miss|p2a: Lapras
+|
+|turn|8
+|
+|switch|p2a: Graveler|Graveler, L85|267\/267
+|move|p1a: Jolteon|Thunderbolt|p2a: Graveler
+|-immune|p2a: Graveler|[msg]
+|
+|turn|9
+|
+|switch|p1a: Nidoking|Nidoking, L85|311\/311
+|move|p2a: Graveler|Rock Slide|p1a: Nidoking|[miss]
+|-miss|p2a: Graveler
+|
+|turn|10
+|
+|switch|p2a: Dodrio|Dodrio, L85|276\/276
+|move|p1a: Nidoking|Earthquake|p2a: Dodrio
+|-immune|p2a: Dodrio|[msg]
+|
+|turn|11
+|
+|switch|p2a: Hypno|Hypno, L85|318\/318
+|move|p1a: Nidoking|Thunder|p2a: Hypno|[miss]
+|-miss|p1a: Nidoking
+|
+|turn|12
+|
+|switch|p1a: Cloyster|Cloyster, L83|140\/253
+|move|p2a: Hypno|Psychic|p1a: Cloyster
+|-damage|p1a: Cloyster|31\/253
+|-unboost|p1a: Cloyster|spd|1
+|-unboost|p1a: Cloyster|spa|1
+|
+|turn|13
+|
+|switch|p2a: Arbok|Arbok, L90|291\/291
+|move|p1a: Cloyster|Explosion|p2a: Arbok
+|-damage|p2a: Arbok|45\/291
+|faint|p1a: Cloyster
+|
+|switch|p1a: Jolteon|Jolteon, L79|82\/265
+|turn|14
+|
+|switch|p2a: Graveler|Graveler, L85|267\/267
+|move|p1a: Jolteon|Body Slam|p2a: Graveler
+|-resisted|p2a: Graveler
+|-damage|p2a: Graveler|249\/267
+|
+|turn|15
+|
+|switch|p1a: Dragonair|Dragonair, L85|277\/277
+|move|p2a: Graveler|Earthquake|p1a: Dragonair
+|-damage|p1a: Dragonair|160\/277
+|
+|turn|16
+|
+|switch|p2a: Lapras|Lapras, L79|297\/367
+|move|p1a: Dragonair|Substitute|p1a: Dragonair
+|-start|p1a: Dragonair|Substitute
+|-damage|p1a: Dragonair|91\/277
+|
+|turn|17
+|
+|move|p1a: Dragonair|Ice Beam|p2a: Lapras
+|-resisted|p2a: Lapras
+|-damage|p2a: Lapras|283\/367
+|move|p2a: Lapras|Blizzard|p1a: Dragonair
+|-supereffective|p1a: Dragonair
+|-end|p1a: Dragonair|Substitute
+|
+|turn|18
+|
+|move|p1a: Dragonair|Blizzard|p2a: Lapras
+|-resisted|p2a: Lapras
+|-damage|p2a: Lapras|266\/367
+|move|p2a: Lapras|Blizzard|p1a: Dragonair
+|-supereffective|p1a: Dragonair
+|-damage|p1a: Dragonair|0 fnt
+|faint|p1a: Dragonair
+|
+|switch|p1a: Charmeleon|Charmeleon, L85|272\/272
+|turn|19
+|
+|move|p1a: Charmeleon|Slash|p2a: Lapras
+|-crit|p2a: Lapras
+|-damage|p2a: Lapras|184\/367
+|move|p2a: Lapras|Blizzard|p1a: Charmeleon
+|-crit|p1a: Charmeleon
+|-damage|p1a: Charmeleon|32\/272
+|
+|turn|20
+|
+|move|p1a: Charmeleon|Seismic Toss|p2a: Lapras
+|-damage|p2a: Lapras|99\/367
+|move|p2a: Lapras|Rest|p2a: Lapras
+|-status|p2a: Lapras|slp
+|-heal|p2a: Lapras|367\/367 slp|[silent]
+|-status|p2a: Lapras|slp|[from] move: Rest
+|
+|turn|21
+|
+|move|p1a: Charmeleon|Seismic Toss|p2a: Lapras
+|-damage|p2a: Lapras|282\/367 slp
+|cant|p2a: Lapras|slp
+|
+|turn|22
+|
+|move|p1a: Charmeleon|Seismic Toss|p2a: Lapras
+|-damage|p2a: Lapras|197\/367 slp
+|-curestatus|p2a: Lapras|slp
+|
+|turn|23
+|
+|move|p1a: Charmeleon|Fire Blast|p2a: Lapras|[miss]
+|-miss|p1a: Charmeleon
+|move|p2a: Lapras|Rest|p2a: Lapras
+|-status|p2a: Lapras|slp
+|-heal|p2a: Lapras|367\/367 slp|[silent]
+|-status|p2a: Lapras|slp|[from] move: Rest
+|
+|turn|24
+|
+|move|p1a: Charmeleon|Fire Blast|p2a: Lapras
+|-damage|p2a: Lapras|265\/367 slp
+|cant|p2a: Lapras|slp
+|
+|turn|25
+|
+|move|p1a: Charmeleon|Fire Blast|p2a: Lapras
+|-damage|p2a: Lapras|164\/367 slp
+|-curestatus|p2a: Lapras|slp
+|
+|turn|26
+|
+|move|p1a: Charmeleon|Fire Blast|p2a: Lapras
+|-damage|p2a: Lapras|66\/367
+|move|p2a: Lapras|Rest|p2a: Lapras
+|-status|p2a: Lapras|slp
+|-heal|p2a: Lapras|367\/367 slp|[silent]
+|-status|p2a: Lapras|slp|[from] move: Rest
+|
+|turn|27
+|
+|move|p1a: Charmeleon|Fire Blast|p2a: Lapras|[miss]
+|-miss|p1a: Charmeleon
+|cant|p2a: Lapras|slp
+|
+|turn|28
+|
+|move|p1a: Charmeleon|Fire Blast|p2a: Lapras
+|-damage|p2a: Lapras|259\/367 slp
+|-curestatus|p2a: Lapras|slp
+|
+|turn|29
+|
+|move|p1a: Charmeleon|Fire Blast|p2a: Lapras
+|-damage|p2a: Lapras|153\/367
+|-status|p2a: Lapras|brn
+|move|p2a: Lapras|Thunderbolt|p1a: Charmeleon
+|-crit|p1a: Charmeleon
+|-damage|p1a: Charmeleon|0 fnt
+|faint|p1a: Charmeleon
+|
+|switch|p1a: Persian|Persian, L79|265\/265
+|turn|30
+|
+|move|p1a: Persian|Slash|p2a: Lapras
+|-crit|p2a: Lapras
+|-damage|p2a: Lapras|42\/367 brn
+|move|p2a: Lapras|Rest|p2a: Lapras
+|-status|p2a: Lapras|slp
+|-heal|p2a: Lapras|367\/367 slp|[silent]
+|-status|p2a: Lapras|slp|[from] move: Rest
+|
+|turn|31
+|
+|switch|p2a: Graveler|Graveler, L85|249\/267
+|move|p1a: Persian|Slash|p2a: Graveler
+|-crit|p2a: Graveler
+|-resisted|p2a: Graveler
+|-damage|p2a: Graveler|209\/267
+|
+|turn|32
+|
+|switch|p2a: Lapras|Lapras, L79|367\/367 slp
+|move|p1a: Persian|Bubble Beam|p2a: Lapras
+|-crit|p2a: Lapras
+|-resisted|p2a: Lapras
+|-damage|p2a: Lapras|338\/367 slp
+|
+|turn|33
+|
+|switch|p2a: Graveler|Graveler, L85|209\/267
+|move|p1a: Persian|Slash|p2a: Graveler
+|-crit|p2a: Graveler
+|-resisted|p2a: Graveler
+|-damage|p2a: Graveler|162\/267
+|
+|turn|34
+|
+|switch|p2a: Jolteon|Jolteon, L79|265\/265
+|move|p1a: Persian|Bubble Beam|p2a: Jolteon
+|-crit|p2a: Jolteon
+|-damage|p2a: Jolteon|208\/265
+|
+|turn|35
+|
+|switch|p2a: Hypno|Hypno, L85|318\/318
+|switch|p1a: Nidoking|Nidoking, L85|311\/311
+|
+|turn|36
+|
+|move|p1a: Nidoking|Earthquake|p2a: Hypno
+|-damage|p2a: Hypno|206\/318
+|move|p2a: Hypno|Psychic|p1a: Nidoking
+|-supereffective|p1a: Nidoking
+|-damage|p1a: Nidoking|70\/311
+|
+|turn|37
+|
+|move|p1a: Nidoking|Earthquake|p2a: Hypno
+|-crit|p2a: Hypno
+|-damage|p2a: Hypno|0 fnt
+|faint|p2a: Hypno
+|
+|switch|p2a: Dodrio|Dodrio, L85|276\/276
+|turn|38
+|
+|move|p2a: Dodrio|Drill Peck|p1a: Nidoking
+|-crit|p1a: Nidoking
+|-damage|p1a: Nidoking|0 fnt
+|faint|p1a: Nidoking
+|
+|switch|p1a: Jolteon|Jolteon, L79|82\/265
+|turn|39
+|
+|switch|p2a: Graveler|Graveler, L85|162\/267
+|move|p1a: Jolteon|Thunderbolt|p2a: Graveler
+|-immune|p2a: Graveler|[msg]
+|
+|turn|40
+|
+|move|p1a: Jolteon|Double Kick|p2a: Graveler
+|-supereffective|p2a: Graveler
+|-damage|p2a: Graveler|139\/267
+|-damage|p2a: Graveler|116\/267
+|-hitcount|p2a: Graveler|2
+|move|p2a: Graveler|Earthquake|p1a: Jolteon
+|-supereffective|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|switch|p1a: Persian|Persian, L79|265\/265
+|turn|41
+|
+|switch|p2a: Jolteon|Jolteon, L79|208\/265
+|move|p1a: Persian|Bubble Beam|p2a: Jolteon
+|-damage|p2a: Jolteon|179\/265
+|
+|turn|42
+|
+|move|p2a: Jolteon|Thunder Wave|p1a: Persian
+|-status|p1a: Persian|par
+|cant|p1a: Persian|par
+|
+|turn|43
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Persian
+|-crit|p1a: Persian
+|-damage|p1a: Persian|35\/265 par
+|move|p1a: Persian|Slash|p2a: Jolteon
+|-crit|p2a: Jolteon
+|-damage|p2a: Jolteon|33\/265
+|
+|turn|44
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Persian
+|-crit|p1a: Persian
+|-damage|p1a: Persian|0 fnt
+|faint|p1a: Persian
+|
+|win|buuust
+|raw|bpizzizzle's rating: 1475 &rarr; <strong>1448<\/strong><br \/>(-27 for losing)
+|raw|buuust's rating: 1358 &rarr; <strong>1384<\/strong><br \/>(+26 for winning)
+|leave|bpizzizzle
+|player|p1

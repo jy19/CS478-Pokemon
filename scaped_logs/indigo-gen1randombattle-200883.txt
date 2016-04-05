@@ -1,0 +1,333 @@
+﻿|join|Ricardo Oliveira
+|join|Ampharosinho
+|player|p1|Ricardo Oliveira|221
+|player|p2|Ampharosinho|ampharosinho.png
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Muk|Muk, L90|372\/372
+|switch|p2a: Hypno|Hypno, L85|318\/318
+|turn|1
+|
+|switch|p1a: Hypno|Hypno, L85|318\/318
+|move|p2a: Hypno|Thunder Wave|p1a: Hypno
+|-status|p1a: Hypno|par
+|
+|turn|2
+|
+|move|p2a: Hypno|Psychic|p1a: Hypno
+|-crit|p1a: Hypno
+|-resisted|p1a: Hypno
+|-damage|p1a: Hypno|233\/318 par
+|move|p1a: Hypno|Hypnosis|p2a: Hypno
+|-status|p2a: Hypno|slp
+|
+|turn|3
+|
+|switch|p2a: Eevee|Eevee, L96|300\/300
+|cant|p1a: Hypno|par
+|
+|turn|4
+|
+|move|p2a: Eevee|Mimic|p1a: Hypno
+|-start|p2a: Eevee|Mimic|Psychic
+|move|p1a: Hypno|Counter|p2a: Eevee
+|-fail|p1a: Hypno
+|
+|turn|5
+|
+|move|p2a: Eevee|Psychic|p1a: Hypno
+|-resisted|p1a: Hypno
+|-damage|p1a: Hypno|206\/318 par
+|cant|p1a: Hypno|par
+|
+|turn|6
+|
+|move|p2a: Eevee|Double-Edge|p1a: Hypno
+|-damage|p1a: Hypno|93\/318 par
+|-damage|p2a: Eevee|272\/300|[from] recoil|[of] p1a: Hypno
+|move|p1a: Hypno|Psychic|p2a: Eevee
+|-damage|p2a: Eevee|154\/300
+|
+|turn|7
+|
+|switch|p1a: Lickitung|Lickitung, L90|345\/345
+|move|p2a: Eevee|Double-Edge|p1a: Lickitung
+|-damage|p1a: Lickitung|253\/345
+|-damage|p2a: Eevee|131\/300|[from] recoil|[of] p1a: Lickitung
+|
+|turn|8
+|
+|move|p2a: Eevee|Growl|p1a: Lickitung
+|-unboost|p1a: Lickitung|atk|1
+|move|p1a: Lickitung|Swords Dance|p1a: Lickitung
+|-boost|p1a: Lickitung|atk|2
+|
+|turn|9
+|
+|move|p2a: Eevee|Body Slam|p1a: Lickitung
+|-crit|p1a: Lickitung
+|-damage|p1a: Lickitung|88\/345
+|move|p1a: Lickitung|Body Slam|p2a: Eevee
+|-damage|p2a: Eevee|0 fnt
+|faint|p2a: Eevee
+|
+|switch|p2a: Seadra|Seadra, L90|282\/282
+|turn|10
+|
+|move|p2a: Seadra|Surf|p1a: Lickitung
+|-damage|p1a: Lickitung|0 fnt
+|faint|p1a: Lickitung
+|
+|switch|p1a: Butterfree|Butterfree, L90|291\/291
+|turn|11
+|
+|move|p2a: Seadra|Blizzard|p1a: Butterfree
+|-crit|p1a: Butterfree
+|-supereffective|p1a: Butterfree
+|-damage|p1a: Butterfree|0 fnt
+|faint|p1a: Butterfree
+|c|★Ampharosinho|ç-ç
+|
+|switch|p1a: Hypno|Hypno, L85|93\/318 par
+|turn|12
+|
+|move|p2a: Seadra|Surf|p1a: Hypno
+|-damage|p1a: Hypno|3\/318 par
+|move|p1a: Hypno|Rest|p1a: Hypno
+|-status|p1a: Hypno|slp
+|-heal|p1a: Hypno|318\/318 slp|[silent]
+|-status|p1a: Hypno|slp|[from] move: Rest
+|
+|turn|13
+|
+|move|p2a: Seadra|Hydro Pump|p1a: Hypno|[miss]
+|-miss|p2a: Seadra
+|cant|p1a: Hypno|slp
+|
+|turn|14
+|
+|move|p2a: Seadra|Hydro Pump|p1a: Hypno
+|-damage|p1a: Hypno|203\/318 slp
+|-curestatus|p1a: Hypno|slp
+|
+|turn|15
+|
+|move|p2a: Seadra|Hydro Pump|p1a: Hypno
+|-damage|p1a: Hypno|93\/318
+|move|p1a: Hypno|Psychic|p2a: Seadra
+|-damage|p2a: Seadra|179\/282
+|
+|turn|16
+|
+|move|p2a: Seadra|Hydro Pump|p1a: Hypno|[miss]
+|-miss|p2a: Seadra
+|move|p1a: Hypno|Rest|p1a: Hypno
+|-status|p1a: Hypno|slp
+|-heal|p1a: Hypno|318\/318 slp|[silent]
+|-status|p1a: Hypno|slp|[from] move: Rest
+|
+|turn|17
+|c|★Ampharosinho|PORRA
+|c|★Ampharosinho|NÃO
+|c|★Ampharosinho|MISSA
+|c|★Ampharosinho|PL
+|c|★Ampharosinho|PLOX
+|c|★Ampharosinho|PS
+|
+|move|p2a: Seadra|Hydro Pump|p1a: Hypno
+|-damage|p1a: Hypno|198\/318 slp
+|cant|p1a: Hypno|slp
+|
+|turn|18
+|c|★Ricardo Oliveira|KKKKKK
+|
+|move|p2a: Seadra|Mimic|p1a: Hypno
+|-start|p2a: Seadra|Mimic|Counter
+|-curestatus|p1a: Hypno|slp
+|
+|turn|19
+|
+|move|p2a: Seadra|Hydro Pump|p1a: Hypno
+|-damage|p1a: Hypno|89\/318
+|move|p1a: Hypno|Psychic|p2a: Seadra
+|-damage|p2a: Seadra|75\/282
+|-unboost|p2a: Seadra|spd|1
+|-unboost|p2a: Seadra|spa|1
+|
+|turn|20
+|
+|move|p2a: Seadra|Hydro Pump|p1a: Hypno
+|-damage|p1a: Hypno|13\/318
+|move|p1a: Hypno|Rest|p1a: Hypno
+|-status|p1a: Hypno|slp
+|-heal|p1a: Hypno|318\/318 slp|[silent]
+|-status|p1a: Hypno|slp|[from] move: Rest
+|
+|turn|21
+|
+|switch|p2a: Kakuna|Kakuna, L99|290\/290
+|cant|p1a: Hypno|slp
+|
+|turn|22
+|
+|move|p2a: Kakuna|Harden|p2a: Kakuna
+|-boost|p2a: Kakuna|def|1
+|-curestatus|p1a: Hypno|slp
+|
+|turn|23
+|
+|move|p2a: Kakuna|Harden|p2a: Kakuna
+|-boost|p2a: Kakuna|def|1
+|move|p1a: Hypno|Psychic|p2a: Kakuna
+|-supereffective|p2a: Kakuna
+|-damage|p2a: Kakuna|0 fnt
+|faint|p2a: Kakuna
+|
+|switch|p2a: Magmar|Magmar, L90|300\/300
+|turn|24
+|
+|move|p2a: Magmar|Confuse Ray|p1a: Hypno
+|-start|p1a: Hypno|confusion
+|-activate|p1a: Hypno|confusion
+|-damage|p1a: Hypno|287\/318|[from] confusion
+|
+|turn|25
+|
+|switch|p1a: Charmeleon|Charmeleon, L85|272\/272
+|move|p2a: Magmar|Body Slam|p1a: Charmeleon
+|-damage|p1a: Charmeleon|193\/272
+|
+|turn|26
+|
+|move|p2a: Magmar|Body Slam|p1a: Charmeleon
+|-damage|p1a: Charmeleon|114\/272
+|move|p1a: Charmeleon|Body Slam|p2a: Magmar
+|-damage|p2a: Magmar|244\/300
+|
+|turn|27
+|
+|move|p2a: Magmar|Body Slam|p1a: Charmeleon
+|-damage|p1a: Charmeleon|24\/272
+|move|p1a: Charmeleon|Slash|p2a: Magmar
+|-crit|p2a: Magmar
+|-damage|p2a: Magmar|155\/300
+|
+|turn|28
+|
+|move|p2a: Magmar|Body Slam|p1a: Charmeleon
+|-damage|p1a: Charmeleon|0 fnt
+|faint|p1a: Charmeleon
+|
+|switch|p1a: Marowak|Marowak, L90|291\/291
+|turn|29
+|
+|switch|p2a: Hypno|Hypno, L85|318\/318 slp
+|move|p1a: Marowak|Earthquake|p2a: Hypno
+|-damage|p2a: Hypno|203\/318 slp
+|
+|turn|30
+|
+|move|p1a: Marowak|Earthquake|p2a: Hypno
+|-damage|p2a: Hypno|74\/318 slp
+|cant|p2a: Hypno|slp
+|
+|turn|31
+|
+|-curestatus|p2a: Hypno|slp
+|move|p1a: Marowak|Earthquake|p2a: Hypno
+|-damage|p2a: Hypno|0 fnt
+|faint|p2a: Hypno
+|
+|switch|p2a: Seadra|Seadra, L90|75\/282
+|turn|32
+|
+|switch|p1a: Muk|Muk, L90|372\/372
+|move|p2a: Seadra|Surf|p1a: Muk
+|-crit|p1a: Muk
+|-damage|p1a: Muk|131\/372
+|
+|turn|33
+|c|★Ampharosinho|Esses
+|c|★Ampharosinho|Scarf
+|
+|move|p2a: Seadra|Surf|p1a: Muk
+|-damage|p1a: Muk|2\/372
+|move|p1a: Muk|Mega Drain|p2a: Seadra
+|-supereffective|p2a: Seadra
+|-damage|p2a: Seadra|29\/282
+|-heal|p1a: Muk|25\/372|[from] drain|[of] p2a: Seadra
+|
+|turn|34
+|c|★Ricardo Oliveira|!dt mega drain
+|c|~|\/data-move Mega Drain
+|raw|<font size="1"><font color=#585858>Priority:<\/font> 0&nbsp;|&ThickSpace;<font color=#585858>Gen:<\/font> 1&nbsp;|&ThickSpace;<font color=#585858>Target:<\/font> One Adjacent Pokémon<\/font>
+|c|★Ricardo Oliveira|!dt muk
+|c|~|\/data-pokemon Muk
+|raw|<font size="1"><font color=#585858>Dex#:<\/font> 89&nbsp;|&ThickSpace;<font color=#585858>Gen:<\/font> 1&nbsp;|&ThickSpace;<font color=#585858>Height:<\/font> 1.2 m&nbsp;|&ThickSpace;<font color=#585858>Weight:<\/font> 30 kg <em>(60 BP)<\/em>&nbsp;|&ThickSpace;<font color=#585858>Dex Colour:<\/font> Purple&nbsp;|&ThickSpace;<font color=#585858>Egg Group(s):<\/font> Amorphous&nbsp;|&ThickSpace;<font color=#585858><font color=#585858>Does Not Evolve<\/font><\/font><\/font>
+|c|★Ricardo Oliveira|!dt seadra
+|c|~|\/data-pokemon Seadra
+|raw|<font size="1"><font color=#585858>Dex#:<\/font> 117&nbsp;|&ThickSpace;<font color=#585858>Gen:<\/font> 1&nbsp;|&ThickSpace;<font color=#585858>Height:<\/font> 1.2 m&nbsp;|&ThickSpace;<font color=#585858>Weight:<\/font> 25 kg <em>(60 BP)<\/em>&nbsp;|&ThickSpace;<font color=#585858>Dex Colour:<\/font> Blue&nbsp;|&ThickSpace;<font color=#585858>Egg Group(s):<\/font> Water 1, Dragon&nbsp;|&ThickSpace;<font color=#585858>Evolution:<\/font> Kingdra (32)<\/font>
+|c|★Ricardo Oliveira|Tá dormindo?
+|
+|move|p2a: Seadra|Surf|p1a: Muk
+|-damage|p1a: Muk|0 fnt
+|faint|p1a: Muk
+|c|★Ampharosinho|Malz
+|
+|switch|p1a: Hypno|Hypno, L85|287\/318
+|turn|35
+|c|★Ampharosinho|Apaguei levement
+|
+|move|p2a: Seadra|Hydro Pump|p1a: Hypno|[miss]
+|-miss|p2a: Seadra
+|move|p1a: Hypno|Psychic|p2a: Seadra
+|-damage|p2a: Seadra|0 fnt
+|faint|p2a: Seadra
+|c|★Ampharosinho|PORRA
+|
+|switch|p2a: Arbok|Arbok, L90|291\/291
+|turn|36
+|
+|move|p2a: Arbok|Body Slam|p1a: Hypno
+|-damage|p1a: Hypno|217\/318
+|move|p1a: Hypno|Psychic|p2a: Arbok
+|-supereffective|p2a: Arbok
+|-damage|p2a: Arbok|44\/291
+|
+|turn|37
+|
+|move|p2a: Arbok|Glare|p1a: Hypno
+|-status|p1a: Hypno|par
+|move|p1a: Hypno|Psychic|p2a: Arbok
+|-supereffective|p2a: Arbok
+|-damage|p2a: Arbok|0 fnt
+|faint|p2a: Arbok
+|
+|switch|p2a: Magmar|Magmar, L90|155\/300
+|turn|38
+|c|★Ricardo Oliveira|gg
+|
+|move|p2a: Magmar|Confuse Ray|p1a: Hypno
+|-start|p1a: Hypno|confusion
+|-activate|p1a: Hypno|confusion
+|move|p1a: Hypno|Psychic|p2a: Magmar
+|-damage|p2a: Magmar|55\/300
+|
+|turn|39
+|
+|move|p2a: Magmar|Body Slam|p1a: Hypno
+|-damage|p1a: Hypno|145\/318 par
+|-end|p1a: Hypno|confusion
+|move|p1a: Hypno|Counter|p2a: Magmar
+|-damage|p2a: Magmar|0 fnt
+|faint|p2a: Magmar
+|
+|win|Ricardo Oliveira
+|leave|Ampharosinho
+|player|p2

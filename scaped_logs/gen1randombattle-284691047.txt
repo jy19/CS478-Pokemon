@@ -1,0 +1,273 @@
+﻿|join|AitorMaster
+|join|Hargnyque
+|player|p1|AitorMaster|163
+|player|p2|Hargnyque|26
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Raticate|Raticate, L85|267\/267
+|switch|p2a: Venonat|Venonat, L96|310\/310
+|turn|1
+|
+|move|p1a: Raticate|Blizzard|p2a: Venonat
+|-damage|p2a: Venonat|236\/310
+|move|p2a: Venonat|Stun Spore|p1a: Raticate
+|-status|p1a: Raticate|par
+|
+|turn|2
+|
+|move|p2a: Venonat|Psychic|p1a: Raticate
+|-damage|p1a: Raticate|205\/267 par
+|-unboost|p1a: Raticate|spd|1
+|-unboost|p1a: Raticate|spa|1
+|move|p1a: Raticate|Body Slam|p2a: Venonat
+|-damage|p2a: Venonat|136\/310
+|
+|turn|3
+|
+|move|p2a: Venonat|Psychic|p1a: Raticate
+|-damage|p1a: Raticate|101\/267 par
+|move|p1a: Raticate|Body Slam|p2a: Venonat
+|-damage|p2a: Venonat|31\/310
+|
+|turn|4
+|
+|move|p2a: Venonat|Psychic|p1a: Raticate
+|-damage|p1a: Raticate|3\/267 par
+|-unboost|p1a: Raticate|spd|1
+|-unboost|p1a: Raticate|spa|1
+|cant|p1a: Raticate|par
+|
+|turn|5
+|
+|move|p2a: Venonat|Mega Drain|p1a: Raticate
+|-damage|p1a: Raticate|0 fnt
+|-heal|p2a: Venonat|32\/310|[from] drain|[of] p1a: Raticate
+|faint|p1a: Raticate
+|
+|switch|p1a: Seaking|Seaking, L90|327\/327
+|turn|6
+|
+|move|p1a: Seaking|Surf|p2a: Venonat
+|-damage|p2a: Venonat|0 fnt
+|faint|p2a: Venonat
+|
+|switch|p2a: Parasect|Parasect, L90|291\/291
+|turn|7
+|
+|move|p1a: Seaking|Blizzard|p2a: Parasect
+|-supereffective|p2a: Parasect
+|-damage|p2a: Parasect|125\/291
+|move|p2a: Parasect|Stun Spore|p1a: Seaking
+|-status|p1a: Seaking|par
+|
+|turn|8
+|
+|move|p2a: Parasect|Double-Edge|p1a: Seaking
+|-damage|p1a: Seaking|230\/327 par
+|-damage|p2a: Parasect|101\/291|[from] recoil|[of] p1a: Seaking
+|move|p1a: Seaking|Blizzard|p2a: Parasect
+|-supereffective|p2a: Parasect
+|-damage|p2a: Parasect|0 fnt
+|faint|p2a: Parasect
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|293\/293
+|turn|9
+|
+|move|p2a: Mewtwo|Psychic|p1a: Seaking
+|-damage|p1a: Seaking|137\/327 par
+|-unboost|p1a: Seaking|spd|1
+|-unboost|p1a: Seaking|spa|1
+|move|p1a: Seaking|Hyper Beam|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|9\/293
+|
+|turn|10
+|-mustrecharge|p1a: Seaking
+|-mustrecharge|p1a: Seaking
+|
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|cant|p1a: Seaking|recharge
+|
+|turn|11
+|
+|switch|p1a: Persian|Persian, L79|265\/265
+|move|p2a: Mewtwo|Rest|p2a: Mewtwo
+|-status|p2a: Mewtwo|slp
+|-heal|p2a: Mewtwo|293\/293 slp|[silent]
+|-status|p2a: Mewtwo|slp|[from] move: Rest
+|
+|turn|12
+|
+|move|p1a: Persian|Slash|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|171\/293 slp
+|cant|p2a: Mewtwo|slp
+|
+|turn|13
+|
+|move|p1a: Persian|Slash|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|49\/293 slp
+|-curestatus|p2a: Mewtwo|slp
+|
+|turn|14
+|
+|switch|p2a: Fearow|Fearow, L90|300\/300
+|move|p1a: Persian|Slash|p2a: Fearow
+|-crit|p2a: Fearow
+|-damage|p2a: Fearow|185\/300
+|
+|turn|15
+|
+|switch|p1a: Seaking|Seaking, L90|137\/327 par
+|move|p2a: Fearow|Mirror Move|p2a: Fearow
+|-fail|p2a: Fearow
+|
+|turn|16
+|
+|move|p2a: Fearow|Hyper Beam|p1a: Seaking
+|-damage|p1a: Seaking|0 fnt
+|faint|p1a: Seaking
+|
+|switch|p1a: Kabuto|Kabuto, L96|252\/252
+|turn|17
+|
+|switch|p2a: Raticate|Raticate, L85|267\/267
+|move|p1a: Kabuto|Body Slam|p2a: Raticate
+|-damage|p2a: Raticate|178\/267
+|
+|turn|18
+|
+|move|p2a: Raticate|Super Fang|p1a: Kabuto
+|-damage|p1a: Kabuto|126\/252
+|move|p1a: Kabuto|Body Slam|p2a: Raticate
+|-damage|p2a: Raticate|94\/267
+|
+|turn|19
+|
+|move|p2a: Raticate|Super Fang|p1a: Kabuto
+|-damage|p1a: Kabuto|63\/252
+|move|p1a: Kabuto|Body Slam|p2a: Raticate
+|-damage|p2a: Raticate|4\/267
+|
+|turn|20
+|
+|move|p2a: Raticate|Hyper Beam|p1a: Kabuto
+|-crit|p1a: Kabuto
+|-resisted|p1a: Kabuto
+|-damage|p1a: Kabuto|0 fnt
+|faint|p1a: Kabuto
+|
+|switch|p1a: Persian|Persian, L79|265\/265
+|turn|21
+|
+|move|p1a: Persian|Slash|p2a: Raticate
+|-crit|p2a: Raticate
+|-damage|p2a: Raticate|0 fnt
+|faint|p2a: Raticate
+|
+|switch|p2a: Ponyta|Ponyta, L96|291\/291
+|turn|22
+|
+|switch|p1a: Machamp|Machamp, L90|345\/345
+|move|p2a: Ponyta|Body Slam|p1a: Machamp
+|-damage|p1a: Machamp|277\/345
+|
+|turn|23
+|
+|move|p2a: Ponyta|Body Slam|p1a: Machamp
+|-damage|p1a: Machamp|208\/345
+|-status|p1a: Machamp|par
+|cant|p1a: Machamp|par
+|
+|turn|24
+|
+|switch|p2a: Fearow|Fearow, L90|185\/300
+|move|p1a: Machamp|Earthquake|p2a: Fearow
+|-immune|p2a: Fearow|[msg]
+|
+|turn|25
+|
+|move|p2a: Fearow|Drill Peck|p1a: Machamp
+|-supereffective|p1a: Machamp
+|-damage|p1a: Machamp|18\/345 par
+|move|p1a: Machamp|Rock Slide|p2a: Fearow
+|-supereffective|p2a: Fearow
+|-damage|p2a: Fearow|17\/300
+|
+|turn|26
+|
+|move|p2a: Fearow|Drill Peck|p1a: Machamp
+|-supereffective|p1a: Machamp
+|-damage|p1a: Machamp|0 fnt
+|faint|p1a: Machamp
+|
+|switch|p1a: Dragonite|Dragonite, L85|328\/328
+|turn|27
+|
+|move|p2a: Fearow|Hyper Beam|p1a: Dragonite
+|-damage|p1a: Dragonite|164\/328
+|move|p1a: Dragonite|Thunderbolt|p2a: Fearow
+|-supereffective|p2a: Fearow
+|-damage|p2a: Fearow|0 fnt
+|faint|p2a: Fearow
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|49\/293
+|turn|28
+|
+|move|p2a: Mewtwo|Ice Beam|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|switch|p1a: Persian|Persian, L79|265\/265
+|turn|29
+|
+|move|p1a: Persian|Slash|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|0 fnt
+|faint|p2a: Mewtwo
+|
+|switch|p2a: Ponyta|Ponyta, L96|291\/291
+|turn|30
+|
+|move|p2a: Ponyta|Body Slam|p1a: Persian
+|-crit|p1a: Persian
+|-damage|p1a: Persian|95\/265
+|move|p1a: Persian|Bubble Beam|p2a: Ponyta
+|-crit|p2a: Ponyta
+|-supereffective|p2a: Ponyta
+|-damage|p2a: Ponyta|152\/291
+|-unboost|p2a: Ponyta|spe|1
+|
+|turn|31
+|
+|move|p1a: Persian|Hyper Beam|p2a: Ponyta
+|-damage|p2a: Ponyta|20\/291
+|move|p2a: Ponyta|Body Slam|p1a: Persian
+|-damage|p1a: Persian|7\/265
+|
+|turn|32
+|-mustrecharge|p1a: Persian
+|-mustrecharge|p1a: Persian
+|
+|cant|p1a: Persian|recharge
+|move|p2a: Ponyta|Body Slam|p1a: Persian
+|-damage|p1a: Persian|0 fnt
+|faint|p1a: Persian
+|
+|win|Hargnyque
+|raw|AitorMaster's rating: 1242 &rarr; <strong>1207<\/strong><br \/>(-35 for losing)
+|raw|Hargnyque's rating: 1088 &rarr; <strong>1126<\/strong><br \/>(+38 for winning)
+|leave|AitorMaster
+|player|p1
+|c|★Hargnyque|Slash is better

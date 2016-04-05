@@ -1,0 +1,229 @@
+﻿|join|PeteGoggles
+|join|astrangerinthetub
+|player|p1|PeteGoggles|170
+|player|p2|astrangerinthetub|102
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Kangaskhan|Kangaskhan, L86|356\/356
+|switch|p2a: Kabutops|Kabutops, L86|279\/279
+|turn|1
+|
+|move|p1a: Kangaskhan|Earthquake|p2a: Kabutops
+|-supereffective|p2a: Kabutops
+|-damage|p2a: Kabutops|153\/279
+|move|p2a: Kabutops|Swords Dance|p2a: Kabutops
+|-boost|p2a: Kabutops|atk|2
+|
+|turn|2
+|
+|move|p1a: Kangaskhan|Earthquake|p2a: Kabutops
+|-supereffective|p2a: Kabutops
+|-damage|p2a: Kabutops|24\/279
+|move|p2a: Kabutops|Body Slam|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|211\/356
+|
+|turn|3
+|
+|switch|p2a: Golbat|Golbat, L86|304\/304
+|move|p1a: Kangaskhan|Body Slam|p2a: Golbat
+|-damage|p2a: Golbat|196\/304
+|
+|turn|4
+|
+|move|p2a: Golbat|Confuse Ray|p1a: Kangaskhan
+|-start|p1a: Kangaskhan|confusion
+|-activate|p1a: Kangaskhan|confusion
+|-damage|p1a: Kangaskhan|177\/356|[from] confusion
+|
+|turn|5
+|
+|move|p2a: Golbat|Mega Drain|p1a: Kangaskhan
+|-crit|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|103\/356
+|-heal|p2a: Golbat|233\/304|[from] drain|[of] p1a: Kangaskhan
+|-activate|p1a: Kangaskhan|confusion
+|-damage|p1a: Kangaskhan|69\/356|[from] confusion
+|
+|turn|6
+|
+|-activate|p1a: Kangaskhan|confusion
+|move|p1a: Kangaskhan|Body Slam|p2a: Golbat
+|-damage|p2a: Golbat|134\/304
+|-status|p2a: Golbat|par
+|move|p2a: Golbat|Double-Edge|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|7\/356
+|-damage|p2a: Golbat|119\/304 par|[from] recoil|[of] p1a: Kangaskhan
+|
+|turn|7
+|
+|switch|p1a: Golem|Golem, L82|299\/299
+|move|p2a: Golbat|Mega Drain|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|174\/299
+|-heal|p2a: Golbat|181\/304 par|[from] drain|[of] p1a: Golem
+|
+|turn|8
+|
+|move|p1a: Golem|Rock Slide|p2a: Golbat|[miss]
+|-miss|p1a: Golem
+|cant|p2a: Golbat|par
+|
+|turn|9
+|
+|switch|p2a: Kabutops|Kabutops, L86|24\/279
+|move|p1a: Golem|Rock Slide|p2a: Kabutops
+|-damage|p2a: Kabutops|0 fnt
+|faint|p2a: Kabutops
+|
+|switch|p2a: Snorlax|Snorlax, L82|430\/430
+|turn|10
+|
+|move|p1a: Golem|Explosion|p2a: Snorlax
+|-damage|p2a: Snorlax|130\/430
+|faint|p1a: Golem
+|
+|switch|p1a: Kangaskhan|Kangaskhan, L86|7\/356
+|turn|11
+|
+|move|p1a: Kangaskhan|Hyper Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|switch|p2a: Jolteon|Jolteon, L86|287\/287
+|turn|12
+|
+|switch|p1a: Nidoking|Nidoking, L86|315\/315
+|move|p2a: Jolteon|Double Kick|p1a: Nidoking
+|-crit|p1a: Nidoking
+|-resisted|p1a: Nidoking
+|-damage|p1a: Nidoking|297\/315
+|-damage|p1a: Nidoking|279\/315
+|-hitcount|p1a: Nidoking|2
+|
+|turn|13
+|
+|switch|p2a: Golbat|Golbat, L86|181\/304 par
+|move|p1a: Nidoking|Body Slam|p2a: Golbat
+|-damage|p2a: Golbat|119\/304 par
+|
+|turn|14
+|
+|move|p1a: Nidoking|Thunderbolt|p2a: Golbat
+|-supereffective|p2a: Golbat
+|-damage|p2a: Golbat|0 fnt
+|faint|p2a: Golbat
+|
+|switch|p2a: Muk|Muk, L86|356\/356
+|turn|15
+|
+|move|p1a: Nidoking|Earthquake|p2a: Muk
+|-supereffective|p2a: Muk
+|-damage|p2a: Muk|134\/356
+|move|p2a: Muk|Explosion|p1a: Nidoking
+|-damage|p1a: Nidoking|0 fnt
+|faint|p1a: Nidoking
+|faint|p2a: Muk
+|
+|switch|p2a: Rapidash|Rapidash, L86|287\/287
+|switch|p1a: Muk|Muk, L86|356\/356
+|turn|16
+|
+|move|p2a: Rapidash|Fire Spin|p1a: Muk|[miss]
+|-miss|p2a: Rapidash
+|move|p1a: Muk|Body Slam|p2a: Rapidash
+|-damage|p2a: Rapidash|211\/287
+|-status|p2a: Rapidash|par
+|
+|turn|17
+|
+|move|p1a: Muk|Body Slam|p2a: Rapidash
+|-damage|p2a: Rapidash|141\/287 par
+|move|p2a: Rapidash|Fire Blast|p1a: Muk|[miss]
+|-miss|p2a: Rapidash
+|
+|turn|18
+|
+|move|p1a: Muk|Body Slam|p2a: Rapidash
+|-damage|p2a: Rapidash|70\/287 par
+|move|p2a: Rapidash|Fire Blast|p1a: Muk
+|-damage|p1a: Muk|209\/356
+|-status|p1a: Muk|brn
+|
+|turn|19
+|
+|move|p1a: Muk|Sludge|p2a: Rapidash
+|-damage|p2a: Rapidash|29\/287 par
+|-damage|p1a: Muk|187\/356 brn|[from] brn|[of] p2a: Rapidash
+|move|p2a: Rapidash|Fire Spin|p1a: Muk
+|-damage|p1a: Muk|170\/356 brn
+|-activate|p1a: Muk|move: Fire Spin|[of] p2a: Rapidash
+|
+|turn|20
+|
+|cant|p1a: Muk|partiallytrapped
+|-damage|p1a: Muk|148\/356 brn|[from] brn|[of] p2a: Rapidash
+|move|p2a: Rapidash|Fire Spin|p1a: Muk
+|-damage|p1a: Muk|131\/356 brn
+|
+|-end|p1a: Muk|Fire Spin|[partiallytrapped]
+|turn|21
+|
+|move|p1a: Muk|Sludge|p2a: Rapidash
+|-damage|p2a: Rapidash|0 fnt
+|faint|p2a: Rapidash
+|
+|switch|p2a: Jolteon|Jolteon, L86|287\/287
+|turn|22
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Muk
+|-damage|p1a: Muk|9\/356 brn
+|move|p1a: Muk|Explosion|p2a: Jolteon
+|-damage|p2a: Jolteon|118\/287
+|faint|p1a: Muk
+|
+|switch|p1a: Dewgong|Dewgong, L86|330\/330
+|turn|23
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Dewgong
+|-supereffective|p1a: Dewgong
+|-damage|p1a: Dewgong|117\/330
+|move|p1a: Dewgong|Body Slam|p2a: Jolteon
+|-damage|p2a: Jolteon|52\/287
+|
+|turn|24
+|c|★PeteGoggles|gg
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Dewgong
+|-supereffective|p1a: Dewgong
+|-damage|p1a: Dewgong|0 fnt
+|faint|p1a: Dewgong
+|
+|switch|p1a: Kangaskhan|Kangaskhan, L86|7\/356
+|turn|25
+|
+|move|p2a: Jolteon|Body Slam|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|0 fnt
+|faint|p1a: Kangaskhan
+|
+|switch|p1a: Gyarados|Gyarados, L86|339\/339
+|turn|26
+|c|★astrangerinthetub|gg
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|win|astrangerinthetub
+|raw|Ladder updating...
+|raw|PeteGoggles's rating: 1106 &rarr; <strong>1084<\/strong><br \/>(-22 for losing)
+|raw|astrangerinthetub's rating: 1145 &rarr; <strong>1167<\/strong><br \/>(+22 for winning)
+|leave|PeteGoggles
+|player|p1

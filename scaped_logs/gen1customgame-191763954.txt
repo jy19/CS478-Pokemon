@@ -1,0 +1,585 @@
+﻿|join|magic9mushroom
+|join|kid gf lol
+|player|p1|magic9mushroom|266
+|player|p2|kid gf lol|114
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Custom Game
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jolteon|Jolteon|333\/333
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|1
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Gengar
+|debug|randBW(256) = 38
+|-crit|p2a: Gengar
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|-damage|p2a: Gengar|118\/323
+|debug|randBW(256) = 24
+|-status|p2a: Gengar|par
+|debug|randBW(4) = 0
+|cant|p2a: Gengar|par
+|debug|p2: Gengar move interrupted; movedThisTurn: undefined
+|
+|turn|2
+|c|★magic9mushroom|sorry
+|c|★kid gf lol|lo
+|c|★kid gf lol|l
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Jolteon|Thunderbolt|p2a: Chansey
+|debug|randBW(256) = 165
+|-damage|p2a: Chansey|579\/703
+|debug|randBW(256) = 117
+|
+|turn|3
+|c|★kid gf lol|what even are the odds of that crit+para+full para on thunderbolt jolteon
+|c|★magic9mushroom|25%*25%*10%
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|debug|randBW(256) = 242
+|-status|p1a: Chansey|par
+|
+|turn|4
+|c|★kid gf lol|0.6%?
+|
+|switch|p2a: Gengar|Gengar|118\/323 par
+|debug|randBW(4) = 2
+|move|p1a: Chansey|Ice Beam|p2a: Gengar
+|debug|randBW(256) = 66
+|-damage|p2a: Gengar|51\/323 par
+|debug|randBW(256) = 245
+|
+|turn|5
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|debug|randBW(4) = 2
+|move|p2a: Gengar|Explosion|p1a: Tauros
+|debug|randBW(256) = 106
+|-damage|p1a: Tauros|155\/353
+|faint|p2a: Gengar
+|
+|switch|p2a: Mew|Mew|403\/403
+|turn|6
+|
+|move|p1a: Tauros|Slash|p2a: Mew
+|debug|randBW(256) = 68
+|-crit|p2a: Mew
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|-damage|p2a: Mew|236\/403
+|move|p2a: Mew|High Jump Kick|p1a: Tauros
+|debug|randBW(256) = 15
+|-supereffective|p1a: Tauros
+|-damage|p1a: Tauros|10\/353
+|
+|turn|7
+|
+|switch|p1a: Chansey|Chansey|703\/703 par
+|switch|p2a: Aerodactyl|Aerodactyl|363\/363
+|
+|turn|8
+|
+|switch|p2a: Mew|Mew|236\/403
+|switch|p1a: Starmie|Starmie|323\/323
+|
+|turn|9
+|
+|switch|p2a: Chansey|Chansey|579\/703
+|move|p1a: Starmie|Crabhammer|p2a: Chansey
+|debug|randBW(256) = 89
+|-crit|p2a: Chansey
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|-damage|p2a: Chansey|372\/703
+|
+|turn|10
+|
+|switch|p1a: Chansey|Chansey|703\/703 par
+|move|p2a: Chansey|Recover|p2a: Chansey
+|-heal|p2a: Chansey|703\/703
+|
+|turn|11
+|
+|switch|p2a: Mew|Mew|236\/403
+|debug|randBW(4) = 2
+|move|p1a: Chansey|Ice Beam|p2a: Mew
+|debug|randBW(256) = 100
+|-damage|p2a: Mew|160\/403
+|debug|randBW(256) = 253
+|
+|turn|12
+|
+|move|p2a: Mew|Recover|p2a: Mew
+|-heal|p2a: Mew|361\/403
+|debug|randBW(4) = 3
+|move|p1a: Chansey|Ice Beam|p2a: Mew
+|debug|randBW(256) = 165
+|-damage|p2a: Mew|282\/403
+|debug|randBW(256) = 253
+|
+|turn|13
+|
+|move|p2a: Mew|High Jump Kick|p1a: Chansey
+|debug|randBW(256) = 1
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|329\/703 par
+|debug|randBW(4) = 1
+|move|p1a: Chansey|Ice Beam|p2a: Mew
+|debug|randBW(256) = 137
+|-crit|p2a: Mew
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|-damage|p2a: Mew|144\/403
+|debug|randBW(256) = 154
+|
+|turn|14
+|
+|switch|p1a: Mew|Mew|403\/403
+|move|p2a: Mew|Recover|p2a: Mew
+|-heal|p2a: Mew|345\/403
+|
+|turn|15
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Mew|Amnesia|p1a: Mew
+|-boost|p1a: Mew|spd|2
+|-boost|p1a: Mew|spa|2
+|
+|turn|16
+|
+|move|p1a: Mew|Amnesia|p1a: Mew
+|-boost|p1a: Mew|spd|2
+|-boost|p1a: Mew|spa|2
+|move|p2a: Chansey|Thunder Wave|p1a: Mew
+|debug|randBW(256) = 56
+|-status|p1a: Mew|par
+|
+|turn|17
+|
+|move|p2a: Chansey|Amnesia|p2a: Chansey
+|-boost|p2a: Chansey|spd|2
+|-boost|p2a: Chansey|spa|2
+|debug|randBW(4) = 2
+|move|p1a: Mew|Amnesia|p1a: Mew
+|-boost|p1a: Mew|spd|2
+|-boost|p1a: Mew|spa|2
+|
+|turn|18
+|
+|move|p2a: Chansey|Amnesia|p2a: Chansey
+|-boost|p2a: Chansey|spd|2
+|-boost|p2a: Chansey|spa|2
+|debug|randBW(4) = 2
+|move|p1a: Mew|Amnesia|p1a: Mew
+|
+|turn|19
+|
+|move|p2a: Chansey|Amnesia|p2a: Chansey
+|-boost|p2a: Chansey|spd|2
+|-boost|p2a: Chansey|spa|2
+|debug|randBW(4) = 0
+|cant|p1a: Mew|par
+|debug|p1: Mew move interrupted; movedThisTurn: undefined
+|
+|turn|20
+|
+|move|p2a: Chansey|Surf|p1a: Mew
+|debug|randBW(256) = 21
+|-damage|p1a: Mew|331\/403 par
+|debug|randBW(4) = 2
+|move|p1a: Mew|Ice Beam|p2a: Chansey
+|debug|randBW(256) = 198
+|-damage|p2a: Chansey|623\/703
+|debug|randBW(256) = 165
+|
+|turn|21
+|
+|move|p2a: Chansey|Surf|p1a: Mew
+|debug|randBW(256) = 30
+|-damage|p1a: Mew|256\/403 par
+|debug|randBW(4) = 0
+|cant|p1a: Mew|par
+|debug|p1: Mew move interrupted; movedThisTurn: undefined
+|
+|turn|22
+|c|★kid gf lol|chansey bro
+|
+|move|p2a: Chansey|Surf|p1a: Mew
+|debug|randBW(256) = 78
+|-damage|p1a: Mew|181\/403 par
+|debug|randBW(4) = 1
+|move|p1a: Mew|Recover|p1a: Mew
+|-heal|p1a: Mew|382\/403 par
+|
+|turn|23
+|
+|move|p2a: Chansey|Thunder Wave|p1a: Mew
+|debug|randBW(256) = 201
+|-fail|p1a: Mew|par
+|debug|randBW(4) = 3
+|move|p1a: Mew|Ice Beam|p2a: Chansey
+|debug|randBW(256) = 143
+|-damage|p2a: Chansey|545\/703
+|debug|randBW(256) = 155
+|
+|turn|24
+|
+|move|p2a: Chansey|Thunder Wave|p1a: Mew
+|debug|randBW(256) = 68
+|-fail|p1a: Mew|par
+|debug|randBW(4) = 3
+|move|p1a: Mew|Ice Beam|p2a: Chansey
+|debug|randBW(256) = 202
+|-damage|p2a: Chansey|473\/703
+|debug|randBW(256) = 166
+|
+|turn|25
+|
+|move|p2a: Chansey|Thunder Wave|p1a: Mew
+|debug|randBW(256) = 58
+|-fail|p1a: Mew|par
+|debug|randBW(4) = 1
+|move|p1a: Mew|Ice Beam|p2a: Chansey
+|debug|randBW(256) = 95
+|-damage|p2a: Chansey|397\/703
+|debug|randBW(256) = 194
+|
+|turn|26
+|
+|move|p2a: Chansey|Recover|p2a: Chansey
+|-heal|p2a: Chansey|703\/703
+|debug|randBW(4) = 2
+|move|p1a: Mew|Ice Beam|p2a: Chansey
+|debug|randBW(256) = 129
+|-crit|p2a: Chansey
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|-damage|p2a: Chansey|574\/703
+|debug|randBW(256) = 184
+|
+|turn|27
+|
+|move|p2a: Chansey|Surf|p1a: Mew
+|debug|randBW(256) = 86
+|-damage|p1a: Mew|305\/403 par
+|debug|randBW(4) = 1
+|move|p1a: Mew|Ice Beam|p2a: Chansey
+|debug|randBW(256) = 3
+|-damage|p2a: Chansey|494\/703
+|debug|randBW(256) = 206
+|
+|turn|28
+|
+|move|p2a: Chansey|Surf|p1a: Mew
+|debug|randBW(256) = 215
+|-crit|p1a: Mew
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|-damage|p1a: Mew|152\/403 par
+|debug|randBW(4) = 0
+|cant|p1a: Mew|par
+|debug|p1: Mew move interrupted; movedThisTurn: undefined
+|
+|turn|29
+|
+|switch|p2a: Dodrio|Dodrio|323\/323
+|debug|randBW(4) = 3
+|move|p1a: Mew|Recover|p1a: Mew
+|-heal|p1a: Mew|353\/403 par
+|
+|turn|30
+|
+|move|p2a: Dodrio|Explosion|p1a: Mew
+|debug|randBW(256) = 241
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|faint|p2a: Dodrio
+|
+|switch|p1a: Tauros|Tauros|10\/353
+|switch|p2a: Mew|Mew|345\/403
+|turn|31
+|
+|move|p1a: Tauros|Recover|p1a: Tauros
+|-heal|p1a: Tauros|186\/353
+|move|p2a: Mew|Psychic|p1a: Tauros
+|debug|randBW(256) = 110
+|-damage|p1a: Tauros|47\/353
+|debug|randBW(256) = 175
+|
+|turn|32
+|
+|move|p1a: Tauros|Recover|p1a: Tauros
+|-heal|p1a: Tauros|223\/353
+|move|p2a: Mew|Psychic|p1a: Tauros
+|debug|randBW(256) = 9
+|-damage|p1a: Tauros|88\/353
+|debug|randBW(256) = 223
+|
+|turn|33
+|
+|move|p1a: Tauros|Recover|p1a: Tauros
+|-heal|p1a: Tauros|264\/353
+|move|p2a: Mew|High Jump Kick|p1a: Tauros
+|debug|randBW(256) = 149
+|-supereffective|p1a: Tauros
+|-damage|p1a: Tauros|129\/353
+|
+|turn|34
+|
+|move|p1a: Tauros|Recover|p1a: Tauros
+|-heal|p1a: Tauros|305\/353
+|move|p2a: Mew|Psychic|p1a: Tauros
+|debug|randBW(256) = 186
+|-damage|p1a: Tauros|167\/353
+|debug|randBW(256) = 188
+|
+|turn|35
+|
+|move|p1a: Tauros|Recover|p1a: Tauros
+|-heal|p1a: Tauros|343\/353
+|move|p2a: Mew|Psychic|p1a: Tauros
+|debug|randBW(256) = 135
+|-damage|p1a: Tauros|214\/353
+|debug|randBW(256) = 182
+|
+|turn|36
+|
+|move|p1a: Tauros|Slash|p2a: Mew
+|debug|randBW(256) = 42
+|-crit|p2a: Mew
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|-damage|p2a: Mew|177\/403
+|move|p2a: Mew|Psychic|p1a: Tauros
+|debug|randBW(256) = 3
+|-damage|p1a: Tauros|76\/353
+|debug|randBW(256) = 206
+|
+|turn|37
+|
+|move|p1a: Tauros|Recover|p1a: Tauros
+|-heal|p1a: Tauros|252\/353
+|move|p2a: Mew|Psychic|p1a: Tauros
+|debug|randBW(256) = 212
+|-crit|p1a: Tauros
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|-damage|p1a: Tauros|10\/353
+|debug|randBW(256) = 193
+|
+|turn|38
+|
+|move|p1a: Tauros|Recover|p1a: Tauros
+|-heal|p1a: Tauros|186\/353
+|move|p2a: Mew|Psychic|p1a: Tauros
+|debug|randBW(256) = 70
+|-crit|p1a: Tauros
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|-damage|p1a: Tauros|0 fnt
+|debug|randBW(256) = 47
+|faint|p1a: Tauros
+|c|★kid gf lol|dodrios explosion kills just about anything that isnt rock type
+|c|★kid gf lol|or cloyster
+|c|★kid gf lol|or geng obv
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|turn|39
+|
+|switch|p2a: Chansey|Chansey|494\/703
+|move|p1a: Starmie|Crabhammer|p2a: Chansey
+|debug|randBW(256) = 208
+|-crit|p2a: Chansey
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|-damage|p2a: Chansey|302\/703
+|
+|turn|40
+|
+|move|p1a: Starmie|High Jump Kick|p2a: Chansey
+|debug|randBW(256) = 224
+|-crit|p2a: Chansey
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|-supereffective|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|switch|p2a: Mew|Mew|403\/403
+|turn|41
+|c|★magic9mushroom|my display is only showing one mew
+|c|★magic9mushroom|that's a bug
+|c|★kid gf lol|i have 2 mews
+|c|★magic9mushroom|yeah
+|c|★magic9mushroom|my display isn't showing the second one, it just shows a Pokeball
+|c|★magic9mushroom|ie, that's a bug
+|c|★kid gf lol|yep
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Mew
+|debug|randBW(256) = 165
+|-status|p2a: Mew|par
+|debug|randBW(4) = 0
+|cant|p2a: Mew|par
+|debug|p2: Mew move interrupted; movedThisTurn: undefined
+|
+|turn|42
+|
+|move|p1a: Starmie|Crabhammer|p2a: Mew
+|debug|randBW(256) = 154
+|-crit|p2a: Mew
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|-damage|p2a: Mew|198\/403 par
+|debug|randBW(4) = 3
+|move|p2a: Mew|Thunder Wave|p1a: Starmie
+|debug|randBW(256) = 211
+|-status|p1a: Starmie|par
+|
+|turn|43
+|c|★kid gf lol|really...it's that strong? LOL
+|
+|debug|randBW(4) = 1
+|move|p1a: Starmie|Crabhammer|p2a: Mew
+|debug|randBW(256) = 55
+|-crit|p2a: Mew
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|c|★magic9mushroom|yeah, really
+|c|★kid gf lol|what can razor leaf exeggutor do
+|c|★magic9mushroom|Not nearly as much
+|c|★kid gf lol|crabhammer tentacruel
+|
+|switch|p2a: Aerodactyl|Aerodactyl|363\/363
+|turn|44
+|c|★magic9mushroom|it doesn't guarantee crit due to its low speed and RLeaf is only 55 BP to Crabhammer's 90
+|c|★kid gf lol|oh wow
+|c|★kid gf lol|tenta has higher special
+|c|★kid gf lol|idk if it would get raped though being weak to eq...electric and psychic though
+|c|★magic9mushroom|yeah but Tenta doesn't resist Psychic or outspeed Mew\/Tauros\/Gengar
+|
+|move|p2a: Aerodactyl|Drill Peck|p1a: Starmie
+|debug|randBW(256) = 180
+|-damage|p1a: Starmie|215\/323 par
+|debug|randBW(4) = 2
+|move|p1a: Starmie|Crabhammer|p2a: Aerodactyl
+|debug|randBW(256) = 31
+|-crit|p2a: Aerodactyl
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|-supereffective|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|faint|p2a: Aerodactyl
+|
+|switch|p2a: Mew|Mew|177\/403
+|turn|45
+|
+|move|p2a: Mew|Recover|p2a: Mew
+|-heal|p2a: Mew|378\/403
+|debug|randBW(4) = 2
+|move|p1a: Starmie|Thunder Wave|p2a: Mew
+|debug|randBW(256) = 88
+|-status|p2a: Mew|par
+|
+|turn|46
+|
+|debug|randBW(4) = 1
+|move|p1a: Starmie|Crabhammer|p2a: Mew|[miss]
+|debug|randBW(256) = 229
+|-miss|p1a: Starmie
+|debug|randBW(4) = 1
+|move|p2a: Mew|Recover|p2a: Mew
+|-heal|p2a: Mew|403\/403 par
+|
+|turn|47
+|
+|debug|randBW(4) = 0
+|cant|p1a: Starmie|par
+|debug|p1: Starmie move interrupted; movedThisTurn: undefined
+|debug|randBW(4) = 0
+|cant|p2a: Mew|par
+|debug|p2: Mew move interrupted; movedThisTurn: undefined
+|
+|turn|48
+|
+|debug|randBW(4) = 3
+|move|p1a: Starmie|Crabhammer|p2a: Mew
+|debug|randBW(256) = 209
+|-crit|p2a: Mew
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|-damage|p2a: Mew|189\/403 par
+|debug|randBW(4) = 1
+|move|p2a: Mew|Recover|p2a: Mew
+|-heal|p2a: Mew|390\/403 par
+|
+|turn|49
+|
+|debug|randBW(4) = 0
+|cant|p1a: Starmie|par
+|debug|p1: Starmie move interrupted; movedThisTurn: undefined
+|debug|randBW(4) = 2
+|move|p2a: Mew|Recover|p2a: Mew
+|-heal|p2a: Mew|403\/403 par
+|
+|turn|50
+|
+|debug|randBW(4) = 0
+|cant|p1a: Starmie|par
+|debug|p1: Starmie move interrupted; movedThisTurn: undefined
+|debug|randBW(4) = 3
+|move|p2a: Mew|Recover|p2a: Mew
+|-fail|p2a: Mew
+|
+|turn|51
+|
+|debug|randBW(4) = 2
+|move|p1a: Starmie|Crabhammer|p2a: Mew
+|debug|randBW(256) = 81
+|-crit|p2a: Mew
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|-damage|p2a: Mew|203\/403 par
+|debug|randBW(4) = 0
+|cant|p2a: Mew|par
+|debug|p2: Mew move interrupted; movedThisTurn: undefined
+|
+|turn|52
+|
+|switch|p1a: Aerodactyl|Aerodactyl|363\/363
+|debug|randBW(4) = 3
+|move|p2a: Mew|Recover|p2a: Mew
+|-heal|p2a: Mew|403\/403 par
+|
+|turn|53
+|
+|move|p1a: Aerodactyl|Swords Dance|p1a: Aerodactyl
+|-boost|p1a: Aerodactyl|atk|2
+|debug|randBW(4) = 3
+|move|p2a: Mew|Amnesia|p2a: Mew
+|-boost|p2a: Mew|spd|2
+|-boost|p2a: Mew|spa|2
+|
+|turn|54
+|
+|move|p1a: Aerodactyl|Drill Peck|p2a: Mew
+|debug|randBW(256) = 166
+|-damage|p2a: Mew|198\/403 par
+|debug|randBW(4) = 0
+|cant|p2a: Mew|par
+|debug|p2: Mew move interrupted; movedThisTurn: undefined
+|
+|turn|55
+|
+|move|p1a: Aerodactyl|Drill Peck|p2a: Mew
+|debug|randBW(256) = 110
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|win|magic9mushroom

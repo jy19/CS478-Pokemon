@@ -1,0 +1,277 @@
+﻿|join|Sylivian
+|join|marcoasd
+|player|p1|Sylivian|265
+|player|p2|marcoasd|170
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Jynx|Jynx|333\/333
+|turn|1
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Jynx
+|-status|p2a: Jynx|par
+|move|p2a: Jynx|Lovely Kiss|p1a: Alakazam|[miss]
+|-miss|p2a: Jynx
+|
+|turn|2
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Jynx
+|-damage|p2a: Jynx|233\/333 par
+|move|p2a: Jynx|Lovely Kiss|p1a: Alakazam
+|-status|p1a: Alakazam|slp
+|
+|turn|3
+|join|PrimalAzurill
+|
+|cant|p1a: Alakazam|slp
+|cant|p2a: Jynx|par
+|
+|turn|4
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|cant|p1a: Alakazam|slp
+|
+|turn|5
+|
+|cant|p1a: Alakazam|slp
+|move|p2a: Tauros|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|154\/313 slp
+|
+|turn|6
+|join|Disaster Area
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|move|p2a: Tauros|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|221\/323
+|-status|p1a: Starmie|par
+|
+|turn|7
+|leave|PrimalAzurill
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|323\/323 par
+|
+|turn|8
+|
+|switch|p1a: Alakazam|Alakazam|154\/313 slp
+|move|p2a: Chansey|Ice Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|90\/313 slp
+|
+|turn|9
+|
+|cant|p1a: Alakazam|slp
+|move|p2a: Chansey|Ice Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|27\/313 slp
+|
+|turn|10
+|
+|-curestatus|p1a: Alakazam|slp
+|move|p2a: Chansey|Ice Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|switch|p1a: Victreebel|Victreebel|363\/363
+|turn|11
+|
+|move|p1a: Victreebel|Sleep Powder|p2a: Chansey|[miss]
+|-miss|p1a: Victreebel
+|move|p2a: Chansey|Thunder Wave|p1a: Victreebel
+|-status|p1a: Victreebel|par
+|
+|turn|12
+|
+|switch|p2a: Jynx|Jynx|233\/333 par
+|move|p1a: Victreebel|Swords Dance|p1a: Victreebel
+|-boost|p1a: Victreebel|atk|2
+|
+|turn|13
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Victreebel|Hyper Beam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|142\/393
+|
+|turn|14
+|-mustrecharge|p1a: Victreebel
+|-mustrecharge|p1a: Victreebel
+|
+|move|p2a: Exeggutor|Psychic|p1a: Victreebel
+|-supereffective|p1a: Victreebel
+|-damage|p1a: Victreebel|96\/363 par
+|cant|p1a: Victreebel|recharge
+|
+|turn|15
+|
+|switch|p1a: Zapdos|Zapdos|383\/383
+|move|p2a: Exeggutor|Psychic|p1a: Zapdos
+|-damage|p1a: Zapdos|273\/383
+|
+|turn|16
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Zapdos|Drill Peck|p2a: Snorlax
+|-damage|p2a: Snorlax|400\/523
+|
+|turn|17
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Snorlax
+|-damage|p2a: Snorlax|219\/523
+|-status|p2a: Snorlax|par
+|move|p2a: Snorlax|Body Slam|p1a: Zapdos
+|-damage|p1a: Zapdos|151\/383
+|
+|turn|18
+|
+|switch|p1a: Golem|Golem|363\/363
+|switch|p2a: Chansey|Chansey|703\/703
+|
+|turn|19
+|
+|move|p2a: Chansey|Ice Beam|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|150\/363
+|move|p1a: Golem|Earthquake|p2a: Chansey
+|-damage|p2a: Chansey|344\/703
+|
+|turn|20
+|
+|move|p2a: Chansey|Ice Beam|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|0 fnt
+|faint|p1a: Golem
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|21
+|
+|switch|p2a: Lapras|Lapras|463\/463
+|move|p1a: Tauros|Hyper Beam|p2a: Lapras
+|-crit|p2a: Lapras
+|-damage|p2a: Lapras|51\/463
+|
+|turn|22
+|-mustrecharge|p1a: Tauros
+|-mustrecharge|p1a: Tauros
+|c|★marcoasd|ouch
+|
+|cant|p1a: Tauros|recharge
+|move|p2a: Lapras|Blizzard|p1a: Tauros
+|-damage|p1a: Tauros|178\/353
+|
+|turn|23
+|
+|move|p1a: Tauros|Body Slam|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|24
+|
+|switch|p1a: Victreebel|Victreebel|96\/363 par
+|move|p2a: Tauros|Body Slam|p1a: Victreebel
+|-crit|p1a: Victreebel
+|-damage|p1a: Victreebel|0 fnt
+|faint|p1a: Victreebel
+|
+|switch|p1a: Starmie|Starmie|323\/323 par
+|turn|25
+|
+|switch|p2a: Chansey|Chansey|344\/703
+|move|p1a: Starmie|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|turn|26
+|
+|switch|p1a: Tauros|Tauros|178\/353
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|695\/703 par
+|
+|turn|27
+|
+|move|p1a: Tauros|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|402\/703 par
+|move|p2a: Chansey|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|
+|turn|28
+|
+|switch|p2a: Jynx|Jynx|233\/333 par
+|move|p1a: Tauros|Hyper Beam|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|
+|switch|p2a: Exeggutor|Exeggutor|142\/393
+|turn|29
+|
+|move|p2a: Exeggutor|Explosion|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|faint|p2a: Exeggutor
+|join|Giju
+|c| Giju|hey marco!
+|c|★marcoasd|oi
+|
+|switch|p1a: Zapdos|Zapdos|151\/383
+|switch|p2a: Snorlax|Snorlax|219\/523 par
+|turn|30
+|c| Giju|come va?
+|c| Disaster Area|:] giju this is also for the tour :q
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Snorlax
+|-damage|p2a: Snorlax|104\/523 par
+|move|p2a: Snorlax|Self-Destruct|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|faint|p2a: Snorlax
+|c| Disaster Area|marco's up 2-0 rn I think
+|c|★marcoasd|benone
+|c| Giju|cool
+|c|★Sylivian|he is
+|
+|switch|p1a: Starmie|Starmie|323\/323 par
+|switch|p2a: Chansey|Chansey|402\/703 par
+|turn|31
+|c|★Sylivian|;3
+|c| Giju|marco spacca culi v.v
+|
+|cant|p1a: Starmie|par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703 par
+|
+|turn|32
+|c|★Sylivian|gg (:
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|175\/323 par
+|
+|turn|33
+|c|★marcoasd|ggs
+|
+|move|p1a: Starmie|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|613\/703 par
+|move|p2a: Chansey|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|31\/323 par
+|
+|turn|34
+|
+|cant|p1a: Starmie|par
+|move|p2a: Chansey|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|win|marcoasd
+|c|★marcoasd|te che combini?

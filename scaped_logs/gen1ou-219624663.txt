@@ -1,0 +1,460 @@
+﻿|join|Disaster Area
+|join|unfixable
+|player|p1|Disaster Area|32
+|player|p2|unfixable|#unfixable
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Starmie|Starmie|323\/323
+|switch|p2a: Alakazam|Alakazam|313\/313
+|turn|1
+|c|★Disaster Area|gl hf
+|c|★unfixable|gl :)
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Alakazam|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|turn|2
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-start|p1a: Chansey|Reflect
+|
+|turn|3
+|
+|move|p2a: Exeggutor|Egg Bomb|p1a: Chansey
+|-damage|p1a: Chansey|600\/703 par
+|move|p1a: Chansey|Thunder Wave|p2a: Exeggutor
+|-status|p2a: Exeggutor|par
+|
+|turn|4
+|
+|move|p2a: Exeggutor|Explosion|p1a: Chansey
+|-damage|p1a: Chansey|232\/703 par
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Lapras|Lapras|463\/463
+|turn|5
+|
+|move|p2a: Lapras|Confuse Ray|p1a: Chansey
+|-start|p1a: Chansey|confusion
+|-activate|p1a: Chansey|confusion
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|583\/703 par
+|
+|turn|6
+|c|★unfixable|ugh
+|c|★unfixable|was hoping you'd hit self lol
+|c|★Disaster Area|ik
+|
+|move|p2a: Lapras|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|460\/703 par
+|-end|p1a: Chansey|confusion
+|move|p1a: Chansey|Thunder Wave|p2a: Lapras
+|-status|p2a: Lapras|par
+|
+|turn|7
+|
+|cant|p2a: Lapras|par
+|cant|p1a: Chansey|par
+|
+|turn|8
+|
+|move|p2a: Lapras|Confuse Ray|p1a: Chansey
+|-start|p1a: Chansey|confusion
+|cant|p1a: Chansey|par
+|
+|turn|9
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|-activate|p1a: Chansey|confusion
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703 par
+|
+|turn|10
+|
+|move|p2a: Tauros|Body Slam|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|182\/703 par
+|cant|p1a: Chansey|par
+|
+|turn|11
+|c|★unfixable|ez crit
+|c|★unfixable|:')
+|join|purple piplup
+|
+|switch|p1a: Rhydon|Rhydon|413\/413
+|move|p2a: Tauros|Hyper Beam|p1a: Rhydon|[miss]
+|-miss|p2a: Tauros
+|
+|turn|12
+|c|★unfixable|lol
+|c|★unfixable|hax is good today
+|c| purple piplup|:]
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|move|p2a: Tauros|Blizzard|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|285\/323
+|
+|turn|13
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Starmie|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|595\/703
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|
+|turn|14
+|
+|switch|p1a: Chansey|Chansey|182\/703 par
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|
+|turn|15
+|c|★unfixable|I switched
+|c|★unfixable|but oh well
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|move|p1a: Chansey|Thunder Wave|p2a: Tauros
+|-status|p2a: Tauros|par
+|
+|turn|16
+|c|★Disaster Area|;]
+|
+|switch|p1a: Starmie|Starmie|285\/323
+|move|p2a: Tauros|Body Slam|p1a: Starmie
+|-crit|p1a: Starmie
+|-damage|p1a: Starmie|73\/323
+|
+|turn|17
+|c| purple piplup|:o
+|c|★unfixable|:0
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|234\/323
+|move|p2a: Tauros|Body Slam|p1a: Starmie
+|-crit|p1a: Starmie
+|-damage|p1a: Starmie|5\/323
+|
+|turn|18
+|c| purple piplup|oh wow
+|c|★unfixable|heh
+|
+|switch|p1a: Rhydon|Rhydon|413\/413
+|move|p2a: Tauros|Body Slam|p1a: Rhydon
+|-crit|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|324\/413
+|
+|turn|19
+|c|★Disaster Area|lol
+|c| purple piplup|xD
+|c|★unfixable|why is tauros such a lord
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Rhydon|Earthquake|p2a: Snorlax
+|-damage|p2a: Snorlax|333\/523
+|
+|turn|20
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Snorlax|Reflect|p2a: Snorlax
+|-start|p2a: Snorlax|Reflect
+|
+|turn|21
+|
+|move|p1a: Exeggutor|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|174\/523
+|-unboost|p2a: Snorlax|spd|1
+|-unboost|p2a: Snorlax|spa|1
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|
+|turn|22
+|c|★unfixable|:')
+|
+|move|p1a: Exeggutor|Sleep Powder|p2a: Snorlax|[miss]
+|-miss|p1a: Exeggutor
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp
+|-heal|p2a: Snorlax|523\/523 slp|[silent]
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|
+|turn|23
+|
+|move|p1a: Exeggutor|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|410\/523 slp
+|cant|p2a: Snorlax|slp
+|
+|turn|24
+|
+|move|p1a: Exeggutor|Psychic|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|120\/523 slp
+|cant|p2a: Snorlax|slp
+|-curestatus|p2a: Snorlax|slp
+|
+|turn|25
+|c|★unfixable|o
+|c|★unfixable|;
+|
+|move|p1a: Exeggutor|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|9\/523
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp
+|-heal|p2a: Snorlax|523\/523 slp|[silent]
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|
+|turn|26
+|
+|move|p1a: Exeggutor|Psychic|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|203\/523 slp
+|-unboost|p2a: Snorlax|spd|1
+|-unboost|p2a: Snorlax|spa|1
+|cant|p2a: Snorlax|slp
+|
+|turn|27
+|c| purple piplup|:o
+|c|★unfixable|why so fast
+|c|★unfixable|:(
+|
+|move|p1a: Exeggutor|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|48\/523 slp
+|cant|p2a: Snorlax|slp
+|-curestatus|p2a: Snorlax|slp
+|
+|turn|28
+|
+|move|p1a: Exeggutor|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|switch|p2a: Lapras|Lapras|463\/463 par
+|turn|29
+|c|★unfixable|exeggutor is a little bitch
+|c| purple piplup|lol
+|
+|switch|p1a: Chansey|Chansey|182\/703 par
+|move|p2a: Lapras|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|53\/703 par
+|
+|turn|30
+|
+|move|p2a: Lapras|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|switch|p1a: Starmie|Starmie|5\/323
+|turn|31
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|166\/323
+|move|p2a: Lapras|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|96\/323
+|-status|p1a: Starmie|par
+|
+|turn|32
+|
+|cant|p1a: Starmie|par
+|move|p2a: Lapras|Confuse Ray|p1a: Starmie
+|-start|p1a: Starmie|confusion
+|
+|turn|33
+|c|★unfixable|lapras <3
+|
+|-activate|p1a: Starmie|confusion
+|-damage|p1a: Starmie|63\/323 par|[from] confusion
+|move|p2a: Lapras|Blizzard|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|c|★Disaster Area|rip in pieces
+|
+|switch|p1a: Rhydon|Rhydon|324\/413
+|turn|34
+|
+|move|p1a: Rhydon|Substitute|p1a: Rhydon
+|-start|p1a: Rhydon|Substitute
+|-damage|p1a: Rhydon|221\/413
+|move|p2a: Lapras|Blizzard|p1a: Rhydon|[miss]
+|-miss|p2a: Lapras
+|
+|turn|35
+|c|★unfixable|pls no
+|
+|move|p1a: Rhydon|Rock Slide|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|205\/463 par
+|cant|p2a: Lapras|par
+|
+|turn|36
+|
+|move|p1a: Rhydon|Earthquake|p2a: Lapras
+|-damage|p2a: Lapras|51\/463 par
+|move|p2a: Lapras|Blizzard|p1a: Rhydon|[miss]
+|-miss|p2a: Lapras
+|
+|turn|37
+|c| purple piplup|lol
+|c|★Disaster Area|rip
+|
+|move|p1a: Rhydon|Earthquake|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|c|★unfixable|of course
+|
+|switch|p2a: Chansey|Chansey|595\/703
+|turn|38
+|
+|move|p2a: Chansey|Ice Beam|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-end|p1a: Rhydon|Substitute
+|move|p1a: Rhydon|Earthquake|p2a: Chansey
+|-damage|p2a: Chansey|226\/703
+|
+|turn|39
+|c|★unfixable|lol
+|c|★unfixable|i outspeed
+|
+|switch|p1a: Articuno|Articuno|383\/383
+|move|p2a: Chansey|Ice Beam|p1a: Articuno
+|-crit|p1a: Articuno
+|-damage|p1a: Articuno|247\/383
+|
+|turn|40
+|c|★unfixable|:')
+|c|★Disaster Area|yeh
+|c|★Disaster Area|;)
+|c|★Disaster Area|but I have a burd
+|
+|move|p1a: Articuno|Hyper Beam|p2a: Chansey|[miss]
+|-miss|p1a: Articuno
+|move|p2a: Chansey|Thunder Wave|p1a: Articuno
+|-status|p1a: Articuno|par
+|
+|turn|41
+|c|★Disaster Area|lolrip
+|c|★unfixable|lol
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|577\/703
+|cant|p1a: Articuno|par
+|
+|turn|42
+|c| purple piplup|rip
+|
+|move|p2a: Chansey|Ice Beam|p1a: Articuno
+|-damage|p1a: Articuno|185\/383 par
+|move|p1a: Articuno|Agility|p1a: Articuno
+|-boost|p1a: Articuno|spe|2
+|
+|turn|43
+|
+|switch|p2a: Alakazam|Alakazam|313\/313
+|cant|p1a: Articuno|par
+|
+|turn|44
+|c|★unfixable|oh shit
+|
+|move|p1a: Articuno|Blizzard|p2a: Alakazam
+|-damage|p2a: Alakazam|188\/313
+|move|p2a: Alakazam|Psychic|p1a: Articuno
+|-damage|p1a: Articuno|68\/383 par
+|
+|turn|45
+|
+|move|p1a: Articuno|Blizzard|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|c| purple piplup|:ooooo
+|
+|switch|p2a: Chansey|Chansey|577\/703
+|turn|46
+|
+|move|p1a: Articuno|Blizzard|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|292\/703
+|move|p2a: Chansey|Ice Beam|p1a: Articuno
+|-damage|p1a: Articuno|0 fnt
+|faint|p1a: Articuno
+|c|★unfixable|not ogre
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|turn|47
+|
+|move|p1a: Exeggutor|Explosion|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|faint|p1a: Exeggutor
+|
+|switch|p2a: Tauros|Tauros|353\/353 par
+|switch|p1a: Rhydon|Rhydon|221\/413
+|turn|48
+|c|★Disaster Area|gg
+|c|★unfixable|gg :")
+|
+|move|p1a: Rhydon|Substitute|p1a: Rhydon
+|-start|p1a: Rhydon|Substitute
+|-damage|p1a: Rhydon|118\/413
+|move|p2a: Tauros|Blizzard|p1a: Rhydon
+|-crit|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-end|p1a: Rhydon|Substitute
+|
+|turn|49
+|
+|move|p1a: Rhydon|Substitute|p1a: Rhydon
+|-start|p1a: Rhydon|Substitute
+|-damage|p1a: Rhydon|15\/413
+|move|p2a: Tauros|Earthquake|p1a: Rhydon
+|-crit|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-end|p1a: Rhydon|Substitute
+|
+|turn|50
+|
+|move|p1a: Rhydon|Earthquake|p2a: Tauros
+|-damage|p2a: Tauros|216\/353 par
+|cant|p2a: Tauros|par
+|
+|turn|51
+|
+|move|p1a: Rhydon|Earthquake|p2a: Tauros
+|-damage|p2a: Tauros|68\/353 par
+|cant|p2a: Tauros|par
+|
+|turn|52
+|c| purple piplup|rip
+|c|★unfixable|;
+|c|★Disaster Area|last mon is tauros btw
+|c|★Disaster Area|lol
+|
+|move|p1a: Rhydon|Earthquake|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|win|Disaster Area
+|c|★unfixable|yea, it doesn't matter really
+|c|★unfixable|but still
+|c|★unfixable|;_;
+|leave|unfixable
+|player|p2
+|c|★Disaster Area|lol
+|c| purple piplup|:]
+|leave|Disaster Area
+|player|p1
+|leave|purple piplup
+|join|Disaster Area

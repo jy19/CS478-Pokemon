@@ -1,0 +1,232 @@
+﻿|join|kid gf lol
+|join|rocci1212
+|player|p1|kid gf lol|37
+|player|p2|rocci1212|50
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|switch|p1a: Starmie|Starmie|323\/323
+|switch|p2a: WoodMon|Exeggutor|393\/393
+|turn|1
+|chat|rocci1212|gl
+|
+|switch|p2a: FreezeMon|Lapras|463\/463
+|move|p1a: Starmie|Thunder Wave|p2a: FreezeMon
+|-status|p2a: FreezeMon|par
+|
+|turn|2
+|
+|move|p1a: Starmie|Psychic|p2a: FreezeMon
+|-damage|p2a: FreezeMon|345\/463 par
+|cant|p2a: FreezeMon|par
+|
+|turn|3
+|
+|move|p1a: Starmie|Psychic|p2a: FreezeMon
+|-crit|p2a: FreezeMon
+|-damage|p2a: FreezeMon|134\/463 par
+|move|p2a: FreezeMon|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|188\/323
+|
+|turn|4
+|
+|switch|p2a: BombMon|Snorlax|523\/523
+|move|p1a: Starmie|Psychic|p2a: BombMon
+|-crit|p2a: BombMon
+|-damage|p2a: BombMon|238\/523
+|
+|turn|5
+|
+|move|p1a: Starmie|Psychic|p2a: BombMon
+|-damage|p2a: BombMon|105\/523
+|move|p2a: BombMon|Earthquake|p1a: Starmie
+|-damage|p1a: Starmie|95\/323
+|
+|turn|6
+|
+|switch|p2a: WoodMon|Exeggutor|393\/393
+|move|p1a: Starmie|Psychic|p2a: WoodMon
+|-resisted|p2a: WoodMon
+|-damage|p2a: WoodMon|346\/393
+|
+|turn|7
+|
+|move|p1a: Starmie|Blizzard|p2a: WoodMon
+|-supereffective|p2a: WoodMon
+|-damage|p2a: WoodMon|178\/393
+|move|p2a: WoodMon|Sleep Powder|p1a: Starmie
+|-status|p1a: Starmie|slp
+|
+|turn|8
+|
+|switch|p1a: Cloyster|Cloyster|303\/303
+|switch|p2a: ElecMon|Jolteon|333\/333
+|
+|turn|9
+|
+|switch|p1a: Sandslash|Sandslash|353\/353
+|move|p2a: ElecMon|Thunderbolt|p1a: Sandslash
+|-immune|p1a: Sandslash|[msg]
+|
+|turn|10
+|
+|switch|p2a: WoodMon|Exeggutor|178\/393
+|move|p1a: Sandslash|Body Slam|p2a: WoodMon
+|-damage|p2a: WoodMon|99\/393
+|-status|p2a: WoodMon|par
+|
+|turn|11
+|
+|move|p1a: Sandslash|Hyper Beam|p2a: WoodMon
+|-damage|p2a: WoodMon|0 fnt
+|faint|p2a: WoodMon
+|
+|switch|p2a: FreezeMon|Lapras|134\/463 par
+|turn|12
+|
+|switch|p1a: Cloyster|Cloyster|303\/303
+|move|p2a: FreezeMon|Thunderbolt|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|143\/303
+|
+|turn|13
+|
+|switch|p2a: ElecMon|Jolteon|333\/333
+|move|p1a: Cloyster|Clamp|p2a: ElecMon
+|-crit|p2a: ElecMon
+|-damage|p2a: ElecMon|267\/333
+|-activate|p2a: ElecMon|move: Clamp|[of] p1a: Cloyster
+|
+|turn|14
+|
+|cant|p2a: ElecMon|partiallytrapped
+|move|p1a: Cloyster|Clamp|p2a: ElecMon
+|-damage|p2a: ElecMon|201\/333
+|
+|-end|p2a: ElecMon|Clamp|[partiallytrapped]
+|turn|15
+|
+|switch|p2a: FreezeMon|Lapras|134\/463 par
+|switch|p1a: Sandslash|Sandslash|353\/353
+|
+|turn|16
+|
+|move|p1a: Sandslash|Earthquake|p2a: FreezeMon
+|-damage|p2a: FreezeMon|0 fnt
+|faint|p2a: FreezeMon
+|
+|switch|p2a: BombMon|Snorlax|105\/523
+|turn|17
+|
+|move|p1a: Sandslash|Earthquake|p2a: BombMon
+|-damage|p2a: BombMon|0 fnt
+|faint|p2a: BombMon
+|
+|switch|p2a: StoneMon|Rhydon|413\/413
+|turn|18
+|
+|switch|p1a: Dragonite|Dragonite|385\/385
+|move|p2a: StoneMon|Substitute|p2a: StoneMon
+|-start|p2a: StoneMon|Substitute
+|-damage|p2a: StoneMon|310\/413
+|
+|turn|19
+|
+|move|p1a: Dragonite|Surf|p2a: StoneMon
+|-supereffective|p2a: StoneMon
+|-end|p2a: StoneMon|Substitute
+|move|p2a: StoneMon|Rock Slide|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|167\/385
+|
+|turn|20
+|
+|switch|p2a: CentaurMon|Tauros|353\/353
+|move|p1a: Dragonite|Surf|p2a: CentaurMon
+|-damage|p2a: CentaurMon|266\/353
+|
+|turn|21
+|
+|move|p2a: CentaurMon|Body Slam|p1a: Dragonite
+|-damage|p1a: Dragonite|61\/385
+|-status|p1a: Dragonite|par
+|move|p1a: Dragonite|Thunder Wave|p2a: CentaurMon
+|-status|p2a: CentaurMon|par
+|
+|turn|22
+|
+|move|p2a: CentaurMon|Body Slam|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|switch|p1a: Cloyster|Cloyster|143\/303
+|turn|23
+|chat|rocci1212|ack now the crit
+|
+|switch|p2a: StoneMon|Rhydon|310\/413
+|move|p1a: Cloyster|Clamp|p2a: StoneMon
+|-supereffective|p2a: StoneMon
+|-damage|p2a: StoneMon|62\/413
+|-activate|p2a: StoneMon|move: Clamp|[of] p1a: Cloyster
+|
+|turn|24
+|
+|move|p1a: Cloyster|Clamp|p2a: StoneMon
+|-damage|p2a: StoneMon|0 fnt
+|faint|p2a: StoneMon
+|
+|switch|p2a: CentaurMon|Tauros|266\/353 par
+|turn|25
+|
+|move|p1a: Cloyster|Clamp|p2a: CentaurMon
+|-damage|p2a: CentaurMon|216\/353 par
+|-activate|p2a: CentaurMon|move: Clamp|[of] p1a: Cloyster
+|cant|p2a: CentaurMon|partiallytrapped
+|
+|turn|26
+|
+|move|p1a: Cloyster|Clamp|p2a: CentaurMon
+|-damage|p2a: CentaurMon|0 fnt
+|faint|p2a: CentaurMon
+|chat|kid gf lol|l0l
+|chat|rocci1212|gg
+|
+|switch|p2a: ElecMon|Jolteon|201\/333
+|turn|27
+|
+|move|p2a: ElecMon|Thunderbolt|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|switch|p1a: Sandslash|Sandslash|353\/353
+|turn|28
+|
+|move|p2a: ElecMon|Double Kick|p1a: Sandslash
+|-damage|p1a: Sandslash|336\/353
+|-damage|p1a: Sandslash|319\/353
+|-hitcount|p1a: Sandslash|2
+|move|p1a: Sandslash|Earthquake|p2a: ElecMon
+|-supereffective|p2a: ElecMon
+|-damage|p2a: ElecMon|0 fnt
+|faint|p2a: ElecMon
+|
+|win|kid gf lol
+|raw|Ladder updating...
+|raw|kid gf lol's rating: 1413 &rarr; <strong>1420<\/strong><br \/>(+7 for winning)
+|raw|rocci1212's rating: 1144 &rarr; <strong>1136<\/strong><br \/>(-8 for losing)
+|chat|rocci1212|well played
+|chat|rocci1212|that was a massacre
+|chat|kid gf lol|GG

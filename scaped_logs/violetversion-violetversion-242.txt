@@ -1,0 +1,553 @@
+﻿|J|KristophV
+|J|Disaster Area
+|player|p1|KristophV|8
+|player|p2|Disaster Area|32
+|gametype|singles
+|gen|1
+|tier|Violet Version
+|clearpoke
+|poke|p1|Chansey
+|poke|p1|Nidoqueen
+|poke|p1|Hypno
+|poke|p1|Moltres
+|poke|p1|Cloyster
+|poke|p1|Electabuzz
+|poke|p2|Starmie
+|poke|p2|Butterfree
+|poke|p2|Chansey
+|poke|p2|Flareon
+|poke|p2|Golem
+|poke|p2|Machamp
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|c|★Disaster Area|gl hf
+|c|★KristophV|yep you too
+|
+|start
+|switch|p1a: Cloyster|Cloyster|303\/303
+|switch|p2a: Starmie|Starmie|323\/323
+|turn|1
+|
+|switch|p2a: Butterfree|Butterfree|343\/343
+|switch|p1a: Chansey|Chansey|703\/703
+|
+|turn|2
+|
+|switch|p1a: Hypno|Hypno|373\/373
+|move|p2a: Butterfree|Sleep Powder|p1a: Hypno|[miss]
+|-miss|p2a: Butterfree
+|
+|turn|3
+|
+|move|p2a: Butterfree|Sleep Powder|p1a: Hypno
+|-status|p1a: Hypno|slp
+|cant|p1a: Hypno|slp
+|
+|turn|4
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Butterfree|Stun Spore|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|turn|5
+|c|★Disaster Area|cancel works so well on here
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|switch|p1a: Cloyster|Cloyster|303\/303
+|
+|turn|6
+|
+|move|p1a: Cloyster|Clamp|p2a: Chansey
+|-damage|p2a: Chansey|626\/703
+|-activate|p2a: Chansey|move: Clamp|[of] p1a: Cloyster
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|7
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|move|p1a: Cloyster|Clamp|p2a: Starmie|[miss]
+|-miss|p1a: Cloyster
+|
+|turn|8
+|
+|switch|p1a: Chansey|Chansey|703\/703 par
+|move|p2a: Starmie|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|635\/703 par
+|
+|turn|9
+|
+|switch|p2a: Eliza|Flareon|433\/433
+|move|p1a: Chansey|Thunder Wave|p2a: Eliza
+|-status|p2a: Eliza|par
+|
+|turn|10
+|
+|switch|p1a: Nidoqueen|Nidoqueen|383\/383
+|move|p2a: Eliza|Mimic|p1a: Nidoqueen
+|-start|p2a: Eliza|Mimic|Soft-Boiled
+|
+|turn|11
+|c|★KristophV|oh
+|c|★Disaster Area|:]
+|c|★Disaster Area|gl hf
+|
+|switch|p1a: Cloyster|Cloyster|303\/303
+|switch|p2a: Butterfree|Butterfree|343\/343
+|
+|turn|12
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|move|p1a: Cloyster|Tri Attack|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|179\/323
+|
+|turn|13
+|c|★Disaster Area|oh yeah you gave it that
+|c|★KristophV|it already had it
+|c|★KristophV|for some reason
+|c|★Disaster Area|o
+|c|★Disaster Area|tru tru
+|c|★Disaster Area|nice new 4th move cloy
+|c|★Disaster Area|:]
+|
+|switch|p1a: Chansey|Chansey|635\/703 par
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|323\/323
+|
+|turn|14
+|c|★Disaster Area|also iirc in RBY
+|c|★Disaster Area|tri attack has no added effects
+|c|★Disaster Area|hmmmmm
+|c|★KristophV|yeah i changed that
+|c|★Disaster Area|but I think it does on PS oo
+|c|★Disaster Area|or
+|c|★Disaster Area|did u change it to have
+|c|★Disaster Area|added effect
+|c|★Disaster Area|oo
+|c|★KristophV|yeah i changed it
+|c|★Disaster Area|owow
+|c|★Disaster Area|more hax! ;D
+|
+|switch|p2a: Eliza|Flareon|433\/433 par
+|move|p1a: Chansey|Thunder Wave|p2a: Eliza
+|-fail|p2a: Eliza|par
+|
+|turn|15
+|
+|switch|p1a: Cloyster|Cloyster|303\/303
+|move|p2a: Eliza|Body Slam|p1a: Cloyster
+|-crit|p1a: Cloyster
+|-damage|p1a: Cloyster|197\/303
+|-status|p1a: Cloyster|par
+|
+|turn|16
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|move|p1a: Cloyster|Explosion|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|faint|p1a: Cloyster
+|c|★Disaster Area|hax
+|c|★Disaster Area|lmao
+|
+|switch|p1a: Nidoqueen|Nidoqueen|383\/383
+|switch|p2a: Golem|Golem|363\/363
+|turn|17
+|
+|switch|p2a: Butterfree|Butterfree|343\/343
+|move|p1a: Nidoqueen|Blizzard|p2a: Butterfree|[miss]
+|-miss|p1a: Nidoqueen
+|
+|turn|18
+|
+|switch|p1a: Chansey|Chansey|635\/703 par
+|move|p2a: Butterfree|Stun Spore|p1a: Chansey
+|-fail|p1a: Chansey|par
+|
+|turn|19
+|
+|switch|p2a: Eliza|Flareon|433\/433 par
+|switch|p1a: Nidoqueen|Nidoqueen|383\/383
+|
+|turn|20
+|
+|switch|p2a: Butterfree|Butterfree|343\/343
+|move|p1a: Nidoqueen|Earthquake|p2a: Butterfree
+|-crit|p2a: Butterfree
+|-resisted|p2a: Butterfree
+|-damage|p2a: Butterfree|201\/343
+|
+|turn|21
+|
+|switch|p1a: Moltres|Moltres|383\/383
+|move|p2a: Butterfree|Leech Life|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|370\/383
+|-heal|p2a: Butterfree|214\/343|[from] drain|[of] p1a: Moltres
+|
+|turn|22
+|
+|switch|p1a: Nidoqueen|Nidoqueen|383\/383
+|switch|p2a: Chansey|Chansey|626\/703
+|
+|turn|23
+|
+|move|p1a: Nidoqueen|Blizzard|p2a: Chansey|[miss]
+|-miss|p1a: Nidoqueen
+|move|p2a: Chansey|Ice Beam|p1a: Nidoqueen
+|-supereffective|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|205\/383
+|
+|turn|24
+|
+|switch|p1a: Chansey|Chansey|635\/703 par
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|555\/703 par
+|
+|turn|25
+|
+|switch|p2a: Eliza|Flareon|433\/433 par
+|move|p1a: Chansey|Thunderbolt|p2a: Eliza
+|-damage|p2a: Eliza|365\/433 par
+|
+|turn|26
+|
+|move|p2a: Eliza|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|329\/703 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|680\/703 par
+|
+|turn|27
+|
+|move|p2a: Eliza|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|453\/703 par
+|cant|p1a: Chansey|par
+|
+|turn|28
+|
+|cant|p2a: Eliza|par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703 par
+|
+|turn|29
+|
+|cant|p2a: Eliza|par
+|move|p1a: Chansey|Thunderbolt|p2a: Eliza
+|-damage|p2a: Eliza|296\/433 par
+|
+|turn|30
+|
+|cant|p2a: Eliza|par
+|move|p1a: Chansey|Thunderbolt|p2a: Eliza
+|-damage|p2a: Eliza|227\/433 par
+|
+|turn|31
+|
+|switch|p1a: Nidoqueen|Nidoqueen|205\/383
+|move|p2a: Eliza|Soft-Boiled|p2a: Eliza
+|-heal|p2a: Eliza|433\/433 par
+|
+|turn|32
+|
+|switch|p2a: Butterfree|Butterfree|214\/343
+|move|p1a: Nidoqueen|Blizzard|p2a: Butterfree
+|-damage|p2a: Butterfree|127\/343
+|
+|turn|33
+|
+|switch|p1a: Moltres|Moltres|370\/383
+|move|p2a: Butterfree|Stun Spore|p1a: Moltres
+|-status|p1a: Moltres|par
+|
+|turn|34
+|
+|switch|p2a: Eliza|Flareon|433\/433 par
+|move|p1a: Moltres|Agility|p1a: Moltres
+|-boost|p1a: Moltres|spe|2
+|
+|turn|35
+|
+|move|p1a: Moltres|Fire Blast|p2a: Eliza
+|-resisted|p2a: Eliza
+|-damage|p2a: Eliza|362\/433 par
+|cant|p2a: Eliza|par
+|
+|turn|36
+|c|★Disaster Area|honestly I think
+|c|★Disaster Area|agility\/solarbeam\/rest\/fire blast
+|c|★Disaster Area|is the best set for it
+|c|★Disaster Area|just the stalling power of it is
+|c|★Disaster Area|literally immense
+|c|★Disaster Area|but it's
+|c|★Disaster Area|so fuckin powerful too
+|c|★Disaster Area|so easily
+|c|★Disaster Area|lol
+|
+|switch|p1a: Hypno|Hypno|373\/373 slp
+|move|p2a: Eliza|Body Slam|p1a: Hypno
+|-crit|p1a: Hypno
+|-damage|p1a: Hypno|166\/373 slp
+|
+|turn|37
+|
+|cant|p1a: Hypno|slp
+|-curestatus|p1a: Hypno|slp
+|move|p2a: Eliza|Body Slam|p1a: Hypno
+|-crit|p1a: Hypno
+|-damage|p1a: Hypno|0 fnt
+|faint|p1a: Hypno
+|c|★Disaster Area|lmao
+|c|★Disaster Area|rip
+|c|★Disaster Area|get haxed
+|
+|switch|p1a: Nidoqueen|Nidoqueen|205\/383
+|turn|38
+|
+|switch|p2a: Chansey|Chansey|626\/703
+|move|p1a: Nidoqueen|Earthquake|p2a: Chansey
+|-damage|p2a: Chansey|318\/703
+|
+|turn|39
+|
+|move|p1a: Nidoqueen|Earthquake|p2a: Chansey
+|-damage|p2a: Chansey|3\/703
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|354\/703
+|
+|turn|40
+|
+|move|p1a: Nidoqueen|Earthquake|p2a: Chansey
+|-damage|p2a: Chansey|52\/703
+|move|p2a: Chansey|Ice Beam|p1a: Nidoqueen
+|-supereffective|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|21\/383
+|
+|turn|41
+|
+|switch|p2a: Butterfree|Butterfree|127\/343
+|move|p1a: Nidoqueen|Earthquake|p2a: Butterfree
+|-resisted|p2a: Butterfree
+|-damage|p2a: Butterfree|50\/343
+|
+|turn|42
+|
+|move|p1a: Nidoqueen|Earthquake|p2a: Butterfree
+|-resisted|p2a: Butterfree
+|-damage|p2a: Butterfree|0 fnt
+|faint|p2a: Butterfree
+|c|★Disaster Area|o
+|c|★Disaster Area|I forgot
+|c|★Disaster Area|ur that fast
+|c|★Disaster Area|rip
+|
+|switch|p2a: Machamp|Machamp|403\/403
+|turn|43
+|c|★KristophV|so did i tbh
+|
+|move|p1a: Nidoqueen|Blizzard|p2a: Machamp
+|-crit|p2a: Machamp
+|-damage|p2a: Machamp|189\/403
+|move|p2a: Machamp|Body Slam|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|0 fnt
+|faint|p1a: Nidoqueen
+|
+|switch|p1a: Electabuzz|Electabuzz|333\/333
+|turn|44
+|
+|move|p1a: Electabuzz|Psychic|p2a: Machamp
+|-crit|p2a: Machamp
+|-supereffective|p2a: Machamp
+|-damage|p2a: Machamp|0 fnt
+|faint|p2a: Machamp
+|
+|switch|p2a: Golem|Golem|363\/363
+|turn|45
+|c|★Disaster Area|hmm
+|c|★Disaster Area|these games never seem to
+|c|★Disaster Area|go down to stallfests
+|c|★Disaster Area|:o
+|c|★KristophV|i hope it stays that way
+|c|★Disaster Area|i like stallfests :>
+|c|★Disaster Area|freezefests are fun too
+|c|★Disaster Area|and haxfests are the bestfests
+|c|★Disaster Area|:>
+|
+|switch|p1a: Chansey|Chansey|703\/703 par
+|move|p2a: Golem|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|389\/703 par
+|
+|turn|46
+|c|★Disaster Area|oh goleeeeeeeeeeeeeeeeeem I wish you were rhydon
+|c|★Disaster Area|because then I'd just win from here
+|c|★Disaster Area|but since you're golem
+|c|★Disaster Area|and not rhydon
+|c|★Disaster Area|it's an uphill battle
+|c|★Disaster Area|from here
+|
+|move|p2a: Golem|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|54\/703 par
+|move|p1a: Chansey|Ice Beam|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|140\/363
+|-status|p2a: Golem|frz
+|
+|turn|47
+|c|★Disaster Area|.
+|c|★KristophV|oh
+|c|★KristophV|that flareon though
+|c|★Disaster Area|true
+|c|★Disaster Area|well
+|c|★Disaster Area|I guess thhis game
+|
+|switch|p2a: Chansey|Chansey|52\/703
+|switch|p1a: Electabuzz|Electabuzz|333\/333
+|
+|turn|48
+|c|★Disaster Area|comes down to a stallfest :D
+|
+|switch|p2a: Eliza|Flareon|362\/433 par
+|move|p1a: Electabuzz|Thunderbolt|p2a: Eliza
+|-damage|p2a: Eliza|270\/433 par
+|
+|turn|49
+|
+|move|p1a: Electabuzz|Psychic|p2a: Eliza
+|-damage|p2a: Eliza|206\/433 par
+|move|p2a: Eliza|Soft-Boiled|p2a: Eliza
+|-heal|p2a: Eliza|422\/433 par
+|
+|turn|50
+|
+|switch|p1a: Moltres|Moltres|370\/383 par
+|cant|p2a: Eliza|par
+|
+|turn|51
+|
+|move|p1a: Moltres|Solar Beam|p2a: Eliza|[still]
+|-prepare|p1a: Moltres|Solar Beam|p2a: Eliza
+|-boost|p1a: Moltres|spa|1
+|-boost|p1a: Moltres|spd|1
+|cant|p2a: Eliza|par
+|
+|turn|52
+|
+|cant|p1a: Moltres|par
+|move|p2a: Eliza|Body Slam|p1a: Moltres
+|-damage|p1a: Moltres|276\/383 par
+|
+|turn|53
+|
+|move|p1a: Moltres|Solar Beam|p2a: Eliza|[still]
+|-prepare|p1a: Moltres|Solar Beam|p2a: Eliza
+|-boost|p1a: Moltres|spa|1
+|-boost|p1a: Moltres|spd|1
+|cant|p2a: Eliza|par
+|
+|turn|54
+|
+|cant|p1a: Moltres|par
+|move|p2a: Eliza|Body Slam|p1a: Moltres
+|-damage|p1a: Moltres|191\/383 par
+|
+|turn|55
+|
+|move|p1a: Moltres|Fire Blast|p2a: Eliza
+|-resisted|p2a: Eliza
+|-damage|p2a: Eliza|268\/433 par
+|move|p2a: Eliza|Body Slam|p1a: Moltres
+|-damage|p1a: Moltres|105\/383 par
+|
+|turn|56
+|J|BKC
+|
+|move|p1a: Moltres|Fire Blast|p2a: Eliza
+|-resisted|p2a: Eliza
+|-damage|p2a: Eliza|120\/433 par
+|cant|p2a: Eliza|par
+|
+|turn|57
+|c|★Disaster Area|lol
+|c|★Disaster Area|if u don't fp
+|
+|move|p1a: Moltres|Fire Blast|p2a: Eliza
+|-resisted|p2a: Eliza
+|-damage|p2a: Eliza|0 fnt
+|faint|p2a: Eliza
+|c|★Disaster Area|then this is gg
+|c|★Disaster Area|rip, well played, nice hax
+|c|★Disaster Area|lol
+|
+|switch|p2a: Chansey|Chansey|52\/703
+|turn|58
+|c|★Disaster Area|some went the other way too in fairness
+|c|★Disaster Area|:>
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|403\/703
+|cant|p1a: Moltres|par
+|
+|turn|59
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703
+|cant|p1a: Moltres|par
+|
+|turn|60
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|35\/383 par
+|move|p1a: Moltres|Fire Blast|p2a: Chansey|[miss]
+|-miss|p1a: Moltres
+|
+|turn|61
+|c|★KristophV|wanna know something funny
+|c|★KristophV|when i was thinking of giving aerodactyl softboiled
+|c|★KristophV|i was like hmmm but what about moltres
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|c|★KristophV|in fairness i didnt have the solar beam thing in mind then
+|
+|switch|p1a: Electabuzz|Electabuzz|333\/333
+|turn|62
+|c|★Disaster Area|yeah
+|c|★KristophV|but still
+|c|★Disaster Area|oh god softboiled moltres
+|c|★Disaster Area|honestly it's s rank as it is
+|c|★Disaster Area|gg
+|
+|move|p1a: Electabuzz|Submission|p2a: Chansey
+|-crit|p2a: Chansey
+|-supereffective|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|-damage|p1a: Electabuzz|158\/333|[from] recoil|[of] p2a: Chansey
+|faint|p2a: Chansey
+|c|★KristophV|gg
+|
+|switch|p2a: Golem|Golem|140\/363 frz
+|turn|63
+|c|★Disaster Area|gg
+|
+|move|p1a: Electabuzz|Submission|p2a: Golem
+|-crit|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|-damage|p1a: Electabuzz|123\/333|[from] recoil|[of] p2a: Golem
+|faint|p2a: Golem
+|
+|win|KristophV
+|c|★KristophV|gg
+|c|★Disaster Area|gonna chat w\/ bkc now
+|c|★Disaster Area|maybe some more later
+|L|Disaster Area
+|player|p2
+|c|★KristophV|alright coolio

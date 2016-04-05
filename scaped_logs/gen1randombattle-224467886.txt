@@ -1,0 +1,154 @@
+﻿|join|Paleox
+|join|yaldyyyy
+|player|p1|Paleox|151
+|player|p2|yaldyyyy|1
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Tangela|Tangela, L85|284\/284
+|switch|p2a: Magneton|Magneton, L85|259\/259
+|turn|1
+|
+|switch|p2a: Flareon|Flareon, L85|284\/284
+|move|p1a: Tangela|Sleep Powder|p2a: Flareon
+|-status|p2a: Flareon|slp
+|
+|turn|2
+|
+|switch|p1a: Dewgong|Dewgong, L85|327\/327
+|cant|p2a: Flareon|slp
+|
+|turn|3
+|
+|switch|p2a: Magneton|Magneton, L85|259\/259
+|move|p1a: Dewgong|Surf|p2a: Magneton
+|-damage|p2a: Magneton|175\/259
+|
+|turn|4
+|
+|move|p1a: Dewgong|Blizzard|p2a: Magneton
+|-damage|p2a: Magneton|71\/259
+|move|p2a: Magneton|Thunderbolt|p1a: Dewgong
+|-supereffective|p1a: Dewgong
+|-damage|p1a: Dewgong|115\/327
+|
+|turn|5
+|
+|move|p2a: Magneton|Thunderbolt|p1a: Dewgong
+|-crit|p1a: Dewgong
+|-supereffective|p1a: Dewgong
+|-damage|p1a: Dewgong|0 fnt
+|faint|p1a: Dewgong
+|c|★Paleox|Gg for that luck
+|
+|switch|p1a: Alakazam|Alakazam, L79|249\/249
+|turn|6
+|
+|move|p1a: Alakazam|Psychic|p2a: Magneton
+|-crit|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|faint|p2a: Magneton
+|
+|switch|p2a: Flareon|Flareon, L85|284\/284 slp
+|turn|7
+|
+|move|p1a: Alakazam|Psychic|p2a: Flareon
+|-damage|p2a: Flareon|190\/284 slp
+|cant|p2a: Flareon|slp
+|
+|turn|8
+|
+|move|p1a: Alakazam|Psychic|p2a: Flareon
+|-crit|p2a: Flareon
+|-damage|p2a: Flareon|0 fnt
+|faint|p2a: Flareon
+|
+|switch|p2a: Dugtrio|Dugtrio, L85|233\/233
+|turn|9
+|
+|switch|p1a: Dodrio|Dodrio, L85|276\/276
+|move|p2a: Dugtrio|Earthquake|p1a: Dodrio
+|-immune|p1a: Dodrio|[msg]
+|
+|turn|10
+|
+|move|p2a: Dugtrio|Slash|p1a: Dodrio
+|-crit|p1a: Dodrio
+|-damage|p1a: Dodrio|183\/276
+|move|p1a: Dodrio|Body Slam|p2a: Dugtrio
+|-crit|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|
+|switch|p2a: Wigglytuff|Wigglytuff, L85|412\/412
+|turn|11
+|c|★Paleox|Oohhooho I've luck on that battle
+|
+|move|p1a: Dodrio|Body Slam|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|275\/412
+|move|p2a: Wigglytuff|Blizzard|p1a: Dodrio
+|-supereffective|p1a: Dodrio
+|-damage|p1a: Dodrio|32\/276
+|
+|turn|12
+|
+|switch|p1a: Magmar|Magmar, L85|284\/284
+|move|p2a: Wigglytuff|Body Slam|p1a: Magmar
+|-damage|p1a: Magmar|187\/284
+|
+|turn|13
+|
+|move|p1a: Magmar|Body Slam|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|185\/412
+|move|p2a: Wigglytuff|Double-Edge|p1a: Magmar
+|-damage|p1a: Magmar|68\/284
+|-damage|p2a: Wigglytuff|156\/412|[from] recoil|[of] p1a: Magmar
+|
+|turn|14
+|
+|move|p1a: Magmar|Hyper Beam|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|1\/412
+|move|p2a: Wigglytuff|Double-Edge|p1a: Magmar
+|-damage|p1a: Magmar|0 fnt
+|-damage|p2a: Wigglytuff|0 fnt|[from] recoil|[of] p1a: Magmar
+|faint|p1a: Magmar
+|faint|p2a: Wigglytuff
+|
+|switch|p1a: Alakazam|Alakazam, L79|249\/249
+|switch|p2a: Pidgeotto|Pidgeotto, L85|281\/281
+|turn|15
+|
+|move|p1a: Alakazam|Psychic|p2a: Pidgeotto
+|-damage|p2a: Pidgeotto|127\/281
+|move|p2a: Pidgeotto|Double-Edge|p1a: Alakazam
+|-damage|p1a: Alakazam|125\/249
+|-damage|p2a: Pidgeotto|96\/281|[from] recoil|[of] p1a: Alakazam
+|
+|turn|16
+|
+|move|p1a: Alakazam|Psychic|p2a: Pidgeotto
+|-crit|p2a: Pidgeotto
+|-damage|p2a: Pidgeotto|0 fnt
+|faint|p2a: Pidgeotto
+|
+|switch|p2a: Machop|Machop, L96|329\/329
+|turn|17
+|
+|move|p1a: Alakazam|Psychic|p2a: Machop
+|-crit|p2a: Machop
+|-supereffective|p2a: Machop
+|-damage|p2a: Machop|0 fnt
+|faint|p2a: Machop
+|
+|win|Paleox
+|raw|Ladder updating...
+|raw|Paleox's rating: 1103 &rarr; <strong>1131<\/strong><br \/>(+28 for winning)
+|raw|yaldyyyy's rating: 1140 &rarr; <strong>1112<\/strong><br \/>(-28 for losing)
+|leave|yaldyyyy
+|player|p2

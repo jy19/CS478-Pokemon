@@ -1,0 +1,142 @@
+﻿|join|wjetjtewq
+|join|Feena
+|player|p1|wjetjtewq|264
+|player|p2|Feena|170
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Raichu|Raichu|323\/323
+|switch|p2a: Alakazam|Alakazam|313\/313
+|turn|1
+|
+|move|p2a: Alakazam|Psychic|p1a: Raichu
+|-damage|p1a: Raichu|185\/323
+|move|p1a: Raichu|Thunderbolt|p2a: Alakazam
+|-damage|p2a: Alakazam|232\/313
+|
+|turn|2
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Raichu
+|-status|p1a: Raichu|par
+|move|p1a: Raichu|Mega Kick|p2a: Alakazam
+|-damage|p2a: Alakazam|96\/313
+|
+|turn|3
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|252\/313
+|move|p1a: Raichu|Seismic Toss|p2a: Alakazam
+|-damage|p2a: Alakazam|152\/313
+|
+|turn|4
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|308\/313
+|move|p1a: Raichu|Seismic Toss|p2a: Alakazam
+|-damage|p2a: Alakazam|208\/313
+|
+|turn|5
+|
+|move|p2a: Alakazam|Psychic|p1a: Raichu
+|-damage|p1a: Raichu|46\/323 par
+|-unboost|p1a: Raichu|spd|1
+|-unboost|p1a: Raichu|spa|1
+|move|p1a: Raichu|Seismic Toss|p2a: Alakazam
+|-damage|p2a: Alakazam|108\/313
+|
+|turn|6
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|264\/313
+|move|p1a: Raichu|Mega Kick|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-damage|p2a: Alakazam|18\/313
+|
+|turn|7
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|174\/313
+|move|p1a: Raichu|Mega Kick|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|turn|8
+|
+|move|p2a: Exeggutor|Psychic|p1a: Raichu
+|-crit|p1a: Raichu
+|-damage|p1a: Raichu|0 fnt
+|faint|p1a: Raichu
+|
+|switch|p1a: Charizard|Charizard|359\/359
+|turn|9
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Charizard|Flamethrower|p2a: Chansey
+|-damage|p2a: Chansey|604\/703
+|-status|p2a: Chansey|brn
+|
+|turn|10
+|
+|move|p1a: Charizard|Swords Dance|p1a: Charizard
+|-boost|p1a: Charizard|atk|2
+|move|p2a: Chansey|Thunder Wave|p1a: Charizard
+|-status|p1a: Charizard|par
+|-damage|p2a: Chansey|561\/703 brn|[from] brn|[of] p1a: Charizard
+|
+|turn|11
+|
+|switch|p2a: Lapras|Lapras|463\/463
+|move|p1a: Charizard|Earthquake|p2a: Lapras
+|-damage|p2a: Lapras|300\/463
+|
+|turn|12
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: Lapras|Blizzard|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|157\/523
+|
+|turn|13
+|
+|move|p2a: Lapras|Blizzard|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|switch|p1a: Venusaur|Venusaur|363\/363
+|turn|14
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Venusaur|Razor Leaf|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|337\/393
+|
+|turn|15
+|
+|move|p1a: Venusaur|Sleep Powder|p2a: Exeggutor|[miss]
+|-miss|p1a: Venusaur
+|move|p2a: Exeggutor|Psychic|p1a: Venusaur
+|-crit|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|leave|wjetjtewq
+|player|p1
+|c|★Feena|asd
+|-message|wjetjtewq lost due to inactivity.
+|
+|win|Feena
+|raw|Ladder updating...
+|raw|wjetjtewq's rating: 1000 &rarr; <strong>1000<\/strong><br \/>(+0 for losing)
+|raw|Feena's rating: 1000 &rarr; <strong>1040<\/strong><br \/>(+40 for winning)

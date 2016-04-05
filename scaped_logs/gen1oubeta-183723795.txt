@@ -1,0 +1,376 @@
+﻿|join|Piexplode
+|join|gen1masterrony
+|player|p1|Piexplode|32
+|player|p2|gen1masterrony|2
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Chansey|Chansey|703\/703
+|switch|p2a: Jynx|Jynx|333\/333
+|turn|1
+|c|★Piexplode|gl hf
+|
+|move|p2a: Jynx|Lovely Kiss|p1a: Chansey
+|-status|p1a: Chansey|slp
+|cant|p1a: Chansey|slp
+|
+|turn|2
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: Jynx|Blizzard|p1a: Snorlax
+|-damage|p1a: Snorlax|346\/523
+|
+|turn|3
+|
+|switch|p2a: Hypno|Hypno|373\/373
+|move|p1a: Snorlax|Earthquake|p2a: Hypno
+|-damage|p2a: Hypno|277\/373
+|
+|turn|4
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Hypno|Thunder Wave|p1a: Exeggutor
+|-status|p1a: Exeggutor|par
+|
+|turn|5
+|
+|move|p2a: Hypno|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|340\/393 par
+|move|p1a: Exeggutor|Sleep Powder|p2a: Hypno
+|-status|p2a: Hypno|slp
+|
+|turn|6
+|
+|switch|p2a: Jynx|Jynx|333\/333
+|switch|p1a: Lapras|Lapras|463\/463
+|
+|turn|7
+|
+|move|p2a: Jynx|Psychic|p1a: Lapras
+|-damage|p1a: Lapras|351\/463
+|-unboost|p1a: Lapras|spd|1
+|-unboost|p1a: Lapras|spa|1
+|move|p1a: Lapras|Body Slam|p2a: Jynx
+|-damage|p2a: Jynx|231\/333
+|-status|p2a: Jynx|par
+|
+|turn|8
+|
+|move|p1a: Lapras|Confuse Ray|p2a: Jynx
+|-start|p2a: Jynx|confusion
+|-activate|p2a: Jynx|confusion
+|move|p2a: Jynx|Psychic|p1a: Lapras
+|-damage|p1a: Lapras|190\/463
+|
+|turn|9
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|move|p1a: Lapras|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|259\/323
+|
+|turn|10
+|
+|switch|p1a: Exeggutor|Exeggutor|340\/393 par
+|move|p2a: Starmie|Thunderbolt|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|308\/393 par
+|
+|turn|11
+|
+|switch|p2a: Jynx|Jynx|231\/333 par
+|move|p1a: Exeggutor|Stun Spore|p2a: Jynx
+|-fail|p2a: Jynx|par
+|
+|turn|12
+|
+|switch|p1a: Lapras|Lapras|190\/463
+|move|p2a: Jynx|Blizzard|p1a: Lapras
+|-resisted|p1a: Lapras
+|-damage|p1a: Lapras|157\/463
+|
+|turn|13
+|
+|move|p1a: Lapras|Thunderbolt|p2a: Jynx
+|-damage|p2a: Jynx|151\/333 par
+|cant|p2a: Jynx|par
+|
+|turn|14
+|
+|move|p1a: Lapras|Confuse Ray|p2a: Jynx
+|-start|p2a: Jynx|confusion
+|cant|p2a: Jynx|par
+|
+|turn|15
+|
+|move|p1a: Lapras|Thunderbolt|p2a: Jynx
+|-damage|p2a: Jynx|83\/333 par
+|-activate|p2a: Jynx|confusion
+|-damage|p2a: Jynx|46\/333 par|[from] confusion
+|
+|turn|16
+|
+|move|p1a: Lapras|Body Slam|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|
+|switch|p2a: Alakazam|Alakazam|313\/313
+|turn|17
+|
+|switch|p1a: Exeggutor|Exeggutor|308\/393 par
+|move|p2a: Alakazam|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|256\/393 par
+|-unboost|p1a: Exeggutor|spd|1
+|-unboost|p1a: Exeggutor|spa|1
+|
+|turn|18
+|
+|switch|p2a: Hypno|Hypno|277\/373 slp
+|move|p1a: Exeggutor|Stun Spore|p2a: Hypno
+|-fail|p2a: Hypno
+|
+|turn|19
+|
+|switch|p2a: Alakazam|Alakazam|313\/313
+|switch|p1a: Snorlax|Snorlax|346\/523
+|
+|turn|20
+|
+|move|p2a: Alakazam|Reflect|p2a: Alakazam
+|move|p1a: Snorlax|Body Slam|p2a: Alakazam
+|-damage|p2a: Alakazam|222\/313
+|
+|turn|21
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|cant|p1a: Snorlax|par
+|
+|turn|22
+|
+|switch|p1a: Chansey|Chansey|703\/703 slp
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|586\/703 slp
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|
+|turn|23
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|cant|p1a: Chansey|slp
+|
+|turn|24
+|
+|switch|p1a: Lapras|Lapras|157\/463
+|move|p2a: Tauros|Body Slam|p1a: Lapras
+|-damage|p1a: Lapras|39\/463
+|
+|turn|25
+|
+|move|p2a: Tauros|Body Slam|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|26
+|
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|249\/353
+|-status|p1a: Tauros|par
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|258\/353
+|-status|p2a: Tauros|par
+|
+|turn|27
+|
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|140\/353 par
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|163\/353 par
+|
+|turn|28
+|
+|cant|p2a: Tauros|par
+|move|p1a: Tauros|Hyper Beam|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|switch|p2a: Alakazam|Alakazam|222\/313
+|turn|29
+|
+|move|p2a: Alakazam|Psychic|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|switch|p1a: Exeggutor|Exeggutor|256\/393 par
+|turn|30
+|
+|switch|p2a: Hypno|Hypno|277\/373 slp
+|switch|p1a: Snorlax|Snorlax|346\/523 par
+|
+|turn|31
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Snorlax|Body Slam|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-damage|p2a: Exeggutor|154\/393
+|
+|turn|32
+|
+|move|p2a: Exeggutor|Psychic|p1a: Snorlax
+|-damage|p1a: Snorlax|182\/523 par
+|-unboost|p1a: Snorlax|spd|1
+|-unboost|p1a: Snorlax|spa|1
+|cant|p1a: Snorlax|par
+|
+|turn|33
+|
+|switch|p1a: Exeggutor|Exeggutor|256\/393 par
+|move|p2a: Exeggutor|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|206\/393 par
+|
+|turn|34
+|
+|switch|p2a: Starmie|Starmie|259\/323
+|move|p1a: Exeggutor|Stun Spore|p2a: Starmie|[miss]
+|-miss|p1a: Exeggutor
+|
+|turn|35
+|
+|switch|p1a: Chansey|Chansey|586\/703 slp
+|move|p2a: Starmie|Blizzard|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|410\/703 slp
+|
+|turn|36
+|
+|switch|p2a: Exeggutor|Exeggutor|154\/393
+|cant|p1a: Chansey|slp
+|-curestatus|p1a: Chansey|slp
+|
+|turn|37
+|
+|switch|p1a: Exeggutor|Exeggutor|206\/393 par
+|move|p2a: Exeggutor|Explosion|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|faint|p2a: Exeggutor
+|c|★gen1masterrony|CMOOOOOOOOOOOOO
+|c|★gen1masterrony|N
+|c|★gen1masterrony|MAN
+|
+|switch|p2a: Alakazam|Alakazam|222\/313
+|switch|p1a: Chansey|Chansey|410\/703
+|turn|38
+|c|★Piexplode|lol
+|c|★Piexplode|my team is
+|c|★Piexplode|ppsychic weak
+|c|★Piexplode|and u fucking
+|c|★Piexplode|bring 5 of them
+|c|★Piexplode|>.<
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|cant|p1a: Chansey|par
+|
+|turn|39
+|
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|278\/703 par
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|629\/703 par
+|
+|turn|40
+|
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|384\/703 par
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|move|p1a: Chansey|Ice Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|191\/313
+|
+|turn|41
+|
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|147\/703 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|498\/703 par
+|
+|turn|42
+|
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|247\/703 par
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|move|p1a: Chansey|Ice Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|166\/313
+|
+|turn|43
+|
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|13\/703 par
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|move|p1a: Chansey|Ice Beam|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-damage|p2a: Alakazam|50\/313
+|
+|turn|44
+|
+|switch|p1a: Snorlax|Snorlax|182\/523 par
+|move|p2a: Alakazam|Psychic|p1a: Snorlax
+|-damage|p1a: Snorlax|4\/523 par
+|-unboost|p1a: Snorlax|spd|1
+|-unboost|p1a: Snorlax|spa|1
+|
+|turn|45
+|c|★Piexplode|are u
+|c|★Piexplode|kidding me
+|c|★Piexplode|>.<
+|
+|move|p2a: Alakazam|Psychic|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|switch|p1a: Rhydon|Rhydon|413\/413
+|turn|46
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|206\/313
+|move|p1a: Rhydon|Earthquake|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|switch|p2a: Starmie|Starmie|259\/323
+|turn|47
+|
+|move|p2a: Starmie|Blizzard|p1a: Rhydon
+|-crit|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|c|★Piexplode|gg
+|
+|switch|p1a: Chansey|Chansey|13\/703 par
+|turn|48
+|c|★Piexplode|255 plz
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|win|gen1masterrony

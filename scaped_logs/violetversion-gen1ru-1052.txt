@@ -1,0 +1,339 @@
+﻿|J|I love pochama
+|J|marcoasd
+|player|p1|I love pochama|32
+|player|p2|marcoasd|2
+|gametype|singles
+|gen|1
+|tier|[Gen 1] RU
+|seed|28590,45560,26441,34900
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Mr. Mime|Mr. Mime|283\/283
+|switch|p2a: Clefable|Clefable|393\/393
+|turn|1
+|choice|move 1|move 1
+|
+|move|p1a: Mr. Mime|Psychic|p2a: Clefable
+|-damage|p2a: Clefable|285\/393
+|move|p2a: Clefable|Thunder Wave|p1a: Mr. Mime
+|-status|p1a: Mr. Mime|par
+|
+|turn|2
+|choice|switch 3|move 4
+|
+|switch|p1a: Clefable|Clefable|393\/393
+|move|p2a: Clefable|Hyper Beam|p1a: Clefable
+|-damage|p1a: Clefable|211\/393
+|
+|turn|3
+|-mustrecharge|p2a: Clefable
+|c|★marcoasd|uh oh
+|-mustrecharge|p2a: Clefable
+|choice|switch 4|move 1
+|
+|switch|p1a: Venusaur|Venusaur|363\/363
+|cant|p2a: Clefable|recharge
+|
+|turn|4
+|c|★I love pochama|ur lucky
+|c|★I love pochama|no counter
+|c|★I love pochama|on that one
+|c|★I love pochama|:P
+|c|★marcoasd|i have the wrong set :S
+|c|★I love pochama|rip
+|c|★I love pochama|wanna redo?
+|choice|move 2|switch 2
+|
+|switch|p2a: Exeggcute|Exeggcute|323\/323
+|move|p1a: Venusaur|Sleep Powder|p2a: Exeggcute|[miss]
+|-miss|p1a: Venusaur
+|
+|turn|5
+|choice|move 2|move 3
+|
+|move|p1a: Venusaur|Sleep Powder|p2a: Exeggcute
+|-status|p2a: Exeggcute|slp
+|cant|p2a: Exeggcute|slp
+|
+|turn|6
+|choice|move 1|switch 3
+|
+|switch|p2a: Venusaur|Venusaur|363\/363
+|move|p1a: Venusaur|Razor Leaf|p2a: Venusaur
+|-crit|p2a: Venusaur
+|-resisted|p2a: Venusaur
+|-damage|p2a: Venusaur|333\/363
+|
+|turn|7
+|choice|switch 3|move 3
+|
+|switch|p1a: Mr. Mime|Mr. Mime|283\/283 par
+|move|p2a: Venusaur|Swords Dance|p2a: Venusaur
+|-boost|p2a: Venusaur|atk|2
+|
+|turn|8
+|choice|move 2|move 4
+|
+|move|p2a: Venusaur|Body Slam|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|121\/283 par
+|move|p1a: Mr. Mime|Thunder Wave|p2a: Venusaur
+|-status|p2a: Venusaur|par
+|
+|turn|9
+|choice|move 1|move 4
+|
+|move|p2a: Venusaur|Body Slam|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|0 fnt
+|faint|p1a: Mr. Mime
+|c|★I love pochama|those mechanics
+|c|★I love pochama|confuse the fuck out of me
+|c|★I love pochama|sometimes
+|c|★I love pochama|lol
+|choice|switch 6|
+|
+|switch|p1a: Fearow|Fearow|333\/333
+|turn|10
+|choice|move 1|switch 6
+|
+|switch|p2a: Electabuzz|Electabuzz|333\/333
+|move|p1a: Fearow|Drill Peck|p2a: Electabuzz
+|-crit|p2a: Electabuzz
+|-resisted|p2a: Electabuzz
+|-damage|p2a: Electabuzz|222\/333
+|
+|turn|11
+|c|★I love pochama|shoulda psychic'd
+|c|★I love pochama|x_x
+|choice|switch 5|move 3
+|
+|switch|p1a: Dugtrio|Dugtrio|273\/273
+|move|p2a: Electabuzz|Psychic|p1a: Dugtrio
+|-crit|p1a: Dugtrio
+|-damage|p1a: Dugtrio|109\/273
+|
+|turn|12
+|choice|move 1|switch 3
+|
+|switch|p2a: Exeggcute|Exeggcute|323\/323 slp
+|move|p1a: Dugtrio|Earthquake|p2a: Exeggcute
+|-resisted|p2a: Exeggcute
+|-damage|p2a: Exeggcute|264\/323 slp
+|
+|turn|13
+|choice|switch 4|move 3
+|
+|switch|p1a: Clefable|Clefable|211\/393
+|cant|p2a: Exeggcute|slp
+|
+|turn|14
+|choice|move 1|move 3
+|
+|move|p1a: Clefable|Body Slam|p2a: Exeggcute
+|-damage|p2a: Exeggcute|168\/323 slp
+|cant|p2a: Exeggcute|slp
+|
+|turn|15
+|choice|move 1|move 3
+|
+|move|p1a: Clefable|Body Slam|p2a: Exeggcute
+|-damage|p2a: Exeggcute|83\/323 slp
+|cant|p2a: Exeggcute|slp
+|
+|turn|16
+|choice|move 1|move 3
+|
+|move|p1a: Clefable|Body Slam|p2a: Exeggcute
+|-damage|p2a: Exeggcute|0 fnt
+|faint|p2a: Exeggcute
+|choice||switch 2
+|
+|switch|p2a: Clefable|Clefable|285\/393
+|turn|17
+|choice|move 2|move 2
+|
+|move|p2a: Clefable|Blizzard|p1a: Clefable
+|-damage|p1a: Clefable|109\/393
+|move|p1a: Clefable|Blizzard|p2a: Clefable|[miss]
+|-miss|p1a: Clefable
+|
+|turn|18
+|J|DG9
+|choice|move 3|move 4
+|
+|move|p1a: Clefable|Hyper Beam|p2a: Clefable
+|-damage|p2a: Clefable|123\/393
+|move|p2a: Clefable|Hyper Beam|p1a: Clefable
+|-crit|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|choice|switch 2|
+|
+|switch|p1a: Vaporeon|Vaporeon|463\/463
+|turn|19
+|c| DG9|Woah
+|c| DG9|That sprite
+|c|★I love pochama|hey dude
+|c|★I love pochama|:)
+|choice|move 2|move 1
+|
+|move|p1a: Vaporeon|Blizzard|p2a: Clefable
+|-damage|p2a: Clefable|4\/393
+|move|p2a: Clefable|Thunder Wave|p1a: Vaporeon
+|-status|p1a: Vaporeon|par
+|
+|turn|20
+|choice|move 3|move 4
+|
+|move|p2a: Clefable|Hyper Beam|p1a: Vaporeon
+|-damage|p1a: Vaporeon|284\/463 par
+|move|p1a: Vaporeon|Body Slam|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|c|★I love pochama|shoulda hydro'd, rip
+|c|★I love pochama|didn't calc
+|c|★I love pochama|didn't even rmr if i was faster or not tbh
+|choice||switch 5
+|
+|switch|p2a: Mr. Mime|Mr. Mime|283\/283
+|turn|21
+|choice|move 1|move 2
+|
+|move|p2a: Mr. Mime|Psychic|p1a: Vaporeon
+|-damage|p1a: Vaporeon|188\/463 par
+|move|p1a: Vaporeon|Hydro Pump|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|131\/283
+|
+|turn|22
+|choice|move 1|move 3
+|
+|move|p2a: Mr. Mime|Thunderbolt|p1a: Vaporeon
+|-crit|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|choice|switch 5|
+|
+|switch|p1a: Fearow|Fearow|333\/333
+|turn|23
+|choice|move 4|switch 3
+|
+|switch|p2a: Electabuzz|Electabuzz|222\/333
+|move|p1a: Fearow|Double-Edge|p2a: Electabuzz
+|-damage|p2a: Electabuzz|71\/333
+|-damage|p1a: Fearow|296\/333|[from] recoil|[of] p2a: Electabuzz
+|
+|turn|24
+|choice|move 4|move 3
+|
+|move|p2a: Electabuzz|Psychic|p1a: Fearow
+|-damage|p1a: Fearow|211\/333
+|-unboost|p1a: Fearow|spd|1
+|-unboost|p1a: Fearow|spa|1
+|move|p1a: Fearow|Double-Edge|p2a: Electabuzz
+|-damage|p2a: Electabuzz|0 fnt
+|-damage|p1a: Fearow|194\/333|[from] recoil|[of] p2a: Electabuzz
+|faint|p2a: Electabuzz
+|choice||switch 4
+|
+|switch|p2a: Golduck|Golduck|363\/363
+|turn|25
+|choice|switch 4|move 2
+|
+|switch|p1a: Dugtrio|Dugtrio|109\/273
+|move|p2a: Golduck|Blizzard|p1a: Dugtrio
+|-supereffective|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|choice|switch 3|
+|
+|switch|p1a: Venusaur|Venusaur|363\/363
+|turn|26
+|choice|switch 4|switch 6
+|
+|switch|p2a: Venusaur|Venusaur|333\/363 par
+|switch|p1a: Fearow|Fearow|194\/333
+|
+|turn|27
+|choice|move 1|move 1
+|
+|move|p1a: Fearow|Drill Peck|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|126\/363 par
+|cant|p2a: Venusaur|par
+|
+|turn|28
+|choice|move 1|move 1
+|
+|move|p1a: Fearow|Drill Peck|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|faint|p2a: Venusaur
+|choice||switch 6
+|
+|switch|p2a: Golduck|Golduck|363\/363
+|turn|29
+|choice|switch 4|move 2
+|
+|switch|p1a: Venusaur|Venusaur|363\/363
+|move|p2a: Golduck|Blizzard|p1a: Venusaur
+|-crit|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|41\/363
+|
+|turn|30
+|c|★marcoasd|reep
+|c|★I love pochama|rip
+|c|★I love pochama|u needed
+|c|★I love pochama|crit to win
+|c|★I love pochama|so gg
+|c|★I love pochama|is it clear yet that I am
+|c|★marcoasd|well or sleep miss
+|c|★I love pochama|fairly good at this? 
+|c|★I love pochama|no why wuold i sleep
+|c|★marcoasd|mr mime comes in vs razor leaf
+|c|★I love pochama|i just                                                                                                           razor leaf
+|c|★marcoasd|LOL
+|c|★I love pochama|does it oo
+|c|★I love pochama|true
+|choice|move 1|move 1
+|
+|move|p2a: Golduck|Surf|p1a: Venusaur
+|-resisted|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|choice|switch 4|
+|
+|switch|p1a: Fearow|Fearow|194\/333
+|turn|31
+|choice|move 2|move 2
+|
+|move|p1a: Fearow|Hyper Beam|p2a: Golduck
+|-crit|p2a: Golduck
+|-damage|p2a: Golduck|0 fnt
+|faint|p2a: Golduck
+|c|★I love pochama|gg\/
+|c|★marcoasd|well rip
+|c|★marcoasd|gg
+|choice||switch 3
+|
+|switch|p2a: Mr. Mime|Mr. Mime|131\/283
+|turn|32
+|choice|move 4|move 1
+|
+|move|p1a: Fearow|Double-Edge|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|0 fnt
+|-damage|p1a: Fearow|162\/333|[from] recoil|[of] p2a: Mr. Mime
+|faint|p2a: Mr. Mime
+|
+|win|I love pochama
+|L|marcoasd
+|player|p2
+|L|I love pochama
+|player|p1
+|J|KristophV

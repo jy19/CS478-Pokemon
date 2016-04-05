@@ -1,0 +1,256 @@
+﻿|J|xJoelituh
+|J|Mister Tim
+|player|p1|xJoelituh|134
+|player|p2|Mister Tim|265
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|seed|35162,53728,37897,19355
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Hypno|Hypno|373\/373
+|switch|p2a: Haunter|Haunter|293\/293
+|turn|1
+|choice|move 3|move 1
+|
+|move|p2a: Haunter|Hypnosis|p1a: Hypno
+|-status|p1a: Hypno|slp
+|cant|p1a: Hypno|slp
+|
+|turn|2
+|choice|switch 6|move 3
+|
+|switch|p1a: Kadabra|Kadabra|283\/283
+|move|p2a: Haunter|Night Shade|p1a: Kadabra
+|-damage|p1a: Kadabra|183\/283
+|
+|turn|3
+|J|INSIGNE FENOMENO
+|choice|move 1|switch 5
+|
+|switch|p2a: Kadabra|Kadabra|283\/283
+|move|p1a: Kadabra|Psychic|p2a: Kadabra
+|-resisted|p2a: Kadabra
+|-damage|p2a: Kadabra|234\/283
+|
+|turn|4
+|choice|move 3|move 1
+|
+|move|p1a: Kadabra|Thunder Wave|p2a: Kadabra
+|-status|p2a: Kadabra|par
+|cant|p2a: Kadabra|par
+|
+|turn|5
+|choice|switch 2|move 1
+|
+|switch|p1a: Rhydon|Rhydon|413\/413
+|cant|p2a: Kadabra|par
+|
+|turn|6
+|choice|move 4|switch 6
+|
+|switch|p2a: Victreebel|Victreebel|363\/363
+|move|p1a: Rhydon|Substitute|p1a: Rhydon
+|-start|p1a: Rhydon|Substitute
+|-damage|p1a: Rhydon|310\/413
+|
+|turn|7
+|choice|move 1|move 1
+|
+|move|p2a: Victreebel|Sleep Powder|p1a: Rhydon
+|-message|Sleep Clause Mod activated.
+|move|p1a: Rhydon|Body Slam|p2a: Victreebel
+|-damage|p2a: Victreebel|266\/363
+|
+|turn|8
+|choice|move 1|move 4
+|
+|move|p2a: Victreebel|Stun Spore|p1a: Rhydon
+|-status|p1a: Rhydon|par
+|move|p1a: Rhydon|Body Slam|p2a: Victreebel
+|-damage|p2a: Victreebel|167\/363
+|
+|turn|9
+|choice|move 2|switch 2
+|
+|switch|p2a: Rhydon|Rhydon|413\/413
+|move|p1a: Rhydon|Earthquake|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|162\/413
+|
+|turn|10
+|choice|move 2|move 3
+|
+|move|p2a: Rhydon|Earthquake|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-end|p1a: Rhydon|Substitute
+|move|p1a: Rhydon|Earthquake|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|choice||switch 4
+|
+|switch|p2a: Kangaskhan|Kangaskhan|413\/413
+|turn|11
+|choice|switch 2|move 3
+|
+|switch|p1a: Kadabra|Kadabra|183\/283
+|move|p2a: Kangaskhan|Blizzard|p1a: Kadabra
+|-damage|p1a: Kadabra|132\/283
+|-status|p1a: Kadabra|frz
+|
+|turn|12
+|choice|switch 4|move 1
+|
+|switch|p1a: Kangaskhan|Kangaskhan|413\/413
+|move|p2a: Kangaskhan|Body Slam|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|291\/413
+|
+|turn|13
+|choice|move 4|switch 5
+|
+|switch|p2a: Haunter|Haunter|293\/293
+|move|p1a: Kangaskhan|Counter|p2a: Haunter
+|-damage|p2a: Haunter|49\/293
+|
+|turn|14
+|choice|switch 2|move 4
+|
+|switch|p1a: Rhydon|Rhydon|310\/413 par
+|move|p2a: Haunter|Confuse Ray|p1a: Rhydon
+|-start|p1a: Rhydon|confusion
+|
+|turn|15
+|choice|move 2|move 3
+|
+|move|p2a: Haunter|Night Shade|p1a: Rhydon
+|-damage|p1a: Rhydon|210\/413 par
+|-activate|p1a: Rhydon|confusion
+|move|p1a: Rhydon|Earthquake|p2a: Haunter
+|-supereffective|p2a: Haunter
+|-damage|p2a: Haunter|0 fnt
+|faint|p2a: Haunter
+|choice||switch 3
+|
+|switch|p2a: Raichu|Raichu|323\/323
+|turn|16
+|choice|switch 4|move 4
+|
+|switch|p1a: Kadabra|Kadabra|132\/283 frz
+|move|p2a: Raichu|Surf|p1a: Kadabra
+|-damage|p1a: Kadabra|74\/283 frz
+|
+|turn|17
+|choice|move 2|move 3
+|
+|cant|p1a: Kadabra|frz
+|move|p2a: Raichu|Seismic Toss|p1a: Kadabra
+|-damage|p1a: Kadabra|0 fnt
+|faint|p1a: Kadabra
+|choice|switch 3|
+|
+|switch|p1a: Raichu|Raichu|323\/323
+|turn|18
+|choice|move 4|switch 6
+|
+|switch|p2a: Kadabra|Kadabra|234\/283 par
+|move|p1a: Raichu|Body Slam|p2a: Kadabra
+|-damage|p2a: Kadabra|106\/283 par
+|
+|turn|19
+|choice|move 4|switch 5
+|
+|switch|p2a: Kangaskhan|Kangaskhan|413\/413
+|move|p1a: Raichu|Body Slam|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|339\/413
+|
+|turn|20
+|choice|move 2|move 2
+|
+|move|p1a: Raichu|Thunder Wave|p2a: Kangaskhan
+|-status|p2a: Kangaskhan|par
+|move|p2a: Kangaskhan|Earthquake|p1a: Raichu
+|-supereffective|p1a: Raichu
+|-damage|p1a: Raichu|89\/323
+|
+|turn|21
+|choice|switch 5|move 2
+|
+|switch|p1a: Vaporeon|Vaporeon|463\/463
+|move|p2a: Kangaskhan|Earthquake|p1a: Vaporeon
+|-crit|p1a: Vaporeon
+|-damage|p1a: Vaporeon|267\/463
+|
+|turn|22
+|choice|move 1|switch 5
+|
+|switch|p2a: Kadabra|Kadabra|106\/283 par
+|move|p1a: Vaporeon|Surf|p2a: Kadabra
+|-damage|p2a: Kadabra|8\/283 par
+|
+|turn|23
+|choice|move 1|move 1
+|
+|move|p1a: Vaporeon|Surf|p2a: Kadabra
+|-damage|p2a: Kadabra|0 fnt
+|faint|p2a: Kadabra
+|choice||switch 2
+|
+|switch|p2a: Victreebel|Victreebel|167\/363
+|turn|24
+|choice|switch 6|move 4
+|
+|switch|p1a: Hypno|Hypno|373\/373 slp
+|move|p2a: Victreebel|Stun Spore|p1a: Hypno|[miss]
+|-miss|p2a: Victreebel
+|
+|turn|25
+|choice|move 1|move 2
+|
+|move|p2a: Victreebel|Wrap|p1a: Hypno
+|-damage|p1a: Hypno|358\/373 slp
+|-activate|p1a: Hypno|move: Wrap|[of] p2a: Victreebel
+|cant|p1a: Hypno|slp
+|
+|turn|26
+|choice|move 2|move 2
+|
+|move|p2a: Victreebel|Wrap|p1a: Hypno
+|-damage|p1a: Hypno|343\/373 slp
+|-curestatus|p1a: Hypno|slp
+|
+|-end|p1a: Hypno|Wrap|[partiallytrapped]
+|turn|27
+|J|Katostrofe
+|choice|switch 4|move 1
+|
+|switch|p1a: Rhydon|Rhydon|210\/413 par
+|move|p2a: Victreebel|Sleep Powder|p1a: Rhydon|[miss]
+|-miss|p2a: Victreebel
+|
+|turn|28
+|choice|move 2|switch 5
+|
+|switch|p2a: Kangaskhan|Kangaskhan|339\/413 par
+|move|p1a: Rhydon|Earthquake|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|174\/413 par
+|
+|turn|29
+|choice|move 2|move 1
+|
+|move|p2a: Kangaskhan|Body Slam|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|168\/413 par
+|move|p1a: Rhydon|Earthquake|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|18\/413 par
+|
+|turn|30
+|-message|Mister Tim forfeited.
+|
+|win|xJoelituh

@@ -1,0 +1,206 @@
+﻿|join|singlea3
+|join|TrueNoHeart
+|c|★TrueNoHeart|glhf
+|player|p1|singlea3|101
+|player|p2|TrueNoHeart|99
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Kadabra|Kadabra, L86|244\/244
+|switch|p2a: Aerodactyl|Aerodactyl, L86|313\/313
+|turn|1
+|
+|move|p2a: Aerodactyl|Reflect|p2a: Aerodactyl
+|move|p1a: Kadabra|Thunder Wave|p2a: Aerodactyl
+|-status|p2a: Aerodactyl|par
+|
+|turn|2
+|
+|move|p1a: Kadabra|Reflect|p1a: Kadabra
+|cant|p2a: Aerodactyl|par
+|
+|turn|3
+|
+|move|p1a: Kadabra|Psychic|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|185\/313 par
+|move|p2a: Aerodactyl|Sky Attack|p1a: Kadabra|[still]
+|-prepare|p2a: Aerodactyl|Sky Attack|p1a: Kadabra
+|
+|turn|4
+|c|★singlea3|same!
+|c|★singlea3|the good ol days!
+|
+|move|p1a: Kadabra|Psychic|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|38\/313 par
+|move|p2a: Aerodactyl|Sky Attack|p1a: Kadabra
+|-crit|p1a: Kadabra
+|-damage|p1a: Kadabra|0 fnt
+|faint|p1a: Kadabra
+|c|★TrueNoHeart|when missingno still ruled cinnabar
+|
+|switch|p1a: Vileplume|Vileplume, L86|304\/304
+|turn|5
+|
+|move|p1a: Vileplume|Mega Drain|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|faint|p2a: Aerodactyl
+|c|★singlea3|when stealth rocks didn't exist
+|
+|switch|p2a: Jynx|Jynx, L82|274\/274
+|turn|6
+|c|★TrueNoHeart|and of course...when jynx was still racest
+|
+|switch|p1a: Mr. Mime|Mr. Mime, L86|244\/244
+|move|p2a: Jynx|Lovely Kiss|p1a: Mr. Mime
+|-status|p1a: Mr. Mime|slp
+|
+|turn|7
+|c|★singlea3|oh was she ever! haha
+|
+|cant|p1a: Mr. Mime|slp
+|move|p2a: Jynx|Blizzard|p1a: Mr. Mime
+|-crit|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|46\/244 slp
+|
+|turn|8
+|
+|cant|p1a: Mr. Mime|slp
+|-curestatus|p1a: Mr. Mime|slp
+|move|p2a: Jynx|Psychic|p1a: Mr. Mime
+|-resisted|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|6\/244
+|-unboost|p1a: Mr. Mime|spd|1
+|-unboost|p1a: Mr. Mime|spa|1
+|
+|turn|9
+|
+|move|p1a: Mr. Mime|Thunder Wave|p2a: Jynx
+|-status|p2a: Jynx|par
+|move|p2a: Jynx|Psychic|p1a: Mr. Mime
+|-resisted|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|0 fnt
+|faint|p1a: Mr. Mime
+|
+|switch|p1a: Electabuzz|Electabuzz, L86|287\/287
+|turn|10
+|
+|move|p1a: Electabuzz|Thunderbolt|p2a: Jynx
+|-damage|p2a: Jynx|186\/274 par
+|move|p2a: Jynx|Lovely Kiss|p1a: Electabuzz
+|-status|p1a: Electabuzz|slp
+|
+|turn|11
+|
+|cant|p1a: Electabuzz|slp
+|move|p2a: Jynx|Psychic|p1a: Electabuzz
+|-damage|p1a: Electabuzz|193\/287 slp
+|
+|turn|12
+|c|★singlea3|man, sleep is so much more deadly here
+|
+|cant|p1a: Electabuzz|slp
+|move|p2a: Jynx|Psychic|p1a: Electabuzz
+|-damage|p1a: Electabuzz|111\/287 slp
+|
+|turn|13
+|
+|cant|p1a: Electabuzz|slp
+|move|p2a: Jynx|Psychic|p1a: Electabuzz
+|-damage|p1a: Electabuzz|21\/287 slp
+|
+|turn|14
+|
+|cant|p1a: Electabuzz|slp
+|move|p2a: Jynx|Psychic|p1a: Electabuzz
+|-damage|p1a: Electabuzz|0 fnt
+|faint|p1a: Electabuzz
+|
+|switch|p1a: Zapdos|Zapdos, L82|315\/315
+|turn|15
+|c|★TrueNoHeart|...
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Jynx
+|-damage|p2a: Jynx|84\/274 par
+|move|p2a: Jynx|Lovely Kiss|p1a: Zapdos|[miss]
+|-miss|p2a: Jynx
+|
+|turn|16
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|c|★singlea3|phewf!
+|
+|switch|p2a: Raticate|Raticate, L86|270\/270
+|turn|17
+|
+|move|p2a: Raticate|Super Fang|p1a: Zapdos
+|-damage|p1a: Zapdos|158\/315
+|move|p1a: Zapdos|Thunder Wave|p2a: Raticate
+|-status|p2a: Raticate|par
+|
+|turn|18
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Raticate
+|-crit|p2a: Raticate
+|-damage|p2a: Raticate|0 fnt
+|faint|p2a: Raticate
+|c|★singlea3|alright, then
+|c|★singlea3|...
+|
+|switch|p2a: Nidorino|Nidorino, L88|287\/287
+|turn|19
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Nidorino
+|-damage|p2a: Nidorino|149\/287
+|move|p2a: Nidorino|Blizzard|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|50\/315
+|
+|turn|20
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Nidorino
+|-damage|p2a: Nidorino|2\/287
+|move|p2a: Nidorino|Double-Edge|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|-damage|p2a: Nidorino|0 fnt|[from] recoil|[of] p1a: Zapdos
+|faint|p1a: Zapdos
+|faint|p2a: Nidorino
+|
+|switch|p2a: Exeggutor|Exeggutor, L82|324\/324
+|switch|p1a: Vileplume|Vileplume, L86|304\/304
+|turn|21
+|c|★TrueNoHeart|oh...oh that back sprite on my eggs
+|
+|move|p2a: Exeggutor|Psychic|p1a: Vileplume
+|-crit|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|faint|p1a: Vileplume
+|c|★singlea3|Haha
+|
+|switch|p1a: Nidoqueen|Nidoqueen, L86|330\/330
+|turn|22
+|c|★singlea3|Exeggutor was sooo good back in the day
+|
+|move|p1a: Nidoqueen|Blizzard|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|195\/324
+|move|p2a: Exeggutor|Psychic|p1a: Nidoqueen
+|-crit|p1a: Nidoqueen
+|-supereffective|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|0 fnt
+|faint|p1a: Nidoqueen
+|
+|win|TrueNoHeart
+|raw|Ladder updating...
+|raw|singlea3's rating: 1000 &rarr; <strong>1000<\/strong><br \/>(+0 for losing)
+|raw|TrueNoHeart's rating: 1140 &rarr; <strong>1156<\/strong><br \/>(+16 for winning)
+|c|★TrueNoHeart|gg
+|c|★singlea3|gg

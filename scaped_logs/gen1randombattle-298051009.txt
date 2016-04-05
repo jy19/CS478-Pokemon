@@ -1,0 +1,309 @@
+﻿|join|MALESANI
+|join|hakamuto
+|player|p1|MALESANI|238
+|player|p2|hakamuto|1
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|28295,36561,41526,40574
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Poliwrath|Poliwrath, L85|327\/327
+|switch|p2a: Kangaskhan|Kangaskhan, L85|352\/352
+|turn|1
+|choice|move 3|move 2
+|
+|move|p1a: Poliwrath|Hypnosis|p2a: Kangaskhan|[miss]
+|-miss|p1a: Poliwrath
+|move|p2a: Kangaskhan|Counter|p1a: Poliwrath
+|-fail|p2a: Kangaskhan
+|
+|turn|2
+|choice|move 3|move 1
+|
+|move|p2a: Kangaskhan|Earthquake|p1a: Poliwrath
+|-damage|p1a: Poliwrath|260\/327
+|move|p1a: Poliwrath|Hypnosis|p2a: Kangaskhan
+|-status|p2a: Kangaskhan|slp
+|
+|turn|3
+|choice|move 1|move 4
+|
+|cant|p2a: Kangaskhan|slp
+|move|p1a: Poliwrath|Amnesia|p1a: Poliwrath
+|-boost|p1a: Poliwrath|spd|2
+|-boost|p1a: Poliwrath|spa|2
+|
+|turn|4
+|choice|move 1|switch 6
+|
+|switch|p2a: Golduck|Golduck, L85|310\/310
+|move|p1a: Poliwrath|Amnesia|p1a: Poliwrath
+|-boost|p1a: Poliwrath|spd|2
+|-boost|p1a: Poliwrath|spa|2
+|
+|turn|5
+|choice|move 4|move 2
+|
+|move|p2a: Golduck|Ice Beam|p1a: Poliwrath
+|-resisted|p1a: Poliwrath
+|-damage|p1a: Poliwrath|249\/327
+|move|p1a: Poliwrath|Surf|p2a: Golduck
+|-resisted|p2a: Golduck
+|-damage|p2a: Golduck|187\/310
+|
+|turn|6
+|choice|move 4|move 1
+|
+|move|p2a: Golduck|Amnesia|p2a: Golduck
+|-boost|p2a: Golduck|spd|2
+|-boost|p2a: Golduck|spa|2
+|move|p1a: Poliwrath|Surf|p2a: Golduck
+|-resisted|p2a: Golduck
+|-damage|p2a: Golduck|121\/310
+|
+|turn|7
+|choice|move 1|move 1
+|
+|move|p2a: Golduck|Amnesia|p2a: Golduck
+|-boost|p2a: Golduck|spd|2
+|-boost|p2a: Golduck|spa|2
+|move|p1a: Poliwrath|Amnesia|p1a: Poliwrath
+|-boost|p1a: Poliwrath|spd|2
+|-boost|p1a: Poliwrath|spa|2
+|
+|turn|8
+|choice|move 2|move 1
+|
+|move|p2a: Golduck|Amnesia|p2a: Golduck
+|-boost|p2a: Golduck|spd|2
+|-boost|p2a: Golduck|spa|2
+|move|p1a: Poliwrath|Submission|p2a: Golduck
+|-damage|p2a: Golduck|31\/310
+|-damage|p1a: Poliwrath|227\/327|[from] recoil|[of] p2a: Golduck
+|
+|turn|9
+|choice|move 4|move 4
+|
+|move|p2a: Golduck|Rest|p2a: Golduck
+|-status|p2a: Golduck|slp
+|-heal|p2a: Golduck|310\/310 slp|[silent]
+|-status|p2a: Golduck|slp|[from] move: Rest
+|move|p1a: Poliwrath|Surf|p2a: Golduck
+|-resisted|p2a: Golduck
+|-damage|p2a: Golduck|263\/310 slp
+|
+|turn|10
+|choice|move 2|move 2
+|
+|cant|p2a: Golduck|slp
+|move|p1a: Poliwrath|Submission|p2a: Golduck
+|-damage|p2a: Golduck|174\/310 slp
+|-damage|p1a: Poliwrath|205\/327|[from] recoil|[of] p2a: Golduck
+|
+|turn|11
+|choice|move 2|move 2
+|
+|-curestatus|p2a: Golduck|slp
+|move|p1a: Poliwrath|Submission|p2a: Golduck
+|-damage|p2a: Golduck|91\/310
+|-damage|p1a: Poliwrath|185\/327|[from] recoil|[of] p2a: Golduck
+|
+|turn|12
+|choice|move 4|move 3
+|
+|move|p2a: Golduck|Surf|p1a: Poliwrath
+|-resisted|p1a: Poliwrath
+|-damage|p1a: Poliwrath|133\/327
+|move|p1a: Poliwrath|Surf|p2a: Golduck
+|-resisted|p2a: Golduck
+|-damage|p2a: Golduck|47\/310
+|
+|turn|13
+|choice|move 2|move 4
+|
+|move|p2a: Golduck|Rest|p2a: Golduck
+|-status|p2a: Golduck|slp
+|-heal|p2a: Golduck|310\/310 slp|[silent]
+|-status|p2a: Golduck|slp|[from] move: Rest
+|move|p1a: Poliwrath|Submission|p2a: Golduck
+|-damage|p2a: Golduck|222\/310 slp
+|-damage|p1a: Poliwrath|111\/327|[from] recoil|[of] p2a: Golduck
+|
+|turn|14
+|choice|move 2|move 3
+|
+|cant|p2a: Golduck|slp
+|move|p1a: Poliwrath|Submission|p2a: Golduck
+|-crit|p2a: Golduck
+|-damage|p2a: Golduck|60\/310 slp
+|-damage|p1a: Poliwrath|71\/327|[from] recoil|[of] p2a: Golduck
+|
+|turn|15
+|choice|move 2|switch 5
+|
+|switch|p2a: Primeape|Primeape, L90|300\/300
+|move|p1a: Poliwrath|Submission|p2a: Primeape
+|-crit|p2a: Primeape
+|-damage|p2a: Primeape|107\/300
+|-damage|p1a: Poliwrath|23\/327|[from] recoil|[of] p2a: Primeape
+|
+|turn|16
+|choice|move 4|move 1
+|
+|move|p2a: Primeape|Rock Slide|p1a: Poliwrath
+|-resisted|p1a: Poliwrath
+|-damage|p1a: Poliwrath|0 fnt
+|faint|p1a: Poliwrath
+|choice|switch 2|
+|
+|switch|p1a: Electabuzz|Electabuzz, L85|284\/284
+|turn|17
+|choice|move 1|move 2
+|
+|move|p1a: Electabuzz|Psychic|p2a: Primeape
+|-supereffective|p2a: Primeape
+|-damage|p2a: Primeape|0 fnt
+|faint|p2a: Primeape
+|choice||switch 4
+|
+|switch|p2a: Golem|Golem, L79|288\/288
+|turn|18
+|choice|switch 5|move 2
+|
+|switch|p1a: Moltres|Moltres, L85|327\/327
+|move|p2a: Golem|Earthquake|p1a: Moltres
+|-immune|p1a: Moltres|[msg]
+|
+|turn|19
+|choice|move 1|move 4
+|
+|move|p1a: Moltres|Fire Blast|p2a: Golem
+|-crit|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|70\/288
+|-status|p2a: Golem|brn
+|move|p2a: Golem|Rock Slide|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|180\/327
+|-damage|p2a: Golem|52\/288 brn|[from] brn|[of] p1a: Moltres
+|
+|turn|20
+|choice|move 1|move 4
+|
+|move|p1a: Moltres|Fire Blast|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|choice||switch 5
+|
+|switch|p2a: Golduck|Golduck, L85|60\/310 slp
+|turn|21
+|choice|move 2|move 4
+|
+|move|p1a: Moltres|Hyper Beam|p2a: Golduck
+|-damage|p2a: Golduck|0 fnt
+|faint|p2a: Golduck
+|choice||switch 6
+|
+|switch|p2a: Kangaskhan|Kangaskhan, L85|352\/352 slp
+|turn|22
+|choice|move 1|move 3
+|
+|move|p1a: Moltres|Fire Blast|p2a: Kangaskhan|[miss]
+|-miss|p1a: Moltres
+|cant|p2a: Kangaskhan|slp
+|
+|turn|23
+|choice|move 1|move 3
+|
+|move|p1a: Moltres|Fire Blast|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|126\/352 slp
+|cant|p2a: Kangaskhan|slp
+|
+|turn|24
+|choice|move 1|move 3
+|
+|cant|p2a: Kangaskhan|slp
+|move|p1a: Moltres|Fire Blast|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|faint|p2a: Kangaskhan
+|choice||switch 3
+|
+|switch|p2a: Gastly|Gastly, L96|252\/252
+|turn|25
+|choice|move 1|move 2
+|
+|move|p2a: Gastly|Thunderbolt|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|44\/327
+|move|p1a: Moltres|Fire Blast|p2a: Gastly
+|-damage|p2a: Gastly|133\/252
+|
+|turn|26
+|choice|move 1|move 2
+|
+|move|p2a: Gastly|Thunderbolt|p1a: Moltres
+|-crit|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|choice|switch 3|
+|
+|switch|p1a: Graveler|Graveler, L85|267\/267
+|turn|27
+|choice|move 4|move 1
+|
+|move|p2a: Gastly|Hypnosis|p1a: Graveler|[miss]
+|-miss|p2a: Gastly
+|move|p1a: Graveler|Earthquake|p2a: Gastly
+|-supereffective|p2a: Gastly
+|-damage|p2a: Gastly|0 fnt
+|faint|p2a: Gastly
+|choice||switch 2
+|
+|switch|p2a: Mew|Mew, L74|300\/300
+|turn|28
+|choice|move 3|move 4
+|
+|move|p2a: Mew|Fissure|p1a: Graveler
+|-damage|p1a: Graveler|0 fnt
+|-ohko
+|faint|p1a: Graveler
+|choice|switch 6|
+|
+|switch|p1a: Exeggutor|Exeggutor, L79|312\/312
+|turn|29
+|choice|move 1|move 4
+|
+|move|p2a: Mew|Fissure|p1a: Exeggutor|[miss]
+|-miss|p2a: Mew
+|move|p1a: Exeggutor|Sleep Powder|p2a: Mew
+|-status|p2a: Mew|slp
+|
+|turn|30
+|choice|move 2|move 1
+|
+|cant|p2a: Mew|slp
+|move|p1a: Exeggutor|Explosion|p2a: Mew
+|-damage|p2a: Mew|93\/300 slp
+|faint|p1a: Exeggutor
+|choice|switch 4|
+|
+|switch|p1a: Mewtwo|Mewtwo, L70|293\/293
+|turn|31
+|choice|move 1|move 2
+|
+|move|p1a: Mewtwo|Psychic|p2a: Mew
+|-crit|p2a: Mew
+|-resisted|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|win|MALESANI
+|raw|MALESANI's rating: 1284 &rarr; <strong>1292<\/strong><br \/>(+8 for winning)
+|raw|hakamuto's rating: 1000 &rarr; <strong>1000<\/strong><br \/>(+0 for losing)

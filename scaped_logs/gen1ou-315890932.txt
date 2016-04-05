@@ -1,0 +1,492 @@
+﻿|j|Moonclawz
+|j|Peasounay
+|player|p1|Moonclawz|1
+|player|p2|Peasounay|80
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|seed|38585,30647,42009,31149
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333\/333
+|switch|p2a: WellIStallYourFace|Alakazam|313\/313
+|turn|1
+|choice|move 3|move 1
+|
+|move|p2a: WellIStallYourFace|Thunder Wave|p1a: Jynx
+|-status|p1a: Jynx|par
+|cant|p1a: Jynx|par
+|
+|turn|2
+|choice|move 3|move 4
+|
+|move|p2a: WellIStallYourFace|Seismic Toss|p1a: Jynx
+|-damage|p1a: Jynx|233\/333 par
+|move|p1a: Jynx|Lovely Kiss|p2a: WellIStallYourFace|[miss]
+|-miss|p1a: Jynx
+|
+|turn|3
+|choice|switch 3|move 4
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: WellIStallYourFace|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|603\/703
+|
+|turn|4
+|choice|move 2|move 1
+|
+|move|p2a: WellIStallYourFace|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|move|p1a: Chansey|Thunder Wave|p2a: WellIStallYourFace
+|-status|p2a: WellIStallYourFace|par
+|
+|turn|5
+|choice|move 4|move 2
+|
+|move|p2a: WellIStallYourFace|Psychic|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|365\/703 par
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|move|p1a: Chansey|Ice Beam|p2a: WellIStallYourFace
+|-damage|p2a: WellIStallYourFace|274\/313 par
+|
+|turn|6
+|choice|move 1|move 2
+|
+|move|p2a: WellIStallYourFace|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|159\/703 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|510\/703 par
+|
+|turn|7
+|choice|switch 2|move 2
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|move|p2a: WellIStallYourFace|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|252\/323
+|
+|turn|8
+|choice|move 1|move 1
+|
+|move|p1a: Starmie|Blizzard|p2a: WellIStallYourFace
+|-crit|p2a: WellIStallYourFace
+|-damage|p2a: WellIStallYourFace|126\/313 par
+|move|p2a: WellIStallYourFace|Thunder Wave|p1a: Starmie
+|-status|p1a: Starmie|par
+|
+|turn|9
+|choice|move 1|move 3
+|
+|move|p2a: WellIStallYourFace|Recover|p2a: WellIStallYourFace
+|-heal|p2a: WellIStallYourFace|282\/313 par
+|move|p1a: Starmie|Blizzard|p2a: WellIStallYourFace|[miss]
+|-miss|p1a: Starmie
+|
+|turn|10
+|choice|move 1|move 4
+|
+|cant|p2a: WellIStallYourFace|par
+|move|p1a: Starmie|Blizzard|p2a: WellIStallYourFace
+|-crit|p2a: WellIStallYourFace
+|-damage|p2a: WellIStallYourFace|133\/313 par
+|
+|turn|11
+|choice|move 1|move 3
+|
+|move|p2a: WellIStallYourFace|Recover|p2a: WellIStallYourFace
+|-heal|p2a: WellIStallYourFace|289\/313 par
+|move|p1a: Starmie|Blizzard|p2a: WellIStallYourFace|[miss]
+|-miss|p1a: Starmie
+|
+|turn|12
+|choice|switch 4|move 4
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: WellIStallYourFace|Seismic Toss|p1a: Exeggutor
+|-damage|p1a: Exeggutor|293\/393
+|
+|turn|13
+|choice|move 3|move 1
+|
+|move|p1a: Exeggutor|Psychic|p2a: WellIStallYourFace
+|-resisted|p2a: WellIStallYourFace
+|-damage|p2a: WellIStallYourFace|243\/313 par
+|-unboost|p2a: WellIStallYourFace|spd|1
+|-unboost|p2a: WellIStallYourFace|spa|1
+|move|p2a: WellIStallYourFace|Thunder Wave|p1a: Exeggutor
+|-status|p1a: Exeggutor|par
+|
+|turn|14
+|choice|move 4|move 4
+|
+|move|p1a: Exeggutor|Explosion|p2a: WellIStallYourFace
+|-damage|p2a: WellIStallYourFace|0 fnt
+|faint|p2a: WellIStallYourFace
+|faint|p1a: Exeggutor
+|choice|switch 4|switch 4
+|
+|switch|p2a: I'm God|Tauros|353\/353
+|switch|p1a: Starmie|Starmie|252\/323 par
+|turn|15
+|choice|move 3|switch 5
+|
+|switch|p2a: I Own RBY|Chansey|703\/703
+|move|p1a: Starmie|Thunder Wave|p2a: I Own RBY
+|-status|p2a: I Own RBY|par
+|
+|turn|16
+|choice|switch 6|move 2
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|cant|p2a: I Own RBY|par
+|
+|turn|17
+|choice|move 1|switch 2
+|
+|switch|p2a: Wear Candoms Kid|Exeggutor|393\/393
+|move|p1a: Snorlax|Body Slam|p2a: Wear Candoms Kid
+|-damage|p2a: Wear Candoms Kid|273\/393
+|
+|turn|18
+|choice|switch 3|move 1
+|
+|switch|p1a: Jynx|Jynx|233\/333 par
+|move|p2a: Wear Candoms Kid|Sleep Powder|p1a: Jynx
+|-fail|p1a: Jynx
+|
+|turn|19
+|choice|move 1|switch 2
+|
+|switch|p2a: I Own RBY|Chansey|703\/703 par
+|move|p1a: Jynx|Blizzard|p2a: I Own RBY
+|-damage|p2a: I Own RBY|561\/703 par
+|
+|turn|20
+|choice|move 4|move 4
+|
+|move|p1a: Jynx|Rest|p1a: Jynx
+|-status|p1a: Jynx|slp
+|-heal|p1a: Jynx|333\/333 slp|[silent]
+|-status|p1a: Jynx|slp|[from] move: Rest
+|move|p2a: I Own RBY|Reflect|p2a: I Own RBY
+|-start|p2a: I Own RBY|Reflect
+|
+|turn|21
+|choice|switch 3|move 2
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: I Own RBY|Seismic Toss|p1a: Snorlax
+|-damage|p1a: Snorlax|423\/523
+|
+|turn|22
+|choice|move 1|move 3
+|
+|move|p1a: Snorlax|Body Slam|p2a: I Own RBY
+|-damage|p2a: I Own RBY|416\/703 par
+|move|p2a: I Own RBY|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|
+|turn|23
+|choice|move 1|move 1
+|
+|move|p2a: I Own RBY|Soft-Boiled|p2a: I Own RBY
+|-heal|p2a: I Own RBY|703\/703 par
+|move|p1a: Snorlax|Body Slam|p2a: I Own RBY
+|-damage|p2a: I Own RBY|561\/703 par
+|
+|turn|24
+|choice|move 1|move 2
+|
+|cant|p2a: I Own RBY|par
+|move|p1a: Snorlax|Body Slam|p2a: I Own RBY
+|-damage|p2a: I Own RBY|419\/703 par
+|
+|turn|25
+|choice|move 1|move 1
+|
+|move|p2a: I Own RBY|Soft-Boiled|p2a: I Own RBY
+|-heal|p2a: I Own RBY|703\/703 par
+|cant|p1a: Snorlax|par
+|
+|turn|26
+|choice|move 2|move 2
+|
+|move|p2a: I Own RBY|Seismic Toss|p1a: Snorlax
+|-damage|p1a: Snorlax|323\/523 par
+|cant|p1a: Snorlax|par
+|
+|turn|27
+|choice|move 1|move 2
+|
+|move|p2a: I Own RBY|Seismic Toss|p1a: Snorlax
+|-damage|p1a: Snorlax|223\/523 par
+|move|p1a: Snorlax|Body Slam|p2a: I Own RBY
+|-damage|p2a: I Own RBY|544\/703 par
+|
+|turn|28
+|choice|move 4|move 2
+|
+|cant|p2a: I Own RBY|par
+|cant|p1a: Snorlax|par
+|
+|turn|29
+|choice|move 3|move 2
+|
+|move|p2a: I Own RBY|Seismic Toss|p1a: Snorlax
+|-damage|p1a: Snorlax|123\/523 par
+|move|p1a: Snorlax|Reflect|p1a: Snorlax
+|-start|p1a: Snorlax|Reflect
+|
+|turn|30
+|choice|move 4|move 2
+|
+|move|p2a: I Own RBY|Seismic Toss|p1a: Snorlax
+|-damage|p1a: Snorlax|23\/523 par
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp
+|-heal|p1a: Snorlax|523\/523 slp|[silent]
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|
+|turn|31
+|choice|move 1|move 2
+|
+|move|p2a: I Own RBY|Seismic Toss|p1a: Snorlax
+|-damage|p1a: Snorlax|423\/523 slp
+|cant|p1a: Snorlax|slp
+|
+|turn|32
+|choice|move 2|move 2
+|
+|move|p2a: I Own RBY|Seismic Toss|p1a: Snorlax
+|-damage|p1a: Snorlax|323\/523 slp
+|-curestatus|p1a: Snorlax|slp
+|
+|turn|33
+|choice|move 2|move 3
+|
+|move|p2a: I Own RBY|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|move|p1a: Snorlax|Earthquake|p2a: I Own RBY
+|-damage|p2a: I Own RBY|438\/703 par
+|
+|turn|34
+|choice|move 2|move 2
+|
+|cant|p2a: I Own RBY|par
+|move|p1a: Snorlax|Earthquake|p2a: I Own RBY
+|-damage|p2a: I Own RBY|320\/703 par
+|
+|turn|35
+|choice|move 1|move 1
+|
+|move|p2a: I Own RBY|Soft-Boiled|p2a: I Own RBY
+|-heal|p2a: I Own RBY|671\/703 par
+|move|p1a: Snorlax|Body Slam|p2a: I Own RBY
+|-damage|p2a: I Own RBY|514\/703 par
+|
+|turn|36
+|choice|move 4|move 2
+|
+|move|p2a: I Own RBY|Seismic Toss|p1a: Snorlax
+|-damage|p1a: Snorlax|223\/523 par
+|cant|p1a: Snorlax|par
+|
+|turn|37
+|choice|move 4|move 2
+|
+|move|p2a: I Own RBY|Seismic Toss|p1a: Snorlax
+|-damage|p1a: Snorlax|123\/523 par
+|cant|p1a: Snorlax|par
+|
+|turn|38
+|choice|move 4|switch 6
+|
+|switch|p2a: Yo|Lapras|463\/463
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp
+|-heal|p1a: Snorlax|523\/523 slp|[silent]
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|
+|turn|39
+|choice|move 1|move 4
+|
+|move|p2a: Yo|Confuse Ray|p1a: Snorlax
+|-start|p1a: Snorlax|confusion
+|cant|p1a: Snorlax|slp
+|
+|turn|40
+|choice|move 1|move 1
+|
+|move|p2a: Yo|Blizzard|p1a: Snorlax|[miss]
+|-miss|p2a: Yo
+|-curestatus|p1a: Snorlax|slp
+|
+|turn|41
+|choice|move 1|move 1
+|
+|move|p2a: Yo|Blizzard|p1a: Snorlax
+|-damage|p1a: Snorlax|358\/523
+|-activate|p1a: Snorlax|confusion
+|-damage|p1a: Snorlax|310\/523|[from] confusion
+|
+|turn|42
+|choice|switch 6|move 1
+|
+|switch|p1a: Starmie|Starmie|252\/323 par
+|move|p2a: Yo|Blizzard|p1a: Starmie|[miss]
+|-miss|p2a: Yo
+|
+|turn|43
+|choice|move 4|move 2
+|
+|move|p2a: Yo|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|108\/323 par
+|move|p1a: Starmie|Thunderbolt|p2a: Yo
+|-supereffective|p2a: Yo
+|-damage|p2a: Yo|316\/463
+|
+|turn|44
+|choice|move 2|move 2
+|
+|move|p2a: Yo|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|choice|switch 5|
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|45
+|choice|move 1|move 1
+|
+|move|p1a: Tauros|Body Slam|p2a: Yo
+|-damage|p2a: Yo|201\/463
+|move|p2a: Yo|Blizzard|p1a: Tauros
+|-damage|p1a: Tauros|173\/353
+|
+|turn|46
+|choice|move 4|switch 3
+|
+|switch|p2a: Yo Momma|Snorlax|523\/523
+|move|p1a: Tauros|Hyper Beam|p2a: Yo Momma
+|-damage|p2a: Yo Momma|280\/523
+|
+|turn|47
+|-mustrecharge|p1a: Tauros
+|-mustrecharge|p1a: Tauros
+|choice|move 1|move 3
+|
+|cant|p1a: Tauros|recharge
+|move|p2a: Yo Momma|Hyper Beam|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|choice|switch 6|
+|
+|switch|p1a: Snorlax|Snorlax|310\/523
+|turn|48
+|choice|move 3|switch 2
+|
+|switch|p2a: Wear Candoms Kid|Exeggutor|273\/393
+|move|p1a: Snorlax|Reflect|p1a: Snorlax
+|-start|p1a: Snorlax|Reflect
+|
+|turn|49
+|choice|switch 3|move 2
+|
+|switch|p1a: Jynx|Jynx|333\/333 slp
+|move|p2a: Wear Candoms Kid|Psychic|p1a: Jynx
+|-resisted|p1a: Jynx
+|-damage|p1a: Jynx|272\/333 slp
+|-unboost|p1a: Jynx|spd|1
+|-unboost|p1a: Jynx|spa|1
+|
+|turn|50
+|choice|move 1|move 1
+|
+|cant|p1a: Jynx|slp
+|move|p2a: Wear Candoms Kid|Sleep Powder|p1a: Jynx
+|-fail|p1a: Jynx|slp
+|
+|turn|51
+|choice|move 1|move 1
+|
+|-curestatus|p1a: Jynx|slp
+|move|p2a: Wear Candoms Kid|Sleep Powder|p1a: Jynx
+|-status|p1a: Jynx|slp
+|
+|turn|52
+|choice|switch 2|switch 5
+|
+|switch|p1a: Chansey|Chansey|510\/703 par
+|switch|p2a: I'm God|Tauros|353\/353
+|
+|turn|53
+|choice|move 2|switch 5
+|
+|switch|p2a: Wear Candoms Kid|Exeggutor|273\/393
+|move|p1a: Chansey|Thunder Wave|p2a: Wear Candoms Kid
+|-status|p2a: Wear Candoms Kid|par
+|
+|turn|54
+|choice|move 4|move 4
+|
+|move|p2a: Wear Candoms Kid|Explosion|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|faint|p2a: Wear Candoms Kid
+|choice|switch 3|switch 3
+|
+|switch|p2a: Yo|Lapras|201\/463
+|switch|p1a: Snorlax|Snorlax|310\/523
+|turn|55
+|choice|move 1|move 1
+|
+|move|p2a: Yo|Blizzard|p1a: Snorlax
+|-damage|p1a: Snorlax|127\/523
+|move|p1a: Snorlax|Body Slam|p2a: Yo
+|-damage|p2a: Yo|87\/463
+|
+|turn|56
+|choice|move 4|move 1
+|
+|move|p2a: Yo|Blizzard|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|choice|switch 2|
+|
+|switch|p1a: Jynx|Jynx|272\/333 slp
+|turn|57
+|choice|move 1|move 3
+|
+|cant|p1a: Jynx|slp
+|move|p2a: Yo|Body Slam|p1a: Jynx
+|-damage|p1a: Jynx|170\/333 slp
+|
+|turn|58
+|choice|move 2|move 3
+|
+|cant|p1a: Jynx|slp
+|move|p2a: Yo|Body Slam|p1a: Jynx
+|-damage|p1a: Jynx|56\/333 slp
+|
+|turn|59
+|choice|move 2|move 3
+|
+|cant|p1a: Jynx|slp
+|move|p2a: Yo|Body Slam|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|
+|win|Peasounay
+|player|p1
+|player|p2
+|c|★Peasounay|gg man
+|c|★Moonclawz|gg

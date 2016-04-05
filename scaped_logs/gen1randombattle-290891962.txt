@@ -1,0 +1,264 @@
+﻿|join|Winterwitchcraft
+|join|poopyface5000
+|player|p1|Winterwitchcraft|285
+|player|p2|poopyface5000|101
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|28370,9394,36601,36630
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gastly|Gastly, L96|252\/252
+|switch|p2a: Wigglytuff|Wigglytuff, L90|435\/435
+|turn|1
+|choice|move 2|move 4
+|
+|move|p1a: Gastly|Psychic|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|325\/435
+|move|p2a: Wigglytuff|Sing|p1a: Gastly|[miss]
+|-miss|p2a: Wigglytuff
+|
+|turn|2
+|c|★poopyface5000|hi
+|choice|move 4|move 4
+|
+|move|p1a: Gastly|Explosion|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|76\/435
+|faint|p1a: Gastly
+|c|★Winterwitchcraft|Hi.
+|choice|switch 2|
+|
+|switch|p1a: Voltorb|Voltorb, L96|272\/272
+|turn|3
+|choice|move 4|move 4
+|
+|move|p1a: Voltorb|Thunderbolt|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|0 fnt
+|faint|p2a: Wigglytuff
+|choice||switch 2
+|
+|switch|p2a: Exeggutor|Exeggutor, L79|312\/312
+|turn|4
+|choice|switch 6|move 1
+|
+|switch|p1a: Parasect|Parasect, L90|291\/291
+|move|p2a: Exeggutor|Sleep Powder|p1a: Parasect|[miss]
+|-miss|p2a: Exeggutor
+|
+|turn|5
+|choice|move 2|move 1
+|
+|move|p2a: Exeggutor|Sleep Powder|p1a: Parasect
+|-status|p1a: Parasect|slp
+|cant|p1a: Parasect|slp
+|
+|turn|6
+|choice|move 2|move 2
+|
+|move|p2a: Exeggutor|Mega Drain|p1a: Parasect
+|-resisted|p1a: Parasect
+|-damage|p1a: Parasect|281\/291 slp
+|cant|p1a: Parasect|slp
+|
+|turn|7
+|choice|move 2|switch 5
+|
+|switch|p2a: Magneton|Magneton, L90|273\/273
+|cant|p1a: Parasect|slp
+|
+|turn|8
+|choice|move 2|move 1
+|
+|move|p2a: Magneton|Thunderbolt|p1a: Parasect
+|-resisted|p1a: Parasect
+|-damage|p1a: Parasect|220\/291 slp
+|-curestatus|p1a: Parasect|slp
+|
+|turn|9
+|choice|move 2|move 2
+|
+|move|p2a: Magneton|Thunder Wave|p1a: Parasect
+|-status|p1a: Parasect|par
+|move|p1a: Parasect|Swords Dance|p1a: Parasect
+|-boost|p1a: Parasect|atk|2
+|
+|turn|10
+|choice|move 1|move 1
+|
+|move|p2a: Magneton|Thunderbolt|p1a: Parasect
+|-crit|p1a: Parasect
+|-resisted|p1a: Parasect
+|-damage|p1a: Parasect|96\/291 par
+|move|p1a: Parasect|Body Slam|p2a: Magneton
+|-crit|p2a: Magneton
+|-damage|p2a: Magneton|151\/273
+|
+|turn|11
+|choice|move 4|move 1
+|
+|move|p2a: Magneton|Thunderbolt|p1a: Parasect
+|-resisted|p1a: Parasect
+|-damage|p1a: Parasect|32\/291 par
+|move|p1a: Parasect|Mega Drain|p2a: Magneton
+|-damage|p2a: Magneton|116\/273
+|-heal|p1a: Parasect|49\/291 par|[from] drain|[of] p2a: Magneton
+|
+|turn|12
+|choice|move 1|move 1
+|
+|move|p2a: Magneton|Thunderbolt|p1a: Parasect
+|-resisted|p1a: Parasect
+|-damage|p1a: Parasect|0 fnt
+|faint|p1a: Parasect
+|choice|switch 4|
+|
+|switch|p1a: Snorlax|Snorlax, L79|415\/415
+|turn|13
+|choice|move 3|move 2
+|
+|move|p2a: Magneton|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|cant|p1a: Snorlax|par
+|
+|turn|14
+|choice|move 3|move 1
+|
+|move|p2a: Magneton|Thunderbolt|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|91\/415 par
+|cant|p1a: Snorlax|par
+|
+|turn|15
+|choice|move 3|move 1
+|
+|move|p2a: Magneton|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|choice|switch 6|
+|
+|switch|p1a: Voltorb|Voltorb, L96|272\/272
+|turn|16
+|choice|move 1|move 2
+|
+|move|p1a: Voltorb|Explosion|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|faint|p2a: Magneton
+|faint|p1a: Voltorb
+|choice|switch 3|switch 5
+|
+|switch|p1a: Nidorino|Nidorino, L90|293\/293
+|switch|p2a: Exeggutor|Exeggutor, L79|312\/312
+|turn|17
+|choice|move 2|move 1
+|
+|move|p1a: Nidorino|Blizzard|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|204\/312
+|-status|p2a: Exeggutor|frz
+|cant|p2a: Exeggutor|frz
+|
+|turn|18
+|choice|move 2|switch 3
+|
+|switch|p2a: Poliwhirl|Poliwhirl, L85|284\/284
+|move|p1a: Nidorino|Blizzard|p2a: Poliwhirl
+|-crit|p2a: Poliwhirl
+|-resisted|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|199\/284
+|
+|turn|19
+|choice|move 4|move 3
+|
+|move|p2a: Poliwhirl|Hypnosis|p1a: Nidorino
+|-status|p1a: Nidorino|slp
+|-curestatus|p1a: Nidorino|slp
+|
+|turn|20
+|choice|move 4|move 3
+|
+|move|p2a: Poliwhirl|Hypnosis|p1a: Nidorino
+|-status|p1a: Nidorino|slp
+|cant|p1a: Nidorino|slp
+|
+|turn|21
+|choice|move 4|move 4
+|
+|move|p2a: Poliwhirl|Psychic|p1a: Nidorino
+|-supereffective|p1a: Nidorino
+|-damage|p1a: Nidorino|182\/293 slp
+|-unboost|p1a: Nidorino|spd|1
+|-unboost|p1a: Nidorino|spa|1
+|cant|p1a: Nidorino|slp
+|
+|turn|22
+|choice|move 4|move 4
+|
+|move|p2a: Poliwhirl|Psychic|p1a: Nidorino
+|-supereffective|p1a: Nidorino
+|-damage|p1a: Nidorino|9\/293 slp
+|cant|p1a: Nidorino|slp
+|
+|turn|23
+|choice|move 4|move 4
+|
+|move|p2a: Poliwhirl|Psychic|p1a: Nidorino
+|-supereffective|p1a: Nidorino
+|-damage|p1a: Nidorino|0 fnt
+|faint|p1a: Nidorino
+|choice|switch 5|
+|
+|switch|p1a: Blastoise|Blastoise, L85|308\/308
+|turn|24
+|choice|move 3|move 3
+|
+|move|p2a: Poliwhirl|Hypnosis|p1a: Blastoise
+|-status|p1a: Blastoise|slp
+|cant|p1a: Blastoise|slp
+|
+|turn|25
+|choice|move 3|move 4
+|
+|move|p2a: Poliwhirl|Psychic|p1a: Blastoise
+|-damage|p1a: Blastoise|265\/308 slp
+|-unboost|p1a: Blastoise|spd|1
+|-unboost|p1a: Blastoise|spa|1
+|cant|p1a: Blastoise|slp
+|
+|turn|26
+|choice|move 3|move 4
+|
+|move|p2a: Poliwhirl|Psychic|p1a: Blastoise
+|-damage|p1a: Blastoise|197\/308 slp
+|cant|p1a: Blastoise|slp
+|
+|turn|27
+|choice|move 3|move 4
+|
+|move|p2a: Poliwhirl|Psychic|p1a: Blastoise
+|-damage|p1a: Blastoise|124\/308 slp
+|cant|p1a: Blastoise|slp
+|
+|turn|28
+|choice|move 3|move 4
+|
+|move|p2a: Poliwhirl|Psychic|p1a: Blastoise
+|-damage|p1a: Blastoise|57\/308 slp
+|-curestatus|p1a: Blastoise|slp
+|
+|turn|29
+|choice|move 3|move 4
+|
+|move|p2a: Poliwhirl|Psychic|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|faint|p1a: Blastoise
+|
+|win|poopyface5000
+|c|★poopyface5000|gg
+|raw|Winterwitchcraft's rating: 1000 &rarr; <strong>1000<\/strong><br \/>(+0 for losing)
+|raw|poopyface5000's rating: 1133 &rarr; <strong>1149<\/strong><br \/>(+16 for winning)
+|leave|poopyface5000
+|player|p2

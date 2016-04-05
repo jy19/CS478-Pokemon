@@ -1,0 +1,34 @@
+﻿|join|kid gf lol
+|join|test batch bitch
+|player|p1|kid gf lol|114
+|player|p2|test batch bitch|169
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jolteon|Jolteon|333\/333
+|switch|p2a: Snorlax|Snorlax|523\/523
+|turn|1
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Snorlax|Hyper Beam|p1a: Chansey
+|-damage|p1a: Chansey|212\/703
+|
+|turn|2
+|
+|cant|p2a: Snorlax|recharge
+|move|p1a: Chansey|Counter|p2a: Snorlax
+|-fail|p2a: Snorlax
+|
+|turn|3
+|leave|test batch bitch
+|player|p2
+|-message|Player 2 lost due to inactivity.
+|
+|win|kid gf lol

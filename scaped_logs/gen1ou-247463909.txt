@@ -1,0 +1,221 @@
+﻿|join|garymofugginoak
+|join|Giju
+|player|p1|garymofugginoak|265
+|player|p2|Giju|163
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Jyn|Jynx|333\/333
+|turn|1
+|c|★Giju|hf
+|
+|switch|p2a: Chan|Chansey|703\/703
+|move|p1a: Alakazam|Thunder Wave|p2a: Chan
+|-status|p2a: Chan|par
+|
+|turn|2
+|
+|move|p1a: Alakazam|Psychic|p2a: Chan
+|-damage|p2a: Chan|586\/703 par
+|move|p2a: Chan|Reflect|p2a: Chan
+|-start|p2a: Chan|Reflect
+|
+|turn|3
+|
+|move|p1a: Alakazam|Psychic|p2a: Chan
+|-crit|p2a: Chan
+|-damage|p2a: Chan|357\/703 par
+|cant|p2a: Chan|par
+|
+|turn|4
+|
+|move|p1a: Alakazam|Psychic|p2a: Chan
+|-damage|p2a: Chan|237\/703 par
+|-unboost|p2a: Chan|spd|1
+|-unboost|p2a: Chan|spa|1
+|move|p2a: Chan|Soft-Boiled|p2a: Chan
+|-heal|p2a: Chan|588\/703 par
+|
+|turn|5
+|
+|move|p1a: Alakazam|Psychic|p2a: Chan
+|-damage|p2a: Chan|403\/703 par
+|-unboost|p2a: Chan|spd|1
+|-unboost|p2a: Chan|spa|1
+|move|p2a: Chan|Ice Beam|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|185\/313
+|
+|turn|6
+|
+|switch|p2a: Exe|Exeggutor|393\/393
+|move|p1a: Alakazam|Psychic|p2a: Exe
+|-resisted|p2a: Exe
+|-damage|p2a: Exe|339\/393
+|-unboost|p2a: Exe|spd|1
+|-unboost|p2a: Exe|spa|1
+|
+|turn|7
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Exe
+|-status|p2a: Exe|par
+|move|p2a: Exe|Sleep Powder|p1a: Alakazam
+|-status|p1a: Alakazam|slp
+|
+|turn|8
+|
+|switch|p1a: Zapdos|Zapdos|383\/383
+|cant|p2a: Exe|par
+|
+|turn|9
+|
+|switch|p2a: Gol|Golem|363\/363
+|move|p1a: Zapdos|Drill Peck|p2a: Gol
+|-resisted|p2a: Gol
+|-damage|p2a: Gol|333\/363
+|
+|turn|10
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Gol|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|309\/393
+|
+|turn|11
+|
+|switch|p2a: Exe|Exeggutor|339\/393 par
+|move|p1a: Exeggutor|Sleep Powder|p2a: Exe
+|-fail|p2a: Exe
+|
+|turn|12
+|
+|switch|p1a: Zapdos|Zapdos|383\/383
+|move|p2a: Exe|Stun Spore|p1a: Zapdos
+|-status|p1a: Zapdos|par
+|
+|turn|13
+|
+|switch|p2a: Gol|Golem|333\/363
+|move|p1a: Zapdos|Drill Peck|p2a: Gol
+|-resisted|p2a: Gol
+|-damage|p2a: Gol|302\/363
+|
+|turn|14
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|move|p2a: Gol|Body Slam|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|221\/353
+|
+|turn|15
+|
+|switch|p2a: Exe|Exeggutor|339\/393 par
+|move|p1a: Tauros|Blizzard|p2a: Exe
+|-crit|p2a: Exe
+|-supereffective|p2a: Exe
+|-damage|p2a: Exe|102\/393 par
+|
+|turn|16
+|
+|move|p1a: Tauros|Body Slam|p2a: Exe
+|-damage|p2a: Exe|0 fnt
+|faint|p2a: Exe
+|
+|switch|p2a: Snor|Snorlax|523\/523
+|turn|17
+|
+|move|p1a: Tauros|Body Slam|p2a: Snor
+|-crit|p2a: Snor
+|-damage|p2a: Snor|283\/523
+|move|p2a: Snor|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|107\/353
+|
+|turn|18
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Snor
+|-damage|p2a: Snor|61\/523
+|move|p2a: Snor|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|turn|19
+|
+|move|p1a: Snorlax|Body Slam|p2a: Snor
+|-damage|p2a: Snor|0 fnt
+|faint|p2a: Snor
+|
+|switch|p2a: Chan|Chansey|403\/703 par
+|turn|20
+|
+|move|p1a: Snorlax|Hyper Beam|p2a: Chan
+|-damage|p2a: Chan|0 fnt
+|faint|p2a: Chan
+|
+|switch|p2a: Jyn|Jynx|333\/333
+|turn|21
+|
+|move|p2a: Jyn|Reflect|p2a: Jyn
+|-start|p2a: Jyn|Reflect
+|move|p1a: Snorlax|Hyper Beam|p2a: Jyn
+|-damage|p2a: Jyn|163\/333
+|
+|turn|22
+|-mustrecharge|p1a: Snorlax
+|-mustrecharge|p1a: Snorlax
+|
+|move|p2a: Jyn|Blizzard|p1a: Snorlax
+|-damage|p1a: Snorlax|343\/523
+|cant|p1a: Snorlax|recharge
+|
+|turn|23
+|
+|move|p2a: Jyn|Blizzard|p1a: Snorlax
+|-damage|p1a: Snorlax|168\/523
+|move|p1a: Snorlax|Hyper Beam|p2a: Jyn
+|-damage|p2a: Jyn|0 fnt
+|faint|p2a: Jyn
+|
+|switch|p2a: Tau|Tauros|353\/353
+|turn|24
+|
+|move|p2a: Tau|Hyper Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|turn|25
+|
+|move|p2a: Tau|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|443\/703
+|move|p1a: Chansey|Counter|p2a: Tau
+|-damage|p2a: Tau|0 fnt
+|faint|p2a: Tau
+|
+|switch|p2a: Gol|Golem|302\/363
+|turn|26
+|
+|move|p1a: Chansey|Ice Beam|p2a: Gol
+|-supereffective|p2a: Gol
+|-damage|p2a: Gol|96\/363
+|move|p2a: Gol|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|249\/703
+|
+|turn|27
+|-message|Giju forfeited.
+|
+|win|garymofugginoak
+|raw|Ladder updating...
+|leave|Giju
+|player|p2
+|raw|Ladder (probably) updated, but score could not be retrieved (Response not received).
+|raw|Ladder (probably) updated, but score could not be retrieved (socket hang up).

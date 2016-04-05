@@ -1,0 +1,301 @@
+﻿|join|xLmu
+|join|MALESANI
+|player|p1|xLmu|258
+|player|p2|MALESANI|238
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|15270,7154,15973,29974
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Dugtrio|Dugtrio, L85|233\/233
+|switch|p2a: Raichu|Raichu, L85|276\/276
+|turn|1
+|choice|move 1|switch 5
+|
+|switch|p2a: Blastoise|Blastoise, L85|308\/308
+|move|p1a: Dugtrio|Earthquake|p2a: Blastoise
+|-damage|p2a: Blastoise|226\/308
+|
+|turn|2
+|choice|move 4|move 1
+|
+|move|p1a: Dugtrio|Slash|p2a: Blastoise
+|-crit|p2a: Blastoise
+|-damage|p2a: Blastoise|151\/308
+|move|p2a: Blastoise|Blizzard|p1a: Dugtrio
+|-crit|p1a: Dugtrio
+|-supereffective|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|choice|switch 5|
+|
+|switch|p1a: Mr. Mime|Mr. Mime, L85|242\/242
+|turn|3
+|choice|move 4|switch 3
+|
+|switch|p2a: Chansey|Chansey, L79|557\/557
+|move|p1a: Mr. Mime|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|488\/557
+|
+|turn|4
+|choice|move 1|move 2
+|
+|move|p1a: Mr. Mime|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|386\/557
+|move|p2a: Chansey|Thunder Wave|p1a: Mr. Mime
+|-status|p1a: Mr. Mime|par
+|
+|turn|5
+|choice|move 2|move 3
+|
+|move|p2a: Chansey|Ice Beam|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|186\/242 par
+|move|p1a: Mr. Mime|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|turn|6
+|choice|move 1|move 4
+|
+|move|p1a: Mr. Mime|Psychic|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|216\/557 par
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|move|p2a: Chansey|Thunderbolt|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|151\/242 par
+|
+|turn|7
+|choice|move 1|move 1
+|
+|move|p1a: Mr. Mime|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|76\/557 par
+|cant|p2a: Chansey|par
+|
+|turn|8
+|choice|move 1|move 1
+|
+|move|p1a: Mr. Mime|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|choice||switch 2
+|
+|switch|p2a: Beedrill|Beedrill, L90|300\/300
+|turn|9
+|choice|move 4|move 3
+|
+|move|p2a: Beedrill|Twineedle|p1a: Mr. Mime
+|-crit|p1a: Mr. Mime
+|-supereffective|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|14\/242 par
+|-damage|p1a: Mr. Mime|0 fnt
+|-hitcount|p1a: Mr. Mime|2
+|faint|p1a: Mr. Mime
+|choice|switch 4|
+|
+|switch|p1a: Golduck|Golduck, L85|310\/310
+|turn|10
+|choice|move 2|move 2
+|
+|move|p1a: Golduck|Ice Beam|p2a: Beedrill
+|-damage|p2a: Beedrill|222\/300
+|move|p2a: Beedrill|Swords Dance|p2a: Beedrill
+|-boost|p2a: Beedrill|atk|2
+|
+|turn|11
+|choice|move 4|move 4
+|
+|move|p1a: Golduck|Surf|p2a: Beedrill
+|-damage|p2a: Beedrill|99\/300
+|move|p2a: Beedrill|Agility|p2a: Beedrill
+|-boost|p2a: Beedrill|spe|2
+|
+|turn|12
+|choice|move 4|move 1
+|
+|move|p2a: Beedrill|Hyper Beam|p1a: Golduck
+|-damage|p1a: Golduck|66\/310
+|move|p1a: Golduck|Surf|p2a: Beedrill
+|-damage|p2a: Beedrill|0 fnt
+|faint|p2a: Beedrill
+|choice||switch 5
+|
+|switch|p2a: Raichu|Raichu, L85|276\/276
+|turn|13
+|choice|switch 3|move 1
+|
+|switch|p1a: Hitmonchan|Hitmonchan, L90|273\/273
+|move|p2a: Raichu|Surf|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|175\/273
+|
+|turn|14
+|choice|move 1|move 4
+|
+|move|p2a: Raichu|Thunder|p1a: Hitmonchan|[miss]
+|-miss|p2a: Raichu
+|move|p1a: Hitmonchan|Body Slam|p2a: Raichu
+|-crit|p2a: Raichu
+|-damage|p2a: Raichu|94\/276
+|
+|turn|15
+|choice|move 1|move 4
+|
+|move|p2a: Raichu|Thunder|p1a: Hitmonchan
+|-crit|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|0 fnt
+|faint|p1a: Hitmonchan
+|choice|switch 2|
+|
+|switch|p1a: Lickitung|Lickitung, L90|345\/345
+|turn|16
+|choice|move 4|move 4
+|
+|move|p2a: Raichu|Thunder|p1a: Lickitung
+|-crit|p1a: Lickitung
+|-damage|p1a: Lickitung|57\/345
+|move|p1a: Lickitung|Earthquake|p2a: Raichu
+|-supereffective|p2a: Raichu
+|-damage|p2a: Raichu|0 fnt
+|faint|p2a: Raichu
+|choice||switch 3
+|
+|switch|p2a: Blastoise|Blastoise, L85|151\/308
+|turn|17
+|choice|move 2|move 3
+|
+|move|p2a: Blastoise|Earthquake|p1a: Lickitung
+|-damage|p1a: Lickitung|0 fnt
+|faint|p1a: Lickitung
+|choice|switch 3|
+|
+|switch|p1a: Golduck|Golduck, L85|66\/310
+|turn|18
+|choice|move 3|move 2
+|
+|move|p1a: Golduck|Rest|p1a: Golduck
+|-status|p1a: Golduck|slp
+|-heal|p1a: Golduck|310\/310 slp|[silent]
+|-status|p1a: Golduck|slp|[from] move: Rest
+|move|p2a: Blastoise|Hyper Beam|p1a: Golduck
+|-damage|p1a: Golduck|198\/310 slp
+|
+|turn|19
+|-mustrecharge|p2a: Blastoise
+|-mustrecharge|p2a: Blastoise
+|choice|move 2|move 1
+|
+|cant|p1a: Golduck|slp
+|cant|p2a: Blastoise|recharge
+|
+|turn|20
+|choice|move 2|move 3
+|
+|-curestatus|p1a: Golduck|slp
+|move|p2a: Blastoise|Earthquake|p1a: Golduck
+|-damage|p1a: Golduck|128\/310
+|
+|turn|21
+|choice|move 2|move 2
+|
+|move|p1a: Golduck|Ice Beam|p2a: Blastoise
+|-resisted|p2a: Blastoise
+|-damage|p2a: Blastoise|119\/308
+|move|p2a: Blastoise|Hyper Beam|p1a: Golduck
+|-damage|p1a: Golduck|24\/310
+|
+|turn|22
+|-mustrecharge|p2a: Blastoise
+|-mustrecharge|p2a: Blastoise
+|choice|move 1|move 1
+|
+|move|p1a: Golduck|Amnesia|p1a: Golduck
+|-boost|p1a: Golduck|spd|2
+|-boost|p1a: Golduck|spa|2
+|cant|p2a: Blastoise|recharge
+|
+|turn|23
+|choice|move 3|move 3
+|
+|move|p1a: Golduck|Rest|p1a: Golduck
+|-status|p1a: Golduck|slp
+|-heal|p1a: Golduck|310\/310 slp|[silent]
+|-status|p1a: Golduck|slp|[from] move: Rest
+|move|p2a: Blastoise|Earthquake|p1a: Golduck
+|-damage|p1a: Golduck|239\/310 slp
+|
+|turn|24
+|choice|move 2|move 3
+|
+|cant|p1a: Golduck|slp
+|move|p2a: Blastoise|Earthquake|p1a: Golduck
+|-damage|p1a: Golduck|166\/310 slp
+|
+|turn|25
+|choice|move 2|move 3
+|
+|-curestatus|p1a: Golduck|slp
+|move|p2a: Blastoise|Earthquake|p1a: Golduck
+|-damage|p1a: Golduck|94\/310
+|
+|turn|26
+|choice|move 2|move 2
+|
+|move|p1a: Golduck|Ice Beam|p2a: Blastoise
+|-resisted|p2a: Blastoise
+|-damage|p2a: Blastoise|54\/308
+|move|p2a: Blastoise|Hyper Beam|p1a: Golduck|[miss]
+|-miss|p2a: Blastoise
+|
+|turn|27
+|choice|move 2|move 3
+|
+|move|p1a: Golduck|Ice Beam|p2a: Blastoise
+|-crit|p2a: Blastoise
+|-resisted|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|choice||switch 6
+|
+|switch|p2a: Magmar|Magmar, L90|300\/300
+|turn|28
+|choice|move 4|move 4
+|
+|move|p2a: Magmar|Hyper Beam|p1a: Golduck
+|-damage|p1a: Golduck|0 fnt
+|faint|p1a: Golduck
+|choice|switch 6|
+|
+|switch|p1a: Mewtwo|Mewtwo, L70|293\/293
+|turn|29
+|c|★xLmu|!weak Magmar
+|raw|<div class="infobox">Magmar (ignoring abilities):<br><span class="message-effect-weak">Weaknesses<\/span>: Ground, Rock, Water<br><span class="message-effect-resist">Resistances<\/span>: Bug, Fairy, Fire, Grass, Ice, Steel<br><span class="message-effect-immune">Immunities<\/span>: <font color=#999999>None<\/font><\/div>
+|choice|move 1|move 2
+|
+|move|p2a: Magmar|Body Slam|p1a: Mewtwo
+|-damage|p1a: Mewtwo|211\/293
+|move|p1a: Mewtwo|Psychic|p2a: Magmar
+|-damage|p2a: Magmar|218\/300
+|
+|turn|30
+|choice|move 1|move 2
+|
+|move|p2a: Magmar|Body Slam|p1a: Mewtwo
+|-damage|p1a: Mewtwo|136\/293
+|move|p1a: Mewtwo|Psychic|p2a: Magmar|[miss]
+|-miss|p1a: Mewtwo
+|
+|turn|31
+|choice|move 1|move 2
+|
+|move|p2a: Magmar|Body Slam|p1a: Mewtwo
+|-crit|p1a: Mewtwo
+|-damage|p1a: Mewtwo|0 fnt
+|faint|p1a: Mewtwo
+|
+|win|MALESANI
+|raw|xLmu's rating: 1182 &rarr; <strong>1158<\/strong><br \/>(-24 for losing)
+|raw|MALESANI's rating: 1200 &rarr; <strong>1224<\/strong><br \/>(+24 for winning)

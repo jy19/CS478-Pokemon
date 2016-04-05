@@ -1,0 +1,329 @@
+﻿|J|marcoasd
+|J|I love pochama
+|player|p1|marcoasd|2
+|player|p2|I love pochama|32
+|gametype|singles
+|gen|1
+|tier|[Gen 1] RU
+|seed|5704,20519,8419,18839
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Exeggcute|Exeggcute|323\/323
+|switch|p2a: Mr. Mime|Mr. Mime|283\/283
+|turn|1
+|choice|move 1|move 4
+|
+|move|p2a: Mr. Mime|Thunder Wave|p1a: Exeggcute
+|-status|p1a: Exeggcute|par
+|cant|p1a: Exeggcute|par
+|
+|turn|2
+|choice|move 1|move 2
+|
+|move|p2a: Mr. Mime|Seismic Toss|p1a: Exeggcute
+|-damage|p1a: Exeggcute|223\/323 par
+|cant|p1a: Exeggcute|par
+|
+|turn|3
+|choice|move 1|move 1
+|
+|move|p2a: Mr. Mime|Psychic|p1a: Exeggcute
+|-resisted|p1a: Exeggcute
+|-damage|p1a: Exeggcute|148\/323 par
+|move|p1a: Exeggcute|Sleep Powder|p2a: Mr. Mime
+|-status|p2a: Mr. Mime|slp
+|
+|turn|4
+|choice|move 4|switch 3
+|
+|switch|p2a: Clefable|Clefable|393\/393
+|cant|p1a: Exeggcute|par
+|
+|turn|5
+|c|★marcoasd|dio canmerda
+|choice|switch 4|move 3
+|
+|switch|p1a: Vaporeon|Vaporeon|463\/463
+|move|p2a: Clefable|Blizzard|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|422\/463
+|
+|turn|6
+|choice|move 3|move 2
+|
+|move|p1a: Vaporeon|Blizzard|p2a: Clefable
+|-damage|p2a: Clefable|285\/393
+|move|p2a: Clefable|Body Slam|p1a: Vaporeon
+|-damage|p1a: Vaporeon|322\/463
+|-status|p1a: Vaporeon|par
+|
+|turn|7
+|choice|move 3|switch 2
+|
+|switch|p2a: Electabuzz|Electabuzz|333\/333
+|move|p1a: Vaporeon|Blizzard|p2a: Electabuzz
+|-damage|p2a: Electabuzz|228\/333
+|
+|turn|8
+|choice|switch 6|switch 4
+|
+|switch|p2a: Venusaur|Venusaur|363\/363
+|switch|p1a: Electabuzz|Electabuzz|333\/333
+|
+|turn|9
+|choice|move 2|switch 5
+|
+|switch|p2a: Dugtrio|Dugtrio|273\/273
+|move|p1a: Electabuzz|Thunder Wave|p2a: Dugtrio
+|-immune|p2a: Dugtrio|[msg]
+|
+|turn|10
+|choice|switch 3|move 1
+|
+|switch|p1a: Venusaur|Venusaur|363\/363
+|move|p2a: Dugtrio|Earthquake|p1a: Venusaur
+|-crit|p1a: Venusaur
+|-damage|p1a: Venusaur|134\/363
+|
+|turn|11
+|choice|move 4|switch 6
+|
+|switch|p2a: Pinsir|Pinsir|333\/333
+|move|p1a: Venusaur|Body Slam|p2a: Pinsir
+|-crit|p2a: Pinsir
+|-damage|p2a: Pinsir|227\/333
+|
+|turn|12
+|choice|move 4|move 1
+|
+|move|p2a: Pinsir|Swords Dance|p2a: Pinsir
+|-boost|p2a: Pinsir|atk|2
+|move|p1a: Venusaur|Body Slam|p2a: Pinsir
+|-crit|p2a: Pinsir
+|-damage|p2a: Pinsir|116\/333
+|-status|p2a: Pinsir|par
+|
+|turn|13
+|choice|move 3|move 2
+|
+|move|p1a: Venusaur|Swords Dance|p1a: Venusaur
+|-boost|p1a: Venusaur|atk|2
+|move|p2a: Pinsir|Body Slam|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|choice|switch 5|
+|
+|switch|p1a: Mr. Mime|Mr. Mime|283\/283
+|turn|14
+|choice|move 2|switch 4
+|
+|switch|p2a: Electabuzz|Electabuzz|228\/333
+|move|p1a: Mr. Mime|Psychic|p2a: Electabuzz
+|-crit|p2a: Electabuzz
+|-damage|p2a: Electabuzz|0 fnt
+|faint|p2a: Electabuzz
+|choice||switch 2
+|
+|switch|p2a: Clefable|Clefable|285\/393
+|turn|15
+|choice|switch 4|move 2
+|
+|switch|p1a: Exeggcute|Exeggcute|148\/323 par
+|move|p2a: Clefable|Body Slam|p1a: Exeggcute
+|-damage|p1a: Exeggcute|55\/323 par
+|
+|turn|16
+|choice|move 4|move 2
+|
+|move|p2a: Clefable|Body Slam|p1a: Exeggcute
+|-damage|p1a: Exeggcute|0 fnt
+|faint|p1a: Exeggcute
+|choice|switch 2|
+|
+|switch|p1a: Clefable|Clefable|393\/393
+|turn|17
+|choice|move 2|move 2
+|
+|move|p1a: Clefable|Blizzard|p2a: Clefable
+|-damage|p2a: Clefable|192\/393
+|move|p2a: Clefable|Body Slam|p1a: Clefable
+|-crit|p1a: Clefable
+|-damage|p1a: Clefable|217\/393
+|
+|turn|18
+|choice|move 3|move 1
+|
+|move|p1a: Clefable|Thunderbolt|p2a: Clefable
+|-damage|p2a: Clefable|121\/393
+|move|p2a: Clefable|Counter|p1a: Clefable
+|-fail|p2a: Clefable
+|
+|turn|19
+|choice|move 2|switch 5
+|
+|switch|p2a: Venusaur|Venusaur|363\/363
+|move|p1a: Clefable|Blizzard|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|183\/363
+|
+|turn|20
+|choice|switch 6|move 1
+|
+|switch|p1a: Vaporeon|Vaporeon|322\/463 par
+|move|p2a: Venusaur|Sleep Powder|p1a: Vaporeon
+|-fail|p1a: Vaporeon
+|
+|turn|21
+|choice|move 3|move 4
+|
+|move|p2a: Venusaur|Razor Leaf|p1a: Vaporeon
+|-crit|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|79\/463 par
+|cant|p1a: Vaporeon|par
+|
+|turn|22
+|choice|move 3|move 4
+|
+|move|p2a: Venusaur|Razor Leaf|p1a: Vaporeon
+|-crit|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|choice|switch 4|
+|
+|switch|p1a: Mr. Mime|Mr. Mime|283\/283
+|turn|23
+|choice|move 2|switch 4
+|
+|switch|p2a: Pinsir|Pinsir|116\/333 par
+|move|p1a: Mr. Mime|Psychic|p2a: Pinsir
+|-damage|p2a: Pinsir|0 fnt
+|faint|p2a: Pinsir
+|choice||switch 6
+|
+|switch|p2a: Dugtrio|Dugtrio|273\/273
+|turn|24
+|choice|move 2|move 1
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|159\/283
+|move|p1a: Mr. Mime|Psychic|p2a: Dugtrio
+|-damage|p2a: Dugtrio|149\/273
+|
+|turn|25
+|c|★I love pochama|I have about 20 teams on here btw so
+|c|★I love pochama|we have a lot to test
+|choice|move 2|move 1
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|28\/283
+|move|p1a: Mr. Mime|Psychic|p2a: Dugtrio
+|-damage|p2a: Dugtrio|23\/273
+|-unboost|p2a: Dugtrio|spd|1
+|-unboost|p2a: Dugtrio|spa|1
+|
+|turn|26
+|choice|switch 6|move 1
+|
+|switch|p1a: Clefable|Clefable|217\/393
+|move|p2a: Dugtrio|Earthquake|p1a: Clefable
+|-damage|p1a: Clefable|96\/393
+|
+|turn|27
+|choice|move 4|move 1
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|choice|switch 3|
+|
+|switch|p1a: Electabuzz|Electabuzz|333\/333
+|turn|28
+|c|★marcoasd|well gg
+|choice|move 4|switch 3
+|
+|switch|p2a: Mr. Mime|Mr. Mime|283\/283 slp
+|move|p1a: Electabuzz|Seismic Toss|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|183\/283 slp
+|
+|turn|29
+|c|★I love pochama|gg
+|choice|move 1|move 3
+|
+|move|p1a: Electabuzz|Thunderbolt|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|73\/283 slp
+|cant|p2a: Mr. Mime|slp
+|
+|turn|30
+|choice|move 4|move 3
+|
+|move|p1a: Electabuzz|Seismic Toss|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|0 fnt
+|faint|p2a: Mr. Mime
+|choice||switch 5
+|
+|switch|p2a: Clefable|Clefable|121\/393
+|turn|31
+|choice|move 1|move 2
+|
+|move|p1a: Electabuzz|Thunderbolt|p2a: Clefable
+|-damage|p2a: Clefable|9\/393
+|move|p2a: Clefable|Body Slam|p1a: Electabuzz
+|-damage|p1a: Electabuzz|213\/333
+|
+|turn|32
+|choice|move 4|move 2
+|
+|move|p1a: Electabuzz|Seismic Toss|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|choice||switch 4
+|
+|switch|p2a: Venusaur|Venusaur|183\/363
+|turn|33
+|choice|move 3|move 4
+|
+|move|p1a: Electabuzz|Psychic|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|54\/363
+|-unboost|p2a: Venusaur|spd|1
+|-unboost|p2a: Venusaur|spa|1
+|move|p2a: Venusaur|Razor Leaf|p1a: Electabuzz
+|-crit|p1a: Electabuzz
+|-damage|p1a: Electabuzz|81\/333
+|
+|turn|34
+|choice|move 3|move 4
+|
+|move|p1a: Electabuzz|Psychic|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|faint|p2a: Venusaur
+|choice||switch 3
+|
+|switch|p2a: Dugtrio|Dugtrio|23\/273
+|turn|35
+|choice|move 3|move 1
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Electabuzz
+|-supereffective|p1a: Electabuzz
+|-damage|p1a: Electabuzz|0 fnt
+|faint|p1a: Electabuzz
+|choice|switch 6|
+|
+|switch|p1a: Mr. Mime|Mr. Mime|28\/283
+|turn|36
+|choice|move 2|move 1
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|0 fnt
+|faint|p1a: Mr. Mime
+|
+|win|I love pochama

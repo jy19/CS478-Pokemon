@@ -1,0 +1,212 @@
+﻿|join|poopyface5000
+|join|Youngster Joey44
+|player|p1|poopyface5000|56
+|player|p2|Youngster Joey44|3
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|2111,61419,23358,27301
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Scyther|Scyther, L90|309\/309
+|switch|p2a: Raticate|Raticate, L85|267\/267
+|turn|1
+|choice|switch 6|move 1
+|
+|switch|p1a: Gengar|Gengar, L79|257\/257
+|move|p2a: Raticate|Super Fang|p1a: Gengar
+|-damage|p1a: Gengar|129\/257
+|
+|turn|2
+|choice|move 3|move 1
+|
+|move|p1a: Gengar|Mega Drain|p2a: Raticate
+|-damage|p2a: Raticate|222\/267
+|-heal|p1a: Gengar|151\/257|[from] drain|[of] p2a: Raticate
+|move|p2a: Raticate|Super Fang|p1a: Gengar
+|-damage|p1a: Gengar|76\/257
+|
+|turn|3
+|choice|move 1|switch 3
+|
+|switch|p2a: Alakazam|Alakazam, L79|249\/249
+|move|p1a: Gengar|Hypnosis|p2a: Alakazam|[miss]
+|-miss|p1a: Gengar
+|
+|turn|4
+|choice|move 1|move 1
+|
+|move|p2a: Alakazam|Psychic|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|c|★poopyface5000|!weakness alakazam
+|raw|<div class="infobox">Alakazam (ignoring abilities):<br><span class="message-effect-weak">Weaknesses<\/span>: Bug, Dark, Ghost<br><span class="message-effect-resist">Resistances<\/span>: Fighting, Psychic<br><span class="message-effect-immune">Immunities<\/span>: <font color=#999999>None<\/font><\/div>
+|choice|switch 6|
+|
+|switch|p1a: Scyther|Scyther, L90|309\/309
+|turn|5
+|choice|move 2|move 2
+|
+|move|p1a: Scyther|Agility|p1a: Scyther
+|-boost|p1a: Scyther|spe|2
+|move|p2a: Alakazam|Reflect|p2a: Alakazam
+|-start|p2a: Alakazam|Reflect
+|
+|turn|6
+|choice|move 3|move 1
+|
+|move|p1a: Scyther|Slash|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-damage|p2a: Alakazam|73\/249
+|move|p2a: Alakazam|Psychic|p1a: Scyther
+|-damage|p1a: Scyther|187\/309
+|
+|turn|7
+|choice|move 3|move 1
+|
+|move|p1a: Scyther|Slash|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|choice||switch 2
+|
+|switch|p2a: Dewgong|Dewgong, L85|327\/327
+|turn|8
+|choice|switch 4|move 2
+|
+|switch|p1a: Dragonite|Dragonite, L85|328\/328
+|move|p2a: Dewgong|Blizzard|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|choice|switch 3|
+|
+|switch|p1a: Nidorina|Nidorina, L90|309\/309
+|turn|9
+|choice|move 2|move 2
+|
+|move|p2a: Dewgong|Blizzard|p1a: Nidorina
+|-damage|p1a: Nidorina|156\/309
+|move|p1a: Nidorina|Thunder|p2a: Dewgong|[miss]
+|-miss|p1a: Nidorina
+|
+|turn|10
+|choice|move 2|move 4
+|
+|move|p2a: Dewgong|Mimic|p1a: Nidorina
+|-start|p2a: Dewgong|Mimic|Rest
+|move|p1a: Nidorina|Thunder|p2a: Dewgong
+|-supereffective|p2a: Dewgong
+|-damage|p2a: Dewgong|200\/327
+|-status|p2a: Dewgong|par
+|
+|turn|11
+|c|★Youngster Joey44|!data mimic
+|c|~|\/data-move Mimic
+
+|c|★Youngster Joey44|wth
+|c|★poopyface5000|lol
+|choice|move 2|move 2
+|
+|move|p1a: Nidorina|Thunder|p2a: Dewgong
+|-supereffective|p2a: Dewgong
+|-damage|p2a: Dewgong|74\/327 par
+|move|p2a: Dewgong|Blizzard|p1a: Nidorina
+|-damage|p1a: Nidorina|0 fnt
+|faint|p1a: Nidorina
+|choice|switch 5|
+|
+|switch|p1a: Mew|Mew, L74|300\/300
+|turn|12
+|choice|move 1|move 4
+|
+|move|p1a: Mew|Thunderbolt|p2a: Dewgong
+|-supereffective|p2a: Dewgong
+|-damage|p2a: Dewgong|0 fnt
+|faint|p2a: Dewgong
+|choice||switch 5
+|
+|switch|p2a: Persian|Persian, L79|265\/265
+|turn|13
+|choice|move 1|move 1
+|
+|move|p2a: Persian|Slash|p1a: Mew
+|-crit|p1a: Mew
+|-damage|p1a: Mew|190\/300
+|move|p1a: Mew|Thunderbolt|p2a: Persian
+|-crit|p2a: Persian
+|-damage|p2a: Persian|134\/265
+|
+|turn|14
+|choice|move 1|move 4
+|
+|move|p2a: Persian|Hyper Beam|p1a: Mew
+|-crit|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|choice|switch 4|
+|
+|switch|p1a: Scyther|Scyther, L90|187\/309
+|turn|15
+|choice|move 1|move 3
+|
+|move|p1a: Scyther|Hyper Beam|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|faint|p2a: Persian
+|choice||switch 6
+|
+|switch|p2a: Dragonite|Dragonite, L85|328\/328
+|turn|16
+|choice|move 1|move 2
+|
+|move|p1a: Scyther|Hyper Beam|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-damage|p2a: Dragonite|68\/328
+|move|p2a: Dragonite|Agility|p2a: Dragonite
+|-boost|p2a: Dragonite|spe|2
+|
+|turn|17
+|-mustrecharge|p1a: Scyther
+|-mustrecharge|p1a: Scyther
+|choice|move 1|move 4
+|
+|move|p2a: Dragonite|Blizzard|p1a: Scyther
+|-crit|p1a: Scyther
+|-supereffective|p1a: Scyther
+|-damage|p1a: Scyther|0 fnt
+|faint|p1a: Scyther
+|choice|switch 2|
+|
+|switch|p1a: Golduck|Golduck, L85|310\/310
+|turn|18
+|choice|move 4|move 1
+|
+|move|p2a: Dragonite|Hyper Beam|p1a: Golduck
+|-damage|p1a: Golduck|164\/310
+|move|p1a: Golduck|Ice Beam|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|choice||switch 3
+|
+|switch|p2a: Raticate|Raticate, L85|222\/267
+|turn|19
+|choice|move 4|move 3
+|
+|move|p2a: Raticate|Hyper Beam|p1a: Golduck
+|-crit|p1a: Golduck
+|-damage|p1a: Golduck|0 fnt
+|faint|p1a: Golduck
+|
+|win|Youngster Joey44
+|c|★poopyface5000|gg
+|c|★Youngster Joey44|gg
+|leave|poopyface5000
+|player|p1
+|raw|poopyface5000's rating: 1197 &rarr; <strong>1165<\/strong><br \/>(-32 for losing)
+|raw|Youngster Joey44's rating: 1094 &rarr; <strong>1127<\/strong><br \/>(+33 for winning)

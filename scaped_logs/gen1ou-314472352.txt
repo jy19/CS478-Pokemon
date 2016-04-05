@@ -1,0 +1,660 @@
+﻿|j|Whoremaster
+|j|shadowist
+|player|p1|Whoremaster|43
+|player|p2|shadowist|269
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|seed|24071,25351,37088,39806
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333\/333
+|switch|p2a: Jynx|Jynx|333\/333
+|turn|1
+|choice|move 1|move 1
+|
+|move|p2a: Jynx|Lovely Kiss|p1a: Jynx
+|-status|p1a: Jynx|slp
+|-curestatus|p1a: Jynx|slp
+|
+|turn|2
+|choice|switch 3|move 1
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|move|p2a: Jynx|Lovely Kiss|p1a: Alakazam|[miss]
+|-miss|p2a: Jynx
+|
+|turn|3
+|choice|move 2|switch 3
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Alakazam|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|turn|4
+|choice|switch 4|move 4
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|cant|p2a: Chansey|par
+|
+|turn|5
+|choice|switch 3|move 4
+|
+|switch|p1a: Jynx|Jynx|333\/333
+|move|p2a: Chansey|Ice Beam|p1a: Jynx
+|-resisted|p1a: Jynx
+|-damage|p1a: Jynx|291\/333
+|
+|turn|6
+|choice|move 3|move 1
+|
+|move|p1a: Jynx|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|605\/703 par
+|move|p2a: Chansey|Thunder Wave|p1a: Jynx
+|-status|p1a: Jynx|par
+|
+|turn|7
+|choice|move 2|switch 6
+|
+|switch|p2a: Slowbro|Slowbro|393\/393
+|move|p1a: Jynx|Blizzard|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|312\/393
+|
+|turn|8
+|choice|switch 4|move 1
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|9
+|choice|switch 3|move 3
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Slowbro|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|turn|10
+|choice|move 2|move 1
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|move|p1a: Chansey|Thunderbolt|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|249\/393
+|-status|p2a: Slowbro|par
+|
+|turn|11
+|choice|move 2|move 1
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|cant|p1a: Chansey|par
+|
+|turn|12
+|choice|move 2|move 2
+|
+|move|p2a: Slowbro|Surf|p1a: Chansey
+|-damage|p1a: Chansey|362\/703 par
+|move|p1a: Chansey|Thunderbolt|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|choice||switch 4
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|13
+|choice|move 3|move 3
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Chansey|[miss]
+|-miss|p2a: Tauros
+|move|p1a: Chansey|Counter|p2a: Tauros
+|-fail|p1a: Chansey
+|
+|turn|14
+|choice|switch 5|move 4
+|
+|switch|p1a: Golem|Golem|363\/363
+|move|p2a: Tauros|Blizzard|p1a: Golem
+|-crit|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|0 fnt
+|faint|p1a: Golem
+|c|★Whoremaster|o shit
+|choice|switch 5|
+|
+|switch|p1a: Chansey|Chansey|362\/703 par
+|turn|15
+|choice|move 2|move 3
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|choice|switch 6|
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|16
+|choice|move 1|switch 5
+|
+|switch|p2a: Cloyster|Cloyster|303\/303
+|move|p1a: Tauros|Body Slam|p2a: Cloyster
+|-damage|p2a: Cloyster|238\/303
+|
+|turn|17
+|choice|switch 4|move 1
+|
+|switch|p1a: Jynx|Jynx|291\/333 par
+|move|p2a: Cloyster|Blizzard|p1a: Jynx
+|-resisted|p1a: Jynx
+|-damage|p1a: Jynx|230\/333 par
+|
+|turn|18
+|choice|move 1|switch 6
+|
+|switch|p2a: Chansey|Chansey|605\/703 par
+|move|p1a: Jynx|Lovely Kiss|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|19
+|choice|move 2|move 3
+|
+|move|p1a: Jynx|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|482\/703 par
+|move|p2a: Chansey|Thunderbolt|p1a: Jynx
+|-damage|p1a: Jynx|146\/333 par
+|
+|turn|20
+|choice|move 2|move 2
+|
+|move|p1a: Jynx|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|353\/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703 par
+|
+|turn|21
+|choice|move 4|move 3
+|
+|move|p1a: Jynx|Rest|p1a: Jynx
+|-status|p1a: Jynx|slp
+|-heal|p1a: Jynx|333\/333 slp|[silent]
+|-status|p1a: Jynx|slp|[from] move: Rest
+|move|p2a: Chansey|Thunderbolt|p1a: Jynx
+|-damage|p1a: Jynx|257\/333 slp
+|
+|turn|22
+|choice|move 4|switch 5
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|cant|p1a: Jynx|slp
+|
+|turn|23
+|choice|switch 2|move 1
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Tauros|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|278\/393
+|
+|turn|24
+|choice|move 2|switch 2
+|
+|switch|p2a: Alakazam|Alakazam|313\/313
+|move|p1a: Exeggutor|Double-Edge|p2a: Alakazam
+|-damage|p2a: Alakazam|200\/313
+|-damage|p1a: Exeggutor|250\/393|[from] recoil|[of] p2a: Alakazam
+|
+|turn|25
+|choice|move 2|switch 3
+|
+|switch|p2a: Jynx|Jynx|333\/333
+|move|p1a: Exeggutor|Double-Edge|p2a: Jynx
+|-damage|p2a: Jynx|193\/333
+|-damage|p1a: Exeggutor|215\/393|[from] recoil|[of] p2a: Jynx
+|
+|turn|26
+|choice|switch 2|move 2
+|
+|switch|p1a: Jynx|Jynx|257\/333 slp
+|move|p2a: Jynx|Blizzard|p1a: Jynx
+|-crit|p1a: Jynx
+|-resisted|p1a: Jynx
+|-damage|p1a: Jynx|120\/333 slp
+|
+|turn|27
+|choice|move 2|switch 2
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|-curestatus|p1a: Jynx|slp
+|
+|turn|28
+|choice|move 1|move 1
+|
+|move|p2a: Tauros|Body Slam|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|choice|switch 2|
+|
+|switch|p1a: Exeggutor|Exeggutor|215\/393
+|turn|29
+|choice|move 2|switch 2
+|
+|switch|p2a: Jynx|Jynx|193\/333
+|move|p1a: Exeggutor|Double-Edge|p2a: Jynx
+|-damage|p2a: Jynx|47\/333
+|-damage|p1a: Exeggutor|179\/393|[from] recoil|[of] p2a: Jynx
+|
+|turn|30
+|choice|move 2|move 1
+|
+|move|p2a: Jynx|Lovely Kiss|p1a: Exeggutor|[miss]
+|-miss|p2a: Jynx
+|move|p1a: Exeggutor|Double-Edge|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|-damage|p1a: Exeggutor|168\/393|[from] recoil|[of] p2a: Jynx
+|faint|p2a: Jynx
+|choice||switch 6
+|
+|switch|p2a: Cloyster|Cloyster|238\/303
+|turn|31
+|choice|move 1|move 1
+|
+|move|p2a: Cloyster|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|choice|switch 3|
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|turn|32
+|choice|move 2|move 3
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Cloyster
+|-status|p2a: Cloyster|par
+|cant|p2a: Cloyster|par
+|
+|turn|33
+|choice|move 3|move 3
+|
+|move|p1a: Alakazam|Reflect|p1a: Alakazam
+|-start|p1a: Alakazam|Reflect
+|move|p2a: Cloyster|Explosion|p1a: Alakazam
+|-damage|p1a: Alakazam|122\/313
+|faint|p2a: Cloyster
+|choice||switch 3
+|
+|switch|p2a: Alakazam|Alakazam|200\/313
+|turn|34
+|choice|move 4|move 4
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|cant|p1a: Alakazam|par
+|
+|turn|35
+|choice|move 4|move 3
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|22\/313 par
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|178\/313 par
+|
+|turn|36
+|choice|move 4|switch 5
+|
+|switch|p2a: Chansey|Chansey|703\/703 par
+|cant|p1a: Alakazam|par
+|
+|turn|37
+|choice|move 4|move 3
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|313\/313 par
+|move|p2a: Chansey|Thunderbolt|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|187\/313 par
+|
+|turn|38
+|choice|move 4|move 3
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|313\/313 par
+|move|p2a: Chansey|Thunderbolt|p1a: Alakazam
+|-damage|p1a: Alakazam|248\/313 par
+|
+|turn|39
+|choice|move 1|move 3
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|579\/703 par
+|move|p2a: Chansey|Thunderbolt|p1a: Alakazam
+|-damage|p1a: Alakazam|189\/313 par
+|
+|turn|40
+|choice|move 4|move 3
+|
+|cant|p1a: Alakazam|par
+|cant|p2a: Chansey|par
+|
+|turn|41
+|choice|move 4|move 3
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|313\/313 par
+|cant|p2a: Chansey|par
+|
+|turn|42
+|choice|move 1|move 3
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|461\/703 par
+|move|p2a: Chansey|Thunderbolt|p1a: Alakazam
+|-damage|p1a: Alakazam|247\/313 par
+|
+|turn|43
+|choice|move 1|move 2
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|208\/703 par
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|559\/703 par
+|
+|turn|44
+|choice|move 1|switch 5
+|
+|switch|p2a: Alakazam|Alakazam|200\/313
+|move|p1a: Alakazam|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|145\/313
+|
+|turn|45
+|choice|move 2|move 2
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|301\/313
+|move|p1a: Alakazam|Thunder Wave|p2a: Alakazam
+|-status|p2a: Alakazam|par
+|
+|turn|46
+|choice|move 4|move 1
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|313\/313 par
+|cant|p2a: Alakazam|par
+|
+|turn|47
+|choice|move 1|move 1
+|
+|move|p1a: Alakazam|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|250\/313 par
+|cant|p2a: Alakazam|par
+|
+|turn|48
+|choice|move 2|move 1
+|
+|move|p2a: Alakazam|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|261\/313 par
+|move|p1a: Alakazam|Thunder Wave|p2a: Alakazam
+|-fail|p2a: Alakazam|par
+|
+|turn|49
+|choice|move 2|move 1
+|
+|move|p2a: Alakazam|Psychic|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|164\/313 par
+|move|p1a: Alakazam|Thunder Wave|p2a: Alakazam
+|-fail|p2a: Alakazam|par
+|
+|turn|50
+|choice|move 4|move 1
+|
+|move|p2a: Alakazam|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|115\/313 par
+|cant|p1a: Alakazam|par
+|
+|turn|51
+|choice|move 4|move 1
+|
+|cant|p1a: Alakazam|par
+|cant|p2a: Alakazam|par
+|
+|turn|52
+|choice|move 4|move 1
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|271\/313 par
+|move|p2a: Alakazam|Psychic|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|170\/313 par
+|
+|turn|53
+|choice|move 4|move 1
+|
+|cant|p2a: Alakazam|par
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|313\/313 par
+|
+|turn|54
+|choice|move 1|move 1
+|
+|move|p2a: Alakazam|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|260\/313 par
+|-unboost|p1a: Alakazam|spd|1
+|-unboost|p1a: Alakazam|spa|1
+|move|p1a: Alakazam|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|215\/313 par
+|-unboost|p2a: Alakazam|spd|1
+|-unboost|p2a: Alakazam|spa|1
+|
+|turn|55
+|choice|move 1|switch 5
+|
+|switch|p2a: Chansey|Chansey|559\/703 par
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|482\/703 par
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|
+|turn|56
+|choice|move 1|switch 5
+|
+|switch|p2a: Alakazam|Alakazam|215\/313 par
+|move|p1a: Alakazam|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|183\/313 par
+|
+|turn|57
+|choice|move 1|move 2
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|313\/313 par
+|move|p1a: Alakazam|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|276\/313 par
+|-unboost|p2a: Alakazam|spd|1
+|-unboost|p2a: Alakazam|spa|1
+|
+|turn|58
+|choice|move 1|switch 5
+|
+|switch|p2a: Chansey|Chansey|482\/703 par
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|395\/703 par
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|
+|turn|59
+|choice|switch 4|move 2
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703 par
+|
+|turn|60
+|choice|switch 4|move 1
+|
+|switch|p1a: Alakazam|Alakazam|260\/313 par
+|cant|p2a: Chansey|par
+|
+|turn|61
+|choice|move 2|switch 5
+|
+|switch|p2a: Alakazam|Alakazam|276\/313 par
+|move|p1a: Alakazam|Thunder Wave|p2a: Alakazam
+|-fail|p2a: Alakazam|par
+|
+|turn|62
+|choice|move 3|move 1
+|
+|move|p1a: Alakazam|Reflect|p1a: Alakazam
+|-start|p1a: Alakazam|Reflect
+|move|p2a: Alakazam|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|206\/313 par
+|-unboost|p1a: Alakazam|spd|1
+|-unboost|p1a: Alakazam|spa|1
+|
+|turn|63
+|choice|move 1|move 1
+|
+|move|p2a: Alakazam|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|125\/313 par
+|move|p1a: Alakazam|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|239\/313 par
+|-unboost|p2a: Alakazam|spd|1
+|-unboost|p2a: Alakazam|spa|1
+|
+|turn|64
+|choice|move 4|switch 5
+|
+|switch|p2a: Chansey|Chansey|703\/703 par
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|281\/313 par
+|
+|turn|65
+|choice|move 1|move 3
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Alakazam
+|-damage|p1a: Alakazam|182\/313 par
+|cant|p1a: Alakazam|par
+|
+|turn|66
+|choice|move 4|move 3
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Alakazam
+|-damage|p1a: Alakazam|90\/313 par
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|246\/313 par
+|
+|turn|67
+|choice|move 1|move 3
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Alakazam
+|-damage|p1a: Alakazam|148\/313 par
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|452\/703 par
+|
+|turn|68
+|choice|move 4|move 3
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Alakazam
+|-damage|p1a: Alakazam|55\/313 par
+|cant|p1a: Alakazam|par
+|
+|turn|69
+|choice|move 4|move 3
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|choice|switch 4|
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|70
+|choice|move 1|switch 2
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|162\/353
+|
+|turn|71
+|choice|move 4|move 1
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|choice||switch 5
+|
+|switch|p2a: Alakazam|Alakazam|239\/313 par
+|turn|72
+|choice|move 1|move 4
+|
+|move|p1a: Tauros|Body Slam|p2a: Alakazam
+|-damage|p2a: Alakazam|91\/313 par
+|cant|p2a: Alakazam|par
+|
+|turn|73
+|choice|move 4|move 4
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Alakazam|[miss]
+|-miss|p1a: Tauros
+|move|p2a: Alakazam|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|
+|turn|74
+|choice|move 4|move 2
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|247\/313 par
+|move|p1a: Tauros|Hyper Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|c|★Whoremaster|:'(
+|choice||switch 2
+|
+|switch|p2a: Chansey|Chansey|452\/703 par
+|turn|75
+|choice|move 1|move 3
+|
+|cant|p1a: Tauros|par
+|move|p2a: Chansey|Thunderbolt|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|152\/353 par
+|
+|turn|76
+|choice|move 4|move 3
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|win|Whoremaster
+|raw|Whoremaster's rating: 1207 &rarr; <strong>1236<\/strong><br \/>(+29 for winning)
+|raw|shadowist's rating: 1270 &rarr; <strong>1241<\/strong><br \/>(-29 for losing)
+|c|★Whoremaster|gg

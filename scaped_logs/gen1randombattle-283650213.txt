@@ -1,0 +1,198 @@
+﻿|join|Dervodel
+|join|Clarineteer
+|player|p1|Dervodel|238
+|player|p2|Clarineteer|262
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Beedrill|Beedrill, L90|300\/300
+|switch|p2a: Tangela|Tangela, L85|284\/284
+|turn|1
+|
+|switch|p2a: Rapidash|Rapidash, L90|300\/300
+|move|p1a: Beedrill|Swords Dance|p1a: Beedrill
+|-boost|p1a: Beedrill|atk|2
+|
+|turn|2
+|
+|move|p2a: Rapidash|Fire Blast|p1a: Beedrill
+|-supereffective|p1a: Beedrill
+|-damage|p1a: Beedrill|0 fnt
+|faint|p1a: Beedrill
+|
+|switch|p1a: Omastar|Omastar, L90|309\/309
+|turn|3
+|
+|switch|p2a: Tangela|Tangela, L85|284\/284
+|move|p1a: Omastar|Blizzard|p2a: Tangela
+|-supereffective|p2a: Tangela
+|-damage|p2a: Tangela|102\/284
+|
+|turn|4
+|
+|move|p1a: Omastar|Blizzard|p2a: Tangela
+|-crit|p2a: Tangela
+|-supereffective|p2a: Tangela
+|-damage|p2a: Tangela|0 fnt
+|faint|p2a: Tangela
+|
+|switch|p2a: Primeape|Primeape, L90|300\/300
+|turn|5
+|
+|switch|p1a: Mewtwo|Mewtwo, L68|285\/285
+|move|p2a: Primeape|Submission|p1a: Mewtwo
+|-resisted|p1a: Mewtwo
+|-damage|p1a: Mewtwo|226\/285
+|-damage|p2a: Primeape|286\/300|[from] recoil|[of] p1a: Mewtwo
+|
+|turn|6
+|
+|switch|p2a: Rapidash|Rapidash, L90|300\/300
+|move|p1a: Mewtwo|Amnesia|p1a: Mewtwo
+|-boost|p1a: Mewtwo|spd|2
+|-boost|p1a: Mewtwo|spa|2
+|
+|turn|7
+|
+|move|p2a: Rapidash|Fire Blast|p1a: Mewtwo
+|-crit|p1a: Mewtwo
+|-damage|p1a: Mewtwo|13\/285
+|move|p1a: Mewtwo|Psychic|p2a: Rapidash
+|-crit|p2a: Rapidash
+|-damage|p2a: Rapidash|141\/300
+|
+|turn|8
+|c|★Dervodel|how lucky
+|
+|move|p2a: Rapidash|Body Slam|p1a: Mewtwo
+|-damage|p1a: Mewtwo|0 fnt
+|faint|p1a: Mewtwo
+|
+|switch|p1a: Fearow|Fearow, L90|300\/300
+|turn|9
+|
+|move|p2a: Rapidash|Fire Blast|p1a: Fearow
+|-damage|p1a: Fearow|162\/300
+|move|p1a: Fearow|Double-Edge|p2a: Rapidash
+|-damage|p2a: Rapidash|23\/300
+|-damage|p1a: Fearow|133\/300|[from] recoil|[of] p2a: Rapidash
+|
+|turn|10
+|
+|move|p2a: Rapidash|Fire Blast|p1a: Fearow
+|-damage|p1a: Fearow|0 fnt
+|faint|p1a: Fearow
+|
+|switch|p1a: Omastar|Omastar, L90|309\/309
+|turn|11
+|
+|switch|p2a: Primeape|Primeape, L90|286\/300
+|move|p1a: Omastar|Surf|p2a: Primeape
+|-damage|p2a: Primeape|138\/300
+|
+|turn|12
+|
+|switch|p1a: Nidorina|Nidorina, L90|309\/309
+|move|p2a: Primeape|Submission|p1a: Nidorina
+|-crit|p1a: Nidorina
+|-resisted|p1a: Nidorina
+|-damage|p1a: Nidorina|207\/309
+|-damage|p2a: Primeape|113\/300|[from] recoil|[of] p1a: Nidorina
+|
+|turn|13
+|
+|move|p2a: Primeape|Rock Slide|p1a: Nidorina
+|-crit|p1a: Nidorina
+|-damage|p1a: Nidorina|73\/309
+|move|p1a: Nidorina|Body Slam|p2a: Primeape
+|-damage|p2a: Primeape|48\/300
+|-status|p2a: Primeape|par
+|
+|turn|14
+|
+|move|p1a: Nidorina|Body Slam|p2a: Primeape
+|-crit|p2a: Primeape
+|-damage|p2a: Primeape|0 fnt
+|faint|p2a: Primeape
+|
+|switch|p2a: Rapidash|Rapidash, L90|23\/300
+|turn|15
+|
+|switch|p1a: Omastar|Omastar, L90|309\/309
+|move|p2a: Rapidash|Fire Blast|p1a: Omastar
+|-resisted|p1a: Omastar
+|-damage|p1a: Omastar|283\/309
+|-status|p1a: Omastar|brn
+|
+|turn|16
+|
+|switch|p2a: Pinsir|Pinsir, L85|284\/284
+|move|p1a: Omastar|Surf|p2a: Pinsir
+|-damage|p2a: Pinsir|126\/284
+|-damage|p1a: Omastar|264\/309 brn|[from] brn|[of] p2a: Pinsir
+|
+|turn|17
+|
+|move|p2a: Pinsir|Submission|p1a: Omastar
+|-supereffective|p1a: Omastar
+|-damage|p1a: Omastar|158\/309 brn
+|-damage|p2a: Pinsir|100\/284|[from] recoil|[of] p1a: Omastar
+|move|p1a: Omastar|Surf|p2a: Pinsir
+|-damage|p2a: Pinsir|0 fnt
+|faint|p2a: Pinsir
+|
+|switch|p2a: Raticate|Raticate, L85|267\/267
+|turn|18
+|
+|move|p2a: Raticate|Blizzard|p1a: Omastar
+|-crit|p1a: Omastar
+|-resisted|p1a: Omastar
+|-damage|p1a: Omastar|111\/309 brn
+|move|p1a: Omastar|Rest|p1a: Omastar
+|-status|p1a: Omastar|slp
+|-heal|p1a: Omastar|309\/309 slp|[silent]
+|-status|p1a: Omastar|slp|[from] move: Rest
+|
+|turn|19
+|
+|move|p2a: Raticate|Super Fang|p1a: Omastar
+|-damage|p1a: Omastar|155\/309 slp
+|cant|p1a: Omastar|slp
+|
+|turn|20
+|
+|move|p2a: Raticate|Body Slam|p1a: Omastar
+|-resisted|p1a: Omastar
+|-damage|p1a: Omastar|125\/309 slp
+|-curestatus|p1a: Omastar|slp
+|
+|turn|21
+|
+|move|p2a: Raticate|Body Slam|p1a: Omastar
+|-resisted|p1a: Omastar
+|-damage|p1a: Omastar|97\/309
+|move|p1a: Omastar|Surf|p2a: Raticate
+|-damage|p2a: Raticate|80\/267
+|
+|turn|22
+|
+|move|p2a: Raticate|Hyper Beam|p1a: Omastar
+|-crit|p1a: Omastar
+|-resisted|p1a: Omastar
+|-damage|p1a: Omastar|0 fnt
+|faint|p1a: Omastar
+|c|★Dervodel|fuck off
+|-message|Dervodel forfeited.
+|
+|win|Clarineteer
+|leave|Dervodel
+|player|p1
+|raw|Dervodel's rating: 1345 &rarr; <strong>1321<\/strong><br \/>(-24 for losing)
+|raw|Clarineteer's rating: 1279 &rarr; <strong>1308<\/strong><br \/>(+29 for winning)
+|c|★Clarineteer|That wasn't very nice

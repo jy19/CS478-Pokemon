@@ -1,0 +1,179 @@
+﻿|j|heirdragonair
+|j|Jimmm
+|player|p1|heirdragonair|104
+|player|p2|Jimmm|2
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|28263,30571,41461,58501
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Vaporeon|Vaporeon, L85|395\/395
+|switch|p2a: Snorlax|Snorlax, L79|415\/415
+|turn|1
+|choice|switch 5|move 1
+|
+|switch|p1a: Primeape|Primeape, L90|300\/300
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|
+|turn|2
+|choice|move 3|switch 3
+|
+|switch|p2a: Tentacool|Tentacool, L96|272\/272
+|move|p1a: Primeape|Submission|p2a: Tentacool
+|-crit|p2a: Tentacool
+|-resisted|p2a: Tentacool
+|-damage|p2a: Tentacool|140\/272
+|-damage|p1a: Primeape|267\/300|[from] recoil|[of] p2a: Tentacool
+|
+|turn|3
+|choice|move 1|move 3
+|
+|move|p1a: Primeape|Hyper Beam|p2a: Tentacool
+|-crit|p2a: Tentacool
+|-damage|p2a: Tentacool|0 fnt
+|faint|p2a: Tentacool
+|choice||switch 6
+|
+|switch|p2a: Electrode|Electrode, L90|291\/291
+|turn|4
+|choice|switch 3|move 4
+|
+|switch|p1a: Sandslash|Sandslash, L85|301\/301
+|move|p2a: Electrode|Reflect|p2a: Electrode
+|-start|p2a: Electrode|Reflect
+|
+|turn|5
+|choice|move 1|move 3
+|
+|move|p2a: Electrode|Screech|p1a: Sandslash
+|-unboost|p1a: Sandslash|def|2
+|move|p1a: Sandslash|Earthquake|p2a: Electrode
+|-supereffective|p2a: Electrode
+|-damage|p2a: Electrode|170\/291
+|
+|turn|6
+|choice|move 2|switch 4
+|
+|switch|p2a: Paras|Paras, L96|262\/262
+|move|p1a: Sandslash|Swords Dance|p1a: Sandslash
+|-boost|p1a: Sandslash|atk|2
+|
+|turn|7
+|choice|move 4|move 2
+|
+|move|p1a: Sandslash|Hyper Beam|p2a: Paras
+|-damage|p2a: Paras|0 fnt
+|faint|p2a: Paras
+|choice||switch 4
+|
+|switch|p2a: Electrode|Electrode, L90|170\/291
+|turn|8
+|choice|move 1|move 1
+|
+|move|p2a: Electrode|Explosion|p1a: Sandslash
+|-crit|p1a: Sandslash
+|-damage|p1a: Sandslash|2\/301
+|faint|p2a: Electrode
+|c|★Jimmm|what how
+|choice||switch 5
+|
+|switch|p2a: Dragonair|Dragonair, L85|277\/277
+|turn|9
+|choice|move 4|move 4
+|
+|move|p2a: Dragonair|Hyper Beam|p1a: Sandslash
+|-damage|p1a: Sandslash|0 fnt
+|faint|p1a: Sandslash
+|c|★heirdragonair|by all accounts it doesn't make sense
+|choice|switch 6|
+|
+|switch|p1a: Jynx|Jynx, L79|265\/265
+|turn|10
+|choice|move 1|move 4
+|
+|move|p1a: Jynx|Blizzard|p2a: Dragonair
+|-supereffective|p2a: Dragonair
+|-damage|p2a: Dragonair|22\/277
+|move|p2a: Dragonair|Hyper Beam|p1a: Jynx
+|-crit|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|choice|switch 5|
+|
+|switch|p1a: Vaporeon|Vaporeon, L85|395\/395
+|turn|11
+|choice|move 1|move 3
+|
+|move|p2a: Dragonair|Thunderbolt|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|292\/395
+|move|p1a: Vaporeon|Blizzard|p2a: Dragonair
+|-crit|p2a: Dragonair
+|-supereffective|p2a: Dragonair
+|-damage|p2a: Dragonair|0 fnt
+|faint|p2a: Dragonair
+|choice||switch 3
+|
+|switch|p2a: Snorlax|Snorlax, L79|415\/415
+|turn|12
+|choice|switch 3|move 1
+|
+|switch|p1a: Primeape|Primeape, L90|267\/300
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|
+|turn|13
+|choice|move 3|move 3
+|
+|move|p1a: Primeape|Submission|p2a: Snorlax
+|-supereffective|p2a: Snorlax
+|-damage|p2a: Snorlax|150\/415
+|-damage|p1a: Primeape|201\/300|[from] recoil|[of] p2a: Snorlax
+|move|p2a: Snorlax|Thunderbolt|p1a: Primeape
+|-damage|p1a: Primeape|101\/300
+|
+|turn|14
+|choice|move 3|move 3
+|
+|move|p1a: Primeape|Submission|p2a: Snorlax
+|-supereffective|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|-damage|p1a: Primeape|64\/300|[from] recoil|[of] p2a: Snorlax
+|faint|p2a: Snorlax
+|choice||switch 2
+|
+|switch|p2a: Slowbro|Slowbro, L79|312\/312
+|turn|15
+|choice|switch 4|move 4
+|
+|switch|p1a: Mew|Mew, L74|300\/300
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|16
+|choice|move 4|move 3
+|
+|move|p1a: Mew|Fissure|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|-ohko
+|faint|p2a: Slowbro
+|
+|win|heirdragonair
+|player|p1
+|player|p2
+|raw|heirdragonair's rating: 1031 &rarr; <strong>1079<\/strong><br \/>(+48 for winning)
+|raw|Jimmm's rating: 1157 &rarr; <strong>1123<\/strong><br \/>(-34 for losing)
+|c|★Jimmm|fuck fissure
+|c|★Jimmm|damn
+|c|★heirdragonair|the hax god has blessed me
+|l|heirdragonair
+|j|heirdragonair

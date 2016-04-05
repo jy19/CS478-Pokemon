@@ -1,0 +1,358 @@
+﻿|J|KristophV
+|J|Disaster Area
+|player|p1|KristophV|kristophv.png
+|player|p2|Disaster Area|32
+|gametype|singles
+|gen|1
+|tier|Violet Version
+|clearpoke
+|poke|p1|Jynx
+|poke|p1|Electabuzz
+|poke|p1|Hypno
+|poke|p1|Tauros
+|poke|p1|Starmie
+|poke|p1|Dragonite
+|poke|p2|Muk
+|poke|p2|Parasect
+|poke|p2|Ninetales
+|poke|p2|Cloyster
+|poke|p2|Primeape
+|poke|p2|Golem
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|c|★Disaster Area|this and then one more team
+|c|★Disaster Area|ah I see a team
+|c|★Disaster Area|you've used before
+|c|★Disaster Area|:P
+|c|★Disaster Area|interesting choices on my end?
+|c|★KristophV|primeape is new
+|
+|start
+|switch|p1a: Jynx|Jynx|333\/333
+|switch|p2a: Ninetales|Ninetales|349\/349
+|turn|1
+|c|★Disaster Area|:]
+|c|★KristophV|and muk of course
+|
+|switch|p1a: Hypno|Hypno|373\/373
+|move|p2a: Ninetales|Fire Blast|p1a: Hypno
+|-crit|p1a: Hypno
+|-damage|p1a: Hypno|117\/373
+|
+|turn|2
+|c|★Disaster Area|^_^
+|c|★Disaster Area|DAMAGE
+|
+|switch|p2a: Parasect|Parasect|383\/383
+|switch|p1a: Starmie|Starmie|323\/323
+|
+|turn|3
+|
+|move|p1a: Starmie|Blizzard|p2a: Parasect
+|-supereffective|p2a: Parasect
+|-damage|p2a: Parasect|172\/383
+|move|p2a: Parasect|Spore|p1a: Starmie
+|-status|p1a: Starmie|slp
+|
+|turn|4
+|
+|switch|p1a: Electabuzz|Electabuzz|333\/333
+|move|p2a: Parasect|Stun Spore|p1a: Electabuzz|[miss]
+|-miss|p2a: Parasect
+|
+|turn|5
+|
+|move|p1a: Electabuzz|Psychic|p2a: Parasect
+|-crit|p2a: Parasect
+|-damage|p2a: Parasect|28\/383
+|move|p2a: Parasect|Stun Spore|p1a: Electabuzz|[miss]
+|-miss|p2a: Parasect
+|
+|turn|6
+|c|★Disaster Area|X_X
+|c|★KristophV|wow
+|
+|switch|p2a: Ninetales|Ninetales|349\/349
+|move|p1a: Electabuzz|Psychic|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|318\/349
+|
+|turn|7
+|
+|switch|p1a: Starmie|Starmie|323\/323 slp
+|move|p2a: Ninetales|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|261\/323 slp
+|
+|turn|8
+|
+|switch|p1a: Jynx|Jynx|333\/333
+|switch|p2a: Parasect|Parasect|28\/383
+|
+|turn|9
+|
+|switch|p2a: Ninetales|Ninetales|318\/349
+|move|p1a: Jynx|Psychic|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|266\/349
+|
+|turn|10
+|
+|switch|p1a: Dragonite|Dragonite|385\/385
+|move|p2a: Ninetales|Body Slam|p1a: Dragonite
+|-damage|p1a: Dragonite|325\/385
+|
+|turn|11
+|
+|move|p2a: Ninetales|Fire Blast|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|254\/385
+|move|p1a: Dragonite|Wrap|p2a: Ninetales
+|-damage|p2a: Ninetales|218\/349
+|-activate|p2a: Ninetales|move: Wrap|[of] p1a: Dragonite
+|
+|turn|12
+|
+|switch|p2a: Golem|Golem|363\/363
+|move|p1a: Dragonite|Wrap|p2a: Golem|[miss]
+|-miss|p1a: Dragonite
+|
+|turn|13
+|c|★Disaster Area|no hax no party
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|switch|p2a: Muk|Muk|493\/493
+|
+|turn|14
+|
+|move|p1a: Tauros|Earthquake|p2a: Muk
+|-crit|p2a: Muk
+|-supereffective|p2a: Muk
+|-damage|p2a: Muk|150\/493
+|move|p2a: Muk|Acid|p1a: Tauros
+|-damage|p1a: Tauros|271\/353
+|-unboost|p1a: Tauros|def|1
+|
+|turn|15
+|c|★Disaster Area|nice.
+|
+|switch|p2a: Cloyster|Cloyster|303\/303
+|move|p1a: Tauros|Earthquake|p2a: Cloyster
+|-crit|p2a: Cloyster
+|-damage|p2a: Cloyster|207\/303
+|
+|turn|16
+|
+|move|p1a: Tauros|Body Slam|p2a: Cloyster
+|-damage|p2a: Cloyster|139\/303
+|move|p2a: Cloyster|Blizzard|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|switch|p1a: Electabuzz|Electabuzz|333\/333
+|turn|17
+|
+|switch|p2a: Ninetales|Ninetales|218\/349
+|move|p1a: Electabuzz|Submission|p2a: Ninetales
+|-crit|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|95\/349
+|-damage|p1a: Electabuzz|303\/333|[from] recoil|[of] p2a: Ninetales
+|
+|turn|18
+|
+|switch|p2a: Parasect|Parasect|28\/383
+|move|p1a: Electabuzz|Thunderbolt|p2a: Parasect
+|-resisted|p2a: Parasect
+|-damage|p2a: Parasect|0 fnt
+|faint|p2a: Parasect
+|
+|switch|p2a: Golem|Golem|363\/363
+|turn|19
+|
+|move|p1a: Electabuzz|Submission|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|192\/363
+|-damage|p1a: Electabuzz|261\/333|[from] recoil|[of] p2a: Golem
+|move|p2a: Golem|Substitute|p2a: Golem
+|-start|p2a: Golem|Substitute
+|-damage|p2a: Golem|102\/363
+|
+|turn|20
+|
+|move|p1a: Electabuzz|Psychic|p2a: Golem
+|-end|p2a: Golem|Substitute
+|move|p2a: Golem|Explosion|p1a: Electabuzz
+|-damage|p1a: Electabuzz|0 fnt
+|faint|p1a: Electabuzz
+|faint|p2a: Golem
+|
+|switch|p2a: Ninetales|Ninetales|95\/349
+|switch|p1a: Dragonite|Dragonite|254\/385
+|turn|21
+|
+|move|p2a: Ninetales|Fire Blast|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|181\/385
+|move|p1a: Dragonite|Agility|p1a: Dragonite
+|-boost|p1a: Dragonite|spe|2
+|
+|turn|22
+|c|★Disaster Area|no buRN
+|c|★Disaster Area|:[[[[[[[[[[[[[[[[
+|c|★KristophV|phew
+|
+|move|p1a: Dragonite|Wrap|p2a: Ninetales
+|-damage|p2a: Ninetales|49\/349
+|-activate|p2a: Ninetales|move: Wrap|[of] p1a: Dragonite
+|cant|p2a: Ninetales|partiallytrapped
+|
+|turn|23
+|
+|switch|p2a: Muk|Muk|150\/493
+|move|p1a: Dragonite|Wrap|p2a: Muk
+|-damage|p2a: Muk|110\/493
+|-activate|p2a: Muk|move: Wrap|[of] p1a: Dragonite
+|
+|turn|24
+|
+|switch|p2a: Cloyster|Cloyster|139\/303
+|move|p1a: Dragonite|Wrap|p2a: Cloyster
+|-damage|p2a: Cloyster|115\/303
+|-activate|p2a: Cloyster|move: Wrap|[of] p1a: Dragonite
+|
+|turn|25
+|
+|switch|p2a: Muk|Muk|110\/493
+|move|p1a: Dragonite|Wrap|p2a: Muk
+|-damage|p2a: Muk|63\/493
+|-activate|p2a: Muk|move: Wrap|[of] p1a: Dragonite
+|
+|turn|26
+|
+|switch|p2a: Cloyster|Cloyster|115\/303
+|move|p1a: Dragonite|Wrap|p2a: Cloyster|[miss]
+|-miss|p1a: Dragonite
+|
+|turn|27
+|
+|move|p1a: Dragonite|Wrap|p2a: Cloyster
+|-damage|p2a: Cloyster|89\/303
+|-activate|p2a: Cloyster|move: Wrap|[of] p1a: Dragonite
+|cant|p2a: Cloyster|partiallytrapped
+|
+|turn|28
+|
+|switch|p2a: Muk|Muk|63\/493
+|move|p1a: Dragonite|Wrap|p2a: Muk
+|-crit|p2a: Muk
+|-damage|p2a: Muk|0 fnt
+|faint|p2a: Muk
+|
+|switch|p2a: Primeape|Primeape|333\/333
+|turn|29
+|
+|move|p1a: Dragonite|Blizzard|p2a: Primeape|[miss]
+|-miss|p1a: Dragonite
+|move|p2a: Primeape|Rock Slide|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|34\/385
+|
+|turn|30
+|c|★Disaster Area|no clue if I can still win this or not
+|
+|move|p1a: Dragonite|Hyper Beam|p2a: Primeape
+|-damage|p2a: Primeape|122\/333
+|move|p2a: Primeape|Seismic Toss|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|switch|p1a: Hypno|Hypno|117\/373
+|turn|31
+|c|★Disaster Area|that helps i guess
+|
+|move|p2a: Primeape|Seismic Toss|p1a: Hypno
+|-damage|p1a: Hypno|17\/373
+|move|p1a: Hypno|Psychic|p2a: Primeape
+|-crit|p2a: Primeape
+|-supereffective|p2a: Primeape
+|-damage|p2a: Primeape|0 fnt
+|faint|p2a: Primeape
+|
+|switch|p2a: Cloyster|Cloyster|89\/303
+|turn|32
+|
+|move|p2a: Cloyster|Tri Attack|p1a: Hypno
+|-supereffective|p1a: Hypno
+|-damage|p1a: Hypno|0 fnt
+|faint|p1a: Hypno
+|
+|switch|p1a: Jynx|Jynx|333\/333
+|turn|33
+|c|★Disaster Area|gg
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: Cloyster
+|-status|p2a: Cloyster|slp
+|-curestatus|p2a: Cloyster|slp
+|
+|turn|34
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: Cloyster
+|-status|p2a: Cloyster|slp
+|cant|p2a: Cloyster|slp
+|
+|turn|35
+|
+|move|p1a: Jynx|Psychic|p2a: Cloyster
+|-crit|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p2a: Cloyster
+|
+|switch|p2a: Ninetales|Ninetales|49\/349
+|turn|36
+|c|★Disaster Area|this must be the first one so
+|c|★Disaster Area|down to the wire
+|c|★Disaster Area|!
+|
+|move|p2a: Ninetales|Fire Blast|p1a: Jynx
+|-crit|p1a: Jynx
+|-supereffective|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|
+|switch|p1a: Starmie|Starmie|261\/323 slp
+|turn|37
+|
+|cant|p1a: Starmie|slp
+|move|p2a: Ninetales|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|197\/323 slp
+|
+|turn|38
+|
+|cant|p1a: Starmie|slp
+|move|p2a: Ninetales|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|139\/323 slp
+|
+|turn|39
+|
+|cant|p1a: Starmie|slp
+|move|p2a: Ninetales|Body Slam|p1a: Starmie
+|-crit|p1a: Starmie
+|-damage|p1a: Starmie|23\/323 slp
+|
+|turn|40
+|c|★Disaster Area|gg
+|c|★Disaster Area|my ninetales' other moves are psychic and fire spin btw
+|
+|cant|p1a: Starmie|slp
+|move|p2a: Ninetales|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|win|Disaster Area
+|c|★KristophV|gg

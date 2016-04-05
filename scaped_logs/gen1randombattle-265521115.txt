@@ -1,0 +1,249 @@
+﻿|join|optic gold
+|join|The Underwhelmer
+|player|p1|optic gold|266
+|player|p2|The Underwhelmer|257
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Dodrio|Dodrio, L85|276\/276
+|switch|p2a: Voltorb|Voltorb, L96|272\/272
+|turn|1
+|
+|switch|p1a: Nidoqueen|Nidoqueen, L85|327\/327
+|move|p2a: Voltorb|Thunderbolt|p1a: Nidoqueen
+|-immune|p1a: Nidoqueen|[msg]
+|
+|turn|2
+|
+|switch|p2a: Primeape|Primeape, L90|300\/300
+|move|p1a: Nidoqueen|Earthquake|p2a: Primeape
+|-damage|p2a: Primeape|177\/300
+|
+|turn|3
+|
+|switch|p1a: Dodrio|Dodrio, L85|276\/276
+|move|p2a: Primeape|Body Slam|p1a: Dodrio
+|-damage|p1a: Dodrio|190\/276
+|
+|turn|4
+|
+|switch|p2a: Voltorb|Voltorb, L96|272\/272
+|move|p1a: Dodrio|Drill Peck|p2a: Voltorb
+|-resisted|p2a: Voltorb
+|-damage|p2a: Voltorb|215\/272
+|
+|turn|5
+|
+|switch|p1a: Nidoqueen|Nidoqueen, L85|327\/327
+|move|p2a: Voltorb|Flash|p1a: Nidoqueen
+|-unboost|p1a: Nidoqueen|accuracy|1
+|
+|turn|6
+|
+|move|p2a: Voltorb|Flash|p1a: Nidoqueen
+|-unboost|p1a: Nidoqueen|accuracy|1
+|move|p1a: Nidoqueen|Earthquake|p2a: Voltorb
+|-supereffective|p2a: Voltorb
+|-damage|p2a: Voltorb|0 fnt
+|faint|p2a: Voltorb
+|
+|switch|p2a: Gloom|Gloom, L90|291\/291
+|turn|7
+|
+|switch|p1a: Metapod|Metapod, L99|300\/300
+|move|p2a: Gloom|Sleep Powder|p1a: Metapod
+|-status|p1a: Metapod|slp
+|
+|turn|8
+|
+|switch|p1a: Dodrio|Dodrio, L85|190\/276
+|move|p2a: Gloom|Swords Dance|p2a: Gloom
+|-boost|p2a: Gloom|atk|2
+|
+|turn|9
+|
+|move|p1a: Dodrio|Drill Peck|p2a: Gloom
+|-supereffective|p2a: Gloom
+|-damage|p2a: Gloom|88\/291
+|move|p2a: Gloom|Double-Edge|p1a: Dodrio
+|-damage|p1a: Dodrio|38\/276
+|-damage|p2a: Gloom|50\/291|[from] recoil|[of] p1a: Dodrio
+|
+|turn|10
+|
+|move|p1a: Dodrio|Drill Peck|p2a: Gloom
+|-crit|p2a: Gloom
+|-supereffective|p2a: Gloom
+|-damage|p2a: Gloom|0 fnt
+|faint|p2a: Gloom
+|
+|switch|p2a: Seadra|Seadra, L90|282\/282
+|turn|11
+|
+|move|p1a: Dodrio|Hyper Beam|p2a: Seadra
+|-damage|p2a: Seadra|113\/282
+|move|p2a: Seadra|Blizzard|p1a: Dodrio
+|-supereffective|p1a: Dodrio
+|-damage|p1a: Dodrio|0 fnt
+|faint|p1a: Dodrio
+|
+|switch|p1a: Mr. Mime|Mr. Mime, L85|242\/242
+|turn|12
+|
+|switch|p2a: Hypno|Hypno, L85|318\/318
+|move|p1a: Mr. Mime|Thunderbolt|p2a: Hypno
+|-damage|p2a: Hypno|260\/318
+|
+|turn|13
+|
+|move|p1a: Mr. Mime|Thunder Wave|p2a: Hypno
+|-status|p2a: Hypno|par
+|move|p2a: Hypno|Thunder Wave|p1a: Mr. Mime
+|-status|p1a: Mr. Mime|par
+|
+|turn|14
+|
+|move|p1a: Mr. Mime|Seismic Toss|p2a: Hypno
+|-damage|p2a: Hypno|175\/318 par
+|move|p2a: Hypno|Rest|p2a: Hypno
+|-status|p2a: Hypno|slp
+|-heal|p2a: Hypno|318\/318 slp|[silent]
+|-status|p2a: Hypno|slp|[from] move: Rest
+|
+|turn|15
+|
+|switch|p2a: Clefable|Clefable, L85|335\/335
+|move|p1a: Mr. Mime|Seismic Toss|p2a: Clefable
+|-damage|p2a: Clefable|250\/335
+|
+|turn|16
+|
+|move|p2a: Clefable|Body Slam|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|157\/242 par
+|move|p1a: Mr. Mime|Thunder Wave|p2a: Clefable
+|-status|p2a: Clefable|par
+|
+|turn|17
+|
+|move|p1a: Mr. Mime|Psychic|p2a: Clefable
+|-damage|p2a: Clefable|156\/335 par
+|cant|p2a: Clefable|par
+|
+|turn|18
+|
+|cant|p1a: Mr. Mime|par
+|move|p2a: Clefable|Body Slam|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|71\/242 par
+|
+|turn|19
+|
+|move|p1a: Mr. Mime|Psychic|p2a: Clefable
+|-crit|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|switch|p2a: Primeape|Primeape, L90|177\/300
+|turn|20
+|
+|move|p2a: Primeape|Body Slam|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|0 fnt
+|faint|p1a: Mr. Mime
+|
+|switch|p1a: Mewtwo|Mewtwo, L70|293\/293
+|turn|21
+|
+|move|p2a: Primeape|Body Slam|p1a: Mewtwo
+|-crit|p1a: Mewtwo
+|-damage|p1a: Mewtwo|140\/293
+|move|p1a: Mewtwo|Psychic|p2a: Primeape
+|-supereffective|p2a: Primeape
+|-damage|p2a: Primeape|0 fnt
+|faint|p2a: Primeape
+|
+|switch|p2a: Seadra|Seadra, L90|113\/282
+|turn|22
+|
+|move|p1a: Mewtwo|Blizzard|p2a: Seadra|[miss]
+|-miss|p1a: Mewtwo
+|move|p2a: Seadra|Hydro Pump|p1a: Mewtwo
+|-damage|p1a: Mewtwo|16\/293
+|
+|turn|23
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Seadra
+|-supereffective|p2a: Seadra
+|-damage|p2a: Seadra|0 fnt
+|faint|p2a: Seadra
+|
+|switch|p2a: Hypno|Hypno, L85|318\/318 slp
+|turn|24
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Hypno
+|-damage|p2a: Hypno|261\/318 slp
+|cant|p2a: Hypno|slp
+|
+|turn|25
+|
+|move|p1a: Mewtwo|Blizzard|p2a: Hypno
+|-crit|p2a: Hypno
+|-damage|p2a: Hypno|132\/318 slp
+|-curestatus|p2a: Hypno|slp
+|
+|turn|26
+|
+|move|p1a: Mewtwo|Hyper Beam|p2a: Hypno
+|-damage|p2a: Hypno|45\/318
+|move|p2a: Hypno|Psychic|p1a: Mewtwo
+|-crit|p1a: Mewtwo
+|-resisted|p1a: Mewtwo
+|-damage|p1a: Mewtwo|0 fnt
+|faint|p1a: Mewtwo
+|
+|switch|p1a: Vaporeon|Vaporeon, L85|395\/395
+|turn|27
+|
+|move|p2a: Hypno|Thunder Wave|p1a: Vaporeon
+|-status|p1a: Vaporeon|par
+|cant|p1a: Vaporeon|par
+|
+|turn|28
+|
+|move|p2a: Hypno|Rest|p2a: Hypno
+|-status|p2a: Hypno|slp
+|-heal|p2a: Hypno|318\/318 slp|[silent]
+|-status|p2a: Hypno|slp|[from] move: Rest
+|move|p1a: Vaporeon|Surf|p2a: Hypno
+|-damage|p2a: Hypno|223\/318 slp
+|
+|turn|29
+|
+|cant|p2a: Hypno|slp
+|move|p1a: Vaporeon|Surf|p2a: Hypno
+|-damage|p2a: Hypno|127\/318 slp
+|
+|turn|30
+|
+|-curestatus|p2a: Hypno|slp
+|move|p1a: Vaporeon|Hydro Pump|p2a: Hypno
+|-damage|p2a: Hypno|6\/318
+|
+|turn|31
+|
+|move|p2a: Hypno|Psychic|p1a: Vaporeon
+|-damage|p1a: Vaporeon|299\/395 par
+|move|p1a: Vaporeon|Surf|p2a: Hypno
+|-damage|p2a: Hypno|0 fnt
+|faint|p2a: Hypno
+|
+|win|optic gold
+|raw|optic gold's rating: 1275 &rarr; <strong>1289<\/strong><br \/>(+14 for winning)
+|raw|The Underwhelmer's rating: 1111 &rarr; <strong>1097<\/strong><br \/>(-14 for losing)
+|leave|The Underwhelmer
+|player|p2
+|c|★optic gold|gg

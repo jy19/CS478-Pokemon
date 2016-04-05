@@ -1,0 +1,269 @@
+﻿|j|B1ackJack94
+|j|MALESANI
+|player|p1|B1ackJack94|204
+|player|p2|MALESANI|238
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|42296,41992,62893,55771
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Magnemite|Magnemite, L96|243\/243
+|switch|p2a: Metapod|Metapod, L99|300\/300
+|turn|1
+|j|lkev
+|choice|move 3|move 1
+|
+|move|p1a: Magnemite|Thunderbolt|p2a: Metapod
+|-damage|p2a: Metapod|98\/300
+|move|p2a: Metapod|Tackle|p1a: Magnemite
+|-damage|p1a: Magnemite|226\/243
+|
+|turn|2
+|l|lkev
+|choice|move 3|move 3
+|
+|move|p1a: Magnemite|Thunderbolt|p2a: Metapod
+|-damage|p2a: Metapod|0 fnt
+|faint|p2a: Metapod
+|choice||switch 3
+|
+|switch|p2a: Gengar|Gengar, L79|257\/257
+|turn|3
+|j|Daddy's Milk
+|choice|move 2|move 1
+|
+|move|p2a: Gengar|Hypnosis|p1a: Magnemite
+|-status|p1a: Magnemite|slp
+|cant|p1a: Magnemite|slp
+|
+|turn|4
+|choice|move 2|move 3
+|
+|move|p2a: Gengar|Mega Drain|p1a: Magnemite
+|-crit|p1a: Magnemite
+|-damage|p1a: Magnemite|173\/243 slp
+|cant|p1a: Magnemite|slp
+|
+|turn|5
+|choice|move 2|move 3
+|
+|move|p2a: Gengar|Mega Drain|p1a: Magnemite
+|-damage|p1a: Magnemite|147\/243 slp
+|cant|p1a: Magnemite|slp
+|
+|turn|6
+|choice|move 2|switch 2
+|
+|switch|p2a: Snorlax|Snorlax, L79|415\/415
+|-curestatus|p1a: Magnemite|slp
+|
+|turn|7
+|choice|move 2|move 1
+|
+|move|p1a: Magnemite|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|
+|turn|8
+|choice|move 1|move 1
+|
+|move|p1a: Magnemite|Mimic|p2a: Snorlax
+|-start|p1a: Magnemite|Mimic|Surf
+|cant|p2a: Snorlax|par
+|
+|turn|9
+|choice|move 3|move 1
+|
+|move|p1a: Magnemite|Thunderbolt|p2a: Snorlax
+|-damage|p2a: Snorlax|331\/415 par
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|
+|turn|10
+|choice|move 3|move 2
+|
+|move|p1a: Magnemite|Thunderbolt|p2a: Snorlax
+|-damage|p2a: Snorlax|277\/415 par
+|move|p2a: Snorlax|Surf|p1a: Magnemite
+|-damage|p1a: Magnemite|29\/243
+|
+|turn|11
+|choice|move 3|move 2
+|
+|move|p1a: Magnemite|Thunderbolt|p2a: Snorlax
+|-damage|p2a: Snorlax|225\/415 par
+|move|p2a: Snorlax|Surf|p1a: Magnemite
+|-damage|p1a: Magnemite|0 fnt
+|faint|p1a: Magnemite
+|choice|switch 6|
+|
+|switch|p1a: Flareon|Flareon, L90|300\/300
+|turn|12
+|choice|move 1|move 2
+|
+|move|p1a: Flareon|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|122\/415 par
+|move|p2a: Snorlax|Surf|p1a: Flareon
+|-supereffective|p1a: Flareon
+|-damage|p1a: Flareon|85\/300
+|
+|turn|13
+|choice|move 2|move 2
+|
+|move|p1a: Flareon|Hyper Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|choice||switch 6
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|293\/293
+|turn|14
+|choice|move 1|move 1
+|
+|move|p2a: Mewtwo|Psychic|p1a: Flareon
+|-crit|p1a: Flareon
+|-damage|p1a: Flareon|0 fnt
+|faint|p1a: Flareon
+|choice|switch 4|
+|
+|switch|p1a: Kadabra|Kadabra, L85|242\/242
+|turn|15
+|choice|move 3|move 2
+|
+|move|p1a: Kadabra|Thunder Wave|p2a: Mewtwo
+|-status|p2a: Mewtwo|par
+|move|p2a: Mewtwo|Thunder Wave|p1a: Kadabra
+|-status|p1a: Kadabra|par
+|
+|turn|16
+|choice|move 2|switch 5
+|
+|switch|p2a: Dragonite|Dragonite, L85|328\/328
+|move|p1a: Kadabra|Seismic Toss|p2a: Dragonite
+|-damage|p2a: Dragonite|243\/328
+|
+|turn|17
+|choice|move 3|move 4
+|
+|move|p2a: Dragonite|Body Slam|p1a: Kadabra
+|-crit|p1a: Kadabra
+|-damage|p1a: Kadabra|0 fnt
+|faint|p1a: Kadabra
+|choice|switch 5|
+|
+|switch|p1a: Dewgong|Dewgong, L85|327\/327
+|turn|18
+|choice|move 4|move 1
+|
+|move|p2a: Dragonite|Thunderbolt|p1a: Dewgong
+|-supereffective|p1a: Dewgong
+|-damage|p1a: Dewgong|198\/327
+|move|p1a: Dewgong|Blizzard|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|choice||switch 2
+|
+|switch|p2a: Gengar|Gengar, L79|257\/257
+|turn|19
+|choice|move 1|move 1
+|
+|move|p2a: Gengar|Hypnosis|p1a: Dewgong
+|-status|p1a: Dewgong|slp
+|cant|p1a: Dewgong|slp
+|
+|turn|20
+|choice|switch 2|move 4
+|
+|switch|p1a: Doduo|Doduo, L96|262\/262
+|move|p2a: Gengar|Thunderbolt|p1a: Doduo
+|-crit|p1a: Doduo
+|-supereffective|p1a: Doduo
+|-damage|p1a: Doduo|0 fnt
+|faint|p1a: Doduo
+|choice|switch 3|
+|
+|switch|p1a: Dugtrio|Dugtrio, L85|233\/233
+|turn|21
+|choice|move 1|move 3
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|2\/257
+|move|p2a: Gengar|Mega Drain|p1a: Dugtrio
+|-supereffective|p1a: Dugtrio
+|-damage|p1a: Dugtrio|166\/233
+|-heal|p2a: Gengar|35\/257|[from] drain|[of] p1a: Dugtrio
+|
+|turn|22
+|choice|move 1|move 2
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|choice||switch 4
+|
+|switch|p2a: Persian|Persian, L79|265\/265
+|turn|23
+|choice|move 1|move 3
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Persian
+|-crit|p2a: Persian
+|-damage|p2a: Persian|34\/265
+|move|p2a: Persian|Hyper Beam|p1a: Dugtrio
+|-crit|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|choice|switch 2|
+|
+|switch|p1a: Dewgong|Dewgong, L85|198\/327 slp
+|turn|24
+|choice|move 3|move 2
+|
+|move|p2a: Persian|Thunderbolt|p1a: Dewgong
+|-supereffective|p1a: Dewgong
+|-damage|p1a: Dewgong|109\/327 slp
+|-curestatus|p1a: Dewgong|slp
+|
+|turn|25
+|choice|move 3|move 3
+|
+|move|p2a: Persian|Hyper Beam|p1a: Dewgong|[miss]
+|-miss|p2a: Persian
+|move|p1a: Dewgong|Surf|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|faint|p2a: Persian
+|choice||switch 5
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|293\/293 par
+|turn|26
+|choice|move 3|move 2
+|
+|move|p1a: Dewgong|Surf|p2a: Mewtwo
+|-damage|p2a: Mewtwo|205\/293 par
+|move|p2a: Mewtwo|Thunder Wave|p1a: Dewgong
+|-status|p1a: Dewgong|par
+|
+|turn|27
+|choice|move 3|move 4
+|
+|move|p2a: Mewtwo|Thunderbolt|p1a: Dewgong
+|-crit|p1a: Dewgong
+|-supereffective|p1a: Dewgong
+|-damage|p1a: Dewgong|0 fnt
+|faint|p1a: Dewgong
+|
+|win|MALESANI
+|player|p1
+|player|p2
+|raw|B1ackJack94's rating: 1258 &rarr; <strong>1250<\/strong><br \/>(-8 for losing)
+|raw|MALESANI's rating: 1541 &rarr; <strong>1548<\/strong><br \/>(+7 for winning)
+|c|★MALESANI|gg

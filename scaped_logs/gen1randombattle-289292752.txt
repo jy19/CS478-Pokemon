@@ -1,0 +1,272 @@
+﻿|join|2x effective
+|join|Azawa
+|player|p1|2x effective|1
+|player|p2|Azawa|108
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|37482,10288,36072,1726
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Butterfree|Butterfree, L90|291\/291
+|switch|p2a: Sandshrew|Sandshrew, L96|291\/291
+|turn|1
+|choice|move 2|move 2
+|
+|move|p1a: Butterfree|Sleep Powder|p2a: Sandshrew
+|-status|p2a: Sandshrew|slp
+|cant|p2a: Sandshrew|slp
+|
+|turn|2
+|choice|move 3|switch 5
+|
+|switch|p2a: Tauros|Tauros, L79|280\/280
+|move|p1a: Butterfree|Psychic|p2a: Tauros
+|-damage|p2a: Tauros|200\/280
+|
+|turn|3
+|choice|move 1|move 2
+|
+|move|p2a: Tauros|Blizzard|p1a: Butterfree
+|-supereffective|p1a: Butterfree
+|-damage|p1a: Butterfree|168\/291
+|move|p1a: Butterfree|Stun Spore|p2a: Tauros
+|-status|p2a: Tauros|par
+|
+|turn|4
+|choice|switch 4|move 2
+|
+|switch|p1a: Seadra|Seadra, L90|282\/282
+|move|p2a: Tauros|Blizzard|p1a: Seadra
+|-resisted|p1a: Seadra
+|-damage|p1a: Seadra|255\/282
+|
+|turn|5
+|choice|move 2|move 4
+|
+|move|p1a: Seadra|Surf|p2a: Tauros
+|-damage|p2a: Tauros|63\/280 par
+|move|p2a: Tauros|Earthquake|p1a: Seadra
+|-damage|p1a: Seadra|203\/282
+|
+|turn|6
+|choice|move 2|move 3
+|
+|move|p1a: Seadra|Surf|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|choice||switch 4
+|
+|switch|p2a: Persian|Persian, L79|265\/265
+|turn|7
+|choice|move 2|move 2
+|
+|move|p2a: Persian|Thunderbolt|p1a: Seadra
+|-supereffective|p1a: Seadra
+|-damage|p1a: Seadra|119\/282
+|move|p1a: Seadra|Surf|p2a: Persian
+|-damage|p2a: Persian|133\/265
+|
+|turn|8
+|choice|move 2|move 1
+|
+|move|p2a: Persian|Slash|p1a: Seadra
+|-crit|p1a: Seadra
+|-damage|p1a: Seadra|27\/282
+|move|p1a: Seadra|Surf|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|faint|p2a: Persian
+|choice||switch 2
+|
+|switch|p2a: Starmie|Starmie, L79|257\/257
+|turn|9
+|choice|switch 5|move 2
+|
+|switch|p1a: Venomoth|Venomoth, L85|293\/293
+|move|p2a: Starmie|Surf|p1a: Venomoth
+|-damage|p1a: Venomoth|202\/293
+|
+|turn|10
+|choice|move 3|move 2
+|
+|move|p2a: Starmie|Surf|p1a: Venomoth
+|-crit|p1a: Venomoth
+|-damage|p1a: Venomoth|17\/293
+|move|p1a: Venomoth|Stun Spore|p2a: Starmie
+|-status|p2a: Starmie|par
+|
+|turn|11
+|choice|move 4|move 2
+|
+|move|p1a: Venomoth|Mega Drain|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|198\/257 par
+|-heal|p1a: Venomoth|46\/293|[from] drain|[of] p2a: Starmie
+|move|p2a: Starmie|Surf|p1a: Venomoth
+|-damage|p1a: Venomoth|0 fnt
+|faint|p1a: Venomoth
+|choice|switch 2|
+|
+|switch|p1a: Dragonair|Dragonair, L85|277\/277
+|turn|12
+|choice|move 1|move 3
+|
+|move|p1a: Dragonair|Substitute|p1a: Dragonair
+|-start|p1a: Dragonair|Substitute
+|-damage|p1a: Dragonair|208\/277
+|cant|p2a: Starmie|par
+|
+|turn|13
+|choice|move 4|move 3
+|
+|move|p1a: Dragonair|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|82\/257 par
+|move|p2a: Starmie|Blizzard|p1a: Dragonair|[miss]
+|-miss|p2a: Starmie
+|
+|turn|14
+|c|★Azawa|Dio cane
+|choice|move 4|move 3
+|
+|move|p1a: Dragonair|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|choice||switch 6
+|
+|switch|p2a: Mr. Mime|Mr. Mime, L85|242\/242
+|turn|15
+|choice|move 2|move 1
+|
+|move|p2a: Mr. Mime|Psychic|p1a: Dragonair
+|-end|p1a: Dragonair|Substitute
+|move|p1a: Dragonair|Thunder Wave|p2a: Mr. Mime
+|-status|p2a: Mr. Mime|par
+|
+|turn|16
+|choice|move 4|move 4
+|
+|move|p1a: Dragonair|Thunderbolt|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|192\/242 par
+|move|p2a: Mr. Mime|Thunder Wave|p1a: Dragonair
+|-status|p1a: Dragonair|par
+|
+|turn|17
+|choice|move 3|move 1
+|
+|move|p2a: Mr. Mime|Psychic|p1a: Dragonair
+|-damage|p1a: Dragonair|84\/277 par
+|move|p1a: Dragonair|Agility|p1a: Dragonair
+|-boost|p1a: Dragonair|spe|2
+|
+|turn|18
+|choice|move 4|move 1
+|
+|cant|p1a: Dragonair|par
+|move|p2a: Mr. Mime|Psychic|p1a: Dragonair
+|-crit|p1a: Dragonair
+|-damage|p1a: Dragonair|0 fnt
+|faint|p1a: Dragonair
+|choice|switch 5|
+|
+|switch|p1a: Seadra|Seadra, L90|27\/282
+|turn|19
+|choice|move 2|move 1
+|
+|move|p1a: Seadra|Surf|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|84\/242 par
+|move|p2a: Mr. Mime|Psychic|p1a: Seadra
+|-damage|p1a: Seadra|0 fnt
+|faint|p1a: Seadra
+|choice|switch 3|
+|
+|switch|p1a: Meowth|Meowth, L96|272\/272
+|turn|20
+|choice|move 1|move 4
+|
+|move|p1a: Meowth|Slash|p2a: Mr. Mime
+|-crit|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|0 fnt
+|faint|p2a: Mr. Mime
+|choice||switch 5
+|
+|switch|p2a: Sandshrew|Sandshrew, L96|291\/291 slp
+|turn|21
+|choice|move 4|move 1
+|
+|move|p1a: Meowth|Bubble Beam|p2a: Sandshrew
+|-supereffective|p2a: Sandshrew
+|-damage|p2a: Sandshrew|183\/291 slp
+|cant|p2a: Sandshrew|slp
+|
+|turn|22
+|choice|move 4|switch 3
+|
+|switch|p2a: Bellsprout|Bellsprout, L96|291\/291
+|move|p1a: Meowth|Bubble Beam|p2a: Bellsprout
+|-resisted|p2a: Bellsprout
+|-damage|p2a: Bellsprout|273\/291
+|
+|turn|23
+|choice|switch 4|move 1
+|
+|switch|p1a: Butterfree|Butterfree, L90|168\/291
+|move|p2a: Bellsprout|Sleep Powder|p1a: Butterfree|[miss]
+|-miss|p2a: Bellsprout
+|
+|turn|24
+|c|★Azawa|Dio boia
+|choice|move 3|move 1
+|
+|move|p1a: Butterfree|Psychic|p2a: Bellsprout
+|-supereffective|p2a: Bellsprout
+|-damage|p2a: Bellsprout|140\/291
+|move|p2a: Bellsprout|Sleep Powder|p1a: Butterfree|[miss]
+|-miss|p2a: Bellsprout
+|
+|turn|25
+|c|★Azawa|Dio stronzo
+|choice|move 3|move 1
+|
+|move|p1a: Butterfree|Psychic|p2a: Bellsprout
+|-supereffective|p2a: Bellsprout
+|-damage|p2a: Bellsprout|5\/291
+|move|p2a: Bellsprout|Sleep Powder|p1a: Butterfree|[miss]
+|-miss|p2a: Bellsprout
+|
+|turn|26
+|c|★Azawa|Ma porco di quel dio schifoso infame figlio di una troia
+|choice|move 3|move 3
+|
+|move|p1a: Butterfree|Psychic|p2a: Bellsprout
+|-supereffective|p2a: Bellsprout
+|-damage|p2a: Bellsprout|0 fnt
+|faint|p2a: Bellsprout
+|choice||switch 3
+|
+|switch|p2a: Sandshrew|Sandshrew, L96|183\/291 slp
+|turn|27
+|choice|move 3|move 2
+|
+|move|p1a: Butterfree|Psychic|p2a: Sandshrew
+|-damage|p2a: Sandshrew|83\/291 slp
+|cant|p2a: Sandshrew|slp
+|
+|turn|28
+|choice|move 3|move 2
+|
+|move|p1a: Butterfree|Psychic|p2a: Sandshrew
+|-damage|p2a: Sandshrew|0 fnt
+|faint|p2a: Sandshrew
+|
+|win|2x effective
+|c|★2x effective|gg
+|leave|2x effective
+|player|p1
+|c|★Azawa|Mori

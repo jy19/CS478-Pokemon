@@ -1,0 +1,105 @@
+﻿|join|sniper01
+|join|Mega-Noctali
+|player|p1|sniper01|162
+|player|p2|Mega-Noctali|65
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|18384,50594,19293,1621
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Clefairy|Clefairy, L95|326\/326
+|switch|p2a: Moltres|Moltres, L85|327\/327
+|turn|1
+|choice|switch 3|move 1
+|
+|switch|p1a: Poliwag|Poliwag, L96|272\/272
+|move|p2a: Moltres|Fire Blast|p1a: Poliwag
+|-resisted|p1a: Poliwag
+|-damage|p1a: Poliwag|169\/272
+|-status|p1a: Poliwag|brn
+|
+|turn|2
+|choice|move 4|move 2
+|
+|move|p1a: Poliwag|Surf|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|205\/327
+|-damage|p1a: Poliwag|152\/272 brn|[from] brn|[of] p2a: Moltres
+|move|p2a: Moltres|Sky Attack|p1a: Poliwag|[still]
+|-prepare|p2a: Moltres|Sky Attack|p1a: Poliwag
+|
+|turn|3
+|choice|move 4|move 1
+|
+|move|p1a: Poliwag|Surf|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|91\/327
+|-damage|p1a: Poliwag|135\/272 brn|[from] brn|[of] p2a: Moltres
+|move|p2a: Moltres|Sky Attack|p1a: Poliwag
+|-damage|p1a: Poliwag|0 fnt
+|faint|p1a: Poliwag
+|choice|switch 5|
+|
+|switch|p1a: Starmie|Starmie, L79|257\/257
+|turn|4
+|choice|move 3|switch 5
+|
+|switch|p2a: Dragonite|Dragonite, L85|328\/328
+|move|p1a: Starmie|Blizzard|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|choice||switch 2
+|
+|switch|p2a: Magnemite|Magnemite, L96|243\/243
+|turn|5
+|choice|switch 6|move 1
+|
+|switch|p1a: Charmeleon|Charmeleon, L85|272\/272
+|move|p2a: Magnemite|Thunderbolt|p1a: Charmeleon
+|-damage|p1a: Charmeleon|107\/272
+|
+|turn|6
+|choice|move 2|move 1
+|
+|move|p1a: Charmeleon|Fire Blast|p2a: Magnemite
+|-damage|p2a: Magnemite|162\/243
+|move|p2a: Magnemite|Thunderbolt|p1a: Charmeleon
+|-damage|p1a: Charmeleon|0 fnt
+|faint|p1a: Charmeleon
+|choice|switch 2|
+|
+|switch|p1a: Dragonite|Dragonite, L85|328\/328
+|turn|7
+|choice|move 4|move 4
+|
+|move|p1a: Dragonite|Ice Beam|p2a: Magnemite
+|-damage|p2a: Magnemite|100\/243
+|move|p2a: Magnemite|Thunder Wave|p1a: Dragonite
+|-status|p1a: Dragonite|par
+|
+|turn|8
+|choice|move 3|move 1
+|
+|move|p2a: Magnemite|Thunderbolt|p1a: Dragonite
+|-damage|p1a: Dragonite|212\/328 par
+|cant|p1a: Dragonite|par
+|
+|turn|9
+|-message|sniper01 forfeited.
+|
+|win|Mega-Noctali
+|leave|sniper01
+|player|p1
+|choice|move 1|move 1
+|
+|raw|sniper01's rating: 1056 &rarr; <strong>1045<\/strong><br \/>(-11 for losing)
+|raw|Mega-Noctali's rating: 1197 &rarr; <strong>1213<\/strong><br \/>(+16 for winning)
+|leave|Mega-Noctali
+|player|p2

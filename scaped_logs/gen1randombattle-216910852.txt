@@ -1,0 +1,313 @@
+﻿|join|Caesar Augustus
+|join|ProletarioParasito
+|player|p1|Caesar Augustus|253
+|player|p2|ProletarioParasito|169
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Kangaskhan|Kangaskhan, L85|352\/352
+|switch|p2a: Poliwag|Poliwag, L96|272\/272
+|turn|1
+|
+|move|p2a: Poliwag|Hypnosis|p1a: Kangaskhan|[miss]
+|-miss|p2a: Poliwag
+|move|p1a: Kangaskhan|Earthquake|p2a: Poliwag
+|-damage|p2a: Poliwag|182\/272
+|
+|turn|2
+|
+|switch|p1a: Ditto|Ditto, L99|296\/296
+|move|p2a: Poliwag|Hypnosis|p1a: Ditto
+|-status|p1a: Ditto|slp
+|
+|turn|3
+|
+|switch|p1a: Vileplume|Vileplume, L85|301\/301
+|move|p2a: Poliwag|Amnesia|p2a: Poliwag
+|-boost|p2a: Poliwag|spd|2
+|-boost|p2a: Poliwag|spa|2
+|
+|turn|4
+|
+|move|p2a: Poliwag|Psychic|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|109\/301
+|move|p1a: Vileplume|Sleep Powder|p2a: Poliwag
+|-status|p2a: Poliwag|slp
+|
+|turn|5
+|
+|switch|p2a: Arbok|Arbok, L85|276\/276
+|move|p1a: Vileplume|Swords Dance|p1a: Vileplume
+|-boost|p1a: Vileplume|atk|2
+|
+|turn|6
+|
+|move|p2a: Arbok|Earthquake|p1a: Vileplume
+|-damage|p1a: Vileplume|41\/301
+|move|p1a: Vileplume|Body Slam|p2a: Arbok
+|-damage|p2a: Arbok|146\/276
+|
+|turn|7
+|
+|move|p2a: Arbok|Earthquake|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|faint|p1a: Vileplume
+|
+|switch|p1a: Venomoth|Venomoth, L85|293\/293
+|turn|8
+|
+|move|p1a: Venomoth|Psychic|p2a: Arbok
+|-crit|p2a: Arbok
+|-supereffective|p2a: Arbok
+|-damage|p2a: Arbok|0 fnt
+|faint|p2a: Arbok
+|
+|switch|p2a: Zapdos|Zapdos, L79|304\/304
+|turn|9
+|
+|move|p1a: Venomoth|Stun Spore|p2a: Zapdos
+|-status|p2a: Zapdos|par
+|move|p2a: Zapdos|Thunder Wave|p1a: Venomoth
+|-status|p1a: Venomoth|par
+|
+|turn|10
+|
+|switch|p1a: Onix|Onix, L85|233\/233
+|move|p2a: Zapdos|Drill Peck|p1a: Onix
+|-resisted|p1a: Onix
+|-damage|p1a: Onix|209\/233
+|
+|turn|11
+|
+|switch|p2a: Poliwag|Poliwag, L96|182\/272 slp
+|move|p1a: Onix|Rock Slide|p2a: Poliwag
+|-damage|p2a: Poliwag|108\/272 slp
+|
+|turn|12
+|
+|cant|p2a: Poliwag|slp
+|-curestatus|p2a: Poliwag|slp
+|move|p1a: Onix|Rock Slide|p2a: Poliwag
+|-damage|p2a: Poliwag|37\/272
+|
+|turn|13
+|
+|switch|p1a: Venomoth|Venomoth, L85|293\/293 par
+|move|p2a: Poliwag|Surf|p1a: Venomoth
+|-damage|p1a: Venomoth|222\/293 par
+|
+|turn|14
+|
+|move|p2a: Poliwag|Psychic|p1a: Venomoth
+|-crit|p1a: Venomoth
+|-supereffective|p1a: Venomoth
+|-damage|p1a: Venomoth|38\/293 par
+|move|p1a: Venomoth|Mega Drain|p2a: Poliwag
+|-crit|p2a: Poliwag
+|-supereffective|p2a: Poliwag
+|-damage|p2a: Poliwag|0 fnt
+|-heal|p1a: Venomoth|56\/293 par|[from] drain|[of] p2a: Poliwag
+|faint|p2a: Poliwag
+|
+|switch|p2a: Victreebel|Victreebel, L85|310\/310
+|turn|15
+|
+|move|p2a: Victreebel|Body Slam|p1a: Venomoth
+|-crit|p1a: Venomoth
+|-damage|p1a: Venomoth|0 fnt
+|faint|p1a: Venomoth
+|
+|switch|p1a: Kangaskhan|Kangaskhan, L85|352\/352
+|turn|16
+|
+|move|p1a: Kangaskhan|Earthquake|p2a: Victreebel
+|-crit|p2a: Victreebel
+|-damage|p2a: Victreebel|155\/310
+|move|p2a: Victreebel|Stun Spore|p1a: Kangaskhan
+|-status|p1a: Kangaskhan|par
+|
+|turn|17
+|
+|move|p2a: Victreebel|Razor Leaf|p1a: Kangaskhan|[miss]
+|-miss|p2a: Victreebel
+|cant|p1a: Kangaskhan|par
+|
+|turn|18
+|
+|move|p2a: Victreebel|Razor Leaf|p1a: Kangaskhan
+|-crit|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|157\/352 par
+|move|p1a: Kangaskhan|Earthquake|p2a: Victreebel
+|-crit|p2a: Victreebel
+|-damage|p2a: Victreebel|0 fnt
+|faint|p2a: Victreebel
+|
+|switch|p2a: Rapidash|Rapidash, L85|284\/284
+|turn|19
+|
+|move|p2a: Rapidash|Substitute|p2a: Rapidash
+|-start|p2a: Rapidash|Substitute
+|-damage|p2a: Rapidash|213\/284
+|cant|p1a: Kangaskhan|par
+|
+|turn|20
+|
+|move|p2a: Rapidash|Hyper Beam|p1a: Kangaskhan
+|-crit|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|0 fnt
+|faint|p1a: Kangaskhan
+|
+|switch|p1a: Onix|Onix, L85|209\/233
+|turn|21
+|
+|move|p2a: Rapidash|Toxic|p1a: Onix
+|-status|p1a: Onix|tox
+|move|p1a: Onix|Rock Slide|p2a: Rapidash
+|-supereffective|p2a: Rapidash
+|-end|p2a: Rapidash|Substitute
+|-damage|p1a: Onix|195\/233 tox|[from] tox|[of] p2a: Rapidash
+|
+|turn|22
+|
+|switch|p2a: Zapdos|Zapdos, L79|304\/304 par
+|move|p1a: Onix|Rock Slide|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|194\/304 par
+|-damage|p1a: Onix|167\/233 tox|[from] tox|[of] p2a: Zapdos
+|
+|turn|23
+|
+|move|p1a: Onix|Rock Slide|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|79\/304 par
+|-damage|p1a: Onix|125\/233 tox|[from] tox|[of] p2a: Zapdos
+|cant|p2a: Zapdos|par
+|
+|turn|24
+|
+|switch|p1a: Ditto|Ditto, L99|296\/296 slp
+|move|p2a: Zapdos|Drill Peck|p1a: Ditto
+|-damage|p1a: Ditto|208\/296 slp
+|
+|turn|25
+|
+|switch|p2a: Kingler|Kingler, L85|267\/267
+|cant|p1a: Ditto|slp
+|
+|turn|26
+|
+|move|p2a: Kingler|Crabhammer|p1a: Ditto
+|-crit|p1a: Ditto
+|-damage|p1a: Ditto|42\/296 slp
+|cant|p1a: Ditto|slp
+|
+|turn|27
+|
+|move|p2a: Kingler|Body Slam|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|
+|switch|p1a: Mewtwo|Mewtwo, L68|285\/285
+|turn|28
+|
+|move|p1a: Mewtwo|Amnesia|p1a: Mewtwo
+|-boost|p1a: Mewtwo|spd|2
+|-boost|p1a: Mewtwo|spa|2
+|move|p2a: Kingler|Body Slam|p1a: Mewtwo
+|-damage|p1a: Mewtwo|188\/285
+|-status|p1a: Mewtwo|par
+|
+|turn|29
+|
+|switch|p2a: Zapdos|Zapdos, L79|79\/304 par
+|cant|p1a: Mewtwo|par
+|
+|turn|30
+|
+|move|p1a: Mewtwo|Rest|p1a: Mewtwo
+|-status|p1a: Mewtwo|slp
+|-heal|p1a: Mewtwo|285\/285 slp|[silent]
+|-status|p1a: Mewtwo|slp|[from] move: Rest
+|move|p2a: Zapdos|Drill Peck|p1a: Mewtwo
+|-damage|p1a: Mewtwo|201\/285 slp
+|
+|turn|31
+|
+|cant|p1a: Mewtwo|slp
+|move|p2a: Zapdos|Drill Peck|p1a: Mewtwo
+|-damage|p1a: Mewtwo|111\/285 slp
+|
+|turn|32
+|
+|switch|p2a: Rapidash|Rapidash, L85|213\/284
+|cant|p1a: Mewtwo|slp
+|-curestatus|p1a: Mewtwo|slp
+|
+|turn|33
+|
+|move|p2a: Rapidash|Hyper Beam|p1a: Mewtwo
+|-damage|p1a: Mewtwo|0 fnt
+|faint|p1a: Mewtwo
+|
+|switch|p1a: Onix|Onix, L85|125\/233 tox
+|-status|p1a: Onix|psn
+|turn|34
+|
+|move|p2a: Rapidash|Substitute|p2a: Rapidash
+|-start|p2a: Rapidash|Substitute
+|-damage|p2a: Rapidash|142\/284
+|move|p1a: Onix|Rock Slide|p2a: Rapidash
+|-supereffective|p2a: Rapidash
+|-end|p2a: Rapidash|Substitute
+|-damage|p1a: Onix|111\/233 psn|[from] psn|[of] p2a: Rapidash
+|
+|turn|35
+|
+|move|p2a: Rapidash|Substitute|p2a: Rapidash
+|-start|p2a: Rapidash|Substitute
+|-damage|p2a: Rapidash|71\/284
+|move|p1a: Onix|Rock Slide|p2a: Rapidash|[miss]
+|-miss|p1a: Onix
+|-damage|p1a: Onix|97\/233 psn|[from] psn|[of] p2a: Rapidash
+|
+|turn|36
+|
+|move|p2a: Rapidash|Hyper Beam|p1a: Onix
+|-crit|p1a: Onix
+|-resisted|p1a: Onix
+|-damage|p1a: Onix|32\/233 psn
+|move|p1a: Onix|Rock Slide|p2a: Rapidash
+|-supereffective|p2a: Rapidash
+|-end|p2a: Rapidash|Substitute
+|-damage|p1a: Onix|18\/233 psn|[from] psn|[of] p2a: Rapidash
+|
+|turn|37
+|
+|cant|p2a: Rapidash|recharge
+|move|p1a: Onix|Rock Slide|p2a: Rapidash
+|-supereffective|p2a: Rapidash
+|-damage|p2a: Rapidash|0 fnt
+|faint|p2a: Rapidash
+|
+|switch|p2a: Kingler|Kingler, L85|267\/267
+|turn|38
+|
+|move|p2a: Kingler|Body Slam|p1a: Onix
+|-resisted|p1a: Onix
+|-damage|p1a: Onix|0 fnt
+|faint|p1a: Onix
+|
+|win|ProletarioParasito
+|raw|Ladder updating...
+|raw|Caesar Augustus's rating: 1336 &rarr; <strong>1315<\/strong><br \/>(-21 for losing)
+|raw|ProletarioParasito's rating: 1319 &rarr; <strong>1340<\/strong><br \/>(+21 for winning)
+|c|★Caesar Augustus|gg
+|leave|Caesar Augustus
+|player|p1

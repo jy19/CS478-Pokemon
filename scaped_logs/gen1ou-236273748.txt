@@ -1,0 +1,293 @@
+﻿|join|NixHex
+|join|Giju
+|player|p1|NixHex|101
+|player|p2|Giju|163
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jolteon|Jolteon|333\/333
+|switch|p2a: Jynx|Jynx|333\/333
+|turn|1
+|
+|switch|p2a: Golem|Golem|363\/363
+|move|p1a: Jolteon|Thunder Wave|p2a: Golem
+|-immune|p2a: Golem|[msg]
+|
+|turn|2
+|
+|switch|p1a: Cloyster|Cloyster|303\/303
+|move|p2a: Golem|Rock Slide|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|189\/303
+|
+|turn|3
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|move|p1a: Cloyster|Clamp|p2a: Starmie|[miss]
+|-miss|p1a: Cloyster
+|
+|turn|4
+|
+|switch|p1a: Jolteon|Jolteon|333\/333
+|move|p2a: Starmie|Thunderbolt|p1a: Jolteon
+|-resisted|p1a: Jolteon
+|-damage|p1a: Jolteon|299\/333
+|
+|turn|5
+|
+|switch|p1a: Victreebel|Victreebel|363\/363
+|switch|p2a: Golem|Golem|363\/363
+|
+|turn|6
+|
+|switch|p2a: Jynx|Jynx|333\/333
+|move|p1a: Victreebel|Stun Spore|p2a: Jynx
+|-status|p2a: Jynx|par
+|
+|turn|7
+|
+|move|p1a: Victreebel|Wrap|p2a: Jynx
+|-damage|p2a: Jynx|309\/333 par
+|-activate|p2a: Jynx|move: Wrap|[of] p1a: Victreebel
+|cant|p2a: Jynx|partiallytrapped
+|
+|turn|8
+|
+|move|p1a: Victreebel|Wrap|p2a: Jynx
+|-damage|p2a: Jynx|285\/333 par
+|cant|p2a: Jynx|partiallytrapped
+|
+|-end|p2a: Jynx|Wrap|[partiallytrapped]
+|turn|9
+|
+|move|p1a: Victreebel|Wrap|p2a: Jynx
+|-damage|p2a: Jynx|262\/333 par
+|-activate|p2a: Jynx|move: Wrap|[of] p1a: Victreebel
+|cant|p2a: Jynx|partiallytrapped
+|
+|turn|10
+|
+|move|p1a: Victreebel|Wrap|p2a: Jynx
+|-damage|p2a: Jynx|239\/333 par
+|cant|p2a: Jynx|partiallytrapped
+|
+|turn|11
+|
+|move|p1a: Victreebel|Wrap|p2a: Jynx
+|-damage|p2a: Jynx|216\/333 par
+|cant|p2a: Jynx|par
+|
+|-end|p2a: Jynx|Wrap|[partiallytrapped]
+|turn|12
+|
+|move|p1a: Victreebel|Wrap|p2a: Jynx
+|-damage|p2a: Jynx|192\/333 par
+|-activate|p2a: Jynx|move: Wrap|[of] p1a: Victreebel
+|cant|p2a: Jynx|partiallytrapped
+|
+|turn|13
+|
+|move|p1a: Victreebel|Wrap|p2a: Jynx
+|-damage|p2a: Jynx|168\/333 par
+|cant|p2a: Jynx|partiallytrapped
+|
+|-end|p2a: Jynx|Wrap|[partiallytrapped]
+|turn|14
+|
+|move|p1a: Victreebel|Wrap|p2a: Jynx
+|-damage|p2a: Jynx|146\/333 par
+|-activate|p2a: Jynx|move: Wrap|[of] p1a: Victreebel
+|cant|p2a: Jynx|partiallytrapped
+|
+|turn|15
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Victreebel|Wrap|p2a: Snorlax
+|-damage|p2a: Snorlax|507\/523
+|-activate|p2a: Snorlax|move: Wrap|[of] p1a: Victreebel
+|
+|turn|16
+|
+|move|p1a: Victreebel|Wrap|p2a: Snorlax
+|-damage|p2a: Snorlax|491\/523
+|cant|p2a: Snorlax|partiallytrapped
+|
+|turn|17
+|
+|move|p1a: Victreebel|Wrap|p2a: Snorlax
+|-damage|p2a: Snorlax|475\/523
+|cant|p2a: Snorlax|partiallytrapped
+|
+|-end|p2a: Snorlax|Wrap|[partiallytrapped]
+|turn|18
+|
+|move|p1a: Victreebel|Stun Spore|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|move|p2a: Snorlax|Reflect|p2a: Snorlax
+|-start|p2a: Snorlax|Reflect
+|
+|turn|19
+|
+|move|p1a: Victreebel|Razor Leaf|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|324\/523 par
+|move|p2a: Snorlax|Body Slam|p1a: Victreebel
+|-damage|p1a: Victreebel|228\/363
+|
+|turn|20
+|
+|move|p1a: Victreebel|Wrap|p2a: Snorlax|[miss]
+|-miss|p1a: Victreebel
+|move|p2a: Snorlax|Body Slam|p1a: Victreebel
+|-crit|p1a: Victreebel
+|-damage|p1a: Victreebel|0 fnt
+|faint|p1a: Victreebel
+|
+|switch|p1a: Moltres|Moltres|383\/383
+|turn|21
+|
+|move|p1a: Moltres|Fire Spin|p2a: Snorlax
+|-damage|p2a: Snorlax|294\/523 par
+|-activate|p2a: Snorlax|move: Fire Spin|[of] p1a: Moltres
+|cant|p2a: Snorlax|partiallytrapped
+|
+|turn|22
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|move|p1a: Moltres|Fire Spin|p2a: Starmie|[miss]
+|-miss|p1a: Moltres
+|
+|turn|23
+|
+|move|p2a: Starmie|Thunder Wave|p1a: Moltres
+|-status|p1a: Moltres|par
+|cant|p1a: Moltres|par
+|
+|turn|24
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Moltres
+|-crit|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|135\/383 par
+|cant|p1a: Moltres|par
+|
+|turn|25
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|9\/383 par
+|move|p1a: Moltres|Agility|p1a: Moltres
+|-boost|p1a: Moltres|spe|2
+|
+|turn|26
+|
+|move|p1a: Moltres|Hyper Beam|p2a: Starmie
+|-damage|p2a: Starmie|196\/323
+|move|p2a: Starmie|Thunderbolt|p1a: Moltres
+|-crit|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|27
+|
+|move|p2a: Starmie|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|move|p1a: Tauros|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|88\/323
+|
+|turn|28
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Tauros|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|408\/703
+|
+|turn|29
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Tauros
+|-damage|p1a: Tauros|257\/353 par
+|cant|p1a: Tauros|par
+|
+|turn|30
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|82\/353 par
+|cant|p1a: Tauros|par
+|
+|turn|31
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|switch|p1a: Jolteon|Jolteon|299\/333
+|turn|32
+|
+|move|p1a: Jolteon|Double Kick|p2a: Chansey
+|-supereffective|p2a: Chansey
+|-damage|p2a: Chansey|312\/703
+|-damage|p2a: Chansey|216\/703
+|-hitcount|p2a: Chansey|2
+|move|p2a: Chansey|Thunder Wave|p1a: Jolteon
+|-status|p1a: Jolteon|par
+|
+|turn|33
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|567\/703
+|cant|p1a: Jolteon|par
+|
+|turn|34
+|
+|switch|p1a: Cloyster|Cloyster|189\/303
+|move|p2a: Chansey|Thunderbolt|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|25\/303
+|
+|turn|35
+|
+|move|p1a: Cloyster|Explosion|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|faint|p1a: Cloyster
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|switch|p1a: Jolteon|Jolteon|299\/333 par
+|turn|36
+|
+|switch|p2a: Golem|Golem|363\/363
+|cant|p1a: Jolteon|par
+|
+|turn|37
+|
+|move|p2a: Golem|Earthquake|p1a: Jolteon
+|-supereffective|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|switch|p1a: Dragonite|Dragonite|385\/385
+|turn|38
+|c|★NixHex|g2g
+|c|★NixHex|gg
+|leave|NixHex
+|player|p1
+|-message|nixhex lost due to inactivity.
+|
+|win|Giju
+|raw|Ladder updating...
+|raw|NixHex's rating: 1271 &rarr; <strong>1243<\/strong><br \/>(-28 for losing)
+|raw|Giju's rating: 1236 &rarr; <strong>1264<\/strong><br \/>(+28 for winning)
+|leave|Giju
+|player|p2
+|join|Giju

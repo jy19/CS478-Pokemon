@@ -1,0 +1,381 @@
+﻿|join|Librarynoob
+|join|tjorfdc
+|player|p1|Librarynoob|266
+|player|p2|tjorfdc|110
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Nidoking|Nidoking, L86|315\/315
+|switch|p2a: Magnemite|Magnemite, L95|240\/240
+|turn|1
+|
+|switch|p2a: Golbat|Golbat, L86|304\/304
+|move|p1a: Nidoking|Blizzard|p2a: Golbat|[miss]
+|-miss|p1a: Nidoking
+|
+|turn|2
+|
+|move|p2a: Golbat|Confuse Ray|p1a: Nidoking
+|-start|p1a: Nidoking|confusion
+|-activate|p1a: Nidoking|confusion
+|-damage|p1a: Nidoking|281\/315|[from] confusion
+|
+|turn|3
+|
+|move|p2a: Golbat|Screech|p1a: Nidoking
+|-unboost|p1a: Nidoking|def|2
+|-activate|p1a: Nidoking|confusion
+|move|p1a: Nidoking|Thunderbolt|p2a: Golbat
+|-crit|p2a: Golbat
+|-supereffective|p2a: Golbat
+|-damage|p2a: Golbat|65\/304
+|
+|turn|4
+|
+|move|p2a: Golbat|Hyper Beam|p1a: Nidoking
+|-damage|p1a: Nidoking|87\/315
+|-activate|p1a: Nidoking|confusion
+|move|p1a: Nidoking|Thunderbolt|p2a: Golbat
+|-supereffective|p2a: Golbat
+|-damage|p2a: Golbat|0 fnt
+|faint|p2a: Golbat
+|
+|switch|p2a: Ditto|Ditto, L99|296\/296
+|turn|5
+|
+|switch|p2a: Poliwrath|Poliwrath, L86|330\/330
+|-end|p1a: Nidoking|confusion
+|move|p1a: Nidoking|Earthquake|p2a: Poliwrath
+|-damage|p2a: Poliwrath|234\/330
+|
+|turn|6
+|
+|switch|p1a: Parasect|Parasect, L86|279\/279
+|move|p2a: Poliwrath|Blizzard|p1a: Parasect
+|-supereffective|p1a: Parasect
+|-damage|p1a: Parasect|134\/279
+|
+|turn|7
+|
+|switch|p1a: Omastar|Omastar, L86|296\/296
+|move|p2a: Poliwrath|Hypnosis|p1a: Omastar
+|-status|p1a: Omastar|slp
+|
+|turn|8
+|
+|move|p2a: Poliwrath|Amnesia|p2a: Poliwrath
+|-boost|p2a: Poliwrath|spd|2
+|-boost|p2a: Poliwrath|spa|2
+|cant|p1a: Omastar|slp
+|
+|turn|9
+|
+|move|p2a: Poliwrath|Amnesia|p2a: Poliwrath
+|-boost|p2a: Poliwrath|spd|2
+|-boost|p2a: Poliwrath|spa|2
+|cant|p1a: Omastar|slp
+|-curestatus|p1a: Omastar|slp
+|
+|turn|10
+|
+|move|p2a: Poliwrath|Submission|p1a: Omastar
+|-crit|p1a: Omastar
+|-supereffective|p1a: Omastar
+|-damage|p1a: Omastar|52\/296
+|-damage|p2a: Poliwrath|173\/330|[from] recoil|[of] p1a: Omastar
+|move|p1a: Omastar|Blizzard|p2a: Poliwrath
+|-crit|p2a: Poliwrath
+|-resisted|p2a: Poliwrath
+|-damage|p2a: Poliwrath|65\/330
+|
+|turn|11
+|
+|move|p2a: Poliwrath|Blizzard|p1a: Omastar
+|-resisted|p1a: Omastar
+|-damage|p1a: Omastar|0 fnt
+|faint|p1a: Omastar
+|
+|switch|p1a: Ditto|Ditto, L99|296\/296
+|turn|12
+|
+|move|p2a: Poliwrath|Hypnosis|p1a: Ditto
+|-status|p1a: Ditto|slp
+|cant|p1a: Ditto|slp
+|
+|turn|13
+|
+|move|p2a: Poliwrath|Blizzard|p1a: Ditto
+|-damage|p1a: Ditto|31\/296 slp
+|cant|p1a: Ditto|slp
+|
+|turn|14
+|
+|move|p2a: Poliwrath|Blizzard|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|
+|switch|p1a: Rapidash|Rapidash, L86|287\/287
+|turn|15
+|
+|move|p1a: Rapidash|Substitute|p1a: Rapidash
+|-start|p1a: Rapidash|Substitute
+|-damage|p1a: Rapidash|216\/287
+|move|p2a: Poliwrath|Hypnosis|p1a: Rapidash
+|-status|p1a: Rapidash|slp
+|
+|turn|16
+|
+|cant|p1a: Rapidash|slp
+|move|p2a: Poliwrath|Blizzard|p1a: Rapidash
+|-crit|p1a: Rapidash
+|-end|p1a: Rapidash|Substitute
+|
+|turn|17
+|
+|cant|p1a: Rapidash|slp
+|-curestatus|p1a: Rapidash|slp
+|move|p2a: Poliwrath|Submission|p1a: Rapidash
+|-damage|p1a: Rapidash|119\/287
+|-damage|p2a: Poliwrath|41\/330|[from] recoil|[of] p1a: Rapidash
+|
+|turn|18
+|
+|move|p1a: Rapidash|Body Slam|p2a: Poliwrath
+|-damage|p2a: Poliwrath|0 fnt
+|faint|p2a: Poliwrath
+|
+|switch|p2a: Mew|Mew, L77|312\/312
+|turn|19
+|
+|move|p1a: Rapidash|Body Slam|p2a: Mew
+|-crit|p2a: Mew
+|-damage|p2a: Mew|197\/312
+|-status|p2a: Mew|par
+|move|p2a: Mew|Swift|p1a: Rapidash
+|-damage|p1a: Rapidash|75\/287
+|
+|turn|20
+|
+|move|p1a: Rapidash|Body Slam|p2a: Mew
+|-damage|p2a: Mew|130\/312 par
+|move|p2a: Mew|Fissure|p1a: Rapidash|[miss]
+|-miss|p2a: Mew
+|
+|turn|21
+|
+|move|p1a: Rapidash|Hyper Beam|p2a: Mew|[miss]
+|-miss|p1a: Rapidash
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|286\/312 par
+|
+|turn|22
+|
+|move|p1a: Rapidash|Body Slam|p2a: Mew
+|-damage|p2a: Mew|217\/312 par
+|move|p2a: Mew|Fissure|p1a: Rapidash|[miss]
+|-miss|p2a: Mew
+|
+|turn|23
+|
+|move|p1a: Rapidash|Body Slam|p2a: Mew
+|-damage|p2a: Mew|154\/312 par
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|310\/312 par
+|
+|turn|24
+|
+|move|p1a: Rapidash|Body Slam|p2a: Mew
+|-damage|p2a: Mew|250\/312 par
+|cant|p2a: Mew|par
+|
+|turn|25
+|
+|move|p1a: Rapidash|Body Slam|p2a: Mew
+|-damage|p2a: Mew|182\/312 par
+|cant|p2a: Mew|par
+|
+|turn|26
+|
+|move|p1a: Rapidash|Body Slam|p2a: Mew
+|-damage|p2a: Mew|116\/312 par
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|272\/312 par
+|
+|turn|27
+|
+|move|p1a: Rapidash|Body Slam|p2a: Mew
+|-damage|p2a: Mew|210\/312 par
+|move|p2a: Mew|Fissure|p1a: Rapidash|[miss]
+|-miss|p2a: Mew
+|
+|turn|28
+|
+|move|p1a: Rapidash|Body Slam|p2a: Mew
+|-damage|p2a: Mew|151\/312 par
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|307\/312 par
+|
+|turn|29
+|
+|move|p1a: Rapidash|Body Slam|p2a: Mew
+|-damage|p2a: Mew|247\/312 par
+|move|p2a: Mew|Fissure|p1a: Rapidash|[miss]
+|-miss|p2a: Mew
+|
+|turn|30
+|c|★tjorfdc|this does not aMEWs me lel
+|
+|move|p1a: Rapidash|Body Slam|p2a: Mew
+|-damage|p2a: Mew|178\/312 par
+|cant|p2a: Mew|par
+|
+|turn|31
+|
+|move|p1a: Rapidash|Hyper Beam|p2a: Mew
+|-damage|p2a: Mew|69\/312 par
+|cant|p2a: Mew|par
+|
+|turn|32
+|
+|cant|p1a: Rapidash|recharge
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|225\/312 par
+|
+|turn|33
+|
+|switch|p1a: Nidoking|Nidoking, L86|87\/315
+|cant|p2a: Mew|par
+|
+|turn|34
+|
+|move|p1a: Nidoking|Earthquake|p2a: Mew
+|-damage|p2a: Mew|124\/312 par
+|move|p2a: Mew|Swift|p1a: Nidoking
+|-damage|p1a: Nidoking|51\/315
+|
+|turn|35
+|
+|move|p1a: Nidoking|Earthquake|p2a: Mew
+|-damage|p2a: Mew|10\/312 par
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|166\/312 par
+|
+|turn|36
+|
+|move|p1a: Nidoking|Earthquake|p2a: Mew
+|-damage|p2a: Mew|54\/312 par
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|210\/312 par
+|
+|turn|37
+|
+|move|p1a: Nidoking|Blizzard|p2a: Mew
+|-crit|p2a: Mew
+|-damage|p2a: Mew|73\/312 par
+|cant|p2a: Mew|par
+|
+|turn|38
+|
+|move|p1a: Nidoking|Earthquake|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|switch|p2a: Staryu|Staryu, L86|227\/227
+|turn|39
+|
+|switch|p1a: Parasect|Parasect, L86|134\/279
+|move|p2a: Staryu|Blizzard|p1a: Parasect
+|-supereffective|p1a: Parasect
+|-damage|p1a: Parasect|0 fnt
+|faint|p1a: Parasect
+|
+|switch|p1a: Kangaskhan|Kangaskhan, L86|356\/356
+|turn|40
+|
+|move|p1a: Kangaskhan|Body Slam|p2a: Staryu
+|-damage|p2a: Staryu|104\/227
+|move|p2a: Staryu|Thunder Wave|p1a: Kangaskhan
+|-status|p1a: Kangaskhan|par
+|
+|turn|41
+|
+|move|p2a: Staryu|Recover|p2a: Staryu
+|-heal|p2a: Staryu|217\/227
+|cant|p1a: Kangaskhan|par
+|
+|turn|42
+|
+|move|p2a: Staryu|Thunderbolt|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|267\/356 par
+|move|p1a: Kangaskhan|Body Slam|p2a: Staryu
+|-damage|p2a: Staryu|95\/227
+|
+|turn|43
+|
+|move|p2a: Staryu|Recover|p2a: Staryu
+|-heal|p2a: Staryu|208\/227
+|move|p1a: Kangaskhan|Body Slam|p2a: Staryu
+|-damage|p2a: Staryu|80\/227
+|
+|turn|44
+|
+|move|p2a: Staryu|Recover|p2a: Staryu
+|-heal|p2a: Staryu|193\/227
+|cant|p1a: Kangaskhan|par
+|
+|turn|45
+|
+|switch|p2a: Magnemite|Magnemite, L95|240\/240
+|cant|p1a: Kangaskhan|par
+|
+|turn|46
+|
+|move|p2a: Magnemite|Thunder|p1a: Kangaskhan|[miss]
+|-miss|p2a: Magnemite
+|move|p1a: Kangaskhan|Body Slam|p2a: Magnemite
+|-damage|p2a: Magnemite|144\/240
+|
+|turn|47
+|
+|move|p2a: Magnemite|Thunder|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|13\/356 par
+|cant|p1a: Kangaskhan|par
+|
+|turn|48
+|
+|move|p2a: Magnemite|Thunderbolt|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|0 fnt
+|faint|p1a: Kangaskhan
+|
+|switch|p1a: Rapidash|Rapidash, L86|75\/287
+|turn|49
+|
+|move|p1a: Rapidash|Body Slam|p2a: Magnemite
+|-damage|p2a: Magnemite|76\/240
+|move|p2a: Magnemite|Thunderbolt|p1a: Rapidash
+|-damage|p1a: Rapidash|0 fnt
+|faint|p1a: Rapidash
+|
+|switch|p1a: Nidoking|Nidoking, L86|51\/315
+|turn|50
+|
+|move|p1a: Nidoking|Body Slam|p2a: Magnemite
+|-damage|p2a: Magnemite|12\/240
+|move|p2a: Magnemite|Double-Edge|p1a: Nidoking
+|-damage|p1a: Nidoking|0 fnt
+|-damage|p2a: Magnemite|0 fnt|[from] recoil|[of] p1a: Nidoking
+|faint|p1a: Nidoking
+|faint|p2a: Magnemite
+|
+|win|tjorfdc
+|raw|Ladder updating...
+|raw|Librarynoob's rating: 1327 &rarr; <strong>1298<\/strong><br \/>(-29 for losing)
+|raw|tjorfdc's rating: 1159 &rarr; <strong>1196<\/strong><br \/>(+37 for winning)
+|c|★tjorfdc|gg
+|leave|Librarynoob

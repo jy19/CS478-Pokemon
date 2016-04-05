@@ -1,0 +1,249 @@
+﻿|join|Swoobat 2 AG Plz
+|join|hades-kirito
+|player|p1|Swoobat 2 AG Plz|102
+|player|p2|hades-kirito|265
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jolteon|Jolteon, L79|265\/265
+|switch|p2a: Slowpoke|Slowpoke, L96|368\/368
+|turn|1
+|
+|switch|p2a: Graveler|Graveler, L85|267\/267
+|move|p1a: Jolteon|Thunderbolt|p2a: Graveler
+|-immune|p2a: Graveler|[msg]
+|
+|turn|2
+|
+|switch|p1a: Dragonite|Dragonite, L85|328\/328
+|move|p2a: Graveler|Earthquake|p1a: Dragonite
+|-immune|p1a: Dragonite|[msg]
+|
+|turn|3
+|
+|move|p1a: Dragonite|Blizzard|p2a: Graveler
+|-supereffective|p2a: Graveler
+|-damage|p2a: Graveler|13\/267
+|move|p2a: Graveler|Rock Slide|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|179\/328
+|
+|turn|4
+|
+|move|p1a: Dragonite|Blizzard|p2a: Graveler
+|-supereffective|p2a: Graveler
+|-damage|p2a: Graveler|0 fnt
+|faint|p2a: Graveler
+|
+|switch|p2a: Jolteon|Jolteon, L79|265\/265
+|turn|5
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-damage|p1a: Dragonite|12\/328
+|move|p1a: Dragonite|Blizzard|p2a: Jolteon
+|-damage|p2a: Jolteon|188\/265
+|
+|turn|6
+|c|★Swoobat 2 AG Plz|dat crit
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|switch|p1a: Machamp|Machamp, L90|345\/345
+|turn|7
+|
+|switch|p2a: Slowpoke|Slowpoke, L96|368\/368
+|move|p1a: Machamp|Earthquake|p2a: Slowpoke
+|-damage|p2a: Slowpoke|261\/368
+|
+|turn|8
+|
+|move|p1a: Machamp|Earthquake|p2a: Slowpoke
+|-damage|p2a: Slowpoke|147\/368
+|move|p2a: Slowpoke|Thunder Wave|p1a: Machamp
+|-status|p1a: Machamp|par
+|
+|turn|9
+|
+|move|p2a: Slowpoke|Amnesia|p2a: Slowpoke
+|-boost|p2a: Slowpoke|spd|2
+|-boost|p2a: Slowpoke|spa|2
+|move|p1a: Machamp|Hyper Beam|p2a: Slowpoke|[miss]
+|-miss|p1a: Machamp
+|
+|turn|10
+|
+|move|p2a: Slowpoke|Rest|p2a: Slowpoke
+|-status|p2a: Slowpoke|slp
+|-heal|p2a: Slowpoke|368\/368 slp|[silent]
+|-status|p2a: Slowpoke|slp|[from] move: Rest
+|move|p1a: Machamp|Earthquake|p2a: Slowpoke
+|-damage|p2a: Slowpoke|263\/368 slp
+|
+|turn|11
+|
+|cant|p2a: Slowpoke|slp
+|cant|p1a: Machamp|par
+|
+|turn|12
+|
+|-curestatus|p2a: Slowpoke|slp
+|cant|p1a: Machamp|par
+|
+|turn|13
+|
+|move|p2a: Slowpoke|Surf|p1a: Machamp
+|-damage|p1a: Machamp|153\/345 par
+|move|p1a: Machamp|Earthquake|p2a: Slowpoke
+|-damage|p2a: Slowpoke|160\/368
+|
+|turn|14
+|
+|move|p2a: Slowpoke|Surf|p1a: Machamp
+|-damage|p1a: Machamp|0 fnt
+|faint|p1a: Machamp
+|
+|switch|p1a: Jolteon|Jolteon, L79|265\/265
+|turn|15
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Slowpoke
+|-supereffective|p2a: Slowpoke
+|-damage|p2a: Slowpoke|21\/368
+|move|p2a: Slowpoke|Thunder Wave|p1a: Jolteon
+|-status|p1a: Jolteon|par
+|
+|turn|16
+|
+|move|p2a: Slowpoke|Surf|p1a: Jolteon
+|-damage|p1a: Jolteon|121\/265 par
+|move|p1a: Jolteon|Thunderbolt|p2a: Slowpoke
+|-supereffective|p2a: Slowpoke
+|-damage|p2a: Slowpoke|0 fnt
+|faint|p2a: Slowpoke
+|c|★Swoobat 2 AG Plz|so lucky my god
+|
+|switch|p2a: Kangaskhan|Kangaskhan, L85|352\/352
+|turn|17
+|
+|move|p2a: Kangaskhan|Earthquake|p1a: Jolteon
+|-supereffective|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|switch|p1a: Vaporeon|Vaporeon, L85|395\/395
+|turn|18
+|
+|move|p2a: Kangaskhan|Body Slam|p1a: Vaporeon
+|-damage|p1a: Vaporeon|280\/395
+|move|p1a: Vaporeon|Hydro Pump|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|149\/352
+|
+|turn|19
+|
+|move|p2a: Kangaskhan|Earthquake|p1a: Vaporeon
+|-damage|p1a: Vaporeon|192\/395
+|move|p1a: Vaporeon|Hydro Pump|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|faint|p2a: Kangaskhan
+|
+|switch|p2a: Jolteon|Jolteon, L79|188\/265
+|turn|20
+|
+|switch|p1a: Electrode|Electrode, L90|291\/291
+|move|p2a: Jolteon|Thunderbolt|p1a: Electrode
+|-resisted|p1a: Electrode
+|-damage|p1a: Electrode|241\/291
+|
+|turn|21
+|
+|move|p1a: Electrode|Explosion|p2a: Jolteon
+|-crit|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|faint|p1a: Electrode
+|
+|switch|p1a: Meowth|Meowth, L96|272\/272
+|switch|p2a: Golbat|Golbat, L90|318\/318
+|turn|22
+|
+|move|p1a: Meowth|Thunderbolt|p2a: Golbat
+|-supereffective|p2a: Golbat
+|-damage|p2a: Golbat|212\/318
+|move|p2a: Golbat|Confuse Ray|p1a: Meowth
+|-start|p1a: Meowth|confusion
+|
+|turn|23
+|
+|switch|p1a: Vaporeon|Vaporeon, L85|192\/395
+|move|p2a: Golbat|Mega Drain|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|145\/395
+|-heal|p2a: Golbat|235\/318|[from] drain|[of] p1a: Vaporeon
+|
+|turn|24
+|
+|move|p2a: Golbat|Confuse Ray|p1a: Vaporeon
+|-start|p1a: Vaporeon|confusion
+|-activate|p1a: Vaporeon|confusion
+|-damage|p1a: Vaporeon|113\/395|[from] confusion
+|
+|turn|25
+|
+|move|p2a: Golbat|Mega Drain|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|67\/395
+|-heal|p2a: Golbat|258\/318|[from] drain|[of] p1a: Vaporeon
+|-activate|p1a: Vaporeon|confusion
+|move|p1a: Vaporeon|Blizzard|p2a: Golbat
+|-supereffective|p2a: Golbat
+|-damage|p2a: Golbat|72\/318
+|
+|turn|26
+|
+|switch|p1a: Meowth|Meowth, L96|272\/272
+|move|p2a: Golbat|Double-Edge|p1a: Meowth
+|-damage|p1a: Meowth|177\/272
+|-damage|p2a: Golbat|49\/318|[from] recoil|[of] p1a: Meowth
+|
+|turn|27
+|
+|move|p1a: Meowth|Slash|p2a: Golbat
+|-crit|p2a: Golbat
+|-damage|p2a: Golbat|0 fnt
+|faint|p2a: Golbat
+|
+|switch|p2a: Hitmonchan|Hitmonchan, L90|273\/273
+|turn|28
+|
+|move|p1a: Meowth|Body Slam|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|201\/273
+|move|p2a: Hitmonchan|Body Slam|p1a: Meowth
+|-damage|p1a: Meowth|69\/272
+|
+|turn|29
+|
+|move|p1a: Meowth|Body Slam|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|129\/273
+|-status|p2a: Hitmonchan|par
+|move|p2a: Hitmonchan|Body Slam|p1a: Meowth
+|-damage|p1a: Meowth|0 fnt
+|faint|p1a: Meowth
+|
+|switch|p1a: Vaporeon|Vaporeon, L85|67\/395
+|turn|30
+|
+|move|p1a: Vaporeon|Hydro Pump|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|0 fnt
+|faint|p2a: Hitmonchan
+|
+|win|Swoobat 2 AG Plz
+|raw|Swoobat 2 AG Plz's rating: 1047 &rarr; <strong>1084<\/strong><br \/>(+37 for winning)
+|raw|hades-kirito's rating: 1091 &rarr; <strong>1064<\/strong><br \/>(-27 for losing)

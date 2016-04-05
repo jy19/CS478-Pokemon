@@ -1,0 +1,51 @@
+﻿|join|Broncosfan88
+|join|witepro031
+|player|p1|Broncosfan88|1
+|player|p2|witepro031|1
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Poliwhirl|Poliwhirl, L85|284\/284
+|switch|p2a: Lapras|Lapras, L79|367\/367
+|turn|1
+|
+|switch|p2a: Jolteon|Jolteon, L79|265\/265
+|move|p1a: Poliwhirl|Hypnosis|p2a: Jolteon|[miss]
+|-miss|p1a: Poliwhirl
+|
+|turn|2
+|
+|switch|p1a: Marowak|Marowak, L90|291\/291
+|move|p2a: Jolteon|Thunderbolt|p1a: Marowak
+|-immune|p1a: Marowak|[msg]
+|
+|turn|3
+|
+|switch|p2a: Lapras|Lapras, L79|367\/367
+|move|p1a: Marowak|Body Slam|p2a: Lapras
+|-damage|p2a: Lapras|295\/367
+|
+|turn|4
+|
+|switch|p1a: Snorlax|Snorlax, L79|415\/415
+|move|p2a: Lapras|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|298\/415
+|-status|p1a: Snorlax|frz
+|
+|turn|5
+|-message|witepro031 forfeited.
+|
+|win|Broncosfan88
+|leave|witepro031
+|player|p2
+|raw|Broncosfan88's rating: 1245 &rarr; <strong>1255<\/strong><br \/>(+10 for winning)
+|raw|witepro031's rating: 1000 &rarr; <strong>1000<\/strong><br \/>(+0 for losing)
+|leave|Broncosfan88
+|player|p1
+|join|witepro031

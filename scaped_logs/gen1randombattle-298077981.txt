@@ -1,0 +1,233 @@
+﻿|join|Dervodel
+|join|jynx2000
+|player|p1|Dervodel|169
+|player|p2|jynx2000|169
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|12237,54499,39088,63025
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gastly|Gastly, L96|252\/252
+|switch|p2a: Magneton|Magneton, L90|273\/273
+|turn|1
+|choice|switch 6|move 4
+|
+|switch|p1a: Onix|Onix, L90|246\/246
+|move|p2a: Magneton|Thunder Wave|p1a: Onix
+|-immune|p1a: Onix|[msg]
+|
+|turn|2
+|choice|move 2|switch 5
+|
+|switch|p2a: Tangela|Tangela, L85|284\/284
+|move|p1a: Onix|Rock Slide|p2a: Tangela
+|-damage|p2a: Tangela|239\/284
+|
+|turn|3
+|choice|switch 2|move 4
+|
+|switch|p1a: Eevee|Eevee, L96|300\/300
+|move|p2a: Tangela|Mega Drain|p1a: Eevee
+|-damage|p1a: Eevee|255\/300
+|-heal|p2a: Tangela|261\/284|[from] drain|[of] p1a: Eevee
+|
+|turn|4
+|choice|move 1|move 1
+|
+|move|p1a: Eevee|Body Slam|p2a: Tangela
+|-damage|p2a: Tangela|197\/284
+|move|p2a: Tangela|Body Slam|p1a: Eevee
+|-damage|p1a: Eevee|199\/300
+|
+|turn|5
+|choice|move 2|move 1
+|
+|move|p1a: Eevee|Reflect|p1a: Eevee
+|-start|p1a: Eevee|Reflect
+|move|p2a: Tangela|Body Slam|p1a: Eevee
+|-damage|p1a: Eevee|173\/300
+|
+|turn|6
+|choice|move 1|switch 3
+|
+|switch|p2a: Moltres|Moltres, L85|327\/327
+|move|p1a: Eevee|Body Slam|p2a: Moltres
+|-damage|p2a: Moltres|253\/327
+|
+|turn|7
+|choice|move 1|move 1
+|
+|move|p2a: Moltres|Fire Blast|p1a: Eevee
+|-damage|p1a: Eevee|2\/300
+|move|p1a: Eevee|Body Slam|p2a: Moltres
+|-damage|p2a: Moltres|168\/327
+|
+|turn|8
+|choice|move 1|move 1
+|
+|move|p2a: Moltres|Fire Blast|p1a: Eevee|[miss]
+|-miss|p2a: Moltres
+|move|p1a: Eevee|Body Slam|p2a: Moltres
+|-damage|p2a: Moltres|86\/327
+|-status|p2a: Moltres|par
+|
+|turn|9
+|choice|move 1|move 1
+|
+|move|p1a: Eevee|Body Slam|p2a: Moltres
+|-damage|p2a: Moltres|3\/327 par
+|move|p2a: Moltres|Fire Blast|p1a: Eevee
+|-damage|p1a: Eevee|0 fnt
+|faint|p1a: Eevee
+|choice|switch 6|
+|
+|switch|p1a: Gastly|Gastly, L96|252\/252
+|turn|10
+|c|★jynx2000|god you take too long
+|choice|move 4|move 1
+|
+|move|p1a: Gastly|Psychic|p2a: Moltres
+|-crit|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|choice||switch 4
+|
+|switch|p2a: Mew|Mew, L74|300\/300
+|turn|11
+|c|★Dervodel|im sory
+|choice|move 2|move 3
+|
+|move|p1a: Gastly|Confuse Ray|p2a: Mew
+|-start|p2a: Mew|confusion
+|-activate|p2a: Mew|confusion
+|move|p2a: Mew|Earthquake|p1a: Gastly
+|-supereffective|p1a: Gastly
+|-damage|p1a: Gastly|69\/252
+|
+|turn|12
+|choice|move 3|move 3
+|
+|move|p1a: Gastly|Explosion|p2a: Mew
+|-crit|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|faint|p1a: Gastly
+|c|★jynx2000|god you take too long
+|choice|switch 4|switch 2
+|
+|switch|p1a: Raticate|Raticate, L85|267\/267
+|switch|p2a: Rattata|Rattata, L96|252\/252
+|turn|13
+|choice|move 1|move 1
+|
+|move|p1a: Raticate|Super Fang|p2a: Rattata|[miss]
+|-miss|p1a: Raticate
+|move|p2a: Rattata|Super Fang|p1a: Raticate
+|-damage|p1a: Raticate|134\/267
+|
+|turn|14
+|choice|move 1|move 3
+|
+|move|p1a: Raticate|Super Fang|p2a: Rattata
+|-damage|p2a: Rattata|126\/252
+|move|p2a: Rattata|Body Slam|p1a: Raticate
+|-damage|p1a: Raticate|38\/267
+|
+|turn|15
+|choice|move 4|move 3
+|
+|move|p1a: Raticate|Hyper Beam|p2a: Rattata|[miss]
+|-miss|p1a: Raticate
+|move|p2a: Rattata|Body Slam|p1a: Raticate
+|-damage|p1a: Raticate|0 fnt
+|faint|p1a: Raticate
+|c|★Dervodel|your such an Ash
+|choice|switch 5|
+|
+|switch|p1a: Alakazam|Alakazam, L79|249\/249
+|turn|16
+|choice|move 1|move 3
+|
+|move|p1a: Alakazam|Psychic|p2a: Rattata
+|-crit|p2a: Rattata
+|-damage|p2a: Rattata|0 fnt
+|faint|p2a: Rattata
+|choice||switch 6
+|
+|switch|p2a: Rapidash|Rapidash, L90|300\/300
+|turn|17
+|choice|move 2|move 1
+|
+|move|p2a: Rapidash|Fire Blast|p1a: Alakazam
+|-damage|p1a: Alakazam|152\/249
+|-status|p1a: Alakazam|brn
+|move|p1a: Alakazam|Thunder Wave|p2a: Rapidash
+|-status|p2a: Rapidash|par
+|-damage|p1a: Alakazam|137\/249 brn|[from] brn|[of] p2a: Rapidash
+|
+|turn|18
+|choice|move 1|move 1
+|
+|move|p1a: Alakazam|Psychic|p2a: Rapidash
+|-damage|p2a: Rapidash|195\/300 par
+|-damage|p1a: Alakazam|122\/249 brn|[from] brn|[of] p2a: Rapidash
+|cant|p2a: Rapidash|par
+|
+|turn|19
+|choice|move 3|move 1
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|246\/249 brn
+|-damage|p1a: Alakazam|231\/249 brn|[from] brn
+|move|p2a: Rapidash|Fire Blast|p1a: Alakazam
+|-damage|p1a: Alakazam|126\/249 brn
+|
+|turn|20
+|choice|move 3|move 1
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|249\/249 brn
+|-damage|p1a: Alakazam|234\/249 brn|[from] brn
+|move|p2a: Rapidash|Fire Blast|p1a: Alakazam
+|-damage|p1a: Alakazam|126\/249 brn
+|
+|turn|21
+|choice|move 3|move 1
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|249\/249 brn
+|-damage|p1a: Alakazam|234\/249 brn|[from] brn
+|move|p2a: Rapidash|Fire Blast|p1a: Alakazam
+|-damage|p1a: Alakazam|137\/249 brn
+|
+|turn|22
+|choice|move 1|move 1
+|
+|move|p1a: Alakazam|Psychic|p2a: Rapidash
+|-crit|p2a: Rapidash
+|-damage|p2a: Rapidash|0 fnt
+|faint|p2a: Rapidash
+|choice||switch 5
+|
+|switch|p2a: Magneton|Magneton, L90|273\/273
+|turn|23
+|choice|move 2|switch 3
+|
+|switch|p2a: Tangela|Tangela, L85|197\/284
+|move|p1a: Alakazam|Thunder Wave|p2a: Tangela
+|-status|p2a: Tangela|par
+|-damage|p1a: Alakazam|122\/249 brn|[from] brn|[of] p2a: Tangela
+|
+|turn|24
+|-message|jynx2000 forfeited.
+|
+|win|Dervodel
+|leave|jynx2000
+|player|p2
+|raw|Dervodel's rating: 1200 &rarr; <strong>1224<\/strong><br \/>(+24 for winning)
+|raw|jynx2000's rating: 1181 &rarr; <strong>1157<\/strong><br \/>(-24 for losing)

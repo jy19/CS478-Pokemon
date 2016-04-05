@@ -1,0 +1,83 @@
+﻿|j|golderzoa333
+|j|red golden
+|player|p1|golderzoa333|141
+|player|p2|red golden|291
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|42092,22983,10942,27223
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Chansey|Chansey, L79|557\/557
+|switch|p2a: Hitmonchan|Hitmonchan, L90|273\/273
+|turn|1
+|choice|switch 6|move 1
+|
+|switch|p1a: Pinsir|Pinsir, L85|284\/284
+|move|p2a: Hitmonchan|Submission|p1a: Pinsir|[miss]
+|-miss|p2a: Hitmonchan
+|
+|turn|2
+|choice|move 2|move 4
+|
+|move|p1a: Pinsir|Swords Dance|p1a: Pinsir
+|-boost|p1a: Pinsir|atk|2
+|move|p2a: Hitmonchan|Body Slam|p1a: Pinsir
+|-damage|p1a: Pinsir|219\/284
+|
+|turn|3
+|choice|move 2|move 3
+|
+|move|p1a: Pinsir|Swords Dance|p1a: Pinsir
+|-boost|p1a: Pinsir|atk|2
+|move|p2a: Hitmonchan|Counter|p1a: Pinsir
+|-fail|p2a: Hitmonchan
+|
+|turn|4
+|choice|move 1|move 3
+|
+|move|p1a: Pinsir|Hyper Beam|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|0 fnt
+|faint|p2a: Hitmonchan
+|choice||switch 5
+|
+|switch|p2a: Onix|Onix, L90|246\/246
+|turn|5
+|choice|move 4|move 2
+|
+|move|p1a: Pinsir|Submission|p2a: Onix
+|-supereffective|p2a: Onix
+|-damage|p2a: Onix|0 fnt
+|-damage|p1a: Pinsir|158\/284|[from] recoil|[of] p2a: Onix
+|faint|p2a: Onix
+|choice||switch 6
+|
+|switch|p2a: Flareon|Flareon, L90|300\/300
+|turn|6
+|choice|move 1|move 2
+|
+|move|p2a: Flareon|Quick Attack|p1a: Pinsir
+|-damage|p1a: Pinsir|120\/284
+|move|p1a: Pinsir|Hyper Beam|p2a: Flareon
+|-crit|p2a: Flareon
+|-damage|p2a: Flareon|0 fnt
+|faint|p2a: Flareon
+|choice||switch 4
+|
+|switch|p2a: Chansey|Chansey, L79|557\/557
+|turn|7
+|choice|move 3|move 4
+|
+|move|p1a: Pinsir|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|-message|red golden forfeited.
+|
+|win|golderzoa333
+|player|p1
+|player|p2
+|l|red golden

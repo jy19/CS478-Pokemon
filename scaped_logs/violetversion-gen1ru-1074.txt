@@ -1,0 +1,416 @@
+﻿|J|I love pochama
+|J|CrapAtRBY
+|player|p1|I love pochama|32
+|player|p2|CrapAtRBY|1
+|gametype|singles
+|gen|1
+|tier|[Gen 1] RU
+|seed|25124,10773,60934,63015
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Mr. Mime|Mr. Mime|283\/283
+|switch|p2a: Mr. Mime|Mr. Mime|283\/283
+|turn|1
+|choice|move 3|move 3
+|
+|move|p1a: Mr. Mime|Thunder Wave|p2a: Mr. Mime
+|-status|p2a: Mr. Mime|par
+|move|p2a: Mr. Mime|Thunder Wave|p1a: Mr. Mime
+|-status|p1a: Mr. Mime|par
+|
+|turn|2
+|choice|switch 3|move 2
+|
+|switch|p1a: Clefable|Clefable|393\/393
+|move|p2a: Mr. Mime|Seismic Toss|p1a: Clefable
+|-damage|p1a: Clefable|293\/393
+|
+|turn|3
+|choice|move 2|move 3
+|
+|move|p2a: Mr. Mime|Thunder Wave|p1a: Clefable
+|-status|p1a: Clefable|par
+|move|p1a: Clefable|Counter|p2a: Mr. Mime
+|-fail|p1a: Clefable
+|
+|turn|4
+|choice|move 1|move 2
+|
+|move|p2a: Mr. Mime|Seismic Toss|p1a: Clefable
+|-damage|p1a: Clefable|193\/393 par
+|move|p1a: Clefable|Body Slam|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|174\/283 par
+|
+|turn|5
+|choice|switch 3|move 2
+|
+|switch|p1a: Mr. Mime|Mr. Mime|283\/283 par
+|move|p2a: Mr. Mime|Seismic Toss|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|183\/283 par
+|
+|turn|6
+|choice|move 2|move 2
+|
+|move|p2a: Mr. Mime|Seismic Toss|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|83\/283 par
+|move|p1a: Mr. Mime|Seismic Toss|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|74\/283 par
+|
+|turn|7
+|choice|move 2|move 2
+|
+|move|p2a: Mr. Mime|Seismic Toss|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|0 fnt
+|faint|p1a: Mr. Mime
+|choice|switch 2|
+|
+|switch|p1a: Electabuzz|Electabuzz|333\/333
+|turn|8
+|choice|move 1|move 3
+|
+|move|p1a: Electabuzz|Thunderbolt|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|0 fnt
+|faint|p2a: Mr. Mime
+|choice||switch 6
+|
+|switch|p2a: Dugtrio|Dugtrio|273\/273
+|turn|9
+|choice|switch 6|move 3
+|
+|switch|p1a: Aerodactyl|Aerodactyl|363\/363
+|move|p2a: Dugtrio|Slash|p1a: Aerodactyl
+|-crit|p1a: Aerodactyl
+|-resisted|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|302\/363
+|
+|turn|10
+|choice|move 2|switch 4
+|
+|switch|p2a: Vaporeon|Vaporeon|463\/463
+|move|p1a: Aerodactyl|Fire Blast|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|431\/463
+|
+|turn|11
+|choice|switch 4|move 1
+|
+|switch|p1a: Venusaur|Venusaur|363\/363
+|move|p2a: Vaporeon|Surf|p1a: Venusaur
+|-crit|p1a: Venusaur
+|-resisted|p1a: Venusaur
+|-damage|p1a: Venusaur|255\/363
+|
+|turn|12
+|choice|move 1|switch 5
+|
+|switch|p2a: Venusaur|Venusaur|363\/363
+|move|p1a: Venusaur|Sleep Powder|p2a: Venusaur
+|-status|p2a: Venusaur|slp
+|
+|turn|13
+|choice|switch 6|switch 2
+|
+|switch|p1a: Electabuzz|Electabuzz|333\/333
+|switch|p2a: Clefable|Clefable|393\/393
+|
+|turn|14
+|choice|switch 3|move 2
+|
+|switch|p1a: Clefable|Clefable|193\/393 par
+|move|p2a: Clefable|Thunder Wave|p1a: Clefable
+|-fail|p1a: Clefable|par
+|
+|turn|15
+|choice|move 4|move 1
+|
+|move|p2a: Clefable|Body Slam|p1a: Clefable
+|-damage|p1a: Clefable|96\/393 par
+|cant|p1a: Clefable|par
+|
+|turn|16
+|choice|move 4|move 1
+|
+|move|p2a: Clefable|Body Slam|p1a: Clefable
+|-damage|p1a: Clefable|3\/393 par
+|move|p1a: Clefable|Thunder Wave|p2a: Clefable
+|-status|p2a: Clefable|par
+|
+|turn|17
+|choice|move 1|move 1
+|
+|move|p2a: Clefable|Body Slam|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|choice|switch 3|
+|
+|switch|p1a: Electabuzz|Electabuzz|333\/333
+|turn|18
+|choice|move 3|move 2
+|
+|move|p1a: Electabuzz|Psychic|p2a: Clefable
+|-damage|p2a: Clefable|328\/393 par
+|cant|p2a: Clefable|par
+|
+|turn|19
+|choice|move 1|move 2
+|
+|move|p1a: Electabuzz|Thunderbolt|p2a: Clefable
+|-damage|p2a: Clefable|223\/393 par
+|cant|p2a: Clefable|par
+|
+|turn|20
+|choice|move 3|move 2
+|
+|move|p1a: Electabuzz|Psychic|p2a: Clefable
+|-damage|p2a: Clefable|155\/393 par
+|cant|p2a: Clefable|par
+|
+|turn|21
+|choice|move 3|move 2
+|
+|move|p1a: Electabuzz|Psychic|p2a: Clefable
+|-damage|p2a: Clefable|85\/393 par
+|cant|p2a: Clefable|par
+|
+|turn|22
+|c|★I love pochama|rip
+|c|★I love pochama|x_x
+|choice|switch 5|move 2
+|
+|switch|p1a: Dugtrio|Dugtrio|273\/273
+|cant|p2a: Clefable|par
+|
+|turn|23
+|c|★I love pochama|lmao
+|choice|move 1|switch 5
+|
+|switch|p2a: Vaporeon|Vaporeon|431\/463
+|move|p1a: Dugtrio|Earthquake|p2a: Vaporeon
+|-damage|p2a: Vaporeon|293\/463
+|
+|turn|24
+|choice|switch 5|move 1
+|
+|switch|p1a: Electabuzz|Electabuzz|333\/333
+|move|p2a: Vaporeon|Surf|p1a: Electabuzz
+|-damage|p1a: Electabuzz|199\/333
+|
+|turn|25
+|choice|move 1|switch 4
+|
+|switch|p2a: Dugtrio|Dugtrio|273\/273
+|move|p1a: Electabuzz|Thunderbolt|p2a: Dugtrio
+|-immune|p2a: Dugtrio|[msg]
+|
+|turn|26
+|choice|switch 6|move 4
+|
+|switch|p1a: Venusaur|Venusaur|255\/363
+|move|p2a: Dugtrio|Substitute|p2a: Dugtrio
+|-start|p2a: Dugtrio|Substitute
+|-damage|p2a: Dugtrio|205\/273
+|
+|turn|27
+|choice|move 2|move 1
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Venusaur
+|-damage|p1a: Venusaur|136\/363
+|move|p1a: Venusaur|Razor Leaf|p2a: Dugtrio
+|-crit|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-end|p2a: Dugtrio|Substitute
+|
+|turn|28
+|choice|move 2|switch 3
+|
+|switch|p2a: Electabuzz|Electabuzz|333\/333
+|move|p1a: Venusaur|Razor Leaf|p2a: Electabuzz
+|-crit|p2a: Electabuzz
+|-damage|p2a: Electabuzz|190\/333
+|
+|turn|29
+|choice|move 2|move 3
+|
+|move|p2a: Electabuzz|Thunder Wave|p1a: Venusaur
+|-status|p1a: Venusaur|par
+|cant|p1a: Venusaur|par
+|
+|turn|30
+|choice|switch 5|move 1
+|
+|switch|p1a: Dugtrio|Dugtrio|273\/273
+|move|p2a: Electabuzz|Psychic|p1a: Dugtrio
+|-damage|p1a: Dugtrio|196\/273
+|-unboost|p1a: Dugtrio|spd|1
+|-unboost|p1a: Dugtrio|spa|1
+|
+|turn|31
+|choice|move 1|switch 4
+|
+|switch|p2a: Vaporeon|Vaporeon|293\/463
+|move|p1a: Dugtrio|Earthquake|p2a: Vaporeon
+|-damage|p2a: Vaporeon|142\/463
+|
+|turn|32
+|choice|switch 6|move 2
+|
+|switch|p1a: Electabuzz|Electabuzz|199\/333
+|move|p2a: Vaporeon|Blizzard|p1a: Electabuzz|[miss]
+|-miss|p2a: Vaporeon
+|
+|turn|33
+|choice|move 3|switch 3
+|
+|switch|p2a: Dugtrio|Dugtrio|205\/273
+|move|p1a: Electabuzz|Psychic|p2a: Dugtrio
+|-crit|p2a: Dugtrio
+|-damage|p2a: Dugtrio|40\/273
+|-unboost|p2a: Dugtrio|spd|1
+|-unboost|p2a: Dugtrio|spa|1
+|
+|turn|34
+|choice|switch 4|move 2
+|
+|switch|p1a: Aerodactyl|Aerodactyl|302\/363
+|move|p2a: Dugtrio|Rock Slide|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|166\/363
+|
+|turn|35
+|choice|move 1|move 2
+|
+|move|p1a: Aerodactyl|Double-Edge|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|-damage|p1a: Aerodactyl|156\/363|[from] recoil|[of] p2a: Dugtrio
+|faint|p2a: Dugtrio
+|choice||switch 4
+|
+|switch|p2a: Electabuzz|Electabuzz|190\/333
+|turn|36
+|choice|switch 6|move 3
+|
+|switch|p1a: Dugtrio|Dugtrio|196\/273
+|move|p2a: Electabuzz|Thunder Wave|p1a: Dugtrio
+|-immune|p1a: Dugtrio|[msg]
+|
+|turn|37
+|choice|move 4|switch 2
+|
+|switch|p2a: Venusaur|Venusaur|363\/363 slp
+|move|p1a: Dugtrio|Substitute|p1a: Dugtrio
+|-start|p1a: Dugtrio|Substitute
+|-damage|p1a: Dugtrio|128\/273
+|
+|turn|38
+|choice|move 1|move 1
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Venusaur
+|-damage|p2a: Venusaur|247\/363 slp
+|cant|p2a: Venusaur|slp
+|
+|turn|39
+|c|★I love pochama|gg
+|c|★CrapAtRBY|gg
+|choice|move 1|move 1
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Venusaur
+|-damage|p2a: Venusaur|125\/363 slp
+|-curestatus|p2a: Venusaur|slp
+|
+|turn|40
+|choice|switch 5|move 1
+|
+|switch|p1a: Venusaur|Venusaur|136\/363 par
+|move|p2a: Venusaur|Sleep Powder|p1a: Venusaur
+|-fail|p1a: Venusaur
+|
+|turn|41
+|choice|move 2|move 3
+|
+|move|p2a: Venusaur|Swords Dance|p2a: Venusaur
+|-boost|p2a: Venusaur|atk|2
+|move|p1a: Venusaur|Razor Leaf|p2a: Venusaur
+|-crit|p2a: Venusaur
+|-resisted|p2a: Venusaur
+|-damage|p2a: Venusaur|95\/363
+|
+|turn|42
+|choice|move 4|move 4
+|
+|move|p2a: Venusaur|Hyper Beam|p1a: Venusaur|[miss]
+|-miss|p2a: Venusaur
+|move|p1a: Venusaur|Hyper Beam|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|faint|p2a: Venusaur
+|c|★I love pochama|rip
+|choice||switch 2
+|
+|switch|p2a: Electabuzz|Electabuzz|190\/333
+|turn|43
+|c|★I love pochama|i was literally foddering this ;~;
+|choice|move 2|move 1
+|
+|move|p2a: Electabuzz|Psychic|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|6\/363 par
+|move|p1a: Venusaur|Razor Leaf|p2a: Electabuzz
+|-crit|p2a: Electabuzz
+|-damage|p2a: Electabuzz|60\/333
+|
+|turn|44
+|c|★I love pochama|lol
+|c|★I love pochama|cmon venu fucking die
+|c|★I love pochama|xD
+|choice|move 2|move 1
+|
+|move|p2a: Electabuzz|Psychic|p1a: Venusaur
+|-crit|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|choice|switch 6|
+|
+|switch|p1a: Aerodactyl|Aerodactyl|156\/363
+|turn|45
+|choice|move 1|move 1
+|
+|move|p1a: Aerodactyl|Double-Edge|p2a: Electabuzz
+|-damage|p2a: Electabuzz|0 fnt
+|-damage|p1a: Aerodactyl|141\/363|[from] recoil|[of] p2a: Electabuzz
+|faint|p2a: Electabuzz
+|choice||switch 3
+|
+|switch|p2a: Vaporeon|Vaporeon|142\/463
+|turn|46
+|choice|move 3|move 2
+|
+|move|p1a: Aerodactyl|Hyper Beam|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|faint|p2a: Vaporeon
+|choice||switch 5
+|
+|switch|p2a: Clefable|Clefable|85\/393 par
+|turn|47
+|choice|move 1|move 3
+|
+|move|p1a: Aerodactyl|Double-Edge|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|-damage|p1a: Aerodactyl|120\/363|[from] recoil|[of] p2a: Clefable
+|faint|p2a: Clefable
+|
+|win|I love pochama
+|c|★I love pochama|i guess the fact that
+|c|★I love pochama|you got
+|c|★I love pochama|nothing out of your clefable
+|c|★I love pochama|was enough for me to have a really in control end of the game
+|c|★I love pochama|that string of fp's
+|c|★I love pochama|x_x
+|c|★I love pochama|gg dude
+|c|★I love pochama|aero impress?
+|c|★I love pochama|:]

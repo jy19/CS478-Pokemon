@@ -1,0 +1,353 @@
+﻿|join|RayMF
+|join|Merlin Engine
+|player|p1|RayMF|161
+|player|p2|Merlin Engine|165
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|60739,33831,46088,45003
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Charmander|Charmander, L96|270\/270
+|switch|p2a: Nidoran-M|Nidoran-M, L96|283\/283
+|turn|1
+|choice|move 2|move 1
+|
+|move|p1a: Charmander|Substitute|p1a: Charmander
+|-start|p1a: Charmander|Substitute
+|-damage|p1a: Charmander|203\/270
+|move|p2a: Nidoran-M|Body Slam|p1a: Charmander
+|-end|p1a: Charmander|Substitute
+|
+|turn|2
+|choice|move 1|move 1
+|
+|move|p1a: Charmander|Submission|p2a: Nidoran-M
+|-resisted|p2a: Nidoran-M
+|-damage|p2a: Nidoran-M|248\/283
+|-damage|p1a: Charmander|195\/270|[from] recoil|[of] p2a: Nidoran-M
+|move|p2a: Nidoran-M|Body Slam|p1a: Charmander
+|-damage|p1a: Charmander|125\/270
+|
+|turn|3
+|choice|move 3|move 1
+|
+|move|p1a: Charmander|Swords Dance|p1a: Charmander
+|-boost|p1a: Charmander|atk|2
+|move|p2a: Nidoran-M|Body Slam|p1a: Charmander
+|-damage|p1a: Charmander|53\/270
+|
+|turn|4
+|choice|move 4|move 1
+|
+|move|p1a: Charmander|Body Slam|p2a: Nidoran-M
+|-crit|p2a: Nidoran-M
+|-damage|p2a: Nidoran-M|116\/283
+|move|p2a: Nidoran-M|Body Slam|p1a: Charmander
+|-crit|p1a: Charmander
+|-damage|p1a: Charmander|0 fnt
+|faint|p1a: Charmander
+|choice|switch 2|
+|
+|switch|p1a: Magikarp|Magikarp, L99|240\/240
+|turn|5
+|choice|move 2|move 3
+|
+|move|p1a: Magikarp|Dragon Rage|p2a: Nidoran-M
+|-damage|p2a: Nidoran-M|76\/283
+|move|p2a: Nidoran-M|Substitute|p2a: Nidoran-M
+|-start|p2a: Nidoran-M|Substitute
+|-damage|p2a: Nidoran-M|6\/283
+|
+|turn|6
+|choice|move 2|move 4
+|
+|move|p1a: Magikarp|Dragon Rage|p2a: Nidoran-M
+|-activate|p2a: Nidoran-M|Substitute|[damage]
+|move|p2a: Nidoran-M|Rest|p2a: Nidoran-M
+|-status|p2a: Nidoran-M|slp
+|-heal|p2a: Nidoran-M|283\/283 slp|[silent]
+|-status|p2a: Nidoran-M|slp|[from] move: Rest
+|
+|turn|7
+|choice|move 2|move 1
+|
+|move|p1a: Magikarp|Dragon Rage|p2a: Nidoran-M
+|-end|p2a: Nidoran-M|Substitute
+|cant|p2a: Nidoran-M|slp
+|
+|turn|8
+|choice|switch 5|move 3
+|
+|switch|p1a: Golem|Golem, L79|288\/288
+|-curestatus|p2a: Nidoran-M|slp
+|
+|turn|9
+|choice|move 4|switch 4
+|
+|switch|p2a: Blastoise|Blastoise, L85|308\/308
+|move|p1a: Golem|Earthquake|p2a: Blastoise
+|-damage|p2a: Blastoise|216\/308
+|
+|turn|10
+|choice|move 4|move 2
+|
+|move|p2a: Blastoise|Hydro Pump|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|0 fnt
+|faint|p1a: Golem
+|choice|switch 4|
+|
+|switch|p1a: Jolteon|Jolteon, L79|265\/265
+|turn|11
+|choice|move 1|switch 6
+|
+|switch|p2a: Porygon|Porygon, L85|284\/284
+|move|p1a: Jolteon|Thunderbolt|p2a: Porygon
+|-damage|p2a: Porygon|184\/284
+|
+|turn|12
+|choice|move 3|move 4
+|
+|move|p1a: Jolteon|Pin Missile|p2a: Porygon
+|-crit|p2a: Porygon
+|-damage|p2a: Porygon|167\/284
+|-damage|p2a: Porygon|150\/284
+|-damage|p2a: Porygon|133\/284
+|-damage|p2a: Porygon|116\/284
+|-hitcount|p2a: Porygon|4
+|move|p2a: Porygon|Agility|p2a: Porygon
+|-boost|p2a: Porygon|spe|2
+|
+|turn|13
+|choice|move 4|move 1
+|
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|258\/284
+|move|p1a: Jolteon|Body Slam|p2a: Porygon
+|-damage|p2a: Porygon|213\/284
+|
+|turn|14
+|choice|move 2|move 2
+|
+|move|p2a: Porygon|Double-Edge|p1a: Jolteon
+|-damage|p1a: Jolteon|165\/265
+|-damage|p2a: Porygon|188\/284|[from] recoil|[of] p1a: Jolteon
+|move|p1a: Jolteon|Sand Attack|p2a: Porygon
+|-unboost|p2a: Porygon|accuracy|1
+|
+|turn|15
+|choice|move 1|move 2
+|
+|move|p2a: Porygon|Double-Edge|p1a: Jolteon
+|-damage|p1a: Jolteon|54\/265
+|-damage|p2a: Porygon|161\/284|[from] recoil|[of] p1a: Jolteon
+|move|p1a: Jolteon|Thunderbolt|p2a: Porygon
+|-crit|p2a: Porygon
+|-damage|p2a: Porygon|0 fnt
+|faint|p2a: Porygon
+|choice||switch 4
+|
+|switch|p2a: Nidoran-M|Nidoran-M, L96|283\/283
+|turn|16
+|choice|move 3|move 1
+|
+|move|p1a: Jolteon|Pin Missile|p2a: Nidoran-M|[miss]
+|-miss|p1a: Jolteon
+|move|p2a: Nidoran-M|Body Slam|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|choice|switch 3|
+|
+|switch|p1a: Slowbro|Slowbro, L79|312\/312
+|turn|17
+|choice|move 3|move 2
+|
+|move|p2a: Nidoran-M|Leer|p1a: Slowbro
+|-unboost|p1a: Slowbro|def|1
+|move|p1a: Slowbro|Thunder Wave|p2a: Nidoran-M
+|-status|p2a: Nidoran-M|par
+|
+|turn|18
+|choice|move 4|move 2
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|move|p2a: Nidoran-M|Leer|p1a: Slowbro
+|-unboost|p1a: Slowbro|def|1
+|
+|turn|19
+|choice|move 4|move 2
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|move|p2a: Nidoran-M|Leer|p1a: Slowbro
+|-unboost|p1a: Slowbro|def|1
+|
+|turn|20
+|choice|move 2|move 2
+|
+|move|p1a: Slowbro|Surf|p2a: Nidoran-M
+|-damage|p2a: Nidoran-M|0 fnt
+|faint|p2a: Nidoran-M
+|choice||switch 2
+|
+|switch|p2a: Scyther|Scyther, L90|309\/309
+|turn|21
+|choice|move 3|move 4
+|
+|move|p2a: Scyther|Hyper Beam|p1a: Slowbro|[miss]
+|-miss|p2a: Scyther
+|move|p1a: Slowbro|Thunder Wave|p2a: Scyther
+|-status|p2a: Scyther|par
+|
+|turn|22
+|choice|move 2|move 4
+|
+|move|p1a: Slowbro|Surf|p2a: Scyther
+|-damage|p2a: Scyther|3\/309 par
+|move|p2a: Scyther|Hyper Beam|p1a: Slowbro|[miss]
+|-miss|p2a: Scyther
+|
+|turn|23
+|c|★Merlin Engine|lel
+|c|★RayMF|xd
+|choice|move 2|move 4
+|
+|move|p1a: Slowbro|Surf|p2a: Scyther
+|-damage|p2a: Scyther|0 fnt
+|faint|p2a: Scyther
+|c|★RayMF|i am noob
+|choice||switch 3
+|
+|switch|p2a: Zapdos|Zapdos, L79|304\/304
+|turn|24
+|choice|move 3|move 3
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-damage|p1a: Slowbro|195\/312
+|move|p1a: Slowbro|Thunder Wave|p2a: Zapdos
+|-status|p2a: Zapdos|par
+|
+|turn|25
+|c|★Merlin Engine|crit XD
+|c|★Merlin Engine|im losing it here
+|choice|move 2|move 3
+|
+|move|p1a: Slowbro|Surf|p2a: Zapdos
+|-damage|p2a: Zapdos|90\/304 par
+|cant|p2a: Zapdos|par
+|
+|turn|26
+|c|★RayMF|hahahah critical xd
+|choice|move 2|move 3
+|
+|move|p1a: Slowbro|Surf|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|c|★RayMF|good game
+|choice||switch 5
+|
+|switch|p2a: Flareon|Flareon, L90|300\/300
+|turn|27
+|choice|move 2|move 2
+|
+|move|p2a: Flareon|Body Slam|p1a: Slowbro
+|-damage|p1a: Slowbro|13\/312
+|-status|p1a: Slowbro|par
+|move|p1a: Slowbro|Surf|p2a: Flareon
+|-supereffective|p2a: Flareon
+|-damage|p2a: Flareon|0 fnt
+|faint|p2a: Flareon
+|choice||switch 6
+|
+|switch|p2a: Blastoise|Blastoise, L85|216\/308
+|turn|28
+|c|★RayMF|lol xd
+|choice|move 2|move 3
+|
+|move|p2a: Blastoise|Body Slam|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|c|★RayMF|fucking slowbro
+|choice|switch 5|
+|
+|switch|p1a: Magikarp|Magikarp, L99|240\/240
+|turn|29
+|choice|move 2|move 3
+|
+|move|p1a: Magikarp|Dragon Rage|p2a: Blastoise
+|-damage|p2a: Blastoise|176\/308
+|move|p2a: Blastoise|Body Slam|p1a: Magikarp
+|-damage|p1a: Magikarp|180\/240
+|
+|turn|30
+|choice|move 2|move 3
+|
+|move|p1a: Magikarp|Dragon Rage|p2a: Blastoise
+|-damage|p2a: Blastoise|136\/308
+|move|p2a: Blastoise|Body Slam|p1a: Magikarp
+|-damage|p1a: Magikarp|119\/240
+|-status|p1a: Magikarp|par
+|
+|turn|31
+|choice|move 2|move 3
+|
+|move|p2a: Blastoise|Body Slam|p1a: Magikarp
+|-damage|p1a: Magikarp|60\/240 par
+|move|p1a: Magikarp|Dragon Rage|p2a: Blastoise
+|-damage|p2a: Blastoise|96\/308
+|
+|turn|32
+|choice|move 2|move 4
+|
+|move|p2a: Blastoise|Rest|p2a: Blastoise
+|-status|p2a: Blastoise|slp
+|-heal|p2a: Blastoise|308\/308 slp|[silent]
+|-status|p2a: Blastoise|slp|[from] move: Rest
+|move|p1a: Magikarp|Dragon Rage|p2a: Blastoise
+|-damage|p2a: Blastoise|268\/308 slp
+|
+|turn|33
+|c|★RayMF|shit
+|c|★RayMF|hahahahaha
+|choice|switch 6|move 3
+|
+|switch|p1a: Exeggutor|Exeggutor, L79|312\/312
+|cant|p2a: Blastoise|slp
+|
+|turn|34
+|choice|move 2|move 3
+|
+|-curestatus|p2a: Blastoise|slp
+|move|p1a: Exeggutor|Psychic|p2a: Blastoise
+|-damage|p2a: Blastoise|169\/308
+|
+|turn|35
+|choice|move 1|move 3
+|
+|move|p2a: Blastoise|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|252\/312
+|move|p1a: Exeggutor|Sleep Powder|p2a: Blastoise|[miss]
+|-miss|p1a: Exeggutor
+|
+|turn|36
+|choice|move 2|move 3
+|
+|move|p2a: Blastoise|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|196\/312
+|move|p1a: Exeggutor|Psychic|p2a: Blastoise
+|-crit|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|
+|win|RayMF
+|c|★RayMF|gg
+|c|★Merlin Engine|gg

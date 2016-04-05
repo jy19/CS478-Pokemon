@@ -1,0 +1,471 @@
+﻿|J|hodor
+|J|qht
+|player|p1|hodor|2
+|player|p2|qht|2
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Challenge Cup
+|seed|47253,39605,14578,14169
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Omanyte|Omanyte, L73|200\/200
+|switch|p2a: Golbat|Golbat, L69|231\/231
+|turn|1
+|choice|move 3|move 3
+|
+|move|p2a: Golbat|Toxic|p1a: Omanyte
+|-status|p1a: Omanyte|tox
+|move|p1a: Omanyte|Surf|p2a: Golbat
+|-damage|p2a: Golbat|138\/231
+|-damage|p1a: Omanyte|188\/200 tox|[from] tox|[of] p2a: Golbat
+|
+|turn|2
+|choice|switch 5|switch 3
+|
+|switch|p2a: Dragonite|Dragonite, L63|236\/236
+|switch|p1a: Weepinbell|Weepinbell, L71|235\/235
+|
+|turn|3
+|choice|move 3|switch 4
+|
+|switch|p2a: Butterfree|Butterfree, L73|237\/237
+|move|p1a: Weepinbell|Toxic|p2a: Butterfree
+|-status|p2a: Butterfree|tox
+|
+|turn|4
+|choice|switch 5|move 4
+|
+|switch|p1a: Omanyte|Omanyte, L73|188\/200 tox
+|-status|p1a: Omanyte|psn
+|-damage|p1a: Omanyte|176\/200 psn|[from] psn
+|move|p2a: Butterfree|Confusion|p1a: Omanyte
+|-damage|p1a: Omanyte|152\/200 psn
+|-damage|p2a: Butterfree|223\/237 tox|[from] tox|[of] p1a: Omanyte
+|
+|turn|5
+|choice|switch 2|move 3
+|
+|switch|p1a: Kabuto|Kabuto, L76|188\/188
+|move|p2a: Butterfree|Psywave|p1a: Kabuto
+|-damage|p1a: Kabuto|180\/188
+|-damage|p2a: Butterfree|195\/237 tox|[from] tox|[of] p1a: Kabuto
+|
+|turn|6
+|choice|move 2|switch 3
+|
+|switch|p2a: Golbat|Golbat, L69|138\/231
+|move|p1a: Kabuto|Blizzard|p2a: Golbat
+|-crit|p2a: Golbat
+|-supereffective|p2a: Golbat
+|-damage|p2a: Golbat|0 fnt
+|faint|p2a: Golbat
+|choice||switch 6
+|
+|switch|p2a: Hitmonchan|Hitmonchan, L74|222\/222
+|turn|7
+|choice|switch 4|move 4
+|
+|switch|p1a: Exeggcute|Exeggcute, L76|241\/241
+|move|p2a: Hitmonchan|Seismic Toss|p1a: Exeggcute
+|-damage|p1a: Exeggcute|167\/241
+|
+|turn|8
+|choice|move 4|switch 3
+|
+|switch|p2a: Butterfree|Butterfree, L73|195\/237 tox
+|-status|p2a: Butterfree|psn
+|-damage|p2a: Butterfree|181\/237 psn|[from] psn
+|move|p1a: Exeggcute|Double-Edge|p2a: Butterfree
+|-damage|p2a: Butterfree|130\/237 psn
+|-damage|p1a: Exeggcute|155\/241|[from] recoil|[of] p2a: Butterfree
+|
+|turn|9
+|choice|move 4|move 3
+|
+|move|p2a: Butterfree|Psywave|p1a: Exeggcute
+|-damage|p1a: Exeggcute|74\/241
+|-damage|p2a: Butterfree|116\/237 psn|[from] psn|[of] p1a: Exeggcute
+|move|p1a: Exeggcute|Double-Edge|p2a: Butterfree
+|-damage|p2a: Butterfree|63\/237 psn
+|-damage|p1a: Exeggcute|61\/241|[from] recoil|[of] p2a: Butterfree
+|
+|turn|10
+|choice|move 4|move 3
+|
+|move|p2a: Butterfree|Psywave|p1a: Exeggcute
+|-damage|p1a: Exeggcute|3\/241
+|-damage|p2a: Butterfree|49\/237 psn|[from] psn|[of] p1a: Exeggcute
+|move|p1a: Exeggcute|Double-Edge|p2a: Butterfree
+|-damage|p2a: Butterfree|0 fnt
+|-damage|p1a: Exeggcute|0 fnt|[from] recoil|[of] p2a: Butterfree
+|faint|p2a: Butterfree
+|faint|p1a: Exeggcute
+|choice|switch 5|switch 5
+|
+|switch|p2a: Growlithe|Growlithe, L77|224\/224
+|switch|p1a: Weepinbell|Weepinbell, L71|235\/235
+|turn|11
+|choice|switch 3|move 2
+|
+|switch|p1a: Seel|Seel, L75|234\/234
+|move|p2a: Growlithe|Flamethrower|p1a: Seel
+|-resisted|p1a: Seel
+|-damage|p1a: Seel|198\/234
+|
+|turn|12
+|choice|move 2|move 4
+|
+|move|p2a: Growlithe|Toxic|p1a: Seel
+|-status|p1a: Seel|tox
+|move|p1a: Seel|Bubble Beam|p2a: Growlithe
+|-supereffective|p2a: Growlithe
+|-damage|p2a: Growlithe|92\/224
+|-damage|p1a: Seel|184\/234 tox|[from] tox|[of] p2a: Growlithe
+|
+|turn|13
+|choice|move 2|switch 4
+|
+|switch|p2a: Dragonite|Dragonite, L63|236\/236
+|move|p1a: Seel|Bubble Beam|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|210\/236
+|-damage|p1a: Seel|156\/234 tox|[from] tox|[of] p2a: Dragonite
+|
+|turn|14
+|choice|move 1|move 4
+|
+|move|p2a: Dragonite|Wrap|p1a: Seel
+|-damage|p1a: Seel|144\/234 tox
+|-activate|p1a: Seel|move: Wrap|[of] p2a: Dragonite
+|cant|p1a: Seel|partiallytrapped
+|-damage|p1a: Seel|102\/234 tox|[from] tox|[of] p2a: Dragonite
+|
+|turn|15
+|c|★hodor|i hate you
+|c|★qht|i've actually built a team
+|c|★qht|w\/ this strategy
+|c|★qht|it's like
+|choice|switch 6|move 4
+|
+|switch|p1a: Rhydon|Rhydon, L68|281\/281
+|move|p2a: Dragonite|Wrap|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|277\/281
+|-activate|p1a: Rhydon|move: Wrap|[of] p2a: Dragonite
+|
+|turn|16
+|c|★qht|almost ok
+|choice|move 4|move 4
+|
+|move|p2a: Dragonite|Wrap|p1a: Rhydon|[from]Wrap
+|-damage|p1a: Rhydon|273\/281
+|cant|p1a: Rhydon|partiallytrapped
+|
+|-end|p1a: Rhydon|Wrap|[partiallytrapped]
+|turn|17
+|choice|move 4|move 1
+|
+|move|p2a: Dragonite|Waterfall|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|19\/281
+|move|p1a: Rhydon|Seismic Toss|p2a: Dragonite
+|-damage|p2a: Dragonite|142\/236
+|
+|turn|18
+|choice|move 4|move 1
+|
+|move|p2a: Dragonite|Waterfall|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|c|★qht|xD
+|choice|switch 4|
+|
+|switch|p1a: Kabuto|Kabuto, L76|180\/188
+|turn|19
+|choice|move 2|switch 3
+|
+|switch|p2a: Hitmonchan|Hitmonchan, L74|222\/222
+|move|p1a: Kabuto|Blizzard|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|140\/222
+|
+|turn|20
+|choice|move 4|move 4
+|
+|move|p2a: Hitmonchan|Seismic Toss|p1a: Kabuto
+|-damage|p1a: Kabuto|106\/188
+|move|p1a: Kabuto|Slash|p2a: Hitmonchan
+|-crit|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|60\/222
+|
+|turn|21
+|choice|move 4|move 4
+|
+|move|p2a: Hitmonchan|Seismic Toss|p1a: Kabuto
+|-damage|p1a: Kabuto|32\/188
+|move|p1a: Kabuto|Slash|p2a: Hitmonchan
+|-crit|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|0 fnt
+|faint|p2a: Hitmonchan
+|choice||switch 4
+|
+|switch|p2a: Growlithe|Growlithe, L77|92\/224
+|turn|22
+|choice|move 4|move 3
+|
+|move|p2a: Growlithe|Thrash|p1a: Kabuto
+|-resisted|p1a: Kabuto
+|-damage|p1a: Kabuto|11\/188
+|move|p1a: Kabuto|Slash|p2a: Growlithe
+|-crit|p2a: Growlithe
+|-damage|p2a: Growlithe|0 fnt
+|faint|p2a: Growlithe
+|choice||switch 3
+|
+|switch|p2a: Dragonite|Dragonite, L63|142\/236
+|turn|23
+|c|★hodor|you would make kevin proud
+|c|★qht|pls be faster
+|choice|move 2|move 1
+|
+|move|p2a: Dragonite|Waterfall|p1a: Kabuto
+|-damage|p1a: Kabuto|0 fnt
+|faint|p1a: Kabuto
+|c|★hodor|144 speed
+|c|★qht|148
+|choice|switch 6|
+|
+|switch|p1a: Seel|Seel, L75|102\/234 tox
+|-status|p1a: Seel|psn
+|turn|24
+|choice|move 1|move 4
+|
+|move|p2a: Dragonite|Wrap|p1a: Seel
+|-damage|p1a: Seel|89\/234 psn
+|-activate|p1a: Seel|move: Wrap|[of] p2a: Dragonite
+|cant|p1a: Seel|partiallytrapped
+|-damage|p1a: Seel|75\/234 psn|[from] psn|[of] p2a: Dragonite
+|
+|turn|25
+|choice|switch 2|move 4
+|
+|switch|p1a: Omanyte|Omanyte, L73|152\/200 psn
+|-damage|p1a: Omanyte|140\/200 psn|[from] psn
+|move|p2a: Dragonite|Wrap|p1a: Omanyte
+|-resisted|p1a: Omanyte
+|-damage|p1a: Omanyte|136\/200 psn
+|-activate|p1a: Omanyte|move: Wrap|[of] p2a: Dragonite
+|
+|turn|26
+|c|★qht|also afaik the only wrap team kevin uses
+|c|★qht|was built by me
+|choice|switch 3|move 4
+|
+|switch|p1a: Weepinbell|Weepinbell, L71|235\/235
+|move|p2a: Dragonite|Wrap|p1a: Weepinbell
+|-damage|p1a: Weepinbell|220\/235
+|-activate|p1a: Weepinbell|move: Wrap|[of] p2a: Dragonite
+|
+|turn|27
+|choice|move 3|move 4
+|
+|move|p2a: Dragonite|Wrap|p1a: Weepinbell|[from]Wrap
+|-damage|p1a: Weepinbell|205\/235
+|cant|p1a: Weepinbell|partiallytrapped
+|
+|turn|28
+|choice|move 3|move 4
+|
+|move|p2a: Dragonite|Wrap|p1a: Weepinbell|[from]Wrap
+|-damage|p1a: Weepinbell|190\/235
+|cant|p1a: Weepinbell|partiallytrapped
+|
+|turn|29
+|choice|move 3|switch 2
+|
+|switch|p2a: Ponyta|Ponyta, L72|199\/199
+|cant|p1a: Weepinbell|partiallytrapped
+|
+|-end|p1a: Weepinbell|Wrap|[partiallytrapped]
+|turn|30
+|choice|move 3|move 4
+|
+|move|p2a: Ponyta|Fire Blast|p1a: Weepinbell|[miss]
+|-miss|p2a: Ponyta
+|move|p1a: Weepinbell|Toxic|p2a: Ponyta
+|-status|p2a: Ponyta|tox
+|
+|turn|31
+|choice|switch 3|move 4
+|
+|switch|p1a: Omanyte|Omanyte, L73|136\/200 psn
+|-damage|p1a: Omanyte|124\/200 psn|[from] psn
+|move|p2a: Ponyta|Fire Blast|p1a: Omanyte|[miss]
+|-miss|p2a: Ponyta
+|-damage|p2a: Ponyta|187\/199 tox|[from] tox|[of] p1a: Omanyte
+|
+|turn|32
+|choice|switch 3|move 2
+|
+|switch|p1a: Weepinbell|Weepinbell, L71|190\/235
+|move|p2a: Ponyta|Double-Edge|p1a: Weepinbell
+|-damage|p1a: Weepinbell|120\/235
+|-damage|p2a: Ponyta|170\/199 tox|[from] recoil|[of] p1a: Weepinbell
+|-damage|p2a: Ponyta|146\/199 tox|[from] tox|[of] p1a: Weepinbell
+|
+|turn|33
+|choice|switch 3|switch 2
+|
+|switch|p2a: Dragonite|Dragonite, L63|142\/236
+|switch|p1a: Omanyte|Omanyte, L73|124\/200 psn
+|-damage|p1a: Omanyte|112\/200 psn|[from] psn
+|
+|turn|34
+|choice|move 3|move 4
+|
+|move|p2a: Dragonite|Wrap|p1a: Omanyte|[miss]
+|-miss|p2a: Dragonite
+|move|p1a: Omanyte|Surf|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|96\/236
+|-damage|p1a: Omanyte|100\/200 psn|[from] psn|[of] p2a: Dragonite
+|
+|turn|35
+|choice|move 3|move 4
+|
+|move|p2a: Dragonite|Wrap|p1a: Omanyte
+|-resisted|p1a: Omanyte
+|-damage|p1a: Omanyte|96\/200 psn
+|-activate|p1a: Omanyte|move: Wrap|[of] p2a: Dragonite
+|cant|p1a: Omanyte|partiallytrapped
+|-damage|p1a: Omanyte|84\/200 psn|[from] psn|[of] p2a: Dragonite
+|
+|turn|36
+|choice|move 3|move 4
+|
+|move|p2a: Dragonite|Wrap|p1a: Omanyte|[from]Wrap
+|-damage|p1a: Omanyte|80\/200 psn
+|cant|p1a: Omanyte|partiallytrapped
+|-damage|p1a: Omanyte|68\/200 psn|[from] psn|[of] p2a: Dragonite
+|
+|turn|37
+|choice|move 3|move 4
+|
+|move|p2a: Dragonite|Wrap|p1a: Omanyte|[from]Wrap
+|-damage|p1a: Omanyte|64\/200 psn
+|cant|p1a: Omanyte|partiallytrapped
+|-damage|p1a: Omanyte|52\/200 psn|[from] psn|[of] p2a: Dragonite
+|
+|turn|38
+|choice|move 3|move 4
+|
+|move|p2a: Dragonite|Wrap|p1a: Omanyte|[from]Wrap
+|-damage|p1a: Omanyte|48\/200 psn
+|cant|p1a: Omanyte|partiallytrapped
+|-damage|p1a: Omanyte|36\/200 psn|[from] psn|[of] p2a: Dragonite
+|
+|-end|p1a: Omanyte|Wrap|[partiallytrapped]
+|turn|39
+|c|★qht|by strategy i mean
+|c|★qht|wrap + tox
+|choice|move 3|move 1
+|
+|move|p2a: Dragonite|Waterfall|p1a: Omanyte
+|-damage|p1a: Omanyte|0 fnt
+|faint|p1a: Omanyte
+|choice|switch 3|
+|
+|switch|p1a: Weepinbell|Weepinbell, L71|120\/235
+|turn|40
+|choice|move 1|switch 2
+|
+|switch|p2a: Ponyta|Ponyta, L72|146\/199 tox
+|-status|p2a: Ponyta|psn
+|-damage|p2a: Ponyta|134\/199 psn|[from] psn
+|move|p1a: Weepinbell|Wrap|p2a: Ponyta
+|-damage|p2a: Ponyta|122\/199 psn
+|-activate|p2a: Ponyta|move: Wrap|[of] p1a: Weepinbell
+|
+|turn|41
+|c|★hodor|AYYY LMAO
+|choice|move 1|switch 2
+|
+|switch|p2a: Dragonite|Dragonite, L63|96\/236
+|move|p1a: Weepinbell|Wrap|p2a: Dragonite
+|-damage|p2a: Dragonite|85\/236
+|-activate|p2a: Dragonite|move: Wrap|[of] p1a: Weepinbell
+|
+|turn|42
+|c|★qht|:P
+|choice|move 1|move 4
+|
+|cant|p2a: Dragonite|partiallytrapped
+|move|p1a: Weepinbell|Wrap|p2a: Dragonite|[from]Wrap
+|-damage|p2a: Dragonite|74\/236
+|
+|-end|p2a: Dragonite|Wrap|[partiallytrapped]
+|turn|43
+|choice|move 3|move 4
+|
+|move|p2a: Dragonite|Wrap|p1a: Weepinbell
+|-damage|p1a: Weepinbell|107\/235
+|-activate|p1a: Weepinbell|move: Wrap|[of] p2a: Dragonite
+|cant|p1a: Weepinbell|partiallytrapped
+|
+|turn|44
+|choice|move 3|move 4
+|
+|move|p2a: Dragonite|Wrap|p1a: Weepinbell|[from]Wrap
+|-damage|p1a: Weepinbell|94\/235
+|cant|p1a: Weepinbell|partiallytrapped
+|
+|-end|p1a: Weepinbell|Wrap|[partiallytrapped]
+|turn|45
+|choice|move 3|move 4
+|
+|move|p2a: Dragonite|Wrap|p1a: Weepinbell
+|-damage|p1a: Weepinbell|79\/235
+|-activate|p1a: Weepinbell|move: Wrap|[of] p2a: Dragonite
+|cant|p1a: Weepinbell|partiallytrapped
+|
+|turn|46
+|choice|move 3|switch 2
+|
+|switch|p2a: Ponyta|Ponyta, L72|122\/199 psn
+|-damage|p2a: Ponyta|110\/199 psn|[from] psn
+|cant|p1a: Weepinbell|partiallytrapped
+|
+|-end|p1a: Weepinbell|Wrap|[partiallytrapped]
+|turn|47
+|choice|move 1|move 3
+|
+|move|p2a: Ponyta|Flamethrower|p1a: Weepinbell
+|-supereffective|p1a: Weepinbell
+|-damage|p1a: Weepinbell|0 fnt
+|faint|p1a: Weepinbell
+|c|★hodor|gg
+|c|★qht|gg
+|J|Serbosse de serbie
+|c|★hodor|you keep getting
+|c|★hodor|wrap users
+|L|Serbosse de serbie
+|c|★qht|:P
+|c|★hodor|faster than my whole team
+|c|★qht|it's
+|c|★qht|kinda broke.
+|choice|switch 2|
+|
+|switch|p1a: Seel|Seel, L75|75\/234 psn
+|turn|48
+|choice|move 1|move 2
+|
+|move|p2a: Ponyta|Double-Edge|p1a: Seel
+|-crit|p1a: Seel
+|-damage|p1a: Seel|0 fnt
+|-damage|p2a: Ponyta|92\/199 psn|[from] recoil|[of] p1a: Seel
+|faint|p1a: Seel
+|
+|win|qht

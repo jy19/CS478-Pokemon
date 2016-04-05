@@ -1,0 +1,302 @@
+﻿|join|Dchosen
+|join|kid gf lol
+|player|p1|Dchosen|269
+|player|p2|kid gf lol|168
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333\/333
+|switch|p2a: Zam Lead|Alakazam|313\/313
+|turn|1
+|
+|move|p2a: Zam Lead|Psychic|p1a: Jynx
+|-resisted|p1a: Jynx
+|-damage|p1a: Jynx|266\/333
+|move|p1a: Jynx|Lovely Kiss|p2a: Zam Lead
+|-status|p2a: Zam Lead|slp
+|
+|turn|2
+|
+|switch|p2a: Mr Mime|Jynx|333\/333
+|move|p1a: Jynx|Blizzard|p2a: Mr Mime
+|-resisted|p2a: Mr Mime
+|-damage|p2a: Mr Mime|261\/333
+|
+|turn|3
+|
+|move|p1a: Jynx|Seismic Toss|p2a: Mr Mime
+|-damage|p2a: Mr Mime|161\/333
+|move|p2a: Mr Mime|Lovely Kiss|p1a: Jynx
+|-status|p1a: Jynx|slp
+|
+|turn|4
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: Mr Mime|Reflect|p2a: Mr Mime
+|
+|turn|5
+|
+|move|p2a: Mr Mime|Blizzard|p1a: Snorlax
+|-damage|p1a: Snorlax|354\/523
+|move|p1a: Snorlax|Earthquake|p2a: Mr Mime
+|-damage|p2a: Mr Mime|83\/333
+|
+|turn|6
+|
+|move|p2a: Mr Mime|Blizzard|p1a: Snorlax
+|-damage|p1a: Snorlax|169\/523
+|move|p1a: Snorlax|Body Slam|p2a: Mr Mime
+|-damage|p2a: Mr Mime|0 fnt
+|faint|p2a: Mr Mime
+|
+|
+|switch|p2a: GhostInaShell|Cloyster|303\/303
+|turn|7
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|move|p2a: GhostInaShell|Clamp|p1a: Alakazam
+|-damage|p1a: Alakazam|284\/313
+|-activate|p1a: Alakazam|move: Clamp|[of] p2a: GhostInaShell
+|
+|turn|8
+|
+|cant|p1a: Alakazam|partiallytrapped
+|move|p2a: GhostInaShell|Clamp|p1a: Alakazam
+|-damage|p1a: Alakazam|255\/313
+|
+|turn|9
+|
+|cant|p1a: Alakazam|partiallytrapped
+|move|p2a: GhostInaShell|Clamp|p1a: Alakazam
+|-damage|p1a: Alakazam|226\/313
+|
+|-end|p1a: Alakazam|Clamp|[partiallytrapped]
+|turn|10
+|
+|switch|p2a: Breakfast Pouch|Chansey|703\/703
+|move|p1a: Alakazam|Psychic|p2a: Breakfast Pouch
+|-crit|p2a: Breakfast Pouch
+|-damage|p2a: Breakfast Pouch|455\/703
+|-unboost|p2a: Breakfast Pouch|spd|1
+|-unboost|p2a: Breakfast Pouch|spa|1
+|
+|turn|11
+|
+|switch|p1a: Snorlax|Snorlax|169\/523
+|switch|p2a: Result of Incest|Exeggutor|393\/393
+|
+|turn|12
+|
+|switch|p2a: TNT|Golem|363\/363
+|switch|p1a: Jynx|Jynx|266\/333 slp
+|
+|turn|13
+|
+|switch|p1a: Cloyster|Cloyster|303\/303
+|move|p2a: TNT|Rock Slide|p1a: Cloyster|[miss]
+|-miss|p2a: TNT
+|
+|turn|14
+|
+|switch|p2a: GhostInaShell|Cloyster|303\/303
+|move|p1a: Cloyster|Clamp|p2a: GhostInaShell
+|-resisted|p2a: GhostInaShell
+|-damage|p2a: GhostInaShell|283\/303
+|-activate|p2a: GhostInaShell|move: Clamp|[of] p1a: Cloyster
+|
+|turn|15
+|
+|move|p1a: Cloyster|Clamp|p2a: GhostInaShell
+|-damage|p2a: GhostInaShell|263\/303
+|cant|p2a: GhostInaShell|partiallytrapped
+|
+|turn|16
+|
+|move|p1a: Cloyster|Clamp|p2a: GhostInaShell
+|-damage|p2a: GhostInaShell|243\/303
+|cant|p2a: GhostInaShell|partiallytrapped
+|
+|turn|17
+|
+|switch|p1a: Alakazam|Alakazam|226\/313
+|cant|p2a: GhostInaShell|partiallytrapped
+|
+|-end|p2a: GhostInaShell|Clamp|[partiallytrapped]
+|turn|18
+|
+|switch|p2a: Breakfast Pouch|Chansey|455\/703
+|move|p1a: Alakazam|Thunder Wave|p2a: Breakfast Pouch
+|-status|p2a: Breakfast Pouch|par
+|
+|turn|19
+|
+|switch|p1a: Snorlax|Snorlax|169\/523
+|switch|p2a: Result of Incest|Exeggutor|393\/393
+|
+|turn|20
+|
+|switch|p1a: Zapdos|Zapdos|383\/383
+|move|p2a: Result of Incest|Psychic|p1a: Zapdos
+|-damage|p1a: Zapdos|282\/383
+|-unboost|p1a: Zapdos|spd|1
+|-unboost|p1a: Zapdos|spa|1
+|
+|turn|21
+|
+|switch|p2a: TNT|Golem|363\/363
+|move|p1a: Zapdos|Drill Peck|p2a: TNT
+|-resisted|p2a: TNT
+|-damage|p2a: TNT|325\/363
+|
+|turn|22
+|
+|switch|p1a: Cloyster|Cloyster|303\/303
+|move|p2a: TNT|Rock Slide|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|172\/303
+|
+|turn|23
+|
+|switch|p2a: GhostInaShell|Cloyster|243\/303
+|move|p1a: Cloyster|Clamp|p2a: GhostInaShell|[miss]
+|-miss|p1a: Cloyster
+|
+|turn|24
+|
+|move|p1a: Cloyster|Clamp|p2a: GhostInaShell
+|-resisted|p2a: GhostInaShell
+|-damage|p2a: GhostInaShell|222\/303
+|-activate|p2a: GhostInaShell|move: Clamp|[of] p1a: Cloyster
+|cant|p2a: GhostInaShell|partiallytrapped
+|
+|turn|25
+|
+|move|p1a: Cloyster|Clamp|p2a: GhostInaShell
+|-damage|p2a: GhostInaShell|201\/303
+|cant|p2a: GhostInaShell|partiallytrapped
+|
+|turn|26
+|
+|move|p1a: Cloyster|Clamp|p2a: GhostInaShell
+|-damage|p2a: GhostInaShell|180\/303
+|cant|p2a: GhostInaShell|partiallytrapped
+|
+|turn|27
+|
+|switch|p1a: Alakazam|Alakazam|226\/313
+|cant|p2a: GhostInaShell|partiallytrapped
+|
+|-end|p2a: GhostInaShell|Clamp|[partiallytrapped]
+|turn|28
+|
+|switch|p2a: Result of Incest|Exeggutor|393\/393
+|move|p1a: Alakazam|Psychic|p2a: Result of Incest
+|-crit|p2a: Result of Incest
+|-resisted|p2a: Result of Incest
+|-damage|p2a: Result of Incest|282\/393
+|
+|turn|29
+|
+|switch|p1a: Jynx|Jynx|266\/333 slp
+|move|p2a: Result of Incest|Stun Spore|p1a: Jynx
+|-fail|p1a: Jynx
+|
+|turn|30
+|
+|cant|p1a: Jynx|slp
+|move|p2a: Result of Incest|Psychic|p1a: Jynx
+|-crit|p1a: Jynx
+|-resisted|p1a: Jynx
+|-damage|p1a: Jynx|140\/333 slp
+|
+|turn|31
+|
+|switch|p2a: TNT|Golem|325\/363
+|cant|p1a: Jynx|slp
+|
+|turn|32
+|
+|switch|p1a: Snorlax|Snorlax|169\/523
+|move|p2a: TNT|Rock Slide|p1a: Snorlax
+|-damage|p1a: Snorlax|46\/523
+|
+|turn|33
+|
+|move|p2a: TNT|Earthquake|p1a: Snorlax|[miss]
+|-miss|p2a: TNT
+|move|p1a: Snorlax|Blizzard|p2a: TNT
+|-supereffective|p2a: TNT
+|-damage|p2a: TNT|119\/363
+|-status|p2a: TNT|frz
+|
+|turn|34
+|chat|kid gf lol|wtf
+|chat|kid gf lol|that was the most bs thing ever
+|
+|cant|p2a: TNT|frz
+|move|p1a: Snorlax|Body Slam|p2a: TNT
+|-resisted|p2a: TNT
+|-damage|p2a: TNT|73\/363 frz
+|
+|turn|35
+|
+|cant|p2a: TNT|frz
+|move|p1a: Snorlax|Body Slam|p2a: TNT
+|-resisted|p2a: TNT
+|-damage|p2a: TNT|26\/363 frz
+|
+|turn|36
+|
+|cant|p2a: TNT|frz
+|move|p1a: Snorlax|Earthquake|p2a: TNT
+|-supereffective|p2a: TNT
+|-damage|p2a: TNT|0 fnt
+|faint|p2a: TNT
+|
+|
+|switch|p2a: Result of Incest|Exeggutor|282\/393
+|turn|37
+|
+|move|p2a: Result of Incest|Psychic|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|
+|switch|p1a: Zapdos|Zapdos|282\/383
+|turn|38
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Result of Incest
+|-supereffective|p2a: Result of Incest
+|-damage|p2a: Result of Incest|98\/393
+|move|p2a: Result of Incest|Stun Spore|p1a: Zapdos
+|-status|p1a: Zapdos|par
+|
+|turn|39
+|
+|switch|p1a: Jynx|Jynx|140\/333 slp
+|move|p2a: Result of Incest|Explosion|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|faint|p2a: Result of Incest
+|chat|kid gf lol|that was like, litterally the most bs i've ever seen in 1 turn
+|
+|switch|p1a: Alakazam|Alakazam|226\/313
+|switch|p2a: GhostInaShell|Cloyster|180\/303
+|turn|40
+|chat|Dchosen|you cant win every game buddy
+|-message|kid gf lol lost due to inactivity.
+|
+|win|Dchosen
+|raw|Ladder updating...
+|raw|Ladder (probably) updated, but score could not be retrieved (timeout).
+|raw|Ladder (probably) updated, but score could not be retrieved (Error: socket hang up).

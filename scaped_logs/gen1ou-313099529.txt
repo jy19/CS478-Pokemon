@@ -1,0 +1,1165 @@
+﻿|j|Selise
+|j|Umby17
+|player|p1|Selise|263
+|player|p2|Umby17|102
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|seed|64893,21729,17515,48980
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Jolteon|Jolteon|333\/333
+|turn|1
+|choice|switch 5|switch 4
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|switch|p1a: Chansey|Chansey|703\/703
+|
+|turn|2
+|choice|move 3|move 3
+|
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|cant|p1a: Chansey|par
+|
+|turn|3
+|choice|move 3|switch 3
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|cant|p1a: Chansey|par
+|
+|turn|4
+|choice|move 2|move 1
+|
+|move|p2a: Snorlax|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|466\/703 par
+|move|p1a: Chansey|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|
+|turn|5
+|choice|switch 3|move 2
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: Snorlax|Submission|p1a: Snorlax
+|-supereffective|p1a: Snorlax
+|-damage|p1a: Snorlax|351\/523
+|-damage|p2a: Snorlax|480\/523 par|[from] recoil|[of] p1a: Snorlax
+|
+|turn|6
+|choice|switch 4|move 2
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Snorlax|Submission|p1a: Exeggutor|[miss]
+|-miss|p2a: Snorlax
+|
+|turn|7
+|choice|move 4|move 1
+|
+|move|p1a: Exeggutor|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|312\/523 par
+|move|p2a: Snorlax|Earthquake|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|344\/393
+|
+|turn|8
+|choice|move 4|switch 4
+|
+|switch|p2a: Jolteon|Jolteon|333\/333
+|move|p1a: Exeggutor|Psychic|p2a: Jolteon
+|-crit|p2a: Jolteon
+|-damage|p2a: Jolteon|123\/333
+|-unboost|p2a: Jolteon|spd|1
+|-unboost|p2a: Jolteon|spa|1
+|
+|turn|9
+|choice|move 4|move 4
+|
+|move|p2a: Jolteon|Pin Missile|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|303\/393
+|-damage|p1a: Exeggutor|262\/393
+|-damage|p1a: Exeggutor|221\/393
+|-hitcount|p1a: Exeggutor|3
+|move|p1a: Exeggutor|Psychic|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|choice||switch 4
+|
+|switch|p2a: Snorlax|Snorlax|312\/523 par
+|turn|10
+|choice|move 4|move 3
+|
+|move|p1a: Exeggutor|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|164\/523 par
+|move|p2a: Snorlax|Hyper Beam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|choice|switch 2|
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|turn|11
+|choice|move 3|move 4
+|
+|move|p1a: Starmie|Blizzard|p2a: Snorlax
+|-damage|p2a: Snorlax|41\/523 par
+|cant|p2a: Snorlax|par
+|
+|turn|12
+|choice|move 4|move 4
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|choice||switch 3
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|turn|13
+|choice|switch 5|move 3
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|move|p2a: Chansey|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|
+|turn|14
+|choice|move 2|move 2
+|
+|move|p2a: Chansey|Ice Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|250\/313 par
+|move|p1a: Alakazam|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|turn|15
+|choice|move 3|move 4
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|568\/703 par
+|move|p2a: Chansey|Thunderbolt|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|135\/313 par
+|
+|turn|16
+|choice|move 1|switch 6
+|
+|switch|p2a: Slowbro|Slowbro|393\/393
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|291\/313 par
+|
+|turn|17
+|choice|switch 5|move 2
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|18
+|choice|move 4|move 3
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|306\/393
+|move|p2a: Slowbro|Thunder Wave|p1a: Starmie
+|-status|p1a: Starmie|par
+|
+|turn|19
+|choice|move 4|switch 6
+|
+|switch|p2a: Chansey|Chansey|568\/703 par
+|cant|p1a: Starmie|par
+|
+|turn|20
+|choice|move 2|move 4
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|cant|p2a: Chansey|par
+|
+|turn|21
+|choice|move 4|move 4
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|495\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|22
+|choice|switch 4|move 4
+|
+|switch|p1a: Snorlax|Snorlax|351\/523
+|cant|p2a: Chansey|par
+|
+|turn|23
+|choice|move 2|switch 2
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Snorlax|Hyper Beam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|174\/393
+|
+|turn|24
+|-mustrecharge|p1a: Snorlax
+|-mustrecharge|p1a: Snorlax
+|choice|move 1|move 1
+|
+|move|p2a: Exeggutor|Sleep Powder|p1a: Snorlax
+|-status|p1a: Snorlax|slp
+|cant|p1a: Snorlax|recharge
+|
+|turn|25
+|choice|switch 5|move 3
+|
+|switch|p1a: Alakazam|Alakazam|291\/313 par
+|move|p2a: Exeggutor|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|241\/313 par
+|
+|turn|26
+|choice|move 2|move 4
+|
+|move|p2a: Exeggutor|Explosion|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|faint|p2a: Exeggutor
+|choice|switch 6|switch 6
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|switch|p2a: Slowbro|Slowbro|306\/393
+|turn|27
+|choice|move 1|move 3
+|
+|move|p1a: Tauros|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|209\/393
+|-status|p2a: Slowbro|par
+|move|p2a: Slowbro|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|
+|turn|28
+|choice|move 1|move 1
+|
+|move|p1a: Tauros|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|116\/393 par
+|cant|p2a: Slowbro|par
+|
+|turn|29
+|choice|move 1|move 1
+|
+|move|p1a: Tauros|Body Slam|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|choice||switch 2
+|
+|switch|p2a: Chansey|Chansey|495\/703 par
+|turn|30
+|choice|move 1|move 2
+|
+|cant|p1a: Tauros|par
+|move|p2a: Chansey|Ice Beam|p1a: Tauros
+|-damage|p1a: Tauros|254\/353 par
+|
+|turn|31
+|choice|move 1|move 2
+|
+|move|p1a: Tauros|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|227\/703 par
+|move|p2a: Chansey|Ice Beam|p1a: Tauros
+|-damage|p1a: Tauros|163\/353 par
+|
+|turn|32
+|choice|move 1|move 2
+|
+|cant|p1a: Tauros|par
+|move|p2a: Chansey|Ice Beam|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|choice|switch 4|
+|
+|switch|p1a: Starmie|Starmie|323\/323 par
+|turn|33
+|choice|move 3|move 1
+|
+|cant|p1a: Starmie|par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|578\/703 par
+|
+|turn|34
+|choice|move 3|move 4
+|
+|cant|p1a: Starmie|par
+|move|p2a: Chansey|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|162\/323 par
+|
+|turn|35
+|choice|switch 5|move 4
+|
+|switch|p1a: Snorlax|Snorlax|351\/523 slp
+|move|p2a: Chansey|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|252\/523 slp
+|
+|turn|36
+|choice|move 4|switch 5
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|-curestatus|p1a: Snorlax|slp
+|
+|turn|37
+|choice|move 3|move 2
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|19\/523
+|move|p1a: Snorlax|Self-Destruct|p2a: Tauros
+|-damage|p2a: Tauros|15\/353
+|faint|p1a: Snorlax
+|choice|switch 3|
+|
+|switch|p1a: Chansey|Chansey|466\/703 par
+|turn|38
+|-mustrecharge|p2a: Tauros
+|-mustrecharge|p2a: Tauros
+|choice|move 3|move 1
+|
+|cant|p2a: Tauros|recharge
+|move|p1a: Chansey|Ice Beam|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|choice||switch 5
+|
+|switch|p2a: Chansey|Chansey|578\/703 par
+|turn|39
+|choice|move 2|move 4
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|393\/703 par
+|
+|turn|40
+|choice|move 2|move 4
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|cant|p2a: Chansey|par
+|
+|turn|41
+|choice|move 2|move 2
+|
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|319\/703 par
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|
+|turn|42
+|choice|move 1|move 2
+|
+|cant|p2a: Chansey|par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|670\/703 par
+|
+|turn|43
+|choice|move 2|move 3
+|
+|cant|p2a: Chansey|par
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|
+|turn|44
+|choice|move 2|move 3
+|
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|
+|turn|45
+|choice|move 2|move 3
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|cant|p2a: Chansey|par
+|
+|turn|46
+|choice|move 2|move 3
+|
+|cant|p1a: Chansey|par
+|cant|p2a: Chansey|par
+|
+|turn|47
+|choice|move 2|move 3
+|
+|cant|p1a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|
+|turn|48
+|choice|move 2|move 3
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|
+|turn|49
+|choice|move 2|move 3
+|
+|cant|p2a: Chansey|par
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|
+|turn|50
+|choice|move 2|move 3
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|
+|turn|51
+|choice|move 2|move 3
+|
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|
+|turn|52
+|choice|move 2|move 3
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|
+|turn|53
+|choice|move 2|move 3
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|
+|turn|54
+|choice|move 2|move 3
+|
+|cant|p1a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|
+|turn|55
+|choice|move 2|move 3
+|
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|
+|turn|56
+|choice|move 2|move 3
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|
+|turn|57
+|choice|move 2|move 3
+|
+|cant|p2a: Chansey|par
+|cant|p1a: Chansey|par
+|
+|turn|58
+|choice|move 2|move 3
+|
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|
+|turn|59
+|choice|move 2|move 3
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|
+|turn|60
+|choice|move 2|move 3
+|
+|cant|p1a: Chansey|par
+|cant|p2a: Chansey|par
+|
+|turn|61
+|choice|move 2|move 3
+|
+|cant|p1a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|
+|turn|62
+|choice|move 2|move 3
+|
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|cant|p1a: Chansey|par
+|
+|turn|63
+|choice|move 2|move 3
+|
+|cant|p2a: Chansey|par
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|
+|turn|64
+|choice|move 2|move 3
+|
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|
+|turn|65
+|choice|move 2|move 3
+|
+|cant|p2a: Chansey|par
+|cant|p1a: Chansey|par
+|
+|turn|66
+|choice|move 2|move 3
+|
+|cant|p2a: Chansey|par
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|
+|turn|67
+|choice|move 2|move 3
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|
+|turn|68
+|choice|move 2|move 3
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|
+|turn|69
+|choice|move 2|move 3
+|
+|cant|p2a: Chansey|par
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|
+|turn|70
+|choice|move 2|move 3
+|
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|cant|p1a: Chansey|par
+|
+|turn|71
+|choice|move 2|move 3
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|cant|p2a: Chansey|par
+|
+|turn|72
+|choice|move 2|move 3
+|
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|
+|turn|73
+|choice|move 2|move 3
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|
+|turn|74
+|choice|move 2|move 3
+|
+|cant|p1a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|
+|turn|75
+|choice|move 2|move 3
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|
+|turn|76
+|choice|move 2|move 3
+|
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|
+|turn|77
+|choice|move 2|move 3
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|
+|turn|78
+|choice|move 2|move 3
+|
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|
+|turn|79
+|choice|move 2|move 3
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|
+|turn|80
+|choice|move 2|move 3
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|
+|turn|81
+|choice|move 3|move 3
+|
+|cant|p2a: Chansey|par
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|506\/703 par
+|
+|turn|82
+|choice|move 3|move 3
+|
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|370\/703 par
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|
+|turn|83
+|choice|move 3|move 3
+|
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|cant|p1a: Chansey|par
+|
+|turn|84
+|choice|move 3|move 3
+|
+|cant|p2a: Chansey|par
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|297\/703 par
+|
+|turn|85
+|choice|move 3|move 3
+|
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|221\/703 par
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|
+|turn|86
+|choice|move 3|move 1
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|572\/703 par
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|498\/703 par
+|
+|turn|87
+|choice|move 3|move 2
+|
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|591\/703 par
+|cant|p1a: Chansey|par
+|
+|turn|88
+|choice|move 3|move 2
+|
+|cant|p1a: Chansey|par
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|523\/703 par
+|
+|turn|89
+|choice|move 3|move 2
+|
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|447\/703 par
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|420\/703 par
+|
+|turn|90
+|choice|move 3|move 2
+|
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|373\/703 par
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|346\/703 par
+|
+|turn|91
+|choice|move 3|move 1
+|
+|cant|p1a: Chansey|par
+|cant|p2a: Chansey|par
+|
+|turn|92
+|choice|move 3|move 1
+|
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|270\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|93
+|choice|move 3|move 1
+|
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|199\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|94
+|choice|move 3|move 1
+|
+|cant|p2a: Chansey|par
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|118\/703 par
+|
+|turn|95
+|choice|move 3|move 1
+|
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|45\/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|396\/703 par
+|
+|turn|96
+|choice|move 3|move 2
+|
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|300\/703 par
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|318\/703 par
+|
+|turn|97
+|choice|move 1|move 2
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|651\/703 par
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|578\/703 par
+|
+|turn|98
+|choice|move 3|move 2
+|
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|240\/703 par
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|500\/703 par
+|
+|turn|99
+|choice|move 3|move 1
+|
+|cant|p2a: Chansey|par
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|170\/703 par
+|
+|turn|100
+|choice|move 3|move 1
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|521\/703 par
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|446\/703 par
+|
+|turn|101
+|choice|move 4|move 2
+|
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|426\/703 par
+|cant|p1a: Chansey|par
+|
+|turn|102
+|choice|move 4|move 2
+|
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|350\/703 par
+|cant|p1a: Chansey|par
+|
+|turn|103
+|choice|move 1|move 2
+|
+|cant|p1a: Chansey|par
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|269\/703 par
+|
+|turn|104
+|choice|move 1|move 2
+|
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|189\/703 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|540\/703 par
+|
+|turn|105
+|choice|move 4|move 4
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|376\/703 par
+|move|p2a: Chansey|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|467\/703 par
+|
+|turn|106
+|choice|move 4|move 4
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|296\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|107
+|choice|move 4|move 1
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|227\/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|578\/703 par
+|
+|turn|108
+|choice|move 4|move 4
+|
+|cant|p1a: Chansey|par
+|move|p2a: Chansey|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|396\/703 par
+|
+|turn|109
+|choice|move 4|move 4
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|318\/703 par
+|move|p1a: Chansey|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|506\/703 par
+|
+|turn|110
+|choice|move 1|move 4
+|
+|cant|p1a: Chansey|par
+|move|p2a: Chansey|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|241\/703 par
+|
+|turn|111
+|choice|move 1|move 4
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|167\/703 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|518\/703 par
+|
+|turn|112
+|choice|move 4|move 4
+|
+|cant|p2a: Chansey|par
+|move|p1a: Chansey|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|429\/703 par
+|
+|turn|113
+|choice|move 4|move 4
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|442\/703 par
+|cant|p1a: Chansey|par
+|
+|turn|114
+|choice|move 4|move 4
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|371\/703 par
+|move|p1a: Chansey|Thunderbolt|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|283\/703 par
+|
+|turn|115
+|choice|move 1|move 1
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|634\/703 par
+|
+|turn|116
+|choice|move 4|move 4
+|
+|cant|p2a: Chansey|par
+|move|p1a: Chansey|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|560\/703 par
+|
+|turn|117
+|choice|move 4|move 4
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|483\/703 par
+|move|p2a: Chansey|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|630\/703 par
+|
+|turn|118
+|choice|move 4|move 4
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|412\/703 par
+|move|p2a: Chansey|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|551\/703 par
+|
+|turn|119
+|choice|move 4|move 4
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|342\/703 par
+|move|p2a: Chansey|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|481\/703 par
+|
+|turn|120
+|choice|move 4|move 1
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|273\/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|624\/703 par
+|
+|turn|121
+|choice|move 4|move 4
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|407\/703 par
+|move|p1a: Chansey|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|549\/703 par
+|
+|turn|122
+|choice|move 1|move 4
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703 par
+|move|p2a: Chansey|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|633\/703 par
+|
+|turn|123
+|choice|move 4|move 4
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|469\/703 par
+|move|p2a: Chansey|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|553\/703 par
+|
+|turn|124
+|choice|move 4|move 4
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|397\/703 par
+|move|p2a: Chansey|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|484\/703 par
+|
+|turn|125
+|choice|move 4|move 4
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|411\/703 par
+|move|p1a: Chansey|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|318\/703 par
+|
+|turn|126
+|choice|move 1|move 1
+|
+|cant|p2a: Chansey|par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703 par
+|
+|turn|127
+|choice|move 4|move 1
+|
+|cant|p2a: Chansey|par
+|cant|p1a: Chansey|par
+|
+|turn|128
+|choice|move 4|move 1
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|245\/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|596\/703 par
+|
+|turn|129
+|choice|move 4|move 4
+|
+|cant|p1a: Chansey|par
+|cant|p2a: Chansey|par
+|
+|turn|130
+|choice|move 4|move 4
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|624\/703 par
+|cant|p1a: Chansey|par
+|
+|turn|131
+|choice|move 4|move 4
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|552\/703 par
+|move|p1a: Chansey|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|517\/703 par
+|
+|turn|132
+|choice|move 4|move 4
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|444\/703 par
+|move|p2a: Chansey|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|474\/703 par
+|
+|turn|133
+|choice|move 4|move 1
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|370\/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703 par
+|
+|turn|134
+|choice|move 4|move 1
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-fail|p2a: Chansey
+|move|p1a: Chansey|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|632\/703 par
+|
+|turn|135
+|choice|move 1|move 1
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703 par
+|
+|turn|136
+|choice|move 1|move 4
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-fail|p1a: Chansey
+|move|p2a: Chansey|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|624\/703 par
+|
+|turn|137
+|choice|move 1|move 4
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|544\/703 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703 par
+|
+|turn|138
+|choice|move 1|move 1
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-fail|p1a: Chansey
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|139
+|choice|move 1|move 1
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-fail|p2a: Chansey
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-fail|p1a: Chansey
+|
+|turn|140
+|choice|move 1|move 1
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-fail|p2a: Chansey
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-fail|p1a: Chansey
+|
+|turn|141
+|choice|move 1|move 1
+|
+|cant|p2a: Chansey|par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-fail|p1a: Chansey
+|
+|turn|142
+|choice|move 1|move 1
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-fail|p2a: Chansey
+|cant|p1a: Chansey|par
+|
+|turn|143
+|choice|move 1|move 1
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-fail|p1a: Chansey
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|144
+|choice|move 4|move 1
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|631\/703 par
+|move|p2a: Chansey|Struggle|p1a: Chansey
+|-damage|p1a: Chansey|639\/703 par
+|-damage|p2a: Chansey|599\/703 par|[from] recoil|[of] p1a: Chansey
+|
+|turn|145
+|choice|move 4|move 1
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|529\/703 par
+|move|p2a: Chansey|Struggle|p1a: Chansey
+|-damage|p1a: Chansey|583\/703 par
+|-damage|p2a: Chansey|501\/703 par|[from] recoil|[of] p1a: Chansey
+|
+|turn|146
+|choice|move 4|move 1
+|
+|move|p2a: Chansey|Struggle|p1a: Chansey
+|-damage|p1a: Chansey|522\/703 par
+|-damage|p2a: Chansey|471\/703 par|[from] recoil|[of] p1a: Chansey
+|move|p1a: Chansey|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|396\/703 par
+|
+|turn|147
+|c|★Umby17|Wait, Starmie just wins now
+|c|★Umby17|aorry
+|-message|Umby17 forfeited.
+|
+|win|Selise
+|l|Umby17
+|player|p2
+|c|★Selise|gg
+|raw|Selise's rating: 1319 &rarr; <strong>1339<\/strong><br \/>(+20 for winning)
+|raw|Umby17's rating: 1322 &rarr; <strong>1301<\/strong><br \/>(-21 for losing)

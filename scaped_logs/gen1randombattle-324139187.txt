@@ -1,0 +1,334 @@
+﻿|j|MALESANI
+|j|ankitkhetrapal
+|player|p1|MALESANI|238
+|player|p2|ankitkhetrapal|52
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|21651,51840,6724,6382
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Poliwrath|Poliwrath, L85|327\/327
+|switch|p2a: Golduck|Golduck, L85|310\/310
+|turn|1
+|choice|move 3|switch 5
+|
+|switch|p2a: Persian|Persian, L79|265\/265
+|move|p1a: Poliwrath|Hypnosis|p2a: Persian|[miss]
+|-miss|p1a: Poliwrath
+|
+|turn|2
+|choice|move 3|move 4
+|
+|move|p2a: Persian|Thunderbolt|p1a: Poliwrath
+|-supereffective|p1a: Poliwrath
+|-damage|p1a: Poliwrath|215\/327
+|move|p1a: Poliwrath|Hypnosis|p2a: Persian|[miss]
+|-miss|p1a: Poliwrath
+|
+|turn|3
+|choice|switch 5|move 4
+|
+|switch|p1a: Hypno|Hypno, L85|318\/318
+|move|p2a: Persian|Thunderbolt|p1a: Hypno
+|-damage|p1a: Hypno|279\/318
+|
+|turn|4
+|choice|move 4|move 3
+|
+|move|p2a: Persian|Body Slam|p1a: Hypno
+|-damage|p1a: Hypno|206\/318
+|move|p1a: Hypno|Thunder Wave|p2a: Persian
+|-status|p2a: Persian|par
+|
+|turn|5
+|choice|move 1|move 3
+|
+|move|p1a: Hypno|Psychic|p2a: Persian
+|-damage|p2a: Persian|116\/265 par
+|-unboost|p2a: Persian|spd|1
+|-unboost|p2a: Persian|spa|1
+|cant|p2a: Persian|par
+|
+|turn|6
+|choice|move 1|switch 4
+|
+|switch|p2a: Chansey|Chansey, L79|557\/557
+|move|p1a: Hypno|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|454\/557
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|
+|turn|7
+|choice|move 2|move 2
+|
+|move|p1a: Hypno|Hypnosis|p2a: Chansey|[miss]
+|-miss|p1a: Hypno
+|move|p2a: Chansey|Thunder Wave|p1a: Hypno
+|-status|p1a: Hypno|par
+|
+|turn|8
+|choice|move 2|switch 4
+|
+|switch|p2a: Persian|Persian, L79|116\/265 par
+|move|p1a: Hypno|Hypnosis|p2a: Persian
+|-fail|p2a: Persian
+|
+|turn|9
+|choice|move 1|move 1
+|
+|move|p2a: Persian|Slash|p1a: Hypno
+|-crit|p1a: Hypno
+|-damage|p1a: Hypno|79\/318 par
+|move|p1a: Hypno|Psychic|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|faint|p2a: Persian
+|choice||switch 3
+|
+|switch|p2a: Jolteon|Jolteon, L79|265\/265
+|turn|10
+|choice|move 4|move 1
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Hypno
+|-crit|p1a: Hypno
+|-damage|p1a: Hypno|0 fnt
+|faint|p1a: Hypno
+|choice|switch 4|
+|
+|switch|p1a: Magmar|Magmar, L90|300\/300
+|turn|11
+|choice|move 1|move 2
+|
+|move|p2a: Jolteon|Thunder Wave|p1a: Magmar
+|-status|p1a: Magmar|par
+|move|p1a: Magmar|Confuse Ray|p2a: Jolteon
+|-start|p2a: Jolteon|confusion
+|
+|turn|12
+|choice|move 3|switch 5
+|
+|switch|p2a: Golduck|Golduck, L85|310\/310
+|cant|p1a: Magmar|par
+|
+|turn|13
+|choice|switch 5|move 1
+|
+|switch|p1a: Poliwrath|Poliwrath, L85|215\/327
+|move|p2a: Golduck|Amnesia|p2a: Golduck
+|-boost|p2a: Golduck|spd|2
+|-boost|p2a: Golduck|spa|2
+|
+|turn|14
+|choice|move 3|move 4
+|
+|move|p2a: Golduck|Surf|p1a: Poliwrath
+|-resisted|p1a: Poliwrath
+|-damage|p1a: Poliwrath|111\/327
+|move|p1a: Poliwrath|Hypnosis|p2a: Golduck
+|-status|p2a: Golduck|slp
+|
+|turn|15
+|choice|move 1|switch 5
+|
+|switch|p2a: Jolteon|Jolteon, L79|265\/265
+|move|p1a: Poliwrath|Amnesia|p1a: Poliwrath
+|-boost|p1a: Poliwrath|spd|2
+|-boost|p1a: Poliwrath|spa|2
+|
+|turn|16
+|choice|move 1|move 1
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Poliwrath
+|-supereffective|p1a: Poliwrath
+|-damage|p1a: Poliwrath|0 fnt
+|faint|p1a: Poliwrath
+|choice|switch 5|
+|
+|switch|p1a: Magmar|Magmar, L90|300\/300 par
+|turn|17
+|choice|move 3|move 1
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Magmar
+|-damage|p1a: Magmar|205\/300 par
+|move|p1a: Magmar|Body Slam|p2a: Jolteon
+|-damage|p2a: Jolteon|169\/265
+|
+|turn|18
+|choice|move 1|move 1
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Magmar
+|-damage|p1a: Magmar|112\/300 par
+|move|p1a: Magmar|Confuse Ray|p2a: Jolteon
+|-start|p2a: Jolteon|confusion
+|
+|turn|19
+|choice|move 3|switch 5
+|
+|switch|p2a: Golduck|Golduck, L85|310\/310 slp
+|cant|p1a: Magmar|par
+|
+|turn|20
+|choice|switch 2|move 4
+|
+|switch|p1a: Fearow|Fearow, L90|300\/300
+|cant|p2a: Golduck|slp
+|
+|turn|21
+|choice|move 4|switch 5
+|
+|switch|p2a: Jolteon|Jolteon, L79|169\/265
+|move|p1a: Fearow|Double-Edge|p2a: Jolteon
+|-damage|p2a: Jolteon|11\/265
+|-damage|p1a: Fearow|261\/300|[from] recoil|[of] p2a: Jolteon
+|
+|turn|22
+|choice|switch 6|move 1
+|
+|switch|p1a: Flareon|Flareon, L90|300\/300
+|move|p2a: Jolteon|Thunderbolt|p1a: Flareon
+|-damage|p1a: Flareon|217\/300
+|
+|turn|23
+|choice|move 1|switch 5
+|
+|switch|p2a: Golduck|Golduck, L85|310\/310 slp
+|move|p1a: Flareon|Quick Attack|p2a: Golduck
+|-damage|p2a: Golduck|265\/310 slp
+|
+|turn|24
+|choice|move 3|move 4
+|
+|-curestatus|p2a: Golduck|slp
+|move|p1a: Flareon|Body Slam|p2a: Golduck
+|-damage|p2a: Golduck|172\/310
+|-status|p2a: Golduck|par
+|
+|turn|25
+|choice|move 2|move 4
+|
+|move|p1a: Flareon|Hyper Beam|p2a: Golduck
+|-damage|p2a: Golduck|12\/310 par
+|move|p2a: Golduck|Surf|p1a: Flareon
+|-supereffective|p1a: Flareon
+|-damage|p1a: Flareon|76\/300
+|
+|turn|26
+|-mustrecharge|p1a: Flareon
+|-mustrecharge|p1a: Flareon
+|choice|move 1|move 3
+|
+|cant|p1a: Flareon|recharge
+|move|p2a: Golduck|Rest|p2a: Golduck
+|-status|p2a: Golduck|slp
+|-heal|p2a: Golduck|310\/310 slp|[silent]
+|-status|p2a: Golduck|slp|[from] move: Rest
+|
+|turn|27
+|choice|switch 3|move 4
+|
+|switch|p1a: Weezing|Weezing, L90|300\/300
+|cant|p2a: Golduck|slp
+|
+|turn|28
+|choice|move 2|move 4
+|
+|move|p1a: Weezing|Thunder|p2a: Golduck
+|-supereffective|p2a: Golduck
+|-damage|p2a: Golduck|133\/310 slp
+|-curestatus|p2a: Golduck|slp
+|
+|turn|29
+|choice|move 2|move 1
+|
+|move|p1a: Weezing|Thunder|p2a: Golduck
+|-supereffective|p2a: Golduck
+|-damage|p2a: Golduck|0 fnt
+|faint|p2a: Golduck
+|choice||switch 4
+|
+|switch|p2a: Chansey|Chansey, L79|454\/557
+|turn|30
+|choice|move 1|move 2
+|
+|move|p1a: Weezing|Explosion|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|faint|p1a: Weezing
+|choice|switch 3|switch 5
+|
+|switch|p2a: Jolteon|Jolteon, L79|11\/265
+|switch|p1a: Flareon|Flareon, L90|76\/300
+|turn|31
+|choice|move 1|move 1
+|
+|move|p1a: Flareon|Quick Attack|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|choice||switch 6
+|
+|switch|p2a: Hitmonchan|Hitmonchan, L90|273\/273
+|turn|32
+|choice|switch 2|move 1
+|
+|switch|p1a: Magmar|Magmar, L90|112\/300 par
+|move|p2a: Hitmonchan|Seismic Toss|p1a: Magmar
+|-damage|p1a: Magmar|22\/300 par
+|
+|turn|33
+|choice|move 2|move 1
+|
+|move|p2a: Hitmonchan|Seismic Toss|p1a: Magmar
+|-damage|p1a: Magmar|0 fnt
+|faint|p1a: Magmar
+|choice|switch 6|
+|
+|switch|p1a: Fearow|Fearow, L90|261\/300
+|turn|34
+|choice|move 2|move 4
+|
+|move|p1a: Fearow|Drill Peck|p2a: Hitmonchan
+|-supereffective|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|100\/273
+|move|p2a: Hitmonchan|Body Slam|p1a: Fearow
+|-damage|p1a: Fearow|186\/300
+|
+|turn|35
+|choice|move 2|move 1
+|
+|move|p1a: Fearow|Drill Peck|p2a: Hitmonchan
+|-crit|p2a: Hitmonchan
+|-supereffective|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|0 fnt
+|faint|p2a: Hitmonchan
+|choice||switch 2
+|
+|switch|p2a: Machoke|Machoke, L85|310\/310
+|turn|36
+|choice|move 2|move 3
+|
+|move|p1a: Fearow|Drill Peck|p2a: Machoke
+|-supereffective|p2a: Machoke
+|-damage|p2a: Machoke|105\/310
+|move|p2a: Machoke|Rock Slide|p1a: Fearow
+|-supereffective|p1a: Fearow
+|-damage|p1a: Fearow|54\/300
+|
+|turn|37
+|choice|move 2|move 3
+|
+|move|p1a: Fearow|Drill Peck|p2a: Machoke
+|-supereffective|p2a: Machoke
+|-damage|p2a: Machoke|0 fnt
+|faint|p2a: Machoke
+|
+|win|MALESANI
+|player|p1
+|player|p2
+|raw|MALESANI's rating: 1438 &rarr; <strong>1451<\/strong><br \/>(+13 for winning)
+|raw|ankitkhetrapal's rating: 1328 &rarr; <strong>1314<\/strong><br \/>(-14 for losing)
+|c|★ankitkhetrapal|gg
+|c|★MALESANI|gg

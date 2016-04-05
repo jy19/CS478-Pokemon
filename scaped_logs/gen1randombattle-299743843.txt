@@ -1,0 +1,151 @@
+﻿|join|spacklez
+|join|Mega33x
+|player|p1|spacklez|169
+|player|p2|Mega33x|29
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|11628,19194,40939,3482
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Mew|Mew, L74|300\/300
+|switch|p2a: Dewgong|Dewgong, L85|327\/327
+|turn|1
+|choice|move 1|move 4
+|
+|move|p1a: Mew|Thunderbolt|p2a: Dewgong
+|-crit|p2a: Dewgong
+|-supereffective|p2a: Dewgong
+|-damage|p2a: Dewgong|117\/327
+|move|p2a: Dewgong|Blizzard|p1a: Mew
+|-damage|p1a: Mew|173\/300
+|
+|turn|2
+|choice|move 4|switch 2
+|
+|switch|p2a: Nidorino|Nidorino, L90|293\/293
+|move|p1a: Mew|Psychic|p2a: Nidorino
+|-supereffective|p2a: Nidorino
+|-damage|p2a: Nidorino|118\/293
+|
+|turn|3
+|choice|move 4|move 4
+|
+|move|p1a: Mew|Psychic|p2a: Nidorino
+|-supereffective|p2a: Nidorino
+|-damage|p2a: Nidorino|0 fnt
+|faint|p2a: Nidorino
+|choice||switch 4
+|
+|switch|p2a: Articuno|Articuno, L79|304\/304
+|turn|4
+|choice|move 1|move 1
+|
+|move|p1a: Mew|Thunderbolt|p2a: Articuno
+|-crit|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|114\/304
+|move|p2a: Articuno|Mimic|p1a: Mew
+|-start|p2a: Articuno|Mimic|Thunderbolt
+|
+|turn|5
+|choice|move 1|move 2
+|
+|move|p1a: Mew|Thunderbolt|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|30\/304
+|move|p2a: Articuno|Blizzard|p1a: Mew
+|-damage|p1a: Mew|37\/300
+|
+|turn|6
+|c|★Mega33x|omfg another crit
+|choice|move 4|move 2
+|
+|move|p1a: Mew|Psychic|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|faint|p2a: Articuno
+|c|★Mega33x|lucky garbage
+|choice||switch 2
+|
+|switch|p2a: Dewgong|Dewgong, L85|117\/327
+|turn|7
+|choice|move 1|move 3
+|
+|move|p1a: Mew|Thunderbolt|p2a: Dewgong
+|-crit|p2a: Dewgong
+|-supereffective|p2a: Dewgong
+|-damage|p2a: Dewgong|0 fnt
+|faint|p2a: Dewgong
+|choice||switch 5
+|
+|switch|p2a: Nidoqueen|Nidoqueen, L85|327\/327
+|turn|8
+|choice|move 4|move 4
+|
+|move|p1a: Mew|Psychic|p2a: Nidoqueen
+|-crit|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|0 fnt
+|faint|p2a: Nidoqueen
+|choice||switch 3
+|
+|switch|p2a: Clefable|Clefable, L85|335\/335
+|turn|9
+|choice|move 2|move 4
+|
+|move|p1a: Mew|Thunder Wave|p2a: Clefable
+|-status|p2a: Clefable|par
+|move|p2a: Clefable|Thunderbolt|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|c|★spacklez|RIP
+|choice|switch 3|
+|
+|switch|p1a: Machamp|Machamp, L90|345\/345
+|turn|10
+|choice|move 2|move 2
+|
+|move|p1a: Machamp|Submission|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|78\/335 par
+|-damage|p1a: Machamp|281\/345|[from] recoil|[of] p2a: Clefable
+|move|p2a: Clefable|Counter|p1a: Machamp
+|-damage|p1a: Machamp|0 fnt
+|faint|p1a: Machamp
+|choice|switch 5|
+|
+|switch|p1a: Hypno|Hypno, L85|318\/318
+|turn|11
+|choice|move 1|move 4
+|
+|move|p1a: Hypno|Psychic|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|choice||switch 6
+|
+|switch|p2a: Parasect|Parasect, L90|291\/291
+|turn|12
+|c|★spacklez|!weak parasect
+|raw|<div class="infobox">Parasect (ignoring abilities):<br><span class="message-effect-weak">Weaknesses<\/span>: Bug, <b>Fire<\/b>, <b>Flying<\/b>, Ice, Poison, Rock<br><span class="message-effect-resist">Resistances<\/span>: Electric, Fighting, <b>Grass<\/b>, <b>Ground<\/b>, Water<br><span class="message-effect-immune">Immunities<\/span>: <font color=#999999>None<\/font><\/div>
+|choice|move 1|move 3
+|
+|move|p1a: Hypno|Psychic|p2a: Parasect
+|-crit|p2a: Parasect
+|-damage|p2a: Parasect|97\/291
+|-unboost|p2a: Parasect|spd|1
+|-unboost|p2a: Parasect|spa|1
+|move|p2a: Parasect|Slash|p1a: Hypno
+|-damage|p1a: Hypno|256\/318
+|
+|turn|13
+|-message|Mega33x forfeited.
+|leave|Mega33x
+|
+|win|spacklez
+|raw|spacklez's rating: 1106 &rarr; <strong>1123<\/strong><br \/>(+17 for winning)
+|raw|Mega33x's rating: 1000 &rarr; <strong>1000<\/strong><br \/>(+0 for losing)
+|player|p2

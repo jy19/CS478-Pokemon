@@ -1,0 +1,326 @@
+﻿|join|markus1000
+|join|Versch
+|player|p1|markus1000|101
+|player|p2|Versch|177
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Squirtle|Squirtle, L92|268\/268
+|switch|p2a: Wartortle|Wartortle, L86|277\/277
+|turn|1
+|
+|switch|p2a: Chansey|Chansey, L82|578\/578
+|move|p1a: Squirtle|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|467\/578
+|
+|turn|2
+|
+|move|p1a: Squirtle|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|347\/578
+|move|p2a: Chansey|Reflect|p2a: Chansey
+|
+|turn|3
+|
+|move|p1a: Squirtle|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|283\/578
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|572\/578
+|
+|turn|4
+|
+|move|p1a: Squirtle|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|505\/578
+|move|p2a: Chansey|Thunderbolt|p1a: Squirtle
+|-supereffective|p1a: Squirtle
+|-damage|p1a: Squirtle|88\/268
+|
+|turn|5
+|
+|switch|p1a: Exeggutor|Exeggutor, L82|324\/324
+|move|p2a: Chansey|Thunderbolt|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|298\/324
+|
+|turn|6
+|
+|switch|p2a: Wartortle|Wartortle, L86|277\/277
+|move|p1a: Exeggutor|Sleep Powder|p2a: Wartortle
+|-status|p2a: Wartortle|slp
+|
+|turn|7
+|
+|switch|p2a: Chansey|Chansey, L82|505\/578
+|switch|p1a: Hitmonchan|Hitmonchan, L86|261\/261
+|
+|turn|8
+|
+|switch|p2a: Exeggutor|Exeggutor, L82|324\/324
+|move|p1a: Hitmonchan|Submission|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|238\/324
+|-damage|p1a: Hitmonchan|240\/261|[from] recoil|[of] p2a: Exeggutor
+|
+|turn|9
+|
+|switch|p1a: Squirtle|Squirtle, L92|88\/268
+|move|p2a: Exeggutor|Sleep Powder|p1a: Squirtle|[miss]
+|-miss|p2a: Exeggutor
+|
+|turn|10
+|
+|move|p2a: Exeggutor|Egg Bomb|p1a: Squirtle
+|-damage|p1a: Squirtle|12\/268
+|move|p1a: Squirtle|Blizzard|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|134\/324
+|
+|turn|11
+|
+|switch|p1a: Vaporeon|Vaporeon, L86|399\/399
+|move|p2a: Exeggutor|Hyper Beam|p1a: Vaporeon
+|-damage|p1a: Vaporeon|289\/399
+|
+|turn|12
+|
+|move|p1a: Vaporeon|Blizzard|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Gyarados|Gyarados, L86|339\/339
+|turn|13
+|
+|switch|p1a: Squirtle|Squirtle, L92|12\/268
+|move|p2a: Gyarados|Thunderbolt|p1a: Squirtle
+|-crit|p1a: Squirtle
+|-supereffective|p1a: Squirtle
+|-damage|p1a: Squirtle|0 fnt
+|faint|p1a: Squirtle
+|
+|switch|p1a: Exeggutor|Exeggutor, L82|298\/324
+|turn|14
+|
+|move|p2a: Gyarados|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|152\/324
+|move|p1a: Exeggutor|Stun Spore|p2a: Gyarados|[miss]
+|-miss|p1a: Exeggutor
+|
+|turn|15
+|
+|move|p2a: Gyarados|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|11\/324
+|move|p1a: Exeggutor|Stun Spore|p2a: Gyarados
+|-status|p2a: Gyarados|par
+|
+|turn|16
+|
+|move|p1a: Exeggutor|Hyper Beam|p2a: Gyarados
+|-damage|p2a: Gyarados|229\/339 par
+|move|p2a: Gyarados|Body Slam|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Persian|Persian, L82|274\/274
+|turn|17
+|
+|switch|p2a: Aerodactyl|Aerodactyl, L86|313\/313
+|move|p1a: Persian|Thunderbolt|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|184\/313
+|
+|turn|18
+|
+|switch|p1a: Vaporeon|Vaporeon, L86|289\/399
+|move|p2a: Aerodactyl|Double-Edge|p1a: Vaporeon
+|-damage|p1a: Vaporeon|193\/399
+|-damage|p2a: Aerodactyl|160\/313|[from] recoil|[of] p1a: Vaporeon
+|
+|turn|19
+|
+|switch|p2a: Gyarados|Gyarados, L86|229\/339 par
+|switch|p1a: Hitmonchan|Hitmonchan, L86|240\/261
+|
+|turn|20
+|
+|move|p1a: Hitmonchan|Seismic Toss|p2a: Gyarados
+|-damage|p2a: Gyarados|143\/339 par
+|cant|p2a: Gyarados|par
+|
+|turn|21
+|
+|move|p1a: Hitmonchan|Seismic Toss|p2a: Gyarados
+|-damage|p2a: Gyarados|57\/339 par
+|move|p2a: Gyarados|Body Slam|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|167\/261
+|
+|turn|22
+|
+|move|p1a: Hitmonchan|Seismic Toss|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|switch|p2a: Aerodactyl|Aerodactyl, L86|160\/313
+|turn|23
+|
+|move|p2a: Aerodactyl|Double-Edge|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|88\/261
+|-damage|p2a: Aerodactyl|141\/313|[from] recoil|[of] p1a: Hitmonchan
+|move|p1a: Hitmonchan|Counter|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|faint|p2a: Aerodactyl
+|
+|switch|p2a: Porygon|Porygon, L86|287\/287
+|turn|24
+|
+|switch|p1a: Vaporeon|Vaporeon, L86|193\/399
+|move|p2a: Porygon|Tri Attack|p1a: Vaporeon
+|-damage|p1a: Vaporeon|112\/399
+|
+|turn|25
+|
+|switch|p2a: Chansey|Chansey, L82|505\/578
+|move|p1a: Vaporeon|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|410\/578
+|
+|turn|26
+|
+|move|p1a: Vaporeon|Body Slam|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|167\/578
+|move|p2a: Chansey|Reflect|p2a: Chansey
+|
+|turn|27
+|
+|move|p1a: Vaporeon|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|108\/578
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|397\/578
+|
+|turn|28
+|
+|move|p1a: Vaporeon|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|335\/578
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|578\/578
+|
+|turn|29
+|
+|move|p1a: Vaporeon|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|510\/578
+|move|p2a: Chansey|Thunderbolt|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|
+|switch|p1a: Raticate|Raticate, L86|270\/270
+|turn|30
+|
+|move|p1a: Raticate|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|401\/578
+|move|p2a: Chansey|Thunderbolt|p1a: Raticate
+|-damage|p1a: Raticate|181\/270
+|-status|p1a: Raticate|par
+|
+|turn|31
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Raticate
+|-damage|p1a: Raticate|91\/270 par
+|move|p1a: Raticate|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|287\/578
+|
+|turn|32
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|576\/578
+|move|p1a: Raticate|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|475\/578
+|
+|turn|33
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Raticate
+|-damage|p1a: Raticate|0 fnt
+|faint|p1a: Raticate
+|
+|switch|p1a: Persian|Persian, L82|274\/274
+|turn|34
+|
+|move|p1a: Persian|Slash|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|167\/578
+|move|p2a: Chansey|Thunderbolt|p1a: Persian
+|-damage|p1a: Persian|188\/274
+|-status|p1a: Persian|par
+|
+|turn|35
+|c|★markus1000|wow lol
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|456\/578
+|move|p1a: Persian|Slash|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|180\/578
+|
+|turn|36
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|469\/578
+|move|p1a: Persian|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|379\/578
+|
+|turn|37
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Persian
+|-damage|p1a: Persian|103\/274 par
+|move|p1a: Persian|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|295\/578
+|
+|turn|38
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Persian
+|-damage|p1a: Persian|25\/274 par
+|move|p1a: Persian|Slash|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|switch|p2a: Porygon|Porygon, L86|287\/287
+|turn|39
+|
+|move|p2a: Porygon|Tri Attack|p1a: Persian
+|-damage|p1a: Persian|0 fnt
+|faint|p1a: Persian
+|
+|switch|p1a: Hitmonchan|Hitmonchan, L86|88\/261
+|turn|40
+|
+|move|p1a: Hitmonchan|Body Slam|p2a: Porygon
+|-damage|p2a: Porygon|216\/287
+|move|p2a: Porygon|Double-Edge|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|7\/261
+|-damage|p2a: Porygon|196\/287|[from] recoil|[of] p1a: Hitmonchan
+|
+|turn|41
+|
+|move|p1a: Hitmonchan|Body Slam|p2a: Porygon
+|-crit|p2a: Porygon
+|-damage|p2a: Porygon|40\/287
+|move|p2a: Porygon|Ice Beam|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|0 fnt
+|faint|p1a: Hitmonchan
+|
+|win|Versch
+|raw|Ladder updating...
+|raw|markus1000's rating: 1362 &rarr; <strong>1333<\/strong><br \/>(-29 for losing)
+|raw|Versch's rating: 1205 &rarr; <strong>1240<\/strong><br \/>(+35 for winning)
+|c|★markus1000|def that para glitch is there
+|c|★markus1000|but gg anyway

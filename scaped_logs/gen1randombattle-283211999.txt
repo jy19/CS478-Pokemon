@@ -1,0 +1,217 @@
+﻿|join|RYDONEVAWANNAFEEEL
+|join|yaldyyyy
+|player|p1|RYDONEVAWANNAFEEEL|113
+|player|p2|yaldyyyy|1
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Golbat|Golbat, L90|318\/318
+|switch|p2a: Machamp|Machamp, L90|345\/345
+|turn|1
+|
+|move|p1a: Golbat|Confuse Ray|p2a: Machamp
+|-start|p2a: Machamp|confusion
+|-activate|p2a: Machamp|confusion
+|move|p2a: Machamp|Rock Slide|p1a: Golbat
+|-crit|p1a: Golbat
+|-supereffective|p1a: Golbat
+|-damage|p1a: Golbat|6\/318
+|
+|turn|2
+|
+|switch|p2a: Aerodactyl|Aerodactyl, L90|327\/327
+|move|p1a: Golbat|Screech|p2a: Aerodactyl
+|-unboost|p2a: Aerodactyl|def|2
+|
+|turn|3
+|
+|move|p2a: Aerodactyl|Double-Edge|p1a: Golbat
+|-crit|p1a: Golbat
+|-damage|p1a: Golbat|0 fnt
+|-damage|p2a: Aerodactyl|326\/327|[from] recoil|[of] p1a: Golbat
+|faint|p1a: Golbat
+|
+|switch|p1a: Golem|Golem, L79|288\/288
+|turn|4
+|
+|switch|p2a: Omastar|Omastar, L90|309\/309
+|move|p1a: Golem|Body Slam|p2a: Omastar
+|-crit|p2a: Omastar
+|-resisted|p2a: Omastar
+|-damage|p2a: Omastar|265\/309
+|-status|p2a: Omastar|par
+|
+|turn|5
+|
+|switch|p1a: Alakazam|Alakazam, L79|249\/249
+|move|p2a: Omastar|Blizzard|p1a: Alakazam
+|-damage|p1a: Alakazam|155\/249
+|
+|turn|6
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|249\/249
+|move|p2a: Omastar|Blizzard|p1a: Alakazam
+|-damage|p1a: Alakazam|157\/249
+|
+|turn|7
+|
+|switch|p2a: Aerodactyl|Aerodactyl, L90|326\/327
+|move|p1a: Alakazam|Psychic|p2a: Aerodactyl
+|-crit|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|96\/327
+|
+|turn|8
+|
+|switch|p1a: Golem|Golem, L79|288\/288
+|move|p2a: Aerodactyl|Hyper Beam|p1a: Golem
+|-crit|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|193\/288
+|
+|turn|9
+|-mustrecharge|p2a: Aerodactyl
+|-mustrecharge|p2a: Aerodactyl
+|
+|cant|p2a: Aerodactyl|recharge
+|move|p1a: Golem|Rock Slide|p2a: Aerodactyl|[miss]
+|-miss|p1a: Golem
+|
+|turn|10
+|
+|switch|p2a: Omastar|Omastar, L90|265\/309 par
+|move|p1a: Golem|Earthquake|p2a: Omastar
+|-supereffective|p2a: Omastar
+|-damage|p2a: Omastar|116\/309 par
+|
+|turn|11
+|
+|move|p1a: Golem|Body Slam|p2a: Omastar
+|-resisted|p2a: Omastar
+|-damage|p2a: Omastar|94\/309 par
+|move|p2a: Omastar|Blizzard|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|0 fnt
+|faint|p1a: Golem
+|
+|switch|p1a: Alakazam|Alakazam, L79|157\/249
+|turn|12
+|
+|move|p1a: Alakazam|Reflect|p1a: Alakazam
+|-start|p1a: Alakazam|Reflect
+|move|p2a: Omastar|Blizzard|p1a: Alakazam|[miss]
+|-miss|p2a: Omastar
+|
+|turn|13
+|
+|move|p1a: Alakazam|Psychic|p2a: Omastar
+|-damage|p2a: Omastar|15\/309 par
+|move|p2a: Omastar|Blizzard|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|switch|p1a: Raichu|Raichu, L85|276\/276
+|turn|14
+|
+|move|p1a: Raichu|Thunderbolt|p2a: Omastar
+|-supereffective|p2a: Omastar
+|-damage|p2a: Omastar|0 fnt
+|faint|p2a: Omastar
+|
+|switch|p2a: Mr. Mime|Mr. Mime, L85|242\/242
+|turn|15
+|
+|move|p1a: Raichu|Body Slam|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|172\/242
+|-status|p2a: Mr. Mime|par
+|move|p2a: Mr. Mime|Thunder Wave|p1a: Raichu
+|-status|p1a: Raichu|par
+|
+|turn|16
+|
+|move|p1a: Raichu|Thunder|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|60\/242 par
+|move|p2a: Mr. Mime|Psychic|p1a: Raichu
+|-damage|p1a: Raichu|183\/276 par
+|-unboost|p1a: Raichu|spd|1
+|-unboost|p1a: Raichu|spa|1
+|
+|turn|17
+|
+|move|p2a: Mr. Mime|Psychic|p1a: Raichu
+|-crit|p1a: Raichu
+|-damage|p1a: Raichu|0 fnt
+|faint|p1a: Raichu
+|
+|switch|p1a: Jynx|Jynx, L79|265\/265
+|turn|18
+|
+|move|p1a: Jynx|Blizzard|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|0 fnt
+|faint|p2a: Mr. Mime
+|
+|switch|p2a: Vulpix|Vulpix, L96|268\/268
+|turn|19
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: Vulpix
+|-status|p2a: Vulpix|slp
+|cant|p2a: Vulpix|slp
+|
+|turn|20
+|
+|move|p1a: Jynx|Psychic|p2a: Vulpix
+|-damage|p2a: Vulpix|179\/268 slp
+|-unboost|p2a: Vulpix|spd|1
+|-unboost|p2a: Vulpix|spa|1
+|cant|p2a: Vulpix|slp
+|
+|turn|21
+|
+|switch|p2a: Machoke|Machoke, L85|310\/310
+|move|p1a: Jynx|Psychic|p2a: Machoke
+|-supereffective|p2a: Machoke
+|-damage|p2a: Machoke|80\/310
+|
+|turn|22
+|
+|move|p1a: Jynx|Psychic|p2a: Machoke
+|-supereffective|p2a: Machoke
+|-damage|p2a: Machoke|0 fnt
+|faint|p2a: Machoke
+|
+|switch|p2a: Machamp|Machamp, L90|345\/345
+|turn|23
+|
+|move|p1a: Jynx|Psychic|p2a: Machamp
+|-supereffective|p2a: Machamp
+|-damage|p2a: Machamp|146\/345
+|move|p2a: Machamp|Rock Slide|p1a: Jynx
+|-supereffective|p1a: Jynx
+|-damage|p1a: Jynx|24\/265
+|
+|turn|24
+|
+|move|p1a: Jynx|Psychic|p2a: Machamp
+|-supereffective|p2a: Machamp
+|-damage|p2a: Machamp|0 fnt
+|faint|p2a: Machamp
+|
+|switch|p2a: Aerodactyl|Aerodactyl, L90|96\/327
+|turn|25
+|
+|move|p2a: Aerodactyl|Double-Edge|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|-damage|p2a: Aerodactyl|90\/327|[from] recoil|[of] p1a: Jynx
+|faint|p1a: Jynx
+|-message|RYDONEVAWANNAFEEEL forfeited.
+|
+|win|yaldyyyy
+|leave|RYDONEVAWANNAFEEEL
+|player|p1

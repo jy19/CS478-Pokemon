@@ -1,0 +1,223 @@
+﻿|join|MALESANI
+|join|KristophV
+|player|p1|MALESANI|238
+|player|p2|KristophV|239
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Vileplume|Vileplume, L90|318\/318
+|switch|p2a: Weepinbell|Weepinbell, L85|284\/284
+|turn|1
+|
+|move|p1a: Vileplume|Sleep Powder|p2a: Weepinbell
+|-status|p2a: Weepinbell|slp
+|-curestatus|p2a: Weepinbell|slp
+|
+|turn|2
+|
+|move|p1a: Vileplume|Swords Dance|p1a: Vileplume
+|-boost|p1a: Vileplume|atk|2
+|move|p2a: Weepinbell|Stun Spore|p1a: Vileplume
+|-status|p1a: Vileplume|par
+|
+|turn|3
+|
+|move|p2a: Weepinbell|Body Slam|p1a: Vileplume
+|-damage|p1a: Vileplume|265\/318 par
+|move|p1a: Vileplume|Body Slam|p2a: Weepinbell
+|-damage|p2a: Weepinbell|124\/284
+|
+|turn|4
+|
+|move|p2a: Weepinbell|Body Slam|p1a: Vileplume
+|-damage|p1a: Vileplume|211\/318 par
+|move|p1a: Vileplume|Body Slam|p2a: Weepinbell
+|-damage|p2a: Weepinbell|0 fnt
+|faint|p2a: Weepinbell
+|
+|switch|p2a: Moltres|Moltres, L85|327\/327
+|turn|5
+|
+|move|p2a: Moltres|Fire Blast|p1a: Vileplume|[miss]
+|-miss|p2a: Moltres
+|move|p1a: Vileplume|Sleep Powder|p2a: Moltres|[miss]
+|-miss|p1a: Vileplume
+|
+|turn|6
+|
+|switch|p1a: Magmar|Magmar, L90|300\/300
+|move|p2a: Moltres|Fire Blast|p1a: Magmar
+|-crit|p1a: Magmar
+|-resisted|p1a: Magmar
+|-damage|p1a: Magmar|167\/300
+|
+|turn|7
+|
+|move|p1a: Magmar|Body Slam|p2a: Moltres
+|-damage|p2a: Moltres|260\/327
+|move|p2a: Moltres|Toxic|p1a: Magmar
+|-status|p1a: Magmar|tox
+|
+|turn|8
+|
+|switch|p2a: Jigglypuff|Jigglypuff, L99|428\/428
+|move|p1a: Magmar|Body Slam|p2a: Jigglypuff
+|-crit|p2a: Jigglypuff
+|-damage|p2a: Jigglypuff|198\/428
+|-damage|p1a: Magmar|149\/300 tox|[from] tox|[of] p2a: Jigglypuff
+|
+|turn|9
+|
+|switch|p1a: Vileplume|Vileplume, L90|211\/318 par
+|move|p2a: Jigglypuff|Double-Edge|p1a: Vileplume
+|-damage|p1a: Vileplume|127\/318 par
+|-damage|p2a: Jigglypuff|177\/428|[from] recoil|[of] p1a: Vileplume
+|
+|turn|10
+|
+|move|p2a: Jigglypuff|Double-Edge|p1a: Vileplume
+|-damage|p1a: Vileplume|37\/318 par
+|-damage|p2a: Jigglypuff|155\/428|[from] recoil|[of] p1a: Vileplume
+|move|p1a: Vileplume|Sleep Powder|p2a: Jigglypuff
+|-status|p2a: Jigglypuff|slp
+|
+|turn|11
+|
+|switch|p2a: Moltres|Moltres, L85|260\/327
+|cant|p1a: Vileplume|par
+|
+|turn|12
+|
+|move|p2a: Moltres|Fire Blast|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|faint|p1a: Vileplume
+|
+|switch|p1a: Magmar|Magmar, L90|149\/300 tox
+|-status|p1a: Magmar|psn
+|turn|13
+|
+|switch|p2a: Marowak|Marowak, L90|291\/291
+|move|p1a: Magmar|Hyper Beam|p2a: Marowak
+|-damage|p2a: Marowak|201\/291
+|-damage|p1a: Magmar|131\/300 psn|[from] psn|[of] p2a: Marowak
+|
+|turn|14
+|-mustrecharge|p1a: Magmar
+|-mustrecharge|p1a: Magmar
+|
+|cant|p1a: Magmar|recharge
+|-damage|p1a: Magmar|113\/300 psn|[from] psn|[of] p2a: Marowak
+|move|p2a: Marowak|Earthquake|p1a: Magmar
+|-supereffective|p1a: Magmar
+|-damage|p1a: Magmar|0 fnt
+|faint|p1a: Magmar
+|
+|switch|p1a: Hitmonchan|Hitmonchan, L90|273\/273
+|turn|15
+|
+|move|p1a: Hitmonchan|Submission|p2a: Marowak
+|-damage|p2a: Marowak|115\/291
+|-damage|p1a: Hitmonchan|252\/273|[from] recoil|[of] p2a: Marowak
+|move|p2a: Marowak|Body Slam|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|193\/273
+|-status|p1a: Hitmonchan|par
+|
+|turn|16
+|
+|switch|p2a: Moltres|Moltres, L85|260\/327
+|move|p1a: Hitmonchan|Counter|p2a: Moltres
+|-damage|p2a: Moltres|142\/327
+|
+|turn|17
+|
+|move|p2a: Moltres|Fire Blast|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|0 fnt
+|faint|p1a: Hitmonchan
+|
+|switch|p1a: Chansey|Chansey, L79|557\/557
+|turn|18
+|
+|switch|p2a: Jigglypuff|Jigglypuff, L99|155\/428 slp
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-start|p1a: Chansey|Reflect
+|
+|turn|19
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Jigglypuff
+|-damage|p2a: Jigglypuff|64\/428 slp
+|cant|p2a: Jigglypuff|slp
+|
+|turn|20
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Jigglypuff
+|-damage|p2a: Jigglypuff|0 fnt
+|faint|p2a: Jigglypuff
+|
+|switch|p2a: Poliwrath|Poliwrath, L85|327\/327
+|turn|21
+|
+|move|p2a: Poliwrath|Amnesia|p2a: Poliwrath
+|-boost|p2a: Poliwrath|spd|2
+|-boost|p2a: Poliwrath|spa|2
+|move|p1a: Chansey|Thunder Wave|p2a: Poliwrath
+|-status|p2a: Poliwrath|par
+|
+|turn|22
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Poliwrath
+|-supereffective|p2a: Poliwrath
+|-damage|p2a: Poliwrath|250\/327 par
+|move|p2a: Poliwrath|Hypnosis|p1a: Chansey
+|-status|p1a: Chansey|slp
+|
+|turn|23
+|
+|switch|p1a: Mew|Mew, L74|300\/300
+|move|p2a: Poliwrath|Amnesia|p2a: Poliwrath
+|-boost|p2a: Poliwrath|spd|2
+|-boost|p2a: Poliwrath|spa|2
+|
+|turn|24
+|
+|move|p1a: Mew|Earthquake|p2a: Poliwrath
+|-damage|p2a: Poliwrath|200\/327 par
+|move|p2a: Poliwrath|Blizzard|p1a: Mew
+|-damage|p1a: Mew|76\/300
+|
+|turn|25
+|
+|move|p1a: Mew|Earthquake|p2a: Poliwrath
+|-crit|p2a: Poliwrath
+|-damage|p2a: Poliwrath|99\/327 par
+|cant|p2a: Poliwrath|par
+|
+|turn|26
+|
+|move|p1a: Mew|Earthquake|p2a: Poliwrath
+|-damage|p2a: Poliwrath|51\/327 par
+|move|p2a: Poliwrath|Blizzard|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|switch|p1a: Chansey|Chansey, L79|557\/557 slp
+|turn|27
+|
+|cant|p1a: Chansey|slp
+|move|p2a: Poliwrath|Submission|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|153\/557 slp
+|-damage|p2a: Poliwrath|0 fnt|[from] recoil|[of] p1a: Chansey
+|faint|p2a: Poliwrath
+|-message|MALESANI forfeited.
+|
+|win|KristophV
+|leave|MALESANI
+|player|p1
+||Ladder (probably) updated, but score could not be retrieved (Response not received).

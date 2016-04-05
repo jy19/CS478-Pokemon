@@ -1,0 +1,208 @@
+﻿|join|MALESANI
+|join|zambi13
+|player|p1|MALESANI|110
+|player|p2|zambi13|290
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|8336,33403,48079,28887
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Dewgong|Dewgong, L85|327\/327
+|switch|p2a: Shellder|Shellder, L96|252\/252
+|turn|1
+|choice|move 4|move 4
+|
+|move|p1a: Dewgong|Blizzard|p2a: Shellder
+|-resisted|p2a: Shellder
+|-damage|p2a: Shellder|174\/252
+|move|p2a: Shellder|Supersonic|p1a: Dewgong
+|-start|p1a: Dewgong|confusion
+|
+|turn|2
+|choice|switch 4|move 2
+|
+|switch|p1a: Gengar|Gengar, L79|257\/257
+|move|p2a: Shellder|Withdraw|p2a: Shellder
+|-boost|p2a: Shellder|def|1
+|
+|turn|3
+|choice|move 2|move 4
+|
+|move|p1a: Gengar|Thunderbolt|p2a: Shellder
+|-supereffective|p2a: Shellder
+|-damage|p2a: Shellder|0 fnt
+|faint|p2a: Shellder
+|choice||switch 5
+|
+|switch|p2a: Kadabra|Kadabra, L85|242\/242
+|turn|4
+|choice|move 1|move 1
+|
+|move|p2a: Kadabra|Psychic|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|65\/257
+|-unboost|p1a: Gengar|spd|1
+|-unboost|p1a: Gengar|spa|1
+|move|p1a: Gengar|Hypnosis|p2a: Kadabra
+|-status|p2a: Kadabra|slp
+|
+|turn|5
+|choice|move 2|move 1
+|
+|cant|p2a: Kadabra|slp
+|move|p1a: Gengar|Thunderbolt|p2a: Kadabra
+|-damage|p2a: Kadabra|203\/242 slp
+|
+|turn|6
+|choice|switch 3|move 1
+|
+|switch|p1a: Tauros|Tauros, L79|280\/280
+|cant|p2a: Kadabra|slp
+|
+|turn|7
+|choice|move 4|move 1
+|
+|cant|p2a: Kadabra|slp
+|move|p1a: Tauros|Body Slam|p2a: Kadabra
+|-crit|p2a: Kadabra
+|-damage|p2a: Kadabra|0 fnt
+|faint|p2a: Kadabra
+|choice||switch 6
+|
+|switch|p2a: Primeape|Primeape, L90|300\/300
+|turn|8
+|choice|switch 3|move 2
+|
+|switch|p1a: Gengar|Gengar, L79|65\/257
+|move|p2a: Primeape|Submission|p1a: Gengar
+|-immune|p1a: Gengar|[msg]
+|
+|turn|9
+|choice|move 4|switch 2
+|
+|switch|p2a: Electrode|Electrode, L90|291\/291
+|move|p1a: Gengar|Psychic|p2a: Electrode
+|-damage|p2a: Electrode|221\/291
+|
+|turn|10
+|choice|switch 5|move 2
+|
+|switch|p1a: Marowak|Marowak, L90|291\/291
+|move|p2a: Electrode|Thunderbolt|p1a: Marowak
+|-immune|p1a: Marowak|[msg]
+|
+|turn|11
+|choice|move 4|move 1
+|
+|move|p2a: Electrode|Explosion|p1a: Marowak
+|-damage|p1a: Marowak|151\/291
+|faint|p2a: Electrode
+|choice||switch 4
+|
+|switch|p2a: Nidoking|Nidoking, L85|311\/311
+|turn|12
+|choice|switch 2|move 3
+|
+|switch|p1a: Wartortle|Wartortle, L85|274\/274
+|move|p2a: Nidoking|Blizzard|p1a: Wartortle
+|-crit|p1a: Wartortle
+|-resisted|p1a: Wartortle
+|-damage|p1a: Wartortle|186\/274
+|
+|turn|13
+|choice|move 4|move 2
+|
+|move|p2a: Nidoking|Thunderbolt|p1a: Wartortle
+|-supereffective|p1a: Wartortle
+|-damage|p1a: Wartortle|36\/274
+|move|p1a: Wartortle|Hydro Pump|p2a: Nidoking
+|-supereffective|p2a: Nidoking
+|-damage|p2a: Nidoking|84\/311
+|
+|turn|14
+|choice|move 2|move 2
+|
+|move|p2a: Nidoking|Thunderbolt|p1a: Wartortle
+|-supereffective|p1a: Wartortle
+|-damage|p1a: Wartortle|0 fnt
+|faint|p1a: Wartortle
+|choice|switch 5|
+|
+|switch|p1a: Gengar|Gengar, L79|65\/257
+|turn|15
+|choice|move 4|move 4
+|
+|move|p1a: Gengar|Psychic|p2a: Nidoking
+|-crit|p2a: Nidoking
+|-supereffective|p2a: Nidoking
+|-damage|p2a: Nidoking|0 fnt
+|faint|p2a: Nidoking
+|choice||switch 3
+|
+|switch|p2a: Scyther|Scyther, L90|309\/309
+|turn|16
+|choice|move 2|move 3
+|
+|move|p2a: Scyther|Hyper Beam|p1a: Gengar
+|-immune|p1a: Gengar|[msg]
+|move|p1a: Gengar|Thunderbolt|p2a: Scyther
+|-supereffective|p2a: Scyther
+|-damage|p2a: Scyther|122\/309
+|
+|turn|17
+|choice|switch 6|move 4
+|
+|switch|p1a: Electrode|Electrode, L90|291\/291
+|move|p2a: Scyther|Swords Dance|p2a: Scyther
+|-boost|p2a: Scyther|atk|2
+|
+|turn|18
+|choice|move 4|move 3
+|
+|move|p1a: Electrode|Thunder Wave|p2a: Scyther
+|-status|p2a: Scyther|par
+|move|p2a: Scyther|Hyper Beam|p1a: Electrode
+|-damage|p1a: Electrode|0 fnt
+|faint|p1a: Electrode
+|choice|switch 6|
+|
+|switch|p1a: Gengar|Gengar, L79|65\/257
+|turn|19
+|choice|move 2|move 4
+|
+|move|p1a: Gengar|Thunderbolt|p2a: Scyther
+|-supereffective|p2a: Scyther
+|-damage|p2a: Scyther|0 fnt
+|faint|p2a: Scyther
+|choice||switch 2
+|
+|switch|p2a: Primeape|Primeape, L90|300\/300
+|turn|20
+|choice|move 3|move 1
+|
+|move|p2a: Primeape|Body Slam|p1a: Gengar
+|-immune|p1a: Gengar|[msg]
+|move|p1a: Gengar|Explosion|p2a: Primeape
+|-damage|p2a: Primeape|98\/300
+|faint|p1a: Gengar
+|choice|switch 3|
+|
+|switch|p1a: Tauros|Tauros, L79|280\/280
+|turn|21
+|choice|move 4|move 2
+|
+|move|p2a: Primeape|Submission|p1a: Tauros
+|-supereffective|p1a: Tauros
+|-damage|p1a: Tauros|85\/280
+|-damage|p2a: Primeape|50\/300|[from] recoil|[of] p1a: Tauros
+|move|p1a: Tauros|Body Slam|p2a: Primeape
+|-crit|p2a: Primeape
+|-damage|p2a: Primeape|0 fnt
+|faint|p2a: Primeape
+|
+|win|MALESANI

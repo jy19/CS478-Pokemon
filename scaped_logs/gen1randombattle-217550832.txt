@@ -1,0 +1,543 @@
+﻿|join|gen 1 is super gay
+|join|jb champ
+|player|p1|gen 1 is super gay|2
+|player|p2|jb champ|150
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Vileplume|Vileplume, L85|301\/301
+|switch|p2a: Dodrio|Dodrio, L85|276\/276
+|turn|1
+|
+|switch|p1a: Onix|Onix, L85|233\/233
+|move|p2a: Dodrio|Drill Peck|p1a: Onix
+|-resisted|p1a: Onix
+|-damage|p1a: Onix|205\/233
+|
+|turn|2
+|
+|switch|p2a: Omastar|Omastar, L85|293\/293
+|move|p1a: Onix|Rock Slide|p2a: Omastar
+|-damage|p2a: Omastar|251\/293
+|
+|turn|3
+|
+|switch|p1a: Slowbro|Slowbro, L79|312\/312
+|move|p2a: Omastar|Blizzard|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|262\/312
+|
+|turn|4
+|
+|switch|p2a: Vileplume|Vileplume, L85|301\/301
+|move|p1a: Slowbro|Thunder Wave|p2a: Vileplume
+|-status|p2a: Vileplume|par
+|
+|turn|5
+|
+|switch|p1a: Pidgeotto|Pidgeotto, L85|281\/281
+|move|p2a: Vileplume|Body Slam|p1a: Pidgeotto
+|-damage|p1a: Pidgeotto|204\/281
+|
+|turn|6
+|
+|switch|p2a: Omastar|Omastar, L85|251\/293
+|move|p1a: Pidgeotto|Mirror Move|p2a: Omastar
+|-fail|p2a: Omastar
+|
+|turn|7
+|
+|switch|p1a: Slowbro|Slowbro, L79|262\/312
+|switch|p2a: Poliwhirl|Poliwhirl, L85|284\/284
+|
+|turn|8
+|
+|switch|p1a: Pidgeotto|Pidgeotto, L85|204\/281
+|move|p2a: Poliwhirl|Hypnosis|p1a: Pidgeotto
+|-status|p1a: Pidgeotto|slp
+|
+|turn|9
+|
+|switch|p1a: Slowbro|Slowbro, L79|262\/312
+|move|p2a: Poliwhirl|Amnesia|p2a: Poliwhirl
+|-boost|p2a: Poliwhirl|spd|2
+|-boost|p2a: Poliwhirl|spa|2
+|
+|turn|10
+|
+|move|p2a: Poliwhirl|Blizzard|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|201\/312
+|move|p1a: Slowbro|Thunder Wave|p2a: Poliwhirl
+|-status|p2a: Poliwhirl|par
+|
+|turn|11
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|move|p2a: Poliwhirl|Blizzard|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|166\/312
+|-status|p1a: Slowbro|frz
+|
+|turn|12
+|c|★gen 1 is super gay|ok
+|
+|switch|p1a: Persian|Persian, L79|265\/265
+|move|p2a: Poliwhirl|Amnesia|p2a: Poliwhirl
+|-boost|p2a: Poliwhirl|spd|2
+|-boost|p2a: Poliwhirl|spa|2
+|
+|turn|13
+|
+|switch|p2a: Moltres|Moltres, L85|327\/327
+|move|p1a: Persian|Slash|p2a: Moltres
+|-crit|p2a: Moltres
+|-damage|p2a: Moltres|217\/327
+|
+|turn|14
+|
+|switch|p1a: Slowbro|Slowbro, L79|166\/312 frz
+|move|p2a: Moltres|Hyper Beam|p1a: Slowbro
+|-damage|p1a: Slowbro|56\/312 frz
+|
+|turn|15
+|
+|switch|p1a: Onix|Onix, L85|205\/233
+|cant|p2a: Moltres|recharge
+|
+|turn|16
+|
+|switch|p2a: Omastar|Omastar, L85|251\/293
+|move|p1a: Onix|Earthquake|p2a: Omastar
+|-supereffective|p2a: Omastar
+|-damage|p2a: Omastar|147\/293
+|
+|turn|17
+|
+|switch|p1a: Slowbro|Slowbro, L79|56\/312 frz
+|move|p2a: Omastar|Surf|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|
+|switch|p1a: Nidorino|Nidorino, L90|293\/293
+|turn|18
+|
+|switch|p2a: Vileplume|Vileplume, L85|301\/301 par
+|move|p1a: Nidorino|Thunder|p2a: Vileplume
+|-resisted|p2a: Vileplume
+|-damage|p2a: Vileplume|269\/301 par
+|
+|turn|19
+|
+|move|p1a: Nidorino|Double-Edge|p2a: Vileplume
+|-damage|p2a: Vileplume|196\/301 par
+|-damage|p1a: Nidorino|275\/293|[from] recoil|[of] p2a: Vileplume
+|move|p2a: Vileplume|Body Slam|p1a: Nidorino
+|-damage|p1a: Nidorino|207\/293
+|
+|turn|20
+|
+|move|p1a: Nidorino|Double-Edge|p2a: Vileplume
+|-damage|p2a: Vileplume|125\/301 par
+|-damage|p1a: Nidorino|190\/293|[from] recoil|[of] p2a: Vileplume
+|move|p2a: Vileplume|Body Slam|p1a: Nidorino
+|-damage|p1a: Nidorino|119\/293
+|
+|turn|21
+|
+|move|p1a: Nidorino|Substitute|p1a: Nidorino
+|-start|p1a: Nidorino|Substitute
+|-damage|p1a: Nidorino|46\/293
+|move|p2a: Vileplume|Body Slam|p1a: Nidorino
+|-activate|p1a: Nidorino|Substitute|[damage]
+|
+|turn|22
+|
+|move|p1a: Nidorino|Rest|p1a: Nidorino
+|-status|p1a: Nidorino|slp
+|-heal|p1a: Nidorino|293\/293 slp|[silent]
+|-status|p1a: Nidorino|slp|[from] move: Rest
+|move|p2a: Vileplume|Body Slam|p1a: Nidorino
+|-end|p1a: Nidorino|Substitute
+|
+|turn|23
+|c|★gen 1 is super gay|you wanna get any luckier?
+|
+|switch|p2a: Persian|Persian, L79|265\/265
+|cant|p1a: Nidorino|slp
+|
+|turn|24
+|
+|switch|p1a: Onix|Onix, L85|205\/233
+|move|p2a: Persian|Slash|p1a: Onix
+|-crit|p1a: Onix
+|-resisted|p1a: Onix
+|-damage|p1a: Onix|173\/233
+|
+|turn|25
+|
+|move|p2a: Persian|Slash|p1a: Onix
+|-crit|p1a: Onix
+|-resisted|p1a: Onix
+|-damage|p1a: Onix|141\/233
+|move|p1a: Onix|Earthquake|p2a: Persian
+|-damage|p2a: Persian|172\/265
+|
+|turn|26
+|
+|move|p2a: Persian|Slash|p1a: Onix
+|-crit|p1a: Onix
+|-resisted|p1a: Onix
+|-damage|p1a: Onix|108\/233
+|move|p1a: Onix|Earthquake|p2a: Persian
+|-damage|p2a: Persian|84\/265
+|
+|turn|27
+|
+|move|p2a: Persian|Slash|p1a: Onix
+|-crit|p1a: Onix
+|-resisted|p1a: Onix
+|-damage|p1a: Onix|74\/233
+|move|p1a: Onix|Earthquake|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|faint|p2a: Persian
+|
+|switch|p2a: Omastar|Omastar, L85|147\/293
+|turn|28
+|
+|move|p1a: Onix|Earthquake|p2a: Omastar
+|-supereffective|p2a: Omastar
+|-damage|p2a: Omastar|35\/293
+|move|p2a: Omastar|Blizzard|p1a: Onix
+|-supereffective|p1a: Onix
+|-damage|p1a: Onix|0 fnt
+|faint|p1a: Onix
+|
+|switch|p1a: Persian|Persian, L79|265\/265
+|turn|29
+|
+|switch|p2a: Vileplume|Vileplume, L85|125\/301 par
+|move|p1a: Persian|Slash|p2a: Vileplume
+|-crit|p2a: Vileplume
+|-damage|p2a: Vileplume|24\/301 par
+|
+|turn|30
+|
+|switch|p1a: Nidorino|Nidorino, L90|293\/293 slp
+|move|p2a: Vileplume|Body Slam|p1a: Nidorino
+|-damage|p1a: Nidorino|231\/293 slp
+|
+|turn|31
+|
+|cant|p1a: Nidorino|slp
+|-curestatus|p1a: Nidorino|slp
+|move|p2a: Vileplume|Body Slam|p1a: Nidorino
+|-damage|p1a: Nidorino|166\/293
+|
+|turn|32
+|
+|move|p1a: Nidorino|Substitute|p1a: Nidorino
+|-start|p1a: Nidorino|Substitute
+|-damage|p1a: Nidorino|93\/293
+|cant|p2a: Vileplume|par
+|
+|turn|33
+|
+|move|p1a: Nidorino|Rest|p1a: Nidorino
+|-status|p1a: Nidorino|slp
+|-heal|p1a: Nidorino|293\/293 slp|[silent]
+|-status|p1a: Nidorino|slp|[from] move: Rest
+|move|p2a: Vileplume|Body Slam|p1a: Nidorino
+|-activate|p1a: Nidorino|Substitute|[damage]
+|
+|turn|34
+|
+|cant|p1a: Nidorino|slp
+|move|p2a: Vileplume|Body Slam|p1a: Nidorino
+|-end|p1a: Nidorino|Substitute
+|
+|turn|35
+|
+|cant|p1a: Nidorino|slp
+|-curestatus|p1a: Nidorino|slp
+|move|p2a: Vileplume|Swords Dance|p2a: Vileplume
+|-boost|p2a: Vileplume|atk|2
+|
+|turn|36
+|
+|move|p1a: Nidorino|Double-Edge|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|-damage|p1a: Nidorino|287\/293|[from] recoil|[of] p2a: Vileplume
+|faint|p2a: Vileplume
+|
+|switch|p2a: Moltres|Moltres, L85|217\/327
+|turn|37
+|
+|move|p2a: Moltres|Fire Blast|p1a: Nidorino
+|-damage|p1a: Nidorino|108\/293
+|-status|p1a: Nidorino|brn
+|move|p1a: Nidorino|Thunder|p2a: Moltres|[miss]
+|-miss|p1a: Nidorino
+|-damage|p1a: Nidorino|90\/293 brn|[from] brn|[of] p2a: Moltres
+|
+|turn|38
+|c|★gen 1 is super gay|insane
+|c|★gen 1 is super gay|get fucking luckier
+|c|★gen 1 is super gay|shit game
+|
+|move|p2a: Moltres|Fire Blast|p1a: Nidorino
+|-damage|p1a: Nidorino|0 fnt
+|faint|p1a: Nidorino
+|
+|switch|p1a: Persian|Persian, L79|265\/265
+|turn|39
+|
+|move|p1a: Persian|Slash|p2a: Moltres
+|-crit|p2a: Moltres
+|-damage|p2a: Moltres|112\/327
+|move|p2a: Moltres|Fire Blast|p1a: Persian
+|-damage|p1a: Persian|73\/265
+|
+|turn|40
+|c|★gen 1 is super gay|i heard fire blast misses
+|
+|switch|p2a: Omastar|Omastar, L85|35\/293
+|move|p1a: Persian|Hyper Beam|p2a: Omastar
+|-resisted|p2a: Omastar
+|-damage|p2a: Omastar|0 fnt
+|faint|p2a: Omastar
+|c|★gen 1 is super gay|and that para sometimes means you cant move
+|c|★gen 1 is super gay|not sure though
+|c|★gen 1 is super gay|have no proof
+|
+|switch|p2a: Dodrio|Dodrio, L85|276\/276
+|turn|41
+|
+|switch|p1a: Pidgeotto|Pidgeotto, L85|204\/281 slp
+|move|p2a: Dodrio|Drill Peck|p1a: Pidgeotto
+|-damage|p1a: Pidgeotto|74\/281 slp
+|
+|turn|42
+|
+|move|p2a: Dodrio|Drill Peck|p1a: Pidgeotto
+|-damage|p1a: Pidgeotto|0 fnt
+|faint|p1a: Pidgeotto
+|
+|switch|p1a: Vileplume|Vileplume, L85|301\/301
+|turn|43
+|
+|switch|p2a: Poliwhirl|Poliwhirl, L85|284\/284 par
+|move|p1a: Vileplume|Sleep Powder|p2a: Poliwhirl
+|-fail|p2a: Poliwhirl
+|
+|turn|44
+|
+|move|p1a: Vileplume|Swords Dance|p1a: Vileplume
+|-boost|p1a: Vileplume|atk|2
+|move|p2a: Poliwhirl|Psychic|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|223\/301
+|-unboost|p1a: Vileplume|spd|1
+|-unboost|p1a: Vileplume|spa|1
+|
+|turn|45
+|
+|move|p1a: Vileplume|Body Slam|p2a: Poliwhirl
+|-crit|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|159\/284 par
+|move|p2a: Poliwhirl|Psychic|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|109\/301
+|
+|turn|46
+|c|★gen 1 is super gay|wanna get any luckier?
+|
+|move|p1a: Vileplume|Body Slam|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|33\/284 par
+|move|p2a: Poliwhirl|Blizzard|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|faint|p1a: Vileplume
+|c|★gen 1 is super gay|lmao suuuuch a shit game
+|
+|switch|p1a: Persian|Persian, L79|73\/265
+|turn|47
+|
+|move|p1a: Persian|Slash|p2a: Poliwhirl
+|-crit|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|0 fnt
+|faint|p2a: Poliwhirl
+|
+|switch|p2a: Dodrio|Dodrio, L85|276\/276
+|turn|48
+|
+|move|p1a: Persian|Hyper Beam|p2a: Dodrio|[miss]
+|-miss|p1a: Persian
+|move|p2a: Dodrio|Body Slam|p1a: Persian
+|-damage|p1a: Persian|0 fnt
+|faint|p1a: Persian
+|
+|win|jb champ
+|raw|Ladder updating...
+|c|★gen 1 is super gay|apt ending
+|raw|gen 1 is super gay's rating: 1370 &rarr; <strong>1351<\/strong><br \/>(-19 for losing)
+|raw|jb champ's rating: 1391 &rarr; <strong>1410<\/strong><br \/>(+19 for winning)
+|c|★gen 1 is super gay|you are straight garbage
+|c|★gen 1 is super gay|played that like shit
+|c|★gen 1 is super gay|got lucky as fuck
+|c|★jb champ|suck it man
+|c|★jb champ|got lucky, yeah
+|player|p1|gen 1 is gay|2
+|c| gen 1 is gay|suck this
+|c| gen 1 is gay|you'll never get this high
+|c|★jb champ|but that happens
+|c| gen 1 is gay|luck comes and goes
+|c| gen 1 is gay|but you make bad plays
+|c| gen 1 is gay|so you lose in the long run
+|c|★jb champ|its not my fault
+|player|p1|gen 1 is homo|2
+|c| gen 1 is homo|your bad plays?
+|c| gen 1 is homo|they're absolutely your fault
+|c|★jb champ|thats why i got such a bad ranking, right?
+|c| gen 1 is homo|do i though moron
+|c| gen 1 is homo|check the other two accounts i just changed to
+|c|★jb champ|i know
+|c|★jb champ|but you are just a sore loser that is all
+|c| gen 1 is homo|it must be easier when it happens to you all the time
+|c| gen 1 is homo|you're used to it
+|c| gen 1 is homo|see i only lose when some idiot like you gets lucky as fuck
+|c|★jb champ|i got screwed many times before
+|c|★jb champ|deal with it and move on
+|c| gen 1 is homo|and you've no doubt screwed yourself many times before
+|c| gen 1 is homo|with shit play
+|c|★jb champ|if it makes you happy, keep thinking that
+|c| gen 1 is homo|i'm sure of that
+|c| gen 1 is homo|it's very obviously to anyone who's not an idiot
+|c|★jb champ|have a good day
+|c| gen 1 is homo|you played this terribly
+|c|★jb champ|i won
+|c| gen 1 is homo|rng decided you would win despite your horrible play
+|c| gen 1 is homo|i agree
+|c| gen 1 is homo|what's your point
+|c| gen 1 is homo|i'm saying you're bad
+|c|★jb champ|right
+|c|★jb champ|if you think so
+|c| gen 1 is homo|it's not a matter of opinion
+|c| gen 1 is homo|it's objectively the case
+|c| gen 1 is homo|your team was much, much better
+|c| gen 1 is homo|then you got a ton of hax
+|c|★jb champ|yeah.. that is why i win most of my matches
+|c| gen 1 is homo|and i still almost won
+|c|★jb champ|look at the facts pro
+|c| gen 1 is homo|you win against people who are even dumber, sure
+|c|★jb champ|you had a slowbro
+|c|★jb champ|so your team was better
+|c| gen 1 is homo|you froze my slowbro
+|c| gen 1 is homo|while you were paralyzed
+|c|★jb champ|granted, i got the freeze on bro
+|c| gen 1 is homo|so no
+|c| gen 1 is homo|the luck was 100% on your side
+|c|★jb champ|but that was my only option
+|c| gen 1 is homo|and i almost brought it back anyway
+|c| gen 1 is homo|by outplaying you all game long
+|c|★jb champ|a "good" player like yourself should know that
+|c|★jb champ|so lecture me
+|c| gen 1 is homo|what would you like to be lectured on
+|c| gen 1 is homo|there's so much to cover
+|c|★jb champ|what was i supposed to do against slowbro without any big sarifices?
+|c|★jb champ|except go for the freeze
+|c| gen 1 is homo|your hilarious swords dance with vileplume is a good place to start
+|c| gen 1 is homo|that made absolutely 0 sense
+|c|★jb champ|not the point
+|c|★jb champ|just slowbro
+|c| gen 1 is homo|lmfao
+|c| gen 1 is homo|what was i supposed to do against slowbro without any big sarifices?
+|c|★jb champ|if i had such a great team, tell me how i should have beaten slowbro
+|c| gen 1 is homo|you DO sacrifice something
+|c| gen 1 is homo|that's the play there
+|c|★jb champ|yeah
+|c| gen 1 is homo|instead of just hoping you get some minor shot at luck
+|c| gen 1 is homo|sure you got it this time, but most times you wouldn't
+|c| gen 1 is homo|and you would lose
+|c| gen 1 is homo|all those other times
+|c| gen 1 is homo|so now we've covered two horrendous decisions of yours
+|c| gen 1 is homo|any other questions?
+|c|★jb champ|considering your bro could not do instant damage to my poliwhirl it was a reasonable option
+|c| gen 1 is homo|it was far, far from reasonable
+|c|★jb champ|whatever bro
+|c| gen 1 is homo|it's not about instant, try to think more than 1 turn ahead for a second
+|c|★jb champ|if it makes you happy
+|c| gen 1 is homo|pretend you're not an idiot
+|c|★jb champ|keep thinking that
+|c| gen 1 is homo|i'm not "thinking" things that are arguable
+|c|★jb champ|someday i will be a successfull lawyer. what will you be?
+|c|★jb champ|a pokemon king?
+|c|★jb champ|lmao
+|c| gen 1 is homo|lmfao
+|c| gen 1 is homo|why would you imagine that i'm not successful in real life
+|c| gen 1 is homo|i'm clearly smarter than you
+|c|★jb champ|because you seem to take that game way too seriously
+|c|★jb champ|you are smart alright...
+|c|★jb champ|i feel sorry for you bro
+|c|★jb champ|having like 5 alts on the same ladder?
+|c| gen 1 is homo|lol ok nice cliche shit
+|c| gen 1 is homo|"i'm beaten in an argument so i'm going to pretend i'm sorry for you"
+|c| gen 1 is homo|come up with something original
+|c|★jb champ|if you were so good, you would keep one account because you would not have to fear losing any battles
+|c| gen 1 is homo|so far
+|c| gen 1 is homo|you've exhibited
+|c| gen 1 is homo|0 analytical skills
+|c| gen 1 is homo|and 0 creativity
+|c| gen 1 is homo|are you good at anything\/
+|c| gen 1 is homo|i doubt it
+|c|★jb champ|alright
+|c|★jb champ|so doubt it
+|c| gen 1 is homo|and the point of the 5 accounts isn't fear of losing you clown
+|c|★jb champ|i do not need your approval, mate
+|c|★jb champ|lmfao
+|c|★jb champ|so why not just use one?
+|c| gen 1 is homo|i have this many accounts because it's super easy to take the top spots on this ladder (because it's all just people like you)
+|c|★jb champ|alright
+|c| gen 1 is homo|and it'll be funny to have all the top spots be saying gen 1 is homosexual
+|c| gen 1 is homo|that's why
+|c|★jb champ|so you could just have one account and have linke 2 hundred point more than anyone else if you are that good
+|c| gen 1 is homo|ah math is one more thing you're bad at i see
+|c| gen 1 is homo|no surprise there
+|c| gen 1 is homo|once you get an account really high, it gains very little from wins and loses a ton from losses
+|c| gen 1 is homo|so it only takes one battle full of luck for the other guy (like this) to set you back a ton
+|c|★jb champ|bottomline is, you got unlucky this time, you lost, deal with it, it will be the other way around next time
+|c| gen 1 is homo|the bottomline, that started this whole thing
+|c| gen 1 is homo|is you're bad
+|c| gen 1 is homo|and i wanted you to know that
+|c| gen 1 is homo|it took an insane amount of luck for you to win
+|c|★jb champ|i know that i am not
+|c| gen 1 is homo|and if you got just a little less
+|c| gen 1 is homo|i would've won
+|c|★jb champ|yeah, against a way better team...
+|c| gen 1 is homo|yes, you did have a way better team
+|c| gen 1 is homo|no doubt
+|c|★jb champ|alright pal
+|c| gen 1 is homo|if you don't think so, you just don't know this tier very well
+|c|★jb champ|whatever floats you baot
+|c|★jb champ|*boat
+|c| gen 1 is homo|3\/6 of mine
+|c| gen 1 is homo|were about useless
+|c| gen 1 is homo|all of yours are fairly good
+|c| gen 1 is homo|your team is MUCH better
+|c|★jb champ|i see...
+|c|★jb champ|alright pal
+|c|★jb champ|see you later, mate
+|c| gen 1 is homo|glad i could take the time to chip away at your retardation
+|c| gen 1 is homo|later
+|c|★jb champ|have a nice day and good luck next time
+|leave|jb champ
+|player|p2

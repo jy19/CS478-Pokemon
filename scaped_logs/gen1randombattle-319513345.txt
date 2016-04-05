@@ -1,0 +1,357 @@
+﻿|j|test0130254
+|j|sp1821sp
+|player|p1|test0130254|1
+|player|p2|sp1821sp|282
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|7291,63309,22763,47875
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Kadabra|Kadabra, L85|242\/242
+|switch|p2a: Bulbasaur|Bulbasaur, L96|281\/281
+|turn|1
+|choice|move 1|switch 3
+|
+|switch|p2a: Mr. Mime|Mr. Mime, L85|242\/242
+|move|p1a: Kadabra|Psychic|p2a: Mr. Mime
+|-resisted|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|187\/242
+|
+|turn|2
+|choice|move 3|move 2
+|
+|move|p1a: Kadabra|Thunder Wave|p2a: Mr. Mime
+|-status|p2a: Mr. Mime|par
+|move|p2a: Mr. Mime|Thunder Wave|p1a: Kadabra
+|-status|p1a: Kadabra|par
+|
+|turn|3
+|choice|switch 2|move 1
+|
+|switch|p1a: Rhyhorn|Rhyhorn, L96|348\/348
+|cant|p2a: Mr. Mime|par
+|
+|turn|4
+|choice|move 3|switch 6
+|
+|switch|p2a: Porygon|Porygon, L85|284\/284
+|move|p1a: Rhyhorn|Substitute|p1a: Rhyhorn
+|-start|p1a: Rhyhorn|Substitute
+|-damage|p1a: Rhyhorn|261\/348
+|
+|turn|5
+|choice|move 1|move 4
+|
+|move|p2a: Porygon|Blizzard|p1a: Rhyhorn|[miss]
+|-miss|p2a: Porygon
+|move|p1a: Rhyhorn|Earthquake|p2a: Porygon
+|-damage|p2a: Porygon|129\/284
+|
+|turn|6
+|choice|move 2|move 1
+|
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|271\/284
+|move|p1a: Rhyhorn|Body Slam|p2a: Porygon
+|-damage|p2a: Porygon|187\/284
+|
+|turn|7
+|choice|move 1|move 4
+|
+|move|p2a: Porygon|Blizzard|p1a: Rhyhorn
+|-supereffective|p1a: Rhyhorn
+|-end|p1a: Rhyhorn|Substitute
+|move|p1a: Rhyhorn|Earthquake|p2a: Porygon
+|-damage|p2a: Porygon|49\/284
+|
+|turn|8
+|choice|switch 4|move 1
+|
+|switch|p1a: Kingler|Kingler, L85|267\/267
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|191\/284
+|
+|turn|9
+|choice|move 2|switch 6
+|
+|switch|p2a: Mr. Mime|Mr. Mime, L85|187\/242 par
+|move|p1a: Kingler|Blizzard|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|131\/242 par
+|
+|turn|10
+|choice|switch 4|move 4
+|
+|switch|p1a: Rhyhorn|Rhyhorn, L96|261\/348
+|cant|p2a: Mr. Mime|par
+|
+|turn|11
+|choice|move 1|switch 6
+|
+|switch|p2a: Porygon|Porygon, L85|191\/284
+|move|p1a: Rhyhorn|Earthquake|p2a: Porygon
+|-damage|p2a: Porygon|51\/284
+|
+|turn|12
+|choice|move 1|move 1
+|
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|193\/284
+|move|p1a: Rhyhorn|Earthquake|p2a: Porygon
+|-damage|p2a: Porygon|45\/284
+|
+|turn|13
+|choice|move 2|move 1
+|
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|187\/284
+|move|p1a: Rhyhorn|Body Slam|p2a: Porygon
+|-damage|p2a: Porygon|102\/284
+|
+|turn|14
+|choice|move 2|move 1
+|
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|244\/284
+|move|p1a: Rhyhorn|Body Slam|p2a: Porygon
+|-damage|p2a: Porygon|159\/284
+|
+|turn|15
+|choice|move 2|move 4
+|
+|move|p2a: Porygon|Blizzard|p1a: Rhyhorn
+|-supereffective|p1a: Rhyhorn
+|-damage|p1a: Rhyhorn|37\/348
+|move|p1a: Rhyhorn|Body Slam|p2a: Porygon
+|-damage|p2a: Porygon|83\/284
+|
+|turn|16
+|choice|move 1|move 4
+|
+|move|p2a: Porygon|Blizzard|p1a: Rhyhorn|[miss]
+|-miss|p2a: Porygon
+|move|p1a: Rhyhorn|Earthquake|p2a: Porygon
+|-damage|p2a: Porygon|0 fnt
+|faint|p2a: Porygon
+|choice||switch 5
+|
+|switch|p2a: Raichu|Raichu, L85|276\/276
+|turn|17
+|choice|move 1|move 1
+|
+|move|p2a: Raichu|Surf|p1a: Rhyhorn
+|-supereffective|p1a: Rhyhorn
+|-damage|p1a: Rhyhorn|0 fnt
+|faint|p1a: Rhyhorn
+|choice|switch 3|
+|
+|switch|p1a: Gloom|Gloom, L90|291\/291
+|turn|18
+|choice|move 4|switch 6
+|
+|switch|p2a: Mr. Mime|Mr. Mime, L85|131\/242 par
+|move|p1a: Gloom|Swords Dance|p1a: Gloom
+|-boost|p1a: Gloom|atk|2
+|
+|turn|19
+|choice|move 1|move 3
+|
+|move|p1a: Gloom|Double-Edge|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|0 fnt
+|-damage|p1a: Gloom|259\/291|[from] recoil|[of] p2a: Mr. Mime
+|faint|p2a: Mr. Mime
+|choice||switch 4
+|
+|switch|p2a: Mew|Mew, L74|300\/300
+|turn|20
+|choice|move 2|move 2
+|
+|move|p2a: Mew|Psychic|p1a: Gloom
+|-supereffective|p1a: Gloom
+|-damage|p1a: Gloom|123\/291
+|move|p1a: Gloom|Sleep Powder|p2a: Mew
+|-status|p2a: Mew|slp
+|
+|turn|21
+|choice|move 1|switch 6
+|
+|switch|p2a: Raichu|Raichu, L85|276\/276
+|move|p1a: Gloom|Double-Edge|p2a: Raichu
+|-damage|p2a: Raichu|118\/276
+|-damage|p1a: Gloom|84\/291|[from] recoil|[of] p2a: Raichu
+|
+|turn|22
+|choice|move 1|move 3
+|
+|move|p2a: Raichu|Hyper Beam|p1a: Gloom
+|-damage|p1a: Gloom|0 fnt
+|faint|p1a: Gloom
+|choice|switch 2|
+|
+|switch|p1a: Kadabra|Kadabra, L85|242\/242 par
+|turn|23
+|choice|move 1|move 3
+|
+|move|p2a: Raichu|Hyper Beam|p1a: Kadabra
+|-damage|p1a: Kadabra|63\/242 par
+|move|p1a: Kadabra|Psychic|p2a: Raichu
+|-damage|p2a: Raichu|10\/276
+|
+|turn|24
+|-mustrecharge|p2a: Raichu
+|-mustrecharge|p2a: Raichu
+|choice|move 1|move 1
+|
+|cant|p2a: Raichu|recharge
+|move|p1a: Kadabra|Psychic|p2a: Raichu
+|-damage|p2a: Raichu|0 fnt
+|faint|p2a: Raichu
+|choice||switch 3
+|
+|switch|p2a: Bulbasaur|Bulbasaur, L96|281\/281
+|turn|25
+|choice|move 4|move 2
+|
+|move|p2a: Bulbasaur|Body Slam|p1a: Kadabra
+|-damage|p1a: Kadabra|0 fnt
+|faint|p1a: Kadabra
+|choice|switch 6|
+|
+|switch|p1a: Rapidash|Rapidash, L90|300\/300
+|turn|26
+|choice|move 1|switch 6
+|
+|switch|p2a: Mew|Mew, L74|300\/300 slp
+|move|p1a: Rapidash|Fire Blast|p2a: Mew
+|-damage|p2a: Mew|172\/300 slp
+|
+|turn|27
+|choice|move 1|move 1
+|
+|move|p1a: Rapidash|Fire Blast|p2a: Mew
+|-damage|p2a: Mew|35\/300 slp
+|-curestatus|p2a: Mew|slp
+|
+|turn|28
+|choice|move 1|switch 2
+|
+|switch|p2a: Golbat|Golbat, L90|318\/318
+|move|p1a: Rapidash|Fire Blast|p2a: Golbat
+|-damage|p2a: Golbat|176\/318
+|-status|p2a: Golbat|brn
+|
+|turn|29
+|choice|move 3|move 4
+|
+|move|p1a: Rapidash|Substitute|p1a: Rapidash
+|-start|p1a: Rapidash|Substitute
+|-damage|p1a: Rapidash|225\/300
+|move|p2a: Golbat|Hyper Beam|p1a: Rapidash
+|-activate|p1a: Rapidash|Substitute|[damage]
+|-damage|p2a: Golbat|157\/318 brn|[from] brn|[of] p1a: Rapidash
+|
+|turn|30
+|choice|move 1|move 4
+|
+|move|p1a: Rapidash|Fire Blast|p2a: Golbat
+|-damage|p2a: Golbat|31\/318 brn
+|move|p2a: Golbat|Hyper Beam|p1a: Rapidash
+|-end|p1a: Rapidash|Substitute
+|-damage|p2a: Golbat|12\/318 brn|[from] brn|[of] p1a: Rapidash
+|
+|turn|31
+|choice|move 3|move 2
+|
+|move|p1a: Rapidash|Substitute|p1a: Rapidash
+|-start|p1a: Rapidash|Substitute
+|-damage|p1a: Rapidash|150\/300
+|move|p2a: Golbat|Double-Edge|p1a: Rapidash
+|-activate|p1a: Rapidash|Substitute|[damage]
+|-damage|p2a: Golbat|2\/318 brn|[from] recoil|[of] p1a: Rapidash
+|-damage|p2a: Golbat|0 fnt|[from] brn|[of] p1a: Rapidash
+|faint|p2a: Golbat
+|choice||switch 6
+|
+|switch|p2a: Bulbasaur|Bulbasaur, L96|281\/281
+|turn|32
+|choice|move 1|move 2
+|
+|move|p1a: Rapidash|Fire Blast|p2a: Bulbasaur|[miss]
+|-miss|p1a: Rapidash
+|move|p2a: Bulbasaur|Body Slam|p1a: Rapidash
+|-end|p1a: Rapidash|Substitute
+|
+|turn|33
+|choice|move 1|move 2
+|
+|move|p1a: Rapidash|Fire Blast|p2a: Bulbasaur
+|-supereffective|p2a: Bulbasaur
+|-damage|p2a: Bulbasaur|14\/281
+|-status|p2a: Bulbasaur|brn
+|move|p2a: Bulbasaur|Body Slam|p1a: Rapidash
+|-crit|p1a: Rapidash
+|-damage|p1a: Rapidash|36\/300
+|-status|p1a: Rapidash|par
+|-damage|p2a: Bulbasaur|0 fnt|[from] brn|[of] p1a: Rapidash
+|faint|p2a: Bulbasaur
+|choice||switch 2
+|
+|switch|p2a: Mew|Mew, L74|35\/300
+|turn|34
+|choice|move 1|move 4
+|
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|185\/300
+|move|p1a: Rapidash|Fire Blast|p2a: Mew
+|-damage|p2a: Mew|56\/300
+|
+|turn|35
+|choice|move 1|move 4
+|
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|206\/300
+|move|p1a: Rapidash|Fire Blast|p2a: Mew|[miss]
+|-miss|p1a: Rapidash
+|
+|turn|36
+|choice|move 2|move 2
+|
+|move|p2a: Mew|Psychic|p1a: Rapidash
+|-damage|p1a: Rapidash|0 fnt
+|faint|p1a: Rapidash
+|choice|switch 5|
+|
+|switch|p1a: Raichu|Raichu, L85|276\/276
+|turn|37
+|choice|move 2|move 2
+|
+|move|p1a: Raichu|Thunder Wave|p2a: Mew
+|-status|p2a: Mew|par
+|move|p2a: Mew|Psychic|p1a: Raichu
+|-damage|p1a: Raichu|203\/276
+|
+|turn|38
+|choice|move 4|move 1
+|
+|move|p1a: Raichu|Thunderbolt|p2a: Mew
+|-damage|p2a: Mew|95\/300 par
+|move|p2a: Mew|Fissure|p1a: Raichu
+|-immune|p1a: Raichu|[ohko]
+|
+|turn|39
+|choice|move 4|move 1
+|
+|move|p1a: Raichu|Thunderbolt|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|win|test0130254
+|player|p1
+|player|p2
+|raw|test0130254's rating: 1040 &rarr; <strong>1078<\/strong><br \/>(+38 for winning)
+|raw|sp1821sp's rating: 1082 &rarr; <strong>1057<\/strong><br \/>(-25 for losing)
+|l|sp1821sp

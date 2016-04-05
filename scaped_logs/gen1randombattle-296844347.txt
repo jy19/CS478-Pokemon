@@ -1,0 +1,108 @@
+﻿|join|yaldyyyy
+|join|XianJu
+|player|p1|yaldyyyy|169
+|player|p2|XianJu|130
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|57277,2027,59016,16541
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Persian|Persian, L79|265\/265
+|switch|p2a: Drowzee|Drowzee, L96|310\/310
+|turn|1
+|choice|move 1|move 2
+|
+|move|p1a: Persian|Slash|p2a: Drowzee
+|-crit|p2a: Drowzee
+|-damage|p2a: Drowzee|171\/310
+|move|p2a: Drowzee|Thunder Wave|p1a: Persian
+|-status|p1a: Persian|par
+|
+|turn|2
+|choice|move 1|move 1
+|
+|move|p1a: Persian|Slash|p2a: Drowzee
+|-crit|p2a: Drowzee
+|-damage|p2a: Drowzee|28\/310
+|move|p2a: Drowzee|Counter|p1a: Persian
+|-damage|p1a: Persian|0 fnt
+|faint|p1a: Persian
+|choice|switch 4|
+|
+|switch|p1a: Dragonair|Dragonair, L85|277\/277
+|turn|3
+|choice|move 4|switch 3
+|
+|switch|p2a: Seaking|Seaking, L90|327\/327
+|move|p1a: Dragonair|Ice Beam|p2a: Seaking
+|-resisted|p2a: Seaking
+|-damage|p2a: Seaking|300\/327
+|-status|p2a: Seaking|frz
+|
+|turn|4
+|choice|move 2|switch 6
+|
+|switch|p2a: Tauros|Tauros, L79|280\/280
+|move|p1a: Dragonair|Substitute|p1a: Dragonair
+|-start|p1a: Dragonair|Substitute
+|-damage|p1a: Dragonair|208\/277
+|
+|turn|5
+|choice|move 3|move 2
+|
+|move|p2a: Tauros|Body Slam|p1a: Dragonair
+|-crit|p1a: Dragonair
+|-end|p1a: Dragonair|Substitute
+|move|p1a: Dragonair|Thunderbolt|p2a: Tauros
+|-damage|p2a: Tauros|206\/280
+|
+|turn|6
+|choice|move 3|move 1
+|
+|move|p2a: Tauros|Blizzard|p1a: Dragonair
+|-crit|p1a: Dragonair
+|-supereffective|p1a: Dragonair
+|-damage|p1a: Dragonair|0 fnt
+|faint|p1a: Dragonair
+|choice|switch 2|
+|
+|switch|p1a: Bellsprout|Bellsprout, L96|291\/291
+|turn|7
+|choice|move 1|move 1
+|
+|move|p2a: Tauros|Blizzard|p1a: Bellsprout
+|-crit|p1a: Bellsprout
+|-supereffective|p1a: Bellsprout
+|-damage|p1a: Bellsprout|58\/291
+|move|p1a: Bellsprout|Sleep Powder|p2a: Tauros
+|-status|p2a: Tauros|slp
+|
+|turn|8
+|choice|switch 3|move 2
+|
+|switch|p1a: Jolteon|Jolteon, L79|265\/265
+|-curestatus|p2a: Tauros|slp
+|
+|turn|9
+|choice|move 3|move 3
+|
+|move|p1a: Jolteon|Sand Attack|p2a: Tauros
+|-unboost|p2a: Tauros|accuracy|1
+|move|p2a: Tauros|Earthquake|p1a: Jolteon
+|-crit|p1a: Jolteon
+|-supereffective|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|leave|yaldyyyy
+|player|p1
+|-message|yaldyyyy lost due to inactivity.
+|
+|win|XianJu
+|raw|yaldyyyy's rating: 1281 &rarr; <strong>1263<\/strong><br \/>(-18 for losing)
+|raw|XianJu's rating: 1378 &rarr; <strong>1393<\/strong><br \/>(+15 for winning)
+|c|★XianJu|again

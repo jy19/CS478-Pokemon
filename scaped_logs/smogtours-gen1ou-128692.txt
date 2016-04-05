@@ -1,0 +1,551 @@
+﻿|J|W3K
+|J|smilzo
+|player|p1|W3K|1
+|player|p2|smilzo|157
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|seed|36889,1256,45908,42257
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Alakazam|Alakazam|313\/313
+|turn|1
+|choice|move 2|move 1
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|cant|p1a: Alakazam|par
+|
+|turn|2
+|c|★smilzo|hf
+|c|★W3K|You too.
+|choice|move 2|move 3
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|213\/313 par
+|move|p1a: Alakazam|Seismic Toss|p2a: Alakazam
+|-damage|p2a: Alakazam|213\/313
+|
+|turn|3
+|choice|move 2|move 3
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|113\/313 par
+|move|p1a: Alakazam|Seismic Toss|p2a: Alakazam
+|-damage|p2a: Alakazam|113\/313
+|
+|turn|4
+|choice|switch 3|move 4
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|269\/313
+|
+|turn|5
+|choice|move 1|move 3
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Exeggutor
+|-damage|p1a: Exeggutor|293\/393
+|move|p1a: Exeggutor|Sleep Powder|p2a: Alakazam
+|-status|p2a: Alakazam|slp
+|
+|turn|6
+|choice|move 2|switch 4
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Exeggutor|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|582\/703
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|
+|turn|7
+|choice|switch 3|move 3
+|
+|switch|p1a: Alakazam|Alakazam|113\/313 par
+|move|p2a: Chansey|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|13\/313 par
+|
+|turn|8
+|choice|switch 2|move 3
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Chansey|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|603\/703
+|
+|turn|9
+|choice|move 3|move 1
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|turn|10
+|choice|move 1|switch 5
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Chansey|Seismic Toss|p2a: Snorlax
+|-damage|p2a: Snorlax|423\/523
+|
+|turn|11
+|choice|switch 3|move 3
+|
+|switch|p1a: Exeggutor|Exeggutor|293\/393
+|move|p2a: Snorlax|Earthquake|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|244\/393
+|
+|turn|12
+|choice|move 2|switch 5
+|
+|switch|p2a: Chansey|Chansey|582\/703 par
+|move|p1a: Exeggutor|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|470\/703 par
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|
+|turn|13
+|choice|move 2|move 4
+|
+|move|p1a: Exeggutor|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|293\/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|644\/703 par
+|
+|turn|14
+|choice|move 2|switch 4
+|
+|switch|p2a: Alakazam|Alakazam|269\/313 slp
+|move|p1a: Exeggutor|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|217\/313 slp
+|
+|turn|15
+|choice|switch 2|switch 4
+|
+|switch|p2a: Chansey|Chansey|644\/703 par
+|switch|p1a: Alakazam|Alakazam|13\/313 par
+|
+|turn|16
+|choice|move 4|switch 5
+|
+|switch|p2a: Snorlax|Snorlax|423\/523
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|169\/313 par
+|
+|turn|17
+|choice|switch 5|move 1
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|380\/523
+|
+|turn|18
+|choice|move 1|move 3
+|
+|move|p2a: Snorlax|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|271\/523
+|move|p1a: Snorlax|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|289\/523
+|
+|turn|19
+|choice|move 4|move 2
+|
+|move|p1a: Snorlax|Self-Destruct|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|faint|p1a: Snorlax
+|choice|switch 4|switch 5
+|
+|switch|p1a: Lapras|Lapras|463\/463
+|switch|p2a: Chansey|Chansey|644\/703 par
+|turn|20
+|choice|move 4|move 1
+|
+|move|p1a: Lapras|Confuse Ray|p2a: Chansey
+|-start|p2a: Chansey|confusion
+|-activate|p2a: Chansey|confusion
+|-damage|p2a: Chansey|609\/703 par|[from] confusion
+|
+|turn|21
+|choice|switch 2|move 1
+|
+|switch|p1a: Exeggutor|Exeggutor|244\/393
+|-end|p2a: Chansey|confusion
+|move|p2a: Chansey|Thunder Wave|p1a: Exeggutor
+|-status|p1a: Exeggutor|par
+|
+|turn|22
+|choice|move 2|move 3
+|
+|cant|p1a: Exeggutor|par
+|move|p2a: Chansey|Seismic Toss|p1a: Exeggutor
+|-damage|p1a: Exeggutor|144\/393 par
+|
+|turn|23
+|choice|move 4|switch 4
+|
+|switch|p2a: Alakazam|Alakazam|217\/313 slp
+|move|p1a: Exeggutor|Explosion|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|faint|p1a: Exeggutor
+|choice|switch 6|switch 4
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|switch|p2a: Chansey|Chansey|609\/703 par
+|turn|24
+|J|iGlack
+|choice|switch 5|move 1
+|
+|switch|p1a: Alakazam|Alakazam|169\/313 par
+|move|p2a: Chansey|Thunder Wave|p1a: Alakazam
+|-fail|p1a: Alakazam|par
+|
+|turn|25
+|choice|move 4|move 3
+|
+|cant|p1a: Alakazam|par
+|move|p2a: Chansey|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|69\/313 par
+|
+|turn|26
+|choice|move 4|move 3
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|225\/313 par
+|move|p2a: Chansey|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|125\/313 par
+|
+|turn|27
+|choice|move 4|move 3
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|281\/313 par
+|move|p2a: Chansey|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|181\/313 par
+|
+|turn|28
+|choice|move 4|move 3
+|
+|cant|p1a: Alakazam|par
+|move|p2a: Chansey|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|81\/313 par
+|
+|turn|29
+|choice|move 4|move 3
+|
+|cant|p1a: Alakazam|par
+|move|p2a: Chansey|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|choice|switch 3|
+|
+|switch|p1a: Chansey|Chansey|603\/703 par
+|turn|30
+|choice|move 2|move 1
+|
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-start|p1a: Chansey|Reflect
+|
+|turn|31
+|choice|move 1|switch 3
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Chansey|Seismic Toss|p2a: Exeggutor
+|-damage|p2a: Exeggutor|293\/393
+|
+|turn|32
+|choice|move 1|move 3
+|
+|move|p2a: Exeggutor|Psychic|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|381\/703 par
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|move|p1a: Chansey|Seismic Toss|p2a: Exeggutor
+|-damage|p2a: Exeggutor|193\/393
+|
+|turn|33
+|choice|move 4|move 3
+|
+|move|p2a: Exeggutor|Psychic|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|140\/703 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|491\/703 par
+|
+|turn|34
+|choice|move 4|move 3
+|
+|move|p2a: Exeggutor|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|317\/703 par
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|668\/703 par
+|
+|turn|35
+|choice|switch 2|move 3
+|
+|switch|p1a: Lapras|Lapras|463\/463
+|move|p2a: Exeggutor|Psychic|p1a: Lapras
+|-damage|p1a: Lapras|332\/463
+|-unboost|p1a: Lapras|spd|1
+|-unboost|p1a: Lapras|spa|1
+|
+|turn|36
+|choice|move 3|switch 3
+|
+|switch|p2a: Chansey|Chansey|609\/703 par
+|move|p1a: Lapras|Sing|p2a: Chansey|[miss]
+|-miss|p1a: Lapras
+|
+|turn|37
+|choice|move 4|switch 6
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|move|p1a: Lapras|Confuse Ray|p2a: Tauros
+|-start|p2a: Tauros|confusion
+|
+|turn|38
+|choice|move 3|switch 6
+|
+|switch|p2a: Chansey|Chansey|609\/703 par
+|move|p1a: Lapras|Sing|p2a: Chansey|[miss]
+|-miss|p1a: Lapras
+|
+|turn|39
+|choice|switch 2|move 3
+|
+|switch|p1a: Chansey|Chansey|668\/703 par
+|move|p2a: Chansey|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|568\/703 par
+|
+|turn|40
+|choice|move 2|move 2
+|
+|move|p2a: Chansey|Reflect|p2a: Chansey
+|-start|p2a: Chansey|Reflect
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-start|p1a: Chansey|Reflect
+|
+|turn|41
+|choice|move 3|move 1
+|
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|cant|p1a: Chansey|par
+|
+|turn|42
+|choice|move 3|move 3
+|
+|cant|p1a: Chansey|par
+|move|p2a: Chansey|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|468\/703 par
+|
+|turn|43
+|choice|move 3|move 3
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|368\/703 par
+|
+|turn|44
+|choice|move 4|switch 3
+|
+|switch|p2a: Exeggutor|Exeggutor|193\/393
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703 par
+|
+|turn|45
+|choice|move 1|switch 3
+|
+|switch|p2a: Chansey|Chansey|609\/703 par
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|509\/703 par
+|
+|turn|46
+|choice|move 1|move 2
+|
+|cant|p2a: Chansey|par
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|409\/703 par
+|
+|turn|47
+|choice|move 1|move 2
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|309\/703 par
+|move|p2a: Chansey|Reflect|p2a: Chansey
+|-start|p2a: Chansey|Reflect
+|
+|turn|48
+|choice|move 1|move 4
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|209\/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|560\/703 par
+|
+|turn|49
+|choice|move 1|move 3
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|603\/703 par
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|460\/703 par
+|
+|turn|50
+|choice|move 1|move 3
+|
+|cant|p2a: Chansey|par
+|cant|p1a: Chansey|par
+|
+|turn|51
+|choice|move 1|move 3
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|360\/703 par
+|move|p2a: Chansey|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|503\/703 par
+|
+|turn|52
+|choice|move 1|move 4
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|260\/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|611\/703 par
+|
+|turn|53
+|choice|move 1|switch 3
+|
+|switch|p2a: Exeggutor|Exeggutor|193\/393
+|move|p1a: Chansey|Seismic Toss|p2a: Exeggutor
+|-damage|p2a: Exeggutor|93\/393
+|
+|turn|54
+|choice|move 4|move 4
+|
+|move|p2a: Exeggutor|Explosion|p1a: Chansey
+|-damage|p1a: Chansey|136\/703 par
+|faint|p2a: Exeggutor
+|choice||switch 6
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|55
+|choice|move 3|move 3
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Chansey|[miss]
+|-miss|p2a: Tauros
+|move|p1a: Chansey|Thunder Wave|p2a: Tauros
+|-status|p2a: Tauros|par
+|
+|turn|56
+|choice|move 4|move 3
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|choice|switch 2|
+|
+|switch|p1a: Lapras|Lapras|332\/463
+|turn|57
+|choice|move 1|move 1
+|
+|move|p1a: Lapras|Blizzard|p2a: Tauros
+|-damage|p2a: Tauros|191\/353 par
+|move|p2a: Tauros|Body Slam|p1a: Lapras
+|-damage|p1a: Lapras|224\/463
+|-status|p1a: Lapras|par
+|
+|turn|58
+|choice|move 1|move 3
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Lapras
+|-damage|p1a: Lapras|6\/463 par
+|move|p1a: Lapras|Blizzard|p2a: Tauros
+|-damage|p2a: Tauros|7\/353 par
+|
+|turn|59
+|-mustrecharge|p2a: Tauros
+|-mustrecharge|p2a: Tauros
+|choice|switch 5|move 1
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|cant|p2a: Tauros|recharge
+|
+|turn|60
+|choice|move 1|move 1
+|
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|choice||switch 2
+|
+|switch|p2a: Slowbro|Slowbro|393\/393
+|turn|61
+|choice|move 1|move 1
+|
+|move|p1a: Tauros|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|302\/393
+|move|p2a: Slowbro|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|
+|turn|62
+|choice|move 1|move 3
+|
+|move|p2a: Slowbro|Psychic|p1a: Tauros
+|-damage|p1a: Tauros|240\/353 par
+|-unboost|p1a: Tauros|spd|1
+|-unboost|p1a: Tauros|spa|1
+|cant|p1a: Tauros|par
+|
+|turn|63
+|choice|switch 5|move 3
+|
+|switch|p1a: Lapras|Lapras|6\/463 par
+|move|p2a: Slowbro|Psychic|p1a: Lapras
+|-crit|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|choice|switch 5|
+|
+|switch|p1a: Tauros|Tauros|240\/353 par
+|turn|64
+|J|love u cy
+|L|love u cy
+|choice|move 1|move 3
+|
+|move|p2a: Slowbro|Psychic|p1a: Tauros
+|-damage|p1a: Tauros|128\/353 par
+|move|p1a: Tauros|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|210\/393
+|
+|turn|65
+|choice|move 1|move 3
+|
+|move|p2a: Slowbro|Psychic|p1a: Tauros
+|-damage|p1a: Tauros|20\/353 par
+|cant|p1a: Tauros|par
+|
+|turn|66
+|choice|move 4|move 3
+|
+|move|p2a: Slowbro|Psychic|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|win|smilzo

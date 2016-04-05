@@ -1,0 +1,289 @@
+﻿|join|gen1masterrony
+|join|pussy annihalation
+|player|p1|gen1masterrony|163
+|player|p2|pussy annihalation|70
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Dragonite|Dragonite, L82|317\/317
+|switch|p2a: Golbat|Golbat, L86|304\/304
+|turn|1
+|
+|move|p2a: Golbat|Confuse Ray|p1a: Dragonite
+|-start|p1a: Dragonite|confusion
+|-activate|p1a: Dragonite|confusion
+|-damage|p1a: Dragonite|281\/317|[from] confusion
+|
+|turn|2
+|
+|switch|p2a: Starmie|Starmie, L82|266\/266
+|-activate|p1a: Dragonite|confusion
+|-damage|p1a: Dragonite|245\/317|[from] confusion
+|
+|turn|3
+|
+|switch|p1a: Raichu|Raichu, L86|279\/279
+|move|p2a: Starmie|Blizzard|p1a: Raichu
+|-damage|p1a: Raichu|198\/279
+|
+|turn|4
+|
+|move|p2a: Starmie|Thunder Wave|p1a: Raichu
+|-status|p1a: Raichu|par
+|move|p1a: Raichu|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|90\/266
+|
+|turn|5
+|
+|switch|p2a: Magneton|Magneton, L86|261\/261
+|move|p1a: Raichu|Thunderbolt|p2a: Magneton
+|-resisted|p2a: Magneton
+|-damage|p2a: Magneton|219\/261
+|
+|turn|6
+|
+|move|p2a: Magneton|Double-Edge|p1a: Raichu
+|-damage|p1a: Raichu|126\/279 par
+|-damage|p2a: Magneton|201\/261|[from] recoil|[of] p1a: Raichu
+|move|p1a: Raichu|Surf|p2a: Magneton
+|-damage|p2a: Magneton|147\/261
+|
+|turn|7
+|
+|switch|p1a: Dragonite|Dragonite, L82|245\/317
+|move|p2a: Magneton|Thunderbolt|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-damage|p1a: Dragonite|44\/317
+|
+|turn|8
+|
+|move|p1a: Dragonite|Hyper Beam|p2a: Magneton
+|-damage|p2a: Magneton|32\/261
+|move|p2a: Magneton|Thunderbolt|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|switch|p1a: Vileplume|Vileplume, L86|304\/304
+|turn|9
+|
+|move|p2a: Magneton|Hyper Beam|p1a: Vileplume
+|-crit|p1a: Vileplume
+|-damage|p1a: Vileplume|138\/304
+|move|p1a: Vileplume|Body Slam|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|faint|p2a: Magneton
+|
+|switch|p2a: Aerodactyl|Aerodactyl, L86|313\/313
+|turn|10
+|
+|move|p2a: Aerodactyl|Sky Attack|p1a: Vileplume|[still]
+|-prepare|p2a: Aerodactyl|Sky Attack|p1a: Vileplume
+|move|p1a: Vileplume|Sleep Powder|p2a: Aerodactyl
+|-status|p2a: Aerodactyl|slp
+|
+|turn|11
+|
+|switch|p1a: Raichu|Raichu, L86|126\/279 par
+|cant|p2a: Aerodactyl|slp
+|-curestatus|p2a: Aerodactyl|slp
+|
+|turn|12
+|
+|switch|p2a: Persian|Persian, L82|274\/274
+|move|p1a: Raichu|Thunderbolt|p2a: Persian
+|-crit|p2a: Persian
+|-damage|p2a: Persian|54\/274
+|
+|turn|13
+|
+|move|p2a: Persian|Body Slam|p1a: Raichu
+|-crit|p1a: Raichu
+|-damage|p1a: Raichu|0 fnt
+|faint|p1a: Raichu
+|
+|switch|p1a: Machoke|Machoke, L86|313\/313
+|turn|14
+|
+|move|p2a: Persian|Body Slam|p1a: Machoke
+|-damage|p1a: Machoke|231\/313
+|move|p1a: Machoke|Submission|p2a: Persian
+|-supereffective|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|-damage|p1a: Machoke|218\/313|[from] recoil|[of] p2a: Persian
+|faint|p2a: Persian
+|
+|switch|p2a: Slowbro|Slowbro, L82|324\/324
+|turn|15
+|
+|switch|p1a: Snorlax|Snorlax, L82|430\/430
+|move|p2a: Slowbro|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|
+|turn|16
+|
+|move|p2a: Slowbro|Surf|p1a: Snorlax
+|-damage|p1a: Snorlax|327\/430 par
+|move|p1a: Snorlax|Self-Destruct|p2a: Slowbro|[miss]
+|-miss|p1a: Snorlax
+|faint|p1a: Snorlax
+|
+|switch|p1a: Vileplume|Vileplume, L86|138\/304
+|turn|17
+|
+|move|p1a: Vileplume|Sleep Powder|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|cant|p2a: Slowbro|slp
+|
+|turn|18
+|
+|switch|p2a: Aerodactyl|Aerodactyl, L86|313\/313
+|move|p1a: Vileplume|Mega Drain|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|257\/313
+|-heal|p1a: Vileplume|166\/304|[from] drain|[of] p2a: Aerodactyl
+|
+|turn|19
+|
+|move|p2a: Aerodactyl|Sky Attack|p1a: Vileplume|[still]
+|-prepare|p2a: Aerodactyl|Sky Attack|p1a: Vileplume
+|move|p1a: Vileplume|Body Slam|p2a: Aerodactyl
+|-resisted|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|226\/313
+|-status|p2a: Aerodactyl|par
+|
+|turn|20
+|
+|switch|p1a: Machoke|Machoke, L86|218\/313
+|move|p2a: Aerodactyl|Sky Attack|p1a: Machoke
+|-supereffective|p1a: Machoke
+|-damage|p1a: Machoke|0 fnt
+|faint|p1a: Machoke
+|
+|switch|p1a: Parasect|Parasect, L86|279\/279
+|turn|21
+|
+|switch|p2a: Golbat|Golbat, L86|304\/304
+|move|p1a: Parasect|Swords Dance|p1a: Parasect
+|-boost|p1a: Parasect|atk|2
+|
+|turn|22
+|
+|move|p2a: Golbat|Confuse Ray|p1a: Parasect
+|-start|p1a: Parasect|confusion
+|-activate|p1a: Parasect|confusion
+|move|p1a: Parasect|Swords Dance|p1a: Parasect
+|-boost|p1a: Parasect|atk|2
+|
+|turn|23
+|
+|move|p2a: Golbat|Double-Edge|p1a: Parasect
+|-crit|p1a: Parasect
+|-damage|p1a: Parasect|146\/279
+|-damage|p2a: Golbat|271\/304|[from] recoil|[of] p1a: Parasect
+|-activate|p1a: Parasect|confusion
+|move|p1a: Parasect|Slash|p2a: Golbat
+|-crit|p2a: Golbat
+|-damage|p2a: Golbat|153\/304
+|
+|turn|24
+|
+|move|p2a: Golbat|Double-Edge|p1a: Parasect
+|-damage|p1a: Parasect|76\/279
+|-damage|p2a: Golbat|136\/304|[from] recoil|[of] p1a: Parasect
+|-activate|p1a: Parasect|confusion
+|move|p1a: Parasect|Body Slam|p2a: Golbat
+|-damage|p2a: Golbat|0 fnt
+|faint|p2a: Golbat
+|
+|switch|p2a: Starmie|Starmie, L82|90\/266
+|turn|25
+|
+|move|p2a: Starmie|Blizzard|p1a: Parasect
+|-supereffective|p1a: Parasect
+|-damage|p1a: Parasect|0 fnt
+|faint|p1a: Parasect
+|
+|switch|p1a: Vileplume|Vileplume, L86|166\/304
+|turn|26
+|
+|move|p2a: Starmie|Blizzard|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|20\/304
+|move|p1a: Vileplume|Mega Drain|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|-heal|p1a: Vileplume|65\/304|[from] drain|[of] p2a: Starmie
+|faint|p2a: Starmie
+|
+|switch|p2a: Aerodactyl|Aerodactyl, L86|226\/313 par
+|turn|27
+|
+|move|p1a: Vileplume|Mega Drain|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|174\/313 par
+|-heal|p1a: Vileplume|91\/304|[from] drain|[of] p2a: Aerodactyl
+|move|p2a: Aerodactyl|Sky Attack|p1a: Vileplume|[still]
+|-prepare|p2a: Aerodactyl|Sky Attack|p1a: Vileplume
+|
+|turn|28
+|
+|move|p1a: Vileplume|Mega Drain|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|121\/313 par
+|-heal|p1a: Vileplume|117\/304|[from] drain|[of] p2a: Aerodactyl
+|cant|p2a: Aerodactyl|par
+|
+|turn|29
+|
+|move|p1a: Vileplume|Mega Drain|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|60\/313 par
+|-heal|p1a: Vileplume|147\/304|[from] drain|[of] p2a: Aerodactyl
+|move|p2a: Aerodactyl|Sky Attack|p1a: Vileplume|[still]
+|-prepare|p2a: Aerodactyl|Sky Attack|p1a: Vileplume
+|
+|turn|30
+|
+|move|p1a: Vileplume|Mega Drain|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|-heal|p1a: Vileplume|177\/304|[from] drain|[of] p2a: Aerodactyl
+|faint|p2a: Aerodactyl
+|
+|switch|p2a: Slowbro|Slowbro, L82|324\/324 slp
+|turn|31
+|
+|move|p1a: Vileplume|Mega Drain|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|217\/324 slp
+|-heal|p1a: Vileplume|230\/304|[from] drain|[of] p2a: Slowbro
+|cant|p2a: Slowbro|slp
+|
+|turn|32
+|
+|move|p1a: Vileplume|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|166\/324 slp
+|cant|p2a: Slowbro|slp
+|
+|turn|33
+|
+|move|p1a: Vileplume|Mega Drain|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|67\/324 slp
+|-heal|p1a: Vileplume|279\/304|[from] drain|[of] p2a: Slowbro
+|cant|p2a: Slowbro|slp
+|
+|turn|34
+|
+|move|p1a: Vileplume|Mega Drain|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|-heal|p1a: Vileplume|304\/304|[from] drain|[of] p2a: Slowbro
+|faint|p2a: Slowbro
+|
+|win|gen1masterrony
+|raw|Ladder updating...
+|raw|gen1masterrony's rating: 1202 &rarr; <strong>1224<\/strong><br \/>(+22 for winning)
+|raw|pussy annihalation's rating: 1164 &rarr; <strong>1142<\/strong><br \/>(-22 for losing)

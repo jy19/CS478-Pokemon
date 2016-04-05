@@ -1,0 +1,224 @@
+﻿|join|Giju
+|join|Nanako chun
+|player|p1|Giju|163
+|player|p2|Nanako chun|104
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alak|Alakazam|313\/313
+|switch|p2a: Vanillite Carnivor|Alakazam|313\/313
+|turn|1
+|
+|switch|p1a: Chan|Chansey|703\/703
+|switch|p2a: Breakfast Tree|Exeggutor|393\/393
+|
+|turn|2
+|
+|switch|p1a: Alak|Alakazam|313\/313
+|move|p2a: Breakfast Tree|Sleep Powder|p1a: Alak
+|-status|p1a: Alak|slp
+|
+|turn|3
+|
+|switch|p1a: Chan|Chansey|703\/703
+|move|p2a: Breakfast Tree|Psychic|p1a: Chan
+|-damage|p1a: Chan|591\/703
+|
+|turn|4
+|
+|move|p2a: Breakfast Tree|Explosion|p1a: Chan
+|-damage|p1a: Chan|0 fnt
+|faint|p1a: Chan
+|faint|p2a: Breakfast Tree
+|
+|switch|p1a: Exe|Exeggutor|393\/393
+|switch|p2a: Bouncy|Chansey|703\/703
+|turn|5
+|
+|move|p1a: Exe|Sleep Powder|p2a: Bouncy
+|-status|p2a: Bouncy|slp
+|cant|p2a: Bouncy|slp
+|
+|turn|6
+|
+|switch|p2a: ▀█▀ █ ▀█▀ ▄█▀|Jynx|333\/333
+|move|p1a: Exe|Stun Spore|p2a: ▀█▀ █ ▀█▀ ▄█▀
+|-status|p2a: ▀█▀ █ ▀█▀ ▄█▀|par
+|
+|turn|7
+|
+|switch|p1a: Alak|Alakazam|313\/313 slp
+|cant|p2a: ▀█▀ █ ▀█▀ ▄█▀|par
+|
+|turn|8
+|
+|cant|p1a: Alak|slp
+|cant|p2a: ▀█▀ █ ▀█▀ ▄█▀|par
+|
+|turn|9
+|
+|switch|p2a: I Like Turtles!|Golem|363\/363
+|cant|p1a: Alak|slp
+|
+|turn|10
+|
+|switch|p1a: Exe|Exeggutor|393\/393
+|move|p2a: I Like Turtles!|Earthquake|p1a: Exe
+|-resisted|p1a: Exe
+|-damage|p1a: Exe|329\/393
+|
+|turn|11
+|
+|switch|p2a: ▀█▀ █ ▀█▀ ▄█▀|Jynx|333\/333 par
+|move|p1a: Exe|Double-Edge|p2a: ▀█▀ █ ▀█▀ ▄█▀
+|-damage|p2a: ▀█▀ █ ▀█▀ ▄█▀|196\/333 par
+|-damage|p1a: Exe|295\/393|[from] recoil|[of] p2a: ▀█▀ █ ▀█▀ ▄█▀
+|
+|turn|12
+|
+|switch|p1a: Alak|Alakazam|313\/313 slp
+|move|p2a: ▀█▀ █ ▀█▀ ▄█▀|Blizzard|p1a: Alak
+|-damage|p1a: Alak|198\/313 slp
+|
+|turn|13
+|
+|cant|p1a: Alak|slp
+|move|p2a: ▀█▀ █ ▀█▀ ▄█▀|Psychic|p1a: Alak
+|-resisted|p1a: Alak
+|-damage|p1a: Alak|159\/313 slp
+|
+|turn|14
+|
+|-curestatus|p1a: Alak|slp
+|move|p2a: ▀█▀ █ ▀█▀ ▄█▀|Blizzard|p1a: Alak
+|-damage|p1a: Alak|55\/313
+|
+|turn|15
+|
+|move|p1a: Alak|Recover|p1a: Alak
+|-heal|p1a: Alak|211\/313
+|move|p2a: ▀█▀ █ ▀█▀ ▄█▀|Blizzard|p1a: Alak
+|-damage|p1a: Alak|99\/313
+|
+|turn|16
+|
+|move|p1a: Alak|Seismic Toss|p2a: ▀█▀ █ ▀█▀ ▄█▀
+|-damage|p2a: ▀█▀ █ ▀█▀ ▄█▀|96\/333 par
+|move|p2a: ▀█▀ █ ▀█▀ ▄█▀|Psychic|p1a: Alak
+|-resisted|p1a: Alak
+|-damage|p1a: Alak|60\/313
+|
+|turn|17
+|
+|move|p1a: Alak|Seismic Toss|p2a: ▀█▀ █ ▀█▀ ▄█▀
+|-damage|p2a: ▀█▀ █ ▀█▀ ▄█▀|0 fnt
+|faint|p2a: ▀█▀ █ ▀█▀ ▄█▀
+|
+|switch|p2a: I Like Turtles!|Golem|363\/363
+|turn|18
+|
+|switch|p1a: Exe|Exeggutor|295\/393
+|move|p2a: I Like Turtles!|Explosion|p1a: Exe
+|-damage|p1a: Exe|0 fnt
+|faint|p1a: Exe
+|faint|p2a: I Like Turtles!
+|
+|switch|p1a: Alak|Alakazam|60\/313
+|switch|p2a: Spinny|Starmie|323\/323
+|turn|19
+|
+|move|p1a: Alak|Recover|p1a: Alak
+|-heal|p1a: Alak|216\/313
+|move|p2a: Spinny|Blizzard|p1a: Alak
+|-crit|p1a: Alak
+|-damage|p1a: Alak|69\/313
+|
+|turn|20
+|
+|move|p1a: Alak|Thunder Wave|p2a: Spinny
+|-status|p2a: Spinny|par
+|move|p2a: Spinny|Blizzard|p1a: Alak
+|-damage|p1a: Alak|0 fnt
+|faint|p1a: Alak
+|
+|switch|p1a: Snor|Snorlax|523\/523
+|turn|21
+|
+|move|p1a: Snor|Self-Destruct|p2a: Spinny
+|-damage|p2a: Spinny|0 fnt
+|faint|p2a: Spinny
+|faint|p1a: Snor
+|
+|switch|p2a: Vanillite Carnivor|Alakazam|313\/313
+|switch|p1a: Gol|Golem|363\/363
+|turn|22
+|
+|move|p2a: Vanillite Carnivor|Reflect|p2a: Vanillite Carnivor
+|-start|p2a: Vanillite Carnivor|Reflect
+|move|p1a: Gol|Earthquake|p2a: Vanillite Carnivor
+|-damage|p2a: Vanillite Carnivor|211\/313
+|
+|turn|23
+|
+|move|p2a: Vanillite Carnivor|Recover|p2a: Vanillite Carnivor
+|-heal|p2a: Vanillite Carnivor|313\/313
+|move|p1a: Gol|Explosion|p2a: Vanillite Carnivor
+|-damage|p2a: Vanillite Carnivor|100\/313
+|faint|p1a: Gol
+|
+|switch|p1a: Tau|Tauros|353\/353
+|turn|24
+|
+|move|p2a: Vanillite Carnivor|Recover|p2a: Vanillite Carnivor
+|-heal|p2a: Vanillite Carnivor|256\/313
+|move|p1a: Tau|Body Slam|p2a: Vanillite Carnivor
+|-damage|p2a: Vanillite Carnivor|173\/313
+|
+|turn|25
+|
+|move|p2a: Vanillite Carnivor|Thunder Wave|p1a: Tau
+|-status|p1a: Tau|par
+|cant|p1a: Tau|par
+|
+|turn|26
+|
+|move|p2a: Vanillite Carnivor|Recover|p2a: Vanillite Carnivor
+|-heal|p2a: Vanillite Carnivor|313\/313
+|move|p1a: Tau|Hyper Beam|p2a: Vanillite Carnivor
+|-damage|p2a: Vanillite Carnivor|180\/313
+|
+|turn|27
+|-mustrecharge|p1a: Tau
+|c|★Giju|missclick
+|-mustrecharge|p1a: Tau
+|
+|move|p2a: Vanillite Carnivor|Psychic|p1a: Tau
+|-crit|p1a: Tau
+|-damage|p1a: Tau|42\/353 par
+|-unboost|p1a: Tau|spd|1
+|-unboost|p1a: Tau|spa|1
+|cant|p1a: Tau|recharge
+|
+|turn|28
+|c|★Nanako chun|gomen
+|
+|move|p2a: Vanillite Carnivor|Psychic|p1a: Tau
+|-crit|p1a: Tau
+|-damage|p1a: Tau|0 fnt
+|faint|p1a: Tau
+|
+|win|Nanako chun
+|raw|Ladder updating...
+|leave|Giju
+|raw|Giju's rating: 1327 &rarr; <strong>1296<\/strong><br \/>(-31 for losing)
+|raw|Nanako chun's rating: 1114 &rarr; <strong>1152<\/strong><br \/>(+38 for winning)
+|player|p1

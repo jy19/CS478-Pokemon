@@ -1,0 +1,229 @@
+﻿|join|RUSHTOWN
+|join|lulloffbrodojo
+|player|p1|RUSHTOWN|12
+|player|p2|lulloffbrodojo|258
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Cloyster|Cloyster, L83|253\/253
+|switch|p2a: Rhydon|Rhydon, L79|328\/328
+|turn|1
+|
+|switch|p1a: Onix|Onix, L90|246\/246
+|move|p2a: Rhydon|Earthquake|p1a: Onix
+|-supereffective|p1a: Onix
+|-damage|p1a: Onix|97\/246
+|
+|turn|2
+|c|★lulloffbrodojo|good luck
+|join|bozo274
+|
+|switch|p1a: Cloyster|Cloyster, L83|253\/253
+|move|p2a: Rhydon|Earthquake|p1a: Cloyster
+|-damage|p1a: Cloyster|180\/253
+|
+|turn|3
+|leave|bozo274
+|
+|move|p1a: Cloyster|Surf|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|
+|switch|p2a: Chansey|Chansey, L79|557\/557
+|turn|4
+|
+|move|p1a: Cloyster|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|464\/557
+|move|p2a: Chansey|Thunderbolt|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|53\/253
+|
+|turn|5
+|
+|switch|p1a: Onix|Onix, L90|97\/246
+|move|p2a: Chansey|Thunderbolt|p1a: Onix
+|-immune|p1a: Onix|[msg]
+|
+|turn|6
+|
+|move|p1a: Onix|Rock Slide|p2a: Chansey
+|-damage|p2a: Chansey|316\/557
+|move|p2a: Chansey|Ice Beam|p1a: Onix
+|-supereffective|p1a: Onix
+|-damage|p1a: Onix|0 fnt
+|faint|p1a: Onix
+|
+|switch|p1a: Persian|Persian, L79|265\/265
+|turn|7
+|
+|move|p1a: Persian|Hyper Beam|p2a: Chansey
+|-damage|p2a: Chansey|10\/557
+|move|p2a: Chansey|Counter|p1a: Persian
+|-damage|p1a: Persian|0 fnt
+|faint|p1a: Persian
+|
+|switch|p1a: Raichu|Raichu, L85|276\/276
+|turn|8
+|
+|move|p1a: Raichu|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|switch|p2a: Poliwag|Poliwag, L96|272\/272
+|turn|9
+|
+|move|p2a: Poliwag|Hypnosis|p1a: Raichu
+|-status|p1a: Raichu|slp
+|cant|p1a: Raichu|slp
+|
+|turn|10
+|
+|move|p2a: Poliwag|Amnesia|p2a: Poliwag
+|-boost|p2a: Poliwag|spd|2
+|-boost|p2a: Poliwag|spa|2
+|cant|p1a: Raichu|slp
+|
+|turn|11
+|
+|move|p2a: Poliwag|Amnesia|p2a: Poliwag
+|-boost|p2a: Poliwag|spd|2
+|-boost|p2a: Poliwag|spa|2
+|cant|p1a: Raichu|slp
+|
+|turn|12
+|
+|move|p2a: Poliwag|Amnesia|p2a: Poliwag
+|-boost|p2a: Poliwag|spd|2
+|-boost|p2a: Poliwag|spa|2
+|cant|p1a: Raichu|slp
+|
+|turn|13
+|
+|move|p2a: Poliwag|Surf|p1a: Raichu
+|-damage|p1a: Raichu|0 fnt
+|faint|p1a: Raichu
+|
+|switch|p1a: Venomoth|Venomoth, L85|293\/293
+|turn|14
+|
+|move|p2a: Poliwag|Blizzard|p1a: Venomoth|[miss]
+|-miss|p2a: Poliwag
+|move|p1a: Venomoth|Mega Drain|p2a: Poliwag
+|-supereffective|p2a: Poliwag
+|-damage|p2a: Poliwag|253\/272
+|
+|turn|15
+|
+|move|p2a: Poliwag|Blizzard|p1a: Venomoth
+|-damage|p1a: Venomoth|15\/293
+|move|p1a: Venomoth|Sleep Powder|p2a: Poliwag
+|-status|p2a: Poliwag|slp
+|
+|turn|16
+|
+|cant|p2a: Poliwag|slp
+|move|p1a: Venomoth|Psychic|p2a: Poliwag
+|-damage|p2a: Poliwag|230\/272 slp
+|
+|turn|17
+|
+|cant|p2a: Poliwag|slp
+|move|p1a: Venomoth|Mega Drain|p2a: Poliwag
+|-crit|p2a: Poliwag
+|-supereffective|p2a: Poliwag
+|-damage|p2a: Poliwag|72\/272 slp
+|-heal|p1a: Venomoth|94\/293|[from] drain|[of] p2a: Poliwag
+|
+|turn|18
+|
+|cant|p2a: Poliwag|slp
+|move|p1a: Venomoth|Mega Drain|p2a: Poliwag
+|-supereffective|p2a: Poliwag
+|-damage|p2a: Poliwag|51\/272 slp
+|-heal|p1a: Venomoth|104\/293|[from] drain|[of] p2a: Poliwag
+|
+|turn|19
+|c|★lulloffbrodojo|that crit tho
+|
+|cant|p2a: Poliwag|slp
+|move|p1a: Venomoth|Mega Drain|p2a: Poliwag
+|-supereffective|p2a: Poliwag
+|-damage|p2a: Poliwag|29\/272 slp
+|-heal|p1a: Venomoth|115\/293|[from] drain|[of] p2a: Poliwag
+|
+|turn|20
+|c|★lulloffbrodojo|wake up
+|
+|cant|p2a: Poliwag|slp
+|move|p1a: Venomoth|Mega Drain|p2a: Poliwag
+|-supereffective|p2a: Poliwag
+|-damage|p2a: Poliwag|8\/272 slp
+|-heal|p1a: Venomoth|125\/293|[from] drain|[of] p2a: Poliwag
+|
+|turn|21
+|
+|-curestatus|p2a: Poliwag|slp
+|move|p1a: Venomoth|Mega Drain|p2a: Poliwag
+|-crit|p2a: Poliwag
+|-supereffective|p2a: Poliwag
+|-damage|p2a: Poliwag|0 fnt
+|-heal|p1a: Venomoth|129\/293|[from] drain|[of] p2a: Poliwag
+|faint|p2a: Poliwag
+|c|★RUSHTOWN|die
+|c|★lulloffbrodojo|now he wakes up that he dies
+|
+|switch|p2a: Mr. Mime|Mr. Mime, L85|242\/242
+|turn|22
+|c|★RUSHTOWN|clutch move beating raichu with poliwag lol
+|
+|move|p1a: Venomoth|Sleep Powder|p2a: Mr. Mime|[miss]
+|-miss|p1a: Venomoth
+|move|p2a: Mr. Mime|Psychic|p1a: Venomoth
+|-supereffective|p1a: Venomoth
+|-damage|p1a: Venomoth|0 fnt
+|faint|p1a: Venomoth
+|
+|switch|p1a: Cloyster|Cloyster, L83|53\/253
+|turn|23
+|
+|move|p2a: Mr. Mime|Thunderbolt|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|switch|p1a: Dewgong|Dewgong, L85|327\/327
+|turn|24
+|
+|move|p2a: Mr. Mime|Thunderbolt|p1a: Dewgong
+|-supereffective|p1a: Dewgong
+|-damage|p1a: Dewgong|191\/327
+|move|p1a: Dewgong|Blizzard|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|129\/242
+|
+|turn|25
+|
+|move|p2a: Mr. Mime|Thunderbolt|p1a: Dewgong
+|-supereffective|p1a: Dewgong
+|-damage|p1a: Dewgong|52\/327
+|-status|p1a: Dewgong|par
+|move|p1a: Dewgong|Blizzard|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|12\/242
+|
+|turn|26
+|
+|move|p2a: Mr. Mime|Thunderbolt|p1a: Dewgong
+|-supereffective|p1a: Dewgong
+|-damage|p1a: Dewgong|0 fnt
+|faint|p1a: Dewgong
+|
+|win|lulloffbrodojo
+|c|★lulloffbrodojo|gg
+|raw|RUSHTOWN's rating: 1060 &rarr; <strong>1040<\/strong><br \/>(-20 for losing)
+|raw|lulloffbrodojo's rating: 1042 &rarr; <strong>1077<\/strong><br \/>(+35 for winning)

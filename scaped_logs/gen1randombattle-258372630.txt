@@ -1,0 +1,259 @@
+﻿|join|amaniania
+|join|Fish9
+|player|p1|amaniania|201
+|player|p2|Fish9|291
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Tangela|Tangela, L85|284\/284
+|switch|p2a: Golduck|Golduck, L85|310\/310
+|turn|1
+|
+|move|p2a: Golduck|Blizzard|p1a: Tangela
+|-supereffective|p1a: Tangela
+|-damage|p1a: Tangela|137\/284
+|move|p1a: Tangela|Sleep Powder|p2a: Golduck
+|-status|p2a: Golduck|slp
+|
+|turn|2
+|c|★amaniania|growth with no special attacks
+|c|★amaniania|pls
+|
+|switch|p2a: Weezing|Weezing, L90|300\/300
+|switch|p1a: Chansey|Chansey, L79|557\/557
+|
+|turn|3
+|
+|switch|p1a: Omastar|Omastar, L90|309\/309
+|move|p2a: Weezing|Thunder|p1a: Omastar
+|-supereffective|p1a: Omastar
+|-damage|p1a: Omastar|174\/309
+|
+|turn|4
+|
+|move|p2a: Weezing|Thunderbolt|p1a: Omastar
+|-supereffective|p1a: Omastar
+|-damage|p1a: Omastar|54\/309
+|move|p1a: Omastar|Hydro Pump|p2a: Weezing
+|-damage|p2a: Weezing|156\/300
+|
+|turn|5
+|
+|move|p2a: Weezing|Thunderbolt|p1a: Omastar
+|-supereffective|p1a: Omastar
+|-damage|p1a: Omastar|0 fnt
+|faint|p1a: Omastar
+|
+|switch|p1a: Chansey|Chansey, L79|557\/557
+|turn|6
+|
+|move|p2a: Weezing|Fire Blast|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|384\/557
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-start|p1a: Chansey|Reflect
+|
+|turn|7
+|
+|move|p2a: Weezing|Thunder|p1a: Chansey
+|-damage|p1a: Chansey|298\/557
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|557\/557
+|
+|turn|8
+|
+|move|p2a: Weezing|Thunder|p1a: Chansey
+|-damage|p1a: Chansey|468\/557
+|move|p1a: Chansey|Ice Beam|p2a: Weezing
+|-damage|p2a: Weezing|98\/300
+|
+|turn|9
+|
+|move|p2a: Weezing|Fire Blast|p1a: Chansey
+|-damage|p1a: Chansey|389\/557
+|move|p1a: Chansey|Ice Beam|p2a: Weezing
+|-damage|p2a: Weezing|42\/300
+|
+|turn|10
+|
+|move|p2a: Weezing|Explosion|p1a: Chansey
+|-damage|p1a: Chansey|30\/557
+|faint|p2a: Weezing
+|
+|switch|p2a: Staryu|Staryu, L90|237\/237
+|turn|11
+|
+|move|p2a: Staryu|Surf|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|switch|p1a: Machoke|Machoke, L85|310\/310
+|turn|12
+|
+|move|p2a: Staryu|Thunderbolt|p1a: Machoke
+|-damage|p1a: Machoke|222\/310
+|move|p1a: Machoke|Body Slam|p2a: Staryu
+|-damage|p2a: Staryu|156\/237
+|-status|p2a: Staryu|par
+|
+|turn|13
+|
+|move|p1a: Machoke|Body Slam|p2a: Staryu
+|-damage|p2a: Staryu|76\/237 par
+|cant|p2a: Staryu|par
+|
+|turn|14
+|
+|move|p1a: Machoke|Body Slam|p2a: Staryu
+|-damage|p2a: Staryu|0 fnt
+|faint|p2a: Staryu
+|
+|switch|p2a: Mew|Mew, L74|300\/300
+|turn|15
+|
+|move|p2a: Mew|Swords Dance|p2a: Mew
+|-boost|p2a: Mew|atk|2
+|move|p1a: Machoke|Body Slam|p2a: Mew
+|-damage|p2a: Mew|232\/300
+|
+|turn|16
+|
+|move|p2a: Mew|Swift|p1a: Machoke
+|-damage|p1a: Machoke|145\/310
+|move|p1a: Machoke|Counter|p2a: Mew
+|-damage|p2a: Mew|78\/300
+|
+|turn|17
+|
+|move|p2a: Mew|Fissure|p1a: Machoke
+|-damage|p1a: Machoke|0 fnt
+|-ohko
+|faint|p1a: Machoke
+|
+|switch|p1a: Primeape|Primeape, L90|300\/300
+|turn|18
+|
+|move|p1a: Primeape|Mega Kick|p2a: Mew|[miss]
+|-miss|p1a: Primeape
+|move|p2a: Mew|Fissure|p1a: Primeape
+|-immune|p1a: Primeape|[ohko]
+|
+|turn|19
+|
+|move|p1a: Primeape|Mega Kick|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|switch|p2a: Nidorina|Nidorina, L90|309\/309
+|turn|20
+|join|svegewgweg
+|
+|move|p1a: Primeape|Body Slam|p2a: Nidorina
+|-damage|p2a: Nidorina|234\/309
+|move|p2a: Nidorina|Thunderbolt|p1a: Primeape
+|-damage|p1a: Primeape|230\/300
+|
+|turn|21
+|
+|move|p1a: Primeape|Body Slam|p2a: Nidorina
+|-damage|p2a: Nidorina|156\/309
+|-status|p2a: Nidorina|par
+|move|p2a: Nidorina|Bubble Beam|p1a: Primeape
+|-damage|p1a: Primeape|189\/300
+|
+|turn|22
+|
+|move|p1a: Primeape|Body Slam|p2a: Nidorina
+|-damage|p2a: Nidorina|78\/309 par
+|move|p2a: Nidorina|Body Slam|p1a: Primeape
+|-damage|p1a: Primeape|132\/300
+|-status|p1a: Primeape|par
+|
+|turn|23
+|
+|move|p1a: Primeape|Hyper Beam|p2a: Nidorina
+|-damage|p2a: Nidorina|0 fnt
+|faint|p2a: Nidorina
+|
+|switch|p2a: Raticate|Raticate, L85|267\/267
+|turn|24
+|
+|move|p2a: Raticate|Super Fang|p1a: Primeape
+|-damage|p1a: Primeape|66\/300 par
+|move|p1a: Primeape|Submission|p2a: Raticate|[miss]
+|-miss|p1a: Primeape
+|
+|turn|25
+|
+|switch|p2a: Golduck|Golduck, L85|310\/310 slp
+|move|p1a: Primeape|Submission|p2a: Golduck
+|-damage|p2a: Golduck|207\/310 slp
+|-damage|p1a: Primeape|41\/300 par|[from] recoil|[of] p2a: Golduck
+|
+|turn|26
+|
+|-curestatus|p2a: Golduck|slp
+|move|p1a: Primeape|Submission|p2a: Golduck
+|-damage|p2a: Golduck|89\/310
+|-damage|p1a: Primeape|12\/300 par|[from] recoil|[of] p2a: Golduck
+|
+|turn|27
+|
+|move|p2a: Golduck|Body Slam|p1a: Primeape
+|-damage|p1a: Primeape|0 fnt
+|faint|p1a: Primeape
+|
+|switch|p1a: Pinsir|Pinsir, L85|284\/284
+|turn|28
+|
+|move|p1a: Pinsir|Hyper Beam|p2a: Golduck
+|-damage|p2a: Golduck|0 fnt
+|faint|p2a: Golduck
+|
+|switch|p2a: Raticate|Raticate, L85|267\/267
+|turn|29
+|
+|move|p2a: Raticate|Super Fang|p1a: Pinsir
+|-damage|p1a: Pinsir|142\/284
+|move|p1a: Pinsir|Submission|p2a: Raticate
+|-supereffective|p2a: Raticate
+|-damage|p2a: Raticate|91\/267
+|-damage|p1a: Pinsir|98\/284|[from] recoil|[of] p2a: Raticate
+|
+|turn|30
+|
+|move|p2a: Raticate|Hyper Beam|p1a: Pinsir
+|-damage|p1a: Pinsir|0 fnt
+|faint|p1a: Pinsir
+|
+|switch|p1a: Tangela|Tangela, L85|137\/284
+|turn|31
+|c|★amaniania|gg :(
+|
+|move|p2a: Raticate|Blizzard|p1a: Tangela
+|-supereffective|p1a: Tangela
+|-damage|p1a: Tangela|27\/284
+|move|p1a: Tangela|Sleep Powder|p2a: Raticate
+|-status|p2a: Raticate|slp
+|
+|turn|32
+|
+|cant|p2a: Raticate|slp
+|move|p1a: Tangela|Body Slam|p2a: Raticate
+|-damage|p2a: Raticate|34\/267 slp
+|
+|turn|33
+|c|★amaniania|oh
+|c|★amaniania|oh
+|
+|cant|p2a: Raticate|slp
+|move|p1a: Tangela|Body Slam|p2a: Raticate
+|-damage|p2a: Raticate|0 fnt
+|faint|p2a: Raticate
+|
+|win|amaniania

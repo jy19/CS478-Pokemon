@@ -1,0 +1,444 @@
+﻿|join|katsuge5
+|join|ssj8 goku
+|player|p1|katsuge5|93
+|player|p2|ssj8 goku|263
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Birdie|Zapdos|383\/383
+|turn|1
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Birdie
+|-status|p2a: Birdie|par
+|cant|p2a: Birdie|par
+|
+|turn|2
+|
+|move|p1a: Alakazam|Psychic|p2a: Birdie
+|-damage|p2a: Birdie|280\/383 par
+|move|p2a: Birdie|Drill Peck|p1a: Alakazam
+|-damage|p1a: Alakazam|167\/313
+|
+|turn|3
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|313\/313
+|move|p2a: Birdie|Drill Peck|p1a: Alakazam
+|-damage|p1a: Alakazam|186\/313
+|
+|turn|4
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|313\/313
+|move|p2a: Birdie|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|
+|turn|5
+|
+|move|p1a: Alakazam|Psychic|p2a: Birdie
+|-crit|p2a: Birdie
+|-damage|p2a: Birdie|46\/383 par
+|-unboost|p2a: Birdie|spd|1
+|-unboost|p2a: Birdie|spa|1
+|move|p2a: Birdie|Agility|p2a: Birdie
+|-boost|p2a: Birdie|spe|2
+|
+|turn|6
+|
+|move|p2a: Birdie|Thunderbolt|p1a: Alakazam
+|-damage|p1a: Alakazam|249\/313 par
+|move|p1a: Alakazam|Psychic|p2a: Birdie
+|-damage|p2a: Birdie|0 fnt
+|faint|p2a: Birdie
+|
+|switch|p2a: Shellshock|Blastoise|361\/361
+|turn|7
+|
+|move|p2a: Shellshock|Substitute|p2a: Shellshock
+|-start|p2a: Shellshock|Substitute
+|-damage|p2a: Shellshock|271\/361
+|move|p1a: Alakazam|Thunder Wave|p2a: Shellshock
+|-status|p2a: Shellshock|par
+|
+|turn|8
+|
+|move|p1a: Alakazam|Psychic|p2a: Shellshock
+|-end|p2a: Shellshock|Substitute
+|move|p2a: Shellshock|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|149\/313 par
+|
+|turn|9
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|305\/313 par
+|move|p2a: Shellshock|Surf|p1a: Alakazam
+|-damage|p1a: Alakazam|219\/313 par
+|
+|turn|10
+|
+|move|p1a: Alakazam|Psychic|p2a: Shellshock
+|-damage|p2a: Shellshock|125\/361 par
+|-unboost|p2a: Shellshock|spd|1
+|-unboost|p2a: Shellshock|spa|1
+|move|p2a: Shellshock|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|119\/313 par
+|
+|turn|11
+|
+|switch|p2a: Hoodini|Alakazam|313\/313
+|move|p1a: Alakazam|Psychic|p2a: Hoodini
+|-resisted|p2a: Hoodini
+|-damage|p2a: Hoodini|259\/313
+|
+|turn|12
+|
+|move|p2a: Hoodini|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|19\/313 par
+|cant|p1a: Alakazam|par
+|
+|turn|13
+|
+|move|p2a: Hoodini|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|turn|14
+|
+|move|p2a: Hoodini|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|move|p1a: Chansey|Thunder Wave|p2a: Hoodini
+|-status|p2a: Hoodini|par
+|
+|turn|15
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|cant|p2a: Hoodini|par
+|
+|turn|16
+|
+|move|p1a: Snorlax|Body Slam|p2a: Hoodini
+|-damage|p2a: Hoodini|87\/313 par
+|cant|p2a: Hoodini|par
+|
+|turn|17
+|
+|move|p1a: Snorlax|Body Slam|p2a: Hoodini
+|-damage|p2a: Hoodini|0 fnt
+|faint|p2a: Hoodini
+|
+|switch|p2a: Dragoon|Dragonite|385\/385
+|turn|18
+|
+|move|p2a: Dragoon|Agility|p2a: Dragoon
+|-boost|p2a: Dragoon|spe|2
+|move|p1a: Snorlax|Self-Destruct|p2a: Dragoon
+|-damage|p2a: Dragoon|74\/385
+|faint|p1a: Snorlax
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|turn|19
+|
+|move|p2a: Dragoon|Wrap|p1a: Exeggutor
+|-damage|p1a: Exeggutor|377\/393
+|-activate|p1a: Exeggutor|move: Wrap|[of] p2a: Dragoon
+|cant|p1a: Exeggutor|partiallytrapped
+|
+|turn|20
+|
+|move|p2a: Dragoon|Wrap|p1a: Exeggutor
+|-damage|p1a: Exeggutor|361\/393
+|cant|p1a: Exeggutor|partiallytrapped
+|
+|turn|21
+|
+|move|p2a: Dragoon|Wrap|p1a: Exeggutor
+|-damage|p1a: Exeggutor|345\/393
+|cant|p1a: Exeggutor|partiallytrapped
+|
+|turn|22
+|
+|move|p2a: Dragoon|Wrap|p1a: Exeggutor
+|-damage|p1a: Exeggutor|329\/393
+|cant|p1a: Exeggutor|partiallytrapped
+|
+|turn|23
+|
+|move|p2a: Dragoon|Wrap|p1a: Exeggutor
+|-damage|p1a: Exeggutor|313\/393
+|cant|p1a: Exeggutor|partiallytrapped
+|
+|-end|p1a: Exeggutor|Wrap|[partiallytrapped]
+|turn|24
+|
+|move|p2a: Dragoon|Wrap|p1a: Exeggutor
+|-damage|p1a: Exeggutor|296\/393
+|-activate|p1a: Exeggutor|move: Wrap|[of] p2a: Dragoon
+|cant|p1a: Exeggutor|partiallytrapped
+|
+|turn|25
+|
+|move|p2a: Dragoon|Wrap|p1a: Exeggutor
+|-damage|p1a: Exeggutor|279\/393
+|cant|p1a: Exeggutor|partiallytrapped
+|
+|-end|p1a: Exeggutor|Wrap|[partiallytrapped]
+|turn|26
+|
+|move|p2a: Dragoon|Wrap|p1a: Exeggutor
+|-damage|p1a: Exeggutor|263\/393
+|-activate|p1a: Exeggutor|move: Wrap|[of] p2a: Dragoon
+|cant|p1a: Exeggutor|partiallytrapped
+|
+|turn|27
+|
+|move|p2a: Dragoon|Wrap|p1a: Exeggutor
+|-damage|p1a: Exeggutor|247\/393
+|cant|p1a: Exeggutor|partiallytrapped
+|
+|-end|p1a: Exeggutor|Wrap|[partiallytrapped]
+|turn|28
+|
+|move|p2a: Dragoon|Wrap|p1a: Exeggutor
+|-damage|p1a: Exeggutor|231\/393
+|-activate|p1a: Exeggutor|move: Wrap|[of] p2a: Dragoon
+|cant|p1a: Exeggutor|partiallytrapped
+|
+|turn|29
+|
+|move|p2a: Dragoon|Wrap|p1a: Exeggutor
+|-damage|p1a: Exeggutor|215\/393
+|cant|p1a: Exeggutor|partiallytrapped
+|
+|-end|p1a: Exeggutor|Wrap|[partiallytrapped]
+|turn|30
+|
+|move|p2a: Dragoon|Wrap|p1a: Exeggutor
+|-damage|p1a: Exeggutor|199\/393
+|-activate|p1a: Exeggutor|move: Wrap|[of] p2a: Dragoon
+|cant|p1a: Exeggutor|partiallytrapped
+|
+|turn|31
+|
+|move|p2a: Dragoon|Wrap|p1a: Exeggutor
+|-damage|p1a: Exeggutor|183\/393
+|cant|p1a: Exeggutor|partiallytrapped
+|
+|turn|32
+|
+|move|p2a: Dragoon|Wrap|p1a: Exeggutor
+|-damage|p1a: Exeggutor|167\/393
+|cant|p1a: Exeggutor|partiallytrapped
+|
+|-end|p1a: Exeggutor|Wrap|[partiallytrapped]
+|turn|33
+|
+|move|p2a: Dragoon|Wrap|p1a: Exeggutor
+|-damage|p1a: Exeggutor|150\/393
+|-activate|p1a: Exeggutor|move: Wrap|[of] p2a: Dragoon
+|cant|p1a: Exeggutor|partiallytrapped
+|
+|turn|34
+|
+|move|p2a: Dragoon|Wrap|p1a: Exeggutor
+|-damage|p1a: Exeggutor|133\/393
+|cant|p1a: Exeggutor|partiallytrapped
+|
+|turn|35
+|
+|move|p2a: Dragoon|Wrap|p1a: Exeggutor
+|-damage|p1a: Exeggutor|116\/393
+|cant|p1a: Exeggutor|partiallytrapped
+|
+|-end|p1a: Exeggutor|Wrap|[partiallytrapped]
+|turn|36
+|
+|switch|p1a: Zapdos|Zapdos|383\/383
+|move|p2a: Dragoon|Wrap|p1a: Zapdos
+|-damage|p1a: Zapdos|366\/383
+|-activate|p1a: Zapdos|move: Wrap|[of] p2a: Dragoon
+|
+|turn|37
+|
+|move|p2a: Dragoon|Wrap|p1a: Zapdos
+|-damage|p1a: Zapdos|349\/383
+|cant|p1a: Zapdos|partiallytrapped
+|
+|-end|p1a: Zapdos|Wrap|[partiallytrapped]
+|turn|38
+|
+|move|p2a: Dragoon|Wrap|p1a: Zapdos
+|-damage|p1a: Zapdos|331\/383
+|-activate|p1a: Zapdos|move: Wrap|[of] p2a: Dragoon
+|cant|p1a: Zapdos|partiallytrapped
+|
+|turn|39
+|
+|move|p2a: Dragoon|Wrap|p1a: Zapdos
+|-damage|p1a: Zapdos|313\/383
+|cant|p1a: Zapdos|partiallytrapped
+|
+|-end|p1a: Zapdos|Wrap|[partiallytrapped]
+|turn|40
+|
+|move|p2a: Dragoon|Wrap|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|279\/383
+|-activate|p1a: Zapdos|move: Wrap|[of] p2a: Dragoon
+|cant|p1a: Zapdos|partiallytrapped
+|
+|turn|41
+|
+|switch|p1a: Exeggutor|Exeggutor|116\/393
+|move|p2a: Dragoon|Wrap|p1a: Exeggutor
+|-damage|p1a: Exeggutor|100\/393
+|-activate|p1a: Exeggutor|move: Wrap|[of] p2a: Dragoon
+|
+|turn|42
+|
+|move|p2a: Dragoon|Wrap|p1a: Exeggutor
+|-damage|p1a: Exeggutor|84\/393
+|cant|p1a: Exeggutor|partiallytrapped
+|
+|turn|43
+|c|★katsuge5|you're the worst kind of human being
+|
+|move|p2a: Dragoon|Wrap|p1a: Exeggutor
+|-damage|p1a: Exeggutor|68\/393
+|cant|p1a: Exeggutor|partiallytrapped
+|
+|-end|p1a: Exeggutor|Wrap|[partiallytrapped]
+|turn|44
+|c|★ssj8 goku|im not a human being...... Im as uper sayin
+|
+|move|p2a: Dragoon|Wrap|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-damage|p1a: Exeggutor|35\/393
+|-activate|p1a: Exeggutor|move: Wrap|[of] p2a: Dragoon
+|cant|p1a: Exeggutor|partiallytrapped
+|
+|turn|45
+|
+|move|p2a: Dragoon|Wrap|p1a: Exeggutor
+|-damage|p1a: Exeggutor|2\/393
+|cant|p1a: Exeggutor|partiallytrapped
+|
+|turn|46
+|
+|move|p2a: Dragoon|Wrap|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Zapdos|Zapdos|279\/383
+|turn|47
+|
+|move|p2a: Dragoon|Wrap|p1a: Zapdos
+|-damage|p1a: Zapdos|263\/383
+|-activate|p1a: Zapdos|move: Wrap|[of] p2a: Dragoon
+|cant|p1a: Zapdos|partiallytrapped
+|
+|turn|48
+|
+|move|p2a: Dragoon|Wrap|p1a: Zapdos
+|-damage|p1a: Zapdos|247\/383
+|cant|p1a: Zapdos|partiallytrapped
+|
+|turn|49
+|
+|move|p2a: Dragoon|Wrap|p1a: Zapdos
+|-damage|p1a: Zapdos|231\/383
+|cant|p1a: Zapdos|partiallytrapped
+|
+|turn|50
+|
+|move|p2a: Dragoon|Wrap|p1a: Zapdos
+|-damage|p1a: Zapdos|215\/383
+|cant|p1a: Zapdos|partiallytrapped
+|
+|turn|51
+|
+|move|p2a: Dragoon|Wrap|p1a: Zapdos
+|-damage|p1a: Zapdos|199\/383
+|cant|p1a: Zapdos|partiallytrapped
+|
+|-end|p1a: Zapdos|Wrap|[partiallytrapped]
+|turn|52
+|
+|move|p2a: Dragoon|Blizzard|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|31\/383
+|move|p1a: Zapdos|Agility|p1a: Zapdos
+|-boost|p1a: Zapdos|spe|2
+|
+|turn|53
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Dragoon
+|-crit|p2a: Dragoon
+|-damage|p2a: Dragoon|0 fnt
+|faint|p2a: Dragoon
+|
+|switch|p2a: Booster|Charizard|359\/359
+|turn|54
+|
+|switch|p2a: Bruteroot|Venusaur|363\/363
+|move|p1a: Zapdos|Thunderbolt|p2a: Bruteroot
+|-resisted|p2a: Bruteroot
+|-damage|p2a: Bruteroot|296\/363
+|
+|turn|55
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Bruteroot
+|-supereffective|p2a: Bruteroot
+|-damage|p2a: Bruteroot|100\/363
+|move|p2a: Bruteroot|Mega Drain|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|-heal|p2a: Bruteroot|115\/363|[from] drain|[of] p1a: Zapdos
+|faint|p1a: Zapdos
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|56
+|
+|move|p1a: Tauros|Blizzard|p2a: Bruteroot
+|-supereffective|p2a: Bruteroot
+|-damage|p2a: Bruteroot|0 fnt
+|faint|p2a: Bruteroot
+|
+|switch|p2a: Booster|Charizard|359\/359
+|turn|57
+|
+|move|p1a: Tauros|Body Slam|p2a: Booster
+|-crit|p2a: Booster
+|-damage|p2a: Booster|130\/359
+|move|p2a: Booster|Fire Blast|p1a: Tauros|[miss]
+|-miss|p2a: Booster
+|
+|turn|58
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Booster
+|-damage|p2a: Booster|0 fnt
+|faint|p2a: Booster
+|
+|switch|p2a: Shellshock|Blastoise|125\/361 par
+|turn|59
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Shellshock
+|-damage|p2a: Shellshock|0 fnt
+|faint|p2a: Shellshock
+|
+|win|katsuge5
+|raw|Ladder updating...
+|raw|katsuge5's rating: 1172 &rarr; <strong>1190<\/strong><br \/>(+18 for winning)
+|raw|ssj8 goku's rating: 1074 &rarr; <strong>1058<\/strong><br \/>(-16 for losing)
+|c|★ssj8 goku|gg

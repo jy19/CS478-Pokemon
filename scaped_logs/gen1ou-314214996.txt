@@ -1,0 +1,52 @@
+﻿|j|SinisterHFigure
+|j|FawfulMinion
+|player|p1|SinisterHFigure|269
+|player|p2|FawfulMinion|43
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|seed|6940,31541,30267,4415
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Dragonair|Dragonair|325\/325
+|switch|p2a: Gand Man|Alakazam|313\/313
+|turn|1
+|choice|move 2|move 1
+|
+|move|p2a: Gand Man|Psychic|p1a: Dragonair
+|-damage|p1a: Dragonair|174\/325
+|move|p1a: Dragonair|Thunder Wave|p2a: Gand Man
+|-status|p2a: Gand Man|par
+|
+|turn|2
+|choice|move 1|move 1
+|
+|move|p1a: Dragonair|Wrap|p2a: Gand Man
+|-crit|p2a: Gand Man
+|-damage|p2a: Gand Man|277\/313 par
+|-activate|p2a: Gand Man|move: Wrap|[of] p1a: Dragonair
+|cant|p2a: Gand Man|partiallytrapped
+|
+|turn|3
+|-message|FawfulMinion forfeited.
+|l|FawfulMinion
+|choice|move 1|move 1
+|
+|move|p1a: Dragonair|Wrap|p2a: Gand Man
+|-damage|p2a: Gand Man|241\/313 par
+|cant|p2a: Gand Man|partiallytrapped
+|
+|-end|p2a: Gand Man|Wrap|[partiallytrapped]
+|turn|4
+|
+|win|SinisterHFigure
+|player|p2
+|raw|SinisterHFigure's rating: 1163 &rarr; <strong>1177<\/strong><br \/>(+14 for winning)
+|raw|FawfulMinion's rating: 1000 &rarr; <strong>1000<\/strong><br \/>(+0 for losing)

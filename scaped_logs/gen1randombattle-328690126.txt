@@ -1,0 +1,656 @@
+﻿|j|Iezus
+|j|unlucky devil
+|player|p1|Iezus|275
+|player|p2|unlucky devil|225
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|64416,61005,26292,16510
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Porygon|Porygon, L85|284\/284
+|switch|p2a: Cubone|Cubone, L96|291\/291
+|turn|1
+|choice|move 2|move 1
+|
+|move|p2a: Cubone|Seismic Toss|p1a: Porygon
+|-damage|p1a: Porygon|188\/284
+|move|p1a: Porygon|Blizzard|p2a: Cubone
+|-supereffective|p2a: Cubone
+|-damage|p2a: Cubone|104\/291
+|
+|turn|2
+|choice|move 1|switch 4
+|
+|switch|p2a: Slowbro|Slowbro, L79|312\/312
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|284\/284
+|
+|turn|3
+|choice|switch 6|move 2
+|
+|switch|p1a: Ivysaur|Ivysaur, L85|276\/276
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|4
+|choice|move 4|switch 4
+|
+|switch|p2a: Cubone|Cubone, L96|104\/291
+|move|p1a: Ivysaur|Razor Leaf|p2a: Cubone
+|-crit|p2a: Cubone
+|-supereffective|p2a: Cubone
+|-damage|p2a: Cubone|0 fnt
+|faint|p2a: Cubone
+|choice||switch 3
+|
+|switch|p2a: Dragonair|Dragonair, L85|277\/277
+|turn|5
+|choice|switch 6|move 1
+|
+|switch|p1a: Porygon|Porygon, L85|284\/284
+|move|p2a: Dragonair|Thunder Wave|p1a: Porygon
+|-status|p1a: Porygon|par
+|
+|turn|6
+|choice|move 3|switch 4
+|
+|switch|p2a: Slowbro|Slowbro, L79|312\/312
+|move|p1a: Porygon|Thunder Wave|p2a: Slowbro
+|-status|p2a: Slowbro|par
+|
+|turn|7
+|choice|switch 6|switch 5
+|
+|switch|p1a: Ivysaur|Ivysaur, L85|276\/276
+|switch|p2a: Chansey|Chansey, L79|557\/557
+|
+|turn|8
+|choice|move 2|move 3
+|
+|move|p1a: Ivysaur|Leech Seed|p2a: Chansey
+|-start|p2a: Chansey|move: Leech Seed
+|move|p2a: Chansey|Thunder Wave|p1a: Ivysaur
+|-status|p1a: Ivysaur|par
+|-damage|p2a: Chansey|523\/557|[from] Leech Seed|[of] p1a: Ivysaur
+|
+|turn|9
+|choice|move 1|switch 4
+|
+|switch|p2a: Dragonair|Dragonair, L85|277\/277
+|move|p1a: Ivysaur|Swords Dance|p1a: Ivysaur
+|-boost|p1a: Ivysaur|atk|2
+|
+|turn|10
+|choice|switch 6|move 4
+|
+|switch|p1a: Porygon|Porygon, L85|284\/284 par
+|move|p2a: Dragonair|Ice Beam|p1a: Porygon
+|-damage|p1a: Porygon|224\/284 par
+|
+|turn|11
+|choice|move 4|switch 5
+|
+|switch|p2a: Slowbro|Slowbro, L79|312\/312 par
+|cant|p1a: Porygon|par
+|
+|turn|12
+|choice|switch 6|move 3
+|
+|switch|p1a: Ivysaur|Ivysaur, L85|276\/276 par
+|cant|p2a: Slowbro|par
+|
+|turn|13
+|choice|move 3|switch 5
+|
+|switch|p2a: Dragonair|Dragonair, L85|277\/277
+|move|p1a: Ivysaur|Body Slam|p2a: Dragonair
+|-damage|p2a: Dragonair|222\/277
+|
+|turn|14
+|choice|switch 6|move 4
+|
+|switch|p1a: Porygon|Porygon, L85|224\/284 par
+|move|p2a: Dragonair|Ice Beam|p1a: Porygon
+|-damage|p1a: Porygon|157\/284 par
+|
+|turn|15
+|choice|move 1|move 4
+|
+|move|p2a: Dragonair|Ice Beam|p1a: Porygon
+|-damage|p1a: Porygon|95\/284 par
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|237\/284 par
+|
+|turn|16
+|choice|move 3|switch 5
+|
+|switch|p2a: Slowbro|Slowbro, L79|312\/312 par
+|cant|p1a: Porygon|par
+|
+|turn|17
+|choice|switch 6|move 2
+|
+|switch|p1a: Ivysaur|Ivysaur, L85|276\/276 par
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|18
+|choice|move 4|move 3
+|
+|move|p2a: Slowbro|Surf|p1a: Ivysaur
+|-resisted|p1a: Ivysaur
+|-damage|p1a: Ivysaur|200\/276 par
+|move|p1a: Ivysaur|Razor Leaf|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|70\/312 par
+|
+|turn|19
+|choice|move 4|switch 5
+|
+|switch|p2a: Dragonair|Dragonair, L85|222\/277
+|move|p1a: Ivysaur|Razor Leaf|p2a: Dragonair
+|-crit|p2a: Dragonair
+|-resisted|p2a: Dragonair
+|-damage|p2a: Dragonair|160\/277
+|
+|turn|20
+|choice|switch 6|move 4
+|
+|switch|p1a: Porygon|Porygon, L85|237\/284 par
+|move|p2a: Dragonair|Ice Beam|p1a: Porygon
+|-damage|p1a: Porygon|180\/284 par
+|
+|turn|21
+|choice|move 2|switch 5
+|
+|switch|p2a: Slowbro|Slowbro, L79|70\/312 par
+|move|p1a: Porygon|Blizzard|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|26\/312 par
+|
+|turn|22
+|choice|move 4|move 1
+|
+|cant|p1a: Porygon|par
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|-heal|p2a: Slowbro|312\/312 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|
+|turn|23
+|choice|switch 6|move 2
+|
+|switch|p1a: Ivysaur|Ivysaur, L85|200\/276 par
+|cant|p2a: Slowbro|slp
+|
+|turn|24
+|choice|move 4|switch 5
+|
+|switch|p2a: Dragonair|Dragonair, L85|160\/277
+|move|p1a: Ivysaur|Razor Leaf|p2a: Dragonair
+|-crit|p2a: Dragonair
+|-resisted|p2a: Dragonair
+|-damage|p2a: Dragonair|98\/277
+|
+|turn|25
+|choice|switch 6|move 4
+|
+|switch|p1a: Porygon|Porygon, L85|180\/284 par
+|move|p2a: Dragonair|Ice Beam|p1a: Porygon
+|-damage|p1a: Porygon|122\/284 par
+|
+|turn|26
+|choice|move 1|move 3
+|
+|move|p2a: Dragonair|Hyper Beam|p1a: Porygon
+|-damage|p1a: Porygon|18\/284 par
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|160\/284 par
+|
+|turn|27
+|-mustrecharge|p2a: Dragonair
+|-mustrecharge|p2a: Dragonair
+|choice|move 2|move 1
+|
+|cant|p2a: Dragonair|recharge
+|move|p1a: Porygon|Blizzard|p2a: Dragonair
+|-supereffective|p2a: Dragonair
+|-damage|p2a: Dragonair|0 fnt
+|faint|p2a: Dragonair
+|choice||switch 6
+|
+|switch|p2a: Jolteon|Jolteon, L79|265\/265
+|turn|28
+|choice|move 3|move 3
+|
+|move|p2a: Jolteon|Pin Missile|p1a: Porygon
+|-damage|p1a: Porygon|151\/284 par
+|-damage|p1a: Porygon|142\/284 par
+|-damage|p1a: Porygon|133\/284 par
+|-damage|p1a: Porygon|124\/284 par
+|-damage|p1a: Porygon|115\/284 par
+|-hitcount|p1a: Porygon|5
+|move|p1a: Porygon|Thunder Wave|p2a: Jolteon
+|-status|p2a: Jolteon|par
+|
+|turn|29
+|choice|move 1|move 1
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Porygon
+|-crit|p1a: Porygon
+|-damage|p1a: Porygon|0 fnt
+|faint|p1a: Porygon
+|choice|switch 6|
+|
+|switch|p1a: Ivysaur|Ivysaur, L85|200\/276 par
+|turn|30
+|choice|move 2|move 3
+|
+|move|p2a: Jolteon|Pin Missile|p1a: Ivysaur
+|-supereffective|p1a: Ivysaur
+|-damage|p1a: Ivysaur|165\/276 par
+|-damage|p1a: Ivysaur|130\/276 par
+|-hitcount|p1a: Ivysaur|2
+|move|p1a: Ivysaur|Leech Seed|p2a: Jolteon
+|-start|p2a: Jolteon|move: Leech Seed
+|
+|turn|31
+|choice|move 3|switch 2
+|
+|switch|p2a: Abra|Abra, L96|243\/243
+|cant|p1a: Ivysaur|par
+|
+|turn|32
+|choice|switch 4|move 4
+|
+|switch|p1a: Chansey|Chansey, L79|557\/557
+|move|p2a: Abra|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|428\/557
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|
+|turn|33
+|choice|move 4|move 4
+|
+|move|p2a: Abra|Psychic|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|192\/557
+|move|p1a: Chansey|Thunder Wave|p2a: Abra
+|-status|p2a: Abra|par
+|
+|turn|34
+|choice|move 1|move 2
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|470\/557
+|move|p2a: Abra|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|turn|35
+|choice|move 3|move 4
+|
+|move|p2a: Abra|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|293\/557 par
+|move|p1a: Chansey|Thunderbolt|p2a: Abra
+|-damage|p2a: Abra|208\/243 par
+|
+|turn|36
+|choice|move 1|move 4
+|
+|cant|p2a: Abra|par
+|cant|p1a: Chansey|par
+|
+|turn|37
+|choice|move 1|switch 2
+|
+|switch|p2a: Jolteon|Jolteon, L79|265\/265 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|557\/557 par
+|
+|turn|38
+|choice|move 3|move 4
+|
+|move|p2a: Jolteon|Double Kick|p1a: Chansey
+|-crit|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|403\/557 par
+|-damage|p1a: Chansey|249\/557 par
+|-hitcount|p1a: Chansey|2
+|cant|p1a: Chansey|par
+|
+|turn|39
+|choice|move 1|move 1
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|115\/557 par
+|cant|p1a: Chansey|par
+|
+|turn|40
+|choice|switch 4|move 1
+|
+|switch|p1a: Ivysaur|Ivysaur, L85|130\/276 par
+|move|p2a: Jolteon|Thunderbolt|p1a: Ivysaur
+|-resisted|p1a: Ivysaur
+|-damage|p1a: Ivysaur|83\/276 par
+|
+|turn|41
+|choice|move 2|move 3
+|
+|move|p2a: Jolteon|Pin Missile|p1a: Ivysaur|[miss]
+|-miss|p2a: Jolteon
+|move|p1a: Ivysaur|Leech Seed|p2a: Jolteon
+|-start|p2a: Jolteon|move: Leech Seed
+|
+|turn|42
+|choice|switch 4|move 3
+|
+|switch|p1a: Chansey|Chansey, L79|115\/557 par
+|move|p2a: Jolteon|Pin Missile|p1a: Chansey
+|-damage|p1a: Chansey|97\/557 par
+|-damage|p1a: Chansey|79\/557 par
+|-damage|p1a: Chansey|61\/557 par
+|-damage|p1a: Chansey|43\/557 par
+|-hitcount|p1a: Chansey|4
+|-damage|p2a: Jolteon|249\/265 par|[from] Leech Seed|[of] p1a: Chansey
+|-heal|p1a: Chansey|59\/557 par|[silent]
+|
+|turn|43
+|choice|switch 4|move 4
+|
+|switch|p1a: Ivysaur|Ivysaur, L85|83\/276 par
+|cant|p2a: Jolteon|par
+|-damage|p2a: Jolteon|233\/265 par|[from] Leech Seed|[of] p1a: Ivysaur
+|-heal|p1a: Ivysaur|99\/276 par|[silent]
+|
+|turn|44
+|choice|move 3|move 3
+|
+|move|p2a: Jolteon|Pin Missile|p1a: Ivysaur
+|-supereffective|p1a: Ivysaur
+|-damage|p1a: Ivysaur|65\/276 par
+|-damage|p1a: Ivysaur|31\/276 par
+|-hitcount|p1a: Ivysaur|2
+|-damage|p2a: Jolteon|217\/265 par|[from] Leech Seed|[of] p1a: Ivysaur
+|-heal|p1a: Ivysaur|47\/276 par|[silent]
+|move|p1a: Ivysaur|Body Slam|p2a: Jolteon
+|-crit|p2a: Jolteon
+|-damage|p2a: Jolteon|93\/265 par
+|
+|turn|45
+|choice|move 3|move 3
+|
+|move|p2a: Jolteon|Pin Missile|p1a: Ivysaur
+|-crit|p1a: Ivysaur
+|-supereffective|p1a: Ivysaur
+|-damage|p1a: Ivysaur|0 fnt
+|-hitcount|p1a: Ivysaur|1
+|faint|p1a: Ivysaur
+|choice|switch 2|
+|
+|switch|p1a: Omanyte|Omanyte, L96|262\/262
+|turn|46
+|choice|move 3|switch 5
+|
+|switch|p2a: Slowbro|Slowbro, L79|312\/312 slp
+|move|p1a: Omanyte|Hydro Pump|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|221\/312 slp
+|
+|turn|47
+|choice|switch 5|move 2
+|
+|switch|p1a: Golduck|Golduck, L85|310\/310
+|-curestatus|p2a: Slowbro|slp
+|
+|turn|48
+|choice|move 1|move 4
+|
+|move|p1a: Golduck|Amnesia|p1a: Golduck
+|-boost|p1a: Golduck|spd|2
+|-boost|p1a: Golduck|spa|2
+|move|p2a: Slowbro|Thunder Wave|p1a: Golduck
+|-status|p1a: Golduck|par
+|
+|turn|49
+|choice|move 1|move 2
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|move|p1a: Golduck|Amnesia|p1a: Golduck
+|-boost|p1a: Golduck|spd|2
+|-boost|p1a: Golduck|spa|2
+|
+|turn|50
+|choice|move 1|move 2
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|move|p1a: Golduck|Amnesia|p1a: Golduck
+|-boost|p1a: Golduck|spd|2
+|-boost|p1a: Golduck|spa|2
+|
+|turn|51
+|choice|move 3|move 2
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|move|p1a: Golduck|Blizzard|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|138\/312
+|
+|turn|52
+|choice|move 3|move 3
+|
+|move|p2a: Slowbro|Surf|p1a: Golduck
+|-resisted|p1a: Golduck
+|-damage|p1a: Golduck|268\/310 par
+|move|p1a: Golduck|Blizzard|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|97\/312
+|
+|turn|53
+|choice|move 3|move 3
+|
+|move|p2a: Slowbro|Surf|p1a: Golduck
+|-crit|p1a: Golduck
+|-resisted|p1a: Golduck
+|-damage|p1a: Golduck|187\/310 par
+|move|p1a: Golduck|Blizzard|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|10\/312
+|
+|turn|54
+|choice|move 3|move 1
+|
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|-heal|p2a: Slowbro|312\/312 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|move|p1a: Golduck|Blizzard|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|272\/312 slp
+|
+|turn|55
+|choice|move 4|move 3
+|
+|cant|p2a: Slowbro|slp
+|move|p1a: Golduck|Rest|p1a: Golduck
+|-status|p1a: Golduck|slp
+|-heal|p1a: Golduck|310\/310 slp|[silent]
+|-status|p1a: Golduck|slp|[from] move: Rest
+|
+|turn|56
+|choice|move 2|switch 5
+|
+|switch|p2a: Jolteon|Jolteon, L79|93\/265 par
+|cant|p1a: Golduck|slp
+|
+|turn|57
+|choice|move 2|move 1
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Golduck
+|-crit|p1a: Golduck
+|-supereffective|p1a: Golduck
+|-damage|p1a: Golduck|0 fnt
+|faint|p1a: Golduck
+|choice|switch 5|
+|
+|switch|p1a: Omanyte|Omanyte, L96|262\/262
+|turn|58
+|choice|move 3|switch 4
+|
+|switch|p2a: Chansey|Chansey, L79|523\/557
+|move|p1a: Omanyte|Hydro Pump|p2a: Chansey
+|-damage|p2a: Chansey|384\/557
+|
+|turn|59
+|choice|move 1|move 3
+|
+|move|p1a: Omanyte|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|282\/557
+|move|p2a: Chansey|Thunder Wave|p1a: Omanyte
+|-status|p1a: Omanyte|par
+|
+|turn|60
+|choice|move 1|switch 2
+|
+|switch|p2a: Abra|Abra, L96|208\/243 par
+|move|p1a: Omanyte|Blizzard|p2a: Abra
+|-damage|p2a: Abra|127\/243 par
+|
+|turn|61
+|choice|move 4|move 4
+|
+|move|p2a: Abra|Psychic|p1a: Omanyte
+|-damage|p1a: Omanyte|142\/262 par
+|cant|p1a: Omanyte|par
+|
+|turn|62
+|choice|move 4|move 4
+|
+|move|p2a: Abra|Psychic|p1a: Omanyte
+|-damage|p1a: Omanyte|23\/262 par
+|move|p1a: Omanyte|Seismic Toss|p2a: Abra
+|-damage|p2a: Abra|31\/243 par
+|
+|turn|63
+|choice|switch 3|move 4
+|
+|switch|p1a: Jynx|Jynx, L79|265\/265
+|move|p2a: Abra|Psychic|p1a: Jynx
+|-resisted|p1a: Jynx
+|-damage|p1a: Jynx|195\/265
+|-unboost|p1a: Jynx|spd|1
+|-unboost|p1a: Jynx|spa|1
+|
+|turn|64
+|choice|move 2|move 2
+|
+|move|p1a: Jynx|Psychic|p2a: Abra
+|-resisted|p2a: Abra
+|-damage|p2a: Abra|10\/243 par
+|-unboost|p2a: Abra|spd|1
+|-unboost|p2a: Abra|spa|1
+|cant|p2a: Abra|par
+|
+|turn|65
+|choice|move 2|move 2
+|
+|move|p1a: Jynx|Psychic|p2a: Abra
+|-resisted|p2a: Abra
+|-damage|p2a: Abra|0 fnt
+|faint|p2a: Abra
+|choice||switch 5
+|
+|switch|p2a: Slowbro|Slowbro, L79|272\/312 slp
+|turn|66
+|choice|move 4|move 2
+|
+|move|p1a: Jynx|Mimic|p2a: Slowbro
+|-start|p1a: Jynx|Mimic|Thunder Wave
+|-curestatus|p2a: Slowbro|slp
+|
+|turn|67
+|choice|move 1|move 4
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|cant|p2a: Slowbro|slp
+|
+|turn|68
+|choice|switch 4|switch 2
+|
+|switch|p1a: Chansey|Chansey, L79|59\/557 par
+|switch|p2a: Chansey|Chansey, L79|282\/557
+|
+|turn|69
+|choice|move 1|switch 4
+|
+|switch|p2a: Jolteon|Jolteon, L79|93\/265 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|337\/557 par
+|
+|turn|70
+|choice|move 2|move 4
+|
+|move|p2a: Jolteon|Double Kick|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|263\/557 par
+|-damage|p1a: Chansey|189\/557 par
+|-hitcount|p1a: Chansey|2
+|cant|p1a: Chansey|par
+|
+|turn|71
+|choice|move 1|move 4
+|
+|move|p2a: Jolteon|Double Kick|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|107\/557 par
+|-damage|p1a: Chansey|25\/557 par
+|-hitcount|p1a: Chansey|2
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|303\/557 par
+|
+|turn|72
+|choice|move 2|move 4
+|
+|cant|p2a: Jolteon|par
+|move|p1a: Chansey|Counter|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|choice||switch 2
+|
+|switch|p2a: Slowbro|Slowbro, L79|272\/312 slp
+|turn|73
+|choice|move 3|move 2
+|
+|cant|p2a: Slowbro|slp
+|move|p1a: Chansey|Thunderbolt|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|122\/312 slp
+|
+|turn|74
+|c|★unlucky devil|frickin chansey  teams
+|c|★unlucky devil|takes forever
+|c|★Iezus|yeah
+|-message|unlucky devil forfeited.
+|
+|win|Iezus
+|player|p1
+|player|p2
+|l|unlucky devil
+|raw|Iezus's rating: 1378 &rarr; <strong>1395<\/strong><br \/>(+17 for winning)
+|raw|unlucky devil's rating: 1332 &rarr; <strong>1315<\/strong><br \/>(-17 for losing)

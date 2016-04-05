@@ -1,0 +1,400 @@
+﻿|J|teal6
+|J|stathakis
+|player|p1|teal6|102
+|player|p2|stathakis|257
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|seed|29624,20074,52578,8622
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333\/333
+|switch|p2a: Alakazam|Alakazam|313\/313
+|turn|1
+|choice|move 2|move 3
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Jynx
+|-status|p1a: Jynx|par
+|move|p1a: Jynx|Lovely Kiss|p2a: Alakazam
+|-status|p2a: Alakazam|slp
+|
+|turn|2
+|choice|move 4|move 2
+|
+|cant|p2a: Alakazam|slp
+|move|p1a: Jynx|Blizzard|p2a: Alakazam
+|-damage|p2a: Alakazam|206\/313 slp
+|
+|turn|3
+|choice|move 4|move 4
+|
+|cant|p2a: Alakazam|slp
+|move|p1a: Jynx|Blizzard|p2a: Alakazam
+|-damage|p2a: Alakazam|97\/313 slp
+|
+|turn|4
+|choice|move 4|switch 4
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Jynx|Blizzard|p2a: Chansey|[miss]
+|-miss|p1a: Jynx
+|
+|turn|5
+|J|u got spore'd
+|choice|move 1|move 4
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Jynx
+|-damage|p1a: Jynx|233\/333 par
+|move|p1a: Jynx|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|597\/703
+|
+|turn|6
+|L|u got spore'd
+|choice|move 3|move 4
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Jynx
+|-damage|p1a: Jynx|133\/333 par
+|move|p1a: Jynx|Rest|p1a: Jynx
+|-status|p1a: Jynx|slp
+|-heal|p1a: Jynx|333\/333 slp|[silent]
+|-status|p1a: Jynx|slp|[from] move: Rest
+|
+|turn|7
+|choice|switch 6|switch 6
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|switch|p1a: Chansey|Chansey|703\/703
+|
+|turn|8
+|choice|move 3|switch 6
+|
+|switch|p2a: Chansey|Chansey|597\/703
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|turn|9
+|c|★teal6|got me
+|choice|move 1|move 3
+|
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|519\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|10
+|choice|move 4|move 3
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|446\/703 par
+|move|p2a: Chansey|Reflect|p2a: Chansey
+|-start|p2a: Chansey|Reflect
+|
+|turn|11
+|J|Moony
+|choice|switch 4|move 1
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703 par
+|
+|turn|12
+|choice|move 1|move 4
+|
+|move|p1a: Snorlax|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|546\/703 par
+|move|p2a: Chansey|Seismic Toss|p1a: Snorlax
+|-damage|p1a: Snorlax|423\/523
+|
+|turn|13
+|choice|move 1|move 2
+|
+|move|p1a: Snorlax|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|403\/703 par
+|move|p2a: Chansey|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|
+|turn|14
+|J|Eon lights
+|choice|move 4|move 1
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703 par
+|move|p1a: Snorlax|Self-Destruct|p2a: Chansey
+|-damage|p2a: Chansey|281\/703 par
+|faint|p1a: Snorlax
+|choice|switch 3|
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|15
+|choice|move 4|move 2
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Chansey
+|-damage|p2a: Chansey|30\/703 par
+|move|p2a: Chansey|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|
+|turn|16
+|-mustrecharge|p1a: Tauros
+|-mustrecharge|p1a: Tauros
+|choice|move 1|move 1
+|
+|cant|p1a: Tauros|recharge
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|381\/703 par
+|
+|turn|17
+|c|★stathakis|is this chansey paralyzed
+|choice|move 1|move 1
+|
+|move|p1a: Tauros|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|256\/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|607\/703 par
+|
+|turn|18
+|c|★teal6|srsly
+|choice|move 1|move 4
+|
+|cant|p1a: Tauros|par
+|move|p2a: Chansey|Seismic Toss|p1a: Tauros
+|-damage|p1a: Tauros|253\/353 par
+|
+|turn|19
+|choice|move 1|move 4
+|
+|move|p1a: Tauros|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|469\/703 par
+|move|p2a: Chansey|Seismic Toss|p1a: Tauros
+|-damage|p1a: Tauros|153\/353 par
+|
+|turn|20
+|choice|move 1|move 1
+|
+|cant|p1a: Tauros|par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703 par
+|
+|turn|21
+|choice|move 1|move 4
+|
+|move|p1a: Tauros|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|571\/703 par
+|move|p2a: Chansey|Seismic Toss|p1a: Tauros
+|-damage|p1a: Tauros|53\/353 par
+|
+|turn|22
+|J|Time stall
+|c|★teal6|i just realized
+|c|★teal6|i can't break this
+|c|★teal6|lmao
+|choice|move 4|move 4
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Chansey
+|-damage|p2a: Chansey|333\/703 par
+|move|p2a: Chansey|Seismic Toss|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|L|Eon lights
+|choice|switch 2|
+|
+|switch|p1a: Zapdos|Zapdos|383\/383
+|turn|23
+|J|welliou
+|choice|move 3|move 1
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Chansey
+|-damage|p2a: Chansey|212\/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|563\/703 par
+|
+|turn|24
+|choice|move 3|move 4
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|98\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|25
+|c|★teal6|there we go
+|c|★stathakis|ah, it is paralyzed
+|c|★teal6|only took
+|c|★teal6|my two biggest threats
+|c|★teal6|lol
+|choice|move 3|move 1
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|L|welliou
+|choice||switch 5
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|turn|26
+|choice|switch 5|move 1
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Snorlax|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|269\/393
+|
+|turn|27
+|choice|move 4|move 1
+|
+|move|p1a: Exeggutor|Stun Spore|p2a: Snorlax|[miss]
+|-miss|p1a: Exeggutor
+|move|p2a: Snorlax|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|147\/393
+|
+|turn|28
+|choice|move 3|move 3
+|
+|move|p1a: Exeggutor|Explosion|p2a: Snorlax
+|-damage|p2a: Snorlax|209\/523
+|faint|p1a: Exeggutor
+|choice|switch 5|
+|
+|switch|p1a: Zapdos|Zapdos|383\/383
+|turn|29
+|choice|move 3|move 4
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Snorlax
+|-damage|p2a: Snorlax|101\/523
+|move|p2a: Snorlax|Self-Destruct|p1a: Zapdos
+|-damage|p1a: Zapdos|16\/383
+|faint|p2a: Snorlax
+|choice||switch 6
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|30
+|choice|switch 6|move 1
+|
+|switch|p1a: Jynx|Jynx|333\/333 slp
+|move|p2a: Tauros|Body Slam|p1a: Jynx
+|-damage|p1a: Jynx|153\/333 slp
+|
+|turn|31
+|choice|move 2|move 1
+|
+|move|p2a: Tauros|Body Slam|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|choice|switch 4|
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|turn|32
+|c|★stathakis|well
+|c|★stathakis|thx chansey
+|c|★teal6|heh
+|choice|move 3|switch 4
+|
+|switch|p2a: Alakazam|Alakazam|97\/313 slp
+|move|p1a: Chansey|Thunder Wave|p2a: Alakazam|[miss]
+|-miss|p1a: Chansey
+|
+|turn|33
+|c|★teal6|i like that set
+|c|★teal6|reflect + seismic toss
+|c|★teal6|im still pretty new to the tier
+|c|★stathakis|me 2
+|c|★teal6|so im used to just ib \/ tbolt 
+|J|DerSweeper
+|L|DerSweeper
+|c|★stathakis|i think stoss
+|c|★stathakis|is uncommon
+|c|★stathakis|it sucks because
+|c|★stathakis|you lose the chansey war
+|J|TDK
+|c|★teal6|yeah that is true
+|c|★stathakis|so you have to come in on twave
+|c|★teal6|i didnt think you would
+|c|★teal6|first turn
+|c|★stathakis|but then if you're twaved you win the chansey war
+|c|★stathakis|via pp
+|c|★teal6|yeah
+|c|★teal6|man rby is wild
+|c|★teal6|lol
+|choice|move 1|move 4
+|
+|-curestatus|p2a: Alakazam|slp
+|move|p1a: Chansey|Ice Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|39\/313
+|
+|turn|34
+|choice|move 1|move 4
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|195\/313
+|move|p1a: Chansey|Ice Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|136\/313
+|
+|turn|35
+|c|★stathakis|y
+|choice|move 3|move 4
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|292\/313
+|move|p1a: Chansey|Thunder Wave|p2a: Alakazam
+|-status|p2a: Alakazam|par
+|
+|turn|36
+|choice|move 4|move 3
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Alakazam
+|-damage|p2a: Alakazam|235\/313 par
+|cant|p2a: Alakazam|par
+|
+|turn|37
+|choice|move 4|move 3
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Alakazam
+|-damage|p2a: Alakazam|172\/313 par
+|cant|p2a: Alakazam|par
+|
+|turn|38
+|choice|move 4|move 4
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Alakazam
+|-damage|p2a: Alakazam|105\/313 par
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|261\/313 par
+|
+|turn|39
+|choice|move 4|move 3
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Alakazam
+|-damage|p2a: Alakazam|196\/313 par
+|cant|p2a: Alakazam|par
+|
+|turn|40
+|choice|move 4|move 3
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Alakazam
+|-damage|p2a: Alakazam|137\/313 par
+|move|p2a: Alakazam|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|turn|41
+|choice|move 4|move 4
+|
+|cant|p2a: Alakazam|par
+|cant|p1a: Chansey|par
+|
+|turn|42
+|choice|move 4|move 4
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|293\/313 par
+|move|p1a: Chansey|Thunderbolt|p2a: Alakazam
+|-damage|p2a: Alakazam|235\/313 par
+|
+|turn|43
+|c|★teal6|gg
+|-message|teal6 forfeited.
+|
+|win|stathakis

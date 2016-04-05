@@ -1,0 +1,1074 @@
+﻿|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|J|RainPB
+|J|Lutra
+|player|p1|RainPB|137
+|player|p2|Lutra|281
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Ubers
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333\/333
+|switch|p2a: Jynx|Jynx|333\/333
+|turn|1
+|c|★RainPB|hf
+|c|★Lutra|u2
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: Jynx
+|-status|p2a: Jynx|slp
+|cant|p2a: Jynx|slp
+|
+|turn|2
+|
+|switch|p2a: NVR SAY DIE!|Chansey|703\/703
+|switch|p1a: Mew|Mew|403\/403
+|
+|turn|3
+|
+|switch|p2a: No Warrantee|Mew|403\/403
+|move|p1a: Mew|Swords Dance|p1a: Mew
+|-boost|p1a: Mew|atk|2
+|
+|turn|4
+|
+|move|p1a: Mew|Body Slam|p2a: No Warrantee
+|-damage|p2a: No Warrantee|280\/403
+|move|p2a: No Warrantee|Thunder Wave|p1a: Mew
+|-status|p1a: Mew|par
+|
+|turn|5
+|
+|move|p2a: No Warrantee|Reflect|p2a: No Warrantee
+|-start|p2a: No Warrantee|Reflect
+|move|p1a: Mew|Body Slam|p2a: No Warrantee
+|-damage|p2a: No Warrantee|211\/403
+|
+|turn|6
+|
+|move|p2a: No Warrantee|Soft-Boiled|p2a: No Warrantee
+|-heal|p2a: No Warrantee|403\/403
+|move|p1a: Mew|Body Slam|p2a: No Warrantee
+|-crit|p2a: No Warrantee
+|-damage|p2a: No Warrantee|270\/403
+|
+|turn|7
+|
+|move|p2a: No Warrantee|Soft-Boiled|p2a: No Warrantee
+|-heal|p2a: No Warrantee|403\/403
+|move|p1a: Mew|Body Slam|p2a: No Warrantee
+|-damage|p2a: No Warrantee|335\/403
+|
+|turn|8
+|
+|move|p2a: No Warrantee|Soft-Boiled|p2a: No Warrantee
+|-heal|p2a: No Warrantee|403\/403
+|move|p1a: Mew|Body Slam|p2a: No Warrantee
+|-damage|p2a: No Warrantee|335\/403
+|-status|p2a: No Warrantee|par
+|
+|turn|9
+|
+|cant|p2a: No Warrantee|par
+|move|p1a: Mew|Body Slam|p2a: No Warrantee
+|-crit|p2a: No Warrantee
+|-damage|p2a: No Warrantee|215\/403 par
+|
+|turn|10
+|
+|move|p1a: Mew|Body Slam|p2a: No Warrantee
+|-damage|p2a: No Warrantee|152\/403 par
+|cant|p2a: No Warrantee|par
+|
+|turn|11
+|
+|cant|p1a: Mew|par
+|move|p2a: No Warrantee|Soft-Boiled|p2a: No Warrantee
+|-heal|p2a: No Warrantee|353\/403 par
+|
+|turn|12
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: No Warrantee|Soft-Boiled|p2a: No Warrantee
+|-heal|p2a: No Warrantee|403\/403 par
+|
+|turn|13
+|
+|switch|p1a: Mew|Mew|403\/403 par
+|switch|p2a: NVR SAY DIE!|Chansey|703\/703
+|
+|turn|14
+|
+|switch|p2a: HERE IT CUMZ|Slowbro|393\/393
+|move|p1a: Mew|Swords Dance|p1a: Mew
+|-boost|p1a: Mew|atk|2
+|
+|turn|15
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: HERE IT CUMZ|Amnesia|p2a: HERE IT CUMZ
+|-boost|p2a: HERE IT CUMZ|spd|2
+|-boost|p2a: HERE IT CUMZ|spa|2
+|
+|turn|16
+|
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|move|p2a: HERE IT CUMZ|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|
+|turn|17
+|
+|move|p2a: HERE IT CUMZ|Amnesia|p2a: HERE IT CUMZ
+|-boost|p2a: HERE IT CUMZ|spd|2
+|-boost|p2a: HERE IT CUMZ|spa|2
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|
+|turn|18
+|
+|move|p2a: HERE IT CUMZ|Amnesia|p2a: HERE IT CUMZ
+|-boost|p2a: HERE IT CUMZ|spd|2
+|-boost|p2a: HERE IT CUMZ|spa|2
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|
+|turn|19
+|
+|move|p2a: HERE IT CUMZ|Surf|p1a: Snorlax
+|-damage|p1a: Snorlax|397\/523 par
+|move|p1a: Snorlax|Ice Beam|p2a: HERE IT CUMZ
+|-resisted|p2a: HERE IT CUMZ
+|-damage|p2a: HERE IT CUMZ|356\/393
+|
+|turn|20
+|
+|move|p2a: HERE IT CUMZ|Surf|p1a: Snorlax
+|-damage|p1a: Snorlax|268\/523 par
+|move|p1a: Snorlax|Ice Beam|p2a: HERE IT CUMZ
+|-resisted|p2a: HERE IT CUMZ
+|-damage|p2a: HERE IT CUMZ|324\/393
+|
+|turn|21
+|
+|move|p2a: HERE IT CUMZ|Surf|p1a: Snorlax
+|-damage|p1a: Snorlax|140\/523 par
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp
+|-heal|p1a: Snorlax|523\/523 slp|[silent]
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|
+|turn|22
+|
+|move|p2a: HERE IT CUMZ|Surf|p1a: Snorlax
+|-damage|p1a: Snorlax|391\/523 slp
+|cant|p1a: Snorlax|slp
+|
+|turn|23
+|
+|move|p2a: HERE IT CUMZ|Surf|p1a: Snorlax
+|-damage|p1a: Snorlax|261\/523 slp
+|-curestatus|p1a: Snorlax|slp
+|
+|turn|24
+|
+|move|p2a: HERE IT CUMZ|Surf|p1a: Snorlax
+|-damage|p1a: Snorlax|134\/523
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp
+|-heal|p1a: Snorlax|523\/523 slp|[silent]
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|
+|turn|25
+|
+|move|p2a: HERE IT CUMZ|Surf|p1a: Snorlax
+|-damage|p1a: Snorlax|394\/523 slp
+|cant|p1a: Snorlax|slp
+|
+|turn|26
+|
+|switch|p2a: NVR SAY DIE!|Chansey|703\/703
+|-curestatus|p1a: Snorlax|slp
+|
+|turn|27
+|
+|move|p2a: NVR SAY DIE!|Seismic Toss|p1a: Snorlax
+|-damage|p1a: Snorlax|294\/523
+|move|p1a: Snorlax|Body Slam|p2a: NVR SAY DIE!
+|-damage|p2a: NVR SAY DIE!|388\/703
+|
+|turn|28
+|
+|move|p2a: NVR SAY DIE!|Soft-Boiled|p2a: NVR SAY DIE!
+|-heal|p2a: NVR SAY DIE!|703\/703
+|move|p1a: Snorlax|Body Slam|p2a: NVR SAY DIE!
+|-damage|p2a: NVR SAY DIE!|409\/703
+|
+|turn|29
+|
+|move|p2a: NVR SAY DIE!|Soft-Boiled|p2a: NVR SAY DIE!
+|-heal|p2a: NVR SAY DIE!|703\/703
+|move|p1a: Snorlax|Body Slam|p2a: NVR SAY DIE!
+|-damage|p2a: NVR SAY DIE!|416\/703
+|
+|turn|30
+|
+|move|p2a: NVR SAY DIE!|Soft-Boiled|p2a: NVR SAY DIE!
+|-heal|p2a: NVR SAY DIE!|703\/703
+|move|p1a: Snorlax|Body Slam|p2a: NVR SAY DIE!
+|-damage|p2a: NVR SAY DIE!|418\/703
+|
+|turn|31
+|
+|move|p2a: NVR SAY DIE!|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|move|p1a: Snorlax|Body Slam|p2a: NVR SAY DIE!
+|-damage|p2a: NVR SAY DIE!|116\/703
+|
+|turn|32
+|
+|move|p2a: NVR SAY DIE!|Soft-Boiled|p2a: NVR SAY DIE!
+|-heal|p2a: NVR SAY DIE!|467\/703
+|move|p1a: Snorlax|Ice Beam|p2a: NVR SAY DIE!
+|-damage|p2a: NVR SAY DIE!|238\/703
+|
+|turn|33
+|J|Patient Love
+|
+|move|p2a: NVR SAY DIE!|Soft-Boiled|p2a: NVR SAY DIE!
+|-heal|p2a: NVR SAY DIE!|589\/703
+|move|p1a: Snorlax|Ice Beam|p2a: NVR SAY DIE!
+|-damage|p2a: NVR SAY DIE!|380\/703
+|
+|turn|34
+|
+|move|p2a: NVR SAY DIE!|Light Screen|p2a: NVR SAY DIE!
+|-start|p2a: NVR SAY DIE!|Light Screen
+|move|p1a: Snorlax|Ice Beam|p2a: NVR SAY DIE!
+|-damage|p2a: NVR SAY DIE!|270\/703
+|
+|turn|35
+|
+|move|p2a: NVR SAY DIE!|Soft-Boiled|p2a: NVR SAY DIE!
+|-heal|p2a: NVR SAY DIE!|621\/703
+|move|p1a: Snorlax|Ice Beam|p2a: NVR SAY DIE!
+|-damage|p2a: NVR SAY DIE!|504\/703
+|
+|turn|36
+|
+|move|p2a: NVR SAY DIE!|Seismic Toss|p1a: Snorlax
+|-damage|p1a: Snorlax|194\/523 par
+|move|p1a: Snorlax|Ice Beam|p2a: NVR SAY DIE!
+|-damage|p2a: NVR SAY DIE!|384\/703
+|
+|turn|37
+|
+|move|p2a: NVR SAY DIE!|Soft-Boiled|p2a: NVR SAY DIE!
+|-heal|p2a: NVR SAY DIE!|703\/703
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp
+|-heal|p1a: Snorlax|523\/523 slp|[silent]
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|
+|turn|38
+|
+|move|p2a: NVR SAY DIE!|Seismic Toss|p1a: Snorlax
+|-damage|p1a: Snorlax|423\/523 slp
+|cant|p1a: Snorlax|slp
+|
+|turn|39
+|
+|move|p2a: NVR SAY DIE!|Seismic Toss|p1a: Snorlax
+|-damage|p1a: Snorlax|323\/523 slp
+|-curestatus|p1a: Snorlax|slp
+|
+|turn|40
+|
+|move|p2a: NVR SAY DIE!|Seismic Toss|p1a: Snorlax
+|-damage|p1a: Snorlax|223\/523
+|move|p1a: Snorlax|Ice Beam|p2a: NVR SAY DIE!
+|-damage|p2a: NVR SAY DIE!|599\/703
+|
+|turn|41
+|
+|move|p2a: NVR SAY DIE!|Seismic Toss|p1a: Snorlax
+|-damage|p1a: Snorlax|123\/523
+|move|p1a: Snorlax|Body Slam|p2a: NVR SAY DIE!
+|-damage|p2a: NVR SAY DIE!|331\/703
+|
+|turn|42
+|
+|move|p2a: NVR SAY DIE!|Soft-Boiled|p2a: NVR SAY DIE!
+|-heal|p2a: NVR SAY DIE!|682\/703
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp
+|-heal|p1a: Snorlax|523\/523 slp|[silent]
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|
+|turn|43
+|
+|move|p2a: NVR SAY DIE!|Seismic Toss|p1a: Snorlax
+|-damage|p1a: Snorlax|423\/523 slp
+|cant|p1a: Snorlax|slp
+|
+|turn|44
+|
+|move|p2a: NVR SAY DIE!|Seismic Toss|p1a: Snorlax
+|-damage|p1a: Snorlax|323\/523 slp
+|-curestatus|p1a: Snorlax|slp
+|
+|turn|45
+|
+|move|p2a: NVR SAY DIE!|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|cant|p1a: Snorlax|par
+|
+|turn|46
+|
+|move|p2a: NVR SAY DIE!|Seismic Toss|p1a: Snorlax
+|-damage|p1a: Snorlax|223\/523 par
+|move|p1a: Snorlax|Ice Beam|p2a: NVR SAY DIE!
+|-damage|p2a: NVR SAY DIE!|570\/703
+|
+|turn|47
+|
+|move|p2a: NVR SAY DIE!|Seismic Toss|p1a: Snorlax
+|-damage|p1a: Snorlax|123\/523 par
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp
+|-heal|p1a: Snorlax|523\/523 slp|[silent]
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|
+|turn|48
+|
+|move|p2a: NVR SAY DIE!|Seismic Toss|p1a: Snorlax
+|-damage|p1a: Snorlax|423\/523 slp
+|cant|p1a: Snorlax|slp
+|
+|turn|49
+|
+|move|p2a: NVR SAY DIE!|Seismic Toss|p1a: Snorlax
+|-damage|p1a: Snorlax|323\/523 slp
+|-curestatus|p1a: Snorlax|slp
+|
+|turn|50
+|
+|move|p2a: NVR SAY DIE!|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|move|p1a: Snorlax|Ice Beam|p2a: NVR SAY DIE!
+|-damage|p2a: NVR SAY DIE!|461\/703
+|
+|turn|51
+|
+|move|p2a: NVR SAY DIE!|Soft-Boiled|p2a: NVR SAY DIE!
+|-heal|p2a: NVR SAY DIE!|703\/703
+|move|p1a: Snorlax|Ice Beam|p2a: NVR SAY DIE!
+|-damage|p2a: NVR SAY DIE!|592\/703
+|-status|p2a: NVR SAY DIE!|frz
+|
+|turn|52
+|
+|switch|p2a: No Warrantee|Mew|403\/403 par
+|move|p1a: Snorlax|Ice Beam|p2a: No Warrantee
+|-damage|p2a: No Warrantee|168\/403 par
+|
+|turn|53
+|
+|switch|p2a: Bonehead|Mewtwo|415\/415
+|cant|p1a: Snorlax|par
+|
+|turn|54
+|
+|move|p2a: Bonehead|Amnesia|p2a: Bonehead
+|-boost|p2a: Bonehead|spd|2
+|-boost|p2a: Bonehead|spa|2
+|move|p1a: Snorlax|Ice Beam|p2a: Bonehead
+|-damage|p2a: Bonehead|337\/415
+|
+|turn|55
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Bonehead|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|420\/703
+|
+|turn|56
+|
+|move|p2a: Bonehead|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|128\/703
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|479\/703
+|
+|turn|57
+|
+|move|p2a: Bonehead|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|196\/703
+|move|p1a: Chansey|Thunder Wave|p2a: Bonehead
+|-status|p2a: Bonehead|par
+|
+|turn|58
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|547\/703
+|move|p2a: Bonehead|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|262\/703
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|
+|turn|59
+|
+|move|p1a: Chansey|Light Screen|p1a: Chansey
+|-start|p1a: Chansey|Light Screen
+|cant|p2a: Bonehead|par
+|
+|turn|60
+|
+|switch|p1a: Mewtwo|Mewtwo|415\/415
+|cant|p2a: Bonehead|par
+|
+|turn|61
+|
+|move|p1a: Mewtwo|Amnesia|p1a: Mewtwo
+|-boost|p1a: Mewtwo|spd|2
+|-boost|p1a: Mewtwo|spa|2
+|cant|p2a: Bonehead|par
+|
+|turn|62
+|
+|move|p1a: Mewtwo|Amnesia|p1a: Mewtwo
+|-boost|p1a: Mewtwo|spd|2
+|-boost|p1a: Mewtwo|spa|2
+|move|p2a: Bonehead|Ice Beam|p1a: Mewtwo
+|-damage|p1a: Mewtwo|356\/415
+|
+|turn|63
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Bonehead
+|-damage|p2a: Bonehead|245\/415 par
+|move|p2a: Bonehead|Ice Beam|p1a: Mewtwo
+|-damage|p1a: Mewtwo|290\/415
+|
+|turn|64
+|
+|move|p1a: Mewtwo|Amnesia|p1a: Mewtwo
+|-boost|p1a: Mewtwo|spd|2
+|-boost|p1a: Mewtwo|spa|2
+|move|p2a: Bonehead|Recover|p2a: Bonehead
+|-heal|p2a: Bonehead|415\/415 par
+|
+|turn|65
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Bonehead
+|-damage|p2a: Bonehead|327\/415 par
+|move|p2a: Bonehead|Amnesia|p2a: Bonehead
+|-boost|p2a: Bonehead|spd|2
+|-boost|p2a: Bonehead|spa|2
+|
+|turn|66
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Bonehead
+|-damage|p2a: Bonehead|247\/415 par
+|move|p2a: Bonehead|Recover|p2a: Bonehead
+|-heal|p2a: Bonehead|415\/415 par
+|
+|turn|67
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Bonehead
+|-damage|p2a: Bonehead|336\/415 par
+|cant|p2a: Bonehead|par
+|
+|turn|68
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Bonehead
+|-damage|p2a: Bonehead|257\/415 par
+|cant|p2a: Bonehead|par
+|
+|turn|69
+|
+|move|p1a: Mewtwo|Ice Beam|p2a: Bonehead
+|-damage|p2a: Bonehead|185\/415 par
+|cant|p2a: Bonehead|par
+|
+|turn|70
+|
+|move|p1a: Mewtwo|Ice Beam|p2a: Bonehead
+|-damage|p2a: Bonehead|110\/415 par
+|move|p2a: Bonehead|Recover|p2a: Bonehead
+|-heal|p2a: Bonehead|317\/415 par
+|
+|turn|71
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Bonehead
+|-crit|p2a: Bonehead
+|-damage|p2a: Bonehead|183\/415 par
+|move|p2a: Bonehead|Recover|p2a: Bonehead
+|-heal|p2a: Bonehead|390\/415 par
+|
+|turn|72
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Bonehead
+|-damage|p2a: Bonehead|314\/415 par
+|move|p2a: Bonehead|Ice Beam|p1a: Mewtwo
+|-damage|p1a: Mewtwo|211\/415
+|
+|turn|73
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Bonehead
+|-damage|p2a: Bonehead|240\/415 par
+|move|p2a: Bonehead|Recover|p2a: Bonehead
+|-heal|p2a: Bonehead|415\/415 par
+|
+|turn|74
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Bonehead
+|-damage|p2a: Bonehead|345\/415 par
+|move|p2a: Bonehead|Ice Beam|p1a: Mewtwo
+|-damage|p1a: Mewtwo|133\/415
+|
+|turn|75
+|
+|move|p1a: Mewtwo|Recover|p1a: Mewtwo
+|-heal|p1a: Mewtwo|340\/415
+|move|p2a: Bonehead|Ice Beam|p1a: Mewtwo
+|-crit|p1a: Mewtwo
+|-damage|p1a: Mewtwo|185\/415
+|
+|turn|76
+|
+|move|p1a: Mewtwo|Recover|p1a: Mewtwo
+|-heal|p1a: Mewtwo|392\/415
+|cant|p2a: Bonehead|par
+|
+|turn|77
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Bonehead
+|-damage|p2a: Bonehead|276\/415 par
+|move|p2a: Bonehead|Recover|p2a: Bonehead
+|-heal|p2a: Bonehead|415\/415 par
+|
+|turn|78
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Bonehead
+|-damage|p2a: Bonehead|338\/415 par
+|move|p2a: Bonehead|Ice Beam|p1a: Mewtwo
+|-damage|p1a: Mewtwo|313\/415
+|
+|turn|79
+|
+|move|p1a: Mewtwo|Ice Beam|p2a: Bonehead
+|-damage|p2a: Bonehead|264\/415 par
+|move|p2a: Bonehead|Ice Beam|p1a: Mewtwo
+|-damage|p1a: Mewtwo|237\/415
+|
+|turn|80
+|
+|move|p1a: Mewtwo|Ice Beam|p2a: Bonehead
+|-damage|p2a: Bonehead|185\/415 par
+|cant|p2a: Bonehead|par
+|
+|turn|81
+|
+|move|p1a: Mewtwo|Ice Beam|p2a: Bonehead
+|-damage|p2a: Bonehead|107\/415 par
+|move|p2a: Bonehead|Recover|p2a: Bonehead
+|-heal|p2a: Bonehead|314\/415 par
+|
+|turn|82
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Bonehead
+|-damage|p2a: Bonehead|245\/415 par
+|move|p2a: Bonehead|Recover|p2a: Bonehead
+|-heal|p2a: Bonehead|415\/415 par
+|
+|turn|83
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Bonehead
+|-damage|p2a: Bonehead|338\/415 par
+|move|p2a: Bonehead|Ice Beam|p1a: Mewtwo
+|-damage|p1a: Mewtwo|157\/415
+|
+|turn|84
+|
+|move|p1a: Mewtwo|Recover|p1a: Mewtwo
+|-heal|p1a: Mewtwo|364\/415
+|cant|p2a: Bonehead|par
+|
+|turn|85
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Bonehead
+|-crit|p2a: Bonehead
+|-damage|p2a: Bonehead|188\/415 par
+|move|p2a: Bonehead|Recover|p2a: Bonehead
+|-heal|p2a: Bonehead|395\/415 par
+|
+|turn|86
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Bonehead
+|-damage|p2a: Bonehead|315\/415 par
+|move|p2a: Bonehead|Recover|p2a: Bonehead
+|-heal|p2a: Bonehead|415\/415 par
+|
+|turn|87
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Bonehead
+|-damage|p2a: Bonehead|336\/415 par
+|move|p2a: Bonehead|Recover|p2a: Bonehead
+|-heal|p2a: Bonehead|415\/415 par
+|
+|turn|88
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Bonehead
+|-damage|p2a: Bonehead|345\/415 par
+|move|p2a: Bonehead|Ice Beam|p1a: Mewtwo
+|-damage|p1a: Mewtwo|296\/415
+|
+|turn|89
+|
+|move|p1a: Mewtwo|Ice Beam|p2a: Bonehead
+|-damage|p2a: Bonehead|272\/415 par
+|move|p2a: Bonehead|Recover|p2a: Bonehead
+|-heal|p2a: Bonehead|415\/415 par
+|
+|turn|90
+|
+|move|p1a: Mewtwo|Ice Beam|p2a: Bonehead
+|-crit|p2a: Bonehead
+|-damage|p2a: Bonehead|270\/415 par
+|move|p2a: Bonehead|Ice Beam|p1a: Mewtwo
+|-crit|p1a: Mewtwo
+|-damage|p1a: Mewtwo|152\/415
+|
+|turn|91
+|
+|move|p1a: Mewtwo|Recover|p1a: Mewtwo
+|-heal|p1a: Mewtwo|359\/415
+|move|p2a: Bonehead|Recover|p2a: Bonehead
+|-heal|p2a: Bonehead|415\/415 par
+|
+|turn|92
+|
+|move|p1a: Mewtwo|Ice Beam|p2a: Bonehead
+|-damage|p2a: Bonehead|345\/415 par
+|move|p2a: Bonehead|Recover|p2a: Bonehead
+|-heal|p2a: Bonehead|415\/415 par
+|
+|turn|93
+|
+|move|p1a: Mewtwo|Ice Beam|p2a: Bonehead
+|-damage|p2a: Bonehead|345\/415 par
+|move|p2a: Bonehead|Ice Beam|p1a: Mewtwo
+|-crit|p1a: Mewtwo
+|-damage|p1a: Mewtwo|218\/415
+|-status|p1a: Mewtwo|frz
+|
+|turn|94
+|
+|switch|p1a: Slowbro|Slowbro|393\/393
+|move|p2a: Bonehead|Psychic|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|205\/393
+|-unboost|p1a: Slowbro|spd|1
+|-unboost|p1a: Slowbro|spa|1
+|
+|turn|95
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|move|p2a: Bonehead|Psychic|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|63\/393
+|
+|turn|96
+|
+|move|p1a: Slowbro|Rest|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|-heal|p1a: Slowbro|393\/393 slp|[silent]
+|-status|p1a: Slowbro|slp|[from] move: Rest
+|move|p2a: Bonehead|Psychic|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|262\/393 slp
+|
+|turn|97
+|
+|cant|p1a: Slowbro|slp
+|move|p2a: Bonehead|Psychic|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|122\/393 slp
+|-unboost|p1a: Slowbro|spd|1
+|-unboost|p1a: Slowbro|spa|1
+|
+|turn|98
+|
+|-curestatus|p1a: Slowbro|slp
+|move|p2a: Bonehead|Psychic|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|
+|switch|p1a: Snorlax|Snorlax|323\/523 par
+|turn|99
+|
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|move|p2a: Bonehead|Psychic|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|switch|p1a: Mew|Mew|403\/403 par
+|turn|100
+|
+|move|p1a: Mew|Transform|p2a: Bonehead
+|-transform|p1a: Mew|p2a: Bonehead
+|move|p2a: Bonehead|Ice Beam|p1a: Mew
+|-crit|p1a: Mew
+|-damage|p1a: Mew|246\/403 par
+|
+|turn|101
+|
+|switch|p2a: HERE IT CUMZ|Slowbro|324\/393
+|cant|p1a: Mew|par
+|
+|turn|102
+|
+|move|p2a: HERE IT CUMZ|Amnesia|p2a: HERE IT CUMZ
+|-boost|p2a: HERE IT CUMZ|spd|2
+|-boost|p2a: HERE IT CUMZ|spa|2
+|move|p1a: Mew|Psychic|p2a: HERE IT CUMZ
+|-resisted|p2a: HERE IT CUMZ
+|-damage|p2a: HERE IT CUMZ|296\/393
+|
+|turn|103
+|
+|move|p2a: HERE IT CUMZ|Amnesia|p2a: HERE IT CUMZ
+|-boost|p2a: HERE IT CUMZ|spd|2
+|-boost|p2a: HERE IT CUMZ|spa|2
+|cant|p1a: Mew|par
+|
+|turn|104
+|
+|switch|p1a: Chansey|Chansey|262\/703
+|move|p2a: HERE IT CUMZ|Amnesia|p2a: HERE IT CUMZ
+|-boost|p2a: HERE IT CUMZ|spd|2
+|-boost|p2a: HERE IT CUMZ|spa|2
+|
+|turn|105
+|
+|move|p1a: Chansey|Thunder Wave|p2a: HERE IT CUMZ
+|-status|p2a: HERE IT CUMZ|par
+|cant|p2a: HERE IT CUMZ|par
+|
+|turn|106
+|
+|move|p1a: Chansey|Light Screen|p1a: Chansey
+|-start|p1a: Chansey|Light Screen
+|move|p2a: HERE IT CUMZ|Surf|p1a: Chansey
+|-damage|p1a: Chansey|91\/703
+|
+|turn|107
+|
+|switch|p2a: The Sleeper|Exeggutor|393\/393
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|442\/703
+|
+|turn|108
+|
+|move|p2a: The Sleeper|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|379\/703
+|move|p1a: Chansey|Ice Beam|p2a: The Sleeper
+|-supereffective|p2a: The Sleeper
+|-damage|p2a: The Sleeper|255\/393
+|
+|turn|109
+|
+|switch|p1a: Mewtwo|Mewtwo|218\/415 frz
+|move|p2a: The Sleeper|Sleep Powder|p1a: Mewtwo
+|-fail|p1a: Mewtwo
+|
+|turn|110
+|
+|switch|p1a: Jynx|Jynx|333\/333
+|switch|p2a: Bonehead|Mewtwo|345\/415 par
+|
+|turn|111
+|
+|move|p1a: Jynx|Mimic|p2a: Bonehead
+|-start|p1a: Jynx|Mimic|Ice Beam
+|move|p2a: Bonehead|Amnesia|p2a: Bonehead
+|-boost|p2a: Bonehead|spd|2
+|-boost|p2a: Bonehead|spa|2
+|
+|turn|112
+|
+|move|p1a: Jynx|Ice Beam|p2a: Bonehead
+|-damage|p2a: Bonehead|302\/415 par
+|move|p2a: Bonehead|Psychic|p1a: Jynx
+|-crit|p1a: Jynx
+|-resisted|p1a: Jynx
+|-damage|p1a: Jynx|199\/333
+|
+|turn|113
+|
+|switch|p1a: Chansey|Chansey|379\/703
+|move|p2a: Bonehead|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|101\/703
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|
+|turn|114
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|452\/703
+|move|p2a: Bonehead|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|5\/703
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|
+|turn|115
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|356\/703
+|move|p2a: Bonehead|Psychic|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|91\/703
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|
+|turn|116
+|
+|switch|p1a: Mewtwo|Mewtwo|218\/415 frz
+|move|p2a: Bonehead|Ice Beam|p1a: Mewtwo
+|-damage|p1a: Mewtwo|58\/415 frz
+|
+|turn|117
+|
+|switch|p1a: Mew|Mew|246\/403 par
+|move|p2a: Bonehead|Recover|p2a: Bonehead
+|-heal|p2a: Bonehead|415\/415 par
+|
+|turn|118
+|
+|move|p2a: Bonehead|Ice Beam|p1a: Mew
+|-damage|p1a: Mew|53\/403 par
+|move|p1a: Mew|Transform|p2a: Bonehead
+|-transform|p1a: Mew|p2a: Bonehead
+|
+|turn|119
+|
+|cant|p2a: Bonehead|par
+|move|p1a: Mew|Recover|p1a: Mew
+|-heal|p1a: Mew|254\/403 par
+|
+|turn|120
+|
+|cant|p2a: Bonehead|par
+|cant|p1a: Mew|par
+|
+|turn|121
+|
+|switch|p2a: HERE IT CUMZ|Slowbro|296\/393 par
+|move|p1a: Mew|Recover|p1a: Mew
+|-heal|p1a: Mew|403\/403 par
+|
+|turn|122
+|
+|switch|p1a: Jynx|Jynx|199\/333
+|move|p2a: HERE IT CUMZ|Amnesia|p2a: HERE IT CUMZ
+|-boost|p2a: HERE IT CUMZ|spd|2
+|-boost|p2a: HERE IT CUMZ|spa|2
+|
+|turn|123
+|
+|move|p1a: Jynx|Mimic|p2a: HERE IT CUMZ
+|-start|p1a: Jynx|Mimic|Amnesia
+|move|p2a: HERE IT CUMZ|Rest|p2a: HERE IT CUMZ
+|-status|p2a: HERE IT CUMZ|slp
+|-heal|p2a: HERE IT CUMZ|393\/393 slp|[silent]
+|-status|p2a: HERE IT CUMZ|slp|[from] move: Rest
+|
+|turn|124
+|
+|switch|p1a: Chansey|Chansey|91\/703
+|cant|p2a: HERE IT CUMZ|slp
+|
+|turn|125
+|
+|switch|p2a: The Sleeper|Exeggutor|255\/393
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|442\/703
+|
+|turn|126
+|
+|move|p2a: The Sleeper|Sleep Powder|p1a: Chansey
+|-status|p1a: Chansey|slp
+|cant|p1a: Chansey|slp
+|
+|turn|127
+|
+|move|p2a: The Sleeper|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|317\/703 slp
+|cant|p1a: Chansey|slp
+|
+|turn|128
+|
+|switch|p1a: Jynx|Jynx|199\/333
+|move|p2a: The Sleeper|Psychic|p1a: Jynx
+|-resisted|p1a: Jynx
+|-damage|p1a: Jynx|130\/333
+|
+|turn|129
+|
+|switch|p2a: HERE IT CUMZ|Slowbro|393\/393 slp
+|move|p1a: Jynx|Ice Beam|p2a: HERE IT CUMZ
+|-crit|p2a: HERE IT CUMZ
+|-resisted|p2a: HERE IT CUMZ
+|-damage|p2a: HERE IT CUMZ|263\/393 slp
+|
+|turn|130
+|
+|move|p1a: Jynx|Mimic|p2a: HERE IT CUMZ
+|-start|p1a: Jynx|Mimic|Thunder Wave
+|-curestatus|p2a: HERE IT CUMZ|slp
+|
+|turn|131
+|
+|move|p1a: Jynx|Thunder Wave|p2a: HERE IT CUMZ
+|-status|p2a: HERE IT CUMZ|par
+|move|p2a: HERE IT CUMZ|Thunder Wave|p1a: Jynx
+|-status|p1a: Jynx|par
+|
+|turn|132
+|
+|move|p1a: Jynx|Rest|p1a: Jynx
+|-status|p1a: Jynx|slp
+|-heal|p1a: Jynx|333\/333 slp|[silent]
+|-status|p1a: Jynx|slp|[from] move: Rest
+|move|p2a: HERE IT CUMZ|Amnesia|p2a: HERE IT CUMZ
+|-boost|p2a: HERE IT CUMZ|spd|2
+|-boost|p2a: HERE IT CUMZ|spa|2
+|
+|turn|133
+|
+|cant|p1a: Jynx|slp
+|move|p2a: HERE IT CUMZ|Rest|p2a: HERE IT CUMZ
+|-status|p2a: HERE IT CUMZ|slp
+|-heal|p2a: HERE IT CUMZ|393\/393 slp|[silent]
+|-status|p2a: HERE IT CUMZ|slp|[from] move: Rest
+|
+|turn|134
+|
+|switch|p1a: Mew|Mew|403\/403 par
+|cant|p2a: HERE IT CUMZ|slp
+|
+|turn|135
+|
+|move|p1a: Mew|Swords Dance|p1a: Mew
+|-boost|p1a: Mew|atk|2
+|-curestatus|p2a: HERE IT CUMZ|slp
+|
+|turn|136
+|
+|move|p1a: Mew|Body Slam|p2a: HERE IT CUMZ
+|-damage|p2a: HERE IT CUMZ|267\/393
+|move|p2a: HERE IT CUMZ|Surf|p1a: Mew
+|-damage|p1a: Mew|213\/403 par
+|
+|turn|137
+|
+|move|p1a: Mew|Body Slam|p2a: HERE IT CUMZ
+|-damage|p2a: HERE IT CUMZ|139\/393
+|move|p2a: HERE IT CUMZ|Surf|p1a: Mew
+|-damage|p1a: Mew|9\/403 par
+|
+|turn|138
+|
+|switch|p2a: The Sleeper|Exeggutor|255\/393
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|210\/403 par
+|
+|turn|139
+|
+|switch|p1a: Mewtwo|Mewtwo|58\/415 frz
+|move|p2a: The Sleeper|Explosion|p1a: Mewtwo
+|-damage|p1a: Mewtwo|0 fnt
+|faint|p1a: Mewtwo
+|faint|p2a: The Sleeper
+|
+|switch|p2a: HERE IT CUMZ|Slowbro|139\/393
+|switch|p1a: Mew|Mew|210\/403 par
+|turn|140
+|
+|move|p2a: HERE IT CUMZ|Amnesia|p2a: HERE IT CUMZ
+|-boost|p2a: HERE IT CUMZ|spd|2
+|-boost|p2a: HERE IT CUMZ|spa|2
+|cant|p1a: Mew|par
+|
+|turn|141
+|
+|move|p2a: HERE IT CUMZ|Surf|p1a: Mew
+|-damage|p1a: Mew|4\/403 par
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|205\/403 par
+|
+|turn|142
+|
+|switch|p1a: Chansey|Chansey|317\/703 slp
+|move|p2a: HERE IT CUMZ|Surf|p1a: Chansey
+|-damage|p1a: Chansey|138\/703 slp
+|
+|turn|143
+|
+|cant|p1a: Chansey|slp
+|move|p2a: HERE IT CUMZ|Surf|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|switch|p1a: Mew|Mew|205\/403 par
+|turn|144
+|
+|move|p2a: HERE IT CUMZ|Surf|p1a: Mew
+|-damage|p1a: Mew|4\/403 par
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|205\/403 par
+|
+|turn|145
+|
+|move|p2a: HERE IT CUMZ|Surf|p1a: Mew
+|-damage|p1a: Mew|22\/403 par
+|cant|p1a: Mew|par
+|
+|turn|146
+|
+|move|p2a: HERE IT CUMZ|Surf|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|switch|p1a: Jynx|Jynx|333\/333 slp
+|turn|147
+|
+|-curestatus|p1a: Jynx|slp
+|move|p2a: HERE IT CUMZ|Surf|p1a: Jynx
+|-damage|p1a: Jynx|126\/333
+|
+|turn|148
+|
+|move|p1a: Jynx|Ice Beam|p2a: HERE IT CUMZ
+|-crit|p2a: HERE IT CUMZ
+|-resisted|p2a: HERE IT CUMZ
+|-damage|p2a: HERE IT CUMZ|16\/393
+|-message|Freeze Clause activated.
+|move|p2a: HERE IT CUMZ|Surf|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|
+|win|Lutra

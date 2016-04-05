@@ -1,0 +1,588 @@
+﻿|J|SoulWind
+|J|Dice
+|player|p1|SoulWind|167
+|player|p2|Dice|168
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|seed|38574,23399,39350,59737
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|1
+|choice|move 1|switch 4
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|574\/703
+|
+|turn|2
+|choice|move 1|move 2
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|323\/703
+|move|p2a: Chansey|Ice Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|255\/313
+|
+|turn|3
+|J|tamahome
+|J|BKC
+|J|reymaki
+|choice|switch 4|move 1
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|674\/703
+|
+|turn|4
+|choice|move 3|move 4
+|
+|move|p2a: Chansey|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|cant|p1a: Snorlax|par
+|
+|turn|5
+|J|NinePhiro
+|choice|move 2|move 2
+|
+|move|p2a: Chansey|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|421\/523 par
+|move|p1a: Snorlax|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|380\/703
+|
+|turn|6
+|choice|move 2|move 1
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703
+|move|p1a: Snorlax|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|428\/703
+|
+|turn|7
+|choice|move 2|move 1
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703
+|move|p1a: Snorlax|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|427\/703
+|
+|turn|8
+|choice|move 2|move 1
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703
+|move|p1a: Snorlax|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|391\/703
+|
+|turn|9
+|choice|move 2|move 1
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703
+|move|p1a: Snorlax|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|418\/703
+|
+|turn|10
+|choice|move 2|move 1
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703
+|move|p1a: Snorlax|Body Slam|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|129\/703
+|
+|turn|11
+|choice|move 2|move 1
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|480\/703
+|move|p1a: Snorlax|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|182\/703
+|
+|turn|12
+|choice|move 2|move 1
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|533\/703
+|move|p1a: Snorlax|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|247\/703
+|
+|turn|13
+|choice|move 2|move 1
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|598\/703
+|move|p1a: Snorlax|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|323\/703
+|
+|turn|14
+|choice|move 2|move 1
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|674\/703
+|cant|p1a: Snorlax|par
+|
+|turn|15
+|J|breh
+|choice|move 1|switch 6
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|cant|p1a: Snorlax|par
+|
+|turn|16
+|choice|switch 6|move 1
+|
+|switch|p1a: Cloyster|Cloyster|303\/303
+|move|p2a: Snorlax|Body Slam|p1a: Cloyster
+|-damage|p1a: Cloyster|237\/303
+|
+|turn|17
+|choice|move 2|switch 3
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|move|p1a: Cloyster|Clamp|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|303\/323
+|-activate|p2a: Starmie|move: Clamp|[of] p1a: Cloyster
+|
+|turn|18
+|L|reymaki
+|choice|move 2|move 1
+|
+|cant|p2a: Starmie|partiallytrapped
+|move|p1a: Cloyster|Clamp|p2a: Starmie
+|-damage|p2a: Starmie|283\/323
+|
+|-end|p2a: Starmie|Clamp|[partiallytrapped]
+|turn|19
+|choice|switch 3|move 1
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Starmie|Blizzard|p1a: Chansey|[miss]
+|-miss|p2a: Starmie
+|
+|turn|20
+|choice|switch 3|switch 6
+|
+|switch|p2a: Chansey|Chansey|674\/703
+|switch|p1a: Cloyster|Cloyster|237\/303
+|
+|turn|21
+|choice|move 2|switch 6
+|
+|switch|p2a: Starmie|Starmie|283\/323
+|move|p1a: Cloyster|Clamp|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|265\/323
+|-activate|p2a: Starmie|move: Clamp|[of] p1a: Cloyster
+|
+|turn|22
+|choice|move 2|move 2
+|
+|cant|p2a: Starmie|partiallytrapped
+|move|p1a: Cloyster|Clamp|p2a: Starmie
+|-damage|p2a: Starmie|247\/323
+|
+|turn|23
+|choice|move 2|move 2
+|
+|cant|p2a: Starmie|partiallytrapped
+|move|p1a: Cloyster|Clamp|p2a: Starmie
+|-damage|p2a: Starmie|229\/323
+|
+|-end|p2a: Starmie|Clamp|[partiallytrapped]
+|turn|24
+|choice|switch 4|move 2
+|
+|switch|p1a: Alakazam|Alakazam|255\/313
+|move|p2a: Starmie|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|216\/313
+|
+|turn|25
+|choice|move 1|move 3
+|
+|move|p1a: Alakazam|Psychic|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|161\/323
+|move|p2a: Starmie|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|
+|turn|26
+|choice|move 4|move 4
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|322\/323
+|move|p1a: Alakazam|Thunder Wave|p2a: Starmie
+|-status|p2a: Starmie|par
+|
+|turn|27
+|choice|move 3|switch 3
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Alakazam|Seismic Toss|p2a: Snorlax
+|-damage|p2a: Snorlax|423\/523
+|
+|turn|28
+|choice|switch 4|move 1
+|
+|switch|p1a: Cloyster|Cloyster|237\/303
+|move|p2a: Snorlax|Body Slam|p1a: Cloyster
+|-damage|p1a: Cloyster|168\/303
+|
+|turn|29
+|choice|move 2|switch 3
+|
+|switch|p2a: Starmie|Starmie|322\/323 par
+|move|p1a: Cloyster|Clamp|p2a: Starmie
+|-crit|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|288\/323 par
+|-activate|p2a: Starmie|move: Clamp|[of] p1a: Cloyster
+|
+|turn|30
+|choice|move 2|move 2
+|
+|move|p1a: Cloyster|Clamp|p2a: Starmie
+|-damage|p2a: Starmie|254\/323 par
+|cant|p2a: Starmie|par
+|
+|turn|31
+|choice|move 2|move 2
+|
+|move|p1a: Cloyster|Clamp|p2a: Starmie
+|-damage|p2a: Starmie|220\/323 par
+|cant|p2a: Starmie|partiallytrapped
+|
+|-end|p2a: Starmie|Clamp|[partiallytrapped]
+|turn|32
+|choice|move 3|move 2
+|
+|move|p1a: Cloyster|Explosion|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|faint|p1a: Cloyster
+|choice|switch 4|switch 4
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|switch|p1a: Alakazam|Alakazam|216\/313 par
+|turn|33
+|choice|move 1|switch 6
+|
+|switch|p2a: Chansey|Chansey|674\/703
+|cant|p1a: Alakazam|par
+|
+|turn|34
+|choice|move 2|move 2
+|
+|move|p2a: Chansey|Ice Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|148\/313 par
+|cant|p1a: Alakazam|par
+|
+|turn|35
+|choice|move 2|switch 3
+|
+|switch|p2a: Snorlax|Snorlax|423\/523
+|cant|p1a: Alakazam|par
+|
+|turn|36
+|choice|switch 3|move 1
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Snorlax|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|407\/703
+|
+|turn|37
+|choice|move 4|move 4
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|move|p2a: Snorlax|Self-Destruct|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|faint|p2a: Snorlax
+|choice|switch 3|switch 5
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|switch|p1a: Alakazam|Alakazam|148\/313 par
+|turn|38
+|choice|switch 6|move 1
+|
+|switch|p1a: Snorlax|Snorlax|421\/523 par
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|295\/523 par
+|
+|turn|39
+|choice|move 3|switch 6
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|cant|p1a: Snorlax|par
+|
+|turn|40
+|choice|move 1|move 4
+|
+|move|p2a: Gengar|Night Shade|p1a: Snorlax
+|-damage|p1a: Snorlax|195\/523 par
+|cant|p1a: Snorlax|par
+|
+|turn|41
+|choice|move 1|move 4
+|
+|move|p2a: Gengar|Night Shade|p1a: Snorlax
+|-damage|p1a: Snorlax|95\/523 par
+|cant|p1a: Snorlax|par
+|
+|turn|42
+|choice|move 4|move 2
+|
+|move|p2a: Gengar|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|choice|switch 2|
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|43
+|choice|move 3|move 3
+|
+|move|p2a: Gengar|Explosion|p1a: Tauros
+|-damage|p1a: Tauros|139\/353
+|faint|p2a: Gengar
+|choice||switch 6
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|44
+|choice|switch 6|move 4
+|
+|switch|p1a: Alakazam|Alakazam|148\/313 par
+|move|p2a: Tauros|Hyper Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|choice|switch 5|
+|
+|switch|p1a: Victreebel|Victreebel|363\/363
+|turn|45
+|choice|move 2|switch 3
+|
+|switch|p2a: Chansey|Chansey|674\/703
+|move|p1a: Victreebel|Stun Spore|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|turn|46
+|choice|move 4|switch 2
+|
+|switch|p2a: Articuno|Articuno|383\/383
+|move|p1a: Victreebel|Wrap|p2a: Articuno
+|-damage|p2a: Articuno|369\/383
+|-activate|p2a: Articuno|move: Wrap|[of] p1a: Victreebel
+|
+|turn|47
+|choice|move 4|move 2
+|
+|cant|p2a: Articuno|partiallytrapped
+|move|p1a: Victreebel|Wrap|p2a: Articuno
+|-damage|p2a: Articuno|355\/383
+|
+|turn|48
+|choice|move 4|move 2
+|
+|cant|p2a: Articuno|partiallytrapped
+|move|p1a: Victreebel|Wrap|p2a: Articuno
+|-damage|p2a: Articuno|341\/383
+|
+|-end|p2a: Articuno|Wrap|[partiallytrapped]
+|turn|49
+|choice|move 2|move 2
+|
+|move|p2a: Articuno|Ice Beam|p1a: Victreebel
+|-supereffective|p1a: Victreebel
+|-damage|p1a: Victreebel|94\/363
+|move|p1a: Victreebel|Stun Spore|p2a: Articuno
+|-status|p2a: Articuno|par
+|
+|turn|50
+|J|user zf
+|choice|move 4|move 2
+|
+|move|p1a: Victreebel|Wrap|p2a: Articuno
+|-damage|p2a: Articuno|327\/383 par
+|-activate|p2a: Articuno|move: Wrap|[of] p1a: Victreebel
+|cant|p2a: Articuno|partiallytrapped
+|
+|turn|51
+|choice|move 4|move 2
+|
+|move|p1a: Victreebel|Wrap|p2a: Articuno
+|-damage|p2a: Articuno|313\/383 par
+|cant|p2a: Articuno|partiallytrapped
+|
+|turn|52
+|choice|move 4|move 2
+|
+|move|p1a: Victreebel|Wrap|p2a: Articuno
+|-damage|p2a: Articuno|299\/383 par
+|cant|p2a: Articuno|par
+|
+|turn|53
+|choice|move 4|move 2
+|
+|move|p1a: Victreebel|Wrap|p2a: Articuno
+|-damage|p2a: Articuno|285\/383 par
+|cant|p2a: Articuno|partiallytrapped
+|
+|-end|p2a: Articuno|Wrap|[partiallytrapped]
+|turn|54
+|choice|move 4|move 2
+|
+|move|p1a: Victreebel|Wrap|p2a: Articuno
+|-damage|p2a: Articuno|272\/383 par
+|-activate|p2a: Articuno|move: Wrap|[of] p1a: Victreebel
+|cant|p2a: Articuno|partiallytrapped
+|
+|turn|55
+|choice|move 4|move 3
+|
+|move|p1a: Victreebel|Wrap|p2a: Articuno
+|-damage|p2a: Articuno|259\/383 par
+|cant|p2a: Articuno|partiallytrapped
+|
+|turn|56
+|choice|move 4|move 2
+|
+|move|p1a: Victreebel|Wrap|p2a: Articuno
+|-damage|p2a: Articuno|246\/383 par
+|cant|p2a: Articuno|partiallytrapped
+|
+|-end|p2a: Articuno|Wrap|[partiallytrapped]
+|turn|57
+|choice|move 4|move 2
+|
+|move|p1a: Victreebel|Wrap|p2a: Articuno
+|-damage|p2a: Articuno|233\/383 par
+|-activate|p2a: Articuno|move: Wrap|[of] p1a: Victreebel
+|cant|p2a: Articuno|par
+|
+|turn|58
+|choice|move 4|move 2
+|
+|move|p1a: Victreebel|Wrap|p2a: Articuno
+|-damage|p2a: Articuno|220\/383 par
+|cant|p2a: Articuno|partiallytrapped
+|
+|-end|p2a: Articuno|Wrap|[partiallytrapped]
+|turn|59
+|choice|move 4|move 2
+|
+|move|p1a: Victreebel|Wrap|p2a: Articuno
+|-damage|p2a: Articuno|207\/383 par
+|-activate|p2a: Articuno|move: Wrap|[of] p1a: Victreebel
+|cant|p2a: Articuno|partiallytrapped
+|
+|turn|60
+|choice|move 4|move 2
+|
+|move|p1a: Victreebel|Wrap|p2a: Articuno
+|-damage|p2a: Articuno|194\/383 par
+|cant|p2a: Articuno|par
+|
+|turn|61
+|choice|move 4|move 2
+|
+|move|p1a: Victreebel|Wrap|p2a: Articuno
+|-damage|p2a: Articuno|181\/383 par
+|cant|p2a: Articuno|partiallytrapped
+|
+|-end|p2a: Articuno|Wrap|[partiallytrapped]
+|turn|62
+|choice|move 4|move 2
+|
+|move|p1a: Victreebel|Wrap|p2a: Articuno
+|-damage|p2a: Articuno|167\/383 par
+|-activate|p2a: Articuno|move: Wrap|[of] p1a: Victreebel
+|cant|p2a: Articuno|par
+|
+|turn|63
+|choice|move 4|move 2
+|
+|move|p1a: Victreebel|Wrap|p2a: Articuno
+|-damage|p2a: Articuno|153\/383 par
+|cant|p2a: Articuno|partiallytrapped
+|
+|turn|64
+|choice|move 4|move 2
+|
+|move|p1a: Victreebel|Wrap|p2a: Articuno
+|-damage|p2a: Articuno|139\/383 par
+|cant|p2a: Articuno|partiallytrapped
+|
+|turn|65
+|choice|move 4|move 2
+|
+|move|p1a: Victreebel|Wrap|p2a: Articuno
+|-damage|p2a: Articuno|125\/383 par
+|cant|p2a: Articuno|partiallytrapped
+|
+|-end|p2a: Articuno|Wrap|[partiallytrapped]
+|turn|66
+|choice|move 4|move 2
+|
+|move|p1a: Victreebel|Wrap|p2a: Articuno
+|-crit|p2a: Articuno
+|-damage|p2a: Articuno|99\/383 par
+|-activate|p2a: Articuno|move: Wrap|[of] p1a: Victreebel
+|cant|p2a: Articuno|partiallytrapped
+|
+|turn|67
+|choice|move 4|move 2
+|
+|move|p1a: Victreebel|Wrap|p2a: Articuno
+|-damage|p2a: Articuno|73\/383 par
+|cant|p2a: Articuno|partiallytrapped
+|
+|turn|68
+|choice|move 4|move 2
+|
+|move|p1a: Victreebel|Wrap|p2a: Articuno
+|-damage|p2a: Articuno|47\/383 par
+|cant|p2a: Articuno|partiallytrapped
+|
+|turn|69
+|choice|move 4|move 2
+|
+|move|p1a: Victreebel|Wrap|p2a: Articuno
+|-damage|p2a: Articuno|21\/383 par
+|cant|p2a: Articuno|par
+|
+|turn|70
+|choice|move 4|move 2
+|
+|move|p1a: Victreebel|Wrap|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|faint|p2a: Articuno
+|choice||switch 3
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|71
+|choice|move 1|move 1
+|
+|move|p2a: Tauros|Body Slam|p1a: Victreebel
+|-damage|p1a: Victreebel|0 fnt
+|faint|p1a: Victreebel
+|choice|switch 6|
+|
+|switch|p1a: Tauros|Tauros|139\/353
+|turn|72
+|choice|move 4|move 4
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|win|Dice

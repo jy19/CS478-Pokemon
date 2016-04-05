@@ -1,0 +1,761 @@
+﻿|join|Lutra
+|join|SunnyORAS
+|player|p1|Lutra|281
+|player|p2|SunnyORAS|102
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Ubers
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333\/333
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|turn|1
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|move|p1a: Jynx|Lovely Kiss|p2a: Starmie|[miss]
+|-miss|p1a: Jynx
+|
+|turn|2
+|
+|move|p2a: Starmie|Thunder Wave|p1a: Jynx
+|-status|p1a: Jynx|par
+|move|p1a: Jynx|Lovely Kiss|p2a: Starmie
+|-status|p2a: Starmie|slp
+|
+|turn|3
+|
+|cant|p2a: Starmie|slp
+|move|p1a: Jynx|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|223\/323 slp
+|
+|turn|4
+|
+|cant|p2a: Starmie|slp
+|move|p1a: Jynx|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|123\/323 slp
+|
+|turn|5
+|join|xJoelituh
+|
+|cant|p2a: Starmie|slp
+|cant|p1a: Jynx|par
+|
+|turn|6
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Jynx|Seismic Toss|p2a: Snorlax
+|-damage|p2a: Snorlax|423\/523
+|
+|turn|7
+|
+|switch|p1a: The Sleeper|Exeggutor|393\/393
+|move|p2a: Snorlax|Body Slam|p1a: The Sleeper
+|-damage|p1a: The Sleeper|277\/393
+|
+|turn|8
+|
+|switch|p2a: Starmie|Starmie|123\/323 slp
+|move|p1a: The Sleeper|Psychic|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|66\/323 slp
+|
+|turn|9
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: The Sleeper|Psychic|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|284\/393
+|
+|turn|10
+|
+|switch|p2a: Snorlax|Snorlax|423\/523
+|switch|p1a: Jynx|Jynx|333\/333 par
+|
+|turn|11
+|
+|switch|p1a: HERE IT CUMZ|Slowbro|393\/393
+|move|p2a: Snorlax|Body Slam|p1a: HERE IT CUMZ
+|-damage|p1a: HERE IT CUMZ|297\/393
+|-status|p1a: HERE IT CUMZ|par
+|
+|turn|12
+|
+|move|p2a: Snorlax|Body Slam|p1a: HERE IT CUMZ
+|-damage|p1a: HERE IT CUMZ|205\/393 par
+|move|p1a: HERE IT CUMZ|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|
+|turn|13
+|
+|cant|p1a: HERE IT CUMZ|par
+|cant|p2a: Snorlax|par
+|
+|turn|14
+|
+|move|p1a: HERE IT CUMZ|Rest|p1a: HERE IT CUMZ
+|-status|p1a: HERE IT CUMZ|slp
+|-heal|p1a: HERE IT CUMZ|393\/393 slp|[silent]
+|-status|p1a: HERE IT CUMZ|slp|[from] move: Rest
+|move|p2a: Snorlax|Self-Destruct|p1a: HERE IT CUMZ
+|-damage|p1a: HERE IT CUMZ|69\/393 slp
+|faint|p2a: Snorlax
+|
+|switch|p2a: Mew|Mew|403\/403
+|turn|15
+|
+|switch|p1a: No Warrantee|Mew|403\/403
+|move|p2a: Mew|Swords Dance|p2a: Mew
+|-boost|p2a: Mew|atk|2
+|
+|turn|16
+|
+|move|p1a: No Warrantee|Thunder Wave|p2a: Mew
+|-status|p2a: Mew|par
+|move|p2a: Mew|Earthquake|p1a: No Warrantee
+|-damage|p1a: No Warrantee|235\/403
+|
+|turn|17
+|
+|switch|p2a: Exeggutor|Exeggutor|284\/393
+|move|p1a: No Warrantee|Soft-Boiled|p1a: No Warrantee
+|-heal|p1a: No Warrantee|403\/403
+|
+|turn|18
+|
+|switch|p1a: Jynx|Jynx|333\/333 par
+|switch|p2a: Mew|Mew|403\/403 par
+|
+|turn|19
+|
+|switch|p1a: No Warrantee|Mew|403\/403
+|move|p2a: Mew|Swords Dance|p2a: Mew
+|-boost|p2a: Mew|atk|2
+|
+|turn|20
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: No Warrantee|Reflect|p1a: No Warrantee
+|-start|p1a: No Warrantee|Reflect
+|
+|turn|21
+|
+|switch|p1a: NVR SAY DIE!|Chansey|703\/703
+|move|p2a: Chansey|Thunder Wave|p1a: NVR SAY DIE!
+|-status|p1a: NVR SAY DIE!|par
+|
+|turn|22
+|
+|switch|p2a: Mew|Mew|403\/403 par
+|move|p1a: NVR SAY DIE!|Seismic Toss|p2a: Mew
+|-damage|p2a: Mew|303\/403 par
+|
+|turn|23
+|
+|switch|p1a: No Warrantee|Mew|403\/403
+|cant|p2a: Mew|par
+|
+|turn|24
+|
+|move|p1a: No Warrantee|Transform|p2a: Mew
+|-transform|p1a: No Warrantee|p2a: Mew
+|cant|p2a: Mew|par
+|
+|turn|25
+|
+|move|p1a: No Warrantee|Swords Dance|p1a: No Warrantee
+|-boost|p1a: No Warrantee|atk|2
+|move|p2a: Mew|Swords Dance|p2a: Mew
+|-boost|p2a: Mew|atk|2
+|
+|turn|26
+|
+|move|p1a: No Warrantee|Earthquake|p2a: Mew
+|-crit|p2a: Mew
+|-damage|p2a: Mew|152\/403 par
+|cant|p2a: Mew|par
+|
+|turn|27
+|
+|move|p1a: No Warrantee|Hyper Beam|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|c|★SunnyORAS|;;
+|
+|switch|p2a: Exeggutor|Exeggutor|284\/393
+|turn|28
+|
+|switch|p1a: Jynx|Jynx|333\/333 par
+|move|p2a: Exeggutor|Explosion|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Mewtwo|Mewtwo|415\/415
+|switch|p1a: NVR SAY DIE!|Chansey|703\/703 par
+|turn|29
+|
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|move|p1a: NVR SAY DIE!|Thunder Wave|p2a: Mewtwo
+|-status|p2a: Mewtwo|par
+|
+|turn|30
+|
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|move|p1a: NVR SAY DIE!|Light Screen|p1a: NVR SAY DIE!
+|-start|p1a: NVR SAY DIE!|Light Screen
+|
+|turn|31
+|
+|move|p2a: Mewtwo|Psychic|p1a: NVR SAY DIE!
+|-damage|p1a: NVR SAY DIE!|526\/703 par
+|-unboost|p1a: NVR SAY DIE!|spd|1
+|-unboost|p1a: NVR SAY DIE!|spa|1
+|move|p1a: NVR SAY DIE!|Seismic Toss|p2a: Mewtwo
+|-damage|p2a: Mewtwo|315\/415 par
+|
+|turn|32
+|join|garoninja
+|
+|move|p2a: Mewtwo|Psychic|p1a: NVR SAY DIE!
+|-damage|p1a: NVR SAY DIE!|270\/703 par
+|cant|p1a: NVR SAY DIE!|par
+|
+|turn|33
+|
+|move|p2a: Mewtwo|Psychic|p1a: NVR SAY DIE!
+|-crit|p1a: NVR SAY DIE!
+|-damage|p1a: NVR SAY DIE!|1\/703 par
+|move|p1a: NVR SAY DIE!|Soft-Boiled|p1a: NVR SAY DIE!
+|-heal|p1a: NVR SAY DIE!|352\/703 par
+|
+|turn|34
+|
+|switch|p1a: No Warrantee|Mew|403\/403
+|move|p2a: Mewtwo|Psychic|p1a: No Warrantee
+|-resisted|p1a: No Warrantee
+|-damage|p1a: No Warrantee|215\/403
+|
+|turn|35
+|
+|move|p1a: No Warrantee|Soft-Boiled|p1a: No Warrantee
+|-heal|p1a: No Warrantee|403\/403
+|move|p2a: Mewtwo|Ice Beam|p1a: No Warrantee
+|-damage|p1a: No Warrantee|153\/403
+|
+|turn|36
+|
+|move|p1a: No Warrantee|Soft-Boiled|p1a: No Warrantee
+|-heal|p1a: No Warrantee|354\/403
+|move|p2a: Mewtwo|Ice Beam|p1a: No Warrantee
+|-damage|p1a: No Warrantee|107\/403
+|
+|turn|37
+|
+|move|p1a: No Warrantee|Soft-Boiled|p1a: No Warrantee
+|-heal|p1a: No Warrantee|308\/403
+|move|p2a: Mewtwo|Psychic|p1a: No Warrantee
+|-resisted|p1a: No Warrantee
+|-damage|p1a: No Warrantee|123\/403
+|
+|turn|38
+|
+|move|p1a: No Warrantee|Soft-Boiled|p1a: No Warrantee
+|-heal|p1a: No Warrantee|324\/403
+|move|p2a: Mewtwo|Psychic|p1a: No Warrantee
+|-crit|p1a: No Warrantee
+|-resisted|p1a: No Warrantee
+|-damage|p1a: No Warrantee|174\/403
+|
+|turn|39
+|
+|move|p1a: No Warrantee|Soft-Boiled|p1a: No Warrantee
+|-heal|p1a: No Warrantee|375\/403
+|move|p2a: Mewtwo|Ice Beam|p1a: No Warrantee
+|-damage|p1a: No Warrantee|129\/403
+|
+|turn|40
+|
+|move|p1a: No Warrantee|Soft-Boiled|p1a: No Warrantee
+|-heal|p1a: No Warrantee|330\/403
+|move|p2a: Mewtwo|Psychic|p1a: No Warrantee
+|-resisted|p1a: No Warrantee
+|-damage|p1a: No Warrantee|143\/403
+|
+|turn|41
+|leave|garoninja
+|
+|move|p1a: No Warrantee|Soft-Boiled|p1a: No Warrantee
+|-heal|p1a: No Warrantee|344\/403
+|cant|p2a: Mewtwo|par
+|
+|turn|42
+|
+|switch|p2a: Starmie|Starmie|66\/323 slp
+|move|p1a: No Warrantee|Transform|p2a: Starmie
+|-transform|p1a: No Warrantee|p2a: Starmie
+|
+|turn|43
+|
+|switch|p2a: Mewtwo|Mewtwo|315\/415 par
+|move|p1a: No Warrantee|Thunderbolt|p2a: Mewtwo
+|-damage|p2a: Mewtwo|263\/415 par
+|
+|turn|44
+|
+|switch|p1a: The Sleeper|Exeggutor|277\/393
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|
+|turn|45
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: The Sleeper|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|583\/703
+|
+|turn|46
+|
+|switch|p1a: NVR SAY DIE!|Chansey|352\/703 par
+|move|p2a: Chansey|Ice Beam|p1a: NVR SAY DIE!
+|-damage|p1a: NVR SAY DIE!|273\/703 par
+|
+|turn|47
+|
+|switch|p2a: Mewtwo|Mewtwo|263\/415 par
+|cant|p1a: NVR SAY DIE!|par
+|
+|turn|48
+|
+|switch|p1a: No Warrantee|Mew|344\/403
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|
+|turn|49
+|
+|move|p1a: No Warrantee|Soft-Boiled|p1a: No Warrantee
+|-heal|p1a: No Warrantee|403\/403
+|move|p2a: Mewtwo|Psychic|p1a: No Warrantee
+|-resisted|p1a: No Warrantee
+|-damage|p1a: No Warrantee|268\/403
+|
+|turn|50
+|
+|move|p1a: No Warrantee|Soft-Boiled|p1a: No Warrantee
+|-heal|p1a: No Warrantee|403\/403
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|
+|turn|51
+|
+|switch|p2a: Chansey|Chansey|583\/703
+|move|p1a: No Warrantee|Transform|p2a: Chansey
+|-transform|p1a: No Warrantee|p2a: Chansey
+|
+|turn|52
+|c|★SunnyORAS|,,,,,,,,,,,,,,
+|c|★SunnyORAS|:<
+|c|★Lutra|lol
+|
+|switch|p2a: Mewtwo|Mewtwo|263\/415 par
+|move|p1a: No Warrantee|Ice Beam|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|149\/415 par
+|
+|turn|53
+|
+|switch|p1a: The Sleeper|Exeggutor|277\/393
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|356\/415 par
+|
+|turn|54
+|
+|switch|p1a: No Warrantee|Mew|403\/403
+|move|p2a: Mewtwo|Ice Beam|p1a: No Warrantee
+|-damage|p1a: No Warrantee|303\/403
+|
+|turn|55
+|
+|move|p1a: No Warrantee|Transform|p2a: Mewtwo
+|-transform|p1a: No Warrantee|p2a: Mewtwo
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|
+|turn|56
+|
+|move|p1a: No Warrantee|Amnesia|p1a: No Warrantee
+|-boost|p1a: No Warrantee|spd|2
+|-boost|p1a: No Warrantee|spa|2
+|cant|p2a: Mewtwo|par
+|
+|turn|57
+|c|★SunnyORAS|shit lol
+|c|★SunnyORAS|your d4nk mew set
+|c|★SunnyORAS|,,,,,,
+|
+|move|p1a: No Warrantee|Psychic|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-resisted|p2a: Mewtwo
+|-damage|p2a: Mewtwo|255\/415 par
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|
+|turn|58
+|
+|move|p1a: No Warrantee|Amnesia|p1a: No Warrantee
+|-boost|p1a: No Warrantee|spd|2
+|-boost|p1a: No Warrantee|spa|2
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|415\/415 par
+|
+|turn|59
+|c|★SunnyORAS|does tranform give all moves 5 pp?
+|c|★SunnyORAS|or n
+|c|★Lutra|yeah
+|c|★SunnyORAS|ay
+|
+|move|p1a: No Warrantee|Psychic|p2a: Mewtwo
+|-resisted|p2a: Mewtwo
+|-damage|p2a: Mewtwo|361\/415 par
+|-unboost|p2a: Mewtwo|spd|1
+|-unboost|p2a: Mewtwo|spa|1
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|
+|turn|60
+|
+|move|p1a: No Warrantee|Amnesia|p1a: No Warrantee
+|-boost|p1a: No Warrantee|spd|2
+|-boost|p1a: No Warrantee|spa|2
+|cant|p2a: Mewtwo|par
+|
+|turn|61
+|
+|move|p1a: No Warrantee|Ice Beam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|287\/415 par
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|
+|turn|62
+|
+|move|p1a: No Warrantee|Ice Beam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|213\/415 par
+|cant|p2a: Mewtwo|par
+|
+|turn|63
+|
+|move|p1a: No Warrantee|Psychic|p2a: Mewtwo
+|-resisted|p2a: Mewtwo
+|-damage|p2a: Mewtwo|163\/415 par
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|370\/415 par
+|
+|turn|64
+|
+|move|p1a: No Warrantee|Amnesia|p1a: No Warrantee
+|-boost|p1a: No Warrantee|spd|2
+|-boost|p1a: No Warrantee|spa|2
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|
+|turn|65
+|
+|move|p1a: No Warrantee|Ice Beam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|301\/415 par
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|
+|turn|66
+|
+|move|p1a: No Warrantee|Ice Beam|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|151\/415 par
+|cant|p2a: Mewtwo|par
+|
+|turn|67
+|
+|move|p1a: No Warrantee|Ice Beam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|78\/415 par
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|285\/415 par
+|
+|turn|68
+|
+|move|p1a: No Warrantee|Psychic|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-resisted|p2a: Mewtwo
+|-damage|p2a: Mewtwo|177\/415 par
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|384\/415 par
+|
+|turn|69
+|
+|move|p1a: No Warrantee|Psychic|p2a: Mewtwo
+|-resisted|p2a: Mewtwo
+|-damage|p2a: Mewtwo|330\/415 par
+|move|p2a: Mewtwo|Ice Beam|p1a: No Warrantee
+|-damage|p1a: No Warrantee|228\/403
+|
+|turn|70
+|
+|move|p1a: No Warrantee|Recover|p1a: No Warrantee
+|-heal|p1a: No Warrantee|403\/403
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|415\/415 par
+|
+|turn|71
+|
+|move|p1a: No Warrantee|Amnesia|p1a: No Warrantee
+|-boost|p1a: No Warrantee|spd|2
+|-boost|p1a: No Warrantee|spa|2
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-fail|p2a: Mewtwo
+|
+|turn|72
+|
+|move|p1a: No Warrantee|Recover|p1a: No Warrantee
+|-fail|p1a: No Warrantee
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|
+|turn|73
+|
+|switch|p1a: HERE IT CUMZ|Slowbro|69\/393 slp
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|
+|turn|74
+|
+|switch|p1a: No Warrantee|Mew|403\/403
+|cant|p2a: Mewtwo|par
+|
+|turn|75
+|
+|move|p1a: No Warrantee|Transform|p2a: Mewtwo
+|-transform|p1a: No Warrantee|p2a: Mewtwo
+|move|p2a: Mewtwo|Ice Beam|p1a: No Warrantee
+|-damage|p1a: No Warrantee|155\/403
+|
+|turn|76
+|c|★Lutra|:)
+|c|★SunnyORAS|,,,,,,,,,,,,,
+|c|★SunnyORAS|:<
+|c|★Lutra|wtf
+|c|★SunnyORAS|hmm?
+|c|★SunnyORAS|pp is the same?
+|c|★Lutra|mega bugs
+|
+|move|p1a: No Warrantee|Recover|p1a: No Warrantee
+|-heal|p1a: No Warrantee|356\/403
+|move|p2a: Mewtwo|Ice Beam|p1a: No Warrantee
+|-damage|p1a: No Warrantee|91\/403
+|
+|turn|77
+|c|★SunnyORAS|what happened?
+|c|★Lutra|fuck
+|
+|move|p1a: No Warrantee|Recover|p1a: No Warrantee
+|-heal|p1a: No Warrantee|292\/403
+|move|p2a: Mewtwo|Psychic|p1a: No Warrantee
+|-resisted|p1a: No Warrantee
+|-damage|p1a: No Warrantee|115\/403
+|
+|turn|78
+|
+|move|p1a: No Warrantee|Recover|p1a: No Warrantee
+|-heal|p1a: No Warrantee|316\/403
+|move|p2a: Mewtwo|Psychic|p1a: No Warrantee
+|-resisted|p1a: No Warrantee
+|-damage|p1a: No Warrantee|133\/403
+|
+|turn|79
+|
+|move|p1a: No Warrantee|Recover|p1a: No Warrantee
+|-heal|p1a: No Warrantee|334\/403
+|move|p2a: Mewtwo|Psychic|p1a: No Warrantee
+|-resisted|p1a: No Warrantee
+|-damage|p1a: No Warrantee|159\/403
+|
+|turn|80
+|c|★SunnyORAS|do you only have recover pp?
+|
+|move|p1a: No Warrantee|Recover|p1a: No Warrantee
+|-heal|p1a: No Warrantee|360\/403
+|move|p2a: Mewtwo|Psychic|p1a: No Warrantee
+|-resisted|p1a: No Warrantee
+|-damage|p1a: No Warrantee|172\/403
+|-unboost|p1a: No Warrantee|spd|1
+|-unboost|p1a: No Warrantee|spa|1
+|
+|turn|81
+|c|★Lutra|0 left now
+|
+|switch|p1a: HERE IT CUMZ|Slowbro|69\/393 slp
+|move|p2a: Mewtwo|Psychic|p1a: HERE IT CUMZ
+|-resisted|p1a: HERE IT CUMZ
+|-damage|p1a: HERE IT CUMZ|0 fnt
+|faint|p1a: HERE IT CUMZ
+|c|★Lutra|i think cuz it uses mew stats
+|c|★SunnyORAS|o
+|c|★SunnyORAS|bugE
+|
+|switch|p1a: No Warrantee|Mew|172\/403
+|turn|82
+|c|★Lutra|how many pp left? I have 6 softboiled
+|c|★Lutra|and loads on the others
+|c|★SunnyORAS|i have 25 softboild
+|c|★SunnyORAS|9 ib
+|c|★SunnyORAS|3 psychi
+|c|★SunnyORAS|19 amnesia
+|
+|move|p1a: No Warrantee|Soft-Boiled|p1a: No Warrantee
+|-heal|p1a: No Warrantee|373\/403
+|move|p2a: Mewtwo|Ice Beam|p1a: No Warrantee
+|-crit|p1a: No Warrantee
+|-damage|p1a: No Warrantee|183\/403
+|
+|turn|83
+|
+|move|p1a: No Warrantee|Soft-Boiled|p1a: No Warrantee
+|-heal|p1a: No Warrantee|384\/403
+|move|p2a: Mewtwo|Ice Beam|p1a: No Warrantee
+|-damage|p1a: No Warrantee|132\/403
+|
+|turn|84
+|
+|move|p1a: No Warrantee|Soft-Boiled|p1a: No Warrantee
+|-heal|p1a: No Warrantee|333\/403
+|move|p2a: Mewtwo|Ice Beam|p1a: No Warrantee
+|-damage|p1a: No Warrantee|89\/403
+|
+|turn|85
+|
+|move|p1a: No Warrantee|Soft-Boiled|p1a: No Warrantee
+|-heal|p1a: No Warrantee|290\/403
+|move|p2a: Mewtwo|Ice Beam|p1a: No Warrantee
+|-damage|p1a: No Warrantee|34\/403
+|
+|turn|86
+|
+|move|p1a: No Warrantee|Soft-Boiled|p1a: No Warrantee
+|-heal|p1a: No Warrantee|235\/403
+|move|p2a: Mewtwo|Ice Beam|p1a: No Warrantee
+|-crit|p1a: No Warrantee
+|-damage|p1a: No Warrantee|46\/403
+|
+|turn|87
+|c|★SunnyORAS|,,,,
+|c|★Lutra|do you even get fped though?
+|c|★Lutra|lol
+|
+|move|p1a: No Warrantee|Soft-Boiled|p1a: No Warrantee
+|-heal|p1a: No Warrantee|247\/403
+|move|p2a: Mewtwo|Ice Beam|p1a: No Warrantee
+|-damage|p1a: No Warrantee|17\/403
+|
+|turn|88
+|c|★SunnyORAS|n
+|c|★SunnyORAS|;;
+|
+|move|p1a: No Warrantee|Transform|p2a: Mewtwo
+|-transform|p1a: No Warrantee|p2a: Mewtwo
+|cant|p2a: Mewtwo|par
+|
+|turn|89
+|
+|move|p1a: No Warrantee|Recover|p1a: No Warrantee
+|-heal|p1a: No Warrantee|218\/403
+|cant|p2a: Mewtwo|par
+|
+|turn|90
+|c|★SunnyORAS|and fk
+|c|★SunnyORAS|;;
+|
+|move|p1a: No Warrantee|Amnesia|p1a: No Warrantee
+|-boost|p1a: No Warrantee|spd|2
+|-boost|p1a: No Warrantee|spa|2
+|move|p2a: Mewtwo|Psychic|p1a: No Warrantee
+|-resisted|p1a: No Warrantee
+|-damage|p1a: No Warrantee|165\/403
+|-unboost|p1a: No Warrantee|spd|1
+|-unboost|p1a: No Warrantee|spa|1
+|
+|turn|91
+|
+|move|p1a: No Warrantee|Recover|p1a: No Warrantee
+|-heal|p1a: No Warrantee|366\/403
+|move|p2a: Mewtwo|Psychic|p1a: No Warrantee
+|-resisted|p1a: No Warrantee
+|-damage|p1a: No Warrantee|312\/403
+|
+|turn|92
+|
+|move|p1a: No Warrantee|Amnesia|p1a: No Warrantee
+|-boost|p1a: No Warrantee|spd|2
+|-boost|p1a: No Warrantee|spa|2
+|move|p2a: Mewtwo|Ice Beam|p1a: No Warrantee
+|-damage|p1a: No Warrantee|243\/403
+|
+|turn|93
+|
+|move|p1a: No Warrantee|Recover|p1a: No Warrantee
+|-heal|p1a: No Warrantee|403\/403
+|move|p2a: Mewtwo|Ice Beam|p1a: No Warrantee
+|-damage|p1a: No Warrantee|333\/403
+|
+|turn|94
+|c|★SunnyORAS|sigh
+|c|★SunnyORAS|freeze?
+|
+|move|p1a: No Warrantee|Amnesia|p1a: No Warrantee
+|-boost|p1a: No Warrantee|spd|2
+|-boost|p1a: No Warrantee|spa|2
+|move|p2a: Mewtwo|Ice Beam|p1a: No Warrantee
+|-damage|p1a: No Warrantee|264\/403
+|
+|turn|95
+|c|★SunnyORAS|nope
+|c|★SunnyORAS|,,,,
+|c|★Lutra|you've probably lost
+|c|★Lutra|if you freeze now
+|c|★SunnyORAS|yup
+|c|★Lutra|anyway
+|
+|move|p1a: No Warrantee|Recover|p1a: No Warrantee
+|-heal|p1a: No Warrantee|403\/403
+|move|p2a: Mewtwo|Psychic|p1a: No Warrantee
+|-resisted|p1a: No Warrantee
+|-damage|p1a: No Warrantee|349\/403
+|
+|turn|96
+|c|★SunnyORAS|I lose yo
+|c|★SunnyORAS|,,,
+|c|★SunnyORAS|ggs\/
+|-message|SunnyORAS forfeited.
+|
+|win|Lutra
+|c|★Lutra|ggs
+|c|★SunnyORAS|:P
+|c|★SunnyORAS|fun times
+|c|★SunnyORAS|D:
+|c|★Lutra|yeah :)

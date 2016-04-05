@@ -1,0 +1,305 @@
+﻿|J|KristophV
+|J|Anna says hi
+|player|p1|KristophV|kristophv.png
+|player|p2|Anna says hi|183
+|gametype|singles
+|gen|1
+|tier|Violet Version
+|clearpoke
+|poke|p1|Magmar
+|poke|p1|Exeggutor
+|poke|p1|Electrode
+|poke|p1|Golem
+|poke|p1|Raticate
+|poke|p1|Hypno
+|poke|p2|Beedrill
+|poke|p2|Vileplume
+|poke|p2|Gengar
+|poke|p2|Chansey
+|poke|p2|Golem
+|poke|p2|Golduck
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|c|★KristophV|most of the pokemon that were already really strong
+|c|★KristophV|are virtually unchanged 
+|c|★Anna says hi|i mean the ones chosen to be made more viable
+|c|★KristophV|oh
+|c|★KristophV|let me think lol
+|
+|start
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|1
+|c|★KristophV|i think everything has been changed
+|
+|switch|p1a: Raticate|Raticate|333\/333
+|move|p2a: Gengar|Hypnosis|p1a: Raticate|[miss]
+|-miss|p2a: Gengar
+|
+|turn|2
+|
+|switch|p2a: Golduck|Golduck|363\/363
+|move|p1a: Raticate|Super Fang|p2a: Golduck
+|-damage|p2a: Golduck|182\/363
+|
+|turn|3
+|
+|switch|p1a: Electrode|Electrode|333\/333
+|move|p2a: Golduck|Rest|p2a: Golduck
+|-status|p2a: Golduck|slp
+|-heal|p2a: Golduck|363\/363 slp|[silent]
+|-status|p2a: Golduck|slp|[from] move: Rest
+|
+|turn|4
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|switch|p2a: Golem|Golem|363\/363
+|
+|turn|5
+|
+|switch|p2a: Golduck|Golduck|363\/363 slp
+|move|p1a: Exeggutor|Psychic|p2a: Golduck
+|-damage|p2a: Golduck|215\/363 slp
+|
+|turn|6
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Exeggutor|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|588\/703
+|
+|turn|7
+|
+|move|p1a: Exeggutor|Sleep Powder|p2a: Chansey
+|-status|p2a: Chansey|slp
+|cant|p2a: Chansey|slp
+|
+|turn|8
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|move|p1a: Exeggutor|Psychic|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|116\/323
+|
+|turn|9
+|
+|switch|p1a: Raticate|Raticate|333\/333
+|move|p2a: Gengar|Hypnosis|p1a: Raticate
+|-status|p1a: Raticate|slp
+|
+|turn|10
+|
+|switch|p1a: Electrode|Electrode|333\/333
+|switch|p2a: Beedrill|Beedrill|333\/333
+|
+|turn|11
+|
+|switch|p2a: Vileplume|Vileplume|363\/363
+|move|p1a: Electrode|Screech|p2a: Vileplume|[miss]
+|-miss|p1a: Electrode
+|
+|turn|12
+|
+|switch|p1a: Hypno|Hypno|373\/373
+|move|p2a: Vileplume|Razor Leaf|p1a: Hypno|[miss]
+|-miss|p2a: Vileplume
+|
+|turn|13
+|
+|switch|p2a: Chansey|Chansey|588\/703 slp
+|move|p1a: Hypno|Psychic|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|363\/703 slp
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|
+|turn|14
+|
+|move|p1a: Hypno|Submission|p2a: Chansey
+|-supereffective|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|-damage|p1a: Hypno|283\/373|[from] recoil|[of] p2a: Chansey
+|faint|p2a: Chansey
+|c|★Anna says hi|...
+|
+|switch|p2a: Beedrill|Beedrill|333\/333
+|turn|15
+|
+|switch|p1a: Raticate|Raticate|333\/333 slp
+|move|p2a: Beedrill|Twineedle|p1a: Raticate
+|-damage|p1a: Raticate|282\/333 slp
+|-damage|p1a: Raticate|231\/333 slp
+|-hitcount|p1a: Raticate|2
+|
+|turn|16
+|
+|switch|p1a: Electrode|Electrode|333\/333
+|move|p2a: Beedrill|Twineedle|p1a: Electrode
+|-damage|p1a: Electrode|276\/333
+|-damage|p1a: Electrode|219\/333
+|-hitcount|p1a: Electrode|2
+|
+|turn|17
+|
+|switch|p2a: Golem|Golem|363\/363
+|move|p1a: Electrode|Thunder Wave|p2a: Golem
+|-immune|p2a: Golem|[msg]
+|
+|turn|18
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Golem|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|311\/393
+|
+|turn|19
+|
+|switch|p2a: Gengar|Gengar|116\/323
+|move|p1a: Exeggutor|Psychic|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|switch|p2a: Beedrill|Beedrill|333\/333
+|turn|20
+|
+|switch|p1a: Magmar|Magmar|333\/333
+|move|p2a: Beedrill|Twineedle|p1a: Magmar
+|-resisted|p1a: Magmar
+|-damage|p1a: Magmar|319\/333
+|-damage|p1a: Magmar|305\/333
+|-status|p1a: Magmar|psn
+|-hitcount|p1a: Magmar|2
+|
+|turn|21
+|
+|switch|p2a: Golduck|Golduck|215\/363 slp
+|move|p1a: Magmar|Fire Blast|p2a: Golduck|[miss]
+|-miss|p1a: Magmar
+|-damage|p1a: Magmar|285\/333 psn|[from] psn|[of] p2a: Golduck
+|
+|turn|22
+|
+|switch|p1a: Hypno|Hypno|283\/373
+|cant|p2a: Golduck|slp
+|
+|turn|23
+|
+|-curestatus|p2a: Golduck|slp
+|move|p1a: Hypno|Tri Attack|p2a: Golduck
+|-supereffective|p2a: Golduck
+|-damage|p2a: Golduck|46\/363
+|-status|p2a: Golduck|par
+|
+|turn|24
+|c|★KristophV|wow
+|c|★Anna says hi|and rip
+|
+|move|p2a: Golduck|Tri Attack|p1a: Hypno
+|-supereffective|p1a: Hypno
+|-damage|p1a: Hypno|59\/373
+|-status|p1a: Hypno|brn
+|move|p1a: Hypno|Tri Attack|p2a: Golduck
+|-supereffective|p2a: Golduck
+|-damage|p2a: Golduck|0 fnt
+|faint|p2a: Golduck
+|c|★KristophV|wait what
+|c|★Anna says hi|i have no idea
+|c|★Anna says hi|gen 1 is buggy as all hell
+|
+|switch|p2a: Beedrill|Beedrill|333\/333
+|turn|25
+|
+|switch|p1a: Golem|Golem|363\/363
+|move|p2a: Beedrill|Poison Sting|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|345\/363
+|
+|turn|26
+|
+|switch|p2a: Vileplume|Vileplume|363\/363
+|move|p1a: Golem|Earthquake|p2a: Vileplume
+|-damage|p2a: Vileplume|227\/363
+|
+|turn|27
+|
+|switch|p1a: Magmar|Magmar|285\/333 psn
+|-damage|p1a: Magmar|265\/333 psn|[from] psn
+|move|p2a: Vileplume|Swords Dance|p2a: Vileplume
+|-boost|p2a: Vileplume|atk|2
+|
+|turn|28
+|
+|switch|p2a: Golem|Golem|363\/363
+|move|p1a: Magmar|Fire Blast|p2a: Golem|[miss]
+|-miss|p1a: Magmar
+|-damage|p1a: Magmar|245\/333 psn|[from] psn|[of] p2a: Golem
+|
+|turn|29
+|
+|switch|p1a: Exeggutor|Exeggutor|311\/393
+|move|p2a: Golem|Earthquake|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|247\/393
+|
+|turn|30
+|
+|move|p1a: Exeggutor|Sleep Powder|p2a: Golem
+|-status|p2a: Golem|slp
+|cant|p2a: Golem|slp
+|
+|turn|31
+|
+|switch|p2a: Vileplume|Vileplume|227\/363
+|move|p1a: Exeggutor|Psychic|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|
+|switch|p2a: Beedrill|Beedrill|333\/333
+|turn|32
+|
+|switch|p1a: Golem|Golem|345\/363
+|move|p2a: Beedrill|Twineedle|p1a: Golem
+|-damage|p1a: Golem|307\/363
+|-damage|p1a: Golem|269\/363
+|-hitcount|p1a: Golem|2
+|
+|turn|33
+|
+|switch|p2a: Golem|Golem|363\/363 slp
+|move|p1a: Golem|Rock Slide|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|319\/363 slp
+|
+|turn|34
+|
+|cant|p2a: Golem|slp
+|move|p1a: Golem|Earthquake|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|96\/363 slp
+|
+|turn|35
+|
+|move|p1a: Golem|Earthquake|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|
+|switch|p2a: Beedrill|Beedrill|333\/333
+|turn|36
+|
+|move|p2a: Beedrill|Twineedle|p1a: Golem
+|-damage|p1a: Golem|236\/363
+|-damage|p1a: Golem|203\/363
+|-hitcount|p1a: Golem|2
+|move|p1a: Golem|Rock Slide|p2a: Beedrill
+|-supereffective|p2a: Beedrill
+|-damage|p2a: Beedrill|0 fnt
+|faint|p2a: Beedrill
+|
+|win|KristophV
+|c|★KristophV|gg

@@ -1,0 +1,209 @@
+﻿|join|gen1masterrony
+|join|Mitchel bishop
+|player|p1|gen1masterrony|1
+|player|p2|Mitchel bishop|163
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Nidorino|Nidorino, L90|293\/293
+|switch|p2a: Pinsir|Pinsir, L85|284\/284
+|turn|1
+|
+|move|p2a: Pinsir|Swords Dance|p2a: Pinsir
+|-boost|p2a: Pinsir|atk|2
+|move|p1a: Nidorino|Blizzard|p2a: Pinsir
+|-crit|p2a: Pinsir
+|-damage|p2a: Pinsir|98\/284
+|
+|turn|2
+|
+|move|p2a: Pinsir|Body Slam|p1a: Nidorino
+|-damage|p1a: Nidorino|116\/293
+|-status|p1a: Nidorino|par
+|move|p1a: Nidorino|Blizzard|p2a: Pinsir
+|-damage|p2a: Pinsir|12\/284
+|
+|turn|3
+|
+|move|p2a: Pinsir|Body Slam|p1a: Nidorino
+|-damage|p1a: Nidorino|0 fnt
+|faint|p1a: Nidorino
+|
+|switch|p1a: Persian|Persian, L79|265\/265
+|turn|4
+|
+|move|p1a: Persian|Slash|p2a: Pinsir
+|-crit|p2a: Pinsir
+|-damage|p2a: Pinsir|0 fnt
+|faint|p2a: Pinsir
+|
+|switch|p2a: Charmander|Charmander, L96|270\/270
+|turn|5
+|
+|move|p1a: Persian|Bubble Beam|p2a: Charmander
+|-supereffective|p2a: Charmander
+|-damage|p2a: Charmander|191\/270
+|move|p2a: Charmander|Swords Dance|p2a: Charmander
+|-boost|p2a: Charmander|atk|2
+|
+|turn|6
+|
+|move|p1a: Persian|Slash|p2a: Charmander
+|-crit|p2a: Charmander
+|-damage|p2a: Charmander|63\/270
+|move|p2a: Charmander|Submission|p1a: Persian
+|-supereffective|p1a: Persian
+|-damage|p1a: Persian|0 fnt
+|-damage|p2a: Charmander|0 fnt|[from] recoil|[of] p1a: Persian
+|faint|p1a: Persian
+|faint|p2a: Charmander
+|
+|switch|p2a: Nidoking|Nidoking, L85|311\/311
+|switch|p1a: Jynx|Jynx, L79|265\/265
+|turn|7
+|
+|move|p2a: Nidoking|Thunder|p1a: Jynx|[miss]
+|-miss|p2a: Nidoking
+|move|p1a: Jynx|Lovely Kiss|p2a: Nidoking|[miss]
+|-miss|p1a: Jynx
+|
+|turn|8
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: Nidoking|[miss]
+|-miss|p1a: Jynx
+|move|p2a: Nidoking|Thunder|p1a: Jynx|[miss]
+|-miss|p2a: Nidoking
+|
+|turn|9
+|
+|move|p2a: Nidoking|Thunder|p1a: Jynx|[miss]
+|-miss|p2a: Nidoking
+|move|p1a: Jynx|Lovely Kiss|p2a: Nidoking
+|-status|p2a: Nidoking|slp
+|
+|turn|10
+|
+|switch|p2a: Persian|Persian, L79|265\/265
+|move|p1a: Jynx|Blizzard|p2a: Persian
+|-damage|p2a: Persian|129\/265
+|
+|turn|11
+|
+|move|p2a: Persian|Slash|p1a: Jynx
+|-crit|p1a: Jynx
+|-damage|p1a: Jynx|86\/265
+|move|p1a: Jynx|Blizzard|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|faint|p2a: Persian
+|
+|switch|p2a: Omastar|Omastar, L90|309\/309
+|turn|12
+|
+|move|p1a: Jynx|Psychic|p2a: Omastar
+|-damage|p2a: Omastar|242\/309
+|move|p2a: Omastar|Surf|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|
+|switch|p1a: Tentacruel|Tentacruel, L85|310\/310
+|turn|13
+|
+|move|p1a: Tentacruel|Surf|p2a: Omastar
+|-damage|p2a: Omastar|155\/309
+|move|p2a: Omastar|Mimic|p1a: Tentacruel
+|-start|p2a: Omastar|Mimic|Swords Dance
+|
+|turn|14
+|
+|move|p1a: Tentacruel|Surf|p2a: Omastar
+|-damage|p2a: Omastar|52\/309
+|move|p2a: Omastar|Swords Dance|p2a: Omastar
+|-boost|p2a: Omastar|atk|2
+|
+|turn|15
+|
+|move|p1a: Tentacruel|Surf|p2a: Omastar
+|-damage|p2a: Omastar|0 fnt
+|faint|p2a: Omastar
+|
+|switch|p2a: Seadra|Seadra, L90|282\/282
+|turn|16
+|
+|move|p1a: Tentacruel|Swords Dance|p1a: Tentacruel
+|-boost|p1a: Tentacruel|atk|2
+|move|p2a: Seadra|Mimic|p1a: Tentacruel
+|-start|p2a: Seadra|Mimic|Swords Dance
+|
+|turn|17
+|
+|move|p1a: Tentacruel|Surf|p2a: Seadra
+|-crit|p2a: Seadra
+|-resisted|p2a: Seadra
+|-damage|p2a: Seadra|172\/282
+|move|p2a: Seadra|Swords Dance|p2a: Seadra
+|-boost|p2a: Seadra|atk|2
+|
+|turn|18
+|
+|move|p1a: Tentacruel|Swords Dance|p1a: Tentacruel
+|-boost|p1a: Tentacruel|atk|2
+|move|p2a: Seadra|Hydro Pump|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|256\/310
+|
+|turn|19
+|
+|move|p1a: Tentacruel|Hydro Pump|p2a: Seadra
+|-resisted|p2a: Seadra
+|-damage|p2a: Seadra|107\/282
+|move|p2a: Seadra|Smokescreen|p1a: Tentacruel
+|-unboost|p1a: Tentacruel|accuracy|1
+|
+|turn|20
+|
+|move|p1a: Tentacruel|Hyper Beam|p2a: Seadra|[miss]
+|-miss|p1a: Tentacruel
+|move|p2a: Seadra|Smokescreen|p1a: Tentacruel
+|-unboost|p1a: Tentacruel|accuracy|1
+|
+|turn|21
+|
+|move|p1a: Tentacruel|Hyper Beam|p2a: Seadra
+|-crit|p2a: Seadra
+|-damage|p2a: Seadra|0 fnt
+|faint|p2a: Seadra
+|
+|switch|p2a: Nidoking|Nidoking, L85|311\/311 slp
+|turn|22
+|
+|switch|p1a: Marowak|Marowak, L90|291\/291
+|cant|p2a: Nidoking|slp
+|
+|turn|23
+|
+|-curestatus|p2a: Nidoking|slp
+|move|p1a: Marowak|Earthquake|p2a: Nidoking
+|-supereffective|p2a: Nidoking
+|-damage|p2a: Nidoking|67\/311
+|
+|turn|24
+|
+|move|p2a: Nidoking|Body Slam|p1a: Marowak
+|-damage|p1a: Marowak|239\/291
+|move|p1a: Marowak|Earthquake|p2a: Nidoking
+|-supereffective|p2a: Nidoking
+|-damage|p2a: Nidoking|0 fnt
+|faint|p2a: Nidoking
+|
+|win|gen1masterrony
+|raw|Ladder updating...
+|raw|gen1masterrony's rating: 1136 &rarr; <strong>1155<\/strong><br \/>(+19 for winning)
+|raw|Mitchel bishop's rating: 1043 &rarr; <strong>1031<\/strong><br \/>(-12 for losing)
+|leave|Mitchel bishop
+|player|p2

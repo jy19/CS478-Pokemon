@@ -1,0 +1,317 @@
+﻿|join|Disaster Area
+|join|zShiro
+|player|p1|Disaster Area|32
+|player|p2|zShiro|2
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jolteon|Jolteon|333\/333
+|switch|p2a: Jynx|Jynx|333\/333
+|turn|1
+|c|★Disaster Area|gl hf
+|
+|move|p1a: Jolteon|Thunder Wave|p2a: Jynx
+|-status|p2a: Jynx|par
+|move|p2a: Jynx|Lovely Kiss|p1a: Jolteon
+|-status|p1a: Jolteon|slp
+|
+|turn|2
+|c|★zShiro|u2
+|
+|switch|p1a: Lapras|Lapras|463\/463
+|cant|p2a: Jynx|par
+|
+|turn|3
+|
+|move|p1a: Lapras|Thunderbolt|p2a: Jynx
+|-damage|p2a: Jynx|255\/333 par
+|move|p2a: Jynx|Psychic|p1a: Lapras
+|-damage|p1a: Lapras|351\/463
+|-unboost|p1a: Lapras|spd|1
+|-unboost|p1a: Lapras|spa|1
+|
+|turn|4
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|switch|p2a: Jolteon|Jolteon|333\/333
+|
+|turn|5
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|move|p2a: Jolteon|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|
+|turn|6
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Alakazam|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|
+|turn|7
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|388\/523
+|
+|turn|8
+|
+|cant|p2a: Snorlax|par
+|move|p1a: Snorlax|Counter|p2a: Snorlax
+|-damage|p2a: Snorlax|253\/523 par
+|
+|turn|9
+|
+|move|p2a: Snorlax|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|285\/523
+|move|p1a: Snorlax|Counter|p2a: Snorlax
+|-fail|p1a: Snorlax
+|
+|turn|10
+|
+|move|p1a: Snorlax|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|121\/523 par
+|cant|p2a: Snorlax|par
+|
+|turn|11
+|
+|move|p1a: Snorlax|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|turn|12
+|
+|move|p2a: Exeggutor|Psychic|p1a: Snorlax
+|-damage|p1a: Snorlax|123\/523
+|-unboost|p1a: Snorlax|spd|1
+|-unboost|p1a: Snorlax|spa|1
+|move|p1a: Snorlax|Body Slam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|276\/393
+|
+|turn|13
+|
+|switch|p1a: Alakazam|Alakazam|313\/313 par
+|move|p2a: Exeggutor|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|261\/313 par
+|-unboost|p1a: Alakazam|spd|1
+|-unboost|p1a: Alakazam|spa|1
+|
+|turn|14
+|
+|switch|p1a: Lapras|Lapras|351\/463
+|move|p2a: Exeggutor|Psychic|p1a: Lapras
+|-damage|p1a: Lapras|231\/463
+|-unboost|p1a: Lapras|spd|1
+|-unboost|p1a: Lapras|spa|1
+|
+|turn|15
+|
+|switch|p2a: Jolteon|Jolteon|333\/333
+|move|p1a: Lapras|Sing|p2a: Jolteon|[miss]
+|-miss|p1a: Lapras
+|
+|turn|16
+|c|★Disaster Area|:\/
+|
+|switch|p1a: Alakazam|Alakazam|261\/313 par
+|move|p2a: Jolteon|Thunderbolt|p1a: Alakazam
+|-damage|p1a: Alakazam|162\/313 par
+|
+|turn|17
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Alakazam
+|-damage|p1a: Alakazam|62\/313 par
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|218\/313 par
+|
+|turn|18
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Alakazam
+|-damage|p1a: Alakazam|119\/313 par
+|cant|p1a: Alakazam|par
+|
+|turn|19
+|
+|move|p2a: Jolteon|Pin Missile|p1a: Alakazam
+|-supereffective|p1a: Alakazam
+|-damage|p1a: Alakazam|90\/313 par
+|-damage|p1a: Alakazam|61\/313 par
+|-damage|p1a: Alakazam|32\/313 par
+|-hitcount|p1a: Alakazam|3
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|188\/313 par
+|
+|turn|20
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|c|★zShiro|finally lol
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|turn|21
+|c|★zShiro|my jolteon never crits :c
+|c|★Disaster Area|lol
+|c|★Disaster Area|I tried to
+|c|★Disaster Area|twave it
+|c|★Disaster Area|:c
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Starmie
+|-crit|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|switch|p1a: Koopacow|Tauros|353\/353
+|turn|22
+|
+|move|p2a: Jolteon|Thunder Wave|p1a: Koopacow
+|-status|p1a: Koopacow|par
+|move|p1a: Koopacow|Body Slam|p2a: Jolteon
+|-damage|p2a: Jolteon|206\/333
+|-status|p2a: Jolteon|par
+|
+|turn|23
+|c|★Disaster Area|jolt is so good rn it's unreal
+|c|★Disaster Area|;~;
+|
+|switch|p2a: Jynx|Jynx|255\/333 par
+|move|p1a: Koopacow|Earthquake|p2a: Jynx
+|-damage|p2a: Jynx|119\/333 par
+|
+|turn|24
+|
+|cant|p1a: Koopacow|par
+|move|p2a: Jynx|Psychic|p1a: Koopacow
+|-damage|p1a: Koopacow|225\/353 par
+|
+|turn|25
+|
+|move|p1a: Koopacow|Body Slam|p2a: Jynx
+|-crit|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|26
+|
+|move|p2a: Tauros|Body Slam|p1a: Koopacow
+|-damage|p1a: Koopacow|124\/353 par
+|move|p1a: Koopacow|Hyper Beam|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|22\/353
+|
+|turn|27
+|-mustrecharge|p1a: Koopacow
+|-mustrecharge|p1a: Koopacow
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Koopacow
+|-damage|p1a: Koopacow|0 fnt
+|faint|p1a: Koopacow
+|
+|switch|p1a: Lapras|Lapras|231\/463
+|turn|28
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Lapras|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|527\/703
+|
+|turn|29
+|
+|move|p1a: Lapras|Sing|p2a: Chansey
+|-status|p2a: Chansey|slp
+|-curestatus|p2a: Chansey|slp
+|
+|turn|30
+|
+|move|p1a: Lapras|Sing|p2a: Chansey
+|-status|p2a: Chansey|slp
+|cant|p2a: Chansey|slp
+|
+|turn|31
+|
+|move|p1a: Lapras|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|373\/703 slp
+|cant|p2a: Chansey|slp
+|
+|turn|32
+|
+|move|p1a: Lapras|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|213\/703 slp
+|cant|p2a: Chansey|slp
+|
+|turn|33
+|
+|move|p1a: Lapras|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|52\/703 slp
+|cant|p2a: Chansey|slp
+|
+|turn|34
+|
+|move|p1a: Lapras|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|switch|p2a: Exeggutor|Exeggutor|276\/393
+|turn|35
+|
+|switch|p1a: Snorlax|Snorlax|123\/523
+|move|p2a: Exeggutor|Psychic|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|switch|p1a: Jolteon|Jolteon|333\/333 slp
+|turn|36
+|
+|cant|p1a: Jolteon|slp
+|move|p2a: Exeggutor|Psychic|p1a: Jolteon
+|-damage|p1a: Jolteon|209\/333 slp
+|
+|turn|37
+|
+|cant|p1a: Jolteon|slp
+|move|p2a: Exeggutor|Psychic|p1a: Jolteon
+|-damage|p1a: Jolteon|82\/333 slp
+|-unboost|p1a: Jolteon|spd|1
+|-unboost|p1a: Jolteon|spa|1
+|
+|turn|38
+|
+|-curestatus|p1a: Jolteon|slp
+|move|p2a: Exeggutor|Psychic|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|switch|p1a: Lapras|Lapras|231\/463
+|turn|39
+|
+|move|p1a: Lapras|Blizzard|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|60\/393
+|move|p2a: Exeggutor|Explosion|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|faint|p2a: Exeggutor
+|
+|win|zShiro
+|raw|Ladder updating...
+|raw|Disaster Area's rating: 1151 &rarr; <strong>1116<\/strong><br \/>(-35 for losing)
+|raw|zShiro's rating: 1000 &rarr; <strong>1056<\/strong><br \/>(+56 for winning)
+|c|★Disaster Area|hmm
+|c|★zShiro|gg
+|c|★Disaster Area|should have
+|c|★Disaster Area|gone for sing
+|c|★Disaster Area|gg
+|c|★zShiro|y
+|c|★Disaster Area|rip

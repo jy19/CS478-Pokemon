@@ -1,0 +1,394 @@
+﻿|j|Verge88
+|j|ALLIE X
+|player|p1|Verge88|170
+|player|p2|ALLIE X|95
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|5014,35059,20429,32195
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Scyther|Scyther, L90|309\/309
+|switch|p2a: Dewgong|Dewgong, L85|327\/327
+|turn|1
+|choice|switch 6|move 2
+|
+|switch|p1a: Lapras|Lapras, L79|367\/367
+|move|p2a: Dewgong|Blizzard|p1a: Lapras
+|-resisted|p1a: Lapras
+|-damage|p1a: Lapras|335\/367
+|
+|turn|2
+|choice|move 1|switch 6
+|
+|switch|p2a: Raichu|Raichu, L85|276\/276
+|move|p1a: Lapras|Thunderbolt|p2a: Raichu
+|-resisted|p2a: Raichu
+|-damage|p2a: Raichu|250\/276
+|
+|turn|3
+|choice|switch 2|move 1
+|
+|switch|p1a: Nidoqueen|Nidoqueen, L85|327\/327
+|move|p2a: Raichu|Surf|p1a: Nidoqueen
+|-crit|p1a: Nidoqueen
+|-supereffective|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|53\/327
+|
+|turn|4
+|choice|switch 3|move 1
+|
+|switch|p1a: Snorlax|Snorlax, L79|415\/415
+|move|p2a: Raichu|Surf|p1a: Snorlax
+|-damage|p1a: Snorlax|326\/415
+|
+|turn|5
+|choice|move 1|switch 4
+|
+|switch|p2a: Cloyster|Cloyster, L83|253\/253
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|
+|turn|6
+|choice|move 1|switch 5
+|
+|switch|p2a: Venomoth|Venomoth, L85|293\/293
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|
+|turn|7
+|choice|move 3|move 3
+|
+|move|p2a: Venomoth|Sleep Powder|p1a: Snorlax
+|-status|p1a: Snorlax|slp
+|-curestatus|p1a: Snorlax|slp
+|
+|turn|8
+|choice|move 3|move 3
+|
+|move|p2a: Venomoth|Sleep Powder|p1a: Snorlax
+|-status|p1a: Snorlax|slp
+|cant|p1a: Snorlax|slp
+|
+|turn|9
+|choice|move 3|switch 2
+|
+|switch|p2a: Tauros|Tauros, L79|280\/280
+|cant|p1a: Snorlax|slp
+|
+|turn|10
+|choice|move 3|move 1
+|
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|117\/415 slp
+|cant|p1a: Snorlax|slp
+|
+|turn|11
+|choice|move 1|move 1
+|
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|11\/415 slp
+|cant|p1a: Snorlax|slp
+|
+|turn|12
+|choice|move 1|move 1
+|
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|choice|switch 5|
+|
+|switch|p1a: Primeape|Primeape, L90|300\/300
+|turn|13
+|choice|move 1|switch 3
+|
+|switch|p2a: Gastly|Gastly, L96|252\/252
+|move|p1a: Primeape|Submission|p2a: Gastly
+|-immune|p2a: Gastly|[msg]
+|
+|turn|14
+|choice|switch 4|move 3
+|
+|switch|p1a: Hypno|Hypno, L85|318\/318
+|move|p2a: Gastly|Confuse Ray|p1a: Hypno
+|-start|p1a: Hypno|confusion
+|
+|turn|15
+|choice|move 2|switch 6
+|
+|switch|p2a: Dewgong|Dewgong, L85|327\/327
+|-activate|p1a: Hypno|confusion
+|move|p1a: Hypno|Thunder Wave|p2a: Dewgong
+|-status|p2a: Dewgong|par
+|
+|turn|16
+|choice|switch 2|move 1
+|
+|switch|p1a: Lapras|Lapras, L79|335\/367
+|move|p2a: Dewgong|Mimic|p1a: Lapras
+|-start|p2a: Dewgong|Mimic|Rest
+|
+|turn|17
+|choice|move 4|move 3
+|
+|move|p1a: Lapras|Ice Beam|p2a: Dewgong
+|-resisted|p2a: Dewgong
+|-damage|p2a: Dewgong|308\/327 par
+|move|p2a: Dewgong|Body Slam|p1a: Lapras
+|-damage|p1a: Lapras|278\/367
+|-status|p1a: Lapras|par
+|
+|turn|18
+|choice|move 1|switch 4
+|
+|switch|p2a: Raichu|Raichu, L85|250\/276
+|move|p1a: Lapras|Thunderbolt|p2a: Raichu
+|-resisted|p2a: Raichu
+|-damage|p2a: Raichu|224\/276
+|
+|turn|19
+|choice|switch 3|move 2
+|
+|switch|p1a: Nidoqueen|Nidoqueen, L85|53\/327
+|move|p2a: Raichu|Thunderbolt|p1a: Nidoqueen
+|-immune|p1a: Nidoqueen|[msg]
+|
+|turn|20
+|choice|switch 3|move 1
+|
+|switch|p1a: Lapras|Lapras, L79|278\/367 par
+|move|p2a: Raichu|Surf|p1a: Lapras
+|-resisted|p1a: Lapras
+|-damage|p1a: Lapras|246\/367 par
+|
+|turn|21
+|choice|switch 3|move 2
+|
+|switch|p1a: Nidoqueen|Nidoqueen, L85|53\/327
+|move|p2a: Raichu|Thunderbolt|p1a: Nidoqueen
+|-immune|p1a: Nidoqueen|[msg]
+|
+|turn|22
+|choice|move 1|move 1
+|
+|move|p2a: Raichu|Surf|p1a: Nidoqueen
+|-crit|p1a: Nidoqueen
+|-supereffective|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|0 fnt
+|faint|p1a: Nidoqueen
+|choice|switch 2|
+|
+|switch|p1a: Hypno|Hypno, L85|318\/318
+|turn|23
+|choice|move 3|switch 4
+|
+|switch|p2a: Dewgong|Dewgong, L85|308\/327 par
+|move|p1a: Hypno|Hypnosis|p2a: Dewgong|[miss]
+|-miss|p1a: Hypno
+|
+|turn|24
+|choice|move 1|move 1
+|
+|move|p1a: Hypno|Psychic|p2a: Dewgong
+|-damage|p2a: Dewgong|205\/327 par
+|move|p2a: Dewgong|Mimic|p1a: Hypno
+|-start|p2a: Dewgong|Mimic|Hypnosis
+|
+|turn|25
+|choice|move 1|move 1
+|
+|move|p1a: Hypno|Psychic|p2a: Dewgong
+|-damage|p2a: Dewgong|109\/327 par
+|cant|p2a: Dewgong|par
+|
+|turn|26
+|choice|move 1|move 1
+|
+|move|p1a: Hypno|Psychic|p2a: Dewgong
+|-damage|p2a: Dewgong|7\/327 par
+|-unboost|p2a: Dewgong|spd|1
+|-unboost|p2a: Dewgong|spa|1
+|move|p2a: Dewgong|Hypnosis|p1a: Hypno
+|-status|p1a: Hypno|slp
+|
+|turn|27
+|choice|move 1|switch 3
+|
+|switch|p2a: Tauros|Tauros, L79|280\/280
+|cant|p1a: Hypno|slp
+|
+|turn|28
+|choice|move 1|move 1
+|
+|move|p2a: Tauros|Body Slam|p1a: Hypno
+|-damage|p1a: Hypno|226\/318 slp
+|cant|p1a: Hypno|slp
+|
+|turn|29
+|choice|switch 4|move 1
+|
+|switch|p1a: Primeape|Primeape, L90|300\/300
+|move|p2a: Tauros|Body Slam|p1a: Primeape
+|-damage|p1a: Primeape|204\/300
+|
+|turn|30
+|choice|switch 4|switch 6
+|
+|switch|p1a: Hypno|Hypno, L85|226\/318 slp
+|switch|p2a: Gastly|Gastly, L96|252\/252
+|
+|turn|31
+|choice|move 1|move 3
+|
+|move|p2a: Gastly|Confuse Ray|p1a: Hypno
+|-start|p1a: Hypno|confusion
+|-curestatus|p1a: Hypno|slp
+|
+|turn|32
+|choice|move 1|move 1
+|
+|move|p2a: Gastly|Hypnosis|p1a: Hypno|[miss]
+|-miss|p2a: Gastly
+|-activate|p1a: Hypno|confusion
+|-damage|p1a: Hypno|195\/318|[from] confusion
+|
+|turn|33
+|choice|switch 3|move 1
+|
+|switch|p1a: Lapras|Lapras, L79|246\/367 par
+|move|p2a: Gastly|Hypnosis|p1a: Lapras|[miss]
+|-miss|p2a: Gastly
+|
+|turn|34
+|choice|move 3|move 3
+|
+|move|p2a: Gastly|Confuse Ray|p1a: Lapras
+|-start|p1a: Lapras|confusion
+|cant|p1a: Lapras|par
+|
+|turn|35
+|choice|move 4|move 4
+|
+|move|p2a: Gastly|Thunderbolt|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|57\/367 par
+|-activate|p1a: Lapras|confusion
+|-damage|p1a: Lapras|28\/367 par|[from] confusion
+|
+|turn|36
+|choice|switch 3|move 2
+|
+|switch|p1a: Hypno|Hypno, L85|195\/318
+|move|p2a: Gastly|Mega Drain|p1a: Hypno
+|-damage|p1a: Hypno|161\/318
+|
+|turn|37
+|choice|move 1|move 1
+|
+|move|p2a: Gastly|Hypnosis|p1a: Hypno|[miss]
+|-miss|p2a: Gastly
+|move|p1a: Hypno|Psychic|p2a: Gastly
+|-supereffective|p2a: Gastly
+|-damage|p2a: Gastly|60\/252
+|-unboost|p2a: Gastly|spd|1
+|-unboost|p2a: Gastly|spa|1
+|
+|turn|38
+|choice|move 1|move 1
+|
+|move|p2a: Gastly|Hypnosis|p1a: Hypno
+|-status|p1a: Hypno|slp
+|-curestatus|p1a: Hypno|slp
+|
+|turn|39
+|choice|move 1|move 1
+|
+|move|p2a: Gastly|Hypnosis|p1a: Hypno
+|-status|p1a: Hypno|slp
+|cant|p1a: Hypno|slp
+|
+|turn|40
+|choice|switch 6|switch 4
+|
+|switch|p2a: Raichu|Raichu, L85|224\/276
+|switch|p1a: Scyther|Scyther, L90|309\/309
+|
+|turn|41
+|choice|move 4|move 3
+|
+|move|p1a: Scyther|Slash|p2a: Raichu
+|-crit|p2a: Raichu
+|-damage|p2a: Raichu|70\/276
+|move|p2a: Raichu|Thunder Wave|p1a: Scyther
+|-status|p1a: Scyther|par
+|
+|turn|42
+|choice|move 4|move 2
+|
+|move|p2a: Raichu|Thunderbolt|p1a: Scyther
+|-crit|p1a: Scyther
+|-supereffective|p1a: Scyther
+|-damage|p1a: Scyther|0 fnt
+|faint|p1a: Scyther
+|choice|switch 6|
+|
+|switch|p1a: Hypno|Hypno, L85|161\/318 slp
+|turn|43
+|choice|move 1|move 2
+|
+|move|p2a: Raichu|Thunderbolt|p1a: Hypno
+|-damage|p1a: Hypno|82\/318 slp
+|-curestatus|p1a: Hypno|slp
+|
+|turn|44
+|choice|move 1|move 2
+|
+|move|p2a: Raichu|Thunderbolt|p1a: Hypno
+|-damage|p1a: Hypno|0 fnt
+|faint|p1a: Hypno
+|choice|switch 4|
+|
+|switch|p1a: Primeape|Primeape, L90|204\/300
+|turn|45
+|choice|move 3|switch 4
+|
+|switch|p2a: Gastly|Gastly, L96|60\/252
+|move|p1a: Primeape|Body Slam|p2a: Gastly
+|-immune|p2a: Gastly|[msg]
+|
+|turn|46
+|choice|move 3|move 3
+|
+|move|p1a: Primeape|Body Slam|p2a: Gastly
+|-immune|p2a: Gastly|[msg]
+|move|p2a: Gastly|Confuse Ray|p1a: Primeape
+|-start|p1a: Primeape|confusion
+|
+|turn|47
+|choice|switch 3|move 4
+|
+|switch|p1a: Lapras|Lapras, L79|28\/367 par
+|move|p2a: Gastly|Thunderbolt|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|c|★Verge88|yup
+|choice|switch 3|
+|
+|switch|p1a: Primeape|Primeape, L90|204\/300
+|turn|48
+|c|★Verge88|till next time ;)
+|-message|Verge88 forfeited.
+|
+|win|ALLIE X
+|l|Verge88
+|player|p1
+|raw|Verge88's rating: 1420 &rarr; <strong>1399<\/strong><br \/>(-21 for losing)
+|raw|ALLIE X's rating: 1390 &rarr; <strong>1412<\/strong><br \/>(+22 for winning)

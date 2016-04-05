@@ -1,0 +1,353 @@
+﻿|join|kid gf lol
+|join|bj0rn
+|player|p1|kid gf lol|167
+|player|p2|bj0rn|1
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|switch|p1a: Zam Lead|Alakazam|313\/313
+|switch|p2a: Alakazam|Alakazam|313\/313
+|turn|1
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|switch|p1a: Breakfast Pouch|Chansey|703\/703
+|
+|turn|2
+|chat|kid gf lol|awkward
+|
+|switch|p1a: Mr Mime|Jynx|333\/333
+|move|p2a: Chansey|Ice Beam|p1a: Mr Mime
+|-resisted|p1a: Mr Mime
+|-damage|p1a: Mr Mime|292\/333
+|
+|turn|3
+|
+|switch|p2a: Alakazam|Alakazam|313\/313
+|move|p1a: Mr Mime|Lovely Kiss|p2a: Alakazam
+|-status|p2a: Alakazam|slp
+|
+|turn|4
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Mr Mime|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|596\/703
+|
+|turn|5
+|
+|move|p1a: Mr Mime|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|500\/703
+|move|p2a: Chansey|Thunderbolt|p1a: Mr Mime
+|-crit|p1a: Mr Mime
+|-damage|p1a: Mr Mime|118\/333
+|
+|turn|6
+|
+|switch|p1a: Breakfast Pouch|Chansey|703\/703
+|move|p2a: Chansey|Thunderbolt|p1a: Breakfast Pouch
+|-damage|p1a: Breakfast Pouch|627\/703
+|
+|turn|7
+|
+|move|p1a: Breakfast Pouch|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|428\/703
+|move|p2a: Chansey|Ice Beam|p1a: Breakfast Pouch
+|-damage|p1a: Breakfast Pouch|549\/703
+|
+|turn|8
+|
+|move|p2a: Chansey|Ice Beam|p1a: Breakfast Pouch
+|-damage|p1a: Breakfast Pouch|468\/703
+|move|p1a: Breakfast Pouch|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|355\/703
+|
+|turn|9
+|
+|move|p2a: Chansey|Ice Beam|p1a: Breakfast Pouch
+|-damage|p1a: Breakfast Pouch|398\/703
+|move|p1a: Breakfast Pouch|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|277\/703
+|
+|turn|10
+|
+|move|p1a: Breakfast Pouch|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|196\/703
+|-status|p2a: Chansey|frz
+|cant|p2a: Chansey|frz
+|
+|turn|11
+|
+|move|p1a: Breakfast Pouch|Soft-Boiled|p1a: Breakfast Pouch
+|-heal|p1a: Breakfast Pouch|703\/703
+|cant|p2a: Chansey|frz
+|
+|turn|12
+|
+|switch|p1a: Mr Mime|Jynx|118\/333
+|cant|p2a: Chansey|frz
+|
+|turn|13
+|
+|move|p1a: Mr Mime|Reflect|p1a: Mr Mime
+|cant|p2a: Chansey|frz
+|
+|turn|14
+|
+|move|p1a: Mr Mime|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|95\/703 frz
+|cant|p2a: Chansey|frz
+|
+|turn|15
+|
+|move|p1a: Mr Mime|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|
+|switch|p2a: Tentacruel|Tentacruel|363\/363
+|turn|16
+|
+|move|p2a: Tentacruel|Wrap|p1a: Mr Mime
+|-damage|p1a: Mr Mime|109\/333
+|-activate|p1a: Mr Mime|move: Wrap|[of] p2a: Tentacruel
+|cant|p1a: Mr Mime|partiallytrapped
+|
+|turn|17
+|
+|move|p2a: Tentacruel|Wrap|p1a: Mr Mime
+|-damage|p1a: Mr Mime|100\/333
+|cant|p1a: Mr Mime|partiallytrapped
+|
+|turn|18
+|
+|move|p2a: Tentacruel|Wrap|p1a: Mr Mime
+|-damage|p1a: Mr Mime|91\/333
+|cant|p1a: Mr Mime|partiallytrapped
+|
+|-end|p1a: Mr Mime|Wrap|[partiallytrapped]
+|turn|19
+|
+|switch|p1a: Zam Lead|Alakazam|313\/313
+|move|p2a: Tentacruel|Wrap|p1a: Zam Lead
+|-damage|p1a: Zam Lead|296\/313
+|-activate|p1a: Zam Lead|move: Wrap|[of] p2a: Tentacruel
+|
+|turn|20
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|cant|p1a: Zam Lead|partiallytrapped
+|
+|-end|p1a: Zam Lead|Wrap|[partiallytrapped]
+|turn|21
+|
+|move|p1a: Zam Lead|Seismic Toss|p2a: Exeggutor
+|-damage|p2a: Exeggutor|293\/393
+|move|p2a: Exeggutor|Sleep Powder|p1a: Zam Lead
+|-status|p1a: Zam Lead|slp
+|
+|turn|22
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|cant|p1a: Zam Lead|slp
+|
+|turn|23
+|
+|switch|p1a: Mr Mime|Jynx|91\/333
+|move|p2a: Tauros|Body Slam|p1a: Mr Mime
+|-damage|p1a: Mr Mime|0 fnt
+|faint|p1a: Mr Mime
+|
+|
+|switch|p1a: That's Bull|Tauros|353\/353
+|turn|24
+|
+|move|p2a: Tauros|Body Slam|p1a: That's Bull
+|-damage|p1a: That's Bull|248\/353
+|-status|p1a: That's Bull|par
+|cant|p1a: That's Bull|par
+|
+|turn|25
+|
+|move|p2a: Tauros|Body Slam|p1a: That's Bull
+|-damage|p1a: That's Bull|141\/353 par
+|move|p1a: That's Bull|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|250\/353
+|-status|p2a: Tauros|par
+|
+|turn|26
+|
+|move|p2a: Tauros|Hyper Beam|p1a: That's Bull
+|-damage|p1a: That's Bull|0 fnt
+|faint|p1a: That's Bull
+|
+|
+|switch|p1a: Result of Incest|Exeggutor|393\/393
+|turn|27
+|
+|move|p1a: Result of Incest|Psychic|p2a: Tauros
+|-damage|p2a: Tauros|103\/353 par
+|move|p2a: Tauros|Blizzard|p1a: Result of Incest
+|-crit|p1a: Result of Incest
+|-supereffective|p1a: Result of Incest
+|-damage|p1a: Result of Incest|125\/393
+|
+|turn|28
+|
+|move|p1a: Result of Incest|Psychic|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|
+|switch|p2a: Tentacruel|Tentacruel|363\/363
+|turn|29
+|
+|switch|p1a: Cleffable|Gengar|323\/323
+|move|p2a: Tentacruel|Wrap|p1a: Cleffable|[miss]
+|-miss|p2a: Tentacruel
+|
+|turn|30
+|
+|switch|p2a: Exeggutor|Exeggutor|293\/393
+|move|p1a: Cleffable|Thunderbolt|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|218\/393
+|
+|turn|31
+|
+|switch|p1a: Breakfast Pouch|Chansey|703\/703
+|move|p2a: Exeggutor|Psychic|p1a: Breakfast Pouch
+|-damage|p1a: Breakfast Pouch|590\/703
+|
+|turn|32
+|
+|move|p2a: Exeggutor|Psychic|p1a: Breakfast Pouch
+|-damage|p1a: Breakfast Pouch|466\/703
+|move|p1a: Breakfast Pouch|Ice Beam|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|76\/393
+|
+|turn|33
+|
+|switch|p1a: Cleffable|Gengar|323\/323
+|move|p2a: Exeggutor|Psychic|p1a: Cleffable
+|-supereffective|p1a: Cleffable
+|-damage|p1a: Cleffable|108\/323
+|
+|turn|34
+|
+|switch|p1a: Breakfast Pouch|Chansey|466\/703
+|move|p2a: Exeggutor|Psychic|p1a: Breakfast Pouch
+|-damage|p1a: Breakfast Pouch|351\/703
+|-unboost|p1a: Breakfast Pouch|spd|1
+|-unboost|p1a: Breakfast Pouch|spa|1
+|
+|turn|35
+|
+|move|p2a: Exeggutor|Psychic|p1a: Breakfast Pouch
+|-damage|p1a: Breakfast Pouch|176\/703
+|move|p1a: Breakfast Pouch|Ice Beam|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|
+|switch|p2a: Tentacruel|Tentacruel|363\/363
+|turn|36
+|
+|move|p2a: Tentacruel|Hydro Pump|p1a: Breakfast Pouch
+|-damage|p1a: Breakfast Pouch|0 fnt
+|faint|p1a: Breakfast Pouch
+|
+|
+|switch|p1a: Cleffable|Gengar|108\/323
+|turn|37
+|
+|move|p1a: Cleffable|Thunderbolt|p2a: Tentacruel
+|-crit|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|47\/363
+|move|p2a: Tentacruel|Hydro Pump|p1a: Cleffable
+|-damage|p1a: Cleffable|0 fnt
+|faint|p1a: Cleffable
+|
+|
+|switch|p1a: Result of Incest|Exeggutor|125\/393
+|turn|38
+|
+|move|p2a: Tentacruel|Hyper Beam|p1a: Result of Incest|[miss]
+|-miss|p2a: Tentacruel
+|move|p1a: Result of Incest|Psychic|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|
+|switch|p2a: Alakazam|Alakazam|313\/313 slp
+|turn|39
+|
+|cant|p2a: Alakazam|slp
+|move|p1a: Result of Incest|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|261\/313 slp
+|
+|turn|40
+|
+|cant|p2a: Alakazam|slp
+|move|p1a: Result of Incest|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|213\/313 slp
+|
+|turn|41
+|
+|switch|p1a: Zam Lead|Alakazam|296\/313 slp
+|cant|p2a: Alakazam|slp
+|-curestatus|p2a: Alakazam|slp
+|
+|turn|42
+|
+|switch|p2a: Golem|Golem|363\/363
+|cant|p1a: Zam Lead|slp
+|
+|turn|43
+|
+|switch|p1a: Result of Incest|Exeggutor|125\/393
+|move|p2a: Golem|Body Slam|p1a: Result of Incest
+|-damage|p1a: Result of Incest|41\/393
+|-status|p1a: Result of Incest|par
+|
+|turn|44
+|chat|kid gf lol|ffs
+|
+|move|p2a: Golem|Body Slam|p1a: Result of Incest
+|-crit|p1a: Result of Incest
+|-damage|p1a: Result of Incest|0 fnt
+|faint|p1a: Result of Incest
+|
+|
+|switch|p1a: Zam Lead|Alakazam|296\/313 slp
+|turn|45
+|
+|cant|p1a: Zam Lead|slp
+|move|p2a: Golem|Explosion|p1a: Zam Lead
+|-damage|p1a: Zam Lead|0 fnt
+|faint|p1a: Zam Lead
+|faint|p2a: Golem
+|
+|win|bj0rn
+|raw|Ladder updating...
+|raw|kid gf lol's rating: 1463 &rarr; <strong>1435<\/strong><br \/>(-28 for losing)
+|raw|bj0rn's rating: 1316 &rarr; <strong>1344<\/strong><br \/>(+28 for winning)
+|leave|kid gf lol
+|player|p1
+|leave|bj0rn
+|player|p2

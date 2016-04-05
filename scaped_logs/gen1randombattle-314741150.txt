@@ -1,0 +1,299 @@
+﻿|j|MatiiasTB
+|j|RayGraham1
+|player|p1|MatiiasTB|102
+|player|p2|RayGraham1|169
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|48262,55542,45457,11774
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Slowpoke|Slowpoke, L96|368\/368
+|switch|p2a: Jigglypuff|Jigglypuff, L99|428\/428
+|turn|1
+|choice|move 4|switch 3
+|
+|switch|p2a: Electabuzz|Electabuzz, L85|284\/284
+|move|p1a: Slowpoke|Thunder Wave|p2a: Electabuzz
+|-status|p2a: Electabuzz|par
+|
+|turn|2
+|choice|switch 3|move 4
+|
+|switch|p1a: Primeape|Primeape, L90|300\/300
+|move|p2a: Electabuzz|Thunderbolt|p1a: Primeape
+|-damage|p1a: Primeape|188\/300
+|
+|turn|3
+|choice|move 4|move 1
+|
+|move|p1a: Primeape|Rock Slide|p2a: Electabuzz
+|-damage|p2a: Electabuzz|196\/284 par
+|move|p2a: Electabuzz|Psychic|p1a: Primeape
+|-supereffective|p1a: Primeape
+|-damage|p1a: Primeape|38\/300
+|
+|turn|4
+|choice|move 3|switch 5
+|
+|switch|p2a: Vileplume|Vileplume, L90|318\/318
+|move|p1a: Primeape|Hyper Beam|p2a: Vileplume
+|-damage|p2a: Vileplume|191\/318
+|
+|turn|5
+|-mustrecharge|p1a: Primeape
+|-mustrecharge|p1a: Primeape
+|choice|move 1|move 4
+|
+|cant|p1a: Primeape|recharge
+|move|p2a: Vileplume|Mega Drain|p1a: Primeape
+|-crit|p1a: Primeape
+|-damage|p1a: Primeape|0 fnt
+|-heal|p2a: Vileplume|210\/318|[from] drain|[of] p1a: Primeape
+|faint|p1a: Primeape
+|choice|switch 4|
+|
+|switch|p1a: Dewgong|Dewgong, L85|327\/327
+|turn|6
+|choice|move 3|move 2
+|
+|move|p1a: Dewgong|Blizzard|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|choice||switch 5
+|
+|switch|p2a: Electabuzz|Electabuzz, L85|196\/284 par
+|turn|7
+|choice|move 3|move 4
+|
+|move|p1a: Dewgong|Blizzard|p2a: Electabuzz
+|-damage|p2a: Electabuzz|63\/284 par
+|move|p2a: Electabuzz|Thunderbolt|p1a: Dewgong
+|-supereffective|p1a: Dewgong
+|-damage|p1a: Dewgong|153\/327
+|
+|turn|8
+|choice|move 3|move 4
+|
+|move|p1a: Dewgong|Blizzard|p2a: Electabuzz
+|-damage|p2a: Electabuzz|0 fnt
+|faint|p2a: Electabuzz
+|choice||switch 6
+|
+|switch|p2a: Gengar|Gengar, L79|257\/257
+|turn|9
+|choice|move 3|move 2
+|
+|move|p2a: Gengar|Thunderbolt|p1a: Dewgong
+|-crit|p1a: Dewgong
+|-supereffective|p1a: Dewgong
+|-damage|p1a: Dewgong|0 fnt
+|faint|p1a: Dewgong
+|choice|switch 6|
+|
+|switch|p1a: Chansey|Chansey, L79|557\/557
+|turn|10
+|choice|move 2|move 1
+|
+|move|p2a: Gengar|Hypnosis|p1a: Chansey|[miss]
+|-miss|p2a: Gengar
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-start|p1a: Chansey|Reflect
+|
+|turn|11
+|choice|move 3|move 1
+|
+|move|p2a: Gengar|Hypnosis|p1a: Chansey
+|-status|p1a: Chansey|slp
+|cant|p1a: Chansey|slp
+|
+|turn|12
+|choice|move 3|switch 4
+|
+|switch|p2a: Dodrio|Dodrio, L85|276\/276
+|cant|p1a: Chansey|slp
+|
+|turn|13
+|choice|move 3|move 3
+|
+|move|p2a: Dodrio|Drill Peck|p1a: Chansey
+|-damage|p1a: Chansey|429\/557 slp
+|cant|p1a: Chansey|slp
+|
+|turn|14
+|choice|move 3|move 4
+|
+|move|p2a: Dodrio|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|288\/557 slp
+|cant|p1a: Chansey|slp
+|
+|turn|15
+|choice|move 3|move 3
+|
+|move|p2a: Dodrio|Drill Peck|p1a: Chansey
+|-damage|p1a: Chansey|166\/557 slp
+|cant|p1a: Chansey|slp
+|
+|turn|16
+|choice|move 3|move 2
+|
+|move|p2a: Dodrio|Hyper Beam|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|choice|switch 5|
+|
+|switch|p1a: Electabuzz|Electabuzz, L85|284\/284
+|turn|17
+|choice|move 4|switch 4
+|
+|switch|p2a: Gengar|Gengar, L79|257\/257
+|move|p1a: Electabuzz|Thunderbolt|p2a: Gengar
+|-damage|p2a: Gengar|175\/257
+|
+|turn|18
+|choice|move 2|move 3
+|
+|move|p1a: Electabuzz|Psychic|p2a: Gengar
+|-crit|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|choice||switch 3
+|
+|switch|p2a: Jigglypuff|Jigglypuff, L99|428\/428
+|turn|19
+|choice|move 1|move 1
+|
+|move|p1a: Electabuzz|Thunder Wave|p2a: Jigglypuff
+|-status|p2a: Jigglypuff|par
+|cant|p2a: Jigglypuff|par
+|
+|turn|20
+|choice|move 3|move 1
+|
+|move|p1a: Electabuzz|Seismic Toss|p2a: Jigglypuff
+|-damage|p2a: Jigglypuff|343\/428 par
+|cant|p2a: Jigglypuff|par
+|
+|turn|21
+|choice|move 2|move 1
+|
+|move|p1a: Electabuzz|Psychic|p2a: Jigglypuff
+|-damage|p2a: Jigglypuff|251\/428 par
+|move|p2a: Jigglypuff|Thunder Wave|p1a: Electabuzz
+|-status|p1a: Electabuzz|par
+|
+|turn|22
+|choice|move 2|move 2
+|
+|move|p1a: Electabuzz|Psychic|p2a: Jigglypuff
+|-crit|p2a: Jigglypuff
+|-damage|p2a: Jigglypuff|60\/428 par
+|move|p2a: Jigglypuff|Sing|p1a: Electabuzz|[miss]
+|-miss|p2a: Jigglypuff
+|
+|turn|23
+|choice|move 3|move 2
+|
+|move|p1a: Electabuzz|Seismic Toss|p2a: Jigglypuff
+|-damage|p2a: Jigglypuff|0 fnt
+|faint|p2a: Jigglypuff
+|choice||switch 4
+|
+|switch|p2a: Dodrio|Dodrio, L85|276\/276
+|turn|24
+|choice|move 1|move 4
+|
+|move|p2a: Dodrio|Body Slam|p1a: Electabuzz
+|-damage|p1a: Electabuzz|156\/284 par
+|move|p1a: Electabuzz|Thunder Wave|p2a: Dodrio
+|-status|p2a: Dodrio|par
+|
+|turn|25
+|choice|move 4|move 2
+|
+|move|p1a: Electabuzz|Thunderbolt|p2a: Dodrio
+|-supereffective|p2a: Dodrio
+|-damage|p2a: Dodrio|51\/276 par
+|cant|p2a: Dodrio|par
+|
+|turn|26
+|choice|move 4|move 2
+|
+|cant|p1a: Electabuzz|par
+|cant|p2a: Dodrio|par
+|
+|turn|27
+|choice|move 4|move 2
+|
+|cant|p1a: Electabuzz|par
+|move|p2a: Dodrio|Hyper Beam|p1a: Electabuzz
+|-damage|p1a: Electabuzz|0 fnt
+|faint|p1a: Electabuzz
+|c|★RayGraham1|yesssss
+|choice|switch 3|
+|
+|switch|p1a: Slowpoke|Slowpoke, L96|368\/368
+|turn|28
+|choice|move 3|move 2
+|
+|move|p1a: Slowpoke|Surf|p2a: Dodrio
+|-damage|p2a: Dodrio|0 fnt
+|faint|p2a: Dodrio
+|choice||switch 2
+|
+|switch|p2a: Golduck|Golduck, L85|310\/310
+|turn|29
+|choice|move 4|move 2
+|
+|move|p2a: Golduck|Body Slam|p1a: Slowpoke
+|-damage|p1a: Slowpoke|313\/368
+|move|p1a: Slowpoke|Thunder Wave|p2a: Golduck
+|-status|p2a: Golduck|par
+|
+|turn|30
+|choice|move 1|move 2
+|
+|move|p1a: Slowpoke|Amnesia|p1a: Slowpoke
+|-boost|p1a: Slowpoke|spd|2
+|-boost|p1a: Slowpoke|spa|2
+|cant|p2a: Golduck|par
+|
+|turn|31
+|choice|move 1|move 2
+|
+|move|p1a: Slowpoke|Amnesia|p1a: Slowpoke
+|-boost|p1a: Slowpoke|spd|2
+|-boost|p1a: Slowpoke|spa|2
+|cant|p2a: Golduck|par
+|
+|turn|32
+|choice|move 1|move 2
+|
+|move|p1a: Slowpoke|Amnesia|p1a: Slowpoke
+|-boost|p1a: Slowpoke|spd|2
+|-boost|p1a: Slowpoke|spa|2
+|cant|p2a: Golduck|par
+|
+|turn|33
+|choice|move 3|move 2
+|
+|move|p1a: Slowpoke|Surf|p2a: Golduck
+|-resisted|p2a: Golduck
+|-damage|p2a: Golduck|155\/310 par
+|cant|p2a: Golduck|par
+|
+|turn|34
+|c|★RayGraham1|nice
+|-message|RayGraham1 forfeited.
+|
+|win|MatiiasTB
+|l|RayGraham1
+|player|p2
+|raw|MatiiasTB's rating: 1235 &rarr; <strong>1252<\/strong><br \/>(+17 for winning)
+|raw|RayGraham1's rating: 1107 &rarr; <strong>1091<\/strong><br \/>(-16 for losing)

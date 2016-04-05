@@ -1,0 +1,233 @@
+﻿|join|TrueQuesT
+|join|gen1masterrony
+|player|p1|TrueQuesT|170
+|player|p2|gen1masterrony|102
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Muk|Muk, L85|352\/352
+|switch|p2a: Aerodactyl|Aerodactyl, L85|310\/310
+|turn|1
+|
+|move|p2a: Aerodactyl|Double-Edge|p1a: Muk
+|-damage|p1a: Muk|272\/352
+|-damage|p2a: Aerodactyl|290\/310|[from] recoil|[of] p1a: Muk
+|move|p1a: Muk|Mega Drain|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|261\/310
+|-heal|p1a: Muk|286\/352|[from] drain|[of] p2a: Aerodactyl
+|
+|turn|2
+|
+|switch|p2a: Nidoqueen|Nidoqueen, L85|327\/327
+|move|p1a: Muk|Screech|p2a: Nidoqueen
+|-unboost|p2a: Nidoqueen|def|2
+|
+|turn|3
+|
+|move|p2a: Nidoqueen|Earthquake|p1a: Muk
+|-supereffective|p1a: Muk
+|-damage|p1a: Muk|58\/352
+|move|p1a: Muk|Body Slam|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|203\/327
+|
+|turn|4
+|
+|switch|p1a: Golbat|Golbat, L85|301\/301
+|move|p2a: Nidoqueen|Earthquake|p1a: Golbat
+|-immune|p1a: Golbat|[msg]
+|
+|turn|5
+|
+|move|p1a: Golbat|Confuse Ray|p2a: Nidoqueen
+|-start|p2a: Nidoqueen|confusion
+|-activate|p2a: Nidoqueen|confusion
+|-damage|p2a: Nidoqueen|146\/327|[from] confusion
+|
+|turn|6
+|
+|move|p1a: Golbat|Screech|p2a: Nidoqueen
+|-unboost|p2a: Nidoqueen|def|2
+|-activate|p2a: Nidoqueen|confusion
+|-damage|p2a: Nidoqueen|60\/327|[from] confusion
+|
+|turn|7
+|
+|move|p1a: Golbat|Mega Drain|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|32\/327
+|-activate|p2a: Nidoqueen|confusion
+|move|p2a: Nidoqueen|Blizzard|p1a: Golbat
+|-crit|p1a: Golbat
+|-supereffective|p1a: Golbat
+|-damage|p1a: Golbat|0 fnt
+|faint|p1a: Golbat
+|
+|switch|p1a: Kangaskhan|Kangaskhan, L85|352\/352
+|turn|8
+|
+|move|p1a: Kangaskhan|Body Slam|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|0 fnt
+|faint|p2a: Nidoqueen
+|
+|switch|p2a: Haunter|Haunter, L85|250\/250
+|turn|9
+|
+|switch|p2a: Aerodactyl|Aerodactyl, L85|261\/310
+|switch|p1a: Muk|Muk, L85|58\/352
+|
+|turn|10
+|
+|move|p2a: Aerodactyl|Double-Edge|p1a: Muk
+|-damage|p1a: Muk|0 fnt
+|-damage|p2a: Aerodactyl|247\/310|[from] recoil|[of] p1a: Muk
+|faint|p1a: Muk
+|
+|switch|p1a: Kangaskhan|Kangaskhan, L85|352\/352
+|turn|11
+|
+|move|p2a: Aerodactyl|Sky Attack|p1a: Kangaskhan|[still]
+|-prepare|p2a: Aerodactyl|Sky Attack|p1a: Kangaskhan
+|move|p1a: Kangaskhan|Surf|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|145\/310
+|
+|turn|12
+|
+|move|p2a: Aerodactyl|Sky Attack|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|189\/352
+|move|p1a: Kangaskhan|Surf|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|45\/310
+|
+|turn|13
+|
+|switch|p2a: Staryu|Staryu, L90|237\/237
+|switch|p1a: Magneton|Magneton, L85|259\/259
+|
+|turn|14
+|
+|switch|p2a: Marowak|Marowak, L85|276\/276
+|move|p1a: Magneton|Thunder Wave|p2a: Marowak
+|-immune|p2a: Marowak|[msg]
+|
+|turn|15
+|
+|switch|p1a: Kangaskhan|Kangaskhan, L85|189\/352
+|move|p2a: Marowak|Earthquake|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|81\/352
+|
+|turn|16
+|
+|switch|p2a: Staryu|Staryu, L90|237\/237
+|move|p1a: Kangaskhan|Earthquake|p2a: Staryu
+|-damage|p2a: Staryu|149\/237
+|
+|turn|17
+|
+|switch|p1a: Magneton|Magneton, L85|259\/259
+|move|p2a: Staryu|Surf|p1a: Magneton
+|-damage|p1a: Magneton|181\/259
+|
+|turn|18
+|
+|switch|p2a: Marowak|Marowak, L85|276\/276
+|switch|p1a: Kangaskhan|Kangaskhan, L85|81\/352
+|
+|turn|19
+|
+|move|p1a: Kangaskhan|Earthquake|p2a: Marowak
+|-damage|p2a: Marowak|217\/276
+|move|p2a: Marowak|Earthquake|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|0 fnt
+|faint|p1a: Kangaskhan
+|
+|switch|p1a: Kadabra|Kadabra, L85|242\/242
+|turn|20
+|
+|move|p1a: Kadabra|Psychic|p2a: Marowak
+|-damage|p2a: Marowak|54\/276
+|move|p2a: Marowak|Earthquake|p1a: Kadabra
+|-damage|p1a: Kadabra|88\/242
+|
+|turn|21
+|
+|switch|p2a: Staryu|Staryu, L90|149\/237
+|move|p1a: Kadabra|Psychic|p2a: Staryu
+|-crit|p2a: Staryu
+|-damage|p2a: Staryu|0 fnt
+|faint|p2a: Staryu
+|
+|switch|p2a: Haunter|Haunter, L85|250\/250
+|turn|22
+|
+|move|p1a: Kadabra|Thunder Wave|p2a: Haunter
+|-status|p2a: Haunter|par
+|cant|p2a: Haunter|par
+|
+|turn|23
+|
+|move|p1a: Kadabra|Psychic|p2a: Haunter
+|-supereffective|p2a: Haunter
+|-damage|p2a: Haunter|55\/250 par
+|cant|p2a: Haunter|par
+|
+|turn|24
+|
+|move|p1a: Kadabra|Psychic|p2a: Haunter
+|-supereffective|p2a: Haunter
+|-damage|p2a: Haunter|0 fnt
+|faint|p2a: Haunter
+|
+|switch|p2a: Aerodactyl|Aerodactyl, L85|45\/310
+|turn|25
+|
+|switch|p1a: Magneton|Magneton, L85|181\/259
+|move|p2a: Aerodactyl|Hyper Beam|p1a: Magneton
+|-crit|p1a: Magneton
+|-damage|p1a: Magneton|0 fnt
+|faint|p1a: Magneton
+|
+|switch|p1a: Kadabra|Kadabra, L85|88\/242
+|turn|26
+|
+|move|p2a: Aerodactyl|Hyper Beam|p1a: Kadabra
+|-damage|p1a: Kadabra|0 fnt
+|faint|p1a: Kadabra
+|
+|switch|p1a: Alakazam|Alakazam, L79|249\/249
+|turn|27
+|
+|move|p2a: Aerodactyl|Hyper Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|73\/249
+|move|p1a: Alakazam|Psychic|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|faint|p2a: Aerodactyl
+|
+|switch|p2a: Tangela|Tangela, L85|284\/284
+|turn|28
+|
+|move|p1a: Alakazam|Psychic|p2a: Tangela
+|-damage|p2a: Tangela|191\/284
+|-unboost|p2a: Tangela|spd|1
+|-unboost|p2a: Tangela|spa|1
+|move|p2a: Tangela|Stun Spore|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|
+|turn|29
+|c|★gen1masterrony|bad move
+|
+|move|p2a: Tangela|Hyper Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|win|gen1masterrony
+|raw|Ladder updating...
+|raw|TrueQuesT's rating: 1259 &rarr; <strong>1232<\/strong><br \/>(-27 for losing)
+|raw|gen1masterrony's rating: 1242 &rarr; <strong>1268<\/strong><br \/>(+26 for winning)
+|c|★TrueQuesT|gg man
+|c|★gen1masterrony|gg

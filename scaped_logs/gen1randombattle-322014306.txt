@@ -1,0 +1,248 @@
+﻿|j|Dervodel2
+|j|sophpou
+|player|p1|Dervodel2|238
+|player|p2|sophpou|175
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|43965,31185,44301,2841
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Nidorina|Nidorina, L90|309\/309
+|switch|p2a: Fearow|Fearow, L90|300\/300
+|turn|1
+|choice|move 4|move 1
+|
+|move|p2a: Fearow|Drill Peck|p1a: Nidorina
+|-damage|p1a: Nidorina|208\/309
+|move|p1a: Nidorina|Thunder|p2a: Fearow|[miss]
+|-miss|p1a: Nidorina
+|
+|turn|2
+|choice|move 4|move 2
+|
+|move|p2a: Fearow|Mirror Move|p2a: Fearow
+|move|p2a: Fearow|Thunder|p1a: Nidorina|[from]Mirror Move
+|-damage|p1a: Nidorina|122\/309
+|move|p1a: Nidorina|Thunder|p2a: Fearow|[miss]
+|-miss|p1a: Nidorina
+|
+|turn|3
+|choice|move 4|move 1
+|
+|move|p2a: Fearow|Drill Peck|p1a: Nidorina
+|-damage|p1a: Nidorina|13\/309
+|move|p1a: Nidorina|Thunder|p2a: Fearow|[miss]
+|-miss|p1a: Nidorina
+|
+|turn|4
+|c|★Dervodel2|its hard to play this way
+|choice|move 4|move 1
+|
+|move|p2a: Fearow|Drill Peck|p1a: Nidorina
+|-crit|p1a: Nidorina
+|-damage|p1a: Nidorina|0 fnt
+|faint|p1a: Nidorina
+|choice|switch 4|
+|
+|switch|p1a: Omastar|Omastar, L90|309\/309
+|turn|5
+|choice|move 1|switch 2
+|
+|switch|p2a: Voltorb|Voltorb, L96|272\/272
+|move|p1a: Omastar|Blizzard|p2a: Voltorb
+|-crit|p2a: Voltorb
+|-damage|p2a: Voltorb|9\/272
+|
+|turn|6
+|choice|switch 2|move 4
+|
+|switch|p1a: Ivysaur|Ivysaur, L85|276\/276
+|move|p2a: Voltorb|Thunder|p1a: Ivysaur
+|-resisted|p1a: Ivysaur
+|-damage|p1a: Ivysaur|220\/276
+|
+|turn|7
+|choice|move 2|move 1
+|
+|move|p2a: Voltorb|Explosion|p1a: Ivysaur
+|-damage|p1a: Ivysaur|26\/276
+|faint|p2a: Voltorb
+|choice||switch 4
+|
+|switch|p2a: Arcanine|Arcanine, L85|327\/327
+|turn|8
+|choice|switch 3|move 1
+|
+|switch|p1a: Slowbro|Slowbro, L79|312\/312
+|move|p2a: Arcanine|Reflect|p2a: Arcanine
+|-start|p2a: Arcanine|Reflect
+|
+|turn|9
+|choice|move 4|move 3
+|
+|move|p2a: Arcanine|Mimic|p1a: Slowbro
+|-start|p2a: Arcanine|Mimic|Rest
+|move|p1a: Slowbro|Thunder Wave|p2a: Arcanine
+|-status|p2a: Arcanine|par
+|
+|turn|10
+|choice|move 2|move 4
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|cant|p2a: Arcanine|par
+|
+|turn|11
+|choice|move 2|switch 6
+|
+|switch|p2a: Hitmonchan|Hitmonchan, L90|273\/273
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|
+|turn|12
+|choice|move 1|move 3
+|
+|move|p2a: Hitmonchan|Seismic Toss|p1a: Slowbro
+|-damage|p1a: Slowbro|222\/312
+|move|p1a: Slowbro|Surf|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|0 fnt
+|faint|p2a: Hitmonchan
+|choice||switch 5
+|
+|switch|p2a: Lickitung|Lickitung, L90|345\/345
+|turn|13
+|choice|move 1|move 3
+|
+|move|p2a: Lickitung|Earthquake|p1a: Slowbro
+|-damage|p1a: Slowbro|166\/312
+|move|p1a: Slowbro|Surf|p2a: Lickitung
+|-damage|p2a: Lickitung|93\/345
+|
+|turn|14
+|choice|move 1|move 4
+|
+|move|p2a: Lickitung|Swords Dance|p2a: Lickitung
+|-boost|p2a: Lickitung|atk|2
+|move|p1a: Slowbro|Surf|p2a: Lickitung
+|-damage|p2a: Lickitung|0 fnt
+|faint|p2a: Lickitung
+|choice||switch 3
+|
+|switch|p2a: Wartortle|Wartortle, L85|274\/274
+|turn|15
+|choice|move 4|move 2
+|
+|move|p2a: Wartortle|Blizzard|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|153\/312
+|-status|p1a: Slowbro|frz
+|cant|p1a: Slowbro|frz
+|
+|turn|16
+|c|★Dervodel2|you lucky little
+|choice|switch 5|move 1
+|
+|switch|p1a: Magneton|Magneton, L90|273\/273
+|move|p2a: Wartortle|Body Slam|p1a: Magneton
+|-damage|p1a: Magneton|230\/273
+|
+|turn|17
+|choice|move 1|move 2
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Wartortle
+|-crit|p2a: Wartortle
+|-supereffective|p2a: Wartortle
+|-damage|p2a: Wartortle|0 fnt
+|faint|p2a: Wartortle
+|choice||switch 2
+|
+|switch|p2a: Fearow|Fearow, L90|300\/300
+|turn|18
+|choice|move 1|move 2
+|
+|move|p2a: Fearow|Mirror Move|p2a: Fearow
+|move|p2a: Fearow|Thunderbolt|p1a: Magneton|[from]Mirror Move
+|-crit|p1a: Magneton
+|-resisted|p1a: Magneton
+|-damage|p1a: Magneton|188\/273
+|move|p1a: Magneton|Thunderbolt|p2a: Fearow
+|-supereffective|p2a: Fearow
+|-damage|p2a: Fearow|10\/300
+|
+|turn|19
+|choice|move 1|move 4
+|
+|move|p2a: Fearow|Double-Edge|p1a: Magneton
+|-crit|p1a: Magneton
+|-damage|p1a: Magneton|0 fnt
+|-damage|p2a: Fearow|0 fnt|[from] recoil|[of] p1a: Magneton
+|faint|p1a: Magneton
+|faint|p2a: Fearow
+|choice|switch 6|switch 6
+|
+|switch|p1a: Parasect|Parasect, L90|291\/291
+|switch|p2a: Arcanine|Arcanine, L85|327\/327 par
+|turn|20
+|choice|move 2|move 4
+|
+|move|p1a: Parasect|Slash|p2a: Arcanine
+|-crit|p2a: Arcanine
+|-damage|p2a: Arcanine|211\/327 par
+|move|p2a: Arcanine|Body Slam|p1a: Parasect
+|-damage|p1a: Parasect|221\/291
+|
+|turn|21
+|choice|move 2|move 2
+|
+|move|p1a: Parasect|Slash|p2a: Arcanine
+|-damage|p2a: Arcanine|149\/327 par
+|move|p2a: Arcanine|Hyper Beam|p1a: Parasect|[miss]
+|-miss|p2a: Arcanine
+|
+|turn|22
+|choice|move 2|move 3
+|
+|move|p1a: Parasect|Slash|p2a: Arcanine
+|-crit|p2a: Arcanine
+|-damage|p2a: Arcanine|36\/327 par
+|move|p2a: Arcanine|Mimic|p1a: Parasect
+|-start|p2a: Arcanine|Mimic|Spore
+|
+|turn|23
+|choice|switch 5|move 3
+|
+|switch|p1a: Slowbro|Slowbro, L79|153\/312 frz
+|move|p2a: Arcanine|Spore|p1a: Slowbro
+|-fail|p1a: Slowbro
+|
+|turn|24
+|choice|switch 5|move 4
+|
+|switch|p1a: Parasect|Parasect, L90|221\/291
+|move|p2a: Arcanine|Body Slam|p1a: Parasect
+|-damage|p1a: Parasect|160\/291
+|-status|p1a: Parasect|par
+|
+|turn|25
+|choice|move 2|move 4
+|
+|move|p2a: Arcanine|Body Slam|p1a: Parasect
+|-damage|p1a: Parasect|96\/291 par
+|move|p1a: Parasect|Slash|p2a: Arcanine
+|-crit|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|win|Dervodel2
+|player|p1
+|player|p2
+|raw|Dervodel2's rating: 1309 &rarr; <strong>1321<\/strong><br \/>(+12 for winning)
+|raw|sophpou's rating: 1159 &rarr; <strong>1145<\/strong><br \/>(-14 for losing)
+|l|sophpou

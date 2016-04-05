@@ -1,0 +1,723 @@
+﻿|join|Nanako chan
+|join|Giju
+|player|p1|Nanako chan|104
+|player|p2|Giju|163
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Rapidash|Rapidash|333\/333
+|switch|p2a: Alak|Alakazam|313\/313
+|turn|1
+|
+|move|p2a: Alak|Thunder Wave|p1a: Rapidash
+|-status|p1a: Rapidash|par
+|move|p1a: Rapidash|Toxic|p2a: Alak
+|-status|p2a: Alak|tox
+|
+|turn|2
+|
+|switch|p2a: Slow|Slowbro|393\/393
+|cant|p1a: Rapidash|par
+|
+|turn|3
+|
+|move|p2a: Slow|Amnesia|p2a: Slow
+|-boost|p2a: Slow|spd|2
+|-boost|p2a: Slow|spa|2
+|move|p1a: Rapidash|Agility|p1a: Rapidash
+|-boost|p1a: Rapidash|spe|2
+|
+|turn|4
+|
+|move|p1a: Rapidash|Toxic|p2a: Slow
+|-status|p2a: Slow|tox
+|move|p2a: Slow|Surf|p1a: Rapidash
+|-supereffective|p1a: Rapidash
+|-damage|p1a: Rapidash|0 fnt
+|faint|p1a: Rapidash
+|
+|switch|p1a: Dragonite|Dragonite|385\/385
+|turn|5
+|
+|move|p1a: Dragonite|Wrap|p2a: Slow
+|-damage|p2a: Slow|379\/393 tox
+|-activate|p2a: Slow|move: Wrap|[of] p1a: Dragonite
+|cant|p2a: Slow|partiallytrapped
+|-damage|p2a: Slow|355\/393 tox|[from] tox|[of] p1a: Dragonite
+|
+|turn|6
+|
+|switch|p2a: Alak|Alakazam|313\/313 tox
+|-status|p2a: Alak|psn
+|-damage|p2a: Alak|294\/313 psn|[from] psn
+|move|p1a: Dragonite|Wrap|p2a: Alak
+|-damage|p2a: Alak|272\/313 psn
+|-activate|p2a: Alak|move: Wrap|[of] p1a: Dragonite
+|
+|turn|7
+|
+|cant|p2a: Alak|partiallytrapped
+|-damage|p2a: Alak|253\/313 psn|[from] psn|[of] p1a: Dragonite
+|move|p1a: Dragonite|Wrap|p2a: Alak
+|-damage|p2a: Alak|231\/313 psn
+|
+|-end|p2a: Alak|Wrap|[partiallytrapped]
+|turn|8
+|
+|move|p2a: Alak|Thunder Wave|p1a: Dragonite
+|-status|p1a: Dragonite|par
+|-damage|p2a: Alak|212\/313 psn|[from] psn|[of] p1a: Dragonite
+|move|p1a: Dragonite|Agility|p1a: Dragonite
+|-boost|p1a: Dragonite|spe|2
+|
+|turn|9
+|
+|move|p1a: Dragonite|Wrap|p2a: Alak
+|-damage|p2a: Alak|187\/313 psn
+|-activate|p2a: Alak|move: Wrap|[of] p1a: Dragonite
+|cant|p2a: Alak|partiallytrapped
+|-damage|p2a: Alak|168\/313 psn|[from] psn|[of] p1a: Dragonite
+|
+|turn|10
+|c|★Giju|nice idea!!
+|c|★Giju|:D
+|c|★Nanako chan|ikr?
+|c|★Giju|toxic and also wrap
+|c|★Nanako chan|i think i'm getting used to strategizing in gen 1 now
+|c|★Giju|deadly
+|
+|cant|p1a: Dragonite|par
+|cant|p2a: Alak|partiallytrapped
+|-damage|p2a: Alak|149\/313 psn|[from] psn|[of] p1a: Dragonite
+|
+|-end|p2a: Alak|Wrap|[partiallytrapped]
+|turn|11
+|c|★Nanako chan|although
+|c|★Nanako chan|this team is actually kinda easy to beat in my opinion
+|c|★Nanako chan|but
+|c|★Nanako chan|next time i won't use four wrappers
+|
+|move|p1a: Dragonite|Wrap|p2a: Alak
+|-damage|p2a: Alak|125\/313 psn
+|-activate|p2a: Alak|move: Wrap|[of] p1a: Dragonite
+|cant|p2a: Alak|partiallytrapped
+|-damage|p2a: Alak|106\/313 psn|[from] psn|[of] p1a: Dragonite
+|
+|turn|12
+|
+|switch|p2a: Gol|Golem|363\/363
+|move|p1a: Dragonite|Wrap|p2a: Gol
+|-crit|p2a: Gol
+|-resisted|p2a: Gol
+|-damage|p2a: Gol|352\/363
+|-activate|p2a: Gol|move: Wrap|[of] p1a: Dragonite
+|
+|turn|13
+|c|★Giju|but for now i've got no many things to go over that lol
+|
+|cant|p1a: Dragonite|par
+|cant|p2a: Gol|partiallytrapped
+|
+|-end|p2a: Gol|Wrap|[partiallytrapped]
+|turn|14
+|c|★Nanako chan|hmmm what to do next..........
+|c|★Giju|i always dunno how to counter wrap dragonite
+|c|★Giju|just hate him
+|
+|cant|p1a: Dragonite|par
+|move|p2a: Gol|Explosion|p1a: Dragonite
+|-damage|p1a: Dragonite|105\/385 par
+|faint|p2a: Gol
+|
+|switch|p2a: Alak|Alakazam|106\/313 psn
+|turn|15
+|c|★Nanako chan|you actually got the right idea to para dragonite
+|c|★Nanako chan|he can't move much
+|c|★Nanako chan|so you have a chance
+|c|★Giju|is the only way
+|
+|move|p1a: Dragonite|Wrap|p2a: Alak
+|-damage|p2a: Alak|84\/313 psn
+|-activate|p2a: Alak|move: Wrap|[of] p1a: Dragonite
+|cant|p2a: Alak|partiallytrapped
+|-damage|p2a: Alak|65\/313 psn|[from] psn|[of] p1a: Dragonite
+|
+|turn|16
+|
+|switch|p2a: Tau|Tauros|353\/353
+|move|p1a: Dragonite|Wrap|p2a: Tau
+|-damage|p2a: Tau|337\/353
+|-activate|p2a: Tau|move: Wrap|[of] p1a: Dragonite
+|
+|turn|17
+|c|★Nanako chan|in cases of teams that carry one or two wrappers, it's best to just let the pp run out and switch a lot
+|c|★Nanako chan|but for three and four, it's a different story
+|
+|switch|p2a: Slow|Slowbro|355\/393 tox
+|-status|p2a: Slow|psn
+|-damage|p2a: Slow|331\/393 psn|[from] psn
+|move|p1a: Dragonite|Wrap|p2a: Slow|[miss]
+|-miss|p1a: Dragonite
+|
+|turn|18
+|
+|cant|p1a: Dragonite|par
+|move|p2a: Slow|Surf|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|54\/385 par
+|-damage|p2a: Slow|307\/393 psn|[from] psn|[of] p1a: Dragonite
+|
+|turn|19
+|
+|move|p1a: Dragonite|Wrap|p2a: Slow
+|-damage|p2a: Slow|293\/393 psn
+|-activate|p2a: Slow|move: Wrap|[of] p1a: Dragonite
+|cant|p2a: Slow|partiallytrapped
+|-damage|p2a: Slow|269\/393 psn|[from] psn
+|
+|turn|20
+|
+|move|p1a: Dragonite|Wrap|p2a: Slow
+|-damage|p2a: Slow|255\/393 psn
+|cant|p2a: Slow|partiallytrapped
+|-damage|p2a: Slow|231\/393 psn|[from] psn
+|
+|-end|p2a: Slow|Wrap|[partiallytrapped]
+|turn|21
+|
+|move|p1a: Dragonite|Wrap|p2a: Slow|[miss]
+|-miss|p1a: Dragonite
+|move|p2a: Slow|Rest|p2a: Slow
+|-status|p2a: Slow|slp
+|-heal|p2a: Slow|393\/393 slp|[silent]
+|-status|p2a: Slow|slp|[from] move: Rest
+|
+|turn|22
+|
+|move|p1a: Dragonite|Wrap|p2a: Slow
+|-damage|p2a: Slow|379\/393 slp
+|-activate|p2a: Slow|move: Wrap|[of] p1a: Dragonite
+|cant|p2a: Slow|slp
+|
+|turn|23
+|
+|move|p1a: Dragonite|Wrap|p2a: Slow
+|-damage|p2a: Slow|365\/393 slp
+|-curestatus|p2a: Slow|slp
+|
+|turn|24
+|
+|cant|p1a: Dragonite|par
+|cant|p2a: Slow|partiallytrapped
+|
+|-end|p2a: Slow|Wrap|[partiallytrapped]
+|turn|25
+|
+|move|p1a: Dragonite|Toxic|p2a: Slow
+|-status|p2a: Slow|tox
+|move|p2a: Slow|Surf|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|3\/385 par
+|-damage|p2a: Slow|317\/393 tox|[from] tox|[of] p1a: Dragonite
+|
+|turn|26
+|
+|move|p1a: Dragonite|Wrap|p2a: Slow
+|-damage|p2a: Slow|302\/393 tox
+|-activate|p2a: Slow|move: Wrap|[of] p1a: Dragonite
+|cant|p2a: Slow|partiallytrapped
+|-damage|p2a: Slow|230\/393 tox|[from] tox|[of] p1a: Dragonite
+|
+|turn|27
+|
+|move|p1a: Dragonite|Wrap|p2a: Slow
+|-damage|p2a: Slow|215\/393 tox
+|cant|p2a: Slow|partiallytrapped
+|-damage|p2a: Slow|119\/393 tox|[from] psn
+|
+|turn|28
+|
+|move|p1a: Dragonite|Wrap|p2a: Slow
+|-damage|p2a: Slow|104\/393 tox
+|cant|p2a: Slow|partiallytrapped
+|-damage|p2a: Slow|0 fnt|[from] psn
+|faint|p2a: Slow
+|
+|switch|p2a: Tau|Tauros|337\/353
+|turn|29
+|
+|move|p1a: Dragonite|Wrap|p2a: Tau
+|-crit|p2a: Tau
+|-damage|p2a: Tau|306\/353
+|-activate|p2a: Tau|move: Wrap|[of] p1a: Dragonite
+|cant|p2a: Tau|partiallytrapped
+|
+|turn|30
+|
+|move|p1a: Dragonite|Wrap|p2a: Tau
+|-damage|p2a: Tau|275\/353
+|cant|p2a: Tau|partiallytrapped
+|
+|turn|31
+|
+|switch|p2a: Chan|Chansey|703\/703
+|move|p1a: Dragonite|Wrap|p2a: Chan
+|-damage|p2a: Chan|664\/703
+|-activate|p2a: Chan|move: Wrap|[of] p1a: Dragonite
+|
+|turn|32
+|
+|move|p1a: Dragonite|Wrap|p2a: Chan
+|-damage|p2a: Chan|625\/703
+|cant|p2a: Chan|partiallytrapped
+|
+|turn|33
+|
+|cant|p1a: Dragonite|par
+|cant|p2a: Chan|partiallytrapped
+|
+|-end|p2a: Chan|Wrap|[partiallytrapped]
+|turn|34
+|c|★Nanako chan|teehee
+|
+|move|p1a: Dragonite|Toxic|p2a: Chan
+|-status|p2a: Chan|tox
+|move|p2a: Chan|Thunderbolt|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|switch|p1a: Tentacruel|Tentacruel|363\/363
+|turn|35
+|
+|move|p1a: Tentacruel|Wrap|p2a: Chan
+|-crit|p2a: Chan
+|-damage|p2a: Chan|578\/703 tox
+|-activate|p2a: Chan|move: Wrap|[of] p1a: Tentacruel
+|cant|p2a: Chan|partiallytrapped
+|-damage|p2a: Chan|535\/703 tox|[from] tox|[of] p1a: Tentacruel
+|
+|turn|36
+|
+|switch|p2a: Alak|Alakazam|65\/313 psn
+|-damage|p2a: Alak|46\/313 psn|[from] psn
+|move|p1a: Tentacruel|Wrap|p2a: Alak
+|-damage|p2a: Alak|31\/313 psn
+|-activate|p2a: Alak|move: Wrap|[of] p1a: Tentacruel
+|
+|turn|37
+|
+|cant|p2a: Alak|partiallytrapped
+|-damage|p2a: Alak|12\/313 psn|[from] psn|[of] p1a: Tentacruel
+|move|p1a: Tentacruel|Wrap|p2a: Alak
+|-damage|p2a: Alak|0 fnt
+|faint|p2a: Alak
+|
+|switch|p2a: Exe|Exeggutor|393\/393
+|turn|38
+|
+|move|p1a: Tentacruel|Toxic|p2a: Exe
+|-status|p2a: Exe|tox
+|move|p2a: Exe|Sleep Powder|p1a: Tentacruel
+|-status|p1a: Tentacruel|slp
+|-damage|p2a: Exe|369\/393 tox|[from] tox|[of] p1a: Tentacruel
+|
+|turn|39
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Exe|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|587\/703
+|-damage|p2a: Exe|321\/393 tox|[from] tox|[of] p1a: Chansey
+|
+|turn|40
+|
+|move|p2a: Exe|Double-Edge|p1a: Chansey
+|-damage|p1a: Chansey|365\/703
+|-damage|p2a: Exe|266\/393 tox|[from] recoil|[of] p1a: Chansey
+|-damage|p2a: Exe|194\/393 tox|[from] tox|[of] p1a: Chansey
+|move|p1a: Chansey|Ice Beam|p2a: Exe
+|-crit|p2a: Exe
+|-supereffective|p2a: Exe
+|-damage|p2a: Exe|0 fnt
+|faint|p2a: Exe
+|c|★Nanako chan|woah
+|
+|switch|p2a: Tau|Tauros|275\/353
+|turn|41
+|
+|move|p2a: Tau|Hyper Beam|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|c|★Giju|.-.
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|42
+|c|★Nanako chan|here comes the 50 50 wars
+|c|★Nanako chan|just so you know, body slam doesn't para normal types anymore
+|c|★Giju|'o course
+|c|★Nanako chan|so in these cases
+|c|★Nanako chan|try to aim for a freeze
+|
+|move|p2a: Tau|Body Slam|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|146\/353
+|move|p1a: Tauros|Body Slam|p2a: Tau
+|-crit|p2a: Tau
+|-damage|p2a: Tau|85\/353
+|
+|turn|43
+|c|★Nanako chan|50 50 wars
+|c|★Nanako chan|here it comes
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Tau
+|-damage|p2a: Tau|0 fnt
+|faint|p2a: Tau
+|
+|switch|p2a: Chan|Chansey|535\/703 tox
+|-status|p2a: Chan|psn
+|turn|44
+|c|★Nanako chan|ouch
+|c|★Nanako chan|imma switch
+|
+|switch|p1a: Tentacruel|Tentacruel|363\/363 slp
+|move|p2a: Chan|Reflect|p2a: Chan
+|-start|p2a: Chan|Reflect
+|-damage|p2a: Chan|492\/703 psn|[from] psn
+|
+|turn|45
+|
+|cant|p1a: Tentacruel|slp
+|move|p2a: Chan|Thunderbolt|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|220\/363 slp
+|-damage|p2a: Chan|449\/703 psn|[from] psn|[of] p1a: Tentacruel
+|
+|turn|46
+|c|★Nanako chan|cmon wake up
+|
+|cant|p1a: Tentacruel|slp
+|move|p2a: Chan|Thunderbolt|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|89\/363 slp
+|-damage|p2a: Chan|406\/703 psn|[from] psn|[of] p1a: Tentacruel
+|
+|turn|47
+|c|★Nanako chan|alrighty then
+|
+|cant|p1a: Tentacruel|slp
+|move|p2a: Chan|Soft-Boiled|p2a: Chan
+|-heal|p2a: Chan|703\/703 psn
+|-damage|p2a: Chan|660\/703 psn|[from] psn
+|
+|turn|48
+|
+|cant|p1a: Tentacruel|slp
+|move|p2a: Chan|Thunderbolt|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|switch|p1a: Moltres|Moltres|383\/383
+|turn|49
+|c|★Giju|ç_ç
+|c|★Nanako chan|i guess this is gg your team's not half bad
+|
+|move|p1a: Moltres|Fire Spin|p2a: Chan
+|-damage|p2a: Chan|637\/703 psn
+|-activate|p2a: Chan|move: Fire Spin|[of] p1a: Moltres
+|cant|p2a: Chan|partiallytrapped
+|-damage|p2a: Chan|594\/703 psn|[from] psn|[of] p1a: Moltres
+|
+|turn|50
+|c|★Giju|what you mean?
+|
+|move|p1a: Moltres|Fire Spin|p2a: Chan
+|-damage|p2a: Chan|571\/703 psn
+|cant|p2a: Chan|partiallytrapped
+|-damage|p2a: Chan|528\/703 psn|[from] psn|[of] p1a: Moltres
+|
+|turn|51
+|c|★Nanako chan|the fact you carry tauros and zam
+|c|★Nanako chan|and a sleeper
+|c|★Nanako chan|and chansey
+|c|★Nanako chan|your team's balanced out in typing
+|c|★Nanako chan|my advice, try to mix it around a bit more
+|
+|move|p1a: Moltres|Fire Spin|p2a: Chan
+|-damage|p2a: Chan|505\/703 psn
+|cant|p2a: Chan|partiallytrapped
+|-damage|p2a: Chan|462\/703 psn|[from] psn|[of] p1a: Moltres
+|
+|turn|52
+|c|★Giju|So how come have i arrived high on ladder? I always think on this
+|
+|move|p1a: Moltres|Fire Spin|p2a: Chan
+|-damage|p2a: Chan|439\/703 psn
+|cant|p2a: Chan|partiallytrapped
+|-damage|p2a: Chan|396\/703 psn|[from] psn|[of] p1a: Moltres
+|
+|-end|p2a: Chan|Fire Spin|[partiallytrapped]
+|turn|53
+|c|★Nanako chan|not many people play this as they do with common tiers
+|c|★Nanako chan|i stopped playing common tiers
+|c|★Nanako chan|because they're impossible
+|c|★Giju|yeah me either
+|c|★Nanako chan|this is much better
+|
+|move|p1a: Moltres|Fire Spin|p2a: Chan|[miss]
+|-miss|p1a: Moltres
+|move|p2a: Chan|Thunderbolt|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|242\/383
+|-damage|p2a: Chan|353\/703 psn|[from] psn|[of] p1a: Moltres
+|
+|turn|54
+|
+|move|p1a: Moltres|Fire Spin|p2a: Chan|[miss]
+|-miss|p1a: Moltres
+|move|p2a: Chan|Soft-Boiled|p2a: Chan
+|-heal|p2a: Chan|703\/703 psn
+|-damage|p2a: Chan|660\/703 psn|[from] psn
+|
+|turn|55
+|
+|move|p1a: Moltres|Fire Spin|p2a: Chan
+|-damage|p2a: Chan|638\/703 psn
+|-activate|p2a: Chan|move: Fire Spin|[of] p1a: Moltres
+|cant|p2a: Chan|partiallytrapped
+|-damage|p2a: Chan|595\/703 psn|[from] psn|[of] p1a: Moltres
+|
+|turn|56
+|
+|move|p1a: Moltres|Fire Spin|p2a: Chan
+|-damage|p2a: Chan|573\/703 psn
+|cant|p2a: Chan|partiallytrapped
+|-damage|p2a: Chan|530\/703 psn|[from] psn|[of] p1a: Moltres
+|
+|turn|57
+|
+|move|p1a: Moltres|Fire Spin|p2a: Chan
+|-damage|p2a: Chan|508\/703 psn
+|cant|p2a: Chan|partiallytrapped
+|-damage|p2a: Chan|465\/703 psn|[from] psn|[of] p1a: Moltres
+|
+|-end|p2a: Chan|Fire Spin|[partiallytrapped]
+|turn|58
+|
+|move|p1a: Moltres|Fire Spin|p2a: Chan
+|-crit|p2a: Chan
+|-damage|p2a: Chan|424\/703 psn
+|-activate|p2a: Chan|move: Fire Spin|[of] p1a: Moltres
+|cant|p2a: Chan|partiallytrapped
+|-damage|p2a: Chan|381\/703 psn|[from] psn|[of] p1a: Moltres
+|
+|turn|59
+|
+|move|p1a: Moltres|Fire Spin|p2a: Chan
+|-damage|p2a: Chan|340\/703 psn
+|cant|p2a: Chan|partiallytrapped
+|-damage|p2a: Chan|297\/703 psn|[from] psn|[of] p1a: Moltres
+|
+|turn|60
+|c|★Giju|I hate wrap teams
+|c|★Nanako chan|so what's your team strategy?
+|c|★Giju|parasweep
+|c|★Nanako chan|ah ok
+|c|★Giju|also sleep
+|c|★Giju|with eggy
+|c|★Nanako chan|the common strategy
+|c|★Giju|when possible
+|c|★Giju|yep
+|c|★Nanako chan|mine right now is to spread status
+|c|★Giju|this is a team i'm testing
+|c|★Nanako chan|and wrap like eminem
+|
+|move|p1a: Moltres|Fire Spin|p2a: Chan
+|-damage|p2a: Chan|256\/703 psn
+|cant|p2a: Chan|partiallytrapped
+|-damage|p2a: Chan|213\/703 psn|[from] psn|[of] p1a: Moltres
+|
+|-end|p2a: Chan|Fire Spin|[partiallytrapped]
+|turn|61
+|c|★Nanako chan|you better lose yourself
+|c|★Nanako chan|in the music
+|
+|move|p1a: Moltres|Fire Spin|p2a: Chan|[miss]
+|-miss|p1a: Moltres
+|move|p2a: Chan|Soft-Boiled|p2a: Chan
+|-heal|p2a: Chan|564\/703 psn
+|-damage|p2a: Chan|521\/703 psn|[from] psn
+|
+|turn|62
+|c|★Nanako chan|never ever let it goooo
+|
+|move|p1a: Moltres|Fire Spin|p2a: Chan
+|-damage|p2a: Chan|497\/703 psn
+|-activate|p2a: Chan|move: Fire Spin|[of] p1a: Moltres
+|cant|p2a: Chan|partiallytrapped
+|-damage|p2a: Chan|454\/703 psn|[from] psn|[of] p1a: Moltres
+|
+|turn|63
+|
+|move|p1a: Moltres|Fire Spin|p2a: Chan
+|-damage|p2a: Chan|430\/703 psn
+|cant|p2a: Chan|partiallytrapped
+|-damage|p2a: Chan|387\/703 psn|[from] psn|[of] p1a: Moltres
+|
+|turn|64
+|
+|move|p1a: Moltres|Fire Spin|p2a: Chan
+|-damage|p2a: Chan|363\/703 psn
+|cant|p2a: Chan|partiallytrapped
+|-damage|p2a: Chan|320\/703 psn|[from] psn|[of] p1a: Moltres
+|
+|turn|65
+|
+|move|p1a: Moltres|Fire Spin|p2a: Chan
+|-damage|p2a: Chan|296\/703 psn
+|cant|p2a: Chan|partiallytrapped
+|-damage|p2a: Chan|253\/703 psn|[from] psn|[of] p1a: Moltres
+|
+|-end|p2a: Chan|Fire Spin|[partiallytrapped]
+|turn|66
+|c|★Nanako chan|another problem with wrap teams
+|c|★Nanako chan|is all the wrap moves can miss easy
+|c|★Giju|they'r not funny
+|c|★Nanako chan|bind is the worst to use in competitive play
+|c|★Giju|ç_ç
+|c|★Nanako chan|because bind has weaker bp and acc
+|c|★Nanako chan|cloyster has clamp, but cloyster's kinda slow
+|
+|move|p1a: Moltres|Fire Spin|p2a: Chan
+|-damage|p2a: Chan|232\/703 psn
+|-activate|p2a: Chan|move: Fire Spin|[of] p1a: Moltres
+|cant|p2a: Chan|partiallytrapped
+|-damage|p2a: Chan|189\/703 psn|[from] psn|[of] p1a: Moltres
+|
+|turn|67
+|
+|move|p1a: Moltres|Fire Spin|p2a: Chan
+|-damage|p2a: Chan|168\/703 psn
+|cant|p2a: Chan|partiallytrapped
+|-damage|p2a: Chan|125\/703 psn|[from] psn|[of] p1a: Moltres
+|
+|-end|p2a: Chan|Fire Spin|[partiallytrapped]
+|turn|68
+|
+|move|p1a: Moltres|Fire Spin|p2a: Chan
+|-damage|p2a: Chan|102\/703 psn
+|-activate|p2a: Chan|move: Fire Spin|[of] p1a: Moltres
+|cant|p2a: Chan|partiallytrapped
+|-damage|p2a: Chan|59\/703 psn|[from] psn
+|
+|turn|69
+|c|★Nanako chan|cloyster is bl in ou now
+|c|★Nanako chan|borderline
+|c|★Nanako chan|and articuno is now ou
+|c|★Giju|I know it means borderlines ahaha
+|
+|move|p1a: Moltres|Fire Spin|p2a: Chan
+|-damage|p2a: Chan|36\/703 psn
+|cant|p2a: Chan|partiallytrapped
+|-damage|p2a: Chan|0 fnt|[from] psn
+|faint|p2a: Chan
+|
+|win|Nanako chan
+|c|★Nanako chan|although i think articuno should be
+|c|★Nanako chan|a mixed attacker
+|c|★Nanako chan|if not using zapdos
+|c|★Nanako chan|plus
+|c|★Nanako chan|it can beat golem\/rhydon one on one
+|c|★Giju|stabbed blizzard
+|c|★Nanako chan|yea
+|c|★Giju|also guaranteed 2hko on eggy
+|c|★Nanako chan|moltres isn't common tho
+|c|★Nanako chan|it's raaarely seen on teams
+|c|★Giju|molt is starmie's bitch
+|c|★Nanako chan|due to speed and typing
+|c|★Nanako chan|golem
+|c|★Nanako chan|or rhydon
+|c|★Nanako chan|or even dugtrio
+|c|★Nanako chan|can beat moltres
+|c|★Nanako chan|rock slide
+|c|★Giju|4x
+|c|★Nanako chan|yea
+|c|★Nanako chan|it existed even in gen 1
+|c|★Nanako chan|although pin missile isn't enough to kill the egg tree
+|c|★Nanako chan|but anyways good battle
+|c|★Giju|any suggestion to
+|c|★Giju|improve this team?
+|c|★Giju|or better
+|c|★Giju|which other strategies could i use?
+|c|★Nanako chan|well.....i would kinda change slowbro to a diff water type, because he's kinda easy to kill with starmie or jolteon's crit rate
+|c|★Giju|w8
+|c|★Giju|as i said
+|c|★Giju|i was testing him
+|c|★Nanako chan|he works
+|c|★Giju|i usually run fishlax
+|c|★Nanako chan|but
+|c|★Nanako chan|to get x4 is hard due to psychic drops and explosion users
+|c|★Nanako chan|!
+|c|★Nanako chan|you should add gengar to your team
+|c|★Nanako chan|to eat an explosion
+|c|★Giju|mh
+|c|★Nanako chan|takes prediction and it depends on your opponent's skill level
+|c|★Nanako chan|but gengar's a good sleeper too
+|c|★Nanako chan|and sometimes can use confusion hax
+|c|★Giju|a confuse rayer would better maybe :D
+|c|★Nanako chan|yea
+|c|★Nanako chan|try that
+|c|★Giju|which build?
+|c|★Nanako chan|but if you do that, try pairing him with lapras
+|c|★Nanako chan|if you spread para
+|c|★Nanako chan|you're gonna want another confuser
+|c|★Nanako chan|parafusion
+|c|★Nanako chan|keep exeggutor
+|c|★Giju|which other strategies?
+|c|★Nanako chan|in case you want to spread para on ground types
+|c|★Nanako chan|and keep tauros as your finisher
+|c|★Nanako chan|also
+|c|★Nanako chan|try to use more than one team
+|c|★Giju|Yeah is what i'm trying to ask you XD
+|c|★Giju|Which other strategies are here? XD
+|c|★Nanako chan|wrap teams
+|c|★Nanako chan|freeze teams are out of the question
+|c|★Nanako chan|you could change the pokes' roles a bit, like maybe an eternal stall team
+|c|★Nanako chan|and using other pokemon to fill in for tauros's role
+|c|★Nanako chan|like zam or golem
+|c|★Nanako chan|try to surprise your opponent
+|c|★Giju|i'd like to use gyarados
+|c|★Giju|nice attack and special stat
+|c|★Nanako chan|hmmm gyarados isn't bad but try to keep him from electric users
+|c|★Nanako chan|try to cripple them or defeat them first
+|c|★Giju|also would be nice for earthquake
+|c|★Nanako chan|naawwww
+|c|★Giju|that can defeat golem
+|c|★Nanako chan|surf is better
+|c|★Nanako chan|x4
+|c|★Giju|yeah i mean
+|c|★Nanako chan|plus gyarados has an awesome special
+|c|★Giju|with predict
+|c|★Giju|you can switch gyarados
+|c|★Giju|and get earthquake
+|c|★Giju|qith no damages XD
+|c|★Giju|*with
+|c|★Giju|also later spredding surf\/hydro pump
+|c|★Nanako chan|he also has the physical hyper beam
+|c|★Nanako chan|you don't really need earthquake
+|c|★Giju|i would use thunderbolt, hyper beam, body slam and blizzard
+|c|★Nanako chan|that would work
+|c|★Giju|yeah, i just said this ahahhaha
+|c|★Nanako chan|anyways i must log off for now
+|c|★Nanako chan|thanks for the battle
+|c|★Giju|you too!
+|c|★Giju|^^
+|leave|Giju
+|player|p2

@@ -1,0 +1,331 @@
+﻿|join|ConnorTorres
+|join|arafalo2
+|player|p1|ConnorTorres|169
+|player|p2|arafalo2|1
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|26955,56756,38991,18672
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Staryu|Staryu, L90|237\/237
+|switch|p2a: Ninetales|Ninetales, L85|298\/298
+|turn|1
+|choice|move 3|switch 4
+|
+|switch|p2a: Clefable|Clefable, L85|335\/335
+|move|p1a: Staryu|Surf|p2a: Clefable
+|-damage|p2a: Clefable|239\/335
+|
+|turn|2
+|choice|switch 4|move 1
+|
+|switch|p1a: Lickitung|Lickitung, L90|345\/345
+|move|p2a: Clefable|Thunder Wave|p1a: Lickitung
+|-status|p1a: Lickitung|par
+|
+|turn|3
+|choice|move 1|switch 3
+|
+|switch|p2a: Farfetch'd|Farfetch'd, L99|304\/304
+|move|p1a: Lickitung|Hyper Beam|p2a: Farfetch'd
+|-damage|p2a: Farfetch'd|151\/304
+|
+|turn|4
+|-mustrecharge|p1a: Lickitung
+|-mustrecharge|p1a: Lickitung
+|choice|move 1|move 1
+|
+|move|p2a: Farfetch'd|Slash|p1a: Lickitung
+|-crit|p1a: Lickitung
+|-damage|p1a: Lickitung|176\/345 par
+|cant|p1a: Lickitung|recharge
+|
+|turn|5
+|choice|move 4|move 3
+|
+|move|p2a: Farfetch'd|Substitute|p2a: Farfetch'd
+|-start|p2a: Farfetch'd|Substitute
+|-damage|p2a: Farfetch'd|75\/304
+|cant|p1a: Lickitung|par
+|
+|turn|6
+|choice|move 4|move 1
+|
+|move|p2a: Farfetch'd|Slash|p1a: Lickitung
+|-crit|p1a: Lickitung
+|-damage|p1a: Lickitung|21\/345 par
+|move|p1a: Lickitung|Swords Dance|p1a: Lickitung
+|-boost|p1a: Lickitung|atk|2
+|
+|turn|7
+|choice|move 2|move 1
+|
+|move|p2a: Farfetch'd|Slash|p1a: Lickitung
+|-crit|p1a: Lickitung
+|-damage|p1a: Lickitung|0 fnt
+|faint|p1a: Lickitung
+|choice|switch 4|
+|
+|switch|p1a: Staryu|Staryu, L90|237\/237
+|turn|8
+|choice|move 3|move 2
+|
+|move|p1a: Staryu|Surf|p2a: Farfetch'd
+|-end|p2a: Farfetch'd|Substitute
+|move|p2a: Farfetch'd|Body Slam|p1a: Staryu
+|-damage|p1a: Staryu|115\/237
+|
+|turn|9
+|choice|move 4|switch 3
+|
+|switch|p2a: Clefable|Clefable, L85|239\/335
+|move|p1a: Staryu|Thunderbolt|p2a: Clefable
+|-damage|p2a: Clefable|172\/335
+|
+|turn|10
+|choice|move 1|move 1
+|
+|move|p1a: Staryu|Recover|p1a: Staryu
+|-heal|p1a: Staryu|233\/237
+|move|p2a: Clefable|Thunder Wave|p1a: Staryu
+|-status|p1a: Staryu|par
+|
+|turn|11
+|choice|move 2|move 3
+|
+|move|p2a: Clefable|Thunder|p1a: Staryu
+|-supereffective|p1a: Staryu
+|-damage|p1a: Staryu|51\/237 par
+|cant|p1a: Staryu|par
+|
+|turn|12
+|choice|move 2|move 2
+|
+|move|p2a: Clefable|Ice Beam|p1a: Staryu
+|-resisted|p1a: Staryu
+|-damage|p1a: Staryu|15\/237 par
+|move|p1a: Staryu|Blizzard|p2a: Clefable
+|-damage|p2a: Clefable|97\/335
+|
+|turn|13
+|choice|move 1|move 2
+|
+|move|p2a: Clefable|Ice Beam|p1a: Staryu
+|-resisted|p1a: Staryu
+|-damage|p1a: Staryu|0 fnt
+|faint|p1a: Staryu
+|choice|switch 3|
+|
+|switch|p1a: Arbok|Arbok, L90|291\/291
+|turn|14
+|choice|move 2|move 1
+|
+|move|p1a: Arbok|Earthquake|p2a: Clefable
+|-damage|p2a: Clefable|11\/335
+|move|p2a: Clefable|Thunder Wave|p1a: Arbok
+|-status|p1a: Arbok|par
+|
+|turn|15
+|choice|move 4|move 2
+|
+|move|p2a: Clefable|Ice Beam|p1a: Arbok
+|-damage|p1a: Arbok|215\/291 par
+|cant|p1a: Arbok|par
+|
+|turn|16
+|choice|move 4|move 2
+|
+|move|p2a: Clefable|Ice Beam|p1a: Arbok
+|-damage|p1a: Arbok|141\/291 par
+|move|p1a: Arbok|Body Slam|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|choice||switch 2
+|
+|switch|p2a: Geodude|Geodude, L96|272\/272
+|turn|17
+|choice|move 2|move 1
+|
+|move|p2a: Geodude|Earthquake|p1a: Arbok
+|-supereffective|p1a: Arbok
+|-damage|p1a: Arbok|0 fnt
+|faint|p1a: Arbok
+|choice|switch 2|
+|
+|switch|p1a: Oddish|Oddish, L96|281\/281
+|turn|18
+|choice|move 2|switch 3
+|
+|switch|p2a: Farfetch'd|Farfetch'd, L99|75\/304
+|move|p1a: Oddish|Sleep Powder|p2a: Farfetch'd
+|-status|p2a: Farfetch'd|slp
+|
+|turn|19
+|choice|move 1|switch 6
+|
+|switch|p2a: Venomoth|Venomoth, L85|293\/293
+|move|p1a: Oddish|Double-Edge|p2a: Venomoth
+|-damage|p2a: Venomoth|222\/293
+|-damage|p1a: Oddish|264\/281|[from] recoil|[of] p2a: Venomoth
+|
+|turn|20
+|choice|move 2|move 3
+|
+|move|p2a: Venomoth|Sleep Powder|p1a: Oddish
+|-status|p1a: Oddish|slp
+|cant|p1a: Oddish|slp
+|
+|turn|21
+|choice|move 2|move 2
+|
+|move|p2a: Venomoth|Psychic|p1a: Oddish
+|-supereffective|p1a: Oddish
+|-damage|p1a: Oddish|138\/281 slp
+|-unboost|p1a: Oddish|spd|1
+|-unboost|p1a: Oddish|spa|1
+|-curestatus|p1a: Oddish|slp
+|
+|turn|22
+|choice|move 2|move 2
+|
+|move|p2a: Venomoth|Psychic|p1a: Oddish
+|-crit|p1a: Oddish
+|-supereffective|p1a: Oddish
+|-damage|p1a: Oddish|0 fnt
+|faint|p1a: Oddish
+|choice|switch 6|
+|
+|switch|p1a: Mewtwo|Mewtwo, L70|293\/293
+|turn|23
+|choice|move 3|move 3
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Venomoth
+|-damage|p2a: Venomoth|158\/293
+|move|p2a: Venomoth|Sleep Powder|p1a: Mewtwo
+|-status|p1a: Mewtwo|slp
+|
+|turn|24
+|choice|move 2|switch 3
+|
+|switch|p2a: Geodude|Geodude, L96|272\/272
+|-curestatus|p1a: Mewtwo|slp
+|
+|turn|25
+|choice|switch 5|move 2
+|
+|switch|p1a: Tangela|Tangela, L85|284\/284
+|move|p2a: Geodude|Explosion|p1a: Tangela
+|-damage|p1a: Tangela|63\/284
+|faint|p2a: Geodude
+|choice||switch 4
+|
+|switch|p2a: Ninetales|Ninetales, L85|298\/298
+|turn|26
+|choice|move 3|move 1
+|
+|move|p2a: Ninetales|Fire Blast|p1a: Tangela
+|-supereffective|p1a: Tangela
+|-damage|p1a: Tangela|0 fnt
+|faint|p1a: Tangela
+|choice|switch 5|
+|
+|switch|p1a: Mewtwo|Mewtwo, L70|293\/293
+|turn|27
+|choice|move 1|move 1
+|
+|move|p2a: Ninetales|Fire Blast|p1a: Mewtwo
+|-damage|p1a: Mewtwo|184\/293
+|move|p1a: Mewtwo|Psychic|p2a: Ninetales
+|-damage|p2a: Ninetales|214\/298
+|-unboost|p2a: Ninetales|spd|1
+|-unboost|p2a: Ninetales|spa|1
+|
+|turn|28
+|choice|move 2|move 1
+|
+|move|p2a: Ninetales|Fire Blast|p1a: Mewtwo
+|-damage|p1a: Mewtwo|113\/293
+|move|p1a: Mewtwo|Thunder Wave|p2a: Ninetales
+|-status|p2a: Ninetales|par
+|
+|turn|29
+|choice|move 1|move 3
+|
+|move|p1a: Mewtwo|Psychic|p2a: Ninetales
+|-crit|p2a: Ninetales
+|-damage|p2a: Ninetales|58\/298 par
+|move|p2a: Ninetales|Confuse Ray|p1a: Mewtwo
+|-start|p1a: Mewtwo|confusion
+|
+|turn|30
+|choice|move 1|move 1
+|
+|-activate|p1a: Mewtwo|confusion
+|move|p1a: Mewtwo|Psychic|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|choice||switch 5
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|293\/293
+|turn|31
+|choice|move 2|move 3
+|
+|-activate|p1a: Mewtwo|confusion
+|move|p1a: Mewtwo|Thunder Wave|p2a: Mewtwo
+|-status|p2a: Mewtwo|par
+|move|p2a: Mewtwo|Blizzard|p1a: Mewtwo|[miss]
+|-miss|p2a: Mewtwo
+|
+|turn|32
+|choice|move 1|move 3
+|
+|-end|p1a: Mewtwo|confusion
+|move|p1a: Mewtwo|Psychic|p2a: Mewtwo
+|-resisted|p2a: Mewtwo
+|-damage|p2a: Mewtwo|252\/293 par
+|cant|p2a: Mewtwo|par
+|
+|turn|33
+|choice|move 3|move 3
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|142\/293 par
+|cant|p2a: Mewtwo|par
+|
+|turn|34
+|choice|move 3|move 2
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|38\/293 par
+|cant|p2a: Mewtwo|par
+|
+|turn|35
+|choice|move 3|move 2
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Mewtwo
+|-damage|p2a: Mewtwo|0 fnt
+|faint|p2a: Mewtwo
+|choice||switch 3
+|
+|switch|p2a: Venomoth|Venomoth, L85|158\/293
+|turn|36
+|choice|move 1|move 3
+|
+|move|p1a: Mewtwo|Psychic|p2a: Venomoth
+|-supereffective|p2a: Venomoth
+|-damage|p2a: Venomoth|0 fnt
+|faint|p2a: Venomoth
+|-message|arafalo2 forfeited.
+|
+|win|ConnorTorres
+|leave|arafalo2
+|player|p2
+|raw|ConnorTorres's rating: 1230 &rarr; <strong>1264<\/strong><br \/>(+34 for winning)
+|raw|arafalo2's rating: 1359 &rarr; <strong>1332<\/strong><br \/>(-27 for losing)

@@ -1,0 +1,252 @@
+﻿|join|MALESANI
+|join|alsdkfj
+|player|p1|MALESANI|238
+|player|p2|alsdkfj|265
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Kabuto|Kabuto, L96|252\/252
+|switch|p2a: Dragonite|Dragonite, L85|328\/328
+|turn|1
+|
+|switch|p1a: Chansey|Chansey, L79|557\/557
+|move|p2a: Dragonite|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|486\/557
+|
+|turn|2
+|
+|switch|p2a: Wigglytuff|Wigglytuff, L90|435\/435
+|move|p1a: Chansey|Thunder Wave|p2a: Wigglytuff
+|-status|p2a: Wigglytuff|par
+|
+|turn|3
+|
+|switch|p1a: Porygon|Porygon, L85|284\/284
+|move|p2a: Wigglytuff|Double-Edge|p1a: Porygon
+|-damage|p1a: Porygon|168\/284
+|-damage|p2a: Wigglytuff|406\/435 par|[from] recoil|[of] p1a: Porygon
+|
+|turn|4
+|
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|284\/284
+|move|p2a: Wigglytuff|Hyper Beam|p1a: Porygon
+|-damage|p1a: Porygon|110\/284
+|
+|turn|5
+|-mustrecharge|p2a: Wigglytuff
+|-mustrecharge|p2a: Wigglytuff
+|
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|252\/284
+|cant|p2a: Wigglytuff|recharge
+|
+|turn|6
+|
+|move|p1a: Porygon|Sharpen|p1a: Porygon
+|-boost|p1a: Porygon|atk|1
+|move|p2a: Wigglytuff|Double-Edge|p1a: Porygon
+|-crit|p1a: Porygon
+|-damage|p1a: Porygon|44\/284
+|-damage|p2a: Wigglytuff|354\/435 par|[from] recoil|[of] p1a: Porygon
+|
+|turn|7
+|
+|switch|p2a: Rapidash|Rapidash, L90|300\/300
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|186\/284
+|
+|turn|8
+|
+|move|p2a: Rapidash|Fire Blast|p1a: Porygon
+|-damage|p1a: Porygon|54\/284
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|196\/284
+|
+|turn|9
+|
+|move|p2a: Rapidash|Fire Blast|p1a: Porygon
+|-damage|p1a: Porygon|55\/284
+|-status|p1a: Porygon|brn
+|move|p1a: Porygon|Thunderbolt|p2a: Rapidash
+|-damage|p2a: Rapidash|246\/300
+|-damage|p1a: Porygon|38\/284 brn|[from] brn|[of] p2a: Rapidash
+|
+|turn|10
+|
+|switch|p1a: Chansey|Chansey, L79|486\/557
+|move|p2a: Rapidash|Body Slam|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|117\/557
+|
+|turn|11
+|
+|switch|p1a: Golduck|Golduck, L85|310\/310
+|move|p2a: Rapidash|Body Slam|p1a: Golduck
+|-crit|p1a: Golduck
+|-damage|p1a: Golduck|157\/310
+|
+|turn|12
+|
+|switch|p2a: Slowpoke|Slowpoke, L96|368\/368
+|move|p1a: Golduck|Surf|p2a: Slowpoke
+|-resisted|p2a: Slowpoke
+|-damage|p2a: Slowpoke|309\/368
+|
+|turn|13
+|
+|move|p1a: Golduck|Amnesia|p1a: Golduck
+|-boost|p1a: Golduck|spd|2
+|-boost|p1a: Golduck|spa|2
+|move|p2a: Slowpoke|Thunder Wave|p1a: Golduck
+|-status|p1a: Golduck|par
+|
+|turn|14
+|
+|move|p2a: Slowpoke|Amnesia|p2a: Slowpoke
+|-boost|p2a: Slowpoke|spd|2
+|-boost|p2a: Slowpoke|spa|2
+|cant|p1a: Golduck|par
+|
+|turn|15
+|
+|move|p2a: Slowpoke|Amnesia|p2a: Slowpoke
+|-boost|p2a: Slowpoke|spd|2
+|-boost|p2a: Slowpoke|spa|2
+|move|p1a: Golduck|Amnesia|p1a: Golduck
+|-boost|p1a: Golduck|spd|2
+|-boost|p1a: Golduck|spa|2
+|
+|turn|16
+|
+|switch|p2a: Victreebel|Victreebel, L85|310\/310
+|move|p1a: Golduck|Rest|p1a: Golduck
+|-status|p1a: Golduck|slp
+|-heal|p1a: Golduck|310\/310 slp|[silent]
+|-status|p1a: Golduck|slp|[from] move: Rest
+|
+|turn|17
+|
+|move|p2a: Victreebel|Razor Leaf|p1a: Golduck
+|-crit|p1a: Golduck
+|-supereffective|p1a: Golduck
+|-damage|p1a: Golduck|44\/310 slp
+|cant|p1a: Golduck|slp
+|
+|turn|18
+|
+|switch|p1a: Venusaur|Venusaur, L85|310\/310
+|move|p2a: Victreebel|Razor Leaf|p1a: Venusaur
+|-crit|p1a: Venusaur
+|-resisted|p1a: Venusaur
+|-damage|p1a: Venusaur|281\/310
+|
+|turn|19
+|
+|switch|p2a: Wigglytuff|Wigglytuff, L90|354\/435 par
+|move|p1a: Venusaur|Body Slam|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|272\/435 par
+|
+|turn|20
+|
+|move|p1a: Venusaur|Razor Leaf|p2a: Wigglytuff
+|-crit|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|116\/435 par
+|move|p2a: Wigglytuff|Double-Edge|p1a: Venusaur
+|-damage|p1a: Venusaur|177\/310
+|-damage|p2a: Wigglytuff|90\/435 par|[from] recoil|[of] p1a: Venusaur
+|
+|turn|21
+|
+|move|p1a: Venusaur|Body Slam|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|12\/435 par
+|move|p2a: Wigglytuff|Blizzard|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|64\/310
+|
+|turn|22
+|
+|move|p1a: Venusaur|Body Slam|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|0 fnt
+|faint|p2a: Wigglytuff
+|
+|switch|p2a: Rapidash|Rapidash, L90|246\/300
+|turn|23
+|
+|switch|p1a: Kabuto|Kabuto, L96|252\/252
+|move|p2a: Rapidash|Body Slam|p1a: Kabuto
+|-resisted|p1a: Kabuto
+|-damage|p1a: Kabuto|223\/252
+|
+|turn|24
+|
+|switch|p2a: Seaking|Seaking, L90|327\/327
+|move|p1a: Kabuto|Surf|p2a: Seaking
+|-resisted|p2a: Seaking
+|-damage|p2a: Seaking|284\/327
+|
+|turn|25
+|
+|switch|p1a: Venusaur|Venusaur, L85|64\/310
+|move|p2a: Seaking|Blizzard|p1a: Venusaur|[miss]
+|-miss|p2a: Seaking
+|
+|turn|26
+|
+|move|p1a: Venusaur|Razor Leaf|p2a: Seaking
+|-crit|p2a: Seaking
+|-supereffective|p2a: Seaking
+|-damage|p2a: Seaking|39\/327
+|move|p2a: Seaking|Double-Edge|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|-damage|p2a: Seaking|23\/327|[from] recoil|[of] p1a: Venusaur
+|faint|p1a: Venusaur
+|
+|switch|p1a: Hitmonchan|Hitmonchan, L90|273\/273
+|turn|27
+|
+|switch|p2a: Dragonite|Dragonite, L85|328\/328
+|move|p1a: Hitmonchan|Body Slam|p2a: Dragonite
+|-damage|p2a: Dragonite|255\/328
+|
+|turn|28
+|
+|move|p1a: Hitmonchan|Seismic Toss|p2a: Dragonite
+|-damage|p2a: Dragonite|165\/328
+|move|p2a: Dragonite|Thunder Wave|p1a: Hitmonchan
+|-status|p1a: Hitmonchan|par
+|
+|turn|29
+|
+|move|p2a: Dragonite|Thunderbolt|p1a: Hitmonchan
+|-crit|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|55\/273 par
+|cant|p1a: Hitmonchan|par
+|
+|turn|30
+|
+|move|p2a: Dragonite|Thunderbolt|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|0 fnt
+|faint|p1a: Hitmonchan
+|
+|switch|p1a: Chansey|Chansey, L79|117\/557
+|turn|31
+|
+|move|p2a: Dragonite|Hyper Beam|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|-message|MALESANI forfeited.
+|
+|win|alsdkfj
+|raw|Ladder updating...
+|leave|MALESANI
+|player|p1
+|c|★alsdkfj|you're trash as always
+|raw|MALESANI's rating: 1301 &rarr; <strong>1270<\/strong><br \/>(-31 for losing)
+|raw|alsdkfj's rating: 1074 &rarr; <strong>1120<\/strong><br \/>(+46 for winning)

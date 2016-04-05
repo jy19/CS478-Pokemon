@@ -1,0 +1,330 @@
+﻿|join|tr0mb0ner
+|join|Kel9901
+|player|p1|tr0mb0ner|266
+|player|p2|Kel9901|170
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|switch|p2a: Charizard|Charizard|359\/359
+|turn|1
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|switch|p1a: Slowbro|Slowbro|393\/393
+|
+|turn|2
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Exeggutor|Sleep Powder|p1a: Chansey|[miss]
+|-miss|p2a: Exeggutor
+|
+|turn|3
+|
+|move|p2a: Exeggutor|Sleep Powder|p1a: Chansey
+|-status|p1a: Chansey|slp
+|cant|p1a: Chansey|slp
+|
+|turn|4
+|
+|switch|p2a: Charizard|Charizard|359\/359
+|switch|p1a: Snorlax|Snorlax|523\/523
+|
+|turn|5
+|
+|move|p2a: Charizard|Fire Blast|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|227\/523
+|move|p1a: Snorlax|Body Slam|p2a: Charizard
+|-damage|p2a: Charizard|225\/359
+|
+|turn|6
+|
+|switch|p1a: Slowbro|Slowbro|393\/393
+|move|p2a: Charizard|Fire Blast|p1a: Slowbro|[miss]
+|-miss|p2a: Charizard
+|
+|turn|7
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|
+|turn|8
+|
+|move|p2a: Chansey|Ice Beam|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|370\/393
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|
+|turn|9
+|
+|move|p2a: Chansey|Ice Beam|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|355\/393
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|
+|turn|10
+|
+|move|p2a: Chansey|Thunder Wave|p1a: Slowbro
+|-status|p1a: Slowbro|par
+|move|p1a: Slowbro|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|turn|11
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|move|p1a: Slowbro|Surf|p2a: Starmie
+|-crit|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|222\/323
+|
+|turn|12
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|311\/393 par
+|cant|p1a: Slowbro|par
+|
+|turn|13
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|264\/393 par
+|move|p1a: Slowbro|Thunder Wave|p2a: Starmie
+|-status|p2a: Starmie|par
+|
+|turn|14
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|217\/393 par
+|move|p1a: Slowbro|Surf|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|47\/323 par
+|
+|turn|15
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|208\/323 par
+|move|p1a: Slowbro|Surf|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|27\/323 par
+|
+|turn|16
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|188\/323 par
+|cant|p1a: Slowbro|par
+|
+|turn|17
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|171\/393 par
+|cant|p1a: Slowbro|par
+|
+|turn|18
+|
+|cant|p2a: Starmie|par
+|cant|p1a: Slowbro|par
+|
+|turn|19
+|
+|cant|p2a: Starmie|par
+|cant|p1a: Slowbro|par
+|
+|turn|20
+|
+|cant|p2a: Starmie|par
+|move|p1a: Slowbro|Rest|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|-heal|p1a: Slowbro|393\/393 slp|[silent]
+|-status|p1a: Slowbro|slp|[from] move: Rest
+|
+|turn|21
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|68\/393 slp
+|cant|p1a: Slowbro|slp
+|
+|turn|22
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|-curestatus|p1a: Slowbro|slp
+|
+|turn|23
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Tauros|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|278\/393
+|
+|turn|24
+|
+|switch|p2a: Starmie|Starmie|188\/323 par
+|move|p1a: Exeggutor|Sleep Powder|p2a: Starmie
+|-fail|p2a: Starmie
+|
+|turn|25
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|move|p2a: Starmie|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|
+|turn|26
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Alakazam|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|341\/393
+|-unboost|p2a: Exeggutor|spd|1
+|-unboost|p2a: Exeggutor|spa|1
+|
+|turn|27
+|
+|switch|p2a: Rhydon|Rhydon|413\/413
+|switch|p1a: Chansey|Chansey|703\/703 slp
+|
+|turn|28
+|
+|switch|p1a: Exeggutor|Exeggutor|278\/393
+|move|p2a: Rhydon|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|186\/393
+|-status|p1a: Exeggutor|par
+|
+|turn|29
+|
+|switch|p2a: Starmie|Starmie|188\/323 par
+|move|p1a: Exeggutor|Sleep Powder|p2a: Starmie|[miss]
+|-miss|p1a: Exeggutor
+|
+|turn|30
+|
+|switch|p2a: Rhydon|Rhydon|413\/413
+|cant|p1a: Exeggutor|par
+|
+|turn|31
+|
+|move|p2a: Rhydon|Rock Slide|p1a: Exeggutor
+|-damage|p1a: Exeggutor|69\/393 par
+|cant|p1a: Exeggutor|par
+|
+|turn|32
+|
+|move|p2a: Rhydon|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Snorlax|Snorlax|227\/523
+|turn|33
+|
+|move|p2a: Rhydon|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|52\/523
+|move|p1a: Snorlax|Blizzard|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|173\/413
+|
+|turn|34
+|
+|move|p2a: Rhydon|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|35
+|
+|switch|p2a: Chansey|Chansey|703\/703 par
+|move|p1a: Tauros|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|630\/703 par
+|
+|turn|36
+|
+|move|p1a: Tauros|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|335\/703 par
+|move|p2a: Chansey|Counter|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|switch|p1a: Slowbro|Slowbro|68\/393
+|turn|37
+|
+|switch|p2a: Rhydon|Rhydon|173\/413
+|move|p1a: Slowbro|Rest|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|-heal|p1a: Slowbro|393\/393 slp|[silent]
+|-status|p1a: Slowbro|slp|[from] move: Rest
+|
+|turn|38
+|
+|move|p2a: Rhydon|Earthquake|p1a: Slowbro
+|-damage|p1a: Slowbro|252\/393 slp
+|cant|p1a: Slowbro|slp
+|
+|turn|39
+|
+|move|p2a: Rhydon|Earthquake|p1a: Slowbro
+|-damage|p1a: Slowbro|121\/393 slp
+|-curestatus|p1a: Slowbro|slp
+|
+|turn|40
+|
+|move|p2a: Rhydon|Earthquake|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|
+|switch|p1a: Alakazam|Alakazam|313\/313 par
+|turn|41
+|
+|move|p2a: Rhydon|Earthquake|p1a: Alakazam
+|-damage|p1a: Alakazam|101\/313 par
+|move|p1a: Alakazam|Psychic|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|42
+|
+|move|p2a: Tauros|Body Slam|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|c|★tr0mb0ner|gg
+|c|★Kel9901|gg
+|
+|switch|p1a: Chansey|Chansey|703\/703 slp
+|turn|43
+|
+|move|p2a: Tauros|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|419\/703 slp
+|cant|p1a: Chansey|slp
+|
+|turn|44
+|
+|move|p2a: Tauros|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|144\/703 slp
+|cant|p1a: Chansey|slp
+|
+|turn|45
+|
+|move|p2a: Tauros|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|win|Kel9901
+|raw|tr0mb0ner's rating: 1259 &rarr; <strong>1225<\/strong><br \/>(-34 for losing)
+|raw|Kel9901's rating: 1138 &rarr; <strong>1171<\/strong><br \/>(+33 for winning)

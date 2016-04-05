@@ -1,0 +1,223 @@
+﻿|join|Sollozzo
+|join|brownsfan125
+|player|p1|Sollozzo|102
+|player|p2|brownsfan125|169
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Charizard|Charizard|359\/359
+|switch|p2a: Chansey|Chansey|703\/703
+|turn|1
+|
+|move|p1a: Charizard|Flamethrower|p2a: Chansey
+|-damage|p2a: Chansey|600\/703
+|move|p2a: Chansey|Thunder Wave|p1a: Charizard
+|-status|p1a: Charizard|par
+|
+|turn|2
+|
+|switch|p2a: Rhydon|Rhydon|413\/413
+|cant|p1a: Charizard|par
+|
+|turn|3
+|
+|switch|p1a: Dragonite|Dragonite|385\/385
+|move|p2a: Rhydon|Rock Slide|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|175\/385
+|
+|turn|4
+|
+|switch|p2a: Chansey|Chansey|600\/703
+|move|p1a: Dragonite|Surf|p2a: Chansey
+|-damage|p2a: Chansey|533\/703
+|
+|turn|5
+|
+|move|p1a: Dragonite|Hyper Beam|p2a: Chansey
+|-damage|p2a: Chansey|138\/703
+|move|p2a: Chansey|Thunder Wave|p1a: Dragonite
+|-status|p1a: Dragonite|par
+|
+|turn|6
+|-mustrecharge|p1a: Dragonite
+|-mustrecharge|p1a: Dragonite
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|489\/703
+|cant|p1a: Dragonite|recharge
+|
+|turn|7
+|
+|move|p2a: Chansey|Ice Beam|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|switch|p1a: Zapdos|Zapdos|383\/383
+|turn|8
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|259\/703
+|move|p2a: Chansey|Thunder Wave|p1a: Zapdos
+|-status|p1a: Zapdos|par
+|
+|turn|9
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|610\/703
+|move|p1a: Zapdos|Thunder|p2a: Chansey
+|-damage|p2a: Chansey|452\/703
+|
+|turn|10
+|
+|move|p2a: Chansey|Ice Beam|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|256\/383 par
+|cant|p1a: Zapdos|par
+|
+|turn|11
+|
+|switch|p2a: Rhydon|Rhydon|413\/413
+|cant|p1a: Zapdos|par
+|
+|turn|12
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|move|p2a: Rhydon|Rock Slide|p1a: Alakazam
+|-damage|p1a: Alakazam|140\/313
+|
+|turn|13
+|
+|move|p1a: Alakazam|Confusion|p2a: Rhydon
+|-damage|p2a: Rhydon|289\/413
+|move|p2a: Rhydon|Earthquake|p1a: Alakazam|[miss]
+|-miss|p2a: Rhydon
+|
+|turn|14
+|
+|switch|p2a: Chansey|Chansey|452\/703
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|331\/703
+|
+|turn|15
+|
+|move|p1a: Alakazam|Confusion|p2a: Chansey
+|-damage|p2a: Chansey|263\/703
+|move|p2a: Chansey|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|
+|turn|16
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|614\/703
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|356\/703
+|
+|turn|17
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703
+|move|p1a: Alakazam|Double-Edge|p2a: Chansey
+|-damage|p2a: Chansey|605\/703
+|-damage|p1a: Alakazam|116\/313 par|[from] recoil|[of] p2a: Chansey
+|
+|turn|18
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|move|p1a: Alakazam|Confusion|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|165\/353
+|
+|turn|19
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|switch|p1a: Charizard|Charizard|359\/359 par
+|turn|20
+|
+|switch|p2a: Zapdos|Zapdos|383\/383
+|cant|p1a: Charizard|par
+|
+|turn|21
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|81\/359 par
+|cant|p1a: Charizard|par
+|
+|turn|22
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|switch|p1a: Blastoise|Blastoise|361\/361
+|turn|23
+|
+|move|p2a: Zapdos|Thunder Wave|p1a: Blastoise
+|-status|p1a: Blastoise|par
+|move|p1a: Blastoise|Blizzard|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|230\/383
+|
+|turn|24
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Blastoise
+|-supereffective|p1a: Blastoise
+|-damage|p1a: Blastoise|75\/361 par
+|move|p1a: Blastoise|Blizzard|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|95\/383
+|
+|turn|25
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Blastoise
+|-supereffective|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|faint|p1a: Blastoise
+|
+|switch|p1a: Gyarados|Gyarados|393\/393
+|turn|26
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|switch|p1a: Zapdos|Zapdos|256\/383 par
+|turn|27
+|
+|switch|p2a: Rhydon|Rhydon|289\/413
+|move|p1a: Zapdos|Thunderbolt|p2a: Rhydon
+|-immune|p2a: Rhydon|[msg]
+|
+|turn|28
+|
+|move|p2a: Rhydon|Rock Slide|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|win|brownsfan125
+|c|★brownsfan125|gg
+|raw|Sollozzo's rating: 1074 &rarr; <strong>1057<\/strong><br \/>(-17 for losing)
+|raw|brownsfan125's rating: 1141 &rarr; <strong>1161<\/strong><br \/>(+20 for winning)
+|leave|Sollozzo
+|player|p1

@@ -1,0 +1,322 @@
+﻿|j|tr0m
+|j|Tendoh
+|player|p1|tr0m|1
+|player|p2|Tendoh|1
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|seed|59259,13516,46935,40936
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Starmie|Starmie|323\/323
+|switch|p2a: How can I even see|Starmie|323\/323
+|turn|1
+|choice|switch 3|move 2
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: How can I even see|Thunderbolt|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|360\/393
+|
+|turn|2
+|choice|move 1|move 1
+|
+|move|p2a: How can I even see|Blizzard|p1a: Exeggutor|[miss]
+|-miss|p2a: How can I even see
+|move|p1a: Exeggutor|Sleep Powder|p2a: How can I even see|[miss]
+|-miss|p1a: Exeggutor
+|
+|turn|3
+|choice|move 1|move 1
+|
+|move|p2a: How can I even see|Blizzard|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|60\/393
+|move|p1a: Exeggutor|Sleep Powder|p2a: How can I even see
+|-status|p2a: How can I even see|slp
+|
+|turn|4
+|choice|move 2|move 1
+|
+|cant|p2a: How can I even see|slp
+|move|p1a: Exeggutor|Stun Spore|p2a: How can I even see
+|-fail|p2a: How can I even see
+|
+|turn|5
+|choice|switch 3|move 1
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|cant|p2a: How can I even see|slp
+|
+|turn|6
+|choice|move 3|switch 2
+|
+|switch|p2a: Pink alien|Chansey|703\/703
+|move|p1a: Starmie|Thunderbolt|p2a: Pink alien
+|-damage|p2a: Pink alien|631\/703
+|
+|turn|7
+|choice|move 2|move 1
+|
+|move|p1a: Starmie|Blizzard|p2a: Pink alien
+|-damage|p2a: Pink alien|535\/703
+|move|p2a: Pink alien|Ice Beam|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|284\/323
+|
+|turn|8
+|choice|switch 2|move 2
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Pink alien|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|turn|9
+|choice|move 1|move 1
+|
+|move|p2a: Pink alien|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|631\/703 par
+|cant|p1a: Chansey|par
+|
+|turn|10
+|choice|move 1|move 1
+|
+|move|p2a: Pink alien|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|553\/703 par
+|cant|p1a: Chansey|par
+|
+|turn|11
+|choice|move 1|move 4
+|
+|move|p2a: Pink alien|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|453\/703 par
+|move|p1a: Chansey|Ice Beam|p2a: Pink alien
+|-damage|p2a: Pink alien|455\/703
+|
+|turn|12
+|choice|move 1|switch 6
+|
+|switch|p2a: He-man|Tauros|353\/353
+|move|p1a: Chansey|Ice Beam|p2a: He-man
+|-damage|p2a: He-man|252\/353
+|
+|turn|13
+|choice|switch 4|move 1
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: He-man|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|399\/523
+|
+|turn|14
+|choice|move 1|move 3
+|
+|move|p2a: He-man|Blizzard|p1a: Snorlax
+|-damage|p1a: Snorlax|295\/523
+|move|p1a: Snorlax|Body Slam|p2a: He-man
+|-damage|p2a: He-man|148\/353
+|
+|turn|15
+|choice|move 4|move 2
+|
+|move|p2a: He-man|Hyper Beam|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|choice|switch 6|
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|16
+|choice|move 1|move 2
+|
+|move|p2a: He-man|Hyper Beam|p1a: Tauros
+|-damage|p1a: Tauros|182\/353
+|move|p1a: Tauros|Body Slam|p2a: He-man
+|-damage|p2a: He-man|52\/353
+|
+|turn|17
+|-mustrecharge|p2a: He-man
+|-mustrecharge|p2a: He-man
+|choice|move 1|move 1
+|
+|move|p1a: Tauros|Body Slam|p2a: He-man
+|-damage|p2a: He-man|0 fnt
+|faint|p2a: He-man
+|choice||switch 3
+|
+|switch|p2a: Siamese twins|Exeggutor|393\/393
+|turn|18
+|choice|move 4|move 2
+|
+|move|p1a: Tauros|Blizzard|p2a: Siamese twins
+|-supereffective|p2a: Siamese twins
+|-damage|p2a: Siamese twins|270\/393
+|move|p2a: Siamese twins|Psychic|p1a: Tauros
+|-damage|p1a: Tauros|13\/353
+|
+|turn|19
+|choice|move 2|move 2
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Siamese twins
+|-damage|p2a: Siamese twins|89\/393
+|move|p2a: Siamese twins|Psychic|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|choice|switch 2|
+|
+|switch|p1a: Starmie|Starmie|284\/323
+|turn|20
+|choice|switch 3|switch 6
+|
+|switch|p1a: Exeggutor|Exeggutor|60\/393
+|switch|p2a: Pink alien|Chansey|455\/703
+|
+|turn|21
+|choice|move 3|switch 5
+|
+|switch|p2a: Dynamite proof|Golem|363\/363
+|move|p1a: Exeggutor|Explosion|p2a: Dynamite proof
+|-resisted|p2a: Dynamite proof
+|-damage|p2a: Dynamite proof|263\/363
+|faint|p1a: Exeggutor
+|choice|switch 3|
+|
+|switch|p1a: Starmie|Starmie|284\/323
+|turn|22
+|choice|move 2|switch 5
+|
+|switch|p2a: Pink alien|Chansey|455\/703
+|move|p1a: Starmie|Blizzard|p2a: Pink alien
+|-damage|p2a: Pink alien|362\/703
+|-status|p2a: Pink alien|frz
+|
+|turn|23
+|choice|move 2|switch 2
+|
+|switch|p2a: How can I even see|Starmie|323\/323 slp
+|move|p1a: Starmie|Blizzard|p2a: How can I even see
+|-resisted|p2a: How can I even see
+|-damage|p2a: How can I even see|272\/323 slp
+|
+|turn|24
+|choice|move 2|move 2
+|
+|move|p1a: Starmie|Blizzard|p2a: How can I even see|[miss]
+|-miss|p1a: Starmie
+|cant|p2a: How can I even see|slp
+|
+|turn|25
+|choice|move 3|move 2
+|
+|move|p1a: Starmie|Thunderbolt|p2a: How can I even see
+|-supereffective|p2a: How can I even see
+|-damage|p2a: How can I even see|110\/323 slp
+|-curestatus|p2a: How can I even see|slp
+|
+|turn|26
+|choice|move 3|move 4
+|
+|move|p2a: How can I even see|Recover|p2a: How can I even see
+|-heal|p2a: How can I even see|271\/323
+|move|p1a: Starmie|Thunderbolt|p2a: How can I even see
+|-crit|p2a: How can I even see
+|-supereffective|p2a: How can I even see
+|-damage|p2a: How can I even see|0 fnt
+|faint|p2a: How can I even see
+|choice||switch 4
+|
+|switch|p2a: Requiem bell|Victreebel|363\/363
+|turn|27
+|choice|switch 4|move 1
+|
+|switch|p1a: Chansey|Chansey|453\/703 par
+|move|p2a: Requiem bell|Stun Spore|p1a: Chansey
+|-fail|p1a: Chansey|par
+|
+|turn|28
+|choice|move 1|move 2
+|
+|move|p2a: Requiem bell|Wrap|p1a: Chansey|[miss]
+|-miss|p2a: Requiem bell
+|move|p1a: Chansey|Ice Beam|p2a: Requiem bell
+|-supereffective|p2a: Requiem bell
+|-damage|p2a: Requiem bell|195\/363
+|
+|turn|29
+|choice|move 1|move 2
+|
+|move|p2a: Requiem bell|Wrap|p1a: Chansey
+|-damage|p1a: Chansey|418\/703 par
+|-activate|p1a: Chansey|move: Wrap|[of] p2a: Requiem bell
+|cant|p1a: Chansey|partiallytrapped
+|
+|turn|30
+|choice|switch 4|move 2
+|
+|switch|p1a: Starmie|Starmie|284\/323
+|move|p2a: Requiem bell|Wrap|p1a: Starmie
+|-damage|p1a: Starmie|271\/323
+|-activate|p1a: Starmie|move: Wrap|[of] p2a: Requiem bell
+|
+|turn|31
+|choice|move 2|move 2
+|
+|cant|p1a: Starmie|partiallytrapped
+|move|p2a: Requiem bell|Wrap|p1a: Starmie|[from]Wrap
+|-damage|p1a: Starmie|258\/323
+|
+|turn|32
+|choice|move 1|move 2
+|
+|cant|p1a: Starmie|partiallytrapped
+|move|p2a: Requiem bell|Wrap|p1a: Starmie|[from]Wrap
+|-damage|p1a: Starmie|245\/323
+|
+|turn|33
+|choice|move 1|move 2
+|
+|cant|p1a: Starmie|partiallytrapped
+|move|p2a: Requiem bell|Wrap|p1a: Starmie|[from]Wrap
+|-damage|p1a: Starmie|232\/323
+|
+|turn|34
+|choice|move 1|move 2
+|
+|cant|p1a: Starmie|partiallytrapped
+|move|p2a: Requiem bell|Wrap|p1a: Starmie|[from]Wrap
+|-damage|p1a: Starmie|219\/323
+|
+|-end|p1a: Starmie|Wrap|[partiallytrapped]
+|turn|35
+|choice|move 1|move 4
+|
+|move|p1a: Starmie|Psychic|p2a: Requiem bell
+|-supereffective|p2a: Requiem bell
+|-damage|p2a: Requiem bell|0 fnt
+|faint|p2a: Requiem bell
+|choice||switch 5
+|
+|switch|p2a: Dynamite proof|Golem|263\/363
+|turn|36
+|choice|move 2|move 1
+|
+|move|p1a: Starmie|Blizzard|p2a: Dynamite proof
+|-crit|p2a: Dynamite proof
+|-supereffective|p2a: Dynamite proof
+|-damage|p2a: Dynamite proof|0 fnt
+|faint|p2a: Dynamite proof
+|l|Tendoh
+|player|p2
+|-message|Tendoh lost due to inactivity.
+|
+|win|tr0m
+|player|p1
+|raw|tr0m's rating: 1382 &rarr; <strong>1402<\/strong><br \/>(+20 for winning)
+|raw|Tendoh's rating: 1384 &rarr; <strong>1364<\/strong><br \/>(-20 for losing)

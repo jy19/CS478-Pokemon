@@ -1,0 +1,99 @@
+﻿|join|CrapAtRBY
+|join|Testington
+|player|p1|CrapAtRBY|266
+|player|p2|Testington|2
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333\/333
+|switch|p2a: Alakazam|Alakazam|313\/313
+|turn|1
+|
+|move|p1a: Jynx|Blizzard|p2a: Alakazam
+|-damage|p2a: Alakazam|205\/313
+|move|p2a: Alakazam|Psychic|p1a: Jynx
+|-crit|p1a: Jynx
+|-resisted|p1a: Jynx
+|-damage|p1a: Jynx|200\/333
+|-unboost|p1a: Jynx|spd|1
+|-unboost|p1a: Jynx|spa|1
+|
+|turn|2
+|
+|move|p1a: Jynx|Blizzard|p2a: Alakazam
+|-damage|p2a: Alakazam|134\/313
+|move|p2a: Alakazam|Thunder Wave|p1a: Jynx
+|-status|p1a: Jynx|par
+|
+|turn|3
+|
+|move|p1a: Jynx|Blizzard|p2a: Alakazam
+|-damage|p2a: Alakazam|62\/313
+|move|p2a: Alakazam|Psychic|p1a: Jynx
+|-resisted|p1a: Jynx
+|-damage|p1a: Jynx|106\/333 par
+|-unboost|p1a: Jynx|spd|1
+|-unboost|p1a: Jynx|spa|1
+|
+|turn|4
+|
+|move|p1a: Jynx|Blizzard|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|
+|switch|p2a: Jolteon|Jolteon|333\/333
+|turn|5
+|
+|cant|p1a: Jynx|par
+|move|p2a: Jolteon|Double Kick|p1a: Jynx
+|-damage|p1a: Jynx|71\/333 par
+|-damage|p1a: Jynx|36\/333 par
+|-hitcount|p1a: Jynx|2
+|
+|turn|6
+|
+|cant|p1a: Jynx|par
+|move|p2a: Jolteon|Double Kick|p1a: Jynx
+|-damage|p1a: Jynx|6\/333 par
+|-damage|p1a: Jynx|0 fnt
+|-hitcount|p1a: Jynx|2
+|faint|p1a: Jynx
+|
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|turn|7
+|
+|move|p1a: Snorlax|Body Slam|p2a: Jolteon
+|-damage|p2a: Jolteon|184\/333
+|move|p2a: Jolteon|Double Kick|p1a: Snorlax
+|-supereffective|p1a: Snorlax
+|-damage|p1a: Snorlax|476\/523
+|-damage|p1a: Snorlax|429\/523
+|-hitcount|p1a: Snorlax|2
+|
+|turn|8
+|
+|move|p1a: Snorlax|Body Slam|p2a: Jolteon
+|-damage|p2a: Jolteon|27\/333
+|-status|p2a: Jolteon|par
+|cant|p2a: Jolteon|par
+|
+|turn|9
+|
+|move|p1a: Snorlax|Self-Destruct|p2a: Jolteon
+|-crit|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|faint|p1a: Snorlax
+|
+|win|CrapAtRBY

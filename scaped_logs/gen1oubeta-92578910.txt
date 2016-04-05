@@ -1,0 +1,41 @@
+﻿|join|ggc
+|join|Zelduck
+|player|p1|ggc|209
+|player|p2|Zelduck|265
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333\/333
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|turn|1
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: Exeggutor
+|-status|p2a: Exeggutor|slp
+|cant|p2a: Exeggutor|slp
+|
+|turn|2
+|
+|move|p1a: Jynx|Blizzard|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|142\/393 slp
+|cant|p2a: Exeggutor|slp
+|
+|turn|3
+|-message|Zelduck forfeited.
+|
+|win|ggc
+|raw|Ladder updating...
+|leave|Zelduck
+|player|p2
+|raw|ggc's rating: 1201 &rarr; <strong>1215<\/strong><br \/>(+14 for winning)
+|raw|Zelduck's rating: 1045 &rarr; <strong>1035<\/strong><br \/>(-10 for losing)

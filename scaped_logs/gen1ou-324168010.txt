@@ -1,0 +1,216 @@
+﻿|j|Xant0o13
+|j|Vashimus
+|player|p1|Xant0o13|101
+|player|p2|Vashimus|1
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|seed|27930,12158,64040,31296
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gengar|Gengar|323\/323
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|turn|1
+|choice|switch 4|move 1
+|
+|switch|p1a: Rhydon|Rhydon|413\/413
+|move|p2a: Exeggutor|Psychic|p1a: Rhydon
+|-damage|p1a: Rhydon|230\/413
+|
+|turn|2
+|choice|move 1|move 3
+|
+|move|p2a: Exeggutor|Mega Drain|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|choice|switch 6|
+|
+|switch|p1a: Charizard|Charizard|359\/359
+|turn|3
+|choice|move 1|move 2
+|
+|move|p1a: Charizard|Swords Dance|p1a: Charizard
+|-boost|p1a: Charizard|atk|2
+|move|p2a: Exeggutor|Sleep Powder|p1a: Charizard
+|-status|p1a: Charizard|slp
+|
+|turn|4
+|choice|move 2|switch 6
+|
+|switch|p2a: Golem|Golem|363\/363
+|cant|p1a: Charizard|slp
+|
+|turn|5
+|choice|move 3|move 1
+|
+|cant|p1a: Charizard|slp
+|move|p2a: Golem|Rock Slide|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|choice|switch 3|
+|
+|switch|p1a: Gyarados|Gyarados|393\/393
+|turn|6
+|choice|move 2|switch 6
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Gyarados|Ice Beam|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|257\/393
+|
+|turn|7
+|choice|move 1|move 2
+|
+|move|p1a: Gyarados|Fire Blast|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|choice||switch 4
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|turn|8
+|choice|move 3|move 4
+|
+|move|p2a: Starmie|Thunder Wave|p1a: Gyarados
+|-status|p1a: Gyarados|par
+|move|p1a: Gyarados|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|167\/323
+|
+|turn|9
+|choice|move 3|move 2
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|72\/393 par
+|move|p1a: Gyarados|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|13\/323
+|
+|turn|10
+|choice|move 3|move 3
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|174\/323
+|move|p1a: Gyarados|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|33\/323
+|
+|turn|11
+|choice|move 3|move 3
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|194\/323
+|move|p1a: Gyarados|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|55\/323
+|
+|turn|12
+|choice|move 3|move 2
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|choice|switch 5|
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|turn|13
+|choice|move 2|switch 2
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Alakazam|Tri Attack|p2a: Chansey
+|-damage|p2a: Chansey|582\/703
+|
+|turn|14
+|choice|switch 2|move 1
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|move|p2a: Chansey|Ice Beam|p1a: Tauros
+|-damage|p1a: Tauros|254\/353
+|-status|p1a: Tauros|frz
+|
+|turn|15
+|choice|move 1|switch 2
+|
+|switch|p2a: Starmie|Starmie|55\/323
+|cant|p1a: Tauros|frz
+|
+|turn|16
+|choice|move 1|move 3
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|216\/323
+|cant|p1a: Tauros|frz
+|
+|turn|17
+|choice|move 4|move 3
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|323\/323
+|cant|p1a: Tauros|frz
+|
+|turn|18
+|choice|move 2|move 2
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Tauros
+|-damage|p1a: Tauros|153\/353 frz
+|cant|p1a: Tauros|frz
+|
+|turn|19
+|choice|move 2|move 2
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|choice|switch 4|
+|
+|switch|p1a: Gengar|Gengar|323\/323
+|turn|20
+|choice|move 2|switch 6
+|
+|switch|p2a: Golem|Golem|363\/363
+|move|p1a: Gengar|Thunderbolt|p2a: Golem
+|-immune|p2a: Golem|[msg]
+|
+|turn|21
+|choice|move 3|move 2
+|
+|move|p1a: Gengar|Mega Drain|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|153\/363
+|move|p2a: Golem|Earthquake|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|choice|switch 2|
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|turn|22
+|choice|move 2|move 4
+|
+|move|p1a: Alakazam|Tri Attack|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|135\/363
+|move|p2a: Golem|Explosion|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|faint|p2a: Golem
+|
+|win|Vashimus
+|player|p1
+|player|p2
+|raw|Xant0o13's rating: 1022 &rarr; <strong>1012<\/strong><br \/>(-10 for losing)
+|raw|Vashimus's rating: 1116 &rarr; <strong>1135<\/strong><br \/>(+19 for winning)
+|l|Xant0o13

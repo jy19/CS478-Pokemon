@@ -1,0 +1,522 @@
+﻿|join|Clypherus
+|join|XianJu
+|player|p1|Clypherus|102
+|player|p2|XianJu|130
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|seed|34441,20412,53195,57641
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Electrode|Electrode|323\/323
+|switch|p2a: Alakazam|Alakazam|313\/313
+|turn|1
+|c|★Clypherus|heyyyy
+|choice|move 3|switch 3
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Electrode|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|turn|2
+|c|★Clypherus|my best friend!
+|choice|switch 3|switch 2
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|switch|p2a: Rhydon|Rhydon|413\/413
+|
+|turn|3
+|choice|move 2|move 4
+|
+|move|p2a: Rhydon|Body Slam|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|335\/523
+|move|p1a: Snorlax|Mega Kick|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|351\/413
+|
+|turn|4
+|choice|move 1|move 4
+|
+|move|p2a: Rhydon|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|230\/523
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp
+|-heal|p1a: Snorlax|523\/523 slp|[silent]
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|
+|turn|5
+|choice|move 4|move 3
+|
+|move|p2a: Rhydon|Substitute|p2a: Rhydon
+|-start|p2a: Rhydon|Substitute
+|-damage|p2a: Rhydon|248\/413
+|cant|p1a: Snorlax|slp
+|
+|turn|6
+|choice|move 4|move 1
+|
+|move|p2a: Rhydon|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|353\/523 slp
+|-curestatus|p1a: Snorlax|slp
+|
+|turn|7
+|choice|move 4|move 1
+|
+|move|p2a: Rhydon|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|157\/523
+|move|p1a: Snorlax|Body Slam|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-activate|p2a: Rhydon|Substitute|[damage]
+|
+|turn|8
+|choice|switch 4|move 1
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Rhydon|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|296\/703
+|
+|turn|9
+|choice|move 1|move 1
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|647\/703
+|move|p2a: Rhydon|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|258\/703
+|
+|turn|10
+|choice|move 3|move 4
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-start|p1a: Chansey|Reflect
+|move|p2a: Rhydon|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|149\/703
+|
+|turn|11
+|choice|move 1|move 4
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|500\/703
+|move|p2a: Rhydon|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|396\/703
+|
+|turn|12
+|choice|move 1|move 1
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703
+|move|p2a: Rhydon|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|497\/703
+|
+|turn|13
+|choice|move 4|move 1
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Rhydon
+|-end|p2a: Rhydon|Substitute
+|move|p2a: Rhydon|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|309\/703
+|
+|turn|14
+|choice|move 1|move 1
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|660\/703
+|move|p2a: Rhydon|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|478\/703
+|
+|turn|15
+|choice|move 2|move 1
+|
+|move|p1a: Chansey|Toxic|p2a: Rhydon|[miss]
+|-miss|p1a: Chansey
+|move|p2a: Rhydon|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|273\/703
+|
+|turn|16
+|choice|move 1|move 1
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|624\/703
+|move|p2a: Rhydon|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|433\/703
+|
+|turn|17
+|c|★XianJu|oh hey its you
+|c|★XianJu|this time play to end
+|choice|move 2|switch 4
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Chansey|Toxic|p2a: Exeggutor
+|-status|p2a: Exeggutor|tox
+|
+|turn|18
+|c|★Clypherus|aff
+|c|★Clypherus|no exeggutor plx
+|c|★Clypherus|he sweep me
+|choice|move 1|move 1
+|
+|move|p2a: Exeggutor|Sleep Powder|p1a: Chansey|[miss]
+|-miss|p2a: Exeggutor
+|-damage|p2a: Exeggutor|369\/393 tox|[from] tox|[of] p1a: Chansey
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703
+|
+|turn|19
+|choice|switch 4|move 1
+|
+|switch|p1a: Snorlax|Snorlax|157\/523
+|move|p2a: Exeggutor|Sleep Powder|p1a: Snorlax
+|-status|p1a: Snorlax|slp
+|-damage|p2a: Exeggutor|321\/393 tox|[from] tox|[of] p1a: Snorlax
+|
+|turn|20
+|choice|switch 5|move 2
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|move|p2a: Exeggutor|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|262\/313
+|-damage|p2a: Exeggutor|249\/393 tox|[from] tox|[of] p1a: Alakazam
+|
+|turn|21
+|choice|move 4|move 3
+|
+|move|p1a: Alakazam|Reflect|p1a: Alakazam
+|-start|p1a: Alakazam|Reflect
+|move|p2a: Exeggutor|Explosion|p1a: Alakazam
+|-damage|p1a: Alakazam|70\/313
+|faint|p2a: Exeggutor
+|c|★XianJu|ok i got rid of it
+|choice||switch 3
+|
+|switch|p2a: Alakazam|Alakazam|313\/313
+|turn|22
+|choice|move 1|move 1
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|226\/313
+|move|p2a: Alakazam|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|170\/313
+|
+|turn|23
+|choice|move 2|move 3
+|
+|move|p1a: Alakazam|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|264\/313
+|-unboost|p2a: Alakazam|spd|1
+|-unboost|p2a: Alakazam|spa|1
+|move|p2a: Alakazam|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|
+|turn|24
+|choice|move 2|move 1
+|
+|move|p2a: Alakazam|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|138\/313 par
+|-unboost|p1a: Alakazam|spd|1
+|-unboost|p1a: Alakazam|spa|1
+|move|p1a: Alakazam|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|211\/313
+|-unboost|p2a: Alakazam|spd|1
+|-unboost|p2a: Alakazam|spa|1
+|
+|turn|25
+|choice|move 1|move 1
+|
+|move|p2a: Alakazam|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|96\/313 par
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|252\/313 par
+|
+|turn|26
+|choice|move 2|move 1
+|
+|move|p2a: Alakazam|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|210\/313 par
+|move|p1a: Alakazam|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|137\/313
+|
+|turn|27
+|choice|switch 6|move 1
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|move|p2a: Alakazam|Psychic|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|16\/353
+|
+|turn|28
+|choice|move 4|move 1
+|
+|move|p2a: Alakazam|Psychic|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|choice|switch 6|
+|
+|switch|p1a: Alakazam|Alakazam|210\/313 par
+|turn|29
+|choice|move 3|move 2
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|293\/313
+|cant|p1a: Alakazam|par
+|
+|turn|30
+|choice|move 2|switch 4
+|
+|switch|p2a: Rhydon|Rhydon|248\/413
+|move|p1a: Alakazam|Psychic|p2a: Rhydon
+|-damage|p2a: Rhydon|56\/413
+|
+|turn|31
+|choice|move 4|move 1
+|
+|move|p2a: Rhydon|Earthquake|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|choice|switch 2|
+|
+|switch|p1a: Gengar|Gengar|323\/323
+|turn|32
+|choice|move 3|switch 2
+|
+|switch|p2a: Chansey|Chansey|703\/703 par
+|move|p1a: Gengar|Hypnosis|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|33
+|choice|move 4|move 1
+|
+|move|p1a: Gengar|Confuse Ray|p2a: Chansey
+|-start|p2a: Chansey|confusion
+|-activate|p2a: Chansey|confusion
+|-damage|p2a: Chansey|668\/703 par|[from] confusion
+|
+|turn|34
+|choice|move 1|move 1
+|
+|move|p1a: Gengar|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|585\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|35
+|choice|move 1|switch 4
+|
+|switch|p2a: Alakazam|Alakazam|293\/313
+|move|p1a: Gengar|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|257\/313
+|
+|turn|36
+|choice|switch 4|move 1
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|572\/703
+|
+|turn|37
+|choice|move 2|switch 4
+|
+|switch|p2a: Chansey|Chansey|585\/703 par
+|move|p1a: Chansey|Toxic|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|38
+|choice|switch 5|move 1
+|
+|switch|p1a: Snorlax|Snorlax|157\/523 slp
+|move|p2a: Chansey|Ice Beam|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|choice|switch 3|
+|
+|switch|p1a: Electrode|Electrode|323\/323
+|turn|39
+|choice|move 2|switch 2
+|
+|switch|p2a: Rhydon|Rhydon|56\/413
+|move|p1a: Electrode|Thunderbolt|p2a: Rhydon
+|-immune|p2a: Rhydon|[msg]
+|
+|turn|40
+|choice|switch 5|switch 5
+|
+|switch|p1a: Chansey|Chansey|572\/703
+|switch|p2a: Starmie|Starmie|323\/323
+|
+|turn|41
+|choice|move 2|move 1
+|
+|move|p2a: Starmie|Surf|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|372\/703
+|move|p1a: Chansey|Toxic|p2a: Starmie
+|-status|p2a: Starmie|tox
+|
+|turn|42
+|choice|move 1|move 1
+|
+|move|p2a: Starmie|Surf|p1a: Chansey
+|-damage|p1a: Chansey|266\/703
+|-damage|p2a: Starmie|303\/323 tox|[from] tox|[of] p1a: Chansey
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|617\/703
+|
+|turn|43
+|choice|move 4|move 1
+|
+|move|p2a: Starmie|Surf|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|393\/703
+|-damage|p2a: Starmie|263\/323 tox|[from] tox|[of] p1a: Chansey
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|163\/323 tox
+|
+|turn|44
+|choice|move 4|move 1
+|
+|move|p2a: Starmie|Surf|p1a: Chansey
+|-damage|p1a: Chansey|288\/703
+|-damage|p2a: Starmie|103\/323 tox|[from] tox|[of] p1a: Chansey
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|3\/323 tox
+|
+|turn|45
+|choice|move 4|move 1
+|
+|move|p2a: Starmie|Surf|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|87\/703
+|-damage|p2a: Starmie|0 fnt|[from] tox|[of] p1a: Chansey
+|faint|p2a: Starmie
+|choice||switch 4
+|
+|switch|p2a: Alakazam|Alakazam|257\/313
+|turn|46
+|choice|switch 5|move 1
+|
+|switch|p1a: Electrode|Electrode|323\/323
+|move|p2a: Alakazam|Psychic|p1a: Electrode
+|-damage|p1a: Electrode|183\/323
+|
+|turn|47
+|choice|move 1|switch 6
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|move|p1a: Electrode|Explosion|p2a: Gengar
+|-immune|p2a: Gengar|[msg]
+|faint|p1a: Electrode
+|c|★Clypherus|good play
+|choice|switch 4|
+|
+|switch|p1a: Gengar|Gengar|323\/323
+|turn|48
+|choice|move 3|switch 6
+|
+|switch|p2a: Alakazam|Alakazam|257\/313
+|move|p1a: Gengar|Hypnosis|p2a: Alakazam
+|-status|p2a: Alakazam|slp
+|
+|turn|49
+|choice|move 2|switch 2
+|
+|switch|p2a: Chansey|Chansey|585\/703 par
+|move|p1a: Gengar|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|494\/703 par
+|
+|turn|50
+|c|★XianJu|you forgot about him
+|choice|move 4|move 1
+|
+|move|p1a: Gengar|Confuse Ray|p2a: Chansey
+|-start|p2a: Chansey|confusion
+|cant|p2a: Chansey|par
+|
+|turn|51
+|choice|move 1|move 1
+|
+|move|p1a: Gengar|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|409\/703 par
+|-activate|p2a: Chansey|confusion
+|-damage|p2a: Chansey|374\/703 par|[from] confusion
+|
+|turn|52
+|choice|move 1|switch 6
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|move|p1a: Gengar|Psychic|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|176\/323
+|
+|turn|53
+|choice|move 1|move 1
+|
+|move|p1a: Gengar|Psychic|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|33\/323
+|move|p2a: Gengar|Hypnosis|p1a: Gengar
+|-status|p1a: Gengar|slp
+|
+|turn|54
+|choice|switch 5|switch 5
+|
+|switch|p2a: Rhydon|Rhydon|56\/413
+|switch|p1a: Chansey|Chansey|87\/703
+|
+|turn|55
+|choice|move 1|move 1
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|438\/703
+|move|p2a: Rhydon|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|84\/703
+|
+|turn|56
+|choice|move 1|move 1
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|435\/703
+|move|p2a: Rhydon|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|48\/703
+|
+|turn|57
+|choice|move 1|move 1
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|399\/703
+|move|p2a: Rhydon|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|choice|switch 5|
+|
+|switch|p1a: Gengar|Gengar|323\/323 slp
+|turn|58
+|choice|move 3|move 1
+|
+|cant|p1a: Gengar|slp
+|move|p2a: Rhydon|Earthquake|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|win|XianJu
+|c|★Clypherus|gg
+|raw|Clypherus's rating: 1071 &rarr; <strong>1052<\/strong><br \/>(-19 for losing)
+|raw|XianJu's rating: 1095 &rarr; <strong>1119<\/strong><br \/>(+24 for winning)
+|c|★XianJu|gg
+|leave|Clypherus
+|player|p1

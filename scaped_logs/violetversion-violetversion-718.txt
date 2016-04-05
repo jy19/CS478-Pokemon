@@ -1,0 +1,511 @@
+﻿|J|KristophV
+|J|Anna says hi
+|player|p1|KristophV|kristophv.png
+|player|p2|Anna says hi|183
+|gametype|singles
+|gen|1
+|tier|Violet Version
+|clearpoke
+|poke|p1|Muk
+|poke|p1|Chansey
+|poke|p1|Butterfree
+|poke|p1|Moltres
+|poke|p1|Starmie
+|poke|p1|Aerodactyl
+|poke|p2|Beedrill
+|poke|p2|Vileplume
+|poke|p2|Jynx
+|poke|p2|Chansey
+|poke|p2|Zapdos
+|poke|p2|Golduck
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|
+|start
+|switch|p1a: Starmie|Starmie|323\/323
+|switch|p2a: Zapdos|Zapdos|383\/383
+|turn|1
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Starmie|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|616\/703
+|-status|p2a: Chansey|frz
+|
+|turn|2
+|c|★KristophV|really
+|
+|switch|p2a: Golduck|Golduck|363\/363
+|move|p1a: Starmie|Hydro Pump|p2a: Golduck
+|-resisted|p2a: Golduck
+|-damage|p2a: Golduck|280\/363
+|
+|turn|3
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Golduck
+|-supereffective|p2a: Golduck
+|-damage|p2a: Golduck|116\/363
+|move|p2a: Golduck|Tri Attack|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|151\/323
+|
+|turn|4
+|
+|switch|p2a: Beedrill|Beedrill|333\/333
+|move|p1a: Starmie|Thunderbolt|p2a: Beedrill
+|-damage|p2a: Beedrill|207\/333
+|
+|turn|5
+|
+|switch|p1a: Aerodactyl|Aerodactyl|363\/363
+|move|p2a: Beedrill|Twineedle|p1a: Aerodactyl
+|-resisted|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|338\/363
+|-damage|p1a: Aerodactyl|313\/363
+|-hitcount|p1a: Aerodactyl|2
+|
+|turn|6
+|c|★Anna says hi|this thing never poisons
+|c|★KristophV|yeah i'm confused about that too
+|
+|switch|p2a: Vileplume|Vileplume|363\/363
+|move|p1a: Aerodactyl|Rock Slide|p2a: Vileplume
+|-damage|p2a: Vileplume|251\/363
+|
+|turn|7
+|c|★Anna says hi|it could just be terrible luck
+|J|Disaster Area
+|c|★Anna says hi|which that turn 1 freeze confirms
+|
+|switch|p1a: Starmie|Starmie|151\/323
+|move|p2a: Vileplume|Sleep Powder|p1a: Starmie
+|-status|p1a: Starmie|slp
+|
+|turn|8
+|
+|switch|p1a: Muk|Muk|493\/493
+|move|p2a: Vileplume|Razor Leaf|p1a: Muk
+|-crit|p1a: Muk
+|-resisted|p1a: Muk
+|-damage|p1a: Muk|413\/493
+|
+|turn|9
+|c|@Disaster Area|Muk?!
+|
+|switch|p2a: Jynx|Jynx|333\/333
+|move|p1a: Muk|Body Slam|p2a: Jynx
+|-crit|p2a: Jynx
+|-damage|p2a: Jynx|106\/333
+|
+|turn|10
+|c|★Anna says hi|have you played VV lately?
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Jynx|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|597\/703
+|
+|turn|11
+|c|@Disaster Area|yeah I played a lot in development
+|
+|move|p2a: Jynx|Mimic|p1a: Chansey
+|-start|p2a: Jynx|Mimic|Thunder Wave
+|move|p1a: Chansey|Thunder Wave|p2a: Jynx
+|-status|p2a: Jynx|par
+|
+|turn|12
+|c|@Disaster Area|not touched it in ages
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Jynx
+|-crit|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|c|★KristophV|i keep not getting crits with fast things and then suddenly i get a muk crit and a chansey crit
+|
+|switch|p2a: Golduck|Golduck|116\/363
+|turn|13
+|c|★KristophV|lol
+|
+|move|p2a: Golduck|Amnesia|p2a: Golduck
+|-boost|p2a: Golduck|spd|2
+|-boost|p2a: Golduck|spa|2
+|move|p1a: Chansey|Thunderbolt|p2a: Golduck
+|-supereffective|p2a: Golduck
+|-damage|p2a: Golduck|24\/363
+|
+|turn|14
+|
+|switch|p1a: Muk|Muk|413\/493
+|move|p2a: Golduck|Rest|p2a: Golduck
+|-status|p2a: Golduck|slp
+|-heal|p2a: Golduck|363\/363 slp|[silent]
+|-status|p2a: Golduck|slp|[from] move: Rest
+|
+|turn|15
+|
+|cant|p2a: Golduck|slp
+|move|p1a: Muk|Disable|p2a: Golduck
+|-start|p2a: Golduck|Disable|Tri Attack
+|
+|turn|16
+|
+|switch|p2a: Chansey|Chansey|616\/703 frz
+|switch|p1a: Butterfree|Butterfree|343\/343
+|
+|turn|17
+|
+|switch|p2a: Zapdos|Zapdos|383\/383
+|move|p1a: Butterfree|Leech Life|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|356\/383
+|
+|turn|18
+|
+|switch|p1a: Muk|Muk|413\/493
+|move|p2a: Zapdos|Thunder Wave|p1a: Muk
+|-status|p1a: Muk|par
+|
+|turn|19
+|
+|switch|p2a: Golduck|Golduck|363\/363 slp
+|move|p1a: Muk|Disable|p2a: Golduck
+|-start|p2a: Golduck|Disable|Amnesia
+|
+|turn|20
+|
+|switch|p1a: Chansey|Chansey|597\/703
+|-curestatus|p2a: Golduck|slp
+|
+|turn|21
+|
+|switch|p2a: Vileplume|Vileplume|251\/363
+|move|p1a: Chansey|Thunder Wave|p2a: Vileplume
+|-status|p2a: Vileplume|par
+|
+|turn|22
+|
+|move|p1a: Chansey|Ice Beam|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|89\/363 par
+|move|p2a: Vileplume|Stun Spore|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|turn|23
+|
+|move|p2a: Vileplume|Acid|p1a: Chansey
+|-damage|p1a: Chansey|344\/703 par
+|-unboost|p1a: Chansey|def|1
+|move|p1a: Chansey|Ice Beam|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|
+|switch|p2a: Zapdos|Zapdos|356\/383
+|turn|24
+|
+|switch|p1a: Muk|Muk|413\/493 par
+|move|p2a: Zapdos|Drill Peck|p1a: Muk
+|-crit|p1a: Muk
+|-damage|p1a: Muk|222\/493 par
+|
+|turn|25
+|
+|switch|p2a: Chansey|Chansey|616\/703 frz
+|cant|p1a: Muk|par
+|
+|turn|26
+|
+|cant|p2a: Chansey|frz
+|move|p1a: Muk|Acid|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|147\/703 frz
+|-unboost|p2a: Chansey|def|1
+|
+|turn|27
+|
+|switch|p2a: Golduck|Golduck|363\/363
+|move|p1a: Muk|Body Slam|p2a: Golduck
+|-immune|p2a: Golduck|[msg]
+|
+|turn|28
+|
+|move|p2a: Golduck|Tri Attack|p1a: Muk
+|-damage|p1a: Muk|129\/493 par
+|cant|p1a: Muk|par
+|
+|turn|29
+|
+|switch|p2a: Chansey|Chansey|147\/703 frz
+|switch|p1a: Chansey|Chansey|344\/703 par
+|
+|turn|30
+|c|★KristophV|note to self, reduce acid's pp
+|
+|switch|p2a: Beedrill|Beedrill|207\/333
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|695\/703 par
+|
+|turn|31
+|
+|move|p2a: Beedrill|Poison Sting|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|166\/703 par
+|move|p1a: Chansey|Thunder Wave|p2a: Beedrill
+|-status|p2a: Beedrill|par
+|
+|turn|32
+|
+|switch|p1a: Muk|Muk|129\/493 par
+|move|p2a: Beedrill|Poison Sting|p1a: Muk
+|-resisted|p1a: Muk
+|-damage|p1a: Muk|75\/493 par
+|
+|turn|33
+|
+|switch|p2a: Golduck|Golduck|363\/363
+|move|p1a: Muk|Explosion|p2a: Golduck
+|-immune|p2a: Golduck|[msg]
+|faint|p1a: Muk
+|
+|switch|p1a: Butterfree|Butterfree|343\/343
+|turn|34
+|
+|move|p2a: Golduck|Tri Attack|p1a: Butterfree
+|-supereffective|p1a: Butterfree
+|-damage|p1a: Butterfree|124\/343
+|move|p1a: Butterfree|Sleep Powder|p2a: Golduck
+|-status|p2a: Golduck|slp
+|
+|turn|35
+|
+|cant|p2a: Golduck|slp
+|move|p1a: Butterfree|Stun Spore|p2a: Golduck
+|-fail|p2a: Golduck
+|
+|turn|36
+|
+|cant|p2a: Golduck|slp
+|move|p1a: Butterfree|Psychic|p2a: Golduck
+|-damage|p2a: Golduck|243\/363 slp
+|
+|turn|37
+|
+|switch|p2a: Zapdos|Zapdos|356\/383
+|move|p1a: Butterfree|Psychic|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|188\/383
+|
+|turn|38
+|c|★Anna says hi|trying a double powder set?
+|c|★KristophV|yeah
+|c|★KristophV|it's probably more solid than running solar beam i guess
+|c|★KristophV|even though i <3 solar beam
+|c|★Anna says hi|double powder sets are fun
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Butterfree
+|-supereffective|p1a: Butterfree
+|-damage|p1a: Butterfree|0 fnt
+|faint|p1a: Butterfree
+|
+|switch|p1a: Aerodactyl|Aerodactyl|313\/363
+|turn|39
+|
+|move|p1a: Aerodactyl|Rock Slide|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|switch|p2a: Golduck|Golduck|243\/363 slp
+|turn|40
+|
+|move|p1a: Aerodactyl|Rock Slide|p2a: Golduck
+|-damage|p2a: Golduck|129\/363 slp
+|cant|p2a: Golduck|slp
+|
+|turn|41
+|
+|move|p1a: Aerodactyl|Rock Slide|p2a: Golduck
+|-damage|p2a: Golduck|11\/363 slp
+|-curestatus|p2a: Golduck|slp
+|
+|turn|42
+|c|★Anna says hi|please miss
+|
+|move|p1a: Aerodactyl|Rock Slide|p2a: Golduck|[miss]
+|-miss|p1a: Aerodactyl
+|move|p2a: Golduck|Surf|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|58\/363
+|
+|turn|43
+|
+|move|p1a: Aerodactyl|Rock Slide|p2a: Golduck|[miss]
+|-miss|p1a: Aerodactyl
+|move|p2a: Golduck|Surf|p1a: Aerodactyl
+|-crit|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|0 fnt
+|faint|p1a: Aerodactyl
+|c|★Anna says hi|holy shit
+|c|★Anna says hi|it happened
+|
+|switch|p1a: Moltres|Moltres|383\/383
+|turn|44
+|c|★KristophV|hahahaaha
+|
+|move|p1a: Moltres|Fire Blast|p2a: Golduck|[miss]
+|-miss|p1a: Moltres
+|move|p2a: Golduck|Rest|p2a: Golduck
+|-status|p2a: Golduck|slp
+|-heal|p2a: Golduck|363\/363 slp|[silent]
+|-status|p2a: Golduck|slp|[from] move: Rest
+|
+|turn|45
+|c|★KristophV|why
+|c|★Anna says hi|oh my
+|
+|move|p1a: Moltres|Solar Beam|p2a: Golduck|[still]
+|-prepare|p1a: Moltres|Solar Beam|p2a: Golduck
+|-boost|p1a: Moltres|spa|1
+|-boost|p1a: Moltres|spd|1
+|cant|p2a: Golduck|slp
+|
+|turn|46
+|
+|switch|p2a: Chansey|Chansey|147\/703 frz
+|move|p1a: Moltres|Solar Beam|p2a: Chansey
+|-damage|p2a: Chansey|18\/703 frz
+|
+|turn|47
+|
+|switch|p2a: Beedrill|Beedrill|207\/333 par
+|move|p1a: Moltres|Solar Beam|p2a: Beedrill|[still]
+|-prepare|p1a: Moltres|Solar Beam|p2a: Beedrill
+|-boost|p1a: Moltres|spa|1
+|-boost|p1a: Moltres|spd|1
+|
+|turn|48
+|
+|move|p1a: Moltres|Solar Beam|p2a: Beedrill
+|-resisted|p2a: Beedrill
+|-damage|p2a: Beedrill|138\/333 par
+|move|p2a: Beedrill|Toxic|p1a: Moltres
+|-status|p1a: Moltres|tox
+|
+|turn|49
+|
+|switch|p2a: Chansey|Chansey|18\/703 frz
+|move|p1a: Moltres|Fire Blast|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|switch|p2a: Golduck|Golduck|363\/363 slp
+|turn|50
+|
+|move|p1a: Moltres|Solar Beam|p2a: Golduck|[still]
+|-prepare|p1a: Moltres|Solar Beam|p2a: Golduck
+|-boost|p1a: Moltres|spa|1
+|-boost|p1a: Moltres|spd|1
+|-damage|p1a: Moltres|360\/383 tox|[from] tox|[of] p2a: Golduck
+|-curestatus|p2a: Golduck|slp
+|
+|turn|51
+|
+|switch|p2a: Beedrill|Beedrill|138\/333 par
+|move|p1a: Moltres|Solar Beam|p2a: Beedrill
+|-crit|p2a: Beedrill
+|-resisted|p2a: Beedrill
+|-damage|p2a: Beedrill|73\/333 par
+|-damage|p1a: Moltres|314\/383 tox|[from] tox|[of] p2a: Beedrill
+|
+|turn|52
+|
+|move|p1a: Moltres|Fire Blast|p2a: Beedrill|[miss]
+|-miss|p1a: Moltres
+|-damage|p1a: Moltres|245\/383 tox|[from] tox|[of] p2a: Beedrill
+|move|p2a: Beedrill|Dream Eater|p1a: Moltres
+|-damage|p1a: Moltres|88\/383 tox
+|-heal|p2a: Beedrill|230\/333 par|[from] drain|[of] p1a: Moltres
+|
+|turn|53
+|
+|switch|p2a: Golduck|Golduck|363\/363
+|move|p1a: Moltres|Fire Blast|p2a: Golduck
+|-crit|p2a: Golduck
+|-resisted|p2a: Golduck
+|-damage|p2a: Golduck|168\/363
+|-damage|p1a: Moltres|0 fnt|[from] tox|[of] p2a: Golduck
+|faint|p1a: Moltres
+|c|★Anna says hi|yes
+|c|★Anna says hi|this is perfect
+|c|★KristophV|lmao nooo
+|
+|switch|p1a: Chansey|Chansey|166\/703 par
+|turn|54
+|
+|move|p2a: Golduck|Surf|p1a: Chansey
+|-damage|p1a: Chansey|74\/703 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|425\/703 par
+|
+|turn|55
+|
+|move|p2a: Golduck|Rest|p2a: Golduck
+|-status|p2a: Golduck|slp
+|-heal|p2a: Golduck|363\/363 slp|[silent]
+|-status|p2a: Golduck|slp|[from] move: Rest
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703 par
+|
+|turn|56
+|
+|cant|p2a: Golduck|slp
+|move|p1a: Chansey|Thunderbolt|p2a: Golduck
+|-supereffective|p2a: Golduck
+|-damage|p2a: Golduck|192\/363 slp
+|
+|turn|57
+|
+|-curestatus|p2a: Golduck|slp
+|move|p1a: Chansey|Thunderbolt|p2a: Golduck
+|-crit|p2a: Golduck
+|-supereffective|p2a: Golduck
+|-damage|p2a: Golduck|0 fnt
+|faint|p2a: Golduck
+|
+|switch|p2a: Beedrill|Beedrill|230\/333 par
+|turn|58
+|
+|move|p2a: Beedrill|Poison Sting|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|226\/703 par
+|move|p1a: Chansey|Ice Beam|p2a: Beedrill
+|-damage|p2a: Beedrill|106\/333 par
+|
+|turn|59
+|c|★Anna says hi|ripin crit rate
+|
+|move|p2a: Beedrill|Poison Sting|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|switch|p1a: Starmie|Starmie|151\/323 slp
+|turn|60
+|c|★Anna says hi|this is classic gen 1
+|
+|cant|p1a: Starmie|slp
+|move|p2a: Beedrill|Twineedle|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|62\/323 slp
+|-damage|p1a: Starmie|0 fnt
+|-hitcount|p1a: Starmie|2
+|faint|p1a: Starmie
+|
+|win|Anna says hi
+|c|★KristophV|it really is
+|c|★KristophV|gg wowwww
+|c|★Anna says hi|too much hax

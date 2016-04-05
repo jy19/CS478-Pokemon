@@ -1,0 +1,336 @@
+﻿|join|angry Moron
+|join|Kel9901
+|player|p1|angry Moron|275
+|player|p2|Kel9901|101
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|1
+|callback|decision
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Alakazam|Psychic|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|286\/393
+|
+|turn|2
+|callback|decision
+|join|MrSparklez
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Exeggutor
+|-status|p2a: Exeggutor|par
+|move|p2a: Exeggutor|Sleep Powder|p1a: Alakazam
+|-status|p1a: Alakazam|slp
+|
+|turn|3
+|callback|decision
+|leave|MrSparklez
+|
+|switch|p1a: Cloyster|Cloyster|303\/303
+|switch|p2a: Snorlax|Snorlax|523\/523
+|
+|turn|4
+|callback|decision
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Cloyster|Clamp|p2a: Chansey|[miss]
+|-miss|p1a: Cloyster
+|
+|turn|5
+|callback|decision
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|turn|6
+|callback|decision
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Chansey|Ice Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|420\/523
+|
+|turn|7
+|callback|decision
+|
+|switch|p1a: Cloyster|Cloyster|303\/303
+|move|p2a: Snorlax|Body Slam|p1a: Cloyster
+|-damage|p1a: Cloyster|232\/303
+|
+|turn|8
+|callback|decision
+|
+|move|p1a: Cloyster|Blizzard|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|75\/523
+|move|p2a: Snorlax|Body Slam|p1a: Cloyster
+|-damage|p1a: Cloyster|160\/303
+|-status|p1a: Cloyster|par
+|
+|turn|9
+|callback|decision
+|
+|move|p2a: Snorlax|Self-Destruct|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|faint|p2a: Snorlax
+|callback|decision
+|
+|switch|p2a: Golem|Golem|363\/363
+|switch|p1a: Snorlax|Snorlax|523\/523
+|turn|10
+|callback|decision
+|
+|switch|p2a: Exeggutor|Exeggutor|286\/393 par
+|move|p1a: Snorlax|Body Slam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|177\/393 par
+|
+|turn|11
+|callback|decision
+|
+|move|p1a: Snorlax|Hyper Beam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|callback|decision
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|12
+|callback|decision
+|
+|move|p2a: Gengar|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|400\/523
+|-status|p1a: Snorlax|par
+|cant|p1a: Snorlax|par
+|
+|turn|13
+|callback|decision
+|
+|move|p2a: Gengar|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|287\/523 par
+|move|p1a: Snorlax|Earthquake|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|98\/323
+|
+|turn|14
+|callback|decision
+|
+|switch|p1a: Alakazam|Alakazam|313\/313 slp
+|move|p2a: Gengar|Explosion|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|faint|p2a: Gengar
+|callback|decision
+|
+|switch|p1a: Dragonite|Dragonite|385\/385
+|switch|p2a: Golem|Golem|363\/363
+|turn|15
+|callback|decision
+|
+|move|p1a: Dragonite|Wrap|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|357\/363
+|-activate|p2a: Golem|move: Wrap|[of] p1a: Dragonite
+|cant|p2a: Golem|partiallytrapped
+|
+|turn|16
+|callback|decision
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|move|p1a: Dragonite|Wrap|p2a: Tauros
+|-damage|p2a: Tauros|337\/353
+|-activate|p2a: Tauros|move: Wrap|[of] p1a: Dragonite
+|
+|turn|17
+|callback|decision
+|
+|switch|p1a: Snorlax|Snorlax|287\/523 par
+|cant|p2a: Tauros|partiallytrapped
+|
+|-end|p2a: Tauros|Wrap|[partiallytrapped]
+|turn|18
+|callback|decision
+|
+|switch|p2a: Golem|Golem|357\/363
+|cant|p1a: Snorlax|par
+|
+|turn|19
+|callback|decision
+|
+|move|p2a: Golem|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|113\/523 par
+|move|p1a: Snorlax|Earthquake|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|227\/363
+|
+|turn|20
+|callback|decision
+|
+|move|p2a: Golem|Rock Slide|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|callback|decision
+|
+|switch|p1a: Dragonite|Dragonite|385\/385
+|turn|21
+|callback|decision
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Dragonite|Wrap|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|621\/703
+|-activate|p2a: Chansey|move: Wrap|[of] p1a: Dragonite
+|
+|turn|22
+|callback|decision
+|
+|switch|p1a: Chansey|Chansey|703\/703 par
+|switch|p2a: Tauros|Tauros|337\/353
+|
+|turn|23
+|callback|decision
+|
+|switch|p2a: Golem|Golem|227\/363
+|cant|p1a: Chansey|par
+|
+|turn|24
+|callback|decision
+|
+|move|p2a: Golem|Explosion|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|faint|p2a: Golem
+|callback|decision
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|switch|p2a: Tauros|Tauros|337\/353
+|turn|25
+|callback|decision
+|
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|258\/353
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|233\/353
+|
+|turn|26
+|callback|decision
+|
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|146\/353
+|-status|p1a: Tauros|par
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|35\/353
+|
+|turn|27
+|callback|decision
+|
+|switch|p1a: Dragonite|Dragonite|385\/385
+|move|p2a: Tauros|Hyper Beam|p1a: Dragonite
+|-damage|p1a: Dragonite|201\/385
+|
+|turn|28
+|callback|decision
+|
+|cant|p2a: Tauros|recharge
+|move|p1a: Dragonite|Agility|p1a: Dragonite
+|-boost|p1a: Dragonite|spe|2
+|
+|turn|29
+|callback|decision
+|
+|move|p1a: Dragonite|Blizzard|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|callback|decision
+|
+|switch|p2a: Chansey|Chansey|621\/703
+|turn|30
+|callback|decision
+|
+|move|p1a: Dragonite|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|580\/703
+|-activate|p2a: Chansey|move: Wrap|[of] p1a: Dragonite
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|31
+|callback|decision
+|
+|move|p1a: Dragonite|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|539\/703
+|cant|p2a: Chansey|partiallytrapped
+|
+|-end|p2a: Chansey|Wrap|[partiallytrapped]
+|turn|32
+|callback|decision
+|
+|move|p1a: Dragonite|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|499\/703
+|-activate|p2a: Chansey|move: Wrap|[of] p1a: Dragonite
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|33
+|callback|decision
+|
+|move|p1a: Dragonite|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|459\/703
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|34
+|callback|decision
+|
+|move|p1a: Dragonite|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|419\/703
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|35
+|callback|decision
+|
+|move|p1a: Dragonite|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|379\/703
+|cant|p2a: Chansey|partiallytrapped
+|
+|-end|p2a: Chansey|Wrap|[partiallytrapped]
+|turn|36
+|callback|decision
+|
+|move|p1a: Dragonite|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|move|p2a: Chansey|Ice Beam|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|callback|decision
+|
+|switch|p1a: Tauros|Tauros|146\/353 par
+|turn|37
+|callback|decision
+|chat|Kel9901|gg
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|win|angry Moron
+|raw|Ladder updating...
+|chat|angry Moron|gg
+|leave|Kel9901
+|player|p2
+|raw|Ladder (probably) updated, but score could not be retrieved (timeout).
+|raw|Ladder (probably) updated, but score could not be retrieved (Error: socket hang up).

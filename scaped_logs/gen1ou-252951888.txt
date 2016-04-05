@@ -1,0 +1,265 @@
+﻿|join|ilsharko
+|join|Dark Vessel
+|player|p1|ilsharko|265
+|player|p2|Dark Vessel|161
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Venusaur|Venusaur|363\/363
+|switch|p2a: Starmie|Starmie|323\/323
+|turn|1
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Starmie|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|602\/703
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|
+|turn|2
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|switch|p1a: Jynx|Jynx|333\/333
+|
+|turn|3
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|move|p1a: Jynx|Lovely Kiss|p2a: Starmie
+|-status|p2a: Starmie|slp
+|
+|turn|4
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|cant|p2a: Starmie|slp
+|
+|turn|5
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Tauros|Body Slam|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-damage|p2a: Exeggutor|169\/393
+|
+|turn|6
+|
+|switch|p1a: Jynx|Jynx|333\/333
+|move|p2a: Exeggutor|Sleep Powder|p1a: Jynx
+|-status|p1a: Jynx|slp
+|
+|turn|7
+|
+|switch|p2a: Rhydon|Rhydon|413\/413
+|cant|p1a: Jynx|slp
+|
+|turn|8
+|
+|switch|p1a: Slowbro|Slowbro|393\/393
+|move|p2a: Rhydon|Rock Slide|p1a: Slowbro
+|-damage|p1a: Slowbro|295\/393
+|
+|turn|9
+|
+|switch|p2a: Exeggutor|Exeggutor|169\/393
+|move|p1a: Slowbro|Withdraw|p1a: Slowbro
+|-boost|p1a: Slowbro|def|1
+|
+|turn|10
+|
+|move|p2a: Exeggutor|Psychic|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|223\/393
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|
+|turn|11
+|
+|move|p2a: Exeggutor|Explosion|p1a: Slowbro
+|-damage|p1a: Slowbro|59\/393
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Rhydon|Rhydon|413\/413
+|turn|12
+|
+|move|p2a: Rhydon|Earthquake|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|
+|switch|p1a: Venusaur|Venusaur|363\/363
+|turn|13
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Venusaur|Razor Leaf|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|572\/703
+|
+|turn|14
+|
+|switch|p1a: Chansey|Chansey|602\/703
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|turn|15
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|528\/703 par
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|494\/703
+|
+|turn|16
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|456\/703 par
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|419\/703
+|
+|turn|17
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Chansey|Ice Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|425\/523
+|
+|turn|18
+|
+|switch|p1a: Golem|Golem|363\/363
+|move|p2a: Snorlax|Body Slam|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|329\/363
+|-status|p1a: Golem|par
+|
+|turn|19
+|
+|move|p2a: Snorlax|Earthquake|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|207\/363 par
+|cant|p1a: Golem|par
+|
+|turn|20
+|
+|switch|p2a: Rhydon|Rhydon|413\/413
+|move|p1a: Golem|Explosion|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|295\/413
+|faint|p1a: Golem
+|
+|switch|p1a: Venusaur|Venusaur|363\/363
+|turn|21
+|
+|move|p1a: Venusaur|Swords Dance|p1a: Venusaur
+|-boost|p1a: Venusaur|atk|2
+|move|p2a: Rhydon|Earthquake|p1a: Venusaur
+|-damage|p1a: Venusaur|215\/363
+|
+|turn|22
+|
+|switch|p2a: Chansey|Chansey|419\/703
+|move|p1a: Venusaur|Razor Leaf|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|298\/703
+|
+|turn|23
+|
+|move|p1a: Venusaur|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|switch|p2a: Snorlax|Snorlax|425\/523
+|turn|24
+|
+|move|p1a: Venusaur|Razor Leaf|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|274\/523
+|move|p2a: Snorlax|Self-Destruct|p1a: Venusaur
+|-crit|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|faint|p2a: Snorlax
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|switch|p2a: Rhydon|Rhydon|295\/413
+|turn|25
+|
+|move|p1a: Tauros|Blizzard|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|73\/413
+|-status|p2a: Rhydon|frz
+|cant|p2a: Rhydon|frz
+|
+|turn|26
+|
+|move|p1a: Tauros|Earthquake|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|
+|switch|p2a: Slowbro|Slowbro|393\/393
+|turn|27
+|
+|switch|p1a: Chansey|Chansey|456\/703 par
+|move|p2a: Slowbro|Withdraw|p2a: Slowbro
+|-boost|p2a: Slowbro|def|1
+|
+|turn|28
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|cant|p1a: Chansey|par
+|
+|turn|29
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|move|p1a: Chansey|Thunderbolt|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|333\/393
+|
+|turn|30
+|
+|move|p2a: Slowbro|Surf|p1a: Chansey
+|-damage|p1a: Chansey|192\/703 par
+|move|p1a: Chansey|Thunderbolt|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|276\/393
+|
+|turn|31
+|
+|move|p2a: Slowbro|Surf|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|32
+|
+|move|p1a: Tauros|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|207\/393
+|move|p2a: Slowbro|Surf|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|switch|p1a: Jynx|Jynx|333\/333 slp
+|turn|33
+|
+|cant|p1a: Jynx|slp
+|move|p2a: Slowbro|Surf|p1a: Jynx
+|-damage|p1a: Jynx|44\/333 slp
+|
+|turn|34
+|
+|cant|p1a: Jynx|slp
+|move|p2a: Slowbro|Surf|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|
+|win|Dark Vessel
+|raw|Ladder updating...
+|c|★Dark Vessel|gg

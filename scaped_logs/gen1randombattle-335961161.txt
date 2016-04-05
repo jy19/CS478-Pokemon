@@ -1,0 +1,214 @@
+﻿|j|diskoliperiodos
+|j|2x effective
+|player|p1|diskoliperiodos|2
+|player|p2|2x effective|266
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Scyther|Scyther, L90|100\/100
+|switch|p2a: Alakazam|Alakazam, L79|100\/100
+|turn|1
+|choice||
+|
+|switch|p1a: Dewgong|Dewgong, L85|100\/100
+|switch|p2a: Rhydon|Rhydon, L79|100\/100
+|
+|turn|2
+|choice||
+|
+|switch|p2a: Magnemite|Magnemite, L96|100\/100
+|move|p1a: Dewgong|Blizzard|p2a: Magnemite
+|-damage|p2a: Magnemite|57\/100
+|
+|turn|3
+|choice||
+|
+|switch|p1a: Dugtrio|Dugtrio, L85|100\/100
+|move|p2a: Magnemite|Thunderbolt|p1a: Dugtrio
+|-immune|p1a: Dugtrio|[msg]
+|
+|turn|4
+|choice||
+|
+|switch|p2a: Kingler|Kingler, L85|100\/100
+|move|p1a: Dugtrio|Substitute|p1a: Dugtrio
+|-start|p1a: Dugtrio|Substitute
+|-damage|p1a: Dugtrio|76\/100
+|
+|turn|5
+|choice||
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Kingler
+|-damage|p2a: Kingler|71\/100
+|move|p2a: Kingler|Body Slam|p1a: Dugtrio
+|-end|p1a: Dugtrio|Substitute
+|
+|turn|6
+|choice||
+|
+|switch|p1a: Venomoth|Venomoth, L85|100\/100
+|move|p2a: Kingler|Crabhammer|p1a: Venomoth
+|-crit|p1a: Venomoth
+|-damage|p1a: Venomoth|59\/100
+|
+|turn|7
+|choice||
+|
+|switch|p2a: Growlithe|Growlithe, L96|100\/100
+|move|p1a: Venomoth|Sleep Powder|p2a: Growlithe
+|-status|p2a: Growlithe|slp
+|
+|turn|8
+|choice||
+|
+|move|p1a: Venomoth|Stun Spore|p2a: Growlithe
+|-fail|p2a: Growlithe
+|cant|p2a: Growlithe|slp
+|
+|turn|9
+|choice||
+|
+|switch|p1a: Dugtrio|Dugtrio, L85|76\/100
+|switch|p2a: Alakazam|Alakazam, L79|100\/100
+|
+|turn|10
+|choice||
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|choice||
+|
+|switch|p2a: Kingler|Kingler, L85|71\/100
+|turn|11
+|choice||
+|
+|switch|p1a: Venomoth|Venomoth, L85|59\/100
+|move|p2a: Kingler|Body Slam|p1a: Venomoth
+|-damage|p1a: Venomoth|25\/100
+|
+|turn|12
+|choice||
+|
+|switch|p2a: Rhydon|Rhydon, L79|100\/100
+|move|p1a: Venomoth|Mega Drain|p2a: Rhydon
+|-crit|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|-heal|p1a: Venomoth|81\/100|[from] drain|[of] p2a: Rhydon
+|faint|p2a: Rhydon
+|choice||
+|
+|switch|p2a: Hitmonchan|Hitmonchan, L90|100\/100
+|turn|13
+|choice||
+|
+|move|p1a: Venomoth|Psychic|p2a: Hitmonchan
+|-supereffective|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|35\/100
+|move|p2a: Hitmonchan|Body Slam|p1a: Venomoth
+|-damage|p1a: Venomoth|51\/100
+|-status|p1a: Venomoth|par
+|
+|turn|14
+|choice||
+|
+|move|p2a: Hitmonchan|Seismic Toss|p1a: Venomoth
+|-damage|p1a: Venomoth|20\/100 par
+|move|p1a: Venomoth|Psychic|p2a: Hitmonchan
+|-supereffective|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|0 fnt
+|faint|p2a: Hitmonchan
+|choice||
+|
+|switch|p2a: Kingler|Kingler, L85|71\/100
+|turn|15
+|choice||
+|
+|move|p2a: Kingler|Body Slam|p1a: Venomoth
+|-damage|p1a: Venomoth|0 fnt
+|faint|p1a: Venomoth
+|choice||
+|
+|switch|p1a: Scyther|Scyther, L90|100\/100
+|turn|16
+|choice||
+|
+|move|p1a: Scyther|Slash|p2a: Kingler
+|-crit|p2a: Kingler
+|-damage|p2a: Kingler|32\/100
+|move|p2a: Kingler|Crabhammer|p1a: Scyther
+|-crit|p1a: Scyther
+|-damage|p1a: Scyther|46\/100
+|
+|turn|17
+|choice||
+|
+|switch|p2a: Growlithe|Growlithe, L96|100\/100 slp
+|move|p1a: Scyther|Slash|p2a: Growlithe
+|-crit|p2a: Growlithe
+|-damage|p2a: Growlithe|53\/100 slp
+|
+|turn|18
+|choice||
+|
+|move|p1a: Scyther|Slash|p2a: Growlithe
+|-crit|p2a: Growlithe
+|-damage|p2a: Growlithe|2\/100 slp
+|cant|p2a: Growlithe|slp
+|
+|turn|19
+|choice||
+|
+|move|p1a: Scyther|Slash|p2a: Growlithe
+|-crit|p2a: Growlithe
+|-damage|p2a: Growlithe|0 fnt
+|faint|p2a: Growlithe
+|c|★diskoliperiodos|i think i raped your ass
+|choice||
+|
+|switch|p2a: Magnemite|Magnemite, L96|57\/100
+|turn|20
+|choice||
+|
+|move|p1a: Scyther|Slash|p2a: Magnemite
+|-crit|p2a: Magnemite
+|-damage|p2a: Magnemite|9\/100
+|move|p2a: Magnemite|Thunderbolt|p1a: Scyther
+|-supereffective|p1a: Scyther
+|-damage|p1a: Scyther|0 fnt
+|faint|p1a: Scyther
+|choice||
+|
+|switch|p1a: Kangaskhan|Kangaskhan, L85|100\/100
+|turn|21
+|choice||
+|
+|move|p1a: Kangaskhan|Body Slam|p2a: Magnemite
+|-damage|p2a: Magnemite|0 fnt
+|faint|p2a: Magnemite
+|choice||
+|
+|switch|p2a: Kingler|Kingler, L85|32\/100
+|turn|22
+|choice||
+|
+|move|p1a: Kangaskhan|Hyper Beam|p2a: Kingler
+|-damage|p2a: Kingler|0 fnt
+|faint|p2a: Kingler
+|
+|win|diskoliperiodos
+|player|p1
+|player|p2
+|c|★diskoliperiodos|hard game gg
+|l|2x effective
+|raw|diskoliperiodos's rating: 1366 &rarr; <strong>1389<\/strong><br \/>(+23 for winning)
+|raw|2x effective's rating: 1427 &rarr; <strong>1404<\/strong><br \/>(-23 for losing)

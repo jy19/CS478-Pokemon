@@ -1,0 +1,258 @@
+﻿|join|Alexander68
+|join|jb champ
+|player|p1|Alexander68|269
+|player|p2|jb champ|2
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|switch|p1a: Chansey|Chansey|703\/703
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|1
+|
+|move|p2a: Gengar|Hypnosis|p1a: Chansey
+|-status|p1a: Chansey|slp
+|cant|p1a: Chansey|slp
+|
+|turn|2
+|
+|switch|p2a: Slowbro|Slowbro|393\/393
+|cant|p1a: Chansey|slp
+|
+|turn|3
+|
+|switch|p1a: Gengar|Gengar|323\/323
+|move|p2a: Slowbro|Thunder Wave|p1a: Gengar
+|-status|p1a: Gengar|par
+|
+|turn|4
+|
+|switch|p2a: Golem|Golem|363\/363
+|move|p1a: Gengar|Hypnosis|p2a: Golem
+|-status|p2a: Golem|slp
+|
+|turn|5
+|
+|cant|p2a: Golem|slp
+|cant|p1a: Gengar|par
+|
+|turn|6
+|
+|cant|p2a: Golem|slp
+|move|p1a: Gengar|Mega Drain|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|142\/363 slp
+|
+|turn|7
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|move|p1a: Gengar|Mega Drain|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|309\/323
+|
+|turn|8
+|
+|move|p2a: Gengar|Psychic|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|182\/323 par
+|move|p1a: Gengar|Thunderbolt|p2a: Gengar
+|-damage|p2a: Gengar|237\/323
+|
+|turn|9
+|
+|switch|p1a: Chansey|Chansey|703\/703 slp
+|move|p2a: Gengar|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|619\/703 slp
+|
+|turn|10
+|join|Monkeycris
+|
+|switch|p2a: Slowbro|Slowbro|393\/393
+|cant|p1a: Chansey|slp
+|
+|turn|11
+|leave|Monkeycris
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|cant|p1a: Chansey|slp
+|
+|turn|12
+|
+|switch|p1a: Gengar|Gengar|182\/323 par
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|13
+|
+|move|p2a: Slowbro|Surf|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|
+|switch|p1a: Persian|Persian|333\/333
+|turn|14
+|
+|move|p1a: Persian|Screech|p2a: Slowbro|[miss]
+|-miss|p1a: Persian
+|move|p2a: Slowbro|Thunder Wave|p1a: Persian
+|-status|p1a: Persian|par
+|
+|turn|15
+|
+|move|p2a: Slowbro|Surf|p1a: Persian
+|-damage|p1a: Persian|0 fnt
+|faint|p1a: Persian
+|
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|16
+|
+|move|p1a: Tauros|Body Slam|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-damage|p2a: Slowbro|218\/393
+|move|p2a: Slowbro|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|
+|turn|17
+|
+|move|p2a: Slowbro|Surf|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|129\/353 par
+|move|p1a: Tauros|Hyper Beam|p2a: Slowbro
+|-damage|p2a: Slowbro|65\/393
+|
+|turn|18
+|
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|-heal|p2a: Slowbro|393\/393 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|cant|p1a: Tauros|recharge
+|
+|turn|19
+|
+|cant|p2a: Slowbro|slp
+|move|p1a: Tauros|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|295\/393 slp
+|
+|turn|20
+|
+|cant|p2a: Slowbro|slp
+|-curestatus|p2a: Slowbro|slp
+|move|p1a: Tauros|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|202\/393
+|-status|p2a: Slowbro|par
+|
+|turn|21
+|
+|cant|p1a: Tauros|par
+|move|p2a: Slowbro|Surf|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|
+|switch|p1a: Golem|Golem|363\/363
+|turn|22
+|
+|move|p1a: Golem|Explosion|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|faint|p1a: Golem
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|switch|p1a: Zapdos|Zapdos|383\/383
+|turn|23
+|
+|switch|p2a: Golem|Golem|142\/363 slp
+|move|p1a: Zapdos|Thunderbolt|p2a: Golem
+|-immune|p2a: Golem|[msg]
+|
+|turn|24
+|
+|switch|p1a: Chansey|Chansey|619\/703 slp
+|cant|p2a: Golem|slp
+|
+|turn|25
+|
+|cant|p1a: Chansey|slp
+|cant|p2a: Golem|slp
+|
+|turn|26
+|
+|cant|p1a: Chansey|slp
+|-curestatus|p1a: Chansey|slp
+|cant|p2a: Golem|slp
+|-curestatus|p2a: Golem|slp
+|
+|turn|27
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|631\/703
+|
+|turn|28
+|
+|move|p2a: Chansey|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|530\/703
+|-status|p1a: Chansey|frz
+|cant|p1a: Chansey|frz
+|
+|turn|29
+|chat|Alexander68|gg
+|chat|jb champ|gg
+|
+|switch|p1a: Zapdos|Zapdos|383\/383
+|switch|p2a: Golem|Golem|142\/363
+|
+|turn|30
+|
+|switch|p1a: Chansey|Chansey|530\/703 frz
+|move|p2a: Golem|Rock Slide|p1a: Chansey
+|-damage|p1a: Chansey|278\/703 frz
+|
+|turn|31
+|chat|Alexander68|What is better, Blizzard or Ice Beam?
+|
+|cant|p1a: Chansey|frz
+|move|p2a: Golem|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|
+|switch|p1a: Zapdos|Zapdos|383\/383
+|turn|32
+|chat|jb champ|blizzard is stronger but has 90 accuracy
+|chat|jb champ|and less pp
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Golem
+|-crit|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|63\/363
+|move|p2a: Golem|Rock Slide|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|160\/383
+|
+|turn|33
+|chat|Alexander68|ah, i see
+|chat|jb champ|but 90 accuracy is a lot for such a strong attack
+|chat|jb champ|since 2ng gen it has 70...
+|
+|move|p1a: Zapdos|Agility|p1a: Zapdos
+|-boost|p1a: Zapdos|spe|2
+|move|p2a: Golem|Rock Slide|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|win|jb champ

@@ -1,0 +1,329 @@
+﻿|join|Lusch
+|join|el fapper
+|player|p1|Lusch|153
+|player|p2|el fapper|25
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|seed|24850,43765,36346,35956
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Alakazam|Alakazam|313\/313
+|turn|1
+|choice|move 4|move 4
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Alakazam
+|-status|p2a: Alakazam|par
+|cant|p2a: Alakazam|par
+|
+|turn|2
+|choice|switch 3|move 4
+|
+|switch|p1a: Rhydon|Rhydon|413\/413
+|move|p2a: Alakazam|Thunder Wave|p1a: Rhydon
+|-immune|p1a: Rhydon|[msg]
+|
+|turn|3
+|choice|move 4|switch 4
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Rhydon|Body Slam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|305\/393
+|-status|p2a: Exeggutor|par
+|
+|turn|4
+|choice|switch 3|move 1
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|move|p2a: Exeggutor|Sleep Powder|p1a: Alakazam
+|-status|p1a: Alakazam|slp
+|
+|turn|5
+|choice|switch 2|switch 5
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|switch|p2a: Snorlax|Snorlax|523\/523
+|
+|turn|6
+|choice|move 1|move 1
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|move|p2a: Snorlax|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|207\/323
+|-status|p1a: Starmie|par
+|
+|turn|7
+|choice|switch 6|move 1
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|375\/523
+|
+|turn|8
+|choice|move 4|switch 5
+|
+|switch|p2a: Exeggutor|Exeggutor|305\/393 par
+|move|p1a: Snorlax|Earthquake|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|260\/393 par
+|
+|turn|9
+|choice|switch 6|move 4
+|
+|switch|p1a: Starmie|Starmie|207\/323 par
+|move|p2a: Exeggutor|Explosion|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|faint|p2a: Exeggutor
+|choice|switch 5|switch 5
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|switch|p2a: Snorlax|Snorlax|523\/523 par
+|turn|10
+|choice|move 2|switch 4
+|
+|switch|p2a: Alakazam|Alakazam|313\/313 par
+|move|p1a: Exeggutor|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|267\/313 par
+|
+|turn|11
+|choice|move 2|move 3
+|
+|move|p1a: Exeggutor|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|219\/313 par
+|move|p2a: Alakazam|Seismic Toss|p1a: Exeggutor
+|-damage|p1a: Exeggutor|293\/393
+|
+|turn|12
+|choice|move 2|move 4
+|
+|move|p1a: Exeggutor|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|170\/313 par
+|move|p2a: Alakazam|Thunder Wave|p1a: Exeggutor
+|-status|p1a: Exeggutor|par
+|
+|turn|13
+|choice|switch 3|move 2
+|
+|switch|p1a: Rhydon|Rhydon|413\/413
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|313\/313 par
+|
+|turn|14
+|choice|move 2|switch 2
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|move|p1a: Rhydon|Earthquake|p2a: Starmie
+|-damage|p2a: Starmie|166\/323
+|
+|turn|15
+|choice|move 4|move 1
+|
+|move|p2a: Starmie|Blizzard|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|104\/413
+|move|p1a: Rhydon|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|74\/323
+|
+|turn|16
+|choice|move 4|move 3
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|235\/323
+|move|p1a: Rhydon|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|153\/323
+|
+|turn|17
+|choice|switch 2|move 3
+|
+|switch|p1a: Alakazam|Alakazam|313\/313 slp
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|314\/323
+|
+|turn|18
+|choice|switch 6|switch 4
+|
+|switch|p1a: Snorlax|Snorlax|375\/523
+|switch|p2a: Snorlax|Snorlax|523\/523 par
+|
+|turn|19
+|choice|move 1|move 1
+|
+|move|p1a: Snorlax|Reflect|p1a: Snorlax
+|-start|p1a: Snorlax|Reflect
+|cant|p2a: Snorlax|par
+|
+|turn|20
+|choice|move 3|move 1
+|
+|move|p1a: Snorlax|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|392\/523 par
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|307\/523
+|
+|turn|21
+|choice|move 3|move 4
+|
+|move|p1a: Snorlax|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|246\/523 par
+|cant|p2a: Snorlax|par
+|
+|turn|22
+|choice|switch 2|move 4
+|
+|switch|p1a: Rhydon|Rhydon|104\/413
+|move|p2a: Snorlax|Self-Destruct|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|faint|p2a: Snorlax
+|choice|switch 2|switch 4
+|
+|switch|p2a: Starmie|Starmie|314\/323
+|switch|p1a: Snorlax|Snorlax|307\/523
+|turn|23
+|choice|move 3|move 1
+|
+|move|p2a: Starmie|Blizzard|p1a: Snorlax
+|-damage|p1a: Snorlax|181\/523
+|move|p1a: Snorlax|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|201\/323
+|
+|turn|24
+|choice|move 3|move 2
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|choice|switch 6|
+|
+|switch|p1a: Alakazam|Alakazam|313\/313 slp
+|turn|25
+|choice|move 2|switch 6
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|cant|p1a: Alakazam|slp
+|
+|turn|26
+|choice|move 1|move 1
+|
+|cant|p1a: Alakazam|slp
+|move|p2a: Tauros|Body Slam|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|choice|switch 4|
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|27
+|choice|move 1|move 1
+|
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|142\/353
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|257\/353
+|
+|turn|28
+|choice|move 1|move 1
+|
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|42\/353
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|31\/353
+|
+|turn|29
+|choice|move 1|move 1
+|
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|choice|switch 3|
+|
+|switch|p1a: Exeggutor|Exeggutor|293\/393 par
+|turn|30
+|choice|move 2|move 3
+|
+|move|p2a: Tauros|Earthquake|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|250\/393 par
+|move|p1a: Exeggutor|Psychic|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|choice||switch 3
+|
+|switch|p2a: Moltres|Moltres|383\/383
+|turn|31
+|c|★el fapper|gg
+|choice|move 3|move 3
+|
+|move|p2a: Moltres|Fire Blast|p1a: Exeggutor|[miss]
+|-miss|p2a: Moltres
+|move|p1a: Exeggutor|Sleep Powder|p2a: Moltres
+|-status|p2a: Moltres|slp
+|
+|turn|32
+|choice|move 2|move 3
+|
+|cant|p2a: Moltres|slp
+|move|p1a: Exeggutor|Psychic|p2a: Moltres
+|-damage|p2a: Moltres|277\/383 slp
+|-unboost|p2a: Moltres|spd|1
+|-unboost|p2a: Moltres|spa|1
+|
+|turn|33
+|choice|move 2|switch 2
+|
+|switch|p2a: Alakazam|Alakazam|313\/313 par
+|move|p1a: Exeggutor|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|266\/313 par
+|
+|turn|34
+|choice|move 2|move 3
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Exeggutor
+|-damage|p1a: Exeggutor|150\/393 par
+|cant|p1a: Exeggutor|par
+|
+|turn|35
+|choice|move 2|move 3
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Exeggutor
+|-damage|p1a: Exeggutor|50\/393 par
+|move|p1a: Exeggutor|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|218\/313 par
+|
+|turn|36
+|c|★Lusch|gg
+|choice|move 2|move 3
+|
+|cant|p2a: Alakazam|par
+|move|p1a: Exeggutor|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|165\/313 par
+|
+|turn|37
+|c|★el fapper|ggwp
+|choice|move 1|move 3
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|win|el fapper

@@ -1,0 +1,388 @@
+﻿|j|Stryxx
+|j|Peasounay
+|player|p1|Stryxx|12
+|player|p2|Peasounay|80
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|seed|62807,21467,11673,34000
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Double Cake|Alakazam|313\/313
+|switch|p2a: Cuddle Me Plz|Jynx|333\/333
+|turn|1
+|j|Elsaria
+|choice|move 3|switch 5
+|
+|switch|p2a: I Own RBY|Chansey|703\/703
+|move|p1a: Double Cake|Thunder Wave|p2a: I Own RBY
+|-status|p2a: I Own RBY|par
+|
+|turn|2
+|choice|move 1|switch 2
+|
+|switch|p2a: Wear Candoms Kid|Exeggutor|393\/393
+|move|p1a: Double Cake|Psychic|p2a: Wear Candoms Kid
+|-resisted|p2a: Wear Candoms Kid
+|-damage|p2a: Wear Candoms Kid|339\/393
+|-unboost|p2a: Wear Candoms Kid|spd|1
+|-unboost|p2a: Wear Candoms Kid|spa|1
+|
+|turn|3
+|choice|move 3|move 1
+|
+|move|p1a: Double Cake|Thunder Wave|p2a: Wear Candoms Kid
+|-status|p2a: Wear Candoms Kid|par
+|move|p2a: Wear Candoms Kid|Sleep Powder|p1a: Double Cake
+|-status|p1a: Double Cake|slp
+|
+|turn|4
+|choice|switch 6|switch 5
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|switch|p2a: Cuddle Me Plz|Jynx|333\/333
+|
+|turn|5
+|choice|move 3|switch 2
+|
+|switch|p2a: I Own RBY|Chansey|703\/703 par
+|move|p1a: Starmie|Thunder Wave|p2a: I Own RBY
+|-fail|p2a: I Own RBY|par
+|
+|turn|6
+|choice|move 1|move 2
+|
+|move|p1a: Starmie|Blizzard|p2a: I Own RBY
+|-damage|p2a: I Own RBY|607\/703 par
+|cant|p2a: I Own RBY|par
+|
+|turn|7
+|choice|switch 4|move 4
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: I Own RBY|Reflect|p2a: I Own RBY
+|-start|p2a: I Own RBY|Reflect
+|
+|turn|8
+|choice|switch 2|move 2
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: I Own RBY|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|630\/703
+|
+|turn|9
+|choice|move 1|move 2
+|
+|move|p1a: Chansey|Ice Beam|p2a: I Own RBY|[miss]
+|-miss|p1a: Chansey
+|move|p2a: I Own RBY|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|559\/703
+|
+|turn|10
+|choice|move 1|move 2
+|
+|move|p1a: Chansey|Ice Beam|p2a: I Own RBY
+|-damage|p2a: I Own RBY|533\/703 par
+|cant|p2a: I Own RBY|par
+|
+|turn|11
+|choice|move 1|move 2
+|
+|move|p1a: Chansey|Ice Beam|p2a: I Own RBY
+|-damage|p2a: I Own RBY|459\/703 par
+|cant|p2a: I Own RBY|par
+|
+|turn|12
+|choice|move 1|move 1
+|
+|move|p1a: Chansey|Ice Beam|p2a: I Own RBY
+|-damage|p2a: I Own RBY|379\/703 par
+|move|p2a: I Own RBY|Soft-Boiled|p2a: I Own RBY
+|-heal|p2a: I Own RBY|703\/703 par
+|
+|turn|13
+|choice|switch 4|move 2
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|cant|p2a: I Own RBY|par
+|
+|turn|14
+|choice|move 2|move 2
+|
+|move|p1a: Starmie|Thunderbolt|p2a: I Own RBY
+|-crit|p2a: I Own RBY
+|-damage|p2a: I Own RBY|558\/703 par
+|move|p2a: I Own RBY|Ice Beam|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|286\/323
+|
+|turn|15
+|choice|move 2|move 2
+|
+|move|p1a: Starmie|Thunderbolt|p2a: I Own RBY
+|-damage|p2a: I Own RBY|490\/703 par
+|cant|p2a: I Own RBY|par
+|
+|turn|16
+|choice|move 2|move 1
+|
+|move|p1a: Starmie|Thunderbolt|p2a: I Own RBY
+|-damage|p2a: I Own RBY|414\/703 par
+|cant|p2a: I Own RBY|par
+|
+|turn|17
+|choice|move 2|move 1
+|
+|move|p1a: Starmie|Thunderbolt|p2a: I Own RBY
+|-damage|p2a: I Own RBY|339\/703 par
+|move|p2a: I Own RBY|Soft-Boiled|p2a: I Own RBY
+|-heal|p2a: I Own RBY|690\/703 par
+|
+|turn|18
+|choice|move 2|move 2
+|
+|move|p1a: Starmie|Thunderbolt|p2a: I Own RBY
+|-damage|p2a: I Own RBY|614\/703 par
+|move|p2a: I Own RBY|Ice Beam|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|250\/323
+|
+|turn|19
+|choice|move 2|move 2
+|
+|move|p1a: Starmie|Thunderbolt|p2a: I Own RBY
+|-damage|p2a: I Own RBY|542\/703 par
+|cant|p2a: I Own RBY|par
+|
+|turn|20
+|choice|move 2|move 2
+|
+|move|p1a: Starmie|Thunderbolt|p2a: I Own RBY
+|-damage|p2a: I Own RBY|472\/703 par
+|move|p2a: I Own RBY|Ice Beam|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|208\/323
+|-status|p1a: Starmie|frz
+|
+|turn|21
+|choice|switch 2|move 3
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: I Own RBY|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|
+|turn|22
+|choice|move 1|move 1
+|
+|move|p2a: I Own RBY|Soft-Boiled|p2a: I Own RBY
+|-heal|p2a: I Own RBY|703\/703 par
+|move|p1a: Snorlax|Body Slam|p2a: I Own RBY
+|-damage|p2a: I Own RBY|547\/703 par
+|
+|turn|23
+|choice|move 1|move 2
+|
+|move|p2a: I Own RBY|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|417\/523 par
+|move|p1a: Snorlax|Body Slam|p2a: I Own RBY
+|-damage|p2a: I Own RBY|397\/703 par
+|
+|turn|24
+|choice|move 1|move 1
+|
+|move|p2a: I Own RBY|Soft-Boiled|p2a: I Own RBY
+|-heal|p2a: I Own RBY|703\/703 par
+|move|p1a: Snorlax|Body Slam|p2a: I Own RBY
+|-damage|p2a: I Own RBY|553\/703 par
+|
+|turn|25
+|choice|move 1|move 2
+|
+|move|p2a: I Own RBY|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|325\/523 par
+|move|p1a: Snorlax|Body Slam|p2a: I Own RBY
+|-damage|p2a: I Own RBY|399\/703 par
+|
+|turn|26
+|choice|move 1|move 1
+|
+|move|p2a: I Own RBY|Soft-Boiled|p2a: I Own RBY
+|-heal|p2a: I Own RBY|703\/703 par
+|move|p1a: Snorlax|Body Slam|p2a: I Own RBY
+|-damage|p2a: I Own RBY|549\/703 par
+|
+|turn|27
+|choice|move 1|move 2
+|
+|move|p2a: I Own RBY|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|220\/523 par
+|move|p1a: Snorlax|Body Slam|p2a: I Own RBY
+|-damage|p2a: I Own RBY|410\/703 par
+|
+|turn|28
+|choice|move 1|move 1
+|
+|cant|p2a: I Own RBY|par
+|move|p1a: Snorlax|Body Slam|p2a: I Own RBY
+|-damage|p2a: I Own RBY|257\/703 par
+|
+|turn|29
+|choice|move 3|move 1
+|
+|move|p2a: I Own RBY|Soft-Boiled|p2a: I Own RBY
+|-heal|p2a: I Own RBY|608\/703 par
+|move|p1a: Snorlax|Hyper Beam|p2a: I Own RBY
+|-damage|p2a: I Own RBY|344\/703 par
+|
+|turn|30
+|-mustrecharge|p1a: Snorlax
+|-mustrecharge|p1a: Snorlax
+|choice|move 1|move 2
+|
+|move|p2a: I Own RBY|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|127\/523 par
+|cant|p1a: Snorlax|recharge
+|
+|turn|31
+|choice|move 4|move 1
+|
+|move|p2a: I Own RBY|Soft-Boiled|p2a: I Own RBY
+|-heal|p2a: I Own RBY|695\/703 par
+|move|p1a: Snorlax|Self-Destruct|p2a: I Own RBY
+|-damage|p2a: I Own RBY|250\/703 par
+|faint|p1a: Snorlax
+|choice|switch 3|
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|32
+|choice|move 1|switch 2
+|
+|switch|p2a: Cuddle Me Plz|Jynx|333\/333
+|move|p1a: Tauros|Body Slam|p2a: Cuddle Me Plz
+|-damage|p2a: Cuddle Me Plz|156\/333
+|
+|turn|33
+|choice|move 1|switch 3
+|
+|switch|p2a: Yo Momma|Snorlax|523\/523
+|move|p1a: Tauros|Body Slam|p2a: Yo Momma
+|-damage|p2a: Yo Momma|391\/523
+|
+|turn|34
+|choice|switch 5|move 1
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Yo Momma|Body Slam|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-damage|p1a: Exeggutor|145\/393
+|-status|p1a: Exeggutor|par
+|
+|turn|35
+|choice|move 3|switch 2
+|
+|switch|p2a: I Own RBY|Chansey|250\/703 par
+|move|p1a: Exeggutor|Explosion|p2a: I Own RBY
+|-damage|p2a: I Own RBY|0 fnt
+|faint|p2a: I Own RBY
+|faint|p1a: Exeggutor
+|choice|switch 4|switch 6
+|
+|switch|p2a: ZFap ZFap ZFap|Zapdos|383\/383
+|switch|p1a: Chansey|Chansey|559\/703
+|turn|36
+|choice|move 3|switch 5
+|
+|switch|p2a: Wear Candoms Kid|Exeggutor|339\/393 par
+|move|p1a: Chansey|Thunder Wave|p2a: Wear Candoms Kid
+|-fail|p2a: Wear Candoms Kid|par
+|
+|turn|37
+|choice|move 1|move 3
+|
+|move|p1a: Chansey|Ice Beam|p2a: Wear Candoms Kid
+|-supereffective|p2a: Wear Candoms Kid
+|-damage|p2a: Wear Candoms Kid|214\/393 par
+|move|p2a: Wear Candoms Kid|Stun Spore|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|turn|38
+|choice|move 1|move 4
+|
+|move|p2a: Wear Candoms Kid|Explosion|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|faint|p2a: Wear Candoms Kid
+|choice|switch 5|switch 2
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|switch|p2a: Yo Momma|Snorlax|391\/523
+|turn|39
+|choice|move 1|move 1
+|
+|move|p1a: Tauros|Body Slam|p2a: Yo Momma
+|-damage|p2a: Yo Momma|259\/523
+|move|p2a: Yo Momma|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|245\/353
+|
+|turn|40
+|choice|move 1|move 1
+|
+|move|p1a: Tauros|Body Slam|p2a: Yo Momma
+|-damage|p2a: Yo Momma|132\/523
+|move|p2a: Yo Momma|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|142\/353
+|
+|turn|41
+|choice|move 4|switch 5
+|
+|switch|p2a: ZFap ZFap ZFap|Zapdos|383\/383
+|move|p1a: Tauros|Hyper Beam|p2a: ZFap ZFap ZFap
+|-damage|p2a: ZFap ZFap ZFap|182\/383
+|
+|turn|42
+|-mustrecharge|p1a: Tauros
+|-mustrecharge|p1a: Tauros
+|choice|move 1|move 2
+|
+|cant|p1a: Tauros|recharge
+|move|p2a: ZFap ZFap ZFap|Thunderbolt|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|choice|switch 6|
+|
+|switch|p1a: Double Cake|Alakazam|313\/313 slp
+|turn|43
+|choice|move 3|move 1
+|
+|cant|p1a: Double Cake|slp
+|move|p2a: ZFap ZFap ZFap|Drill Peck|p1a: Double Cake
+|-damage|p1a: Double Cake|172\/313 slp
+|
+|turn|44
+|choice|move 3|move 1
+|
+|cant|p1a: Double Cake|slp
+|move|p2a: ZFap ZFap ZFap|Drill Peck|p1a: Double Cake
+|-crit|p1a: Double Cake
+|-damage|p1a: Double Cake|0 fnt
+|faint|p1a: Double Cake
+|choice|switch 2|
+|
+|switch|p1a: Starmie|Starmie|208\/323 frz
+|turn|45
+|choice|move 3|move 2
+|
+|cant|p1a: Starmie|frz
+|move|p2a: ZFap ZFap ZFap|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|win|Peasounay
+|l|Elsaria

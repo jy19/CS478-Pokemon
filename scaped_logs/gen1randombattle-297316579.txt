@@ -1,0 +1,160 @@
+﻿|join|XianJu
+|join|Bludragon336
+|player|p1|XianJu|130
+|player|p2|Bludragon336|101
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|16318,22732,305,380
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Fearow|Fearow, L90|300\/300
+|switch|p2a: Squirtle|Squirtle, L96|279\/279
+|turn|1
+|choice|move 2|move Blizzard
+|
+|move|p1a: Fearow|Double-Edge|p2a: Squirtle
+|-damage|p2a: Squirtle|156\/279
+|-damage|p1a: Fearow|270\/300|[from] recoil|[of] p2a: Squirtle
+|move|p2a: Squirtle|Blizzard|p1a: Fearow
+|-crit|p1a: Fearow
+|-supereffective|p1a: Fearow
+|-damage|p1a: Fearow|0 fnt
+|faint|p1a: Fearow
+|choice|switch 5|
+|
+|switch|p1a: Haunter|Haunter, L85|250\/250
+|turn|2
+|choice|move 2|move Surf
+|
+|move|p1a: Haunter|Thunderbolt|p2a: Squirtle
+|-crit|p2a: Squirtle
+|-supereffective|p2a: Squirtle
+|-damage|p2a: Squirtle|0 fnt
+|faint|p2a: Squirtle
+|choice||switch 3
+|
+|switch|p2a: Wigglytuff|Wigglytuff, L90|435\/435
+|turn|3
+|choice|move 1|move Bubble Beam
+|
+|move|p1a: Haunter|Hypnosis|p2a: Wigglytuff
+|-status|p2a: Wigglytuff|slp
+|cant|p2a: Wigglytuff|slp
+|
+|turn|4
+|choice|switch 2|move Bubble Beam
+|
+|switch|p1a: Kabutops|Kabutops, L85|276\/276
+|cant|p2a: Wigglytuff|slp
+|
+|turn|5
+|choice|move 4|move Sing
+|
+|move|p1a: Kabutops|Swords Dance|p1a: Kabutops
+|-boost|p1a: Kabutops|atk|2
+|cant|p2a: Wigglytuff|slp
+|
+|turn|6
+|choice|move 3|move Sing
+|
+|move|p1a: Kabutops|Body Slam|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|245\/435 slp
+|cant|p2a: Wigglytuff|slp
+|
+|turn|7
+|choice|move 3|move Sing
+|
+|move|p1a: Kabutops|Body Slam|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|45\/435 slp
+|cant|p2a: Wigglytuff|slp
+|
+|turn|8
+|choice|move 4|move Sing
+|
+|move|p1a: Kabutops|Swords Dance|p1a: Kabutops
+|-boost|p1a: Kabutops|atk|2
+|-curestatus|p2a: Wigglytuff|slp
+|
+|turn|9
+|choice|move 3|move Sing
+|
+|move|p1a: Kabutops|Body Slam|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|0 fnt
+|faint|p2a: Wigglytuff
+|choice||switch 4
+|
+|switch|p2a: Exeggutor|Exeggutor, L79|312\/312
+|turn|10
+|choice|move 2|move Sleep Powder
+|
+|move|p1a: Kabutops|Hyper Beam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|choice||switch 2
+|
+|switch|p2a: Clefable|Clefable, L85|335\/335
+|turn|11
+|choice|move 3|move Thunder
+|
+|move|p1a: Kabutops|Body Slam|p2a: Clefable
+|-damage|p2a: Clefable|120\/335
+|move|p2a: Clefable|Thunder|p1a: Kabutops|[miss]
+|-miss|p2a: Clefable
+|
+|turn|12
+|choice|move 3|move Thunder
+|
+|move|p1a: Kabutops|Body Slam|p2a: Clefable
+|-crit|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|choice||switch 5
+|
+|switch|p2a: Poliwhirl|Poliwhirl, L85|284\/284
+|turn|13
+|choice|move 2|move Hypnosis
+|
+|move|p2a: Poliwhirl|Hypnosis|p1a: Kabutops|[miss]
+|-miss|p2a: Poliwhirl
+|move|p1a: Kabutops|Hyper Beam|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|0 fnt
+|faint|p2a: Poliwhirl
+|choice||switch 6
+|
+|switch|p2a: Haunter|Haunter, L85|250\/250
+|turn|14
+|choice|move 1|move Hypnosis
+|
+|move|p2a: Haunter|Hypnosis|p1a: Kabutops
+|-status|p1a: Kabutops|slp
+|cant|p1a: Kabutops|slp
+|
+|turn|15
+|choice|switch 3|move Thunderbolt
+|
+|switch|p1a: Marowak|Marowak, L90|291\/291
+|move|p2a: Haunter|Thunderbolt|p1a: Marowak
+|-immune|p1a: Marowak|[msg]
+|
+|turn|16
+|choice|move 3|move Mega Drain
+|
+|move|p2a: Haunter|Mega Drain|p1a: Marowak
+|-crit|p1a: Marowak
+|-supereffective|p1a: Marowak
+|-damage|p1a: Marowak|118\/291
+|move|p1a: Marowak|Earthquake|p2a: Haunter
+|-supereffective|p2a: Haunter
+|-damage|p2a: Haunter|0 fnt
+|faint|p2a: Haunter
+|
+|win|XianJu
+|raw|XianJu's rating: 1122 &rarr; <strong>1141<\/strong><br \/>(+19 for winning)
+|raw|Bludragon336's rating: 1032 &rarr; <strong>1021<\/strong><br \/>(-11 for losing)
+|leave|Bludragon336
+|player|p2

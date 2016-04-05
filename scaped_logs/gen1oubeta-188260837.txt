@@ -1,0 +1,304 @@
+﻿|join|gen1masterrony
+|join|FNH
+|player|p1|gen1masterrony|266
+|player|p2|FNH|275
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Hypno|Hypno|373\/373
+|switch|p2a: Venusaur|Venusaur|363\/363
+|turn|1
+|
+|move|p2a: Venusaur|Sleep Powder|p1a: Hypno
+|-status|p1a: Hypno|slp
+|cant|p1a: Hypno|slp
+|
+|turn|2
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Venusaur|Swords Dance|p2a: Venusaur
+|-boost|p2a: Venusaur|atk|2
+|
+|turn|3
+|
+|move|p2a: Venusaur|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|264\/393
+|move|p1a: Exeggutor|Sleep Powder|p2a: Venusaur
+|-status|p2a: Venusaur|slp
+|
+|turn|4
+|
+|switch|p2a: Lapras|Lapras|463\/463
+|move|p1a: Exeggutor|Psychic|p2a: Lapras
+|-damage|p2a: Lapras|330\/463
+|
+|turn|5
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|move|p2a: Lapras|Confuse Ray|p1a: Starmie
+|-start|p1a: Starmie|confusion
+|
+|turn|6
+|c|★gen1masterrony|will u quite if u see me lose
+|c|★FNH|sure
+|
+|-activate|p1a: Starmie|confusion
+|-damage|p1a: Starmie|291\/323|[from] confusion
+|move|p2a: Lapras|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|228\/323
+|
+|turn|7
+|
+|-activate|p1a: Starmie|confusion
+|move|p1a: Starmie|Thunderbolt|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|183\/463
+|move|p2a: Lapras|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|155\/323
+|
+|turn|8
+|
+|-activate|p1a: Starmie|confusion
+|move|p1a: Starmie|Thunderbolt|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|41\/463
+|move|p2a: Lapras|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|93\/323
+|-status|p1a: Starmie|par
+|
+|turn|9
+|
+|move|p2a: Lapras|Rest|p2a: Lapras
+|-status|p2a: Lapras|slp
+|-heal|p2a: Lapras|463\/463 slp|[silent]
+|-status|p2a: Lapras|slp|[from] move: Rest
+|-activate|p1a: Starmie|confusion
+|move|p1a: Starmie|Thunderbolt|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|319\/463 slp
+|
+|turn|10
+|
+|cant|p2a: Lapras|slp
+|-end|p1a: Starmie|confusion
+|move|p1a: Starmie|Thunderbolt|p2a: Lapras
+|-crit|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|
+|switch|p2a: Jolteon|Jolteon|333\/333
+|turn|11
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|move|p2a: Jolteon|Thunderbolt|p1a: Alakazam
+|-damage|p1a: Alakazam|221\/313
+|
+|turn|12
+|
+|move|p2a: Jolteon|Pin Missile|p1a: Alakazam
+|-supereffective|p1a: Alakazam
+|-damage|p1a: Alakazam|194\/313
+|-damage|p1a: Alakazam|167\/313
+|-damage|p1a: Alakazam|140\/313
+|-damage|p1a: Alakazam|113\/313
+|-hitcount|p1a: Alakazam|4
+|move|p1a: Alakazam|Thunder Wave|p2a: Jolteon
+|-status|p2a: Jolteon|par
+|
+|turn|13
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|269\/313
+|move|p2a: Jolteon|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|
+|turn|14
+|
+|move|p2a: Jolteon|Pin Missile|p1a: Alakazam
+|-supereffective|p1a: Alakazam
+|-damage|p1a: Alakazam|240\/313 par
+|-damage|p1a: Alakazam|211\/313 par
+|-damage|p1a: Alakazam|182\/313 par
+|-hitcount|p1a: Alakazam|3
+|move|p1a: Alakazam|Psychic|p2a: Jolteon
+|-damage|p2a: Jolteon|212\/333 par
+|
+|turn|15
+|
+|move|p2a: Jolteon|Body Slam|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|12\/313 par
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|168\/313 par
+|
+|turn|16
+|
+|cant|p2a: Jolteon|par
+|cant|p1a: Alakazam|par
+|
+|turn|17
+|
+|move|p2a: Jolteon|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|90\/313 par
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|246\/313 par
+|
+|turn|18
+|
+|switch|p2a: Venusaur|Venusaur|363\/363 slp
+|move|p1a: Alakazam|Psychic|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|116\/363 slp
+|
+|turn|19
+|c|★FNH|prob shouldnt have done tha
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Alakazam|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|349\/523
+|
+|turn|20
+|
+|move|p2a: Snorlax|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|87\/313 par
+|move|p1a: Alakazam|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|
+|turn|21
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|243\/313 par
+|move|p2a: Snorlax|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|64\/313 par
+|
+|turn|22
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|220\/313 par
+|move|p2a: Snorlax|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|59\/313 par
+|
+|turn|23
+|
+|cant|p1a: Alakazam|par
+|move|p2a: Snorlax|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|switch|p1a: Machamp|Machamp|383\/383
+|turn|24
+|c|★FNH|ya know my team is reds from gsc
+|
+|switch|p2a: Charizard|Charizard|359\/359
+|move|p1a: Machamp|Low Kick|p2a: Charizard
+|-resisted|p2a: Charizard
+|-damage|p2a: Charizard|294\/359
+|
+|turn|25
+|
+|switch|p1a: Starmie|Starmie|93\/323 par
+|move|p2a: Charizard|Swords Dance|p2a: Charizard
+|-boost|p2a: Charizard|atk|2
+|
+|turn|26
+|
+|move|p2a: Charizard|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|27
+|c|★gen1masterrony|fast
+|
+|move|p1a: Tauros|Body Slam|p2a: Charizard
+|-damage|p2a: Charizard|178\/359
+|move|p2a: Charizard|Earthquake|p1a: Tauros
+|-damage|p1a: Tauros|212\/353
+|
+|turn|28
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|switch|p2a: Snorlax|Snorlax|349\/523 par
+|turn|29
+|
+|move|p1a: Tauros|Body Slam|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|96\/523 par
+|move|p2a: Snorlax|Self-Destruct|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|faint|p2a: Snorlax
+|
+|switch|p2a: Blastoise|Blastoise|361\/361
+|switch|p1a: Exeggutor|Exeggutor|264\/393
+|turn|30
+|
+|move|p2a: Blastoise|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|122\/393
+|move|p1a: Exeggutor|Sleep Powder|p2a: Blastoise
+|-message|Sleep Clause Mod activated.
+|
+|turn|31
+|c|★FNH|why
+|c|★gen1masterrony|oh no i forgot
+|
+|move|p2a: Blastoise|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Hypno|Hypno|373\/373 slp
+|turn|32
+|
+|move|p2a: Blastoise|Surf|p1a: Hypno
+|-damage|p1a: Hypno|278\/373 slp
+|cant|p1a: Hypno|slp
+|
+|turn|33
+|
+|move|p2a: Blastoise|Surf|p1a: Hypno
+|-damage|p1a: Hypno|182\/373 slp
+|cant|p1a: Hypno|slp
+|
+|turn|34
+|c|★gen1masterrony|r u gloing to quite?
+|
+|move|p2a: Blastoise|Surf|p1a: Hypno
+|-damage|p1a: Hypno|86\/373 slp
+|cant|p1a: Hypno|slp
+|-curestatus|p1a: Hypno|slp
+|
+|turn|35
+|
+|move|p2a: Blastoise|Surf|p1a: Hypno
+|-damage|p1a: Hypno|0 fnt
+|faint|p1a: Hypno
+|c|★FNH|yup
+|
+|switch|p1a: Machamp|Machamp|383\/383
+|turn|36
+|c|★FNH|save the replay
+|c|★FNH|please
+|c|★gen1masterrony|ok
+|c|★FNH|i save all my replays
+|-message|FNH forfeited.
+|
+|win|gen1masterrony
+|raw|Ladder updating...
+|leave|FNH
+|player|p2
+|raw|gen1masterrony's rating: 1270 &rarr; <strong>1279<\/strong><br \/>(+9 for winning)
+|raw|FNH's rating: 1000 &rarr; <strong>1000<\/strong><br \/>(+0 for losing)

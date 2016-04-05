@@ -1,0 +1,56 @@
+﻿|join|Lusch
+|join|MoxieInfinite
+|player|p1|Lusch|169
+|player|p2|MoxieInfinite|1
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Persian|Persian|333\/333
+|switch|p2a: Rapidash|Rapidash|333\/333
+|turn|1
+|
+|move|p1a: Persian|Slash|p2a: Rapidash
+|-crit|p2a: Rapidash
+|-damage|p2a: Rapidash|160\/333
+|move|p2a: Rapidash|Ember|p1a: Persian
+|-damage|p1a: Persian|282\/333
+|
+|turn|2
+|
+|move|p1a: Persian|Screech|p2a: Rapidash
+|-unboost|p2a: Rapidash|def|2
+|move|p2a: Rapidash|Ember|p1a: Persian
+|-damage|p1a: Persian|231\/333
+|-status|p1a: Persian|brn
+|
+|turn|3
+|
+|move|p1a: Persian|Slash|p2a: Rapidash
+|-crit|p2a: Rapidash
+|-damage|p2a: Rapidash|72\/333
+|-damage|p1a: Persian|211\/333 brn|[from] brn|[of] p2a: Rapidash
+|move|p2a: Rapidash|Ember|p1a: Persian
+|-damage|p1a: Persian|156\/333 brn
+|
+|turn|4
+|c|★Lusch|there
+|c|★Lusch|ok
+|c|★Lusch|it should have done normlal crit damage
+|c|★Lusch|thx
+|leave|MoxieInfinite
+|
+|move|p1a: Persian|Slash|p2a: Rapidash
+|-crit|p2a: Rapidash
+|-damage|p2a: Rapidash|0 fnt
+|faint|p2a: Rapidash
+|
+|win|Lusch
+|player|p2

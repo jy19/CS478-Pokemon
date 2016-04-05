@@ -1,0 +1,267 @@
+﻿|join|Sylivian
+|join|giju
+|player|p1|Sylivian|102
+|player|p2|giju|198
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Alak|Alakazam|313\/313
+|turn|1
+|
+|switch|p2a: Chan|Chansey|703\/703
+|move|p1a: Alakazam|Seismic Toss|p2a: Chan
+|-damage|p2a: Chan|603\/703
+|
+|turn|2
+|
+|move|p1a: Alakazam|Psychic|p2a: Chan
+|-damage|p2a: Chan|478\/703
+|-unboost|p2a: Chan|spd|1
+|-unboost|p2a: Chan|spa|1
+|move|p2a: Chan|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|
+|turn|3
+|
+|move|p2a: Chan|Soft-Boiled|p2a: Chan
+|-heal|p2a: Chan|703\/703
+|move|p1a: Alakazam|Psychic|p2a: Chan
+|-crit|p2a: Chan
+|-damage|p2a: Chan|448\/703
+|-unboost|p2a: Chan|spd|1
+|-unboost|p2a: Chan|spa|1
+|
+|turn|4
+|
+|move|p2a: Chan|Ice Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|280\/313 par
+|move|p1a: Alakazam|Psychic|p2a: Chan
+|-damage|p2a: Chan|196\/703
+|-unboost|p2a: Chan|spd|1
+|-unboost|p2a: Chan|spa|1
+|
+|turn|5
+|
+|switch|p1a: Zapdos|Zapdos|383\/383
+|move|p2a: Chan|Soft-Boiled|p2a: Chan
+|-heal|p2a: Chan|547\/703
+|
+|turn|6
+|
+|switch|p2a: Gol|Golem|363\/363
+|move|p1a: Zapdos|Thunder|p2a: Gol
+|-immune|p2a: Gol|[msg]
+|
+|turn|7
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|move|p2a: Gol|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|239\/323
+|-status|p1a: Starmie|par
+|
+|turn|8
+|
+|switch|p2a: Chan|Chansey|547\/703
+|cant|p1a: Starmie|par
+|
+|turn|9
+|
+|move|p2a: Chan|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|83\/323 par
+|move|p1a: Starmie|Blizzard|p2a: Chan
+|-damage|p2a: Chan|453\/703
+|
+|turn|10
+|
+|switch|p1a: Victreebel|Victreebel|363\/363
+|move|p2a: Chan|Thunderbolt|p1a: Victreebel
+|-crit|p1a: Victreebel
+|-resisted|p1a: Victreebel
+|-damage|p1a: Victreebel|294\/363
+|
+|turn|11
+|
+|switch|p2a: Alak|Alakazam|313\/313
+|move|p1a: Victreebel|Sleep Powder|p2a: Alak
+|-status|p2a: Alak|slp
+|
+|turn|12
+|
+|switch|p2a: Exe|Exeggutor|393\/393
+|move|p1a: Victreebel|Swords Dance|p1a: Victreebel
+|-boost|p1a: Victreebel|atk|2
+|
+|turn|13
+|
+|move|p1a: Victreebel|Hyper Beam|p2a: Exe
+|-damage|p2a: Exe|106\/393
+|move|p2a: Exe|Sleep Powder|p1a: Victreebel
+|-status|p1a: Victreebel|slp
+|
+|turn|14
+|-mustrecharge|p1a: Victreebel
+|-mustrecharge|p1a: Victreebel
+|
+|cant|p1a: Victreebel|recharge
+|move|p2a: Exe|Psychic|p1a: Victreebel
+|-supereffective|p1a: Victreebel
+|-damage|p1a: Victreebel|27\/363 slp
+|
+|turn|15
+|
+|switch|p1a: Starmie|Starmie|83\/323 par
+|move|p2a: Exe|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|22\/323 par
+|
+|turn|16
+|
+|move|p2a: Exe|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|17
+|
+|switch|p2a: Snor|Snorlax|523\/523
+|move|p1a: Tauros|Blizzard|p2a: Snor
+|-crit|p2a: Snor
+|-damage|p2a: Snor|329\/523
+|
+|turn|18
+|
+|move|p1a: Tauros|Body Slam|p2a: Snor
+|-damage|p2a: Snor|206\/523
+|move|p2a: Snor|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|234\/353
+|
+|turn|19
+|
+|move|p1a: Tauros|Body Slam|p2a: Snor
+|-damage|p2a: Snor|70\/523
+|move|p2a: Snor|Self-Destruct|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|faint|p2a: Snor
+|
+|switch|p2a: Gol|Golem|363\/363
+|switch|p1a: Alakazam|Alakazam|280\/313 par
+|turn|20
+|
+|move|p2a: Gol|Earthquake|p1a: Alakazam
+|-damage|p1a: Alakazam|66\/313 par
+|cant|p1a: Alakazam|par
+|
+|turn|21
+|
+|switch|p1a: Victreebel|Victreebel|27\/363 slp
+|move|p2a: Gol|Earthquake|p1a: Victreebel
+|-damage|p1a: Victreebel|0 fnt
+|faint|p1a: Victreebel
+|
+|switch|p1a: Golem|Golem|363\/363
+|turn|22
+|
+|move|p1a: Golem|Earthquake|p2a: Gol
+|-supereffective|p2a: Gol
+|-damage|p2a: Gol|155\/363
+|move|p2a: Gol|Earthquake|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|135\/363
+|
+|turn|23
+|
+|move|p1a: Golem|Earthquake|p2a: Gol
+|-crit|p2a: Gol
+|-supereffective|p2a: Gol
+|-damage|p2a: Gol|0 fnt
+|faint|p2a: Gol
+|
+|switch|p2a: Chan|Chansey|453\/703
+|turn|24
+|
+|switch|p1a: Zapdos|Zapdos|383\/383
+|move|p2a: Chan|Ice Beam|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|239\/383
+|
+|turn|25
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Chan
+|-damage|p2a: Chan|207\/703
+|move|p2a: Chan|Ice Beam|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|97\/383
+|
+|turn|26
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Chan
+|-damage|p2a: Chan|0 fnt
+|faint|p2a: Chan
+|c|★giju|gg
+|
+|switch|p2a: Tau|Tauros|353\/353
+|turn|27
+|
+|switch|p1a: Alakazam|Alakazam|66\/313 par
+|move|p2a: Tau|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|switch|p1a: Golem|Golem|135\/363
+|turn|28
+|
+|move|p2a: Tau|Blizzard|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|0 fnt
+|faint|p1a: Golem
+|c|★Sylivian|gg
+|
+|switch|p1a: Zapdos|Zapdos|97\/383
+|turn|29
+|
+|move|p2a: Tau|Body Slam|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|win|giju
+|c|★giju|but i dunno
+|c|★Sylivian|what is it?
+|c|★giju|why i lost 2 matches in row ç_ç
+|c|★Sylivian|just gen1 things
+|c|★Sylivian|haha
+|c|★giju|(althought i'm not intrested in laddering XD)
+|c|★giju|yeah right :P
+|c|★giju|could you believe
+|c|★giju|i lost against a guy
+|c|★giju|who have a blastoise and aerodactyl, and also other uu pokèmon?
+|c|★Sylivian|no way
+|c|★Sylivian|thats just bad play haha
+|c|★giju|this could be a nice strategy in OU XD
+|c|★giju|unexpected u.u
+|c|★Sylivian|no kidding
+|c|★Sylivian|I dunno
+|c|★Sylivian|oh sorry, another battle just popped
+|c|★Sylivian|feel free to watch
+|c|★Sylivian|we can talk after (:
+|c|★giju|yeah link :D
+|c|★Sylivian|oh
+|c|★Sylivian|he randomly forfeited
+|c|★giju|loooool
+|c|★Sylivian|well then
+|c|★giju|watch here
+|c|★giju|http:\/\/play.pokemonshowdown.com\/battle-gen1ou-274452543
+|c|★Sylivian|aerodactyl isn't too bad though
+|leave|Sylivian
+|player|p1

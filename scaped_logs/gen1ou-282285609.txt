@@ -1,0 +1,531 @@
+﻿|join|Mirabel
+|join|tr0mb0ner
+|player|p1|Mirabel|260
+|player|p2|tr0mb0ner|1
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: ゴースト|Haunter|293\/293
+|switch|p2a: Tangela|Tangela|333\/333
+|turn|1
+|
+|switch|p2a: Kadabra|Kadabra|283\/283
+|move|p1a: ゴースト|Hypnosis|p2a: Kadabra|[miss]
+|-miss|p1a: ゴースト
+|
+|turn|2
+|
+|switch|p1a: ユンゲラー|Kadabra|283\/283
+|move|p2a: Kadabra|Psychic|p1a: ユンゲラー
+|-crit|p1a: ユンゲラー
+|-resisted|p1a: ユンゲラー
+|-damage|p1a: ユンゲラー|177\/283
+|
+|turn|3
+|
+|move|p2a: Kadabra|Thunder Wave|p1a: ユンゲラー
+|-status|p1a: ユンゲラー|par
+|move|p1a: ユンゲラー|Thunder Wave|p2a: Kadabra
+|-status|p2a: Kadabra|par
+|
+|turn|4
+|
+|move|p1a: ユンゲラー|Psychic|p2a: Kadabra
+|-resisted|p2a: Kadabra
+|-damage|p2a: Kadabra|232\/283 par
+|move|p2a: Kadabra|Psychic|p1a: ユンゲラー
+|-resisted|p1a: ユンゲラー
+|-damage|p1a: ユンゲラー|124\/283 par
+|
+|turn|5
+|
+|move|p1a: ユンゲラー|Recover|p1a: ユンゲラー
+|-heal|p1a: ユンゲラー|265\/283 par
+|move|p2a: Kadabra|Psychic|p1a: ユンゲラー
+|-resisted|p1a: ユンゲラー
+|-damage|p1a: ユンゲラー|211\/283 par
+|
+|turn|6
+|
+|cant|p2a: Kadabra|par
+|cant|p1a: ユンゲラー|par
+|
+|turn|7
+|
+|move|p2a: Kadabra|Kinesis|p1a: ユンゲラー
+|-unboost|p1a: ユンゲラー|accuracy|1
+|cant|p1a: ユンゲラー|par
+|
+|turn|8
+|
+|switch|p1a: ゴースト|Haunter|293\/293
+|cant|p2a: Kadabra|par
+|
+|turn|9
+|
+|switch|p1a: ユンゲラー|Kadabra|211\/283 par
+|move|p2a: Kadabra|Psychic|p1a: ユンゲラー
+|-crit|p1a: ユンゲラー
+|-resisted|p1a: ユンゲラー
+|-damage|p1a: ユンゲラー|115\/283 par
+|-unboost|p1a: ユンゲラー|spd|1
+|-unboost|p1a: ユンゲラー|spa|1
+|
+|turn|10
+|
+|cant|p2a: Kadabra|par
+|move|p1a: ユンゲラー|Recover|p1a: ユンゲラー
+|-heal|p1a: ユンゲラー|256\/283 par
+|
+|turn|11
+|
+|switch|p1a: ドードリオ|Dodrio|323\/323
+|cant|p2a: Kadabra|par
+|
+|turn|12
+|
+|move|p1a: ドードリオ|Hyper Beam|p2a: Kadabra
+|-crit|p2a: Kadabra
+|-damage|p2a: Kadabra|0 fnt
+|faint|p2a: Kadabra
+|c|★tr0mb0ner|0.0
+|
+|switch|p2a: Hypno|Hypno|373\/373
+|turn|13
+|
+|move|p1a: ドードリオ|Body Slam|p2a: Hypno
+|-damage|p2a: Hypno|233\/373
+|move|p2a: Hypno|Hypnosis|p1a: ドードリオ|[miss]
+|-miss|p2a: Hypno
+|
+|turn|14
+|
+|switch|p1a: ゴースト|Haunter|293\/293
+|move|p2a: Hypno|Counter|p1a: ゴースト
+|-fail|p2a: Hypno
+|
+|turn|15
+|
+|move|p1a: ゴースト|Hypnosis|p2a: Hypno
+|-status|p2a: Hypno|slp
+|cant|p2a: Hypno|slp
+|
+|turn|16
+|
+|switch|p2a: Tangela|Tangela|333\/333
+|move|p1a: ゴースト|Thunderbolt|p2a: Tangela
+|-resisted|p2a: Tangela
+|-damage|p2a: Tangela|289\/333
+|-status|p2a: Tangela|par
+|
+|turn|17
+|
+|move|p1a: ゴースト|Night Shade|p2a: Tangela
+|-damage|p2a: Tangela|189\/333 par
+|move|p2a: Tangela|Sleep Powder|p1a: ゴースト
+|-status|p1a: ゴースト|slp
+|
+|turn|18
+|
+|cant|p1a: ゴースト|slp
+|move|p2a: Tangela|Swords Dance|p2a: Tangela
+|-boost|p2a: Tangela|atk|2
+|
+|turn|19
+|
+|switch|p2a: The BRO|Golduck|363\/363
+|cant|p1a: ゴースト|slp
+|
+|turn|20
+|
+|switch|p1a: Gyarados|Gyarados|393\/393
+|move|p2a: The BRO|Amnesia|p2a: The BRO
+|-boost|p2a: The BRO|spd|2
+|-boost|p2a: The BRO|spa|2
+|
+|turn|21
+|
+|move|p2a: The BRO|Amnesia|p2a: The BRO
+|-boost|p2a: The BRO|spd|2
+|-boost|p2a: The BRO|spa|2
+|move|p1a: Gyarados|Body Slam|p2a: The BRO
+|-crit|p2a: The BRO
+|-damage|p2a: The BRO|188\/363
+|-status|p2a: The BRO|par
+|
+|turn|22
+|
+|move|p1a: Gyarados|Hyper Beam|p2a: The BRO
+|-crit|p2a: The BRO
+|-damage|p2a: The BRO|0 fnt
+|faint|p2a: The BRO
+|
+|switch|p2a: Muk|Muk|413\/413
+|turn|23
+|c|★Mirabel|how do you like my duck coutner
+|c|★tr0mb0ner|my duck counter
+|c|★tr0mb0ner|as in in get crit
+|c|★tr0mb0ner|parad
+|c|★tr0mb0ner|then yes
+|c|★tr0mb0ner|u got to teach me that some time
+|
+|switch|p1a: ゴースト|Haunter|293\/293 slp
+|move|p2a: Muk|Screech|p1a: ゴースト
+|-unboost|p1a: ゴースト|def|2
+|
+|turn|24
+|
+|cant|p1a: ゴースト|slp
+|move|p2a: Muk|Sludge|p1a: ゴースト
+|-resisted|p1a: ゴースト
+|-damage|p1a: ゴースト|232\/293 slp
+|
+|turn|25
+|c|★Mirabel|:D
+|
+|cant|p1a: ゴースト|slp
+|move|p2a: Muk|Sludge|p1a: ゴースト
+|-resisted|p1a: ゴースト
+|-damage|p1a: ゴースト|171\/293 slp
+|
+|turn|26
+|
+|cant|p1a: ゴースト|slp
+|move|p2a: Muk|Sludge|p1a: ゴースト
+|-resisted|p1a: ゴースト
+|-damage|p1a: ゴースト|108\/293 slp
+|
+|turn|27
+|
+|-curestatus|p1a: ゴースト|slp
+|move|p2a: Muk|Sludge|p1a: ゴースト
+|-resisted|p1a: ゴースト
+|-damage|p1a: ゴースト|47\/293
+|
+|turn|28
+|
+|move|p1a: ゴースト|Hypnosis|p2a: Muk
+|-message|Sleep Clause Mod activated.
+|move|p2a: Muk|Sludge|p1a: ゴースト
+|-resisted|p1a: ゴースト
+|-damage|p1a: ゴースト|0 fnt
+|faint|p1a: ゴースト
+|c|★Mirabel|oops
+|c|★Mirabel|playing too many games at once
+|
+|switch|p1a: エレブー|Electabuzz|333\/333
+|turn|29
+|
+|move|p1a: エレブー|Psychic|p2a: Muk
+|-crit|p2a: Muk
+|-supereffective|p2a: Muk
+|-damage|p2a: Muk|102\/413
+|move|p2a: Muk|Body Slam|p1a: エレブー
+|-damage|p1a: エレブー|243\/333
+|
+|turn|30
+|
+|move|p1a: エレブー|Psychic|p2a: Muk
+|-supereffective|p2a: Muk
+|-damage|p2a: Muk|0 fnt
+|faint|p2a: Muk
+|
+|switch|p2a: Tangela|Tangela|189\/333 par
+|turn|31
+|
+|move|p1a: エレブー|Psychic|p2a: Tangela
+|-damage|p2a: Tangela|126\/333 par
+|move|p2a: Tangela|Sleep Powder|p1a: エレブー
+|-status|p1a: エレブー|slp
+|
+|turn|32
+|
+|switch|p1a: Gyarados|Gyarados|393\/393
+|cant|p2a: Tangela|par
+|
+|turn|33
+|
+|move|p1a: Gyarados|Blizzard|p2a: Tangela
+|-supereffective|p2a: Tangela
+|-damage|p2a: Tangela|0 fnt
+|faint|p2a: Tangela
+|
+|switch|p2a: Kangaskhan|Kangaskhan|413\/413
+|turn|34
+|
+|switch|p1a: オムスター|Omastar|343\/343
+|move|p2a: Kangaskhan|Body Slam|p1a: オムスター
+|-crit|p1a: オムスター
+|-resisted|p1a: オムスター
+|-damage|p1a: オムスター|262\/343
+|
+|turn|35
+|
+|switch|p1a: ドードリオ|Dodrio|323\/323
+|move|p2a: Kangaskhan|Earthquake|p1a: ドードリオ
+|-immune|p1a: ドードリオ|[msg]
+|
+|turn|36
+|
+|move|p1a: ドードリオ|Body Slam|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|286\/413
+|move|p2a: Kangaskhan|Blizzard|p1a: ドードリオ
+|-supereffective|p1a: ドードリオ
+|-damage|p1a: ドードリオ|175\/323
+|
+|turn|37
+|
+|move|p1a: ドードリオ|Body Slam|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|159\/413
+|move|p2a: Kangaskhan|Hyper Beam|p1a: ドードリオ
+|-damage|p1a: ドードリオ|0 fnt
+|faint|p1a: ドードリオ
+|
+|switch|p1a: Gyarados|Gyarados|393\/393
+|turn|38
+|
+|move|p2a: Kangaskhan|Body Slam|p1a: Gyarados
+|-damage|p1a: Gyarados|280\/393
+|move|p1a: Gyarados|Hyper Beam|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|5\/413
+|
+|turn|39
+|-mustrecharge|p1a: Gyarados
+|-mustrecharge|p1a: Gyarados
+|
+|move|p2a: Kangaskhan|Body Slam|p1a: Gyarados
+|-damage|p1a: Gyarados|160\/393
+|cant|p1a: Gyarados|recharge
+|
+|turn|40
+|
+|switch|p1a: オムスター|Omastar|262\/343
+|move|p2a: Kangaskhan|Hyper Beam|p1a: オムスター
+|-resisted|p1a: オムスター
+|-damage|p1a: オムスター|184\/343
+|
+|turn|41
+|-mustrecharge|p2a: Kangaskhan
+|-mustrecharge|p2a: Kangaskhan
+|
+|cant|p2a: Kangaskhan|recharge
+|move|p1a: オムスター|Surf|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|faint|p2a: Kangaskhan
+|c|★Mirabel|I nearly dropped this loser
+|c|★Mirabel|but then I thought, I'm gonna get hit with a hyper beam sometime
+|
+|switch|p2a: Hypno|Hypno|233\/373 slp
+|turn|42
+|c|★tr0mb0ner|lol
+|
+|move|p1a: オムスター|Surf|p2a: Hypno
+|-crit|p2a: Hypno
+|-damage|p2a: Hypno|14\/373 slp
+|-curestatus|p2a: Hypno|slp
+|
+|turn|43
+|c|★Mirabel|decided he was worth more than moltres
+|c|★Mirabel|since I had all molt's types covered anyway
+|c|★Mirabel|offensively I think my team is perfect
+|c|★Mirabel|Just need to work on defense
+|c|★Mirabel|against setup sweep mostly
+|c|★Mirabel|which is your speciality
+|
+|move|p2a: Hypno|Psychic|p1a: オムスター
+|-damage|p1a: オムスター|86\/343
+|-unboost|p1a: オムスター|spd|1
+|-unboost|p1a: オムスター|spa|1
+|move|p1a: オムスター|Surf|p2a: Hypno
+|-damage|p2a: Hypno|0 fnt
+|faint|p2a: Hypno
+|
+|win|Mirabel
+|c|★Mirabel|apparently
+|c|★Mirabel|golduck loses to poliwrath
+|c|★Mirabel|but I'm afraid to run that
+|c|★tr0mb0ner|yea prob
+|c|★Mirabel|since every team will have 4 mons that destroy him
+|c|★tr0mb0ner|i think poli is prob better then golduck
+|c|★tr0mb0ner|golduck is just faster
+|c|★Mirabel|He's like a minibro tby
+|c|★Mirabel|*tbh
+|c|★Mirabel|Plays the same role but outspeeds lots of dudes
+|c|★Mirabel|And has no significant weaknesses
+|c|★Mirabel|except Phys sweepers and crits
+|c|★Mirabel|weaker to para than bro is tho
+|c|★tr0mb0ner|duck or poli?
+|c|★Mirabel|duck
+|c|★tr0mb0ner|yea
+|c|★tr0mb0ner|hes less bulky
+|c|★tr0mb0ner|poly has a similar bulk to bro
+|c|★tr0mb0ner|which is what u want
+|c|★Mirabel|It's just that
+|c|★tr0mb0ner|bulky to attack
+|c|★Mirabel|that's a whole lot of 2x damage
+|c|★tr0mb0ner|set up so spec doesnt hurt
+|c|★Mirabel|against him
+|c|★tr0mb0ner|doesnt really matter
+|c|★tr0mb0ner|u have to bring in set ups
+|c|★Mirabel|psychic isn't that big a deal, it's all about the flying attacks from sweepers that are faster than him
+|c|★tr0mb0ner|in a manner when u can get 1 to 2 free set ups
+|c|★Mirabel|Hypnosis makes him good though
+|c|★tr0mb0ner|yea
+|c|★Mirabel|Makes you need to dance around him despite his horrible typing
+|c|★tr0mb0ner|my team is kindaweak
+|c|★tr0mb0ner|im gona have to change it
+|c|★Mirabel|Well it's your first team
+|c|★Mirabel|I just adapted a bit
+|c|★Mirabel|since Moltres wasn't pulling its weight
+|c|★tr0mb0ner|im gona swap between duck and ply see what i like
+|c|★Mirabel|and neither was omastar
+|c|★Mirabel|Still
+|c|★Mirabel|Golduck and Poliwrath were kept in UU
+|c|★Mirabel|while these fuckers were banned
+|c|★Mirabel|so I think Gyarados was the right call
+|c|★tr0mb0ner|who was band?
+|c|★Mirabel|since he has perfect coverage
+|c|★Mirabel|This is BL, not UU
+|c|★Mirabel|UU is basically every mon that was banned from UU
+|c|★Mirabel|*BL is basically
+|c|★Mirabel|It wasn't made from OU mons
+|c|★Mirabel|it was made from centralizing UU mons
+|c|★tr0mb0ner|oh
+|c|★Mirabel|and the tier was split upward
+|c|★Mirabel|turns out there was a LOT of mons too strong for UU
+|c|★Mirabel|so BL got as big as OU
+|c|★Mirabel|and ironically enough more balanced
+|c|★Mirabel|since plenty of UU mons still have niches here
+|c|★tr0mb0ner|let me change up my tea i guess
+|c|★Mirabel|Omastar and electabuzz for isntance
+|c|★tr0mb0ner|i feel like u could pull off golduck in ou
+|c|★tr0mb0ner|since his speed is better
+|c|★Mirabel|Probably, he is the single best mon in OU along with wrath
+|c|★tr0mb0ner|but not really neede
+|c|★Mirabel|*UU
+|c|★Mirabel|Those two mons are the twin towers
+|c|★tr0mb0ner|my tangale
+|c|★tr0mb0ner|is bad
+|c|★Mirabel|Tangela loses to haunter
+|c|★Mirabel|not every team will have haunter
+|c|★Mirabel|and haunter runs explode so not every team will keep haunter
+|c|★tr0mb0ner|haunter is so good
+|c|★Mirabel|I haven't lost to any ground pokemon yet
+|c|★Mirabel|Dugtrio someone ran
+|c|★Mirabel|no one ran Sandslash or Graveler
+|c|★tr0mb0ner|um here kinda like sweepers
+|c|★Mirabel|Someone ran Nidoking
+|c|★tr0mb0ner|that get rekt by water ice
+|c|★Mirabel|but lost to my super psychic team
+|c|★Mirabel|I don't think Graveler has a hope in this tier
+|c|★Mirabel|Too many waters
+|c|★Mirabel|and other specialers
+|c|★tr0mb0ner|idk i need a new lead
+|c|★tr0mb0ner|either i lead with kadabra
+|c|★tr0mb0ner|or get a haunter
+|c|★Mirabel|There's always Moltres lead
+|c|★tr0mb0ner|meh
+|c|★tr0mb0ner|i jsut dont lik ethe poke moltres
+|c|★tr0mb0ner|idk how i eel about hypno
+|c|★Mirabel|moltres lead is designed to beat grass\/ice sleep starters
+|c|★Mirabel|I think you're just using hyp wrong tbh
+|c|★Mirabel|you're supposed to wall harder
+|c|★Mirabel|use more Rest and make sure that sleep gets put down
+|c|★tr0mb0ner|yea i have to figure out uu
+|c|★Mirabel|and switch out against phys if you haven't put up reflect
+|c|★Mirabel|since his def is meh
+|c|★Mirabel|Tradebacks BL must be fun
+|c|★Mirabel|Golduck gets Hypnosis (can't run it with Amnesia)
+|c|★Mirabel|it's like the nightmare set
+|c|★tr0mb0ner|lol
+|c|★Mirabel|And Hypno
+|c|★Mirabel|gets Amnesia
+|c|★tr0mb0ner|i tihnk vaporean
+|c|★Mirabel|which conflicts with nothing
+|c|★tr0mb0ner|and tentacrule are really good
+|c|★Mirabel|Oh yeah all the eevees get growth
+|c|★tr0mb0ner|but its so much weaknes to elct
+|c|★Mirabel|Yeah I'm def running cruel
+|c|★Mirabel|on my next team
+|c|★Mirabel|It doesn't seem to work too well with these mons
+|c|★tr0mb0ner|just like swords dance wrap
+|c|★tr0mb0ner|its so scum bag
+|c|★tr0mb0ner|but its effective
+|c|★Mirabel|Wrap loses hard to haunter
+|c|★Mirabel|all the wrapmons get countered by haunter too which funny
+|c|★Mirabel|type-wise they can't do anything else to him
+|c|★tr0mb0ner|yea lol
+|c|★tr0mb0ner|unless ur tenta
+|c|★Mirabel|Cept probably cruel
+|c|★tr0mb0ner|and have surf
+|c|★Mirabel|Weepinbell we're not thinking too much about
+|c|★Mirabel|I suspect it might be worth something as a lead
+|c|★Mirabel|if it was a bit faster
+|c|★Mirabel|More worthwhile in the slow sleeper lead meta of OU
+|c|★Mirabel|where vic beats everything that's not gengar or zam
+|c|★Mirabel|or starmie
+|c|★Mirabel|here it's just two lightning fast leads it seems
+|c|★Mirabel|idk how to get around them
+|c|★Mirabel|oh shit
+|c|★Mirabel|Dugtrio
+|c|★Mirabel|He can stab EQ either one and probably crit
+|c|★tr0mb0ner|weepin bell is ou
+|c|★tr0mb0ner|im pretty sure
+|c|★tr0mb0ner|i mean vic
+|c|★tr0mb0ner|im tired
+|c|★Mirabel|aaaaaa
+|c|★Mirabel|it's a guaranteed ohko on haunter
+|c|★Mirabel|and it goes faster
+|c|★Mirabel|Kadabra can't paralyze and gets 2HKO'd
+|c|★tr0mb0ner|hmm
+|c|★Mirabel|psychic hits for less too
+|c|★Mirabel|but still 2hkos right back
+|c|★Mirabel|so possibility of crit shenanigans both ways
+|c|★tr0mb0ner|i think haunter lead
+|c|★tr0mb0ner|is gona be the standard
+|c|★tr0mb0ner|anthing else
+|c|★tr0mb0ner|has to revolve around a counter around haunter
+|c|★Mirabel|yeah
+|c|★Mirabel|like standard zam lead
+|c|★tr0mb0ner|yea
+|c|★Mirabel|or egg lead, depending on whether you're oldschool
+|c|★tr0mb0ner|eg?
+|c|★tr0mb0ner|like
+|c|★tr0mb0ner|egg's
+|c|★tr0mb0ner|?
+|c|★Mirabel|exeggutor was original standard lead
+|c|★Mirabel|now it's just a zam counter
+|c|★Mirabel|only reason people run vic lead is possibility of egg lead
+|c|★Mirabel|sandslash's prospects aren't looking too great
+|c|★Mirabel|but it gets 3HKO'd
+|c|★Mirabel|by kadabra psychic
+|c|★tr0mb0ner|u mean exeggcute?
+|c|★Mirabel|no I'm talking about Zam lead in OU
+|c|★Mirabel|and egg lead that he replaced
+|c|★Mirabel|exeggutor
+|c|★Mirabel|I think Dugtrio is right now the standard lead
+|c|★Mirabel|Since he beats both kadabra and haunter outright
+|c|★Mirabel|Either that or he's jynx status
+|c|★tr0mb0ner|jm
+|c|★tr0mb0ner|maybe like a]
+|c|★Mirabel|think sandslash can't lead but he's still probably third best ground in the tier
+|c|★tr0mb0ner|ermm
+|c|★tr0mb0ner|idk i need to look at the mons
+|c|★Mirabel|doesn't OHKO tentacruel
+|c|★Mirabel|and 60% chance of OHKO back
+|c|★tr0mb0ner|i tihnk im gona use scumbag crule
+|c|★Mirabel|cruel is fast as fuck
+|c|★tr0mb0ner|and rid of tangale
+|c|★Mirabel|try it out
+|c|★Mirabel|cya tomorrow
+|leave|Mirabel
+|player|p1
+|join|Mirabel

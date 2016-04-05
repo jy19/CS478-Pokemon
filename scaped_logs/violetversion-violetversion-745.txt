@@ -1,0 +1,353 @@
+﻿|J|KristophV
+|J|Disaster Area
+|player|p1|KristophV|kristophv.png
+|player|p2|Disaster Area|32
+|gametype|singles
+|gen|1
+|tier|Violet Version
+|clearpoke
+|poke|p1|Golbat
+|poke|p1|Magneton
+|poke|p1|Hypno
+|poke|p1|Tangela
+|poke|p1|Aerodactyl
+|poke|p1|Jynx
+|poke|p2|Golduck
+|poke|p2|Exeggutor
+|poke|p2|Nidoqueen
+|poke|p2|Chansey
+|poke|p2|Zapdos
+|poke|p2|Hypno
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|c|★Disaster Area|gl hf
+|c|★KristophV|you too
+|c|★Disaster Area|g:Olbat
+|
+|start
+|switch|p1a: Jynx|Jynx|333\/333
+|switch|p2a: Zapdos|Zapdos|383\/383
+|turn|1
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Jynx
+|-damage|p1a: Jynx|180\/333
+|move|p1a: Jynx|Lovely Kiss|p2a: Zapdos|[miss]
+|-miss|p1a: Jynx
+|
+|turn|2
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Jynx
+|-damage|p1a: Jynx|12\/333
+|move|p1a: Jynx|Lovely Kiss|p2a: Zapdos
+|-status|p2a: Zapdos|slp
+|
+|turn|3
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Jynx|Mimic|p2a: Chansey
+|-start|p1a: Jynx|Mimic|Thunderbolt
+|
+|turn|4
+|
+|switch|p1a: Magneton|Magneton|443\/443
+|move|p2a: Chansey|Ice Beam|p1a: Magneton
+|-damage|p1a: Magneton|377\/443
+|
+|turn|5
+|
+|switch|p1a: Hypno|Hypno|373\/373
+|switch|p2a: Zapdos|Zapdos|383\/383 slp
+|
+|turn|6
+|
+|switch|p2a: Golduck|Golduck|363\/363
+|move|p1a: Hypno|Body Slam|p2a: Golduck
+|-immune|p2a: Golduck|[msg]
+|
+|turn|7
+|
+|switch|p1a: Tangela|Tangela|373\/373
+|move|p2a: Golduck|Toxic|p1a: Tangela
+|-status|p1a: Tangela|tox
+|
+|turn|8
+|
+|switch|p2a: Zapdos|Zapdos|383\/383 slp
+|move|p1a: Tangela|Disable|p2a: Zapdos
+|-start|p2a: Zapdos|Disable|Thunderbolt
+|-damage|p1a: Tangela|350\/373 tox|[from] tox|[of] p2a: Zapdos
+|
+|turn|9
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Tangela|Stun Spore|p2a: Chansey
+|-status|p2a: Chansey|par
+|-damage|p1a: Tangela|304\/373 tox|[from] tox|[of] p2a: Chansey
+|
+|turn|10
+|
+|switch|p1a: Magneton|Magneton|377\/443
+|switch|p2a: Zapdos|Zapdos|383\/383 slp
+|
+|turn|11
+|
+|switch|p1a: Golbat|Golbat|373\/373
+|cant|p2a: Zapdos|slp
+|
+|turn|12
+|
+|cant|p2a: Zapdos|slp
+|move|p1a: Golbat|Super Fang|p2a: Zapdos
+|-damage|p2a: Zapdos|192\/383 slp
+|
+|turn|13
+|
+|cant|p2a: Zapdos|slp
+|move|p1a: Golbat|Acid|p2a: Zapdos
+|-damage|p2a: Zapdos|100\/383 slp
+|
+|turn|14
+|
+|switch|p2a: Nidoqueen|Nidoqueen|383\/383
+|move|p1a: Golbat|Acid|p2a: Nidoqueen
+|-resisted|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|363\/383
+|-unboost|p2a: Nidoqueen|def|1
+|
+|turn|15
+|
+|move|p1a: Golbat|Super Fang|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|182\/383
+|move|p2a: Nidoqueen|Rock Slide|p1a: Golbat
+|-supereffective|p1a: Golbat
+|-damage|p1a: Golbat|219\/373
+|
+|turn|16
+|
+|move|p1a: Golbat|Gust|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|75\/383
+|move|p2a: Nidoqueen|Soft-Boiled|p2a: Nidoqueen
+|-heal|p2a: Nidoqueen|266\/383
+|
+|turn|17
+|
+|move|p1a: Golbat|Gust|p2a: Nidoqueen
+|-crit|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|142\/383
+|move|p2a: Nidoqueen|Soft-Boiled|p2a: Nidoqueen
+|-heal|p2a: Nidoqueen|333\/383
+|
+|turn|18
+|
+|switch|p1a: Hypno|Hypno|373\/373
+|switch|p2a: Zapdos|Zapdos|100\/383 slp
+|
+|turn|19
+|
+|switch|p2a: Hypno|Hypno|373\/373
+|move|p1a: Hypno|Tri Attack|p2a: Hypno
+|-supereffective|p2a: Hypno
+|-damage|p2a: Hypno|190\/373
+|
+|turn|20
+|
+|move|p1a: Hypno|Body Slam|p2a: Hypno
+|-damage|p2a: Hypno|101\/373
+|move|p2a: Hypno|Hypnosis|p1a: Hypno
+|-status|p1a: Hypno|slp
+|
+|turn|21
+|
+|switch|p1a: Magneton|Magneton|377\/443
+|move|p2a: Hypno|Dream Eater|p1a: Magneton
+|-immune|p1a: Magneton|[msg]
+|
+|turn|22
+|
+|switch|p2a: Zapdos|Zapdos|100\/383 slp
+|move|p1a: Magneton|Thunderbolt|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|switch|p2a: Nidoqueen|Nidoqueen|333\/383
+|turn|23
+|
+|switch|p1a: Tangela|Tangela|304\/373 tox
+|-status|p1a: Tangela|psn
+|-damage|p1a: Tangela|281\/373 psn|[from] psn
+|move|p2a: Nidoqueen|Earthquake|p1a: Tangela
+|-resisted|p1a: Tangela
+|-damage|p1a: Tangela|229\/373 psn
+|
+|turn|24
+|
+|switch|p2a: Chansey|Chansey|703\/703 par
+|move|p1a: Tangela|Disable|p2a: Chansey
+|-start|p2a: Chansey|Disable|Soft-Boiled
+|-damage|p1a: Tangela|206\/373 psn|[from] psn|[of] p2a: Chansey
+|
+|turn|25
+|
+|move|p1a: Tangela|Mega Drain|p2a: Chansey
+|-damage|p2a: Chansey|653\/703 par
+|-heal|p1a: Tangela|256\/373 psn|[from] drain|[of] p2a: Chansey
+|-damage|p1a: Tangela|233\/373 psn|[from] psn|[of] p2a: Chansey
+|cant|p2a: Chansey|par
+|
+|turn|26
+|
+|switch|p1a: Magneton|Magneton|377\/443
+|move|p2a: Chansey|Ice Beam|p1a: Magneton
+|-damage|p1a: Magneton|303\/443
+|
+|turn|27
+|
+|move|p1a: Magneton|Mimic|p2a: Chansey
+|-start|p1a: Magneton|Mimic|Soft-Boiled
+|move|p2a: Chansey|Toxic|p1a: Magneton
+|-status|p1a: Magneton|tox
+|
+|turn|28
+|c|★Disaster Area|x_x
+|
+|switch|p1a: Jynx|Jynx|12\/333
+|switch|p2a: Nidoqueen|Nidoqueen|333\/383
+|
+|turn|29
+|
+|switch|p2a: Chansey|Chansey|653\/703 par
+|move|p1a: Jynx|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|528\/703 par
+|
+|turn|30
+|
+|switch|p1a: Hypno|Hypno|373\/373 slp
+|move|p2a: Chansey|Ice Beam|p1a: Hypno
+|-damage|p1a: Hypno|302\/373 slp
+|
+|turn|31
+|
+|switch|p1a: Aerodactyl|Aerodactyl|363\/363
+|switch|p2a: Hypno|Hypno|101\/373
+|
+|turn|32
+|
+|switch|p2a: Nidoqueen|Nidoqueen|333\/383
+|move|p1a: Aerodactyl|Sky Attack|p2a: Nidoqueen|[still]
+|-prepare|p1a: Aerodactyl|Sky Attack|p2a: Nidoqueen
+|-boost|p1a: Aerodactyl|def|1
+|
+|turn|33
+|
+|move|p1a: Aerodactyl|Sky Attack|p2a: Nidoqueen
+|-crit|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|0 fnt
+|faint|p2a: Nidoqueen
+|c|★Disaster Area|X_X
+|c|★Disaster Area|I had toxic
+|c|★Disaster Area|n_n
+|
+|switch|p2a: Golduck|Golduck|363\/363
+|turn|34
+|
+|move|p1a: Aerodactyl|Rock Slide|p2a: Golduck
+|-damage|p2a: Golduck|238\/363
+|move|p2a: Golduck|Toxic|p1a: Aerodactyl
+|-status|p1a: Aerodactyl|tox
+|
+|turn|35
+|
+|move|p1a: Aerodactyl|Rock Slide|p2a: Golduck
+|-damage|p2a: Golduck|119\/363
+|-damage|p1a: Aerodactyl|341\/363 tox|[from] tox|[of] p2a: Golduck
+|move|p2a: Golduck|Ice Beam|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|158\/363 tox
+|
+|turn|36
+|
+|move|p1a: Aerodactyl|Rock Slide|p2a: Golduck
+|-damage|p2a: Golduck|5\/363
+|-damage|p1a: Aerodactyl|114\/363 tox|[from] tox|[of] p2a: Golduck
+|move|p2a: Golduck|Ice Beam|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|0 fnt
+|faint|p1a: Aerodactyl
+|
+|switch|p1a: Golbat|Golbat|219\/373
+|turn|37
+|
+|move|p1a: Golbat|Acid|p2a: Golduck
+|-resisted|p2a: Golduck
+|-damage|p2a: Golduck|0 fnt
+|faint|p2a: Golduck
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|turn|38
+|
+|move|p1a: Golbat|Leech Life|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|197\/393
+|-heal|p1a: Golbat|373\/373|[from] drain|[of] p2a: Exeggutor
+|move|p2a: Exeggutor|Psychic|p1a: Golbat
+|-supereffective|p1a: Golbat
+|-damage|p1a: Golbat|107\/373
+|
+|turn|39
+|
+|move|p1a: Golbat|Leech Life|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|-heal|p1a: Golbat|304\/373|[from] drain|[of] p2a: Exeggutor
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Hypno|Hypno|101\/373
+|turn|40
+|c|★Disaster Area|x_x gg
+|
+|move|p1a: Golbat|Leech Life|p2a: Hypno
+|-crit|p2a: Hypno
+|-supereffective|p2a: Hypno
+|-damage|p2a: Hypno|0 fnt
+|-heal|p1a: Golbat|373\/373|[from] drain|[of] p2a: Hypno
+|faint|p2a: Hypno
+|
+|switch|p2a: Chansey|Chansey|528\/703 par
+|turn|41
+|
+|move|p1a: Golbat|Acid|p2a: Chansey
+|-damage|p2a: Chansey|309\/703 par
+|move|p2a: Chansey|Ice Beam|p1a: Golbat
+|-supereffective|p1a: Golbat
+|-damage|p1a: Golbat|184\/373
+|
+|turn|42
+|
+|move|p1a: Golbat|Leech Life|p2a: Chansey
+|-damage|p2a: Chansey|193\/703 par
+|-heal|p1a: Golbat|300\/373|[from] drain|[of] p2a: Chansey
+|cant|p2a: Chansey|par
+|
+|turn|43
+|
+|move|p1a: Golbat|Acid|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|win|KristophV
+|c|★KristophV|gg, weird match
+|c|★Disaster Area|yeah
+|c|★Disaster Area|x_x
+|c|★Disaster Area|that crit on queen
+|c|★Disaster Area|fucked me
+|c|★Disaster Area|golbat was a monster tho
+|c|★Disaster Area|lmao
+|c|★KristophV|yeah golbat got to do stuff but the nidoqueen thing was killer
+|c|★Disaster Area|yeah
+|c|★Disaster Area|zapper was my flying resist but I had to let it sleep

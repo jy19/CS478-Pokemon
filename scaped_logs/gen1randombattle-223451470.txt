@@ -1,0 +1,240 @@
+﻿|join|PtMarc
+|join|gen1masterrony
+|player|p1|PtMarc|1
+|player|p2|gen1masterrony|265
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Grimer|Grimer, L96|348\/348
+|switch|p2a: Dewgong|Dewgong, L85|327\/327
+|turn|1
+|
+|move|p2a: Dewgong|Body Slam|p1a: Grimer
+|-damage|p1a: Grimer|288\/348
+|move|p1a: Grimer|Sludge|p2a: Dewgong
+|-damage|p2a: Dewgong|240\/327
+|
+|turn|2
+|
+|move|p2a: Dewgong|Blizzard|p1a: Grimer|[miss]
+|-miss|p2a: Dewgong
+|move|p1a: Grimer|Sludge|p2a: Dewgong
+|-damage|p2a: Dewgong|160\/327
+|
+|turn|3
+|
+|move|p2a: Dewgong|Blizzard|p1a: Grimer
+|-damage|p1a: Grimer|115\/348
+|move|p1a: Grimer|Sludge|p2a: Dewgong
+|-damage|p2a: Dewgong|84\/327
+|-status|p2a: Dewgong|psn
+|
+|turn|4
+|
+|move|p2a: Dewgong|Blizzard|p1a: Grimer|[miss]
+|-miss|p2a: Dewgong
+|-damage|p2a: Dewgong|64\/327 psn|[from] psn|[of] p1a: Grimer
+|move|p1a: Grimer|Sludge|p2a: Dewgong
+|-damage|p2a: Dewgong|0 fnt
+|faint|p2a: Dewgong
+|
+|switch|p2a: Vaporeon|Vaporeon, L85|395\/395
+|turn|5
+|
+|move|p2a: Vaporeon|Blizzard|p1a: Grimer
+|-damage|p1a: Grimer|0 fnt
+|faint|p1a: Grimer
+|
+|switch|p1a: Jynx|Jynx, L79|265\/265
+|turn|6
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp
+|cant|p2a: Vaporeon|slp
+|
+|turn|7
+|
+|switch|p2a: Wigglytuff|Wigglytuff, L85|412\/412
+|move|p1a: Jynx|Psychic|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|296\/412
+|
+|turn|8
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: Wigglytuff
+|-message|Sleep Clause Mod activated.
+|move|p2a: Wigglytuff|Body Slam|p1a: Jynx
+|-damage|p1a: Jynx|144\/265
+|
+|turn|9
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: Wigglytuff
+|-message|Sleep Clause Mod activated.
+|move|p2a: Wigglytuff|Body Slam|p1a: Jynx
+|-damage|p1a: Jynx|23\/265
+|
+|turn|10
+|
+|move|p1a: Jynx|Blizzard|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|148\/412
+|move|p2a: Wigglytuff|Body Slam|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|
+|switch|p1a: Mew|Mew, L74|300\/300
+|turn|11
+|
+|move|p1a: Mew|Thunderbolt|p2a: Wigglytuff
+|-crit|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|15\/412
+|move|p2a: Wigglytuff|Body Slam|p1a: Mew
+|-damage|p1a: Mew|225\/300
+|
+|turn|12
+|
+|move|p1a: Mew|Thunderbolt|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|0 fnt
+|faint|p2a: Wigglytuff
+|
+|switch|p2a: Pinsir|Pinsir, L85|284\/284
+|turn|13
+|
+|move|p2a: Pinsir|Swords Dance|p2a: Pinsir
+|-boost|p2a: Pinsir|atk|2
+|move|p1a: Mew|Thunderbolt|p2a: Pinsir
+|-crit|p2a: Pinsir
+|-damage|p2a: Pinsir|159\/284
+|
+|turn|14
+|
+|move|p2a: Pinsir|Body Slam|p1a: Mew
+|-crit|p1a: Mew
+|-damage|p1a: Mew|75\/300
+|-status|p1a: Mew|par
+|move|p1a: Mew|Explosion|p2a: Pinsir
+|-damage|p2a: Pinsir|2\/284
+|faint|p1a: Mew
+|
+|switch|p1a: Metapod|Metapod, L99|300\/300
+|turn|15
+|
+|move|p2a: Pinsir|Hyper Beam|p1a: Metapod
+|-damage|p1a: Metapod|2\/300
+|move|p1a: Metapod|Tackle|p2a: Pinsir
+|-damage|p2a: Pinsir|0 fnt
+|faint|p2a: Pinsir
+|
+|switch|p2a: Vaporeon|Vaporeon, L85|395\/395 slp
+|turn|16
+|
+|switch|p1a: Koffing|Koffing, L96|272\/272
+|cant|p2a: Vaporeon|slp
+|
+|turn|17
+|
+|cant|p2a: Vaporeon|slp
+|move|p1a: Koffing|Thunder|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|250\/395 slp
+|
+|turn|18
+|
+|cant|p2a: Vaporeon|slp
+|move|p1a: Koffing|Thunder|p2a: Vaporeon|[miss]
+|-miss|p1a: Koffing
+|
+|turn|19
+|
+|cant|p2a: Vaporeon|slp
+|move|p1a: Koffing|Thunder|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|112\/395 slp
+|
+|turn|20
+|
+|switch|p2a: Flareon|Flareon, L85|284\/284
+|move|p1a: Koffing|Thunder|p2a: Flareon
+|-damage|p2a: Flareon|218\/284
+|
+|turn|21
+|
+|switch|p2a: Vaporeon|Vaporeon, L85|112\/395 slp
+|move|p1a: Koffing|Sludge|p2a: Vaporeon
+|-damage|p2a: Vaporeon|30\/395 slp
+|
+|turn|22
+|
+|cant|p2a: Vaporeon|slp
+|-curestatus|p2a: Vaporeon|slp
+|move|p1a: Koffing|Sludge|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|faint|p2a: Vaporeon
+|
+|switch|p2a: Flareon|Flareon, L85|218\/284
+|turn|23
+|
+|move|p2a: Flareon|Fire Blast|p1a: Koffing
+|-damage|p1a: Koffing|126\/272
+|move|p1a: Koffing|Sludge|p2a: Flareon
+|-damage|p2a: Flareon|134\/284
+|
+|turn|24
+|
+|move|p2a: Flareon|Fire Blast|p1a: Koffing
+|-damage|p1a: Koffing|0 fnt
+|faint|p1a: Koffing
+|
+|switch|p1a: Golem|Golem, L79|288\/288
+|turn|25
+|
+|move|p2a: Flareon|Fire Blast|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|195\/288
+|move|p1a: Golem|Earthquake|p2a: Flareon
+|-supereffective|p2a: Flareon
+|-damage|p2a: Flareon|0 fnt
+|faint|p2a: Flareon
+|
+|switch|p2a: Ninetales|Ninetales, L85|298\/298
+|turn|26
+|
+|move|p2a: Ninetales|Fire Blast|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|108\/288
+|-status|p1a: Golem|brn
+|move|p1a: Golem|Earthquake|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|194\/298
+|-damage|p1a: Golem|90\/288 brn|[from] brn|[of] p2a: Ninetales
+|
+|turn|27
+|
+|move|p2a: Ninetales|Fire Blast|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|0 fnt
+|faint|p1a: Golem
+|c|★PtMarc|gg
+|
+|switch|p1a: Metapod|Metapod, L99|2\/300
+|turn|28
+|c|★gen1masterrony|bg
+|c|★gen1masterrony|bg
+|c|★gen1masterrony|BG
+|c|★PtMarc|em ok
+|
+|move|p2a: Ninetales|Body Slam|p1a: Metapod
+|-damage|p1a: Metapod|0 fnt
+|faint|p1a: Metapod
+|
+|win|gen1masterrony
+|raw|Ladder updating...
+|raw|PtMarc's rating: 1131 &rarr; <strong>1106<\/strong><br \/>(-25 for losing)
+|raw|gen1masterrony's rating: 1138 &rarr; <strong>1162<\/strong><br \/>(+24 for winning)
+|c|★gen1masterrony|LOSER
+|leave|PtMarc
+|player|p1

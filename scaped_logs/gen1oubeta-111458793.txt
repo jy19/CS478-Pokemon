@@ -1,0 +1,376 @@
+﻿|join|SonicJaxx
+|join|kid gf lol
+|player|p1|SonicJaxx|80
+|player|p2|kid gf lol|168
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|switch|p1a: Psychedal|Alakazam|313\/313
+|switch|p2a: Jynx Lead|Jynx|333\/333
+|turn|1
+|
+|move|p1a: Psychedal|Thunder Wave|p2a: Jynx Lead
+|-status|p2a: Jynx Lead|par
+|move|p2a: Jynx Lead|Lovely Kiss|p1a: Psychedal
+|-status|p1a: Psychedal|slp
+|
+|turn|2
+|
+|switch|p1a: Tigerboy|Snorlax|523\/523
+|move|p2a: Jynx Lead|Reflect|p2a: Jynx Lead
+|
+|turn|3
+|
+|move|p1a: Tigerboy|Body Slam|p2a: Jynx Lead
+|-damage|p2a: Jynx Lead|241\/333 par
+|move|p2a: Jynx Lead|Blizzard|p1a: Tigerboy
+|-damage|p1a: Tigerboy|332\/523
+|
+|turn|4
+|
+|move|p1a: Tigerboy|Self-Destruct|p2a: Jynx Lead
+|-damage|p2a: Jynx Lead|0 fnt
+|faint|p2a: Jynx Lead
+|faint|p1a: Tigerboy
+|join|Gaftonochec
+|
+|switch|p2a: GhostInaShell|Cloyster|303\/303
+|switch|p1a: Eggsellent|Exeggutor|393\/393
+|turn|5
+|
+|move|p2a: GhostInaShell|Clamp|p1a: Eggsellent|[miss]
+|-miss|p2a: GhostInaShell
+|move|p1a: Eggsellent|Sleep Powder|p2a: GhostInaShell
+|-status|p2a: GhostInaShell|slp
+|
+|turn|6
+|
+|switch|p2a: Egg Kangaroo|Chansey|703\/703
+|move|p1a: Eggsellent|Psychic|p2a: Egg Kangaroo
+|-damage|p2a: Egg Kangaroo|585\/703
+|-unboost|p2a: Egg Kangaroo|spd|1
+|-unboost|p2a: Egg Kangaroo|spa|1
+|
+|turn|7
+|
+|switch|p2a: Result of Incest|Exeggutor|393\/393
+|move|p1a: Eggsellent|Psychic|p2a: Result of Incest
+|-resisted|p2a: Result of Incest
+|-damage|p2a: Result of Incest|343\/393
+|
+|turn|8
+|
+|move|p1a: Eggsellent|Psychic|p2a: Result of Incest
+|-resisted|p2a: Result of Incest
+|-damage|p2a: Result of Incest|287\/393
+|move|p2a: Result of Incest|Psychic|p1a: Eggsellent
+|-resisted|p1a: Eggsellent
+|-damage|p1a: Eggsellent|338\/393
+|
+|turn|9
+|
+|move|p2a: Result of Incest|Psychic|p1a: Eggsellent
+|-resisted|p1a: Eggsellent
+|-damage|p1a: Eggsellent|284\/393
+|move|p1a: Eggsellent|Psychic|p2a: Result of Incest
+|-resisted|p2a: Result of Incest
+|-damage|p2a: Result of Incest|236\/393
+|-unboost|p2a: Result of Incest|spd|1
+|-unboost|p2a: Result of Incest|spa|1
+|
+|turn|10
+|
+|move|p2a: Result of Incest|Explosion|p1a: Eggsellent
+|-damage|p1a: Eggsellent|0 fnt
+|faint|p1a: Eggsellent
+|faint|p2a: Result of Incest
+|
+|switch|p1a: Psychedal|Alakazam|313\/313 slp
+|switch|p2a: Egg Kangaroo|Chansey|585\/703
+|turn|11
+|
+|switch|p2a: Badluck Brian|Dragonite|385\/385
+|cant|p1a: Psychedal|slp
+|-curestatus|p1a: Psychedal|slp
+|
+|turn|12
+|
+|switch|p2a: Egg Kangaroo|Chansey|585\/703
+|move|p1a: Psychedal|Thunder Wave|p2a: Egg Kangaroo
+|-status|p2a: Egg Kangaroo|par
+|
+|turn|13
+|
+|move|p1a: Psychedal|Psychic|p2a: Egg Kangaroo
+|-crit|p2a: Egg Kangaroo
+|-damage|p2a: Egg Kangaroo|345\/703 par
+|move|p2a: Egg Kangaroo|Thunder Wave|p1a: Psychedal
+|-status|p1a: Psychedal|par
+|
+|turn|14
+|
+|move|p1a: Psychedal|Psychic|p2a: Egg Kangaroo
+|-damage|p2a: Egg Kangaroo|224\/703 par
+|cant|p2a: Egg Kangaroo|par
+|
+|turn|15
+|
+|switch|p1a: Jol|Golem|363\/363
+|move|p2a: Egg Kangaroo|Soft-Boiled|p2a: Egg Kangaroo
+|-heal|p2a: Egg Kangaroo|575\/703 par
+|
+|turn|16
+|
+|move|p1a: Jol|Explosion|p2a: Egg Kangaroo
+|-damage|p2a: Egg Kangaroo|0 fnt
+|faint|p2a: Egg Kangaroo
+|faint|p1a: Jol
+|
+|switch|p2a: Badluck Brian|Dragonite|385\/385
+|switch|p1a: Shell|Chansey|703\/703
+|turn|17
+|leave|Gaftonochec
+|
+|move|p2a: Badluck Brian|Wrap|p1a: Shell
+|-damage|p1a: Shell|660\/703
+|-activate|p1a: Shell|move: Wrap|[of] p2a: Badluck Brian
+|cant|p1a: Shell|partiallytrapped
+|
+|turn|18
+|
+|switch|p1a: Red|Tauros|353\/353
+|move|p2a: Badluck Brian|Wrap|p1a: Red
+|-damage|p1a: Red|336\/353
+|-activate|p1a: Red|move: Wrap|[of] p2a: Badluck Brian
+|
+|turn|19
+|
+|switch|p1a: Psychedal|Alakazam|313\/313 par
+|move|p2a: Badluck Brian|Wrap|p1a: Psychedal
+|-damage|p1a: Psychedal|290\/313 par
+|-activate|p1a: Psychedal|move: Wrap|[of] p2a: Badluck Brian
+|
+|turn|20
+|
+|switch|p1a: Shell|Chansey|660\/703
+|move|p2a: Badluck Brian|Wrap|p1a: Shell
+|-damage|p1a: Shell|617\/703
+|-activate|p1a: Shell|move: Wrap|[of] p2a: Badluck Brian
+|
+|turn|21
+|
+|switch|p1a: Psychedal|Alakazam|290\/313 par
+|move|p2a: Badluck Brian|Wrap|p1a: Psychedal
+|-damage|p1a: Psychedal|264\/313 par
+|-activate|p1a: Psychedal|move: Wrap|[of] p2a: Badluck Brian
+|
+|turn|22
+|
+|switch|p1a: Red|Tauros|336\/353
+|move|p2a: Badluck Brian|Wrap|p1a: Red
+|-crit|p1a: Red
+|-damage|p1a: Red|301\/353
+|-activate|p1a: Red|move: Wrap|[of] p2a: Badluck Brian
+|
+|turn|23
+|join|poejas
+|
+|switch|p1a: Shell|Chansey|617\/703
+|move|p2a: Badluck Brian|Wrap|p1a: Shell
+|-crit|p1a: Shell
+|-damage|p1a: Shell|538\/703
+|-activate|p1a: Shell|move: Wrap|[of] p2a: Badluck Brian
+|
+|turn|24
+|
+|switch|p1a: Red|Tauros|301\/353
+|move|p2a: Badluck Brian|Wrap|p1a: Red
+|-damage|p1a: Red|285\/353
+|-activate|p1a: Red|move: Wrap|[of] p2a: Badluck Brian
+|
+|turn|25
+|
+|switch|p1a: Shell|Chansey|538\/703
+|move|p2a: Badluck Brian|Wrap|p1a: Shell
+|-damage|p1a: Shell|495\/703
+|-activate|p1a: Shell|move: Wrap|[of] p2a: Badluck Brian
+|
+|turn|26
+|
+|switch|p1a: Red|Tauros|285\/353
+|move|p2a: Badluck Brian|Wrap|p1a: Red
+|-damage|p1a: Red|268\/353
+|-activate|p1a: Red|move: Wrap|[of] p2a: Badluck Brian
+|
+|turn|27
+|
+|switch|p1a: Shell|Chansey|495\/703
+|move|p2a: Badluck Brian|Wrap|p1a: Shell
+|-damage|p1a: Shell|453\/703
+|-activate|p1a: Shell|move: Wrap|[of] p2a: Badluck Brian
+|
+|turn|28
+|
+|switch|p1a: Red|Tauros|268\/353
+|move|p2a: Badluck Brian|Wrap|p1a: Red
+|-damage|p1a: Red|253\/353
+|-activate|p1a: Red|move: Wrap|[of] p2a: Badluck Brian
+|
+|turn|29
+|
+|cant|p1a: Red|partiallytrapped
+|move|p2a: Badluck Brian|Wrap|p1a: Red
+|-damage|p1a: Red|210\/353
+|
+|turn|30
+|
+|cant|p1a: Red|partiallytrapped
+|move|p2a: Badluck Brian|Wrap|p1a: Red
+|-damage|p1a: Red|167\/353
+|
+|turn|31
+|
+|cant|p1a: Red|partiallytrapped
+|move|p2a: Badluck Brian|Wrap|p1a: Red
+|-damage|p1a: Red|124\/353
+|
+|turn|32
+|
+|cant|p1a: Red|partiallytrapped
+|move|p2a: Badluck Brian|Wrap|p1a: Red
+|-damage|p1a: Red|81\/353
+|
+|-end|p1a: Red|Wrap|[partiallytrapped]
+|turn|33
+|
+|move|p1a: Red|Blizzard|p2a: Badluck Brian
+|-supereffective|p2a: Badluck Brian
+|-damage|p2a: Badluck Brian|87\/385
+|move|p2a: Badluck Brian|Body Slam|p1a: Red
+|-crit|p1a: Red
+|-damage|p1a: Red|0 fnt
+|faint|p1a: Red
+|
+|
+|switch|p1a: Psychedal|Alakazam|264\/313 par
+|turn|34
+|
+|move|p2a: Badluck Brian|Wrap|p1a: Psychedal
+|-damage|p1a: Psychedal|240\/313 par
+|-activate|p1a: Psychedal|move: Wrap|[of] p2a: Badluck Brian
+|cant|p1a: Psychedal|partiallytrapped
+|
+|turn|35
+|
+|move|p2a: Badluck Brian|Wrap|p1a: Psychedal
+|-damage|p1a: Psychedal|216\/313 par
+|cant|p1a: Psychedal|partiallytrapped
+|
+|turn|36
+|
+|move|p2a: Badluck Brian|Wrap|p1a: Psychedal
+|-damage|p1a: Psychedal|192\/313 par
+|cant|p1a: Psychedal|partiallytrapped
+|
+|turn|37
+|
+|move|p2a: Badluck Brian|Wrap|p1a: Psychedal
+|-damage|p1a: Psychedal|168\/313 par
+|cant|p1a: Psychedal|partiallytrapped
+|
+|turn|38
+|
+|move|p2a: Badluck Brian|Wrap|p1a: Psychedal
+|-damage|p1a: Psychedal|144\/313 par
+|cant|p1a: Psychedal|partiallytrapped
+|
+|-end|p1a: Psychedal|Wrap|[partiallytrapped]
+|turn|39
+|
+|move|p2a: Badluck Brian|Wrap|p1a: Psychedal
+|-crit|p1a: Psychedal
+|-damage|p1a: Psychedal|95\/313 par
+|-activate|p1a: Psychedal|move: Wrap|[of] p2a: Badluck Brian
+|cant|p1a: Psychedal|partiallytrapped
+|
+|turn|40
+|
+|switch|p1a: Shell|Chansey|453\/703
+|move|p2a: Badluck Brian|Wrap|p1a: Shell
+|-damage|p1a: Shell|410\/703
+|-activate|p1a: Shell|move: Wrap|[of] p2a: Badluck Brian
+|
+|turn|41
+|
+|move|p2a: Badluck Brian|Wrap|p1a: Shell
+|-damage|p1a: Shell|361\/703
+|cant|p1a: Shell|partiallytrapped
+|
+|turn|42
+|
+|move|p2a: Badluck Brian|Wrap|p1a: Shell
+|-damage|p1a: Shell|312\/703
+|cant|p1a: Shell|partiallytrapped
+|
+|-end|p1a: Shell|Wrap|[partiallytrapped]
+|turn|43
+|
+|move|p2a: Badluck Brian|Wrap|p1a: Shell
+|-damage|p1a: Shell|270\/703
+|-activate|p1a: Shell|move: Wrap|[of] p2a: Badluck Brian
+|cant|p1a: Shell|partiallytrapped
+|
+|turn|44
+|
+|move|p2a: Badluck Brian|Wrap|p1a: Shell
+|-damage|p1a: Shell|228\/703
+|cant|p1a: Shell|partiallytrapped
+|
+|-end|p1a: Shell|Wrap|[partiallytrapped]
+|turn|45
+|
+|move|p2a: Badluck Brian|Wrap|p1a: Shell
+|-damage|p1a: Shell|189\/703
+|-activate|p1a: Shell|move: Wrap|[of] p2a: Badluck Brian
+|cant|p1a: Shell|partiallytrapped
+|
+|turn|46
+|
+|move|p2a: Badluck Brian|Wrap|p1a: Shell
+|-damage|p1a: Shell|150\/703
+|cant|p1a: Shell|partiallytrapped
+|
+|-end|p1a: Shell|Wrap|[partiallytrapped]
+|turn|47
+|
+|move|p2a: Badluck Brian|Body Slam|p1a: Shell
+|-damage|p1a: Shell|0 fnt
+|faint|p1a: Shell
+|
+|
+|switch|p1a: Psychedal|Alakazam|95\/313 par
+|turn|48
+|
+|move|p2a: Badluck Brian|Body Slam|p1a: Psychedal
+|-damage|p1a: Psychedal|0 fnt
+|faint|p1a: Psychedal
+|
+|win|kid gf lol
+|raw|Ladder updating...
+|raw|SonicJaxx's rating: 1384 &rarr; <strong>1364<\/strong><br \/>(-20 for losing)
+|raw|kid gf lol's rating: 1376 &rarr; <strong>1397<\/strong><br \/>(+21 for winning)
+|leave|kid gf lol
+|player|p2
+|leave|poejas
+|leave|SonicJaxx
+|player|p1

@@ -1,0 +1,222 @@
+﻿|join|MALESANI
+|join|am14fg
+|player|p1|MALESANI|238
+|player|p2|am14fg|266
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|24964,10745,14802,20424
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Grimer|Grimer, L96|348\/348
+|switch|p2a: Krabby|Krabby, L96|252\/252
+|turn|1
+|choice|move 2|move 2
+|
+|move|p2a: Krabby|Crabhammer|p1a: Grimer
+|-crit|p1a: Grimer
+|-damage|p1a: Grimer|176\/348
+|move|p1a: Grimer|Mega Drain|p2a: Krabby
+|-supereffective|p2a: Krabby
+|-damage|p2a: Krabby|176\/252
+|-heal|p1a: Grimer|214\/348|[from] drain|[of] p2a: Krabby
+|
+|turn|2
+|choice|move 2|move 2
+|
+|move|p2a: Krabby|Crabhammer|p1a: Grimer
+|-crit|p1a: Grimer
+|-damage|p1a: Grimer|62\/348
+|move|p1a: Grimer|Mega Drain|p2a: Krabby
+|-crit|p2a: Krabby
+|-supereffective|p2a: Krabby
+|-damage|p2a: Krabby|35\/252
+|-heal|p1a: Grimer|132\/348|[from] drain|[of] p2a: Krabby
+|
+|turn|3
+|choice|move 1|move 2
+|
+|move|p2a: Krabby|Crabhammer|p1a: Grimer
+|-crit|p1a: Grimer
+|-damage|p1a: Grimer|0 fnt
+|faint|p1a: Grimer
+|choice|switch 6|
+|
+|switch|p1a: Alakazam|Alakazam, L79|249\/249
+|turn|4
+|choice|move 2|move 3
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Krabby
+|-damage|p2a: Krabby|0 fnt
+|faint|p2a: Krabby
+|choice||switch 6
+|
+|switch|p2a: Marowak|Marowak, L90|291\/291
+|turn|5
+|choice|move 1|move 4
+|
+|move|p1a: Alakazam|Psychic|p2a: Marowak
+|-crit|p2a: Marowak
+|-damage|p2a: Marowak|26\/291
+|move|p2a: Marowak|Earthquake|p1a: Alakazam
+|-damage|p1a: Alakazam|84\/249
+|
+|turn|6
+|choice|switch 5|move 4
+|
+|switch|p1a: Pinsir|Pinsir, L85|284\/284
+|move|p2a: Marowak|Earthquake|p1a: Pinsir
+|-crit|p1a: Pinsir
+|-resisted|p1a: Pinsir
+|-damage|p1a: Pinsir|196\/284
+|
+|turn|7
+|choice|move 2|move 4
+|
+|move|p1a: Pinsir|Body Slam|p2a: Marowak
+|-crit|p2a: Marowak
+|-damage|p2a: Marowak|0 fnt
+|faint|p2a: Marowak
+|choice||switch 5
+|
+|switch|p2a: Machoke|Machoke, L85|310\/310
+|turn|8
+|choice|move 2|move 1
+|
+|move|p1a: Pinsir|Body Slam|p2a: Machoke
+|-damage|p2a: Machoke|223\/310
+|-status|p2a: Machoke|par
+|move|p2a: Machoke|Body Slam|p1a: Pinsir
+|-damage|p1a: Pinsir|142\/284
+|
+|turn|9
+|choice|move 4|move 1
+|
+|move|p1a: Pinsir|Swords Dance|p1a: Pinsir
+|-boost|p1a: Pinsir|atk|2
+|move|p2a: Machoke|Body Slam|p1a: Pinsir
+|-damage|p1a: Pinsir|81\/284
+|
+|turn|10
+|choice|move 2|move 4
+|
+|move|p1a: Pinsir|Body Slam|p2a: Machoke
+|-damage|p2a: Machoke|53\/310 par
+|move|p2a: Machoke|Counter|p1a: Pinsir
+|-damage|p1a: Pinsir|0 fnt
+|faint|p1a: Pinsir
+|choice|switch 4|
+|
+|switch|p1a: Kabutops|Kabutops, L85|276\/276
+|turn|11
+|choice|move 1|move 2
+|
+|move|p1a: Kabutops|Surf|p2a: Machoke
+|-damage|p2a: Machoke|0 fnt
+|faint|p2a: Machoke
+|choice||switch 4
+|
+|switch|p2a: Mewtwo|Mewtwo, L68|285\/285
+|turn|12
+|choice|move 3|move 2
+|
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|move|p1a: Kabutops|Body Slam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|204\/285
+|
+|turn|13
+|choice|move 3|move 1
+|
+|move|p2a: Mewtwo|Psychic|p1a: Kabutops
+|-crit|p1a: Kabutops
+|-damage|p1a: Kabutops|84\/276
+|move|p1a: Kabutops|Body Slam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|123\/285
+|
+|turn|14
+|choice|move 4|move 1
+|
+|move|p2a: Mewtwo|Psychic|p1a: Kabutops
+|-crit|p1a: Kabutops
+|-damage|p1a: Kabutops|0 fnt
+|faint|p1a: Kabutops
+|choice|switch 2|
+|
+|switch|p1a: Scyther|Scyther, L90|309\/309
+|turn|15
+|choice|move 1|move 3
+|
+|move|p1a: Scyther|Slash|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|0 fnt
+|faint|p2a: Mewtwo
+|choice||switch 2
+|
+|switch|p2a: Squirtle|Squirtle, L96|279\/279
+|turn|16
+|choice|move 1|move 1
+|
+|move|p1a: Scyther|Slash|p2a: Squirtle
+|-crit|p2a: Squirtle
+|-damage|p2a: Squirtle|150\/279
+|move|p2a: Squirtle|Blizzard|p1a: Scyther
+|-supereffective|p1a: Scyther
+|-damage|p1a: Scyther|136\/309
+|
+|turn|17
+|choice|move 4|move 1
+|
+|move|p1a: Scyther|Hyper Beam|p2a: Squirtle
+|-damage|p2a: Squirtle|11\/279
+|move|p2a: Squirtle|Blizzard|p1a: Scyther
+|-supereffective|p1a: Scyther
+|-damage|p1a: Scyther|0 fnt
+|faint|p1a: Scyther
+|choice|switch 5|
+|
+|switch|p1a: Alakazam|Alakazam, L79|84\/249
+|turn|18
+|choice|move 2|move 3
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Squirtle
+|-damage|p2a: Squirtle|0 fnt
+|faint|p2a: Squirtle
+|choice||switch 3
+|
+|switch|p2a: Gloom|Gloom, L90|291\/291
+|turn|19
+|choice|switch 3|move 4
+|
+|switch|p1a: Graveler|Graveler, L85|267\/267
+|move|p2a: Gloom|Double-Edge|p1a: Graveler
+|-resisted|p1a: Graveler
+|-damage|p1a: Graveler|239\/267
+|-damage|p2a: Gloom|284\/291|[from] recoil|[of] p1a: Graveler
+|
+|turn|20
+|choice|move 4|move 3
+|
+|move|p2a: Gloom|Mega Drain|p1a: Graveler
+|-supereffective|p1a: Graveler
+|-damage|p1a: Graveler|0 fnt
+|-heal|p2a: Gloom|291\/291|[from] drain|[of] p1a: Graveler
+|faint|p1a: Graveler
+|choice|switch 3|
+|
+|switch|p1a: Alakazam|Alakazam, L79|84\/249
+|turn|21
+|choice|move 1|move 1
+|
+|move|p1a: Alakazam|Psychic|p2a: Gloom
+|-crit|p2a: Gloom
+|-supereffective|p2a: Gloom
+|-damage|p2a: Gloom|0 fnt
+|faint|p2a: Gloom
+|
+|win|MALESANI

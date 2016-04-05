@@ -1,0 +1,415 @@
+﻿|join|greg0
+|join|Zorage
+|player|p1|greg0|265
+|player|p2|Zorage|166
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Dragonite|Dragonite, L85|328\/328
+|switch|p2a: Goldeen|Goldeen, L96|281\/281
+|turn|1
+|
+|switch|p2a: Parasect|Parasect, L90|291\/291
+|move|p1a: Dragonite|Hyper Beam|p2a: Parasect|[miss]
+|-miss|p1a: Dragonite
+|
+|turn|2
+|
+|move|p1a: Dragonite|Blizzard|p2a: Parasect
+|-crit|p2a: Parasect
+|-supereffective|p2a: Parasect
+|-damage|p2a: Parasect|0 fnt
+|faint|p2a: Parasect
+|
+|switch|p2a: Porygon|Porygon, L85|284\/284
+|turn|3
+|
+|move|p1a: Dragonite|Blizzard|p2a: Porygon
+|-damage|p2a: Porygon|189\/284
+|move|p2a: Porygon|Ice Beam|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|115\/328
+|
+|turn|4
+|
+|switch|p1a: Seaking|Seaking, L90|327\/327
+|move|p2a: Porygon|Ice Beam|p1a: Seaking
+|-resisted|p1a: Seaking
+|-damage|p1a: Seaking|297\/327
+|
+|turn|5
+|
+|move|p1a: Seaking|Blizzard|p2a: Porygon
+|-damage|p2a: Porygon|94\/284
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|236\/284
+|
+|turn|6
+|
+|move|p1a: Seaking|Blizzard|p2a: Porygon
+|-damage|p2a: Porygon|148\/284
+|move|p2a: Porygon|Tri Attack|p1a: Seaking
+|-damage|p1a: Seaking|218\/327
+|
+|turn|7
+|
+|move|p1a: Seaking|Blizzard|p2a: Porygon
+|-damage|p2a: Porygon|50\/284
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|192\/284
+|
+|turn|8
+|
+|move|p1a: Seaking|Blizzard|p2a: Porygon
+|-damage|p2a: Porygon|104\/284
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|246\/284
+|
+|turn|9
+|
+|move|p1a: Seaking|Blizzard|p2a: Porygon
+|-damage|p2a: Porygon|154\/284
+|move|p2a: Porygon|Double-Edge|p1a: Seaking
+|-damage|p1a: Seaking|131\/327
+|-damage|p2a: Porygon|133\/284|[from] recoil|[of] p1a: Seaking
+|
+|turn|10
+|
+|move|p1a: Seaking|Blizzard|p2a: Porygon
+|-damage|p2a: Porygon|32\/284
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|174\/284
+|
+|turn|11
+|
+|move|p1a: Seaking|Blizzard|p2a: Porygon
+|-damage|p2a: Porygon|85\/284
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|227\/284
+|
+|turn|12
+|
+|move|p1a: Seaking|Blizzard|p2a: Porygon
+|-damage|p2a: Porygon|129\/284
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|271\/284
+|
+|turn|13
+|
+|move|p1a: Seaking|Surf|p2a: Porygon
+|-damage|p2a: Porygon|159\/284
+|move|p2a: Porygon|Tri Attack|p1a: Seaking
+|-damage|p1a: Seaking|52\/327
+|
+|turn|14
+|
+|move|p1a: Seaking|Hyper Beam|p2a: Porygon
+|-damage|p2a: Porygon|26\/284
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|168\/284
+|
+|turn|15
+|-mustrecharge|p1a: Seaking
+|-mustrecharge|p1a: Seaking
+|
+|cant|p1a: Seaking|recharge
+|move|p2a: Porygon|Tri Attack|p1a: Seaking
+|-damage|p1a: Seaking|0 fnt
+|faint|p1a: Seaking
+|
+|switch|p1a: Lickitung|Lickitung, L90|345\/345
+|turn|16
+|
+|switch|p2a: Tangela|Tangela, L85|284\/284
+|move|p1a: Lickitung|Body Slam|p2a: Tangela
+|-damage|p2a: Tangela|226\/284
+|
+|turn|17
+|
+|move|p2a: Tangela|Sleep Powder|p1a: Lickitung
+|-status|p1a: Lickitung|slp
+|-curestatus|p1a: Lickitung|slp
+|
+|turn|18
+|
+|move|p2a: Tangela|Sleep Powder|p1a: Lickitung
+|-status|p1a: Lickitung|slp
+|-curestatus|p1a: Lickitung|slp
+|
+|turn|19
+|
+|move|p2a: Tangela|Sleep Powder|p1a: Lickitung
+|-status|p1a: Lickitung|slp
+|cant|p1a: Lickitung|slp
+|
+|turn|20
+|
+|switch|p2a: Chansey|Chansey, L79|557\/557
+|cant|p1a: Lickitung|slp
+|
+|turn|21
+|
+|move|p2a: Chansey|Reflect|p2a: Chansey
+|-start|p2a: Chansey|Reflect
+|cant|p1a: Lickitung|slp
+|
+|turn|22
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Lickitung
+|-damage|p1a: Lickitung|276\/345 slp
+|cant|p1a: Lickitung|slp
+|
+|turn|23
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Lickitung
+|-damage|p1a: Lickitung|198\/345 slp
+|cant|p1a: Lickitung|slp
+|
+|turn|24
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Lickitung
+|-damage|p1a: Lickitung|126\/345 slp
+|-curestatus|p1a: Lickitung|slp
+|
+|turn|25
+|
+|move|p1a: Lickitung|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|454\/557
+|move|p2a: Chansey|Counter|p1a: Lickitung
+|-damage|p1a: Lickitung|0 fnt
+|faint|p1a: Lickitung
+|
+|switch|p1a: Metapod|Metapod, L99|300\/300
+|turn|26
+|
+|switch|p2a: Porygon|Porygon, L85|168\/284
+|move|p1a: Metapod|String Shot|p2a: Porygon
+|-unboost|p2a: Porygon|spe|1
+|
+|turn|27
+|
+|move|p1a: Metapod|String Shot|p2a: Porygon
+|-unboost|p2a: Porygon|spe|1
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|284\/284
+|
+|turn|28
+|
+|switch|p2a: Chansey|Chansey, L79|454\/557
+|move|p1a: Metapod|String Shot|p2a: Chansey
+|-unboost|p2a: Chansey|spe|1
+|
+|turn|29
+|
+|move|p1a: Metapod|String Shot|p2a: Chansey
+|-unboost|p2a: Chansey|spe|1
+|move|p2a: Chansey|Reflect|p2a: Chansey
+|-start|p2a: Chansey|Reflect
+|
+|turn|30
+|
+|move|p1a: Metapod|String Shot|p2a: Chansey
+|-unboost|p2a: Chansey|spe|1
+|move|p2a: Chansey|Thunderbolt|p1a: Metapod
+|-damage|p1a: Metapod|200\/300
+|
+|turn|31
+|
+|move|p1a: Metapod|String Shot|p2a: Chansey
+|-unboost|p2a: Chansey|spe|1
+|move|p2a: Chansey|Thunderbolt|p1a: Metapod
+|-damage|p1a: Metapod|109\/300
+|
+|turn|32
+|
+|move|p1a: Metapod|String Shot|p2a: Chansey
+|-unboost|p2a: Chansey|spe|1
+|move|p2a: Chansey|Thunderbolt|p1a: Metapod
+|-damage|p1a: Metapod|18\/300
+|-status|p1a: Metapod|par
+|
+|turn|33
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|557\/557
+|move|p1a: Metapod|String Shot|p2a: Chansey
+|-unboost|p2a: Chansey|spe|1
+|
+|turn|34
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Metapod
+|-damage|p1a: Metapod|0 fnt
+|faint|p1a: Metapod
+|
+|switch|p1a: Dragonite|Dragonite, L85|115\/328
+|turn|35
+|
+|move|p1a: Dragonite|Blizzard|p2a: Chansey|[miss]
+|-miss|p1a: Dragonite
+|move|p2a: Chansey|Thunderbolt|p1a: Dragonite
+|-damage|p1a: Dragonite|55\/328
+|
+|turn|36
+|
+|move|p1a: Dragonite|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|468\/557
+|move|p2a: Chansey|Thunderbolt|p1a: Dragonite
+|-damage|p1a: Dragonite|2\/328
+|
+|turn|37
+|
+|move|p1a: Dragonite|Blizzard|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|297\/557
+|move|p2a: Chansey|Thunderbolt|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|switch|p1a: Muk|Muk, L90|372\/372
+|turn|38
+|
+|move|p1a: Muk|Sludge|p2a: Chansey
+|-damage|p2a: Chansey|179\/557
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|457\/557
+|
+|turn|39
+|
+|move|p1a: Muk|Sludge|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|27\/557
+|move|p2a: Chansey|Thunderbolt|p1a: Muk
+|-damage|p1a: Muk|299\/372
+|
+|turn|40
+|
+|move|p1a: Muk|Mega Drain|p2a: Chansey
+|-damage|p2a: Chansey|3\/557
+|-heal|p1a: Muk|311\/372|[from] drain|[of] p2a: Chansey
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|281\/557
+|
+|turn|41
+|
+|move|p1a: Muk|Sludge|p2a: Chansey
+|-damage|p2a: Chansey|175\/557
+|move|p2a: Chansey|Thunderbolt|p1a: Muk
+|-damage|p1a: Muk|238\/372
+|
+|turn|42
+|
+|move|p1a: Muk|Sludge|p2a: Chansey
+|-damage|p2a: Chansey|59\/557
+|-status|p2a: Chansey|psn
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|337\/557 psn
+|-damage|p2a: Chansey|303\/557 psn|[from] psn
+|
+|turn|43
+|
+|move|p1a: Muk|Sludge|p2a: Chansey
+|-damage|p2a: Chansey|200\/557 psn
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|478\/557 psn
+|-damage|p2a: Chansey|444\/557 psn|[from] psn
+|
+|turn|44
+|
+|move|p1a: Muk|Screech|p2a: Chansey|[miss]
+|-miss|p1a: Muk
+|move|p2a: Chansey|Thunderbolt|p1a: Muk
+|-damage|p1a: Muk|165\/372
+|-damage|p2a: Chansey|410\/557 psn|[from] psn|[of] p1a: Muk
+|
+|turn|45
+|
+|move|p1a: Muk|Screech|p2a: Chansey
+|-unboost|p2a: Chansey|def|2
+|move|p2a: Chansey|Thunderbolt|p1a: Muk
+|-damage|p1a: Muk|95\/372
+|-status|p1a: Muk|par
+|-damage|p2a: Chansey|376\/557 psn|[from] psn|[of] p1a: Muk
+|
+|turn|46
+|
+|move|p1a: Muk|Screech|p2a: Chansey
+|-unboost|p2a: Chansey|def|2
+|move|p2a: Chansey|Thunderbolt|p1a: Muk
+|-damage|p1a: Muk|25\/372 par
+|-damage|p2a: Chansey|342\/557 psn|[from] psn|[of] p1a: Muk
+|
+|turn|47
+|
+|move|p1a: Muk|Sludge|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|switch|p2a: Porygon|Porygon, L85|284\/284
+|turn|48
+|
+|move|p2a: Porygon|Tri Attack|p1a: Muk
+|-damage|p1a: Muk|0 fnt
+|faint|p1a: Muk
+|
+|switch|p1a: Hitmonchan|Hitmonchan, L90|273\/273
+|turn|49
+|
+|move|p1a: Hitmonchan|Body Slam|p2a: Porygon
+|-damage|p2a: Porygon|195\/284
+|move|p2a: Porygon|Ice Beam|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|191\/273
+|
+|turn|50
+|
+|move|p1a: Hitmonchan|Body Slam|p2a: Porygon
+|-damage|p2a: Porygon|108\/284
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|250\/284
+|
+|turn|51
+|
+|move|p1a: Hitmonchan|Body Slam|p2a: Porygon
+|-damage|p2a: Porygon|164\/284
+|move|p2a: Porygon|Ice Beam|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|103\/273
+|
+|turn|52
+|
+|move|p1a: Hitmonchan|Body Slam|p2a: Porygon
+|-damage|p2a: Porygon|86\/284
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|228\/284
+|
+|turn|53
+|
+|move|p1a: Hitmonchan|Body Slam|p2a: Porygon
+|-crit|p2a: Porygon
+|-damage|p2a: Porygon|57\/284
+|move|p2a: Porygon|Ice Beam|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|9\/273
+|
+|turn|54
+|
+|move|p1a: Hitmonchan|Body Slam|p2a: Porygon
+|-damage|p2a: Porygon|0 fnt
+|faint|p2a: Porygon
+|
+|switch|p2a: Horsea|Horsea, L96|252\/252
+|turn|55
+|c|★Zorage|gg
+|
+|move|p1a: Hitmonchan|Body Slam|p2a: Horsea
+|-damage|p2a: Horsea|183\/252
+|move|p2a: Horsea|Surf|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|0 fnt
+|faint|p1a: Hitmonchan
+|
+|win|Zorage
+|raw|greg0's rating: 1213 &rarr; <strong>1189<\/strong><br \/>(-24 for losing)
+|raw|Zorage's rating: 1225 &rarr; <strong>1250<\/strong><br \/>(+25 for winning)

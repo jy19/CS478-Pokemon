@@ -1,0 +1,94 @@
+﻿|j|NOVED
+|j|Lucho1415
+|player|p1|NOVED|182
+|player|p2|Lucho1415|30
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|seed|17543,31253,17888,26582
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Aerodactyl|Aerodactyl|363\/363
+|turn|1
+|choice|move 1|move 1
+|
+|move|p2a: Aerodactyl|Supersonic|p1a: Alakazam|[miss]
+|-miss|p2a: Aerodactyl
+|move|p1a: Alakazam|Thunder Wave|p2a: Aerodactyl
+|-status|p2a: Aerodactyl|par
+|
+|turn|2
+|choice|move 2|move 4
+|
+|move|p1a: Alakazam|Psychic|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|191\/363 par
+|move|p2a: Aerodactyl|Fire Blast|p1a: Alakazam|[miss]
+|-miss|p2a: Aerodactyl
+|
+|turn|3
+|c|★Lucho1415|Failodactyl :P
+|choice|move 2|move 2
+|
+|move|p1a: Alakazam|Psychic|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|faint|p2a: Aerodactyl
+|choice||switch 6
+|
+|switch|p2a: Electrode|Electrode|323\/323
+|turn|4
+|choice|switch 5|move 2
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Electrode|Thunder Wave|p1a: Exeggutor
+|-status|p1a: Exeggutor|par
+|
+|turn|5
+|choice|move 1|move 4
+|
+|move|p2a: Electrode|Light Screen|p2a: Electrode
+|-start|p2a: Electrode|Light Screen
+|move|p1a: Exeggutor|Sleep Powder|p2a: Electrode
+|-status|p2a: Electrode|slp
+|
+|turn|6
+|choice|move 2|switch 4
+|
+|switch|p2a: Blastoise|Blastoise|361\/361
+|move|p1a: Exeggutor|Psychic|p2a: Blastoise
+|-damage|p2a: Blastoise|224\/361
+|
+|turn|7
+|choice|switch 2|move 1
+|
+|switch|p1a: Lapras|Lapras|463\/463
+|move|p2a: Blastoise|Blizzard|p1a: Lapras
+|-resisted|p1a: Lapras
+|-damage|p1a: Lapras|440\/463
+|
+|turn|8
+|choice|move 2|switch 2
+|
+|switch|p2a: Marowak|Marowak|323\/323
+|move|p1a: Lapras|Thunderbolt|p2a: Marowak
+|-immune|p2a: Marowak|[msg]
+|
+|turn|9
+|choice|move 1|move 2
+|
+|move|p1a: Lapras|Blizzard|p2a: Marowak
+|-supereffective|p2a: Marowak
+|-damage|p2a: Marowak|0 fnt
+|faint|p2a: Marowak
+|-message|Lucho1415 forfeited.
+|
+|win|NOVED
+|l|Lucho1415
+|player|p2

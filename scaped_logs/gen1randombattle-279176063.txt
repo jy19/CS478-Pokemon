@@ -1,0 +1,318 @@
+﻿|join|XianJu
+|join|The third word
+|player|p1|XianJu|130
+|player|p2|The third word|165
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Kabutops|Kabutops, L85|276\/276
+|switch|p2a: Goldeen|Goldeen, L96|281\/281
+|turn|1
+|c|★The third word|Hi grunt
+|
+|move|p1a: Kabutops|Body Slam|p2a: Goldeen
+|-damage|p2a: Goldeen|205\/281
+|-status|p2a: Goldeen|par
+|cant|p2a: Goldeen|par
+|
+|turn|2
+|
+|move|p1a: Kabutops|Swords Dance|p1a: Kabutops
+|-boost|p1a: Kabutops|atk|2
+|move|p2a: Goldeen|Supersonic|p1a: Kabutops|[miss]
+|-miss|p2a: Goldeen
+|
+|turn|3
+|
+|move|p1a: Kabutops|Body Slam|p2a: Goldeen
+|-crit|p2a: Goldeen
+|-damage|p2a: Goldeen|69\/281 par
+|cant|p2a: Goldeen|par
+|
+|turn|4
+|
+|move|p1a: Kabutops|Body Slam|p2a: Goldeen
+|-damage|p2a: Goldeen|0 fnt
+|faint|p2a: Goldeen
+|
+|switch|p2a: Mew|Mew, L74|300\/300
+|turn|5
+|
+|move|p2a: Mew|Thunderbolt|p1a: Kabutops
+|-crit|p1a: Kabutops
+|-supereffective|p1a: Kabutops
+|-damage|p1a: Kabutops|51\/276
+|move|p1a: Kabutops|Body Slam|p2a: Mew
+|-crit|p2a: Mew
+|-damage|p2a: Mew|155\/300
+|
+|turn|6
+|
+|switch|p1a: Sandslash|Sandslash, L85|301\/301
+|move|p2a: Mew|Thunderbolt|p1a: Sandslash
+|-immune|p1a: Sandslash|[msg]
+|
+|turn|7
+|
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|300\/300
+|move|p1a: Sandslash|Earthquake|p2a: Mew
+|-damage|p2a: Mew|189\/300
+|
+|turn|8
+|
+|move|p2a: Mew|Swift|p1a: Sandslash
+|-damage|p1a: Sandslash|270\/301
+|move|p1a: Sandslash|Swords Dance|p1a: Sandslash
+|-boost|p1a: Sandslash|atk|2
+|
+|turn|9
+|
+|switch|p2a: Tangela|Tangela, L85|284\/284
+|move|p1a: Sandslash|Earthquake|p2a: Tangela
+|-resisted|p2a: Tangela
+|-damage|p2a: Tangela|198\/284
+|
+|turn|10
+|
+|move|p1a: Sandslash|Body Slam|p2a: Tangela
+|-crit|p2a: Tangela
+|-damage|p2a: Tangela|101\/284
+|move|p2a: Tangela|Mega Drain|p1a: Sandslash
+|-supereffective|p1a: Sandslash
+|-damage|p1a: Sandslash|151\/301
+|-heal|p2a: Tangela|160\/284|[from] drain|[of] p1a: Sandslash
+|
+|turn|11
+|
+|switch|p1a: Weepinbell|Weepinbell, L85|284\/284
+|move|p2a: Tangela|Stun Spore|p1a: Weepinbell|[miss]
+|-miss|p2a: Tangela
+|
+|turn|12
+|
+|move|p2a: Tangela|Stun Spore|p1a: Weepinbell
+|-status|p1a: Weepinbell|par
+|move|p1a: Weepinbell|Toxic|p2a: Tangela|[miss]
+|-miss|p1a: Weepinbell
+|
+|turn|13
+|
+|move|p2a: Tangela|Growth|p2a: Tangela
+|-boost|p2a: Tangela|spa|1
+|-boost|p2a: Tangela|spd|1
+|move|p1a: Weepinbell|Toxic|p2a: Tangela
+|-status|p2a: Tangela|tox
+|
+|turn|14
+|
+|move|p2a: Tangela|Body Slam|p1a: Weepinbell
+|-damage|p1a: Weepinbell|228\/284 par
+|-damage|p2a: Tangela|143\/284 tox|[from] tox|[of] p1a: Weepinbell
+|move|p1a: Weepinbell|Body Slam|p2a: Tangela
+|-damage|p2a: Tangela|92\/284 tox
+|
+|turn|15
+|
+|move|p2a: Tangela|Mega Drain|p1a: Weepinbell
+|-resisted|p1a: Weepinbell
+|-damage|p1a: Weepinbell|213\/284 par
+|-heal|p2a: Tangela|99\/284 tox|[from] drain|[of] p1a: Weepinbell
+|-damage|p2a: Tangela|65\/284 tox|[from] tox|[of] p1a: Weepinbell
+|cant|p1a: Weepinbell|par
+|
+|turn|16
+|
+|move|p2a: Tangela|Body Slam|p1a: Weepinbell
+|-crit|p1a: Weepinbell
+|-damage|p1a: Weepinbell|105\/284 par
+|-damage|p2a: Tangela|14\/284 tox|[from] tox|[of] p1a: Weepinbell
+|move|p1a: Weepinbell|Body Slam|p2a: Tangela
+|-damage|p2a: Tangela|0 fnt
+|faint|p2a: Tangela
+|
+|switch|p2a: Koffing|Koffing, L96|272\/272
+|turn|17
+|
+|move|p2a: Koffing|Fire Blast|p1a: Weepinbell
+|-supereffective|p1a: Weepinbell
+|-damage|p1a: Weepinbell|0 fnt
+|faint|p1a: Weepinbell
+|
+|switch|p1a: Sandslash|Sandslash, L85|151\/301
+|turn|18
+|
+|move|p1a: Sandslash|Earthquake|p2a: Koffing
+|-supereffective|p2a: Koffing
+|-damage|p2a: Koffing|72\/272
+|move|p2a: Koffing|Fire Blast|p1a: Sandslash
+|-damage|p1a: Sandslash|40\/301
+|
+|turn|19
+|
+|move|p1a: Sandslash|Earthquake|p2a: Koffing
+|-supereffective|p2a: Koffing
+|-damage|p2a: Koffing|0 fnt
+|faint|p2a: Koffing
+|
+|switch|p2a: Sandslash|Sandslash, L85|301\/301
+|turn|20
+|
+|move|p2a: Sandslash|Earthquake|p1a: Sandslash
+|-damage|p1a: Sandslash|0 fnt
+|faint|p1a: Sandslash
+|
+|switch|p1a: Kabutops|Kabutops, L85|51\/276
+|turn|21
+|
+|move|p1a: Kabutops|Surf|p2a: Sandslash
+|-supereffective|p2a: Sandslash
+|-damage|p2a: Sandslash|78\/301
+|move|p2a: Sandslash|Hyper Beam|p1a: Kabutops
+|-resisted|p1a: Kabutops
+|-damage|p1a: Kabutops|0 fnt
+|faint|p1a: Kabutops
+|
+|switch|p1a: Starmie|Starmie, L79|257\/257
+|turn|22
+|
+|move|p1a: Starmie|Surf|p2a: Sandslash
+|-supereffective|p2a: Sandslash
+|-damage|p2a: Sandslash|0 fnt
+|faint|p2a: Sandslash
+|
+|switch|p2a: Mew|Mew, L74|189\/300
+|turn|23
+|
+|move|p1a: Starmie|Surf|p2a: Mew
+|-damage|p2a: Mew|92\/300
+|move|p2a: Mew|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|157\/257
+|-status|p1a: Starmie|par
+|
+|turn|24
+|
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|242\/300
+|move|p1a: Starmie|Surf|p2a: Mew
+|-crit|p2a: Mew
+|-damage|p2a: Mew|61\/300
+|
+|turn|25
+|
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|211\/300
+|move|p1a: Starmie|Thunder Wave|p2a: Mew
+|-status|p2a: Mew|par
+|
+|turn|26
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|257\/257 par
+|move|p2a: Mew|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|146\/257 par
+|
+|turn|27
+|
+|move|p1a: Starmie|Surf|p2a: Mew
+|-damage|p2a: Mew|120\/300 par
+|cant|p2a: Mew|par
+|
+|turn|28
+|
+|move|p1a: Starmie|Surf|p2a: Mew
+|-damage|p2a: Mew|31\/300 par
+|move|p2a: Mew|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|41\/257 par
+|
+|turn|29
+|
+|move|p1a: Starmie|Surf|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|switch|p2a: Ninetales|Ninetales, L85|298\/298
+|turn|30
+|
+|move|p2a: Ninetales|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|switch|p1a: Chansey|Chansey, L79|557\/557
+|turn|31
+|
+|move|p2a: Ninetales|Toxic|p1a: Chansey
+|-status|p1a: Chansey|tox
+|move|p1a: Chansey|Counter|p2a: Ninetales
+|-fail|p1a: Chansey
+|-damage|p1a: Chansey|523\/557 tox|[from] tox|[of] p2a: Ninetales
+|
+|turn|32
+|
+|move|p2a: Ninetales|Reflect|p2a: Ninetales
+|-start|p2a: Ninetales|Reflect
+|move|p1a: Chansey|Counter|p2a: Ninetales
+|-fail|p1a: Chansey
+|-damage|p1a: Chansey|455\/557 tox|[from] tox|[of] p2a: Ninetales
+|
+|turn|33
+|
+|move|p2a: Ninetales|Fire Blast|p1a: Chansey
+|-damage|p1a: Chansey|329\/557 tox
+|move|p1a: Chansey|Counter|p2a: Ninetales
+|-fail|p1a: Chansey
+|-damage|p1a: Chansey|227\/557 tox|[from] tox|[of] p2a: Ninetales
+|
+|turn|34
+|c|★The third word|Just no
+|
+|move|p2a: Ninetales|Toxic|p1a: Chansey
+|-fail|p1a: Chansey|tox
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|505\/557 tox
+|-damage|p1a: Chansey|369\/557 tox|[from] psn
+|
+|turn|35
+|
+|move|p2a: Ninetales|Fire Blast|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|125\/557 tox
+|move|p1a: Chansey|Ice Beam|p2a: Ninetales
+|-damage|p2a: Ninetales|245\/298
+|-damage|p1a: Chansey|0 fnt|[from] tox|[of] p2a: Ninetales
+|faint|p1a: Chansey
+|
+|switch|p1a: Mewtwo|Mewtwo, L70|293\/293
+|turn|36
+|c|★The third word|Well hmm
+|
+|move|p2a: Ninetales|Toxic|p1a: Mewtwo|[miss]
+|-miss|p2a: Ninetales
+|move|p1a: Mewtwo|Psychic|p2a: Ninetales
+|-crit|p2a: Ninetales
+|-damage|p2a: Ninetales|81\/298
+|
+|turn|37
+|
+|move|p2a: Ninetales|Fire Blast|p1a: Mewtwo
+|-crit|p1a: Mewtwo
+|-damage|p1a: Mewtwo|99\/293
+|move|p1a: Mewtwo|Psychic|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|win|XianJu
+|raw|XianJu's rating: 1088 &rarr; <strong>1120<\/strong><br \/>(+32 for winning)
+|raw|The third word's rating: 1163 &rarr; <strong>1132<\/strong><br \/>(-31 for losing)
+|c|★The third word|Gg
+|leave|The third word
+|player|p2

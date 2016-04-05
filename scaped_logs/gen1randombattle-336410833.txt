@@ -1,0 +1,331 @@
+﻿|j|Fatty Dick
+|j|TATYCLJ
+|player|p1|Fatty Dick|25
+|player|p2|TATYCLJ|101
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Aerodactyl|Aerodactyl, L90|100\/100
+|switch|p2a: Machamp|Machamp, L90|100\/100
+|turn|1
+|choice||
+|
+|move|p1a: Aerodactyl|Sky Attack|p2a: Machamp|[still]
+|-prepare|p1a: Aerodactyl|Sky Attack|p2a: Machamp
+|move|p2a: Machamp|Body Slam|p1a: Aerodactyl
+|-resisted|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|86\/100
+|-status|p1a: Aerodactyl|par
+|
+|turn|2
+|choice||
+|
+|switch|p2a: Starmie|Starmie, L79|100\/100
+|cant|p1a: Aerodactyl|par
+|
+|turn|3
+|c|★Fatty Dick|LOL
+|c|★Fatty Dick|LUCKY POOPYHEAD
+|choice||
+|
+|switch|p1a: Gyarados|Gyarados, L85|100\/100
+|move|p2a: Starmie|Surf|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|88\/100
+|
+|turn|4
+|choice||
+|
+|switch|p1a: Magneton|Magneton, L90|100\/100
+|move|p2a: Starmie|Thunderbolt|p1a: Magneton
+|-resisted|p1a: Magneton
+|-damage|p1a: Magneton|92\/100
+|
+|turn|5
+|choice||
+|
+|move|p2a: Starmie|Blizzard|p1a: Magneton
+|-damage|p1a: Magneton|69\/100
+|move|p1a: Magneton|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|5\/100
+|
+|turn|6
+|choice||
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|55\/100
+|move|p1a: Magneton|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|choice||
+|
+|switch|p2a: Marowak|Marowak, L90|100\/100
+|turn|7
+|choice||
+|
+|switch|p1a: Gyarados|Gyarados, L85|88\/100
+|move|p2a: Marowak|Earthquake|p1a: Gyarados
+|-immune|p1a: Gyarados|[msg]
+|
+|turn|8
+|choice||
+|
+|move|p1a: Gyarados|Blizzard|p2a: Marowak
+|-supereffective|p2a: Marowak
+|-damage|p2a: Marowak|27\/100
+|move|p2a: Marowak|Body Slam|p1a: Gyarados
+|-damage|p1a: Gyarados|70\/100
+|-status|p1a: Gyarados|par
+|
+|turn|9
+|c|★Fatty Dick|LOL
+|choice||
+|
+|move|p2a: Marowak|Seismic Toss|p1a: Gyarados
+|-damage|p1a: Gyarados|43\/100 par
+|cant|p1a: Gyarados|par
+|
+|turn|10
+|choice||
+|
+|move|p2a: Marowak|Seismic Toss|p1a: Gyarados
+|-damage|p1a: Gyarados|17\/100 par
+|move|p1a: Gyarados|Hyper Beam|p2a: Marowak
+|-damage|p2a: Marowak|0 fnt
+|faint|p2a: Marowak
+|choice||
+|
+|switch|p2a: Machamp|Machamp, L90|100\/100
+|turn|11
+|choice||
+|
+|move|p2a: Machamp|Hyper Beam|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|choice||
+|
+|switch|p1a: Ivysaur|Ivysaur, L85|100\/100
+|turn|12
+|choice||
+|
+|switch|p2a: Venomoth|Venomoth, L85|100\/100
+|move|p1a: Ivysaur|Razor Leaf|p2a: Venomoth
+|-crit|p2a: Venomoth
+|-resisted|p2a: Venomoth
+|-damage|p2a: Venomoth|92\/100
+|
+|turn|13
+|choice||
+|
+|switch|p1a: Aerodactyl|Aerodactyl, L90|86\/100 par
+|move|p2a: Venomoth|Sleep Powder|p1a: Aerodactyl
+|-fail|p1a: Aerodactyl
+|
+|turn|14
+|choice||
+|
+|move|p2a: Venomoth|Psychic|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|62\/100 par
+|-unboost|p1a: Aerodactyl|spd|1
+|-unboost|p1a: Aerodactyl|spa|1
+|move|p1a: Aerodactyl|Double-Edge|p2a: Venomoth
+|-damage|p2a: Venomoth|57\/100
+|-damage|p1a: Aerodactyl|54\/100 par|[from] recoil|[of] p2a: Venomoth
+|
+|turn|15
+|choice||
+|
+|switch|p1a: Ninetales|Ninetales, L85|100\/100
+|move|p2a: Venomoth|Mega Drain|p1a: Ninetales
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|96\/100
+|-heal|p2a: Venomoth|60\/100|[from] drain|[of] p1a: Ninetales
+|
+|turn|16
+|choice||
+|
+|switch|p2a: Machamp|Machamp, L90|100\/100
+|move|p1a: Ninetales|Fire Blast|p2a: Machamp
+|-crit|p2a: Machamp
+|-damage|p2a: Machamp|17\/100
+|
+|turn|17
+|choice||
+|
+|move|p1a: Ninetales|Body Slam|p2a: Machamp
+|-damage|p2a: Machamp|2\/100
+|move|p2a: Machamp|Body Slam|p1a: Ninetales
+|-damage|p1a: Ninetales|67\/100
+|-status|p1a: Ninetales|par
+|
+|turn|18
+|c|★Fatty Dick|LOL
+|c|★Fatty Dick|LOL
+|c|★Fatty Dick|LOL
+|c|★Fatty Dick|LOL
+|c|★Fatty Dick|LOL
+|c|★Fatty Dick|LOL
+|choice||
+|
+|switch|p1a: Pinsir|Pinsir, L85|100\/100
+|move|p2a: Machamp|Hyper Beam|p1a: Pinsir
+|-damage|p1a: Pinsir|53\/100
+|
+|turn|19
+|-mustrecharge|p2a: Machamp
+|-mustrecharge|p2a: Machamp
+|choice||
+|
+|move|p1a: Pinsir|Body Slam|p2a: Machamp
+|-crit|p2a: Machamp
+|-damage|p2a: Machamp|0 fnt
+|faint|p2a: Machamp
+|choice||
+|
+|switch|p2a: Venomoth|Venomoth, L85|60\/100
+|turn|20
+|choice||
+|
+|switch|p1a: Ninetales|Ninetales, L85|67\/100 par
+|move|p2a: Venomoth|Mega Drain|p1a: Ninetales
+|-crit|p1a: Ninetales
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|59\/100 par
+|-heal|p2a: Venomoth|63\/100|[from] drain|[of] p1a: Ninetales
+|
+|turn|21
+|choice||
+|
+|move|p2a: Venomoth|Psychic|p1a: Ninetales
+|-crit|p1a: Ninetales
+|-damage|p1a: Ninetales|21\/100 par
+|-unboost|p1a: Ninetales|spd|1
+|-unboost|p1a: Ninetales|spa|1
+|move|p1a: Ninetales|Fire Blast|p2a: Venomoth
+|-supereffective|p2a: Venomoth
+|-damage|p2a: Venomoth|6\/100
+|
+|turn|22
+|choice||
+|
+|move|p2a: Venomoth|Psychic|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|choice||
+|
+|switch|p1a: Aerodactyl|Aerodactyl, L90|54\/100 par
+|turn|23
+|choice||
+|
+|move|p2a: Venomoth|Mega Drain|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|44\/100 par
+|-heal|p2a: Venomoth|12\/100|[from] drain|[of] p1a: Aerodactyl
+|move|p1a: Aerodactyl|Double-Edge|p2a: Venomoth
+|-damage|p2a: Venomoth|0 fnt
+|-damage|p1a: Aerodactyl|42\/100 par|[from] recoil|[of] p2a: Venomoth
+|faint|p2a: Venomoth
+|choice||
+|
+|switch|p2a: Tauros|Tauros, L79|100\/100
+|turn|24
+|choice||
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Aerodactyl|[miss]
+|-miss|p2a: Tauros
+|cant|p1a: Aerodactyl|par
+|
+|turn|25
+|choice||
+|
+|move|p2a: Tauros|Blizzard|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|0 fnt
+|faint|p1a: Aerodactyl
+|choice||
+|
+|switch|p1a: Pinsir|Pinsir, L85|53\/100
+|turn|26
+|choice||
+|
+|move|p2a: Tauros|Earthquake|p1a: Pinsir
+|-resisted|p1a: Pinsir
+|-damage|p1a: Pinsir|42\/100
+|move|p1a: Pinsir|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|75\/100
+|
+|turn|27
+|c|★Fatty Dick|YOU POOPYHEAD ARE ABSURDLY LUCKY
+|choice||
+|
+|move|p2a: Tauros|Blizzard|p1a: Pinsir
+|-damage|p1a: Pinsir|16\/100
+|move|p1a: Pinsir|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|49\/100
+|
+|turn|28
+|c|★Fatty Dick|LOL
+|c|★Fatty Dick|NO PARALYSIS
+|c|★Fatty Dick|ALL YOUR BODY SLAMS PARALYZED ME
+|c|★Fatty Dick|GYARADOS, NINETALES, AERODACTYL
+|choice||
+|
+|move|p2a: Tauros|Body Slam|p1a: Pinsir
+|-damage|p1a: Pinsir|0 fnt
+|faint|p1a: Pinsir
+|choice||
+|
+|switch|p1a: Magneton|Magneton, L90|69\/100
+|turn|29
+|choice||
+|
+|move|p2a: Tauros|Body Slam|p1a: Magneton
+|-damage|p1a: Magneton|42\/100
+|-status|p1a: Magneton|par
+|cant|p1a: Magneton|par
+|
+|turn|30
+|c|★Fatty Dick|LOL
+|c|★Fatty Dick|GO SUCK A DICK
+|choice||
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Magneton
+|-crit|p1a: Magneton
+|-damage|p1a: Magneton|0 fnt
+|faint|p1a: Magneton
+|choice||
+|
+|switch|p1a: Ivysaur|Ivysaur, L85|100\/100
+|turn|31
+|choice||
+|
+|move|p2a: Tauros|Blizzard|p1a: Ivysaur
+|-supereffective|p1a: Ivysaur
+|-damage|p1a: Ivysaur|53\/100
+|move|p1a: Ivysaur|Razor Leaf|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|3\/100
+|
+|turn|32
+|choice||
+|
+|move|p2a: Tauros|Blizzard|p1a: Ivysaur
+|-crit|p1a: Ivysaur
+|-supereffective|p1a: Ivysaur
+|-damage|p1a: Ivysaur|0 fnt
+|faint|p1a: Ivysaur
+|
+|win|TATYCLJ
+|player|p1
+|player|p2
+|l|Fatty Dick
+|raw|Fatty Dick's rating: 1234 &rarr; <strong>1206<\/strong><br \/>(-28 for losing)
+|raw|TATYCLJ's rating: 1193 &rarr; <strong>1221<\/strong><br \/>(+28 for winning)

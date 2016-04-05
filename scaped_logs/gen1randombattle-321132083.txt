@@ -1,0 +1,63 @@
+﻿|j|Omski
+|j|baco2
+|player|p1|Omski|265
+|player|p2|baco2|101
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|51339,15692,21972,59893
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Abra|Abra, L96|243\/243
+|switch|p2a: Exeggcute|Exeggcute, L96|310\/310
+|turn|1
+|choice|move 4|move Egg Bomb
+|
+|move|p1a: Abra|Thunder Wave|p2a: Exeggcute
+|-status|p2a: Exeggcute|par
+|move|p2a: Exeggcute|Egg Bomb|p1a: Abra
+|-damage|p1a: Abra|142\/243
+|
+|turn|2
+|choice|move 2|move Egg Bomb
+|
+|move|p1a: Abra|Psychic|p2a: Exeggcute
+|-resisted|p2a: Exeggcute
+|-damage|p2a: Exeggcute|240\/310 par
+|move|p2a: Exeggcute|Egg Bomb|p1a: Abra|[miss]
+|-miss|p2a: Exeggcute
+|
+|turn|3
+|choice|move 3|move Egg Bomb
+|
+|move|p1a: Abra|Seismic Toss|p2a: Exeggcute
+|-damage|p2a: Exeggcute|144\/310 par
+|cant|p2a: Exeggcute|par
+|
+|turn|4
+|choice|move 1|move Egg Bomb
+|
+|move|p1a: Abra|Reflect|p1a: Abra
+|-start|p1a: Abra|Reflect
+|cant|p2a: Exeggcute|par
+|
+|turn|5
+|choice|move 3|move Sleep Powder
+|
+|move|p1a: Abra|Seismic Toss|p2a: Exeggcute
+|-damage|p2a: Exeggcute|48\/310 par
+|cant|p2a: Exeggcute|par
+|
+|turn|6
+|-message|baco2 forfeited.
+|
+|win|Omski
+|player|p1
+|player|p2
+|l|baco2
+|raw|Omski's rating: 1211 &rarr; <strong>1222<\/strong><br \/>(+11 for winning)
+|raw|baco2's rating: 1000 &rarr; <strong>1000<\/strong><br \/>(+0 for losing)

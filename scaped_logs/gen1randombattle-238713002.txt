@@ -1,0 +1,406 @@
+﻿|join|eldougi
+|join|jklkjd
+|player|p1|eldougi|169
+|player|p2|jklkjd|266
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gengar|Gengar, L79|257\/257
+|switch|p2a: Nidoking|Nidoking, L85|311\/311
+|turn|1
+|
+|move|p1a: Gengar|Hypnosis|p2a: Nidoking
+|-status|p2a: Nidoking|slp
+|cant|p2a: Nidoking|slp
+|
+|turn|2
+|
+|switch|p2a: Exeggutor|Exeggutor, L79|312\/312
+|move|p1a: Gengar|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|283\/312
+|-unboost|p2a: Exeggutor|spd|1
+|-unboost|p2a: Exeggutor|spa|1
+|
+|turn|3
+|
+|switch|p1a: Farfetch'd|Farfetch'd, L99|304\/304
+|move|p2a: Exeggutor|Sleep Powder|p1a: Farfetch'd
+|-status|p1a: Farfetch'd|slp
+|
+|turn|4
+|
+|switch|p1a: Mewtwo|Mewtwo, L70|293\/293
+|switch|p2a: Clefable|Clefable, L85|335\/335
+|
+|turn|5
+|
+|switch|p1a: Farfetch'd|Farfetch'd, L99|304\/304 slp
+|move|p2a: Clefable|Thunder Wave|p1a: Farfetch'd
+|-fail|p1a: Farfetch'd
+|
+|turn|6
+|
+|cant|p1a: Farfetch'd|slp
+|move|p2a: Clefable|Thunderbolt|p1a: Farfetch'd
+|-supereffective|p1a: Farfetch'd
+|-damage|p1a: Farfetch'd|161\/304 slp
+|
+|turn|7
+|
+|switch|p1a: Graveler|Graveler, L85|267\/267
+|move|p2a: Clefable|Thunder|p1a: Graveler
+|-immune|p1a: Graveler|[msg]
+|
+|turn|8
+|
+|switch|p2a: Exeggutor|Exeggutor, L79|283\/312
+|move|p1a: Graveler|Rock Slide|p2a: Exeggutor
+|-damage|p2a: Exeggutor|201\/312
+|
+|turn|9
+|
+|switch|p1a: Mewtwo|Mewtwo, L70|293\/293
+|move|p2a: Exeggutor|Psychic|p1a: Mewtwo
+|-crit|p1a: Mewtwo
+|-resisted|p1a: Mewtwo
+|-damage|p1a: Mewtwo|211\/293
+|-unboost|p1a: Mewtwo|spd|1
+|-unboost|p1a: Mewtwo|spa|1
+|
+|turn|10
+|
+|switch|p2a: Snorlax|Snorlax, L79|415\/415
+|move|p1a: Mewtwo|Ice Beam|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|250\/415
+|-status|p2a: Snorlax|frz
+|
+|turn|11
+|
+|switch|p1a: Graveler|Graveler, L85|267\/267
+|switch|p2a: Exeggutor|Exeggutor, L79|201\/312
+|
+|turn|12
+|
+|switch|p1a: Mewtwo|Mewtwo, L70|211\/293
+|move|p2a: Exeggutor|Psychic|p1a: Mewtwo
+|-resisted|p1a: Mewtwo
+|-damage|p1a: Mewtwo|170\/293
+|
+|turn|13
+|
+|switch|p2a: Clefable|Clefable, L85|335\/335
+|move|p1a: Mewtwo|Ice Beam|p2a: Clefable
+|-damage|p2a: Clefable|268\/335
+|
+|turn|14
+|
+|switch|p1a: Graveler|Graveler, L85|267\/267
+|switch|p2a: Exeggutor|Exeggutor, L79|201\/312
+|
+|turn|15
+|
+|switch|p1a: Lapras|Lapras, L79|367\/367
+|move|p2a: Exeggutor|Psychic|p1a: Lapras
+|-crit|p1a: Lapras
+|-damage|p1a: Lapras|169\/367
+|
+|turn|16
+|
+|switch|p2a: Snorlax|Snorlax, L79|250\/415 frz
+|move|p1a: Lapras|Ice Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|143\/415 frz
+|
+|turn|17
+|
+|switch|p2a: Flareon|Flareon, L85|284\/284
+|move|p1a: Lapras|Body Slam|p2a: Flareon
+|-damage|p2a: Flareon|221\/284
+|
+|turn|18
+|
+|switch|p1a: Graveler|Graveler, L85|267\/267
+|move|p2a: Flareon|Fire Blast|p1a: Graveler
+|-resisted|p1a: Graveler
+|-damage|p1a: Graveler|158\/267
+|-status|p1a: Graveler|brn
+|
+|turn|19
+|
+|switch|p2a: Snorlax|Snorlax, L79|143\/415 frz
+|move|p1a: Graveler|Earthquake|p2a: Snorlax
+|-damage|p2a: Snorlax|77\/415 frz
+|-damage|p1a: Graveler|142\/267 brn|[from] brn|[of] p2a: Snorlax
+|
+|turn|20
+|
+|switch|p1a: Mewtwo|Mewtwo, L70|170\/293
+|cant|p2a: Snorlax|frz
+|
+|turn|21
+|
+|switch|p2a: Clefable|Clefable, L85|268\/335
+|move|p1a: Mewtwo|Thunder Wave|p2a: Clefable
+|-status|p2a: Clefable|par
+|
+|turn|22
+|
+|move|p1a: Mewtwo|Psychic|p2a: Clefable
+|-damage|p2a: Clefable|170\/335 par
+|move|p2a: Clefable|Thunder Wave|p1a: Mewtwo
+|-status|p1a: Mewtwo|par
+|
+|turn|23
+|
+|switch|p2a: Snorlax|Snorlax, L79|77\/415 frz
+|move|p1a: Mewtwo|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|switch|p2a: Magmar|Magmar, L85|284\/284
+|turn|24
+|
+|move|p2a: Magmar|Confuse Ray|p1a: Mewtwo
+|-start|p1a: Mewtwo|confusion
+|-activate|p1a: Mewtwo|confusion
+|move|p1a: Mewtwo|Thunder Wave|p2a: Magmar
+|-status|p2a: Magmar|par
+|
+|turn|25
+|
+|switch|p1a: Arbok|Arbok, L85|276\/276
+|move|p2a: Magmar|Fire Blast|p1a: Arbok|[miss]
+|-miss|p2a: Magmar
+|
+|turn|26
+|
+|switch|p2a: Exeggutor|Exeggutor, L79|201\/312
+|move|p1a: Arbok|Body Slam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|136\/312
+|
+|turn|27
+|
+|move|p1a: Arbok|Hyper Beam|p2a: Exeggutor|[miss]
+|-miss|p1a: Arbok
+|move|p2a: Exeggutor|Psychic|p1a: Arbok
+|-supereffective|p1a: Arbok
+|-damage|p1a: Arbok|38\/276
+|
+|turn|28
+|
+|switch|p2a: Clefable|Clefable, L85|170\/335 par
+|move|p1a: Arbok|Hyper Beam|p2a: Clefable
+|-damage|p2a: Clefable|58\/335 par
+|
+|turn|29
+|-mustrecharge|p1a: Arbok
+|-mustrecharge|p1a: Arbok
+|
+|cant|p1a: Arbok|recharge
+|move|p2a: Clefable|Thunderbolt|p1a: Arbok
+|-damage|p1a: Arbok|0 fnt
+|faint|p1a: Arbok
+|
+|switch|p1a: Lapras|Lapras, L79|169\/367
+|turn|30
+|
+|move|p1a: Lapras|Body Slam|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|switch|p2a: Flareon|Flareon, L85|221\/284
+|turn|31
+|
+|move|p2a: Flareon|Fire Blast|p1a: Lapras
+|-damage|p1a: Lapras|20\/367
+|move|p1a: Lapras|Body Slam|p2a: Flareon
+|-damage|p2a: Flareon|164\/284
+|-status|p2a: Flareon|par
+|
+|turn|32
+|
+|cant|p2a: Flareon|par
+|move|p1a: Lapras|Rest|p1a: Lapras
+|-status|p1a: Lapras|slp
+|-heal|p1a: Lapras|367\/367 slp|[silent]
+|-status|p1a: Lapras|slp|[from] move: Rest
+|
+|turn|33
+|c|★jklkjd|lmao you're garbage btw, outplayed all game, but when the RNG is on your side nothing to do
+|
+|move|p2a: Flareon|Quick Attack|p1a: Lapras
+|-damage|p1a: Lapras|325\/367 slp
+|cant|p1a: Lapras|slp
+|
+|turn|34
+|
+|cant|p1a: Lapras|slp
+|-curestatus|p1a: Lapras|slp
+|move|p2a: Flareon|Fire Blast|p1a: Lapras
+|-damage|p1a: Lapras|185\/367
+|
+|turn|35
+|
+|move|p1a: Lapras|Body Slam|p2a: Flareon
+|-damage|p2a: Flareon|108\/284 par
+|move|p2a: Flareon|Fire Blast|p1a: Lapras
+|-damage|p1a: Lapras|43\/367
+|
+|turn|36
+|
+|move|p2a: Flareon|Quick Attack|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|
+|switch|p1a: Graveler|Graveler, L85|142\/267 brn
+|turn|37
+|
+|switch|p2a: Nidoking|Nidoking, L85|311\/311 slp
+|move|p1a: Graveler|Earthquake|p2a: Nidoking
+|-supereffective|p2a: Nidoking
+|-damage|p2a: Nidoking|301\/311 slp
+|-damage|p1a: Graveler|126\/267 brn|[from] brn|[of] p2a: Nidoking
+|
+|turn|38
+|
+|switch|p1a: Mewtwo|Mewtwo, L70|170\/293 par
+|cant|p2a: Nidoking|slp
+|
+|turn|39
+|
+|cant|p2a: Nidoking|slp
+|move|p1a: Mewtwo|Ice Beam|p2a: Nidoking
+|-supereffective|p2a: Nidoking
+|-damage|p2a: Nidoking|164\/311 slp
+|
+|turn|40
+|
+|cant|p2a: Nidoking|slp
+|-curestatus|p2a: Nidoking|slp
+|move|p1a: Mewtwo|Psychic|p2a: Nidoking
+|-supereffective|p2a: Nidoking
+|-damage|p2a: Nidoking|0 fnt
+|faint|p2a: Nidoking
+|
+|switch|p2a: Magmar|Magmar, L85|284\/284 par
+|turn|41
+|
+|cant|p1a: Mewtwo|par
+|move|p2a: Magmar|Confuse Ray|p1a: Mewtwo
+|-start|p1a: Mewtwo|confusion
+|
+|turn|42
+|
+|switch|p1a: Gengar|Gengar, L79|257\/257
+|move|p2a: Magmar|Fire Blast|p1a: Gengar
+|-damage|p1a: Gengar|163\/257
+|
+|turn|43
+|
+|switch|p2a: Flareon|Flareon, L85|108\/284 par
+|move|p1a: Gengar|Psychic|p2a: Flareon
+|-crit|p2a: Flareon
+|-damage|p2a: Flareon|0 fnt
+|faint|p2a: Flareon
+|
+|switch|p2a: Exeggutor|Exeggutor, L79|136\/312
+|turn|44
+|
+|move|p1a: Gengar|Explosion|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|faint|p1a: Gengar
+|
+|switch|p1a: Graveler|Graveler, L85|126\/267 brn
+|switch|p2a: Magmar|Magmar, L85|284\/284 par
+|turn|45
+|
+|move|p1a: Graveler|Earthquake|p2a: Magmar
+|-supereffective|p2a: Magmar
+|-damage|p2a: Magmar|274\/284 par
+|-damage|p1a: Graveler|110\/267 brn|[from] brn|[of] p2a: Magmar
+|move|p2a: Magmar|Fire Blast|p1a: Graveler
+|-resisted|p1a: Graveler
+|-damage|p1a: Graveler|30\/267 brn
+|
+|turn|46
+|c|★jklkjd|jesus you're terrible my god
+|
+|move|p1a: Graveler|Earthquake|p2a: Magmar
+|-supereffective|p2a: Magmar
+|-damage|p2a: Magmar|263\/284 par
+|-damage|p1a: Graveler|14\/267 brn|[from] brn|[of] p2a: Magmar
+|move|p2a: Magmar|Mimic|p1a: Graveler
+|-start|p2a: Magmar|Mimic|Body Slam
+|
+|turn|47
+|
+|move|p1a: Graveler|Explosion|p2a: Magmar
+|-damage|p2a: Magmar|252\/284 par
+|faint|p1a: Graveler
+|
+|switch|p1a: Mewtwo|Mewtwo, L70|170\/293 par
+|turn|48
+|
+|move|p1a: Mewtwo|Psychic|p2a: Magmar
+|-damage|p2a: Magmar|154\/284 par
+|move|p2a: Magmar|Confuse Ray|p1a: Mewtwo
+|-start|p1a: Mewtwo|confusion
+|
+|turn|49
+|
+|cant|p1a: Mewtwo|par
+|move|p2a: Magmar|Body Slam|p1a: Mewtwo
+|-crit|p1a: Mewtwo
+|-damage|p1a: Mewtwo|26\/293 par
+|
+|turn|50
+|
+|-activate|p1a: Mewtwo|confusion
+|move|p1a: Mewtwo|Psychic|p2a: Magmar
+|-damage|p2a: Magmar|64\/284 par
+|move|p2a: Magmar|Body Slam|p1a: Mewtwo
+|-damage|p1a: Mewtwo|0 fnt
+|faint|p1a: Mewtwo
+|
+|switch|p1a: Farfetch'd|Farfetch'd, L99|161\/304 slp
+|turn|51
+|
+|cant|p1a: Farfetch'd|slp
+|cant|p2a: Magmar|par
+|
+|turn|52
+|
+|cant|p1a: Farfetch'd|slp
+|cant|p2a: Magmar|par
+|
+|turn|53
+|
+|cant|p1a: Farfetch'd|slp
+|move|p2a: Magmar|Body Slam|p1a: Farfetch'd
+|-damage|p1a: Farfetch'd|91\/304 slp
+|
+|turn|54
+|
+|cant|p1a: Farfetch'd|slp
+|-curestatus|p1a: Farfetch'd|slp
+|move|p2a: Magmar|Hyper Beam|p1a: Farfetch'd
+|-crit|p1a: Farfetch'd
+|-damage|p1a: Farfetch'd|0 fnt
+|faint|p1a: Farfetch'd
+|
+|win|jklkjd
+|raw|Ladder updating...
+|raw|eldougi's rating: 1232 &rarr; <strong>1196<\/strong><br \/>(-36 for losing)
+|raw|jklkjd's rating: 1078 &rarr; <strong>1118<\/strong><br \/>(+40 for winning)
+|c|★jklkjd|could not be more deserved
+|c|★jklkjd|you're fucking garbage
+|leave|eldougi
+|player|p1

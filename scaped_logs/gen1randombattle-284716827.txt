@@ -1,0 +1,219 @@
+﻿|join|Hargnyque
+|join|paolo.bassi
+|player|p1|Hargnyque|26
+|player|p2|paolo.bassi|102
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Dratini|Dratini, L96|274\/274
+|switch|p2a: Exeggcute|Exeggcute, L96|310\/310
+|turn|1
+|
+|move|p1a: Dratini|Ice Beam|p2a: Exeggcute
+|-supereffective|p2a: Exeggcute
+|-damage|p2a: Exeggcute|170\/310
+|move|p2a: Exeggcute|Sleep Powder|p1a: Dratini
+|-status|p1a: Dratini|slp
+|
+|turn|2
+|
+|switch|p1a: Vaporeon|Vaporeon, L85|395\/395
+|move|p2a: Exeggcute|Psychic|p1a: Vaporeon
+|-damage|p1a: Vaporeon|319\/395
+|-unboost|p1a: Vaporeon|spd|1
+|-unboost|p1a: Vaporeon|spa|1
+|
+|turn|3
+|
+|move|p1a: Vaporeon|Blizzard|p2a: Exeggcute|[miss]
+|-miss|p1a: Vaporeon
+|move|p2a: Exeggcute|Mega Drain|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|213\/395
+|-heal|p2a: Exeggcute|223\/310|[from] drain|[of] p1a: Vaporeon
+|
+|turn|4
+|
+|switch|p1a: Haunter|Haunter, L85|250\/250
+|move|p2a: Exeggcute|Explosion|p1a: Haunter
+|-immune|p1a: Haunter|[msg]
+|faint|p2a: Exeggcute
+|
+|switch|p2a: Hypno|Hypno, L85|318\/318
+|turn|5
+|
+|move|p1a: Haunter|Hypnosis|p2a: Hypno|[miss]
+|-miss|p1a: Haunter
+|move|p2a: Hypno|Psychic|p1a: Haunter
+|-supereffective|p1a: Haunter
+|-damage|p1a: Haunter|55\/250
+|
+|turn|6
+|
+|move|p1a: Haunter|Explosion|p2a: Hypno
+|-damage|p2a: Hypno|125\/318
+|faint|p1a: Haunter
+|
+|switch|p1a: Vaporeon|Vaporeon, L85|213\/395
+|turn|7
+|
+|move|p2a: Hypno|Psychic|p1a: Vaporeon
+|-damage|p1a: Vaporeon|120\/395
+|move|p1a: Vaporeon|Hydro Pump|p2a: Hypno|[miss]
+|-miss|p1a: Vaporeon
+|
+|turn|8
+|
+|move|p2a: Hypno|Psychic|p1a: Vaporeon
+|-damage|p1a: Vaporeon|24\/395
+|move|p1a: Vaporeon|Hydro Pump|p2a: Hypno
+|-damage|p2a: Hypno|3\/318
+|
+|turn|9
+|
+|move|p2a: Hypno|Psychic|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|
+|switch|p1a: Rattata|Rattata, L96|252\/252
+|turn|10
+|
+|move|p1a: Rattata|Thunderbolt|p2a: Hypno
+|-damage|p2a: Hypno|0 fnt
+|faint|p2a: Hypno
+|
+|switch|p2a: Magneton|Magneton, L90|273\/273
+|turn|11
+|
+|move|p1a: Rattata|Super Fang|p2a: Magneton|[miss]
+|-miss|p1a: Rattata
+|move|p2a: Magneton|Thunderbolt|p1a: Rattata
+|-damage|p1a: Rattata|41\/252
+|
+|turn|12
+|
+|move|p1a: Rattata|Super Fang|p2a: Magneton
+|-damage|p2a: Magneton|137\/273
+|move|p2a: Magneton|Thunderbolt|p1a: Rattata
+|-damage|p1a: Rattata|0 fnt
+|faint|p1a: Rattata
+|
+|switch|p1a: Mewtwo|Mewtwo, L70|293\/293
+|turn|13
+|
+|move|p1a: Mewtwo|Psychic|p2a: Magneton
+|-damage|p2a: Magneton|61\/273
+|move|p2a: Magneton|Thunder Wave|p1a: Mewtwo
+|-status|p1a: Mewtwo|par
+|
+|turn|14
+|
+|move|p2a: Magneton|Thunderbolt|p1a: Mewtwo
+|-damage|p1a: Mewtwo|185\/293 par
+|move|p1a: Mewtwo|Psychic|p2a: Magneton
+|-crit|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|faint|p2a: Magneton
+|
+|switch|p2a: Pikachu|Pikachu, L96|262\/262
+|turn|15
+|
+|move|p2a: Pikachu|Thunder|p1a: Mewtwo
+|-crit|p1a: Mewtwo
+|-damage|p1a: Mewtwo|18\/293 par
+|move|p1a: Mewtwo|Psychic|p2a: Pikachu
+|-crit|p2a: Pikachu
+|-damage|p2a: Pikachu|24\/262
+|
+|turn|16
+|
+|move|p2a: Pikachu|Body Slam|p1a: Mewtwo
+|-crit|p1a: Mewtwo
+|-damage|p1a: Mewtwo|0 fnt
+|faint|p1a: Mewtwo
+|
+|switch|p1a: Dratini|Dratini, L96|274\/274 slp
+|turn|17
+|
+|move|p2a: Pikachu|Body Slam|p1a: Dratini
+|-damage|p1a: Dratini|202\/274 slp
+|-curestatus|p1a: Dratini|slp
+|
+|turn|18
+|
+|move|p2a: Pikachu|Thunder Wave|p1a: Dratini
+|-status|p1a: Dratini|par
+|move|p1a: Dratini|Body Slam|p2a: Pikachu
+|-damage|p2a: Pikachu|0 fnt
+|faint|p2a: Pikachu
+|
+|switch|p2a: Cloyster|Cloyster, L83|253\/253
+|turn|19
+|
+|move|p2a: Cloyster|Ice Beam|p1a: Dratini
+|-supereffective|p1a: Dratini
+|-damage|p1a: Dratini|0 fnt
+|faint|p1a: Dratini
+|
+|switch|p1a: Starmie|Starmie, L79|257\/257
+|turn|20
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Cloyster
+|-status|p2a: Cloyster|par
+|cant|p2a: Cloyster|par
+|
+|turn|21
+|
+|move|p1a: Starmie|Surf|p2a: Cloyster
+|-resisted|p2a: Cloyster
+|-damage|p2a: Cloyster|210\/253 par
+|move|p2a: Cloyster|Explosion|p1a: Starmie
+|-damage|p1a: Starmie|10\/257
+|faint|p2a: Cloyster
+|
+|switch|p2a: Porygon|Porygon, L85|284\/284
+|turn|22
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|138\/257
+|move|p2a: Porygon|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|16\/257
+|
+|turn|23
+|
+|move|p1a: Starmie|Blizzard|p2a: Porygon
+|-damage|p2a: Porygon|200\/284
+|-status|p2a: Porygon|frz
+|cant|p2a: Porygon|frz
+|
+|turn|24
+|c|★Hargnyque|Jackpot !!
+|
+|move|p1a: Starmie|Surf|p2a: Porygon
+|-damage|p2a: Porygon|108\/284 frz
+|cant|p2a: Porygon|frz
+|
+|turn|25
+|
+|move|p1a: Starmie|Surf|p2a: Porygon
+|-damage|p2a: Porygon|5\/284 frz
+|cant|p2a: Porygon|frz
+|
+|turn|26
+|
+|move|p1a: Starmie|Surf|p2a: Porygon
+|-damage|p2a: Porygon|0 fnt
+|faint|p2a: Porygon
+|
+|win|Hargnyque
+|leave|paolo.bassi
+|player|p2
+|raw|Hargnyque's rating: 1149 &rarr; <strong>1177<\/strong><br \/>(+28 for winning)
+|raw|paolo.bassi's rating: 1197 &rarr; <strong>1169<\/strong><br \/>(-28 for losing)

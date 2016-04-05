@@ -1,0 +1,80 @@
+﻿|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|J|BKC
+|J|Nails
+|player|p1|BKC|#bkc
+|player|p2|Nails|282
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|seed|42586,13126,23000,47339
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: eyesland|Gengar|323\/323
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|1
+|choice|move 2|move 1
+|
+|move|p2a: Gengar|Hypnosis|p1a: eyesland
+|-status|p1a: eyesland|slp
+|cant|p1a: eyesland|slp
+|
+|turn|2
+|choice|move 2|move 2
+|
+|move|p2a: Gengar|Night Shade|p1a: eyesland
+|-damage|p1a: eyesland|223\/323 slp
+|cant|p1a: eyesland|slp
+|
+|turn|3
+|J|blarajan
+|c|%blarajan|did you like my post kevin
+|c|★BKC|y
+|J|bro fist
+|choice|switch 3|move 2
+|
+|switch|p1a: ethereal forest|Exeggutor|393\/393
+|move|p2a: Gengar|Night Shade|p1a: ethereal forest
+|-damage|p1a: ethereal forest|293\/393
+|
+|turn|4
+|c|%blarajan|:)
+|L|bro fist
+|choice|switch 3|move 4
+|
+|switch|p1a: eyesland|Gengar|223\/323 slp
+|move|p2a: Gengar|Thunderbolt|p1a: eyesland
+|-damage|p1a: eyesland|150\/323 slp
+|
+|turn|5
+|choice|switch 2|move 2
+|
+|switch|p1a: diabolical beauty|Starmie|323\/323
+|move|p2a: Gengar|Night Shade|p1a: diabolical beauty
+|-damage|p1a: diabolical beauty|223\/323
+|
+|turn|6
+|c|%blarajan|sry buddy but we're going to have to 12-0 you
+|c|%blarajan|same to the wolfpack when we fight
+|c|%blarajan|can't help it
+|choice|move 2|move 3
+|
+|move|p1a: diabolical beauty|Blizzard|p2a: Gengar
+|-damage|p2a: Gengar|241\/323
+|move|p2a: Gengar|Explosion|p1a: diabolical beauty
+|-damage|p1a: diabolical beauty|0 fnt
+|faint|p1a: diabolical beauty
+|faint|p2a: Gengar
+|choice|switch 3|switch 3
+|
+|switch|p2a: Dragonite|Dragonite|385\/385
+|switch|p1a: ethereal forest|Exeggutor|293\/393
+|turn|7
+|-message|BKC forfeited.
+|
+|win|Nails

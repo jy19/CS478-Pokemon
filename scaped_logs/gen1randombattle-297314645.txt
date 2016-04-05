@@ -1,0 +1,143 @@
+﻿|join|XianJu
+|join|andreatripo
+|player|p1|XianJu|130
+|player|p2|andreatripo|221
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|7329,38584,6896,23703
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Growlithe|Growlithe, L96|300\/300
+|switch|p2a: Nidoqueen|Nidoqueen, L85|327\/327
+|turn|1
+|choice|switch 4|move 1
+|
+|switch|p1a: Starmie|Starmie, L79|257\/257
+|move|p2a: Nidoqueen|Earthquake|p1a: Starmie
+|-damage|p1a: Starmie|146\/257
+|
+|turn|2
+|choice|move 3|switch 2
+|
+|switch|p2a: Weepinbell|Weepinbell, L85|284\/284
+|move|p1a: Starmie|Surf|p2a: Weepinbell
+|-resisted|p2a: Weepinbell
+|-damage|p2a: Weepinbell|238\/284
+|
+|turn|3
+|choice|switch 5|switch 4
+|
+|switch|p1a: Jynx|Jynx, L79|265\/265
+|switch|p2a: Snorlax|Snorlax, L79|415\/415
+|
+|turn|4
+|choice|move 1|move 2
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: Snorlax
+|-status|p2a: Snorlax|slp
+|cant|p2a: Snorlax|slp
+|
+|turn|5
+|choice|switch 5|move 2
+|
+|switch|p1a: Starmie|Starmie, L79|146\/257
+|cant|p2a: Snorlax|slp
+|
+|turn|6
+|choice|move 3|move 2
+|
+|move|p1a: Starmie|Surf|p2a: Snorlax
+|-damage|p2a: Snorlax|300\/415 slp
+|cant|p2a: Snorlax|slp
+|
+|turn|7
+|choice|move 1|move 2
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|257\/257
+|-curestatus|p2a: Snorlax|slp
+|
+|turn|8
+|choice|switch 5|move 2
+|
+|switch|p1a: Jynx|Jynx, L79|265\/265
+|move|p2a: Snorlax|Thunderbolt|p1a: Jynx
+|-damage|p1a: Jynx|215\/265
+|
+|turn|9
+|choice|move 1|move 4
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: Snorlax
+|-status|p2a: Snorlax|slp
+|cant|p2a: Snorlax|slp
+|
+|turn|10
+|choice|move 3|move 2
+|
+|move|p1a: Jynx|Mimic|p2a: Snorlax
+|-start|p1a: Jynx|Mimic|Hyper Beam
+|-curestatus|p2a: Snorlax|slp
+|
+|turn|11
+|choice|move 2|move 2
+|
+|move|p1a: Jynx|Psychic|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|83\/415
+|move|p2a: Snorlax|Thunderbolt|p1a: Jynx
+|-damage|p1a: Jynx|166\/265
+|
+|turn|12
+|choice|move 2|move 4
+|
+|move|p1a: Jynx|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|choice||switch 6
+|
+|switch|p2a: Pinsir|Pinsir, L85|284\/284
+|turn|13
+|choice|move 1|move 1
+|
+|move|p2a: Pinsir|Submission|p1a: Jynx|[miss]
+|-miss|p2a: Pinsir
+|move|p1a: Jynx|Lovely Kiss|p2a: Pinsir|[miss]
+|-miss|p1a: Jynx
+|
+|turn|14
+|choice|move 1|move 1
+|
+|move|p2a: Pinsir|Submission|p1a: Jynx|[miss]
+|-miss|p2a: Pinsir
+|move|p1a: Jynx|Lovely Kiss|p2a: Pinsir
+|-status|p2a: Pinsir|slp
+|
+|turn|15
+|choice|move 2|move 1
+|
+|move|p1a: Jynx|Psychic|p2a: Pinsir
+|-crit|p2a: Pinsir
+|-damage|p2a: Pinsir|84\/284 slp
+|-unboost|p2a: Pinsir|spd|1
+|-unboost|p2a: Pinsir|spa|1
+|-curestatus|p2a: Pinsir|slp
+|
+|turn|16
+|choice|move 2|move 1
+|
+|move|p1a: Jynx|Psychic|p2a: Pinsir
+|-crit|p2a: Pinsir
+|-damage|p2a: Pinsir|0 fnt
+|faint|p2a: Pinsir
+|-message|andreatripo forfeited.
+|leave|andreatripo
+|
+|win|XianJu
+|player|p2
+|raw|XianJu's rating: 1101 &rarr; <strong>1122<\/strong><br \/>(+21 for winning)
+|raw|andreatripo's rating: 1045 &rarr; <strong>1031<\/strong><br \/>(-14 for losing)

@@ -1,0 +1,60 @@
+﻿|join|kid gf lol
+|join|test batch bitch
+|player|p1|kid gf lol|114
+|player|p2|test batch bitch|169
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gengar|Gengar|323\/323
+|switch|p2a: Golem|Golem|363\/363
+|turn|1
+|
+|switch|p1a: Cloyster|Cloyster|303\/303
+|move|p2a: Golem|Tackle|p1a: Cloyster
+|-damage|p1a: Cloyster|283\/303
+|
+|turn|2
+|
+|move|p1a: Cloyster|Clamp|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|166\/363
+|-activate|p2a: Golem|move: Clamp|[of] p1a: Cloyster
+|cant|p2a: Golem|partiallytrapped
+|
+|turn|3
+|
+|switch|p2a: Alakazam|Alakazam|313\/313
+|move|p1a: Cloyster|Clamp|p2a: Alakazam
+|-damage|p2a: Alakazam|285\/313
+|-activate|p2a: Alakazam|move: Clamp|[of] p1a: Cloyster
+|
+|turn|4
+|
+|cant|p2a: Alakazam|partiallytrapped
+|move|p1a: Cloyster|Clamp|p2a: Alakazam
+|-damage|p2a: Alakazam|88\/313
+|
+|turn|5
+|
+|cant|p2a: Alakazam|partiallytrapped
+|move|p1a: Cloyster|Clamp|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|switch|p2a: Golem|Golem|166\/363
+|turn|6
+|
+|move|p1a: Cloyster|Clamp|p2a: Golem
+|-crit|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|
+|win|kid gf lol

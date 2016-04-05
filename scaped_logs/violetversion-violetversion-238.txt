@@ -1,0 +1,453 @@
+﻿|J|Disaster Area
+|J|KristophV
+|player|p1|Disaster Area|32
+|player|p2|KristophV|8
+|gametype|singles
+|gen|1
+|tier|Violet Version
+|rated
+|clearpoke
+|poke|p1|Gengar
+|poke|p1|Exeggutor
+|poke|p1|Chansey
+|poke|p1|Golem
+|poke|p1|Slowbro
+|poke|p1|Gyarados
+|poke|p2|Electrode
+|poke|p2|Parasect
+|poke|p2|Butterfree
+|poke|p2|Flareon
+|poke|p2|Starmie
+|poke|p2|Tauros
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|c|★Disaster Area|gl hf
+|c|★Disaster Area|oo
+|c|★KristophV|you too
+|c|★Disaster Area|double bug
+|c|★Disaster Area|wow
+|c|★Disaster Area|i have double water :o
+|c|★Disaster Area|also u have
+|c|★Disaster Area|no chonsey
+|
+|start
+|switch|p1a: Gengar|Gengar|323\/323
+|switch|p2a: Electrode|Electrode|333\/333
+|turn|1
+|
+|switch|p1a: Golem|Golem|363\/363
+|move|p2a: Electrode|Thunder Wave|p1a: Golem
+|-immune|p1a: Golem|[msg]
+|
+|turn|2
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|move|p1a: Golem|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|244\/323
+|
+|turn|3
+|
+|switch|p2a: Parasect|Parasect|383\/383
+|switch|p1a: Chansey|Chansey|703\/703
+|
+|turn|4
+|J|Moony
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Parasect|Spore|p1a: Exeggutor
+|-status|p1a: Exeggutor|slp
+|
+|turn|5
+|L|Moony
+|
+|switch|p1a: Gengar|Gengar|323\/323
+|switch|p2a: Flareon|Flareon|433\/433
+|
+|turn|6
+|
+|move|p1a: Gengar|Hypnosis|p2a: Flareon|[miss]
+|-miss|p1a: Gengar
+|move|p2a: Flareon|Mimic|p1a: Gengar
+|-start|p2a: Flareon|Mimic|Explosion
+|
+|turn|7
+|c|★Disaster Area|lol
+|
+|move|p1a: Gengar|Hypnosis|p2a: Flareon|[miss]
+|-miss|p1a: Gengar
+|move|p2a: Flareon|Fire Blast|p1a: Gengar
+|-damage|p1a: Gengar|203\/323
+|
+|turn|8
+|
+|move|p1a: Gengar|Hypnosis|p2a: Flareon
+|-status|p2a: Flareon|slp
+|cant|p2a: Flareon|slp
+|
+|turn|9
+|
+|switch|p2a: Butterfree|Butterfree|343\/343
+|move|p1a: Gengar|Thunderbolt|p2a: Butterfree
+|-crit|p2a: Butterfree
+|-damage|p2a: Butterfree|162\/343
+|
+|turn|10
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Butterfree|Stun Spore|p1a: Chansey|[miss]
+|-miss|p2a: Butterfree
+|
+|turn|11
+|c|★Disaster Area|fuck
+|c|★Disaster Area|I have thunder
+|c|★Disaster Area|not twave
+|c|★Disaster Area|n_n
+|
+|move|p2a: Butterfree|Leech Life|p1a: Chansey
+|-damage|p1a: Chansey|578\/703
+|-heal|p2a: Butterfree|287\/343|[from] drain|[of] p1a: Chansey
+|move|p1a: Chansey|Thunder|p2a: Butterfree
+|-damage|p2a: Butterfree|187\/343
+|
+|turn|12
+|
+|move|p2a: Butterfree|Leech Life|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|292\/703
+|-heal|p2a: Butterfree|343\/343|[from] drain|[of] p1a: Chansey
+|move|p1a: Chansey|Ice Beam|p2a: Butterfree
+|-damage|p2a: Butterfree|261\/343
+|
+|turn|13
+|c|★KristophV|jesus
+|c|★Disaster Area|lol
+|
+|move|p2a: Butterfree|Solar Beam|p1a: Chansey|[still]
+|-prepare|p2a: Butterfree|Solar Beam|p1a: Chansey
+|-boost|p2a: Butterfree|spa|1
+|-boost|p2a: Butterfree|spd|1
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|643\/703
+|
+|turn|14
+|c|★Disaster Area|ugh
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393 slp
+|move|p2a: Butterfree|Solar Beam|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|348\/393 slp
+|
+|turn|15
+|
+|switch|p1a: Gyarados|Gyarados|393\/393
+|move|p2a: Butterfree|Solar Beam|p1a: Gyarados|[still]
+|-prepare|p2a: Butterfree|Solar Beam|p1a: Gyarados
+|-boost|p2a: Butterfree|spa|1
+|-boost|p2a: Butterfree|spd|1
+|
+|turn|16
+|
+|move|p1a: Gyarados|Tri Attack|p2a: Butterfree
+|-supereffective|p2a: Butterfree
+|-damage|p2a: Butterfree|49\/343
+|move|p2a: Butterfree|Solar Beam|p1a: Gyarados
+|-damage|p1a: Gyarados|243\/393
+|
+|turn|17
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|move|p1a: Gyarados|Sky Attack|p2a: Tauros|[still]
+|-prepare|p1a: Gyarados|Sky Attack|p2a: Tauros
+|-boost|p1a: Gyarados|def|1
+|
+|turn|18
+|c|★Disaster Area|:P
+|c|★Disaster Area|inb4 tbolt
+|c|★Disaster Area|and I get rekt
+|
+|switch|p2a: Electrode|Electrode|333\/333
+|move|p1a: Gyarados|Sky Attack|p2a: Electrode
+|-crit|p2a: Electrode
+|-resisted|p2a: Electrode
+|-damage|p2a: Electrode|89\/333
+|
+|turn|19
+|
+|switch|p1a: Golem|Golem|363\/363
+|move|p2a: Electrode|Explosion|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|284\/363
+|faint|p2a: Electrode
+|
+|switch|p2a: Parasect|Parasect|383\/383
+|turn|20
+|c|★Disaster Area|gar is so cool
+|c|★Disaster Area|as a defensive mon
+|
+|switch|p1a: Gengar|Gengar|203\/323
+|move|p2a: Parasect|Solar Beam|p1a: Gengar|[still]
+|-prepare|p2a: Parasect|Solar Beam|p1a: Gengar
+|-boost|p2a: Parasect|spa|1
+|-boost|p2a: Parasect|spd|1
+|
+|turn|21
+|c|★Disaster Area|in this meta
+|c|★Disaster Area|lmao
+|
+|move|p1a: Gengar|Psychic|p2a: Parasect
+|-damage|p2a: Parasect|313\/383
+|-unboost|p2a: Parasect|spd|1
+|-unboost|p2a: Parasect|spa|1
+|move|p2a: Parasect|Solar Beam|p1a: Gengar
+|-resisted|p1a: Gengar
+|-damage|p1a: Gengar|163\/323
+|
+|turn|22
+|
+|switch|p2a: Starmie|Starmie|244\/323
+|move|p1a: Gengar|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|76\/323
+|
+|turn|23
+|
+|switch|p1a: Chansey|Chansey|643\/703
+|move|p2a: Starmie|Hydro Pump|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|377\/703
+|
+|turn|24
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|237\/323
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703
+|
+|turn|25
+|
+|switch|p2a: Parasect|Parasect|313\/383
+|move|p1a: Chansey|Thunder|p2a: Parasect
+|-resisted|p2a: Parasect
+|-damage|p2a: Parasect|254\/383
+|
+|turn|26
+|
+|move|p1a: Chansey|Ice Beam|p2a: Parasect
+|-supereffective|p2a: Parasect
+|-damage|p2a: Parasect|69\/383
+|move|p2a: Parasect|Leech Life|p1a: Chansey
+|-damage|p1a: Chansey|499\/703
+|-heal|p2a: Parasect|273\/383|[from] drain|[of] p1a: Chansey
+|
+|turn|27
+|
+|switch|p1a: Gengar|Gengar|163\/323
+|move|p2a: Parasect|Solar Beam|p1a: Gengar|[still]
+|-prepare|p2a: Parasect|Solar Beam|p1a: Gengar
+|-boost|p2a: Parasect|spa|1
+|-boost|p2a: Parasect|spd|1
+|
+|turn|28
+|
+|move|p1a: Gengar|Explosion|p2a: Parasect
+|-damage|p2a: Parasect|104\/383
+|faint|p1a: Gengar
+|
+|switch|p1a: Chansey|Chansey|499\/703
+|turn|29
+|
+|move|p1a: Chansey|Ice Beam|p2a: Parasect
+|-supereffective|p2a: Parasect
+|-damage|p2a: Parasect|0 fnt
+|faint|p2a: Parasect
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|30
+|
+|move|p2a: Tauros|Body Slam|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|c|★Disaster Area|rip
+|c|★Disaster Area|used counter
+|c|★Disaster Area|ooo
+|
+|switch|p1a: Slowbro|Slowbro|393\/393
+|turn|31
+|
+|move|p2a: Tauros|Body Slam|p1a: Slowbro
+|-damage|p1a: Slowbro|306\/393
+|move|p1a: Slowbro|Thunder Wave|p2a: Tauros
+|-status|p2a: Tauros|par
+|
+|turn|32
+|
+|switch|p2a: Butterfree|Butterfree|49\/343
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|
+|turn|33
+|
+|move|p2a: Butterfree|Leech Life|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|204\/393
+|-heal|p2a: Butterfree|151\/343|[from] drain|[of] p1a: Slowbro
+|move|p1a: Slowbro|Thunder Wave|p2a: Butterfree
+|-status|p2a: Butterfree|par
+|
+|turn|34
+|
+|move|p1a: Slowbro|Psychic|p2a: Butterfree
+|-resisted|p2a: Butterfree
+|-damage|p2a: Butterfree|61\/343 par
+|move|p2a: Butterfree|Stun Spore|p1a: Slowbro
+|-status|p1a: Slowbro|par
+|
+|turn|35
+|
+|move|p2a: Butterfree|Leech Life|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|112\/393 par
+|-heal|p2a: Butterfree|153\/343 par|[from] drain|[of] p1a: Slowbro
+|move|p1a: Slowbro|Rest|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|-heal|p1a: Slowbro|393\/393 slp|[silent]
+|-status|p1a: Slowbro|slp|[from] move: Rest
+|
+|turn|36
+|
+|cant|p2a: Butterfree|par
+|cant|p1a: Slowbro|slp
+|
+|turn|37
+|
+|move|p2a: Butterfree|Leech Life|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|303\/393 slp
+|-heal|p2a: Butterfree|243\/343 par|[from] drain|[of] p1a: Slowbro
+|cant|p1a: Slowbro|slp
+|-curestatus|p1a: Slowbro|slp
+|
+|turn|38
+|
+|switch|p1a: Gyarados|Gyarados|243\/393
+|move|p2a: Butterfree|Stun Spore|p1a: Gyarados
+|-status|p1a: Gyarados|par
+|
+|turn|39
+|
+|switch|p2a: Starmie|Starmie|237\/323
+|move|p1a: Gyarados|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|98\/323
+|
+|turn|40
+|c|★Disaster Area|I really needed
+|c|★Disaster Area|twave on chansey
+|c|★Disaster Area|this match
+|c|★Disaster Area|lol
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|259\/323
+|move|p1a: Gyarados|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|115\/323
+|
+|turn|41
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|switch|p1a: Golem|Golem|284\/363
+|turn|42
+|
+|switch|p1a: Slowbro|Slowbro|303\/393
+|move|p2a: Starmie|Hydro Pump|p1a: Slowbro|[miss]
+|-miss|p2a: Starmie
+|
+|turn|43
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|134\/393
+|move|p1a: Slowbro|Thunder Wave|p2a: Starmie
+|-status|p2a: Starmie|par
+|
+|turn|44
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|move|p2a: Starmie|Thunderbolt|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|
+|switch|p1a: Golem|Golem|284\/363
+|turn|45
+|c|★Disaster Area|gg
+|
+|move|p1a: Golem|Earthquake|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|switch|p2a: Tauros|Tauros|353\/353 par
+|turn|46
+|
+|switch|p1a: Exeggutor|Exeggutor|348\/393 slp
+|move|p2a: Tauros|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|210\/393 slp
+|
+|turn|47
+|
+|cant|p1a: Exeggutor|slp
+|move|p2a: Tauros|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|73\/393 slp
+|
+|turn|48
+|
+|cant|p1a: Exeggutor|slp
+|-curestatus|p1a: Exeggutor|slp
+|move|p2a: Tauros|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Golem|Golem|284\/363
+|turn|49
+|
+|move|p1a: Golem|Earthquake|p2a: Tauros
+|-damage|p2a: Tauros|218\/353 par
+|move|p2a: Tauros|Blizzard|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|53\/363
+|
+|turn|50
+|
+|move|p1a: Golem|Earthquake|p2a: Tauros
+|-damage|p2a: Tauros|89\/353 par
+|move|p2a: Tauros|Earthquake|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|0 fnt
+|faint|p1a: Golem
+|
+|win|KristophV
+|raw|Ladder updating...
+|raw|Disaster Area's rating: 1113 &rarr; <strong>1080<\/strong><br \/>(-33 for losing)
+|raw|KristophV's rating: 1000 &rarr; <strong>1053<\/strong><br \/>(+53 for winning)
+|c|★Disaster Area|no fp
+|c|★Disaster Area|at all
+|c|★KristophV|gg
+|c|★Disaster Area|rip
+|c|★Disaster Area|gg

@@ -1,0 +1,251 @@
+﻿|join|yaldyyyy
+|join|oolman22
+|player|p1|yaldyyyy|1
+|player|p2|oolman22|274
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Hypno|Hypno, L85|318\/318
+|switch|p2a: Pidgeot|Pidgeot, L90|333\/333
+|turn|1
+|
+|switch|p1a: Golem|Golem, L79|288\/288
+|move|p2a: Pidgeot|Sky Attack|p1a: Golem|[still]
+|-prepare|p2a: Pidgeot|Sky Attack|p1a: Golem
+|
+|turn|2
+|
+|move|p2a: Pidgeot|Sky Attack|p1a: Golem|[miss]
+|-miss|p2a: Pidgeot
+|move|p1a: Golem|Rock Slide|p2a: Pidgeot
+|-supereffective|p2a: Pidgeot
+|-damage|p2a: Pidgeot|187\/333
+|
+|turn|3
+|
+|switch|p2a: Kabutops|Kabutops, L85|276\/276
+|move|p1a: Golem|Rock Slide|p2a: Kabutops
+|-damage|p2a: Kabutops|212\/276
+|
+|turn|4
+|
+|switch|p1a: Magikarp|Magikarp, L99|240\/240
+|move|p2a: Kabutops|Surf|p1a: Magikarp
+|-resisted|p1a: Magikarp
+|-damage|p1a: Magikarp|173\/240
+|
+|turn|5
+|
+|move|p1a: Magikarp|Dragon Rage|p2a: Kabutops
+|-damage|p2a: Kabutops|172\/276
+|move|p2a: Kabutops|Swords Dance|p2a: Kabutops
+|-boost|p2a: Kabutops|atk|2
+|
+|turn|6
+|
+|switch|p1a: Muk|Muk, L90|372\/372
+|move|p2a: Kabutops|Body Slam|p1a: Muk
+|-damage|p1a: Muk|227\/372
+|
+|turn|7
+|
+|move|p2a: Kabutops|Body Slam|p1a: Muk
+|-damage|p1a: Muk|71\/372
+|-status|p1a: Muk|par
+|move|p1a: Muk|Mega Drain|p2a: Kabutops
+|-supereffective|p2a: Kabutops
+|-damage|p2a: Kabutops|63\/276
+|-heal|p1a: Muk|125\/372 par|[from] drain|[of] p2a: Kabutops
+|
+|turn|8
+|
+|move|p2a: Kabutops|Body Slam|p1a: Muk
+|-damage|p1a: Muk|0 fnt
+|faint|p1a: Muk
+|
+|switch|p1a: Magikarp|Magikarp, L99|173\/240
+|turn|9
+|
+|move|p1a: Magikarp|Dragon Rage|p2a: Kabutops
+|-damage|p2a: Kabutops|23\/276
+|move|p2a: Kabutops|Body Slam|p1a: Magikarp
+|-damage|p1a: Magikarp|5\/240
+|-status|p1a: Magikarp|par
+|
+|turn|10
+|
+|move|p2a: Kabutops|Body Slam|p1a: Magikarp
+|-damage|p1a: Magikarp|0 fnt
+|faint|p1a: Magikarp
+|
+|switch|p1a: Omastar|Omastar, L90|309\/309
+|turn|11
+|
+|move|p2a: Kabutops|Hyper Beam|p1a: Omastar
+|-resisted|p1a: Omastar
+|-damage|p1a: Omastar|226\/309
+|move|p1a: Omastar|Seismic Toss|p2a: Kabutops
+|-damage|p2a: Kabutops|0 fnt
+|faint|p2a: Kabutops
+|
+|switch|p2a: Magneton|Magneton, L90|273\/273
+|turn|12
+|
+|switch|p2a: Muk|Muk, L90|372\/372
+|switch|p1a: Golem|Golem, L79|288\/288
+|
+|turn|13
+|
+|switch|p1a: Exeggutor|Exeggutor, L79|312\/312
+|move|p2a: Muk|Mega Drain|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|301\/312
+|
+|turn|14
+|
+|switch|p2a: Magneton|Magneton, L90|273\/273
+|move|p1a: Exeggutor|Sleep Powder|p2a: Magneton
+|-status|p2a: Magneton|slp
+|
+|turn|15
+|
+|switch|p2a: Muk|Muk, L90|372\/372
+|switch|p1a: Hypno|Hypno, L85|318\/318
+|
+|turn|16
+|
+|move|p1a: Hypno|Psychic|p2a: Muk
+|-supereffective|p2a: Muk
+|-damage|p2a: Muk|130\/372
+|move|p2a: Muk|Body Slam|p1a: Hypno
+|-damage|p1a: Hypno|238\/318
+|
+|turn|17
+|
+|move|p1a: Hypno|Psychic|p2a: Muk
+|-supereffective|p2a: Muk
+|-damage|p2a: Muk|0 fnt
+|faint|p2a: Muk
+|
+|switch|p2a: Pidgeot|Pidgeot, L90|187\/333
+|turn|18
+|
+|switch|p1a: Golem|Golem, L79|288\/288
+|move|p2a: Pidgeot|Double-Edge|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|244\/288
+|-damage|p2a: Pidgeot|176\/333|[from] recoil|[of] p1a: Golem
+|
+|turn|19
+|
+|move|p2a: Pidgeot|Reflect|p2a: Pidgeot
+|-start|p2a: Pidgeot|Reflect
+|move|p1a: Golem|Earthquake|p2a: Pidgeot
+|-immune|p2a: Pidgeot|[msg]
+|
+|turn|20
+|
+|move|p2a: Pidgeot|Sky Attack|p1a: Golem|[still]
+|-prepare|p2a: Pidgeot|Sky Attack|p1a: Golem
+|move|p1a: Golem|Rock Slide|p2a: Pidgeot
+|-supereffective|p2a: Pidgeot
+|-damage|p2a: Pidgeot|97\/333
+|
+|turn|21
+|
+|move|p2a: Pidgeot|Sky Attack|p1a: Golem
+|-crit|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|124\/288
+|move|p1a: Golem|Rock Slide|p2a: Pidgeot
+|-supereffective|p2a: Pidgeot
+|-damage|p2a: Pidgeot|15\/333
+|
+|turn|22
+|
+|move|p2a: Pidgeot|Double-Edge|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|77\/288
+|-damage|p2a: Pidgeot|4\/333|[from] recoil|[of] p1a: Golem
+|move|p1a: Golem|Body Slam|p2a: Pidgeot
+|-damage|p2a: Pidgeot|0 fnt
+|faint|p2a: Pidgeot
+|
+|switch|p2a: Arbok|Arbok, L90|291\/291
+|turn|23
+|
+|switch|p1a: Hypno|Hypno, L85|238\/318
+|move|p2a: Arbok|Earthquake|p1a: Hypno
+|-damage|p1a: Hypno|153\/318
+|
+|turn|24
+|
+|move|p2a: Arbok|Glare|p1a: Hypno|[miss]
+|-miss|p2a: Arbok
+|move|p1a: Hypno|Psychic|p2a: Arbok
+|-supereffective|p2a: Arbok
+|-damage|p2a: Arbok|47\/291
+|
+|turn|25
+|
+|move|p2a: Arbok|Glare|p1a: Hypno|[miss]
+|-miss|p2a: Arbok
+|move|p1a: Hypno|Psychic|p2a: Arbok
+|-supereffective|p2a: Arbok
+|-damage|p2a: Arbok|0 fnt
+|faint|p2a: Arbok
+|c|★oolman22|...
+|
+|switch|p2a: Magneton|Magneton, L90|273\/273 slp
+|turn|26
+|
+|switch|p1a: Golem|Golem, L79|77\/288
+|cant|p2a: Magneton|slp
+|
+|turn|27
+|
+|cant|p2a: Magneton|slp
+|move|p1a: Golem|Earthquake|p2a: Magneton
+|-crit|p2a: Magneton
+|-supereffective|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|faint|p2a: Magneton
+|
+|switch|p2a: Charmeleon|Charmeleon, L85|272\/272
+|turn|28
+|
+|move|p2a: Charmeleon|Seismic Toss|p1a: Golem
+|-damage|p1a: Golem|0 fnt
+|faint|p1a: Golem
+|
+|switch|p1a: Omastar|Omastar, L90|226\/309
+|turn|29
+|
+|move|p2a: Charmeleon|Substitute|p2a: Charmeleon
+|-start|p2a: Charmeleon|Substitute
+|-damage|p2a: Charmeleon|204\/272
+|move|p1a: Omastar|Surf|p2a: Charmeleon
+|-crit|p2a: Charmeleon
+|-supereffective|p2a: Charmeleon
+|-end|p2a: Charmeleon|Substitute
+|
+|turn|30
+|
+|move|p2a: Charmeleon|Seismic Toss|p1a: Omastar
+|-damage|p1a: Omastar|141\/309
+|move|p1a: Omastar|Surf|p2a: Charmeleon
+|-crit|p2a: Charmeleon
+|-supereffective|p2a: Charmeleon
+|-damage|p2a: Charmeleon|0 fnt
+|faint|p2a: Charmeleon
+|
+|win|yaldyyyy
+|raw|Ladder updating...
+|raw|yaldyyyy's rating: 1241 &rarr; <strong>1251<\/strong><br \/>(+10 for winning)
+|raw|oolman22's rating: 1000 &rarr; <strong>1000<\/strong><br \/>(+0 for losing)

@@ -1,0 +1,250 @@
+﻿|join|Vexye
+|join|MALESANI
+|player|p1|Vexye|107
+|player|p2|MALESANI|238
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|17660,53270,32878,31875
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Chansey|Chansey, L79|557\/557
+|switch|p2a: Kadabra|Kadabra, L85|242\/242
+|turn|1
+|choice|move 4|switch 3
+|
+|switch|p2a: Grimer|Grimer, L96|348\/348
+|move|p1a: Chansey|Ice Beam|p2a: Grimer
+|-damage|p2a: Grimer|270\/348
+|
+|turn|2
+|choice|move 2|move 4
+|
+|move|p2a: Grimer|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|365\/557
+|move|p1a: Chansey|Counter|p2a: Grimer
+|-damage|p2a: Grimer|0 fnt
+|faint|p2a: Grimer
+|choice||switch 5
+|
+|switch|p2a: Hitmonchan|Hitmonchan, L90|273\/273
+|turn|3
+|choice|move 2|move 3
+|
+|move|p2a: Hitmonchan|Submission|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|-damage|p2a: Hitmonchan|182\/273|[from] recoil|[of] p1a: Chansey
+|faint|p1a: Chansey
+|choice|switch 3|
+|
+|switch|p1a: Arbok|Arbok, L90|291\/291
+|turn|4
+|choice|move 3|move 2
+|
+|move|p1a: Arbok|Hyper Beam|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|68\/273
+|move|p2a: Hitmonchan|Body Slam|p1a: Arbok
+|-damage|p1a: Arbok|217\/291
+|
+|turn|5
+|-mustrecharge|p1a: Arbok
+|-mustrecharge|p1a: Arbok
+|choice|move 1|move 4
+|
+|cant|p1a: Arbok|recharge
+|move|p2a: Hitmonchan|Counter|p1a: Arbok
+|-damage|p1a: Arbok|69\/291
+|
+|turn|6
+|choice|move 3|move 1
+|
+|move|p1a: Arbok|Hyper Beam|p2a: Hitmonchan
+|-crit|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|0 fnt
+|faint|p2a: Hitmonchan
+|choice||switch 3
+|
+|switch|p2a: Kadabra|Kadabra, L85|242\/242
+|turn|7
+|choice|move 2|move 1
+|
+|move|p2a: Kadabra|Psychic|p1a: Arbok
+|-supereffective|p1a: Arbok
+|-damage|p1a: Arbok|0 fnt
+|faint|p1a: Arbok
+|choice|switch 6|
+|
+|switch|p1a: Electrode|Electrode, L90|291\/291
+|turn|8
+|choice|move 4|switch 4
+|
+|switch|p2a: Ninetales|Ninetales, L85|298\/298
+|move|p1a: Electrode|Thunder|p2a: Ninetales|[miss]
+|-miss|p1a: Electrode
+|
+|turn|9
+|choice|switch 2|move 1
+|
+|switch|p1a: Magnemite|Magnemite, L96|243\/243
+|move|p2a: Ninetales|Fire Blast|p1a: Magnemite|[miss]
+|-miss|p2a: Ninetales
+|
+|turn|10
+|choice|move 3|move 1
+|
+|move|p2a: Ninetales|Fire Blast|p1a: Magnemite|[miss]
+|-miss|p2a: Ninetales
+|move|p1a: Magnemite|Thunder|p2a: Ninetales
+|-damage|p2a: Ninetales|140\/298
+|
+|turn|11
+|choice|move 3|move 1
+|
+|move|p2a: Ninetales|Fire Blast|p1a: Magnemite
+|-damage|p1a: Magnemite|141\/243
+|move|p1a: Magnemite|Thunder|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|choice||switch 4
+|
+|switch|p2a: Kadabra|Kadabra, L85|242\/242
+|turn|12
+|choice|move 3|move 1
+|
+|move|p2a: Kadabra|Psychic|p1a: Magnemite
+|-damage|p1a: Magnemite|43\/243
+|move|p1a: Magnemite|Thunder|p2a: Kadabra
+|-damage|p2a: Kadabra|104\/242
+|
+|turn|13
+|choice|move 3|move 3
+|
+|move|p2a: Kadabra|Recover|p2a: Kadabra
+|-heal|p2a: Kadabra|225\/242
+|move|p1a: Magnemite|Thunder|p2a: Kadabra|[miss]
+|-miss|p1a: Magnemite
+|
+|turn|14
+|choice|move 3|move 4
+|
+|move|p2a: Kadabra|Seismic Toss|p1a: Magnemite
+|-damage|p1a: Magnemite|0 fnt
+|faint|p1a: Magnemite
+|choice|switch 2|
+|
+|switch|p1a: Electrode|Electrode, L90|291\/291
+|turn|15
+|choice|move 1|move 2
+|
+|move|p1a: Electrode|Explosion|p2a: Kadabra
+|-crit|p2a: Kadabra
+|-damage|p2a: Kadabra|0 fnt
+|faint|p2a: Kadabra
+|faint|p1a: Electrode
+|choice|switch 4|switch 6
+|
+|switch|p2a: Butterfree|Butterfree, L90|291\/291
+|switch|p1a: Squirtle|Squirtle, L96|279\/279
+|turn|16
+|choice|move 2|move 3
+|
+|move|p2a: Butterfree|Sleep Powder|p1a: Squirtle
+|-status|p1a: Squirtle|slp
+|-curestatus|p1a: Squirtle|slp
+|
+|turn|17
+|choice|move 2|move 3
+|
+|move|p2a: Butterfree|Sleep Powder|p1a: Squirtle
+|-status|p1a: Squirtle|slp
+|cant|p1a: Squirtle|slp
+|
+|turn|18
+|choice|move 2|move 1
+|
+|move|p2a: Butterfree|Psychic|p1a: Squirtle
+|-damage|p1a: Squirtle|205\/279 slp
+|-unboost|p1a: Squirtle|spd|1
+|-unboost|p1a: Squirtle|spa|1
+|cant|p1a: Squirtle|slp
+|
+|turn|19
+|choice|switch 5|move 1
+|
+|switch|p1a: Mew|Mew, L74|300\/300
+|move|p2a: Butterfree|Psychic|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|269\/300
+|
+|turn|20
+|choice|move 3|move 4
+|
+|move|p1a: Mew|Psychic|p2a: Butterfree
+|-damage|p2a: Butterfree|211\/291
+|move|p2a: Butterfree|Stun Spore|p1a: Mew
+|-status|p1a: Mew|par
+|
+|turn|21
+|choice|move 4|move 2
+|
+|move|p2a: Butterfree|Mega Drain|p1a: Mew
+|-damage|p1a: Mew|237\/300 par
+|-heal|p2a: Butterfree|227\/291|[from] drain|[of] p1a: Mew
+|move|p1a: Mew|Thunder Wave|p2a: Butterfree
+|-status|p2a: Butterfree|par
+|
+|turn|22
+|choice|switch 5|move 2
+|
+|switch|p1a: Squirtle|Squirtle, L96|205\/279 slp
+|cant|p2a: Butterfree|par
+|
+|turn|23
+|choice|move 2|move 2
+|
+|cant|p1a: Squirtle|slp
+|move|p2a: Butterfree|Mega Drain|p1a: Squirtle
+|-supereffective|p1a: Squirtle
+|-damage|p1a: Squirtle|137\/279 slp
+|-heal|p2a: Butterfree|261\/291 par|[from] drain|[of] p1a: Squirtle
+|
+|turn|24
+|choice|move 2|move 2
+|
+|cant|p1a: Squirtle|slp
+|move|p2a: Butterfree|Mega Drain|p1a: Squirtle
+|-supereffective|p1a: Squirtle
+|-damage|p1a: Squirtle|62\/279 slp
+|-heal|p2a: Butterfree|291\/291 par|[from] drain|[of] p1a: Squirtle
+|
+|turn|25
+|choice|move 2|move 1
+|
+|-curestatus|p1a: Squirtle|slp
+|move|p2a: Butterfree|Psychic|p1a: Squirtle
+|-damage|p1a: Squirtle|0 fnt
+|faint|p1a: Squirtle
+|choice|switch 5|
+|
+|switch|p1a: Mew|Mew, L74|237\/300 par
+|turn|26
+|choice|move 3|move 2
+|
+|move|p1a: Mew|Psychic|p2a: Butterfree
+|-damage|p2a: Butterfree|214\/291 par
+|move|p2a: Butterfree|Mega Drain|p1a: Mew
+|-crit|p1a: Mew
+|-damage|p1a: Mew|177\/300 par
+|-heal|p2a: Butterfree|244\/291 par|[from] drain|[of] p1a: Mew
+|
+|turn|27
+|-message|Vexye forfeited.
+|
+|win|MALESANI
+|leave|Vexye
+|player|p1

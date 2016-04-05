@@ -1,0 +1,248 @@
+﻿|join|riwu
+|join|Noratraika
+|player|p1|riwu|102
+|player|p2|Noratraika|285
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|52906,24187,29621,20420
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Beedrill|Beedrill, L90|300\/300
+|switch|p2a: Marowak|Marowak, L90|291\/291
+|turn|1
+|choice|switch 5|move 3
+|
+|switch|p1a: Cloyster|Cloyster, L83|253\/253
+|move|p2a: Marowak|Earthquake|p1a: Cloyster
+|-damage|p1a: Cloyster|185\/253
+|
+|turn|2
+|choice|move 3|switch 3
+|
+|switch|p2a: Starmie|Starmie, L79|257\/257
+|move|p1a: Cloyster|Blizzard|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|204\/257
+|
+|turn|3
+|choice|move 4|switch 5
+|
+|switch|p2a: Rattata|Rattata, L96|252\/252
+|move|p1a: Cloyster|Explosion|p2a: Rattata
+|-damage|p2a: Rattata|0 fnt
+|faint|p2a: Rattata
+|faint|p1a: Cloyster
+|choice|switch 4|switch 4
+|
+|switch|p2a: Beedrill|Beedrill, L90|300\/300
+|switch|p1a: Exeggutor|Exeggutor, L79|312\/312
+|turn|4
+|choice|switch 2|move 3
+|
+|switch|p1a: Lapras|Lapras, L79|367\/367
+|move|p2a: Beedrill|Twineedle|p1a: Lapras
+|-damage|p1a: Lapras|338\/367
+|-status|p1a: Lapras|psn
+|-damage|p1a: Lapras|309\/367 psn
+|-hitcount|p1a: Lapras|2
+|
+|turn|5
+|choice|move 3|switch 5
+|
+|switch|p2a: Starmie|Starmie, L79|204\/257
+|move|p1a: Lapras|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|83\/257
+|-damage|p1a: Lapras|287\/367 psn|[from] psn|[of] p2a: Starmie
+|
+|turn|6
+|choice|move 3|move 1
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|211\/257
+|move|p1a: Lapras|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|91\/257
+|-damage|p1a: Lapras|265\/367 psn|[from] psn|[of] p2a: Starmie
+|
+|turn|7
+|choice|move 3|switch 3
+|
+|switch|p2a: Marowak|Marowak, L90|291\/291
+|move|p1a: Lapras|Thunderbolt|p2a: Marowak
+|-immune|p2a: Marowak|[msg]
+|-damage|p1a: Lapras|243\/367 psn|[from] psn|[of] p2a: Marowak
+|
+|turn|8
+|choice|move 4|switch 6
+|
+|switch|p2a: Raticate|Raticate, L85|267\/267
+|move|p1a: Lapras|Blizzard|p2a: Raticate
+|-damage|p2a: Raticate|115\/267
+|-damage|p1a: Lapras|221\/367 psn|[from] psn|[of] p2a: Raticate
+|
+|turn|9
+|choice|move 4|move 3
+|
+|move|p2a: Raticate|Hyper Beam|p1a: Lapras
+|-damage|p1a: Lapras|52\/367 psn
+|move|p1a: Lapras|Blizzard|p2a: Raticate
+|-damage|p2a: Raticate|0 fnt
+|faint|p2a: Raticate
+|choice||switch 3
+|
+|switch|p2a: Starmie|Starmie, L79|91\/257
+|turn|10
+|choice|move 3|move 4
+|
+|move|p2a: Starmie|Surf|p1a: Lapras
+|-crit|p1a: Lapras
+|-resisted|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|choice|switch 2|
+|
+|switch|p1a: Exeggutor|Exeggutor, L79|312\/312
+|turn|11
+|choice|move 1|switch 2
+|
+|switch|p2a: Dratini|Dratini, L96|274\/274
+|move|p1a: Exeggutor|Sleep Powder|p2a: Dratini
+|-status|p2a: Dratini|slp
+|
+|turn|12
+|choice|move 4|move 4
+|
+|cant|p2a: Dratini|slp
+|move|p1a: Exeggutor|Egg Bomb|p2a: Dratini
+|-damage|p2a: Dratini|199\/274 slp
+|
+|turn|13
+|choice|switch 6|switch 5
+|
+|switch|p2a: Beedrill|Beedrill, L90|300\/300
+|switch|p1a: Lickitung|Lickitung, L90|345\/345
+|
+|turn|14
+|choice|move 2|move 4
+|
+|move|p2a: Beedrill|Swords Dance|p2a: Beedrill
+|-boost|p2a: Beedrill|atk|2
+|move|p1a: Lickitung|Swords Dance|p1a: Lickitung
+|-boost|p1a: Lickitung|atk|2
+|
+|turn|15
+|choice|move 1|move 3
+|
+|move|p2a: Beedrill|Twineedle|p1a: Lickitung
+|-damage|p1a: Lickitung|288\/345
+|-damage|p1a: Lickitung|231\/345
+|-status|p1a: Lickitung|psn
+|-hitcount|p1a: Lickitung|2
+|move|p1a: Lickitung|Hyper Beam|p2a: Beedrill
+|-damage|p2a: Beedrill|0 fnt
+|faint|p2a: Beedrill
+|choice||switch 6
+|
+|switch|p2a: Marowak|Marowak, L90|291\/291
+|turn|16
+|choice|move 2|move 3
+|
+|move|p2a: Marowak|Earthquake|p1a: Lickitung
+|-damage|p1a: Lickitung|116\/345 psn
+|move|p1a: Lickitung|Swords Dance|p1a: Lickitung
+|-boost|p1a: Lickitung|atk|2
+|-damage|p1a: Lickitung|95\/345 psn|[from] psn
+|
+|turn|17
+|choice|move 1|move 3
+|
+|move|p2a: Marowak|Earthquake|p1a: Lickitung
+|-damage|p1a: Lickitung|0 fnt
+|faint|p1a: Lickitung
+|choice|switch 6|
+|
+|switch|p1a: Exeggutor|Exeggutor, L79|312\/312
+|turn|18
+|choice|move 2|move 4
+|
+|move|p2a: Marowak|Blizzard|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|96\/312
+|move|p1a: Exeggutor|Mega Drain|p2a: Marowak
+|-supereffective|p2a: Marowak
+|-damage|p2a: Marowak|180\/291
+|-heal|p1a: Exeggutor|151\/312|[from] drain|[of] p2a: Marowak
+|
+|turn|19
+|choice|move 2|move 4
+|
+|move|p2a: Marowak|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|45\/312
+|move|p1a: Exeggutor|Mega Drain|p2a: Marowak
+|-supereffective|p2a: Marowak
+|-damage|p2a: Marowak|70\/291
+|-heal|p1a: Exeggutor|100\/312|[from] drain|[of] p2a: Marowak
+|
+|turn|20
+|choice|move 2|move 4
+|
+|move|p2a: Marowak|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|choice|switch 5|
+|
+|switch|p1a: Beedrill|Beedrill, L90|300\/300
+|turn|21
+|choice|move 4|move 1
+|
+|move|p1a: Beedrill|Hyper Beam|p2a: Marowak
+|-damage|p2a: Marowak|0 fnt
+|faint|p2a: Marowak
+|choice||switch 2
+|
+|switch|p2a: Starmie|Starmie, L79|91\/257
+|turn|22
+|choice|move 1|move 2
+|
+|move|p2a: Starmie|Blizzard|p1a: Beedrill|[miss]
+|-miss|p2a: Starmie
+|move|p1a: Beedrill|Twineedle|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|32\/257
+|-damage|p2a: Starmie|0 fnt
+|-hitcount|p2a: Starmie|2
+|faint|p2a: Starmie
+|choice||switch 5
+|
+|switch|p2a: Dratini|Dratini, L96|199\/274 slp
+|turn|23
+|choice|move 2|move 2
+|
+|move|p1a: Beedrill|Swords Dance|p1a: Beedrill
+|-boost|p1a: Beedrill|atk|2
+|cant|p2a: Dratini|slp
+|
+|turn|24
+|choice|move 2|move 2
+|
+|move|p1a: Beedrill|Swords Dance|p1a: Beedrill
+|-boost|p1a: Beedrill|atk|2
+|cant|p2a: Dratini|slp
+|
+|turn|25
+|choice|move 4|move 3
+|
+|move|p1a: Beedrill|Hyper Beam|p2a: Dratini
+|-damage|p2a: Dratini|0 fnt
+|faint|p2a: Dratini
+|
+|win|riwu

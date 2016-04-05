@@ -1,0 +1,207 @@
+﻿|join|riwu
+|join|poopyface5000
+|player|p1|riwu|101
+|player|p2|poopyface5000|107
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|11967,26868,56756,38967
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Vaporeon|Vaporeon, L85|395\/395
+|switch|p2a: Staryu|Staryu, L90|237\/237
+|turn|1
+|c|★riwu|rank poopyface5000
+|c|★poopyface5000|poopyface - #1
+|c|★poopyface5000|haha idk
+|choice|switch 3|move 4
+|
+|switch|p1a: Nidoking|Nidoking, L85|311\/311
+|move|p2a: Staryu|Thunder Wave|p1a: Nidoking
+|-immune|p1a: Nidoking|[msg]
+|
+|turn|2
+|choice|switch 6|move 2
+|
+|switch|p1a: Starmie|Starmie, L79|257\/257
+|move|p2a: Staryu|Surf|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|215\/257
+|
+|turn|3
+|choice|move 3|switch 5
+|
+|switch|p2a: Hitmonlee|Hitmonlee, L90|273\/273
+|move|p1a: Starmie|Thunderbolt|p2a: Hitmonlee
+|-crit|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|101\/273
+|
+|turn|4
+|choice|move 4|move 4
+|
+|move|p1a: Starmie|Surf|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|0 fnt
+|faint|p2a: Hitmonlee
+|choice||switch 3
+|
+|switch|p2a: Tangela|Tangela, L85|284\/284
+|turn|5
+|choice|move 2|move 2
+|
+|move|p1a: Starmie|Blizzard|p2a: Tangela
+|-supereffective|p2a: Tangela
+|-damage|p2a: Tangela|151\/284
+|move|p2a: Tangela|Sleep Powder|p1a: Starmie
+|-status|p1a: Starmie|slp
+|
+|turn|6
+|c|★poopyface5000|sometime today
+|choice|switch 5|move 3
+|
+|switch|p1a: Mewtwo|Mewtwo, L70|293\/293
+|move|p2a: Tangela|Mega Drain|p1a: Mewtwo
+|-damage|p1a: Mewtwo|254\/293
+|-heal|p2a: Tangela|170\/284|[from] drain|[of] p1a: Mewtwo
+|
+|turn|7
+|choice|move 3|move 1
+|
+|move|p1a: Mewtwo|Ice Beam|p2a: Tangela
+|-supereffective|p2a: Tangela
+|-damage|p2a: Tangela|57\/284
+|move|p2a: Tangela|Stun Spore|p1a: Mewtwo
+|-status|p1a: Mewtwo|par
+|
+|turn|8
+|choice|move 1|move 3
+|
+|move|p2a: Tangela|Mega Drain|p1a: Mewtwo
+|-damage|p1a: Mewtwo|219\/293 par
+|-heal|p2a: Tangela|74\/284|[from] drain|[of] p1a: Mewtwo
+|move|p1a: Mewtwo|Psychic|p2a: Tangela
+|-damage|p2a: Tangela|0 fnt
+|faint|p2a: Tangela
+|choice||switch 4
+|
+|switch|p2a: Nidoqueen|Nidoqueen, L85|327\/327
+|turn|9
+|choice|move 1|move 1
+|
+|move|p2a: Nidoqueen|Earthquake|p1a: Mewtwo
+|-damage|p1a: Mewtwo|109\/293 par
+|move|p1a: Mewtwo|Psychic|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|104\/327
+|
+|turn|10
+|choice|switch 4|move 2
+|
+|switch|p1a: Dugtrio|Dugtrio, L85|233\/233
+|move|p2a: Nidoqueen|Thunder|p1a: Dugtrio
+|-immune|p1a: Dugtrio|[msg]
+|
+|turn|11
+|choice|move 1|move 4
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|0 fnt
+|faint|p2a: Nidoqueen
+|choice||switch 5
+|
+|switch|p2a: Staryu|Staryu, L90|237\/237
+|turn|12
+|choice|switch 2|move 2
+|
+|switch|p1a: Muk|Muk, L90|372\/372
+|move|p2a: Staryu|Surf|p1a: Muk
+|-damage|p1a: Muk|270\/372
+|
+|turn|13
+|choice|move 4|move 4
+|
+|move|p2a: Staryu|Thunder Wave|p1a: Muk
+|-status|p1a: Muk|par
+|cant|p1a: Muk|par
+|
+|turn|14
+|choice|move 1|move 2
+|
+|move|p2a: Staryu|Surf|p1a: Muk
+|-damage|p1a: Muk|160\/372 par
+|move|p1a: Muk|Explosion|p2a: Staryu
+|-damage|p2a: Staryu|0 fnt
+|faint|p2a: Staryu
+|faint|p1a: Muk
+|choice|switch 6|switch 2
+|
+|switch|p2a: Pinsir|Pinsir, L85|284\/284
+|switch|p1a: Nidoking|Nidoking, L85|311\/311
+|turn|15
+|c|★poopyface5000|!weakness nidoking
+|raw|<div class="infobox">Nidoking (ignoring abilities):<br><span class="message-effect-weak">Weaknesses<\/span>: Ground, Ice, Psychic, Water<br><span class="message-effect-resist">Resistances<\/span>: Bug, Fairy, Fighting, <b>Poison<\/b>, Rock<br><span class="message-effect-immune">Immunities<\/span>: Electric<\/div>
+|choice|move 2|move 3
+|
+|move|p1a: Nidoking|Thunderbolt|p2a: Pinsir
+|-damage|p2a: Pinsir|209\/284
+|move|p2a: Pinsir|Body Slam|p1a: Nidoking
+|-damage|p1a: Nidoking|233\/311
+|
+|turn|16
+|choice|move 2|move 3
+|
+|move|p1a: Nidoking|Thunderbolt|p2a: Pinsir
+|-damage|p2a: Pinsir|132\/284
+|-status|p2a: Pinsir|par
+|move|p2a: Pinsir|Body Slam|p1a: Nidoking
+|-damage|p1a: Nidoking|154\/311
+|
+|turn|17
+|choice|move 2|move 3
+|
+|move|p1a: Nidoking|Thunderbolt|p2a: Pinsir
+|-damage|p2a: Pinsir|58\/284 par
+|cant|p2a: Pinsir|par
+|
+|turn|18
+|choice|move 2|move 3
+|
+|move|p1a: Nidoking|Thunderbolt|p2a: Pinsir
+|-damage|p2a: Pinsir|0 fnt
+|faint|p2a: Pinsir
+|choice||switch 6
+|
+|switch|p2a: Rapidash|Rapidash, L90|300\/300
+|turn|19
+|choice|move 1|move 1
+|
+|move|p2a: Rapidash|Fire Blast|p1a: Nidoking
+|-damage|p1a: Nidoking|21\/311
+|move|p1a: Nidoking|Earthquake|p2a: Rapidash
+|-supereffective|p2a: Rapidash
+|-damage|p2a: Rapidash|71\/300
+|
+|turn|20
+|choice|move 1|move 1
+|
+|move|p2a: Rapidash|Fire Blast|p1a: Nidoking
+|-damage|p1a: Nidoking|0 fnt
+|faint|p1a: Nidoking
+|choice|switch 2|
+|
+|switch|p1a: Dugtrio|Dugtrio, L85|233\/233
+|turn|21
+|choice|move 1|move 1
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Rapidash
+|-supereffective|p2a: Rapidash
+|-damage|p2a: Rapidash|0 fnt
+|faint|p2a: Rapidash
+|
+|win|riwu
+|raw|riwu's rating: 1384 &rarr; <strong>1395<\/strong><br \/>(+11 for winning)
+|raw|poopyface5000's rating: 1222 &rarr; <strong>1208<\/strong><br \/>(-14 for losing)

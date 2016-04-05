@@ -1,0 +1,446 @@
+﻿|join|Typhlito
+|join|Giju
+|player|p1|Typhlito|31
+|player|p2|Giju|163
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|switch|p2a: Jynx|Jynx|333\/333
+|turn|1
+|join|Togie
+|
+|switch|p1a: Lapras|Lapras|463\/463
+|move|p2a: Jynx|Lovely Kiss|p1a: Lapras
+|-status|p1a: Lapras|slp
+|
+|turn|2
+|c|★Giju|your last team was pretty good
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|move|p2a: Jynx|Reflect|p2a: Jynx
+|
+|turn|3
+|
+|switch|p2a: Hypno|Hypno|373\/373
+|move|p1a: Starmie|Thunder Wave|p2a: Hypno
+|-status|p2a: Hypno|par
+|
+|turn|4
+|c|★Typhlito|you think so?
+|c|★Giju|y
+|c|★Typhlito|it doesnt have one psychic tho lol
+|
+|switch|p1a: Lapras|Lapras|463\/463 slp
+|cant|p2a: Hypno|par
+|
+|turn|5
+|c|★Giju|yes this is not a good thing
+|
+|cant|p1a: Lapras|slp
+|move|p2a: Hypno|Psychic|p1a: Lapras
+|-damage|p1a: Lapras|351\/463 slp
+|
+|turn|6
+|
+|cant|p1a: Lapras|slp
+|move|p2a: Hypno|Psychic|p1a: Lapras
+|-damage|p1a: Lapras|239\/463 slp
+|
+|turn|7
+|
+|cant|p1a: Lapras|slp
+|-curestatus|p1a: Lapras|slp
+|move|p2a: Hypno|Psychic|p1a: Lapras
+|-damage|p1a: Lapras|111\/463
+|-unboost|p1a: Lapras|spd|1
+|-unboost|p1a: Lapras|spa|1
+|
+|turn|8
+|
+|move|p1a: Lapras|Rest|p1a: Lapras
+|-status|p1a: Lapras|slp
+|-heal|p1a: Lapras|463\/463 slp|[silent]
+|-status|p1a: Lapras|slp|[from] move: Rest
+|move|p2a: Hypno|Psychic|p1a: Lapras
+|-damage|p1a: Lapras|273\/463 slp
+|
+|turn|9
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|switch|p2a: Starmie|Starmie|323\/323
+|
+|turn|10
+|
+|move|p2a: Starmie|Thunder Wave|p1a: Exeggutor
+|-status|p1a: Exeggutor|par
+|move|p1a: Exeggutor|Sleep Powder|p2a: Starmie
+|-status|p2a: Starmie|slp
+|
+|turn|11
+|c|★Giju|mm
+|
+|switch|p2a: Jynx|Jynx|333\/333
+|switch|p1a: Starmie|Starmie|323\/323
+|
+|turn|12
+|
+|switch|p2a: Hypno|Hypno|373\/373 par
+|move|p1a: Starmie|Thunder|p2a: Hypno|[miss]
+|-miss|p1a: Starmie
+|
+|turn|13
+|
+|switch|p1a: Rhydon|Rhydon|413\/413
+|cant|p2a: Hypno|par
+|
+|turn|14
+|leave|Togie
+|
+|move|p1a: Rhydon|Earthquake|p2a: Hypno
+|-damage|p2a: Hypno|189\/373 par
+|cant|p2a: Hypno|par
+|
+|turn|15
+|
+|move|p1a: Rhydon|Earthquake|p2a: Hypno
+|-damage|p2a: Hypno|26\/373 par
+|move|p2a: Hypno|Hypnosis|p1a: Rhydon
+|-status|p1a: Rhydon|slp
+|
+|turn|16
+|
+|switch|p2a: Persian|Persian|333\/333
+|cant|p1a: Rhydon|slp
+|
+|turn|17
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|move|p2a: Persian|Bubble Beam|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|303\/323
+|
+|turn|18
+|
+|switch|p2a: Starmie|Starmie|323\/323 slp
+|move|p1a: Starmie|Thunder Wave|p2a: Starmie
+|-fail|p2a: Starmie
+|
+|turn|19
+|
+|cant|p2a: Starmie|slp
+|-curestatus|p2a: Starmie|slp
+|move|p1a: Starmie|Thunder|p2a: Starmie|[miss]
+|-miss|p1a: Starmie
+|
+|turn|20
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393 par
+|switch|p2a: Hypno|Hypno|26\/373 par
+|
+|turn|21
+|
+|move|p2a: Hypno|Rest|p2a: Hypno
+|-status|p2a: Hypno|slp
+|-heal|p2a: Hypno|373\/373 slp|[silent]
+|-status|p2a: Hypno|slp|[from] move: Rest
+|move|p1a: Exeggutor|Mega Drain|p2a: Hypno
+|-damage|p2a: Hypno|322\/373 slp
+|
+|turn|22
+|
+|switch|p2a: Jynx|Jynx|333\/333
+|switch|p1a: Starmie|Starmie|303\/323
+|
+|turn|23
+|
+|switch|p2a: Hypno|Hypno|322\/373 slp
+|move|p1a: Starmie|Thunder|p2a: Hypno
+|-damage|p2a: Hypno|239\/373 slp
+|
+|turn|24
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|cant|p2a: Hypno|slp
+|
+|turn|25
+|
+|switch|p2a: Golem|Golem|363\/363
+|move|p1a: Tauros|Body Slam|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|324\/363
+|
+|turn|26
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393 par
+|switch|p2a: Jynx|Jynx|333\/333
+|
+|turn|27
+|
+|switch|p1a: Starmie|Starmie|303\/323
+|move|p2a: Jynx|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|249\/323
+|
+|turn|28
+|join|Crestfall
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|switch|p2a: Hypno|Hypno|239\/373 slp
+|
+|turn|29
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|move|p1a: Tauros|Blizzard|p2a: Starmie
+|-crit|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|252\/323
+|
+|turn|30
+|
+|switch|p1a: Lapras|Lapras|273\/463 slp
+|move|p2a: Starmie|Thunder Wave|p1a: Lapras
+|-fail|p1a: Lapras
+|
+|turn|31
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393 par
+|move|p2a: Starmie|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|219\/393 par
+|
+|turn|32
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|187\/393 par
+|move|p1a: Exeggutor|Sleep Powder|p2a: Starmie
+|-status|p2a: Starmie|slp
+|
+|turn|33
+|
+|switch|p2a: Jynx|Jynx|333\/333
+|cant|p1a: Exeggutor|par
+|
+|turn|34
+|
+|switch|p2a: Hypno|Hypno|239\/373 slp
+|switch|p1a: Starmie|Starmie|249\/323
+|
+|turn|35
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|cant|p2a: Hypno|slp
+|-curestatus|p2a: Hypno|slp
+|
+|turn|36
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Hypno
+|-damage|p2a: Hypno|30\/373
+|move|p2a: Hypno|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|
+|turn|37
+|
+|move|p2a: Hypno|Psychic|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|83\/353 par
+|cant|p1a: Tauros|recharge
+|
+|turn|38
+|c|%Crestfall|stronk
+|c|★Typhlito|ah
+|
+|switch|p1a: Starmie|Starmie|249\/323
+|move|p2a: Hypno|Rest|p2a: Hypno
+|-status|p2a: Hypno|slp
+|-heal|p2a: Hypno|373\/373 slp|[silent]
+|-status|p2a: Hypno|slp|[from] move: Rest
+|
+|turn|39
+|
+|move|p1a: Starmie|Thunder|p2a: Hypno
+|-damage|p2a: Hypno|287\/373 slp
+|cant|p2a: Hypno|slp
+|
+|turn|40
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|cant|p2a: Hypno|slp
+|-curestatus|p2a: Hypno|slp
+|
+|turn|41
+|
+|switch|p2a: Golem|Golem|324\/363
+|move|p1a: Snorlax|Earthquake|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|188\/363
+|
+|turn|42
+|
+|move|p2a: Golem|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|427\/523
+|-status|p1a: Snorlax|par
+|cant|p1a: Snorlax|par
+|
+|turn|43
+|
+|switch|p1a: Rhydon|Rhydon|413\/413 slp
+|move|p2a: Golem|Earthquake|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|203\/413 slp
+|
+|turn|44
+|
+|switch|p1a: Exeggutor|Exeggutor|187\/393 par
+|move|p2a: Golem|Body Slam|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-damage|p1a: Exeggutor|26\/393 par
+|
+|turn|45
+|
+|move|p2a: Golem|Earthquake|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Starmie|Starmie|249\/323
+|turn|46
+|
+|switch|p2a: Hypno|Hypno|287\/373
+|move|p1a: Starmie|Blizzard|p2a: Hypno
+|-crit|p2a: Hypno
+|-damage|p2a: Hypno|105\/373
+|
+|turn|47
+|
+|switch|p1a: Tauros|Tauros|83\/353 par
+|move|p2a: Hypno|Thunder Wave|p1a: Tauros
+|-fail|p1a: Tauros|par
+|
+|turn|48
+|
+|move|p2a: Hypno|Psychic|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|switch|p1a: Snorlax|Snorlax|427\/523 par
+|turn|49
+|
+|move|p2a: Hypno|Rest|p2a: Hypno
+|-status|p2a: Hypno|slp
+|-heal|p2a: Hypno|373\/373 slp|[silent]
+|-status|p2a: Hypno|slp|[from] move: Rest
+|move|p1a: Snorlax|Earthquake|p2a: Hypno
+|-crit|p2a: Hypno
+|-damage|p2a: Hypno|171\/373 slp
+|
+|turn|50
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|move|p1a: Snorlax|Hyper Beam|p2a: Tauros
+|-damage|p2a: Tauros|159\/353
+|
+|turn|51
+|
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|294\/523 par
+|cant|p1a: Snorlax|par
+|
+|turn|52
+|
+|switch|p1a: Rhydon|Rhydon|203\/413 slp
+|move|p2a: Tauros|Body Slam|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|159\/413 slp
+|
+|turn|53
+|
+|switch|p1a: Starmie|Starmie|249\/323
+|move|p2a: Tauros|Earthquake|p1a: Starmie
+|-damage|p1a: Starmie|167\/323
+|
+|turn|54
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|323\/323
+|move|p2a: Tauros|Hyper Beam|p1a: Starmie
+|-crit|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|c|★Typhlito|:[
+|
+|switch|p1a: Rhydon|Rhydon|159\/413 slp
+|turn|55
+|c|★Typhlito|i lost now lol
+|
+|move|p2a: Tauros|Earthquake|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|12\/413 slp
+|cant|p1a: Rhydon|slp
+|
+|turn|56
+|
+|move|p2a: Tauros|Body Slam|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|
+|switch|p1a: Snorlax|Snorlax|294\/523 par
+|turn|57
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|83\/523 par
+|cant|p1a: Snorlax|par
+|
+|turn|58
+|
+|cant|p2a: Tauros|recharge
+|move|p1a: Snorlax|Hyper Beam|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|switch|p2a: Persian|Persian|333\/333
+|turn|59
+|
+|move|p2a: Persian|Slash|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|switch|p1a: Lapras|Lapras|273\/463 slp
+|turn|60
+|
+|move|p2a: Persian|Thunderbolt|p1a: Lapras
+|-crit|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|47\/463 slp
+|cant|p1a: Lapras|slp
+|
+|turn|61
+|
+|move|p2a: Persian|Slash|p1a: Lapras
+|-crit|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|
+|win|Giju
+|c|★Typhlito|gg
+|c|★Giju|gggg
+|c|★Typhlito|that was rough lol
+|c|★Giju|double gg
+|c|★Giju|great fight
+|c|★Typhlito|yep n_n
+|c|★Giju|trick is predict and sweep
+|c|★Typhlito|*and hope hax gods are on your side
+|c|★Typhlito|:p
+|c|★Giju|of course ^^

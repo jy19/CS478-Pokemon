@@ -1,0 +1,658 @@
+﻿|join|kid gf lol
+|join|dramlamb
+|player|p1|kid gf lol|168
+|player|p2|dramlamb|28
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|switch|p1a: Zam Lead|Alakazam|313\/313
+|switch|p2a: Alakazam|Alakazam|313\/313
+|turn|1
+|chat|dramlamb|glhf
+|
+|switch|p1a: Result of Incest|Exeggutor|393\/393
+|move|p2a: Alakazam|Psychic|p1a: Result of Incest
+|-resisted|p1a: Result of Incest
+|-damage|p1a: Result of Incest|335\/393
+|
+|turn|2
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Result of Incest|Sleep Powder|p2a: Snorlax
+|-status|p2a: Snorlax|slp
+|
+|turn|3
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Result of Incest|Psychic|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|282\/393
+|-unboost|p2a: Exeggutor|spd|1
+|-unboost|p2a: Exeggutor|spa|1
+|
+|turn|4
+|
+|switch|p1a: Zam Lead|Alakazam|313\/313
+|move|p2a: Exeggutor|Psychic|p1a: Zam Lead
+|-resisted|p1a: Zam Lead
+|-damage|p1a: Zam Lead|278\/313
+|
+|turn|5
+|
+|move|p1a: Zam Lead|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|195\/393
+|-unboost|p2a: Exeggutor|spd|1
+|-unboost|p2a: Exeggutor|spa|1
+|move|p2a: Exeggutor|Sleep Powder|p1a: Zam Lead
+|-status|p1a: Zam Lead|slp
+|
+|turn|6
+|
+|switch|p2a: Alakazam|Alakazam|313\/313
+|cant|p1a: Zam Lead|slp
+|
+|turn|7
+|
+|move|p2a: Alakazam|Psychic|p1a: Zam Lead
+|-resisted|p1a: Zam Lead
+|-damage|p1a: Zam Lead|224\/313 slp
+|cant|p1a: Zam Lead|slp
+|-curestatus|p1a: Zam Lead|slp
+|
+|turn|8
+|
+|move|p1a: Zam Lead|Thunder Wave|p2a: Alakazam
+|-status|p2a: Alakazam|par
+|cant|p2a: Alakazam|par
+|
+|turn|9
+|
+|switch|p1a: Egg Kangaroo|Chansey|703\/703
+|cant|p2a: Alakazam|par
+|
+|turn|10
+|
+|move|p1a: Egg Kangaroo|Ice Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|250\/313 par
+|move|p2a: Alakazam|Thunder Wave|p1a: Egg Kangaroo
+|-status|p1a: Egg Kangaroo|par
+|
+|turn|11
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|313\/313 par
+|move|p1a: Egg Kangaroo|Thunderbolt|p2a: Alakazam
+|-damage|p2a: Alakazam|248\/313 par
+|
+|turn|12
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|313\/313 par
+|move|p1a: Egg Kangaroo|Ice Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|248\/313 par
+|
+|turn|13
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|313\/313 par
+|move|p1a: Egg Kangaroo|Ice Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|247\/313 par
+|
+|turn|14
+|
+|cant|p2a: Alakazam|par
+|move|p1a: Egg Kangaroo|Ice Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|187\/313 par
+|
+|turn|15
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|313\/313 par
+|move|p1a: Egg Kangaroo|Thunderbolt|p2a: Alakazam
+|-damage|p2a: Alakazam|248\/313 par
+|
+|turn|16
+|
+|cant|p2a: Alakazam|par
+|cant|p1a: Egg Kangaroo|par
+|
+|turn|17
+|
+|move|p2a: Alakazam|Psychic|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|582\/703 par
+|-unboost|p1a: Egg Kangaroo|spd|1
+|-unboost|p1a: Egg Kangaroo|spa|1
+|move|p1a: Egg Kangaroo|Thunderbolt|p2a: Alakazam
+|-damage|p2a: Alakazam|209\/313 par
+|
+|turn|18
+|
+|switch|p1a: Zam Lead|Alakazam|224\/313
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|313\/313 par
+|
+|turn|19
+|
+|switch|p1a: Egg Kangaroo|Chansey|582\/703 par
+|move|p2a: Alakazam|Thunder Wave|p1a: Egg Kangaroo
+|-fail|p1a: Egg Kangaroo|par
+|
+|turn|20
+|
+|move|p2a: Alakazam|Psychic|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|465\/703 par
+|move|p1a: Egg Kangaroo|Thunderbolt|p2a: Alakazam
+|-damage|p2a: Alakazam|250\/313 par
+|
+|turn|21
+|
+|move|p2a: Alakazam|Psychic|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|343\/703 par
+|-unboost|p1a: Egg Kangaroo|spd|1
+|-unboost|p1a: Egg Kangaroo|spa|1
+|move|p1a: Egg Kangaroo|Soft-Boiled|p1a: Egg Kangaroo
+|-heal|p1a: Egg Kangaroo|694\/703 par
+|
+|turn|22
+|
+|switch|p2a: Jynx|Jynx|333\/333
+|switch|p1a: Zam Lead|Alakazam|224\/313
+|
+|turn|23
+|
+|switch|p1a: Egg Kangaroo|Chansey|694\/703 par
+|switch|p2a: Alakazam|Alakazam|250\/313 par
+|
+|turn|24
+|
+|move|p2a: Alakazam|Psychic|p1a: Egg Kangaroo
+|-crit|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|449\/703 par
+|-unboost|p1a: Egg Kangaroo|spd|1
+|-unboost|p1a: Egg Kangaroo|spa|1
+|move|p1a: Egg Kangaroo|Thunderbolt|p2a: Alakazam
+|-damage|p2a: Alakazam|209\/313 par
+|
+|turn|25
+|
+|move|p2a: Alakazam|Psychic|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|257\/703 par
+|-unboost|p1a: Egg Kangaroo|spd|1
+|-unboost|p1a: Egg Kangaroo|spa|1
+|cant|p1a: Egg Kangaroo|par
+|
+|turn|26
+|
+|switch|p1a: Zam Lead|Alakazam|224\/313
+|move|p2a: Alakazam|Psychic|p1a: Zam Lead
+|-crit|p1a: Zam Lead
+|-resisted|p1a: Zam Lead
+|-damage|p1a: Zam Lead|111\/313
+|
+|turn|27
+|
+|move|p1a: Zam Lead|Recover|p1a: Zam Lead
+|-heal|p1a: Zam Lead|267\/313
+|move|p2a: Alakazam|Psychic|p1a: Zam Lead
+|-resisted|p1a: Zam Lead
+|-damage|p1a: Zam Lead|218\/313
+|
+|turn|28
+|
+|switch|p1a: Egg Kangaroo|Chansey|257\/703 par
+|cant|p2a: Alakazam|par
+|
+|turn|29
+|
+|move|p2a: Alakazam|Psychic|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|133\/703 par
+|move|p1a: Egg Kangaroo|Soft-Boiled|p1a: Egg Kangaroo
+|-heal|p1a: Egg Kangaroo|484\/703 par
+|
+|turn|30
+|
+|cant|p2a: Alakazam|par
+|move|p1a: Egg Kangaroo|Soft-Boiled|p1a: Egg Kangaroo
+|-heal|p1a: Egg Kangaroo|703\/703 par
+|
+|turn|31
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|313\/313 par
+|move|p1a: Egg Kangaroo|Thunderbolt|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-damage|p2a: Alakazam|187\/313 par
+|
+|turn|32
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|313\/313 par
+|move|p1a: Egg Kangaroo|Thunderbolt|p2a: Alakazam
+|-damage|p2a: Alakazam|251\/313 par
+|
+|turn|33
+|
+|move|p2a: Alakazam|Psychic|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|579\/703 par
+|move|p1a: Egg Kangaroo|Thunderbolt|p2a: Alakazam
+|-damage|p2a: Alakazam|186\/313 par
+|
+|turn|34
+|
+|move|p2a: Alakazam|Psychic|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|453\/703 par
+|move|p1a: Egg Kangaroo|Thunderbolt|p2a: Alakazam
+|-damage|p2a: Alakazam|119\/313 par
+|
+|turn|35
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|275\/313 par
+|move|p1a: Egg Kangaroo|Soft-Boiled|p1a: Egg Kangaroo
+|-heal|p1a: Egg Kangaroo|703\/703 par
+|
+|turn|36
+|
+|switch|p2a: Snorlax|Snorlax|523\/523 slp
+|cant|p1a: Egg Kangaroo|par
+|
+|turn|37
+|
+|switch|p1a: Result of Incest|Exeggutor|335\/393
+|cant|p2a: Snorlax|slp
+|
+|turn|38
+|
+|move|p1a: Result of Incest|Psychic|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|194\/523 slp
+|-unboost|p2a: Snorlax|spd|1
+|-unboost|p2a: Snorlax|spa|1
+|cant|p2a: Snorlax|slp
+|
+|turn|39
+|
+|switch|p2a: Alakazam|Alakazam|275\/313 par
+|move|p1a: Result of Incest|Stun Spore|p2a: Alakazam
+|-fail|p2a: Alakazam|par
+|
+|turn|40
+|
+|switch|p1a: Egg Kangaroo|Chansey|703\/703 par
+|switch|p2a: Snorlax|Snorlax|194\/523 slp
+|
+|turn|41
+|
+|switch|p1a: GhostInaShell|Cloyster|303\/303
+|cant|p2a: Snorlax|slp
+|-curestatus|p2a: Snorlax|slp
+|
+|turn|42
+|
+|switch|p2a: Alakazam|Alakazam|275\/313 par
+|move|p1a: GhostInaShell|Clamp|p2a: Alakazam
+|-damage|p2a: Alakazam|247\/313 par
+|-activate|p2a: Alakazam|move: Clamp|[of] p1a: GhostInaShell
+|
+|turn|43
+|
+|move|p1a: GhostInaShell|Clamp|p2a: Alakazam
+|-damage|p2a: Alakazam|219\/313 par
+|cant|p2a: Alakazam|par
+|
+|turn|44
+|
+|move|p1a: GhostInaShell|Clamp|p2a: Alakazam
+|-damage|p2a: Alakazam|191\/313 par
+|cant|p2a: Alakazam|partiallytrapped
+|
+|turn|45
+|
+|move|p1a: GhostInaShell|Clamp|p2a: Alakazam
+|-damage|p2a: Alakazam|163\/313 par
+|cant|p2a: Alakazam|partiallytrapped
+|
+|turn|46
+|
+|move|p1a: GhostInaShell|Clamp|p2a: Alakazam
+|-damage|p2a: Alakazam|135\/313 par
+|cant|p2a: Alakazam|partiallytrapped
+|
+|-end|p2a: Alakazam|Clamp|[partiallytrapped]
+|turn|47
+|
+|move|p1a: GhostInaShell|Clamp|p2a: Alakazam|[miss]
+|-miss|p1a: GhostInaShell
+|move|p2a: Alakazam|Thunder Wave|p1a: GhostInaShell
+|-status|p1a: GhostInaShell|par
+|
+|turn|48
+|
+|switch|p1a: Egg Kangaroo|Chansey|703\/703 par
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|291\/313 par
+|
+|turn|49
+|
+|switch|p2a: Snorlax|Snorlax|194\/523
+|switch|p1a: GhostInaShell|Cloyster|303\/303 par
+|
+|turn|50
+|
+|switch|p2a: Alakazam|Alakazam|291\/313 par
+|cant|p1a: GhostInaShell|par
+|
+|turn|51
+|
+|cant|p2a: Alakazam|par
+|cant|p1a: GhostInaShell|par
+|
+|turn|52
+|
+|switch|p1a: Egg Kangaroo|Chansey|703\/703 par
+|cant|p2a: Alakazam|par
+|
+|turn|53
+|
+|switch|p1a: GhostInaShell|Cloyster|303\/303 par
+|move|p2a: Alakazam|Reflect|p2a: Alakazam
+|
+|turn|54
+|
+|move|p2a: Alakazam|Psychic|p1a: GhostInaShell
+|-damage|p1a: GhostInaShell|168\/303 par
+|move|p1a: GhostInaShell|Clamp|p2a: Alakazam
+|-damage|p2a: Alakazam|260\/313 par
+|-activate|p2a: Alakazam|move: Clamp|[of] p1a: GhostInaShell
+|
+|turn|55
+|
+|cant|p2a: Alakazam|partiallytrapped
+|cant|p1a: GhostInaShell|par
+|
+|-end|p2a: Alakazam|Clamp|[partiallytrapped]
+|turn|56
+|
+|switch|p2a: Snorlax|Snorlax|194\/523
+|switch|p1a: Egg Kangaroo|Chansey|703\/703 par
+|
+|turn|57
+|
+|move|p2a: Snorlax|Body Slam|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|427\/703 par
+|move|p1a: Egg Kangaroo|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|
+|turn|58
+|
+|switch|p1a: GhostInaShell|Cloyster|168\/303 par
+|cant|p2a: Snorlax|par
+|
+|turn|59
+|
+|cant|p1a: GhostInaShell|par
+|cant|p2a: Snorlax|par
+|
+|turn|60
+|
+|cant|p1a: GhostInaShell|par
+|move|p2a: Snorlax|Hyper Beam|p1a: GhostInaShell
+|-damage|p1a: GhostInaShell|37\/303 par
+|
+|turn|61
+|
+|cant|p1a: GhostInaShell|par
+|cant|p2a: Snorlax|recharge
+|
+|turn|62
+|
+|switch|p2a: Alakazam|Alakazam|260\/313 par
+|move|p1a: GhostInaShell|Explosion|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|faint|p1a: GhostInaShell
+|
+|switch|p2a: Jynx|Jynx|333\/333
+|switch|p1a: Egg Kangaroo|Chansey|427\/703 par
+|turn|63
+|
+|switch|p2a: Snorlax|Snorlax|194\/523 par
+|cant|p1a: Egg Kangaroo|par
+|
+|turn|64
+|
+|switch|p1a: Result of Incest|Exeggutor|335\/393
+|move|p2a: Snorlax|Body Slam|p1a: Result of Incest
+|-damage|p1a: Result of Incest|219\/393
+|-status|p1a: Result of Incest|par
+|
+|turn|65
+|
+|switch|p1a: TNT|Golem|363\/363
+|switch|p2a: Jynx|Jynx|333\/333
+|
+|turn|66
+|
+|switch|p1a: Egg Kangaroo|Chansey|427\/703 par
+|move|p2a: Jynx|Blizzard|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|304\/703 par
+|
+|turn|67
+|
+|move|p2a: Jynx|Mimic|p1a: Egg Kangaroo
+|-start|p2a: Jynx|Mimic|Ice Beam
+|move|p1a: Egg Kangaroo|Soft-Boiled|p1a: Egg Kangaroo
+|-heal|p1a: Egg Kangaroo|655\/703 par
+|
+|turn|68
+|
+|move|p2a: Jynx|Psychic|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|556\/703 par
+|move|p1a: Egg Kangaroo|Thunderbolt|p2a: Jynx
+|-damage|p2a: Jynx|257\/333
+|
+|turn|69
+|
+|move|p2a: Jynx|Psychic|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|454\/703 par
+|-unboost|p1a: Egg Kangaroo|spd|1
+|-unboost|p1a: Egg Kangaroo|spa|1
+|move|p1a: Egg Kangaroo|Thunderbolt|p2a: Jynx
+|-damage|p2a: Jynx|205\/333
+|
+|turn|70
+|
+|move|p2a: Jynx|Psychic|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|310\/703 par
+|move|p1a: Egg Kangaroo|Thunder Wave|p2a: Jynx
+|-status|p2a: Jynx|par
+|
+|turn|71
+|
+|switch|p1a: Zam Lead|Alakazam|218\/313
+|cant|p2a: Jynx|par
+|
+|turn|72
+|
+|switch|p1a: Egg Kangaroo|Chansey|310\/703 par
+|cant|p2a: Jynx|par
+|
+|turn|73
+|
+|move|p2a: Jynx|Psychic|p1a: Egg Kangaroo
+|-crit|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|123\/703 par
+|move|p1a: Egg Kangaroo|Soft-Boiled|p1a: Egg Kangaroo
+|-heal|p1a: Egg Kangaroo|474\/703 par
+|
+|turn|74
+|
+|move|p2a: Jynx|Psychic|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|381\/703 par
+|move|p1a: Egg Kangaroo|Soft-Boiled|p1a: Egg Kangaroo
+|-heal|p1a: Egg Kangaroo|703\/703 par
+|
+|turn|75
+|
+|move|p2a: Jynx|Psychic|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|601\/703 par
+|-unboost|p1a: Egg Kangaroo|spd|1
+|-unboost|p1a: Egg Kangaroo|spa|1
+|move|p1a: Egg Kangaroo|Thunderbolt|p2a: Jynx
+|-damage|p2a: Jynx|156\/333 par
+|
+|turn|76
+|
+|move|p2a: Jynx|Psychic|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|456\/703 par
+|cant|p1a: Egg Kangaroo|par
+|
+|turn|77
+|
+|switch|p1a: Zam Lead|Alakazam|218\/313
+|cant|p2a: Jynx|par
+|
+|turn|78
+|
+|switch|p1a: Egg Kangaroo|Chansey|456\/703 par
+|cant|p2a: Jynx|par
+|
+|turn|79
+|
+|cant|p2a: Jynx|par
+|move|p1a: Egg Kangaroo|Thunderbolt|p2a: Jynx
+|-damage|p2a: Jynx|71\/333 par
+|
+|turn|80
+|
+|switch|p2a: Golem|Golem|363\/363
+|cant|p1a: Egg Kangaroo|par
+|
+|turn|81
+|
+|switch|p1a: Result of Incest|Exeggutor|219\/393 par
+|move|p2a: Golem|Earthquake|p1a: Result of Incest
+|-crit|p1a: Result of Incest
+|-resisted|p1a: Result of Incest
+|-damage|p1a: Result of Incest|68\/393 par
+|
+|turn|82
+|
+|move|p2a: Golem|Rock Slide|p1a: Result of Incest
+|-damage|p1a: Result of Incest|0 fnt
+|faint|p1a: Result of Incest
+|
+|
+|switch|p1a: TNT|Golem|363\/363
+|turn|83
+|
+|switch|p2a: Exeggutor|Exeggutor|195\/393
+|move|p1a: TNT|Earthquake|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|122\/393
+|
+|turn|84
+|
+|switch|p1a: Egg Kangaroo|Chansey|456\/703 par
+|move|p2a: Exeggutor|Sleep Powder|p1a: Egg Kangaroo
+|-fail|p1a: Egg Kangaroo
+|
+|turn|85
+|
+|move|p2a: Exeggutor|Explosion|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|0 fnt
+|faint|p1a: Egg Kangaroo
+|faint|p2a: Exeggutor
+|
+|switch|p1a: Zam Lead|Alakazam|218\/313
+|switch|p2a: Snorlax|Snorlax|194\/523 par
+|turn|86
+|
+|move|p1a: Zam Lead|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|23\/523 par
+|move|p2a: Snorlax|Body Slam|p1a: Zam Lead
+|-damage|p1a: Zam Lead|41\/313
+|-status|p1a: Zam Lead|par
+|
+|turn|87
+|
+|cant|p1a: Zam Lead|par
+|move|p2a: Snorlax|Earthquake|p1a: Zam Lead
+|-damage|p1a: Zam Lead|0 fnt
+|faint|p1a: Zam Lead
+|
+|
+|switch|p1a: That's Bull|Tauros|353\/353
+|turn|88
+|
+|move|p1a: That's Bull|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|
+|switch|p2a: Golem|Golem|363\/363
+|turn|89
+|
+|move|p1a: That's Bull|Blizzard|p2a: Golem
+|-crit|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|90
+|
+|move|p1a: That's Bull|Body Slam|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|149\/353
+|move|p2a: Tauros|Body Slam|p1a: That's Bull
+|-damage|p1a: That's Bull|249\/353
+|-status|p1a: That's Bull|par
+|
+|turn|91
+|
+|move|p2a: Tauros|Body Slam|p1a: That's Bull
+|-damage|p1a: That's Bull|144\/353 par
+|cant|p1a: That's Bull|par
+|
+|turn|92
+|
+|switch|p1a: TNT|Golem|363\/363
+|move|p2a: Tauros|Earthquake|p1a: TNT
+|-supereffective|p1a: TNT
+|-damage|p1a: TNT|231\/363
+|
+|turn|93
+|
+|move|p2a: Tauros|Blizzard|p1a: TNT
+|-supereffective|p1a: TNT
+|-damage|p1a: TNT|0 fnt
+|faint|p1a: TNT
+|
+|
+|switch|p1a: That's Bull|Tauros|144\/353 par
+|turn|94
+|
+|move|p2a: Tauros|Hyper Beam|p1a: That's Bull
+|-damage|p1a: That's Bull|0 fnt
+|faint|p1a: That's Bull
+|
+|win|dramlamb
+|raw|Ladder updating...
+|raw|kid gf lol's rating: 1392 &rarr; <strong>1369<\/strong><br \/>(-23 for losing)
+|raw|dramlamb's rating: 1338 &rarr; <strong>1361<\/strong><br \/>(+23 for winning)
+|leave|kid gf lol
+|player|p1

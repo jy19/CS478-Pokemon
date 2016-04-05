@@ -1,0 +1,108 @@
+﻿|join|fat boy wonder
+|join|c353
+|player|p1|fat boy wonder|265
+|player|p2|c353|167
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|seed|20064,822,15044,55578
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Ninetales|Ninetales|349\/349
+|switch|p2a: starman|Starmie|323\/323
+|turn|1
+|c|★c353|glhf
+|choice|switch 5|move 1
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|move|p2a: starman|Thunder Wave|p1a: Starmie
+|-status|p1a: Starmie|par
+|
+|turn|2
+|choice|move 4|move 3
+|
+|move|p2a: starman|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|177\/323 par
+|move|p1a: Starmie|Thunderbolt|p2a: starman
+|-supereffective|p2a: starman
+|-damage|p2a: starman|186\/323
+|
+|turn|3
+|choice|move 4|move 3
+|
+|move|p2a: starman|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|38\/323 par
+|move|p1a: Starmie|Thunderbolt|p2a: starman
+|-supereffective|p2a: starman
+|-damage|p2a: starman|45\/323
+|
+|turn|4
+|choice|move 4|move 3
+|
+|move|p2a: starman|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|choice|switch 4|
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|turn|5
+|choice|move 1|switch 3
+|
+|switch|p2a: eggman|Chansey|703\/703
+|move|p1a: Alakazam|Psychic|p2a: eggman
+|-damage|p2a: eggman|581\/703
+|
+|turn|6
+|choice|switch 5|move 3
+|
+|switch|p1a: Ninetales|Ninetales|349\/349
+|move|p2a: eggman|Ice Beam|p1a: Ninetales
+|-damage|p1a: Ninetales|265\/349
+|
+|turn|7
+|choice|move 3|move 1
+|
+|move|p1a: Ninetales|Confuse Ray|p2a: eggman
+|-start|p2a: eggman|confusion
+|-activate|p2a: eggman|confusion
+|-damage|p2a: eggman|546\/703|[from] confusion
+|
+|turn|8
+|choice|switch 2|move 1
+|
+|switch|p1a: Raichu|Raichu|323\/323
+|-activate|p2a: eggman|confusion
+|move|p2a: eggman|Thunder Wave|p1a: Raichu
+|-status|p1a: Raichu|par
+|
+|turn|9
+|choice|move 2|switch 4
+|
+|switch|p2a: rockman|Golem|363\/363
+|move|p1a: Raichu|Thunderbolt|p2a: rockman
+|-immune|p2a: rockman|[msg]
+|
+|turn|10
+|choice|move 1|move 1
+|
+|move|p2a: rockman|Earthquake|p1a: Raichu
+|-supereffective|p1a: Raichu
+|-damage|p1a: Raichu|0 fnt
+|faint|p1a: Raichu
+|-message|fat boy wonder forfeited.
+|
+|win|c353
+|leave|fat boy wonder
+|player|p1
+|raw|fat boy wonder's rating: 1079 &rarr; <strong>1063<\/strong><br \/>(-16 for losing)
+|raw|c353's rating: 1183 &rarr; <strong>1201<\/strong><br \/>(+18 for winning)

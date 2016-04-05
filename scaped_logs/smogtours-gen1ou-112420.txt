@@ -1,0 +1,268 @@
+﻿|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|J|BlackWeed
+|J|Dice
+|player|p1|BlackWeed|1
+|player|p2|Dice|168
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|seed|52335,18612,44438,44660
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gengar|Gengar|323\/323
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|1
+|c|★BlackWeed|ct
+|c|★BlackWeed|HUGO
+|c|★BlackWeed|XD
+|J|Cerizawa
+|c|★BlackWeed|.
+|c|★BlackWeed|move
+|c|★BlackWeed|- cbb
+|choice|move 1|move 1
+|
+|move|p1a: Gengar|Hypnosis|p2a: Gengar|[miss]
+|-miss|p1a: Gengar
+|move|p2a: Gengar|Hypnosis|p1a: Gengar
+|-status|p1a: Gengar|slp
+|
+|turn|2
+|c|★BlackWeed|luckynbad
+|choice|move 1|move 2
+|
+|cant|p1a: Gengar|slp
+|move|p2a: Gengar|Night Shade|p1a: Gengar
+|-damage|p1a: Gengar|223\/323 slp
+|
+|turn|3
+|choice|switch 2|move 3
+|
+|switch|p1a: Zapdos|Zapdos|383\/383
+|move|p2a: Gengar|Thunderbolt|p1a: Zapdos
+|-damage|p1a: Zapdos|310\/383
+|
+|turn|4
+|c|★BlackWeed|innovation
+|c|★BlackWeed|yn
+|choice|move 4|move 2
+|
+|move|p2a: Gengar|Night Shade|p1a: Zapdos
+|-damage|p1a: Zapdos|210\/383
+|move|p1a: Zapdos|Thunder Wave|p2a: Gengar
+|-status|p2a: Gengar|par
+|
+|turn|5
+|choice|move 4|move 4
+|
+|move|p1a: Zapdos|Thunder Wave|p2a: Gengar
+|-fail|p2a: Gengar|par
+|move|p2a: Gengar|Explosion|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|faint|p2a: Gengar
+|choice|switch 5|switch 2
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|turn|6
+|choice|move 2|move 2
+|
+|move|p2a: Exeggutor|Stun Spore|p1a: Exeggutor|[miss]
+|-miss|p2a: Exeggutor
+|move|p1a: Exeggutor|Stun Spore|p2a: Exeggutor
+|-status|p2a: Exeggutor|par
+|
+|turn|7
+|choice|switch 2|move 2
+|
+|switch|p1a: Gengar|Gengar|223\/323 slp
+|move|p2a: Exeggutor|Stun Spore|p1a: Gengar|[miss]
+|-miss|p2a: Exeggutor
+|
+|turn|8
+|choice|move 1|move 3
+|
+|-curestatus|p1a: Gengar|slp
+|cant|p2a: Exeggutor|par
+|
+|turn|9
+|choice|move 2|move 3
+|
+|move|p1a: Gengar|Explosion|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|faint|p1a: Gengar
+|c|★Dice|-
+|c|★BlackWeed|did it matter
+|c|★Dice|y
+|choice|switch 2|switch 3
+|
+|switch|p2a: Zapdos|Zapdos|383\/383
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|turn|10
+|choice|move 4|move 1
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|182\/393
+|move|p1a: Exeggutor|Explosion|p2a: Zapdos
+|-damage|p2a: Zapdos|96\/383
+|faint|p1a: Exeggutor
+|choice|switch 3|
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|11
+|choice|switch 4|move 3
+|
+|switch|p1a: Rhydon|Rhydon|413\/413
+|move|p2a: Zapdos|Thunder Wave|p1a: Rhydon
+|-immune|p1a: Rhydon|[msg]
+|
+|turn|12
+|c|★BlackWeed|fooled
+|c|★BlackWeed|yn
+|choice|move 4|switch 6
+|
+|switch|p2a: Kingler|Kingler|313\/313
+|move|p1a: Rhydon|Substitute|p1a: Rhydon
+|-start|p1a: Rhydon|Substitute
+|-damage|p1a: Rhydon|310\/413
+|
+|turn|13
+|choice|move 1|move 1
+|
+|move|p2a: Kingler|Crabhammer|p1a: Rhydon
+|-crit|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-end|p1a: Rhydon|Substitute
+|move|p1a: Rhydon|Earthquake|p2a: Kingler
+|-crit|p2a: Kingler
+|-damage|p2a: Kingler|49\/313
+|
+|turn|14
+|choice|switch 6|move 1
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: Kingler|Crabhammer|p1a: Snorlax|[miss]
+|-miss|p2a: Kingler
+|
+|turn|15
+|c|★BlackWeed|.
+|choice|move 1|move 3
+|
+|move|p2a: Kingler|Hyper Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|336\/523
+|move|p1a: Snorlax|Body Slam|p2a: Kingler
+|-damage|p2a: Kingler|0 fnt
+|faint|p2a: Kingler
+|choice||switch 6
+|
+|switch|p2a: Zapdos|Zapdos|96\/383
+|turn|16
+|choice|switch 6|switch 5
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|switch|p1a: Rhydon|Rhydon|310\/413
+|
+|turn|17
+|choice|move 1|move 2
+|
+|move|p2a: Tauros|Blizzard|p1a: Rhydon|[miss]
+|-miss|p2a: Tauros
+|move|p1a: Rhydon|Earthquake|p2a: Tauros|[miss]
+|-miss|p1a: Rhydon
+|
+|turn|18
+|c|★BlackWeed|-
+|c|★Dice|-
+|c|★BlackWeed|what
+|c|★BlackWeed|idiot
+|c|★BlackWeed|idiota
+|c|★BlackWeed|puto
+|J|imanalt
+|choice|move 1|move 2
+|
+|move|p2a: Tauros|Blizzard|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|88\/413
+|move|p1a: Rhydon|Earthquake|p2a: Tauros
+|-damage|p2a: Tauros|210\/353
+|
+|turn|19
+|c|★BlackWeed|lol
+|c|★BlackWeed|....
+|c|★BlackWeed|40
+|c|★BlackWeed|....
+|c|+imanalt|o_o
+|c|+imanalt|0
+|c|+imanalt|yn
+|choice|move 1|move 3
+|
+|move|p2a: Tauros|Earthquake|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|choice|switch 4|
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|20
+|choice|move 3|move 1
+|
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|154\/353
+|move|p1a: Tauros|Blizzard|p2a: Tauros
+|-damage|p2a: Tauros|121\/353
+|
+|turn|21
+|choice|move 4|move 4
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Tauros|[miss]
+|-miss|p2a: Tauros
+|move|p1a: Tauros|Hyper Beam|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|c|★BlackWeed|hugo
+|choice||switch 4
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|turn|22
+|choice|switch 6|move 3
+|
+|switch|p1a: Snorlax|Snorlax|336\/523
+|move|p2a: Chansey|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|
+|turn|23
+|c|★BlackWeed|5050
+|c|★BlackWeed|yn
+|choice|move 4|move 1
+|
+|move|p2a: Chansey|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|239\/523 par
+|move|p1a: Snorlax|Self-Destruct|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|faint|p1a: Snorlax
+|c|★Dice|n
+|c|★Dice|.
+|choice|switch 6|switch 5
+|
+|switch|p1a: Tauros|Tauros|154\/353
+|switch|p2a: Zapdos|Zapdos|96\/383
+|turn|24
+|choice|move 1|move 2
+|
+|move|p1a: Tauros|Body Slam|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|win|BlackWeed

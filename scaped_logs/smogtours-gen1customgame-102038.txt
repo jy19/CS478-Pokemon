@@ -1,0 +1,429 @@
+﻿|J|xJoelituh
+|J|Ortheore
+|player|p1|xJoelituh|134
+|player|p2|Ortheore|170
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Custom Game
+|seed|33243,57306,61285,47355
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Hypno|Hypno|373\/373
+|switch|p2a: Venusaur|Venusaur|363\/363
+|turn|1
+|choice|move 2|move 1
+|
+|move|p2a: Venusaur|Razor Leaf|p1a: Hypno
+|debug|randBW(256) = 214
+|debug|randBW(256) = 118
+|-crit|p1a: Hypno
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|debug|randBW(217, 256) = 254
+|-damage|p1a: Hypno|250\/373
+|move|p1a: Hypno|Thunder Wave|p2a: Venusaur
+|debug|randBW(256) = 174
+|-status|p2a: Venusaur|par
+|
+|turn|2
+|choice|move 1|switch 4
+|
+|switch|p2a: Hypno|Hypno|373\/373
+|move|p1a: Hypno|Psychic|p2a: Hypno
+|debug|randBW(256) = 131
+|debug|randBW(256) = 114
+|-resisted|p2a: Hypno
+|debug|randBW(217, 256) = 255
+|-damage|p2a: Hypno|316\/373
+|debug|randBW(256) = 58
+|-unboost|p2a: Hypno|spd|1
+|-unboost|p2a: Hypno|spa|1
+|
+|turn|3
+|choice|move 3|move 1
+|
+|move|p1a: Hypno|Hypnosis|p2a: Hypno
+|debug|randBW(256) = 139
+|-status|p2a: Hypno|slp
+|debug|randBW(1, 7) = 5
+|cant|p2a: Hypno|slp
+|
+|turn|4
+|choice|move 2|move 1
+|
+|cant|p2a: Hypno|slp
+|move|p1a: Hypno|Thunder Wave|p2a: Hypno
+|debug|randBW(256) = 92
+|-fail|p2a: Hypno
+|
+|turn|5
+|choice|move 1|switch 5
+|
+|switch|p2a: Clefable|Clefable|393\/393
+|move|p1a: Hypno|Psychic|p2a: Clefable
+|debug|randBW(256) = 118
+|debug|randBW(256) = 140
+|debug|randBW(217, 256) = 224
+|-damage|p2a: Clefable|270\/393
+|debug|randBW(256) = 26
+|-unboost|p2a: Clefable|spd|1
+|-unboost|p2a: Clefable|spa|1
+|
+|turn|6
+|choice|move 4|switch 5
+|
+|debug|before turn callback: counter
+|switch|p2a: Hypno|Hypno|316\/373 slp
+|move|p1a: Hypno|Counter|p2a: Hypno
+|debug|randBW(256) = 3
+|-fail|p1a: Hypno
+|
+|turn|7
+|choice|move 1|move 3
+|
+|move|p1a: Hypno|Psychic|p2a: Hypno
+|debug|randBW(256) = 137
+|debug|randBW(256) = 15
+|-crit|p2a: Hypno
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|-resisted|p2a: Hypno
+|debug|randBW(217, 256) = 254
+|-damage|p2a: Hypno|206\/373 slp
+|debug|randBW(256) = 88
+|cant|p2a: Hypno|slp
+|
+|turn|8
+|choice|move 1|move 3
+|
+|cant|p2a: Hypno|slp
+|move|p1a: Hypno|Psychic|p2a: Hypno
+|debug|randBW(256) = 8
+|debug|randBW(256) = 95
+|-resisted|p2a: Hypno
+|debug|randBW(217, 256) = 226
+|-damage|p2a: Hypno|156\/373 slp
+|debug|randBW(256) = 146
+|
+|turn|9
+|choice|move 1|move 3
+|
+|-curestatus|p2a: Hypno|slp
+|move|p1a: Hypno|Psychic|p2a: Hypno
+|debug|randBW(256) = 11
+|debug|randBW(256) = 90
+|-resisted|p2a: Hypno
+|debug|randBW(217, 256) = 245
+|-damage|p2a: Hypno|102\/373
+|debug|randBW(256) = 133
+|
+|turn|10
+|choice|move 1|move 4
+|
+|move|p1a: Hypno|Psychic|p2a: Hypno
+|debug|randBW(256) = 45
+|debug|randBW(256) = 18
+|-crit|p2a: Hypno
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|-resisted|p2a: Hypno
+|debug|randBW(217, 256) = 245
+|-damage|p2a: Hypno|0 fnt
+|debug|randBW(256) = 186
+|faint|p2a: Hypno
+|c|★xJoelituh|man
+|c|★xJoelituh|i feel bad
+|choice||switch 3
+|
+|switch|p2a: Rhydon|Rhydon|413\/413
+|turn|11
+|c|★Ortheore|don't worry dude it's rby
+|choice|move 3|move 1
+|
+|move|p1a: Hypno|Hypnosis|p2a: Rhydon
+|debug|randBW(256) = 25
+|-status|p2a: Rhydon|slp
+|debug|randBW(1, 7) = 1
+|-curestatus|p2a: Rhydon|slp
+|
+|turn|12
+|choice|move 3|switch 4
+|
+|switch|p2a: Venusaur|Venusaur|363\/363 par
+|move|p1a: Hypno|Hypnosis|p2a: Venusaur
+|debug|randBW(256) = 142
+|-fail|p2a: Venusaur
+|
+|turn|13
+|choice|move 1|move 1
+|
+|move|p1a: Hypno|Psychic|p2a: Venusaur
+|debug|randBW(256) = 110
+|debug|randBW(256) = 209
+|-supereffective|p2a: Venusaur
+|debug|randBW(217, 256) = 230
+|-damage|p2a: Venusaur|134\/363 par
+|debug|randBW(256) = 2
+|-unboost|p2a: Venusaur|spd|1
+|-unboost|p2a: Venusaur|spa|1
+|debug|randBW(256) = 240
+|move|p2a: Venusaur|Razor Leaf|p1a: Hypno
+|debug|randBW(256) = 76
+|debug|randBW(256) = 122
+|-crit|p1a: Hypno
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|debug|randBW(217, 256) = 255
+|-damage|p1a: Hypno|126\/373
+|
+|turn|14
+|choice|move 1|switch 5
+|
+|switch|p2a: Clefable|Clefable|270\/393
+|move|p1a: Hypno|Psychic|p2a: Clefable
+|debug|randBW(256) = 128
+|debug|randBW(256) = 149
+|debug|randBW(217, 256) = 223
+|-damage|p2a: Clefable|147\/393
+|debug|randBW(256) = 173
+|
+|turn|15
+|choice|move 1|move 1
+|
+|move|p1a: Hypno|Psychic|p2a: Clefable
+|debug|randBW(256) = 12
+|debug|randBW(256) = 165
+|debug|randBW(217, 256) = 250
+|-damage|p2a: Clefable|9\/393
+|debug|randBW(256) = 230
+|move|p2a: Clefable|Body Slam|p1a: Hypno
+|debug|randBW(256) = 63
+|debug|randBW(256) = 183
+|debug|randBW(217, 256) = 252
+|-damage|p1a: Hypno|19\/373
+|debug|randBW(256) = 3
+|-status|p1a: Hypno|par
+|
+|turn|16
+|choice|move 1|move 1
+|
+|move|p2a: Clefable|Body Slam|p1a: Hypno
+|debug|randBW(256) = 208
+|debug|randBW(256) = 232
+|debug|randBW(217, 256) = 218
+|-damage|p1a: Hypno|0 fnt
+|debug|randBW(256) = 178
+|faint|p1a: Hypno
+|choice|switch 4|
+|
+|switch|p1a: Kangaskhan|Kangaskhan|413\/413
+|turn|17
+|choice|move 3|move 4
+|
+|move|p1a: Kangaskhan|Earthquake|p2a: Clefable
+|debug|randBW(256) = 197
+|debug|randBW(256) = 186
+|debug|randBW(217, 256) = 233
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|choice||switch 2
+|
+|switch|p2a: Raichu|Raichu|323\/323
+|turn|18
+|choice|switch 6|move 1
+|
+|switch|p1a: Kadabra|Kadabra|283\/283
+|move|p2a: Raichu|Thunder Wave|p1a: Kadabra
+|debug|randBW(256) = 228
+|-status|p1a: Kadabra|par
+|
+|turn|19
+|choice|move 1|switch 4
+|
+|switch|p2a: Rhydon|Rhydon|413\/413
+|debug|randBW(256) = 13
+|cant|p1a: Kadabra|par
+|
+|turn|20
+|choice|move 4|move 1
+|
+|move|p2a: Rhydon|Earthquake|p1a: Kadabra
+|debug|randBW(256) = 55
+|debug|randBW(256) = 247
+|debug|randBW(217, 256) = 243
+|-damage|p1a: Kadabra|8\/283 par
+|debug|randBW(256) = 255
+|move|p1a: Kadabra|Reflect|p1a: Kadabra
+|-start|p1a: Kadabra|Reflect
+|
+|turn|21
+|c|★xJoelituh|ups
+|choice|switch 5|move 3
+|
+|switch|p1a: Vaporeon|Vaporeon|463\/463
+|move|p2a: Rhydon|Body Slam|p1a: Vaporeon
+|debug|randBW(256) = 216
+|debug|randBW(256) = 140
+|debug|randBW(217, 256) = 220
+|-damage|p1a: Vaporeon|361\/463
+|debug|randBW(256) = 236
+|
+|turn|22
+|choice|move 1|switch 4
+|
+|switch|p2a: Raichu|Raichu|323\/323
+|move|p1a: Vaporeon|Surf|p2a: Raichu
+|debug|randBW(256) = 195
+|debug|randBW(256) = 203
+|debug|randBW(217, 256) = 238
+|-damage|p2a: Raichu|194\/323
+|
+|turn|23
+|choice|switch 5|move 2
+|
+|switch|p1a: Kadabra|Kadabra|8\/283 par
+|move|p2a: Raichu|Thunderbolt|p1a: Kadabra
+|debug|randBW(256) = 106
+|debug|randBW(256) = 241
+|debug|randBW(217, 256) = 225
+|-damage|p1a: Kadabra|0 fnt
+|debug|randBW(256) = 90
+|faint|p1a: Kadabra
+|choice|switch 6|
+|
+|switch|p1a: Kangaskhan|Kangaskhan|413\/413
+|turn|24
+|choice|move 3|move 1
+|
+|move|p2a: Raichu|Thunder Wave|p1a: Kangaskhan
+|debug|randBW(256) = 185
+|-status|p1a: Kangaskhan|par
+|debug|randBW(256) = 173
+|move|p1a: Kangaskhan|Earthquake|p2a: Raichu
+|debug|randBW(256) = 61
+|debug|randBW(256) = 39
+|-crit|p2a: Raichu
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|-supereffective|p2a: Raichu
+|debug|randBW(217, 256) = 246
+|-damage|p2a: Raichu|0 fnt
+|faint|p2a: Raichu
+|choice||switch 6
+|
+|switch|p2a: Kangaskhan|Kangaskhan|413\/413
+|turn|25
+|choice|move 4|move 2
+|
+|debug|before turn callback: counter
+|move|p2a: Kangaskhan|Body Slam|p1a: Kangaskhan
+|debug|randBW(256) = 142
+|debug|randBW(256) = 165
+|debug|randBW(217, 256) = 237
+|-damage|p1a: Kangaskhan|299\/413 par
+|debug|randBW(256) = 8
+|cant|p1a: Kangaskhan|par
+|
+|turn|26
+|choice|move 4|move 2
+|
+|debug|before turn callback: counter
+|move|p2a: Kangaskhan|Body Slam|p1a: Kangaskhan
+|debug|randBW(256) = 3
+|debug|randBW(256) = 88
+|debug|randBW(217, 256) = 220
+|-damage|p1a: Kangaskhan|193\/413 par
+|debug|randBW(256) = 16
+|cant|p1a: Kangaskhan|par
+|
+|turn|27
+|choice|move 4|move 3
+|
+|debug|before turn callback: counter
+|move|p2a: Kangaskhan|Hyper Beam|p1a: Kangaskhan
+|debug|randBW(256) = 156
+|debug|randBW(256) = 66
+|debug|randBW(217, 256) = 255
+|-damage|p1a: Kangaskhan|0 fnt
+|faint|p1a: Kangaskhan
+|c|★xJoelituh|i was trying to counter :[
+|choice|switch 5|
+|
+|switch|p1a: Vaporeon|Vaporeon|361\/463
+|turn|28
+|choice|move 2|move 2
+|
+|move|p2a: Kangaskhan|Body Slam|p1a: Vaporeon
+|debug|randBW(256) = 161
+|debug|randBW(256) = 147
+|debug|randBW(217, 256) = 227
+|-damage|p1a: Vaporeon|232\/463
+|debug|randBW(256) = 149
+|move|p1a: Vaporeon|Blizzard|p2a: Kangaskhan
+|debug|randBW(256) = 181
+|debug|randBW(256) = 140
+|debug|randBW(217, 256) = 235
+|-damage|p2a: Kangaskhan|246\/413
+|debug|randBW(256) = 45
+|
+|turn|29
+|J|ldwkweewf
+|choice|move 1|move 3
+|
+|move|p2a: Kangaskhan|Hyper Beam|p1a: Vaporeon
+|debug|randBW(256) = 124
+|debug|randBW(256) = 247
+|debug|randBW(217, 256) = 226
+|-damage|p1a: Vaporeon|6\/463
+|move|p1a: Vaporeon|Surf|p2a: Kangaskhan
+|debug|randBW(256) = 207
+|debug|randBW(256) = 51
+|debug|randBW(217, 256) = 233
+|-damage|p2a: Kangaskhan|48\/413
+|
+|turn|30
+|-mustrecharge|p2a: Kangaskhan
+|-mustrecharge|p2a: Kangaskhan
+|choice|move 1|move 1
+|
+|cant|p2a: Kangaskhan|recharge
+|move|p1a: Vaporeon|Surf|p2a: Kangaskhan
+|debug|randBW(256) = 55
+|debug|randBW(256) = 162
+|debug|randBW(217, 256) = 245
+|-damage|p2a: Kangaskhan|0 fnt
+|faint|p2a: Kangaskhan
+|c|★xJoelituh|gg :]
+|choice||switch 5
+|
+|switch|p2a: Venusaur|Venusaur|134\/363 par
+|turn|31
+|c|★Ortheore|gg
+|choice|move 2|move 1
+|
+|move|p1a: Vaporeon|Blizzard|p2a: Venusaur
+|debug|randBW(256) = 101
+|debug|randBW(256) = 59
+|-supereffective|p2a: Venusaur
+|debug|randBW(217, 256) = 225
+|-damage|p2a: Venusaur|0 fnt
+|debug|randBW(256) = 217
+|faint|p2a: Venusaur
+|c|★xJoelituh|and sorry for the hax bro
+|choice||switch 4
+|
+|switch|p2a: Rhydon|Rhydon|413\/413
+|turn|32
+|L|ldwkweewf
+|choice|move 1|move 1
+|
+|move|p1a: Vaporeon|Surf|p2a: Rhydon
+|debug|randBW(256) = 35
+|debug|randBW(256) = 65
+|-supereffective|p2a: Rhydon
+|debug|randBW(217, 256) = 239
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|
+|win|xJoelituh

@@ -1,0 +1,108 @@
+﻿|join|Naruto94
+|join|erdos
+|player|p1|Naruto94|1
+|player|p2|erdos|246
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Flareon|Flareon, L90|300\/300
+|switch|p2a: Machamp|Machamp, L90|345\/345
+|turn|1
+|
+|switch|p1a: Spearow|Spearow, L96|272\/272
+|move|p2a: Machamp|Earthquake|p1a: Spearow
+|-immune|p1a: Spearow|[msg]
+|
+|turn|2
+|
+|move|p1a: Spearow|Drill Peck|p2a: Machamp
+|-supereffective|p2a: Machamp
+|-damage|p2a: Machamp|190\/345
+|move|p2a: Machamp|Body Slam|p1a: Spearow
+|-damage|p1a: Spearow|140\/272
+|
+|turn|3
+|
+|switch|p2a: Spearow|Spearow, L96|272\/272
+|move|p1a: Spearow|Drill Peck|p2a: Spearow
+|-damage|p2a: Spearow|141\/272
+|
+|turn|4
+|
+|move|p1a: Spearow|Double-Edge|p2a: Spearow
+|-damage|p2a: Spearow|0 fnt
+|-damage|p1a: Spearow|105\/272|[from] recoil|[of] p2a: Spearow
+|faint|p2a: Spearow
+|
+|switch|p2a: Kingler|Kingler, L85|267\/267
+|turn|5
+|
+|move|p1a: Spearow|Double-Edge|p2a: Kingler
+|-damage|p2a: Kingler|183\/267
+|-damage|p1a: Spearow|84\/272|[from] recoil|[of] p2a: Kingler
+|move|p2a: Kingler|Blizzard|p1a: Spearow
+|-supereffective|p1a: Spearow
+|-damage|p1a: Spearow|0 fnt
+|faint|p1a: Spearow
+|
+|switch|p1a: Magneton|Magneton, L90|273\/273
+|turn|6
+|
+|switch|p2a: Victreebel|Victreebel, L85|310\/310
+|move|p1a: Magneton|Thunderbolt|p2a: Victreebel
+|-resisted|p2a: Victreebel
+|-damage|p2a: Victreebel|249\/310
+|
+|turn|7
+|
+|move|p1a: Magneton|Thunder Wave|p2a: Victreebel
+|-status|p2a: Victreebel|par
+|cant|p2a: Victreebel|par
+|
+|turn|8
+|
+|move|p1a: Magneton|Mimic|p2a: Victreebel
+|-start|p1a: Magneton|Mimic|Swords Dance
+|move|p2a: Victreebel|Swords Dance|p2a: Victreebel
+|-boost|p2a: Victreebel|atk|2
+|
+|turn|9
+|
+|switch|p1a: Flareon|Flareon, L90|300\/300
+|move|p2a: Victreebel|Razor Leaf|p1a: Flareon
+|-crit|p1a: Flareon
+|-resisted|p1a: Flareon
+|-damage|p1a: Flareon|254\/300
+|
+|turn|10
+|
+|move|p1a: Flareon|Fire Blast|p2a: Victreebel|[miss]
+|-miss|p1a: Flareon
+|move|p2a: Victreebel|Stun Spore|p1a: Flareon|[miss]
+|-miss|p2a: Victreebel
+|
+|turn|11
+|
+|move|p1a: Flareon|Quick Attack|p2a: Victreebel
+|-damage|p2a: Victreebel|200\/310 par
+|cant|p2a: Victreebel|par
+|
+|turn|12
+|
+|move|p1a: Flareon|Fire Blast|p2a: Victreebel
+|-supereffective|p2a: Victreebel
+|-damage|p2a: Victreebel|0 fnt
+|faint|p2a: Victreebel
+|-message|erdos forfeited.
+|
+|win|Naruto94
+|leave|erdos
+|player|p2
+|raw|Naruto94's rating: 1244 &rarr; <strong>1256<\/strong><br \/>(+12 for winning)
+|raw|erdos's rating: 1033 &rarr; <strong>1027<\/strong><br \/>(-6 for losing)

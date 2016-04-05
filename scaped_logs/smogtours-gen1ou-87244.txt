@@ -1,0 +1,385 @@
+﻿|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|J|Ortheore
+|J|xJoelituh
+|player|p1|Ortheore|101
+|player|p2|xJoelituh|134
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333\/333
+|switch|p2a: Jynx|Jynx|333\/333
+|turn|1
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: Jynx|[miss]
+|-miss|p1a: Jynx
+|move|p2a: Jynx|Lovely Kiss|p1a: Jynx|[miss]
+|-miss|p2a: Jynx
+|
+|turn|2
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: Jynx
+|-status|p2a: Jynx|slp
+|cant|p2a: Jynx|slp
+|
+|turn|3
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|switch|p1a: Snorlax|Snorlax|523\/523
+|
+|turn|4
+|
+|switch|p1a: Jynx|Jynx|333\/333
+|move|p2a: Chansey|Counter|p1a: Jynx
+|-fail|p2a: Chansey
+|
+|turn|5
+|
+|move|p1a: Jynx|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|565\/703
+|move|p2a: Chansey|Thunder Wave|p1a: Jynx
+|-status|p1a: Jynx|par
+|
+|turn|6
+|
+|switch|p2a: Jynx|Jynx|333\/333 slp
+|move|p1a: Jynx|Blizzard|p2a: Jynx
+|-resisted|p2a: Jynx
+|-damage|p2a: Jynx|267\/333 slp
+|
+|turn|7
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|cant|p2a: Jynx|slp
+|
+|turn|8
+|
+|switch|p2a: Lapras|Lapras|463\/463
+|move|p1a: Tauros|Body Slam|p2a: Lapras
+|-damage|p2a: Lapras|343\/463
+|
+|turn|9
+|
+|switch|p1a: Jynx|Jynx|333\/333 par
+|move|p2a: Lapras|Blizzard|p1a: Jynx
+|-resisted|p1a: Jynx
+|-damage|p1a: Jynx|258\/333 par
+|
+|turn|10
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Lapras|Confuse Ray|p1a: Chansey
+|-start|p1a: Chansey|confusion
+|
+|turn|11
+|
+|move|p2a: Lapras|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|548\/703
+|-activate|p1a: Chansey|confusion
+|move|p1a: Chansey|Ice Beam|p2a: Lapras
+|-resisted|p2a: Lapras
+|-damage|p2a: Lapras|322\/463
+|
+|turn|12
+|
+|move|p2a: Lapras|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|378\/703
+|-end|p1a: Chansey|confusion
+|move|p1a: Chansey|Thunder Wave|p2a: Lapras
+|-status|p2a: Lapras|par
+|
+|turn|13
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703
+|move|p2a: Lapras|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|575\/703
+|
+|turn|14
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|155\/463 par
+|move|p2a: Lapras|Confuse Ray|p1a: Chansey
+|-start|p1a: Chansey|confusion
+|
+|turn|15
+|
+|-activate|p1a: Chansey|confusion
+|-damage|p1a: Chansey|540\/703|[from] confusion
+|move|p2a: Lapras|Rest|p2a: Lapras
+|-status|p2a: Lapras|slp
+|-heal|p2a: Lapras|463\/463 slp|[silent]
+|-status|p2a: Lapras|slp|[from] move: Rest
+|
+|turn|16
+|
+|switch|p2a: Jynx|Jynx|267\/333 slp
+|-end|p1a: Chansey|confusion
+|move|p1a: Chansey|Thunderbolt|p2a: Jynx
+|-damage|p2a: Jynx|188\/333 slp
+|
+|turn|17
+|
+|cant|p2a: Jynx|slp
+|move|p1a: Chansey|Thunderbolt|p2a: Jynx
+|-damage|p2a: Jynx|105\/333 slp
+|
+|turn|18
+|
+|switch|p2a: Jolteon|Jolteon|333\/333
+|move|p1a: Chansey|Thunder Wave|p2a: Jolteon
+|-status|p2a: Jolteon|par
+|
+|turn|19
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: Jolteon|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|
+|turn|20
+|
+|switch|p2a: Jynx|Jynx|105\/333 slp
+|cant|p1a: Snorlax|par
+|
+|turn|21
+|
+|cant|p2a: Jynx|slp
+|move|p1a: Snorlax|Body Slam|p2a: Jynx
+|-crit|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|
+|switch|p2a: Lapras|Lapras|463\/463 slp
+|turn|22
+|
+|cant|p2a: Lapras|slp
+|move|p1a: Snorlax|Body Slam|p2a: Lapras
+|-damage|p2a: Lapras|339\/463 slp
+|
+|turn|23
+|
+|-curestatus|p2a: Lapras|slp
+|move|p1a: Snorlax|Body Slam|p2a: Lapras
+|-damage|p2a: Lapras|208\/463
+|
+|turn|24
+|
+|move|p2a: Lapras|Confuse Ray|p1a: Snorlax
+|-start|p1a: Snorlax|confusion
+|-activate|p1a: Snorlax|confusion
+|-damage|p1a: Snorlax|475\/523 par|[from] confusion
+|
+|turn|25
+|
+|switch|p1a: Chansey|Chansey|540\/703
+|move|p2a: Lapras|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|412\/703
+|
+|turn|26
+|
+|move|p2a: Lapras|Blizzard|p1a: Chansey|[miss]
+|-miss|p2a: Lapras
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703
+|
+|turn|27
+|
+|move|p2a: Lapras|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|570\/703
+|move|p1a: Chansey|Thunderbolt|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|45\/463
+|
+|turn|28
+|
+|move|p2a: Lapras|Blizzard|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|296\/703
+|move|p1a: Chansey|Thunderbolt|p2a: Lapras
+|-crit|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|29
+|
+|switch|p2a: Jolteon|Jolteon|333\/333 par
+|move|p1a: Chansey|Thunder Wave|p2a: Jolteon
+|-fail|p2a: Jolteon|par
+|
+|turn|30
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|647\/703
+|cant|p2a: Jolteon|par
+|
+|turn|31
+|
+|switch|p2a: Chansey|Chansey|565\/703
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|494\/703
+|-status|p2a: Chansey|frz
+|
+|turn|32
+|
+|cant|p2a: Chansey|frz
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|33
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|switch|p2a: Jolteon|Jolteon|333\/333 par
+|
+|turn|34
+|
+|switch|p1a: Snorlax|Snorlax|475\/523 par
+|cant|p2a: Jolteon|par
+|
+|turn|35
+|
+|cant|p2a: Jolteon|par
+|cant|p1a: Snorlax|par
+|
+|turn|36
+|
+|move|p2a: Jolteon|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|413\/523 par
+|cant|p1a: Snorlax|par
+|
+|turn|37
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|260\/523 par
+|move|p1a: Snorlax|Earthquake|p2a: Jolteon
+|-supereffective|p2a: Jolteon
+|-damage|p2a: Jolteon|97\/333 par
+|
+|turn|38
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|94\/523 par
+|move|p1a: Snorlax|Body Slam|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|39
+|
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|40
+|
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|247\/353
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|256\/353
+|
+|turn|41
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Tauros
+|-damage|p2a: Tauros|72\/353
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|145\/353
+|
+|turn|42
+|-mustrecharge|p1a: Tauros
+|-mustrecharge|p1a: Tauros
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|turn|43
+|
+|switch|p2a: Chansey|Chansey|494\/703 frz
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|262\/703 frz
+|
+|turn|44
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|143\/703 frz
+|cant|p2a: Chansey|frz
+|
+|turn|45
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|6\/703 frz
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|cant|p2a: Chansey|frz
+|
+|turn|46
+|
+|move|p1a: Alakazam|Reflect|p1a: Alakazam
+|-start|p1a: Alakazam|Reflect
+|cant|p2a: Chansey|frz
+|
+|turn|47
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|switch|p2a: Victreebel|Victreebel|363\/363
+|turn|48
+|
+|move|p1a: Alakazam|Psychic|p2a: Victreebel
+|-supereffective|p2a: Victreebel
+|-damage|p2a: Victreebel|104\/363
+|-unboost|p2a: Victreebel|spd|1
+|-unboost|p2a: Victreebel|spa|1
+|move|p2a: Victreebel|Sleep Powder|p1a: Alakazam
+|-status|p1a: Alakazam|slp
+|
+|turn|49
+|
+|cant|p1a: Alakazam|slp
+|move|p2a: Victreebel|Swords Dance|p2a: Victreebel
+|-boost|p2a: Victreebel|atk|2
+|
+|turn|50
+|
+|cant|p1a: Alakazam|slp
+|move|p2a: Victreebel|Hyper Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|132\/313 slp
+|
+|turn|51
+|-mustrecharge|p2a: Victreebel
+|-mustrecharge|p2a: Victreebel
+|
+|-curestatus|p1a: Alakazam|slp
+|cant|p2a: Victreebel|recharge
+|
+|turn|52
+|
+|move|p1a: Alakazam|Psychic|p2a: Victreebel
+|-supereffective|p2a: Victreebel
+|-damage|p2a: Victreebel|0 fnt
+|faint|p2a: Victreebel
+|
+|switch|p2a: Tauros|Tauros|72\/353
+|turn|53
+|
+|move|p1a: Alakazam|Psychic|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|win|Ortheore

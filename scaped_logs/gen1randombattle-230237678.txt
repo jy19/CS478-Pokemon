@@ -1,0 +1,233 @@
+﻿|join|ColorBWRainbow123
+|join|Ch01W0n5h1n
+|player|p1|ColorBWRainbow123|262
+|player|p2|Ch01W0n5h1n|165
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Dragonite|Dragonite, L85|328\/328
+|switch|p2a: Raichu|Raichu, L85|276\/276
+|turn|1
+|
+|switch|p1a: Hypno|Hypno, L85|318\/318
+|move|p2a: Raichu|Thunder Wave|p1a: Hypno
+|-status|p1a: Hypno|par
+|
+|turn|2
+|
+|move|p2a: Raichu|Thunderbolt|p1a: Hypno
+|-damage|p1a: Hypno|237\/318 par
+|move|p1a: Hypno|Psychic|p2a: Raichu
+|-damage|p2a: Raichu|163\/276
+|
+|turn|3
+|
+|move|p2a: Raichu|Thunderbolt|p1a: Hypno
+|-crit|p1a: Hypno
+|-damage|p1a: Hypno|76\/318 par
+|cant|p1a: Hypno|par
+|
+|turn|4
+|
+|move|p2a: Raichu|Thunderbolt|p1a: Hypno
+|-damage|p1a: Hypno|0 fnt
+|faint|p1a: Hypno
+|c|★Ch01W0n5h1n|fear raichu
+|c|★ColorBWRainbow123|XD
+|
+|switch|p1a: Alakazam|Alakazam, L79|249\/249
+|turn|5
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Raichu
+|-status|p2a: Raichu|par
+|move|p2a: Raichu|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|
+|turn|6
+|c|★ColorBWRainbow123|which one of the pokemon break though
+|
+|move|p1a: Alakazam|Psychic|p2a: Raichu
+|-crit|p2a: Raichu
+|-damage|p2a: Raichu|0 fnt
+|faint|p2a: Raichu
+|c|★ColorBWRainbow123|YES
+|
+|switch|p2a: Raticate|Raticate, L85|267\/267
+|turn|7
+|c|★Ch01W0n5h1n|time for the rat
+|
+|move|p2a: Raticate|Super Fang|p1a: Alakazam
+|-damage|p1a: Alakazam|125\/249 par
+|move|p1a: Alakazam|Seismic Toss|p2a: Raticate
+|-damage|p2a: Raticate|188\/267
+|
+|turn|8
+|
+|move|p2a: Raticate|Hyper Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|c|★Ch01W0n5h1n|raticate op
+|
+|switch|p1a: Pidgey|Pidgey, L96|272\/272
+|turn|9
+|c|★ColorBWRainbow123|lol
+|c|★ColorBWRainbow123|i got pidgey
+|
+|move|p2a: Raticate|Blizzard|p1a: Pidgey
+|-supereffective|p1a: Pidgey
+|-damage|p1a: Pidgey|111\/272
+|-status|p1a: Pidgey|frz
+|cant|p1a: Pidgey|frz
+|
+|turn|10
+|c|★Ch01W0n5h1n|dun dun dun
+|c|★ColorBWRainbow123|Shot
+|c|★ColorBWRainbow123|*shoot
+|
+|move|p2a: Raticate|Bubble Beam|p1a: Pidgey
+|-crit|p1a: Pidgey
+|-damage|p1a: Pidgey|21\/272 frz
+|cant|p1a: Pidgey|frz
+|
+|turn|11
+|
+|move|p2a: Raticate|Bubble Beam|p1a: Pidgey
+|-damage|p1a: Pidgey|0 fnt
+|faint|p1a: Pidgey
+|
+|switch|p1a: Rapidash|Rapidash, L85|284\/284
+|turn|12
+|
+|move|p1a: Rapidash|Hyper Beam|p2a: Raticate
+|-damage|p2a: Raticate|47\/267
+|move|p2a: Raticate|Super Fang|p1a: Rapidash
+|-damage|p1a: Rapidash|142\/284
+|
+|turn|13
+|-mustrecharge|p1a: Rapidash
+|-mustrecharge|p1a: Rapidash
+|
+|cant|p1a: Rapidash|recharge
+|move|p2a: Raticate|Hyper Beam|p1a: Rapidash
+|-damage|p1a: Rapidash|0 fnt
+|faint|p1a: Rapidash
+|
+|switch|p1a: Poliwag|Poliwag, L96|272\/272
+|turn|14
+|
+|switch|p2a: Chansey|Chansey, L79|557\/557
+|move|p1a: Poliwag|Surf|p2a: Chansey
+|-damage|p2a: Chansey|479\/557
+|
+|turn|15
+|
+|move|p1a: Poliwag|Hypnosis|p2a: Chansey|[miss]
+|-miss|p1a: Poliwag
+|move|p2a: Chansey|Thunder Wave|p1a: Poliwag
+|-status|p1a: Poliwag|par
+|
+|turn|16
+|
+|move|p2a: Chansey|Ice Beam|p1a: Poliwag
+|-resisted|p1a: Poliwag
+|-damage|p1a: Poliwag|234\/272 par
+|move|p1a: Poliwag|Hypnosis|p2a: Chansey|[miss]
+|-miss|p1a: Poliwag
+|
+|turn|17
+|
+|move|p2a: Chansey|Ice Beam|p1a: Poliwag
+|-resisted|p1a: Poliwag
+|-damage|p1a: Poliwag|192\/272 par
+|move|p1a: Poliwag|Hypnosis|p2a: Chansey
+|-status|p2a: Chansey|slp
+|
+|turn|18
+|
+|cant|p2a: Chansey|slp
+|move|p1a: Poliwag|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|416\/557 slp
+|
+|turn|19
+|
+|switch|p1a: Dragonite|Dragonite, L85|328\/328
+|cant|p2a: Chansey|slp
+|
+|turn|20
+|
+|move|p1a: Dragonite|Agility|p1a: Dragonite
+|-boost|p1a: Dragonite|spe|2
+|cant|p2a: Chansey|slp
+|
+|turn|21
+|
+|move|p1a: Dragonite|Agility|p1a: Dragonite
+|-boost|p1a: Dragonite|spe|2
+|cant|p2a: Chansey|slp
+|
+|turn|22
+|c|★Ch01W0n5h1n|damn
+|
+|move|p1a: Dragonite|Thunder|p2a: Chansey
+|-damage|p2a: Chansey|331\/557 slp
+|cant|p2a: Chansey|slp
+|-curestatus|p2a: Chansey|slp
+|
+|turn|23
+|
+|move|p1a: Dragonite|Surf|p2a: Chansey
+|-damage|p2a: Chansey|269\/557
+|move|p2a: Chansey|Thunder Wave|p1a: Dragonite
+|-status|p1a: Dragonite|par
+|
+|turn|24
+|
+|move|p1a: Dragonite|Thunder|p2a: Chansey
+|-damage|p2a: Chansey|187\/557
+|move|p2a: Chansey|Ice Beam|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|80\/328 par
+|
+|turn|25
+|
+|move|p1a: Dragonite|Hyper Beam|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|c|★ColorBWRainbow123|Hyper Beam all the ways
+|
+|switch|p2a: Raticate|Raticate, L85|47\/267
+|turn|26
+|
+|move|p2a: Raticate|Hyper Beam|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|c|★Ch01W0n5h1n|hyper hyper
+|c|★ColorBWRainbow123|will
+|c|★ColorBWRainbow123|we doom
+|
+|switch|p1a: Poliwag|Poliwag, L96|192\/272 par
+|turn|27
+|
+|move|p2a: Raticate|Super Fang|p1a: Poliwag
+|-damage|p1a: Poliwag|96\/272 par
+|move|p1a: Poliwag|Blizzard|p2a: Raticate
+|-damage|p2a: Raticate|0 fnt
+|faint|p2a: Raticate
+|
+|switch|p2a: Pinsir|Pinsir, L85|284\/284
+|turn|28
+|c|★Ch01W0n5h1n|i can relax atm
+|
+|move|p2a: Pinsir|Hyper Beam|p1a: Poliwag
+|-damage|p1a: Poliwag|0 fnt
+|faint|p1a: Poliwag
+|
+|win|Ch01W0n5h1n
+|c|★ColorBWRainbow123|ok
+|c|★Ch01W0n5h1n|gg
+|c|★ColorBWRainbow123|gg

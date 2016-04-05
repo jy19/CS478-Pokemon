@@ -1,0 +1,288 @@
+﻿|join|LekasDisneyPrinces
+|join|andrewandres
+|player|p1|LekasDisneyPrinces|2
+|player|p2|andrewandres|102
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Kabuto|Kabuto, L96|252\/252
+|switch|p2a: Krabby|Krabby, L96|252\/252
+|turn|1
+|
+|switch|p1a: Dragonite|Dragonite, L85|328\/328
+|move|p2a: Krabby|Crabhammer|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|274\/328
+|
+|turn|2
+|
+|move|p1a: Dragonite|Thunder|p2a: Krabby|[miss]
+|-miss|p1a: Dragonite
+|move|p2a: Krabby|Blizzard|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|60\/328
+|
+|turn|3
+|
+|switch|p2a: Kakuna|Kakuna, L99|290\/290
+|move|p1a: Dragonite|Thunder|p2a: Kakuna|[miss]
+|-miss|p1a: Dragonite
+|
+|turn|4
+|
+|move|p1a: Dragonite|Ice Beam|p2a: Kakuna
+|-damage|p2a: Kakuna|175\/290
+|move|p2a: Kakuna|Poison Sting|p1a: Dragonite
+|-damage|p1a: Dragonite|49\/328
+|
+|turn|5
+|
+|move|p1a: Dragonite|Ice Beam|p2a: Kakuna
+|-damage|p2a: Kakuna|64\/290
+|move|p2a: Kakuna|String Shot|p1a: Dragonite
+|-unboost|p1a: Dragonite|spe|1
+|
+|turn|6
+|
+|move|p2a: Kakuna|Poison Sting|p1a: Dragonite
+|-damage|p1a: Dragonite|37\/328
+|move|p1a: Dragonite|Agility|p1a: Dragonite
+|-boost|p1a: Dragonite|spe|2
+|
+|turn|7
+|
+|move|p1a: Dragonite|Ice Beam|p2a: Kakuna
+|-damage|p2a: Kakuna|0 fnt
+|faint|p2a: Kakuna
+|
+|switch|p2a: Kangaskhan|Kangaskhan, L85|352\/352
+|turn|8
+|
+|move|p1a: Dragonite|Hyper Beam|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|216\/352
+|move|p2a: Kangaskhan|Body Slam|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|switch|p1a: Butterfree|Butterfree, L90|291\/291
+|turn|9
+|
+|move|p2a: Kangaskhan|Body Slam|p1a: Butterfree
+|-damage|p1a: Butterfree|179\/291
+|move|p1a: Butterfree|Stun Spore|p2a: Kangaskhan
+|-status|p2a: Kangaskhan|par
+|
+|turn|10
+|
+|switch|p1a: Kabuto|Kabuto, L96|252\/252
+|cant|p2a: Kangaskhan|par
+|
+|turn|11
+|
+|move|p1a: Kabuto|Swords Dance|p1a: Kabuto
+|-boost|p1a: Kabuto|atk|2
+|move|p2a: Kangaskhan|Earthquake|p1a: Kabuto
+|-supereffective|p1a: Kabuto
+|-damage|p1a: Kabuto|132\/252
+|
+|turn|12
+|
+|move|p1a: Kabuto|Body Slam|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|75\/352 par
+|move|p2a: Kangaskhan|Counter|p1a: Kabuto
+|-damage|p1a: Kabuto|0 fnt
+|faint|p1a: Kabuto
+|
+|switch|p1a: Porygon|Porygon, L85|284\/284
+|turn|13
+|join|the3MarineAdmirals
+|
+|move|p1a: Porygon|Thunderbolt|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|faint|p2a: Kangaskhan
+|
+|switch|p2a: Krabby|Krabby, L96|252\/252
+|turn|14
+|
+|move|p2a: Krabby|Body Slam|p1a: Porygon
+|-damage|p1a: Porygon|183\/284
+|move|p1a: Porygon|Thunderbolt|p2a: Krabby
+|-crit|p2a: Krabby
+|-supereffective|p2a: Krabby
+|-damage|p2a: Krabby|0 fnt
+|faint|p2a: Krabby
+|
+|switch|p2a: Chansey|Chansey, L79|557\/557
+|turn|15
+|c| the3MarineAdmirals|fight fight
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Porygon
+|-damage|p1a: Porygon|118\/284
+|-status|p1a: Porygon|par
+|move|p1a: Porygon|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|488\/557
+|
+|turn|16
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Porygon
+|-damage|p1a: Porygon|45\/284 par
+|move|p1a: Porygon|Hyper Beam|p2a: Chansey
+|-damage|p2a: Chansey|170\/557
+|
+|turn|17
+|-mustrecharge|p1a: Porygon
+|-mustrecharge|p1a: Porygon
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|448\/557
+|cant|p1a: Porygon|recharge
+|
+|turn|18
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Porygon
+|-damage|p1a: Porygon|0 fnt
+|faint|p1a: Porygon
+|
+|switch|p1a: Butterfree|Butterfree, L90|179\/291
+|turn|19
+|
+|move|p1a: Butterfree|Sleep Powder|p2a: Chansey
+|-status|p2a: Chansey|slp
+|cant|p2a: Chansey|slp
+|
+|turn|20
+|
+|switch|p1a: Flareon|Flareon, L90|300\/300
+|switch|p2a: Zapdos|Zapdos, L79|304\/304
+|
+|turn|21
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Flareon
+|-damage|p1a: Flareon|210\/300
+|move|p1a: Flareon|Body Slam|p2a: Zapdos
+|-damage|p2a: Zapdos|209\/304
+|-status|p2a: Zapdos|par
+|
+|turn|22
+|
+|move|p1a: Flareon|Body Slam|p2a: Zapdos
+|-damage|p2a: Zapdos|117\/304 par
+|move|p2a: Zapdos|Thunderbolt|p1a: Flareon
+|-crit|p1a: Flareon
+|-damage|p1a: Flareon|40\/300
+|
+|turn|23
+|
+|move|p1a: Flareon|Hyper Beam|p2a: Zapdos|[miss]
+|-miss|p1a: Flareon
+|move|p2a: Zapdos|Thunderbolt|p1a: Flareon
+|-damage|p1a: Flareon|0 fnt
+|faint|p1a: Flareon
+|
+|switch|p1a: Haunter|Haunter, L85|250\/250
+|turn|24
+|
+|move|p1a: Haunter|Confuse Ray|p2a: Zapdos
+|-start|p2a: Zapdos|confusion
+|cant|p2a: Zapdos|par
+|
+|turn|25
+|
+|move|p1a: Haunter|Thunderbolt|p2a: Zapdos
+|-damage|p2a: Zapdos|56\/304 par
+|cant|p2a: Zapdos|par
+|
+|turn|26
+|c|★andrewandres|stupid lucker..
+|c|★andrewandres|my god..
+|
+|move|p1a: Haunter|Thunderbolt|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|c| the3MarineAdmirals|lucky boy
+|
+|switch|p2a: Chansey|Chansey, L79|448\/557 slp
+|turn|27
+|c|★LekasDisneyPrinces|what luck
+|c| the3MarineAdmirals|fight andrew
+|c|★LekasDisneyPrinces|you should die from flareon
+|
+|switch|p1a: Butterfree|Butterfree, L90|179\/291
+|cant|p2a: Chansey|slp
+|
+|turn|28
+|
+|switch|p2a: Kabutops|Kabutops, L85|276\/276
+|move|p1a: Butterfree|Psychic|p2a: Kabutops
+|-crit|p2a: Kabutops
+|-damage|p2a: Kabutops|142\/276
+|
+|turn|29
+|c|★andrewandres|critical..
+|c|★andrewandres|of coruse
+|
+|move|p2a: Kabutops|Surf|p1a: Butterfree
+|-damage|p1a: Butterfree|100\/291
+|move|p1a: Butterfree|Mega Drain|p2a: Kabutops
+|-supereffective|p2a: Kabutops
+|-damage|p2a: Kabutops|1\/276
+|-heal|p1a: Butterfree|170\/291|[from] drain|[of] p2a: Kabutops
+|
+|turn|30
+|c|★andrewandres|gg
+|c| the3MarineAdmirals|we speak about the lucky bastard here
+|c|★andrewandres|you win
+|
+|switch|p1a: Haunter|Haunter, L85|250\/250
+|move|p2a: Kabutops|Hyper Beam|p1a: Haunter
+|-immune|p1a: Haunter|[msg]
+|
+|turn|31
+|c| the3MarineAdmirals|good one
+|
+|move|p1a: Haunter|Mega Drain|p2a: Kabutops
+|-supereffective|p2a: Kabutops
+|-damage|p2a: Kabutops|0 fnt
+|faint|p2a: Kabutops
+|
+|switch|p2a: Chansey|Chansey, L79|448\/557 slp
+|turn|32
+|
+|switch|p1a: Butterfree|Butterfree, L90|170\/291
+|cant|p2a: Chansey|slp
+|
+|turn|33
+|
+|move|p1a: Butterfree|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|385\/557 slp
+|cant|p2a: Chansey|slp
+|
+|turn|34
+|
+|move|p1a: Butterfree|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|323\/557 slp
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|cant|p2a: Chansey|slp
+|
+|turn|35
+|c|★LekasDisneyPrinces|andrew...
+|-message|andrewandres forfeited.
+|
+|win|LekasDisneyPrinces
+|raw|Ladder updating...
+|leave|andrewandres
+|player|p2
+|c|★LekasDisneyPrinces|i think i fucked your ip address
+|raw|LekasDisneyPrinces's rating: 1406 &rarr; <strong>1417<\/strong><br \/>(+11 for winning)
+|raw|andrewandres's rating: 1238 &rarr; <strong>1224<\/strong><br \/>(-14 for losing)
+|c|★LekasDisneyPrinces|shitttttttttttt
+|c|★LekasDisneyPrinces|xaris i lekkas???

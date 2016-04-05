@@ -1,0 +1,625 @@
+﻿|J|slurmz
+|J|dice
+|player|p1|slurmz|#yellow
+|player|p2|dice|168
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|seed|54107,60926,61769,58583
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|1
+|choice|move 1|move 1
+|
+|move|p2a: Gengar|Hypnosis|p1a: Exeggutor|[miss]
+|-miss|p2a: Gengar
+|move|p1a: Exeggutor|Sleep Powder|p2a: Gengar
+|-status|p2a: Gengar|slp
+|
+|turn|2
+|J|Fortune
+|choice|switch 6|switch 4
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|switch|p1a: Alakazam|Alakazam|313\/313
+|
+|turn|3
+|choice|move 3|move 1
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|move|p2a: Chansey|Sing|p1a: Alakazam|[miss]
+|-miss|p2a: Chansey
+|
+|turn|4
+|choice|move 1|move 1
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|578\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|5
+|choice|move 1|move 1
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|442\/703 par
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|cant|p2a: Chansey|par
+|
+|turn|6
+|choice|move 1|move 3
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|254\/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|605\/703 par
+|
+|turn|7
+|L|Fortune
+|choice|move 1|move 1
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|358\/703 par
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|move|p2a: Chansey|Sing|p1a: Alakazam
+|-status|p1a: Alakazam|slp
+|
+|turn|8
+|choice|switch 6|move 3
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703 par
+|
+|turn|9
+|choice|move 2|switch 3
+|
+|switch|p2a: Slowbro|Slowbro|393\/393
+|move|p1a: Exeggutor|Psychic|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|324\/393
+|
+|turn|10
+|choice|move 4|move 2
+|
+|move|p1a: Exeggutor|Mega Drain|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|189\/393
+|move|p2a: Slowbro|Thunder Wave|p1a: Exeggutor
+|-status|p1a: Exeggutor|par
+|
+|turn|11
+|choice|move 4|move 3
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|cant|p1a: Exeggutor|par
+|
+|turn|12
+|choice|move 3|move 3
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|cant|p1a: Exeggutor|par
+|
+|turn|13
+|choice|move 3|move 3
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|move|p1a: Exeggutor|Explosion|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|faint|p1a: Exeggutor
+|c|★slurmz|and ik
+|c|★slurmz|u have a rock
+|c|★slurmz|and it depresses me
+|c|★slurmz|:[
+|choice|switch 5|switch 6
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|switch|p2a: Snorlax|Snorlax|523\/523
+|turn|14
+|c|★dice|do 
+|c|★dice|i
+|choice|move 3|move 3
+|
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|move|p2a: Snorlax|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|412\/523
+|
+|turn|15
+|c|★slurmz|u should
+|c|★slurmz|?
+|choice|move 2|move 2
+|
+|move|p1a: Snorlax|Ice Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|372\/523
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|270\/523
+|
+|turn|16
+|choice|move 3|move 2
+|
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|134\/523
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|
+|turn|17
+|c|★slurmz|OOPS
+|choice|move 4|move 2
+|
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp
+|-heal|p1a: Snorlax|523\/523 slp|[silent]
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|251\/523 slp
+|
+|turn|18
+|c|★slurmz|ok
+|J|Brazilian Army
+|J|tamahome
+|choice|switch 4|move 2
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Snorlax|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|391\/703
+|
+|turn|19
+|L|Brazilian Army
+|c|+tamahome|slurmz huryr up and lose to me already
+|choice|move 3|move 4
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-start|p1a: Chansey|Reflect
+|move|p2a: Snorlax|Self-Destruct|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|faint|p2a: Snorlax
+|choice|switch 2|switch 3
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|switch|p2a: Chansey|Chansey|703\/703 par
+|turn|20
+|choice|switch 4|move 4
+|
+|switch|p1a: Snorlax|Snorlax|251\/523 slp
+|move|p2a: Chansey|Thunder Wave|p1a: Snorlax
+|-fail|p1a: Snorlax
+|
+|turn|21
+|c|+tamahome|slurmz
+|c|+tamahome|u idiot
+|choice|move 1|switch 5
+|
+|switch|p2a: Rhydon|Rhydon|413\/413
+|cant|p1a: Snorlax|slp
+|
+|turn|22
+|c|+tamahome|forfeit the match
+|c|+tamahome|u fucktard
+|c|★slurmz|i alrdy left
+|c|★slurmz|:]
+|choice|switch 3|move 3
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|move|p2a: Rhydon|Earthquake|p1a: Starmie
+|-damage|p1a: Starmie|176\/323
+|
+|turn|23
+|choice|move 3|switch 5
+|
+|switch|p2a: Chansey|Chansey|703\/703 par
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|323\/323
+|
+|turn|24
+|c|+tamahome|idiots these days......
+|choice|switch 3|switch 5
+|
+|switch|p1a: Snorlax|Snorlax|251\/523 slp
+|switch|p2a: Rhydon|Rhydon|413\/413
+|
+|turn|25
+|choice|switch 3|move 1
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|move|p2a: Rhydon|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|227\/323
+|
+|turn|26
+|choice|move 1|move 3
+|
+|move|p1a: Starmie|Blizzard|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|106\/413
+|-status|p2a: Rhydon|frz
+|cant|p2a: Rhydon|frz
+|
+|turn|27
+|c|★slurmz|my b
+|choice|move 2|move 3
+|
+|move|p1a: Starmie|Psychic|p2a: Rhydon
+|-crit|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|choice||switch 5
+|
+|switch|p2a: Chansey|Chansey|703\/703 par
+|turn|28
+|choice|switch 6|switch 2
+|
+|switch|p1a: Alakazam|Alakazam|313\/313 slp
+|switch|p2a: Dragonite|Dragonite|385\/385
+|
+|turn|29
+|choice|switch 4|move 4
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|move|p2a: Dragonite|Agility|p2a: Dragonite
+|-boost|p2a: Dragonite|spe|2
+|
+|turn|30
+|choice|move 2|move 2
+|
+|move|p2a: Dragonite|Wrap|p1a: Tauros
+|-damage|p1a: Tauros|339\/353
+|-activate|p1a: Tauros|move: Wrap|[of] p2a: Dragonite
+|cant|p1a: Tauros|partiallytrapped
+|
+|turn|31
+|c|★slurmz|gg
+|c|★slurmz|:[
+|choice|move 2|move 2
+|
+|move|p2a: Dragonite|Wrap|p1a: Tauros
+|-damage|p1a: Tauros|325\/353
+|cant|p1a: Tauros|partiallytrapped
+|
+|turn|32
+|choice|move 2|move 2
+|
+|move|p2a: Dragonite|Wrap|p1a: Tauros
+|-damage|p1a: Tauros|311\/353
+|cant|p1a: Tauros|partiallytrapped
+|
+|turn|33
+|choice|move 2|move 2
+|
+|move|p2a: Dragonite|Wrap|p1a: Tauros
+|-damage|p1a: Tauros|297\/353
+|cant|p1a: Tauros|partiallytrapped
+|
+|turn|34
+|c|★dice|i just gotta hit a few more.
+|choice|move 2|move 2
+|
+|move|p2a: Dragonite|Wrap|p1a: Tauros
+|-damage|p1a: Tauros|283\/353
+|cant|p1a: Tauros|partiallytrapped
+|
+|-end|p1a: Tauros|Wrap|[partiallytrapped]
+|turn|35
+|choice|move 2|move 2
+|
+|move|p2a: Dragonite|Wrap|p1a: Tauros
+|-damage|p1a: Tauros|269\/353
+|-activate|p1a: Tauros|move: Wrap|[of] p2a: Dragonite
+|cant|p1a: Tauros|partiallytrapped
+|
+|turn|36
+|c|★slurmz|miss
+|choice|move 2|move 2
+|
+|move|p2a: Dragonite|Wrap|p1a: Tauros
+|-damage|p1a: Tauros|255\/353
+|cant|p1a: Tauros|partiallytrapped
+|
+|turn|37
+|c|★dice|nope
+|choice|move 2|move 2
+|
+|move|p2a: Dragonite|Wrap|p1a: Tauros
+|-damage|p1a: Tauros|241\/353
+|cant|p1a: Tauros|partiallytrapped
+|
+|turn|38
+|c|★slurmz|how rude
+|c|+tamahome|i dont know who to root for in this excuse of match
+|c|+tamahome|i guess dice is less bad
+|c|★dice|o gustavo
+|choice|move 2|move 2
+|
+|move|p2a: Dragonite|Wrap|p1a: Tauros
+|-damage|p1a: Tauros|227\/353
+|cant|p1a: Tauros|partiallytrapped
+|
+|-end|p1a: Tauros|Wrap|[partiallytrapped]
+|turn|39
+|c|★dice|whats the
+|c|★dice|hyper beam calc
+|c|+tamahome|lets finish our old gens matchas
+|c|★dice|vs tauros
+|c|★slurmz|60
+|c|★slurmz|iirc
+|c|+tamahome|like 40%
+|c|★slurmz|o
+|choice|move 2|move 2
+|
+|move|p2a: Dragonite|Wrap|p1a: Tauros
+|-damage|p1a: Tauros|211\/353
+|-activate|p1a: Tauros|move: Wrap|[of] p2a: Dragonite
+|cant|p1a: Tauros|partiallytrapped
+|
+|turn|40
+|c|+tamahome|keep wraping
+|choice|move 2|move 2
+|
+|move|p2a: Dragonite|Wrap|p1a: Tauros
+|-damage|p1a: Tauros|195\/353
+|cant|p1a: Tauros|partiallytrapped
+|
+|turn|41
+|c|★dice|ok tell me when to stop.
+|choice|move 2|move 2
+|
+|move|p2a: Dragonite|Wrap|p1a: Tauros
+|-damage|p1a: Tauros|179\/353
+|cant|p1a: Tauros|partiallytrapped
+|
+|turn|42
+|choice|move 2|move 2
+|
+|move|p2a: Dragonite|Wrap|p1a: Tauros
+|-damage|p1a: Tauros|163\/353
+|cant|p1a: Tauros|partiallytrapped
+|
+|-end|p1a: Tauros|Wrap|[partiallytrapped]
+|turn|43
+|c|+tamahome|little more
+|c|★slurmz|me crying
+|choice|move 2|move 2
+|
+|move|p2a: Dragonite|Wrap|p1a: Tauros
+|-damage|p1a: Tauros|148\/353
+|-activate|p1a: Tauros|move: Wrap|[of] p2a: Dragonite
+|cant|p1a: Tauros|partiallytrapped
+|
+|turn|44
+|choice|move 2|move 2
+|
+|move|p2a: Dragonite|Wrap|p1a: Tauros
+|-damage|p1a: Tauros|133\/353
+|cant|p1a: Tauros|partiallytrapped
+|
+|turn|45
+|c|+tamahome|now should be good
+|c|★dice|ok
+|choice|move 2|move 2
+|
+|move|p2a: Dragonite|Wrap|p1a: Tauros
+|-damage|p1a: Tauros|118\/353
+|cant|p1a: Tauros|partiallytrapped
+|
+|turn|46
+|choice|move 2|move 2
+|
+|move|p2a: Dragonite|Wrap|p1a: Tauros
+|-damage|p1a: Tauros|103\/353
+|cant|p1a: Tauros|partiallytrapped
+|
+|-end|p1a: Tauros|Wrap|[partiallytrapped]
+|turn|47
+|choice|move 2|move 1
+|
+|move|p2a: Dragonite|Hyper Beam|p1a: Tauros|[miss]
+|-miss|p2a: Dragonite
+|move|p1a: Tauros|Blizzard|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|99\/385
+|
+|turn|48
+|c|★dice|.
+|c|★slurmz|DESERVED
+|c|★slurmz|IBE
+|choice|move 1|move 1
+|
+|move|p2a: Dragonite|Hyper Beam|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|choice|switch 6|
+|
+|switch|p1a: Starmie|Starmie|227\/323
+|turn|49
+|choice|move 4|move 2
+|
+|move|p2a: Dragonite|Wrap|p1a: Starmie
+|-damage|p1a: Starmie|209\/323
+|-activate|p1a: Starmie|move: Wrap|[of] p2a: Dragonite
+|cant|p1a: Starmie|partiallytrapped
+|
+|turn|50
+|c|+tamahome|didnt even go for the body slam para
+|choice|move 4|move 2
+|
+|move|p2a: Dragonite|Wrap|p1a: Starmie
+|-damage|p1a: Starmie|191\/323
+|cant|p1a: Starmie|partiallytrapped
+|
+|turn|51
+|c|+tamahome|omg
+|c|+tamahome|please win already
+|choice|move 4|move 2
+|
+|move|p2a: Dragonite|Wrap|p1a: Starmie
+|-damage|p1a: Starmie|173\/323
+|cant|p1a: Starmie|partiallytrapped
+|
+|-end|p1a: Starmie|Wrap|[partiallytrapped]
+|turn|52
+|choice|move 4|move 2
+|
+|move|p2a: Dragonite|Wrap|p1a: Starmie
+|-damage|p1a: Starmie|157\/323
+|-activate|p1a: Starmie|move: Wrap|[of] p2a: Dragonite
+|cant|p1a: Starmie|partiallytrapped
+|
+|turn|53
+|choice|move 4|move 2
+|
+|move|p2a: Dragonite|Wrap|p1a: Starmie
+|-damage|p1a: Starmie|141\/323
+|cant|p1a: Starmie|partiallytrapped
+|
+|turn|54
+|choice|move 4|move 2
+|
+|move|p2a: Dragonite|Wrap|p1a: Starmie
+|-damage|p1a: Starmie|125\/323
+|cant|p1a: Starmie|partiallytrapped
+|
+|-end|p1a: Starmie|Wrap|[partiallytrapped]
+|turn|55
+|choice|move 4|move 1
+|
+|move|p2a: Dragonite|Hyper Beam|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|choice|switch 4|
+|
+|switch|p1a: Alakazam|Alakazam|313\/313 slp
+|turn|56
+|choice|move 3|move 3
+|
+|move|p2a: Dragonite|Surf|p1a: Alakazam
+|-damage|p1a: Alakazam|257\/313 slp
+|cant|p1a: Alakazam|slp
+|
+|turn|57
+|c|★slurmz|im quite sad
+|c|+tamahome|hyper beam
+|c|+tamahome|u idiot
+|c|★dice|what if he
+|c|★dice|wakes up
+|c|★slurmz|if i wake
+|c|★slurmz|u get
+|c|★dice|~_~
+|c|★slurmz|the free turn
+|c|★slurmz|anyway
+|choice|move 3|move 1
+|
+|move|p2a: Dragonite|Hyper Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|28\/313 slp
+|cant|p1a: Alakazam|slp
+|
+|turn|58
+|-mustrecharge|p2a: Dragonite
+|c|★slurmz|?.?
+|-mustrecharge|p2a: Dragonite
+|choice|move 3|move 1
+|
+|cant|p2a: Dragonite|recharge
+|-curestatus|p1a: Alakazam|slp
+|
+|turn|59
+|choice|move 3|move 3
+|
+|move|p2a: Dragonite|Surf|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|c|★slurmz|"gg"
+|choice|switch 3|
+|
+|switch|p1a: Snorlax|Snorlax|251\/523 slp
+|turn|60
+|c|+tamahome|"lol"
+|c|★dice|do i
+|c|★dice|hb here tama
+|c|★dice|ghost me
+|c|+tamahome|no
+|c|+tamahome|wrap
+|c|★slurmz|n wrap
+|choice|move 2|move 2
+|
+|move|p2a: Dragonite|Wrap|p1a: Snorlax
+|-damage|p1a: Snorlax|230\/523 slp
+|-activate|p1a: Snorlax|move: Wrap|[of] p2a: Dragonite
+|-curestatus|p1a: Snorlax|slp
+|
+|turn|61
+|c|★slurmz|its around
+|c|★slurmz|30
+|c|★slurmz|to hb
+|choice|move 2|move 2
+|
+|move|p2a: Dragonite|Wrap|p1a: Snorlax
+|-damage|p1a: Snorlax|209\/523
+|cant|p1a: Snorlax|partiallytrapped
+|
+|turn|62
+|choice|move 2|move 2
+|
+|move|p2a: Dragonite|Wrap|p1a: Snorlax
+|-damage|p1a: Snorlax|188\/523
+|cant|p1a: Snorlax|partiallytrapped
+|
+|-end|p1a: Snorlax|Wrap|[partiallytrapped]
+|turn|63
+|c|★dice|man this mon is gay
+|choice|move 2|move 2
+|
+|move|p2a: Dragonite|Wrap|p1a: Snorlax
+|-damage|p1a: Snorlax|167\/523
+|-activate|p1a: Snorlax|move: Wrap|[of] p2a: Dragonite
+|cant|p1a: Snorlax|partiallytrapped
+|
+|turn|64
+|choice|move 2|move 2
+|
+|move|p2a: Dragonite|Wrap|p1a: Snorlax
+|-damage|p1a: Snorlax|146\/523
+|cant|p1a: Snorlax|partiallytrapped
+|
+|turn|65
+|c|★slurmz|y
+|c|★slurmz|but i
+|c|★slurmz|let it
+|c|★slurmz|set up
+|c|★slurmz|didn't respect the possibility
+|choice|move 3|move 2
+|
+|move|p2a: Dragonite|Wrap|p1a: Snorlax
+|-damage|p1a: Snorlax|125\/523
+|cant|p1a: Snorlax|partiallytrapped
+|
+|-end|p1a: Snorlax|Wrap|[partiallytrapped]
+|turn|66
+|choice|move 2|move 1
+|
+|move|p2a: Dragonite|Hyper Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|win|dice

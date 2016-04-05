@@ -1,0 +1,257 @@
+﻿|join|innovamania
+|join|kid gf lol
+|player|p1|innovamania|167
+|player|p2|kid gf lol|168
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|switch|p1a: Venomoth|Venomoth|343\/343
+|switch|p2a: Tangela|Tangela|333\/333
+|turn|1
+|
+|switch|p2a: Electabuzz|Electabuzz|333\/333
+|move|p1a: Venomoth|Sleep Powder|p2a: Electabuzz
+|-status|p2a: Electabuzz|slp
+|
+|turn|2
+|
+|switch|p2a: Flareon|Flareon|333\/333
+|move|p1a: Venomoth|Psychic|p2a: Flareon
+|-damage|p2a: Flareon|270\/333
+|
+|turn|3
+|
+|switch|p1a: Omastar|Omastar|343\/343
+|move|p2a: Flareon|Fire Blast|p1a: Omastar
+|-resisted|p1a: Omastar
+|-damage|p1a: Omastar|311\/343
+|
+|turn|4
+|
+|switch|p2a: Poliwrath|Poliwrath|383\/383
+|move|p1a: Omastar|Blizzard|p2a: Poliwrath
+|-resisted|p2a: Poliwrath
+|-damage|p2a: Poliwrath|319\/383
+|
+|turn|5
+|
+|switch|p1a: Venomoth|Venomoth|343\/343
+|move|p2a: Poliwrath|Hypnosis|p1a: Venomoth
+|-status|p1a: Venomoth|slp
+|
+|turn|6
+|
+|switch|p1a: Electabuzz|Electabuzz|333\/333
+|move|p2a: Poliwrath|Amnesia|p2a: Poliwrath
+|-boost|p2a: Poliwrath|spd|2
+|-boost|p2a: Poliwrath|spa|2
+|
+|turn|7
+|
+|switch|p2a: Graveler|Graveler|313\/313
+|move|p1a: Electabuzz|Thunder Wave|p2a: Graveler
+|-immune|p2a: Graveler|[msg]
+|
+|turn|8
+|
+|switch|p1a: Sandslash|Sandslash|353\/353
+|move|p2a: Graveler|Earthquake|p1a: Sandslash
+|-damage|p1a: Sandslash|253\/353
+|
+|turn|9
+|
+|switch|p2a: Tangela|Tangela|333\/333
+|move|p1a: Sandslash|Swords Dance|p1a: Sandslash
+|-boost|p1a: Sandslash|atk|2
+|
+|turn|10
+|
+|move|p1a: Sandslash|Hyper Beam|p2a: Tangela
+|-damage|p2a: Tangela|131\/333
+|move|p2a: Tangela|Growth|p2a: Tangela
+|-boost|p2a: Tangela|spa|1
+|-boost|p2a: Tangela|spd|1
+|
+|turn|11
+|chat|innovamania|oops
+|chat|innovamania|I dont the tier enough
+|
+|cant|p1a: Sandslash|recharge
+|move|p2a: Tangela|Mega Drain|p1a: Sandslash
+|-supereffective|p1a: Sandslash
+|-damage|p1a: Sandslash|65\/353
+|-heal|p2a: Tangela|225\/333|[from] drain|[of] p1a: Sandslash
+|
+|turn|12
+|chat|kid gf lol|i rarely do uu
+|
+|move|p1a: Sandslash|Hyper Beam|p2a: Tangela|[miss]
+|-miss|p1a: Sandslash
+|move|p2a: Tangela|Mega Drain|p1a: Sandslash
+|-supereffective|p1a: Sandslash
+|-damage|p1a: Sandslash|0 fnt
+|-heal|p2a: Tangela|258\/333|[from] drain|[of] p1a: Sandslash
+|faint|p1a: Sandslash
+|
+|chat|kid gf lol|so i'm not too good lol
+|chat|innovamania|:[
+|chat|innovamania|the miss
+|
+|switch|p1a: Scyther|Scyther|343\/343
+|turn|13
+|
+|switch|p2a: Flareon|Flareon|270\/333
+|move|p1a: Scyther|Swords Dance|p1a: Scyther
+|-boost|p1a: Scyther|atk|2
+|
+|turn|14
+|
+|move|p1a: Scyther|Hyper Beam|p2a: Flareon
+|-damage|p2a: Flareon|0 fnt
+|faint|p2a: Flareon
+|
+|
+|switch|p2a: Graveler|Graveler|313\/313
+|turn|15
+|
+|switch|p1a: Omastar|Omastar|311\/343
+|move|p2a: Graveler|Rock Slide|p1a: Omastar|[miss]
+|-miss|p2a: Graveler
+|
+|turn|16
+|
+|switch|p2a: Poliwrath|Poliwrath|319\/383
+|move|p1a: Omastar|Hydro Pump|p2a: Poliwrath
+|-resisted|p2a: Poliwrath
+|-damage|p2a: Poliwrath|230\/383
+|
+|turn|17
+|
+|move|p2a: Poliwrath|Ice Beam|p1a: Omastar
+|-crit|p1a: Omastar
+|-resisted|p1a: Omastar
+|-damage|p1a: Omastar|257\/343
+|move|p1a: Omastar|Seismic Toss|p2a: Poliwrath
+|-damage|p2a: Poliwrath|130\/383
+|
+|turn|18
+|
+|switch|p1a: Electabuzz|Electabuzz|333\/333
+|move|p2a: Poliwrath|Amnesia|p2a: Poliwrath
+|-boost|p2a: Poliwrath|spd|2
+|-boost|p2a: Poliwrath|spa|2
+|
+|turn|19
+|
+|switch|p2a: Graveler|Graveler|313\/313
+|move|p1a: Electabuzz|Psychic|p2a: Graveler
+|-crit|p2a: Graveler
+|-damage|p2a: Graveler|109\/313
+|
+|turn|20
+|chat|innovamania|crit srry
+|
+|move|p1a: Electabuzz|Psychic|p2a: Graveler
+|-damage|p2a: Graveler|11\/313
+|move|p2a: Graveler|Explosion|p1a: Electabuzz
+|-damage|p1a: Electabuzz|0 fnt
+|faint|p1a: Electabuzz
+|faint|p2a: Graveler
+|
+|switch|p1a: Raticate|Raticate|313\/313
+|switch|p2a: Machamp|Machamp|383\/383
+|turn|21
+|join|C-Demo
+|
+|move|p1a: Raticate|Super Fang|p2a: Machamp
+|-damage|p2a: Machamp|192\/383
+|move|p2a: Machamp|Submission|p1a: Raticate
+|-supereffective|p1a: Raticate
+|-damage|p1a: Raticate|0 fnt
+|-damage|p2a: Machamp|114\/383|[from] recoil|[of] p1a: Raticate
+|faint|p1a: Raticate
+|
+|
+|switch|p1a: Scyther|Scyther|343\/343
+|turn|22
+|
+|switch|p2a: Electabuzz|Electabuzz|333\/333 slp
+|move|p1a: Scyther|Swords Dance|p1a: Scyther
+|-boost|p1a: Scyther|atk|2
+|
+|turn|23
+|
+|cant|p2a: Electabuzz|slp
+|move|p1a: Scyther|Hyper Beam|p2a: Electabuzz
+|-damage|p2a: Electabuzz|0 fnt
+|faint|p2a: Electabuzz
+|
+|
+|switch|p2a: Tangela|Tangela|258\/333
+|turn|24
+|
+|move|p1a: Scyther|Hyper Beam|p2a: Tangela
+|-damage|p2a: Tangela|17\/333
+|move|p2a: Tangela|Growth|p2a: Tangela
+|-boost|p2a: Tangela|spa|1
+|-boost|p2a: Tangela|spd|1
+|
+|turn|25
+|chat|innovamania|damn
+|
+|cant|p1a: Scyther|recharge
+|move|p2a: Tangela|Rest|p2a: Tangela
+|-status|p2a: Tangela|slp
+|-heal|p2a: Tangela|333\/333 slp|[silent]
+|-status|p2a: Tangela|slp|[from] move: Rest
+|
+|turn|26
+|
+|move|p1a: Scyther|Swords Dance|p1a: Scyther
+|-boost|p1a: Scyther|atk|2
+|cant|p2a: Tangela|slp
+|
+|turn|27
+|
+|move|p1a: Scyther|Hyper Beam|p2a: Tangela
+|-damage|p2a: Tangela|0 fnt
+|faint|p2a: Tangela
+|
+|
+|switch|p2a: Machamp|Machamp|114\/383
+|turn|28
+|chat|kid gf lol|gg
+|chat|innovamania|gg wp
+|
+|move|p1a: Scyther|Hyper Beam|p2a: Machamp
+|-damage|p2a: Machamp|0 fnt
+|faint|p2a: Machamp
+|
+|
+|switch|p2a: Poliwrath|Poliwrath|130\/383
+|turn|29
+|chat|innovamania|scyther is a great late game cleaner
+|
+|move|p1a: Scyther|Hyper Beam|p2a: Poliwrath
+|-damage|p2a: Poliwrath|0 fnt
+|faint|p2a: Poliwrath
+|
+|win|innovamania
+|leave|C-Demo
+|chat|kid gf lol|if you can get it set up lol
+|chat|innovamania|thnks for the battle
+|chat|kid gf lol|it dies so fast
+|chat|innovamania|:[ tru
+|chat|kid gf lol|yeah it's hard to find uu
+|chat|innovamania|this was fun
+|leave|kid gf lol
+|player|p2

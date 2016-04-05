@@ -1,0 +1,342 @@
+﻿|join|Redolent
+|join|DerpKing
+|player|p1|Redolent|49
+|player|p2|DerpKing|108
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gengar|Gengar|323\/323
+|switch|p2a: Dr. Overrated|Charizard|359\/359
+|turn|1
+|
+|move|p1a: Gengar|Thunderbolt|p2a: Dr. Overrated
+|-crit|p2a: Dr. Overrated
+|-supereffective|p2a: Dr. Overrated
+|-damage|p2a: Dr. Overrated|0 fnt
+|faint|p2a: Dr. Overrated
+|
+|switch|p2a: Bullsiht|Tauros|353\/353
+|turn|2
+|
+|switch|p1a: Cloyster|Cloyster|303\/303
+|move|p2a: Bullsiht|Earthquake|p1a: Cloyster
+|-crit|p1a: Cloyster
+|-damage|p1a: Cloyster|210\/303
+|
+|turn|3
+|
+|move|p2a: Bullsiht|Substitute|p2a: Bullsiht
+|-start|p2a: Bullsiht|Substitute
+|-damage|p2a: Bullsiht|265\/353
+|move|p1a: Cloyster|Toxic|p2a: Bullsiht
+|-fail|p2a: Bullsiht
+|
+|turn|4
+|
+|move|p2a: Bullsiht|Body Slam|p1a: Cloyster
+|-damage|p1a: Cloyster|149\/303
+|move|p1a: Cloyster|Ice Beam|p2a: Bullsiht
+|-end|p2a: Bullsiht|Substitute
+|
+|turn|5
+|
+|move|p2a: Bullsiht|Earthquake|p1a: Cloyster
+|-damage|p1a: Cloyster|95\/303
+|move|p1a: Cloyster|Ice Beam|p2a: Bullsiht
+|-crit|p2a: Bullsiht
+|-damage|p2a: Bullsiht|22\/353
+|
+|turn|6
+|
+|switch|p1a: Articuno|Articuno|383\/383
+|move|p2a: Bullsiht|Earthquake|p1a: Articuno
+|-immune|p1a: Articuno|[msg]
+|
+|turn|7
+|
+|move|p2a: Bullsiht|Body Slam|p1a: Articuno
+|-damage|p1a: Articuno|278\/383
+|-status|p1a: Articuno|par
+|move|p1a: Articuno|Ice Beam|p2a: Bullsiht
+|-damage|p2a: Bullsiht|0 fnt
+|faint|p2a: Bullsiht
+|
+|switch|p2a: Thrust|Nidoking|365\/365
+|turn|8
+|
+|move|p2a: Thrust|Thunderbolt|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|170\/383 par
+|move|p1a: Articuno|Ice Beam|p2a: Thrust
+|-supereffective|p2a: Thrust
+|-damage|p2a: Thrust|33\/365
+|
+|turn|9
+|
+|move|p2a: Thrust|Thunderbolt|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|61\/383 par
+|move|p1a: Articuno|Rest|p1a: Articuno
+|-status|p1a: Articuno|slp
+|-heal|p1a: Articuno|383\/383 slp|[silent]
+|-status|p1a: Articuno|slp|[from] move: Rest
+|
+|turn|10
+|
+|switch|p2a: Fapdos|Zapdos|383\/383
+|cant|p1a: Articuno|slp
+|
+|turn|11
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Fapdos|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|581\/703
+|
+|turn|12
+|
+|move|p2a: Fapdos|Drill Peck|p1a: Chansey
+|-damage|p1a: Chansey|336\/703
+|move|p1a: Chansey|Toxic|p2a: Fapdos
+|-status|p2a: Fapdos|tox
+|
+|turn|13
+|
+|move|p2a: Fapdos|Drill Peck|p1a: Chansey
+|-damage|p1a: Chansey|95\/703
+|-damage|p2a: Fapdos|360\/383 tox|[from] tox|[of] p1a: Chansey
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|446\/703
+|
+|turn|14
+|
+|move|p2a: Fapdos|Drill Peck|p1a: Chansey
+|-damage|p1a: Chansey|198\/703
+|-damage|p2a: Fapdos|314\/383 tox|[from] tox|[of] p1a: Chansey
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|549\/703
+|
+|turn|15
+|
+|switch|p2a: Thrust|Nidoking|33\/365
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-start|p1a: Chansey|Reflect
+|
+|turn|16
+|
+|move|p2a: Thrust|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|406\/703
+|move|p1a: Chansey|Ice Beam|p2a: Thrust
+|-supereffective|p2a: Thrust
+|-damage|p2a: Thrust|0 fnt
+|faint|p2a: Thrust
+|
+|switch|p2a: Bob Marley|Venusaur|363\/363
+|turn|17
+|
+|move|p2a: Bob Marley|Leech Seed|p1a: Chansey
+|-start|p1a: Chansey|move: Leech Seed
+|move|p1a: Chansey|Ice Beam|p2a: Bob Marley
+|-supereffective|p2a: Bob Marley
+|-damage|p2a: Bob Marley|211\/363
+|-damage|p1a: Chansey|363\/703|[from] Leech Seed|[of] p2a: Bob Marley
+|-heal|p2a: Bob Marley|254\/363|[silent]
+|
+|turn|18
+|
+|switch|p1a: Articuno|Articuno|383\/383 slp
+|move|p2a: Bob Marley|Sleep Powder|p1a: Articuno|[miss]
+|-miss|p2a: Bob Marley
+|
+|turn|19
+|
+|cant|p1a: Articuno|slp
+|-curestatus|p1a: Articuno|slp
+|move|p2a: Bob Marley|Leech Seed|p1a: Articuno
+|-start|p1a: Articuno|move: Leech Seed
+|
+|turn|20
+|
+|switch|p2a: RBY OU|Alakazam|313\/313
+|move|p1a: Articuno|Ice Beam|p2a: RBY OU
+|-damage|p2a: RBY OU|212\/313
+|-damage|p1a: Articuno|360\/383|[from] Leech Seed|[of] p2a: RBY OU
+|-heal|p2a: RBY OU|235\/313|[silent]
+|
+|turn|21
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: RBY OU|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|
+|turn|22
+|
+|move|p2a: RBY OU|Substitute|p2a: RBY OU
+|-start|p2a: RBY OU|Substitute
+|-damage|p2a: RBY OU|157\/313
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|
+|turn|23
+|
+|move|p2a: RBY OU|Psychic|p1a: Snorlax
+|-damage|p1a: Snorlax|443\/523 par
+|move|p1a: Snorlax|Ice Beam|p2a: RBY OU
+|-end|p2a: RBY OU|Substitute
+|
+|turn|24
+|
+|move|p2a: RBY OU|Psychic|p1a: Snorlax
+|-damage|p1a: Snorlax|354\/523 par
+|-unboost|p1a: Snorlax|spd|1
+|-unboost|p1a: Snorlax|spa|1
+|move|p1a: Snorlax|Thunderbolt|p2a: RBY OU
+|-damage|p2a: RBY OU|84\/313
+|
+|turn|25
+|
+|move|p2a: RBY OU|Psychic|p1a: Snorlax
+|-damage|p1a: Snorlax|244\/523 par
+|cant|p1a: Snorlax|par
+|
+|turn|26
+|
+|move|p2a: RBY OU|Psychic|p1a: Snorlax
+|-damage|p1a: Snorlax|128\/523 par
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp
+|-heal|p1a: Snorlax|523\/523 slp|[silent]
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|
+|turn|27
+|
+|move|p2a: RBY OU|Psychic|p1a: Snorlax
+|-damage|p1a: Snorlax|399\/523 slp
+|cant|p1a: Snorlax|slp
+|
+|turn|28
+|
+|move|p2a: RBY OU|Rest|p2a: RBY OU
+|-status|p2a: RBY OU|slp
+|-heal|p2a: RBY OU|313\/313 slp|[silent]
+|-status|p2a: RBY OU|slp|[from] move: Rest
+|cant|p1a: Snorlax|slp
+|-curestatus|p1a: Snorlax|slp
+|
+|turn|29
+|
+|cant|p2a: RBY OU|slp
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|
+|turn|30
+|
+|cant|p2a: RBY OU|slp
+|-curestatus|p2a: RBY OU|slp
+|move|p1a: Snorlax|Ice Beam|p2a: RBY OU
+|-damage|p2a: RBY OU|198\/313
+|
+|turn|31
+|
+|move|p2a: RBY OU|Thunder Wave|p1a: Snorlax|[miss]
+|-miss|p2a: RBY OU
+|move|p1a: Snorlax|Ice Beam|p2a: RBY OU
+|-damage|p2a: RBY OU|89\/313
+|
+|turn|32
+|
+|move|p2a: RBY OU|Psychic|p1a: Snorlax
+|-damage|p1a: Snorlax|334\/523
+|move|p1a: Snorlax|Ice Beam|p2a: RBY OU
+|-damage|p2a: RBY OU|0 fnt
+|faint|p2a: RBY OU
+|
+|switch|p2a: Fapdos|Zapdos|314\/383 tox
+|-status|p2a: Fapdos|psn
+|turn|33
+|
+|move|p2a: Fapdos|Drill Peck|p1a: Snorlax
+|-damage|p1a: Snorlax|216\/523
+|-damage|p2a: Fapdos|291\/383 psn|[from] psn|[of] p1a: Snorlax
+|move|p1a: Snorlax|Ice Beam|p2a: Fapdos
+|-supereffective|p2a: Fapdos
+|-damage|p2a: Fapdos|30\/383 psn
+|
+|turn|34
+|
+|move|p2a: Fapdos|Drill Peck|p1a: Snorlax
+|-damage|p1a: Snorlax|97\/523
+|-damage|p2a: Fapdos|7\/383 psn|[from] psn|[of] p1a: Snorlax
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp
+|-heal|p1a: Snorlax|523\/523 slp|[silent]
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|
+|turn|35
+|
+|move|p2a: Fapdos|Drill Peck|p1a: Snorlax
+|-damage|p1a: Snorlax|401\/523 slp
+|-damage|p2a: Fapdos|0 fnt|[from] psn|[of] p1a: Snorlax
+|faint|p2a: Fapdos
+|
+|switch|p2a: Bob Marley|Venusaur|254\/363
+|turn|36
+|
+|move|p2a: Bob Marley|Substitute|p2a: Bob Marley
+|-start|p2a: Bob Marley|Substitute
+|-damage|p2a: Bob Marley|164\/363
+|cant|p1a: Snorlax|slp
+|
+|turn|37
+|
+|move|p2a: Bob Marley|Leech Seed|p1a: Snorlax
+|-start|p1a: Snorlax|move: Leech Seed
+|cant|p1a: Snorlax|slp
+|-damage|p1a: Snorlax|369\/523 slp|[from] Leech Seed|[of] p2a: Bob Marley
+|-heal|p2a: Bob Marley|196\/363|[silent]
+|-curestatus|p1a: Snorlax|slp
+|
+|turn|38
+|
+|move|p2a: Bob Marley|Sleep Powder|p1a: Snorlax
+|-status|p1a: Snorlax|slp
+|cant|p1a: Snorlax|slp
+|-damage|p1a: Snorlax|337\/523 slp|[from] Leech Seed|[of] p2a: Bob Marley
+|-heal|p2a: Bob Marley|228\/363|[silent]
+|
+|turn|39
+|
+|switch|p1a: Articuno|Articuno|360\/383
+|move|p2a: Bob Marley|Razor Leaf|p1a: Articuno
+|-crit|p1a: Articuno
+|-resisted|p1a: Articuno
+|-damage|p1a: Articuno|306\/383
+|
+|turn|40
+|
+|move|p1a: Articuno|Ice Beam|p2a: Bob Marley
+|-supereffective|p2a: Bob Marley
+|-end|p2a: Bob Marley|Substitute
+|move|p2a: Bob Marley|Sleep Powder|p1a: Articuno|[miss]
+|-miss|p2a: Bob Marley
+|
+|turn|41
+|
+|move|p1a: Articuno|Ice Beam|p2a: Bob Marley
+|-supereffective|p2a: Bob Marley
+|-damage|p2a: Bob Marley|0 fnt
+|faint|p2a: Bob Marley
+|
+|win|Redolent
+|raw|Ladder updating...
+|c|★Redolent|gg

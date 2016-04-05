@@ -1,0 +1,368 @@
+﻿|join|dramlamb
+|join|marcoasd
+|player|p1|dramlamb|239
+|player|p2|marcoasd|169
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|1
+|chat|dramlamb|glhf
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Alakazam|Thunder Wave|p2a: Exeggutor
+|-status|p2a: Exeggutor|par
+|
+|turn|2
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|571\/703
+|
+|turn|3
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: Chansey|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|417\/523
+|
+|turn|4
+|
+|move|p2a: Chansey|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|322\/523
+|move|p1a: Snorlax|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|257\/703
+|
+|turn|5
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|608\/703
+|move|p1a: Snorlax|Earthquake|p2a: Chansey
+|-damage|p2a: Chansey|377\/703
+|
+|turn|6
+|
+|switch|p2a: Lapras|Lapras|463\/463
+|move|p1a: Snorlax|Body Slam|p2a: Lapras
+|-damage|p2a: Lapras|343\/463
+|
+|turn|7
+|
+|move|p2a: Lapras|Blizzard|p1a: Snorlax|[miss]
+|-miss|p2a: Lapras
+|move|p1a: Snorlax|Body Slam|p2a: Lapras
+|-damage|p2a: Lapras|208\/463
+|
+|turn|8
+|
+|move|p2a: Lapras|Blizzard|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|
+|switch|p1a: Jynx|Jynx|333\/333
+|turn|9
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|move|p1a: Jynx|Psychic|p2a: Gengar
+|-crit|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|10
+|
+|move|p2a: Tauros|Body Slam|p1a: Jynx
+|-damage|p1a: Jynx|145\/333
+|move|p1a: Jynx|Lovely Kiss|p2a: Tauros
+|-status|p2a: Tauros|slp
+|
+|turn|11
+|
+|switch|p2a: Chansey|Chansey|377\/703
+|move|p1a: Jynx|Psychic|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|166\/703
+|
+|turn|12
+|
+|move|p1a: Jynx|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|71\/703
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|422\/703
+|
+|turn|13
+|
+|move|p1a: Jynx|Mimic|p2a: Chansey
+|-start|p1a: Jynx|Mimic|Thunder Wave
+|move|p2a: Chansey|Thunder Wave|p1a: Jynx
+|-status|p1a: Jynx|par
+|
+|turn|14
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703
+|move|p1a: Jynx|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|turn|15
+|
+|move|p1a: Jynx|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|604\/703 par
+|move|p2a: Chansey|Thunderbolt|p1a: Jynx
+|-damage|p1a: Jynx|59\/333 par
+|
+|turn|16
+|
+|cant|p1a: Jynx|par
+|move|p2a: Chansey|Thunderbolt|p1a: Jynx
+|-crit|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|17
+|
+|move|p1a: Tauros|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|312\/703 par
+|move|p2a: Chansey|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|
+|turn|18
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Tauros|Hyper Beam|p2a: Snorlax|[miss]
+|-miss|p1a: Tauros
+|
+|turn|19
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Snorlax|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|268\/393
+|-status|p1a: Exeggutor|par
+|
+|turn|20
+|
+|move|p2a: Snorlax|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|143\/393 par
+|move|p1a: Exeggutor|Stun Spore|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|
+|turn|21
+|
+|switch|p2a: Lapras|Lapras|208\/463
+|move|p1a: Exeggutor|Psychic|p2a: Lapras
+|-damage|p2a: Lapras|71\/463
+|
+|turn|22
+|
+|switch|p1a: Tauros|Tauros|353\/353 par
+|move|p2a: Lapras|Blizzard|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|21\/353 par
+|
+|turn|23
+|
+|move|p2a: Lapras|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|turn|24
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393 par
+|move|p1a: Alakazam|Psychic|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|283\/393 par
+|-unboost|p2a: Exeggutor|spd|1
+|-unboost|p2a: Exeggutor|spa|1
+|
+|turn|25
+|
+|switch|p1a: Golem|Golem|363\/363
+|move|p2a: Exeggutor|Stun Spore|p1a: Golem|[miss]
+|-miss|p2a: Exeggutor
+|
+|turn|26
+|
+|move|p1a: Golem|Rock Slide|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-damage|p2a: Exeggutor|90\/393 par
+|move|p2a: Exeggutor|Sleep Powder|p1a: Golem
+|-status|p1a: Golem|slp
+|
+|turn|27
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|cant|p2a: Exeggutor|par
+|
+|turn|28
+|
+|move|p1a: Alakazam|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|14\/393 par
+|cant|p2a: Exeggutor|par
+|
+|turn|29
+|
+|move|p1a: Alakazam|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|
+|switch|p2a: Chansey|Chansey|312\/703 par
+|turn|30
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|179\/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|530\/703 par
+|
+|turn|31
+|
+|switch|p1a: Exeggutor|Exeggutor|143\/393 par
+|cant|p2a: Chansey|par
+|
+|turn|32
+|
+|switch|p2a: Tauros|Tauros|353\/353 slp
+|move|p1a: Exeggutor|Psychic|p2a: Tauros
+|-damage|p2a: Tauros|197\/353 slp
+|
+|turn|33
+|join|RiceGodLostToWolf
+|
+|cant|p2a: Tauros|slp
+|move|p1a: Exeggutor|Psychic|p2a: Tauros
+|-damage|p2a: Tauros|45\/353 slp
+|
+|turn|34
+|
+|cant|p2a: Tauros|slp
+|-curestatus|p2a: Tauros|slp
+|move|p1a: Exeggutor|Psychic|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|leave|RiceGodLostToWolf
+|
+|switch|p2a: Lapras|Lapras|71\/463
+|turn|35
+|
+|move|p2a: Lapras|Confuse Ray|p1a: Exeggutor
+|-start|p1a: Exeggutor|confusion
+|-activate|p1a: Exeggutor|confusion
+|-damage|p1a: Exeggutor|111\/393 par|[from] confusion
+|
+|turn|36
+|
+|move|p2a: Lapras|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|46\/393 par
+|-activate|p1a: Exeggutor|confusion
+|move|p1a: Exeggutor|Psychic|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|
+|
+|switch|p2a: Chansey|Chansey|530\/703 par
+|turn|37
+|
+|-activate|p1a: Exeggutor|confusion
+|-damage|p1a: Exeggutor|12\/393 par|[from] confusion
+|move|p2a: Chansey|Ice Beam|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|turn|38
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|401\/703 par
+|move|p2a: Chansey|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|
+|turn|39
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|161\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|40
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|
+|switch|p2a: Snorlax|Snorlax|523\/523 par
+|turn|41
+|
+|move|p1a: Alakazam|Reflect|p1a: Alakazam
+|move|p2a: Snorlax|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|225\/313 par
+|
+|turn|42
+|
+|move|p1a: Alakazam|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|356\/523 par
+|-unboost|p2a: Snorlax|spd|1
+|-unboost|p2a: Snorlax|spa|1
+|cant|p2a: Snorlax|par
+|
+|turn|43
+|
+|move|p1a: Alakazam|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|104\/523 par
+|-unboost|p2a: Snorlax|spd|1
+|-unboost|p2a: Snorlax|spa|1
+|move|p2a: Snorlax|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|146\/313 par
+|
+|turn|44
+|
+|cant|p1a: Alakazam|par
+|move|p2a: Snorlax|Hyper Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|2\/313 par
+|
+|turn|45
+|
+|cant|p1a: Alakazam|par
+|cant|p2a: Snorlax|recharge
+|
+|turn|46
+|
+|move|p1a: Alakazam|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|win|dramlamb
+|raw|Ladder updating...
+|raw|dramlamb's rating: 1245 &rarr; <strong>1284<\/strong><br \/>(+39 for winning)
+|raw|marcoasd's rating: 1482 &rarr; <strong>1450<\/strong><br \/>(-32 for losing)
+|chat|marcoasd|gg
+|chat|dramlamb|gg
+|join|J. Hegg's Beard
+|leave|marcoasd
+|player|p2
+|leave|J. Hegg's Beard

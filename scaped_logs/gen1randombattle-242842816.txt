@@ -1,0 +1,217 @@
+﻿|join|AmnesiaLOL
+|join|Life's Pointless
+|player|p1|AmnesiaLOL|30
+|player|p2|Life's Pointless|95
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Nidorino|Nidorino, L90|293\/293
+|switch|p2a: Vileplume|Vileplume, L90|318\/318
+|turn|1
+|
+|move|p1a: Nidorino|Body Slam|p2a: Vileplume
+|-damage|p2a: Vileplume|260\/318
+|-status|p2a: Vileplume|par
+|move|p2a: Vileplume|Sleep Powder|p1a: Nidorino
+|-status|p1a: Nidorino|slp
+|
+|turn|2
+|
+|switch|p1a: Fearow|Fearow, L90|300\/300
+|move|p2a: Vileplume|Swords Dance|p2a: Vileplume
+|-boost|p2a: Vileplume|atk|2
+|
+|turn|3
+|
+|move|p1a: Fearow|Drill Peck|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|73\/318 par
+|move|p2a: Vileplume|Body Slam|p1a: Fearow
+|-damage|p1a: Fearow|158\/300
+|
+|turn|4
+|
+|move|p1a: Fearow|Drill Peck|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|c|★AmnesiaLOL|what a depressing game
+|
+|switch|p2a: Aerodactyl|Aerodactyl, L90|327\/327
+|turn|5
+|c|★AmnesiaLOL|name*
+|
+|switch|p1a: Nidorino|Nidorino, L90|293\/293 slp
+|move|p2a: Aerodactyl|Reflect|p2a: Aerodactyl
+|-start|p2a: Aerodactyl|Reflect
+|
+|turn|6
+|
+|move|p2a: Aerodactyl|Double-Edge|p1a: Nidorino
+|-damage|p1a: Nidorino|196\/293 slp
+|-damage|p2a: Aerodactyl|303\/327|[from] recoil|[of] p1a: Nidorino
+|cant|p1a: Nidorino|slp
+|
+|turn|7
+|
+|move|p2a: Aerodactyl|Hyper Beam|p1a: Nidorino
+|-damage|p1a: Nidorino|39\/293 slp
+|cant|p1a: Nidorino|slp
+|-curestatus|p1a: Nidorino|slp
+|
+|turn|8
+|-mustrecharge|p2a: Aerodactyl
+|-mustrecharge|p2a: Aerodactyl
+|
+|cant|p2a: Aerodactyl|recharge
+|move|p1a: Nidorino|Thunder|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|151\/327
+|
+|turn|9
+|
+|move|p2a: Aerodactyl|Hyper Beam|p1a: Nidorino
+|-damage|p1a: Nidorino|0 fnt
+|faint|p1a: Nidorino
+|
+|switch|p1a: Tentacruel|Tentacruel, L85|310\/310
+|turn|10
+|
+|move|p2a: Aerodactyl|Hyper Beam|p1a: Tentacruel
+|-damage|p1a: Tentacruel|162\/310
+|move|p1a: Tentacruel|Hydro Pump|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|faint|p2a: Aerodactyl
+|
+|switch|p2a: Alakazam|Alakazam, L79|249\/249
+|turn|11
+|
+|switch|p1a: Mewtwo|Mewtwo, L70|293\/293
+|move|p2a: Alakazam|Psychic|p1a: Mewtwo
+|-resisted|p1a: Mewtwo
+|-damage|p1a: Mewtwo|253\/293
+|
+|turn|12
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Mewtwo
+|-status|p1a: Mewtwo|par
+|move|p1a: Mewtwo|Body Slam|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-damage|p2a: Alakazam|103\/249
+|
+|turn|13
+|
+|move|p2a: Alakazam|Reflect|p2a: Alakazam
+|-start|p2a: Alakazam|Reflect
+|move|p1a: Mewtwo|Body Slam|p2a: Alakazam
+|-damage|p2a: Alakazam|69\/249
+|
+|turn|14
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Mewtwo
+|-damage|p1a: Mewtwo|174\/293 par
+|move|p1a: Mewtwo|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|33\/249
+|
+|turn|15
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Mewtwo
+|-damage|p1a: Mewtwo|95\/293 par
+|move|p1a: Mewtwo|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|switch|p2a: Primeape|Primeape, L90|300\/300
+|turn|16
+|
+|move|p2a: Primeape|Mega Kick|p1a: Mewtwo
+|-damage|p1a: Mewtwo|0 fnt
+|faint|p1a: Mewtwo
+|
+|switch|p1a: Tentacruel|Tentacruel, L85|162\/310
+|turn|17
+|
+|move|p2a: Primeape|Mega Kick|p1a: Tentacruel
+|-damage|p1a: Tentacruel|34\/310
+|move|p1a: Tentacruel|Hydro Pump|p2a: Primeape
+|-damage|p2a: Primeape|137\/300
+|
+|turn|18
+|
+|move|p2a: Primeape|Body Slam|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|switch|p1a: Scyther|Scyther, L90|309\/309
+|turn|19
+|
+|move|p1a: Scyther|Swords Dance|p1a: Scyther
+|-boost|p1a: Scyther|atk|2
+|move|p2a: Primeape|Rock Slide|p1a: Scyther
+|-supereffective|p1a: Scyther
+|-damage|p1a: Scyther|64\/309
+|
+|turn|20
+|
+|move|p1a: Scyther|Hyper Beam|p2a: Primeape
+|-damage|p2a: Primeape|0 fnt
+|faint|p2a: Primeape
+|
+|switch|p2a: Magneton|Magneton, L90|273\/273
+|turn|21
+|
+|move|p1a: Scyther|Hyper Beam|p2a: Magneton
+|-damage|p2a: Magneton|48\/273
+|move|p2a: Magneton|Thunderbolt|p1a: Scyther
+|-supereffective|p1a: Scyther
+|-damage|p1a: Scyther|0 fnt
+|faint|p1a: Scyther
+|
+|switch|p1a: Hitmonlee|Hitmonlee, L90|273\/273
+|turn|22
+|
+|move|p1a: Hitmonlee|Seismic Toss|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|faint|p2a: Magneton
+|
+|switch|p2a: Machamp|Machamp, L90|345\/345
+|turn|23
+|
+|move|p1a: Hitmonlee|Body Slam|p2a: Machamp
+|-damage|p2a: Machamp|270\/345
+|move|p2a: Machamp|Body Slam|p1a: Hitmonlee
+|-crit|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|80\/273
+|
+|turn|24
+|
+|move|p2a: Machamp|Body Slam|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|0 fnt
+|faint|p1a: Hitmonlee
+|
+|switch|p1a: Fearow|Fearow, L90|158\/300
+|turn|25
+|
+|move|p1a: Fearow|Drill Peck|p2a: Machamp
+|-supereffective|p2a: Machamp
+|-damage|p2a: Machamp|76\/345
+|move|p2a: Machamp|Rock Slide|p1a: Fearow
+|-supereffective|p1a: Fearow
+|-damage|p1a: Fearow|0 fnt
+|faint|p1a: Fearow
+|
+|win|Life's Pointless
+|raw|Ladder updating...
+|raw|AmnesiaLOL's rating: 1277 &rarr; <strong>1246<\/strong><br \/>(-31 for losing)
+|raw|Life&apos;s Pointless's rating: 1197 &rarr; <strong>1228<\/strong><br \/>(+31 for winning)
+|leave|AmnesiaLOL
+|player|p1

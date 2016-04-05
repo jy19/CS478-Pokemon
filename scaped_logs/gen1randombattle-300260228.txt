@@ -1,0 +1,342 @@
+﻿|join|victwo
+|join|Conman033
+|player|p1|victwo|164
+|player|p2|Conman033|162
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|3330,23600,49204,59316
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Butterfree|Butterfree, L90|291\/291
+|switch|p2a: Pidgeot|Pidgeot, L90|333\/333
+|turn|1
+|choice|move 3|move 1
+|
+|move|p2a: Pidgeot|Double-Edge|p1a: Butterfree
+|-damage|p1a: Butterfree|151\/291
+|-damage|p2a: Pidgeot|298\/333|[from] recoil|[of] p1a: Butterfree
+|move|p1a: Butterfree|Stun Spore|p2a: Pidgeot
+|-status|p2a: Pidgeot|par
+|
+|turn|2
+|choice|move 1|move 2
+|
+|move|p1a: Butterfree|Psychic|p2a: Pidgeot
+|-damage|p2a: Pidgeot|228\/333 par
+|move|p2a: Pidgeot|Hyper Beam|p1a: Butterfree
+|-damage|p1a: Butterfree|0 fnt
+|faint|p1a: Butterfree
+|choice|switch 5|
+|
+|switch|p1a: Persian|Persian, L79|265\/265
+|turn|3
+|choice|move 4|move 2
+|
+|move|p1a: Persian|Thunderbolt|p2a: Pidgeot
+|-supereffective|p2a: Pidgeot
+|-damage|p2a: Pidgeot|125\/333 par
+|move|p2a: Pidgeot|Hyper Beam|p1a: Persian
+|-damage|p1a: Persian|54\/265
+|
+|turn|4
+|-mustrecharge|p2a: Pidgeot
+|-mustrecharge|p2a: Pidgeot
+|choice|move 4|move 1
+|
+|move|p1a: Persian|Thunderbolt|p2a: Pidgeot
+|-supereffective|p2a: Pidgeot
+|-damage|p2a: Pidgeot|17\/333 par
+|cant|p2a: Pidgeot|recharge
+|
+|turn|5
+|choice|move 4|move 2
+|
+|move|p1a: Persian|Thunderbolt|p2a: Pidgeot
+|-supereffective|p2a: Pidgeot
+|-damage|p2a: Pidgeot|0 fnt
+|faint|p2a: Pidgeot
+|choice||switch 5
+|
+|switch|p2a: Gengar|Gengar, L79|257\/257
+|turn|6
+|choice|move 4|move 4
+|
+|move|p1a: Persian|Thunderbolt|p2a: Gengar
+|-damage|p2a: Gengar|217\/257
+|move|p2a: Gengar|Psychic|p1a: Persian
+|-damage|p1a: Persian|0 fnt
+|faint|p1a: Persian
+|choice|switch 4|
+|
+|switch|p1a: Magmar|Magmar, L90|300\/300
+|turn|7
+|choice|move 3|switch 3
+|
+|switch|p2a: Graveler|Graveler, L85|267\/267
+|move|p1a: Magmar|Confuse Ray|p2a: Graveler
+|-start|p2a: Graveler|confusion
+|
+|turn|8
+|choice|switch 6|move 4
+|
+|switch|p1a: Cloyster|Cloyster, L83|253\/253
+|-activate|p2a: Graveler|confusion
+|-damage|p2a: Graveler|240\/267|[from] confusion
+|
+|turn|9
+|choice|move 1|switch 2
+|
+|switch|p2a: Vaporeon|Vaporeon, L85|395\/395
+|move|p1a: Cloyster|Blizzard|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|350\/395
+|
+|turn|10
+|choice|move 2|move 4
+|
+|move|p1a: Cloyster|Toxic|p2a: Vaporeon
+|-status|p2a: Vaporeon|tox
+|move|p2a: Vaporeon|Blizzard|p1a: Cloyster
+|-resisted|p1a: Cloyster
+|-damage|p1a: Cloyster|230\/253
+|-damage|p2a: Vaporeon|326\/395 tox|[from] tox|[of] p1a: Cloyster
+|
+|turn|11
+|choice|move 1|move 4
+|
+|move|p1a: Cloyster|Blizzard|p2a: Vaporeon|[miss]
+|-miss|p1a: Cloyster
+|move|p2a: Vaporeon|Blizzard|p1a: Cloyster
+|-resisted|p1a: Cloyster
+|-damage|p1a: Cloyster|206\/253
+|-damage|p2a: Vaporeon|278\/395 tox|[from] tox|[of] p1a: Cloyster
+|
+|turn|12
+|choice|move 1|move 4
+|
+|move|p1a: Cloyster|Blizzard|p2a: Vaporeon
+|-crit|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|190\/395 tox
+|move|p2a: Vaporeon|Blizzard|p1a: Cloyster|[miss]
+|-miss|p2a: Vaporeon
+|-damage|p2a: Vaporeon|118\/395 tox|[from] tox|[of] p1a: Cloyster
+|
+|turn|13
+|choice|move 3|move 2
+|
+|move|p1a: Cloyster|Hyper Beam|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|faint|p2a: Vaporeon
+|choice||switch 3
+|
+|switch|p2a: Gengar|Gengar, L79|217\/257
+|turn|14
+|choice|move 1|move 1
+|
+|move|p2a: Gengar|Hypnosis|p1a: Cloyster|[miss]
+|-miss|p2a: Gengar
+|move|p1a: Cloyster|Blizzard|p2a: Gengar
+|-damage|p2a: Gengar|121\/257
+|
+|turn|15
+|choice|move 1|move 1
+|
+|move|p2a: Gengar|Hypnosis|p1a: Cloyster
+|-status|p1a: Cloyster|slp
+|cant|p1a: Cloyster|slp
+|
+|turn|16
+|choice|switch 6|move 2
+|
+|switch|p1a: Magmar|Magmar, L90|300\/300
+|move|p2a: Gengar|Mega Drain|p1a: Magmar
+|-crit|p1a: Magmar
+|-resisted|p1a: Magmar
+|-damage|p1a: Magmar|274\/300
+|-heal|p2a: Gengar|134\/257|[from] drain|[of] p1a: Magmar
+|
+|turn|17
+|choice|move 3|switch 2
+|
+|switch|p2a: Graveler|Graveler, L85|240\/267
+|move|p1a: Magmar|Confuse Ray|p2a: Graveler
+|-start|p2a: Graveler|confusion
+|
+|turn|18
+|choice|move 1|move 3
+|
+|move|p1a: Magmar|Fire Blast|p2a: Graveler
+|-resisted|p2a: Graveler
+|-damage|p2a: Graveler|141\/267
+|-status|p2a: Graveler|brn
+|-activate|p2a: Graveler|confusion
+|-damage|p2a: Graveler|127\/267 brn|[from] confusion
+|-damage|p2a: Graveler|111\/267 brn|[from] brn|[of] p1a: Magmar
+|
+|turn|19
+|choice|move 1|switch 6
+|
+|switch|p2a: Magmar|Magmar, L90|300\/300
+|move|p1a: Magmar|Fire Blast|p2a: Magmar
+|-resisted|p2a: Magmar
+|-damage|p2a: Magmar|232\/300
+|
+|turn|20
+|choice|move 3|move 3
+|
+|move|p2a: Magmar|Body Slam|p1a: Magmar
+|-damage|p1a: Magmar|197\/300
+|move|p1a: Magmar|Confuse Ray|p2a: Magmar
+|-start|p2a: Magmar|confusion
+|
+|turn|21
+|choice|move 2|move 3
+|
+|move|p1a: Magmar|Body Slam|p2a: Magmar
+|-damage|p2a: Magmar|155\/300
+|-activate|p2a: Magmar|confusion
+|-damage|p2a: Magmar|112\/300|[from] confusion
+|
+|turn|22
+|choice|move 4|switch 6
+|
+|switch|p2a: Graveler|Graveler, L85|111\/267 brn
+|-damage|p2a: Graveler|95\/267 brn|[from] brn
+|move|p1a: Magmar|Hyper Beam|p2a: Graveler
+|-resisted|p2a: Graveler
+|-damage|p2a: Graveler|46\/267 brn
+|
+|turn|23
+|-mustrecharge|p1a: Magmar
+|c|★Conman033|so fuckin lucky with those confuse rays
+|-mustrecharge|p1a: Magmar
+|choice|move 1|move 1
+|
+|cant|p1a: Magmar|recharge
+|move|p2a: Graveler|Explosion|p1a: Magmar
+|-crit|p1a: Magmar
+|-damage|p1a: Magmar|0 fnt
+|faint|p1a: Magmar
+|faint|p2a: Graveler
+|choice|switch 2|switch 2
+|
+|switch|p2a: Gengar|Gengar, L79|134\/257
+|switch|p1a: Cubone|Cubone, L96|291\/291
+|turn|24
+|choice|move 2|move 2
+|
+|move|p2a: Gengar|Mega Drain|p1a: Cubone
+|-supereffective|p1a: Cubone
+|-damage|p1a: Cubone|210\/291
+|-heal|p2a: Gengar|174\/257|[from] drain|[of] p1a: Cubone
+|move|p1a: Cubone|Earthquake|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|choice||switch 6
+|
+|switch|p2a: Magmar|Magmar, L90|112\/300
+|turn|25
+|choice|move 2|move 1
+|
+|move|p2a: Magmar|Fire Blast|p1a: Cubone
+|-damage|p1a: Cubone|29\/291
+|move|p1a: Cubone|Earthquake|p2a: Magmar
+|-supereffective|p2a: Magmar
+|-damage|p2a: Magmar|0 fnt
+|faint|p2a: Magmar
+|choice||switch 4
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|293\/293
+|turn|26
+|choice|move 1|move 1
+|
+|move|p2a: Mewtwo|Psychic|p1a: Cubone
+|-damage|p1a: Cubone|0 fnt
+|faint|p1a: Cubone
+|choice|switch 6|
+|
+|switch|p1a: Cloyster|Cloyster, L83|206\/253 slp
+|turn|27
+|choice|move 2|move 2
+|
+|move|p2a: Mewtwo|Thunderbolt|p1a: Cloyster
+|-crit|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|choice|switch 3|
+|
+|switch|p1a: Nidorino|Nidorino, L90|293\/293
+|turn|28
+|choice|move 2|move 1
+|
+|move|p2a: Mewtwo|Psychic|p1a: Nidorino
+|-supereffective|p1a: Nidorino
+|-damage|p1a: Nidorino|56\/293
+|move|p1a: Nidorino|Blizzard|p2a: Mewtwo
+|-damage|p2a: Mewtwo|233\/293
+|-status|p2a: Mewtwo|frz
+|
+|turn|29
+|c|★Conman033|lol thank the gods bro
+|c|★victwo|XD
+|c|★Conman033|all i do is play lucky fa ggots like u i swear.. no skill at all
+|choice|move 2|move 1
+|
+|cant|p2a: Mewtwo|frz
+|move|p1a: Nidorino|Blizzard|p2a: Mewtwo
+|-damage|p2a: Mewtwo|177\/293 frz
+|
+|turn|30
+|choice|move 2|move 1
+|
+|cant|p2a: Mewtwo|frz
+|move|p1a: Nidorino|Blizzard|p2a: Mewtwo
+|-damage|p2a: Mewtwo|119\/293 frz
+|
+|turn|31
+|choice|move 2|move 3
+|
+|cant|p2a: Mewtwo|frz
+|move|p1a: Nidorino|Blizzard|p2a: Mewtwo
+|-damage|p2a: Mewtwo|65\/293 frz
+|
+|turn|32
+|choice|move 2|move 1
+|
+|cant|p2a: Mewtwo|frz
+|move|p1a: Nidorino|Blizzard|p2a: Mewtwo|[miss]
+|-miss|p1a: Nidorino
+|
+|turn|33
+|choice|move 2|move 1
+|
+|cant|p2a: Mewtwo|frz
+|move|p1a: Nidorino|Blizzard|p2a: Mewtwo
+|-damage|p2a: Mewtwo|8\/293 frz
+|
+|turn|34
+|choice|move 2|move 1
+|
+|cant|p2a: Mewtwo|frz
+|move|p1a: Nidorino|Blizzard|p2a: Mewtwo|[miss]
+|-miss|p1a: Nidorino
+|
+|turn|35
+|choice|move 2|move 1
+|
+|cant|p2a: Mewtwo|frz
+|move|p1a: Nidorino|Blizzard|p2a: Mewtwo
+|-damage|p2a: Mewtwo|0 fnt
+|faint|p2a: Mewtwo
+|
+|win|victwo
+|raw|victwo's rating: 1197 &rarr; <strong>1221<\/strong><br \/>(+24 for winning)
+|raw|Conman033's rating: 1182 &rarr; <strong>1158<\/strong><br \/>(-24 for losing)

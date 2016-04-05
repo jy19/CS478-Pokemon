@@ -1,0 +1,483 @@
+﻿|join|Pietro Albuquerque
+|join|marianoakd
+|player|p1|Pietro Albuquerque|109
+|player|p2|marianoakd|163
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Magikarp|Magikarp, L99|240\/240
+|switch|p2a: Geodude|Geodude, L96|272\/272
+|turn|1
+|
+|switch|p1a: Starmie|Starmie, L79|257\/257
+|move|p2a: Geodude|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|185\/257
+|
+|turn|2
+|
+|switch|p2a: Slowbro|Slowbro, L79|312\/312
+|move|p1a: Starmie|Surf|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|258\/312
+|
+|turn|3
+|
+|switch|p1a: Mew|Mew, L74|300\/300
+|move|p2a: Slowbro|Thunder Wave|p1a: Mew
+|-status|p1a: Mew|par
+|
+|turn|4
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|move|p1a: Mew|Thunderbolt|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|200\/312
+|
+|turn|5
+|
+|move|p2a: Slowbro|Surf|p1a: Mew
+|-damage|p1a: Mew|134\/300 par
+|move|p1a: Mew|Earthquake|p2a: Slowbro
+|-damage|p2a: Slowbro|147\/312
+|
+|turn|6
+|
+|switch|p1a: Starmie|Starmie, L79|185\/257
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|7
+|
+|switch|p1a: Mew|Mew, L74|134\/300 par
+|move|p2a: Slowbro|Thunder Wave|p1a: Mew
+|-fail|p1a: Mew|par
+|
+|turn|8
+|
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|-heal|p2a: Slowbro|312\/312 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|cant|p1a: Mew|par
+|
+|turn|9
+|
+|cant|p2a: Slowbro|slp
+|move|p1a: Mew|Earthquake|p2a: Slowbro
+|-damage|p2a: Slowbro|265\/312 slp
+|
+|turn|10
+|
+|cant|p2a: Slowbro|slp
+|-curestatus|p2a: Slowbro|slp
+|cant|p1a: Mew|par
+|
+|turn|11
+|
+|move|p2a: Slowbro|Surf|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|switch|p1a: Zapdos|Zapdos, L79|304\/304
+|turn|12
+|
+|move|p1a: Zapdos|Thunder Wave|p2a: Slowbro
+|-status|p2a: Slowbro|par
+|move|p2a: Slowbro|Thunder Wave|p1a: Zapdos
+|-status|p1a: Zapdos|par
+|
+|turn|13
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Slowbro
+|-damage|p2a: Slowbro|199\/312 par
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|-heal|p2a: Slowbro|312\/312 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|
+|turn|14
+|
+|switch|p1a: Rhydon|Rhydon, L79|328\/328
+|cant|p2a: Slowbro|slp
+|
+|turn|15
+|
+|move|p1a: Rhydon|Substitute|p1a: Rhydon
+|-start|p1a: Rhydon|Substitute
+|-damage|p1a: Rhydon|246\/328
+|cant|p2a: Slowbro|slp
+|-curestatus|p2a: Slowbro|slp
+|
+|turn|16
+|
+|move|p1a: Rhydon|Earthquake|p2a: Slowbro
+|-damage|p2a: Slowbro|204\/312
+|move|p2a: Slowbro|Surf|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-end|p1a: Rhydon|Substitute
+|
+|turn|17
+|
+|move|p1a: Rhydon|Substitute|p1a: Rhydon
+|-start|p1a: Rhydon|Substitute
+|-damage|p1a: Rhydon|164\/328
+|move|p2a: Slowbro|Surf|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-end|p1a: Rhydon|Substitute
+|
+|turn|18
+|
+|move|p1a: Rhydon|Earthquake|p2a: Slowbro
+|-damage|p2a: Slowbro|94\/312
+|move|p2a: Slowbro|Surf|p1a: Rhydon
+|-crit|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|
+|switch|p1a: Zapdos|Zapdos, L79|304\/304 par
+|turn|19
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Slowbro
+|-damage|p2a: Slowbro|26\/312
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|-heal|p2a: Slowbro|312\/312 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|
+|turn|20
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Slowbro
+|-damage|p2a: Slowbro|250\/312 slp
+|cant|p2a: Slowbro|slp
+|
+|turn|21
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-damage|p2a: Slowbro|118\/312 slp
+|cant|p2a: Slowbro|slp
+|-curestatus|p2a: Slowbro|slp
+|
+|turn|22
+|
+|switch|p2a: Geodude|Geodude, L96|272\/272
+|move|p1a: Zapdos|Drill Peck|p2a: Geodude
+|-resisted|p2a: Geodude
+|-damage|p2a: Geodude|245\/272
+|
+|turn|23
+|
+|switch|p1a: Starmie|Starmie, L79|185\/257
+|move|p2a: Geodude|Rock Slide|p1a: Starmie|[miss]
+|-miss|p2a: Geodude
+|
+|turn|24
+|
+|switch|p2a: Vaporeon|Vaporeon, L85|395\/395
+|move|p1a: Starmie|Blizzard|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|364\/395
+|
+|turn|25
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Vaporeon
+|-crit|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|170\/395
+|move|p2a: Vaporeon|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|131\/257
+|-status|p1a: Starmie|par
+|
+|turn|26
+|
+|switch|p2a: Geodude|Geodude, L96|245\/272
+|cant|p1a: Starmie|par
+|
+|turn|27
+|
+|move|p2a: Geodude|Earthquake|p1a: Starmie
+|-damage|p1a: Starmie|3\/257 par
+|move|p1a: Starmie|Surf|p2a: Geodude
+|-crit|p2a: Geodude
+|-supereffective|p2a: Geodude
+|-damage|p2a: Geodude|0 fnt
+|faint|p2a: Geodude
+|
+|switch|p2a: Slowbro|Slowbro, L79|118\/312
+|turn|28
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|cant|p1a: Starmie|par
+|
+|turn|29
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|131\/257 par
+|
+|turn|30
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|move|p1a: Starmie|Thunderbolt|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|c|★Pietro Albuquerque|hahaha
+|
+|switch|p2a: Vaporeon|Vaporeon, L85|170\/395
+|turn|31
+|
+|move|p2a: Vaporeon|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|76\/257 par
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|204\/257 par
+|
+|turn|32
+|
+|switch|p2a: Chansey|Chansey, L79|557\/557
+|cant|p1a: Starmie|par
+|
+|turn|33
+|
+|move|p2a: Chansey|Reflect|p2a: Chansey
+|move|p1a: Starmie|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|487\/557
+|
+|turn|34
+|
+|move|p2a: Chansey|Ice Beam|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|173\/257 par
+|move|p1a: Starmie|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|414\/557
+|-status|p2a: Chansey|frz
+|
+|turn|35
+|
+|switch|p1a: Zapdos|Zapdos, L79|304\/304 par
+|cant|p2a: Chansey|frz
+|
+|turn|36
+|
+|cant|p2a: Chansey|frz
+|move|p1a: Zapdos|Agility|p1a: Zapdos
+|-boost|p1a: Zapdos|spe|2
+|
+|turn|37
+|
+|switch|p2a: Golbat|Golbat, L85|301\/301
+|move|p1a: Zapdos|Drill Peck|p2a: Golbat
+|-damage|p2a: Golbat|215\/301
+|
+|turn|38
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Golbat
+|-supereffective|p2a: Golbat
+|-damage|p2a: Golbat|0 fnt
+|faint|p2a: Golbat
+|
+|switch|p2a: Wigglytuff|Wigglytuff, L85|412\/412
+|turn|39
+|
+|move|p1a: Zapdos|Thunder Wave|p2a: Wigglytuff
+|-status|p2a: Wigglytuff|par
+|cant|p2a: Wigglytuff|par
+|
+|turn|40
+|
+|cant|p1a: Zapdos|par
+|move|p2a: Wigglytuff|Blizzard|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|198\/304 par
+|
+|turn|41
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|275\/412 par
+|move|p2a: Wigglytuff|Blizzard|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|98\/304 par
+|
+|turn|42
+|
+|switch|p1a: Starmie|Starmie, L79|173\/257 par
+|move|p2a: Wigglytuff|Blizzard|p1a: Starmie
+|-crit|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|114\/257 par
+|
+|turn|43
+|
+|cant|p1a: Starmie|par
+|move|p2a: Wigglytuff|Hyper Beam|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|switch|p1a: Magikarp|Magikarp, L99|240\/240
+|turn|44
+|
+|move|p1a: Magikarp|Dragon Rage|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|235\/412 par
+|move|p2a: Wigglytuff|Thunder Wave|p1a: Magikarp
+|-status|p1a: Magikarp|par
+|
+|turn|45
+|
+|switch|p2a: Vaporeon|Vaporeon, L85|170\/395
+|cant|p1a: Magikarp|par
+|
+|turn|46
+|
+|move|p2a: Vaporeon|Rest|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp
+|-heal|p2a: Vaporeon|395\/395 slp|[silent]
+|-status|p2a: Vaporeon|slp|[from] move: Rest
+|move|p1a: Magikarp|Dragon Rage|p2a: Vaporeon
+|-damage|p2a: Vaporeon|355\/395 slp
+|
+|turn|47
+|
+|switch|p1a: Zapdos|Zapdos, L79|98\/304 par
+|cant|p2a: Vaporeon|slp
+|
+|turn|48
+|
+|switch|p2a: Wigglytuff|Wigglytuff, L85|235\/412 par
+|cant|p1a: Zapdos|par
+|
+|turn|49
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Wigglytuff
+|-crit|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|0 fnt
+|faint|p2a: Wigglytuff
+|
+|switch|p2a: Chansey|Chansey, L79|414\/557 frz
+|turn|50
+|
+|cant|p2a: Chansey|frz
+|cant|p1a: Zapdos|par
+|
+|turn|51
+|
+|cant|p2a: Chansey|frz
+|move|p1a: Zapdos|Drill Peck|p2a: Chansey
+|-damage|p2a: Chansey|227\/557 frz
+|
+|turn|52
+|
+|cant|p2a: Chansey|frz
+|move|p1a: Zapdos|Drill Peck|p2a: Chansey
+|-damage|p2a: Chansey|32\/557 frz
+|
+|turn|53
+|
+|cant|p2a: Chansey|frz
+|move|p1a: Zapdos|Drill Peck|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|switch|p2a: Vaporeon|Vaporeon, L85|355\/395 slp
+|turn|54
+|
+|cant|p2a: Vaporeon|slp
+|-curestatus|p2a: Vaporeon|slp
+|move|p1a: Zapdos|Thunderbolt|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|187\/395
+|
+|turn|55
+|
+|move|p2a: Vaporeon|Blizzard|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|switch|p1a: Dragonite|Dragonite, L85|328\/328
+|turn|56
+|
+|move|p1a: Dragonite|Thunderbolt|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|67\/395
+|move|p2a: Vaporeon|Blizzard|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|switch|p1a: Magikarp|Magikarp, L99|240\/240 par
+|turn|57
+|
+|move|p2a: Vaporeon|Rest|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp
+|-heal|p2a: Vaporeon|395\/395 slp|[silent]
+|-status|p2a: Vaporeon|slp|[from] move: Rest
+|cant|p1a: Magikarp|par
+|
+|turn|58
+|
+|cant|p2a: Vaporeon|slp
+|move|p1a: Magikarp|Dragon Rage|p2a: Vaporeon
+|-damage|p2a: Vaporeon|355\/395 slp
+|
+|turn|59
+|
+|cant|p2a: Vaporeon|slp
+|-curestatus|p2a: Vaporeon|slp
+|move|p1a: Magikarp|Dragon Rage|p2a: Vaporeon
+|-damage|p2a: Vaporeon|315\/395
+|
+|turn|60
+|
+|move|p2a: Vaporeon|Body Slam|p1a: Magikarp
+|-damage|p1a: Magikarp|189\/240 par
+|move|p1a: Magikarp|Dragon Rage|p2a: Vaporeon
+|-damage|p2a: Vaporeon|275\/395
+|
+|turn|61
+|
+|move|p2a: Vaporeon|Blizzard|p1a: Magikarp
+|-resisted|p1a: Magikarp
+|-damage|p1a: Magikarp|109\/240 par
+|move|p1a: Magikarp|Dragon Rage|p2a: Vaporeon
+|-damage|p2a: Vaporeon|235\/395
+|
+|turn|62
+|
+|move|p2a: Vaporeon|Body Slam|p1a: Magikarp
+|-damage|p1a: Magikarp|56\/240 par
+|cant|p1a: Magikarp|par
+|
+|turn|63
+|
+|move|p2a: Vaporeon|Body Slam|p1a: Magikarp
+|-damage|p1a: Magikarp|2\/240 par
+|move|p1a: Magikarp|Dragon Rage|p2a: Vaporeon
+|-damage|p2a: Vaporeon|195\/395
+|
+|turn|64
+|
+|move|p2a: Vaporeon|Body Slam|p1a: Magikarp
+|-damage|p1a: Magikarp|0 fnt
+|faint|p1a: Magikarp
+|
+|win|marianoakd
+|raw|Ladder updating...
+|raw|Pietro Albuquerque's rating: 1243 &rarr; <strong>1207<\/strong><br \/>(-36 for losing)
+|raw|marianoakd's rating: 1070 &rarr; <strong>1113<\/strong><br \/>(+43 for winning)

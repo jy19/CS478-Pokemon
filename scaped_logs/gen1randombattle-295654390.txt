@@ -1,0 +1,230 @@
+﻿|join|MALESANI
+|join|Hidol
+|player|p1|MALESANI|238
+|player|p2|Hidol|266
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|39106,54881,52660,54866
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Victreebel|Victreebel, L85|310\/310
+|switch|p2a: Gastly|Gastly, L96|252\/252
+|turn|1
+|choice|switch 3|move 1
+|
+|switch|p1a: Blastoise|Blastoise, L85|308\/308
+|move|p2a: Gastly|Hypnosis|p1a: Blastoise
+|-status|p1a: Blastoise|slp
+|
+|turn|2
+|choice|switch 2|move 3
+|
+|switch|p1a: Abra|Abra, L96|243\/243
+|move|p2a: Gastly|Thunderbolt|p1a: Abra
+|-damage|p1a: Abra|177\/243
+|
+|turn|3
+|choice|move 3|switch 5
+|
+|switch|p2a: Alakazam|Alakazam, L79|249\/249
+|move|p1a: Abra|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|199\/249
+|
+|turn|4
+|choice|move 2|move 4
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Abra
+|-status|p1a: Abra|par
+|move|p1a: Abra|Thunder Wave|p2a: Alakazam
+|-status|p2a: Alakazam|par
+|
+|turn|5
+|choice|move 4|move 1
+|
+|cant|p2a: Alakazam|par
+|move|p1a: Abra|Seismic Toss|p2a: Alakazam
+|-damage|p2a: Alakazam|103\/249 par
+|
+|turn|6
+|choice|move 3|move 3
+|
+|cant|p2a: Alakazam|par
+|move|p1a: Abra|Psychic|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|7\/249 par
+|
+|turn|7
+|choice|move 4|move 3
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|131\/249 par
+|cant|p1a: Abra|par
+|
+|turn|8
+|choice|move 4|move 3
+|
+|cant|p2a: Alakazam|par
+|cant|p1a: Abra|par
+|
+|turn|9
+|choice|move 4|move 3
+|
+|cant|p2a: Alakazam|par
+|move|p1a: Abra|Seismic Toss|p2a: Alakazam
+|-damage|p2a: Alakazam|35\/249 par
+|
+|turn|10
+|choice|move 4|move 3
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|159\/249 par
+|move|p1a: Abra|Seismic Toss|p2a: Alakazam
+|-damage|p2a: Alakazam|63\/249 par
+|
+|turn|11
+|choice|move 4|move 3
+|
+|cant|p2a: Alakazam|par
+|move|p1a: Abra|Seismic Toss|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|choice||switch 3
+|
+|switch|p2a: Charizard|Charizard, L85|306\/306
+|turn|12
+|choice|move 2|move 4
+|
+|move|p2a: Charizard|Fire Blast|p1a: Abra
+|-crit|p1a: Abra
+|-damage|p1a: Abra|0 fnt
+|faint|p1a: Abra
+|choice|switch 6|
+|
+|switch|p1a: Lapras|Lapras, L79|367\/367
+|turn|13
+|choice|move 3|switch 4
+|
+|switch|p2a: Seadra|Seadra, L90|282\/282
+|move|p1a: Lapras|Blizzard|p2a: Seadra
+|-resisted|p2a: Seadra
+|-damage|p2a: Seadra|230\/282
+|-status|p2a: Seadra|frz
+|
+|turn|14
+|choice|move 4|switch 6
+|
+|switch|p2a: Zapdos|Zapdos, L79|304\/304
+|move|p1a: Lapras|Body Slam|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|209\/304
+|
+|turn|15
+|choice|switch 5|move 4
+|
+|switch|p1a: Raichu|Raichu, L85|276\/276
+|move|p2a: Zapdos|Thunder Wave|p1a: Raichu
+|-status|p1a: Raichu|par
+|
+|turn|16
+|choice|move 4|switch 2
+|
+|switch|p2a: Nidoking|Nidoking, L85|311\/311
+|move|p1a: Raichu|Agility|p1a: Raichu
+|-boost|p1a: Raichu|spe|2
+|
+|turn|17
+|choice|switch 5|move 1
+|
+|switch|p1a: Lapras|Lapras, L79|367\/367
+|move|p2a: Nidoking|Earthquake|p1a: Lapras
+|-damage|p1a: Lapras|252\/367
+|
+|turn|18
+|choice|move 3|switch 6
+|
+|switch|p2a: Seadra|Seadra, L90|230\/282 frz
+|move|p1a: Lapras|Blizzard|p2a: Seadra
+|-resisted|p2a: Seadra
+|-damage|p2a: Seadra|183\/282 frz
+|
+|turn|19
+|choice|move 2|switch 2
+|
+|switch|p2a: Zapdos|Zapdos, L79|209\/304
+|move|p1a: Lapras|Confuse Ray|p2a: Zapdos
+|-start|p2a: Zapdos|confusion
+|
+|turn|20
+|choice|switch 4|move 2
+|
+|switch|p1a: Exeggutor|Exeggutor, L79|312\/312
+|-activate|p2a: Zapdos|confusion
+|move|p2a: Zapdos|Drill Peck|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|162\/312
+|
+|turn|21
+|choice|move 1|move 2
+|
+|-activate|p2a: Zapdos|confusion
+|-damage|p2a: Zapdos|180\/304|[from] confusion
+|move|p1a: Exeggutor|Sleep Powder|p2a: Zapdos
+|-status|p2a: Zapdos|slp
+|
+|turn|22
+|choice|move 2|switch 4
+|
+|switch|p2a: Charizard|Charizard, L85|306\/306
+|move|p1a: Exeggutor|Psychic|p2a: Charizard
+|-damage|p2a: Charizard|208\/306
+|
+|turn|23
+|choice|move 2|move 3
+|
+|move|p2a: Charizard|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|105\/312
+|move|p1a: Exeggutor|Psychic|p2a: Charizard
+|-damage|p2a: Charizard|102\/306
+|
+|turn|24
+|choice|move 2|move 4
+|
+|move|p2a: Charizard|Fire Blast|p1a: Exeggutor|[miss]
+|-miss|p2a: Charizard
+|move|p1a: Exeggutor|Psychic|p2a: Charizard
+|-crit|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|choice||switch 5
+|
+|switch|p2a: Gastly|Gastly, L96|252\/252
+|turn|25
+|choice|move 2|move 1
+|
+|move|p2a: Gastly|Hypnosis|p1a: Exeggutor
+|-message|Sleep Clause Mod activated.
+|move|p1a: Exeggutor|Psychic|p2a: Gastly
+|-supereffective|p2a: Gastly
+|-damage|p2a: Gastly|91\/252
+|
+|turn|26
+|choice|move 2|move 1
+|
+|move|p2a: Gastly|Hypnosis|p1a: Exeggutor
+|-message|Sleep Clause Mod activated.
+|move|p1a: Exeggutor|Psychic|p2a: Gastly
+|-supereffective|p2a: Gastly
+|-damage|p2a: Gastly|0 fnt
+|faint|p2a: Gastly
+|-message|Hidol forfeited.
+|
+|win|MALESANI
+|leave|Hidol
+|player|p2

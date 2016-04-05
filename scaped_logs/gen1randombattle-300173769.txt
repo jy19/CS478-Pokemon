@@ -1,0 +1,200 @@
+﻿|join|Parnas
+|join|PierreiP
+|player|p1|Parnas|162
+|player|p2|PierreiP|1
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|1375,21192,17258,2642
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Poliwag|Poliwag, L96|272\/272
+|switch|p2a: Kangaskhan|Kangaskhan, L85|352\/352
+|turn|1
+|choice|move 3|switch 6
+|
+|switch|p2a: Electabuzz|Electabuzz, L85|284\/284
+|move|p1a: Poliwag|Hypnosis|p2a: Electabuzz
+|-status|p2a: Electabuzz|slp
+|
+|turn|2
+|choice|move 1|move 1
+|
+|move|p1a: Poliwag|Amnesia|p1a: Poliwag
+|-boost|p1a: Poliwag|spd|2
+|-boost|p1a: Poliwag|spa|2
+|-curestatus|p2a: Electabuzz|slp
+|
+|turn|3
+|choice|move 3|move 1
+|
+|move|p1a: Poliwag|Hypnosis|p2a: Electabuzz
+|-status|p2a: Electabuzz|slp
+|cant|p2a: Electabuzz|slp
+|
+|turn|4
+|choice|move 1|move 1
+|
+|move|p1a: Poliwag|Amnesia|p1a: Poliwag
+|-boost|p1a: Poliwag|spd|2
+|-boost|p1a: Poliwag|spa|2
+|cant|p2a: Electabuzz|slp
+|
+|turn|5
+|choice|move 1|move 1
+|
+|move|p1a: Poliwag|Amnesia|p1a: Poliwag
+|-boost|p1a: Poliwag|spd|2
+|-boost|p1a: Poliwag|spa|2
+|cant|p2a: Electabuzz|slp
+|
+|turn|6
+|choice|move 2|move 1
+|
+|move|p1a: Poliwag|Surf|p2a: Electabuzz
+|-damage|p2a: Electabuzz|0 fnt
+|faint|p2a: Electabuzz
+|choice||switch 5
+|
+|switch|p2a: Mewtwo|Mewtwo, L68|285\/285
+|turn|7
+|choice|move 2|move 3
+|
+|move|p1a: Poliwag|Surf|p2a: Mewtwo
+|-damage|p2a: Mewtwo|41\/285
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|
+|turn|8
+|choice|move 2|move 2
+|
+|move|p1a: Poliwag|Surf|p2a: Mewtwo
+|-damage|p2a: Mewtwo|0 fnt
+|faint|p2a: Mewtwo
+|choice||switch 2
+|
+|switch|p2a: Slowbro|Slowbro, L79|312\/312
+|turn|9
+|choice|move 2|move 3
+|
+|move|p1a: Poliwag|Surf|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|135\/312
+|move|p2a: Slowbro|Thunder Wave|p1a: Poliwag
+|-status|p1a: Poliwag|par
+|
+|turn|10
+|choice|move 2|move 2
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|move|p1a: Poliwag|Surf|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|53\/312
+|
+|turn|11
+|choice|move 2|move 4
+|
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|-heal|p2a: Slowbro|312\/312 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|cant|p1a: Poliwag|par
+|
+|turn|12
+|choice|move 2|move 3
+|
+|cant|p2a: Slowbro|slp
+|move|p1a: Poliwag|Surf|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|221\/312 slp
+|
+|turn|13
+|choice|move 2|move 2
+|
+|-curestatus|p2a: Slowbro|slp
+|move|p1a: Poliwag|Surf|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|125\/312
+|
+|turn|14
+|choice|move 3|move 2
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|move|p1a: Poliwag|Hypnosis|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|
+|turn|15
+|choice|move 2|move 2
+|
+|cant|p2a: Slowbro|slp
+|move|p1a: Poliwag|Surf|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|35\/312 slp
+|
+|turn|16
+|choice|move 2|move 2
+|
+|cant|p2a: Slowbro|slp
+|move|p1a: Poliwag|Surf|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|choice||switch 4
+|
+|switch|p2a: Weezing|Weezing, L90|300\/300
+|turn|17
+|choice|move 2|move 4
+|
+|move|p2a: Weezing|Thunder|p1a: Poliwag
+|-supereffective|p1a: Poliwag
+|-damage|p1a: Poliwag|204\/272 par
+|move|p1a: Poliwag|Surf|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|choice||switch 3
+|
+|switch|p2a: Vulpix|Vulpix, L96|268\/268
+|turn|18
+|choice|move 2|move 2
+|
+|move|p2a: Vulpix|Confuse Ray|p1a: Poliwag
+|-start|p1a: Poliwag|confusion
+|-activate|p1a: Poliwag|confusion
+|-damage|p1a: Poliwag|167\/272 par|[from] confusion
+|
+|turn|19
+|choice|move 2|move 3
+|
+|move|p2a: Vulpix|Reflect|p2a: Vulpix
+|-start|p2a: Vulpix|Reflect
+|-activate|p1a: Poliwag|confusion
+|move|p1a: Poliwag|Surf|p2a: Vulpix
+|-supereffective|p2a: Vulpix
+|-damage|p2a: Vulpix|0 fnt
+|faint|p2a: Vulpix
+|choice||switch 6
+|
+|switch|p2a: Kangaskhan|Kangaskhan, L85|352\/352
+|turn|20
+|choice|move 2|move 4
+|
+|-end|p1a: Poliwag|confusion
+|move|p1a: Poliwag|Surf|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|faint|p2a: Kangaskhan
+|
+|win|Parnas
+|raw|Parnas's rating: 1265 &rarr; <strong>1278<\/strong><br \/>(+13 for winning)
+|raw|PierreiP's rating: 1080 &rarr; <strong>1068<\/strong><br \/>(-12 for losing)
+|leave|PierreiP
+|player|p2

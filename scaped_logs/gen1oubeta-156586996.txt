@@ -1,0 +1,106 @@
+﻿|join|ggc
+|join|kid pf lol
+|player|p1|ggc|10
+|player|p2|kid pf lol|45
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gengar|Gengar|323\/323
+|switch|p2a: Starmie|Starmie|323\/323
+|turn|1
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Starmie|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|606\/703
+|-status|p1a: Chansey|frz
+|
+|turn|2
+|chat|kid pf lol|lool
+|
+|switch|p1a: Gengar|Gengar|323\/323
+|move|p2a: Starmie|Psychic|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|137\/323
+|
+|turn|3
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|move|p2a: Starmie|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|272\/313
+|-unboost|p1a: Alakazam|spd|1
+|-unboost|p1a: Alakazam|spa|1
+|
+|turn|4
+|join|MasterBoy123
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Starmie
+|-status|p2a: Starmie|par
+|move|p2a: Starmie|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|
+|turn|5
+|
+|switch|p1a: Chansey|Chansey|606\/703 frz
+|move|p2a: Starmie|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|499\/703 frz
+|
+|turn|6
+|
+|switch|p1a: Alakazam|Alakazam|272\/313 par
+|cant|p2a: Starmie|par
+|
+|turn|7
+|
+|move|p1a: Alakazam|Reflect|p1a: Alakazam
+|move|p2a: Starmie|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|225\/313 par
+|-unboost|p1a: Alakazam|spd|1
+|-unboost|p1a: Alakazam|spa|1
+|
+|turn|8
+|
+|move|p1a: Alakazam|Psychic|p2a: Starmie
+|-crit|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|191\/323 par
+|move|p2a: Starmie|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|163\/313 par
+|
+|turn|9
+|
+|cant|p1a: Alakazam|par
+|move|p2a: Starmie|Blizzard|p1a: Alakazam
+|-damage|p1a: Alakazam|58\/313 par
+|
+|turn|10
+|
+|switch|p2a: Cloyster|Cloyster|303\/303
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-fail|p1a: Alakazam
+|
+|turn|11
+|chat|kid pf lol|lool
+|chat|ggc|Fuck you
+|chat|ggc|I'm done
+|-message|ggc forfeited.
+|
+|win|kid pf lol
+|raw|Ladder updating...
+|leave|ggc
+|player|p1
+|raw|ggc's rating: 1408 &rarr; <strong>1378<\/strong><br \/>(-30 for losing)
+|raw|kid pf lol's rating: 1235 &rarr; <strong>1272<\/strong><br \/>(+37 for winning)
+|leave|MasterBoy123

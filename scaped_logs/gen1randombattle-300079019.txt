@@ -1,0 +1,244 @@
+﻿|join|vsterel
+|join|People Are Mean
+|player|p1|vsterel|2
+|player|p2|People Are Mean|113
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|10914,44475,54292,51299
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Exeggcute|Exeggcute, L96|310\/310
+|switch|p2a: Mr. Mime|Mr. Mime, L85|242\/242
+|turn|1
+|choice|move 2|switch 2
+|
+|switch|p2a: Magikarp|Magikarp, L99|240\/240
+|move|p1a: Exeggcute|Stun Spore|p2a: Magikarp
+|-status|p2a: Magikarp|par
+|
+|turn|2
+|choice|move 4|move 2
+|
+|move|p1a: Exeggcute|Mega Drain|p2a: Magikarp
+|-supereffective|p2a: Magikarp
+|-damage|p2a: Magikarp|94\/240 par
+|move|p2a: Magikarp|Dragon Rage|p1a: Exeggcute
+|-damage|p1a: Exeggcute|270\/310
+|
+|turn|3
+|choice|move 4|switch 5
+|
+|switch|p2a: Articuno|Articuno, L79|304\/304
+|move|p1a: Exeggcute|Mega Drain|p2a: Articuno
+|-resisted|p2a: Articuno
+|-damage|p2a: Articuno|286\/304
+|-heal|p1a: Exeggcute|279\/310|[from] drain|[of] p2a: Articuno
+|
+|turn|4
+|choice|move 2|move 1
+|
+|move|p2a: Articuno|Blizzard|p1a: Exeggcute
+|-supereffective|p1a: Exeggcute
+|-damage|p1a: Exeggcute|2\/310
+|move|p1a: Exeggcute|Stun Spore|p2a: Articuno
+|-status|p2a: Articuno|par
+|
+|turn|5
+|choice|move 3|move 1
+|
+|move|p1a: Exeggcute|Explosion|p2a: Articuno
+|-damage|p2a: Articuno|95\/304 par
+|faint|p1a: Exeggcute
+|choice|switch 6|
+|
+|switch|p1a: Rapidash|Rapidash, L90|300\/300
+|turn|6
+|choice|move 1|switch 5
+|
+|switch|p2a: Magikarp|Magikarp, L99|94\/240 par
+|move|p1a: Rapidash|Fire Blast|p2a: Magikarp
+|-resisted|p2a: Magikarp
+|-damage|p2a: Magikarp|0 fnt
+|faint|p2a: Magikarp
+|choice||switch 2
+|
+|switch|p2a: Mr. Mime|Mr. Mime, L85|242\/242
+|turn|7
+|choice|move 1|move 1
+|
+|move|p1a: Rapidash|Fire Blast|p2a: Mr. Mime|[miss]
+|-miss|p1a: Rapidash
+|move|p2a: Mr. Mime|Thunder Wave|p1a: Rapidash
+|-status|p1a: Rapidash|par
+|
+|turn|8
+|choice|move 1|move 2
+|
+|move|p2a: Mr. Mime|Psychic|p1a: Rapidash
+|-damage|p1a: Rapidash|204\/300 par
+|-unboost|p1a: Rapidash|spd|1
+|-unboost|p1a: Rapidash|spa|1
+|move|p1a: Rapidash|Fire Blast|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|164\/242
+|
+|turn|9
+|choice|move 4|move 2
+|
+|move|p2a: Mr. Mime|Psychic|p1a: Rapidash
+|-damage|p1a: Rapidash|48\/300 par
+|move|p1a: Rapidash|Hyper Beam|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|27\/242
+|
+|turn|10
+|-mustrecharge|p1a: Rapidash
+|-mustrecharge|p1a: Rapidash
+|choice|move 1|move 2
+|
+|move|p2a: Mr. Mime|Psychic|p1a: Rapidash
+|-damage|p1a: Rapidash|0 fnt
+|faint|p1a: Rapidash
+|choice|switch 4|
+|
+|switch|p1a: Jolteon|Jolteon, L79|265\/265
+|turn|11
+|choice|move 4|switch 3
+|
+|switch|p2a: Rhydon|Rhydon, L79|328\/328
+|move|p1a: Jolteon|Pin Missile|p2a: Rhydon
+|-crit|p2a: Rhydon
+|-damage|p2a: Rhydon|316\/328
+|-damage|p2a: Rhydon|304\/328
+|-damage|p2a: Rhydon|292\/328
+|-damage|p2a: Rhydon|280\/328
+|-hitcount|p2a: Rhydon|4
+|
+|turn|12
+|choice|switch 5|move 1
+|
+|switch|p1a: Venomoth|Venomoth, L85|293\/293
+|move|p2a: Rhydon|Body Slam|p1a: Venomoth
+|-damage|p1a: Venomoth|219\/293
+|
+|turn|13
+|choice|move 2|switch 5
+|
+|switch|p2a: Articuno|Articuno, L79|95\/304 par
+|move|p1a: Venomoth|Mega Drain|p2a: Articuno
+|-resisted|p2a: Articuno
+|-damage|p2a: Articuno|83\/304 par
+|-heal|p1a: Venomoth|225\/293|[from] drain|[of] p2a: Articuno
+|
+|turn|14
+|choice|switch 3|move 1
+|
+|switch|p1a: Poliwhirl|Poliwhirl, L85|284\/284
+|move|p2a: Articuno|Blizzard|p1a: Poliwhirl|[miss]
+|-miss|p2a: Articuno
+|
+|turn|15
+|choice|move 1|move 1
+|
+|move|p1a: Poliwhirl|Amnesia|p1a: Poliwhirl
+|-boost|p1a: Poliwhirl|spd|2
+|-boost|p1a: Poliwhirl|spa|2
+|cant|p2a: Articuno|par
+|
+|turn|16
+|choice|move 3|move 1
+|
+|move|p1a: Poliwhirl|Surf|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|faint|p2a: Articuno
+|choice||switch 6
+|
+|switch|p2a: Jolteon|Jolteon, L79|265\/265
+|turn|17
+|choice|move 2|move 1
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Poliwhirl
+|-crit|p1a: Poliwhirl
+|-supereffective|p1a: Poliwhirl
+|-damage|p1a: Poliwhirl|0 fnt
+|faint|p1a: Poliwhirl
+|choice|switch 2|
+|
+|switch|p1a: Diglett|Diglett, L96|214\/214
+|turn|18
+|choice|move 1|switch 4
+|
+|switch|p2a: Dragonite|Dragonite, L85|328\/328
+|move|p1a: Diglett|Earthquake|p2a: Dragonite
+|-immune|p2a: Dragonite|[msg]
+|
+|turn|19
+|choice|switch 3|move 1
+|
+|switch|p1a: Venomoth|Venomoth, L85|225\/293
+|move|p2a: Dragonite|Ice Beam|p1a: Venomoth
+|-damage|p1a: Venomoth|155\/293
+|
+|turn|20
+|choice|move 1|move 4
+|
+|move|p1a: Venomoth|Sleep Powder|p2a: Dragonite
+|-status|p2a: Dragonite|slp
+|cant|p2a: Dragonite|slp
+|
+|turn|21
+|choice|move 4|switch 4
+|
+|switch|p2a: Jolteon|Jolteon, L79|265\/265
+|move|p1a: Venomoth|Psychic|p2a: Jolteon
+|-damage|p2a: Jolteon|211\/265
+|
+|turn|22
+|choice|move 3|move 4
+|
+|move|p2a: Jolteon|Body Slam|p1a: Venomoth
+|-damage|p1a: Venomoth|107\/293
+|move|p1a: Venomoth|Stun Spore|p2a: Jolteon
+|-status|p2a: Jolteon|par
+|
+|turn|23
+|choice|switch 3|move 1
+|
+|switch|p1a: Diglett|Diglett, L96|214\/214
+|move|p2a: Jolteon|Thunderbolt|p1a: Diglett
+|-immune|p1a: Diglett|[msg]
+|
+|turn|24
+|choice|move 4|switch 4
+|
+|switch|p2a: Dragonite|Dragonite, L85|328\/328 slp
+|move|p1a: Diglett|Mimic|p2a: Dragonite
+|-start|p1a: Diglett|Mimic|Ice Beam
+|
+|turn|25
+|choice|move 4|move 4
+|
+|move|p1a: Diglett|Ice Beam|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|134\/328 slp
+|cant|p2a: Dragonite|slp
+|
+|turn|26
+|choice|move 4|move 4
+|
+|move|p1a: Diglett|Ice Beam|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|c|★People Are Mean|gg
+|-message|People Are Mean forfeited.
+|leave|People Are Mean
+|
+|win|vsterel
+|player|p2
+|raw|vsterel's rating: 1392 &rarr; <strong>1401<\/strong><br \/>(+9 for winning)
+|raw|People Are Mean's rating: 1174 &rarr; <strong>1163<\/strong><br \/>(-11 for losing)

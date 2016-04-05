@@ -1,0 +1,257 @@
+﻿|join|champ_dab
+|join|VanCityRep
+|player|p1|champ_dab|12
+|player|p2|VanCityRep|162
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Vileplume|Vileplume|353\/353
+|turn|1
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Vileplume
+|-status|p2a: Vileplume|par
+|move|p2a: Vileplume|Sleep Powder|p1a: Alakazam
+|-status|p1a: Alakazam|slp
+|
+|turn|2
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Vileplume|Swords Dance|p2a: Vileplume
+|-boost|p2a: Vileplume|atk|2
+|
+|turn|3
+|
+|move|p1a: Chansey|Ice Beam|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|197\/353 par
+|move|p2a: Vileplume|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|374\/703
+|
+|turn|4
+|
+|move|p1a: Chansey|Ice Beam|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|45\/353 par
+|move|p2a: Vileplume|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|66\/703
+|
+|turn|5
+|
+|move|p1a: Chansey|Ice Beam|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|
+|switch|p2a: Pinsir|Pinsir|333\/333
+|turn|6
+|
+|switch|p1a: Zapdos|Zapdos|383\/383
+|move|p2a: Pinsir|Swords Dance|p2a: Pinsir
+|-boost|p2a: Pinsir|atk|2
+|
+|turn|7
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Pinsir
+|-supereffective|p2a: Pinsir
+|-damage|p2a: Pinsir|151\/333
+|move|p2a: Pinsir|Hyper Beam|p1a: Zapdos
+|-damage|p1a: Zapdos|91\/383
+|
+|turn|8
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Pinsir
+|-supereffective|p2a: Pinsir
+|-damage|p2a: Pinsir|0 fnt
+|faint|p2a: Pinsir
+|
+|switch|p2a: Mr. Mime|Mr. Mime|283\/283
+|turn|9
+|
+|move|p1a: Zapdos|Thunder Wave|p2a: Mr. Mime
+|-status|p2a: Mr. Mime|par
+|move|p2a: Mr. Mime|Psychic|p1a: Zapdos
+|-damage|p1a: Zapdos|4\/383
+|
+|turn|10
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|174\/283 par
+|cant|p2a: Mr. Mime|par
+|
+|turn|11
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|63\/283 par
+|move|p2a: Mr. Mime|Psychic|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|switch|p1a: Persian|Persian|333\/333
+|turn|12
+|
+|move|p1a: Persian|Slash|p2a: Mr. Mime
+|-crit|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|0 fnt
+|faint|p2a: Mr. Mime
+|
+|switch|p2a: Blastoise|Blastoise|361\/361
+|turn|13
+|
+|move|p1a: Persian|Slash|p2a: Blastoise
+|-crit|p2a: Blastoise
+|-damage|p2a: Blastoise|233\/361
+|move|p2a: Blastoise|Surf|p1a: Persian
+|-crit|p1a: Persian
+|-damage|p1a: Persian|51\/333
+|
+|turn|14
+|
+|move|p1a: Persian|Hyper Beam|p2a: Blastoise|[miss]
+|-miss|p1a: Persian
+|move|p2a: Blastoise|Surf|p1a: Persian
+|-crit|p1a: Persian
+|-damage|p1a: Persian|0 fnt
+|faint|p1a: Persian
+|
+|switch|p1a: Chansey|Chansey|66\/703
+|turn|15
+|
+|move|p2a: Blastoise|Surf|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|join|FlashBlood
+|
+|switch|p1a: Alakazam|Alakazam|313\/313 slp
+|turn|16
+|
+|cant|p1a: Alakazam|slp
+|move|p2a: Blastoise|Surf|p1a: Alakazam
+|-damage|p1a: Alakazam|233\/313 slp
+|
+|turn|17
+|
+|cant|p1a: Alakazam|slp
+|move|p2a: Blastoise|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|144\/313 slp
+|
+|turn|18
+|
+|cant|p1a: Alakazam|slp
+|move|p2a: Blastoise|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|53\/313 slp
+|
+|turn|19
+|
+|cant|p1a: Alakazam|slp
+|-curestatus|p1a: Alakazam|slp
+|move|p2a: Blastoise|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|switch|p1a: Lapras|Lapras|463\/463
+|turn|20
+|
+|move|p2a: Blastoise|Toxic|p1a: Lapras|[miss]
+|-miss|p2a: Blastoise
+|move|p1a: Lapras|Confuse Ray|p2a: Blastoise
+|-start|p2a: Blastoise|confusion
+|
+|turn|21
+|
+|-activate|p2a: Blastoise|confusion
+|move|p2a: Blastoise|Toxic|p1a: Lapras
+|-status|p1a: Lapras|tox
+|move|p1a: Lapras|Body Slam|p2a: Blastoise
+|-damage|p2a: Blastoise|174\/361
+|-damage|p1a: Lapras|435\/463 tox|[from] tox|[of] p2a: Blastoise
+|
+|turn|22
+|
+|-activate|p2a: Blastoise|confusion
+|move|p2a: Blastoise|Body Slam|p1a: Lapras
+|-crit|p1a: Lapras
+|-damage|p1a: Lapras|288\/463 tox
+|move|p1a: Lapras|Body Slam|p2a: Blastoise
+|-damage|p2a: Blastoise|114\/361
+|-damage|p1a: Lapras|232\/463 tox|[from] tox|[of] p2a: Blastoise
+|
+|turn|23
+|
+|switch|p1a: Rhydon|Rhydon|413\/413
+|-activate|p2a: Blastoise|confusion
+|-damage|p2a: Blastoise|83\/361|[from] confusion
+|
+|turn|24
+|
+|switch|p1a: Lapras|Lapras|232\/463 tox
+|-status|p1a: Lapras|psn
+|-damage|p1a: Lapras|204\/463 psn|[from] psn
+|-end|p2a: Blastoise|confusion
+|move|p2a: Blastoise|Surf|p1a: Lapras
+|-crit|p1a: Lapras
+|-resisted|p1a: Lapras
+|-damage|p1a: Lapras|97\/463 psn
+|
+|turn|25
+|leave|FlashBlood
+|
+|switch|p2a: Electrode|Electrode|323\/323
+|move|p1a: Lapras|Body Slam|p2a: Electrode
+|-damage|p2a: Electrode|251\/323
+|-damage|p1a: Lapras|69\/463 psn|[from] psn|[of] p2a: Electrode
+|
+|turn|26
+|
+|switch|p1a: Rhydon|Rhydon|413\/413
+|move|p2a: Electrode|Thunder|p1a: Rhydon
+|-immune|p1a: Rhydon|[msg]
+|
+|turn|27
+|
+|move|p2a: Electrode|Screech|p1a: Rhydon
+|-unboost|p1a: Rhydon|def|2
+|move|p1a: Rhydon|Earthquake|p2a: Electrode
+|-supereffective|p2a: Electrode
+|-damage|p2a: Electrode|0 fnt
+|faint|p2a: Electrode
+|
+|switch|p2a: Weezing|Weezing|333\/333
+|turn|28
+|
+|move|p2a: Weezing|Explosion|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|195\/413
+|faint|p2a: Weezing
+|
+|switch|p2a: Blastoise|Blastoise|83\/361
+|turn|29
+|
+|move|p2a: Blastoise|Surf|p1a: Rhydon
+|-crit|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|
+|switch|p1a: Lapras|Lapras|69\/463 psn
+|-damage|p1a: Lapras|41\/463 psn|[from] psn
+|turn|30
+|
+|move|p2a: Blastoise|Body Slam|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|
+|win|VanCityRep
+|raw|Ladder updating...
+|raw|champ_dab's rating: 1229 &rarr; <strong>1190<\/strong><br \/>(-39 for losing)
+|raw|VanCityRep's rating: 1000 &rarr; <strong>1063<\/strong><br \/>(+63 for winning)

@@ -1,0 +1,229 @@
+﻿|join|paolo.bassi
+|join|ron ketchum
+|player|p1|paolo.bassi|101
+|player|p2|ron ketchum|266
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Staryu|Staryu, L90|237\/237
+|switch|p2a: Aerodactyl|Aerodactyl, L85|310\/310
+|turn|1
+|
+|switch|p2a: Clefable|Clefable, L85|335\/335
+|move|p1a: Staryu|Surf|p2a: Clefable
+|-damage|p2a: Clefable|232\/335
+|
+|turn|2
+|
+|move|p1a: Staryu|Thunder Wave|p2a: Clefable
+|-status|p2a: Clefable|par
+|move|p2a: Clefable|Thunderbolt|p1a: Staryu
+|-supereffective|p1a: Staryu
+|-damage|p1a: Staryu|99\/237
+|
+|turn|3
+|
+|move|p1a: Staryu|Recover|p1a: Staryu
+|-heal|p1a: Staryu|217\/237
+|move|p2a: Clefable|Thunder|p1a: Staryu|[miss]
+|-miss|p2a: Clefable
+|
+|turn|4
+|
+|switch|p1a: Zapdos|Zapdos, L79|304\/304
+|move|p2a: Clefable|Sing|p1a: Zapdos
+|-status|p1a: Zapdos|slp
+|
+|turn|5
+|
+|cant|p1a: Zapdos|slp
+|cant|p2a: Clefable|par
+|
+|turn|6
+|
+|cant|p1a: Zapdos|slp
+|-curestatus|p1a: Zapdos|slp
+|move|p2a: Clefable|Body Slam|p1a: Zapdos
+|-damage|p1a: Zapdos|216\/304
+|
+|turn|7
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Clefable
+|-crit|p2a: Clefable
+|-damage|p2a: Clefable|68\/335 par
+|cant|p2a: Clefable|par
+|
+|turn|8
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|switch|p2a: Tauros|Tauros, L79|280\/280
+|turn|9
+|
+|switch|p1a: Starmie|Starmie, L79|257\/257
+|move|p2a: Tauros|Blizzard|p1a: Starmie
+|-crit|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|196\/257
+|
+|turn|10
+|c|★ron ketchum|what a luckybastard
+|c|★ron ketchum|got both staru  and starmie
+|c|★paolo.bassi|i know you were going to use blizzard
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Tauros
+|-status|p2a: Tauros|par
+|move|p2a: Tauros|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|105\/257
+|
+|turn|11
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|233\/257
+|move|p2a: Tauros|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|137\/257
+|
+|turn|12
+|
+|move|p1a: Starmie|Surf|p2a: Tauros
+|-damage|p2a: Tauros|175\/280 par
+|move|p2a: Tauros|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|41\/257
+|-status|p1a: Starmie|par
+|
+|turn|13
+|
+|switch|p2a: Seadra|Seadra, L85|267\/267
+|cant|p1a: Starmie|par
+|
+|turn|14
+|
+|move|p2a: Seadra|Hydro Pump|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|switch|p1a: Zapdos|Zapdos, L79|216\/304
+|turn|15
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Seadra
+|-supereffective|p2a: Seadra
+|-damage|p2a: Seadra|75\/267
+|move|p2a: Seadra|Smokescreen|p1a: Zapdos
+|-unboost|p1a: Zapdos|accuracy|1
+|
+|turn|16
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Seadra
+|-supereffective|p2a: Seadra
+|-damage|p2a: Seadra|0 fnt
+|faint|p2a: Seadra
+|c|★paolo.bassi|it s cute but there is better
+|
+|switch|p2a: Tauros|Tauros, L79|175\/280 par
+|turn|17
+|
+|switch|p1a: Staryu|Staryu, L90|217\/237
+|move|p2a: Tauros|Body Slam|p1a: Staryu
+|-damage|p1a: Staryu|117\/237
+|
+|turn|18
+|
+|move|p1a: Staryu|Surf|p2a: Tauros
+|-damage|p2a: Tauros|55\/280 par
+|move|p2a: Tauros|Body Slam|p1a: Staryu
+|-crit|p1a: Staryu
+|-damage|p1a: Staryu|0 fnt
+|faint|p1a: Staryu
+|
+|switch|p1a: Zapdos|Zapdos, L79|216\/304
+|turn|19
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|switch|p2a: Machoke|Machoke, L85|310\/310
+|turn|20
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Machoke
+|-damage|p2a: Machoke|164\/310
+|move|p2a: Machoke|Rock Slide|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|85\/304
+|
+|turn|21
+|
+|switch|p1a: Chansey|Chansey, L79|557\/557
+|move|p2a: Machoke|Rock Slide|p1a: Chansey
+|-damage|p1a: Chansey|407\/557
+|
+|turn|22
+|
+|move|p2a: Machoke|Submission|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|-damage|p2a: Machoke|63\/310|[from] recoil|[of] p1a: Chansey
+|faint|p1a: Chansey
+|
+|switch|p1a: Alakazam|Alakazam, L79|249\/249
+|turn|23
+|
+|move|p1a: Alakazam|Psychic|p2a: Machoke
+|-supereffective|p2a: Machoke
+|-damage|p2a: Machoke|0 fnt
+|faint|p2a: Machoke
+|c|★ron ketchum|wat lucky team
+|c|★ron ketchum|sonn of a bitch
+|c|★paolo.bassi|lol what a retard you are
+|c|★ron ketchum|ur mom is a  retard
+|c|★ron ketchum|u hav got a good team
+|
+|switch|p2a: Aerodactyl|Aerodactyl, L85|310\/310
+|turn|24
+|
+|move|p2a: Aerodactyl|Double-Edge|p1a: Alakazam
+|-damage|p1a: Alakazam|131\/249
+|-damage|p2a: Aerodactyl|281\/310|[from] recoil|[of] p1a: Alakazam
+|move|p1a: Alakazam|Psychic|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|160\/310
+|
+|turn|25
+|
+|move|p2a: Aerodactyl|Hyper Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|switch|p1a: Zapdos|Zapdos, L79|85\/304
+|turn|26
+|
+|move|p2a: Aerodactyl|Hyper Beam|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|switch|p1a: Ditto|Ditto, L99|296\/296
+|turn|27
+|
+|move|p2a: Aerodactyl|Hyper Beam|p1a: Ditto
+|-damage|p1a: Ditto|161\/296
+|move|p1a: Ditto|Transform|p2a: Aerodactyl
+|-transform|p1a: Ditto|p2a: Aerodactyl
+|
+|turn|28
+|-message|paolo.bassi forfeited.
+|
+|win|ron ketchum
+|raw|Ladder updating...
+|leave|paolo.bassi
+|player|p1
+|raw|paolo.bassi's rating: 1275 &rarr; <strong>1237<\/strong><br \/>(-38 for losing)
+|raw|ron ketchum's rating: 1078 &rarr; <strong>1121<\/strong><br \/>(+43 for winning)

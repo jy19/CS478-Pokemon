@@ -1,0 +1,254 @@
+﻿|join|erik1erik
+|join|Arjanlot
+|player|p1|erik1erik|170
+|player|p2|Arjanlot|235
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Charizard|Charizard, L85|306\/306
+|switch|p2a: Exeggutor|Exeggutor, L79|312\/312
+|turn|1
+|
+|move|p1a: Charizard|Fire Blast|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|98\/312
+|move|p2a: Exeggutor|Sleep Powder|p1a: Charizard|[miss]
+|-miss|p2a: Exeggutor
+|
+|turn|2
+|
+|switch|p2a: Blastoise|Blastoise, L85|308\/308
+|move|p1a: Charizard|Fire Blast|p2a: Blastoise|[miss]
+|-miss|p1a: Charizard
+|
+|turn|3
+|
+|switch|p1a: Clefairy|Clefairy, L95|326\/326
+|move|p2a: Blastoise|Hydro Pump|p1a: Clefairy
+|-damage|p1a: Clefairy|199\/326
+|
+|turn|4
+|
+|switch|p2a: Dugtrio|Dugtrio, L85|233\/233
+|move|p1a: Clefairy|Thunder Wave|p2a: Dugtrio
+|-immune|p2a: Dugtrio|[msg]
+|
+|turn|5
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Clefairy
+|-damage|p1a: Clefairy|86\/326
+|move|p1a: Clefairy|Blizzard|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-damage|p2a: Dugtrio|63\/233
+|
+|turn|6
+|
+|move|p2a: Dugtrio|Slash|p1a: Clefairy
+|-crit|p1a: Clefairy
+|-damage|p1a: Clefairy|0 fnt
+|faint|p1a: Clefairy
+|
+|switch|p1a: Exeggutor|Exeggutor, L79|312\/312
+|turn|7
+|
+|move|p2a: Dugtrio|Substitute|p2a: Dugtrio
+|-start|p2a: Dugtrio|Substitute
+|-damage|p2a: Dugtrio|5\/233
+|move|p1a: Exeggutor|Psychic|p2a: Dugtrio
+|-crit|p2a: Dugtrio
+|-end|p2a: Dugtrio|Substitute
+|
+|turn|8
+|
+|move|p2a: Dugtrio|Slash|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-damage|p1a: Exeggutor|222\/312
+|move|p1a: Exeggutor|Mega Drain|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|-heal|p1a: Exeggutor|224\/312|[from] drain|[of] p2a: Dugtrio
+|faint|p2a: Dugtrio
+|
+|switch|p2a: Fearow|Fearow, L85|284\/284
+|turn|9
+|
+|switch|p1a: Nidorino|Nidorino, L90|293\/293
+|move|p2a: Fearow|Drill Peck|p1a: Nidorino
+|-crit|p1a: Nidorino
+|-damage|p1a: Nidorino|101\/293
+|
+|turn|10
+|
+|move|p2a: Fearow|Double-Edge|p1a: Nidorino
+|-damage|p1a: Nidorino|0 fnt
+|-damage|p2a: Fearow|259\/284|[from] recoil|[of] p1a: Nidorino
+|faint|p1a: Nidorino
+|
+|switch|p1a: Dodrio|Dodrio, L85|276\/276
+|turn|11
+|
+|move|p2a: Fearow|Drill Peck|p1a: Dodrio
+|-damage|p1a: Dodrio|180\/276
+|move|p1a: Dodrio|Body Slam|p2a: Fearow
+|-damage|p2a: Fearow|132\/284
+|
+|turn|12
+|
+|switch|p2a: Blastoise|Blastoise, L85|308\/308
+|move|p1a: Dodrio|Hyper Beam|p2a: Blastoise
+|-damage|p2a: Blastoise|148\/308
+|
+|turn|13
+|
+|cant|p1a: Dodrio|recharge
+|move|p2a: Blastoise|Hydro Pump|p1a: Dodrio
+|-damage|p1a: Dodrio|27\/276
+|
+|turn|14
+|
+|move|p1a: Dodrio|Hyper Beam|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|
+|switch|p2a: Fearow|Fearow, L85|132\/284
+|turn|15
+|
+|move|p1a: Dodrio|Hyper Beam|p2a: Fearow
+|-crit|p2a: Fearow
+|-damage|p2a: Fearow|0 fnt
+|faint|p2a: Fearow
+|
+|switch|p2a: Electabuzz|Electabuzz, L85|284\/284
+|turn|16
+|
+|switch|p1a: Exeggutor|Exeggutor, L79|224\/312
+|move|p2a: Electabuzz|Thunderbolt|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|183\/312
+|
+|turn|17
+|
+|move|p2a: Electabuzz|Thunder Wave|p1a: Exeggutor
+|-status|p1a: Exeggutor|par
+|cant|p1a: Exeggutor|par
+|
+|turn|18
+|
+|move|p2a: Electabuzz|Seismic Toss|p1a: Exeggutor
+|-damage|p1a: Exeggutor|98\/312 par
+|move|p1a: Exeggutor|Sleep Powder|p2a: Electabuzz
+|-status|p2a: Electabuzz|slp
+|
+|turn|19
+|
+|switch|p2a: Exeggutor|Exeggutor, L79|98\/312
+|move|p1a: Exeggutor|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|59\/312
+|
+|turn|20
+|
+|move|p2a: Exeggutor|Hyper Beam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|6\/312 par
+|move|p1a: Exeggutor|Egg Bomb|p2a: Exeggutor|[miss]
+|-miss|p1a: Exeggutor
+|
+|turn|21
+|
+|cant|p2a: Exeggutor|recharge
+|move|p1a: Exeggutor|Egg Bomb|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Electabuzz|Electabuzz, L85|284\/284 slp
+|turn|22
+|
+|switch|p1a: Charizard|Charizard, L85|306\/306
+|cant|p2a: Electabuzz|slp
+|
+|turn|23
+|
+|cant|p2a: Electabuzz|slp
+|move|p1a: Charizard|Earthquake|p2a: Electabuzz
+|-supereffective|p2a: Electabuzz
+|-damage|p2a: Electabuzz|126\/284 slp
+|
+|turn|24
+|
+|cant|p2a: Electabuzz|slp
+|move|p1a: Charizard|Earthquake|p2a: Electabuzz
+|-supereffective|p2a: Electabuzz
+|-damage|p2a: Electabuzz|0 fnt
+|faint|p2a: Electabuzz
+|
+|switch|p2a: Electrode|Electrode, L85|276\/276
+|turn|25
+|
+|move|p2a: Electrode|Thunder|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|80\/306
+|move|p1a: Charizard|Earthquake|p2a: Electrode
+|-supereffective|p2a: Electrode
+|-damage|p2a: Electrode|125\/276
+|
+|turn|26
+|
+|move|p2a: Electrode|Thunder|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|switch|p1a: Dodrio|Dodrio, L85|27\/276
+|turn|27
+|
+|move|p2a: Electrode|Thunder|p1a: Dodrio
+|-supereffective|p1a: Dodrio
+|-damage|p1a: Dodrio|0 fnt
+|faint|p1a: Dodrio
+|
+|switch|p1a: Exeggutor|Exeggutor, L79|6\/312 par
+|turn|28
+|
+|move|p2a: Electrode|Thunder|p1a: Exeggutor|[miss]
+|-miss|p2a: Electrode
+|cant|p1a: Exeggutor|par
+|
+|turn|29
+|
+|move|p2a: Electrode|Thunder|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Alakazam|Alakazam, L79|249\/249
+|turn|30
+|
+|move|p2a: Electrode|Thunder|p1a: Alakazam|[miss]
+|-miss|p2a: Electrode
+|move|p1a: Alakazam|Thunder Wave|p2a: Electrode
+|-status|p2a: Electrode|par
+|
+|turn|31
+|
+|move|p1a: Alakazam|Psychic|p2a: Electrode
+|-damage|p2a: Electrode|14\/276 par
+|-unboost|p2a: Electrode|spd|1
+|-unboost|p2a: Electrode|spa|1
+|move|p2a: Electrode|Explosion|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|faint|p2a: Electrode
+|
+|win|Arjanlot
+|raw|Ladder updating...
+|raw|erik1erik's rating: 1315 &rarr; <strong>1295<\/strong><br \/>(-20 for losing)
+|raw|Arjanlot's rating: 1318 &rarr; <strong>1338<\/strong><br \/>(+20 for winning)
+|c|★Arjanlot|based Electrode
+|c|★Arjanlot|gg

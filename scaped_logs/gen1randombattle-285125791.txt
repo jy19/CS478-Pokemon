@@ -1,0 +1,82 @@
+﻿|join|Dervodel
+|join|Edux17
+|player|p1|Dervodel|169
+|player|p2|Edux17|260
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Starmie|Starmie, L79|257\/257
+|switch|p2a: Dewgong|Dewgong, L85|327\/327
+|turn|1
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Dewgong
+|-status|p2a: Dewgong|par
+|move|p2a: Dewgong|Body Slam|p1a: Starmie
+|-crit|p1a: Starmie
+|-damage|p1a: Starmie|154\/257
+|
+|turn|2
+|
+|switch|p1a: Gengar|Gengar, L79|257\/257
+|move|p2a: Dewgong|Body Slam|p1a: Gengar
+|-immune|p1a: Gengar|[msg]
+|
+|turn|3
+|
+|switch|p2a: Pinsir|Pinsir, L85|284\/284
+|move|p1a: Gengar|Thunderbolt|p2a: Pinsir
+|-damage|p2a: Pinsir|187\/284
+|
+|turn|4
+|
+|switch|p2a: Kadabra|Kadabra, L85|242\/242
+|move|p1a: Gengar|Hypnosis|p2a: Kadabra
+|-status|p2a: Kadabra|slp
+|
+|turn|5
+|
+|switch|p1a: Sandslash|Sandslash, L85|301\/301
+|cant|p2a: Kadabra|slp
+|
+|turn|6
+|
+|switch|p2a: Dragonite|Dragonite, L85|328\/328
+|move|p1a: Sandslash|Substitute|p1a: Sandslash
+|-start|p1a: Sandslash|Substitute
+|-damage|p1a: Sandslash|226\/301
+|
+|turn|7
+|
+|move|p2a: Dragonite|Ice Beam|p1a: Sandslash
+|-supereffective|p1a: Sandslash
+|-end|p1a: Sandslash|Substitute
+|move|p1a: Sandslash|Rock Slide|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|228\/328
+|
+|turn|8
+|
+|switch|p1a: Starmie|Starmie, L79|154\/257
+|move|p2a: Dragonite|Ice Beam|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|121\/257
+|
+|turn|9
+|
+|move|p1a: Starmie|Blizzard|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|-message|Edux17 forfeited.
+|
+|win|Dervodel
+|leave|Edux17
+|player|p2
+|raw|Dervodel's rating: 1387 &rarr; <strong>1397<\/strong><br \/>(+10 for winning)
+|raw|Edux17's rating: 1195 &rarr; <strong>1183<\/strong><br \/>(-12 for losing)

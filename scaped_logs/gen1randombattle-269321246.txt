@@ -1,0 +1,401 @@
+﻿|join|Zaphyr
+|join|blahalb09
+|player|p1|Zaphyr|281
+|player|p2|blahalb09|265
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Kabuto|Kabuto, L96|252\/252
+|switch|p2a: Gastly|Gastly, L96|252\/252
+|turn|1
+|
+|move|p2a: Gastly|Hypnosis|p1a: Kabuto
+|-status|p1a: Kabuto|slp
+|-curestatus|p1a: Kabuto|slp
+|
+|turn|2
+|
+|move|p2a: Gastly|Hypnosis|p1a: Kabuto
+|-status|p1a: Kabuto|slp
+|cant|p1a: Kabuto|slp
+|
+|turn|3
+|
+|switch|p1a: Chansey|Chansey, L79|557\/557
+|move|p2a: Gastly|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|478\/557
+|
+|turn|4
+|
+|move|p2a: Gastly|Confuse Ray|p1a: Chansey
+|-start|p1a: Chansey|confusion
+|-activate|p1a: Chansey|confusion
+|move|p1a: Chansey|Thunder Wave|p2a: Gastly
+|-status|p2a: Gastly|par
+|
+|turn|5
+|
+|-activate|p1a: Chansey|confusion
+|-damage|p1a: Chansey|450\/557|[from] confusion
+|cant|p2a: Gastly|par
+|
+|turn|6
+|
+|-end|p1a: Chansey|confusion
+|move|p1a: Chansey|Ice Beam|p2a: Gastly
+|-damage|p2a: Gastly|200\/252 par
+|move|p2a: Gastly|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|364\/557
+|
+|turn|7
+|
+|move|p1a: Chansey|Ice Beam|p2a: Gastly
+|-crit|p2a: Gastly
+|-damage|p2a: Gastly|101\/252 par
+|move|p2a: Gastly|Confuse Ray|p1a: Chansey
+|-start|p1a: Chansey|confusion
+|
+|turn|8
+|
+|-activate|p1a: Chansey|confusion
+|-damage|p1a: Chansey|336\/557|[from] confusion
+|move|p2a: Gastly|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|259\/557
+|
+|turn|9
+|
+|-activate|p1a: Chansey|confusion
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|537\/557
+|cant|p2a: Gastly|par
+|
+|turn|10
+|
+|-end|p1a: Chansey|confusion
+|move|p1a: Chansey|Ice Beam|p2a: Gastly
+|-crit|p2a: Gastly
+|-damage|p2a: Gastly|1\/252 par
+|move|p2a: Gastly|Mega Drain|p1a: Chansey
+|-damage|p1a: Chansey|503\/557
+|-heal|p2a: Gastly|18\/252 par|[from] drain|[of] p1a: Chansey
+|
+|turn|11
+|
+|move|p1a: Chansey|Ice Beam|p2a: Gastly
+|-damage|p2a: Gastly|0 fnt
+|faint|p2a: Gastly
+|
+|switch|p2a: Starmie|Starmie, L79|257\/257
+|turn|12
+|
+|move|p2a: Starmie|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|move|p1a: Chansey|Thunder Wave|p2a: Starmie
+|-status|p2a: Starmie|par
+|
+|turn|13
+|
+|move|p2a: Starmie|Surf|p1a: Chansey
+|-damage|p1a: Chansey|415\/557 par
+|move|p1a: Chansey|Ice Beam|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|226\/257 par
+|
+|turn|14
+|
+|move|p2a: Starmie|Surf|p1a: Chansey
+|-damage|p1a: Chansey|331\/557 par
+|move|p1a: Chansey|Ice Beam|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|194\/257 par
+|
+|turn|15
+|
+|move|p2a: Starmie|Surf|p1a: Chansey
+|-damage|p1a: Chansey|239\/557 par
+|cant|p1a: Chansey|par
+|
+|turn|16
+|
+|move|p2a: Starmie|Surf|p1a: Chansey
+|-damage|p1a: Chansey|151\/557 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|429\/557 par
+|
+|turn|17
+|
+|move|p2a: Starmie|Surf|p1a: Chansey
+|-damage|p1a: Chansey|337\/557 par
+|move|p1a: Chansey|Ice Beam|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|162\/257 par
+|
+|turn|18
+|
+|move|p2a: Starmie|Surf|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|179\/557 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|457\/557 par
+|
+|turn|19
+|
+|cant|p2a: Starmie|par
+|move|p1a: Chansey|Ice Beam|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|134\/257 par
+|
+|turn|20
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|257\/257 par
+|cant|p1a: Chansey|par
+|
+|turn|21
+|
+|move|p2a: Starmie|Surf|p1a: Chansey
+|-damage|p1a: Chansey|365\/557 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|557\/557 par
+|
+|turn|22
+|
+|switch|p1a: Venonat|Venonat, L96|310\/310
+|move|p2a: Starmie|Thunder Wave|p1a: Venonat
+|-status|p1a: Venonat|par
+|
+|turn|23
+|
+|move|p2a: Starmie|Blizzard|p1a: Venonat
+|-crit|p1a: Venonat
+|-damage|p1a: Venonat|121\/310 par
+|move|p1a: Venonat|Mega Drain|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|207\/257 par
+|-heal|p1a: Venonat|146\/310 par|[from] drain|[of] p2a: Starmie
+|
+|turn|24
+|
+|cant|p2a: Starmie|par
+|move|p1a: Venonat|Mega Drain|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|160\/257 par
+|-heal|p1a: Venonat|169\/310 par|[from] drain|[of] p2a: Starmie
+|
+|turn|25
+|
+|cant|p2a: Starmie|par
+|cant|p1a: Venonat|par
+|
+|turn|26
+|
+|move|p2a: Starmie|Surf|p1a: Venonat
+|-damage|p1a: Venonat|45\/310 par
+|move|p1a: Venonat|Mega Drain|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|116\/257 par
+|-heal|p1a: Venonat|67\/310 par|[from] drain|[of] p2a: Starmie
+|
+|turn|27
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|244\/257 par
+|move|p1a: Venonat|Mega Drain|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|201\/257 par
+|-heal|p1a: Venonat|88\/310 par|[from] drain|[of] p2a: Starmie
+|
+|turn|28
+|
+|move|p2a: Starmie|Surf|p1a: Venonat
+|-crit|p1a: Venonat
+|-damage|p1a: Venonat|0 fnt
+|faint|p1a: Venonat
+|
+|switch|p1a: Persian|Persian, L79|265\/265
+|turn|29
+|
+|move|p1a: Persian|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|128\/257 par
+|cant|p2a: Starmie|par
+|
+|turn|30
+|
+|move|p1a: Persian|Hyper Beam|p2a: Starmie|[miss]
+|-miss|p1a: Persian
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|256\/257 par
+|
+|turn|31
+|
+|move|p1a: Persian|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|181\/257 par
+|move|p2a: Starmie|Thunder Wave|p1a: Persian
+|-status|p1a: Persian|par
+|
+|turn|32
+|
+|move|p1a: Persian|Body Slam|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|53\/257 par
+|move|p2a: Starmie|Surf|p1a: Persian
+|-damage|p1a: Persian|152\/265 par
+|
+|turn|33
+|
+|move|p1a: Persian|Hyper Beam|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|switch|p2a: Magmar|Magmar, L90|300\/300
+|turn|34
+|
+|move|p2a: Magmar|Confuse Ray|p1a: Persian
+|-start|p1a: Persian|confusion
+|-activate|p1a: Persian|confusion
+|move|p1a: Persian|Bubble Beam|p2a: Magmar
+|-supereffective|p2a: Magmar
+|-damage|p2a: Magmar|235\/300
+|
+|turn|35
+|
+|move|p2a: Magmar|Fire Blast|p1a: Persian
+|-damage|p1a: Persian|0 fnt
+|faint|p1a: Persian
+|
+|switch|p1a: Graveler|Graveler, L85|267\/267
+|turn|36
+|
+|move|p2a: Magmar|Confuse Ray|p1a: Graveler
+|-start|p1a: Graveler|confusion
+|-activate|p1a: Graveler|confusion
+|-damage|p1a: Graveler|240\/267|[from] confusion
+|
+|turn|37
+|
+|move|p2a: Magmar|Hyper Beam|p1a: Graveler
+|-resisted|p1a: Graveler
+|-damage|p1a: Graveler|193\/267
+|-end|p1a: Graveler|confusion
+|move|p1a: Graveler|Earthquake|p2a: Magmar
+|-supereffective|p2a: Magmar
+|-damage|p2a: Magmar|0 fnt
+|faint|p2a: Magmar
+|
+|switch|p2a: Porygon|Porygon, L85|284\/284
+|turn|38
+|
+|move|p2a: Porygon|Ice Beam|p1a: Graveler
+|-crit|p1a: Graveler
+|-supereffective|p1a: Graveler
+|-damage|p1a: Graveler|0 fnt
+|faint|p1a: Graveler
+|
+|switch|p1a: Chansey|Chansey, L79|557\/557 par
+|turn|39
+|
+|move|p2a: Porygon|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|501\/557 par
+|move|p1a: Chansey|Thunder Wave|p2a: Porygon
+|-status|p2a: Porygon|par
+|
+|turn|40
+|
+|move|p1a: Chansey|Ice Beam|p2a: Porygon
+|-damage|p2a: Porygon|216\/284 par
+|cant|p2a: Porygon|par
+|
+|turn|41
+|
+|move|p1a: Chansey|Ice Beam|p2a: Porygon
+|-damage|p2a: Porygon|146\/284 par
+|move|p2a: Porygon|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|449\/557 par
+|
+|turn|42
+|
+|move|p1a: Chansey|Ice Beam|p2a: Porygon
+|-damage|p2a: Porygon|79\/284 par
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|221\/284 par
+|
+|turn|43
+|
+|move|p1a: Chansey|Ice Beam|p2a: Porygon
+|-damage|p2a: Porygon|156\/284 par
+|cant|p2a: Porygon|par
+|
+|turn|44
+|
+|move|p1a: Chansey|Ice Beam|p2a: Porygon
+|-damage|p2a: Porygon|84\/284 par
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|226\/284 par
+|
+|turn|45
+|
+|move|p1a: Chansey|Ice Beam|p2a: Porygon
+|-damage|p2a: Porygon|161\/284 par
+|move|p2a: Porygon|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|396\/557 par
+|
+|turn|46
+|
+|move|p1a: Chansey|Ice Beam|p2a: Porygon
+|-crit|p2a: Porygon
+|-damage|p2a: Porygon|18\/284 par
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|160\/284 par
+|
+|turn|47
+|
+|switch|p1a: Dragonite|Dragonite, L85|328\/328
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|284\/284 par
+|
+|turn|48
+|
+|switch|p2a: Electabuzz|Electabuzz, L85|284\/284
+|move|p1a: Dragonite|Substitute|p1a: Dragonite
+|-start|p1a: Dragonite|Substitute
+|-damage|p1a: Dragonite|246\/328
+|
+|turn|49
+|
+|move|p2a: Electabuzz|Thunderbolt|p1a: Dragonite
+|-end|p1a: Dragonite|Substitute
+|move|p1a: Dragonite|Blizzard|p2a: Electabuzz
+|-damage|p2a: Electabuzz|199\/284
+|
+|turn|50
+|
+|move|p2a: Electabuzz|Thunder Wave|p1a: Dragonite
+|-status|p1a: Dragonite|par
+|move|p1a: Dragonite|Blizzard|p2a: Electabuzz
+|-damage|p2a: Electabuzz|105\/284
+|
+|turn|51
+|
+|move|p2a: Electabuzz|Thunderbolt|p1a: Dragonite
+|-damage|p1a: Dragonite|152\/328 par
+|cant|p1a: Dragonite|par
+|
+|turn|52
+|
+|move|p2a: Electabuzz|Thunderbolt|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|-message|Zaphyr forfeited.
+|
+|win|blahalb09
+|raw|Zaphyr's rating: 1078 &rarr; <strong>1055<\/strong><br \/>(-23 for losing)
+|raw|blahalb09's rating: 1051 &rarr; <strong>1086<\/strong><br \/>(+35 for winning)
+|leave|Zaphyr
+|player|p1

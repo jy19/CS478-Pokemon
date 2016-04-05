@@ -1,0 +1,340 @@
+﻿|j|PickledBeets
+|j|Mandelbrot
+|player|p1|PickledBeets|162
+|player|p2|Mandelbrot|101
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|36995,2638,59718,25321
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Haunter|Haunter, L85|250\/250
+|switch|p2a: Kingler|Kingler, L85|267\/267
+|turn|1
+|choice|move 1|switch 6
+|
+|switch|p2a: Kadabra|Kadabra, L85|242\/242
+|move|p1a: Haunter|Hypnosis|p2a: Kadabra|[miss]
+|-miss|p1a: Haunter
+|
+|turn|2
+|choice|switch 6|move 1
+|
+|switch|p1a: Mewtwo|Mewtwo, L70|293\/293
+|move|p2a: Kadabra|Psychic|p1a: Mewtwo
+|-resisted|p1a: Mewtwo
+|-damage|p1a: Mewtwo|246\/293
+|
+|turn|3
+|choice|move 3|move 2
+|
+|move|p2a: Kadabra|Thunder Wave|p1a: Mewtwo
+|-status|p1a: Mewtwo|par
+|move|p1a: Mewtwo|Thunder Wave|p2a: Kadabra
+|-status|p2a: Kadabra|par
+|
+|turn|4
+|choice|move 1|move 3
+|
+|move|p2a: Kadabra|Seismic Toss|p1a: Mewtwo
+|-damage|p1a: Mewtwo|161\/293 par
+|move|p1a: Mewtwo|Psychic|p2a: Kadabra
+|-resisted|p2a: Kadabra
+|-damage|p2a: Kadabra|207\/242 par
+|-unboost|p2a: Kadabra|spd|1
+|-unboost|p2a: Kadabra|spa|1
+|
+|turn|5
+|choice|move 1|move 3
+|
+|move|p1a: Mewtwo|Psychic|p2a: Kadabra
+|-resisted|p2a: Kadabra
+|-damage|p2a: Kadabra|151\/242 par
+|-unboost|p2a: Kadabra|spd|1
+|-unboost|p2a: Kadabra|spa|1
+|move|p2a: Kadabra|Seismic Toss|p1a: Mewtwo
+|-damage|p1a: Mewtwo|76\/293 par
+|
+|turn|6
+|choice|move 2|move 3
+|
+|move|p1a: Mewtwo|Rest|p1a: Mewtwo
+|-status|p1a: Mewtwo|slp
+|-heal|p1a: Mewtwo|293\/293 slp|[silent]
+|-status|p1a: Mewtwo|slp|[from] move: Rest
+|move|p2a: Kadabra|Seismic Toss|p1a: Mewtwo
+|-damage|p1a: Mewtwo|208\/293 slp
+|
+|turn|7
+|choice|move 1|move 3
+|
+|cant|p1a: Mewtwo|slp
+|cant|p2a: Kadabra|par
+|
+|turn|8
+|choice|move 1|move 3
+|
+|-curestatus|p1a: Mewtwo|slp
+|move|p2a: Kadabra|Seismic Toss|p1a: Mewtwo
+|-damage|p1a: Mewtwo|123\/293
+|
+|turn|9
+|choice|move 1|move 2
+|
+|move|p1a: Mewtwo|Psychic|p2a: Kadabra
+|-resisted|p2a: Kadabra
+|-damage|p2a: Kadabra|73\/242 par
+|-unboost|p2a: Kadabra|spd|1
+|-unboost|p2a: Kadabra|spa|1
+|move|p2a: Kadabra|Thunder Wave|p1a: Mewtwo
+|-status|p1a: Mewtwo|par
+|
+|turn|10
+|choice|move 2|switch 5
+|
+|switch|p2a: Lickitung|Lickitung, L90|345\/345
+|cant|p1a: Mewtwo|par
+|
+|turn|11
+|choice|move 3|move 4
+|
+|move|p2a: Lickitung|Swords Dance|p2a: Lickitung
+|-boost|p2a: Lickitung|atk|2
+|move|p1a: Mewtwo|Thunder Wave|p2a: Lickitung|[miss]
+|-miss|p1a: Mewtwo
+|
+|turn|12
+|c|★PickledBeets|hahaha
+|c|★PickledBeets|gg
+|c|★Mandelbrot|Gen 1 miss!
+|c|★PickledBeets|that's always a bad sign
+|choice|move 3|move 1
+|
+|move|p2a: Lickitung|Body Slam|p1a: Mewtwo
+|-damage|p1a: Mewtwo|0 fnt
+|faint|p1a: Mewtwo
+|choice|switch 5|
+|
+|switch|p1a: Machoke|Machoke, L85|310\/310
+|turn|13
+|choice|move 4|move 2
+|
+|move|p1a: Machoke|Submission|p2a: Lickitung
+|-supereffective|p2a: Lickitung
+|-damage|p2a: Lickitung|174\/345
+|-damage|p1a: Machoke|268\/310|[from] recoil|[of] p2a: Lickitung
+|move|p2a: Lickitung|Hyper Beam|p1a: Machoke
+|-crit|p1a: Machoke
+|-damage|p1a: Machoke|0 fnt
+|faint|p1a: Machoke
+|c|★PickledBeets|and a licky crit haha
+|c|★PickledBeets|oh well
+|c|★Mandelbrot|yeah... this is unfair...
+|choice|switch 3|
+|
+|switch|p1a: Seadra|Seadra, L90|282\/282
+|turn|14
+|choice|move 3|move 2
+|
+|move|p1a: Seadra|Hydro Pump|p2a: Lickitung
+|-damage|p2a: Lickitung|3\/345
+|move|p2a: Lickitung|Hyper Beam|p1a: Seadra|[miss]
+|-miss|p2a: Lickitung
+|
+|turn|15
+|c|★PickledBeets|ahhhh
+|c|★PickledBeets|haha
+|choice|move 2|move 2
+|
+|move|p1a: Seadra|Blizzard|p2a: Lickitung
+|-damage|p2a: Lickitung|0 fnt
+|faint|p2a: Lickitung
+|c|★Mandelbrot|there you go
+|c|★PickledBeets|at least that beam missed
+|choice||switch 6
+|
+|switch|p2a: Kingler|Kingler, L85|267\/267
+|turn|16
+|choice|move 4|move 3
+|
+|move|p1a: Seadra|Smokescreen|p2a: Kingler
+|-unboost|p2a: Kingler|accuracy|1
+|move|p2a: Kingler|Body Slam|p1a: Seadra
+|-crit|p1a: Seadra
+|-damage|p1a: Seadra|142\/282
+|
+|turn|17
+|c|★Mandelbrot|again
+|choice|move 3|move 3
+|
+|move|p1a: Seadra|Hydro Pump|p2a: Kingler
+|-resisted|p2a: Kingler
+|-damage|p2a: Kingler|165\/267
+|move|p2a: Kingler|Body Slam|p1a: Seadra|[miss]
+|-miss|p2a: Kingler
+|
+|turn|18
+|choice|move 3|switch 4
+|
+|switch|p2a: Venusaur|Venusaur, L85|310\/310
+|move|p1a: Seadra|Hydro Pump|p2a: Venusaur
+|-resisted|p2a: Venusaur
+|-damage|p2a: Venusaur|243\/310
+|
+|turn|19
+|choice|move 2|switch 4
+|
+|switch|p2a: Kingler|Kingler, L85|165\/267
+|move|p1a: Seadra|Blizzard|p2a: Kingler
+|-resisted|p2a: Kingler
+|-damage|p2a: Kingler|96\/267
+|
+|turn|20
+|choice|move 3|move 3
+|
+|move|p1a: Seadra|Hydro Pump|p2a: Kingler|[miss]
+|-miss|p1a: Seadra
+|move|p2a: Kingler|Body Slam|p1a: Seadra
+|-crit|p1a: Seadra
+|-damage|p1a: Seadra|12\/282
+|
+|turn|21
+|choice|move 3|move 3
+|
+|move|p1a: Seadra|Hydro Pump|p2a: Kingler
+|-crit|p2a: Kingler
+|-resisted|p2a: Kingler
+|-damage|p2a: Kingler|0 fnt
+|faint|p2a: Kingler
+|choice||switch 2
+|
+|switch|p2a: Seadra|Seadra, L90|282\/282
+|turn|22
+|choice|move 4|move 2
+|
+|move|p1a: Seadra|Smokescreen|p2a: Seadra
+|-unboost|p2a: Seadra|accuracy|1
+|move|p2a: Seadra|Blizzard|p1a: Seadra
+|-resisted|p1a: Seadra
+|-damage|p1a: Seadra|0 fnt
+|faint|p1a: Seadra
+|choice|switch 6|
+|
+|switch|p1a: Haunter|Haunter, L85|250\/250
+|turn|23
+|choice|move 3|move 2
+|
+|move|p1a: Haunter|Thunderbolt|p2a: Seadra
+|-supereffective|p2a: Seadra
+|-damage|p2a: Seadra|135\/282
+|move|p2a: Seadra|Blizzard|p1a: Haunter
+|-damage|p1a: Haunter|174\/250
+|
+|turn|24
+|choice|move 3|move 2
+|
+|move|p1a: Haunter|Thunderbolt|p2a: Seadra
+|-crit|p2a: Seadra
+|-supereffective|p2a: Seadra
+|-damage|p2a: Seadra|0 fnt
+|faint|p2a: Seadra
+|choice||switch 5
+|
+|switch|p2a: Kadabra|Kadabra, L85|73\/242 par
+|turn|25
+|choice|move 3|move 1
+|
+|move|p1a: Haunter|Thunderbolt|p2a: Kadabra
+|-damage|p2a: Kadabra|11\/242 par
+|move|p2a: Kadabra|Psychic|p1a: Haunter
+|-supereffective|p1a: Haunter
+|-damage|p1a: Haunter|0 fnt
+|faint|p1a: Haunter
+|choice|switch 2|
+|
+|switch|p1a: Wartortle|Wartortle, L85|274\/274
+|turn|26
+|choice|move 3|move 1
+|
+|move|p1a: Wartortle|Body Slam|p2a: Kadabra
+|-damage|p2a: Kadabra|0 fnt
+|faint|p2a: Kadabra
+|choice||switch 4
+|
+|switch|p2a: Venusaur|Venusaur, L85|243\/310
+|turn|27
+|choice|switch 4|move 3
+|
+|switch|p1a: Rapidash|Rapidash, L90|300\/300
+|move|p2a: Venusaur|Razor Leaf|p1a: Rapidash
+|-crit|p1a: Rapidash
+|-resisted|p1a: Rapidash
+|-damage|p1a: Rapidash|241\/300
+|
+|turn|28
+|choice|move 1|switch 3
+|
+|switch|p2a: Nidoking|Nidoking, L85|311\/311
+|move|p1a: Rapidash|Fire Blast|p2a: Nidoking
+|-damage|p2a: Nidoking|158\/311
+|
+|turn|29
+|choice|move 4|move 1
+|
+|move|p1a: Rapidash|Reflect|p1a: Rapidash
+|-start|p1a: Rapidash|Reflect
+|move|p2a: Nidoking|Earthquake|p1a: Rapidash
+|-supereffective|p1a: Rapidash
+|-damage|p1a: Rapidash|132\/300
+|
+|turn|30
+|choice|move 1|move 1
+|
+|move|p1a: Rapidash|Fire Blast|p2a: Nidoking
+|-damage|p2a: Nidoking|13\/311
+|move|p2a: Nidoking|Earthquake|p1a: Rapidash
+|-supereffective|p1a: Rapidash
+|-damage|p1a: Rapidash|11\/300
+|
+|turn|31
+|choice|move 2|move 4
+|
+|move|p1a: Rapidash|Hyper Beam|p2a: Nidoking|[miss]
+|-miss|p1a: Rapidash
+|move|p2a: Nidoking|Body Slam|p1a: Rapidash
+|-damage|p1a: Rapidash|0 fnt
+|faint|p1a: Rapidash
+|c|★PickledBeets|hahaha
+|choice|switch 4|
+|
+|switch|p1a: Wartortle|Wartortle, L85|274\/274
+|turn|32
+|choice|move 3|move 3
+|
+|move|p2a: Nidoking|Thunderbolt|p1a: Wartortle
+|-supereffective|p1a: Wartortle
+|-damage|p1a: Wartortle|134\/274
+|move|p1a: Wartortle|Body Slam|p2a: Nidoking
+|-damage|p2a: Nidoking|0 fnt
+|faint|p2a: Nidoking
+|choice||switch 3
+|
+|switch|p2a: Venusaur|Venusaur, L85|243\/310
+|turn|33
+|choice|move 2|move 3
+|
+|move|p2a: Venusaur|Razor Leaf|p1a: Wartortle
+|-crit|p1a: Wartortle
+|-supereffective|p1a: Wartortle
+|-damage|p1a: Wartortle|0 fnt
+|faint|p1a: Wartortle
+|
+|win|Mandelbrot
+|l|PickledBeets
+|player|p1
+|raw|PickledBeets's rating: 1447 &rarr; <strong>1422<\/strong><br \/>(-25 for losing)
+|raw|Mandelbrot's rating: 1369 &rarr; <strong>1393<\/strong><br \/>(+24 for winning)

@@ -1,0 +1,458 @@
+﻿|join|Dervodel
+|join|gaietta
+|player|p1|Dervodel|238
+|player|p2|gaietta|112
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|8139,25171,64105,27178
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gloom|Gloom, L90|291\/291
+|switch|p2a: Snorlax|Snorlax, L79|415\/415
+|turn|1
+|choice|move 3|move 1
+|
+|move|p1a: Gloom|Sleep Powder|p2a: Snorlax|[miss]
+|-miss|p1a: Gloom
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|
+|turn|2
+|choice|move 3|move 3
+|
+|move|p1a: Gloom|Sleep Powder|p2a: Snorlax
+|-status|p2a: Snorlax|slp
+|cant|p2a: Snorlax|slp
+|
+|turn|3
+|choice|move 2|switch 2
+|
+|switch|p2a: Charizard|Charizard, L85|306\/306
+|move|p1a: Gloom|Swords Dance|p1a: Gloom
+|-boost|p1a: Gloom|atk|2
+|
+|turn|4
+|choice|switch 5|move 3
+|
+|switch|p1a: Golduck|Golduck, L85|310\/310
+|move|p2a: Charizard|Fire Blast|p1a: Golduck
+|-resisted|p1a: Golduck
+|-damage|p1a: Golduck|246\/310
+|-status|p1a: Golduck|brn
+|
+|turn|5
+|choice|move 1|move 2
+|
+|move|p2a: Charizard|Earthquake|p1a: Golduck
+|-damage|p1a: Golduck|173\/310 brn
+|move|p1a: Golduck|Amnesia|p1a: Golduck
+|-boost|p1a: Golduck|spd|2
+|-boost|p1a: Golduck|spa|2
+|-damage|p1a: Golduck|154\/310 brn|[from] brn
+|
+|turn|6
+|choice|move 3|move 1
+|
+|move|p2a: Charizard|Body Slam|p1a: Golduck
+|-damage|p1a: Golduck|95\/310 brn
+|move|p1a: Golduck|Blizzard|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|choice||switch 6
+|
+|switch|p2a: Mr. Mime|Mr. Mime, L85|242\/242
+|turn|7
+|choice|move 2|move 2
+|
+|move|p2a: Mr. Mime|Thunderbolt|p1a: Golduck
+|-crit|p1a: Golduck
+|-supereffective|p1a: Golduck
+|-damage|p1a: Golduck|0 fnt
+|faint|p1a: Golduck
+|c|★Dervodel|omg
+|c|★Dervodel|u people xD
+|choice|switch 4|
+|
+|switch|p1a: Chansey|Chansey, L79|557\/557
+|turn|8
+|c|★gaietta|:P
+|choice|move 2|move 1
+|
+|move|p2a: Mr. Mime|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|move|p1a: Chansey|Thunder Wave|p2a: Mr. Mime
+|-status|p2a: Mr. Mime|par
+|
+|turn|9
+|choice|move 4|move 3
+|
+|move|p2a: Mr. Mime|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|457\/557 par
+|move|p1a: Chansey|Ice Beam|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|181\/242 par
+|
+|turn|10
+|choice|move 4|move 3
+|
+|cant|p2a: Mr. Mime|par
+|cant|p1a: Chansey|par
+|
+|turn|11
+|choice|move 4|move 3
+|
+|move|p2a: Mr. Mime|Psychic|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|261\/557 par
+|cant|p1a: Chansey|par
+|
+|turn|12
+|choice|move 1|move 3
+|
+|move|p2a: Mr. Mime|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|165\/557 par
+|cant|p1a: Chansey|par
+|
+|turn|13
+|choice|move 1|move 3
+|
+|move|p2a: Mr. Mime|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|73\/557 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|351\/557 par
+|
+|turn|14
+|choice|move 1|move 3
+|
+|move|p2a: Mr. Mime|Psychic|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|167\/557 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|445\/557 par
+|
+|turn|15
+|choice|move 4|move 3
+|
+|cant|p2a: Mr. Mime|par
+|move|p1a: Chansey|Ice Beam|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|123\/242 par
+|
+|turn|16
+|choice|move 4|move 3
+|
+|move|p2a: Mr. Mime|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|355\/557 par
+|move|p1a: Chansey|Ice Beam|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|67\/242 par
+|
+|turn|17
+|choice|move 2|move 3
+|
+|move|p2a: Mr. Mime|Psychic|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|166\/557 par
+|move|p1a: Chansey|Thunder Wave|p2a: Mr. Mime
+|-fail|p2a: Mr. Mime|par
+|
+|turn|18
+|choice|move 1|move 3
+|
+|move|p2a: Mr. Mime|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|73\/557 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|351\/557 par
+|
+|turn|19
+|choice|move 1|move 3
+|
+|move|p2a: Mr. Mime|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|255\/557 par
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|533\/557 par
+|
+|turn|20
+|choice|switch 3|move 3
+|
+|switch|p1a: Pikachu|Pikachu, L96|262\/262
+|move|p2a: Mr. Mime|Psychic|p1a: Pikachu
+|-damage|p1a: Pikachu|150\/262
+|-unboost|p1a: Pikachu|spd|1
+|-unboost|p1a: Pikachu|spa|1
+|
+|turn|21
+|choice|switch 3|move 3
+|
+|switch|p1a: Chansey|Chansey, L79|533\/557 par
+|move|p2a: Mr. Mime|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|440\/557 par
+|
+|turn|22
+|choice|move 4|move 4
+|
+|move|p2a: Mr. Mime|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|355\/557 par
+|move|p1a: Chansey|Ice Beam|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|12\/242 par
+|
+|turn|23
+|choice|move 1|move 3
+|
+|move|p2a: Mr. Mime|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|254\/557 par
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|532\/557 par
+|
+|turn|24
+|choice|move 4|move 3
+|
+|move|p2a: Mr. Mime|Psychic|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|358\/557 par
+|move|p1a: Chansey|Ice Beam|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|0 fnt
+|faint|p2a: Mr. Mime
+|choice||switch 5
+|
+|switch|p2a: Onix|Onix, L90|246\/246
+|turn|25
+|choice|switch 6|move 2
+|
+|switch|p1a: Porygon|Porygon, L85|284\/284
+|move|p2a: Onix|Earthquake|p1a: Porygon
+|-damage|p1a: Porygon|198\/284
+|
+|turn|26
+|choice|move 1|move 2
+|
+|move|p2a: Onix|Earthquake|p1a: Porygon
+|-damage|p1a: Porygon|114\/284
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|256\/284
+|
+|turn|27
+|choice|move 3|move 2
+|
+|move|p2a: Onix|Earthquake|p1a: Porygon
+|-damage|p1a: Porygon|165\/284
+|move|p1a: Porygon|Ice Beam|p2a: Onix
+|-supereffective|p2a: Onix
+|-damage|p2a: Onix|42\/246
+|
+|turn|28
+|choice|move 1|move 4
+|
+|move|p2a: Onix|Explosion|p1a: Porygon
+|-damage|p1a: Porygon|0 fnt
+|faint|p1a: Porygon
+|faint|p2a: Onix
+|choice|switch 2|switch 4
+|
+|switch|p2a: Haunter|Haunter, L85|250\/250
+|switch|p1a: Zapdos|Zapdos, L79|304\/304
+|turn|29
+|choice|move 2|move 1
+|
+|move|p2a: Haunter|Hypnosis|p1a: Zapdos|[miss]
+|-miss|p2a: Haunter
+|move|p1a: Zapdos|Thunder Wave|p2a: Haunter
+|-status|p2a: Haunter|par
+|
+|turn|30
+|choice|switch 6|move 1
+|
+|switch|p1a: Chansey|Chansey, L79|358\/557 par
+|cant|p2a: Haunter|par
+|
+|turn|31
+|choice|move 1|move 4
+|
+|cant|p2a: Haunter|par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|557\/557 par
+|
+|turn|32
+|choice|move 4|move 4
+|
+|move|p2a: Haunter|Confuse Ray|p1a: Chansey
+|-start|p1a: Chansey|confusion
+|-activate|p1a: Chansey|confusion
+|move|p1a: Chansey|Ice Beam|p2a: Haunter
+|-damage|p2a: Haunter|199\/250 par
+|
+|turn|33
+|choice|move 4|move 3
+|
+|move|p2a: Haunter|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|489\/557 par
+|-activate|p1a: Chansey|confusion
+|move|p1a: Chansey|Ice Beam|p2a: Haunter
+|-damage|p2a: Haunter|150\/250 par
+|
+|turn|34
+|choice|move 4|move 3
+|
+|move|p2a: Haunter|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|422\/557 par
+|-activate|p1a: Chansey|confusion
+|move|p1a: Chansey|Ice Beam|p2a: Haunter
+|-damage|p2a: Haunter|94\/250 par
+|
+|turn|35
+|choice|move 4|move 3
+|
+|cant|p2a: Haunter|par
+|-end|p1a: Chansey|confusion
+|move|p1a: Chansey|Ice Beam|p2a: Haunter
+|-damage|p2a: Haunter|39\/250 par
+|
+|turn|36
+|choice|move 4|move 2
+|
+|cant|p2a: Haunter|par
+|move|p1a: Chansey|Ice Beam|p2a: Haunter
+|-damage|p2a: Haunter|0 fnt
+|faint|p2a: Haunter
+|choice||switch 2
+|
+|switch|p2a: Snorlax|Snorlax, L79|415\/415 slp
+|turn|37
+|c|★Dervodel|its fun playing like that
+|choice|switch 6|move 2
+|
+|switch|p1a: Zapdos|Zapdos, L79|304\/304
+|cant|p2a: Snorlax|slp
+|
+|turn|38
+|choice|move 4|move 1
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Snorlax
+|-damage|p2a: Snorlax|277\/415 slp
+|cant|p2a: Snorlax|slp
+|
+|turn|39
+|choice|move 4|move 2
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|19\/415 slp
+|cant|p2a: Snorlax|slp
+|
+|turn|40
+|choice|move 4|move 1
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|choice||switch 3
+|
+|switch|p2a: Exeggutor|Exeggutor, L79|312\/312
+|turn|41
+|choice|move 1|move 1
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|152\/312
+|move|p2a: Exeggutor|Sleep Powder|p1a: Zapdos
+|-status|p1a: Zapdos|slp
+|
+|turn|42
+|choice|switch 3|move 3
+|
+|switch|p1a: Pikachu|Pikachu, L96|150\/262
+|move|p2a: Exeggutor|Psychic|p1a: Pikachu
+|-damage|p1a: Pikachu|28\/262
+|-unboost|p1a: Pikachu|spd|1
+|-unboost|p1a: Pikachu|spa|1
+|
+|turn|43
+|choice|move 2|move 3
+|
+|move|p1a: Pikachu|Thunder Wave|p2a: Exeggutor
+|-status|p2a: Exeggutor|par
+|move|p2a: Exeggutor|Psychic|p1a: Pikachu
+|-damage|p1a: Pikachu|0 fnt
+|faint|p1a: Pikachu
+|choice|switch 5|
+|
+|switch|p1a: Gloom|Gloom, L90|291\/291
+|turn|44
+|choice|move 4|move 3
+|
+|move|p1a: Gloom|Double-Edge|p2a: Exeggutor
+|-damage|p2a: Exeggutor|81\/312 par
+|-damage|p1a: Gloom|274\/291|[from] recoil|[of] p2a: Exeggutor
+|move|p2a: Exeggutor|Psychic|p1a: Gloom
+|-supereffective|p1a: Gloom
+|-damage|p1a: Gloom|73\/291
+|
+|turn|45
+|choice|move 4|move 3
+|
+|move|p1a: Gloom|Double-Edge|p2a: Exeggutor
+|-damage|p2a: Exeggutor|14\/312 par
+|-damage|p1a: Gloom|57\/291|[from] recoil|[of] p2a: Exeggutor
+|move|p2a: Exeggutor|Psychic|p1a: Gloom
+|-supereffective|p1a: Gloom
+|-damage|p1a: Gloom|0 fnt
+|faint|p1a: Gloom
+|choice|switch 6|
+|
+|switch|p1a: Chansey|Chansey, L79|422\/557 par
+|turn|46
+|choice|move 4|move 4
+|
+|move|p2a: Exeggutor|Hyper Beam|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|choice|switch 3|
+|
+|switch|p1a: Zapdos|Zapdos, L79|304\/304 slp
+|turn|47
+|choice|move 1|move 3
+|
+|cant|p1a: Zapdos|slp
+|move|p2a: Exeggutor|Psychic|p1a: Zapdos
+|-damage|p1a: Zapdos|223\/304 slp
+|
+|turn|48
+|choice|move 1|move 3
+|
+|cant|p1a: Zapdos|slp
+|move|p2a: Exeggutor|Psychic|p1a: Zapdos
+|-damage|p1a: Zapdos|139\/304 slp
+|
+|turn|49
+|c|★Dervodel|lol
+|c|★Dervodel|you are too lucky
+|c|★Dervodel|gg
+|choice|move 1|move 3
+|
+|cant|p1a: Zapdos|slp
+|move|p2a: Exeggutor|Psychic|p1a: Zapdos
+|-damage|p1a: Zapdos|61\/304 slp
+|-unboost|p1a: Zapdos|spd|1
+|-unboost|p1a: Zapdos|spa|1
+|
+|turn|50
+|c|★gaietta|gg
+|choice|move 1|move 3
+|
+|-curestatus|p1a: Zapdos|slp
+|move|p2a: Exeggutor|Psychic|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|win|gaietta
+|raw|Dervodel's rating: 1142 &rarr; <strong>1127<\/strong><br \/>(-15 for losing)
+|raw|gaietta's rating: 1284 &rarr; <strong>1299<\/strong><br \/>(+15 for winning)

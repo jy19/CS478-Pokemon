@@ -1,0 +1,387 @@
+﻿|join|Mansey
+|join|Hidol
+|player|p1|Mansey|168
+|player|p2|Hidol|163
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|41204,3690,22996,38159
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Kabuto|Kabuto, L96|252\/252
+|switch|p2a: Kingler|Kingler, L85|267\/267
+|turn|1
+|choice|move 1|move 2
+|
+|move|p2a: Kingler|Blizzard|p1a: Kabuto
+|-crit|p1a: Kabuto
+|-resisted|p1a: Kabuto
+|-damage|p1a: Kabuto|176\/252
+|-status|p1a: Kabuto|frz
+|cant|p1a: Kabuto|frz
+|
+|turn|2
+|choice|move 1|move 2
+|
+|move|p2a: Kingler|Blizzard|p1a: Kabuto
+|-resisted|p1a: Kabuto
+|-damage|p1a: Kabuto|139\/252 frz
+|cant|p1a: Kabuto|frz
+|
+|turn|3
+|choice|move 1|move 4
+|
+|move|p2a: Kingler|Body Slam|p1a: Kabuto
+|-resisted|p1a: Kabuto
+|-damage|p1a: Kabuto|108\/252 frz
+|cant|p1a: Kabuto|frz
+|
+|turn|4
+|choice|move 1|move 4
+|
+|move|p2a: Kingler|Body Slam|p1a: Kabuto
+|-resisted|p1a: Kabuto
+|-damage|p1a: Kabuto|75\/252 frz
+|cant|p1a: Kabuto|frz
+|
+|turn|5
+|choice|move 1|move 4
+|
+|move|p2a: Kingler|Body Slam|p1a: Kabuto
+|-crit|p1a: Kabuto
+|-resisted|p1a: Kabuto
+|-damage|p1a: Kabuto|8\/252 frz
+|cant|p1a: Kabuto|frz
+|
+|turn|6
+|choice|move 1|move 4
+|
+|move|p2a: Kingler|Body Slam|p1a: Kabuto
+|-crit|p1a: Kabuto
+|-resisted|p1a: Kabuto
+|-damage|p1a: Kabuto|0 fnt
+|faint|p1a: Kabuto
+|choice|switch 4|
+|
+|switch|p1a: Zapdos|Zapdos, L79|304\/304
+|turn|7
+|choice|move 3|switch 5
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|293\/293
+|move|p1a: Zapdos|Thunderbolt|p2a: Mewtwo
+|-damage|p2a: Mewtwo|204\/293
+|
+|turn|8
+|choice|move 4|move 3
+|
+|move|p2a: Mewtwo|Blizzard|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|155\/304
+|move|p1a: Zapdos|Thunder Wave|p2a: Mewtwo
+|-status|p2a: Mewtwo|par
+|
+|turn|9
+|choice|move 2|move 3
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Mewtwo
+|-damage|p2a: Mewtwo|127\/293 par
+|move|p2a: Mewtwo|Blizzard|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|choice|switch 5|
+|
+|switch|p1a: Lickitung|Lickitung, L90|345\/345
+|turn|10
+|choice|move 4|move 2
+|
+|move|p1a: Lickitung|Hyper Beam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|0 fnt
+|faint|p2a: Mewtwo
+|choice||switch 6
+|
+|switch|p2a: Tauros|Tauros, L79|280\/280
+|turn|11
+|choice|move 3|move 4
+|
+|move|p2a: Tauros|Body Slam|p1a: Lickitung
+|-damage|p1a: Lickitung|258\/345
+|move|p1a: Lickitung|Earthquake|p2a: Tauros
+|-damage|p2a: Tauros|219\/280
+|
+|turn|12
+|choice|move 2|move 4
+|
+|move|p2a: Tauros|Body Slam|p1a: Lickitung
+|-damage|p1a: Lickitung|172\/345
+|move|p1a: Lickitung|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|148\/280
+|
+|turn|13
+|choice|move 2|move 4
+|
+|move|p2a: Tauros|Body Slam|p1a: Lickitung
+|-crit|p1a: Lickitung
+|-damage|p1a: Lickitung|10\/345
+|move|p1a: Lickitung|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|75\/280
+|
+|turn|14
+|choice|move 4|move 1
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Lickitung
+|-damage|p1a: Lickitung|0 fnt
+|faint|p1a: Lickitung
+|choice|switch 2|
+|
+|switch|p1a: Kadabra|Kadabra, L85|242\/242
+|turn|15
+|choice|move 1|move 2
+|
+|move|p1a: Kadabra|Psychic|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|choice||switch 3
+|
+|switch|p2a: Jolteon|Jolteon, L79|265\/265
+|turn|16
+|choice|switch 6|move 4
+|
+|switch|p1a: Rhydon|Rhydon, L79|328\/328
+|move|p2a: Jolteon|Pin Missile|p1a: Rhydon
+|-crit|p1a: Rhydon
+|-damage|p1a: Rhydon|316\/328
+|-damage|p1a: Rhydon|304\/328
+|-damage|p1a: Rhydon|292\/328
+|-damage|p1a: Rhydon|280\/328
+|-damage|p1a: Rhydon|268\/328
+|-hitcount|p1a: Rhydon|5
+|
+|turn|17
+|choice|move 3|switch 5
+|
+|switch|p2a: Kingler|Kingler, L85|267\/267
+|move|p1a: Rhydon|Earthquake|p2a: Kingler
+|-damage|p2a: Kingler|177\/267
+|
+|turn|18
+|choice|switch 3|move 2
+|
+|switch|p1a: Seadra|Seadra, L90|282\/282
+|move|p2a: Kingler|Blizzard|p1a: Seadra
+|-resisted|p1a: Seadra
+|-damage|p1a: Seadra|258\/282
+|
+|turn|19
+|choice|move 1|move 4
+|
+|move|p1a: Seadra|Smokescreen|p2a: Kingler
+|-unboost|p2a: Kingler|accuracy|1
+|move|p2a: Kingler|Body Slam|p1a: Seadra
+|-damage|p1a: Seadra|187\/282
+|
+|turn|20
+|choice|move 4|move 4
+|
+|move|p1a: Seadra|Mimic|p2a: Kingler
+|-start|p1a: Seadra|Mimic|Hyper Beam
+|move|p2a: Kingler|Body Slam|p1a: Seadra
+|-damage|p1a: Seadra|116\/282
+|
+|turn|21
+|choice|move 4|move 4
+|
+|move|p1a: Seadra|Hyper Beam|p2a: Kingler
+|-damage|p2a: Kingler|99\/267
+|move|p2a: Kingler|Body Slam|p1a: Seadra
+|-damage|p1a: Seadra|53\/282
+|
+|turn|22
+|-mustrecharge|p1a: Seadra
+|-mustrecharge|p1a: Seadra
+|choice|move 1|move 3
+|
+|cant|p1a: Seadra|recharge
+|move|p2a: Kingler|Hyper Beam|p1a: Seadra
+|-damage|p1a: Seadra|0 fnt
+|faint|p1a: Seadra
+|choice|switch 6|
+|
+|switch|p1a: Kadabra|Kadabra, L85|242\/242
+|turn|23
+|choice|move 1|move 3
+|
+|move|p1a: Kadabra|Psychic|p2a: Kingler
+|-damage|p2a: Kingler|0 fnt
+|faint|p2a: Kingler
+|choice||switch 5
+|
+|switch|p2a: Jolteon|Jolteon, L79|265\/265
+|turn|24
+|choice|switch 3|move 2
+|
+|switch|p1a: Rhydon|Rhydon, L79|268\/328
+|move|p2a: Jolteon|Double Kick|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|242\/328
+|-damage|p1a: Rhydon|216\/328
+|-hitcount|p1a: Rhydon|2
+|
+|turn|25
+|choice|move 3|switch 2
+|
+|switch|p2a: Weedle|Weedle, L99|280\/280
+|move|p1a: Rhydon|Earthquake|p2a: Weedle
+|-damage|p2a: Weedle|106\/280
+|
+|turn|26
+|choice|move 3|move 1
+|
+|move|p2a: Weedle|Poison Sting|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|214\/328
+|move|p1a: Rhydon|Earthquake|p2a: Weedle
+|-damage|p2a: Weedle|0 fnt
+|faint|p2a: Weedle
+|choice||switch 4
+|
+|switch|p2a: Exeggutor|Exeggutor, L79|312\/312
+|turn|27
+|choice|switch 3|move 3
+|
+|switch|p1a: Kadabra|Kadabra, L85|242\/242
+|move|p2a: Exeggutor|Mega Drain|p1a: Kadabra
+|-damage|p1a: Kadabra|206\/242
+|
+|turn|28
+|choice|move 1|switch 2
+|
+|switch|p2a: Jolteon|Jolteon, L79|265\/265
+|move|p1a: Kadabra|Psychic|p2a: Jolteon
+|-damage|p2a: Jolteon|168\/265
+|-unboost|p2a: Jolteon|spd|1
+|-unboost|p2a: Jolteon|spa|1
+|
+|turn|29
+|choice|move 1|switch 2
+|
+|switch|p2a: Exeggutor|Exeggutor, L79|312\/312
+|move|p1a: Kadabra|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|266\/312
+|-unboost|p2a: Exeggutor|spd|1
+|-unboost|p2a: Exeggutor|spa|1
+|
+|turn|30
+|choice|move 1|move 1
+|
+|move|p1a: Kadabra|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|200\/312
+|move|p2a: Exeggutor|Sleep Powder|p1a: Kadabra
+|-status|p1a: Kadabra|slp
+|
+|turn|31
+|choice|move 1|move 3
+|
+|cant|p1a: Kadabra|slp
+|move|p2a: Exeggutor|Mega Drain|p1a: Kadabra
+|-damage|p1a: Kadabra|182\/242 slp
+|-heal|p2a: Exeggutor|212\/312|[from] drain|[of] p1a: Kadabra
+|
+|turn|32
+|choice|move 1|move 3
+|
+|cant|p1a: Kadabra|slp
+|move|p2a: Exeggutor|Mega Drain|p1a: Kadabra
+|-damage|p1a: Kadabra|157\/242 slp
+|-heal|p2a: Exeggutor|224\/312|[from] drain|[of] p1a: Kadabra
+|
+|turn|33
+|choice|move 1|switch 2
+|
+|switch|p2a: Jolteon|Jolteon, L79|168\/265
+|-curestatus|p1a: Kadabra|slp
+|
+|turn|34
+|choice|move 1|move 4
+|
+|move|p2a: Jolteon|Pin Missile|p1a: Kadabra
+|-supereffective|p1a: Kadabra
+|-damage|p1a: Kadabra|130\/242
+|-damage|p1a: Kadabra|103\/242
+|-damage|p1a: Kadabra|76\/242
+|-damage|p1a: Kadabra|49\/242
+|-hitcount|p1a: Kadabra|4
+|move|p1a: Kadabra|Psychic|p2a: Jolteon
+|-crit|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|choice||switch 2
+|
+|switch|p2a: Exeggutor|Exeggutor, L79|224\/312
+|turn|35
+|choice|move 2|move 1
+|
+|move|p1a: Kadabra|Recover|p1a: Kadabra
+|-heal|p1a: Kadabra|170\/242
+|move|p2a: Exeggutor|Sleep Powder|p1a: Kadabra
+|-status|p1a: Kadabra|slp
+|
+|turn|36
+|choice|move 1|move 4
+|
+|cant|p1a: Kadabra|slp
+|move|p2a: Exeggutor|Egg Bomb|p1a: Kadabra|[miss]
+|-miss|p2a: Exeggutor
+|
+|turn|37
+|choice|move 1|move 4
+|
+|cant|p1a: Kadabra|slp
+|move|p2a: Exeggutor|Egg Bomb|p1a: Kadabra
+|-damage|p1a: Kadabra|67\/242 slp
+|
+|turn|38
+|choice|move 1|move 4
+|
+|cant|p1a: Kadabra|slp
+|move|p2a: Exeggutor|Egg Bomb|p1a: Kadabra|[miss]
+|-miss|p2a: Exeggutor
+|
+|turn|39
+|choice|move 1|move 4
+|
+|cant|p1a: Kadabra|slp
+|move|p2a: Exeggutor|Egg Bomb|p1a: Kadabra|[miss]
+|-miss|p2a: Exeggutor
+|
+|turn|40
+|choice|move 1|move 4
+|
+|cant|p1a: Kadabra|slp
+|move|p2a: Exeggutor|Egg Bomb|p1a: Kadabra
+|-damage|p1a: Kadabra|0 fnt
+|faint|p1a: Kadabra
+|choice|switch 3|
+|
+|switch|p1a: Rhydon|Rhydon, L79|214\/328
+|turn|41
+|choice|move 2|move 3
+|
+|move|p2a: Exeggutor|Mega Drain|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|-heal|p2a: Exeggutor|312\/312|[from] drain|[of] p1a: Rhydon
+|faint|p1a: Rhydon
+|
+|win|Hidol
+|raw|Mansey's rating: 1103 &rarr; <strong>1078<\/strong><br \/>(-25 for losing)
+|raw|Hidol's rating: 1108 &rarr; <strong>1133<\/strong><br \/>(+25 for winning)
+|leave|Mansey
+|player|p1

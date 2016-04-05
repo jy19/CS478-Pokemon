@@ -1,0 +1,320 @@
+﻿|j|Mirabel_
+|j|Giju
+|player|p1|Mirabel_|260
+|player|p2|Giju|20
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|seed|31934,48562,20685,64070
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: フーディン|Alakazam|313\/313
+|switch|p2a: Alakazam|Alakazam|313\/313
+|turn|1
+|choice|move 1|switch 3
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: フーディン|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|569\/703
+|
+|turn|2
+|choice|move 1|move 3
+|
+|move|p1a: フーディン|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|438\/703
+|move|p2a: Chansey|Ice Beam|p1a: フーディン
+|-damage|p1a: フーディン|248\/313
+|
+|turn|3
+|choice|move 1|switch 2
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: フーディン|Psychic|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|279\/393
+|-unboost|p2a: Exeggutor|spd|1
+|-unboost|p2a: Exeggutor|spa|1
+|
+|turn|4
+|choice|move 1|move 1
+|
+|move|p1a: フーディン|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|191\/393
+|-unboost|p2a: Exeggutor|spd|1
+|-unboost|p2a: Exeggutor|spa|1
+|move|p2a: Exeggutor|Sleep Powder|p1a: フーディン
+|-status|p1a: フーディン|slp
+|
+|turn|5
+|choice|switch 5|move 3
+|
+|switch|p1a: ナッシー|Exeggutor|393\/393
+|move|p2a: Exeggutor|Psychic|p1a: ナッシー
+|-resisted|p1a: ナッシー
+|-damage|p1a: ナッシー|365\/393
+|-unboost|p1a: ナッシー|spd|1
+|-unboost|p1a: ナッシー|spa|1
+|
+|turn|6
+|choice|move 1|switch 3
+|
+|switch|p2a: Alakazam|Alakazam|313\/313
+|move|p1a: ナッシー|Sleep Powder|p2a: Alakazam
+|-status|p2a: Alakazam|slp
+|
+|turn|7
+|choice|switch 3|switch 3
+|
+|switch|p2a: Exeggutor|Exeggutor|191\/393
+|switch|p1a: カビゴン|Snorlax|523\/523
+|
+|turn|8
+|choice|move 1|move 3
+|
+|move|p2a: Exeggutor|Psychic|p1a: カビゴン
+|-damage|p1a: カビゴン|373\/523
+|move|p1a: カビゴン|Body Slam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|64\/393
+|
+|turn|9
+|choice|switch 5|move 4
+|
+|switch|p1a: フーディン|Alakazam|248\/313 slp
+|move|p2a: Exeggutor|Explosion|p1a: フーディン
+|-damage|p1a: フーディン|0 fnt
+|faint|p1a: フーディン
+|faint|p2a: Exeggutor
+|choice|switch 5|switch 5
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|switch|p1a: カビゴン|Snorlax|373\/523
+|turn|10
+|choice|move 1|move 1
+|
+|move|p1a: カビゴン|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|389\/523
+|move|p2a: Snorlax|Body Slam|p1a: カビゴン
+|-damage|p1a: カビゴン|240\/523
+|
+|turn|11
+|choice|move 3|move 1
+|
+|move|p1a: カビゴン|Self-Destruct|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|faint|p1a: カビゴン
+|choice|switch 4|switch 2
+|
+|switch|p2a: Chansey|Chansey|438\/703
+|switch|p1a: ラッキー|Chansey|703\/703
+|turn|12
+|choice|move 3|move 3
+|
+|move|p2a: Chansey|Ice Beam|p1a: ラッキー
+|-damage|p1a: ラッキー|632\/703
+|-status|p1a: ラッキー|frz
+|cant|p1a: ラッキー|frz
+|
+|turn|13
+|choice|move 2|move 4
+|
+|cant|p1a: ラッキー|frz
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703
+|
+|turn|14
+|choice|move 4|switch 4
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|cant|p1a: ラッキー|frz
+|
+|turn|15
+|choice|move 2|move 1
+|
+|move|p2a: Tauros|Body Slam|p1a: ラッキー
+|-damage|p1a: ラッキー|341\/703 frz
+|cant|p1a: ラッキー|frz
+|
+|turn|16
+|choice|switch 3|move 1
+|
+|switch|p1a: ナッシー|Exeggutor|365\/393
+|move|p2a: Tauros|Body Slam|p1a: ナッシー
+|-damage|p1a: ナッシー|253\/393
+|-status|p1a: ナッシー|par
+|
+|turn|17
+|choice|move 4|switch 6
+|
+|switch|p2a: Golem|Golem|363\/363
+|move|p1a: ナッシー|Stun Spore|p2a: Golem
+|-status|p2a: Golem|par
+|
+|turn|18
+|choice|move 2|move 2
+|
+|move|p1a: ナッシー|Psychic|p2a: Golem
+|-damage|p2a: Golem|184\/363 par
+|-unboost|p2a: Golem|spd|1
+|-unboost|p2a: Golem|spa|1
+|cant|p2a: Golem|par
+|
+|turn|19
+|choice|move 2|switch 4
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: ナッシー|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|587\/703
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|
+|turn|20
+|choice|move 4|switch 3
+|
+|switch|p2a: Alakazam|Alakazam|313\/313 slp
+|cant|p1a: ナッシー|par
+|
+|turn|21
+|choice|switch 2|move 3
+|
+|switch|p1a: ケンタロス|Tauros|353\/353
+|cant|p2a: Alakazam|slp
+|
+|turn|22
+|choice|move 1|move 3
+|
+|cant|p2a: Alakazam|slp
+|move|p1a: ケンタロス|Body Slam|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-damage|p2a: Alakazam|20\/313 slp
+|
+|turn|23
+|choice|move 1|move 3
+|
+|-curestatus|p2a: Alakazam|slp
+|move|p1a: ケンタロス|Body Slam|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|choice||switch 6
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|24
+|choice|move 1|move 1
+|
+|move|p2a: Tauros|Body Slam|p1a: ケンタロス
+|-crit|p1a: ケンタロス
+|-damage|p1a: ケンタロス|151\/353
+|move|p1a: ケンタロス|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|257\/353
+|
+|turn|25
+|choice|move 1|move 1
+|
+|move|p1a: ケンタロス|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|158\/353
+|move|p2a: Tauros|Body Slam|p1a: ケンタロス
+|-damage|p1a: ケンタロス|40\/353
+|
+|turn|26
+|choice|move 2|switch 4
+|
+|switch|p2a: Golem|Golem|184\/363 par
+|move|p1a: ケンタロス|Hyper Beam|p2a: Golem|[miss]
+|-miss|p1a: ケンタロス
+|
+|turn|27
+|c|★Mirabel_|lol
+|choice|move 4|switch 3
+|
+|switch|p2a: Chansey|Chansey|587\/703
+|move|p1a: ケンタロス|Blizzard|p2a: Chansey|[miss]
+|-miss|p1a: ケンタロス
+|
+|turn|28
+|choice|move 2|move 4
+|
+|move|p1a: ケンタロス|Hyper Beam|p2a: Chansey
+|-damage|p2a: Chansey|121\/703
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|472\/703
+|
+|turn|29
+|-mustrecharge|p1a: ケンタロス
+|-mustrecharge|p1a: ケンタロス
+|choice|move 1|move 3
+|
+|cant|p1a: ケンタロス|recharge
+|move|p2a: Chansey|Ice Beam|p1a: ケンタロス
+|-damage|p1a: ケンタロス|0 fnt
+|faint|p1a: ケンタロス
+|choice|switch 2|
+|
+|switch|p1a: ナッシー|Exeggutor|253\/393 par
+|turn|30
+|choice|move 2|switch 3
+|
+|switch|p2a: Golem|Golem|184\/363 par
+|cant|p1a: ナッシー|par
+|
+|turn|31
+|choice|move 2|move 4
+|
+|move|p1a: ナッシー|Psychic|p2a: Golem
+|-damage|p2a: Golem|17\/363 par
+|move|p2a: Golem|Explosion|p1a: ナッシー
+|-damage|p1a: ナッシー|0 fnt
+|faint|p1a: ナッシー
+|faint|p2a: Golem
+|choice|switch 6|switch 3
+|
+|switch|p1a: スターミー|Starmie|323\/323
+|switch|p2a: Chansey|Chansey|472\/703
+|turn|32
+|choice|move 2|move 1
+|
+|move|p1a: スターミー|Blizzard|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|290\/703
+|move|p2a: Chansey|Thunder Wave|p1a: スターミー
+|-status|p1a: スターミー|par
+|
+|turn|33
+|choice|move 2|move 2
+|
+|move|p2a: Chansey|Thunderbolt|p1a: スターミー
+|-crit|p1a: スターミー
+|-supereffective|p1a: スターミー
+|-damage|p1a: スターミー|5\/323 par
+|cant|p1a: スターミー|par
+|
+|turn|34
+|c|★Giju|gg
+|choice|move 4|move 2
+|
+|move|p2a: Chansey|Thunderbolt|p1a: スターミー
+|-supereffective|p1a: スターミー
+|-damage|p1a: スターミー|0 fnt
+|faint|p1a: スターミー
+|c|★Mirabel_|gg
+|choice|switch 3|
+|
+|switch|p1a: ラッキー|Chansey|341\/703 frz
+|turn|35
+|-message|Mirabel_ forfeited.
+|
+|win|Giju
+|player|p1
+|player|p2
+|raw|Mirabel_'s rating: 1391 &rarr; <strong>1369<\/strong><br \/>(-22 for losing)
+|raw|Giju's rating: 1340 &rarr; <strong>1363<\/strong><br \/>(+23 for winning)
+|l|Mirabel_

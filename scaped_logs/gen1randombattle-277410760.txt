@@ -1,0 +1,291 @@
+﻿|join|Dervodel
+|join|Casserou
+|player|p1|Dervodel|1
+|player|p2|Casserou|10
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Onix|Onix, L90|246\/246
+|switch|p2a: Hitmonchan|Hitmonchan, L90|273\/273
+|turn|1
+|
+|switch|p1a: Slowbro|Slowbro, L79|312\/312
+|move|p2a: Hitmonchan|Submission|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|263\/312
+|-damage|p2a: Hitmonchan|261\/273|[from] recoil|[of] p1a: Slowbro
+|
+|turn|2
+|
+|move|p2a: Hitmonchan|Seismic Toss|p1a: Slowbro
+|-damage|p1a: Slowbro|173\/312
+|move|p1a: Slowbro|Thunder Wave|p2a: Hitmonchan
+|-status|p2a: Hitmonchan|par
+|
+|turn|3
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|move|p2a: Hitmonchan|Seismic Toss|p1a: Slowbro
+|-damage|p1a: Slowbro|83\/312
+|
+|turn|4
+|
+|move|p1a: Slowbro|Rest|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|-heal|p1a: Slowbro|312\/312 slp|[silent]
+|-status|p1a: Slowbro|slp|[from] move: Rest
+|move|p2a: Hitmonchan|Seismic Toss|p1a: Slowbro
+|-damage|p1a: Slowbro|222\/312 slp
+|
+|turn|5
+|
+|switch|p2a: Venusaur|Venusaur, L85|310\/310
+|cant|p1a: Slowbro|slp
+|
+|turn|6
+|
+|move|p2a: Venusaur|Razor Leaf|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|
+|switch|p1a: Flareon|Flareon, L90|300\/300
+|turn|7
+|
+|move|p2a: Venusaur|Sleep Powder|p1a: Flareon
+|-status|p1a: Flareon|slp
+|-curestatus|p1a: Flareon|slp
+|
+|turn|8
+|
+|switch|p1a: Magikarp|Magikarp, L99|240\/240
+|move|p2a: Venusaur|Sleep Powder|p1a: Magikarp
+|-status|p1a: Magikarp|slp
+|
+|turn|9
+|
+|switch|p1a: Parasect|Parasect, L90|291\/291
+|switch|p2a: Hitmonchan|Hitmonchan, L90|261\/273 par
+|
+|turn|10
+|
+|move|p1a: Parasect|Swords Dance|p1a: Parasect
+|-boost|p1a: Parasect|atk|2
+|move|p2a: Hitmonchan|Counter|p1a: Parasect
+|-fail|p2a: Hitmonchan
+|
+|turn|11
+|
+|move|p1a: Parasect|Swords Dance|p1a: Parasect
+|-boost|p1a: Parasect|atk|2
+|move|p2a: Hitmonchan|Body Slam|p1a: Parasect
+|-damage|p1a: Parasect|214\/291
+|
+|turn|12
+|
+|move|p1a: Parasect|Body Slam|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|70\/273 par
+|move|p2a: Hitmonchan|Body Slam|p1a: Parasect
+|-damage|p1a: Parasect|142\/291
+|
+|turn|13
+|
+|move|p1a: Parasect|Body Slam|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|0 fnt
+|faint|p2a: Hitmonchan
+|
+|switch|p2a: Wigglytuff|Wigglytuff, L90|435\/435
+|turn|14
+|
+|move|p2a: Wigglytuff|Blizzard|p1a: Parasect|[miss]
+|-miss|p2a: Wigglytuff
+|move|p1a: Parasect|Stun Spore|p2a: Wigglytuff
+|-status|p2a: Wigglytuff|par
+|
+|turn|15
+|
+|move|p1a: Parasect|Body Slam|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|160\/435 par
+|move|p2a: Wigglytuff|Blizzard|p1a: Parasect
+|-supereffective|p1a: Parasect
+|-damage|p1a: Parasect|22\/291
+|
+|turn|16
+|
+|move|p1a: Parasect|Body Slam|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|0 fnt
+|faint|p2a: Wigglytuff
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|293\/293
+|turn|17
+|c|★Dervodel|ah c mon
+|
+|move|p2a: Mewtwo|Body Slam|p1a: Parasect
+|-damage|p1a: Parasect|0 fnt
+|faint|p1a: Parasect
+|
+|switch|p1a: Tauros|Tauros, L79|280\/280
+|turn|18
+|
+|move|p1a: Tauros|Body Slam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|202\/293
+|-status|p2a: Mewtwo|par
+|move|p2a: Mewtwo|Psychic|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|67\/280
+|
+|turn|19
+|
+|move|p1a: Tauros|Body Slam|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|5\/293 par
+|move|p2a: Mewtwo|Psychic|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|switch|p1a: Flareon|Flareon, L90|300\/300
+|turn|20
+|
+|move|p1a: Flareon|Quick Attack|p2a: Mewtwo
+|-damage|p2a: Mewtwo|0 fnt
+|faint|p2a: Mewtwo
+|
+|switch|p2a: Kangaskhan|Kangaskhan, L85|352\/352
+|turn|21
+|
+|move|p2a: Kangaskhan|Earthquake|p1a: Flareon
+|-supereffective|p1a: Flareon
+|-damage|p1a: Flareon|140\/300
+|move|p1a: Flareon|Fire Blast|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|125\/352
+|-status|p2a: Kangaskhan|brn
+|
+|turn|22
+|
+|switch|p1a: Magikarp|Magikarp, L99|240\/240 slp
+|move|p2a: Kangaskhan|Earthquake|p1a: Magikarp
+|-damage|p1a: Magikarp|203\/240 slp
+|-damage|p2a: Kangaskhan|103\/352 brn|[from] brn|[of] p1a: Magikarp
+|
+|turn|23
+|
+|switch|p2a: Venusaur|Venusaur, L85|310\/310
+|cant|p1a: Magikarp|slp
+|
+|turn|24
+|
+|cant|p1a: Magikarp|slp
+|move|p2a: Venusaur|Razor Leaf|p1a: Magikarp
+|-crit|p1a: Magikarp
+|-supereffective|p1a: Magikarp
+|-damage|p1a: Magikarp|0 fnt
+|faint|p1a: Magikarp
+|
+|switch|p1a: Flareon|Flareon, L90|140\/300
+|turn|25
+|
+|move|p2a: Venusaur|Sleep Powder|p1a: Flareon
+|-status|p1a: Flareon|slp
+|cant|p1a: Flareon|slp
+|
+|turn|26
+|c|★Dervodel|how lucky
+|c|★Dervodel|gg  i guess
+|
+|move|p2a: Venusaur|Razor Leaf|p1a: Flareon
+|-crit|p1a: Flareon
+|-resisted|p1a: Flareon
+|-damage|p1a: Flareon|90\/300 slp
+|-curestatus|p1a: Flareon|slp
+|
+|turn|27
+|
+|switch|p2a: Kangaskhan|Kangaskhan, L85|103\/352 brn
+|-damage|p2a: Kangaskhan|81\/352 brn|[from] brn
+|move|p1a: Flareon|Fire Blast|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|faint|p2a: Kangaskhan
+|
+|switch|p2a: Venusaur|Venusaur, L85|310\/310
+|turn|28
+|
+|move|p2a: Venusaur|Sleep Powder|p1a: Flareon
+|-status|p1a: Flareon|slp
+|-curestatus|p1a: Flareon|slp
+|
+|turn|29
+|
+|move|p2a: Venusaur|Sleep Powder|p1a: Flareon
+|-status|p1a: Flareon|slp
+|-curestatus|p1a: Flareon|slp
+|
+|turn|30
+|
+|switch|p2a: Moltres|Moltres, L85|327\/327
+|move|p1a: Flareon|Fire Blast|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|262\/327
+|
+|turn|31
+|
+|move|p2a: Moltres|Fire Blast|p1a: Flareon
+|-resisted|p1a: Flareon
+|-damage|p1a: Flareon|27\/300
+|move|p1a: Flareon|Body Slam|p2a: Moltres
+|-damage|p2a: Moltres|175\/327
+|
+|turn|32
+|
+|switch|p1a: Onix|Onix, L90|246\/246
+|move|p2a: Moltres|Fire Blast|p1a: Onix
+|-resisted|p1a: Onix
+|-damage|p1a: Onix|125\/246
+|
+|turn|33
+|
+|move|p2a: Moltres|Fire Blast|p1a: Onix
+|-resisted|p1a: Onix
+|-damage|p1a: Onix|2\/246
+|move|p1a: Onix|Rock Slide|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|
+|switch|p2a: Venusaur|Venusaur, L85|310\/310
+|turn|34
+|
+|move|p2a: Venusaur|Razor Leaf|p1a: Onix
+|-crit|p1a: Onix
+|-supereffective|p1a: Onix
+|-damage|p1a: Onix|0 fnt
+|faint|p1a: Onix
+|
+|switch|p1a: Flareon|Flareon, L90|27\/300
+|turn|35
+|
+|move|p2a: Venusaur|Razor Leaf|p1a: Flareon|[miss]
+|-miss|p2a: Venusaur
+|move|p1a: Flareon|Fire Blast|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|5\/310
+|-status|p2a: Venusaur|brn
+|
+|turn|36
+|c|★Dervodel|loool
+|
+|move|p1a: Flareon|Quick Attack|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|faint|p2a: Venusaur
+|
+|win|Dervodel
+|raw|Dervodel's rating: 1423 &rarr; <strong>1440<\/strong><br \/>(+17 for winning)
+|raw|Casserou's rating: 1374 &rarr; <strong>1357<\/strong><br \/>(-17 for losing)

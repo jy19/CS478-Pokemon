@@ -1,0 +1,47 @@
+﻿|join|MALESANI
+|join|ZePretinho
+|player|p1|MALESANI|238
+|player|p2|ZePretinho|167
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|20100,54641,45607,29050
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Flareon|Flareon, L90|300\/300
+|switch|p2a: Hitmonlee|Hitmonlee, L90|273\/273
+|turn|1
+|choice|move 3|move 1
+|
+|move|p2a: Hitmonlee|High Jump Kick|p1a: Flareon
+|-damage|p1a: Flareon|161\/300
+|move|p1a: Flareon|Fire Blast|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|38\/273
+|-status|p2a: Hitmonlee|brn
+|
+|turn|2
+|choice|move 2|switch 2
+|
+|switch|p2a: Wartortle|Wartortle, L85|274\/274
+|move|p1a: Flareon|Quick Attack|p2a: Wartortle
+|-damage|p2a: Wartortle|229\/274
+|
+|turn|3
+|choice|switch 4|move 4
+|
+|switch|p1a: Starmie|Starmie, L79|257\/257
+|move|p2a: Wartortle|Hydro Pump|p1a: Starmie|[miss]
+|-miss|p2a: Wartortle
+|
+|turn|4
+|-message|ZePretinho forfeited.
+|
+|win|MALESANI
+|leave|ZePretinho
+|player|p2
+|raw|MALESANI's rating: 1323 &rarr; <strong>1334<\/strong><br \/>(+11 for winning)
+|raw|ZePretinho's rating: 1157 &rarr; <strong>1143<\/strong><br \/>(-14 for losing)

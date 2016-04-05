@@ -1,0 +1,89 @@
+﻿|join|greyhot
+|join|Psychedelic Trip
+|player|p1|greyhot|290
+|player|p2|Psychedelic Trip|168
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Dugtrio|Dugtrio, L85|233\/233
+|switch|p2a: Onix|Onix, L85|233\/233
+|turn|1
+|
+|switch|p2a: Pidgeot|Pidgeot, L85|315\/315
+|move|p1a: Dugtrio|Earthquake|p2a: Pidgeot
+|-immune|p2a: Pidgeot|[msg]
+|
+|turn|2
+|
+|move|p1a: Dugtrio|Sand Attack|p2a: Pidgeot
+|-unboost|p2a: Pidgeot|accuracy|1
+|move|p2a: Pidgeot|Reflect|p2a: Pidgeot
+|-start|p2a: Pidgeot|Reflect
+|
+|turn|3
+|
+|move|p1a: Dugtrio|Sand Attack|p2a: Pidgeot
+|-unboost|p2a: Pidgeot|accuracy|1
+|move|p2a: Pidgeot|Mimic|p1a: Dugtrio
+|-start|p2a: Pidgeot|Mimic|Slash
+|
+|turn|4
+|
+|move|p1a: Dugtrio|Sand Attack|p2a: Pidgeot
+|-unboost|p2a: Pidgeot|accuracy|1
+|move|p2a: Pidgeot|Slash|p1a: Dugtrio|[miss]
+|-miss|p2a: Pidgeot
+|
+|turn|5
+|
+|switch|p2a: Vaporeon|Vaporeon, L85|395\/395
+|move|p1a: Dugtrio|Sand Attack|p2a: Vaporeon
+|-unboost|p2a: Vaporeon|accuracy|1
+|
+|turn|6
+|
+|move|p1a: Dugtrio|Sand Attack|p2a: Vaporeon
+|-unboost|p2a: Vaporeon|accuracy|1
+|move|p2a: Vaporeon|Hydro Pump|p1a: Dugtrio
+|-crit|p1a: Dugtrio
+|-supereffective|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|
+|switch|p1a: Wigglytuff|Wigglytuff, L85|412\/412
+|turn|7
+|
+|switch|p2a: Clefable|Clefable, L85|335\/335
+|move|p1a: Wigglytuff|Thunder Wave|p2a: Clefable
+|-status|p2a: Clefable|par
+|
+|turn|8
+|
+|move|p1a: Wigglytuff|Double-Edge|p2a: Clefable
+|-damage|p2a: Clefable|228\/335 par
+|-damage|p1a: Wigglytuff|386\/412|[from] recoil|[of] p2a: Clefable
+|cant|p2a: Clefable|par
+|
+|turn|9
+|
+|move|p1a: Wigglytuff|Double-Edge|p2a: Clefable
+|-damage|p2a: Clefable|121\/335 par
+|-damage|p1a: Wigglytuff|360\/412|[from] recoil|[of] p2a: Clefable
+|move|p2a: Clefable|Counter|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|146\/412
+|
+|turn|10
+|-message|Psychedelic Trip lost due to inactivity.
+|
+|win|greyhot
+|raw|Ladder updating...
+|raw|greyhot's rating: 1096 &rarr; <strong>1122<\/strong><br \/>(+26 for winning)
+|raw|Psychedelic Trip's rating: 1105 &rarr; <strong>1079<\/strong><br \/>(-26 for losing)
+|leave|Psychedelic Trip
+|player|p2

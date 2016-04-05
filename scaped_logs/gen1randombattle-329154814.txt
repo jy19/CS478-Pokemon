@@ -1,0 +1,167 @@
+﻿|j|sacman838
+|j|Lutra
+|player|p1|sacman838|10
+|player|p2|Lutra|281
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|14704,58805,9418,28565
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Hitmonlee|Hitmonlee, L90|273\/273
+|switch|p2a: Beedrill|Beedrill, L90|300\/300
+|turn|1
+|choice|move 3|move 4
+|
+|move|p1a: Hitmonlee|High Jump Kick|p2a: Beedrill
+|-resisted|p2a: Beedrill
+|-damage|p2a: Beedrill|255\/300
+|move|p2a: Beedrill|Hyper Beam|p1a: Hitmonlee|[miss]
+|-miss|p2a: Beedrill
+|
+|turn|2
+|choice|move 2|move 3
+|
+|move|p2a: Beedrill|Swords Dance|p2a: Beedrill
+|-boost|p2a: Beedrill|atk|2
+|move|p1a: Hitmonlee|Counter|p2a: Beedrill
+|-fail|p1a: Hitmonlee
+|
+|turn|3
+|choice|move 1|move 2
+|
+|move|p1a: Hitmonlee|Substitute|p1a: Hitmonlee
+|-start|p1a: Hitmonlee|Substitute
+|-damage|p1a: Hitmonlee|205\/273
+|move|p2a: Beedrill|Twineedle|p1a: Hitmonlee
+|-resisted|p1a: Hitmonlee
+|-activate|p1a: Hitmonlee|Substitute|[damage]
+|-resisted|p1a: Hitmonlee
+|-activate|p1a: Hitmonlee|Substitute|[damage]
+|-hitcount|p1a: Hitmonlee|2
+|
+|turn|4
+|choice|move 3|move 2
+|
+|move|p1a: Hitmonlee|High Jump Kick|p2a: Beedrill
+|-crit|p2a: Beedrill
+|-resisted|p2a: Beedrill
+|-damage|p2a: Beedrill|174\/300
+|move|p2a: Beedrill|Twineedle|p1a: Hitmonlee
+|-crit|p1a: Hitmonlee
+|-resisted|p1a: Hitmonlee
+|-end|p1a: Hitmonlee|Substitute
+|-hitcount|p1a: Hitmonlee|1
+|
+|turn|5
+|choice|move 1|move 1
+|
+|move|p1a: Hitmonlee|Substitute|p1a: Hitmonlee
+|-start|p1a: Hitmonlee|Substitute
+|-damage|p1a: Hitmonlee|137\/273
+|move|p2a: Beedrill|Agility|p2a: Beedrill
+|-boost|p2a: Beedrill|spe|2
+|
+|turn|6
+|choice|move 3|move 4
+|
+|move|p2a: Beedrill|Hyper Beam|p1a: Hitmonlee
+|-end|p1a: Hitmonlee|Substitute
+|move|p1a: Hitmonlee|High Jump Kick|p2a: Beedrill|[miss]
+|-miss|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|136\/273
+|
+|turn|7
+|choice|move 1|move 3
+|
+|move|p2a: Beedrill|Swords Dance|p2a: Beedrill
+|-boost|p2a: Beedrill|atk|2
+|move|p1a: Hitmonlee|Substitute|p1a: Hitmonlee
+|-start|p1a: Hitmonlee|Substitute
+|-damage|p1a: Hitmonlee|68\/273
+|
+|turn|8
+|choice|move 3|move 4
+|
+|move|p2a: Beedrill|Hyper Beam|p1a: Hitmonlee
+|-end|p1a: Hitmonlee|Substitute
+|move|p1a: Hitmonlee|High Jump Kick|p2a: Beedrill|[miss]
+|-miss|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|67\/273
+|
+|turn|9
+|choice|move 3|move 3
+|
+|move|p2a: Beedrill|Swords Dance|p2a: Beedrill
+|-boost|p2a: Beedrill|atk|2
+|move|p1a: Hitmonlee|High Jump Kick|p2a: Beedrill|[miss]
+|-miss|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|66\/273
+|
+|turn|10
+|choice|move 3|move 2
+|
+|move|p2a: Beedrill|Twineedle|p1a: Hitmonlee
+|-resisted|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|0 fnt
+|-hitcount|p1a: Hitmonlee|1
+|faint|p1a: Hitmonlee
+|choice|switch 2|
+|
+|switch|p1a: Voltorb|Voltorb, L96|272\/272
+|turn|11
+|choice|move 3|move 4
+|
+|move|p2a: Beedrill|Hyper Beam|p1a: Voltorb
+|-damage|p1a: Voltorb|0 fnt
+|faint|p1a: Voltorb
+|choice|switch 3|
+|
+|switch|p1a: Ninetales|Ninetales, L85|298\/298
+|turn|12
+|choice|move 1|move 4
+|
+|move|p2a: Beedrill|Hyper Beam|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|choice|switch 4|
+|
+|switch|p1a: Mr. Mime|Mr. Mime, L85|242\/242
+|turn|13
+|choice|move 2|move 2
+|
+|move|p2a: Beedrill|Twineedle|p1a: Mr. Mime
+|-crit|p1a: Mr. Mime
+|-supereffective|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|118\/242
+|-damage|p1a: Mr. Mime|0 fnt
+|-hitcount|p1a: Mr. Mime|2
+|faint|p1a: Mr. Mime
+|choice|switch 5|
+|
+|switch|p1a: Porygon|Porygon, L85|284\/284
+|turn|14
+|choice|move 2|move 4
+|
+|move|p2a: Beedrill|Hyper Beam|p1a: Porygon
+|-damage|p1a: Porygon|0 fnt
+|faint|p1a: Porygon
+|choice|switch 6|
+|
+|switch|p1a: Pinsir|Pinsir, L85|284\/284
+|turn|15
+|choice|move 2|move 4
+|
+|move|p2a: Beedrill|Hyper Beam|p1a: Pinsir
+|-damage|p1a: Pinsir|0 fnt
+|faint|p1a: Pinsir
+|
+|win|Lutra
+|player|p1
+|player|p2
+|raw|sacman838's rating: 1338 &rarr; <strong>1326<\/strong><br \/>(-12 for losing)
+|raw|Lutra's rating: 1495 &rarr; <strong>1506<\/strong><br \/>(+11 for winning)

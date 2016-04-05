@@ -1,0 +1,246 @@
+﻿|join|commandolam
+|join|fhghghf
+|player|p1|commandolam|169
+|player|p2|fhghghf|170
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Lickitung|Lickitung, L86|330\/330
+|switch|p2a: Slowbro|Slowbro, L82|324\/324
+|turn|1
+|
+|move|p1a: Lickitung|Swords Dance|p1a: Lickitung
+|-boost|p1a: Lickitung|atk|2
+|move|p2a: Slowbro|Surf|p1a: Lickitung
+|-damage|p1a: Lickitung|233\/330
+|
+|turn|2
+|
+|move|p1a: Lickitung|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|208\/324
+|move|p2a: Slowbro|Surf|p1a: Lickitung
+|-damage|p1a: Lickitung|130\/330
+|
+|turn|3
+|
+|switch|p2a: Golem|Golem, L82|299\/299
+|move|p1a: Lickitung|Body Slam|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|245\/299
+|
+|turn|4
+|
+|move|p2a: Golem|Earthquake|p1a: Lickitung
+|-damage|p1a: Lickitung|19\/330
+|move|p1a: Lickitung|Earthquake|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|72\/299
+|
+|turn|5
+|
+|move|p2a: Golem|Earthquake|p1a: Lickitung
+|-damage|p1a: Lickitung|0 fnt
+|faint|p1a: Lickitung
+|
+|switch|p1a: Farfetch'd|Farfetch'd, L95|292\/292
+|turn|6
+|
+|move|p1a: Farfetch'd|Swords Dance|p1a: Farfetch'd
+|-boost|p1a: Farfetch'd|atk|2
+|move|p2a: Golem|Explosion|p1a: Farfetch'd
+|-damage|p1a: Farfetch'd|15\/292
+|faint|p2a: Golem
+|
+|switch|p2a: Ninetales|Ninetales, L86|301\/301
+|turn|7
+|
+|move|p2a: Ninetales|Fire Blast|p1a: Farfetch'd
+|-damage|p1a: Farfetch'd|0 fnt
+|faint|p1a: Farfetch'd
+|
+|switch|p1a: Primeape|Primeape, L86|287\/287
+|turn|8
+|
+|move|p2a: Ninetales|Confuse Ray|p1a: Primeape
+|-start|p1a: Primeape|confusion
+|-activate|p1a: Primeape|confusion
+|move|p1a: Primeape|Rock Slide|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|171\/301
+|
+|turn|9
+|
+|move|p2a: Ninetales|Fire Spin|p1a: Primeape
+|-damage|p1a: Primeape|266\/287
+|-activate|p1a: Primeape|move: Fire Spin|[of] p2a: Ninetales
+|cant|p1a: Primeape|partiallytrapped
+|
+|turn|10
+|
+|switch|p2a: Nidorina|Nidorina, L88|303\/303
+|switch|p1a: Flareon|Flareon, L86|287\/287
+|
+|turn|11
+|
+|move|p1a: Flareon|Fire Blast|p2a: Nidorina
+|-damage|p2a: Nidorina|112\/303
+|move|p2a: Nidorina|Double-Edge|p1a: Flareon
+|-damage|p1a: Flareon|216\/287
+|-damage|p2a: Nidorina|95\/303|[from] recoil|[of] p1a: Flareon
+|
+|turn|12
+|
+|switch|p2a: Seaking|Seaking, L86|313\/313
+|move|p1a: Flareon|Hyper Beam|p2a: Seaking
+|-damage|p2a: Seaking|151\/313
+|
+|turn|13
+|
+|move|p2a: Seaking|Surf|p1a: Flareon
+|-supereffective|p1a: Flareon
+|-damage|p1a: Flareon|66\/287
+|cant|p1a: Flareon|recharge
+|
+|turn|14
+|
+|switch|p1a: Primeape|Primeape, L86|266\/287
+|move|p2a: Seaking|Surf|p1a: Primeape
+|-damage|p1a: Primeape|158\/287
+|
+|turn|15
+|
+|switch|p2a: Wigglytuff|Wigglytuff, L86|416\/416
+|move|p1a: Primeape|Mega Kick|p2a: Wigglytuff|[miss]
+|-miss|p1a: Primeape
+|
+|turn|16
+|
+|move|p1a: Primeape|Body Slam|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|321\/416
+|move|p2a: Wigglytuff|Blizzard|p1a: Primeape|[miss]
+|-miss|p2a: Wigglytuff
+|
+|turn|17
+|
+|move|p1a: Primeape|Body Slam|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|231\/416
+|move|p2a: Wigglytuff|Blizzard|p1a: Primeape
+|-damage|p1a: Primeape|83\/287
+|
+|turn|18
+|
+|move|p1a: Primeape|Body Slam|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|134\/416
+|move|p2a: Wigglytuff|Hyper Beam|p1a: Primeape
+|-damage|p1a: Primeape|0 fnt
+|faint|p1a: Primeape
+|
+|switch|p1a: Flareon|Flareon, L86|66\/287
+|turn|19
+|
+|move|p1a: Flareon|Hyper Beam|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|0 fnt
+|faint|p2a: Wigglytuff
+|
+|switch|p2a: Seaking|Seaking, L86|151\/313
+|turn|20
+|
+|switch|p1a: Metapod|Metapod, L99|300\/300
+|move|p2a: Seaking|Surf|p1a: Metapod
+|-damage|p1a: Metapod|158\/300
+|
+|turn|21
+|
+|move|p2a: Seaking|Blizzard|p1a: Metapod
+|-damage|p1a: Metapod|39\/300
+|move|p1a: Metapod|String Shot|p2a: Seaking
+|-unboost|p2a: Seaking|spe|1
+|
+|turn|22
+|
+|move|p1a: Metapod|String Shot|p2a: Seaking
+|-unboost|p2a: Seaking|spe|1
+|move|p2a: Seaking|Blizzard|p1a: Metapod
+|-damage|p1a: Metapod|0 fnt
+|faint|p1a: Metapod
+|
+|switch|p1a: Beedrill|Beedrill, L86|287\/287
+|turn|23
+|
+|move|p1a: Beedrill|Agility|p1a: Beedrill
+|-boost|p1a: Beedrill|spe|2
+|move|p2a: Seaking|Blizzard|p1a: Beedrill
+|-damage|p1a: Beedrill|181\/287
+|
+|turn|24
+|
+|move|p1a: Beedrill|Swords Dance|p1a: Beedrill
+|-boost|p1a: Beedrill|atk|2
+|move|p2a: Seaking|Blizzard|p1a: Beedrill
+|-damage|p1a: Beedrill|63\/287
+|
+|turn|25
+|
+|move|p1a: Beedrill|Hyper Beam|p2a: Seaking
+|-damage|p2a: Seaking|0 fnt
+|faint|p2a: Seaking
+|
+|switch|p2a: Slowbro|Slowbro, L82|208\/324
+|turn|26
+|
+|move|p1a: Beedrill|Twineedle|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|117\/324
+|-damage|p2a: Slowbro|26\/324
+|-hitcount|p2a: Slowbro|2
+|move|p2a: Slowbro|Surf|p1a: Beedrill
+|-damage|p1a: Beedrill|0 fnt
+|faint|p1a: Beedrill
+|
+|switch|p1a: Flareon|Flareon, L86|66\/287
+|turn|27
+|
+|switch|p2a: Ninetales|Ninetales, L86|171\/301
+|move|p1a: Flareon|Hyper Beam|p2a: Ninetales
+|-damage|p2a: Ninetales|31\/301
+|
+|turn|28
+|
+|move|p2a: Ninetales|Fire Blast|p1a: Flareon
+|-resisted|p1a: Flareon
+|-damage|p1a: Flareon|13\/287
+|cant|p1a: Flareon|recharge
+|
+|turn|29
+|
+|move|p1a: Flareon|Quick Attack|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|switch|p2a: Nidorina|Nidorina, L88|95\/303
+|turn|30
+|
+|move|p1a: Flareon|Hyper Beam|p2a: Nidorina
+|-damage|p2a: Nidorina|0 fnt
+|faint|p2a: Nidorina
+|
+|switch|p2a: Slowbro|Slowbro, L82|26\/324
+|turn|31
+|
+|move|p1a: Flareon|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|
+|win|commandolam
+|raw|Ladder updating...
+|raw|commandolam's rating: 1046 &rarr; <strong>1075<\/strong><br \/>(+29 for winning)
+|raw|fhghghf's rating: 1000 &rarr; <strong>1000<\/strong><br \/>(+0 for losing)
+|leave|fhghghf
+|player|p2

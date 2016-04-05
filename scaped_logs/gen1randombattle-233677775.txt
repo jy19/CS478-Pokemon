@@ -1,0 +1,255 @@
+﻿|join|Videla
+|join|vhtkli
+|player|p1|Videla|166
+|player|p2|vhtkli|2
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Raichu|Raichu, L85|276\/276
+|switch|p2a: Gloom|Gloom, L85|276\/276
+|turn|1
+|
+|switch|p1a: Machoke|Machoke, L85|310\/310
+|move|p2a: Gloom|Sleep Powder|p1a: Machoke
+|-status|p1a: Machoke|slp
+|
+|turn|2
+|
+|cant|p1a: Machoke|slp
+|move|p2a: Gloom|Swords Dance|p2a: Gloom
+|-boost|p2a: Gloom|atk|2
+|
+|turn|3
+|
+|cant|p1a: Machoke|slp
+|move|p2a: Gloom|Double-Edge|p1a: Machoke
+|-damage|p1a: Machoke|184\/310 slp
+|-damage|p2a: Gloom|245\/276|[from] recoil|[of] p1a: Machoke
+|
+|turn|4
+|
+|cant|p1a: Machoke|slp
+|move|p2a: Gloom|Double-Edge|p1a: Machoke
+|-damage|p1a: Machoke|54\/310 slp
+|-damage|p2a: Gloom|213\/276|[from] recoil|[of] p1a: Machoke
+|
+|turn|5
+|
+|cant|p1a: Machoke|slp
+|-curestatus|p1a: Machoke|slp
+|move|p2a: Gloom|Mega Drain|p1a: Machoke
+|-damage|p1a: Machoke|0 fnt
+|-heal|p2a: Gloom|240\/276|[from] drain|[of] p1a: Machoke
+|faint|p1a: Machoke
+|
+|switch|p1a: Haunter|Haunter, L85|250\/250
+|turn|6
+|
+|move|p1a: Haunter|Hypnosis|p2a: Gloom
+|-status|p2a: Gloom|slp
+|cant|p2a: Gloom|slp
+|-curestatus|p2a: Gloom|slp
+|
+|turn|7
+|
+|move|p1a: Haunter|Hypnosis|p2a: Gloom|[miss]
+|-miss|p1a: Haunter
+|move|p2a: Gloom|Sleep Powder|p1a: Haunter
+|-status|p1a: Haunter|slp
+|
+|turn|8
+|
+|switch|p2a: Cloyster|Cloyster, L83|253\/253
+|cant|p1a: Haunter|slp
+|
+|turn|9
+|
+|cant|p1a: Haunter|slp
+|move|p2a: Cloyster|Blizzard|p1a: Haunter
+|-damage|p1a: Haunter|150\/250 slp
+|
+|turn|10
+|
+|cant|p1a: Haunter|slp
+|move|p2a: Cloyster|Surf|p1a: Haunter
+|-damage|p1a: Haunter|78\/250 slp
+|
+|turn|11
+|
+|switch|p1a: Raichu|Raichu, L85|276\/276
+|move|p2a: Cloyster|Blizzard|p1a: Raichu
+|-damage|p1a: Raichu|173\/276
+|
+|turn|12
+|
+|switch|p2a: Gloom|Gloom, L85|240\/276
+|move|p1a: Raichu|Thunder|p2a: Gloom
+|-resisted|p2a: Gloom
+|-damage|p2a: Gloom|175\/276
+|
+|turn|13
+|
+|switch|p1a: Haunter|Haunter, L85|78\/250 slp
+|move|p2a: Gloom|Double-Edge|p1a: Haunter
+|-immune|p1a: Haunter|[msg]
+|
+|turn|14
+|
+|cant|p1a: Haunter|slp
+|move|p2a: Gloom|Sleep Powder|p1a: Haunter
+|-fail|p1a: Haunter|slp
+|
+|turn|15
+|
+|cant|p1a: Haunter|slp
+|-curestatus|p1a: Haunter|slp
+|move|p2a: Gloom|Sleep Powder|p1a: Haunter
+|-status|p1a: Haunter|slp
+|
+|turn|16
+|
+|switch|p2a: Cloyster|Cloyster, L83|253\/253
+|cant|p1a: Haunter|slp
+|
+|turn|17
+|
+|switch|p1a: Omastar|Omastar, L85|293\/293
+|move|p2a: Cloyster|Blizzard|p1a: Omastar
+|-resisted|p1a: Omastar
+|-damage|p1a: Omastar|246\/293
+|
+|turn|18
+|
+|move|p2a: Cloyster|Surf|p1a: Omastar
+|-damage|p1a: Omastar|172\/293
+|move|p1a: Omastar|Seismic Toss|p2a: Cloyster
+|-damage|p2a: Cloyster|168\/253
+|
+|turn|19
+|
+|switch|p2a: Muk|Muk, L85|352\/352
+|move|p1a: Omastar|Seismic Toss|p2a: Muk
+|-damage|p2a: Muk|267\/352
+|
+|turn|20
+|
+|move|p1a: Omastar|Blizzard|p2a: Muk
+|-damage|p2a: Muk|159\/352
+|-status|p2a: Muk|frz
+|cant|p2a: Muk|frz
+|
+|turn|21
+|
+|move|p1a: Omastar|Surf|p2a: Muk
+|-crit|p2a: Muk
+|-damage|p2a: Muk|0 fnt
+|faint|p2a: Muk
+|
+|switch|p2a: Seadra|Seadra, L85|267\/267
+|turn|22
+|
+|move|p2a: Seadra|Hydro Pump|p1a: Omastar
+|-damage|p1a: Omastar|57\/293
+|move|p1a: Omastar|Blizzard|p2a: Seadra
+|-resisted|p2a: Seadra
+|-damage|p2a: Seadra|225\/267
+|
+|turn|23
+|
+|move|p2a: Seadra|Surf|p1a: Omastar
+|-crit|p1a: Omastar
+|-damage|p1a: Omastar|0 fnt
+|faint|p1a: Omastar
+|
+|switch|p1a: Raichu|Raichu, L85|173\/276
+|turn|24
+|
+|switch|p2a: Exeggutor|Exeggutor, L79|312\/312
+|move|p1a: Raichu|Thunder|p2a: Exeggutor|[miss]
+|-miss|p1a: Raichu
+|
+|turn|25
+|
+|move|p1a: Raichu|Body Slam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|250\/312
+|move|p2a: Exeggutor|Stun Spore|p1a: Raichu|[miss]
+|-miss|p2a: Exeggutor
+|
+|turn|26
+|
+|move|p1a: Raichu|Body Slam|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-damage|p2a: Exeggutor|135\/312
+|move|p2a: Exeggutor|Stun Spore|p1a: Raichu
+|-status|p1a: Raichu|par
+|
+|turn|27
+|
+|move|p2a: Exeggutor|Explosion|p1a: Raichu
+|-damage|p1a: Raichu|0 fnt
+|faint|p1a: Raichu
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Seadra|Seadra, L85|225\/267
+|switch|p1a: Arbok|Arbok, L85|276\/276
+|turn|28
+|
+|move|p2a: Seadra|Hydro Pump|p1a: Arbok
+|-crit|p1a: Arbok
+|-damage|p1a: Arbok|0 fnt
+|faint|p1a: Arbok
+|
+|switch|p1a: Dodrio|Dodrio, L85|276\/276
+|turn|29
+|
+|move|p1a: Dodrio|Hyper Beam|p2a: Seadra|[miss]
+|-miss|p1a: Dodrio
+|move|p2a: Seadra|Blizzard|p1a: Dodrio|[miss]
+|-miss|p2a: Seadra
+|
+|turn|30
+|
+|move|p1a: Dodrio|Hyper Beam|p2a: Seadra
+|-crit|p2a: Seadra
+|-damage|p2a: Seadra|0 fnt
+|faint|p2a: Seadra
+|
+|switch|p2a: Cloyster|Cloyster, L83|168\/253
+|turn|31
+|
+|move|p1a: Dodrio|Hyper Beam|p2a: Cloyster
+|-damage|p2a: Cloyster|54\/253
+|move|p2a: Cloyster|Blizzard|p1a: Dodrio|[miss]
+|-miss|p2a: Cloyster
+|
+|turn|32
+|-mustrecharge|p1a: Dodrio
+|-mustrecharge|p1a: Dodrio
+|
+|cant|p1a: Dodrio|recharge
+|move|p2a: Cloyster|Blizzard|p1a: Dodrio
+|-supereffective|p1a: Dodrio
+|-damage|p1a: Dodrio|0 fnt
+|faint|p1a: Dodrio
+|
+|switch|p1a: Haunter|Haunter, L85|78\/250 slp
+|turn|33
+|
+|cant|p1a: Haunter|slp
+|move|p2a: Cloyster|Blizzard|p1a: Haunter
+|-crit|p1a: Haunter
+|-damage|p1a: Haunter|0 fnt
+|faint|p1a: Haunter
+|
+|win|vhtkli
+|raw|Ladder updating...
+|raw|Videla's rating: 1294 &rarr; <strong>1259<\/strong><br \/>(-35 for losing)
+|raw|vhtkli's rating: 1146 &rarr; <strong>1181<\/strong><br \/>(+35 for winning)
+|leave|Videla
+|player|p1

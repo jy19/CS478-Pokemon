@@ -1,0 +1,314 @@
+﻿|join|ankitkhetrapal
+|join|PsyMuk
+|player|p1|ankitkhetrapal|20
+|player|p2|PsyMuk|154
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Grimer|Grimer, L96|348\/348
+|switch|p2a: Haunter|Haunter, L85|250\/250
+|turn|1
+|
+|move|p2a: Haunter|Psychic|p1a: Grimer
+|-supereffective|p1a: Grimer
+|-damage|p1a: Grimer|145\/348
+|move|p1a: Grimer|Sludge|p2a: Haunter
+|-resisted|p2a: Haunter
+|-damage|p2a: Haunter|225\/250
+|
+|turn|2
+|
+|switch|p1a: Dragonair|Dragonair, L85|277\/277
+|move|p2a: Haunter|Psychic|p1a: Dragonair
+|-damage|p1a: Dragonair|186\/277
+|-unboost|p1a: Dragonair|spd|1
+|-unboost|p1a: Dragonair|spa|1
+|
+|turn|3
+|
+|move|p2a: Haunter|Hypnosis|p1a: Dragonair|[miss]
+|-miss|p2a: Haunter
+|move|p1a: Dragonair|Thunder Wave|p2a: Haunter
+|-status|p2a: Haunter|par
+|
+|turn|4
+|
+|move|p1a: Dragonair|Surf|p2a: Haunter
+|-crit|p2a: Haunter
+|-damage|p2a: Haunter|140\/250 par
+|move|p2a: Haunter|Hypnosis|p1a: Dragonair|[miss]
+|-miss|p2a: Haunter
+|
+|turn|5
+|
+|switch|p2a: Kingler|Kingler, L85|267\/267
+|move|p1a: Dragonair|Surf|p2a: Kingler
+|-resisted|p2a: Kingler
+|-damage|p2a: Kingler|242\/267
+|
+|turn|6
+|
+|switch|p1a: Starmie|Starmie, L79|257\/257
+|move|p2a: Kingler|Blizzard|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|230\/257
+|
+|turn|7
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Kingler
+|-status|p2a: Kingler|par
+|cant|p2a: Kingler|par
+|
+|turn|8
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Kingler
+|-supereffective|p2a: Kingler
+|-damage|p2a: Kingler|69\/267 par
+|move|p2a: Kingler|Swords Dance|p2a: Kingler
+|-boost|p2a: Kingler|atk|2
+|
+|turn|9
+|
+|switch|p2a: Dugtrio|Dugtrio, L85|233\/233
+|move|p1a: Starmie|Thunderbolt|p2a: Dugtrio
+|-immune|p2a: Dugtrio|[msg]
+|
+|turn|10
+|
+|switch|p2a: Lickitung|Lickitung, L90|345\/345
+|move|p1a: Starmie|Surf|p2a: Lickitung
+|-damage|p2a: Lickitung|236\/345
+|
+|turn|11
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Lickitung
+|-status|p2a: Lickitung|par
+|move|p2a: Lickitung|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|149\/257
+|
+|turn|12
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|257\/257
+|move|p2a: Lickitung|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|183\/257
+|
+|turn|13
+|
+|move|p1a: Starmie|Surf|p2a: Lickitung
+|-damage|p2a: Lickitung|129\/345 par
+|cant|p2a: Lickitung|par
+|
+|turn|14
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Lickitung
+|-damage|p2a: Lickitung|59\/345 par
+|move|p2a: Lickitung|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|100\/257
+|
+|turn|15
+|
+|move|p1a: Starmie|Surf|p2a: Lickitung
+|-damage|p2a: Lickitung|0 fnt
+|faint|p2a: Lickitung
+|
+|switch|p2a: Dugtrio|Dugtrio, L85|233\/233
+|turn|16
+|
+|switch|p1a: Primeape|Primeape, L90|300\/300
+|move|p2a: Dugtrio|Slash|p1a: Primeape
+|-crit|p1a: Primeape
+|-damage|p1a: Primeape|193\/300
+|
+|turn|17
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Primeape
+|-crit|p1a: Primeape
+|-damage|p1a: Primeape|0 fnt
+|faint|p1a: Primeape
+|
+|switch|p1a: Dragonair|Dragonair, L85|186\/277
+|turn|18
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Dragonair
+|-damage|p1a: Dragonair|66\/277
+|move|p1a: Dragonair|Surf|p2a: Dugtrio
+|-crit|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-damage|p2a: Dugtrio|3\/233
+|
+|turn|19
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Dragonair
+|-damage|p1a: Dragonair|0 fnt
+|faint|p1a: Dragonair
+|
+|switch|p1a: Vulpix|Vulpix, L96|268\/268
+|turn|20
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Vulpix
+|-supereffective|p1a: Vulpix
+|-damage|p1a: Vulpix|17\/268
+|move|p1a: Vulpix|Body Slam|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|
+|switch|p2a: Slowbro|Slowbro, L79|312\/312
+|turn|21
+|
+|move|p1a: Vulpix|Confuse Ray|p2a: Slowbro
+|-start|p2a: Slowbro|confusion
+|-activate|p2a: Slowbro|confusion
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|22
+|
+|move|p1a: Vulpix|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|270\/312
+|-activate|p2a: Slowbro|confusion
+|move|p2a: Slowbro|Surf|p1a: Vulpix
+|-supereffective|p1a: Vulpix
+|-damage|p1a: Vulpix|0 fnt
+|faint|p1a: Vulpix
+|
+|switch|p1a: Grimer|Grimer, L96|145\/348
+|turn|23
+|
+|move|p1a: Grimer|Explosion|p2a: Slowbro
+|-damage|p2a: Slowbro|38\/312
+|faint|p1a: Grimer
+|
+|switch|p1a: Starmie|Starmie, L79|100\/257
+|turn|24
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|
+|switch|p2a: Wigglytuff|Wigglytuff, L90|435\/435
+|turn|25
+|
+|switch|p1a: Golem|Golem, L79|288\/288
+|move|p2a: Wigglytuff|Sing|p1a: Golem|[miss]
+|-miss|p2a: Wigglytuff
+|
+|turn|26
+|
+|move|p2a: Wigglytuff|Sing|p1a: Golem
+|-status|p1a: Golem|slp
+|cant|p1a: Golem|slp
+|
+|turn|27
+|
+|switch|p2a: Haunter|Haunter, L85|140\/250 par
+|cant|p1a: Golem|slp
+|
+|turn|28
+|
+|switch|p1a: Starmie|Starmie, L79|100\/257
+|cant|p2a: Haunter|par
+|
+|turn|29
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|228\/257
+|move|p2a: Haunter|Mega Drain|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|160\/257
+|-heal|p2a: Haunter|174\/250 par|[from] drain|[of] p1a: Starmie
+|
+|turn|30
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Haunter
+|-crit|p2a: Haunter
+|-damage|p2a: Haunter|70\/250 par
+|move|p2a: Haunter|Mega Drain|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|93\/257
+|-heal|p2a: Haunter|103\/250 par|[from] drain|[of] p1a: Starmie
+|
+|turn|31
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|221\/257
+|move|p2a: Haunter|Mega Drain|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|159\/257
+|-heal|p2a: Haunter|134\/250 par|[from] drain|[of] p1a: Starmie
+|
+|turn|32
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Haunter
+|-crit|p2a: Haunter
+|-damage|p2a: Haunter|38\/250 par
+|move|p2a: Haunter|Mega Drain|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|96\/257
+|-heal|p2a: Haunter|69\/250 par|[from] drain|[of] p1a: Starmie
+|
+|turn|33
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Haunter
+|-damage|p2a: Haunter|17\/250 par
+|cant|p2a: Haunter|par
+|
+|turn|34
+|join|gutu170599
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Haunter
+|-damage|p2a: Haunter|0 fnt
+|faint|p2a: Haunter
+|
+|switch|p2a: Wigglytuff|Wigglytuff, L90|435\/435
+|turn|35
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Wigglytuff
+|-status|p2a: Wigglytuff|par
+|move|p2a: Wigglytuff|Double-Edge|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|-damage|p2a: Wigglytuff|411\/435 par|[from] recoil|[of] p1a: Starmie
+|faint|p1a: Starmie
+|
+|switch|p1a: Golem|Golem, L79|288\/288 slp
+|turn|36
+|
+|switch|p2a: Kingler|Kingler, L85|69\/267 par
+|-curestatus|p1a: Golem|slp
+|
+|turn|37
+|
+|move|p1a: Golem|Earthquake|p2a: Kingler
+|-damage|p2a: Kingler|0 fnt
+|faint|p2a: Kingler
+|
+|switch|p2a: Wigglytuff|Wigglytuff, L90|411\/435 par
+|turn|38
+|
+|move|p1a: Golem|Earthquake|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|281\/435 par
+|move|p2a: Wigglytuff|Sing|p1a: Golem|[miss]
+|-miss|p2a: Wigglytuff
+|
+|turn|39
+|
+|move|p1a: Golem|Earthquake|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|134\/435 par
+|cant|p2a: Wigglytuff|par
+|
+|turn|40
+|
+|move|p1a: Golem|Earthquake|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|0 fnt
+|faint|p2a: Wigglytuff
+|
+|win|ankitkhetrapal
+|c|★ankitkhetrapal|gg

@@ -1,0 +1,187 @@
+﻿|j|gambit509
+|j|Cyruelo
+|player|p1|gambit509|102
+|player|p2|Cyruelo|15
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|seed|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gengar|Gengar|100\/100
+|switch|p2a: Slowbro|Slowbro|100\/100
+|turn|1
+|choice||
+|
+|move|p1a: Gengar|Thunderbolt|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|choice||
+|
+|switch|p2a: Tauros|Tauros|100\/100
+|turn|2
+|choice||
+|
+|move|p2a: Tauros|Ice Beam|p1a: Gengar
+|-damage|p1a: Gengar|85\/100
+|move|p1a: Gengar|Confuse Ray|p2a: Tauros
+|-start|p2a: Tauros|confusion
+|
+|turn|3
+|choice||
+|
+|move|p1a: Gengar|Thunderbolt|p2a: Tauros
+|-damage|p2a: Tauros|69\/100
+|-activate|p2a: Tauros|confusion
+|-damage|p2a: Tauros|59\/100|[from] confusion
+|
+|turn|4
+|choice||
+|
+|move|p1a: Gengar|Thunderbolt|p2a: Tauros
+|-damage|p2a: Tauros|27\/100
+|-activate|p2a: Tauros|confusion
+|move|p2a: Tauros|Thunderbolt|p1a: Gengar
+|-damage|p1a: Gengar|70\/100
+|
+|turn|5
+|choice||
+|
+|move|p1a: Gengar|Thunderbolt|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|choice||
+|
+|switch|p2a: Snorlax|Snorlax|100\/100
+|turn|6
+|choice||
+|
+|move|p1a: Gengar|Confuse Ray|p2a: Snorlax
+|-start|p2a: Snorlax|confusion
+|-activate|p2a: Snorlax|confusion
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|
+|turn|7
+|choice||
+|
+|move|p1a: Gengar|Night Shade|p2a: Snorlax
+|-damage|p2a: Snorlax|81\/100
+|-activate|p2a: Snorlax|confusion
+|-damage|p2a: Snorlax|72\/100|[from] confusion
+|
+|turn|8
+|choice||
+|
+|move|p1a: Gengar|Night Shade|p2a: Snorlax
+|-damage|p2a: Snorlax|53\/100
+|-end|p2a: Snorlax|confusion
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|
+|turn|9
+|choice||
+|
+|move|p1a: Gengar|Night Shade|p2a: Snorlax
+|-damage|p2a: Snorlax|34\/100
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp
+|-heal|p2a: Snorlax|100\/100 slp|[silent]
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|
+|turn|10
+|choice||
+|
+|switch|p1a: Golem|Golem|100\/100
+|cant|p2a: Snorlax|slp
+|
+|turn|11
+|choice||
+|
+|move|p1a: Golem|Explosion|p2a: Snorlax
+|-damage|p2a: Snorlax|31\/100 slp
+|faint|p1a: Golem
+|choice||
+|
+|switch|p1a: Tauros|Tauros|100\/100
+|turn|12
+|choice||
+|
+|move|p1a: Tauros|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|9\/100 slp
+|-curestatus|p2a: Snorlax|slp
+|
+|turn|13
+|choice||
+|
+|move|p1a: Tauros|Body Slam|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|choice||
+|
+|switch|p2a: Hypno|Hypno|100\/100
+|turn|14
+|choice||
+|
+|move|p1a: Tauros|Body Slam|p2a: Hypno
+|-crit|p2a: Hypno
+|-damage|p2a: Hypno|39\/100
+|move|p2a: Hypno|Hypnosis|p1a: Tauros|[miss]
+|-miss|p2a: Hypno
+|
+|turn|15
+|choice||
+|
+|move|p1a: Tauros|Body Slam|p2a: Hypno
+|-damage|p2a: Hypno|7\/100
+|move|p2a: Hypno|Hypnosis|p1a: Tauros|[miss]
+|-miss|p2a: Hypno
+|
+|turn|16
+|choice||
+|
+|move|p1a: Tauros|Body Slam|p2a: Hypno
+|-damage|p2a: Hypno|0 fnt
+|faint|p2a: Hypno
+|choice||
+|
+|switch|p2a: Exeggutor|Exeggutor|100\/100
+|turn|17
+|choice||
+|
+|move|p1a: Tauros|Ice Beam|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|75\/100
+|move|p2a: Exeggutor|Sleep Powder|p1a: Tauros|[miss]
+|-miss|p2a: Exeggutor
+|
+|turn|18
+|choice||
+|
+|move|p1a: Tauros|Ice Beam|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|47\/100
+|-status|p2a: Exeggutor|frz
+|cant|p2a: Exeggutor|frz
+|
+|turn|19
+|-message|Cyruelo forfeited.
+|
+|win|gambit509
+|player|p1
+|player|p2
+|l|Cyruelo
+|raw|gambit509's rating: 1000 &rarr; <strong>1054<\/strong><br \/>(+54 for winning)
+|raw|Cyruelo's rating: 1123 &rarr; <strong>1090<\/strong><br \/>(-33 for losing)

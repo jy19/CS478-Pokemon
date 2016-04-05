@@ -1,0 +1,345 @@
+﻿|join|L'homo
+|join|Giju
+|player|p1|L'homo|35
+|player|p2|Giju|198
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Chickenoid|Zapdos|383\/383
+|switch|p2a: Alak|Alakazam|313\/313
+|turn|1
+|
+|switch|p2a: Gol|Golem|363\/363
+|move|p1a: Chickenoid|Thunder Wave|p2a: Gol
+|-immune|p2a: Gol|[msg]
+|
+|turn|2
+|
+|switch|p1a: Stabber|Cloyster|303\/303
+|move|p2a: Gol|Body Slam|p1a: Stabber
+|-damage|p1a: Stabber|257\/303
+|
+|turn|3
+|
+|switch|p2a: Alak|Alakazam|313\/313
+|move|p1a: Stabber|Clamp|p2a: Alak
+|-damage|p2a: Alak|280\/313
+|-activate|p2a: Alak|move: Clamp|[of] p1a: Stabber
+|
+|turn|4
+|
+|cant|p2a: Alak|partiallytrapped
+|move|p1a: Stabber|Clamp|p2a: Alak
+|-damage|p2a: Alak|247\/313
+|
+|turn|5
+|
+|cant|p2a: Alak|partiallytrapped
+|move|p1a: Stabber|Clamp|p2a: Alak
+|-damage|p2a: Alak|214\/313
+|
+|-end|p2a: Alak|Clamp|[partiallytrapped]
+|turn|6
+|
+|switch|p1a: Scrambler|Exeggutor|393\/393
+|move|p2a: Alak|Psychic|p1a: Scrambler
+|-resisted|p1a: Scrambler
+|-damage|p1a: Scrambler|341\/393
+|-unboost|p1a: Scrambler|spd|1
+|-unboost|p1a: Scrambler|spa|1
+|
+|turn|7
+|
+|move|p2a: Alak|Thunder Wave|p1a: Scrambler
+|-status|p1a: Scrambler|par
+|move|p1a: Scrambler|Sleep Powder|p2a: Alak
+|-status|p2a: Alak|slp
+|
+|turn|8
+|
+|switch|p2a: Chan|Chansey|703\/703
+|switch|p1a: Foxxyy|Alakazam|313\/313
+|
+|turn|9
+|
+|switch|p1a: L'homosexuelle|Chansey|703\/703
+|move|p2a: Chan|Thunder Wave|p1a: L'homosexuelle
+|-status|p1a: L'homosexuelle|par
+|
+|turn|10
+|
+|switch|p2a: Snor|Snorlax|523\/523
+|cant|p1a: L'homosexuelle|par
+|
+|turn|11
+|
+|move|p2a: Snor|Body Slam|p1a: L'homosexuelle
+|-damage|p1a: L'homosexuelle|390\/703 par
+|cant|p1a: L'homosexuelle|par
+|
+|turn|12
+|
+|switch|p1a: Scrambler|Exeggutor|341\/393 par
+|move|p2a: Snor|Body Slam|p1a: Scrambler
+|-damage|p1a: Scrambler|215\/393 par
+|
+|turn|13
+|
+|move|p2a: Snor|Hyper Beam|p1a: Scrambler
+|-damage|p1a: Scrambler|17\/393 par
+|move|p1a: Scrambler|Toxic|p2a: Snor
+|-status|p2a: Snor|tox
+|
+|turn|14
+|-mustrecharge|p2a: Snor
+|-mustrecharge|p2a: Snor
+|
+|cant|p2a: Snor|recharge
+|-damage|p2a: Snor|491\/523 tox|[from] tox|[of] p1a: Scrambler
+|move|p1a: Scrambler|Explosion|p2a: Snor
+|-crit|p2a: Snor
+|-damage|p2a: Snor|0 fnt
+|faint|p2a: Snor
+|faint|p1a: Scrambler
+|
+|switch|p2a: Alak|Alakazam|214\/313 slp
+|switch|p1a: Slaughterhouse|Tauros|353\/353
+|turn|15
+|
+|switch|p2a: Exe|Exeggutor|393\/393
+|move|p1a: Slaughterhouse|Body Slam|p2a: Exe
+|-damage|p2a: Exe|280\/393
+|
+|turn|16
+|
+|move|p1a: Slaughterhouse|Ice Beam|p2a: Exe
+|-supereffective|p2a: Exe
+|-damage|p2a: Exe|183\/393
+|move|p2a: Exe|Sleep Powder|p1a: Slaughterhouse
+|-status|p1a: Slaughterhouse|slp
+|
+|turn|17
+|
+|switch|p1a: Chickenoid|Zapdos|383\/383
+|move|p2a: Exe|Psychic|p1a: Chickenoid
+|-damage|p1a: Chickenoid|279\/383
+|
+|turn|18
+|
+|switch|p1a: Stabber|Cloyster|257\/303
+|switch|p2a: Gol|Golem|363\/363
+|
+|turn|19
+|join|charrol
+|
+|switch|p2a: Chan|Chansey|703\/703
+|move|p1a: Stabber|Ice Beam|p2a: Chan
+|-damage|p2a: Chan|606\/703
+|
+|turn|20
+|
+|switch|p2a: Tau|Tauros|353\/353
+|move|p1a: Stabber|Clamp|p2a: Tau
+|-damage|p2a: Tau|305\/353
+|-activate|p2a: Tau|move: Clamp|[of] p1a: Stabber
+|
+|turn|21
+|c| charrol|giju ci sono
+|
+|switch|p2a: Alak|Alakazam|214\/313 slp
+|move|p1a: Stabber|Clamp|p2a: Alak
+|-damage|p2a: Alak|182\/313 slp
+|-activate|p2a: Alak|move: Clamp|[of] p1a: Stabber
+|
+|turn|22
+|c|★Giju|ok!
+|c| charrol|quando vuoi giochiamo
+|
+|cant|p2a: Alak|slp
+|move|p1a: Stabber|Clamp|p2a: Alak
+|-damage|p2a: Alak|150\/313 slp
+|
+|turn|23
+|c|★L'homo|les italiens..
+|
+|cant|p2a: Alak|slp
+|move|p1a: Stabber|Clamp|p2a: Alak
+|-damage|p2a: Alak|118\/313 slp
+|
+|-end|p2a: Alak|Clamp|[partiallytrapped]
+|turn|24
+|c|★Giju|those gay french people...
+|
+|-curestatus|p2a: Alak|slp
+|move|p1a: Stabber|Ice Beam|p2a: Alak
+|-damage|p2a: Alak|34\/313
+|
+|turn|25
+|c|★L'homo|i'm not french asshole
+|c|★Giju|lol
+|
+|move|p2a: Alak|Recover|p2a: Alak
+|-heal|p2a: Alak|190\/313
+|move|p1a: Stabber|Clamp|p2a: Alak
+|-damage|p2a: Alak|158\/313
+|-activate|p2a: Alak|move: Clamp|[of] p1a: Stabber
+|
+|turn|26
+|
+|cant|p2a: Alak|partiallytrapped
+|move|p1a: Stabber|Clamp|p2a: Alak
+|-damage|p2a: Alak|126\/313
+|
+|turn|27
+|
+|cant|p2a: Alak|partiallytrapped
+|move|p1a: Stabber|Clamp|p2a: Alak
+|-damage|p2a: Alak|94\/313
+|
+|-end|p2a: Alak|Clamp|[partiallytrapped]
+|turn|28
+|
+|switch|p1a: Foxxyy|Alakazam|313\/313
+|move|p2a: Alak|Recover|p2a: Alak
+|-heal|p2a: Alak|250\/313
+|
+|turn|29
+|c|★Giju|lo metto in ignore :P
+|
+|switch|p2a: Chan|Chansey|606\/703
+|move|p1a: Foxxyy|Thunder Wave|p2a: Chan
+|-status|p2a: Chan|par
+|
+|turn|30
+|
+|move|p1a: Foxxyy|Psychic|p2a: Chan
+|-crit|p2a: Chan
+|-damage|p2a: Chan|353\/703 par
+|move|p2a: Chan|Thunderbolt|p1a: Foxxyy
+|-damage|p1a: Foxxyy|254\/313
+|
+|turn|31
+|
+|move|p1a: Foxxyy|Psychic|p2a: Chan
+|-damage|p2a: Chan|223\/703 par
+|move|p2a: Chan|Thunder Wave|p1a: Foxxyy
+|-status|p1a: Foxxyy|par
+|
+|turn|32
+|
+|move|p1a: Foxxyy|Psychic|p2a: Chan
+|-damage|p2a: Chan|87\/703 par
+|-unboost|p2a: Chan|spd|1
+|-unboost|p2a: Chan|spa|1
+|cant|p2a: Chan|par
+|
+|turn|33
+|
+|switch|p2a: Exe|Exeggutor|183\/393
+|cant|p1a: Foxxyy|par
+|
+|turn|34
+|
+|switch|p1a: Chickenoid|Zapdos|279\/383
+|move|p2a: Exe|Psychic|p1a: Chickenoid
+|-damage|p1a: Chickenoid|166\/383
+|
+|turn|35
+|
+|switch|p1a: Stabber|Cloyster|257\/303
+|move|p2a: Exe|Psychic|p1a: Stabber
+|-damage|p1a: Stabber|117\/303
+|
+|turn|36
+|
+|move|p1a: Stabber|Ice Beam|p2a: Exe
+|-supereffective|p2a: Exe
+|-damage|p2a: Exe|12\/393
+|move|p2a: Exe|Psychic|p1a: Stabber
+|-damage|p1a: Stabber|0 fnt
+|faint|p1a: Stabber
+|
+|switch|p1a: Chickenoid|Zapdos|166\/383
+|turn|37
+|
+|switch|p2a: Gol|Golem|363\/363
+|move|p1a: Chickenoid|Drill Peck|p2a: Gol
+|-resisted|p2a: Gol
+|-damage|p2a: Gol|328\/363
+|
+|turn|38
+|
+|switch|p1a: L'homosexuelle|Chansey|390\/703 par
+|move|p2a: Gol|Earthquake|p1a: L'homosexuelle
+|-damage|p1a: L'homosexuelle|41\/703 par
+|
+|turn|39
+|
+|switch|p1a: Chickenoid|Zapdos|166\/383
+|move|p2a: Gol|Earthquake|p1a: Chickenoid
+|-immune|p1a: Chickenoid|[msg]
+|
+|turn|40
+|
+|move|p1a: Chickenoid|Drill Peck|p2a: Gol
+|-resisted|p2a: Gol
+|-damage|p2a: Gol|290\/363
+|move|p2a: Gol|Earthquake|p1a: Chickenoid
+|-immune|p1a: Chickenoid|[msg]
+|
+|turn|41
+|
+|move|p1a: Chickenoid|Drill Peck|p2a: Gol
+|-crit|p2a: Gol
+|-resisted|p2a: Gol
+|-damage|p2a: Gol|217\/363
+|move|p2a: Gol|Rock Slide|p1a: Chickenoid
+|-supereffective|p1a: Chickenoid
+|-damage|p1a: Chickenoid|0 fnt
+|faint|p1a: Chickenoid
+|
+|switch|p1a: Slaughterhouse|Tauros|353\/353 slp
+|turn|42
+|
+|cant|p1a: Slaughterhouse|slp
+|move|p2a: Gol|Earthquake|p1a: Slaughterhouse
+|-damage|p1a: Slaughterhouse|229\/353 slp
+|
+|turn|43
+|
+|cant|p1a: Slaughterhouse|slp
+|move|p2a: Gol|Earthquake|p1a: Slaughterhouse
+|-damage|p1a: Slaughterhouse|102\/353 slp
+|
+|turn|44
+|
+|switch|p1a: Foxxyy|Alakazam|254\/313 par
+|move|p2a: Gol|Earthquake|p1a: Foxxyy
+|-damage|p1a: Foxxyy|67\/313 par
+|
+|turn|45
+|
+|move|p2a: Gol|Earthquake|p1a: Foxxyy
+|-damage|p1a: Foxxyy|0 fnt
+|faint|p1a: Foxxyy
+|-message|L'homo forfeited.
+|
+|win|Giju
+|leave|L'homo
+|player|p1
+|c|★Giju|lol
+|raw|L&apos;homo's rating: 1040 &rarr; <strong>1035<\/strong><br \/>(-5 for losing)
+|raw|Giju's rating: 1314 &rarr; <strong>1321<\/strong><br \/>(+7 for winning)
+|leave|Giju
+|player|p2
+|leave|charrol
+|join|Giju

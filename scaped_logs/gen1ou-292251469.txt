@@ -1,0 +1,421 @@
+﻿|join|Peasounay
+|join|Tendoh
+|player|p1|Peasounay|101
+|player|p2|Tendoh|169
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|seed|19367,13688,56928,56309
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Cuddle Me Plz|Jynx|333\/333
+|switch|p2a: Luma|Starmie|323\/323
+|turn|1
+|choice|move 1|move 2
+|
+|move|p2a: Luma|Thunderbolt|p1a: Cuddle Me Plz
+|-damage|p1a: Cuddle Me Plz|261\/333
+|move|p1a: Cuddle Me Plz|Lovely Kiss|p2a: Luma|[miss]
+|-miss|p1a: Cuddle Me Plz
+|
+|turn|2
+|c|★Peasounay|salut
+|choice|move 1|move 2
+|
+|move|p2a: Luma|Thunderbolt|p1a: Cuddle Me Plz
+|-damage|p1a: Cuddle Me Plz|189\/333
+|move|p1a: Cuddle Me Plz|Lovely Kiss|p2a: Luma|[miss]
+|-miss|p1a: Cuddle Me Plz
+|
+|turn|3
+|c|★Tendoh|Kamoulox
+|choice|move 1|move 2
+|
+|move|p2a: Luma|Thunderbolt|p1a: Cuddle Me Plz
+|-damage|p1a: Cuddle Me Plz|115\/333
+|move|p1a: Cuddle Me Plz|Lovely Kiss|p2a: Luma
+|-status|p2a: Luma|slp
+|
+|turn|4
+|choice|switch 3|switch 2
+|
+|switch|p2a: Whorey|Chansey|703\/703
+|switch|p1a: Yo Momma|Snorlax|523\/523
+|
+|turn|5
+|choice|move 1|move 1
+|
+|move|p2a: Whorey|Ice Beam|p1a: Yo Momma
+|-damage|p1a: Yo Momma|424\/523
+|move|p1a: Yo Momma|Body Slam|p2a: Whorey
+|-damage|p2a: Whorey|395\/703
+|
+|turn|6
+|choice|move 1|switch 3
+|
+|switch|p2a: Digitamamon|Exeggutor|393\/393
+|move|p1a: Yo Momma|Body Slam|p2a: Digitamamon
+|-damage|p2a: Digitamamon|273\/393
+|
+|turn|7
+|choice|switch 3|move 1
+|
+|switch|p1a: Cuddle Me Plz|Jynx|115\/333
+|move|p2a: Digitamamon|Sleep Powder|p1a: Cuddle Me Plz|[miss]
+|-miss|p2a: Digitamamon
+|
+|turn|8
+|choice|move 2|switch 3
+|
+|switch|p2a: Whorey|Chansey|395\/703
+|move|p1a: Cuddle Me Plz|Blizzard|p2a: Whorey|[miss]
+|-miss|p1a: Cuddle Me Plz
+|
+|turn|9
+|choice|move 2|move 2
+|
+|move|p1a: Cuddle Me Plz|Blizzard|p2a: Whorey|[miss]
+|-miss|p1a: Cuddle Me Plz
+|move|p2a: Whorey|Soft-Boiled|p2a: Whorey
+|-heal|p2a: Whorey|703\/703
+|
+|turn|10
+|choice|move 2|move 4
+|
+|move|p1a: Cuddle Me Plz|Blizzard|p2a: Whorey|[miss]
+|-miss|p1a: Cuddle Me Plz
+|move|p2a: Whorey|Thunderbolt|p1a: Cuddle Me Plz
+|-damage|p1a: Cuddle Me Plz|30\/333
+|
+|turn|11
+|c|★Tendoh|Wow
+|choice|move 4|move 4
+|
+|move|p1a: Cuddle Me Plz|Rest|p1a: Cuddle Me Plz
+|-status|p1a: Cuddle Me Plz|slp
+|-heal|p1a: Cuddle Me Plz|333\/333 slp|[silent]
+|-status|p1a: Cuddle Me Plz|slp|[from] move: Rest
+|move|p2a: Whorey|Thunderbolt|p1a: Cuddle Me Plz
+|-damage|p1a: Cuddle Me Plz|251\/333 slp
+|
+|turn|12
+|choice|move 2|switch 4
+|
+|switch|p2a: Corrida|Tauros|353\/353
+|cant|p1a: Cuddle Me Plz|slp
+|
+|turn|13
+|choice|switch 3|move 1
+|
+|switch|p1a: Yo Momma|Snorlax|424\/523
+|move|p2a: Corrida|Body Slam|p1a: Yo Momma
+|-damage|p1a: Yo Momma|300\/523
+|
+|turn|14
+|choice|move 3|move 1
+|
+|move|p2a: Corrida|Body Slam|p1a: Yo Momma
+|-crit|p1a: Yo Momma
+|-damage|p1a: Yo Momma|36\/523
+|move|p1a: Yo Momma|Counter|p2a: Corrida
+|-damage|p2a: Corrida|0 fnt
+|faint|p2a: Corrida
+|choice||switch 3
+|
+|switch|p2a: Digitamamon|Exeggutor|273\/393
+|turn|15
+|choice|switch 3|move 2
+|
+|switch|p1a: Cuddle Me Plz|Jynx|251\/333 slp
+|move|p2a: Digitamamon|Psychic|p1a: Cuddle Me Plz
+|-crit|p1a: Cuddle Me Plz
+|-resisted|p1a: Cuddle Me Plz
+|-damage|p1a: Cuddle Me Plz|135\/333 slp
+|
+|turn|16
+|choice|move 1|move 3
+|
+|-curestatus|p1a: Cuddle Me Plz|slp
+|move|p2a: Digitamamon|Double-Edge|p1a: Cuddle Me Plz
+|-damage|p1a: Cuddle Me Plz|0 fnt
+|-damage|p2a: Digitamamon|240\/393|[from] recoil|[of] p1a: Cuddle Me Plz
+|faint|p1a: Cuddle Me Plz
+|choice|switch 2|
+|
+|switch|p1a: Wear Candoms Kid|Exeggutor|393\/393
+|turn|17
+|choice|move 4|move 1
+|
+|move|p1a: Wear Candoms Kid|Explosion|p2a: Digitamamon
+|-damage|p2a: Digitamamon|0 fnt
+|faint|p2a: Digitamamon
+|faint|p1a: Wear Candoms Kid
+|choice|switch 6|switch 4
+|
+|switch|p1a: I'm Annoying|Jolteon|333\/333
+|switch|p2a: Whorey|Chansey|703\/703
+|turn|18
+|choice|move 1|move 1
+|
+|move|p1a: I'm Annoying|Thunder Wave|p2a: Whorey
+|-status|p2a: Whorey|par
+|move|p2a: Whorey|Ice Beam|p1a: I'm Annoying
+|-damage|p1a: I'm Annoying|255\/333
+|-status|p1a: I'm Annoying|frz
+|
+|turn|19
+|choice|move 4|move 1
+|
+|cant|p1a: I'm Annoying|frz
+|cant|p2a: Whorey|par
+|
+|turn|20
+|choice|switch 5|move 1
+|
+|switch|p1a: I Own RBY|Chansey|703\/703
+|move|p2a: Whorey|Ice Beam|p1a: I Own RBY
+|-damage|p1a: I Own RBY|624\/703
+|
+|turn|21
+|choice|move 2|move 3
+|
+|move|p1a: I Own RBY|Seismic Toss|p2a: Whorey
+|-damage|p2a: Whorey|603\/703 par
+|move|p2a: Whorey|Thunder Wave|p1a: I Own RBY
+|-status|p1a: I Own RBY|par
+|
+|turn|22
+|choice|move 3|move 4
+|
+|cant|p1a: I Own RBY|par
+|move|p2a: Whorey|Thunderbolt|p1a: I Own RBY
+|-damage|p1a: I Own RBY|544\/703 par
+|
+|turn|23
+|choice|move 3|move 4
+|
+|move|p1a: I Own RBY|Thunder Wave|p2a: Whorey
+|-fail|p2a: Whorey|par
+|move|p2a: Whorey|Thunderbolt|p1a: I Own RBY
+|-damage|p1a: I Own RBY|466\/703 par
+|
+|turn|24
+|choice|move 2|move 4
+|
+|move|p1a: I Own RBY|Seismic Toss|p2a: Whorey
+|-damage|p2a: Whorey|503\/703 par
+|move|p2a: Whorey|Thunderbolt|p1a: I Own RBY
+|-damage|p1a: I Own RBY|385\/703 par
+|
+|turn|25
+|choice|move 3|switch 5
+|
+|switch|p2a: Denver|Dragonite|385\/385
+|move|p1a: I Own RBY|Thunder Wave|p2a: Denver
+|-status|p2a: Denver|par
+|
+|turn|26
+|choice|switch 4|move 2
+|
+|switch|p1a: ShowMeUrAss|Tauros|353\/353
+|move|p2a: Denver|Hyper Beam|p1a: ShowMeUrAss
+|-damage|p1a: ShowMeUrAss|197\/353
+|
+|turn|27
+|-mustrecharge|p2a: Denver
+|-mustrecharge|p2a: Denver
+|choice|move 1|move 1
+|
+|move|p1a: ShowMeUrAss|Blizzard|p2a: Denver
+|-supereffective|p2a: Denver
+|-damage|p2a: Denver|97\/385 par
+|cant|p2a: Denver|recharge
+|
+|turn|28
+|choice|move 1|move 2
+|
+|move|p1a: ShowMeUrAss|Blizzard|p2a: Denver
+|-crit|p2a: Denver
+|-supereffective|p2a: Denver
+|-damage|p2a: Denver|0 fnt
+|faint|p2a: Denver
+|choice||switch 6
+|
+|switch|p2a: Kim Peek|Alakazam|313\/313
+|turn|29
+|choice|switch 4|move 1
+|
+|switch|p1a: I Own RBY|Chansey|385\/703 par
+|move|p2a: Kim Peek|Psychic|p1a: I Own RBY
+|-crit|p1a: I Own RBY
+|-damage|p1a: I Own RBY|158\/703 par
+|
+|turn|30
+|choice|move 1|move 1
+|
+|move|p2a: Kim Peek|Psychic|p1a: I Own RBY
+|-damage|p1a: I Own RBY|23\/703 par
+|-unboost|p1a: I Own RBY|spd|1
+|-unboost|p1a: I Own RBY|spa|1
+|move|p1a: I Own RBY|Soft-Boiled|p1a: I Own RBY
+|-heal|p1a: I Own RBY|374\/703 par
+|
+|turn|31
+|choice|move 1|move 1
+|
+|move|p2a: Kim Peek|Psychic|p1a: I Own RBY
+|-damage|p1a: I Own RBY|180\/703 par
+|move|p1a: I Own RBY|Soft-Boiled|p1a: I Own RBY
+|-heal|p1a: I Own RBY|531\/703 par
+|
+|turn|32
+|choice|move 3|move 1
+|
+|move|p2a: Kim Peek|Psychic|p1a: I Own RBY
+|-damage|p1a: I Own RBY|321\/703 par
+|move|p1a: I Own RBY|Thunder Wave|p2a: Kim Peek
+|-status|p2a: Kim Peek|par
+|
+|turn|33
+|choice|move 1|move 1
+|
+|move|p2a: Kim Peek|Psychic|p1a: I Own RBY
+|-damage|p1a: I Own RBY|134\/703 par
+|cant|p1a: I Own RBY|par
+|
+|turn|34
+|choice|switch 5|move 1
+|
+|switch|p1a: I'm Annoying|Jolteon|255\/333 frz
+|move|p2a: Kim Peek|Psychic|p1a: I'm Annoying
+|-damage|p1a: I'm Annoying|123\/333 frz
+|
+|turn|35
+|choice|move 2|move 1
+|
+|cant|p1a: I'm Annoying|frz
+|move|p2a: Kim Peek|Psychic|p1a: I'm Annoying
+|-damage|p1a: I'm Annoying|0 fnt
+|faint|p1a: I'm Annoying
+|choice|switch 3|
+|
+|switch|p1a: Yo Momma|Snorlax|36\/523
+|turn|36
+|choice|move 4|switch 2
+|
+|switch|p2a: Luma|Starmie|323\/323 slp
+|move|p1a: Yo Momma|Self-Destruct|p2a: Luma
+|-damage|p2a: Luma|0 fnt
+|faint|p2a: Luma
+|faint|p1a: Yo Momma
+|choice|switch 5|switch 2
+|
+|switch|p2a: Kim Peek|Alakazam|313\/313 par
+|switch|p1a: I Own RBY|Chansey|134\/703 par
+|turn|37
+|choice|move 1|move 1
+|
+|move|p2a: Kim Peek|Psychic|p1a: I Own RBY
+|-damage|p1a: I Own RBY|15\/703 par
+|move|p1a: I Own RBY|Soft-Boiled|p1a: I Own RBY
+|-heal|p1a: I Own RBY|366\/703 par
+|
+|turn|38
+|choice|move 1|move 1
+|
+|move|p2a: Kim Peek|Psychic|p1a: I Own RBY
+|-damage|p1a: I Own RBY|239\/703 par
+|move|p1a: I Own RBY|Soft-Boiled|p1a: I Own RBY
+|-heal|p1a: I Own RBY|590\/703 par
+|
+|turn|39
+|choice|move 2|move 1
+|
+|move|p2a: Kim Peek|Psychic|p1a: I Own RBY
+|-crit|p1a: I Own RBY
+|-damage|p1a: I Own RBY|350\/703 par
+|-unboost|p1a: I Own RBY|spd|1
+|-unboost|p1a: I Own RBY|spa|1
+|cant|p1a: I Own RBY|par
+|
+|turn|40
+|choice|move 1|move 1
+|
+|cant|p2a: Kim Peek|par
+|move|p1a: I Own RBY|Soft-Boiled|p1a: I Own RBY
+|-heal|p1a: I Own RBY|701\/703 par
+|
+|turn|41
+|choice|move 2|move 1
+|
+|move|p2a: Kim Peek|Psychic|p1a: I Own RBY
+|-damage|p1a: I Own RBY|515\/703 par
+|-unboost|p1a: I Own RBY|spd|1
+|-unboost|p1a: I Own RBY|spa|1
+|move|p1a: I Own RBY|Seismic Toss|p2a: Kim Peek
+|-damage|p2a: Kim Peek|213\/313 par
+|
+|turn|42
+|choice|move 2|move 1
+|
+|cant|p2a: Kim Peek|par
+|move|p1a: I Own RBY|Seismic Toss|p2a: Kim Peek
+|-damage|p2a: Kim Peek|113\/313 par
+|
+|turn|43
+|choice|move 2|move 1
+|
+|cant|p2a: Kim Peek|par
+|cant|p1a: I Own RBY|par
+|
+|turn|44
+|choice|move 2|move 1
+|
+|move|p2a: Kim Peek|Psychic|p1a: I Own RBY
+|-damage|p1a: I Own RBY|278\/703 par
+|move|p1a: I Own RBY|Seismic Toss|p2a: Kim Peek
+|-damage|p2a: Kim Peek|13\/313 par
+|
+|turn|45
+|choice|move 2|move 2
+|
+|move|p2a: Kim Peek|Recover|p2a: Kim Peek
+|-heal|p2a: Kim Peek|169\/313 par
+|move|p1a: I Own RBY|Seismic Toss|p2a: Kim Peek
+|-damage|p2a: Kim Peek|69\/313 par
+|
+|turn|46
+|choice|move 2|move 2
+|
+|move|p2a: Kim Peek|Recover|p2a: Kim Peek
+|-heal|p2a: Kim Peek|225\/313 par
+|move|p1a: I Own RBY|Seismic Toss|p2a: Kim Peek
+|-damage|p2a: Kim Peek|125\/313 par
+|
+|turn|47
+|choice|move 2|move 1
+|
+|move|p2a: Kim Peek|Psychic|p1a: I Own RBY
+|-crit|p1a: I Own RBY
+|-damage|p1a: I Own RBY|43\/703 par
+|cant|p1a: I Own RBY|par
+|
+|turn|48
+|choice|switch 4|move 2
+|
+|switch|p1a: ShowMeUrAss|Tauros|197\/353
+|cant|p2a: Kim Peek|par
+|
+|turn|49
+|-message|Tendoh forfeited.
+|
+|win|Peasounay
+|leave|Tendoh
+|player|p2

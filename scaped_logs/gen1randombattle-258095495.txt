@@ -1,0 +1,227 @@
+﻿|join|Dervodel
+|join|SophieStar
+|player|p1|Dervodel|266
+|player|p2|SophieStar|159
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Parasect|Parasect, L90|291\/291
+|switch|p2a: Graveler|Graveler, L85|267\/267
+|turn|1
+|
+|switch|p2a: Scyther|Scyther, L90|309\/309
+|move|p1a: Parasect|Mega Drain|p2a: Scyther
+|-resisted|p2a: Scyther
+|-damage|p2a: Scyther|297\/309
+|
+|turn|2
+|
+|switch|p1a: Graveler|Graveler, L85|267\/267
+|move|p2a: Scyther|Swords Dance|p2a: Scyther
+|-boost|p2a: Scyther|atk|2
+|
+|turn|3
+|
+|switch|p2a: Blastoise|Blastoise, L85|308\/308
+|move|p1a: Graveler|Rock Slide|p2a: Blastoise
+|-damage|p2a: Blastoise|229\/308
+|
+|turn|4
+|
+|switch|p1a: Raichu|Raichu, L85|276\/276
+|move|p2a: Blastoise|Blizzard|p1a: Raichu
+|-damage|p1a: Raichu|197\/276
+|
+|turn|5
+|
+|move|p1a: Raichu|Surf|p2a: Blastoise
+|-resisted|p2a: Blastoise
+|-damage|p2a: Blastoise|197\/308
+|move|p2a: Blastoise|Earthquake|p1a: Raichu
+|-crit|p1a: Raichu
+|-supereffective|p1a: Raichu
+|-damage|p1a: Raichu|0 fnt
+|faint|p1a: Raichu
+|c|★Dervodel|well played
+|
+|switch|p1a: Parasect|Parasect, L90|291\/291
+|turn|6
+|
+|move|p2a: Blastoise|Blizzard|p1a: Parasect
+|-supereffective|p1a: Parasect
+|-damage|p1a: Parasect|128\/291
+|move|p1a: Parasect|Mega Drain|p2a: Blastoise
+|-supereffective|p2a: Blastoise
+|-damage|p2a: Blastoise|111\/308
+|-heal|p1a: Parasect|171\/291|[from] drain|[of] p2a: Blastoise
+|
+|turn|7
+|
+|move|p2a: Blastoise|Blizzard|p1a: Parasect
+|-supereffective|p1a: Parasect
+|-damage|p1a: Parasect|20\/291
+|move|p1a: Parasect|Body Slam|p2a: Blastoise
+|-damage|p2a: Blastoise|45\/308
+|
+|turn|8
+|
+|move|p2a: Blastoise|Earthquake|p1a: Parasect
+|-resisted|p1a: Parasect
+|-damage|p1a: Parasect|4\/291
+|move|p1a: Parasect|Body Slam|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|
+|switch|p2a: Arbok|Arbok, L90|291\/291
+|turn|9
+|
+|move|p2a: Arbok|Body Slam|p1a: Parasect
+|-damage|p1a: Parasect|0 fnt
+|faint|p1a: Parasect
+|
+|switch|p1a: Graveler|Graveler, L85|267\/267
+|turn|10
+|
+|move|p2a: Arbok|Earthquake|p1a: Graveler
+|-supereffective|p1a: Graveler
+|-damage|p1a: Graveler|149\/267
+|move|p1a: Graveler|Earthquake|p2a: Arbok
+|-supereffective|p2a: Arbok
+|-damage|p2a: Arbok|72\/291
+|
+|turn|11
+|
+|move|p2a: Arbok|Glare|p1a: Graveler|[miss]
+|-miss|p2a: Arbok
+|move|p1a: Graveler|Rock Slide|p2a: Arbok
+|-damage|p2a: Arbok|0 fnt
+|faint|p2a: Arbok
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|293\/293
+|turn|12
+|
+|move|p2a: Mewtwo|Blizzard|p1a: Graveler
+|-supereffective|p1a: Graveler
+|-damage|p1a: Graveler|0 fnt
+|faint|p1a: Graveler
+|
+|switch|p1a: Raticate|Raticate, L85|267\/267
+|turn|13
+|
+|move|p2a: Mewtwo|Psychic|p1a: Raticate
+|-damage|p1a: Raticate|146\/267
+|-unboost|p1a: Raticate|spd|1
+|-unboost|p1a: Raticate|spa|1
+|move|p1a: Raticate|Super Fang|p2a: Mewtwo|[miss]
+|-miss|p1a: Raticate
+|
+|turn|14
+|c|★Dervodel|gez
+|c|★Dervodel|gg
+|
+|move|p2a: Mewtwo|Psychic|p1a: Raticate
+|-crit|p1a: Raticate
+|-damage|p1a: Raticate|0 fnt
+|faint|p1a: Raticate
+|
+|switch|p1a: Moltres|Moltres, L85|327\/327
+|turn|15
+|
+|move|p2a: Mewtwo|Thunderbolt|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|216\/327
+|move|p1a: Moltres|Fire Blast|p2a: Mewtwo
+|-damage|p2a: Mewtwo|166\/293
+|
+|turn|16
+|
+|switch|p2a: Graveler|Graveler, L85|267\/267
+|move|p1a: Moltres|Fire Blast|p2a: Graveler
+|-resisted|p2a: Graveler
+|-damage|p2a: Graveler|162\/267
+|
+|turn|17
+|
+|switch|p1a: Primeape|Primeape, L90|300\/300
+|move|p2a: Graveler|Rock Slide|p1a: Primeape
+|-crit|p1a: Primeape
+|-resisted|p1a: Primeape
+|-damage|p1a: Primeape|210\/300
+|
+|turn|18
+|
+|move|p1a: Primeape|Submission|p2a: Graveler
+|-supereffective|p2a: Graveler
+|-damage|p2a: Graveler|0 fnt
+|-damage|p1a: Primeape|170\/300|[from] recoil|[of] p2a: Graveler
+|faint|p2a: Graveler
+|
+|switch|p2a: Scyther|Scyther, L90|297\/309
+|turn|19
+|
+|move|p2a: Scyther|Swords Dance|p2a: Scyther
+|-boost|p2a: Scyther|atk|2
+|move|p1a: Primeape|Rock Slide|p2a: Scyther
+|-supereffective|p2a: Scyther
+|-damage|p2a: Scyther|25\/309
+|
+|turn|20
+|
+|move|p2a: Scyther|Hyper Beam|p1a: Primeape|[miss]
+|-miss|p2a: Scyther
+|move|p1a: Primeape|Body Slam|p2a: Scyther
+|-damage|p2a: Scyther|0 fnt
+|faint|p2a: Scyther
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|166\/293
+|turn|21
+|
+|move|p1a: Primeape|Body Slam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|82\/293
+|-status|p2a: Mewtwo|par
+|cant|p2a: Mewtwo|par
+|
+|turn|22
+|
+|move|p1a: Primeape|Hyper Beam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|0 fnt
+|faint|p2a: Mewtwo
+|
+|switch|p2a: Raticate|Raticate, L85|267\/267
+|turn|23
+|
+|move|p1a: Primeape|Body Slam|p2a: Raticate
+|-damage|p2a: Raticate|178\/267
+|move|p2a: Raticate|Hyper Beam|p1a: Primeape
+|-crit|p1a: Primeape
+|-damage|p1a: Primeape|0 fnt
+|faint|p1a: Primeape
+|
+|switch|p1a: Moltres|Moltres, L85|216\/327
+|turn|24
+|
+|move|p2a: Raticate|Super Fang|p1a: Moltres|[miss]
+|-miss|p2a: Raticate
+|move|p1a: Moltres|Fire Blast|p2a: Raticate|[miss]
+|-miss|p1a: Moltres
+|
+|turn|25
+|
+|move|p2a: Raticate|Super Fang|p1a: Moltres|[miss]
+|-miss|p2a: Raticate
+|move|p1a: Moltres|Fire Blast|p2a: Raticate
+|-crit|p2a: Raticate
+|-damage|p2a: Raticate|0 fnt
+|faint|p2a: Raticate
+|
+|win|Dervodel
+|raw|Ladder updating...
+|raw|Dervodel's rating: 1159 &rarr; <strong>1191<\/strong><br \/>(+32 for winning)
+|raw|SophieStar's rating: 1265 &rarr; <strong>1232<\/strong><br \/>(-33 for losing)
+|c|★SophieStar|gg very close

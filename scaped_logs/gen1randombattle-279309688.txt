@@ -1,0 +1,469 @@
+﻿|join|mackdaddyyoshi
+|join|rimr
+|player|p1|mackdaddyyoshi|10
+|player|p2|rimr|1
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Nidoran-M|Nidoran-M, L96|283\/283
+|switch|p2a: Rattata|Rattata, L96|252\/252
+|turn|1
+|
+|move|p2a: Rattata|Super Fang|p1a: Nidoran-M
+|-damage|p1a: Nidoran-M|142\/283
+|move|p1a: Nidoran-M|Substitute|p1a: Nidoran-M
+|-start|p1a: Nidoran-M|Substitute
+|-damage|p1a: Nidoran-M|72\/283
+|
+|turn|2
+|
+|move|p2a: Rattata|Body Slam|p1a: Nidoran-M
+|-end|p1a: Nidoran-M|Substitute
+|move|p1a: Nidoran-M|Body Slam|p2a: Rattata
+|-crit|p2a: Rattata
+|-damage|p2a: Rattata|102\/252
+|
+|turn|3
+|
+|move|p2a: Rattata|Body Slam|p1a: Nidoran-M
+|-crit|p1a: Nidoran-M
+|-damage|p1a: Nidoran-M|0 fnt
+|faint|p1a: Nidoran-M
+|
+|switch|p1a: Abra|Abra, L96|243\/243
+|turn|4
+|
+|move|p1a: Abra|Psychic|p2a: Rattata
+|-damage|p2a: Rattata|0 fnt
+|faint|p2a: Rattata
+|
+|switch|p2a: Vaporeon|Vaporeon, L85|395\/395
+|turn|5
+|
+|switch|p1a: Vaporeon|Vaporeon, L85|395\/395
+|move|p2a: Vaporeon|Mimic|p1a: Vaporeon
+|-start|p2a: Vaporeon|Mimic|Rest
+|
+|turn|6
+|
+|move|p1a: Vaporeon|Blizzard|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|352\/395
+|move|p2a: Vaporeon|Body Slam|p1a: Vaporeon
+|-damage|p1a: Vaporeon|338\/395
+|
+|turn|7
+|
+|move|p1a: Vaporeon|Mimic|p2a: Vaporeon
+|-start|p1a: Vaporeon|Mimic|Rest
+|move|p2a: Vaporeon|Body Slam|p1a: Vaporeon
+|-damage|p1a: Vaporeon|275\/395
+|
+|turn|8
+|
+|switch|p1a: Magneton|Magneton, L90|273\/273
+|move|p2a: Vaporeon|Body Slam|p1a: Magneton
+|-damage|p1a: Magneton|228\/273
+|
+|turn|9
+|
+|switch|p2a: Graveler|Graveler, L85|267\/267
+|move|p1a: Magneton|Thunderbolt|p2a: Graveler
+|-immune|p2a: Graveler|[msg]
+|
+|turn|10
+|
+|switch|p1a: Omastar|Omastar, L90|309\/309
+|move|p2a: Graveler|Body Slam|p1a: Omastar
+|-resisted|p1a: Omastar
+|-damage|p1a: Omastar|289\/309
+|
+|turn|11
+|
+|switch|p2a: Vaporeon|Vaporeon, L85|352\/395
+|move|p1a: Omastar|Hydro Pump|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|285\/395
+|
+|turn|12
+|
+|move|p2a: Vaporeon|Mimic|p1a: Omastar
+|-start|p2a: Vaporeon|Mimic|Hydro Pump
+|move|p1a: Omastar|Mimic|p2a: Vaporeon
+|-start|p1a: Omastar|Mimic|Blizzard
+|
+|turn|13
+|
+|switch|p1a: Magneton|Magneton, L90|228\/273
+|move|p2a: Vaporeon|Blizzard|p1a: Magneton
+|-damage|p1a: Magneton|151\/273
+|
+|turn|14
+|
+|switch|p1a: Omastar|Omastar, L90|289\/309
+|switch|p2a: Graveler|Graveler, L85|267\/267
+|
+|turn|15
+|c|★mackdaddyyoshi|worst stalll war ever
+|
+|switch|p2a: Tangela|Tangela, L85|284\/284
+|move|p1a: Omastar|Blizzard|p2a: Tangela
+|-supereffective|p2a: Tangela
+|-damage|p2a: Tangela|71\/284
+|
+|turn|16
+|
+|move|p1a: Omastar|Blizzard|p2a: Tangela
+|-supereffective|p2a: Tangela
+|-damage|p2a: Tangela|0 fnt
+|faint|p2a: Tangela
+|
+|switch|p2a: Weezing|Weezing, L90|300\/300
+|turn|17
+|
+|move|p2a: Weezing|Thunder|p1a: Omastar|[miss]
+|-miss|p2a: Weezing
+|move|p1a: Omastar|Hydro Pump|p2a: Weezing
+|-damage|p2a: Weezing|154\/300
+|
+|turn|18
+|
+|switch|p1a: Abra|Abra, L96|243\/243
+|move|p2a: Weezing|Thunder|p1a: Abra
+|-damage|p1a: Abra|176\/243
+|
+|turn|19
+|
+|switch|p2a: Vaporeon|Vaporeon, L85|285\/395
+|move|p1a: Abra|Psychic|p2a: Vaporeon
+|-damage|p2a: Vaporeon|173\/395
+|-unboost|p2a: Vaporeon|spd|1
+|-unboost|p2a: Vaporeon|spa|1
+|
+|turn|20
+|
+|move|p1a: Abra|Psychic|p2a: Vaporeon
+|-damage|p2a: Vaporeon|5\/395
+|move|p2a: Vaporeon|Body Slam|p1a: Abra
+|-damage|p1a: Abra|90\/243
+|
+|turn|21
+|
+|move|p1a: Abra|Seismic Toss|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|faint|p2a: Vaporeon
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|293\/293
+|turn|22
+|
+|move|p1a: Abra|Thunder Wave|p2a: Mewtwo
+|-status|p2a: Mewtwo|par
+|move|p2a: Mewtwo|Blizzard|p1a: Abra
+|-damage|p1a: Abra|22\/243
+|
+|turn|23
+|c|★mackdaddyyoshi|aaaaaaaaand I win
+|
+|move|p1a: Abra|Seismic Toss|p2a: Mewtwo
+|-damage|p2a: Mewtwo|197\/293 par
+|cant|p2a: Mewtwo|par
+|
+|turn|24
+|
+|move|p1a: Abra|Seismic Toss|p2a: Mewtwo
+|-damage|p2a: Mewtwo|101\/293 par
+|move|p2a: Mewtwo|Ice Beam|p1a: Abra
+|-damage|p1a: Abra|0 fnt
+|faint|p1a: Abra
+|
+|switch|p1a: Porygon|Porygon, L85|284\/284
+|turn|25
+|
+|move|p1a: Porygon|Double-Edge|p2a: Mewtwo
+|-damage|p2a: Mewtwo|8\/293 par
+|-damage|p1a: Porygon|261\/284|[from] recoil|[of] p2a: Mewtwo
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|154\/293 par
+|
+|turn|26
+|c|★mackdaddyyoshi|ugh
+|
+|switch|p1a: Magneton|Magneton, L90|151\/273
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|293\/293 par
+|
+|turn|27
+|
+|move|p1a: Magneton|Mimic|p2a: Mewtwo
+|-start|p1a: Magneton|Mimic|Psychic
+|cant|p2a: Mewtwo|par
+|
+|turn|28
+|
+|move|p1a: Magneton|Psychic|p2a: Mewtwo
+|-resisted|p2a: Mewtwo
+|-damage|p2a: Mewtwo|258\/293 par
+|cant|p2a: Mewtwo|par
+|
+|turn|29
+|
+|move|p1a: Magneton|Psychic|p2a: Mewtwo
+|-resisted|p2a: Mewtwo
+|-damage|p2a: Mewtwo|224\/293 par
+|cant|p2a: Mewtwo|par
+|
+|turn|30
+|
+|move|p1a: Magneton|Psychic|p2a: Mewtwo
+|-resisted|p2a: Mewtwo
+|-damage|p2a: Mewtwo|190\/293 par
+|cant|p2a: Mewtwo|par
+|
+|turn|31
+|
+|move|p1a: Magneton|Psychic|p2a: Mewtwo
+|-resisted|p2a: Mewtwo
+|-damage|p2a: Mewtwo|157\/293 par
+|move|p2a: Mewtwo|Blizzard|p1a: Magneton|[miss]
+|-miss|p2a: Mewtwo
+|
+|turn|32
+|c|★rimr|3 para turns
+|c|★rimr|lol
+|c|★mackdaddyyoshi|welcome to gen 1
+|c|★rimr|plus one fail
+|c|★rimr|not lucky today :p
+|
+|move|p1a: Magneton|Psychic|p2a: Mewtwo
+|-resisted|p2a: Mewtwo
+|-damage|p2a: Mewtwo|121\/293 par
+|move|p2a: Mewtwo|Blizzard|p1a: Magneton
+|-crit|p1a: Magneton
+|-damage|p1a: Magneton|27\/273
+|
+|turn|33
+|
+|move|p1a: Magneton|Hyper Beam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|18\/293 par
+|cant|p2a: Mewtwo|par
+|
+|turn|34
+|-mustrecharge|p1a: Magneton
+|-mustrecharge|p1a: Magneton
+|
+|cant|p1a: Magneton|recharge
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|164\/293 par
+|
+|turn|35
+|c|★mackdaddyyoshi|the real hax is all my attacks keep bouncing off him
+|
+|move|p1a: Magneton|Psychic|p2a: Mewtwo
+|-resisted|p2a: Mewtwo
+|-damage|p2a: Mewtwo|133\/293 par
+|move|p2a: Mewtwo|Psychic|p1a: Magneton
+|-damage|p1a: Magneton|0 fnt
+|faint|p1a: Magneton
+|
+|switch|p1a: Omastar|Omastar, L90|289\/309
+|turn|36
+|
+|move|p1a: Omastar|Mimic|p2a: Mewtwo
+|-start|p1a: Omastar|Mimic|Ice Beam
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|279\/293 par
+|
+|turn|37
+|
+|switch|p1a: Porygon|Porygon, L85|261\/284
+|move|p2a: Mewtwo|Psychic|p1a: Porygon
+|-damage|p1a: Porygon|157\/284
+|-unboost|p1a: Porygon|spd|1
+|-unboost|p1a: Porygon|spa|1
+|
+|turn|38
+|
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|284\/284
+|move|p2a: Mewtwo|Psychic|p1a: Porygon
+|-damage|p1a: Porygon|136\/284
+|
+|turn|39
+|
+|switch|p1a: Omastar|Omastar, L90|289\/309
+|move|p2a: Mewtwo|Psychic|p1a: Omastar
+|-crit|p1a: Omastar
+|-damage|p1a: Omastar|156\/309
+|
+|turn|40
+|
+|move|p1a: Omastar|Mimic|p2a: Mewtwo
+|-start|p1a: Omastar|Mimic|Psychic
+|move|p2a: Mewtwo|Psychic|p1a: Omastar
+|-damage|p1a: Omastar|80\/309
+|
+|turn|41
+|
+|move|p1a: Omastar|Psychic|p2a: Mewtwo
+|-resisted|p2a: Mewtwo
+|-damage|p2a: Mewtwo|247\/293 par
+|cant|p2a: Mewtwo|par
+|
+|turn|42
+|
+|move|p1a: Omastar|Psychic|p2a: Mewtwo
+|-resisted|p2a: Mewtwo
+|-damage|p2a: Mewtwo|215\/293 par
+|cant|p2a: Mewtwo|par
+|
+|turn|43
+|
+|move|p1a: Omastar|Psychic|p2a: Mewtwo
+|-resisted|p2a: Mewtwo
+|-damage|p2a: Mewtwo|184\/293 par
+|move|p2a: Mewtwo|Psychic|p1a: Omastar
+|-damage|p1a: Omastar|7\/309
+|
+|turn|44
+|
+|move|p1a: Omastar|Psychic|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-resisted|p2a: Mewtwo
+|-damage|p2a: Mewtwo|122\/293 par
+|cant|p2a: Mewtwo|par
+|
+|turn|45
+|
+|move|p1a: Omastar|Hydro Pump|p2a: Mewtwo|[miss]
+|-miss|p1a: Omastar
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|268\/293 par
+|
+|turn|46
+|
+|move|p1a: Omastar|Psychic|p2a: Mewtwo
+|-resisted|p2a: Mewtwo
+|-damage|p2a: Mewtwo|233\/293 par
+|move|p2a: Mewtwo|Ice Beam|p1a: Omastar
+|-resisted|p1a: Omastar
+|-damage|p1a: Omastar|0 fnt
+|faint|p1a: Omastar
+|
+|switch|p1a: Porygon|Porygon, L85|136\/284
+|turn|47
+|
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|278\/284
+|move|p2a: Mewtwo|Psychic|p1a: Porygon
+|-damage|p1a: Porygon|177\/284
+|-unboost|p1a: Porygon|spd|1
+|-unboost|p1a: Porygon|spa|1
+|
+|turn|48
+|
+|switch|p1a: Vaporeon|Vaporeon, L85|275\/395
+|cant|p2a: Mewtwo|par
+|
+|turn|49
+|
+|move|p1a: Vaporeon|Mimic|p2a: Mewtwo
+|-start|p1a: Vaporeon|Mimic|Blizzard
+|move|p2a: Mewtwo|Psychic|p1a: Vaporeon
+|-damage|p1a: Vaporeon|194\/395
+|
+|turn|50
+|
+|move|p1a: Vaporeon|Blizzard|p2a: Mewtwo
+|-damage|p2a: Mewtwo|154\/293 par
+|move|p2a: Mewtwo|Psychic|p1a: Vaporeon
+|-damage|p1a: Vaporeon|116\/395
+|
+|turn|51
+|
+|move|p1a: Vaporeon|Rest|p1a: Vaporeon
+|-status|p1a: Vaporeon|slp
+|-heal|p1a: Vaporeon|395\/395 slp|[silent]
+|-status|p1a: Vaporeon|slp|[from] move: Rest
+|move|p2a: Mewtwo|Psychic|p1a: Vaporeon
+|-damage|p1a: Vaporeon|309\/395 slp
+|
+|turn|52
+|
+|cant|p1a: Vaporeon|slp
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|293\/293 par
+|
+|turn|53
+|
+|switch|p2a: Weezing|Weezing, L90|154\/300
+|-curestatus|p1a: Vaporeon|slp
+|
+|turn|54
+|
+|switch|p1a: Porygon|Porygon, L85|177\/284
+|move|p2a: Weezing|Explosion|p1a: Porygon
+|-damage|p1a: Porygon|0 fnt
+|faint|p1a: Porygon
+|faint|p2a: Weezing
+|
+|switch|p1a: Vaporeon|Vaporeon, L85|309\/395
+|switch|p2a: Mewtwo|Mewtwo, L70|293\/293 par
+|turn|55
+|
+|move|p1a: Vaporeon|Mimic|p2a: Mewtwo
+|-start|p1a: Vaporeon|Mimic|Psychic
+|move|p2a: Mewtwo|Ice Beam|p1a: Vaporeon
+|-crit|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|256\/395
+|
+|turn|56
+|
+|move|p1a: Vaporeon|Psychic|p2a: Mewtwo
+|-resisted|p2a: Mewtwo
+|-damage|p2a: Mewtwo|266\/293 par
+|-unboost|p2a: Mewtwo|spd|1
+|-unboost|p2a: Mewtwo|spa|1
+|move|p2a: Mewtwo|Ice Beam|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|239\/395
+|
+|turn|57
+|c|★mackdaddyyoshi|i have been trying
+|c|★mackdaddyyoshi|to fucking do that
+|c|★mackdaddyyoshi|for fucking 30 turns
+|
+|move|p1a: Vaporeon|Surf|p2a: Mewtwo
+|-damage|p2a: Mewtwo|135\/293 par
+|cant|p2a: Mewtwo|par
+|
+|turn|58
+|
+|move|p1a: Vaporeon|Surf|p2a: Mewtwo
+|-damage|p2a: Mewtwo|0 fnt
+|faint|p2a: Mewtwo
+|c|★mackdaddyyoshi|YES
+|c|★mackdaddyyoshi|THE DREAM IS REAL
+|
+|switch|p2a: Graveler|Graveler, L85|267\/267
+|turn|59
+|
+|move|p1a: Vaporeon|Surf|p2a: Graveler
+|-supereffective|p2a: Graveler
+|-damage|p2a: Graveler|0 fnt
+|faint|p2a: Graveler
+|
+|win|mackdaddyyoshi
+|raw|mackdaddyyoshi's rating: 1350 &rarr; <strong>1371<\/strong><br \/>(+21 for winning)
+|raw|rimr's rating: 1363 &rarr; <strong>1342<\/strong><br \/>(-21 for losing)
+|c|★rimr|gg
+|c|★rimr|it was cool
+|c|★mackdaddyyoshi|nice
+|leave|rimr
+|player|p2

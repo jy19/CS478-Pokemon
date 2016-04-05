@@ -1,0 +1,220 @@
+﻿|join|SquidHamster
+|join|Zorage
+|player|p1|SquidHamster|169
+|player|p2|Zorage|166
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Dragonite|Dragonite|385\/385
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|1
+|
+|move|p2a: Gengar|Hypnosis|p1a: Dragonite
+|-status|p1a: Dragonite|slp
+|cant|p1a: Dragonite|slp
+|
+|turn|2
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|switch|p1a: Jynx|Jynx|333\/333
+|
+|turn|3
+|
+|move|p2a: Starmie|Thunder Wave|p1a: Jynx
+|-status|p1a: Jynx|par
+|cant|p1a: Jynx|par
+|
+|turn|4
+|
+|switch|p2a: Rhydon|Rhydon|413\/413
+|move|p1a: Jynx|Lovely Kiss|p2a: Rhydon
+|-status|p2a: Rhydon|slp
+|
+|turn|5
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Jynx|Blizzard|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|460\/703
+|
+|turn|6
+|
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-boost|p2a: Chansey|def|1
+|move|p1a: Jynx|Lovely Kiss|p2a: Chansey
+|-message|Sleep Clause Mod activated.
+|
+|turn|7
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Jynx
+|-damage|p1a: Jynx|233\/333 par
+|move|p1a: Jynx|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|364\/703
+|
+|turn|8
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Jynx
+|-damage|p1a: Jynx|133\/333 par
+|cant|p1a: Jynx|par
+|
+|turn|9
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Jynx
+|-damage|p1a: Jynx|33\/333 par
+|move|p1a: Jynx|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|256\/703
+|
+|turn|10
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|607\/703
+|move|p1a: Jynx|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|464\/703
+|
+|turn|11
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|
+|switch|p1a: Dragonite|Dragonite|385\/385 slp
+|turn|12
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|-curestatus|p1a: Dragonite|slp
+|
+|turn|13
+|
+|move|p2a: Starmie|Thunder Wave|p1a: Dragonite
+|-status|p1a: Dragonite|par
+|move|p1a: Dragonite|Thunder Wave|p2a: Starmie
+|-status|p2a: Starmie|par
+|
+|turn|14
+|
+|move|p2a: Starmie|Ice Beam|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|91\/385 par
+|move|p1a: Dragonite|Agility|p1a: Dragonite
+|-boost|p1a: Dragonite|spe|2
+|
+|turn|15
+|
+|move|p1a: Dragonite|Wrap|p2a: Starmie
+|-damage|p2a: Starmie|305\/323 par
+|-activate|p2a: Starmie|move: Wrap|[of] p1a: Dragonite
+|cant|p2a: Starmie|par
+|
+|turn|16
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|move|p1a: Dragonite|Wrap|p2a: Gengar
+|-damage|p2a: Gengar|323\/323
+|-activate|p2a: Gengar|move: Wrap|[of] p1a: Dragonite
+|
+|turn|17
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|cant|p2a: Gengar|partiallytrapped
+|
+|-end|p2a: Gengar|Wrap|[partiallytrapped]
+|turn|18
+|
+|move|p2a: Gengar|Hypnosis|p1a: Snorlax
+|-status|p1a: Snorlax|slp
+|cant|p1a: Snorlax|slp
+|
+|turn|19
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|cant|p1a: Snorlax|slp
+|
+|turn|20
+|
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|cant|p1a: Snorlax|slp
+|
+|turn|21
+|
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|-curestatus|p1a: Snorlax|slp
+|
+|turn|22
+|
+|move|p1a: Snorlax|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|387\/523
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|
+|turn|23
+|
+|move|p2a: Snorlax|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|229\/523
+|move|p1a: Snorlax|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|245\/523
+|
+|turn|24
+|
+|move|p2a: Snorlax|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|switch|p1a: Raticate|Raticate|313\/313
+|turn|25
+|
+|move|p1a: Raticate|Hyper Fang|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|50\/523
+|move|p2a: Snorlax|Ice Beam|p1a: Raticate
+|-damage|p1a: Raticate|0 fnt
+|faint|p1a: Raticate
+|
+|switch|p1a: Zapdos|Zapdos|383\/383
+|turn|26
+|
+|switch|p2a: Rhydon|Rhydon|413\/413 slp
+|move|p1a: Zapdos|Drill Peck|p2a: Rhydon
+|-crit|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|337\/413 slp
+|
+|turn|27
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|cant|p2a: Rhydon|slp
+|
+|turn|28
+|
+|switch|p2a: Chansey|Chansey|464\/703
+|move|p1a: Starmie|Surf|p2a: Chansey
+|-damage|p2a: Chansey|359\/703
+|
+|turn|29
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|282\/703
+|move|p2a: Chansey|Thunder Wave|p1a: Starmie
+|-status|p1a: Starmie|par
+|
+|turn|30
+|-message|SquidHamster forfeited.
+|
+|win|Zorage
+|leave|SquidHamster
+|player|p1
+|raw|SquidHamster's rating: 1040 &rarr; <strong>1027<\/strong><br \/>(-13 for losing)
+|raw|Zorage's rating: 1095 &rarr; <strong>1117<\/strong><br \/>(+22 for winning)

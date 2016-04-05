@@ -1,0 +1,292 @@
+﻿|join|johnhello
+|join|ASWRG
+|player|p1|johnhello|170
+|player|p2|ASWRG|2
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Articuno|Articuno, L79|304\/304
+|switch|p2a: Oddish|Oddish, L96|281\/281
+|turn|1
+|
+|switch|p2a: Omanyte|Omanyte, L96|262\/262
+|move|p1a: Articuno|Ice Beam|p2a: Omanyte
+|-resisted|p2a: Omanyte
+|-damage|p2a: Omanyte|217\/262
+|
+|turn|2
+|join|PiggyShorts
+|
+|switch|p1a: Ivysaur|Ivysaur, L85|276\/276
+|move|p2a: Omanyte|Blizzard|p1a: Ivysaur
+|-supereffective|p1a: Ivysaur
+|-damage|p1a: Ivysaur|65\/276
+|-status|p1a: Ivysaur|frz
+|
+|turn|3
+|
+|switch|p2a: Mew|Mew, L74|300\/300
+|cant|p1a: Ivysaur|frz
+|
+|turn|4
+|
+|switch|p1a: Articuno|Articuno, L79|304\/304
+|move|p2a: Mew|Thunderbolt|p1a: Articuno
+|-crit|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|133\/304
+|
+|turn|5
+|
+|move|p2a: Mew|Thunderbolt|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|48\/304
+|move|p1a: Articuno|Blizzard|p2a: Mew
+|-crit|p2a: Mew
+|-damage|p2a: Mew|30\/300
+|
+|turn|6
+|
+|switch|p1a: Graveler|Graveler, L85|267\/267
+|move|p2a: Mew|Thunderbolt|p1a: Graveler
+|-immune|p1a: Graveler|[msg]
+|
+|turn|7
+|
+|move|p2a: Mew|Horn Drill|p1a: Graveler
+|-damage|p1a: Graveler|0 fnt
+|-ohko
+|faint|p1a: Graveler
+|
+|switch|p1a: Persian|Persian, L79|265\/265
+|turn|8
+|
+|switch|p2a: Omanyte|Omanyte, L96|217\/262
+|move|p1a: Persian|Slash|p2a: Omanyte
+|-crit|p2a: Omanyte
+|-resisted|p2a: Omanyte
+|-damage|p2a: Omanyte|177\/262
+|
+|turn|9
+|
+|move|p1a: Persian|Bubble Beam|p2a: Omanyte
+|-crit|p2a: Omanyte
+|-damage|p2a: Omanyte|124\/262
+|move|p2a: Omanyte|Blizzard|p1a: Persian
+|-damage|p1a: Persian|132\/265
+|-message|Freeze Clause activated.
+|
+|turn|10
+|
+|move|p1a: Persian|Bubble Beam|p2a: Omanyte
+|-damage|p2a: Omanyte|97\/262
+|move|p2a: Omanyte|Seismic Toss|p1a: Persian
+|-damage|p1a: Persian|36\/265
+|
+|turn|11
+|
+|move|p1a: Persian|Bubble Beam|p2a: Omanyte
+|-damage|p2a: Omanyte|67\/262
+|move|p2a: Omanyte|Seismic Toss|p1a: Persian
+|-damage|p1a: Persian|0 fnt
+|faint|p1a: Persian
+|
+|switch|p1a: Tentacool|Tentacool, L96|272\/272
+|turn|12
+|
+|move|p1a: Tentacool|Hydro Pump|p2a: Omanyte
+|-damage|p2a: Omanyte|0 fnt
+|faint|p2a: Omanyte
+|
+|switch|p2a: Oddish|Oddish, L96|281\/281
+|turn|13
+|
+|move|p1a: Tentacool|Blizzard|p2a: Oddish
+|-supereffective|p2a: Oddish
+|-damage|p2a: Oddish|80\/281
+|move|p2a: Oddish|Sleep Powder|p1a: Tentacool|[miss]
+|-miss|p2a: Oddish
+|
+|turn|14
+|
+|move|p1a: Tentacool|Blizzard|p2a: Oddish
+|-supereffective|p2a: Oddish
+|-damage|p2a: Oddish|0 fnt
+|faint|p2a: Oddish
+|
+|switch|p2a: Starmie|Starmie, L79|257\/257
+|turn|15
+|
+|move|p2a: Starmie|Thunder Wave|p1a: Tentacool
+|-status|p1a: Tentacool|par
+|move|p1a: Tentacool|Blizzard|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|200\/257
+|
+|turn|16
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Tentacool
+|-supereffective|p1a: Tentacool
+|-damage|p1a: Tentacool|165\/272 par
+|move|p1a: Tentacool|Blizzard|p2a: Starmie
+|-crit|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|88\/257
+|
+|turn|17
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|216\/257
+|move|p1a: Tentacool|Blizzard|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|159\/257
+|-status|p2a: Starmie|frz
+|
+|turn|18
+|
+|switch|p1a: Articuno|Articuno, L79|48\/304
+|cant|p2a: Starmie|frz
+|
+|turn|19
+|
+|switch|p2a: Flareon|Flareon, L90|300\/300
+|move|p1a: Articuno|Rest|p1a: Articuno
+|-status|p1a: Articuno|slp
+|-heal|p1a: Articuno|304\/304 slp|[silent]
+|-status|p1a: Articuno|slp|[from] move: Rest
+|
+|turn|20
+|
+|switch|p1a: Tentacool|Tentacool, L96|165\/272 par
+|move|p2a: Flareon|Fire Blast|p1a: Tentacool
+|-crit|p1a: Tentacool
+|-resisted|p1a: Tentacool
+|-damage|p1a: Tentacool|38\/272 par
+|
+|turn|21
+|
+|move|p2a: Flareon|Hyper Beam|p1a: Tentacool
+|-crit|p1a: Tentacool
+|-damage|p1a: Tentacool|0 fnt
+|faint|p1a: Tentacool
+|
+|switch|p1a: Ninetales|Ninetales, L85|298\/298
+|turn|22
+|
+|move|p1a: Ninetales|Confuse Ray|p2a: Flareon
+|-start|p2a: Flareon|confusion
+|-activate|p2a: Flareon|confusion
+|move|p2a: Flareon|Body Slam|p1a: Ninetales
+|-damage|p1a: Ninetales|203\/298
+|-status|p1a: Ninetales|par
+|
+|turn|23
+|
+|-activate|p2a: Flareon|confusion
+|move|p2a: Flareon|Body Slam|p1a: Ninetales
+|-damage|p1a: Ninetales|111\/298 par
+|move|p1a: Ninetales|Toxic|p2a: Flareon
+|-status|p2a: Flareon|tox
+|
+|turn|24
+|
+|-activate|p2a: Flareon|confusion
+|-damage|p2a: Flareon|249\/300 tox|[from] confusion
+|-damage|p2a: Flareon|231\/300 tox|[from] tox|[of] p1a: Ninetales
+|move|p1a: Ninetales|Reflect|p1a: Ninetales
+|-start|p1a: Ninetales|Reflect
+|
+|turn|25
+|
+|-activate|p2a: Flareon|confusion
+|move|p2a: Flareon|Fire Blast|p1a: Ninetales
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|39\/298 par
+|-damage|p2a: Flareon|195\/300 tox|[from] tox|[of] p1a: Ninetales
+|move|p1a: Ninetales|Fire Blast|p2a: Flareon
+|-resisted|p2a: Flareon
+|-damage|p2a: Flareon|138\/300 tox
+|
+|turn|26
+|
+|-end|p2a: Flareon|confusion
+|move|p2a: Flareon|Hyper Beam|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|switch|p1a: Ivysaur|Ivysaur, L85|65\/276 frz
+|turn|27
+|
+|switch|p2a: Mew|Mew, L74|30\/300
+|cant|p1a: Ivysaur|frz
+|
+|turn|28
+|
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|180\/300
+|cant|p1a: Ivysaur|frz
+|
+|turn|29
+|
+|switch|p1a: Articuno|Articuno, L79|304\/304 slp
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|300\/300
+|
+|turn|30
+|
+|move|p2a: Mew|Horn Drill|p1a: Articuno|[miss]
+|-miss|p2a: Mew
+|cant|p1a: Articuno|slp
+|
+|turn|31
+|
+|move|p2a: Mew|Thunderbolt|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|219\/304 slp
+|-curestatus|p1a: Articuno|slp
+|
+|turn|32
+|
+|move|p2a: Mew|Thunderbolt|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|127\/304
+|move|p1a: Articuno|Blizzard|p2a: Mew
+|-damage|p2a: Mew|154\/300
+|
+|turn|33
+|
+|move|p2a: Mew|Thunderbolt|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|34\/304
+|-status|p1a: Articuno|par
+|cant|p1a: Articuno|par
+|
+|turn|34
+|
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|300\/300
+|move|p1a: Articuno|Rest|p1a: Articuno
+|-status|p1a: Articuno|slp
+|-heal|p1a: Articuno|304\/304 slp|[silent]
+|-status|p1a: Articuno|slp|[from] move: Rest
+|
+|turn|35
+|
+|move|p2a: Mew|Horn Drill|p1a: Articuno
+|-damage|p1a: Articuno|0 fnt
+|-ohko
+|faint|p1a: Articuno
+|-message|johnhello forfeited.
+|
+|win|ASWRG
+|raw|Ladder updating...
+|leave|johnhello
+|player|p1
+|raw|johnhello's rating: 1270 &rarr; <strong>1233<\/strong><br \/>(-37 for losing)
+|raw|ASWRG's rating: 1098 &rarr; <strong>1135<\/strong><br \/>(+37 for winning)

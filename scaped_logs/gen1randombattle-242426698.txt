@@ -1,0 +1,366 @@
+﻿|join|AbstractBeholder
+|join|mackdaddyyoshi
+|player|p1|AbstractBeholder|238
+|player|p2|mackdaddyyoshi|10
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Mankey|Mankey, L96|272\/272
+|switch|p2a: Nidoran-M|Nidoran-M, L96|283\/283
+|turn|1
+|
+|move|p1a: Mankey|Rock Slide|p2a: Nidoran-M
+|-damage|p2a: Nidoran-M|197\/283
+|move|p2a: Nidoran-M|Substitute|p2a: Nidoran-M
+|-start|p2a: Nidoran-M|Substitute
+|-damage|p2a: Nidoran-M|127\/283
+|
+|turn|2
+|
+|move|p1a: Mankey|Rock Slide|p2a: Nidoran-M
+|-end|p2a: Nidoran-M|Substitute
+|move|p2a: Nidoran-M|Body Slam|p1a: Mankey
+|-damage|p1a: Mankey|192\/272
+|-status|p1a: Mankey|par
+|
+|turn|3
+|
+|move|p2a: Nidoran-M|Body Slam|p1a: Mankey
+|-damage|p1a: Mankey|113\/272 par
+|cant|p1a: Mankey|par
+|
+|turn|4
+|
+|move|p2a: Nidoran-M|Double-Edge|p1a: Mankey
+|-damage|p1a: Mankey|11\/272 par
+|-damage|p2a: Nidoran-M|102\/283|[from] recoil|[of] p1a: Mankey
+|cant|p1a: Mankey|par
+|
+|turn|5
+|
+|move|p2a: Nidoran-M|Substitute|p2a: Nidoran-M
+|-start|p2a: Nidoran-M|Substitute
+|-damage|p2a: Nidoran-M|32\/283
+|move|p1a: Mankey|Body Slam|p2a: Nidoran-M
+|-end|p2a: Nidoran-M|Substitute
+|
+|turn|6
+|
+|move|p2a: Nidoran-M|Rest|p2a: Nidoran-M
+|-status|p2a: Nidoran-M|slp
+|-heal|p2a: Nidoran-M|283\/283 slp|[silent]
+|-status|p2a: Nidoran-M|slp|[from] move: Rest
+|cant|p1a: Mankey|par
+|
+|turn|7
+|
+|cant|p2a: Nidoran-M|slp
+|move|p1a: Mankey|Mega Kick|p2a: Nidoran-M
+|-damage|p2a: Nidoran-M|148\/283 slp
+|
+|turn|8
+|
+|cant|p2a: Nidoran-M|slp
+|-curestatus|p2a: Nidoran-M|slp
+|cant|p1a: Mankey|par
+|
+|turn|9
+|
+|move|p2a: Nidoran-M|Body Slam|p1a: Mankey
+|-damage|p1a: Mankey|0 fnt
+|faint|p1a: Mankey
+|
+|switch|p1a: Nidoqueen|Nidoqueen, L85|327\/327
+|turn|10
+|
+|move|p1a: Nidoqueen|Earthquake|p2a: Nidoran-M
+|-supereffective|p2a: Nidoran-M
+|-damage|p2a: Nidoran-M|0 fnt
+|faint|p2a: Nidoran-M
+|
+|switch|p2a: Butterfree|Butterfree, L90|291\/291
+|turn|11
+|
+|move|p2a: Butterfree|Sleep Powder|p1a: Nidoqueen
+|-status|p1a: Nidoqueen|slp
+|cant|p1a: Nidoqueen|slp
+|
+|turn|12
+|
+|switch|p1a: Magmar|Magmar, L90|300\/300
+|move|p2a: Butterfree|Psychic|p1a: Magmar
+|-damage|p1a: Magmar|236\/300
+|
+|turn|13
+|
+|switch|p2a: Kabutops|Kabutops, L85|276\/276
+|move|p1a: Magmar|Fire Blast|p2a: Kabutops
+|-resisted|p2a: Kabutops
+|-damage|p2a: Kabutops|240\/276
+|
+|turn|14
+|
+|switch|p1a: Nidoqueen|Nidoqueen, L85|327\/327 slp
+|move|p2a: Kabutops|Surf|p1a: Nidoqueen
+|-supereffective|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|153\/327 slp
+|
+|turn|15
+|
+|move|p2a: Kabutops|Swords Dance|p2a: Kabutops
+|-boost|p2a: Kabutops|atk|2
+|cant|p1a: Nidoqueen|slp
+|
+|turn|16
+|
+|move|p2a: Kabutops|Surf|p1a: Nidoqueen
+|-supereffective|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|0 fnt
+|faint|p1a: Nidoqueen
+|
+|switch|p1a: Raichu|Raichu, L85|276\/276
+|turn|17
+|
+|switch|p2a: Marowak|Marowak, L90|291\/291
+|move|p1a: Raichu|Hyper Beam|p2a: Marowak
+|-crit|p2a: Marowak
+|-damage|p2a: Marowak|129\/291
+|
+|turn|18
+|-mustrecharge|p1a: Raichu
+|-mustrecharge|p1a: Raichu
+|
+|cant|p1a: Raichu|recharge
+|move|p2a: Marowak|Earthquake|p1a: Raichu
+|-supereffective|p1a: Raichu
+|-damage|p1a: Raichu|1\/276
+|
+|turn|19
+|
+|switch|p2a: Kabutops|Kabutops, L85|240\/276
+|move|p1a: Raichu|Hyper Beam|p2a: Kabutops
+|-resisted|p2a: Kabutops
+|-damage|p2a: Kabutops|195\/276
+|
+|turn|20
+|-mustrecharge|p1a: Raichu
+|-mustrecharge|p1a: Raichu
+|
+|cant|p1a: Raichu|recharge
+|move|p2a: Kabutops|Surf|p1a: Raichu
+|-damage|p1a: Raichu|0 fnt
+|faint|p1a: Raichu
+|
+|switch|p1a: Dragonite|Dragonite, L85|328\/328
+|turn|21
+|
+|move|p2a: Kabutops|Body Slam|p1a: Dragonite
+|-damage|p1a: Dragonite|267\/328
+|move|p1a: Dragonite|Substitute|p1a: Dragonite
+|-start|p1a: Dragonite|Substitute
+|-damage|p1a: Dragonite|185\/328
+|
+|turn|22
+|
+|move|p1a: Dragonite|Ice Beam|p2a: Kabutops
+|-resisted|p2a: Kabutops
+|-damage|p2a: Kabutops|153\/276
+|move|p2a: Kabutops|Swords Dance|p2a: Kabutops
+|-boost|p2a: Kabutops|atk|2
+|
+|turn|23
+|
+|move|p1a: Dragonite|Ice Beam|p2a: Kabutops
+|-resisted|p2a: Kabutops
+|-damage|p2a: Kabutops|113\/276
+|move|p2a: Kabutops|Body Slam|p1a: Dragonite
+|-end|p1a: Dragonite|Substitute
+|
+|turn|24
+|
+|move|p2a: Kabutops|Body Slam|p1a: Dragonite
+|-damage|p1a: Dragonite|64\/328
+|move|p1a: Dragonite|Hyper Beam|p2a: Kabutops
+|-resisted|p2a: Kabutops
+|-damage|p2a: Kabutops|56\/276
+|
+|turn|25
+|-mustrecharge|p1a: Dragonite
+|-mustrecharge|p1a: Dragonite
+|
+|cant|p1a: Dragonite|recharge
+|move|p2a: Kabutops|Body Slam|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|switch|p1a: Persian|Persian, L79|265\/265
+|turn|26
+|
+|move|p1a: Persian|Thunderbolt|p2a: Kabutops
+|-supereffective|p2a: Kabutops
+|-damage|p2a: Kabutops|0 fnt
+|faint|p2a: Kabutops
+|
+|switch|p2a: Snorlax|Snorlax, L79|415\/415
+|turn|27
+|
+|move|p1a: Persian|Screech|p2a: Snorlax
+|-unboost|p2a: Snorlax|def|2
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|
+|turn|28
+|
+|move|p1a: Persian|Slash|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|292\/415
+|move|p2a: Snorlax|Ice Beam|p1a: Persian
+|-damage|p1a: Persian|142\/265
+|
+|turn|29
+|
+|move|p1a: Persian|Slash|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|159\/415
+|move|p2a: Snorlax|Ice Beam|p1a: Persian
+|-damage|p1a: Persian|18\/265
+|
+|turn|30
+|
+|move|p1a: Persian|Slash|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|23\/415
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp
+|-heal|p2a: Snorlax|415\/415 slp|[silent]
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|
+|turn|31
+|
+|move|p1a: Persian|Slash|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|278\/415 slp
+|cant|p2a: Snorlax|slp
+|
+|turn|32
+|
+|move|p1a: Persian|Slash|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|148\/415 slp
+|cant|p2a: Snorlax|slp
+|-curestatus|p2a: Snorlax|slp
+|
+|turn|33
+|
+|move|p1a: Persian|Slash|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|6\/415
+|move|p2a: Snorlax|Surf|p1a: Persian
+|-damage|p1a: Persian|0 fnt
+|faint|p1a: Persian
+|
+|switch|p1a: Magmar|Magmar, L90|236\/300
+|turn|34
+|
+|move|p1a: Magmar|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|switch|p2a: Butterfree|Butterfree, L90|291\/291
+|turn|35
+|
+|move|p1a: Magmar|Fire Blast|p2a: Butterfree
+|-crit|p2a: Butterfree
+|-supereffective|p2a: Butterfree
+|-damage|p2a: Butterfree|0 fnt
+|faint|p2a: Butterfree
+|
+|switch|p2a: Marowak|Marowak, L90|129\/291
+|turn|36
+|
+|move|p1a: Magmar|Confuse Ray|p2a: Marowak
+|-start|p2a: Marowak|confusion
+|-activate|p2a: Marowak|confusion
+|-damage|p2a: Marowak|103\/291|[from] confusion
+|
+|turn|37
+|
+|move|p1a: Magmar|Body Slam|p2a: Marowak
+|-damage|p2a: Marowak|47\/291
+|-activate|p2a: Marowak|confusion
+|-damage|p2a: Marowak|21\/291|[from] confusion
+|
+|turn|38
+|
+|move|p1a: Magmar|Body Slam|p2a: Marowak
+|-damage|p2a: Marowak|0 fnt
+|faint|p2a: Marowak
+|
+|switch|p2a: Porygon|Porygon, L85|284\/284
+|turn|39
+|
+|move|p1a: Magmar|Confuse Ray|p2a: Porygon
+|-start|p2a: Porygon|confusion
+|-activate|p2a: Porygon|confusion
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-fail|p2a: Porygon
+|
+|turn|40
+|
+|move|p1a: Magmar|Fire Blast|p2a: Porygon
+|-damage|p2a: Porygon|145\/284
+|-activate|p2a: Porygon|confusion
+|move|p2a: Porygon|Tri Attack|p1a: Magmar
+|-damage|p1a: Magmar|159\/300
+|
+|turn|41
+|
+|move|p1a: Magmar|Fire Blast|p2a: Porygon
+|-damage|p2a: Porygon|9\/284
+|-end|p2a: Porygon|confusion
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|151\/284
+|
+|turn|42
+|
+|move|p1a: Magmar|Fire Blast|p2a: Porygon
+|-damage|p2a: Porygon|8\/284
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|150\/284
+|
+|turn|43
+|
+|move|p1a: Magmar|Confuse Ray|p2a: Porygon
+|-start|p2a: Porygon|confusion
+|-activate|p2a: Porygon|confusion
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|284\/284
+|
+|turn|44
+|
+|move|p1a: Magmar|Fire Blast|p2a: Porygon
+|-crit|p2a: Porygon
+|-damage|p2a: Porygon|24\/284
+|-status|p2a: Porygon|brn
+|-end|p2a: Porygon|confusion
+|move|p2a: Porygon|Sharpen|p2a: Porygon
+|-boost|p2a: Porygon|atk|1
+|-damage|p2a: Porygon|7\/284 brn|[from] brn
+|
+|turn|45
+|-message|mackdaddyyoshi forfeited.
+|
+|win|AbstractBeholder
+|raw|Ladder updating...
+|leave|mackdaddyyoshi
+|player|p2
+|raw|AbstractBeholder's rating: 1124 &rarr; <strong>1155<\/strong><br \/>(+31 for winning)
+|raw|mackdaddyyoshi's rating: 1211 &rarr; <strong>1179<\/strong><br \/>(-32 for losing)
+|c|★AbstractBeholder|Good game. You should have won.

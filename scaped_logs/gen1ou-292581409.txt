@@ -1,0 +1,539 @@
+﻿|join|tr0m
+|join|Hawkeyeone
+|player|p1|tr0m|1
+|player|p2|Hawkeyeone|161
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|seed|55188,10707,58873,62079
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jolteon|Jolteon|333\/333
+|switch|p2a: Clefable|Clefable|393\/393
+|turn|1
+|join|dtolbert3
+|leave|dtolbert3
+|choice|move 1|move 1
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Clefable
+|-damage|p2a: Clefable|253\/393
+|move|p2a: Clefable|Thunder Wave|p1a: Jolteon
+|-status|p1a: Jolteon|par
+|
+|turn|2
+|choice|switch 5|move 3
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Clefable|Ice Beam|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|175\/393
+|
+|turn|3
+|choice|move 1|move 1
+|
+|move|p2a: Clefable|Thunder Wave|p1a: Exeggutor
+|-status|p1a: Exeggutor|par
+|move|p1a: Exeggutor|Sleep Powder|p2a: Clefable|[miss]
+|-miss|p1a: Exeggutor
+|
+|turn|4
+|choice|move 1|move 3
+|
+|move|p2a: Clefable|Ice Beam|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|51\/393 par
+|move|p1a: Exeggutor|Sleep Powder|p2a: Clefable
+|-status|p2a: Clefable|slp
+|
+|turn|5
+|choice|move 3|move 3
+|
+|cant|p2a: Clefable|slp
+|move|p1a: Exeggutor|Psychic|p2a: Clefable
+|-damage|p2a: Clefable|114\/393 slp
+|-unboost|p2a: Clefable|spd|1
+|-unboost|p2a: Clefable|spa|1
+|
+|turn|6
+|choice|move 3|switch 4
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|move|p1a: Exeggutor|Psychic|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|264\/323
+|
+|turn|7
+|choice|switch 5|move 1
+|
+|switch|p1a: Jolteon|Jolteon|333\/333 par
+|move|p2a: Starmie|Surf|p1a: Jolteon
+|-damage|p1a: Jolteon|234\/333 par
+|
+|turn|8
+|choice|move 2|switch 3
+|
+|switch|p2a: Rhydon|Rhydon|413\/413
+|move|p1a: Jolteon|Thunder Wave|p2a: Rhydon
+|-immune|p2a: Rhydon|[msg]
+|
+|turn|9
+|choice|switch 2|move 3
+|
+|switch|p1a: Articuno|Articuno|383\/383
+|move|p2a: Rhydon|Substitute|p2a: Rhydon
+|-start|p2a: Rhydon|Substitute
+|-damage|p2a: Rhydon|310\/413
+|
+|turn|10
+|choice|move 1|move 2
+|
+|move|p1a: Articuno|Ice Beam|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-end|p2a: Rhydon|Substitute
+|move|p2a: Rhydon|Rock Slide|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|0 fnt
+|faint|p1a: Articuno
+|choice|switch 4|
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|turn|11
+|choice|move 3|switch 6
+|
+|switch|p2a: Venusaur|Venusaur|363\/363
+|move|p1a: Chansey|Seismic Toss|p2a: Venusaur
+|-damage|p2a: Venusaur|263\/363
+|
+|turn|12
+|choice|switch 2|move 2
+|
+|switch|p1a: Jolteon|Jolteon|234\/333 par
+|move|p2a: Venusaur|Sleep Powder|p1a: Jolteon|[miss]
+|-miss|p2a: Venusaur
+|
+|turn|13
+|choice|switch 3|switch 6
+|
+|switch|p2a: Rhydon|Rhydon|310\/413
+|switch|p1a: Snorlax|Snorlax|523\/523
+|
+|turn|14
+|choice|move 1|move 1
+|
+|move|p2a: Rhydon|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|346\/523
+|move|p1a: Snorlax|Body Slam|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|263\/413
+|
+|turn|15
+|choice|move 2|move 3
+|
+|move|p2a: Rhydon|Substitute|p2a: Rhydon
+|-start|p2a: Rhydon|Substitute
+|-damage|p2a: Rhydon|160\/413
+|move|p1a: Snorlax|Self-Destruct|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-end|p2a: Rhydon|Substitute
+|
+|turn|16
+|choice|switch 6|move 1
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|move|p2a: Rhydon|Earthquake|p1a: Tauros
+|-damage|p1a: Tauros|219\/353
+|
+|turn|17
+|choice|move 3|move 1
+|
+|move|p1a: Tauros|Blizzard|p2a: Rhydon
+|-crit|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|choice||switch 3
+|
+|switch|p2a: Starmie|Starmie|264\/323
+|turn|18
+|choice|switch 2|switch 5
+|
+|switch|p2a: Persian|Persian|333\/333
+|switch|p1a: Chansey|Chansey|703\/703
+|
+|turn|19
+|choice|move 2|move 4
+|
+|move|p2a: Persian|Screech|p1a: Chansey|[miss]
+|-miss|p2a: Persian
+|move|p1a: Chansey|Counter|p2a: Persian
+|-fail|p1a: Chansey
+|
+|turn|20
+|choice|move 3|move 4
+|
+|move|p2a: Persian|Screech|p1a: Chansey|[miss]
+|-miss|p2a: Persian
+|move|p1a: Chansey|Seismic Toss|p2a: Persian
+|-damage|p2a: Persian|233\/333
+|
+|turn|21
+|choice|move 3|move 4
+|
+|move|p2a: Persian|Screech|p1a: Chansey
+|-unboost|p1a: Chansey|def|2
+|move|p1a: Chansey|Seismic Toss|p2a: Persian
+|-damage|p2a: Persian|133\/333
+|
+|turn|22
+|choice|switch 6|move 2
+|
+|switch|p1a: Snorlax|Snorlax|346\/523
+|move|p2a: Persian|Hyper Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|147\/523
+|
+|turn|23
+|-mustrecharge|p2a: Persian
+|-mustrecharge|p2a: Persian
+|choice|move 4|move 1
+|
+|cant|p2a: Persian|recharge
+|move|p1a: Snorlax|Counter|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|faint|p2a: Persian
+|choice||switch 2
+|
+|switch|p2a: Dugtrio|Dugtrio|273\/273
+|turn|24
+|choice|move 2|move 2
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|19\/523
+|move|p1a: Snorlax|Self-Destruct|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|faint|p1a: Snorlax
+|choice|switch 3|switch 5
+|
+|switch|p2a: Starmie|Starmie|264\/323
+|switch|p1a: Jolteon|Jolteon|234\/333 par
+|turn|25
+|choice|move 2|move 1
+|
+|move|p2a: Starmie|Surf|p1a: Jolteon
+|-crit|p1a: Jolteon
+|-damage|p1a: Jolteon|46\/333 par
+|move|p1a: Jolteon|Thunder Wave|p2a: Starmie
+|-status|p2a: Starmie|par
+|
+|turn|26
+|choice|move 1|move 1
+|
+|cant|p1a: Jolteon|par
+|move|p2a: Starmie|Surf|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|choice|switch 6|
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|turn|27
+|choice|move 3|move 3
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|164\/323 par
+|move|p2a: Starmie|Blizzard|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|530\/703
+|
+|turn|28
+|choice|move 3|move 4
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|64\/323 par
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|225\/323 par
+|
+|turn|29
+|choice|move 3|move 4
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|125\/323 par
+|cant|p2a: Starmie|par
+|
+|turn|30
+|choice|move 3|move 4
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|25\/323 par
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|186\/323 par
+|
+|turn|31
+|choice|move 3|move 4
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|86\/323 par
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|247\/323 par
+|
+|turn|32
+|choice|move 3|move 4
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|147\/323 par
+|cant|p2a: Starmie|par
+|
+|turn|33
+|choice|move 3|move 4
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|47\/323 par
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|208\/323 par
+|
+|turn|34
+|choice|move 3|move 4
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|108\/323 par
+|cant|p2a: Starmie|par
+|
+|turn|35
+|choice|move 3|move 4
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|8\/323 par
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|169\/323 par
+|
+|turn|36
+|choice|move 3|move 4
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|69\/323 par
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|230\/323 par
+|
+|turn|37
+|choice|move 3|move 4
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|130\/323 par
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|291\/323 par
+|
+|turn|38
+|choice|move 3|move 4
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|191\/323 par
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|323\/323 par
+|
+|turn|39
+|choice|move 3|move 3
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|223\/323 par
+|move|p2a: Starmie|Blizzard|p1a: Chansey|[miss]
+|-miss|p2a: Starmie
+|
+|turn|40
+|choice|move 3|move 4
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|123\/323 par
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|284\/323 par
+|
+|turn|41
+|choice|move 3|move 4
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|184\/323 par
+|cant|p2a: Starmie|par
+|
+|turn|42
+|choice|move 3|move 4
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|84\/323 par
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|245\/323 par
+|
+|turn|43
+|choice|move 3|move 4
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|145\/323 par
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|306\/323 par
+|
+|turn|44
+|choice|move 3|move 4
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|206\/323 par
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|323\/323 par
+|
+|turn|45
+|choice|move 3|move 3
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|223\/323 par
+|move|p2a: Starmie|Blizzard|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|341\/703
+|
+|turn|46
+|choice|move 4|move 4
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|692\/703
+|cant|p2a: Starmie|par
+|
+|turn|47
+|choice|move 3|move 4
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|123\/323 par
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|284\/323 par
+|
+|turn|48
+|choice|move 3|move 3
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|184\/323 par
+|move|p2a: Starmie|Blizzard|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|507\/703
+|
+|turn|49
+|choice|move 3|move 4
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|84\/323 par
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|245\/323 par
+|
+|turn|50
+|choice|move 3|move 4
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|145\/323 par
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|306\/323 par
+|
+|turn|51
+|choice|move 3|move 3
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|206\/323 par
+|move|p2a: Starmie|Blizzard|p1a: Chansey|[miss]
+|-miss|p2a: Starmie
+|
+|turn|52
+|choice|move 3|move 4
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|106\/323 par
+|cant|p2a: Starmie|par
+|
+|turn|53
+|choice|move 3|move 4
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|6\/323 par
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|167\/323 par
+|
+|turn|54
+|choice|move 3|move 4
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|67\/323 par
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|228\/323 par
+|
+|turn|55
+|c|★tr0m|wut..
+|choice|move 3|move 4
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|128\/323 par
+|cant|p2a: Starmie|par
+|
+|turn|56
+|c|★Hawkeyeone|hail starmie
+|choice|move 3|move 4
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|28\/323 par
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|189\/323 par
+|
+|turn|57
+|c|★tr0m|what the fuck
+|choice|switch 5|move 4
+|
+|switch|p1a: Exeggutor|Exeggutor|51\/393 par
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|323\/323 par
+|
+|turn|58
+|choice|move 2|switch 4
+|
+|switch|p2a: Clefable|Clefable|114\/393 slp
+|move|p1a: Exeggutor|Explosion|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|faint|p1a: Exeggutor
+|choice|switch 5|switch 4
+|
+|switch|p1a: Chansey|Chansey|507\/703
+|switch|p2a: Starmie|Starmie|323\/323 par
+|turn|59
+|choice|switch 2|move 3
+|
+|switch|p1a: Tauros|Tauros|219\/353
+|move|p2a: Starmie|Blizzard|p1a: Tauros
+|-damage|p1a: Tauros|91\/353
+|
+|turn|60
+|c|★tr0m|gg
+|choice|move 1|move 1
+|
+|move|p1a: Tauros|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|209\/323 par
+|move|p2a: Starmie|Surf|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|choice|switch 2|
+|
+|switch|p1a: Chansey|Chansey|507\/703
+|turn|61
+|choice|move 1|move 4
+|
+|move|p1a: Chansey|Sing|p2a: Starmie
+|-fail|p2a: Starmie
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|323\/323 par
+|
+|turn|62
+|-message|tr0m forfeited.
+|
+|win|Hawkeyeone
+|leave|tr0m
+|player|p1
+|raw|tr0m's rating: 1384 &rarr; <strong>1355<\/strong><br \/>(-29 for losing)
+|raw|Hawkeyeone's rating: 1209 &rarr; <strong>1245<\/strong><br \/>(+36 for winning)

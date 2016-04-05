@@ -1,0 +1,263 @@
+﻿|j|vsterel
+|j|AitorMaster
+|player|p1|vsterel|266
+|player|p2|AitorMaster|169
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|42118,32499,11181,13635
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Ditto|Ditto, L99|296\/296
+|switch|p2a: Fearow|Fearow, L90|300\/300
+|turn|1
+|choice|move 1|move 1
+|
+|move|p2a: Fearow|Double-Edge|p1a: Ditto
+|-damage|p1a: Ditto|168\/296
+|-damage|p2a: Fearow|268\/300|[from] recoil|[of] p1a: Ditto
+|move|p1a: Ditto|Transform|p2a: Fearow
+|-transform|p1a: Ditto|p2a: Fearow
+|
+|turn|2
+|choice|move 1|move 1
+|
+|move|p2a: Fearow|Double-Edge|p1a: Ditto
+|-damage|p1a: Ditto|29\/296
+|-damage|p2a: Fearow|234\/300|[from] recoil|[of] p1a: Ditto
+|move|p1a: Ditto|Double-Edge|p2a: Fearow
+|-damage|p2a: Fearow|117\/300
+|-damage|p1a: Ditto|0 fnt|[from] recoil|[of] p2a: Fearow
+|faint|p1a: Ditto
+|choice|switch 6|
+|
+|switch|p1a: Zapdos|Zapdos, L79|304\/304
+|turn|3
+|choice|move 4|switch 2
+|
+|switch|p2a: Kakuna|Kakuna, L99|290\/290
+|move|p1a: Zapdos|Thunder Wave|p2a: Kakuna
+|-status|p2a: Kakuna|par
+|
+|turn|4
+|choice|move 1|move 1
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Kakuna
+|-crit|p2a: Kakuna
+|-damage|p2a: Kakuna|0 fnt
+|faint|p2a: Kakuna
+|choice||switch 3
+|
+|switch|p2a: Exeggutor|Exeggutor, L79|312\/312
+|turn|5
+|choice|move 3|move 1
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|167\/312
+|move|p2a: Exeggutor|Sleep Powder|p1a: Zapdos
+|-status|p1a: Zapdos|slp
+|
+|turn|6
+|choice|move 3|move 4
+|
+|cant|p1a: Zapdos|slp
+|move|p2a: Exeggutor|Psychic|p1a: Zapdos
+|-damage|p1a: Zapdos|222\/304 slp
+|
+|turn|7
+|choice|move 3|move 4
+|
+|cant|p1a: Zapdos|slp
+|move|p2a: Exeggutor|Psychic|p1a: Zapdos
+|-damage|p1a: Zapdos|135\/304 slp
+|
+|turn|8
+|choice|move 4|move 4
+|
+|-curestatus|p1a: Zapdos|slp
+|move|p2a: Exeggutor|Psychic|p1a: Zapdos
+|-damage|p1a: Zapdos|46\/304
+|-unboost|p1a: Zapdos|spd|1
+|-unboost|p1a: Zapdos|spa|1
+|
+|turn|9
+|choice|move 3|move 4
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|2\/312
+|move|p2a: Exeggutor|Psychic|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|choice|switch 5|
+|
+|switch|p1a: Mew|Mew, L74|300\/300
+|turn|10
+|choice|move 4|switch 4
+|
+|switch|p2a: Articuno|Articuno, L79|304\/304
+|move|p1a: Mew|Thunderbolt|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|215\/304
+|
+|turn|11
+|choice|move 4|move 1
+|
+|move|p1a: Mew|Thunderbolt|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|120\/304
+|move|p2a: Articuno|Ice Beam|p1a: Mew
+|-damage|p1a: Mew|190\/300
+|
+|turn|12
+|choice|move 4|move 1
+|
+|move|p1a: Mew|Thunderbolt|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|29\/304
+|-status|p2a: Articuno|par
+|move|p2a: Articuno|Ice Beam|p1a: Mew
+|-damage|p1a: Mew|81\/300
+|
+|turn|13
+|choice|move 3|move 1
+|
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|231\/300
+|move|p2a: Articuno|Ice Beam|p1a: Mew
+|-damage|p1a: Mew|124\/300
+|
+|turn|14
+|choice|move 3|move 1
+|
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|274\/300
+|cant|p2a: Articuno|par
+|
+|turn|15
+|choice|move 4|move 1
+|
+|move|p1a: Mew|Thunderbolt|p2a: Articuno
+|-crit|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|faint|p2a: Articuno
+|choice||switch 6
+|
+|switch|p2a: Jolteon|Jolteon, L79|265\/265
+|turn|16
+|choice|move 4|move 1
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Mew
+|-damage|p1a: Mew|180\/300
+|move|p1a: Mew|Thunderbolt|p2a: Jolteon
+|-resisted|p2a: Jolteon
+|-damage|p2a: Jolteon|241\/265
+|
+|turn|17
+|choice|move 3|move 1
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Mew
+|-crit|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|choice|switch 3|
+|
+|switch|p1a: Gengar|Gengar, L79|257\/257
+|turn|18
+|choice|move 1|move 1
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Gengar
+|-damage|p1a: Gengar|175\/257
+|move|p1a: Gengar|Hypnosis|p2a: Jolteon
+|-status|p2a: Jolteon|slp
+|
+|turn|19
+|choice|move 3|switch 4
+|
+|switch|p2a: Exeggutor|Exeggutor, L79|2\/312
+|move|p1a: Gengar|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|choice||switch 5
+|
+|switch|p2a: Tauros|Tauros, L79|280\/280
+|turn|20
+|choice|move 2|move 3
+|
+|move|p1a: Gengar|Explosion|p2a: Tauros
+|-damage|p2a: Tauros|125\/280
+|faint|p1a: Gengar
+|choice|switch 4|
+|
+|switch|p1a: Starmie|Starmie, L79|257\/257
+|turn|21
+|choice|move 4|move 2
+|
+|move|p1a: Starmie|Surf|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|choice||switch 4
+|
+|switch|p2a: Jolteon|Jolteon, L79|241\/265 slp
+|turn|22
+|choice|move 4|move 1
+|
+|cant|p2a: Jolteon|slp
+|move|p1a: Starmie|Surf|p2a: Jolteon
+|-crit|p2a: Jolteon
+|-damage|p2a: Jolteon|75\/265 slp
+|
+|turn|23
+|choice|move 4|move 1
+|
+|cant|p2a: Jolteon|slp
+|move|p1a: Starmie|Surf|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|choice||switch 2
+|
+|switch|p2a: Fearow|Fearow, L90|117\/300
+|turn|24
+|choice|move 2|move 2
+|
+|move|p2a: Fearow|Hyper Beam|p1a: Starmie
+|-crit|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|choice|switch 2|
+|
+|switch|p1a: Persian|Persian, L79|265\/265
+|turn|25
+|choice|move 1|move 2
+|
+|move|p2a: Fearow|Hyper Beam|p1a: Persian|[miss]
+|-miss|p2a: Fearow
+|move|p1a: Persian|Slash|p2a: Fearow
+|-crit|p2a: Fearow
+|-damage|p2a: Fearow|4\/300
+|
+|turn|26
+|choice|move 1|move 2
+|
+|move|p2a: Fearow|Hyper Beam|p1a: Persian
+|-damage|p1a: Persian|53\/265
+|move|p1a: Persian|Slash|p2a: Fearow
+|-crit|p2a: Fearow
+|-damage|p2a: Fearow|0 fnt
+|faint|p2a: Fearow
+|
+|win|vsterel
+|player|p1
+|player|p2
+|raw|vsterel's rating: 1457 &rarr; <strong>1470<\/strong><br \/>(+13 for winning)
+|raw|AitorMaster's rating: 1327 &rarr; <strong>1314<\/strong><br \/>(-13 for losing)
+|l|AitorMaster

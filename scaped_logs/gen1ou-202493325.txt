@@ -1,0 +1,44 @@
+﻿|join|ggc
+|join|Satalin
+|player|p1|ggc|209
+|player|p2|Satalin|289
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gengar|Gengar|323\/323
+|switch|p2a: Persian|Persian|333\/333
+|turn|1
+|
+|switch|p2a: Cloyster|Cloyster|303\/303
+|move|p1a: Gengar|Hypnosis|p2a: Cloyster|[miss]
+|-miss|p1a: Gengar
+|
+|turn|2
+|
+|move|p1a: Gengar|Hypnosis|p2a: Cloyster
+|-status|p2a: Cloyster|slp
+|cant|p2a: Cloyster|slp
+|
+|turn|3
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|move|p1a: Gengar|Thunderbolt|p2a: Starmie
+|-crit|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|-message|Satalin forfeited.
+|leave|Satalin
+|
+|win|ggc
+|raw|Ladder updating...
+|player|p2

@@ -1,0 +1,268 @@
+﻿|join|MALESANI
+|join|PeteTheCat
+|player|p1|MALESANI|238
+|player|p2|PeteTheCat|184
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|2366,6567,45645,45604
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Sandshrew|Sandshrew, L96|291\/291
+|switch|p2a: Kabuto|Kabuto, L96|252\/252
+|turn|1
+|choice|switch 5|move 2
+|
+|switch|p1a: Electrode|Electrode, L90|291\/291
+|move|p2a: Kabuto|Surf|p1a: Electrode
+|-crit|p1a: Electrode
+|-damage|p1a: Electrode|139\/291
+|
+|turn|2
+|choice|move 4|move 2
+|
+|move|p1a: Electrode|Thunderbolt|p2a: Kabuto
+|-supereffective|p2a: Kabuto
+|-damage|p2a: Kabuto|0 fnt
+|faint|p2a: Kabuto
+|choice||switch 4
+|
+|switch|p2a: Machoke|Machoke, L85|310\/310
+|turn|3
+|choice|switch 5|move 4
+|
+|switch|p1a: Sandshrew|Sandshrew, L96|291\/291
+|move|p2a: Machoke|Earthquake|p1a: Sandshrew
+|-damage|p1a: Sandshrew|221\/291
+|
+|turn|4
+|choice|move 3|move 3
+|
+|move|p1a: Sandshrew|Body Slam|p2a: Machoke
+|-damage|p2a: Machoke|235\/310
+|move|p2a: Machoke|Mega Kick|p1a: Sandshrew|[miss]
+|-miss|p2a: Machoke
+|
+|turn|5
+|choice|move 1|move 3
+|
+|move|p1a: Sandshrew|Earthquake|p2a: Machoke
+|-damage|p2a: Machoke|105\/310
+|move|p2a: Machoke|Mega Kick|p1a: Sandshrew
+|-damage|p1a: Sandshrew|144\/291
+|
+|turn|6
+|choice|move 1|switch 2
+|
+|switch|p2a: Golbat|Golbat, L90|318\/318
+|move|p1a: Sandshrew|Earthquake|p2a: Golbat
+|-immune|p2a: Golbat|[msg]
+|
+|turn|7
+|choice|switch 5|move 4
+|
+|switch|p1a: Electrode|Electrode, L90|139\/291
+|move|p2a: Golbat|Confuse Ray|p1a: Electrode
+|-start|p1a: Electrode|confusion
+|
+|turn|8
+|choice|move 4|switch 5
+|
+|switch|p2a: Raichu|Raichu, L85|276\/276
+|-activate|p1a: Electrode|confusion
+|-damage|p1a: Electrode|112\/291|[from] confusion
+|
+|turn|9
+|choice|switch 2|move 2
+|
+|switch|p1a: Wigglytuff|Wigglytuff, L90|435\/435
+|move|p2a: Raichu|Body Slam|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|352\/435
+|
+|turn|10
+|choice|move 4|move 4
+|
+|move|p2a: Raichu|Thunder Wave|p1a: Wigglytuff
+|-status|p1a: Wigglytuff|par
+|move|p1a: Wigglytuff|Double-Edge|p2a: Raichu
+|-damage|p2a: Raichu|158\/276
+|-damage|p1a: Wigglytuff|323\/435 par|[from] recoil|[of] p2a: Raichu
+|
+|turn|11
+|choice|move 1|move 2
+|
+|move|p2a: Raichu|Body Slam|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|248\/435 par
+|move|p1a: Wigglytuff|Blizzard|p2a: Raichu|[miss]
+|-miss|p1a: Wigglytuff
+|
+|turn|12
+|choice|move 4|move 2
+|
+|move|p2a: Raichu|Body Slam|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|170\/435 par
+|move|p1a: Wigglytuff|Double-Edge|p2a: Raichu
+|-damage|p2a: Raichu|23\/276
+|-damage|p1a: Wigglytuff|137\/435 par|[from] recoil|[of] p2a: Raichu
+|
+|turn|13
+|choice|move 3|move 3
+|
+|move|p2a: Raichu|Hyper Beam|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|0 fnt
+|faint|p1a: Wigglytuff
+|choice|switch 2|
+|
+|switch|p1a: Electrode|Electrode, L90|112\/291
+|turn|14
+|choice|move 4|move 3
+|
+|move|p1a: Electrode|Thunderbolt|p2a: Raichu
+|-crit|p2a: Raichu
+|-resisted|p2a: Raichu
+|-damage|p2a: Raichu|0 fnt
+|faint|p2a: Raichu
+|choice||switch 6
+|
+|switch|p2a: Lickitung|Lickitung, L90|345\/345
+|turn|15
+|choice|switch 5|move 4
+|
+|switch|p1a: Sandshrew|Sandshrew, L96|144\/291
+|move|p2a: Lickitung|Earthquake|p1a: Sandshrew
+|-damage|p1a: Sandshrew|94\/291
+|
+|turn|16
+|choice|move 2|move 1
+|
+|move|p1a: Sandshrew|Rock Slide|p2a: Lickitung
+|-damage|p2a: Lickitung|283\/345
+|move|p2a: Lickitung|Swords Dance|p2a: Lickitung
+|-boost|p2a: Lickitung|atk|2
+|
+|turn|17
+|choice|move 1|move 2
+|
+|move|p1a: Sandshrew|Earthquake|p2a: Lickitung
+|-damage|p2a: Lickitung|158\/345
+|move|p2a: Lickitung|Body Slam|p1a: Sandshrew
+|-damage|p1a: Sandshrew|0 fnt
+|faint|p1a: Sandshrew
+|choice|switch 3|
+|
+|switch|p1a: Primeape|Primeape, L90|300\/300
+|turn|18
+|choice|move 1|move 4
+|
+|move|p1a: Primeape|Mega Kick|p2a: Lickitung
+|-damage|p2a: Lickitung|45\/345
+|move|p2a: Lickitung|Earthquake|p1a: Primeape
+|-crit|p1a: Primeape
+|-damage|p1a: Primeape|173\/300
+|
+|turn|19
+|choice|move 2|move 3
+|
+|move|p1a: Primeape|Body Slam|p2a: Lickitung
+|-damage|p2a: Lickitung|0 fnt
+|faint|p2a: Lickitung
+|choice||switch 5
+|
+|switch|p2a: Golbat|Golbat, L90|318\/318
+|turn|20
+|choice|move 4|move 4
+|
+|move|p1a: Primeape|Rock Slide|p2a: Golbat
+|-supereffective|p2a: Golbat
+|-damage|p2a: Golbat|178\/318
+|move|p2a: Golbat|Confuse Ray|p1a: Primeape
+|-start|p1a: Primeape|confusion
+|
+|turn|21
+|choice|move 2|move 1
+|
+|-activate|p1a: Primeape|confusion
+|-damage|p1a: Primeape|129\/300|[from] confusion
+|move|p2a: Golbat|Double-Edge|p1a: Primeape
+|-damage|p1a: Primeape|43\/300
+|-damage|p2a: Golbat|157\/318|[from] recoil|[of] p1a: Primeape
+|
+|turn|22
+|choice|move 3|move 1
+|
+|-activate|p1a: Primeape|confusion
+|-damage|p1a: Primeape|0 fnt|[from] confusion
+|faint|p1a: Primeape
+|choice|switch 5|
+|
+|switch|p1a: Electrode|Electrode, L90|112\/291
+|turn|23
+|choice|move 4|move 3
+|
+|move|p1a: Electrode|Thunderbolt|p2a: Golbat
+|-supereffective|p2a: Golbat
+|-damage|p2a: Golbat|0 fnt
+|faint|p2a: Golbat
+|choice||switch 3
+|
+|switch|p2a: Raticate|Raticate, L85|267\/267
+|turn|24
+|choice|move 4|move 3
+|
+|move|p1a: Electrode|Thunderbolt|p2a: Raticate
+|-damage|p2a: Raticate|118\/267
+|move|p2a: Raticate|Blizzard|p1a: Electrode
+|-crit|p1a: Electrode
+|-damage|p1a: Electrode|0 fnt
+|faint|p1a: Electrode
+|choice|switch 6|
+|
+|switch|p1a: Hitmonchan|Hitmonchan, L90|273\/273
+|turn|25
+|choice|move 3|move 1
+|
+|move|p2a: Raticate|Super Fang|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|137\/273
+|move|p1a: Hitmonchan|Submission|p2a: Raticate
+|-supereffective|p2a: Raticate
+|-damage|p2a: Raticate|0 fnt
+|-damage|p1a: Hitmonchan|108\/273|[from] recoil|[of] p2a: Raticate
+|faint|p2a: Raticate
+|choice||switch 2
+|
+|switch|p2a: Machoke|Machoke, L85|105\/310
+|turn|26
+|choice|move 2|move 4
+|
+|move|p1a: Hitmonchan|Seismic Toss|p2a: Machoke
+|-damage|p2a: Machoke|15\/310
+|move|p2a: Machoke|Earthquake|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|33\/273
+|
+|turn|27
+|c|★PeteTheCat|gg
+|choice|move 4|move 4
+|
+|move|p2a: Machoke|Earthquake|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|0 fnt
+|faint|p1a: Hitmonchan
+|choice|switch 4|
+|
+|switch|p1a: Ponyta|Ponyta, L96|291\/291
+|turn|28
+|choice|move 1|move 4
+|
+|move|p1a: Ponyta|Toxic|p2a: Machoke
+|-status|p2a: Machoke|tox
+|move|p2a: Machoke|Earthquake|p1a: Ponyta
+|-supereffective|p1a: Ponyta
+|-damage|p1a: Ponyta|127\/291
+|-damage|p2a: Machoke|0 fnt|[from] tox|[of] p1a: Ponyta
+|faint|p2a: Machoke
+|
+|win|MALESANI
+|c|★MALESANI|no...

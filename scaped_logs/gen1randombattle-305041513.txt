@@ -1,0 +1,299 @@
+﻿|j|MALESANI
+|j|BritishCanadian
+|player|p1|MALESANI|238
+|player|p2|BritishCanadian|265
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|50893,47575,56083,34634
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Pidgey|Pidgey, L96|272\/272
+|switch|p2a: Starmie|Starmie, L79|257\/257
+|turn|1
+|choice|move 4|move 3
+|
+|move|p2a: Starmie|Blizzard|p1a: Pidgey|[miss]
+|-miss|p2a: Starmie
+|move|p1a: Pidgey|Mirror Move|p1a: Pidgey
+|move|p1a: Pidgey|Blizzard|p2a: Starmie|[from]Mirror Move
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|228\/257
+|
+|turn|2
+|choice|move 2|move 3
+|
+|move|p2a: Starmie|Blizzard|p1a: Pidgey
+|-supereffective|p1a: Pidgey
+|-damage|p1a: Pidgey|37\/272
+|move|p1a: Pidgey|Sand Attack|p2a: Starmie
+|-unboost|p2a: Starmie|accuracy|1
+|
+|turn|3
+|choice|move 1|move 2
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Pidgey
+|-supereffective|p1a: Pidgey
+|-damage|p1a: Pidgey|0 fnt
+|faint|p1a: Pidgey
+|choice|switch 2|
+|
+|switch|p1a: Dratini|Dratini, L96|274\/274
+|turn|4
+|choice|move 2|switch 5
+|
+|switch|p2a: Porygon|Porygon, L85|284\/284
+|move|p1a: Dratini|Thunder Wave|p2a: Porygon
+|-status|p2a: Porygon|par
+|
+|turn|5
+|choice|move 1|move 2
+|
+|move|p1a: Dratini|Blizzard|p2a: Porygon
+|-damage|p2a: Porygon|207\/284 par
+|move|p2a: Porygon|Blizzard|p1a: Dratini
+|-supereffective|p1a: Dratini
+|-damage|p1a: Dratini|103\/274
+|
+|turn|6
+|choice|move 3|move 3
+|
+|move|p1a: Dratini|Thunder|p2a: Porygon
+|-damage|p2a: Porygon|130\/284 par
+|move|p2a: Porygon|Double-Edge|p1a: Dratini
+|-damage|p1a: Dratini|0 fnt
+|-damage|p2a: Porygon|105\/284 par|[from] recoil|[of] p1a: Dratini
+|faint|p1a: Dratini
+|choice|switch 3|
+|
+|switch|p1a: Magneton|Magneton, L90|273\/273
+|turn|7
+|choice|move 1|move 2
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Porygon
+|-damage|p2a: Porygon|0 fnt
+|faint|p2a: Porygon
+|choice||switch 6
+|
+|switch|p2a: Muk|Muk, L90|372\/372
+|turn|8
+|choice|move 3|move 3
+|
+|move|p1a: Magneton|Thunder Wave|p2a: Muk
+|-status|p2a: Muk|par
+|cant|p2a: Muk|par
+|
+|turn|9
+|choice|switch 4|move 3
+|
+|switch|p1a: Machamp|Machamp, L90|345\/345
+|cant|p2a: Muk|par
+|
+|turn|10
+|choice|move 1|move 2
+|
+|move|p1a: Machamp|Earthquake|p2a: Muk
+|-supereffective|p2a: Muk
+|-damage|p2a: Muk|170\/372 par
+|move|p2a: Muk|Body Slam|p1a: Machamp
+|-damage|p1a: Machamp|279\/345
+|
+|turn|11
+|choice|move 1|switch 2
+|
+|switch|p2a: Fearow|Fearow, L90|300\/300
+|move|p1a: Machamp|Earthquake|p2a: Fearow
+|-immune|p2a: Fearow|[msg]
+|
+|turn|12
+|choice|switch 5|move 3
+|
+|switch|p1a: Slowbro|Slowbro, L79|312\/312
+|move|p2a: Fearow|Mirror Move|p2a: Fearow
+|-fail|p2a: Fearow
+|
+|turn|13
+|choice|move 1|move 1
+|
+|move|p2a: Fearow|Drill Peck|p1a: Slowbro
+|-damage|p1a: Slowbro|231\/312
+|move|p1a: Slowbro|Thunder Wave|p2a: Fearow
+|-status|p2a: Fearow|par
+|
+|turn|14
+|choice|move 3|move 1
+|
+|move|p1a: Slowbro|Surf|p2a: Fearow
+|-damage|p2a: Fearow|210\/300 par
+|move|p2a: Fearow|Drill Peck|p1a: Slowbro
+|-damage|p1a: Slowbro|148\/312
+|
+|turn|15
+|choice|move 3|move 1
+|
+|move|p1a: Slowbro|Surf|p2a: Fearow
+|-damage|p2a: Fearow|111\/300 par
+|move|p2a: Fearow|Drill Peck|p1a: Slowbro
+|-damage|p1a: Slowbro|57\/312
+|
+|turn|16
+|choice|move 4|move 1
+|
+|move|p1a: Slowbro|Rest|p1a: Slowbro
+|-fail|p1a: Slowbro
+|move|p2a: Fearow|Drill Peck|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|choice|switch 4|
+|
+|switch|p1a: Magneton|Magneton, L90|273\/273
+|turn|17
+|choice|move 1|move 2
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Fearow
+|-supereffective|p2a: Fearow
+|-damage|p2a: Fearow|0 fnt
+|faint|p2a: Fearow
+|choice||switch 2
+|
+|switch|p2a: Muk|Muk, L90|170\/372 par
+|turn|18
+|choice|move 1|move 1
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Muk
+|-damage|p2a: Muk|21\/372 par
+|cant|p2a: Muk|par
+|
+|turn|19
+|choice|move 2|move 1
+|
+|move|p1a: Magneton|Double-Edge|p2a: Muk
+|-damage|p2a: Muk|0 fnt
+|-damage|p1a: Magneton|268\/273|[from] recoil|[of] p2a: Muk
+|faint|p2a: Muk
+|choice||switch 4
+|
+|switch|p2a: Dragonair|Dragonair, L85|277\/277
+|turn|20
+|choice|move 3|move 2
+|
+|move|p1a: Magneton|Thunder Wave|p2a: Dragonair
+|-status|p2a: Dragonair|par
+|move|p2a: Dragonair|Surf|p1a: Magneton
+|-damage|p1a: Magneton|222\/273
+|
+|turn|21
+|choice|switch 5|move 1
+|
+|switch|p1a: Machamp|Machamp, L90|279\/345
+|move|p2a: Dragonair|Body Slam|p1a: Machamp
+|-crit|p1a: Machamp
+|-damage|p1a: Machamp|175\/345
+|
+|turn|22
+|choice|move 1|move 1
+|
+|move|p1a: Machamp|Earthquake|p2a: Dragonair
+|-damage|p2a: Dragonair|168\/277 par
+|cant|p2a: Dragonair|par
+|
+|turn|23
+|choice|move 1|move 1
+|
+|move|p1a: Machamp|Earthquake|p2a: Dragonair
+|-damage|p2a: Dragonair|46\/277 par
+|move|p2a: Dragonair|Body Slam|p1a: Machamp
+|-damage|p1a: Machamp|114\/345
+|
+|turn|24
+|choice|move 1|move 1
+|
+|move|p1a: Machamp|Earthquake|p2a: Dragonair
+|-damage|p2a: Dragonair|0 fnt
+|faint|p2a: Dragonair
+|choice||switch 5
+|
+|switch|p2a: Starmie|Starmie, L79|228\/257
+|turn|25
+|choice|move 4|move 2
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Machamp
+|-damage|p1a: Machamp|47\/345
+|move|p1a: Machamp|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|142\/257
+|
+|turn|26
+|choice|move 4|move 2
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Machamp
+|-damage|p1a: Machamp|0 fnt
+|faint|p1a: Machamp
+|choice|switch 5|
+|
+|switch|p1a: Magneton|Magneton, L90|222\/273
+|turn|27
+|choice|move 3|move 3
+|
+|move|p2a: Starmie|Blizzard|p1a: Magneton
+|-damage|p1a: Magneton|167\/273
+|move|p1a: Magneton|Thunder Wave|p2a: Starmie
+|-status|p2a: Starmie|par
+|
+|turn|28
+|choice|move 1|move 3
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Starmie
+|-crit|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|choice||switch 3
+|
+|switch|p2a: Nidoran-F|Nidoran-F, L96|300\/300
+|turn|29
+|choice|move 3|move 2
+|
+|move|p1a: Magneton|Thunder Wave|p2a: Nidoran-F
+|-status|p2a: Nidoran-F|par
+|move|p2a: Nidoran-F|Substitute|p2a: Nidoran-F
+|-start|p2a: Nidoran-F|Substitute
+|-damage|p2a: Nidoran-F|225\/300 par
+|
+|turn|30
+|choice|switch 6|move 3
+|
+|switch|p1a: Magmar|Magmar, L90|300\/300
+|cant|p2a: Nidoran-F|par
+|
+|turn|31
+|choice|move 2|move 3
+|
+|move|p1a: Magmar|Body Slam|p2a: Nidoran-F
+|-end|p2a: Nidoran-F|Substitute
+|move|p2a: Nidoran-F|Double-Edge|p1a: Magmar
+|-damage|p1a: Magmar|223\/300
+|-damage|p2a: Nidoran-F|206\/300 par|[from] recoil|[of] p1a: Magmar
+|
+|turn|32
+|choice|move 4|move 1
+|
+|move|p1a: Magmar|Fire Blast|p2a: Nidoran-F
+|-damage|p2a: Nidoran-F|20\/300 par
+|cant|p2a: Nidoran-F|par
+|
+|turn|33
+|choice|move 2|move 3
+|
+|move|p1a: Magmar|Body Slam|p2a: Nidoran-F
+|-damage|p2a: Nidoran-F|0 fnt
+|faint|p2a: Nidoran-F
+|
+|win|MALESANI
+|raw|MALESANI's rating: 1321 &rarr; <strong>1328<\/strong><br \/>(+7 for winning)
+|raw|BritishCanadian's rating: 1074 &rarr; <strong>1066<\/strong><br \/>(-8 for losing)
+|l|BritishCanadian
+|player|p2

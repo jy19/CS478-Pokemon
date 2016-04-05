@@ -1,0 +1,66 @@
+﻿|join|kid gf lol
+|join|test batch bitch
+|player|p1|kid gf lol|114
+|player|p2|test batch bitch|169
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jolteon|Jolteon|333\/333
+|switch|p2a: Snorlax|Snorlax|523\/523
+|turn|1
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Jolteon|Double Kick|p2a: Chansey
+|-supereffective|p2a: Chansey
+|-damage|p2a: Chansey|606\/703
+|-damage|p2a: Chansey|509\/703
+|-hitcount|p2a: Chansey|2
+|
+|turn|2
+|
+|switch|p1a: Articuno|Articuno|383\/383
+|move|p2a: Chansey|Double-Edge|p1a: Articuno
+|-damage|p1a: Articuno|338\/383
+|-damage|p2a: Chansey|498\/703|[from] recoil|[of] p1a: Articuno
+|
+|turn|3
+|
+|move|p1a: Articuno|Sky Attack|p2a: Chansey|[still]
+|-prepare|p1a: Articuno|Sky Attack|p2a: Chansey
+|move|p2a: Chansey|Double-Edge|p1a: Articuno
+|-crit|p1a: Articuno
+|-damage|p1a: Articuno|244\/383
+|-damage|p2a: Chansey|474\/703|[from] recoil|[of] p1a: Articuno
+|
+|turn|4
+|
+|move|p1a: Articuno|Sky Attack|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|turn|5
+|
+|move|p1a: Articuno|Sky Attack|p2a: Snorlax|[still]
+|-prepare|p1a: Articuno|Sky Attack|p2a: Snorlax
+|move|p2a: Snorlax|Hyper Beam|p1a: Articuno
+|-damage|p1a: Articuno|59\/383
+|
+|turn|6
+|
+|move|p1a: Articuno|Mimic|p2a: Snorlax
+|-start|p1a: Articuno|Mimic|Hyper Beam
+|cant|p2a: Snorlax|recharge
+|
+|turn|7
+|-message|test batch bitch forfeited.
+|
+|win|kid gf lol

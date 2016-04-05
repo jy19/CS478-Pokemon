@@ -1,0 +1,346 @@
+﻿|join|hlavajda
+|join|MichaelXD
+|player|p1|hlavajda|27
+|player|p2|MichaelXD|5
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|27625,7714,23628,30962
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Butterfree|Butterfree, L90|291\/291
+|switch|p2a: Cubone|Cubone, L96|291\/291
+|turn|1
+|choice|move 3|move 1
+|
+|move|p1a: Butterfree|Stun Spore|p2a: Cubone|[miss]
+|-miss|p1a: Butterfree
+|move|p2a: Cubone|Blizzard|p1a: Butterfree
+|-supereffective|p1a: Butterfree
+|-damage|p1a: Butterfree|167\/291
+|
+|turn|2
+|choice|move 1|move 1
+|
+|move|p1a: Butterfree|Mega Drain|p2a: Cubone
+|-supereffective|p2a: Cubone
+|-damage|p2a: Cubone|208\/291
+|-heal|p1a: Butterfree|208\/291|[from] drain|[of] p2a: Cubone
+|move|p2a: Cubone|Blizzard|p1a: Butterfree
+|-supereffective|p1a: Butterfree
+|-damage|p1a: Butterfree|83\/291
+|-status|p1a: Butterfree|frz
+|
+|turn|3
+|choice|switch 2|move 1
+|
+|switch|p1a: Vileplume|Vileplume, L90|318\/318
+|move|p2a: Cubone|Blizzard|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|206\/318
+|
+|turn|4
+|choice|move 3|move 1
+|
+|move|p1a: Vileplume|Sleep Powder|p2a: Cubone|[miss]
+|-miss|p1a: Vileplume
+|move|p2a: Cubone|Blizzard|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|98\/318
+|
+|turn|5
+|choice|move 3|move 1
+|
+|move|p1a: Vileplume|Sleep Powder|p2a: Cubone
+|-status|p2a: Cubone|slp
+|cant|p2a: Cubone|slp
+|
+|turn|6
+|choice|move 4|move 1
+|
+|move|p1a: Vileplume|Mega Drain|p2a: Cubone
+|-supereffective|p2a: Cubone
+|-damage|p2a: Cubone|66\/291 slp
+|-heal|p1a: Vileplume|169\/318|[from] drain|[of] p2a: Cubone
+|cant|p2a: Cubone|slp
+|
+|turn|7
+|choice|move 4|move 1
+|
+|move|p1a: Vileplume|Mega Drain|p2a: Cubone
+|-crit|p2a: Cubone
+|-supereffective|p2a: Cubone
+|-damage|p2a: Cubone|0 fnt
+|-heal|p1a: Vileplume|202\/318|[from] drain|[of] p2a: Cubone
+|faint|p2a: Cubone
+|choice||switch 4
+|
+|switch|p2a: Beedrill|Beedrill, L90|300\/300
+|turn|8
+|choice|switch 6|move 1
+|
+|switch|p1a: Charmeleon|Charmeleon, L85|272\/272
+|move|p2a: Beedrill|Twineedle|p1a: Charmeleon
+|-resisted|p1a: Charmeleon
+|-damage|p1a: Charmeleon|255\/272
+|-damage|p1a: Charmeleon|238\/272
+|-hitcount|p1a: Charmeleon|2
+|
+|turn|9
+|choice|move 2|move 3
+|
+|move|p2a: Beedrill|Hyper Beam|p1a: Charmeleon
+|-damage|p1a: Charmeleon|101\/272
+|move|p1a: Charmeleon|Fire Blast|p2a: Beedrill|[miss]
+|-miss|p1a: Charmeleon
+|
+|turn|10
+|-mustrecharge|p2a: Beedrill
+|-mustrecharge|p2a: Beedrill
+|choice|move 2|move 1
+|
+|cant|p2a: Beedrill|recharge
+|move|p1a: Charmeleon|Fire Blast|p2a: Beedrill|[miss]
+|-miss|p1a: Charmeleon
+|
+|turn|11
+|choice|move 2|move 3
+|
+|move|p2a: Beedrill|Hyper Beam|p1a: Charmeleon
+|-crit|p1a: Charmeleon
+|-damage|p1a: Charmeleon|0 fnt
+|faint|p1a: Charmeleon
+|c|★hlavajda|what a day
+|choice|switch 5|
+|
+|switch|p1a: Alakazam|Alakazam, L79|249\/249
+|turn|12
+|choice|move 1|move 1
+|
+|move|p1a: Alakazam|Psychic|p2a: Beedrill
+|-supereffective|p2a: Beedrill
+|-damage|p2a: Beedrill|32\/300
+|-unboost|p2a: Beedrill|spd|1
+|-unboost|p2a: Beedrill|spa|1
+|move|p2a: Beedrill|Twineedle|p1a: Alakazam
+|-supereffective|p1a: Alakazam
+|-damage|p1a: Alakazam|169\/249
+|-status|p1a: Alakazam|psn
+|-damage|p1a: Alakazam|89\/249 psn
+|-hitcount|p1a: Alakazam|2
+|
+|turn|13
+|choice|move 1|move 1
+|
+|move|p1a: Alakazam|Psychic|p2a: Beedrill
+|-crit|p2a: Beedrill
+|-supereffective|p2a: Beedrill
+|-damage|p2a: Beedrill|0 fnt
+|faint|p2a: Beedrill
+|choice||switch 5
+|
+|switch|p2a: Alakazam|Alakazam, L79|249\/249
+|turn|14
+|choice|move 4|move 3
+|
+|move|p2a: Alakazam|Reflect|p2a: Alakazam
+|-start|p2a: Alakazam|Reflect
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|213\/249 psn
+|-damage|p1a: Alakazam|198\/249 psn|[from] psn
+|
+|turn|15
+|choice|move 3|move 2
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|119\/249 psn
+|move|p1a: Alakazam|Thunder Wave|p2a: Alakazam
+|-status|p2a: Alakazam|par
+|-damage|p1a: Alakazam|104\/249 psn|[from] psn|[of] p2a: Alakazam
+|
+|turn|16
+|choice|move 4|move 2
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|228\/249 psn
+|-damage|p1a: Alakazam|213\/249 psn|[from] psn
+|move|p2a: Alakazam|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|134\/249 psn
+|
+|turn|17
+|choice|switch 3|move 2
+|
+|switch|p1a: Primeape|Primeape, L90|300\/300
+|move|p2a: Alakazam|Seismic Toss|p1a: Primeape
+|-damage|p1a: Primeape|221\/300
+|
+|turn|18
+|choice|move 1|move 1
+|
+|move|p1a: Primeape|Rock Slide|p2a: Alakazam
+|-damage|p2a: Alakazam|200\/249 par
+|move|p2a: Alakazam|Psychic|p1a: Primeape
+|-supereffective|p1a: Primeape
+|-damage|p1a: Primeape|0 fnt
+|faint|p1a: Primeape
+|choice|switch 6|
+|
+|switch|p1a: Vileplume|Vileplume, L90|202\/318
+|turn|19
+|choice|move 2|move 1
+|
+|move|p1a: Vileplume|Swords Dance|p1a: Vileplume
+|-boost|p1a: Vileplume|atk|2
+|move|p2a: Alakazam|Psychic|p1a: Vileplume
+|-crit|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|faint|p1a: Vileplume
+|choice|switch 4|
+|
+|switch|p1a: Magneton|Magneton, L90|273\/273
+|turn|20
+|choice|move 1|move 4
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Alakazam
+|-damage|p2a: Alakazam|93\/249 par
+|cant|p2a: Alakazam|par
+|
+|turn|21
+|choice|move 1|move 4
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|choice||switch 2
+|
+|switch|p2a: Vileplume|Vileplume, L90|318\/318
+|turn|22
+|choice|move 4|move 1
+|
+|move|p1a: Magneton|Thunder Wave|p2a: Vileplume
+|-status|p2a: Vileplume|par
+|move|p2a: Vileplume|Sleep Powder|p1a: Magneton
+|-status|p1a: Magneton|slp
+|
+|turn|23
+|choice|switch 3|move 2
+|
+|switch|p1a: Alakazam|Alakazam, L79|134\/249 psn
+|-damage|p1a: Alakazam|119\/249 psn|[from] psn
+|move|p2a: Vileplume|Swords Dance|p2a: Vileplume
+|-boost|p2a: Vileplume|atk|2
+|
+|turn|24
+|choice|move 1|move 3
+|
+|move|p1a: Alakazam|Psychic|p2a: Vileplume
+|-crit|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|choice||switch 6
+|
+|switch|p2a: Jolteon|Jolteon, L79|265\/265
+|turn|25
+|choice|move 1|move 3
+|
+|move|p2a: Jolteon|Pin Missile|p1a: Alakazam|[miss]
+|-miss|p2a: Jolteon
+|move|p1a: Alakazam|Psychic|p2a: Jolteon
+|-damage|p2a: Jolteon|174\/265
+|-damage|p1a: Alakazam|104\/249 psn|[from] psn|[of] p2a: Jolteon
+|
+|turn|26
+|choice|move 4|move 3
+|
+|move|p2a: Jolteon|Pin Missile|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-supereffective|p1a: Alakazam
+|-damage|p1a: Alakazam|60\/249 psn
+|-damage|p1a: Alakazam|16\/249 psn
+|-damage|p1a: Alakazam|0 fnt
+|-hitcount|p1a: Alakazam|3
+|faint|p1a: Alakazam
+|choice|switch 3|
+|
+|switch|p1a: Magneton|Magneton, L90|273\/273 slp
+|turn|27
+|choice|move 4|move 1
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Magneton
+|-crit|p1a: Magneton
+|-resisted|p1a: Magneton
+|-damage|p1a: Magneton|200\/273 slp
+|cant|p1a: Magneton|slp
+|
+|turn|28
+|choice|move 4|move 1
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Magneton
+|-resisted|p1a: Magneton
+|-damage|p1a: Magneton|165\/273 slp
+|cant|p1a: Magneton|slp
+|
+|turn|29
+|choice|move 4|move 4
+|
+|move|p2a: Jolteon|Double Kick|p1a: Magneton
+|-damage|p1a: Magneton|152\/273 slp
+|-damage|p1a: Magneton|139\/273 slp
+|-hitcount|p1a: Magneton|2
+|cant|p1a: Magneton|slp
+|
+|turn|30
+|choice|move 4|move 3
+|
+|move|p2a: Jolteon|Pin Missile|p1a: Magneton
+|-damage|p1a: Magneton|132\/273 slp
+|-damage|p1a: Magneton|125\/273 slp
+|-hitcount|p1a: Magneton|2
+|cant|p1a: Magneton|slp
+|
+|turn|31
+|choice|move 4|move 3
+|
+|move|p2a: Jolteon|Pin Missile|p1a: Magneton
+|-damage|p1a: Magneton|118\/273 slp
+|-damage|p1a: Magneton|111\/273 slp
+|-hitcount|p1a: Magneton|2
+|cant|p1a: Magneton|slp
+|
+|turn|32
+|choice|move 4|move 1
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Magneton
+|-crit|p1a: Magneton
+|-resisted|p1a: Magneton
+|-damage|p1a: Magneton|37\/273 slp
+|-curestatus|p1a: Magneton|slp
+|
+|turn|33
+|choice|move 4|move 1
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Magneton
+|-crit|p1a: Magneton
+|-resisted|p1a: Magneton
+|-damage|p1a: Magneton|0 fnt
+|faint|p1a: Magneton
+|choice|switch 2|
+|
+|switch|p1a: Butterfree|Butterfree, L90|83\/291 frz
+|turn|34
+|choice|move 3|move 1
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Butterfree
+|-crit|p1a: Butterfree
+|-supereffective|p1a: Butterfree
+|-damage|p1a: Butterfree|0 fnt
+|faint|p1a: Butterfree
+|
+|win|MichaelXD

@@ -1,0 +1,361 @@
+﻿|j|Hidol
+|j|Fella McFellerson
+|player|p1|Hidol|266
+|player|p2|Fella McFellerson|162
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|7114,17721,23587,15381
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Metapod|Metapod, L99|300\/300
+|switch|p2a: Electabuzz|Electabuzz, L85|284\/284
+|turn|1
+|choice|move 1|move 3
+|
+|move|p2a: Electabuzz|Thunderbolt|p1a: Metapod
+|-damage|p1a: Metapod|151\/300
+|move|p1a: Metapod|Harden|p1a: Metapod
+|-boost|p1a: Metapod|def|1
+|
+|turn|2
+|choice|move 1|move 3
+|
+|move|p2a: Electabuzz|Thunderbolt|p1a: Metapod
+|-damage|p1a: Metapod|0 fnt
+|faint|p1a: Metapod
+|choice|switch 2|
+|
+|switch|p1a: Exeggutor|Exeggutor, L79|312\/312
+|turn|3
+|choice|move 1|move 4
+|
+|move|p2a: Electabuzz|Thunder Wave|p1a: Exeggutor
+|-status|p1a: Exeggutor|par
+|move|p1a: Exeggutor|Sleep Powder|p2a: Electabuzz|[miss]
+|-miss|p1a: Exeggutor
+|
+|turn|4
+|choice|move 1|switch 4
+|
+|switch|p2a: Flareon|Flareon, L90|300\/300
+|cant|p1a: Exeggutor|par
+|
+|turn|5
+|choice|switch 6|move 2
+|
+|switch|p1a: Lapras|Lapras, L79|367\/367
+|move|p2a: Flareon|Fire Blast|p1a: Lapras
+|-damage|p1a: Lapras|213\/367
+|
+|turn|6
+|choice|move 1|switch 4
+|
+|switch|p2a: Electabuzz|Electabuzz, L85|284\/284
+|move|p1a: Lapras|Confuse Ray|p2a: Electabuzz
+|-start|p2a: Electabuzz|confusion
+|
+|turn|7
+|choice|switch 5|move 3
+|
+|switch|p1a: Alakazam|Alakazam, L79|249\/249
+|-activate|p2a: Electabuzz|confusion
+|move|p2a: Electabuzz|Thunderbolt|p1a: Alakazam
+|-damage|p1a: Alakazam|178\/249
+|
+|turn|8
+|choice|switch 6|move 3
+|
+|switch|p1a: Exeggutor|Exeggutor, L79|312\/312 par
+|-end|p2a: Electabuzz|confusion
+|move|p2a: Electabuzz|Thunderbolt|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|271\/312 par
+|
+|turn|9
+|choice|move 1|switch 4
+|
+|switch|p2a: Flareon|Flareon, L90|300\/300
+|move|p1a: Exeggutor|Sleep Powder|p2a: Flareon
+|-status|p2a: Flareon|slp
+|
+|turn|10
+|choice|move 3|move 2
+|
+|cant|p2a: Flareon|slp
+|move|p1a: Exeggutor|Psychic|p2a: Flareon
+|-damage|p2a: Flareon|219\/300 slp
+|
+|turn|11
+|choice|switch 3|move 2
+|
+|switch|p1a: Dragonite|Dragonite, L85|328\/328
+|cant|p2a: Flareon|slp
+|
+|turn|12
+|choice|move 2|move 2
+|
+|move|p1a: Dragonite|Surf|p2a: Flareon
+|-supereffective|p2a: Flareon
+|-damage|p2a: Flareon|113\/300 slp
+|-curestatus|p2a: Flareon|slp
+|
+|turn|13
+|choice|move 2|switch 4
+|
+|switch|p2a: Electabuzz|Electabuzz, L85|284\/284
+|move|p1a: Dragonite|Surf|p2a: Electabuzz
+|-crit|p2a: Electabuzz
+|-damage|p2a: Electabuzz|150\/284
+|
+|turn|14
+|choice|switch 3|move 3
+|
+|switch|p1a: Exeggutor|Exeggutor, L79|271\/312 par
+|move|p2a: Electabuzz|Thunderbolt|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|229\/312 par
+|
+|turn|15
+|choice|move 1|move 1
+|
+|move|p2a: Electabuzz|Seismic Toss|p1a: Exeggutor
+|-damage|p1a: Exeggutor|144\/312 par
+|move|p1a: Exeggutor|Sleep Powder|p2a: Electabuzz
+|-status|p2a: Electabuzz|slp
+|
+|turn|16
+|choice|move 3|switch 5
+|
+|switch|p2a: Tangela|Tangela, L85|284\/284
+|move|p1a: Exeggutor|Psychic|p2a: Tangela
+|-damage|p2a: Tangela|199\/284
+|-unboost|p2a: Tangela|spd|1
+|-unboost|p2a: Tangela|spa|1
+|
+|turn|17
+|choice|move 3|move 3
+|
+|move|p2a: Tangela|Body Slam|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-damage|p1a: Exeggutor|48\/312 par
+|move|p1a: Exeggutor|Psychic|p2a: Tangela
+|-damage|p2a: Tangela|63\/284
+|-unboost|p2a: Tangela|spd|1
+|-unboost|p2a: Tangela|spa|1
+|
+|turn|18
+|choice|move 4|move 3
+|
+|move|p2a: Tangela|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|choice|switch 5|
+|
+|switch|p1a: Lapras|Lapras, L79|213\/367
+|turn|19
+|choice|move 3|move 2
+|
+|move|p2a: Tangela|Mega Drain|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|168\/367
+|-heal|p2a: Tangela|85\/284|[from] drain|[of] p1a: Lapras
+|move|p1a: Lapras|Ice Beam|p2a: Tangela
+|-supereffective|p2a: Tangela
+|-damage|p2a: Tangela|0 fnt
+|faint|p2a: Tangela
+|choice||switch 2
+|
+|switch|p2a: Hypno|Hypno, L85|318\/318
+|turn|20
+|choice|switch 3|move 4
+|
+|switch|p1a: Dragonite|Dragonite, L85|328\/328
+|move|p2a: Hypno|Hypnosis|p1a: Dragonite
+|-status|p1a: Dragonite|slp
+|
+|turn|21
+|choice|switch 6|move 1
+|
+|switch|p1a: Alakazam|Alakazam, L79|178\/249
+|move|p2a: Hypno|Psychic|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|91\/249
+|
+|turn|22
+|choice|move 2|move 1
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Hypno
+|-status|p2a: Hypno|par
+|move|p2a: Hypno|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|49\/249
+|
+|turn|23
+|choice|switch 6|move 1
+|
+|switch|p1a: Dragonite|Dragonite, L85|328\/328 slp
+|cant|p2a: Hypno|par
+|
+|turn|24
+|choice|move 4|move 1
+|
+|cant|p1a: Dragonite|slp
+|move|p2a: Hypno|Psychic|p1a: Dragonite
+|-damage|p1a: Dragonite|229\/328 slp
+|-unboost|p1a: Dragonite|spd|1
+|-unboost|p1a: Dragonite|spa|1
+|
+|turn|25
+|choice|move 4|move 1
+|
+|cant|p1a: Dragonite|slp
+|move|p2a: Hypno|Psychic|p1a: Dragonite|[miss]
+|-miss|p2a: Hypno
+|
+|turn|26
+|choice|move 4|move 1
+|
+|cant|p1a: Dragonite|slp
+|move|p2a: Hypno|Psychic|p1a: Dragonite
+|-damage|p1a: Dragonite|71\/328 slp
+|-unboost|p1a: Dragonite|spd|1
+|-unboost|p1a: Dragonite|spa|1
+|
+|turn|27
+|choice|move 4|switch 6
+|
+|switch|p2a: Kingler|Kingler, L85|267\/267
+|-curestatus|p1a: Dragonite|slp
+|
+|turn|28
+|choice|switch 3|move 1
+|
+|switch|p1a: Lapras|Lapras, L79|168\/367
+|move|p2a: Kingler|Crabhammer|p1a: Lapras
+|-crit|p1a: Lapras
+|-resisted|p1a: Lapras
+|-damage|p1a: Lapras|108\/367
+|
+|turn|29
+|choice|move 4|move 4
+|
+|move|p2a: Kingler|Hyper Beam|p1a: Lapras|[miss]
+|-miss|p2a: Kingler
+|move|p1a: Lapras|Thunderbolt|p2a: Kingler
+|-supereffective|p2a: Kingler
+|-damage|p2a: Kingler|107\/267
+|
+|turn|30
+|choice|move 2|move 4
+|
+|move|p2a: Kingler|Hyper Beam|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|choice|switch 6|
+|
+|switch|p1a: Alakazam|Alakazam, L79|49\/249
+|turn|31
+|choice|move 1|move 2
+|
+|move|p1a: Alakazam|Psychic|p2a: Kingler
+|-damage|p2a: Kingler|0 fnt
+|faint|p2a: Kingler
+|choice||switch 4
+|
+|switch|p2a: Flareon|Flareon, L90|113\/300
+|turn|32
+|choice|move 1|move 3
+|
+|move|p2a: Flareon|Quick Attack|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|choice|switch 4|
+|
+|switch|p1a: Articuno|Articuno, L79|304\/304
+|turn|33
+|choice|move 2|move 2
+|
+|move|p1a: Articuno|Blizzard|p2a: Flareon
+|-damage|p2a: Flareon|7\/300
+|move|p2a: Flareon|Fire Blast|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|47\/304
+|
+|turn|34
+|choice|move 2|move 3
+|
+|move|p2a: Flareon|Quick Attack|p1a: Articuno
+|-damage|p1a: Articuno|7\/304
+|move|p1a: Articuno|Blizzard|p2a: Flareon
+|-damage|p2a: Flareon|0 fnt
+|faint|p2a: Flareon
+|choice||switch 5
+|
+|switch|p2a: Electabuzz|Electabuzz, L85|150\/284 slp
+|turn|35
+|choice|move 2|move 3
+|
+|-curestatus|p2a: Electabuzz|slp
+|move|p1a: Articuno|Blizzard|p2a: Electabuzz
+|-crit|p2a: Electabuzz
+|-damage|p2a: Electabuzz|0 fnt
+|faint|p2a: Electabuzz
+|choice||switch 6
+|
+|switch|p2a: Hypno|Hypno, L85|318\/318 par
+|turn|36
+|choice|move 2|move 1
+|
+|move|p1a: Articuno|Blizzard|p2a: Hypno
+|-crit|p2a: Hypno
+|-damage|p2a: Hypno|102\/318 par
+|move|p2a: Hypno|Psychic|p1a: Articuno
+|-damage|p1a: Articuno|0 fnt
+|faint|p1a: Articuno
+|choice|switch 3|
+|
+|switch|p1a: Dragonite|Dragonite, L85|71\/328
+|turn|37
+|choice|move 3|move 1
+|
+|move|p1a: Dragonite|Thunderbolt|p2a: Hypno
+|-crit|p2a: Hypno
+|-damage|p2a: Hypno|0 fnt
+|faint|p2a: Hypno
+|choice||switch 3
+|
+|switch|p2a: Poliwrath|Poliwrath, L85|327\/327
+|turn|38
+|c|★Hidol|gg
+|choice|move 3|move 2
+|
+|move|p1a: Dragonite|Thunderbolt|p2a: Poliwrath
+|-supereffective|p2a: Poliwrath
+|-damage|p2a: Poliwrath|174\/327
+|move|p2a: Poliwrath|Surf|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|31\/328
+|
+|turn|39
+|choice|move 3|move 2
+|
+|move|p1a: Dragonite|Thunderbolt|p2a: Poliwrath
+|-supereffective|p2a: Poliwrath
+|-damage|p2a: Poliwrath|3\/327
+|move|p2a: Poliwrath|Surf|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|win|Fella McFellerson
+|player|p1
+|player|p2
+|raw|Hidol's rating: 1164 &rarr; <strong>1144<\/strong><br \/>(-20 for losing)
+|raw|Fella McFellerson's rating: 1247 &rarr; <strong>1266<\/strong><br \/>(+19 for winning)
+|l|Hidol

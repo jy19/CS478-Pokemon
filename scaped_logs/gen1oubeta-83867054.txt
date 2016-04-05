@@ -1,0 +1,522 @@
+﻿|join|Kel9901
+|join|teh Moron
+|player|p1|Kel9901|2
+|player|p2|teh Moron|275
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333\/333
+|switch|p2a: Alakazam|Alakazam|313\/313
+|turn|1
+|callback|decision
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Jynx
+|-status|p1a: Jynx|par
+|move|p1a: Jynx|Lovely Kiss|p2a: Alakazam
+|-status|p2a: Alakazam|slp
+|
+|turn|2
+|callback|decision
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|cant|p1a: Jynx|par
+|
+|turn|3
+|callback|decision
+|
+|move|p2a: Chansey|Thunder Wave|p1a: Jynx
+|-fail|p1a: Jynx|par
+|move|p1a: Jynx|Mimic|p2a: Chansey
+|-start|p1a: Jynx|Mimic|Soft-Boiled
+|
+|turn|4
+|callback|decision
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Jynx
+|-damage|p1a: Jynx|248\/333 par
+|cant|p1a: Jynx|par
+|
+|turn|5
+|callback|decision
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Jynx
+|-damage|p1a: Jynx|163\/333 par
+|cant|p1a: Jynx|par
+|
+|turn|6
+|callback|decision
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Jynx
+|-damage|p1a: Jynx|77\/333 par
+|cant|p1a: Jynx|par
+|
+|turn|7
+|callback|decision
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|
+|callback|decision
+|chat|teh Moron|lol
+|chat|Kel9901|.
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|turn|8
+|callback|decision
+|
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|559\/703
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|630\/703
+|
+|turn|9
+|callback|decision
+|
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|560\/703
+|-status|p2a: Chansey|frz
+|cant|p2a: Chansey|frz
+|
+|turn|10
+|callback|decision
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703
+|
+|turn|11
+|callback|decision
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|move|p2a: Snorlax|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|469\/703
+|
+|turn|12
+|callback|decision
+|
+|switch|p1a: Golem|Golem|363\/363
+|move|p2a: Snorlax|Self-Destruct|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|238\/363
+|faint|p2a: Snorlax
+|callback|decision
+|
+|switch|p2a: Cloyster|Cloyster|303\/303
+|turn|13
+|callback|decision
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Cloyster|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|183\/393
+|
+|turn|14
+|callback|decision
+|
+|move|p2a: Cloyster|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|callback|decision
+|
+|switch|p1a: Chansey|Chansey|469\/703
+|turn|15
+|callback|decision
+|
+|move|p2a: Cloyster|Explosion|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|faint|p2a: Cloyster
+|callback|decision
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|switch|p1a: Snorlax|Snorlax|523\/523
+|turn|16
+|callback|decision
+|
+|switch|p2a: Dragonite|Dragonite|385\/385
+|move|p1a: Snorlax|Body Slam|p2a: Dragonite
+|-damage|p2a: Dragonite|277\/385
+|
+|turn|17
+|callback|decision
+|
+|move|p2a: Dragonite|Agility|p2a: Dragonite
+|-boost|p2a: Dragonite|spe|2
+|move|p1a: Snorlax|Body Slam|p2a: Dragonite
+|-damage|p2a: Dragonite|168\/385
+|
+|turn|18
+|callback|decision
+|
+|move|p2a: Dragonite|Wrap|p1a: Snorlax
+|-damage|p1a: Snorlax|503\/523
+|-activate|p1a: Snorlax|move: Wrap|[of] p2a: Dragonite
+|cant|p1a: Snorlax|partiallytrapped
+|
+|turn|19
+|callback|decision
+|
+|switch|p1a: Golem|Golem|238\/363
+|move|p2a: Dragonite|Wrap|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|232\/363
+|-activate|p1a: Golem|move: Wrap|[of] p2a: Dragonite
+|
+|turn|20
+|callback|decision
+|
+|switch|p1a: Snorlax|Snorlax|503\/523
+|move|p2a: Dragonite|Wrap|p1a: Snorlax
+|-damage|p1a: Snorlax|485\/523
+|-activate|p1a: Snorlax|move: Wrap|[of] p2a: Dragonite
+|
+|turn|21
+|callback|decision
+|
+|switch|p1a: Golem|Golem|232\/363
+|move|p2a: Dragonite|Wrap|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|226\/363
+|-activate|p1a: Golem|move: Wrap|[of] p2a: Dragonite
+|
+|turn|22
+|callback|decision
+|
+|switch|p1a: Snorlax|Snorlax|485\/523
+|move|p2a: Dragonite|Wrap|p1a: Snorlax
+|-damage|p1a: Snorlax|464\/523
+|-activate|p1a: Snorlax|move: Wrap|[of] p2a: Dragonite
+|
+|turn|23
+|callback|decision
+|
+|switch|p1a: Golem|Golem|226\/363
+|move|p2a: Dragonite|Wrap|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|220\/363
+|-activate|p1a: Golem|move: Wrap|[of] p2a: Dragonite
+|
+|turn|24
+|callback|decision
+|
+|switch|p1a: Snorlax|Snorlax|464\/523
+|move|p2a: Dragonite|Wrap|p1a: Snorlax
+|-damage|p1a: Snorlax|444\/523
+|-activate|p1a: Snorlax|move: Wrap|[of] p2a: Dragonite
+|
+|turn|25
+|callback|decision
+|join|Wailmerfan01x
+|
+|switch|p1a: Golem|Golem|220\/363
+|move|p2a: Dragonite|Wrap|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|214\/363
+|-activate|p1a: Golem|move: Wrap|[of] p2a: Dragonite
+|
+|turn|26
+|callback|decision
+|
+|switch|p1a: Snorlax|Snorlax|444\/523
+|move|p2a: Dragonite|Wrap|p1a: Snorlax
+|-damage|p1a: Snorlax|424\/523
+|-activate|p1a: Snorlax|move: Wrap|[of] p2a: Dragonite
+|
+|turn|27
+|callback|decision
+|
+|switch|p1a: Golem|Golem|214\/363
+|move|p2a: Dragonite|Wrap|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|208\/363
+|-activate|p1a: Golem|move: Wrap|[of] p2a: Dragonite
+|
+|turn|28
+|callback|decision
+|
+|switch|p1a: Snorlax|Snorlax|424\/523
+|move|p2a: Dragonite|Wrap|p1a: Snorlax
+|-damage|p1a: Snorlax|403\/523
+|-activate|p1a: Snorlax|move: Wrap|[of] p2a: Dragonite
+|
+|turn|29
+|callback|decision
+|
+|switch|p1a: Golem|Golem|208\/363
+|move|p2a: Dragonite|Wrap|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|202\/363
+|-activate|p1a: Golem|move: Wrap|[of] p2a: Dragonite
+|
+|turn|30
+|callback|decision
+|
+|switch|p1a: Snorlax|Snorlax|403\/523
+|move|p2a: Dragonite|Wrap|p1a: Snorlax
+|-damage|p1a: Snorlax|382\/523
+|-activate|p1a: Snorlax|move: Wrap|[of] p2a: Dragonite
+|
+|turn|31
+|callback|decision
+|
+|switch|p1a: Golem|Golem|202\/363
+|move|p2a: Dragonite|Wrap|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|196\/363
+|-activate|p1a: Golem|move: Wrap|[of] p2a: Dragonite
+|
+|turn|32
+|callback|decision
+|
+|switch|p1a: Snorlax|Snorlax|382\/523
+|move|p2a: Dragonite|Wrap|p1a: Snorlax
+|-damage|p1a: Snorlax|362\/523
+|-activate|p1a: Snorlax|move: Wrap|[of] p2a: Dragonite
+|
+|turn|33
+|callback|decision
+|
+|switch|p1a: Golem|Golem|196\/363
+|move|p2a: Dragonite|Wrap|p1a: Golem
+|-crit|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|184\/363
+|-activate|p1a: Golem|move: Wrap|[of] p2a: Dragonite
+|
+|turn|34
+|callback|decision
+|
+|switch|p1a: Snorlax|Snorlax|362\/523
+|move|p2a: Dragonite|Wrap|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|321\/523
+|-activate|p1a: Snorlax|move: Wrap|[of] p2a: Dragonite
+|
+|turn|35
+|callback|decision
+|
+|switch|p1a: Golem|Golem|184\/363
+|move|p2a: Dragonite|Wrap|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|178\/363
+|-activate|p1a: Golem|move: Wrap|[of] p2a: Dragonite
+|
+|turn|36
+|callback|decision
+|
+|switch|p1a: Snorlax|Snorlax|321\/523
+|move|p2a: Dragonite|Wrap|p1a: Snorlax
+|-damage|p1a: Snorlax|302\/523
+|-activate|p1a: Snorlax|move: Wrap|[of] p2a: Dragonite
+|
+|turn|37
+|callback|decision
+|
+|switch|p1a: Golem|Golem|178\/363
+|move|p2a: Dragonite|Wrap|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|172\/363
+|-activate|p1a: Golem|move: Wrap|[of] p2a: Dragonite
+|
+|turn|38
+|callback|decision
+|
+|switch|p1a: Snorlax|Snorlax|302\/523
+|move|p2a: Dragonite|Wrap|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|264\/523
+|-activate|p1a: Snorlax|move: Wrap|[of] p2a: Dragonite
+|
+|turn|39
+|callback|decision
+|
+|switch|p1a: Golem|Golem|172\/363
+|move|p2a: Dragonite|Wrap|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|166\/363
+|-activate|p1a: Golem|move: Wrap|[of] p2a: Dragonite
+|
+|turn|40
+|callback|decision
+|chat|Wailmerfan01x|what are you doing?
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|move|p2a: Dragonite|Wrap|p1a: Tauros
+|-damage|p1a: Tauros|338\/353
+|-activate|p1a: Tauros|move: Wrap|[of] p2a: Dragonite
+|
+|turn|41
+|callback|decision
+|
+|switch|p1a: Golem|Golem|166\/363
+|move|p2a: Dragonite|Wrap|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|160\/363
+|-activate|p1a: Golem|move: Wrap|[of] p2a: Dragonite
+|
+|turn|42
+|callback|decision
+|
+|switch|p1a: Tauros|Tauros|338\/353
+|move|p2a: Dragonite|Wrap|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|305\/353
+|-activate|p1a: Tauros|move: Wrap|[of] p2a: Dragonite
+|
+|turn|43
+|callback|decision
+|
+|switch|p1a: Golem|Golem|160\/363
+|move|p2a: Dragonite|Wrap|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|154\/363
+|-activate|p1a: Golem|move: Wrap|[of] p2a: Dragonite
+|
+|turn|44
+|callback|decision
+|chat|teh Moron|pp stall
+|
+|switch|p1a: Tauros|Tauros|305\/353
+|move|p2a: Dragonite|Wrap|p1a: Tauros
+|-damage|p1a: Tauros|290\/353
+|-activate|p1a: Tauros|move: Wrap|[of] p2a: Dragonite
+|
+|turn|45
+|callback|decision
+|chat|teh Moron|but he shoulda sacked tauros over lax
+|
+|switch|p1a: Golem|Golem|154\/363
+|move|p2a: Dragonite|Wrap|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|148\/363
+|-activate|p1a: Golem|move: Wrap|[of] p2a: Dragonite
+|
+|turn|46
+|callback|decision
+|
+|switch|p1a: Snorlax|Snorlax|264\/523
+|move|p2a: Dragonite|Wrap|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|224\/523
+|-activate|p1a: Snorlax|move: Wrap|[of] p2a: Dragonite
+|
+|turn|47
+|callback|decision
+|
+|switch|p1a: Golem|Golem|148\/363
+|move|p2a: Dragonite|Wrap|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|142\/363
+|-activate|p1a: Golem|move: Wrap|[of] p2a: Dragonite
+|
+|turn|48
+|callback|decision
+|chat|Wailmerfan01x|How much pp does wrap have?
+|
+|switch|p1a: Tauros|Tauros|290\/353
+|move|p2a: Dragonite|Wrap|p1a: Tauros
+|-damage|p1a: Tauros|275\/353
+|-activate|p1a: Tauros|move: Wrap|[of] p2a: Dragonite
+|
+|turn|49
+|callback|decision
+|chat|teh Moron|32
+|
+|switch|p1a: Golem|Golem|142\/363
+|move|p2a: Dragonite|Wrap|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|136\/363
+|-activate|p1a: Golem|move: Wrap|[of] p2a: Dragonite
+|
+|turn|50
+|callback|decision
+|
+|move|p2a: Dragonite|Wrap|p1a: Golem
+|-damage|p1a: Golem|116\/363
+|cant|p1a: Golem|partiallytrapped
+|
+|-end|p1a: Golem|Wrap|[partiallytrapped]
+|turn|51
+|callback|decision
+|
+|move|p2a: Dragonite|Blizzard|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|0 fnt
+|faint|p1a: Golem
+|
+|callback|decision
+|
+|switch|p1a: Tauros|Tauros|275\/353
+|turn|52
+|callback|decision
+|
+|move|p2a: Dragonite|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|cant|p1a: Tauros|par
+|
+|turn|53
+|callback|decision
+|
+|move|p2a: Dragonite|Blizzard|p1a: Tauros
+|-damage|p1a: Tauros|151\/353 par
+|move|p1a: Tauros|Blizzard|p2a: Dragonite|[miss]
+|-miss|p1a: Tauros
+|
+|turn|54
+|callback|decision
+|
+|move|p2a: Dragonite|Blizzard|p1a: Tauros
+|-damage|p1a: Tauros|29\/353 par
+|move|p1a: Tauros|Blizzard|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|callback|decision
+|chat|teh Moron|well that was gay
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|55
+|callback|decision
+|chat|Wailmerfan01x|?
+|
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|callback|decision
+|
+|switch|p1a: Snorlax|Snorlax|224\/523
+|turn|56
+|callback|decision
+|chat|teh Moron|him missing and FP an shit
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|win|teh Moron
+|raw|Ladder updating...
+|raw|Kel9901's rating: 1446 &rarr; <strong>1405<\/strong><br \/>(-41 for losing)
+|raw|teh Moron's rating: 1185 &rarr; <strong>1226<\/strong><br \/>(+41 for winning)
+|chat|Kel9901|gg
+|chat|teh Moron|gg tho
+|leave|Kel9901
+|player|p1
+|leave|Wailmerfan01x

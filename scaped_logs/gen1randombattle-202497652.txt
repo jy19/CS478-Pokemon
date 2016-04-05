@@ -1,0 +1,253 @@
+﻿|join|Makka no Boukansha
+|join|Stickfigureguy
+|player|p1|Makka no Boukansha|260
+|player|p2|Stickfigureguy|115
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Machamp|Machamp, L86|330\/330
+|switch|p2a: Pidgeotto|Pidgeotto, L86|284\/284
+|turn|1
+|
+|move|p2a: Pidgeotto|Reflect|p2a: Pidgeotto
+|move|p1a: Machamp|Submission|p2a: Pidgeotto
+|-damage|p2a: Pidgeotto|210\/284
+|-damage|p1a: Machamp|312\/330|[from] recoil|[of] p2a: Pidgeotto
+|
+|turn|2
+|
+|switch|p2a: Mewtwo|Mewtwo, L71|297\/297
+|switch|p1a: Kingler|Kingler, L86|270\/270
+|
+|turn|3
+|
+|move|p2a: Mewtwo|Thunder Wave|p1a: Kingler
+|-status|p1a: Kingler|par
+|move|p1a: Kingler|Body Slam|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|131\/297
+|
+|turn|4
+|
+|switch|p2a: Wartortle|Wartortle, L86|277\/277
+|move|p1a: Kingler|Hyper Beam|p2a: Wartortle|[miss]
+|-miss|p1a: Kingler
+|
+|turn|5
+|
+|move|p2a: Wartortle|Mimic|p1a: Kingler
+|-start|p2a: Wartortle|Mimic|Body Slam
+|move|p1a: Kingler|Body Slam|p2a: Wartortle
+|-damage|p2a: Wartortle|195\/277
+|
+|turn|6
+|
+|move|p2a: Wartortle|Body Slam|p1a: Kingler
+|-damage|p1a: Kingler|232\/270 par
+|move|p1a: Kingler|Body Slam|p2a: Wartortle
+|-damage|p2a: Wartortle|109\/277
+|
+|turn|7
+|
+|move|p2a: Wartortle|Body Slam|p1a: Kingler
+|-damage|p1a: Kingler|193\/270 par
+|move|p1a: Kingler|Hyper Beam|p2a: Wartortle
+|-damage|p2a: Wartortle|0 fnt
+|faint|p2a: Wartortle
+|
+|switch|p2a: Gengar|Gengar, L82|266\/266
+|turn|8
+|
+|switch|p1a: Jynx|Jynx, L82|274\/274
+|move|p2a: Gengar|Thunderbolt|p1a: Jynx
+|-damage|p1a: Jynx|203\/274
+|
+|turn|9
+|
+|switch|p2a: Mewtwo|Mewtwo, L71|131\/297
+|move|p1a: Jynx|Lovely Kiss|p2a: Mewtwo
+|-status|p2a: Mewtwo|slp
+|
+|turn|10
+|
+|switch|p2a: Charmeleon|Charmeleon, L86|275\/275
+|switch|p1a: Charizard|Charizard, L86|310\/310
+|
+|turn|11
+|
+|move|p1a: Charizard|Swords Dance|p1a: Charizard
+|-boost|p1a: Charizard|atk|2
+|move|p2a: Charmeleon|Seismic Toss|p1a: Charizard
+|-damage|p1a: Charizard|224\/310
+|
+|turn|12
+|
+|move|p1a: Charizard|Hyper Beam|p2a: Charmeleon
+|-crit|p2a: Charmeleon
+|-damage|p2a: Charmeleon|36\/275
+|move|p2a: Charmeleon|Seismic Toss|p1a: Charizard
+|-damage|p1a: Charizard|138\/310
+|
+|turn|13
+|
+|cant|p1a: Charizard|recharge
+|move|p2a: Charmeleon|Seismic Toss|p1a: Charizard
+|-damage|p1a: Charizard|52\/310
+|
+|turn|14
+|
+|switch|p2a: Gengar|Gengar, L82|266\/266
+|move|p1a: Charizard|Body Slam|p2a: Gengar
+|-immune|p2a: Gengar|[msg]
+|
+|turn|15
+|
+|move|p2a: Gengar|Thunderbolt|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|switch|p1a: Arbok|Arbok, L86|279\/279
+|turn|16
+|
+|move|p2a: Gengar|Psychic|p1a: Arbok
+|-supereffective|p1a: Arbok
+|-damage|p1a: Arbok|118\/279
+|move|p1a: Arbok|Earthquake|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|84\/266
+|
+|turn|17
+|
+|move|p2a: Gengar|Psychic|p1a: Arbok
+|-supereffective|p1a: Arbok
+|-damage|p1a: Arbok|0 fnt
+|faint|p1a: Arbok
+|
+|switch|p1a: Jynx|Jynx, L82|203\/274
+|turn|18
+|
+|move|p2a: Gengar|Explosion|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|faint|p2a: Gengar
+|
+|switch|p2a: Butterfree|Butterfree, L86|279\/279
+|switch|p1a: Machamp|Machamp, L86|312\/330
+|turn|19
+|
+|move|p2a: Butterfree|Sleep Powder|p1a: Machamp
+|-status|p1a: Machamp|slp
+|cant|p1a: Machamp|slp
+|
+|turn|20
+|
+|move|p2a: Butterfree|Psychic|p1a: Machamp
+|-supereffective|p1a: Machamp
+|-damage|p1a: Machamp|172\/330 slp
+|cant|p1a: Machamp|slp
+|
+|turn|21
+|
+|move|p2a: Butterfree|Psychic|p1a: Machamp
+|-supereffective|p1a: Machamp
+|-damage|p1a: Machamp|34\/330 slp
+|cant|p1a: Machamp|slp
+|
+|turn|22
+|
+|move|p2a: Butterfree|Psychic|p1a: Machamp
+|-supereffective|p1a: Machamp
+|-damage|p1a: Machamp|0 fnt
+|faint|p1a: Machamp
+|
+|switch|p1a: Dragonite|Dragonite, L82|317\/317
+|turn|23
+|
+|move|p1a: Dragonite|Blizzard|p2a: Butterfree
+|-supereffective|p2a: Butterfree
+|-damage|p2a: Butterfree|96\/279
+|move|p2a: Butterfree|Sleep Powder|p1a: Dragonite
+|-status|p1a: Dragonite|slp
+|
+|turn|24
+|
+|cant|p1a: Dragonite|slp
+|move|p2a: Butterfree|Psychic|p1a: Dragonite
+|-damage|p1a: Dragonite|261\/317 slp
+|-unboost|p1a: Dragonite|spd|1
+|-unboost|p1a: Dragonite|spa|1
+|
+|turn|25
+|
+|cant|p1a: Dragonite|slp
+|move|p2a: Butterfree|Psychic|p1a: Dragonite
+|-damage|p1a: Dragonite|184\/317 slp
+|
+|turn|26
+|
+|cant|p1a: Dragonite|slp
+|move|p2a: Butterfree|Psychic|p1a: Dragonite
+|-damage|p1a: Dragonite|97\/317 slp
+|
+|turn|27
+|
+|cant|p1a: Dragonite|slp
+|move|p2a: Butterfree|Sleep Powder|p1a: Dragonite
+|-fail|p1a: Dragonite|slp
+|
+|turn|28
+|
+|cant|p1a: Dragonite|slp
+|-curestatus|p1a: Dragonite|slp
+|move|p2a: Butterfree|Sleep Powder|p1a: Dragonite
+|-status|p1a: Dragonite|slp
+|
+|turn|29
+|c|★Stickfigureguy|heh
+|
+|cant|p1a: Dragonite|slp
+|move|p2a: Butterfree|Psychic|p1a: Dragonite
+|-damage|p1a: Dragonite|14\/317 slp
+|
+|turn|30
+|c|★Stickfigureguy|gg
+|c|★Makka no Boukansha|gg
+|
+|cant|p1a: Dragonite|slp
+|move|p2a: Butterfree|Psychic|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|switch|p1a: Kingler|Kingler, L86|193\/270 par
+|turn|31
+|
+|move|p2a: Butterfree|Psychic|p1a: Kingler
+|-damage|p1a: Kingler|117\/270 par
+|move|p1a: Kingler|Hyper Beam|p2a: Butterfree
+|-damage|p2a: Butterfree|0 fnt
+|faint|p2a: Butterfree
+|
+|switch|p2a: Charmeleon|Charmeleon, L86|36\/275
+|turn|32
+|
+|move|p2a: Charmeleon|Seismic Toss|p1a: Kingler
+|-damage|p1a: Kingler|31\/270 par
+|cant|p1a: Kingler|par
+|
+|turn|33
+|
+|move|p2a: Charmeleon|Seismic Toss|p1a: Kingler
+|-damage|p1a: Kingler|0 fnt
+|faint|p1a: Kingler
+|
+|win|Stickfigureguy
+|raw|Ladder updating...
+|raw|Makka no Boukansha's rating: 1186 &rarr; <strong>1163<\/strong><br \/>(-23 for losing)
+|raw|Stickfigureguy's rating: 1215 &rarr; <strong>1238<\/strong><br \/>(+23 for winning)

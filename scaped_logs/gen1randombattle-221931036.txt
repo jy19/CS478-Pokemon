@@ -1,0 +1,380 @@
+﻿|join|Jimmy Dean Pork
+|join|Psychedelic Trip
+|player|p1|Jimmy Dean Pork|170
+|player|p2|Psychedelic Trip|168
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jigglypuff|Jigglypuff, L99|428\/428
+|switch|p2a: Squirtle|Squirtle, L96|279\/279
+|turn|1
+|
+|move|p2a: Squirtle|Body Slam|p1a: Jigglypuff
+|-damage|p1a: Jigglypuff|339\/428
+|move|p1a: Jigglypuff|Body Slam|p2a: Squirtle
+|-damage|p2a: Squirtle|190\/279
+|
+|turn|2
+|
+|move|p2a: Squirtle|Surf|p1a: Jigglypuff
+|-damage|p1a: Jigglypuff|191\/428
+|move|p1a: Jigglypuff|Body Slam|p2a: Squirtle
+|-damage|p2a: Squirtle|105\/279
+|-status|p2a: Squirtle|par
+|
+|turn|3
+|
+|switch|p2a: Muk|Muk, L85|352\/352
+|move|p1a: Jigglypuff|Body Slam|p2a: Muk
+|-damage|p2a: Muk|260\/352
+|-status|p2a: Muk|par
+|
+|turn|4
+|
+|move|p1a: Jigglypuff|Body Slam|p2a: Muk
+|-damage|p2a: Muk|174\/352 par
+|move|p2a: Muk|Body Slam|p1a: Jigglypuff
+|-damage|p1a: Jigglypuff|72\/428
+|
+|turn|5
+|
+|switch|p1a: Golem|Golem, L79|288\/288
+|move|p2a: Muk|Body Slam|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|260\/288
+|
+|turn|6
+|
+|switch|p2a: Articuno|Articuno, L85|327\/327
+|move|p1a: Golem|Earthquake|p2a: Articuno
+|-immune|p2a: Articuno|[msg]
+|
+|turn|7
+|
+|switch|p1a: Jigglypuff|Jigglypuff, L99|72\/428
+|move|p2a: Articuno|Ice Beam|p1a: Jigglypuff
+|-damage|p1a: Jigglypuff|0 fnt
+|faint|p1a: Jigglypuff
+|
+|switch|p1a: Gyarados|Gyarados, L85|335\/335
+|turn|8
+|
+|switch|p2a: Jolteon|Jolteon, L85|284\/284
+|move|p1a: Gyarados|Thunderbolt|p2a: Jolteon
+|-resisted|p2a: Jolteon
+|-damage|p2a: Jolteon|254\/284
+|
+|turn|9
+|
+|switch|p1a: Golem|Golem, L79|260\/288
+|move|p2a: Jolteon|Sand Attack|p1a: Golem
+|-unboost|p1a: Golem|accuracy|1
+|
+|turn|10
+|
+|move|p2a: Jolteon|Double Kick|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|230\/288
+|-damage|p1a: Golem|200\/288
+|-hitcount|p1a: Golem|2
+|move|p1a: Golem|Rock Slide|p2a: Jolteon
+|-damage|p2a: Jolteon|152\/284
+|
+|turn|11
+|
+|switch|p2a: Squirtle|Squirtle, L96|105\/279 par
+|switch|p1a: Gyarados|Gyarados, L85|335\/335
+|
+|turn|12
+|
+|switch|p2a: Vileplume|Vileplume, L85|301\/301
+|move|p1a: Gyarados|Thunderbolt|p2a: Vileplume|[miss]
+|-miss|p1a: Gyarados
+|
+|turn|13
+|c|★Jimmy Dean Pork|the 100% lol
+|
+|switch|p1a: Victreebel|Victreebel, L85|310\/310
+|move|p2a: Vileplume|Sleep Powder|p1a: Victreebel|[miss]
+|-miss|p2a: Vileplume
+|
+|turn|14
+|
+|switch|p2a: Muk|Muk, L85|174\/352 par
+|move|p1a: Victreebel|Sleep Powder|p2a: Muk|[miss]
+|-miss|p1a: Victreebel
+|
+|turn|15
+|c|★Psychedelic Trip|?
+|
+|switch|p1a: Golem|Golem, L79|200\/288
+|move|p2a: Muk|Screech|p1a: Golem
+|-unboost|p1a: Golem|def|2
+|
+|turn|16
+|
+|switch|p2a: Squirtle|Squirtle, L96|105\/279 par
+|move|p1a: Golem|Rock Slide|p2a: Squirtle
+|-damage|p2a: Squirtle|20\/279 par
+|
+|turn|17
+|
+|move|p1a: Golem|Body Slam|p2a: Squirtle
+|-damage|p2a: Squirtle|0 fnt
+|faint|p2a: Squirtle
+|
+|switch|p2a: Articuno|Articuno, L85|327\/327
+|turn|18
+|
+|switch|p1a: Seadra|Seadra, L85|267\/267
+|move|p2a: Articuno|Ice Beam|p1a: Seadra
+|-crit|p1a: Seadra
+|-resisted|p1a: Seadra
+|-damage|p1a: Seadra|151\/267
+|
+|turn|19
+|
+|move|p1a: Seadra|Blizzard|p2a: Articuno
+|-damage|p2a: Articuno|263\/327
+|move|p2a: Articuno|Reflect|p2a: Articuno
+|-start|p2a: Articuno|Reflect
+|
+|turn|20
+|
+|move|p2a: Articuno|Ice Beam|p1a: Seadra
+|-crit|p1a: Seadra
+|-resisted|p1a: Seadra
+|-damage|p1a: Seadra|31\/267
+|move|p1a: Seadra|Hydro Pump|p2a: Articuno
+|-damage|p2a: Articuno|157\/327
+|
+|turn|21
+|
+|move|p1a: Seadra|Hydro Pump|p2a: Articuno
+|-crit|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|faint|p2a: Articuno
+|c|★Psychedelic Trip|yikes
+|
+|switch|p2a: Jolteon|Jolteon, L85|152\/284
+|turn|22
+|
+|switch|p1a: Golem|Golem, L79|200\/288
+|move|p2a: Jolteon|Double Kick|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|169\/288
+|-damage|p1a: Golem|138\/288
+|-hitcount|p1a: Golem|2
+|
+|turn|23
+|
+|switch|p2a: Vileplume|Vileplume, L85|301\/301
+|move|p1a: Golem|Earthquake|p2a: Vileplume
+|-damage|p2a: Vileplume|191\/301
+|
+|turn|24
+|
+|switch|p1a: Victreebel|Victreebel, L85|310\/310
+|move|p2a: Vileplume|Mega Drain|p1a: Victreebel
+|-resisted|p1a: Victreebel
+|-damage|p1a: Victreebel|300\/310
+|-heal|p2a: Vileplume|196\/301|[from] drain|[of] p1a: Victreebel
+|
+|turn|25
+|
+|switch|p2a: Muk|Muk, L85|174\/352 par
+|move|p1a: Victreebel|Sleep Powder|p2a: Muk
+|-fail|p2a: Muk
+|
+|turn|26
+|
+|move|p1a: Victreebel|Swords Dance|p1a: Victreebel
+|-boost|p1a: Victreebel|atk|2
+|move|p2a: Muk|Body Slam|p1a: Victreebel
+|-damage|p1a: Victreebel|216\/310
+|
+|turn|27
+|
+|move|p1a: Victreebel|Razor Leaf|p2a: Muk
+|-crit|p2a: Muk
+|-resisted|p2a: Muk
+|-damage|p2a: Muk|102\/352 par
+|move|p2a: Muk|Screech|p1a: Victreebel
+|-unboost|p1a: Victreebel|def|2
+|
+|turn|28
+|
+|switch|p1a: Golem|Golem, L79|138\/288
+|cant|p2a: Muk|par
+|
+|turn|29
+|
+|switch|p2a: Marowak|Marowak, L85|276\/276
+|move|p1a: Golem|Earthquake|p2a: Marowak
+|-damage|p2a: Marowak|192\/276
+|
+|turn|30
+|
+|switch|p1a: Pidgeotto|Pidgeotto, L85|281\/281
+|move|p2a: Marowak|Earthquake|p1a: Pidgeotto
+|-immune|p1a: Pidgeotto|[msg]
+|
+|turn|31
+|
+|move|p1a: Pidgeotto|Double-Edge|p2a: Marowak
+|-damage|p2a: Marowak|121\/276
+|-damage|p1a: Pidgeotto|264\/281|[from] recoil|[of] p2a: Marowak
+|move|p2a: Marowak|Blizzard|p1a: Pidgeotto
+|-supereffective|p1a: Pidgeotto
+|-damage|p1a: Pidgeotto|95\/281
+|
+|turn|32
+|
+|switch|p2a: Vileplume|Vileplume, L85|196\/301
+|move|p1a: Pidgeotto|Mirror Move|p1a: Pidgeotto
+|-fail|p1a: Pidgeotto
+|
+|turn|33
+|
+|move|p1a: Pidgeotto|Sky Attack|p2a: Vileplume|[still]
+|-prepare|p1a: Pidgeotto|Sky Attack|p2a: Vileplume
+|move|p2a: Vileplume|Sleep Powder|p1a: Pidgeotto
+|-status|p1a: Pidgeotto|slp
+|
+|turn|34
+|c|★Jimmy Dean Pork|well Im dumb
+|
+|cant|p1a: Pidgeotto|slp
+|move|p2a: Vileplume|Swords Dance|p2a: Vileplume
+|-boost|p2a: Vileplume|atk|2
+|
+|turn|35
+|
+|switch|p1a: Victreebel|Victreebel, L85|216\/310
+|move|p2a: Vileplume|Swords Dance|p2a: Vileplume
+|-boost|p2a: Vileplume|atk|2
+|
+|turn|36
+|c|★Psychedelic Trip|happens
+|
+|switch|p2a: Muk|Muk, L85|102\/352 par
+|move|p1a: Victreebel|Sleep Powder|p2a: Muk
+|-fail|p2a: Muk
+|
+|turn|37
+|
+|switch|p1a: Golem|Golem, L79|138\/288
+|cant|p2a: Muk|par
+|
+|turn|38
+|
+|switch|p2a: Marowak|Marowak, L85|121\/276
+|move|p1a: Golem|Earthquake|p2a: Marowak
+|-damage|p2a: Marowak|28\/276
+|
+|turn|39
+|
+|switch|p1a: Pidgeotto|Pidgeotto, L85|95\/281 slp
+|move|p2a: Marowak|Blizzard|p1a: Pidgeotto
+|-supereffective|p1a: Pidgeotto
+|-damage|p1a: Pidgeotto|0 fnt
+|faint|p1a: Pidgeotto
+|
+|switch|p1a: Gyarados|Gyarados, L85|335\/335
+|turn|40
+|c|★Psychedelic Trip|i need to get rid of that victrebell
+|
+|switch|p2a: Muk|Muk, L85|102\/352 par
+|move|p1a: Gyarados|Body Slam|p2a: Muk
+|-damage|p2a: Muk|21\/352 par
+|
+|turn|41
+|
+|move|p1a: Gyarados|Body Slam|p2a: Muk
+|-crit|p2a: Muk
+|-damage|p2a: Muk|0 fnt
+|faint|p2a: Muk
+|
+|switch|p2a: Vileplume|Vileplume, L85|196\/301
+|turn|42
+|
+|switch|p1a: Victreebel|Victreebel, L85|216\/310
+|move|p2a: Vileplume|Sleep Powder|p1a: Victreebel
+|-status|p1a: Victreebel|slp
+|
+|turn|43
+|
+|switch|p1a: Gyarados|Gyarados, L85|335\/335
+|move|p2a: Vileplume|Swords Dance|p2a: Vileplume
+|-boost|p2a: Vileplume|atk|2
+|
+|turn|44
+|
+|move|p1a: Gyarados|Blizzard|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|45\/301
+|move|p2a: Vileplume|Mega Drain|p1a: Gyarados
+|-damage|p1a: Gyarados|291\/335
+|-heal|p2a: Vileplume|67\/301|[from] drain|[of] p1a: Gyarados
+|
+|turn|45
+|
+|switch|p2a: Jolteon|Jolteon, L85|152\/284
+|move|p1a: Gyarados|Body Slam|p2a: Jolteon
+|-damage|p2a: Jolteon|54\/284
+|
+|turn|46
+|
+|switch|p1a: Victreebel|Victreebel, L85|216\/310 slp
+|move|p2a: Jolteon|Sand Attack|p1a: Victreebel
+|-unboost|p1a: Victreebel|accuracy|1
+|
+|turn|47
+|
+|switch|p1a: Golem|Golem, L79|138\/288
+|move|p2a: Jolteon|Sand Attack|p1a: Golem
+|-unboost|p1a: Golem|accuracy|1
+|
+|turn|48
+|
+|switch|p2a: Vileplume|Vileplume, L85|67\/301
+|move|p1a: Golem|Earthquake|p2a: Vileplume
+|-crit|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|
+|switch|p2a: Marowak|Marowak, L85|28\/276
+|turn|49
+|
+|switch|p1a: Seadra|Seadra, L85|31\/267
+|move|p2a: Marowak|Blizzard|p1a: Seadra
+|-resisted|p1a: Seadra
+|-damage|p1a: Seadra|4\/267
+|
+|turn|50
+|
+|switch|p2a: Jolteon|Jolteon, L85|54\/284
+|move|p1a: Seadra|Surf|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|c|★Jimmy Dean Pork|gg
+|c|★Psychedelic Trip|gg
+|
+|switch|p2a: Marowak|Marowak, L85|28\/276
+|turn|51
+|
+|move|p1a: Seadra|Surf|p2a: Marowak
+|-supereffective|p2a: Marowak
+|-damage|p2a: Marowak|0 fnt
+|faint|p2a: Marowak
+|
+|win|Jimmy Dean Pork
+|raw|Ladder updating...
+|raw|Jimmy Dean Pork's rating: 1225 &rarr; <strong>1250<\/strong><br \/>(+25 for winning)
+|raw|Psychedelic Trip's rating: 1224 &rarr; <strong>1199<\/strong><br \/>(-25 for losing)

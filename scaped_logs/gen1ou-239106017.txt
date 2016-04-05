@@ -1,0 +1,214 @@
+﻿|join|somebodysomebody
+|join|Giju
+|player|p1|somebodysomebody|92
+|player|p2|Giju|163
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|switch|p2a: Jynx|Jynx|333\/333
+|turn|1
+|
+|move|p2a: Jynx|Lovely Kiss|p1a: Exeggutor|[miss]
+|-miss|p2a: Jynx
+|move|p1a: Exeggutor|Sleep Powder|p2a: Jynx
+|-status|p2a: Jynx|slp
+|
+|turn|2
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|cant|p2a: Jynx|slp
+|
+|turn|3
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Tauros|Earthquake|p2a: Snorlax
+|-damage|p2a: Snorlax|426\/523
+|
+|turn|4
+|
+|move|p1a: Tauros|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|297\/523
+|move|p2a: Snorlax|Reflect|p2a: Snorlax
+|-start|p2a: Snorlax|Reflect
+|
+|turn|5
+|
+|move|p1a: Tauros|Earthquake|p2a: Snorlax
+|-damage|p2a: Snorlax|243\/523
+|move|p2a: Snorlax|Body Slam|p1a: Tauros|[miss]
+|-miss|p2a: Snorlax
+|
+|turn|6
+|
+|move|p1a: Tauros|Blizzard|p2a: Snorlax
+|-damage|p2a: Snorlax|137\/523
+|move|p2a: Snorlax|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|245\/353
+|
+|turn|7
+|
+|move|p1a: Tauros|Blizzard|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|switch|p2a: Chan|Chansey|703\/703
+|turn|8
+|
+|switch|p1a: Rhydon|Rhydon|413\/413
+|move|p2a: Chan|Thunder Wave|p1a: Rhydon
+|-immune|p1a: Rhydon|[msg]
+|
+|turn|9
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|move|p2a: Chan|Ice Beam|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|284\/323
+|
+|turn|10
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Chan
+|-status|p2a: Chan|par
+|cant|p2a: Chan|par
+|
+|turn|11
+|
+|switch|p1a: Tauros|Tauros|245\/353
+|move|p2a: Chan|Ice Beam|p1a: Tauros
+|-damage|p1a: Tauros|150\/353
+|
+|turn|12
+|
+|move|p1a: Tauros|Earthquake|p2a: Chan
+|-crit|p2a: Chan
+|-damage|p2a: Chan|288\/703 par
+|move|p2a: Chan|Ice Beam|p1a: Tauros
+|-damage|p1a: Tauros|52\/353
+|
+|turn|13
+|
+|move|p1a: Tauros|Earthquake|p2a: Chan
+|-damage|p2a: Chan|70\/703 par
+|move|p2a: Chan|Soft-Boiled|p2a: Chan
+|-heal|p2a: Chan|421\/703 par
+|
+|turn|14
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Chan
+|-damage|p2a: Chan|0 fnt
+|faint|p2a: Chan
+|
+|switch|p2a: Persian|Persian|333\/333
+|turn|15
+|
+|switch|p1a: Mindee|Chansey|703\/703
+|move|p2a: Persian|Bubble Beam|p1a: Mindee
+|-damage|p1a: Mindee|665\/703
+|
+|turn|16
+|
+|switch|p2a: Jynx|Jynx|333\/333 slp
+|move|p1a: Mindee|Ice Beam|p2a: Jynx
+|-resisted|p2a: Jynx
+|-damage|p2a: Jynx|294\/333 slp
+|
+|turn|17
+|
+|switch|p1a: Tauros|Tauros|52\/353
+|cant|p2a: Jynx|slp
+|
+|turn|18
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|
+|switch|p2a: Persian|Persian|333\/333
+|turn|19
+|c|★somebodysomebody|I have the goddess of luck this time.
+|c|★Giju|lol
+|c|★Giju|^^
+|
+|switch|p1a: Mindee|Chansey|665\/703
+|move|p2a: Persian|Slash|p1a: Mindee
+|-crit|p1a: Mindee
+|-damage|p1a: Mindee|335\/703
+|
+|turn|20
+|
+|move|p2a: Persian|Slash|p1a: Mindee
+|-crit|p1a: Mindee
+|-damage|p1a: Mindee|4\/703
+|move|p1a: Mindee|Counter|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|faint|p2a: Persian
+|
+|switch|p2a: Gol|Golem|363\/363
+|turn|21
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Gol|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|318\/393
+|
+|turn|22
+|
+|move|p1a: Exeggutor|Sleep Powder|p2a: Gol
+|-status|p2a: Gol|slp
+|cant|p2a: Gol|slp
+|
+|turn|23
+|c|★Giju|\/\/forfet
+|
+|move|p1a: Exeggutor|Psychic|p2a: Gol
+|-damage|p2a: Gol|193\/363 slp
+|cant|p2a: Gol|slp
+|
+|turn|24
+|
+|move|p1a: Exeggutor|Psychic|p2a: Gol
+|-damage|p2a: Gol|3\/363 slp
+|cant|p2a: Gol|slp
+|
+|turn|25
+|c|★Giju|rematch?
+|
+|move|p1a: Exeggutor|Psychic|p2a: Gol
+|-damage|p2a: Gol|0 fnt
+|faint|p2a: Gol
+|
+|switch|p2a: Tau|Tauros|353\/353
+|turn|26
+|
+|move|p2a: Tau|Blizzard|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|77\/393
+|move|p1a: Exeggutor|Explosion|p2a: Tau
+|-damage|p2a: Tau|156\/353
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|turn|27
+|
+|move|p1a: Alakazam|Psychic|p2a: Tau
+|-crit|p2a: Tau
+|-damage|p2a: Tau|0 fnt
+|faint|p2a: Tau
+|
+|win|somebodysomebody
+|raw|Ladder updating...
+|raw|somebodysomebody's rating: 1281 &rarr; <strong>1302<\/strong><br \/>(+21 for winning)
+|raw|Giju's rating: 1224 &rarr; <strong>1203<\/strong><br \/>(-21 for losing)
+|c|★somebodysomebody|There's an I in forfeit.
+|c|★somebodysomebody|Sure, I'll have a rematch.

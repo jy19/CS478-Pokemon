@@ -1,0 +1,209 @@
+﻿|join|MALESANI
+|join|Jamstaro1
+|player|p1|MALESANI|238
+|player|p2|Jamstaro1|29
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|54213,5054,43495,12464
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Clefairy|Clefairy, L95|326\/326
+|switch|p2a: Raticate|Raticate, L85|267\/267
+|turn|1
+|choice|move 4|move 2
+|
+|move|p2a: Raticate|Body Slam|p1a: Clefairy
+|-damage|p1a: Clefairy|221\/326
+|move|p1a: Clefairy|Counter|p2a: Raticate
+|-damage|p2a: Raticate|57\/267
+|
+|turn|2
+|choice|move 1|move 3
+|
+|move|p2a: Raticate|Hyper Beam|p1a: Clefairy
+|-damage|p1a: Clefairy|52\/326
+|move|p1a: Clefairy|Metronome|p1a: Clefairy
+|move|p1a: Clefairy|Reflect|p1a: Clefairy|[from]Metronome
+|-start|p1a: Clefairy|Reflect
+|
+|turn|3
+|-mustrecharge|p2a: Raticate
+|-mustrecharge|p2a: Raticate
+|choice|move 1|move 1
+|
+|cant|p2a: Raticate|recharge
+|move|p1a: Clefairy|Metronome|p1a: Clefairy
+|move|p1a: Clefairy|Swords Dance|p1a: Clefairy|[from]Metronome
+|-boost|p1a: Clefairy|atk|2
+|
+|turn|4
+|choice|move 1|move 2
+|
+|move|p2a: Raticate|Body Slam|p1a: Clefairy
+|-damage|p1a: Clefairy|0 fnt
+|faint|p1a: Clefairy
+|choice|switch 6|
+|
+|switch|p1a: Primeape|Primeape, L90|300\/300
+|turn|5
+|choice|move 2|move 1
+|
+|move|p1a: Primeape|Body Slam|p2a: Raticate
+|-damage|p2a: Raticate|0 fnt
+|faint|p2a: Raticate
+|choice||switch 6
+|
+|switch|p2a: Seadra|Seadra, L90|282\/282
+|turn|6
+|choice|move 2|move 3
+|
+|move|p1a: Primeape|Body Slam|p2a: Seadra
+|-damage|p2a: Seadra|211\/282
+|move|p2a: Seadra|Smokescreen|p1a: Primeape
+|-unboost|p1a: Primeape|accuracy|1
+|
+|turn|7
+|choice|move 2|move 3
+|
+|move|p1a: Primeape|Body Slam|p2a: Seadra
+|-damage|p2a: Seadra|144\/282
+|move|p2a: Seadra|Smokescreen|p1a: Primeape
+|-unboost|p1a: Primeape|accuracy|1
+|
+|turn|8
+|choice|switch 3|move 3
+|
+|switch|p1a: Cloyster|Cloyster, L83|253\/253
+|move|p2a: Seadra|Smokescreen|p1a: Cloyster
+|-unboost|p1a: Cloyster|accuracy|1
+|
+|turn|9
+|choice|move 3|move 3
+|
+|move|p2a: Seadra|Smokescreen|p1a: Cloyster
+|-unboost|p1a: Cloyster|accuracy|1
+|move|p1a: Cloyster|Toxic|p2a: Seadra|[miss]
+|-miss|p1a: Cloyster
+|
+|turn|10
+|choice|move 3|switch 2
+|
+|switch|p2a: Zapdos|Zapdos, L79|304\/304
+|move|p1a: Cloyster|Toxic|p2a: Zapdos|[miss]
+|-miss|p1a: Cloyster
+|
+|turn|11
+|choice|switch 2|move 4
+|
+|switch|p1a: Ninetales|Ninetales, L85|298\/298
+|move|p2a: Zapdos|Agility|p2a: Zapdos
+|-boost|p2a: Zapdos|spe|2
+|
+|turn|12
+|choice|move 4|move 2
+|
+|move|p2a: Zapdos|Thunder Wave|p1a: Ninetales
+|-status|p1a: Ninetales|par
+|move|p1a: Ninetales|Body Slam|p2a: Zapdos
+|-damage|p2a: Zapdos|245\/304
+|
+|turn|13
+|choice|move 1|move 3
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Ninetales
+|-damage|p1a: Ninetales|200\/298 par
+|cant|p1a: Ninetales|par
+|
+|turn|14
+|choice|move 1|move 1
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Ninetales
+|-damage|p1a: Ninetales|117\/298 par
+|move|p1a: Ninetales|Fire Blast|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|32\/304
+|-status|p2a: Zapdos|brn
+|
+|turn|15
+|choice|move 4|move 1
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Ninetales
+|-damage|p1a: Ninetales|76\/298 par
+|-damage|p2a: Zapdos|13\/304 brn|[from] brn|[of] p1a: Ninetales
+|move|p1a: Ninetales|Body Slam|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|choice||switch 2
+|
+|switch|p2a: Seadra|Seadra, L90|144\/282
+|turn|16
+|choice|move 2|move 4
+|
+|move|p2a: Seadra|Hydro Pump|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|choice|switch 3|
+|
+|switch|p1a: Primeape|Primeape, L90|300\/300
+|turn|17
+|choice|move 3|move 3
+|
+|move|p1a: Primeape|Submission|p2a: Seadra
+|-damage|p2a: Seadra|50\/282
+|-damage|p1a: Primeape|277\/300|[from] recoil|[of] p2a: Seadra
+|move|p2a: Seadra|Smokescreen|p1a: Primeape
+|-unboost|p1a: Primeape|accuracy|1
+|
+|turn|18
+|choice|move 2|move 3
+|
+|move|p1a: Primeape|Body Slam|p2a: Seadra|[miss]
+|-miss|p1a: Primeape
+|move|p2a: Seadra|Smokescreen|p1a: Primeape
+|-unboost|p1a: Primeape|accuracy|1
+|
+|turn|19
+|choice|move 2|move 3
+|
+|move|p1a: Primeape|Body Slam|p2a: Seadra
+|-crit|p2a: Seadra
+|-damage|p2a: Seadra|0 fnt
+|faint|p2a: Seadra
+|choice||switch 4
+|
+|switch|p2a: Sandshrew|Sandshrew, L96|291\/291
+|turn|20
+|choice|switch 5|move 4
+|
+|switch|p1a: Venomoth|Venomoth, L85|293\/293
+|move|p2a: Sandshrew|Substitute|p2a: Sandshrew
+|-start|p2a: Sandshrew|Substitute
+|-damage|p2a: Sandshrew|219\/291
+|
+|turn|21
+|choice|move 3|move 2
+|
+|move|p1a: Venomoth|Sleep Powder|p2a: Sandshrew
+|-status|p2a: Sandshrew|slp
+|cant|p2a: Sandshrew|slp
+|
+|turn|22
+|choice|move 1|move 2
+|
+|move|p1a: Venomoth|Mega Drain|p2a: Sandshrew
+|-supereffective|p2a: Sandshrew
+|-end|p2a: Sandshrew|Substitute
+|cant|p2a: Sandshrew|slp
+|
+|turn|23
+|-message|Jamstaro1 forfeited.
+|
+|win|MALESANI
+|leave|Jamstaro1
+|player|p2

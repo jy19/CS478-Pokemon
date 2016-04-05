@@ -1,0 +1,234 @@
+﻿|join|Hargnyque
+|join|foxgrl
+|player|p1|Hargnyque|26
+|player|p2|foxgrl|4
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jolteon|Jolteon, L79|265\/265
+|switch|p2a: Mew|Mew, L74|300\/300
+|turn|1
+|
+|switch|p1a: Nidoqueen|Nidoqueen, L85|327\/327
+|move|p2a: Mew|Hyper Beam|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|245\/327
+|
+|turn|2
+|-mustrecharge|p2a: Mew
+|c|★foxgrl|hi
+|-mustrecharge|p2a: Mew
+|
+|cant|p2a: Mew|recharge
+|move|p1a: Nidoqueen|Earthquake|p2a: Mew
+|-damage|p2a: Mew|193\/300
+|
+|turn|3
+|
+|switch|p1a: Mr. Mime|Mr. Mime, L85|242\/242
+|move|p2a: Mew|Thunder Wave|p1a: Mr. Mime
+|-status|p1a: Mr. Mime|par
+|
+|turn|4
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|293\/293
+|move|p1a: Mr. Mime|Thunder Wave|p2a: Mewtwo
+|-status|p2a: Mewtwo|par
+|
+|turn|5
+|c|★Hargnyque|WTF
+|
+|move|p2a: Mewtwo|Psychic|p1a: Mr. Mime
+|-resisted|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|203\/242 par
+|cant|p1a: Mr. Mime|par
+|
+|turn|6
+|c|★foxgrl|I have a friggen weedle
+|
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|move|p1a: Mr. Mime|Seismic Toss|p2a: Mewtwo
+|-damage|p2a: Mewtwo|208\/293 par
+|
+|turn|7
+|
+|move|p2a: Mewtwo|Rest|p2a: Mewtwo
+|-status|p2a: Mewtwo|slp
+|-heal|p2a: Mewtwo|293\/293 slp|[silent]
+|-status|p2a: Mewtwo|slp|[from] move: Rest
+|move|p1a: Mr. Mime|Seismic Toss|p2a: Mewtwo
+|-damage|p2a: Mewtwo|208\/293 slp
+|
+|turn|8
+|
+|switch|p2a: Pidgeot|Pidgeot, L90|333\/333
+|move|p1a: Mr. Mime|Seismic Toss|p2a: Pidgeot
+|-damage|p2a: Pidgeot|248\/333
+|
+|turn|9
+|
+|move|p2a: Pidgeot|Mirror Move|p2a: Pidgeot
+|move|p2a: Pidgeot|Seismic Toss|p1a: Mr. Mime|[from]Mirror Move
+|-damage|p1a: Mr. Mime|113\/242 par
+|cant|p1a: Mr. Mime|par
+|
+|turn|10
+|
+|move|p2a: Pidgeot|Double-Edge|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|0 fnt
+|-damage|p2a: Pidgeot|220\/333|[from] recoil|[of] p1a: Mr. Mime
+|faint|p1a: Mr. Mime
+|
+|switch|p1a: Jolteon|Jolteon, L79|265\/265
+|turn|11
+|
+|switch|p2a: Nidorino|Nidorino, L90|293\/293
+|move|p1a: Jolteon|Thunderbolt|p2a: Nidorino
+|-crit|p2a: Nidorino
+|-damage|p2a: Nidorino|59\/293
+|
+|turn|12
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Nidorino
+|-crit|p2a: Nidorino
+|-damage|p2a: Nidorino|0 fnt
+|faint|p2a: Nidorino
+|
+|switch|p2a: Chansey|Chansey, L79|557\/557
+|turn|13
+|
+|switch|p1a: Nidoqueen|Nidoqueen, L85|245\/327
+|move|p2a: Chansey|Thunderbolt|p1a: Nidoqueen
+|-immune|p1a: Nidoqueen|[msg]
+|
+|turn|14
+|
+|move|p1a: Nidoqueen|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|403\/557
+|move|p2a: Chansey|Ice Beam|p1a: Nidoqueen
+|-supereffective|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|110\/327
+|
+|turn|15
+|
+|move|p1a: Nidoqueen|Earthquake|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|switch|p2a: Mew|Mew, L74|193\/300
+|turn|16
+|
+|move|p2a: Mew|Earthquake|p1a: Nidoqueen
+|-supereffective|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|0 fnt
+|faint|p1a: Nidoqueen
+|
+|switch|p1a: Spearow|Spearow, L96|272\/272
+|turn|17
+|
+|move|p1a: Spearow|Drill Peck|p2a: Mew
+|-damage|p2a: Mew|110\/300
+|move|p2a: Mew|Earthquake|p1a: Spearow
+|-immune|p1a: Spearow|[msg]
+|
+|turn|18
+|
+|switch|p2a: Weedle|Weedle, L99|280\/280
+|move|p1a: Spearow|Drill Peck|p2a: Weedle
+|-supereffective|p2a: Weedle
+|-damage|p2a: Weedle|49\/280
+|
+|turn|19
+|
+|switch|p2a: Pidgeot|Pidgeot, L90|220\/333
+|move|p1a: Spearow|Agility|p1a: Spearow
+|-boost|p1a: Spearow|spe|2
+|
+|turn|20
+|
+|move|p1a: Spearow|Drill Peck|p2a: Pidgeot
+|-damage|p2a: Pidgeot|136\/333
+|move|p2a: Pidgeot|Mirror Move|p2a: Pidgeot
+|move|p2a: Pidgeot|Drill Peck|p1a: Spearow|[from]Mirror Move|[miss]
+|-miss|p2a: Pidgeot
+|
+|turn|21
+|
+|move|p1a: Spearow|Drill Peck|p2a: Pidgeot
+|-damage|p2a: Pidgeot|48\/333
+|move|p2a: Pidgeot|Agility|p2a: Pidgeot
+|-boost|p2a: Pidgeot|spe|2
+|
+|turn|22
+|
+|move|p2a: Pidgeot|Rest|p2a: Pidgeot
+|-status|p2a: Pidgeot|slp
+|-heal|p2a: Pidgeot|333\/333 slp|[silent]
+|-status|p2a: Pidgeot|slp|[from] move: Rest
+|move|p1a: Spearow|Drill Peck|p2a: Pidgeot
+|-crit|p2a: Pidgeot
+|-damage|p2a: Pidgeot|158\/333 slp
+|
+|turn|23
+|
+|switch|p2a: Mew|Mew, L74|110\/300
+|move|p1a: Spearow|Drill Peck|p2a: Mew
+|-damage|p2a: Mew|21\/300
+|
+|turn|24
+|
+|move|p1a: Spearow|Drill Peck|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|208\/293 slp
+|turn|25
+|
+|move|p1a: Spearow|Drill Peck|p2a: Mewtwo
+|-damage|p2a: Mewtwo|105\/293 slp
+|cant|p2a: Mewtwo|slp
+|
+|turn|26
+|
+|move|p1a: Spearow|Drill Peck|p2a: Mewtwo
+|-damage|p2a: Mewtwo|2\/293 slp
+|-curestatus|p2a: Mewtwo|slp
+|
+|turn|27
+|
+|move|p1a: Spearow|Drill Peck|p2a: Mewtwo
+|-damage|p2a: Mewtwo|0 fnt
+|faint|p2a: Mewtwo
+|
+|switch|p2a: Pidgeot|Pidgeot, L90|158\/333 slp
+|turn|28
+|c|★Hargnyque|OMG the crazy sweep
+|
+|move|p1a: Spearow|Drill Peck|p2a: Pidgeot
+|-damage|p2a: Pidgeot|67\/333 slp
+|cant|p2a: Pidgeot|slp
+|
+|turn|29
+|
+|move|p1a: Spearow|Drill Peck|p2a: Pidgeot
+|-damage|p2a: Pidgeot|0 fnt
+|faint|p2a: Pidgeot
+|
+|switch|p2a: Weedle|Weedle, L99|49\/280
+|turn|30
+|
+|move|p1a: Spearow|Drill Peck|p2a: Weedle
+|-supereffective|p2a: Weedle
+|-damage|p2a: Weedle|0 fnt
+|faint|p2a: Weedle
+|
+|win|Hargnyque
+|raw|Hargnyque's rating: 1167 &rarr; <strong>1181<\/strong><br \/>(+14 for winning)
+|raw|foxgrl's rating: 1000 &rarr; <strong>1000<\/strong><br \/>(+0 for losing)

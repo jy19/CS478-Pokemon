@@ -1,0 +1,836 @@
+﻿|join|ggc
+|join|Doshyara
+|player|p1|ggc|209
+|player|p2|Doshyara|30
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333\/333
+|switch|p2a: Alakazam|Alakazam|313\/313
+|turn|1
+|join|z3frog
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Alakazam|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|turn|2
+|
+|switch|p2a: Jynx|Jynx|333\/333
+|switch|p1a: Jynx|Jynx|333\/333
+|
+|turn|3
+|
+|switch|p1a: Chansey|Chansey|703\/703 par
+|move|p2a: Jynx|Lovely Kiss|p1a: Chansey
+|-fail|p1a: Chansey
+|
+|turn|4
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|move|p1a: Chansey|Ice Beam|p2a: Tauros
+|-damage|p2a: Tauros|254\/353
+|
+|turn|5
+|join|Punkk
+|
+|move|p2a: Tauros|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|438\/703 par
+|move|p1a: Chansey|Counter|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|join|teo13
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|turn|6
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Snorlax|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|279\/393
+|-status|p1a: Exeggutor|par
+|
+|turn|7
+|leave|z3frog
+|
+|move|p2a: Snorlax|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|169\/393 par
+|move|p1a: Exeggutor|Sleep Powder|p2a: Snorlax
+|-status|p2a: Snorlax|slp
+|
+|turn|8
+|
+|cant|p2a: Snorlax|slp
+|move|p1a: Exeggutor|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|359\/523 slp
+|
+|turn|9
+|
+|switch|p1a: Jynx|Jynx|333\/333
+|cant|p2a: Snorlax|slp
+|
+|turn|10
+|
+|move|p1a: Jynx|Blizzard|p2a: Snorlax
+|-damage|p2a: Snorlax|188\/523 slp
+|cant|p2a: Snorlax|slp
+|
+|turn|11
+|
+|move|p1a: Jynx|Blizzard|p2a: Snorlax
+|-damage|p2a: Snorlax|7\/523 slp
+|cant|p2a: Snorlax|slp
+|
+|turn|12
+|
+|switch|p2a: Jynx|Jynx|333\/333
+|move|p1a: Jynx|Blizzard|p2a: Jynx
+|-resisted|p2a: Jynx
+|-damage|p2a: Jynx|266\/333
+|
+|turn|13
+|
+|switch|p1a: Chansey|Chansey|438\/703 par
+|move|p2a: Jynx|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|328\/703 par
+|
+|turn|14
+|join|yanez99
+|
+|move|p2a: Jynx|Reflect|p2a: Jynx
+|cant|p1a: Chansey|par
+|
+|turn|15
+|leave|teo13
+|
+|move|p2a: Jynx|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|232\/703 par
+|cant|p1a: Chansey|par
+|
+|turn|16
+|
+|move|p2a: Jynx|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|127\/703 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|478\/703 par
+|
+|turn|17
+|leave|Punkk
+|
+|move|p2a: Jynx|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|380\/703 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703 par
+|
+|turn|18
+|leave|yanez99
+|
+|move|p2a: Jynx|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|607\/703 par
+|cant|p1a: Chansey|par
+|
+|turn|19
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|cant|p1a: Chansey|par
+|
+|turn|20
+|
+|switch|p1a: Exeggutor|Exeggutor|169\/393 par
+|move|p2a: Exeggutor|Psychic|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|69\/393 par
+|
+|turn|21
+|
+|switch|p2a: Snorlax|Snorlax|7\/523 slp
+|move|p1a: Exeggutor|Explosion|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Jynx|Jynx|333\/333
+|switch|p2a: Jynx|Jynx|266\/333
+|turn|22
+|
+|switch|p1a: Chansey|Chansey|607\/703 par
+|move|p2a: Jynx|Lovely Kiss|p1a: Chansey|[miss]
+|-miss|p2a: Jynx
+|
+|turn|23
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|635\/703
+|
+|turn|24
+|
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|447\/703 par
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|558\/703
+|
+|turn|25
+|
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|376\/703 par
+|cant|p1a: Chansey|par
+|
+|turn|26
+|
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|298\/703 par
+|cant|p1a: Chansey|par
+|
+|turn|27
+|
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|219\/703 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|570\/703 par
+|
+|turn|28
+|
+|switch|p2a: Alakazam|Alakazam|313\/313
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703 par
+|
+|turn|29
+|
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|586\/703 par
+|move|p1a: Chansey|Ice Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|254\/313
+|
+|turn|30
+|
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|316\/703 par
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|cant|p1a: Chansey|par
+|
+|turn|31
+|
+|switch|p1a: Jynx|Jynx|333\/333
+|move|p2a: Alakazam|Psychic|p1a: Jynx
+|-crit|p1a: Jynx
+|-resisted|p1a: Jynx
+|-damage|p1a: Jynx|206\/333
+|
+|turn|32
+|
+|move|p2a: Alakazam|Psychic|p1a: Jynx
+|-resisted|p1a: Jynx
+|-damage|p1a: Jynx|135\/333
+|move|p1a: Jynx|Lovely Kiss|p2a: Alakazam|[miss]
+|-miss|p1a: Jynx
+|
+|turn|33
+|
+|move|p2a: Alakazam|Psychic|p1a: Jynx
+|-crit|p1a: Jynx
+|-resisted|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|
+|chat|Doshyara|:\/
+|chat|ggc|what a croc of shit
+|
+|switch|p1a: Chansey|Chansey|316\/703 par
+|turn|34
+|
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|184\/703 par
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|535\/703 par
+|
+|turn|35
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|move|p2a: Alakazam|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|265\/313
+|
+|turn|36
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Alakazam|[miss]
+|-miss|p1a: Alakazam
+|move|p2a: Alakazam|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|
+|turn|37
+|chat|ggc|Jesus
+|
+|move|p2a: Alakazam|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|208\/313 par
+|move|p1a: Alakazam|Thunder Wave|p2a: Alakazam
+|-status|p2a: Alakazam|par
+|
+|turn|38
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|313\/313 par
+|move|p2a: Alakazam|Psychic|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|213\/313 par
+|
+|turn|39
+|
+|cant|p2a: Alakazam|par
+|cant|p1a: Alakazam|par
+|
+|turn|40
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|313\/313 par
+|move|p2a: Alakazam|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|264\/313 par
+|
+|turn|41
+|
+|move|p1a: Alakazam|Psychic|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|146\/313 par
+|-unboost|p2a: Alakazam|spd|1
+|-unboost|p2a: Alakazam|spa|1
+|cant|p2a: Alakazam|par
+|
+|turn|42
+|
+|cant|p1a: Alakazam|par
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|302\/313 par
+|
+|turn|43
+|
+|move|p1a: Alakazam|Psychic|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|194\/313 par
+|move|p2a: Alakazam|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|231\/313 par
+|-unboost|p1a: Alakazam|spd|1
+|-unboost|p1a: Alakazam|spa|1
+|
+|turn|44
+|
+|move|p2a: Alakazam|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|176\/313 par
+|move|p1a: Alakazam|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|140\/313 par
+|-unboost|p2a: Alakazam|spd|1
+|-unboost|p2a: Alakazam|spa|1
+|
+|turn|45
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|296\/313 par
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|313\/313 par
+|
+|turn|46
+|
+|cant|p1a: Alakazam|par
+|move|p2a: Alakazam|Psychic|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|216\/313 par
+|
+|turn|47
+|
+|move|p2a: Alakazam|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|176\/313 par
+|move|p1a: Alakazam|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|232\/313 par
+|
+|turn|48
+|
+|move|p2a: Alakazam|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|135\/313 par
+|cant|p1a: Alakazam|par
+|
+|turn|49
+|
+|move|p2a: Alakazam|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|93\/313 par
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|249\/313 par
+|
+|turn|50
+|
+|switch|p2a: Jynx|Jynx|266\/333
+|move|p1a: Alakazam|Psychic|p2a: Jynx
+|-resisted|p2a: Jynx
+|-damage|p2a: Jynx|220\/333
+|
+|turn|51
+|
+|switch|p1a: Chansey|Chansey|535\/703 par
+|move|p2a: Jynx|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|424\/703 par
+|
+|turn|52
+|
+|move|p2a: Jynx|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|329\/703 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|680\/703 par
+|
+|turn|53
+|
+|move|p2a: Jynx|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|589\/703 par
+|move|p1a: Chansey|Thunder Wave|p2a: Jynx
+|-status|p2a: Jynx|par
+|
+|turn|54
+|
+|move|p2a: Jynx|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|488\/703 par
+|move|p1a: Chansey|Ice Beam|p2a: Jynx
+|-resisted|p2a: Jynx
+|-damage|p2a: Jynx|179\/333 par
+|
+|turn|55
+|
+|move|p2a: Jynx|Psychic|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|285\/703 par
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|636\/703 par
+|
+|turn|56
+|
+|switch|p1a: Alakazam|Alakazam|249\/313 par
+|move|p2a: Jynx|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|208\/313 par
+|-unboost|p1a: Alakazam|spd|1
+|-unboost|p1a: Alakazam|spa|1
+|
+|turn|57
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|313\/313 par
+|move|p2a: Jynx|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|252\/313 par
+|
+|turn|58
+|
+|switch|p1a: Chansey|Chansey|636\/703 par
+|move|p2a: Jynx|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|539\/703 par
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|
+|turn|59
+|chat|Doshyara|My girlfriend is smashing me on whatsapp sorry
+|
+|cant|p2a: Jynx|par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703 par
+|
+|turn|60
+|
+|switch|p1a: Alakazam|Alakazam|252\/313 par
+|move|p2a: Jynx|Psychic|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|172\/313 par
+|-unboost|p1a: Alakazam|spd|1
+|-unboost|p1a: Alakazam|spa|1
+|
+|turn|61
+|chat|ggc|smashing on you
+|chat|ggc|is that what the kids are calling it these days
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|313\/313 par
+|cant|p2a: Jynx|par
+|
+|turn|62
+|
+|switch|p1a: Chansey|Chansey|703\/703 par
+|move|p2a: Jynx|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|606\/703 par
+|
+|turn|63
+|
+|move|p2a: Jynx|Ice Beam|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|406\/703 par
+|cant|p1a: Chansey|par
+|
+|turn|64
+|
+|move|p2a: Jynx|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|300\/703 par
+|cant|p1a: Chansey|par
+|
+|turn|65
+|
+|move|p2a: Jynx|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|201\/703 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|552\/703 par
+|
+|turn|66
+|
+|move|p2a: Jynx|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|451\/703 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703 par
+|
+|turn|67
+|
+|move|p2a: Jynx|Psychic|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|516\/703 par
+|cant|p1a: Chansey|par
+|
+|turn|68
+|
+|switch|p1a: Alakazam|Alakazam|313\/313 par
+|move|p2a: Jynx|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|273\/313 par
+|
+|turn|69
+|join|Alkarion
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Alakazam|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|338\/393
+|
+|turn|70
+|
+|move|p2a: Exeggutor|Mega Drain|p1a: Alakazam
+|-damage|p1a: Alakazam|228\/313 par
+|-heal|p2a: Exeggutor|361\/393|[from] drain|[of] p1a: Alakazam
+|move|p1a: Alakazam|Reflect|p1a: Alakazam
+|
+|turn|71
+|
+|move|p2a: Exeggutor|Mega Drain|p1a: Alakazam
+|-damage|p1a: Alakazam|187\/313 par
+|-heal|p2a: Exeggutor|382\/393|[from] drain|[of] p1a: Alakazam
+|move|p1a: Alakazam|Thunder Wave|p2a: Exeggutor
+|-status|p2a: Exeggutor|par
+|
+|turn|72
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|313\/313 par
+|move|p2a: Exeggutor|Mega Drain|p1a: Alakazam
+|-damage|p1a: Alakazam|265\/313 par
+|-heal|p2a: Exeggutor|393\/393 par|[from] drain|[of] p1a: Alakazam
+|
+|turn|73
+|
+|move|p1a: Alakazam|Psychic|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|280\/393 par
+|move|p2a: Exeggutor|Mega Drain|p1a: Alakazam
+|-damage|p1a: Alakazam|219\/313 par
+|-heal|p2a: Exeggutor|303\/393 par|[from] drain|[of] p1a: Alakazam
+|
+|turn|74
+|
+|cant|p1a: Alakazam|par
+|move|p2a: Exeggutor|Mega Drain|p1a: Alakazam
+|-damage|p1a: Alakazam|178\/313 par
+|-heal|p2a: Exeggutor|324\/393 par|[from] drain|[of] p1a: Alakazam
+|
+|turn|75
+|
+|cant|p1a: Alakazam|par
+|move|p2a: Exeggutor|Mega Drain|p1a: Alakazam
+|-damage|p1a: Alakazam|136\/313 par
+|-heal|p2a: Exeggutor|345\/393 par|[from] drain|[of] p1a: Alakazam
+|
+|turn|76
+|
+|cant|p1a: Alakazam|par
+|move|p2a: Exeggutor|Mega Drain|p1a: Alakazam
+|-damage|p1a: Alakazam|88\/313 par
+|-heal|p2a: Exeggutor|369\/393 par|[from] drain|[of] p1a: Alakazam
+|
+|turn|77
+|leave|Alkarion
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|244\/313 par
+|cant|p2a: Exeggutor|par
+|
+|turn|78
+|
+|move|p1a: Alakazam|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|317\/393 par
+|cant|p2a: Exeggutor|par
+|
+|turn|79
+|
+|move|p1a: Alakazam|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|258\/393 par
+|-unboost|p2a: Exeggutor|spd|1
+|-unboost|p2a: Exeggutor|spa|1
+|move|p2a: Exeggutor|Mega Drain|p1a: Alakazam
+|-damage|p1a: Alakazam|212\/313 par
+|-heal|p2a: Exeggutor|274\/393 par|[from] drain|[of] p1a: Alakazam
+|
+|turn|80
+|
+|cant|p1a: Alakazam|par
+|move|p2a: Exeggutor|Mega Drain|p1a: Alakazam
+|-damage|p1a: Alakazam|181\/313 par
+|-heal|p2a: Exeggutor|290\/393 par|[from] drain|[of] p1a: Alakazam
+|
+|turn|81
+|
+|move|p1a: Alakazam|Psychic|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|169\/393 par
+|-unboost|p2a: Exeggutor|spd|1
+|-unboost|p2a: Exeggutor|spa|1
+|cant|p2a: Exeggutor|par
+|
+|turn|82
+|
+|cant|p1a: Alakazam|par
+|cant|p2a: Exeggutor|par
+|
+|turn|83
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|313\/313 par
+|move|p2a: Exeggutor|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|288\/313 par
+|-unboost|p1a: Alakazam|spd|1
+|-unboost|p1a: Alakazam|spa|1
+|
+|turn|84
+|
+|cant|p1a: Alakazam|par
+|cant|p2a: Exeggutor|par
+|
+|turn|85
+|
+|move|p1a: Alakazam|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|94\/393 par
+|cant|p2a: Exeggutor|par
+|
+|turn|86
+|
+|move|p1a: Alakazam|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|16\/393 par
+|cant|p2a: Exeggutor|par
+|
+|turn|87
+|
+|move|p1a: Alakazam|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|
+|switch|p2a: Chansey|Chansey|558\/703
+|turn|88
+|
+|switch|p1a: Chansey|Chansey|516\/703 par
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|444\/703 par
+|
+|turn|89
+|
+|switch|p2a: Jynx|Jynx|179\/333 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703 par
+|
+|turn|90
+|
+|switch|p1a: Alakazam|Alakazam|288\/313 par
+|move|p2a: Jynx|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|247\/313 par
+|
+|turn|91
+|
+|cant|p1a: Alakazam|par
+|move|p2a: Jynx|Ice Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|166\/313 par
+|
+|turn|92
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|313\/313 par
+|move|p2a: Jynx|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|272\/313 par
+|-unboost|p1a: Alakazam|spd|1
+|-unboost|p1a: Alakazam|spa|1
+|
+|turn|93
+|
+|switch|p1a: Chansey|Chansey|703\/703 par
+|move|p2a: Jynx|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|595\/703 par
+|
+|turn|94
+|
+|switch|p1a: Alakazam|Alakazam|272\/313 par
+|move|p2a: Jynx|Ice Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|179\/313 par
+|
+|turn|95
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|313\/313 par
+|move|p2a: Jynx|Ice Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|227\/313 par
+|
+|turn|96
+|chat|Doshyara|nice tactycal
+|
+|move|p1a: Alakazam|Psychic|p2a: Jynx
+|-resisted|p2a: Jynx
+|-damage|p2a: Jynx|117\/333 par
+|move|p2a: Jynx|Ice Beam|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|47\/313 par
+|
+|turn|97
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|203\/313 par
+|move|p2a: Jynx|Ice Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|117\/313 par
+|
+|turn|98
+|chat|ggc|ty
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|273\/313 par
+|cant|p2a: Jynx|par
+|
+|turn|99
+|
+|cant|p1a: Alakazam|par
+|move|p2a: Jynx|Ice Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|191\/313 par
+|
+|turn|100
+|
+|move|p1a: Alakazam|Psychic|p2a: Jynx
+|-resisted|p2a: Jynx
+|-damage|p2a: Jynx|52\/333 par
+|cant|p2a: Jynx|par
+|
+|turn|101
+|
+|move|p1a: Alakazam|Psychic|p2a: Jynx
+|-resisted|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|
+|
+|switch|p2a: Chansey|Chansey|558\/703
+|turn|102
+|
+|move|p2a: Chansey|Ice Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|128\/313 par
+|move|p1a: Alakazam|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|turn|103
+|
+|move|p1a: Alakazam|Reflect|p1a: Alakazam
+|move|p2a: Chansey|Ice Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|62\/313 par
+|
+|turn|104
+|
+|cant|p1a: Alakazam|par
+|move|p2a: Chansey|Ice Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|3\/313 par
+|
+|turn|105
+|
+|move|p1a: Alakazam|Reflect|p1a: Alakazam
+|-fail|p1a: Alakazam
+|move|p2a: Chansey|Thunderbolt|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|chat|Doshyara|no psy left
+|chat|ggc|nope
+|chat|ggc|empty
+|chat|Doshyara|i'm too
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|turn|106
+|chat|Doshyara|with my alkzm
+|
+|move|p1a: Snorlax|Self-Destruct|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|faint|p1a: Snorlax
+|chat|Doshyara|gg
+|chat|ggc|gg
+|chat|ggc|hell of a fight
+|
+|switch|p2a: Alakazam|Alakazam|232\/313 par
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|107
+|chat|Doshyara|yeaah
+|chat|Doshyara|and with my GF Smashing my head >.<
+|chat|ggc|ha
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|win|ggc
+|raw|Ladder updating...
+|raw|ggc's rating: 1325 &rarr; <strong>1336<\/strong><br \/>(+11 for winning)
+|raw|Doshyara's rating: 1138 &rarr; <strong>1125<\/strong><br \/>(-13 for losing)
+|chat|Doshyara|gg
+|chat|ggc|gg

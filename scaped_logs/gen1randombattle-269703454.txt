@@ -1,0 +1,175 @@
+﻿|join|papermore
+|join|Zorage
+|player|p1|papermore|1
+|player|p2|Zorage|166
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Weezing|Weezing, L90|300\/300
+|switch|p2a: Kingler|Kingler, L85|267\/267
+|turn|1
+|
+|move|p2a: Kingler|Crabhammer|p1a: Weezing
+|-crit|p1a: Weezing
+|-damage|p1a: Weezing|165\/300
+|move|p1a: Weezing|Thunderbolt|p2a: Kingler
+|-crit|p2a: Kingler
+|-supereffective|p2a: Kingler
+|-damage|p2a: Kingler|0 fnt
+|faint|p2a: Kingler
+|
+|switch|p2a: Kadabra|Kadabra, L85|242\/242
+|turn|2
+|
+|move|p2a: Kadabra|Psychic|p1a: Weezing
+|-supereffective|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|
+|switch|p1a: Ponyta|Ponyta, L96|291\/291
+|turn|3
+|
+|move|p1a: Ponyta|Body Slam|p2a: Kadabra
+|-damage|p2a: Kadabra|124\/242
+|move|p2a: Kadabra|Thunder Wave|p1a: Ponyta
+|-status|p1a: Ponyta|par
+|
+|turn|4
+|
+|switch|p2a: Snorlax|Snorlax, L79|415\/415
+|move|p1a: Ponyta|Fire Blast|p2a: Snorlax
+|-damage|p2a: Snorlax|263\/415
+|
+|turn|5
+|
+|move|p2a: Snorlax|Earthquake|p1a: Ponyta
+|-supereffective|p1a: Ponyta
+|-damage|p1a: Ponyta|133\/291 par
+|move|p1a: Ponyta|Toxic|p2a: Snorlax
+|-status|p2a: Snorlax|tox
+|
+|turn|6
+|
+|move|p2a: Snorlax|Earthquake|p1a: Ponyta
+|-supereffective|p1a: Ponyta
+|-damage|p1a: Ponyta|0 fnt
+|faint|p1a: Ponyta
+|
+|switch|p1a: Mewtwo|Mewtwo, L70|293\/293
+|turn|7
+|
+|move|p1a: Mewtwo|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|139\/415 tox
+|-unboost|p2a: Snorlax|spd|1
+|-unboost|p2a: Snorlax|spa|1
+|move|p2a: Snorlax|Self-Destruct|p1a: Mewtwo
+|-damage|p1a: Mewtwo|0 fnt
+|faint|p1a: Mewtwo
+|faint|p2a: Snorlax
+|c|★papermore|WHAT?
+|
+|switch|p2a: Pikachu|Pikachu, L96|262\/262
+|switch|p1a: Articuno|Articuno, L79|304\/304
+|turn|8
+|c|★Zorage|Yes, it's true
+|
+|switch|p1a: Machoke|Machoke, L85|310\/310
+|move|p2a: Pikachu|Thunder Wave|p1a: Machoke
+|-status|p1a: Machoke|par
+|
+|turn|9
+|
+|switch|p2a: Muk|Muk, L90|372\/372
+|move|p1a: Machoke|Earthquake|p2a: Muk
+|-crit|p2a: Muk
+|-supereffective|p2a: Muk
+|-damage|p2a: Muk|73\/372
+|
+|turn|10
+|
+|move|p2a: Muk|Explosion|p1a: Machoke
+|-damage|p1a: Machoke|0 fnt
+|faint|p1a: Machoke
+|faint|p2a: Muk
+|
+|switch|p2a: Pikachu|Pikachu, L96|262\/262
+|switch|p1a: Pidgeot|Pidgeot, L90|333\/333
+|turn|11
+|
+|move|p2a: Pikachu|Thunderbolt|p1a: Pidgeot
+|-supereffective|p1a: Pidgeot
+|-damage|p1a: Pidgeot|154\/333
+|-status|p1a: Pidgeot|par
+|move|p1a: Pidgeot|Double-Edge|p2a: Pikachu
+|-damage|p2a: Pikachu|105\/262
+|-damage|p1a: Pidgeot|115\/333 par|[from] recoil|[of] p2a: Pikachu
+|
+|turn|12
+|
+|move|p2a: Pikachu|Thunderbolt|p1a: Pidgeot
+|-supereffective|p1a: Pidgeot
+|-damage|p1a: Pidgeot|0 fnt
+|faint|p1a: Pidgeot
+|
+|switch|p1a: Articuno|Articuno, L79|304\/304
+|turn|13
+|c|★papermore|gg
+|
+|move|p2a: Pikachu|Thunderbolt|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|163\/304
+|move|p1a: Articuno|Ice Beam|p2a: Pikachu
+|-damage|p2a: Pikachu|0 fnt
+|faint|p2a: Pikachu
+|
+|switch|p2a: Ninetales|Ninetales, L85|298\/298
+|turn|14
+|c|★Zorage|Short
+|
+|move|p2a: Ninetales|Toxic|p1a: Articuno
+|-status|p1a: Articuno|tox
+|move|p1a: Articuno|Blizzard|p2a: Ninetales
+|-damage|p2a: Ninetales|169\/298
+|-damage|p1a: Articuno|144\/304 tox|[from] tox|[of] p2a: Ninetales
+|
+|turn|15
+|
+|move|p2a: Ninetales|Fire Blast|p1a: Articuno|[miss]
+|-miss|p2a: Ninetales
+|move|p1a: Articuno|Blizzard|p2a: Ninetales
+|-damage|p2a: Ninetales|47\/298
+|-damage|p1a: Articuno|106\/304 tox|[from] tox|[of] p2a: Ninetales
+|
+|turn|16
+|
+|move|p2a: Ninetales|Fire Blast|p1a: Articuno|[miss]
+|-miss|p2a: Ninetales
+|move|p1a: Articuno|Ice Beam|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|switch|p2a: Kadabra|Kadabra, L85|124\/242
+|turn|17
+|
+|move|p2a: Kadabra|Recover|p2a: Kadabra
+|-heal|p2a: Kadabra|242\/242
+|move|p1a: Articuno|Blizzard|p2a: Kadabra
+|-crit|p2a: Kadabra
+|-damage|p2a: Kadabra|47\/242
+|-damage|p1a: Articuno|49\/304 tox|[from] tox|[of] p2a: Kadabra
+|
+|turn|18
+|
+|move|p2a: Kadabra|Seismic Toss|p1a: Articuno
+|-damage|p1a: Articuno|0 fnt
+|faint|p1a: Articuno
+|
+|win|Zorage
+|leave|papermore
+|player|p1
+|c|★Zorage|gg

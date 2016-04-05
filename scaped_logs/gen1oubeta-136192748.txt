@@ -1,0 +1,279 @@
+﻿|join|picklebunny420
+|join|Umby17
+|player|p1|picklebunny420|120
+|player|p2|Umby17|130
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|turn|1
+|
+|move|p2a: Exeggutor|Sleep Powder|p1a: Exeggutor
+|-status|p1a: Exeggutor|slp
+|cant|p1a: Exeggutor|slp
+|-curestatus|p1a: Exeggutor|slp
+|
+|turn|2
+|chat|Umby17|seriously?
+|
+|move|p1a: Exeggutor|Sleep Powder|p2a: Exeggutor
+|-status|p2a: Exeggutor|slp
+|cant|p2a: Exeggutor|slp
+|
+|turn|3
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Exeggutor|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|575\/703
+|
+|turn|4
+|
+|move|p1a: Exeggutor|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|453\/703
+|move|p2a: Chansey|Sing|p1a: Exeggutor
+|-status|p1a: Exeggutor|slp
+|
+|turn|5
+|
+|cant|p1a: Exeggutor|slp
+|move|p2a: Chansey|Ice Beam|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|252\/393 slp
+|
+|turn|6
+|
+|cant|p1a: Exeggutor|slp
+|-curestatus|p1a: Exeggutor|slp
+|move|p2a: Chansey|Ice Beam|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|130\/393
+|-status|p1a: Exeggutor|frz
+|
+|turn|7
+|
+|cant|p1a: Exeggutor|frz
+|move|p2a: Chansey|Sing|p1a: Exeggutor
+|-fail|p1a: Exeggutor
+|
+|turn|8
+|
+|cant|p1a: Exeggutor|frz
+|move|p2a: Chansey|Ice Beam|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|9
+|
+|switch|p2a: Golem|Golem|363\/363
+|move|p1a: Tauros|Body Slam|p2a: Golem
+|-crit|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|280\/363
+|
+|turn|10
+|
+|move|p1a: Tauros|Blizzard|p2a: Golem
+|-crit|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|
+|
+|switch|p2a: Chansey|Chansey|453\/703
+|turn|11
+|
+|move|p1a: Tauros|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|173\/703
+|-status|p2a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|
+|turn|12
+|
+|switch|p2a: Dragonite|Dragonite|385\/385
+|move|p1a: Tauros|Body Slam|p2a: Dragonite
+|-damage|p2a: Dragonite|285\/385
+|
+|turn|13
+|
+|switch|p2a: Cloyster|Cloyster|303\/303
+|move|p1a: Tauros|Blizzard|p2a: Cloyster
+|-crit|p2a: Cloyster
+|-resisted|p2a: Cloyster
+|-damage|p2a: Cloyster|265\/303
+|
+|turn|14
+|
+|move|p2a: Cloyster|Clamp|p1a: Tauros
+|-damage|p1a: Tauros|305\/353 par
+|-activate|p1a: Tauros|move: Clamp|[of] p2a: Cloyster
+|cant|p1a: Tauros|partiallytrapped
+|
+|turn|15
+|
+|move|p2a: Cloyster|Clamp|p1a: Tauros
+|-damage|p1a: Tauros|257\/353 par
+|cant|p1a: Tauros|partiallytrapped
+|
+|turn|16
+|
+|move|p2a: Cloyster|Clamp|p1a: Tauros
+|-damage|p1a: Tauros|209\/353 par
+|cant|p1a: Tauros|partiallytrapped
+|
+|-end|p1a: Tauros|Clamp|[partiallytrapped]
+|turn|17
+|
+|move|p2a: Cloyster|Clamp|p1a: Tauros
+|-damage|p1a: Tauros|160\/353 par
+|-activate|p1a: Tauros|move: Clamp|[of] p2a: Cloyster
+|cant|p1a: Tauros|partiallytrapped
+|
+|turn|18
+|
+|move|p2a: Cloyster|Clamp|p1a: Tauros
+|-damage|p1a: Tauros|111\/353 par
+|cant|p1a: Tauros|partiallytrapped
+|
+|turn|19
+|
+|move|p2a: Cloyster|Clamp|p1a: Tauros
+|-damage|p1a: Tauros|62\/353 par
+|cant|p1a: Tauros|par
+|
+|turn|20
+|
+|move|p2a: Cloyster|Clamp|p1a: Tauros
+|-damage|p1a: Tauros|13\/353 par
+|cant|p1a: Tauros|partiallytrapped
+|
+|turn|21
+|
+|move|p2a: Cloyster|Clamp|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|
+|switch|p1a: Zapdos|Zapdos|383\/383
+|turn|22
+|
+|switch|p2a: Dragonite|Dragonite|285\/385
+|move|p1a: Zapdos|Thunderbolt|p2a: Dragonite
+|-damage|p2a: Dragonite|152\/385
+|
+|turn|23
+|
+|move|p1a: Zapdos|Thunder Wave|p2a: Dragonite
+|-status|p2a: Dragonite|par
+|move|p2a: Dragonite|Blizzard|p1a: Zapdos|[miss]
+|-miss|p2a: Dragonite
+|
+|turn|24
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Dragonite
+|-damage|p2a: Dragonite|28\/385 par
+|move|p2a: Dragonite|Blizzard|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|230\/383
+|
+|turn|25
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|26
+|
+|move|p2a: Tauros|Blizzard|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|97\/383
+|move|p1a: Zapdos|Thunder Wave|p2a: Tauros
+|-status|p2a: Tauros|par
+|
+|turn|27
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Tauros
+|-damage|p2a: Tauros|201\/353 par
+|cant|p2a: Tauros|par
+|
+|turn|28
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Tauros
+|-damage|p2a: Tauros|33\/353 par
+|move|p2a: Tauros|Blizzard|p1a: Zapdos|[miss]
+|-miss|p2a: Tauros
+|
+|turn|29
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393 slp
+|turn|30
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|213\/393 slp
+|cant|p2a: Exeggutor|slp
+|
+|turn|31
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|18\/393 slp
+|cant|p2a: Exeggutor|slp
+|
+|turn|32
+|
+|switch|p2a: Cloyster|Cloyster|265\/303
+|move|p1a: Zapdos|Drill Peck|p2a: Cloyster
+|-damage|p2a: Cloyster|203\/303
+|
+|turn|33
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Cloyster
+|-supereffective|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p2a: Cloyster
+|
+|
+|switch|p2a: Chansey|Chansey|173\/703 par
+|turn|34
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|
+|switch|p2a: Exeggutor|Exeggutor|18\/393 slp
+|turn|35
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|win|picklebunny420
+|raw|Ladder updating...
+|raw|picklebunny420's rating: 1122 &rarr; <strong>1141<\/strong><br \/>(+19 for winning)
+|raw|Umby17's rating: 1031 &rarr; <strong>1020<\/strong><br \/>(-11 for losing)
+|chat|Umby17|gg

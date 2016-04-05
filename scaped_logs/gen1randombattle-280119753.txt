@@ -1,0 +1,136 @@
+﻿|join|XianJu
+|join|treinadororasxyz
+|player|p1|XianJu|130
+|player|p2|treinadororasxyz|253
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Nidorina|Nidorina, L90|309\/309
+|switch|p2a: Gastly|Gastly, L96|252\/252
+|turn|1
+|
+|switch|p1a: Exeggcute|Exeggcute, L96|310\/310
+|move|p2a: Gastly|Explosion|p1a: Exeggcute
+|-damage|p1a: Exeggcute|151\/310
+|faint|p2a: Gastly
+|
+|switch|p2a: Magneton|Magneton, L90|273\/273
+|turn|2
+|
+|move|p2a: Magneton|Double-Edge|p1a: Exeggcute
+|-damage|p1a: Exeggcute|89\/310
+|-damage|p2a: Magneton|258\/273|[from] recoil|[of] p1a: Exeggcute
+|move|p1a: Exeggcute|Egg Bomb|p2a: Magneton|[miss]
+|-miss|p1a: Exeggcute
+|
+|turn|3
+|
+|move|p2a: Magneton|Thunderbolt|p1a: Exeggcute
+|-resisted|p1a: Exeggcute
+|-damage|p1a: Exeggcute|14\/310
+|move|p1a: Exeggcute|Mega Drain|p2a: Magneton
+|-damage|p2a: Magneton|226\/273
+|-heal|p1a: Exeggcute|30\/310|[from] drain|[of] p2a: Magneton
+|
+|turn|4
+|
+|switch|p1a: Onix|Onix, L90|246\/246
+|move|p2a: Magneton|Thunderbolt|p1a: Onix
+|-immune|p1a: Onix|[msg]
+|
+|turn|5
+|
+|move|p2a: Magneton|Mimic|p1a: Onix
+|-start|p2a: Magneton|Mimic|Explosion
+|move|p1a: Onix|Earthquake|p2a: Magneton
+|-supereffective|p2a: Magneton
+|-damage|p2a: Magneton|97\/273
+|
+|turn|6
+|
+|move|p1a: Onix|Earthquake|p2a: Magneton
+|-supereffective|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|faint|p2a: Magneton
+|
+|switch|p2a: Gyarados|Gyarados, L85|335\/335
+|turn|7
+|
+|move|p2a: Gyarados|Blizzard|p1a: Onix
+|-supereffective|p1a: Onix
+|-damage|p1a: Onix|0 fnt
+|faint|p1a: Onix
+|
+|switch|p1a: Mr. Mime|Mr. Mime, L85|242\/242
+|turn|8
+|
+|move|p1a: Mr. Mime|Thunder Wave|p2a: Gyarados
+|-status|p2a: Gyarados|par
+|move|p2a: Gyarados|Hyper Beam|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|96\/242
+|
+|turn|9
+|-mustrecharge|p2a: Gyarados
+|-mustrecharge|p2a: Gyarados
+|
+|move|p1a: Mr. Mime|Thunderbolt|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-damage|p2a: Gyarados|68\/335 par
+|cant|p2a: Gyarados|recharge
+|
+|turn|10
+|
+|move|p1a: Mr. Mime|Seismic Toss|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|switch|p2a: Nidoking|Nidoking, L85|311\/311
+|turn|11
+|
+|move|p1a: Mr. Mime|Psychic|p2a: Nidoking
+|-supereffective|p2a: Nidoking
+|-damage|p2a: Nidoking|76\/311
+|-unboost|p2a: Nidoking|spd|1
+|-unboost|p2a: Nidoking|spa|1
+|move|p2a: Nidoking|Blizzard|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|55\/242
+|-status|p1a: Mr. Mime|frz
+|
+|turn|12
+|
+|switch|p1a: Exeggcute|Exeggcute, L96|30\/310
+|move|p2a: Nidoking|Body Slam|p1a: Exeggcute
+|-damage|p1a: Exeggcute|0 fnt
+|faint|p1a: Exeggcute
+|
+|switch|p1a: Magmar|Magmar, L90|300\/300
+|turn|13
+|
+|move|p1a: Magmar|Hyper Beam|p2a: Nidoking
+|-crit|p2a: Nidoking
+|-damage|p2a: Nidoking|0 fnt
+|faint|p2a: Nidoking
+|
+|switch|p2a: Marowak|Marowak, L90|291\/291
+|turn|14
+|
+|move|p1a: Magmar|Confuse Ray|p2a: Marowak
+|-start|p2a: Marowak|confusion
+|-activate|p2a: Marowak|confusion
+|move|p2a: Marowak|Earthquake|p1a: Magmar
+|-supereffective|p1a: Magmar
+|-damage|p1a: Magmar|23\/300
+|
+|turn|15
+|leave|treinadororasxyz
+|player|p2
+|-message|treinadororasxyz lost due to inactivity.
+|
+|win|XianJu
+||Ladder (probably) updated, but score could not be retrieved (Response not received).

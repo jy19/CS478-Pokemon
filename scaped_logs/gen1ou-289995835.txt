@@ -1,0 +1,312 @@
+﻿|join|ggc
+|join|RicoGaming
+|player|p1|ggc|209
+|player|p2|RicoGaming|163
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|seed|24725,26411,12556,30602
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333\/333
+|switch|p2a: Oz|Alakazam|313\/313
+|turn|1
+|choice|switch 4|move 1
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Oz|Psychic|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|456\/703
+|
+|turn|2
+|choice|move 4|switch 2
+|
+|switch|p2a: Ghost|Gengar|323\/323
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703
+|
+|turn|3
+|choice|switch 4|move 1
+|
+|switch|p1a: Jynx|Jynx|333\/333
+|move|p2a: Ghost|Night Shade|p1a: Jynx
+|-damage|p1a: Jynx|233\/333
+|
+|turn|4
+|choice|move 1|move 3
+|
+|move|p2a: Ghost|Hypnosis|p1a: Jynx
+|-status|p1a: Jynx|slp
+|cant|p1a: Jynx|slp
+|
+|turn|5
+|choice|switch 2|move 4
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Ghost|Dream Eater|p1a: Exeggutor
+|-immune|p1a: Exeggutor|[msg]
+|
+|turn|6
+|choice|move 2|move 3
+|
+|move|p2a: Ghost|Hypnosis|p1a: Exeggutor
+|-message|Sleep Clause Mod activated.
+|move|p1a: Exeggutor|Sleep Powder|p2a: Ghost
+|-status|p2a: Ghost|slp
+|
+|turn|7
+|choice|move 1|switch 3
+|
+|switch|p2a: Zapdos|Zapdos|383\/383
+|move|p1a: Exeggutor|Psychic|p2a: Zapdos
+|-damage|p2a: Zapdos|282\/383
+|
+|turn|8
+|choice|move 3|move 4
+|
+|move|p2a: Zapdos|Toxic|p1a: Exeggutor
+|-status|p1a: Exeggutor|tox
+|move|p1a: Exeggutor|Stun Spore|p2a: Zapdos
+|-status|p2a: Zapdos|par
+|-damage|p1a: Exeggutor|369\/393 tox|[from] tox|[of] p2a: Zapdos
+|
+|turn|9
+|choice|switch 4|move 1
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|cant|p2a: Zapdos|par
+|
+|turn|10
+|choice|move 1|move 1
+|
+|move|p1a: Chansey|Ice Beam|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|142\/383 par
+|move|p2a: Zapdos|Thunder|p1a: Chansey
+|-damage|p1a: Chansey|542\/703
+|
+|turn|11
+|choice|move 1|switch 2
+|
+|switch|p2a: Oz|Alakazam|313\/313
+|move|p1a: Chansey|Ice Beam|p2a: Oz
+|-damage|p2a: Oz|251\/313
+|-status|p2a: Oz|frz
+|
+|turn|12
+|choice|move 4|move 4
+|
+|cant|p2a: Oz|frz
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703
+|
+|turn|13
+|choice|switch 5|move 4
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|cant|p2a: Oz|frz
+|
+|turn|14
+|choice|move 3|move 4
+|
+|cant|p2a: Oz|frz
+|move|p1a: Snorlax|Earthquake|p2a: Oz
+|-damage|p2a: Oz|125\/313 frz
+|
+|turn|15
+|choice|move 3|move 4
+|
+|cant|p2a: Oz|frz
+|move|p1a: Snorlax|Earthquake|p2a: Oz
+|-damage|p2a: Oz|1\/313 frz
+|
+|turn|16
+|choice|move 3|move 3
+|
+|cant|p2a: Oz|frz
+|move|p1a: Snorlax|Earthquake|p2a: Oz
+|-damage|p2a: Oz|0 fnt
+|faint|p2a: Oz
+|choice||switch 4
+|
+|switch|p2a: Dragonito|Dragonite|385\/385
+|turn|17
+|choice|move 4|move 2
+|
+|move|p2a: Dragonito|Blizzard|p1a: Snorlax
+|-damage|p1a: Snorlax|391\/523
+|move|p1a: Snorlax|Self-Destruct|p2a: Dragonito
+|-damage|p2a: Dragonito|44\/385
+|faint|p1a: Snorlax
+|choice|switch 3|
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|turn|18
+|choice|move 1|switch 3
+|
+|switch|p2a: Ghost|Gengar|323\/323 slp
+|move|p1a: Alakazam|Psychic|p2a: Ghost
+|-crit|p2a: Ghost
+|-supereffective|p2a: Ghost
+|-damage|p2a: Ghost|0 fnt
+|faint|p2a: Ghost
+|choice||switch 6
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|turn|19
+|choice|switch 5|move 2
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Starmie|Hydro Pump|p1a: Chansey
+|-damage|p1a: Chansey|569\/703
+|
+|turn|20
+|choice|move 3|move 1
+|
+|move|p2a: Starmie|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|474\/703
+|-status|p1a: Chansey|frz
+|cant|p1a: Chansey|frz
+|
+|turn|21
+|choice|switch 5|move 4
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|move|p2a: Starmie|Bubble Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|247\/313
+|
+|turn|22
+|choice|move 3|move 2
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Starmie
+|-status|p2a: Starmie|par
+|move|p2a: Starmie|Hydro Pump|p1a: Alakazam
+|-damage|p1a: Alakazam|135\/313
+|
+|turn|23
+|choice|move 4|move 1
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|291\/313
+|move|p2a: Starmie|Blizzard|p1a: Alakazam
+|-damage|p1a: Alakazam|218\/313
+|
+|turn|24
+|choice|move 1|move 1
+|
+|move|p1a: Alakazam|Psychic|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|258\/323 par
+|-unboost|p2a: Starmie|spd|1
+|-unboost|p2a: Starmie|spa|1
+|move|p2a: Starmie|Blizzard|p1a: Alakazam
+|-damage|p1a: Alakazam|168\/313
+|
+|turn|25
+|choice|move 4|move 2
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|313\/313
+|move|p2a: Starmie|Hydro Pump|p1a: Alakazam
+|-damage|p1a: Alakazam|241\/313
+|
+|turn|26
+|choice|move 1|move 3
+|
+|move|p1a: Alakazam|Psychic|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|154\/323 par
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|315\/323 par
+|
+|turn|27
+|choice|move 1|move 1
+|
+|move|p1a: Alakazam|Psychic|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|218\/323 par
+|move|p2a: Starmie|Blizzard|p1a: Alakazam
+|-damage|p1a: Alakazam|188\/313
+|
+|turn|28
+|choice|move 1|move 2
+|
+|move|p1a: Alakazam|Psychic|p2a: Starmie
+|-crit|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|97\/323 par
+|move|p2a: Starmie|Hydro Pump|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|choice|switch 6|
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|29
+|choice|move 1|move 3
+|
+|move|p1a: Tauros|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|choice||switch 3
+|
+|switch|p2a: Dragonito|Dragonite|44\/385
+|turn|30
+|choice|move 1|move 1
+|
+|move|p1a: Tauros|Body Slam|p2a: Dragonito
+|-crit|p2a: Dragonito
+|-damage|p2a: Dragonito|0 fnt
+|faint|p2a: Dragonito
+|choice||switch 2
+|
+|switch|p2a: Zapdos|Zapdos|142\/383 par
+|turn|31
+|choice|move 2|move 3
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|choice||switch 5
+|
+|switch|p2a: Slowbro|Slowbro|393\/393
+|turn|32
+|choice|move 1|move 2
+|
+|move|p1a: Tauros|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|303\/393
+|-status|p2a: Slowbro|par
+|move|p2a: Slowbro|Earthquake|p1a: Tauros
+|-damage|p1a: Tauros|284\/353
+|
+|turn|33
+|choice|move 1|move 1
+|
+|move|p1a: Tauros|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|210\/393 par
+|move|p2a: Slowbro|Blizzard|p1a: Tauros
+|-damage|p1a: Tauros|186\/353
+|
+|turn|34
+|choice|move 1|move 4
+|
+|move|p1a: Tauros|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|110\/393 par
+|move|p2a: Slowbro|Confusion|p1a: Tauros
+|-damage|p1a: Tauros|121\/353
+|
+|turn|35
+|choice|move 2|move 1
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|
+|win|ggc

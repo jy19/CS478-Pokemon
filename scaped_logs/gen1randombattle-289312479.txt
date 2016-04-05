@@ -1,0 +1,329 @@
+﻿|join|MALESANI
+|join|philowe2001
+|player|p1|MALESANI|238
+|player|p2|philowe2001|2
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|49368,62630,47201,764
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Nidoqueen|Nidoqueen, L85|327\/327
+|switch|p2a: Abra|Abra, L96|243\/243
+|turn|1
+|choice|switch 6|move 1
+|
+|switch|p1a: Clefable|Clefable, L85|335\/335
+|move|p2a: Abra|Reflect|p2a: Abra
+|-start|p2a: Abra|Reflect
+|
+|turn|2
+|choice|move 1|move 3
+|
+|move|p2a: Abra|Thunder Wave|p1a: Clefable
+|-status|p1a: Clefable|par
+|move|p1a: Clefable|Thunder Wave|p2a: Abra
+|-status|p2a: Abra|par
+|
+|turn|3
+|choice|move 4|move 4
+|
+|cant|p2a: Abra|par
+|cant|p1a: Clefable|par
+|
+|turn|4
+|choice|move 4|move 4
+|
+|move|p2a: Abra|Psychic|p1a: Clefable
+|-damage|p1a: Clefable|204\/335 par
+|move|p1a: Clefable|Thunder|p2a: Abra
+|-damage|p2a: Abra|176\/243 par
+|
+|turn|5
+|choice|move 4|move 4
+|
+|move|p2a: Abra|Psychic|p1a: Clefable
+|-damage|p1a: Clefable|77\/335 par
+|cant|p1a: Clefable|par
+|
+|turn|6
+|choice|move 3|move 4
+|
+|move|p2a: Abra|Psychic|p1a: Clefable
+|-crit|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|choice|switch 2|
+|
+|switch|p1a: Magneton|Magneton, L90|273\/273
+|turn|7
+|choice|move 1|move 3
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Abra
+|-damage|p2a: Abra|78\/243 par
+|move|p2a: Abra|Thunder Wave|p1a: Magneton
+|-status|p1a: Magneton|par
+|
+|turn|8
+|choice|move 1|move 4
+|
+|cant|p2a: Abra|par
+|move|p1a: Magneton|Thunderbolt|p2a: Abra
+|-damage|p2a: Abra|0 fnt
+|faint|p2a: Abra
+|choice||switch 3
+|
+|switch|p2a: Gloom|Gloom, L90|291\/291
+|turn|9
+|choice|move 4|move 3
+|
+|move|p2a: Gloom|Swords Dance|p2a: Gloom
+|-boost|p2a: Gloom|atk|2
+|cant|p1a: Magneton|par
+|
+|turn|10
+|choice|move 4|move 3
+|
+|move|p2a: Gloom|Swords Dance|p2a: Gloom
+|-boost|p2a: Gloom|atk|2
+|move|p1a: Magneton|Thunder Wave|p2a: Gloom
+|-status|p2a: Gloom|par
+|
+|turn|11
+|choice|switch 3|move 2
+|
+|switch|p1a: Venusaur|Venusaur, L85|310\/310
+|move|p2a: Gloom|Double-Edge|p1a: Venusaur
+|-damage|p1a: Venusaur|126\/310
+|-damage|p2a: Gloom|245\/291 par|[from] recoil|[of] p1a: Venusaur
+|
+|turn|12
+|choice|move 3|move 2
+|
+|move|p1a: Venusaur|Body Slam|p2a: Gloom
+|-crit|p2a: Gloom
+|-damage|p2a: Gloom|131\/291 par
+|move|p2a: Gloom|Double-Edge|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|-damage|p2a: Gloom|100\/291 par|[from] recoil|[of] p1a: Venusaur
+|faint|p1a: Venusaur
+|choice|switch 4|
+|
+|switch|p1a: Kadabra|Kadabra, L85|242\/242
+|turn|13
+|choice|move 1|move 2
+|
+|move|p1a: Kadabra|Psychic|p2a: Gloom
+|-supereffective|p2a: Gloom
+|-damage|p2a: Gloom|0 fnt
+|faint|p2a: Gloom
+|choice||switch 5
+|
+|switch|p2a: Clefable|Clefable, L85|335\/335
+|turn|14
+|choice|move 2|move 3
+|
+|move|p1a: Kadabra|Thunder Wave|p2a: Clefable
+|-status|p2a: Clefable|par
+|move|p2a: Clefable|Sing|p1a: Kadabra
+|-status|p1a: Kadabra|slp
+|
+|turn|15
+|choice|switch 3|move 1
+|
+|switch|p1a: Magneton|Magneton, L90|273\/273 par
+|move|p2a: Clefable|Body Slam|p1a: Magneton
+|-damage|p1a: Magneton|211\/273 par
+|
+|turn|16
+|choice|move 1|move 1
+|
+|cant|p1a: Magneton|par
+|move|p2a: Clefable|Body Slam|p1a: Magneton
+|-damage|p1a: Magneton|139\/273 par
+|
+|turn|17
+|choice|move 1|move 1
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Clefable
+|-crit|p2a: Clefable
+|-damage|p2a: Clefable|74\/335 par
+|cant|p2a: Clefable|par
+|
+|turn|18
+|choice|move 1|move 1
+|
+|cant|p1a: Magneton|par
+|move|p2a: Clefable|Body Slam|p1a: Magneton
+|-damage|p1a: Magneton|77\/273 par
+|
+|turn|19
+|choice|move 1|move 4
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|choice||switch 6
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|293\/293
+|turn|20
+|choice|move 4|move 1
+|
+|move|p2a: Mewtwo|Psychic|p1a: Magneton
+|-damage|p1a: Magneton|7\/273 par
+|-unboost|p1a: Magneton|spd|1
+|-unboost|p1a: Magneton|spa|1
+|move|p1a: Magneton|Thunder Wave|p2a: Mewtwo
+|-status|p2a: Mewtwo|par
+|
+|turn|21
+|choice|move 1|move 1
+|
+|move|p2a: Mewtwo|Psychic|p1a: Magneton
+|-crit|p1a: Magneton
+|-damage|p1a: Magneton|0 fnt
+|faint|p1a: Magneton
+|choice|switch 3|
+|
+|switch|p1a: Kadabra|Kadabra, L85|242\/242 slp
+|turn|22
+|choice|move 3|move 2
+|
+|-curestatus|p1a: Kadabra|slp
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|
+|turn|23
+|choice|move 1|move 4
+|
+|move|p1a: Kadabra|Psychic|p2a: Mewtwo
+|-resisted|p2a: Mewtwo
+|-damage|p2a: Mewtwo|247\/293 par
+|-unboost|p2a: Mewtwo|spd|1
+|-unboost|p2a: Mewtwo|spa|1
+|cant|p2a: Mewtwo|par
+|
+|turn|24
+|choice|move 1|move 4
+|
+|move|p1a: Kadabra|Psychic|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-resisted|p2a: Mewtwo
+|-damage|p2a: Mewtwo|162\/293 par
+|-unboost|p2a: Mewtwo|spd|1
+|-unboost|p2a: Mewtwo|spa|1
+|cant|p2a: Mewtwo|par
+|
+|turn|25
+|choice|move 1|switch 4
+|
+|switch|p2a: Electabuzz|Electabuzz, L85|284\/284
+|move|p1a: Kadabra|Psychic|p2a: Electabuzz
+|-damage|p2a: Electabuzz|166\/284
+|
+|turn|26
+|choice|move 1|move 2
+|
+|move|p1a: Kadabra|Psychic|p2a: Electabuzz
+|-damage|p2a: Electabuzz|57\/284
+|move|p2a: Electabuzz|Thunder Wave|p1a: Kadabra
+|-status|p1a: Kadabra|par
+|
+|turn|27
+|choice|move 1|move 3
+|
+|move|p2a: Electabuzz|Psychic|p1a: Kadabra
+|-crit|p1a: Kadabra
+|-resisted|p1a: Kadabra
+|-damage|p1a: Kadabra|196\/242 par
+|-unboost|p1a: Kadabra|spd|1
+|-unboost|p1a: Kadabra|spa|1
+|move|p1a: Kadabra|Psychic|p2a: Electabuzz
+|-damage|p2a: Electabuzz|0 fnt
+|faint|p2a: Electabuzz
+|choice||switch 2
+|
+|switch|p2a: Victreebel|Victreebel, L85|310\/310
+|turn|28
+|choice|move 2|move 4
+|
+|move|p2a: Victreebel|Body Slam|p1a: Kadabra
+|-damage|p1a: Kadabra|80\/242 par
+|move|p1a: Kadabra|Thunder Wave|p2a: Victreebel
+|-status|p2a: Victreebel|par
+|
+|turn|29
+|choice|move 3|move 4
+|
+|cant|p2a: Victreebel|par
+|cant|p1a: Kadabra|par
+|
+|turn|30
+|choice|move 3|move 4
+|
+|move|p2a: Victreebel|Body Slam|p1a: Kadabra
+|-damage|p1a: Kadabra|0 fnt
+|faint|p1a: Kadabra
+|choice|switch 5|
+|
+|switch|p1a: Seaking|Seaking, L90|327\/327
+|turn|31
+|choice|move 3|move 3
+|
+|move|p1a: Seaking|Blizzard|p2a: Victreebel
+|-crit|p2a: Victreebel
+|-supereffective|p2a: Victreebel
+|-damage|p2a: Victreebel|3\/310 par
+|cant|p2a: Victreebel|par
+|
+|turn|32
+|choice|move 1|move 3
+|
+|move|p1a: Seaking|Double-Edge|p2a: Victreebel
+|-damage|p2a: Victreebel|0 fnt
+|-damage|p1a: Seaking|326\/327|[from] recoil|[of] p2a: Victreebel
+|faint|p2a: Victreebel
+|choice||switch 4
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|162\/293 par
+|turn|33
+|choice|move 2|move 4
+|
+|move|p1a: Seaking|Surf|p2a: Mewtwo
+|-damage|p2a: Mewtwo|80\/293 par
+|move|p2a: Mewtwo|Thunder Wave|p1a: Seaking
+|-status|p1a: Seaking|par
+|
+|turn|34
+|choice|move 1|move 3
+|
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|226\/293 par
+|cant|p1a: Seaking|par
+|
+|turn|35
+|choice|move 1|move 1
+|
+|move|p2a: Mewtwo|Psychic|p1a: Seaking
+|-damage|p1a: Seaking|228\/327 par
+|-unboost|p1a: Seaking|spd|1
+|-unboost|p1a: Seaking|spa|1
+|move|p1a: Seaking|Double-Edge|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|48\/293 par
+|-damage|p1a: Seaking|184\/327 par|[from] recoil|[of] p2a: Mewtwo
+|
+|turn|36
+|choice|move 1|move 3
+|
+|cant|p2a: Mewtwo|par
+|move|p1a: Seaking|Double-Edge|p2a: Mewtwo
+|-damage|p2a: Mewtwo|0 fnt
+|-damage|p1a: Seaking|172\/327 par|[from] recoil|[of] p2a: Mewtwo
+|faint|p2a: Mewtwo
+|
+|win|MALESANI

@@ -1,0 +1,335 @@
+﻿|join|c353
+|join|Mirabel
+|player|p1|c353|167
+|player|p2|Mirabel|260
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|seed|7447,60237,12566,23600
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Omanyte|Omanyte, L96|262\/262
+|switch|p2a: Electrode|Electrode, L90|291\/291
+|turn|1
+|c|★c353|glhf
+|choice|switch 6|move 3
+|
+|switch|p1a: Graveler|Graveler, L85|267\/267
+|move|p2a: Electrode|Thunderbolt|p1a: Graveler
+|-immune|p1a: Graveler|[msg]
+|
+|turn|2
+|choice|move 4|switch 6
+|
+|switch|p2a: Parasect|Parasect, L90|291\/291
+|move|p1a: Graveler|Earthquake|p2a: Parasect
+|-resisted|p2a: Parasect
+|-damage|p2a: Parasect|263\/291
+|
+|turn|3
+|choice|switch 2|move 2
+|
+|switch|p1a: Slowpoke|Slowpoke, L96|368\/368
+|move|p2a: Parasect|Spore|p1a: Slowpoke
+|-status|p1a: Slowpoke|slp
+|
+|turn|4
+|choice|move 4|move 1
+|
+|move|p2a: Parasect|Body Slam|p1a: Slowpoke
+|-damage|p1a: Slowpoke|302\/368 slp
+|cant|p1a: Slowpoke|slp
+|
+|turn|5
+|choice|move 4|move 4
+|
+|move|p2a: Parasect|Mega Drain|p1a: Slowpoke
+|-supereffective|p1a: Slowpoke
+|-damage|p1a: Slowpoke|176\/368 slp
+|-heal|p2a: Parasect|291\/291|[from] drain|[of] p1a: Slowpoke
+|cant|p1a: Slowpoke|slp
+|
+|turn|6
+|choice|switch 5|move 1
+|
+|switch|p1a: Jolteon|Jolteon, L79|265\/265
+|move|p2a: Parasect|Body Slam|p1a: Jolteon
+|-damage|p1a: Jolteon|169\/265
+|
+|turn|7
+|choice|move 4|move 1
+|
+|move|p1a: Jolteon|Body Slam|p2a: Parasect
+|-damage|p2a: Parasect|252\/291
+|-status|p2a: Parasect|par
+|move|p2a: Parasect|Body Slam|p1a: Jolteon
+|-damage|p1a: Jolteon|77\/265
+|
+|turn|8
+|choice|move 2|move 3
+|
+|move|p1a: Jolteon|Sand Attack|p2a: Parasect
+|-unboost|p2a: Parasect|accuracy|1
+|move|p2a: Parasect|Hyper Beam|p1a: Jolteon|[miss]
+|-miss|p2a: Parasect
+|
+|turn|9
+|choice|move 4|move 1
+|
+|move|p1a: Jolteon|Body Slam|p2a: Parasect
+|-damage|p2a: Parasect|213\/291 par
+|move|p2a: Parasect|Body Slam|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|choice|switch 4|
+|
+|switch|p1a: Snorlax|Snorlax, L79|415\/415
+|turn|10
+|choice|move 1|switch 5
+|
+|switch|p2a: Articuno|Articuno, L79|304\/304
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|
+|turn|11
+|choice|move 3|move 3
+|
+|move|p2a: Articuno|Mimic|p1a: Snorlax
+|-start|p2a: Articuno|Mimic|Amnesia
+|move|p1a: Snorlax|Blizzard|p2a: Articuno
+|-damage|p2a: Articuno|203\/304
+|
+|turn|12
+|choice|move 1|move 3
+|
+|move|p2a: Articuno|Amnesia|p2a: Articuno
+|-boost|p2a: Articuno|spd|2
+|-boost|p2a: Articuno|spa|2
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|
+|turn|13
+|choice|move 3|move 3
+|
+|move|p2a: Articuno|Amnesia|p2a: Articuno
+|-boost|p2a: Articuno|spd|2
+|-boost|p2a: Articuno|spa|2
+|move|p1a: Snorlax|Blizzard|p2a: Articuno
+|-damage|p2a: Articuno|153\/304
+|
+|turn|14
+|choice|move 3|move 3
+|
+|move|p2a: Articuno|Amnesia|p2a: Articuno
+|-boost|p2a: Articuno|spd|2
+|-boost|p2a: Articuno|spa|2
+|move|p1a: Snorlax|Blizzard|p2a: Articuno
+|-damage|p2a: Articuno|115\/304
+|
+|turn|15
+|choice|move 1|move 1
+|
+|move|p2a: Articuno|Reflect|p2a: Articuno
+|-start|p2a: Articuno|Reflect
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|
+|turn|16
+|choice|move 3|move 3
+|
+|move|p2a: Articuno|Amnesia|p2a: Articuno
+|-boost|p2a: Articuno|spd|2
+|-boost|p2a: Articuno|spa|2
+|move|p1a: Snorlax|Blizzard|p2a: Articuno
+|-damage|p2a: Articuno|63\/304
+|
+|turn|17
+|choice|move 3|move 2
+|
+|move|p2a: Articuno|Blizzard|p1a: Snorlax
+|-damage|p1a: Snorlax|272\/415
+|move|p1a: Snorlax|Blizzard|p2a: Articuno|[miss]
+|-miss|p1a: Snorlax
+|
+|turn|18
+|choice|move 3|move 2
+|
+|move|p2a: Articuno|Blizzard|p1a: Snorlax
+|-damage|p1a: Snorlax|130\/415
+|move|p1a: Snorlax|Blizzard|p2a: Articuno
+|-damage|p2a: Articuno|12\/304
+|
+|turn|19
+|choice|move 2|move 4
+|
+|move|p2a: Articuno|Rest|p2a: Articuno
+|-status|p2a: Articuno|slp
+|-heal|p2a: Articuno|304\/304 slp|[silent]
+|-status|p2a: Articuno|slp|[from] move: Rest
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp
+|-heal|p1a: Snorlax|415\/415 slp|[silent]
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|
+|turn|20
+|choice|move 3|move 2
+|
+|cant|p2a: Articuno|slp
+|cant|p1a: Snorlax|slp
+|
+|turn|21
+|choice|move 3|move 2
+|
+|-curestatus|p2a: Articuno|slp
+|-curestatus|p1a: Snorlax|slp
+|
+|turn|22
+|choice|move 3|move 1
+|
+|move|p2a: Articuno|Reflect|p2a: Articuno
+|-fail|p2a: Articuno
+|move|p1a: Snorlax|Blizzard|p2a: Articuno|[miss]
+|-miss|p1a: Snorlax
+|
+|turn|23
+|choice|move 2|move 1
+|
+|move|p2a: Articuno|Reflect|p2a: Articuno
+|-fail|p2a: Articuno
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-fail|p1a: Snorlax
+|
+|turn|24
+|choice|move 1|move 1
+|
+|move|p2a: Articuno|Reflect|p2a: Articuno
+|-fail|p2a: Articuno
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|
+|turn|25
+|choice|move 4|move 1
+|
+|move|p2a: Articuno|Reflect|p2a: Articuno
+|-fail|p2a: Articuno
+|move|p1a: Snorlax|Self-Destruct|p2a: Articuno
+|-damage|p2a: Articuno|169\/304
+|faint|p1a: Snorlax
+|choice|switch 6|
+|
+|switch|p1a: Omanyte|Omanyte, L96|262\/262
+|turn|26
+|choice|move 2|move 2
+|
+|move|p2a: Articuno|Blizzard|p1a: Omanyte
+|-resisted|p1a: Omanyte
+|-damage|p1a: Omanyte|51\/262
+|move|p1a: Omanyte|Seismic Toss|p2a: Articuno
+|-damage|p2a: Articuno|73\/304
+|
+|turn|27
+|choice|move 2|move 2
+|
+|move|p2a: Articuno|Blizzard|p1a: Omanyte
+|-resisted|p1a: Omanyte
+|-damage|p1a: Omanyte|0 fnt
+|faint|p1a: Omanyte
+|choice|switch 5|
+|
+|switch|p1a: Slowpoke|Slowpoke, L96|176\/368 slp
+|turn|28
+|choice|move 2|move 2
+|
+|move|p2a: Articuno|Blizzard|p1a: Slowpoke
+|-resisted|p1a: Slowpoke
+|-damage|p1a: Slowpoke|0 fnt
+|faint|p1a: Slowpoke
+|choice|switch 3|
+|
+|switch|p1a: Haunter|Haunter, L85|250\/250
+|turn|29
+|choice|move 1|move 2
+|
+|move|p1a: Haunter|Hypnosis|p2a: Articuno
+|-status|p2a: Articuno|slp
+|cant|p2a: Articuno|slp
+|
+|turn|30
+|choice|move 4|switch 6
+|
+|switch|p2a: Electrode|Electrode, L90|291\/291
+|move|p1a: Haunter|Thunderbolt|p2a: Electrode
+|-crit|p2a: Electrode
+|-resisted|p2a: Electrode
+|-damage|p2a: Electrode|223\/291
+|
+|turn|31
+|choice|move 2|move 2
+|
+|move|p2a: Electrode|Flash|p1a: Haunter|[miss]
+|-miss|p2a: Electrode
+|move|p1a: Haunter|Confuse Ray|p2a: Electrode
+|-start|p2a: Electrode|confusion
+|
+|turn|32
+|choice|move 4|move 2
+|
+|-activate|p2a: Electrode|confusion
+|move|p2a: Electrode|Flash|p1a: Haunter
+|-unboost|p1a: Haunter|accuracy|1
+|move|p1a: Haunter|Thunderbolt|p2a: Electrode
+|-resisted|p2a: Electrode
+|-damage|p2a: Electrode|187\/291
+|
+|turn|33
+|choice|switch 2|move 4
+|
+|switch|p1a: Graveler|Graveler, L85|267\/267
+|-activate|p2a: Electrode|confusion
+|-damage|p2a: Electrode|160\/291|[from] confusion
+|
+|turn|34
+|choice|move 1|switch 5
+|
+|switch|p2a: Parasect|Parasect, L90|213\/291 par
+|move|p1a: Graveler|Body Slam|p2a: Parasect
+|-damage|p2a: Parasect|151\/291 par
+|
+|turn|35
+|choice|move 1|move 4
+|
+|move|p1a: Graveler|Body Slam|p2a: Parasect
+|-damage|p2a: Parasect|93\/291 par
+|cant|p2a: Parasect|par
+|
+|turn|36
+|choice|move 1|move 4
+|
+|move|p1a: Graveler|Body Slam|p2a: Parasect
+|-damage|p2a: Parasect|35\/291 par
+|move|p2a: Parasect|Mega Drain|p1a: Graveler
+|-supereffective|p1a: Graveler
+|-damage|p1a: Graveler|0 fnt
+|-heal|p2a: Parasect|168\/291 par|[from] drain|[of] p1a: Graveler
+|faint|p1a: Graveler
+|choice|switch 2|
+|
+|switch|p1a: Haunter|Haunter, L85|250\/250
+|turn|37
+|choice|move 3|move 2
+|
+|move|p1a: Haunter|Explosion|p2a: Parasect
+|-damage|p2a: Parasect|0 fnt
+|faint|p2a: Parasect
+|faint|p1a: Haunter
+|
+|win|Mirabel
+|c|★c353|gg
+|c|★Mirabel|wp

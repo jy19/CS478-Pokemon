@@ -1,0 +1,117 @@
+﻿|join|MALESANI
+|join|LostGod91
+|player|p1|MALESANI|238
+|player|p2|LostGod91|266
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|64363,27085,51521,23817
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Slowbro|Slowbro, L79|312\/312
+|switch|p2a: Rattata|Rattata, L96|252\/252
+|turn|1
+|choice|switch 6|move 1
+|
+|switch|p1a: Arcanine|Arcanine, L85|327\/327
+|move|p2a: Rattata|Super Fang|p1a: Arcanine
+|-damage|p1a: Arcanine|164\/327
+|
+|turn|2
+|choice|move 4|move 1
+|
+|move|p1a: Arcanine|Fire Blast|p2a: Rattata
+|-damage|p2a: Rattata|75\/252
+|move|p2a: Rattata|Super Fang|p1a: Arcanine
+|-damage|p1a: Arcanine|82\/327
+|
+|turn|3
+|choice|move 2|move 1
+|
+|move|p1a: Arcanine|Hyper Beam|p2a: Rattata
+|-damage|p2a: Rattata|0 fnt
+|faint|p2a: Rattata
+|choice||switch 5
+|
+|switch|p2a: Rapidash|Rapidash, L90|300\/300
+|turn|4
+|choice|switch 6|move 2
+|
+|switch|p1a: Slowbro|Slowbro, L79|312\/312
+|move|p2a: Rapidash|Body Slam|p1a: Slowbro
+|-damage|p1a: Slowbro|248\/312
+|
+|turn|5
+|choice|move 1|switch 6
+|
+|switch|p2a: Hitmonchan|Hitmonchan, L90|273\/273
+|move|p1a: Slowbro|Thunder Wave|p2a: Hitmonchan
+|-status|p2a: Hitmonchan|par
+|
+|turn|6
+|choice|switch 5|move 2
+|
+|switch|p1a: Exeggutor|Exeggutor, L79|312\/312
+|move|p2a: Hitmonchan|Submission|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|260\/312
+|-damage|p2a: Hitmonchan|260\/273 par|[from] recoil|[of] p1a: Exeggutor
+|
+|turn|7
+|choice|move 2|switch 4
+|
+|switch|p2a: Metapod|Metapod, L99|300\/300
+|move|p1a: Exeggutor|Psychic|p2a: Metapod
+|-damage|p2a: Metapod|148\/300
+|
+|turn|8
+|choice|move 2|move 3
+|
+|move|p1a: Exeggutor|Psychic|p2a: Metapod
+|-damage|p2a: Metapod|0 fnt
+|faint|p2a: Metapod
+|choice||switch 6
+|
+|switch|p2a: Rapidash|Rapidash, L90|300\/300
+|turn|9
+|choice|switch 5|move 1
+|
+|switch|p1a: Slowbro|Slowbro, L79|248\/312
+|move|p2a: Rapidash|Fire Blast|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|174\/312
+|
+|turn|10
+|choice|move 2|switch 2
+|
+|switch|p2a: Exeggutor|Exeggutor, L79|312\/312
+|move|p1a: Slowbro|Surf|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|277\/312
+|
+|turn|11
+|choice|switch 3|move 3
+|
+|switch|p1a: Seel|Seel, L96|320\/320
+|move|p2a: Exeggutor|Psychic|p1a: Seel
+|-damage|p1a: Seel|221\/320
+|
+|turn|12
+|choice|move 2|move 1
+|
+|move|p1a: Seel|Blizzard|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|132\/312
+|move|p2a: Exeggutor|Sleep Powder|p1a: Seel|[miss]
+|-miss|p2a: Exeggutor
+|
+|turn|13
+|-message|LostGod91 forfeited.
+|
+|win|MALESANI
+|leave|LostGod91
+|player|p2

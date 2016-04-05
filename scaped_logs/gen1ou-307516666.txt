@@ -1,0 +1,491 @@
+﻿|j|NOVED
+|j|tr0mb0ner
+|player|p1|NOVED|182
+|player|p2|tr0mb0ner|1
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|seed|52086,62816,59193,13311
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333\/333
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|1
+|choice|move 2|move 1
+|
+|move|p2a: Gengar|Hypnosis|p1a: Jynx
+|-status|p1a: Jynx|slp
+|cant|p1a: Jynx|slp
+|
+|turn|2
+|choice|move 2|move 2
+|
+|move|p2a: Gengar|Night Shade|p1a: Jynx
+|-damage|p1a: Jynx|233\/333 slp
+|cant|p1a: Jynx|slp
+|
+|turn|3
+|choice|switch 4|move 2
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Gengar|Night Shade|p1a: Exeggutor
+|-damage|p1a: Exeggutor|293\/393
+|
+|turn|4
+|choice|move 1|move 2
+|
+|move|p2a: Gengar|Night Shade|p1a: Exeggutor
+|-damage|p1a: Exeggutor|193\/393
+|move|p1a: Exeggutor|Sleep Powder|p2a: Gengar
+|-status|p2a: Gengar|slp
+|
+|turn|5
+|choice|move 3|switch 6
+|
+|switch|p2a: Articuno|Articuno|383\/383
+|move|p1a: Exeggutor|Psychic|p2a: Articuno
+|-damage|p2a: Articuno|275\/383
+|
+|turn|6
+|choice|switch 3|move 1
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Articuno|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|586\/703
+|-status|p1a: Chansey|frz
+|
+|turn|7
+|choice|switch 2|move 1
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|move|p2a: Articuno|Ice Beam|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|255\/323
+|
+|turn|8
+|choice|move 4|switch 2
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Starmie|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|631\/703
+|
+|turn|9
+|choice|switch 3|move 2
+|
+|switch|p1a: Exeggutor|Exeggutor|193\/393
+|move|p2a: Chansey|Thunder Wave|p1a: Exeggutor
+|-status|p1a: Exeggutor|par
+|
+|turn|10
+|choice|move 3|switch 3
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|cant|p1a: Exeggutor|par
+|
+|turn|11
+|choice|move 4|move 4
+|
+|move|p2a: Exeggutor|Egg Bomb|p1a: Exeggutor|[miss]
+|-miss|p2a: Exeggutor
+|move|p1a: Exeggutor|Explosion|p2a: Exeggutor
+|-damage|p2a: Exeggutor|99\/393
+|faint|p1a: Exeggutor
+|choice|switch 5|
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|12
+|choice|move 1|switch 6
+|
+|switch|p2a: Gengar|Gengar|323\/323 slp
+|move|p1a: Tauros|Body Slam|p2a: Gengar
+|-immune|p2a: Gengar|[msg]
+|
+|turn|13
+|choice|move 3|switch 2
+|
+|switch|p2a: Articuno|Articuno|275\/383
+|move|p1a: Tauros|Earthquake|p2a: Articuno
+|-immune|p2a: Articuno|[msg]
+|
+|turn|14
+|choice|switch 3|move 2
+|
+|switch|p1a: Starmie|Starmie|255\/323
+|move|p2a: Articuno|Reflect|p2a: Articuno
+|-start|p2a: Articuno|Reflect
+|
+|turn|15
+|choice|move 1|switch 3
+|
+|switch|p2a: Chansey|Chansey|631\/703
+|move|p1a: Starmie|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|547\/703
+|
+|turn|16
+|choice|switch 4|move 2
+|
+|switch|p1a: Jynx|Jynx|233\/333 slp
+|move|p2a: Chansey|Thunder Wave|p1a: Jynx
+|-fail|p1a: Jynx
+|
+|turn|17
+|choice|move 4|move 3
+|
+|cant|p1a: Jynx|slp
+|move|p2a: Chansey|Thunderbolt|p1a: Jynx
+|-damage|p1a: Jynx|157\/333 slp
+|
+|turn|18
+|choice|move 1|move 3
+|
+|-curestatus|p1a: Jynx|slp
+|move|p2a: Chansey|Thunderbolt|p1a: Jynx
+|-damage|p1a: Jynx|82\/333
+|
+|turn|19
+|choice|move 4|move 2
+|
+|move|p1a: Jynx|Rest|p1a: Jynx
+|-status|p1a: Jynx|slp
+|-heal|p1a: Jynx|333\/333 slp|[silent]
+|-status|p1a: Jynx|slp|[from] move: Rest
+|move|p2a: Chansey|Thunder Wave|p1a: Jynx
+|-fail|p1a: Jynx
+|
+|turn|20
+|choice|move 2|move 3
+|
+|cant|p1a: Jynx|slp
+|move|p2a: Chansey|Thunderbolt|p1a: Jynx
+|-damage|p1a: Jynx|247\/333 slp
+|
+|turn|21
+|choice|move 1|move 3
+|
+|-curestatus|p1a: Jynx|slp
+|move|p2a: Chansey|Thunderbolt|p1a: Jynx
+|-damage|p1a: Jynx|160\/333
+|
+|turn|22
+|choice|move 1|move 3
+|
+|move|p1a: Jynx|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|413\/703
+|-status|p2a: Chansey|frz
+|cant|p2a: Chansey|frz
+|
+|turn|23
+|choice|move 1|switch 4
+|
+|switch|p2a: Slowbro|Slowbro|393\/393
+|move|p1a: Jynx|Blizzard|p2a: Slowbro|[miss]
+|-miss|p1a: Jynx
+|
+|turn|24
+|choice|switch 4|move 4
+|
+|switch|p1a: Starmie|Starmie|255\/323
+|move|p2a: Slowbro|Thunder Wave|p1a: Starmie
+|-status|p1a: Starmie|par
+|
+|turn|25
+|choice|move 4|switch 6
+|
+|switch|p2a: Exeggutor|Exeggutor|99\/393
+|move|p1a: Starmie|Thunderbolt|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|69\/393
+|
+|turn|26
+|choice|switch 2|move 3
+|
+|switch|p1a: Chansey|Chansey|586\/703 frz
+|move|p2a: Exeggutor|Explosion|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|faint|p2a: Exeggutor
+|choice|switch 6|switch 5
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|switch|p1a: Snorlax|Snorlax|523\/523
+|turn|27
+|choice|move 3|move 1
+|
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|387\/523
+|move|p1a: Snorlax|Reflect|p1a: Snorlax
+|-start|p1a: Snorlax|Reflect
+|
+|turn|28
+|choice|move 1|switch 2
+|
+|switch|p2a: Gengar|Gengar|323\/323 slp
+|move|p1a: Snorlax|Body Slam|p2a: Gengar
+|-immune|p2a: Gengar|[msg]
+|
+|turn|29
+|choice|move 2|switch 3
+|
+|switch|p2a: Articuno|Articuno|275\/383
+|move|p1a: Snorlax|Earthquake|p2a: Articuno
+|-immune|p2a: Articuno|[msg]
+|
+|turn|30
+|choice|move 1|move 2
+|
+|move|p2a: Articuno|Reflect|p2a: Articuno
+|-start|p2a: Articuno|Reflect
+|move|p1a: Snorlax|Body Slam|p2a: Articuno
+|-damage|p2a: Articuno|222\/383
+|-status|p2a: Articuno|par
+|
+|turn|31
+|choice|move 1|move 4
+|
+|move|p1a: Snorlax|Body Slam|p2a: Articuno
+|-damage|p2a: Articuno|172\/383 par
+|cant|p2a: Articuno|par
+|
+|turn|32
+|choice|switch 4|move 4
+|
+|switch|p1a: Jynx|Jynx|160\/333
+|move|p2a: Articuno|Blizzard|p1a: Jynx
+|-resisted|p1a: Jynx
+|-damage|p1a: Jynx|73\/333
+|
+|turn|33
+|choice|move 1|move 3
+|
+|move|p1a: Jynx|Blizzard|p2a: Articuno
+|-damage|p2a: Articuno|50\/383 par
+|move|p2a: Articuno|Rest|p2a: Articuno
+|-status|p2a: Articuno|slp
+|-heal|p2a: Articuno|383\/383 slp|[silent]
+|-status|p2a: Articuno|slp|[from] move: Rest
+|
+|turn|34
+|choice|move 2|move 4
+|
+|move|p1a: Jynx|Psychic|p2a: Articuno
+|-crit|p2a: Articuno
+|-damage|p2a: Articuno|202\/383 slp
+|cant|p2a: Articuno|slp
+|
+|turn|35
+|choice|move 2|move 3
+|
+|move|p1a: Jynx|Psychic|p2a: Articuno
+|-damage|p2a: Articuno|117\/383 slp
+|-curestatus|p2a: Articuno|slp
+|
+|turn|36
+|choice|move 1|move 4
+|
+|move|p1a: Jynx|Blizzard|p2a: Articuno
+|-crit|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|faint|p2a: Articuno
+|choice||switch 2
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|37
+|choice|move 1|move 1
+|
+|move|p2a: Tauros|Body Slam|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|choice|switch 2|
+|
+|switch|p1a: Starmie|Starmie|255\/323 par
+|turn|38
+|choice|move 3|move 1
+|
+|move|p2a: Tauros|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|142\/323 par
+|move|p1a: Starmie|Thunder Wave|p2a: Tauros
+|-status|p2a: Tauros|par
+|
+|turn|39
+|choice|move 1|move 1
+|
+|move|p1a: Starmie|Blizzard|p2a: Tauros
+|-damage|p2a: Tauros|239\/353 par
+|move|p2a: Tauros|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|33\/323 par
+|
+|turn|40
+|choice|move 1|move 1
+|
+|move|p1a: Starmie|Blizzard|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|26\/353 par
+|move|p2a: Tauros|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|choice|switch 4|
+|
+|switch|p1a: Snorlax|Snorlax|387\/523
+|turn|41
+|choice|move 1|switch 4
+|
+|switch|p2a: Chansey|Chansey|413\/703 frz
+|move|p1a: Snorlax|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|133\/703 frz
+|
+|turn|42
+|choice|move 3|move 2
+|
+|cant|p2a: Chansey|frz
+|move|p1a: Snorlax|Reflect|p1a: Snorlax
+|-start|p1a: Snorlax|Reflect
+|
+|turn|43
+|choice|move 2|move 2
+|
+|cant|p2a: Chansey|frz
+|move|p1a: Snorlax|Earthquake|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|choice||switch 6
+|
+|switch|p2a: Slowbro|Slowbro|393\/393
+|turn|44
+|choice|move 1|move 4
+|
+|move|p2a: Slowbro|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|move|p1a: Snorlax|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|291\/393
+|
+|turn|45
+|choice|move 1|move 2
+|
+|move|p2a: Slowbro|Surf|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|157\/523 par
+|move|p1a: Snorlax|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|183\/393
+|-status|p2a: Slowbro|par
+|
+|turn|46
+|choice|move 1|move 3
+|
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|-heal|p2a: Slowbro|393\/393 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|move|p1a: Snorlax|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|293\/393 slp
+|
+|turn|47
+|choice|move 1|move 2
+|
+|cant|p2a: Slowbro|slp
+|move|p1a: Snorlax|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|199\/393 slp
+|
+|turn|48
+|choice|move 1|move 2
+|
+|move|p1a: Snorlax|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|106\/393 slp
+|-curestatus|p2a: Slowbro|slp
+|
+|turn|49
+|choice|move 1|move 3
+|
+|move|p1a: Snorlax|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|10\/393
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|-heal|p2a: Slowbro|393\/393 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|
+|turn|50
+|choice|move 1|move 3
+|
+|move|p1a: Snorlax|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|300\/393 slp
+|cant|p2a: Slowbro|slp
+|
+|turn|51
+|choice|move 1|move 3
+|
+|move|p1a: Snorlax|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|199\/393 slp
+|-curestatus|p2a: Slowbro|slp
+|
+|turn|52
+|choice|move 1|move 2
+|
+|move|p2a: Slowbro|Surf|p1a: Snorlax
+|-damage|p1a: Snorlax|26\/523 par
+|cant|p1a: Snorlax|par
+|
+|turn|53
+|choice|move 1|move 2
+|
+|move|p2a: Slowbro|Surf|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|choice|switch 3|
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|54
+|choice|move 1|move 4
+|
+|move|p1a: Tauros|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|107\/393
+|-status|p2a: Slowbro|par
+|move|p2a: Slowbro|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|
+|turn|55
+|choice|move 4|move 3
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|choice||switch 3
+|
+|switch|p2a: Gengar|Gengar|323\/323 slp
+|turn|56
+|choice|move 3|move 1
+|
+|cant|p2a: Gengar|slp
+|move|p1a: Tauros|Earthquake|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|106\/323 slp
+|
+|turn|57
+|choice|move 3|move 1
+|
+|cant|p2a: Gengar|slp
+|move|p1a: Tauros|Earthquake|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|choice||switch 4
+|
+|switch|p2a: Tauros|Tauros|26\/353 par
+|turn|58
+|choice|move 1|move 1
+|
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|win|NOVED
+|raw|NOVED's rating: 1307 &rarr; <strong>1327<\/strong><br \/>(+20 for winning)
+|raw|tr0mb0ner's rating: 1314 &rarr; <strong>1293<\/strong><br \/>(-21 for losing)
+|c|★NOVED|gg
+|l|tr0mb0ner
+|player|p2

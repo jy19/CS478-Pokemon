@@ -1,0 +1,260 @@
+﻿|join|MALESANI
+|join|fratelollo
+|player|p1|MALESANI|238
+|player|p2|fratelollo|7
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|27887,16277,11774,18594
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Koffing|Koffing, L96|272\/272
+|switch|p2a: Pidgeotto|Pidgeotto, L90|297\/297
+|turn|1
+|choice|move 3|move 4
+|
+|move|p2a: Pidgeotto|Reflect|p2a: Pidgeotto
+|-start|p2a: Pidgeotto|Reflect
+|move|p1a: Koffing|Thunder|p2a: Pidgeotto|[miss]
+|-miss|p1a: Koffing
+|
+|turn|2
+|choice|move 3|switch 3
+|
+|switch|p2a: Graveler|Graveler, L85|267\/267
+|move|p1a: Koffing|Thunder|p2a: Graveler
+|-immune|p2a: Graveler|[msg]
+|
+|turn|3
+|choice|switch 4|move 3
+|
+|switch|p1a: Dewgong|Dewgong, L85|327\/327
+|move|p2a: Graveler|Rock Slide|p1a: Dewgong|[miss]
+|-miss|p2a: Graveler
+|
+|turn|4
+|choice|move 2|switch 6
+|
+|switch|p2a: Jolteon|Jolteon, L79|265\/265
+|move|p1a: Dewgong|Surf|p2a: Jolteon
+|-damage|p2a: Jolteon|177\/265
+|
+|turn|5
+|choice|switch 2|move 4
+|
+|switch|p1a: Rhyhorn|Rhyhorn, L96|348\/348
+|move|p2a: Jolteon|Thunder Wave|p1a: Rhyhorn
+|-immune|p1a: Rhyhorn|[msg]
+|
+|turn|6
+|choice|move 3|switch 2
+|
+|switch|p2a: Krabby|Krabby, L96|252\/252
+|move|p1a: Rhyhorn|Rock Slide|p2a: Krabby
+|-damage|p2a: Krabby|175\/252
+|
+|turn|7
+|choice|switch 4|move 1
+|
+|switch|p1a: Koffing|Koffing, L96|272\/272
+|move|p2a: Krabby|Blizzard|p1a: Koffing
+|-damage|p1a: Koffing|212\/272
+|
+|turn|8
+|choice|move 4|switch 6
+|
+|switch|p2a: Graveler|Graveler, L85|267\/267
+|move|p1a: Koffing|Fire Blast|p2a: Graveler
+|-resisted|p2a: Graveler
+|-damage|p2a: Graveler|208\/267
+|-status|p2a: Graveler|brn
+|
+|turn|9
+|choice|switch 2|move 4
+|
+|switch|p1a: Dewgong|Dewgong, L85|327\/327
+|move|p2a: Graveler|Earthquake|p1a: Dewgong
+|-damage|p1a: Dewgong|275\/327
+|-damage|p2a: Graveler|192\/267 brn|[from] brn|[of] p1a: Dewgong
+|
+|turn|10
+|choice|move 3|switch 2
+|
+|switch|p2a: Jolteon|Jolteon, L79|177\/265
+|move|p1a: Dewgong|Blizzard|p2a: Jolteon
+|-damage|p2a: Jolteon|58\/265
+|
+|turn|11
+|choice|switch 4|move 3
+|
+|switch|p1a: Rhyhorn|Rhyhorn, L96|348\/348
+|move|p2a: Jolteon|Pin Missile|p1a: Rhyhorn|[miss]
+|-miss|p2a: Jolteon
+|
+|turn|12
+|choice|move 1|switch 2
+|
+|switch|p2a: Graveler|Graveler, L85|192\/267 brn
+|-damage|p2a: Graveler|176\/267 brn|[from] brn
+|move|p1a: Rhyhorn|Earthquake|p2a: Graveler
+|-crit|p2a: Graveler
+|-supereffective|p2a: Graveler
+|-damage|p2a: Graveler|0 fnt
+|faint|p2a: Graveler
+|choice||switch 6
+|
+|switch|p2a: Krabby|Krabby, L96|175\/252
+|turn|13
+|choice|switch 4|move 4
+|
+|switch|p1a: Dewgong|Dewgong, L85|275\/327
+|move|p2a: Krabby|Swords Dance|p2a: Krabby
+|-boost|p2a: Krabby|atk|2
+|
+|turn|14
+|choice|move 3|move 3
+|
+|move|p1a: Dewgong|Blizzard|p2a: Krabby
+|-resisted|p2a: Krabby
+|-damage|p2a: Krabby|67\/252
+|move|p2a: Krabby|Body Slam|p1a: Dewgong
+|-damage|p1a: Dewgong|99\/327
+|
+|turn|15
+|choice|move 2|switch 5
+|
+|switch|p2a: Wigglytuff|Wigglytuff, L90|435\/435
+|move|p1a: Dewgong|Surf|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|304\/435
+|
+|turn|16
+|choice|move 3|move 2
+|
+|move|p1a: Dewgong|Blizzard|p2a: Wigglytuff
+|-crit|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|0 fnt
+|faint|p2a: Wigglytuff
+|choice||switch 2
+|
+|switch|p2a: Jolteon|Jolteon, L79|58\/265
+|turn|17
+|choice|switch 4|move 3
+|
+|switch|p1a: Rhyhorn|Rhyhorn, L96|348\/348
+|move|p2a: Jolteon|Pin Missile|p1a: Rhyhorn
+|-damage|p1a: Rhyhorn|340\/348
+|-damage|p1a: Rhyhorn|332\/348
+|-damage|p1a: Rhyhorn|324\/348
+|-damage|p1a: Rhyhorn|316\/348
+|-damage|p1a: Rhyhorn|308\/348
+|-hitcount|p1a: Rhyhorn|5
+|
+|turn|18
+|choice|move 3|switch 3
+|
+|switch|p2a: Pidgeotto|Pidgeotto, L90|297\/297
+|move|p1a: Rhyhorn|Rock Slide|p2a: Pidgeotto
+|-supereffective|p2a: Pidgeotto
+|-damage|p2a: Pidgeotto|49\/297
+|
+|turn|19
+|choice|move 4|move 2
+|
+|move|p2a: Pidgeotto|Rest|p2a: Pidgeotto
+|-status|p2a: Pidgeotto|slp
+|-heal|p2a: Pidgeotto|297\/297 slp|[silent]
+|-status|p2a: Pidgeotto|slp|[from] move: Rest
+|move|p1a: Rhyhorn|Body Slam|p2a: Pidgeotto
+|-damage|p2a: Pidgeotto|205\/297 slp
+|
+|turn|20
+|choice|move 2|move 1
+|
+|cant|p2a: Pidgeotto|slp
+|move|p1a: Rhyhorn|Substitute|p1a: Rhyhorn
+|-start|p1a: Rhyhorn|Substitute
+|-damage|p1a: Rhyhorn|221\/348
+|
+|turn|21
+|choice|move 3|move 1
+|
+|-curestatus|p2a: Pidgeotto|slp
+|move|p1a: Rhyhorn|Rock Slide|p2a: Pidgeotto
+|-supereffective|p2a: Pidgeotto
+|-damage|p2a: Pidgeotto|0 fnt
+|faint|p2a: Pidgeotto
+|choice||switch 5
+|
+|switch|p2a: Krabby|Krabby, L96|67\/252
+|turn|22
+|choice|move 1|move 2
+|
+|move|p2a: Krabby|Crabhammer|p1a: Rhyhorn
+|-crit|p1a: Rhyhorn
+|-supereffective|p1a: Rhyhorn
+|-end|p1a: Rhyhorn|Substitute
+|move|p1a: Rhyhorn|Earthquake|p2a: Krabby
+|-damage|p2a: Krabby|0 fnt
+|faint|p2a: Krabby
+|choice||switch 4
+|
+|switch|p2a: Mew|Mew, L74|300\/300
+|turn|23
+|choice|move 4|move 4
+|
+|move|p2a: Mew|Hyper Beam|p1a: Rhyhorn
+|-resisted|p1a: Rhyhorn
+|-damage|p1a: Rhyhorn|189\/348
+|move|p1a: Rhyhorn|Body Slam|p2a: Mew
+|-damage|p2a: Mew|226\/300
+|-status|p2a: Mew|par
+|
+|turn|24
+|-mustrecharge|p2a: Mew
+|-mustrecharge|p2a: Mew
+|choice|move 2|move 1
+|
+|move|p1a: Rhyhorn|Substitute|p1a: Rhyhorn
+|-start|p1a: Rhyhorn|Substitute
+|-damage|p1a: Rhyhorn|102\/348
+|cant|p2a: Mew|recharge
+|
+|turn|25
+|choice|move 1|move 4
+|
+|move|p1a: Rhyhorn|Earthquake|p2a: Mew
+|-damage|p2a: Mew|90\/300 par
+|cant|p2a: Mew|par
+|
+|turn|26
+|choice|move 4|move 1
+|
+|move|p1a: Rhyhorn|Body Slam|p2a: Mew
+|-damage|p2a: Mew|10\/300 par
+|cant|p2a: Mew|par
+|
+|turn|27
+|choice|move 4|move 3
+|
+|move|p1a: Rhyhorn|Body Slam|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|choice||switch 3
+|
+|switch|p2a: Jolteon|Jolteon, L79|58\/265
+|turn|28
+|choice|move 3|move 2
+|
+|move|p2a: Jolteon|Sand Attack|p1a: Rhyhorn
+|-fail|p1a: Rhyhorn
+|move|p1a: Rhyhorn|Rock Slide|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|
+|win|MALESANI
+|raw|MALESANI's rating: 1353 &rarr; <strong>1366<\/strong><br \/>(+13 for winning)
+|raw|fratelollo's rating: 1244 &rarr; <strong>1226<\/strong><br \/>(-18 for losing)

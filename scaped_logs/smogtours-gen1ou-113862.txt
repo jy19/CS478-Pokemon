@@ -1,0 +1,589 @@
+﻿|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|J|Nails
+|J|teal6
+|player|p1|Nails|101
+|player|p2|teal6|115
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|seed|4759,26141,54163,14145
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Jynx|Jynx|333\/333
+|turn|1
+|choice|move 2|move 2
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Jynx
+|-status|p2a: Jynx|par
+|cant|p2a: Jynx|par
+|
+|turn|2
+|choice|move 3|move 2
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Jynx
+|-damage|p2a: Jynx|233\/333 par
+|move|p2a: Jynx|Lovely Kiss|p1a: Alakazam
+|-status|p1a: Alakazam|slp
+|
+|turn|3
+|choice|switch 2|switch 4
+|
+|switch|p1a: Slowbro|Slowbro|393\/393
+|switch|p2a: Snorlax|Snorlax|523\/523
+|
+|turn|4
+|choice|move 1|move 1
+|
+|move|p2a: Snorlax|Body Slam|p1a: Slowbro
+|-damage|p1a: Slowbro|294\/393
+|move|p1a: Slowbro|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|
+|turn|5
+|choice|move 3|move 1
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|move|p2a: Snorlax|Body Slam|p1a: Slowbro
+|-damage|p1a: Slowbro|198\/393
+|
+|turn|6
+|J|Rapture's Finest
+|choice|move 2|move 4
+|
+|move|p1a: Slowbro|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|270\/523 par
+|cant|p2a: Snorlax|par
+|
+|turn|7
+|choice|move 2|move 4
+|
+|move|p1a: Slowbro|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|38\/523 par
+|-unboost|p2a: Snorlax|spd|1
+|-unboost|p2a: Snorlax|spa|1
+|move|p2a: Snorlax|Self-Destruct|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|faint|p2a: Snorlax
+|J|Vileman
+|c|+Vileman|a
+|c|+Vileman|woo?
+|c|★Nails|y
+|c|+Vileman|:pig:
+|c|★Nails|n
+|c|+Vileman|._.
+|choice|switch 3|switch 5
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|switch|p1a: Snorlax|Snorlax|523\/523
+|turn|8
+|choice|move 1|move 4
+|
+|move|p2a: Exeggutor|Stun Spore|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|move|p1a: Snorlax|Body Slam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|276\/393
+|
+|turn|9
+|c|+Vileman|a :pig: that says awoo
+|c|+Vileman|yn
+|c|★Nails|gross.
+|choice|move 2|move 1
+|
+|move|p2a: Exeggutor|Psychic|p1a: Snorlax
+|-damage|p1a: Snorlax|355\/523 par
+|move|p1a: Snorlax|Self-Destruct|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|faint|p1a: Snorlax
+|choice|switch 4|switch 6
+|
+|switch|p1a: Dragonite|Dragonite|385\/385
+|switch|p2a: Chansey|Chansey|703\/703
+|turn|10
+|c|+Vileman|talkin about gross
+|c|+Vileman|-
+|c|★Nails|y
+|choice|move 1|move 3
+|
+|move|p1a: Dragonite|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|660\/703
+|-activate|p2a: Chansey|move: Wrap|[of] p1a: Dragonite
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|11
+|c|+Vileman|is this for the tour
+|c|+Vileman|of funsies
+|c|+Vileman|or*
+|c|★teal6|nah
+|c|★teal6|fun
+|c|★Nails|funsies.
+|c|+Vileman|o
+|choice|move 1|switch 4
+|
+|switch|p2a: Jynx|Jynx|233\/333 par
+|move|p1a: Dragonite|Wrap|p2a: Jynx
+|-damage|p2a: Jynx|207\/333 par
+|-activate|p2a: Jynx|move: Wrap|[of] p1a: Dragonite
+|
+|turn|12
+|choice|move 1|switch 4
+|
+|switch|p2a: Chansey|Chansey|660\/703
+|move|p1a: Dragonite|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|620\/703
+|-activate|p2a: Chansey|move: Wrap|[of] p1a: Dragonite
+|
+|turn|13
+|choice|move 1|switch 4
+|
+|switch|p2a: Jynx|Jynx|207\/333 par
+|move|p1a: Dragonite|Wrap|p2a: Jynx
+|-damage|p2a: Jynx|179\/333 par
+|-activate|p2a: Jynx|move: Wrap|[of] p1a: Dragonite
+|
+|turn|14
+|choice|move 1|move 4
+|
+|move|p1a: Dragonite|Wrap|p2a: Jynx
+|-damage|p2a: Jynx|151\/333 par
+|cant|p2a: Jynx|partiallytrapped
+|
+|-end|p2a: Jynx|Wrap|[partiallytrapped]
+|turn|15
+|c|+Vileman|wrap in funsies
+|choice|move 1|switch 4
+|
+|switch|p2a: Chansey|Chansey|620\/703
+|move|p1a: Dragonite|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|577\/703
+|-activate|p2a: Chansey|move: Wrap|[of] p1a: Dragonite
+|
+|turn|16
+|c|+Vileman|(puke)
+|choice|move 1|move 3
+|
+|move|p1a: Dragonite|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|534\/703
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|17
+|choice|move 1|move 3
+|
+|move|p1a: Dragonite|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|491\/703
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|18
+|choice|move 1|switch 4
+|
+|switch|p2a: Jynx|Jynx|151\/333 par
+|move|p1a: Dragonite|Wrap|p2a: Jynx
+|-damage|p2a: Jynx|124\/333 par
+|-activate|p2a: Jynx|move: Wrap|[of] p1a: Dragonite
+|
+|turn|19
+|choice|move 1|switch 4
+|
+|switch|p2a: Chansey|Chansey|491\/703
+|move|p1a: Dragonite|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|454\/703
+|-activate|p2a: Chansey|move: Wrap|[of] p1a: Dragonite
+|
+|turn|20
+|choice|move 1|move 3
+|
+|move|p1a: Dragonite|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|417\/703
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|21
+|choice|move 1|move 2
+|
+|move|p1a: Dragonite|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|380\/703
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|22
+|choice|move 1|switch 3
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|move|p1a: Dragonite|Wrap|p2a: Tauros
+|-damage|p2a: Tauros|339\/353
+|-activate|p2a: Tauros|move: Wrap|[of] p1a: Dragonite
+|
+|turn|23
+|choice|move 1|switch 4
+|
+|switch|p2a: Jynx|Jynx|124\/333 par
+|move|p1a: Dragonite|Wrap|p2a: Jynx
+|-damage|p2a: Jynx|97\/333 par
+|-activate|p2a: Jynx|move: Wrap|[of] p1a: Dragonite
+|
+|turn|24
+|c|★teal6|i always forget how to play around this
+|choice|move 1|switch 2
+|
+|switch|p2a: Zapdos|Zapdos|383\/383
+|move|p1a: Dragonite|Wrap|p2a: Zapdos
+|-damage|p2a: Zapdos|365\/383
+|-activate|p2a: Zapdos|move: Wrap|[of] p1a: Dragonite
+|
+|turn|25
+|choice|move 1|switch 3
+|
+|switch|p2a: Chansey|Chansey|380\/703
+|move|p1a: Dragonite|Wrap|p2a: Chansey|[miss]
+|-miss|p1a: Dragonite
+|
+|turn|26
+|c|+Vileman|switch in and out
+|choice|move 1|switch 4
+|
+|switch|p2a: Tauros|Tauros|339\/353
+|move|p1a: Dragonite|Wrap|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|307\/353
+|-activate|p2a: Tauros|move: Wrap|[of] p1a: Dragonite
+|
+|turn|27
+|c|+Vileman|pray for misses
+|choice|move 1|switch 2
+|
+|switch|p2a: Jynx|Jynx|97\/333 par
+|move|p1a: Dragonite|Wrap|p2a: Jynx
+|-damage|p2a: Jynx|70\/333 par
+|-activate|p2a: Jynx|move: Wrap|[of] p1a: Dragonite
+|
+|turn|28
+|choice|move 1|move 4
+|
+|move|p1a: Dragonite|Wrap|p2a: Jynx
+|-damage|p2a: Jynx|43\/333 par
+|cant|p2a: Jynx|partiallytrapped
+|
+|-end|p2a: Jynx|Wrap|[partiallytrapped]
+|turn|29
+|c|+Vileman|then stay in
+|c|+Vileman|-
+|choice|move 1|move 4
+|
+|move|p1a: Dragonite|Wrap|p2a: Jynx
+|-damage|p2a: Jynx|17\/333 par
+|-activate|p2a: Jynx|move: Wrap|[of] p1a: Dragonite
+|cant|p2a: Jynx|partiallytrapped
+|
+|turn|30
+|choice|move 1|move 4
+|
+|move|p1a: Dragonite|Wrap|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|choice||switch 4
+|
+|switch|p2a: Chansey|Chansey|380\/703
+|turn|31
+|choice|move 1|move 3
+|
+|move|p1a: Dragonite|Wrap|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|303\/703
+|-activate|p2a: Chansey|move: Wrap|[of] p1a: Dragonite
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|32
+|c|+Vileman|no
+|c|+Vileman|i mean
+|choice|move 1|move 3
+|
+|move|p1a: Dragonite|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|226\/703
+|cant|p2a: Chansey|partiallytrapped
+|
+|-end|p2a: Chansey|Wrap|[partiallytrapped]
+|turn|33
+|c|+Vileman|stay on the miss
+|c|+Vileman|lol
+|c|★teal6|i was trying to
+|c|★teal6|pp stall
+|choice|move 1|move 3
+|
+|move|p1a: Dragonite|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|185\/703
+|-activate|p2a: Chansey|move: Wrap|[of] p1a: Dragonite
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|34
+|c|+Vileman|u dont pp stall
+|c|+Vileman|by stauying in
+|c|+Vileman|lol
+|choice|move 1|switch 3
+|
+|switch|p2a: Zapdos|Zapdos|365\/383
+|move|p1a: Dragonite|Wrap|p2a: Zapdos
+|-damage|p2a: Zapdos|348\/383
+|-activate|p2a: Zapdos|move: Wrap|[of] p1a: Dragonite
+|
+|turn|35
+|choice|move 1|switch 2
+|
+|switch|p2a: Tauros|Tauros|307\/353
+|move|p1a: Dragonite|Wrap|p2a: Tauros
+|-damage|p2a: Tauros|291\/353
+|-activate|p2a: Tauros|move: Wrap|[of] p1a: Dragonite
+|
+|turn|36
+|c|+Vileman|when u switch out he wastes pp
+|c|+Vileman|if u stay in it doesnt
+|c|★Nails|^
+|c|★teal6|ah okay yeah thats what i figured
+|choice|move 1|switch 2
+|
+|switch|p2a: Zapdos|Zapdos|348\/383
+|move|p1a: Dragonite|Wrap|p2a: Zapdos
+|-damage|p2a: Zapdos|332\/383
+|-activate|p2a: Zapdos|move: Wrap|[of] p1a: Dragonite
+|
+|turn|37
+|c|+Vileman|i said stay in on the miss
+|choice|move 1|switch 2
+|
+|switch|p2a: Tauros|Tauros|291\/353
+|move|p1a: Dragonite|Wrap|p2a: Tauros
+|-damage|p2a: Tauros|276\/353
+|-activate|p2a: Tauros|move: Wrap|[of] p1a: Dragonite
+|
+|turn|38
+|choice|move 1|switch 2
+|
+|switch|p2a: Zapdos|Zapdos|332\/383
+|move|p1a: Dragonite|Wrap|p2a: Zapdos|[miss]
+|-miss|p1a: Dragonite
+|
+|turn|39
+|c|+Vileman|to try and go for twave or smth
+|c|★teal6|aight
+|choice|move 2|switch 2
+|
+|switch|p2a: Tauros|Tauros|276\/353
+|move|p1a: Dragonite|Thunder Wave|p2a: Tauros
+|-status|p2a: Tauros|par
+|
+|turn|40
+|c|★Nails|neat
+|choice|move 1|move 2
+|
+|move|p1a: Dragonite|Wrap|p2a: Tauros
+|-damage|p2a: Tauros|261\/353 par
+|-activate|p2a: Tauros|move: Wrap|[of] p1a: Dragonite
+|cant|p2a: Tauros|par
+|
+|turn|41
+|choice|move 1|move 2
+|
+|move|p1a: Dragonite|Wrap|p2a: Tauros
+|-damage|p2a: Tauros|246\/353 par
+|cant|p2a: Tauros|partiallytrapped
+|
+|-end|p2a: Tauros|Wrap|[partiallytrapped]
+|turn|42
+|choice|move 1|switch 2
+|
+|switch|p2a: Zapdos|Zapdos|332\/383
+|move|p1a: Dragonite|Wrap|p2a: Zapdos
+|-damage|p2a: Zapdos|316\/383
+|-activate|p2a: Zapdos|move: Wrap|[of] p1a: Dragonite
+|
+|turn|43
+|choice|move 1|switch 2
+|
+|switch|p2a: Tauros|Tauros|246\/353 par
+|move|p1a: Dragonite|Wrap|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|216\/353 par
+|-activate|p2a: Tauros|move: Wrap|[of] p1a: Dragonite
+|
+|turn|44
+|choice|move 1|move 2
+|
+|move|p1a: Dragonite|Wrap|p2a: Tauros
+|-damage|p2a: Tauros|186\/353 par
+|cant|p2a: Tauros|par
+|
+|turn|45
+|c|★teal6|wait did i fuck it up
+|c|★teal6|and roll over
+|c|★Nails|n
+|choice|move 1|move 2
+|
+|move|p1a: Dragonite|Wrap|p2a: Tauros
+|-damage|p2a: Tauros|156\/353 par
+|cant|p2a: Tauros|partiallytrapped
+|
+|-end|p2a: Tauros|Wrap|[partiallytrapped]
+|turn|46
+|c|+Vileman|dnite gets yellow magic
+|c|★Nails|i'm at
+|c|+Vileman|why did i not know that
+|c|★Nails|8 pp.
+|c|★teal6|ah okay
+|c|★teal6|it says
+|choice|move 1|switch 2
+|
+|switch|p2a: Zapdos|Zapdos|316\/383
+|move|p1a: Dragonite|Wrap|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|282\/383
+|-activate|p2a: Zapdos|move: Wrap|[of] p1a: Dragonite
+|
+|turn|47
+|c|★teal6|-3 for me haha
+|c|★Nails|yea ps's counter is broken.
+|choice|move 1|move 4
+|
+|cant|p2a: Zapdos|partiallytrapped
+|move|p1a: Dragonite|Wrap|p2a: Zapdos
+|-damage|p2a: Zapdos|248\/383
+|
+|-end|p2a: Zapdos|Wrap|[partiallytrapped]
+|turn|48
+|choice|move 2|switch 2
+|
+|switch|p2a: Tauros|Tauros|156\/353 par
+|move|p1a: Dragonite|Thunder Wave|p2a: Tauros
+|-fail|p2a: Tauros|par
+|
+|turn|49
+|choice|move 1|move 2
+|
+|move|p1a: Dragonite|Wrap|p2a: Tauros
+|-damage|p2a: Tauros|142\/353 par
+|-activate|p2a: Tauros|move: Wrap|[of] p1a: Dragonite
+|cant|p2a: Tauros|partiallytrapped
+|
+|turn|50
+|c|+Vileman|oh i forgot u have to stay in
+|c|+Vileman|on the last one
+|c|+Vileman|oo
+|choice|move 1|switch 2
+|
+|switch|p2a: Zapdos|Zapdos|248\/383
+|move|p1a: Dragonite|Wrap|p2a: Zapdos
+|-damage|p2a: Zapdos|231\/383
+|-activate|p2a: Zapdos|move: Wrap|[of] p1a: Dragonite
+|
+|turn|51
+|choice|move 1|switch 2
+|
+|switch|p2a: Tauros|Tauros|142\/353 par
+|move|p1a: Dragonite|Wrap|p2a: Tauros
+|-damage|p2a: Tauros|127\/353 par
+|-activate|p2a: Tauros|move: Wrap|[of] p1a: Dragonite
+|
+|turn|52
+|c|+Vileman|thats good to know.
+|choice|move 1|switch 2
+|
+|switch|p2a: Zapdos|Zapdos|231\/383
+|move|p1a: Dragonite|Wrap|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|198\/383
+|-activate|p2a: Zapdos|move: Wrap|[of] p1a: Dragonite
+|
+|turn|53
+|choice|move 1|switch 2
+|
+|switch|p2a: Tauros|Tauros|127\/353 par
+|move|p1a: Dragonite|Wrap|p2a: Tauros|[miss]
+|-miss|p1a: Dragonite
+|
+|turn|54
+|choice|move 4|move 2
+|
+|move|p1a: Dragonite|Blizzard|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|choice||switch 3
+|
+|switch|p2a: Chansey|Chansey|185\/703
+|turn|55
+|choice|move 1|move 2
+|
+|move|p1a: Dragonite|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|147\/703
+|-activate|p2a: Chansey|move: Wrap|[of] p1a: Dragonite
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|56
+|choice|move 1|move 2
+|
+|move|p1a: Dragonite|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|109\/703
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|57
+|choice|move 1|move 3
+|
+|move|p1a: Dragonite|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|71\/703
+|cant|p2a: Chansey|partiallytrapped
+|
+|-end|p2a: Chansey|Wrap|[partiallytrapped]
+|turn|58
+|choice|move 4|move 2
+|
+|move|p1a: Dragonite|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|choice||switch 2
+|
+|switch|p2a: Zapdos|Zapdos|198\/383
+|turn|59
+|c|★teal6|gg
+|c|★Nails|balanced yn
+|choice|move 2|move 4
+|
+|move|p2a: Zapdos|Thunder Wave|p1a: Dragonite
+|-status|p1a: Dragonite|par
+|move|p1a: Dragonite|Thunder Wave|p2a: Zapdos
+|-status|p2a: Zapdos|par
+|
+|turn|60
+|c|★teal6|i gotta get better at that matchup
+|choice|move 4|move 3
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Dragonite
+|-damage|p1a: Dragonite|295\/385 par
+|cant|p1a: Dragonite|par
+|
+|turn|61
+|c|★teal6|its where i lose the most
+|choice|move 4|move 1
+|
+|cant|p2a: Zapdos|par
+|move|p1a: Dragonite|Blizzard|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|50\/383 par
+|
+|turn|62
+|choice|move 4|move 2
+|
+|move|p2a: Zapdos|Agility|p2a: Zapdos
+|-boost|p2a: Zapdos|spe|2
+|move|p1a: Dragonite|Blizzard|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|win|Nails

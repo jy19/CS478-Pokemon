@@ -1,0 +1,1401 @@
+﻿|join|Tendoh
+|join|Disband
+|player|p1|Tendoh|170
+|player|p2|Disband|290
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Luma|Starmie|323\/323
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|1
+|
+|move|p1a: Luma|Blizzard|p2a: Gengar
+|-crit|p2a: Gengar
+|-damage|p2a: Gengar|171\/323
+|move|p2a: Gengar|Hypnosis|p1a: Luma|[miss]
+|-miss|p2a: Gengar
+|
+|turn|2
+|
+|move|p1a: Luma|Blizzard|p2a: Gengar
+|-damage|p2a: Gengar|97\/323
+|move|p2a: Gengar|Hypnosis|p1a: Luma
+|-status|p1a: Luma|slp
+|
+|turn|3
+|
+|switch|p1a: Kim Peek|Alakazam|313\/313
+|move|p2a: Gengar|Psychic|p1a: Kim Peek
+|-resisted|p1a: Kim Peek
+|-damage|p1a: Kim Peek|279\/313
+|
+|turn|4
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Kim Peek|Psychic|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|461\/703
+|
+|turn|5
+|
+|switch|p1a: Whorey|Chansey|703\/703
+|move|p2a: Chansey|Thunder Wave|p1a: Whorey
+|-status|p1a: Whorey|par
+|
+|turn|6
+|
+|switch|p2a: Gengar|Gengar|97\/323
+|move|p1a: Whorey|Ice Beam|p2a: Gengar
+|-damage|p2a: Gengar|27\/323
+|
+|turn|7
+|
+|switch|p1a: Dragonite|Dragonite|385\/385
+|move|p2a: Gengar|Explosion|p1a: Dragonite
+|-damage|p1a: Dragonite|219\/385
+|faint|p2a: Gengar
+|
+|switch|p2a: Jynx|Jynx|333\/333
+|turn|8
+|
+|switch|p1a: Whorey|Chansey|703\/703 par
+|move|p2a: Jynx|Blizzard|p1a: Whorey
+|-damage|p1a: Whorey|559\/703 par
+|
+|turn|9
+|
+|switch|p2a: Chansey|Chansey|461\/703
+|cant|p1a: Whorey|par
+|
+|turn|10
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Whorey
+|-damage|p1a: Whorey|459\/703 par
+|cant|p1a: Whorey|par
+|
+|turn|11
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Whorey
+|-damage|p1a: Whorey|359\/703 par
+|move|p1a: Whorey|Soft-Boiled|p1a: Whorey
+|-heal|p1a: Whorey|703\/703 par
+|
+|turn|12
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703
+|move|p1a: Whorey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|626\/703
+|
+|turn|13
+|
+|switch|p2a: Hitmonlee|Hitmonlee|303\/303
+|cant|p1a: Whorey|par
+|
+|turn|14
+|
+|switch|p2a: Chansey|Chansey|626\/703
+|switch|p1a: Kim Peek|Alakazam|279\/313
+|
+|turn|15
+|
+|switch|p1a: Whorey|Chansey|703\/703 par
+|move|p2a: Chansey|Thunder Wave|p1a: Whorey
+|-fail|p1a: Whorey|par
+|
+|turn|16
+|
+|switch|p2a: Alakazam|Alakazam|313\/313
+|move|p1a: Whorey|Thunderbolt|p2a: Alakazam
+|-damage|p2a: Alakazam|252\/313
+|
+|turn|17
+|
+|move|p2a: Alakazam|Psychic|p1a: Whorey
+|-damage|p1a: Whorey|566\/703 par
+|-unboost|p1a: Whorey|spd|1
+|-unboost|p1a: Whorey|spa|1
+|move|p1a: Whorey|Ice Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|213\/313
+|
+|turn|18
+|
+|move|p2a: Alakazam|Psychic|p1a: Whorey
+|-damage|p1a: Whorey|370\/703 par
+|move|p1a: Whorey|Soft-Boiled|p1a: Whorey
+|-heal|p1a: Whorey|703\/703 par
+|
+|turn|19
+|
+|switch|p1a: Kim Peek|Alakazam|279\/313
+|move|p2a: Alakazam|Psychic|p1a: Kim Peek
+|-crit|p1a: Kim Peek
+|-resisted|p1a: Kim Peek
+|-damage|p1a: Kim Peek|181\/313
+|
+|turn|20
+|
+|switch|p1a: Whorey|Chansey|703\/703 par
+|move|p2a: Alakazam|Thunder Wave|p1a: Whorey
+|-fail|p1a: Whorey|par
+|
+|turn|21
+|
+|move|p2a: Alakazam|Psychic|p1a: Whorey
+|-crit|p1a: Whorey
+|-damage|p1a: Whorey|463\/703 par
+|move|p1a: Whorey|Ice Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|149\/313
+|
+|turn|22
+|
+|move|p2a: Alakazam|Psychic|p1a: Whorey
+|-damage|p1a: Whorey|330\/703 par
+|-unboost|p1a: Whorey|spd|1
+|-unboost|p1a: Whorey|spa|1
+|move|p1a: Whorey|Soft-Boiled|p1a: Whorey
+|-heal|p1a: Whorey|681\/703 par
+|
+|turn|23
+|
+|move|p2a: Alakazam|Psychic|p1a: Whorey
+|-damage|p1a: Whorey|489\/703 par
+|-unboost|p1a: Whorey|spd|1
+|-unboost|p1a: Whorey|spa|1
+|move|p1a: Whorey|Ice Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|116\/313
+|
+|turn|24
+|
+|switch|p1a: Kim Peek|Alakazam|181\/313
+|move|p2a: Alakazam|Thunder Wave|p1a: Kim Peek
+|-status|p1a: Kim Peek|par
+|
+|turn|25
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|272\/313
+|move|p1a: Kim Peek|Recover|p1a: Kim Peek
+|-heal|p1a: Kim Peek|313\/313 par
+|
+|turn|26
+|
+|move|p2a: Alakazam|Psychic|p1a: Kim Peek
+|-resisted|p1a: Kim Peek
+|-damage|p1a: Kim Peek|264\/313 par
+|-unboost|p1a: Kim Peek|spd|1
+|-unboost|p1a: Kim Peek|spa|1
+|cant|p1a: Kim Peek|par
+|
+|turn|27
+|
+|switch|p2a: Dragonite|Dragonite|385\/385
+|move|p1a: Kim Peek|Recover|p1a: Kim Peek
+|-heal|p1a: Kim Peek|313\/313 par
+|
+|turn|28
+|
+|move|p2a: Dragonite|Thunder Wave|p1a: Kim Peek
+|-fail|p1a: Kim Peek|par
+|move|p1a: Kim Peek|Thunder Wave|p2a: Dragonite
+|-status|p2a: Dragonite|par
+|
+|turn|29
+|
+|move|p2a: Dragonite|Body Slam|p1a: Kim Peek
+|-damage|p1a: Kim Peek|182\/313 par
+|cant|p1a: Kim Peek|par
+|
+|turn|30
+|
+|switch|p1a: Corrida|Tauros|353\/353
+|move|p2a: Dragonite|Hyper Beam|p1a: Corrida
+|-crit|p1a: Corrida
+|-damage|p1a: Corrida|43\/353
+|
+|turn|31
+|-mustrecharge|p2a: Dragonite
+|-mustrecharge|p2a: Dragonite
+|
+|move|p1a: Corrida|Blizzard|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|switch|p2a: Alakazam|Alakazam|272\/313
+|turn|32
+|
+|switch|p1a: Whorey|Chansey|489\/703 par
+|move|p2a: Alakazam|Psychic|p1a: Whorey
+|-damage|p1a: Whorey|353\/703 par
+|
+|turn|33
+|
+|switch|p2a: Chansey|Chansey|626\/703
+|move|p1a: Whorey|Soft-Boiled|p1a: Whorey
+|-heal|p1a: Whorey|703\/703 par
+|
+|turn|34
+|
+|switch|p2a: Hitmonlee|Hitmonlee|303\/303
+|cant|p1a: Whorey|par
+|
+|turn|35
+|
+|switch|p1a: Digitamamon|Exeggutor|393\/393
+|move|p2a: Hitmonlee|Focus Energy|p2a: Hitmonlee
+|-start|p2a: Hitmonlee|move: Focus Energy
+|
+|turn|36
+|
+|move|p2a: Hitmonlee|Body Slam|p1a: Digitamamon
+|-damage|p1a: Digitamamon|315\/393
+|move|p1a: Digitamamon|Sleep Powder|p2a: Hitmonlee
+|-status|p2a: Hitmonlee|slp
+|
+|turn|37
+|
+|switch|p2a: Jynx|Jynx|333\/333
+|move|p1a: Digitamamon|Psychic|p2a: Jynx
+|-resisted|p2a: Jynx
+|-damage|p2a: Jynx|264\/333
+|-unboost|p2a: Jynx|spd|1
+|-unboost|p2a: Jynx|spa|1
+|
+|turn|38
+|
+|switch|p1a: Whorey|Chansey|703\/703 par
+|move|p2a: Jynx|Substitute|p2a: Jynx
+|-start|p2a: Jynx|Substitute
+|-damage|p2a: Jynx|181\/333
+|
+|turn|39
+|
+|move|p2a: Jynx|Psychic|p1a: Whorey
+|-damage|p1a: Whorey|633\/703 par
+|move|p1a: Whorey|Ice Beam|p2a: Jynx
+|-resisted|p2a: Jynx
+|-activate|p2a: Jynx|Substitute|[damage]
+|
+|turn|40
+|
+|move|p2a: Jynx|Psychic|p1a: Whorey
+|-damage|p1a: Whorey|565\/703 par
+|-unboost|p1a: Whorey|spd|1
+|-unboost|p1a: Whorey|spa|1
+|move|p1a: Whorey|Ice Beam|p2a: Jynx
+|-resisted|p2a: Jynx
+|-end|p2a: Jynx|Substitute
+|
+|turn|41
+|
+|move|p2a: Jynx|Psychic|p1a: Whorey
+|-damage|p1a: Whorey|472\/703 par
+|-unboost|p1a: Whorey|spd|1
+|-unboost|p1a: Whorey|spa|1
+|move|p1a: Whorey|Thunderbolt|p2a: Jynx
+|-damage|p2a: Jynx|121\/333
+|
+|turn|42
+|
+|move|p2a: Jynx|Substitute|p2a: Jynx
+|-start|p2a: Jynx|Substitute
+|-damage|p2a: Jynx|38\/333
+|move|p1a: Whorey|Soft-Boiled|p1a: Whorey
+|-heal|p1a: Whorey|703\/703 par
+|
+|turn|43
+|
+|switch|p1a: Kim Peek|Alakazam|182\/313 par
+|move|p2a: Jynx|Psychic|p1a: Kim Peek
+|-resisted|p1a: Kim Peek
+|-damage|p1a: Kim Peek|156\/313 par
+|
+|turn|44
+|
+|move|p2a: Jynx|Blizzard|p1a: Kim Peek
+|-crit|p1a: Kim Peek
+|-damage|p1a: Kim Peek|0 fnt
+|faint|p1a: Kim Peek
+|
+|switch|p1a: Whorey|Chansey|703\/703 par
+|turn|45
+|
+|move|p2a: Jynx|Psychic|p1a: Whorey
+|-damage|p1a: Whorey|633\/703 par
+|cant|p1a: Whorey|par
+|
+|turn|46
+|
+|move|p2a: Jynx|Psychic|p1a: Whorey
+|-damage|p1a: Whorey|565\/703 par
+|move|p1a: Whorey|Thunderbolt|p2a: Jynx
+|-end|p2a: Jynx|Substitute
+|
+|turn|47
+|
+|move|p2a: Jynx|Blizzard|p1a: Whorey
+|-damage|p1a: Whorey|480\/703 par
+|move|p1a: Whorey|Ice Beam|p2a: Jynx
+|-resisted|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|
+|switch|p2a: Alakazam|Alakazam|272\/313
+|turn|48
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Whorey
+|-fail|p1a: Whorey|par
+|move|p1a: Whorey|Soft-Boiled|p1a: Whorey
+|-heal|p1a: Whorey|703\/703 par
+|
+|turn|49
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Whorey
+|-fail|p1a: Whorey|par
+|move|p1a: Whorey|Ice Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|212\/313
+|
+|turn|50
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Whorey
+|-fail|p1a: Whorey|par
+|cant|p1a: Whorey|par
+|
+|turn|51
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|313\/313
+|cant|p1a: Whorey|par
+|
+|turn|52
+|
+|move|p2a: Alakazam|Psychic|p1a: Whorey
+|-crit|p1a: Whorey
+|-damage|p1a: Whorey|446\/703 par
+|-unboost|p1a: Whorey|spd|1
+|-unboost|p1a: Whorey|spa|1
+|move|p1a: Whorey|Ice Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|269\/313
+|
+|turn|53
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Whorey
+|-fail|p1a: Whorey|par
+|cant|p1a: Whorey|par
+|
+|turn|54
+|
+|move|p2a: Alakazam|Psychic|p1a: Whorey
+|-damage|p1a: Whorey|237\/703 par
+|cant|p1a: Whorey|par
+|
+|turn|55
+|
+|move|p2a: Alakazam|Psychic|p1a: Whorey
+|-damage|p1a: Whorey|31\/703 par
+|move|p1a: Whorey|Soft-Boiled|p1a: Whorey
+|-heal|p1a: Whorey|382\/703 par
+|
+|turn|56
+|
+|move|p2a: Alakazam|Psychic|p1a: Whorey
+|-damage|p1a: Whorey|198\/703 par
+|cant|p1a: Whorey|par
+|
+|turn|57
+|
+|move|p2a: Alakazam|Psychic|p1a: Whorey
+|-crit|p1a: Whorey
+|-damage|p1a: Whorey|0 fnt
+|faint|p1a: Whorey
+|
+|switch|p1a: Luma|Starmie|323\/323 slp
+|turn|58
+|
+|move|p2a: Alakazam|Psychic|p1a: Luma
+|-resisted|p1a: Luma
+|-damage|p1a: Luma|256\/323 slp
+|-unboost|p1a: Luma|spd|1
+|-unboost|p1a: Luma|spa|1
+|cant|p1a: Luma|slp
+|
+|turn|59
+|
+|switch|p1a: Digitamamon|Exeggutor|315\/393
+|move|p2a: Alakazam|Psychic|p1a: Digitamamon
+|-resisted|p1a: Digitamamon
+|-damage|p1a: Digitamamon|256\/393
+|
+|turn|60
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Digitamamon
+|-status|p1a: Digitamamon|par
+|move|p1a: Digitamamon|Double-Edge|p2a: Alakazam
+|-damage|p2a: Alakazam|149\/313
+|-damage|p1a: Digitamamon|226\/393 par|[from] recoil|[of] p2a: Alakazam
+|
+|turn|61
+|
+|switch|p1a: Luma|Starmie|256\/323 slp
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|305\/313
+|
+|turn|62
+|
+|move|p2a: Alakazam|Psychic|p1a: Luma
+|-resisted|p1a: Luma
+|-damage|p1a: Luma|196\/323 slp
+|-curestatus|p1a: Luma|slp
+|
+|turn|63
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Luma
+|-status|p1a: Luma|par
+|cant|p1a: Luma|par
+|
+|turn|64
+|
+|move|p2a: Alakazam|Hyper Beam|p1a: Luma
+|-crit|p1a: Luma
+|-damage|p1a: Luma|85\/323 par
+|move|p1a: Luma|Thunder Wave|p2a: Alakazam
+|-status|p2a: Alakazam|par
+|
+|turn|65
+|-mustrecharge|p2a: Alakazam
+|-mustrecharge|p2a: Alakazam
+|
+|cant|p2a: Alakazam|recharge
+|move|p1a: Luma|Recover|p1a: Luma
+|-heal|p1a: Luma|246\/323 par
+|
+|turn|66
+|
+|cant|p2a: Alakazam|par
+|move|p1a: Luma|Recover|p1a: Luma
+|-heal|p1a: Luma|323\/323 par
+|
+|turn|67
+|
+|move|p2a: Alakazam|Hyper Beam|p1a: Luma
+|-damage|p1a: Luma|257\/323 par
+|cant|p1a: Luma|par
+|
+|turn|68
+|-mustrecharge|p2a: Alakazam
+|-mustrecharge|p2a: Alakazam
+|
+|switch|p1a: Dragonite|Dragonite|219\/385
+|cant|p2a: Alakazam|recharge
+|
+|turn|69
+|
+|move|p1a: Dragonite|Wrap|p2a: Alakazam|[miss]
+|-miss|p1a: Dragonite
+|cant|p2a: Alakazam|par
+|
+|turn|70
+|
+|move|p1a: Dragonite|Wrap|p2a: Alakazam
+|-damage|p2a: Alakazam|280\/313 par
+|-activate|p2a: Alakazam|move: Wrap|[of] p1a: Dragonite
+|cant|p2a: Alakazam|partiallytrapped
+|
+|turn|71
+|
+|move|p1a: Dragonite|Wrap|p2a: Alakazam
+|-damage|p2a: Alakazam|255\/313 par
+|cant|p2a: Alakazam|partiallytrapped
+|
+|turn|72
+|
+|move|p1a: Dragonite|Wrap|p2a: Alakazam
+|-damage|p2a: Alakazam|230\/313 par
+|cant|p2a: Alakazam|partiallytrapped
+|
+|-end|p2a: Alakazam|Wrap|[partiallytrapped]
+|turn|73
+|
+|move|p1a: Dragonite|Wrap|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-damage|p2a: Alakazam|181\/313 par
+|-activate|p2a: Alakazam|move: Wrap|[of] p1a: Dragonite
+|cant|p2a: Alakazam|partiallytrapped
+|
+|turn|74
+|
+|move|p1a: Dragonite|Wrap|p2a: Alakazam
+|-damage|p2a: Alakazam|132\/313 par
+|cant|p2a: Alakazam|partiallytrapped
+|
+|-end|p2a: Alakazam|Wrap|[partiallytrapped]
+|turn|75
+|
+|move|p1a: Dragonite|Hyper Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|switch|p2a: Chansey|Chansey|626\/703
+|turn|76
+|
+|move|p1a: Dragonite|Wrap|p2a: Chansey|[miss]
+|-miss|p1a: Dragonite
+|move|p2a: Chansey|Thunder Wave|p1a: Dragonite
+|-status|p1a: Dragonite|par
+|
+|turn|77
+|
+|move|p2a: Chansey|Ice Beam|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|switch|p1a: Digitamamon|Exeggutor|226\/393 par
+|turn|78
+|
+|move|p2a: Chansey|Ice Beam|p1a: Digitamamon
+|-crit|p1a: Digitamamon
+|-supereffective|p1a: Digitamamon
+|-damage|p1a: Digitamamon|0 fnt
+|faint|p1a: Digitamamon
+|
+|switch|p1a: Luma|Starmie|257\/323 par
+|turn|79
+|
+|switch|p2a: Hitmonlee|Hitmonlee|303\/303 slp
+|cant|p1a: Luma|par
+|
+|turn|80
+|
+|switch|p2a: Chansey|Chansey|626\/703
+|switch|p1a: Corrida|Tauros|43\/353
+|
+|turn|81
+|
+|switch|p1a: Luma|Starmie|257\/323 par
+|move|p2a: Chansey|Seismic Toss|p1a: Luma
+|-damage|p1a: Luma|157\/323 par
+|
+|turn|82
+|
+|switch|p2a: Hitmonlee|Hitmonlee|303\/303 slp
+|move|p1a: Luma|Recover|p1a: Luma
+|-heal|p1a: Luma|318\/323 par
+|
+|turn|83
+|
+|cant|p2a: Hitmonlee|slp
+|move|p1a: Luma|Blizzard|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|136\/303 slp
+|
+|turn|84
+|
+|switch|p2a: Chansey|Chansey|626\/703
+|move|p1a: Luma|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|539\/703
+|
+|turn|85
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Luma
+|-damage|p1a: Luma|218\/323 par
+|move|p1a: Luma|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|453\/703
+|
+|turn|86
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Luma
+|-damage|p1a: Luma|118\/323 par
+|move|p1a: Luma|Recover|p1a: Luma
+|-heal|p1a: Luma|279\/323 par
+|
+|turn|87
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Luma
+|-damage|p1a: Luma|179\/323 par
+|move|p1a: Luma|Recover|p1a: Luma
+|-heal|p1a: Luma|323\/323 par
+|
+|turn|88
+|
+|switch|p2a: Hitmonlee|Hitmonlee|136\/303 slp
+|move|p1a: Luma|Blizzard|p2a: Hitmonlee|[miss]
+|-miss|p1a: Luma
+|
+|turn|89
+|
+|cant|p2a: Hitmonlee|slp
+|move|p1a: Luma|Blizzard|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|0 fnt
+|faint|p2a: Hitmonlee
+|
+|switch|p2a: Chansey|Chansey|453\/703
+|turn|90
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703
+|move|p1a: Luma|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|614\/703
+|
+|turn|91
+|
+|move|p2a: Chansey|Ice Beam|p1a: Luma
+|-resisted|p1a: Luma
+|-damage|p1a: Luma|287\/323 par
+|cant|p1a: Luma|par
+|
+|turn|92
+|
+|move|p2a: Chansey|Ice Beam|p1a: Luma
+|-resisted|p1a: Luma
+|-damage|p1a: Luma|247\/323 par
+|cant|p1a: Luma|par
+|
+|turn|93
+|
+|move|p2a: Chansey|Ice Beam|p1a: Luma
+|-resisted|p1a: Luma
+|-damage|p1a: Luma|210\/323 par
+|cant|p1a: Luma|par
+|
+|turn|94
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Luma
+|-damage|p1a: Luma|110\/323 par
+|move|p1a: Luma|Recover|p1a: Luma
+|-heal|p1a: Luma|271\/323 par
+|
+|turn|95
+|
+|move|p2a: Chansey|Ice Beam|p1a: Luma
+|-resisted|p1a: Luma
+|-damage|p1a: Luma|230\/323 par
+|cant|p1a: Luma|par
+|
+|turn|96
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Luma
+|-damage|p1a: Luma|130\/323 par
+|move|p1a: Luma|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|turn|97
+|
+|move|p1a: Luma|Recover|p1a: Luma
+|-heal|p1a: Luma|291\/323 par
+|move|p2a: Chansey|Ice Beam|p1a: Luma
+|-resisted|p1a: Luma
+|-damage|p1a: Luma|250\/323 par
+|
+|turn|98
+|
+|move|p1a: Luma|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|538\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|99
+|
+|move|p1a: Luma|Recover|p1a: Luma
+|-heal|p1a: Luma|323\/323 par
+|move|p2a: Chansey|Ice Beam|p1a: Luma
+|-resisted|p1a: Luma
+|-damage|p1a: Luma|282\/323 par
+|
+|turn|100
+|
+|move|p1a: Luma|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|463\/703 par
+|move|p2a: Chansey|Ice Beam|p1a: Luma
+|-resisted|p1a: Luma
+|-damage|p1a: Luma|245\/323 par
+|
+|turn|101
+|
+|move|p1a: Luma|Recover|p1a: Luma
+|-heal|p1a: Luma|323\/323 par
+|move|p2a: Chansey|Ice Beam|p1a: Luma
+|-resisted|p1a: Luma
+|-damage|p1a: Luma|287\/323 par
+|
+|turn|102
+|
+|move|p1a: Luma|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|394\/703 par
+|move|p2a: Chansey|Ice Beam|p1a: Luma
+|-resisted|p1a: Luma
+|-damage|p1a: Luma|248\/323 par
+|
+|turn|103
+|
+|move|p1a: Luma|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|323\/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|674\/703 par
+|
+|turn|104
+|
+|move|p1a: Luma|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Ice Beam|p1a: Luma
+|-resisted|p1a: Luma
+|-damage|p1a: Luma|207\/323 par
+|
+|turn|105
+|
+|move|p1a: Luma|Recover|p1a: Luma
+|-heal|p1a: Luma|323\/323 par
+|move|p2a: Chansey|Ice Beam|p1a: Luma
+|-resisted|p1a: Luma
+|-damage|p1a: Luma|284\/323 par
+|
+|turn|106
+|
+|move|p1a: Luma|Thunderbolt|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|525\/703 par
+|move|p2a: Chansey|Ice Beam|p1a: Luma
+|-resisted|p1a: Luma
+|-damage|p1a: Luma|246\/323 par
+|
+|turn|107
+|
+|move|p1a: Luma|Thunderbolt|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|391\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|108
+|
+|move|p1a: Luma|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|318\/703 par
+|move|p2a: Chansey|Ice Beam|p1a: Luma
+|-resisted|p1a: Luma
+|-damage|p1a: Luma|208\/323 par
+|
+|turn|109
+|
+|move|p1a: Luma|Recover|p1a: Luma
+|-heal|p1a: Luma|323\/323 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|669\/703 par
+|
+|turn|110
+|
+|move|p1a: Luma|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|591\/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703 par
+|
+|turn|111
+|
+|cant|p1a: Luma|par
+|cant|p2a: Chansey|par
+|
+|turn|112
+|
+|move|p1a: Luma|Thunderbolt|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|572\/703 par
+|move|p2a: Chansey|Ice Beam|p1a: Luma
+|-resisted|p1a: Luma
+|-damage|p1a: Luma|284\/323 par
+|
+|turn|113
+|
+|move|p1a: Luma|Thunderbolt|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|432\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|114
+|
+|move|p1a: Luma|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|363\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|115
+|
+|cant|p1a: Luma|par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703 par
+|
+|turn|116
+|
+|move|p1a: Luma|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|117
+|
+|cant|p1a: Luma|par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|118
+|
+|move|p1a: Luma|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|cant|p2a: Chansey|par
+|
+|turn|119
+|
+|move|p1a: Luma|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|120
+|
+|move|p1a: Luma|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Luma
+|-fail|p1a: Luma|par
+|
+|turn|121
+|
+|move|p1a: Luma|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|122
+|
+|move|p1a: Luma|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Luma
+|-fail|p1a: Luma|par
+|
+|turn|123
+|
+|move|p1a: Luma|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Luma
+|-fail|p1a: Luma|par
+|
+|turn|124
+|
+|move|p1a: Luma|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Luma
+|-fail|p1a: Luma|par
+|
+|turn|125
+|
+|move|p1a: Luma|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|632\/703 par
+|move|p2a: Chansey|Thunder Wave|p1a: Luma
+|-fail|p1a: Luma|par
+|
+|turn|126
+|
+|cant|p1a: Luma|par
+|move|p2a: Chansey|Thunder Wave|p1a: Luma
+|-fail|p1a: Luma|par
+|
+|turn|127
+|
+|move|p1a: Luma|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Luma
+|-fail|p1a: Luma|par
+|
+|turn|128
+|
+|move|p1a: Luma|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703 par
+|
+|turn|129
+|
+|move|p1a: Luma|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|634\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|130
+|
+|move|p1a: Luma|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Luma
+|-fail|p1a: Luma|par
+|
+|turn|131
+|
+|move|p1a: Luma|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Luma
+|-fail|p1a: Luma|par
+|
+|turn|132
+|
+|move|p1a: Luma|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Luma
+|-fail|p1a: Luma|par
+|
+|turn|133
+|
+|move|p1a: Luma|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Luma
+|-fail|p1a: Luma|par
+|
+|turn|134
+|
+|move|p1a: Luma|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|cant|p2a: Chansey|par
+|
+|turn|135
+|
+|move|p1a: Luma|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|cant|p2a: Chansey|par
+|
+|turn|136
+|c|★Disband|have decided to give in you wont win js
+|c|★Disband|i have to many sesmic tosses bud'
+|
+|move|p1a: Luma|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Luma
+|-fail|p1a: Luma|par
+|
+|turn|137
+|
+|cant|p1a: Luma|par
+|move|p2a: Chansey|Thunder Wave|p1a: Luma
+|-fail|p1a: Luma|par
+|
+|turn|138
+|
+|move|p1a: Luma|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Luma
+|-fail|p1a: Luma|par
+|
+|turn|139
+|
+|move|p1a: Luma|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Luma
+|-fail|p1a: Luma|par
+|
+|turn|140
+|
+|move|p1a: Luma|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Luma
+|-fail|p1a: Luma|par
+|
+|turn|141
+|
+|cant|p1a: Luma|par
+|cant|p2a: Chansey|par
+|
+|turn|142
+|
+|move|p1a: Luma|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Luma
+|-fail|p1a: Luma|par
+|
+|turn|143
+|
+|move|p1a: Luma|Thunderbolt|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|492\/703 par
+|move|p2a: Chansey|Thunder Wave|p1a: Luma
+|-fail|p1a: Luma|par
+|
+|turn|144
+|
+|cant|p1a: Luma|par
+|move|p2a: Chansey|Thunder Wave|p1a: Luma
+|-fail|p1a: Luma|par
+|
+|turn|145
+|
+|cant|p1a: Luma|par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703 par
+|
+|turn|146
+|c|★Disband|you choked on dicks letting me comeback btw LMAO
+|
+|move|p1a: Luma|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Luma
+|-fail|p1a: Luma|par
+|
+|turn|147
+|
+|move|p1a: Luma|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Seismic Toss|p1a: Luma
+|-damage|p1a: Luma|184\/323 par
+|
+|turn|148
+|
+|move|p1a: Luma|Recover|p1a: Luma
+|-heal|p1a: Luma|323\/323 par
+|move|p2a: Chansey|Seismic Toss|p1a: Luma
+|-damage|p1a: Luma|223\/323 par
+|
+|turn|149
+|
+|move|p1a: Luma|Recover|p1a: Luma
+|-heal|p1a: Luma|323\/323 par
+|cant|p2a: Chansey|par
+|
+|turn|150
+|
+|move|p1a: Luma|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|cant|p2a: Chansey|par
+|
+|turn|151
+|
+|cant|p1a: Luma|par
+|move|p2a: Chansey|Thunder Wave|p1a: Luma
+|-fail|p1a: Luma|par
+|
+|turn|152
+|
+|move|p1a: Luma|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Luma
+|-fail|p1a: Luma|par
+|
+|turn|153
+|
+|move|p1a: Luma|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|627\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|154
+|
+|cant|p1a: Luma|par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703 par
+|
+|turn|155
+|
+|cant|p1a: Luma|par
+|move|p2a: Chansey|Seismic Toss|p1a: Luma
+|-damage|p1a: Luma|223\/323 par
+|
+|turn|156
+|
+|cant|p1a: Luma|par
+|move|p2a: Chansey|Thunder Wave|p1a: Luma
+|-fail|p1a: Luma|par
+|
+|turn|157
+|
+|move|p1a: Luma|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|cant|p2a: Chansey|par
+|
+|turn|158
+|
+|move|p1a: Luma|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|628\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|159
+|c|★Disband|gg
+|
+|move|p1a: Luma|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Luma
+|-fail|p1a: Luma|par
+|
+|turn|160
+|
+|move|p1a: Luma|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Luma
+|-fail|p1a: Luma|par
+|
+|turn|161
+|
+|move|p1a: Luma|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|562\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|162
+|
+|cant|p1a: Luma|par
+|cant|p2a: Chansey|par
+|
+|turn|163
+|
+|move|p1a: Luma|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Seismic Toss|p1a: Luma
+|-damage|p1a: Luma|123\/323 par
+|
+|turn|164
+|
+|cant|p1a: Luma|par
+|cant|p2a: Chansey|par
+|
+|turn|165
+|
+|move|p1a: Luma|Recover|p1a: Luma
+|-heal|p1a: Luma|284\/323 par
+|move|p2a: Chansey|Thunder Wave|p1a: Luma
+|-fail|p1a: Luma|par
+|
+|turn|166
+|
+|cant|p1a: Luma|par
+|move|p2a: Chansey|Thunder Wave|p1a: Luma
+|-fail|p1a: Luma|par
+|
+|turn|167
+|
+|move|p1a: Luma|Thunderbolt|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|417\/703 par
+|move|p2a: Chansey|Thunder Wave|p1a: Luma
+|-fail|p1a: Luma|par
+|
+|turn|168
+|
+|move|p1a: Luma|Recover|p1a: Luma
+|-heal|p1a: Luma|323\/323 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703 par
+|
+|turn|169
+|
+|move|p1a: Luma|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|633\/703 par
+|move|p2a: Chansey|Seismic Toss|p1a: Luma
+|-damage|p1a: Luma|223\/323 par
+|
+|turn|170
+|
+|move|p1a: Luma|Recover|p1a: Luma
+|-heal|p1a: Luma|323\/323 par
+|move|p2a: Chansey|Seismic Toss|p1a: Luma
+|-damage|p1a: Luma|223\/323 par
+|
+|turn|171
+|
+|move|p1a: Luma|Recover|p1a: Luma
+|-heal|p1a: Luma|323\/323 par
+|move|p2a: Chansey|Seismic Toss|p1a: Luma
+|-damage|p1a: Luma|223\/323 par
+|
+|turn|172
+|
+|cant|p1a: Luma|par
+|move|p2a: Chansey|Thunder Wave|p1a: Luma
+|-fail|p1a: Luma|par
+|
+|turn|173
+|
+|move|p1a: Luma|Recover|p1a: Luma
+|-heal|p1a: Luma|323\/323 par
+|cant|p2a: Chansey|par
+|
+|turn|174
+|
+|move|p1a: Luma|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|561\/703 par
+|move|p2a: Chansey|Seismic Toss|p1a: Luma
+|-damage|p1a: Luma|223\/323 par
+|
+|turn|175
+|
+|move|p1a: Luma|Recover|p1a: Luma
+|-heal|p1a: Luma|323\/323 par
+|move|p2a: Chansey|Seismic Toss|p1a: Luma
+|-damage|p1a: Luma|223\/323 par
+|
+|turn|176
+|c|★Disband|youre cheating im done
+|c|★Disband|lol
+|
+|move|p1a: Luma|Thunderbolt|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|423\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|177
+|
+|switch|p1a: Corrida|Tauros|43\/353
+|cant|p2a: Chansey|par
+|
+|turn|178
+|
+|switch|p1a: Luma|Starmie|223\/323 par
+|move|p2a: Chansey|Seismic Toss|p1a: Luma
+|-damage|p1a: Luma|123\/323 par
+|
+|turn|179
+|
+|move|p1a: Luma|Recover|p1a: Luma
+|-heal|p1a: Luma|284\/323 par
+|move|p2a: Chansey|Seismic Toss|p1a: Luma
+|-damage|p1a: Luma|184\/323 par
+|
+|turn|180
+|
+|move|p1a: Luma|Recover|p1a: Luma
+|-heal|p1a: Luma|323\/323 par
+|move|p2a: Chansey|Seismic Toss|p1a: Luma
+|-damage|p1a: Luma|223\/323 par
+|
+|turn|181
+|
+|move|p1a: Luma|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|351\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|182
+|
+|move|p1a: Luma|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|280\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|183
+|
+|move|p1a: Luma|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|208\/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|559\/703 par
+|
+|turn|184
+|
+|move|p1a: Luma|Recover|p1a: Luma
+|-heal|p1a: Luma|323\/323 par
+|move|p2a: Chansey|Seismic Toss|p1a: Luma
+|-damage|p1a: Luma|223\/323 par
+|
+|turn|185
+|
+|cant|p1a: Luma|par
+|move|p2a: Chansey|Seismic Toss|p1a: Luma
+|-damage|p1a: Luma|123\/323 par
+|
+|turn|186
+|
+|move|p1a: Luma|Recover|p1a: Luma
+|-heal|p1a: Luma|284\/323 par
+|move|p2a: Chansey|Seismic Toss|p1a: Luma
+|-damage|p1a: Luma|184\/323 par
+|
+|turn|187
+|
+|move|p1a: Luma|Recover|p1a: Luma
+|-heal|p1a: Luma|323\/323 par
+|move|p2a: Chansey|Seismic Toss|p1a: Luma
+|-damage|p1a: Luma|223\/323 par
+|
+|turn|188
+|c|★Disband|youre so bad
+|
+|move|p1a: Luma|Recover|p1a: Luma
+|-heal|p1a: Luma|323\/323 par
+|move|p2a: Chansey|Seismic Toss|p1a: Luma
+|-damage|p1a: Luma|223\/323 par
+|
+|turn|189
+|
+|cant|p1a: Luma|par
+|cant|p2a: Chansey|par
+|
+|turn|190
+|
+|move|p1a: Luma|Recover|p1a: Luma
+|-heal|p1a: Luma|323\/323 par
+|cant|p2a: Chansey|par
+|
+|turn|191
+|
+|move|p1a: Luma|Recover|p1a: Luma
+|-fail|p1a: Luma
+|move|p2a: Chansey|Seismic Toss|p1a: Luma
+|-damage|p1a: Luma|223\/323 par
+|
+|turn|192
+|
+|move|p1a: Luma|Recover|p1a: Luma
+|-heal|p1a: Luma|323\/323 par
+|cant|p2a: Chansey|par
+|
+|turn|193
+|
+|move|p1a: Luma|Recover|p1a: Luma
+|-fail|p1a: Luma
+|cant|p2a: Chansey|par
+|
+|turn|194
+|
+|move|p1a: Luma|Recover|p1a: Luma
+|-fail|p1a: Luma
+|move|p2a: Chansey|Seismic Toss|p1a: Luma
+|-damage|p1a: Luma|223\/323 par
+|
+|turn|195
+|
+|cant|p1a: Luma|par
+|cant|p2a: Chansey|par
+|
+|turn|196
+|
+|move|p1a: Luma|Recover|p1a: Luma
+|-heal|p1a: Luma|323\/323 par
+|move|p2a: Chansey|Seismic Toss|p1a: Luma
+|-damage|p1a: Luma|223\/323 par
+|
+|turn|197
+|
+|move|p1a: Luma|Recover|p1a: Luma
+|-heal|p1a: Luma|323\/323 par
+|move|p2a: Chansey|Seismic Toss|p1a: Luma
+|-damage|p1a: Luma|223\/323 par
+|
+|turn|198
+|
+|move|p1a: Luma|Struggle|p2a: Chansey
+|-damage|p2a: Chansey|473\/703 par
+|-damage|p1a: Luma|180\/323 par|[from] recoil|[of] p2a: Chansey
+|move|p2a: Chansey|Seismic Toss|p1a: Luma
+|-damage|p1a: Luma|80\/323 par
+|
+|turn|199
+|
+|move|p1a: Luma|Struggle|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|294\/703 par
+|-damage|p1a: Luma|0 fnt|[from] recoil|[of] p2a: Chansey
+|faint|p1a: Luma
+|
+|switch|p1a: Corrida|Tauros|43\/353
+|turn|200
+|
+|move|p1a: Corrida|Hyper Beam|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|win|Tendoh
+|raw|Tendoh's rating: 1361 &rarr; <strong>1367<\/strong><br \/>(+6 for winning)
+|raw|Disband's rating: 1045 &rarr; <strong>1040<\/strong><br \/>(-5 for losing)
+|c|★Disband|youre bad
+|c|★Disband|i would of won but did a bug lmaooooooo

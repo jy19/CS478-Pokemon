@@ -1,0 +1,200 @@
+﻿|join|AgentSyrup
+|join|poopyblanket
+|player|p1|AgentSyrup|102
+|player|p2|poopyblanket|7
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Dodrio|Dodrio, L85|276\/276
+|switch|p2a: Fearow|Fearow, L85|284\/284
+|turn|1
+|
+|switch|p2a: Onix|Onix, L85|233\/233
+|switch|p1a: Graveler|Graveler, L85|267\/267
+|
+|turn|2
+|
+|move|p2a: Onix|Earthquake|p1a: Graveler
+|-supereffective|p1a: Graveler
+|-damage|p1a: Graveler|149\/267
+|move|p1a: Graveler|Earthquake|p2a: Onix
+|-supereffective|p2a: Onix
+|-damage|p2a: Onix|95\/233
+|
+|turn|3
+|
+|move|p2a: Onix|Earthquake|p1a: Graveler
+|-supereffective|p1a: Graveler
+|-damage|p1a: Graveler|23\/267
+|move|p1a: Graveler|Earthquake|p2a: Onix
+|-supereffective|p2a: Onix
+|-damage|p2a: Onix|0 fnt
+|faint|p2a: Onix
+|
+|switch|p2a: Primeape|Primeape, L85|284\/284
+|turn|4
+|
+|move|p2a: Primeape|Submission|p1a: Graveler
+|-supereffective|p1a: Graveler
+|-damage|p1a: Graveler|0 fnt
+|-damage|p2a: Primeape|279\/284|[from] recoil|[of] p1a: Graveler
+|faint|p1a: Graveler
+|
+|switch|p1a: Kadabra|Kadabra, L85|242\/242
+|turn|5
+|
+|move|p1a: Kadabra|Psychic|p2a: Primeape
+|-supereffective|p2a: Primeape
+|-damage|p2a: Primeape|8\/284
+|-unboost|p2a: Primeape|spd|1
+|-unboost|p2a: Primeape|spa|1
+|move|p2a: Primeape|Body Slam|p1a: Kadabra
+|-damage|p1a: Kadabra|136\/242
+|-status|p1a: Kadabra|par
+|
+|turn|6
+|
+|move|p2a: Primeape|Mega Kick|p1a: Kadabra
+|-damage|p1a: Kadabra|0 fnt
+|faint|p1a: Kadabra
+|
+|switch|p1a: Jolteon|Jolteon, L85|284\/284
+|turn|7
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Primeape
+|-damage|p2a: Primeape|0 fnt
+|faint|p2a: Primeape
+|
+|switch|p2a: Golem|Golem, L79|288\/288
+|turn|8
+|
+|switch|p1a: Dodrio|Dodrio, L85|276\/276
+|move|p2a: Golem|Earthquake|p1a: Dodrio
+|-immune|p1a: Dodrio|[msg]
+|
+|turn|9
+|
+|switch|p1a: Victreebel|Victreebel, L85|310\/310
+|move|p2a: Golem|Rock Slide|p1a: Victreebel
+|-damage|p1a: Victreebel|215\/310
+|
+|turn|10
+|
+|switch|p2a: Krabby|Krabby, L96|252\/252
+|move|p1a: Victreebel|Sleep Powder|p2a: Krabby
+|-status|p2a: Krabby|slp
+|
+|turn|11
+|
+|switch|p2a: Muk|Muk, L85|352\/352
+|move|p1a: Victreebel|Stun Spore|p2a: Muk
+|-status|p2a: Muk|par
+|
+|turn|12
+|
+|switch|p1a: Electrode|Electrode, L85|276\/276
+|move|p2a: Muk|Body Slam|p1a: Electrode
+|-damage|p1a: Electrode|208\/276
+|-status|p1a: Electrode|par
+|
+|turn|13
+|
+|switch|p1a: Victreebel|Victreebel, L85|215\/310
+|cant|p2a: Muk|par
+|
+|turn|14
+|
+|switch|p1a: Electrode|Electrode, L85|208\/276 par
+|move|p2a: Muk|Body Slam|p1a: Electrode
+|-crit|p1a: Electrode
+|-damage|p1a: Electrode|73\/276 par
+|
+|turn|15
+|
+|move|p1a: Electrode|Explosion|p2a: Muk
+|-damage|p2a: Muk|175\/352 par
+|faint|p1a: Electrode
+|
+|switch|p1a: Dodrio|Dodrio, L85|276\/276
+|turn|16
+|
+|move|p1a: Dodrio|Body Slam|p2a: Muk
+|-damage|p2a: Muk|72\/352 par
+|move|p2a: Muk|Explosion|p1a: Dodrio
+|-damage|p1a: Dodrio|0 fnt
+|faint|p1a: Dodrio
+|faint|p2a: Muk
+|
+|switch|p1a: Victreebel|Victreebel, L85|215\/310
+|switch|p2a: Krabby|Krabby, L96|252\/252 slp
+|turn|17
+|
+|move|p1a: Victreebel|Stun Spore|p2a: Krabby
+|-fail|p2a: Krabby
+|cant|p2a: Krabby|slp
+|
+|turn|18
+|
+|move|p1a: Victreebel|Razor Leaf|p2a: Krabby
+|-crit|p2a: Krabby
+|-supereffective|p2a: Krabby
+|-damage|p2a: Krabby|0 fnt
+|faint|p2a: Krabby
+|
+|switch|p2a: Fearow|Fearow, L85|284\/284
+|turn|19
+|
+|switch|p1a: Jolteon|Jolteon, L85|284\/284
+|move|p2a: Fearow|Drill Peck|p1a: Jolteon
+|-crit|p1a: Jolteon
+|-resisted|p1a: Jolteon
+|-damage|p1a: Jolteon|180\/284
+|
+|turn|20
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Fearow
+|-supereffective|p2a: Fearow
+|-damage|p2a: Fearow|11\/284
+|move|p2a: Fearow|Double-Edge|p1a: Jolteon
+|-damage|p1a: Jolteon|54\/284
+|-damage|p2a: Fearow|0 fnt|[from] recoil|[of] p1a: Jolteon
+|faint|p2a: Fearow
+|c|★poopyblanket|nooo. gg
+|
+|switch|p2a: Golem|Golem, L79|288\/288
+|turn|21
+|
+|move|p1a: Jolteon|Body Slam|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|268\/288
+|move|p2a: Golem|Earthquake|p1a: Jolteon
+|-supereffective|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|switch|p1a: Victreebel|Victreebel, L85|215\/310
+|turn|22
+|
+|move|p1a: Victreebel|Razor Leaf|p2a: Golem|[miss]
+|-miss|p1a: Victreebel
+|move|p2a: Golem|Explosion|p1a: Victreebel
+|-damage|p1a: Victreebel|0 fnt
+|faint|p1a: Victreebel
+|faint|p2a: Golem
+|
+|win|poopyblanket
+|raw|Ladder updating...
+|raw|AgentSyrup's rating: 1398 &rarr; <strong>1376<\/strong><br \/>(-22 for losing)
+|raw|poopyblanket's rating: 1361 &rarr; <strong>1383<\/strong><br \/>(+22 for winning)
+|c|★poopyblanket|holy sheet
+|c|★AgentSyrup|oh
+|c|★poopyblanket|im sorry thats bullshit
+|c|★AgentSyrup|no explosion clasue?
+|c|★AgentSyrup|ok
+|c|★poopyblanket|that is explosion caluse

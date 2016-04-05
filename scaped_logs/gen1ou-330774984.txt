@@ -1,0 +1,347 @@
+﻿|j|Abstrix
+|j|Subject Platinum
+|player|p1|Abstrix|8
+|player|p2|Subject Platinum|265
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|seed|12778,35446,53359,4041
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333\/333
+|switch|p2a: Negrita|Jynx|333\/333
+|turn|1
+|choice|move 2|move 1
+|
+|move|p2a: Negrita|Lovely Kiss|p1a: Jynx
+|-status|p1a: Jynx|slp
+|cant|p1a: Jynx|slp
+|
+|turn|2
+|choice|move 4|move 4
+|
+|move|p2a: Negrita|Body Slam|p1a: Jynx
+|-crit|p1a: Jynx
+|-damage|p1a: Jynx|177\/333 slp
+|cant|p1a: Jynx|slp
+|
+|turn|3
+|choice|move 4|move 4
+|
+|move|p2a: Negrita|Body Slam|p1a: Jynx
+|-crit|p1a: Jynx
+|-damage|p1a: Jynx|27\/333 slp
+|cant|p1a: Jynx|slp
+|
+|turn|4
+|choice|switch 4|move 2
+|
+|switch|p1a: Slowbro|Slowbro|393\/393
+|move|p2a: Negrita|Psychic|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|330\/393
+|
+|turn|5
+|choice|move 2|switch 6
+|
+|switch|p2a: Pajarito amarillo|Zapdos|383\/383
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|
+|turn|6
+|choice|switch 3|move 2
+|
+|switch|p1a: Golem|Golem|363\/363
+|move|p2a: Pajarito amarillo|Thunderbolt|p1a: Golem
+|-immune|p1a: Golem|[msg]
+|
+|turn|7
+|choice|move 4|switch 3
+|
+|switch|p2a: Mongolo|Slowbro|393\/393
+|move|p1a: Golem|Body Slam|p2a: Mongolo
+|-damage|p2a: Mongolo|329\/393
+|
+|turn|8
+|choice|move 3|move 2
+|
+|move|p1a: Golem|Explosion|p2a: Mongolo
+|-damage|p2a: Mongolo|58\/393
+|faint|p1a: Golem
+|choice|switch 6|
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|9
+|choice|move 2|move 2
+|
+|move|p1a: Tauros|Body Slam|p2a: Mongolo
+|-damage|p2a: Mongolo|0 fnt
+|faint|p2a: Mongolo
+|choice||switch 3
+|
+|switch|p2a: Pajarito amarillo|Zapdos|383\/383
+|turn|10
+|choice|move 2|move 3
+|
+|move|p1a: Tauros|Body Slam|p2a: Pajarito amarillo
+|-damage|p2a: Pajarito amarillo|266\/383
+|move|p2a: Pajarito amarillo|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|
+|turn|11
+|choice|move 2|move 2
+|
+|move|p2a: Pajarito amarillo|Thunderbolt|p1a: Tauros
+|-damage|p1a: Tauros|185\/353 par
+|move|p1a: Tauros|Body Slam|p2a: Pajarito amarillo
+|-damage|p2a: Pajarito amarillo|162\/383
+|
+|turn|12
+|choice|move 4|switch 2
+|
+|switch|p2a: Wrap me|Gengar|323\/323
+|move|p1a: Tauros|Hyper Beam|p2a: Wrap me
+|-immune|p2a: Wrap me|[msg]
+|
+|turn|13
+|choice|move 3|move 2
+|
+|move|p2a: Wrap me|Psychic|p1a: Tauros
+|-damage|p1a: Tauros|86\/353 par
+|move|p1a: Tauros|Earthquake|p2a: Wrap me
+|-supereffective|p2a: Wrap me
+|-damage|p2a: Wrap me|123\/323
+|
+|turn|14
+|choice|switch 2|move 2
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Wrap me|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|620\/703
+|
+|turn|15
+|choice|move 2|switch 5
+|
+|switch|p2a: Gorda|Chansey|703\/703
+|move|p1a: Chansey|Seismic Toss|p2a: Gorda
+|-damage|p2a: Gorda|603\/703
+|
+|turn|16
+|choice|move 1|move 4
+|
+|move|p1a: Chansey|Ice Beam|p2a: Gorda
+|-damage|p2a: Gorda|525\/703
+|move|p2a: Gorda|Counter|p1a: Chansey
+|-fail|p2a: Gorda
+|
+|turn|17
+|choice|move 1|move 3
+|
+|move|p1a: Chansey|Ice Beam|p2a: Gorda
+|-damage|p2a: Gorda|449\/703
+|move|p2a: Gorda|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|550\/703
+|
+|turn|18
+|choice|move 1|move 3
+|
+|move|p2a: Gorda|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|474\/703
+|move|p1a: Chansey|Ice Beam|p2a: Gorda
+|-damage|p2a: Gorda|381\/703
+|
+|turn|19
+|choice|move 1|move 3
+|
+|move|p1a: Chansey|Ice Beam|p2a: Gorda
+|-damage|p2a: Gorda|302\/703
+|move|p2a: Gorda|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|396\/703
+|
+|turn|20
+|choice|move 1|move 3
+|
+|move|p1a: Chansey|Ice Beam|p2a: Gorda
+|-damage|p2a: Gorda|229\/703
+|-status|p2a: Gorda|frz
+|cant|p2a: Gorda|frz
+|
+|turn|21
+|choice|move 4|switch 4
+|
+|switch|p2a: Osborne|Tauros|353\/353
+|move|p1a: Chansey|Thunder Wave|p2a: Osborne
+|-status|p2a: Osborne|par
+|
+|turn|22
+|choice|switch 2|move 1
+|
+|switch|p1a: Tauros|Tauros|86\/353 par
+|move|p2a: Osborne|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|choice|switch 5|
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|turn|23
+|choice|move 1|switch 5
+|
+|switch|p2a: Wrap me|Gengar|123\/323
+|move|p1a: Exeggutor|Psychic|p2a: Wrap me
+|-supereffective|p2a: Wrap me
+|-damage|p2a: Wrap me|0 fnt
+|faint|p2a: Wrap me
+|choice||switch 2
+|
+|switch|p2a: Pajarito amarillo|Zapdos|162\/383
+|turn|24
+|choice|move 1|move 1
+|
+|move|p2a: Pajarito amarillo|Drill Peck|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|188\/393
+|move|p1a: Exeggutor|Psychic|p2a: Pajarito amarillo
+|-damage|p2a: Pajarito amarillo|61\/383
+|-unboost|p2a: Pajarito amarillo|spd|1
+|-unboost|p2a: Pajarito amarillo|spa|1
+|
+|turn|25
+|choice|switch 4|move 1
+|
+|switch|p1a: Jynx|Jynx|27\/333 slp
+|move|p2a: Pajarito amarillo|Drill Peck|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|choice|switch 2|
+|
+|switch|p1a: Chansey|Chansey|396\/703
+|turn|26
+|choice|move 1|switch 5
+|
+|switch|p2a: Osborne|Tauros|353\/353 par
+|move|p1a: Chansey|Ice Beam|p2a: Osborne
+|-damage|p2a: Osborne|253\/353 par
+|
+|turn|27
+|choice|move 2|move 1
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Osborne
+|-damage|p2a: Osborne|153\/353 par
+|move|p2a: Osborne|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|139\/703
+|
+|turn|28
+|choice|move 2|move 2
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Osborne
+|-damage|p2a: Osborne|53\/353 par
+|cant|p2a: Osborne|par
+|
+|turn|29
+|choice|move 2|move 2
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Osborne
+|-damage|p2a: Osborne|0 fnt
+|faint|p2a: Osborne
+|choice||switch 5
+|
+|switch|p2a: Pajarito amarillo|Zapdos|61\/383
+|turn|30
+|choice|move 3|move 1
+|
+|move|p2a: Pajarito amarillo|Drill Peck|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|choice|switch 4|
+|
+|switch|p1a: Exeggutor|Exeggutor|188\/393
+|turn|31
+|choice|move 1|move 1
+|
+|move|p2a: Pajarito amarillo|Drill Peck|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|8\/393
+|move|p1a: Exeggutor|Psychic|p2a: Pajarito amarillo
+|-damage|p2a: Pajarito amarillo|0 fnt
+|faint|p2a: Pajarito amarillo
+|choice||switch 6
+|
+|switch|p2a: Negrita|Jynx|333\/333
+|turn|32
+|choice|move 3|move 4
+|
+|move|p2a: Negrita|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|choice|switch 3|
+|
+|switch|p1a: Slowbro|Slowbro|330\/393
+|turn|33
+|choice|move 3|move 1
+|
+|move|p2a: Negrita|Lovely Kiss|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|cant|p1a: Slowbro|slp
+|
+|turn|34
+|choice|move 3|move 2
+|
+|move|p2a: Negrita|Psychic|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|273\/393 slp
+|cant|p1a: Slowbro|slp
+|
+|turn|35
+|choice|move 3|move 2
+|
+|move|p2a: Negrita|Psychic|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|212\/393 slp
+|cant|p1a: Slowbro|slp
+|
+|turn|36
+|choice|move 3|move 2
+|
+|move|p2a: Negrita|Psychic|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|149\/393 slp
+|-unboost|p1a: Slowbro|spd|1
+|-unboost|p1a: Slowbro|spa|1
+|cant|p1a: Slowbro|slp
+|
+|turn|37
+|choice|move 3|move 2
+|
+|move|p2a: Negrita|Psychic|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|51\/393 slp
+|-unboost|p1a: Slowbro|spd|1
+|-unboost|p1a: Slowbro|spa|1
+|cant|p1a: Slowbro|slp
+|
+|turn|38
+|c|★Subject Platinum|gg
+|choice|move 3|move 2
+|
+|move|p2a: Negrita|Psychic|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|
+|win|Subject Platinum
+|player|p1
+|player|p2
+|raw|Abstrix's rating: 1245 &rarr; <strong>1216<\/strong><br \/>(-29 for losing)
+|raw|Subject Platinum's rating: 1187 &rarr; <strong>1216<\/strong><br \/>(+29 for winning)
+|c|★Abstrix|that sleep
+|c|★Subject Platinum|yup
+|l|Subject Platinum

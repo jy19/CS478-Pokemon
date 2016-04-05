@@ -1,0 +1,283 @@
+﻿|join|yaldyyyy
+|join|lsdjflksd
+|player|p1|yaldyyyy|101
+|player|p2|lsdjflksd|2
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Charizard|Charizard, L85|306\/306
+|switch|p2a: Haunter|Haunter, L85|250\/250
+|turn|1
+|
+|move|p1a: Charizard|Earthquake|p2a: Haunter
+|-supereffective|p2a: Haunter
+|-damage|p2a: Haunter|55\/250
+|move|p2a: Haunter|Hypnosis|p1a: Charizard
+|-status|p1a: Charizard|slp
+|
+|turn|2
+|
+|switch|p1a: Snorlax|Snorlax, L79|415\/415
+|move|p2a: Haunter|Thunderbolt|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|211\/415
+|
+|turn|3
+|
+|move|p2a: Haunter|Confuse Ray|p1a: Snorlax
+|-start|p1a: Snorlax|confusion
+|-activate|p1a: Snorlax|confusion
+|-damage|p1a: Snorlax|173\/415|[from] confusion
+|
+|turn|4
+|
+|switch|p2a: Ditto|Ditto, L99|296\/296
+|-end|p1a: Snorlax|confusion
+|move|p1a: Snorlax|Ice Beam|p2a: Ditto
+|-damage|p2a: Ditto|244\/296
+|
+|turn|5
+|
+|switch|p1a: Parasect|Parasect, L90|291\/291
+|move|p2a: Ditto|Transform|p1a: Parasect
+|-transform|p2a: Ditto|p1a: Parasect
+|
+|turn|6
+|
+|move|p2a: Ditto|Stun Spore|p1a: Parasect
+|-status|p1a: Parasect|par
+|move|p1a: Parasect|Stun Spore|p2a: Ditto|[miss]
+|-miss|p1a: Parasect
+|
+|turn|7
+|
+|move|p2a: Ditto|Double-Edge|p1a: Parasect
+|-damage|p1a: Parasect|227\/291 par
+|-damage|p2a: Ditto|228\/296|[from] recoil|[of] p1a: Parasect
+|cant|p1a: Parasect|par
+|
+|turn|8
+|
+|move|p2a: Ditto|Double-Edge|p1a: Parasect
+|-damage|p1a: Parasect|166\/291 par
+|-damage|p2a: Ditto|213\/296|[from] recoil|[of] p1a: Parasect
+|move|p1a: Parasect|Stun Spore|p2a: Ditto
+|-status|p2a: Ditto|par
+|
+|turn|9
+|
+|cant|p2a: Ditto|par
+|move|p1a: Parasect|Double-Edge|p2a: Ditto
+|-damage|p2a: Ditto|123\/296 par
+|-damage|p1a: Parasect|144\/291 par|[from] recoil|[of] p2a: Ditto
+|
+|turn|10
+|
+|cant|p2a: Ditto|par
+|move|p1a: Parasect|Double-Edge|p2a: Ditto
+|-damage|p2a: Ditto|32\/296 par
+|-damage|p1a: Parasect|122\/291 par|[from] recoil|[of] p2a: Ditto
+|
+|turn|11
+|
+|move|p2a: Ditto|Double-Edge|p1a: Parasect
+|-damage|p1a: Parasect|60\/291 par
+|-damage|p2a: Ditto|17\/296 par|[from] recoil|[of] p1a: Parasect
+|move|p1a: Parasect|Double-Edge|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|-damage|p1a: Parasect|56\/291 par|[from] recoil|[of] p2a: Ditto
+|faint|p2a: Ditto
+|
+|switch|p2a: Graveler|Graveler, L85|267\/267
+|turn|12
+|
+|move|p2a: Graveler|Earthquake|p1a: Parasect
+|-resisted|p1a: Parasect
+|-damage|p1a: Parasect|29\/291 par
+|move|p1a: Parasect|Stun Spore|p2a: Graveler
+|-status|p2a: Graveler|par
+|
+|turn|13
+|
+|move|p2a: Graveler|Rock Slide|p1a: Parasect
+|-supereffective|p1a: Parasect
+|-damage|p1a: Parasect|0 fnt
+|faint|p1a: Parasect
+|
+|switch|p1a: Victreebel|Victreebel, L85|310\/310
+|turn|14
+|
+|switch|p2a: Haunter|Haunter, L85|55\/250
+|move|p1a: Victreebel|Razor Leaf|p2a: Haunter
+|-crit|p2a: Haunter
+|-resisted|p2a: Haunter
+|-damage|p2a: Haunter|5\/250
+|
+|turn|15
+|
+|switch|p1a: Snorlax|Snorlax, L79|173\/415
+|move|p2a: Haunter|Confuse Ray|p1a: Snorlax
+|-start|p1a: Snorlax|confusion
+|
+|turn|16
+|
+|move|p2a: Haunter|Thunderbolt|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|switch|p1a: Tauros|Tauros, L79|280\/280
+|turn|17
+|
+|move|p1a: Tauros|Earthquake|p2a: Haunter
+|-supereffective|p2a: Haunter
+|-damage|p2a: Haunter|0 fnt
+|faint|p2a: Haunter
+|
+|switch|p2a: Hitmonlee|Hitmonlee, L90|273\/273
+|turn|18
+|
+|switch|p1a: Victreebel|Victreebel, L85|310\/310
+|move|p2a: Hitmonlee|High Jump Kick|p1a: Victreebel|[miss]
+|-miss|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|272\/273
+|
+|turn|19
+|
+|move|p2a: Hitmonlee|Seismic Toss|p1a: Victreebel
+|-damage|p1a: Victreebel|220\/310
+|move|p1a: Victreebel|Stun Spore|p2a: Hitmonlee|[miss]
+|-miss|p1a: Victreebel
+|
+|turn|20
+|
+|move|p2a: Hitmonlee|Seismic Toss|p1a: Victreebel
+|-damage|p1a: Victreebel|130\/310
+|move|p1a: Victreebel|Stun Spore|p2a: Hitmonlee
+|-status|p2a: Hitmonlee|par
+|
+|turn|21
+|
+|move|p1a: Victreebel|Swords Dance|p1a: Victreebel
+|-boost|p1a: Victreebel|atk|2
+|move|p2a: Hitmonlee|Seismic Toss|p1a: Victreebel
+|-damage|p1a: Victreebel|40\/310
+|
+|turn|22
+|
+|move|p1a: Victreebel|Body Slam|p2a: Hitmonlee
+|-crit|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|114\/273 par
+|move|p2a: Hitmonlee|Seismic Toss|p1a: Victreebel
+|-damage|p1a: Victreebel|0 fnt
+|faint|p1a: Victreebel
+|
+|switch|p1a: Tauros|Tauros, L79|280\/280
+|turn|23
+|
+|move|p1a: Tauros|Body Slam|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|20\/273 par
+|move|p2a: Hitmonlee|High Jump Kick|p1a: Tauros
+|-crit|p1a: Tauros
+|-supereffective|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|c|★yaldyyyy|fuck
+|
+|switch|p1a: Psyduck|Psyduck, L96|291\/291
+|turn|24
+|
+|move|p1a: Psyduck|Amnesia|p1a: Psyduck
+|-boost|p1a: Psyduck|spd|2
+|-boost|p1a: Psyduck|spa|2
+|cant|p2a: Hitmonlee|par
+|
+|turn|25
+|
+|move|p1a: Psyduck|Surf|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|0 fnt
+|faint|p2a: Hitmonlee
+|
+|switch|p2a: Scyther|Scyther, L90|309\/309
+|turn|26
+|
+|move|p2a: Scyther|Slash|p1a: Psyduck
+|-crit|p1a: Psyduck
+|-damage|p1a: Psyduck|141\/291
+|move|p1a: Psyduck|Amnesia|p1a: Psyduck
+|-boost|p1a: Psyduck|spd|2
+|-boost|p1a: Psyduck|spa|2
+|
+|turn|27
+|c|★lsdjflksd|that was fucking awful
+|
+|move|p2a: Scyther|Slash|p1a: Psyduck
+|-crit|p1a: Psyduck
+|-damage|p1a: Psyduck|0 fnt
+|faint|p1a: Psyduck
+|
+|switch|p1a: Charizard|Charizard, L85|306\/306 slp
+|turn|28
+|
+|move|p2a: Scyther|Slash|p1a: Charizard
+|-crit|p1a: Charizard
+|-damage|p1a: Charizard|171\/306 slp
+|cant|p1a: Charizard|slp
+|
+|turn|29
+|
+|move|p2a: Scyther|Slash|p1a: Charizard
+|-crit|p1a: Charizard
+|-damage|p1a: Charizard|36\/306 slp
+|cant|p1a: Charizard|slp
+|
+|turn|30
+|c|★lsdjflksd|you always manage to lose, ALWAYS
+|c|★lsdjflksd|even when I misclick and get a shitty team
+|c|★lsdjflksd|your stupidity always manages to beat out what the RNG gives you
+|c|★lsdjflksd|I'm beyond impressed at this point
+|
+|move|p2a: Scyther|Swords Dance|p2a: Scyther
+|-boost|p2a: Scyther|atk|2
+|cant|p1a: Charizard|slp
+|
+|turn|31
+|c|★yaldyyyy|hahaha get to fuck you utter cunt
+|
+|move|p2a: Scyther|Agility|p2a: Scyther
+|-boost|p2a: Scyther|spe|2
+|cant|p1a: Charizard|slp
+|
+|turn|32
+|c|★lsdjflksd|you're soooooooooooo bad
+|
+|move|p2a: Scyther|Swords Dance|p2a: Scyther
+|-boost|p2a: Scyther|atk|2
+|cant|p1a: Charizard|slp
+|
+|turn|33
+|c|★yaldyyyy|that's nice
+|c|★lsdjflksd|and it's not because you're bad at pokemon, it's because you're stupid, like as a person. This simple tier is WAY over your head
+|c|★yaldyyyy|hahaha
+|c|★yaldyyyy|brilliant
+|c|★lsdjflksd|once again, for the Nth time
+|c|★lsdjflksd|get rekt
+|c|★yaldyyyy|have fun cunt features
+|
+|move|p2a: Scyther|Slash|p1a: Charizard
+|-crit|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|win|lsdjflksd
+|raw|Ladder updating...
+|raw|yaldyyyy's rating: 1116 &rarr; <strong>1086<\/strong><br \/>(-30 for losing)
+|raw|lsdjflksd's rating: 1048 &rarr; <strong>1087<\/strong><br \/>(+39 for winning)
+|leave|yaldyyyy
+|player|p1

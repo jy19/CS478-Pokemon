@@ -1,0 +1,406 @@
+﻿|join|PK Mastr
+|join|jb champ
+|player|p1|PK Mastr|257
+|player|p2|jb champ|150
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: NEBULA|Starmie|323\/323
+|switch|p2a: Jynx|Jynx|333\/333
+|turn|1
+|
+|move|p1a: NEBULA|Thunderbolt|p2a: Jynx
+|-damage|p2a: Jynx|257\/333
+|move|p2a: Jynx|Lovely Kiss|p1a: NEBULA
+|-status|p1a: NEBULA|slp
+|
+|turn|2
+|
+|switch|p1a: PU-TAI|Snorlax|523\/523
+|switch|p2a: Chansey|Chansey|703\/703
+|
+|turn|3
+|
+|move|p2a: Chansey|Thunder Wave|p1a: PU-TAI
+|-status|p1a: PU-TAI|par
+|cant|p1a: PU-TAI|par
+|
+|turn|4
+|
+|move|p2a: Chansey|Thunderbolt|p1a: PU-TAI
+|-damage|p1a: PU-TAI|429\/523 par
+|move|p1a: PU-TAI|Hyper Beam|p2a: Chansey
+|-damage|p2a: Chansey|157\/703
+|
+|turn|5
+|-mustrecharge|p1a: PU-TAI
+|-mustrecharge|p1a: PU-TAI
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|508\/703
+|cant|p1a: PU-TAI|recharge
+|
+|turn|6
+|
+|switch|p2a: Rhydon|Rhydon|413\/413
+|move|p1a: PU-TAI|Mega Kick|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|349\/413
+|
+|turn|7
+|
+|move|p2a: Rhydon|Earthquake|p1a: PU-TAI
+|-damage|p1a: PU-TAI|252\/523 par
+|move|p1a: PU-TAI|Earthquake|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|203\/413
+|
+|turn|8
+|
+|switch|p1a: ANUBIS|Dragonite|385\/385
+|move|p2a: Rhydon|Rock Slide|p1a: ANUBIS
+|-supereffective|p1a: ANUBIS
+|-damage|p1a: ANUBIS|170\/385
+|
+|turn|9
+|
+|switch|p2a: Jynx|Jynx|257\/333
+|move|p1a: ANUBIS|Blizzard|p2a: Jynx
+|-resisted|p2a: Jynx
+|-damage|p2a: Jynx|211\/333
+|
+|turn|10
+|
+|switch|p1a: E.S.P.|Alakazam|313\/313
+|move|p2a: Jynx|Blizzard|p1a: E.S.P.
+|-damage|p1a: E.S.P.|197\/313
+|
+|turn|11
+|
+|switch|p2a: Rhydon|Rhydon|203\/413
+|move|p1a: E.S.P.|Thunder Wave|p2a: Rhydon
+|-immune|p2a: Rhydon|[msg]
+|
+|turn|12
+|
+|move|p1a: E.S.P.|Psychic|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|
+|switch|p2a: Chansey|Chansey|508\/703
+|turn|13
+|
+|switch|p1a: PU-TAI|Snorlax|252\/523 par
+|move|p2a: Chansey|Thunder Wave|p1a: PU-TAI
+|-fail|p1a: PU-TAI|par
+|
+|turn|14
+|
+|move|p2a: Chansey|Thunderbolt|p1a: PU-TAI
+|-damage|p1a: PU-TAI|155\/523 par
+|move|p1a: PU-TAI|Self-Destruct|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|faint|p1a: PU-TAI
+|
+|switch|p1a: E.S.P.|Alakazam|197\/313
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|15
+|
+|switch|p1a: HADES|Gengar|323\/323
+|move|p2a: Tauros|Hyper Beam|p1a: HADES
+|-immune|p1a: HADES|[msg]
+|
+|turn|16
+|
+|move|p1a: HADES|Hypnosis|p2a: Tauros
+|-status|p2a: Tauros|slp
+|cant|p2a: Tauros|slp
+|-curestatus|p2a: Tauros|slp
+|
+|turn|17
+|
+|move|p2a: Tauros|Earthquake|p1a: HADES
+|-supereffective|p1a: HADES
+|-damage|p1a: HADES|95\/323
+|move|p1a: HADES|Hypnosis|p2a: Tauros|[miss]
+|-miss|p1a: HADES
+|
+|turn|18
+|
+|move|p1a: HADES|Hypnosis|p2a: Tauros
+|-status|p2a: Tauros|slp
+|cant|p2a: Tauros|slp
+|
+|turn|19
+|
+|switch|p2a: Jolteon|Jolteon|333\/333
+|move|p1a: HADES|Psychic|p2a: Jolteon
+|-damage|p2a: Jolteon|259\/333
+|-unboost|p2a: Jolteon|spd|1
+|-unboost|p2a: Jolteon|spa|1
+|
+|turn|20
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: HADES
+|-damage|p1a: HADES|31\/323
+|move|p1a: HADES|Explosion|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|faint|p1a: HADES
+|
+|switch|p1a: E.S.P.|Alakazam|197\/313
+|switch|p2a: Blastoise|Blastoise|361\/361
+|turn|21
+|
+|move|p1a: E.S.P.|Thunder Wave|p2a: Blastoise
+|-status|p2a: Blastoise|par
+|move|p2a: Blastoise|Body Slam|p1a: E.S.P.
+|-damage|p1a: E.S.P.|106\/313
+|
+|turn|22
+|c|★PK Mastr|blastoise
+|c|★PK Mastr|awesome
+|
+|move|p1a: E.S.P.|Recover|p1a: E.S.P.
+|-heal|p1a: E.S.P.|262\/313
+|cant|p2a: Blastoise|par
+|
+|turn|23
+|c|★PK Mastr|body slam, blizzard, surf\/pump, h-beam?
+|
+|move|p1a: E.S.P.|Psychic|p2a: Blastoise
+|-damage|p2a: Blastoise|204\/361 par
+|move|p2a: Blastoise|Body Slam|p1a: E.S.P.
+|-damage|p1a: E.S.P.|170\/313
+|-status|p1a: E.S.P.|par
+|
+|turn|24
+|
+|cant|p1a: E.S.P.|par
+|move|p2a: Blastoise|Body Slam|p1a: E.S.P.
+|-damage|p1a: E.S.P.|68\/313 par
+|
+|turn|25
+|
+|move|p1a: E.S.P.|Psychic|p2a: Blastoise
+|-damage|p2a: Blastoise|64\/361 par
+|cant|p2a: Blastoise|par
+|
+|turn|26
+|
+|cant|p1a: E.S.P.|par
+|move|p2a: Blastoise|Body Slam|p1a: E.S.P.
+|-damage|p1a: E.S.P.|0 fnt
+|faint|p1a: E.S.P.
+|
+|switch|p1a: ANUBIS|Dragonite|170\/385
+|turn|27
+|
+|move|p1a: ANUBIS|Wrap|p2a: Blastoise
+|-damage|p2a: Blastoise|48\/361 par
+|-activate|p2a: Blastoise|move: Wrap|[of] p1a: ANUBIS
+|cant|p2a: Blastoise|par
+|
+|turn|28
+|
+|switch|p1a: TRIFORCE|Tauros|353\/353
+|switch|p2a: Tauros|Tauros|353\/353 slp
+|
+|turn|29
+|
+|cant|p2a: Tauros|slp
+|move|p1a: TRIFORCE|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|251\/353 slp
+|
+|turn|30
+|
+|move|p1a: TRIFORCE|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|150\/353 slp
+|cant|p2a: Tauros|slp
+|
+|turn|31
+|c|★PK Mastr|gg
+|c|★jb champ|gg
+|
+|cant|p2a: Tauros|slp
+|move|p1a: TRIFORCE|Hyper Beam|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|c|★PK Mastr|what was balstoise move pool?
+|c|★jb champ|why did you wrap first
+|c|★PK Mastr|mine is H-pump, blizzard, counter, h-beam
+|c|★PK Mastr|i wraped to lure out the tauros
+|c|★jb champ|should have brought in tauros immediately
+|c|★jb champ|yeah well
+|c|★PK Mastr|wouldn't risk a hit off of blastoise
+|c|★jb champ|it would have come out anyway
+|c|★PK Mastr|true
+|c|★PK Mastr|what was your blastoise moves?
+|c|★PK Mastr|im liking the body slam
+|c|★jb champ|how was blastoise gonna hit you :p
+|c|★jb champ|h pump
+|c|★jb champ|blizzard
+|c|★PK Mastr|body
+|c|★jb champ|earthquake
+|c|★PK Mastr|interesting
+|c|★PK Mastr|i have counter instead of body
+|c|★jb champ|earthquake is a 4 shot on chancey i think
+|c|★PK Mastr|yeah
+|c|★jb champ|i had counter once
+|c|★PK Mastr|how did it work?
+|
+|switch|p2a: Jynx|Jynx|211\/333
+|turn|32
+|c|★jb champ|okay
+|c|★PK Mastr|is body better?
+|c|★jb champ|but i am not a big fan of counter
+|c|★PK Mastr|(trying to make a Red team)
+|c|★jb champ|you saw what body slam is good for
+|c|★PK Mastr|yeah, he's to slow for anything else, and plus he can take a hit; only if you predict the h-beam is it worth it
+|c|★jb champ|that is pretty much all it can do to the likes of alakazam and starmie
+|c|★jb champ|the lucky para
+|c|★PK Mastr|true
+|c|★PK Mastr|and starmie is goign to blast it with t-bolt
+|
+|move|p1a: TRIFORCE|Body Slam|p2a: Jynx
+|-damage|p2a: Jynx|45\/333
+|move|p2a: Jynx|Blizzard|p1a: TRIFORCE
+|-crit|p1a: TRIFORCE
+|-damage|p1a: TRIFORCE|0 fnt
+|faint|p1a: TRIFORCE
+|c|★PK Mastr|WOW
+|
+|switch|p1a: NEBULA|Starmie|323\/323 slp
+|turn|33
+|c|★PK Mastr|game's not over
+|c|★jb champ|dude
+|c|★jb champ|you should have hyper beamed
+|
+|cant|p1a: NEBULA|slp
+|move|p2a: Jynx|Mimic|p1a: NEBULA
+|-start|p2a: Jynx|Mimic|Thunderbolt
+|
+|turn|34
+|c|★PK Mastr|it was a misclick lol
+|c|★PK Mastr|omg i need to wake up NOW
+|c|★jb champ|now it is on
+|
+|cant|p1a: NEBULA|slp
+|move|p2a: Jynx|Thunderbolt|p1a: NEBULA
+|-supereffective|p1a: NEBULA
+|-damage|p1a: NEBULA|174\/323 slp
+|
+|turn|35
+|c|★PK Mastr|last chance
+|
+|cant|p1a: NEBULA|slp
+|-curestatus|p1a: NEBULA|slp
+|move|p2a: Jynx|Thunderbolt|p1a: NEBULA
+|-supereffective|p1a: NEBULA
+|-damage|p1a: NEBULA|18\/323
+|
+|turn|36
+|c|★jb champ|pls do not
+|c|★PK Mastr|gg
+|c|★jb champ|nooooooo
+|c|★jb champ|gg
+|c|★PK Mastr|scared the SHIT out of me
+|c|★PK Mastr|t-bolt or psychic?
+|c|★jb champ|psychic
+|
+|move|p1a: NEBULA|Psychic|p2a: Jynx
+|-resisted|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|c|★PK Mastr|ill take your word
+|
+|switch|p2a: Blastoise|Blastoise|48\/361 par
+|turn|37
+|c|★PK Mastr|next time im h-beam off the bat
+|c|★PK Mastr|forgot jynx can't take a physical hit
+|c|★PK Mastr|made it veeery interesting game
+|c|★jb champ|if you are cool, use thunderwave now and let blastoise have a kill :p
+|c|★PK Mastr|nope
+|c|★PK Mastr|that body slam and crit was well worth the mercy try
+|c|★jb champ|dragonite is faster anyway
+|c|★jb champ|oh well
+|c|★PK Mastr|he doesn't have t-wave
+|
+|move|p1a: NEBULA|Recover|p1a: NEBULA
+|-heal|p1a: NEBULA|179\/323
+|cant|p2a: Blastoise|par
+|
+|turn|38
+|c|★PK Mastr|but ill let you get a kill
+|
+|move|p1a: NEBULA|Recover|p1a: NEBULA
+|-heal|p1a: NEBULA|323\/323
+|cant|p2a: Blastoise|par
+|
+|turn|39
+|c|★jb champ|nah
+|c|★jb champ|its fine
+|c|★jb champ|will take forever
+|c|★PK Mastr|off of d-nite
+|c|★jb champ|just finish
+|c|★PK Mastr|hit the blizzard and kill the dragon
+|
+|switch|p1a: ANUBIS|Dragonite|170\/385
+|move|p2a: Blastoise|Blizzard|p1a: ANUBIS
+|-supereffective|p1a: ANUBIS
+|-damage|p1a: ANUBIS|0 fnt
+|faint|p1a: ANUBIS
+|c|★PK Mastr|gg
+|
+|switch|p1a: NEBULA|Starmie|323\/323
+|turn|40
+|c|★PK Mastr|that jynx scared the SHIT out of me
+|c|★PK Mastr|body slam is a good trade off for h-beam
+|c|★jb champ|i really should have switched blastoise into gengar when it had 30 %
+|c|★jb champ|seriously thought about doing that
+|
+|move|p1a: NEBULA|Thunderbolt|p2a: Blastoise
+|-supereffective|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|
+|win|PK Mastr
+|raw|Ladder updating...
+|c|★PK Mastr|yeah
+|raw|PK Mastr's rating: 1338 &rarr; <strong>1359<\/strong><br \/>(+21 for winning)
+|raw|jb champ's rating: 1357 &rarr; <strong>1336<\/strong><br \/>(-21 for losing)
+|c|★PK Mastr|would of b een a dif game
+|c|★PK Mastr|close match
+|c|★jb champ|plus the special drop against jolteon was a pain
+|c|★PK Mastr|yeah
+|c|★PK Mastr|it was EXACTLY what i needed
+|c|★jb champ|i thought you would go for the slightly stronger thunderbolt with gengar
+|c|★jb champ|it was
+|c|★jb champ|maybe the battle would have gone a little different
+|c|★jb champ|nevermind though
+|c|★PK Mastr|oh forusre
+|c|★PK Mastr|i made some bad moves in the begning
+|c|★PK Mastr|regarding that chansey
+|c|★PK Mastr|should NEVER h-beam it off the bat
+|c|★PK Mastr|thank god for the boom to even out my misplays
+|c|★jb champ|in first gen it is mostly the small sometimes lucky things
+|c|★PK Mastr|lucky is what makes this game more interesting
+|c|★jb champ|i dont take pokemon too serious anyway
+|c|★PK Mastr|never the same ol' same ol
+|c|★PK Mastr|same
+|c|★jb champ|otherwise i would not use blastoise
+|c|★PK Mastr|well i do when its close cause its exhiliarting
+|c|★PK Mastr|rematch? ill like to try my Red team on you if you would let me
+|c|★jb champ|but he is my favourite even if he is not ood in competitive play
+|c|★PK Mastr|zard is mine

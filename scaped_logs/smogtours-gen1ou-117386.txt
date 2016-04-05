@@ -1,0 +1,473 @@
+﻿|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|J|Nails
+|J|GOAO
+|player|p1|Nails|282
+|player|p2|GOAO|62
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|seed|4936,6722,22954,2629
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Starmie|Starmie|323\/323
+|turn|1
+|choice|move 1|switch 5
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Alakazam|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|turn|2
+|choice|move 2|move 1
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|566\/703 par
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|move|p2a: Chansey|Thunderbolt|p1a: Alakazam
+|-damage|p1a: Alakazam|272\/313
+|
+|turn|3
+|choice|move 2|switch 2
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Alakazam|Psychic|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|278\/393
+|
+|turn|4
+|choice|move 1|move 1
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Exeggutor
+|-status|p2a: Exeggutor|par
+|move|p2a: Exeggutor|Sleep Powder|p1a: Alakazam
+|-status|p1a: Alakazam|slp
+|
+|turn|5
+|J|Yogiras
+|L|Yogiras
+|choice|move 1|switch 5
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|-curestatus|p1a: Alakazam|slp
+|
+|turn|6
+|choice|move 2|switch 5
+|
+|switch|p2a: Exeggutor|Exeggutor|278\/393 par
+|move|p1a: Alakazam|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|222\/393 par
+|-unboost|p2a: Exeggutor|spd|1
+|-unboost|p2a: Exeggutor|spa|1
+|
+|turn|7
+|choice|move 2|move 4
+|
+|move|p1a: Alakazam|Psychic|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|115\/393 par
+|move|p2a: Exeggutor|Explosion|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|faint|p2a: Exeggutor
+|choice|switch 4|switch 4
+|
+|switch|p2a: Golem|Golem|363\/363
+|switch|p1a: Snorlax|Snorlax|523\/523
+|turn|8
+|choice|move 2|move 1
+|
+|move|p2a: Golem|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|351\/523
+|move|p1a: Snorlax|Earthquake|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|220\/363
+|
+|turn|9
+|c|★GOAO|can rslide flinch
+|c|★GOAO|in rby
+|c|★Nails|n
+|choice|move 2|move 1
+|
+|move|p2a: Golem|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|180\/523
+|move|p1a: Snorlax|Earthquake|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|83\/363
+|
+|turn|10
+|choice|move 2|move 3
+|
+|move|p2a: Golem|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|93\/523
+|move|p1a: Snorlax|Earthquake|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|choice||switch 6
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|11
+|c|★Nails|and body slam can't para normals
+|choice|switch 3|move 2
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Tauros|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|274\/393
+|
+|turn|12
+|c|★GOAO|yea ik
+|choice|move 1|switch 3
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Exeggutor|Sleep Powder|p2a: Snorlax|[miss]
+|-miss|p1a: Exeggutor
+|
+|turn|13
+|c|★GOAO|but i forgot.
+|choice|move 1|move 1
+|
+|move|p1a: Exeggutor|Sleep Powder|p2a: Snorlax
+|-status|p2a: Snorlax|slp
+|cant|p2a: Snorlax|slp
+|
+|turn|14
+|choice|move 3|move 1
+|
+|move|p1a: Exeggutor|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|350\/523 slp
+|-curestatus|p2a: Snorlax|slp
+|
+|turn|15
+|choice|move 1|move 1
+|
+|move|p1a: Exeggutor|Sleep Powder|p2a: Snorlax
+|-status|p2a: Snorlax|slp
+|cant|p2a: Snorlax|slp
+|
+|turn|16
+|c|★GOAO|miss
+|choice|move 3|switch 2
+|
+|switch|p2a: Chansey|Chansey|566\/703 par
+|move|p1a: Exeggutor|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|442\/703 par
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|
+|turn|17
+|choice|move 3|move 4
+|
+|move|p1a: Exeggutor|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|246\/703 par
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|cant|p2a: Chansey|par
+|
+|turn|18
+|c|★Nails|rekt yn
+|choice|move 3|move 4
+|
+|move|p1a: Exeggutor|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|21\/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|372\/703 par
+|
+|turn|19
+|c|★GOAO|strategy
+|c|★GOAO|yn
+|c|★Nails|y
+|choice|move 3|switch 5
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|move|p1a: Exeggutor|Psychic|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|261\/323
+|
+|turn|20
+|choice|move 4|move 2
+|
+|move|p2a: Starmie|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|118\/393
+|-status|p1a: Exeggutor|frz
+|cant|p1a: Exeggutor|frz
+|
+|turn|21
+|c|★GOAO|remember on that rby tour
+|c|★Nails|oo
+|c|★GOAO|i had the game
+|c|★Nails|nice strategy
+|c|★GOAO|but you parad me
+|c|★GOAO|,
+|choice|switch 2|move 1
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|move|p2a: Starmie|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|273\/323
+|-unboost|p1a: Starmie|spd|1
+|-unboost|p1a: Starmie|spa|1
+|
+|turn|22
+|c|★Nails|n
+|c|★Nails|i had it either way
+|c|★GOAO|yes you do
+|c|★Nails|-
+|c|★GOAO|no LOL
+|choice|move 3|switch 5
+|
+|switch|p2a: Chansey|Chansey|372\/703 par
+|move|p1a: Starmie|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|
+|turn|23
+|c|★GOAO|para the zammer and hbeam with tauros
+|c|★GOAO|easy
+|choice|switch 3|move 4
+|
+|switch|p1a: Snorlax|Snorlax|93\/523
+|cant|p2a: Chansey|par
+|
+|turn|24
+|c|★Nails|shoutouts hugo
+|c|★GOAO|-
+|J|smilzo
+|choice|move 1|switch 2
+|
+|switch|p2a: Snorlax|Snorlax|350\/523 slp
+|move|p1a: Snorlax|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|215\/523 slp
+|
+|turn|25
+|choice|move 1|switch 3
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|move|p1a: Snorlax|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|235\/353
+|
+|turn|26
+|choice|switch 2|move 2
+|
+|switch|p1a: Exeggutor|Exeggutor|118\/393 frz
+|move|p2a: Tauros|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|5\/393 frz
+|
+|turn|27
+|choice|switch 6|move 1
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|move|p2a: Tauros|Earthquake|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|197\/353
+|
+|turn|28
+|c|★GOAO|go
+|c|★GOAO|tie
+|choice|move 1|move 3
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Tauros|[miss]
+|-miss|p2a: Tauros
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|129\/353
+|
+|turn|29
+|c|★GOAO|fdp
+|c|★Nails|it doesnt kill from there
+|c|★Nails|anyways
+|c|★Nails|:x
+|c|★GOAO|IT DOES.
+|c|★Nails|n
+|c|+smilzo|no it doesnt
+|c|★GOAO|crit
+|c|+smilzo|xd
+|c|★GOAO|,
+|c|★Nails|Tauros Hyper Beam vs. Tauros: 166-196 (47 - 55.5%)
+|choice|move 3|move 3
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|c|★GOAO|?
+|c|★Nails|o
+|c|★Nails|strategy
+|c|+smilzo|!
+|choice|switch 5|
+|
+|switch|p1a: Zapdos|Zapdos|383\/383
+|turn|30
+|c|★Nails|kacaw
+|choice|move 1|switch 3
+|
+|switch|p2a: Snorlax|Snorlax|215\/523 slp
+|move|p1a: Zapdos|Thunderbolt|p2a: Snorlax
+|-damage|p2a: Snorlax|49\/523 slp
+|
+|turn|31
+|choice|move 4|move 4
+|
+|move|p1a: Zapdos|Agility|p1a: Zapdos
+|-boost|p1a: Zapdos|spe|2
+|-curestatus|p2a: Snorlax|slp
+|
+|turn|32
+|c|★GOAO|bs
+|choice|move 1|move 4
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|choice||switch 2
+|
+|switch|p2a: Chansey|Chansey|372\/703 par
+|turn|33
+|choice|move 2|move 4
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Chansey
+|-damage|p2a: Chansey|132\/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|483\/703 par
+|
+|turn|34
+|choice|move 2|move 4
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|46\/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|397\/703 par
+|
+|turn|35
+|choice|move 2|move 4
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Chansey
+|-damage|p2a: Chansey|160\/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|511\/703 par
+|
+|turn|36
+|choice|move 2|move 4
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Chansey
+|-damage|p2a: Chansey|289\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|37
+|choice|move 2|move 4
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Chansey
+|-damage|p2a: Chansey|32\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|38
+|c|★GOAO|GG
+|choice|move 2|move 4
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|c|★Nails|g_g
+|choice||switch 5
+|
+|switch|p2a: Starmie|Starmie|261\/323
+|turn|39
+|choice|move 1|move 3
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|11\/323
+|move|p2a: Starmie|Thunder Wave|p1a: Zapdos
+|-status|p1a: Zapdos|par
+|
+|turn|40
+|choice|move 4|move 4
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|172\/323
+|cant|p1a: Zapdos|par
+|
+|turn|41
+|choice|move 3|move 2
+|
+|move|p2a: Starmie|Blizzard|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|232\/383 par
+|cant|p1a: Zapdos|par
+|
+|turn|42
+|choice|move 3|move 2
+|
+|move|p2a: Starmie|Blizzard|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|76\/383 par
+|move|p1a: Zapdos|Thunder Wave|p2a: Starmie
+|-status|p2a: Starmie|par
+|
+|turn|43
+|c|★Nails|choke
+|c|★Nails|yn
+|c|★GOAO|y
+|choice|move 1|move 1
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Starmie
+|-crit|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|choice||switch 3
+|
+|switch|p2a: Tauros|Tauros|129\/353
+|turn|44
+|choice|move 1|move 3
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|choice|switch 3|
+|
+|switch|p1a: Starmie|Starmie|273\/323
+|turn|45
+|c|★GOAO|let me kill
+|c|★GOAO|the exeg
+|c|★GOAO|pls
+|c|★Nails|why
+|c|★Nails|D:
+|choice|move 3|move 3
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Tauros
+|-status|p2a: Tauros|par
+|cant|p2a: Tauros|par
+|
+|turn|46
+|choice|switch 6|move 3
+|
+|switch|p1a: Exeggutor|Exeggutor|5\/393 frz
+|move|p2a: Tauros|Hyper Beam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|choice|switch 2|
+|
+|switch|p1a: Snorlax|Snorlax|93\/523
+|turn|47
+|c|★GOAO|ty
+|c|★GOAO|GG
+|c|★Nails|np
+|choice|move 4|move 4
+|
+|move|p1a: Snorlax|Self-Destruct|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|faint|p1a: Snorlax
+|
+|win|Nails

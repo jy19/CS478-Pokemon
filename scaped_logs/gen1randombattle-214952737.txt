@@ -1,0 +1,389 @@
+﻿|join|ProletarioParasito
+|join|andrewandres
+|player|p1|ProletarioParasito|169
+|player|p2|andrewandres|169
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Omanyte|Omanyte, L96|262\/262
+|switch|p2a: Zapdos|Zapdos, L79|304\/304
+|turn|1
+|
+|switch|p2a: Magnemite|Magnemite, L96|243\/243
+|move|p1a: Omanyte|Blizzard|p2a: Magnemite
+|-damage|p2a: Magnemite|164\/243
+|
+|turn|2
+|
+|switch|p1a: Tangela|Tangela, L85|284\/284
+|move|p2a: Magnemite|Thunderbolt|p1a: Tangela
+|-resisted|p1a: Tangela
+|-damage|p1a: Tangela|228\/284
+|
+|turn|3
+|
+|move|p1a: Tangela|Sleep Powder|p2a: Magnemite
+|-status|p2a: Magnemite|slp
+|cant|p2a: Magnemite|slp
+|
+|turn|4
+|
+|switch|p2a: Mew|Mew, L74|300\/300
+|move|p1a: Tangela|Mega Drain|p2a: Mew
+|-damage|p2a: Mew|254\/300
+|-heal|p1a: Tangela|251\/284|[from] drain|[of] p2a: Mew
+|
+|turn|5
+|
+|move|p2a: Mew|Blizzard|p1a: Tangela
+|-crit|p1a: Tangela
+|-supereffective|p1a: Tangela
+|-damage|p1a: Tangela|8\/284
+|move|p1a: Tangela|Stun Spore|p2a: Mew|[miss]
+|-miss|p1a: Tangela
+|
+|turn|6
+|
+|move|p2a: Mew|Blizzard|p1a: Tangela
+|-supereffective|p1a: Tangela
+|-damage|p1a: Tangela|0 fnt
+|faint|p1a: Tangela
+|
+|switch|p1a: Hypno|Hypno, L85|318\/318
+|turn|7
+|
+|move|p2a: Mew|Thunder Wave|p1a: Hypno
+|-status|p1a: Hypno|par
+|move|p1a: Hypno|Thunder Wave|p2a: Mew
+|-status|p2a: Mew|par
+|
+|turn|8
+|
+|move|p2a: Mew|Blizzard|p1a: Hypno
+|-damage|p1a: Hypno|265\/318 par
+|move|p1a: Hypno|Psychic|p2a: Mew
+|-resisted|p2a: Mew
+|-damage|p2a: Mew|196\/300 par
+|
+|turn|9
+|
+|move|p2a: Mew|Blizzard|p1a: Hypno
+|-damage|p1a: Hypno|205\/318 par
+|move|p1a: Hypno|Psychic|p2a: Mew
+|-resisted|p2a: Mew
+|-damage|p2a: Mew|136\/300 par
+|-unboost|p2a: Mew|spd|1
+|-unboost|p2a: Mew|spa|1
+|
+|turn|10
+|
+|move|p2a: Mew|Explosion|p1a: Hypno
+|-crit|p1a: Hypno
+|-damage|p1a: Hypno|0 fnt
+|faint|p1a: Hypno
+|faint|p2a: Mew
+|
+|switch|p1a: Gloom|Gloom, L85|276\/276
+|switch|p2a: Slowbro|Slowbro, L79|312\/312
+|turn|11
+|
+|move|p1a: Gloom|Mega Drain|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|216\/312
+|move|p2a: Slowbro|Thunder Wave|p1a: Gloom
+|-status|p1a: Gloom|par
+|
+|turn|12
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|move|p1a: Gloom|Mega Drain|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|168\/312
+|
+|turn|13
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|cant|p1a: Gloom|par
+|
+|turn|14
+|
+|move|p2a: Slowbro|Surf|p1a: Gloom
+|-resisted|p1a: Gloom
+|-damage|p1a: Gloom|150\/276 par
+|move|p1a: Gloom|Double-Edge|p2a: Slowbro
+|-damage|p2a: Slowbro|117\/312
+|-damage|p1a: Gloom|138\/276 par|[from] recoil|[of] p2a: Slowbro
+|
+|turn|15
+|
+|move|p2a: Slowbro|Surf|p1a: Gloom
+|-resisted|p1a: Gloom
+|-damage|p1a: Gloom|23\/276 par
+|move|p1a: Gloom|Double-Edge|p2a: Slowbro
+|-damage|p2a: Slowbro|67\/312
+|-damage|p1a: Gloom|11\/276 par|[from] recoil|[of] p2a: Slowbro
+|
+|turn|16
+|
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|-heal|p2a: Slowbro|312\/312 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|move|p1a: Gloom|Double-Edge|p2a: Slowbro
+|-damage|p2a: Slowbro|258\/312 slp
+|-damage|p1a: Gloom|0 fnt|[from] recoil|[of] p2a: Slowbro
+|faint|p1a: Gloom
+|
+|switch|p1a: Lapras|Lapras, L79|367\/367
+|turn|17
+|
+|move|p1a: Lapras|Thunderbolt|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|211\/312 slp
+|cant|p2a: Slowbro|slp
+|
+|turn|18
+|
+|move|p1a: Lapras|Thunderbolt|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|163\/312 slp
+|cant|p2a: Slowbro|slp
+|-curestatus|p2a: Slowbro|slp
+|
+|turn|19
+|
+|move|p1a: Lapras|Confuse Ray|p2a: Slowbro
+|-start|p2a: Slowbro|confusion
+|-activate|p2a: Slowbro|confusion
+|-damage|p2a: Slowbro|141\/312|[from] confusion
+|
+|turn|20
+|
+|move|p1a: Lapras|Thunderbolt|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|94\/312
+|-activate|p2a: Slowbro|confusion
+|-damage|p2a: Slowbro|72\/312|[from] confusion
+|
+|turn|21
+|
+|move|p1a: Lapras|Thunderbolt|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|26\/312
+|-end|p2a: Slowbro|confusion
+|move|p2a: Slowbro|Thunder Wave|p1a: Lapras
+|-status|p1a: Lapras|par
+|
+|turn|22
+|
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|-heal|p2a: Slowbro|312\/312 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|move|p1a: Lapras|Thunderbolt|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|70\/312 slp
+|
+|turn|23
+|c|★andrewandres|¿?
+|
+|cant|p2a: Slowbro|slp
+|move|p1a: Lapras|Thunderbolt|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|23\/312 slp
+|
+|turn|24
+|
+|cant|p2a: Slowbro|slp
+|-curestatus|p2a: Slowbro|slp
+|cant|p1a: Lapras|par
+|
+|turn|25
+|
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|-heal|p2a: Slowbro|312\/312 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|move|p1a: Lapras|Thunderbolt|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|58\/312 slp
+|
+|turn|26
+|c|★andrewandres|stupid lucker
+|
+|cant|p2a: Slowbro|slp
+|move|p1a: Lapras|Thunderbolt|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|11\/312 slp
+|
+|turn|27
+|
+|cant|p2a: Slowbro|slp
+|-curestatus|p2a: Slowbro|slp
+|move|p1a: Lapras|Thunderbolt|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|
+|switch|p2a: Zapdos|Zapdos, L79|304\/304
+|turn|28
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|170\/367 par
+|move|p1a: Lapras|Confuse Ray|p2a: Zapdos
+|-start|p2a: Zapdos|confusion
+|
+|turn|29
+|
+|switch|p1a: Weezing|Weezing, L85|284\/284
+|-activate|p2a: Zapdos|confusion
+|-damage|p2a: Zapdos|275\/304|[from] confusion
+|
+|turn|30
+|
+|switch|p2a: Magnemite|Magnemite, L96|164\/243 slp
+|move|p1a: Weezing|Fire Blast|p2a: Magnemite
+|-damage|p2a: Magnemite|102\/243 slp
+|
+|turn|31
+|
+|move|p1a: Weezing|Fire Blast|p2a: Magnemite
+|-damage|p2a: Magnemite|31\/243 slp
+|cant|p2a: Magnemite|slp
+|-curestatus|p2a: Magnemite|slp
+|
+|turn|32
+|
+|move|p1a: Weezing|Fire Blast|p2a: Magnemite
+|-damage|p2a: Magnemite|0 fnt
+|faint|p2a: Magnemite
+|
+|switch|p2a: Dugtrio|Dugtrio, L85|233\/233
+|turn|33
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Weezing
+|-supereffective|p1a: Weezing
+|-damage|p1a: Weezing|114\/284
+|move|p1a: Weezing|Explosion|p2a: Dugtrio
+|-crit|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|faint|p1a: Weezing
+|
+|switch|p2a: Zapdos|Zapdos, L79|275\/304
+|switch|p1a: Omanyte|Omanyte, L96|262\/262
+|turn|34
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Omanyte
+|-supereffective|p1a: Omanyte
+|-damage|p1a: Omanyte|74\/262
+|move|p1a: Omanyte|Blizzard|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|103\/304
+|-status|p2a: Zapdos|frz
+|
+|turn|35
+|c|★andrewandres|stupid lucker..
+|c|★andrewandres|my god
+|
+|cant|p2a: Zapdos|frz
+|move|p1a: Omanyte|Rest|p1a: Omanyte
+|-status|p1a: Omanyte|slp
+|-heal|p1a: Omanyte|262\/262 slp|[silent]
+|-status|p1a: Omanyte|slp|[from] move: Rest
+|
+|turn|36
+|
+|cant|p2a: Zapdos|frz
+|cant|p1a: Omanyte|slp
+|
+|turn|37
+|
+|cant|p2a: Zapdos|frz
+|cant|p1a: Omanyte|slp
+|-curestatus|p1a: Omanyte|slp
+|
+|turn|38
+|
+|switch|p1a: Lapras|Lapras, L79|170\/367 par
+|cant|p2a: Zapdos|frz
+|
+|turn|39
+|
+|cant|p2a: Zapdos|frz
+|move|p1a: Lapras|Rest|p1a: Lapras
+|-status|p1a: Lapras|slp
+|-heal|p1a: Lapras|367\/367 slp|[silent]
+|-status|p1a: Lapras|slp|[from] move: Rest
+|
+|turn|40
+|
+|cant|p2a: Zapdos|frz
+|cant|p1a: Lapras|slp
+|
+|turn|41
+|
+|cant|p2a: Zapdos|frz
+|cant|p1a: Lapras|slp
+|-curestatus|p1a: Lapras|slp
+|
+|turn|42
+|
+|cant|p2a: Zapdos|frz
+|move|p1a: Lapras|Ice Beam|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|switch|p2a: Flareon|Flareon, L85|284\/284
+|turn|43
+|
+|move|p2a: Flareon|Fire Blast|p1a: Lapras
+|-crit|p1a: Lapras
+|-damage|p1a: Lapras|108\/367
+|move|p1a: Lapras|Thunderbolt|p2a: Flareon
+|-crit|p2a: Flareon
+|-damage|p2a: Flareon|188\/284
+|
+|turn|44
+|
+|move|p2a: Flareon|Fire Blast|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|
+|switch|p1a: Omanyte|Omanyte, L96|262\/262
+|turn|45
+|
+|move|p2a: Flareon|Fire Blast|p1a: Omanyte
+|-crit|p1a: Omanyte
+|-resisted|p1a: Omanyte
+|-damage|p1a: Omanyte|204\/262
+|move|p1a: Omanyte|Surf|p2a: Flareon
+|-supereffective|p2a: Flareon
+|-damage|p2a: Flareon|0 fnt
+|faint|p2a: Flareon
+|
+|win|ProletarioParasito
+|raw|Ladder updating...
+|raw|ProletarioParasito's rating: 1236 &rarr; <strong>1269<\/strong><br \/>(+33 for winning)
+|raw|andrewandres's rating: 1347 &rarr; <strong>1321<\/strong><br \/>(-26 for losing)
+|c|★andrewandres|stupdi lucker
+|c|★andrewandres|ojj...
+|leave|andrewandres
+|player|p2
+|join|Javier7
+|join|andrewandres
+|join|fer+att

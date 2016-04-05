@@ -1,0 +1,59 @@
+﻿|join|Zorage
+|join|gjhgj
+|player|p1|Zorage|268
+|player|p2|gjhgj|266
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gengar|Gengar|323\/323
+|switch|p2a: Chansey|Chansey|703\/703
+|turn|1
+|
+|switch|p2a: Golem|Golem|363\/363
+|move|p1a: Gengar|Hypnosis|p2a: Golem
+|-status|p2a: Golem|slp
+|
+|turn|2
+|
+|switch|p2a: Alakazam|Alakazam|313\/313
+|move|p1a: Gengar|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|279\/313
+|
+|turn|3
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|566\/703
+|
+|turn|4
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|603\/703
+|
+|turn|5
+|
+|move|p1a: Chansey|Defense Curl|p1a: Chansey
+|-boost|p1a: Chansey|def|1
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|492\/703
+|-status|p1a: Chansey|frz
+|
+|turn|6
+|-message|Zorage forfeited.
+|
+|win|gjhgj
+|leave|Zorage
+|player|p1
+|raw|Zorage's rating: 1263 &rarr; <strong>1225<\/strong><br \/>(-38 for losing)
+|raw|gjhgj's rating: 1049 &rarr; <strong>1099<\/strong><br \/>(+50 for winning)

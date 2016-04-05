@@ -1,0 +1,225 @@
+﻿|join|gpsm
+|join|eldougi
+|player|p1|gpsm|162
+|player|p2|eldougi|170
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Mew|Mew, L74|300\/300
+|switch|p2a: Rhyhorn|Rhyhorn, L96|348\/348
+|turn|1
+|
+|move|p1a: Mew|Blizzard|p2a: Rhyhorn
+|-supereffective|p2a: Rhyhorn
+|-damage|p2a: Rhyhorn|153\/348
+|move|p2a: Rhyhorn|Body Slam|p1a: Mew
+|-damage|p1a: Mew|222\/300
+|
+|turn|2
+|
+|switch|p2a: Poliwhirl|Poliwhirl, L85|284\/284
+|move|p1a: Mew|Blizzard|p2a: Poliwhirl
+|-crit|p2a: Poliwhirl
+|-resisted|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|196\/284
+|
+|turn|3
+|
+|move|p2a: Poliwhirl|Hypnosis|p1a: Mew
+|-status|p1a: Mew|slp
+|cant|p1a: Mew|slp
+|
+|turn|4
+|
+|switch|p1a: Zapdos|Zapdos, L79|304\/304
+|move|p2a: Poliwhirl|Amnesia|p2a: Poliwhirl
+|-boost|p2a: Poliwhirl|spd|2
+|-boost|p2a: Poliwhirl|spa|2
+|
+|turn|5
+|
+|switch|p2a: Rhyhorn|Rhyhorn, L96|153\/348
+|move|p1a: Zapdos|Thunderbolt|p2a: Rhyhorn
+|-immune|p2a: Rhyhorn|[msg]
+|
+|turn|6
+|
+|switch|p1a: Onix|Onix, L85|233\/233
+|move|p2a: Rhyhorn|Rock Slide|p1a: Onix
+|-resisted|p1a: Onix
+|-damage|p1a: Onix|201\/233
+|
+|turn|7
+|
+|switch|p2a: Poliwhirl|Poliwhirl, L85|196\/284
+|move|p1a: Onix|Earthquake|p2a: Poliwhirl
+|-crit|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|24\/284
+|
+|turn|8
+|
+|switch|p1a: Zapdos|Zapdos, L79|304\/304
+|move|p2a: Poliwhirl|Blizzard|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|205\/304
+|
+|turn|9
+|
+|switch|p2a: Rhyhorn|Rhyhorn, L96|153\/348
+|move|p1a: Zapdos|Drill Peck|p2a: Rhyhorn
+|-resisted|p2a: Rhyhorn
+|-damage|p2a: Rhyhorn|122\/348
+|
+|turn|10
+|
+|switch|p1a: Tauros|Tauros, L79|280\/280
+|move|p2a: Rhyhorn|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|202\/280
+|
+|turn|11
+|
+|switch|p2a: Fearow|Fearow, L85|284\/284
+|move|p1a: Tauros|Earthquake|p2a: Fearow
+|-immune|p2a: Fearow|[msg]
+|
+|turn|12
+|
+|move|p2a: Fearow|Hyper Beam|p1a: Tauros
+|-damage|p1a: Tauros|45\/280
+|move|p1a: Tauros|Blizzard|p2a: Fearow
+|-supereffective|p2a: Fearow
+|-damage|p2a: Fearow|134\/284
+|
+|turn|13
+|-mustrecharge|p2a: Fearow
+|-mustrecharge|p2a: Fearow
+|
+|cant|p2a: Fearow|recharge
+|move|p1a: Tauros|Blizzard|p2a: Fearow
+|-supereffective|p2a: Fearow
+|-damage|p2a: Fearow|0 fnt
+|faint|p2a: Fearow
+|
+|switch|p2a: Scyther|Scyther, L85|293\/293
+|turn|14
+|
+|switch|p1a: Vulpix|Vulpix, L96|268\/268
+|move|p2a: Scyther|Slash|p1a: Vulpix
+|-crit|p1a: Vulpix
+|-damage|p1a: Vulpix|113\/268
+|
+|turn|15
+|
+|move|p2a: Scyther|Slash|p1a: Vulpix
+|-crit|p1a: Vulpix
+|-damage|p1a: Vulpix|0 fnt
+|faint|p1a: Vulpix
+|
+|switch|p1a: Persian|Persian, L79|265\/265
+|turn|16
+|
+|move|p2a: Scyther|Slash|p1a: Persian
+|-crit|p1a: Persian
+|-damage|p1a: Persian|121\/265
+|move|p1a: Persian|Thunderbolt|p2a: Scyther
+|-crit|p2a: Scyther
+|-supereffective|p2a: Scyther
+|-damage|p2a: Scyther|66\/293
+|
+|turn|17
+|
+|move|p2a: Scyther|Slash|p1a: Persian
+|-crit|p1a: Persian
+|-damage|p1a: Persian|0 fnt
+|faint|p1a: Persian
+|
+|switch|p1a: Onix|Onix, L85|201\/233
+|turn|18
+|
+|switch|p2a: Krabby|Krabby, L96|252\/252
+|move|p1a: Onix|Rock Slide|p2a: Krabby
+|-damage|p2a: Krabby|209\/252
+|
+|turn|19
+|
+|switch|p1a: Zapdos|Zapdos, L79|205\/304
+|move|p2a: Krabby|Blizzard|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|114\/304
+|
+|turn|20
+|
+|switch|p2a: Rhyhorn|Rhyhorn, L96|122\/348
+|move|p1a: Zapdos|Thunderbolt|p2a: Rhyhorn
+|-immune|p2a: Rhyhorn|[msg]
+|
+|turn|21
+|
+|switch|p1a: Onix|Onix, L85|201\/233
+|move|p2a: Rhyhorn|Body Slam|p1a: Onix|[miss]
+|-miss|p2a: Rhyhorn
+|
+|turn|22
+|
+|switch|p2a: Krabby|Krabby, L96|209\/252
+|move|p1a: Onix|Rock Slide|p2a: Krabby
+|-damage|p2a: Krabby|163\/252
+|
+|turn|23
+|
+|switch|p1a: Mew|Mew, L74|222\/300 slp
+|move|p2a: Krabby|Body Slam|p1a: Mew
+|-damage|p1a: Mew|136\/300 slp
+|
+|turn|24
+|
+|cant|p1a: Mew|slp
+|move|p2a: Krabby|Swords Dance|p2a: Krabby
+|-boost|p2a: Krabby|atk|2
+|
+|turn|25
+|
+|switch|p1a: Zapdos|Zapdos, L79|114\/304
+|move|p2a: Krabby|Body Slam|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|switch|p1a: Tauros|Tauros, L79|45\/280
+|turn|26
+|
+|move|p1a: Tauros|Earthquake|p2a: Krabby
+|-damage|p2a: Krabby|110\/252
+|move|p2a: Krabby|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|switch|p1a: Onix|Onix, L85|201\/233
+|turn|27
+|
+|move|p1a: Onix|Earthquake|p2a: Krabby
+|-damage|p2a: Krabby|45\/252
+|move|p2a: Krabby|Crabhammer|p1a: Onix
+|-crit|p1a: Onix
+|-supereffective|p1a: Onix
+|-damage|p1a: Onix|0 fnt
+|faint|p1a: Onix
+|
+|switch|p1a: Mew|Mew, L74|136\/300 slp
+|turn|28
+|
+|cant|p1a: Mew|slp
+|-curestatus|p1a: Mew|slp
+|move|p2a: Krabby|Body Slam|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|win|eldougi
+|raw|Ladder updating...
+|raw|gpsm's rating: 1205 &rarr; <strong>1189<\/strong><br \/>(-16 for losing)
+|raw|eldougi's rating: 1331 &rarr; <strong>1344<\/strong><br \/>(+13 for winning)

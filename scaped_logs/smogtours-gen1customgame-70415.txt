@@ -1,0 +1,435 @@
+﻿|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|J|marcoasd
+|J|Sapientia
+|player|p1|marcoasd|1
+|player|p2|Sapientia|4
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Custom Game
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333\/333
+|switch|p2a: Mewtwo|Mewtwo|415\/415
+|turn|1
+|
+|switch|p2a: Slowbro|Slowbro|393\/393
+|move|p1a: Jynx|Lovely Kiss|p2a: Slowbro|[miss]
+|debug|randBW(256) = 201
+|-miss|p1a: Jynx
+|
+|turn|2
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Jynx|Lovely Kiss|p2a: Chansey
+|debug|randBW(256) = 12
+|-status|p2a: Chansey|slp
+|debug|randBW(1, 7) = 1
+|
+|turn|3
+|
+|move|p1a: Jynx|Ice Beam|p2a: Chansey
+|debug|randBW(256) = 34
+|debug|randBW(256) = 248
+|debug|randBW(217, 256) = 239
+|-damage|p2a: Chansey|597\/703 slp
+|debug|randBW(256) = 27
+|cant|p2a: Chansey|slp
+|-curestatus|p2a: Chansey|slp
+|
+|turn|4
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: Chansey
+|debug|randBW(256) = 65
+|-status|p2a: Chansey|slp
+|debug|randBW(1, 7) = 3
+|cant|p2a: Chansey|slp
+|
+|turn|5
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|cant|p2a: Chansey|slp
+|
+|turn|6
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Snorlax|Body Slam|p2a: Exeggutor
+|debug|randBW(256) = 203
+|debug|randBW(256) = 193
+|debug|randBW(217, 256) = 252
+|-damage|p2a: Exeggutor|266\/393
+|debug|randBW(256) = 254
+|
+|turn|7
+|
+|switch|p1a: Jynx|Jynx|333\/333
+|move|p2a: Exeggutor|Sleep Powder|p1a: Jynx
+|debug|randBW(256) = 185
+|-status|p1a: Jynx|slp
+|debug|randBW(1, 7) = 1
+|
+|turn|8
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Exeggutor|Leech Seed|p1a: Exeggutor
+|debug|randBW(256) = 220
+|-immune|p1a: Exeggutor|[msg]
+|
+|turn|9
+|
+|move|p2a: Exeggutor|Psychic|p1a: Exeggutor
+|debug|randBW(256) = 185
+|debug|randBW(256) = 152
+|-resisted|p1a: Exeggutor
+|debug|randBW(217, 256) = 218
+|-damage|p1a: Exeggutor|345\/393
+|debug|randBW(256) = 193
+|move|p1a: Exeggutor|Stun Spore|p2a: Exeggutor
+|debug|randBW(256) = 127
+|-status|p2a: Exeggutor|par
+|
+|turn|10
+|
+|move|p1a: Exeggutor|Psychic|p2a: Exeggutor
+|debug|randBW(256) = 21
+|debug|randBW(256) = 65
+|-resisted|p2a: Exeggutor
+|debug|randBW(217, 256) = 229
+|-damage|p2a: Exeggutor|215\/393 par
+|debug|randBW(256) = 101
+|debug|randBW(256) = 252
+|move|p2a: Exeggutor|Psychic|p1a: Exeggutor
+|debug|randBW(256) = 125
+|debug|randBW(256) = 37
+|-resisted|p1a: Exeggutor
+|debug|randBW(217, 256) = 247
+|-damage|p1a: Exeggutor|290\/393
+|debug|randBW(256) = 157
+|
+|turn|11
+|
+|switch|p1a: Jynx|Jynx|333\/333 slp
+|switch|p2a: Chansey|Chansey|597\/703 slp
+|
+|turn|12
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|switch|p2a: Slowbro|Slowbro|393\/393
+|
+|turn|13
+|
+|switch|p1a: Mewtwo|Mewtwo|415\/415
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|14
+|
+|move|p1a: Mewtwo|Amnesia|p1a: Mewtwo
+|-boost|p1a: Mewtwo|spd|2
+|-boost|p1a: Mewtwo|spa|2
+|move|p2a: Slowbro|Ice Beam|p1a: Mewtwo
+|debug|randBW(256) = 15
+|debug|randBW(256) = 145
+|debug|randBW(217, 256) = 245
+|-damage|p1a: Mewtwo|366\/415
+|debug|randBW(256) = 73
+|
+|turn|15
+|J|Regnite
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Slowbro
+|debug|randBW(256) = 183
+|debug|randBW(256) = 141
+|-supereffective|p2a: Slowbro
+|debug|randBW(217, 256) = 219
+|-damage|p2a: Slowbro|175\/393
+|debug|randBW(256) = 209
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|16
+|J|rise best girl
+|
+|switch|p2a: Mewtwo|Mewtwo|415\/415
+|move|p1a: Mewtwo|Thunderbolt|p2a: Mewtwo
+|debug|randBW(256) = 31
+|debug|randBW(256) = 165
+|debug|randBW(217, 256) = 226
+|-damage|p2a: Mewtwo|272\/415
+|debug|randBW(256) = 114
+|
+|turn|17
+|
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|move|p1a: Mewtwo|Ice Beam|p2a: Mewtwo
+|debug|randBW(256) = 123
+|debug|randBW(256) = 136
+|debug|randBW(217, 256) = 236
+|-damage|p2a: Mewtwo|198\/415
+|debug|randBW(256) = 70
+|
+|turn|18
+|L|Regnite
+|
+|move|p2a: Mewtwo|Ice Beam|p1a: Mewtwo
+|debug|randBW(256) = 148
+|debug|randBW(256) = 242
+|debug|randBW(217, 256) = 254
+|-damage|p1a: Mewtwo|286\/415
+|debug|randBW(256) = 36
+|move|p1a: Mewtwo|Ice Beam|p2a: Mewtwo
+|debug|randBW(256) = 156
+|debug|randBW(256) = 128
+|debug|randBW(217, 256) = 247
+|-damage|p2a: Mewtwo|120\/415
+|debug|randBW(256) = 36
+|
+|turn|19
+|
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|327\/415
+|move|p1a: Mewtwo|Ice Beam|p2a: Mewtwo
+|debug|randBW(256) = 201
+|debug|randBW(256) = 102
+|debug|randBW(217, 256) = 221
+|-damage|p2a: Mewtwo|257\/415
+|debug|randBW(256) = 217
+|
+|turn|20
+|J|Ranger mike
+|
+|move|p2a: Mewtwo|Ice Beam|p1a: Mewtwo
+|debug|randBW(256) = 24
+|debug|randBW(256) = 52
+|-crit|p1a: Mewtwo
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|debug|randBW(217, 256) = 222
+|-damage|p1a: Mewtwo|150\/415
+|debug|randBW(256) = 250
+|move|p1a: Mewtwo|Ice Beam|p2a: Mewtwo
+|debug|randBW(256) = 148
+|debug|randBW(256) = 49
+|-crit|p2a: Mewtwo
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|debug|randBW(217, 256) = 246
+|-damage|p2a: Mewtwo|106\/415
+|debug|randBW(256) = 119
+|
+|turn|21
+|J|the black beard
+|
+|move|p1a: Mewtwo|Ice Beam|p2a: Mewtwo
+|debug|randBW(256) = 44
+|debug|randBW(256) = 144
+|debug|randBW(217, 256) = 246
+|-damage|p2a: Mewtwo|28\/415
+|debug|randBW(256) = 3
+|-status|p2a: Mewtwo|frz
+|cant|p2a: Mewtwo|frz
+|
+|turn|22
+|
+|switch|p2a: Mew|Mew|403\/403
+|move|p1a: Mewtwo|Recover|p1a: Mewtwo
+|-heal|p1a: Mewtwo|357\/415
+|
+|turn|23
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Mew|Thunder Wave|p1a: Chansey
+|debug|randBW(256) = 128
+|-status|p1a: Chansey|par
+|
+|turn|24
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|debug|randBW(256) = 174
+|move|p1a: Chansey|Thunder Wave|p2a: Snorlax
+|debug|randBW(256) = 45
+|-status|p2a: Snorlax|par
+|
+|turn|25
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|debug|randBW(256) = 186
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|debug|randBW(256) = 228
+|debug|randBW(256) = 90
+|debug|randBW(217, 256) = 239
+|-damage|p1a: Snorlax|383\/523
+|
+|turn|26
+|
+|switch|p2a: Exeggutor|Exeggutor|215\/393 par
+|move|p1a: Snorlax|Body Slam|p2a: Exeggutor
+|debug|randBW(256) = 70
+|debug|randBW(256) = 91
+|debug|randBW(217, 256) = 254
+|-damage|p2a: Exeggutor|87\/393 par
+|debug|randBW(256) = 119
+|
+|turn|27
+|
+|switch|p2a: Mew|Mew|403\/403
+|move|p1a: Snorlax|Body Slam|p2a: Mew
+|debug|randBW(256) = 168
+|debug|randBW(256) = 14
+|-crit|p2a: Mew
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|debug|randBW(217, 256) = 227
+|-damage|p2a: Mew|203\/403
+|debug|randBW(256) = 193
+|
+|turn|28
+|
+|move|p2a: Mew|Reflect|p2a: Mew
+|-start|p2a: Mew|Reflect
+|move|p1a: Snorlax|Body Slam|p2a: Mew
+|debug|randBW(256) = 211
+|debug|randBW(256) = 2
+|debug|Screen doubling (Sp)Def
+|-crit|p2a: Mew
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|debug|randBW(217, 256) = 244
+|-damage|p2a: Mew|0 fnt
+|debug|randBW(256) = 173
+|faint|p2a: Mew
+|c|★marcoasd|!
+|c|★marcoasd|hax 2 the max
+|
+|switch|p2a: Slowbro|Slowbro|175\/393
+|turn|29
+|
+|move|p1a: Snorlax|Body Slam|p2a: Slowbro
+|debug|randBW(256) = 226
+|debug|randBW(256) = 230
+|debug|randBW(217, 256) = 243
+|-damage|p2a: Slowbro|72\/393
+|debug|randBW(256) = 12
+|-status|p2a: Slowbro|par
+|debug|randBW(256) = 106
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|debug|randBW(1, 7) = 4
+|-heal|p2a: Slowbro|393\/393 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|
+|turn|30
+|L|rise best girl
+|
+|switch|p1a: Mewtwo|Mewtwo|357\/415
+|switch|p2a: Exeggutor|Exeggutor|87\/393 par
+|
+|turn|31
+|
+|switch|p2a: Snorlax|Snorlax|523\/523 par
+|move|p1a: Mewtwo|Ice Beam|p2a: Snorlax
+|debug|randBW(256) = 212
+|debug|randBW(256) = 144
+|debug|randBW(217, 256) = 242
+|-damage|p2a: Snorlax|388\/523 par
+|debug|randBW(256) = 250
+|
+|turn|32
+|
+|switch|p1a: Exeggutor|Exeggutor|290\/393
+|debug|randBW(256) = 20
+|cant|p2a: Snorlax|par
+|
+|turn|33
+|
+|move|p1a: Exeggutor|Psychic|p2a: Snorlax
+|debug|randBW(256) = 205
+|debug|randBW(256) = 243
+|debug|randBW(217, 256) = 246
+|-damage|p2a: Snorlax|220\/523 par
+|debug|randBW(256) = 113
+|debug|randBW(256) = 47
+|cant|p2a: Snorlax|par
+|
+|turn|34
+|
+|move|p1a: Exeggutor|Psychic|p2a: Snorlax
+|debug|randBW(256) = 136
+|debug|randBW(256) = 130
+|debug|randBW(217, 256) = 249
+|-damage|p2a: Snorlax|50\/523 par
+|debug|randBW(256) = 251
+|debug|randBW(256) = 133
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp
+|debug|randBW(1, 7) = 2
+|-heal|p2a: Snorlax|523\/523 slp|[silent]
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|
+|turn|35
+|
+|switch|p2a: Exeggutor|Exeggutor|87\/393 par
+|move|p1a: Exeggutor|Psychic|p2a: Exeggutor
+|debug|randBW(256) = 7
+|debug|randBW(256) = 113
+|-resisted|p2a: Exeggutor
+|debug|randBW(217, 256) = 231
+|-damage|p2a: Exeggutor|36\/393 par
+|debug|randBW(256) = 102
+|
+|turn|36
+|
+|switch|p2a: Slowbro|Slowbro|393\/393 slp
+|move|p1a: Exeggutor|Psychic|p2a: Slowbro
+|debug|randBW(256) = 12
+|debug|randBW(256) = 130
+|-resisted|p2a: Slowbro
+|debug|randBW(217, 256) = 243
+|-damage|p2a: Slowbro|319\/393 slp
+|debug|randBW(256) = 98
+|
+|turn|37
+|
+|switch|p1a: Mewtwo|Mewtwo|357\/415
+|cant|p2a: Slowbro|slp
+|
+|turn|38
+|
+|switch|p2a: Snorlax|Snorlax|523\/523 slp
+|move|p1a: Mewtwo|Amnesia|p1a: Mewtwo
+|-boost|p1a: Mewtwo|spd|2
+|-boost|p1a: Mewtwo|spa|2
+|
+|turn|39
+|
+|move|p1a: Mewtwo|Ice Beam|p2a: Snorlax
+|debug|randBW(256) = 59
+|debug|randBW(256) = 94
+|debug|randBW(217, 256) = 228
+|-damage|p2a: Snorlax|268\/523 slp
+|debug|randBW(256) = 161
+|cant|p2a: Snorlax|slp
+|
+|turn|40
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Snorlax
+|debug|randBW(256) = 118
+|debug|randBW(256) = 9
+|-crit|p2a: Snorlax
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|debug|randBW(217, 256) = 243
+|-damage|p2a: Snorlax|4\/523 slp
+|debug|randBW(256) = 213
+|cant|p2a: Snorlax|slp
+|-curestatus|p2a: Snorlax|slp
+|
+|turn|41
+|c|★Sapientia|gg
+|-message|Sapientia forfeited.
+|
+|win|marcoasd

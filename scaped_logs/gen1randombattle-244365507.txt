@@ -1,0 +1,301 @@
+﻿|join|andrewandres
+|join|CoolInterlight
+|player|p1|andrewandres|16
+|player|p2|CoolInterlight|169
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gloom|Gloom, L90|291\/291
+|switch|p2a: Slowbro|Slowbro, L79|312\/312
+|turn|1
+|
+|switch|p2a: Pidgeot|Pidgeot, L90|333\/333
+|move|p1a: Gloom|Sleep Powder|p2a: Pidgeot
+|-status|p2a: Pidgeot|slp
+|
+|turn|2
+|
+|switch|p2a: Slowbro|Slowbro, L79|312\/312
+|move|p1a: Gloom|Swords Dance|p1a: Gloom
+|-boost|p1a: Gloom|atk|2
+|
+|turn|3
+|
+|move|p1a: Gloom|Double-Edge|p2a: Slowbro
+|-damage|p2a: Slowbro|190\/312
+|-damage|p1a: Gloom|261\/291|[from] recoil|[of] p2a: Slowbro
+|move|p2a: Slowbro|Thunder Wave|p1a: Gloom
+|-status|p1a: Gloom|par
+|
+|turn|4
+|
+|switch|p2a: Haunter|Haunter, L85|250\/250
+|cant|p1a: Gloom|par
+|
+|turn|5
+|
+|move|p2a: Haunter|Psychic|p1a: Gloom
+|-supereffective|p1a: Gloom
+|-damage|p1a: Gloom|123\/291 par
+|move|p1a: Gloom|Mega Drain|p2a: Haunter
+|-resisted|p2a: Haunter
+|-damage|p2a: Haunter|230\/250
+|-heal|p1a: Gloom|133\/291 par|[from] drain|[of] p2a: Haunter
+|
+|turn|6
+|
+|move|p2a: Haunter|Psychic|p1a: Gloom
+|-supereffective|p1a: Gloom
+|-damage|p1a: Gloom|3\/291 par
+|cant|p1a: Gloom|par
+|
+|turn|7
+|
+|move|p2a: Haunter|Psychic|p1a: Gloom
+|-crit|p1a: Gloom
+|-supereffective|p1a: Gloom
+|-damage|p1a: Gloom|0 fnt
+|faint|p1a: Gloom
+|
+|switch|p1a: Kadabra|Kadabra, L85|242\/242
+|turn|8
+|
+|switch|p2a: Nidoking|Nidoking, L85|311\/311
+|move|p1a: Kadabra|Psychic|p2a: Nidoking
+|-supereffective|p2a: Nidoking
+|-damage|p2a: Nidoking|44\/311
+|
+|turn|9
+|
+|move|p1a: Kadabra|Seismic Toss|p2a: Nidoking
+|-damage|p2a: Nidoking|0 fnt
+|faint|p2a: Nidoking
+|
+|switch|p2a: Slowbro|Slowbro, L79|190\/312
+|turn|10
+|
+|move|p1a: Kadabra|Thunder Wave|p2a: Slowbro
+|-status|p2a: Slowbro|par
+|move|p2a: Slowbro|Thunder Wave|p1a: Kadabra
+|-status|p1a: Kadabra|par
+|
+|turn|11
+|
+|move|p1a: Kadabra|Seismic Toss|p2a: Slowbro
+|-damage|p2a: Slowbro|105\/312 par
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|12
+|
+|cant|p2a: Slowbro|par
+|cant|p1a: Kadabra|par
+|
+|turn|13
+|
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|-heal|p2a: Slowbro|312\/312 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|cant|p1a: Kadabra|par
+|
+|turn|14
+|
+|switch|p1a: Haunter|Haunter, L85|250\/250
+|cant|p2a: Slowbro|slp
+|
+|turn|15
+|
+|move|p1a: Haunter|Mega Drain|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|277\/312 slp
+|cant|p2a: Slowbro|slp
+|-curestatus|p2a: Slowbro|slp
+|
+|turn|16
+|
+|move|p1a: Haunter|Explosion|p2a: Slowbro
+|-damage|p2a: Slowbro|119\/312
+|faint|p1a: Haunter
+|
+|switch|p1a: Persian|Persian, L79|265\/265
+|turn|17
+|
+|switch|p2a: Haunter|Haunter, L85|230\/250
+|move|p1a: Persian|Thunderbolt|p2a: Haunter
+|-damage|p2a: Haunter|189\/250
+|
+|turn|18
+|
+|move|p1a: Persian|Thunderbolt|p2a: Haunter
+|-damage|p2a: Haunter|152\/250
+|move|p2a: Haunter|Hypnosis|p1a: Persian
+|-status|p1a: Persian|slp
+|
+|turn|19
+|
+|switch|p1a: Flareon|Flareon, L90|300\/300
+|switch|p2a: Slowbro|Slowbro, L79|119\/312
+|
+|turn|20
+|
+|move|p1a: Flareon|Hyper Beam|p2a: Slowbro|[miss]
+|-miss|p1a: Flareon
+|move|p2a: Slowbro|Thunder Wave|p1a: Flareon
+|-status|p1a: Flareon|par
+|
+|turn|21
+|c|★andrewandres|stu`pid lucker...
+|c|★CoolInterlight|hey you will win
+|
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|-heal|p2a: Slowbro|312\/312 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|cant|p1a: Flareon|par
+|
+|turn|22
+|
+|cant|p2a: Slowbro|slp
+|move|p1a: Flareon|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|231\/312 slp
+|
+|turn|23
+|
+|cant|p2a: Slowbro|slp
+|-curestatus|p2a: Slowbro|slp
+|cant|p1a: Flareon|par
+|
+|turn|24
+|
+|move|p2a: Slowbro|Surf|p1a: Flareon
+|-supereffective|p1a: Flareon
+|-damage|p1a: Flareon|180\/300 par
+|move|p1a: Flareon|Hyper Beam|p2a: Slowbro
+|-damage|p2a: Slowbro|91\/312
+|
+|turn|25
+|-mustrecharge|p1a: Flareon
+|-mustrecharge|p1a: Flareon
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|cant|p1a: Flareon|recharge
+|
+|turn|26
+|
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|-heal|p2a: Slowbro|312\/312 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|move|p1a: Flareon|Hyper Beam|p2a: Slowbro
+|-damage|p2a: Slowbro|180\/312 slp
+|
+|turn|27
+|-mustrecharge|p1a: Flareon
+|-mustrecharge|p1a: Flareon
+|
+|cant|p2a: Slowbro|slp
+|cant|p1a: Flareon|recharge
+|
+|turn|28
+|
+|cant|p2a: Slowbro|slp
+|-curestatus|p2a: Slowbro|slp
+|move|p1a: Flareon|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|102\/312
+|-status|p2a: Slowbro|par
+|
+|turn|29
+|
+|cant|p2a: Slowbro|par
+|move|p1a: Flareon|Hyper Beam|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|
+|switch|p2a: Kabuto|Kabuto, L96|252\/252
+|turn|30
+|
+|switch|p1a: Pinsir|Pinsir, L85|284\/284
+|move|p2a: Kabuto|Surf|p1a: Pinsir
+|-damage|p1a: Pinsir|175\/284
+|
+|turn|31
+|
+|switch|p2a: Haunter|Haunter, L85|152\/250
+|move|p1a: Pinsir|Submission|p2a: Haunter
+|-immune|p2a: Haunter|[msg]
+|
+|turn|32
+|
+|switch|p1a: Kadabra|Kadabra, L85|242\/242 par
+|move|p2a: Haunter|Psychic|p1a: Kadabra
+|-resisted|p1a: Kadabra
+|-damage|p1a: Kadabra|214\/242 par
+|
+|turn|33
+|
+|switch|p2a: Pidgeot|Pidgeot, L90|333\/333 slp
+|move|p1a: Kadabra|Psychic|p2a: Pidgeot
+|-damage|p2a: Pidgeot|198\/333 slp
+|
+|turn|34
+|
+|cant|p2a: Pidgeot|slp
+|-curestatus|p2a: Pidgeot|slp
+|move|p1a: Kadabra|Psychic|p2a: Pidgeot
+|-damage|p2a: Pidgeot|76\/333
+|
+|turn|35
+|
+|switch|p1a: Pinsir|Pinsir, L85|175\/284
+|move|p2a: Pidgeot|Double-Edge|p1a: Pinsir
+|-damage|p1a: Pinsir|72\/284
+|-damage|p2a: Pidgeot|51\/333|[from] recoil|[of] p1a: Pinsir
+|
+|turn|36
+|
+|switch|p2a: Haunter|Haunter, L85|152\/250
+|move|p1a: Pinsir|Body Slam|p2a: Haunter
+|-immune|p2a: Haunter|[msg]
+|
+|turn|37
+|
+|move|p2a: Haunter|Thunderbolt|p1a: Pinsir
+|-damage|p1a: Pinsir|0 fnt
+|faint|p1a: Pinsir
+|
+|switch|p1a: Kadabra|Kadabra, L85|214\/242 par
+|turn|38
+|
+|move|p2a: Haunter|Explosion|p1a: Kadabra
+|-damage|p1a: Kadabra|0 fnt
+|faint|p1a: Kadabra
+|faint|p2a: Haunter
+|
+|switch|p2a: Kabuto|Kabuto, L96|252\/252
+|switch|p1a: Flareon|Flareon, L90|180\/300 par
+|turn|39
+|
+|move|p2a: Kabuto|Surf|p1a: Flareon
+|-supereffective|p1a: Flareon
+|-damage|p1a: Flareon|53\/300 par
+|cant|p1a: Flareon|par
+|
+|turn|40
+|-message|andrewandres forfeited.
+|
+|win|CoolInterlight
+|raw|Ladder updating...
+|leave|andrewandres
+|player|p1
+|raw|andrewandres's rating: 1268 &rarr; <strong>1228<\/strong><br \/>(-40 for losing)
+|raw|CoolInterlight's rating: 1040 &rarr; <strong>1094<\/strong><br \/>(+54 for winning)

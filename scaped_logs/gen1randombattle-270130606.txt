@@ -1,0 +1,277 @@
+﻿|join|yaldyyyy
+|join|MechabotuP
+|player|p1|yaldyyyy|101
+|player|p2|MechabotuP|80
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Staryu|Staryu, L90|237\/237
+|switch|p2a: Moltres|Moltres, L85|327\/327
+|turn|1
+|
+|switch|p2a: Vileplume|Vileplume, L90|318\/318
+|move|p1a: Staryu|Surf|p2a: Vileplume
+|-resisted|p2a: Vileplume
+|-damage|p2a: Vileplume|279\/318
+|
+|turn|2
+|
+|move|p1a: Staryu|Blizzard|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|149\/318
+|move|p2a: Vileplume|Sleep Powder|p1a: Staryu
+|-status|p1a: Staryu|slp
+|
+|turn|3
+|
+|switch|p1a: Horsea|Horsea, L96|252\/252
+|move|p2a: Vileplume|Swords Dance|p2a: Vileplume
+|-boost|p2a: Vileplume|atk|2
+|
+|turn|4
+|
+|move|p1a: Horsea|Blizzard|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|293\/293
+|turn|5
+|
+|move|p2a: Mewtwo|Thunderbolt|p1a: Horsea
+|-supereffective|p1a: Horsea
+|-damage|p1a: Horsea|132\/252
+|move|p1a: Horsea|Blizzard|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|156\/293
+|
+|turn|6
+|
+|move|p2a: Mewtwo|Psychic|p1a: Horsea
+|-damage|p1a: Horsea|47\/252
+|move|p1a: Horsea|Blizzard|p2a: Mewtwo
+|-damage|p2a: Mewtwo|89\/293
+|
+|turn|7
+|
+|move|p2a: Mewtwo|Psychic|p1a: Horsea
+|-damage|p1a: Horsea|0 fnt
+|faint|p1a: Horsea
+|
+|switch|p1a: Mew|Mew, L74|300\/300
+|turn|8
+|
+|move|p2a: Mewtwo|Thunder Wave|p1a: Mew
+|-status|p1a: Mew|par
+|move|p1a: Mew|Swords Dance|p1a: Mew
+|-boost|p1a: Mew|atk|2
+|
+|turn|9
+|
+|move|p2a: Mewtwo|Thunderbolt|p1a: Mew
+|-damage|p1a: Mew|233\/300 par
+|move|p1a: Mew|Hyper Beam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|0 fnt
+|faint|p2a: Mewtwo
+|
+|switch|p2a: Vulpix|Vulpix, L96|268\/268
+|turn|10
+|
+|move|p2a: Vulpix|Confuse Ray|p1a: Mew
+|-start|p1a: Mew|confusion
+|-activate|p1a: Mew|confusion
+|-damage|p1a: Mew|182\/300 par|[from] confusion
+|
+|turn|11
+|
+|move|p2a: Vulpix|Fire Blast|p1a: Mew
+|-damage|p1a: Mew|52\/300 par
+|-end|p1a: Mew|confusion
+|move|p1a: Mew|Hyper Beam|p2a: Vulpix
+|-damage|p2a: Vulpix|43\/268
+|
+|turn|12
+|-mustrecharge|p1a: Mew
+|-mustrecharge|p1a: Mew
+|
+|move|p2a: Vulpix|Body Slam|p1a: Mew
+|-damage|p1a: Mew|4\/300 par
+|cant|p1a: Mew|recharge
+|
+|turn|13
+|
+|move|p2a: Vulpix|Body Slam|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|switch|p1a: Alakazam|Alakazam, L79|249\/249
+|turn|14
+|
+|move|p1a: Alakazam|Psychic|p2a: Vulpix
+|-damage|p2a: Vulpix|0 fnt
+|faint|p2a: Vulpix
+|
+|switch|p2a: Gyarados|Gyarados, L85|335\/335
+|turn|15
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Gyarados
+|-status|p2a: Gyarados|par
+|move|p2a: Gyarados|Hyper Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|51\/249
+|
+|turn|16
+|-mustrecharge|p2a: Gyarados
+|-mustrecharge|p2a: Gyarados
+|
+|move|p1a: Alakazam|Psychic|p2a: Gyarados
+|-crit|p2a: Gyarados
+|-damage|p2a: Gyarados|163\/335 par
+|-unboost|p2a: Gyarados|spd|1
+|-unboost|p2a: Gyarados|spa|1
+|cant|p2a: Gyarados|recharge
+|
+|turn|17
+|
+|switch|p2a: Moltres|Moltres, L85|327\/327
+|move|p1a: Alakazam|Psychic|p2a: Moltres
+|-crit|p2a: Moltres
+|-damage|p2a: Moltres|162\/327
+|-unboost|p2a: Moltres|spd|1
+|-unboost|p2a: Moltres|spa|1
+|
+|turn|18
+|
+|move|p1a: Alakazam|Psychic|p2a: Moltres
+|-crit|p2a: Moltres
+|-damage|p2a: Moltres|9\/327
+|move|p2a: Moltres|Hyper Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|switch|p1a: Nidoqueen|Nidoqueen, L85|327\/327
+|turn|19
+|
+|move|p2a: Moltres|Fire Blast|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|216\/327
+|move|p1a: Nidoqueen|Thunder|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|
+|switch|p2a: Gyarados|Gyarados, L85|163\/335 par
+|turn|20
+|
+|move|p1a: Nidoqueen|Thunder|p2a: Gyarados|[miss]
+|-miss|p1a: Nidoqueen
+|move|p2a: Gyarados|Thunderbolt|p1a: Nidoqueen
+|-immune|p1a: Nidoqueen|[msg]
+|
+|turn|21
+|c|★MechabotuP|missclick
+|
+|move|p1a: Nidoqueen|Thunder|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|switch|p2a: Persian|Persian, L79|265\/265
+|turn|22
+|
+|move|p2a: Persian|Slash|p1a: Nidoqueen
+|-crit|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|114\/327
+|move|p1a: Nidoqueen|Earthquake|p2a: Persian
+|-damage|p2a: Persian|133\/265
+|
+|turn|23
+|
+|move|p2a: Persian|Hyper Beam|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|0 fnt
+|faint|p1a: Nidoqueen
+|
+|switch|p1a: Parasect|Parasect, L90|291\/291
+|turn|24
+|
+|move|p2a: Persian|Body Slam|p1a: Parasect
+|-damage|p1a: Parasect|225\/291
+|-status|p1a: Parasect|par
+|cant|p1a: Parasect|par
+|
+|turn|25
+|
+|move|p2a: Persian|Slash|p1a: Parasect
+|-crit|p1a: Parasect
+|-damage|p1a: Parasect|120\/291 par
+|cant|p1a: Parasect|par
+|
+|turn|26
+|
+|move|p2a: Persian|Hyper Beam|p1a: Parasect
+|-damage|p1a: Parasect|7\/291 par
+|move|p1a: Parasect|Spore|p2a: Persian
+|-status|p2a: Persian|slp
+|
+|turn|27
+|-mustrecharge|p2a: Persian
+|-mustrecharge|p2a: Persian
+|
+|switch|p1a: Staryu|Staryu, L90|237\/237 slp
+|cant|p2a: Persian|recharge
+|
+|turn|28
+|
+|cant|p2a: Persian|slp
+|cant|p1a: Staryu|slp
+|
+|turn|29
+|
+|cant|p2a: Persian|slp
+|cant|p1a: Staryu|slp
+|
+|turn|30
+|
+|-curestatus|p2a: Persian|slp
+|cant|p1a: Staryu|slp
+|
+|turn|31
+|
+|move|p2a: Persian|Thunderbolt|p1a: Staryu
+|-supereffective|p1a: Staryu
+|-damage|p1a: Staryu|143\/237 slp
+|-curestatus|p1a: Staryu|slp
+|
+|turn|32
+|
+|move|p2a: Persian|Thunderbolt|p1a: Staryu
+|-supereffective|p1a: Staryu
+|-damage|p1a: Staryu|42\/237
+|move|p1a: Staryu|Surf|p2a: Persian
+|-damage|p2a: Persian|20\/265
+|
+|turn|33
+|
+|move|p2a: Persian|Thunderbolt|p1a: Staryu
+|-supereffective|p1a: Staryu
+|-damage|p1a: Staryu|0 fnt
+|faint|p1a: Staryu
+|
+|switch|p1a: Parasect|Parasect, L90|7\/291 par
+|turn|34
+|c|★MechabotuP|gg
+|
+|move|p2a: Persian|Thunderbolt|p1a: Parasect
+|-resisted|p1a: Parasect
+|-damage|p1a: Parasect|0 fnt
+|faint|p1a: Parasect
+|
+|win|MechabotuP
+|raw|yaldyyyy's rating: 1205 &rarr; <strong>1166<\/strong><br \/>(-39 for losing)
+|raw|MechabotuP's rating: 1000 &rarr; <strong>1061<\/strong><br \/>(+61 for winning)
+|leave|yaldyyyy
+|player|p1

@@ -1,0 +1,198 @@
+﻿|join|yaldyyyy
+|join|Geoffrei
+|player|p1|yaldyyyy|275
+|player|p2|Geoffrei|278
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Geodude|Geodude, L96|272\/272
+|switch|p2a: Machamp|Machamp, L90|345\/345
+|turn|1
+|
+|switch|p1a: Kangaskhan|Kangaskhan, L85|352\/352
+|move|p2a: Machamp|Earthquake|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|252\/352
+|
+|turn|2
+|
+|move|p1a: Kangaskhan|Body Slam|p2a: Machamp
+|-damage|p2a: Machamp|255\/345
+|move|p2a: Machamp|Submission|p1a: Kangaskhan
+|-supereffective|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|22\/352
+|-damage|p2a: Machamp|198\/345|[from] recoil|[of] p1a: Kangaskhan
+|
+|turn|3
+|
+|move|p1a: Kangaskhan|Hyper Beam|p2a: Machamp
+|-damage|p2a: Machamp|48\/345
+|move|p2a: Machamp|Body Slam|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|0 fnt
+|faint|p1a: Kangaskhan
+|
+|switch|p1a: Magmar|Magmar, L90|300\/300
+|turn|4
+|
+|switch|p2a: Onix|Onix, L90|246\/246
+|move|p1a: Magmar|Fire Blast|p2a: Onix
+|-crit|p2a: Onix
+|-resisted|p2a: Onix
+|-damage|p2a: Onix|52\/246
+|
+|turn|5
+|
+|move|p1a: Magmar|Fire Blast|p2a: Onix
+|-resisted|p2a: Onix
+|-damage|p2a: Onix|0 fnt
+|faint|p2a: Onix
+|
+|switch|p2a: Golduck|Golduck, L85|310\/310
+|turn|6
+|
+|switch|p1a: Magneton|Magneton, L90|273\/273
+|move|p2a: Golduck|Amnesia|p2a: Golduck
+|-boost|p2a: Golduck|spd|2
+|-boost|p2a: Golduck|spa|2
+|
+|turn|7
+|
+|switch|p2a: Electabuzz|Electabuzz, L85|284\/284
+|move|p1a: Magneton|Thunderbolt|p2a: Electabuzz
+|-resisted|p2a: Electabuzz
+|-damage|p2a: Electabuzz|215\/284
+|
+|turn|8
+|
+|switch|p1a: Geodude|Geodude, L96|272\/272
+|move|p2a: Electabuzz|Psychic|p1a: Geodude
+|-damage|p1a: Geodude|187\/272
+|
+|turn|9
+|
+|switch|p2a: Machamp|Machamp, L90|48\/345
+|move|p1a: Geodude|Earthquake|p2a: Machamp
+|-damage|p2a: Machamp|0 fnt
+|faint|p2a: Machamp
+|
+|switch|p2a: Mew|Mew, L74|300\/300
+|turn|10
+|
+|switch|p1a: Magneton|Magneton, L90|273\/273
+|move|p2a: Mew|Blizzard|p1a: Magneton
+|-crit|p1a: Magneton
+|-damage|p1a: Magneton|174\/273
+|
+|turn|11
+|
+|move|p2a: Mew|Swift|p1a: Magneton
+|-damage|p1a: Magneton|143\/273
+|move|p1a: Magneton|Thunder Wave|p2a: Mew
+|-status|p2a: Mew|par
+|
+|turn|12
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Mew
+|-damage|p2a: Mew|155\/300 par
+|move|p2a: Mew|Blizzard|p1a: Magneton
+|-crit|p1a: Magneton
+|-damage|p1a: Magneton|44\/273
+|-status|p1a: Magneton|frz
+|
+|turn|13
+|
+|cant|p1a: Magneton|frz
+|cant|p2a: Mew|par
+|
+|turn|14
+|
+|cant|p1a: Magneton|frz
+|move|p2a: Mew|Blizzard|p1a: Magneton|[miss]
+|-miss|p2a: Mew
+|
+|turn|15
+|
+|cant|p1a: Magneton|frz
+|move|p2a: Mew|Blizzard|p1a: Magneton|[miss]
+|-miss|p2a: Mew
+|
+|turn|16
+|
+|cant|p1a: Magneton|frz
+|move|p2a: Mew|Blizzard|p1a: Magneton
+|-damage|p1a: Magneton|0 fnt
+|faint|p1a: Magneton
+|
+|switch|p1a: Magmar|Magmar, L90|300\/300
+|turn|17
+|
+|move|p1a: Magmar|Fire Blast|p2a: Mew
+|-damage|p2a: Mew|23\/300 par
+|move|p2a: Mew|Thunder Wave|p1a: Magmar
+|-status|p1a: Magmar|par
+|
+|turn|18
+|
+|move|p1a: Magmar|Fire Blast|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|switch|p2a: Golduck|Golduck, L85|310\/310
+|turn|19
+|
+|switch|p1a: Pikachu|Pikachu, L96|262\/262
+|move|p2a: Golduck|Amnesia|p2a: Golduck
+|-boost|p2a: Golduck|spd|2
+|-boost|p2a: Golduck|spa|2
+|
+|turn|20
+|
+|move|p1a: Pikachu|Thunderbolt|p2a: Golduck
+|-supereffective|p2a: Golduck
+|-damage|p2a: Golduck|221\/310
+|move|p2a: Golduck|Surf|p1a: Pikachu
+|-damage|p1a: Pikachu|55\/262
+|
+|turn|21
+|
+|move|p1a: Pikachu|Thunder|p2a: Golduck
+|-supereffective|p2a: Golduck
+|-damage|p2a: Golduck|104\/310
+|move|p2a: Golduck|Surf|p1a: Pikachu
+|-damage|p1a: Pikachu|0 fnt
+|faint|p1a: Pikachu
+|
+|switch|p1a: Weepinbell|Weepinbell, L85|284\/284
+|turn|22
+|
+|move|p2a: Golduck|Blizzard|p1a: Weepinbell
+|-supereffective|p1a: Weepinbell
+|-damage|p1a: Weepinbell|0 fnt
+|faint|p1a: Weepinbell
+|
+|switch|p1a: Magmar|Magmar, L90|300\/300 par
+|turn|23
+|
+|move|p2a: Golduck|Surf|p1a: Magmar
+|-supereffective|p1a: Magmar
+|-damage|p1a: Magmar|0 fnt
+|faint|p1a: Magmar
+|
+|switch|p1a: Geodude|Geodude, L96|187\/272
+|turn|24
+|
+|move|p2a: Golduck|Surf|p1a: Geodude
+|-crit|p1a: Geodude
+|-supereffective|p1a: Geodude
+|-damage|p1a: Geodude|0 fnt
+|faint|p1a: Geodude
+|
+|win|Geoffrei
+|raw|Ladder updating...
+|raw|yaldyyyy's rating: 1191 &rarr; <strong>1153<\/strong><br \/>(-38 for losing)
+|raw|Geoffrei's rating: 1000 &rarr; <strong>1060<\/strong><br \/>(+60 for winning)

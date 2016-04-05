@@ -1,0 +1,46 @@
+﻿|j|Fella McFellerson
+|j|johnblade9000
+|player|p1|Fella McFellerson|162
+|player|p2|johnblade9000|163
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|3874,61907,40659,13105
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Vileplume|Vileplume, L90|318\/318
+|switch|p2a: Drowzee|Drowzee, L96|310\/310
+|turn|1
+|choice|move 1|move 3
+|
+|move|p1a: Vileplume|Sleep Powder|p2a: Drowzee
+|-status|p2a: Drowzee|slp
+|-curestatus|p2a: Drowzee|slp
+|
+|turn|2
+|choice|move 1|switch 2
+|
+|switch|p2a: Metapod|Metapod, L99|300\/300
+|move|p1a: Vileplume|Sleep Powder|p2a: Metapod
+|-status|p2a: Metapod|slp
+|
+|turn|3
+|choice|move 4|move 2
+|
+|move|p1a: Vileplume|Swords Dance|p1a: Vileplume
+|-boost|p1a: Vileplume|atk|2
+|cant|p2a: Metapod|slp
+|
+|turn|4
+|-message|johnblade9000 forfeited.
+|
+|win|Fella McFellerson
+|player|p1
+|player|p2
+|l|johnblade9000
+|raw|Fella McFellerson's rating: 1291 &rarr; <strong>1305<\/strong><br \/>(+14 for winning)
+|raw|johnblade9000's rating: 1124 &rarr; <strong>1110<\/strong><br \/>(-14 for losing)

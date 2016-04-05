@@ -1,0 +1,217 @@
+﻿|join|downsey238
+|join|Brendonfa
+|player|p1|downsey238|56
+|player|p2|Brendonfa|229
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|seed|29128,52716,8885,41069
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Voltorb|Voltorb, L96|272\/272
+|switch|p2a: Jigglypuff|Jigglypuff, L99|428\/428
+|turn|1
+|choice|move 4|move 1
+|
+|move|p1a: Voltorb|Thunder|p2a: Jigglypuff
+|-damage|p2a: Jigglypuff|237\/428
+|move|p2a: Jigglypuff|Sing|p1a: Voltorb|[miss]
+|-miss|p2a: Jigglypuff
+|
+|turn|2
+|choice|move 3|move 1
+|
+|move|p1a: Voltorb|Thunderbolt|p2a: Jigglypuff
+|-crit|p2a: Jigglypuff
+|-damage|p2a: Jigglypuff|0 fnt
+|faint|p2a: Jigglypuff
+|choice||switch 2
+|
+|switch|p2a: Drowzee|Drowzee, L96|310\/310
+|turn|3
+|choice|move 4|move 3
+|
+|move|p1a: Voltorb|Thunder|p2a: Drowzee|[miss]
+|-miss|p1a: Voltorb
+|move|p2a: Drowzee|Hypnosis|p1a: Voltorb|[miss]
+|-miss|p2a: Drowzee
+|
+|turn|4
+|choice|move 4|move 1
+|
+|move|p1a: Voltorb|Thunder|p2a: Drowzee
+|-crit|p2a: Drowzee
+|-damage|p2a: Drowzee|114\/310
+|move|p2a: Drowzee|Psychic|p1a: Voltorb
+|-crit|p1a: Voltorb
+|-damage|p1a: Voltorb|0 fnt
+|faint|p1a: Voltorb
+|choice|switch 2|
+|
+|switch|p1a: Abra|Abra, L96|243\/243
+|turn|5
+|choice|move 3|move 3
+|
+|move|p1a: Abra|Seismic Toss|p2a: Drowzee
+|-damage|p2a: Drowzee|18\/310
+|move|p2a: Drowzee|Hypnosis|p1a: Abra|[miss]
+|-miss|p2a: Drowzee
+|
+|turn|6
+|choice|move 3|switch 6
+|
+|switch|p2a: Mewtwo|Mewtwo, L68|285\/285
+|move|p1a: Abra|Seismic Toss|p2a: Mewtwo
+|-damage|p2a: Mewtwo|189\/285
+|
+|turn|7
+|choice|move 2|move 4
+|
+|move|p1a: Abra|Thunder Wave|p2a: Mewtwo
+|-status|p2a: Mewtwo|par
+|move|p2a: Mewtwo|Thunderbolt|p1a: Abra
+|-damage|p1a: Abra|194\/243
+|
+|turn|8
+|choice|move 4|move 2
+|
+|move|p1a: Abra|Reflect|p1a: Abra
+|-start|p1a: Abra|Reflect
+|move|p2a: Mewtwo|Blizzard|p1a: Abra
+|-damage|p1a: Abra|134\/243
+|
+|turn|9
+|choice|move 3|move 2
+|
+|move|p1a: Abra|Seismic Toss|p2a: Mewtwo
+|-damage|p2a: Mewtwo|93\/285 par
+|move|p2a: Mewtwo|Blizzard|p1a: Abra
+|-damage|p1a: Abra|69\/243
+|
+|turn|10
+|choice|move 3|move 3
+|
+|move|p1a: Abra|Seismic Toss|p2a: Mewtwo
+|-damage|p2a: Mewtwo|0 fnt
+|faint|p2a: Mewtwo
+|choice||switch 3
+|
+|switch|p2a: Magneton|Magneton, L90|273\/273
+|turn|11
+|choice|move 2|move 1
+|
+|move|p1a: Abra|Thunder Wave|p2a: Magneton
+|-status|p2a: Magneton|par
+|move|p2a: Magneton|Thunderbolt|p1a: Abra
+|-damage|p1a: Abra|0 fnt
+|faint|p1a: Abra
+|choice|switch 6|
+|
+|switch|p1a: Machoke|Machoke, L85|310\/310
+|turn|12
+|choice|move 4|move 1
+|
+|move|p1a: Machoke|Rock Slide|p2a: Magneton
+|-damage|p2a: Magneton|222\/273 par
+|cant|p2a: Magneton|par
+|
+|turn|13
+|choice|move 1|move 1
+|
+|move|p1a: Machoke|Body Slam|p2a: Magneton
+|-damage|p2a: Magneton|168\/273 par
+|move|p2a: Magneton|Thunderbolt|p1a: Machoke
+|-crit|p1a: Machoke
+|-damage|p1a: Machoke|0 fnt
+|faint|p1a: Machoke
+|choice|switch 3|
+|
+|switch|p1a: Zapdos|Zapdos, L79|304\/304
+|turn|14
+|choice|move 2|move 4
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Magneton
+|-crit|p2a: Magneton
+|-resisted|p2a: Magneton
+|-damage|p2a: Magneton|100\/273 par
+|cant|p2a: Magneton|par
+|
+|turn|15
+|choice|move 2|move 4
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Magneton
+|-crit|p2a: Magneton
+|-resisted|p2a: Magneton
+|-damage|p2a: Magneton|33\/273 par
+|move|p2a: Magneton|Double-Edge|p1a: Zapdos
+|-damage|p1a: Zapdos|240\/304
+|-damage|p2a: Magneton|17\/273 par|[from] recoil|[of] p1a: Zapdos
+|
+|turn|16
+|choice|move 2|move 1
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Magneton
+|-resisted|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|faint|p2a: Magneton
+|choice||switch 6
+|
+|switch|p2a: Drowzee|Drowzee, L96|18\/310
+|turn|17
+|choice|move 2|move 2
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Drowzee
+|-damage|p2a: Drowzee|0 fnt
+|faint|p2a: Drowzee
+|choice||switch 5
+|
+|switch|p2a: Poliwrath|Poliwrath, L85|327\/327
+|turn|18
+|choice|move 1|move 4
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Poliwrath
+|-supereffective|p2a: Poliwrath
+|-damage|p2a: Poliwrath|99\/327
+|move|p2a: Poliwrath|Blizzard|p1a: Zapdos|[miss]
+|-miss|p2a: Poliwrath
+|
+|turn|19
+|choice|move 1|move 4
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Poliwrath
+|-supereffective|p2a: Poliwrath
+|-damage|p2a: Poliwrath|0 fnt
+|faint|p2a: Poliwrath
+|choice||switch 4
+|
+|switch|p2a: Butterfree|Butterfree, L90|291\/291
+|turn|20
+|choice|move 2|move 3
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Butterfree
+|-supereffective|p2a: Butterfree
+|-damage|p2a: Butterfree|99\/291
+|move|p2a: Butterfree|Sleep Powder|p1a: Zapdos
+|-status|p1a: Zapdos|slp
+|
+|turn|21
+|choice|move 2|move 2
+|
+|-curestatus|p1a: Zapdos|slp
+|move|p2a: Butterfree|Mega Drain|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|228\/304
+|-heal|p2a: Butterfree|105\/291|[from] drain|[of] p1a: Zapdos
+|
+|turn|22
+|choice|move 2|move 1
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Butterfree
+|-supereffective|p2a: Butterfree
+|-damage|p2a: Butterfree|0 fnt
+|faint|p2a: Butterfree
+|
+|win|downsey238

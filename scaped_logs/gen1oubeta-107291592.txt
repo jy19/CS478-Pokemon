@@ -1,0 +1,87 @@
+﻿|join|ashiemore
+|join|kid gf lol
+|player|p1|ashiemore|25
+|player|p2|kid gf lol|168
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|switch|p1a: Gengar|Gengar|323\/323
+|switch|p2a: Cat though|Jolteon|333\/333
+|turn|1
+|chat|kid gf lol|this time go to egg
+|
+|switch|p2a: Oyster though|Cloyster|303\/303
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|
+|turn|2
+|
+|move|p2a: Oyster though|Clamp|p1a: Exeggutor|[miss]
+|-miss|p2a: Oyster though
+|move|p1a: Exeggutor|Stun Spore|p2a: Oyster though
+|-status|p2a: Oyster though|par
+|
+|turn|3
+|
+|move|p1a: Exeggutor|Stun Spore|p2a: Oyster though
+|-fail|p2a: Oyster though|par
+|move|p2a: Oyster though|Clamp|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|376\/393
+|-activate|p1a: Exeggutor|move: Clamp|[of] p2a: Oyster though
+|
+|turn|4
+|chat|kid gf lol|no switch to golem
+|
+|cant|p1a: Exeggutor|partiallytrapped
+|move|p2a: Oyster though|Clamp|p1a: Exeggutor
+|-damage|p1a: Exeggutor|359\/393
+|
+|-end|p1a: Exeggutor|Clamp|[partiallytrapped]
+|turn|5
+|chat|ashiemore|oops
+|
+|move|p1a: Exeggutor|Stun Spore|p2a: Oyster though
+|-fail|p2a: Oyster though|par
+|move|p2a: Oyster though|Clamp|p1a: Exeggutor|[miss]
+|-miss|p2a: Oyster though
+|
+|turn|6
+|
+|move|p1a: Exeggutor|Stun Spore|p2a: Oyster though
+|-fail|p2a: Oyster though|par
+|move|p2a: Oyster though|Clamp|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|344\/393
+|-activate|p1a: Exeggutor|move: Clamp|[of] p2a: Oyster though
+|
+|turn|7
+|
+|switch|p1a: Rhydon|Rhydon|413\/413
+|move|p2a: Oyster though|Clamp|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|157\/413
+|-activate|p1a: Rhydon|move: Clamp|[of] p2a: Oyster though
+|
+|turn|8
+|
+|cant|p1a: Rhydon|partiallytrapped
+|move|p2a: Oyster though|Clamp|p1a: Rhydon
+|-damage|p1a: Rhydon|142\/413
+|
+|turn|9
+|chat|kid gf lol|haha
+|chat|ashiemore|:P
+|-message|ashiemore forfeited.
+|
+|win|kid gf lol
+|chat|kid gf lol|thought so
+|chat|ashiemore|yea

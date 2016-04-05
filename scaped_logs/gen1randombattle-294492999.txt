@@ -1,0 +1,200 @@
+﻿|join|riwu
+|join|PickledBeets
+|player|p1|riwu|2
+|player|p2|PickledBeets|162
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|49496,12332,61465,3582
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Pikachu|Pikachu, L96|262\/262
+|switch|p2a: Alakazam|Alakazam, L79|249\/249
+|turn|1
+|choice|move 3|move 1
+|
+|move|p2a: Alakazam|Psychic|p1a: Pikachu
+|-damage|p1a: Pikachu|135\/262
+|-unboost|p1a: Pikachu|spd|1
+|-unboost|p1a: Pikachu|spa|1
+|move|p1a: Pikachu|Thunder Wave|p2a: Alakazam
+|-status|p2a: Alakazam|par
+|
+|turn|2
+|choice|switch 2|move 1
+|
+|switch|p1a: Scyther|Scyther, L90|309\/309
+|move|p2a: Alakazam|Psychic|p1a: Scyther
+|-damage|p1a: Scyther|178\/309
+|
+|turn|3
+|choice|move 3|move 1
+|
+|move|p1a: Scyther|Slash|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-damage|p2a: Alakazam|68\/249 par
+|move|p2a: Alakazam|Psychic|p1a: Scyther
+|-damage|p1a: Scyther|42\/309
+|
+|turn|4
+|choice|move 3|move 1
+|
+|move|p1a: Scyther|Slash|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|choice||switch 4
+|
+|switch|p2a: Jolteon|Jolteon, L79|265\/265
+|turn|5
+|choice|switch 6|move 1
+|
+|switch|p1a: Sandslash|Sandslash, L85|301\/301
+|move|p2a: Jolteon|Thunderbolt|p1a: Sandslash
+|-immune|p1a: Sandslash|[msg]
+|
+|turn|6
+|choice|move 2|switch 5
+|
+|switch|p2a: Articuno|Articuno, L79|304\/304
+|move|p1a: Sandslash|Rock Slide|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|72\/304
+|
+|turn|7
+|choice|switch 3|move 3
+|
+|switch|p1a: Dewgong|Dewgong, L85|327\/327
+|move|p2a: Articuno|Blizzard|p1a: Dewgong
+|-resisted|p1a: Dewgong
+|-damage|p1a: Dewgong|297\/327
+|
+|turn|8
+|choice|move 3|switch 2
+|
+|switch|p2a: Krabby|Krabby, L96|252\/252
+|move|p1a: Dewgong|Surf|p2a: Krabby
+|-resisted|p2a: Krabby
+|-damage|p2a: Krabby|170\/252
+|
+|turn|9
+|choice|move 3|move 2
+|
+|move|p1a: Dewgong|Surf|p2a: Krabby
+|-crit|p2a: Krabby
+|-resisted|p2a: Krabby
+|-damage|p2a: Krabby|2\/252
+|move|p2a: Krabby|Body Slam|p1a: Dewgong
+|-damage|p1a: Dewgong|217\/327
+|
+|turn|10
+|choice|move 3|move 2
+|
+|move|p1a: Dewgong|Surf|p2a: Krabby
+|-resisted|p2a: Krabby
+|-damage|p2a: Krabby|0 fnt
+|faint|p2a: Krabby
+|choice||switch 3
+|
+|switch|p2a: Bulbasaur|Bulbasaur, L96|281\/281
+|turn|11
+|choice|move 1|move 3
+|
+|move|p1a: Dewgong|Blizzard|p2a: Bulbasaur
+|-supereffective|p2a: Bulbasaur
+|-damage|p2a: Bulbasaur|0 fnt
+|faint|p2a: Bulbasaur
+|choice||switch 5
+|
+|switch|p2a: Jolteon|Jolteon, L79|265\/265
+|turn|12
+|choice|switch 3|switch 6
+|
+|switch|p2a: Pinsir|Pinsir, L85|284\/284
+|switch|p1a: Sandslash|Sandslash, L85|301\/301
+|
+|turn|13
+|choice|move 2|move 3
+|
+|move|p2a: Pinsir|Swords Dance|p2a: Pinsir
+|-boost|p2a: Pinsir|atk|2
+|move|p1a: Sandslash|Rock Slide|p2a: Pinsir|[miss]
+|-miss|p1a: Sandslash
+|
+|turn|14
+|choice|move 2|move 1
+|
+|move|p2a: Pinsir|Body Slam|p1a: Sandslash
+|-damage|p1a: Sandslash|165\/301
+|-status|p1a: Sandslash|par
+|move|p1a: Sandslash|Rock Slide|p2a: Pinsir
+|-supereffective|p2a: Pinsir
+|-damage|p2a: Pinsir|185\/284
+|
+|turn|15
+|choice|switch 5|move 4
+|
+|switch|p1a: Lickitung|Lickitung, L90|345\/345
+|move|p2a: Pinsir|Hyper Beam|p1a: Lickitung
+|-damage|p1a: Lickitung|63\/345
+|
+|turn|16
+|-mustrecharge|p2a: Pinsir
+|-mustrecharge|p2a: Pinsir
+|choice|move 4|move 1
+|
+|cant|p2a: Pinsir|recharge
+|move|p1a: Lickitung|Hyper Beam|p2a: Pinsir
+|-damage|p2a: Pinsir|75\/284
+|
+|turn|17
+|-mustrecharge|p1a: Lickitung
+|-mustrecharge|p1a: Lickitung
+|choice|move 1|move 3
+|
+|move|p2a: Pinsir|Swords Dance|p2a: Pinsir
+|-boost|p2a: Pinsir|atk|2
+|cant|p1a: Lickitung|recharge
+|
+|turn|18
+|choice|move 4|move 1
+|
+|move|p2a: Pinsir|Body Slam|p1a: Lickitung
+|-damage|p1a: Lickitung|0 fnt
+|faint|p1a: Lickitung
+|choice|switch 6|
+|
+|switch|p1a: Scyther|Scyther, L90|42\/309
+|turn|19
+|choice|move 3|move 1
+|
+|move|p1a: Scyther|Slash|p2a: Pinsir
+|-crit|p2a: Pinsir
+|-damage|p2a: Pinsir|0 fnt
+|faint|p2a: Pinsir
+|choice||switch 6
+|
+|switch|p2a: Jolteon|Jolteon, L79|265\/265
+|turn|20
+|choice|switch 4|switch 2
+|
+|switch|p2a: Articuno|Articuno, L79|72\/304
+|switch|p1a: Mewtwo|Mewtwo, L68|285\/285
+|
+|turn|21
+|choice|move 1|move 3
+|
+|move|p1a: Mewtwo|Psychic|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|faint|p2a: Articuno
+|-message|PickledBeets forfeited.
+|
+|win|riwu
+|leave|PickledBeets
+|player|p2
+|raw|riwu's rating: 1611 &rarr; <strong>1618<\/strong><br \/>(+7 for winning)
+|raw|PickledBeets's rating: 1353 &rarr; <strong>1345<\/strong><br \/>(-8 for losing)

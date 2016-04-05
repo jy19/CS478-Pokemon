@@ -1,0 +1,351 @@
+﻿|join|MeimuHakurei
+|join|giju
+|player|p1|MeimuHakurei|2
+|player|p2|giju|163
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Take it Easy|Exeggutor|393\/393
+|switch|p2a: Jynx|Jynx|333\/333
+|turn|1
+|c|★giju|hi =)
+|
+|move|p2a: Jynx|Lovely Kiss|p1a: Take it Easy
+|-status|p1a: Take it Easy|slp
+|cant|p1a: Take it Easy|slp
+|
+|turn|2
+|c|★MeimuHakurei|hi
+|
+|switch|p1a: Magick|Alakazam|313\/313
+|move|p2a: Jynx|Reflect|p2a: Jynx
+|
+|turn|3
+|
+|switch|p2a: Hypno|Hypno|373\/373
+|move|p1a: Magick|Thunder Wave|p2a: Hypno
+|-status|p2a: Hypno|par
+|
+|turn|4
+|
+|switch|p1a: Chansey Dance|Chansey|703\/703
+|move|p2a: Hypno|Thunder Wave|p1a: Chansey Dance
+|-status|p1a: Chansey Dance|par
+|
+|turn|5
+|
+|move|p2a: Hypno|Body Slam|p1a: Chansey Dance
+|-damage|p1a: Chansey Dance|565\/703 par
+|move|p1a: Chansey Dance|Ice Beam|p2a: Hypno
+|-damage|p2a: Hypno|301\/373 par
+|
+|turn|6
+|
+|cant|p2a: Hypno|par
+|move|p1a: Chansey Dance|Thunderbolt|p2a: Hypno
+|-damage|p2a: Hypno|234\/373 par
+|
+|turn|7
+|
+|cant|p2a: Hypno|par
+|move|p1a: Chansey Dance|Thunderbolt|p2a: Hypno
+|-damage|p2a: Hypno|161\/373 par
+|
+|turn|8
+|
+|move|p2a: Hypno|Rest|p2a: Hypno
+|-status|p2a: Hypno|slp
+|-heal|p2a: Hypno|373\/373 slp|[silent]
+|-status|p2a: Hypno|slp|[from] move: Rest
+|cant|p1a: Chansey Dance|par
+|
+|turn|9
+|
+|switch|p1a: DAGRON|Dragonite|385\/385
+|cant|p2a: Hypno|slp
+|
+|turn|10
+|
+|switch|p2a: Jynx|Jynx|333\/333
+|move|p1a: DAGRON|Agility|p1a: DAGRON
+|-boost|p1a: DAGRON|spe|2
+|
+|turn|11
+|c|★giju|omg no .-.
+|c|★giju|T_T
+|
+|move|p1a: DAGRON|Wrap|p2a: Jynx|[miss]
+|-miss|p1a: DAGRON
+|move|p2a: Jynx|Blizzard|p1a: DAGRON
+|-crit|p1a: DAGRON
+|-supereffective|p1a: DAGRON
+|-damage|p1a: DAGRON|0 fnt
+|faint|p1a: DAGRON
+|c|★MeimuHakurei|well shit
+|c|★giju|dat luck O.O
+|
+|switch|p1a: Chansey Dance|Chansey|565\/703 par
+|turn|12
+|c|★giju|just luck
+|
+|switch|p2a: Hypno|Hypno|373\/373 slp
+|move|p1a: Chansey Dance|Thunder Wave|p2a: Hypno
+|-fail|p2a: Hypno
+|
+|turn|13
+|
+|cant|p2a: Hypno|slp
+|-curestatus|p2a: Hypno|slp
+|move|p1a: Chansey Dance|Ice Beam|p2a: Hypno
+|-damage|p2a: Hypno|298\/373
+|
+|turn|14
+|
+|move|p2a: Hypno|Psychic|p1a: Chansey Dance
+|-crit|p1a: Chansey Dance
+|-damage|p1a: Chansey Dance|347\/703 par
+|move|p1a: Chansey Dance|Ice Beam|p2a: Hypno
+|-damage|p2a: Hypno|227\/373
+|
+|turn|15
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|move|p1a: Chansey Dance|Soft-Boiled|p1a: Chansey Dance
+|-heal|p1a: Chansey Dance|698\/703 par
+|
+|turn|16
+|
+|move|p2a: Tauros|Body Slam|p1a: Chansey Dance
+|-damage|p1a: Chansey Dance|412\/703 par
+|cant|p1a: Chansey Dance|par
+|
+|turn|17
+|
+|switch|p1a: 2spoopy|Gengar|323\/323
+|move|p2a: Tauros|Hyper Beam|p1a: 2spoopy
+|-immune|p1a: 2spoopy|[msg]
+|
+|turn|18
+|
+|move|p2a: Tauros|Earthquake|p1a: 2spoopy
+|-supereffective|p1a: 2spoopy
+|-damage|p1a: 2spoopy|96\/323
+|move|p1a: 2spoopy|Explosion|p2a: Tauros
+|-damage|p2a: Tauros|160\/353
+|faint|p1a: 2spoopy
+|
+|switch|p1a: Vagina|Cloyster|303\/303
+|turn|19
+|
+|move|p2a: Tauros|Body Slam|p1a: Vagina
+|-damage|p1a: Vagina|242\/303
+|move|p1a: Vagina|Clamp|p2a: Tauros
+|-damage|p2a: Tauros|114\/353
+|-activate|p2a: Tauros|move: Clamp|[of] p1a: Vagina
+|
+|turn|20
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|move|p1a: Vagina|Clamp|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|305\/323
+|-activate|p2a: Starmie|move: Clamp|[of] p1a: Vagina
+|
+|turn|21
+|
+|cant|p2a: Starmie|partiallytrapped
+|move|p1a: Vagina|Clamp|p2a: Starmie
+|-damage|p2a: Starmie|259\/323
+|
+|-end|p2a: Starmie|Clamp|[partiallytrapped]
+|turn|22
+|
+|switch|p1a: Chansey Dance|Chansey|412\/703 par
+|move|p2a: Starmie|Thunderbolt|p1a: Chansey Dance
+|-damage|p1a: Chansey Dance|337\/703 par
+|
+|turn|23
+|
+|switch|p2a: Golem|Golem|363\/363
+|cant|p1a: Chansey Dance|par
+|
+|turn|24
+|
+|switch|p1a: Vagina|Cloyster|242\/303
+|move|p2a: Golem|Body Slam|p1a: Vagina
+|-damage|p1a: Vagina|196\/303
+|
+|turn|25
+|
+|switch|p2a: Starmie|Starmie|259\/323
+|move|p1a: Vagina|Clamp|p2a: Starmie|[miss]
+|-miss|p1a: Vagina
+|
+|turn|26
+|
+|switch|p2a: Tauros|Tauros|114\/353
+|switch|p1a: Magick|Alakazam|313\/313
+|
+|turn|27
+|
+|move|p1a: Magick|Thunder Wave|p2a: Tauros
+|-status|p2a: Tauros|par
+|move|p2a: Tauros|Body Slam|p1a: Magick
+|-damage|p1a: Magick|145\/313
+|
+|turn|28
+|
+|move|p1a: Magick|Psychic|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|switch|p2a: Hypno|Hypno|227\/373
+|turn|29
+|
+|switch|p1a: Chansey Dance|Chansey|337\/703 par
+|move|p2a: Hypno|Psychic|p1a: Chansey Dance
+|-damage|p1a: Chansey Dance|224\/703 par
+|
+|turn|30
+|
+|move|p2a: Hypno|Psychic|p1a: Chansey Dance
+|-damage|p1a: Chansey Dance|113\/703 par
+|cant|p1a: Chansey Dance|par
+|
+|turn|31
+|
+|move|p2a: Hypno|Body Slam|p1a: Chansey Dance
+|-damage|p1a: Chansey Dance|0 fnt
+|faint|p1a: Chansey Dance
+|
+|switch|p1a: Vagina|Cloyster|196\/303
+|turn|32
+|
+|move|p1a: Vagina|Clamp|p2a: Hypno
+|-damage|p2a: Hypno|190\/373
+|-activate|p2a: Hypno|move: Clamp|[of] p1a: Vagina
+|cant|p2a: Hypno|partiallytrapped
+|
+|turn|33
+|c|★giju|ow is faster :)
+|
+|switch|p2a: Starmie|Starmie|259\/323
+|move|p1a: Vagina|Clamp|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|239\/323
+|-activate|p2a: Starmie|move: Clamp|[of] p1a: Vagina
+|
+|turn|34
+|
+|cant|p2a: Starmie|partiallytrapped
+|move|p1a: Vagina|Clamp|p2a: Starmie
+|-damage|p2a: Starmie|202\/323
+|
+|turn|35
+|
+|cant|p2a: Starmie|partiallytrapped
+|move|p1a: Vagina|Clamp|p2a: Starmie
+|-damage|p2a: Starmie|165\/323
+|
+|-end|p2a: Starmie|Clamp|[partiallytrapped]
+|turn|36
+|
+|switch|p1a: Magick|Alakazam|145\/313
+|move|p2a: Starmie|Blizzard|p1a: Magick
+|-damage|p1a: Magick|69\/313
+|
+|turn|37
+|
+|switch|p2a: Hypno|Hypno|190\/373
+|move|p1a: Magick|Psychic|p2a: Hypno
+|-crit|p2a: Hypno
+|-resisted|p2a: Hypno
+|-damage|p2a: Hypno|63\/373
+|
+|turn|38
+|
+|move|p1a: Magick|Psychic|p2a: Hypno
+|-crit|p2a: Hypno
+|-resisted|p2a: Hypno
+|-damage|p2a: Hypno|0 fnt
+|faint|p2a: Hypno
+|
+|switch|p2a: Golem|Golem|363\/363
+|turn|39
+|
+|switch|p1a: Vagina|Cloyster|196\/303
+|move|p2a: Golem|Body Slam|p1a: Vagina
+|-damage|p1a: Vagina|146\/303
+|
+|turn|40
+|
+|switch|p2a: Starmie|Starmie|165\/323
+|move|p1a: Vagina|Clamp|p2a: Starmie|[miss]
+|-miss|p1a: Vagina
+|
+|turn|41
+|
+|switch|p1a: Take it Easy|Exeggutor|393\/393 slp
+|move|p2a: Starmie|Thunder Wave|p1a: Take it Easy
+|-fail|p1a: Take it Easy
+|
+|turn|42
+|
+|move|p2a: Starmie|Blizzard|p1a: Take it Easy
+|-supereffective|p1a: Take it Easy
+|-damage|p1a: Take it Easy|233\/393 slp
+|cant|p1a: Take it Easy|slp
+|
+|turn|43
+|
+|move|p2a: Starmie|Blizzard|p1a: Take it Easy
+|-crit|p1a: Take it Easy
+|-supereffective|p1a: Take it Easy
+|-damage|p1a: Take it Easy|0 fnt
+|faint|p1a: Take it Easy
+|
+|switch|p1a: Magick|Alakazam|69\/313
+|turn|44
+|
+|move|p1a: Magick|Thunder Wave|p2a: Starmie
+|-status|p2a: Starmie|par
+|move|p2a: Starmie|Thunder Wave|p1a: Magick
+|-status|p1a: Magick|par
+|
+|turn|45
+|
+|switch|p2a: Golem|Golem|363\/363
+|cant|p1a: Magick|par
+|
+|turn|46
+|
+|move|p2a: Golem|Body Slam|p1a: Magick
+|-damage|p1a: Magick|0 fnt
+|faint|p1a: Magick
+|
+|switch|p1a: Vagina|Cloyster|146\/303
+|turn|47
+|
+|move|p1a: Vagina|Clamp|p2a: Golem|[miss]
+|-miss|p1a: Vagina
+|move|p2a: Golem|Explosion|p1a: Vagina
+|-damage|p1a: Vagina|0 fnt
+|faint|p1a: Vagina
+|faint|p2a: Golem
+|
+|win|giju
+|raw|Ladder updating...
+|raw|MeimuHakurei's rating: 1117 &rarr; <strong>1096<\/strong><br \/>(-21 for losing)
+|raw|giju's rating: 1163 &rarr; <strong>1184<\/strong><br \/>(+21 for winning)
+|c|★giju|gg =)ù
+|c|★MeimuHakurei|gg
+|leave|MeimuHakurei
+|player|p1

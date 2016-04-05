@@ -1,0 +1,140 @@
+﻿|join|Green Vessel
+|join|Merlin Engine
+|player|p1|Green Vessel|198
+|player|p2|Merlin Engine|165
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|26794,40433,57433,59313
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Clefable|Clefable, L85|335\/335
+|switch|p2a: Machop|Machop, L96|329\/329
+|turn|1
+|choice|move 3|move 4
+|
+|move|p2a: Machop|Submission|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|113\/335
+|-damage|p2a: Machop|274\/329|[from] recoil|[of] p1a: Clefable
+|move|p1a: Clefable|Counter|p2a: Machop
+|-damage|p2a: Machop|0 fnt
+|faint|p2a: Machop
+|choice||switch 6
+|
+|switch|p2a: Raticate|Raticate, L85|267\/267
+|turn|2
+|choice|move 1|move 4
+|
+|move|p2a: Raticate|Body Slam|p1a: Clefable
+|-damage|p1a: Clefable|23\/335
+|move|p1a: Clefable|Sing|p2a: Raticate
+|-status|p2a: Raticate|slp
+|
+|turn|3
+|choice|move 3|switch 5
+|
+|switch|p2a: Beedrill|Beedrill, L90|300\/300
+|move|p1a: Clefable|Counter|p2a: Beedrill
+|-fail|p1a: Clefable
+|
+|turn|4
+|choice|move 4|move 4
+|
+|move|p2a: Beedrill|Twineedle|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|-hitcount|p1a: Clefable|1
+|faint|p1a: Clefable
+|choice|switch 6|
+|
+|switch|p1a: Venusaur|Venusaur, L85|310\/310
+|turn|5
+|choice|move 2|move 3
+|
+|move|p2a: Beedrill|Swords Dance|p2a: Beedrill
+|-boost|p2a: Beedrill|atk|2
+|move|p1a: Venusaur|Leech Seed|p2a: Beedrill|[miss]
+|-miss|p1a: Venusaur
+|
+|turn|6
+|choice|move 2|move 3
+|
+|move|p2a: Beedrill|Swords Dance|p2a: Beedrill
+|-boost|p2a: Beedrill|atk|2
+|move|p1a: Venusaur|Leech Seed|p2a: Beedrill|[miss]
+|-miss|p1a: Venusaur
+|
+|turn|7
+|choice|move 2|move 2
+|
+|move|p2a: Beedrill|Agility|p2a: Beedrill
+|-boost|p2a: Beedrill|spe|2
+|move|p1a: Venusaur|Leech Seed|p2a: Beedrill
+|-start|p2a: Beedrill|move: Leech Seed
+|
+|turn|8
+|choice|move 4|move 3
+|
+|move|p2a: Beedrill|Swords Dance|p2a: Beedrill
+|-boost|p2a: Beedrill|atk|2
+|-damage|p2a: Beedrill|282\/300|[from] Leech Seed|[of] p1a: Venusaur
+|move|p1a: Venusaur|Razor Leaf|p2a: Beedrill
+|-crit|p2a: Beedrill
+|-resisted|p2a: Beedrill
+|-damage|p2a: Beedrill|242\/300
+|
+|turn|9
+|choice|move 1|move 1
+|
+|move|p2a: Beedrill|Hyper Beam|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|c|★Merlin Engine|gg
+|c|★Merlin Engine|:)
+|choice|switch 3|
+|
+|switch|p1a: Wigglytuff|Wigglytuff, L90|435\/435
+|turn|10
+|choice|move 2|move 1
+|
+|move|p2a: Beedrill|Hyper Beam|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|0 fnt
+|faint|p1a: Wigglytuff
+|choice|switch 4|
+|
+|switch|p1a: Kadabra|Kadabra, L85|242\/242
+|turn|11
+|choice|move 3|move 1
+|
+|move|p2a: Beedrill|Hyper Beam|p1a: Kadabra
+|-damage|p1a: Kadabra|0 fnt
+|faint|p1a: Kadabra
+|choice|switch 2|
+|
+|switch|p1a: Blastoise|Blastoise, L85|308\/308
+|turn|12
+|choice|move 4|move 1
+|
+|move|p2a: Beedrill|Hyper Beam|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|faint|p1a: Blastoise
+|choice|switch 5|
+|
+|switch|p1a: Jolteon|Jolteon, L79|265\/265
+|turn|13
+|choice|move 3|move 1
+|
+|move|p2a: Beedrill|Hyper Beam|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|win|Merlin Engine
+|raw|Green Vessel's rating: 1110 &rarr; <strong>1083<\/strong><br \/>(-27 for losing)
+|raw|Merlin Engine's rating: 1073 &rarr; <strong>1105<\/strong><br \/>(+32 for winning)
+|leave|Green Vessel
+|player|p1
+|c|★Merlin Engine|bee-motherfucking-drill

@@ -1,0 +1,117 @@
+﻿|join|jynx2000
+|join|Merlin Engine
+|player|p1|jynx2000|25
+|player|p2|Merlin Engine|165
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|56062,46733,15061,47039
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Kakuna|Kakuna, L99|290\/290
+|switch|p2a: Dugtrio|Dugtrio, L85|233\/233
+|turn|1
+|choice|switch 4|move 1
+|
+|switch|p1a: Zapdos|Zapdos, L79|304\/304
+|move|p2a: Dugtrio|Earthquake|p1a: Zapdos
+|-immune|p1a: Zapdos|[msg]
+|
+|turn|2
+|choice|move 1|move 4
+|
+|move|p2a: Dugtrio|Slash|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|216\/304
+|move|p1a: Zapdos|Drill Peck|p2a: Dugtrio
+|-crit|p2a: Dugtrio
+|-damage|p2a: Dugtrio|36\/233
+|
+|turn|3
+|choice|move 1|switch 3
+|
+|switch|p2a: Exeggutor|Exeggutor, L79|312\/312
+|move|p1a: Zapdos|Drill Peck|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|31\/312
+|
+|turn|4
+|choice|move 1|move 3
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|c|★jynx2000|god you dumb
+|choice||switch 2
+|
+|switch|p2a: Ponyta|Ponyta, L96|291\/291
+|turn|5
+|choice|move 3|move 3
+|
+|move|p2a: Ponyta|Fire Blast|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|choice|switch 2|
+|
+|switch|p1a: Tauros|Tauros, L79|280\/280
+|turn|6
+|choice|move 2|move 3
+|
+|move|p2a: Ponyta|Fire Blast|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|c|★jynx2000|wtf
+|choice|switch 6|
+|
+|switch|p1a: Persian|Persian, L79|265\/265
+|turn|7
+|choice|move 1|move 3
+|
+|move|p2a: Ponyta|Fire Blast|p1a: Persian
+|-damage|p1a: Persian|111\/265
+|-status|p1a: Persian|brn
+|move|p1a: Persian|Slash|p2a: Ponyta
+|-crit|p2a: Ponyta
+|-damage|p2a: Ponyta|160\/291
+|-damage|p1a: Persian|95\/265 brn|[from] brn|[of] p2a: Ponyta
+|
+|turn|8
+|c|★jynx2000|this is ridiculous
+|choice|move 1|move 3
+|
+|move|p2a: Ponyta|Fire Blast|p1a: Persian
+|-damage|p1a: Persian|0 fnt
+|faint|p1a: Persian
+|choice|switch 3|
+|
+|switch|p1a: Jynx|Jynx, L79|265\/265
+|turn|9
+|choice|move 3|move 3
+|
+|move|p2a: Ponyta|Fire Blast|p1a: Jynx|[miss]
+|-miss|p2a: Ponyta
+|move|p1a: Jynx|Lovely Kiss|p2a: Ponyta|[miss]
+|-miss|p1a: Jynx
+|
+|turn|10
+|c|★jynx2000|this is pathetic
+|choice|move 3|move 3
+|
+|move|p2a: Ponyta|Fire Blast|p1a: Jynx
+|-supereffective|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|-message|jynx2000 forfeited.
+|
+|win|Merlin Engine
+|leave|jynx2000
+|player|p1

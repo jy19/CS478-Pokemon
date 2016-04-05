@@ -1,0 +1,354 @@
+﻿|join|MALESANI
+|join|ribble
+|player|p1|MALESANI|238
+|player|p2|ribble|266
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|40621,37013,2477,40477
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gloom|Gloom, L90|291\/291
+|switch|p2a: Magnemite|Magnemite, L96|243\/243
+|turn|1
+|choice|move 2|move 1
+|
+|move|p2a: Magnemite|Thunder Wave|p1a: Gloom
+|-status|p1a: Gloom|par
+|cant|p1a: Gloom|par
+|
+|turn|2
+|choice|move 2|switch 4
+|
+|switch|p2a: Butterfree|Butterfree, L90|291\/291
+|move|p1a: Gloom|Swords Dance|p1a: Gloom
+|-boost|p1a: Gloom|atk|2
+|
+|turn|3
+|choice|move 3|move 3
+|
+|move|p2a: Butterfree|Psychic|p1a: Gloom
+|-supereffective|p1a: Gloom
+|-damage|p1a: Gloom|174\/291 par
+|move|p1a: Gloom|Double-Edge|p2a: Butterfree
+|-damage|p2a: Butterfree|137\/291
+|-damage|p1a: Gloom|136\/291 par|[from] recoil|[of] p2a: Butterfree
+|
+|turn|4
+|choice|move 3|move 3
+|
+|move|p2a: Butterfree|Psychic|p1a: Gloom
+|-crit|p1a: Gloom
+|-supereffective|p1a: Gloom
+|-damage|p1a: Gloom|0 fnt
+|faint|p1a: Gloom
+|choice|switch 2|
+|
+|switch|p1a: Kangaskhan|Kangaskhan, L85|352\/352
+|turn|5
+|choice|move 3|switch 4
+|
+|switch|p2a: Magnemite|Magnemite, L96|243\/243
+|move|p1a: Kangaskhan|Body Slam|p2a: Magnemite
+|-damage|p2a: Magnemite|143\/243
+|-status|p2a: Magnemite|par
+|
+|turn|6
+|choice|move 1|move 1
+|
+|move|p1a: Kangaskhan|Hyper Beam|p2a: Magnemite
+|-damage|p2a: Magnemite|0 fnt
+|faint|p2a: Magnemite
+|choice||switch 5
+|
+|switch|p2a: Slowbro|Slowbro, L79|312\/312
+|turn|7
+|choice|move 3|move 4
+|
+|move|p1a: Kangaskhan|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|228\/312
+|-status|p2a: Slowbro|par
+|move|p2a: Slowbro|Thunder Wave|p1a: Kangaskhan
+|-status|p1a: Kangaskhan|par
+|
+|turn|8
+|choice|move 3|move 2
+|
+|move|p1a: Kangaskhan|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|150\/312 par
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|9
+|choice|move 3|move 3
+|
+|move|p2a: Slowbro|Surf|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|128\/352 par
+|move|p1a: Kangaskhan|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|73\/312 par
+|
+|turn|10
+|choice|move 1|move 1
+|
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|-heal|p2a: Slowbro|312\/312 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|move|p1a: Kangaskhan|Hyper Beam|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-damage|p2a: Slowbro|16\/312 slp
+|
+|turn|11
+|-mustrecharge|p1a: Kangaskhan
+|-mustrecharge|p1a: Kangaskhan
+|choice|move 1|switch 6
+|
+|switch|p2a: Hitmonlee|Hitmonlee, L90|273\/273
+|cant|p1a: Kangaskhan|recharge
+|
+|turn|12
+|choice|move 3|move 2
+|
+|move|p2a: Hitmonlee|Body Slam|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|41\/352 par
+|move|p1a: Kangaskhan|Body Slam|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|155\/273
+|
+|turn|13
+|choice|move 3|move 2
+|
+|move|p2a: Hitmonlee|Body Slam|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|0 fnt
+|faint|p1a: Kangaskhan
+|choice|switch 5|
+|
+|switch|p1a: Blastoise|Blastoise, L85|308\/308
+|turn|14
+|choice|move 1|switch 2
+|
+|switch|p2a: Venusaur|Venusaur, L85|310\/310
+|move|p1a: Blastoise|Surf|p2a: Venusaur
+|-resisted|p2a: Venusaur
+|-damage|p2a: Venusaur|263\/310
+|
+|turn|15
+|choice|switch 4|move 1
+|
+|switch|p1a: Chansey|Chansey, L79|557\/557
+|move|p2a: Venusaur|Leech Seed|p1a: Chansey
+|-start|p1a: Chansey|move: Leech Seed
+|
+|turn|16
+|choice|move 2|move 4
+|
+|move|p2a: Venusaur|Swords Dance|p2a: Venusaur
+|-boost|p2a: Venusaur|atk|2
+|move|p1a: Chansey|Ice Beam|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|148\/310
+|-damage|p1a: Chansey|523\/557|[from] Leech Seed|[of] p2a: Venusaur
+|-heal|p2a: Venusaur|182\/310|[silent]
+|
+|turn|17
+|choice|move 4|move 2
+|
+|move|p2a: Venusaur|Body Slam|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|250\/557
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-start|p1a: Chansey|Reflect
+|-damage|p1a: Chansey|216\/557|[from] Leech Seed|[of] p2a: Venusaur
+|-heal|p2a: Venusaur|216\/310|[silent]
+|
+|turn|18
+|choice|move 1|move 3
+|
+|move|p2a: Venusaur|Razor Leaf|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|106\/557
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|384\/557
+|-damage|p1a: Chansey|350\/557|[from] Leech Seed|[of] p2a: Venusaur
+|-heal|p2a: Venusaur|250\/310|[silent]
+|
+|turn|19
+|choice|move 1|move 4
+|
+|move|p2a: Venusaur|Swords Dance|p2a: Venusaur
+|-boost|p2a: Venusaur|atk|2
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|557\/557
+|-damage|p1a: Chansey|523\/557|[from] Leech Seed|[of] p2a: Venusaur
+|-heal|p2a: Venusaur|284\/310|[silent]
+|
+|turn|20
+|choice|move 2|move 2
+|
+|move|p2a: Venusaur|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|320\/557
+|move|p1a: Chansey|Ice Beam|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|178\/310
+|-damage|p1a: Chansey|286\/557|[from] Leech Seed|[of] p2a: Venusaur
+|-heal|p2a: Venusaur|212\/310|[silent]
+|
+|turn|21
+|choice|move 1|move 2
+|
+|move|p2a: Venusaur|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|83\/557
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|361\/557
+|-damage|p1a: Chansey|327\/557|[from] Leech Seed|[of] p2a: Venusaur
+|-heal|p2a: Venusaur|246\/310|[silent]
+|
+|turn|22
+|choice|move 2|move 4
+|
+|move|p2a: Venusaur|Swords Dance|p2a: Venusaur
+|-boost|p2a: Venusaur|atk|2
+|move|p1a: Chansey|Ice Beam|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|134\/310
+|-damage|p1a: Chansey|293\/557|[from] Leech Seed|[of] p2a: Venusaur
+|-heal|p2a: Venusaur|168\/310|[silent]
+|
+|turn|23
+|choice|move 2|move 2
+|
+|move|p2a: Venusaur|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|1\/557
+|move|p1a: Chansey|Ice Beam|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|45\/310
+|-damage|p1a: Chansey|0 fnt|[from] Leech Seed|[of] p2a: Venusaur
+|-heal|p2a: Venusaur|46\/310|[silent]
+|faint|p1a: Chansey
+|choice|switch 6|
+|
+|switch|p1a: Articuno|Articuno, L79|304\/304
+|turn|24
+|choice|move 1|move 2
+|
+|move|p2a: Venusaur|Body Slam|p1a: Articuno
+|-damage|p1a: Articuno|81\/304
+|move|p1a: Articuno|Blizzard|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|faint|p2a: Venusaur
+|choice||switch 4
+|
+|switch|p2a: Butterfree|Butterfree, L90|137\/291
+|turn|25
+|choice|move 1|move 2
+|
+|move|p2a: Butterfree|Sleep Powder|p1a: Articuno|[miss]
+|-miss|p2a: Butterfree
+|move|p1a: Articuno|Blizzard|p2a: Butterfree|[miss]
+|-miss|p1a: Articuno
+|
+|turn|26
+|choice|move 1|move 3
+|
+|move|p2a: Butterfree|Psychic|p1a: Articuno
+|-crit|p1a: Articuno
+|-damage|p1a: Articuno|0 fnt
+|faint|p1a: Articuno
+|choice|switch 4|
+|
+|switch|p1a: Blastoise|Blastoise, L85|308\/308
+|turn|27
+|choice|move 1|move 2
+|
+|move|p1a: Blastoise|Surf|p2a: Butterfree
+|-damage|p2a: Butterfree|46\/291
+|move|p2a: Butterfree|Sleep Powder|p1a: Blastoise|[miss]
+|-miss|p2a: Butterfree
+|
+|turn|28
+|choice|move 1|move 2
+|
+|move|p1a: Blastoise|Surf|p2a: Butterfree
+|-crit|p2a: Butterfree
+|-damage|p2a: Butterfree|0 fnt
+|faint|p2a: Butterfree
+|choice||switch 2
+|
+|switch|p2a: Hitmonlee|Hitmonlee, L90|155\/273
+|turn|29
+|choice|move 1|move 2
+|
+|move|p2a: Hitmonlee|Body Slam|p1a: Blastoise
+|-damage|p1a: Blastoise|240\/308
+|-status|p1a: Blastoise|par
+|move|p1a: Blastoise|Surf|p2a: Hitmonlee
+|-crit|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|0 fnt
+|faint|p2a: Hitmonlee
+|choice||switch 3
+|
+|switch|p2a: Ditto|Ditto, L99|296\/296
+|turn|30
+|choice|move 3|move 1
+|
+|move|p2a: Ditto|Transform|p1a: Blastoise
+|-transform|p2a: Ditto|p1a: Blastoise
+|move|p1a: Blastoise|Body Slam|p2a: Ditto
+|-crit|p2a: Ditto
+|-damage|p2a: Ditto|202\/296
+|
+|turn|31
+|choice|move 3|move 3
+|
+|move|p2a: Ditto|Body Slam|p1a: Blastoise
+|-damage|p1a: Blastoise|190\/308 par
+|move|p1a: Blastoise|Body Slam|p2a: Ditto
+|-damage|p2a: Ditto|135\/296
+|-status|p2a: Ditto|par
+|
+|turn|32
+|choice|move 4|move 4
+|
+|move|p1a: Blastoise|Earthquake|p2a: Ditto
+|-damage|p2a: Ditto|53\/296 par
+|move|p2a: Ditto|Earthquake|p1a: Blastoise
+|-damage|p1a: Blastoise|133\/308 par
+|
+|turn|33
+|choice|move 1|move 4
+|
+|cant|p1a: Blastoise|par
+|move|p2a: Ditto|Earthquake|p1a: Blastoise
+|-damage|p1a: Blastoise|72\/308 par
+|
+|turn|34
+|choice|move 1|move 4
+|
+|cant|p1a: Blastoise|par
+|move|p2a: Ditto|Earthquake|p1a: Blastoise
+|-damage|p1a: Blastoise|12\/308 par
+|
+|turn|35
+|choice|move 1|move 4
+|
+|move|p1a: Blastoise|Surf|p2a: Ditto
+|-resisted|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|choice||switch 6
+|
+|switch|p2a: Slowbro|Slowbro, L79|16\/312 slp
+|turn|36
+|choice|move 3|move 1
+|
+|cant|p2a: Slowbro|slp
+|move|p1a: Blastoise|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|
+|win|MALESANI

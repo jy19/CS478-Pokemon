@@ -1,0 +1,70 @@
+﻿|join|grandmastaganja
+|join|the jews
+|player|p1|grandmastaganja|56
+|player|p2|the jews|1
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Graveler|Graveler, L85|267\/267
+|switch|p2a: Exeggutor|Exeggutor, L79|312\/312
+|turn|1
+|
+|switch|p1a: Weepinbell|Weepinbell, L85|284\/284
+|move|p2a: Exeggutor|Sleep Powder|p1a: Weepinbell
+|-status|p1a: Weepinbell|slp
+|
+|turn|2
+|
+|switch|p2a: Beedrill|Beedrill, L85|284\/284
+|cant|p1a: Weepinbell|slp
+|
+|turn|3
+|
+|switch|p2a: Exeggutor|Exeggutor, L79|312\/312
+|switch|p1a: Haunter|Haunter, L85|250\/250
+|
+|turn|4
+|
+|switch|p2a: Nidoran-F|Nidoran-F, L96|300\/300
+|move|p1a: Haunter|Confuse Ray|p2a: Nidoran-F
+|-start|p2a: Nidoran-F|confusion
+|
+|turn|5
+|
+|switch|p2a: Slowbro|Slowbro, L79|312\/312
+|move|p1a: Haunter|Hypnosis|p2a: Slowbro|[miss]
+|-miss|p1a: Haunter
+|
+|turn|6
+|
+|switch|p2a: Nidoran-F|Nidoran-F, L96|300\/300
+|move|p1a: Haunter|Hypnosis|p2a: Nidoran-F
+|-status|p2a: Nidoran-F|slp
+|
+|turn|7
+|
+|switch|p2a: Slowbro|Slowbro, L79|312\/312
+|move|p1a: Haunter|Confuse Ray|p2a: Slowbro
+|-start|p2a: Slowbro|confusion
+|
+|turn|8
+|
+|move|p1a: Haunter|Thunderbolt|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|leave|the jews
+|player|p2
+|-message|thejews lost due to inactivity.
+|
+|win|grandmastaganja
+|raw|Ladder updating...
+|raw|grandmastaganja's rating: 1062 &rarr; <strong>1102<\/strong><br \/>(+40 for winning)
+|raw|the jews's rating: 1162 &rarr; <strong>1130<\/strong><br \/>(-32 for losing)

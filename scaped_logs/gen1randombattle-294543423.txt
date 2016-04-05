@@ -1,0 +1,255 @@
+﻿|join|AitorMaster
+|join|MALESANI
+|player|p1|AitorMaster|169
+|player|p2|MALESANI|238
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|55832,31507,20522,4072
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Eevee|Eevee, L96|300\/300
+|switch|p2a: Pidgey|Pidgey, L96|272\/272
+|turn|1
+|choice|move 1|move 2
+|
+|move|p2a: Pidgey|Agility|p2a: Pidgey
+|-boost|p2a: Pidgey|spe|2
+|move|p1a: Eevee|Body Slam|p2a: Pidgey
+|-crit|p2a: Pidgey
+|-damage|p2a: Pidgey|69\/272
+|
+|turn|2
+|choice|move 1|move 1
+|
+|move|p2a: Pidgey|Double-Edge|p1a: Eevee
+|-damage|p1a: Eevee|201\/300
+|-damage|p2a: Pidgey|45\/272|[from] recoil|[of] p1a: Eevee
+|move|p1a: Eevee|Body Slam|p2a: Pidgey
+|-damage|p2a: Pidgey|0 fnt
+|faint|p2a: Pidgey
+|choice||switch 5
+|
+|switch|p2a: Blastoise|Blastoise, L85|308\/308
+|turn|3
+|choice|move 1|move 3
+|
+|move|p2a: Blastoise|Blizzard|p1a: Eevee
+|-damage|p1a: Eevee|115\/300
+|move|p1a: Eevee|Body Slam|p2a: Blastoise
+|-damage|p2a: Blastoise|233\/308
+|
+|turn|4
+|choice|move 1|move 2
+|
+|move|p2a: Blastoise|Body Slam|p1a: Eevee
+|-damage|p1a: Eevee|48\/300
+|move|p1a: Eevee|Body Slam|p2a: Blastoise
+|-damage|p2a: Blastoise|161\/308
+|
+|turn|5
+|choice|move 1|move 2
+|
+|move|p2a: Blastoise|Body Slam|p1a: Eevee
+|-damage|p1a: Eevee|0 fnt
+|faint|p1a: Eevee
+|choice|switch 4|
+|
+|switch|p1a: Magneton|Magneton, L90|273\/273
+|turn|6
+|choice|move 3|switch 2
+|
+|switch|p2a: Dragonite|Dragonite, L85|328\/328
+|move|p1a: Magneton|Thunder Wave|p2a: Dragonite
+|-status|p2a: Dragonite|par
+|
+|turn|7
+|choice|move 1|move 1
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Dragonite
+|-damage|p2a: Dragonite|197\/328 par
+|cant|p2a: Dragonite|par
+|
+|turn|8
+|choice|move 1|move 1
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Dragonite
+|-damage|p2a: Dragonite|82\/328 par
+|move|p2a: Dragonite|Thunder Wave|p1a: Magneton
+|-status|p1a: Magneton|par
+|
+|turn|9
+|choice|move 1|move 4
+|
+|move|p2a: Dragonite|Hyper Beam|p1a: Magneton
+|-damage|p1a: Magneton|152\/273 par
+|move|p1a: Magneton|Thunderbolt|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|choice||switch 6
+|
+|switch|p2a: Beedrill|Beedrill, L90|300\/300
+|turn|10
+|choice|switch 6|move 3
+|
+|switch|p1a: Graveler|Graveler, L85|267\/267
+|move|p2a: Beedrill|Swords Dance|p2a: Beedrill
+|-boost|p2a: Beedrill|atk|2
+|
+|turn|11
+|choice|move 3|switch 2
+|
+|switch|p2a: Blastoise|Blastoise, L85|161\/308
+|move|p1a: Graveler|Rock Slide|p2a: Blastoise|[miss]
+|-miss|p1a: Graveler
+|
+|turn|12
+|choice|switch 3|move 3
+|
+|switch|p1a: Vaporeon|Vaporeon, L85|395\/395
+|move|p2a: Blastoise|Blizzard|p1a: Vaporeon
+|-crit|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|333\/395
+|
+|turn|13
+|choice|move 3|move 2
+|
+|move|p2a: Blastoise|Body Slam|p1a: Vaporeon
+|-crit|p1a: Vaporeon
+|-damage|p1a: Vaporeon|198\/395
+|move|p1a: Vaporeon|Body Slam|p2a: Blastoise
+|-damage|p2a: Blastoise|120\/308
+|
+|turn|14
+|choice|move 3|move 2
+|
+|move|p2a: Blastoise|Body Slam|p1a: Vaporeon
+|-damage|p1a: Vaporeon|126\/395
+|move|p1a: Vaporeon|Body Slam|p2a: Blastoise
+|-damage|p2a: Blastoise|75\/308
+|
+|turn|15
+|choice|move 3|move 2
+|
+|move|p2a: Blastoise|Body Slam|p1a: Vaporeon
+|-crit|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|choice|switch 6|
+|
+|switch|p1a: Magneton|Magneton, L90|152\/273 par
+|turn|16
+|choice|move 1|move 3
+|
+|move|p2a: Blastoise|Blizzard|p1a: Magneton
+|-damage|p1a: Magneton|95\/273 par
+|cant|p1a: Magneton|par
+|
+|turn|17
+|choice|move 1|move 2
+|
+|move|p2a: Blastoise|Body Slam|p1a: Magneton
+|-crit|p1a: Magneton
+|-damage|p1a: Magneton|0 fnt
+|faint|p1a: Magneton
+|choice|switch 2|
+|
+|switch|p1a: Farfetch'd|Farfetch'd, L99|304\/304
+|turn|18
+|choice|move 1|move 3
+|
+|move|p2a: Blastoise|Blizzard|p1a: Farfetch'd
+|-supereffective|p1a: Farfetch'd
+|-damage|p1a: Farfetch'd|128\/304
+|move|p1a: Farfetch'd|Slash|p2a: Blastoise
+|-crit|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|choice||switch 3
+|
+|switch|p2a: Pikachu|Pikachu, L96|262\/262
+|turn|19
+|choice|move 1|move 4
+|
+|move|p2a: Pikachu|Surf|p1a: Farfetch'd
+|-damage|p1a: Farfetch'd|66\/304
+|move|p1a: Farfetch'd|Slash|p2a: Pikachu
+|-crit|p2a: Pikachu
+|-damage|p2a: Pikachu|25\/262
+|
+|turn|20
+|choice|move 1|move 2
+|
+|move|p2a: Pikachu|Thunder|p1a: Farfetch'd
+|-supereffective|p1a: Farfetch'd
+|-damage|p1a: Farfetch'd|0 fnt
+|faint|p1a: Farfetch'd
+|choice|switch 5|
+|
+|switch|p1a: Hitmonlee|Hitmonlee, L90|273\/273
+|turn|21
+|choice|move 2|switch 2
+|
+|switch|p2a: Beedrill|Beedrill, L90|300\/300
+|move|p1a: Hitmonlee|Body Slam|p2a: Beedrill
+|-crit|p2a: Beedrill
+|-damage|p2a: Beedrill|85\/300
+|
+|turn|22
+|choice|move 2|move 4
+|
+|move|p1a: Hitmonlee|Body Slam|p2a: Beedrill
+|-damage|p2a: Beedrill|0 fnt
+|faint|p2a: Beedrill
+|choice||switch 4
+|
+|switch|p2a: Mr. Mime|Mr. Mime, L85|242\/242
+|turn|23
+|choice|move 2|move 1
+|
+|move|p1a: Hitmonlee|Body Slam|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|152\/242
+|move|p2a: Mr. Mime|Psychic|p1a: Hitmonlee
+|-supereffective|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|0 fnt
+|faint|p1a: Hitmonlee
+|choice|switch 3|
+|
+|switch|p1a: Graveler|Graveler, L85|267\/267
+|turn|24
+|choice|move 1|move 1
+|
+|move|p2a: Mr. Mime|Psychic|p1a: Graveler
+|-damage|p1a: Graveler|126\/267
+|-unboost|p1a: Graveler|spd|1
+|-unboost|p1a: Graveler|spa|1
+|move|p1a: Graveler|Earthquake|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|30\/242
+|
+|turn|25
+|choice|move 1|move 3
+|
+|move|p2a: Mr. Mime|Seismic Toss|p1a: Graveler
+|-damage|p1a: Graveler|41\/267
+|move|p1a: Graveler|Earthquake|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|0 fnt
+|faint|p2a: Mr. Mime
+|choice||switch 2
+|
+|switch|p2a: Pikachu|Pikachu, L96|25\/262
+|turn|26
+|choice|move 2|move 4
+|
+|move|p2a: Pikachu|Surf|p1a: Graveler
+|-supereffective|p1a: Graveler
+|-damage|p1a: Graveler|0 fnt
+|faint|p1a: Graveler
+|
+|win|MALESANI
+|raw|AitorMaster's rating: 1307 &rarr; <strong>1289<\/strong><br \/>(-18 for losing)
+|raw|MALESANI's rating: 1333 &rarr; <strong>1352<\/strong><br \/>(+19 for winning)

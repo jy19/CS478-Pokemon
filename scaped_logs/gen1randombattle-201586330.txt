@@ -1,0 +1,258 @@
+﻿|join|gen1masterrony
+|join|XS
+|player|p1|gen1masterrony|162
+|player|p2|XS|102
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Farfetch'd|Farfetch'd, L95|292\/292
+|switch|p2a: Golbat|Golbat, L86|304\/304
+|turn|1
+|
+|move|p2a: Golbat|Confuse Ray|p1a: Farfetch'd
+|-start|p1a: Farfetch'd|confusion
+|-activate|p1a: Farfetch'd|confusion
+|-damage|p1a: Farfetch'd|255\/292|[from] confusion
+|
+|turn|2
+|
+|switch|p1a: Raichu|Raichu, L86|279\/279
+|move|p2a: Golbat|Screech|p1a: Raichu|[miss]
+|-miss|p2a: Golbat
+|
+|turn|3
+|
+|switch|p2a: Nidoqueen|Nidoqueen, L86|330\/330
+|move|p1a: Raichu|Thunderbolt|p2a: Nidoqueen
+|-immune|p2a: Nidoqueen|[msg]
+|
+|turn|4
+|
+|move|p1a: Raichu|Surf|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|189\/330
+|move|p2a: Nidoqueen|Body Slam|p1a: Raichu
+|-damage|p1a: Raichu|201\/279
+|
+|turn|5
+|
+|move|p1a: Raichu|Surf|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|55\/330
+|move|p2a: Nidoqueen|Earthquake|p1a: Raichu
+|-supereffective|p1a: Raichu
+|-damage|p1a: Raichu|0 fnt
+|faint|p1a: Raichu
+|
+|switch|p1a: Golduck|Golduck, L86|313\/313
+|turn|6
+|
+|move|p1a: Golduck|Surf|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|0 fnt
+|faint|p2a: Nidoqueen
+|
+|switch|p2a: Persian|Persian, L82|274\/274
+|turn|7
+|
+|move|p2a: Persian|Body Slam|p1a: Golduck
+|-damage|p1a: Golduck|245\/313
+|move|p1a: Golduck|Body Slam|p2a: Persian
+|-damage|p2a: Persian|201\/274
+|
+|turn|8
+|
+|switch|p1a: Kangaskhan|Kangaskhan, L86|356\/356
+|move|p2a: Persian|Body Slam|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|284\/356
+|
+|turn|9
+|
+|move|p2a: Persian|Screech|p1a: Kangaskhan
+|-unboost|p1a: Kangaskhan|def|2
+|move|p1a: Kangaskhan|Counter|p2a: Persian
+|-fail|p1a: Kangaskhan
+|
+|turn|10
+|
+|move|p2a: Persian|Hyper Beam|p1a: Kangaskhan
+|-crit|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|20\/356
+|move|p1a: Kangaskhan|Counter|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|faint|p2a: Persian
+|
+|switch|p2a: Dugtrio|Dugtrio, L86|236\/236
+|turn|11
+|
+|move|p2a: Dugtrio|Slash|p1a: Kangaskhan
+|-crit|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|0 fnt
+|faint|p1a: Kangaskhan
+|
+|switch|p1a: Farfetch'd|Farfetch'd, L95|255\/292
+|turn|12
+|
+|move|p2a: Dugtrio|Slash|p1a: Farfetch'd
+|-crit|p1a: Farfetch'd
+|-damage|p1a: Farfetch'd|151\/292
+|move|p1a: Farfetch'd|Toxic|p2a: Dugtrio
+|-status|p2a: Dugtrio|tox
+|
+|turn|13
+|
+|move|p2a: Dugtrio|Slash|p1a: Farfetch'd
+|-crit|p1a: Farfetch'd
+|-damage|p1a: Farfetch'd|46\/292
+|-damage|p2a: Dugtrio|222\/236 tox|[from] tox|[of] p1a: Farfetch'd
+|move|p1a: Farfetch'd|Slash|p2a: Dugtrio
+|-damage|p2a: Dugtrio|119\/236 tox
+|
+|turn|14
+|
+|move|p2a: Dugtrio|Slash|p1a: Farfetch'd
+|-crit|p1a: Farfetch'd
+|-damage|p1a: Farfetch'd|0 fnt
+|faint|p1a: Farfetch'd
+|
+|switch|p1a: Golduck|Golduck, L86|245\/313
+|turn|15
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Golduck
+|-crit|p1a: Golduck
+|-damage|p1a: Golduck|52\/313
+|-damage|p2a: Dugtrio|91\/236 tox|[from] tox|[of] p1a: Golduck
+|move|p1a: Golduck|Surf|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|
+|switch|p2a: Omastar|Omastar, L86|296\/296
+|turn|16
+|
+|switch|p1a: Persian|Persian, L82|274\/274
+|move|p2a: Omastar|Seismic Toss|p1a: Persian
+|-damage|p1a: Persian|188\/274
+|
+|turn|17
+|
+|move|p1a: Persian|Thunderbolt|p2a: Omastar
+|-supereffective|p2a: Omastar
+|-damage|p2a: Omastar|214\/296
+|move|p2a: Omastar|Hydro Pump|p1a: Persian
+|-damage|p1a: Persian|17\/274
+|
+|turn|18
+|
+|move|p1a: Persian|Body Slam|p2a: Omastar
+|-crit|p2a: Omastar
+|-resisted|p2a: Omastar
+|-damage|p2a: Omastar|160\/296
+|-status|p2a: Omastar|par
+|move|p2a: Omastar|Seismic Toss|p1a: Persian
+|-damage|p1a: Persian|0 fnt
+|faint|p1a: Persian
+|
+|switch|p1a: Golduck|Golduck, L86|52\/313
+|turn|19
+|
+|move|p1a: Golduck|Rest|p1a: Golduck
+|-status|p1a: Golduck|slp
+|-heal|p1a: Golduck|313\/313 slp|[silent]
+|-status|p1a: Golduck|slp|[from] move: Rest
+|move|p2a: Omastar|Seismic Toss|p1a: Golduck
+|-damage|p1a: Golduck|227\/313 slp
+|
+|turn|20
+|
+|cant|p1a: Golduck|slp
+|move|p2a: Omastar|Mimic|p1a: Golduck
+|-start|p2a: Omastar|Mimic|Ice Beam
+|
+|turn|21
+|
+|cant|p1a: Golduck|slp
+|-curestatus|p1a: Golduck|slp
+|cant|p2a: Omastar|par
+|
+|turn|22
+|
+|move|p1a: Golduck|Surf|p2a: Omastar
+|-damage|p2a: Omastar|81\/296 par
+|move|p2a: Omastar|Seismic Toss|p1a: Golduck
+|-damage|p1a: Golduck|141\/313
+|
+|turn|23
+|
+|move|p1a: Golduck|Surf|p2a: Omastar
+|-damage|p2a: Omastar|1\/296 par
+|cant|p2a: Omastar|par
+|
+|turn|24
+|
+|move|p1a: Golduck|Surf|p2a: Omastar
+|-damage|p2a: Omastar|0 fnt
+|faint|p2a: Omastar
+|
+|switch|p2a: Golbat|Golbat, L86|304\/304
+|turn|25
+|
+|move|p2a: Golbat|Confuse Ray|p1a: Golduck
+|-start|p1a: Golduck|confusion
+|-activate|p1a: Golduck|confusion
+|-damage|p1a: Golduck|110\/313|[from] confusion
+|
+|turn|26
+|
+|move|p2a: Golbat|Double-Edge|p1a: Golduck
+|-damage|p1a: Golduck|39\/313
+|-damage|p2a: Golbat|287\/304|[from] recoil|[of] p1a: Golduck
+|-activate|p1a: Golduck|confusion
+|-damage|p1a: Golduck|8\/313|[from] confusion
+|
+|turn|27
+|
+|move|p2a: Golbat|Double-Edge|p1a: Golduck
+|-damage|p1a: Golduck|0 fnt
+|-damage|p2a: Golbat|285\/304|[from] recoil|[of] p1a: Golduck
+|faint|p1a: Golduck
+|
+|switch|p1a: Magikarp|Magikarp, L99|240\/240
+|turn|28
+|
+|move|p1a: Magikarp|Dragon Rage|p2a: Golbat
+|-damage|p2a: Golbat|245\/304
+|move|p2a: Golbat|Mega Drain|p1a: Magikarp
+|-supereffective|p1a: Magikarp
+|-damage|p1a: Magikarp|154\/240
+|-heal|p2a: Golbat|288\/304|[from] drain|[of] p1a: Magikarp
+|
+|turn|29
+|
+|move|p1a: Magikarp|Splash|p1a: Magikarp
+|-nothing
+|move|p2a: Golbat|Mega Drain|p1a: Magikarp
+|-supereffective|p1a: Magikarp
+|-damage|p1a: Magikarp|64\/240
+|-heal|p2a: Golbat|304\/304|[from] drain|[of] p1a: Magikarp
+|
+|turn|30
+|
+|move|p1a: Magikarp|Dragon Rage|p2a: Golbat
+|-damage|p2a: Golbat|264\/304
+|move|p2a: Golbat|Mega Drain|p1a: Magikarp
+|-supereffective|p1a: Magikarp
+|-damage|p1a: Magikarp|0 fnt
+|-heal|p2a: Golbat|296\/304|[from] drain|[of] p1a: Magikarp
+|faint|p1a: Magikarp
+|
+|win|XS
+|raw|Ladder updating...
+|raw|gen1masterrony's rating: 1055 &rarr; <strong>1038<\/strong><br \/>(-17 for losing)
+|raw|XS's rating: 1073 &rarr; <strong>1101<\/strong><br \/>(+28 for winning)

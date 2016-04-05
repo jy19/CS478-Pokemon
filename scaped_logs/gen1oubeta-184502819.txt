@@ -1,0 +1,292 @@
+﻿|join|kid gf lol
+|join|FS Princess Anna
+|player|p1|kid gf lol|167
+|player|p2|FS Princess Anna|97
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gengar|Gengar|323\/323
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|1
+|
+|move|p2a: Gengar|Hypnosis|p1a: Gengar
+|-status|p1a: Gengar|slp
+|cant|p1a: Gengar|slp
+|
+|turn|2
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|cant|p1a: Gengar|slp
+|
+|turn|3
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Starmie|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|628\/703
+|
+|turn|4
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|628\/703
+|
+|turn|5
+|
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|558\/703
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|turn|6
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Chansey|Ice Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|425\/523
+|
+|turn|7
+|
+|switch|p1a: Gengar|Gengar|323\/323 slp
+|move|p2a: Snorlax|Body Slam|p1a: Gengar
+|-immune|p1a: Gengar|[msg]
+|
+|turn|8
+|
+|switch|p1a: Cloyster|Cloyster|303\/303
+|move|p2a: Snorlax|Surf|p1a: Cloyster
+|-resisted|p1a: Cloyster
+|-damage|p1a: Cloyster|271\/303
+|
+|turn|9
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|move|p1a: Cloyster|Blizzard|p2a: Gengar|[miss]
+|-miss|p1a: Cloyster
+|
+|turn|10
+|
+|switch|p1a: Victreebell|Victreebel|363\/363
+|move|p2a: Gengar|Thunderbolt|p1a: Victreebell
+|-resisted|p1a: Victreebell
+|-damage|p1a: Victreebell|319\/363
+|
+|turn|11
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|switch|p1a: Gengar|Gengar|323\/323 slp
+|
+|turn|12
+|
+|switch|p1a: Chansey|Chansey|628\/703 par
+|move|p2a: Starmie|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|559\/703 par
+|
+|turn|13
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Chansey|Ice Beam|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|146\/393
+|
+|turn|14
+|
+|move|p2a: Exeggutor|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|449\/703 par
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|move|p1a: Chansey|Ice Beam|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|54\/393
+|
+|turn|15
+|
+|switch|p1a: Gengar|Gengar|323\/323 slp
+|move|p2a: Exeggutor|Psychic|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|124\/323 slp
+|-unboost|p1a: Gengar|spd|1
+|-unboost|p1a: Gengar|spa|1
+|
+|turn|16
+|
+|switch|p1a: Cloyster|Cloyster|271\/303
+|move|p2a: Exeggutor|Psychic|p1a: Cloyster
+|-damage|p1a: Cloyster|135\/303
+|-unboost|p1a: Cloyster|spd|1
+|-unboost|p1a: Cloyster|spa|1
+|
+|turn|17
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|move|p1a: Cloyster|Blizzard|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|283\/323
+|
+|turn|18
+|
+|switch|p2a: Snorlax|Snorlax|425\/523
+|switch|p1a: Chansey|Chansey|449\/703 par
+|
+|turn|19
+|
+|switch|p1a: Cloyster|Cloyster|135\/303
+|move|p2a: Snorlax|Body Slam|p1a: Cloyster
+|-damage|p1a: Cloyster|63\/303
+|
+|turn|20
+|
+|move|p1a: Cloyster|Explosion|p2a: Snorlax
+|-damage|p2a: Snorlax|103\/523
+|faint|p1a: Cloyster
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|21
+|
+|switch|p2a: Starmie|Starmie|283\/323
+|move|p1a: Tauros|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|181\/323
+|
+|turn|22
+|
+|switch|p1a: Chansey|Chansey|449\/703 par
+|move|p2a: Starmie|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|
+|turn|23
+|
+|switch|p2a: Exeggutor|Exeggutor|54\/393
+|move|p1a: Chansey|Ice Beam|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Snorlax|Snorlax|103\/523
+|turn|24
+|
+|move|p2a: Snorlax|Hyper Beam|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|25
+|
+|move|p1a: Tauros|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|switch|p2a: Starmie|Starmie|181\/323
+|turn|26
+|
+|move|p2a: Starmie|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|move|p1a: Tauros|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|62\/323
+|
+|turn|27
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|223\/323
+|move|p1a: Tauros|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|115\/323
+|
+|turn|28
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|276\/323
+|move|p1a: Tauros|Body Slam|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|51\/323
+|
+|turn|29
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|212\/323
+|move|p1a: Tauros|Body Slam|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|30
+|
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|149\/353 par
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|144\/353
+|
+|turn|31
+|
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|53\/353 par
+|move|p1a: Tauros|Hyper Beam|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|32
+|
+|switch|p1a: Victreebell|Victreebel|319\/363
+|move|p2a: Gengar|Thunderbolt|p1a: Victreebell
+|-resisted|p1a: Victreebell
+|-damage|p1a: Victreebell|273\/363
+|
+|turn|33
+|
+|move|p2a: Gengar|Explosion|p1a: Victreebell
+|-crit|p1a: Victreebell
+|-damage|p1a: Victreebell|0 fnt
+|faint|p1a: Victreebell
+|faint|p2a: Gengar
+|
+|switch|p1a: Zapdos|Zapdos|383\/383
+|switch|p2a: Chansey|Chansey|558\/703
+|turn|34
+|
+|move|p1a: Zapdos|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|move|p2a: Chansey|Ice Beam|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|247\/383
+|
+|turn|35
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Chansey
+|-damage|p2a: Chansey|331\/703 par
+|move|p2a: Chansey|Ice Beam|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|118\/383
+|
+|turn|36
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Chansey
+|-damage|p2a: Chansey|107\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|37
+|c|★FS Princess Anna|gg wp
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|win|kid gf lol
+|raw|Ladder updating...
+|raw|kid gf lol's rating: 1426 &rarr; <strong>1434<\/strong><br \/>(+8 for winning)
+|raw|FS Princess Anna's rating: 1174 &rarr; <strong>1165<\/strong><br \/>(-9 for losing)
+|c|★kid gf lol|gg
+|leave|kid gf lol
+|player|p1
+|c|★FS Princess Anna|close one
+|leave|FS Princess Anna
+|player|p2
+|join|FS Princess Anna

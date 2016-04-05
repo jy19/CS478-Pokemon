@@ -1,0 +1,306 @@
+﻿|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|J|Tesung
+|J|teal6
+|player|p1|Tesung|101
+|player|p2|teal6|138
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|seed|22382,60280,5533,30782
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jolteon|Jolteon|333\/333
+|switch|p2a: Jynx|Jynx|333\/333
+|turn|1
+|J|sugarhigh
+|J|Demerging
+|J|pancakewentsplat
+|J|obii
+|choice|move 3|move 2
+|
+|move|p1a: Jolteon|Thunder Wave|p2a: Jynx
+|-status|p2a: Jynx|par
+|move|p2a: Jynx|Lovely Kiss|p1a: Jolteon
+|-status|p1a: Jolteon|slp
+|
+|turn|2
+|choice|switch 4|switch 4
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|switch|p2a: Snorlax|Snorlax|523\/523
+|
+|turn|3
+|choice|move 1|move 1
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|move|p2a: Snorlax|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|409\/703
+|
+|turn|4
+|choice|move 3|move 1
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703
+|move|p2a: Snorlax|Body Slam|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|124\/703
+|
+|turn|5
+|choice|move 3|move 3
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|475\/703
+|move|p2a: Snorlax|Hyper Beam|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|c|★Tesung|-
+|c|★Tesung|who crits with kax
+|choice|switch 6|
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|turn|6
+|c|★teal6|lol
+|choice|move 4|move 4
+|
+|move|p1a: Exeggutor|Psychic|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|187\/523 par
+|cant|p2a: Snorlax|par
+|
+|turn|7
+|J|Yhprum
+|choice|move 4|switch 4
+|
+|switch|p2a: Jynx|Jynx|333\/333 par
+|move|p1a: Exeggutor|Psychic|p2a: Jynx
+|-resisted|p2a: Jynx
+|-damage|p2a: Jynx|266\/333 par
+|
+|turn|8
+|choice|switch 3|move 4
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: Jynx|Blizzard|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|196\/523
+|
+|turn|9
+|c|★Tesung|-
+|choice|move 2|switch 4
+|
+|switch|p2a: Snorlax|Snorlax|187\/523 par
+|move|p1a: Snorlax|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|48\/523 par
+|
+|turn|10
+|choice|move 2|move 1
+|
+|move|p1a: Snorlax|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|c|★teal6|im trying to take home RBY cup man
+|c|★teal6|i shouldnt be using up all my luck now
+|choice||switch 3
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|11
+|choice|move 4|move 1
+|
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|64\/523
+|move|p1a: Snorlax|Self-Destruct|p2a: Tauros
+|-damage|p2a: Tauros|17\/353
+|faint|p1a: Snorlax
+|choice|switch 5|
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|12
+|choice|move 1|move 4
+|
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|choice||switch 6
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|turn|13
+|choice|switch 4|move 3
+|
+|switch|p1a: Jolteon|Jolteon|333\/333 slp
+|move|p2a: Chansey|Thunder Wave|p1a: Jolteon
+|-fail|p1a: Jolteon
+|
+|turn|14
+|choice|move 3|switch 5
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|cant|p1a: Jolteon|slp
+|
+|turn|15
+|choice|switch 3|move 1
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Exeggutor|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|343\/393
+|
+|turn|16
+|choice|move 4|move 3
+|
+|move|p2a: Exeggutor|Explosion|p1a: Exeggutor
+|-damage|p1a: Exeggutor|61\/393
+|faint|p2a: Exeggutor
+|choice||switch 2
+|
+|switch|p2a: Zapdos|Zapdos|383\/383
+|turn|17
+|choice|switch 3|move 3
+|
+|switch|p1a: Jolteon|Jolteon|333\/333 slp
+|move|p2a: Zapdos|Drill Peck|p1a: Jolteon
+|-resisted|p1a: Jolteon
+|-damage|p1a: Jolteon|268\/333 slp
+|
+|turn|18
+|choice|move 1|move 1
+|
+|-curestatus|p1a: Jolteon|slp
+|move|p2a: Zapdos|Thunderbolt|p1a: Jolteon
+|-resisted|p1a: Jolteon
+|-damage|p1a: Jolteon|206\/333
+|
+|turn|19
+|choice|move 3|switch 4
+|
+|switch|p2a: Jynx|Jynx|266\/333 par
+|move|p1a: Jolteon|Thunder Wave|p2a: Jynx
+|-fail|p2a: Jynx|par
+|
+|turn|20
+|choice|move 2|move 2
+|
+|move|p1a: Jolteon|Pin Missile|p2a: Jynx|[miss]
+|-miss|p1a: Jolteon
+|move|p2a: Jynx|Lovely Kiss|p1a: Jolteon|[miss]
+|-miss|p2a: Jynx
+|
+|turn|21
+|choice|move 2|move 4
+|
+|move|p1a: Jolteon|Pin Missile|p2a: Jynx|[miss]
+|-miss|p1a: Jolteon
+|move|p2a: Jynx|Blizzard|p1a: Jolteon
+|-damage|p1a: Jolteon|75\/333
+|
+|turn|22
+|c|★Tesung|-
+|choice|move 2|move 1
+|
+|move|p1a: Jolteon|Pin Missile|p2a: Jynx
+|-supereffective|p2a: Jynx
+|-damage|p2a: Jynx|234\/333 par
+|-damage|p2a: Jynx|202\/333 par
+|-damage|p2a: Jynx|170\/333 par
+|-hitcount|p2a: Jynx|3
+|move|p2a: Jynx|Psychic|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|choice|switch 4|
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|23
+|choice|move 1|move 2
+|
+|move|p1a: Tauros|Body Slam|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|choice||switch 5
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|turn|24
+|L|Yhprum
+|choice|switch 2|move 3
+|
+|switch|p1a: Zapdos|Zapdos|383\/383
+|move|p2a: Chansey|Thunder Wave|p1a: Zapdos
+|-status|p1a: Zapdos|par
+|
+|turn|25
+|c|★teal6|the remake of abr blunder
+|c|★teal6|is starting
+|choice|move 1|move 1
+|
+|move|p2a: Chansey|Ice Beam|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|250\/383 par
+|move|p1a: Zapdos|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|582\/703
+|
+|turn|26
+|choice|move 3|move 1
+|
+|move|p2a: Chansey|Ice Beam|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|128\/383 par
+|move|p1a: Zapdos|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|turn|27
+|choice|move 2|move 1
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Chansey
+|-damage|p2a: Chansey|339\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|28
+|choice|switch 3|move 2
+|
+|switch|p1a: Exeggutor|Exeggutor|61\/393
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|690\/703 par
+|
+|turn|29
+|choice|move 2|move 1
+|
+|move|p1a: Exeggutor|Explosion|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|faint|p1a: Exeggutor
+|choice|switch 2|switch 4
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|switch|p2a: Zapdos|Zapdos|383\/383
+|turn|30
+|choice|move 1|move 4
+|
+|move|p1a: Tauros|Body Slam|p2a: Zapdos
+|-damage|p2a: Zapdos|276\/383
+|move|p2a: Zapdos|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|
+|turn|31
+|c|★Tesung|gooo
+|choice|move 1|move 1
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Tauros
+|-damage|p1a: Tauros|182\/353 par
+|move|p1a: Tauros|Body Slam|p2a: Zapdos
+|-damage|p2a: Zapdos|170\/383
+|
+|turn|32
+|choice|move 3|move 1
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Tauros
+|-damage|p1a: Tauros|5\/353 par
+|move|p1a: Tauros|Hyper Beam|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|win|Tesung

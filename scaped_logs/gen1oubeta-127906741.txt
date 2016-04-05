@@ -1,0 +1,362 @@
+﻿|join|NT18
+|join|Kel9901
+|player|p1|NT18|162
+|player|p2|Kel9901|102
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|switch|p2a: Jynx|Jynx|333\/333
+|turn|1
+|
+|move|p2a: Jynx|Lovely Kiss|p1a: Exeggutor
+|-status|p1a: Exeggutor|slp
+|cant|p1a: Exeggutor|slp
+|
+|turn|2
+|chat|Kel9901|good luck
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|move|p2a: Jynx|Mimic|p1a: Alakazam
+|-start|p2a: Jynx|Mimic|Recover
+|
+|turn|3
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Jynx
+|-status|p2a: Jynx|par
+|move|p2a: Jynx|Blizzard|p1a: Alakazam
+|-damage|p1a: Alakazam|197\/313
+|
+|turn|4
+|
+|move|p1a: Alakazam|Psychic|p2a: Jynx
+|-resisted|p2a: Jynx
+|-damage|p2a: Jynx|271\/333 par
+|-unboost|p2a: Jynx|spd|1
+|-unboost|p2a: Jynx|spa|1
+|cant|p2a: Jynx|par
+|
+|turn|5
+|
+|move|p1a: Alakazam|Psychic|p2a: Jynx
+|-resisted|p2a: Jynx
+|-damage|p2a: Jynx|169\/333 par
+|move|p2a: Jynx|Blizzard|p1a: Alakazam
+|-damage|p1a: Alakazam|129\/313
+|
+|turn|6
+|
+|move|p1a: Alakazam|Psychic|p2a: Jynx
+|-resisted|p2a: Jynx
+|-damage|p2a: Jynx|68\/333 par
+|-unboost|p2a: Jynx|spd|1
+|-unboost|p2a: Jynx|spa|1
+|move|p2a: Jynx|Recover|p2a: Jynx
+|-heal|p2a: Jynx|234\/333 par
+|
+|turn|7
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|574\/703
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|
+|turn|8
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|376\/703
+|move|p2a: Chansey|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|
+|turn|9
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703
+|move|p1a: Alakazam|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|turn|10
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Alakazam|Reflect|p1a: Alakazam
+|
+|turn|11
+|
+|switch|p2a: Jynx|Jynx|234\/333 par
+|move|p1a: Alakazam|Thunder Wave|p2a: Jynx
+|-fail|p2a: Jynx|par
+|
+|turn|12
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|285\/313 par
+|cant|p2a: Jynx|par
+|
+|turn|13
+|
+|move|p1a: Alakazam|Psychic|p2a: Jynx
+|-crit|p2a: Jynx
+|-resisted|p2a: Jynx
+|-damage|p2a: Jynx|95\/333 par
+|move|p2a: Jynx|Blizzard|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|67\/313 par
+|
+|turn|14
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Alakazam|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|341\/393
+|
+|turn|15
+|
+|move|p2a: Exeggutor|Mega Drain|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|-heal|p2a: Exeggutor|375\/393|[from] drain|[of] p1a: Alakazam
+|faint|p1a: Alakazam
+|
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|turn|16
+|
+|move|p2a: Exeggutor|Psychic|p1a: Snorlax
+|-damage|p1a: Snorlax|362\/523
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|
+|turn|17
+|
+|move|p2a: Exeggutor|Psychic|p1a: Snorlax
+|-damage|p1a: Snorlax|283\/523
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|
+|turn|18
+|
+|move|p2a: Exeggutor|Explosion|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|faint|p2a: Exeggutor
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|switch|p2a: Snorlax|Snorlax|523\/523
+|turn|19
+|
+|switch|p2a: Chansey|Chansey|703\/703 par
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|627\/703 par
+|
+|turn|20
+|
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|551\/703 par
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|631\/703
+|
+|turn|21
+|
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|476\/703 par
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|554\/703
+|
+|turn|22
+|
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|324\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|23
+|
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|247\/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|598\/703 par
+|
+|turn|24
+|
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|522\/703 par
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|486\/703
+|
+|turn|25
+|
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|445\/703 par
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|417\/703
+|
+|turn|26
+|
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|368\/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703 par
+|
+|turn|27
+|
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|629\/703 par
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|339\/703
+|
+|turn|28
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|690\/703
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|618\/703
+|
+|turn|29
+|
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|553\/703 par
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|547\/703
+|
+|turn|30
+|
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|478\/703 par
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|475\/703
+|
+|turn|31
+|raw|<div class="broadcast-red"><b>The server is restarting soon.<\/b><br \/>Please finish your battles quickly. No new battles can be started until the server resets in a few minutes.<\/div>
+|
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|406\/703 par
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|turn|32
+|
+|switch|p2a: Jynx|Jynx|95\/333 par
+|move|p1a: Chansey|Ice Beam|p2a: Jynx
+|-resisted|p2a: Jynx
+|-damage|p2a: Jynx|53\/333 par
+|
+|turn|33
+|
+|move|p2a: Jynx|Blizzard|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|225\/703 par
+|move|p1a: Chansey|Ice Beam|p2a: Jynx
+|-resisted|p2a: Jynx
+|-damage|p2a: Jynx|14\/333 par
+|
+|turn|34
+|
+|move|p2a: Jynx|Mimic|p1a: Chansey
+|-start|p2a: Jynx|Mimic|Ice Beam
+|move|p1a: Chansey|Ice Beam|p2a: Jynx
+|-resisted|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|35
+|
+|switch|p1a: Golem|Golem|363\/363
+|move|p2a: Tauros|Body Slam|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|321\/363
+|-status|p1a: Golem|par
+|
+|turn|36
+|
+|move|p2a: Tauros|Blizzard|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|92\/363 par
+|move|p1a: Golem|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|277\/353
+|
+|turn|37
+|
+|switch|p1a: Chansey|Chansey|225\/703 par
+|move|p2a: Tauros|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|16\/703 par
+|
+|turn|38
+|
+|move|p2a: Tauros|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|39
+|
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|178\/353
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|252\/353
+|-status|p1a: Tauros|par
+|
+|turn|40
+|
+|switch|p2a: Golem|Golem|363\/363
+|move|p1a: Tauros|Hyper Beam|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|296\/363
+|
+|turn|41
+|
+|move|p2a: Golem|Earthquake|p1a: Tauros
+|-damage|p1a: Tauros|117\/353 par
+|cant|p1a: Tauros|par
+|
+|turn|42
+|
+|move|p2a: Golem|Earthquake|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|
+|switch|p1a: Golem|Golem|92\/363 par
+|turn|43
+|
+|move|p2a: Golem|Earthquake|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|0 fnt
+|faint|p1a: Golem
+|
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393 slp
+|turn|44
+|join|Foster's Eduardo
+|
+|cant|p1a: Exeggutor|slp
+|move|p2a: Golem|Explosion|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|faint|p2a: Golem
+|
+|win|Kel9901
+|raw|Ladder updating...
+|raw|NT18's rating: 1282 &rarr; <strong>1267<\/strong><br \/>(-15 for losing)
+|raw|Kel9901's rating: 1421 &rarr; <strong>1434<\/strong><br \/>(+13 for winning)
+|chat|Kel9901|gg
+|chat|NT18|gg
+|leave|Kel9901
+|player|p2
+|leave|NT18

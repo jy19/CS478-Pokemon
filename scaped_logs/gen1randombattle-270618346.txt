@@ -1,0 +1,221 @@
+﻿|join|Dervodel
+|join|Hassan Singh
+|player|p1|Dervodel|238
+|player|p2|Hassan Singh|1
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Machop|Machop, L96|329\/329
+|switch|p2a: Eevee|Eevee, L96|300\/300
+|turn|1
+|
+|switch|p2a: Hypno|Hypno, L85|318\/318
+|move|p1a: Machop|Submission|p2a: Hypno
+|-resisted|p2a: Hypno
+|-damage|p2a: Hypno|262\/318
+|-damage|p1a: Machop|315\/329|[from] recoil|[of] p2a: Hypno
+|
+|turn|2
+|
+|switch|p1a: Voltorb|Voltorb, L96|272\/272
+|move|p2a: Hypno|Psychic|p1a: Voltorb
+|-crit|p1a: Voltorb
+|-damage|p1a: Voltorb|32\/272
+|
+|turn|3
+|
+|switch|p2a: Eevee|Eevee, L96|300\/300
+|move|p1a: Voltorb|Thunder Wave|p2a: Eevee
+|-status|p2a: Eevee|par
+|
+|turn|4
+|
+|switch|p1a: Aerodactyl|Aerodactyl, L90|327\/327
+|move|p2a: Eevee|Body Slam|p1a: Aerodactyl
+|-resisted|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|284\/327
+|-status|p1a: Aerodactyl|par
+|
+|turn|5
+|
+|switch|p2a: Zapdos|Zapdos, L79|304\/304
+|move|p1a: Aerodactyl|Reflect|p1a: Aerodactyl
+|-start|p1a: Aerodactyl|Reflect
+|
+|turn|6
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|45\/327 par
+|move|p1a: Aerodactyl|Double-Edge|p2a: Zapdos
+|-damage|p2a: Zapdos|208\/304
+|-damage|p1a: Aerodactyl|21\/327 par|[from] recoil|[of] p2a: Zapdos
+|
+|turn|7
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Aerodactyl
+|-resisted|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|1\/327 par
+|move|p1a: Aerodactyl|Hyper Beam|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|switch|p2a: Pinsir|Pinsir, L85|284\/284
+|turn|8
+|
+|move|p2a: Pinsir|Body Slam|p1a: Aerodactyl
+|-resisted|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|0 fnt
+|faint|p1a: Aerodactyl
+|
+|switch|p1a: Machop|Machop, L96|315\/329
+|turn|9
+|
+|move|p2a: Pinsir|Submission|p1a: Machop|[miss]
+|-miss|p2a: Pinsir
+|move|p1a: Machop|Rock Slide|p2a: Pinsir
+|-supereffective|p2a: Pinsir
+|-damage|p2a: Pinsir|182\/284
+|
+|turn|10
+|
+|move|p2a: Pinsir|Submission|p1a: Machop
+|-crit|p1a: Machop
+|-damage|p1a: Machop|158\/329
+|-damage|p2a: Pinsir|143\/284|[from] recoil|[of] p1a: Machop
+|move|p1a: Machop|Earthquake|p2a: Pinsir
+|-resisted|p2a: Pinsir
+|-damage|p2a: Pinsir|108\/284
+|
+|turn|11
+|
+|move|p2a: Pinsir|Body Slam|p1a: Machop
+|-damage|p1a: Machop|73\/329
+|move|p1a: Machop|Rock Slide|p2a: Pinsir|[miss]
+|-miss|p1a: Machop
+|
+|turn|12
+|
+|move|p2a: Pinsir|Body Slam|p1a: Machop
+|-damage|p1a: Machop|0 fnt
+|faint|p1a: Machop
+|
+|switch|p1a: Pidgeotto|Pidgeotto, L90|297\/297
+|turn|13
+|
+|move|p2a: Pinsir|Hyper Beam|p1a: Pidgeotto
+|-damage|p1a: Pidgeotto|148\/297
+|move|p1a: Pidgeotto|Double-Edge|p2a: Pinsir
+|-damage|p2a: Pinsir|27\/284
+|-damage|p1a: Pidgeotto|128\/297|[from] recoil|[of] p2a: Pinsir
+|
+|turn|14
+|-mustrecharge|p2a: Pinsir
+|-mustrecharge|p2a: Pinsir
+|
+|cant|p2a: Pinsir|recharge
+|move|p1a: Pidgeotto|Double-Edge|p2a: Pinsir
+|-damage|p2a: Pinsir|0 fnt
+|-damage|p1a: Pidgeotto|122\/297|[from] recoil|[of] p2a: Pinsir
+|faint|p2a: Pinsir
+|
+|switch|p2a: Eevee|Eevee, L96|300\/300 par
+|turn|15
+|
+|move|p1a: Pidgeotto|Reflect|p1a: Pidgeotto
+|-start|p1a: Pidgeotto|Reflect
+|move|p2a: Eevee|Body Slam|p1a: Pidgeotto
+|-damage|p1a: Pidgeotto|68\/297
+|
+|turn|16
+|
+|move|p1a: Pidgeotto|Double-Edge|p2a: Eevee
+|-crit|p2a: Eevee
+|-damage|p2a: Eevee|74\/300 par
+|-damage|p1a: Pidgeotto|12\/297|[from] recoil|[of] p2a: Eevee
+|move|p2a: Eevee|Body Slam|p1a: Pidgeotto
+|-damage|p1a: Pidgeotto|0 fnt
+|faint|p1a: Pidgeotto
+|
+|switch|p1a: Arbok|Arbok, L90|291\/291
+|turn|17
+|
+|move|p1a: Arbok|Body Slam|p2a: Eevee
+|-crit|p2a: Eevee
+|-damage|p2a: Eevee|0 fnt
+|faint|p2a: Eevee
+|
+|switch|p2a: Cubone|Cubone, L96|291\/291
+|turn|18
+|c|★Dervodel|would <ou
+|c|★Dervodel|would you be so kind to forfeit?
+|c|★Hassan Singh|erp...
+|c|★Hassan Singh|no
+|
+|move|p1a: Arbok|Glare|p2a: Cubone|[miss]
+|-miss|p1a: Arbok
+|move|p2a: Cubone|Earthquake|p1a: Arbok
+|-supereffective|p1a: Arbok
+|-damage|p1a: Arbok|104\/291
+|
+|turn|19
+|c|★Dervodel|ok
+|c|★Hassan Singh|i haven't won yet
+|c|★Dervodel|im really trying to get up the ladder
+|
+|move|p1a: Arbok|Body Slam|p2a: Cubone
+|-damage|p2a: Cubone|238\/291
+|move|p2a: Cubone|Earthquake|p1a: Arbok
+|-supereffective|p1a: Arbok
+|-damage|p1a: Arbok|0 fnt
+|faint|p1a: Arbok
+|
+|switch|p1a: Flareon|Flareon, L90|300\/300
+|turn|20
+|
+|move|p1a: Flareon|Fire Blast|p2a: Cubone
+|-crit|p2a: Cubone
+|-damage|p2a: Cubone|0 fnt
+|faint|p2a: Cubone
+|
+|switch|p2a: Hypno|Hypno, L85|262\/318
+|turn|21
+|
+|move|p1a: Flareon|Fire Blast|p2a: Hypno
+|-damage|p2a: Hypno|136\/318
+|move|p2a: Hypno|Psychic|p1a: Flareon
+|-damage|p1a: Flareon|208\/300
+|
+|turn|22
+|
+|move|p1a: Flareon|Hyper Beam|p2a: Hypno
+|-damage|p2a: Hypno|0 fnt
+|faint|p2a: Hypno
+|
+|switch|p2a: Nidorino|Nidorino, L90|293\/293
+|turn|23
+|
+|move|p1a: Flareon|Fire Blast|p2a: Nidorino
+|-damage|p2a: Nidorino|96\/293
+|move|p2a: Nidorino|Bubble Beam|p1a: Flareon
+|-supereffective|p1a: Flareon
+|-damage|p1a: Flareon|149\/300
+|
+|turn|24
+|
+|move|p1a: Flareon|Body Slam|p2a: Nidorino
+|-crit|p2a: Nidorino
+|-damage|p2a: Nidorino|0 fnt
+|faint|p2a: Nidorino
+|
+|win|Dervodel
+|raw|Dervodel's rating: 1386 &rarr; <strong>1396<\/strong><br \/>(+10 for winning)
+|raw|Hassan Singh's rating: 1195 &rarr; <strong>1182<\/strong><br \/>(-13 for losing)
+|c|★Dervodel|u should have forfeited when you had the chance...

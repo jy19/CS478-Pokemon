@@ -1,0 +1,221 @@
+﻿|join|Jebaizau0635...
+|join|kwikwik
+|player|p1|Jebaizau0635...|266
+|player|p2|kwikwik|170
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Exeggcute|Exeggcute, L96|310\/310
+|switch|p2a: Venomoth|Venomoth, L85|293\/293
+|turn|1
+|
+|switch|p2a: Magmar|Magmar, L90|300\/300
+|switch|p1a: Electrode|Electrode, L90|291\/291
+|
+|turn|2
+|
+|move|p1a: Electrode|Thunder|p2a: Magmar|[miss]
+|-miss|p1a: Electrode
+|move|p2a: Magmar|Body Slam|p1a: Electrode
+|-damage|p1a: Electrode|213\/291
+|
+|turn|3
+|
+|move|p1a: Electrode|Thunder|p2a: Magmar
+|-damage|p2a: Magmar|184\/300
+|move|p2a: Magmar|Body Slam|p1a: Electrode
+|-crit|p1a: Electrode
+|-damage|p1a: Electrode|69\/291
+|
+|turn|4
+|
+|move|p1a: Electrode|Explosion|p2a: Magmar
+|-damage|p2a: Magmar|0 fnt
+|faint|p2a: Magmar
+|faint|p1a: Electrode
+|
+|switch|p1a: Primeape|Primeape, L90|300\/300
+|switch|p2a: Vaporeon|Vaporeon, L85|395\/395
+|turn|5
+|
+|switch|p1a: Mew|Mew, L74|300\/300
+|move|p2a: Vaporeon|Body Slam|p1a: Mew
+|-crit|p1a: Mew
+|-damage|p1a: Mew|205\/300
+|
+|turn|6
+|
+|switch|p2a: Jolteon|Jolteon, L79|265\/265
+|move|p1a: Mew|Thunderbolt|p2a: Jolteon
+|-resisted|p2a: Jolteon
+|-damage|p2a: Jolteon|241\/265
+|
+|turn|7
+|
+|move|p2a: Jolteon|Thunder Wave|p1a: Mew
+|-status|p1a: Mew|par
+|cant|p1a: Mew|par
+|
+|turn|8
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Mew
+|-damage|p1a: Mew|99\/300 par
+|move|p1a: Mew|Blizzard|p2a: Jolteon
+|-damage|p2a: Jolteon|176\/265
+|
+|turn|9
+|
+|switch|p1a: Primeape|Primeape, L90|300\/300
+|move|p2a: Jolteon|Thunderbolt|p1a: Primeape
+|-damage|p1a: Primeape|182\/300
+|
+|turn|10
+|
+|move|p2a: Jolteon|Thunder Wave|p1a: Primeape
+|-status|p1a: Primeape|par
+|move|p1a: Primeape|Rock Slide|p2a: Jolteon
+|-damage|p2a: Jolteon|89\/265
+|
+|turn|11
+|
+|switch|p2a: Venomoth|Venomoth, L85|293\/293
+|move|p1a: Primeape|Hyper Beam|p2a: Venomoth|[miss]
+|-miss|p1a: Primeape
+|
+|turn|12
+|
+|move|p2a: Venomoth|Psychic|p1a: Primeape
+|-crit|p1a: Primeape
+|-supereffective|p1a: Primeape
+|-damage|p1a: Primeape|0 fnt
+|faint|p1a: Primeape
+|
+|switch|p1a: Golduck|Golduck, L85|310\/310
+|turn|13
+|
+|move|p2a: Venomoth|Stun Spore|p1a: Golduck
+|-status|p1a: Golduck|par
+|move|p1a: Golduck|Ice Beam|p2a: Venomoth
+|-damage|p2a: Venomoth|236\/293
+|
+|turn|14
+|
+|move|p2a: Venomoth|Mega Drain|p1a: Golduck
+|-supereffective|p1a: Golduck
+|-damage|p1a: Golduck|247\/310 par
+|-heal|p2a: Venomoth|267\/293|[from] drain|[of] p1a: Golduck
+|move|p1a: Golduck|Body Slam|p2a: Venomoth
+|-crit|p2a: Venomoth
+|-damage|p2a: Venomoth|140\/293
+|
+|turn|15
+|
+|switch|p2a: Jolteon|Jolteon, L79|89\/265
+|move|p1a: Golduck|Body Slam|p2a: Jolteon
+|-damage|p2a: Jolteon|11\/265
+|
+|turn|16
+|
+|switch|p1a: Exeggcute|Exeggcute, L96|310\/310
+|move|p2a: Jolteon|Thunderbolt|p1a: Exeggcute
+|-resisted|p1a: Exeggcute
+|-damage|p1a: Exeggcute|259\/310
+|
+|turn|17
+|
+|move|p2a: Jolteon|Thunder Wave|p1a: Exeggcute
+|-status|p1a: Exeggcute|par
+|move|p1a: Exeggcute|Psychic|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|
+|switch|p2a: Rapidash|Rapidash, L90|300\/300
+|turn|18
+|
+|move|p2a: Rapidash|Fire Blast|p1a: Exeggcute
+|-supereffective|p1a: Exeggcute
+|-damage|p1a: Exeggcute|0 fnt
+|faint|p1a: Exeggcute
+|
+|switch|p1a: Golduck|Golduck, L85|247\/310 par
+|turn|19
+|
+|switch|p2a: Vaporeon|Vaporeon, L85|395\/395
+|cant|p1a: Golduck|par
+|
+|turn|20
+|
+|move|p2a: Vaporeon|Body Slam|p1a: Golduck
+|-damage|p1a: Golduck|198\/310 par
+|cant|p1a: Golduck|par
+|
+|turn|21
+|
+|move|p2a: Vaporeon|Body Slam|p1a: Golduck
+|-damage|p1a: Golduck|144\/310 par
+|cant|p1a: Golduck|par
+|
+|turn|22
+|
+|move|p2a: Vaporeon|Body Slam|p1a: Golduck
+|-damage|p1a: Golduck|89\/310 par
+|cant|p1a: Golduck|par
+|
+|turn|23
+|
+|move|p2a: Vaporeon|Body Slam|p1a: Golduck
+|-damage|p1a: Golduck|38\/310 par
+|cant|p1a: Golduck|par
+|
+|turn|24
+|
+|move|p2a: Vaporeon|Body Slam|p1a: Golduck
+|-damage|p1a: Golduck|0 fnt
+|faint|p1a: Golduck
+|
+|switch|p1a: Zubat|Zubat, L96|272\/272
+|turn|25
+|
+|move|p1a: Zubat|Mega Drain|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|358\/395
+|move|p2a: Vaporeon|Body Slam|p1a: Zubat
+|-damage|p1a: Zubat|208\/272
+|
+|turn|26
+|
+|move|p1a: Zubat|Toxic|p2a: Vaporeon
+|-status|p2a: Vaporeon|tox
+|move|p2a: Vaporeon|Body Slam|p1a: Zubat
+|-damage|p1a: Zubat|136\/272
+|-damage|p2a: Vaporeon|334\/395 tox|[from] tox|[of] p1a: Zubat
+|
+|turn|27
+|
+|move|p1a: Zubat|Supersonic|p2a: Vaporeon|[miss]
+|-miss|p1a: Zubat
+|move|p2a: Vaporeon|Body Slam|p1a: Zubat
+|-damage|p1a: Zubat|68\/272
+|-status|p1a: Zubat|par
+|-damage|p2a: Vaporeon|286\/395 tox|[from] tox|[of] p1a: Zubat
+|
+|turn|28
+|
+|move|p2a: Vaporeon|Body Slam|p1a: Zubat
+|-damage|p1a: Zubat|0 fnt
+|faint|p1a: Zubat
+|
+|switch|p1a: Mew|Mew, L74|99\/300 par
+|turn|29
+|
+|move|p2a: Vaporeon|Surf|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|win|kwikwik

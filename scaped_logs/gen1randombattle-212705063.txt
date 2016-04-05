@@ -1,0 +1,254 @@
+﻿|join|Cheesing
+|join|Anti♥Diva♥
+|player|p1|Cheesing|244
+|player|p2|Anti♥Diva♥|86
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Cloyster|Cloyster, L80|244\/244
+|switch|p2a: Primeape|Primeape, L86|287\/287
+|turn|1
+|
+|switch|p1a: Victreebel|Victreebel, L86|313\/313
+|move|p2a: Primeape|Body Slam|p1a: Victreebel
+|-damage|p1a: Victreebel|233\/313
+|
+|turn|2
+|
+|move|p2a: Primeape|Body Slam|p1a: Victreebel
+|-damage|p1a: Victreebel|151\/313
+|move|p1a: Victreebel|Sleep Powder|p2a: Primeape|[miss]
+|-miss|p1a: Victreebel
+|
+|turn|3
+|
+|move|p2a: Primeape|Body Slam|p1a: Victreebel
+|-damage|p1a: Victreebel|74\/313
+|-status|p1a: Victreebel|par
+|move|p1a: Victreebel|Sleep Powder|p2a: Primeape|[miss]
+|-miss|p1a: Victreebel
+|
+|turn|4
+|
+|move|p2a: Primeape|Body Slam|p1a: Victreebel
+|-crit|p1a: Victreebel
+|-damage|p1a: Victreebel|0 fnt
+|faint|p1a: Victreebel
+|
+|switch|p1a: Gyarados|Gyarados, L86|339\/339
+|turn|5
+|
+|move|p2a: Primeape|Rock Slide|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|211\/339
+|move|p1a: Gyarados|Surf|p2a: Primeape
+|-damage|p2a: Primeape|155\/287
+|
+|turn|6
+|
+|switch|p2a: Tentacruel|Tentacruel, L86|313\/313
+|move|p1a: Gyarados|Body Slam|p2a: Tentacruel
+|-damage|p2a: Tentacruel|232\/313
+|-status|p2a: Tentacruel|par
+|
+|turn|7
+|
+|move|p1a: Gyarados|Body Slam|p2a: Tentacruel
+|-damage|p2a: Tentacruel|151\/313 par
+|cant|p2a: Tentacruel|par
+|
+|turn|8
+|
+|switch|p2a: Haunter|Haunter, L86|253\/253
+|move|p1a: Gyarados|Hyper Beam|p2a: Haunter
+|-immune|p2a: Haunter|[msg]
+|
+|turn|9
+|
+|switch|p1a: Metapod|Metapod, L99|300\/300
+|move|p2a: Haunter|Thunderbolt|p1a: Metapod
+|-damage|p1a: Metapod|171\/300
+|
+|turn|10
+|
+|move|p2a: Haunter|Thunderbolt|p1a: Metapod
+|-damage|p1a: Metapod|43\/300
+|move|p1a: Metapod|String Shot|p2a: Haunter
+|-unboost|p2a: Haunter|spe|1
+|
+|turn|11
+|
+|switch|p2a: Primeape|Primeape, L86|155\/287
+|move|p1a: Metapod|String Shot|p2a: Primeape
+|-unboost|p2a: Primeape|spe|1
+|
+|turn|12
+|
+|switch|p1a: Vileplume|Vileplume, L86|304\/304
+|move|p2a: Primeape|Body Slam|p1a: Vileplume
+|-crit|p1a: Vileplume
+|-damage|p1a: Vileplume|179\/304
+|
+|turn|13
+|
+|move|p1a: Vileplume|Sleep Powder|p2a: Primeape
+|-status|p2a: Primeape|slp
+|cant|p2a: Primeape|slp
+|
+|turn|14
+|
+|switch|p1a: Porygon|Porygon, L86|287\/287
+|cant|p2a: Primeape|slp
+|
+|turn|15
+|
+|switch|p2a: Kabutops|Kabutops, L86|279\/279
+|move|p1a: Porygon|Agility|p1a: Porygon
+|-boost|p1a: Porygon|spe|2
+|
+|turn|16
+|
+|move|p1a: Porygon|Thunderbolt|p2a: Kabutops
+|-supereffective|p2a: Kabutops
+|-damage|p2a: Kabutops|137\/279
+|move|p2a: Kabutops|Swords Dance|p2a: Kabutops
+|-boost|p2a: Kabutops|atk|2
+|
+|turn|17
+|
+|switch|p2a: Marowak|Marowak, L86|279\/279
+|move|p1a: Porygon|Thunderbolt|p2a: Marowak
+|-immune|p2a: Marowak|[msg]
+|
+|turn|18
+|
+|move|p1a: Porygon|Psychic|p2a: Marowak
+|-damage|p2a: Marowak|200\/279
+|move|p2a: Marowak|Seismic Toss|p1a: Porygon
+|-damage|p1a: Porygon|201\/287
+|
+|turn|19
+|
+|move|p1a: Porygon|Psychic|p2a: Marowak
+|-damage|p2a: Marowak|119\/279
+|move|p2a: Marowak|Earthquake|p1a: Porygon
+|-damage|p1a: Porygon|83\/287
+|
+|turn|20
+|
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|226\/287
+|move|p2a: Marowak|Seismic Toss|p1a: Porygon
+|-damage|p1a: Porygon|140\/287
+|
+|turn|21
+|
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|283\/287
+|move|p2a: Marowak|Seismic Toss|p1a: Porygon
+|-damage|p1a: Porygon|197\/287
+|
+|turn|22
+|
+|move|p1a: Porygon|Psychic|p2a: Marowak
+|-damage|p2a: Marowak|41\/279
+|move|p2a: Marowak|Body Slam|p1a: Porygon
+|-damage|p1a: Porygon|137\/287
+|
+|turn|23
+|
+|move|p1a: Porygon|Psychic|p2a: Marowak
+|-damage|p2a: Marowak|0 fnt
+|faint|p2a: Marowak
+|
+|switch|p2a: Graveler|Graveler, L86|270\/270
+|turn|24
+|
+|move|p1a: Porygon|Psychic|p2a: Graveler
+|-damage|p2a: Graveler|183\/270
+|-unboost|p2a: Graveler|spd|1
+|-unboost|p2a: Graveler|spa|1
+|move|p2a: Graveler|Rock Slide|p1a: Porygon
+|-damage|p1a: Porygon|52\/287
+|
+|turn|25
+|
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|195\/287
+|move|p2a: Graveler|Earthquake|p1a: Porygon
+|-damage|p1a: Porygon|76\/287
+|
+|turn|26
+|
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|219\/287
+|move|p2a: Graveler|Explosion|p1a: Porygon
+|-damage|p1a: Porygon|0 fnt
+|faint|p1a: Porygon
+|faint|p2a: Graveler
+|
+|switch|p2a: Kabutops|Kabutops, L86|137\/279
+|switch|p1a: Vileplume|Vileplume, L86|179\/304
+|turn|27
+|
+|move|p2a: Kabutops|Hyper Beam|p1a: Vileplume
+|-damage|p1a: Vileplume|47\/304
+|move|p1a: Vileplume|Mega Drain|p2a: Kabutops
+|-supereffective|p2a: Kabutops
+|-damage|p2a: Kabutops|0 fnt
+|-heal|p1a: Vileplume|115\/304|[from] drain|[of] p2a: Kabutops
+|faint|p2a: Kabutops
+|
+|switch|p2a: Haunter|Haunter, L86|253\/253
+|turn|28
+|
+|move|p2a: Haunter|Psychic|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|faint|p1a: Vileplume
+|
+|switch|p1a: Metapod|Metapod, L99|43\/300
+|turn|29
+|
+|move|p2a: Haunter|Psychic|p1a: Metapod
+|-crit|p1a: Metapod
+|-damage|p1a: Metapod|0 fnt
+|faint|p1a: Metapod
+|
+|switch|p1a: Cloyster|Cloyster, L80|244\/244
+|turn|30
+|
+|move|p2a: Haunter|Thunderbolt|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|76\/244
+|move|p1a: Cloyster|Blizzard|p2a: Haunter|[miss]
+|-miss|p1a: Cloyster
+|
+|turn|31
+|c|★Cheesing|gg
+|c|★Anti♥Diva♥|gg
+|
+|move|p2a: Haunter|Thunderbolt|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|switch|p1a: Gyarados|Gyarados, L86|211\/339
+|turn|32
+|
+|move|p2a: Haunter|Thunderbolt|p1a: Gyarados
+|-crit|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|win|Anti♥Diva♥
+|raw|Ladder updating...
+|raw|Cheesing's rating: 1329 &rarr; <strong>1300<\/strong><br \/>(-29 for losing)
+|raw|Anti♥Diva♥'s rating: 1143 &rarr; <strong>1180<\/strong><br \/>(+37 for winning)

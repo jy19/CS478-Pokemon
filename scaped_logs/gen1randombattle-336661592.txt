@@ -1,0 +1,322 @@
+﻿|j|diskoliperiodos
+|j|BlackGuyGamer
+|player|p1|diskoliperiodos|169
+|player|p2|BlackGuyGamer|162
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Dugtrio|Dugtrio, L85|100\/100
+|switch|p2a: Clefable|Clefable, L85|100\/100
+|turn|1
+|choice||
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Clefable
+|-damage|p2a: Clefable|69\/100
+|move|p2a: Clefable|Ice Beam|p1a: Dugtrio
+|-crit|p1a: Dugtrio
+|-supereffective|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|choice||
+|
+|switch|p1a: Clefable|Clefable, L85|100\/100
+|turn|2
+|choice||
+|
+|switch|p2a: Slowbro|Slowbro, L79|100\/100
+|move|p1a: Clefable|Thunder Wave|p2a: Slowbro
+|-status|p2a: Slowbro|par
+|
+|turn|3
+|choice||
+|
+|move|p1a: Clefable|Thunderbolt|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|15\/100 par
+|cant|p2a: Slowbro|par
+|
+|turn|4
+|choice||
+|
+|switch|p2a: Dratini|Dratini, L96|100\/100
+|move|p1a: Clefable|Thunderbolt|p2a: Dratini
+|-resisted|p2a: Dratini
+|-damage|p2a: Dratini|87\/100
+|
+|turn|5
+|choice||
+|
+|move|p2a: Dratini|Thunder|p1a: Clefable
+|-damage|p1a: Clefable|79\/100
+|move|p1a: Clefable|Thunder Wave|p2a: Dratini
+|-status|p2a: Dratini|par
+|
+|turn|6
+|choice||
+|
+|move|p1a: Clefable|Blizzard|p2a: Dratini
+|-supereffective|p2a: Dratini
+|-damage|p2a: Dratini|20\/100 par
+|move|p2a: Dratini|Thunder|p1a: Clefable
+|-crit|p1a: Clefable
+|-damage|p1a: Clefable|38\/100
+|-status|p1a: Clefable|par
+|
+|turn|7
+|choice||
+|
+|move|p2a: Dratini|Thunder|p1a: Clefable|[miss]
+|-miss|p2a: Dratini
+|cant|p1a: Clefable|par
+|
+|turn|8
+|choice||
+|
+|move|p2a: Dratini|Thunder|p1a: Clefable
+|-damage|p1a: Clefable|15\/100 par
+|move|p1a: Clefable|Blizzard|p2a: Dratini
+|-supereffective|p2a: Dratini
+|-damage|p2a: Dratini|0 fnt
+|faint|p2a: Dratini
+|choice||
+|
+|switch|p2a: Gengar|Gengar, L79|100\/100
+|turn|9
+|choice||
+|
+|move|p2a: Gengar|Thunderbolt|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|choice||
+|
+|switch|p1a: Golduck|Golduck, L85|100\/100
+|turn|10
+|choice||
+|
+|switch|p1a: Marowak|Marowak, L90|100\/100
+|move|p2a: Gengar|Hypnosis|p1a: Marowak
+|-status|p1a: Marowak|slp
+|
+|turn|11
+|choice||
+|
+|move|p2a: Gengar|Mega Drain|p1a: Marowak
+|-supereffective|p1a: Marowak
+|-damage|p1a: Marowak|73\/100 slp
+|cant|p1a: Marowak|slp
+|
+|turn|12
+|choice||
+|
+|switch|p1a: Articuno|Articuno, L79|100\/100
+|move|p2a: Gengar|Psychic|p1a: Articuno
+|-crit|p1a: Articuno
+|-damage|p1a: Articuno|61\/100
+|-unboost|p1a: Articuno|spd|1
+|-unboost|p1a: Articuno|spa|1
+|
+|turn|13
+|choice||
+|
+|move|p2a: Gengar|Psychic|p1a: Articuno
+|-damage|p1a: Articuno|32\/100
+|-unboost|p1a: Articuno|spd|1
+|-unboost|p1a: Articuno|spa|1
+|move|p1a: Articuno|Ice Beam|p2a: Gengar
+|-damage|p2a: Gengar|83\/100
+|
+|turn|14
+|j|Da Maw
+|l|Da Maw
+|choice||
+|
+|move|p2a: Gengar|Psychic|p1a: Articuno
+|-damage|p1a: Articuno|0 fnt
+|faint|p1a: Articuno
+|choice||
+|
+|switch|p1a: Arbok|Arbok, L90|100\/100
+|turn|15
+|choice||
+|
+|move|p2a: Gengar|Psychic|p1a: Arbok
+|-supereffective|p1a: Arbok
+|-damage|p1a: Arbok|45\/100
+|-unboost|p1a: Arbok|spd|1
+|-unboost|p1a: Arbok|spa|1
+|move|p1a: Arbok|Earthquake|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|13\/100
+|
+|turn|16
+|choice||
+|
+|move|p2a: Gengar|Psychic|p1a: Arbok
+|-supereffective|p1a: Arbok
+|-damage|p1a: Arbok|0 fnt
+|faint|p1a: Arbok
+|choice||
+|
+|switch|p1a: Golduck|Golduck, L85|100\/100
+|turn|17
+|choice||
+|
+|move|p2a: Gengar|Mega Drain|p1a: Golduck
+|-crit|p1a: Golduck
+|-supereffective|p1a: Golduck
+|-damage|p1a: Golduck|57\/100
+|-heal|p2a: Gengar|39\/100|[from] drain|[of] p1a: Golduck
+|move|p1a: Golduck|Surf|p2a: Gengar
+|-damage|p2a: Gengar|8\/100
+|
+|turn|18
+|choice||
+|
+|move|p2a: Gengar|Mega Drain|p1a: Golduck
+|-supereffective|p1a: Golduck
+|-damage|p1a: Golduck|37\/100
+|-heal|p2a: Gengar|20\/100|[from] drain|[of] p1a: Golduck
+|move|p1a: Golduck|Surf|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|choice||
+|
+|switch|p2a: Magneton|Magneton, L90|100\/100
+|turn|19
+|choice||
+|
+|move|p1a: Golduck|Amnesia|p1a: Golduck
+|-boost|p1a: Golduck|spd|2
+|-boost|p1a: Golduck|spa|2
+|move|p2a: Magneton|Double-Edge|p1a: Golduck
+|-damage|p1a: Golduck|15\/100
+|-damage|p2a: Magneton|95\/100|[from] recoil|[of] p1a: Golduck
+|
+|turn|20
+|choice||
+|
+|move|p1a: Golduck|Rest|p1a: Golduck
+|-status|p1a: Golduck|slp
+|-heal|p1a: Golduck|100\/100 slp|[silent]
+|-status|p1a: Golduck|slp|[from] move: Rest
+|move|p2a: Magneton|Double-Edge|p1a: Golduck
+|-damage|p1a: Golduck|81\/100 slp
+|-damage|p2a: Magneton|89\/100|[from] recoil|[of] p1a: Golduck
+|
+|turn|21
+|choice||
+|
+|cant|p1a: Golduck|slp
+|move|p2a: Magneton|Thunderbolt|p1a: Golduck
+|-supereffective|p1a: Golduck
+|-damage|p1a: Golduck|36\/100 slp
+|
+|turn|22
+|choice||
+|
+|-curestatus|p1a: Golduck|slp
+|move|p2a: Magneton|Mimic|p1a: Golduck
+|-start|p2a: Magneton|Mimic|Surf
+|
+|turn|23
+|choice||
+|
+|move|p1a: Golduck|Amnesia|p1a: Golduck
+|-boost|p1a: Golduck|spd|2
+|-boost|p1a: Golduck|spa|2
+|move|p2a: Magneton|Thunderbolt|p1a: Golduck
+|-supereffective|p1a: Golduck
+|-damage|p1a: Golduck|8\/100
+|
+|turn|24
+|choice||
+|
+|move|p1a: Golduck|Rest|p1a: Golduck
+|-status|p1a: Golduck|slp
+|-heal|p1a: Golduck|100\/100 slp|[silent]
+|-status|p1a: Golduck|slp|[from] move: Rest
+|move|p2a: Magneton|Double-Edge|p1a: Golduck
+|-damage|p1a: Golduck|79\/100 slp
+|-damage|p2a: Magneton|83\/100|[from] recoil|[of] p1a: Golduck
+|
+|turn|25
+|choice||
+|
+|switch|p2a: Nidorina|Nidorina, L90|100\/100
+|cant|p1a: Golduck|slp
+|
+|turn|26
+|choice||
+|
+|-curestatus|p1a: Golduck|slp
+|move|p2a: Nidorina|Body Slam|p1a: Golduck
+|-damage|p1a: Golduck|61\/100
+|
+|turn|27
+|choice||
+|
+|move|p1a: Golduck|Surf|p2a: Nidorina
+|-damage|p2a: Nidorina|0 fnt
+|faint|p2a: Nidorina
+|choice||
+|
+|switch|p2a: Clefable|Clefable, L85|69\/100
+|turn|28
+|choice||
+|
+|move|p1a: Golduck|Surf|p2a: Clefable
+|-crit|p2a: Clefable
+|-damage|p2a: Clefable|15\/100
+|move|p2a: Clefable|Thunderbolt|p1a: Golduck
+|-supereffective|p1a: Golduck
+|-damage|p1a: Golduck|48\/100
+|
+|turn|29
+|choice||
+|
+|move|p1a: Golduck|Surf|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|choice||
+|
+|switch|p2a: Slowbro|Slowbro, L79|15\/100 par
+|turn|30
+|choice||
+|
+|move|p1a: Golduck|Surf|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|choice||
+|
+|switch|p2a: Magneton|Magneton, L90|83\/100
+|turn|31
+|choice||
+|
+|move|p1a: Golduck|Surf|p2a: Magneton
+|-damage|p2a: Magneton|9\/100
+|move|p2a: Magneton|Double-Edge|p1a: Golduck
+|-damage|p1a: Golduck|27\/100
+|-damage|p2a: Magneton|3\/100|[from] recoil|[of] p1a: Golduck
+|
+|turn|32
+|choice||
+|
+|move|p1a: Golduck|Surf|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|faint|p2a: Magneton
+|
+|win|diskoliperiodos
+|player|p1
+|player|p2
+|raw|diskoliperiodos's rating: 1460 &rarr; <strong>1467<\/strong><br \/>(+7 for winning)
+|raw|BlackGuyGamer's rating: 1192 &rarr; <strong>1183<\/strong><br \/>(-9 for losing)
+|l|BlackGuyGamer

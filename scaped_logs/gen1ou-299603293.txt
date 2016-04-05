@@ -1,0 +1,376 @@
+﻿|join|marcoasd
+|join|Princess Bonnibel
+|player|p1|marcoasd|2
+|player|p2|Princess Bonnibel|100
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|seed|12316,23755,28278,54331
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gengar|Gengar|323\/323
+|switch|p2a: Lilith|Jynx|333\/333
+|turn|1
+|choice|move 1|move 2
+|
+|move|p1a: Gengar|Hypnosis|p2a: Lilith
+|-status|p2a: Lilith|slp
+|-curestatus|p2a: Lilith|slp
+|
+|turn|2
+|choice|move 1|move 2
+|
+|move|p1a: Gengar|Hypnosis|p2a: Lilith
+|-status|p2a: Lilith|slp
+|cant|p2a: Lilith|slp
+|
+|turn|3
+|choice|move 2|switch 2
+|
+|switch|p2a: Magdalene|Chansey|703\/703
+|move|p1a: Gengar|Night Shade|p2a: Magdalene
+|-damage|p2a: Magdalene|603\/703
+|
+|turn|4
+|choice|switch 2|move 3
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Magdalene|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|turn|5
+|choice|move 3|move 1
+|
+|move|p2a: Magdalene|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|631\/703 par
+|move|p1a: Chansey|Ice Beam|p2a: Magdalene
+|-damage|p2a: Magdalene|524\/703
+|
+|turn|6
+|choice|move 3|switch 2
+|
+|switch|p2a: Lilith|Jynx|333\/333 slp
+|move|p1a: Chansey|Ice Beam|p2a: Lilith
+|-resisted|p2a: Lilith
+|-damage|p2a: Lilith|295\/333 slp
+|
+|turn|7
+|choice|switch 5|move 1
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|cant|p2a: Lilith|slp
+|
+|turn|8
+|choice|move 1|switch 5
+|
+|switch|p2a: Isaac|Lapras|463\/463
+|move|p1a: Tauros|Body Slam|p2a: Isaac
+|-crit|p2a: Isaac
+|-damage|p2a: Isaac|248\/463
+|-status|p2a: Isaac|par
+|
+|turn|9
+|choice|switch 5|move 1
+|
+|switch|p1a: Chansey|Chansey|631\/703 par
+|cant|p2a: Isaac|par
+|
+|turn|10
+|choice|move 2|switch 4
+|
+|switch|p2a: Keeper|Snorlax|523\/523
+|move|p1a: Chansey|Thunderbolt|p2a: Keeper
+|-damage|p2a: Keeper|430\/523
+|
+|turn|11
+|choice|move 1|move 3
+|
+|move|p2a: Keeper|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|384\/703 par
+|move|p1a: Chansey|Thunder Wave|p2a: Keeper
+|-status|p2a: Keeper|par
+|
+|turn|12
+|choice|switch 3|move 1
+|
+|switch|p1a: Cloyster|Cloyster|303\/303
+|move|p2a: Keeper|Body Slam|p1a: Cloyster
+|-damage|p1a: Cloyster|237\/303
+|
+|turn|13
+|choice|move 2|switch 6
+|
+|switch|p2a: Azazel|Zapdos|383\/383
+|move|p1a: Cloyster|Clamp|p2a: Azazel
+|-damage|p2a: Azazel|349\/383
+|-activate|p2a: Azazel|move: Clamp|[of] p1a: Cloyster
+|
+|turn|14
+|choice|switch 4|move 1
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|cant|p2a: Azazel|partiallytrapped
+|
+|-end|p2a: Azazel|Clamp|[partiallytrapped]
+|turn|15
+|choice|move 1|move 2
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Azazel
+|-status|p2a: Azazel|par
+|move|p2a: Azazel|Drill Peck|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|26\/313
+|
+|turn|16
+|choice|move 4|move 2
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|182\/313
+|move|p2a: Azazel|Drill Peck|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|choice|switch 6|
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|turn|17
+|choice|move 3|switch 2
+|
+|switch|p2a: Magdalene|Chansey|524\/703
+|move|p1a: Exeggutor|Psychic|p2a: Magdalene
+|-damage|p2a: Magdalene|406\/703
+|
+|turn|18
+|choice|switch 3|move 3
+|
+|switch|p1a: Chansey|Chansey|384\/703 par
+|move|p2a: Magdalene|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|
+|turn|19
+|choice|move 4|move 2
+|
+|move|p2a: Magdalene|Soft-Boiled|p2a: Magdalene
+|-heal|p2a: Magdalene|703\/703
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703 par
+|
+|turn|20
+|choice|move 2|switch 5
+|
+|switch|p2a: Lilith|Jynx|295\/333 slp
+|cant|p1a: Chansey|par
+|
+|turn|21
+|choice|switch 5|move 1
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|cant|p2a: Lilith|slp
+|
+|turn|22
+|choice|move 1|switch 4
+|
+|switch|p2a: Isaac|Lapras|248\/463 par
+|move|p1a: Tauros|Body Slam|p2a: Isaac
+|-damage|p2a: Isaac|130\/463 par
+|
+|turn|23
+|choice|switch 5|move 4
+|
+|switch|p1a: Chansey|Chansey|703\/703 par
+|cant|p2a: Isaac|par
+|
+|turn|24
+|choice|move 2|move 4
+|
+|move|p2a: Isaac|Confuse Ray|p1a: Chansey
+|-start|p1a: Chansey|confusion
+|-activate|p1a: Chansey|confusion
+|move|p1a: Chansey|Thunderbolt|p2a: Isaac
+|-supereffective|p2a: Isaac
+|-damage|p2a: Isaac|0 fnt
+|faint|p2a: Isaac
+|choice||switch 6
+|
+|switch|p2a: Keeper|Snorlax|430\/523 par
+|turn|25
+|choice|switch 3|move 1
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Keeper|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|281\/393
+|
+|turn|26
+|choice|move 3|move 1
+|
+|move|p1a: Exeggutor|Psychic|p2a: Keeper
+|-damage|p2a: Keeper|273\/523 par
+|move|p2a: Keeper|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|161\/393
+|
+|turn|27
+|choice|switch 4|switch 3
+|
+|switch|p1a: Cloyster|Cloyster|237\/303
+|switch|p2a: Judas|Tauros|353\/353
+|
+|turn|28
+|choice|move 1|move 1
+|
+|move|p2a: Judas|Body Slam|p1a: Cloyster
+|-damage|p1a: Cloyster|172\/303
+|move|p1a: Cloyster|Blizzard|p2a: Judas
+|-damage|p2a: Judas|188\/353
+|
+|turn|29
+|choice|move 4|switch 5
+|
+|switch|p2a: Magdalene|Chansey|703\/703
+|move|p1a: Cloyster|Explosion|p2a: Magdalene
+|-damage|p2a: Magdalene|0 fnt
+|faint|p2a: Magdalene
+|faint|p1a: Cloyster
+|choice|switch 3|switch 5
+|
+|switch|p2a: Judas|Tauros|188\/353
+|switch|p1a: Chansey|Chansey|703\/703 par
+|turn|30
+|choice|move 1|switch 4
+|
+|switch|p2a: Lilith|Jynx|295\/333 slp
+|cant|p1a: Chansey|par
+|
+|turn|31
+|choice|move 2|switch 2
+|
+|switch|p2a: Azazel|Zapdos|349\/383 par
+|move|p1a: Chansey|Thunderbolt|p2a: Azazel
+|-damage|p2a: Azazel|283\/383 par
+|
+|turn|32
+|choice|move 3|move 2
+|
+|cant|p2a: Azazel|par
+|cant|p1a: Chansey|par
+|
+|turn|33
+|choice|move 3|move 2
+|
+|move|p2a: Azazel|Drill Peck|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|238\/703 par
+|cant|p1a: Chansey|par
+|
+|turn|34
+|choice|move 3|move 2
+|
+|move|p2a: Azazel|Drill Peck|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|choice|switch 2|
+|
+|switch|p1a: Gengar|Gengar|323\/323
+|turn|35
+|choice|move 3|move 4
+|
+|move|p1a: Gengar|Thunderbolt|p2a: Azazel
+|-damage|p2a: Azazel|205\/383 par
+|cant|p2a: Azazel|par
+|
+|turn|36
+|choice|move 2|move 3
+|
+|move|p1a: Gengar|Night Shade|p2a: Azazel
+|-damage|p2a: Azazel|105\/383 par
+|cant|p2a: Azazel|par
+|
+|turn|37
+|choice|move 3|move 4
+|
+|move|p1a: Gengar|Thunderbolt|p2a: Azazel
+|-crit|p2a: Azazel
+|-damage|p2a: Azazel|0 fnt
+|faint|p2a: Azazel
+|choice||switch 4
+|
+|switch|p2a: Judas|Tauros|188\/353
+|turn|38
+|choice|move 3|move 3
+|
+|move|p1a: Gengar|Thunderbolt|p2a: Judas
+|-damage|p2a: Judas|84\/353
+|move|p2a: Judas|Earthquake|p1a: Gengar
+|-crit|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|choice|switch 5|
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|39
+|choice|move 1|move 2
+|
+|move|p2a: Judas|Hyper Beam|p1a: Tauros
+|-damage|p1a: Tauros|187\/353
+|move|p1a: Tauros|Body Slam|p2a: Judas
+|-damage|p2a: Judas|0 fnt
+|faint|p2a: Judas
+|choice||switch 3
+|
+|switch|p2a: Keeper|Snorlax|273\/523 par
+|turn|40
+|choice|move 2|move 1
+|
+|move|p1a: Tauros|Earthquake|p2a: Keeper
+|-crit|p2a: Keeper
+|-damage|p2a: Keeper|67\/523 par
+|cant|p2a: Keeper|par
+|
+|turn|41
+|c|★marcoasd|gg
+|c|★Princess Bonnibel|gg :T
+|choice|move 1|move 4
+|
+|move|p1a: Tauros|Body Slam|p2a: Keeper
+|-damage|p2a: Keeper|0 fnt
+|faint|p2a: Keeper
+|c|★marcoasd|hyper beam?
+|choice||switch 2
+|
+|switch|p2a: Lilith|Jynx|295\/333 slp
+|turn|42
+|c|★Princess Bonnibel|boom
+|c|★marcoasd|yeah should've sent egg
+|c|★Princess Bonnibel|lilith won in 1v1 with eggy but
+|choice|move 1|move 4
+|
+|move|p1a: Tauros|Body Slam|p2a: Lilith
+|-damage|p2a: Lilith|134\/333 slp
+|cant|p2a: Lilith|slp
+|
+|turn|43
+|c|★marcoasd|well not 100% sure
+|choice|move 1|move 4
+|
+|move|p1a: Tauros|Body Slam|p2a: Lilith
+|-crit|p2a: Lilith
+|-damage|p2a: Lilith|0 fnt
+|faint|p2a: Lilith
+|
+|win|marcoasd
+|raw|marcoasd's rating: 1345 &rarr; <strong>1358<\/strong><br \/>(+13 for winning)
+|raw|Princess Bonnibel's rating: 1204 &rarr; <strong>1189<\/strong><br \/>(-15 for losing)
+|c|★Princess Bonnibel|gg
+|c|★marcoasd|gg
+|leave|marcoasd
+|player|p1
+|leave|Princess Bonnibel
+|player|p2
+|join|Princess Bonnibel

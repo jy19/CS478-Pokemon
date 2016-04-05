@@ -1,0 +1,211 @@
+﻿|join|yaldyyyy
+|join|Synapstics5
+|player|p1|yaldyyyy|102
+|player|p2|Synapstics5|266
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Slowbro|Slowbro, L79|312\/312
+|switch|p2a: Pidgeotto|Pidgeotto, L90|297\/297
+|turn|1
+|
+|move|p2a: Pidgeotto|Sky Attack|p1a: Slowbro|[still]
+|-prepare|p2a: Pidgeotto|Sky Attack|p1a: Slowbro
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|
+|turn|2
+|
+|move|p2a: Pidgeotto|Sky Attack|p1a: Slowbro
+|-damage|p1a: Slowbro|194\/312
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|
+|turn|3
+|
+|move|p2a: Pidgeotto|Sky Attack|p1a: Slowbro|[still]
+|-prepare|p2a: Pidgeotto|Sky Attack|p1a: Slowbro
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|
+|turn|4
+|
+|move|p2a: Pidgeotto|Sky Attack|p1a: Slowbro
+|-damage|p1a: Slowbro|73\/312
+|move|p1a: Slowbro|Thunder Wave|p2a: Pidgeotto
+|-status|p2a: Pidgeotto|par
+|
+|turn|5
+|
+|move|p1a: Slowbro|Rest|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|-heal|p1a: Slowbro|312\/312 slp|[silent]
+|-status|p1a: Slowbro|slp|[from] move: Rest
+|move|p2a: Pidgeotto|Sky Attack|p1a: Slowbro|[still]
+|-prepare|p2a: Pidgeotto|Sky Attack|p1a: Slowbro
+|
+|turn|6
+|
+|cant|p1a: Slowbro|slp
+|move|p2a: Pidgeotto|Sky Attack|p1a: Slowbro
+|-damage|p1a: Slowbro|204\/312 slp
+|
+|turn|7
+|
+|-curestatus|p1a: Slowbro|slp
+|move|p2a: Pidgeotto|Sky Attack|p1a: Slowbro|[still]
+|-prepare|p2a: Pidgeotto|Sky Attack|p1a: Slowbro
+|
+|turn|8
+|
+|move|p1a: Slowbro|Surf|p2a: Pidgeotto
+|-damage|p2a: Pidgeotto|0 fnt
+|faint|p2a: Pidgeotto
+|
+|switch|p2a: Magneton|Magneton, L90|273\/273
+|turn|9
+|
+|move|p2a: Magneton|Thunderbolt|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|132\/312
+|move|p1a: Slowbro|Surf|p2a: Magneton
+|-damage|p2a: Magneton|28\/273
+|
+|turn|10
+|
+|move|p2a: Magneton|Thunderbolt|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|58\/312
+|move|p1a: Slowbro|Thunder Wave|p2a: Magneton
+|-status|p2a: Magneton|par
+|
+|turn|11
+|
+|move|p1a: Slowbro|Rest|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|-heal|p1a: Slowbro|312\/312 slp|[silent]
+|-status|p1a: Slowbro|slp|[from] move: Rest
+|move|p2a: Magneton|Thunderbolt|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|236\/312 slp
+|
+|turn|12
+|
+|cant|p1a: Slowbro|slp
+|move|p2a: Magneton|Hyper Beam|p1a: Slowbro
+|-damage|p1a: Slowbro|148\/312 slp
+|
+|turn|13
+|-mustrecharge|p2a: Magneton
+|-mustrecharge|p2a: Magneton
+|
+|-curestatus|p1a: Slowbro|slp
+|cant|p2a: Magneton|recharge
+|
+|turn|14
+|
+|move|p1a: Slowbro|Surf|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|faint|p2a: Magneton
+|
+|switch|p2a: Snorlax|Snorlax, L79|415\/415
+|turn|15
+|
+|move|p2a: Snorlax|Ice Beam|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|142\/312
+|move|p1a: Slowbro|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|
+|turn|16
+|
+|move|p1a: Slowbro|Surf|p2a: Snorlax
+|-damage|p2a: Snorlax|45\/415 par
+|move|p2a: Snorlax|Body Slam|p1a: Slowbro
+|-damage|p1a: Slowbro|64\/312
+|
+|turn|17
+|
+|move|p1a: Slowbro|Rest|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|-heal|p1a: Slowbro|312\/312 slp|[silent]
+|-status|p1a: Slowbro|slp|[from] move: Rest
+|cant|p2a: Snorlax|par
+|
+|turn|18
+|
+|cant|p1a: Slowbro|slp
+|cant|p2a: Snorlax|par
+|
+|turn|19
+|
+|-curestatus|p1a: Slowbro|slp
+|move|p2a: Snorlax|Self-Destruct|p1a: Slowbro
+|-damage|p1a: Slowbro|77\/312
+|faint|p2a: Snorlax
+|
+|switch|p2a: Haunter|Haunter, L85|250\/250
+|turn|20
+|
+|move|p2a: Haunter|Confuse Ray|p1a: Slowbro
+|-start|p1a: Slowbro|confusion
+|-activate|p1a: Slowbro|confusion
+|move|p1a: Slowbro|Rest|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|-heal|p1a: Slowbro|312\/312 slp|[silent]
+|-status|p1a: Slowbro|slp|[from] move: Rest
+|
+|turn|21
+|
+|move|p2a: Haunter|Thunderbolt|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|269\/312 slp
+|cant|p1a: Slowbro|slp
+|
+|turn|22
+|
+|move|p2a: Haunter|Thunderbolt|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|226\/312 slp
+|-curestatus|p1a: Slowbro|slp
+|
+|turn|23
+|
+|move|p2a: Haunter|Hypnosis|p1a: Slowbro|[miss]
+|-miss|p2a: Haunter
+|-end|p1a: Slowbro|confusion
+|move|p1a: Slowbro|Surf|p2a: Haunter
+|-damage|p2a: Haunter|0 fnt
+|faint|p2a: Haunter
+|c|★Synapstics5|wow slowbro is powerful
+|
+|switch|p2a: Diglett|Diglett, L96|214\/214
+|turn|24
+|
+|move|p2a: Diglett|Earthquake|p1a: Slowbro
+|-damage|p1a: Slowbro|137\/312
+|move|p1a: Slowbro|Surf|p2a: Diglett
+|-supereffective|p2a: Diglett
+|-damage|p2a: Diglett|0 fnt
+|faint|p2a: Diglett
+|
+|switch|p2a: Charmeleon|Charmeleon, L85|272\/272
+|turn|25
+|
+|move|p2a: Charmeleon|Seismic Toss|p1a: Slowbro
+|-damage|p1a: Slowbro|52\/312
+|move|p1a: Slowbro|Surf|p2a: Charmeleon
+|-supereffective|p2a: Charmeleon
+|-damage|p2a: Charmeleon|0 fnt
+|faint|p2a: Charmeleon
+|
+|win|yaldyyyy

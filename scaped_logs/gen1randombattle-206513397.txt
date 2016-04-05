@@ -1,0 +1,334 @@
+﻿|join|Caesar Augustus
+|join|mysticwins
+|player|p1|Caesar Augustus|253
+|player|p2|mysticwins|170
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Nidoking|Nidoking, L86|315\/315
+|switch|p2a: Dugtrio|Dugtrio, L86|236\/236
+|turn|1
+|
+|switch|p1a: Metapod|Metapod, L99|300\/300
+|move|p2a: Dugtrio|Sand Attack|p1a: Metapod
+|-unboost|p1a: Metapod|accuracy|1
+|
+|turn|2
+|
+|move|p2a: Dugtrio|Substitute|p2a: Dugtrio
+|-start|p2a: Dugtrio|Substitute
+|-damage|p2a: Dugtrio|177\/236
+|move|p1a: Metapod|String Shot|p2a: Dugtrio
+|-fail|p2a: Dugtrio
+|
+|turn|3
+|
+|move|p2a: Dugtrio|Slash|p1a: Metapod
+|-crit|p1a: Metapod
+|-damage|p1a: Metapod|193\/300
+|move|p1a: Metapod|Harden|p1a: Metapod
+|-boost|p1a: Metapod|def|1
+|
+|turn|4
+|
+|move|p2a: Dugtrio|Slash|p1a: Metapod
+|-crit|p1a: Metapod
+|-damage|p1a: Metapod|88\/300
+|move|p1a: Metapod|Tackle|p2a: Dugtrio
+|-activate|p2a: Dugtrio|Substitute|[damage]
+|
+|turn|5
+|
+|move|p2a: Dugtrio|Slash|p1a: Metapod
+|-crit|p1a: Metapod
+|-damage|p1a: Metapod|0 fnt
+|faint|p1a: Metapod
+|
+|switch|p1a: Tauros|Tauros, L80|284\/284
+|turn|6
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|94\/284
+|move|p1a: Tauros|Earthquake|p2a: Dugtrio
+|-crit|p2a: Dugtrio
+|-end|p2a: Dugtrio|Substitute
+|
+|turn|7
+|
+|switch|p1a: Poliwhirl|Poliwhirl, L86|287\/287
+|move|p2a: Dugtrio|Slash|p1a: Poliwhirl
+|-crit|p1a: Poliwhirl
+|-damage|p1a: Poliwhirl|182\/287
+|
+|turn|8
+|
+|switch|p2a: Poliwhirl|Poliwhirl, L86|287\/287
+|move|p1a: Poliwhirl|Blizzard|p2a: Poliwhirl
+|-resisted|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|245\/287
+|
+|turn|9
+|
+|move|p1a: Poliwhirl|Hypnosis|p2a: Poliwhirl|[miss]
+|-miss|p1a: Poliwhirl
+|move|p2a: Poliwhirl|Hypnosis|p1a: Poliwhirl
+|-status|p1a: Poliwhirl|slp
+|
+|turn|10
+|
+|switch|p1a: Psyduck|Psyduck, L95|288\/288
+|move|p2a: Poliwhirl|Amnesia|p2a: Poliwhirl
+|-boost|p2a: Poliwhirl|spd|2
+|-boost|p2a: Poliwhirl|spa|2
+|
+|turn|11
+|
+|move|p2a: Poliwhirl|Psychic|p1a: Psyduck
+|-crit|p1a: Psyduck
+|-damage|p1a: Psyduck|176\/288
+|move|p1a: Psyduck|Amnesia|p1a: Psyduck
+|-boost|p1a: Psyduck|spd|2
+|-boost|p1a: Psyduck|spa|2
+|
+|turn|12
+|
+|move|p2a: Poliwhirl|Psychic|p1a: Psyduck
+|-crit|p1a: Psyduck
+|-damage|p1a: Psyduck|61\/288
+|move|p1a: Psyduck|Amnesia|p1a: Psyduck
+|-boost|p1a: Psyduck|spd|2
+|-boost|p1a: Psyduck|spa|2
+|
+|turn|13
+|
+|move|p2a: Poliwhirl|Psychic|p1a: Psyduck
+|-damage|p1a: Psyduck|22\/288
+|-unboost|p1a: Psyduck|spd|1
+|-unboost|p1a: Psyduck|spa|1
+|move|p1a: Psyduck|Surf|p2a: Poliwhirl
+|-resisted|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|167\/287
+|
+|turn|14
+|
+|move|p2a: Poliwhirl|Psychic|p1a: Psyduck
+|-damage|p1a: Psyduck|0 fnt
+|faint|p1a: Psyduck
+|
+|switch|p1a: Tauros|Tauros, L80|94\/284
+|turn|15
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|0 fnt
+|faint|p2a: Poliwhirl
+|
+|switch|p2a: Vileplume|Vileplume, L86|304\/304
+|turn|16
+|
+|switch|p1a: Nidoking|Nidoking, L86|315\/315
+|move|p2a: Vileplume|Sleep Powder|p1a: Nidoking
+|-message|Sleep Clause Mod activated.
+|
+|turn|17
+|
+|switch|p2a: Jynx|Jynx, L80|268\/268
+|move|p1a: Nidoking|Blizzard|p2a: Jynx
+|-resisted|p2a: Jynx
+|-damage|p2a: Jynx|229\/268
+|
+|turn|18
+|
+|move|p2a: Jynx|Blizzard|p1a: Nidoking
+|-supereffective|p1a: Nidoking
+|-damage|p1a: Nidoking|63\/315
+|move|p1a: Nidoking|Earthquake|p2a: Jynx
+|-damage|p2a: Jynx|59\/268
+|
+|turn|19
+|
+|switch|p1a: Chansey|Chansey, L80|564\/564
+|move|p2a: Jynx|Psychic|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|411\/564
+|
+|turn|20
+|
+|move|p2a: Jynx|Psychic|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|260\/564
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|
+|turn|21
+|c|★mysticwins|go
+|c|★mysticwins|really
+|
+|move|p2a: Jynx|Psychic|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|110\/564
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|392\/564
+|
+|turn|22
+|c|★Caesar Augustus|i had to do something
+|c|★Caesar Augustus|my b
+|
+|move|p2a: Jynx|Mimic|p1a: Chansey
+|-start|p2a: Jynx|Mimic|Counter
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|564\/564
+|
+|turn|23
+|
+|move|p2a: Jynx|Psychic|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|411\/564
+|move|p1a: Chansey|Ice Beam|p2a: Jynx
+|-resisted|p2a: Jynx
+|-damage|p2a: Jynx|37\/268
+|
+|turn|24
+|
+|move|p2a: Jynx|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|289\/564
+|move|p1a: Chansey|Ice Beam|p2a: Jynx
+|-resisted|p2a: Jynx
+|-damage|p2a: Jynx|16\/268
+|
+|turn|25
+|
+|move|p2a: Jynx|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|122\/564
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|404\/564
+|
+|turn|26
+|
+|move|p2a: Jynx|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|239\/564
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|521\/564
+|
+|turn|27
+|
+|move|p2a: Jynx|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|409\/564
+|move|p1a: Chansey|Ice Beam|p2a: Jynx
+|-resisted|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|
+|switch|p2a: Poliwrath|Poliwrath, L86|330\/330
+|turn|28
+|
+|move|p2a: Poliwrath|Surf|p1a: Chansey
+|-damage|p1a: Chansey|291\/564
+|move|p1a: Chansey|Counter|p2a: Poliwrath
+|-fail|p1a: Chansey
+|
+|turn|29
+|
+|move|p2a: Poliwrath|Submission|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|82\/564
+|-damage|p2a: Poliwrath|278\/330|[from] recoil|[of] p1a: Chansey
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|364\/564
+|
+|turn|30
+|
+|move|p2a: Poliwrath|Amnesia|p2a: Poliwrath
+|-boost|p2a: Poliwrath|spd|2
+|-boost|p2a: Poliwrath|spa|2
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|564\/564
+|
+|turn|31
+|
+|move|p2a: Poliwrath|Amnesia|p2a: Poliwrath
+|-boost|p2a: Poliwrath|spd|2
+|-boost|p2a: Poliwrath|spa|2
+|move|p1a: Chansey|Ice Beam|p2a: Poliwrath
+|-resisted|p2a: Poliwrath
+|-damage|p2a: Poliwrath|270\/330
+|
+|turn|32
+|
+|move|p2a: Poliwrath|Amnesia|p2a: Poliwrath
+|-boost|p2a: Poliwrath|spd|2
+|-boost|p2a: Poliwrath|spa|2
+|move|p1a: Chansey|Ice Beam|p2a: Poliwrath
+|-resisted|p2a: Poliwrath
+|-damage|p2a: Poliwrath|265\/330
+|
+|turn|33
+|
+|switch|p1a: Poliwhirl|Poliwhirl, L86|182\/287 slp
+|move|p2a: Poliwrath|Surf|p1a: Poliwhirl
+|-resisted|p1a: Poliwhirl
+|-damage|p1a: Poliwhirl|0 fnt
+|faint|p1a: Poliwhirl
+|
+|switch|p1a: Nidoking|Nidoking, L86|63\/315
+|turn|34
+|
+|move|p1a: Nidoking|Earthquake|p2a: Poliwrath
+|-damage|p2a: Poliwrath|157\/330
+|move|p2a: Poliwrath|Surf|p1a: Nidoking
+|-supereffective|p1a: Nidoking
+|-damage|p1a: Nidoking|0 fnt
+|faint|p1a: Nidoking
+|
+|switch|p1a: Tauros|Tauros, L80|94\/284
+|turn|35
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Poliwrath
+|-damage|p2a: Poliwrath|23\/330
+|move|p2a: Poliwrath|Surf|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|switch|p1a: Chansey|Chansey, L80|564\/564
+|turn|36
+|
+|move|p2a: Poliwrath|Surf|p1a: Chansey
+|-damage|p1a: Chansey|240\/564
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|
+|turn|37
+|
+|move|p2a: Poliwrath|Submission|p1a: Chansey|[miss]
+|-miss|p2a: Poliwrath
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|522\/564
+|
+|turn|38
+|
+|move|p2a: Poliwrath|Surf|p1a: Chansey
+|-damage|p1a: Chansey|214\/564
+|move|p1a: Chansey|Ice Beam|p2a: Poliwrath
+|-resisted|p2a: Poliwrath
+|-damage|p2a: Poliwrath|14\/330
+|
+|turn|39
+|c|★mysticwins|gg
+|
+|move|p2a: Poliwrath|Surf|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|win|mysticwins
+|raw|Ladder updating...
+|c|★Caesar Augustus|gg
+|raw|Caesar Augustus's rating: 1317 &rarr; <strong>1291<\/strong><br \/>(-26 for losing)
+|raw|mysticwins's rating: 1220 &rarr; <strong>1252<\/strong><br \/>(+32 for winning)
+|leave|Caesar Augustus
+|player|p1

@@ -1,0 +1,230 @@
+﻿|join|MALESANI
+|join|Kribbello
+|player|p1|MALESANI|238
+|player|p2|Kribbello|117
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Ninetales|Ninetales, L85|298\/298
+|switch|p2a: Raticate|Raticate, L85|267\/267
+|turn|1
+|
+|move|p1a: Ninetales|Fire Blast|p2a: Raticate
+|-damage|p2a: Raticate|91\/267
+|move|p2a: Raticate|Super Fang|p1a: Ninetales
+|-damage|p1a: Ninetales|149\/298
+|
+|turn|2
+|
+|switch|p2a: Poliwhirl|Poliwhirl, L85|284\/284
+|move|p1a: Ninetales|Fire Blast|p2a: Poliwhirl
+|-resisted|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|193\/284
+|
+|turn|3
+|
+|switch|p1a: Doduo|Doduo, L96|262\/262
+|move|p2a: Poliwhirl|Hypnosis|p1a: Doduo
+|-status|p1a: Doduo|slp
+|
+|turn|4
+|
+|switch|p1a: Vileplume|Vileplume, L90|318\/318
+|move|p2a: Poliwhirl|Amnesia|p2a: Poliwhirl
+|-boost|p2a: Poliwhirl|spd|2
+|-boost|p2a: Poliwhirl|spa|2
+|
+|turn|5
+|
+|move|p2a: Poliwhirl|Psychic|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|171\/318
+|-unboost|p1a: Vileplume|spd|1
+|-unboost|p1a: Vileplume|spa|1
+|move|p1a: Vileplume|Body Slam|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|120\/284
+|
+|turn|6
+|
+|move|p2a: Poliwhirl|Psychic|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|faint|p1a: Vileplume
+|
+|switch|p1a: Ninetales|Ninetales, L85|149\/298
+|turn|7
+|
+|move|p1a: Ninetales|Hyper Beam|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|10\/284
+|move|p2a: Poliwhirl|Surf|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|switch|p1a: Golduck|Golduck, L85|310\/310
+|turn|8
+|
+|switch|p2a: Raticate|Raticate, L85|91\/267
+|move|p1a: Golduck|Body Slam|p2a: Raticate
+|-damage|p2a: Raticate|23\/267
+|
+|turn|9
+|
+|move|p2a: Raticate|Super Fang|p1a: Golduck
+|-damage|p1a: Golduck|155\/310
+|move|p1a: Golduck|Surf|p2a: Raticate
+|-crit|p2a: Raticate
+|-damage|p2a: Raticate|0 fnt
+|faint|p2a: Raticate
+|
+|switch|p2a: Persian|Persian, L79|265\/265
+|turn|10
+|
+|switch|p1a: Pinsir|Pinsir, L85|284\/284
+|move|p2a: Persian|Hyper Beam|p1a: Pinsir
+|-damage|p1a: Pinsir|176\/284
+|
+|turn|11
+|-mustrecharge|p2a: Persian
+|-mustrecharge|p2a: Persian
+|
+|cant|p2a: Persian|recharge
+|move|p1a: Pinsir|Submission|p2a: Persian
+|-supereffective|p2a: Persian
+|-damage|p2a: Persian|90\/265
+|-damage|p1a: Pinsir|133\/284|[from] recoil|[of] p2a: Persian
+|
+|turn|12
+|
+|switch|p2a: Parasect|Parasect, L90|291\/291
+|move|p1a: Pinsir|Hyper Beam|p2a: Parasect
+|-damage|p2a: Parasect|167\/291
+|
+|turn|13
+|-mustrecharge|p1a: Pinsir
+|-mustrecharge|p1a: Pinsir
+|
+|cant|p1a: Pinsir|recharge
+|move|p2a: Parasect|Slash|p1a: Pinsir
+|-damage|p1a: Pinsir|85\/284
+|
+|turn|14
+|
+|move|p1a: Pinsir|Body Slam|p2a: Parasect
+|-damage|p2a: Parasect|93\/291
+|move|p2a: Parasect|Hyper Beam|p1a: Pinsir
+|-damage|p1a: Pinsir|0 fnt
+|faint|p1a: Pinsir
+|
+|switch|p1a: Jynx|Jynx, L79|265\/265
+|turn|15
+|
+|switch|p2a: Arcanine|Arcanine, L85|327\/327
+|move|p1a: Jynx|Blizzard|p2a: Arcanine
+|-damage|p2a: Arcanine|215\/327
+|
+|turn|16
+|
+|switch|p1a: Golduck|Golduck, L85|155\/310
+|move|p2a: Arcanine|Fire Blast|p1a: Golduck
+|-resisted|p1a: Golduck
+|-damage|p1a: Golduck|99\/310
+|
+|turn|17
+|
+|move|p2a: Arcanine|Hyper Beam|p1a: Golduck|[miss]
+|-miss|p2a: Arcanine
+|move|p1a: Golduck|Amnesia|p1a: Golduck
+|-boost|p1a: Golduck|spd|2
+|-boost|p1a: Golduck|spa|2
+|
+|turn|18
+|
+|move|p2a: Arcanine|Hyper Beam|p1a: Golduck|[miss]
+|-miss|p2a: Arcanine
+|move|p1a: Golduck|Surf|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|c|★Kribbello|lol wow
+|
+|switch|p2a: Persian|Persian, L79|90\/265
+|turn|19
+|
+|move|p2a: Persian|Hyper Beam|p1a: Golduck
+|-damage|p1a: Golduck|0 fnt
+|faint|p1a: Golduck
+|
+|switch|p1a: Jynx|Jynx, L79|265\/265
+|turn|20
+|
+|move|p2a: Persian|Slash|p1a: Jynx
+|-crit|p1a: Jynx
+|-damage|p1a: Jynx|96\/265
+|move|p1a: Jynx|Psychic|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|faint|p2a: Persian
+|
+|switch|p2a: Poliwhirl|Poliwhirl, L85|10\/284
+|turn|21
+|
+|move|p2a: Poliwhirl|Surf|p1a: Jynx
+|-damage|p1a: Jynx|18\/265
+|move|p1a: Jynx|Psychic|p2a: Poliwhirl
+|-crit|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|0 fnt
+|faint|p2a: Poliwhirl
+|
+|switch|p2a: Wartortle|Wartortle, L85|274\/274
+|turn|22
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: Wartortle
+|-status|p2a: Wartortle|slp
+|cant|p2a: Wartortle|slp
+|
+|turn|23
+|
+|move|p1a: Jynx|Psychic|p2a: Wartortle
+|-damage|p2a: Wartortle|176\/274 slp
+|cant|p2a: Wartortle|slp
+|
+|turn|24
+|
+|move|p1a: Jynx|Psychic|p2a: Wartortle
+|-damage|p2a: Wartortle|77\/274 slp
+|-unboost|p2a: Wartortle|spd|1
+|-unboost|p2a: Wartortle|spa|1
+|-curestatus|p2a: Wartortle|slp
+|
+|turn|25
+|
+|move|p1a: Jynx|Psychic|p2a: Wartortle
+|-damage|p2a: Wartortle|0 fnt
+|faint|p2a: Wartortle
+|
+|switch|p2a: Parasect|Parasect, L90|93\/291
+|turn|26
+|c|★Kribbello|you might be the luckiest kid i've seen tn
+|
+|move|p1a: Jynx|Blizzard|p2a: Parasect
+|-supereffective|p2a: Parasect
+|-damage|p2a: Parasect|0 fnt
+|faint|p2a: Parasect
+|
+|win|MALESANI
+|raw|Ladder updating...
+|raw|MALESANI's rating: 1288 &rarr; <strong>1304<\/strong><br \/>(+16 for winning)
+|raw|Kribbello's rating: 1161 &rarr; <strong>1145<\/strong><br \/>(-16 for losing)
+|c|★Kribbello|i would say gg
+|c|★Kribbello|but you didn't even play well
+|c|★MALESANI|it's a game based on luck, you know
+|c|★Kribbello|no
+|leave|Kribbello
+|player|p2
+|c|★MALESANI|rosica, cojone

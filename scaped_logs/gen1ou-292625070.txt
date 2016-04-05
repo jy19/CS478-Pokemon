@@ -1,0 +1,276 @@
+﻿|join|Nanako chan
+|join|Velosexiraptor
+|player|p1|Nanako chan|104
+|player|p2|Velosexiraptor|253
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|seed|24635,37758,61085,40457
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Snorlax|Snorlax|523\/523
+|switch|p2a: Éjaculer|Exeggutor|393\/393
+|turn|1
+|choice|switch 3|move 2
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|move|p2a: Éjaculer|Sleep Powder|p1a: Alakazam|[miss]
+|-miss|p2a: Éjaculer
+|
+|turn|2
+|choice|move 3|move 2
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Éjaculer
+|-status|p2a: Éjaculer|par
+|move|p2a: Éjaculer|Sleep Powder|p1a: Alakazam|[miss]
+|-miss|p2a: Éjaculer
+|
+|turn|3
+|choice|move 1|move 2
+|
+|move|p1a: Alakazam|Psychic|p2a: Éjaculer
+|-resisted|p2a: Éjaculer
+|-damage|p2a: Éjaculer|341\/393 par
+|move|p2a: Éjaculer|Sleep Powder|p1a: Alakazam
+|-status|p1a: Alakazam|slp
+|
+|turn|4
+|choice|switch 2|switch 2
+|
+|switch|p1a: Articuno|Articuno|383\/383
+|switch|p2a: Le bœuf|Tauros|353\/353
+|
+|turn|5
+|choice|move 1|switch 4
+|
+|switch|p2a: touchable|Chansey|703\/703
+|move|p1a: Articuno|Blizzard|p2a: touchable|[miss]
+|-miss|p1a: Articuno
+|
+|turn|6
+|choice|move 1|move 3
+|
+|move|p1a: Articuno|Blizzard|p2a: touchable
+|-damage|p2a: touchable|548\/703
+|move|p2a: touchable|Thunderbolt|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|258\/383
+|
+|turn|7
+|choice|move 3|move 3
+|
+|move|p1a: Articuno|Hyper Beam|p2a: touchable
+|-damage|p2a: touchable|267\/703
+|move|p2a: touchable|Thunderbolt|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|131\/383
+|
+|turn|8
+|-mustrecharge|p1a: Articuno
+|-mustrecharge|p1a: Articuno
+|choice|move 1|move 3
+|
+|cant|p1a: Articuno|recharge
+|move|p2a: touchable|Thunderbolt|p1a: Articuno
+|-crit|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|0 fnt
+|faint|p1a: Articuno
+|choice|switch 3|
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|turn|9
+|choice|move 1|switch 2
+|
+|switch|p2a: Éjaculer|Exeggutor|341\/393 par
+|move|p1a: Snorlax|Body Slam|p2a: Éjaculer
+|-damage|p2a: Éjaculer|222\/393 par
+|
+|turn|10
+|choice|move 1|move 3
+|
+|move|p1a: Snorlax|Body Slam|p2a: Éjaculer
+|-damage|p2a: Éjaculer|111\/393 par
+|move|p2a: Éjaculer|Explosion|p1a: Snorlax
+|-damage|p1a: Snorlax|170\/523
+|faint|p2a: Éjaculer
+|choice||switch 3
+|
+|switch|p2a: Prude|Cloyster|303\/303
+|turn|11
+|choice|switch 4|move 2
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|move|p2a: Prude|Ice Beam|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|272\/323
+|
+|turn|12
+|choice|move 1|switch 2
+|
+|switch|p2a: touchable|Chansey|267\/703
+|move|p1a: Starmie|Thunderbolt|p2a: touchable
+|-damage|p2a: touchable|197\/703
+|
+|turn|13
+|choice|move 2|move 3
+|
+|move|p1a: Starmie|Blizzard|p2a: touchable
+|-crit|p2a: touchable
+|-damage|p2a: touchable|31\/703
+|move|p2a: touchable|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|114\/323
+|
+|turn|14
+|choice|move 1|switch 2
+|
+|switch|p2a: Prude|Cloyster|303\/303
+|move|p1a: Starmie|Thunderbolt|p2a: Prude
+|-supereffective|p2a: Prude
+|-damage|p2a: Prude|143\/303
+|
+|turn|15
+|choice|move 1|switch 6
+|
+|switch|p2a: Électricité|Raichu|323\/323
+|move|p1a: Starmie|Thunderbolt|p2a: Électricité
+|-crit|p2a: Électricité
+|-resisted|p2a: Électricité
+|-damage|p2a: Électricité|248\/323
+|
+|turn|16
+|choice|move 3|move 2
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Électricité
+|-status|p2a: Électricité|par
+|move|p2a: Électricité|Thunderbolt|p1a: Starmie
+|-crit|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|choice|switch 5|
+|
+|switch|p1a: Venusaur|Venusaur|363\/363
+|turn|17
+|choice|move 3|move 1
+|
+|move|p1a: Venusaur|Swords Dance|p1a: Venusaur
+|-boost|p1a: Venusaur|atk|2
+|move|p2a: Électricité|Thunder Wave|p1a: Venusaur
+|-status|p1a: Venusaur|par
+|
+|turn|18
+|choice|move 4|switch 2
+|
+|switch|p2a: touchable|Chansey|31\/703
+|move|p1a: Venusaur|Razor Leaf|p2a: touchable
+|-crit|p2a: touchable
+|-damage|p2a: touchable|0 fnt
+|faint|p2a: touchable
+|choice||switch 6
+|
+|switch|p2a: Prude|Cloyster|143\/303
+|turn|19
+|choice|move 4|move 2
+|
+|move|p2a: Prude|Ice Beam|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|175\/363 par
+|move|p1a: Venusaur|Razor Leaf|p2a: Prude
+|-crit|p2a: Prude
+|-supereffective|p2a: Prude
+|-damage|p2a: Prude|0 fnt
+|faint|p2a: Prude
+|choice||switch 5
+|
+|switch|p2a: Psychométrie|Alakazam|313\/313
+|turn|20
+|choice|move 4|move 1
+|
+|move|p2a: Psychométrie|Psychic|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|choice|switch 6|
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|turn|21
+|choice|move 2|move 4
+|
+|move|p2a: Psychométrie|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|move|p1a: Chansey|Thunder Wave|p2a: Psychométrie
+|-status|p2a: Psychométrie|par
+|
+|turn|22
+|choice|move 4|move 1
+|
+|move|p2a: Psychométrie|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|582\/703 par
+|move|p1a: Chansey|Thunderbolt|p2a: Psychométrie
+|-damage|p2a: Psychométrie|251\/313 par
+|
+|turn|23
+|choice|switch 2|move 1
+|
+|switch|p1a: Alakazam|Alakazam|313\/313 slp
+|cant|p2a: Psychométrie|par
+|
+|turn|24
+|choice|move 1|switch 4
+|
+|switch|p2a: Le bœuf|Tauros|353\/353
+|cant|p1a: Alakazam|slp
+|
+|turn|25
+|choice|move 3|move 4
+|
+|-curestatus|p1a: Alakazam|slp
+|move|p2a: Le bœuf|Body Slam|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|choice|switch 2|
+|
+|switch|p1a: Chansey|Chansey|582\/703 par
+|turn|26
+|choice|move 2|switch 2
+|
+|switch|p2a: Électricité|Raichu|248\/323 par
+|cant|p1a: Chansey|par
+|
+|turn|27
+|choice|move 1|move 3
+|
+|move|p2a: Électricité|Hyper Beam|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|choice|switch 4|
+|
+|switch|p1a: Snorlax|Snorlax|170\/523
+|turn|28
+|choice|move 1|move 3
+|
+|move|p1a: Snorlax|Body Slam|p2a: Électricité
+|-damage|p2a: Électricité|89\/323 par
+|move|p2a: Électricité|Hyper Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|29\/523
+|
+|turn|29
+|-mustrecharge|p2a: Électricité
+|-message|Nanako chan forfeited.
+|
+|win|Velosexiraptor
+|leave|Nanako chan
+|player|p1
+|raw|Nanako chan's rating: 1093 &rarr; <strong>1070<\/strong><br \/>(-23 for losing)
+|raw|Velosexiraptor's rating: 1111 &rarr; <strong>1135<\/strong><br \/>(+24 for winning)

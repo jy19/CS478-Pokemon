@@ -1,0 +1,265 @@
+﻿|join|eldougi
+|join|brussell50
+|player|p1|eldougi|169
+|player|p2|brussell50|101
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Wartortle|Wartortle, L85|274\/274
+|switch|p2a: Charizard|Charizard, L85|306\/306
+|turn|1
+|
+|move|p2a: Charizard|Hyper Beam|p1a: Wartortle
+|-damage|p1a: Wartortle|165\/274
+|move|p1a: Wartortle|Surf|p2a: Charizard
+|-crit|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|14\/306
+|
+|turn|2
+|
+|cant|p2a: Charizard|recharge
+|move|p1a: Wartortle|Surf|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|switch|p2a: Porygon|Porygon, L85|284\/284
+|turn|3
+|
+|switch|p1a: Graveler|Graveler, L85|267\/267
+|move|p2a: Porygon|Thunder Wave|p1a: Graveler
+|-immune|p1a: Graveler|[msg]
+|
+|turn|4
+|
+|move|p2a: Porygon|Hyper Beam|p1a: Graveler
+|-resisted|p1a: Graveler
+|-damage|p1a: Graveler|218\/267
+|move|p1a: Graveler|Earthquake|p2a: Porygon
+|-damage|p2a: Porygon|166\/284
+|
+|turn|5
+|
+|cant|p2a: Porygon|recharge
+|move|p1a: Graveler|Earthquake|p2a: Porygon
+|-damage|p2a: Porygon|40\/284
+|
+|turn|6
+|
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|182\/284
+|move|p1a: Graveler|Earthquake|p2a: Porygon
+|-damage|p2a: Porygon|62\/284
+|
+|turn|7
+|
+|move|p2a: Porygon|Hyper Beam|p1a: Graveler
+|-resisted|p1a: Graveler
+|-damage|p1a: Graveler|171\/267
+|move|p1a: Graveler|Body Slam|p2a: Porygon
+|-damage|p2a: Porygon|0 fnt
+|faint|p2a: Porygon
+|
+|switch|p2a: Blastoise|Blastoise, L85|308\/308
+|turn|8
+|
+|switch|p1a: Ivysaur|Ivysaur, L85|276\/276
+|move|p2a: Blastoise|Surf|p1a: Ivysaur
+|-crit|p1a: Ivysaur
+|-resisted|p1a: Ivysaur
+|-damage|p1a: Ivysaur|179\/276
+|
+|turn|9
+|
+|move|p2a: Blastoise|Blizzard|p1a: Ivysaur|[miss]
+|-miss|p2a: Blastoise
+|move|p1a: Ivysaur|Leech Seed|p2a: Blastoise
+|-start|p2a: Blastoise|move: Leech Seed
+|
+|turn|10
+|
+|move|p2a: Blastoise|Blizzard|p1a: Ivysaur
+|-supereffective|p1a: Ivysaur
+|-damage|p1a: Ivysaur|2\/276
+|-damage|p2a: Blastoise|289\/308|[from] Leech Seed|[of] p1a: Ivysaur
+|-heal|p1a: Ivysaur|21\/276|[silent]
+|move|p1a: Ivysaur|Razor Leaf|p2a: Blastoise
+|-crit|p2a: Blastoise
+|-supereffective|p2a: Blastoise
+|-damage|p2a: Blastoise|83\/308
+|
+|turn|11
+|
+|move|p2a: Blastoise|Blizzard|p1a: Ivysaur
+|-supereffective|p1a: Ivysaur
+|-damage|p1a: Ivysaur|0 fnt
+|faint|p1a: Ivysaur
+|
+|switch|p1a: Wartortle|Wartortle, L85|165\/274
+|turn|12
+|
+|switch|p2a: Chansey|Chansey, L79|557\/557
+|move|p1a: Wartortle|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|427\/557
+|
+|turn|13
+|
+|move|p1a: Wartortle|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|309\/557
+|move|p2a: Chansey|Thunderbolt|p1a: Wartortle
+|-crit|p1a: Wartortle
+|-supereffective|p1a: Wartortle
+|-damage|p1a: Wartortle|0 fnt
+|faint|p1a: Wartortle
+|
+|switch|p1a: Graveler|Graveler, L85|171\/267
+|turn|14
+|
+|switch|p2a: Articuno|Articuno, L85|327\/327
+|move|p1a: Graveler|Earthquake|p2a: Articuno
+|-immune|p2a: Articuno|[msg]
+|
+|turn|15
+|
+|switch|p1a: Electrode|Electrode, L85|276\/276
+|move|p2a: Articuno|Ice Beam|p1a: Electrode
+|-damage|p1a: Electrode|135\/276
+|
+|turn|16
+|
+|move|p1a: Electrode|Explosion|p2a: Articuno
+|-damage|p2a: Articuno|172\/327
+|faint|p1a: Electrode
+|
+|switch|p1a: Venomoth|Venomoth, L85|293\/293
+|turn|17
+|
+|move|p1a: Venomoth|Sleep Powder|p2a: Articuno
+|-status|p2a: Articuno|slp
+|cant|p2a: Articuno|slp
+|
+|turn|18
+|
+|move|p1a: Venomoth|Psychic|p2a: Articuno
+|-damage|p2a: Articuno|127\/327 slp
+|cant|p2a: Articuno|slp
+|
+|turn|19
+|
+|move|p1a: Venomoth|Psychic|p2a: Articuno
+|-damage|p2a: Articuno|75\/327 slp
+|-unboost|p2a: Articuno|spd|1
+|-unboost|p2a: Articuno|spa|1
+|cant|p2a: Articuno|slp
+|
+|turn|20
+|
+|move|p1a: Venomoth|Psychic|p2a: Articuno
+|-damage|p2a: Articuno|2\/327 slp
+|cant|p2a: Articuno|slp
+|
+|turn|21
+|
+|switch|p2a: Chansey|Chansey, L79|309\/557
+|move|p1a: Venomoth|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|249\/557
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|
+|turn|22
+|
+|move|p1a: Venomoth|Sleep Powder|p2a: Chansey
+|-message|Sleep Clause Mod activated.
+|move|p2a: Chansey|Thunderbolt|p1a: Venomoth
+|-damage|p1a: Venomoth|249\/293
+|
+|turn|23
+|
+|move|p1a: Venomoth|Sleep Powder|p2a: Chansey
+|-message|Sleep Clause Mod activated.
+|move|p2a: Chansey|Reflect|p2a: Chansey
+|-start|p2a: Chansey|Reflect
+|
+|turn|24
+|
+|move|p1a: Venomoth|Stun Spore|p2a: Chansey|[miss]
+|-miss|p1a: Venomoth
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|527\/557
+|
+|turn|25
+|
+|switch|p1a: Graveler|Graveler, L85|171\/267
+|move|p2a: Chansey|Thunderbolt|p1a: Graveler
+|-immune|p1a: Graveler|[msg]
+|
+|turn|26
+|
+|switch|p2a: Blastoise|Blastoise, L85|83\/308
+|move|p1a: Graveler|Rock Slide|p2a: Blastoise
+|-damage|p2a: Blastoise|5\/308
+|
+|turn|27
+|
+|switch|p1a: Venomoth|Venomoth, L85|249\/293
+|move|p2a: Blastoise|Surf|p1a: Venomoth
+|-damage|p1a: Venomoth|151\/293
+|
+|turn|28
+|
+|switch|p2a: Muk|Muk, L85|352\/352
+|move|p1a: Venomoth|Psychic|p2a: Muk
+|-supereffective|p2a: Muk
+|-damage|p2a: Muk|203\/352
+|
+|turn|29
+|
+|move|p1a: Venomoth|Psychic|p2a: Muk
+|-supereffective|p2a: Muk
+|-damage|p2a: Muk|51\/352
+|move|p2a: Muk|Explosion|p1a: Venomoth
+|-damage|p1a: Venomoth|0 fnt
+|faint|p1a: Venomoth
+|faint|p2a: Muk
+|
+|switch|p1a: Dodrio|Dodrio, L85|276\/276
+|switch|p2a: Chansey|Chansey, L79|527\/557
+|turn|30
+|
+|move|p1a: Dodrio|Drill Peck|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|4\/557
+|move|p2a: Chansey|Thunderbolt|p1a: Dodrio
+|-supereffective|p1a: Dodrio
+|-damage|p1a: Dodrio|110\/276
+|
+|turn|31
+|
+|move|p1a: Dodrio|Drill Peck|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|switch|p2a: Articuno|Articuno, L85|2\/327 slp
+|turn|32
+|
+|move|p1a: Dodrio|Body Slam|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|faint|p2a: Articuno
+|
+|switch|p2a: Blastoise|Blastoise, L85|5\/308
+|turn|33
+|
+|move|p1a: Dodrio|Body Slam|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|
+|win|eldougi
+|raw|Ladder updating...

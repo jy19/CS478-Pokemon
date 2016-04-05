@@ -1,0 +1,244 @@
+﻿|join|Hidol
+|join|MALESANI
+|player|p1|Hidol|266
+|player|p2|MALESANI|238
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|65281,57553,1525,52000
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Nidoqueen|Nidoqueen, L85|327\/327
+|switch|p2a: Charizard|Charizard, L85|306\/306
+|turn|1
+|choice|move 3|move 2
+|
+|move|p2a: Charizard|Fire Blast|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|193\/327
+|-status|p1a: Nidoqueen|brn
+|move|p1a: Nidoqueen|Blizzard|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|149\/306
+|-damage|p1a: Nidoqueen|173\/327 brn|[from] brn|[of] p2a: Charizard
+|
+|turn|2
+|choice|move 2|move 2
+|
+|move|p2a: Charizard|Fire Blast|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|34\/327 brn
+|move|p1a: Nidoqueen|Thunderbolt|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|22\/306
+|-damage|p1a: Nidoqueen|14\/327 brn|[from] brn|[of] p2a: Charizard
+|
+|turn|3
+|choice|switch 4|move 4
+|
+|switch|p1a: Vaporeon|Vaporeon, L85|395\/395
+|move|p2a: Charizard|Body Slam|p1a: Vaporeon
+|-damage|p1a: Vaporeon|322\/395
+|
+|turn|4
+|join|Spencplx
+|choice|move 4|move 1
+|
+|move|p2a: Charizard|Hyper Beam|p1a: Vaporeon
+|-crit|p1a: Vaporeon
+|-damage|p1a: Vaporeon|67\/395
+|move|p1a: Vaporeon|Body Slam|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|choice||switch 5
+|
+|switch|p2a: Gengar|Gengar, L79|257\/257
+|turn|5
+|choice|switch 3|move 3
+|
+|switch|p1a: Hypno|Hypno, L85|318\/318
+|move|p2a: Gengar|Psychic|p1a: Hypno
+|-crit|p1a: Hypno
+|-resisted|p1a: Hypno
+|-damage|p1a: Hypno|263\/318
+|-unboost|p1a: Hypno|spd|1
+|-unboost|p1a: Hypno|spa|1
+|
+|turn|6
+|choice|move 1|move 1
+|
+|move|p2a: Gengar|Hypnosis|p1a: Hypno
+|-status|p1a: Hypno|slp
+|cant|p1a: Hypno|slp
+|
+|turn|7
+|choice|move 1|move 3
+|
+|move|p2a: Gengar|Psychic|p1a: Hypno
+|-resisted|p1a: Hypno
+|-damage|p1a: Hypno|219\/318 slp
+|-unboost|p1a: Hypno|spd|1
+|-unboost|p1a: Hypno|spa|1
+|cant|p1a: Hypno|slp
+|
+|turn|8
+|choice|move 1|move 3
+|
+|move|p2a: Gengar|Psychic|p1a: Hypno
+|-resisted|p1a: Hypno
+|-damage|p1a: Hypno|164\/318 slp
+|-unboost|p1a: Hypno|spd|1
+|-unboost|p1a: Hypno|spa|1
+|-curestatus|p1a: Hypno|slp
+|
+|turn|9
+|choice|move 1|switch 2
+|
+|switch|p2a: Exeggcute|Exeggcute, L96|310\/310
+|move|p1a: Hypno|Psychic|p2a: Exeggcute
+|-resisted|p2a: Exeggcute
+|-damage|p2a: Exeggcute|287\/310
+|
+|turn|10
+|choice|move 4|move 4
+|
+|move|p1a: Hypno|Hypnosis|p2a: Exeggcute
+|-status|p2a: Exeggcute|slp
+|cant|p2a: Exeggcute|slp
+|
+|turn|11
+|choice|switch 4|switch 4
+|
+|switch|p1a: Nidoqueen|Nidoqueen, L85|14\/327 brn
+|-damage|p1a: Nidoqueen|0 fnt|[from] brn
+|faint|p1a: Nidoqueen
+|c|★Hidol|lol
+|choice|switch 5|
+|
+|switch|p1a: Rhydon|Rhydon, L79|328\/328
+|turn|12
+|choice|move 2|switch 4
+|
+|switch|p2a: Jynx|Jynx, L79|265\/265
+|move|p1a: Rhydon|Earthquake|p2a: Jynx
+|-damage|p2a: Jynx|62\/265
+|
+|turn|13
+|choice|switch 6|move 3
+|
+|switch|p1a: Poliwrath|Poliwrath, L85|327\/327
+|move|p2a: Jynx|Blizzard|p1a: Poliwrath
+|-crit|p1a: Poliwrath
+|-resisted|p1a: Poliwrath
+|-damage|p1a: Poliwrath|215\/327
+|-status|p1a: Poliwrath|frz
+|
+|turn|14
+|choice|move 3|move 4
+|
+|move|p2a: Jynx|Mimic|p1a: Poliwrath
+|-start|p2a: Jynx|Mimic|Amnesia
+|cant|p1a: Poliwrath|frz
+|
+|turn|15
+|choice|move 3|move 4
+|
+|move|p2a: Jynx|Amnesia|p2a: Jynx
+|-boost|p2a: Jynx|spd|2
+|-boost|p2a: Jynx|spa|2
+|cant|p1a: Poliwrath|frz
+|
+|turn|16
+|choice|switch 2|move 4
+|
+|switch|p1a: Kangaskhan|Kangaskhan, L85|352\/352
+|move|p2a: Jynx|Amnesia|p2a: Jynx
+|-boost|p2a: Jynx|spd|2
+|-boost|p2a: Jynx|spa|2
+|
+|turn|17
+|choice|move 1|move 1
+|
+|move|p1a: Kangaskhan|Hyper Beam|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|choice||switch 6
+|
+|switch|p2a: Snorlax|Snorlax, L79|415\/415
+|turn|18
+|choice|move 2|move 3
+|
+|move|p1a: Kangaskhan|Earthquake|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|248\/415
+|move|p2a: Snorlax|Ice Beam|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|282\/352
+|-message|Freeze Clause activated.
+|
+|turn|19
+|choice|move 1|move 1
+|
+|move|p1a: Kangaskhan|Hyper Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|47\/415
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|
+|turn|20
+|-mustrecharge|p1a: Kangaskhan
+|-mustrecharge|p1a: Kangaskhan
+|choice|move 1|move 4
+|
+|cant|p1a: Kangaskhan|recharge
+|move|p2a: Snorlax|Thunderbolt|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|137\/352
+|
+|turn|21
+|choice|move 2|move 4
+|
+|move|p1a: Kangaskhan|Earthquake|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|choice||switch 3
+|
+|switch|p2a: Omastar|Omastar, L90|309\/309
+|turn|22
+|leave|Spencplx
+|choice|move 1|move 3
+|
+|move|p1a: Kangaskhan|Hyper Beam|p2a: Omastar
+|-resisted|p2a: Omastar
+|-damage|p2a: Omastar|253\/309
+|move|p2a: Omastar|Hydro Pump|p1a: Kangaskhan|[miss]
+|-miss|p2a: Omastar
+|
+|turn|23
+|-mustrecharge|p1a: Kangaskhan
+|-mustrecharge|p1a: Kangaskhan
+|choice|move 1|move 3
+|
+|cant|p1a: Kangaskhan|recharge
+|move|p2a: Omastar|Hydro Pump|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|0 fnt
+|faint|p1a: Kangaskhan
+|choice|switch 4|
+|
+|switch|p1a: Hypno|Hypno, L85|164\/318
+|turn|24
+|choice|move 4|move 3
+|
+|move|p1a: Hypno|Hypnosis|p2a: Omastar
+|-message|Sleep Clause Mod activated.
+|move|p2a: Omastar|Hydro Pump|p1a: Hypno
+|-crit|p1a: Hypno
+|-damage|p1a: Hypno|0 fnt
+|faint|p1a: Hypno
+|-message|Hidol forfeited.
+|
+|win|MALESANI
+|leave|Hidol
+|player|p1
+|raw|Hidol's rating: 1181 &rarr; <strong>1165<\/strong><br \/>(-16 for losing)
+|raw|MALESANI's rating: 1310 &rarr; <strong>1323<\/strong><br \/>(+13 for winning)

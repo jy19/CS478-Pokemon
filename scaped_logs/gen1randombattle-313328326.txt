@@ -1,0 +1,448 @@
+﻿|j|Frostrocket
+|j|Doubleh1
+|player|p1|Frostrocket|224
+|player|p2|Doubleh1|170
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|10568,41268,34739,27971
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Muk|Muk, L90|372\/372
+|switch|p2a: Nidorina|Nidorina, L90|309\/309
+|turn|1
+|choice|move 2|move 3
+|
+|move|p2a: Nidorina|Thunder|p1a: Muk
+|-damage|p1a: Muk|289\/372
+|move|p1a: Muk|Screech|p2a: Nidorina
+|-unboost|p2a: Nidorina|def|2
+|
+|turn|2
+|choice|move 4|move 1
+|
+|move|p2a: Nidorina|Double-Edge|p1a: Muk
+|-damage|p1a: Muk|223\/372
+|-damage|p2a: Nidorina|293\/309|[from] recoil|[of] p1a: Muk
+|move|p1a: Muk|Body Slam|p2a: Nidorina
+|-damage|p2a: Nidorina|143\/309
+|-status|p2a: Nidorina|par
+|
+|turn|3
+|choice|move 3|move 3
+|
+|move|p1a: Muk|Mega Drain|p2a: Nidorina
+|-resisted|p2a: Nidorina
+|-damage|p2a: Nidorina|128\/309 par
+|-heal|p1a: Muk|230\/372|[from] drain|[of] p2a: Nidorina
+|move|p2a: Nidorina|Thunder|p1a: Muk
+|-damage|p1a: Muk|147\/372
+|
+|turn|4
+|choice|move 4|move 3
+|
+|move|p1a: Muk|Body Slam|p2a: Nidorina
+|-damage|p2a: Nidorina|0 fnt
+|faint|p2a: Nidorina
+|choice||switch 5
+|
+|switch|p2a: Rhydon|Rhydon, L79|328\/328
+|turn|5
+|choice|move 3|move 1
+|
+|move|p1a: Muk|Mega Drain|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|174\/328
+|-heal|p1a: Muk|224\/372|[from] drain|[of] p2a: Rhydon
+|move|p2a: Rhydon|Earthquake|p1a: Muk
+|-supereffective|p1a: Muk
+|-damage|p1a: Muk|5\/372
+|
+|turn|6
+|choice|move 1|move 4
+|
+|move|p1a: Muk|Explosion|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|40\/328
+|faint|p1a: Muk
+|choice|switch 2|
+|
+|switch|p1a: Slowpoke|Slowpoke, L96|368\/368
+|turn|7
+|choice|move 2|move 1
+|
+|move|p2a: Rhydon|Earthquake|p1a: Slowpoke
+|-damage|p1a: Slowpoke|245\/368
+|move|p1a: Slowpoke|Surf|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|choice||switch 4
+|
+|switch|p2a: Electrode|Electrode, L90|291\/291
+|turn|8
+|choice|move 4|move 4
+|
+|move|p2a: Electrode|Thunder|p1a: Slowpoke|[miss]
+|-miss|p2a: Electrode
+|move|p1a: Slowpoke|Thunder Wave|p2a: Electrode
+|-status|p2a: Electrode|par
+|
+|turn|9
+|choice|switch 5|move 4
+|
+|switch|p1a: Jolteon|Jolteon, L79|265\/265
+|cant|p2a: Electrode|par
+|
+|turn|10
+|choice|move 2|move 3
+|
+|move|p1a: Jolteon|Double Kick|p2a: Electrode
+|-damage|p2a: Electrode|276\/291 par
+|-damage|p2a: Electrode|261\/291 par
+|-hitcount|p2a: Electrode|2
+|move|p2a: Electrode|Thunder Wave|p1a: Jolteon
+|-status|p1a: Jolteon|par
+|
+|turn|11
+|choice|move 3|move 4
+|
+|move|p2a: Electrode|Thunder|p1a: Jolteon
+|-resisted|p1a: Jolteon
+|-damage|p1a: Jolteon|203\/265 par
+|cant|p1a: Jolteon|par
+|
+|turn|12
+|choice|move 3|move 2
+|
+|move|p2a: Electrode|Flash|p1a: Jolteon
+|-unboost|p1a: Jolteon|accuracy|1
+|move|p1a: Jolteon|Pin Missile|p2a: Electrode
+|-damage|p2a: Electrode|253\/291 par
+|-damage|p2a: Electrode|245\/291 par
+|-damage|p2a: Electrode|237\/291 par
+|-damage|p2a: Electrode|229\/291 par
+|-hitcount|p2a: Electrode|4
+|
+|turn|13
+|choice|move 1|move 2
+|
+|move|p2a: Electrode|Flash|p1a: Jolteon
+|-unboost|p1a: Jolteon|accuracy|1
+|cant|p1a: Jolteon|par
+|
+|turn|14
+|choice|move 1|move 4
+|
+|move|p2a: Electrode|Thunder|p1a: Jolteon|[miss]
+|-miss|p2a: Electrode
+|move|p1a: Jolteon|Thunderbolt|p2a: Electrode|[miss]
+|-miss|p1a: Jolteon
+|
+|turn|15
+|choice|move 1|move 4
+|
+|move|p2a: Electrode|Thunder|p1a: Jolteon
+|-resisted|p1a: Jolteon
+|-damage|p1a: Jolteon|143\/265 par
+|cant|p1a: Jolteon|par
+|
+|turn|16
+|choice|move 3|move 4
+|
+|cant|p2a: Electrode|par
+|cant|p1a: Jolteon|par
+|
+|turn|17
+|choice|move 1|move 4
+|
+|move|p2a: Electrode|Thunder|p1a: Jolteon
+|-resisted|p1a: Jolteon
+|-damage|p1a: Jolteon|81\/265 par
+|move|p1a: Jolteon|Thunderbolt|p2a: Electrode|[miss]
+|-miss|p1a: Jolteon
+|
+|turn|18
+|choice|move 1|move 4
+|
+|move|p2a: Electrode|Thunder|p1a: Jolteon
+|-crit|p1a: Jolteon
+|-resisted|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|choice|switch 6|
+|
+|switch|p1a: Parasect|Parasect, L90|291\/291
+|turn|19
+|choice|move 2|move 3
+|
+|move|p1a: Parasect|Swords Dance|p1a: Parasect
+|-boost|p1a: Parasect|atk|2
+|move|p2a: Electrode|Thunder Wave|p1a: Parasect
+|-status|p1a: Parasect|par
+|
+|turn|20
+|choice|move 3|move 2
+|
+|move|p1a: Parasect|Hyper Beam|p2a: Electrode
+|-damage|p2a: Electrode|0 fnt
+|faint|p2a: Electrode
+|choice||switch 2
+|
+|switch|p2a: Moltres|Moltres, L85|327\/327
+|turn|21
+|choice|move 4|move 2
+|
+|move|p2a: Moltres|Reflect|p2a: Moltres
+|-start|p2a: Moltres|Reflect
+|move|p1a: Parasect|Spore|p2a: Moltres
+|-status|p2a: Moltres|slp
+|
+|turn|22
+|choice|move 3|move 1
+|
+|cant|p2a: Moltres|slp
+|move|p1a: Parasect|Hyper Beam|p2a: Moltres|[miss]
+|-miss|p1a: Parasect
+|
+|turn|23
+|choice|move 3|move 1
+|
+|-curestatus|p2a: Moltres|slp
+|cant|p1a: Parasect|par
+|
+|turn|24
+|choice|move 4|move 1
+|
+|move|p2a: Moltres|Fire Blast|p1a: Parasect
+|-supereffective|p1a: Parasect
+|-damage|p1a: Parasect|0 fnt
+|faint|p1a: Parasect
+|choice|switch 5|
+|
+|switch|p1a: Slowpoke|Slowpoke, L96|245\/368
+|turn|25
+|choice|move 4|move 1
+|
+|move|p2a: Moltres|Fire Blast|p1a: Slowpoke
+|-resisted|p1a: Slowpoke
+|-damage|p1a: Slowpoke|132\/368
+|move|p1a: Slowpoke|Thunder Wave|p2a: Moltres
+|-status|p2a: Moltres|par
+|
+|turn|26
+|choice|move 3|move 3
+|
+|move|p1a: Slowpoke|Rest|p1a: Slowpoke
+|-status|p1a: Slowpoke|slp
+|-heal|p1a: Slowpoke|368\/368 slp|[silent]
+|-status|p1a: Slowpoke|slp|[from] move: Rest
+|move|p2a: Moltres|Hyper Beam|p1a: Slowpoke
+|-damage|p1a: Slowpoke|254\/368 slp
+|
+|turn|27
+|-mustrecharge|p2a: Moltres
+|-mustrecharge|p2a: Moltres
+|choice|move 2|move 1
+|
+|cant|p1a: Slowpoke|slp
+|cant|p2a: Moltres|recharge
+|
+|turn|28
+|choice|move 2|move 4
+|
+|-curestatus|p1a: Slowpoke|slp
+|move|p2a: Moltres|Agility|p2a: Moltres
+|-boost|p2a: Moltres|spe|2
+|
+|turn|29
+|choice|move 2|move 1
+|
+|move|p2a: Moltres|Fire Blast|p1a: Slowpoke|[miss]
+|-miss|p2a: Moltres
+|move|p1a: Slowpoke|Surf|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|199\/327 par
+|
+|turn|30
+|choice|move 1|move 1
+|
+|move|p2a: Moltres|Fire Blast|p1a: Slowpoke
+|-resisted|p1a: Slowpoke
+|-damage|p1a: Slowpoke|143\/368
+|move|p1a: Slowpoke|Amnesia|p1a: Slowpoke
+|-boost|p1a: Slowpoke|spd|2
+|-boost|p1a: Slowpoke|spa|2
+|
+|turn|31
+|choice|move 2|move 1
+|
+|move|p1a: Slowpoke|Surf|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|choice||switch 6
+|
+|switch|p2a: Parasect|Parasect, L90|291\/291
+|turn|32
+|choice|move 4|move 3
+|
+|move|p2a: Parasect|Slash|p1a: Slowpoke
+|-damage|p1a: Slowpoke|81\/368
+|move|p1a: Slowpoke|Thunder Wave|p2a: Parasect
+|-status|p2a: Parasect|par
+|
+|turn|33
+|choice|move 3|move 3
+|
+|move|p1a: Slowpoke|Rest|p1a: Slowpoke
+|-status|p1a: Slowpoke|slp
+|-heal|p1a: Slowpoke|368\/368 slp|[silent]
+|-status|p1a: Slowpoke|slp|[from] move: Rest
+|move|p2a: Parasect|Slash|p1a: Slowpoke
+|-damage|p1a: Slowpoke|305\/368 slp
+|
+|turn|34
+|choice|move 2|move 3
+|
+|cant|p1a: Slowpoke|slp
+|cant|p2a: Parasect|par
+|
+|turn|35
+|choice|move 2|move 3
+|
+|-curestatus|p1a: Slowpoke|slp
+|move|p2a: Parasect|Slash|p1a: Slowpoke
+|-damage|p1a: Slowpoke|249\/368
+|
+|turn|36
+|choice|move 2|move 4
+|
+|move|p1a: Slowpoke|Surf|p2a: Parasect
+|-resisted|p2a: Parasect
+|-damage|p2a: Parasect|210\/291 par
+|move|p2a: Parasect|Stun Spore|p1a: Slowpoke
+|-status|p1a: Slowpoke|par
+|
+|turn|37
+|choice|move 1|move 3
+|
+|cant|p2a: Parasect|par
+|cant|p1a: Slowpoke|par
+|
+|turn|38
+|choice|move 1|move 3
+|
+|cant|p2a: Parasect|par
+|move|p1a: Slowpoke|Amnesia|p1a: Slowpoke
+|-boost|p1a: Slowpoke|spd|2
+|-boost|p1a: Slowpoke|spa|2
+|
+|turn|39
+|choice|move 2|move 3
+|
+|move|p1a: Slowpoke|Surf|p2a: Parasect
+|-resisted|p2a: Parasect
+|-damage|p2a: Parasect|85\/291 par
+|move|p2a: Parasect|Slash|p1a: Slowpoke
+|-damage|p1a: Slowpoke|189\/368 par
+|
+|turn|40
+|choice|move 2|move 3
+|
+|move|p1a: Slowpoke|Surf|p2a: Parasect
+|-resisted|p2a: Parasect
+|-damage|p2a: Parasect|0 fnt
+|faint|p2a: Parasect
+|choice||switch 3
+|
+|switch|p2a: Starmie|Starmie, L79|257\/257
+|turn|41
+|choice|move 4|move 4
+|
+|move|p2a: Starmie|Surf|p1a: Slowpoke
+|-crit|p1a: Slowpoke
+|-resisted|p1a: Slowpoke
+|-damage|p1a: Slowpoke|62\/368 par
+|move|p1a: Slowpoke|Thunder Wave|p2a: Starmie
+|-status|p2a: Starmie|par
+|
+|turn|42
+|choice|move 2|move 4
+|
+|move|p2a: Starmie|Surf|p1a: Slowpoke
+|-resisted|p1a: Slowpoke
+|-damage|p1a: Slowpoke|43\/368 par
+|move|p1a: Slowpoke|Surf|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|133\/257 par
+|
+|turn|43
+|choice|move 2|move 4
+|
+|move|p2a: Starmie|Surf|p1a: Slowpoke
+|-resisted|p1a: Slowpoke
+|-damage|p1a: Slowpoke|24\/368 par
+|cant|p1a: Slowpoke|par
+|
+|turn|44
+|choice|move 2|move 4
+|
+|move|p2a: Starmie|Surf|p1a: Slowpoke
+|-resisted|p1a: Slowpoke
+|-damage|p1a: Slowpoke|3\/368 par
+|move|p1a: Slowpoke|Surf|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|26\/257 par
+|
+|turn|45
+|choice|move 3|move 1
+|
+|cant|p2a: Starmie|par
+|cant|p1a: Slowpoke|par
+|
+|turn|46
+|choice|move 3|move 1
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|154\/257 par
+|cant|p1a: Slowpoke|par
+|
+|turn|47
+|choice|move 3|move 4
+|
+|move|p2a: Starmie|Surf|p1a: Slowpoke
+|-resisted|p1a: Slowpoke
+|-damage|p1a: Slowpoke|0 fnt
+|faint|p1a: Slowpoke
+|choice|switch 4|
+|
+|switch|p1a: Chansey|Chansey, L79|557\/557
+|turn|48
+|choice|move 3|move 3
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|27\/257 par
+|move|p2a: Starmie|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|turn|49
+|choice|move 3|move 2
+|
+|move|p2a: Starmie|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|485\/557 par
+|move|p1a: Chansey|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|win|Frostrocket
+|raw|Frostrocket's rating: 1100 &rarr; <strong>1118<\/strong><br \/>(+18 for winning)
+|raw|Doubleh1's rating: 1000 &rarr; <strong>1000<\/strong><br \/>(+0 for losing)
+|l|Doubleh1
+|player|p2

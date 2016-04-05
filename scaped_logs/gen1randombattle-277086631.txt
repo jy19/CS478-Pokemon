@@ -1,0 +1,98 @@
+﻿|join|gen1masterrony
+|join|Hydraxis566
+|player|p1|gen1masterrony|266
+|player|p2|Hydraxis566|164
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Slowpoke|Slowpoke, L96|368\/368
+|switch|p2a: Hitmonchan|Hitmonchan, L90|273\/273
+|turn|1
+|
+|move|p2a: Hitmonchan|Submission|p1a: Slowpoke
+|-resisted|p1a: Slowpoke
+|-damage|p1a: Slowpoke|316\/368
+|-damage|p2a: Hitmonchan|260\/273|[from] recoil|[of] p1a: Slowpoke
+|move|p1a: Slowpoke|Thunder Wave|p2a: Hitmonchan
+|-status|p2a: Hitmonchan|par
+|
+|turn|2
+|
+|move|p1a: Slowpoke|Surf|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|139\/273 par
+|cant|p2a: Hitmonchan|par
+|
+|turn|3
+|
+|move|p1a: Slowpoke|Amnesia|p1a: Slowpoke
+|-boost|p1a: Slowpoke|spd|2
+|-boost|p1a: Slowpoke|spa|2
+|cant|p2a: Hitmonchan|par
+|
+|turn|4
+|
+|move|p1a: Slowpoke|Amnesia|p1a: Slowpoke
+|-boost|p1a: Slowpoke|spd|2
+|-boost|p1a: Slowpoke|spa|2
+|move|p2a: Hitmonchan|Body Slam|p1a: Slowpoke
+|-crit|p1a: Slowpoke
+|-damage|p1a: Slowpoke|163\/368
+|
+|turn|5
+|
+|move|p1a: Slowpoke|Rest|p1a: Slowpoke
+|-status|p1a: Slowpoke|slp
+|-heal|p1a: Slowpoke|368\/368 slp|[silent]
+|-status|p1a: Slowpoke|slp|[from] move: Rest
+|cant|p2a: Hitmonchan|par
+|
+|turn|6
+|join|StrengthplaysPK
+|
+|switch|p2a: Grimer|Grimer, L96|348\/348
+|cant|p1a: Slowpoke|slp
+|
+|turn|7
+|leave|StrengthplaysPK
+|
+|move|p2a: Grimer|Body Slam|p1a: Slowpoke
+|-damage|p1a: Slowpoke|297\/368 slp
+|-curestatus|p1a: Slowpoke|slp
+|
+|turn|8
+|
+|move|p2a: Grimer|Body Slam|p1a: Slowpoke
+|-damage|p1a: Slowpoke|228\/368
+|move|p1a: Slowpoke|Thunder Wave|p2a: Grimer
+|-status|p2a: Grimer|par
+|
+|turn|9
+|
+|move|p1a: Slowpoke|Rest|p1a: Slowpoke
+|-status|p1a: Slowpoke|slp
+|-heal|p1a: Slowpoke|368\/368 slp|[silent]
+|-status|p1a: Slowpoke|slp|[from] move: Rest
+|cant|p2a: Grimer|par
+|
+|turn|10
+|
+|cant|p1a: Slowpoke|slp
+|cant|p2a: Grimer|par
+|
+|turn|11
+|
+|-curestatus|p1a: Slowpoke|slp
+|move|p2a: Grimer|Screech|p1a: Slowpoke|[miss]
+|-miss|p2a: Grimer
+|
+|turn|12
+|-message|Hydraxis566 forfeited.
+|
+|win|gen1masterrony
+|leave|Hydraxis566
+|player|p2

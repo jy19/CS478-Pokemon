@@ -1,0 +1,238 @@
+﻿|j|XianJu
+|j|arafalo2
+|player|p1|XianJu|130
+|player|p2|arafalo2|1
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|36542,26245,37483,18478
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Porygon|Porygon, L85|284\/284
+|switch|p2a: Metapod|Metapod, L99|300\/300
+|turn|1
+|choice|move 2|switch 6
+|
+|switch|p2a: Chansey|Chansey, L79|557\/557
+|move|p1a: Porygon|Agility|p1a: Porygon
+|-boost|p1a: Porygon|spe|2
+|
+|turn|2
+|choice|move 3|move 3
+|
+|move|p1a: Porygon|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|500\/557
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|move|p2a: Chansey|Thunder Wave|p1a: Porygon
+|-status|p1a: Porygon|par
+|
+|turn|3
+|choice|move 3|move 2
+|
+|move|p2a: Chansey|Reflect|p2a: Chansey
+|-start|p2a: Chansey|Reflect
+|move|p1a: Porygon|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|418\/557
+|
+|turn|4
+|choice|move 3|move 3
+|
+|move|p2a: Chansey|Thunder Wave|p1a: Porygon
+|-fail|p1a: Porygon|par
+|cant|p1a: Porygon|par
+|
+|turn|5
+|choice|move 4|move 3
+|
+|move|p2a: Chansey|Thunder Wave|p1a: Porygon
+|-fail|p1a: Porygon|par
+|cant|p1a: Porygon|par
+|
+|turn|6
+|choice|move 4|move 3
+|
+|move|p2a: Chansey|Thunder Wave|p1a: Porygon
+|-fail|p1a: Porygon|par
+|move|p1a: Porygon|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|turn|7
+|choice|move 3|move 1
+|
+|move|p1a: Porygon|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|333\/557 par
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|557\/557 par
+|
+|turn|8
+|choice|move 3|switch 6
+|
+|switch|p2a: Metapod|Metapod, L99|300\/300
+|move|p1a: Porygon|Psychic|p2a: Metapod
+|-damage|p2a: Metapod|208\/300
+|
+|turn|9
+|choice|move 3|move 2
+|
+|move|p2a: Metapod|String Shot|p1a: Porygon
+|-unboost|p1a: Porygon|spe|1
+|move|p1a: Porygon|Psychic|p2a: Metapod
+|-crit|p2a: Metapod
+|-damage|p2a: Metapod|48\/300
+|
+|turn|10
+|choice|switch 3|move 1
+|
+|switch|p1a: Rhydon|Rhydon, L79|328\/328
+|move|p2a: Metapod|Tackle|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|321\/328
+|
+|turn|11
+|choice|move 1|switch 4
+|
+|switch|p2a: Starmie|Starmie, L79|257\/257
+|move|p1a: Rhydon|Substitute|p1a: Rhydon
+|-start|p1a: Rhydon|Substitute
+|-damage|p1a: Rhydon|239\/328
+|
+|turn|12
+|choice|move 4|move 3
+|
+|move|p2a: Starmie|Blizzard|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-end|p1a: Rhydon|Substitute
+|move|p1a: Rhydon|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|187\/257
+|-status|p2a: Starmie|par
+|
+|turn|13
+|choice|switch 4|move 3
+|
+|switch|p1a: Beedrill|Beedrill, L90|300\/300
+|move|p2a: Starmie|Blizzard|p1a: Beedrill
+|-damage|p1a: Beedrill|192\/300
+|
+|turn|14
+|choice|move 2|move 2
+|
+|move|p1a: Beedrill|Swords Dance|p1a: Beedrill
+|-boost|p1a: Beedrill|atk|2
+|cant|p2a: Starmie|par
+|
+|turn|15
+|choice|move 3|switch 4
+|
+|switch|p2a: Metapod|Metapod, L99|48\/300
+|move|p1a: Beedrill|Twineedle|p2a: Metapod
+|-damage|p2a: Metapod|0 fnt
+|-hitcount|p2a: Metapod|1
+|faint|p2a: Metapod
+|choice||switch 5
+|
+|switch|p2a: Jolteon|Jolteon, L79|265\/265
+|turn|16
+|choice|move 3|switch 2
+|
+|switch|p2a: Lapras|Lapras, L79|367\/367
+|move|p1a: Beedrill|Twineedle|p2a: Lapras
+|-damage|p2a: Lapras|307\/367
+|-damage|p2a: Lapras|247\/367
+|-hitcount|p2a: Lapras|2
+|
+|turn|17
+|choice|move 3|move 3
+|
+|move|p1a: Beedrill|Twineedle|p2a: Lapras
+|-damage|p2a: Lapras|189\/367
+|-damage|p2a: Lapras|131\/367
+|-hitcount|p2a: Lapras|2
+|move|p2a: Lapras|Blizzard|p1a: Beedrill|[miss]
+|-miss|p2a: Lapras
+|
+|turn|18
+|choice|move 1|move 1
+|
+|move|p1a: Beedrill|Hyper Beam|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|choice||switch 3
+|
+|switch|p2a: Tauros|Tauros, L79|280\/280
+|turn|19
+|choice|switch 6|move 2
+|
+|switch|p1a: Charizard|Charizard, L85|306\/306
+|move|p2a: Tauros|Earthquake|p1a: Charizard
+|-immune|p1a: Charizard|[msg]
+|
+|turn|20
+|choice|move 1|move 3
+|
+|move|p1a: Charizard|Fire Blast|p2a: Tauros
+|-damage|p2a: Tauros|145\/280
+|move|p2a: Tauros|Blizzard|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|186\/306
+|
+|turn|21
+|choice|move 3|switch 6
+|
+|switch|p2a: Chansey|Chansey, L79|557\/557 par
+|move|p1a: Charizard|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|397\/557 par
+|
+|turn|22
+|choice|move 4|move 4
+|
+|move|p1a: Charizard|Earthquake|p2a: Chansey
+|-damage|p2a: Chansey|208\/557 par
+|move|p2a: Chansey|Counter|p1a: Charizard
+|-fail|p2a: Chansey
+|
+|turn|23
+|choice|move 2|move 1
+|
+|move|p1a: Charizard|Hyper Beam|p2a: Chansey|[miss]
+|-miss|p1a: Charizard
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|486\/557 par
+|
+|turn|24
+|choice|move 4|move 3
+|
+|move|p1a: Charizard|Earthquake|p2a: Chansey
+|-damage|p2a: Chansey|303\/557 par
+|cant|p2a: Chansey|par
+|
+|turn|25
+|choice|move 4|switch 2
+|
+|switch|p2a: Jolteon|Jolteon, L79|265\/265
+|move|p1a: Charizard|Earthquake|p2a: Jolteon
+|-supereffective|p2a: Jolteon
+|-damage|p2a: Jolteon|85\/265
+|
+|turn|26
+|choice|switch 4|move 1
+|
+|switch|p1a: Rhydon|Rhydon, L79|239\/328
+|move|p2a: Jolteon|Thunderbolt|p1a: Rhydon
+|-immune|p1a: Rhydon|[msg]
+|
+|turn|27
+|-message|arafalo2 forfeited.
+|
+|win|XianJu
+|player|p1
+|player|p2
+|l|arafalo2
+|raw|XianJu's rating: 1289 &rarr; <strong>1313<\/strong><br \/>(+24 for winning)
+|raw|arafalo2's rating: 1269 &rarr; <strong>1246<\/strong><br \/>(-23 for losing)

@@ -1,0 +1,417 @@
+﻿|J|KristophV
+|J|Disaster Area
+|player|p1|KristophV|kristophv.png
+|player|p2|Disaster Area|32
+|gametype|singles
+|gen|1
+|tier|Violet Version
+|clearpoke
+|poke|p1|Tangela
+|poke|p1|Dragonite
+|poke|p1|Gengar
+|poke|p1|Cloyster
+|poke|p1|Hypno
+|poke|p1|Aerodactyl
+|poke|p2|Muk
+|poke|p2|Jynx
+|poke|p2|Chansey
+|poke|p2|Machamp
+|poke|p2|Gyarados
+|poke|p2|Aerodactyl
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|c|★Disaster Area|I have myself a muk and a machamp :O
+|c|★Disaster Area|gl hf
+|c|★KristophV|you too
+|
+|start
+|switch|p1a: Aerodactyl|Aerodactyl|363\/363
+|switch|p2a: Machamp|Machamp|403\/403
+|turn|1
+|
+|move|p1a: Aerodactyl|Sky Attack|p2a: Machamp|[still]
+|-prepare|p1a: Aerodactyl|Sky Attack|p2a: Machamp
+|-boost|p1a: Aerodactyl|def|1
+|move|p2a: Machamp|Rock Slide|p1a: Aerodactyl
+|-crit|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|0 fnt
+|faint|p1a: Aerodactyl
+|c|★Disaster Area|rip.
+|c|★KristophV|lol
+|c|★Disaster Area|lol
+|
+|switch|p1a: Gengar|Gengar|323\/323
+|turn|2
+|
+|move|p1a: Gengar|Hypnosis|p2a: Machamp
+|-status|p2a: Machamp|slp
+|cant|p2a: Machamp|slp
+|
+|turn|3
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Gengar|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|619\/703
+|
+|turn|4
+|
+|switch|p1a: Tangela|Tangela|373\/373
+|switch|p2a: Aerodactyl|Aerodactyl|363\/363
+|
+|turn|5
+|
+|switch|p2a: Muk|Muk|493\/493
+|switch|p1a: Hypno|Hypno|373\/373
+|
+|turn|6
+|c|★Disaster Area|this should be interesting :)
+|c|★Disaster Area|:O
+|c|★Disaster Area|doubled on.
+|
+|switch|p2a: Jynx|Jynx|333\/333
+|move|p1a: Hypno|Toxic|p2a: Jynx
+|-status|p2a: Jynx|tox
+|
+|turn|7
+|
+|switch|p1a: Cloyster|Cloyster|303\/303
+|move|p2a: Jynx|Lovely Kiss|p1a: Cloyster
+|-status|p1a: Cloyster|slp
+|-damage|p2a: Jynx|313\/333 tox|[from] tox|[of] p1a: Cloyster
+|
+|turn|8
+|
+|move|p2a: Jynx|Psychic|p1a: Cloyster
+|-damage|p1a: Cloyster|180\/303 slp
+|-damage|p2a: Jynx|273\/333 tox|[from] tox|[of] p1a: Cloyster
+|-curestatus|p1a: Cloyster|slp
+|
+|turn|9
+|
+|move|p2a: Jynx|Lovely Kiss|p1a: Cloyster|[miss]
+|-miss|p2a: Jynx
+|-damage|p2a: Jynx|213\/333 tox|[from] tox|[of] p1a: Cloyster
+|move|p1a: Cloyster|Clamp|p2a: Jynx
+|-crit|p2a: Jynx
+|-damage|p2a: Jynx|76\/333 tox
+|-activate|p2a: Jynx|move: Clamp|[of] p1a: Cloyster
+|
+|turn|10
+|c|★Disaster Area|x_x
+|
+|switch|p2a: Gyarados|Gyarados|393\/393
+|move|p1a: Cloyster|Clamp|p2a: Gyarados|[miss]
+|-miss|p1a: Cloyster
+|
+|turn|11
+|
+|move|p2a: Gyarados|Tri Attack|p1a: Cloyster
+|-crit|p1a: Cloyster
+|-damage|p1a: Cloyster|80\/303
+|move|p1a: Cloyster|Toxic|p2a: Gyarados
+|-status|p2a: Gyarados|tox
+|
+|turn|12
+|
+|move|p2a: Gyarados|Sky Attack|p1a: Cloyster|[still]
+|-prepare|p2a: Gyarados|Sky Attack|p1a: Cloyster
+|-boost|p2a: Gyarados|def|1
+|-damage|p2a: Gyarados|369\/393 tox|[from] tox|[of] p1a: Cloyster
+|move|p1a: Cloyster|Rest|p1a: Cloyster
+|-status|p1a: Cloyster|slp
+|-heal|p1a: Cloyster|303\/303 slp|[silent]
+|-status|p1a: Cloyster|slp|[from] move: Rest
+|
+|turn|13
+|
+|move|p2a: Gyarados|Sky Attack|p1a: Cloyster
+|-damage|p1a: Cloyster|173\/303 slp
+|-damage|p2a: Gyarados|321\/393 tox|[from] tox|[of] p1a: Cloyster
+|cant|p1a: Cloyster|slp
+|
+|turn|14
+|c|★Disaster Area|wow
+|
+|move|p2a: Gyarados|Thunderbolt|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|19\/303 slp
+|-damage|p2a: Gyarados|249\/393 tox|[from] tox|[of] p1a: Cloyster
+|-curestatus|p1a: Cloyster|slp
+|
+|turn|15
+|c|★Disaster Area|that's storng
+|c|★Disaster Area|*strong
+|
+|switch|p1a: Hypno|Hypno|373\/373
+|move|p2a: Gyarados|Tri Attack|p1a: Hypno
+|-supereffective|p1a: Hypno
+|-damage|p1a: Hypno|175\/373
+|-damage|p2a: Gyarados|153\/393 tox|[from] tox|[of] p1a: Hypno
+|
+|turn|16
+|
+|switch|p2a: Chansey|Chansey|619\/703
+|switch|p1a: Tangela|Tangela|373\/373
+|
+|turn|17
+|
+|switch|p2a: Muk|Muk|493\/493
+|move|p1a: Tangela|Bind|p2a: Muk
+|-resisted|p2a: Muk
+|-damage|p2a: Muk|480\/493
+|-activate|p2a: Muk|move: Bind|[of] p1a: Tangela
+|
+|turn|18
+|
+|switch|p1a: Cloyster|Cloyster|19\/303
+|switch|p2a: Chansey|Chansey|619\/703
+|
+|turn|19
+|
+|switch|p2a: Gyarados|Gyarados|153\/393 tox
+|-status|p2a: Gyarados|psn
+|-damage|p2a: Gyarados|129\/393 psn|[from] psn
+|move|p1a: Cloyster|Clamp|p2a: Gyarados|[miss]
+|-miss|p1a: Cloyster
+|
+|turn|20
+|
+|switch|p1a: Dragonite|Dragonite|385\/385
+|move|p2a: Gyarados|Sky Attack|p1a: Dragonite|[still]
+|-prepare|p2a: Gyarados|Sky Attack|p1a: Dragonite
+|-boost|p2a: Gyarados|def|1
+|-damage|p2a: Gyarados|105\/393 psn|[from] psn|[of] p1a: Dragonite
+|
+|turn|21
+|
+|move|p2a: Gyarados|Sky Attack|p1a: Dragonite
+|-damage|p1a: Dragonite|197\/385
+|-damage|p2a: Gyarados|81\/393 psn|[from] psn|[of] p1a: Dragonite
+|move|p1a: Dragonite|Agility|p1a: Dragonite
+|-boost|p1a: Dragonite|spe|2
+|
+|turn|22
+|
+|switch|p2a: Machamp|Machamp|403\/403 slp
+|move|p1a: Dragonite|Wrap|p2a: Machamp
+|-damage|p2a: Machamp|366\/403 slp
+|-activate|p2a: Machamp|move: Wrap|[of] p1a: Dragonite
+|
+|turn|23
+|
+|move|p1a: Dragonite|Wrap|p2a: Machamp
+|-damage|p2a: Machamp|329\/403 slp
+|cant|p2a: Machamp|slp
+|
+|turn|24
+|c|★Disaster Area|what's wrap's pp in this again?
+|
+|move|p1a: Dragonite|Wrap|p2a: Machamp
+|-damage|p2a: Machamp|292\/403 slp
+|cant|p2a: Machamp|slp
+|
+|-end|p2a: Machamp|Wrap|[partiallytrapped]
+|turn|25
+|c|★KristophV|8
+|
+|switch|p2a: Chansey|Chansey|619\/703
+|move|p1a: Dragonite|Wrap|p2a: Chansey|[miss]
+|-miss|p1a: Dragonite
+|
+|turn|26
+|
+|move|p1a: Dragonite|Wrap|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|403\/703
+|-activate|p2a: Chansey|move: Wrap|[of] p1a: Dragonite
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|27
+|
+|switch|p2a: Aerodactyl|Aerodactyl|363\/363
+|move|p1a: Dragonite|Wrap|p2a: Aerodactyl|[miss]
+|-miss|p1a: Dragonite
+|
+|turn|28
+|
+|switch|p2a: Chansey|Chansey|403\/703
+|move|p1a: Dragonite|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|304\/703
+|-activate|p2a: Chansey|move: Wrap|[of] p1a: Dragonite
+|
+|turn|29
+|
+|switch|p2a: Aerodactyl|Aerodactyl|363\/363
+|move|p1a: Dragonite|Wrap|p2a: Aerodactyl
+|-resisted|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|337\/363
+|-activate|p2a: Aerodactyl|move: Wrap|[of] p1a: Dragonite
+|
+|turn|30
+|
+|switch|p2a: Machamp|Machamp|292\/403 slp
+|move|p1a: Dragonite|Wrap|p2a: Machamp|[miss]
+|-miss|p1a: Dragonite
+|
+|turn|31
+|c|★Disaster Area|blindnite
+|
+|move|p1a: Dragonite|Thrash|p2a: Machamp
+|-damage|p2a: Machamp|136\/403 slp
+|-curestatus|p2a: Machamp|slp
+|
+|turn|32
+|c|★Disaster Area|dragon's still
+|c|★Disaster Area|special right?
+|c|★KristophV|yeah
+|
+|move|p1a: Dragonite|Thrash|p2a: Machamp
+|-damage|p2a: Machamp|0 fnt
+|-start|p1a: Dragonite|confusion|[silent]
+|faint|p2a: Machamp
+|
+|switch|p2a: Chansey|Chansey|304\/703
+|turn|33
+|
+|-activate|p1a: Dragonite|confusion
+|-damage|p1a: Dragonite|153\/385|[from] confusion
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|655\/703
+|
+|turn|34
+|
+|switch|p1a: Hypno|Hypno|175\/373
+|move|p2a: Chansey|Thunder Wave|p1a: Hypno
+|-status|p1a: Hypno|par
+|
+|turn|35
+|
+|switch|p2a: Jynx|Jynx|76\/333 tox
+|-status|p2a: Jynx|psn
+|-damage|p2a: Jynx|56\/333 psn|[from] psn
+|move|p1a: Hypno|Psychic|p2a: Jynx
+|-resisted|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|
+|switch|p2a: Gyarados|Gyarados|81\/393 psn
+|turn|36
+|
+|move|p2a: Gyarados|Tri Attack|p1a: Hypno
+|-supereffective|p1a: Hypno
+|-damage|p1a: Hypno|0 fnt
+|faint|p1a: Hypno
+|c|★Disaster Area|certainly an interesting match :]
+|
+|switch|p1a: Gengar|Gengar|323\/323
+|turn|37
+|
+|switch|p2a: Chansey|Chansey|655\/703
+|move|p1a: Gengar|Thunderbolt|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|495\/703
+|
+|turn|38
+|
+|switch|p2a: Muk|Muk|480\/493
+|move|p1a: Gengar|Hypnosis|p2a: Muk|[miss]
+|-miss|p1a: Gengar
+|
+|turn|39
+|
+|move|p1a: Gengar|Hypnosis|p2a: Muk|[miss]
+|-miss|p1a: Gengar
+|move|p2a: Muk|Disable|p1a: Gengar
+|-start|p1a: Gengar|Disable|Dream Eater
+|
+|turn|40
+|
+|switch|p2a: Chansey|Chansey|495\/703
+|move|p1a: Gengar|Hypnosis|p2a: Chansey
+|-status|p2a: Chansey|slp
+|
+|turn|41
+|
+|switch|p2a: Gyarados|Gyarados|81\/393 psn
+|-damage|p2a: Gyarados|57\/393 psn|[from] psn
+|move|p1a: Gengar|Psychic|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|switch|p2a: Aerodactyl|Aerodactyl|337\/363
+|turn|42
+|
+|move|p2a: Aerodactyl|Rock Slide|p1a: Gengar
+|-damage|p1a: Gengar|186\/323
+|move|p1a: Gengar|Thunderbolt|p2a: Aerodactyl
+|-crit|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|faint|p2a: Aerodactyl
+|c|★Disaster Area|rip
+|c|★Disaster Area|gg lol
+|
+|switch|p2a: Muk|Muk|480\/493
+|turn|43
+|
+|move|p1a: Gengar|Psychic|p2a: Muk
+|-crit|p2a: Muk
+|-supereffective|p2a: Muk
+|-damage|p2a: Muk|73\/493
+|-unboost|p2a: Muk|spd|1
+|-unboost|p2a: Muk|spa|1
+|move|p2a: Muk|Disable|p1a: Gengar
+|-start|p1a: Gengar|Disable|Dream Eater
+|
+|turn|44
+|c|★Disaster Area|x_x
+|c|★Disaster Area|lol
+|
+|switch|p2a: Chansey|Chansey|495\/703 slp
+|move|p1a: Gengar|Psychic|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|332\/703 slp
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|
+|turn|45
+|c|★KristophV|it disabled dream eater both times right
+|c|★Disaster Area|yeah
+|
+|move|p1a: Gengar|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|211\/703 slp
+|cant|p2a: Chansey|slp
+|
+|turn|46
+|
+|move|p1a: Gengar|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|87\/703 slp
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|cant|p2a: Chansey|slp
+|
+|turn|47
+|
+|move|p1a: Gengar|Psychic|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|switch|p2a: Muk|Muk|73\/493
+|turn|48
+|
+|move|p1a: Gengar|Psychic|p2a: Muk
+|-crit|p2a: Muk
+|-supereffective|p2a: Muk
+|-damage|p2a: Muk|0 fnt
+|faint|p2a: Muk
+|
+|win|KristophV
+|c|★Disaster Area|gg
+|c|★KristophV|gg

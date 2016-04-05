@@ -1,0 +1,335 @@
+﻿|join|Zorage
+|join|Grozoth
+|player|p1|Zorage|166
+|player|p2|Grozoth|92
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Venusaur|Venusaur, L85|310\/310
+|switch|p2a: Nidorina|Nidorina, L90|309\/309
+|turn|1
+|
+|move|p1a: Venusaur|Swords Dance|p1a: Venusaur
+|-boost|p1a: Venusaur|atk|2
+|move|p2a: Nidorina|Blizzard|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|178\/310
+|
+|turn|2
+|
+|switch|p1a: Abra|Abra, L96|243\/243
+|switch|p2a: Arcanine|Arcanine, L85|327\/327
+|
+|turn|3
+|
+|move|p1a: Abra|Thunder Wave|p2a: Arcanine
+|-status|p2a: Arcanine|par
+|move|p2a: Arcanine|Mimic|p1a: Abra
+|-start|p2a: Arcanine|Mimic|Reflect
+|
+|turn|4
+|
+|move|p1a: Abra|Reflect|p1a: Abra
+|-start|p1a: Abra|Reflect
+|move|p2a: Arcanine|Hyper Beam|p1a: Abra
+|-crit|p1a: Abra
+|-damage|p1a: Abra|0 fnt
+|faint|p1a: Abra
+|
+|switch|p1a: Arbok|Arbok, L90|291\/291
+|turn|5
+|
+|move|p1a: Arbok|Rock Slide|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|219\/327 par
+|cant|p2a: Arcanine|par
+|
+|turn|6
+|
+|move|p1a: Arbok|Rock Slide|p2a: Arcanine
+|-crit|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|switch|p2a: Snorlax|Snorlax, L79|415\/415
+|turn|7
+|
+|move|p1a: Arbok|Glare|p2a: Snorlax|[miss]
+|-miss|p1a: Arbok
+|move|p2a: Snorlax|Earthquake|p1a: Arbok
+|-supereffective|p1a: Arbok
+|-damage|p1a: Arbok|155\/291
+|
+|turn|8
+|
+|switch|p1a: Pidgeotto|Pidgeotto, L90|297\/297
+|move|p2a: Snorlax|Earthquake|p1a: Pidgeotto
+|-immune|p1a: Pidgeotto|[msg]
+|
+|turn|9
+|
+|move|p1a: Pidgeotto|Double-Edge|p2a: Snorlax
+|-damage|p2a: Snorlax|304\/415
+|-damage|p1a: Pidgeotto|270\/297|[from] recoil|[of] p2a: Snorlax
+|move|p2a: Snorlax|Thunderbolt|p1a: Pidgeotto
+|-supereffective|p1a: Pidgeotto
+|-damage|p1a: Pidgeotto|144\/297
+|
+|turn|10
+|
+|move|p1a: Pidgeotto|Double-Edge|p2a: Snorlax
+|-damage|p2a: Snorlax|185\/415
+|-damage|p1a: Pidgeotto|115\/297|[from] recoil|[of] p2a: Snorlax
+|move|p2a: Snorlax|Thunderbolt|p1a: Pidgeotto
+|-supereffective|p1a: Pidgeotto
+|-damage|p1a: Pidgeotto|2\/297
+|-status|p1a: Pidgeotto|par
+|
+|turn|11
+|
+|move|p2a: Snorlax|Thunderbolt|p1a: Pidgeotto
+|-supereffective|p1a: Pidgeotto
+|-damage|p1a: Pidgeotto|0 fnt
+|faint|p1a: Pidgeotto
+|
+|switch|p1a: Hypno|Hypno, L85|318\/318
+|turn|12
+|
+|move|p1a: Hypno|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|
+|turn|13
+|
+|switch|p1a: Venusaur|Venusaur, L85|178\/310
+|cant|p2a: Snorlax|par
+|
+|turn|14
+|
+|move|p1a: Venusaur|Leech Seed|p2a: Snorlax
+|-start|p2a: Snorlax|move: Leech Seed
+|move|p2a: Snorlax|Ice Beam|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|16\/310
+|-damage|p2a: Snorlax|160\/415 par|[from] Leech Seed|[of] p1a: Venusaur
+|-heal|p1a: Venusaur|41\/310|[silent]
+|
+|turn|15
+|
+|switch|p1a: Hypno|Hypno, L85|318\/318
+|cant|p2a: Snorlax|par
+|-damage|p2a: Snorlax|135\/415 par|[from] Leech Seed|[of] p1a: Hypno
+|
+|turn|16
+|
+|move|p1a: Hypno|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|61\/415 par
+|cant|p2a: Snorlax|par
+|-damage|p2a: Snorlax|36\/415 par|[from] Leech Seed|[of] p1a: Hypno
+|
+|turn|17
+|
+|move|p1a: Hypno|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|switch|p2a: Jolteon|Jolteon, L79|265\/265
+|turn|18
+|
+|move|p2a: Jolteon|Pin Missile|p1a: Hypno
+|-supereffective|p1a: Hypno
+|-damage|p1a: Hypno|301\/318
+|-damage|p1a: Hypno|284\/318
+|-damage|p1a: Hypno|267\/318
+|-hitcount|p1a: Hypno|3
+|move|p1a: Hypno|Thunder Wave|p2a: Jolteon
+|-status|p2a: Jolteon|par
+|
+|turn|19
+|
+|move|p1a: Hypno|Psychic|p2a: Jolteon
+|-damage|p2a: Jolteon|173\/265 par
+|cant|p2a: Jolteon|par
+|
+|turn|20
+|
+|move|p1a: Hypno|Psychic|p2a: Jolteon
+|-damage|p2a: Jolteon|74\/265 par
+|-unboost|p2a: Jolteon|spd|1
+|-unboost|p2a: Jolteon|spa|1
+|move|p2a: Jolteon|Thunder Wave|p1a: Hypno
+|-status|p1a: Hypno|par
+|
+|turn|21
+|
+|move|p1a: Hypno|Rest|p1a: Hypno
+|-status|p1a: Hypno|slp
+|-heal|p1a: Hypno|318\/318 slp|[silent]
+|-status|p1a: Hypno|slp|[from] move: Rest
+|move|p2a: Jolteon|Thunderbolt|p1a: Hypno
+|-damage|p1a: Hypno|269\/318 slp
+|
+|turn|22
+|
+|cant|p1a: Hypno|slp
+|move|p2a: Jolteon|Pin Missile|p1a: Hypno
+|-supereffective|p1a: Hypno
+|-damage|p1a: Hypno|251\/318 slp
+|-damage|p1a: Hypno|233\/318 slp
+|-damage|p1a: Hypno|215\/318 slp
+|-hitcount|p1a: Hypno|3
+|
+|turn|23
+|
+|-curestatus|p1a: Hypno|slp
+|move|p2a: Jolteon|Pin Missile|p1a: Hypno
+|-supereffective|p1a: Hypno
+|-damage|p1a: Hypno|196\/318
+|-damage|p1a: Hypno|177\/318
+|-damage|p1a: Hypno|158\/318
+|-damage|p1a: Hypno|139\/318
+|-damage|p1a: Hypno|120\/318
+|-hitcount|p1a: Hypno|5
+|
+|turn|24
+|
+|move|p1a: Hypno|Psychic|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|
+|switch|p2a: Spearow|Spearow, L96|272\/272
+|turn|25
+|
+|move|p2a: Spearow|Double-Edge|p1a: Hypno
+|-damage|p1a: Hypno|8\/318
+|-damage|p2a: Spearow|244\/272|[from] recoil|[of] p1a: Hypno
+|move|p1a: Hypno|Thunder Wave|p2a: Spearow
+|-status|p2a: Spearow|par
+|
+|turn|26
+|
+|move|p2a: Spearow|Drill Peck|p1a: Hypno
+|-damage|p1a: Hypno|0 fnt
+|faint|p1a: Hypno
+|
+|switch|p1a: Arbok|Arbok, L90|155\/291
+|turn|27
+|
+|move|p1a: Arbok|Rock Slide|p2a: Spearow
+|-supereffective|p2a: Spearow
+|-damage|p2a: Spearow|86\/272 par
+|move|p2a: Spearow|Drill Peck|p1a: Arbok
+|-damage|p1a: Arbok|60\/291
+|
+|turn|28
+|
+|move|p1a: Arbok|Rock Slide|p2a: Spearow
+|-supereffective|p2a: Spearow
+|-damage|p2a: Spearow|0 fnt
+|faint|p2a: Spearow
+|
+|switch|p2a: Nidorina|Nidorina, L90|309\/309
+|turn|29
+|
+|move|p1a: Arbok|Glare|p2a: Nidorina
+|-status|p2a: Nidorina|par
+|move|p2a: Nidorina|Body Slam|p1a: Arbok
+|-damage|p1a: Arbok|0 fnt
+|faint|p1a: Arbok
+|
+|switch|p1a: Venusaur|Venusaur, L85|41\/310
+|turn|30
+|
+|move|p1a: Venusaur|Leech Seed|p2a: Nidorina
+|-start|p2a: Nidorina|move: Leech Seed
+|move|p2a: Nidorina|Blizzard|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|
+|switch|p1a: Chansey|Chansey, L79|557\/557
+|turn|31
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Nidorina
+|-damage|p2a: Nidorina|238\/309 par
+|move|p2a: Nidorina|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|408\/557
+|-damage|p2a: Nidorina|219\/309 par|[from] Leech Seed|[of] p1a: Chansey
+|-heal|p1a: Chansey|427\/557|[silent]
+|
+|turn|32
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Nidorina
+|-damage|p2a: Nidorina|147\/309 par
+|move|p2a: Nidorina|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|298\/557
+|-damage|p2a: Nidorina|128\/309 par|[from] Leech Seed|[of] p1a: Chansey
+|-heal|p1a: Chansey|317\/557|[silent]
+|
+|turn|33
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Nidorina
+|-damage|p2a: Nidorina|57\/309 par
+|move|p2a: Nidorina|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|174\/557
+|-damage|p2a: Nidorina|38\/309 par|[from] Leech Seed|[of] p1a: Chansey
+|-heal|p1a: Chansey|193\/557|[silent]
+|
+|turn|34
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|471\/557
+|move|p2a: Nidorina|Bubble Beam|p1a: Chansey
+|-damage|p1a: Chansey|438\/557
+|-damage|p2a: Nidorina|19\/309 par|[from] Leech Seed|[of] p1a: Chansey
+|-heal|p1a: Chansey|457\/557|[silent]
+|
+|turn|35
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Nidorina
+|-damage|p2a: Nidorina|0 fnt
+|faint|p2a: Nidorina
+|
+|switch|p2a: Seadra|Seadra, L90|282\/282
+|turn|36
+|
+|move|p2a: Seadra|Smokescreen|p1a: Chansey
+|-unboost|p1a: Chansey|accuracy|1
+|move|p1a: Chansey|Thunderbolt|p2a: Seadra
+|-supereffective|p2a: Seadra
+|-damage|p2a: Seadra|177\/282
+|
+|turn|37
+|
+|move|p2a: Seadra|Smokescreen|p1a: Chansey
+|-unboost|p1a: Chansey|accuracy|1
+|move|p1a: Chansey|Thunderbolt|p2a: Seadra
+|-supereffective|p2a: Seadra
+|-damage|p2a: Seadra|69\/282
+|
+|turn|38
+|
+|move|p2a: Seadra|Hydro Pump|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|203\/557
+|move|p1a: Chansey|Thunderbolt|p2a: Seadra
+|-crit|p2a: Seadra
+|-supereffective|p2a: Seadra
+|-damage|p2a: Seadra|0 fnt
+|faint|p2a: Seadra
+|
+|win|Zorage
+|raw|Ladder updating...
+|raw|Zorage's rating: 1095 &rarr; <strong>1119<\/strong><br \/>(+24 for winning)
+|raw|Grozoth's rating: 1073 &rarr; <strong>1054<\/strong><br \/>(-19 for losing)
+|leave|Grozoth
+|player|p2

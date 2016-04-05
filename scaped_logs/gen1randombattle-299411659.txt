@@ -1,0 +1,130 @@
+﻿|join|XianJu
+|join|Heatfan555
+|player|p1|XianJu|130
+|player|p2|Heatfan555|214
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|17944,45222,24220,32673
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Farfetch'd|Farfetch'd, L99|304\/304
+|switch|p2a: Raichu|Raichu, L85|276\/276
+|turn|1
+|choice|switch 6|move 4
+|
+|switch|p1a: Tangela|Tangela, L85|284\/284
+|move|p2a: Raichu|Body Slam|p1a: Tangela
+|-damage|p1a: Tangela|231\/284
+|-status|p1a: Tangela|par
+|
+|turn|2
+|choice|move 4|switch 5
+|
+|switch|p2a: Fearow|Fearow, L90|300\/300
+|move|p1a: Tangela|Sleep Powder|p2a: Fearow
+|-status|p2a: Fearow|slp
+|
+|turn|3
+|choice|move 2|move 3
+|
+|cant|p2a: Fearow|slp
+|move|p1a: Tangela|Mega Drain|p2a: Fearow
+|-resisted|p2a: Fearow
+|-damage|p2a: Fearow|276\/300 slp
+|-heal|p1a: Tangela|243\/284 par|[from] drain|[of] p2a: Fearow
+|
+|turn|4
+|choice|switch 6|move 3
+|
+|switch|p1a: Farfetch'd|Farfetch'd, L99|304\/304
+|cant|p2a: Fearow|slp
+|
+|turn|5
+|choice|move 2|move 3
+|
+|cant|p2a: Fearow|slp
+|move|p1a: Farfetch'd|Substitute|p1a: Farfetch'd
+|-start|p1a: Farfetch'd|Substitute
+|-damage|p1a: Farfetch'd|228\/304
+|
+|turn|6
+|choice|move 1|move 3
+|
+|cant|p2a: Fearow|slp
+|move|p1a: Farfetch'd|Slash|p2a: Fearow
+|-crit|p2a: Fearow
+|-damage|p2a: Fearow|116\/300 slp
+|
+|turn|7
+|choice|move 1|move 3
+|
+|-curestatus|p2a: Fearow|slp
+|move|p1a: Farfetch'd|Slash|p2a: Fearow
+|-crit|p2a: Fearow
+|-damage|p2a: Fearow|0 fnt
+|faint|p2a: Fearow
+|choice||switch 3
+|
+|switch|p2a: Magneton|Magneton, L90|273\/273
+|turn|8
+|choice|move 1|move 1
+|
+|move|p1a: Farfetch'd|Slash|p2a: Magneton
+|-crit|p2a: Magneton
+|-damage|p2a: Magneton|137\/273
+|move|p2a: Magneton|Thunderbolt|p1a: Farfetch'd
+|-supereffective|p1a: Farfetch'd
+|-end|p1a: Farfetch'd|Substitute
+|
+|turn|9
+|choice|switch 6|move 1
+|
+|switch|p1a: Tangela|Tangela, L85|243\/284 par
+|move|p2a: Magneton|Thunderbolt|p1a: Tangela
+|-resisted|p1a: Tangela
+|-damage|p1a: Tangela|178\/284 par
+|
+|turn|10
+|choice|move 4|switch 6
+|
+|switch|p2a: Tangela|Tangela, L85|284\/284
+|move|p1a: Tangela|Sleep Powder|p2a: Tangela
+|-status|p2a: Tangela|slp
+|
+|turn|11
+|choice|move 2|switch 2
+|
+|switch|p2a: Venonat|Venonat, L96|310\/310
+|move|p1a: Tangela|Mega Drain|p2a: Venonat
+|-resisted|p2a: Venonat
+|-damage|p2a: Venonat|295\/310
+|-heal|p1a: Tangela|185\/284 par|[from] drain|[of] p2a: Venonat
+|
+|turn|12
+|choice|switch 4|move 1
+|
+|switch|p1a: Venomoth|Venomoth, L85|293\/293
+|move|p2a: Venonat|Toxic|p1a: Venomoth
+|
+|turn|13
+|choice|move 3|move 3
+|
+|move|p1a: Venomoth|Psychic|p2a: Venonat
+|-supereffective|p2a: Venonat
+|-damage|p2a: Venonat|133\/310
+|move|p2a: Venonat|Stun Spore|p1a: Venomoth|[miss]
+|-miss|p2a: Venonat
+|
+|turn|14
+|-message|Heatfan555 forfeited.
+|
+|win|XianJu
+|leave|Heatfan555
+|player|p2
+|raw|XianJu's rating: 1289 &rarr; <strong>1297<\/strong><br \/>(+8 for winning)
+|raw|Heatfan555's rating: 1000 &rarr; <strong>1000<\/strong><br \/>(+0 for losing)

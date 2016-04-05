@@ -1,0 +1,307 @@
+﻿|j|Judo
+|j|JPA55MOR3
+|player|p1|Judo|70
+|player|p2|JPA55MOR3|126
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|seed|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: DJ DOLMAN STR8 FIY|Moltres|100\/100
+|switch|p2a: Parasect|Parasect|100\/100
+|turn|1
+|c|★Judo|glhf
+|choice||
+|
+|switch|p2a: Gyarados|Gyarados|100\/100
+|move|p1a: DJ DOLMAN STR8 FIY|Fire Spin|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|98\/100
+|
+|turn|2
+|choice||
+|
+|move|p1a: DJ DOLMAN STR8 FIY|Fire Spin|p2a: Gyarados|[from]Fire Spin
+|-damage|p2a: Gyarados|95\/100
+|cant|p2a: Gyarados|partiallytrapped
+|
+|turn|3
+|choice||
+|
+|move|p1a: DJ DOLMAN STR8 FIY|Fire Spin|p2a: Gyarados|[from]Fire Spin
+|-damage|p2a: Gyarados|92\/100
+|cant|p2a: Gyarados|partiallytrapped
+|
+|turn|4
+|choice||
+|
+|switch|p1a: PET SHIVVERS ILY|Chansey|100\/100
+|move|p2a: Gyarados|Surf|p1a: PET SHIVVERS ILY
+|-damage|p1a: PET SHIVVERS ILY|84\/100
+|
+|turn|5
+|choice||
+|
+|switch|p2a: Parasect|Parasect|100\/100
+|move|p1a: PET SHIVVERS ILY|Reflect|p1a: PET SHIVVERS ILY
+|-start|p1a: PET SHIVVERS ILY|Reflect
+|
+|turn|6
+|choice||
+|
+|move|p1a: PET SHIVVERS ILY|Thunder Wave|p2a: Parasect
+|-status|p2a: Parasect|par
+|move|p2a: Parasect|Spore|p1a: PET SHIVVERS ILY
+|-status|p1a: PET SHIVVERS ILY|slp
+|
+|turn|7
+|choice||
+|
+|switch|p2a: Persian|Persian|100\/100
+|cant|p1a: PET SHIVVERS ILY|slp
+|
+|turn|8
+|choice||
+|
+|move|p2a: Persian|Slash|p1a: PET SHIVVERS ILY
+|-crit|p1a: PET SHIVVERS ILY
+|-damage|p1a: PET SHIVVERS ILY|35\/100 slp
+|cant|p1a: PET SHIVVERS ILY|slp
+|
+|turn|9
+|choice||
+|
+|switch|p1a: CANT TOUCH KHAAMO|Gengar|100\/100
+|move|p2a: Persian|Slash|p1a: CANT TOUCH KHAAMO
+|-immune|p1a: CANT TOUCH KHAAMO|[msg]
+|
+|turn|10
+|choice||
+|
+|switch|p2a: Parasect|Parasect|100\/100 par
+|move|p1a: CANT TOUCH KHAAMO|Hypnosis|p2a: Parasect
+|-fail|p2a: Parasect
+|
+|turn|11
+|choice||
+|
+|move|p1a: CANT TOUCH KHAAMO|Psychic|p2a: Parasect
+|-damage|p2a: Parasect|68\/100 par
+|move|p2a: Parasect|Stun Spore|p1a: CANT TOUCH KHAAMO
+|-status|p1a: CANT TOUCH KHAAMO|par
+|
+|turn|12
+|choice||
+|
+|move|p1a: CANT TOUCH KHAAMO|Psychic|p2a: Parasect
+|-damage|p2a: Parasect|39\/100 par
+|cant|p2a: Parasect|par
+|
+|turn|13
+|choice||
+|
+|move|p1a: CANT TOUCH KHAAMO|Psychic|p2a: Parasect
+|-damage|p2a: Parasect|10\/100 par
+|-unboost|p2a: Parasect|spd|1
+|-unboost|p2a: Parasect|spa|1
+|cant|p2a: Parasect|par
+|
+|turn|14
+|choice||
+|
+|cant|p1a: CANT TOUCH KHAAMO|par
+|cant|p2a: Parasect|par
+|
+|turn|15
+|choice||
+|
+|move|p1a: CANT TOUCH KHAAMO|Psychic|p2a: Parasect
+|-damage|p2a: Parasect|0 fnt
+|faint|p2a: Parasect
+|choice||
+|
+|switch|p2a: Nidoking|Nidoking|100\/100
+|turn|16
+|choice||
+|
+|switch|p1a: DJ DOLMAN STR8 FIY|Moltres|100\/100
+|move|p2a: Nidoking|Rock Slide|p1a: DJ DOLMAN STR8 FIY
+|-supereffective|p1a: DJ DOLMAN STR8 FIY
+|-damage|p1a: DJ DOLMAN STR8 FIY|43\/100
+|
+|turn|17
+|choice||
+|
+|move|p1a: DJ DOLMAN STR8 FIY|Fire Spin|p2a: Nidoking
+|-damage|p2a: Nidoking|94\/100
+|cant|p2a: Nidoking|partiallytrapped
+|
+|turn|18
+|choice||
+|
+|move|p1a: DJ DOLMAN STR8 FIY|Fire Spin|p2a: Nidoking|[from]Fire Spin
+|-damage|p2a: Nidoking|87\/100
+|cant|p2a: Nidoking|partiallytrapped
+|
+|turn|19
+|choice||
+|
+|move|p1a: DJ DOLMAN STR8 FIY|Fire Spin|p2a: Nidoking|[from]Fire Spin
+|-damage|p2a: Nidoking|81\/100
+|cant|p2a: Nidoking|partiallytrapped
+|
+|turn|20
+|choice||
+|
+|switch|p1a: LORD BOYT BAE|Golem|100\/100
+|move|p2a: Nidoking|Rock Slide|p1a: LORD BOYT BAE
+|-resisted|p1a: LORD BOYT BAE
+|-damage|p1a: LORD BOYT BAE|95\/100
+|
+|turn|21
+|choice||
+|
+|move|p2a: Nidoking|Earthquake|p1a: LORD BOYT BAE
+|-crit|p1a: LORD BOYT BAE
+|-supereffective|p1a: LORD BOYT BAE
+|-damage|p1a: LORD BOYT BAE|0 fnt
+|faint|p1a: LORD BOYT BAE
+|choice||
+|
+|switch|p1a: JANOMI4LYF|Jynx|100\/100
+|turn|22
+|choice||
+|
+|move|p1a: JANOMI4LYF|Reflect|p1a: JANOMI4LYF
+|-start|p1a: JANOMI4LYF|Reflect
+|move|p2a: Nidoking|Earthquake|p1a: JANOMI4LYF
+|-damage|p1a: JANOMI4LYF|69\/100
+|
+|turn|23
+|choice||
+|
+|move|p1a: JANOMI4LYF|Blizzard|p2a: Nidoking
+|-supereffective|p2a: Nidoking
+|-damage|p2a: Nidoking|0 fnt
+|faint|p2a: Nidoking
+|choice||
+|
+|switch|p2a: Gyarados|Gyarados|92\/100
+|turn|24
+|choice||
+|
+|move|p1a: JANOMI4LYF|Lovely Kiss|p2a: Gyarados
+|-status|p2a: Gyarados|slp
+|cant|p2a: Gyarados|slp
+|
+|turn|25
+|choice||
+|
+|move|p1a: JANOMI4LYF|Psychic|p2a: Gyarados
+|-damage|p2a: Gyarados|67\/100 slp
+|cant|p2a: Gyarados|slp
+|
+|turn|26
+|choice||
+|
+|move|p1a: JANOMI4LYF|Psychic|p2a: Gyarados
+|-damage|p2a: Gyarados|42\/100 slp
+|-unboost|p2a: Gyarados|spd|1
+|-unboost|p2a: Gyarados|spa|1
+|cant|p2a: Gyarados|slp
+|
+|turn|27
+|choice||
+|
+|move|p1a: JANOMI4LYF|Blizzard|p2a: Gyarados
+|-crit|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|choice||
+|
+|switch|p2a: Persian|Persian|100\/100
+|turn|28
+|choice||
+|
+|switch|p1a: CANT TOUCH KHAAMO|Gengar|100\/100 par
+|move|p2a: Persian|Hyper Beam|p1a: CANT TOUCH KHAAMO
+|-immune|p1a: CANT TOUCH KHAAMO|[msg]
+|
+|turn|29
+|choice||
+|
+|switch|p2a: Articuno|Articuno|100\/100
+|move|p1a: CANT TOUCH KHAAMO|Hypnosis|p2a: Articuno
+|-status|p2a: Articuno|slp
+|
+|turn|30
+|choice||
+|
+|cant|p2a: Articuno|slp
+|cant|p1a: CANT TOUCH KHAAMO|par
+|
+|turn|31
+|choice||
+|
+|cant|p2a: Articuno|slp
+|move|p1a: CANT TOUCH KHAAMO|Thunderbolt|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|63\/100 slp
+|
+|turn|32
+|choice||
+|
+|cant|p2a: Articuno|slp
+|move|p1a: CANT TOUCH KHAAMO|Thunderbolt|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|25\/100 slp
+|
+|turn|33
+|choice||
+|
+|cant|p2a: Articuno|slp
+|cant|p1a: CANT TOUCH KHAAMO|par
+|
+|turn|34
+|choice||
+|
+|cant|p2a: Articuno|slp
+|move|p1a: CANT TOUCH KHAAMO|Thunderbolt|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|faint|p2a: Articuno
+|choice||
+|
+|switch|p2a: Jolteon|Jolteon|100\/100
+|turn|35
+|choice||
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: CANT TOUCH KHAAMO
+|-damage|p1a: CANT TOUCH KHAAMO|67\/100 par
+|move|p1a: CANT TOUCH KHAAMO|Hypnosis|p2a: Jolteon
+|-status|p2a: Jolteon|slp
+|
+|turn|36
+|choice||
+|
+|cant|p2a: Jolteon|slp
+|move|p1a: CANT TOUCH KHAAMO|Psychic|p2a: Jolteon
+|-damage|p2a: Jolteon|75\/100 slp
+|
+|turn|37
+|-message|JPA55MOR3 forfeited.
+|
+|win|Judo
+|player|p1
+|player|p2
+|l|JPA55MOR3
+|raw|Judo's rating: 1000 &rarr; <strong>1043<\/strong><br \/>(+43 for winning)
+|raw|JPA55MOR3's rating: 1022 &rarr; <strong>1008<\/strong><br \/>(-14 for losing)

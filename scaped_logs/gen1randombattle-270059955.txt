@@ -1,0 +1,186 @@
+﻿|join|theFrequencyMan
+|join|PK Mastr
+|player|p1|theFrequencyMan|165
+|player|p2|PK Mastr|102
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Magneton|Magneton, L90|273\/273
+|switch|p2a: Charmander|Charmander, L96|270\/270
+|turn|1
+|
+|switch|p2a: Gloom|Gloom, L90|291\/291
+|switch|p1a: Rhydon|Rhydon, L79|328\/328
+|
+|turn|2
+|
+|switch|p1a: Mr. Mime|Mr. Mime, L85|242\/242
+|move|p2a: Gloom|Mega Drain|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|200\/242
+|
+|turn|3
+|
+|move|p1a: Mr. Mime|Thunder Wave|p2a: Gloom
+|-status|p2a: Gloom|par
+|cant|p2a: Gloom|par
+|
+|turn|4
+|
+|move|p1a: Mr. Mime|Psychic|p2a: Gloom
+|-supereffective|p2a: Gloom
+|-damage|p2a: Gloom|95\/291 par
+|cant|p2a: Gloom|par
+|
+|turn|5
+|
+|move|p1a: Mr. Mime|Psychic|p2a: Gloom
+|-supereffective|p2a: Gloom
+|-damage|p2a: Gloom|0 fnt
+|faint|p2a: Gloom
+|
+|switch|p2a: Weepinbell|Weepinbell, L85|284\/284
+|turn|6
+|
+|move|p1a: Mr. Mime|Psychic|p2a: Weepinbell
+|-crit|p2a: Weepinbell
+|-supereffective|p2a: Weepinbell
+|-damage|p2a: Weepinbell|0 fnt
+|faint|p2a: Weepinbell
+|
+|switch|p2a: Charmander|Charmander, L96|270\/270
+|turn|7
+|
+|move|p1a: Mr. Mime|Psychic|p2a: Charmander
+|-damage|p2a: Charmander|148\/270
+|move|p2a: Charmander|Fire Blast|p1a: Mr. Mime|[miss]
+|-miss|p2a: Charmander
+|
+|turn|8
+|
+|move|p1a: Mr. Mime|Psychic|p2a: Charmander
+|-damage|p2a: Charmander|25\/270
+|move|p2a: Charmander|Fire Blast|p1a: Mr. Mime|[miss]
+|-miss|p2a: Charmander
+|
+|turn|9
+|c|★PK Mastr|UN FUCKING BELIEVABLE
+|
+|move|p1a: Mr. Mime|Psychic|p2a: Charmander
+|-damage|p2a: Charmander|0 fnt
+|faint|p2a: Charmander
+|
+|switch|p2a: Ditto|Ditto, L99|296\/296
+|turn|10
+|c|★theFrequencyMan|hazxxx
+|
+|move|p1a: Mr. Mime|Thunder Wave|p2a: Ditto
+|-status|p2a: Ditto|par
+|move|p2a: Ditto|Transform|p1a: Mr. Mime
+|-transform|p2a: Ditto|p1a: Mr. Mime
+|
+|turn|11
+|c|★PK Mastr|up the assss
+|
+|move|p1a: Mr. Mime|Seismic Toss|p2a: Ditto
+|-damage|p2a: Ditto|211\/296 par
+|move|p2a: Ditto|Psychic|p1a: Mr. Mime
+|-resisted|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|164\/242
+|-unboost|p1a: Mr. Mime|spd|1
+|-unboost|p1a: Mr. Mime|spa|1
+|
+|turn|12
+|
+|move|p1a: Mr. Mime|Seismic Toss|p2a: Ditto
+|-damage|p2a: Ditto|126\/296 par
+|move|p2a: Ditto|Thunder Wave|p1a: Mr. Mime|[miss]
+|-miss|p2a: Ditto
+|
+|turn|13
+|c|★theFrequencyMan|lolwatt
+|c|★PK Mastr|i mean fucking LOOK AT THAT
+|
+|move|p1a: Mr. Mime|Seismic Toss|p2a: Ditto
+|-damage|p2a: Ditto|41\/296 par
+|move|p2a: Ditto|Thunder Wave|p1a: Mr. Mime
+|-status|p1a: Mr. Mime|par
+|
+|turn|14
+|
+|switch|p2a: Slowbro|Slowbro, L79|312\/312
+|move|p1a: Mr. Mime|Seismic Toss|p2a: Slowbro
+|-damage|p2a: Slowbro|227\/312
+|
+|turn|15
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|move|p1a: Mr. Mime|Thunderbolt|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|177\/312
+|-status|p2a: Slowbro|par
+|
+|turn|16
+|
+|switch|p1a: Magneton|Magneton, L90|273\/273
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|17
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|71\/312 par
+|cant|p2a: Slowbro|par
+|
+|turn|18
+|c|★PK Mastr|WHy
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|c|★PK Mastr|MAN FUCK THIS
+|
+|switch|p2a: Ditto|Ditto, L99|41\/296 par
+|turn|19
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|
+|switch|p2a: Lickitung|Lickitung, L90|345\/345
+|turn|20
+|c|★theFrequencyMan|im gonna get this perfect for no reason
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Lickitung
+|-crit|p2a: Lickitung
+|-damage|p2a: Lickitung|48\/345
+|move|p2a: Lickitung|Earthquake|p1a: Magneton
+|-supereffective|p1a: Magneton
+|-damage|p1a: Magneton|163\/273
+|
+|turn|21
+|c|★theFrequencyMan|lmaoooo
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Lickitung
+|-damage|p2a: Lickitung|0 fnt
+|faint|p2a: Lickitung
+|
+|win|theFrequencyMan
+|c|★PK Mastr|yep
+|c|★PK Mastr|your gay
+|raw|theFrequencyMan's rating: 1306 &rarr; <strong>1314<\/strong><br \/>(+8 for winning)
+|raw|PK Mastr's rating: 1053 &rarr; <strong>1046<\/strong><br \/>(-7 for losing)
+|c|★theFrequencyMan|gg
+|c|★PK Mastr|lol gg
+|leave|PK Mastr
+|player|p2

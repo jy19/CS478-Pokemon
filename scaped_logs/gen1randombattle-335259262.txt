@@ -1,0 +1,258 @@
+﻿|j|erik1erik
+|j|FinishHonorFace
+|player|p1|erik1erik|169
+|player|p2|FinishHonorFace|211
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Oddish|Oddish, L96|100\/100
+|switch|p2a: Onix|Onix, L90|100\/100
+|turn|1
+|choice||
+|
+|switch|p2a: Moltres|Moltres, L85|100\/100
+|move|p1a: Oddish|Sleep Powder|p2a: Moltres
+|-status|p2a: Moltres|slp
+|
+|turn|2
+|choice||
+|
+|switch|p2a: Gastly|Gastly, L96|100\/100
+|move|p1a: Oddish|Swords Dance|p1a: Oddish
+|-boost|p1a: Oddish|atk|2
+|
+|turn|3
+|choice||
+|
+|switch|p1a: Charmeleon|Charmeleon, L85|100\/100
+|move|p2a: Gastly|Psychic|p1a: Charmeleon
+|-damage|p1a: Charmeleon|64\/100
+|
+|turn|4
+|choice||
+|
+|move|p2a: Gastly|Hypnosis|p1a: Charmeleon
+|-status|p1a: Charmeleon|slp
+|cant|p1a: Charmeleon|slp
+|
+|turn|5
+|choice||
+|
+|switch|p1a: Porygon|Porygon, L85|100\/100
+|move|p2a: Gastly|Psychic|p1a: Porygon
+|-damage|p1a: Porygon|67\/100
+|-unboost|p1a: Porygon|spd|1
+|-unboost|p1a: Porygon|spa|1
+|
+|turn|6
+|choice||
+|
+|move|p2a: Gastly|Confuse Ray|p1a: Porygon
+|-start|p1a: Porygon|confusion
+|-activate|p1a: Porygon|confusion
+|-damage|p1a: Porygon|58\/100|[from] confusion
+|
+|turn|7
+|choice||
+|
+|switch|p1a: Electrode|Electrode, L90|100\/100
+|move|p2a: Gastly|Psychic|p1a: Electrode
+|-crit|p1a: Electrode
+|-damage|p1a: Electrode|47\/100
+|
+|turn|8
+|choice||
+|
+|switch|p2a: Magneton|Magneton, L90|100\/100
+|move|p1a: Electrode|Thunderbolt|p2a: Magneton
+|-crit|p2a: Magneton
+|-resisted|p2a: Magneton
+|-damage|p2a: Magneton|72\/100
+|
+|turn|9
+|choice||
+|
+|move|p1a: Electrode|Thunderbolt|p2a: Magneton
+|-resisted|p2a: Magneton
+|-damage|p2a: Magneton|57\/100
+|move|p2a: Magneton|Double-Edge|p1a: Electrode
+|-damage|p1a: Electrode|26\/100
+|-damage|p2a: Magneton|52\/100|[from] recoil|[of] p1a: Electrode
+|
+|turn|10
+|choice||
+|
+|move|p1a: Electrode|Thunderbolt|p2a: Magneton
+|-crit|p2a: Magneton
+|-resisted|p2a: Magneton
+|-damage|p2a: Magneton|24\/100
+|move|p2a: Magneton|Double-Edge|p1a: Electrode
+|-damage|p1a: Electrode|3\/100
+|-damage|p2a: Magneton|18\/100|[from] recoil|[of] p1a: Electrode
+|
+|turn|11
+|choice||
+|
+|move|p1a: Electrode|Explosion|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|faint|p2a: Magneton
+|faint|p1a: Electrode
+|choice||
+|
+|switch|p1a: Charizard|Charizard, L85|100\/100
+|switch|p2a: Gastly|Gastly, L96|100\/100
+|turn|12
+|choice||
+|
+|move|p1a: Charizard|Earthquake|p2a: Gastly
+|-crit|p2a: Gastly
+|-supereffective|p2a: Gastly
+|-damage|p2a: Gastly|0 fnt
+|faint|p2a: Gastly
+|choice||
+|
+|switch|p2a: Onix|Onix, L90|100\/100
+|turn|13
+|choice||
+|
+|switch|p1a: Wartortle|Wartortle, L85|100\/100
+|move|p2a: Onix|Toxic|p1a: Wartortle|[miss]
+|-miss|p2a: Onix
+|
+|turn|14
+|choice||
+|
+|switch|p2a: Pidgeotto|Pidgeotto, L90|100\/100
+|move|p1a: Wartortle|Hydro Pump|p2a: Pidgeotto
+|-damage|p2a: Pidgeotto|57\/100
+|
+|turn|15
+|choice||
+|
+|switch|p1a: Oddish|Oddish, L96|100\/100
+|move|p2a: Pidgeotto|Sky Attack|p1a: Oddish|[still]
+|-prepare|p2a: Pidgeotto|Sky Attack|p1a: Oddish
+|
+|turn|16
+|choice||
+|
+|move|p2a: Pidgeotto|Sky Attack|p1a: Oddish|[from]Sky Attack
+|-supereffective|p1a: Oddish
+|-damage|p1a: Oddish|0 fnt
+|faint|p1a: Oddish
+|choice||
+|
+|switch|p1a: Charizard|Charizard, L85|100\/100
+|turn|17
+|choice||
+|
+|move|p1a: Charizard|Swords Dance|p1a: Charizard
+|-boost|p1a: Charizard|atk|2
+|move|p2a: Pidgeotto|Double-Edge|p1a: Charizard
+|-damage|p1a: Charizard|67\/100
+|-damage|p2a: Pidgeotto|49\/100|[from] recoil|[of] p1a: Charizard
+|
+|turn|18
+|choice||
+|
+|move|p1a: Charizard|Body Slam|p2a: Pidgeotto
+|-crit|p2a: Pidgeotto
+|-damage|p2a: Pidgeotto|4\/100
+|move|p2a: Pidgeotto|Double-Edge|p1a: Charizard
+|-crit|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|-damage|p2a: Pidgeotto|0 fnt|[from] recoil|[of] p1a: Charizard
+|faint|p1a: Charizard
+|faint|p2a: Pidgeotto
+|choice||
+|
+|switch|p2a: Moltres|Moltres, L85|100\/100 slp
+|switch|p1a: Wartortle|Wartortle, L85|100\/100
+|turn|19
+|choice||
+|
+|-curestatus|p2a: Moltres|slp
+|move|p1a: Wartortle|Hydro Pump|p2a: Moltres
+|-crit|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|4\/100
+|
+|turn|20
+|choice||
+|
+|move|p2a: Moltres|Hyper Beam|p1a: Wartortle
+|-crit|p1a: Wartortle
+|-damage|p1a: Wartortle|21\/100
+|move|p1a: Wartortle|Body Slam|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|choice||
+|
+|switch|p2a: Jolteon|Jolteon, L79|100\/100
+|turn|21
+|choice||
+|
+|switch|p1a: Charmeleon|Charmeleon, L85|64\/100 slp
+|move|p2a: Jolteon|Thunderbolt|p1a: Charmeleon
+|-damage|p1a: Charmeleon|21\/100 slp
+|
+|turn|22
+|choice||
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Charmeleon
+|-damage|p1a: Charmeleon|0 fnt
+|faint|p1a: Charmeleon
+|choice||
+|
+|switch|p1a: Porygon|Porygon, L85|58\/100
+|turn|23
+|choice||
+|
+|switch|p2a: Onix|Onix, L90|100\/100
+|move|p1a: Porygon|Agility|p1a: Porygon
+|-boost|p1a: Porygon|spe|2
+|
+|turn|24
+|choice||
+|
+|move|p1a: Porygon|Blizzard|p2a: Onix
+|-supereffective|p2a: Onix
+|-damage|p2a: Onix|5\/100
+|move|p2a: Onix|Earthquake|p1a: Porygon
+|-damage|p1a: Porygon|25\/100
+|
+|turn|25
+|choice||
+|
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|75\/100
+|move|p2a: Onix|Explosion|p1a: Porygon
+|-damage|p1a: Porygon|0 fnt
+|faint|p1a: Porygon
+|faint|p2a: Onix
+|choice||
+|
+|switch|p2a: Jolteon|Jolteon, L79|100\/100
+|switch|p1a: Wartortle|Wartortle, L85|21\/100
+|turn|26
+|choice||
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Wartortle
+|-supereffective|p1a: Wartortle
+|-damage|p1a: Wartortle|0 fnt
+|faint|p1a: Wartortle
+|
+|win|FinishHonorFace
+|player|p1
+|player|p2
+|raw|erik1erik's rating: 1463 &rarr; <strong>1432<\/strong><br \/>(-31 for losing)
+|raw|FinishHonorFace's rating: 1253 &rarr; <strong>1292<\/strong><br \/>(+39 for winning)
+|c|★FinishHonorFace|Gg man
+|l|erik1erik

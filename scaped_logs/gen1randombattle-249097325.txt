@@ -1,0 +1,224 @@
+﻿|join|prototokos
+|join|andrewandres
+|player|p1|prototokos|265
+|player|p2|andrewandres|1
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Venonat|Venonat, L96|310\/310
+|switch|p2a: Charmander|Charmander, L96|270\/270
+|turn|1
+|
+|switch|p1a: Golduck|Golduck, L85|310\/310
+|move|p2a: Charmander|Fire Blast|p1a: Golduck|[miss]
+|-miss|p2a: Charmander
+|
+|turn|2
+|
+|switch|p2a: Weepinbell|Weepinbell, L85|284\/284
+|move|p1a: Golduck|Surf|p2a: Weepinbell
+|-resisted|p2a: Weepinbell
+|-damage|p2a: Weepinbell|237\/284
+|
+|turn|3
+|
+|switch|p1a: Machoke|Machoke, L85|310\/310
+|move|p2a: Weepinbell|Razor Leaf|p1a: Machoke
+|-crit|p1a: Machoke
+|-damage|p1a: Machoke|166\/310
+|
+|turn|4
+|
+|move|p2a: Weepinbell|Razor Leaf|p1a: Machoke
+|-crit|p1a: Machoke
+|-damage|p1a: Machoke|13\/310
+|move|p1a: Machoke|Body Slam|p2a: Weepinbell
+|-damage|p2a: Weepinbell|152\/284
+|
+|turn|5
+|
+|move|p2a: Weepinbell|Body Slam|p1a: Machoke
+|-damage|p1a: Machoke|0 fnt
+|faint|p1a: Machoke
+|
+|switch|p1a: Venonat|Venonat, L96|310\/310
+|turn|6
+|
+|switch|p2a: Charmander|Charmander, L96|270\/270
+|move|p1a: Venonat|Psychic|p2a: Charmander
+|-damage|p2a: Charmander|214\/270
+|-unboost|p2a: Charmander|spd|1
+|-unboost|p2a: Charmander|spa|1
+|
+|turn|7
+|
+|move|p2a: Charmander|Slash|p1a: Venonat
+|-crit|p1a: Venonat
+|-damage|p1a: Venonat|207\/310
+|move|p1a: Venonat|Sleep Powder|p2a: Charmander
+|-status|p2a: Charmander|slp
+|
+|turn|8
+|
+|switch|p2a: Aerodactyl|Aerodactyl, L90|327\/327
+|switch|p1a: Kangaskhan|Kangaskhan, L85|352\/352
+|
+|turn|9
+|
+|move|p2a: Aerodactyl|Double-Edge|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|257\/352
+|-damage|p2a: Aerodactyl|304\/327|[from] recoil|[of] p1a: Kangaskhan
+|move|p1a: Kangaskhan|Counter|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|114\/327
+|
+|turn|10
+|
+|move|p2a: Aerodactyl|Hyper Beam|p1a: Kangaskhan
+|-crit|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|0 fnt
+|faint|p1a: Kangaskhan
+|
+|switch|p1a: Marowak|Marowak, L90|291\/291
+|turn|11
+|
+|move|p2a: Aerodactyl|Hyper Beam|p1a: Marowak
+|-damage|p1a: Marowak|181\/291
+|move|p1a: Marowak|Blizzard|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|faint|p2a: Aerodactyl
+|
+|switch|p2a: Weepinbell|Weepinbell, L85|152\/284
+|turn|12
+|
+|switch|p1a: Haunter|Haunter, L85|250\/250
+|move|p2a: Weepinbell|Razor Leaf|p1a: Haunter
+|-crit|p1a: Haunter
+|-resisted|p1a: Haunter
+|-damage|p1a: Haunter|206\/250
+|
+|turn|13
+|
+|move|p1a: Haunter|Psychic|p2a: Weepinbell
+|-supereffective|p2a: Weepinbell
+|-damage|p2a: Weepinbell|0 fnt
+|faint|p2a: Weepinbell
+|
+|switch|p2a: Nidoking|Nidoking, L85|311\/311
+|turn|14
+|
+|switch|p1a: Venonat|Venonat, L96|207\/310
+|move|p2a: Nidoking|Earthquake|p1a: Venonat
+|-damage|p1a: Venonat|69\/310
+|
+|turn|15
+|
+|switch|p2a: Charmander|Charmander, L96|214\/270 slp
+|move|p1a: Venonat|Psychic|p2a: Charmander
+|-damage|p2a: Charmander|157\/270 slp
+|
+|turn|16
+|
+|cant|p2a: Charmander|slp
+|move|p1a: Venonat|Psychic|p2a: Charmander
+|-damage|p2a: Charmander|99\/270 slp
+|
+|turn|17
+|
+|-curestatus|p2a: Charmander|slp
+|move|p1a: Venonat|Psychic|p2a: Charmander
+|-damage|p2a: Charmander|35\/270
+|
+|turn|18
+|
+|move|p2a: Charmander|Fire Blast|p1a: Venonat|[miss]
+|-miss|p2a: Charmander
+|move|p1a: Venonat|Psychic|p2a: Charmander
+|-damage|p2a: Charmander|0 fnt
+|faint|p2a: Charmander
+|
+|switch|p2a: Tauros|Tauros, L79|280\/280
+|turn|19
+|
+|move|p2a: Tauros|Body Slam|p1a: Venonat
+|-damage|p1a: Venonat|0 fnt
+|faint|p1a: Venonat
+|
+|switch|p1a: Haunter|Haunter, L85|206\/250
+|turn|20
+|
+|move|p2a: Tauros|Earthquake|p1a: Haunter
+|-crit|p1a: Haunter
+|-supereffective|p1a: Haunter
+|-damage|p1a: Haunter|0 fnt
+|faint|p1a: Haunter
+|
+|switch|p1a: Marowak|Marowak, L90|181\/291
+|turn|21
+|
+|move|p2a: Tauros|Blizzard|p1a: Marowak|[miss]
+|-miss|p2a: Tauros
+|move|p1a: Marowak|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|217\/280
+|
+|turn|22
+|
+|move|p2a: Tauros|Body Slam|p1a: Marowak
+|-damage|p1a: Marowak|111\/291
+|move|p1a: Marowak|Earthquake|p2a: Tauros
+|-damage|p2a: Tauros|107\/280
+|
+|turn|23
+|
+|move|p2a: Tauros|Blizzard|p1a: Marowak
+|-supereffective|p1a: Marowak
+|-damage|p1a: Marowak|0 fnt
+|faint|p1a: Marowak
+|
+|switch|p1a: Golduck|Golduck, L85|310\/310
+|turn|24
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Golduck
+|-damage|p1a: Golduck|159\/310
+|move|p1a: Golduck|Amnesia|p1a: Golduck
+|-boost|p1a: Golduck|spd|2
+|-boost|p1a: Golduck|spa|2
+|
+|turn|25
+|-mustrecharge|p2a: Tauros
+|-mustrecharge|p2a: Tauros
+|
+|cant|p2a: Tauros|recharge
+|move|p1a: Golduck|Surf|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|switch|p2a: Vaporeon|Vaporeon, L85|395\/395
+|turn|26
+|
+|move|p1a: Golduck|Amnesia|p1a: Golduck
+|-boost|p1a: Golduck|spd|2
+|-boost|p1a: Golduck|spa|2
+|move|p2a: Vaporeon|Body Slam|p1a: Golduck
+|-crit|p1a: Golduck
+|-damage|p1a: Golduck|57\/310
+|-status|p1a: Golduck|par
+|
+|turn|27
+|
+|move|p2a: Vaporeon|Body Slam|p1a: Golduck
+|-crit|p1a: Golduck
+|-damage|p1a: Golduck|0 fnt
+|faint|p1a: Golduck
+|
+|win|andrewandres
+|raw|Ladder updating...
+|raw|prototokos's rating: 1388 &rarr; <strong>1371<\/strong><br \/>(-17 for losing)
+|raw|andrewandres's rating: 1439 &rarr; <strong>1456<\/strong><br \/>(+17 for winning)
+|c|★prototokos|gg

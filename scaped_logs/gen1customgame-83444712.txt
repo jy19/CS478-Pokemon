@@ -1,0 +1,367 @@
+﻿|join|Kel9901
+|join|YoUrPrIdEiSmInE
+|player|p1|Kel9901|2
+|player|p2|YoUrPrIdEiSmInE|293
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Custom Game
+|
+|start
+|switch|p1a: Gengar|Gengar|323\/323
+|switch|p2a: Charizard|Charizard|359\/359
+|turn|1
+|callback|decision
+|join|Wailmerfan01x
+|
+|move|p1a: Gengar|Hypnosis|p2a: Charizard
+|debug|randBW(256) = 29
+|-status|p2a: Charizard|slp
+|debug|randBW(1,7) = 1
+|cant|p2a: Charizard|slp
+|debug|p2: Charizard move interrupted; movedThisTurn: undefined
+|-curestatus|p2a: Charizard|slp
+|
+|turn|2
+|callback|decision
+|
+|move|p1a: Gengar|Hypnosis|p2a: Charizard
+|debug|randBW(256) = 119
+|-status|p2a: Charizard|slp
+|debug|randBW(1,7) = 2
+|cant|p2a: Charizard|slp
+|debug|p2: Charizard move interrupted; movedThisTurn: undefined
+|
+|turn|3
+|callback|decision
+|
+|move|p1a: Gengar|Thunderbolt|p2a: Charizard
+|debug|randBW(256) = 42
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|146\/359 slp
+|debug|randBW(256) = 140
+|cant|p2a: Charizard|slp
+|debug|p2: Charizard move interrupted; movedThisTurn: undefined
+|-curestatus|p2a: Charizard|slp
+|
+|turn|4
+|callback|decision
+|
+|move|p1a: Gengar|Thunderbolt|p2a: Charizard
+|debug|randBW(256) = 94
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|-crit|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|debug|randBW(256) = 181
+|faint|p2a: Charizard
+|
+|callback|decision
+|
+|switch|p2a: Alakazam|Alakazam|313\/313
+|turn|5
+|callback|decision
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Alakazam|Psychic|p1a: Exeggutor
+|debug|randBW(256) = 28
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|-crit|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|283\/393
+|debug|randBW(256) = 64
+|-unboost|p1a: Exeggutor|spd|1
+|-unboost|p1a: Exeggutor|spa|1
+|
+|turn|6
+|callback|decision
+|
+|switch|p2a: Dragonite|Dragonite|385\/385
+|move|p1a: Exeggutor|Sleep Powder|p2a: Dragonite|[miss]
+|debug|randBW(256) = 247
+|-miss|p1a: Exeggutor
+|
+|turn|7
+|callback|decision
+|
+|move|p2a: Dragonite|Fly|p1a: Exeggutor|[still]
+|-prepare|p2a: Dragonite|Fly|p1a: Exeggutor
+|move|p1a: Exeggutor|Sleep Powder|p2a: Dragonite|[miss]
+|-message|The foe Dragonite can't be hit while flying!
+|debug|randBW(256) = 63
+|-miss|p1a: Exeggutor
+|
+|turn|8
+|callback|decision
+|
+|switch|p1a: Gengar|Gengar|323\/323
+|move|p2a: Dragonite|Fly|p1a: Gengar|[miss]
+|debug|randBW(256) = 244
+|-miss|p2a: Dragonite
+|
+|turn|9
+|callback|decision
+|
+|move|p1a: Gengar|Hypnosis|p2a: Dragonite
+|debug|randBW(256) = 33
+|-status|p2a: Dragonite|slp
+|debug|randBW(1,7) = 6
+|cant|p2a: Dragonite|slp
+|debug|p2: Dragonite move interrupted; movedThisTurn: undefined
+|
+|turn|10
+|callback|decision
+|
+|switch|p2a: Blastoise|Blastoise|361\/361
+|move|p1a: Gengar|Thunderbolt|p2a: Blastoise
+|debug|randBW(256) = 3
+|-supereffective|p2a: Blastoise
+|-damage|p2a: Blastoise|152\/361
+|debug|randBW(256) = 76
+|
+|turn|11
+|callback|decision
+|
+|move|p1a: Gengar|Thunderbolt|p2a: Blastoise
+|debug|randBW(256) = 178
+|-supereffective|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|debug|randBW(256) = 103
+|faint|p2a: Blastoise
+|
+|callback|decision
+|
+|switch|p2a: Alakazam|Alakazam|313\/313
+|turn|12
+|callback|decision
+|join|CaterpieFlow
+|chat|YoUrPrIdEiSmInE|YOU ARE SO TALENTED!
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|debug|randBW(256) = 229
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|463\/703
+|debug|randBW(256) = 228
+|
+|turn|13
+|callback|decision
+|chat|Kel9901|thanks
+|
+|move|p1a: Chansey|Ice Beam|p2a: Alakazam
+|debug|randBW(256) = 64
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|-crit|p2a: Alakazam
+|-damage|p2a: Alakazam|177\/313
+|debug|randBW(256) = 219
+|move|p2a: Alakazam|Counter|p1a: Chansey
+|debug|randBW(256) = 193
+|-fail|p2a: Alakazam
+|
+|turn|14
+|callback|decision
+|
+|move|p2a: Alakazam|Body Slam|p1a: Chansey
+|debug|randBW(256) = 234
+|-damage|p1a: Chansey|331\/703
+|debug|randBW(256) = 131
+|move|p1a: Chansey|Ice Beam|p2a: Alakazam
+|debug|randBW(256) = 159
+|-damage|p2a: Alakazam|114\/313
+|debug|randBW(256) = 157
+|
+|turn|15
+|callback|decision
+|
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|debug|randBW(256) = 51
+|-damage|p1a: Chansey|213\/703
+|debug|randBW(256) = 14
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|move|p1a: Chansey|Ice Beam|p2a: Alakazam
+|debug|randBW(256) = 128
+|-damage|p2a: Alakazam|75\/313
+|debug|randBW(256) = 204
+|
+|turn|16
+|callback|decision
+|chat|Wailmerfan01x|Body slam on a Alakazam? That is very new.
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|564\/703
+|move|p2a: Alakazam|Counter|p1a: Chansey
+|debug|randBW(256) = 23
+|-fail|p2a: Alakazam
+|
+|turn|17
+|callback|decision
+|chat|Kel9901|it's not good
+|
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|debug|randBW(256) = 23
+|-damage|p1a: Chansey|370\/703
+|debug|randBW(256) = 4
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|move|p1a: Chansey|Ice Beam|p2a: Alakazam
+|debug|randBW(256) = 46
+|-damage|p2a: Alakazam|41\/313
+|debug|randBW(256) = 14
+|-status|p2a: Alakazam|frz
+|
+|turn|18
+|callback|decision
+|
+|cant|p2a: Alakazam|frz
+|debug|p2: Alakazam move interrupted; movedThisTurn: undefined
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703
+|
+|turn|19
+|callback|decision
+|chat|Wailmerfan01x|Not the freeze hax
+|
+|switch|p1a: Gengar|Gengar|323\/323
+|cant|p2a: Alakazam|frz
+|debug|p2: Alakazam move interrupted; movedThisTurn: undefined
+|
+|turn|20
+|callback|decision
+|
+|cant|p2a: Alakazam|frz
+|debug|p2: Alakazam move interrupted; movedThisTurn: undefined
+|move|p1a: Gengar|Thunderbolt|p2a: Alakazam
+|debug|randBW(256) = 170
+|-damage|p2a: Alakazam|0 fnt
+|debug|randBW(256) = 231
+|faint|p2a: Alakazam
+|
+|callback|decision
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|21
+|callback|decision
+|chat|YoUrPrIdEiSmInE|Oh.............
+|
+|move|p2a: Gengar|Night Shade|p1a: Gengar
+|debug|randBW(256) = 191
+|-damage|p1a: Gengar|223\/323
+|move|p1a: Gengar|Night Shade|p2a: Gengar
+|debug|randBW(256) = 234
+|-damage|p2a: Gengar|223\/323
+|
+|turn|22
+|callback|decision
+|
+|move|p1a: Gengar|Thunderbolt|p2a: Gengar
+|debug|randBW(256) = 92
+|-damage|p2a: Gengar|149\/323
+|debug|randBW(256) = 154
+|move|p2a: Gengar|Body Slam|p1a: Gengar
+|debug|randBW(256) = 93
+|debug|natural immunity
+|-immune|p1a: Gengar|[msg]
+|
+|turn|23
+|callback|decision
+|chat|YoUrPrIdEiSmInE|How about a random battle next?
+|
+|move|p1a: Gengar|Night Shade|p2a: Gengar
+|debug|randBW(256) = 135
+|-damage|p2a: Gengar|49\/323
+|move|p2a: Gengar|Night Shade|p1a: Gengar
+|debug|randBW(256) = 136
+|-damage|p1a: Gengar|123\/323
+|
+|turn|24
+|callback|decision
+|chat|Kel9901|ok
+|
+|move|p2a: Gengar|Night Shade|p1a: Gengar
+|debug|randBW(256) = 122
+|-damage|p1a: Gengar|23\/323
+|move|p1a: Gengar|Thunderbolt|p2a: Gengar
+|debug|randBW(256) = 48
+|-damage|p2a: Gengar|0 fnt
+|debug|randBW(256) = 78
+|faint|p2a: Gengar
+|
+|callback|decision
+|
+|switch|p2a: Dragonite|Dragonite|385\/385 slp
+|turn|25
+|callback|decision
+|
+|move|p1a: Gengar|Thunderbolt|p2a: Dragonite
+|debug|randBW(256) = 193
+|-damage|p2a: Dragonite|292\/385 slp
+|debug|randBW(256) = 191
+|cant|p2a: Dragonite|slp
+|debug|p2: Dragonite move interrupted; movedThisTurn: undefined
+|
+|turn|26
+|callback|decision
+|leave|CaterpieFlow
+|
+|move|p1a: Gengar|Thunderbolt|p2a: Dragonite
+|debug|randBW(256) = 211
+|-damage|p2a: Dragonite|203\/385 slp
+|debug|randBW(256) = 37
+|cant|p2a: Dragonite|slp
+|debug|p2: Dragonite move interrupted; movedThisTurn: undefined
+|
+|turn|27
+|callback|decision
+|
+|move|p1a: Gengar|Night Shade|p2a: Dragonite
+|debug|randBW(256) = 187
+|-damage|p2a: Dragonite|103\/385 slp
+|cant|p2a: Dragonite|slp
+|debug|p2: Dragonite move interrupted; movedThisTurn: undefined
+|
+|turn|28
+|callback|decision
+|
+|move|p1a: Gengar|Thunderbolt|p2a: Dragonite
+|debug|randBW(256) = 71
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|-crit|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|debug|randBW(256) = 80
+|faint|p2a: Dragonite
+|
+|callback|decision
+|
+|switch|p2a: Pikachu|Pikachu|273\/273
+|turn|29
+|callback|decision
+|chat|YoUrPrIdEiSmInE|I'm gonna lose.
+|
+|switch|p1a: Golem|Golem|363\/363
+|move|p2a: Pikachu|Thunderbolt|p1a: Golem
+|debug|randBW(256) = 69
+|debug|natural immunity
+|-immune|p1a: Golem|[msg]
+|
+|turn|30
+|callback|decision
+|chat|Kel9901|gg
+|chat|YoUrPrIdEiSmInE|oh yeah....
+|
+|move|p1a: Golem|Earthquake|p2a: Pikachu
+|debug|randBW(256) = 188
+|-supereffective|p2a: Pikachu
+|-damage|p2a: Pikachu|0 fnt
+|faint|p2a: Pikachu
+|
+|win|Kel9901
+|chat|YoUrPrIdEiSmInE|BOOM! You Win!
+|leave|YoUrPrIdEiSmInE
+|player|p2
+|leave|Wailmerfan01x

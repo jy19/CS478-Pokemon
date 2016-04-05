@@ -1,0 +1,707 @@
+﻿|J|DreMZ
+|J|Anna says hi
+|player|p1|DreMZ|158
+|player|p2|Anna says hi|183
+|gametype|singles
+|gen|1
+|tier|Violet Version
+|seed|21110,51472,56207,43202
+|clearpoke
+|poke|p1|Dugtrio
+|poke|p1|Magneton
+|poke|p1|Parasect
+|poke|p1|Aerodactyl
+|poke|p1|Starmie
+|poke|p1|Charizard
+|poke|p2|Chansey
+|poke|p2|Nidoqueen
+|poke|p2|Magneton
+|poke|p2|Starmie
+|poke|p2|Slowbro
+|poke|p2|Tangela
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|choice|team 3|team 1
+|
+|start
+|switch|p1a: Parasect|Parasect|383\/383
+|switch|p2a: Chansey|Chansey|703\/703
+|turn|1
+|choice|move 1|move 4
+|
+|move|p2a: Chansey|Sing|p1a: Parasect|[miss]
+|-miss|p2a: Chansey
+|move|p1a: Parasect|Spore|p2a: Chansey
+|-status|p2a: Chansey|slp
+|
+|turn|2
+|choice|move 2|switch 2
+|
+|switch|p2a: Nidoqueen|Nidoqueen|383\/383
+|move|p1a: Parasect|Vice Grip|p2a: Nidoqueen
+|-crit|p2a: Nidoqueen
+|-resisted|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|311\/383
+|
+|turn|3
+|choice|switch 4|move 4
+|
+|switch|p1a: Aerodactyl|Aerodactyl|363\/363
+|move|p2a: Nidoqueen|Poison Sting|p1a: Aerodactyl
+|-resisted|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|298\/363
+|
+|turn|4
+|choice|move 2|move 3
+|
+|move|p1a: Aerodactyl|Rock Slide|p2a: Nidoqueen
+|-resisted|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|255\/383
+|move|p2a: Nidoqueen|Ice Beam|p1a: Aerodactyl
+|-crit|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|0 fnt
+|faint|p1a: Aerodactyl
+|choice|switch 5|
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|turn|5
+|choice|move 2|switch 3
+|
+|switch|p2a: Magneton|Magneton|443\/443
+|move|p1a: Starmie|Blizzard|p2a: Magneton
+|-damage|p2a: Magneton|357\/443
+|
+|turn|6
+|choice|switch 3|move 4
+|
+|switch|p1a: Dugtrio|Dugtrio|273\/273
+|move|p2a: Magneton|Mimic|p1a: Dugtrio
+|-start|p2a: Magneton|Mimic|Slash
+|
+|turn|7
+|choice|move 1|switch 6
+|
+|switch|p2a: Tangela|Tangela|373\/373
+|move|p1a: Dugtrio|Earthquake|p2a: Tangela
+|-resisted|p2a: Tangela
+|-damage|p2a: Tangela|314\/373
+|
+|turn|8
+|choice|switch 4|move 2
+|
+|switch|p1a: Parasect|Parasect|383\/383
+|move|p2a: Tangela|Stun Spore|p1a: Parasect
+|-status|p1a: Parasect|par
+|
+|turn|9
+|choice|move 3|switch 3
+|
+|switch|p2a: Nidoqueen|Nidoqueen|255\/383
+|move|p1a: Parasect|Mega Drain|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|205\/383
+|
+|turn|10
+|choice|switch 3|move 1
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|move|p2a: Nidoqueen|Soft-Boiled|p2a: Nidoqueen
+|-heal|p2a: Nidoqueen|383\/383
+|
+|turn|11
+|choice|move 2|switch 6
+|
+|switch|p2a: Magneton|Magneton|357\/443
+|move|p1a: Starmie|Blizzard|p2a: Magneton
+|-damage|p2a: Magneton|278\/443
+|
+|turn|12
+|choice|switch 4|move 1
+|
+|switch|p1a: Dugtrio|Dugtrio|273\/273
+|move|p2a: Magneton|Thunderbolt|p1a: Dugtrio
+|-immune|p1a: Dugtrio|[msg]
+|
+|turn|13
+|choice|move 2|switch 3
+|
+|switch|p2a: Tangela|Tangela|314\/373
+|move|p1a: Dugtrio|Slash|p2a: Tangela
+|-crit|p2a: Tangela
+|-damage|p2a: Tangela|207\/373
+|
+|turn|14
+|choice|switch 6|move 3
+|
+|switch|p1a: Charizard|Charizard|359\/359
+|move|p2a: Tangela|Rest|p2a: Tangela
+|-status|p2a: Tangela|slp
+|-heal|p2a: Tangela|373\/373 slp|[silent]
+|-status|p2a: Tangela|slp|[from] move: Rest
+|
+|turn|15
+|choice|move 2|switch 3
+|
+|switch|p2a: Magneton|Magneton|278\/443
+|move|p1a: Charizard|Fire Spin|p2a: Magneton|[miss]
+|-miss|p1a: Charizard
+|
+|turn|16
+|c|★Anna says hi|pls no eq
+|choice|move 3|switch 5
+|
+|switch|p2a: Slowbro|Slowbro|393\/393
+|move|p1a: Charizard|Earthquake|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-damage|p2a: Slowbro|264\/393
+|
+|turn|17
+|choice|switch 3|move 3
+|
+|switch|p1a: Parasect|Parasect|383\/383 par
+|move|p2a: Slowbro|Thunder Wave|p1a: Parasect
+|-fail|p1a: Parasect|par
+|
+|turn|18
+|choice|switch 6|switch 6
+|
+|switch|p2a: Nidoqueen|Nidoqueen|383\/383
+|switch|p1a: Dugtrio|Dugtrio|273\/273
+|
+|turn|19
+|choice|move 1|switch 3
+|
+|switch|p2a: Tangela|Tangela|373\/373 slp
+|move|p1a: Dugtrio|Earthquake|p2a: Tangela
+|-resisted|p2a: Tangela
+|-damage|p2a: Tangela|322\/373 slp
+|
+|turn|20
+|choice|switch 3|move 2
+|
+|switch|p1a: Charizard|Charizard|359\/359
+|cant|p2a: Tangela|slp
+|
+|turn|21
+|choice|move 2|switch 4
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|move|p1a: Charizard|Fire Spin|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|306\/323
+|-activate|p2a: Starmie|move: Fire Spin|[of] p1a: Charizard
+|
+|turn|22
+|choice|move 2|move 3
+|
+|cant|p2a: Starmie|partiallytrapped
+|move|p1a: Charizard|Fire Spin|p2a: Starmie
+|-damage|p2a: Starmie|289\/323
+|
+|-end|p2a: Starmie|Fire Spin|[partiallytrapped]
+|turn|23
+|choice|switch 6|move 2
+|
+|switch|p1a: Parasect|Parasect|383\/383 par
+|move|p2a: Starmie|Ice Beam|p1a: Parasect
+|-crit|p1a: Parasect
+|-supereffective|p1a: Parasect
+|-damage|p1a: Parasect|29\/383 par
+|
+|turn|24
+|choice|move 3|move 2
+|
+|move|p2a: Starmie|Ice Beam|p1a: Parasect
+|-supereffective|p1a: Parasect
+|-damage|p1a: Parasect|0 fnt
+|faint|p1a: Parasect
+|choice|switch 4|
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|turn|25
+|choice|switch 3|switch 5
+|
+|switch|p1a: Dugtrio|Dugtrio|273\/273
+|switch|p2a: Magneton|Magneton|278\/443
+|
+|turn|26
+|choice|move 1|switch 4
+|
+|switch|p2a: Tangela|Tangela|322\/373 slp
+|move|p1a: Dugtrio|Earthquake|p2a: Tangela
+|-resisted|p2a: Tangela
+|-damage|p2a: Tangela|268\/373 slp
+|
+|turn|27
+|choice|move 2|move 2
+|
+|move|p1a: Dugtrio|Slash|p2a: Tangela
+|-crit|p2a: Tangela
+|-damage|p2a: Tangela|167\/373 slp
+|-curestatus|p2a: Tangela|slp
+|
+|turn|28
+|choice|switch 6|move 3
+|
+|switch|p1a: Charizard|Charizard|359\/359
+|move|p2a: Tangela|Rest|p2a: Tangela
+|-status|p2a: Tangela|slp
+|-heal|p2a: Tangela|373\/373 slp|[silent]
+|-status|p2a: Tangela|slp|[from] move: Rest
+|
+|turn|29
+|choice|move 1|switch 5
+|
+|switch|p2a: Starmie|Starmie|289\/323
+|move|p1a: Charizard|Thrash|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|94\/323
+|
+|turn|30
+|choice|move 1|move 1
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Charizard
+|-resisted|p1a: Charizard
+|-damage|p1a: Charizard|319\/359
+|move|p1a: Charizard|Thrash|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|-start|p1a: Charizard|confusion|[silent]
+|faint|p2a: Starmie
+|c|★Anna says hi|shit i forgot zard was dargon now
+|choice||switch 3
+|
+|switch|p2a: Nidoqueen|Nidoqueen|383\/383
+|turn|31
+|choice|switch 3|move 2
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|move|p2a: Nidoqueen|Earthquake|p1a: Starmie
+|-damage|p1a: Starmie|199\/323
+|
+|turn|32
+|choice|move 2|switch 4
+|
+|switch|p2a: Magneton|Magneton|278\/443
+|move|p1a: Starmie|Blizzard|p2a: Magneton
+|-crit|p2a: Magneton
+|-damage|p2a: Magneton|119\/443
+|
+|turn|33
+|choice|switch 2|move 3
+|
+|switch|p1a: Magneton|Magneton|443\/443
+|move|p2a: Magneton|Rest|p2a: Magneton
+|-status|p2a: Magneton|slp
+|-heal|p2a: Magneton|443\/443 slp|[silent]
+|-status|p2a: Magneton|slp|[from] move: Rest
+|
+|turn|34
+|choice|switch 6|move 2
+|
+|switch|p1a: Dugtrio|Dugtrio|273\/273
+|cant|p2a: Magneton|slp
+|
+|turn|35
+|choice|move 2|switch 5
+|
+|switch|p2a: Tangela|Tangela|373\/373 slp
+|move|p1a: Dugtrio|Slash|p2a: Tangela
+|-crit|p2a: Tangela
+|-damage|p2a: Tangela|276\/373 slp
+|
+|turn|36
+|choice|move 2|move 2
+|
+|move|p1a: Dugtrio|Slash|p2a: Tangela
+|-crit|p2a: Tangela
+|-damage|p2a: Tangela|179\/373 slp
+|cant|p2a: Tangela|slp
+|
+|turn|37
+|choice|move 1|move 2
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Tangela
+|-resisted|p2a: Tangela
+|-damage|p2a: Tangela|120\/373 slp
+|-curestatus|p2a: Tangela|slp
+|
+|turn|38
+|choice|switch 3|move 2
+|
+|switch|p1a: Charizard|Charizard|319\/359
+|move|p2a: Tangela|Stun Spore|p1a: Charizard|[miss]
+|-miss|p2a: Tangela
+|
+|turn|39
+|choice|move 2|switch 2
+|
+|switch|p2a: Chansey|Chansey|703\/703 slp
+|move|p1a: Charizard|Fire Spin|p2a: Chansey|[miss]
+|-miss|p1a: Charizard
+|
+|turn|40
+|choice|switch 3|move 2
+|
+|switch|p1a: Dugtrio|Dugtrio|273\/273
+|cant|p2a: Chansey|slp
+|
+|turn|41
+|choice|move 1|switch 6
+|
+|switch|p2a: Slowbro|Slowbro|264\/393
+|move|p1a: Dugtrio|Earthquake|p2a: Slowbro
+|-damage|p2a: Slowbro|149\/393
+|
+|turn|42
+|choice|switch 2|move 2
+|
+|switch|p1a: Starmie|Starmie|199\/323
+|move|p2a: Slowbro|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|151\/323
+|
+|turn|43
+|choice|move 3|switch 5
+|
+|switch|p2a: Magneton|Magneton|443\/443 slp
+|move|p1a: Starmie|Thunderbolt|p2a: Magneton
+|-resisted|p2a: Magneton
+|-damage|p2a: Magneton|411\/443 slp
+|
+|turn|44
+|choice|switch 2|move 2
+|
+|switch|p1a: Dugtrio|Dugtrio|273\/273
+|-curestatus|p2a: Magneton|slp
+|
+|turn|45
+|choice|move 2|switch 5
+|
+|switch|p2a: Slowbro|Slowbro|149\/393
+|move|p1a: Dugtrio|Slash|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-damage|p2a: Slowbro|45\/393
+|
+|turn|46
+|choice|move 2|move 2
+|
+|move|p1a: Dugtrio|Slash|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|choice||switch 2
+|
+|switch|p2a: Tangela|Tangela|120\/373
+|turn|47
+|choice|switch 3|move 3
+|
+|switch|p1a: Charizard|Charizard|319\/359
+|move|p2a: Tangela|Rest|p2a: Tangela
+|-status|p2a: Tangela|slp
+|-heal|p2a: Tangela|373\/373 slp|[silent]
+|-status|p2a: Tangela|slp|[from] move: Rest
+|
+|turn|48
+|choice|move 4|switch 6
+|
+|switch|p2a: Chansey|Chansey|703\/703 slp
+|move|p1a: Charizard|Fire Blast|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|453\/703 slp
+|
+|turn|49
+|choice|move 2|move 4
+|
+|move|p1a: Charizard|Fire Spin|p2a: Chansey|[miss]
+|-miss|p1a: Charizard
+|cant|p2a: Chansey|slp
+|
+|turn|50
+|choice|move 2|move 4
+|
+|move|p1a: Charizard|Fire Spin|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|392\/703 slp
+|-activate|p2a: Chansey|move: Fire Spin|[of] p1a: Charizard
+|cant|p2a: Chansey|slp
+|
+|turn|51
+|choice|move 2|move 4
+|
+|move|p1a: Charizard|Fire Spin|p2a: Chansey
+|-damage|p2a: Chansey|331\/703 slp
+|-curestatus|p2a: Chansey|slp
+|
+|turn|52
+|choice|move 2|switch 4
+|
+|switch|p2a: Nidoqueen|Nidoqueen|383\/383
+|move|p1a: Charizard|Fire Spin|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|344\/383
+|-activate|p2a: Nidoqueen|move: Fire Spin|[of] p1a: Charizard
+|
+|turn|53
+|choice|move 2|move 1
+|
+|move|p1a: Charizard|Fire Spin|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|305\/383
+|cant|p2a: Nidoqueen|partiallytrapped
+|
+|turn|54
+|choice|switch 2|move 1
+|
+|switch|p1a: Starmie|Starmie|151\/323
+|cant|p2a: Nidoqueen|partiallytrapped
+|
+|-end|p2a: Nidoqueen|Fire Spin|[partiallytrapped]
+|turn|55
+|choice|switch 3|switch 5
+|
+|switch|p1a: Dugtrio|Dugtrio|273\/273
+|switch|p2a: Magneton|Magneton|411\/443
+|
+|turn|56
+|choice|move 2|switch 6
+|
+|switch|p2a: Tangela|Tangela|373\/373 slp
+|move|p1a: Dugtrio|Slash|p2a: Tangela
+|-crit|p2a: Tangela
+|-damage|p2a: Tangela|271\/373 slp
+|
+|turn|57
+|choice|move 2|move 2
+|
+|move|p1a: Dugtrio|Slash|p2a: Tangela
+|-crit|p2a: Tangela
+|-damage|p2a: Tangela|161\/373 slp
+|cant|p2a: Tangela|slp
+|
+|turn|58
+|choice|move 2|move 2
+|
+|move|p1a: Dugtrio|Slash|p2a: Tangela
+|-crit|p2a: Tangela
+|-damage|p2a: Tangela|58\/373 slp
+|-curestatus|p2a: Tangela|slp
+|
+|turn|59
+|choice|move 2|move 2
+|
+|move|p1a: Dugtrio|Slash|p2a: Tangela
+|-crit|p2a: Tangela
+|-damage|p2a: Tangela|0 fnt
+|faint|p2a: Tangela
+|choice||switch 5
+|
+|switch|p2a: Nidoqueen|Nidoqueen|305\/383
+|turn|60
+|choice|move 1|move 2
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|52\/383
+|move|p2a: Nidoqueen|Earthquake|p1a: Dugtrio
+|-crit|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|choice|switch 3|
+|
+|switch|p1a: Starmie|Starmie|151\/323
+|turn|61
+|choice|move 2|switch 6
+|
+|switch|p2a: Magneton|Magneton|411\/443
+|move|p1a: Starmie|Blizzard|p2a: Magneton|[miss]
+|-miss|p1a: Starmie
+|
+|turn|62
+|choice|switch 6|move 1
+|
+|switch|p1a: Magneton|Magneton|443\/443
+|move|p2a: Magneton|Thunderbolt|p1a: Magneton
+|-resisted|p1a: Magneton
+|-damage|p1a: Magneton|389\/443
+|
+|turn|63
+|choice|move 2|move 1
+|
+|move|p1a: Magneton|Thunder Wave|p2a: Magneton
+|-status|p2a: Magneton|par
+|cant|p2a: Magneton|par
+|
+|turn|64
+|choice|switch 2|move 1
+|
+|switch|p1a: Charizard|Charizard|319\/359
+|move|p2a: Magneton|Thunderbolt|p1a: Charizard
+|-crit|p1a: Charizard
+|-resisted|p1a: Charizard
+|-damage|p1a: Charizard|193\/359
+|
+|turn|65
+|choice|move 3|switch 6
+|
+|switch|p2a: Nidoqueen|Nidoqueen|52\/383
+|move|p1a: Charizard|Earthquake|p2a: Nidoqueen
+|-crit|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|0 fnt
+|faint|p2a: Nidoqueen
+|choice||switch 4
+|
+|switch|p2a: Chansey|Chansey|331\/703
+|turn|66
+|choice|move 2|move 1
+|
+|move|p1a: Charizard|Fire Spin|p2a: Chansey|[miss]
+|-miss|p1a: Charizard
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|682\/703
+|
+|turn|67
+|choice|switch 2|move 4
+|
+|switch|p1a: Magneton|Magneton|389\/443
+|move|p2a: Chansey|Sing|p1a: Magneton|[miss]
+|-miss|p2a: Chansey
+|
+|turn|68
+|choice|move 3|switch 6
+|
+|switch|p2a: Magneton|Magneton|411\/443 par
+|move|p1a: Magneton|Mimic|p2a: Magneton
+|-start|p1a: Magneton|Mimic|Slash
+|
+|turn|69
+|choice|switch 2|move 4
+|
+|switch|p1a: Charizard|Charizard|193\/359
+|move|p2a: Magneton|Slash|p1a: Charizard
+|-crit|p1a: Charizard
+|-damage|p1a: Charizard|108\/359
+|
+|turn|70
+|choice|move 3|switch 6
+|
+|switch|p2a: Chansey|Chansey|682\/703
+|move|p1a: Charizard|Earthquake|p2a: Chansey
+|-damage|p2a: Chansey|491\/703
+|
+|turn|71
+|choice|switch 6|move 1
+|
+|switch|p1a: Starmie|Starmie|151\/323
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703
+|
+|turn|72
+|choice|move 2|switch 6
+|
+|switch|p2a: Magneton|Magneton|411\/443 par
+|move|p1a: Starmie|Blizzard|p2a: Magneton
+|-damage|p2a: Magneton|326\/443 par
+|
+|turn|73
+|choice|switch 6|move 4
+|
+|switch|p1a: Charizard|Charizard|108\/359
+|move|p2a: Magneton|Slash|p1a: Charizard
+|-crit|p1a: Charizard
+|-damage|p1a: Charizard|17\/359
+|
+|turn|74
+|choice|move 3|switch 6
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Charizard|Earthquake|p2a: Chansey
+|-damage|p2a: Chansey|522\/703
+|
+|turn|75
+|choice|switch 2|move 2
+|
+|switch|p1a: Magneton|Magneton|389\/443
+|move|p2a: Chansey|Ice Beam|p1a: Magneton
+|-crit|p1a: Magneton
+|-damage|p1a: Magneton|248\/443
+|
+|turn|76
+|choice|move 3|switch 6
+|
+|switch|p2a: Magneton|Magneton|326\/443 par
+|move|p1a: Magneton|Slash|p2a: Magneton
+|-crit|p2a: Magneton
+|-resisted|p2a: Magneton
+|-damage|p2a: Magneton|284\/443 par
+|
+|turn|77
+|choice|move 1|move 4
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Magneton
+|-resisted|p2a: Magneton
+|-damage|p2a: Magneton|226\/443 par
+|move|p2a: Magneton|Slash|p1a: Magneton
+|-crit|p1a: Magneton
+|-resisted|p1a: Magneton
+|-damage|p1a: Magneton|208\/443
+|
+|turn|78
+|choice|move 1|move 3
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Magneton
+|-resisted|p2a: Magneton
+|-damage|p2a: Magneton|175\/443 par
+|move|p2a: Magneton|Rest|p2a: Magneton
+|-status|p2a: Magneton|slp
+|-heal|p2a: Magneton|443\/443 slp|[silent]
+|-status|p2a: Magneton|slp|[from] move: Rest
+|
+|turn|79
+|choice|switch 2|move 1
+|
+|switch|p1a: Charizard|Charizard|17\/359
+|cant|p2a: Magneton|slp
+|
+|turn|80
+|choice|move 3|switch 6
+|
+|switch|p2a: Chansey|Chansey|522\/703
+|move|p1a: Charizard|Earthquake|p2a: Chansey
+|-damage|p2a: Chansey|341\/703
+|
+|turn|81
+|choice|move 1|move 1
+|
+|move|p1a: Charizard|Thrash|p2a: Chansey
+|-damage|p2a: Chansey|236\/703
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|587\/703
+|
+|turn|82
+|choice|move 1|move 3
+|
+|move|p1a: Charizard|Thrash|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|375\/703
+|-start|p1a: Charizard|confusion|[silent]
+|move|p2a: Chansey|Thunderbolt|p1a: Charizard
+|-crit|p1a: Charizard
+|-resisted|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|choice|switch 6|
+|
+|switch|p1a: Starmie|Starmie|151\/323
+|turn|83
+|c|★DreMZ|I can't break through Chansey \/ Mag and I gtg soon
+|c|★DreMZ|so gg
+|-message|DreMZ forfeited.
+|
+|win|Anna says hi
+|L|DreMZ
+|player|p1
+|c|★Anna says hi|gg

@@ -1,0 +1,259 @@
+﻿|j|howiam
+|j|ereee
+|player|p1|howiam|238
+|player|p2|ereee|169
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|seed|43796,16157,15239,36703
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Golbat|Golbat, L90|318\/318
+|switch|p2a: Gloom|Gloom, L90|291\/291
+|turn|1
+|choice|move 4|move 3
+|
+|move|p1a: Golbat|Double-Edge|p2a: Gloom
+|-damage|p2a: Gloom|212\/291
+|-damage|p1a: Golbat|299\/318|[from] recoil|[of] p2a: Gloom
+|move|p2a: Gloom|Sleep Powder|p1a: Golbat
+|-status|p1a: Golbat|slp
+|
+|turn|2
+|c|★howiam|last one, cause i have to go to dinner, ok? :)
+|choice|move 2|move 1
+|
+|-curestatus|p1a: Golbat|slp
+|move|p2a: Gloom|Swords Dance|p2a: Gloom
+|-boost|p2a: Gloom|atk|2
+|
+|turn|3
+|c|★ereee|sure :D
+|choice|move 2|move 1
+|
+|move|p1a: Golbat|Screech|p2a: Gloom
+|-unboost|p2a: Gloom|def|2
+|move|p2a: Gloom|Swords Dance|p2a: Gloom
+|-boost|p2a: Gloom|atk|2
+|
+|turn|4
+|choice|move 1|move 4
+|
+|move|p1a: Golbat|Hyper Beam|p2a: Gloom
+|-crit|p2a: Gloom
+|-damage|p2a: Gloom|0 fnt
+|faint|p2a: Gloom
+|choice||switch 5
+|
+|switch|p2a: Persian|Persian, L79|265\/265
+|turn|5
+|choice|move 2|move 2
+|
+|move|p2a: Persian|Thunderbolt|p1a: Golbat
+|-supereffective|p1a: Golbat
+|-damage|p1a: Golbat|210\/318
+|move|p1a: Golbat|Screech|p2a: Persian
+|-unboost|p2a: Persian|def|2
+|
+|turn|6
+|choice|move 1|move 2
+|
+|move|p2a: Persian|Thunderbolt|p1a: Golbat
+|-supereffective|p1a: Golbat
+|-damage|p1a: Golbat|120\/318
+|-status|p1a: Golbat|par
+|move|p1a: Golbat|Hyper Beam|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|faint|p2a: Persian
+|choice||switch 3
+|
+|switch|p2a: Pinsir|Pinsir, L85|284\/284
+|turn|7
+|choice|move 1|move 1
+|
+|move|p2a: Pinsir|Body Slam|p1a: Golbat
+|-damage|p1a: Golbat|38\/318 par
+|cant|p1a: Golbat|par
+|
+|turn|8
+|choice|move 1|move 1
+|
+|move|p2a: Pinsir|Body Slam|p1a: Golbat
+|-damage|p1a: Golbat|0 fnt
+|faint|p1a: Golbat
+|c|★howiam|it's nice to meet fine people on sd sometimes
+|choice|switch 4|
+|
+|switch|p1a: Onix|Onix, L90|246\/246
+|turn|9
+|c|★ereee|a rare thing :p
+|choice|move 3|move 4
+|
+|move|p2a: Pinsir|Submission|p1a: Onix
+|-supereffective|p1a: Onix
+|-damage|p1a: Onix|161\/246
+|-damage|p2a: Pinsir|263\/284|[from] recoil|[of] p1a: Onix
+|move|p1a: Onix|Rock Slide|p2a: Pinsir|[miss]
+|-miss|p1a: Onix
+|
+|turn|10
+|c|★howiam|yes
+|choice|move 3|move 2
+|
+|move|p2a: Pinsir|Swords Dance|p2a: Pinsir
+|-boost|p2a: Pinsir|atk|2
+|move|p1a: Onix|Rock Slide|p2a: Pinsir
+|-supereffective|p2a: Pinsir
+|-damage|p2a: Pinsir|162\/284
+|
+|turn|11
+|choice|move 3|move 4
+|
+|move|p2a: Pinsir|Submission|p1a: Onix
+|-supereffective|p1a: Onix
+|-damage|p1a: Onix|0 fnt
+|-damage|p2a: Pinsir|122\/284|[from] recoil|[of] p1a: Onix
+|faint|p1a: Onix
+|choice|switch 3|
+|
+|switch|p1a: Snorlax|Snorlax, L79|415\/415
+|turn|12
+|choice|move 3|move 4
+|
+|move|p2a: Pinsir|Submission|p1a: Snorlax|[miss]
+|-miss|p2a: Pinsir
+|move|p1a: Snorlax|Body Slam|p2a: Pinsir
+|-damage|p2a: Pinsir|41\/284
+|
+|turn|13
+|choice|move 3|move 4
+|
+|move|p2a: Pinsir|Submission|p1a: Snorlax
+|-supereffective|p1a: Snorlax
+|-damage|p1a: Snorlax|48\/415
+|-damage|p2a: Pinsir|0 fnt|[from] recoil|[of] p1a: Snorlax
+|faint|p2a: Pinsir
+|c|★ereee|submission seems to be the only fight type move
+|choice||switch 2
+|
+|switch|p2a: Dratini|Dratini, L96|274\/274
+|turn|14
+|choice|move 2|move 1
+|
+|move|p2a: Dratini|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|choice|switch 5|
+|
+|switch|p1a: Mewtwo|Mewtwo, L68|285\/285
+|turn|15
+|choice|move 3|move 4
+|
+|move|p1a: Mewtwo|Amnesia|p1a: Mewtwo
+|-boost|p1a: Mewtwo|spd|2
+|-boost|p1a: Mewtwo|spa|2
+|move|p2a: Dratini|Thunder|p1a: Mewtwo|[miss]
+|-miss|p2a: Dratini
+|
+|turn|16
+|c|★howiam|counter is another one but it's so different
+|choice|move 2|move 4
+|
+|move|p1a: Mewtwo|Ice Beam|p2a: Dratini
+|-supereffective|p2a: Dratini
+|-damage|p2a: Dratini|0 fnt
+|faint|p2a: Dratini
+|c|★ereee|oh, yeah you used that before
+|choice||switch 4
+|
+|switch|p2a: Snorlax|Snorlax, L79|415\/415
+|turn|17
+|choice|move 1|move 4
+|
+|move|p1a: Mewtwo|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|172\/415
+|move|p2a: Snorlax|Body Slam|p1a: Mewtwo
+|-damage|p1a: Mewtwo|182\/285
+|-status|p1a: Mewtwo|par
+|
+|turn|18
+|choice|move 1|move 4
+|
+|move|p2a: Snorlax|Body Slam|p1a: Mewtwo
+|-damage|p1a: Mewtwo|70\/285 par
+|move|p1a: Mewtwo|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|choice||switch 6
+|
+|switch|p2a: Blastoise|Blastoise, L85|308\/308
+|turn|19
+|choice|move 1|move 3
+|
+|move|p2a: Blastoise|Surf|p1a: Mewtwo
+|-damage|p1a: Mewtwo|29\/285 par
+|move|p1a: Mewtwo|Psychic|p2a: Blastoise
+|-damage|p2a: Blastoise|120\/308
+|
+|turn|20
+|choice|move 1|move 3
+|
+|move|p2a: Blastoise|Surf|p1a: Mewtwo
+|-damage|p1a: Mewtwo|0 fnt
+|faint|p1a: Mewtwo
+|choice|switch 2|
+|
+|switch|p1a: Charmander|Charmander, L96|270\/270
+|turn|21
+|c|★howiam|charmander, you could win this!
+|choice|move 4|move 3
+|
+|move|p1a: Charmander|Slash|p2a: Blastoise
+|-crit|p2a: Blastoise
+|-damage|p2a: Blastoise|43\/308
+|move|p2a: Blastoise|Surf|p1a: Charmander
+|-crit|p1a: Charmander
+|-supereffective|p1a: Charmander
+|-damage|p1a: Charmander|0 fnt
+|faint|p1a: Charmander
+|c|★ereee|:D
+|c|★ereee|nooo
+|choice|switch 6|
+|
+|switch|p1a: Nidorino|Nidorino, L90|293\/293
+|turn|22
+|c|★howiam|he can't and that's problematic
+|choice|move 3|move 2
+|
+|move|p2a: Blastoise|Rest|p2a: Blastoise
+|-status|p2a: Blastoise|slp
+|-heal|p2a: Blastoise|308\/308 slp|[silent]
+|-status|p2a: Blastoise|slp|[from] move: Rest
+|move|p1a: Nidorino|Thunderbolt|p2a: Blastoise
+|-crit|p2a: Blastoise
+|-supereffective|p2a: Blastoise
+|-damage|p2a: Blastoise|84\/308 slp
+|
+|turn|23
+|c|★ereee|:D
+|choice|move 3|move 4
+|
+|cant|p2a: Blastoise|slp
+|move|p1a: Nidorino|Thunderbolt|p2a: Blastoise
+|-supereffective|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|
+|win|howiam
+|player|p1
+|player|p2
+|c|★ereee|should have attacked :D
+|c|★howiam|thunderbolt! :D
+|c|★ereee|nice game, have a fun dinner
+|c|★howiam|yes!
+|c|★howiam|thanks!
+|c|★howiam|good luck for all! bye!
+|c|★ereee|:D bye

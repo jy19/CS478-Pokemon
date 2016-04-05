@@ -1,0 +1,317 @@
+﻿|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|J|Lusch
+|J|slurmz
+|player|p1|Lusch|153
+|player|p2|slurmz|133
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|seed|51007,62312,15744,45047
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333\/333
+|switch|p2a: the sun dont shine|Hypno|373\/373
+|turn|1
+|J|Veni Vidi Victini
+|choice|move 1|move 3
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: the sun dont shine|[miss]
+|-miss|p1a: Jynx
+|move|p2a: the sun dont shine|Hypnosis|p1a: Jynx
+|-status|p1a: Jynx|slp
+|
+|turn|2
+|c|★slurmz|hf
+|J|SoulWind
+|J|Jirachee
+|c|★Lusch|u too
+|choice|move 1|move 2
+|
+|-curestatus|p1a: Jynx|slp
+|move|p2a: the sun dont shine|Thunder Wave|p1a: Jynx
+|-status|p1a: Jynx|par
+|
+|turn|3
+|J|theurbandear
+|L|Jirachee
+|c|★slurmz|Ow
+|c|★slurmz|That's
+|c|★slurmz|Bad
+|choice|move 1|switch 2
+|
+|switch|p2a: sledgehammer|Lapras|463\/463
+|move|p1a: Jynx|Lovely Kiss|p2a: sledgehammer
+|-status|p2a: sledgehammer|slp
+|
+|turn|4
+|J|KratosMana
+|choice|move 2|switch 6
+|
+|switch|p2a: kill u mfuckng ant|Snorlax|523\/523
+|move|p1a: Jynx|Blizzard|p2a: kill u mfuckng ant
+|-damage|p2a: kill u mfuckng ant|334\/523
+|
+|turn|5
+|L|KratosMana
+|J|KratosMana
+|L|KratosMana
+|choice|switch 6|switch 3
+|
+|switch|p2a: use your brain|Exeggutor|393\/393
+|switch|p1a: Chansey|Chansey|703\/703
+|
+|turn|6
+|choice|switch 6|switch 5
+|
+|switch|p2a: jayhova|Tauros|353\/353
+|switch|p1a: Jynx|Jynx|333\/333 par
+|
+|turn|7
+|choice|switch 2|move 1
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: jayhova|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|400\/523
+|
+|turn|8
+|choice|move 2|switch 2
+|
+|switch|p2a: the sun dont shine|Hypno|373\/373
+|move|p1a: Snorlax|Body Slam|p2a: the sun dont shine
+|-damage|p2a: the sun dont shine|242\/373
+|
+|turn|9
+|choice|switch 2|move 2
+|
+|switch|p1a: Jynx|Jynx|333\/333 par
+|move|p2a: the sun dont shine|Thunder Wave|p1a: Jynx
+|-fail|p1a: Jynx|par
+|
+|turn|10
+|choice|move 2|move 1
+|
+|move|p2a: the sun dont shine|Psychic|p1a: Jynx
+|-resisted|p1a: Jynx
+|-damage|p1a: Jynx|268\/333 par
+|-unboost|p1a: Jynx|spd|1
+|-unboost|p1a: Jynx|spa|1
+|cant|p1a: Jynx|par
+|
+|turn|11
+|choice|move 2|move 1
+|
+|move|p2a: the sun dont shine|Psychic|p1a: Jynx
+|-resisted|p1a: Jynx
+|-damage|p1a: Jynx|170\/333 par
+|move|p1a: Jynx|Blizzard|p2a: the sun dont shine
+|-damage|p2a: the sun dont shine|160\/373
+|
+|turn|12
+|choice|switch 4|move 1
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|move|p2a: the sun dont shine|Psychic|p1a: Tauros
+|-damage|p1a: Tauros|204\/353
+|-unboost|p1a: Tauros|spd|1
+|-unboost|p1a: Tauros|spa|1
+|
+|turn|13
+|choice|move 2|switch 5
+|
+|switch|p2a: use your brain|Exeggutor|393\/393
+|move|p1a: Tauros|Body Slam|p2a: use your brain
+|-crit|p2a: use your brain
+|-damage|p2a: use your brain|170\/393
+|
+|turn|14
+|c|★slurmz|Ugh
+|choice|move 2|switch 2
+|
+|switch|p2a: jayhova|Tauros|353\/353
+|move|p1a: Tauros|Body Slam|p2a: jayhova
+|-damage|p2a: jayhova|247\/353
+|
+|turn|15
+|choice|move 2|move 4
+|
+|move|p2a: jayhova|Hyper Beam|p1a: Tauros
+|-damage|p1a: Tauros|23\/353
+|move|p1a: Tauros|Body Slam|p2a: jayhova
+|-crit|p2a: jayhova
+|-damage|p2a: jayhova|55\/353
+|
+|turn|16
+|-mustrecharge|p2a: jayhova
+|-mustrecharge|p2a: jayhova
+|choice|move 2|move 1
+|
+|cant|p2a: jayhova|recharge
+|move|p1a: Tauros|Body Slam|p2a: jayhova
+|-damage|p2a: jayhova|0 fnt
+|faint|p2a: jayhova
+|c|★slurmz|Ow
+|choice||switch 3
+|
+|switch|p2a: kill u mfuckng ant|Snorlax|334\/523
+|turn|17
+|c|★slurmz|Im bad
+|c|★slurmz|:(
+|choice|switch 6|move 1
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: kill u mfuckng ant|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|407\/703
+|
+|turn|18
+|choice|move 3|move 1
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703
+|move|p2a: kill u mfuckng ant|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|402\/703
+|
+|turn|19
+|choice|move 4|move 1
+|
+|move|p1a: Chansey|Thunder Wave|p2a: kill u mfuckng ant
+|-status|p2a: kill u mfuckng ant|par
+|move|p2a: kill u mfuckng ant|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|118\/703
+|
+|turn|20
+|choice|move 1|move 2
+|
+|move|p1a: Chansey|Ice Beam|p2a: kill u mfuckng ant
+|-damage|p2a: kill u mfuckng ant|234\/523 par
+|move|p2a: kill u mfuckng ant|Hyper Beam|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|choice|switch 2|
+|
+|switch|p1a: Snorlax|Snorlax|400\/523
+|turn|21
+|choice|move 3|move 4
+|
+|move|p1a: Snorlax|Hyper Beam|p2a: kill u mfuckng ant
+|-crit|p2a: kill u mfuckng ant
+|-damage|p2a: kill u mfuckng ant|0 fnt
+|faint|p2a: kill u mfuckng ant
+|choice||switch 2
+|
+|switch|p2a: use your brain|Exeggutor|170\/393
+|turn|22
+|choice|move 3|switch 4
+|
+|switch|p2a: the breaks over|Zapdos|383\/383
+|move|p1a: Snorlax|Hyper Beam|p2a: the breaks over
+|-damage|p2a: the breaks over|160\/383
+|
+|turn|23
+|-mustrecharge|p1a: Snorlax
+|-mustrecharge|p1a: Snorlax
+|choice|move 1|move 3
+|
+|move|p2a: the breaks over|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|cant|p1a: Snorlax|recharge
+|
+|turn|24
+|choice|move 3|switch 5
+|
+|switch|p2a: the sun dont shine|Hypno|160\/373
+|move|p1a: Snorlax|Hyper Beam|p2a: the sun dont shine
+|-damage|p2a: the sun dont shine|0 fnt
+|faint|p2a: the sun dont shine
+|choice||switch 4
+|
+|switch|p2a: use your brain|Exeggutor|170\/393
+|turn|25
+|choice|move 3|move 4
+|
+|move|p2a: use your brain|Explosion|p1a: Snorlax
+|-damage|p1a: Snorlax|36\/523 par
+|faint|p2a: use your brain
+|choice||switch 5
+|
+|switch|p2a: the breaks over|Zapdos|160\/383
+|turn|26
+|choice|move 3|move 4
+|
+|move|p2a: the breaks over|Agility|p2a: the breaks over
+|-boost|p2a: the breaks over|spe|2
+|move|p1a: Snorlax|Hyper Beam|p2a: the breaks over|[miss]
+|-miss|p1a: Snorlax
+|
+|turn|27
+|choice|move 3|move 1
+|
+|move|p2a: the breaks over|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|choice|switch 3|
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|turn|28
+|choice|move 4|move 3
+|
+|move|p2a: the breaks over|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|move|p1a: Alakazam|Thunder Wave|p2a: the breaks over
+|-status|p2a: the breaks over|par
+|
+|turn|29
+|choice|move 1|move 2
+|
+|move|p2a: the breaks over|Drill Peck|p1a: Alakazam
+|-damage|p1a: Alakazam|185\/313 par
+|move|p1a: Alakazam|Reflect|p1a: Alakazam
+|-start|p1a: Alakazam|Reflect
+|
+|turn|30
+|choice|move 2|move 1
+|
+|move|p2a: the breaks over|Thunderbolt|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|choice|switch 6|
+|
+|switch|p1a: Tauros|Tauros|23\/353
+|turn|31
+|choice|move 4|move 1
+|
+|move|p1a: Tauros|Hyper Beam|p2a: the breaks over
+|-damage|p2a: the breaks over|0 fnt
+|faint|p2a: the breaks over
+|choice||switch 6
+|
+|switch|p2a: sledgehammer|Lapras|463\/463 slp
+|turn|32
+|c|★slurmz|Gg
+|choice|move 2|move 3
+|
+|move|p1a: Tauros|Body Slam|p2a: sledgehammer
+|-damage|p2a: sledgehammer|347\/463 slp
+|cant|p2a: sledgehammer|slp
+|
+|turn|33
+|c|★Lusch|not over
+|c|★Lusch|ok
+|c|★Lusch|gg
+|choice|move 2|move 3
+|
+|move|p1a: Tauros|Body Slam|p2a: sledgehammer
+|-crit|p2a: sledgehammer
+|-damage|p2a: sledgehammer|140\/463 slp
+|cant|p2a: sledgehammer|slp
+|
+|turn|34
+|-message|slurmz forfeited.
+|
+|win|Lusch

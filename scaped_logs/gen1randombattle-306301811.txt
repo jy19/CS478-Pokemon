@@ -1,0 +1,236 @@
+﻿|j|MALESANI
+|j|JetScreem
+|player|p1|MALESANI|238
+|player|p2|JetScreem|252
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|8483,2180,51670,16459
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Arcanine|Arcanine, L85|327\/327
+|switch|p2a: Seel|Seel, L96|320\/320
+|turn|1
+|choice|switch 5|move 4
+|
+|switch|p1a: Nidorino|Nidorino, L90|293\/293
+|move|p2a: Seel|Mimic|p1a: Nidorino
+|-start|p2a: Seel|Mimic|Thunderbolt
+|
+|turn|2
+|choice|move 2|move 1
+|
+|move|p1a: Nidorino|Thunderbolt|p2a: Seel
+|-supereffective|p2a: Seel
+|-damage|p2a: Seel|207\/320
+|move|p2a: Seel|Blizzard|p1a: Nidorino
+|-damage|p1a: Nidorino|177\/293
+|
+|turn|3
+|choice|move 2|switch 3
+|
+|switch|p2a: Tangela|Tangela, L85|284\/284
+|move|p1a: Nidorino|Thunderbolt|p2a: Tangela
+|-crit|p2a: Tangela
+|-resisted|p2a: Tangela
+|-damage|p2a: Tangela|237\/284
+|
+|turn|4
+|choice|move 3|move 1
+|
+|move|p1a: Nidorino|Blizzard|p2a: Tangela
+|-crit|p2a: Tangela
+|-supereffective|p2a: Tangela
+|-damage|p2a: Tangela|1\/284
+|move|p2a: Tangela|Mega Drain|p1a: Nidorino
+|-resisted|p1a: Nidorino
+|-damage|p1a: Nidorino|149\/293
+|-heal|p2a: Tangela|15\/284|[from] drain|[of] p1a: Nidorino
+|
+|turn|5
+|choice|move 2|switch 4
+|
+|switch|p2a: Kadabra|Kadabra, L85|242\/242
+|move|p1a: Nidorino|Thunderbolt|p2a: Kadabra
+|-damage|p2a: Kadabra|201\/242
+|
+|turn|6
+|j|sisiwi
+|choice|move 1|move 1
+|
+|move|p2a: Kadabra|Psychic|p1a: Nidorino
+|-supereffective|p1a: Nidorino
+|-damage|p1a: Nidorino|0 fnt
+|faint|p1a: Nidorino
+|choice|switch 3|
+|
+|switch|p1a: Dugtrio|Dugtrio, L85|233\/233
+|turn|7
+|choice|move 1|move 2
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Kadabra
+|-damage|p2a: Kadabra|38\/242
+|move|p2a: Kadabra|Reflect|p2a: Kadabra
+|-start|p2a: Kadabra|Reflect
+|
+|turn|8
+|choice|move 3|move 1
+|
+|move|p1a: Dugtrio|Slash|p2a: Kadabra
+|-crit|p2a: Kadabra
+|-damage|p2a: Kadabra|0 fnt
+|faint|p2a: Kadabra
+|choice||switch 3
+|
+|switch|p2a: Seel|Seel, L96|207\/320
+|turn|9
+|choice|switch 4|move 2
+|
+|switch|p1a: Weezing|Weezing, L90|300\/300
+|move|p2a: Seel|Surf|p1a: Weezing
+|-damage|p1a: Weezing|192\/300
+|
+|turn|10
+|choice|move 2|move 1
+|
+|move|p1a: Weezing|Thunderbolt|p2a: Seel
+|-supereffective|p2a: Seel
+|-damage|p2a: Seel|72\/320
+|-status|p2a: Seel|par
+|move|p2a: Seel|Blizzard|p1a: Weezing
+|-damage|p1a: Weezing|107\/300
+|
+|turn|11
+|choice|move 2|switch 4
+|
+|switch|p2a: Tangela|Tangela, L85|15\/284
+|move|p1a: Weezing|Thunderbolt|p2a: Tangela
+|-resisted|p2a: Tangela
+|-damage|p2a: Tangela|0 fnt
+|faint|p2a: Tangela
+|choice||switch 4
+|
+|switch|p2a: Seel|Seel, L96|72\/320 par
+|turn|12
+|choice|move 2|move 2
+|
+|move|p1a: Weezing|Thunderbolt|p2a: Seel
+|-crit|p2a: Seel
+|-supereffective|p2a: Seel
+|-damage|p2a: Seel|0 fnt
+|faint|p2a: Seel
+|choice||switch 6
+|
+|switch|p2a: Arbok|Arbok, L90|291\/291
+|turn|13
+|choice|move 1|move 2
+|
+|move|p2a: Arbok|Hyper Beam|p1a: Weezing
+|-damage|p1a: Weezing|26\/300
+|move|p1a: Weezing|Explosion|p2a: Arbok
+|-damage|p2a: Arbok|6\/291
+|faint|p1a: Weezing
+|choice|switch 5|
+|
+|switch|p1a: Arcanine|Arcanine, L85|327\/327
+|turn|14
+|-mustrecharge|p2a: Arbok
+|-mustrecharge|p2a: Arbok
+|choice|move 1|move 1
+|
+|move|p1a: Arcanine|Body Slam|p2a: Arbok
+|-damage|p2a: Arbok|0 fnt
+|faint|p2a: Arbok
+|choice||switch 2
+|
+|switch|p2a: Articuno|Articuno, L79|304\/304
+|turn|15
+|choice|move 4|move 1
+|
+|move|p1a: Arcanine|Fire Blast|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|111\/304
+|move|p2a: Articuno|Blizzard|p1a: Arcanine
+|-damage|p1a: Arcanine|196\/327
+|
+|turn|16
+|choice|move 1|move 3
+|
+|move|p1a: Arcanine|Body Slam|p2a: Articuno
+|-damage|p2a: Articuno|47\/304
+|move|p2a: Articuno|Rest|p2a: Articuno
+|-status|p2a: Articuno|slp
+|-heal|p2a: Articuno|304\/304 slp|[silent]
+|-status|p2a: Articuno|slp|[from] move: Rest
+|
+|turn|17
+|choice|move 4|move 1
+|
+|move|p1a: Arcanine|Fire Blast|p2a: Articuno|[miss]
+|-miss|p1a: Arcanine
+|cant|p2a: Articuno|slp
+|
+|turn|18
+|choice|move 4|move 1
+|
+|move|p1a: Arcanine|Fire Blast|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|107\/304 slp
+|-curestatus|p2a: Articuno|slp
+|
+|turn|19
+|choice|move 4|move 1
+|
+|move|p1a: Arcanine|Fire Blast|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|faint|p2a: Articuno
+|choice||switch 5
+|
+|switch|p2a: Machamp|Machamp, L90|345\/345
+|turn|20
+|choice|move 1|move 4
+|
+|move|p1a: Arcanine|Body Slam|p2a: Machamp
+|-damage|p2a: Machamp|284\/345
+|move|p2a: Machamp|Earthquake|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|1\/327
+|
+|turn|21
+|choice|move 1|move 4
+|
+|move|p1a: Arcanine|Body Slam|p2a: Machamp
+|-damage|p2a: Machamp|218\/345
+|-status|p2a: Machamp|par
+|move|p2a: Machamp|Earthquake|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|choice|switch 2|
+|
+|switch|p1a: Poliwag|Poliwag, L96|272\/272
+|turn|22
+|choice|move 4|move 2
+|
+|move|p1a: Poliwag|Psychic|p2a: Machamp
+|-crit|p2a: Machamp
+|-supereffective|p2a: Machamp
+|-damage|p2a: Machamp|6\/345 par
+|move|p2a: Machamp|Submission|p1a: Poliwag
+|-crit|p1a: Poliwag
+|-damage|p1a: Poliwag|0 fnt
+|-damage|p2a: Machamp|0 fnt|[from] recoil|[of] p1a: Poliwag
+|faint|p1a: Poliwag
+|faint|p2a: Machamp
+|
+|win|MALESANI
+|raw|MALESANI's rating: 1383 &rarr; <strong>1390<\/strong><br \/>(+7 for winning)
+|raw|JetScreem's rating: 1113 &rarr; <strong>1105<\/strong><br \/>(-8 for losing)
+|c| sisiwi|this is so cool
+|l|JetScreem
+|player|p2

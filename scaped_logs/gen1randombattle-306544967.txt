@@ -1,0 +1,234 @@
+﻿|j|Mega-Noctali
+|j|Abstrix
+|player|p1|Mega-Noctali|65
+|player|p2|Abstrix|8
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|59829,4096,8268,44303
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Porygon|Porygon, L85|284\/284
+|switch|p2a: Charizard|Charizard, L85|306\/306
+|turn|1
+|choice|move 3|switch 4
+|
+|switch|p2a: Wigglytuff|Wigglytuff, L90|435\/435
+|move|p1a: Porygon|Thunder Wave|p2a: Wigglytuff
+|-status|p2a: Wigglytuff|par
+|
+|turn|2
+|choice|move 2|move 4
+|
+|move|p1a: Porygon|Agility|p1a: Porygon
+|-boost|p1a: Porygon|spe|2
+|cant|p2a: Wigglytuff|par
+|
+|turn|3
+|choice|move 4|move 4
+|
+|move|p1a: Porygon|Tri Attack|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|349\/435 par
+|move|p2a: Wigglytuff|Thunder Wave|p1a: Porygon
+|-status|p1a: Porygon|par
+|
+|turn|4
+|choice|move 4|move 1
+|
+|move|p1a: Porygon|Tri Attack|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|256\/435 par
+|move|p2a: Wigglytuff|Double-Edge|p1a: Porygon
+|-damage|p1a: Porygon|174\/284 par
+|-damage|p2a: Wigglytuff|229\/435 par|[from] recoil|[of] p1a: Porygon
+|
+|turn|5
+|choice|move 4|move 1
+|
+|cant|p1a: Porygon|par
+|cant|p2a: Wigglytuff|par
+|
+|turn|6
+|choice|move 4|move 1
+|
+|move|p1a: Porygon|Tri Attack|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|133\/435 par
+|move|p2a: Wigglytuff|Double-Edge|p1a: Porygon
+|-damage|p1a: Porygon|53\/284 par
+|-damage|p2a: Wigglytuff|103\/435 par|[from] recoil|[of] p1a: Porygon
+|
+|turn|7
+|choice|move 1|move 1
+|
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|195\/284 par
+|move|p2a: Wigglytuff|Double-Edge|p1a: Porygon
+|-damage|p1a: Porygon|73\/284 par
+|-damage|p2a: Wigglytuff|73\/435 par|[from] recoil|[of] p1a: Porygon
+|
+|turn|8
+|choice|move 4|move 1
+|
+|cant|p1a: Porygon|par
+|move|p2a: Wigglytuff|Double-Edge|p1a: Porygon
+|-damage|p1a: Porygon|0 fnt
+|-damage|p2a: Wigglytuff|55\/435 par|[from] recoil|[of] p1a: Porygon
+|faint|p1a: Porygon
+|choice|switch 3|
+|
+|switch|p1a: Nidorino|Nidorino, L90|293\/293
+|turn|9
+|choice|move 2|move 4
+|
+|move|p1a: Nidorino|Body Slam|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|0 fnt
+|faint|p2a: Wigglytuff
+|choice||switch 4
+|
+|switch|p2a: Charizard|Charizard, L85|306\/306
+|turn|10
+|choice|move 1|move 3
+|
+|move|p2a: Charizard|Swords Dance|p2a: Charizard
+|-boost|p2a: Charizard|atk|2
+|move|p1a: Nidorino|Thunder|p2a: Charizard|[miss]
+|-miss|p1a: Nidorino
+|
+|turn|11
+|choice|move 1|move 4
+|
+|move|p2a: Charizard|Earthquake|p1a: Nidorino
+|-supereffective|p1a: Nidorino
+|-damage|p1a: Nidorino|0 fnt
+|faint|p1a: Nidorino
+|choice|switch 4|
+|
+|switch|p1a: Slowbro|Slowbro, L79|312\/312
+|turn|12
+|choice|move 2|move 1
+|
+|move|p2a: Charizard|Body Slam|p1a: Slowbro
+|-damage|p1a: Slowbro|205\/312
+|move|p1a: Slowbro|Thunder Wave|p2a: Charizard
+|-status|p2a: Charizard|par
+|
+|turn|13
+|choice|move 3|move 1
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|cant|p2a: Charizard|par
+|
+|turn|14
+|choice|move 1|move 1
+|
+|move|p1a: Slowbro|Surf|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|choice||switch 6
+|
+|switch|p2a: Electabuzz|Electabuzz, L85|284\/284
+|turn|15
+|choice|move 2|move 4
+|
+|move|p2a: Electabuzz|Thunderbolt|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|93\/312
+|move|p1a: Slowbro|Thunder Wave|p2a: Electabuzz|[miss]
+|-miss|p1a: Slowbro
+|
+|turn|16
+|choice|move 2|move 4
+|
+|move|p2a: Electabuzz|Thunderbolt|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|choice|switch 6|
+|
+|switch|p1a: Graveler|Graveler, L85|267\/267
+|turn|17
+|choice|move 3|move 1
+|
+|move|p2a: Electabuzz|Psychic|p1a: Graveler
+|-damage|p1a: Graveler|179\/267
+|move|p1a: Graveler|Earthquake|p2a: Electabuzz
+|-supereffective|p2a: Electabuzz
+|-damage|p2a: Electabuzz|0 fnt
+|faint|p2a: Electabuzz
+|choice||switch 5
+|
+|switch|p2a: Raichu|Raichu, L85|276\/276
+|turn|18
+|choice|move 3|move 1
+|
+|move|p2a: Raichu|Surf|p1a: Graveler
+|-supereffective|p1a: Graveler
+|-damage|p1a: Graveler|0 fnt
+|faint|p1a: Graveler
+|choice|switch 5|
+|
+|switch|p1a: Primeape|Primeape, L90|300\/300
+|turn|19
+|choice|move 3|move 2
+|
+|move|p1a: Primeape|Body Slam|p2a: Raichu
+|-damage|p2a: Raichu|181\/276
+|-status|p2a: Raichu|par
+|move|p2a: Raichu|Thunder Wave|p1a: Primeape
+|-status|p1a: Primeape|par
+|
+|turn|20
+|choice|move 3|move 3
+|
+|move|p1a: Primeape|Body Slam|p2a: Raichu
+|-damage|p2a: Raichu|84\/276 par
+|move|p2a: Raichu|Thunder|p1a: Primeape
+|-damage|p1a: Primeape|163\/300 par
+|
+|turn|21
+|choice|move 3|move 3
+|
+|move|p1a: Primeape|Body Slam|p2a: Raichu
+|-damage|p2a: Raichu|0 fnt
+|faint|p2a: Raichu
+|choice||switch 2
+|
+|switch|p2a: Ponyta|Ponyta, L96|291\/291
+|turn|22
+|choice|move 3|move 1
+|
+|move|p2a: Ponyta|Fire Blast|p1a: Primeape
+|-damage|p1a: Primeape|14\/300 par
+|move|p1a: Primeape|Body Slam|p2a: Ponyta
+|-crit|p2a: Ponyta
+|-damage|p2a: Ponyta|138\/291
+|
+|turn|23
+|choice|move 2|move 2
+|
+|move|p2a: Ponyta|Body Slam|p1a: Primeape
+|-damage|p1a: Primeape|0 fnt
+|faint|p1a: Primeape
+|choice|switch 2|
+|
+|switch|p1a: Butterfree|Butterfree, L90|291\/291
+|turn|24
+|choice|move 1|move 1
+|
+|move|p2a: Ponyta|Fire Blast|p1a: Butterfree
+|-crit|p1a: Butterfree
+|-supereffective|p1a: Butterfree
+|-damage|p1a: Butterfree|0 fnt
+|faint|p1a: Butterfree
+|
+|win|Abstrix
+|l|Mega-Noctali
+|player|p1
+|raw|Mega-Noctali's rating: 1327 &rarr; <strong>1299<\/strong><br \/>(-28 for losing)
+|raw|Abstrix's rating: 1180 &rarr; <strong>1215<\/strong><br \/>(+35 for winning)

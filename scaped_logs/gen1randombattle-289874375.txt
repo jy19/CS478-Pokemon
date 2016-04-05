@@ -1,0 +1,383 @@
+﻿|join|LibertarianMaster
+|join|MALESANI
+|player|p1|LibertarianMaster|1
+|player|p2|MALESANI|238
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|32937,37595,8063,27385
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Mr. Mime|Mr. Mime, L85|242\/242
+|switch|p2a: Charmeleon|Charmeleon, L85|272\/272
+|turn|1
+|choice|move 1|move 3
+|
+|move|p1a: Mr. Mime|Thunder Wave|p2a: Charmeleon
+|-status|p2a: Charmeleon|par
+|cant|p2a: Charmeleon|par
+|
+|turn|2
+|choice|move 3|move 3
+|
+|move|p1a: Mr. Mime|Psychic|p2a: Charmeleon
+|-damage|p2a: Charmeleon|156\/272 par
+|move|p2a: Charmeleon|Slash|p1a: Mr. Mime
+|-crit|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|150\/242
+|
+|turn|3
+|choice|move 3|move 3
+|
+|move|p1a: Mr. Mime|Psychic|p2a: Charmeleon
+|-damage|p2a: Charmeleon|40\/272 par
+|cant|p2a: Charmeleon|par
+|
+|turn|4
+|choice|move 3|move 3
+|
+|move|p1a: Mr. Mime|Psychic|p2a: Charmeleon
+|-damage|p2a: Charmeleon|0 fnt
+|faint|p2a: Charmeleon
+|choice||switch 3
+|
+|switch|p2a: Dragonair|Dragonair, L85|277\/277
+|turn|5
+|choice|move 1|move 3
+|
+|move|p1a: Mr. Mime|Thunder Wave|p2a: Dragonair
+|-status|p2a: Dragonair|par
+|move|p2a: Dragonair|Thunder Wave|p1a: Mr. Mime
+|-status|p1a: Mr. Mime|par
+|
+|turn|6
+|choice|move 3|move 1
+|
+|move|p1a: Mr. Mime|Psychic|p2a: Dragonair
+|-crit|p2a: Dragonair
+|-damage|p2a: Dragonair|66\/277 par
+|move|p2a: Dragonair|Agility|p2a: Dragonair
+|-boost|p2a: Dragonair|spe|2
+|
+|turn|7
+|choice|move 3|move 4
+|
+|cant|p2a: Dragonair|par
+|move|p1a: Mr. Mime|Psychic|p2a: Dragonair
+|-damage|p2a: Dragonair|0 fnt
+|faint|p2a: Dragonair
+|choice||switch 6
+|
+|switch|p2a: Golduck|Golduck, L85|310\/310
+|turn|8
+|choice|move 1|move 1
+|
+|move|p2a: Golduck|Amnesia|p2a: Golduck
+|-boost|p2a: Golduck|spd|2
+|-boost|p2a: Golduck|spa|2
+|move|p1a: Mr. Mime|Thunder Wave|p2a: Golduck
+|-status|p2a: Golduck|par
+|
+|turn|9
+|choice|move 2|move 1
+|
+|cant|p2a: Golduck|par
+|move|p1a: Mr. Mime|Thunderbolt|p2a: Golduck
+|-supereffective|p2a: Golduck
+|-damage|p2a: Golduck|237\/310 par
+|
+|turn|10
+|c|★MALESANI|paralysis on you doesn't work, lol
+|choice|move 2|move 1
+|
+|move|p2a: Golduck|Amnesia|p2a: Golduck
+|-boost|p2a: Golduck|spd|2
+|-boost|p2a: Golduck|spa|2
+|move|p1a: Mr. Mime|Thunderbolt|p2a: Golduck
+|-supereffective|p2a: Golduck
+|-damage|p2a: Golduck|181\/310 par
+|
+|turn|11
+|choice|move 2|move 3
+|
+|move|p2a: Golduck|Surf|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|0 fnt
+|faint|p1a: Mr. Mime
+|choice|switch 3|
+|
+|switch|p1a: Kabutops|Kabutops, L85|276\/276
+|turn|12
+|choice|move 2|switch 5
+|
+|switch|p2a: Gengar|Gengar, L79|257\/257
+|move|p1a: Kabutops|Hyper Beam|p2a: Gengar
+|-immune|p2a: Gengar|[msg]
+|
+|turn|13
+|choice|move 3|move 2
+|
+|move|p2a: Gengar|Thunderbolt|p1a: Kabutops
+|-crit|p1a: Kabutops
+|-supereffective|p1a: Kabutops
+|-damage|p1a: Kabutops|0 fnt
+|faint|p1a: Kabutops
+|choice|switch 6|
+|
+|switch|p1a: Marowak|Marowak, L90|291\/291
+|turn|14
+|choice|move 1|move 1
+|
+|move|p2a: Gengar|Hypnosis|p1a: Marowak
+|-status|p1a: Marowak|slp
+|cant|p1a: Marowak|slp
+|
+|turn|15
+|choice|move 1|move 3
+|
+|move|p2a: Gengar|Mega Drain|p1a: Marowak
+|-supereffective|p1a: Marowak
+|-damage|p1a: Marowak|204\/291 slp
+|cant|p1a: Marowak|slp
+|
+|turn|16
+|choice|move 1|move 3
+|
+|move|p2a: Gengar|Mega Drain|p1a: Marowak
+|-supereffective|p1a: Marowak
+|-damage|p1a: Marowak|129\/291 slp
+|cant|p1a: Marowak|slp
+|
+|turn|17
+|choice|switch 4|move 3
+|
+|switch|p1a: Ninetales|Ninetales, L85|298\/298
+|move|p2a: Gengar|Mega Drain|p1a: Ninetales
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|284\/298
+|
+|turn|18
+|choice|move 1|switch 5
+|
+|switch|p2a: Golduck|Golduck, L85|181\/310 par
+|move|p1a: Ninetales|Fire Blast|p2a: Golduck|[miss]
+|-miss|p1a: Ninetales
+|
+|turn|19
+|choice|switch 5|move 1
+|
+|switch|p1a: Nidorino|Nidorino, L90|293\/293
+|move|p2a: Golduck|Amnesia|p2a: Golduck
+|-boost|p2a: Golduck|spd|2
+|-boost|p2a: Golduck|spa|2
+|
+|turn|20
+|choice|move 1|move 1
+|
+|move|p1a: Nidorino|Thunder|p2a: Golduck|[miss]
+|-miss|p1a: Nidorino
+|move|p2a: Golduck|Amnesia|p2a: Golduck
+|-boost|p2a: Golduck|spd|2
+|-boost|p2a: Golduck|spa|2
+|
+|turn|21
+|choice|move 3|move 1
+|
+|move|p1a: Nidorino|Body Slam|p2a: Golduck
+|-damage|p2a: Golduck|116\/310 par
+|move|p2a: Golduck|Amnesia|p2a: Golduck
+|-boost|p2a: Golduck|spd|2
+|-boost|p2a: Golduck|spa|2
+|
+|turn|22
+|choice|move 4|move 2
+|
+|move|p1a: Nidorino|Double-Edge|p2a: Golduck
+|-damage|p2a: Golduck|47\/310 par
+|-damage|p1a: Nidorino|276\/293|[from] recoil|[of] p2a: Golduck
+|move|p2a: Golduck|Rest|p2a: Golduck
+|-status|p2a: Golduck|slp
+|-heal|p2a: Golduck|310\/310 slp|[silent]
+|-status|p2a: Golduck|slp|[from] move: Rest
+|
+|turn|23
+|choice|move 2|move 3
+|
+|move|p1a: Nidorino|Leer|p2a: Golduck
+|-unboost|p2a: Golduck|def|1
+|cant|p2a: Golduck|slp
+|
+|turn|24
+|choice|switch 2|move 3
+|
+|switch|p1a: Farfetch'd|Farfetch'd, L99|304\/304
+|-curestatus|p2a: Golduck|slp
+|
+|turn|25
+|choice|move 1|move 3
+|
+|move|p1a: Farfetch'd|Slash|p2a: Golduck
+|-crit|p2a: Golduck
+|-damage|p2a: Golduck|130\/310
+|move|p2a: Golduck|Surf|p1a: Farfetch'd
+|-damage|p1a: Farfetch'd|0 fnt
+|faint|p1a: Farfetch'd
+|choice|switch 5|
+|
+|switch|p1a: Ninetales|Ninetales, L85|284\/298
+|turn|26
+|choice|move 4|move 3
+|
+|move|p1a: Ninetales|Hyper Beam|p2a: Golduck
+|-damage|p2a: Golduck|0 fnt
+|faint|p2a: Golduck
+|choice||switch 4
+|
+|switch|p2a: Onix|Onix, L90|246\/246
+|turn|27
+|choice|switch 4|move 1
+|
+|switch|p1a: Marowak|Marowak, L90|129\/291 slp
+|move|p2a: Onix|Earthquake|p1a: Marowak
+|-damage|p1a: Marowak|66\/291 slp
+|
+|turn|28
+|choice|move 1|move 1
+|
+|move|p2a: Onix|Earthquake|p1a: Marowak
+|-damage|p1a: Marowak|5\/291 slp
+|cant|p1a: Marowak|slp
+|
+|turn|29
+|choice|move 1|move 4
+|
+|move|p2a: Onix|Rock Slide|p1a: Marowak
+|-crit|p1a: Marowak
+|-resisted|p1a: Marowak
+|-damage|p1a: Marowak|0 fnt
+|faint|p1a: Marowak
+|choice|switch 4|
+|
+|switch|p1a: Ninetales|Ninetales, L85|284\/298
+|turn|30
+|choice|move 3|switch 2
+|
+|switch|p2a: Mankey|Mankey, L96|272\/272
+|move|p1a: Ninetales|Reflect|p1a: Ninetales
+|-start|p1a: Ninetales|Reflect
+|
+|turn|31
+|choice|move 1|move 1
+|
+|move|p1a: Ninetales|Fire Blast|p2a: Mankey
+|-damage|p2a: Mankey|79\/272
+|move|p2a: Mankey|Mega Kick|p1a: Ninetales
+|-damage|p1a: Ninetales|235\/298
+|
+|turn|32
+|choice|move 2|move 4
+|
+|move|p1a: Ninetales|Double-Edge|p2a: Mankey
+|-crit|p2a: Mankey
+|-damage|p2a: Mankey|0 fnt
+|-damage|p1a: Ninetales|216\/298|[from] recoil|[of] p2a: Mankey
+|faint|p2a: Mankey
+|choice||switch 2
+|
+|switch|p2a: Onix|Onix, L90|246\/246
+|turn|33
+|choice|move 1|move 1
+|
+|move|p1a: Ninetales|Fire Blast|p2a: Onix
+|-resisted|p2a: Onix
+|-damage|p2a: Onix|132\/246
+|move|p2a: Onix|Earthquake|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|125\/298
+|
+|turn|34
+|choice|move 1|move 1
+|
+|move|p1a: Ninetales|Fire Blast|p2a: Onix
+|-resisted|p2a: Onix
+|-damage|p2a: Onix|32\/246
+|-status|p2a: Onix|brn
+|move|p2a: Onix|Earthquake|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|78\/298
+|-damage|p2a: Onix|17\/246 brn|[from] brn|[of] p1a: Ninetales
+|
+|turn|35
+|choice|move 1|move 2
+|
+|move|p1a: Ninetales|Fire Blast|p2a: Onix
+|-resisted|p2a: Onix
+|-damage|p2a: Onix|0 fnt
+|faint|p2a: Onix
+|choice||switch 5
+|
+|switch|p2a: Gengar|Gengar, L79|257\/257
+|turn|36
+|choice|move 1|move 2
+|
+|move|p1a: Ninetales|Fire Blast|p2a: Gengar
+|-damage|p2a: Gengar|155\/257
+|move|p2a: Gengar|Thunderbolt|p1a: Ninetales
+|-damage|p1a: Ninetales|12\/298
+|
+|turn|37
+|choice|move 1|move 2
+|
+|move|p1a: Ninetales|Fire Blast|p2a: Gengar
+|-damage|p2a: Gengar|46\/257
+|move|p2a: Gengar|Thunderbolt|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|choice|switch 2|
+|
+|switch|p1a: Nidorino|Nidorino, L90|276\/293
+|turn|38
+|choice|move 1|move 1
+|
+|move|p2a: Gengar|Hypnosis|p1a: Nidorino
+|-status|p1a: Nidorino|slp
+|cant|p1a: Nidorino|slp
+|
+|turn|39
+|c|★LibertarianMaster|please
+|c|★LibertarianMaster|no!
+|choice|move 1|move 2
+|
+|move|p2a: Gengar|Thunderbolt|p1a: Nidorino
+|-damage|p1a: Nidorino|182\/293 slp
+|cant|p1a: Nidorino|slp
+|
+|turn|40
+|c|★LibertarianMaster|damn
+|choice|move 1|move 2
+|
+|move|p2a: Gengar|Thunderbolt|p1a: Nidorino
+|-damage|p1a: Nidorino|96\/293 slp
+|-curestatus|p1a: Nidorino|slp
+|
+|turn|41
+|choice|move 1|move 4
+|
+|move|p2a: Gengar|Explosion|p1a: Nidorino
+|-crit|p1a: Nidorino
+|-damage|p1a: Nidorino|0 fnt
+|faint|p1a: Nidorino
+|faint|p2a: Gengar
+|
+|win|MALESANI
+|raw|LibertarianMaster's rating: 1379 &rarr; <strong>1357<\/strong><br \/>(-22 for losing)
+|raw|MALESANI's rating: 1341 &rarr; <strong>1363<\/strong><br \/>(+22 for winning)
+|c|★LibertarianMaster|lol
+|c|★LibertarianMaster|what?
+|c|★MALESANI|yep
+|c|★LibertarianMaster|how come u win?
+|c|★LibertarianMaster|shouldn't that be a draw?
+|c|★MALESANI|not on showdown

@@ -1,0 +1,396 @@
+﻿|j|khetrapal
+|j|pandajones23
+|player|p1|khetrapal|52
+|player|p2|pandajones23|250
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Magneton|Magneton, L90|100\/100
+|switch|p2a: Nidoran-F|Nidoran-F, L96|100\/100
+|turn|1
+|choice||
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Nidoran-F
+|-crit|p2a: Nidoran-F
+|-damage|p2a: Nidoran-F|0 fnt
+|faint|p2a: Nidoran-F
+|choice||
+|
+|switch|p2a: Kangaskhan|Kangaskhan, L85|100\/100
+|turn|2
+|choice||
+|
+|move|p2a: Kangaskhan|Earthquake|p1a: Magneton
+|-supereffective|p1a: Magneton
+|-damage|p1a: Magneton|55\/100
+|move|p1a: Magneton|Thunder Wave|p2a: Kangaskhan
+|-status|p2a: Kangaskhan|par
+|
+|turn|3
+|choice||
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|41\/100 par
+|move|p2a: Kangaskhan|Earthquake|p1a: Magneton
+|-supereffective|p1a: Magneton
+|-damage|p1a: Magneton|9\/100
+|
+|turn|4
+|choice||
+|
+|switch|p2a: Golem|Golem, L79|100\/100
+|move|p1a: Magneton|Thunderbolt|p2a: Golem
+|-immune|p2a: Golem|[msg]
+|
+|turn|5
+|choice||
+|
+|switch|p1a: Victreebel|Victreebel, L85|100\/100
+|move|p2a: Golem|Earthquake|p1a: Victreebel
+|-damage|p1a: Victreebel|61\/100
+|
+|turn|6
+|choice||
+|
+|switch|p2a: Kangaskhan|Kangaskhan, L85|41\/100 par
+|move|p1a: Victreebel|Razor Leaf|p2a: Kangaskhan
+|-crit|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|faint|p2a: Kangaskhan
+|choice||
+|
+|switch|p2a: Mew|Mew, L74|100\/100
+|turn|7
+|choice||
+|
+|switch|p1a: Magneton|Magneton, L90|9\/100
+|move|p2a: Mew|Thunder Wave|p1a: Magneton
+|-status|p1a: Magneton|par
+|
+|turn|8
+|choice||
+|
+|move|p2a: Mew|Swift|p1a: Magneton
+|-damage|p1a: Magneton|0 fnt
+|faint|p1a: Magneton
+|choice||
+|
+|switch|p1a: Aerodactyl|Aerodactyl, L90|100\/100
+|turn|9
+|choice||
+|
+|move|p1a: Aerodactyl|Reflect|p1a: Aerodactyl
+|-start|p1a: Aerodactyl|Reflect
+|move|p2a: Mew|Thunder Wave|p1a: Aerodactyl
+|-status|p1a: Aerodactyl|par
+|
+|turn|10
+|choice||
+|
+|move|p2a: Mew|Swift|p1a: Aerodactyl
+|-resisted|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|98\/100 par
+|cant|p1a: Aerodactyl|par
+|
+|turn|11
+|choice||
+|
+|move|p2a: Mew|Swift|p1a: Aerodactyl
+|-resisted|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|95\/100 par
+|cant|p1a: Aerodactyl|par
+|
+|turn|12
+|choice||
+|
+|switch|p2a: Golem|Golem, L79|100\/100
+|move|p1a: Aerodactyl|Double-Edge|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|89\/100
+|-damage|p1a: Aerodactyl|92\/100 par|[from] recoil|[of] p2a: Golem
+|
+|turn|13
+|choice||
+|
+|move|p2a: Golem|Rock Slide|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|66\/100 par
+|move|p1a: Aerodactyl|Sky Attack|p2a: Golem|[still]
+|-prepare|p1a: Aerodactyl|Sky Attack|p2a: Golem
+|
+|turn|14
+|choice||
+|
+|move|p2a: Golem|Rock Slide|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|39\/100 par
+|move|p1a: Aerodactyl|Sky Attack|p2a: Golem|[from]Sky Attack
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|63\/100
+|
+|turn|15
+|choice||
+|
+|switch|p1a: Starmie|Starmie, L79|100\/100
+|move|p2a: Golem|Rock Slide|p1a: Starmie
+|-damage|p1a: Starmie|68\/100
+|
+|turn|16
+|choice||
+|
+|switch|p2a: Slowbro|Slowbro, L79|100\/100
+|move|p1a: Starmie|Thunder Wave|p2a: Slowbro
+|-status|p2a: Slowbro|par
+|
+|turn|17
+|choice||
+|
+|switch|p1a: Victreebel|Victreebel, L85|61\/100
+|cant|p2a: Slowbro|par
+|
+|turn|18
+|choice||
+|
+|switch|p2a: Mew|Mew, L74|100\/100
+|move|p1a: Victreebel|Razor Leaf|p2a: Mew
+|-crit|p2a: Mew
+|-damage|p2a: Mew|57\/100
+|
+|turn|19
+|choice||
+|
+|switch|p1a: Aerodactyl|Aerodactyl, L90|39\/100 par
+|move|p2a: Mew|Thunder Wave|p1a: Aerodactyl
+|-fail|p1a: Aerodactyl|par
+|
+|turn|20
+|choice||
+|
+|move|p2a: Mew|Swift|p1a: Aerodactyl
+|-resisted|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|34\/100 par
+|move|p1a: Aerodactyl|Hyper Beam|p2a: Mew
+|-damage|p2a: Mew|15\/100
+|
+|turn|21
+|-mustrecharge|p1a: Aerodactyl
+|-mustrecharge|p1a: Aerodactyl
+|choice||
+|
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|64\/100
+|cant|p1a: Aerodactyl|recharge
+|
+|turn|22
+|choice||
+|
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|100\/100
+|move|p1a: Aerodactyl|Hyper Beam|p2a: Mew
+|-damage|p2a: Mew|59\/100
+|
+|turn|23
+|-mustrecharge|p1a: Aerodactyl
+|-mustrecharge|p1a: Aerodactyl
+|choice||
+|
+|move|p2a: Mew|Swift|p1a: Aerodactyl
+|-resisted|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|28\/100 par
+|cant|p1a: Aerodactyl|recharge
+|
+|turn|24
+|choice||
+|
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|100\/100
+|move|p1a: Aerodactyl|Sky Attack|p2a: Mew|[still]
+|-prepare|p1a: Aerodactyl|Sky Attack|p2a: Mew
+|
+|turn|25
+|choice||
+|
+|switch|p2a: Golem|Golem, L79|63\/100
+|move|p1a: Aerodactyl|Sky Attack|p2a: Golem|[from]Sky Attack
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|38\/100
+|
+|turn|26
+|choice||
+|
+|switch|p1a: Starmie|Starmie, L79|68\/100
+|move|p2a: Golem|Rock Slide|p1a: Starmie
+|-damage|p1a: Starmie|34\/100
+|
+|turn|27
+|choice||
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|84\/100
+|move|p2a: Golem|Earthquake|p1a: Starmie
+|-damage|p1a: Starmie|39\/100
+|
+|turn|28
+|choice||
+|
+|switch|p2a: Slowbro|Slowbro, L79|100\/100 par
+|move|p1a: Starmie|Surf|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|84\/100 par
+|
+|turn|29
+|choice||
+|
+|switch|p1a: Victreebel|Victreebel, L85|61\/100
+|cant|p2a: Slowbro|par
+|
+|turn|30
+|choice||
+|
+|move|p1a: Victreebel|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|65\/100 par
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|-heal|p2a: Slowbro|100\/100 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|
+|turn|31
+|choice||
+|
+|move|p1a: Victreebel|Razor Leaf|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|12\/100 slp
+|cant|p2a: Slowbro|slp
+|
+|turn|32
+|choice||
+|
+|switch|p2a: Mew|Mew, L74|100\/100
+|move|p1a: Victreebel|Body Slam|p2a: Mew
+|-damage|p2a: Mew|77\/100
+|-status|p2a: Mew|par
+|
+|turn|33
+|choice||
+|
+|switch|p1a: Aerodactyl|Aerodactyl, L90|28\/100 par
+|move|p2a: Mew|Swift|p1a: Aerodactyl
+|-resisted|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|22\/100 par
+|
+|turn|34
+|choice||
+|
+|switch|p2a: Tentacruel|Tentacruel, L85|100\/100
+|cant|p1a: Aerodactyl|par
+|
+|turn|35
+|choice||
+|
+|switch|p1a: Starmie|Starmie, L79|39\/100
+|move|p2a: Tentacruel|Swords Dance|p2a: Tentacruel
+|-boost|p2a: Tentacruel|atk|2
+|
+|turn|36
+|choice||
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Tentacruel
+|-status|p2a: Tentacruel|par
+|move|p2a: Tentacruel|Hyper Beam|p1a: Starmie
+|-crit|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|choice||
+|
+|switch|p1a: Victreebel|Victreebel, L85|61\/100
+|turn|37
+|choice||
+|
+|move|p1a: Victreebel|Razor Leaf|p2a: Tentacruel
+|-crit|p2a: Tentacruel
+|-damage|p2a: Tentacruel|70\/100 par
+|move|p2a: Tentacruel|Hyper Beam|p1a: Victreebel
+|-damage|p1a: Victreebel|0 fnt
+|faint|p1a: Victreebel
+|choice||
+|
+|switch|p1a: Persian|Persian, L79|100\/100
+|turn|38
+|choice||
+|
+|move|p1a: Persian|Thunderbolt|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|47\/100 par
+|move|p2a: Tentacruel|Hyper Beam|p1a: Persian
+|-damage|p1a: Persian|13\/100
+|
+|turn|39
+|-mustrecharge|p2a: Tentacruel
+|-mustrecharge|p2a: Tentacruel
+|choice||
+|
+|move|p1a: Persian|Hyper Beam|p2a: Tentacruel
+|-damage|p2a: Tentacruel|4\/100 par
+|cant|p2a: Tentacruel|recharge
+|
+|turn|40
+|-mustrecharge|p1a: Persian
+|-mustrecharge|p1a: Persian
+|choice||
+|
+|cant|p1a: Persian|recharge
+|cant|p2a: Tentacruel|par
+|
+|turn|41
+|choice||
+|
+|move|p1a: Persian|Slash|p2a: Tentacruel
+|-crit|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|choice||
+|
+|switch|p2a: Golem|Golem, L79|38\/100
+|turn|42
+|choice||
+|
+|move|p1a: Persian|Bubble Beam|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|choice||
+|
+|switch|p2a: Slowbro|Slowbro, L79|12\/100 slp
+|turn|43
+|choice||
+|
+|move|p1a: Persian|Thunderbolt|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|choice||
+|
+|switch|p2a: Mew|Mew, L74|77\/100 par
+|turn|44
+|choice||
+|
+|move|p1a: Persian|Hyper Beam|p2a: Mew
+|-damage|p2a: Mew|40\/100 par
+|cant|p2a: Mew|par
+|
+|turn|45
+|-mustrecharge|p1a: Persian
+|-message|pandajones23 forfeited.
+|
+|win|khetrapal
+|player|p1
+|player|p2
+|l|pandajones23

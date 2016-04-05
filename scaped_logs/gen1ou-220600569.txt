@@ -1,0 +1,385 @@
+﻿|join|NixHex
+|join|Grizou88
+|player|p1|NixHex|102
+|player|p2|Grizou88|238
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gengar|Gengar|323\/323
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|1
+|
+|move|p2a: Gengar|Hypnosis|p1a: Gengar
+|-status|p1a: Gengar|slp
+|cant|p1a: Gengar|slp
+|
+|turn|2
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|switch|p1a: Hypno|Hypno|373\/373
+|
+|turn|3
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Exeggutor|Stun Spore|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|turn|4
+|
+|switch|p1a: Hypno|Hypno|373\/373
+|move|p2a: Exeggutor|Psychic|p1a: Hypno
+|-resisted|p1a: Hypno
+|-damage|p1a: Hypno|318\/373
+|-unboost|p1a: Hypno|spd|1
+|-unboost|p1a: Hypno|spa|1
+|
+|turn|5
+|
+|move|p1a: Hypno|Thunder Wave|p2a: Exeggutor
+|-status|p2a: Exeggutor|par
+|move|p2a: Exeggutor|Psychic|p1a: Hypno
+|-resisted|p1a: Hypno
+|-damage|p1a: Hypno|232\/373
+|
+|turn|6
+|
+|move|p1a: Hypno|Headbutt|p2a: Exeggutor
+|-damage|p2a: Exeggutor|346\/393 par
+|move|p2a: Exeggutor|Stun Spore|p1a: Hypno
+|-status|p1a: Hypno|par
+|
+|turn|7
+|
+|move|p1a: Hypno|Psychic|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|248\/393 par
+|-unboost|p2a: Exeggutor|spd|1
+|-unboost|p2a: Exeggutor|spa|1
+|move|p2a: Exeggutor|Psychic|p1a: Hypno
+|-resisted|p1a: Hypno
+|-damage|p1a: Hypno|172\/373 par
+|
+|turn|8
+|
+|move|p1a: Hypno|Rest|p1a: Hypno
+|-status|p1a: Hypno|slp
+|-heal|p1a: Hypno|373\/373 slp|[silent]
+|-status|p1a: Hypno|slp|[from] move: Rest
+|move|p2a: Exeggutor|Psychic|p1a: Hypno
+|-resisted|p1a: Hypno
+|-damage|p1a: Hypno|318\/373 slp
+|
+|turn|9
+|
+|switch|p2a: Slowbro|Slowbro|393\/393
+|cant|p1a: Hypno|slp
+|
+|turn|10
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|11
+|
+|move|p1a: Exeggutor|Sleep Powder|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|cant|p2a: Slowbro|slp
+|
+|turn|12
+|
+|switch|p2a: Exeggutor|Exeggutor|248\/393 par
+|move|p1a: Exeggutor|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|193\/393 par
+|
+|turn|13
+|
+|switch|p1a: Hypno|Hypno|318\/373 slp
+|move|p2a: Exeggutor|Stun Spore|p1a: Hypno
+|-fail|p1a: Hypno
+|
+|turn|14
+|
+|cant|p1a: Hypno|slp
+|-curestatus|p1a: Hypno|slp
+|move|p2a: Exeggutor|Psychic|p1a: Hypno
+|-resisted|p1a: Hypno
+|-damage|p1a: Hypno|264\/373
+|
+|turn|15
+|
+|move|p1a: Hypno|Headbutt|p2a: Exeggutor
+|-damage|p2a: Exeggutor|141\/393 par
+|cant|p2a: Exeggutor|flinch
+|
+|turn|16
+|
+|move|p1a: Hypno|Headbutt|p2a: Exeggutor
+|-damage|p2a: Exeggutor|92\/393 par
+|cant|p2a: Exeggutor|flinch
+|
+|turn|17
+|
+|move|p1a: Hypno|Headbutt|p2a: Exeggutor
+|-damage|p2a: Exeggutor|46\/393 par
+|cant|p2a: Exeggutor|flinch
+|
+|turn|18
+|
+|move|p1a: Hypno|Headbutt|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Slowbro|Slowbro|393\/393 slp
+|turn|19
+|
+|move|p1a: Hypno|Psychic|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|327\/393 slp
+|-unboost|p2a: Slowbro|spd|1
+|-unboost|p2a: Slowbro|spa|1
+|cant|p2a: Slowbro|slp
+|
+|turn|20
+|
+|move|p1a: Hypno|Psychic|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|227\/393 slp
+|cant|p2a: Slowbro|slp
+|
+|turn|21
+|
+|move|p1a: Hypno|Psychic|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|123\/393 slp
+|-unboost|p2a: Slowbro|spd|1
+|-unboost|p2a: Slowbro|spa|1
+|cant|p2a: Slowbro|slp
+|
+|turn|22
+|
+|move|p1a: Hypno|Psychic|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|
+|switch|p2a: Rhydon|Rhydon|413\/413
+|turn|23
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Rhydon|Earthquake|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|312\/393
+|
+|turn|24
+|
+|move|p1a: Exeggutor|Sleep Powder|p2a: Rhydon
+|-status|p2a: Rhydon|slp
+|cant|p2a: Rhydon|slp
+|-curestatus|p2a: Rhydon|slp
+|
+|turn|25
+|
+|move|p1a: Exeggutor|Sleep Powder|p2a: Rhydon
+|-status|p2a: Rhydon|slp
+|cant|p2a: Rhydon|slp
+|
+|turn|26
+|
+|move|p1a: Exeggutor|Psychic|p2a: Rhydon
+|-damage|p2a: Rhydon|202\/413 slp
+|-unboost|p2a: Rhydon|spd|1
+|-unboost|p2a: Rhydon|spa|1
+|cant|p2a: Rhydon|slp
+|
+|turn|27
+|
+|move|p1a: Exeggutor|Psychic|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|28
+|
+|move|p2a: Tauros|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|176\/393
+|move|p1a: Exeggutor|Stun Spore|p2a: Tauros
+|-status|p2a: Tauros|par
+|
+|turn|29
+|
+|switch|p1a: Hypno|Hypno|264\/373
+|move|p2a: Tauros|Hyper Beam|p1a: Hypno
+|-damage|p1a: Hypno|48\/373
+|
+|turn|30
+|
+|move|p1a: Hypno|Psychic|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|78\/353 par
+|cant|p2a: Tauros|recharge
+|
+|turn|31
+|
+|move|p1a: Hypno|Psychic|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|32
+|
+|switch|p1a: Chansey|Chansey|703\/703 par
+|move|p2a: Gengar|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|617\/703 par
+|
+|turn|33
+|
+|switch|p1a: Gengar|Gengar|323\/323 slp
+|move|p2a: Gengar|Thunderbolt|p1a: Gengar
+|-damage|p1a: Gengar|243\/323 slp
+|
+|turn|34
+|
+|cant|p1a: Gengar|slp
+|move|p2a: Gengar|Thunderbolt|p1a: Gengar
+|-crit|p1a: Gengar
+|-damage|p1a: Gengar|109\/323 slp
+|
+|turn|35
+|
+|switch|p1a: Nidoking|Nidoking|365\/365
+|move|p2a: Gengar|Thunderbolt|p1a: Nidoking|[miss]
+|-miss|p2a: Gengar
+|-immune|p1a: Nidoking|[msg]
+|
+|turn|36
+|
+|move|p2a: Gengar|Mega Drain|p1a: Nidoking
+|-damage|p1a: Nidoking|322\/365
+|move|p1a: Nidoking|Earthquake|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|12\/323
+|
+|turn|37
+|
+|switch|p1a: Gengar|Gengar|109\/323 slp
+|move|p2a: Gengar|Thunderbolt|p1a: Gengar
+|-damage|p1a: Gengar|40\/323 slp
+|
+|turn|38
+|
+|cant|p1a: Gengar|slp
+|move|p2a: Gengar|Thunderbolt|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|switch|p1a: Nidoking|Nidoking|322\/365
+|turn|39
+|
+|move|p2a: Gengar|Hypnosis|p1a: Nidoking
+|-status|p1a: Nidoking|slp
+|cant|p1a: Nidoking|slp
+|
+|turn|40
+|
+|switch|p1a: Exeggutor|Exeggutor|176\/393
+|move|p2a: Gengar|Mega Drain|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|159\/393
+|-heal|p2a: Gengar|20\/323|[from] drain|[of] p1a: Exeggutor
+|
+|turn|41
+|
+|move|p2a: Gengar|Explosion|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|faint|p2a: Gengar
+|
+|switch|p2a: Dragonite|Dragonite|385\/385
+|switch|p1a: Chansey|Chansey|617\/703 par
+|turn|42
+|
+|move|p2a: Dragonite|Agility|p2a: Dragonite
+|-boost|p2a: Dragonite|spe|2
+|move|p1a: Chansey|Ice Beam|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|77\/385
+|
+|turn|43
+|
+|move|p2a: Dragonite|Wrap|p1a: Chansey
+|-damage|p1a: Chansey|575\/703 par
+|-activate|p1a: Chansey|move: Wrap|[of] p2a: Dragonite
+|cant|p1a: Chansey|par
+|
+|turn|44
+|
+|move|p2a: Dragonite|Wrap|p1a: Chansey
+|-damage|p1a: Chansey|533\/703 par
+|cant|p1a: Chansey|partiallytrapped
+|
+|-end|p1a: Chansey|Wrap|[partiallytrapped]
+|turn|45
+|
+|move|p2a: Dragonite|Wrap|p1a: Chansey
+|-damage|p1a: Chansey|495\/703 par
+|-activate|p1a: Chansey|move: Wrap|[of] p2a: Dragonite
+|cant|p1a: Chansey|partiallytrapped
+|
+|turn|46
+|
+|move|p2a: Dragonite|Wrap|p1a: Chansey
+|-damage|p1a: Chansey|457\/703 par
+|cant|p1a: Chansey|partiallytrapped
+|
+|turn|47
+|
+|move|p2a: Dragonite|Wrap|p1a: Chansey
+|-damage|p1a: Chansey|419\/703 par
+|cant|p1a: Chansey|par
+|
+|turn|48
+|
+|move|p2a: Dragonite|Wrap|p1a: Chansey
+|-damage|p1a: Chansey|381\/703 par
+|cant|p1a: Chansey|par
+|
+|-end|p1a: Chansey|Wrap|[partiallytrapped]
+|turn|49
+|
+|move|p2a: Dragonite|Wrap|p1a: Chansey|[miss]
+|-miss|p2a: Dragonite
+|cant|p1a: Chansey|par
+|
+|turn|50
+|c|★NixHex|noo
+|
+|move|p2a: Dragonite|Wrap|p1a: Chansey|[miss]
+|-miss|p2a: Dragonite
+|move|p1a: Chansey|Ice Beam|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|win|NixHex
+|raw|Ladder updating...
+|raw|NixHex's rating: 1208 &rarr; <strong>1225<\/strong><br \/>(+17 for winning)
+|raw|Grizou88's rating: 1085 &rarr; <strong>1070<\/strong><br \/>(-15 for losing)
+|c|★NixHex|therhe we go
+|c|★NixHex|gg
+|c|★Grizou88|gg

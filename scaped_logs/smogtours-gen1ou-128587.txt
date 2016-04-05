@@ -1,0 +1,367 @@
+﻿|J|Alexander
+|J|Tesung
+|player|p1|Alexander|101
+|player|p2|Tesung|266
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|seed|12119,25754,9010,5517
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gengar|Gengar|323\/323
+|switch|p2a: Starmie|Starmie|323\/323
+|turn|1
+|J|KratosMana
+|choice|switch 4|move 4
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Starmie|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|600\/703
+|
+|turn|2
+|J|Kingler12345
+|J|W3K
+|choice|move 1|move 4
+|
+|move|p2a: Starmie|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|503\/703
+|move|p1a: Chansey|Sing|p2a: Starmie
+|-status|p2a: Starmie|slp
+|
+|turn|3
+|choice|move 3|move 4
+|
+|cant|p2a: Starmie|slp
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703
+|
+|turn|4
+|choice|move 2|move 4
+|
+|cant|p2a: Starmie|slp
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|223\/323 slp
+|
+|turn|5
+|choice|move 2|switch 5
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Chansey|Seismic Toss|p2a: Exeggutor
+|-damage|p2a: Exeggutor|293\/393
+|
+|turn|6
+|choice|switch 4|move 4
+|
+|switch|p1a: Gengar|Gengar|323\/323
+|move|p2a: Exeggutor|Sleep Powder|p1a: Gengar
+|-status|p1a: Gengar|slp
+|
+|turn|7
+|J|ABR
+|choice|switch 6|move 3
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|move|p2a: Exeggutor|Stun Spore|p1a: Starmie
+|-status|p1a: Starmie|par
+|
+|turn|8
+|J|Rinzer
+|L|ABR
+|J|Pohjis
+|choice|move 1|switch 6
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|cant|p1a: Starmie|par
+|
+|turn|9
+|choice|switch 4|move 2
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Chansey|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|603\/703
+|
+|turn|10
+|J|bouff
+|choice|move 4|move 3
+|
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|turn|11
+|choice|move 2|switch 3
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Chansey|Seismic Toss|p2a: Snorlax
+|-damage|p2a: Snorlax|423\/523
+|
+|turn|12
+|choice|switch 5|move 2
+|
+|switch|p1a: Golem|Golem|363\/363
+|move|p2a: Snorlax|Headbutt|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|325\/363
+|
+|turn|13
+|choice|move 3|switch 6
+|
+|switch|p2a: Exeggutor|Exeggutor|293\/393
+|move|p1a: Golem|Rock Slide|p2a: Exeggutor
+|-damage|p2a: Exeggutor|192\/393
+|
+|turn|14
+|choice|switch 4|move 2
+|
+|switch|p1a: Starmie|Starmie|323\/323 par
+|move|p2a: Exeggutor|Explosion|p1a: Starmie
+|-damage|p1a: Starmie|13\/323 par
+|faint|p2a: Exeggutor
+|choice||switch 4
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|15
+|choice|switch 6|move 2
+|
+|switch|p1a: Gengar|Gengar|323\/323 slp
+|move|p2a: Tauros|Earthquake|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|115\/323 slp
+|
+|turn|16
+|choice|move 2|move 3
+|
+|cant|p1a: Gengar|slp
+|move|p2a: Tauros|Blizzard|p1a: Gengar
+|-damage|p1a: Gengar|57\/323 slp
+|
+|turn|17
+|choice|move 2|move 3
+|
+|-curestatus|p1a: Gengar|slp
+|move|p2a: Tauros|Blizzard|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|choice|switch 3|
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|turn|18
+|choice|move 1|switch 6
+|
+|switch|p2a: Snorlax|Snorlax|423\/523
+|move|p1a: Snorlax|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|296\/523
+|
+|turn|19
+|choice|move 3|move 1
+|
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|389\/523
+|move|p1a: Snorlax|Counter|p2a: Snorlax
+|-damage|p2a: Snorlax|28\/523
+|
+|turn|20
+|choice|switch 4|move 3
+|
+|switch|p1a: Golem|Golem|325\/363
+|move|p2a: Snorlax|Self-Destruct|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|181\/363
+|faint|p2a: Snorlax
+|L|Kingler12345
+|J|e7e
+|L|e7e
+|choice||switch 2
+|
+|switch|p2a: Cloyster|Cloyster|303\/303
+|turn|21
+|choice|switch 5|move 4
+|
+|switch|p1a: Chansey|Chansey|603\/703 par
+|move|p2a: Cloyster|Clamp|p1a: Chansey|[miss]
+|-miss|p2a: Cloyster
+|
+|turn|22
+|choice|move 4|move 4
+|
+|move|p2a: Cloyster|Clamp|p1a: Chansey|[miss]
+|-miss|p2a: Cloyster
+|move|p1a: Chansey|Thunder Wave|p2a: Cloyster
+|-status|p2a: Cloyster|par
+|
+|turn|23
+|c|★Tesung|rip
+|choice|move 2|move 4
+|
+|move|p2a: Cloyster|Clamp|p1a: Chansey
+|-damage|p1a: Chansey|564\/703 par
+|-activate|p1a: Chansey|move: Clamp|[of] p2a: Cloyster
+|cant|p1a: Chansey|partiallytrapped
+|
+|turn|24
+|choice|move 3|move 4
+|
+|move|p2a: Cloyster|Clamp|p1a: Chansey|[from]Clamp
+|-damage|p1a: Chansey|525\/703 par
+|cant|p1a: Chansey|partiallytrapped
+|
+|turn|25
+|choice|move 3|move 4
+|
+|cant|p2a: Cloyster|par
+|cant|p1a: Chansey|par
+|
+|-end|p1a: Chansey|Clamp|[partiallytrapped]
+|turn|26
+|choice|move 3|move 4
+|
+|cant|p2a: Cloyster|par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703 par
+|
+|turn|27
+|choice|move 2|move 2
+|
+|cant|p2a: Cloyster|par
+|move|p1a: Chansey|Seismic Toss|p2a: Cloyster
+|-damage|p2a: Cloyster|203\/303 par
+|
+|turn|28
+|choice|move 2|move 4
+|
+|move|p2a: Cloyster|Clamp|p1a: Chansey|[miss]
+|-miss|p2a: Cloyster
+|move|p1a: Chansey|Seismic Toss|p2a: Cloyster
+|-damage|p2a: Cloyster|103\/303 par
+|
+|turn|29
+|choice|switch 6|move 4
+|
+|switch|p1a: Starmie|Starmie|13\/323 par
+|move|p2a: Cloyster|Clamp|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|J|LT1 Eye U
+|c|★Tesung|damn
+|L|LT1 Eye U
+|choice|switch 4|
+|
+|switch|p1a: Snorlax|Snorlax|389\/523
+|turn|30
+|c|★Tesung|boomed the last  one
+|c|★Tesung|guesss i deserve for using cloy
+|choice|move 4|switch 5
+|
+|switch|p2a: Starmie|Starmie|223\/323 slp
+|move|p1a: Snorlax|Hyper Beam|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|choice||switch 3
+|
+|switch|p2a: Chansey|Chansey|703\/703 par
+|turn|31
+|c|★Alexander|na u were just unlucky
+|choice|switch 5|move 1
+|
+|switch|p1a: Golem|Golem|181\/363
+|move|p2a: Chansey|Sing|p1a: Golem
+|-status|p1a: Golem|slp
+|
+|turn|32
+|choice|switch 6|move 2
+|
+|switch|p1a: Chansey|Chansey|703\/703 par
+|move|p2a: Chansey|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|603\/703 par
+|
+|turn|33
+|choice|move 2|switch 5
+|
+|switch|p2a: Cloyster|Cloyster|103\/303 par
+|move|p1a: Chansey|Seismic Toss|p2a: Cloyster
+|-damage|p2a: Cloyster|3\/303 par
+|
+|turn|34
+|choice|switch 6|move 4
+|
+|switch|p1a: Golem|Golem|181\/363 slp
+|move|p2a: Cloyster|Clamp|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|0 fnt
+|faint|p1a: Golem
+|choice|switch 2|
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|35
+|choice|move 2|move 2
+|
+|move|p1a: Tauros|Body Slam|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p2a: Cloyster
+|choice||switch 6
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|36
+|choice|move 2|move 3
+|
+|move|p2a: Tauros|Blizzard|p1a: Tauros
+|-damage|p1a: Tauros|265\/353
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|246\/353
+|
+|turn|37
+|choice|move 2|move 1
+|
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|157\/353
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|146\/353
+|
+|turn|38
+|choice|move 4|move 4
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|c|★Tesung|gooo bull
+|choice|switch 5|
+|
+|switch|p1a: Snorlax|Snorlax|389\/523
+|turn|39
+|choice|move 1|move 3
+|
+|move|p2a: Tauros|Blizzard|p1a: Snorlax
+|-damage|p1a: Snorlax|292\/523
+|move|p1a: Snorlax|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|44\/353
+|
+|turn|40
+|choice|move 1|move 4
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|65\/523
+|move|p1a: Snorlax|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|choice||switch 5
+|
+|switch|p2a: Chansey|Chansey|703\/703 par
+|turn|41
+|choice|move 2|move 2
+|
+|move|p1a: Snorlax|Self-Destruct|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|faint|p1a: Snorlax
+|
+|win|Alexander

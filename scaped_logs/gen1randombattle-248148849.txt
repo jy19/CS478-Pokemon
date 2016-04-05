@@ -1,0 +1,139 @@
+﻿|join|yaldyyyy
+|join|infernap27
+|player|p1|yaldyyyy|265
+|player|p2|infernap27|3
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Paras|Paras, L96|262\/262
+|switch|p2a: Nidorina|Nidorina, L90|309\/309
+|turn|1
+|
+|move|p2a: Nidorina|Thunderbolt|p1a: Paras
+|-resisted|p1a: Paras
+|-damage|p1a: Paras|233\/262
+|move|p1a: Paras|Spore|p2a: Nidorina
+|-status|p2a: Nidorina|slp
+|
+|turn|2
+|
+|switch|p2a: Golem|Golem, L79|288\/288
+|move|p1a: Paras|Swords Dance|p1a: Paras
+|-boost|p1a: Paras|atk|2
+|
+|turn|3
+|
+|move|p2a: Golem|Rock Slide|p1a: Paras
+|-supereffective|p1a: Paras
+|-damage|p1a: Paras|57\/262
+|move|p1a: Paras|Stun Spore|p2a: Golem
+|-status|p2a: Golem|par
+|
+|turn|4
+|
+|move|p1a: Paras|Double-Edge|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|227\/288 par
+|-damage|p1a: Paras|42\/262|[from] recoil|[of] p2a: Golem
+|move|p2a: Golem|Rock Slide|p1a: Paras|[miss]
+|-miss|p2a: Golem
+|
+|turn|5
+|
+|move|p1a: Paras|Double-Edge|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|164\/288 par
+|-damage|p1a: Paras|27\/262|[from] recoil|[of] p2a: Golem
+|move|p2a: Golem|Body Slam|p1a: Paras
+|-damage|p1a: Paras|0 fnt
+|faint|p1a: Paras
+|
+|switch|p1a: Tentacruel|Tentacruel, L85|310\/310
+|turn|6
+|
+|switch|p2a: Nidoking|Nidoking, L85|311\/311
+|move|p1a: Tentacruel|Hydro Pump|p2a: Nidoking
+|-crit|p2a: Nidoking
+|-supereffective|p2a: Nidoking
+|-damage|p2a: Nidoking|0 fnt
+|faint|p2a: Nidoking
+|
+|switch|p2a: Raticate|Raticate, L85|267\/267
+|turn|7
+|
+|move|p1a: Tentacruel|Hydro Pump|p2a: Raticate|[miss]
+|-miss|p1a: Tentacruel
+|move|p2a: Raticate|Super Fang|p1a: Tentacruel
+|-damage|p1a: Tentacruel|155\/310
+|
+|turn|8
+|
+|move|p1a: Tentacruel|Hydro Pump|p2a: Raticate
+|-damage|p2a: Raticate|71\/267
+|move|p2a: Raticate|Body Slam|p1a: Tentacruel
+|-damage|p1a: Tentacruel|58\/310
+|-status|p1a: Tentacruel|par
+|
+|turn|9
+|
+|move|p2a: Raticate|Body Slam|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|switch|p1a: Snorlax|Snorlax, L79|415\/415
+|turn|10
+|
+|move|p2a: Raticate|Super Fang|p1a: Snorlax
+|-damage|p1a: Snorlax|208\/415
+|move|p1a: Snorlax|Hyper Beam|p2a: Raticate
+|-damage|p2a: Raticate|0 fnt
+|faint|p2a: Raticate
+|
+|switch|p2a: Golem|Golem, L79|164\/288 par
+|turn|11
+|
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|cant|p2a: Golem|par
+|
+|turn|12
+|
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|move|p2a: Golem|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|89\/415
+|
+|turn|13
+|
+|move|p1a: Snorlax|Hyper Beam|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|106\/288 par
+|move|p2a: Golem|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|switch|p1a: Gengar|Gengar, L79|257\/257
+|turn|14
+|
+|move|p1a: Gengar|Psychic|p2a: Golem
+|-damage|p2a: Golem|9\/288 par
+|-unboost|p2a: Golem|spd|1
+|-unboost|p2a: Golem|spa|1
+|move|p2a: Golem|Earthquake|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|leave|yaldyyyy
+|player|p1
+|-message|yaldyyyy lost due to inactivity.
+|
+|win|infernap27
+|raw|Ladder updating...

@@ -1,0 +1,194 @@
+﻿|join|realkirito
+|join|shinydiancieplz
+|player|p1|realkirito|52
+|player|p2|shinydiancieplz|20
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Psyduck|Psyduck, L96|291\/291
+|switch|p2a: Nidoran-F|Nidoran-F, L96|300\/300
+|turn|1
+|
+|switch|p2a: Zapdos|Zapdos, L79|304\/304
+|move|p1a: Psyduck|Blizzard|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|177\/304
+|
+|turn|2
+|
+|switch|p1a: Dodrio|Dodrio, L85|276\/276
+|move|p2a: Zapdos|Thunderbolt|p1a: Dodrio
+|-supereffective|p1a: Dodrio
+|-damage|p1a: Dodrio|24\/276
+|
+|turn|3
+|
+|move|p1a: Dodrio|Hyper Beam|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|switch|p2a: Kangaskhan|Kangaskhan, L85|352\/352
+|turn|4
+|
+|move|p1a: Dodrio|Hyper Beam|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|163\/352
+|move|p2a: Kangaskhan|Counter|p1a: Dodrio
+|-damage|p1a: Dodrio|0 fnt
+|faint|p1a: Dodrio
+|
+|switch|p1a: Farfetch'd|Farfetch'd, L99|304\/304
+|turn|5
+|
+|move|p2a: Kangaskhan|Surf|p1a: Farfetch'd
+|-crit|p1a: Farfetch'd
+|-damage|p1a: Farfetch'd|219\/304
+|move|p1a: Farfetch'd|Swords Dance|p1a: Farfetch'd
+|-boost|p1a: Farfetch'd|atk|2
+|
+|turn|6
+|
+|move|p2a: Kangaskhan|Earthquake|p1a: Farfetch'd
+|-immune|p1a: Farfetch'd|[msg]
+|move|p1a: Farfetch'd|Slash|p2a: Kangaskhan
+|-crit|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|15\/352
+|
+|turn|7
+|
+|move|p2a: Kangaskhan|Body Slam|p1a: Farfetch'd
+|-crit|p1a: Farfetch'd
+|-damage|p1a: Farfetch'd|27\/304
+|move|p1a: Farfetch'd|Slash|p2a: Kangaskhan
+|-crit|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|faint|p2a: Kangaskhan
+|
+|switch|p2a: Exeggutor|Exeggutor, L79|312\/312
+|turn|8
+|
+|move|p1a: Farfetch'd|Slash|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-damage|p2a: Exeggutor|135\/312
+|move|p2a: Exeggutor|Mega Drain|p1a: Farfetch'd
+|-resisted|p1a: Farfetch'd
+|-damage|p1a: Farfetch'd|4\/304
+|-heal|p2a: Exeggutor|146\/312|[from] drain|[of] p1a: Farfetch'd
+|
+|turn|9
+|
+|move|p1a: Farfetch'd|Slash|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Rhyhorn|Rhyhorn, L96|348\/348
+|turn|10
+|
+|move|p1a: Farfetch'd|Slash|p2a: Rhyhorn
+|-crit|p2a: Rhyhorn
+|-resisted|p2a: Rhyhorn
+|-damage|p2a: Rhyhorn|285\/348
+|move|p2a: Rhyhorn|Rock Slide|p1a: Farfetch'd
+|-supereffective|p1a: Farfetch'd
+|-damage|p1a: Farfetch'd|0 fnt
+|faint|p1a: Farfetch'd
+|
+|switch|p1a: Jynx|Jynx, L79|265\/265
+|turn|11
+|
+|move|p1a: Jynx|Blizzard|p2a: Rhyhorn
+|-supereffective|p2a: Rhyhorn
+|-damage|p2a: Rhyhorn|0 fnt
+|faint|p2a: Rhyhorn
+|
+|switch|p2a: Nidoran-F|Nidoran-F, L96|300\/300
+|turn|12
+|
+|move|p1a: Jynx|Blizzard|p2a: Nidoran-F
+|-damage|p2a: Nidoran-F|154\/300
+|move|p2a: Nidoran-F|Double-Edge|p1a: Jynx
+|-damage|p1a: Jynx|162\/265
+|-damage|p2a: Nidoran-F|129\/300|[from] recoil|[of] p1a: Jynx
+|
+|turn|13
+|
+|move|p1a: Jynx|Blizzard|p2a: Nidoran-F
+|-damage|p2a: Nidoran-F|0 fnt
+|faint|p2a: Nidoran-F
+|
+|switch|p2a: Ditto|Ditto, L99|296\/296
+|turn|14
+|
+|move|p1a: Jynx|Blizzard|p2a: Ditto
+|-damage|p2a: Ditto|171\/296
+|move|p2a: Ditto|Transform|p1a: Jynx
+|-transform|p2a: Ditto|p1a: Jynx
+|
+|turn|15
+|
+|move|p1a: Jynx|Mimic|p2a: Ditto
+|-start|p1a: Jynx|Mimic|Lovely Kiss
+|move|p2a: Ditto|Psychic|p1a: Jynx
+|-crit|p1a: Jynx
+|-resisted|p1a: Jynx
+|-damage|p1a: Jynx|68\/265
+|
+|turn|16
+|
+|move|p1a: Jynx|Psychic|p2a: Ditto
+|-crit|p2a: Ditto
+|-resisted|p2a: Ditto
+|-damage|p2a: Ditto|85\/296
+|-unboost|p2a: Ditto|spd|1
+|-unboost|p2a: Ditto|spa|1
+|move|p2a: Ditto|Psychic|p1a: Jynx
+|-crit|p1a: Jynx
+|-resisted|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|
+|switch|p1a: Gloom|Gloom, L90|291\/291
+|turn|17
+|
+|move|p2a: Ditto|Blizzard|p1a: Gloom
+|-supereffective|p1a: Gloom
+|-damage|p1a: Gloom|64\/291
+|move|p1a: Gloom|Mega Drain|p2a: Ditto
+|-damage|p2a: Ditto|28\/296
+|-heal|p1a: Gloom|92\/291|[from] drain|[of] p2a: Ditto
+|
+|turn|18
+|
+|move|p2a: Ditto|Psychic|p1a: Gloom
+|-supereffective|p1a: Gloom
+|-damage|p1a: Gloom|0 fnt
+|faint|p1a: Gloom
+|
+|switch|p1a: Golem|Golem, L79|288\/288
+|turn|19
+|
+|move|p2a: Ditto|Blizzard|p1a: Golem
+|-crit|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|0 fnt
+|faint|p1a: Golem
+|
+|switch|p1a: Psyduck|Psyduck, L96|291\/291
+|turn|20
+|
+|move|p1a: Psyduck|Surf|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|
+|win|realkirito
+|raw|Ladder updating...
+|raw|realkirito's rating: 1000 &rarr; <strong>1040<\/strong><br \/>(+40 for winning)
+|raw|shinydiancieplz's rating: 1000 &rarr; <strong>1000<\/strong><br \/>(+0 for losing)
+|leave|realkirito
+|player|p1

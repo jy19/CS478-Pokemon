@@ -1,0 +1,696 @@
+﻿|join|Tendoh
+|join|Kel9901
+|player|p1|Tendoh|102
+|player|p2|Kel9901|266
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Luma|Starmie|323\/323
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|1
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Luma|Blizzard|p2a: Chansey|[miss]
+|-miss|p1a: Luma
+|
+|turn|2
+|
+|switch|p1a: Whorey|Chansey|703\/703
+|move|p2a: Chansey|Ice Beam|p1a: Whorey
+|-damage|p1a: Whorey|626\/703
+|
+|turn|3
+|
+|move|p2a: Chansey|Ice Beam|p1a: Whorey
+|-crit|p1a: Whorey
+|-damage|p1a: Whorey|474\/703
+|move|p1a: Whorey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|626\/703
+|
+|turn|4
+|
+|move|p2a: Chansey|Ice Beam|p1a: Whorey
+|-crit|p1a: Whorey
+|-damage|p1a: Whorey|341\/703
+|move|p1a: Whorey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|552\/703
+|
+|turn|5
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|move|p1a: Whorey|Soft-Boiled|p1a: Whorey
+|-heal|p1a: Whorey|692\/703
+|
+|turn|6
+|
+|switch|p1a: Hensel sisters|Exeggutor|393\/393
+|move|p2a: Gengar|Hypnosis|p1a: Hensel sisters
+|-status|p1a: Hensel sisters|slp
+|
+|turn|7
+|
+|switch|p1a: Kim Peek|Alakazam|313\/313
+|move|p2a: Gengar|Thunderbolt|p1a: Kim Peek
+|-crit|p1a: Kim Peek
+|-damage|p1a: Kim Peek|173\/313
+|
+|turn|8
+|
+|switch|p2a: Chansey|Chansey|552\/703
+|move|p1a: Kim Peek|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|420\/703
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|
+|turn|9
+|
+|switch|p1a: Whorey|Chansey|692\/703
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703
+|
+|turn|10
+|
+|move|p2a: Chansey|Ice Beam|p1a: Whorey
+|-damage|p1a: Whorey|645\/703
+|move|p1a: Whorey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|584\/703
+|
+|turn|11
+|
+|switch|p2a: Slowbro|Slowbro|393\/393
+|move|p1a: Whorey|Ice Beam|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|349\/393
+|
+|turn|12
+|
+|move|p1a: Whorey|Ice Beam|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|305\/393
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|13
+|
+|move|p1a: Whorey|Ice Beam|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|284\/393
+|move|p2a: Slowbro|Thunder Wave|p1a: Whorey
+|-status|p1a: Whorey|par
+|
+|turn|14
+|
+|switch|p1a: Chocobo|Zapdos|383\/383
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|15
+|
+|move|p1a: Chocobo|Thunderbolt|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|187\/393
+|-status|p2a: Slowbro|par
+|cant|p2a: Slowbro|par
+|
+|turn|16
+|
+|switch|p2a: Rhydon|Rhydon|413\/413
+|move|p1a: Chocobo|Thunderbolt|p2a: Rhydon
+|-immune|p2a: Rhydon|[msg]
+|
+|turn|17
+|
+|switch|p1a: Luma|Starmie|323\/323
+|move|p2a: Rhydon|Body Slam|p1a: Luma|[miss]
+|-miss|p2a: Rhydon
+|
+|turn|18
+|
+|switch|p2a: Chansey|Chansey|584\/703
+|move|p1a: Luma|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|497\/703
+|
+|turn|19
+|
+|switch|p1a: Whorey|Chansey|645\/703 par
+|move|p2a: Chansey|Thunder|p1a: Whorey
+|-damage|p1a: Whorey|557\/703 par
+|
+|turn|20
+|
+|move|p2a: Chansey|Thunder|p1a: Whorey
+|-damage|p1a: Whorey|465\/703 par
+|move|p1a: Whorey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|421\/703
+|
+|turn|21
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703
+|cant|p1a: Whorey|par
+|
+|turn|22
+|
+|move|p2a: Chansey|Thunder|p1a: Whorey
+|-damage|p1a: Whorey|379\/703 par
+|move|p1a: Whorey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|629\/703
+|
+|turn|23
+|
+|move|p2a: Chansey|Thunder|p1a: Whorey|[miss]
+|-miss|p2a: Chansey
+|cant|p1a: Whorey|par
+|
+|turn|24
+|
+|switch|p2a: Victreebel|Victreebel|363\/363
+|move|p1a: Whorey|Soft-Boiled|p1a: Whorey
+|-heal|p1a: Whorey|703\/703 par
+|
+|turn|25
+|
+|move|p2a: Victreebel|Wrap|p1a: Whorey|[miss]
+|-miss|p2a: Victreebel
+|move|p1a: Whorey|Ice Beam|p2a: Victreebel
+|-supereffective|p2a: Victreebel
+|-damage|p2a: Victreebel|221\/363
+|
+|turn|26
+|
+|move|p2a: Victreebel|Wrap|p1a: Whorey
+|-damage|p1a: Whorey|671\/703 par
+|-activate|p1a: Whorey|move: Wrap|[of] p2a: Victreebel
+|cant|p1a: Whorey|partiallytrapped
+|
+|turn|27
+|
+|switch|p1a: Corrida killer|Tauros|353\/353
+|move|p2a: Victreebel|Wrap|p1a: Corrida killer
+|-damage|p1a: Corrida killer|339\/353
+|-activate|p1a: Corrida killer|move: Wrap|[of] p2a: Victreebel
+|
+|turn|28
+|
+|switch|p2a: Alakazam|Alakazam|313\/313
+|cant|p1a: Corrida killer|partiallytrapped
+|
+|-end|p1a: Corrida killer|Wrap|[partiallytrapped]
+|turn|29
+|
+|switch|p1a: Whorey|Chansey|671\/703 par
+|move|p2a: Alakazam|Psychic|p1a: Whorey
+|-crit|p1a: Whorey
+|-damage|p1a: Whorey|434\/703 par
+|-unboost|p1a: Whorey|spd|1
+|-unboost|p1a: Whorey|spa|1
+|
+|turn|30
+|
+|move|p2a: Alakazam|Psychic|p1a: Whorey
+|-crit|p1a: Whorey
+|-damage|p1a: Whorey|173\/703 par
+|move|p1a: Whorey|Soft-Boiled|p1a: Whorey
+|-heal|p1a: Whorey|524\/703 par
+|
+|turn|31
+|
+|move|p2a: Alakazam|Psychic|p1a: Whorey
+|-crit|p1a: Whorey
+|-damage|p1a: Whorey|266\/703 par
+|move|p1a: Whorey|Ice Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|270\/313
+|
+|turn|32
+|
+|move|p2a: Alakazam|Psychic|p1a: Whorey
+|-damage|p1a: Whorey|66\/703 par
+|cant|p1a: Whorey|par
+|
+|turn|33
+|c|★Tendoh|Geez.
+|
+|switch|p1a: Kim Peek|Alakazam|173\/313
+|move|p2a: Alakazam|Psychic|p1a: Kim Peek
+|-resisted|p1a: Kim Peek
+|-damage|p1a: Kim Peek|122\/313
+|-unboost|p1a: Kim Peek|spd|1
+|-unboost|p1a: Kim Peek|spa|1
+|
+|turn|34
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Kim Peek
+|-status|p1a: Kim Peek|par
+|cant|p1a: Kim Peek|par
+|
+|turn|35
+|c|★Kel9901|ok
+|c|★Kel9901|respect for alakazam comes back
+|c|★Kel9901|not as shit as i once put it
+|
+|move|p2a: Alakazam|Psychic|p1a: Kim Peek
+|-resisted|p1a: Kim Peek
+|-damage|p1a: Kim Peek|43\/313 par
+|move|p1a: Kim Peek|Recover|p1a: Kim Peek
+|-heal|p1a: Kim Peek|199\/313 par
+|
+|turn|36
+|
+|move|p2a: Alakazam|Psychic|p1a: Kim Peek
+|-crit|p1a: Kim Peek
+|-resisted|p1a: Kim Peek
+|-damage|p1a: Kim Peek|90\/313 par
+|move|p1a: Kim Peek|Recover|p1a: Kim Peek
+|-heal|p1a: Kim Peek|246\/313 par
+|
+|turn|37
+|
+|move|p2a: Alakazam|Psychic|p1a: Kim Peek
+|-resisted|p1a: Kim Peek
+|-damage|p1a: Kim Peek|170\/313 par
+|move|p1a: Kim Peek|Thunder Wave|p2a: Alakazam
+|-status|p2a: Alakazam|par
+|
+|turn|38
+|
+|move|p1a: Kim Peek|Recover|p1a: Kim Peek
+|-heal|p1a: Kim Peek|313\/313 par
+|move|p2a: Alakazam|Psychic|p1a: Kim Peek
+|-resisted|p1a: Kim Peek
+|-damage|p1a: Kim Peek|233\/313 par
+|-unboost|p1a: Kim Peek|spd|1
+|-unboost|p1a: Kim Peek|spa|1
+|
+|turn|39
+|
+|switch|p1a: Luma|Starmie|323\/323
+|move|p2a: Alakazam|Psychic|p1a: Luma
+|-resisted|p1a: Luma
+|-damage|p1a: Luma|253\/323
+|
+|turn|40
+|
+|switch|p1a: Kim Peek|Alakazam|233\/313 par
+|move|p2a: Alakazam|Psychic|p1a: Kim Peek
+|-crit|p1a: Kim Peek
+|-resisted|p1a: Kim Peek
+|-damage|p1a: Kim Peek|128\/313 par
+|
+|turn|41
+|
+|switch|p2a: Rhydon|Rhydon|413\/413
+|move|p1a: Kim Peek|Recover|p1a: Kim Peek
+|-heal|p1a: Kim Peek|284\/313 par
+|
+|turn|42
+|
+|move|p2a: Rhydon|Earthquake|p1a: Kim Peek
+|-damage|p1a: Kim Peek|75\/313 par
+|move|p1a: Kim Peek|Psychic|p2a: Rhydon
+|-crit|p2a: Rhydon
+|-damage|p2a: Rhydon|22\/413
+|
+|turn|43
+|
+|switch|p1a: Chocobo|Zapdos|383\/383
+|move|p2a: Rhydon|Rock Slide|p1a: Chocobo
+|-supereffective|p1a: Chocobo
+|-damage|p1a: Chocobo|136\/383
+|
+|turn|44
+|
+|move|p1a: Chocobo|Drill Peck|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|
+|switch|p2a: Chansey|Chansey|629\/703
+|turn|45
+|
+|switch|p1a: Luma|Starmie|253\/323
+|move|p2a: Chansey|Thunder Wave|p1a: Luma
+|-status|p1a: Luma|par
+|
+|turn|46
+|
+|move|p2a: Chansey|Thunder|p1a: Luma|[miss]
+|-miss|p2a: Chansey
+|move|p1a: Luma|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|turn|47
+|
+|switch|p1a: Corrida killer|Tauros|339\/353
+|cant|p2a: Chansey|par
+|
+|turn|48
+|
+|move|p1a: Corrida killer|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|358\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|49
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|move|p1a: Corrida killer|Hyper Beam|p2a: Gengar
+|-immune|p2a: Gengar|[msg]
+|
+|turn|50
+|
+|move|p1a: Corrida killer|Earthquake|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|103\/323
+|move|p2a: Gengar|Thunderbolt|p1a: Corrida killer
+|-crit|p1a: Corrida killer
+|-damage|p1a: Corrida killer|139\/353
+|-status|p1a: Corrida killer|par
+|
+|turn|51
+|c|★Tendoh|OH COME ON
+|
+|switch|p1a: Hensel sisters|Exeggutor|393\/393 slp
+|move|p2a: Gengar|Thunderbolt|p1a: Hensel sisters
+|-resisted|p1a: Hensel sisters
+|-damage|p1a: Hensel sisters|355\/393 slp
+|
+|turn|52
+|
+|move|p2a: Gengar|Thunderbolt|p1a: Hensel sisters
+|-resisted|p1a: Hensel sisters
+|-damage|p1a: Hensel sisters|316\/393 slp
+|cant|p1a: Hensel sisters|slp
+|-curestatus|p1a: Hensel sisters|slp
+|
+|turn|53
+|
+|move|p2a: Gengar|Explosion|p1a: Hensel sisters
+|-damage|p1a: Hensel sisters|102\/393
+|faint|p2a: Gengar
+|
+|switch|p2a: Victreebel|Victreebel|221\/363
+|turn|54
+|
+|move|p2a: Victreebel|Wrap|p1a: Hensel sisters
+|-damage|p1a: Hensel sisters|89\/393
+|-activate|p1a: Hensel sisters|move: Wrap|[of] p2a: Victreebel
+|cant|p1a: Hensel sisters|partiallytrapped
+|
+|turn|55
+|
+|switch|p1a: Chocobo|Zapdos|136\/383
+|move|p2a: Victreebel|Wrap|p1a: Chocobo
+|-damage|p1a: Chocobo|121\/383
+|-activate|p1a: Chocobo|move: Wrap|[of] p2a: Victreebel
+|
+|turn|56
+|
+|cant|p1a: Chocobo|partiallytrapped
+|move|p2a: Victreebel|Wrap|p1a: Chocobo
+|-damage|p1a: Chocobo|108\/383
+|
+|turn|57
+|
+|switch|p2a: Alakazam|Alakazam|270\/313 par
+|cant|p1a: Chocobo|partiallytrapped
+|
+|-end|p1a: Chocobo|Wrap|[partiallytrapped]
+|turn|58
+|
+|switch|p1a: Kim Peek|Alakazam|75\/313 par
+|move|p2a: Alakazam|Thunder Wave|p1a: Kim Peek
+|-fail|p1a: Kim Peek|par
+|
+|turn|59
+|
+|move|p1a: Kim Peek|Recover|p1a: Kim Peek
+|-heal|p1a: Kim Peek|231\/313 par
+|move|p2a: Alakazam|Psychic|p1a: Kim Peek
+|-resisted|p1a: Kim Peek
+|-damage|p1a: Kim Peek|176\/313 par
+|
+|turn|60
+|
+|cant|p2a: Alakazam|par
+|cant|p1a: Kim Peek|par
+|
+|turn|61
+|
+|move|p2a: Alakazam|Psychic|p1a: Kim Peek
+|-resisted|p1a: Kim Peek
+|-damage|p1a: Kim Peek|125\/313 par
+|move|p1a: Kim Peek|Recover|p1a: Kim Peek
+|-heal|p1a: Kim Peek|281\/313 par
+|
+|turn|62
+|
+|move|p2a: Alakazam|Reflect|p2a: Alakazam
+|move|p1a: Kim Peek|Seismic Toss|p2a: Alakazam
+|-damage|p2a: Alakazam|170\/313 par
+|
+|turn|63
+|
+|cant|p1a: Kim Peek|par
+|cant|p2a: Alakazam|par
+|
+|turn|64
+|
+|move|p1a: Kim Peek|Seismic Toss|p2a: Alakazam
+|-damage|p2a: Alakazam|70\/313 par
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|226\/313 par
+|
+|turn|65
+|
+|switch|p2a: Chansey|Chansey|358\/703 par
+|move|p1a: Kim Peek|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|258\/703 par
+|
+|turn|66
+|
+|move|p1a: Kim Peek|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|125\/703 par
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|476\/703 par
+|
+|turn|67
+|
+|cant|p1a: Kim Peek|par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703 par
+|
+|turn|68
+|
+|switch|p2a: Slowbro|Slowbro|187\/393 par
+|move|p1a: Kim Peek|Psychic|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|44\/393 par
+|
+|turn|69
+|
+|move|p1a: Kim Peek|Seismic Toss|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|
+|switch|p2a: Victreebel|Victreebel|221\/363
+|turn|70
+|
+|move|p2a: Victreebel|Wrap|p1a: Kim Peek
+|-damage|p1a: Kim Peek|261\/313 par
+|-activate|p1a: Kim Peek|move: Wrap|[of] p2a: Victreebel
+|cant|p1a: Kim Peek|partiallytrapped
+|
+|turn|71
+|
+|move|p2a: Victreebel|Wrap|p1a: Kim Peek
+|-damage|p1a: Kim Peek|241\/313 par
+|cant|p1a: Kim Peek|partiallytrapped
+|
+|-end|p1a: Kim Peek|Wrap|[partiallytrapped]
+|turn|72
+|
+|move|p2a: Victreebel|Wrap|p1a: Kim Peek
+|-damage|p1a: Kim Peek|221\/313 par
+|-activate|p1a: Kim Peek|move: Wrap|[of] p2a: Victreebel
+|cant|p1a: Kim Peek|partiallytrapped
+|
+|turn|73
+|
+|move|p2a: Victreebel|Wrap|p1a: Kim Peek
+|-damage|p1a: Kim Peek|201\/313 par
+|cant|p1a: Kim Peek|par
+|
+|turn|74
+|
+|move|p2a: Victreebel|Wrap|p1a: Kim Peek
+|-damage|p1a: Kim Peek|181\/313 par
+|cant|p1a: Kim Peek|partiallytrapped
+|
+|turn|75
+|
+|move|p2a: Victreebel|Wrap|p1a: Kim Peek
+|-damage|p1a: Kim Peek|161\/313 par
+|cant|p1a: Kim Peek|partiallytrapped
+|
+|turn|76
+|
+|move|p2a: Victreebel|Wrap|p1a: Kim Peek
+|-damage|p1a: Kim Peek|141\/313 par
+|cant|p1a: Kim Peek|partiallytrapped
+|
+|-end|p1a: Kim Peek|Wrap|[partiallytrapped]
+|turn|77
+|
+|move|p2a: Victreebel|Wrap|p1a: Kim Peek
+|-damage|p1a: Kim Peek|120\/313 par
+|-activate|p1a: Kim Peek|move: Wrap|[of] p2a: Victreebel
+|cant|p1a: Kim Peek|partiallytrapped
+|
+|turn|78
+|
+|switch|p1a: Chocobo|Zapdos|108\/383
+|move|p2a: Victreebel|Wrap|p1a: Chocobo
+|-damage|p1a: Chocobo|93\/383
+|-activate|p1a: Chocobo|move: Wrap|[of] p2a: Victreebel
+|
+|turn|79
+|
+|cant|p1a: Chocobo|partiallytrapped
+|move|p2a: Victreebel|Wrap|p1a: Chocobo
+|-damage|p1a: Chocobo|72\/383
+|
+|-end|p1a: Chocobo|Wrap|[partiallytrapped]
+|turn|80
+|
+|switch|p2a: Chansey|Chansey|703\/703 par
+|move|p1a: Chocobo|Drill Peck|p2a: Chansey
+|-damage|p2a: Chansey|442\/703 par
+|
+|turn|81
+|
+|move|p1a: Chocobo|Drill Peck|p2a: Chansey
+|-damage|p2a: Chansey|187\/703 par
+|move|p2a: Chansey|Ice Beam|p1a: Chocobo
+|-supereffective|p1a: Chocobo
+|-damage|p1a: Chocobo|0 fnt
+|faint|p1a: Chocobo
+|
+|switch|p1a: Corrida killer|Tauros|139\/353 par
+|turn|82
+|
+|move|p1a: Corrida killer|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|switch|p2a: Victreebel|Victreebel|221\/363
+|turn|83
+|
+|move|p2a: Victreebel|Razor Leaf|p1a: Corrida killer
+|-crit|p1a: Corrida killer
+|-damage|p1a: Corrida killer|0 fnt
+|faint|p1a: Corrida killer
+|
+|switch|p1a: Hensel sisters|Exeggutor|89\/393
+|turn|84
+|c|★Kel9901|oh cmon
+|c|★Kel9901|dont miss wrap
+|c|★Tendoh|Do miss.
+|
+|move|p2a: Victreebel|Wrap|p1a: Hensel sisters
+|-damage|p1a: Hensel sisters|74\/393
+|-activate|p1a: Hensel sisters|move: Wrap|[of] p2a: Victreebel
+|cant|p1a: Hensel sisters|partiallytrapped
+|
+|turn|85
+|
+|switch|p1a: Whorey|Chansey|66\/703 par
+|move|p2a: Victreebel|Wrap|p1a: Whorey
+|-crit|p1a: Whorey
+|-damage|p1a: Whorey|0 fnt
+|faint|p1a: Whorey
+|
+|switch|p1a: Hensel sisters|Exeggutor|74\/393
+|turn|86
+|
+|move|p2a: Victreebel|Wrap|p1a: Hensel sisters
+|-damage|p1a: Hensel sisters|59\/393
+|-activate|p1a: Hensel sisters|move: Wrap|[of] p2a: Victreebel
+|cant|p1a: Hensel sisters|partiallytrapped
+|
+|turn|87
+|
+|switch|p1a: Luma|Starmie|253\/323 par
+|move|p2a: Victreebel|Wrap|p1a: Luma
+|-damage|p1a: Luma|239\/323 par
+|-activate|p1a: Luma|move: Wrap|[of] p2a: Victreebel
+|
+|turn|88
+|
+|move|p2a: Victreebel|Wrap|p1a: Luma
+|-damage|p1a: Luma|225\/323 par
+|cant|p1a: Luma|partiallytrapped
+|
+|-end|p1a: Luma|Wrap|[partiallytrapped]
+|turn|89
+|
+|move|p2a: Victreebel|Razor Leaf|p1a: Luma
+|-crit|p1a: Luma
+|-supereffective|p1a: Luma
+|-damage|p1a: Luma|0 fnt
+|faint|p1a: Luma
+|
+|switch|p1a: Kim Peek|Alakazam|120\/313 par
+|turn|90
+|
+|move|p2a: Victreebel|Wrap|p1a: Kim Peek
+|-damage|p1a: Kim Peek|102\/313 par
+|-activate|p1a: Kim Peek|move: Wrap|[of] p2a: Victreebel
+|cant|p1a: Kim Peek|partiallytrapped
+|
+|turn|91
+|
+|move|p2a: Victreebel|Wrap|p1a: Kim Peek
+|-damage|p1a: Kim Peek|84\/313 par
+|cant|p1a: Kim Peek|partiallytrapped
+|
+|-end|p1a: Kim Peek|Wrap|[partiallytrapped]
+|turn|92
+|
+|move|p2a: Victreebel|Razor Leaf|p1a: Kim Peek
+|-crit|p1a: Kim Peek
+|-damage|p1a: Kim Peek|0 fnt
+|faint|p1a: Kim Peek
+|
+|switch|p1a: Hensel sisters|Exeggutor|59\/393
+|turn|93
+|
+|move|p2a: Victreebel|Wrap|p1a: Hensel sisters
+|-crit|p1a: Hensel sisters
+|-damage|p1a: Hensel sisters|34\/393
+|-activate|p1a: Hensel sisters|move: Wrap|[of] p2a: Victreebel
+|cant|p1a: Hensel sisters|partiallytrapped
+|
+|turn|94
+|c|★Kel9901|gg
+|c|★Tendoh|Perfect, absolutely splendid.
+|c|★Tendoh|This is really ridiculous
+|-message|Tendoh forfeited.
+|
+|win|Kel9901
+|raw|Ladder updating...
+|leave|Tendoh
+|player|p1
+|raw|Tendoh's rating: 1236 &rarr; <strong>1212<\/strong><br \/>(-24 for losing)
+|raw|Kel9901's rating: 1248 &rarr; <strong>1272<\/strong><br \/>(+24 for winning)

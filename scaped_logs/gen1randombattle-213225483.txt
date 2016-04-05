@@ -1,0 +1,103 @@
+﻿|join|danielma
+|join|HBGKing
+|player|p1|danielma|102
+|player|p2|HBGKing|52
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Geodude|Geodude, L95|269\/269
+|switch|p2a: Poliwag|Poliwag, L95|269\/269
+|turn|1
+|
+|move|p2a: Poliwag|Surf|p1a: Geodude
+|-crit|p1a: Geodude
+|-supereffective|p1a: Geodude
+|-damage|p1a: Geodude|0 fnt
+|faint|p1a: Geodude
+|
+|switch|p1a: Poliwhirl|Poliwhirl, L86|287\/287
+|turn|2
+|
+|move|p2a: Poliwag|Hypnosis|p1a: Poliwhirl
+|-status|p1a: Poliwhirl|slp
+|cant|p1a: Poliwhirl|slp
+|
+|turn|3
+|
+|move|p2a: Poliwag|Amnesia|p2a: Poliwag
+|-boost|p2a: Poliwag|spd|2
+|-boost|p2a: Poliwag|spa|2
+|cant|p1a: Poliwhirl|slp
+|
+|turn|4
+|
+|move|p2a: Poliwag|Amnesia|p2a: Poliwag
+|-boost|p2a: Poliwag|spd|2
+|-boost|p2a: Poliwag|spa|2
+|cant|p1a: Poliwhirl|slp
+|
+|turn|5
+|
+|move|p2a: Poliwag|Amnesia|p2a: Poliwag
+|-boost|p2a: Poliwag|spd|2
+|-boost|p2a: Poliwag|spa|2
+|cant|p1a: Poliwhirl|slp
+|
+|turn|6
+|
+|move|p2a: Poliwag|Psychic|p1a: Poliwhirl
+|-damage|p1a: Poliwhirl|32\/287 slp
+|-unboost|p1a: Poliwhirl|spd|1
+|-unboost|p1a: Poliwhirl|spa|1
+|cant|p1a: Poliwhirl|slp
+|-curestatus|p1a: Poliwhirl|slp
+|
+|turn|7
+|
+|move|p2a: Poliwag|Psychic|p1a: Poliwhirl
+|-damage|p1a: Poliwhirl|0 fnt
+|faint|p1a: Poliwhirl
+|
+|switch|p1a: Dodrio|Dodrio, L86|279\/279
+|turn|8
+|
+|move|p2a: Poliwag|Psychic|p1a: Dodrio
+|-damage|p1a: Dodrio|51\/279
+|move|p1a: Dodrio|Drill Peck|p2a: Poliwag
+|-damage|p2a: Poliwag|147\/269
+|
+|turn|9
+|
+|move|p2a: Poliwag|Psychic|p1a: Dodrio
+|-damage|p1a: Dodrio|0 fnt
+|faint|p1a: Dodrio
+|
+|switch|p1a: Arcanine|Arcanine, L86|330\/330
+|turn|10
+|
+|move|p2a: Poliwag|Surf|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|switch|p1a: Golem|Golem, L80|292\/292
+|turn|11
+|
+|move|p2a: Poliwag|Surf|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|0 fnt
+|faint|p1a: Golem
+|-message|danielma forfeited.
+|leave|danielma
+|
+|win|HBGKing
+|raw|Ladder updating...
+|player|p1
+|raw|danielma's rating: 1079 &rarr; <strong>1065<\/strong><br \/>(-14 for losing)
+|raw|HBGKing's rating: 1214 &rarr; <strong>1230<\/strong><br \/>(+16 for winning)

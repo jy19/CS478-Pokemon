@@ -1,0 +1,191 @@
+﻿|join|andrewandres
+|join|Miaueissoai
+|player|p1|andrewandres|266
+|player|p2|Miaueissoai|167
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Drowzee|Drowzee, L96|310\/310
+|switch|p2a: Squirtle|Squirtle, L96|279\/279
+|turn|1
+|
+|switch|p2a: Nidoqueen|Nidoqueen, L85|327\/327
+|move|p1a: Drowzee|Psychic|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|82\/327
+|
+|turn|2
+|
+|move|p2a: Nidoqueen|Thunderbolt|p1a: Drowzee
+|-damage|p1a: Drowzee|259\/310
+|move|p1a: Drowzee|Psychic|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|0 fnt
+|faint|p2a: Nidoqueen
+|
+|switch|p2a: Porygon|Porygon, L85|284\/284
+|turn|3
+|
+|move|p1a: Drowzee|Thunder Wave|p2a: Porygon
+|-status|p2a: Porygon|par
+|move|p2a: Porygon|Ice Beam|p1a: Drowzee
+|-damage|p1a: Drowzee|206\/310
+|-status|p1a: Drowzee|frz
+|
+|turn|4
+|c|★andrewandres|stupid feralk with luck
+|
+|cant|p1a: Drowzee|frz
+|move|p2a: Porygon|Sharpen|p2a: Porygon
+|-boost|p2a: Porygon|atk|1
+|
+|turn|5
+|
+|switch|p1a: Vaporeon|Vaporeon, L85|395\/395
+|move|p2a: Porygon|Sharpen|p2a: Porygon
+|-boost|p2a: Porygon|atk|1
+|
+|turn|6
+|
+|move|p1a: Vaporeon|Hydro Pump|p2a: Porygon
+|-damage|p2a: Porygon|131\/284 par
+|move|p2a: Porygon|Ice Beam|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|371\/395
+|
+|turn|7
+|
+|move|p1a: Vaporeon|Hydro Pump|p2a: Porygon|[miss]
+|-miss|p1a: Vaporeon
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|273\/284 par
+|
+|turn|8
+|
+|move|p1a: Vaporeon|Hydro Pump|p2a: Porygon|[miss]
+|-miss|p1a: Vaporeon
+|move|p2a: Porygon|Ice Beam|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|345\/395
+|
+|turn|9
+|
+|move|p1a: Vaporeon|Hydro Pump|p2a: Porygon
+|-crit|p2a: Porygon
+|-damage|p2a: Porygon|0 fnt
+|faint|p2a: Porygon
+|
+|switch|p2a: Squirtle|Squirtle, L96|279\/279
+|turn|10
+|
+|move|p1a: Vaporeon|Body Slam|p2a: Squirtle
+|-damage|p2a: Squirtle|230\/279
+|move|p2a: Squirtle|Body Slam|p1a: Vaporeon
+|-damage|p1a: Vaporeon|285\/395
+|
+|turn|11
+|
+|move|p1a: Vaporeon|Hydro Pump|p2a: Squirtle
+|-resisted|p2a: Squirtle
+|-damage|p2a: Squirtle|150\/279
+|move|p2a: Squirtle|Body Slam|p1a: Vaporeon
+|-damage|p1a: Vaporeon|225\/395
+|-status|p1a: Vaporeon|par
+|
+|turn|12
+|
+|move|p2a: Squirtle|Body Slam|p1a: Vaporeon
+|-crit|p1a: Vaporeon
+|-damage|p1a: Vaporeon|108\/395 par
+|cant|p1a: Vaporeon|par
+|
+|turn|13
+|
+|move|p2a: Squirtle|Body Slam|p1a: Vaporeon
+|-damage|p1a: Vaporeon|43\/395 par
+|move|p1a: Vaporeon|Rest|p1a: Vaporeon
+|-status|p1a: Vaporeon|slp
+|-heal|p1a: Vaporeon|395\/395 slp|[silent]
+|-status|p1a: Vaporeon|slp|[from] move: Rest
+|
+|turn|14
+|
+|switch|p2a: Arbok|Arbok, L90|291\/291
+|cant|p1a: Vaporeon|slp
+|
+|turn|15
+|
+|move|p2a: Arbok|Hyper Beam|p1a: Vaporeon
+|-damage|p1a: Vaporeon|252\/395 slp
+|cant|p1a: Vaporeon|slp
+|-curestatus|p1a: Vaporeon|slp
+|
+|turn|16
+|-mustrecharge|p2a: Arbok
+|-mustrecharge|p2a: Arbok
+|
+|cant|p2a: Arbok|recharge
+|move|p1a: Vaporeon|Body Slam|p2a: Arbok
+|-damage|p2a: Arbok|239\/291
+|
+|turn|17
+|
+|move|p2a: Arbok|Hyper Beam|p1a: Vaporeon
+|-damage|p1a: Vaporeon|113\/395
+|move|p1a: Vaporeon|Hydro Pump|p2a: Arbok
+|-crit|p2a: Arbok
+|-damage|p2a: Arbok|0 fnt
+|faint|p2a: Arbok
+|
+|switch|p2a: Scyther|Scyther, L90|309\/309
+|turn|18
+|
+|move|p2a: Scyther|Hyper Beam|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|
+|switch|p1a: Seel|Seel, L96|320\/320
+|turn|19
+|
+|switch|p2a: Squirtle|Squirtle, L96|150\/279
+|move|p1a: Seel|Blizzard|p2a: Squirtle
+|-resisted|p2a: Squirtle
+|-damage|p2a: Squirtle|93\/279
+|
+|turn|20
+|
+|move|p1a: Seel|Surf|p2a: Squirtle
+|-resisted|p2a: Squirtle
+|-damage|p2a: Squirtle|30\/279
+|move|p2a: Squirtle|Body Slam|p1a: Seel
+|-damage|p1a: Seel|262\/320
+|
+|turn|21
+|
+|move|p1a: Seel|Surf|p2a: Squirtle
+|-resisted|p2a: Squirtle
+|-damage|p2a: Squirtle|0 fnt
+|faint|p2a: Squirtle
+|
+|switch|p2a: Dodrio|Dodrio, L85|276\/276
+|turn|22
+|
+|move|p2a: Dodrio|Drill Peck|p1a: Seel
+|-damage|p1a: Seel|147\/320
+|move|p1a: Seel|Blizzard|p2a: Dodrio
+|-supereffective|p2a: Dodrio
+|-damage|p2a: Dodrio|54\/276
+|
+|turn|23
+|-message|Miaueissoai forfeited.
+|
+|win|andrewandres
+|raw|Ladder updating...
+|leave|Miaueissoai
+|player|p2

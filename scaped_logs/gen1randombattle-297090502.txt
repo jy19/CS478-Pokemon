@@ -1,0 +1,540 @@
+﻿|join|Green Vessel
+|join|Arafalo2
+|player|p1|Green Vessel|198
+|player|p2|Arafalo2|1
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|18627,51794,28480,34089
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Arcanine|Arcanine, L85|327\/327
+|switch|p2a: Cubone|Cubone, L96|291\/291
+|turn|1
+|choice|switch 2|move 3
+|
+|switch|p1a: Golbat|Golbat, L90|318\/318
+|move|p2a: Cubone|Blizzard|p1a: Golbat
+|-crit|p1a: Golbat
+|-supereffective|p1a: Golbat
+|-damage|p1a: Golbat|66\/318
+|
+|turn|2
+|choice|move 1|move 3
+|
+|move|p1a: Golbat|Confuse Ray|p2a: Cubone
+|-start|p2a: Cubone|confusion
+|-activate|p2a: Cubone|confusion
+|move|p2a: Cubone|Blizzard|p1a: Golbat
+|-supereffective|p1a: Golbat
+|-damage|p1a: Golbat|0 fnt
+|faint|p1a: Golbat
+|choice|switch 5|
+|
+|switch|p1a: Vaporeon|Vaporeon, L85|395\/395
+|turn|3
+|choice|move 3|switch 4
+|
+|switch|p2a: Chansey|Chansey, L79|557\/557
+|move|p1a: Vaporeon|Hydro Pump|p2a: Chansey|[miss]
+|-miss|p1a: Vaporeon
+|
+|turn|4
+|choice|move 3|move 2
+|
+|move|p1a: Vaporeon|Hydro Pump|p2a: Chansey
+|-damage|p2a: Chansey|432\/557
+|move|p2a: Chansey|Thunderbolt|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|280\/395
+|-status|p1a: Vaporeon|par
+|
+|turn|5
+|choice|move 4|move 3
+|
+|move|p2a: Chansey|Reflect|p2a: Chansey
+|-start|p2a: Chansey|Reflect
+|move|p1a: Vaporeon|Body Slam|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|195\/557
+|
+|turn|6
+|choice|move 4|move 1
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|473\/557
+|move|p1a: Vaporeon|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|402\/557
+|
+|turn|7
+|choice|move 4|move 2
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|176\/395 par
+|move|p1a: Vaporeon|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|338\/557
+|
+|turn|8
+|choice|move 2|move 2
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|71\/395 par
+|cant|p1a: Vaporeon|par
+|
+|turn|9
+|choice|move 2|move 1
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|557\/557
+|move|p1a: Vaporeon|Rest|p1a: Vaporeon
+|-status|p1a: Vaporeon|slp
+|-heal|p1a: Vaporeon|395\/395 slp|[silent]
+|-status|p1a: Vaporeon|slp|[from] move: Rest
+|
+|turn|10
+|choice|switch 6|move 2
+|
+|switch|p1a: Jolteon|Jolteon, L79|265\/265
+|move|p2a: Chansey|Thunderbolt|p1a: Jolteon
+|-crit|p1a: Jolteon
+|-resisted|p1a: Jolteon
+|-damage|p1a: Jolteon|209\/265
+|
+|turn|11
+|choice|move 4|switch 4
+|
+|switch|p2a: Cubone|Cubone, L96|291\/291
+|move|p1a: Jolteon|Thunder Wave|p2a: Cubone
+|-immune|p2a: Cubone|[msg]
+|
+|turn|12
+|choice|switch 6|move 2
+|
+|switch|p1a: Vaporeon|Vaporeon, L85|395\/395 slp
+|move|p2a: Cubone|Body Slam|p1a: Vaporeon
+|-damage|p1a: Vaporeon|330\/395 slp
+|
+|turn|13
+|choice|move 3|move 4
+|
+|cant|p1a: Vaporeon|slp
+|move|p2a: Cubone|Earthquake|p1a: Vaporeon
+|-damage|p1a: Vaporeon|208\/395 slp
+|
+|turn|14
+|choice|move 3|move 4
+|
+|-curestatus|p1a: Vaporeon|slp
+|move|p2a: Cubone|Earthquake|p1a: Vaporeon
+|-damage|p1a: Vaporeon|96\/395
+|
+|turn|15
+|choice|move 3|switch 4
+|
+|switch|p2a: Chansey|Chansey, L79|557\/557
+|move|p1a: Vaporeon|Hydro Pump|p2a: Chansey
+|-damage|p2a: Chansey|421\/557
+|
+|turn|16
+|choice|switch 6|move 2
+|
+|switch|p1a: Jolteon|Jolteon, L79|209\/265
+|move|p2a: Chansey|Thunderbolt|p1a: Jolteon
+|-resisted|p1a: Jolteon
+|-damage|p1a: Jolteon|179\/265
+|
+|turn|17
+|choice|move 3|switch 4
+|
+|switch|p2a: Cubone|Cubone, L96|291\/291
+|move|p1a: Jolteon|Double Kick|p2a: Cubone
+|-damage|p2a: Cubone|278\/291
+|-damage|p2a: Cubone|265\/291
+|-hitcount|p2a: Cubone|2
+|
+|turn|18
+|choice|switch 4|move 1
+|
+|switch|p1a: Tangela|Tangela, L85|284\/284
+|move|p2a: Cubone|Seismic Toss|p1a: Tangela
+|-damage|p1a: Tangela|188\/284
+|
+|turn|19
+|choice|move 3|switch 2
+|
+|switch|p2a: Tangela|Tangela, L85|284\/284
+|move|p1a: Tangela|Sleep Powder|p2a: Tangela
+|-status|p2a: Tangela|slp
+|
+|turn|20
+|choice|switch 2|switch 3
+|
+|switch|p2a: Mew|Mew, L74|300\/300
+|switch|p1a: Arcanine|Arcanine, L85|327\/327
+|
+|turn|21
+|choice|move 3|move 3
+|
+|move|p1a: Arcanine|Fire Blast|p2a: Mew
+|-damage|p2a: Mew|177\/300
+|move|p2a: Mew|Earthquake|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|211\/327
+|
+|turn|22
+|choice|move 3|move 3
+|
+|move|p1a: Arcanine|Fire Blast|p2a: Mew
+|-crit|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|choice||switch 2
+|
+|switch|p2a: Cubone|Cubone, L96|265\/291
+|turn|23
+|choice|move 3|move 4
+|
+|move|p1a: Arcanine|Fire Blast|p2a: Cubone
+|-damage|p2a: Cubone|110\/291
+|move|p2a: Cubone|Earthquake|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|30\/327
+|
+|turn|24
+|choice|move 3|switch 5
+|
+|switch|p2a: Flareon|Flareon, L90|300\/300
+|move|p1a: Arcanine|Fire Blast|p2a: Flareon
+|-crit|p2a: Flareon
+|-resisted|p2a: Flareon
+|-damage|p2a: Flareon|209\/300
+|
+|turn|25
+|choice|move 2|move 4
+|
+|move|p2a: Flareon|Quick Attack|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|choice|switch 6|
+|
+|switch|p1a: Vaporeon|Vaporeon, L85|96\/395
+|turn|26
+|choice|move 3|move 1
+|
+|move|p2a: Flareon|Hyper Beam|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|choice|switch 3|
+|
+|switch|p1a: Snorlax|Snorlax, L79|415\/415
+|turn|27
+|choice|move 1|move 3
+|
+|move|p2a: Flareon|Fire Blast|p1a: Snorlax
+|-damage|p1a: Snorlax|215\/415
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|
+|turn|28
+|choice|move 4|move 3
+|
+|move|p2a: Flareon|Fire Blast|p1a: Snorlax|[miss]
+|-miss|p2a: Flareon
+|move|p1a: Snorlax|Thunderbolt|p2a: Flareon
+|-damage|p2a: Flareon|130\/300
+|
+|turn|29
+|choice|move 4|move 3
+|
+|move|p2a: Flareon|Fire Blast|p1a: Snorlax
+|-damage|p1a: Snorlax|111\/415
+|move|p1a: Snorlax|Thunderbolt|p2a: Flareon
+|-damage|p2a: Flareon|59\/300
+|
+|turn|30
+|choice|move 4|move 1
+|
+|move|p2a: Flareon|Hyper Beam|p1a: Snorlax|[miss]
+|-miss|p2a: Flareon
+|move|p1a: Snorlax|Thunderbolt|p2a: Flareon
+|-damage|p2a: Flareon|0 fnt
+|faint|p2a: Flareon
+|choice||switch 6
+|
+|switch|p2a: Machamp|Machamp, L90|345\/345
+|turn|31
+|choice|move 4|move 4
+|
+|move|p2a: Machamp|Submission|p1a: Snorlax
+|-supereffective|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|-damage|p2a: Machamp|318\/345|[from] recoil|[of] p1a: Snorlax
+|faint|p1a: Snorlax
+|choice|switch 4|
+|
+|switch|p1a: Jolteon|Jolteon, L79|179\/265
+|turn|32
+|choice|move 4|move 3
+|
+|move|p1a: Jolteon|Thunder Wave|p2a: Machamp
+|-status|p2a: Machamp|par
+|move|p2a: Machamp|Earthquake|p1a: Jolteon
+|-supereffective|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|choice|switch 2|
+|
+|switch|p1a: Tangela|Tangela, L85|188\/284
+|turn|33
+|choice|move 4|move 4
+|
+|move|p1a: Tangela|Mega Drain|p2a: Machamp
+|-damage|p2a: Machamp|267\/345 par
+|-heal|p1a: Tangela|213\/284|[from] drain|[of] p2a: Machamp
+|move|p2a: Machamp|Submission|p1a: Tangela
+|-damage|p1a: Tangela|117\/284
+|-damage|p2a: Machamp|243\/345 par|[from] recoil|[of] p1a: Tangela
+|
+|turn|34
+|choice|move 4|move 4
+|
+|move|p1a: Tangela|Mega Drain|p2a: Machamp
+|-damage|p2a: Machamp|192\/345 par
+|-heal|p1a: Tangela|142\/284|[from] drain|[of] p2a: Machamp
+|cant|p2a: Machamp|par
+|
+|turn|35
+|choice|move 4|move 4
+|
+|move|p1a: Tangela|Mega Drain|p2a: Machamp
+|-damage|p2a: Machamp|141\/345 par
+|-heal|p1a: Tangela|167\/284|[from] drain|[of] p2a: Machamp
+|move|p2a: Machamp|Submission|p1a: Tangela
+|-damage|p1a: Tangela|64\/284
+|-damage|p2a: Machamp|116\/345 par|[from] recoil|[of] p1a: Tangela
+|
+|turn|36
+|choice|move 4|move 2
+|
+|move|p1a: Tangela|Mega Drain|p2a: Machamp
+|-crit|p2a: Machamp
+|-damage|p2a: Machamp|20\/345 par
+|-heal|p1a: Tangela|112\/284|[from] drain|[of] p2a: Machamp
+|move|p2a: Machamp|Hyper Beam|p1a: Tangela|[miss]
+|-miss|p2a: Machamp
+|
+|turn|37
+|choice|move 4|move 4
+|
+|move|p1a: Tangela|Mega Drain|p2a: Machamp
+|-crit|p2a: Machamp
+|-damage|p2a: Machamp|0 fnt
+|-heal|p1a: Tangela|122\/284|[from] drain|[of] p2a: Machamp
+|faint|p2a: Machamp
+|choice||switch 3
+|
+|switch|p2a: Tangela|Tangela, L85|284\/284 slp
+|turn|38
+|choice|move 2|move 4
+|
+|move|p1a: Tangela|Body Slam|p2a: Tangela
+|-damage|p2a: Tangela|245\/284 slp
+|cant|p2a: Tangela|slp
+|
+|turn|39
+|choice|move 4|move 4
+|
+|cant|p2a: Tangela|slp
+|move|p1a: Tangela|Mega Drain|p2a: Tangela
+|-resisted|p2a: Tangela
+|-damage|p2a: Tangela|225\/284 slp
+|-heal|p1a: Tangela|132\/284|[from] drain|[of] p2a: Tangela
+|
+|turn|40
+|choice|move 4|move 2
+|
+|move|p1a: Tangela|Mega Drain|p2a: Tangela
+|-crit|p2a: Tangela
+|-resisted|p2a: Tangela
+|-damage|p2a: Tangela|186\/284 slp
+|-heal|p1a: Tangela|151\/284|[from] drain|[of] p2a: Tangela
+|-curestatus|p2a: Tangela|slp
+|
+|turn|41
+|choice|move 3|move 2
+|
+|move|p1a: Tangela|Sleep Powder|p2a: Tangela
+|-status|p2a: Tangela|slp
+|cant|p2a: Tangela|slp
+|
+|turn|42
+|choice|move 4|move 2
+|
+|move|p1a: Tangela|Mega Drain|p2a: Tangela
+|-resisted|p2a: Tangela
+|-damage|p2a: Tangela|167\/284 slp
+|-heal|p1a: Tangela|160\/284|[from] drain|[of] p2a: Tangela
+|-curestatus|p2a: Tangela|slp
+|
+|turn|43
+|choice|move 3|switch 4
+|
+|switch|p2a: Chansey|Chansey, L79|421\/557
+|move|p1a: Tangela|Sleep Powder|p2a: Chansey|[miss]
+|-miss|p1a: Tangela
+|
+|turn|44
+|choice|move 3|move 2
+|
+|move|p1a: Tangela|Sleep Powder|p2a: Chansey
+|-status|p2a: Chansey|slp
+|cant|p2a: Chansey|slp
+|
+|turn|45
+|choice|move 4|switch 4
+|
+|switch|p2a: Tangela|Tangela, L85|167\/284
+|move|p1a: Tangela|Mega Drain|p2a: Tangela
+|-resisted|p2a: Tangela
+|-damage|p2a: Tangela|148\/284
+|-heal|p1a: Tangela|169\/284|[from] drain|[of] p2a: Tangela
+|
+|turn|46
+|choice|move 2|move 3
+|
+|move|p1a: Tangela|Body Slam|p2a: Tangela
+|-crit|p2a: Tangela
+|-damage|p2a: Tangela|76\/284
+|-status|p2a: Tangela|par
+|cant|p2a: Tangela|par
+|
+|turn|47
+|choice|move 1|move 2
+|
+|move|p1a: Tangela|Hyper Beam|p2a: Tangela
+|-damage|p2a: Tangela|11\/284 par
+|cant|p2a: Tangela|par
+|
+|turn|48
+|-mustrecharge|p1a: Tangela
+|-mustrecharge|p1a: Tangela
+|choice|move 1|move 2
+|
+|cant|p1a: Tangela|recharge
+|move|p2a: Tangela|Body Slam|p1a: Tangela
+|-damage|p1a: Tangela|131\/284
+|
+|turn|49
+|choice|move 2|move 2
+|
+|move|p1a: Tangela|Body Slam|p2a: Tangela
+|-damage|p2a: Tangela|0 fnt
+|faint|p2a: Tangela
+|choice||switch 4
+|
+|switch|p2a: Chansey|Chansey, L79|421\/557 slp
+|turn|50
+|choice|move 4|move 1
+|
+|move|p1a: Tangela|Mega Drain|p2a: Chansey
+|-damage|p2a: Chansey|379\/557 slp
+|-heal|p1a: Tangela|152\/284|[from] drain|[of] p2a: Chansey
+|cant|p2a: Chansey|slp
+|
+|turn|51
+|choice|move 4|move 3
+|
+|move|p1a: Tangela|Mega Drain|p2a: Chansey
+|-damage|p2a: Chansey|339\/557 slp
+|-heal|p1a: Tangela|172\/284|[from] drain|[of] p2a: Chansey
+|cant|p2a: Chansey|slp
+|
+|turn|52
+|choice|move 4|move 3
+|
+|move|p1a: Tangela|Mega Drain|p2a: Chansey
+|-damage|p2a: Chansey|300\/557 slp
+|-heal|p1a: Tangela|191\/284|[from] drain|[of] p2a: Chansey
+|-curestatus|p2a: Chansey|slp
+|
+|turn|53
+|choice|move 3|move 3
+|
+|move|p1a: Tangela|Sleep Powder|p2a: Chansey
+|-status|p2a: Chansey|slp
+|cant|p2a: Chansey|slp
+|
+|turn|54
+|choice|move 4|move 1
+|
+|move|p1a: Tangela|Mega Drain|p2a: Chansey
+|-damage|p2a: Chansey|260\/557 slp
+|-heal|p1a: Tangela|211\/284|[from] drain|[of] p2a: Chansey
+|cant|p2a: Chansey|slp
+|
+|turn|55
+|choice|move 4|move 1
+|
+|move|p1a: Tangela|Mega Drain|p2a: Chansey
+|-damage|p2a: Chansey|216\/557 slp
+|-heal|p1a: Tangela|233\/284|[from] drain|[of] p2a: Chansey
+|-curestatus|p2a: Chansey|slp
+|
+|turn|56
+|choice|move 3|move 1
+|
+|move|p1a: Tangela|Sleep Powder|p2a: Chansey|[miss]
+|-miss|p1a: Tangela
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|494\/557
+|
+|turn|57
+|choice|move 3|move 3
+|
+|move|p1a: Tangela|Sleep Powder|p2a: Chansey
+|-status|p2a: Chansey|slp
+|cant|p2a: Chansey|slp
+|
+|turn|58
+|choice|move 2|move 3
+|
+|move|p1a: Tangela|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|367\/557 slp
+|cant|p2a: Chansey|slp
+|
+|turn|59
+|choice|move 2|move 3
+|
+|move|p1a: Tangela|Body Slam|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|156\/557 slp
+|-curestatus|p2a: Chansey|slp
+|
+|turn|60
+|choice|move 3|switch 5
+|
+|switch|p2a: Cubone|Cubone, L96|110\/291
+|move|p1a: Tangela|Sleep Powder|p2a: Cubone
+|-status|p2a: Cubone|slp
+|
+|turn|61
+|choice|move 2|switch 5
+|
+|switch|p2a: Chansey|Chansey, L79|156\/557
+|move|p1a: Tangela|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|30\/557
+|
+|turn|62
+|-message|Arafalo2 forfeited.
+|
+|win|Green Vessel
+|leave|Arafalo2
+|player|p2
+||Ladder (probably) updated, but score could not be retrieved (Response not received).

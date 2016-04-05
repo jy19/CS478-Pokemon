@@ -1,0 +1,265 @@
+﻿|join|jb champ
+|join|luciusrdv
+|player|p1|jb champ|150
+|player|p2|luciusrdv|169
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Machop|Machop, L96|329\/329
+|switch|p2a: Caterpie|Caterpie, L99|290\/290
+|turn|1
+|
+|move|p2a: Caterpie|Tackle|p1a: Machop|[miss]
+|-miss|p2a: Caterpie
+|move|p1a: Machop|Earthquake|p2a: Caterpie
+|-resisted|p2a: Caterpie
+|-damage|p2a: Caterpie|238\/290
+|
+|turn|2
+|
+|switch|p1a: Fearow|Fearow, L85|284\/284
+|move|p2a: Caterpie|Tackle|p1a: Fearow
+|-crit|p1a: Fearow
+|-damage|p1a: Fearow|240\/284
+|
+|turn|3
+|c|★luciusrdv|this is spartaa , caterpie for the win lmfao
+|
+|switch|p2a: Lapras|Lapras, L79|367\/367
+|move|p1a: Fearow|Drill Peck|p2a: Lapras
+|-damage|p2a: Lapras|275\/367
+|
+|turn|4
+|c|★jb champ|do not let him die mate
+|c|★jb champ|;9
+|c|★jb champ|he is the mvp
+|
+|switch|p1a: Starmie|Starmie, L79|257\/257
+|move|p2a: Lapras|Ice Beam|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|213\/257
+|-status|p1a: Starmie|frz
+|
+|turn|5
+|c|★luciusrdv|yeah :3
+|c|★jb champ|damn
+|
+|cant|p1a: Starmie|frz
+|move|p2a: Lapras|Body Slam|p1a: Starmie
+|-crit|p1a: Starmie
+|-damage|p1a: Starmie|111\/257 frz
+|
+|turn|6
+|c|★luciusrdv|sry bro :\/
+|c|★jb champ|nevermind :)
+|c|★jb champ|it will be hard now to turn that around sice i have nothing that can really stand up to lapras
+|
+|cant|p1a: Starmie|frz
+|move|p2a: Lapras|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|55\/257 frz
+|
+|turn|7
+|
+|cant|p1a: Starmie|frz
+|move|p2a: Lapras|Rest|p2a: Lapras
+|-status|p2a: Lapras|slp
+|-heal|p2a: Lapras|367\/367 slp|[silent]
+|-status|p2a: Lapras|slp|[from] move: Rest
+|
+|turn|8
+|
+|switch|p1a: Hitmonchan|Hitmonchan, L85|259\/259
+|switch|p2a: Caterpie|Caterpie, L99|238\/290
+|
+|turn|9
+|
+|switch|p1a: Fearow|Fearow, L85|240\/284
+|switch|p2a: Lapras|Lapras, L79|367\/367 slp
+|
+|turn|10
+|
+|move|p1a: Fearow|Double-Edge|p2a: Lapras
+|-damage|p2a: Lapras|243\/367 slp
+|-damage|p1a: Fearow|209\/284|[from] recoil|[of] p2a: Lapras
+|cant|p2a: Lapras|slp
+|
+|turn|11
+|
+|move|p1a: Fearow|Double-Edge|p2a: Lapras
+|-crit|p2a: Lapras
+|-damage|p2a: Lapras|25\/367 slp
+|-damage|p1a: Fearow|155\/284|[from] recoil|[of] p2a: Lapras
+|cant|p2a: Lapras|slp
+|-curestatus|p2a: Lapras|slp
+|
+|turn|12
+|
+|move|p1a: Fearow|Drill Peck|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|293\/293
+|turn|13
+|
+|switch|p1a: Starmie|Starmie, L79|55\/257 frz
+|move|p2a: Mewtwo|Ice Beam|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|21\/257 frz
+|
+|turn|14
+|
+|switch|p1a: Aerodactyl|Aerodactyl, L85|310\/310
+|move|p2a: Mewtwo|Body Slam|p1a: Aerodactyl
+|-crit|p1a: Aerodactyl
+|-resisted|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|257\/310
+|-status|p1a: Aerodactyl|par
+|
+|turn|15
+|
+|move|p2a: Mewtwo|Psychic|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|139\/310 par
+|-unboost|p1a: Aerodactyl|spd|1
+|-unboost|p1a: Aerodactyl|spa|1
+|move|p1a: Aerodactyl|Hyper Beam|p2a: Mewtwo|[miss]
+|-miss|p1a: Aerodactyl
+|
+|turn|16
+|
+|move|p2a: Mewtwo|Psychic|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|0 fnt
+|faint|p1a: Aerodactyl
+|
+|switch|p1a: Muk|Muk, L85|352\/352
+|turn|17
+|
+|move|p2a: Mewtwo|Psychic|p1a: Muk
+|-supereffective|p1a: Muk
+|-damage|p1a: Muk|113\/352
+|move|p1a: Muk|Explosion|p2a: Mewtwo
+|-damage|p2a: Mewtwo|0 fnt
+|faint|p2a: Mewtwo
+|faint|p1a: Muk
+|
+|switch|p1a: Fearow|Fearow, L85|155\/284
+|switch|p2a: Gengar|Gengar, L79|257\/257
+|turn|18
+|
+|switch|p1a: Starmie|Starmie, L79|21\/257 frz
+|move|p2a: Gengar|Hypnosis|p1a: Starmie|[miss]
+|-miss|p2a: Gengar
+|
+|turn|19
+|
+|cant|p1a: Starmie|frz
+|move|p2a: Gengar|Mega Drain|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|switch|p1a: Fearow|Fearow, L85|155\/284
+|turn|20
+|
+|move|p1a: Fearow|Drill Peck|p2a: Gengar
+|-damage|p2a: Gengar|143\/257
+|move|p2a: Gengar|Explosion|p1a: Fearow
+|-damage|p1a: Fearow|0 fnt
+|faint|p1a: Fearow
+|faint|p2a: Gengar
+|
+|switch|p2a: Tauros|Tauros, L79|280\/280
+|switch|p1a: Hitmonchan|Hitmonchan, L85|259\/259
+|turn|21
+|
+|move|p2a: Tauros|Body Slam|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|171\/259
+|move|p1a: Hitmonchan|Counter|p2a: Tauros
+|-damage|p2a: Tauros|104\/280
+|
+|turn|22
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Hitmonchan
+|-crit|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|0 fnt
+|faint|p1a: Hitmonchan
+|
+|switch|p1a: Machop|Machop, L96|329\/329
+|turn|23
+|
+|move|p2a: Tauros|Body Slam|p1a: Machop
+|-damage|p1a: Machop|229\/329
+|move|p1a: Machop|Counter|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|switch|p2a: Chansey|Chansey, L79|557\/557
+|turn|24
+|
+|move|p1a: Machop|Leer|p2a: Chansey
+|-unboost|p2a: Chansey|def|1
+|move|p2a: Chansey|Counter|p1a: Machop
+|-fail|p2a: Chansey
+|
+|turn|25
+|
+|move|p1a: Machop|Leer|p2a: Chansey
+|-unboost|p2a: Chansey|def|1
+|move|p2a: Chansey|Counter|p1a: Machop
+|-fail|p2a: Chansey
+|
+|turn|26
+|
+|move|p1a: Machop|Leer|p2a: Chansey
+|-unboost|p2a: Chansey|def|1
+|move|p2a: Chansey|Thunder Wave|p1a: Machop
+|-status|p1a: Machop|par
+|
+|turn|27
+|
+|switch|p2a: Caterpie|Caterpie, L99|238\/290
+|move|p1a: Machop|Earthquake|p2a: Caterpie
+|-resisted|p2a: Caterpie
+|-damage|p2a: Caterpie|182\/290
+|
+|turn|28
+|
+|move|p2a: Caterpie|Tackle|p1a: Machop
+|-damage|p1a: Machop|205\/329 par
+|move|p1a: Machop|Double-Edge|p2a: Caterpie
+|-damage|p2a: Caterpie|77\/290
+|-damage|p1a: Machop|179\/329 par|[from] recoil|[of] p2a: Caterpie
+|
+|turn|29
+|
+|switch|p2a: Chansey|Chansey, L79|557\/557
+|cant|p1a: Machop|par
+|
+|turn|30
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Machop
+|-crit|p1a: Machop
+|-damage|p1a: Machop|0 fnt
+|faint|p1a: Machop
+|
+|win|luciusrdv
+|raw|Ladder updating...
+|raw|jb champ's rating: 1309 &rarr; <strong>1278<\/strong><br \/>(-31 for losing)
+|raw|luciusrdv's rating: 1096 &rarr; <strong>1136<\/strong><br \/>(+40 for winning)
+|c|★jb champ|wel gg
+|c|★luciusrdv|gg :3
+|c|★jb champ|good team
+|c|★jb champ|no way i could beat that
+|c|★luciusrdv|yeah caterpie did everything :3
+|c|★jb champ|yep
+|c|★jb champ|should be forbidden
+|c|★luciusrdv|have a nice day then :3
+|c|★luciusrdv|Yep for sure :3
+|leave|luciusrdv
+|player|p2
+|c|★jb champ|have a good one

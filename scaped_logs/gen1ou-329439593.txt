@@ -1,0 +1,307 @@
+﻿|j|DarthRuin
+|j|Reverb
+|player|p1|DarthRuin|262
+|player|p2|Reverb|#reverb
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|seed|18185,6114,8871,37972
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Ice Cream|Exeggutor|393\/393
+|switch|p2a: Starmie|Starmie|323\/323
+|turn|1
+|j|noobtony
+|c|★Reverb|hf
+|choice|move 4|move 3
+|
+|move|p2a: Starmie|Blizzard|p1a: Ice Cream
+|-crit|p1a: Ice Cream
+|-supereffective|p1a: Ice Cream
+|-damage|p1a: Ice Cream|90\/393
+|move|p1a: Ice Cream|Sleep Powder|p2a: Starmie|[miss]
+|-miss|p1a: Ice Cream
+|
+|turn|2
+|c|★DarthRuin|you too
+|choice|switch 2|move 3
+|
+|switch|p1a: Candy|Starmie|323\/323
+|move|p2a: Starmie|Blizzard|p1a: Candy
+|-resisted|p1a: Candy
+|-damage|p1a: Candy|277\/323
+|
+|turn|3
+|choice|move 4|move 1
+|
+|move|p1a: Candy|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|184\/323
+|move|p2a: Starmie|Thunder Wave|p1a: Candy
+|-status|p1a: Candy|par
+|
+|turn|4
+|choice|move 4|move 4
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|323\/323
+|move|p1a: Candy|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|182\/323
+|
+|turn|5
+|choice|move 4|move 4
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|323\/323
+|move|p1a: Candy|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|169\/323
+|
+|turn|6
+|choice|move 4|move 4
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|323\/323
+|move|p1a: Candy|Thunderbolt|p2a: Starmie
+|-crit|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|43\/323
+|
+|turn|7
+|choice|move 4|move 4
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|204\/323
+|move|p1a: Candy|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|44\/323
+|
+|turn|8
+|choice|move 4|move 2
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Candy
+|-supereffective|p1a: Candy
+|-damage|p1a: Candy|122\/323 par
+|move|p1a: Candy|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|choice||switch 6
+|
+|switch|p2a: Persian|Persian, M|333\/333
+|turn|9
+|choice|move 3|move 1
+|
+|move|p2a: Persian|Slash|p1a: Candy
+|-crit|p1a: Candy
+|-damage|p1a: Candy|0 fnt
+|faint|p1a: Candy
+|l|noobtony
+|choice|switch 6|
+|
+|switch|p1a: Eggs|Chansey|703\/703
+|turn|10
+|choice|move 4|switch 4
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Eggs|Toxic|p2a: Chansey
+|-status|p2a: Chansey|tox
+|
+|turn|11
+|choice|move 1|switch 2
+|
+|switch|p2a: Exeggutor|Exeggutor, M|393\/393
+|move|p1a: Eggs|Counter|p2a: Exeggutor
+|-damage|p2a: Exeggutor|149\/393
+|
+|turn|12
+|choice|move 1|move 1
+|
+|move|p2a: Exeggutor|Sleep Powder|p1a: Eggs
+|-status|p1a: Eggs|slp
+|cant|p1a: Eggs|slp
+|
+|turn|13
+|choice|move 2|move 3
+|
+|move|p2a: Exeggutor|Psychic|p1a: Eggs
+|-damage|p1a: Eggs|592\/703 slp
+|cant|p1a: Eggs|slp
+|
+|turn|14
+|choice|move 2|move 3
+|
+|move|p2a: Exeggutor|Psychic|p1a: Eggs
+|-damage|p1a: Eggs|472\/703 slp
+|cant|p1a: Eggs|slp
+|
+|turn|15
+|choice|move 2|move 3
+|
+|move|p2a: Exeggutor|Psychic|p1a: Eggs
+|-damage|p1a: Eggs|360\/703 slp
+|-unboost|p1a: Eggs|spd|1
+|-unboost|p1a: Eggs|spa|1
+|-curestatus|p1a: Eggs|slp
+|
+|turn|16
+|choice|move 2|move 1
+|
+|move|p2a: Exeggutor|Sleep Powder|p1a: Eggs|[miss]
+|-miss|p2a: Exeggutor
+|move|p1a: Eggs|Ice Beam|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|55\/393
+|
+|turn|17
+|choice|move 2|move 1
+|
+|move|p2a: Exeggutor|Sleep Powder|p1a: Eggs
+|-status|p1a: Eggs|slp
+|-curestatus|p1a: Eggs|slp
+|
+|turn|18
+|choice|move 2|move 4
+|
+|move|p2a: Exeggutor|Explosion|p1a: Eggs
+|-crit|p1a: Eggs
+|-damage|p1a: Eggs|0 fnt
+|faint|p1a: Eggs
+|faint|p2a: Exeggutor
+|choice|switch 2|switch 4
+|
+|switch|p2a: Persian|Persian, M|333\/333
+|switch|p1a: Ice Cream|Exeggutor|90\/393
+|turn|19
+|choice|move 2|move 1
+|
+|move|p2a: Persian|Slash|p1a: Ice Cream
+|-crit|p1a: Ice Cream
+|-damage|p1a: Ice Cream|0 fnt
+|faint|p1a: Ice Cream
+|choice|switch 3|
+|
+|switch|p1a: Chocolate|Tauros|353\/353
+|turn|20
+|choice|move 2|move 1
+|
+|move|p2a: Persian|Slash|p1a: Chocolate
+|-crit|p1a: Chocolate
+|-damage|p1a: Chocolate|230\/353
+|move|p1a: Chocolate|Body Slam|p2a: Persian
+|-damage|p2a: Persian|192\/333
+|
+|turn|21
+|choice|move 4|move 1
+|
+|move|p2a: Persian|Slash|p1a: Chocolate
+|-crit|p1a: Chocolate
+|-damage|p1a: Chocolate|107\/353
+|move|p1a: Chocolate|Hyper Beam|p2a: Persian|[miss]
+|-miss|p1a: Chocolate
+|
+|turn|22
+|choice|switch 4|move 1
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|move|p2a: Persian|Slash|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|112\/313
+|
+|turn|23
+|choice|move 3|switch 2
+|
+|switch|p2a: Chansey|Chansey|703\/703 tox
+|-status|p2a: Chansey|psn
+|-damage|p2a: Chansey|660\/703 psn|[from] psn
+|move|p1a: Alakazam|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|24
+|j|Pheerze
+|choice|move 2|move 1
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|268\/313
+|move|p2a: Chansey|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|-damage|p2a: Chansey|617\/703 psn|[from] psn|[of] p1a: Alakazam
+|
+|turn|25
+|choice|move 1|switch 3
+|
+|switch|p2a: Snorlax|Snorlax, M|523\/523
+|move|p1a: Alakazam|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|340\/523
+|
+|turn|26
+|choice|move 3|move 1
+|
+|move|p2a: Snorlax|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|91\/313 par
+|cant|p1a: Alakazam|par
+|
+|turn|27
+|choice|move 4|move 1
+|
+|move|p2a: Snorlax|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|choice|switch 4|
+|
+|switch|p1a: Chocolate|Tauros|107\/353
+|turn|28
+|choice|move 4|move 1
+|
+|move|p1a: Chocolate|Hyper Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|106\/523
+|move|p2a: Snorlax|Body Slam|p1a: Chocolate
+|-crit|p1a: Chocolate
+|-damage|p1a: Chocolate|0 fnt
+|faint|p1a: Chocolate
+|choice|switch 5|
+|
+|switch|p1a: Cookie|Golem|363\/363
+|turn|29
+|choice|move 2|move 2
+|
+|move|p1a: Cookie|Earthquake|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|choice||switch 2
+|
+|switch|p2a: Persian|Persian, M|192\/333
+|turn|30
+|choice|move 2|move 3
+|
+|move|p2a: Persian|Bubble Beam|p1a: Cookie
+|-supereffective|p1a: Cookie
+|-damage|p1a: Cookie|126\/363
+|move|p1a: Cookie|Earthquake|p2a: Persian
+|-damage|p2a: Persian|24\/333
+|
+|turn|31
+|j|Alexander
+|choice|move 2|move 3
+|
+|move|p2a: Persian|Bubble Beam|p1a: Cookie
+|-supereffective|p1a: Cookie
+|-damage|p1a: Cookie|0 fnt
+|faint|p1a: Cookie
+|
+|win|Reverb
+|player|p1
+|player|p2
+|c|★Reverb|gg
+|raw|DarthRuin's rating: 1119 &rarr; <strong>1111<\/strong><br \/>(-8 for losing)
+|raw|Reverb's rating: 1401 &rarr; <strong>1408<\/strong><br \/>(+7 for winning)
+|l|DarthRuin
+|l|Alexander

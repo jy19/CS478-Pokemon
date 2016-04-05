@@ -1,0 +1,78 @@
+﻿|join|MoonsOverAugust
+|join|Conman033
+|player|p1|MoonsOverAugust|2
+|player|p2|Conman033|162
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|59245,25656,40891,57324
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Nidorino|Nidorino, L90|293\/293
+|switch|p2a: Parasect|Parasect, L90|291\/291
+|turn|1
+|choice|move 3|move 1
+|
+|move|p1a: Nidorino|Blizzard|p2a: Parasect
+|-supereffective|p2a: Parasect
+|-damage|p2a: Parasect|163\/291
+|move|p2a: Parasect|Body Slam|p1a: Nidorino
+|-damage|p1a: Nidorino|210\/293
+|-status|p1a: Nidorino|par
+|
+|turn|2
+|choice|move 3|move 1
+|
+|move|p2a: Parasect|Body Slam|p1a: Nidorino
+|-damage|p1a: Nidorino|130\/293 par
+|move|p1a: Nidorino|Blizzard|p2a: Parasect|[miss]
+|-miss|p1a: Nidorino
+|
+|turn|3
+|choice|move 3|move 2
+|
+|move|p2a: Parasect|Hyper Beam|p1a: Nidorino
+|-damage|p1a: Nidorino|0 fnt
+|faint|p1a: Nidorino
+|choice|switch 3|
+|
+|switch|p1a: Magmar|Magmar, L90|300\/300
+|turn|4
+|choice|move 1|switch 2
+|
+|switch|p2a: Omastar|Omastar, L90|309\/309
+|move|p1a: Magmar|Fire Blast|p2a: Omastar
+|-resisted|p2a: Omastar
+|-damage|p2a: Omastar|282\/309
+|
+|turn|5
+|choice|switch 6|move 3
+|
+|switch|p1a: Parasect|Parasect, L90|291\/291
+|move|p2a: Omastar|Hydro Pump|p1a: Parasect
+|-resisted|p1a: Parasect
+|-damage|p1a: Parasect|213\/291
+|
+|turn|6
+|choice|move 3|switch 5
+|
+|switch|p2a: Haunter|Haunter, L85|250\/250
+|move|p1a: Parasect|Stun Spore|p2a: Haunter
+|-status|p2a: Haunter|par
+|
+|turn|7
+|choice|switch 2|move 3
+|
+|switch|p1a: Geodude|Geodude, L96|272\/272
+|cant|p2a: Haunter|par
+|
+|turn|8
+|-message|Conman033 lost due to inactivity.
+|
+|win|MoonsOverAugust
+|raw|MoonsOverAugust's rating: 1216 &rarr; <strong>1232<\/strong><br \/>(+16 for winning)
+|raw|Conman033's rating: 1085 &rarr; <strong>1071<\/strong><br \/>(-14 for losing)

@@ -1,0 +1,190 @@
+﻿|join|LibertarianMaster
+|join|MeimuHakurei
+|player|p1|LibertarianMaster|35
+|player|p2|MeimuHakurei|1
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Lickitung|Lickitung, L90|345\/345
+|switch|p2a: Dodrio|Dodrio, L85|276\/276
+|turn|1
+|
+|move|p2a: Dodrio|Body Slam|p1a: Lickitung
+|-damage|p1a: Lickitung|239\/345
+|move|p1a: Lickitung|Swords Dance|p1a: Lickitung
+|-boost|p1a: Lickitung|atk|2
+|
+|turn|2
+|
+|switch|p2a: Onix|Onix, L90|246\/246
+|move|p1a: Lickitung|Body Slam|p2a: Onix
+|-resisted|p2a: Onix
+|-damage|p2a: Onix|203\/246
+|-status|p2a: Onix|par
+|
+|turn|3
+|
+|move|p1a: Lickitung|Earthquake|p2a: Onix
+|-supereffective|p2a: Onix
+|-damage|p2a: Onix|69\/246 par
+|move|p2a: Onix|Toxic|p1a: Lickitung
+|-status|p1a: Lickitung|tox
+|
+|turn|4
+|
+|move|p1a: Lickitung|Earthquake|p2a: Onix
+|-supereffective|p2a: Onix
+|-damage|p2a: Onix|0 fnt
+|faint|p2a: Onix
+|
+|switch|p2a: Dodrio|Dodrio, L85|276\/276
+|turn|5
+|
+|move|p2a: Dodrio|Body Slam|p1a: Lickitung
+|-damage|p1a: Lickitung|126\/345 tox
+|move|p1a: Lickitung|Body Slam|p2a: Dodrio
+|-damage|p2a: Dodrio|111\/276
+|-damage|p1a: Lickitung|105\/345 tox|[from] tox|[of] p2a: Dodrio
+|
+|turn|6
+|
+|move|p2a: Dodrio|Body Slam|p1a: Lickitung
+|-damage|p1a: Lickitung|0 fnt
+|faint|p1a: Lickitung
+|
+|switch|p1a: Vulpix|Vulpix, L96|268\/268
+|turn|7
+|
+|move|p2a: Dodrio|Hyper Beam|p1a: Vulpix
+|-damage|p1a: Vulpix|15\/268
+|move|p1a: Vulpix|Reflect|p1a: Vulpix
+|-start|p1a: Vulpix|Reflect
+|
+|turn|8
+|-mustrecharge|p2a: Dodrio
+|-mustrecharge|p2a: Dodrio
+|
+|cant|p2a: Dodrio|recharge
+|move|p1a: Vulpix|Fire Blast|p2a: Dodrio
+|-damage|p2a: Dodrio|0 fnt
+|faint|p2a: Dodrio
+|
+|switch|p2a: Raichu|Raichu, L85|276\/276
+|turn|9
+|
+|switch|p1a: Vileplume|Vileplume, L90|318\/318
+|move|p2a: Raichu|Surf|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|291\/318
+|
+|turn|10
+|
+|switch|p2a: Nidorino|Nidorino, L90|293\/293
+|move|p1a: Vileplume|Sleep Powder|p2a: Nidorino
+|-status|p2a: Nidorino|slp
+|
+|turn|11
+|
+|switch|p2a: Arbok|Arbok, L90|291\/291
+|move|p1a: Vileplume|Swords Dance|p1a: Vileplume
+|-boost|p1a: Vileplume|atk|2
+|
+|turn|12
+|
+|move|p2a: Arbok|Glare|p1a: Vileplume
+|-status|p1a: Vileplume|par
+|move|p1a: Vileplume|Body Slam|p2a: Arbok
+|-damage|p2a: Arbok|154\/291
+|
+|turn|13
+|
+|move|p2a: Arbok|Earthquake|p1a: Vileplume
+|-damage|p1a: Vileplume|217\/318 par
+|move|p1a: Vileplume|Body Slam|p2a: Arbok
+|-damage|p2a: Arbok|22\/291
+|-status|p2a: Arbok|par
+|
+|turn|14
+|
+|move|p2a: Arbok|Earthquake|p1a: Vileplume
+|-damage|p1a: Vileplume|143\/318 par
+|cant|p1a: Vileplume|par
+|
+|turn|15
+|
+|cant|p2a: Arbok|par
+|move|p1a: Vileplume|Mega Drain|p2a: Arbok
+|-crit|p2a: Arbok
+|-resisted|p2a: Arbok
+|-damage|p2a: Arbok|0 fnt
+|-heal|p1a: Vileplume|154\/318 par|[from] drain|[of] p2a: Arbok
+|faint|p2a: Arbok
+|
+|switch|p2a: Seel|Seel, L96|320\/320
+|turn|16
+|
+|move|p2a: Seel|Blizzard|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|faint|p1a: Vileplume
+|
+|switch|p1a: Electrode|Electrode, L90|291\/291
+|turn|17
+|
+|switch|p2a: Raichu|Raichu, L85|276\/276
+|move|p1a: Electrode|Explosion|p2a: Raichu
+|-crit|p2a: Raichu
+|-damage|p2a: Raichu|0 fnt
+|faint|p2a: Raichu
+|faint|p1a: Electrode
+|
+|switch|p1a: Vulpix|Vulpix, L96|15\/268
+|switch|p2a: Seel|Seel, L96|320\/320
+|turn|18
+|
+|move|p1a: Vulpix|Body Slam|p2a: Seel
+|-damage|p2a: Seel|260\/320
+|move|p2a: Seel|Body Slam|p1a: Vulpix
+|-damage|p1a: Vulpix|0 fnt
+|faint|p1a: Vulpix
+|
+|switch|p1a: Exeggutor|Exeggutor, L79|312\/312
+|turn|19
+|
+|move|p2a: Seel|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|168\/312
+|move|p1a: Exeggutor|Sleep Powder|p2a: Seel
+|-message|Sleep Clause Mod activated.
+|
+|turn|20
+|
+|move|p2a: Seel|Blizzard|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Kakuna|Kakuna, L99|290\/290
+|turn|21
+|
+|move|p2a: Seel|Blizzard|p1a: Kakuna
+|-damage|p1a: Kakuna|147\/290
+|move|p1a: Kakuna|Poison Sting|p2a: Seel
+|-damage|p2a: Seel|246\/320
+|
+|turn|22
+|
+|move|p2a: Seel|Surf|p1a: Kakuna
+|-damage|p1a: Kakuna|0 fnt
+|faint|p1a: Kakuna
+|
+|win|MeimuHakurei
+|raw|LibertarianMaster's rating: 1290 &rarr; <strong>1254<\/strong><br \/>(-36 for losing)
+|raw|MeimuHakurei's rating: 1126 &rarr; <strong>1162<\/strong><br \/>(+36 for winning)

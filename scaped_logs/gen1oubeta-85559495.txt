@@ -1,0 +1,219 @@
+﻿|join|Shax
+|join|Blue53
+|player|p1|Shax|153
+|player|p2|Blue53|161
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333\/333
+|switch|p2a: Magneton|Magneton|303\/303
+|turn|1
+|callback|decision
+|
+|move|p1a: Jynx|Blizzard|p2a: Magneton
+|-damage|p2a: Magneton|185\/303
+|move|p2a: Magneton|Thunder Wave|p1a: Jynx
+|-status|p1a: Jynx|par
+|
+|turn|2
+|callback|decision
+|
+|move|p2a: Magneton|Mimic|p1a: Jynx
+|-start|p2a: Magneton|Mimic|Lovely Kiss
+|move|p1a: Jynx|Blizzard|p2a: Magneton
+|-damage|p2a: Magneton|71\/303
+|
+|turn|3
+|callback|decision
+|
+|move|p2a: Magneton|Thunder|p1a: Jynx
+|-crit|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|
+|callback|decision
+|
+|switch|p1a: Articuno|Articuno|383\/383
+|turn|4
+|callback|decision
+|
+|move|p1a: Articuno|Blizzard|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|faint|p2a: Magneton
+|
+|callback|decision
+|
+|switch|p2a: ShadowDust|Weezing|333\/333
+|turn|5
+|callback|decision
+|
+|move|p1a: Articuno|Blizzard|p2a: ShadowDust
+|-crit|p2a: ShadowDust
+|-damage|p2a: ShadowDust|0 fnt
+|faint|p2a: ShadowDust
+|
+|callback|decision
+|join|jizle
+|
+|switch|p2a: Pow|Machamp|383\/383
+|turn|6
+|callback|decision
+|
+|move|p1a: Articuno|Blizzard|p2a: Pow
+|-damage|p2a: Pow|154\/383
+|move|p2a: Pow|Submission|p1a: Articuno
+|-damage|p1a: Articuno|279\/383
+|-damage|p2a: Pow|128\/383|[from] recoil|[of] p1a: Articuno
+|
+|turn|7
+|callback|decision
+|
+|move|p1a: Articuno|Blizzard|p2a: Pow
+|-damage|p2a: Pow|0 fnt
+|faint|p2a: Pow
+|
+|callback|decision
+|
+|switch|p2a: Mrs.Floofy|Flareon|333\/333
+|turn|8
+|callback|decision
+|
+|move|p1a: Articuno|Blizzard|p2a: Mrs.Floofy
+|-crit|p2a: Mrs.Floofy
+|-damage|p2a: Mrs.Floofy|4\/333
+|move|p2a: Mrs.Floofy|Fire Blast|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|40\/383
+|
+|turn|9
+|callback|decision
+|
+|move|p2a: Mrs.Floofy|Quick Attack|p1a: Articuno
+|-damage|p1a: Articuno|1\/383
+|move|p1a: Articuno|Double-Edge|p2a: Mrs.Floofy
+|-damage|p2a: Mrs.Floofy|0 fnt
+|-damage|p1a: Articuno|0 fnt|[from] recoil|[of] p2a: Mrs.Floofy
+|faint|p2a: Mrs.Floofy
+|faint|p1a: Articuno
+|
+|callback|decision
+|chat|Blue53|-.-.
+|
+|switch|p2a: Snapper|Parasect|323\/323
+|switch|p1a: Snorlax|Snorlax|523\/523
+|turn|10
+|callback|decision
+|
+|move|p2a: Snapper|Spore|p1a: Snorlax
+|-status|p1a: Snorlax|slp
+|cant|p1a: Snorlax|slp
+|
+|turn|11
+|callback|decision
+|
+|switch|p2a: Farfetch'd|Farfetch'd|307\/307
+|cant|p1a: Snorlax|slp
+|
+|turn|12
+|callback|decision
+|
+|move|p2a: Farfetch'd|Substitute|p2a: Farfetch'd
+|-start|p2a: Farfetch'd|Substitute
+|-damage|p2a: Farfetch'd|231\/307
+|cant|p1a: Snorlax|slp
+|
+|turn|13
+|callback|decision
+|
+|move|p2a: Farfetch'd|Swords Dance|p2a: Farfetch'd
+|-boost|p2a: Farfetch'd|atk|2
+|cant|p1a: Snorlax|slp
+|
+|turn|14
+|callback|decision
+|
+|move|p2a: Farfetch'd|Swords Dance|p2a: Farfetch'd
+|-boost|p2a: Farfetch'd|atk|2
+|cant|p1a: Snorlax|slp
+|
+|turn|15
+|callback|decision
+|
+|move|p2a: Farfetch'd|Swords Dance|p2a: Farfetch'd
+|-boost|p2a: Farfetch'd|atk|2
+|cant|p1a: Snorlax|slp
+|-curestatus|p1a: Snorlax|slp
+|
+|turn|16
+|callback|decision
+|
+|move|p2a: Farfetch'd|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|149\/523
+|move|p1a: Snorlax|Reflect|p1a: Snorlax
+|
+|turn|17
+|callback|decision
+|
+|move|p2a: Farfetch'd|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|callback|decision
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|turn|18
+|callback|decision
+|
+|move|p2a: Farfetch'd|Fly|p1a: Exeggutor|[still]
+|-prepare|p2a: Farfetch'd|Fly|p1a: Exeggutor
+|move|p1a: Exeggutor|Explosion|p2a: Farfetch'd|[miss]
+|-message|The foe Farfetch'd can't be hit while flying!
+|-miss|p1a: Exeggutor
+|faint|p1a: Exeggutor
+|callback|decision
+|
+|switch|p1a: Slowbro|Slowbro|393\/393
+|turn|19
+|callback|decision
+|
+|move|p2a: Farfetch'd|Fly|p1a: Slowbro
+|-damage|p1a: Slowbro|156\/393
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|
+|turn|20
+|callback|decision
+|chat|jizle|lol
+|
+|move|p2a: Farfetch'd|Body Slam|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|
+|callback|decision
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|turn|21
+|callback|decision
+|
+|move|p2a: Farfetch'd|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|win|Blue53
+|raw|Ladder updating...
+|raw|Shax's rating: 1000 &rarr; <strong>1000<\/strong><br \/>(+0 for losing)
+|raw|Blue53's rating: 1038 &rarr; <strong>1060<\/strong><br \/>(+22 for winning)
+|leave|Shax
+|player|p1
+|chat|Blue53|gg

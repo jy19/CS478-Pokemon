@@ -1,0 +1,287 @@
+﻿|j|Dazmi
+|j|Erzog
+|player|p1|Dazmi|65
+|player|p2|Erzog|30
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|seed|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Starmie|Starmie|100\/100
+|switch|p2a: El Pablo|Gengar|100\/100
+|turn|1
+|choice||
+|
+|move|p1a: Starmie|Psychic|p2a: El Pablo
+|-supereffective|p2a: El Pablo
+|-damage|p2a: El Pablo|49\/100
+|-unboost|p2a: El Pablo|spd|1
+|-unboost|p2a: El Pablo|spa|1
+|move|p2a: El Pablo|Hypnosis|p1a: Starmie
+|-status|p1a: Starmie|slp
+|
+|turn|2
+|choice||
+|
+|cant|p1a: Starmie|slp
+|move|p2a: El Pablo|Confuse Ray|p1a: Starmie
+|-start|p1a: Starmie|confusion
+|
+|turn|3
+|choice||
+|
+|cant|p1a: Starmie|slp
+|move|p2a: El Pablo|Thunderbolt|p1a: Starmie
+|-crit|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|choice||
+|
+|switch|p1a: Tauros|Tauros|100\/100
+|turn|4
+|choice||
+|
+|move|p1a: Tauros|Earthquake|p2a: El Pablo
+|-supereffective|p2a: El Pablo
+|-damage|p2a: El Pablo|0 fnt
+|faint|p2a: El Pablo
+|choice||
+|
+|switch|p2a: Exeggutor|Exeggutor|100\/100
+|turn|5
+|choice||
+|
+|move|p1a: Tauros|Blizzard|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|65\/100
+|move|p2a: Exeggutor|Sleep Powder|p1a: Tauros
+|-status|p1a: Tauros|slp
+|
+|turn|6
+|choice||
+|
+|cant|p1a: Tauros|slp
+|move|p2a: Exeggutor|Psychic|p1a: Tauros
+|-damage|p1a: Tauros|57\/100 slp
+|-unboost|p1a: Tauros|spd|1
+|-unboost|p1a: Tauros|spa|1
+|
+|turn|7
+|choice||
+|
+|-curestatus|p1a: Tauros|slp
+|move|p2a: Exeggutor|Mega Drain|p1a: Tauros
+|-damage|p1a: Tauros|29\/100
+|-heal|p2a: Exeggutor|78\/100|[from] drain|[of] p1a: Tauros
+|
+|turn|8
+|choice||
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|32\/100
+|move|p2a: Exeggutor|Psychic|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|choice||
+|
+|switch|p1a: Lapras|Lapras|100\/100
+|turn|9
+|choice||
+|
+|move|p1a: Lapras|Blizzard|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|choice||
+|
+|switch|p2a: HeatWaves|Zapdos|100\/100
+|turn|10
+|choice||
+|
+|switch|p1a: Golem|Golem|100\/100
+|move|p2a: HeatWaves|Thunder Wave|p1a: Golem
+|-immune|p1a: Golem|[msg]
+|
+|turn|11
+|choice||
+|
+|switch|p2a: Lillou|Chansey|100\/100
+|move|p1a: Golem|Substitute|p1a: Golem
+|-start|p1a: Golem|Substitute
+|-damage|p1a: Golem|76\/100
+|
+|turn|12
+|j|TbhFamily
+|choice||
+|
+|move|p2a: Lillou|Ice Beam|p1a: Golem
+|-supereffective|p1a: Golem
+|-end|p1a: Golem|Substitute
+|move|p1a: Golem|Explosion|p2a: Lillou
+|-damage|p2a: Lillou|0 fnt
+|faint|p2a: Lillou
+|faint|p1a: Golem
+|choice||
+|
+|switch|p2a: HeatWaves|Zapdos|100\/100
+|switch|p1a: Exeggutor|Exeggutor|100\/100
+|turn|13
+|choice||
+|
+|switch|p2a: Persian|Persian|100\/100
+|move|p1a: Exeggutor|Sleep Powder|p2a: Persian|[miss]
+|-miss|p1a: Exeggutor
+|
+|turn|14
+|choice||
+|
+|switch|p1a: Chansey|Chansey|100\/100
+|move|p2a: Persian|Slash|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|53\/100
+|
+|turn|15
+|choice||
+|
+|move|p2a: Persian|Slash|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|3\/100
+|move|p1a: Chansey|Counter|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|faint|p2a: Persian
+|choice||
+|
+|switch|p2a: HeatWaves|Zapdos|100\/100
+|turn|16
+|choice||
+|
+|move|p2a: HeatWaves|Drill Peck|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|choice||
+|
+|switch|p1a: Lapras|Lapras|100\/100
+|turn|17
+|choice||
+|
+|move|p2a: HeatWaves|Thunderbolt|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|40\/100
+|move|p1a: Lapras|Confuse Ray|p2a: HeatWaves
+|-start|p2a: HeatWaves|confusion
+|
+|turn|18
+|choice||
+|
+|switch|p2a: Booba|Tauros|100\/100
+|move|p1a: Lapras|Blizzard|p2a: Booba
+|-damage|p2a: Booba|51\/100
+|-status|p2a: Booba|frz
+|
+|turn|19
+|choice||
+|
+|cant|p2a: Booba|frz
+|move|p1a: Lapras|Body Slam|p2a: Booba
+|-crit|p2a: Booba
+|-damage|p2a: Booba|15\/100 frz
+|
+|turn|20
+|choice||
+|
+|cant|p2a: Booba|frz
+|move|p1a: Lapras|Body Slam|p2a: Booba
+|-crit|p2a: Booba
+|-damage|p2a: Booba|0 fnt
+|faint|p2a: Booba
+|choice||
+|
+|switch|p2a: HeatWaves|Zapdos|100\/100
+|turn|21
+|choice||
+|
+|move|p2a: HeatWaves|Thunderbolt|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|choice||
+|
+|switch|p1a: Exeggutor|Exeggutor|100\/100
+|turn|22
+|l|TbhFamily
+|choice||
+|
+|move|p2a: HeatWaves|Drill Peck|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|48\/100
+|move|p1a: Exeggutor|Sleep Powder|p2a: HeatWaves
+|-status|p2a: HeatWaves|slp
+|
+|turn|23
+|choice||
+|
+|cant|p2a: HeatWaves|slp
+|move|p1a: Exeggutor|Egg Bomb|p2a: HeatWaves
+|-damage|p2a: HeatWaves|77\/100 slp
+|
+|turn|24
+|choice||
+|
+|cant|p2a: HeatWaves|slp
+|move|p1a: Exeggutor|Egg Bomb|p2a: HeatWaves
+|-damage|p2a: HeatWaves|56\/100 slp
+|
+|turn|25
+|choice||
+|
+|cant|p2a: HeatWaves|slp
+|move|p1a: Exeggutor|Psychic|p2a: HeatWaves
+|-damage|p2a: HeatWaves|30\/100 slp
+|-unboost|p2a: HeatWaves|spd|1
+|-unboost|p2a: HeatWaves|spa|1
+|
+|turn|26
+|choice||
+|
+|cant|p2a: HeatWaves|slp
+|move|p1a: Exeggutor|Sleep Powder|p2a: HeatWaves|[miss]
+|-miss|p1a: Exeggutor
+|
+|turn|27
+|choice||
+|
+|cant|p2a: HeatWaves|slp
+|move|p1a: Exeggutor|Sleep Powder|p2a: HeatWaves
+|-fail|p2a: HeatWaves|slp
+|
+|turn|28
+|choice||
+|
+|-curestatus|p2a: HeatWaves|slp
+|move|p1a: Exeggutor|Sleep Powder|p2a: HeatWaves
+|-status|p2a: HeatWaves|slp
+|
+|turn|29
+|choice||
+|
+|cant|p2a: HeatWaves|slp
+|move|p1a: Exeggutor|Psychic|p2a: HeatWaves
+|-damage|p2a: HeatWaves|0 fnt
+|faint|p2a: HeatWaves
+|
+|win|Dazmi
+|player|p1
+|player|p2
+|raw|Dazmi's rating: 1278 &rarr; <strong>1309<\/strong><br \/>(+31 for winning)
+|raw|Erzog's rating: 1356 &rarr; <strong>1332<\/strong><br \/>(-24 for losing)
+|c|★Dazmi|gg

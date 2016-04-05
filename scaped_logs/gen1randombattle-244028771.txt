@@ -1,0 +1,232 @@
+﻿|join|GreenSpork12
+|join|Psychedelic Trip
+|player|p1|GreenSpork12|265
+|player|p2|Psychedelic Trip|168
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Seadra|Seadra, L90|282\/282
+|switch|p2a: Dewgong|Dewgong, L85|327\/327
+|turn|1
+|
+|move|p1a: Seadra|Smokescreen|p2a: Dewgong
+|-unboost|p2a: Dewgong|accuracy|1
+|move|p2a: Dewgong|Mimic|p1a: Seadra
+|-start|p2a: Dewgong|Mimic|Smokescreen
+|
+|turn|2
+|
+|move|p1a: Seadra|Smokescreen|p2a: Dewgong
+|-unboost|p2a: Dewgong|accuracy|1
+|move|p2a: Dewgong|Smokescreen|p1a: Seadra
+|-unboost|p1a: Seadra|accuracy|1
+|
+|turn|3
+|
+|switch|p1a: Starmie|Starmie, L79|257\/257
+|move|p2a: Dewgong|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|203\/257
+|
+|turn|4
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Dewgong
+|-crit|p2a: Dewgong
+|-supereffective|p2a: Dewgong
+|-damage|p2a: Dewgong|95\/327
+|move|p2a: Dewgong|Smokescreen|p1a: Starmie
+|-unboost|p1a: Starmie|accuracy|1
+|
+|turn|5
+|
+|switch|p2a: Marowak|Marowak, L90|291\/291
+|move|p1a: Starmie|Thunderbolt|p2a: Marowak
+|-immune|p2a: Marowak|[msg]
+|
+|turn|6
+|
+|switch|p2a: Bulbasaur|Bulbasaur, L96|281\/281
+|move|p1a: Starmie|Blizzard|p2a: Bulbasaur
+|-supereffective|p2a: Bulbasaur
+|-damage|p2a: Bulbasaur|125\/281
+|
+|turn|7
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|257\/257
+|move|p2a: Bulbasaur|Razor Leaf|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|147\/257
+|
+|turn|8
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|257\/257
+|move|p2a: Bulbasaur|Toxic|p1a: Starmie
+|-status|p1a: Starmie|tox
+|
+|turn|9
+|
+|switch|p1a: Butterfree|Butterfree, L90|291\/291
+|switch|p2a: Dewgong|Dewgong, L85|95\/327
+|
+|turn|10
+|
+|move|p1a: Butterfree|Mega Drain|p2a: Dewgong
+|-crit|p2a: Dewgong
+|-supereffective|p2a: Dewgong
+|-damage|p2a: Dewgong|0 fnt
+|faint|p2a: Dewgong
+|join|Naural
+|
+|switch|p2a: Articuno|Articuno, L79|304\/304
+|turn|11
+|
+|move|p1a: Butterfree|Stun Spore|p2a: Articuno
+|-status|p2a: Articuno|par
+|cant|p2a: Articuno|par
+|
+|turn|12
+|
+|move|p1a: Butterfree|Psychic|p2a: Articuno
+|-damage|p2a: Articuno|247\/304 par
+|move|p2a: Articuno|Blizzard|p1a: Butterfree
+|-supereffective|p1a: Butterfree
+|-damage|p1a: Butterfree|31\/291
+|
+|turn|13
+|
+|move|p1a: Butterfree|Psychic|p2a: Articuno
+|-damage|p2a: Articuno|194\/304 par
+|-unboost|p2a: Articuno|spd|1
+|-unboost|p2a: Articuno|spa|1
+|move|p2a: Articuno|Mimic|p1a: Butterfree
+|-start|p2a: Articuno|Mimic|Sleep Powder
+|
+|turn|14
+|
+|move|p1a: Butterfree|Psychic|p2a: Articuno
+|-crit|p2a: Articuno
+|-damage|p2a: Articuno|84\/304 par
+|move|p2a: Articuno|Ice Beam|p1a: Butterfree
+|-supereffective|p1a: Butterfree
+|-damage|p1a: Butterfree|0 fnt
+|faint|p1a: Butterfree
+|
+|switch|p1a: Starmie|Starmie, L79|257\/257 tox
+|-status|p1a: Starmie|psn
+|turn|15
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|faint|p2a: Articuno
+|
+|switch|p2a: Bulbasaur|Bulbasaur, L96|125\/281
+|turn|16
+|
+|move|p1a: Starmie|Blizzard|p2a: Bulbasaur|[miss]
+|-miss|p1a: Starmie
+|-damage|p1a: Starmie|241\/257 psn|[from] psn|[of] p2a: Bulbasaur
+|move|p2a: Bulbasaur|Razor Leaf|p1a: Starmie
+|-crit|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|13\/257 psn
+|
+|turn|17
+|
+|move|p1a: Starmie|Blizzard|p2a: Bulbasaur
+|-supereffective|p2a: Bulbasaur
+|-damage|p2a: Bulbasaur|0 fnt
+|faint|p2a: Bulbasaur
+|
+|switch|p2a: Flareon|Flareon, L90|300\/300
+|turn|18
+|
+|move|p2a: Flareon|Quick Attack|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|switch|p1a: Seadra|Seadra, L90|282\/282
+|turn|19
+|
+|move|p1a: Seadra|Surf|p2a: Flareon
+|-supereffective|p2a: Flareon
+|-damage|p2a: Flareon|119\/300
+|move|p2a: Flareon|Body Slam|p1a: Seadra
+|-damage|p1a: Seadra|213\/282
+|
+|turn|20
+|
+|move|p2a: Flareon|Quick Attack|p1a: Seadra
+|-damage|p1a: Seadra|176\/282
+|move|p1a: Seadra|Surf|p2a: Flareon|[miss]
+|-miss|p1a: Seadra
+|
+|turn|21
+|
+|move|p2a: Flareon|Quick Attack|p1a: Seadra
+|-damage|p1a: Seadra|142\/282
+|move|p1a: Seadra|Surf|p2a: Flareon
+|-supereffective|p2a: Flareon
+|-damage|p2a: Flareon|0 fnt
+|faint|p2a: Flareon
+|
+|switch|p2a: Magmar|Magmar, L90|300\/300
+|turn|22
+|
+|move|p2a: Magmar|Confuse Ray|p1a: Seadra
+|-start|p1a: Seadra|confusion
+|-activate|p1a: Seadra|confusion
+|move|p1a: Seadra|Surf|p2a: Magmar
+|-supereffective|p2a: Magmar
+|-damage|p2a: Magmar|95\/300
+|
+|turn|23
+|
+|move|p2a: Magmar|Body Slam|p1a: Seadra
+|-damage|p1a: Seadra|86\/282
+|-activate|p1a: Seadra|confusion
+|move|p1a: Seadra|Surf|p2a: Magmar
+|-supereffective|p2a: Magmar
+|-damage|p2a: Magmar|0 fnt
+|faint|p2a: Magmar
+|
+|switch|p2a: Marowak|Marowak, L90|291\/291
+|turn|24
+|
+|-activate|p1a: Seadra|confusion
+|-damage|p1a: Seadra|60\/282|[from] confusion
+|move|p2a: Marowak|Earthquake|p1a: Seadra
+|-damage|p1a: Seadra|0 fnt
+|faint|p1a: Seadra
+|
+|switch|p1a: Nidoking|Nidoking, L85|311\/311
+|turn|25
+|
+|move|p1a: Nidoking|Blizzard|p2a: Marowak
+|-supereffective|p2a: Marowak
+|-damage|p2a: Marowak|84\/291
+|move|p2a: Marowak|Blizzard|p1a: Nidoking
+|-supereffective|p1a: Nidoking
+|-damage|p1a: Nidoking|159\/311
+|
+|turn|26
+|
+|move|p1a: Nidoking|Earthquake|p2a: Marowak
+|-damage|p2a: Marowak|0 fnt
+|faint|p2a: Marowak
+|
+|win|GreenSpork12
+|raw|Ladder updating...
+|raw|GreenSpork12's rating: 1177 &rarr; <strong>1212<\/strong><br \/>(+35 for winning)
+|raw|Psychedelic Trip's rating: 1329 &rarr; <strong>1301<\/strong><br \/>(-28 for losing)
+|leave|GreenSpork12
+|player|p1
+|leave|Psychedelic Trip
+|player|p2

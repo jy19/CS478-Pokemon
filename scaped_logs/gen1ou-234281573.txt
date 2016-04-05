@@ -1,0 +1,427 @@
+﻿|join|SinisterHFigure
+|join|Hawkeyeone
+|player|p1|SinisterHFigure|269
+|player|p2|Hawkeyeone|293
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333\/333
+|switch|p2a: Persian|Persian|333\/333
+|turn|1
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Persian|Hyper Beam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|238\/393
+|
+|turn|2
+|-mustrecharge|p2a: Persian
+|-mustrecharge|p2a: Persian
+|
+|cant|p2a: Persian|recharge
+|move|p1a: Exeggutor|Sleep Powder|p2a: Persian
+|-status|p2a: Persian|slp
+|
+|turn|3
+|
+|switch|p2a: Venusaur|Venusaur|363\/363
+|move|p1a: Exeggutor|Psychic|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|129\/363
+|
+|turn|4
+|
+|move|p2a: Venusaur|Sleep Powder|p1a: Exeggutor
+|-status|p1a: Exeggutor|slp
+|cant|p1a: Exeggutor|slp
+|
+|turn|5
+|
+|switch|p1a: Jynx|Jynx|333\/333
+|move|p2a: Venusaur|Swords Dance|p2a: Venusaur
+|-boost|p2a: Venusaur|atk|2
+|
+|turn|6
+|
+|move|p1a: Jynx|Psychic|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|faint|p2a: Venusaur
+|
+|switch|p2a: Clefable|Clefable|393\/393
+|turn|7
+|
+|switch|p1a: Hypno|Hypno|373\/373
+|move|p2a: Clefable|Thunder Wave|p1a: Hypno
+|-status|p1a: Hypno|par
+|
+|turn|8
+|
+|switch|p2a: Persian|Persian|333\/333 slp
+|move|p1a: Hypno|Thunder Wave|p2a: Persian
+|-fail|p2a: Persian
+|
+|turn|9
+|
+|cant|p2a: Persian|slp
+|move|p1a: Hypno|Psychic|p2a: Persian
+|-damage|p2a: Persian|168\/333 slp
+|
+|turn|10
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|cant|p2a: Persian|slp
+|
+|turn|11
+|
+|move|p1a: Alakazam|Psychic|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|faint|p2a: Persian
+|
+|switch|p2a: Clefable|Clefable|393\/393
+|turn|12
+|
+|switch|p1a: Exeggutor|Exeggutor|238\/393 slp
+|move|p2a: Clefable|Thunder Wave|p1a: Exeggutor
+|-fail|p1a: Exeggutor
+|
+|turn|13
+|
+|move|p2a: Clefable|Ice Beam|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|128\/393 slp
+|cant|p1a: Exeggutor|slp
+|
+|turn|14
+|
+|move|p2a: Clefable|Ice Beam|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|12\/393 slp
+|cant|p1a: Exeggutor|slp
+|
+|turn|15
+|
+|move|p2a: Clefable|Ice Beam|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Hypno|Hypno|373\/373 par
+|turn|16
+|
+|switch|p2a: Rhydon|Rhydon|413\/413
+|move|p1a: Hypno|Thunder Wave|p2a: Rhydon
+|-immune|p2a: Rhydon|[msg]
+|
+|turn|17
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|move|p2a: Rhydon|Substitute|p2a: Rhydon
+|-start|p2a: Rhydon|Substitute
+|-damage|p2a: Rhydon|310\/413
+|
+|turn|18
+|c|★Hawkeyeone|what's up with all the monotype stuff I'm seeing today
+|
+|move|p1a: Starmie|Surf|p2a: Rhydon
+|-crit|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-end|p2a: Rhydon|Substitute
+|move|p2a: Rhydon|Earthquake|p1a: Starmie
+|-damage|p1a: Starmie|168\/323
+|
+|turn|19
+|c|★Hawkeyeone|Last battle was with this guy who only used normal types
+|c|★Hawkeyeone|is this part of something?
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|move|p1a: Starmie|Surf|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|269\/323
+|
+|turn|20
+|
+|switch|p1a: Hypno|Hypno|373\/373 par
+|move|p2a: Starmie|Thunder|p1a: Hypno
+|-damage|p1a: Hypno|289\/373 par
+|
+|turn|21
+|
+|move|p2a: Starmie|Surf|p1a: Hypno
+|-crit|p1a: Hypno
+|-damage|p1a: Hypno|90\/373 par
+|move|p1a: Hypno|Psychic|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|211\/323
+|
+|turn|22
+|
+|move|p2a: Starmie|Surf|p1a: Hypno
+|-damage|p1a: Hypno|0 fnt
+|faint|p1a: Hypno
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|turn|23
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Starmie
+|-status|p2a: Starmie|par
+|move|p2a: Starmie|Blizzard|p1a: Alakazam
+|-damage|p1a: Alakazam|239\/313
+|
+|turn|24
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|111\/323 par
+|cant|p2a: Starmie|par
+|
+|turn|25
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|11\/323 par
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|172\/323 par
+|
+|turn|26
+|
+|move|p1a: Alakazam|Psychic|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|105\/323 par
+|cant|p2a: Starmie|par
+|
+|turn|27
+|
+|move|p1a: Alakazam|Psychic|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|35\/323 par
+|-unboost|p2a: Starmie|spd|1
+|-unboost|p2a: Starmie|spa|1
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|196\/323 par
+|
+|turn|28
+|
+|move|p1a: Alakazam|Psychic|p2a: Starmie
+|-crit|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|75\/323 par
+|-unboost|p2a: Starmie|spd|1
+|-unboost|p2a: Starmie|spa|1
+|cant|p2a: Starmie|par
+|
+|turn|29
+|
+|move|p1a: Alakazam|Psychic|p2a: Starmie
+|-crit|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|switch|p2a: Clefable|Clefable|393\/393
+|turn|30
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Clefable
+|-status|p2a: Clefable|par
+|cant|p2a: Clefable|par
+|
+|turn|31
+|
+|move|p1a: Alakazam|Psychic|p2a: Clefable
+|-crit|p2a: Clefable
+|-damage|p2a: Clefable|95\/393 par
+|move|p2a: Clefable|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|
+|turn|32
+|
+|move|p1a: Alakazam|Psychic|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|switch|p2a: Rapidash|Rapidash|333\/333
+|turn|33
+|
+|move|p2a: Rapidash|Agility|p2a: Rapidash
+|-boost|p2a: Rapidash|spe|2
+|move|p1a: Alakazam|Psychic|p2a: Rapidash
+|-damage|p2a: Rapidash|172\/333
+|-unboost|p2a: Rapidash|spd|1
+|-unboost|p2a: Rapidash|spa|1
+|
+|turn|34
+|
+|move|p2a: Rapidash|Fire Spin|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|212\/313 par
+|-activate|p1a: Alakazam|move: Fire Spin|[of] p2a: Rapidash
+|cant|p1a: Alakazam|partiallytrapped
+|
+|turn|35
+|
+|switch|p1a: Starmie|Starmie|168\/323
+|move|p2a: Rapidash|Fire Spin|p1a: Starmie|[miss]
+|-miss|p2a: Rapidash
+|
+|turn|36
+|
+|move|p2a: Rapidash|Fire Spin|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|163\/323
+|-activate|p1a: Starmie|move: Fire Spin|[of] p2a: Rapidash
+|cant|p1a: Starmie|partiallytrapped
+|
+|turn|37
+|
+|switch|p1a: Jynx|Jynx|333\/333
+|move|p2a: Rapidash|Fire Spin|p1a: Jynx
+|-supereffective|p1a: Jynx
+|-damage|p1a: Jynx|311\/333
+|-activate|p1a: Jynx|move: Fire Spin|[of] p2a: Rapidash
+|
+|turn|38
+|
+|switch|p1a: Starmie|Starmie|163\/323
+|move|p2a: Rapidash|Fire Spin|p1a: Starmie
+|-crit|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|147\/323
+|-activate|p1a: Starmie|move: Fire Spin|[of] p2a: Rapidash
+|
+|turn|39
+|
+|switch|p1a: Alakazam|Alakazam|212\/313 par
+|move|p2a: Rapidash|Fire Spin|p1a: Alakazam
+|-damage|p1a: Alakazam|203\/313 par
+|-activate|p1a: Alakazam|move: Fire Spin|[of] p2a: Rapidash
+|
+|turn|40
+|
+|move|p2a: Rapidash|Fire Spin|p1a: Alakazam
+|-damage|p1a: Alakazam|194\/313 par
+|cant|p1a: Alakazam|partiallytrapped
+|
+|turn|41
+|
+|move|p2a: Rapidash|Fire Spin|p1a: Alakazam
+|-damage|p1a: Alakazam|185\/313 par
+|cant|p1a: Alakazam|par
+|
+|turn|42
+|
+|switch|p1a: Slowbro|Slowbro|393\/393
+|move|p2a: Rapidash|Fire Spin|p1a: Slowbro|[miss]
+|-miss|p2a: Rapidash
+|
+|turn|43
+|
+|move|p2a: Rapidash|Fire Spin|p1a: Slowbro|[miss]
+|-miss|p2a: Rapidash
+|move|p1a: Slowbro|Reflect|p1a: Slowbro
+|-start|p1a: Slowbro|Reflect
+|
+|turn|44
+|c|★Hawkeyeone|hey dude do you know what's this monotype thing that's going on
+|
+|move|p2a: Rapidash|Fire Spin|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|376\/393
+|-activate|p1a: Slowbro|move: Fire Spin|[of] p2a: Rapidash
+|cant|p1a: Slowbro|partiallytrapped
+|
+|turn|45
+|c|★SinisterHFigure|I don't know of any monotype thing going on
+|c|★Hawkeyeone|well all of your team is psychics
+|c|★Hawkeyeone|last battle I fought someone with only normals
+|
+|move|p2a: Rapidash|Fire Spin|p1a: Slowbro
+|-damage|p1a: Slowbro|359\/393
+|cant|p1a: Slowbro|partiallytrapped
+|
+|turn|46
+|
+|move|p2a: Rapidash|Fire Spin|p1a: Slowbro
+|-damage|p1a: Slowbro|342\/393
+|cant|p1a: Slowbro|partiallytrapped
+|
+|turn|47
+|
+|move|p2a: Rapidash|Fire Spin|p1a: Slowbro
+|-damage|p1a: Slowbro|325\/393
+|cant|p1a: Slowbro|partiallytrapped
+|
+|-end|p1a: Slowbro|Fire Spin|[partiallytrapped]
+|turn|48
+|
+|move|p2a: Rapidash|Fire Spin|p1a: Slowbro|[miss]
+|-miss|p2a: Rapidash
+|move|p1a: Slowbro|Surf|p2a: Rapidash
+|-supereffective|p2a: Rapidash
+|-damage|p2a: Rapidash|0 fnt
+|faint|p2a: Rapidash
+|
+|switch|p2a: Rhydon|Rhydon|310\/413
+|turn|49
+|
+|move|p2a: Rhydon|Substitute|p2a: Rhydon
+|-start|p2a: Rhydon|Substitute
+|-damage|p2a: Rhydon|207\/413
+|move|p1a: Slowbro|Surf|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-end|p2a: Rhydon|Substitute
+|
+|turn|50
+|
+|move|p2a: Rhydon|Substitute|p2a: Rhydon
+|-start|p2a: Rhydon|Substitute
+|-damage|p2a: Rhydon|104\/413
+|move|p1a: Slowbro|Surf|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-end|p2a: Rhydon|Substitute
+|
+|turn|51
+|
+|move|p2a: Rhydon|Substitute|p2a: Rhydon
+|-start|p2a: Rhydon|Substitute
+|-damage|p2a: Rhydon|1\/413
+|move|p1a: Slowbro|Surf|p2a: Rhydon|[miss]
+|-miss|p1a: Slowbro
+|
+|turn|52
+|c|★SinisterHFigure|what?
+|c|★SinisterHFigure|99.6% really?
+|
+|move|p2a: Rhydon|Earthquake|p1a: Slowbro
+|-damage|p1a: Slowbro|255\/393
+|move|p1a: Slowbro|Surf|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-end|p2a: Rhydon|Substitute
+|
+|turn|53
+|
+|move|p2a: Rhydon|Earthquake|p1a: Slowbro
+|-damage|p1a: Slowbro|189\/393
+|move|p1a: Slowbro|Surf|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|
+|win|SinisterHFigure
+|raw|Ladder updating...
+|raw|SinisterHFigure's rating: 1129 &rarr; <strong>1148<\/strong><br \/>(+19 for winning)
+|raw|Hawkeyeone's rating: 1037 &rarr; <strong>1025<\/strong><br \/>(-12 for losing)
+|c|★SinisterHFigure|gg
+|c|★Hawkeyeone|gg
+|c|★SinisterHFigure|do you do uu?
+|c|★SinisterHFigure|for RBY?
+|c|★Hawkeyeone|not really
+|c|★Hawkeyeone|is there an option for it
+|c|★Hawkeyeone|because I only see OU
+|c|★SinisterHFigure|unfortunately there isn't an option for it

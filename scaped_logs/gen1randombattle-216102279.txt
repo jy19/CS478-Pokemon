@@ -1,0 +1,209 @@
+﻿|join|xordims
+|join|The Dude Abides 41
+|player|p1|xordims|1
+|player|p2|The Dude Abides 41|50
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Slowpoke|Slowpoke, L96|368\/368
+|switch|p2a: Lickitung|Lickitung, L85|327\/327
+|turn|1
+|
+|move|p2a: Lickitung|Swords Dance|p2a: Lickitung
+|-boost|p2a: Lickitung|atk|2
+|move|p1a: Slowpoke|Thunder Wave|p2a: Lickitung
+|-status|p2a: Lickitung|par
+|
+|turn|2
+|
+|move|p1a: Slowpoke|Amnesia|p1a: Slowpoke
+|-boost|p1a: Slowpoke|spd|2
+|-boost|p1a: Slowpoke|spa|2
+|move|p2a: Lickitung|Body Slam|p1a: Slowpoke
+|-damage|p1a: Slowpoke|219\/368
+|-status|p1a: Slowpoke|par
+|
+|turn|3
+|
+|move|p2a: Lickitung|Swords Dance|p2a: Lickitung
+|-boost|p2a: Lickitung|atk|2
+|move|p1a: Slowpoke|Surf|p2a: Lickitung
+|-damage|p2a: Lickitung|124\/327 par
+|
+|turn|4
+|
+|move|p2a: Lickitung|Body Slam|p1a: Slowpoke
+|-damage|p1a: Slowpoke|22\/368 par
+|move|p1a: Slowpoke|Surf|p2a: Lickitung
+|-damage|p2a: Lickitung|0 fnt
+|faint|p2a: Lickitung
+|
+|switch|p2a: Kabuto|Kabuto, L96|252\/252
+|turn|5
+|
+|move|p2a: Kabuto|Slash|p1a: Slowpoke
+|-crit|p1a: Slowpoke
+|-damage|p1a: Slowpoke|0 fnt
+|faint|p1a: Slowpoke
+|
+|switch|p1a: Raichu|Raichu, L85|276\/276
+|turn|6
+|
+|move|p1a: Raichu|Thunder|p2a: Kabuto
+|-crit|p2a: Kabuto
+|-supereffective|p2a: Kabuto
+|-damage|p2a: Kabuto|0 fnt
+|faint|p2a: Kabuto
+|
+|switch|p2a: Nidorina|Nidorina, L90|309\/309
+|turn|7
+|
+|move|p1a: Raichu|Body Slam|p2a: Nidorina
+|-damage|p2a: Nidorina|247\/309
+|move|p2a: Nidorina|Bubble Beam|p1a: Raichu
+|-damage|p1a: Raichu|240\/276
+|
+|turn|8
+|
+|move|p1a: Raichu|Thunder|p2a: Nidorina|[miss]
+|-miss|p1a: Raichu
+|move|p2a: Nidorina|Bubble Beam|p1a: Raichu
+|-damage|p1a: Raichu|206\/276
+|
+|turn|9
+|
+|move|p1a: Raichu|Thunder|p2a: Nidorina
+|-crit|p2a: Nidorina
+|-damage|p2a: Nidorina|0 fnt
+|faint|p2a: Nidorina
+|
+|switch|p2a: Pidgeotto|Pidgeotto, L85|281\/281
+|turn|10
+|
+|move|p1a: Raichu|Thunder|p2a: Pidgeotto|[miss]
+|-miss|p1a: Raichu
+|move|p2a: Pidgeotto|Double-Edge|p1a: Raichu
+|-damage|p1a: Raichu|97\/276
+|-damage|p2a: Pidgeotto|254\/281|[from] recoil|[of] p1a: Raichu
+|
+|turn|11
+|
+|move|p1a: Raichu|Thunder|p2a: Pidgeotto
+|-supereffective|p2a: Pidgeotto
+|-damage|p2a: Pidgeotto|0 fnt
+|faint|p2a: Pidgeotto
+|
+|switch|p2a: Jynx|Jynx, L79|265\/265
+|turn|12
+|
+|move|p1a: Raichu|Body Slam|p2a: Jynx
+|-damage|p2a: Jynx|168\/265
+|move|p2a: Jynx|Psychic|p1a: Raichu
+|-damage|p1a: Raichu|17\/276
+|-unboost|p1a: Raichu|spd|1
+|-unboost|p1a: Raichu|spa|1
+|
+|turn|13
+|
+|move|p1a: Raichu|Thunder|p2a: Jynx
+|-damage|p2a: Jynx|79\/265
+|move|p2a: Jynx|Psychic|p1a: Raichu
+|-damage|p1a: Raichu|0 fnt
+|faint|p1a: Raichu
+|
+|switch|p1a: Mr. Mime|Mr. Mime, L85|242\/242
+|turn|14
+|
+|move|p1a: Mr. Mime|Thunder Wave|p2a: Jynx
+|-status|p2a: Jynx|par
+|move|p2a: Jynx|Lovely Kiss|p1a: Mr. Mime
+|-status|p1a: Mr. Mime|slp
+|
+|turn|15
+|
+|cant|p1a: Mr. Mime|slp
+|move|p2a: Jynx|Blizzard|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|149\/242 slp
+|
+|turn|16
+|
+|switch|p1a: Shellder|Shellder, L96|252\/252
+|move|p2a: Jynx|Blizzard|p1a: Shellder
+|-crit|p1a: Shellder
+|-resisted|p1a: Shellder
+|-damage|p1a: Shellder|111\/252
+|
+|turn|17
+|
+|move|p1a: Shellder|Explosion|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|faint|p1a: Shellder
+|c|★The Dude Abides 41|GG
+|
+|switch|p2a: Omastar|Omastar, L85|293\/293
+|switch|p1a: Machoke|Machoke, L85|310\/310
+|turn|18
+|c|★The Dude Abides 41|My team was terrible.
+|c|★The Dude Abides 41|Lol
+|
+|move|p2a: Omastar|Surf|p1a: Machoke
+|-damage|p1a: Machoke|153\/310
+|move|p1a: Machoke|Earthquake|p2a: Omastar
+|-supereffective|p2a: Omastar
+|-damage|p2a: Omastar|176\/293
+|
+|turn|19
+|c|★xordims|haven't lose yet
+|
+|move|p2a: Omastar|Surf|p1a: Machoke
+|-damage|p1a: Machoke|5\/310
+|move|p1a: Machoke|Earthquake|p2a: Omastar
+|-supereffective|p2a: Omastar
+|-damage|p2a: Omastar|60\/293
+|
+|turn|20
+|
+|move|p2a: Omastar|Surf|p1a: Machoke
+|-damage|p1a: Machoke|0 fnt
+|faint|p1a: Machoke
+|
+|switch|p1a: Marowak|Marowak, L85|276\/276
+|turn|21
+|
+|move|p2a: Omastar|Surf|p1a: Marowak
+|-supereffective|p1a: Marowak
+|-damage|p1a: Marowak|0 fnt
+|faint|p1a: Marowak
+|
+|switch|p1a: Mr. Mime|Mr. Mime, L85|149\/242 slp
+|turn|22
+|
+|cant|p1a: Mr. Mime|slp
+|-curestatus|p1a: Mr. Mime|slp
+|move|p2a: Omastar|Surf|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|37\/242
+|
+|turn|23
+|
+|move|p1a: Mr. Mime|Thunderbolt|p2a: Omastar
+|-supereffective|p2a: Omastar
+|-damage|p2a: Omastar|0 fnt
+|faint|p2a: Omastar
+|
+|win|xordims
+|raw|Ladder updating...
+|c|★The Dude Abides 41|Praise Helix.
+|raw|xordims's rating: 1195 &rarr; <strong>1218<\/strong><br \/>(+23 for winning)
+|raw|The Dude Abides 41's rating: 1171 &rarr; <strong>1148<\/strong><br \/>(-23 for losing)
+|c|★The Dude Abides 41|Lol.
+|c|★The Dude Abides 41|GG
+|leave|The Dude Abides 41
+|player|p2
+|c|★xordims|gg

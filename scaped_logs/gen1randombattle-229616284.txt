@@ -1,0 +1,231 @@
+﻿|join|ssgyarados
+|join|Grizou88
+|player|p1|ssgyarados|107
+|player|p2|Grizou88|238
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Bellsprout|Bellsprout, L96|291\/291
+|switch|p2a: Golduck|Golduck, L85|310\/310
+|turn|1
+|
+|move|p2a: Golduck|Amnesia|p2a: Golduck
+|-boost|p2a: Golduck|spd|2
+|-boost|p2a: Golduck|spa|2
+|move|p1a: Bellsprout|Sleep Powder|p2a: Golduck
+|-status|p2a: Golduck|slp
+|
+|turn|2
+|
+|cant|p2a: Golduck|slp
+|move|p1a: Bellsprout|Swords Dance|p1a: Bellsprout
+|-boost|p1a: Bellsprout|atk|2
+|
+|turn|3
+|
+|cant|p2a: Golduck|slp
+|move|p1a: Bellsprout|Razor Leaf|p2a: Golduck
+|-supereffective|p2a: Golduck
+|-damage|p2a: Golduck|246\/310 slp
+|
+|turn|4
+|
+|cant|p2a: Golduck|slp
+|move|p1a: Bellsprout|Swords Dance|p1a: Bellsprout
+|-boost|p1a: Bellsprout|atk|2
+|
+|turn|5
+|
+|cant|p2a: Golduck|slp
+|move|p1a: Bellsprout|Razor Leaf|p2a: Golduck|[miss]
+|-miss|p1a: Bellsprout
+|
+|turn|6
+|
+|cant|p2a: Golduck|slp
+|-curestatus|p2a: Golduck|slp
+|move|p1a: Bellsprout|Razor Leaf|p2a: Golduck
+|-crit|p2a: Golduck
+|-supereffective|p2a: Golduck
+|-damage|p2a: Golduck|0 fnt
+|faint|p2a: Golduck
+|
+|switch|p2a: Pidgeot|Pidgeot, L85|315\/315
+|turn|7
+|
+|switch|p1a: Raichu|Raichu, L85|276\/276
+|move|p2a: Pidgeot|Double-Edge|p1a: Raichu
+|-crit|p1a: Raichu
+|-damage|p1a: Raichu|30\/276
+|-damage|p2a: Pidgeot|254\/315|[from] recoil|[of] p1a: Raichu
+|
+|turn|8
+|
+|switch|p2a: Graveler|Graveler, L85|267\/267
+|move|p1a: Raichu|Thunderbolt|p2a: Graveler
+|-immune|p2a: Graveler|[msg]
+|
+|turn|9
+|
+|move|p1a: Raichu|Surf|p2a: Graveler
+|-supereffective|p2a: Graveler
+|-damage|p2a: Graveler|0 fnt
+|faint|p2a: Graveler
+|
+|switch|p2a: Grimer|Grimer, L96|348\/348
+|turn|10
+|
+|move|p1a: Raichu|Thunder|p2a: Grimer
+|-damage|p2a: Grimer|184\/348
+|move|p2a: Grimer|Body Slam|p1a: Raichu
+|-damage|p1a: Raichu|0 fnt
+|faint|p1a: Raichu
+|
+|switch|p1a: Kingler|Kingler, L85|267\/267
+|turn|11
+|
+|move|p1a: Kingler|Swords Dance|p1a: Kingler
+|-boost|p1a: Kingler|atk|2
+|move|p2a: Grimer|Explosion|p1a: Kingler
+|-damage|p1a: Kingler|49\/267
+|faint|p2a: Grimer
+|
+|switch|p2a: Pidgeot|Pidgeot, L85|254\/315
+|turn|12
+|
+|move|p2a: Pidgeot|Double-Edge|p1a: Kingler
+|-damage|p1a: Kingler|0 fnt
+|-damage|p2a: Pidgeot|242\/315|[from] recoil|[of] p1a: Kingler
+|faint|p1a: Kingler
+|
+|switch|p1a: Doduo|Doduo, L96|262\/262
+|turn|13
+|
+|move|p1a: Doduo|Double-Edge|p2a: Pidgeot
+|-damage|p2a: Pidgeot|114\/315
+|-damage|p1a: Doduo|230\/262|[from] recoil|[of] p2a: Pidgeot
+|move|p2a: Pidgeot|Double-Edge|p1a: Doduo
+|-damage|p1a: Doduo|107\/262
+|-damage|p2a: Pidgeot|84\/315|[from] recoil|[of] p1a: Doduo
+|
+|turn|14
+|
+|move|p2a: Pidgeot|Double-Edge|p1a: Doduo
+|-damage|p1a: Doduo|0 fnt
+|-damage|p2a: Pidgeot|58\/315|[from] recoil|[of] p1a: Doduo
+|faint|p1a: Doduo
+|
+|switch|p1a: Dugtrio|Dugtrio, L85|233\/233
+|turn|15
+|
+|move|p1a: Dugtrio|Slash|p2a: Pidgeot
+|-crit|p2a: Pidgeot
+|-damage|p2a: Pidgeot|0 fnt
+|faint|p2a: Pidgeot
+|
+|switch|p2a: Starmie|Starmie, L79|257\/257
+|turn|16
+|
+|switch|p1a: Gloom|Gloom, L85|276\/276
+|move|p2a: Starmie|Blizzard|p1a: Gloom
+|-supereffective|p1a: Gloom
+|-damage|p1a: Gloom|123\/276
+|
+|turn|17
+|
+|move|p2a: Starmie|Blizzard|p1a: Gloom
+|-supereffective|p1a: Gloom
+|-damage|p1a: Gloom|0 fnt
+|faint|p1a: Gloom
+|
+|switch|p1a: Bellsprout|Bellsprout, L96|291\/291
+|turn|18
+|
+|switch|p2a: Nidoqueen|Nidoqueen, L85|327\/327
+|move|p1a: Bellsprout|Sleep Powder|p2a: Nidoqueen
+|-status|p2a: Nidoqueen|slp
+|
+|turn|19
+|
+|switch|p2a: Starmie|Starmie, L79|257\/257
+|move|p1a: Bellsprout|Swords Dance|p1a: Bellsprout
+|-boost|p1a: Bellsprout|atk|2
+|
+|turn|20
+|
+|move|p2a: Starmie|Blizzard|p1a: Bellsprout|[miss]
+|-miss|p2a: Starmie
+|move|p1a: Bellsprout|Razor Leaf|p2a: Starmie
+|-crit|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|23\/257
+|
+|turn|21
+|
+|move|p2a: Starmie|Blizzard|p1a: Bellsprout
+|-supereffective|p1a: Bellsprout
+|-damage|p1a: Bellsprout|135\/291
+|move|p1a: Bellsprout|Razor Leaf|p2a: Starmie
+|-crit|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|switch|p2a: Nidoqueen|Nidoqueen, L85|327\/327 slp
+|turn|22
+|
+|cant|p2a: Nidoqueen|slp
+|move|p1a: Bellsprout|Swords Dance|p1a: Bellsprout
+|-boost|p1a: Bellsprout|atk|2
+|
+|turn|23
+|
+|cant|p2a: Nidoqueen|slp
+|-curestatus|p2a: Nidoqueen|slp
+|move|p1a: Bellsprout|Razor Leaf|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|264\/327
+|
+|turn|24
+|
+|move|p2a: Nidoqueen|Earthquake|p1a: Bellsprout
+|-damage|p1a: Bellsprout|3\/291
+|move|p1a: Bellsprout|Sleep Powder|p2a: Nidoqueen|[miss]
+|-miss|p1a: Bellsprout
+|
+|turn|25
+|
+|move|p2a: Nidoqueen|Earthquake|p1a: Bellsprout
+|-damage|p1a: Bellsprout|0 fnt
+|faint|p1a: Bellsprout
+|
+|switch|p1a: Dugtrio|Dugtrio, L85|233\/233
+|turn|26
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|68\/327
+|move|p2a: Nidoqueen|Body Slam|p1a: Dugtrio
+|-damage|p1a: Dugtrio|158\/233
+|-status|p1a: Dugtrio|par
+|
+|turn|27
+|
+|move|p2a: Nidoqueen|Earthquake|p1a: Dugtrio
+|-damage|p1a: Dugtrio|13\/233 par
+|move|p1a: Dugtrio|Earthquake|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|0 fnt
+|faint|p2a: Nidoqueen
+|
+|win|ssgyarados
+|raw|Ladder updating...
+|raw|ssgyarados's rating: 1136 &rarr; <strong>1160<\/strong><br \/>(+24 for winning)
+|raw|Grizou88's rating: 1133 &rarr; <strong>1108<\/strong><br \/>(-25 for losing)
+|c|★Grizou88|gg
+|c|★ssgyarados|gg

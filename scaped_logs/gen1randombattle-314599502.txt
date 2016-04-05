@@ -1,0 +1,406 @@
+﻿|j|Hiro555
+|j|Parnas
+|player|p1|Hiro555|186
+|player|p2|Parnas|252
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|35286,57716,48579,6608
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Charmeleon|Charmeleon, L85|272\/272
+|switch|p2a: Rhyhorn|Rhyhorn, L96|348\/348
+|turn|1
+|choice|switch 4|move 1
+|
+|switch|p1a: Slowbro|Slowbro, L79|312\/312
+|move|p2a: Rhyhorn|Rock Slide|p1a: Slowbro
+|-damage|p1a: Slowbro|221\/312
+|
+|turn|2
+|choice|move 1|switch 4
+|
+|switch|p2a: Persian|Persian, L79|265\/265
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|
+|turn|3
+|choice|move 4|move 1
+|
+|move|p2a: Persian|Slash|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-damage|p1a: Slowbro|120\/312
+|move|p1a: Slowbro|Thunder Wave|p2a: Persian
+|-status|p2a: Persian|par
+|
+|turn|4
+|choice|move 2|move 1
+|
+|move|p1a: Slowbro|Surf|p2a: Persian
+|-damage|p2a: Persian|69\/265 par
+|move|p2a: Persian|Slash|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-damage|p1a: Slowbro|28\/312
+|
+|turn|5
+|choice|move 3|move 1
+|
+|move|p1a: Slowbro|Rest|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|-heal|p1a: Slowbro|312\/312 slp|[silent]
+|-status|p1a: Slowbro|slp|[from] move: Rest
+|cant|p2a: Persian|par
+|
+|turn|6
+|choice|move 2|switch 6
+|
+|switch|p2a: Hypno|Hypno, L85|318\/318
+|cant|p1a: Slowbro|slp
+|
+|turn|7
+|choice|move 1|move 1
+|
+|move|p2a: Hypno|Psychic|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|281\/312 slp
+|-unboost|p1a: Slowbro|spd|1
+|-unboost|p1a: Slowbro|spa|1
+|-curestatus|p1a: Slowbro|slp
+|
+|turn|8
+|choice|move 4|move 3
+|
+|move|p2a: Hypno|Hypnosis|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|cant|p1a: Slowbro|slp
+|
+|turn|9
+|choice|move 4|move 1
+|
+|move|p2a: Hypno|Psychic|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|241\/312 slp
+|cant|p1a: Slowbro|slp
+|
+|turn|10
+|choice|move 4|move 1
+|
+|move|p2a: Hypno|Psychic|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|200\/312 slp
+|cant|p1a: Slowbro|slp
+|
+|turn|11
+|choice|move 4|move 1
+|
+|move|p2a: Hypno|Psychic|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|160\/312 slp
+|cant|p1a: Slowbro|slp
+|
+|turn|12
+|choice|move 4|move 1
+|
+|move|p2a: Hypno|Psychic|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|119\/312 slp
+|-curestatus|p1a: Slowbro|slp
+|
+|turn|13
+|choice|move 4|move 3
+|
+|move|p2a: Hypno|Hypnosis|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|cant|p1a: Slowbro|slp
+|
+|turn|14
+|choice|move 4|move 1
+|
+|move|p2a: Hypno|Psychic|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|81\/312 slp
+|cant|p1a: Slowbro|slp
+|
+|turn|15
+|choice|move 4|move 1
+|
+|move|p2a: Hypno|Psychic|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|37\/312 slp
+|-curestatus|p1a: Slowbro|slp
+|
+|turn|16
+|choice|move 3|move 1
+|
+|move|p2a: Hypno|Psychic|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|choice|switch 6|
+|
+|switch|p1a: Porygon|Porygon, L85|284\/284
+|turn|17
+|choice|move 2|move 3
+|
+|move|p2a: Hypno|Hypnosis|p1a: Porygon|[miss]
+|-miss|p2a: Hypno
+|move|p1a: Porygon|Thunderbolt|p2a: Hypno
+|-damage|p2a: Hypno|270\/318
+|-status|p2a: Hypno|par
+|
+|turn|18
+|choice|move 2|move 3
+|
+|move|p1a: Porygon|Thunderbolt|p2a: Hypno
+|-damage|p2a: Hypno|219\/318 par
+|cant|p2a: Hypno|par
+|
+|turn|19
+|choice|move 3|move 3
+|
+|move|p1a: Porygon|Double-Edge|p2a: Hypno
+|-damage|p2a: Hypno|123\/318 par
+|-damage|p1a: Porygon|260\/284|[from] recoil|[of] p2a: Hypno
+|cant|p2a: Hypno|par
+|
+|turn|20
+|choice|move 3|move 3
+|
+|move|p1a: Porygon|Double-Edge|p2a: Hypno
+|-crit|p2a: Hypno
+|-damage|p2a: Hypno|0 fnt
+|-damage|p1a: Porygon|230\/284|[from] recoil|[of] p2a: Hypno
+|faint|p2a: Hypno
+|choice||switch 5
+|
+|switch|p2a: Hitmonchan|Hitmonchan, L90|273\/273
+|turn|21
+|choice|switch 2|move 1
+|
+|switch|p1a: Fearow|Fearow, L90|300\/300
+|move|p2a: Hitmonchan|Submission|p1a: Fearow
+|-damage|p1a: Fearow|188\/300
+|-damage|p2a: Hitmonchan|245\/273|[from] recoil|[of] p1a: Fearow
+|
+|turn|22
+|choice|move 3|switch 4
+|
+|switch|p2a: Rhyhorn|Rhyhorn, L96|348\/348
+|move|p1a: Fearow|Drill Peck|p2a: Rhyhorn
+|-resisted|p2a: Rhyhorn
+|-damage|p2a: Rhyhorn|307\/348
+|
+|turn|23
+|choice|switch 5|move 1
+|
+|switch|p1a: Sandslash|Sandslash, L85|301\/301
+|move|p2a: Rhyhorn|Rock Slide|p1a: Sandslash
+|-crit|p1a: Sandslash
+|-resisted|p1a: Sandslash
+|-damage|p1a: Sandslash|230\/301
+|
+|turn|24
+|choice|move 3|switch 6
+|
+|switch|p2a: Persian|Persian, L79|69\/265 par
+|move|p1a: Sandslash|Body Slam|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|faint|p2a: Persian
+|choice||switch 2
+|
+|switch|p2a: Kabutops|Kabutops, L85|276\/276
+|turn|25
+|choice|move 1|move 2
+|
+|move|p2a: Kabutops|Surf|p1a: Sandslash
+|-supereffective|p1a: Sandslash
+|-damage|p1a: Sandslash|12\/301
+|move|p1a: Sandslash|Earthquake|p2a: Kabutops
+|-supereffective|p2a: Kabutops
+|-damage|p2a: Kabutops|79\/276
+|
+|turn|26
+|choice|move 1|move 2
+|
+|move|p2a: Kabutops|Surf|p1a: Sandslash
+|-supereffective|p1a: Sandslash
+|-damage|p1a: Sandslash|0 fnt
+|faint|p1a: Sandslash
+|choice|switch 5|
+|
+|switch|p1a: Fearow|Fearow, L90|188\/300
+|turn|27
+|choice|move 4|switch 6
+|
+|switch|p2a: Rhyhorn|Rhyhorn, L96|307\/348
+|move|p1a: Fearow|Mirror Move|p1a: Fearow
+|-fail|p1a: Fearow
+|
+|turn|28
+|choice|switch 2|move 1
+|
+|switch|p1a: Porygon|Porygon, L85|230\/284
+|move|p2a: Rhyhorn|Rock Slide|p1a: Porygon
+|-damage|p1a: Porygon|125\/284
+|
+|turn|29
+|choice|move 1|switch 4
+|
+|switch|p2a: Hitmonchan|Hitmonchan, L90|245\/273
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|267\/284
+|
+|turn|30
+|choice|move 2|move 1
+|
+|move|p2a: Hitmonchan|Submission|p1a: Porygon
+|-supereffective|p1a: Porygon
+|-damage|p1a: Porygon|23\/284
+|-damage|p2a: Hitmonchan|184\/273|[from] recoil|[of] p1a: Porygon
+|move|p1a: Porygon|Thunderbolt|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|92\/273
+|
+|turn|31
+|choice|switch 3|move 1
+|
+|switch|p1a: Muk|Muk, L90|372\/372
+|move|p2a: Hitmonchan|Submission|p1a: Muk
+|-resisted|p1a: Muk
+|-damage|p1a: Muk|320\/372
+|-damage|p2a: Hitmonchan|79\/273|[from] recoil|[of] p1a: Muk
+|
+|turn|32
+|choice|move 4|move 3
+|
+|move|p2a: Hitmonchan|Seismic Toss|p1a: Muk
+|-damage|p1a: Muk|230\/372
+|move|p1a: Muk|Mega Drain|p2a: Hitmonchan
+|-crit|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|0 fnt
+|-heal|p1a: Muk|269\/372|[from] drain|[of] p2a: Hitmonchan
+|faint|p2a: Hitmonchan
+|choice||switch 6
+|
+|switch|p2a: Kabutops|Kabutops, L85|79\/276
+|turn|33
+|choice|move 4|move 2
+|
+|move|p2a: Kabutops|Surf|p1a: Muk
+|-damage|p1a: Muk|175\/372
+|move|p1a: Muk|Mega Drain|p2a: Kabutops
+|-supereffective|p2a: Kabutops
+|-damage|p2a: Kabutops|0 fnt
+|-heal|p1a: Muk|214\/372|[from] drain|[of] p2a: Kabutops
+|faint|p2a: Kabutops
+|choice||switch 3
+|
+|switch|p2a: Wartortle|Wartortle, L85|274\/274
+|turn|34
+|choice|switch 2|move 3
+|
+|switch|p1a: Fearow|Fearow, L90|188\/300
+|move|p2a: Wartortle|Hydro Pump|p1a: Fearow|[miss]
+|-miss|p2a: Wartortle
+|
+|turn|35
+|choice|move 3|switch 4
+|
+|switch|p2a: Rhyhorn|Rhyhorn, L96|307\/348
+|move|p1a: Fearow|Drill Peck|p2a: Rhyhorn
+|-resisted|p2a: Rhyhorn
+|-damage|p2a: Rhyhorn|270\/348
+|
+|turn|36
+|choice|move 3|move 3
+|
+|move|p1a: Fearow|Drill Peck|p2a: Rhyhorn
+|-resisted|p2a: Rhyhorn
+|-damage|p2a: Rhyhorn|228\/348
+|move|p2a: Rhyhorn|Earthquake|p1a: Fearow
+|-immune|p1a: Fearow|[msg]
+|
+|turn|37
+|choice|move 4|move 1
+|
+|move|p1a: Fearow|Mirror Move|p1a: Fearow
+|move|p1a: Fearow|Earthquake|p2a: Rhyhorn|[from]Mirror Move
+|-supereffective|p2a: Rhyhorn
+|-damage|p2a: Rhyhorn|90\/348
+|move|p2a: Rhyhorn|Rock Slide|p1a: Fearow
+|-supereffective|p1a: Fearow
+|-damage|p1a: Fearow|0 fnt
+|faint|p1a: Fearow
+|choice|switch 4|
+|
+|switch|p1a: Charmeleon|Charmeleon, L85|272\/272
+|turn|38
+|choice|move 1|switch 4
+|
+|switch|p2a: Wartortle|Wartortle, L85|274\/274
+|move|p1a: Charmeleon|Fire Blast|p2a: Wartortle
+|-resisted|p2a: Wartortle
+|-damage|p2a: Wartortle|214\/274
+|
+|turn|39
+|choice|move 2|move 3
+|
+|move|p1a: Charmeleon|Body Slam|p2a: Wartortle
+|-damage|p2a: Wartortle|165\/274
+|-status|p2a: Wartortle|par
+|move|p2a: Wartortle|Hydro Pump|p1a: Charmeleon
+|-supereffective|p1a: Charmeleon
+|-damage|p1a: Charmeleon|46\/272
+|
+|turn|40
+|choice|move 2|move 3
+|
+|move|p1a: Charmeleon|Body Slam|p2a: Wartortle
+|-damage|p2a: Wartortle|115\/274 par
+|move|p2a: Wartortle|Hydro Pump|p1a: Charmeleon
+|-supereffective|p1a: Charmeleon
+|-damage|p1a: Charmeleon|0 fnt
+|faint|p1a: Charmeleon
+|choice|switch 2|
+|
+|switch|p1a: Muk|Muk, L90|214\/372
+|turn|41
+|choice|move 4|move 3
+|
+|move|p1a: Muk|Mega Drain|p2a: Wartortle
+|-supereffective|p2a: Wartortle
+|-damage|p2a: Wartortle|52\/274 par
+|-heal|p1a: Muk|245\/372|[from] drain|[of] p2a: Wartortle
+|move|p2a: Wartortle|Hydro Pump|p1a: Muk
+|-damage|p1a: Muk|134\/372
+|
+|turn|42
+|choice|move 4|move 4
+|
+|move|p1a: Muk|Mega Drain|p2a: Wartortle
+|-supereffective|p2a: Wartortle
+|-damage|p2a: Wartortle|0 fnt
+|-heal|p1a: Muk|160\/372|[from] drain|[of] p2a: Wartortle
+|faint|p2a: Wartortle
+|choice||switch 4
+|
+|switch|p2a: Rhyhorn|Rhyhorn, L96|90\/348
+|turn|43
+|choice|move 4|move 3
+|
+|move|p1a: Muk|Mega Drain|p2a: Rhyhorn
+|-supereffective|p2a: Rhyhorn
+|-damage|p2a: Rhyhorn|0 fnt
+|-heal|p1a: Muk|205\/372|[from] drain|[of] p2a: Rhyhorn
+|faint|p2a: Rhyhorn
+|
+|win|Hiro555
+|raw|Hiro555's rating: 1199 &rarr; <strong>1229<\/strong><br \/>(+30 for winning)
+|raw|Parnas's rating: 1277 &rarr; <strong>1247<\/strong><br \/>(-30 for losing)
+|c|★Parnas|luck 1 skill 0
+|l|Parnas
+|player|p2

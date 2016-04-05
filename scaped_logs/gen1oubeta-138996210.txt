@@ -1,0 +1,325 @@
+﻿|join|bloodyloliokachan
+|join|arafalo2
+|player|p1|bloodyloliokachan|155
+|player|p2|arafalo2|2
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|switch|p1a: Ganguro|Jynx|333\/333
+|switch|p2a: Jynx|Jynx|333\/333
+|turn|1
+|
+|move|p1a: Ganguro|Lovely Kiss|p2a: Jynx
+|-status|p2a: Jynx|slp
+|cant|p2a: Jynx|slp
+|-curestatus|p2a: Jynx|slp
+|
+|turn|2
+|
+|move|p2a: Jynx|Lovely Kiss|p1a: Ganguro|[miss]
+|-miss|p2a: Jynx
+|move|p1a: Ganguro|Lovely Kiss|p2a: Jynx
+|-status|p2a: Jynx|slp
+|
+|turn|3
+|
+|move|p1a: Ganguro|Psychic|p2a: Jynx
+|-crit|p2a: Jynx
+|-resisted|p2a: Jynx
+|-damage|p2a: Jynx|228\/333 slp
+|-unboost|p2a: Jynx|spd|1
+|-unboost|p2a: Jynx|spa|1
+|cant|p2a: Jynx|slp
+|
+|turn|4
+|
+|switch|p2a: Alakazam|Alakazam|313\/313
+|move|p1a: Ganguro|Blizzard|p2a: Alakazam
+|-damage|p2a: Alakazam|205\/313
+|
+|turn|5
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Ganguro
+|-damage|p1a: Ganguro|233\/333
+|move|p1a: Ganguro|Blizzard|p2a: Alakazam|[miss]
+|-miss|p1a: Ganguro
+|
+|turn|6
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Ganguro|[miss]
+|-miss|p2a: Alakazam
+|move|p1a: Ganguro|Counter|p2a: Alakazam
+|-fail|p2a: Alakazam
+|
+|turn|7
+|chat|arafalo2|wtf
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Ganguro
+|-status|p1a: Ganguro|par
+|move|p1a: Ganguro|Blizzard|p2a: Alakazam|[miss]
+|-miss|p1a: Ganguro
+|
+|turn|8
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Ganguro
+|-damage|p1a: Ganguro|133\/333 par
+|cant|p1a: Ganguro|par
+|
+|turn|9
+|
+|move|p2a: Alakazam|Psychic|p1a: Ganguro
+|-crit|p1a: Ganguro
+|-resisted|p1a: Ganguro
+|-damage|p1a: Ganguro|7\/333 par
+|cant|p1a: Ganguro|par
+|
+|turn|10
+|join|KelfkiTv
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|313\/313
+|move|p1a: Ganguro|Counter|p2a: Alakazam
+|-fail|p2a: Alakazam
+|
+|turn|11
+|
+|move|p2a: Alakazam|Psychic|p1a: Ganguro
+|-resisted|p1a: Ganguro
+|-damage|p1a: Ganguro|0 fnt
+|faint|p1a: Ganguro
+|
+|leave|KelfkiTv
+|
+|switch|p1a: Bear Puns|Snorlax|523\/523
+|turn|12
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Bear Puns|Body Slam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|280\/393
+|
+|turn|13
+|
+|switch|p1a: Knights of Ni|Exeggutor|393\/393
+|move|p2a: Exeggutor|Sleep Powder|p1a: Knights of Ni
+|-status|p1a: Knights of Ni|slp
+|
+|turn|14
+|
+|switch|p1a: Bear Puns|Snorlax|523\/523
+|move|p2a: Exeggutor|Psychic|p1a: Bear Puns
+|-crit|p1a: Bear Puns
+|-damage|p1a: Bear Puns|211\/523
+|-unboost|p1a: Bear Puns|spd|1
+|-unboost|p1a: Bear Puns|spa|1
+|
+|turn|15
+|
+|move|p2a: Exeggutor|Psychic|p1a: Bear Puns
+|-damage|p1a: Bear Puns|0 fnt
+|faint|p1a: Bear Puns
+|
+|
+|switch|p1a: Silver Tauros|Tauros|353\/353
+|turn|16
+|
+|switch|p1a: LOL NOPE|Gengar|323\/323
+|move|p2a: Exeggutor|Explosion|p1a: LOL NOPE
+|-immune|p1a: LOL NOPE|[msg]
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Alakazam|Alakazam|313\/313
+|turn|17
+|
+|move|p2a: Alakazam|Psychic|p1a: LOL NOPE
+|-supereffective|p1a: LOL NOPE
+|-damage|p1a: LOL NOPE|104\/323
+|move|p1a: LOL NOPE|Explosion|p2a: Alakazam
+|-damage|p2a: Alakazam|4\/313
+|faint|p1a: LOL NOPE
+|
+|switch|p1a: Silver Tauros|Tauros|353\/353
+|turn|18
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Silver Tauros
+|-status|p1a: Silver Tauros|par
+|move|p1a: Silver Tauros|Hyper Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|turn|19
+|
+|move|p2a: Starmie|Psychic|p1a: Silver Tauros
+|-damage|p1a: Silver Tauros|230\/353 par
+|move|p1a: Silver Tauros|Body Slam|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|115\/323
+|
+|turn|20
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|276\/323
+|move|p1a: Silver Tauros|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|174\/323
+|
+|turn|21
+|
+|move|p2a: Starmie|Psychic|p1a: Silver Tauros
+|-damage|p1a: Silver Tauros|89\/353 par
+|cant|p1a: Silver Tauros|par
+|
+|turn|22
+|
+|move|p2a: Starmie|Psychic|p1a: Silver Tauros
+|-damage|p1a: Silver Tauros|0 fnt
+|faint|p1a: Silver Tauros
+|
+|
+|switch|p1a: Cosmos|Starmie|323\/323
+|turn|23
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Cosmos|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|632\/703
+|-status|p2a: Chansey|par
+|
+|turn|24
+|
+|switch|p1a: Knights of Ni|Exeggutor|393\/393 slp
+|move|p2a: Chansey|Ice Beam|p1a: Knights of Ni
+|-supereffective|p1a: Knights of Ni
+|-damage|p1a: Knights of Ni|268\/393 slp
+|
+|turn|25
+|
+|switch|p2a: Starmie|Starmie|174\/323
+|cant|p1a: Knights of Ni|slp
+|
+|turn|26
+|
+|move|p2a: Starmie|Blizzard|p1a: Knights of Ni
+|-supereffective|p1a: Knights of Ni
+|-damage|p1a: Knights of Ni|112\/393 slp
+|cant|p1a: Knights of Ni|slp
+|
+|turn|27
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|323\/323
+|cant|p1a: Knights of Ni|slp
+|
+|turn|28
+|
+|move|p2a: Starmie|Blizzard|p1a: Knights of Ni
+|-supereffective|p1a: Knights of Ni
+|-damage|p1a: Knights of Ni|0 fnt
+|faint|p1a: Knights of Ni
+|
+|
+|switch|p1a: Cosmos|Starmie|323\/323
+|turn|29
+|
+|switch|p2a: Jynx|Jynx|228\/333 slp
+|move|p1a: Cosmos|Thunderbolt|p2a: Jynx
+|-crit|p2a: Jynx
+|-damage|p2a: Jynx|82\/333 slp
+|
+|turn|30
+|
+|move|p1a: Cosmos|Thunderbolt|p2a: Jynx
+|-damage|p2a: Jynx|10\/333 slp
+|cant|p2a: Jynx|slp
+|
+|turn|31
+|
+|move|p1a: Cosmos|Thunderbolt|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|
+|
+|switch|p2a: Chansey|Chansey|632\/703 par
+|turn|32
+|
+|move|p1a: Cosmos|Blizzard|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|450\/703 par
+|move|p2a: Chansey|Ice Beam|p1a: Cosmos
+|-resisted|p1a: Cosmos
+|-damage|p1a: Cosmos|286\/323
+|
+|turn|33
+|
+|move|p1a: Cosmos|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|363\/703 par
+|move|p2a: Chansey|Thunder Wave|p1a: Cosmos
+|-status|p1a: Cosmos|par
+|
+|turn|34
+|
+|move|p1a: Cosmos|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|272\/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|623\/703 par
+|
+|turn|35
+|
+|cant|p1a: Cosmos|par
+|move|p2a: Chansey|Seismic Toss|p1a: Cosmos
+|-damage|p1a: Cosmos|186\/323 par
+|
+|turn|36
+|
+|cant|p1a: Cosmos|par
+|move|p2a: Chansey|Seismic Toss|p1a: Cosmos
+|-damage|p1a: Cosmos|86\/323 par
+|
+|turn|37
+|
+|move|p1a: Cosmos|Recover|p1a: Cosmos
+|-heal|p1a: Cosmos|247\/323 par
+|move|p2a: Chansey|Seismic Toss|p1a: Cosmos
+|-damage|p1a: Cosmos|147\/323 par
+|
+|turn|38
+|
+|cant|p1a: Cosmos|par
+|move|p2a: Chansey|Seismic Toss|p1a: Cosmos
+|-damage|p1a: Cosmos|47\/323 par
+|
+|turn|39
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|move|p1a: Cosmos|Recover|p1a: Cosmos
+|-heal|p1a: Cosmos|208\/323 par
+|
+|turn|40
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Cosmos
+|-supereffective|p1a: Cosmos
+|-damage|p1a: Cosmos|66\/323 par
+|move|p1a: Cosmos|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|165\/323
+|
+|turn|41
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Cosmos
+|-supereffective|p1a: Cosmos
+|-damage|p1a: Cosmos|0 fnt
+|faint|p1a: Cosmos
+|
+|win|arafalo2
+|raw|Ladder updating...
+|raw|bloodyloliokachan's rating: 1338 &rarr; <strong>1323<\/strong><br \/>(-15 for losing)
+|raw|arafalo2's rating: 1434 &rarr; <strong>1449<\/strong><br \/>(+15 for winning)

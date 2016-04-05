@@ -1,0 +1,204 @@
+﻿|join|the shady nappy
+|join|xordims
+|player|p1|the shady nappy|101
+|player|p2|xordims|193
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Rhydon|Rhydon, L79|328\/328
+|switch|p2a: Gastly|Gastly, L96|252\/252
+|turn|1
+|
+|switch|p2a: Horsea|Horsea, L96|252\/252
+|move|p1a: Rhydon|Earthquake|p2a: Horsea
+|-damage|p2a: Horsea|146\/252
+|
+|turn|2
+|
+|switch|p1a: Electrode|Electrode, L90|291\/291
+|move|p2a: Horsea|Hydro Pump|p1a: Electrode
+|-damage|p1a: Electrode|166\/291
+|
+|turn|3
+|
+|move|p1a: Electrode|Thunder Wave|p2a: Horsea
+|-status|p2a: Horsea|par
+|move|p2a: Horsea|Smokescreen|p1a: Electrode
+|-unboost|p1a: Electrode|accuracy|1
+|
+|turn|4
+|
+|switch|p1a: Beedrill|Beedrill, L90|300\/300
+|move|p2a: Horsea|Smokescreen|p1a: Beedrill
+|-unboost|p1a: Beedrill|accuracy|1
+|
+|turn|5
+|
+|switch|p2a: Alakazam|Alakazam, L79|249\/249
+|move|p1a: Beedrill|Twineedle|p2a: Alakazam
+|-supereffective|p2a: Alakazam
+|-damage|p2a: Alakazam|170\/249
+|-damage|p2a: Alakazam|91\/249
+|-hitcount|p2a: Alakazam|2
+|
+|turn|6
+|
+|switch|p1a: Electrode|Electrode, L90|166\/291
+|move|p2a: Alakazam|Psychic|p1a: Electrode
+|-damage|p1a: Electrode|56\/291
+|-unboost|p1a: Electrode|spd|1
+|-unboost|p1a: Electrode|spa|1
+|
+|turn|7
+|
+|switch|p2a: Vileplume|Vileplume, L90|318\/318
+|move|p1a: Electrode|Explosion|p2a: Vileplume
+|-damage|p2a: Vileplume|147\/318
+|faint|p1a: Electrode
+|
+|switch|p1a: Doduo|Doduo, L96|262\/262
+|turn|8
+|
+|move|p1a: Doduo|Drill Peck|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|
+|switch|p2a: Vaporeon|Vaporeon, L85|395\/395
+|turn|9
+|
+|move|p1a: Doduo|Double-Edge|p2a: Vaporeon
+|-damage|p2a: Vaporeon|240\/395
+|-damage|p1a: Doduo|224\/262|[from] recoil|[of] p2a: Vaporeon
+|move|p2a: Vaporeon|Blizzard|p1a: Doduo
+|-crit|p1a: Doduo
+|-supereffective|p1a: Doduo
+|-damage|p1a: Doduo|0 fnt
+|faint|p1a: Doduo
+|
+|switch|p1a: Machamp|Machamp, L90|345\/345
+|turn|10
+|
+|move|p2a: Vaporeon|Body Slam|p1a: Machamp
+|-crit|p1a: Machamp
+|-damage|p1a: Machamp|256\/345
+|move|p1a: Machamp|Body Slam|p2a: Vaporeon
+|-damage|p2a: Vaporeon|140\/395
+|
+|turn|11
+|
+|move|p2a: Vaporeon|Rest|p2a: Vaporeon
+|-fail|p2a: Vaporeon
+|move|p1a: Machamp|Submission|p2a: Vaporeon
+|-damage|p2a: Vaporeon|4\/395
+|-damage|p1a: Machamp|222\/345|[from] recoil|[of] p2a: Vaporeon
+|
+|turn|12
+|c|★xordims|rest failed?
+|
+|move|p2a: Vaporeon|Rest|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp
+|-heal|p2a: Vaporeon|395\/395 slp|[silent]
+|-status|p2a: Vaporeon|slp|[from] move: Rest
+|move|p1a: Machamp|Body Slam|p2a: Vaporeon
+|-damage|p2a: Vaporeon|291\/395 slp
+|
+|turn|13
+|c|★the shady nappy|lol
+|c|★the shady nappy|bc first gen
+|
+|switch|p2a: Gastly|Gastly, L96|252\/252
+|switch|p1a: Beedrill|Beedrill, L90|300\/300
+|
+|turn|14
+|
+|move|p2a: Gastly|Psychic|p1a: Beedrill
+|-supereffective|p1a: Beedrill
+|-damage|p1a: Beedrill|79\/300
+|move|p1a: Beedrill|Swords Dance|p1a: Beedrill
+|-boost|p1a: Beedrill|atk|2
+|
+|turn|15
+|
+|switch|p1a: Rhydon|Rhydon, L79|328\/328
+|move|p2a: Gastly|Psychic|p1a: Rhydon
+|-damage|p1a: Rhydon|209\/328
+|
+|turn|16
+|
+|move|p2a: Gastly|Hypnosis|p1a: Rhydon|[miss]
+|-miss|p2a: Gastly
+|move|p1a: Rhydon|Earthquake|p2a: Gastly
+|-supereffective|p2a: Gastly
+|-damage|p2a: Gastly|0 fnt
+|faint|p2a: Gastly
+|
+|switch|p2a: Horsea|Horsea, L96|146\/252 par
+|turn|17
+|
+|move|p1a: Rhydon|Earthquake|p2a: Horsea
+|-damage|p2a: Horsea|31\/252 par
+|move|p2a: Horsea|Hydro Pump|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|
+|switch|p1a: Beedrill|Beedrill, L90|79\/300
+|turn|18
+|
+|move|p1a: Beedrill|Twineedle|p2a: Horsea
+|-damage|p2a: Horsea|3\/252 par
+|-damage|p2a: Horsea|0 fnt
+|-hitcount|p2a: Horsea|2
+|faint|p2a: Horsea
+|
+|switch|p2a: Alakazam|Alakazam, L79|91\/249
+|turn|19
+|
+|switch|p1a: Wartortle|Wartortle, L85|274\/274
+|move|p2a: Alakazam|Psychic|p1a: Wartortle
+|-damage|p1a: Wartortle|151\/274
+|
+|turn|20
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|215\/249
+|move|p1a: Wartortle|Blizzard|p2a: Alakazam
+|-damage|p2a: Alakazam|160\/249
+|
+|turn|21
+|
+|move|p2a: Alakazam|Psychic|p1a: Wartortle
+|-damage|p1a: Wartortle|29\/274
+|move|p1a: Wartortle|Hydro Pump|p2a: Alakazam
+|-damage|p2a: Alakazam|83\/249
+|
+|turn|22
+|
+|move|p2a: Alakazam|Psychic|p1a: Wartortle
+|-damage|p1a: Wartortle|0 fnt
+|faint|p1a: Wartortle
+|
+|switch|p1a: Machamp|Machamp, L90|222\/345
+|turn|23
+|
+|move|p2a: Alakazam|Psychic|p1a: Machamp
+|-supereffective|p1a: Machamp
+|-damage|p1a: Machamp|0 fnt
+|faint|p1a: Machamp
+|c|★xordims|gg
+|c|★the shady nappy|gg
+|
+|switch|p1a: Beedrill|Beedrill, L90|79\/300
+|turn|24
+|-message|the shady nappy forfeited.
+|
+|win|xordims
+|leave|the shady nappy
+|player|p1

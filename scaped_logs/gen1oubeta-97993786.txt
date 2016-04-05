@@ -1,0 +1,698 @@
+﻿|join|kid gf lol
+|join|Firestar493
+|player|p1|kid gf lol|167
+|player|p2|Firestar493|164
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|switch|p1a: Zam Lead|Alakazam|313\/313
+|switch|p2a: moz-cat-o-nein|Ninetales|349\/349
+|turn|1
+|
+|switch|p1a: Glutton|Snorlax|523\/523
+|move|p2a: moz-cat-o-nein|Confuse Ray|p1a: Glutton
+|-start|p1a: Glutton|confusion
+|
+|turn|2
+|
+|move|p2a: moz-cat-o-nein|Fire Spin|p1a: Glutton
+|-damage|p1a: Glutton|499\/523
+|-activate|p1a: Glutton|move: Fire Spin|[of] p2a: moz-cat-o-nein
+|cant|p1a: Glutton|partiallytrapped
+|
+|turn|3
+|
+|switch|p2a: Funbro|Slowbro|393\/393
+|switch|p1a: Breakfast Pouch|Chansey|703\/703
+|
+|turn|4
+|
+|move|p1a: Breakfast Pouch|Thunderbolt|p2a: Funbro
+|-supereffective|p2a: Funbro
+|-damage|p2a: Funbro|227\/393
+|move|p2a: Funbro|Amnesia|p2a: Funbro
+|-boost|p2a: Funbro|spd|2
+|-boost|p2a: Funbro|spa|2
+|
+|turn|5
+|
+|move|p1a: Breakfast Pouch|Thunder Wave|p2a: Funbro
+|-status|p2a: Funbro|par
+|cant|p2a: Funbro|par
+|
+|turn|6
+|
+|move|p1a: Breakfast Pouch|Thunderbolt|p2a: Funbro
+|-supereffective|p2a: Funbro
+|-damage|p2a: Funbro|130\/393 par
+|move|p2a: Funbro|Amnesia|p2a: Funbro
+|-boost|p2a: Funbro|spd|2
+|-boost|p2a: Funbro|spa|2
+|
+|turn|7
+|
+|move|p1a: Breakfast Pouch|Thunderbolt|p2a: Funbro
+|-supereffective|p2a: Funbro
+|-damage|p2a: Funbro|71\/393 par
+|move|p2a: Funbro|Rest|p2a: Funbro
+|-status|p2a: Funbro|slp
+|-heal|p2a: Funbro|393\/393 slp|[silent]
+|-status|p2a: Funbro|slp|[from] move: Rest
+|
+|turn|8
+|
+|switch|p1a: Glutton|Snorlax|499\/523
+|cant|p2a: Funbro|slp
+|
+|turn|9
+|
+|move|p1a: Glutton|Amnesia|p1a: Glutton
+|-boost|p1a: Glutton|spd|2
+|-boost|p1a: Glutton|spa|2
+|cant|p2a: Funbro|slp
+|-curestatus|p2a: Funbro|slp
+|
+|turn|10
+|
+|move|p1a: Glutton|Amnesia|p1a: Glutton
+|-boost|p1a: Glutton|spd|2
+|-boost|p1a: Glutton|spa|2
+|move|p2a: Funbro|Thunder Wave|p1a: Glutton
+|-status|p1a: Glutton|par
+|
+|turn|11
+|
+|move|p1a: Glutton|Amnesia|p1a: Glutton
+|-boost|p1a: Glutton|spd|2
+|-boost|p1a: Glutton|spa|2
+|move|p2a: Funbro|Amnesia|p2a: Funbro
+|-boost|p2a: Funbro|spd|2
+|-boost|p2a: Funbro|spa|2
+|
+|turn|12
+|
+|cant|p1a: Glutton|par
+|move|p2a: Funbro|Surf|p1a: Glutton
+|-damage|p1a: Glutton|372\/523 par
+|
+|turn|13
+|
+|move|p2a: Funbro|Surf|p1a: Glutton
+|-damage|p1a: Glutton|250\/523 par
+|move|p1a: Glutton|Body Slam|p2a: Funbro
+|-damage|p2a: Funbro|299\/393
+|
+|turn|14
+|
+|move|p1a: Glutton|Rest|p1a: Glutton
+|-status|p1a: Glutton|slp
+|-heal|p1a: Glutton|523\/523 slp|[silent]
+|-status|p1a: Glutton|slp|[from] move: Rest
+|move|p2a: Funbro|Surf|p1a: Glutton
+|-damage|p1a: Glutton|406\/523 slp
+|
+|turn|15
+|
+|cant|p1a: Glutton|slp
+|move|p2a: Funbro|Surf|p1a: Glutton
+|-damage|p1a: Glutton|277\/523 slp
+|
+|turn|16
+|
+|cant|p1a: Glutton|slp
+|-curestatus|p1a: Glutton|slp
+|move|p2a: Funbro|Surf|p1a: Glutton
+|-damage|p1a: Glutton|147\/523
+|
+|turn|17
+|
+|move|p2a: Funbro|Surf|p1a: Glutton
+|-damage|p1a: Glutton|22\/523
+|move|p1a: Glutton|Body Slam|p2a: Funbro
+|-damage|p2a: Funbro|194\/393
+|-status|p2a: Funbro|par
+|
+|turn|18
+|
+|move|p1a: Glutton|Rest|p1a: Glutton
+|-status|p1a: Glutton|slp
+|-heal|p1a: Glutton|523\/523 slp|[silent]
+|-status|p1a: Glutton|slp|[from] move: Rest
+|move|p2a: Funbro|Surf|p1a: Glutton
+|-damage|p1a: Glutton|393\/523 slp
+|
+|turn|19
+|
+|cant|p1a: Glutton|slp
+|cant|p2a: Funbro|par
+|
+|turn|20
+|
+|move|p2a: Funbro|Surf|p1a: Glutton
+|-damage|p1a: Glutton|271\/523 slp
+|cant|p1a: Glutton|slp
+|-curestatus|p1a: Glutton|slp
+|
+|turn|21
+|
+|move|p2a: Funbro|Surf|p1a: Glutton
+|-damage|p1a: Glutton|154\/523
+|move|p1a: Glutton|Body Slam|p2a: Funbro
+|-damage|p2a: Funbro|102\/393 par
+|
+|turn|22
+|
+|move|p1a: Glutton|Body Slam|p2a: Funbro
+|-damage|p2a: Funbro|0 fnt
+|faint|p2a: Funbro
+|
+|
+|switch|p2a: Spooky Language|Gengar|323\/323
+|turn|23
+|
+|move|p2a: Spooky Language|Hypnosis|p1a: Glutton
+|-status|p1a: Glutton|slp
+|cant|p1a: Glutton|slp
+|
+|turn|24
+|
+|switch|p2a: BrownBull|Tauros|353\/353
+|cant|p1a: Glutton|slp
+|
+|turn|25
+|
+|switch|p1a: That's Bull|Tauros|353\/353
+|move|p2a: BrownBull|Body Slam|p1a: That's Bull
+|-crit|p1a: That's Bull
+|-damage|p1a: That's Bull|153\/353
+|-status|p1a: That's Bull|par
+|
+|turn|26
+|
+|move|p2a: BrownBull|Body Slam|p1a: That's Bull
+|-damage|p1a: That's Bull|57\/353 par
+|move|p1a: That's Bull|Hyper Beam|p2a: BrownBull
+|-damage|p2a: BrownBull|173\/353
+|
+|turn|27
+|
+|move|p2a: BrownBull|Body Slam|p1a: That's Bull
+|-damage|p1a: That's Bull|0 fnt
+|faint|p1a: That's Bull
+|
+|
+|switch|p1a: Zam Lead|Alakazam|313\/313
+|turn|28
+|
+|switch|p2a: Tails You Die|Chansey|703\/703
+|move|p1a: Zam Lead|Psychic|p2a: Tails You Die
+|-damage|p2a: Tails You Die|574\/703
+|-unboost|p2a: Tails You Die|spd|1
+|-unboost|p2a: Tails You Die|spa|1
+|
+|turn|29
+|
+|switch|p1a: Result of Incest|Exeggutor|393\/393
+|move|p2a: Tails You Die|Ice Beam|p1a: Result of Incest
+|-supereffective|p1a: Result of Incest
+|-damage|p1a: Result of Incest|307\/393
+|-status|p1a: Result of Incest|frz
+|
+|turn|30
+|chat|kid gf lol|bs
+|
+|switch|p2a: BrownBull|Tauros|173\/353
+|cant|p1a: Result of Incest|frz
+|
+|turn|31
+|chat|Firestar493|Gen 1.
+|
+|move|p2a: BrownBull|Body Slam|p1a: Result of Incest
+|-damage|p1a: Result of Incest|196\/393 frz
+|cant|p1a: Result of Incest|frz
+|
+|turn|32
+|chat|Firestar493|You have to deal with BS in gen 1. :I
+|
+|move|p2a: BrownBull|Body Slam|p1a: Result of Incest
+|-damage|p1a: Result of Incest|89\/393 frz
+|cant|p1a: Result of Incest|frz
+|
+|turn|33
+|
+|move|p2a: BrownBull|Body Slam|p1a: Result of Incest
+|-crit|p1a: Result of Incest
+|-damage|p1a: Result of Incest|0 fnt
+|faint|p1a: Result of Incest
+|
+|
+|switch|p1a: Zam Lead|Alakazam|313\/313
+|turn|34
+|
+|switch|p2a: Tails You Die|Chansey|574\/703
+|move|p1a: Zam Lead|Psychic|p2a: Tails You Die
+|-damage|p2a: Tails You Die|445\/703
+|
+|turn|35
+|
+|switch|p1a: Breakfast Pouch|Chansey|703\/703
+|move|p2a: Tails You Die|Ice Beam|p1a: Breakfast Pouch
+|-damage|p1a: Breakfast Pouch|627\/703
+|
+|turn|36
+|
+|move|p2a: Tails You Die|Ice Beam|p1a: Breakfast Pouch
+|-damage|p1a: Breakfast Pouch|548\/703
+|move|p1a: Breakfast Pouch|Ice Beam|p2a: Tails You Die
+|-damage|p2a: Tails You Die|371\/703
+|
+|turn|37
+|
+|move|p1a: Breakfast Pouch|Ice Beam|p2a: Tails You Die
+|-damage|p2a: Tails You Die|292\/703
+|move|p2a: Tails You Die|Soft-Boiled|p2a: Tails You Die
+|-heal|p2a: Tails You Die|643\/703
+|
+|turn|38
+|
+|switch|p2a: Smashing!|Cloyster|303\/303
+|move|p1a: Breakfast Pouch|Ice Beam|p2a: Smashing!
+|-crit|p2a: Smashing!
+|-resisted|p2a: Smashing!
+|-damage|p2a: Smashing!|264\/303
+|
+|turn|39
+|
+|move|p2a: Smashing!|Clamp|p1a: Breakfast Pouch
+|-damage|p1a: Breakfast Pouch|512\/703
+|-activate|p1a: Breakfast Pouch|move: Clamp|[of] p2a: Smashing!
+|cant|p1a: Breakfast Pouch|partiallytrapped
+|
+|turn|40
+|
+|move|p2a: Smashing!|Clamp|p1a: Breakfast Pouch
+|-damage|p1a: Breakfast Pouch|476\/703
+|cant|p1a: Breakfast Pouch|partiallytrapped
+|
+|turn|41
+|
+|move|p2a: Smashing!|Clamp|p1a: Breakfast Pouch
+|-damage|p1a: Breakfast Pouch|440\/703
+|cant|p1a: Breakfast Pouch|partiallytrapped
+|
+|turn|42
+|
+|switch|p2a: BrownBull|Tauros|173\/353
+|cant|p1a: Breakfast Pouch|partiallytrapped
+|
+|-end|p1a: Breakfast Pouch|Clamp|[partiallytrapped]
+|turn|43
+|
+|switch|p1a: Zam Lead|Alakazam|313\/313
+|move|p2a: BrownBull|Earthquake|p1a: Zam Lead
+|-damage|p1a: Zam Lead|180\/313
+|
+|turn|44
+|
+|switch|p2a: Tails You Die|Chansey|643\/703
+|move|p1a: Zam Lead|Recover|p1a: Zam Lead
+|-heal|p1a: Zam Lead|313\/313
+|
+|turn|45
+|
+|move|p1a: Zam Lead|Psychic|p2a: Tails You Die
+|-damage|p2a: Tails You Die|517\/703
+|move|p2a: Tails You Die|Ice Beam|p1a: Zam Lead
+|-damage|p1a: Zam Lead|249\/313
+|
+|turn|46
+|
+|switch|p1a: Breakfast Pouch|Chansey|440\/703
+|move|p2a: Tails You Die|Ice Beam|p1a: Breakfast Pouch
+|-damage|p1a: Breakfast Pouch|366\/703
+|
+|turn|47
+|
+|move|p1a: Breakfast Pouch|Ice Beam|p2a: Tails You Die
+|-damage|p2a: Tails You Die|445\/703
+|move|p2a: Tails You Die|Ice Beam|p1a: Breakfast Pouch
+|-damage|p1a: Breakfast Pouch|288\/703
+|
+|turn|48
+|
+|move|p1a: Breakfast Pouch|Soft-Boiled|p1a: Breakfast Pouch
+|-heal|p1a: Breakfast Pouch|639\/703
+|move|p2a: Tails You Die|Ice Beam|p1a: Breakfast Pouch
+|-damage|p1a: Breakfast Pouch|565\/703
+|-status|p1a: Breakfast Pouch|frz
+|
+|turn|49
+|chat|kid gf lol|bs
+|chat|Firestar493|Either deal with the BS or don't play gen 1. Gen 1 is the luck metagame, afterall. :\/
+|
+|switch|p1a: Zam Lead|Alakazam|249\/313
+|move|p2a: Tails You Die|Soft-Boiled|p2a: Tails You Die
+|-heal|p2a: Tails You Die|703\/703
+|
+|turn|50
+|
+|move|p1a: Zam Lead|Thunder Wave|p2a: Tails You Die
+|-status|p2a: Tails You Die|par
+|move|p2a: Tails You Die|Ice Beam|p1a: Zam Lead
+|-damage|p1a: Zam Lead|184\/313
+|
+|turn|51
+|
+|switch|p1a: Breakfast Pouch|Chansey|565\/703 frz
+|move|p2a: Tails You Die|Thunder Wave|p1a: Breakfast Pouch
+|-fail|p1a: Breakfast Pouch
+|
+|turn|52
+|
+|switch|p2a: Smashing!|Cloyster|264\/303
+|cant|p1a: Breakfast Pouch|frz
+|
+|turn|53
+|
+|move|p2a: Smashing!|Blizzard|p1a: Breakfast Pouch
+|-damage|p1a: Breakfast Pouch|439\/703 frz
+|cant|p1a: Breakfast Pouch|frz
+|
+|turn|54
+|
+|move|p2a: Smashing!|Clamp|p1a: Breakfast Pouch
+|-damage|p1a: Breakfast Pouch|402\/703 frz
+|-activate|p1a: Breakfast Pouch|move: Clamp|[of] p2a: Smashing!
+|cant|p1a: Breakfast Pouch|frz
+|
+|turn|55
+|
+|switch|p2a: BrownBull|Tauros|173\/353
+|cant|p1a: Breakfast Pouch|frz
+|
+|-end|p1a: Breakfast Pouch|Clamp|[partiallytrapped]
+|turn|56
+|
+|move|p2a: BrownBull|Body Slam|p1a: Breakfast Pouch
+|-damage|p1a: Breakfast Pouch|107\/703 frz
+|cant|p1a: Breakfast Pouch|frz
+|
+|turn|57
+|
+|move|p2a: BrownBull|Earthquake|p1a: Breakfast Pouch
+|-damage|p1a: Breakfast Pouch|0 fnt
+|faint|p1a: Breakfast Pouch
+|
+|
+|switch|p1a: Zam Lead|Alakazam|184\/313
+|turn|58
+|
+|switch|p1a: TNT|Golem|363\/363
+|switch|p2a: Tails You Die|Chansey|703\/703 par
+|
+|turn|59
+|
+|switch|p2a: moz-cat-o-nein|Ninetales|349\/349
+|move|p1a: TNT|Earthquake|p2a: moz-cat-o-nein
+|-supereffective|p2a: moz-cat-o-nein
+|-damage|p2a: moz-cat-o-nein|56\/349
+|
+|turn|60
+|
+|move|p2a: moz-cat-o-nein|Fire Blast|p1a: TNT
+|-resisted|p1a: TNT
+|-damage|p1a: TNT|258\/363
+|-status|p1a: TNT|brn
+|move|p1a: TNT|Earthquake|p2a: moz-cat-o-nein
+|-supereffective|p2a: moz-cat-o-nein
+|-damage|p2a: moz-cat-o-nein|0 fnt
+|-damage|p1a: TNT|236\/363 brn|[from] brn|[of] p2a: moz-cat-o-nein
+|faint|p2a: moz-cat-o-nein
+|
+|chat|kid gf lol|bs
+|
+|switch|p2a: Smashing!|Cloyster|264\/303
+|turn|61
+|
+|switch|p1a: Glutton|Snorlax|154\/523 slp
+|move|p2a: Smashing!|Clamp|p1a: Glutton
+|-damage|p1a: Glutton|104\/523 slp
+|-activate|p1a: Glutton|move: Clamp|[of] p2a: Smashing!
+|
+|turn|62
+|
+|switch|p2a: BrownBull|Tauros|173\/353
+|cant|p1a: Glutton|slp
+|-curestatus|p1a: Glutton|slp
+|
+|-end|p1a: Glutton|Clamp|[partiallytrapped]
+|turn|63
+|
+|switch|p1a: TNT|Golem|236\/363 brn
+|-damage|p1a: TNT|214\/363 brn|[from] brn
+|move|p2a: BrownBull|Body Slam|p1a: TNT
+|-resisted|p1a: TNT
+|-damage|p1a: TNT|176\/363 brn
+|
+|turn|64
+|
+|switch|p1a: Zam Lead|Alakazam|184\/313
+|move|p2a: BrownBull|Blizzard|p1a: Zam Lead
+|-damage|p1a: Zam Lead|120\/313
+|
+|turn|65
+|
+|switch|p2a: Tails You Die|Chansey|703\/703 par
+|move|p1a: Zam Lead|Recover|p1a: Zam Lead
+|-heal|p1a: Zam Lead|276\/313
+|
+|turn|66
+|
+|move|p1a: Zam Lead|Psychic|p2a: Tails You Die
+|-crit|p2a: Tails You Die
+|-damage|p2a: Tails You Die|444\/703 par
+|move|p2a: Tails You Die|Thunder Wave|p1a: Zam Lead|[miss]
+|-miss|p2a: Tails You Die
+|
+|turn|67
+|
+|switch|p1a: TNT|Golem|176\/363 brn
+|move|p2a: Tails You Die|Thunder Wave|p1a: TNT
+|-immune|p1a: TNT|[msg]
+|
+|turn|68
+|
+|switch|p2a: Smashing!|Cloyster|264\/303
+|move|p1a: TNT|Earthquake|p2a: Smashing!
+|-damage|p2a: Smashing!|224\/303
+|-damage|p1a: TNT|154\/363 brn|[from] brn|[of] p2a: Smashing!
+|
+|turn|69
+|
+|switch|p1a: Zam Lead|Alakazam|276\/313
+|move|p2a: Smashing!|Clamp|p1a: Zam Lead|[miss]
+|-miss|p2a: Smashing!
+|
+|turn|70
+|
+|move|p1a: Zam Lead|Psychic|p2a: Smashing!
+|-crit|p2a: Smashing!
+|-damage|p2a: Smashing!|0 fnt
+|faint|p2a: Smashing!
+|
+|
+|switch|p2a: Tails You Die|Chansey|444\/703 par
+|turn|71
+|
+|move|p1a: Zam Lead|Psychic|p2a: Tails You Die
+|-damage|p2a: Tails You Die|309\/703 par
+|-unboost|p2a: Tails You Die|spd|1
+|-unboost|p2a: Tails You Die|spa|1
+|move|p2a: Tails You Die|Soft-Boiled|p2a: Tails You Die
+|-heal|p2a: Tails You Die|660\/703 par
+|
+|turn|72
+|join|Katarn
+|
+|switch|p1a: TNT|Golem|154\/363 brn
+|move|p2a: Tails You Die|Thunder Wave|p1a: TNT
+|-immune|p1a: TNT|[msg]
+|
+|turn|73
+|
+|switch|p2a: Spooky Language|Gengar|323\/323
+|move|p1a: TNT|Body Slam|p2a: Spooky Language
+|-immune|p2a: Spooky Language|[msg]
+|-damage|p1a: TNT|132\/363 brn|[from] brn|[of] p2a: Spooky Language
+|
+|turn|74
+|
+|switch|p1a: Zam Lead|Alakazam|276\/313
+|move|p2a: Spooky Language|Mega Drain|p1a: Zam Lead
+|-damage|p1a: Zam Lead|244\/313
+|
+|turn|75
+|
+|switch|p1a: TNT|Golem|132\/363 brn
+|-damage|p1a: TNT|110\/363 brn|[from] brn
+|switch|p2a: Tails You Die|Chansey|660\/703 par
+|
+|turn|76
+|
+|move|p1a: TNT|Earthquake|p2a: Tails You Die
+|-damage|p2a: Tails You Die|481\/703 par
+|-damage|p1a: TNT|88\/363 brn|[from] brn|[of] p2a: Tails You Die
+|move|p2a: Tails You Die|Ice Beam|p1a: TNT|[miss]
+|-miss|p2a: Tails You Die
+|
+|turn|77
+|
+|move|p1a: TNT|Explosion|p2a: Tails You Die
+|-damage|p2a: Tails You Die|123\/703 par
+|faint|p1a: TNT
+|
+|switch|p1a: Zam Lead|Alakazam|244\/313
+|turn|78
+|
+|move|p1a: Zam Lead|Psychic|p2a: Tails You Die
+|-damage|p2a: Tails You Die|3\/703 par
+|move|p2a: Tails You Die|Thunder Wave|p1a: Zam Lead
+|-status|p1a: Zam Lead|par
+|
+|turn|79
+|
+|move|p1a: Zam Lead|Recover|p1a: Zam Lead
+|-heal|p1a: Zam Lead|313\/313 par
+|move|p2a: Tails You Die|Soft-Boiled|p2a: Tails You Die
+|-heal|p2a: Tails You Die|354\/703 par
+|
+|turn|80
+|
+|move|p1a: Zam Lead|Psychic|p2a: Tails You Die
+|-damage|p2a: Tails You Die|226\/703 par
+|move|p2a: Tails You Die|Soft-Boiled|p2a: Tails You Die
+|-heal|p2a: Tails You Die|577\/703 par
+|
+|turn|81
+|
+|move|p1a: Zam Lead|Seismic Toss|p2a: Tails You Die
+|-damage|p2a: Tails You Die|477\/703 par
+|move|p2a: Tails You Die|Ice Beam|p1a: Zam Lead
+|-damage|p1a: Zam Lead|245\/313 par
+|
+|turn|82
+|
+|move|p1a: Zam Lead|Seismic Toss|p2a: Tails You Die
+|-damage|p2a: Tails You Die|377\/703 par
+|cant|p2a: Tails You Die|par
+|
+|turn|83
+|
+|move|p1a: Zam Lead|Psychic|p2a: Tails You Die
+|-damage|p2a: Tails You Die|244\/703 par
+|-unboost|p2a: Tails You Die|spd|1
+|-unboost|p2a: Tails You Die|spa|1
+|move|p2a: Tails You Die|Soft-Boiled|p2a: Tails You Die
+|-heal|p2a: Tails You Die|595\/703 par
+|
+|turn|84
+|
+|move|p1a: Zam Lead|Psychic|p2a: Tails You Die
+|-damage|p2a: Tails You Die|421\/703 par
+|-unboost|p2a: Tails You Die|spd|1
+|-unboost|p2a: Tails You Die|spa|1
+|move|p2a: Tails You Die|Ice Beam|p1a: Zam Lead
+|-damage|p1a: Zam Lead|214\/313 par
+|
+|turn|85
+|
+|cant|p1a: Zam Lead|par
+|move|p2a: Tails You Die|Ice Beam|p1a: Zam Lead
+|-damage|p1a: Zam Lead|182\/313 par
+|
+|turn|86
+|
+|cant|p1a: Zam Lead|par
+|move|p2a: Tails You Die|Ice Beam|p1a: Zam Lead
+|-damage|p1a: Zam Lead|149\/313 par
+|
+|turn|87
+|
+|move|p1a: Zam Lead|Recover|p1a: Zam Lead
+|-heal|p1a: Zam Lead|305\/313 par
+|move|p2a: Tails You Die|Ice Beam|p1a: Zam Lead
+|-damage|p1a: Zam Lead|271\/313 par
+|
+|turn|88
+|
+|cant|p1a: Zam Lead|par
+|cant|p2a: Tails You Die|par
+|
+|turn|89
+|
+|cant|p1a: Zam Lead|par
+|cant|p2a: Tails You Die|par
+|
+|turn|90
+|
+|move|p1a: Zam Lead|Psychic|p2a: Tails You Die
+|-damage|p2a: Tails You Die|162\/703 par
+|move|p2a: Tails You Die|Counter|p1a: Zam Lead
+|-fail|p2a: Tails You Die
+|
+|turn|91
+|
+|move|p1a: Zam Lead|Psychic|p2a: Tails You Die
+|-damage|p2a: Tails You Die|0 fnt
+|faint|p2a: Tails You Die
+|
+|
+|switch|p2a: BrownBull|Tauros|173\/353
+|turn|92
+|
+|move|p2a: BrownBull|Body Slam|p1a: Zam Lead
+|-damage|p1a: Zam Lead|106\/313 par
+|move|p1a: Zam Lead|Thunder Wave|p2a: BrownBull
+|-status|p2a: BrownBull|par
+|
+|turn|93
+|
+|move|p1a: Zam Lead|Psychic|p2a: BrownBull
+|-damage|p2a: BrownBull|14\/353 par
+|move|p2a: BrownBull|Body Slam|p1a: Zam Lead
+|-damage|p1a: Zam Lead|0 fnt
+|faint|p1a: Zam Lead
+|
+|
+|switch|p1a: Glutton|Snorlax|104\/523
+|turn|94
+|
+|switch|p2a: Spooky Language|Gengar|323\/323
+|move|p1a: Glutton|Body Slam|p2a: Spooky Language
+|-immune|p2a: Spooky Language|[msg]
+|
+|turn|95
+|
+|move|p2a: Spooky Language|Explosion|p1a: Glutton
+|-damage|p1a: Glutton|0 fnt
+|faint|p1a: Glutton
+|faint|p2a: Spooky Language
+|
+|win|Firestar493
+|raw|Ladder updating...
+|raw|kid gf lol's rating: 1241 &rarr; <strong>1216<\/strong><br \/>(-25 for losing)
+|raw|Firestar493's rating: 1252 &rarr; <strong>1276<\/strong><br \/>(+24 for winning)
+|chat|Firestar493|gg
+|leave|kid gf lol
+|player|p1
+|leave|Katarn

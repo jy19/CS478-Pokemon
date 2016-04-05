@@ -1,0 +1,257 @@
+﻿|join|ohlesnoes
+|join|shred7hegnar
+|player|p1|ohlesnoes|169
+|player|p2|shred7hegnar|169
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Flareon|Flareon, L85|284\/284
+|switch|p2a: Gastly|Gastly, L96|252\/252
+|turn|1
+|
+|move|p2a: Gastly|Hypnosis|p1a: Flareon|[miss]
+|-miss|p2a: Gastly
+|move|p1a: Flareon|Fire Blast|p2a: Gastly
+|-damage|p2a: Gastly|141\/252
+|
+|turn|2
+|
+|switch|p1a: Lickitung|Lickitung, L85|327\/327
+|move|p2a: Gastly|Hypnosis|p1a: Lickitung
+|-status|p1a: Lickitung|slp
+|
+|turn|3
+|
+|switch|p1a: Dragonair|Dragonair, L85|277\/277
+|move|p2a: Gastly|Mega Drain|p1a: Dragonair
+|-resisted|p1a: Dragonair
+|-damage|p1a: Dragonair|255\/277
+|-heal|p2a: Gastly|152\/252|[from] drain|[of] p1a: Dragonair
+|
+|turn|4
+|
+|move|p2a: Gastly|Hypnosis|p1a: Dragonair
+|-message|Sleep Clause Mod activated.
+|move|p1a: Dragonair|Thunder Wave|p2a: Gastly
+|-status|p2a: Gastly|par
+|
+|turn|5
+|
+|move|p1a: Dragonair|Blizzard|p2a: Gastly|[miss]
+|-miss|p1a: Dragonair
+|move|p2a: Gastly|Confuse Ray|p1a: Dragonair
+|-start|p1a: Dragonair|confusion
+|
+|turn|6
+|
+|switch|p1a: Lickitung|Lickitung, L85|327\/327 slp
+|move|p2a: Gastly|Explosion|p1a: Lickitung
+|-damage|p1a: Lickitung|148\/327 slp
+|faint|p2a: Gastly
+|
+|switch|p2a: Persian|Persian, L79|265\/265
+|turn|7
+|
+|move|p2a: Persian|Slash|p1a: Lickitung
+|-crit|p1a: Lickitung
+|-damage|p1a: Lickitung|42\/327 slp
+|cant|p1a: Lickitung|slp
+|-curestatus|p1a: Lickitung|slp
+|
+|turn|8
+|
+|move|p2a: Persian|Slash|p1a: Lickitung
+|-crit|p1a: Lickitung
+|-damage|p1a: Lickitung|0 fnt
+|faint|p1a: Lickitung
+|
+|switch|p1a: Exeggutor|Exeggutor, L79|312\/312
+|turn|9
+|
+|move|p2a: Persian|Slash|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-damage|p1a: Exeggutor|189\/312
+|move|p1a: Exeggutor|Stun Spore|p2a: Persian
+|-status|p2a: Persian|par
+|
+|turn|10
+|
+|move|p1a: Exeggutor|Mega Drain|p2a: Persian
+|-damage|p2a: Persian|205\/265 par
+|-heal|p1a: Exeggutor|219\/312|[from] drain|[of] p2a: Persian
+|move|p2a: Persian|Slash|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-damage|p1a: Exeggutor|96\/312
+|
+|turn|11
+|
+|move|p1a: Exeggutor|Explosion|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|faint|p2a: Persian
+|faint|p1a: Exeggutor
+|
+|switch|p2a: Tauros|Tauros, L79|280\/280
+|switch|p1a: Dragonair|Dragonair, L85|255\/277
+|turn|12
+|
+|move|p2a: Tauros|Blizzard|p1a: Dragonair|[miss]
+|-miss|p2a: Tauros
+|move|p1a: Dragonair|Thunder Wave|p2a: Tauros
+|-status|p2a: Tauros|par
+|
+|turn|13
+|
+|switch|p1a: Persian|Persian, L79|265\/265
+|cant|p2a: Tauros|par
+|
+|turn|14
+|
+|move|p1a: Persian|Slash|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|176\/280 par
+|move|p2a: Tauros|Earthquake|p1a: Persian
+|-damage|p1a: Persian|181\/265
+|
+|turn|15
+|
+|move|p1a: Persian|Slash|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|64\/280 par
+|cant|p2a: Tauros|par
+|
+|turn|16
+|
+|move|p1a: Persian|Slash|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|switch|p2a: Hypno|Hypno, L85|318\/318
+|turn|17
+|
+|move|p1a: Persian|Slash|p2a: Hypno
+|-crit|p2a: Hypno
+|-damage|p2a: Hypno|206\/318
+|move|p2a: Hypno|Hypnosis|p1a: Persian|[miss]
+|-miss|p2a: Hypno
+|
+|turn|18
+|
+|move|p1a: Persian|Slash|p2a: Hypno
+|-crit|p2a: Hypno
+|-damage|p2a: Hypno|91\/318
+|move|p2a: Hypno|Counter|p1a: Persian|[miss]
+|-miss|p2a: Hypno
+|
+|turn|19
+|
+|move|p1a: Persian|Slash|p2a: Hypno
+|-crit|p2a: Hypno
+|-damage|p2a: Hypno|0 fnt
+|faint|p2a: Hypno
+|
+|switch|p2a: Diglett|Diglett, L96|214\/214
+|turn|20
+|
+|move|p2a: Diglett|Earthquake|p1a: Persian
+|-damage|p1a: Persian|61\/265
+|move|p1a: Persian|Body Slam|p2a: Diglett
+|-crit|p2a: Diglett
+|-damage|p2a: Diglett|5\/214
+|
+|turn|21
+|
+|move|p2a: Diglett|Earthquake|p1a: Persian
+|-damage|p1a: Persian|0 fnt
+|faint|p1a: Persian
+|
+|switch|p1a: Dragonair|Dragonair, L85|255\/277
+|turn|22
+|
+|move|p2a: Diglett|Earthquake|p1a: Dragonair
+|-damage|p1a: Dragonair|137\/277
+|move|p1a: Dragonair|Surf|p2a: Diglett
+|-supereffective|p2a: Diglett
+|-damage|p2a: Diglett|0 fnt
+|faint|p2a: Diglett
+|
+|switch|p2a: Gengar|Gengar, L79|257\/257
+|turn|23
+|
+|move|p2a: Gengar|Hypnosis|p1a: Dragonair
+|-status|p1a: Dragonair|slp
+|cant|p1a: Dragonair|slp
+|-curestatus|p1a: Dragonair|slp
+|
+|turn|24
+|
+|switch|p1a: Flareon|Flareon, L85|284\/284
+|move|p2a: Gengar|Psychic|p1a: Flareon
+|-crit|p1a: Flareon
+|-damage|p1a: Flareon|178\/284
+|-unboost|p1a: Flareon|spd|1
+|-unboost|p1a: Flareon|spa|1
+|
+|turn|25
+|
+|move|p2a: Gengar|Psychic|p1a: Flareon
+|-damage|p1a: Flareon|83\/284
+|-unboost|p1a: Flareon|spd|1
+|-unboost|p1a: Flareon|spa|1
+|move|p1a: Flareon|Fire Blast|p2a: Gengar|[miss]
+|-miss|p1a: Flareon
+|
+|turn|26
+|
+|move|p2a: Gengar|Psychic|p1a: Flareon
+|-crit|p1a: Flareon
+|-damage|p1a: Flareon|0 fnt
+|faint|p1a: Flareon
+|
+|switch|p1a: Victreebel|Victreebel, L85|310\/310
+|turn|27
+|
+|move|p2a: Gengar|Psychic|p1a: Victreebel
+|-supereffective|p1a: Victreebel
+|-damage|p1a: Victreebel|190\/310
+|move|p1a: Victreebel|Razor Leaf|p2a: Gengar
+|-crit|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|212\/257
+|
+|turn|28
+|
+|move|p2a: Gengar|Psychic|p1a: Victreebel
+|-crit|p1a: Victreebel
+|-supereffective|p1a: Victreebel
+|-damage|p1a: Victreebel|0 fnt
+|faint|p1a: Victreebel
+|
+|switch|p1a: Dragonair|Dragonair, L85|137\/277
+|turn|29
+|
+|move|p2a: Gengar|Hypnosis|p1a: Dragonair
+|-status|p1a: Dragonair|slp
+|cant|p1a: Dragonair|slp
+|
+|turn|30
+|
+|move|p2a: Gengar|Psychic|p1a: Dragonair
+|-damage|p1a: Dragonair|64\/277 slp
+|cant|p1a: Dragonair|slp
+|
+|turn|31
+|-message|ohlesnoes forfeited.
+|
+|win|shred7hegnar
+|raw|Ladder updating...
+|leave|ohlesnoes
+|player|p1
+|raw|ohlesnoes's rating: 1339 &rarr; <strong>1308<\/strong><br \/>(-31 for losing)
+|raw|shred7hegnar's rating: 1121 &rarr; <strong>1160<\/strong><br \/>(+39 for winning)

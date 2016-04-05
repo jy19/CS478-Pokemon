@@ -1,0 +1,335 @@
+﻿|join|Squadra di golbat
+|join|ZeronDark
+|player|p1|Squadra di golbat|1
+|player|p2|ZeronDark|248
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Farfetch'd|Farfetch'd, L99|304\/304
+|switch|p2a: Gengar|Gengar, L79|257\/257
+|turn|1
+|
+|move|p2a: Gengar|Thunderbolt|p1a: Farfetch'd
+|-supereffective|p1a: Farfetch'd
+|-damage|p1a: Farfetch'd|136\/304
+|move|p1a: Farfetch'd|Toxic|p2a: Gengar|[miss]
+|-miss|p1a: Farfetch'd
+|
+|turn|2
+|
+|move|p2a: Gengar|Thunderbolt|p1a: Farfetch'd
+|-crit|p1a: Farfetch'd
+|-supereffective|p1a: Farfetch'd
+|-damage|p1a: Farfetch'd|0 fnt
+|faint|p1a: Farfetch'd
+|
+|switch|p1a: Mew|Mew, L74|300\/300
+|turn|3
+|
+|move|p2a: Gengar|Hypnosis|p1a: Mew
+|-status|p1a: Mew|slp
+|-curestatus|p1a: Mew|slp
+|
+|turn|4
+|
+|move|p2a: Gengar|Hypnosis|p1a: Mew
+|-status|p1a: Mew|slp
+|-curestatus|p1a: Mew|slp
+|
+|turn|5
+|
+|move|p2a: Gengar|Thunderbolt|p1a: Mew
+|-damage|p1a: Mew|226\/300
+|move|p1a: Mew|Psychic|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|123\/257
+|
+|turn|6
+|
+|move|p2a: Gengar|Explosion|p1a: Mew
+|-crit|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|faint|p2a: Gengar
+|
+|switch|p2a: Scyther|Scyther, L90|309\/309
+|switch|p1a: Venomoth|Venomoth, L85|293\/293
+|turn|7
+|
+|move|p2a: Scyther|Swords Dance|p2a: Scyther
+|-boost|p2a: Scyther|atk|2
+|move|p1a: Venomoth|Stun Spore|p2a: Scyther|[miss]
+|-miss|p1a: Venomoth
+|
+|turn|8
+|
+|move|p2a: Scyther|Swords Dance|p2a: Scyther
+|-boost|p2a: Scyther|atk|2
+|move|p1a: Venomoth|Stun Spore|p2a: Scyther
+|-status|p2a: Scyther|par
+|
+|turn|9
+|
+|move|p1a: Venomoth|Psychic|p2a: Scyther
+|-damage|p2a: Scyther|232\/309 par
+|move|p2a: Scyther|Slash|p1a: Venomoth
+|-crit|p1a: Venomoth
+|-damage|p1a: Venomoth|146\/293
+|
+|turn|10
+|
+|move|p1a: Venomoth|Psychic|p2a: Scyther
+|-damage|p2a: Scyther|160\/309 par
+|move|p2a: Scyther|Slash|p1a: Venomoth
+|-crit|p1a: Venomoth
+|-damage|p1a: Venomoth|4\/293
+|
+|turn|11
+|
+|move|p1a: Venomoth|Psychic|p2a: Scyther
+|-damage|p2a: Scyther|87\/309 par
+|-unboost|p2a: Scyther|spd|1
+|-unboost|p2a: Scyther|spa|1
+|move|p2a: Scyther|Slash|p1a: Venomoth
+|-crit|p1a: Venomoth
+|-damage|p1a: Venomoth|0 fnt
+|faint|p1a: Venomoth
+|
+|switch|p1a: Porygon|Porygon, L85|284\/284
+|turn|12
+|
+|move|p1a: Porygon|Ice Beam|p2a: Scyther
+|-crit|p2a: Scyther
+|-supereffective|p2a: Scyther
+|-damage|p2a: Scyther|0 fnt
+|faint|p2a: Scyther
+|
+|switch|p2a: Hitmonchan|Hitmonchan, L90|273\/273
+|turn|13
+|
+|move|p2a: Hitmonchan|Submission|p1a: Porygon
+|-supereffective|p1a: Porygon
+|-damage|p1a: Porygon|52\/284
+|-damage|p2a: Hitmonchan|215\/273|[from] recoil|[of] p1a: Porygon
+|move|p1a: Porygon|Thunder Wave|p2a: Hitmonchan
+|-status|p2a: Hitmonchan|par
+|
+|turn|14
+|
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|194\/284
+|cant|p2a: Hitmonchan|par
+|
+|turn|15
+|
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|284\/284
+|move|p2a: Hitmonchan|Submission|p1a: Porygon
+|-supereffective|p1a: Porygon
+|-damage|p1a: Porygon|47\/284
+|-damage|p2a: Hitmonchan|156\/273 par|[from] recoil|[of] p1a: Porygon
+|
+|turn|16
+|
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|189\/284
+|cant|p2a: Hitmonchan|par
+|
+|turn|17
+|
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|284\/284
+|move|p2a: Hitmonchan|Counter|p1a: Porygon
+|-fail|p2a: Hitmonchan
+|
+|turn|18
+|
+|move|p1a: Porygon|Ice Beam|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|74\/273 par
+|move|p2a: Hitmonchan|Seismic Toss|p1a: Porygon
+|-damage|p1a: Porygon|194\/284
+|
+|turn|19
+|
+|move|p1a: Porygon|Ice Beam|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|0 fnt
+|faint|p2a: Hitmonchan
+|
+|switch|p2a: Jigglypuff|Jigglypuff, L99|428\/428
+|turn|20
+|
+|move|p1a: Porygon|Thunder Wave|p2a: Jigglypuff
+|-status|p2a: Jigglypuff|par
+|move|p2a: Jigglypuff|Body Slam|p1a: Porygon
+|-damage|p1a: Porygon|105\/284
+|
+|turn|21
+|
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|247\/284
+|move|p2a: Jigglypuff|Body Slam|p1a: Porygon
+|-damage|p1a: Porygon|160\/284
+|
+|turn|22
+|
+|move|p1a: Porygon|Ice Beam|p2a: Jigglypuff
+|-damage|p2a: Jigglypuff|336\/428 par
+|move|p2a: Jigglypuff|Disable|p1a: Porygon
+|-start|p1a: Porygon|Disable|Thunder Wave
+|
+|turn|23
+|
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|284\/284
+|move|p2a: Jigglypuff|Sing|p1a: Porygon
+|-status|p1a: Porygon|slp
+|
+|turn|24
+|
+|cant|p1a: Porygon|slp
+|move|p2a: Jigglypuff|Body Slam|p1a: Porygon
+|-damage|p1a: Porygon|195\/284 slp
+|
+|turn|25
+|
+|-curestatus|p1a: Porygon|slp
+|move|p2a: Jigglypuff|Body Slam|p1a: Porygon
+|-damage|p1a: Porygon|111\/284
+|
+|turn|26
+|
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|253\/284
+|move|p2a: Jigglypuff|Body Slam|p1a: Porygon
+|-damage|p1a: Porygon|162\/284
+|
+|turn|27
+|
+|move|p1a: Porygon|Ice Beam|p2a: Jigglypuff
+|-damage|p2a: Jigglypuff|249\/428 par
+|cant|p2a: Jigglypuff|par
+|
+|-end|p1a: Porygon|Disable
+|turn|28
+|
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|284\/284
+|move|p2a: Jigglypuff|Disable|p1a: Porygon
+|-start|p1a: Porygon|Disable|Thunder Wave
+|
+|turn|29
+|
+|move|p1a: Porygon|Ice Beam|p2a: Jigglypuff
+|-damage|p2a: Jigglypuff|162\/428 par
+|move|p2a: Jigglypuff|Sing|p1a: Porygon
+|-status|p1a: Porygon|slp
+|
+|turn|30
+|
+|cant|p1a: Porygon|slp
+|move|p2a: Jigglypuff|Body Slam|p1a: Porygon
+|-damage|p1a: Porygon|198\/284 slp
+|
+|turn|31
+|
+|-curestatus|p1a: Porygon|slp
+|cant|p2a: Jigglypuff|par
+|
+|turn|32
+|
+|move|p1a: Porygon|Ice Beam|p2a: Jigglypuff
+|-damage|p2a: Jigglypuff|77\/428 par
+|move|p2a: Jigglypuff|Body Slam|p1a: Porygon
+|-damage|p1a: Porygon|108\/284
+|
+|-end|p1a: Porygon|Disable
+|turn|33
+|
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|250\/284
+|cant|p2a: Jigglypuff|par
+|
+|turn|34
+|
+|move|p1a: Porygon|Ice Beam|p2a: Jigglypuff
+|-damage|p2a: Jigglypuff|0 fnt
+|faint|p2a: Jigglypuff
+|
+|switch|p2a: Mew|Mew, L74|300\/300
+|turn|35
+|
+|move|p2a: Mew|Swords Dance|p2a: Mew
+|-boost|p2a: Mew|atk|2
+|move|p1a: Porygon|Thunder Wave|p2a: Mew
+|-status|p2a: Mew|par
+|
+|turn|36
+|
+|move|p1a: Porygon|Ice Beam|p2a: Mew
+|-damage|p2a: Mew|241\/300 par
+|move|p2a: Mew|Thunderbolt|p1a: Porygon
+|-damage|p1a: Porygon|195\/284
+|
+|turn|37
+|
+|move|p1a: Porygon|Ice Beam|p2a: Mew
+|-damage|p2a: Mew|181\/300 par
+|move|p2a: Mew|Swords Dance|p2a: Mew
+|-boost|p2a: Mew|atk|2
+|
+|turn|38
+|
+|move|p1a: Porygon|Ice Beam|p2a: Mew
+|-damage|p2a: Mew|120\/300 par
+|cant|p2a: Mew|par
+|
+|turn|39
+|
+|move|p1a: Porygon|Hyper Beam|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|switch|p2a: Spearow|Spearow, L96|272\/272
+|turn|40
+|
+|move|p2a: Spearow|Double-Edge|p1a: Porygon
+|-crit|p1a: Porygon
+|-damage|p1a: Porygon|0 fnt
+|-damage|p2a: Spearow|224\/272|[from] recoil|[of] p1a: Porygon
+|faint|p1a: Porygon
+|
+|switch|p1a: Slowpoke|Slowpoke, L96|368\/368
+|turn|41
+|
+|move|p2a: Spearow|Drill Peck|p1a: Slowpoke
+|-damage|p1a: Slowpoke|279\/368
+|move|p1a: Slowpoke|Thunder Wave|p2a: Spearow
+|-status|p2a: Spearow|par
+|
+|turn|42
+|
+|move|p1a: Slowpoke|Surf|p2a: Spearow
+|-damage|p2a: Spearow|110\/272 par
+|move|p2a: Spearow|Mirror Move|p2a: Spearow
+|move|p2a: Spearow|Surf|p1a: Slowpoke|[from]Mirror Move
+|-resisted|p1a: Slowpoke
+|-damage|p1a: Slowpoke|245\/368
+|
+|turn|43
+|
+|move|p1a: Slowpoke|Surf|p2a: Spearow
+|-damage|p2a: Spearow|0 fnt
+|faint|p2a: Spearow
+|
+|win|Squadra di golbat
+|raw|Squadra di golbat's rating: 1166 &rarr; <strong>1184<\/strong><br \/>(+18 for winning)
+|raw|ZeronDark's rating: 1067 &rarr; <strong>1053<\/strong><br \/>(-14 for losing)
+|c|★ZeronDark|gg
+|leave|ZeronDark
+|player|p2

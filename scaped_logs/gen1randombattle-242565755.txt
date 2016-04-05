@@ -1,0 +1,234 @@
+﻿|join|Psychedelic Trip
+|join|Fierop
+|player|p1|Psychedelic Trip|168
+|player|p2|Fierop|266
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Bulbasaur|Bulbasaur, L96|281\/281
+|switch|p2a: Mr. Mime|Mr. Mime, L85|242\/242
+|turn|1
+|
+|switch|p1a: Jynx|Jynx, L79|265\/265
+|move|p2a: Mr. Mime|Seismic Toss|p1a: Jynx
+|-damage|p1a: Jynx|180\/265
+|
+|turn|2
+|
+|move|p2a: Mr. Mime|Psychic|p1a: Jynx
+|-resisted|p1a: Jynx
+|-damage|p1a: Jynx|130\/265
+|move|p1a: Jynx|Lovely Kiss|p2a: Mr. Mime|[miss]
+|-miss|p1a: Jynx
+|
+|turn|3
+|
+|move|p2a: Mr. Mime|Thunder Wave|p1a: Jynx
+|-status|p1a: Jynx|par
+|move|p1a: Jynx|Blizzard|p2a: Mr. Mime
+|-crit|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|59\/242
+|
+|turn|4
+|
+|move|p2a: Mr. Mime|Thunderbolt|p1a: Jynx
+|-damage|p1a: Jynx|61\/265 par
+|move|p1a: Jynx|Blizzard|p2a: Mr. Mime|[miss]
+|-miss|p1a: Jynx
+|
+|turn|5
+|
+|move|p2a: Mr. Mime|Psychic|p1a: Jynx
+|-resisted|p1a: Jynx
+|-damage|p1a: Jynx|8\/265 par
+|-unboost|p1a: Jynx|spd|1
+|-unboost|p1a: Jynx|spa|1
+|move|p1a: Jynx|Blizzard|p2a: Mr. Mime
+|-crit|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|0 fnt
+|faint|p2a: Mr. Mime
+|
+|switch|p2a: Flareon|Flareon, L90|300\/300
+|turn|6
+|
+|switch|p1a: Nidoqueen|Nidoqueen, L85|327\/327
+|move|p2a: Flareon|Hyper Beam|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|174\/327
+|
+|turn|7
+|-mustrecharge|p2a: Flareon
+|-mustrecharge|p2a: Flareon
+|
+|move|p1a: Nidoqueen|Earthquake|p2a: Flareon
+|-supereffective|p2a: Flareon
+|-damage|p2a: Flareon|74\/300
+|cant|p2a: Flareon|recharge
+|
+|turn|8
+|
+|move|p1a: Nidoqueen|Body Slam|p2a: Flareon
+|-damage|p2a: Flareon|10\/300
+|-status|p2a: Flareon|par
+|move|p2a: Flareon|Hyper Beam|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|31\/327
+|
+|turn|9
+|-mustrecharge|p2a: Flareon
+|-mustrecharge|p2a: Flareon
+|
+|move|p1a: Nidoqueen|Body Slam|p2a: Flareon
+|-damage|p2a: Flareon|0 fnt
+|faint|p2a: Flareon
+|
+|switch|p2a: Magneton|Magneton, L90|273\/273
+|turn|10
+|
+|move|p2a: Magneton|Thunder Wave|p1a: Nidoqueen
+|-immune|p1a: Nidoqueen|[msg]
+|move|p1a: Nidoqueen|Earthquake|p2a: Magneton
+|-crit|p2a: Magneton
+|-supereffective|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|faint|p2a: Magneton
+|
+|switch|p2a: Raticate|Raticate, L85|267\/267
+|turn|11
+|
+|move|p2a: Raticate|Super Fang|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|16\/327
+|move|p1a: Nidoqueen|Earthquake|p2a: Raticate
+|-damage|p2a: Raticate|146\/267
+|
+|turn|12
+|
+|move|p2a: Raticate|Hyper Beam|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|0 fnt
+|faint|p1a: Nidoqueen
+|
+|switch|p1a: Bulbasaur|Bulbasaur, L96|281\/281
+|turn|13
+|
+|move|p2a: Raticate|Hyper Beam|p1a: Bulbasaur
+|-damage|p1a: Bulbasaur|106\/281
+|move|p1a: Bulbasaur|Leech Seed|p2a: Raticate
+|-start|p2a: Raticate|move: Leech Seed
+|
+|turn|14
+|-mustrecharge|p2a: Raticate
+|-mustrecharge|p2a: Raticate
+|
+|cant|p2a: Raticate|recharge
+|-damage|p2a: Raticate|130\/267|[from] Leech Seed|[of] p1a: Bulbasaur
+|-heal|p1a: Bulbasaur|122\/281|[silent]
+|move|p1a: Bulbasaur|Toxic|p2a: Raticate
+|-status|p2a: Raticate|tox
+|
+|turn|15
+|
+|move|p2a: Raticate|Hyper Beam|p1a: Bulbasaur
+|-damage|p1a: Bulbasaur|0 fnt
+|faint|p1a: Bulbasaur
+|
+|switch|p1a: Dragonair|Dragonair, L85|277\/277
+|turn|16
+|
+|move|p2a: Raticate|Hyper Beam|p1a: Dragonair
+|-damage|p1a: Dragonair|94\/277
+|-damage|p2a: Raticate|98\/267 tox|[from] tox|[of] p1a: Dragonair
+|-damage|p2a: Raticate|50\/267 tox|[from] Leech Seed|[of] p1a: Dragonair
+|-heal|p1a: Dragonair|142\/277|[silent]
+|move|p1a: Dragonair|Surf|p2a: Raticate
+|-damage|p2a: Raticate|0 fnt
+|faint|p2a: Raticate
+|
+|switch|p2a: Dewgong|Dewgong, L85|327\/327
+|turn|17
+|
+|switch|p1a: Jynx|Jynx, L79|8\/265 par
+|move|p2a: Dewgong|Blizzard|p1a: Jynx
+|-resisted|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|
+|switch|p1a: Mew|Mew, L74|300\/300
+|turn|18
+|
+|move|p1a: Mew|Psychic|p2a: Dewgong
+|-crit|p2a: Dewgong
+|-damage|p2a: Dewgong|184\/327
+|-unboost|p2a: Dewgong|spd|1
+|-unboost|p2a: Dewgong|spa|1
+|move|p2a: Dewgong|Body Slam|p1a: Mew
+|-damage|p1a: Mew|250\/300
+|
+|turn|19
+|
+|move|p1a: Mew|Psychic|p2a: Dewgong
+|-damage|p2a: Dewgong|84\/327
+|-unboost|p2a: Dewgong|spd|1
+|-unboost|p2a: Dewgong|spa|1
+|move|p2a: Dewgong|Mimic|p1a: Mew
+|-start|p2a: Dewgong|Mimic|Explosion
+|
+|turn|20
+|
+|move|p1a: Mew|Psychic|p2a: Dewgong
+|-damage|p2a: Dewgong|0 fnt
+|faint|p2a: Dewgong
+|
+|switch|p2a: Mew|Mew, L74|300\/300
+|turn|21
+|
+|move|p2a: Mew|Swift|p1a: Mew
+|-crit|p1a: Mew
+|-damage|p1a: Mew|180\/300
+|move|p1a: Mew|Explosion|p2a: Mew
+|-damage|p2a: Mew|118\/300
+|faint|p1a: Mew
+|
+|switch|p1a: Dragonair|Dragonair, L85|142\/277
+|turn|22
+|
+|move|p2a: Mew|Thunderbolt|p1a: Dragonair
+|-resisted|p1a: Dragonair
+|-damage|p1a: Dragonair|114\/277
+|move|p1a: Dragonair|Hyper Beam|p2a: Mew|[miss]
+|-miss|p1a: Dragonair
+|
+|turn|23
+|
+|move|p2a: Mew|Psychic|p1a: Dragonair
+|-damage|p1a: Dragonair|27\/277
+|-unboost|p1a: Dragonair|spd|1
+|-unboost|p1a: Dragonair|spa|1
+|move|p1a: Dragonair|Hyper Beam|p2a: Mew
+|-damage|p2a: Mew|16\/300
+|
+|turn|24
+|-mustrecharge|p1a: Dragonair
+|-mustrecharge|p1a: Dragonair
+|
+|move|p2a: Mew|Thunderbolt|p1a: Dragonair
+|-resisted|p1a: Dragonair
+|-damage|p1a: Dragonair|0 fnt
+|faint|p1a: Dragonair
+|
+|switch|p1a: Fearow|Fearow, L90|300\/300
+|turn|25
+|
+|move|p1a: Fearow|Drill Peck|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|win|Psychedelic Trip
+|raw|Ladder updating...
+|raw|Psychedelic Trip's rating: 1286 &rarr; <strong>1294<\/strong><br \/>(+8 for winning)
+|raw|Fierop's rating: 1000 &rarr; <strong>1000<\/strong><br \/>(+0 for losing)
+|leave|Psychedelic Trip
+|player|p1

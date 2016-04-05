@@ -1,0 +1,229 @@
+﻿|join|norblarchoop
+|join|Giju
+|player|p1|norblarchoop|169
+|player|p2|Giju|163
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Speedball|Electrode|323\/323
+|switch|p2a: Jynx|Jynx|333\/333
+|turn|1
+|c|★Giju|hi ^^
+|
+|switch|p2a: Golem|Golem|363\/363
+|move|p1a: Speedball|Explosion|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|293\/363
+|faint|p1a: Speedball
+|
+|switch|p1a: Squat|Venusaur|363\/363
+|turn|2
+|
+|switch|p2a: Jynx|Jynx|333\/333
+|move|p1a: Squat|Razor Leaf|p2a: Jynx
+|-crit|p2a: Jynx
+|-damage|p2a: Jynx|191\/333
+|
+|turn|3
+|join|rmm123
+|join|jklbbllb;lu;loil
+|
+|move|p2a: Jynx|Blizzard|p1a: Squat
+|-supereffective|p1a: Squat
+|-damage|p1a: Squat|103\/363
+|move|p1a: Squat|Body Slam|p2a: Jynx
+|-damage|p2a: Jynx|88\/333
+|-status|p2a: Jynx|par
+|
+|turn|4
+|
+|switch|p2a: Hypno|Hypno|373\/373
+|move|p1a: Squat|Body Slam|p2a: Hypno
+|-damage|p2a: Hypno|297\/373
+|
+|turn|5
+|
+|move|p1a: Squat|Sleep Powder|p2a: Hypno|[miss]
+|-miss|p1a: Squat
+|move|p2a: Hypno|Psychic|p1a: Squat
+|-supereffective|p1a: Squat
+|-damage|p1a: Squat|0 fnt
+|faint|p1a: Squat
+|
+|switch|p1a: Tea|Zapdos|383\/383
+|turn|6
+|
+|switch|p2a: Golem|Golem|293\/363
+|move|p1a: Tea|Light Screen|p1a: Tea
+|
+|turn|7
+|
+|switch|p1a: Bivalve|Cloyster|303\/303
+|move|p2a: Golem|Rock Slide|p1a: Bivalve
+|-crit|p1a: Bivalve
+|-supereffective|p1a: Bivalve
+|-damage|p1a: Bivalve|50\/303
+|
+|turn|8
+|c|★Giju|italian?
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|move|p1a: Bivalve|Clamp|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|303\/323
+|-activate|p2a: Starmie|move: Clamp|[of] p1a: Bivalve
+|
+|turn|9
+|
+|switch|p1a: Fox|Jolteon|333\/333
+|cant|p2a: Starmie|partiallytrapped
+|
+|-end|p2a: Starmie|Clamp|[partiallytrapped]
+|turn|10
+|
+|switch|p2a: Golem|Golem|293\/363
+|move|p1a: Fox|Double Kick|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|260\/363
+|-damage|p2a: Golem|227\/363
+|-hitcount|p2a: Golem|2
+|
+|turn|11
+|
+|switch|p1a: Tea|Zapdos|383\/383
+|move|p2a: Golem|Rock Slide|p1a: Tea
+|-supereffective|p1a: Tea
+|-damage|p1a: Tea|174\/383
+|
+|turn|12
+|
+|move|p1a: Tea|Drill Peck|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|187\/363
+|move|p2a: Golem|Rock Slide|p1a: Tea
+|-crit|p1a: Tea
+|-supereffective|p1a: Tea
+|-damage|p1a: Tea|0 fnt
+|faint|p1a: Tea
+|
+|switch|p1a: Bivalve|Cloyster|50\/303
+|turn|13
+|
+|switch|p2a: Starmie|Starmie|303\/323
+|move|p1a: Bivalve|Blizzard|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|238\/323
+|
+|turn|14
+|
+|switch|p1a: Spoony|Alakazam|313\/313
+|move|p2a: Starmie|Thunderbolt|p1a: Spoony
+|-damage|p1a: Spoony|253\/313
+|
+|turn|15
+|
+|move|p1a: Spoony|Thunder Wave|p2a: Starmie
+|-status|p2a: Starmie|par
+|cant|p2a: Starmie|par
+|
+|turn|16
+|
+|move|p1a: Spoony|Psychic|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|177\/323 par
+|-unboost|p2a: Starmie|spd|1
+|-unboost|p2a: Starmie|spa|1
+|move|p2a: Starmie|Thunder Wave|p1a: Spoony
+|-status|p1a: Spoony|par
+|
+|turn|17
+|
+|move|p1a: Spoony|Psychic|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|83\/323 par
+|cant|p2a: Starmie|par
+|
+|turn|18
+|
+|switch|p2a: Hypno|Hypno|297\/373
+|move|p1a: Spoony|Psychic|p2a: Hypno
+|-resisted|p2a: Hypno
+|-damage|p2a: Hypno|239\/373
+|
+|turn|19
+|
+|move|p2a: Hypno|Psychic|p1a: Spoony
+|-resisted|p1a: Spoony
+|-damage|p1a: Spoony|207\/313 par
+|move|p1a: Spoony|Thunder Wave|p2a: Hypno
+|-status|p2a: Hypno|par
+|
+|turn|20
+|
+|move|p1a: Spoony|Seismic Toss|p2a: Hypno
+|-damage|p2a: Hypno|139\/373 par
+|move|p2a: Hypno|Psychic|p1a: Spoony
+|-resisted|p1a: Spoony
+|-damage|p1a: Spoony|157\/313 par
+|
+|turn|21
+|
+|move|p1a: Spoony|Recover|p1a: Spoony
+|-heal|p1a: Spoony|313\/313 par
+|move|p2a: Hypno|Rest|p2a: Hypno
+|-status|p2a: Hypno|slp
+|-heal|p2a: Hypno|373\/373 slp|[silent]
+|-status|p2a: Hypno|slp|[from] move: Rest
+|
+|turn|22
+|
+|switch|p2a: Golem|Golem|187\/363
+|move|p1a: Spoony|Seismic Toss|p2a: Golem
+|-damage|p2a: Golem|87\/363
+|
+|turn|23
+|
+|move|p2a: Golem|Explosion|p1a: Spoony
+|-damage|p1a: Spoony|0 fnt
+|faint|p1a: Spoony
+|faint|p2a: Golem
+|
+|switch|p1a: Fox|Jolteon|333\/333
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|24
+|
+|move|p1a: Fox|Thunderbolt|p2a: Tauros
+|-damage|p2a: Tauros|208\/353
+|move|p2a: Tauros|Earthquake|p1a: Fox
+|-supereffective|p1a: Fox
+|-damage|p1a: Fox|113\/333
+|
+|turn|25
+|
+|move|p1a: Fox|Thunderbolt|p2a: Tauros
+|-damage|p2a: Tauros|69\/353
+|move|p2a: Tauros|Earthquake|p1a: Fox
+|-supereffective|p1a: Fox
+|-damage|p1a: Fox|0 fnt
+|faint|p1a: Fox
+|
+|switch|p1a: Bivalve|Cloyster|50\/303
+|turn|26
+|
+|move|p2a: Tauros|Body Slam|p1a: Bivalve
+|-damage|p1a: Bivalve|0 fnt
+|faint|p1a: Bivalve
+|
+|win|Giju
+|raw|Ladder updating...
+|raw|norblarchoop's rating: 1366 &rarr; <strong>1337<\/strong><br \/>(-29 for losing)
+|raw|Giju's rating: 1203 &rarr; <strong>1239<\/strong><br \/>(+36 for winning)
+|leave|rmm123

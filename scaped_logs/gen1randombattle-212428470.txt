@@ -1,0 +1,269 @@
+﻿|join|librarynoob
+|join|Knapp-Time66
+|player|p1|librarynoob|1
+|player|p2|Knapp-Time66|110
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Oddish|Oddish, L95|278\/278
+|switch|p2a: Drowzee|Drowzee, L95|307\/307
+|turn|1
+|
+|switch|p1a: Alakazam|Alakazam, L80|252\/252
+|move|p2a: Drowzee|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|205\/252
+|
+|turn|2
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Drowzee
+|-status|p2a: Drowzee|par
+|cant|p2a: Drowzee|par
+|
+|turn|3
+|
+|move|p1a: Alakazam|Reflect|p1a: Alakazam
+|cant|p2a: Drowzee|par
+|
+|turn|4
+|
+|switch|p1a: Golem|Golem, L80|292\/292
+|cant|p2a: Drowzee|par
+|
+|turn|5
+|
+|move|p1a: Golem|Earthquake|p2a: Drowzee
+|-damage|p2a: Drowzee|162\/307 par
+|move|p2a: Drowzee|Psychic|p1a: Golem
+|-damage|p1a: Golem|121\/292
+|
+|turn|6
+|
+|move|p1a: Golem|Earthquake|p2a: Drowzee
+|-damage|p2a: Drowzee|35\/307 par
+|move|p2a: Drowzee|Counter|p1a: Golem
+|-fail|p2a: Drowzee
+|
+|turn|7
+|
+|move|p1a: Golem|Earthquake|p2a: Drowzee
+|-damage|p2a: Drowzee|0 fnt
+|faint|p2a: Drowzee
+|
+|switch|p2a: Golduck|Golduck, L86|313\/313
+|turn|8
+|
+|switch|p1a: Exeggutor|Exeggutor, L80|316\/316
+|move|p2a: Golduck|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|186\/316
+|
+|turn|9
+|
+|move|p2a: Golduck|Ice Beam|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|74\/316
+|move|p1a: Exeggutor|Sleep Powder|p2a: Golduck
+|-status|p2a: Golduck|slp
+|
+|turn|10
+|
+|cant|p2a: Golduck|slp
+|-curestatus|p2a: Golduck|slp
+|move|p1a: Exeggutor|Mega Drain|p2a: Golduck
+|-supereffective|p2a: Golduck
+|-damage|p2a: Golduck|214\/313
+|-heal|p1a: Exeggutor|123\/316|[from] drain|[of] p2a: Golduck
+|
+|turn|11
+|
+|switch|p1a: Alakazam|Alakazam, L80|205\/252
+|move|p2a: Golduck|Amnesia|p2a: Golduck
+|-boost|p2a: Golduck|spd|2
+|-boost|p2a: Golduck|spa|2
+|
+|turn|12
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Golduck
+|-status|p2a: Golduck|par
+|cant|p2a: Golduck|par
+|
+|turn|13
+|
+|move|p1a: Alakazam|Psychic|p2a: Golduck
+|-damage|p2a: Golduck|152\/313 par
+|cant|p2a: Golduck|par
+|
+|turn|14
+|
+|move|p1a: Alakazam|Psychic|p2a: Golduck
+|-crit|p2a: Golduck
+|-damage|p2a: Golduck|0 fnt
+|faint|p2a: Golduck
+|
+|switch|p2a: Machoke|Machoke, L86|313\/313
+|turn|15
+|
+|move|p1a: Alakazam|Psychic|p2a: Machoke
+|-supereffective|p2a: Machoke
+|-damage|p2a: Machoke|35\/313
+|move|p2a: Machoke|Mega Kick|p1a: Alakazam
+|-damage|p1a: Alakazam|63\/252
+|
+|turn|16
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|189\/252
+|move|p2a: Machoke|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|83\/252
+|-status|p1a: Alakazam|par
+|
+|turn|17
+|
+|move|p2a: Machoke|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|switch|p1a: Exeggutor|Exeggutor, L80|123\/316
+|turn|18
+|
+|move|p1a: Exeggutor|Mega Drain|p2a: Machoke
+|-damage|p2a: Machoke|0 fnt
+|-heal|p1a: Exeggutor|140\/316|[from] drain|[of] p2a: Machoke
+|faint|p2a: Machoke
+|
+|switch|p2a: Pidgeot|Pidgeot, L86|318\/318
+|turn|19
+|
+|switch|p1a: Pikachu|Pikachu, L95|259\/259
+|move|p2a: Pidgeot|Agility|p2a: Pidgeot
+|-boost|p2a: Pidgeot|spe|2
+|
+|turn|20
+|
+|move|p2a: Pidgeot|Reflect|p2a: Pidgeot
+|move|p1a: Pikachu|Thunderbolt|p2a: Pidgeot
+|-supereffective|p2a: Pidgeot
+|-damage|p2a: Pidgeot|113\/318
+|
+|turn|21
+|
+|move|p2a: Pidgeot|Double-Edge|p1a: Pikachu
+|-crit|p1a: Pikachu
+|-damage|p1a: Pikachu|0 fnt
+|-damage|p2a: Pidgeot|49\/318|[from] recoil|[of] p1a: Pikachu
+|faint|p1a: Pikachu
+|
+|switch|p1a: Nidorina|Nidorina, L92|316\/316
+|turn|22
+|
+|move|p2a: Pidgeot|Rest|p2a: Pidgeot
+|-status|p2a: Pidgeot|slp
+|-heal|p2a: Pidgeot|318\/318 slp|[silent]
+|-status|p2a: Pidgeot|slp|[from] move: Rest
+|move|p1a: Nidorina|Thunderbolt|p2a: Pidgeot
+|-supereffective|p2a: Pidgeot
+|-damage|p2a: Pidgeot|197\/318 slp
+|
+|turn|23
+|
+|cant|p2a: Pidgeot|slp
+|move|p1a: Nidorina|Thunder|p2a: Pidgeot
+|-supereffective|p2a: Pidgeot
+|-damage|p2a: Pidgeot|42\/318 slp
+|
+|turn|24
+|
+|cant|p2a: Pidgeot|slp
+|-curestatus|p2a: Pidgeot|slp
+|move|p1a: Nidorina|Thunderbolt|p2a: Pidgeot
+|-supereffective|p2a: Pidgeot
+|-damage|p2a: Pidgeot|0 fnt
+|faint|p2a: Pidgeot
+|
+|switch|p2a: Tauros|Tauros, L80|284\/284
+|turn|25
+|
+|move|p2a: Tauros|Blizzard|p1a: Nidorina
+|-damage|p1a: Nidorina|239\/316
+|move|p1a: Nidorina|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|229\/284
+|
+|turn|26
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Nidorina
+|-crit|p1a: Nidorina
+|-damage|p1a: Nidorina|0 fnt
+|faint|p1a: Nidorina
+|
+|switch|p1a: Exeggutor|Exeggutor, L80|140\/316
+|turn|27
+|
+|move|p2a: Tauros|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|40\/316
+|-status|p1a: Exeggutor|frz
+|cant|p1a: Exeggutor|frz
+|
+|turn|28
+|c|★Knapp-Time66|that was lucky
+|
+|move|p2a: Tauros|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Oddish|Oddish, L95|278\/278
+|turn|29
+|
+|move|p2a: Tauros|Blizzard|p1a: Oddish
+|-crit|p1a: Oddish
+|-supereffective|p1a: Oddish
+|-damage|p1a: Oddish|36\/278
+|move|p1a: Oddish|Sleep Powder|p2a: Tauros
+|-status|p2a: Tauros|slp
+|
+|turn|30
+|
+|switch|p1a: Golem|Golem, L80|121\/292
+|cant|p2a: Tauros|slp
+|
+|turn|31
+|
+|cant|p2a: Tauros|slp
+|move|p1a: Golem|Earthquake|p2a: Tauros
+|-damage|p2a: Tauros|131\/284 slp
+|
+|turn|32
+|
+|cant|p2a: Tauros|slp
+|-curestatus|p2a: Tauros|slp
+|move|p1a: Golem|Earthquake|p2a: Tauros
+|-damage|p2a: Tauros|23\/284
+|
+|turn|33
+|
+|move|p2a: Tauros|Blizzard|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|0 fnt
+|faint|p1a: Golem
+|
+|switch|p1a: Oddish|Oddish, L95|36\/278
+|turn|34
+|
+|move|p2a: Tauros|Blizzard|p1a: Oddish
+|-supereffective|p1a: Oddish
+|-damage|p1a: Oddish|0 fnt
+|faint|p1a: Oddish
+|
+|win|Knapp-Time66
+|raw|Ladder updating...
+|c|★Knapp-Time66|gg
+|raw|librarynoob's rating: 1203 &rarr; <strong>1173<\/strong><br \/>(-30 for losing)
+|raw|Knapp-Time66's rating: 1133 &rarr; <strong>1163<\/strong><br \/>(+30 for winning)
+|leave|librarynoob

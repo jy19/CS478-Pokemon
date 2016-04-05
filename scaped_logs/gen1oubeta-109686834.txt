@@ -1,0 +1,858 @@
+﻿|join|Blue53
+|join|kid gf lol
+|player|p1|Blue53|99
+|player|p2|kid gf lol|168
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|switch|p1a: Bamb|Electrode|323\/323
+|switch|p2a: Electabuzz|Electabuzz|333\/333
+|turn|1
+|
+|move|p1a: Bamb|Substitute|p1a: Bamb
+|-start|p1a: Bamb|Substitute
+|-damage|p1a: Bamb|243\/323
+|move|p2a: Electabuzz|Thunder Wave|p1a: Bamb
+|-status|p1a: Bamb|par
+|
+|turn|2
+|
+|move|p2a: Electabuzz|Submission|p1a: Bamb
+|-activate|p1a: Bamb|Substitute|[damage]
+|-damage|p2a: Electabuzz|316\/333|[from] recoil|[of] p1a: Bamb
+|move|p1a: Bamb|Explosion|p2a: Electabuzz
+|-damage|p2a: Electabuzz|89\/333
+|faint|p1a: Bamb
+|
+|switch|p1a: Snapper|Parasect|323\/323
+|turn|3
+|
+|move|p2a: Electabuzz|Submission|p1a: Snapper
+|-resisted|p1a: Snapper
+|-damage|p1a: Snapper|291\/323
+|-damage|p2a: Electabuzz|81\/333|[from] recoil|[of] p1a: Snapper
+|move|p1a: Snapper|Slash|p2a: Electabuzz
+|-damage|p2a: Electabuzz|6\/333
+|
+|turn|4
+|
+|move|p2a: Electabuzz|Psychic|p1a: Snapper
+|-damage|p1a: Snapper|219\/323
+|move|p1a: Snapper|Mega Drain|p2a: Electabuzz
+|-damage|p2a: Electabuzz|0 fnt
+|-heal|p1a: Snapper|222\/323|[from] drain|[of] p2a: Electabuzz
+|faint|p2a: Electabuzz
+|
+|
+|switch|p2a: Flareon|Flareon|333\/333
+|turn|5
+|
+|switch|p1a: Spaghetti|Poliwrath|383\/383
+|move|p2a: Flareon|Fire Blast|p1a: Spaghetti|[miss]
+|-miss|p2a: Flareon
+|
+|turn|6
+|
+|switch|p2a: Tangela|Tangela|333\/333
+|move|p1a: Spaghetti|Surf|p2a: Tangela
+|-resisted|p2a: Tangela
+|-damage|p2a: Tangela|293\/333
+|
+|turn|7
+|
+|switch|p2a: Poliwrath|Poliwrath|383\/383
+|move|p1a: Spaghetti|Blizzard|p2a: Poliwrath
+|-resisted|p2a: Poliwrath
+|-damage|p2a: Poliwrath|335\/383
+|
+|turn|8
+|
+|move|p2a: Poliwrath|Hypnosis|p1a: Spaghetti
+|-status|p1a: Spaghetti|slp
+|cant|p1a: Spaghetti|slp
+|-curestatus|p1a: Spaghetti|slp
+|
+|turn|9
+|
+|move|p2a: Poliwrath|Hypnosis|p1a: Spaghetti
+|-status|p1a: Spaghetti|slp
+|cant|p1a: Spaghetti|slp
+|
+|turn|10
+|
+|move|p2a: Poliwrath|Amnesia|p2a: Poliwrath
+|-boost|p2a: Poliwrath|spd|2
+|-boost|p2a: Poliwrath|spa|2
+|cant|p1a: Spaghetti|slp
+|-curestatus|p1a: Spaghetti|slp
+|
+|turn|11
+|
+|switch|p1a: Snapper|Parasect|222\/323
+|move|p2a: Poliwrath|Hypnosis|p1a: Snapper|[miss]
+|-miss|p2a: Poliwrath
+|
+|turn|12
+|
+|move|p2a: Poliwrath|Hypnosis|p1a: Snapper
+|-status|p1a: Snapper|slp
+|cant|p1a: Snapper|slp
+|-curestatus|p1a: Snapper|slp
+|
+|turn|13
+|
+|move|p2a: Poliwrath|Hypnosis|p1a: Snapper
+|-status|p1a: Snapper|slp
+|cant|p1a: Snapper|slp
+|
+|turn|14
+|chat|Blue53|dang
+|
+|switch|p1a: Spaghetti|Poliwrath|383\/383
+|move|p2a: Poliwrath|Ice Beam|p1a: Spaghetti
+|-resisted|p1a: Spaghetti
+|-damage|p1a: Spaghetti|308\/383
+|
+|turn|15
+|
+|move|p1a: Spaghetti|Amnesia|p1a: Spaghetti
+|-boost|p1a: Spaghetti|spd|2
+|-boost|p1a: Spaghetti|spa|2
+|move|p2a: Poliwrath|Amnesia|p2a: Poliwrath
+|-boost|p2a: Poliwrath|spd|2
+|-boost|p2a: Poliwrath|spa|2
+|
+|turn|16
+|
+|move|p2a: Poliwrath|Amnesia|p2a: Poliwrath
+|-boost|p2a: Poliwrath|spd|2
+|-boost|p2a: Poliwrath|spa|2
+|move|p1a: Spaghetti|Amnesia|p1a: Spaghetti
+|-boost|p1a: Spaghetti|spd|2
+|-boost|p1a: Spaghetti|spa|2
+|
+|turn|17
+|
+|move|p1a: Spaghetti|Amnesia|p1a: Spaghetti
+|-boost|p1a: Spaghetti|spd|2
+|-boost|p1a: Spaghetti|spa|2
+|move|p2a: Poliwrath|Ice Beam|p1a: Spaghetti
+|-crit|p1a: Spaghetti
+|-resisted|p1a: Spaghetti
+|-damage|p1a: Spaghetti|238\/383
+|
+|turn|18
+|
+|move|p1a: Spaghetti|Surf|p2a: Poliwrath
+|-resisted|p2a: Poliwrath
+|-damage|p2a: Poliwrath|283\/383
+|move|p2a: Poliwrath|Ice Beam|p1a: Spaghetti
+|-resisted|p1a: Spaghetti
+|-damage|p1a: Spaghetti|202\/383
+|
+|turn|19
+|
+|move|p1a: Spaghetti|Blizzard|p2a: Poliwrath
+|-crit|p2a: Poliwrath
+|-resisted|p2a: Poliwrath
+|-damage|p2a: Poliwrath|184\/383
+|move|p2a: Poliwrath|Ice Beam|p1a: Spaghetti
+|-resisted|p1a: Spaghetti
+|-damage|p1a: Spaghetti|167\/383
+|
+|turn|20
+|
+|move|p1a: Spaghetti|Surf|p2a: Poliwrath
+|-resisted|p2a: Poliwrath
+|-damage|p2a: Poliwrath|129\/383
+|move|p2a: Poliwrath|Ice Beam|p1a: Spaghetti
+|-crit|p1a: Spaghetti
+|-resisted|p1a: Spaghetti
+|-damage|p1a: Spaghetti|98\/383
+|
+|turn|21
+|
+|move|p2a: Poliwrath|Ice Beam|p1a: Spaghetti
+|-crit|p1a: Spaghetti
+|-resisted|p1a: Spaghetti
+|-damage|p1a: Spaghetti|21\/383
+|move|p1a: Spaghetti|Rest|p1a: Spaghetti
+|-status|p1a: Spaghetti|slp
+|-heal|p1a: Spaghetti|383\/383 slp|[silent]
+|-status|p1a: Spaghetti|slp|[from] move: Rest
+|
+|turn|22
+|
+|cant|p1a: Spaghetti|slp
+|move|p2a: Poliwrath|Rest|p2a: Poliwrath
+|-status|p2a: Poliwrath|slp
+|-heal|p2a: Poliwrath|383\/383 slp|[silent]
+|-status|p2a: Poliwrath|slp|[from] move: Rest
+|
+|turn|23
+|join|Blue52
+|
+|cant|p1a: Spaghetti|slp
+|-curestatus|p1a: Spaghetti|slp
+|cant|p2a: Poliwrath|slp
+|
+|turn|24
+|chat|Blue52|What up bitch
+|
+|switch|p1a: Pidgeot|Pidgeot|369\/369
+|cant|p2a: Poliwrath|slp
+|-curestatus|p2a: Poliwrath|slp
+|
+|turn|25
+|chat|Blue53|Lol hi
+|chat|Blue53|respect da naem
+|
+|move|p1a: Pidgeot|Fly|p2a: Poliwrath|[still]
+|-prepare|p1a: Pidgeot|Fly|p2a: Poliwrath
+|move|p2a: Poliwrath|Ice Beam|p1a: Pidgeot|[miss]
+|-message|The foe Pidgeot can't be hit while flying!
+|-miss|p2a: Poliwrath
+|
+|turn|26
+|chat|Blue52|fuck you
+|
+|move|p1a: Pidgeot|Fly|p2a: Poliwrath
+|-supereffective|p2a: Poliwrath
+|-damage|p2a: Poliwrath|239\/383
+|move|p2a: Poliwrath|Ice Beam|p1a: Pidgeot
+|-supereffective|p1a: Pidgeot
+|-damage|p1a: Pidgeot|0 fnt
+|faint|p1a: Pidgeot
+|
+|
+|switch|p1a: Spaghetti|Poliwrath|383\/383
+|turn|27
+|chat|Blue53|i always lose the poliwar XD
+|
+|move|p1a: Spaghetti|Amnesia|p1a: Spaghetti
+|-boost|p1a: Spaghetti|spd|2
+|-boost|p1a: Spaghetti|spa|2
+|move|p2a: Poliwrath|Ice Beam|p1a: Spaghetti
+|-resisted|p1a: Spaghetti
+|-damage|p1a: Spaghetti|311\/383
+|
+|turn|28
+|join|Automize
+|chat|Automize|cunt
+|chat|Automize|lol
+|
+|move|p2a: Poliwrath|Ice Beam|p1a: Spaghetti
+|-resisted|p1a: Spaghetti
+|-damage|p1a: Spaghetti|242\/383
+|move|p1a: Spaghetti|Amnesia|p1a: Spaghetti
+|-boost|p1a: Spaghetti|spd|2
+|-boost|p1a: Spaghetti|spa|2
+|
+|turn|29
+|chat|Automize|bro wtf
+|
+|move|p2a: Poliwrath|Ice Beam|p1a: Spaghetti
+|-resisted|p1a: Spaghetti
+|-damage|p1a: Spaghetti|195\/383
+|move|p1a: Spaghetti|Amnesia|p1a: Spaghetti
+|-boost|p1a: Spaghetti|spd|2
+|-boost|p1a: Spaghetti|spa|2
+|
+|turn|30
+|
+|move|p1a: Spaghetti|Surf|p2a: Poliwrath
+|-resisted|p2a: Poliwrath
+|-damage|p2a: Poliwrath|185\/383
+|move|p2a: Poliwrath|Ice Beam|p1a: Spaghetti
+|-resisted|p1a: Spaghetti
+|-damage|p1a: Spaghetti|159\/383
+|
+|turn|31
+|chat|Blue53|hai
+|
+|move|p2a: Poliwrath|Ice Beam|p1a: Spaghetti
+|-resisted|p1a: Spaghetti
+|-damage|p1a: Spaghetti|125\/383
+|move|p1a: Spaghetti|Surf|p2a: Poliwrath
+|-resisted|p2a: Poliwrath
+|-damage|p2a: Poliwrath|127\/383
+|
+|turn|32
+|
+|move|p1a: Spaghetti|Surf|p2a: Poliwrath
+|-resisted|p2a: Poliwrath
+|-damage|p2a: Poliwrath|70\/383
+|move|p2a: Poliwrath|Rest|p2a: Poliwrath
+|-status|p2a: Poliwrath|slp
+|-heal|p2a: Poliwrath|383\/383 slp|[silent]
+|-status|p2a: Poliwrath|slp|[from] move: Rest
+|
+|turn|33
+|
+|move|p1a: Spaghetti|Surf|p2a: Poliwrath
+|-resisted|p2a: Poliwrath
+|-damage|p2a: Poliwrath|329\/383 slp
+|cant|p2a: Poliwrath|slp
+|
+|turn|34
+|
+|move|p1a: Spaghetti|Rest|p1a: Spaghetti
+|-status|p1a: Spaghetti|slp
+|-heal|p1a: Spaghetti|383\/383 slp|[silent]
+|-status|p1a: Spaghetti|slp|[from] move: Rest
+|cant|p2a: Poliwrath|slp
+|-curestatus|p2a: Poliwrath|slp
+|
+|turn|35
+|
+|move|p2a: Poliwrath|Hypnosis|p1a: Spaghetti
+|-fail|p1a: Spaghetti|slp
+|cant|p1a: Spaghetti|slp
+|
+|turn|36
+|
+|cant|p1a: Spaghetti|slp
+|-curestatus|p1a: Spaghetti|slp
+|move|p2a: Poliwrath|Hypnosis|p1a: Spaghetti|[miss]
+|-miss|p2a: Poliwrath
+|
+|turn|37
+|
+|move|p1a: Spaghetti|Surf|p2a: Poliwrath
+|-resisted|p2a: Poliwrath
+|-damage|p2a: Poliwrath|274\/383
+|move|p2a: Poliwrath|Ice Beam|p1a: Spaghetti
+|-resisted|p1a: Spaghetti
+|-damage|p1a: Spaghetti|347\/383
+|
+|turn|38
+|
+|move|p2a: Poliwrath|Ice Beam|p1a: Spaghetti
+|-resisted|p1a: Spaghetti
+|-damage|p1a: Spaghetti|311\/383
+|move|p1a: Spaghetti|Surf|p2a: Poliwrath
+|-resisted|p2a: Poliwrath
+|-damage|p2a: Poliwrath|222\/383
+|
+|turn|39
+|leave|Automize
+|
+|move|p2a: Poliwrath|Ice Beam|p1a: Spaghetti
+|-resisted|p1a: Spaghetti
+|-damage|p1a: Spaghetti|276\/383
+|move|p1a: Spaghetti|Surf|p2a: Poliwrath
+|-resisted|p2a: Poliwrath
+|-damage|p2a: Poliwrath|168\/383
+|
+|turn|40
+|
+|move|p1a: Spaghetti|Surf|p2a: Poliwrath
+|-resisted|p2a: Poliwrath
+|-damage|p2a: Poliwrath|109\/383
+|move|p2a: Poliwrath|Rest|p2a: Poliwrath
+|-status|p2a: Poliwrath|slp
+|-heal|p2a: Poliwrath|383\/383 slp|[silent]
+|-status|p2a: Poliwrath|slp|[from] move: Rest
+|
+|turn|41
+|
+|move|p1a: Spaghetti|Surf|p2a: Poliwrath
+|-resisted|p2a: Poliwrath
+|-damage|p2a: Poliwrath|332\/383 slp
+|cant|p2a: Poliwrath|slp
+|
+|turn|42
+|
+|move|p1a: Spaghetti|Surf|p2a: Poliwrath
+|-resisted|p2a: Poliwrath
+|-damage|p2a: Poliwrath|279\/383 slp
+|cant|p2a: Poliwrath|slp
+|-curestatus|p2a: Poliwrath|slp
+|
+|turn|43
+|chat|kid gf lol|why do you have surf and blizzy
+|
+|move|p2a: Poliwrath|Rest|p2a: Poliwrath
+|-status|p2a: Poliwrath|slp
+|-heal|p2a: Poliwrath|383\/383 slp|[silent]
+|-status|p2a: Poliwrath|slp|[from] move: Rest
+|move|p1a: Spaghetti|Surf|p2a: Poliwrath
+|-resisted|p2a: Poliwrath
+|-damage|p2a: Poliwrath|325\/383 slp
+|
+|turn|44
+|chat|Blue53|the're better moves
+|chat|Blue53|well not surf
+|
+|cant|p2a: Poliwrath|slp
+|move|p1a: Spaghetti|Surf|p2a: Poliwrath
+|-resisted|p2a: Poliwrath
+|-damage|p2a: Poliwrath|272\/383 slp
+|
+|turn|45
+|chat|Blue53|blizzard is 90 acc
+|chat|kid gf lol|i mean why do you have both on the same set
+|
+|cant|p2a: Poliwrath|slp
+|-curestatus|p2a: Poliwrath|slp
+|move|p1a: Spaghetti|Surf|p2a: Poliwrath
+|-resisted|p2a: Poliwrath
+|-damage|p2a: Poliwrath|213\/383
+|
+|turn|46
+|chat|Blue53|coverage
+|chat|Blue53|:P.
+|
+|move|p2a: Poliwrath|Hypnosis|p1a: Spaghetti
+|-message|Sleep Clause Mod activated.
+|move|p1a: Spaghetti|Surf|p2a: Poliwrath
+|-resisted|p2a: Poliwrath
+|-damage|p2a: Poliwrath|161\/383
+|
+|turn|47
+|
+|move|p1a: Spaghetti|Surf|p2a: Poliwrath
+|-resisted|p2a: Poliwrath
+|-damage|p2a: Poliwrath|109\/383
+|move|p2a: Poliwrath|Rest|p2a: Poliwrath
+|-status|p2a: Poliwrath|slp
+|-heal|p2a: Poliwrath|383\/383 slp|[silent]
+|-status|p2a: Poliwrath|slp|[from] move: Rest
+|
+|turn|48
+|
+|switch|p1a: Mrs.Floofy|Flareon|333\/333
+|cant|p2a: Poliwrath|slp
+|
+|turn|49
+|
+|switch|p2a: Graveler|Graveler|313\/313
+|move|p1a: Mrs.Floofy|Body Slam|p2a: Graveler
+|-resisted|p2a: Graveler
+|-damage|p2a: Graveler|277\/313
+|
+|turn|50
+|
+|switch|p1a: Spaghetti|Poliwrath|276\/383
+|move|p2a: Graveler|Earthquake|p1a: Spaghetti
+|-damage|p1a: Spaghetti|154\/383
+|
+|turn|51
+|
+|switch|p2a: Poliwrath|Poliwrath|383\/383 slp
+|move|p1a: Spaghetti|Rest|p1a: Spaghetti
+|-status|p1a: Spaghetti|slp
+|-heal|p1a: Spaghetti|383\/383 slp|[silent]
+|-status|p1a: Spaghetti|slp|[from] move: Rest
+|
+|turn|52
+|
+|switch|p1a: Scrapper|Machamp|383\/383
+|cant|p2a: Poliwrath|slp
+|-curestatus|p2a: Poliwrath|slp
+|
+|turn|53
+|
+|switch|p2a: Tangela|Tangela|293\/333
+|move|p1a: Scrapper|Low Kick|p2a: Tangela
+|-damage|p2a: Tangela|214\/333
+|
+|turn|54
+|
+|move|p2a: Tangela|Stun Spore|p1a: Scrapper|[miss]
+|-miss|p2a: Tangela
+|move|p1a: Scrapper|Body Slam|p2a: Tangela
+|-damage|p2a: Tangela|137\/333
+|
+|turn|55
+|
+|move|p2a: Tangela|Rest|p2a: Tangela
+|-status|p2a: Tangela|slp
+|-heal|p2a: Tangela|333\/333 slp|[silent]
+|-status|p2a: Tangela|slp|[from] move: Rest
+|move|p1a: Scrapper|Body Slam|p2a: Tangela
+|-damage|p2a: Tangela|259\/333 slp
+|
+|turn|56
+|
+|switch|p1a: Spaghetti|Poliwrath|383\/383 slp
+|cant|p2a: Tangela|slp
+|
+|turn|57
+|
+|cant|p1a: Spaghetti|slp
+|cant|p2a: Tangela|slp
+|-curestatus|p2a: Tangela|slp
+|
+|turn|58
+|chat|kid gf lol|so this meta is controlled by tangela and poliwrath i take it?
+|chat|Blue53|Yup.
+|
+|cant|p1a: Spaghetti|slp
+|-curestatus|p1a: Spaghetti|slp
+|move|p2a: Tangela|Growth|p2a: Tangela
+|-boost|p2a: Tangela|spa|1
+|-boost|p2a: Tangela|spd|1
+|
+|turn|59
+|
+|move|p1a: Spaghetti|Amnesia|p1a: Spaghetti
+|-boost|p1a: Spaghetti|spd|2
+|-boost|p1a: Spaghetti|spa|2
+|move|p2a: Tangela|Growth|p2a: Tangela
+|-boost|p2a: Tangela|spa|1
+|-boost|p2a: Tangela|spd|1
+|
+|turn|60
+|
+|move|p1a: Spaghetti|Amnesia|p1a: Spaghetti
+|-boost|p1a: Spaghetti|spd|2
+|-boost|p1a: Spaghetti|spa|2
+|move|p2a: Tangela|Stun Spore|p1a: Spaghetti
+|-status|p1a: Spaghetti|par
+|
+|turn|61
+|
+|move|p2a: Tangela|Growth|p2a: Tangela
+|-boost|p2a: Tangela|spa|1
+|-boost|p2a: Tangela|spd|1
+|move|p1a: Spaghetti|Blizzard|p2a: Tangela
+|-supereffective|p2a: Tangela
+|-damage|p2a: Tangela|83\/333
+|
+|turn|62
+|
+|switch|p2a: Poliwrath|Poliwrath|383\/383
+|move|p1a: Spaghetti|Amnesia|p1a: Spaghetti
+|-boost|p1a: Spaghetti|spd|2
+|-boost|p1a: Spaghetti|spa|2
+|
+|turn|63
+|join|LethalSilence360
+|
+|move|p2a: Poliwrath|Amnesia|p2a: Poliwrath
+|-boost|p2a: Poliwrath|spd|2
+|-boost|p2a: Poliwrath|spa|2
+|move|p1a: Spaghetti|Surf|p2a: Poliwrath
+|-resisted|p2a: Poliwrath
+|-damage|p2a: Poliwrath|271\/383
+|
+|turn|64
+|
+|move|p2a: Poliwrath|Amnesia|p2a: Poliwrath
+|-boost|p2a: Poliwrath|spd|2
+|-boost|p2a: Poliwrath|spa|2
+|cant|p1a: Spaghetti|par
+|
+|turn|65
+|
+|move|p2a: Poliwrath|Amnesia|p2a: Poliwrath
+|-boost|p2a: Poliwrath|spd|2
+|-boost|p2a: Poliwrath|spa|2
+|move|p1a: Spaghetti|Rest|p1a: Spaghetti
+|-fail|p1a: Spaghetti
+|
+|turn|66
+|chat|Blue53|oops
+|
+|move|p2a: Poliwrath|Hypnosis|p1a: Spaghetti|[miss]
+|-miss|p2a: Poliwrath
+|move|p1a: Spaghetti|Surf|p2a: Poliwrath
+|-resisted|p2a: Poliwrath
+|-damage|p2a: Poliwrath|218\/383
+|
+|turn|67
+|chat|kid gf lol|more so poliwrath
+|chat|kid gf lol|than tangela
+|
+|move|p2a: Poliwrath|Hypnosis|p1a: Spaghetti
+|-fail|p1a: Spaghetti
+|move|p1a: Spaghetti|Surf|p2a: Poliwrath
+|-resisted|p2a: Poliwrath
+|-damage|p2a: Poliwrath|162\/383
+|
+|turn|68
+|chat|Blue53|ikr
+|
+|move|p2a: Poliwrath|Rest|p2a: Poliwrath
+|-status|p2a: Poliwrath|slp
+|-heal|p2a: Poliwrath|383\/383 slp|[silent]
+|-status|p2a: Poliwrath|slp|[from] move: Rest
+|move|p1a: Spaghetti|Surf|p2a: Poliwrath
+|-resisted|p2a: Poliwrath
+|-damage|p2a: Poliwrath|332\/383 slp
+|
+|turn|69
+|
+|switch|p1a: Scrapper|Machamp|383\/383
+|cant|p2a: Poliwrath|slp
+|
+|turn|70
+|
+|switch|p2a: Machamp|Machamp|383\/383
+|move|p1a: Scrapper|Low Kick|p2a: Machamp
+|-damage|p2a: Machamp|214\/383
+|
+|turn|71
+|
+|move|p1a: Scrapper|Low Kick|p2a: Machamp
+|-crit|p2a: Machamp
+|-damage|p2a: Machamp|0 fnt
+|faint|p2a: Machamp
+|
+|
+|switch|p2a: Tangela|Tangela|83\/333
+|turn|72
+|chat|Blue53|golduck would be ultimate ruler but they banned amnesia golduck
+|chat|Blue53|it says it's "uncompatible"
+|chat|Blue53|even in ou
+|
+|move|p2a: Tangela|Rest|p2a: Tangela
+|-status|p2a: Tangela|slp
+|-heal|p2a: Tangela|333\/333 slp|[silent]
+|-status|p2a: Tangela|slp|[from] move: Rest
+|move|p1a: Scrapper|Low Kick|p2a: Tangela
+|-damage|p2a: Tangela|260\/333 slp
+|
+|turn|73
+|leave|LethalSilence360
+|chat|kid gf lol|who banned it
+|
+|cant|p2a: Tangela|slp
+|move|p1a: Scrapper|Body Slam|p2a: Tangela
+|-damage|p2a: Tangela|189\/333 slp
+|
+|turn|74
+|chat|Blue53|nobody
+|chat|Blue53|showdown doesn't allow it
+|
+|cant|p2a: Tangela|slp
+|-curestatus|p2a: Tangela|slp
+|move|p1a: Scrapper|Body Slam|p2a: Tangela
+|-damage|p2a: Tangela|115\/333
+|
+|turn|75
+|
+|move|p2a: Tangela|Stun Spore|p1a: Scrapper|[miss]
+|-miss|p2a: Tangela
+|move|p1a: Scrapper|Body Slam|p2a: Tangela
+|-crit|p2a: Tangela
+|-damage|p2a: Tangela|0 fnt
+|faint|p2a: Tangela
+|
+|chat|kid gf lol|why lol
+|chat|kid gf lol|that probably gets beaten by starmie
+|chat|kid gf lol|or zapdos\/jolteon
+|
+|switch|p2a: Flareon|Flareon|333\/333
+|turn|76
+|
+|move|p2a: Flareon|Fire Blast|p1a: Scrapper
+|-damage|p1a: Scrapper|181\/383
+|-status|p1a: Scrapper|brn
+|move|p1a: Scrapper|Earthquake|p2a: Flareon
+|-supereffective|p2a: Flareon
+|-damage|p2a: Flareon|199\/333
+|-damage|p1a: Scrapper|158\/383 brn|[from] brn|[of] p2a: Flareon
+|
+|turn|77
+|chat|Blue53|dang
+|
+|move|p2a: Flareon|Fire Blast|p1a: Scrapper
+|-damage|p1a: Scrapper|0 fnt
+|faint|p1a: Scrapper
+|
+|chat|kid gf lol|machamp is kind of op for uu when tangela isnt around to save me
+|
+|switch|p1a: Mrs.Floofy|Flareon|333\/333
+|turn|78
+|
+|switch|p2a: Poliwrath|Poliwrath|332\/383 slp
+|move|p1a: Mrs.Floofy|Body Slam|p2a: Poliwrath
+|-damage|p2a: Poliwrath|248\/383 slp
+|
+|turn|79
+|
+|cant|p2a: Poliwrath|slp
+|-curestatus|p2a: Poliwrath|slp
+|move|p1a: Mrs.Floofy|Body Slam|p2a: Poliwrath
+|-damage|p2a: Poliwrath|172\/383
+|
+|turn|80
+|join|toasty apple
+|
+|move|p2a: Poliwrath|Rest|p2a: Poliwrath
+|-status|p2a: Poliwrath|slp
+|-heal|p2a: Poliwrath|383\/383 slp|[silent]
+|-status|p2a: Poliwrath|slp|[from] move: Rest
+|move|p1a: Mrs.Floofy|Hyper Beam|p2a: Poliwrath
+|-damage|p2a: Poliwrath|235\/383 slp
+|
+|turn|81
+|chat|Blue53|hai app
+|chat|toasty apple|hayo
+|
+|cant|p2a: Poliwrath|slp
+|cant|p1a: Mrs.Floofy|recharge
+|
+|turn|82
+|
+|cant|p2a: Poliwrath|slp
+|-curestatus|p2a: Poliwrath|slp
+|move|p1a: Mrs.Floofy|Body Slam|p2a: Poliwrath
+|-damage|p2a: Poliwrath|150\/383
+|
+|turn|83
+|
+|move|p2a: Poliwrath|Rest|p2a: Poliwrath
+|-status|p2a: Poliwrath|slp
+|-heal|p2a: Poliwrath|383\/383 slp|[silent]
+|-status|p2a: Poliwrath|slp|[from] move: Rest
+|move|p1a: Mrs.Floofy|Body Slam|p2a: Poliwrath
+|-damage|p2a: Poliwrath|305\/383 slp
+|
+|turn|84
+|
+|cant|p2a: Poliwrath|slp
+|move|p1a: Mrs.Floofy|Body Slam|p2a: Poliwrath
+|-crit|p2a: Poliwrath
+|-damage|p2a: Poliwrath|142\/383 slp
+|
+|turn|85
+|
+|cant|p2a: Poliwrath|slp
+|-curestatus|p2a: Poliwrath|slp
+|move|p1a: Mrs.Floofy|Hyper Beam|p2a: Poliwrath|[miss]
+|-miss|p1a: Mrs.Floofy
+|
+|turn|86
+|chat|kid gf lol|lol
+|chat|Blue53|>misses lmfao
+|
+|move|p2a: Poliwrath|Rest|p2a: Poliwrath
+|-status|p2a: Poliwrath|slp
+|-heal|p2a: Poliwrath|383\/383 slp|[silent]
+|-status|p2a: Poliwrath|slp|[from] move: Rest
+|move|p1a: Mrs.Floofy|Body Slam|p2a: Poliwrath
+|-damage|p2a: Poliwrath|302\/383 slp
+|
+|turn|87
+|chat|kid gf lol|it might not of killed anyways idk
+|
+|cant|p2a: Poliwrath|slp
+|move|p1a: Mrs.Floofy|Body Slam|p2a: Poliwrath
+|-damage|p2a: Poliwrath|221\/383 slp
+|
+|turn|88
+|
+|cant|p2a: Poliwrath|slp
+|-curestatus|p2a: Poliwrath|slp
+|move|p1a: Mrs.Floofy|Body Slam|p2a: Poliwrath
+|-damage|p2a: Poliwrath|140\/383
+|
+|turn|89
+|
+|move|p2a: Poliwrath|Rest|p2a: Poliwrath
+|-status|p2a: Poliwrath|slp
+|-heal|p2a: Poliwrath|383\/383 slp|[silent]
+|-status|p2a: Poliwrath|slp|[from] move: Rest
+|move|p1a: Mrs.Floofy|Body Slam|p2a: Poliwrath
+|-damage|p2a: Poliwrath|297\/383 slp
+|
+|turn|90
+|
+|cant|p2a: Poliwrath|slp
+|move|p1a: Mrs.Floofy|Body Slam|p2a: Poliwrath
+|-damage|p2a: Poliwrath|216\/383 slp
+|
+|turn|91
+|
+|cant|p2a: Poliwrath|slp
+|-curestatus|p2a: Poliwrath|slp
+|move|p1a: Mrs.Floofy|Body Slam|p2a: Poliwrath
+|-damage|p2a: Poliwrath|135\/383
+|
+|turn|92
+|
+|move|p2a: Poliwrath|Rest|p2a: Poliwrath
+|-status|p2a: Poliwrath|slp
+|-heal|p2a: Poliwrath|383\/383 slp|[silent]
+|-status|p2a: Poliwrath|slp|[from] move: Rest
+|move|p1a: Mrs.Floofy|Body Slam|p2a: Poliwrath
+|-crit|p2a: Poliwrath
+|-damage|p2a: Poliwrath|211\/383 slp
+|
+|turn|93
+|
+|cant|p2a: Poliwrath|slp
+|move|p1a: Mrs.Floofy|Body Slam|p2a: Poliwrath
+|-damage|p2a: Poliwrath|122\/383 slp
+|
+|turn|94
+|
+|cant|p2a: Poliwrath|slp
+|-curestatus|p2a: Poliwrath|slp
+|move|p1a: Mrs.Floofy|Hyper Beam|p2a: Poliwrath
+|-damage|p2a: Poliwrath|0 fnt
+|faint|p2a: Poliwrath
+|
+|
+|switch|p2a: Graveler|Graveler|277\/313
+|turn|95
+|
+|move|p1a: Mrs.Floofy|Fire Blast|p2a: Graveler
+|-resisted|p2a: Graveler
+|-damage|p2a: Graveler|150\/313
+|move|p2a: Graveler|Earthquake|p1a: Mrs.Floofy
+|-supereffective|p1a: Mrs.Floofy
+|-damage|p1a: Mrs.Floofy|34\/333
+|
+|turn|96
+|
+|move|p1a: Mrs.Floofy|Fire Blast|p2a: Graveler
+|-resisted|p2a: Graveler
+|-damage|p2a: Graveler|24\/313
+|move|p2a: Graveler|Earthquake|p1a: Mrs.Floofy
+|-supereffective|p1a: Mrs.Floofy
+|-damage|p1a: Mrs.Floofy|0 fnt
+|faint|p1a: Mrs.Floofy
+|
+|
+|switch|p1a: Spaghetti|Poliwrath|383\/383 par
+|turn|97
+|
+|move|p2a: Graveler|Explosion|p1a: Spaghetti
+|-damage|p1a: Spaghetti|119\/383 par
+|faint|p2a: Graveler
+|chat|Blue53|crap
+|
+|switch|p2a: Flareon|Flareon|199\/333
+|turn|98
+|
+|move|p2a: Flareon|Hyper Beam|p1a: Spaghetti
+|-damage|p1a: Spaghetti|0 fnt
+|faint|p1a: Spaghetti
+|
+|
+|switch|p1a: Snapper|Parasect|222\/323 slp
+|turn|99
+|chat|Blue53|fuck cocks
+|chat|Blue53|mouth
+|chat|Blue53|XD.
+|chat|Blue53|gg
+|
+|move|p2a: Flareon|Fire Blast|p1a: Snapper
+|-supereffective|p1a: Snapper
+|-damage|p1a: Snapper|0 fnt
+|faint|p1a: Snapper
+|
+|win|kid gf lol

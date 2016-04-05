@@ -1,0 +1,593 @@
+﻿|join|Vbombman
+|join|markus1000
+|player|p1|Vbombman|101
+|player|p2|markus1000|170
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Custom Game
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Sunshine.C|Electrode|323\/323
+|switch|p2a: Parasect|Parasect|323\/323
+|turn|1
+|
+|move|p1a: Sunshine.C|Thunder Wave|p2a: Parasect
+|debug|randBW(256) = 53
+|-status|p2a: Parasect|par
+|debug|randBW(4) = 3
+|move|p2a: Parasect|Spore|p1a: Sunshine.C
+|debug|randBW(256) = 175
+|-status|p1a: Sunshine.C|slp
+|debug|randBW(1, 7) = 1
+|
+|turn|2
+|
+|switch|p1a: D.Gunkshoe|Muk|413\/413
+|debug|randBW(4) = 0
+|cant|p2a: Parasect|par
+|debug|p2: Parasect move interrupted; movedThisTurn: undefined
+|
+|turn|3
+|
+|switch|p2a: Rhyhorn|Rhyhorn|363\/363
+|move|p1a: D.Gunkshoe|Sludge|p2a: Rhyhorn
+|debug|randBW(256) = 9
+|-resisted|p2a: Rhyhorn
+|-damage|p2a: Rhyhorn|344\/363
+|debug|randBW(256) = 231
+|
+|turn|4
+|
+|switch|p1a: N.Moe|Parasect|323\/323
+|move|p2a: Rhyhorn|Earthquake|p1a: N.Moe
+|debug|randBW(256) = 118
+|-resisted|p1a: N.Moe
+|-damage|p1a: N.Moe|291\/323
+|
+|turn|5
+|
+|switch|p2a: Parasect|Parasect|323\/323 par
+|move|p1a: N.Moe|Spore|p2a: Parasect
+|debug|randBW(256) = 135
+|-fail|p2a: Parasect
+|
+|turn|6
+|
+|switch|p1a: D.Gunkshoe|Muk|413\/413
+|debug|randBW(4) = 3
+|move|p2a: Parasect|Slash|p1a: D.Gunkshoe
+|debug|randBW(256) = 0
+|-damage|p1a: D.Gunkshoe|349\/413
+|
+|turn|7
+|
+|switch|p2a: Slowpoke|Slowpoke|383\/383
+|move|p1a: D.Gunkshoe|Sludge|p2a: Slowpoke
+|debug|randBW(256) = 152
+|-crit|p2a: Slowpoke
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|-damage|p2a: Slowpoke|175\/383
+|debug|randBW(256) = 93
+|
+|turn|8
+|
+|switch|p1a: N.Moe|Parasect|291\/323
+|switch|p2a: Rhyhorn|Rhyhorn|344\/363
+|
+|turn|9
+|
+|switch|p2a: Parasect|Parasect|323\/323 par
+|move|p1a: N.Moe|Leech Life|p2a: Parasect
+|debug|randBW(256) = 16
+|-supereffective|p2a: Parasect
+|-damage|p2a: Parasect|263\/323 par
+|-heal|p1a: N.Moe|321\/323|[from] drain|[of] p2a: Parasect
+|
+|turn|10
+|
+|switch|p2a: Flareon|Flareon|333\/333
+|move|p1a: N.Moe|Slash|p2a: Flareon
+|debug|randBW(256) = 97
+|-damage|p2a: Flareon|266\/333
+|
+|turn|11
+|
+|switch|p1a: K.Gavin|Wartortle|321\/321
+|move|p2a: Flareon|Body Slam|p1a: K.Gavin
+|debug|randBW(256) = 68
+|-damage|p1a: K.Gavin|228\/321
+|debug|randBW(256) = 237
+|
+|turn|12
+|
+|switch|p2a: Slowpoke|Slowpoke|175\/383
+|move|p1a: K.Gavin|Toxic|p2a: Slowpoke
+|debug|randBW(256) = 111
+|-status|p2a: Slowpoke|tox
+|
+|turn|13
+|
+|move|p1a: K.Gavin|Seismic Toss|p2a: Slowpoke
+|debug|randBW(256) = 207
+|-damage|p2a: Slowpoke|75\/383 tox
+|move|p2a: Slowpoke|Thunder Wave|p1a: K.Gavin
+|debug|randBW(256) = 186
+|-status|p1a: K.Gavin|par
+|-damage|p2a: Slowpoke|52\/383 tox|[from] tox|[of] p1a: K.Gavin
+|
+|turn|14
+|
+|move|p2a: Slowpoke|Rest|p2a: Slowpoke
+|-status|p2a: Slowpoke|slp
+|debug|randBW(1, 7) = 4
+|-heal|p2a: Slowpoke|383\/383 slp|[silent]
+|-status|p2a: Slowpoke|slp|[from] move: Rest
+|debug|randBW(4) = 3
+|move|p1a: K.Gavin|Seismic Toss|p2a: Slowpoke
+|debug|randBW(256) = 57
+|-damage|p2a: Slowpoke|283\/383 slp
+|
+|turn|15
+|
+|cant|p2a: Slowpoke|slp
+|debug|p2: Slowpoke move interrupted; movedThisTurn: undefined
+|debug|randBW(4) = 0
+|cant|p1a: K.Gavin|par
+|debug|p1: K.Gavin move interrupted; movedThisTurn: undefined
+|
+|turn|16
+|
+|cant|p2a: Slowpoke|slp
+|debug|p2: Slowpoke move interrupted; movedThisTurn: undefined
+|-curestatus|p2a: Slowpoke|slp
+|debug|randBW(4) = 3
+|move|p1a: K.Gavin|Seismic Toss|p2a: Slowpoke
+|debug|randBW(256) = 117
+|-damage|p2a: Slowpoke|183\/383
+|
+|turn|17
+|
+|switch|p1a: N.Moe|Parasect|321\/323
+|move|p2a: Slowpoke|Amnesia|p2a: Slowpoke
+|-boost|p2a: Slowpoke|spd|2
+|-boost|p2a: Slowpoke|spa|2
+|
+|turn|18
+|
+|switch|p2a: Parasect|Parasect|263\/323 par
+|move|p1a: N.Moe|Spore|p2a: Parasect
+|debug|randBW(256) = 45
+|-fail|p2a: Parasect
+|
+|turn|19
+|
+|move|p1a: N.Moe|Slash|p2a: Parasect
+|debug|randBW(256) = 193
+|-damage|p2a: Parasect|204\/323 par
+|debug|randBW(4) = 2
+|move|p2a: Parasect|Dig|p1a: N.Moe|[still]
+|-prepare|p2a: Parasect|Dig|p1a: N.Moe
+|
+|turn|20
+|
+|move|p1a: N.Moe|Slash|p2a: Parasect|[miss]
+|-message|The foe Parasect can't be hit underground!
+|debug|randBW(256) = 93
+|-miss|p1a: N.Moe
+|debug|randBW(4) = 2
+|move|p2a: Parasect|Dig|p1a: N.Moe
+|debug|randBW(256) = 47
+|-resisted|p1a: N.Moe
+|-damage|p1a: N.Moe|302\/323
+|
+|turn|21
+|
+|move|p1a: N.Moe|Slash|p2a: Parasect
+|debug|randBW(256) = 173
+|-damage|p2a: Parasect|145\/323 par
+|debug|randBW(4) = 1
+|move|p2a: Parasect|Slash|p1a: N.Moe
+|debug|randBW(256) = 242
+|-damage|p1a: N.Moe|238\/323
+|
+|turn|22
+|
+|switch|p2a: Rhyhorn|Rhyhorn|344\/363
+|move|p1a: N.Moe|Slash|p2a: Rhyhorn
+|debug|randBW(256) = 142
+|-resisted|p2a: Rhyhorn
+|-damage|p2a: Rhyhorn|316\/363
+|
+|turn|23
+|
+|switch|p2a: Scyther|Scyther|343\/343
+|move|p1a: N.Moe|Spore|p2a: Scyther
+|debug|randBW(256) = 220
+|-status|p2a: Scyther|slp
+|debug|randBW(1, 7) = 3
+|
+|turn|24
+|
+|switch|p1a: Miles.E|Rhyhorn|363\/363
+|cant|p2a: Scyther|slp
+|debug|p2: Scyther move interrupted; movedThisTurn: undefined
+|
+|turn|25
+|
+|switch|p2a: Rhyhorn|Rhyhorn|316\/363
+|move|p1a: Miles.E|Rock Slide|p2a: Rhyhorn
+|debug|randBW(256) = 56
+|-resisted|p2a: Rhyhorn
+|-damage|p2a: Rhyhorn|278\/363
+|
+|turn|26
+|
+|move|p1a: Miles.E|Earthquake|p2a: Rhyhorn
+|debug|randBW(256) = 24
+|-supereffective|p2a: Rhyhorn
+|-damage|p2a: Rhyhorn|62\/363
+|move|p2a: Rhyhorn|Body Slam|p1a: Miles.E
+|debug|randBW(256) = 20
+|-resisted|p1a: Miles.E
+|-damage|p1a: Miles.E|330\/363
+|debug|randBW(256) = 14
+|-status|p1a: Miles.E|par
+|
+|turn|27
+|
+|switch|p2a: Slowpoke|Slowpoke|183\/383
+|switch|p1a: N.Moe|Parasect|238\/323
+|
+|turn|28
+|
+|move|p1a: N.Moe|Mega Drain|p2a: Slowpoke
+|debug|randBW(256) = 145
+|-supereffective|p2a: Slowpoke
+|-damage|p2a: Slowpoke|48\/383
+|-heal|p1a: N.Moe|306\/323|[from] drain|[of] p2a: Slowpoke
+|move|p2a: Slowpoke|Thunder Wave|p1a: N.Moe
+|debug|randBW(256) = 218
+|-status|p1a: N.Moe|par
+|
+|turn|29
+|
+|switch|p2a: Flareon|Flareon|266\/333
+|switch|p1a: D.Gunkshoe|Muk|349\/413
+|
+|turn|30
+|
+|move|p2a: Flareon|Fire Blast|p1a: D.Gunkshoe
+|debug|randBW(256) = 25
+|-damage|p1a: D.Gunkshoe|149\/413
+|debug|randBW(256) = 224
+|move|p1a: D.Gunkshoe|Sludge|p2a: Flareon
+|debug|randBW(256) = 132
+|-damage|p2a: Flareon|156\/333
+|debug|randBW(256) = 125
+|
+|turn|31
+|
+|switch|p1a: K.Gavin|Wartortle|228\/321 par
+|move|p2a: Flareon|Fire Blast|p1a: K.Gavin
+|debug|randBW(256) = 43
+|-resisted|p1a: K.Gavin
+|-damage|p1a: K.Gavin|129\/321 par
+|debug|randBW(256) = 199
+|
+|turn|32
+|
+|move|p2a: Flareon|Hyper Beam|p1a: K.Gavin
+|debug|randBW(256) = 87
+|-damage|p1a: K.Gavin|0 fnt
+|faint|p1a: K.Gavin
+|
+|switch|p1a: Miles.E|Rhyhorn|330\/363 par
+|turn|33
+|c|★Vbombman|the mind games are real
+|
+|switch|p2a: Parasect|Parasect|145\/323 par
+|debug|randBW(4) = 3
+|move|p1a: Miles.E|Rock Slide|p2a: Parasect
+|debug|randBW(256) = 217
+|-supereffective|p2a: Parasect
+|-damage|p2a: Parasect|0 fnt
+|faint|p2a: Parasect
+|
+|switch|p2a: Slowpoke|Slowpoke|48\/383
+|turn|34
+|
+|switch|p1a: A.Sykes|Abra|253\/253
+|move|p2a: Slowpoke|Rest|p2a: Slowpoke
+|-status|p2a: Slowpoke|slp
+|debug|randBW(1, 7) = 1
+|-heal|p2a: Slowpoke|383\/383 slp|[silent]
+|-status|p2a: Slowpoke|slp|[from] move: Rest
+|
+|turn|35
+|
+|switch|p1a: D.Gunkshoe|Muk|149\/413
+|cant|p2a: Slowpoke|slp
+|debug|p2: Slowpoke move interrupted; movedThisTurn: undefined
+|
+|turn|36
+|
+|switch|p2a: Scyther|Scyther|343\/343 slp
+|move|p1a: D.Gunkshoe|Body Slam|p2a: Scyther
+|debug|randBW(256) = 205
+|-damage|p2a: Scyther|266\/343 slp
+|debug|randBW(256) = 228
+|
+|turn|37
+|
+|switch|p2a: Flareon|Flareon|156\/333
+|switch|p1a: Miles.E|Rhyhorn|330\/363 par
+|
+|turn|38
+|
+|switch|p2a: Slowpoke|Slowpoke|383\/383 slp
+|debug|randBW(4) = 1
+|move|p1a: Miles.E|Earthquake|p2a: Slowpoke
+|debug|randBW(256) = 14
+|-damage|p2a: Slowpoke|233\/383 slp
+|
+|turn|39
+|
+|cant|p2a: Slowpoke|slp
+|debug|p2: Slowpoke move interrupted; movedThisTurn: undefined
+|-curestatus|p2a: Slowpoke|slp
+|debug|randBW(4) = 0
+|cant|p1a: Miles.E|par
+|debug|p1: Miles.E move interrupted; movedThisTurn: undefined
+|
+|turn|40
+|
+|switch|p1a: N.Moe|Parasect|306\/323 par
+|move|p2a: Slowpoke|Thunder Wave|p1a: N.Moe
+|debug|randBW(256) = 215
+|-fail|p1a: N.Moe|par
+|
+|turn|41
+|
+|move|p2a: Slowpoke|Amnesia|p2a: Slowpoke
+|-boost|p2a: Slowpoke|spd|2
+|-boost|p2a: Slowpoke|spa|2
+|debug|randBW(4) = 0
+|cant|p1a: N.Moe|par
+|debug|p1: N.Moe move interrupted; movedThisTurn: undefined
+|
+|turn|42
+|
+|move|p2a: Slowpoke|Surf|p1a: N.Moe
+|debug|randBW(256) = 40
+|-resisted|p1a: N.Moe
+|-damage|p1a: N.Moe|226\/323 par
+|debug|randBW(4) = 3
+|move|p1a: N.Moe|Slash|p2a: Slowpoke
+|debug|randBW(256) = 80
+|-damage|p2a: Slowpoke|164\/383
+|
+|turn|43
+|
+|move|p2a: Slowpoke|Amnesia|p2a: Slowpoke
+|-boost|p2a: Slowpoke|spd|2
+|-boost|p2a: Slowpoke|spa|2
+|debug|randBW(4) = 1
+|move|p1a: N.Moe|Slash|p2a: Slowpoke
+|debug|randBW(256) = 36
+|-damage|p2a: Slowpoke|98\/383
+|
+|turn|44
+|
+|move|p2a: Slowpoke|Surf|p1a: N.Moe
+|debug|randBW(256) = 120
+|-resisted|p1a: N.Moe
+|-damage|p1a: N.Moe|110\/323 par
+|debug|randBW(4) = 3
+|move|p1a: N.Moe|Slash|p2a: Slowpoke
+|debug|randBW(256) = 246
+|-damage|p2a: Slowpoke|26\/383
+|
+|turn|45
+|
+|move|p2a: Slowpoke|Rest|p2a: Slowpoke
+|-status|p2a: Slowpoke|slp
+|debug|randBW(1, 7) = 5
+|-heal|p2a: Slowpoke|383\/383 slp|[silent]
+|-status|p2a: Slowpoke|slp|[from] move: Rest
+|debug|randBW(4) = 2
+|move|p1a: N.Moe|Slash|p2a: Slowpoke
+|debug|randBW(256) = 232
+|-damage|p2a: Slowpoke|312\/383 slp
+|
+|turn|46
+|c|★markus1000|i think the slash mechanics are fuked
+|c|★markus1000|its never criting
+|
+|cant|p2a: Slowpoke|slp
+|debug|p2: Slowpoke move interrupted; movedThisTurn: undefined
+|debug|randBW(4) = 1
+|move|p1a: N.Moe|Mega Drain|p2a: Slowpoke
+|debug|randBW(256) = 211
+|-supereffective|p2a: Slowpoke
+|-damage|p2a: Slowpoke|263\/383 slp
+|-heal|p1a: N.Moe|135\/323 par|[from] drain|[of] p2a: Slowpoke
+|
+|turn|47
+|
+|cant|p2a: Slowpoke|slp
+|debug|p2: Slowpoke move interrupted; movedThisTurn: undefined
+|-curestatus|p2a: Slowpoke|slp
+|debug|randBW(4) = 1
+|move|p1a: N.Moe|Slash|p2a: Slowpoke
+|debug|randBW(256) = 69
+|-damage|p2a: Slowpoke|194\/383
+|
+|turn|48
+|
+|move|p2a: Slowpoke|Surf|p1a: N.Moe
+|debug|randBW(256) = 254
+|-resisted|p1a: N.Moe
+|-damage|p1a: N.Moe|20\/323 par
+|debug|randBW(4) = 2
+|move|p1a: N.Moe|Slash|p2a: Slowpoke
+|debug|randBW(256) = 254
+|-damage|p2a: Slowpoke|125\/383
+|
+|turn|49
+|
+|move|p2a: Slowpoke|Rest|p2a: Slowpoke
+|-status|p2a: Slowpoke|slp
+|debug|randBW(1, 7) = 5
+|-heal|p2a: Slowpoke|383\/383 slp|[silent]
+|-status|p2a: Slowpoke|slp|[from] move: Rest
+|debug|randBW(4) = 2
+|move|p1a: N.Moe|Slash|p2a: Slowpoke
+|debug|randBW(256) = 161
+|-damage|p2a: Slowpoke|314\/383 slp
+|
+|turn|50
+|
+|cant|p2a: Slowpoke|slp
+|debug|p2: Slowpoke move interrupted; movedThisTurn: undefined
+|debug|randBW(4) = 0
+|cant|p1a: N.Moe|par
+|debug|p1: N.Moe move interrupted; movedThisTurn: undefined
+|
+|turn|51
+|
+|cant|p2a: Slowpoke|slp
+|debug|p2: Slowpoke move interrupted; movedThisTurn: undefined
+|-curestatus|p2a: Slowpoke|slp
+|debug|randBW(4) = 0
+|cant|p1a: N.Moe|par
+|debug|p1: N.Moe move interrupted; movedThisTurn: undefined
+|
+|turn|52
+|
+|move|p2a: Slowpoke|Surf|p1a: N.Moe
+|debug|randBW(256) = 202
+|-crit|p1a: N.Moe
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|-resisted|p1a: N.Moe
+|-damage|p1a: N.Moe|0 fnt
+|faint|p1a: N.Moe
+|
+|switch|p1a: D.Gunkshoe|Muk|149\/413
+|turn|53
+|
+|switch|p2a: Scyther|Scyther|266\/343 slp
+|move|p1a: D.Gunkshoe|Explosion|p2a: Scyther
+|debug|randBW(256) = 117
+|-damage|p2a: Scyther|0 fnt
+|faint|p2a: Scyther
+|faint|p1a: D.Gunkshoe
+|c|★Vbombman|good play
+|
+|switch|p1a: Sunshine.C|Electrode|323\/323 slp
+|switch|p2a: Slowpoke|Slowpoke|314\/383
+|turn|54
+|c|★Vbombman|may have won it for you
+|
+|cant|p1a: Sunshine.C|slp
+|debug|p1: Sunshine.C move interrupted; movedThisTurn: undefined
+|-curestatus|p1a: Sunshine.C|slp
+|move|p2a: Slowpoke|Surf|p1a: Sunshine.C
+|debug|randBW(256) = 211
+|-damage|p1a: Sunshine.C|247\/323
+|
+|turn|55
+|
+|switch|p2a: Rhyhorn|Rhyhorn|62\/363
+|move|p1a: Sunshine.C|Light Screen|p1a: Sunshine.C
+|
+|turn|56
+|
+|switch|p1a: Miles.E|Rhyhorn|330\/363 par
+|move|p2a: Rhyhorn|Earthquake|p1a: Miles.E
+|debug|randBW(256) = 158
+|-supereffective|p1a: Miles.E
+|-damage|p1a: Miles.E|112\/363 par
+|
+|turn|57
+|
+|move|p2a: Rhyhorn|Earthquake|p1a: Miles.E
+|debug|randBW(256) = 115
+|-supereffective|p1a: Miles.E
+|-damage|p1a: Miles.E|0 fnt
+|faint|p1a: Miles.E
+|
+|switch|p1a: A.Sykes|Abra|253\/253
+|turn|58
+|c|★markus1000|the flareon kll truned it around i think
+|c|★Vbombman|maybe
+|
+|switch|p2a: Slowpoke|Slowpoke|314\/383
+|move|p1a: A.Sykes|Psychic|p2a: Slowpoke
+|debug|randBW(256) = 142
+|-crit|p2a: Slowpoke
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|-resisted|p2a: Slowpoke
+|-damage|p2a: Slowpoke|142\/383
+|debug|randBW(256) = 129
+|
+|turn|59
+|c|★Vbombman|oh...
+|
+|move|p1a: A.Sykes|Seismic Toss|p2a: Slowpoke
+|debug|randBW(256) = 113
+|-damage|p2a: Slowpoke|42\/383
+|move|p2a: Slowpoke|Thunder Wave|p1a: A.Sykes
+|debug|randBW(256) = 201
+|-status|p1a: A.Sykes|par
+|
+|turn|60
+|
+|move|p2a: Slowpoke|Surf|p1a: A.Sykes
+|debug|randBW(256) = 195
+|-damage|p1a: A.Sykes|190\/253 par
+|debug|randBW(4) = 0
+|cant|p1a: A.Sykes|par
+|debug|p1: A.Sykes move interrupted; movedThisTurn: undefined
+|
+|turn|61
+|c|★Vbombman|dangerous play
+|c|★markus1000|the nfes dominated this battle
+|
+|move|p2a: Slowpoke|Surf|p1a: A.Sykes
+|debug|randBW(256) = 138
+|-damage|p1a: A.Sykes|128\/253 par
+|debug|randBW(4) = 1
+|move|p1a: A.Sykes|Seismic Toss|p2a: Slowpoke
+|debug|randBW(256) = 37
+|-damage|p2a: Slowpoke|0 fnt
+|faint|p2a: Slowpoke
+|
+|switch|p2a: Rhyhorn|Rhyhorn|62\/363
+|turn|62
+|
+|move|p2a: Rhyhorn|Earthquake|p1a: A.Sykes
+|debug|randBW(256) = 57
+|-crit|p1a: A.Sykes
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|-damage|p1a: A.Sykes|0 fnt
+|faint|p1a: A.Sykes
+|
+|switch|p1a: Sunshine.C|Electrode|247\/323
+|turn|63
+|
+|move|p1a: Sunshine.C|Explosion|p2a: Rhyhorn
+|debug|randBW(256) = 107
+|-resisted|p2a: Rhyhorn
+|-damage|p2a: Rhyhorn|0 fnt
+|faint|p2a: Rhyhorn
+|faint|p1a: Sunshine.C
+|
+|win|markus1000
+|c|★Vbombman|close close
+|c|★markus1000|i henuially thought thi was gonna be 6-0 to you at one point
+|c|★Vbombman|a well done match

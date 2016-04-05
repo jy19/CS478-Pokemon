@@ -1,0 +1,112 @@
+﻿|j|NialaFl
+|j|Abstrix
+|player|p1|NialaFl|70
+|player|p2|Abstrix|8
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|39130,24470,16513,6074
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Machoke|Machoke, L85|310\/310
+|switch|p2a: Shellder|Shellder, L96|252\/252
+|turn|1
+|choice|move 3|move 4
+|
+|move|p2a: Shellder|Surf|p1a: Machoke
+|-damage|p1a: Machoke|191\/310
+|move|p1a: Machoke|Body Slam|p2a: Shellder
+|-damage|p2a: Shellder|200\/252
+|-status|p2a: Shellder|par
+|
+|turn|2
+|choice|switch 6|move 4
+|
+|switch|p1a: Alakazam|Alakazam, L79|249\/249
+|cant|p2a: Shellder|par
+|
+|turn|3
+|choice|move 1|move 3
+|
+|move|p1a: Alakazam|Psychic|p2a: Shellder
+|-crit|p2a: Shellder
+|-damage|p2a: Shellder|0 fnt
+|faint|p2a: Shellder
+|choice||switch 4
+|
+|switch|p2a: Hypno|Hypno, L85|318\/318
+|turn|4
+|choice|switch 5|move 4
+|
+|switch|p1a: Cloyster|Cloyster, L83|253\/253
+|move|p2a: Hypno|Thunder Wave|p1a: Cloyster
+|-status|p1a: Cloyster|par
+|
+|turn|5
+|choice|move 4|move 1
+|
+|move|p2a: Hypno|Psychic|p1a: Cloyster
+|-damage|p1a: Cloyster|142\/253 par
+|-unboost|p1a: Cloyster|spd|1
+|-unboost|p1a: Cloyster|spa|1
+|cant|p1a: Cloyster|par
+|
+|turn|6
+|choice|move 4|move 1
+|
+|move|p2a: Hypno|Psychic|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|choice|switch 4|
+|
+|switch|p1a: Tauros|Tauros, L79|280\/280
+|turn|7
+|choice|move 1|move 2
+|
+|move|p1a: Tauros|Body Slam|p2a: Hypno
+|-damage|p2a: Hypno|232\/318
+|-status|p2a: Hypno|par
+|cant|p2a: Hypno|par
+|
+|turn|8
+|choice|move 3|move 4
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Hypno
+|-damage|p2a: Hypno|84\/318 par
+|move|p2a: Hypno|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|
+|turn|9
+|-mustrecharge|p1a: Tauros
+|-mustrecharge|p1a: Tauros
+|choice|move 1|move 2
+|
+|cant|p1a: Tauros|recharge
+|move|p2a: Hypno|Counter|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|choice|switch 3|
+|
+|switch|p1a: Wartortle|Wartortle, L85|274\/274
+|turn|10
+|choice|move 4|move 3
+|
+|move|p1a: Wartortle|Body Slam|p2a: Hypno
+|-damage|p2a: Hypno|28\/318 par
+|move|p2a: Hypno|Rest|p2a: Hypno
+|-status|p2a: Hypno|slp
+|-heal|p2a: Hypno|318\/318 slp|[silent]
+|-status|p2a: Hypno|slp|[from] move: Rest
+|
+|turn|11
+|-message|NialaFl forfeited.
+|
+|win|Abstrix
+|l|NialaFl
+|player|p1
+|raw|NialaFl's rating: 1065 &rarr; <strong>1044<\/strong><br \/>(-21 for losing)
+|raw|Abstrix's rating: 1047 &rarr; <strong>1082<\/strong><br \/>(+35 for winning)

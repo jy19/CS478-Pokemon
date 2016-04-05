@@ -1,0 +1,229 @@
+﻿|join|macca
+|join|The Underwhelmer
+|player|p1|macca|52
+|player|p2|The Underwhelmer|200
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|16720,63044,31535,3058
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Vaporeon|Vaporeon, L85|395\/395
+|switch|p2a: Kangaskhan|Kangaskhan, L85|352\/352
+|turn|1
+|choice|move 2|move 3
+|
+|move|p2a: Kangaskhan|Body Slam|p1a: Vaporeon
+|-damage|p1a: Vaporeon|284\/395
+|move|p1a: Vaporeon|Hydro Pump|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|147\/352
+|
+|turn|2
+|choice|move 2|switch 5
+|
+|switch|p2a: Parasect|Parasect, L90|291\/291
+|move|p1a: Vaporeon|Hydro Pump|p2a: Parasect
+|-resisted|p2a: Parasect
+|-damage|p2a: Parasect|224\/291
+|
+|turn|3
+|choice|move 3|move 3
+|
+|move|p1a: Vaporeon|Blizzard|p2a: Parasect
+|-supereffective|p2a: Parasect
+|-damage|p2a: Parasect|26\/291
+|move|p2a: Parasect|Spore|p1a: Vaporeon
+|-status|p1a: Vaporeon|slp
+|
+|turn|4
+|choice|switch 2|move 1
+|
+|switch|p1a: Victreebel|Victreebel, L85|310\/310
+|move|p2a: Parasect|Body Slam|p1a: Victreebel
+|-damage|p1a: Victreebel|234\/310
+|
+|turn|5
+|choice|move 4|move 1
+|
+|move|p1a: Victreebel|Body Slam|p2a: Parasect
+|-damage|p2a: Parasect|0 fnt
+|faint|p2a: Parasect
+|choice||switch 2
+|
+|switch|p2a: Haunter|Haunter, L85|250\/250
+|turn|6
+|choice|move 1|move 4
+|
+|move|p2a: Haunter|Psychic|p1a: Victreebel
+|-supereffective|p1a: Victreebel
+|-damage|p1a: Victreebel|93\/310
+|-unboost|p1a: Victreebel|spd|1
+|-unboost|p1a: Victreebel|spa|1
+|move|p1a: Victreebel|Razor Leaf|p2a: Haunter
+|-crit|p2a: Haunter
+|-resisted|p2a: Haunter
+|-damage|p2a: Haunter|202\/250
+|
+|turn|7
+|choice|switch 3|move 4
+|
+|switch|p1a: Parasect|Parasect, L90|291\/291
+|move|p2a: Haunter|Psychic|p1a: Parasect
+|-damage|p1a: Parasect|221\/291
+|
+|turn|8
+|choice|move 3|switch 3
+|
+|switch|p2a: Magneton|Magneton, L90|273\/273
+|move|p1a: Parasect|Stun Spore|p2a: Magneton
+|-status|p2a: Magneton|par
+|
+|turn|9
+|choice|move 1|move 4
+|
+|move|p1a: Parasect|Body Slam|p2a: Magneton
+|-damage|p2a: Magneton|216\/273 par
+|move|p2a: Magneton|Thunder Wave|p1a: Parasect
+|-status|p1a: Parasect|par
+|
+|turn|10
+|choice|switch 3|move 1
+|
+|switch|p1a: Victreebel|Victreebel, L85|93\/310
+|move|p2a: Magneton|Thunderbolt|p1a: Victreebel
+|-resisted|p1a: Victreebel
+|-damage|p1a: Victreebel|28\/310
+|
+|turn|11
+|choice|move 3|move 1
+|
+|move|p1a: Victreebel|Hyper Beam|p2a: Magneton
+|-damage|p2a: Magneton|120\/273 par
+|cant|p2a: Magneton|par
+|
+|turn|12
+|-mustrecharge|p1a: Victreebel
+|-mustrecharge|p1a: Victreebel
+|choice|move 1|move 1
+|
+|cant|p1a: Victreebel|recharge
+|move|p2a: Magneton|Thunderbolt|p1a: Victreebel
+|-resisted|p1a: Victreebel
+|-damage|p1a: Victreebel|0 fnt
+|faint|p1a: Victreebel
+|choice|switch 4|
+|
+|switch|p1a: Lickitung|Lickitung, L90|345\/345
+|turn|13
+|choice|move 1|move 4
+|
+|move|p1a: Lickitung|Swords Dance|p1a: Lickitung
+|-boost|p1a: Lickitung|atk|2
+|cant|p2a: Magneton|par
+|
+|turn|14
+|choice|move 2|move 4
+|
+|move|p1a: Lickitung|Earthquake|p2a: Magneton
+|-supereffective|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|faint|p2a: Magneton
+|choice||switch 5
+|
+|switch|p2a: Kangaskhan|Kangaskhan, L85|147\/352
+|turn|15
+|choice|move 3|move 3
+|
+|move|p2a: Kangaskhan|Body Slam|p1a: Lickitung
+|-damage|p1a: Lickitung|257\/345
+|move|p1a: Lickitung|Hyper Beam|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|faint|p2a: Kangaskhan
+|choice||switch 4
+|
+|switch|p2a: Kingler|Kingler, L85|267\/267
+|turn|16
+|choice|move 3|move 1
+|
+|move|p2a: Kingler|Crabhammer|p1a: Lickitung
+|-crit|p1a: Lickitung
+|-damage|p1a: Lickitung|110\/345
+|move|p1a: Lickitung|Hyper Beam|p2a: Kingler
+|-damage|p2a: Kingler|46\/267
+|
+|turn|17
+|-mustrecharge|p1a: Lickitung
+|-mustrecharge|p1a: Lickitung
+|choice|move 1|move 4
+|
+|move|p2a: Kingler|Hyper Beam|p1a: Lickitung
+|-damage|p1a: Lickitung|0 fnt
+|faint|p1a: Lickitung
+|choice|switch 6|
+|
+|switch|p1a: Jolteon|Jolteon, L79|265\/265
+|turn|18
+|choice|move 1|move 1
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Kingler
+|-supereffective|p2a: Kingler
+|-damage|p2a: Kingler|0 fnt
+|faint|p2a: Kingler
+|choice||switch 3
+|
+|switch|p2a: Haunter|Haunter, L85|202\/250
+|turn|19
+|choice|move 1|move 4
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Haunter
+|-crit|p2a: Haunter
+|-damage|p2a: Haunter|50\/250
+|move|p2a: Haunter|Psychic|p1a: Jolteon
+|-damage|p1a: Jolteon|200\/265
+|
+|turn|20
+|choice|move 1|move 3
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Haunter
+|-damage|p2a: Haunter|0 fnt
+|faint|p2a: Haunter
+|choice||switch 6
+|
+|switch|p2a: Mew|Mew, L74|300\/300
+|turn|21
+|choice|move 2|move 3
+|
+|move|p1a: Jolteon|Thunder Wave|p2a: Mew
+|-status|p2a: Mew|par
+|move|p2a: Mew|Hyper Beam|p1a: Jolteon
+|-damage|p1a: Jolteon|92\/265
+|
+|turn|22
+|-mustrecharge|p2a: Mew
+|-mustrecharge|p2a: Mew
+|choice|move 1|move 1
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Mew
+|-damage|p2a: Mew|194\/300 par
+|cant|p2a: Mew|recharge
+|
+|turn|23
+|choice|move 1|move 3
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Mew
+|-damage|p2a: Mew|98\/300 par
+|cant|p2a: Mew|par
+|
+|turn|24
+|choice|move 1|move 3
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Mew
+|-crit|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|win|macca

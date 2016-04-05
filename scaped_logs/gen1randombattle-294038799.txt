@@ -1,0 +1,230 @@
+﻿|join|MALESANI
+|join|The Diabolic Gift
+|player|p1|MALESANI|238
+|player|p2|The Diabolic Gift|265
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|41344,43608,28222,33153
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Psyduck|Psyduck, L96|291\/291
+|switch|p2a: Hitmonlee|Hitmonlee, L90|273\/273
+|turn|1
+|c|★The Diabolic Gift|gl hf
+|c|★MALESANI|same to you
+|choice|switch 5|move 4
+|
+|switch|p1a: Vileplume|Vileplume, L90|318\/318
+|move|p2a: Hitmonlee|High Jump Kick|p1a: Vileplume
+|-crit|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|205\/318
+|
+|turn|2
+|choice|move 1|move 3
+|
+|move|p2a: Hitmonlee|Substitute|p2a: Hitmonlee
+|-start|p2a: Hitmonlee|Substitute
+|-damage|p2a: Hitmonlee|205\/273
+|move|p1a: Vileplume|Body Slam|p2a: Hitmonlee
+|-end|p2a: Hitmonlee|Substitute
+|
+|turn|3
+|choice|move 1|switch 4
+|
+|switch|p2a: Charmeleon|Charmeleon, L85|272\/272
+|move|p1a: Vileplume|Body Slam|p2a: Charmeleon
+|-damage|p2a: Charmeleon|194\/272
+|-status|p2a: Charmeleon|par
+|
+|turn|4
+|choice|switch 5|move 3
+|
+|switch|p1a: Psyduck|Psyduck, L96|291\/291
+|move|p2a: Charmeleon|Fire Blast|p1a: Psyduck
+|-resisted|p1a: Psyduck
+|-damage|p1a: Psyduck|228\/291
+|-status|p1a: Psyduck|brn
+|
+|turn|5
+|choice|move 1|switch 4
+|
+|switch|p2a: Hitmonlee|Hitmonlee, L90|205\/273
+|move|p1a: Psyduck|Amnesia|p1a: Psyduck
+|-boost|p1a: Psyduck|spd|2
+|-boost|p1a: Psyduck|spa|2
+|-damage|p1a: Psyduck|210\/291 brn|[from] brn
+|
+|turn|6
+|choice|move 4|move 4
+|
+|move|p2a: Hitmonlee|High Jump Kick|p1a: Psyduck
+|-crit|p1a: Psyduck
+|-damage|p1a: Psyduck|0 fnt
+|faint|p1a: Psyduck
+|choice|switch 4|
+|
+|switch|p1a: Raichu|Raichu, L85|276\/276
+|turn|7
+|choice|move 3|switch 3
+|
+|switch|p2a: Onix|Onix, L90|246\/246
+|move|p1a: Raichu|Thunderbolt|p2a: Onix
+|-immune|p2a: Onix|[msg]
+|
+|turn|8
+|choice|move 1|move 1
+|
+|move|p1a: Raichu|Surf|p2a: Onix
+|-crit|p2a: Onix
+|-supereffective|p2a: Onix
+|-damage|p2a: Onix|0 fnt
+|faint|p2a: Onix
+|choice||switch 6
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|293\/293
+|turn|9
+|choice|move 4|move 1
+|
+|move|p1a: Raichu|Thunder Wave|p2a: Mewtwo
+|-status|p2a: Mewtwo|par
+|cant|p2a: Mewtwo|par
+|
+|turn|10
+|choice|switch 2|move 2
+|
+|switch|p1a: Pinsir|Pinsir, L85|284\/284
+|cant|p2a: Mewtwo|par
+|
+|turn|11
+|choice|move 3|move 2
+|
+|move|p1a: Pinsir|Body Slam|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|127\/293 par
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|
+|turn|12
+|choice|move 3|move 3
+|
+|move|p1a: Pinsir|Body Slam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|86\/293 par
+|cant|p2a: Mewtwo|par
+|
+|turn|13
+|choice|move 4|move 3
+|
+|move|p1a: Pinsir|Hyper Beam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|13\/293 par
+|move|p2a: Mewtwo|Rest|p2a: Mewtwo
+|-status|p2a: Mewtwo|slp
+|-heal|p2a: Mewtwo|293\/293 slp|[silent]
+|-status|p2a: Mewtwo|slp|[from] move: Rest
+|
+|turn|14
+|-mustrecharge|p1a: Pinsir
+|-mustrecharge|p1a: Pinsir
+|choice|move 1|move 2
+|
+|cant|p1a: Pinsir|recharge
+|cant|p2a: Mewtwo|slp
+|
+|turn|15
+|choice|move 2|move 2
+|
+|move|p1a: Pinsir|Swords Dance|p1a: Pinsir
+|-boost|p1a: Pinsir|atk|2
+|-curestatus|p2a: Mewtwo|slp
+|
+|turn|16
+|choice|move 3|move 1
+|
+|move|p1a: Pinsir|Body Slam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|204\/293
+|-status|p2a: Mewtwo|par
+|cant|p2a: Mewtwo|par
+|
+|turn|17
+|choice|move 2|move 1
+|
+|move|p1a: Pinsir|Swords Dance|p1a: Pinsir
+|-boost|p1a: Pinsir|atk|2
+|move|p2a: Mewtwo|Psychic|p1a: Pinsir
+|-damage|p1a: Pinsir|163\/284
+|-unboost|p1a: Pinsir|spd|1
+|-unboost|p1a: Pinsir|spa|1
+|
+|turn|18
+|c|★The Diabolic Gift|fuck u ;;
+|c|★MALESANI|haha
+|choice|move 3|switch 4
+|
+|switch|p2a: Charmeleon|Charmeleon, L85|194\/272 par
+|move|p1a: Pinsir|Body Slam|p2a: Charmeleon
+|-damage|p2a: Charmeleon|0 fnt
+|faint|p2a: Charmeleon
+|choice||switch 5
+|
+|switch|p2a: Golbat|Golbat, L90|318\/318
+|turn|19
+|choice|move 3|move 1
+|
+|move|p2a: Golbat|Hyper Beam|p1a: Pinsir
+|-damage|p1a: Pinsir|72\/284
+|move|p1a: Pinsir|Body Slam|p2a: Golbat
+|-damage|p2a: Golbat|81\/318
+|-status|p2a: Golbat|par
+|
+|turn|20
+|-mustrecharge|p2a: Golbat
+|-mustrecharge|p2a: Golbat
+|choice|move 3|move 1
+|
+|move|p1a: Pinsir|Body Slam|p2a: Golbat
+|-damage|p2a: Golbat|0 fnt
+|faint|p2a: Golbat
+|choice||switch 3
+|
+|switch|p2a: Hitmonlee|Hitmonlee, L90|205\/273
+|turn|21
+|choice|move 3|move 4
+|
+|move|p2a: Hitmonlee|High Jump Kick|p1a: Pinsir
+|-resisted|p1a: Pinsir
+|-damage|p1a: Pinsir|17\/284
+|move|p1a: Pinsir|Body Slam|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|0 fnt
+|faint|p2a: Hitmonlee
+|choice||switch 2
+|
+|switch|p2a: Porygon|Porygon, L85|284\/284
+|turn|22
+|choice|move 3|move 4
+|
+|move|p1a: Pinsir|Body Slam|p2a: Porygon
+|-damage|p2a: Porygon|33\/284
+|move|p2a: Porygon|Psychic|p1a: Pinsir
+|-damage|p1a: Pinsir|0 fnt
+|faint|p1a: Pinsir
+|choice|switch 3|
+|
+|switch|p1a: Kingler|Kingler, L85|267\/267
+|turn|23
+|choice|move 3|move 3
+|
+|move|p1a: Kingler|Body Slam|p2a: Porygon
+|-damage|p2a: Porygon|0 fnt
+|faint|p2a: Porygon
+|-message|The Diabolic Gift forfeited.
+|
+|win|MALESANI
+|leave|The Diabolic Gift
+|player|p2
+|raw|MALESANI's rating: 1316 &rarr; <strong>1330<\/strong><br \/>(+14 for winning)
+|raw|The Diabolic Gift's rating: 1213 &rarr; <strong>1195<\/strong><br \/>(-18 for losing)

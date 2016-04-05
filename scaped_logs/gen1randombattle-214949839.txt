@@ -1,0 +1,245 @@
+﻿|join|ChewCrakkaa
+|join|AceDuff
+|player|p1|ChewCrakkaa|169
+|player|p2|AceDuff|124
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Rattata|Rattata, L96|252\/252
+|switch|p2a: Oddish|Oddish, L96|281\/281
+|turn|1
+|
+|move|p1a: Rattata|Blizzard|p2a: Oddish
+|-crit|p2a: Oddish
+|-supereffective|p2a: Oddish
+|-damage|p2a: Oddish|57\/281
+|move|p2a: Oddish|Sleep Powder|p1a: Rattata
+|-status|p1a: Rattata|slp
+|
+|turn|2
+|
+|cant|p1a: Rattata|slp
+|move|p2a: Oddish|Mega Drain|p1a: Rattata
+|-damage|p1a: Rattata|171\/252 slp
+|-heal|p2a: Oddish|97\/281|[from] drain|[of] p1a: Rattata
+|
+|turn|3
+|
+|cant|p1a: Rattata|slp
+|move|p2a: Oddish|Mega Drain|p1a: Rattata
+|-damage|p1a: Rattata|95\/252 slp
+|-heal|p2a: Oddish|135\/281|[from] drain|[of] p1a: Rattata
+|
+|turn|4
+|
+|cant|p1a: Rattata|slp
+|-curestatus|p1a: Rattata|slp
+|move|p2a: Oddish|Double-Edge|p1a: Rattata
+|-damage|p1a: Rattata|4\/252
+|-damage|p2a: Oddish|113\/281|[from] recoil|[of] p1a: Rattata
+|
+|turn|5
+|
+|move|p1a: Rattata|Blizzard|p2a: Oddish
+|-supereffective|p2a: Oddish
+|-damage|p2a: Oddish|10\/281
+|move|p2a: Oddish|Mega Drain|p1a: Rattata
+|-damage|p1a: Rattata|0 fnt
+|-heal|p2a: Oddish|12\/281|[from] drain|[of] p1a: Rattata
+|faint|p1a: Rattata
+|
+|switch|p1a: Koffing|Koffing, L96|272\/272
+|turn|6
+|
+|move|p1a: Koffing|Sludge|p2a: Oddish
+|-damage|p2a: Oddish|0 fnt
+|faint|p2a: Oddish
+|
+|switch|p2a: Mr. Mime|Mr. Mime, L85|242\/242
+|turn|7
+|
+|move|p2a: Mr. Mime|Psychic|p1a: Koffing
+|-supereffective|p1a: Koffing
+|-damage|p1a: Koffing|54\/272
+|move|p1a: Koffing|Fire Blast|p2a: Mr. Mime|[miss]
+|-miss|p1a: Koffing
+|
+|turn|8
+|
+|move|p2a: Mr. Mime|Psychic|p1a: Koffing
+|-crit|p1a: Koffing
+|-supereffective|p1a: Koffing
+|-damage|p1a: Koffing|0 fnt
+|faint|p1a: Koffing
+|
+|switch|p1a: Golem|Golem, L79|288\/288
+|turn|9
+|
+|switch|p2a: Cloyster|Cloyster, L79|241\/241
+|move|p1a: Golem|Earthquake|p2a: Cloyster
+|-damage|p2a: Cloyster|175\/241
+|
+|turn|10
+|
+|move|p2a: Cloyster|Surf|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|0 fnt
+|faint|p1a: Golem
+|
+|switch|p1a: Ditto|Ditto, L99|296\/296
+|turn|11
+|
+|move|p1a: Ditto|Transform|p2a: Cloyster
+|-transform|p1a: Ditto|p2a: Cloyster
+|move|p2a: Cloyster|Toxic|p1a: Ditto
+|-status|p1a: Ditto|tox
+|
+|turn|12
+|
+|switch|p2a: Mr. Mime|Mr. Mime, L85|242\/242
+|move|p1a: Ditto|Toxic|p2a: Mr. Mime
+|-status|p2a: Mr. Mime|tox
+|-damage|p1a: Ditto|278\/296 tox|[from] tox|[of] p2a: Mr. Mime
+|
+|turn|13
+|
+|move|p2a: Mr. Mime|Thunderbolt|p1a: Ditto
+|-supereffective|p1a: Ditto
+|-damage|p1a: Ditto|129\/296 tox
+|-damage|p2a: Mr. Mime|227\/242 tox|[from] tox|[of] p1a: Ditto
+|move|p1a: Ditto|Surf|p2a: Mr. Mime
+|-crit|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|34\/242 tox
+|-damage|p1a: Ditto|93\/296 tox|[from] tox|[of] p2a: Mr. Mime
+|
+|turn|14
+|
+|move|p2a: Mr. Mime|Thunderbolt|p1a: Ditto
+|-supereffective|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|
+|switch|p1a: Jynx|Jynx, L79|265\/265
+|turn|15
+|
+|move|p2a: Mr. Mime|Thunder Wave|p1a: Jynx
+|-status|p1a: Jynx|par
+|-damage|p2a: Mr. Mime|4\/242 tox|[from] tox|[of] p1a: Jynx
+|move|p1a: Jynx|Psychic|p2a: Mr. Mime
+|-resisted|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|0 fnt
+|faint|p2a: Mr. Mime
+|
+|switch|p2a: Lickitung|Lickitung, L85|327\/327
+|turn|16
+|
+|move|p2a: Lickitung|Earthquake|p1a: Jynx
+|-damage|p1a: Jynx|172\/265 par
+|move|p1a: Jynx|Lovely Kiss|p2a: Lickitung
+|-status|p2a: Lickitung|slp
+|
+|turn|17
+|
+|cant|p2a: Lickitung|slp
+|cant|p1a: Jynx|par
+|
+|turn|18
+|
+|cant|p2a: Lickitung|slp
+|move|p1a: Jynx|Psychic|p2a: Lickitung
+|-damage|p2a: Lickitung|227\/327 slp
+|
+|turn|19
+|
+|cant|p2a: Lickitung|slp
+|move|p1a: Jynx|Psychic|p2a: Lickitung
+|-crit|p2a: Lickitung
+|-damage|p2a: Lickitung|30\/327 slp
+|
+|turn|20
+|
+|cant|p2a: Lickitung|slp
+|-curestatus|p2a: Lickitung|slp
+|move|p1a: Jynx|Mimic|p2a: Lickitung
+|-start|p1a: Jynx|Mimic|Body Slam
+|
+|turn|21
+|
+|move|p2a: Lickitung|Body Slam|p1a: Jynx
+|-damage|p1a: Jynx|59\/265 par
+|move|p1a: Jynx|Body Slam|p2a: Lickitung
+|-damage|p2a: Lickitung|0 fnt
+|faint|p2a: Lickitung
+|
+|switch|p2a: Fearow|Fearow, L85|284\/284
+|turn|22
+|
+|move|p2a: Fearow|Drill Peck|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|
+|switch|p1a: Mewtwo|Mewtwo, L68|285\/285
+|turn|23
+|
+|move|p2a: Fearow|Hyper Beam|p1a: Mewtwo
+|-damage|p1a: Mewtwo|99\/285
+|move|p1a: Mewtwo|Thunderbolt|p2a: Fearow
+|-supereffective|p2a: Fearow
+|-damage|p2a: Fearow|134\/284
+|
+|turn|24
+|
+|cant|p2a: Fearow|recharge
+|move|p1a: Mewtwo|Thunderbolt|p2a: Fearow
+|-supereffective|p2a: Fearow
+|-damage|p2a: Fearow|0 fnt
+|faint|p2a: Fearow
+|
+|switch|p2a: Cloyster|Cloyster, L79|175\/241
+|turn|25
+|
+|move|p1a: Mewtwo|Recover|p1a: Mewtwo
+|-heal|p1a: Mewtwo|241\/285
+|move|p2a: Cloyster|Toxic|p1a: Mewtwo
+|-status|p1a: Mewtwo|tox
+|
+|turn|26
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Cloyster
+|-crit|p2a: Cloyster
+|-supereffective|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p2a: Cloyster
+|
+|switch|p2a: Arbok|Arbok, L85|276\/276
+|turn|27
+|c|★AceDuff|god damn mewtwo
+|
+|move|p1a: Mewtwo|Psychic|p2a: Arbok
+|-supereffective|p2a: Arbok
+|-damage|p2a: Arbok|53\/276
+|-unboost|p2a: Arbok|spd|1
+|-unboost|p2a: Arbok|spa|1
+|-damage|p1a: Mewtwo|224\/285 tox|[from] tox|[of] p2a: Arbok
+|move|p2a: Arbok|Earthquake|p1a: Mewtwo
+|-damage|p1a: Mewtwo|147\/285 tox
+|
+|turn|28
+|
+|move|p1a: Mewtwo|Psychic|p2a: Arbok
+|-crit|p2a: Arbok
+|-supereffective|p2a: Arbok
+|-damage|p2a: Arbok|0 fnt
+|faint|p2a: Arbok
+|
+|win|ChewCrakkaa
+|raw|Ladder updating...
+|raw|ChewCrakkaa's rating: 1108 &rarr; <strong>1132<\/strong><br \/>(+24 for winning)
+|raw|AceDuff's rating: 1097 &rarr; <strong>1073<\/strong><br \/>(-24 for losing)
+|c|★AceDuff|gg

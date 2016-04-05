@@ -1,0 +1,664 @@
+﻿|join|PK Mastr
+|join|Ortheore
+|player|p1|PK Mastr|257
+|player|p2|Ortheore|80
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: NEBULA|Starmie|323\/323
+|switch|p2a: Alakazam|Alakazam|313\/313
+|turn|1
+|
+|switch|p1a: PU-TAI|Snorlax|523\/523
+|move|p2a: Alakazam|Thunder Wave|p1a: PU-TAI
+|-status|p1a: PU-TAI|par
+|
+|turn|2
+|
+|move|p2a: Alakazam|Psychic|p1a: PU-TAI
+|-damage|p1a: PU-TAI|359\/523 par
+|-unboost|p1a: PU-TAI|spd|1
+|-unboost|p1a: PU-TAI|spa|1
+|move|p1a: PU-TAI|Mega Kick|p2a: Alakazam
+|-damage|p2a: Alakazam|71\/313
+|
+|turn|3
+|
+|move|p2a: Alakazam|Psychic|p1a: PU-TAI
+|-damage|p1a: PU-TAI|89\/523 par
+|cant|p1a: PU-TAI|par
+|
+|turn|4
+|
+|move|p2a: Alakazam|Psychic|p1a: PU-TAI
+|-crit|p1a: PU-TAI
+|-damage|p1a: PU-TAI|0 fnt
+|faint|p1a: PU-TAI
+|
+|switch|p1a: E.S.P.|Alakazam|313\/313
+|turn|5
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|227\/313
+|move|p1a: E.S.P.|Seismic Toss|p2a: Alakazam
+|-damage|p2a: Alakazam|127\/313
+|
+|turn|6
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|283\/313
+|move|p1a: E.S.P.|Thunder Wave|p2a: Alakazam
+|-status|p2a: Alakazam|par
+|
+|turn|7
+|
+|move|p1a: E.S.P.|Seismic Toss|p2a: Alakazam
+|-damage|p2a: Alakazam|183\/313 par
+|move|p2a: Alakazam|Seismic Toss|p1a: E.S.P.
+|-damage|p1a: E.S.P.|213\/313
+|
+|turn|8
+|
+|move|p1a: E.S.P.|Seismic Toss|p2a: Alakazam
+|-damage|p2a: Alakazam|83\/313 par
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|239\/313 par
+|
+|turn|9
+|
+|move|p1a: E.S.P.|Seismic Toss|p2a: Alakazam
+|-damage|p2a: Alakazam|139\/313 par
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|295\/313 par
+|
+|turn|10
+|
+|move|p1a: E.S.P.|Seismic Toss|p2a: Alakazam
+|-damage|p2a: Alakazam|195\/313 par
+|move|p2a: Alakazam|Seismic Toss|p1a: E.S.P.
+|-damage|p1a: E.S.P.|113\/313
+|
+|turn|11
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: E.S.P.|Seismic Toss|p2a: Exeggutor
+|-damage|p2a: Exeggutor|293\/393
+|
+|turn|12
+|
+|move|p1a: E.S.P.|Thunder Wave|p2a: Exeggutor
+|-status|p2a: Exeggutor|par
+|move|p2a: Exeggutor|Sleep Powder|p1a: E.S.P.|[miss]
+|-miss|p2a: Exeggutor
+|
+|turn|13
+|
+|move|p1a: E.S.P.|Recover|p1a: E.S.P.
+|-heal|p1a: E.S.P.|269\/313
+|move|p2a: Exeggutor|Sleep Powder|p1a: E.S.P.
+|-status|p1a: E.S.P.|slp
+|
+|turn|14
+|
+|switch|p1a: NEBULA|Starmie|323\/323
+|move|p2a: Exeggutor|Stun Spore|p1a: NEBULA|[miss]
+|-miss|p2a: Exeggutor
+|
+|turn|15
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: NEBULA|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|612\/703
+|
+|turn|16
+|
+|switch|p1a: HADES|Gengar|323\/323
+|move|p2a: Chansey|Thunder Wave|p1a: HADES
+|-status|p1a: HADES|par
+|
+|turn|17
+|
+|switch|p2a: Alakazam|Alakazam|195\/313 par
+|cant|p1a: HADES|par
+|
+|turn|18
+|
+|move|p2a: Alakazam|Psychic|p1a: HADES
+|-supereffective|p1a: HADES
+|-damage|p1a: HADES|111\/323 par
+|move|p1a: HADES|Explosion|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|faint|p1a: HADES
+|
+|switch|p1a: ANUBIS|Dragonite|385\/385
+|switch|p2a: Chansey|Chansey|612\/703
+|turn|19
+|
+|move|p1a: ANUBIS|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|572\/703
+|-activate|p2a: Chansey|move: Wrap|[of] p1a: ANUBIS
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|20
+|
+|move|p1a: ANUBIS|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|532\/703
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|21
+|
+|move|p1a: ANUBIS|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|492\/703
+|cant|p2a: Chansey|partiallytrapped
+|
+|-end|p2a: Chansey|Wrap|[partiallytrapped]
+|turn|22
+|
+|move|p1a: ANUBIS|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|449\/703
+|-activate|p2a: Chansey|move: Wrap|[of] p1a: ANUBIS
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|23
+|
+|switch|p2a: Golem|Golem|363\/363
+|move|p1a: ANUBIS|Wrap|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|357\/363
+|-activate|p2a: Golem|move: Wrap|[of] p1a: ANUBIS
+|
+|turn|24
+|
+|switch|p1a: NEBULA|Starmie|323\/323
+|switch|p2a: Snorlax|Snorlax|523\/523
+|
+|turn|25
+|
+|switch|p2a: Chansey|Chansey|449\/703
+|move|p1a: NEBULA|Psychic|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|259\/703
+|
+|turn|26
+|
+|move|p1a: NEBULA|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|170\/703
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|521\/703
+|
+|turn|27
+|
+|move|p1a: NEBULA|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|425\/703
+|-status|p2a: Chansey|frz
+|cant|p2a: Chansey|frz
+|
+|turn|28
+|c|★PK Mastr|there we go
+|
+|move|p1a: NEBULA|Psychic|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|218\/703 frz
+|cant|p2a: Chansey|frz
+|
+|turn|29
+|
+|switch|p1a: E.S.P.|Alakazam|269\/313 slp
+|cant|p2a: Chansey|frz
+|
+|turn|30
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|cant|p1a: E.S.P.|slp
+|-curestatus|p1a: E.S.P.|slp
+|
+|turn|31
+|
+|switch|p2a: Exeggutor|Exeggutor|293\/393 par
+|move|p1a: E.S.P.|Thunder Wave|p2a: Exeggutor
+|-fail|p2a: Exeggutor|par
+|
+|turn|32
+|
+|move|p1a: E.S.P.|Seismic Toss|p2a: Exeggutor
+|-damage|p2a: Exeggutor|193\/393 par
+|move|p2a: Exeggutor|Sleep Powder|p1a: E.S.P.|[miss]
+|-miss|p2a: Exeggutor
+|
+|turn|33
+|
+|move|p1a: E.S.P.|Seismic Toss|p2a: Exeggutor
+|-damage|p2a: Exeggutor|93\/393 par
+|move|p2a: Exeggutor|Sleep Powder|p1a: E.S.P.
+|-status|p1a: E.S.P.|slp
+|
+|turn|34
+|c|★PK Mastr|one para aall in eed
+|
+|switch|p1a: NEBULA|Starmie|323\/323
+|switch|p2a: Tauros|Tauros|353\/353
+|
+|turn|35
+|
+|switch|p2a: Chansey|Chansey|218\/703 frz
+|move|p1a: NEBULA|Psychic|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|8\/703 frz
+|
+|turn|36
+|
+|switch|p1a: ANUBIS|Dragonite|385\/385
+|switch|p2a: Snorlax|Snorlax|523\/523
+|
+|turn|37
+|
+|move|p1a: ANUBIS|Wrap|p2a: Snorlax
+|-damage|p2a: Snorlax|503\/523
+|-activate|p2a: Snorlax|move: Wrap|[of] p1a: ANUBIS
+|cant|p2a: Snorlax|partiallytrapped
+|
+|turn|38
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|move|p1a: ANUBIS|Wrap|p2a: Tauros|[miss]
+|-miss|p1a: ANUBIS
+|
+|turn|39
+|
+|switch|p1a: NEBULA|Starmie|323\/323
+|move|p2a: Tauros|Body Slam|p1a: NEBULA
+|-damage|p1a: NEBULA|215\/323
+|-status|p1a: NEBULA|par
+|
+|turn|40
+|
+|switch|p2a: Chansey|Chansey|8\/703 frz
+|move|p1a: NEBULA|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|switch|p2a: Snorlax|Snorlax|503\/523
+|turn|41
+|
+|move|p2a: Snorlax|Body Slam|p1a: NEBULA
+|-damage|p1a: NEBULA|91\/323 par
+|move|p1a: NEBULA|Blizzard|p2a: Snorlax
+|-damage|p2a: Snorlax|379\/523
+|
+|turn|42
+|
+|move|p2a: Snorlax|Body Slam|p1a: NEBULA
+|-damage|p1a: NEBULA|0 fnt
+|faint|p1a: NEBULA
+|
+|switch|p1a: ANUBIS|Dragonite|385\/385
+|turn|43
+|
+|move|p1a: ANUBIS|Agility|p1a: ANUBIS
+|-boost|p1a: ANUBIS|spe|2
+|move|p2a: Snorlax|Body Slam|p1a: ANUBIS
+|-damage|p1a: ANUBIS|283\/385
+|
+|turn|44
+|
+|move|p1a: ANUBIS|Wrap|p2a: Snorlax
+|-damage|p2a: Snorlax|358\/523
+|-activate|p2a: Snorlax|move: Wrap|[of] p1a: ANUBIS
+|cant|p2a: Snorlax|partiallytrapped
+|
+|turn|45
+|
+|switch|p2a: Golem|Golem|357\/363
+|move|p1a: ANUBIS|Wrap|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|351\/363
+|-activate|p2a: Golem|move: Wrap|[of] p1a: ANUBIS
+|
+|turn|46
+|
+|switch|p2a: Snorlax|Snorlax|358\/523
+|move|p1a: ANUBIS|Wrap|p2a: Snorlax
+|-damage|p2a: Snorlax|338\/523
+|-activate|p2a: Snorlax|move: Wrap|[of] p1a: ANUBIS
+|
+|turn|47
+|
+|switch|p2a: Golem|Golem|351\/363
+|move|p1a: ANUBIS|Wrap|p2a: Golem|[miss]
+|-miss|p1a: ANUBIS
+|
+|turn|48
+|
+|switch|p2a: Snorlax|Snorlax|338\/523
+|move|p1a: ANUBIS|Blizzard|p2a: Snorlax
+|-damage|p2a: Snorlax|208\/523
+|
+|turn|49
+|
+|move|p1a: ANUBIS|Wrap|p2a: Snorlax
+|-damage|p2a: Snorlax|187\/523
+|-activate|p2a: Snorlax|move: Wrap|[of] p1a: ANUBIS
+|cant|p2a: Snorlax|partiallytrapped
+|
+|turn|50
+|
+|switch|p2a: Golem|Golem|351\/363
+|move|p1a: ANUBIS|Wrap|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|345\/363
+|-activate|p2a: Golem|move: Wrap|[of] p1a: ANUBIS
+|
+|turn|51
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|move|p1a: ANUBIS|Wrap|p2a: Tauros
+|-damage|p2a: Tauros|338\/353
+|-activate|p2a: Tauros|move: Wrap|[of] p1a: ANUBIS
+|
+|turn|52
+|
+|switch|p2a: Golem|Golem|345\/363
+|move|p1a: ANUBIS|Wrap|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|339\/363
+|-activate|p2a: Golem|move: Wrap|[of] p1a: ANUBIS
+|
+|turn|53
+|
+|switch|p2a: Exeggutor|Exeggutor|93\/393 par
+|move|p1a: ANUBIS|Wrap|p2a: Exeggutor
+|-damage|p2a: Exeggutor|76\/393 par
+|-activate|p2a: Exeggutor|move: Wrap|[of] p1a: ANUBIS
+|
+|turn|54
+|
+|switch|p2a: Tauros|Tauros|338\/353
+|move|p1a: ANUBIS|Wrap|p2a: Tauros
+|-damage|p2a: Tauros|323\/353
+|-activate|p2a: Tauros|move: Wrap|[of] p1a: ANUBIS
+|
+|turn|55
+|
+|switch|p2a: Golem|Golem|339\/363
+|move|p1a: ANUBIS|Wrap|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|333\/363
+|-activate|p2a: Golem|move: Wrap|[of] p1a: ANUBIS
+|
+|turn|56
+|
+|switch|p2a: Snorlax|Snorlax|187\/523
+|move|p1a: ANUBIS|Wrap|p2a: Snorlax
+|-damage|p2a: Snorlax|167\/523
+|-activate|p2a: Snorlax|move: Wrap|[of] p1a: ANUBIS
+|
+|turn|57
+|
+|switch|p2a: Exeggutor|Exeggutor|76\/393 par
+|move|p1a: ANUBIS|Wrap|p2a: Exeggutor|[miss]
+|-miss|p1a: ANUBIS
+|
+|turn|58
+|
+|move|p1a: ANUBIS|Blizzard|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Tauros|Tauros|323\/353
+|turn|59
+|
+|move|p1a: ANUBIS|Wrap|p2a: Tauros
+|-damage|p2a: Tauros|308\/353
+|-activate|p2a: Tauros|move: Wrap|[of] p1a: ANUBIS
+|cant|p2a: Tauros|partiallytrapped
+|
+|turn|60
+|
+|switch|p2a: Golem|Golem|333\/363
+|move|p1a: ANUBIS|Wrap|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|327\/363
+|-activate|p2a: Golem|move: Wrap|[of] p1a: ANUBIS
+|
+|turn|61
+|
+|switch|p2a: Tauros|Tauros|308\/353
+|move|p1a: ANUBIS|Wrap|p2a: Tauros
+|-damage|p2a: Tauros|294\/353
+|-activate|p2a: Tauros|move: Wrap|[of] p1a: ANUBIS
+|
+|turn|62
+|c|★PK Mastr|it rolled over
+|
+|switch|p2a: Golem|Golem|327\/363
+|move|p1a: ANUBIS|Wrap|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|321\/363
+|-activate|p2a: Golem|move: Wrap|[of] p1a: ANUBIS
+|
+|turn|63
+|c|★PK Mastr|63\/32
+|c|★Ortheore|if so then that's a glitch
+|c|★Ortheore|because you haven't used it that many times
+|c|★PK Mastr|no i have
+|c|★Ortheore|no I've been counting lol
+|c|★PK Mastr|so have i
+|c|★PK Mastr|lol
+|c|★PK Mastr|i think i got
+|c|★PK Mastr|61\/32 now
+|c|★PK Mastr|its ok, my streak will run out soon
+|
+|switch|p2a: Snorlax|Snorlax|167\/523
+|move|p1a: ANUBIS|Wrap|p2a: Snorlax
+|-damage|p2a: Snorlax|148\/523
+|-activate|p2a: Snorlax|move: Wrap|[of] p1a: ANUBIS
+|
+|turn|64
+|c|★PK Mastr|taking out 1 to 2 with wrap is asking much
+|c|★PK Mastr|so if you keep up the switch, your hoping i miss twice
+|c|★PK Mastr|switch in golem, and i hit it until i miss and get a free bliz
+|c|★PK Mastr|take your chances
+|c|★PK Mastr|the bull can ohko it
+|c|★PK Mastr|as can explosion
+|
+|switch|p2a: Golem|Golem|321\/363
+|move|p1a: ANUBIS|Wrap|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|315\/363
+|-activate|p2a: Golem|move: Wrap|[of] p1a: ANUBIS
+|
+|turn|65
+|
+|switch|p2a: Snorlax|Snorlax|148\/523
+|move|p1a: ANUBIS|Wrap|p2a: Snorlax
+|-damage|p2a: Snorlax|127\/523
+|-activate|p2a: Snorlax|move: Wrap|[of] p1a: ANUBIS
+|
+|turn|66
+|
+|switch|p2a: Golem|Golem|315\/363
+|move|p1a: ANUBIS|Wrap|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|309\/363
+|-activate|p2a: Golem|move: Wrap|[of] p1a: ANUBIS
+|
+|turn|67
+|
+|switch|p2a: Snorlax|Snorlax|127\/523
+|move|p1a: ANUBIS|Wrap|p2a: Snorlax
+|-damage|p2a: Snorlax|106\/523
+|-activate|p2a: Snorlax|move: Wrap|[of] p1a: ANUBIS
+|
+|turn|68
+|
+|switch|p2a: Golem|Golem|309\/363
+|move|p1a: ANUBIS|Wrap|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|303\/363
+|-activate|p2a: Golem|move: Wrap|[of] p1a: ANUBIS
+|
+|turn|69
+|
+|switch|p2a: Snorlax|Snorlax|106\/523
+|move|p1a: ANUBIS|Wrap|p2a: Snorlax
+|-damage|p2a: Snorlax|85\/523
+|-activate|p2a: Snorlax|move: Wrap|[of] p1a: ANUBIS
+|
+|turn|70
+|
+|switch|p2a: Golem|Golem|303\/363
+|move|p1a: ANUBIS|Wrap|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|297\/363
+|-activate|p2a: Golem|move: Wrap|[of] p1a: ANUBIS
+|
+|turn|71
+|
+|switch|p2a: Snorlax|Snorlax|85\/523
+|move|p1a: ANUBIS|Wrap|p2a: Snorlax
+|-damage|p2a: Snorlax|67\/523
+|-activate|p2a: Snorlax|move: Wrap|[of] p1a: ANUBIS
+|
+|turn|72
+|
+|move|p1a: ANUBIS|Wrap|p2a: Snorlax
+|-damage|p2a: Snorlax|49\/523
+|cant|p2a: Snorlax|partiallytrapped
+|
+|-end|p2a: Snorlax|Wrap|[partiallytrapped]
+|turn|73
+|c|★PK Mastr|sorry for being lame like this
+|
+|move|p1a: ANUBIS|Blizzard|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|switch|p2a: Tauros|Tauros|294\/353
+|turn|74
+|
+|move|p1a: ANUBIS|Wrap|p2a: Tauros
+|-damage|p2a: Tauros|280\/353
+|-activate|p2a: Tauros|move: Wrap|[of] p1a: ANUBIS
+|cant|p2a: Tauros|partiallytrapped
+|
+|turn|75
+|
+|move|p1a: ANUBIS|Wrap|p2a: Tauros
+|-damage|p2a: Tauros|266\/353
+|cant|p2a: Tauros|partiallytrapped
+|
+|turn|76
+|
+|move|p1a: ANUBIS|Wrap|p2a: Tauros
+|-damage|p2a: Tauros|252\/353
+|cant|p2a: Tauros|partiallytrapped
+|
+|-end|p2a: Tauros|Wrap|[partiallytrapped]
+|turn|77
+|
+|move|p1a: ANUBIS|Wrap|p2a: Tauros
+|-damage|p2a: Tauros|237\/353
+|-activate|p2a: Tauros|move: Wrap|[of] p1a: ANUBIS
+|cant|p2a: Tauros|partiallytrapped
+|
+|turn|78
+|c|★Ortheore|definitely an issue with the rollover
+|c|★PK Mastr|yeah
+|c|★PK Mastr|i would of been forced to eather blizz or h-beam
+|c|★Ortheore|you'd used just over 20 wraps when you said it rolled over
+|
+|move|p1a: ANUBIS|Wrap|p2a: Tauros
+|-damage|p2a: Tauros|222\/353
+|cant|p2a: Tauros|partiallytrapped
+|
+|-end|p2a: Tauros|Wrap|[partiallytrapped]
+|turn|79
+|c|★PK Mastr|lol yeah 41\/32
+|
+|move|p1a: ANUBIS|Wrap|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|192\/353
+|-activate|p2a: Tauros|move: Wrap|[of] p1a: ANUBIS
+|cant|p2a: Tauros|partiallytrapped
+|
+|turn|80
+|
+|switch|p2a: Golem|Golem|297\/363
+|move|p1a: ANUBIS|Wrap|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|291\/363
+|-activate|p2a: Golem|move: Wrap|[of] p1a: ANUBIS
+|
+|turn|81
+|
+|switch|p2a: Tauros|Tauros|192\/353
+|move|p1a: ANUBIS|Wrap|p2a: Tauros|[miss]
+|-miss|p1a: ANUBIS
+|
+|turn|82
+|c|★PK Mastr|stay with him
+|
+|move|p1a: ANUBIS|Blizzard|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|c|★PK Mastr|wow
+|
+|switch|p2a: Golem|Golem|291\/363
+|turn|83
+|c|★PK Mastr|i was planning to suicide
+|c|★PK Mastr|gg
+|
+|move|p1a: ANUBIS|Blizzard|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|7\/363
+|move|p2a: Golem|Rock Slide|p1a: ANUBIS
+|-crit|p1a: ANUBIS
+|-supereffective|p1a: ANUBIS
+|-damage|p1a: ANUBIS|0 fnt
+|faint|p1a: ANUBIS
+|c|★PK Mastr|and there is that crit
+|
+|switch|p1a: E.S.P.|Alakazam|269\/313 slp
+|turn|84
+|c|★PK Mastr|give you a chance
+|
+|cant|p1a: E.S.P.|slp
+|move|p2a: Golem|Earthquake|p1a: E.S.P.
+|-damage|p1a: E.S.P.|69\/313 slp
+|
+|turn|85
+|
+|cant|p1a: E.S.P.|slp
+|move|p2a: Golem|Earthquake|p1a: E.S.P.
+|-crit|p1a: E.S.P.
+|-damage|p1a: E.S.P.|0 fnt
+|faint|p1a: E.S.P.
+|
+|switch|p1a: TRIFORCE|Tauros|353\/353
+|turn|86
+|c|★PK Mastr|luckly thanks to the 1\/256 chance of miss
+|c|★PK Mastr|there is still as chance regardless
+|
+|move|p1a: TRIFORCE|Earthquake|p2a: Golem
+|-crit|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|
+|win|PK Mastr
+|raw|Ladder updating...
+|c|★PK Mastr|gg
+|raw|PK Mastr's rating: 1422 &rarr; <strong>1436<\/strong><br \/>(+14 for winning)
+|raw|Ortheore's rating: 1317 &rarr; <strong>1303<\/strong><br \/>(-14 for losing)

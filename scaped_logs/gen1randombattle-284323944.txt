@@ -1,0 +1,124 @@
+﻿|join|librarynoob
+|join|hxhch
+|player|p1|librarynoob|102
+|player|p2|hxhch|169
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Weezing|Weezing, L90|300\/300
+|switch|p2a: Zapdos|Zapdos, L79|304\/304
+|turn|1
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Weezing
+|-crit|p1a: Weezing
+|-damage|p1a: Weezing|91\/300
+|move|p1a: Weezing|Thunderbolt|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|185\/304
+|
+|turn|2
+|
+|switch|p1a: Muk|Muk, L90|372\/372
+|move|p2a: Zapdos|Thunderbolt|p1a: Muk
+|-crit|p1a: Muk
+|-damage|p1a: Muk|124\/372
+|
+|turn|3
+|
+|move|p2a: Zapdos|Agility|p2a: Zapdos
+|-boost|p2a: Zapdos|spe|2
+|move|p1a: Muk|Explosion|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|faint|p1a: Muk
+|
+|switch|p1a: Weezing|Weezing, L90|91\/300
+|switch|p2a: Snorlax|Snorlax, L79|415\/415
+|turn|4
+|
+|move|p1a: Weezing|Explosion|p2a: Snorlax
+|-damage|p2a: Snorlax|102\/415
+|faint|p1a: Weezing
+|
+|switch|p1a: Lickitung|Lickitung, L90|345\/345
+|turn|5
+|
+|move|p1a: Lickitung|Hyper Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|switch|p2a: Nidoran-M|Nidoran-M, L96|283\/283
+|turn|6
+|
+|move|p2a: Nidoran-M|Body Slam|p1a: Lickitung
+|-damage|p1a: Lickitung|283\/345
+|move|p1a: Lickitung|Swords Dance|p1a: Lickitung
+|-boost|p1a: Lickitung|atk|2
+|
+|turn|7
+|
+|move|p2a: Nidoran-M|Rest|p2a: Nidoran-M
+|-fail|p2a: Nidoran-M
+|move|p1a: Lickitung|Earthquake|p2a: Nidoran-M
+|-supereffective|p2a: Nidoran-M
+|-damage|p2a: Nidoran-M|0 fnt
+|faint|p2a: Nidoran-M
+|
+|switch|p2a: Dragonair|Dragonair, L85|277\/277
+|turn|8
+|
+|move|p2a: Dragonair|Blizzard|p1a: Lickitung|[miss]
+|-miss|p2a: Dragonair
+|move|p1a: Lickitung|Body Slam|p2a: Dragonair
+|-damage|p2a: Dragonair|88\/277
+|
+|turn|9
+|
+|move|p2a: Dragonair|Ice Beam|p1a: Lickitung
+|-damage|p1a: Lickitung|212\/345
+|move|p1a: Lickitung|Body Slam|p2a: Dragonair
+|-damage|p2a: Dragonair|0 fnt
+|faint|p2a: Dragonair
+|
+|switch|p2a: Primeape|Primeape, L90|300\/300
+|turn|10
+|
+|move|p2a: Primeape|Mega Kick|p1a: Lickitung
+|-damage|p1a: Lickitung|102\/345
+|move|p1a: Lickitung|Hyper Beam|p2a: Primeape
+|-damage|p2a: Primeape|0 fnt
+|faint|p2a: Primeape
+|
+|switch|p2a: Kabuto|Kabuto, L96|252\/252
+|turn|11
+|
+|move|p2a: Kabuto|Toxic|p1a: Lickitung
+|-status|p1a: Lickitung|tox
+|move|p1a: Lickitung|Earthquake|p2a: Kabuto
+|-supereffective|p2a: Kabuto
+|-damage|p2a: Kabuto|35\/252
+|-damage|p1a: Lickitung|81\/345 tox|[from] tox|[of] p2a: Kabuto
+|
+|turn|12
+|
+|move|p2a: Kabuto|Surf|p1a: Lickitung
+|-damage|p1a: Lickitung|0 fnt
+|faint|p1a: Lickitung
+|
+|switch|p1a: Zapdos|Zapdos, L79|304\/304
+|turn|13
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Kabuto
+|-supereffective|p2a: Kabuto
+|-damage|p2a: Kabuto|0 fnt
+|faint|p2a: Kabuto
+|
+|win|librarynoob
+|raw|librarynoob's rating: 1245 &rarr; <strong>1257<\/strong><br \/>(+12 for winning)
+|raw|hxhch's rating: 1040 &rarr; <strong>1032<\/strong><br \/>(-8 for losing)

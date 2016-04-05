@@ -1,0 +1,34 @@
+﻿|join|jynx2000
+|join|blacks r subhuman
+|player|p1|jynx2000|169
+|player|p2|blacks r subhuman|265
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|59290,44170,7939,21698
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Staryu|Staryu, L90|237\/237
+|switch|p2a: Metapod|Metapod, L99|300\/300
+|turn|1
+|choice|move 3|move 2
+|
+|move|p1a: Staryu|Surf|p2a: Metapod
+|-crit|p2a: Metapod
+|-damage|p2a: Metapod|4\/300
+|move|p2a: Metapod|String Shot|p1a: Staryu
+|-unboost|p1a: Staryu|spe|1
+|
+|turn|2
+|-message|Guest 127749 forfeited by changing their name.
+|player|p2|Guest 127749|265
+|
+|win|jynx2000
+|raw|jynx2000's rating: 1312 &rarr; <strong>1331<\/strong><br \/>(+19 for winning)
+|raw|blacksrsubhuman's rating: 1295 &rarr; <strong>1271<\/strong><br \/>(-24 for losing)
+|leave|jynx2000
+|player|p1

@@ -1,0 +1,265 @@
+﻿|join|Giju
+|join|Sylivian
+|player|p1|Giju|163
+|player|p2|Sylivian|265
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Exe|Exeggutor|393\/393
+|switch|p2a: Alakazam|Alakazam|313\/313
+|turn|1
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Exe
+|-damage|p1a: Exe|293\/393
+|move|p1a: Exe|Stun Spore|p2a: Alakazam
+|-status|p2a: Alakazam|par
+|
+|turn|2
+|
+|move|p1a: Exe|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|267\/313 par
+|move|p2a: Alakazam|Seismic Toss|p1a: Exe
+|-damage|p1a: Exe|193\/393
+|
+|turn|3
+|
+|move|p1a: Exe|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|218\/313 par
+|move|p2a: Alakazam|Seismic Toss|p1a: Exe
+|-damage|p1a: Exe|93\/393
+|
+|turn|4
+|
+|move|p1a: Exe|Hyper Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|51\/313 par
+|move|p2a: Alakazam|Seismic Toss|p1a: Exe
+|-damage|p1a: Exe|0 fnt
+|faint|p1a: Exe
+|
+|switch|p1a: Alak|Alakazam|313\/313
+|turn|5
+|
+|move|p1a: Alak|Seismic Toss|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|switch|p2a: Zapdos|Zapdos|383\/383
+|turn|6
+|
+|switch|p1a: Gol|Golem|363\/363
+|move|p2a: Zapdos|Thunder Wave|p1a: Gol
+|-immune|p1a: Gol|[msg]
+|
+|turn|7
+|
+|switch|p2a: Victreebel|Victreebel|363\/363
+|move|p1a: Gol|Body Slam|p2a: Victreebel
+|-damage|p2a: Victreebel|274\/363
+|
+|turn|8
+|
+|switch|p1a: Alak|Alakazam|313\/313
+|move|p2a: Victreebel|Swords Dance|p2a: Victreebel
+|-boost|p2a: Victreebel|atk|2
+|
+|turn|9
+|
+|move|p1a: Alak|Psychic|p2a: Victreebel
+|-supereffective|p2a: Victreebel
+|-damage|p2a: Victreebel|7\/363
+|move|p2a: Victreebel|Hyper Beam|p1a: Alak
+|-damage|p1a: Alak|0 fnt
+|faint|p1a: Alak
+|
+|switch|p1a: Tau|Tauros|353\/353
+|turn|10
+|
+|move|p1a: Tau|Body Slam|p2a: Victreebel
+|-damage|p2a: Victreebel|0 fnt
+|faint|p2a: Victreebel
+|
+|switch|p2a: Zapdos|Zapdos|383\/383
+|turn|11
+|
+|switch|p1a: Gol|Golem|363\/363
+|move|p2a: Zapdos|Thunder Wave|p1a: Gol
+|-immune|p1a: Gol|[msg]
+|
+|turn|12
+|
+|switch|p2a: Golem|Golem|363\/363
+|move|p1a: Gol|Body Slam|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|335\/363
+|-status|p2a: Golem|par
+|
+|turn|13
+|
+|move|p1a: Gol|Earthquake|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|124\/363 par
+|cant|p2a: Golem|par
+|
+|turn|14
+|
+|switch|p2a: Lapras|Lapras|463\/463
+|move|p1a: Gol|Earthquake|p2a: Lapras
+|-damage|p2a: Lapras|329\/463
+|
+|turn|15
+|
+|switch|p1a: Chan|Chansey|703\/703
+|move|p2a: Lapras|Confuse Ray|p1a: Chan
+|-start|p1a: Chan|confusion
+|
+|turn|16
+|
+|switch|p2a: Zapdos|Zapdos|383\/383
+|-activate|p1a: Chan|confusion
+|move|p1a: Chan|Thunder Wave|p2a: Zapdos
+|-status|p2a: Zapdos|par
+|
+|turn|17
+|
+|switch|p1a: Gol|Golem|363\/363
+|switch|p2a: Lapras|Lapras|329\/463
+|
+|turn|18
+|
+|move|p2a: Lapras|Ice Beam|p1a: Gol
+|-supereffective|p1a: Gol
+|-damage|p1a: Gol|60\/363
+|move|p1a: Gol|Rock Slide|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|104\/463
+|
+|turn|19
+|
+|switch|p1a: Chan|Chansey|703\/703
+|move|p2a: Lapras|Ice Beam|p1a: Chan
+|-damage|p1a: Chan|591\/703
+|
+|turn|20
+|
+|switch|p2a: Zapdos|Zapdos|383\/383 par
+|move|p1a: Chan|Thunderbolt|p2a: Zapdos
+|-damage|p2a: Zapdos|316\/383 par
+|
+|turn|21
+|
+|move|p1a: Chan|Ice Beam|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|190\/383 par
+|move|p2a: Zapdos|Drill Peck|p1a: Chan
+|-damage|p1a: Chan|340\/703
+|
+|turn|22
+|
+|move|p1a: Chan|Ice Beam|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|53\/383 par
+|move|p2a: Zapdos|Thunder Wave|p1a: Chan
+|-status|p1a: Chan|par
+|
+|turn|23
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Chan
+|-damage|p1a: Chan|96\/703 par
+|cant|p1a: Chan|par
+|
+|turn|24
+|
+|switch|p1a: Gol|Golem|60\/363
+|cant|p2a: Zapdos|par
+|
+|turn|25
+|
+|switch|p2a: Golem|Golem|124\/363 par
+|move|p1a: Gol|Rock Slide|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|85\/363 par
+|
+|turn|26
+|
+|move|p1a: Gol|Earthquake|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|27
+|
+|switch|p1a: Chan|Chansey|96\/703 par
+|move|p2a: Tauros|Blizzard|p1a: Chan
+|-damage|p1a: Chan|21\/703 par
+|
+|turn|28
+|
+|move|p2a: Tauros|Body Slam|p1a: Chan
+|-damage|p1a: Chan|0 fnt
+|faint|p1a: Chan
+|
+|switch|p1a: Snor|Snorlax|523\/523
+|turn|29
+|
+|move|p2a: Tauros|Body Slam|p1a: Snor
+|-damage|p1a: Snor|384\/523
+|move|p1a: Snor|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|246\/353
+|
+|turn|30
+|
+|move|p2a: Tauros|Body Slam|p1a: Snor
+|-damage|p1a: Snor|258\/523
+|move|p1a: Snor|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|136\/353
+|
+|turn|31
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Snor
+|-damage|p1a: Snor|25\/523
+|move|p1a: Snor|Hyper Beam|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|c|★Sylivian|gg
+|
+|switch|p2a: Lapras|Lapras|104\/463
+|turn|32
+|
+|move|p2a: Lapras|Ice Beam|p1a: Snor
+|-damage|p1a: Snor|0 fnt
+|faint|p1a: Snor
+|c|★Giju|gg you
+|
+|switch|p1a: Tau|Tauros|353\/353
+|turn|33
+|
+|move|p1a: Tau|Body Slam|p2a: Lapras
+|-crit|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|
+|switch|p2a: Zapdos|Zapdos|53\/383 par
+|turn|34
+|
+|move|p1a: Tau|Body Slam|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|win|Giju
+|raw|Giju's rating: 1091 &rarr; <strong>1126<\/strong><br \/>(+35 for winning)
+|raw|Sylivian's rating: 1208 &rarr; <strong>1175<\/strong><br \/>(-33 for losing)
+|leave|Sylivian
+|player|p2

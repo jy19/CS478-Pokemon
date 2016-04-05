@@ -1,0 +1,289 @@
+﻿|join|Mandelbrot
+|join|joejoejoe15
+|player|p1|Mandelbrot|101
+|player|p2|joejoejoe15|267
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Dodrio|Dodrio, L85|276\/276
+|switch|p2a: Nidoqueen|Nidoqueen, L85|327\/327
+|turn|1
+|
+|move|p1a: Dodrio|Body Slam|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|227\/327
+|move|p2a: Nidoqueen|Thunderbolt|p1a: Dodrio
+|-crit|p1a: Dodrio
+|-supereffective|p1a: Dodrio
+|-damage|p1a: Dodrio|0 fnt
+|faint|p1a: Dodrio
+|
+|switch|p1a: Kadabra|Kadabra, L85|242\/242
+|turn|2
+|
+|move|p1a: Kadabra|Psychic|p2a: Nidoqueen
+|-crit|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|0 fnt
+|faint|p2a: Nidoqueen
+|
+|switch|p2a: Persian|Persian, L79|265\/265
+|turn|3
+|
+|move|p1a: Kadabra|Thunder Wave|p2a: Persian
+|-status|p2a: Persian|par
+|move|p2a: Persian|Screech|p1a: Kadabra
+|-unboost|p1a: Kadabra|def|2
+|
+|turn|4
+|
+|switch|p1a: Flareon|Flareon, L90|300\/300
+|move|p2a: Persian|Slash|p1a: Flareon
+|-crit|p1a: Flareon
+|-damage|p1a: Flareon|174\/300
+|
+|turn|5
+|
+|move|p1a: Flareon|Body Slam|p2a: Persian
+|-damage|p2a: Persian|161\/265 par
+|move|p2a: Persian|Bubble Beam|p1a: Flareon
+|-supereffective|p1a: Flareon
+|-damage|p1a: Flareon|122\/300
+|
+|turn|6
+|
+|move|p1a: Flareon|Hyper Beam|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|faint|p2a: Persian
+|
+|switch|p2a: Seadra|Seadra, L90|282\/282
+|turn|7
+|
+|switch|p1a: Kadabra|Kadabra, L85|242\/242
+|move|p2a: Seadra|Surf|p1a: Kadabra
+|-damage|p1a: Kadabra|155\/242
+|
+|turn|8
+|
+|move|p1a: Kadabra|Thunder Wave|p2a: Seadra
+|-status|p2a: Seadra|par
+|cant|p2a: Seadra|par
+|
+|turn|9
+|
+|move|p1a: Kadabra|Reflect|p1a: Kadabra
+|-start|p1a: Kadabra|Reflect
+|move|p2a: Seadra|Hydro Pump|p1a: Kadabra
+|-damage|p1a: Kadabra|43\/242
+|
+|turn|10
+|
+|move|p1a: Kadabra|Recover|p1a: Kadabra
+|-heal|p1a: Kadabra|164\/242
+|move|p2a: Seadra|Surf|p1a: Kadabra
+|-damage|p1a: Kadabra|71\/242
+|
+|turn|11
+|
+|move|p1a: Kadabra|Recover|p1a: Kadabra
+|-heal|p1a: Kadabra|192\/242
+|move|p2a: Seadra|Hydro Pump|p1a: Kadabra|[miss]
+|-miss|p2a: Seadra
+|
+|turn|12
+|
+|move|p1a: Kadabra|Psychic|p2a: Seadra
+|-damage|p2a: Seadra|183\/282 par
+|move|p2a: Seadra|Hydro Pump|p1a: Kadabra
+|-crit|p1a: Kadabra
+|-damage|p1a: Kadabra|0 fnt
+|faint|p1a: Kadabra
+|
+|switch|p1a: Venonat|Venonat, L96|310\/310
+|turn|13
+|
+|switch|p1a: Seadra|Seadra, L90|282\/282
+|move|p2a: Seadra|Blizzard|p1a: Seadra
+|-resisted|p1a: Seadra
+|-damage|p1a: Seadra|237\/282
+|
+|turn|14
+|
+|move|p1a: Seadra|Smokescreen|p2a: Seadra
+|-unboost|p2a: Seadra|accuracy|1
+|move|p2a: Seadra|Smokescreen|p1a: Seadra|[miss]
+|-miss|p2a: Seadra
+|
+|turn|15
+|
+|move|p1a: Seadra|Smokescreen|p2a: Seadra
+|-unboost|p2a: Seadra|accuracy|1
+|cant|p2a: Seadra|par
+|
+|turn|16
+|
+|move|p1a: Seadra|Smokescreen|p2a: Seadra
+|-unboost|p2a: Seadra|accuracy|1
+|move|p2a: Seadra|Smokescreen|p1a: Seadra|[miss]
+|-miss|p2a: Seadra
+|
+|turn|17
+|
+|move|p1a: Seadra|Blizzard|p2a: Seadra
+|-resisted|p2a: Seadra
+|-damage|p2a: Seadra|144\/282 par
+|move|p2a: Seadra|Smokescreen|p1a: Seadra|[miss]
+|-miss|p2a: Seadra
+|
+|turn|18
+|
+|move|p1a: Seadra|Blizzard|p2a: Seadra
+|-resisted|p2a: Seadra
+|-damage|p2a: Seadra|104\/282 par
+|move|p2a: Seadra|Surf|p1a: Seadra
+|-resisted|p1a: Seadra
+|-damage|p1a: Seadra|186\/282
+|
+|turn|19
+|
+|move|p1a: Seadra|Blizzard|p2a: Seadra|[miss]
+|-miss|p1a: Seadra
+|cant|p2a: Seadra|par
+|
+|turn|20
+|
+|move|p1a: Seadra|Blizzard|p2a: Seadra
+|-resisted|p2a: Seadra
+|-damage|p2a: Seadra|59\/282 par
+|move|p2a: Seadra|Hydro Pump|p1a: Seadra|[miss]
+|-miss|p2a: Seadra
+|
+|turn|21
+|
+|move|p1a: Seadra|Blizzard|p2a: Seadra
+|-resisted|p2a: Seadra
+|-damage|p2a: Seadra|20\/282 par
+|move|p2a: Seadra|Surf|p1a: Seadra
+|-resisted|p1a: Seadra
+|-damage|p1a: Seadra|136\/282
+|
+|turn|22
+|
+|move|p1a: Seadra|Blizzard|p2a: Seadra
+|-crit|p2a: Seadra
+|-resisted|p2a: Seadra
+|-damage|p2a: Seadra|0 fnt
+|faint|p2a: Seadra
+|
+|switch|p2a: Electrode|Electrode, L90|291\/291
+|turn|23
+|
+|switch|p1a: Kakuna|Kakuna, L99|290\/290
+|move|p2a: Electrode|Thunder|p1a: Kakuna|[miss]
+|-miss|p2a: Electrode
+|
+|turn|24
+|
+|move|p2a: Electrode|Thunder Wave|p1a: Kakuna
+|-status|p1a: Kakuna|par
+|move|p1a: Kakuna|String Shot|p2a: Electrode
+|-unboost|p2a: Electrode|spe|1
+|
+|turn|25
+|
+|move|p2a: Electrode|Thunder|p1a: Kakuna
+|-damage|p1a: Kakuna|89\/290 par
+|cant|p1a: Kakuna|par
+|
+|turn|26
+|
+|move|p2a: Electrode|Thunder|p1a: Kakuna
+|-crit|p1a: Kakuna
+|-damage|p1a: Kakuna|0 fnt
+|faint|p1a: Kakuna
+|
+|switch|p1a: Venonat|Venonat, L96|310\/310
+|turn|27
+|
+|move|p2a: Electrode|Thunder Wave|p1a: Venonat
+|-status|p1a: Venonat|par
+|move|p1a: Venonat|Sleep Powder|p2a: Electrode
+|-status|p2a: Electrode|slp
+|
+|turn|28
+|
+|switch|p2a: Weedle|Weedle, L99|280\/280
+|move|p1a: Venonat|Psychic|p2a: Weedle
+|-crit|p2a: Weedle
+|-supereffective|p2a: Weedle
+|-damage|p2a: Weedle|0 fnt
+|faint|p2a: Weedle
+|
+|switch|p2a: Golem|Golem, L79|288\/288
+|turn|29
+|
+|switch|p1a: Flareon|Flareon, L90|122\/300
+|move|p2a: Golem|Earthquake|p1a: Flareon
+|-supereffective|p1a: Flareon
+|-damage|p1a: Flareon|0 fnt
+|faint|p1a: Flareon
+|
+|switch|p1a: Seadra|Seadra, L90|136\/282
+|turn|30
+|
+|move|p1a: Seadra|Hydro Pump|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|
+|switch|p2a: Electrode|Electrode, L90|291\/291 slp
+|turn|31
+|
+|cant|p2a: Electrode|slp
+|move|p1a: Seadra|Smokescreen|p2a: Electrode
+|-unboost|p2a: Electrode|accuracy|1
+|
+|turn|32
+|
+|cant|p2a: Electrode|slp
+|move|p1a: Seadra|Smokescreen|p2a: Electrode
+|-unboost|p2a: Electrode|accuracy|1
+|
+|turn|33
+|
+|cant|p2a: Electrode|slp
+|move|p1a: Seadra|Hydro Pump|p2a: Electrode
+|-damage|p2a: Electrode|138\/291 slp
+|
+|turn|34
+|
+|cant|p2a: Electrode|slp
+|move|p1a: Seadra|Hydro Pump|p2a: Electrode
+|-damage|p2a: Electrode|2\/291 slp
+|
+|turn|35
+|
+|-curestatus|p2a: Electrode|slp
+|move|p1a: Seadra|Blizzard|p2a: Electrode|[miss]
+|-miss|p1a: Seadra
+|
+|turn|36
+|
+|move|p2a: Electrode|Explosion|p1a: Seadra|[miss]
+|-miss|p2a: Electrode
+|faint|p2a: Electrode
+|
+|win|Mandelbrot
+|c|★joejoejoe15|LOL GG
+|c|★Mandelbrot|lol
+|c|★Mandelbrot|gg
+|c|★Mandelbrot|Gen 1 explosion miss
+|raw|Mandelbrot's rating: 1290 &rarr; <strong>1302<\/strong><br \/>(+12 for winning)
+|raw|joejoejoe15's rating: 1078 &rarr; <strong>1068<\/strong><br \/>(-10 for losing)
+|c|★Mandelbrot|Never seen that before
+|c|★joejoejoe15|Neither have I

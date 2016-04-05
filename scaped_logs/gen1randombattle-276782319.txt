@@ -1,0 +1,128 @@
+﻿|join|Clarinetno1
+|join|Disband
+|player|p1|Clarinetno1|170
+|player|p2|Disband|290
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Growlithe|Growlithe, L96|300\/300
+|switch|p2a: Starmie|Starmie, L79|257\/257
+|turn|1
+|c|★Disband|gg
+|
+|switch|p1a: Haunter|Haunter, L85|250\/250
+|move|p2a: Starmie|Thunder Wave|p1a: Haunter
+|-status|p1a: Haunter|par
+|
+|turn|2
+|
+|switch|p2a: Pidgeot|Pidgeot, L90|333\/333
+|move|p1a: Haunter|Hypnosis|p2a: Pidgeot
+|-status|p2a: Pidgeot|slp
+|
+|turn|3
+|c|★Disband|ez read
+|
+|switch|p2a: Tauros|Tauros, L79|280\/280
+|cant|p1a: Haunter|par
+|
+|turn|4
+|c|★Disband|lol
+|
+|switch|p1a: Machamp|Machamp, L90|345\/345
+|move|p2a: Tauros|Earthquake|p1a: Machamp
+|-crit|p1a: Machamp
+|-damage|p1a: Machamp|216\/345
+|
+|turn|5
+|c|★Disband|lol
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Machamp
+|-damage|p1a: Machamp|83\/345
+|move|p1a: Machamp|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|191\/280
+|
+|turn|6
+|-mustrecharge|p2a: Tauros
+|-mustrecharge|p2a: Tauros
+|
+|cant|p2a: Tauros|recharge
+|move|p1a: Machamp|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|105\/280
+|
+|turn|7
+|
+|switch|p1a: Pidgeot|Pidgeot, L90|333\/333
+|move|p2a: Tauros|Body Slam|p1a: Pidgeot
+|-damage|p1a: Pidgeot|250\/333
+|
+|turn|8
+|
+|move|p2a: Tauros|Blizzard|p1a: Pidgeot
+|-supereffective|p1a: Pidgeot
+|-damage|p1a: Pidgeot|109\/333
+|move|p1a: Pidgeot|Double-Edge|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|-damage|p1a: Pidgeot|83\/333|[from] recoil|[of] p2a: Tauros
+|faint|p2a: Tauros
+|
+|switch|p2a: Starmie|Starmie, L79|257\/257
+|turn|9
+|
+|switch|p1a: Haunter|Haunter, L85|250\/250 par
+|move|p2a: Starmie|Blizzard|p1a: Haunter
+|-damage|p1a: Haunter|189\/250 par
+|
+|turn|10
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Haunter
+|-damage|p1a: Haunter|140\/250 par
+|move|p1a: Haunter|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|104\/257
+|
+|turn|11
+|
+|switch|p2a: Magmar|Magmar, L90|300\/300
+|move|p1a: Haunter|Thunderbolt|p2a: Magmar
+|-damage|p2a: Magmar|222\/300
+|
+|turn|12
+|
+|switch|p1a: Sandslash|Sandslash, L85|301\/301
+|move|p2a: Magmar|Fire Blast|p1a: Sandslash
+|-crit|p1a: Sandslash
+|-damage|p1a: Sandslash|0 fnt
+|faint|p1a: Sandslash
+|c|★Disband|lol
+|
+|switch|p1a: Growlithe|Growlithe, L96|300\/300
+|turn|13
+|
+|move|p2a: Magmar|Body Slam|p1a: Growlithe
+|-crit|p1a: Growlithe
+|-damage|p1a: Growlithe|123\/300
+|-status|p1a: Growlithe|par
+|move|p1a: Growlithe|Body Slam|p2a: Magmar
+|-damage|p2a: Magmar|147\/300
+|
+|turn|14
+|c|★Disband|lol
+|
+|move|p2a: Magmar|Hyper Beam|p1a: Growlithe
+|-damage|p1a: Growlithe|0 fnt
+|faint|p1a: Growlithe
+|c|★Disband|lol
+|-message|Clarinetno1 forfeited.
+|
+|win|Disband
+|leave|Clarinetno1
+|player|p1
+|raw|Clarinetno1's rating: 1180 &rarr; <strong>1159<\/strong><br \/>(-21 for losing)
+|raw|Disband's rating: 1246 &rarr; <strong>1267<\/strong><br \/>(+21 for winning)

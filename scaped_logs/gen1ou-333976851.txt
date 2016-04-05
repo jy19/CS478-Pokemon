@@ -1,0 +1,135 @@
+﻿|j|Dazmi
+|j|Xak Charles
+|player|p1|Dazmi|65
+|player|p2|Xak Charles|124
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|seed|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Starmie|Starmie|100\/100
+|switch|p2a: Snorlax|Snorlax|100\/100
+|turn|1
+|choice||
+|
+|move|p1a: Starmie|Blizzard|p2a: Snorlax
+|-damage|p2a: Snorlax|76\/100
+|-status|p2a: Snorlax|frz
+|cant|p2a: Snorlax|frz
+|
+|turn|2
+|choice||
+|
+|switch|p1a: Golem|Golem|100\/100
+|switch|p2a: Starmie|Starmie|100\/100
+|
+|turn|3
+|choice||
+|
+|move|p2a: Starmie|Hydro Pump|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|0 fnt
+|faint|p1a: Golem
+|choice||
+|
+|switch|p1a: Starmie|Starmie|100\/100
+|turn|4
+|choice||
+|
+|move|p2a: Starmie|Thunder|p1a: Starmie|[miss]
+|-miss|p2a: Starmie
+|move|p1a: Starmie|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|50\/100
+|
+|turn|5
+|choice||
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|2\/100
+|move|p2a: Starmie|Thunder|p1a: Starmie|[miss]
+|-miss|p2a: Starmie
+|
+|turn|6
+|choice||
+|
+|switch|p2a: Rhydon|Rhydon|100\/100
+|move|p1a: Starmie|Thunderbolt|p2a: Rhydon
+|-immune|p2a: Rhydon|[msg]
+|
+|turn|7
+|choice||
+|
+|switch|p2a: Zapdos|Zapdos|100\/100
+|move|p1a: Starmie|Blizzard|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|13\/100
+|
+|turn|8
+|choice||
+|
+|move|p1a: Starmie|Psychic|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|choice||
+|
+|switch|p2a: Gengar|Gengar|100\/100
+|turn|9
+|choice||
+|
+|move|p1a: Starmie|Psychic|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|43\/100
+|move|p2a: Gengar|Confuse Ray|p1a: Starmie
+|-start|p1a: Starmie|confusion
+|
+|turn|10
+|choice||
+|
+|-activate|p1a: Starmie|confusion
+|move|p1a: Starmie|Psychic|p2a: Gengar
+|-crit|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|choice||
+|
+|switch|p2a: Snorlax|Snorlax|76\/100 frz
+|turn|11
+|choice||
+|
+|switch|p1a: Tauros|Tauros|100\/100
+|cant|p2a: Snorlax|frz
+|
+|turn|12
+|choice||
+|
+|move|p1a: Tauros|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|50\/100 frz
+|cant|p2a: Snorlax|frz
+|
+|turn|13
+|choice||
+|
+|move|p1a: Tauros|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|24\/100 frz
+|cant|p2a: Snorlax|frz
+|
+|turn|14
+|-message|Xak Charles forfeited.
+|
+|win|Dazmi
+|player|p1
+|player|p2
+|l|Xak Charles

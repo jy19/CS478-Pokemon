@@ -1,0 +1,480 @@
+﻿|join|TheCat905
+|join|eldougi
+|player|p1|TheCat905|220
+|player|p2|eldougi|1
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Seadra|Seadra, L90|282\/282
+|switch|p2a: Parasect|Parasect, L90|291\/291
+|turn|1
+|
+|switch|p1a: Dewgong|Dewgong, L85|327\/327
+|move|p2a: Parasect|Stun Spore|p1a: Dewgong|[miss]
+|-miss|p2a: Parasect
+|
+|turn|2
+|
+|switch|p2a: Starmie|Starmie, L79|257\/257
+|move|p1a: Dewgong|Blizzard|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|196\/257
+|
+|turn|3
+|
+|move|p2a: Starmie|Thunder Wave|p1a: Dewgong
+|-status|p1a: Dewgong|par
+|cant|p1a: Dewgong|par
+|
+|turn|4
+|
+|move|p2a: Starmie|Surf|p1a: Dewgong
+|-crit|p1a: Dewgong
+|-resisted|p1a: Dewgong
+|-damage|p1a: Dewgong|244\/327 par
+|move|p1a: Dewgong|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|137\/257
+|
+|turn|5
+|
+|switch|p1a: Exeggutor|Exeggutor, L79|312\/312
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|257\/257
+|
+|turn|6
+|
+|switch|p2a: Parasect|Parasect, L90|291\/291
+|move|p1a: Exeggutor|Mega Drain|p2a: Parasect
+|-resisted|p2a: Parasect
+|-damage|p2a: Parasect|281\/291
+|
+|turn|7
+|
+|switch|p1a: Zapdos|Zapdos, L79|304\/304
+|move|p2a: Parasect|Stun Spore|p1a: Zapdos
+|-status|p1a: Zapdos|par
+|
+|turn|8
+|
+|switch|p2a: Cubone|Cubone, L96|291\/291
+|move|p1a: Zapdos|Drill Peck|p2a: Cubone
+|-damage|p2a: Cubone|228\/291
+|
+|turn|9
+|
+|switch|p1a: Dewgong|Dewgong, L85|244\/327 par
+|move|p2a: Cubone|Body Slam|p1a: Dewgong
+|-damage|p1a: Dewgong|190\/327 par
+|
+|turn|10
+|
+|switch|p2a: Starmie|Starmie, L79|257\/257
+|cant|p1a: Dewgong|par
+|
+|turn|11
+|
+|move|p2a: Starmie|Blizzard|p1a: Dewgong
+|-resisted|p1a: Dewgong
+|-damage|p1a: Dewgong|174\/327 par
+|move|p1a: Dewgong|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|201\/257
+|
+|turn|12
+|
+|move|p2a: Starmie|Surf|p1a: Dewgong
+|-resisted|p1a: Dewgong
+|-damage|p1a: Dewgong|134\/327 par
+|move|p1a: Dewgong|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|150\/257
+|
+|turn|13
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|257\/257
+|move|p1a: Dewgong|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|199\/257
+|-status|p2a: Starmie|par
+|
+|turn|14
+|
+|switch|p1a: Exeggutor|Exeggutor, L79|312\/312
+|cant|p2a: Starmie|par
+|
+|turn|15
+|
+|switch|p2a: Parasect|Parasect, L90|281\/291
+|move|p1a: Exeggutor|Hyper Beam|p2a: Parasect
+|-damage|p2a: Parasect|184\/291
+|
+|turn|16
+|-mustrecharge|p1a: Exeggutor
+|-mustrecharge|p1a: Exeggutor
+|
+|cant|p1a: Exeggutor|recharge
+|move|p2a: Parasect|Stun Spore|p1a: Exeggutor
+|-status|p1a: Exeggutor|par
+|
+|turn|17
+|
+|switch|p2a: Magmar|Magmar, L90|300\/300
+|switch|p1a: Zapdos|Zapdos, L79|304\/304 par
+|
+|turn|18
+|
+|move|p2a: Magmar|Confuse Ray|p1a: Zapdos
+|-start|p1a: Zapdos|confusion
+|-activate|p1a: Zapdos|confusion
+|move|p1a: Zapdos|Thunder Wave|p2a: Magmar
+|-status|p2a: Magmar|par
+|
+|turn|19
+|
+|switch|p1a: Dewgong|Dewgong, L85|134\/327 par
+|move|p2a: Magmar|Body Slam|p1a: Dewgong
+|-damage|p1a: Dewgong|60\/327 par
+|
+|turn|20
+|
+|move|p2a: Magmar|Body Slam|p1a: Dewgong
+|-damage|p1a: Dewgong|0 fnt
+|faint|p1a: Dewgong
+|
+|switch|p1a: Seadra|Seadra, L90|282\/282
+|turn|21
+|
+|switch|p2a: Starmie|Starmie, L79|199\/257 par
+|move|p1a: Seadra|Smokescreen|p2a: Starmie
+|-unboost|p2a: Starmie|accuracy|1
+|
+|turn|22
+|
+|move|p1a: Seadra|Smokescreen|p2a: Starmie
+|-unboost|p2a: Starmie|accuracy|1
+|move|p2a: Starmie|Thunder Wave|p1a: Seadra|[miss]
+|-miss|p2a: Starmie
+|
+|turn|23
+|
+|move|p1a: Seadra|Smokescreen|p2a: Starmie
+|-unboost|p2a: Starmie|accuracy|1
+|cant|p2a: Starmie|par
+|
+|turn|24
+|
+|move|p1a: Seadra|Blizzard|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|154\/257 par
+|cant|p2a: Starmie|par
+|
+|turn|25
+|
+|move|p1a: Seadra|Surf|p2a: Starmie
+|-crit|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|53\/257 par
+|move|p2a: Starmie|Thunder Wave|p1a: Seadra
+|-status|p1a: Seadra|par
+|
+|turn|26
+|
+|move|p1a: Seadra|Surf|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|1\/257 par
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|129\/257 par
+|
+|turn|27
+|
+|move|p1a: Seadra|Surf|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|76\/257 par
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|204\/257 par
+|
+|turn|28
+|
+|switch|p1a: Exeggutor|Exeggutor, L79|312\/312 par
+|cant|p2a: Starmie|par
+|
+|turn|29
+|
+|switch|p1a: Seadra|Seadra, L90|282\/282 par
+|switch|p2a: Magmar|Magmar, L90|300\/300 par
+|
+|turn|30
+|
+|switch|p2a: Starmie|Starmie, L79|204\/257 par
+|cant|p1a: Seadra|par
+|
+|turn|31
+|
+|move|p2a: Starmie|Surf|p1a: Seadra
+|-crit|p1a: Seadra
+|-resisted|p1a: Seadra
+|-damage|p1a: Seadra|198\/282 par
+|move|p1a: Seadra|Smokescreen|p2a: Starmie
+|-unboost|p2a: Starmie|accuracy|1
+|
+|turn|32
+|
+|move|p1a: Seadra|Smokescreen|p2a: Starmie
+|-unboost|p2a: Starmie|accuracy|1
+|cant|p2a: Starmie|par
+|
+|turn|33
+|
+|move|p1a: Seadra|Surf|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|146\/257 par
+|move|p2a: Starmie|Blizzard|p1a: Seadra
+|-resisted|p1a: Seadra
+|-damage|p1a: Seadra|163\/282 par
+|
+|turn|34
+|
+|move|p1a: Seadra|Surf|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|87\/257 par
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|215\/257 par
+|
+|turn|35
+|
+|move|p1a: Seadra|Surf|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|162\/257 par
+|move|p2a: Starmie|Surf|p1a: Seadra
+|-resisted|p1a: Seadra
+|-damage|p1a: Seadra|122\/282 par
+|
+|turn|36
+|
+|cant|p1a: Seadra|par
+|move|p2a: Starmie|Surf|p1a: Seadra
+|-resisted|p1a: Seadra
+|-damage|p1a: Seadra|80\/282 par
+|
+|turn|37
+|
+|move|p1a: Seadra|Surf|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|110\/257 par
+|move|p2a: Starmie|Surf|p1a: Seadra
+|-crit|p1a: Seadra
+|-resisted|p1a: Seadra
+|-damage|p1a: Seadra|0 fnt
+|faint|p1a: Seadra
+|
+|switch|p1a: Zapdos|Zapdos, L79|304\/304 par
+|turn|38
+|
+|switch|p2a: Cubone|Cubone, L96|228\/291
+|cant|p1a: Zapdos|par
+|
+|turn|39
+|
+|move|p2a: Cubone|Blizzard|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|190\/304 par
+|cant|p1a: Zapdos|par
+|
+|turn|40
+|
+|switch|p1a: Exeggutor|Exeggutor, L79|312\/312 par
+|move|p2a: Cubone|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|192\/312 par
+|
+|turn|41
+|
+|switch|p2a: Magmar|Magmar, L90|300\/300 par
+|move|p1a: Exeggutor|Mega Drain|p2a: Magmar
+|-resisted|p2a: Magmar
+|-damage|p2a: Magmar|279\/300 par
+|-heal|p1a: Exeggutor|202\/312 par|[from] drain|[of] p2a: Magmar
+|
+|turn|42
+|
+|switch|p1a: Ditto|Ditto, L99|296\/296
+|move|p2a: Magmar|Confuse Ray|p1a: Ditto
+|-start|p1a: Ditto|confusion
+|
+|turn|43
+|
+|-activate|p1a: Ditto|confusion
+|move|p1a: Ditto|Transform|p2a: Magmar
+|-transform|p1a: Ditto|p2a: Magmar
+|move|p2a: Magmar|Body Slam|p1a: Ditto
+|-crit|p1a: Ditto
+|-damage|p1a: Ditto|138\/296
+|
+|turn|44
+|
+|-activate|p1a: Ditto|confusion
+|move|p1a: Ditto|Confuse Ray|p2a: Magmar
+|-start|p2a: Magmar|confusion
+|-activate|p2a: Magmar|confusion
+|move|p2a: Magmar|Body Slam|p1a: Ditto
+|-damage|p1a: Ditto|57\/296
+|-status|p1a: Ditto|par
+|
+|turn|45
+|
+|-activate|p2a: Magmar|confusion
+|-damage|p2a: Magmar|236\/300 par|[from] confusion
+|-end|p1a: Ditto|confusion
+|move|p1a: Ditto|Hyper Beam|p2a: Magmar
+|-damage|p2a: Magmar|129\/300 par
+|
+|turn|46
+|-mustrecharge|p1a: Ditto
+|-mustrecharge|p1a: Ditto
+|
+|cant|p2a: Magmar|par
+|cant|p1a: Ditto|recharge
+|
+|turn|47
+|
+|-end|p2a: Magmar|confusion
+|move|p2a: Magmar|Hyper Beam|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|
+|switch|p1a: Marowak|Marowak, L90|291\/291
+|turn|48
+|
+|move|p1a: Marowak|Body Slam|p2a: Magmar
+|-damage|p2a: Magmar|54\/300 par
+|move|p2a: Magmar|Confuse Ray|p1a: Marowak
+|-start|p1a: Marowak|confusion
+|
+|turn|49
+|
+|-activate|p1a: Marowak|confusion
+|-damage|p1a: Marowak|265\/291|[from] confusion
+|move|p2a: Magmar|Hyper Beam|p1a: Marowak
+|-damage|p1a: Marowak|174\/291
+|
+|turn|50
+|-mustrecharge|p2a: Magmar
+|-mustrecharge|p2a: Magmar
+|
+|-activate|p1a: Marowak|confusion
+|move|p1a: Marowak|Seismic Toss|p2a: Magmar
+|-damage|p2a: Magmar|0 fnt
+|faint|p2a: Magmar
+|
+|switch|p2a: Parasect|Parasect, L90|184\/291
+|turn|51
+|
+|-activate|p1a: Marowak|confusion
+|-damage|p1a: Marowak|148\/291|[from] confusion
+|move|p2a: Parasect|Stun Spore|p1a: Marowak
+|-status|p1a: Marowak|par
+|
+|turn|52
+|
+|switch|p2a: Cubone|Cubone, L96|228\/291
+|-end|p1a: Marowak|confusion
+|move|p1a: Marowak|Blizzard|p2a: Cubone|[miss]
+|-miss|p1a: Marowak
+|
+|turn|53
+|
+|move|p2a: Cubone|Blizzard|p1a: Marowak
+|-supereffective|p1a: Marowak
+|-damage|p1a: Marowak|0 fnt
+|faint|p1a: Marowak
+|
+|switch|p1a: Exeggutor|Exeggutor, L79|202\/312 par
+|turn|54
+|
+|switch|p2a: Rapidash|Rapidash, L90|300\/300
+|move|p1a: Exeggutor|Mega Drain|p2a: Rapidash
+|-resisted|p2a: Rapidash
+|-damage|p2a: Rapidash|278\/300
+|-heal|p1a: Exeggutor|213\/312 par|[from] drain|[of] p2a: Rapidash
+|
+|turn|55
+|
+|move|p2a: Rapidash|Fire Blast|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|1\/312 par
+|cant|p1a: Exeggutor|par
+|
+|turn|56
+|
+|move|p2a: Rapidash|Substitute|p2a: Rapidash
+|-start|p2a: Rapidash|Substitute
+|-damage|p2a: Rapidash|203\/300
+|move|p1a: Exeggutor|Explosion|p2a: Rapidash
+|-crit|p2a: Rapidash
+|-end|p2a: Rapidash|Substitute
+|
+|turn|57
+|
+|move|p2a: Rapidash|Fire Blast|p1a: Exeggutor|[miss]
+|-miss|p2a: Rapidash
+|cant|p1a: Exeggutor|par
+|
+|turn|58
+|c|★TheCat905|lol what just happend?
+|c|★eldougi|thats a f+++ng bug
+|c|★eldougi|somehow cant die when blowing up a substitute
+|c|★TheCat905|wierd
+|
+|switch|p2a: Haunter|Haunter, L85|250\/250
+|move|p1a: Exeggutor|Sleep Powder|p2a: Haunter
+|-status|p2a: Haunter|slp
+|
+|turn|59
+|
+|cant|p2a: Haunter|slp
+|-curestatus|p2a: Haunter|slp
+|move|p1a: Exeggutor|Mega Drain|p2a: Haunter
+|-resisted|p2a: Haunter
+|-damage|p2a: Haunter|229\/250
+|-heal|p1a: Exeggutor|11\/312 par|[from] drain|[of] p2a: Haunter
+|
+|turn|60
+|
+|move|p2a: Haunter|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Zapdos|Zapdos, L79|190\/304 par
+|turn|61
+|
+|move|p2a: Haunter|Psychic|p1a: Zapdos
+|-damage|p1a: Zapdos|132\/304 par
+|move|p1a: Zapdos|Drill Peck|p2a: Haunter
+|-damage|p2a: Haunter|119\/250
+|
+|turn|62
+|
+|move|p2a: Haunter|Psychic|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|8\/304 par
+|-unboost|p1a: Zapdos|spd|1
+|-unboost|p1a: Zapdos|spa|1
+|move|p1a: Zapdos|Drill Peck|p2a: Haunter
+|-damage|p2a: Haunter|19\/250
+|
+|turn|63
+|c|★TheCat905|gg
+|
+|move|p2a: Haunter|Explosion|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|faint|p2a: Haunter
+|
+|win|eldougi
+|raw|Ladder updating...
+|c|★eldougi|gg

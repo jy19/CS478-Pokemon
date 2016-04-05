@@ -1,0 +1,282 @@
+﻿|join|andrewandres
+|join|NaPaGiaMpanio
+|player|p1|andrewandres|266
+|player|p2|NaPaGiaMpanio|169
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Marowak|Marowak, L90|291\/291
+|switch|p2a: Wigglytuff|Wigglytuff, L90|435\/435
+|turn|1
+|
+|move|p2a: Wigglytuff|Blizzard|p1a: Marowak
+|-supereffective|p1a: Marowak
+|-damage|p1a: Marowak|121\/291
+|move|p1a: Marowak|Body Slam|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|354\/435
+|
+|turn|2
+|
+|move|p2a: Wigglytuff|Blizzard|p1a: Marowak
+|-supereffective|p1a: Marowak
+|-damage|p1a: Marowak|0 fnt
+|faint|p1a: Marowak
+|
+|switch|p1a: Articuno|Articuno, L79|304\/304
+|turn|3
+|
+|switch|p2a: Lapras|Lapras, L79|367\/367
+|move|p1a: Articuno|Blizzard|p2a: Lapras|[miss]
+|-miss|p1a: Articuno
+|
+|turn|4
+|
+|switch|p1a: Metapod|Metapod, L99|300\/300
+|move|p2a: Lapras|Confuse Ray|p1a: Metapod
+|-start|p1a: Metapod|confusion
+|
+|turn|5
+|
+|switch|p1a: Magneton|Magneton, L90|273\/273
+|move|p2a: Lapras|Blizzard|p1a: Magneton
+|-damage|p1a: Magneton|195\/273
+|
+|turn|6
+|
+|switch|p2a: Marowak|Marowak, L90|291\/291
+|move|p1a: Magneton|Thunderbolt|p2a: Marowak
+|-immune|p2a: Marowak|[msg]
+|
+|turn|7
+|
+|switch|p1a: Articuno|Articuno, L79|304\/304
+|switch|p2a: Lapras|Lapras, L79|367\/367
+|
+|turn|8
+|
+|switch|p1a: Metapod|Metapod, L99|300\/300
+|move|p2a: Lapras|Blizzard|p1a: Metapod
+|-damage|p1a: Metapod|139\/300
+|
+|turn|9
+|
+|move|p2a: Lapras|Blizzard|p1a: Metapod
+|-damage|p1a: Metapod|0 fnt
+|faint|p1a: Metapod
+|
+|switch|p1a: Gengar|Gengar, L79|257\/257
+|turn|10
+|
+|switch|p2a: Metapod|Metapod, L99|300\/300
+|move|p1a: Gengar|Hypnosis|p2a: Metapod|[miss]
+|-miss|p1a: Gengar
+|
+|turn|11
+|
+|move|p1a: Gengar|Psychic|p2a: Metapod
+|-damage|p2a: Metapod|187\/300
+|move|p2a: Metapod|String Shot|p1a: Gengar
+|-unboost|p1a: Gengar|spe|1
+|
+|turn|12
+|
+|switch|p2a: Charmeleon|Charmeleon, L85|272\/272
+|move|p1a: Gengar|Psychic|p2a: Charmeleon
+|-damage|p2a: Charmeleon|187\/272
+|-unboost|p2a: Charmeleon|spd|1
+|-unboost|p2a: Charmeleon|spa|1
+|
+|turn|13
+|
+|switch|p2a: Metapod|Metapod, L99|187\/300
+|switch|p1a: Magneton|Magneton, L90|195\/273
+|
+|turn|14
+|
+|switch|p2a: Marowak|Marowak, L90|291\/291
+|move|p1a: Magneton|Mimic|p2a: Marowak
+|-start|p1a: Magneton|Mimic|Blizzard
+|
+|turn|15
+|
+|switch|p2a: Metapod|Metapod, L99|187\/300
+|move|p1a: Magneton|Blizzard|p2a: Metapod
+|-damage|p2a: Metapod|0 fnt
+|faint|p2a: Metapod
+|
+|switch|p2a: Wigglytuff|Wigglytuff, L90|354\/435
+|turn|16
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|169\/435
+|move|p2a: Wigglytuff|Hyper Beam|p1a: Magneton
+|-damage|p1a: Magneton|70\/273
+|
+|turn|17
+|-mustrecharge|p2a: Wigglytuff
+|-mustrecharge|p2a: Wigglytuff
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|6\/435
+|cant|p2a: Wigglytuff|recharge
+|
+|turn|18
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|0 fnt
+|faint|p2a: Wigglytuff
+|
+|switch|p2a: Charmeleon|Charmeleon, L85|187\/272
+|turn|19
+|
+|switch|p1a: Gengar|Gengar, L79|257\/257
+|move|p2a: Charmeleon|Fire Blast|p1a: Gengar
+|-damage|p1a: Gengar|170\/257
+|
+|turn|20
+|
+|move|p1a: Gengar|Psychic|p2a: Charmeleon
+|-damage|p2a: Charmeleon|103\/272
+|move|p2a: Charmeleon|Fire Blast|p1a: Gengar
+|-damage|p1a: Gengar|83\/257
+|
+|turn|21
+|
+|move|p1a: Gengar|Psychic|p2a: Charmeleon
+|-damage|p2a: Charmeleon|21\/272
+|move|p2a: Charmeleon|Fire Blast|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|c|★andrewandres|my god..
+|
+|switch|p1a: Persian|Persian, L79|265\/265
+|turn|22
+|
+|move|p1a: Persian|Slash|p2a: Charmeleon
+|-crit|p2a: Charmeleon
+|-damage|p2a: Charmeleon|0 fnt
+|faint|p2a: Charmeleon
+|
+|switch|p2a: Lapras|Lapras, L79|367\/367
+|turn|23
+|
+|move|p1a: Persian|Thunderbolt|p2a: Lapras
+|-crit|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|181\/367
+|-status|p2a: Lapras|par
+|move|p2a: Lapras|Blizzard|p1a: Persian|[miss]
+|-miss|p2a: Lapras
+|
+|turn|24
+|
+|move|p1a: Persian|Slash|p2a: Lapras
+|-crit|p2a: Lapras
+|-damage|p2a: Lapras|55\/367 par
+|cant|p2a: Lapras|par
+|
+|turn|25
+|
+|move|p1a: Persian|Slash|p2a: Lapras
+|-crit|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|
+|switch|p2a: Marowak|Marowak, L90|291\/291
+|turn|26
+|
+|switch|p1a: Articuno|Articuno, L79|304\/304
+|switch|p2a: Jolteon|Jolteon, L79|265\/265
+|
+|turn|27
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Articuno
+|-crit|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|4\/304
+|move|p1a: Articuno|Blizzard|p2a: Jolteon
+|-damage|p2a: Jolteon|142\/265
+|
+|turn|28
+|
+|switch|p1a: Magneton|Magneton, L90|70\/273
+|move|p2a: Jolteon|Body Slam|p1a: Magneton
+|-damage|p1a: Magneton|30\/273
+|
+|turn|29
+|
+|move|p2a: Jolteon|Body Slam|p1a: Magneton
+|-damage|p1a: Magneton|0 fnt
+|faint|p1a: Magneton
+|
+|switch|p1a: Persian|Persian, L79|265\/265
+|turn|30
+|
+|switch|p2a: Marowak|Marowak, L90|291\/291
+|move|p1a: Persian|Slash|p2a: Marowak
+|-crit|p2a: Marowak
+|-damage|p2a: Marowak|212\/291
+|
+|turn|31
+|
+|move|p1a: Persian|Screech|p2a: Marowak
+|-unboost|p2a: Marowak|def|2
+|move|p2a: Marowak|Seismic Toss|p1a: Persian
+|-damage|p1a: Persian|175\/265
+|
+|turn|32
+|
+|move|p1a: Persian|Hyper Beam|p2a: Marowak
+|-damage|p2a: Marowak|33\/291
+|move|p2a: Marowak|Seismic Toss|p1a: Persian
+|-damage|p1a: Persian|85\/265
+|
+|turn|33
+|-mustrecharge|p1a: Persian
+|-mustrecharge|p1a: Persian
+|c|★andrewandres|mygod..
+|
+|cant|p1a: Persian|recharge
+|move|p2a: Marowak|Earthquake|p1a: Persian
+|-crit|p1a: Persian
+|-damage|p1a: Persian|0 fnt
+|faint|p1a: Persian
+|
+|switch|p1a: Articuno|Articuno, L79|4\/304
+|turn|34
+|
+|move|p1a: Articuno|Rest|p1a: Articuno
+|-status|p1a: Articuno|slp
+|-heal|p1a: Articuno|304\/304 slp|[silent]
+|-status|p1a: Articuno|slp|[from] move: Rest
+|move|p2a: Marowak|Seismic Toss|p1a: Articuno
+|-damage|p1a: Articuno|214\/304 slp
+|
+|turn|35
+|
+|cant|p1a: Articuno|slp
+|move|p2a: Marowak|Seismic Toss|p1a: Articuno
+|-damage|p1a: Articuno|124\/304 slp
+|
+|turn|36
+|c|★andrewandres|lucker.. god
+|
+|-curestatus|p1a: Articuno|slp
+|move|p2a: Marowak|Seismic Toss|p1a: Articuno
+|-damage|p1a: Articuno|34\/304
+|
+|turn|37
+|-message|andrewandres forfeited.
+|
+|win|NaPaGiaMpanio
+|leave|andrewandres
+|player|p1
+|raw|andrewandres's rating: 1388 &rarr; <strong>1364<\/strong><br \/>(-24 for losing)
+|raw|NaPaGiaMpanio's rating: 1317 &rarr; <strong>1341<\/strong><br \/>(+24 for winning)
+|c|★NaPaGiaMpanio|gg

@@ -1,0 +1,799 @@
+﻿|j|Sergy el Baron
+|j|Feena
+|player|p1|Sergy el Baron|238
+|player|p2|Feena|170
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|seed|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Barney|Slowbro|100\/100
+|switch|p2a: Medium|Alakazam|100\/100
+|turn|1
+|choice||
+|
+|switch|p2a: THC|Exeggutor|100\/100
+|move|p1a: Barney|Thunder Wave|p2a: THC
+|-status|p2a: THC|par
+|
+|turn|2
+|choice||
+|
+|move|p1a: Barney|Amnesia|p1a: Barney
+|-boost|p1a: Barney|spd|2
+|-boost|p1a: Barney|spa|2
+|cant|p2a: THC|par
+|
+|turn|3
+|choice||
+|
+|move|p1a: Barney|Amnesia|p1a: Barney
+|-boost|p1a: Barney|spd|2
+|-boost|p1a: Barney|spa|2
+|move|p2a: THC|Sleep Powder|p1a: Barney
+|-status|p1a: Barney|slp
+|
+|turn|4
+|choice||
+|
+|switch|p2a: Sparky|Tauros|100\/100
+|cant|p1a: Barney|slp
+|
+|turn|5
+|choice||
+|
+|move|p2a: Sparky|Body Slam|p1a: Barney
+|-damage|p1a: Barney|77\/100 slp
+|cant|p1a: Barney|slp
+|
+|turn|6
+|choice||
+|
+|move|p2a: Sparky|Body Slam|p1a: Barney
+|-crit|p1a: Barney
+|-damage|p1a: Barney|34\/100 slp
+|-curestatus|p1a: Barney|slp
+|
+|turn|7
+|choice||
+|
+|switch|p1a: Rhyno|Rhydon|100\/100
+|move|p2a: Sparky|Hyper Beam|p1a: Rhyno
+|-resisted|p1a: Rhyno
+|-damage|p1a: Rhyno|80\/100
+|
+|turn|8
+|-mustrecharge|p2a: Sparky
+|-mustrecharge|p2a: Sparky
+|choice||
+|
+|cant|p2a: Sparky|recharge
+|move|p1a: Rhyno|Substitute|p1a: Rhyno
+|-start|p1a: Rhyno|Substitute
+|-damage|p1a: Rhyno|55\/100
+|
+|turn|9
+|choice||
+|
+|switch|p2a: THC|Exeggutor|100\/100 par
+|move|p1a: Rhyno|Earthquake|p2a: THC
+|-resisted|p2a: THC
+|-damage|p2a: THC|81\/100 par
+|
+|turn|10
+|choice||
+|
+|move|p1a: Rhyno|Rock Slide|p2a: THC
+|-damage|p2a: THC|51\/100 par
+|move|p2a: THC|Sleep Powder|p1a: Rhyno
+|-status|p1a: Rhyno|slp
+|
+|turn|11
+|choice||
+|
+|switch|p1a: Barney|Slowbro|34\/100
+|move|p2a: THC|Mega Drain|p1a: Barney
+|-supereffective|p1a: Barney
+|-damage|p1a: Barney|1\/100
+|-heal|p2a: THC|67\/100 par|[from] drain|[of] p1a: Barney
+|
+|turn|12
+|choice||
+|
+|move|p1a: Barney|Rest|p1a: Barney
+|-status|p1a: Barney|slp
+|-heal|p1a: Barney|100\/100 slp|[silent]
+|-status|p1a: Barney|slp|[from] move: Rest
+|move|p2a: THC|Mega Drain|p1a: Barney
+|-supereffective|p1a: Barney
+|-damage|p1a: Barney|65\/100 slp
+|-heal|p2a: THC|85\/100 par|[from] drain|[of] p1a: Barney
+|
+|turn|13
+|choice||
+|
+|switch|p1a: Cocotero|Exeggutor|100\/100
+|move|p2a: THC|Mega Drain|p1a: Cocotero
+|-resisted|p1a: Cocotero
+|-damage|p1a: Cocotero|95\/100
+|-heal|p2a: THC|88\/100 par|[from] drain|[of] p1a: Cocotero
+|
+|turn|14
+|choice||
+|
+|move|p1a: Cocotero|Psychic|p2a: THC
+|-resisted|p2a: THC
+|-damage|p2a: THC|74\/100 par
+|-unboost|p2a: THC|spd|1
+|-unboost|p2a: THC|spa|1
+|move|p2a: THC|Psychic|p1a: Cocotero
+|-resisted|p1a: Cocotero
+|-damage|p1a: Cocotero|87\/100
+|
+|turn|15
+|choice||
+|
+|move|p1a: Cocotero|Psychic|p2a: THC
+|-resisted|p2a: THC
+|-damage|p2a: THC|54\/100 par
+|-unboost|p2a: THC|spd|1
+|-unboost|p2a: THC|spa|1
+|move|p2a: THC|Explosion|p1a: Cocotero
+|-damage|p1a: Cocotero|13\/100
+|faint|p2a: THC
+|choice||
+|
+|switch|p2a: Sparky|Tauros|100\/100
+|turn|16
+|choice||
+|
+|switch|p1a: Rhyno|Rhydon|55\/100 slp
+|move|p2a: Sparky|Body Slam|p1a: Rhyno
+|-crit|p1a: Rhyno
+|-resisted|p1a: Rhyno
+|-damage|p1a: Rhyno|36\/100 slp
+|
+|turn|17
+|choice||
+|
+|move|p2a: Sparky|Body Slam|p1a: Rhyno
+|-resisted|p1a: Rhyno
+|-damage|p1a: Rhyno|25\/100 slp
+|cant|p1a: Rhyno|slp
+|
+|turn|18
+|choice||
+|
+|move|p2a: Sparky|Earthquake|p1a: Rhyno
+|-supereffective|p1a: Rhyno
+|-damage|p1a: Rhyno|0 fnt
+|faint|p1a: Rhyno
+|choice||
+|
+|switch|p1a: Chispas|Jolteon|100\/100
+|turn|19
+|choice||
+|
+|switch|p2a: Medium|Alakazam|100\/100
+|move|p1a: Chispas|Thunder Wave|p2a: Medium
+|-status|p2a: Medium|par
+|
+|turn|20
+|choice||
+|
+|switch|p1a: Barney|Slowbro|65\/100 slp
+|move|p2a: Medium|Thunder Wave|p1a: Barney
+|-fail|p1a: Barney
+|
+|turn|21
+|choice||
+|
+|switch|p2a: Sparky|Tauros|100\/100
+|cant|p1a: Barney|slp
+|
+|turn|22
+|choice||
+|
+|move|p2a: Sparky|Earthquake|p1a: Barney
+|-damage|p1a: Barney|47\/100 slp
+|-curestatus|p1a: Barney|slp
+|
+|turn|23
+|choice||
+|
+|move|p2a: Sparky|Hyper Beam|p1a: Barney
+|-damage|p1a: Barney|3\/100
+|move|p1a: Barney|Thunder Wave|p2a: Sparky
+|-status|p2a: Sparky|par
+|
+|turn|24
+|-mustrecharge|p2a: Sparky
+|-mustrecharge|p2a: Sparky
+|choice||
+|
+|move|p1a: Barney|Rest|p1a: Barney
+|-status|p1a: Barney|slp
+|-heal|p1a: Barney|100\/100 slp|[silent]
+|-status|p1a: Barney|slp|[from] move: Rest
+|cant|p2a: Sparky|recharge
+|
+|turn|25
+|choice||
+|
+|cant|p1a: Barney|slp
+|move|p2a: Sparky|Body Slam|p1a: Barney
+|-damage|p1a: Barney|78\/100 slp
+|
+|turn|26
+|choice||
+|
+|switch|p2a: Nessy|Lapras|100\/100
+|-curestatus|p1a: Barney|slp
+|
+|turn|27
+|choice||
+|
+|move|p2a: Nessy|Sing|p1a: Barney|[miss]
+|-miss|p2a: Nessy
+|move|p1a: Barney|Thunder Wave|p2a: Nessy
+|-status|p2a: Nessy|par
+|
+|turn|28
+|choice||
+|
+|move|p1a: Barney|Amnesia|p1a: Barney
+|-boost|p1a: Barney|spd|2
+|-boost|p1a: Barney|spa|2
+|move|p2a: Nessy|Sing|p1a: Barney|[miss]
+|-miss|p2a: Nessy
+|
+|turn|29
+|choice||
+|
+|move|p1a: Barney|Amnesia|p1a: Barney
+|-boost|p1a: Barney|spd|2
+|-boost|p1a: Barney|spa|2
+|move|p2a: Nessy|Sing|p1a: Barney
+|-status|p1a: Barney|slp
+|
+|turn|30
+|choice||
+|
+|cant|p1a: Barney|slp
+|cant|p2a: Nessy|par
+|
+|turn|31
+|choice||
+|
+|cant|p1a: Barney|slp
+|move|p2a: Nessy|Confuse Ray|p1a: Barney
+|-start|p1a: Barney|confusion
+|
+|turn|32
+|choice||
+|
+|cant|p1a: Barney|slp
+|move|p2a: Nessy|Body Slam|p1a: Barney
+|-crit|p1a: Barney
+|-damage|p1a: Barney|51\/100 slp
+|
+|turn|33
+|choice||
+|
+|cant|p1a: Barney|slp
+|move|p2a: Nessy|Body Slam|p1a: Barney
+|-damage|p1a: Barney|36\/100 slp
+|
+|turn|34
+|choice||
+|
+|-curestatus|p1a: Barney|slp
+|move|p2a: Nessy|Sing|p1a: Barney|[miss]
+|-miss|p2a: Nessy
+|
+|turn|35
+|choice||
+|
+|-activate|p1a: Barney|confusion
+|-damage|p1a: Barney|29\/100|[from] confusion
+|move|p2a: Nessy|Sing|p1a: Barney
+|-status|p1a: Barney|slp
+|
+|turn|36
+|choice||
+|
+|switch|p2a: Medium|Alakazam|100\/100 par
+|cant|p1a: Barney|slp
+|
+|turn|37
+|choice||
+|
+|cant|p1a: Barney|slp
+|move|p2a: Medium|Seismic Toss|p1a: Barney
+|-damage|p1a: Barney|4\/100 slp
+|
+|turn|38
+|choice||
+|
+|-curestatus|p1a: Barney|slp
+|move|p2a: Medium|Psychic|p1a: Barney
+|-resisted|p1a: Barney
+|-damage|p1a: Barney|0 fnt
+|faint|p1a: Barney
+|choice||
+|
+|switch|p1a: Gordito|Snorlax|100\/100
+|turn|39
+|choice||
+|
+|move|p1a: Gordito|Amnesia|p1a: Gordito
+|-boost|p1a: Gordito|spd|2
+|-boost|p1a: Gordito|spa|2
+|move|p2a: Medium|Thunder Wave|p1a: Gordito
+|-status|p1a: Gordito|par
+|
+|turn|40
+|choice||
+|
+|switch|p2a: Chaos|Snorlax|100\/100
+|move|p1a: Gordito|Amnesia|p1a: Gordito
+|-boost|p1a: Gordito|spd|2
+|-boost|p1a: Gordito|spa|2
+|
+|turn|41
+|choice||
+|
+|move|p2a: Chaos|Amnesia|p2a: Chaos
+|-boost|p2a: Chaos|spd|2
+|-boost|p2a: Chaos|spa|2
+|cant|p1a: Gordito|par
+|
+|turn|42
+|choice||
+|
+|move|p2a: Chaos|Amnesia|p2a: Chaos
+|-boost|p2a: Chaos|spd|2
+|-boost|p2a: Chaos|spa|2
+|cant|p1a: Gordito|par
+|
+|turn|43
+|choice||
+|
+|move|p2a: Chaos|Amnesia|p2a: Chaos
+|-boost|p2a: Chaos|spd|2
+|-boost|p2a: Chaos|spa|2
+|move|p1a: Gordito|Amnesia|p1a: Gordito
+|-boost|p1a: Gordito|spd|2
+|-boost|p1a: Gordito|spa|2
+|
+|turn|44
+|choice||
+|
+|move|p2a: Chaos|Body Slam|p1a: Gordito
+|-damage|p1a: Gordito|74\/100 par
+|move|p1a: Gordito|Body Slam|p2a: Chaos
+|-damage|p2a: Chaos|76\/100
+|
+|turn|45
+|choice||
+|
+|move|p2a: Chaos|Body Slam|p1a: Gordito
+|-damage|p1a: Gordito|50\/100 par
+|move|p1a: Gordito|Body Slam|p2a: Chaos
+|-crit|p2a: Chaos
+|-damage|p2a: Chaos|27\/100
+|
+|turn|46
+|choice||
+|
+|move|p2a: Chaos|Rest|p2a: Chaos
+|-status|p2a: Chaos|slp
+|-heal|p2a: Chaos|100\/100 slp|[silent]
+|-status|p2a: Chaos|slp|[from] move: Rest
+|move|p1a: Gordito|Rest|p1a: Gordito
+|-status|p1a: Gordito|slp
+|-heal|p1a: Gordito|100\/100 slp|[silent]
+|-status|p1a: Gordito|slp|[from] move: Rest
+|
+|turn|47
+|choice||
+|
+|switch|p2a: Nessy|Lapras|100\/100 par
+|cant|p1a: Gordito|slp
+|
+|turn|48
+|choice||
+|
+|move|p2a: Nessy|Sing|p1a: Gordito
+|-fail|p1a: Gordito|slp
+|-curestatus|p1a: Gordito|slp
+|
+|turn|49
+|choice||
+|
+|move|p2a: Nessy|Sing|p1a: Gordito
+|-status|p1a: Gordito|slp
+|cant|p1a: Gordito|slp
+|
+|turn|50
+|choice||
+|
+|switch|p2a: Sparky|Tauros|100\/100 par
+|cant|p1a: Gordito|slp
+|
+|turn|51
+|choice||
+|
+|move|p2a: Sparky|Body Slam|p1a: Gordito
+|-crit|p1a: Gordito
+|-damage|p1a: Gordito|49\/100 slp
+|cant|p1a: Gordito|slp
+|
+|turn|52
+|choice||
+|
+|move|p2a: Sparky|Body Slam|p1a: Gordito
+|-crit|p1a: Gordito
+|-damage|p1a: Gordito|5\/100 slp
+|-curestatus|p1a: Gordito|slp
+|
+|turn|53
+|choice||
+|
+|cant|p2a: Sparky|par
+|move|p1a: Gordito|Rest|p1a: Gordito
+|-status|p1a: Gordito|slp
+|-heal|p1a: Gordito|100\/100 slp|[silent]
+|-status|p1a: Gordito|slp|[from] move: Rest
+|
+|turn|54
+|j|charizard reyiz
+|choice||
+|
+|cant|p2a: Sparky|par
+|cant|p1a: Gordito|slp
+|
+|turn|55
+|choice||
+|
+|switch|p2a: Nessy|Lapras|100\/100 par
+|-curestatus|p1a: Gordito|slp
+|
+|turn|56
+|choice||
+|
+|move|p2a: Nessy|Sing|p1a: Gordito
+|-status|p1a: Gordito|slp
+|-curestatus|p1a: Gordito|slp
+|
+|turn|57
+|choice||
+|
+|move|p2a: Nessy|Sing|p1a: Gordito
+|-status|p1a: Gordito|slp
+|cant|p1a: Gordito|slp
+|
+|turn|58
+|l|charizard reyiz
+|choice||
+|
+|switch|p2a: Sparky|Tauros|100\/100 par
+|cant|p1a: Gordito|slp
+|
+|turn|59
+|choice||
+|
+|move|p2a: Sparky|Body Slam|p1a: Gordito
+|-crit|p1a: Gordito
+|-damage|p1a: Gordito|48\/100 slp
+|-curestatus|p1a: Gordito|slp
+|
+|turn|60
+|choice||
+|
+|move|p2a: Sparky|Body Slam|p1a: Gordito
+|-damage|p1a: Gordito|24\/100
+|move|p1a: Gordito|Rest|p1a: Gordito
+|-status|p1a: Gordito|slp
+|-heal|p1a: Gordito|100\/100 slp|[silent]
+|-status|p1a: Gordito|slp|[from] move: Rest
+|
+|turn|61
+|choice||
+|
+|move|p2a: Sparky|Body Slam|p1a: Gordito
+|-damage|p1a: Gordito|75\/100 slp
+|cant|p1a: Gordito|slp
+|
+|turn|62
+|choice||
+|
+|switch|p2a: Nessy|Lapras|100\/100 par
+|-curestatus|p1a: Gordito|slp
+|
+|turn|63
+|choice||
+|
+|move|p2a: Nessy|Sing|p1a: Gordito|[miss]
+|-miss|p2a: Nessy
+|move|p1a: Gordito|Body Slam|p2a: Nessy
+|-damage|p2a: Nessy|72\/100 par
+|
+|turn|64
+|choice||
+|
+|switch|p1a: Cocotero|Exeggutor|13\/100
+|cant|p2a: Nessy|par
+|
+|turn|65
+|choice||
+|
+|switch|p2a: Medium|Alakazam|100\/100 par
+|move|p1a: Cocotero|Explosion|p2a: Medium
+|-damage|p2a: Medium|0 fnt
+|faint|p2a: Medium
+|faint|p1a: Cocotero
+|choice||
+|
+|switch|p1a: Chispas|Jolteon|100\/100
+|switch|p2a: Rydia|Chansey|100\/100
+|turn|66
+|choice||
+|
+|move|p1a: Chispas|Thunder Wave|p2a: Rydia
+|-status|p2a: Rydia|par
+|move|p2a: Rydia|Thunder Wave|p1a: Chispas
+|-status|p1a: Chispas|par
+|
+|turn|67
+|choice||
+|
+|switch|p1a: Gordito|Snorlax|75\/100
+|move|p2a: Rydia|Ice Beam|p1a: Gordito
+|-damage|p1a: Gordito|56\/100
+|
+|turn|68
+|choice||
+|
+|move|p1a: Gordito|Amnesia|p1a: Gordito
+|-boost|p1a: Gordito|spd|2
+|-boost|p1a: Gordito|spa|2
+|move|p2a: Rydia|Thunder Wave|p1a: Gordito
+|-status|p1a: Gordito|par
+|
+|turn|69
+|choice||
+|
+|switch|p2a: Nessy|Lapras|72\/100 par
+|cant|p1a: Gordito|par
+|
+|turn|70
+|choice||
+|
+|move|p2a: Nessy|Confuse Ray|p1a: Gordito
+|-start|p1a: Gordito|confusion
+|-activate|p1a: Gordito|confusion
+|move|p1a: Gordito|Amnesia|p1a: Gordito
+|-boost|p1a: Gordito|spd|2
+|-boost|p1a: Gordito|spa|2
+|
+|turn|71
+|choice||
+|
+|-activate|p1a: Gordito|confusion
+|-damage|p1a: Gordito|47\/100 par|[from] confusion
+|move|p2a: Nessy|Body Slam|p1a: Gordito
+|-crit|p1a: Gordito
+|-damage|p1a: Gordito|16\/100 par
+|
+|turn|72
+|choice||
+|
+|-activate|p1a: Gordito|confusion
+|cant|p1a: Gordito|par
+|cant|p2a: Nessy|par
+|
+|turn|73
+|choice||
+|
+|switch|p2a: Sparky|Tauros|100\/100 par
+|-end|p1a: Gordito|confusion
+|move|p1a: Gordito|Rest|p1a: Gordito
+|-status|p1a: Gordito|slp
+|-heal|p1a: Gordito|100\/100 slp|[silent]
+|-status|p1a: Gordito|slp|[from] move: Rest
+|
+|turn|74
+|choice||
+|
+|cant|p2a: Sparky|par
+|cant|p1a: Gordito|slp
+|
+|turn|75
+|choice||
+|
+|switch|p2a: Nessy|Lapras|72\/100 par
+|-curestatus|p1a: Gordito|slp
+|
+|turn|76
+|choice||
+|
+|move|p2a: Nessy|Sing|p1a: Gordito
+|-status|p1a: Gordito|slp
+|cant|p1a: Gordito|slp
+|
+|turn|77
+|choice||
+|
+|switch|p2a: Sparky|Tauros|100\/100 par
+|cant|p1a: Gordito|slp
+|
+|turn|78
+|choice||
+|
+|cant|p2a: Sparky|par
+|cant|p1a: Gordito|slp
+|
+|html|<div class="broadcast-red">Gordito is in an endless loop.<\/div>
+|turn|79
+|choice||
+|
+|move|p2a: Sparky|Body Slam|p1a: Gordito
+|-damage|p1a: Gordito|76\/100 slp
+|cant|p1a: Gordito|slp
+|
+|turn|80
+|choice||
+|
+|move|p2a: Sparky|Body Slam|p1a: Gordito
+|-crit|p1a: Gordito
+|-damage|p1a: Gordito|27\/100 slp
+|cant|p1a: Gordito|slp
+|
+|turn|81
+|choice||
+|
+|switch|p1a: Chorizord|Charizard|100\/100
+|move|p2a: Sparky|Hyper Beam|p1a: Chorizord
+|-crit|p1a: Chorizord
+|-damage|p1a: Chorizord|0 fnt
+|faint|p1a: Chorizord
+|c|★Sergy el Baron|stop hax
+|choice||
+|
+|switch|p1a: Chispas|Jolteon|100\/100 par
+|turn|82
+|choice||
+|
+|switch|p2a: Rydia|Chansey|100\/100 par
+|move|p1a: Chispas|Thunderbolt|p2a: Rydia
+|-damage|p2a: Rydia|83\/100 par
+|
+|turn|83
+|choice||
+|
+|switch|p1a: Gordito|Snorlax|27\/100 slp
+|move|p2a: Rydia|Ice Beam|p1a: Gordito
+|-damage|p1a: Gordito|7\/100 slp
+|
+|turn|84
+|choice||
+|
+|-curestatus|p1a: Gordito|slp
+|cant|p2a: Rydia|par
+|
+|turn|85
+|choice||
+|
+|switch|p2a: Nessy|Lapras|72\/100 par
+|move|p1a: Gordito|Rest|p1a: Gordito
+|-status|p1a: Gordito|slp
+|-heal|p1a: Gordito|100\/100 slp|[silent]
+|-status|p1a: Gordito|slp|[from] move: Rest
+|
+|turn|86
+|choice||
+|
+|cant|p1a: Gordito|slp
+|cant|p2a: Nessy|par
+|
+|turn|87
+|choice||
+|
+|-curestatus|p1a: Gordito|slp
+|move|p2a: Nessy|Sing|p1a: Gordito
+|-status|p1a: Gordito|slp
+|
+|turn|88
+|choice||
+|
+|cant|p1a: Gordito|slp
+|cant|p2a: Nessy|par
+|
+|turn|89
+|choice||
+|
+|cant|p1a: Gordito|slp
+|move|p2a: Nessy|Blizzard|p1a: Gordito
+|-damage|p1a: Gordito|66\/100 slp
+|
+|turn|90
+|choice||
+|
+|cant|p1a: Gordito|slp
+|move|p2a: Nessy|Blizzard|p1a: Gordito
+|-damage|p1a: Gordito|31\/100 slp
+|
+|turn|91
+|choice||
+|
+|cant|p1a: Gordito|slp
+|cant|p2a: Nessy|par
+|
+|turn|92
+|choice||
+|
+|cant|p1a: Gordito|slp
+|move|p2a: Nessy|Blizzard|p1a: Gordito
+|-damage|p1a: Gordito|0 fnt
+|faint|p1a: Gordito
+|choice||
+|
+|switch|p1a: Chispas|Jolteon|100\/100 par
+|turn|93
+|choice||
+|
+|move|p1a: Chispas|Thunderbolt|p2a: Nessy
+|-supereffective|p2a: Nessy
+|-damage|p2a: Nessy|22\/100 par
+|move|p2a: Nessy|Confuse Ray|p1a: Chispas
+|-start|p1a: Chispas|confusion
+|
+|turn|94
+|choice||
+|
+|-activate|p1a: Chispas|confusion
+|move|p1a: Chispas|Thunderbolt|p2a: Nessy
+|-supereffective|p2a: Nessy
+|-damage|p2a: Nessy|0 fnt
+|faint|p2a: Nessy
+|choice||
+|
+|switch|p2a: Sparky|Tauros|100\/100 par
+|turn|95
+|choice||
+|
+|-activate|p1a: Chispas|confusion
+|move|p1a: Chispas|Thunderbolt|p2a: Sparky
+|-damage|p2a: Sparky|58\/100 par
+|move|p2a: Sparky|Earthquake|p1a: Chispas
+|-supereffective|p1a: Chispas
+|-damage|p1a: Chispas|34\/100 par
+|
+|turn|96
+|choice||
+|
+|-activate|p1a: Chispas|confusion
+|move|p1a: Chispas|Thunderbolt|p2a: Sparky
+|-damage|p2a: Sparky|17\/100 par
+|move|p2a: Sparky|Earthquake|p1a: Chispas
+|-crit|p1a: Chispas
+|-supereffective|p1a: Chispas
+|-damage|p1a: Chispas|0 fnt
+|faint|p1a: Chispas
+|
+|win|Feena
+|player|p1
+|player|p2
+|raw|Sergy el Baron's rating: 1284 &rarr; <strong>1270<\/strong><br \/>(-14 for losing)
+|raw|Feena's rating: 1442 &rarr; <strong>1454<\/strong><br \/>(+12 for winning)
+|c|★Sergy el Baron|bg
+|l|Sergy el Baron

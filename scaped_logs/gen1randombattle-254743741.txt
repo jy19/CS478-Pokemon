@@ -1,0 +1,307 @@
+﻿|join|High Emperor MoMo
+|join|gen1masterrony
+|player|p1|High Emperor MoMo|145
+|player|p2|gen1masterrony|169
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Slowbro|Slowbro, L79|312\/312
+|switch|p2a: Seadra|Seadra, L90|282\/282
+|turn|1
+|
+|switch|p2a: Haunter|Haunter, L85|250\/250
+|move|p1a: Slowbro|Thunder Wave|p2a: Haunter
+|-status|p2a: Haunter|par
+|
+|turn|2
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|move|p2a: Haunter|Thunderbolt|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|227\/312
+|
+|turn|3
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|move|p2a: Haunter|Thunderbolt|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|167\/312
+|
+|turn|4
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|move|p2a: Haunter|Thunderbolt|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|123\/312
+|
+|turn|5
+|
+|move|p1a: Slowbro|Surf|p2a: Haunter
+|-damage|p2a: Haunter|10\/250 par
+|cant|p2a: Haunter|par
+|
+|turn|6
+|
+|move|p1a: Slowbro|Surf|p2a: Haunter
+|-damage|p2a: Haunter|0 fnt
+|faint|p2a: Haunter
+|
+|switch|p2a: Butterfree|Butterfree, L90|291\/291
+|turn|7
+|
+|move|p2a: Butterfree|Sleep Powder|p1a: Slowbro|[miss]
+|-miss|p2a: Butterfree
+|move|p1a: Slowbro|Thunder Wave|p2a: Butterfree
+|-status|p2a: Butterfree|par
+|
+|turn|8
+|
+|move|p1a: Slowbro|Rest|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|-heal|p1a: Slowbro|312\/312 slp|[silent]
+|-status|p1a: Slowbro|slp|[from] move: Rest
+|move|p2a: Butterfree|Sleep Powder|p1a: Slowbro
+|-fail|p1a: Slowbro|slp
+|
+|turn|9
+|
+|cant|p1a: Slowbro|slp
+|move|p2a: Butterfree|Sleep Powder|p1a: Slowbro
+|-fail|p1a: Slowbro|slp
+|
+|turn|10
+|
+|-curestatus|p1a: Slowbro|slp
+|cant|p2a: Butterfree|par
+|
+|turn|11
+|
+|move|p1a: Slowbro|Surf|p2a: Butterfree
+|-damage|p2a: Butterfree|0 fnt
+|faint|p2a: Butterfree
+|
+|switch|p2a: Kadabra|Kadabra, L85|242\/242
+|turn|12
+|
+|move|p2a: Kadabra|Thunder Wave|p1a: Slowbro
+|-status|p1a: Slowbro|par
+|cant|p1a: Slowbro|par
+|
+|turn|13
+|
+|move|p2a: Kadabra|Seismic Toss|p1a: Slowbro
+|-damage|p1a: Slowbro|227\/312 par
+|move|p1a: Slowbro|Thunder Wave|p2a: Kadabra
+|-status|p2a: Kadabra|par
+|
+|turn|14
+|
+|move|p2a: Kadabra|Seismic Toss|p1a: Slowbro
+|-damage|p1a: Slowbro|142\/312 par
+|move|p1a: Slowbro|Surf|p2a: Kadabra
+|-damage|p2a: Kadabra|0 fnt
+|faint|p2a: Kadabra
+|
+|switch|p2a: Nidorina|Nidorina, L90|309\/309
+|turn|15
+|
+|move|p2a: Nidorina|Body Slam|p1a: Slowbro
+|-damage|p1a: Slowbro|96\/312 par
+|move|p1a: Slowbro|Rest|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|-heal|p1a: Slowbro|312\/312 slp|[silent]
+|-status|p1a: Slowbro|slp|[from] move: Rest
+|
+|turn|16
+|
+|move|p2a: Nidorina|Leer|p1a: Slowbro
+|-unboost|p1a: Slowbro|def|1
+|cant|p1a: Slowbro|slp
+|
+|turn|17
+|
+|move|p2a: Nidorina|Leer|p1a: Slowbro
+|-unboost|p1a: Slowbro|def|1
+|-curestatus|p1a: Slowbro|slp
+|
+|turn|18
+|
+|move|p2a: Nidorina|Body Slam|p1a: Slowbro
+|-damage|p1a: Slowbro|210\/312
+|move|p1a: Slowbro|Surf|p2a: Nidorina
+|-damage|p2a: Nidorina|0 fnt
+|faint|p2a: Nidorina
+|
+|switch|p2a: Seadra|Seadra, L90|282\/282
+|turn|19
+|
+|move|p2a: Seadra|Smokescreen|p1a: Slowbro
+|-unboost|p1a: Slowbro|accuracy|1
+|move|p1a: Slowbro|Thunder Wave|p2a: Seadra|[miss]
+|-miss|p1a: Slowbro
+|
+|turn|20
+|
+|move|p2a: Seadra|Smokescreen|p1a: Slowbro
+|-unboost|p1a: Slowbro|accuracy|1
+|move|p1a: Slowbro|Thunder Wave|p2a: Seadra
+|-status|p2a: Seadra|par
+|
+|turn|21
+|
+|cant|p2a: Seadra|par
+|move|p1a: Slowbro|Surf|p2a: Seadra|[miss]
+|-miss|p1a: Slowbro
+|
+|turn|22
+|
+|move|p2a: Seadra|Blizzard|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|196\/312
+|move|p1a: Slowbro|Surf|p2a: Seadra
+|-resisted|p2a: Seadra
+|-damage|p2a: Seadra|152\/282 par
+|
+|turn|23
+|
+|move|p2a: Seadra|Blizzard|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|181\/312
+|move|p1a: Slowbro|Surf|p2a: Seadra
+|-resisted|p2a: Seadra
+|-damage|p2a: Seadra|24\/282 par
+|
+|turn|24
+|
+|move|p2a: Seadra|Blizzard|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|167\/312
+|move|p1a: Slowbro|Surf|p2a: Seadra
+|-resisted|p2a: Seadra
+|-damage|p2a: Seadra|0 fnt
+|faint|p2a: Seadra
+|
+|switch|p2a: Chansey|Chansey, L79|557\/557
+|turn|25
+|
+|move|p2a: Chansey|Thunder Wave|p1a: Slowbro
+|-status|p1a: Slowbro|par
+|move|p1a: Slowbro|Thunder Wave|p2a: Chansey|[miss]
+|-miss|p1a: Slowbro
+|
+|turn|26
+|
+|move|p2a: Chansey|Ice Beam|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|158\/312 par
+|cant|p1a: Slowbro|par
+|
+|turn|27
+|
+|move|p2a: Chansey|Ice Beam|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|85\/312 par
+|move|p1a: Slowbro|Surf|p2a: Chansey|[miss]
+|-miss|p1a: Slowbro
+|
+|turn|28
+|
+|move|p2a: Chansey|Ice Beam|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|76\/312 par
+|move|p1a: Slowbro|Rest|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|-heal|p1a: Slowbro|312\/312 slp|[silent]
+|-status|p1a: Slowbro|slp|[from] move: Rest
+|
+|turn|29
+|
+|move|p2a: Chansey|Ice Beam|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|303\/312 slp
+|cant|p1a: Slowbro|slp
+|
+|turn|30
+|
+|move|p2a: Chansey|Ice Beam|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|295\/312 slp
+|-curestatus|p1a: Slowbro|slp
+|
+|turn|31
+|c|★gen1masterrony|lucky noob
+|
+|move|p2a: Chansey|Ice Beam|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|286\/312
+|move|p1a: Slowbro|Surf|p2a: Chansey|[miss]
+|-miss|p1a: Slowbro
+|
+|turn|32
+|c|★High Emperor MoMo|says the guy getting sweeped
+|c|★High Emperor MoMo|sweep ur noobass
+|
+|move|p2a: Chansey|Ice Beam|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|277\/312
+|-status|p1a: Slowbro|frz
+|cant|p1a: Slowbro|frz
+|
+|turn|33
+|c|★gen1masterrony|helllo look at my gen 1 ou ranking u dickhead
+|c|★gen1masterrony|lol
+|
+|move|p2a: Chansey|Ice Beam|p1a: Slowbro|[miss]
+|-miss|p2a: Chansey
+|cant|p1a: Slowbro|frz
+|
+|turn|34
+|c|★High Emperor MoMo|noob
+|c|★gen1masterrony|your mom is a noob
+|c|★High Emperor MoMo|gettin hax
+|
+|move|p2a: Chansey|Ice Beam|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|268\/312 frz
+|cant|p1a: Slowbro|frz
+|
+|turn|35
+|c|★gen1masterrony|and your dad is a boob
+|c|★gen1masterrony|my ranking is way btter than you
+|c|★High Emperor MoMo|qnd ur little kid....
+|c|★gen1masterrony|nooby noob
+|c|★gen1masterrony|fuck ur sister u lil bitch
+|c|★High Emperor MoMo|now i get it noob
+|
+|move|p2a: Chansey|Ice Beam|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|259\/312 frz
+|cant|p1a: Slowbro|frz
+|
+|turn|36
+|c|★gen1masterrony|asshole
+|c|★gen1masterrony|how can u even compare yourself to me bitch
+|c|★gen1masterrony|slave
+|c|★gen1masterrony|smelly bastard
+|c|★High Emperor MoMo|noob just ssweeped
+|-message|gen1masterrony lost due to inactivity.
+|
+|win|High Emperor MoMo
+|raw|Ladder updating...
+|raw|High Emperor MoMo's rating: 1188 &rarr; <strong>1218<\/strong><br \/>(+30 for winning)
+|raw|gen1masterrony's rating: 1251 &rarr; <strong>1222<\/strong><br \/>(-29 for losing)
+|leave|gen1masterrony
+|player|p2

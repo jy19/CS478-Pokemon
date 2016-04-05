@@ -1,0 +1,103 @@
+﻿|join|vumanhtruong
+|join|MALESANI
+|player|p1|vumanhtruong|101
+|player|p2|MALESANI|238
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|20054,16484,6277,63709
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Paras|Paras, L96|262\/262
+|switch|p2a: Dewgong|Dewgong, L85|327\/327
+|turn|1
+|choice|switch 4|move 2
+|
+|switch|p1a: Slowbro|Slowbro, L79|312\/312
+|move|p2a: Dewgong|Blizzard|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|235\/312
+|
+|turn|2
+|choice|move 4|move 4
+|
+|move|p2a: Dewgong|Mimic|p1a: Slowbro
+|-start|p2a: Dewgong|Mimic|Amnesia
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|
+|turn|3
+|choice|move 4|move 4
+|
+|move|p2a: Dewgong|Amnesia|p2a: Dewgong
+|-boost|p2a: Dewgong|spd|2
+|-boost|p2a: Dewgong|spa|2
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|
+|turn|4
+|choice|move 3|move 2
+|
+|move|p2a: Dewgong|Blizzard|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|98\/312
+|move|p1a: Slowbro|Thunder Wave|p2a: Dewgong
+|-status|p2a: Dewgong|par
+|
+|turn|5
+|choice|move 4|move 4
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|cant|p2a: Dewgong|par
+|
+|turn|6
+|choice|move 4|move 4
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|cant|p2a: Dewgong|par
+|
+|turn|7
+|choice|switch 5|move 4
+|
+|switch|p1a: Primeape|Primeape, L90|300\/300
+|move|p2a: Dewgong|Amnesia|p2a: Dewgong
+|-boost|p2a: Dewgong|spd|2
+|-boost|p2a: Dewgong|spa|2
+|
+|turn|8
+|choice|move 3|move 3
+|
+|move|p1a: Primeape|Mega Kick|p2a: Dewgong
+|-damage|p2a: Dewgong|217\/327 par
+|move|p2a: Dewgong|Surf|p1a: Primeape
+|-damage|p1a: Primeape|0 fnt
+|faint|p1a: Primeape
+|choice|switch 2|
+|
+|switch|p1a: Kabuto|Kabuto, L96|252\/252
+|turn|9
+|choice|move 1|move 3
+|
+|move|p1a: Kabuto|Toxic|p2a: Dewgong
+|-fail|p2a: Dewgong
+|move|p2a: Dewgong|Surf|p1a: Kabuto
+|-damage|p1a: Kabuto|0 fnt
+|faint|p1a: Kabuto
+|-message|vumanhtruong forfeited.
+|
+|win|MALESANI
+|leave|vumanhtruong
+|player|p1
+|raw|vumanhtruong's rating: 1097 &rarr; <strong>1081<\/strong><br \/>(-16 for losing)
+|raw|MALESANI's rating: 1225 &rarr; <strong>1242<\/strong><br \/>(+17 for winning)

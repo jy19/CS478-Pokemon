@@ -1,0 +1,243 @@
+﻿|join|MALESANI
+|join|YouTouchedMyTalala
+|player|p1|MALESANI|238
+|player|p2|YouTouchedMyTalala|264
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|63115,4125,7754,17467
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Grimer|Grimer, L96|348\/348
+|switch|p2a: Metapod|Metapod, L99|300\/300
+|turn|1
+|c|★YouTouchedMyTalala|I HAVE METAPOD
+|c|★YouTouchedMyTalala|GG
+|c|★YouTouchedMyTalala|I WIN
+|choice|move 3|move 3
+|
+|move|p2a: Metapod|String Shot|p1a: Grimer
+|-unboost|p1a: Grimer|spe|1
+|move|p1a: Grimer|Sludge|p2a: Metapod
+|-supereffective|p2a: Metapod
+|-damage|p2a: Metapod|109\/300
+|-status|p2a: Metapod|psn
+|
+|turn|2
+|c|★YouTouchedMyTalala|harden ftw
+|c|★MALESANI|lol
+|choice|move 3|move 1
+|
+|move|p2a: Metapod|Harden|p2a: Metapod
+|-boost|p2a: Metapod|def|1
+|-damage|p2a: Metapod|91\/300 psn|[from] psn
+|move|p1a: Grimer|Sludge|p2a: Metapod
+|-crit|p2a: Metapod
+|-supereffective|p2a: Metapod
+|-damage|p2a: Metapod|0 fnt
+|faint|p2a: Metapod
+|c|★YouTouchedMyTalala|nooooo
+|c|★YouTouchedMyTalala|; - ;
+|choice||switch 4
+|
+|switch|p2a: Seaking|Seaking, L90|327\/327
+|turn|3
+|choice|move 2|move 1
+|
+|move|p2a: Seaking|Surf|p1a: Grimer
+|-crit|p1a: Grimer
+|-damage|p1a: Grimer|100\/348
+|move|p1a: Grimer|Mega Drain|p2a: Seaking
+|-supereffective|p2a: Seaking
+|-damage|p2a: Seaking|278\/327
+|-heal|p1a: Grimer|124\/348|[from] drain|[of] p2a: Seaking
+|
+|turn|4
+|choice|move 1|move 2
+|
+|move|p2a: Seaking|Hyper Beam|p1a: Grimer
+|-damage|p1a: Grimer|0 fnt
+|faint|p1a: Grimer
+|choice|switch 6|
+|
+|switch|p1a: Gyarados|Gyarados, L85|335\/335
+|turn|5
+|choice|move 4|move 3
+|
+|move|p1a: Gyarados|Thunderbolt|p2a: Seaking
+|-supereffective|p2a: Seaking
+|-damage|p2a: Seaking|132\/327
+|move|p2a: Seaking|Blizzard|p1a: Gyarados
+|-damage|p1a: Gyarados|259\/335
+|
+|turn|6
+|choice|move 4|switch 2
+|
+|switch|p2a: Jynx|Jynx, L79|265\/265
+|move|p1a: Gyarados|Thunderbolt|p2a: Jynx
+|-damage|p2a: Jynx|192\/265
+|
+|turn|7
+|choice|switch 3|move 2
+|
+|switch|p1a: Farfetch'd|Farfetch'd, L99|304\/304
+|move|p2a: Jynx|Lovely Kiss|p1a: Farfetch'd
+|-status|p1a: Farfetch'd|slp
+|
+|turn|8
+|choice|switch 2|move 4
+|
+|switch|p1a: Raticate|Raticate, L85|267\/267
+|move|p2a: Jynx|Blizzard|p1a: Raticate
+|-damage|p1a: Raticate|116\/267
+|
+|turn|9
+|choice|move 2|move 1
+|
+|move|p1a: Raticate|Hyper Beam|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|choice||switch 2
+|
+|switch|p2a: Seaking|Seaking, L90|132\/327
+|turn|10
+|choice|move 2|move 2
+|
+|move|p1a: Raticate|Hyper Beam|p2a: Seaking
+|-damage|p2a: Seaking|0 fnt
+|faint|p2a: Seaking
+|choice||switch 6
+|
+|switch|p2a: Pidgeot|Pidgeot, L90|333\/333
+|turn|11
+|choice|move 4|move 2
+|
+|move|p2a: Pidgeot|Sky Attack|p1a: Raticate|[still]
+|-prepare|p2a: Pidgeot|Sky Attack|p1a: Raticate
+|move|p1a: Raticate|Blizzard|p2a: Pidgeot
+|-crit|p2a: Pidgeot
+|-supereffective|p2a: Pidgeot
+|-damage|p2a: Pidgeot|76\/333
+|
+|turn|12
+|choice|move 3|move 1
+|
+|move|p2a: Pidgeot|Sky Attack|p1a: Raticate
+|-damage|p1a: Raticate|0 fnt
+|faint|p1a: Raticate
+|choice|switch 5|
+|
+|switch|p1a: Mewtwo|Mewtwo, L68|285\/285
+|turn|13
+|choice|move 4|move 1
+|
+|move|p2a: Pidgeot|Double-Edge|p1a: Mewtwo
+|-damage|p1a: Mewtwo|155\/285
+|-damage|p2a: Pidgeot|44\/333|[from] recoil|[of] p1a: Mewtwo
+|move|p1a: Mewtwo|Thunder Wave|p2a: Pidgeot
+|-status|p2a: Pidgeot|par
+|
+|turn|14
+|choice|move 1|move 1
+|
+|move|p1a: Mewtwo|Psychic|p2a: Pidgeot
+|-damage|p2a: Pidgeot|0 fnt
+|faint|p2a: Pidgeot
+|choice||switch 3
+|
+|switch|p2a: Jolteon|Jolteon, L79|265\/265
+|turn|15
+|choice|move 4|move 2
+|
+|move|p2a: Jolteon|Pin Missile|p1a: Mewtwo|[miss]
+|-miss|p2a: Jolteon
+|move|p1a: Mewtwo|Thunder Wave|p2a: Jolteon
+|-status|p2a: Jolteon|par
+|
+|turn|16
+|choice|switch 4|move 4
+|
+|switch|p1a: Beedrill|Beedrill, L90|300\/300
+|cant|p2a: Jolteon|par
+|
+|turn|17
+|choice|move 3|move 4
+|
+|move|p1a: Beedrill|Swords Dance|p1a: Beedrill
+|-boost|p1a: Beedrill|atk|2
+|move|p2a: Jolteon|Thunder Wave|p1a: Beedrill
+|-status|p1a: Beedrill|par
+|
+|turn|18
+|choice|move 1|move 1
+|
+|move|p1a: Beedrill|Agility|p1a: Beedrill
+|-boost|p1a: Beedrill|spe|2
+|cant|p2a: Jolteon|par
+|
+|turn|19
+|choice|move 2|move 1
+|
+|move|p1a: Beedrill|Twineedle|p2a: Jolteon
+|-damage|p2a: Jolteon|187\/265 par
+|-damage|p2a: Jolteon|109\/265 par
+|-hitcount|p2a: Jolteon|2
+|move|p2a: Jolteon|Thunderbolt|p1a: Beedrill
+|-damage|p1a: Beedrill|173\/300 par
+|
+|turn|20
+|choice|move 2|move 1
+|
+|move|p1a: Beedrill|Twineedle|p2a: Jolteon
+|-crit|p2a: Jolteon
+|-damage|p2a: Jolteon|42\/265 par
+|-damage|p2a: Jolteon|0 fnt
+|-hitcount|p2a: Jolteon|2
+|faint|p2a: Jolteon
+|choice||switch 5
+|
+|switch|p2a: Onix|Onix, L90|246\/246
+|turn|21
+|choice|move 2|move 1
+|
+|move|p1a: Beedrill|Twineedle|p2a: Onix
+|-crit|p2a: Onix
+|-damage|p2a: Onix|211\/246
+|-damage|p2a: Onix|176\/246
+|-hitcount|p2a: Onix|2
+|move|p2a: Onix|Rock Slide|p1a: Beedrill
+|-supereffective|p1a: Beedrill
+|-damage|p1a: Beedrill|4\/300 par
+|
+|turn|22
+|choice|move 4|move 1
+|
+|cant|p1a: Beedrill|par
+|move|p2a: Onix|Rock Slide|p1a: Beedrill
+|-crit|p1a: Beedrill
+|-supereffective|p1a: Beedrill
+|-damage|p1a: Beedrill|0 fnt
+|faint|p1a: Beedrill
+|choice|switch 4|
+|
+|switch|p1a: Mewtwo|Mewtwo, L68|155\/285
+|turn|23
+|choice|move 1|move 4
+|
+|move|p1a: Mewtwo|Psychic|p2a: Onix
+|-damage|p2a: Onix|25\/246
+|move|p2a: Onix|Earthquake|p1a: Mewtwo
+|-damage|p1a: Mewtwo|57\/285
+|
+|turn|24
+|-message|YouTouchedMyTalala forfeited.
+|
+|win|MALESANI
+|leave|YouTouchedMyTalala
+|player|p2
+|raw|MALESANI's rating: 1295 &rarr; <strong>1318<\/strong><br \/>(+23 for winning)
+|raw|YouTouchedMyTalala's rating: 1259 &rarr; <strong>1237<\/strong><br \/>(-22 for losing)

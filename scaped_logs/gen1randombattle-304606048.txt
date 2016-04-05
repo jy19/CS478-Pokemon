@@ -1,0 +1,228 @@
+﻿|j|Merlin Engine
+|j|Parnas
+|player|p1|Merlin Engine|165
+|player|p2|Parnas|162
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|587,32445,9175,21312
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Geodude|Geodude, L96|272\/272
+|switch|p2a: Nidorina|Nidorina, L90|309\/309
+|turn|1
+|choice|move 3|move 2
+|
+|move|p2a: Nidorina|Bubble Beam|p1a: Geodude
+|-supereffective|p1a: Geodude
+|-damage|p1a: Geodude|36\/272
+|move|p1a: Geodude|Earthquake|p2a: Nidorina
+|-supereffective|p2a: Nidorina
+|-damage|p2a: Nidorina|26\/309
+|
+|turn|2
+|choice|switch 3|move 2
+|
+|switch|p1a: Lapras|Lapras, L79|367\/367
+|move|p2a: Nidorina|Bubble Beam|p1a: Lapras
+|-resisted|p1a: Lapras
+|-damage|p1a: Lapras|347\/367
+|
+|turn|3
+|choice|move 4|move 3
+|
+|move|p2a: Nidorina|Thunder|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|208\/367
+|move|p1a: Lapras|Thunderbolt|p2a: Nidorina
+|-damage|p2a: Nidorina|0 fnt
+|faint|p2a: Nidorina
+|choice||switch 4
+|
+|switch|p2a: Gyarados|Gyarados, L85|335\/335
+|turn|4
+|choice|move 4|move 2
+|
+|move|p2a: Gyarados|Thunderbolt|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|54\/367
+|move|p1a: Lapras|Thunderbolt|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-damage|p2a: Gyarados|113\/335
+|
+|turn|5
+|choice|switch 5|move 2
+|
+|switch|p1a: Electrode|Electrode, L90|291\/291
+|move|p2a: Gyarados|Thunderbolt|p1a: Electrode
+|-resisted|p1a: Electrode
+|-damage|p1a: Electrode|258\/291
+|
+|turn|6
+|choice|switch 4|switch 3
+|
+|switch|p1a: Mr. Mime|Mr. Mime, L85|242\/242
+|switch|p2a: Nidoqueen|Nidoqueen, L85|327\/327
+|
+|turn|7
+|choice|move 2|switch 5
+|
+|switch|p2a: Pinsir|Pinsir, L85|284\/284
+|move|p1a: Mr. Mime|Psychic|p2a: Pinsir
+|-damage|p2a: Pinsir|145\/284
+|
+|turn|8
+|choice|switch 2|move 3
+|
+|switch|p1a: Koffing|Koffing, L96|272\/272
+|move|p2a: Pinsir|Hyper Beam|p1a: Koffing|[miss]
+|-miss|p2a: Pinsir
+|
+|turn|9
+|choice|move 4|move 2
+|
+|move|p2a: Pinsir|Body Slam|p1a: Koffing
+|-damage|p1a: Koffing|209\/272
+|-status|p1a: Koffing|par
+|move|p1a: Koffing|Fire Blast|p2a: Pinsir
+|-supereffective|p2a: Pinsir
+|-damage|p2a: Pinsir|0 fnt
+|faint|p2a: Pinsir
+|choice||switch 5
+|
+|switch|p2a: Nidoqueen|Nidoqueen, L85|327\/327
+|turn|10
+|choice|switch 6|move 1
+|
+|switch|p1a: Farfetch'd|Farfetch'd, L99|304\/304
+|move|p2a: Nidoqueen|Earthquake|p1a: Farfetch'd
+|-immune|p1a: Farfetch'd|[msg]
+|
+|turn|11
+|choice|move 2|switch 3
+|
+|switch|p2a: Gyarados|Gyarados, L85|113\/335
+|move|p1a: Farfetch'd|Body Slam|p2a: Gyarados
+|-damage|p2a: Gyarados|11\/335
+|
+|turn|12
+|choice|move 2|move 4
+|
+|move|p2a: Gyarados|Blizzard|p1a: Farfetch'd|[miss]
+|-miss|p2a: Gyarados
+|move|p1a: Farfetch'd|Body Slam|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|choice||switch 2
+|
+|switch|p2a: Vulpix|Vulpix, L96|268\/268
+|turn|13
+|choice|move 2|move 3
+|
+|move|p2a: Vulpix|Confuse Ray|p1a: Farfetch'd
+|-start|p1a: Farfetch'd|confusion
+|-activate|p1a: Farfetch'd|confusion
+|-damage|p1a: Farfetch'd|266\/304|[from] confusion
+|
+|turn|14
+|choice|move 2|move 2
+|
+|move|p2a: Vulpix|Reflect|p2a: Vulpix
+|-start|p2a: Vulpix|Reflect
+|-end|p1a: Farfetch'd|confusion
+|move|p1a: Farfetch'd|Body Slam|p2a: Vulpix
+|-damage|p2a: Vulpix|203\/268
+|
+|turn|15
+|choice|move 1|move 3
+|
+|move|p2a: Vulpix|Confuse Ray|p1a: Farfetch'd
+|-start|p1a: Farfetch'd|confusion
+|-activate|p1a: Farfetch'd|confusion
+|move|p1a: Farfetch'd|Slash|p2a: Vulpix
+|-crit|p2a: Vulpix
+|-damage|p2a: Vulpix|0 fnt
+|faint|p2a: Vulpix
+|choice||switch 6
+|
+|switch|p2a: Lapras|Lapras, L79|367\/367
+|turn|16
+|choice|switch 6|move 3
+|
+|switch|p1a: Koffing|Koffing, L96|209\/272 par
+|move|p2a: Lapras|Ice Beam|p1a: Koffing
+|-damage|p1a: Koffing|106\/272 par
+|
+|turn|17
+|choice|move 1|move 3
+|
+|move|p2a: Lapras|Ice Beam|p1a: Koffing
+|-damage|p1a: Koffing|11\/272 par
+|move|p1a: Koffing|Explosion|p2a: Lapras
+|-damage|p2a: Lapras|100\/367
+|faint|p1a: Koffing
+|choice|switch 6|
+|
+|switch|p1a: Farfetch'd|Farfetch'd, L99|266\/304
+|turn|18
+|choice|move 1|move 4
+|
+|move|p1a: Farfetch'd|Slash|p2a: Lapras
+|-crit|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|choice||switch 3
+|
+|switch|p2a: Nidoqueen|Nidoqueen, L85|327\/327
+|turn|19
+|choice|move 2|move 4
+|
+|move|p1a: Farfetch'd|Body Slam|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|227\/327
+|move|p2a: Nidoqueen|Blizzard|p1a: Farfetch'd
+|-supereffective|p1a: Farfetch'd
+|-damage|p1a: Farfetch'd|99\/304
+|
+|turn|20
+|choice|move 2|move 4
+|
+|move|p1a: Farfetch'd|Body Slam|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|127\/327
+|move|p2a: Nidoqueen|Blizzard|p1a: Farfetch'd
+|-supereffective|p1a: Farfetch'd
+|-damage|p1a: Farfetch'd|0 fnt
+|faint|p1a: Farfetch'd
+|choice|switch 2|
+|
+|switch|p1a: Mr. Mime|Mr. Mime, L85|242\/242
+|turn|21
+|choice|move 2|move 3
+|
+|move|p1a: Mr. Mime|Psychic|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|0 fnt
+|faint|p2a: Nidoqueen
+|
+|win|Merlin Engine
+|raw|Merlin Engine's rating: 1323 &rarr; <strong>1342<\/strong><br \/>(+19 for winning)
+|raw|Parnas's rating: 1314 &rarr; <strong>1294<\/strong><br \/>(-20 for losing)
+|c|★Parnas|cheat
+|c|★Merlin Engine|thanks
+|c|★Merlin Engine|I try my best to :9
+|c|★Parnas|how did you know i change poison pokemon
+|c|★Parnas|what the fuck
+|c|★Merlin Engine|it's called "a brain"
+|c|★Parnas|you hadn't even seen it
+|c|★Merlin Engine|oh cmon
+|c|★Merlin Engine|you have 1300 pts
+|c|★Merlin Engine|surely you know how things work in pkmn
+|c|★Merlin Engine|or are you saying you're just lucky?
+|c|★Parnas|I know you know I change to ground but not ground poison
+|c|★Parnas|super lucky at least
+|c|★Merlin Engine|i can't believe we're having this convo
+|c|★Merlin Engine|have a very nice day, Sir!
+|c|★Merlin Engine|l8r

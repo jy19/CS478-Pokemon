@@ -1,0 +1,299 @@
+﻿|join|Link-rubis
+|join|Zorage
+|player|p1|Link-rubis|170
+|player|p2|Zorage|166
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333\/333
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|1
+|
+|move|p2a: Gengar|Hypnosis|p1a: Jynx
+|-status|p1a: Jynx|slp
+|-curestatus|p1a: Jynx|slp
+|
+|turn|2
+|
+|move|p2a: Gengar|Hypnosis|p1a: Jynx
+|-status|p1a: Jynx|slp
+|cant|p1a: Jynx|slp
+|
+|turn|3
+|
+|switch|p1a: Jolteon|Jolteon|333\/333
+|move|p2a: Gengar|Thunderbolt|p1a: Jolteon
+|-crit|p1a: Jolteon
+|-resisted|p1a: Jolteon
+|-damage|p1a: Jolteon|246\/333
+|
+|turn|4
+|
+|switch|p2a: Rhydon|Rhydon|413\/413
+|move|p1a: Jolteon|Pin Missile|p2a: Rhydon
+|-damage|p2a: Rhydon|405\/413
+|-damage|p2a: Rhydon|397\/413
+|-damage|p2a: Rhydon|389\/413
+|-hitcount|p2a: Rhydon|3
+|
+|turn|5
+|
+|switch|p1a: Clefable|Clefable|393\/393
+|move|p2a: Rhydon|Body Slam|p1a: Clefable
+|-damage|p1a: Clefable|293\/393
+|
+|turn|6
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Clefable|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|619\/703
+|
+|turn|7
+|join|uwotsoam80
+|
+|move|p1a: Clefable|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Clefable
+|-status|p1a: Clefable|par
+|
+|turn|8
+|
+|switch|p1a: Aerodactyl|Aerodactyl|363\/363
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-boost|p2a: Chansey|def|1
+|
+|turn|9
+|
+|switch|p2a: Rhydon|Rhydon|389\/413
+|move|p1a: Aerodactyl|Double-Edge|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|354\/413
+|-damage|p1a: Aerodactyl|355\/363|[from] recoil|[of] p2a: Rhydon
+|
+|turn|10
+|
+|switch|p1a: Clefable|Clefable|293\/393 par
+|move|p2a: Rhydon|Rock Slide|p1a: Clefable
+|-damage|p1a: Clefable|160\/393 par
+|
+|turn|11
+|
+|switch|p2a: Chansey|Chansey|619\/703 par
+|move|p1a: Clefable|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|533\/703 par
+|
+|turn|12
+|
+|switch|p1a: Kangaskhan|Kangaskhan|413\/413
+|move|p2a: Chansey|Thunder Wave|p1a: Kangaskhan
+|-status|p1a: Kangaskhan|par
+|
+|turn|13
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|move|p1a: Kangaskhan|Surf|p2a: Gengar
+|-damage|p2a: Gengar|286\/323
+|
+|turn|14
+|
+|switch|p1a: Poliwrath|Poliwrath|383\/383
+|move|p2a: Gengar|Psychic|p1a: Poliwrath
+|-crit|p1a: Poliwrath
+|-supereffective|p1a: Poliwrath
+|-damage|p1a: Poliwrath|0 fnt
+|faint|p1a: Poliwrath
+|
+|switch|p1a: Aerodactyl|Aerodactyl|355\/363
+|turn|15
+|
+|move|p1a: Aerodactyl|Sky Attack|p2a: Gengar|[still]
+|-prepare|p1a: Aerodactyl|Sky Attack|p2a: Gengar
+|move|p2a: Gengar|Thunderbolt|p1a: Aerodactyl
+|-crit|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|0 fnt
+|faint|p1a: Aerodactyl
+|
+|switch|p1a: Jolteon|Jolteon|246\/333
+|turn|16
+|c| uwotsoam80|lol
+|c|★Link-rubis|:'(
+|c|★Zorage|So lucky
+|
+|switch|p2a: Rhydon|Rhydon|354\/413
+|move|p1a: Jolteon|Double Kick|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|322\/413
+|-damage|p2a: Rhydon|290\/413
+|-hitcount|p2a: Rhydon|2
+|
+|turn|17
+|
+|switch|p1a: Kangaskhan|Kangaskhan|413\/413 par
+|move|p2a: Rhydon|Earthquake|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|255\/413 par
+|
+|turn|18
+|
+|switch|p2a: Gengar|Gengar|286\/323
+|move|p1a: Kangaskhan|Surf|p2a: Gengar
+|-damage|p2a: Gengar|247\/323
+|
+|turn|19
+|
+|switch|p1a: Jynx|Jynx|333\/333 slp
+|move|p2a: Gengar|Psychic|p1a: Jynx
+|-resisted|p1a: Jynx
+|-damage|p1a: Jynx|290\/333 slp
+|
+|turn|20
+|
+|move|p2a: Gengar|Thunderbolt|p1a: Jynx
+|-damage|p1a: Jynx|195\/333 slp
+|cant|p1a: Jynx|slp
+|
+|turn|21
+|
+|move|p2a: Gengar|Thunderbolt|p1a: Jynx
+|-damage|p1a: Jynx|110\/333 slp
+|cant|p1a: Jynx|slp
+|
+|turn|22
+|c| uwotsoam80|le gengar op sp.def
+|
+|switch|p1a: Jolteon|Jolteon|246\/333
+|move|p2a: Gengar|Thunderbolt|p1a: Jolteon
+|-resisted|p1a: Jolteon
+|-damage|p1a: Jolteon|202\/333
+|
+|turn|23
+|
+|switch|p2a: Rhydon|Rhydon|290\/413
+|move|p1a: Jolteon|Pin Missile|p2a: Rhydon
+|-crit|p2a: Rhydon
+|-damage|p2a: Rhydon|274\/413
+|-damage|p2a: Rhydon|258\/413
+|-damage|p2a: Rhydon|242\/413
+|-damage|p2a: Rhydon|226\/413
+|-damage|p2a: Rhydon|210\/413
+|-hitcount|p2a: Rhydon|5
+|
+|turn|24
+|
+|move|p1a: Jolteon|Double Kick|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|175\/413
+|-damage|p2a: Rhydon|140\/413
+|-hitcount|p2a: Rhydon|2
+|move|p2a: Rhydon|Earthquake|p1a: Jolteon
+|-supereffective|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|switch|p1a: Clefable|Clefable|160\/393 par
+|turn|25
+|
+|switch|p2a: Chansey|Chansey|533\/703 par
+|cant|p1a: Clefable|par
+|
+|turn|26
+|
+|move|p1a: Clefable|Thunder|p2a: Chansey|[miss]
+|-miss|p1a: Clefable
+|move|p2a: Chansey|Seismic Toss|p1a: Clefable
+|-damage|p1a: Clefable|60\/393 par
+|
+|turn|27
+|
+|cant|p1a: Clefable|par
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-boost|p2a: Chansey|def|1
+|
+|turn|28
+|
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-boost|p2a: Chansey|def|1
+|move|p1a: Clefable|Thunder|p2a: Chansey
+|-damage|p2a: Chansey|452\/703 par
+|
+|turn|29
+|
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-boost|p2a: Chansey|def|1
+|move|p1a: Clefable|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|366\/703 par
+|
+|turn|30
+|
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-boost|p2a: Chansey|def|1
+|cant|p1a: Clefable|par
+|
+|turn|31
+|
+|cant|p2a: Chansey|par
+|move|p1a: Clefable|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|291\/703 par
+|
+|turn|32
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|642\/703 par
+|move|p1a: Clefable|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|553\/703 par
+|
+|turn|33
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|switch|p1a: Jynx|Jynx|110\/333 slp
+|turn|34
+|
+|cant|p1a: Jynx|slp
+|cant|p2a: Chansey|par
+|
+|turn|35
+|
+|-curestatus|p1a: Jynx|slp
+|move|p2a: Chansey|Thunder Wave|p1a: Jynx
+|-status|p1a: Jynx|par
+|
+|turn|36
+|
+|move|p1a: Jynx|Psychic|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|343\/703 par
+|move|p2a: Chansey|Seismic Toss|p1a: Jynx
+|-damage|p1a: Jynx|10\/333 par
+|
+|turn|37
+|
+|move|p1a: Jynx|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|250\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|38
+|
+|cant|p1a: Jynx|par
+|cant|p2a: Chansey|par
+|
+|turn|39
+|-message|Link-rubis forfeited.
+|
+|win|Zorage
+|leave|Link-rubis
+|player|p1
+|raw|Link-rubis's rating: 1161 &rarr; <strong>1139<\/strong><br \/>(-22 for losing)
+|raw|Zorage's rating: 1199 &rarr; <strong>1222<\/strong><br \/>(+23 for winning)
+|c|★Zorage|Gengar...

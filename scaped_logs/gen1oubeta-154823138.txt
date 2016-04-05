@@ -1,0 +1,83 @@
+﻿|join|ggc
+|join|kid gf lol
+|player|p1|ggc|10
+|player|p2|kid gf lol|37
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gengar|Gengar|323\/323
+|switch|p2a: Starmie|Starmie|323\/323
+|turn|1
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Starmie|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|610\/703
+|-status|p1a: Chansey|frz
+|
+|turn|2
+|chat|kid gf lol|lol
+|
+|switch|p1a: Gengar|Gengar|323\/323
+|move|p2a: Starmie|Psychic|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|139\/323
+|-unboost|p1a: Gengar|spd|1
+|-unboost|p1a: Gengar|spa|1
+|
+|turn|3
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Starmie|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|350\/393
+|
+|turn|4
+|
+|move|p2a: Starmie|Blizzard|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|51\/393
+|move|p1a: Exeggutor|Sleep Powder|p2a: Starmie|[miss]
+|-miss|p1a: Exeggutor
+|
+|turn|5
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|move|p2a: Starmie|Blizzard|p1a: Alakazam
+|-damage|p1a: Alakazam|239\/313
+|
+|turn|6
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|581\/703
+|
+|turn|7
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Chansey|[miss]
+|-miss|p1a: Alakazam
+|move|p2a: Chansey|Ice Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|174\/313
+|
+|turn|8
+|chat|ggc|words
+|chat|kid gf lol|oh man what a start
+|chat|ggc|I have none
+|-message|ggc forfeited.
+|
+|win|kid gf lol
+|raw|Ladder updating...
+|leave|ggc
+|player|p1
+|raw|ggc's rating: 1409 &rarr; <strong>1390<\/strong><br \/>(-19 for losing)
+|raw|kid gf lol's rating: 1419 &rarr; <strong>1438<\/strong><br \/>(+19 for winning)

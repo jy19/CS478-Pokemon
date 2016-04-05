@@ -1,0 +1,259 @@
+﻿|join|Dervodel
+|join|CTRT93
+|player|p1|Dervodel|169
+|player|p2|CTRT93|214
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Omanyte|Omanyte, L96|262\/262
+|switch|p2a: Psyduck|Psyduck, L96|291\/291
+|turn|1
+|
+|switch|p1a: Zapdos|Zapdos, L79|304\/304
+|move|p2a: Psyduck|Surf|p1a: Zapdos
+|-damage|p1a: Zapdos|231\/304
+|
+|turn|2
+|
+|switch|p2a: Jolteon|Jolteon, L79|265\/265
+|move|p1a: Zapdos|Thunderbolt|p2a: Jolteon
+|-resisted|p2a: Jolteon
+|-damage|p2a: Jolteon|218\/265
+|
+|turn|3
+|
+|move|p2a: Jolteon|Double Kick|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|223\/304
+|-damage|p1a: Zapdos|215\/304
+|-hitcount|p1a: Zapdos|2
+|move|p1a: Zapdos|Thunder Wave|p2a: Jolteon
+|-status|p2a: Jolteon|par
+|
+|turn|4
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Jolteon
+|-resisted|p2a: Jolteon
+|-damage|p2a: Jolteon|171\/265 par
+|cant|p2a: Jolteon|par
+|
+|turn|5
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Jolteon
+|-resisted|p2a: Jolteon
+|-damage|p2a: Jolteon|126\/265 par
+|move|p2a: Jolteon|Thunderbolt|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|54\/304
+|
+|turn|6
+|
+|switch|p1a: Nidoran-M|Nidoran-M, L96|283\/283
+|move|p2a: Jolteon|Thunderbolt|p1a: Nidoran-M
+|-crit|p1a: Nidoran-M
+|-damage|p1a: Nidoran-M|32\/283
+|
+|turn|7
+|
+|move|p1a: Nidoran-M|Body Slam|p2a: Jolteon
+|-damage|p2a: Jolteon|54\/265 par
+|move|p2a: Jolteon|Thunderbolt|p1a: Nidoran-M
+|-crit|p1a: Nidoran-M
+|-damage|p1a: Nidoran-M|0 fnt
+|faint|p1a: Nidoran-M
+|
+|switch|p1a: Hitmonchan|Hitmonchan, L90|273\/273
+|turn|8
+|
+|move|p1a: Hitmonchan|Body Slam|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|
+|switch|p2a: Starmie|Starmie, L79|257\/257
+|turn|9
+|
+|switch|p1a: Omanyte|Omanyte, L96|262\/262
+|move|p2a: Starmie|Thunder Wave|p1a: Omanyte
+|-status|p1a: Omanyte|par
+|
+|turn|10
+|
+|move|p2a: Starmie|Surf|p1a: Omanyte
+|-damage|p1a: Omanyte|184\/262 par
+|move|p1a: Omanyte|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|161\/257
+|
+|turn|11
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|257\/257
+|cant|p1a: Omanyte|par
+|
+|turn|12
+|
+|move|p2a: Starmie|Surf|p1a: Omanyte
+|-damage|p1a: Omanyte|99\/262 par
+|cant|p1a: Omanyte|par
+|
+|turn|13
+|
+|move|p2a: Starmie|Surf|p1a: Omanyte
+|-damage|p1a: Omanyte|21\/262 par
+|cant|p1a: Omanyte|par
+|
+|turn|14
+|
+|move|p2a: Starmie|Surf|p1a: Omanyte
+|-damage|p1a: Omanyte|0 fnt
+|faint|p1a: Omanyte
+|
+|switch|p1a: Tauros|Tauros, L79|280\/280
+|turn|15
+|
+|move|p2a: Starmie|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|move|p1a: Tauros|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|172\/257
+|-status|p2a: Starmie|par
+|
+|turn|16
+|
+|cant|p2a: Starmie|par
+|move|p1a: Tauros|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|90\/257 par
+|
+|turn|17
+|
+|cant|p2a: Starmie|par
+|cant|p1a: Tauros|par
+|
+|turn|18
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|218\/257 par
+|move|p1a: Tauros|Earthquake|p2a: Starmie
+|-damage|p2a: Starmie|149\/257 par
+|
+|turn|19
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|257\/257 par
+|move|p1a: Tauros|Body Slam|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|74\/257 par
+|
+|turn|20
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|202\/257 par
+|move|p1a: Tauros|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|110\/257 par
+|
+|turn|21
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|238\/257 par
+|cant|p1a: Tauros|par
+|
+|turn|22
+|
+|switch|p2a: Primeape|Primeape, L90|300\/300
+|move|p1a: Tauros|Body Slam|p2a: Primeape
+|-damage|p2a: Primeape|199\/300
+|
+|turn|23
+|
+|switch|p1a: Hitmonchan|Hitmonchan, L90|273\/273
+|move|p2a: Primeape|Submission|p1a: Hitmonchan|[miss]
+|-miss|p2a: Primeape
+|
+|turn|24
+|
+|move|p2a: Primeape|Body Slam|p1a: Hitmonchan
+|-crit|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|141\/273
+|move|p1a: Hitmonchan|Body Slam|p2a: Primeape
+|-damage|p2a: Primeape|108\/300
+|
+|turn|25
+|
+|move|p2a: Primeape|Mega Kick|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|33\/273
+|move|p1a: Hitmonchan|Counter|p2a: Primeape
+|-damage|p2a: Primeape|0 fnt
+|faint|p2a: Primeape
+|
+|switch|p2a: Charmeleon|Charmeleon, L85|272\/272
+|turn|26
+|
+|move|p1a: Hitmonchan|Body Slam|p2a: Charmeleon
+|-damage|p2a: Charmeleon|185\/272
+|move|p2a: Charmeleon|Slash|p1a: Hitmonchan
+|-crit|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|0 fnt
+|faint|p1a: Hitmonchan
+|
+|switch|p1a: Flareon|Flareon, L90|300\/300
+|turn|27
+|
+|move|p2a: Charmeleon|Swords Dance|p2a: Charmeleon
+|-boost|p2a: Charmeleon|atk|2
+|move|p1a: Flareon|Body Slam|p2a: Charmeleon
+|-damage|p2a: Charmeleon|74\/272
+|
+|turn|28
+|
+|move|p2a: Charmeleon|Slash|p1a: Flareon
+|-crit|p1a: Flareon
+|-damage|p1a: Flareon|212\/300
+|move|p1a: Flareon|Body Slam|p2a: Charmeleon
+|-damage|p2a: Charmeleon|0 fnt
+|faint|p2a: Charmeleon
+|
+|switch|p2a: Starmie|Starmie, L79|238\/257 par
+|turn|29
+|
+|move|p1a: Flareon|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|151\/257 par
+|cant|p2a: Starmie|par
+|
+|turn|30
+|
+|move|p1a: Flareon|Hyper Beam|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|switch|p2a: Psyduck|Psyduck, L96|291\/291
+|turn|31
+|
+|move|p1a: Flareon|Body Slam|p2a: Psyduck
+|-damage|p2a: Psyduck|178\/291
+|-status|p2a: Psyduck|par
+|move|p2a: Psyduck|Surf|p1a: Flareon
+|-supereffective|p1a: Flareon
+|-damage|p1a: Flareon|62\/300
+|
+|turn|32
+|
+|move|p1a: Flareon|Hyper Beam|p2a: Psyduck
+|-damage|p2a: Psyduck|0 fnt
+|faint|p2a: Psyduck
+|
+|switch|p2a: Flareon|Flareon, L90|300\/300
+|turn|33
+|
+|move|p1a: Flareon|Hyper Beam|p2a: Flareon
+|-crit|p2a: Flareon
+|-damage|p2a: Flareon|0 fnt
+|faint|p2a: Flareon
+|
+|win|Dervodel
+|c|★Dervodel|pf
+|leave|CTRT93
+|player|p2

@@ -1,0 +1,109 @@
+﻿|join|xordims
+|join|Eusiebio
+|player|p1|xordims|266
+|player|p2|Eusiebio|1
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Mankey|Mankey, L96|272\/272
+|switch|p2a: Electrode|Electrode, L85|276\/276
+|turn|1
+|
+|move|p2a: Electrode|Thunderbolt|p1a: Mankey
+|-damage|p1a: Mankey|139\/272
+|move|p1a: Mankey|Body Slam|p2a: Electrode
+|-damage|p2a: Electrode|200\/276
+|
+|turn|2
+|
+|move|p2a: Electrode|Explosion|p1a: Mankey
+|-damage|p1a: Mankey|0 fnt
+|faint|p1a: Mankey
+|faint|p2a: Electrode
+|
+|switch|p2a: Ninetales|Ninetales, L85|298\/298
+|switch|p1a: Haunter|Haunter, L85|250\/250
+|turn|3
+|
+|move|p2a: Ninetales|Fire Blast|p1a: Haunter|[miss]
+|-miss|p2a: Ninetales
+|move|p1a: Haunter|Hypnosis|p2a: Ninetales
+|-status|p2a: Ninetales|slp
+|
+|turn|4
+|
+|switch|p1a: Tentacruel|Tentacruel, L85|310\/310
+|cant|p2a: Ninetales|slp
+|
+|turn|5
+|
+|move|p1a: Tentacruel|Swords Dance|p1a: Tentacruel
+|-boost|p1a: Tentacruel|atk|2
+|cant|p2a: Ninetales|slp
+|
+|turn|6
+|
+|cant|p2a: Ninetales|slp
+|move|p1a: Tentacruel|Hydro Pump|p2a: Ninetales
+|-crit|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|switch|p2a: Victreebel|Victreebel, L85|310\/310
+|turn|7
+|
+|move|p1a: Tentacruel|Blizzard|p2a: Victreebel
+|-crit|p2a: Victreebel
+|-supereffective|p2a: Victreebel
+|-damage|p2a: Victreebel|0 fnt
+|faint|p2a: Victreebel
+|
+|switch|p2a: Gloom|Gloom, L85|276\/276
+|turn|8
+|
+|move|p1a: Tentacruel|Blizzard|p2a: Gloom
+|-supereffective|p2a: Gloom
+|-damage|p2a: Gloom|58\/276
+|move|p2a: Gloom|Sleep Powder|p1a: Tentacruel|[miss]
+|-miss|p2a: Gloom
+|
+|turn|9
+|
+|move|p1a: Tentacruel|Blizzard|p2a: Gloom
+|-supereffective|p2a: Gloom
+|-damage|p2a: Gloom|0 fnt
+|faint|p2a: Gloom
+|
+|switch|p2a: Kadabra|Kadabra, L85|242\/242
+|turn|10
+|
+|move|p2a: Kadabra|Psychic|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|114\/310
+|move|p1a: Tentacruel|Hyper Beam|p2a: Kadabra
+|-damage|p2a: Kadabra|0 fnt
+|faint|p2a: Kadabra
+|
+|switch|p2a: Graveler|Graveler, L85|267\/267
+|turn|11
+|
+|move|p1a: Tentacruel|Hydro Pump|p2a: Graveler|[miss]
+|-miss|p1a: Tentacruel
+|move|p2a: Graveler|Explosion|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|faint|p2a: Graveler
+|
+|win|xordims
+|raw|Ladder updating...
+|raw|xordims's rating: 1261 &rarr; <strong>1270<\/strong><br \/>(+9 for winning)
+|raw|Eusiebio's rating: 1000 &rarr; <strong>1000<\/strong><br \/>(+0 for losing)
+|leave|Eusiebio
+|player|p2

@@ -1,0 +1,155 @@
+﻿|join|Stupac
+|join|erik1erik
+|player|p1|Stupac|281
+|player|p2|erik1erik|2
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Slowbro|Slowbro, L79|312\/312
+|switch|p2a: Mankey|Mankey, L96|272\/272
+|turn|1
+|
+|move|p2a: Mankey|Body Slam|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-damage|p1a: Slowbro|190\/312
+|move|p1a: Slowbro|Thunder Wave|p2a: Mankey
+|-status|p2a: Mankey|par
+|
+|turn|2
+|
+|switch|p2a: Butterfree|Butterfree, L85|276\/276
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|
+|turn|3
+|
+|move|p2a: Butterfree|Sleep Powder|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|cant|p1a: Slowbro|slp
+|
+|turn|4
+|
+|move|p2a: Butterfree|Mega Drain|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|161\/312 slp
+|cant|p1a: Slowbro|slp
+|
+|turn|5
+|
+|move|p2a: Butterfree|Psychic|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|144\/312 slp
+|-unboost|p1a: Slowbro|spd|1
+|-unboost|p1a: Slowbro|spa|1
+|cant|p1a: Slowbro|slp
+|-curestatus|p1a: Slowbro|slp
+|
+|turn|6
+|
+|move|p2a: Butterfree|Sleep Powder|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|cant|p1a: Slowbro|slp
+|
+|turn|7
+|
+|switch|p1a: Persian|Persian, L79|265\/265
+|move|p2a: Butterfree|Mega Drain|p1a: Persian
+|-damage|p1a: Persian|234\/265
+|
+|turn|8
+|
+|move|p1a: Persian|Body Slam|p2a: Butterfree
+|-damage|p2a: Butterfree|187\/276
+|-status|p2a: Butterfree|par
+|move|p2a: Butterfree|Stun Spore|p1a: Persian
+|-status|p1a: Persian|par
+|
+|turn|9
+|
+|move|p1a: Persian|Body Slam|p2a: Butterfree
+|-damage|p2a: Butterfree|101\/276 par
+|cant|p2a: Butterfree|par
+|
+|turn|10
+|
+|move|p1a: Persian|Hyper Beam|p2a: Butterfree
+|-crit|p2a: Butterfree
+|-damage|p2a: Butterfree|0 fnt
+|faint|p2a: Butterfree
+|
+|switch|p2a: Persian|Persian, L79|265\/265
+|turn|11
+|
+|move|p2a: Persian|Slash|p1a: Persian
+|-crit|p1a: Persian
+|-damage|p1a: Persian|85\/265 par
+|move|p1a: Persian|Body Slam|p2a: Persian
+|-crit|p2a: Persian
+|-damage|p2a: Persian|109\/265
+|
+|turn|12
+|
+|switch|p1a: Cloyster|Cloyster, L83|253\/253
+|move|p2a: Persian|Slash|p1a: Cloyster
+|-crit|p1a: Cloyster
+|-damage|p1a: Cloyster|184\/253
+|
+|turn|13
+|
+|move|p2a: Persian|Thunderbolt|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|91\/253
+|move|p1a: Cloyster|Ice Beam|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|faint|p2a: Persian
+|
+|switch|p2a: Wigglytuff|Wigglytuff, L85|412\/412
+|turn|14
+|
+|move|p1a: Cloyster|Toxic|p2a: Wigglytuff
+|-status|p2a: Wigglytuff|tox
+|move|p2a: Wigglytuff|Body Slam|p1a: Cloyster
+|-crit|p1a: Cloyster
+|-damage|p1a: Cloyster|4\/253
+|-damage|p2a: Wigglytuff|387\/412 tox|[from] tox|[of] p1a: Cloyster
+|
+|turn|15
+|
+|move|p1a: Cloyster|Explosion|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|58\/412 tox
+|faint|p1a: Cloyster
+|
+|switch|p1a: Tauros|Tauros, L79|280\/280
+|turn|16
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|0 fnt
+|faint|p2a: Wigglytuff
+|
+|switch|p2a: Cubone|Cubone, L96|291\/291
+|turn|17
+|
+|move|p1a: Tauros|Blizzard|p2a: Cubone
+|-supereffective|p2a: Cubone
+|-damage|p2a: Cubone|118\/291
+|move|p2a: Cubone|Earthquake|p1a: Tauros
+|-damage|p1a: Tauros|186\/280
+|
+|turn|18
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Cubone
+|-damage|p2a: Cubone|0 fnt
+|faint|p2a: Cubone
+|leave|erik1erik
+|player|p2
+|-message|erik1erik lost due to inactivity.
+|
+|win|Stupac
+|raw|Ladder updating...

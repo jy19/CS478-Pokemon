@@ -1,0 +1,125 @@
+﻿|j|Golden Gyarados
+|j|Addri Trainer 99
+|player|p1|Golden Gyarados|37
+|player|p2|Addri Trainer 99|266
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Bellsprout|Bellsprout, L96|100\/100
+|switch|p2a: Poliwrath|Poliwrath, L85|100\/100
+|turn|1
+|choice||
+|
+|move|p2a: Poliwrath|Blizzard|p1a: Bellsprout
+|-supereffective|p1a: Bellsprout
+|-damage|p1a: Bellsprout|50\/100
+|move|p1a: Bellsprout|Sleep Powder|p2a: Poliwrath|[miss]
+|-miss|p1a: Bellsprout
+|
+|turn|2
+|choice||
+|
+|switch|p1a: Chansey|Chansey, L79|100\/100
+|move|p2a: Poliwrath|Blizzard|p1a: Chansey|[miss]
+|-miss|p2a: Poliwrath
+|
+|turn|3
+|choice||
+|
+|move|p2a: Poliwrath|Amnesia|p2a: Poliwrath
+|-boost|p2a: Poliwrath|spd|2
+|-boost|p2a: Poliwrath|spa|2
+|move|p1a: Chansey|Thunderbolt|p2a: Poliwrath
+|-supereffective|p2a: Poliwrath
+|-damage|p2a: Poliwrath|77\/100
+|
+|turn|4
+|choice||
+|
+|move|p2a: Poliwrath|Amnesia|p2a: Poliwrath
+|-boost|p2a: Poliwrath|spd|2
+|-boost|p2a: Poliwrath|spa|2
+|move|p1a: Chansey|Thunderbolt|p2a: Poliwrath
+|-supereffective|p2a: Poliwrath
+|-damage|p2a: Poliwrath|63\/100
+|
+|turn|5
+|choice||
+|
+|move|p2a: Poliwrath|Amnesia|p2a: Poliwrath
+|-boost|p2a: Poliwrath|spd|2
+|-boost|p2a: Poliwrath|spa|2
+|move|p1a: Chansey|Thunderbolt|p2a: Poliwrath
+|-supereffective|p2a: Poliwrath
+|-damage|p2a: Poliwrath|52\/100
+|
+|turn|6
+|choice||
+|
+|move|p2a: Poliwrath|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|54\/100
+|move|p1a: Chansey|Thunderbolt|p2a: Poliwrath
+|-supereffective|p2a: Poliwrath
+|-damage|p2a: Poliwrath|41\/100
+|
+|turn|7
+|choice||
+|
+|move|p2a: Poliwrath|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|6\/100
+|-status|p1a: Chansey|frz
+|cant|p1a: Chansey|frz
+|
+|turn|8
+|choice||
+|
+|move|p2a: Poliwrath|Surf|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|choice||
+|
+|switch|p1a: Mr. Mime|Mr. Mime, L85|100\/100
+|turn|9
+|choice||
+|
+|move|p1a: Mr. Mime|Thunder Wave|p2a: Poliwrath
+|-status|p2a: Poliwrath|par
+|move|p2a: Poliwrath|Blizzard|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|0 fnt
+|faint|p1a: Mr. Mime
+|choice||
+|
+|switch|p1a: Bellsprout|Bellsprout, L96|50\/100
+|turn|10
+|choice||
+|
+|move|p1a: Bellsprout|Razor Leaf|p2a: Poliwrath
+|-crit|p2a: Poliwrath
+|-supereffective|p2a: Poliwrath
+|-damage|p2a: Poliwrath|0 fnt
+|faint|p2a: Poliwrath
+|choice||
+|
+|switch|p2a: Mr. Mime|Mr. Mime, L85|100\/100
+|turn|11
+|choice||
+|
+|move|p2a: Mr. Mime|Psychic|p1a: Bellsprout
+|-supereffective|p1a: Bellsprout
+|-damage|p1a: Bellsprout|0 fnt
+|faint|p1a: Bellsprout
+|-message|Golden Gyarados forfeited.
+|
+|win|Addri Trainer 99
+|player|p1
+|player|p2
+|l|Golden Gyarados
+|raw|Golden Gyarados's rating: 1245 &rarr; <strong>1210<\/strong><br \/>(-35 for losing)
+|raw|Addri Trainer 99's rating: 1098 &rarr; <strong>1133<\/strong><br \/>(+35 for winning)

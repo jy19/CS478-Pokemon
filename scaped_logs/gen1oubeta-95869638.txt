@@ -1,0 +1,331 @@
+﻿|join|Iambirdjesus⌐■_■
+|join|jb champ
+|player|p1|Iambirdjesus⌐■_■|294
+|player|p2|jb champ|150
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|switch|p1a: Gengar|Gengar|323\/323
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|1
+|
+|move|p2a: Gengar|Hypnosis|p1a: Gengar|[miss]
+|-miss|p2a: Gengar
+|move|p1a: Gengar|Hypnosis|p2a: Gengar|[miss]
+|-miss|p1a: Gengar
+|
+|turn|2
+|
+|move|p2a: Gengar|Hypnosis|p1a: Gengar
+|-status|p1a: Gengar|slp
+|cant|p1a: Gengar|slp
+|-curestatus|p1a: Gengar|slp
+|
+|turn|3
+|
+|move|p2a: Gengar|Hypnosis|p1a: Gengar|[miss]
+|-miss|p2a: Gengar
+|move|p1a: Gengar|Hypnosis|p2a: Gengar
+|-status|p2a: Gengar|slp
+|
+|turn|4
+|
+|cant|p2a: Gengar|slp
+|move|p1a: Gengar|Psychic|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|190\/323 slp
+|
+|turn|5
+|join|Æthena
+|
+|switch|p2a: Alakazam|Alakazam|313\/313
+|move|p1a: Gengar|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|279\/313
+|
+|turn|6
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Gengar
+|-status|p1a: Gengar|par
+|move|p1a: Gengar|Explosion|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|faint|p1a: Gengar
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|switch|p2a: Slowbro|Slowbro|393\/393
+|turn|7
+|
+|move|p1a: Tauros|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|299\/393
+|move|p2a: Slowbro|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|
+|turn|8
+|
+|switch|p1a: Zapdos|Zapdos|383\/383
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|9
+|
+|switch|p2a: Golem|Golem|363\/363
+|move|p1a: Zapdos|Thunder Wave|p2a: Golem
+|-immune|p2a: Golem|[msg]
+|
+|turn|10
+|
+|switch|p1a: Lapras|Lapras|463\/463
+|move|p2a: Golem|Rock Slide|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|246\/463
+|
+|turn|11
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Lapras|Blizzard|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|415\/703
+|
+|turn|12
+|
+|move|p1a: Lapras|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|263\/703
+|-status|p2a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Lapras
+|-status|p1a: Lapras|par
+|
+|turn|13
+|
+|move|p1a: Lapras|Confuse Ray|p2a: Chansey
+|-start|p2a: Chansey|confusion
+|-activate|p2a: Chansey|confusion
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|614\/703 par
+|
+|turn|14
+|
+|move|p1a: Lapras|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|459\/703 par
+|-activate|p2a: Chansey|confusion
+|-damage|p2a: Chansey|425\/703 par|[from] confusion
+|
+|turn|15
+|
+|move|p1a: Lapras|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|259\/703 par
+|-activate|p2a: Chansey|confusion
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|610\/703 par
+|
+|turn|16
+|
+|move|p1a: Lapras|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|433\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|17
+|
+|move|p1a: Lapras|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|262\/703 par
+|-end|p2a: Chansey|confusion
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|613\/703 par
+|
+|turn|18
+|
+|switch|p1a: Rhydon|Rhydon|413\/413
+|cant|p2a: Chansey|par
+|
+|turn|19
+|
+|switch|p2a: Golem|Golem|363\/363
+|move|p1a: Rhydon|Earthquake|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|113\/363
+|
+|turn|20
+|
+|move|p2a: Golem|Earthquake|p1a: Rhydon
+|-crit|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|turn|21
+|
+|switch|p2a: Chansey|Chansey|613\/703 par
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|362\/703 par
+|
+|turn|22
+|
+|switch|p1a: Tauros|Tauros|353\/353 par
+|move|p2a: Chansey|Thunder Wave|p1a: Tauros
+|-fail|p1a: Tauros|par
+|
+|turn|23
+|
+|switch|p2a: Gengar|Gengar|190\/323 slp
+|move|p1a: Tauros|Blizzard|p2a: Gengar
+|-damage|p2a: Gengar|132\/323 slp
+|
+|turn|24
+|
+|cant|p2a: Gengar|slp
+|cant|p1a: Tauros|par
+|
+|turn|25
+|
+|cant|p2a: Gengar|slp
+|move|p1a: Tauros|Earthquake|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|
+|switch|p2a: Slowbro|Slowbro|299\/393
+|turn|26
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|cant|p1a: Tauros|par
+|
+|turn|27
+|
+|move|p2a: Slowbro|Surf|p1a: Tauros
+|-damage|p1a: Tauros|99\/353 par
+|move|p1a: Tauros|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|212\/393
+|
+|turn|28
+|
+|switch|p1a: Lapras|Lapras|246\/463 par
+|move|p2a: Slowbro|Surf|p1a: Lapras
+|-resisted|p1a: Lapras
+|-damage|p1a: Lapras|143\/463 par
+|
+|turn|29
+|
+|move|p2a: Slowbro|Surf|p1a: Lapras
+|-resisted|p1a: Lapras
+|-damage|p1a: Lapras|51\/463 par
+|move|p1a: Lapras|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|157\/393
+|
+|turn|30
+|
+|move|p2a: Slowbro|Surf|p1a: Lapras
+|-resisted|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|
+|
+|switch|p1a: Zapdos|Zapdos|383\/383
+|turn|31
+|
+|switch|p2a: Golem|Golem|113\/363
+|move|p1a: Zapdos|Thunderbolt|p2a: Golem
+|-immune|p2a: Golem|[msg]
+|
+|turn|32
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|move|p2a: Golem|Rock Slide|p1a: Alakazam
+|-damage|p1a: Alakazam|155\/313
+|
+|turn|33
+|
+|switch|p2a: Chansey|Chansey|362\/703 par
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|109\/703 par
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|
+|turn|34
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|
+|switch|p2a: Slowbro|Slowbro|157\/393
+|turn|35
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Slowbro
+|-status|p2a: Slowbro|par
+|move|p2a: Slowbro|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|
+|turn|36
+|
+|switch|p1a: Zapdos|Zapdos|383\/383
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|37
+|
+|switch|p2a: Golem|Golem|113\/363
+|move|p1a: Zapdos|Drill Peck|p2a: Golem|[miss]
+|-miss|p1a: Zapdos
+|
+|turn|38
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|77\/363
+|move|p2a: Golem|Rock Slide|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|171\/383
+|
+|turn|39
+|join|bob the triner
+|chat|bob the triner|(⌐■_■)
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|41\/363
+|move|p2a: Golem|Rock Slide|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|raw|<div class="broadcast-red"><b>Moderated chat was set to +!<\/b><br \/>Only users of rank + and higher can talk.<\/div>
+|
+|switch|p1a: Alakazam|Alakazam|155\/313 par
+|turn|40
+|
+|move|p2a: Golem|Earthquake|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|
+|switch|p1a: Tauros|Tauros|99\/353 par
+|turn|41
+|-message|Iambirdjesus⌐■_■ forfeited.
+|
+|win|jb champ
+|raw|Ladder updating...
+|leave|Iambirdjesus⌐■_■
+|player|p1
+|raw|Iambirdjesus⌐■_■'s rating: 1227 &rarr; <strong>1207<\/strong><br \/>(-20 for losing)
+|raw|jb champ's rating: 1304 &rarr; <strong>1320<\/strong><br \/>(+16 for winning)
+|chat|jb champ|gg

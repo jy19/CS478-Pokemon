@@ -1,0 +1,213 @@
+﻿|join|XianJu
+|join|usia
+|player|p1|XianJu|130
+|player|p2|usia|127
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|13805,5906,58514,10516
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Cubone|Cubone, L96|291\/291
+|switch|p2a: Poliwrath|Poliwrath, L85|327\/327
+|turn|1
+|choice|switch 4|move 3
+|
+|switch|p1a: Parasect|Parasect, L90|291\/291
+|move|p2a: Poliwrath|Surf|p1a: Parasect
+|-resisted|p1a: Parasect
+|-damage|p1a: Parasect|249\/291
+|
+|turn|2
+|choice|move 3|switch 2
+|
+|switch|p2a: Golbat|Golbat, L90|318\/318
+|move|p1a: Parasect|Stun Spore|p2a: Golbat
+|-status|p2a: Golbat|par
+|
+|turn|3
+|choice|switch 4|move 3
+|
+|switch|p1a: Cubone|Cubone, L96|291\/291
+|move|p2a: Golbat|Double-Edge|p1a: Cubone
+|-damage|p1a: Cubone|234\/291
+|-damage|p2a: Golbat|304\/318 par|[from] recoil|[of] p1a: Cubone
+|
+|turn|4
+|choice|move 4|switch 2
+|
+|switch|p2a: Poliwrath|Poliwrath, L85|327\/327
+|move|p1a: Cubone|Blizzard|p2a: Poliwrath
+|-resisted|p2a: Poliwrath
+|-damage|p2a: Poliwrath|289\/327
+|
+|turn|5
+|choice|switch 4|move 2
+|
+|switch|p1a: Parasect|Parasect, L90|249\/291
+|move|p2a: Poliwrath|Hypnosis|p1a: Parasect|[miss]
+|-miss|p2a: Poliwrath
+|
+|turn|6
+|choice|switch 6|move 2
+|
+|switch|p1a: Ditto|Ditto, L99|296\/296
+|move|p2a: Poliwrath|Hypnosis|p1a: Ditto|[miss]
+|-miss|p2a: Poliwrath
+|
+|turn|7
+|choice|move 1|move 2
+|
+|move|p2a: Poliwrath|Hypnosis|p1a: Ditto
+|-status|p1a: Ditto|slp
+|cant|p1a: Ditto|slp
+|
+|turn|8
+|choice|switch 6|move 4
+|
+|switch|p1a: Parasect|Parasect, L90|249\/291
+|move|p2a: Poliwrath|Submission|p1a: Parasect
+|-resisted|p1a: Parasect
+|-damage|p1a: Parasect|209\/291
+|-damage|p2a: Poliwrath|279\/327|[from] recoil|[of] p1a: Parasect
+|
+|turn|9
+|choice|move 1|move 2
+|
+|move|p2a: Poliwrath|Hypnosis|p1a: Parasect|[miss]
+|-miss|p2a: Poliwrath
+|move|p1a: Parasect|Body Slam|p2a: Poliwrath
+|-damage|p2a: Poliwrath|216\/327
+|
+|turn|10
+|choice|move 1|move 3
+|
+|move|p2a: Poliwrath|Surf|p1a: Parasect
+|-resisted|p1a: Parasect
+|-damage|p1a: Parasect|169\/291
+|move|p1a: Parasect|Body Slam|p2a: Poliwrath
+|-damage|p2a: Poliwrath|148\/327
+|
+|turn|11
+|choice|move 1|switch 4
+|
+|switch|p2a: Mr. Mime|Mr. Mime, L85|242\/242
+|move|p1a: Parasect|Body Slam|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|160\/242
+|
+|turn|12
+|choice|move 1|move 1
+|
+|move|p2a: Mr. Mime|Psychic|p1a: Parasect
+|-damage|p1a: Parasect|71\/291
+|move|p1a: Parasect|Body Slam|p2a: Mr. Mime
+|-crit|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|0 fnt
+|faint|p2a: Mr. Mime
+|choice||switch 5
+|
+|switch|p2a: Chansey|Chansey, L79|557\/557
+|turn|13
+|choice|move 1|move 3
+|
+|move|p1a: Parasect|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|375\/557
+|move|p2a: Chansey|Counter|p1a: Parasect
+|-damage|p1a: Parasect|0 fnt
+|faint|p1a: Parasect
+|choice|switch 4|
+|
+|switch|p1a: Cubone|Cubone, L96|234\/291
+|turn|14
+|choice|move 1|switch 4
+|
+|switch|p2a: Poliwrath|Poliwrath, L85|148\/327
+|move|p1a: Cubone|Earthquake|p2a: Poliwrath
+|-damage|p2a: Poliwrath|58\/327
+|
+|turn|15
+|choice|switch 2|move 3
+|
+|switch|p1a: Krabby|Krabby, L96|252\/252
+|move|p2a: Poliwrath|Surf|p1a: Krabby
+|-resisted|p1a: Krabby
+|-damage|p1a: Krabby|184\/252
+|
+|turn|16
+|choice|move 3|switch 3
+|
+|switch|p2a: Dugtrio|Dugtrio, L85|233\/233
+|move|p1a: Krabby|Body Slam|p2a: Dugtrio
+|-damage|p2a: Dugtrio|127\/233
+|
+|turn|17
+|choice|move 4|move 1
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Krabby
+|-crit|p1a: Krabby
+|-damage|p1a: Krabby|8\/252
+|move|p1a: Krabby|Crabhammer|p2a: Dugtrio
+|-crit|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|choice||switch 4
+|
+|switch|p2a: Chansey|Chansey, L79|375\/557
+|turn|18
+|choice|move 4|move 2
+|
+|move|p1a: Krabby|Crabhammer|p2a: Chansey
+|-damage|p2a: Chansey|312\/557
+|move|p2a: Chansey|Thunderbolt|p1a: Krabby
+|-crit|p1a: Krabby
+|-supereffective|p1a: Krabby
+|-damage|p1a: Krabby|0 fnt
+|faint|p1a: Krabby
+|choice|switch 2|
+|
+|switch|p1a: Cubone|Cubone, L96|234\/291
+|turn|19
+|choice|move 4|move 4
+|
+|move|p1a: Cubone|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|247\/557
+|-status|p2a: Chansey|frz
+|cant|p2a: Chansey|frz
+|
+|turn|20
+|choice|move 2|switch 6
+|
+|switch|p2a: Mew|Mew, L74|300\/300
+|move|p1a: Cubone|Seismic Toss|p2a: Mew
+|-damage|p2a: Mew|204\/300
+|
+|turn|21
+|choice|move 3|move 3
+|
+|move|p2a: Mew|Swords Dance|p2a: Mew
+|-boost|p2a: Mew|atk|2
+|move|p1a: Cubone|Body Slam|p2a: Mew
+|-damage|p2a: Mew|153\/300
+|-status|p2a: Mew|par
+|
+|turn|22
+|choice|move 2|move 4
+|
+|move|p1a: Cubone|Seismic Toss|p2a: Mew
+|-damage|p2a: Mew|57\/300 par
+|move|p2a: Mew|Swift|p1a: Cubone
+|-damage|p1a: Cubone|179\/291
+|
+|turn|23
+|leave|usia
+|player|p2
+|-message|usia lost due to inactivity.
+|
+|win|XianJu
+|raw|XianJu's rating: 1257 &rarr; <strong>1269<\/strong><br \/>(+12 for winning)
+|raw|usia's rating: 1059 &rarr; <strong>1050<\/strong><br \/>(-9 for losing)

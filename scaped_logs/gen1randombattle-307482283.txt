@@ -1,0 +1,211 @@
+﻿|j|Caesar Augustus
+|j|Crorem
+|player|p1|Caesar Augustus|253
+|player|p2|Crorem|125
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|13906,61154,32781,54606
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Shellder|Shellder, L96|252\/252
+|switch|p2a: Venusaur|Venusaur, L85|310\/310
+|turn|1
+|choice|switch 6|move 3
+|
+|switch|p1a: Tentacruel|Tentacruel, L85|310\/310
+|move|p2a: Venusaur|Swords Dance|p2a: Venusaur
+|-boost|p2a: Venusaur|atk|2
+|
+|turn|2
+|choice|move 2|move 1
+|
+|move|p1a: Tentacruel|Blizzard|p2a: Venusaur|[miss]
+|-miss|p1a: Tentacruel
+|move|p2a: Venusaur|Body Slam|p1a: Tentacruel
+|-damage|p1a: Tentacruel|182\/310
+|-status|p1a: Tentacruel|par
+|
+|turn|3
+|choice|move 2|move 1
+|
+|move|p2a: Venusaur|Body Slam|p1a: Tentacruel
+|-damage|p1a: Tentacruel|51\/310 par
+|cant|p1a: Tentacruel|par
+|
+|turn|4
+|choice|move 2|move 1
+|
+|move|p2a: Venusaur|Body Slam|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|c|★Caesar Augustus|goddamn
+|choice|switch 2|
+|
+|switch|p1a: Dragonite|Dragonite, L85|328\/328
+|turn|5
+|choice|move 3|move 1
+|
+|move|p2a: Venusaur|Body Slam|p1a: Dragonite
+|-damage|p1a: Dragonite|218\/328
+|move|p1a: Dragonite|Blizzard|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|161\/310
+|
+|turn|6
+|choice|move 3|switch 2
+|
+|switch|p2a: Golduck|Golduck, L85|310\/310
+|move|p1a: Dragonite|Blizzard|p2a: Golduck
+|-resisted|p2a: Golduck
+|-damage|p2a: Golduck|261\/310
+|
+|turn|7
+|choice|switch 4|move 3
+|
+|switch|p1a: Wigglytuff|Wigglytuff, L90|435\/435
+|move|p2a: Golduck|Blizzard|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|329\/435
+|
+|turn|8
+|choice|move 2|move 4
+|
+|move|p2a: Golduck|Surf|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|204\/435
+|move|p1a: Wigglytuff|Body Slam|p2a: Golduck
+|-damage|p2a: Golduck|165\/310
+|
+|turn|9
+|choice|move 3|move 4
+|
+|move|p2a: Golduck|Surf|p1a: Wigglytuff
+|-crit|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|0 fnt
+|faint|p1a: Wigglytuff
+|choice|switch 5|
+|
+|switch|p1a: Pinsir|Pinsir, L85|284\/284
+|turn|10
+|choice|move 3|move 4
+|
+|move|p2a: Golduck|Surf|p1a: Pinsir
+|-damage|p1a: Pinsir|173\/284
+|move|p1a: Pinsir|Swords Dance|p1a: Pinsir
+|-boost|p1a: Pinsir|atk|2
+|
+|turn|11
+|choice|move 4|switch 5
+|
+|switch|p2a: Aerodactyl|Aerodactyl, L90|327\/327
+|move|p1a: Pinsir|Hyper Beam|p2a: Aerodactyl
+|-resisted|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|175\/327
+|
+|turn|12
+|-mustrecharge|p1a: Pinsir
+|-mustrecharge|p1a: Pinsir
+|choice|move 1|move 3
+|
+|move|p2a: Aerodactyl|Sky Attack|p1a: Pinsir|[still]
+|-prepare|p2a: Aerodactyl|Sky Attack|p1a: Pinsir
+|cant|p1a: Pinsir|recharge
+|
+|turn|13
+|choice|switch 6|move 1
+|
+|switch|p1a: Shellder|Shellder, L96|252\/252
+|move|p2a: Aerodactyl|Sky Attack|p1a: Shellder
+|-damage|p1a: Shellder|117\/252
+|
+|turn|14
+|choice|move 3|move 4
+|
+|move|p2a: Aerodactyl|Double-Edge|p1a: Shellder
+|-crit|p1a: Shellder
+|-damage|p1a: Shellder|0 fnt
+|-damage|p2a: Aerodactyl|146\/327|[from] recoil|[of] p1a: Shellder
+|faint|p1a: Shellder
+|choice|switch 3|
+|
+|switch|p1a: Bulbasaur|Bulbasaur, L96|281\/281
+|turn|15
+|choice|move 4|move 4
+|
+|move|p2a: Aerodactyl|Double-Edge|p1a: Bulbasaur
+|-crit|p1a: Bulbasaur
+|-damage|p1a: Bulbasaur|87\/281
+|-damage|p2a: Aerodactyl|98\/327|[from] recoil|[of] p1a: Bulbasaur
+|move|p1a: Bulbasaur|Razor Leaf|p2a: Aerodactyl
+|-crit|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|faint|p2a: Aerodactyl
+|choice||switch 6
+|
+|switch|p2a: Mr. Mime|Mr. Mime, L85|242\/242
+|turn|16
+|choice|move 2|move 3
+|
+|move|p2a: Mr. Mime|Psychic|p1a: Bulbasaur
+|-supereffective|p1a: Bulbasaur
+|-damage|p1a: Bulbasaur|0 fnt
+|faint|p1a: Bulbasaur
+|choice|switch 4|
+|
+|switch|p1a: Dragonite|Dragonite, L85|218\/328
+|turn|17
+|choice|move 3|move 3
+|
+|move|p2a: Mr. Mime|Psychic|p1a: Dragonite
+|-damage|p1a: Dragonite|120\/328
+|-unboost|p1a: Dragonite|spd|1
+|-unboost|p1a: Dragonite|spa|1
+|move|p1a: Dragonite|Blizzard|p2a: Mr. Mime
+|-crit|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|87\/242
+|
+|turn|18
+|choice|switch 6|move 3
+|
+|switch|p1a: Pinsir|Pinsir, L85|173\/284
+|move|p2a: Mr. Mime|Psychic|p1a: Pinsir
+|-damage|p1a: Pinsir|41\/284
+|
+|turn|19
+|choice|move 4|move 3
+|
+|move|p2a: Mr. Mime|Psychic|p1a: Pinsir
+|-damage|p1a: Pinsir|0 fnt
+|faint|p1a: Pinsir
+|choice|switch 6|
+|
+|switch|p1a: Dragonite|Dragonite, L85|120\/328
+|turn|20
+|choice|move 3|move 3
+|
+|move|p2a: Mr. Mime|Psychic|p1a: Dragonite
+|-damage|p1a: Dragonite|30\/328
+|move|p1a: Dragonite|Blizzard|p2a: Mr. Mime
+|-crit|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|0 fnt
+|faint|p2a: Mr. Mime
+|choice||switch 4
+|
+|switch|p2a: Raticate|Raticate, L85|267\/267
+|turn|21
+|choice|move 3|move 4
+|
+|move|p2a: Raticate|Body Slam|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|win|Crorem
+|c|★Caesar Augustus|gg
+|l|Caesar Augustus
+|player|p1
+|c|★Crorem|gg
+|raw|Caesar Augustus's rating: 1186 &rarr; <strong>1155<\/strong><br \/>(-31 for losing)
+|raw|Crorem's rating: 1093 &rarr; <strong>1126<\/strong><br \/>(+33 for winning)

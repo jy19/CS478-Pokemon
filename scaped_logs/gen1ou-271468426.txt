@@ -1,0 +1,789 @@
+﻿|join|Sederts
+|join|Enigami
+|player|p1|Sederts|250
+|player|p2|Enigami|169
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Jolteon|Jolteon|333\/333
+|turn|1
+|c|★Sederts|oh im here
+|c|★Sederts|was just checkinsome stuff
+|c|★Sederts|sorry
+|c|★Enigami|np
+|
+|move|p2a: Jolteon|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|move|p1a: Alakazam|Thunder Wave|p2a: Jolteon
+|-status|p2a: Jolteon|par
+|
+|turn|2
+|
+|cant|p2a: Jolteon|par
+|move|p1a: Alakazam|Psychic|p2a: Jolteon
+|-damage|p2a: Jolteon|213\/333 par
+|
+|turn|3
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Alakazam|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|354\/523
+|
+|turn|4
+|
+|move|p2a: Snorlax|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|133\/313 par
+|move|p1a: Alakazam|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|
+|turn|5
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Snorlax|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|409\/703
+|
+|turn|6
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-start|p1a: Chansey|Reflect
+|cant|p2a: Snorlax|par
+|
+|turn|7
+|
+|switch|p2a: Jolteon|Jolteon|213\/333 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703
+|
+|turn|8
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Jolteon
+|-damage|p2a: Jolteon|113\/333 par
+|move|p2a: Jolteon|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|592\/703
+|
+|turn|9
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|603\/703
+|
+|turn|10
+|
+|switch|p1a: Jynx|Jynx|333\/333
+|move|p2a: Chansey|Ice Beam|p1a: Jynx
+|-resisted|p1a: Jynx
+|-damage|p1a: Jynx|295\/333
+|
+|turn|11
+|
+|switch|p2a: Jolteon|Jolteon|113\/333 par
+|move|p1a: Jynx|Lovely Kiss|p2a: Jolteon
+|-fail|p2a: Jolteon
+|
+|turn|12
+|
+|move|p1a: Jynx|Blizzard|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|
+|switch|p2a: Snorlax|Snorlax|354\/523 par
+|turn|13
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|cant|p2a: Snorlax|par
+|
+|turn|14
+|
+|move|p1a: Snorlax|Reflect|p1a: Snorlax
+|-start|p1a: Snorlax|Reflect
+|cant|p2a: Snorlax|par
+|
+|turn|15
+|
+|move|p1a: Snorlax|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|226\/523 par
+|move|p2a: Snorlax|Counter|p1a: Snorlax
+|-damage|p1a: Snorlax|267\/523
+|
+|turn|16
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp
+|-heal|p1a: Snorlax|523\/523 slp|[silent]
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|
+|turn|17
+|
+|move|p2a: Exeggutor|Psychic|p1a: Snorlax
+|-damage|p1a: Snorlax|353\/523 slp
+|-unboost|p1a: Snorlax|spd|1
+|-unboost|p1a: Snorlax|spa|1
+|cant|p1a: Snorlax|slp
+|
+|turn|18
+|
+|switch|p1a: Jynx|Jynx|295\/333
+|move|p2a: Exeggutor|Psychic|p1a: Jynx
+|-resisted|p1a: Jynx
+|-damage|p1a: Jynx|227\/333
+|
+|turn|19
+|
+|switch|p2a: Chansey|Chansey|603\/703
+|move|p1a: Jynx|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|471\/703
+|
+|turn|20
+|c|★Sederts|FREEZE
+|
+|move|p1a: Jynx|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|341\/703
+|move|p2a: Chansey|Thunder Wave|p1a: Jynx
+|-status|p1a: Jynx|par
+|
+|turn|21
+|c|★Enigami|You've had enough hax.
+|c|★Enigami|:P
+|c|★Sederts|lol :P
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|692\/703
+|move|p1a: Jynx|Blizzard|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|431\/703
+|
+|turn|22
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703
+|move|p1a: Jynx|Blizzard|p2a: Chansey|[miss]
+|-miss|p1a: Jynx
+|
+|turn|23
+|c|★Sederts|isn't it 30% in gen 1 tho
+|
+|move|p2a: Chansey|Ice Beam|p1a: Jynx
+|-resisted|p1a: Jynx
+|-damage|p1a: Jynx|191\/333 par
+|cant|p1a: Jynx|par
+|
+|turn|24
+|c|★Enigami|Only for Japan.
+|c|★Sederts|i always forget
+|c|★Sederts|ah ok
+|c|★Sederts|we're playing under american rules?
+|
+|move|p2a: Chansey|Thunder Wave|p1a: Jynx
+|-fail|p1a: Jynx|par
+|move|p1a: Jynx|Lovely Kiss|p2a: Chansey
+|-status|p2a: Chansey|slp
+|
+|turn|25
+|c|★Enigami|Showdown is.
+|c|★Enigami|Oh, not good.
+|
+|switch|p1a: Alakazam|Alakazam|133\/313 par
+|cant|p2a: Chansey|slp
+|
+|turn|26
+|c|★Enigami|I forgot you still could LK.
+|
+|cant|p2a: Chansey|slp
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|289\/313 par
+|
+|turn|27
+|c|★Sederts|:D
+|
+|-curestatus|p2a: Chansey|slp
+|cant|p1a: Alakazam|par
+|
+|turn|28
+|c|★Enigami|:D
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Alakazam|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|339\/393
+|
+|turn|29
+|
+|move|p2a: Exeggutor|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|242\/313 par
+|move|p1a: Alakazam|Thunder Wave|p2a: Exeggutor
+|-status|p2a: Exeggutor|par
+|
+|turn|30
+|
+|cant|p1a: Alakazam|par
+|move|p2a: Exeggutor|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|195\/313 par
+|
+|turn|31
+|
+|move|p1a: Alakazam|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|280\/393 par
+|-unboost|p2a: Exeggutor|spd|1
+|-unboost|p2a: Exeggutor|spa|1
+|move|p2a: Exeggutor|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|163\/313 par
+|-unboost|p1a: Alakazam|spd|1
+|-unboost|p1a: Alakazam|spa|1
+|
+|turn|32
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|cant|p1a: Alakazam|par
+|
+|turn|33
+|c|★Sederts|sorry
+|
+|switch|p2a: Snorlax|Snorlax|226\/523 par
+|switch|p1a: Jynx|Jynx|191\/333 par
+|
+|turn|34
+|
+|move|p1a: Jynx|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|83\/523 par
+|move|p2a: Snorlax|Self-Destruct|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|faint|p2a: Snorlax
+|c|★Sederts|dats ok
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|switch|p2a: Moltres|Moltres|383\/383
+|turn|35
+|
+|move|p1a: Tauros|Body Slam|p2a: Moltres
+|-crit|p2a: Moltres
+|-damage|p2a: Moltres|187\/383
+|move|p2a: Moltres|Agility|p2a: Moltres
+|-boost|p2a: Moltres|spe|2
+|
+|turn|36
+|c|★Sederts|o nic
+|c|★Sederts|wait
+|
+|move|p2a: Moltres|Fire Blast|p1a: Tauros
+|-damage|p1a: Tauros|130\/353
+|-status|p1a: Tauros|brn
+|move|p1a: Tauros|Blizzard|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|66\/383
+|-damage|p1a: Tauros|108\/353 brn|[from] brn|[of] p2a: Moltres
+|
+|turn|37
+|c|★Sederts|why did i not
+|c|★Enigami|COUNTER HAX
+|
+|move|p2a: Moltres|Fire Blast|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|c|★Sederts|nb nb
+|
+|switch|p1a: Chansey|Chansey|592\/703
+|turn|38
+|
+|move|p2a: Moltres|Hyper Beam|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|c|★Sederts|fk
+|c|★Enigami|WAT
+|
+|switch|p1a: Alakazam|Alakazam|163\/313 par
+|turn|39
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Moltres|Hyper Beam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|256\/393
+|
+|turn|40
+|-mustrecharge|p2a: Moltres
+|c|★Enigami|Aw.
+|-mustrecharge|p2a: Moltres
+|
+|cant|p2a: Moltres|recharge
+|move|p1a: Exeggutor|Stun Spore|p2a: Moltres
+|-status|p2a: Moltres|par
+|
+|turn|41
+|
+|move|p1a: Exeggutor|Psychic|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|
+|switch|p2a: Exeggutor|Exeggutor|280\/393 par
+|turn|42
+|
+|switch|p1a: Alakazam|Alakazam|163\/313 par
+|move|p2a: Exeggutor|Sleep Powder|p1a: Alakazam
+|-fail|p1a: Alakazam
+|
+|turn|43
+|c|★Sederts|ez
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|313\/313 par
+|
+|turn|44
+|
+|move|p2a: Tauros|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|167\/313 par
+|cant|p1a: Alakazam|par
+|
+|turn|45
+|c|★Sederts|FK
+|
+|move|p2a: Tauros|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|12\/313 par
+|move|p1a: Alakazam|Thunder Wave|p2a: Tauros
+|-status|p2a: Tauros|par
+|
+|turn|46
+|c|★Enigami|Nuts.
+|c|★Sederts|yee
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|168\/313 par
+|move|p2a: Tauros|Hyper Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|c|★Enigami|rip
+|
+|switch|p1a: Exeggutor|Exeggutor|256\/393
+|turn|47
+|
+|switch|p2a: Exeggutor|Exeggutor|280\/393 par
+|move|p1a: Exeggutor|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|226\/393 par
+|-unboost|p2a: Exeggutor|spd|1
+|-unboost|p2a: Exeggutor|spa|1
+|
+|turn|48
+|
+|switch|p1a: Snorlax|Snorlax|353\/523 slp
+|cant|p2a: Exeggutor|par
+|
+|turn|49
+|
+|-curestatus|p1a: Snorlax|slp
+|cant|p2a: Exeggutor|par
+|
+|turn|50
+|
+|move|p1a: Snorlax|Reflect|p1a: Snorlax
+|-start|p1a: Snorlax|Reflect
+|move|p2a: Exeggutor|Sleep Powder|p1a: Snorlax
+|-status|p1a: Snorlax|slp
+|
+|turn|51
+|
+|switch|p2a: Tauros|Tauros|353\/353 par
+|cant|p1a: Snorlax|slp
+|
+|turn|52
+|
+|cant|p1a: Snorlax|slp
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|286\/523 slp
+|
+|turn|53
+|
+|cant|p1a: Snorlax|slp
+|cant|p2a: Tauros|par
+|
+|turn|54
+|c|★Sederts|pls no 6 turns
+|
+|-curestatus|p1a: Snorlax|slp
+|cant|p2a: Tauros|par
+|
+|turn|55
+|
+|move|p1a: Snorlax|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|234\/353 par
+|cant|p2a: Tauros|par
+|
+|turn|56
+|c|★Enigami|Ugh.
+|
+|switch|p2a: Exeggutor|Exeggutor|226\/393 par
+|move|p1a: Snorlax|Body Slam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|114\/393 par
+|
+|turn|57
+|
+|move|p1a: Snorlax|Hyper Beam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|c|★Sederts|THE REVEAL
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|turn|58
+|
+|move|p2a: Chansey|Reflect|p2a: Chansey
+|-start|p2a: Chansey|Reflect
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp
+|-heal|p1a: Snorlax|523\/523 slp|[silent]
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|
+|turn|59
+|c|★Sederts|ooh thats rough
+|c|★Sederts|hmmm
+|
+|switch|p1a: Exeggutor|Exeggutor|256\/393
+|move|p2a: Chansey|Thunder Wave|p1a: Exeggutor
+|-status|p1a: Exeggutor|par
+|
+|turn|60
+|c|★Sederts|dem reads
+|
+|move|p2a: Chansey|Ice Beam|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|119\/393 par
+|move|p1a: Exeggutor|Leech Seed|p2a: Chansey
+|-start|p2a: Chansey|move: Leech Seed
+|
+|turn|61
+|c|★Sederts|misclick
+|c|★Sederts|fk
+|
+|switch|p1a: Snorlax|Snorlax|523\/523 slp
+|move|p2a: Chansey|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|417\/523 slp
+|-damage|p2a: Chansey|660\/703|[from] Leech Seed|[of] p1a: Snorlax
+|-heal|p1a: Snorlax|460\/523 slp|[silent]
+|
+|turn|62
+|
+|switch|p2a: Tauros|Tauros|234\/353 par
+|switch|p1a: Exeggutor|Exeggutor|119\/393 par
+|
+|turn|63
+|
+|move|p2a: Tauros|Blizzard|p1a: Exeggutor|[miss]
+|-miss|p2a: Tauros
+|move|p1a: Exeggutor|Rest|p1a: Exeggutor
+|-status|p1a: Exeggutor|slp
+|-heal|p1a: Exeggutor|393\/393 slp|[silent]
+|-status|p1a: Exeggutor|slp|[from] move: Rest
+|
+|turn|64
+|c|★Enigami|Bad Tauros.
+|c|★Sederts|ouch
+|c|★Sederts|sorry
+|
+|switch|p1a: Snorlax|Snorlax|460\/523 slp
+|move|p2a: Tauros|Blizzard|p1a: Snorlax
+|-damage|p1a: Snorlax|364\/523 slp
+|
+|turn|65
+|
+|switch|p2a: Chansey|Chansey|660\/703
+|cant|p1a: Snorlax|slp
+|
+|turn|66
+|
+|move|p2a: Chansey|Reflect|p2a: Chansey
+|-start|p2a: Chansey|Reflect
+|-curestatus|p1a: Snorlax|slp
+|
+|turn|67
+|c|★Sederts|crit hyper beam ohkos hmmm
+|
+|move|p2a: Chansey|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|256\/523
+|move|p1a: Snorlax|Hyper Beam|p2a: Chansey
+|-damage|p2a: Chansey|403\/703
+|
+|turn|68
+|-mustrecharge|p1a: Snorlax
+|-mustrecharge|p1a: Snorlax
+|
+|move|p2a: Chansey|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|162\/523
+|cant|p1a: Snorlax|recharge
+|
+|turn|69
+|
+|move|p2a: Chansey|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|59\/523
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp
+|-heal|p1a: Snorlax|523\/523 slp|[silent]
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|
+|turn|70
+|c|★Enigami|ARGH
+|
+|move|p2a: Chansey|Thunder Wave|p1a: Snorlax
+|-fail|p1a: Snorlax
+|cant|p1a: Snorlax|slp
+|
+|turn|71
+|
+|move|p2a: Chansey|Thunder Wave|p1a: Snorlax
+|-fail|p1a: Snorlax
+|-curestatus|p1a: Snorlax|slp
+|
+|turn|72
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393 slp
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703
+|
+|turn|73
+|
+|cant|p1a: Exeggutor|slp
+|move|p2a: Chansey|Ice Beam|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|265\/393 slp
+|
+|turn|74
+|
+|-curestatus|p1a: Exeggutor|slp
+|move|p2a: Chansey|Ice Beam|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|133\/393
+|
+|turn|75
+|c|★Sederts|you need max roll
+|
+|switch|p2a: Tauros|Tauros|234\/353 par
+|move|p1a: Exeggutor|Stun Spore|p2a: Tauros
+|-fail|p2a: Tauros|par
+|
+|turn|76
+|
+|move|p1a: Exeggutor|Rest|p1a: Exeggutor
+|-status|p1a: Exeggutor|slp
+|-heal|p1a: Exeggutor|393\/393 slp|[silent]
+|-status|p1a: Exeggutor|slp|[from] move: Rest
+|move|p2a: Tauros|Blizzard|p1a: Exeggutor|[miss]
+|-miss|p2a: Tauros
+|
+|turn|77
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: Tauros|Blizzard|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|327\/523
+|
+|turn|78
+|c|★Enigami|Garbage Tauros.
+|
+|move|p1a: Snorlax|Reflect|p1a: Snorlax
+|-start|p1a: Snorlax|Reflect
+|move|p2a: Tauros|Blizzard|p1a: Snorlax
+|-damage|p1a: Snorlax|231\/523
+|
+|turn|79
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Snorlax|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|414\/703
+|
+|turn|80
+|
+|move|p2a: Chansey|Reflect|p2a: Chansey
+|-start|p2a: Chansey|Reflect
+|move|p1a: Snorlax|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|265\/703
+|
+|turn|81
+|c|★Sederts|crit rn
+|c|★Sederts|q_q
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|616\/703
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp
+|-heal|p1a: Snorlax|523\/523 slp|[silent]
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|
+|turn|82
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393 slp
+|move|p2a: Chansey|Thunder Wave|p1a: Exeggutor
+|-fail|p1a: Exeggutor
+|
+|turn|83
+|
+|switch|p1a: Snorlax|Snorlax|523\/523 slp
+|move|p2a: Chansey|Thunder Wave|p1a: Snorlax
+|-fail|p1a: Snorlax
+|
+|turn|84
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393 slp
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703
+|
+|turn|85
+|
+|switch|p2a: Tauros|Tauros|234\/353 par
+|cant|p1a: Exeggutor|slp
+|
+|turn|86
+|
+|-curestatus|p1a: Exeggutor|slp
+|move|p2a: Tauros|Blizzard|p1a: Exeggutor|[miss]
+|-miss|p2a: Tauros
+|
+|turn|87
+|c|★Sederts|my god
+|c|★Sederts|you missed
+|
+|move|p1a: Exeggutor|Psychic|p2a: Tauros
+|-damage|p2a: Tauros|66\/353 par
+|move|p2a: Tauros|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|280\/393
+|
+|turn|88
+|c|★Sederts|like 4 of them
+|c|★Enigami|Worst.
+|c|★Enigami|Tauros.
+|c|★Enigami|Ever.
+|c|★Sederts|ikr
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Exeggutor|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|590\/703
+|
+|turn|89
+|
+|move|p1a: Exeggutor|Stun Spore|p2a: Chansey
+|-status|p2a: Chansey|par
+|cant|p2a: Chansey|par
+|
+|turn|90
+|
+|move|p1a: Exeggutor|Leech Seed|p2a: Chansey
+|-start|p2a: Chansey|move: Leech Seed
+|cant|p2a: Chansey|par
+|-damage|p2a: Chansey|547\/703 par|[from] Leech Seed|[of] p1a: Exeggutor
+|-heal|p1a: Exeggutor|323\/393|[silent]
+|
+|turn|91
+|
+|move|p1a: Exeggutor|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|420\/703 par
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|move|p2a: Chansey|Thunder Wave|p1a: Exeggutor
+|-status|p1a: Exeggutor|par
+|-damage|p2a: Chansey|377\/703 par|[from] Leech Seed|[of] p1a: Exeggutor
+|-heal|p1a: Exeggutor|366\/393 par|[silent]
+|
+|turn|92
+|
+|move|p1a: Exeggutor|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|200\/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|551\/703 par
+|-damage|p2a: Chansey|508\/703 par|[from] Leech Seed|[of] p1a: Exeggutor
+|-heal|p1a: Exeggutor|393\/393 par|[silent]
+|
+|turn|93
+|
+|move|p1a: Exeggutor|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|313\/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|664\/703 par
+|-damage|p2a: Chansey|621\/703 par|[from] Leech Seed|[of] p1a: Exeggutor
+|
+|turn|94
+|c|★Sederts|sorry for bringing the equivalent of rby stall
+|
+|cant|p1a: Exeggutor|par
+|move|p2a: Chansey|Thunder Wave|p1a: Exeggutor
+|-fail|p1a: Exeggutor|par
+|-damage|p2a: Chansey|578\/703 par|[from] Leech Seed|[of] p1a: Exeggutor
+|
+|turn|95
+|c|★Sederts|lol
+|
+|move|p1a: Exeggutor|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|384\/703 par
+|cant|p2a: Chansey|par
+|-damage|p2a: Chansey|341\/703 par|[from] Leech Seed|[of] p1a: Exeggutor
+|
+|turn|96
+|
+|move|p1a: Exeggutor|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|143\/703 par
+|cant|p2a: Chansey|par
+|-damage|p2a: Chansey|100\/703 par|[from] Leech Seed|[of] p1a: Exeggutor
+|
+|turn|97
+|c|★Sederts|o nb
+|c|★Sederts|only 1 special drop tho
+|c|★Sederts|where are my damn
+|c|★Enigami|Just 1 freeze would've won me thegame.
+|c|★Sederts|special drops
+|
+|switch|p2a: Tauros|Tauros|66\/353 par
+|move|p1a: Exeggutor|Psychic|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|c|★Sederts|yeah you needed the freeze
+|
+|switch|p2a: Chansey|Chansey|100\/703 par
+|turn|98
+|c|★Sederts|i made sure my pokes were sleeping on most of the ibs\/blizzs tho
+|c|★Sederts|i think
+|c|★Sederts|you got like
+|c|★Sederts|4
+|c|★Sederts|ibs\/blizzs
+|c|★Enigami|Pretty sure I hit Snorlax more than that.
+|c|★Sederts|on a non sleeping mons
+|c|★Sederts|n
+|c|★Sederts|you only used ice beam 9 times
+|c|★Sederts|and most of them were sleeping
+|c|★Sederts|turn 67\/68\/69
+|c|★Sederts|were the only ones
+|c|★Sederts|on lax
+|c|★Enigami|Just go.
+|c|★Sederts|that was not sleeping
+|
+|cant|p1a: Exeggutor|par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|451\/703 par
+|
+|turn|99
+|
+|move|p1a: Exeggutor|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|334\/703 par
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|move|p2a: Chansey|Ice Beam|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|305\/393 par
+|
+|turn|100
+|c|★Enigami|gg
+|-message|Enigami forfeited.
+|
+|win|Sederts
+|c|★Sederts|gg
+|leave|Enigami
+|player|p2

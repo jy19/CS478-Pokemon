@@ -1,0 +1,681 @@
+﻿|join|SinisterHFigure
+|join|melo245
+|player|p1|SinisterHFigure|269
+|player|p2|melo245|52
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Rapidash|Rapidash|333\/333
+|switch|p2a: Dragonite|Dragonite|385\/385
+|turn|1
+|
+|move|p1a: Rapidash|Agility|p1a: Rapidash
+|-boost|p1a: Rapidash|spe|2
+|move|p2a: Dragonite|Toxic|p1a: Rapidash
+|-status|p1a: Rapidash|tox
+|
+|turn|2
+|
+|switch|p1a: Victreebel|Victreebel|363\/363
+|move|p2a: Dragonite|Hyper Beam|p1a: Victreebel
+|-crit|p1a: Victreebel
+|-damage|p1a: Victreebel|0 fnt
+|faint|p1a: Victreebel
+|
+|switch|p1a: Dragonair|Dragonair|325\/325
+|turn|3
+|
+|switch|p2a: Hypstoise|Blastoise|361\/361
+|move|p1a: Dragonair|Thunder Wave|p2a: Hypstoise
+|-status|p2a: Hypstoise|par
+|
+|turn|4
+|
+|move|p1a: Dragonair|Wrap|p2a: Hypstoise
+|-damage|p2a: Hypstoise|350\/361 par
+|-activate|p2a: Hypstoise|move: Wrap|[of] p1a: Dragonair
+|cant|p2a: Hypstoise|partiallytrapped
+|
+|turn|5
+|
+|switch|p1a: Cloyster|Cloyster|303\/303
+|cant|p2a: Hypstoise|par
+|
+|-end|p2a: Hypstoise|Wrap|[partiallytrapped]
+|turn|6
+|
+|switch|p2a: Raichu|Raichu|323\/323
+|move|p1a: Cloyster|Clamp|p2a: Raichu
+|-damage|p2a: Raichu|279\/323
+|-activate|p2a: Raichu|move: Clamp|[of] p1a: Cloyster
+|
+|turn|7
+|
+|cant|p2a: Raichu|partiallytrapped
+|move|p1a: Cloyster|Clamp|p2a: Raichu
+|-damage|p2a: Raichu|235\/323
+|
+|-end|p2a: Raichu|Clamp|[partiallytrapped]
+|turn|8
+|
+|switch|p1a: Dragonair|Dragonair|325\/325
+|move|p2a: Raichu|Thunderbolt|p1a: Dragonair
+|-resisted|p1a: Dragonair
+|-damage|p1a: Dragonair|261\/325
+|
+|turn|9
+|
+|move|p2a: Raichu|Thunder Wave|p1a: Dragonair
+|-status|p1a: Dragonair|par
+|cant|p1a: Dragonair|par
+|
+|turn|10
+|
+|move|p2a: Raichu|Hyper Beam|p1a: Dragonair
+|-damage|p1a: Dragonair|145\/325 par
+|move|p1a: Dragonair|Thunder Wave|p2a: Raichu
+|-status|p2a: Raichu|par
+|
+|turn|11
+|-mustrecharge|p2a: Raichu
+|-mustrecharge|p2a: Raichu
+|
+|cant|p2a: Raichu|recharge
+|move|p1a: Dragonair|Wrap|p2a: Raichu|[miss]
+|-miss|p1a: Dragonair
+|
+|turn|12
+|
+|move|p2a: Raichu|Thunderbolt|p1a: Dragonair
+|-resisted|p1a: Dragonair
+|-damage|p1a: Dragonair|84\/325 par
+|move|p1a: Dragonair|Wrap|p2a: Raichu|[miss]
+|-miss|p1a: Dragonair
+|
+|turn|13
+|
+|move|p2a: Raichu|Surf|p1a: Dragonair
+|-crit|p1a: Dragonair
+|-resisted|p1a: Dragonair
+|-damage|p1a: Dragonair|0 fnt
+|faint|p1a: Dragonair
+|
+|switch|p1a: Rapidash|Rapidash|333\/333 tox
+|-status|p1a: Rapidash|psn
+|turn|14
+|
+|move|p1a: Rapidash|Fire Spin|p2a: Raichu|[miss]
+|-miss|p1a: Rapidash
+|-damage|p1a: Rapidash|313\/333 psn|[from] psn|[of] p2a: Raichu
+|cant|p2a: Raichu|par
+|
+|turn|15
+|
+|move|p1a: Rapidash|Fire Spin|p2a: Raichu|[miss]
+|-miss|p1a: Rapidash
+|-damage|p1a: Rapidash|293\/333 psn|[from] psn|[of] p2a: Raichu
+|move|p2a: Raichu|Surf|p1a: Rapidash
+|-supereffective|p1a: Rapidash
+|-damage|p1a: Rapidash|118\/333 psn
+|
+|turn|16
+|
+|move|p1a: Rapidash|Fire Blast|p2a: Raichu
+|-damage|p2a: Raichu|93\/323 par
+|-damage|p1a: Rapidash|98\/333 psn|[from] psn|[of] p2a: Raichu
+|cant|p2a: Raichu|par
+|
+|turn|17
+|
+|move|p1a: Rapidash|Body Slam|p2a: Raichu
+|-damage|p2a: Raichu|3\/323 par
+|-damage|p1a: Rapidash|78\/333 psn|[from] psn|[of] p2a: Raichu
+|move|p2a: Raichu|Surf|p1a: Rapidash
+|-supereffective|p1a: Rapidash
+|-damage|p1a: Rapidash|0 fnt
+|faint|p1a: Rapidash
+|
+|switch|p1a: Arbok|Arbok|323\/323
+|turn|18
+|
+|switch|p2a: Arcanine|Arcanine|383\/383
+|move|p1a: Arbok|Earthquake|p2a: Arcanine
+|-crit|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|56\/383
+|
+|turn|19
+|
+|switch|p1a: Dragonite|Dragonite|385\/385
+|move|p2a: Arcanine|Fire Blast|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|327\/385
+|-status|p1a: Dragonite|brn
+|
+|turn|20
+|
+|switch|p2a: Hypstoise|Blastoise|350\/361 par
+|move|p1a: Dragonite|Agility|p1a: Dragonite
+|-boost|p1a: Dragonite|spe|2
+|-damage|p1a: Dragonite|303\/385 brn|[from] brn
+|
+|turn|21
+|
+|move|p1a: Dragonite|Wrap|p2a: Hypstoise
+|-crit|p2a: Hypstoise
+|-damage|p2a: Hypstoise|320\/361 par
+|-activate|p2a: Hypstoise|move: Wrap|[of] p1a: Dragonite
+|-damage|p1a: Dragonite|279\/385 brn|[from] brn|[of] p2a: Hypstoise
+|cant|p2a: Hypstoise|partiallytrapped
+|
+|turn|22
+|
+|switch|p1a: Cloyster|Cloyster|303\/303
+|cant|p2a: Hypstoise|partiallytrapped
+|
+|-end|p2a: Hypstoise|Wrap|[partiallytrapped]
+|turn|23
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|move|p1a: Cloyster|Clamp|p2a: Gengar
+|-damage|p2a: Gengar|291\/323
+|-activate|p2a: Gengar|move: Clamp|[of] p1a: Cloyster
+|
+|turn|24
+|
+|switch|p1a: Arbok|Arbok|323\/323
+|cant|p2a: Gengar|partiallytrapped
+|
+|-end|p2a: Gengar|Clamp|[partiallytrapped]
+|turn|25
+|
+|move|p2a: Gengar|Hypnosis|p1a: Arbok|[miss]
+|-miss|p2a: Gengar
+|move|p1a: Arbok|Glare|p2a: Gengar
+|-status|p2a: Gengar|par
+|
+|turn|26
+|
+|move|p1a: Arbok|Wrap|p2a: Gengar
+|-damage|p2a: Gengar|291\/323 par
+|-activate|p2a: Gengar|move: Wrap|[of] p1a: Arbok
+|cant|p2a: Gengar|partiallytrapped
+|
+|turn|27
+|
+|switch|p2a: Arcanine|Arcanine|56\/383
+|move|p1a: Arbok|Wrap|p2a: Arcanine
+|-damage|p2a: Arcanine|44\/383
+|-activate|p2a: Arcanine|move: Wrap|[of] p1a: Arbok
+|
+|turn|28
+|
+|cant|p2a: Arcanine|partiallytrapped
+|move|p1a: Arbok|Wrap|p2a: Arcanine
+|-damage|p2a: Arcanine|32\/383
+|
+|turn|29
+|
+|cant|p2a: Arcanine|partiallytrapped
+|move|p1a: Arbok|Wrap|p2a: Arcanine
+|-damage|p2a: Arcanine|20\/383
+|
+|turn|30
+|
+|switch|p1a: Dragonite|Dragonite|279\/385 brn
+|-damage|p1a: Dragonite|255\/385 brn|[from] brn
+|cant|p2a: Arcanine|partiallytrapped
+|
+|-end|p2a: Arcanine|Wrap|[partiallytrapped]
+|turn|31
+|
+|switch|p2a: Hypstoise|Blastoise|320\/361 par
+|move|p1a: Dragonite|Surf|p2a: Hypstoise
+|-resisted|p2a: Hypstoise
+|-damage|p2a: Hypstoise|278\/361 par
+|-damage|p1a: Dragonite|231\/385 brn|[from] brn|[of] p2a: Hypstoise
+|
+|turn|32
+|
+|move|p1a: Dragonite|Wrap|p2a: Hypstoise|[miss]
+|-miss|p1a: Dragonite
+|-damage|p1a: Dragonite|207\/385 brn|[from] brn|[of] p2a: Hypstoise
+|move|p2a: Hypstoise|Body Slam|p1a: Dragonite
+|-damage|p1a: Dragonite|162\/385 brn
+|
+|turn|33
+|
+|move|p1a: Dragonite|Wrap|p2a: Hypstoise
+|-damage|p2a: Hypstoise|276\/361 par
+|-activate|p2a: Hypstoise|move: Wrap|[of] p1a: Dragonite
+|-damage|p1a: Dragonite|138\/385 brn|[from] brn|[of] p2a: Hypstoise
+|cant|p2a: Hypstoise|partiallytrapped
+|
+|turn|34
+|
+|switch|p1a: Cloyster|Cloyster|303\/303
+|cant|p2a: Hypstoise|partiallytrapped
+|
+|-end|p2a: Hypstoise|Wrap|[partiallytrapped]
+|turn|35
+|
+|move|p1a: Cloyster|Clamp|p2a: Hypstoise
+|-resisted|p2a: Hypstoise
+|-damage|p2a: Hypstoise|256\/361 par
+|-activate|p2a: Hypstoise|move: Clamp|[of] p1a: Cloyster
+|cant|p2a: Hypstoise|partiallytrapped
+|
+|turn|36
+|
+|move|p1a: Cloyster|Clamp|p2a: Hypstoise
+|-damage|p2a: Hypstoise|236\/361 par
+|cant|p2a: Hypstoise|partiallytrapped
+|
+|turn|37
+|
+|move|p1a: Cloyster|Clamp|p2a: Hypstoise
+|-damage|p2a: Hypstoise|216\/361 par
+|cant|p2a: Hypstoise|partiallytrapped
+|
+|turn|38
+|
+|move|p1a: Cloyster|Clamp|p2a: Hypstoise
+|-damage|p2a: Hypstoise|196\/361 par
+|cant|p2a: Hypstoise|partiallytrapped
+|
+|-end|p2a: Hypstoise|Clamp|[partiallytrapped]
+|turn|39
+|
+|move|p1a: Cloyster|Clamp|p2a: Hypstoise|[miss]
+|-miss|p1a: Cloyster
+|move|p2a: Hypstoise|Earthquake|p1a: Cloyster
+|-damage|p1a: Cloyster|265\/303
+|
+|turn|40
+|
+|switch|p2a: Gengar|Gengar|291\/323 par
+|move|p1a: Cloyster|Clamp|p2a: Gengar
+|-damage|p2a: Gengar|258\/323 par
+|-activate|p2a: Gengar|move: Clamp|[of] p1a: Cloyster
+|
+|turn|41
+|
+|move|p1a: Cloyster|Clamp|p2a: Gengar
+|-damage|p2a: Gengar|225\/323 par
+|cant|p2a: Gengar|partiallytrapped
+|
+|turn|42
+|
+|move|p1a: Cloyster|Clamp|p2a: Gengar
+|-damage|p2a: Gengar|192\/323 par
+|cant|p2a: Gengar|partiallytrapped
+|
+|-end|p2a: Gengar|Clamp|[partiallytrapped]
+|turn|43
+|
+|switch|p2a: Raichu|Raichu|3\/323 par
+|move|p1a: Cloyster|Clamp|p2a: Raichu
+|-damage|p2a: Raichu|0 fnt
+|faint|p2a: Raichu
+|
+|switch|p2a: Nidoking|Nidoking|365\/365
+|turn|44
+|
+|move|p2a: Nidoking|Thunderbolt|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|134\/303
+|move|p1a: Cloyster|Blizzard|p2a: Nidoking
+|-supereffective|p2a: Nidoking
+|-damage|p2a: Nidoking|82\/365
+|
+|turn|45
+|
+|move|p2a: Nidoking|Thunderbolt|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|switch|p1a: Dragonite|Dragonite|138\/385 brn
+|turn|46
+|
+|move|p2a: Nidoking|Blizzard|p1a: Dragonite|[miss]
+|-miss|p2a: Nidoking
+|move|p1a: Dragonite|Surf|p2a: Nidoking
+|-supereffective|p2a: Nidoking
+|-damage|p2a: Nidoking|0 fnt
+|faint|p2a: Nidoking
+|
+|switch|p2a: Hypstoise|Blastoise|196\/361 par
+|turn|47
+|
+|move|p1a: Dragonite|Wrap|p2a: Hypstoise|[miss]
+|-miss|p1a: Dragonite
+|-damage|p1a: Dragonite|114\/385 brn|[from] brn|[of] p2a: Hypstoise
+|move|p2a: Hypstoise|Blizzard|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|switch|p1a: Arbok|Arbok|323\/323
+|turn|48
+|
+|move|p1a: Arbok|Wrap|p2a: Hypstoise
+|-damage|p2a: Hypstoise|185\/361 par
+|-activate|p2a: Hypstoise|move: Wrap|[of] p1a: Arbok
+|cant|p2a: Hypstoise|partiallytrapped
+|
+|turn|49
+|
+|move|p1a: Arbok|Wrap|p2a: Hypstoise
+|-damage|p2a: Hypstoise|174\/361 par
+|cant|p2a: Hypstoise|partiallytrapped
+|
+|-end|p2a: Hypstoise|Wrap|[partiallytrapped]
+|turn|50
+|
+|move|p1a: Arbok|Wrap|p2a: Hypstoise
+|-damage|p2a: Hypstoise|162\/361 par
+|-activate|p2a: Hypstoise|move: Wrap|[of] p1a: Arbok
+|cant|p2a: Hypstoise|partiallytrapped
+|
+|turn|51
+|
+|move|p1a: Arbok|Wrap|p2a: Hypstoise
+|-damage|p2a: Hypstoise|150\/361 par
+|cant|p2a: Hypstoise|par
+|
+|turn|52
+|
+|move|p1a: Arbok|Wrap|p2a: Hypstoise
+|-damage|p2a: Hypstoise|138\/361 par
+|cant|p2a: Hypstoise|par
+|
+|turn|53
+|
+|move|p1a: Arbok|Wrap|p2a: Hypstoise
+|-damage|p2a: Hypstoise|126\/361 par
+|cant|p2a: Hypstoise|partiallytrapped
+|
+|-end|p2a: Hypstoise|Wrap|[partiallytrapped]
+|turn|54
+|
+|move|p1a: Arbok|Wrap|p2a: Hypstoise
+|-damage|p2a: Hypstoise|115\/361 par
+|-activate|p2a: Hypstoise|move: Wrap|[of] p1a: Arbok
+|cant|p2a: Hypstoise|partiallytrapped
+|
+|turn|55
+|
+|move|p1a: Arbok|Wrap|p2a: Hypstoise
+|-damage|p2a: Hypstoise|104\/361 par
+|cant|p2a: Hypstoise|partiallytrapped
+|
+|turn|56
+|
+|move|p1a: Arbok|Wrap|p2a: Hypstoise
+|-damage|p2a: Hypstoise|93\/361 par
+|cant|p2a: Hypstoise|par
+|
+|turn|57
+|
+|move|p1a: Arbok|Wrap|p2a: Hypstoise
+|-damage|p2a: Hypstoise|82\/361 par
+|cant|p2a: Hypstoise|partiallytrapped
+|
+|-end|p2a: Hypstoise|Wrap|[partiallytrapped]
+|turn|58
+|
+|move|p1a: Arbok|Hyper Beam|p2a: Hypstoise
+|-damage|p2a: Hypstoise|0 fnt
+|faint|p2a: Hypstoise
+|
+|switch|p2a: Dragonite|Dragonite|385\/385
+|turn|59
+|
+|move|p2a: Dragonite|Fire Blast|p1a: Arbok
+|-damage|p1a: Arbok|196\/323
+|move|p1a: Arbok|Glare|p2a: Dragonite
+|-status|p2a: Dragonite|par
+|
+|turn|60
+|
+|move|p1a: Arbok|Wrap|p2a: Dragonite
+|-damage|p2a: Dragonite|374\/385 par
+|-activate|p2a: Dragonite|move: Wrap|[of] p1a: Arbok
+|cant|p2a: Dragonite|partiallytrapped
+|
+|turn|61
+|
+|move|p1a: Arbok|Wrap|p2a: Dragonite
+|-damage|p2a: Dragonite|363\/385 par
+|cant|p2a: Dragonite|partiallytrapped
+|
+|turn|62
+|
+|move|p1a: Arbok|Wrap|p2a: Dragonite
+|-damage|p2a: Dragonite|352\/385 par
+|cant|p2a: Dragonite|partiallytrapped
+|
+|turn|63
+|
+|move|p1a: Arbok|Wrap|p2a: Dragonite
+|-damage|p2a: Dragonite|341\/385 par
+|cant|p2a: Dragonite|par
+|
+|turn|64
+|
+|move|p1a: Arbok|Wrap|p2a: Dragonite
+|-damage|p2a: Dragonite|330\/385 par
+|cant|p2a: Dragonite|partiallytrapped
+|
+|-end|p2a: Dragonite|Wrap|[partiallytrapped]
+|turn|65
+|
+|switch|p2a: Arcanine|Arcanine|20\/383
+|move|p1a: Arbok|Wrap|p2a: Arcanine
+|-crit|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|switch|p2a: Gengar|Gengar|192\/323 par
+|turn|66
+|
+|move|p1a: Arbok|Earthquake|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|7\/323 par
+|move|p2a: Gengar|Hypnosis|p1a: Arbok
+|-status|p1a: Arbok|slp
+|
+|turn|67
+|
+|cant|p1a: Arbok|slp
+|move|p2a: Gengar|Toxic|p1a: Arbok
+|-fail|p1a: Arbok
+|
+|turn|68
+|
+|cant|p1a: Arbok|slp
+|-curestatus|p1a: Arbok|slp
+|move|p2a: Gengar|Dream Eater|p1a: Arbok
+|-immune|p1a: Arbok|[msg]
+|
+|turn|69
+|
+|move|p1a: Arbok|Earthquake|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|switch|p2a: Dragonite|Dragonite|330\/385 par
+|turn|70
+|
+|move|p1a: Arbok|Wrap|p2a: Dragonite
+|-damage|p2a: Dragonite|318\/385 par
+|-activate|p2a: Dragonite|move: Wrap|[of] p1a: Arbok
+|cant|p2a: Dragonite|partiallytrapped
+|
+|turn|71
+|
+|move|p1a: Arbok|Wrap|p2a: Dragonite
+|-damage|p2a: Dragonite|306\/385 par
+|cant|p2a: Dragonite|par
+|
+|-end|p2a: Dragonite|Wrap|[partiallytrapped]
+|turn|72
+|
+|move|p1a: Arbok|Wrap|p2a: Dragonite
+|-damage|p2a: Dragonite|294\/385 par
+|-activate|p2a: Dragonite|move: Wrap|[of] p1a: Arbok
+|cant|p2a: Dragonite|partiallytrapped
+|
+|turn|73
+|
+|move|p1a: Arbok|Wrap|p2a: Dragonite
+|-damage|p2a: Dragonite|282\/385 par
+|cant|p2a: Dragonite|partiallytrapped
+|
+|-end|p2a: Dragonite|Wrap|[partiallytrapped]
+|turn|74
+|
+|move|p1a: Arbok|Wrap|p2a: Dragonite
+|-damage|p2a: Dragonite|271\/385 par
+|-activate|p2a: Dragonite|move: Wrap|[of] p1a: Arbok
+|cant|p2a: Dragonite|partiallytrapped
+|
+|turn|75
+|
+|move|p1a: Arbok|Wrap|p2a: Dragonite
+|-damage|p2a: Dragonite|260\/385 par
+|cant|p2a: Dragonite|partiallytrapped
+|
+|-end|p2a: Dragonite|Wrap|[partiallytrapped]
+|turn|76
+|
+|move|p1a: Arbok|Wrap|p2a: Dragonite
+|-damage|p2a: Dragonite|249\/385 par
+|-activate|p2a: Dragonite|move: Wrap|[of] p1a: Arbok
+|cant|p2a: Dragonite|partiallytrapped
+|
+|turn|77
+|
+|move|p1a: Arbok|Wrap|p2a: Dragonite
+|-damage|p2a: Dragonite|238\/385 par
+|cant|p2a: Dragonite|par
+|
+|turn|78
+|
+|move|p1a: Arbok|Wrap|p2a: Dragonite
+|-damage|p2a: Dragonite|227\/385 par
+|cant|p2a: Dragonite|partiallytrapped
+|
+|-end|p2a: Dragonite|Wrap|[partiallytrapped]
+|turn|79
+|
+|move|p1a: Arbok|Wrap|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-damage|p2a: Dragonite|206\/385 par
+|-activate|p2a: Dragonite|move: Wrap|[of] p1a: Arbok
+|cant|p2a: Dragonite|partiallytrapped
+|
+|turn|80
+|
+|move|p1a: Arbok|Wrap|p2a: Dragonite
+|-damage|p2a: Dragonite|185\/385 par
+|cant|p2a: Dragonite|partiallytrapped
+|
+|turn|81
+|
+|move|p1a: Arbok|Wrap|p2a: Dragonite
+|-damage|p2a: Dragonite|164\/385 par
+|cant|p2a: Dragonite|par
+|
+|-end|p2a: Dragonite|Wrap|[partiallytrapped]
+|turn|82
+|
+|move|p1a: Arbok|Wrap|p2a: Dragonite
+|-damage|p2a: Dragonite|153\/385 par
+|-activate|p2a: Dragonite|move: Wrap|[of] p1a: Arbok
+|cant|p2a: Dragonite|partiallytrapped
+|
+|turn|83
+|
+|move|p1a: Arbok|Wrap|p2a: Dragonite
+|-damage|p2a: Dragonite|142\/385 par
+|cant|p2a: Dragonite|par
+|
+|-end|p2a: Dragonite|Wrap|[partiallytrapped]
+|turn|84
+|
+|move|p1a: Arbok|Wrap|p2a: Dragonite
+|-damage|p2a: Dragonite|131\/385 par
+|-activate|p2a: Dragonite|move: Wrap|[of] p1a: Arbok
+|cant|p2a: Dragonite|partiallytrapped
+|
+|turn|85
+|
+|move|p1a: Arbok|Wrap|p2a: Dragonite
+|-damage|p2a: Dragonite|120\/385 par
+|cant|p2a: Dragonite|par
+|
+|-end|p2a: Dragonite|Wrap|[partiallytrapped]
+|turn|86
+|
+|move|p1a: Arbok|Wrap|p2a: Dragonite
+|-damage|p2a: Dragonite|109\/385 par
+|-activate|p2a: Dragonite|move: Wrap|[of] p1a: Arbok
+|cant|p2a: Dragonite|partiallytrapped
+|
+|turn|87
+|
+|move|p1a: Arbok|Wrap|p2a: Dragonite
+|-damage|p2a: Dragonite|98\/385 par
+|cant|p2a: Dragonite|partiallytrapped
+|
+|-end|p2a: Dragonite|Wrap|[partiallytrapped]
+|turn|88
+|
+|move|p1a: Arbok|Wrap|p2a: Dragonite
+|-damage|p2a: Dragonite|86\/385 par
+|-activate|p2a: Dragonite|move: Wrap|[of] p1a: Arbok
+|cant|p2a: Dragonite|par
+|
+|turn|89
+|
+|move|p1a: Arbok|Wrap|p2a: Dragonite
+|-damage|p2a: Dragonite|74\/385 par
+|cant|p2a: Dragonite|partiallytrapped
+|
+|turn|90
+|
+|move|p1a: Arbok|Wrap|p2a: Dragonite
+|-damage|p2a: Dragonite|62\/385 par
+|cant|p2a: Dragonite|partiallytrapped
+|
+|turn|91
+|
+|move|p1a: Arbok|Wrap|p2a: Dragonite
+|-damage|p2a: Dragonite|50\/385 par
+|cant|p2a: Dragonite|partiallytrapped
+|
+|-end|p2a: Dragonite|Wrap|[partiallytrapped]
+|turn|92
+|
+|move|p1a: Arbok|Hyper Beam|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|win|SinisterHFigure
+|raw|Ladder updating...
+|leave|melo245
+|raw|SinisterHFigure's rating: 1058 &rarr; <strong>1084<\/strong><br \/>(+26 for winning)
+|raw|melo245's rating: 1000 &rarr; <strong>1000<\/strong><br \/>(+0 for losing)
+|player|p2

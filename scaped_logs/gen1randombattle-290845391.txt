@@ -1,0 +1,307 @@
+﻿|join|riwu
+|join|bpizzizzle
+|player|p1|riwu|101
+|player|p2|bpizzizzle|252
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|41135,64498,39472,42480
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gloom|Gloom, L90|291\/291
+|switch|p2a: Vileplume|Vileplume, L90|318\/318
+|turn|1
+|choice|move 4|move 4
+|
+|move|p2a: Vileplume|Sleep Powder|p1a: Gloom
+|-status|p1a: Gloom|slp
+|cant|p1a: Gloom|slp
+|
+|turn|2
+|choice|switch 4|move 1
+|
+|switch|p1a: Flareon|Flareon, L90|300\/300
+|move|p2a: Vileplume|Swords Dance|p2a: Vileplume
+|-boost|p2a: Vileplume|atk|2
+|
+|turn|3
+|choice|move 1|switch 6
+|
+|switch|p2a: Metapod|Metapod, L99|300\/300
+|move|p1a: Flareon|Fire Blast|p2a: Metapod
+|-crit|p2a: Metapod
+|-supereffective|p2a: Metapod
+|-damage|p2a: Metapod|0 fnt
+|faint|p2a: Metapod
+|choice||switch 3
+|
+|switch|p2a: Clefairy|Clefairy, L95|326\/326
+|turn|4
+|choice|move 1|move 2
+|
+|move|p1a: Flareon|Fire Blast|p2a: Clefairy
+|-damage|p2a: Clefairy|159\/326
+|move|p2a: Clefairy|Thunder Wave|p1a: Flareon
+|-status|p1a: Flareon|par
+|
+|turn|5
+|choice|move 1|move 4
+|
+|move|p2a: Clefairy|Body Slam|p1a: Flareon
+|-damage|p1a: Flareon|211\/300 par
+|move|p1a: Flareon|Fire Blast|p2a: Clefairy
+|-damage|p2a: Clefairy|0 fnt
+|faint|p2a: Clefairy
+|choice||switch 5
+|
+|switch|p2a: Seel|Seel, L96|320\/320
+|turn|6
+|choice|switch 5|move 2
+|
+|switch|p1a: Alakazam|Alakazam, L79|249\/249
+|move|p2a: Seel|Surf|p1a: Alakazam
+|-damage|p1a: Alakazam|169\/249
+|
+|turn|7
+|choice|move 4|move 3
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Seel
+|-status|p2a: Seel|par
+|move|p2a: Seel|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|88\/249
+|
+|turn|8
+|choice|move 2|move 3
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|212\/249
+|move|p2a: Seel|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|140\/249
+|
+|turn|9
+|choice|move 1|move 3
+|
+|move|p1a: Alakazam|Psychic|p2a: Seel
+|-damage|p2a: Seel|217\/320 par
+|-unboost|p2a: Seel|spd|1
+|-unboost|p2a: Seel|spa|1
+|move|p2a: Seel|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|57\/249
+|
+|turn|10
+|choice|move 2|move 3
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|181\/249
+|cant|p2a: Seel|par
+|
+|turn|11
+|choice|move 1|move 3
+|
+|move|p1a: Alakazam|Psychic|p2a: Seel
+|-damage|p2a: Seel|64\/320 par
+|move|p2a: Seel|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|102\/249
+|-status|p1a: Alakazam|par
+|
+|turn|12
+|choice|move 2|move 3
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|226\/249 par
+|cant|p2a: Seel|par
+|
+|turn|13
+|choice|move 1|move 3
+|
+|cant|p1a: Alakazam|par
+|move|p2a: Seel|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|152\/249 par
+|
+|turn|14
+|choice|move 1|move 3
+|
+|move|p1a: Alakazam|Psychic|p2a: Seel
+|-damage|p2a: Seel|0 fnt
+|faint|p2a: Seel
+|choice||switch 6
+|
+|switch|p2a: Vileplume|Vileplume, L90|318\/318
+|turn|15
+|choice|move 4|move 1
+|
+|move|p2a: Vileplume|Swords Dance|p2a: Vileplume
+|-boost|p2a: Vileplume|atk|2
+|move|p1a: Alakazam|Thunder Wave|p2a: Vileplume
+|-status|p2a: Vileplume|par
+|
+|turn|16
+|choice|switch 3|move 2
+|
+|switch|p1a: Nidoking|Nidoking, L85|311\/311
+|move|p2a: Vileplume|Body Slam|p1a: Nidoking
+|-crit|p1a: Nidoking
+|-damage|p1a: Nidoking|184\/311
+|
+|turn|17
+|choice|move 3|move 2
+|
+|move|p1a: Nidoking|Blizzard|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|183\/318 par
+|move|p2a: Vileplume|Body Slam|p1a: Nidoking
+|-damage|p1a: Nidoking|43\/311
+|
+|turn|18
+|choice|move 1|move 2
+|
+|move|p1a: Nidoking|Earthquake|p2a: Vileplume
+|-damage|p2a: Vileplume|74\/318 par
+|move|p2a: Vileplume|Body Slam|p1a: Nidoking
+|-damage|p1a: Nidoking|0 fnt
+|faint|p1a: Nidoking
+|choice|switch 6|
+|
+|switch|p1a: Vaporeon|Vaporeon, L85|395\/395
+|turn|19
+|choice|move 2|move 3
+|
+|move|p1a: Vaporeon|Blizzard|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|choice||switch 4
+|
+|switch|p2a: Electrode|Electrode, L90|291\/291
+|turn|20
+|choice|move 4|move 3
+|
+|move|p2a: Electrode|Thunderbolt|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|211\/395
+|move|p1a: Vaporeon|Hydro Pump|p2a: Electrode
+|-damage|p2a: Electrode|142\/291
+|
+|turn|21
+|choice|move 4|move 3
+|
+|move|p2a: Electrode|Thunderbolt|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|27\/395
+|move|p1a: Vaporeon|Hydro Pump|p2a: Electrode
+|-crit|p2a: Electrode
+|-damage|p2a: Electrode|0 fnt
+|faint|p2a: Electrode
+|choice||switch 2
+|
+|switch|p2a: Articuno|Articuno, L79|304\/304
+|turn|22
+|c|★riwu|forfeit mayb?
+|c|★riwu|5v1
+|choice|move 2|move 3
+|
+|move|p2a: Articuno|Ice Beam|p1a: Vaporeon
+|-crit|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|choice|switch 3|
+|
+|switch|p1a: Alakazam|Alakazam, L79|152\/249 par
+|turn|23
+|choice|move 4|move 4
+|
+|move|p2a: Articuno|Mimic|p1a: Alakazam
+|-start|p2a: Articuno|Mimic|Recover
+|cant|p1a: Alakazam|par
+|
+|turn|24
+|c|★riwu|wat luck
+|choice|move 4|move 3
+|
+|move|p2a: Articuno|Ice Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|69\/249 par
+|cant|p1a: Alakazam|par
+|
+|turn|25
+|choice|move 4|move 3
+|
+|move|p2a: Articuno|Ice Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|choice|switch 2|
+|
+|switch|p1a: Omastar|Omastar, L90|309\/309
+|turn|26
+|choice|move 2|move 3
+|
+|move|p2a: Articuno|Ice Beam|p1a: Omastar
+|-resisted|p1a: Omastar
+|-damage|p1a: Omastar|267\/309
+|move|p1a: Omastar|Hydro Pump|p2a: Articuno
+|-crit|p2a: Articuno
+|-damage|p2a: Articuno|23\/304
+|
+|turn|27
+|choice|move 2|move 4
+|
+|move|p2a: Articuno|Recover|p2a: Articuno
+|-heal|p2a: Articuno|175\/304
+|move|p1a: Omastar|Hydro Pump|p2a: Articuno
+|-damage|p2a: Articuno|40\/304
+|
+|turn|28
+|choice|move 2|move 4
+|
+|move|p2a: Articuno|Recover|p2a: Articuno
+|-heal|p2a: Articuno|192\/304
+|move|p1a: Omastar|Hydro Pump|p2a: Articuno
+|-damage|p2a: Articuno|50\/304
+|
+|turn|29
+|choice|move 2|move 4
+|
+|move|p2a: Articuno|Recover|p2a: Articuno
+|-heal|p2a: Articuno|202\/304
+|move|p1a: Omastar|Hydro Pump|p2a: Articuno
+|-damage|p2a: Articuno|59\/304
+|
+|turn|30
+|choice|move 2|move 4
+|
+|move|p2a: Articuno|Recover|p2a: Articuno
+|-heal|p2a: Articuno|211\/304
+|move|p1a: Omastar|Hydro Pump|p2a: Articuno
+|-damage|p2a: Articuno|66\/304
+|
+|turn|31
+|choice|move 2|move 4
+|
+|move|p2a: Articuno|Recover|p2a: Articuno
+|-heal|p2a: Articuno|218\/304
+|move|p1a: Omastar|Hydro Pump|p2a: Articuno
+|-damage|p2a: Articuno|90\/304
+|
+|turn|32
+|choice|move 2|move 4
+|
+|move|p2a: Articuno|Recover|p2a: Articuno
+|-heal|p2a: Articuno|242\/304
+|move|p1a: Omastar|Hydro Pump|p2a: Articuno
+|-damage|p2a: Articuno|101\/304
+|
+|turn|33
+|choice|move 2|move 4
+|
+|move|p2a: Articuno|Recover|p2a: Articuno
+|-heal|p2a: Articuno|253\/304
+|move|p1a: Omastar|Hydro Pump|p2a: Articuno
+|-crit|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|faint|p2a: Articuno
+|
+|win|riwu

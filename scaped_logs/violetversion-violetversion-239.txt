@@ -1,0 +1,421 @@
+﻿|J|KristophV
+|J|Disaster Area
+|player|p1|KristophV|8
+|player|p2|Disaster Area|32
+|gametype|singles
+|gen|1
+|tier|Violet Version
+|clearpoke
+|poke|p1|Jynx
+|poke|p1|Electabuzz
+|poke|p1|Hypno
+|poke|p1|Tauros
+|poke|p1|Starmie
+|poke|p1|Dragonite
+|poke|p2|Butterfree
+|poke|p2|Charizard
+|poke|p2|Tauros
+|poke|p2|Nidoqueen
+|poke|p2|Raticate
+|poke|p2|Starmie
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|c|★Disaster Area|gl hf
+|c|★KristophV|you too
+|c|★Disaster Area|this was my attempt at hyper offense
+|c|★Disaster Area|:>
+|c|★Disaster Area|yours is clearly similar in idea
+|c|★Disaster Area|different in result
+|c|★KristophV|yep
+|
+|start
+|switch|p1a: Starmie|Starmie|323\/323
+|switch|p2a: Butterfree|Butterfree|343\/343
+|turn|1
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Butterfree
+|-status|p2a: Butterfree|par
+|move|p2a: Butterfree|Sleep Powder|p1a: Starmie
+|-status|p1a: Starmie|slp
+|
+|turn|2
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|move|p2a: Butterfree|Stun Spore|p1a: Tauros
+|-status|p1a: Tauros|par
+|
+|turn|3
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|cant|p1a: Tauros|par
+|
+|turn|4
+|
+|switch|p1a: Hypno|Hypno|373\/373
+|move|p2a: Starmie|Thunderbolt|p1a: Hypno
+|-damage|p1a: Hypno|301\/373
+|-status|p1a: Hypno|par
+|
+|turn|5
+|c|★Disaster Area|wow
+|
+|move|p2a: Starmie|Blizzard|p1a: Hypno
+|-damage|p1a: Hypno|210\/373 par
+|move|p1a: Hypno|Thunder Wave|p2a: Starmie
+|-status|p2a: Starmie|par
+|
+|turn|6
+|
+|move|p2a: Starmie|Blizzard|p1a: Hypno
+|-crit|p1a: Hypno
+|-damage|p1a: Hypno|46\/373 par
+|cant|p1a: Hypno|par
+|
+|turn|7
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|switch|p1a: Jynx|Jynx|333\/333
+|
+|turn|8
+|
+|switch|p2a: Starmie|Starmie|323\/323 par
+|move|p1a: Jynx|Mimic|p2a: Starmie
+|-start|p1a: Jynx|Mimic|Thunder Wave
+|
+|turn|9
+|
+|switch|p1a: Hypno|Hypno|46\/373 par
+|move|p2a: Starmie|Thunder Wave|p1a: Hypno
+|-fail|p1a: Hypno|par
+|
+|turn|10
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Hypno
+|-damage|p1a: Hypno|0 fnt
+|faint|p1a: Hypno
+|
+|switch|p1a: Tauros|Tauros|353\/353 par
+|turn|11
+|
+|move|p2a: Starmie|Blizzard|p1a: Tauros
+|-damage|p1a: Tauros|227\/353 par
+|cant|p1a: Tauros|par
+|
+|turn|12
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Tauros
+|-damage|p1a: Tauros|134\/353 par
+|move|p1a: Tauros|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|210\/323 par
+|
+|turn|13
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|323\/323 par
+|move|p1a: Tauros|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|203\/323 par
+|
+|turn|14
+|
+|cant|p2a: Starmie|par
+|move|p1a: Tauros|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|96\/323 par
+|
+|turn|15
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|257\/323 par
+|cant|p1a: Tauros|par
+|
+|turn|16
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Tauros
+|-damage|p1a: Tauros|47\/353 par
+|move|p1a: Tauros|Body Slam|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|59\/323 par
+|
+|turn|17
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|220\/323 par
+|move|p1a: Tauros|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|102\/323 par
+|
+|turn|18
+|
+|cant|p2a: Starmie|par
+|move|p1a: Tauros|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|switch|p2a: Charizard|Charizard|359\/359
+|turn|19
+|
+|move|p2a: Charizard|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|switch|p1a: Starmie|Starmie|323\/323 slp
+|turn|20
+|
+|switch|p1a: Dragonite|Dragonite|385\/385
+|move|p2a: Charizard|Swords Dance|p2a: Charizard
+|-boost|p2a: Charizard|atk|2
+|
+|turn|21
+|
+|move|p2a: Charizard|Body Slam|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-damage|p1a: Dragonite|267\/385
+|-status|p1a: Dragonite|par
+|move|p1a: Dragonite|Agility|p1a: Dragonite
+|-boost|p1a: Dragonite|spe|2
+|
+|turn|22
+|
+|move|p1a: Dragonite|Wrap|p2a: Charizard
+|-damage|p2a: Charizard|314\/359
+|-activate|p2a: Charizard|move: Wrap|[of] p1a: Dragonite
+|cant|p2a: Charizard|partiallytrapped
+|
+|turn|23
+|
+|move|p1a: Dragonite|Wrap|p2a: Charizard
+|-damage|p2a: Charizard|269\/359
+|cant|p2a: Charizard|partiallytrapped
+|
+|turn|24
+|
+|move|p1a: Dragonite|Wrap|p2a: Charizard
+|-damage|p2a: Charizard|224\/359
+|cant|p2a: Charizard|partiallytrapped
+|
+|-end|p2a: Charizard|Wrap|[partiallytrapped]
+|turn|25
+|
+|move|p1a: Dragonite|Wrap|p2a: Charizard
+|-damage|p2a: Charizard|177\/359
+|-activate|p2a: Charizard|move: Wrap|[of] p1a: Dragonite
+|cant|p2a: Charizard|partiallytrapped
+|
+|turn|26
+|
+|move|p1a: Dragonite|Wrap|p2a: Charizard
+|-damage|p2a: Charizard|130\/359
+|cant|p2a: Charizard|partiallytrapped
+|
+|turn|27
+|
+|move|p1a: Dragonite|Wrap|p2a: Charizard
+|-damage|p2a: Charizard|83\/359
+|cant|p2a: Charizard|partiallytrapped
+|
+|-end|p2a: Charizard|Wrap|[partiallytrapped]
+|turn|28
+|
+|move|p1a: Dragonite|Wrap|p2a: Charizard
+|-damage|p2a: Charizard|40\/359
+|-activate|p2a: Charizard|move: Wrap|[of] p1a: Dragonite
+|cant|p2a: Charizard|partiallytrapped
+|
+|turn|29
+|
+|move|p1a: Dragonite|Wrap|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|30
+|
+|move|p1a: Dragonite|Wrap|p2a: Tauros
+|-damage|p2a: Tauros|314\/353
+|-activate|p2a: Tauros|move: Wrap|[of] p1a: Dragonite
+|cant|p2a: Tauros|partiallytrapped
+|
+|turn|31
+|
+|move|p1a: Dragonite|Wrap|p2a: Tauros
+|-damage|p2a: Tauros|275\/353
+|cant|p2a: Tauros|partiallytrapped
+|
+|turn|32
+|
+|move|p1a: Dragonite|Wrap|p2a: Tauros
+|-damage|p2a: Tauros|236\/353
+|cant|p2a: Tauros|partiallytrapped
+|
+|-end|p2a: Tauros|Wrap|[partiallytrapped]
+|turn|33
+|c|★Disaster Area|thoughts on how good
+|c|★Disaster Area|wrap is?
+|c|★Disaster Area|atm
+|c|★Disaster Area|what's ur PP like atm?
+|
+|move|p1a: Dragonite|Wrap|p2a: Tauros
+|-damage|p2a: Tauros|199\/353
+|-activate|p2a: Tauros|move: Wrap|[of] p1a: Dragonite
+|cant|p2a: Tauros|partiallytrapped
+|
+|turn|34
+|c|★KristophV|3pp
+|
+|switch|p2a: Nidoqueen|Nidoqueen|383\/383
+|move|p1a: Dragonite|Wrap|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|342\/383
+|-activate|p2a: Nidoqueen|move: Wrap|[of] p1a: Dragonite
+|
+|turn|35
+|c|★KristophV|and for glitchy reasons, now 1pp
+|
+|switch|p2a: Raticate|Raticate|333\/333
+|move|p1a: Dragonite|Wrap|p2a: Raticate
+|-crit|p2a: Raticate
+|-damage|p2a: Raticate|231\/333
+|-activate|p2a: Raticate|move: Wrap|[of] p1a: Dragonite
+|
+|turn|36
+|
+|switch|p2a: Nidoqueen|Nidoqueen|342\/383
+|move|p1a: Dragonite|Wrap|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|303\/383
+|-activate|p2a: Nidoqueen|move: Wrap|[of] p1a: Dragonite
+|
+|turn|37
+|c|★KristophV|it will continue wrapping while at 0pp
+|c|★Disaster Area|okay
+|c|★KristophV|it needs to end for it to be gone
+|
+|move|p1a: Dragonite|Wrap|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|264\/383
+|cant|p2a: Nidoqueen|partiallytrapped
+|
+|turn|38
+|
+|move|p1a: Dragonite|Wrap|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|225\/383
+|cant|p2a: Nidoqueen|partiallytrapped
+|
+|-end|p2a: Nidoqueen|Wrap|[partiallytrapped]
+|turn|39
+|
+|cant|p1a: Dragonite|par
+|move|p2a: Nidoqueen|Soft-Boiled|p2a: Nidoqueen
+|-heal|p2a: Nidoqueen|383\/383
+|
+|turn|40
+|
+|move|p1a: Dragonite|Blizzard|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|157\/383
+|-status|p2a: Nidoqueen|frz
+|cant|p2a: Nidoqueen|frz
+|
+|turn|41
+|c|★Disaster Area|ur team's pretty
+|c|★KristophV|oh
+|c|★Disaster Area|weak to butterfree
+|c|★Disaster Area|lol
+|
+|switch|p2a: Raticate|Raticate|231\/333
+|cant|p1a: Dragonite|par
+|
+|turn|42
+|c|★KristophV|yeah
+|
+|move|p1a: Dragonite|Hyper Beam|p2a: Raticate
+|-damage|p2a: Raticate|23\/333
+|move|p2a: Raticate|Slash|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-damage|p1a: Dragonite|143\/385 par
+|
+|turn|43
+|
+|cant|p1a: Dragonite|recharge
+|move|p2a: Raticate|Slash|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-damage|p1a: Dragonite|21\/385 par
+|
+|turn|44
+|
+|move|p1a: Dragonite|Blizzard|p2a: Raticate
+|-damage|p2a: Raticate|0 fnt
+|faint|p2a: Raticate
+|
+|switch|p2a: Tauros|Tauros|199\/353
+|turn|45
+|
+|cant|p1a: Dragonite|par
+|move|p2a: Tauros|Body Slam|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|c|★Disaster Area|trying to run 2 normal attackers costs so much synergy in this meta lol
+|
+|switch|p1a: Jynx|Jynx|333\/333
+|turn|46
+|
+|switch|p2a: Nidoqueen|Nidoqueen|157\/383 frz
+|move|p1a: Jynx|Blizzard|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|0 fnt
+|faint|p2a: Nidoqueen
+|
+|switch|p2a: Butterfree|Butterfree|343\/343 par
+|turn|47
+|
+|move|p1a: Jynx|Psychic|p2a: Butterfree
+|-crit|p2a: Butterfree
+|-resisted|p2a: Butterfree
+|-damage|p2a: Butterfree|233\/343 par
+|-unboost|p2a: Butterfree|spd|1
+|-unboost|p2a: Butterfree|spa|1
+|cant|p2a: Butterfree|par
+|
+|turn|48
+|
+|move|p1a: Jynx|Blizzard|p2a: Butterfree
+|-damage|p2a: Butterfree|1\/343 par
+|move|p2a: Butterfree|Leech Life|p1a: Jynx
+|-supereffective|p1a: Jynx
+|-damage|p1a: Jynx|141\/333
+|-heal|p2a: Butterfree|193\/343 par|[from] drain|[of] p1a: Jynx
+|
+|turn|49
+|c|★Disaster Area|wow
+|c|★KristophV|jeez
+|
+|switch|p2a: Tauros|Tauros|199\/353
+|move|p1a: Jynx|Blizzard|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|c|★Disaster Area|lmao
+|
+|switch|p2a: Butterfree|Butterfree|193\/343 par
+|turn|50
+|c|★KristophV|x_x
+|
+|move|p1a: Jynx|Blizzard|p2a: Butterfree
+|-damage|p2a: Butterfree|52\/343 par
+|cant|p2a: Butterfree|par
+|
+|turn|51
+|c|★Disaster Area|my goodness
+|c|★Disaster Area|rip
+|
+|move|p1a: Jynx|Blizzard|p2a: Butterfree
+|-damage|p2a: Butterfree|0 fnt
+|faint|p2a: Butterfree
+|
+|win|KristophV
+|c|★KristophV|gen 1 is evil
+|c|★KristophV|as fuck
+|c|★Disaster Area|lol
+|c|★Disaster Area|i know
+|c|★Disaster Area|brilliant, isn't it :D
+|c|★KristophV|yes

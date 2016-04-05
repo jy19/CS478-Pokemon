@@ -1,0 +1,520 @@
+﻿|J|Disaster Area
+|J|Mister Tim
+|player|p1|Disaster Area|32
+|player|p2|Mister Tim|1
+|gametype|singles
+|gen|1
+|tier|Violet Version
+|clearpoke
+|poke|p1|Slowbro
+|poke|p1|Flareon
+|poke|p1|Golem
+|poke|p1|Chansey
+|poke|p1|Parasect
+|poke|p1|Alakazam
+|poke|p2|Gengar
+|poke|p2|Exeggutor
+|poke|p2|Chansey
+|poke|p2|Charizard
+|poke|p2|Tauros
+|poke|p2|Starmie
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|c|★Disaster Area|gl hf
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|1
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Alakazam|Reflect|p1a: Alakazam
+|-start|p1a: Alakazam|Reflect
+|
+|turn|2
+|c|★Disaster Area|misc lick
+|c|★Disaster Area|O_O
+|c|★Disaster Area|lil
+|c|★Mister Tim|wp
+|
+|switch|p1a: Flareon|Flareon|433\/433
+|move|p2a: Exeggutor|Stun Spore|p1a: Flareon
+|-status|p1a: Flareon|par
+|
+|turn|3
+|
+|move|p2a: Exeggutor|Psychic|p1a: Flareon
+|-damage|p1a: Flareon|321\/433 par
+|cant|p1a: Flareon|par
+|
+|turn|4
+|
+|move|p2a: Exeggutor|Psychic|p1a: Flareon
+|-damage|p1a: Flareon|198\/433 par
+|move|p1a: Flareon|Fire Blast|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Charizard|Charizard|359\/359
+|turn|5
+|
+|switch|p1a: Slowbro|Slowbro|393\/393
+|move|p2a: Charizard|Swords Dance|p2a: Charizard
+|-boost|p2a: Charizard|atk|2
+|
+|turn|6
+|
+|move|p2a: Charizard|Earthquake|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-damage|p1a: Slowbro|275\/393
+|move|p1a: Slowbro|Thunder Wave|p2a: Charizard
+|-status|p2a: Charizard|par
+|
+|turn|7
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|move|p1a: Slowbro|Psychic|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|281\/323
+|-unboost|p2a: Starmie|spd|1
+|-unboost|p2a: Starmie|spa|1
+|
+|turn|8
+|
+|move|p2a: Starmie|Thunder Wave|p1a: Slowbro
+|-status|p1a: Slowbro|par
+|move|p1a: Slowbro|Thunder Wave|p2a: Starmie
+|-status|p2a: Starmie|par
+|
+|turn|9
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|
+|turn|10
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Slowbro
+|-damage|p1a: Slowbro|175\/393 par
+|move|p1a: Slowbro|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|turn|11
+|
+|cant|p2a: Chansey|par
+|cant|p1a: Slowbro|par
+|
+|turn|12
+|
+|cant|p2a: Chansey|par
+|move|p1a: Slowbro|Rest|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|-heal|p1a: Slowbro|393\/393 slp|[silent]
+|-status|p1a: Slowbro|slp|[from] move: Rest
+|
+|turn|13
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|cant|p1a: Slowbro|slp
+|
+|turn|14
+|
+|move|p2a: Gengar|Night Shade|p1a: Slowbro
+|-damage|p1a: Slowbro|293\/393 slp
+|cant|p1a: Slowbro|slp
+|-curestatus|p1a: Slowbro|slp
+|
+|turn|15
+|
+|switch|p1a: Flareon|Flareon|198\/433 par
+|move|p2a: Gengar|Hypnosis|p1a: Flareon
+|-fail|p1a: Flareon
+|
+|turn|16
+|
+|move|p2a: Gengar|Night Shade|p1a: Flareon
+|-damage|p1a: Flareon|98\/433 par
+|move|p1a: Flareon|Fire Blast|p2a: Gengar|[miss]
+|-miss|p1a: Flareon
+|
+|turn|17
+|
+|move|p2a: Gengar|Night Shade|p1a: Flareon
+|-damage|p1a: Flareon|0 fnt
+|faint|p1a: Flareon
+|
+|switch|p1a: Golem|Golem|363\/363
+|turn|18
+|
+|move|p2a: Gengar|Hypnosis|p1a: Golem
+|-status|p1a: Golem|slp
+|cant|p1a: Golem|slp
+|
+|turn|19
+|
+|switch|p2a: Starmie|Starmie|281\/323 par
+|switch|p1a: Alakazam|Alakazam|313\/313
+|
+|turn|20
+|
+|switch|p1a: Parasect|Parasect|383\/383
+|move|p2a: Starmie|Thunder Wave|p1a: Parasect
+|-status|p1a: Parasect|par
+|
+|turn|21
+|
+|switch|p2a: Charizard|Charizard|359\/359 par
+|cant|p1a: Parasect|par
+|
+|turn|22
+|
+|switch|p1a: Slowbro|Slowbro|293\/393
+|move|p2a: Charizard|Swords Dance|p2a: Charizard
+|-boost|p2a: Charizard|atk|2
+|
+|turn|23
+|
+|move|p1a: Slowbro|Psychic|p2a: Charizard
+|-damage|p2a: Charizard|255\/359 par
+|-unboost|p2a: Charizard|spd|1
+|-unboost|p2a: Charizard|spa|1
+|cant|p2a: Charizard|par
+|
+|turn|24
+|
+|switch|p2a: Starmie|Starmie|281\/323 par
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|
+|turn|25
+|
+|move|p1a: Slowbro|Psychic|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|194\/323 par
+|move|p2a: Starmie|Thunder Wave|p1a: Slowbro
+|-status|p1a: Slowbro|par
+|
+|turn|26
+|
+|cant|p1a: Slowbro|par
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|323\/323 par
+|
+|turn|27
+|
+|cant|p1a: Slowbro|par
+|move|p2a: Starmie|Thunderbolt|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|212\/393 par
+|
+|turn|28
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|move|p2a: Starmie|Thunderbolt|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|153\/393 par
+|
+|turn|29
+|
+|move|p1a: Slowbro|Psychic|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|190\/323 par
+|move|p2a: Starmie|Thunderbolt|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|c|★Mister Tim|ez
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|turn|30
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|34\/323 par
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|195\/323 par
+|
+|turn|31
+|
+|switch|p2a: Chansey|Chansey|703\/703 par
+|move|p1a: Chansey|Thunderbolt|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|551\/703 par
+|
+|turn|32
+|
+|switch|p1a: Parasect|Parasect|383\/383 par
+|cant|p2a: Chansey|par
+|
+|turn|33
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|move|p2a: Chansey|Reflect|p2a: Chansey
+|-start|p2a: Chansey|Reflect
+|
+|turn|34
+|
+|move|p1a: Alakazam|Reflect|p1a: Alakazam
+|-start|p1a: Alakazam|Reflect
+|move|p2a: Chansey|Toxic|p1a: Alakazam
+|-status|p1a: Alakazam|tox
+|
+|turn|35
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|315\/703 par
+|-damage|p1a: Alakazam|294\/313 tox|[from] tox|[of] p2a: Chansey
+|cant|p2a: Chansey|par
+|
+|turn|36
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|195\/703 par
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|-damage|p1a: Alakazam|256\/313 tox|[from] tox|[of] p2a: Chansey
+|cant|p2a: Chansey|par
+|
+|turn|37
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|switch|p2a: Starmie|Starmie|195\/323 par
+|turn|38
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|323\/323 par
+|
+|turn|39
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|163\/323 par
+|cant|p2a: Starmie|par
+|
+|turn|40
+|
+|switch|p1a: Parasect|Parasect|383\/383 par
+|switch|p2a: Gengar|Gengar|323\/323
+|
+|turn|41
+|
+|switch|p2a: Charizard|Charizard|255\/359 par
+|move|p1a: Parasect|Spore|p2a: Charizard
+|-fail|p2a: Charizard
+|
+|turn|42
+|
+|switch|p1a: Alakazam|Alakazam|256\/313 tox
+|-status|p1a: Alakazam|psn
+|-damage|p1a: Alakazam|237\/313 psn|[from] psn
+|cant|p2a: Charizard|par
+|
+|turn|43
+|
+|move|p1a: Alakazam|Reflect|p1a: Alakazam
+|-start|p1a: Alakazam|Reflect
+|-damage|p1a: Alakazam|218\/313 psn|[from] psn
+|move|p2a: Charizard|Fire Blast|p1a: Alakazam
+|-damage|p1a: Alakazam|118\/313 psn
+|
+|turn|44
+|
+|switch|p2a: Starmie|Starmie|163\/323 par
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|274\/313 psn
+|-damage|p1a: Alakazam|255\/313 psn|[from] psn
+|
+|turn|45
+|
+|move|p1a: Alakazam|Psychic|p2a: Starmie
+|-crit|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|31\/323 par
+|-damage|p1a: Alakazam|236\/313 psn|[from] psn|[of] p2a: Starmie
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|192\/323 par
+|
+|turn|46
+|
+|move|p1a: Alakazam|Psychic|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|128\/323 par
+|-damage|p1a: Alakazam|217\/313 psn|[from] psn|[of] p2a: Starmie
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|289\/323 par
+|
+|turn|47
+|
+|move|p1a: Alakazam|Psychic|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|221\/323 par
+|-damage|p1a: Alakazam|198\/313 psn|[from] psn|[of] p2a: Starmie
+|cant|p2a: Starmie|par
+|
+|turn|48
+|
+|move|p1a: Alakazam|Psychic|p2a: Starmie
+|-crit|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|103\/323 par
+|-damage|p1a: Alakazam|179\/313 psn|[from] psn|[of] p2a: Starmie
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|264\/323 par
+|
+|turn|49
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|313\/313 psn
+|-damage|p1a: Alakazam|294\/313 psn|[from] psn
+|move|p2a: Starmie|Blizzard|p1a: Alakazam
+|-damage|p1a: Alakazam|221\/313 psn
+|
+|turn|50
+|c|★Mister Tim|more looks like gsc
+|c|★Mister Tim|than rby
+|
+|move|p1a: Alakazam|Psychic|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|203\/323 par
+|-damage|p1a: Alakazam|202\/313 psn|[from] psn|[of] p2a: Starmie
+|move|p2a: Starmie|Thunderbolt|p1a: Alakazam
+|-damage|p1a: Alakazam|142\/313 psn
+|
+|turn|51
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|298\/313 psn
+|-damage|p1a: Alakazam|279\/313 psn|[from] psn
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|323\/323 par
+|
+|turn|52
+|
+|switch|p1a: Parasect|Parasect|383\/383 par
+|move|p2a: Starmie|Thunderbolt|p1a: Parasect
+|-resisted|p1a: Parasect
+|-damage|p1a: Parasect|340\/383 par
+|
+|turn|53
+|
+|move|p2a: Starmie|Blizzard|p1a: Parasect
+|-crit|p1a: Parasect
+|-supereffective|p1a: Parasect
+|-damage|p1a: Parasect|0 fnt
+|faint|p1a: Parasect
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|turn|54
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|178\/323 par
+|move|p2a: Starmie|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|606\/703
+|
+|turn|55
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|32\/323 par
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|193\/323 par
+|
+|turn|56
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|move|p1a: Chansey|Thunderbolt|p2a: Gengar
+|-damage|p2a: Gengar|261\/323
+|-status|p2a: Gengar|par
+|
+|turn|57
+|
+|switch|p1a: Golem|Golem|363\/363 slp
+|move|p2a: Gengar|Night Shade|p1a: Golem
+|-damage|p1a: Golem|263\/363 slp
+|
+|turn|58
+|
+|cant|p1a: Golem|slp
+|move|p2a: Gengar|Night Shade|p1a: Golem
+|-damage|p1a: Golem|163\/363 slp
+|
+|turn|59
+|
+|switch|p1a: Chansey|Chansey|606\/703
+|move|p2a: Gengar|Explosion|p1a: Chansey
+|-damage|p1a: Chansey|10\/703
+|faint|p2a: Gengar
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|60
+|c|★Disaster Area|ow
+|c|★Mister Tim|outplayed
+|
+|switch|p1a: Golem|Golem|163\/363 slp
+|move|p2a: Tauros|Body Slam|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|125\/363 slp
+|
+|turn|61
+|
+|move|p2a: Tauros|Body Slam|p1a: Golem
+|-crit|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|50\/363 slp
+|cant|p1a: Golem|slp
+|
+|turn|62
+|
+|move|p2a: Tauros|Body Slam|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|12\/363 slp
+|cant|p1a: Golem|slp
+|
+|turn|63
+|
+|move|p2a: Tauros|Body Slam|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|0 fnt
+|faint|p1a: Golem
+|
+|switch|p1a: Alakazam|Alakazam|279\/313 psn
+|turn|64
+|
+|move|p1a: Alakazam|Reflect|p1a: Alakazam
+|-start|p1a: Alakazam|Reflect
+|-damage|p1a: Alakazam|260\/313 psn|[from] psn
+|move|p2a: Tauros|Body Slam|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|c|★Disaster Area|splat
+|c|★Disaster Area|gg
+|c|★Mister Tim|gg
+|
+|switch|p1a: Chansey|Chansey|10\/703
+|turn|65
+|
+|move|p2a: Tauros|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|win|Mister Tim

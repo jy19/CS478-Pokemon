@@ -1,0 +1,229 @@
+﻿|j|ssacchet
+|j|FailMoore
+|player|p1|ssacchet|169
+|player|p2|FailMoore|241
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Chansey|Chansey, L79|100\/100
+|switch|p2a: Gengar|Gengar, L79|100\/100
+|turn|1
+|choice||
+|
+|switch|p1a: Machop|Machop, L96|100\/100
+|move|p2a: Gengar|Psychic|p1a: Machop
+|-supereffective|p1a: Machop
+|-damage|p1a: Machop|40\/100
+|-unboost|p1a: Machop|spd|1
+|-unboost|p1a: Machop|spa|1
+|
+|turn|2
+|choice||
+|
+|switch|p1a: Chansey|Chansey, L79|100\/100
+|move|p2a: Gengar|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|90\/100
+|
+|turn|3
+|choice||
+|
+|switch|p2a: Pinsir|Pinsir, L85|100\/100
+|move|p1a: Chansey|Ice Beam|p2a: Pinsir
+|-damage|p2a: Pinsir|70\/100
+|
+|turn|4
+|choice||
+|
+|switch|p1a: Machop|Machop, L96|40\/100
+|move|p2a: Pinsir|Submission|p1a: Machop
+|-damage|p1a: Machop|14\/100
+|-damage|p2a: Pinsir|62\/100|[from] recoil|[of] p1a: Machop
+|
+|turn|5
+|choice||
+|
+|move|p2a: Pinsir|Body Slam|p1a: Machop
+|-crit|p1a: Machop
+|-damage|p1a: Machop|0 fnt
+|faint|p1a: Machop
+|choice||
+|
+|switch|p1a: Poliwhirl|Poliwhirl, L85|100\/100
+|turn|6
+|choice||
+|
+|switch|p2a: Persian|Persian, L79|100\/100
+|move|p1a: Poliwhirl|Hypnosis|p2a: Persian
+|-status|p2a: Persian|slp
+|
+|turn|7
+|choice||
+|
+|cant|p2a: Persian|slp
+|move|p1a: Poliwhirl|Amnesia|p1a: Poliwhirl
+|-boost|p1a: Poliwhirl|spd|2
+|-boost|p1a: Poliwhirl|spa|2
+|
+|turn|8
+|choice||
+|
+|cant|p2a: Persian|slp
+|move|p1a: Poliwhirl|Amnesia|p1a: Poliwhirl
+|-boost|p1a: Poliwhirl|spd|2
+|-boost|p1a: Poliwhirl|spa|2
+|
+|turn|9
+|choice||
+|
+|-curestatus|p2a: Persian|slp
+|move|p1a: Poliwhirl|Psychic|p2a: Persian
+|-damage|p2a: Persian|32\/100
+|
+|turn|10
+|choice||
+|
+|move|p2a: Persian|Thunderbolt|p1a: Poliwhirl
+|-crit|p1a: Poliwhirl
+|-supereffective|p1a: Poliwhirl
+|-damage|p1a: Poliwhirl|12\/100
+|move|p1a: Poliwhirl|Psychic|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|faint|p2a: Persian
+|choice||
+|
+|switch|p2a: Gengar|Gengar, L79|100\/100
+|turn|11
+|choice||
+|
+|move|p2a: Gengar|Thunderbolt|p1a: Poliwhirl
+|-supereffective|p1a: Poliwhirl
+|-damage|p1a: Poliwhirl|0 fnt
+|faint|p1a: Poliwhirl
+|choice||
+|
+|switch|p1a: Chansey|Chansey, L79|90\/100
+|turn|12
+|choice||
+|
+|move|p2a: Gengar|Hypnosis|p1a: Chansey
+|-status|p1a: Chansey|slp
+|cant|p1a: Chansey|slp
+|
+|turn|13
+|choice||
+|
+|switch|p1a: Pidgeotto|Pidgeotto, L90|100\/100
+|move|p2a: Gengar|Psychic|p1a: Pidgeotto
+|-crit|p1a: Pidgeotto
+|-damage|p1a: Pidgeotto|47\/100
+|
+|turn|14
+|choice||
+|
+|move|p2a: Gengar|Thunderbolt|p1a: Pidgeotto
+|-supereffective|p1a: Pidgeotto
+|-damage|p1a: Pidgeotto|0 fnt
+|faint|p1a: Pidgeotto
+|choice||
+|
+|switch|p1a: Electrode|Electrode, L90|100\/100
+|turn|15
+|choice||
+|
+|move|p1a: Electrode|Thunder Wave|p2a: Gengar
+|-status|p2a: Gengar|par
+|cant|p2a: Gengar|par
+|
+|turn|16
+|j|Hooker Killer
+|choice||
+|
+|switch|p1a: Chansey|Chansey, L79|90\/100 slp
+|move|p2a: Gengar|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|78\/100 slp
+|
+|turn|17
+|choice||
+|
+|switch|p2a: Flareon|Flareon, L90|100\/100
+|cant|p1a: Chansey|slp
+|
+|turn|18
+|choice||
+|
+|switch|p1a: Electrode|Electrode, L90|100\/100
+|move|p2a: Flareon|Body Slam|p1a: Electrode
+|-damage|p1a: Electrode|70\/100
+|-status|p1a: Electrode|par
+|
+|turn|19
+|choice||
+|
+|move|p2a: Flareon|Body Slam|p1a: Electrode
+|-damage|p1a: Electrode|37\/100 par
+|move|p1a: Electrode|Thunder Wave|p2a: Flareon
+|-status|p2a: Flareon|par
+|
+|turn|20
+|choice||
+|
+|switch|p2a: Gengar|Gengar, L79|100\/100 par
+|move|p1a: Electrode|Explosion|p2a: Gengar
+|-immune|p2a: Gengar|[msg]
+|faint|p1a: Electrode
+|choice||
+|
+|switch|p1a: Chansey|Chansey, L79|78\/100 slp
+|turn|21
+|choice||
+|
+|switch|p2a: Flareon|Flareon, L90|100\/100 par
+|cant|p1a: Chansey|slp
+|
+|turn|22
+|choice||
+|
+|cant|p1a: Chansey|slp
+|move|p2a: Flareon|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|37\/100 slp
+|
+|turn|23
+|choice||
+|
+|cant|p1a: Chansey|slp
+|move|p2a: Flareon|Hyper Beam|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|choice||
+|
+|switch|p1a: Muk|Muk, L90|100\/100
+|turn|24
+|choice||
+|
+|move|p1a: Muk|Body Slam|p2a: Flareon
+|-damage|p2a: Flareon|74\/100 par
+|move|p2a: Flareon|Body Slam|p1a: Muk
+|-damage|p1a: Muk|79\/100
+|
+|turn|25
+|choice||
+|
+|move|p1a: Muk|Explosion|p2a: Flareon
+|-damage|p2a: Flareon|0 fnt
+|faint|p2a: Flareon
+|faint|p1a: Muk
+|
+|win|FailMoore
+|player|p1
+|player|p2
+|raw|ssacchet's rating: 1416 &rarr; <strong>1395<\/strong><br \/>(-21 for losing)
+|raw|FailMoore's rating: 1400 &rarr; <strong>1421<\/strong><br \/>(+21 for winning)
+|c|★FailMoore|gg
+|l|ssacchet

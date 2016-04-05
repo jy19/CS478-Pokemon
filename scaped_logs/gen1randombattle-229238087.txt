@@ -1,0 +1,199 @@
+﻿|join|paolo.bassi
+|join|Ferger
+|player|p1|paolo.bassi|170
+|player|p2|Ferger|70
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Nidoran-M|Nidoran-M, L96|283\/283
+|switch|p2a: Dodrio|Dodrio, L85|276\/276
+|turn|1
+|
+|switch|p1a: Onix|Onix, L85|233\/233
+|move|p2a: Dodrio|Drill Peck|p1a: Onix
+|-resisted|p1a: Onix
+|-damage|p1a: Onix|204\/233
+|
+|turn|2
+|
+|switch|p2a: Seadra|Seadra, L85|267\/267
+|move|p1a: Onix|Rock Slide|p2a: Seadra
+|-damage|p2a: Seadra|217\/267
+|
+|turn|3
+|
+|switch|p1a: Machoke|Machoke, L85|310\/310
+|move|p2a: Seadra|Surf|p1a: Machoke
+|-crit|p1a: Machoke
+|-damage|p1a: Machoke|58\/310
+|
+|turn|4
+|
+|move|p2a: Seadra|Surf|p1a: Machoke
+|-crit|p1a: Machoke
+|-damage|p1a: Machoke|0 fnt
+|faint|p1a: Machoke
+|
+|switch|p1a: Raticate|Raticate, L85|267\/267
+|turn|5
+|
+|move|p1a: Raticate|Super Fang|p2a: Seadra
+|-damage|p2a: Seadra|109\/267
+|move|p2a: Seadra|Mimic|p1a: Raticate
+|-start|p2a: Seadra|Mimic|Bubble Beam
+|
+|turn|6
+|
+|move|p1a: Raticate|Body Slam|p2a: Seadra
+|-crit|p2a: Seadra
+|-damage|p2a: Seadra|0 fnt
+|faint|p2a: Seadra
+|
+|switch|p2a: Gengar|Gengar, L79|257\/257
+|turn|7
+|
+|switch|p1a: Onix|Onix, L85|204\/233
+|move|p2a: Gengar|Thunderbolt|p1a: Onix
+|-immune|p1a: Onix|[msg]
+|
+|turn|8
+|
+|move|p2a: Gengar|Mega Drain|p1a: Onix
+|-crit|p1a: Onix
+|-supereffective|p1a: Onix
+|-damage|p1a: Onix|0 fnt
+|faint|p1a: Onix
+|
+|switch|p1a: Raticate|Raticate, L85|267\/267
+|turn|9
+|
+|move|p2a: Gengar|Hypnosis|p1a: Raticate|[miss]
+|-miss|p2a: Gengar
+|move|p1a: Raticate|Blizzard|p2a: Gengar
+|-damage|p2a: Gengar|209\/257
+|-status|p2a: Gengar|frz
+|
+|turn|10
+|
+|cant|p2a: Gengar|frz
+|move|p1a: Raticate|Blizzard|p2a: Gengar
+|-damage|p2a: Gengar|164\/257 frz
+|
+|turn|11
+|
+|cant|p2a: Gengar|frz
+|move|p1a: Raticate|Bubble Beam|p2a: Gengar
+|-damage|p2a: Gengar|138\/257 frz
+|
+|turn|12
+|
+|cant|p2a: Gengar|frz
+|move|p1a: Raticate|Bubble Beam|p2a: Gengar
+|-damage|p2a: Gengar|109\/257 frz
+|-unboost|p2a: Gengar|spe|1
+|
+|turn|13
+|
+|move|p1a: Raticate|Bubble Beam|p2a: Gengar
+|-damage|p2a: Gengar|84\/257 frz
+|cant|p2a: Gengar|frz
+|
+|turn|14
+|
+|move|p1a: Raticate|Bubble Beam|p2a: Gengar
+|-damage|p2a: Gengar|59\/257 frz
+|cant|p2a: Gengar|frz
+|
+|turn|15
+|
+|move|p1a: Raticate|Bubble Beam|p2a: Gengar
+|-damage|p2a: Gengar|34\/257 frz
+|cant|p2a: Gengar|frz
+|
+|turn|16
+|
+|move|p1a: Raticate|Blizzard|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|switch|p2a: Dewgong|Dewgong, L85|327\/327
+|turn|17
+|c|★Ferger|thx to hax
+|
+|switch|p1a: Hitmonlee|Hitmonlee, L85|259\/259
+|move|p2a: Dewgong|Body Slam|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|192\/259
+|
+|turn|18
+|
+|move|p1a: Hitmonlee|Body Slam|p2a: Dewgong
+|-damage|p2a: Dewgong|248\/327
+|move|p2a: Dewgong|Surf|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|24\/259
+|
+|turn|19
+|
+|move|p1a: Hitmonlee|Body Slam|p2a: Dewgong
+|-damage|p2a: Dewgong|173\/327
+|move|p2a: Dewgong|Surf|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|0 fnt
+|faint|p1a: Hitmonlee
+|
+|switch|p1a: Raticate|Raticate, L85|267\/267
+|turn|20
+|
+|move|p1a: Raticate|Super Fang|p2a: Dewgong
+|-damage|p2a: Dewgong|87\/327
+|move|p2a: Dewgong|Surf|p1a: Raticate
+|-crit|p1a: Raticate
+|-damage|p1a: Raticate|0 fnt
+|faint|p1a: Raticate
+|
+|switch|p1a: Farfetch'd|Farfetch'd, L99|304\/304
+|turn|21
+|
+|move|p1a: Farfetch'd|Slash|p2a: Dewgong
+|-crit|p2a: Dewgong
+|-damage|p2a: Dewgong|0 fnt
+|faint|p2a: Dewgong
+|
+|switch|p2a: Dodrio|Dodrio, L85|276\/276
+|turn|22
+|
+|move|p2a: Dodrio|Hyper Beam|p1a: Farfetch'd
+|-damage|p1a: Farfetch'd|100\/304
+|move|p1a: Farfetch'd|Body Slam|p2a: Dodrio
+|-damage|p2a: Dodrio|168\/276
+|
+|turn|23
+|
+|cant|p2a: Dodrio|recharge
+|move|p1a: Farfetch'd|Body Slam|p2a: Dodrio
+|-damage|p2a: Dodrio|52\/276
+|
+|turn|24
+|
+|move|p2a: Dodrio|Body Slam|p1a: Farfetch'd
+|-damage|p1a: Farfetch'd|0 fnt
+|faint|p1a: Farfetch'd
+|
+|switch|p1a: Nidoran-M|Nidoran-M, L96|283\/283
+|turn|25
+|
+|move|p2a: Dodrio|Hyper Beam|p1a: Nidoran-M
+|-crit|p1a: Nidoran-M
+|-damage|p1a: Nidoran-M|0 fnt
+|faint|p1a: Nidoran-M
+|
+|win|Ferger
+|raw|Ladder updating...
+|raw|paolo.bassi's rating: 1302 &rarr; <strong>1270<\/strong><br \/>(-32 for losing)
+|raw|Ferger's rating: 1045 &rarr; <strong>1099<\/strong><br \/>(+54 for winning)
+|leave|paolo.bassi
+|player|p1

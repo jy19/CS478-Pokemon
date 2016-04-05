@@ -1,0 +1,178 @@
+﻿|j|Brawlio
+|j|S1TheGod
+|player|p1|Brawlio|266
+|player|p2|S1TheGod|3
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|seed|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Charizard|Charizard|100\/100
+|switch|p2a: Alakazam|Alakazam|100\/100
+|turn|1
+|choice||
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Charizard
+|-status|p1a: Charizard|par
+|move|p1a: Charizard|Body Slam|p2a: Alakazam
+|-damage|p2a: Alakazam|71\/100
+|
+|turn|2
+|choice||
+|
+|move|p2a: Alakazam|Psychic|p1a: Charizard
+|-damage|p1a: Charizard|63\/100 par
+|-unboost|p1a: Charizard|spd|1
+|-unboost|p1a: Charizard|spa|1
+|move|p1a: Charizard|Body Slam|p2a: Alakazam
+|-damage|p2a: Alakazam|40\/100
+|
+|turn|3
+|choice||
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|90\/100
+|move|p1a: Charizard|Body Slam|p2a: Alakazam
+|-damage|p2a: Alakazam|59\/100
+|
+|turn|4
+|choice||
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|100\/100
+|cant|p1a: Charizard|par
+|
+|turn|5
+|choice||
+|
+|move|p2a: Alakazam|Psychic|p1a: Charizard
+|-crit|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|choice||
+|
+|switch|p1a: Dugtrio|Dugtrio|100\/100
+|turn|6
+|choice||
+|
+|move|p2a: Alakazam|Reflect|p2a: Alakazam
+|-start|p2a: Alakazam|Reflect
+|move|p1a: Dugtrio|Earthquake|p2a: Alakazam
+|-damage|p2a: Alakazam|76\/100
+|
+|turn|7
+|choice||
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|choice||
+|
+|switch|p2a: Starmie|Starmie|100\/100
+|turn|8
+|choice||
+|
+|move|p1a: Dugtrio|Substitute|p1a: Dugtrio
+|-start|p1a: Dugtrio|Substitute
+|-damage|p1a: Dugtrio|76\/100
+|move|p2a: Starmie|Blizzard|p1a: Dugtrio
+|-supereffective|p1a: Dugtrio
+|-end|p1a: Dugtrio|Substitute
+|
+|turn|9
+|choice||
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|36\/100
+|move|p2a: Starmie|Blizzard|p1a: Dugtrio|[miss]
+|-miss|p2a: Starmie
+|
+|turn|10
+|choice||
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|choice||
+|
+|switch|p2a: Golem|Golem|100\/100
+|turn|11
+|choice||
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Golem
+|-crit|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|12\/100
+|move|p2a: Golem|Earthquake|p1a: Dugtrio
+|-damage|p1a: Dugtrio|4\/100
+|
+|turn|12
+|choice||
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|choice||
+|
+|switch|p2a: Tauros|Tauros|100\/100
+|turn|13
+|choice||
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Tauros
+|-damage|p2a: Tauros|68\/100
+|move|p2a: Tauros|Body Slam|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|choice||
+|
+|switch|p1a: Jolteon|Jolteon|100\/100
+|turn|14
+|choice||
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|choice||
+|
+|switch|p2a: Dragonite|Dragonite|100\/100
+|turn|15
+|choice||
+|
+|switch|p2a: Exeggutor|Exeggutor|100\/100
+|move|p1a: Jolteon|Thunder Wave|p2a: Exeggutor
+|-status|p2a: Exeggutor|par
+|
+|turn|16
+|choice||
+|
+|move|p1a: Jolteon|Pin Missile|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|81\/100 par
+|-damage|p2a: Exeggutor|61\/100 par
+|-damage|p2a: Exeggutor|41\/100 par
+|-hitcount|p2a: Exeggutor|3
+|cant|p2a: Exeggutor|par
+|
+|turn|17
+|-message|S1TheGod forfeited.
+|
+|win|Brawlio
+|player|p1
+|player|p2
+|l|S1TheGod
+|raw|Brawlio's rating: 1019 &rarr; <strong>1073<\/strong><br \/>(+54 for winning)
+|raw|S1TheGod's rating: 1195 &rarr; <strong>1158<\/strong><br \/>(-37 for losing)

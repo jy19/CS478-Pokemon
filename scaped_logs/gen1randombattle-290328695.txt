@@ -1,0 +1,436 @@
+﻿|join|riwu
+|join|AitorMaster
+|player|p1|riwu|102
+|player|p2|AitorMaster|163
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|45399,7304,41786,1733
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Mr. Mime|Mr. Mime, L85|242\/242
+|switch|p2a: Koffing|Koffing, L96|272\/272
+|turn|1
+|choice|move 3|switch 5
+|
+|switch|p2a: Golem|Golem, L79|288\/288
+|move|p1a: Mr. Mime|Psychic|p2a: Golem
+|-damage|p2a: Golem|155\/288
+|
+|turn|2
+|choice|move 3|move 1
+|
+|move|p1a: Mr. Mime|Psychic|p2a: Golem
+|-damage|p2a: Golem|4\/288
+|move|p2a: Golem|Earthquake|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|127\/242
+|
+|turn|3
+|choice|move 3|move 1
+|
+|move|p1a: Mr. Mime|Psychic|p2a: Golem
+|-crit|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|choice||switch 4
+|
+|switch|p2a: Porygon|Porygon, L85|284\/284
+|turn|4
+|choice|move 3|move 2
+|
+|move|p1a: Mr. Mime|Psychic|p2a: Porygon
+|-damage|p2a: Porygon|176\/284
+|-unboost|p2a: Porygon|spd|1
+|-unboost|p2a: Porygon|spa|1
+|move|p2a: Porygon|Agility|p2a: Porygon
+|-boost|p2a: Porygon|spe|2
+|
+|turn|5
+|choice|move 4|move 3
+|
+|move|p2a: Porygon|Psychic|p1a: Mr. Mime
+|-resisted|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|110\/242
+|move|p1a: Mr. Mime|Thunder Wave|p2a: Porygon
+|-status|p2a: Porygon|par
+|
+|turn|6
+|choice|move 3|move 4
+|
+|move|p1a: Mr. Mime|Psychic|p2a: Porygon
+|-damage|p2a: Porygon|1\/284 par
+|cant|p2a: Porygon|par
+|
+|turn|7
+|choice|move 3|move 4
+|
+|move|p1a: Mr. Mime|Psychic|p2a: Porygon
+|-crit|p2a: Porygon
+|-damage|p2a: Porygon|0 fnt
+|faint|p2a: Porygon
+|choice||switch 6
+|
+|switch|p2a: Tauros|Tauros, L79|280\/280
+|turn|8
+|choice|switch 3|move 1
+|
+|switch|p1a: Pidgeotto|Pidgeotto, L90|297\/297
+|move|p2a: Tauros|Hyper Beam|p1a: Pidgeotto
+|-damage|p1a: Pidgeotto|122\/297
+|
+|turn|9
+|-mustrecharge|p2a: Tauros
+|-mustrecharge|p2a: Tauros
+|choice|move 1|move 1
+|
+|cant|p2a: Tauros|recharge
+|move|p1a: Pidgeotto|Double-Edge|p2a: Tauros
+|-damage|p2a: Tauros|187\/280
+|-damage|p1a: Pidgeotto|99\/297|[from] recoil|[of] p2a: Tauros
+|
+|turn|10
+|choice|move 2|move 3
+|
+|move|p2a: Tauros|Blizzard|p1a: Pidgeotto
+|-crit|p1a: Pidgeotto
+|-supereffective|p1a: Pidgeotto
+|-damage|p1a: Pidgeotto|0 fnt
+|faint|p1a: Pidgeotto
+|choice|switch 5|
+|
+|switch|p1a: Kingler|Kingler, L85|267\/267
+|turn|11
+|choice|move 3|move 4
+|
+|move|p2a: Tauros|Body Slam|p1a: Kingler
+|-crit|p1a: Kingler
+|-damage|p1a: Kingler|131\/267
+|move|p1a: Kingler|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|114\/280
+|
+|turn|12
+|choice|move 1|move 1
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Kingler
+|-damage|p1a: Kingler|16\/267
+|move|p1a: Kingler|Crabhammer|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|choice||switch 3
+|
+|switch|p2a: Mr. Mime|Mr. Mime, L85|242\/242
+|turn|13
+|choice|switch 4|move 3
+|
+|switch|p1a: Chansey|Chansey, L79|557\/557
+|move|p2a: Mr. Mime|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|472\/557
+|
+|turn|14
+|choice|move 3|switch 2
+|
+|switch|p2a: Machop|Machop, L96|329\/329
+|move|p1a: Chansey|Thunder Wave|p2a: Machop
+|-status|p2a: Machop|par
+|
+|turn|15
+|choice|move 2|move 4
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-start|p1a: Chansey|Reflect
+|move|p2a: Machop|Submission|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|214\/557
+|-damage|p2a: Machop|265\/329 par|[from] recoil|[of] p1a: Chansey
+|
+|turn|16
+|choice|move 1|move 4
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|492\/557
+|move|p2a: Machop|Submission|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|226\/557
+|-damage|p2a: Machop|199\/329 par|[from] recoil|[of] p1a: Chansey
+|
+|turn|17
+|choice|move 1|move 4
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|504\/557
+|cant|p2a: Machop|par
+|
+|turn|18
+|choice|move 4|move 2
+|
+|cant|p2a: Machop|par
+|move|p1a: Chansey|Counter|p2a: Machop
+|-damage|p2a: Machop|0 fnt
+|faint|p2a: Machop
+|choice||switch 5
+|
+|switch|p2a: Koffing|Koffing, L96|272\/272
+|turn|19
+|choice|move 3|move 4
+|
+|move|p2a: Koffing|Fire Blast|p1a: Chansey|[miss]
+|-miss|p2a: Koffing
+|move|p1a: Chansey|Thunder Wave|p2a: Koffing
+|-status|p2a: Koffing|par
+|
+|turn|20
+|choice|move 3|move 2
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Koffing
+|-fail|p2a: Koffing|par
+|move|p2a: Koffing|Thunder|p1a: Chansey|[miss]
+|-miss|p2a: Koffing
+|
+|turn|21
+|choice|move 3|move 3
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Koffing
+|-fail|p2a: Koffing|par
+|move|p2a: Koffing|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|439\/557
+|
+|turn|22
+|choice|move 2|move 4
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|move|p2a: Koffing|Fire Blast|p1a: Chansey|[miss]
+|-miss|p2a: Koffing
+|
+|turn|23
+|choice|move 4|move 4
+|
+|move|p2a: Koffing|Fire Blast|p1a: Chansey|[miss]
+|-miss|p2a: Koffing
+|move|p1a: Chansey|Counter|p2a: Koffing
+|-fail|p1a: Chansey
+|
+|turn|24
+|choice|move 4|move 4
+|
+|cant|p2a: Koffing|par
+|move|p1a: Chansey|Counter|p2a: Koffing
+|-fail|p1a: Chansey
+|
+|turn|25
+|choice|move 4|move 4
+|
+|cant|p2a: Koffing|par
+|move|p1a: Chansey|Counter|p2a: Koffing
+|-fail|p1a: Chansey
+|
+|turn|26
+|choice|move 4|move 4
+|
+|move|p2a: Koffing|Fire Blast|p1a: Chansey
+|-damage|p1a: Chansey|358\/557
+|move|p1a: Chansey|Counter|p2a: Koffing
+|-fail|p1a: Chansey
+|
+|turn|27
+|choice|move 4|move 4
+|
+|move|p2a: Koffing|Fire Blast|p1a: Chansey
+|-damage|p1a: Chansey|285\/557
+|move|p1a: Chansey|Counter|p2a: Koffing
+|-fail|p1a: Chansey
+|
+|turn|28
+|choice|move 4|move 4
+|
+|move|p2a: Koffing|Fire Blast|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|127\/557
+|move|p1a: Chansey|Counter|p2a: Koffing
+|-fail|p1a: Chansey
+|
+|turn|29
+|choice|move 1|move 4
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|405\/557
+|cant|p2a: Koffing|par
+|
+|turn|30
+|choice|move 3|move 4
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Koffing
+|-fail|p2a: Koffing|par
+|move|p2a: Koffing|Fire Blast|p1a: Chansey
+|-damage|p1a: Chansey|332\/557
+|
+|turn|31
+|choice|move 2|move 4
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|move|p2a: Koffing|Fire Blast|p1a: Chansey
+|-damage|p1a: Chansey|252\/557
+|
+|turn|32
+|choice|move 1|move 3
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|530\/557
+|move|p2a: Koffing|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|465\/557
+|
+|turn|33
+|choice|move 2|move 2
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|move|p2a: Koffing|Thunder|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|311\/557
+|
+|turn|34
+|choice|move 2|move 2
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|cant|p2a: Koffing|par
+|
+|turn|35
+|choice|move 2|move 2
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|cant|p2a: Koffing|par
+|
+|turn|36
+|choice|move 2|move 2
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|move|p2a: Koffing|Thunder|p1a: Chansey
+|-damage|p1a: Chansey|234\/557
+|
+|turn|37
+|choice|move 1|move 2
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|512\/557
+|move|p2a: Koffing|Thunder|p1a: Chansey
+|-damage|p1a: Chansey|436\/557
+|
+|turn|38
+|choice|move 2|move 3
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|move|p2a: Koffing|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|377\/557
+|
+|turn|39
+|choice|move 2|move 2
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|cant|p2a: Koffing|par
+|
+|turn|40
+|choice|move 2|move 3
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|move|p2a: Koffing|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|315\/557
+|
+|turn|41
+|choice|move 2|move 3
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|move|p2a: Koffing|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|250\/557
+|
+|turn|42
+|choice|move 1|move 3
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|528\/557
+|cant|p2a: Koffing|par
+|
+|turn|43
+|choice|move 2|move 3
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|move|p2a: Koffing|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|469\/557
+|
+|turn|44
+|choice|move 2|move 3
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|move|p2a: Koffing|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|403\/557
+|
+|turn|45
+|choice|move 4|move 3
+|
+|move|p2a: Koffing|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|336\/557
+|move|p1a: Chansey|Counter|p2a: Koffing
+|-fail|p1a: Chansey
+|
+|turn|46
+|choice|move 4|move 3
+|
+|move|p2a: Koffing|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|273\/557
+|move|p1a: Chansey|Counter|p2a: Koffing
+|-fail|p1a: Chansey
+|
+|turn|47
+|choice|move 4|move 3
+|
+|cant|p2a: Koffing|par
+|move|p1a: Chansey|Counter|p2a: Koffing
+|-fail|p1a: Chansey
+|
+|turn|48
+|choice|move 4|move 3
+|
+|move|p2a: Koffing|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|212\/557
+|move|p1a: Chansey|Counter|p2a: Koffing
+|-fail|p1a: Chansey
+|
+|turn|49
+|choice|move 1|move 3
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|490\/557
+|move|p2a: Koffing|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|424\/557
+|
+|turn|50
+|choice|move 3|move 3
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Koffing
+|-fail|p2a: Koffing|par
+|cant|p2a: Koffing|par
+|
+|turn|51
+|c|★AitorMaster|imbpred
+|c|★AitorMaster|im bored
+|leave|AitorMaster
+|player|p2
+|-message|aitormaster lost due to inactivity.
+|
+|win|riwu
+|raw|riwu's rating: 1397 &rarr; <strong>1410<\/strong><br \/>(+13 for winning)
+|raw|AitorMaster's rating: 1272 &rarr; <strong>1255<\/strong><br \/>(-17 for losing)

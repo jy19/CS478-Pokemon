@@ -1,0 +1,407 @@
+﻿|J|Disaster Area
+|J|KristophV
+|player|p1|Disaster Area|32
+|player|p2|KristophV|8
+|gametype|singles
+|gen|1
+|tier|Violet Version
+|rated
+|clearpoke
+|poke|p1|Starmie
+|poke|p1|Butterfree
+|poke|p1|Chansey
+|poke|p1|Flareon
+|poke|p1|Golem
+|poke|p1|Machamp
+|poke|p2|Butterfree
+|poke|p2|Tauros
+|poke|p2|Exeggutor
+|poke|p2|Magneton
+|poke|p2|Snorlax
+|poke|p2|Machamp
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|c|★Disaster Area|gl hf
+|c|★KristophV|you too
+|J|trueprinceumbreon
+|
+|start
+|switch|p1a: Starmie|Starmie|323\/323
+|switch|p2a: Butterfree|Butterfree|343\/343
+|turn|1
+|
+|switch|p1a: Machamp|Machamp|403\/403
+|move|p2a: Butterfree|Sleep Powder|p1a: Machamp
+|-status|p1a: Machamp|slp
+|
+|turn|2
+|
+|switch|p1a: Eliza|Flareon|433\/433
+|move|p2a: Butterfree|Leech Life|p1a: Eliza
+|-resisted|p1a: Eliza
+|-damage|p1a: Eliza|409\/433
+|
+|turn|3
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Eliza|Fire Blast|p2a: Snorlax
+|-damage|p2a: Snorlax|314\/523
+|-status|p2a: Snorlax|brn
+|
+|turn|4
+|
+|switch|p1a: Golem|Golem|363\/363
+|move|p2a: Snorlax|Body Slam|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|342\/363
+|-damage|p2a: Snorlax|282\/523 brn|[from] brn|[of] p1a: Golem
+|
+|turn|5
+|
+|move|p1a: Golem|Earthquake|p2a: Snorlax
+|-damage|p2a: Snorlax|127\/523 brn
+|move|p2a: Snorlax|Body Slam|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|320\/363
+|-status|p1a: Golem|par
+|-damage|p2a: Snorlax|95\/523 brn|[from] brn|[of] p1a: Golem
+|
+|turn|6
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|switch|p1a: Butterfree|Butterfree|343\/343
+|
+|turn|7
+|
+|switch|p2a: Magneton|Magneton|443\/443
+|move|p1a: Butterfree|Leech Life|p2a: Magneton
+|-damage|p2a: Magneton|389\/443
+|
+|turn|8
+|
+|move|p1a: Butterfree|Sleep Powder|p2a: Magneton
+|-status|p2a: Magneton|slp
+|cant|p2a: Magneton|slp
+|
+|turn|9
+|
+|move|p1a: Butterfree|Psychic|p2a: Magneton
+|-damage|p2a: Magneton|297\/443 slp
+|cant|p2a: Magneton|slp
+|
+|turn|10
+|
+|switch|p2a: Butterfree|Butterfree|343\/343
+|move|p1a: Butterfree|Psychic|p2a: Butterfree
+|-resisted|p2a: Butterfree
+|-damage|p2a: Butterfree|289\/343
+|-unboost|p2a: Butterfree|spd|1
+|-unboost|p2a: Butterfree|spa|1
+|
+|turn|11
+|
+|switch|p1a: Eliza|Flareon|409\/433
+|move|p2a: Butterfree|Leech Life|p1a: Eliza
+|-resisted|p1a: Eliza
+|-damage|p1a: Eliza|382\/433
+|-heal|p2a: Butterfree|316\/343|[from] drain|[of] p1a: Eliza
+|
+|turn|12
+|
+|switch|p2a: Snorlax|Snorlax|95\/523 brn
+|-damage|p2a: Snorlax|63\/523 brn|[from] brn
+|move|p1a: Eliza|Mimic|p2a: Snorlax
+|-start|p1a: Eliza|Mimic|Self-Destruct
+|
+|turn|13
+|
+|move|p1a: Eliza|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|switch|p2a: Machamp|Machamp|403\/403
+|turn|14
+|c|★Disaster Area|that sounds like fun..
+|
+|move|p1a: Eliza|Fire Blast|p2a: Machamp
+|-crit|p2a: Machamp
+|-damage|p2a: Machamp|22\/403
+|-status|p2a: Machamp|brn
+|move|p2a: Machamp|Body Slam|p1a: Eliza
+|-damage|p1a: Eliza|341\/433
+|-damage|p2a: Machamp|0 fnt|[from] brn|[of] p1a: Eliza
+|faint|p2a: Machamp
+|c|★KristophV|it does
+|c|★Disaster Area|nice..
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|15
+|
+|move|p2a: Tauros|Body Slam|p1a: Eliza
+|-damage|p1a: Eliza|238\/433
+|move|p1a: Eliza|Fire Blast|p2a: Tauros
+|-damage|p2a: Tauros|176\/353
+|-status|p2a: Tauros|brn
+|
+|turn|16
+|J|marcoasd
+|c|★Disaster Area|does crit ignore burn?
+|
+|switch|p1a: Machamp|Machamp|403\/403 slp
+|move|p2a: Tauros|Earthquake|p1a: Machamp
+|-crit|p1a: Machamp
+|-damage|p1a: Machamp|247\/403 slp
+|-damage|p2a: Tauros|154\/353 brn|[from] brn|[of] p1a: Machamp
+|
+|turn|17
+|c|★KristophV|it's however it works in rby, so i guess i don't know
+|
+|move|p2a: Tauros|Body Slam|p1a: Machamp
+|-damage|p1a: Machamp|200\/403 slp
+|-damage|p2a: Tauros|132\/353 brn|[from] brn|[of] p1a: Machamp
+|cant|p1a: Machamp|slp
+|
+|turn|18
+|
+|move|p2a: Tauros|Body Slam|p1a: Machamp
+|-damage|p1a: Machamp|149\/403 slp
+|-damage|p2a: Tauros|110\/353 brn|[from] brn|[of] p1a: Machamp
+|cant|p1a: Machamp|slp
+|
+|turn|19
+|
+|move|p2a: Tauros|Body Slam|p1a: Machamp
+|-crit|p1a: Machamp
+|-damage|p1a: Machamp|0 fnt
+|faint|p1a: Machamp
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|turn|20
+|
+|switch|p2a: Butterfree|Butterfree|316\/343
+|move|p1a: Starmie|Thunder Wave|p2a: Butterfree
+|-status|p2a: Butterfree|par
+|
+|turn|21
+|
+|switch|p1a: Eliza|Flareon|238\/433
+|cant|p2a: Butterfree|par
+|
+|turn|22
+|
+|switch|p2a: Magneton|Magneton|297\/443 slp
+|move|p1a: Eliza|Rest|p1a: Eliza
+|-status|p1a: Eliza|slp
+|-heal|p1a: Eliza|433\/433 slp|[silent]
+|-status|p1a: Eliza|slp|[from] move: Rest
+|
+|turn|23
+|
+|cant|p2a: Magneton|slp
+|cant|p1a: Eliza|slp
+|
+|turn|24
+|
+|cant|p2a: Magneton|slp
+|-curestatus|p2a: Magneton|slp
+|cant|p1a: Eliza|slp
+|-curestatus|p1a: Eliza|slp
+|
+|turn|25
+|
+|move|p2a: Magneton|Mimic|p1a: Eliza
+|-start|p2a: Magneton|Mimic|Self-Destruct
+|move|p1a: Eliza|Fire Blast|p2a: Magneton
+|-resisted|p2a: Magneton
+|-damage|p2a: Magneton|229\/443
+|
+|turn|26
+|
+|switch|p1a: Golem|Golem|320\/363 par
+|move|p2a: Magneton|Thunder Wave|p1a: Golem
+|-immune|p1a: Golem|[msg]
+|
+|turn|27
+|c|★Disaster Area|lol
+|
+|move|p2a: Magneton|Thunderbolt|p1a: Golem
+|-immune|p1a: Golem|[msg]
+|move|p1a: Golem|Rock Slide|p2a: Magneton
+|-damage|p2a: Magneton|126\/443
+|
+|turn|28
+|
+|move|p2a: Magneton|Thunderbolt|p1a: Golem
+|-immune|p1a: Golem|[msg]
+|move|p1a: Golem|Body Slam|p2a: Magneton
+|-crit|p2a: Magneton
+|-resisted|p2a: Magneton
+|-damage|p2a: Magneton|58\/443
+|
+|turn|29
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Golem|Rock Slide|p2a: Exeggutor
+|-damage|p2a: Exeggutor|275\/393
+|
+|turn|30
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Exeggutor|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|586\/703
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|
+|turn|31
+|
+|move|p2a: Exeggutor|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|389\/703
+|move|p1a: Chansey|Thunder Wave|p2a: Exeggutor
+|-status|p2a: Exeggutor|par
+|
+|turn|32
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703
+|cant|p2a: Exeggutor|par
+|
+|turn|33
+|
+|move|p1a: Chansey|Ice Beam|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|184\/393 par
+|move|p2a: Exeggutor|Stun Spore|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|turn|34
+|
+|switch|p1a: Butterfree|Butterfree|343\/343
+|move|p2a: Exeggutor|Psychic|p1a: Butterfree
+|-resisted|p1a: Butterfree
+|-damage|p1a: Butterfree|283\/343
+|-unboost|p1a: Butterfree|spd|1
+|-unboost|p1a: Butterfree|spa|1
+|
+|turn|35
+|
+|switch|p2a: Butterfree|Butterfree|316\/343 par
+|move|p1a: Butterfree|Leech Life|p2a: Butterfree
+|-supereffective|p2a: Butterfree
+|-damage|p2a: Butterfree|179\/343 par
+|-heal|p1a: Butterfree|343\/343|[from] drain|[of] p2a: Butterfree
+|
+|turn|36
+|
+|move|p1a: Butterfree|Leech Life|p2a: Butterfree
+|-supereffective|p2a: Butterfree
+|-damage|p2a: Butterfree|46\/343 par
+|move|p2a: Butterfree|Leech Life|p1a: Butterfree
+|-supereffective|p1a: Butterfree
+|-damage|p1a: Butterfree|195\/343
+|-heal|p2a: Butterfree|194\/343 par|[from] drain|[of] p1a: Butterfree
+|
+|turn|37
+|c|★KristophV|lol
+|c|★Disaster Area|this is
+|c|★Disaster Area|bizarre
+|c|★Disaster Area|..
+|
+|switch|p2a: Tauros|Tauros|110\/353 brn
+|-damage|p2a: Tauros|88\/353 brn|[from] brn
+|move|p1a: Butterfree|Leech Life|p2a: Tauros
+|-damage|p2a: Tauros|40\/353 brn
+|-heal|p1a: Butterfree|243\/343|[from] drain|[of] p2a: Tauros
+|
+|turn|38
+|c|★Disaster Area|on a scale of 1 to ayy lmao
+|c|★Disaster Area|it scores highly
+|
+|switch|p1a: Chansey|Chansey|703\/703 par
+|move|p2a: Tauros|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|633\/703 par
+|-damage|p2a: Tauros|18\/353 brn|[from] brn|[of] p1a: Chansey
+|
+|turn|39
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|turn|40
+|c| marcoasd|why no golem
+|c| marcoasd|lol
+|c|★Disaster Area|lol
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|c|★Disaster Area|cos I just want to play safely to secure victores
+|c|★Disaster Area|*victory
+|
+|switch|p2a: Butterfree|Butterfree|194\/343 par
+|turn|41
+|c|★Disaster Area|:]
+|
+|switch|p1a: Eliza|Flareon|433\/433
+|cant|p2a: Butterfree|par
+|
+|turn|42
+|c|★Disaster Area|btw marco in this
+|c|★Disaster Area|leech life is 60 bp and heals
+|c|★Disaster Area|100% of damage l.ost
+|c|★Disaster Area|*lost
+|
+|move|p1a: Eliza|Fire Blast|p2a: Butterfree
+|-supereffective|p2a: Butterfree
+|-damage|p2a: Butterfree|0 fnt
+|faint|p2a: Butterfree
+|c| marcoasd|cool
+|c|★Disaster Area|:)
+|
+|switch|p2a: Magneton|Magneton|58\/443
+|turn|43
+|
+|switch|p2a: Exeggutor|Exeggutor|184\/393 par
+|switch|p1a: Golem|Golem|320\/363 par
+|
+|turn|44
+|c| marcoasd|miss yn
+|
+|switch|p1a: Eliza|Flareon|433\/433
+|cant|p2a: Exeggutor|par
+|
+|turn|45
+|
+|move|p1a: Eliza|Fire Blast|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Magneton|Magneton|58\/443
+|turn|46
+|c|★Disaster Area|gg
+|
+|switch|p1a: Golem|Golem|320\/363 par
+|move|p2a: Magneton|Thunder Wave|p1a: Golem
+|-immune|p1a: Golem|[msg]
+|
+|turn|47
+|c|★KristophV|gg
+|
+|move|p2a: Magneton|Self-Destruct|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|260\/363 par
+|faint|p2a: Magneton
+|
+|win|Disaster Area
+|raw|Ladder updating...
+|raw|Disaster Area's rating: 1080 &rarr; <strong>1106<\/strong><br \/>(+26 for winning)
+|raw|KristophV's rating: 1053 &rarr; <strong>1036<\/strong><br \/>(-17 for losing)
+|L|marcoasd

@@ -1,0 +1,403 @@
+﻿|join|sdfgdfhhjj
+|join|hades-kirito
+|player|p1|sdfgdfhhjj|101
+|player|p2|hades-kirito|1
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jolteon|Jolteon, L79|265\/265
+|switch|p2a: Growlithe|Growlithe, L96|300\/300
+|turn|1
+|
+|switch|p2a: Cubone|Cubone, L96|291\/291
+|move|p1a: Jolteon|Thunderbolt|p2a: Cubone
+|-immune|p2a: Cubone|[msg]
+|
+|turn|2
+|
+|switch|p1a: Dewgong|Dewgong, L85|327\/327
+|move|p2a: Cubone|Earthquake|p1a: Dewgong
+|-damage|p1a: Dewgong|222\/327
+|
+|turn|3
+|
+|switch|p2a: Persian|Persian, L79|265\/265
+|move|p1a: Dewgong|Blizzard|p2a: Persian
+|-damage|p2a: Persian|104\/265
+|
+|turn|4
+|
+|move|p2a: Persian|Thunderbolt|p1a: Dewgong
+|-supereffective|p1a: Dewgong
+|-damage|p1a: Dewgong|128\/327
+|move|p1a: Dewgong|Surf|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|faint|p2a: Persian
+|
+|switch|p2a: Mr. Mime|Mr. Mime, L85|242\/242
+|turn|5
+|
+|switch|p1a: Alakazam|Alakazam, L79|249\/249
+|move|p2a: Mr. Mime|Psychic|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|176\/249
+|
+|turn|6
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Mr. Mime
+|-status|p2a: Mr. Mime|par
+|cant|p2a: Mr. Mime|par
+|
+|turn|7
+|
+|switch|p1a: Sandslash|Sandslash, L85|301\/301
+|move|p2a: Mr. Mime|Thunder Wave|p1a: Sandslash
+|-immune|p1a: Sandslash|[msg]
+|
+|turn|8
+|
+|switch|p2a: Hitmonchan|Hitmonchan, L90|273\/273
+|move|p1a: Sandslash|Substitute|p1a: Sandslash
+|-start|p1a: Sandslash|Substitute
+|-damage|p1a: Sandslash|226\/301
+|
+|turn|9
+|
+|move|p2a: Hitmonchan|Seismic Toss|p1a: Sandslash
+|-end|p1a: Sandslash|Substitute
+|move|p1a: Sandslash|Earthquake|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|158\/273
+|
+|turn|10
+|
+|move|p2a: Hitmonchan|Seismic Toss|p1a: Sandslash
+|-damage|p1a: Sandslash|136\/301
+|move|p1a: Sandslash|Earthquake|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|43\/273
+|
+|turn|11
+|
+|move|p2a: Hitmonchan|Submission|p1a: Sandslash
+|-crit|p1a: Sandslash
+|-damage|p1a: Sandslash|0 fnt
+|-damage|p2a: Hitmonchan|9\/273|[from] recoil|[of] p1a: Sandslash
+|faint|p1a: Sandslash
+|
+|switch|p1a: Alakazam|Alakazam, L79|176\/249
+|turn|12
+|
+|move|p1a: Alakazam|Psychic|p2a: Hitmonchan
+|-supereffective|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|0 fnt
+|faint|p2a: Hitmonchan
+|
+|switch|p2a: Mr. Mime|Mr. Mime, L85|242\/242 par
+|turn|13
+|
+|switch|p1a: Nidorino|Nidorino, L90|293\/293
+|move|p2a: Mr. Mime|Thunder Wave|p1a: Nidorino
+|-status|p1a: Nidorino|par
+|
+|turn|14
+|
+|cant|p2a: Mr. Mime|par
+|move|p1a: Nidorino|Body Slam|p2a: Mr. Mime
+|-crit|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|111\/242 par
+|
+|turn|15
+|
+|move|p2a: Mr. Mime|Psychic|p1a: Nidorino
+|-supereffective|p1a: Nidorino
+|-damage|p1a: Nidorino|25\/293 par
+|cant|p1a: Nidorino|par
+|
+|turn|16
+|
+|move|p2a: Mr. Mime|Seismic Toss|p1a: Nidorino
+|-damage|p1a: Nidorino|0 fnt
+|faint|p1a: Nidorino
+|
+|switch|p1a: Dewgong|Dewgong, L85|128\/327
+|turn|17
+|
+|switch|p2a: Beedrill|Beedrill, L90|300\/300
+|move|p1a: Dewgong|Blizzard|p2a: Beedrill
+|-damage|p2a: Beedrill|122\/300
+|
+|turn|18
+|
+|move|p2a: Beedrill|Hyper Beam|p1a: Dewgong
+|-damage|p1a: Dewgong|24\/327
+|move|p1a: Dewgong|Blizzard|p2a: Beedrill|[miss]
+|-miss|p1a: Dewgong
+|
+|turn|19
+|-mustrecharge|p2a: Beedrill
+|-mustrecharge|p2a: Beedrill
+|
+|cant|p2a: Beedrill|recharge
+|move|p1a: Dewgong|Blizzard|p2a: Beedrill
+|-damage|p2a: Beedrill|0 fnt
+|faint|p2a: Beedrill
+|
+|switch|p2a: Growlithe|Growlithe, L96|300\/300
+|turn|20
+|
+|move|p2a: Growlithe|Body Slam|p1a: Dewgong
+|-damage|p1a: Dewgong|0 fnt
+|faint|p1a: Dewgong
+|
+|switch|p1a: Alakazam|Alakazam, L79|176\/249
+|turn|21
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Growlithe
+|-status|p2a: Growlithe|par
+|move|p2a: Growlithe|Fire Blast|p1a: Alakazam|[miss]
+|-miss|p2a: Growlithe
+|
+|turn|22
+|
+|move|p1a: Alakazam|Psychic|p2a: Growlithe
+|-damage|p2a: Growlithe|166\/300 par
+|move|p2a: Growlithe|Fire Blast|p1a: Alakazam
+|-damage|p1a: Alakazam|83\/249
+|-status|p1a: Alakazam|brn
+|
+|turn|23
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|207\/249 brn
+|-damage|p1a: Alakazam|192\/249 brn|[from] brn
+|move|p2a: Growlithe|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|100\/249 brn
+|
+|turn|24
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|224\/249 brn
+|-damage|p1a: Alakazam|209\/249 brn|[from] brn
+|move|p2a: Growlithe|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|108\/249 brn
+|
+|turn|25
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|232\/249 brn
+|-damage|p1a: Alakazam|217\/249 brn|[from] brn
+|cant|p2a: Growlithe|par
+|
+|turn|26
+|
+|move|p1a: Alakazam|Psychic|p2a: Growlithe
+|-damage|p2a: Growlithe|43\/300 par
+|-damage|p1a: Alakazam|202\/249 brn|[from] brn|[of] p2a: Growlithe
+|move|p2a: Growlithe|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|103\/249 brn
+|
+|turn|27
+|
+|switch|p2a: Mr. Mime|Mr. Mime, L85|111\/242 par
+|move|p1a: Alakazam|Reflect|p1a: Alakazam
+|-start|p1a: Alakazam|Reflect
+|-damage|p1a: Alakazam|88\/249 brn|[from] brn
+|
+|turn|28
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|212\/249 brn
+|-damage|p1a: Alakazam|197\/249 brn|[from] brn
+|move|p2a: Mr. Mime|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|112\/249 brn
+|
+|turn|29
+|c|★sdfgdfhhjj|lol
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|236\/249 brn
+|-damage|p1a: Alakazam|221\/249 brn|[from] brn
+|cant|p2a: Mr. Mime|par
+|
+|turn|30
+|
+|move|p1a: Alakazam|Psychic|p2a: Mr. Mime
+|-resisted|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|67\/242 par
+|-damage|p1a: Alakazam|206\/249 brn|[from] brn|[of] p2a: Mr. Mime
+|move|p2a: Mr. Mime|Thunderbolt|p1a: Alakazam
+|-damage|p1a: Alakazam|147\/249 brn
+|
+|turn|31
+|
+|move|p1a: Alakazam|Psychic|p2a: Mr. Mime
+|-resisted|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|23\/242 par
+|-unboost|p2a: Mr. Mime|spd|1
+|-unboost|p2a: Mr. Mime|spa|1
+|-damage|p1a: Alakazam|132\/249 brn|[from] brn|[of] p2a: Mr. Mime
+|move|p2a: Mr. Mime|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|105\/249 brn
+|-unboost|p1a: Alakazam|spd|1
+|-unboost|p1a: Alakazam|spa|1
+|
+|turn|32
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|229\/249 brn
+|-damage|p1a: Alakazam|214\/249 brn|[from] brn
+|move|p2a: Mr. Mime|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|129\/249 brn
+|
+|turn|33
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|249\/249 brn
+|-damage|p1a: Alakazam|234\/249 brn|[from] brn
+|move|p2a: Mr. Mime|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|149\/249 brn
+|
+|turn|34
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|249\/249 brn
+|-damage|p1a: Alakazam|234\/249 brn|[from] brn
+|move|p2a: Mr. Mime|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|149\/249 brn
+|
+|turn|35
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|249\/249 brn
+|-damage|p1a: Alakazam|234\/249 brn|[from] brn
+|move|p2a: Mr. Mime|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|192\/249 brn
+|
+|turn|36
+|
+|move|p1a: Alakazam|Psychic|p2a: Mr. Mime
+|-resisted|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|0 fnt
+|faint|p2a: Mr. Mime
+|
+|switch|p2a: Growlithe|Growlithe, L96|43\/300 par
+|turn|37
+|
+|move|p1a: Alakazam|Psychic|p2a: Growlithe
+|-damage|p2a: Growlithe|0 fnt
+|faint|p2a: Growlithe
+|
+|switch|p2a: Cubone|Cubone, L96|291\/291
+|turn|38
+|
+|move|p1a: Alakazam|Psychic|p2a: Cubone
+|-damage|p2a: Cubone|205\/291
+|-unboost|p2a: Cubone|spd|1
+|-unboost|p2a: Cubone|spa|1
+|-damage|p1a: Alakazam|177\/249 brn|[from] brn|[of] p2a: Cubone
+|move|p2a: Cubone|Earthquake|p1a: Alakazam
+|-damage|p1a: Alakazam|108\/249 brn
+|
+|turn|39
+|
+|move|p1a: Alakazam|Psychic|p2a: Cubone
+|-damage|p2a: Cubone|51\/291
+|-unboost|p2a: Cubone|spd|1
+|-unboost|p2a: Cubone|spa|1
+|-damage|p1a: Alakazam|93\/249 brn|[from] brn|[of] p2a: Cubone
+|move|p2a: Cubone|Blizzard|p1a: Alakazam
+|-damage|p1a: Alakazam|53\/249 brn
+|
+|turn|40
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|177\/249 brn
+|-damage|p1a: Alakazam|162\/249 brn|[from] brn
+|move|p2a: Cubone|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|121\/249 brn
+|
+|turn|41
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|245\/249 brn
+|-damage|p1a: Alakazam|230\/249 brn|[from] brn
+|move|p2a: Cubone|Earthquake|p1a: Alakazam
+|-damage|p1a: Alakazam|164\/249 brn
+|
+|turn|42
+|
+|move|p1a: Alakazam|Reflect|p1a: Alakazam
+|-fail|p1a: Alakazam
+|-damage|p1a: Alakazam|149\/249 brn|[from] brn
+|move|p2a: Cubone|Earthquake|p1a: Alakazam
+|-damage|p1a: Alakazam|81\/249 brn
+|
+|turn|43
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|205\/249 brn
+|-damage|p1a: Alakazam|190\/249 brn|[from] brn
+|move|p2a: Cubone|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|94\/249 brn
+|
+|turn|44
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|218\/249 brn
+|-damage|p1a: Alakazam|203\/249 brn|[from] brn
+|move|p2a: Cubone|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|107\/249 brn
+|
+|turn|45
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|231\/249 brn
+|-damage|p1a: Alakazam|216\/249 brn|[from] brn
+|move|p2a: Cubone|Blizzard|p1a: Alakazam
+|-damage|p1a: Alakazam|174\/249 brn
+|
+|turn|46
+|
+|switch|p1a: Venusaur|Venusaur, L85|310\/310
+|move|p2a: Cubone|Body Slam|p1a: Venusaur
+|-damage|p1a: Venusaur|255\/310
+|-status|p1a: Venusaur|par
+|
+|turn|47
+|
+|move|p2a: Cubone|Blizzard|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|193\/310 par
+|move|p1a: Venusaur|Leech Seed|p2a: Cubone
+|-start|p2a: Cubone|move: Leech Seed
+|
+|turn|48
+|
+|move|p2a: Cubone|Blizzard|p1a: Venusaur|[miss]
+|-miss|p2a: Cubone
+|-damage|p2a: Cubone|33\/291|[from] Leech Seed|[of] p1a: Venusaur
+|-heal|p1a: Venusaur|211\/310 par|[silent]
+|move|p1a: Venusaur|Toxic|p2a: Cubone
+|-status|p2a: Cubone|tox
+|
+|turn|49
+|
+|switch|p1a: Jolteon|Jolteon, L79|265\/265
+|move|p2a: Cubone|Blizzard|p1a: Jolteon
+|-damage|p1a: Jolteon|232\/265
+|-damage|p2a: Cubone|0 fnt|[from] tox|[of] p1a: Jolteon
+|faint|p2a: Cubone
+|
+|win|sdfgdfhhjj
+|raw|sdfgdfhhjj's rating: 1034 &rarr; <strong>1074<\/strong><br \/>(+40 for winning)
+|raw|hades-kirito's rating: 1085 &rarr; <strong>1059<\/strong><br \/>(-26 for losing)
+|leave|hades-kirito
+|player|p2

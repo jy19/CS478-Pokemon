@@ -1,0 +1,201 @@
+﻿|join|MALESANI
+|join|baaaast
+|player|p1|MALESANI|238
+|player|p2|baaaast|170
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Muk|Muk, L90|372\/372
+|switch|p2a: Seadra|Seadra, L90|282\/282
+|turn|1
+|
+|move|p2a: Seadra|Surf|p1a: Muk
+|-damage|p1a: Muk|252\/372
+|move|p1a: Muk|Sludge|p2a: Seadra
+|-damage|p2a: Seadra|205\/282
+|
+|turn|2
+|
+|move|p2a: Seadra|Hydro Pump|p1a: Muk|[miss]
+|-miss|p2a: Seadra
+|move|p1a: Muk|Body Slam|p2a: Seadra
+|-damage|p2a: Seadra|141\/282
+|
+|turn|3
+|
+|move|p2a: Seadra|Hydro Pump|p1a: Muk
+|-damage|p1a: Muk|100\/372
+|move|p1a: Muk|Body Slam|p2a: Seadra
+|-damage|p2a: Seadra|72\/282
+|
+|turn|4
+|
+|move|p2a: Seadra|Surf|p1a: Muk
+|-damage|p1a: Muk|0 fnt
+|faint|p1a: Muk
+|
+|switch|p1a: Tangela|Tangela, L85|284\/284
+|turn|5
+|
+|move|p2a: Seadra|Blizzard|p1a: Tangela
+|-supereffective|p1a: Tangela
+|-damage|p1a: Tangela|109\/284
+|move|p1a: Tangela|Mega Drain|p2a: Seadra
+|-supereffective|p2a: Seadra
+|-damage|p2a: Seadra|0 fnt
+|-heal|p1a: Tangela|145\/284|[from] drain|[of] p2a: Seadra
+|faint|p2a: Seadra
+|
+|switch|p2a: Zapdos|Zapdos, L79|304\/304
+|turn|6
+|
+|switch|p1a: Nidoqueen|Nidoqueen, L85|327\/327
+|move|p2a: Zapdos|Drill Peck|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|252\/327
+|
+|turn|7
+|
+|switch|p2a: Ditto|Ditto, L99|296\/296
+|move|p1a: Nidoqueen|Blizzard|p2a: Ditto
+|-damage|p2a: Ditto|208\/296
+|
+|turn|8
+|
+|move|p1a: Nidoqueen|Earthquake|p2a: Ditto
+|-damage|p2a: Ditto|95\/296
+|move|p2a: Ditto|Transform|p1a: Nidoqueen
+|-transform|p2a: Ditto|p1a: Nidoqueen
+|
+|turn|9
+|
+|move|p1a: Nidoqueen|Earthquake|p2a: Ditto
+|-supereffective|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|
+|switch|p2a: Rhydon|Rhydon, L79|328\/328
+|turn|10
+|
+|switch|p1a: Tangela|Tangela, L85|145\/284
+|move|p2a: Rhydon|Earthquake|p1a: Tangela
+|-resisted|p1a: Tangela
+|-damage|p1a: Tangela|99\/284
+|
+|turn|11
+|
+|switch|p2a: Zapdos|Zapdos, L79|304\/304
+|move|p1a: Tangela|Body Slam|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|209\/304
+|-status|p2a: Zapdos|par
+|
+|turn|12
+|
+|move|p1a: Tangela|Body Slam|p2a: Zapdos
+|-damage|p2a: Zapdos|163\/304 par
+|move|p2a: Zapdos|Drill Peck|p1a: Tangela
+|-supereffective|p1a: Tangela
+|-damage|p1a: Tangela|0 fnt
+|faint|p1a: Tangela
+|
+|switch|p1a: Nidoqueen|Nidoqueen, L85|252\/327
+|turn|13
+|
+|move|p1a: Nidoqueen|Blizzard|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|39\/304 par
+|move|p2a: Zapdos|Drill Peck|p1a: Nidoqueen
+|-crit|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|110\/327
+|
+|turn|14
+|
+|move|p1a: Nidoqueen|Thunderbolt|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|switch|p2a: Doduo|Doduo, L96|262\/262
+|turn|15
+|
+|switch|p1a: Ditto|Ditto, L99|296\/296
+|move|p2a: Doduo|Double-Edge|p1a: Ditto
+|-damage|p1a: Ditto|158\/296
+|-damage|p2a: Doduo|228\/262|[from] recoil|[of] p1a: Ditto
+|
+|turn|16
+|
+|move|p2a: Doduo|Body Slam|p1a: Ditto
+|-damage|p1a: Ditto|30\/296
+|move|p1a: Ditto|Transform|p2a: Doduo
+|-transform|p1a: Ditto|p2a: Doduo
+|
+|turn|17
+|
+|move|p2a: Doduo|Body Slam|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|
+|switch|p1a: Moltres|Moltres, L85|327\/327
+|turn|18
+|
+|switch|p2a: Rhydon|Rhydon, L79|328\/328
+|move|p1a: Moltres|Fire Blast|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|215\/328
+|
+|turn|19
+|
+|switch|p1a: Parasect|Parasect, L90|291\/291
+|move|p2a: Rhydon|Substitute|p2a: Rhydon
+|-start|p2a: Rhydon|Substitute
+|-damage|p2a: Rhydon|133\/328
+|
+|turn|20
+|
+|move|p1a: Parasect|Mega Drain|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-end|p2a: Rhydon|Substitute
+|move|p2a: Rhydon|Rock Slide|p1a: Parasect
+|-supereffective|p1a: Parasect
+|-damage|p1a: Parasect|119\/291
+|
+|turn|21
+|
+|switch|p2a: Doduo|Doduo, L96|228\/262
+|move|p1a: Parasect|Spore|p2a: Doduo
+|-status|p2a: Doduo|slp
+|
+|turn|22
+|
+|switch|p1a: Nidoqueen|Nidoqueen, L85|110\/327
+|cant|p2a: Doduo|slp
+|
+|turn|23
+|
+|cant|p2a: Doduo|slp
+|move|p1a: Nidoqueen|Blizzard|p2a: Doduo
+|-supereffective|p2a: Doduo
+|-damage|p2a: Doduo|27\/262 slp
+|
+|turn|24
+|
+|switch|p2a: Jolteon|Jolteon, L79|265\/265
+|move|p1a: Nidoqueen|Body Slam|p2a: Jolteon
+|-damage|p2a: Jolteon|186\/265
+|-status|p2a: Jolteon|par
+|
+|turn|25
+|-message|baaaast forfeited.
+|
+|win|MALESANI
+|raw|Ladder updating...
+|leave|baaaast
+|player|p2
+|c|★MALESANI|HAHAHAHA
+|c|★MALESANI|MUORI MERDA

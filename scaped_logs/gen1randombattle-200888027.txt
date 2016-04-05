@@ -1,0 +1,505 @@
+﻿|join|country muffin
+|join|Kel9901
+|player|p1|country muffin|121
+|player|p2|Kel9901|2
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Zapdos|Zapdos, L82|315\/315
+|switch|p2a: Electrode|Electrode, L86|279\/279
+|turn|1
+|
+|move|p2a: Electrode|Thunderbolt|p1a: Zapdos
+|-damage|p1a: Zapdos|246\/315
+|move|p1a: Zapdos|Thunder Wave|p2a: Electrode
+|-status|p2a: Electrode|par
+|
+|turn|2
+|
+|switch|p1a: Chansey|Chansey, L82|578\/578
+|switch|p2a: Rhydon|Rhydon, L82|340\/340
+|
+|turn|3
+|
+|switch|p2a: Gengar|Gengar, L82|266\/266
+|move|p1a: Chansey|Counter|p2a: Gengar
+|-fail|p1a: Chansey
+|
+|turn|4
+|
+|move|p2a: Gengar|Hypnosis|p1a: Chansey
+|-status|p1a: Chansey|slp
+|cant|p1a: Chansey|slp
+|-curestatus|p1a: Chansey|slp
+|
+|turn|5
+|
+|move|p2a: Gengar|Hypnosis|p1a: Chansey|[miss]
+|-miss|p2a: Gengar
+|move|p1a: Chansey|Thunder Wave|p2a: Gengar
+|-status|p2a: Gengar|par
+|
+|turn|6
+|
+|switch|p1a: Zapdos|Zapdos, L82|246\/315
+|move|p2a: Gengar|Hypnosis|p1a: Zapdos
+|-status|p1a: Zapdos|slp
+|
+|turn|7
+|
+|cant|p1a: Zapdos|slp
+|move|p2a: Gengar|Thunderbolt|p1a: Zapdos
+|-damage|p1a: Zapdos|184\/315 slp
+|
+|turn|8
+|
+|switch|p2a: Rhydon|Rhydon, L82|340\/340
+|cant|p1a: Zapdos|slp
+|
+|turn|9
+|
+|cant|p1a: Zapdos|slp
+|-curestatus|p1a: Zapdos|slp
+|move|p2a: Rhydon|Substitute|p2a: Rhydon
+|-start|p2a: Rhydon|Substitute
+|-damage|p2a: Rhydon|255\/340
+|
+|turn|10
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-activate|p2a: Rhydon|Substitute|[damage]
+|move|p2a: Rhydon|Rock Slide|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|1\/315
+|
+|turn|11
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-activate|p2a: Rhydon|Substitute|[damage]
+|move|p2a: Rhydon|Body Slam|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|switch|p1a: Seaking|Seaking, L86|313\/313
+|turn|12
+|
+|move|p1a: Seaking|Surf|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-end|p2a: Rhydon|Substitute
+|move|p2a: Rhydon|Earthquake|p1a: Seaking
+|-crit|p1a: Seaking
+|-damage|p1a: Seaking|51\/313
+|
+|turn|13
+|
+|switch|p2a: Seadra|Seadra, L86|270\/270
+|move|p1a: Seaking|Surf|p2a: Seadra
+|-resisted|p2a: Seadra
+|-damage|p2a: Seadra|225\/270
+|
+|turn|14
+|
+|switch|p1a: Cloyster|Cloyster, L82|250\/250
+|move|p2a: Seadra|Surf|p1a: Cloyster
+|-resisted|p1a: Cloyster
+|-damage|p1a: Cloyster|196\/250
+|
+|turn|15
+|
+|move|p2a: Seadra|Smokescreen|p1a: Cloyster
+|-unboost|p1a: Cloyster|accuracy|1
+|move|p1a: Cloyster|Clamp|p2a: Seadra|[miss]
+|-miss|p1a: Cloyster
+|
+|turn|16
+|
+|switch|p1a: Seaking|Seaking, L86|51\/313
+|move|p2a: Seadra|Mimic|p1a: Seaking
+|-start|p2a: Seadra|Mimic|Blizzard
+|
+|turn|17
+|
+|move|p2a: Seadra|Surf|p1a: Seaking
+|-resisted|p1a: Seaking
+|-damage|p1a: Seaking|1\/313
+|move|p1a: Seaking|Hyper Beam|p2a: Seadra
+|-damage|p2a: Seadra|134\/270
+|
+|turn|18
+|
+|move|p2a: Seadra|Surf|p1a: Seaking
+|-crit|p1a: Seaking
+|-resisted|p1a: Seaking
+|-damage|p1a: Seaking|0 fnt
+|faint|p1a: Seaking
+|
+|switch|p1a: Chansey|Chansey, L82|578\/578
+|turn|19
+|
+|switch|p2a: Rhydon|Rhydon, L82|255\/340
+|move|p1a: Chansey|Thunder Wave|p2a: Rhydon
+|-immune|p2a: Rhydon|[msg]
+|
+|turn|20
+|
+|move|p1a: Chansey|Ice Beam|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|59\/340
+|move|p2a: Rhydon|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|245\/578
+|
+|turn|21
+|
+|move|p1a: Chansey|Ice Beam|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|
+|switch|p2a: Golbat|Golbat, L86|304\/304
+|turn|22
+|
+|move|p2a: Golbat|Confuse Ray|p1a: Chansey
+|-start|p1a: Chansey|confusion
+|-activate|p1a: Chansey|confusion
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|534\/578
+|
+|turn|23
+|
+|move|p2a: Golbat|Screech|p1a: Chansey
+|-unboost|p1a: Chansey|def|2
+|-activate|p1a: Chansey|confusion
+|-damage|p1a: Chansey|477\/578|[from] confusion
+|
+|turn|24
+|
+|move|p2a: Golbat|Double-Edge|p1a: Chansey
+|-damage|p1a: Chansey|135\/578
+|-damage|p2a: Golbat|219\/304|[from] recoil|[of] p1a: Chansey
+|-end|p1a: Chansey|confusion
+|move|p1a: Chansey|Thunder Wave|p2a: Golbat
+|-status|p2a: Golbat|par
+|
+|turn|25
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|424\/578
+|cant|p2a: Golbat|par
+|
+|turn|26
+|
+|move|p1a: Chansey|Ice Beam|p2a: Golbat
+|-supereffective|p2a: Golbat
+|-damage|p2a: Golbat|68\/304 par
+|move|p2a: Golbat|Double-Edge|p1a: Chansey
+|-damage|p1a: Chansey|61\/578
+|-damage|p2a: Golbat|0 fnt|[from] recoil|[of] p1a: Chansey
+|faint|p2a: Golbat
+|
+|switch|p2a: Seadra|Seadra, L86|134\/270
+|turn|27
+|
+|switch|p1a: Seadra|Seadra, L86|270\/270
+|move|p2a: Seadra|Surf|p1a: Seadra
+|-resisted|p1a: Seadra
+|-damage|p1a: Seadra|225\/270
+|
+|turn|28
+|
+|switch|p2a: Gengar|Gengar, L82|266\/266 par
+|move|p1a: Seadra|Smokescreen|p2a: Gengar
+|-unboost|p2a: Gengar|accuracy|1
+|
+|turn|29
+|
+|move|p1a: Seadra|Hydro Pump|p2a: Gengar|[miss]
+|-miss|p1a: Seadra
+|cant|p2a: Gengar|par
+|
+|turn|30
+|
+|move|p1a: Seadra|Mimic|p2a: Gengar
+|-start|p1a: Seadra|Mimic|Mega Drain
+|move|p2a: Gengar|Hypnosis|p1a: Seadra|[miss]
+|-miss|p2a: Gengar
+|
+|turn|31
+|
+|switch|p2a: Parasect|Parasect, L86|279\/279
+|move|p1a: Seadra|Hydro Pump|p2a: Parasect
+|-resisted|p2a: Parasect
+|-damage|p2a: Parasect|213\/279
+|
+|turn|32
+|
+|move|p1a: Seadra|Blizzard|p2a: Parasect
+|-supereffective|p2a: Parasect
+|-damage|p2a: Parasect|37\/279
+|move|p2a: Parasect|Stun Spore|p1a: Seadra|[miss]
+|-miss|p2a: Parasect
+|
+|turn|33
+|
+|move|p1a: Seadra|Blizzard|p2a: Parasect|[miss]
+|-miss|p1a: Seadra
+|move|p2a: Parasect|Stun Spore|p1a: Seadra
+|-status|p1a: Seadra|par
+|
+|turn|34
+|
+|move|p2a: Parasect|Mega Drain|p1a: Seadra
+|-supereffective|p1a: Seadra
+|-damage|p1a: Seadra|155\/270 par
+|-heal|p2a: Parasect|72\/279|[from] drain|[of] p1a: Seadra
+|move|p1a: Seadra|Blizzard|p2a: Parasect
+|-supereffective|p2a: Parasect
+|-damage|p2a: Parasect|0 fnt
+|faint|p2a: Parasect
+|
+|switch|p2a: Gengar|Gengar, L82|266\/266 par
+|turn|35
+|
+|move|p2a: Gengar|Mega Drain|p1a: Seadra
+|-supereffective|p1a: Seadra
+|-damage|p1a: Seadra|88\/270 par
+|move|p1a: Seadra|Smokescreen|p2a: Gengar
+|-unboost|p2a: Gengar|accuracy|1
+|
+|turn|36
+|
+|move|p2a: Gengar|Thunderbolt|p1a: Seadra
+|-supereffective|p1a: Seadra
+|-damage|p1a: Seadra|0 fnt
+|faint|p1a: Seadra
+|
+|switch|p1a: Chansey|Chansey, L82|61\/578
+|turn|37
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|350\/578
+|move|p2a: Gengar|Hypnosis|p1a: Chansey|[miss]
+|-miss|p2a: Gengar
+|
+|turn|38
+|
+|switch|p2a: Electrode|Electrode, L86|279\/279 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|578\/578
+|
+|turn|39
+|
+|switch|p1a: Arcanine|Arcanine, L86|330\/330
+|move|p2a: Electrode|Thunder Wave|p1a: Arcanine
+|-status|p1a: Arcanine|par
+|
+|turn|40
+|
+|move|p2a: Electrode|Thunderbolt|p1a: Arcanine
+|-crit|p1a: Arcanine
+|-damage|p1a: Arcanine|140\/330 par
+|move|p1a: Arcanine|Body Slam|p2a: Electrode
+|-damage|p2a: Electrode|198\/279 par
+|
+|turn|41
+|
+|switch|p2a: Seadra|Seadra, L86|134\/270
+|move|p1a: Arcanine|Fire Blast|p2a: Seadra
+|-resisted|p2a: Seadra
+|-damage|p2a: Seadra|81\/270
+|-status|p2a: Seadra|brn
+|
+|turn|42
+|
+|move|p2a: Seadra|Mimic|p1a: Arcanine
+|-start|p2a: Seadra|Mimic|Body Slam
+|-damage|p2a: Seadra|65\/270 brn|[from] brn|[of] p1a: Arcanine
+|cant|p1a: Arcanine|par
+|
+|turn|43
+|c|★country muffin|burn is only 5% wow
+|
+|move|p2a: Seadra|Surf|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|c|★Kel9901|6.25% technically i believe
+|c|★country muffin|ah
+|
+|switch|p1a: Chansey|Chansey, L82|578\/578
+|turn|44
+|
+|move|p2a: Seadra|Body Slam|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|460\/578
+|-damage|p2a: Seadra|49\/270 brn|[from] brn|[of] p1a: Chansey
+|move|p1a: Chansey|Counter|p2a: Seadra
+|-damage|p2a: Seadra|17\/270 brn
+|
+|turn|45
+|
+|move|p2a: Seadra|Smokescreen|p1a: Chansey
+|-unboost|p1a: Chansey|accuracy|1
+|-damage|p2a: Seadra|1\/270 brn|[from] brn|[of] p1a: Chansey
+|move|p1a: Chansey|Ice Beam|p2a: Seadra|[miss]
+|-miss|p1a: Chansey
+|
+|turn|46
+|
+|move|p2a: Seadra|Body Slam|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|331\/578
+|-damage|p2a: Seadra|0 fnt|[from] brn|[of] p1a: Chansey
+|faint|p2a: Seadra
+|
+|switch|p2a: Gengar|Gengar, L82|266\/266 par
+|turn|47
+|
+|move|p1a: Chansey|Ice Beam|p2a: Gengar
+|-damage|p2a: Gengar|216\/266 par
+|cant|p2a: Gengar|par
+|
+|turn|48
+|
+|move|p1a: Chansey|Ice Beam|p2a: Gengar
+|-damage|p2a: Gengar|162\/266 par
+|cant|p2a: Gengar|par
+|
+|turn|49
+|
+|move|p1a: Chansey|Ice Beam|p2a: Gengar|[miss]
+|-miss|p1a: Chansey
+|cant|p2a: Gengar|par
+|
+|turn|50
+|
+|move|p1a: Chansey|Ice Beam|p2a: Gengar
+|-damage|p2a: Gengar|111\/266 par
+|cant|p2a: Gengar|par
+|
+|turn|51
+|c|★country muffin|sparks are flying in this heated battle!
+|c|★Kel9901|lol
+|
+|move|p1a: Chansey|Ice Beam|p2a: Gengar|[miss]
+|-miss|p1a: Chansey
+|move|p2a: Gengar|Hypnosis|p1a: Chansey
+|-status|p1a: Chansey|slp
+|
+|turn|52
+|
+|cant|p1a: Chansey|slp
+|move|p2a: Gengar|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|264\/578 slp
+|
+|turn|53
+|
+|cant|p1a: Chansey|slp
+|move|p2a: Gengar|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|196\/578 slp
+|
+|turn|54
+|
+|cant|p1a: Chansey|slp
+|move|p2a: Gengar|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|127\/578 slp
+|
+|turn|55
+|
+|cant|p1a: Chansey|slp
+|cant|p2a: Gengar|par
+|
+|turn|56
+|c|★Kel9901|oh cmon gengar u gotta pull through
+|
+|cant|p1a: Chansey|slp
+|move|p2a: Gengar|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|60\/578 slp
+|
+|turn|57
+|
+|cant|p1a: Chansey|slp
+|-curestatus|p1a: Chansey|slp
+|move|p2a: Gengar|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|switch|p1a: Cloyster|Cloyster, L82|196\/250
+|turn|58
+|c|★country muffin|good ol genwun sleep
+|
+|move|p1a: Cloyster|Clamp|p2a: Gengar
+|-damage|p2a: Gengar|86\/266 par
+|-activate|p2a: Gengar|move: Clamp|[of] p1a: Cloyster
+|cant|p2a: Gengar|partiallytrapped
+|
+|turn|59
+|c|★Kel9901|indeed
+|
+|move|p1a: Cloyster|Clamp|p2a: Gengar
+|-damage|p2a: Gengar|61\/266 par
+|cant|p2a: Gengar|partiallytrapped
+|
+|turn|60
+|c|★country muffin|good thing there's this much more balanced strategy
+|
+|move|p1a: Cloyster|Clamp|p2a: Gengar
+|-damage|p2a: Gengar|36\/266 par
+|cant|p2a: Gengar|par
+|
+|turn|61
+|c|★Kel9901|lol
+|c|★country muffin|yes, the epitome of balance
+|
+|move|p1a: Cloyster|Clamp|p2a: Gengar
+|-damage|p2a: Gengar|11\/266 par
+|cant|p2a: Gengar|par
+|
+|-end|p2a: Gengar|Clamp|[partiallytrapped]
+|turn|62
+|
+|move|p1a: Cloyster|Clamp|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|switch|p2a: Electrode|Electrode, L86|198\/279 par
+|turn|63
+|
+|move|p1a: Cloyster|Clamp|p2a: Electrode
+|-damage|p2a: Electrode|163\/279 par
+|-activate|p2a: Electrode|move: Clamp|[of] p1a: Cloyster
+|cant|p2a: Electrode|partiallytrapped
+|
+|turn|64
+|
+|move|p1a: Cloyster|Clamp|p2a: Electrode
+|-damage|p2a: Electrode|128\/279 par
+|cant|p2a: Electrode|par
+|
+|-end|p2a: Electrode|Clamp|[partiallytrapped]
+|turn|65
+|c|★country muffin|should I use explosion to close it out
+|c|★Kel9901|ur choice
+|c|★Kel9901|or u can try to win
+|c|★country muffin|yolo
+|c|★Kel9901|and hope for no misses
+|
+|move|p1a: Cloyster|Explosion|p2a: Electrode
+|-crit|p2a: Electrode
+|-damage|p2a: Electrode|0 fnt
+|faint|p2a: Electrode
+|faint|p1a: Cloyster
+|
+|win|country muffin
+|raw|Ladder updating...
+|c|★country muffin|1\/256
+|raw|country muffin's rating: 1040 &rarr; <strong>1087<\/strong><br \/>(+47 for winning)
+|raw|Kel9901's rating: 1183 &rarr; <strong>1148<\/strong><br \/>(-35 for losing)
+|c|★country muffin|gg

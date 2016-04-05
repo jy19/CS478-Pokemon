@@ -1,0 +1,326 @@
+﻿|join|Giju
+|join|Peli
+|player|p1|Giju|163
+|player|p2|Peli|221
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jyn|Jynx|333\/333
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|turn|1
+|c|★Giju|sure!
+|c|★Peli|hf
+|join|GiantWhirlpool
+|c|★Giju|let's try this XD
+|
+|move|p1a: Jyn|Lovely Kiss|p2a: Exeggutor
+|-status|p2a: Exeggutor|slp
+|cant|p2a: Exeggutor|slp
+|-curestatus|p2a: Exeggutor|slp
+|
+|turn|2
+|c| GiantWhirlpool|oh, eggy lead
+|
+|move|p1a: Jyn|Lovely Kiss|p2a: Exeggutor|[miss]
+|-miss|p1a: Jyn
+|move|p2a: Exeggutor|Sleep Powder|p1a: Jyn
+|-status|p1a: Jyn|slp
+|
+|turn|3
+|c|★Giju|consider i use to run with pokèmon i prefer ^^
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|cant|p1a: Jyn|slp
+|
+|turn|4
+|
+|cant|p1a: Jyn|slp
+|move|p2a: Chansey|Thunderbolt|p1a: Jyn
+|-damage|p1a: Jyn|256\/333 slp
+|
+|turn|5
+|
+|cant|p1a: Jyn|slp
+|move|p2a: Chansey|Thunderbolt|p1a: Jyn
+|-damage|p1a: Jyn|170\/333 slp
+|
+|turn|6
+|
+|switch|p1a: Chan|Chansey|703\/703
+|move|p2a: Chansey|Thunderbolt|p1a: Chan
+|-damage|p1a: Chan|631\/703
+|
+|turn|7
+|
+|move|p1a: Chan|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|627\/703
+|move|p2a: Chansey|Ice Beam|p1a: Chan
+|-crit|p1a: Chan
+|-damage|p1a: Chan|490\/703
+|
+|turn|8
+|
+|move|p2a: Chansey|Ice Beam|p1a: Chan
+|-damage|p1a: Chan|416\/703
+|move|p1a: Chan|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|552\/703
+|
+|turn|9
+|leave|GiantWhirlpool
+|
+|move|p2a: Chansey|Ice Beam|p1a: Chan
+|-damage|p1a: Chan|342\/703
+|move|p1a: Chan|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|478\/703
+|
+|turn|10
+|
+|move|p1a: Chan|Ice Beam|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|322\/703
+|-status|p2a: Chansey|frz
+|cant|p2a: Chansey|frz
+|
+|turn|11
+|c|★Peli|gg
+|c|★Giju|freeze war is always luck based :D
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|move|p1a: Chan|Soft-Boiled|p1a: Chan
+|-heal|p1a: Chan|693\/703
+|
+|turn|12
+|
+|move|p2a: Tauros|Substitute|p2a: Tauros
+|-start|p2a: Tauros|Substitute
+|-damage|p2a: Tauros|265\/353
+|move|p1a: Chan|Thunder Wave|p2a: Tauros
+|-status|p2a: Tauros|par
+|
+|turn|13
+|
+|switch|p1a: Snor|Snorlax|523\/523
+|move|p2a: Tauros|Body Slam|p1a: Snor
+|-crit|p1a: Snor
+|-damage|p1a: Snor|256\/523
+|
+|turn|14
+|
+|move|p1a: Snor|Reflect|p1a: Snor
+|-start|p1a: Snor|Reflect
+|move|p2a: Tauros|Body Slam|p1a: Snor
+|-damage|p1a: Snor|191\/523
+|
+|turn|15
+|
+|move|p1a: Snor|Body Slam|p2a: Tauros
+|-end|p2a: Tauros|Substitute
+|move|p2a: Tauros|Blizzard|p1a: Snor
+|-damage|p1a: Snor|91\/523
+|
+|turn|16
+|
+|switch|p2a: Ghost|Gengar|323\/323
+|move|p1a: Snor|Rest|p1a: Snor
+|-status|p1a: Snor|slp
+|-heal|p1a: Snor|523\/523 slp|[silent]
+|-status|p1a: Snor|slp|[from] move: Rest
+|
+|turn|17
+|join|Typhlito
+|
+|switch|p1a: Chan|Chansey|693\/703
+|move|p2a: Ghost|Psychic|p1a: Chan
+|-damage|p1a: Chan|615\/703
+|
+|turn|18
+|
+|move|p2a: Ghost|Hypnosis|p1a: Chan
+|-message|Sleep Clause Mod activated.
+|move|p1a: Chan|Ice Beam|p2a: Ghost
+|-damage|p2a: Ghost|254\/323
+|
+|turn|19
+|c|★Peli|oh'lol
+|
+|move|p2a: Ghost|Explosion|p1a: Chan
+|-crit|p1a: Chan
+|-damage|p1a: Chan|0 fnt
+|faint|p1a: Chan
+|faint|p2a: Ghost
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|switch|p1a: Tau|Tauros|353\/353
+|turn|20
+|
+|switch|p1a: Snor|Snorlax|523\/523 slp
+|move|p2a: Starmie|Thunder Wave|p1a: Snor
+|-fail|p1a: Snor
+|
+|turn|21
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|cant|p1a: Snor|slp
+|
+|turn|22
+|
+|move|p2a: Exeggutor|Leech Seed|p1a: Snor
+|-start|p1a: Snor|move: Leech Seed
+|cant|p1a: Snor|slp
+|-damage|p1a: Snor|491\/523 slp|[from] Leech Seed|[of] p2a: Exeggutor
+|-curestatus|p1a: Snor|slp
+|
+|turn|23
+|
+|move|p2a: Exeggutor|Explosion|p1a: Snor
+|-damage|p1a: Snor|169\/523
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Alakazam|Alakazam|313\/313
+|turn|24
+|
+|move|p2a: Alakazam|Psychic|p1a: Snor
+|-damage|p1a: Snor|11\/523
+|move|p1a: Snor|Body Slam|p2a: Alakazam
+|-damage|p2a: Alakazam|139\/313
+|-damage|p1a: Snor|0 fnt|[from] Leech Seed|[of] p2a: Alakazam
+|-heal|p2a: Alakazam|150\/313|[silent]
+|faint|p1a: Snor
+|
+|switch|p1a: Tau|Tauros|353\/353
+|turn|25
+|
+|switch|p2a: Chansey|Chansey|322\/703 frz
+|move|p1a: Tau|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|27\/703 frz
+|
+|turn|26
+|
+|move|p1a: Tau|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|turn|27
+|
+|switch|p1a: Jyn|Jynx|170\/333 slp
+|move|p2a: Starmie|Thunder Wave|p1a: Jyn
+|-fail|p1a: Jyn
+|
+|turn|28
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Jyn
+|-damage|p1a: Jyn|97\/333 slp
+|cant|p1a: Jyn|slp
+|
+|turn|29
+|c|★Giju|i think there's something wrong on my team
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Jyn
+|-damage|p1a: Jyn|19\/333 slp
+|cant|p1a: Jyn|slp
+|
+|turn|30
+|c|★Peli|?
+|c|★Giju|maybe my pokèmon combination
+|c|★Giju|you think i can improve this team?
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Jyn
+|-damage|p1a: Jyn|0 fnt
+|faint|p1a: Jyn
+|c|★Peli|I don't know your last two
+|
+|switch|p1a: Tau|Tauros|353\/353
+|turn|31
+|
+|move|p2a: Starmie|Thunder Wave|p1a: Tau
+|-status|p1a: Tau|par
+|cant|p1a: Tau|par
+|
+|turn|32
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Tau
+|-damage|p1a: Tau|259\/353 par
+|cant|p1a: Tau|par
+|
+|turn|33
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Tau
+|-damage|p1a: Tau|172\/353 par
+|move|p1a: Tau|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|218\/323
+|-status|p2a: Starmie|par
+|
+|turn|34
+|c|★Peli|sry, gen 1 =[
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|323\/323 par
+|move|p1a: Tau|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|204\/323 par
+|
+|turn|35
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|323\/323 par
+|move|p1a: Tau|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|218\/323 par
+|
+|turn|36
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Tau
+|-damage|p1a: Tau|80\/353 par
+|move|p1a: Tau|Hyper Beam|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|switch|p2a: Alakazam|Alakazam|150\/313
+|turn|37
+|
+|move|p2a: Alakazam|Psychic|p1a: Tau
+|-damage|p1a: Tau|0 fnt
+|faint|p1a: Tau
+|
+|switch|p1a: Gol|Golem|363\/363
+|turn|38
+|
+|move|p2a: Alakazam|Psychic|p1a: Gol
+|-damage|p1a: Gol|170\/363
+|move|p1a: Gol|Explosion|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|faint|p1a: Gol
+|
+|switch|p1a: Per|Persian|333\/333
+|switch|p2a: Tauros|Tauros|265\/353 par
+|turn|39
+|
+|move|p1a: Per|Slash|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|123\/353 par
+|move|p2a: Tauros|Body Slam|p1a: Per
+|-damage|p1a: Per|195\/333
+|
+|turn|40
+|c|★Peli|gg
+|
+|move|p1a: Per|Slash|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|win|Giju
+|leave|Peli
+|player|p2
+|join|ParaSlam
+|leave|ParaSlam
+|leave|Typhlito

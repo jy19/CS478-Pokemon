@@ -1,0 +1,155 @@
+﻿|j|Reverb
+|j|Immuno
+|player|p1|Reverb|#reverb
+|player|p2|Immuno|66
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|seed|15664,39464,15877,11919
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333\/333
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|1
+|c|★Reverb|hf
+|c|★Immuno|same
+|choice|move 1|move 2
+|
+|move|p2a: Gengar|Hypnosis|p1a: Jynx
+|-status|p1a: Jynx|slp
+|-curestatus|p1a: Jynx|slp
+|
+|turn|2
+|choice|move 1|move 2
+|
+|move|p2a: Gengar|Hypnosis|p1a: Jynx
+|-status|p1a: Jynx|slp
+|-curestatus|p1a: Jynx|slp
+|
+|turn|3
+|c|★Reverb|wow
+|c|★Immuno|lol
+|choice|move 1|move 2
+|
+|move|p2a: Gengar|Hypnosis|p1a: Jynx|[miss]
+|-miss|p2a: Gengar
+|move|p1a: Jynx|Lovely Kiss|p2a: Gengar
+|-status|p2a: Gengar|slp
+|
+|turn|4
+|j|FishmrCP
+|choice|move 3|switch 4
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Jynx|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|383\/523
+|
+|turn|5
+|choice|move 2|move 1
+|
+|move|p1a: Jynx|Blizzard|p2a: Snorlax
+|-damage|p2a: Snorlax|213\/523
+|move|p2a: Snorlax|Body Slam|p1a: Jynx
+|-damage|p1a: Jynx|157\/333
+|-status|p1a: Jynx|par
+|
+|turn|6
+|choice|switch 2|move 1
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Snorlax|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|283\/393
+|
+|turn|7
+|choice|switch 2|move 1
+|
+|switch|p1a: Jynx|Jynx|157\/333 par
+|move|p2a: Snorlax|Body Slam|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|choice|switch 5|
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|8
+|choice|move 4|switch 6
+|
+|switch|p2a: Rhydon|Rhydon|413\/413
+|move|p1a: Tauros|Hyper Beam|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|330\/413
+|
+|turn|9
+|-mustrecharge|p1a: Tauros
+|-mustrecharge|p1a: Tauros
+|choice|move 1|move 1
+|
+|cant|p1a: Tauros|recharge
+|move|p2a: Rhydon|Earthquake|p1a: Tauros
+|-damage|p1a: Tauros|201\/353
+|
+|turn|10
+|choice|move 3|move 1
+|
+|move|p1a: Tauros|Blizzard|p2a: Rhydon|[miss]
+|-miss|p1a: Tauros
+|move|p2a: Rhydon|Earthquake|p1a: Tauros
+|-damage|p1a: Tauros|58\/353
+|
+|turn|11
+|j|Charliobah
+|choice|move 3|move 1
+|
+|move|p1a: Tauros|Blizzard|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|90\/413
+|move|p2a: Rhydon|Earthquake|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|choice|switch 6|
+|
+|switch|p1a: Persian|Persian|333\/333
+|turn|12
+|choice|move 3|switch 4
+|
+|switch|p2a: Gengar|Gengar|323\/323 slp
+|move|p1a: Persian|Bubble Beam|p2a: Gengar
+|-damage|p2a: Gengar|290\/323 slp
+|
+|turn|13
+|j|12C4
+|choice|switch 2|switch 3
+|
+|switch|p1a: Exeggutor|Exeggutor|283\/393
+|switch|p2a: Chansey|Chansey|703\/703
+|
+|turn|14
+|choice|switch 4|move 3
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|629\/703
+|
+|turn|15
+|choice|move 2|move 3
+|
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|555\/703
+|-status|p1a: Chansey|frz
+|cant|p1a: Chansey|frz
+|
+|turn|16
+|-message|Reverb forfeited.
+|
+|win|Immuno
+|player|p1
+|player|p2
+|c|★Reverb|gg
+|c|★Immuno|gg
+|l|Reverb
+|l|12C4

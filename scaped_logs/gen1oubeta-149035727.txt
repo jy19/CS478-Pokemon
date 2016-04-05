@@ -1,0 +1,333 @@
+﻿|join|champ_dab
+|join|Romano
+|player|p1|champ_dab|163
+|player|p2|Romano|274
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|switch|p1a: Starmie|Starmie|323\/323
+|switch|p2a: Raper|Alakazam|313\/313
+|turn|1
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Raper|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|turn|2
+|
+|move|p2a: Raper|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|567\/703 par
+|move|p1a: Chansey|Thunder Wave|p2a: Raper
+|-status|p2a: Raper|par
+|
+|turn|3
+|join|balam24
+|
+|switch|p2a: Miaou|Persian|333\/333
+|switch|p1a: Snorlax|Snorlax|523\/523
+|
+|turn|4
+|
+|move|p2a: Miaou|Slash|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|336\/523
+|move|p1a: Snorlax|Body Slam|p2a: Miaou
+|-damage|p2a: Miaou|182\/333
+|
+|turn|5
+|
+|move|p2a: Miaou|Hyper Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|167\/523
+|move|p1a: Snorlax|Hyper Beam|p2a: Miaou
+|-damage|p2a: Miaou|0 fnt
+|faint|p2a: Miaou
+|
+|
+|switch|p2a: The Rock|Tauros|353\/353
+|turn|6
+|
+|switch|p1a: Chansey|Chansey|567\/703 par
+|move|p2a: The Rock|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|302\/703 par
+|
+|turn|7
+|
+|switch|p1a: Rhydon|Rhydon|413\/413
+|move|p2a: The Rock|Hyper Beam|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|331\/413
+|
+|turn|8
+|
+|cant|p2a: The Rock|recharge
+|move|p1a: Rhydon|Body Slam|p2a: The Rock
+|-damage|p2a: The Rock|265\/353
+|
+|turn|9
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|move|p2a: The Rock|Blizzard|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|283\/323
+|
+|turn|10
+|
+|switch|p2a: Tobybro|Slowbro|393\/393
+|move|p1a: Starmie|Thunder Wave|p2a: Tobybro
+|-status|p2a: Tobybro|par
+|
+|turn|11
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Tobybro
+|-supereffective|p2a: Tobybro
+|-damage|p2a: Tobybro|217\/393 par
+|move|p2a: Tobybro|Thunder Wave|p1a: Starmie
+|-status|p1a: Starmie|par
+|
+|turn|12
+|
+|switch|p2a: Terrimad|Golem|363\/363
+|move|p1a: Starmie|Thunderbolt|p2a: Terrimad
+|-immune|p2a: Terrimad|[msg]
+|
+|turn|13
+|
+|move|p2a: Terrimad|Earthquake|p1a: Starmie
+|-damage|p1a: Starmie|137\/323 par
+|move|p1a: Starmie|Blizzard|p2a: Terrimad
+|-crit|p2a: Terrimad
+|-supereffective|p2a: Terrimad
+|-damage|p2a: Terrimad|0 fnt
+|faint|p2a: Terrimad
+|
+|
+|switch|p2a: Jean Jarre|Gengar|323\/323
+|turn|14
+|
+|move|p2a: Jean Jarre|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|
+|switch|p1a: Snorlax|Snorlax|167\/523
+|turn|15
+|
+|move|p2a: Jean Jarre|Hypnosis|p1a: Snorlax
+|-status|p1a: Snorlax|slp
+|cant|p1a: Snorlax|slp
+|
+|turn|16
+|
+|switch|p2a: The Rock|Tauros|265\/353
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|
+|turn|17
+|
+|move|p2a: The Rock|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|281\/393
+|move|p1a: Exeggutor|Psychic|p2a: The Rock
+|-damage|p2a: The Rock|121\/353
+|
+|turn|18
+|
+|switch|p2a: Raper|Alakazam|313\/313 par
+|move|p1a: Exeggutor|Psychic|p2a: Raper
+|-crit|p2a: Raper
+|-resisted|p2a: Raper
+|-damage|p2a: Raper|212\/313 par
+|
+|turn|19
+|
+|switch|p2a: Jean Jarre|Gengar|323\/323
+|move|p1a: Exeggutor|Explosion|p2a: Jean Jarre
+|-immune|p2a: Jean Jarre|[msg]
+|faint|p1a: Exeggutor
+|chat|champ_dab|awww shit
+|
+|switch|p1a: Rhydon|Rhydon|331\/413
+|turn|20
+|
+|move|p2a: Jean Jarre|Hypnosis|p1a: Rhydon
+|-message|Sleep Clause Mod activated.
+|move|p1a: Rhydon|Earthquake|p2a: Jean Jarre
+|-supereffective|p2a: Jean Jarre
+|-damage|p2a: Jean Jarre|0 fnt
+|faint|p2a: Jean Jarre
+|
+|
+|switch|p2a: The Rock|Tauros|121\/353
+|turn|21
+|
+|move|p2a: The Rock|Blizzard|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|89\/413
+|move|p1a: Rhydon|Earthquake|p2a: The Rock
+|-damage|p2a: The Rock|0 fnt
+|faint|p2a: The Rock
+|
+|
+|switch|p2a: Raper|Alakazam|212\/313 par
+|turn|22
+|chat|Romano|gg
+|
+|move|p1a: Rhydon|Earthquake|p2a: Raper
+|-damage|p2a: Raper|0 fnt
+|faint|p2a: Raper
+|
+|
+|switch|p2a: Tobybro|Slowbro|217\/393 par
+|turn|23
+|
+|move|p1a: Rhydon|Earthquake|p2a: Tobybro
+|-damage|p2a: Tobybro|92\/393 par
+|move|p2a: Tobybro|Rest|p2a: Tobybro
+|-status|p2a: Tobybro|slp
+|-heal|p2a: Tobybro|393\/393 slp|[silent]
+|-status|p2a: Tobybro|slp|[from] move: Rest
+|
+|turn|24
+|
+|switch|p1a: Chansey|Chansey|302\/703 par
+|cant|p2a: Tobybro|slp
+|
+|turn|25
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Tobybro
+|-supereffective|p2a: Tobybro
+|-damage|p2a: Tobybro|227\/393 slp
+|cant|p2a: Tobybro|slp
+|-curestatus|p2a: Tobybro|slp
+|
+|turn|26
+|
+|cant|p1a: Chansey|par
+|move|p2a: Tobybro|Amnesia|p2a: Tobybro
+|-boost|p2a: Tobybro|spd|2
+|-boost|p2a: Tobybro|spa|2
+|
+|turn|27
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Tobybro
+|-status|p2a: Tobybro|par
+|move|p2a: Tobybro|Surf|p1a: Chansey
+|-damage|p1a: Chansey|111\/703 par
+|
+|turn|28
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Tobybro
+|-supereffective|p2a: Tobybro
+|-damage|p2a: Tobybro|133\/393 par
+|move|p2a: Tobybro|Rest|p2a: Tobybro
+|-status|p2a: Tobybro|slp
+|-heal|p2a: Tobybro|393\/393 slp|[silent]
+|-status|p2a: Tobybro|slp|[from] move: Rest
+|
+|turn|29
+|
+|switch|p1a: Snorlax|Snorlax|167\/523 slp
+|cant|p2a: Tobybro|slp
+|
+|turn|30
+|
+|cant|p1a: Snorlax|slp
+|cant|p2a: Tobybro|slp
+|-curestatus|p2a: Tobybro|slp
+|
+|turn|31
+|
+|cant|p1a: Snorlax|slp
+|move|p2a: Tobybro|Surf|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|32
+|
+|move|p1a: Tauros|Body Slam|p2a: Tobybro
+|-damage|p2a: Tobybro|294\/393
+|move|p2a: Tobybro|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|
+|turn|33
+|
+|cant|p1a: Tauros|par
+|move|p2a: Tobybro|Surf|p1a: Tauros
+|-damage|p1a: Tauros|105\/353 par
+|
+|turn|34
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Tobybro
+|-damage|p2a: Tobybro|118\/393
+|move|p2a: Tobybro|Amnesia|p2a: Tobybro
+|-boost|p2a: Tobybro|spd|2
+|-boost|p2a: Tobybro|spa|2
+|
+|turn|35
+|
+|cant|p1a: Tauros|par
+|move|p2a: Tobybro|Rest|p2a: Tobybro
+|-status|p2a: Tobybro|slp
+|-heal|p2a: Tobybro|393\/393 slp|[silent]
+|-status|p2a: Tobybro|slp|[from] move: Rest
+|
+|turn|36
+|
+|cant|p1a: Tauros|par
+|cant|p2a: Tobybro|slp
+|
+|turn|37
+|
+|move|p1a: Tauros|Body Slam|p2a: Tobybro
+|-damage|p2a: Tobybro|302\/393 slp
+|cant|p2a: Tobybro|slp
+|-curestatus|p2a: Tobybro|slp
+|
+|turn|38
+|
+|cant|p1a: Tauros|par
+|move|p2a: Tobybro|Surf|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|
+|switch|p1a: Rhydon|Rhydon|89\/413
+|turn|39
+|
+|move|p1a: Rhydon|Body Slam|p2a: Tobybro
+|-damage|p2a: Tobybro|226\/393
+|-status|p2a: Tobybro|par
+|move|p2a: Tobybro|Surf|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|
+|
+|switch|p1a: Chansey|Chansey|111\/703 par
+|turn|40
+|
+|cant|p1a: Chansey|par
+|move|p2a: Tobybro|Surf|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|win|Romano
+|raw|Ladder updating...
+|raw|champ_dab's rating: 1314 &rarr; <strong>1283<\/strong><br \/>(-31 for losing)
+|raw|Romano's rating: 1094 &rarr; <strong>1134<\/strong><br \/>(+40 for winning)
+|chat|champ_dab|gg
+|chat|Romano|gg
+|leave|balam24
+|leave|Romano
+|player|p2

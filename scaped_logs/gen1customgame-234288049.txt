@@ -1,0 +1,523 @@
+﻿|join|Hawkeyeone
+|join|SinisterHFigure
+|player|p1|Hawkeyeone|293
+|player|p2|SinisterHFigure|269
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Custom Game
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Electrode|Electrode|323\/323
+|switch|p2a: Gastly|Gastly|263\/263
+|turn|1
+|
+|switch|p2a: Graveler|Graveler|313\/313
+|move|p1a: Electrode|Thunder Wave|p2a: Graveler
+|debug|natural immunity
+|-immune|p2a: Graveler|[msg]
+|
+|turn|2
+|
+|switch|p1a: Parasect|Parasect|323\/323
+|move|p2a: Graveler|Body Slam|p1a: Parasect
+|debug|randBW(256) = 249
+|debug|randBW(256) = 62
+|debug|randBW(217, 256) = 250
+|-damage|p1a: Parasect|243\/323
+|debug|randBW(256) = 250
+|
+|turn|3
+|
+|move|p2a: Graveler|Rock Slide|p1a: Parasect
+|debug|randBW(256) = 125
+|debug|randBW(256) = 205
+|-supereffective|p1a: Parasect
+|debug|randBW(217, 256) = 229
+|-damage|p1a: Parasect|50\/323
+|move|p1a: Parasect|Spore|p2a: Graveler
+|debug|randBW(256) = 9
+|-status|p2a: Graveler|slp
+|debug|randBW(1, 7) = 1
+|
+|turn|4
+|
+|switch|p2a: Gastly|Gastly|263\/263
+|switch|p1a: Poliwrath|Poliwrath|383\/383
+|
+|turn|5
+|
+|move|p2a: Gastly|Hypnosis|p1a: Poliwrath|[miss]
+|debug|randBW(256) = 203
+|-miss|p2a: Gastly
+|move|p1a: Poliwrath|Amnesia|p1a: Poliwrath
+|-boost|p1a: Poliwrath|spd|2
+|-boost|p1a: Poliwrath|spa|2
+|
+|turn|6
+|
+|move|p2a: Gastly|Hypnosis|p1a: Poliwrath|[miss]
+|debug|randBW(256) = 203
+|-miss|p2a: Gastly
+|move|p1a: Poliwrath|Surf|p2a: Gastly
+|debug|randBW(256) = 12
+|debug|randBW(256) = 125
+|debug|randBW(217, 256) = 223
+|-damage|p2a: Gastly|93\/263
+|
+|turn|7
+|
+|move|p2a: Gastly|Hypnosis|p1a: Poliwrath
+|debug|randBW(256) = 57
+|-status|p1a: Poliwrath|slp
+|debug|randBW(1, 7) = 1
+|cant|p1a: Poliwrath|slp
+|-curestatus|p1a: Poliwrath|slp
+|
+|turn|8
+|
+|move|p2a: Gastly|Hypnosis|p1a: Poliwrath
+|debug|randBW(256) = 73
+|-status|p1a: Poliwrath|slp
+|debug|randBW(1, 7) = 6
+|cant|p1a: Poliwrath|slp
+|
+|turn|9
+|
+|switch|p2a: Avada|Abra|253\/253
+|cant|p1a: Poliwrath|slp
+|
+|turn|10
+|
+|move|p2a: Avada|Psychic|p1a: Poliwrath
+|debug|randBW(256) = 121
+|debug|randBW(256) = 31
+|-crit|p1a: Poliwrath
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|-supereffective|p1a: Poliwrath
+|debug|randBW(217, 256) = 234
+|-damage|p1a: Poliwrath|0 fnt
+|debug|randBW(256) = 219
+|faint|p1a: Poliwrath
+|
+|switch|p1a: Parasect|Parasect|50\/323
+|turn|11
+|
+|move|p2a: Avada|Psychic|p1a: Parasect
+|debug|randBW(256) = 98
+|debug|randBW(256) = 5
+|-crit|p1a: Parasect
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|debug|randBW(217, 256) = 239
+|-damage|p1a: Parasect|0 fnt
+|debug|randBW(256) = 124
+|faint|p1a: Parasect
+|
+|switch|p1a: Rapidash|Rapidash|333\/333
+|turn|12
+|
+|switch|p2a: Graveler|Graveler|313\/313 slp
+|move|p1a: Rapidash|Agility|p1a: Rapidash
+|-boost|p1a: Rapidash|spe|2
+|
+|turn|13
+|
+|move|p1a: Rapidash|Fire Spin|p2a: Graveler
+|debug|randBW(256) = 59
+|debug|randBW(256) = 79
+|-resisted|p2a: Graveler
+|debug|randBW(217, 256) = 243
+|-damage|p2a: Graveler|300\/313 slp
+|-activate|p2a: Graveler|move: Fire Spin|[of] p1a: Rapidash
+|debug|randBW(8) = 3
+|cant|p2a: Graveler|slp
+|-curestatus|p2a: Graveler|slp
+|
+|turn|14
+|
+|switch|p2a: Vapor|Vaporeon|463\/463
+|move|p1a: Rapidash|Fire Spin|p2a: Vapor|[miss]
+|debug|randBW(256) = 216
+|-miss|p1a: Rapidash
+|
+|turn|15
+|
+|move|p1a: Rapidash|Fire Spin|p2a: Vapor
+|debug|randBW(256) = 69
+|debug|randBW(256) = 172
+|-resisted|p2a: Vapor
+|debug|randBW(217, 256) = 220
+|-damage|p2a: Vapor|456\/463
+|-activate|p2a: Vapor|move: Fire Spin|[of] p1a: Rapidash
+|debug|randBW(8) = 0
+|cant|p2a: Vapor|partiallytrapped
+|
+|turn|16
+|
+|switch|p2a: Graveler|Graveler|300\/313
+|move|p1a: Rapidash|Fire Spin|p2a: Graveler
+|debug|randBW(256) = 123
+|debug|randBW(256) = 208
+|-resisted|p2a: Graveler
+|debug|randBW(217, 256) = 255
+|-damage|p2a: Graveler|286\/313
+|-activate|p2a: Graveler|move: Fire Spin|[of] p1a: Rapidash
+|debug|randBW(8) = 1
+|
+|turn|17
+|
+|switch|p2a: Vapor|Vaporeon|456\/463
+|move|p1a: Rapidash|Fire Spin|p2a: Vapor|[miss]
+|debug|randBW(256) = 237
+|-miss|p1a: Rapidash
+|
+|turn|18
+|
+|move|p1a: Rapidash|Fire Spin|p2a: Vapor
+|debug|randBW(256) = 52
+|debug|randBW(256) = 5
+|-crit|p2a: Vapor
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|-resisted|p2a: Vapor
+|debug|randBW(217, 256) = 243
+|-damage|p2a: Vapor|442\/463
+|-activate|p2a: Vapor|move: Fire Spin|[of] p1a: Rapidash
+|debug|randBW(8) = 2
+|cant|p2a: Vapor|partiallytrapped
+|
+|turn|19
+|
+|move|p1a: Rapidash|Fire Spin|p2a: Vapor
+|-damage|p2a: Vapor|428\/463
+|cant|p2a: Vapor|partiallytrapped
+|
+|-end|p2a: Vapor|Fire Spin|[partiallytrapped]
+|turn|20
+|
+|move|p1a: Rapidash|Fire Spin|p2a: Vapor
+|debug|randBW(256) = 74
+|debug|randBW(256) = 165
+|-resisted|p2a: Vapor
+|debug|randBW(217, 256) = 255
+|-damage|p2a: Vapor|419\/463
+|-activate|p2a: Vapor|move: Fire Spin|[of] p1a: Rapidash
+|debug|randBW(8) = 2
+|cant|p2a: Vapor|partiallytrapped
+|
+|turn|21
+|
+|move|p1a: Rapidash|Fire Spin|p2a: Vapor
+|-damage|p2a: Vapor|410\/463
+|cant|p2a: Vapor|partiallytrapped
+|
+|-end|p2a: Vapor|Fire Spin|[partiallytrapped]
+|turn|22
+|
+|move|p1a: Rapidash|Fire Spin|p2a: Vapor
+|debug|randBW(256) = 135
+|debug|randBW(256) = 163
+|-resisted|p2a: Vapor
+|debug|randBW(217, 256) = 231
+|-damage|p2a: Vapor|402\/463
+|-activate|p2a: Vapor|move: Fire Spin|[of] p1a: Rapidash
+|debug|randBW(8) = 4
+|cant|p2a: Vapor|partiallytrapped
+|
+|turn|23
+|
+|move|p1a: Rapidash|Fire Spin|p2a: Vapor
+|-damage|p2a: Vapor|394\/463
+|cant|p2a: Vapor|partiallytrapped
+|
+|turn|24
+|
+|move|p1a: Rapidash|Fire Spin|p2a: Vapor
+|-damage|p2a: Vapor|386\/463
+|cant|p2a: Vapor|partiallytrapped
+|
+|-end|p2a: Vapor|Fire Spin|[partiallytrapped]
+|turn|25
+|
+|move|p1a: Rapidash|Fire Spin|p2a: Vapor
+|debug|randBW(256) = 136
+|debug|randBW(256) = 204
+|-resisted|p2a: Vapor
+|debug|randBW(217, 256) = 225
+|-damage|p2a: Vapor|379\/463
+|-activate|p2a: Vapor|move: Fire Spin|[of] p1a: Rapidash
+|debug|randBW(8) = 6
+|cant|p2a: Vapor|partiallytrapped
+|
+|turn|26
+|
+|move|p1a: Rapidash|Fire Spin|p2a: Vapor
+|-damage|p2a: Vapor|372\/463
+|cant|p2a: Vapor|partiallytrapped
+|
+|turn|27
+|
+|move|p1a: Rapidash|Fire Spin|p2a: Vapor
+|-damage|p2a: Vapor|365\/463
+|cant|p2a: Vapor|partiallytrapped
+|
+|turn|28
+|
+|move|p1a: Rapidash|Fire Spin|p2a: Vapor
+|-damage|p2a: Vapor|358\/463
+|cant|p2a: Vapor|partiallytrapped
+|
+|-end|p2a: Vapor|Fire Spin|[partiallytrapped]
+|turn|29
+|
+|move|p1a: Rapidash|Fire Spin|p2a: Vapor
+|debug|randBW(256) = 112
+|debug|randBW(256) = 121
+|-resisted|p2a: Vapor
+|debug|randBW(217, 256) = 254
+|-damage|p2a: Vapor|350\/463
+|-activate|p2a: Vapor|move: Fire Spin|[of] p1a: Rapidash
+|debug|randBW(8) = 3
+|cant|p2a: Vapor|partiallytrapped
+|
+|turn|30
+|
+|move|p1a: Rapidash|Fire Spin|p2a: Vapor
+|-damage|p2a: Vapor|342\/463
+|cant|p2a: Vapor|partiallytrapped
+|
+|turn|31
+|
+|move|p1a: Rapidash|Fire Spin|p2a: Vapor
+|-damage|p2a: Vapor|334\/463
+|cant|p2a: Vapor|partiallytrapped
+|
+|-end|p2a: Vapor|Fire Spin|[partiallytrapped]
+|turn|32
+|
+|switch|p1a: Clefable|Clefable|393\/393
+|move|p2a: Vapor|Surf|p1a: Clefable
+|debug|randBW(256) = 23
+|debug|randBW(256) = 69
+|debug|randBW(217, 256) = 222
+|-damage|p1a: Clefable|268\/393
+|
+|turn|33
+|
+|switch|p2a: Venom|Venomoth|343\/343
+|move|p1a: Clefable|Thunder Wave|p2a: Venom
+|debug|randBW(256) = 188
+|-status|p2a: Venom|par
+|
+|turn|34
+|
+|move|p1a: Clefable|Ice Beam|p2a: Venom
+|debug|randBW(256) = 39
+|debug|randBW(256) = 89
+|debug|randBW(217, 256) = 220
+|-damage|p2a: Venom|275\/343 par
+|debug|randBW(256) = 9
+|debug|randBW(256) = 37
+|cant|p2a: Venom|par
+|
+|turn|35
+|
+|move|p1a: Clefable|Ice Beam|p2a: Venom
+|debug|randBW(256) = 244
+|debug|randBW(256) = 98
+|debug|randBW(217, 256) = 217
+|-damage|p2a: Venom|208\/343 par
+|debug|randBW(256) = 121
+|debug|randBW(256) = 48
+|cant|p2a: Venom|par
+|
+|turn|36
+|
+|move|p1a: Clefable|Ice Beam|p2a: Venom
+|debug|randBW(256) = 57
+|debug|randBW(256) = 28
+|-crit|p2a: Venom
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|debug|randBW(217, 256) = 221
+|-damage|p2a: Venom|76\/343 par
+|debug|randBW(256) = 183
+|debug|randBW(256) = 14
+|cant|p2a: Venom|par
+|
+|turn|37
+|
+|move|p1a: Clefable|Ice Beam|p2a: Venom
+|debug|randBW(256) = 131
+|debug|randBW(256) = 1
+|-crit|p2a: Venom
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|debug|randBW(217, 256) = 244
+|-damage|p2a: Venom|0 fnt
+|debug|randBW(256) = 110
+|faint|p2a: Venom
+|
+|switch|p2a: Gastly|Gastly|93\/263
+|turn|38
+|
+|move|p2a: Gastly|Hypnosis|p1a: Clefable|[miss]
+|debug|randBW(256) = 217
+|-miss|p2a: Gastly
+|move|p1a: Clefable|Thunderbolt|p2a: Gastly
+|debug|randBW(256) = 243
+|debug|randBW(256) = 163
+|debug|randBW(217, 256) = 255
+|-damage|p2a: Gastly|19\/263
+|debug|randBW(256) = 54
+|
+|turn|39
+|
+|move|p2a: Gastly|Hypnosis|p1a: Clefable
+|debug|randBW(256) = 24
+|-status|p1a: Clefable|slp
+|debug|randBW(1, 7) = 5
+|cant|p1a: Clefable|slp
+|
+|turn|40
+|
+|switch|p2a: Ratigan|Raticate|313\/313
+|switch|p1a: Electrode|Electrode|323\/323
+|
+|turn|41
+|
+|switch|p2a: Graveler|Graveler|286\/313
+|move|p1a: Electrode|Thunder Wave|p2a: Graveler
+|debug|natural immunity
+|-immune|p2a: Graveler|[msg]
+|
+|turn|42
+|
+|switch|p1a: Hitmonlee|Hitmonlee|303\/303
+|move|p2a: Graveler|Earthquake|p1a: Hitmonlee
+|debug|randBW(256) = 254
+|debug|randBW(256) = 60
+|debug|randBW(217, 256) = 251
+|-damage|p1a: Hitmonlee|126\/303
+|
+|turn|43
+|
+|switch|p2a: Gastly|Gastly|19\/263
+|move|p1a: Hitmonlee|High Jump Kick|p2a: Gastly
+|debug|natural immunity
+|-immune|p2a: Gastly|[msg]
+|-damage|p1a: Hitmonlee|125\/303
+|
+|turn|44
+|
+|move|p1a: Hitmonlee|Seismic Toss|p2a: Gastly
+|debug|randBW(256) = 168
+|-damage|p2a: Gastly|0 fnt
+|faint|p2a: Gastly
+|
+|switch|p2a: Ratigan|Raticate|313\/313
+|turn|45
+|
+|move|p2a: Ratigan|Body Slam|p1a: Hitmonlee
+|debug|randBW(256) = 127
+|debug|randBW(256) = 238
+|debug|randBW(217, 256) = 218
+|-damage|p1a: Hitmonlee|7\/303
+|debug|randBW(256) = 198
+|move|p1a: Hitmonlee|High Jump Kick|p2a: Ratigan
+|debug|randBW(256) = 159
+|debug|randBW(256) = 216
+|-supereffective|p2a: Ratigan
+|debug|randBW(217, 256) = 220
+|-damage|p2a: Ratigan|22\/313
+|
+|turn|46
+|
+|move|p2a: Ratigan|Body Slam|p1a: Hitmonlee
+|debug|randBW(256) = 119
+|debug|randBW(256) = 192
+|debug|randBW(217, 256) = 241
+|-damage|p1a: Hitmonlee|0 fnt
+|debug|randBW(256) = 248
+|faint|p1a: Hitmonlee
+|
+|switch|p1a: Rapidash|Rapidash|333\/333
+|turn|47
+|
+|move|p1a: Rapidash|Fire Spin|p2a: Ratigan|[miss]
+|debug|randBW(256) = 239
+|-miss|p1a: Rapidash
+|move|p2a: Ratigan|Super Fang|p1a: Rapidash
+|debug|randBW(256) = 161
+|-damage|p1a: Rapidash|167\/333
+|
+|turn|48
+|
+|move|p1a: Rapidash|Fire Spin|p2a: Ratigan|[miss]
+|debug|randBW(256) = 180
+|-miss|p1a: Rapidash
+|move|p2a: Ratigan|Body Slam|p1a: Rapidash
+|debug|randBW(256) = 201
+|debug|randBW(256) = 228
+|debug|randBW(217, 256) = 226
+|-damage|p1a: Rapidash|61\/333
+|debug|randBW(256) = 103
+|
+|turn|49
+|
+|move|p1a: Rapidash|Fire Spin|p2a: Ratigan|[miss]
+|debug|randBW(256) = 243
+|-miss|p1a: Rapidash
+|move|p2a: Ratigan|Body Slam|p1a: Rapidash
+|debug|randBW(256) = 211
+|debug|randBW(256) = 97
+|debug|randBW(217, 256) = 244
+|-damage|p1a: Rapidash|0 fnt
+|debug|randBW(256) = 2
+|faint|p1a: Rapidash
+|
+|switch|p1a: Electrode|Electrode|323\/323
+|turn|50
+|
+|switch|p2a: Graveler|Graveler|286\/313
+|move|p1a: Electrode|Thunderbolt|p2a: Graveler
+|debug|natural immunity
+|-immune|p2a: Graveler|[msg]
+|
+|turn|51
+|
+|switch|p1a: Clefable|Clefable|268\/393 slp
+|move|p2a: Graveler|Earthquake|p1a: Clefable
+|debug|randBW(256) = 164
+|debug|randBW(256) = 211
+|debug|randBW(217, 256) = 229
+|-damage|p1a: Clefable|133\/393 slp
+|
+|turn|52
+|
+|cant|p1a: Clefable|slp
+|move|p2a: Graveler|Earthquake|p1a: Clefable
+|debug|randBW(256) = 217
+|debug|randBW(256) = 7
+|-crit|p1a: Clefable
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|debug|randBW(217, 256) = 240
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|switch|p1a: Electrode|Electrode|323\/323
+|turn|53
+|
+|move|p1a: Electrode|Explosion|p2a: Graveler
+|debug|randBW(256) = 1
+|debug|randBW(256) = 138
+|-resisted|p2a: Graveler
+|debug|randBW(217, 256) = 219
+|-damage|p2a: Graveler|213\/313
+|faint|p1a: Electrode
+|
+|win|SinisterHFigure
+|c|★SinisterHFigure|gg

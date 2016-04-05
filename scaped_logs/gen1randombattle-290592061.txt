@@ -1,0 +1,97 @@
+﻿|join|riwu
+|join|PickledBeets
+|player|p1|riwu|102
+|player|p2|PickledBeets|162
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|58229,51991,52341,4133
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Muk|Muk, L90|372\/372
+|switch|p2a: Jynx|Jynx, L79|265\/265
+|turn|1
+|choice|switch 6|move 1
+|
+|switch|p1a: Metapod|Metapod, L99|300\/300
+|move|p2a: Jynx|Psychic|p1a: Metapod
+|-damage|p1a: Metapod|165\/300
+|
+|turn|2
+|choice|switch 6|move 4
+|
+|switch|p1a: Muk|Muk, L90|372\/372
+|move|p2a: Jynx|Blizzard|p1a: Muk
+|-damage|p1a: Muk|248\/372
+|
+|turn|3
+|choice|move 1|move 1
+|
+|move|p2a: Jynx|Psychic|p1a: Muk
+|-supereffective|p1a: Muk
+|-damage|p1a: Muk|49\/372
+|move|p1a: Muk|Explosion|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|faint|p1a: Muk
+|choice|switch 3|switch 3
+|
+|switch|p1a: Pidgey|Pidgey, L96|272\/272
+|switch|p2a: Oddish|Oddish, L96|281\/281
+|turn|4
+|choice|switch 6|move 2
+|
+|switch|p1a: Metapod|Metapod, L99|165\/300
+|move|p2a: Oddish|Double-Edge|p1a: Metapod
+|-damage|p1a: Metapod|98\/300
+|-damage|p2a: Oddish|265\/281|[from] recoil|[of] p1a: Metapod
+|
+|turn|5
+|choice|switch 4|move 1
+|
+|switch|p1a: Aerodactyl|Aerodactyl, L90|327\/327
+|move|p2a: Oddish|Swords Dance|p2a: Oddish
+|-boost|p2a: Oddish|atk|2
+|
+|turn|6
+|choice|move 2|move 4
+|
+|move|p1a: Aerodactyl|Sky Attack|p2a: Oddish|[still]
+|-prepare|p1a: Aerodactyl|Sky Attack|p2a: Oddish
+|move|p2a: Oddish|Sleep Powder|p1a: Aerodactyl
+|-status|p1a: Aerodactyl|slp
+|
+|turn|7
+|choice|move 1|move 1
+|
+|-curestatus|p1a: Aerodactyl|slp
+|move|p2a: Oddish|Swords Dance|p2a: Oddish
+|-boost|p2a: Oddish|atk|2
+|
+|turn|8
+|choice|switch 4|move 4
+|
+|switch|p1a: Metapod|Metapod, L99|98\/300
+|move|p2a: Oddish|Sleep Powder|p1a: Metapod
+|-status|p1a: Metapod|slp
+|
+|turn|9
+|choice|switch 5|move 2
+|
+|switch|p1a: Haunter|Haunter, L85|250\/250
+|move|p2a: Oddish|Double-Edge|p1a: Haunter
+|-immune|p1a: Haunter|[msg]
+|
+|turn|10
+|c|★PickledBeets|gg
+|-message|PickledBeets forfeited.
+|
+|win|riwu
+|leave|PickledBeets
+|player|p2
+|raw|riwu's rating: 1413 &rarr; <strong>1432<\/strong><br \/>(+19 for winning)
+|raw|PickledBeets's rating: 1394 &rarr; <strong>1375<\/strong><br \/>(-19 for losing)

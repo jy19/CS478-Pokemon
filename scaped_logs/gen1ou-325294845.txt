@@ -1,0 +1,295 @@
+﻿|j|c353
+|j|Orion's Garterbelt
+|player|p1|c353|266
+|player|p2|Orion's Garterbelt|1
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|seed|48008,51002,43651,19737
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: there is no spoon|Alakazam|313\/313
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|1
+|c|★c353|glhf
+|choice|move 1|move 3
+|
+|move|p1a: there is no spoon|Psychic|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|110\/323
+|move|p2a: Gengar|Hypnosis|p1a: there is no spoon
+|-status|p1a: there is no spoon|slp
+|
+|turn|2
+|c|★Orion's Garterbelt|gl hf
+|choice|switch 4|move 2
+|
+|switch|p1a: finger lickin good|Snorlax|523\/523
+|move|p2a: Gengar|Confuse Ray|p1a: finger lickin good
+|-start|p1a: finger lickin good|confusion
+|
+|turn|3
+|choice|move 3|switch 2
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|-activate|p1a: finger lickin good|confusion
+|-damage|p1a: finger lickin good|475\/523|[from] confusion
+|
+|turn|4
+|choice|switch 3|move 1
+|
+|switch|p1a: boom n*gga|Exeggutor|393\/393
+|move|p2a: Snorlax|Body Slam|p1a: boom n*gga
+|-damage|p1a: boom n*gga|275\/393
+|
+|turn|5
+|choice|move 3|switch 2
+|
+|switch|p2a: Gengar|Gengar|110\/323
+|move|p1a: boom n*gga|Sleep Powder|p2a: Gengar
+|-status|p2a: Gengar|slp
+|
+|turn|6
+|choice|move 1|switch 3
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: boom n*gga|Mega Drain|p2a: Chansey
+|-damage|p2a: Chansey|649\/703
+|-heal|p1a: boom n*gga|302\/393|[from] drain|[of] p2a: Chansey
+|
+|turn|7
+|choice|move 2|move 3
+|
+|move|p1a: boom n*gga|Explosion|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|faint|p1a: boom n*gga
+|choice|switch 2|switch 2
+|
+|switch|p1a: rockman|Rhydon|413\/413
+|switch|p2a: Snorlax|Snorlax|523\/523
+|turn|8
+|choice|move 1|switch 5
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: rockman|Earthquake|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|313\/393
+|
+|turn|9
+|choice|switch 3|move 3
+|
+|switch|p1a: finger lickin good|Snorlax|475\/523
+|move|p2a: Exeggutor|Stun Spore|p1a: finger lickin good
+|-status|p1a: finger lickin good|par
+|
+|turn|10
+|choice|move 1|switch 5
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: finger lickin good|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|385\/523
+|
+|turn|11
+|choice|move 1|move 3
+|
+|move|p1a: finger lickin good|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|235\/523
+|move|p2a: Snorlax|Counter|p1a: finger lickin good
+|-damage|p1a: finger lickin good|175\/523 par
+|
+|turn|12
+|choice|move 4|switch 3
+|
+|switch|p2a: Gengar|Gengar|110\/323 slp
+|move|p1a: finger lickin good|Self-Destruct|p2a: Gengar
+|-immune|p2a: Gengar|[msg]
+|faint|p1a: finger lickin good
+|choice|switch 6|
+|
+|switch|p1a: cow|Tauros|353\/353
+|turn|13
+|choice|move 2|move 1
+|
+|cant|p2a: Gengar|slp
+|move|p1a: cow|Earthquake|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|choice||switch 5
+|
+|switch|p2a: Exeggutor|Exeggutor|313\/393
+|turn|14
+|choice|switch 4|move 3
+|
+|switch|p1a: there is no spoon|Alakazam|313\/313 slp
+|move|p2a: Exeggutor|Stun Spore|p1a: there is no spoon
+|-fail|p1a: there is no spoon
+|
+|turn|15
+|choice|move 3|switch 3
+|
+|switch|p2a: Snorlax|Snorlax|235\/523
+|cant|p1a: there is no spoon|slp
+|
+|turn|16
+|choice|switch 3|move 1
+|
+|switch|p1a: rockman|Rhydon|413\/413
+|move|p2a: Snorlax|Body Slam|p1a: rockman
+|-resisted|p1a: rockman
+|-damage|p1a: rockman|364\/413
+|
+|turn|17
+|choice|move 4|switch 3
+|
+|switch|p2a: Exeggutor|Exeggutor|313\/393
+|move|p1a: rockman|Body Slam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|221\/393
+|
+|turn|18
+|choice|move 4|switch 3
+|
+|switch|p2a: Snorlax|Snorlax|235\/523
+|move|p1a: rockman|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|130\/523
+|
+|turn|19
+|choice|move 4|switch 3
+|
+|switch|p2a: Exeggutor|Exeggutor|221\/393
+|move|p1a: rockman|Body Slam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|126\/393
+|
+|turn|20
+|choice|switch 3|move 3
+|
+|switch|p1a: there is no spoon|Alakazam|313\/313 slp
+|move|p2a: Exeggutor|Stun Spore|p1a: there is no spoon
+|-fail|p1a: there is no spoon
+|
+|turn|21
+|choice|move 3|switch 3
+|
+|switch|p2a: Snorlax|Snorlax|130\/523
+|-curestatus|p1a: there is no spoon|slp
+|
+|turn|22
+|choice|move 3|move 4
+|
+|move|p1a: there is no spoon|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|move|p2a: Snorlax|Self-Destruct|p1a: there is no spoon
+|-crit|p1a: there is no spoon
+|-damage|p1a: there is no spoon|0 fnt
+|faint|p1a: there is no spoon
+|faint|p2a: Snorlax
+|choice|switch 4|switch 4
+|
+|switch|p1a: cow|Tauros|353\/353
+|switch|p2a: Slowbro|Slowbro|393\/393
+|turn|23
+|choice|switch 5|move 3
+|
+|switch|p1a: joseph stallin|Chansey|703\/703
+|move|p2a: Slowbro|Thunder Wave|p1a: joseph stallin
+|-status|p1a: joseph stallin|par
+|
+|turn|24
+|choice|move 1|move 2
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|move|p1a: joseph stallin|Thunder Wave|p2a: Slowbro
+|-status|p2a: Slowbro|par
+|
+|turn|25
+|choice|move 4|move 2
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|move|p1a: joseph stallin|Thunderbolt|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|48\/393 par
+|
+|turn|26
+|choice|move 4|move 4
+|
+|cant|p2a: Slowbro|par
+|move|p1a: joseph stallin|Thunderbolt|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|c|★Orion's Garterbelt|lol
+|c|★c353|crit is only way to kill it
+|c|★c353|or starmie
+|c|★Orion's Garterbelt|starmie only wins by critting it if it's set up so...
+|c|★c353|yeah
+|choice||switch 3
+|
+|switch|p2a: Exeggutor|Exeggutor|126\/393
+|turn|27
+|choice|move 3|move 2
+|
+|move|p2a: Exeggutor|Sleep Powder|p1a: joseph stallin
+|-fail|p1a: joseph stallin
+|move|p1a: joseph stallin|Ice Beam|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|choice||switch 6
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|28
+|choice|move 1|move 1
+|
+|move|p2a: Tauros|Body Slam|p1a: joseph stallin
+|-crit|p1a: joseph stallin
+|-damage|p1a: joseph stallin|155\/703 par
+|move|p1a: joseph stallin|Thunder Wave|p2a: Tauros
+|-status|p2a: Tauros|par
+|
+|turn|29
+|choice|move 3|move 1
+|
+|move|p2a: Tauros|Body Slam|p1a: joseph stallin
+|-crit|p1a: joseph stallin
+|-damage|p1a: joseph stallin|0 fnt
+|faint|p1a: joseph stallin
+|choice|switch 3|
+|
+|switch|p1a: rockman|Rhydon|364\/413
+|turn|30
+|choice|move 1|move 2
+|
+|move|p1a: rockman|Earthquake|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|63\/353 par
+|move|p2a: Tauros|Blizzard|p1a: rockman
+|-supereffective|p1a: rockman
+|-damage|p1a: rockman|115\/413
+|
+|turn|31
+|c|★Orion's Garterbelt|ok that's just adding insult to injury
+|choice|move 1|move 2
+|
+|move|p1a: rockman|Earthquake|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|win|c353
+|player|p1
+|player|p2
+|c|★c353|gg
+|raw|c353's rating: 1211 &rarr; <strong>1231<\/strong><br \/>(+20 for winning)
+|raw|Orion&apos;s Garterbelt's rating: 1145 &rarr; <strong>1125<\/strong><br \/>(-20 for losing)

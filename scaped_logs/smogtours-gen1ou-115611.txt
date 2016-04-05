@@ -1,0 +1,383 @@
+﻿|J|theurbandear
+|J|Nails
+|player|p1|theurbandear|220
+|player|p2|Nails|2
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|seed|35966,61687,15048,13371
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333\/333
+|switch|p2a: Alakazam|Alakazam|313\/313
+|turn|1
+|choice|move 1|move 2
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Jynx
+|-status|p1a: Jynx|par
+|move|p1a: Jynx|Blizzard|p2a: Alakazam|[miss]
+|-miss|p1a: Jynx
+|
+|turn|2
+|choice|move 3|move 3
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Jynx
+|-damage|p1a: Jynx|233\/333 par
+|move|p1a: Jynx|Lovely Kiss|p2a: Alakazam
+|-status|p2a: Alakazam|slp
+|
+|turn|3
+|c|★Nails|1 sec
+|J|KratosMana
+|choice|switch 5|switch 6
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|switch|p1a: Snorlax|Snorlax|523\/523
+|
+|turn|4
+|choice|move 1|move 2
+|
+|move|p2a: Starmie|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|cant|p1a: Snorlax|par
+|
+|turn|5
+|choice|move 1|switch 3
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|cant|p1a: Snorlax|par
+|
+|turn|6
+|choice|move 4|move 1
+|
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|380\/523 par
+|move|p1a: Snorlax|Reflect|p1a: Snorlax
+|-start|p1a: Snorlax|Reflect
+|
+|turn|7
+|J|Tobes
+|choice|move 1|move 1
+|
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|308\/523 par
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|
+|turn|8
+|choice|move 2|move 1
+|
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|233\/523 par
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp
+|-heal|p1a: Snorlax|523\/523 slp|[silent]
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|
+|turn|9
+|choice|move 3|move 1
+|
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|253\/523 slp
+|cant|p1a: Snorlax|slp
+|
+|turn|10
+|c|★theurbandear|rude
+|c|★theurbandear|af
+|choice|move 3|move 1
+|
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|178\/523 slp
+|-curestatus|p1a: Snorlax|slp
+|
+|turn|11
+|c|★Nails|easy
+|c|★Nails|af
+|choice|move 2|move 4
+|
+|move|p2a: Snorlax|Self-Destruct|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|faint|p2a: Snorlax
+|choice|switch 2|switch 4
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|turn|12
+|choice|move 1|switch 6
+|
+|switch|p2a: Alakazam|Alakazam|313\/313 slp
+|move|p1a: Exeggutor|Stun Spore|p2a: Alakazam|[miss]
+|-miss|p1a: Exeggutor
+|
+|turn|13
+|choice|move 3|switch 2
+|
+|switch|p2a: Zapdos|Zapdos|383\/383
+|move|p1a: Exeggutor|Psychic|p2a: Zapdos
+|-damage|p2a: Zapdos|278\/383
+|
+|turn|14
+|J|CasedVictory
+|L|CasedVictory
+|J|the final straw
+|choice|switch 3|move 3
+|
+|switch|p1a: Golem|Golem|363\/363
+|move|p2a: Zapdos|Drill Peck|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|326\/363
+|
+|turn|15
+|choice|move 4|move 4
+|
+|move|p2a: Zapdos|Toxic|p1a: Golem
+|-status|p1a: Golem|tox
+|move|p1a: Golem|Body Slam|p2a: Zapdos
+|-damage|p2a: Zapdos|201\/383
+|-damage|p1a: Golem|304\/363 tox|[from] tox|[of] p2a: Zapdos
+|
+|turn|16
+|c|★theurbandear|isa is gonna get you
+|c|★Nails|ikr
+|c|★theurbandear|if you keep running toxic
+|choice|move 4|switch 3
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|move|p1a: Golem|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|245\/323
+|-status|p2a: Starmie|par
+|-damage|p1a: Golem|260\/363 tox|[from] tox|[of] p2a: Starmie
+|
+|turn|17
+|choice|switch 5|move 3
+|
+|switch|p1a: Jynx|Jynx|233\/333 par
+|move|p2a: Starmie|Psychic|p1a: Jynx
+|-resisted|p1a: Jynx
+|-damage|p1a: Jynx|183\/333 par
+|-unboost|p1a: Jynx|spd|1
+|-unboost|p1a: Jynx|spa|1
+|
+|turn|18
+|choice|move 4|switch 3
+|
+|switch|p2a: Zapdos|Zapdos|201\/383
+|cant|p1a: Jynx|par
+|
+|turn|19
+|choice|switch 5|switch 3
+|
+|switch|p2a: Starmie|Starmie|245\/323 par
+|switch|p1a: Golem|Golem|260\/363 tox
+|-status|p1a: Golem|psn
+|-damage|p1a: Golem|238\/363 psn|[from] psn
+|
+|turn|20
+|c|★Nails|free dmg
+|c|★Nails|yn
+|choice|move 1|move 4
+|
+|move|p1a: Golem|Earthquake|p2a: Starmie
+|-damage|p2a: Starmie|104\/323 par
+|-damage|p1a: Golem|216\/363 psn|[from] psn|[of] p2a: Starmie
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|265\/323 par
+|
+|turn|21
+|c|★theurbandear|aw no para
+|choice|switch 6|move 4
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|323\/323 par
+|
+|turn|22
+|choice|move 2|move 2
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Starmie
+|-crit|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|42\/323 par
+|move|p2a: Starmie|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|turn|23
+|choice|move 2|move 4
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|203\/323 par
+|move|p1a: Chansey|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|57\/323 par
+|
+|turn|24
+|J|IB-irever
+|choice|move 2|move 4
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|218\/323 par
+|move|p1a: Chansey|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|49\/323 par
+|
+|turn|25
+|choice|move 2|move 4
+|
+|cant|p2a: Starmie|par
+|move|p1a: Chansey|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|c|★theurbandear|good egg
+|choice||switch 5
+|
+|switch|p2a: Golem|Golem|363\/363
+|turn|26
+|choice|switch 3|move 2
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Golem|Earthquake|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|323\/393
+|
+|turn|27
+|choice|switch 4|switch 3
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|switch|p2a: Zapdos|Zapdos|201\/383
+|
+|turn|28
+|choice|switch 5|switch 6
+|
+|switch|p1a: Jynx|Jynx|183\/333 par
+|switch|p2a: Tauros|Tauros|353\/353
+|
+|turn|29
+|choice|move 1|move 1
+|
+|move|p2a: Tauros|Body Slam|p1a: Jynx
+|-crit|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|J|e7e
+|c|★Nails|it was gonna high roll anyway
+|choice|switch 6|
+|
+|switch|p1a: Golem|Golem|216\/363 psn
+|turn|30
+|choice|move 3|move 2
+|
+|move|p2a: Tauros|Blizzard|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|0 fnt
+|faint|p1a: Golem
+|c|★Nails|like that
+|c|★theurbandear|another high roll
+|c|★theurbandear|D:
+|c|★theurbandear|tauros too goo
+|c|★theurbandear|good
+|choice|switch 3|
+|
+|switch|p1a: Chansey|Chansey|703\/703 par
+|turn|31
+|choice|move 3|switch 3
+|
+|switch|p2a: Golem|Golem|363\/363
+|move|p1a: Chansey|Thunder Wave|p2a: Golem
+|-immune|p2a: Golem|[msg]
+|
+|turn|32
+|c|★Nails|HMM
+|choice|move 1|move 2
+|
+|move|p2a: Golem|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|354\/703 par
+|cant|p1a: Chansey|par
+|
+|turn|33
+|c|★theurbandear|rude af
+|choice|move 1|move 2
+|
+|move|p2a: Golem|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|3\/703 par
+|move|p1a: Chansey|Ice Beam|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|131\/363
+|
+|turn|34
+|choice|switch 4|move 3
+|
+|switch|p1a: Exeggutor|Exeggutor|323\/393
+|move|p2a: Golem|Substitute|p2a: Golem
+|-start|p2a: Golem|Substitute
+|-damage|p2a: Golem|41\/363
+|
+|turn|35
+|choice|move 3|move 4
+|
+|move|p1a: Exeggutor|Psychic|p2a: Golem
+|-end|p2a: Golem|Substitute
+|move|p2a: Golem|Explosion|p1a: Exeggutor
+|-damage|p1a: Exeggutor|24\/393
+|faint|p2a: Golem
+|c|★theurbandear|ew sub golem
+|choice||switch 3
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|36
+|choice|move 4|move 1
+|
+|move|p2a: Tauros|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|c|★Nails|worked this time imo
+|choice|switch 5|
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|37
+|choice|move 1|move 1
+|
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|248\/353
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|251\/353
+|
+|turn|38
+|choice|move 1|move 1
+|
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|154\/353
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|143\/353
+|
+|turn|39
+|choice|move 2|move 4
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Tauros|[miss]
+|-miss|p1a: Tauros
+|move|p2a: Tauros|Hyper Beam|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|c|★theurbandear|cmon
+|choice|switch 4|
+|
+|switch|p1a: Chansey|Chansey|3\/703 par
+|turn|40
+|c|★Nails|im doin it
+|choice|move 1|move 4
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|win|Nails

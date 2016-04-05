@@ -1,0 +1,309 @@
+﻿|join|ALLALA androids
+|join|jb champ
+|player|p1|ALLALA androids|28
+|player|p2|jb champ|150
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Jynx|Jynx|333\/333
+|turn|1
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Jynx
+|-damage|p2a: Jynx|233\/333
+|move|p2a: Jynx|Lovely Kiss|p1a: Alakazam|[miss]
+|-miss|p2a: Jynx
+|
+|turn|2
+|c|★ALLALA androids|Lovely Miss
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Jynx
+|-damage|p2a: Jynx|133\/333
+|move|p2a: Jynx|Lovely Kiss|p1a: Alakazam|[miss]
+|-miss|p2a: Jynx
+|
+|turn|3
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Jynx
+|-damage|p2a: Jynx|33\/333
+|move|p2a: Jynx|Lovely Kiss|p1a: Alakazam
+|-status|p1a: Alakazam|slp
+|
+|turn|4
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Jynx|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|565\/703
+|
+|turn|5
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|603\/703
+|
+|turn|6
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Chansey|Ice Beam|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|268\/393
+|
+|turn|7
+|
+|switch|p2a: Jynx|Jynx|33\/333
+|move|p1a: Exeggutor|Psychic|p2a: Jynx
+|-crit|p2a: Jynx
+|-resisted|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|
+|switch|p2a: Blastoise|Blastoise|361\/361
+|turn|8
+|
+|move|p2a: Blastoise|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|121\/393
+|move|p1a: Exeggutor|Mega Drain|p2a: Blastoise
+|-supereffective|p2a: Blastoise
+|-damage|p2a: Blastoise|230\/361
+|-heal|p1a: Exeggutor|186\/393|[from] drain|[of] p2a: Blastoise
+|
+|turn|9
+|
+|move|p2a: Blastoise|Blizzard|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Chansey|Chansey|565\/703
+|turn|10
+|
+|switch|p2a: Chansey|Chansey|603\/703
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|
+|turn|11
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|503\/703
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|490\/703
+|
+|turn|12
+|
+|switch|p1a: Alakazam|Alakazam|313\/313 slp
+|move|p2a: Chansey|Ice Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|249\/313 slp
+|
+|turn|13
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|cant|p1a: Alakazam|slp
+|
+|turn|14
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|397\/523
+|
+|turn|15
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|move|p1a: Snorlax|Body Slam|p2a: Gengar
+|-immune|p2a: Gengar|[msg]
+|
+|turn|16
+|
+|move|p2a: Gengar|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|282\/523
+|move|p1a: Snorlax|Earthquake|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|111\/323
+|
+|turn|17
+|
+|move|p2a: Gengar|Explosion|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|faint|p2a: Gengar
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|18
+|
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|251\/353
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|248\/353
+|
+|turn|19
+|
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|152\/353
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|154\/353
+|
+|turn|20
+|
+|switch|p2a: Blastoise|Blastoise|230\/361
+|move|p1a: Tauros|Hyper Beam|p2a: Blastoise
+|-damage|p2a: Blastoise|39\/361
+|
+|turn|21
+|
+|cant|p1a: Tauros|recharge
+|move|p2a: Blastoise|Hydro Pump|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|switch|p1a: Alakazam|Alakazam|249\/313 slp
+|turn|22
+|
+|cant|p1a: Alakazam|slp
+|move|p2a: Blastoise|Earthquake|p1a: Alakazam
+|-damage|p1a: Alakazam|145\/313 slp
+|
+|turn|23
+|
+|cant|p1a: Alakazam|slp
+|-curestatus|p1a: Alakazam|slp
+|move|p2a: Blastoise|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|51\/313
+|
+|turn|24
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|207\/313
+|move|p2a: Blastoise|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|115\/313
+|-status|p1a: Alakazam|par
+|
+|turn|25
+|
+|move|p2a: Blastoise|Earthquake|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|switch|p1a: Kingler|Kingler|313\/313
+|turn|26
+|
+|move|p2a: Blastoise|Body Slam|p1a: Kingler
+|-damage|p1a: Kingler|256\/313
+|-status|p1a: Kingler|par
+|move|p1a: Kingler|Swords Dance|p1a: Kingler
+|-boost|p1a: Kingler|atk|2
+|
+|turn|27
+|c|★ALLALA androids|Rip
+|
+|move|p2a: Blastoise|Earthquake|p1a: Kingler
+|-damage|p1a: Kingler|193\/313 par
+|cant|p1a: Kingler|par
+|
+|turn|28
+|
+|move|p2a: Blastoise|Hydro Pump|p1a: Kingler
+|-resisted|p1a: Kingler
+|-damage|p1a: Kingler|105\/313 par
+|move|p1a: Kingler|Body Slam|p2a: Blastoise
+|-crit|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|
+|switch|p2a: Jolteon|Jolteon|333\/333
+|turn|29
+|
+|switch|p1a: Chansey|Chansey|490\/703
+|move|p2a: Jolteon|Thunderbolt|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|258\/703
+|
+|turn|30
+|
+|move|p2a: Jolteon|Double Kick|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|150\/703
+|-damage|p1a: Chansey|42\/703
+|-hitcount|p1a: Chansey|2
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|393\/703
+|
+|turn|31
+|
+|switch|p2a: Chansey|Chansey|503\/703
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|turn|32
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|629\/703
+|
+|turn|33
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|403\/703 par
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|556\/703
+|
+|turn|34
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|303\/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|654\/703 par
+|
+|turn|35
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|554\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|36
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|454\/703 par
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|484\/703
+|
+|turn|37
+|
+|switch|p1a: Kingler|Kingler|105\/313 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703 par
+|
+|turn|38
+|
+|switch|p1a: Chansey|Chansey|484\/703
+|cant|p2a: Chansey|par
+|
+|turn|39
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|603\/703 par
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|413\/703
+|-status|p1a: Chansey|frz
+|
+|turn|40
+|c|★jb champ|gg
+|-message|ALLALA androids forfeited.
+|-message|ALLALA androids forfeited.
+|leave|ALLALA androids
+|
+|win|jb champ
+|raw|Ladder updating...
+|raw|ALLALA androids's rating: 1045 &rarr; <strong>1034<\/strong><br \/>(-11 for losing)
+|raw|jb champ's rating: 1168 &rarr; <strong>1185<\/strong><br \/>(+17 for winning)
+|player|p1

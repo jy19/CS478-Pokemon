@@ -1,0 +1,243 @@
+﻿|join|Azawa
+|join|lubersil
+|player|p1|Azawa|2
+|player|p2|lubersil|170
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Eevee|Eevee, L96|300\/300
+|switch|p2a: Wigglytuff|Wigglytuff, L90|435\/435
+|turn|1
+|
+|move|p1a: Eevee|Body Slam|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|322\/435
+|move|p2a: Wigglytuff|Thunder Wave|p1a: Eevee
+|-status|p1a: Eevee|par
+|
+|turn|2
+|
+|move|p2a: Wigglytuff|Blizzard|p1a: Eevee|[miss]
+|-miss|p2a: Wigglytuff
+|move|p1a: Eevee|Body Slam|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|205\/435
+|
+|turn|3
+|
+|move|p2a: Wigglytuff|Body Slam|p1a: Eevee
+|-damage|p1a: Eevee|202\/300 par
+|move|p1a: Eevee|Body Slam|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|96\/435
+|
+|turn|4
+|
+|move|p2a: Wigglytuff|Body Slam|p1a: Eevee
+|-damage|p1a: Eevee|101\/300 par
+|move|p1a: Eevee|Body Slam|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|0 fnt
+|faint|p2a: Wigglytuff
+|
+|switch|p2a: Slowpoke|Slowpoke, L96|368\/368
+|turn|5
+|
+|move|p2a: Slowpoke|Surf|p1a: Eevee
+|-damage|p1a: Eevee|16\/300 par
+|move|p1a: Eevee|Toxic|p2a: Slowpoke|[miss]
+|-miss|p1a: Eevee
+|
+|turn|6
+|
+|move|p2a: Slowpoke|Surf|p1a: Eevee
+|-damage|p1a: Eevee|0 fnt
+|faint|p1a: Eevee
+|
+|switch|p1a: Mew|Mew, L74|300\/300
+|turn|7
+|
+|move|p1a: Mew|Thunderbolt|p2a: Slowpoke
+|-crit|p2a: Slowpoke
+|-supereffective|p2a: Slowpoke
+|-damage|p2a: Slowpoke|90\/368
+|move|p2a: Slowpoke|Surf|p1a: Mew
+|-damage|p1a: Mew|215\/300
+|
+|turn|8
+|
+|move|p1a: Mew|Thunderbolt|p2a: Slowpoke
+|-supereffective|p2a: Slowpoke
+|-damage|p2a: Slowpoke|0 fnt
+|faint|p2a: Slowpoke
+|
+|switch|p2a: Magneton|Magneton, L90|273\/273
+|turn|9
+|
+|move|p1a: Mew|Psychic|p2a: Magneton
+|-damage|p2a: Magneton|216\/273
+|move|p2a: Magneton|Hyper Beam|p1a: Mew
+|-damage|p1a: Mew|113\/300
+|
+|turn|10
+|-mustrecharge|p2a: Magneton
+|-mustrecharge|p2a: Magneton
+|
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|263\/300
+|cant|p2a: Magneton|recharge
+|
+|turn|11
+|
+|move|p1a: Mew|Swift|p2a: Magneton
+|-damage|p2a: Magneton|188\/273
+|move|p2a: Magneton|Hyper Beam|p1a: Mew
+|-damage|p1a: Mew|161\/300
+|
+|turn|12
+|-mustrecharge|p2a: Magneton
+|-mustrecharge|p2a: Magneton
+|
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|300\/300
+|cant|p2a: Magneton|recharge
+|
+|turn|13
+|
+|move|p1a: Mew|Psychic|p2a: Magneton
+|-damage|p2a: Magneton|126\/273
+|-unboost|p2a: Magneton|spd|1
+|-unboost|p2a: Magneton|spa|1
+|move|p2a: Magneton|Double-Edge|p1a: Mew
+|-damage|p1a: Mew|234\/300
+|-damage|p2a: Magneton|110\/273|[from] recoil|[of] p1a: Mew
+|
+|turn|14
+|
+|move|p1a: Mew|Psychic|p2a: Magneton
+|-crit|p2a: Magneton
+|-damage|p2a: Magneton|4\/273
+|move|p2a: Magneton|Hyper Beam|p1a: Mew|[miss]
+|-miss|p2a: Magneton
+|
+|turn|15
+|
+|move|p1a: Mew|Swift|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|faint|p2a: Magneton
+|
+|switch|p2a: Sandslash|Sandslash, L85|301\/301
+|turn|16
+|
+|move|p1a: Mew|Psychic|p2a: Sandslash
+|-damage|p2a: Sandslash|205\/301
+|move|p2a: Sandslash|Earthquake|p1a: Mew
+|-damage|p1a: Mew|119\/300
+|
+|turn|17
+|
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|269\/300
+|move|p2a: Sandslash|Earthquake|p1a: Mew
+|-damage|p1a: Mew|150\/300
+|
+|turn|18
+|
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|300\/300
+|move|p2a: Sandslash|Earthquake|p1a: Mew
+|-damage|p1a: Mew|180\/300
+|
+|turn|19
+|
+|move|p1a: Mew|Psychic|p2a: Sandslash
+|-damage|p2a: Sandslash|107\/301
+|-unboost|p2a: Sandslash|spd|1
+|-unboost|p2a: Sandslash|spa|1
+|move|p2a: Sandslash|Body Slam|p1a: Mew
+|-damage|p1a: Mew|109\/300
+|
+|turn|20
+|
+|move|p1a: Mew|Psychic|p2a: Sandslash
+|-crit|p2a: Sandslash
+|-damage|p2a: Sandslash|0 fnt
+|faint|p2a: Sandslash
+|
+|switch|p2a: Vileplume|Vileplume, L90|318\/318
+|turn|21
+|
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|259\/300
+|move|p2a: Vileplume|Mega Drain|p1a: Mew
+|-damage|p1a: Mew|209\/300
+|
+|turn|22
+|
+|move|p1a: Mew|Psychic|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|188\/318
+|move|p2a: Vileplume|Body Slam|p1a: Mew
+|-damage|p1a: Mew|151\/300
+|-status|p1a: Mew|par
+|
+|turn|23
+|
+|move|p2a: Vileplume|Sleep Powder|p1a: Mew
+|-fail|p1a: Mew
+|move|p1a: Mew|Psychic|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|55\/318
+|
+|turn|24
+|
+|move|p2a: Vileplume|Mega Drain|p1a: Mew
+|-crit|p1a: Mew
+|-damage|p1a: Mew|44\/300 par
+|-heal|p2a: Vileplume|108\/318|[from] drain|[of] p1a: Mew
+|cant|p1a: Mew|par
+|
+|turn|25
+|
+|move|p2a: Vileplume|Mega Drain|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|-heal|p2a: Vileplume|130\/318|[from] drain|[of] p1a: Mew
+|faint|p1a: Mew
+|
+|switch|p1a: Fearow|Fearow, L90|300\/300
+|turn|26
+|
+|move|p1a: Fearow|Drill Peck|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|
+|switch|p2a: Vaporeon|Vaporeon, L85|395\/395
+|turn|27
+|
+|move|p1a: Fearow|Drill Peck|p2a: Vaporeon
+|-damage|p2a: Vaporeon|276\/395
+|move|p2a: Vaporeon|Blizzard|p1a: Fearow
+|-supereffective|p1a: Fearow
+|-damage|p1a: Fearow|74\/300
+|
+|turn|28
+|
+|move|p1a: Fearow|Hyper Beam|p2a: Vaporeon
+|-damage|p2a: Vaporeon|51\/395
+|move|p2a: Vaporeon|Blizzard|p1a: Fearow
+|-supereffective|p1a: Fearow
+|-damage|p1a: Fearow|0 fnt
+|faint|p1a: Fearow
+|
+|switch|p1a: Gastly|Gastly, L96|252\/252
+|turn|29
+|
+|move|p1a: Gastly|Thunderbolt|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|faint|p2a: Vaporeon
+|
+|win|Azawa

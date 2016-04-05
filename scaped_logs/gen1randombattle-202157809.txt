@@ -1,0 +1,333 @@
+﻿|join|PlatinumAxe
+|join|left-lovers
+|player|p1|PlatinumAxe|89
+|player|p2|left-lovers|66
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Vaporeon|Vaporeon, L86|399\/399
+|switch|p2a: Lickitung|Lickitung, L86|330\/330
+|turn|1
+|
+|move|p1a: Vaporeon|Body Slam|p2a: Lickitung
+|-damage|p2a: Lickitung|272\/330
+|move|p2a: Lickitung|Swords Dance|p2a: Lickitung
+|-boost|p2a: Lickitung|atk|2
+|
+|turn|2
+|
+|move|p1a: Vaporeon|Body Slam|p2a: Lickitung
+|-damage|p2a: Lickitung|218\/330
+|move|p2a: Lickitung|Swords Dance|p2a: Lickitung
+|-boost|p2a: Lickitung|atk|2
+|
+|turn|3
+|
+|move|p1a: Vaporeon|Body Slam|p2a: Lickitung
+|-damage|p2a: Lickitung|161\/330
+|move|p2a: Lickitung|Hyper Beam|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|
+|switch|p1a: Rhydon|Rhydon, L82|340\/340
+|turn|4
+|
+|move|p1a: Rhydon|Earthquake|p2a: Lickitung
+|-damage|p2a: Lickitung|31\/330
+|move|p2a: Lickitung|Earthquake|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|68\/340
+|
+|turn|5
+|
+|move|p1a: Rhydon|Earthquake|p2a: Lickitung
+|-damage|p2a: Lickitung|0 fnt
+|faint|p2a: Lickitung
+|
+|switch|p2a: Kingler|Kingler, L86|270\/270
+|turn|6
+|
+|move|p2a: Kingler|Swords Dance|p2a: Kingler
+|-boost|p2a: Kingler|atk|2
+|move|p1a: Rhydon|Body Slam|p2a: Kingler
+|-damage|p2a: Kingler|216\/270
+|
+|turn|7
+|
+|move|p2a: Kingler|Surf|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|
+|switch|p1a: Raichu|Raichu, L86|279\/279
+|turn|8
+|
+|move|p1a: Raichu|Thunderbolt|p2a: Kingler
+|-supereffective|p2a: Kingler
+|-damage|p2a: Kingler|0 fnt
+|faint|p2a: Kingler
+|
+|switch|p2a: Rapidash|Rapidash, L86|287\/287
+|turn|9
+|
+|move|p2a: Rapidash|Agility|p2a: Rapidash
+|-boost|p2a: Rapidash|spe|2
+|move|p1a: Raichu|Surf|p2a: Rapidash
+|-supereffective|p2a: Rapidash
+|-damage|p2a: Rapidash|142\/287
+|
+|turn|10
+|
+|move|p2a: Rapidash|Fire Spin|p1a: Raichu
+|-damage|p1a: Raichu|263\/279
+|-activate|p1a: Raichu|move: Fire Spin|[of] p2a: Rapidash
+|cant|p1a: Raichu|partiallytrapped
+|
+|turn|11
+|
+|move|p2a: Rapidash|Fire Spin|p1a: Raichu
+|-damage|p1a: Raichu|247\/279
+|cant|p1a: Raichu|partiallytrapped
+|
+|turn|12
+|
+|move|p2a: Rapidash|Fire Spin|p1a: Raichu
+|-damage|p1a: Raichu|231\/279
+|cant|p1a: Raichu|partiallytrapped
+|
+|-end|p1a: Raichu|Fire Spin|[partiallytrapped]
+|turn|13
+|
+|move|p2a: Rapidash|Fire Spin|p1a: Raichu
+|-damage|p1a: Raichu|214\/279
+|-activate|p1a: Raichu|move: Fire Spin|[of] p2a: Rapidash
+|cant|p1a: Raichu|partiallytrapped
+|
+|turn|14
+|
+|move|p2a: Rapidash|Fire Spin|p1a: Raichu
+|-damage|p1a: Raichu|197\/279
+|cant|p1a: Raichu|partiallytrapped
+|
+|turn|15
+|
+|move|p2a: Rapidash|Fire Spin|p1a: Raichu
+|-damage|p1a: Raichu|180\/279
+|cant|p1a: Raichu|partiallytrapped
+|
+|-end|p1a: Raichu|Fire Spin|[partiallytrapped]
+|turn|16
+|
+|move|p2a: Rapidash|Fire Spin|p1a: Raichu|[miss]
+|-miss|p2a: Rapidash
+|move|p1a: Raichu|Surf|p2a: Rapidash
+|-crit|p2a: Rapidash
+|-supereffective|p2a: Rapidash
+|-damage|p2a: Rapidash|0 fnt
+|faint|p2a: Rapidash
+|
+|switch|p2a: Jolteon|Jolteon, L86|287\/287
+|turn|17
+|
+|move|p2a: Jolteon|Body Slam|p1a: Raichu
+|-damage|p1a: Raichu|119\/279
+|-status|p1a: Raichu|par
+|move|p1a: Raichu|Thunder Wave|p2a: Jolteon
+|-status|p2a: Jolteon|par
+|
+|turn|18
+|
+|cant|p2a: Jolteon|par
+|move|p1a: Raichu|Surf|p2a: Jolteon
+|-damage|p2a: Jolteon|228\/287 par
+|
+|turn|19
+|
+|move|p2a: Jolteon|Sand Attack|p1a: Raichu
+|-unboost|p1a: Raichu|accuracy|1
+|move|p1a: Raichu|Surf|p2a: Jolteon|[miss]
+|-miss|p1a: Raichu
+|
+|turn|20
+|
+|move|p2a: Jolteon|Body Slam|p1a: Raichu
+|-damage|p1a: Raichu|53\/279 par
+|cant|p1a: Raichu|par
+|
+|turn|21
+|
+|move|p2a: Jolteon|Body Slam|p1a: Raichu
+|-damage|p1a: Raichu|0 fnt
+|faint|p1a: Raichu
+|
+|switch|p1a: Onix|Onix, L86|236\/236
+|turn|22
+|
+|switch|p2a: Articuno|Articuno, L86|330\/330
+|move|p1a: Onix|Earthquake|p2a: Articuno
+|-immune|p2a: Articuno|[msg]
+|
+|turn|23
+|
+|move|p2a: Articuno|Mimic|p1a: Onix
+|-start|p2a: Articuno|Mimic|Earthquake
+|move|p1a: Onix|Rock Slide|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|132\/330
+|
+|turn|24
+|
+|move|p2a: Articuno|Ice Beam|p1a: Onix
+|-supereffective|p1a: Onix
+|-damage|p1a: Onix|0 fnt
+|faint|p1a: Onix
+|
+|switch|p1a: Cloyster|Cloyster, L82|250\/250
+|turn|25
+|
+|move|p2a: Articuno|Rest|p2a: Articuno
+|-status|p2a: Articuno|slp
+|-heal|p2a: Articuno|330\/330 slp|[silent]
+|-status|p2a: Articuno|slp|[from] move: Rest
+|move|p1a: Cloyster|Blizzard|p2a: Articuno
+|-damage|p2a: Articuno|249\/330 slp
+|
+|turn|26
+|
+|cant|p2a: Articuno|slp
+|move|p1a: Cloyster|Hyper Beam|p2a: Articuno
+|-damage|p2a: Articuno|154\/330 slp
+|
+|turn|27
+|
+|cant|p2a: Articuno|slp
+|-curestatus|p2a: Articuno|slp
+|cant|p1a: Cloyster|recharge
+|
+|turn|28
+|
+|move|p2a: Articuno|Earthquake|p1a: Cloyster
+|-damage|p1a: Cloyster|207\/250
+|move|p1a: Cloyster|Clamp|p2a: Articuno|[miss]
+|-miss|p1a: Cloyster
+|
+|turn|29
+|
+|move|p2a: Articuno|Reflect|p2a: Articuno
+|move|p1a: Cloyster|Clamp|p2a: Articuno|[miss]
+|-miss|p1a: Cloyster
+|
+|turn|30
+|
+|move|p2a: Articuno|Earthquake|p1a: Cloyster
+|-damage|p1a: Cloyster|166\/250
+|move|p1a: Cloyster|Blizzard|p2a: Articuno
+|-damage|p2a: Articuno|70\/330
+|
+|turn|31
+|
+|move|p2a: Articuno|Rest|p2a: Articuno
+|-status|p2a: Articuno|slp
+|-heal|p2a: Articuno|330\/330 slp|[silent]
+|-status|p2a: Articuno|slp|[from] move: Rest
+|move|p1a: Cloyster|Blizzard|p2a: Articuno
+|-damage|p2a: Articuno|243\/330 slp
+|
+|turn|32
+|
+|cant|p2a: Articuno|slp
+|move|p1a: Cloyster|Blizzard|p2a: Articuno
+|-damage|p2a: Articuno|159\/330 slp
+|
+|turn|33
+|
+|cant|p2a: Articuno|slp
+|-curestatus|p2a: Articuno|slp
+|move|p1a: Cloyster|Blizzard|p2a: Articuno|[miss]
+|-miss|p1a: Cloyster
+|
+|turn|34
+|
+|move|p2a: Articuno|Earthquake|p1a: Cloyster
+|-crit|p1a: Cloyster
+|-damage|p1a: Cloyster|83\/250
+|move|p1a: Cloyster|Clamp|p2a: Articuno
+|-damage|p2a: Articuno|135\/330
+|-activate|p2a: Articuno|move: Clamp|[of] p1a: Cloyster
+|
+|turn|35
+|
+|cant|p2a: Articuno|partiallytrapped
+|move|p1a: Cloyster|Clamp|p2a: Articuno
+|-damage|p2a: Articuno|111\/330
+|
+|-end|p2a: Articuno|Clamp|[partiallytrapped]
+|turn|36
+|
+|move|p2a: Articuno|Earthquake|p1a: Cloyster
+|-damage|p1a: Cloyster|45\/250
+|move|p1a: Cloyster|Blizzard|p2a: Articuno
+|-damage|p2a: Articuno|23\/330
+|
+|turn|37
+|
+|move|p2a: Articuno|Earthquake|p1a: Cloyster
+|-damage|p1a: Cloyster|4\/250
+|move|p1a: Cloyster|Explosion|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|faint|p2a: Articuno
+|faint|p1a: Cloyster
+|
+|switch|p2a: Jolteon|Jolteon, L86|228\/287 par
+|switch|p1a: Parasect|Parasect, L86|279\/279
+|turn|38
+|
+|move|p1a: Parasect|Swords Dance|p1a: Parasect
+|-boost|p1a: Parasect|atk|2
+|move|p2a: Jolteon|Pin Missile|p1a: Parasect
+|-supereffective|p1a: Parasect
+|-damage|p1a: Parasect|260\/279
+|-damage|p1a: Parasect|241\/279
+|-hitcount|p1a: Parasect|2
+|
+|turn|39
+|
+|move|p1a: Parasect|Body Slam|p2a: Jolteon
+|-damage|p2a: Jolteon|67\/287 par
+|cant|p2a: Jolteon|par
+|
+|turn|40
+|
+|move|p1a: Parasect|Body Slam|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|
+|switch|p2a: Magikarp|Magikarp, L99|240\/240
+|turn|41
+|
+|move|p2a: Magikarp|Dragon Rage|p1a: Parasect
+|-damage|p1a: Parasect|201\/279
+|move|p1a: Parasect|Mega Drain|p2a: Magikarp
+|-supereffective|p2a: Magikarp
+|-damage|p2a: Magikarp|107\/240
+|-heal|p1a: Parasect|267\/279|[from] drain|[of] p2a: Magikarp
+|
+|turn|42
+|
+|move|p2a: Magikarp|Dragon Rage|p1a: Parasect
+|-damage|p1a: Parasect|227\/279
+|move|p1a: Parasect|Slash|p2a: Magikarp
+|-crit|p2a: Magikarp
+|-damage|p2a: Magikarp|0 fnt
+|faint|p2a: Magikarp
+|
+|win|PlatinumAxe
+|raw|Ladder updating...
+|raw|PlatinumAxe's rating: 1069 &rarr; <strong>1092<\/strong><br \/>(+23 for winning)
+|raw|left-lovers's rating: 1000 &rarr; <strong>1000<\/strong><br \/>(+0 for losing)

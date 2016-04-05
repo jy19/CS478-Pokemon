@@ -1,0 +1,206 @@
+﻿|join|andrewandres
+|join|jynx2000
+|player|p1|andrewandres|1
+|player|p2|jynx2000|169
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Golbat|Golbat, L90|318\/318
+|switch|p2a: Beedrill|Beedrill, L90|300\/300
+|turn|1
+|
+|move|p1a: Golbat|Screech|p2a: Beedrill
+|-unboost|p2a: Beedrill|def|2
+|move|p2a: Beedrill|Agility|p2a: Beedrill
+|-boost|p2a: Beedrill|spe|2
+|
+|turn|2
+|
+|move|p2a: Beedrill|Swords Dance|p2a: Beedrill
+|-boost|p2a: Beedrill|atk|2
+|move|p1a: Golbat|Double-Edge|p2a: Beedrill
+|-damage|p2a: Beedrill|90\/300
+|-damage|p1a: Golbat|266\/318|[from] recoil|[of] p2a: Beedrill
+|
+|turn|3
+|
+|switch|p1a: Rhydon|Rhydon, L79|328\/328
+|move|p2a: Beedrill|Hyper Beam|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|242\/328
+|
+|turn|4
+|-mustrecharge|p2a: Beedrill
+|-mustrecharge|p2a: Beedrill
+|
+|cant|p2a: Beedrill|recharge
+|move|p1a: Rhydon|Body Slam|p2a: Beedrill
+|-damage|p2a: Beedrill|0 fnt
+|faint|p2a: Beedrill
+|
+|switch|p2a: Poliwag|Poliwag, L96|272\/272
+|turn|5
+|
+|move|p2a: Poliwag|Hypnosis|p1a: Rhydon|[miss]
+|-miss|p2a: Poliwag
+|move|p1a: Rhydon|Body Slam|p2a: Poliwag
+|-damage|p2a: Poliwag|185\/272
+|-status|p2a: Poliwag|par
+|
+|turn|6
+|
+|move|p1a: Rhydon|Earthquake|p2a: Poliwag
+|-damage|p2a: Poliwag|40\/272 par
+|cant|p2a: Poliwag|par
+|
+|turn|7
+|
+|move|p1a: Rhydon|Body Slam|p2a: Poliwag
+|-damage|p2a: Poliwag|0 fnt
+|faint|p2a: Poliwag
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|293\/293
+|turn|8
+|
+|move|p2a: Mewtwo|Psychic|p1a: Rhydon
+|-damage|p1a: Rhydon|93\/328
+|-unboost|p1a: Rhydon|spd|1
+|-unboost|p1a: Rhydon|spa|1
+|move|p1a: Rhydon|Body Slam|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|142\/293
+|
+|turn|9
+|
+|move|p2a: Mewtwo|Psychic|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|
+|switch|p1a: Golbat|Golbat, L90|266\/318
+|turn|10
+|
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|288\/293
+|move|p1a: Golbat|Hyper Beam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|167\/293
+|
+|turn|11
+|-mustrecharge|p1a: Golbat
+|-mustrecharge|p1a: Golbat
+|
+|move|p2a: Mewtwo|Psychic|p1a: Golbat
+|-supereffective|p1a: Golbat
+|-damage|p1a: Golbat|56\/318
+|-unboost|p1a: Golbat|spd|1
+|-unboost|p1a: Golbat|spa|1
+|cant|p1a: Golbat|recharge
+|
+|turn|12
+|
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|293\/293
+|move|p1a: Golbat|Confuse Ray|p2a: Mewtwo
+|-start|p2a: Mewtwo|confusion
+|
+|turn|13
+|
+|-activate|p2a: Mewtwo|confusion
+|move|p2a: Mewtwo|Psychic|p1a: Golbat
+|-supereffective|p1a: Golbat
+|-damage|p1a: Golbat|0 fnt
+|faint|p1a: Golbat
+|
+|switch|p1a: Vulpix|Vulpix, L96|268\/268
+|turn|14
+|
+|switch|p2a: Golem|Golem, L79|288\/288
+|move|p1a: Vulpix|Body Slam|p2a: Golem
+|-crit|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|249\/288
+|
+|turn|15
+|
+|switch|p1a: Poliwag|Poliwag, L96|272\/272
+|move|p2a: Golem|Rock Slide|p1a: Poliwag
+|-damage|p1a: Poliwag|171\/272
+|
+|turn|16
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|293\/293
+|move|p1a: Poliwag|Surf|p2a: Mewtwo
+|-damage|p2a: Mewtwo|235\/293
+|
+|turn|17
+|
+|move|p1a: Poliwag|Hypnosis|p2a: Mewtwo
+|-status|p2a: Mewtwo|slp
+|cant|p2a: Mewtwo|slp
+|
+|turn|18
+|c|★jynx2000|of course your hypnosis works
+|
+|switch|p2a: Machamp|Machamp, L90|345\/345
+|move|p1a: Poliwag|Amnesia|p1a: Poliwag
+|-boost|p1a: Poliwag|spd|2
+|-boost|p1a: Poliwag|spa|2
+|
+|turn|19
+|
+|move|p1a: Poliwag|Psychic|p2a: Machamp
+|-supereffective|p2a: Machamp
+|-damage|p2a: Machamp|110\/345
+|move|p2a: Machamp|Hyper Beam|p1a: Poliwag
+|-damage|p1a: Poliwag|0 fnt
+|faint|p1a: Poliwag
+|
+|switch|p1a: Vulpix|Vulpix, L96|268\/268
+|turn|20
+|
+|switch|p2a: Golem|Golem, L79|249\/288
+|move|p1a: Vulpix|Fire Blast|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|154\/288
+|
+|turn|21
+|
+|move|p1a: Vulpix|Fire Blast|p2a: Golem
+|-crit|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|c|★andrewandres|yeaaah
+|c|★jynx2000|this game is stupid
+|
+|switch|p2a: Ninetales|Ninetales, L85|298\/298
+|turn|22
+|
+|move|p2a: Ninetales|Confuse Ray|p1a: Vulpix
+|-start|p1a: Vulpix|confusion
+|-activate|p1a: Vulpix|confusion
+|move|p1a: Vulpix|Body Slam|p2a: Ninetales
+|-damage|p2a: Ninetales|247\/298
+|-status|p2a: Ninetales|par
+|
+|turn|23
+|c|★andrewandres|yeaaaaaaaaaaaaaaaaah
+|c|★jynx2000|honeslty go fuck yourself
+|-message|jynx2000 forfeited.
+|
+|win|andrewandres
+|leave|jynx2000
+|player|p2
+|raw|andrewandres's rating: 1495 &rarr; <strong>1502<\/strong><br \/>(+7 for winning)
+|raw|jynx2000's rating: 1227 &rarr; <strong>1218<\/strong><br \/>(-9 for losing)
+|c|★andrewandres|dont cry
+|c|★andrewandres|friend
+|c|★andrewandres|lol
+|c|★andrewandres|1227 that noob
+|join|jynx2000
+|join|tonyytonyy

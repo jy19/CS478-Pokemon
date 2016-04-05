@@ -1,0 +1,430 @@
+﻿|J|Beds
+|J|Nails
+|player|p1|Beds|252
+|player|p2|Nails|266
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|seed|60988,57128,5306,337
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Jynx|Jynx|333\/333
+|turn|1
+|c|★Beds|hfhf
+|choice|move 2|move 2
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Jynx
+|-status|p2a: Jynx|par
+|move|p2a: Jynx|Lovely Kiss|p1a: Alakazam
+|-status|p1a: Alakazam|slp
+|
+|turn|2
+|choice|switch 6|move 4
+|
+|switch|p1a: Lapras|Lapras|463\/463
+|cant|p2a: Jynx|par
+|
+|turn|3
+|choice|move 3|move 4
+|
+|move|p1a: Lapras|Confuse Ray|p2a: Jynx
+|-start|p2a: Jynx|confusion
+|-activate|p2a: Jynx|confusion
+|move|p2a: Jynx|Body Slam|p1a: Lapras
+|-damage|p1a: Lapras|410\/463
+|-status|p1a: Lapras|par
+|
+|turn|4
+|c|★Nails|noice
+|c|★Beds|whatatatatat
+|c|★Beds|who uses that lol
+|c|★Nails|it's like a fast eggy that freezes stuff!!!
+|c|★Nails|and doesnt boom
+|c|★Nails|and is frail as fuck
+|c|★Nails|it's basically not eggy
+|c|★Beds|it's jynx with bslam
+|c|★Nails|tru
+|c|★Beds|i have legit never seen that before
+|choice|move 1|move 3
+|
+|-activate|p2a: Jynx|confusion
+|move|p2a: Jynx|Psychic|p1a: Lapras
+|-damage|p1a: Lapras|312\/463 par
+|move|p1a: Lapras|Blizzard|p2a: Jynx|[miss]
+|-miss|p1a: Lapras
+|
+|turn|5
+|choice|move 2|move 3
+|
+|cant|p2a: Jynx|par
+|move|p1a: Lapras|Thunderbolt|p2a: Jynx
+|-damage|p2a: Jynx|263\/333 par
+|
+|turn|6
+|choice|move 2|switch 2
+|
+|switch|p2a: Alakazam|Alakazam|313\/313
+|move|p1a: Lapras|Thunderbolt|p2a: Alakazam
+|-damage|p2a: Alakazam|253\/313
+|
+|turn|7
+|c|★Nails|opinion on it?
+|c|★Beds|idk man
+|c|★Beds|i really like my rest\/counter\/seismic toss
+|choice|move 4|move 2
+|
+|move|p2a: Alakazam|Psychic|p1a: Lapras
+|-damage|p1a: Lapras|179\/463 par
+|move|p1a: Lapras|Rest|p1a: Lapras
+|-status|p1a: Lapras|slp
+|-heal|p1a: Lapras|463\/463 slp|[silent]
+|-status|p1a: Lapras|slp|[from] move: Rest
+|
+|turn|8
+|choice|move 1|move 2
+|
+|move|p2a: Alakazam|Psychic|p1a: Lapras
+|-damage|p1a: Lapras|338\/463 slp
+|-unboost|p1a: Lapras|spd|1
+|-unboost|p1a: Lapras|spa|1
+|cant|p1a: Lapras|slp
+|
+|turn|9
+|choice|switch 2|move 2
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Alakazam|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|336\/393
+|
+|turn|10
+|choice|switch 3|move 1
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: Alakazam|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|
+|turn|11
+|choice|move 1|switch 3
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|move|p1a: Snorlax|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|241\/353
+|
+|turn|12
+|choice|move 1|move 1
+|
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|398\/523 par
+|move|p1a: Snorlax|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|138\/353
+|
+|turn|13
+|choice|move 4|move 1
+|
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|278\/523 par
+|move|p1a: Snorlax|Hyper Beam|p2a: Tauros|[miss]
+|-miss|p1a: Snorlax
+|
+|turn|14
+|choice|switch 3|move 1
+|
+|switch|p1a: Exeggutor|Exeggutor|336\/393
+|move|p2a: Tauros|Body Slam|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-damage|p1a: Exeggutor|118\/393
+|
+|turn|15
+|c|★Beds|true
+|choice|switch 4|move 1
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Tauros|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|436\/703
+|
+|turn|16
+|choice|move 2|move 1
+|
+|move|p2a: Tauros|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|147\/703
+|move|p1a: Chansey|Thunder Wave|p2a: Tauros
+|-status|p2a: Tauros|par
+|
+|turn|17
+|c|★Nails|that bull only has bslam for some reason
+|c|★Beds|oh
+|c|★Nails|lmao
+|c|★Beds|i thought you just next leveled me
+|c|★Beds|and just never clicked hbeam
+|c|★Nails|:P
+|c|★Nails|i mean i totally did that too
+|c|★Nails|but it wasnt part of the gameplan, no
+|choice|move 4|switch 6
+|
+|switch|p2a: Rhydon|Rhydon|413\/413
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|498\/703
+|
+|turn|18
+|choice|move 1|move 1
+|
+|move|p1a: Chansey|Ice Beam|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|157\/413
+|move|p2a: Rhydon|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|139\/703
+|
+|turn|19
+|choice|move 1|move 1
+|
+|move|p1a: Chansey|Ice Beam|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|c|★Nails|damn psychic doesnt do 20
+|choice||switch 4
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|turn|20
+|c|★Nails|also i shoulda used thsi guy instead of rhydon
+|c|★Nails|w\/e
+|choice|move 4|move 3
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|490\/703
+|move|p2a: Snorlax|Hyper Beam|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|choice|switch 4|
+|
+|switch|p1a: Exeggutor|Exeggutor|118\/393
+|turn|21
+|choice|move 2|switch 2
+|
+|switch|p2a: Jynx|Jynx|263\/333 par
+|move|p1a: Exeggutor|Sleep Powder|p2a: Jynx
+|-fail|p2a: Jynx
+|
+|turn|22
+|choice|switch 2|move 3
+|
+|switch|p1a: Lapras|Lapras|338\/463 slp
+|cant|p2a: Jynx|par
+|
+|turn|23
+|choice|move 1|switch 5
+|
+|switch|p2a: Slowbro|Slowbro|393\/393
+|-curestatus|p1a: Lapras|slp
+|
+|turn|24
+|choice|move 2|move 2
+|
+|move|p1a: Lapras|Thunderbolt|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|226\/393
+|move|p2a: Slowbro|Thunder Wave|p1a: Lapras
+|-status|p1a: Lapras|par
+|
+|turn|25
+|choice|move 3|move 1
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|move|p1a: Lapras|Confuse Ray|p2a: Slowbro
+|-start|p2a: Slowbro|confusion
+|
+|turn|26
+|choice|move 2|move 3
+|
+|-activate|p2a: Slowbro|confusion
+|move|p2a: Slowbro|Psychic|p1a: Lapras
+|-damage|p1a: Lapras|134\/463 par
+|cant|p1a: Lapras|par
+|
+|turn|27
+|choice|switch 2|move 3
+|
+|switch|p1a: Exeggutor|Exeggutor|118\/393
+|-activate|p2a: Slowbro|confusion
+|-damage|p2a: Slowbro|198\/393|[from] confusion
+|
+|turn|28
+|choice|move 1|switch 5
+|
+|switch|p2a: Jynx|Jynx|263\/333 par
+|move|p1a: Exeggutor|Psychic|p2a: Jynx
+|-resisted|p2a: Jynx
+|-damage|p2a: Jynx|203\/333 par
+|
+|turn|29
+|choice|switch 6|move 3
+|
+|switch|p1a: Alakazam|Alakazam|313\/313 slp
+|move|p2a: Jynx|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|272\/313 slp
+|
+|turn|30
+|choice|move 4|switch 2
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|cant|p1a: Alakazam|slp
+|
+|turn|31
+|choice|move 2|move 1
+|
+|cant|p1a: Alakazam|slp
+|move|p2a: Snorlax|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|107\/313 slp
+|
+|turn|32
+|choice|switch 2|move 1
+|
+|switch|p1a: Lapras|Lapras|134\/463 par
+|move|p2a: Snorlax|Body Slam|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|choice|switch 3|
+|
+|switch|p1a: Snorlax|Snorlax|278\/523 par
+|turn|33
+|c|★Nails|nice no wake
+|choice|move 3|switch 6
+|
+|switch|p2a: Tauros|Tauros|138\/353 par
+|cant|p1a: Snorlax|par
+|
+|turn|34
+|c|★Beds|i think i am getting owned here
+|choice|move 4|move 1
+|
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|150\/523 par
+|move|p1a: Snorlax|Hyper Beam|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|choice||switch 6
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|turn|35
+|c|★Nails|prob
+|choice|move 3|move 1
+|
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|8\/523 par
+|move|p1a: Snorlax|Self-Destruct|p2a: Snorlax
+|-damage|p2a: Snorlax|60\/523
+|faint|p1a: Snorlax
+|c|★Nails|fuk
+|choice|switch 5|
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|36
+|c|★Nails|le throw
+|c|★Nails|i thought
+|c|★Nails|it killed
+|c|★Nails|bc i was calcing the wrong thing
+|c|★Nails|haha...
+|c|★Beds|you got insecure because you were mirin me
+|c|★Nails|tru
+|choice|move 1|move 4
+|
+|move|p1a: Tauros|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|choice||switch 5
+|
+|switch|p2a: Slowbro|Slowbro|198\/393
+|turn|37
+|choice|switch 2|move 2
+|
+|switch|p1a: Alakazam|Alakazam|107\/313 slp
+|move|p2a: Slowbro|Thunder Wave|p1a: Alakazam
+|-fail|p1a: Alakazam
+|
+|turn|38
+|choice|switch 6|move 3
+|
+|switch|p1a: Exeggutor|Exeggutor|118\/393
+|move|p2a: Slowbro|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|77\/393
+|
+|turn|39
+|choice|switch 2|move 2
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|move|p2a: Slowbro|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|
+|turn|40
+|c|★Nails|nice
+|c|★Beds|fuck
+|c|★Nails|go nails
+|c|★Beds|i tried to tactical loop switch you
+|choice|move 1|move 3
+|
+|move|p2a: Slowbro|Psychic|p1a: Tauros
+|-damage|p1a: Tauros|240\/353 par
+|move|p1a: Tauros|Body Slam|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-damage|p2a: Slowbro|18\/393
+|-status|p2a: Slowbro|par
+|
+|turn|41
+|c|★Nails|shit i got outplayed
+|choice|move 1|move 3
+|
+|move|p1a: Tauros|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|choice||switch 3
+|
+|switch|p2a: Alakazam|Alakazam|253\/313
+|turn|42
+|choice|move 1|move 4
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|313\/313
+|move|p1a: Tauros|Body Slam|p2a: Alakazam
+|-damage|p2a: Alakazam|157\/313
+|-status|p2a: Alakazam|par
+|
+|turn|43
+|c|★Nails|ugh, gay!
+|choice|move 1|move 4
+|
+|cant|p2a: Alakazam|par
+|move|p1a: Tauros|Body Slam|p2a: Alakazam
+|-damage|p2a: Alakazam|9\/313 par
+|
+|turn|44
+|choice|move 4|move 2
+|
+|move|p2a: Alakazam|Psychic|p1a: Tauros
+|-damage|p1a: Tauros|69\/353 par
+|move|p1a: Tauros|Hyper Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|c|★Nails|hella gay!!!
+|choice||switch 2
+|
+|switch|p2a: Jynx|Jynx|203\/333 par
+|turn|45
+|choice|move 4|move 3
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|
+|win|Beds

@@ -1,0 +1,221 @@
+﻿|J|tamahome
+|J|dice
+|player|p1|tamahome|265
+|player|p2|dice|168
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|seed|24423,11127,20833,35235
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Starmie|Starmie|323\/323
+|turn|1
+|choice|switch 6|move 4
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Starmie|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|turn|2
+|choice|move 1|move 3
+|
+|move|p2a: Starmie|Psychic|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|510\/703 par
+|move|p1a: Chansey|Ice Beam|p2a: Starmie
+|-crit|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|243\/323
+|
+|turn|3
+|choice|move 1|switch 6
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Chansey|Ice Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|417\/523
+|
+|turn|4
+|choice|switch 3|move 1
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|375\/523
+|
+|turn|5
+|choice|move 3|move 2
+|
+|move|p1a: Snorlax|Earthquake|p2a: Snorlax
+|-damage|p2a: Snorlax|300\/523
+|move|p2a: Snorlax|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|271\/523
+|
+|turn|6
+|choice|move 3|switch 2
+|
+|switch|p2a: Golem|Golem|363\/363
+|move|p1a: Snorlax|Earthquake|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|225\/363
+|
+|turn|7
+|choice|switch 2|move 2
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Golem|Earthquake|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|319\/393
+|
+|turn|8
+|choice|move 1|switch 6
+|
+|switch|p2a: Starmie|Starmie|243\/323
+|move|p1a: Exeggutor|Sleep Powder|p2a: Starmie
+|-status|p2a: Starmie|slp
+|
+|turn|9
+|choice|move 2|switch 4
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Exeggutor|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|590\/703
+|
+|turn|10
+|choice|switch 3|move 3
+|
+|switch|p1a: Chansey|Chansey|510\/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703
+|
+|turn|11
+|choice|move 1|switch 2
+|
+|switch|p2a: Snorlax|Snorlax|300\/523
+|move|p1a: Chansey|Ice Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|200\/523
+|
+|turn|12
+|choice|switch 2|move 1
+|
+|switch|p1a: Snorlax|Snorlax|271\/523
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|18\/523
+|
+|turn|13
+|choice|move 2|switch 6
+|
+|switch|p2a: Golem|Golem|225\/363
+|move|p1a: Snorlax|Counter|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|choice||switch 5
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|14
+|choice|switch 4|move 1
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|move|p2a: Tauros|Body Slam|p1a: Starmie
+|-crit|p1a: Starmie
+|-damage|p1a: Starmie|122\/323
+|
+|turn|15
+|choice|move 4|move 1
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|283\/323
+|move|p2a: Tauros|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|180\/323
+|
+|turn|16
+|choice|move 4|switch 2
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|323\/323
+|
+|turn|17
+|choice|move 1|switch 6
+|
+|switch|p2a: Snorlax|Snorlax|200\/523
+|move|p1a: Starmie|Blizzard|p2a: Snorlax
+|-damage|p2a: Snorlax|81\/523
+|-status|p2a: Snorlax|frz
+|
+|turn|18
+|choice|move 3|switch 6
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Starmie|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|turn|19
+|choice|switch 2|move 4
+|
+|switch|p1a: Chansey|Chansey|510\/703 par
+|move|p2a: Chansey|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|435\/703 par
+|
+|turn|20
+|choice|move 3|switch 3
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703 par
+|
+|turn|21
+|choice|move 1|move 1
+|
+|move|p2a: Exeggutor|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|592\/703 par
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|move|p1a: Chansey|Ice Beam|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|302\/393
+|
+|turn|22
+|choice|move 1|move 1
+|
+|move|p2a: Exeggutor|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|415\/703 par
+|move|p1a: Chansey|Ice Beam|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|222\/393
+|
+|turn|23
+|choice|move 1|move 1
+|
+|move|p2a: Exeggutor|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|243\/703 par
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|cant|p1a: Chansey|par
+|
+|turn|24
+|choice|switch 2|move 1
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|move|p2a: Exeggutor|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|266\/323
+|
+|turn|25
+|choice|move 1|move 3
+|
+|move|p1a: Starmie|Blizzard|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|c|★dice|gg
+|-message|dice forfeited.
+|
+|win|tamahome

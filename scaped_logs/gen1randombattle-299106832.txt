@@ -1,0 +1,451 @@
+﻿|join|dervodel
+|join|kujino
+|player|p1|dervodel|238
+|player|p2|kujino|264
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|63156,31764,3191,1861
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Vaporeon|Vaporeon, L85|395\/395
+|switch|p2a: Seel|Seel, L96|320\/320
+|turn|1
+|choice|switch 4|move 2
+|
+|switch|p1a: Starmie|Starmie, L79|257\/257
+|move|p2a: Seel|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|204\/257
+|
+|turn|2
+|choice|move 2|move 2
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Seel
+|-supereffective|p2a: Seel
+|-damage|p2a: Seel|197\/320
+|move|p2a: Seel|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|149\/257
+|
+|turn|3
+|choice|move 2|switch 4
+|
+|switch|p2a: Raichu|Raichu, L85|276\/276
+|move|p1a: Starmie|Thunderbolt|p2a: Raichu
+|-resisted|p2a: Raichu
+|-damage|p2a: Raichu|245\/276
+|
+|turn|4
+|choice|switch 5|move 2
+|
+|switch|p1a: Tangela|Tangela, L85|284\/284
+|move|p2a: Raichu|Thunder Wave|p1a: Tangela
+|-status|p1a: Tangela|par
+|
+|turn|5
+|choice|move 1|move 4
+|
+|move|p2a: Raichu|Thunder|p1a: Tangela
+|-resisted|p1a: Tangela
+|-damage|p1a: Tangela|226\/284 par
+|move|p1a: Tangela|Sleep Powder|p2a: Raichu
+|-status|p2a: Raichu|slp
+|
+|turn|6
+|choice|move 2|move 3
+|
+|cant|p2a: Raichu|slp
+|cant|p1a: Tangela|par
+|
+|turn|7
+|choice|move 2|move 3
+|
+|cant|p2a: Raichu|slp
+|move|p1a: Tangela|Growth|p1a: Tangela
+|-boost|p1a: Tangela|spa|1
+|-boost|p1a: Tangela|spd|1
+|
+|turn|8
+|choice|move 3|move 3
+|
+|cant|p2a: Raichu|slp
+|cant|p1a: Tangela|par
+|
+|turn|9
+|choice|move 3|move 3
+|
+|cant|p2a: Raichu|slp
+|cant|p1a: Tangela|par
+|
+|turn|10
+|choice|move 1|move 1
+|
+|-curestatus|p2a: Raichu|slp
+|move|p1a: Tangela|Sleep Powder|p2a: Raichu
+|-status|p2a: Raichu|slp
+|
+|turn|11
+|choice|switch 3|move 1
+|
+|switch|p1a: Muk|Muk, L90|372\/372
+|cant|p2a: Raichu|slp
+|
+|turn|12
+|choice|move 3|move 1
+|
+|-curestatus|p2a: Raichu|slp
+|move|p1a: Muk|Body Slam|p2a: Raichu
+|-damage|p2a: Raichu|149\/276
+|
+|turn|13
+|choice|switch 3|move 2
+|
+|switch|p1a: Tangela|Tangela, L85|226\/284 par
+|move|p2a: Raichu|Thunder Wave|p1a: Tangela
+|-fail|p1a: Tangela|par
+|
+|turn|14
+|choice|move 1|move 3
+|
+|move|p2a: Raichu|Hyper Beam|p1a: Tangela
+|-damage|p1a: Tangela|147\/284 par
+|move|p1a: Tangela|Sleep Powder|p2a: Raichu
+|-status|p2a: Raichu|slp
+|
+|turn|15
+|-mustrecharge|p2a: Raichu
+|-mustrecharge|p2a: Raichu
+|choice|move 3|move 1
+|
+|cant|p2a: Raichu|recharge
+|move|p1a: Tangela|Hyper Beam|p2a: Raichu
+|-damage|p2a: Raichu|55\/276 slp
+|
+|turn|16
+|-mustrecharge|p1a: Tangela
+|-mustrecharge|p1a: Tangela
+|choice|move 1|move 1
+|
+|cant|p2a: Raichu|slp
+|cant|p1a: Tangela|recharge
+|
+|turn|17
+|choice|move 4|switch 3
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|293\/293
+|move|p1a: Tangela|Mega Drain|p2a: Mewtwo
+|-damage|p2a: Mewtwo|257\/293
+|-heal|p1a: Tangela|165\/284 par|[from] drain|[of] p2a: Mewtwo
+|
+|turn|18
+|choice|switch 5|move 1
+|
+|switch|p1a: Starmie|Starmie, L79|149\/257
+|move|p2a: Mewtwo|Psychic|p1a: Starmie
+|-crit|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|64\/257
+|-unboost|p1a: Starmie|spd|1
+|-unboost|p1a: Starmie|spa|1
+|
+|turn|19
+|choice|move 1|move 4
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|192\/257
+|move|p2a: Mewtwo|Hyper Beam|p1a: Starmie
+|-damage|p1a: Starmie|106\/257
+|
+|turn|20
+|-mustrecharge|p2a: Mewtwo
+|-mustrecharge|p2a: Mewtwo
+|choice|move 3|move 1
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Mewtwo
+|-status|p2a: Mewtwo|par
+|cant|p2a: Mewtwo|recharge
+|
+|turn|21
+|choice|move 4|move 3
+|
+|move|p1a: Starmie|Surf|p2a: Mewtwo
+|-damage|p2a: Mewtwo|208\/293 par
+|move|p2a: Mewtwo|Ice Beam|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|57\/257
+|
+|turn|22
+|choice|move 1|move 4
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|185\/257
+|move|p2a: Mewtwo|Hyper Beam|p1a: Starmie
+|-crit|p1a: Starmie
+|-damage|p1a: Starmie|4\/257
+|
+|turn|23
+|-mustrecharge|p2a: Mewtwo
+|-mustrecharge|p2a: Mewtwo
+|choice|move 1|move 1
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|132\/257
+|cant|p2a: Mewtwo|recharge
+|
+|turn|24
+|choice|move 1|move 3
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|257\/257
+|move|p2a: Mewtwo|Ice Beam|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|206\/257
+|
+|turn|25
+|choice|switch 4|move 3
+|
+|switch|p1a: Vaporeon|Vaporeon, L85|395\/395
+|cant|p2a: Mewtwo|par
+|
+|turn|26
+|choice|move 4|move 1
+|
+|move|p1a: Vaporeon|Body Slam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|150\/293 par
+|move|p2a: Mewtwo|Psychic|p1a: Vaporeon
+|-damage|p1a: Vaporeon|307\/395
+|
+|turn|27
+|choice|switch 4|move 1
+|
+|switch|p1a: Starmie|Starmie, L79|206\/257
+|move|p2a: Mewtwo|Psychic|p1a: Starmie
+|-crit|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|116\/257
+|
+|turn|28
+|choice|move 1|move 3
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|244\/257
+|move|p2a: Mewtwo|Ice Beam|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|211\/257
+|
+|turn|29
+|choice|move 2|move 3
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Mewtwo
+|-damage|p2a: Mewtwo|99\/293 par
+|move|p2a: Mewtwo|Ice Beam|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|178\/257
+|
+|turn|30
+|choice|move 4|move 2
+|
+|move|p1a: Starmie|Surf|p2a: Mewtwo
+|-damage|p2a: Mewtwo|30\/293 par
+|move|p2a: Mewtwo|Rest|p2a: Mewtwo
+|-status|p2a: Mewtwo|slp
+|-heal|p2a: Mewtwo|293\/293 slp|[silent]
+|-status|p2a: Mewtwo|slp|[from] move: Rest
+|
+|turn|31
+|choice|move 4|move 1
+|
+|move|p1a: Starmie|Surf|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|139\/293 slp
+|cant|p2a: Mewtwo|slp
+|
+|turn|32
+|choice|move 4|move 2
+|
+|move|p1a: Starmie|Surf|p2a: Mewtwo
+|-damage|p2a: Mewtwo|71\/293 slp
+|-curestatus|p2a: Mewtwo|slp
+|
+|turn|33
+|choice|move 4|switch 4
+|
+|switch|p2a: Seel|Seel, L96|197\/320
+|move|p1a: Starmie|Surf|p2a: Seel
+|-resisted|p2a: Seel
+|-damage|p2a: Seel|154\/320
+|
+|turn|34
+|choice|move 2|switch 3
+|
+|switch|p2a: Raichu|Raichu, L85|55\/276 slp
+|move|p1a: Starmie|Thunderbolt|p2a: Raichu
+|-resisted|p2a: Raichu
+|-damage|p2a: Raichu|27\/276 slp
+|
+|turn|35
+|choice|move 4|move 1
+|
+|move|p1a: Starmie|Surf|p2a: Raichu
+|-damage|p2a: Raichu|0 fnt
+|faint|p2a: Raichu
+|choice||switch 6
+|
+|switch|p2a: Starmie|Starmie, L79|257\/257
+|turn|36
+|choice|switch 2|move 2
+|
+|switch|p1a: Venonat|Venonat, L96|310\/310
+|move|p2a: Starmie|Surf|p1a: Venonat
+|-damage|p1a: Venonat|194\/310
+|
+|turn|37
+|choice|move 3|move 4
+|
+|move|p2a: Starmie|Thunder Wave|p1a: Venonat
+|-status|p1a: Venonat|par
+|move|p1a: Venonat|Sleep Powder|p2a: Starmie
+|-status|p2a: Starmie|slp
+|
+|turn|38
+|choice|switch 2|switch 4
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|71\/293
+|switch|p1a: Starmie|Starmie, L79|178\/257
+|
+|turn|39
+|choice|move 4|move 2
+|
+|move|p1a: Starmie|Surf|p2a: Mewtwo
+|-damage|p2a: Mewtwo|0 fnt
+|faint|p2a: Mewtwo
+|choice||switch 5
+|
+|switch|p2a: Victreebel|Victreebel, L85|310\/310
+|turn|40
+|choice|switch 2|move 4
+|
+|switch|p1a: Venonat|Venonat, L96|194\/310 par
+|move|p2a: Victreebel|Body Slam|p1a: Venonat
+|-damage|p1a: Venonat|111\/310 par
+|
+|turn|41
+|choice|move 1|move 1
+|
+|move|p2a: Victreebel|Razor Leaf|p1a: Venonat
+|-crit|p1a: Venonat
+|-resisted|p1a: Venonat
+|-damage|p1a: Venonat|71\/310 par
+|move|p1a: Venonat|Psychic|p2a: Victreebel
+|-supereffective|p2a: Victreebel
+|-damage|p2a: Victreebel|225\/310
+|-unboost|p2a: Victreebel|spd|1
+|-unboost|p2a: Victreebel|spa|1
+|
+|turn|42
+|choice|move 2|move 4
+|
+|move|p2a: Victreebel|Body Slam|p1a: Venonat
+|-damage|p1a: Venonat|0 fnt
+|faint|p1a: Venonat
+|choice|switch 4|
+|
+|switch|p1a: Vaporeon|Vaporeon, L85|307\/395
+|turn|43
+|choice|move 2|move 1
+|
+|move|p2a: Victreebel|Razor Leaf|p1a: Vaporeon
+|-crit|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|112\/395
+|move|p1a: Vaporeon|Blizzard|p2a: Victreebel
+|-supereffective|p2a: Victreebel
+|-damage|p2a: Victreebel|0 fnt
+|faint|p2a: Victreebel
+|choice||switch 3
+|
+|switch|p2a: Seel|Seel, L96|154\/320
+|turn|44
+|choice|move 4|move 2
+|
+|move|p1a: Vaporeon|Body Slam|p2a: Seel
+|-crit|p2a: Seel
+|-damage|p2a: Seel|40\/320
+|move|p2a: Seel|Body Slam|p1a: Vaporeon
+|-damage|p1a: Vaporeon|48\/395
+|-status|p1a: Vaporeon|par
+|
+|turn|45
+|choice|switch 3|move 2
+|
+|switch|p1a: Muk|Muk, L90|372\/372
+|move|p2a: Seel|Body Slam|p1a: Muk
+|-damage|p1a: Muk|317\/372
+|
+|turn|46
+|choice|move 3|move 3
+|
+|move|p2a: Seel|Surf|p1a: Muk
+|-crit|p1a: Muk
+|-damage|p1a: Muk|97\/372
+|move|p1a: Muk|Body Slam|p2a: Seel
+|-damage|p2a: Seel|0 fnt
+|faint|p2a: Seel
+|choice||switch 4
+|
+|switch|p2a: Starmie|Starmie, L79|257\/257 slp
+|turn|47
+|choice|move 1|move 3
+|
+|cant|p2a: Starmie|slp
+|move|p1a: Muk|Explosion|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|faint|p1a: Muk
+|choice|switch 2|switch 2
+|
+|switch|p1a: Starmie|Starmie, L79|178\/257
+|switch|p2a: Vulpix|Vulpix, L96|268\/268
+|turn|48
+|choice|move 4|move 4
+|
+|move|p1a: Starmie|Surf|p2a: Vulpix
+|-supereffective|p2a: Vulpix
+|-damage|p2a: Vulpix|80\/268
+|move|p2a: Vulpix|Confuse Ray|p1a: Starmie
+|-start|p1a: Starmie|confusion
+|
+|turn|49
+|choice|switch 3|move 2
+|
+|switch|p1a: Vaporeon|Vaporeon, L85|48\/395 par
+|move|p2a: Vulpix|Body Slam|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|choice|switch 5|
+|
+|switch|p1a: Tangela|Tangela, L85|165\/284 par
+|turn|50
+|choice|move 3|move 4
+|
+|move|p2a: Vulpix|Confuse Ray|p1a: Tangela
+|-start|p1a: Tangela|confusion
+|-activate|p1a: Tangela|confusion
+|-damage|p1a: Tangela|145\/284 par|[from] confusion
+|
+|turn|51
+|choice|move 3|move 2
+|
+|move|p2a: Vulpix|Body Slam|p1a: Tangela
+|-damage|p1a: Tangela|105\/284 par
+|-activate|p1a: Tangela|confusion
+|move|p1a: Tangela|Hyper Beam|p2a: Vulpix
+|-damage|p2a: Vulpix|0 fnt
+|faint|p2a: Vulpix
+|
+|win|dervodel
+|raw|dervodel's rating: 1138 &rarr; <strong>1162<\/strong><br \/>(+24 for winning)
+|raw|kujino's rating: 1130 &rarr; <strong>1105<\/strong><br \/>(-25 for losing)

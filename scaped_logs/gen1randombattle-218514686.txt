@@ -1,0 +1,268 @@
+﻿|join|jb champ
+|join|EvilRabbitLord
+|player|p1|jb champ|150
+|player|p2|EvilRabbitLord|126
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Dragonair|Dragonair, L85|277\/277
+|switch|p2a: Omanyte|Omanyte, L96|262\/262
+|turn|1
+|c|★EvilRabbitLord|here comes the dude
+|
+|switch|p1a: Alakazam|Alakazam, L79|249\/249
+|move|p2a: Omanyte|Blizzard|p1a: Alakazam
+|-damage|p1a: Alakazam|165\/249
+|
+|turn|2
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Omanyte
+|-status|p2a: Omanyte|par
+|cant|p2a: Omanyte|par
+|
+|turn|3
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Omanyte
+|-damage|p2a: Omanyte|183\/262 par
+|move|p2a: Omanyte|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|69\/249
+|
+|turn|4
+|c|★EvilRabbitLord|no psychic move?
+|c|★EvilRabbitLord|lol
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|193\/249
+|move|p2a: Omanyte|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|97\/249
+|
+|turn|5
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|221\/249
+|cant|p2a: Omanyte|par
+|
+|turn|6
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Omanyte
+|-damage|p2a: Omanyte|104\/262 par
+|move|p2a: Omanyte|Blizzard|p1a: Alakazam
+|-damage|p1a: Alakazam|131\/249
+|
+|turn|7
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|249\/249
+|move|p2a: Omanyte|Blizzard|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|85\/249
+|
+|turn|8
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|209\/249
+|move|p2a: Omanyte|Blizzard|p1a: Alakazam
+|-damage|p1a: Alakazam|126\/249
+|
+|turn|9
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|249\/249
+|cant|p2a: Omanyte|par
+|
+|turn|10
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Omanyte
+|-damage|p2a: Omanyte|25\/262 par
+|move|p2a: Omanyte|Rest|p2a: Omanyte
+|-status|p2a: Omanyte|slp
+|-heal|p2a: Omanyte|262\/262 slp|[silent]
+|-status|p2a: Omanyte|slp|[from] move: Rest
+|
+|turn|11
+|
+|switch|p1a: Nidorino|Nidorino, L90|293\/293
+|cant|p2a: Omanyte|slp
+|
+|turn|12
+|
+|move|p1a: Nidorino|Thunderbolt|p2a: Omanyte
+|-supereffective|p2a: Omanyte
+|-damage|p2a: Omanyte|170\/262 slp
+|cant|p2a: Omanyte|slp
+|-curestatus|p2a: Omanyte|slp
+|
+|turn|13
+|
+|move|p1a: Nidorino|Thunderbolt|p2a: Omanyte
+|-supereffective|p2a: Omanyte
+|-damage|p2a: Omanyte|69\/262
+|move|p2a: Omanyte|Surf|p1a: Nidorino
+|-damage|p1a: Nidorino|130\/293
+|
+|turn|14
+|
+|switch|p2a: Exeggutor|Exeggutor, L79|312\/312
+|move|p1a: Nidorino|Thunderbolt|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|291\/312
+|
+|turn|15
+|
+|move|p1a: Nidorino|Body Slam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|229\/312
+|-status|p2a: Exeggutor|par
+|move|p2a: Exeggutor|Psychic|p1a: Nidorino
+|-supereffective|p1a: Nidorino
+|-damage|p1a: Nidorino|0 fnt
+|faint|p1a: Nidorino
+|
+|switch|p1a: Alakazam|Alakazam, L79|249\/249
+|turn|16
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Exeggutor
+|-damage|p2a: Exeggutor|150\/312 par
+|move|p2a: Exeggutor|Stun Spore|p1a: Alakazam|[miss]
+|-miss|p2a: Exeggutor
+|
+|turn|17
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Exeggutor
+|-damage|p2a: Exeggutor|71\/312 par
+|move|p2a: Exeggutor|Stun Spore|p1a: Alakazam|[miss]
+|-miss|p2a: Exeggutor
+|
+|turn|18
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Vaporeon|Vaporeon, L85|395\/395
+|turn|19
+|
+|switch|p1a: Parasect|Parasect, L85|276\/276
+|move|p2a: Vaporeon|Hydro Pump|p1a: Parasect
+|-resisted|p1a: Parasect
+|-damage|p1a: Parasect|200\/276
+|
+|turn|20
+|
+|move|p2a: Vaporeon|Blizzard|p1a: Parasect
+|-supereffective|p1a: Parasect
+|-damage|p1a: Parasect|6\/276
+|move|p1a: Parasect|Spore|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp
+|
+|turn|21
+|
+|switch|p2a: Hitmonchan|Hitmonchan, L85|259\/259
+|move|p1a: Parasect|Slash|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|208\/259
+|
+|turn|22
+|
+|switch|p1a: Haunter|Haunter, L85|250\/250
+|move|p2a: Hitmonchan|Body Slam|p1a: Haunter
+|-immune|p1a: Haunter|[msg]
+|
+|turn|23
+|
+|move|p1a: Haunter|Psychic|p2a: Hitmonchan
+|-supereffective|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|0 fnt
+|faint|p2a: Hitmonchan
+|
+|switch|p2a: Snorlax|Snorlax, L79|415\/415
+|turn|24
+|
+|move|p1a: Haunter|Confuse Ray|p2a: Snorlax
+|-start|p2a: Snorlax|confusion
+|-activate|p2a: Snorlax|confusion
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|
+|turn|25
+|
+|move|p1a: Haunter|Explosion|p2a: Snorlax
+|-damage|p2a: Snorlax|193\/415
+|faint|p1a: Haunter
+|
+|switch|p1a: Kangaskhan|Kangaskhan, L85|352\/352
+|turn|26
+|
+|move|p1a: Kangaskhan|Hyper Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|switch|p2a: Vaporeon|Vaporeon, L85|395\/395 slp
+|turn|27
+|
+|move|p1a: Kangaskhan|Body Slam|p2a: Vaporeon
+|-damage|p2a: Vaporeon|289\/395 slp
+|cant|p2a: Vaporeon|slp
+|-curestatus|p2a: Vaporeon|slp
+|
+|turn|28
+|
+|move|p1a: Kangaskhan|Body Slam|p2a: Vaporeon
+|-crit|p2a: Vaporeon
+|-damage|p2a: Vaporeon|59\/395
+|move|p2a: Vaporeon|Blizzard|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|213\/352
+|
+|turn|29
+|
+|switch|p2a: Omanyte|Omanyte, L96|69\/262
+|move|p1a: Kangaskhan|Body Slam|p2a: Omanyte
+|-resisted|p2a: Omanyte
+|-damage|p2a: Omanyte|31\/262
+|
+|turn|30
+|
+|move|p1a: Kangaskhan|Body Slam|p2a: Omanyte
+|-resisted|p2a: Omanyte
+|-damage|p2a: Omanyte|0 fnt
+|faint|p2a: Omanyte
+|
+|switch|p2a: Charmeleon|Charmeleon, L85|272\/272
+|turn|31
+|
+|move|p1a: Kangaskhan|Body Slam|p2a: Charmeleon
+|-damage|p2a: Charmeleon|161\/272
+|-status|p2a: Charmeleon|par
+|cant|p2a: Charmeleon|par
+|
+|turn|32
+|c|★EvilRabbitLord|.....
+|
+|move|p1a: Kangaskhan|Hyper Beam|p2a: Charmeleon
+|-damage|p2a: Charmeleon|0 fnt
+|faint|p2a: Charmeleon
+|c|★EvilRabbitLord|youre a nigga
+|
+|switch|p2a: Vaporeon|Vaporeon, L85|59\/395
+|turn|33
+|c|★EvilRabbitLord|so much luck
+|c|★jb champ|what they want i dont know, they are all reved up and ready to go
+|c|★EvilRabbitLord|shitty song
+|
+|move|p1a: Kangaskhan|Body Slam|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|faint|p2a: Vaporeon
+|
+|win|jb champ
+|raw|Ladder updating...
+|raw|jb champ's rating: 1375 &rarr; <strong>1386<\/strong><br \/>(+11 for winning)
+|raw|EvilRabbitLord's rating: 1211 &rarr; <strong>1197<\/strong><br \/>(-14 for losing)
+|c|★EvilRabbitLord|lucky bitch youre dead next time
+|c|★jb champ|the kids are losing their minds...
+|leave|EvilRabbitLord
+|player|p2

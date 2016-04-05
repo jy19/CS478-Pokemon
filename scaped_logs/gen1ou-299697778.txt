@@ -1,0 +1,271 @@
+﻿|join|qsns
+|join|rozes
+|player|p1|qsns|170
+|player|p2|rozes|138
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|seed|8208,27644,22298,42721
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333\/333
+|switch|p2a: Alakazam|Alakazam|313\/313
+|turn|1
+|c|★qsns|hf
+|choice|move 2|move 2
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Jynx
+|-status|p1a: Jynx|par
+|move|p1a: Jynx|Lovely Kiss|p2a: Alakazam|[miss]
+|-miss|p1a: Jynx
+|
+|turn|2
+|c|★rozes|no u
+|c|★qsns|xd
+|choice|move 2|move 4
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Jynx
+|-damage|p1a: Jynx|233\/333 par
+|move|p1a: Jynx|Lovely Kiss|p2a: Alakazam
+|-status|p2a: Alakazam|slp
+|
+|turn|3
+|choice|switch 4|move 4
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|-curestatus|p2a: Alakazam|slp
+|
+|turn|4
+|c|★qsns|-
+|choice|move 1|move 2
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|move|p1a: Snorlax|Mega Kick|p2a: Alakazam
+|-damage|p2a: Alakazam|90\/313
+|
+|turn|5
+|c|★rozes|:D
+|c|★qsns|must b nice
+|c|★rozes|thanks g
+|choice|move 1|switch 6
+|
+|switch|p2a: Golem|Golem|363\/363
+|move|p1a: Snorlax|Mega Kick|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|303\/363
+|
+|turn|6
+|choice|switch 5|move 3
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Golem|Substitute|p2a: Golem
+|-start|p2a: Golem|Substitute
+|-damage|p2a: Golem|213\/363
+|
+|turn|7
+|choice|move 1|move 2
+|
+|move|p1a: Exeggutor|Psychic|p2a: Golem
+|-end|p2a: Golem|Substitute
+|move|p2a: Golem|Rock Slide|p1a: Exeggutor
+|-damage|p1a: Exeggutor|284\/393
+|
+|turn|8
+|choice|move 2|switch 5
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Exeggutor|Sleep Powder|p2a: Exeggutor
+|-status|p2a: Exeggutor|slp
+|
+|turn|9
+|choice|switch 4|move 1
+|
+|switch|p1a: Jynx|Jynx|233\/333 par
+|-curestatus|p2a: Exeggutor|slp
+|
+|turn|10
+|c|★qsns|dude stop
+|c|★rozes|no u
+|choice|move 2|move 3
+|
+|move|p2a: Exeggutor|Explosion|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|faint|p2a: Exeggutor
+|c|★qsns|STOP
+|c|★rozes|:(
+|choice|switch 5|switch 3
+|
+|switch|p2a: Kingler|Kingler|313\/313
+|switch|p1a: Snorlax|Snorlax|523\/523 par
+|turn|11
+|c|★rozes|KINGLER
+|choice|switch 4|move 4
+|
+|switch|p1a: Exeggutor|Exeggutor|284\/393
+|move|p2a: Kingler|Swords Dance|p2a: Kingler
+|-boost|p2a: Kingler|atk|2
+|
+|turn|12
+|c|★qsns|kingler.
+|c|★rozes|KINGLER
+|c|★qsns|dont miss
+|join|deoxys speed lol
+|c|★qsns|seriously
+|c|★qsns|no
+|choice|move 2|move 2
+|
+|move|p2a: Kingler|Hyper Beam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|c|★qsns|WHY ARE YOU FASTER
+|c|★qsns|WHAT
+|choice|switch 2|
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|turn|13
+|c|★qsns|dude i hate this game
+|choice|move 2|move 2
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Kingler
+|-crit|p2a: Kingler
+|-supereffective|p2a: Kingler
+|-damage|p2a: Kingler|0 fnt
+|faint|p2a: Kingler
+|c|★qsns|bop
+|c|★rozes|FUCK YOU
+|c|★qsns|thele it is
+|c|★rozes|HACKER
+|choice||switch 6
+|
+|switch|p2a: Alakazam|Alakazam|90\/313
+|turn|14
+|c|★qsns|i love rby
+|c|★rozes|HAXER
+|choice|move 4|move 2
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Starmie
+|-status|p1a: Starmie|par
+|move|p1a: Starmie|Thunder Wave|p2a: Alakazam
+|-status|p2a: Alakazam|par
+|
+|turn|15
+|c|★rozes|catch this para
+|choice|move 1|move 3
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|246\/313 par
+|move|p1a: Starmie|Blizzard|p2a: Alakazam
+|-damage|p2a: Alakazam|167\/313 par
+|
+|turn|16
+|choice|switch 4|move 3
+|
+|switch|p1a: Snorlax|Snorlax|523\/523 par
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|313\/313 par
+|
+|turn|17
+|choice|move 2|switch 5
+|
+|switch|p2a: Golem|Golem|213\/363
+|move|p1a: Snorlax|Earthquake|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|72\/363
+|
+|turn|18
+|c|★qsns|easy
+|c|★qsns|peasy
+|choice|switch 4|move 4
+|
+|switch|p1a: Starmie|Starmie|323\/323 par
+|move|p2a: Golem|Explosion|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|faint|p2a: Golem
+|c|★rozes|ur parad
+|choice|switch 3|switch 2
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|19
+|c|★rozes|you lose
+|c|★qsns|tauros wars bois
+|c|★rozes|BOIS
+|c|★rozes|ill let you have
+|c|★rozes|the first speed tie
+|c|★rozes|because im nice
+|choice|move 1|move 1
+|
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|245\/353
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|145\/353
+|
+|turn|20
+|c|★qsns|liar
+|c|★qsns|oh sick
+|c|★rozes|NOT LIKE THAT
+|c|★rozes|HYPER MEME
+|c|★rozes|goooo
+|c|★rozes|:[]
+|choice|move 4|move 2
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Tauros
+|-damage|p1a: Tauros|76\/353
+|move|p1a: Tauros|Hyper Beam|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|c|★qsns|memed
+|choice||switch 4
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|turn|21
+|c|★rozes|are you lost mon chansey?
+|c|★rozes|yeah you are
+|c|★qsns|jah
+|c|★rozes|yay
+|choice|switch 4|move 4
+|
+|switch|p1a: Snorlax|Snorlax|523\/523 par
+|move|p2a: Chansey|Thunder Wave|p1a: Snorlax
+|-fail|p1a: Snorlax|par
+|
+|turn|22
+|c|★rozes|first to freeze
+|c|★rozes|wins
+|choice|move 1|move 1
+|
+|move|p2a: Chansey|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|423\/523 par
+|move|p1a: Snorlax|Mega Kick|p2a: Chansey|[miss]
+|-miss|p1a: Snorlax
+|
+|turn|23
+|c|★qsns|no
+|c|★qsns|dont
+|choice|move 4|move 1
+|
+|move|p2a: Chansey|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|330\/523 par
+|move|p1a: Snorlax|Self-Destruct|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|faint|p1a: Snorlax
+|c|★rozes|NOOOOOOO
+|-message|rozes forfeited.
+|
+|win|qsns
+|c|★qsns|lmao
+|c|★rozes|=[]
+|c|★qsns|gg
+|c|★rozes|gg
+|leave|rozes

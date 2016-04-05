@@ -1,0 +1,154 @@
+﻿|join|metagross11
+|join|librarynoob
+|player|p1|metagross11|107
+|player|p2|librarynoob|265
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Rhydon|Rhydon, L79|328\/328
+|switch|p2a: Raticate|Raticate, L85|267\/267
+|turn|1
+|
+|move|p2a: Raticate|Super Fang|p1a: Rhydon
+|-damage|p1a: Rhydon|164\/328
+|move|p1a: Rhydon|Rock Slide|p2a: Raticate
+|-damage|p2a: Raticate|170\/267
+|
+|turn|2
+|
+|move|p2a: Raticate|Bubble Beam|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|
+|switch|p1a: Cloyster|Cloyster, L83|253\/253
+|turn|3
+|
+|move|p2a: Raticate|Super Fang|p1a: Cloyster
+|-damage|p1a: Cloyster|127\/253
+|move|p1a: Cloyster|Ice Beam|p2a: Raticate
+|-damage|p2a: Raticate|49\/267
+|
+|turn|4
+|
+|move|p2a: Raticate|Hyper Beam|p1a: Cloyster
+|-damage|p1a: Cloyster|40\/253
+|move|p1a: Cloyster|Surf|p2a: Raticate
+|-damage|p2a: Raticate|0 fnt
+|faint|p2a: Raticate
+|
+|switch|p2a: Mr. Mime|Mr. Mime, L85|242\/242
+|turn|5
+|
+|move|p2a: Mr. Mime|Seismic Toss|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|switch|p1a: Mewtwo|Mewtwo, L68|285\/285
+|turn|6
+|
+|move|p1a: Mewtwo|Amnesia|p1a: Mewtwo
+|-boost|p1a: Mewtwo|spd|2
+|-boost|p1a: Mewtwo|spa|2
+|move|p2a: Mr. Mime|Thunder Wave|p1a: Mewtwo
+|-status|p1a: Mewtwo|par
+|
+|turn|7
+|
+|move|p2a: Mr. Mime|Thunderbolt|p1a: Mewtwo
+|-damage|p1a: Mewtwo|256\/285 par
+|move|p1a: Mewtwo|Amnesia|p1a: Mewtwo
+|-boost|p1a: Mewtwo|spd|2
+|-boost|p1a: Mewtwo|spa|2
+|
+|turn|8
+|
+|move|p2a: Mr. Mime|Seismic Toss|p1a: Mewtwo
+|-damage|p1a: Mewtwo|171\/285 par
+|move|p1a: Mewtwo|Psychic|p2a: Mr. Mime
+|-resisted|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|119\/242
+|
+|turn|9
+|
+|move|p2a: Mr. Mime|Seismic Toss|p1a: Mewtwo
+|-damage|p1a: Mewtwo|86\/285 par
+|move|p1a: Mewtwo|Recover|p1a: Mewtwo
+|-heal|p1a: Mewtwo|228\/285 par
+|
+|turn|10
+|
+|move|p2a: Mr. Mime|Seismic Toss|p1a: Mewtwo
+|-damage|p1a: Mewtwo|143\/285 par
+|move|p1a: Mewtwo|Psychic|p2a: Mr. Mime
+|-resisted|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|0 fnt
+|faint|p2a: Mr. Mime
+|
+|switch|p2a: Pinsir|Pinsir, L85|284\/284
+|turn|11
+|
+|move|p2a: Pinsir|Hyper Beam|p1a: Mewtwo
+|-damage|p1a: Mewtwo|0 fnt
+|faint|p1a: Mewtwo
+|
+|switch|p1a: Jynx|Jynx, L79|265\/265
+|turn|12
+|
+|move|p2a: Pinsir|Swords Dance|p2a: Pinsir
+|-boost|p2a: Pinsir|atk|2
+|move|p1a: Jynx|Blizzard|p2a: Pinsir
+|-damage|p2a: Pinsir|130\/284
+|
+|turn|13
+|
+|move|p1a: Jynx|Blizzard|p2a: Pinsir|[miss]
+|-miss|p1a: Jynx
+|move|p2a: Pinsir|Submission|p1a: Jynx
+|-damage|p1a: Jynx|30\/265
+|-damage|p2a: Pinsir|72\/284|[from] recoil|[of] p1a: Jynx
+|
+|turn|14
+|
+|move|p1a: Jynx|Blizzard|p2a: Pinsir
+|-damage|p2a: Pinsir|0 fnt
+|faint|p2a: Pinsir
+|
+|switch|p2a: Jolteon|Jolteon, L85|284\/284
+|turn|15
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Jynx
+|-crit|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|
+|switch|p1a: Persian|Persian, L79|265\/265
+|turn|16
+|
+|move|p2a: Jolteon|Thunder Wave|p1a: Persian
+|-status|p1a: Persian|par
+|cant|p1a: Persian|par
+|
+|turn|17
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Persian
+|-damage|p1a: Persian|119\/265 par
+|move|p1a: Persian|Body Slam|p2a: Jolteon
+|-damage|p2a: Jolteon|209\/284
+|-status|p2a: Jolteon|par
+|
+|turn|18
+|-message|metagross11 forfeited.
+|leave|metagross11
+|
+|win|librarynoob
+|raw|Ladder updating...
+|player|p1
+|raw|metagross11's rating: 1230 &rarr; <strong>1207<\/strong><br \/>(-23 for losing)
+|raw|librarynoob's rating: 1253 &rarr; <strong>1276<\/strong><br \/>(+23 for winning)

@@ -1,0 +1,592 @@
+﻿|join|Peasounay
+|join|Tendoh
+|player|p1|Peasounay|101
+|player|p2|Tendoh|170
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|seed|51665,64053,14411,63248
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: I'm Annoying|Jolteon|333\/333
+|switch|p2a: Luma|Starmie|323\/323
+|turn|1
+|choice|move 1|switch 2
+|
+|switch|p2a: Whorey|Chansey|703\/703
+|move|p1a: I'm Annoying|Thunder Wave|p2a: Whorey
+|-status|p2a: Whorey|par
+|
+|turn|2
+|c|★Peasounay|hi
+|c|★Tendoh|Hello
+|choice|switch 5|move 1
+|
+|switch|p1a: Yo Momma|Snorlax|523\/523
+|move|p2a: Whorey|Ice Beam|p1a: Yo Momma
+|-damage|p1a: Yo Momma|425\/523
+|
+|turn|3
+|choice|move 1|move 1
+|
+|move|p1a: Yo Momma|Body Slam|p2a: Whorey
+|-crit|p2a: Whorey
+|-damage|p2a: Whorey|163\/703 par
+|move|p2a: Whorey|Ice Beam|p1a: Yo Momma
+|-damage|p1a: Yo Momma|317\/523
+|
+|turn|4
+|choice|move 1|switch 3
+|
+|switch|p2a: Digitamamon|Exeggutor|393\/393
+|move|p1a: Yo Momma|Body Slam|p2a: Digitamamon
+|-damage|p2a: Digitamamon|281\/393
+|-status|p2a: Digitamamon|par
+|
+|turn|5
+|choice|move 4|move 1
+|
+|move|p1a: Yo Momma|Self-Destruct|p2a: Digitamamon
+|-damage|p2a: Digitamamon|0 fnt
+|faint|p2a: Digitamamon
+|faint|p1a: Yo Momma
+|choice|switch 5|switch 6
+|
+|switch|p1a: I'm Annoying|Jolteon|333\/333
+|switch|p2a: Kim Peek|Alakazam|313\/313
+|turn|6
+|choice|move 1|move 3
+|
+|move|p1a: I'm Annoying|Thunder Wave|p2a: Kim Peek
+|-status|p2a: Kim Peek|par
+|move|p2a: Kim Peek|Thunder Wave|p1a: I'm Annoying
+|-status|p1a: I'm Annoying|par
+|
+|turn|7
+|choice|move 2|move 1
+|
+|cant|p1a: I'm Annoying|par
+|move|p2a: Kim Peek|Psychic|p1a: I'm Annoying
+|-damage|p1a: I'm Annoying|212\/333 par
+|-unboost|p1a: I'm Annoying|spd|1
+|-unboost|p1a: I'm Annoying|spa|1
+|
+|turn|8
+|choice|switch 6|move 1
+|
+|switch|p1a: Yo|Lapras|463\/463
+|move|p2a: Kim Peek|Psychic|p1a: Yo
+|-damage|p1a: Yo|316\/463
+|-unboost|p1a: Yo|spd|1
+|-unboost|p1a: Yo|spa|1
+|
+|turn|9
+|choice|move 4|move 1
+|
+|move|p1a: Yo|Confuse Ray|p2a: Kim Peek
+|-start|p2a: Kim Peek|confusion
+|-activate|p2a: Kim Peek|confusion
+|move|p2a: Kim Peek|Psychic|p1a: Yo
+|-damage|p1a: Yo|103\/463
+|
+|turn|10
+|choice|move 3|switch 2
+|
+|switch|p2a: Luma|Starmie|323\/323
+|move|p1a: Yo|Body Slam|p2a: Luma
+|-damage|p2a: Luma|256\/323
+|-status|p2a: Luma|par
+|
+|turn|11
+|choice|move 4|move 2
+|
+|move|p1a: Yo|Confuse Ray|p2a: Luma
+|-start|p2a: Luma|confusion
+|-activate|p2a: Luma|confusion
+|move|p2a: Luma|Thunderbolt|p1a: Yo
+|-supereffective|p1a: Yo
+|-damage|p1a: Yo|0 fnt
+|faint|p1a: Yo
+|choice|switch 4|
+|
+|switch|p1a: Shoooryuken!|Starmie|323\/323
+|turn|12
+|choice|move 3|switch 2
+|
+|switch|p2a: Kim Peek|Alakazam|313\/313 par
+|move|p1a: Shoooryuken!|Thunderbolt|p2a: Kim Peek
+|-crit|p2a: Kim Peek
+|-damage|p2a: Kim Peek|186\/313 par
+|
+|turn|13
+|choice|move 3|move 2
+|
+|move|p1a: Shoooryuken!|Thunderbolt|p2a: Kim Peek
+|-damage|p2a: Kim Peek|127\/313 par
+|move|p2a: Kim Peek|Recover|p2a: Kim Peek
+|-heal|p2a: Kim Peek|283\/313 par
+|
+|turn|14
+|choice|switch 6|move 3
+|
+|switch|p1a: I'm Annoying|Jolteon|212\/333 par
+|move|p2a: Kim Peek|Thunder Wave|p1a: I'm Annoying
+|-fail|p1a: I'm Annoying|par
+|
+|turn|15
+|choice|switch 3|move 1
+|
+|switch|p1a: ShowMeUrAss|Tauros|353\/353
+|move|p2a: Kim Peek|Psychic|p1a: ShowMeUrAss
+|-damage|p1a: ShowMeUrAss|198\/353
+|
+|turn|16
+|choice|move 3|move 1
+|
+|move|p1a: ShowMeUrAss|Hyper Beam|p2a: Kim Peek
+|-damage|p2a: Kim Peek|2\/313 par
+|move|p2a: Kim Peek|Psychic|p1a: ShowMeUrAss
+|-damage|p1a: ShowMeUrAss|47\/353
+|
+|turn|17
+|-mustrecharge|p1a: ShowMeUrAss
+|-mustrecharge|p1a: ShowMeUrAss
+|choice|move 1|move 4
+|
+|cant|p1a: ShowMeUrAss|recharge
+|cant|p2a: Kim Peek|par
+|
+|turn|18
+|choice|move 2|move 4
+|
+|move|p1a: ShowMeUrAss|Body Slam|p2a: Kim Peek
+|-damage|p2a: Kim Peek|0 fnt
+|faint|p2a: Kim Peek
+|choice||switch 5
+|
+|switch|p2a: Denver|Dragonite|385\/385
+|turn|19
+|choice|move 2|move 3
+|
+|move|p1a: ShowMeUrAss|Body Slam|p2a: Denver
+|-crit|p2a: Denver
+|-damage|p2a: Denver|192\/385
+|move|p2a: Denver|Agility|p2a: Denver
+|-boost|p2a: Denver|spe|2
+|
+|turn|20
+|choice|move 1|move 4
+|
+|move|p2a: Denver|Blizzard|p1a: ShowMeUrAss
+|-crit|p1a: ShowMeUrAss
+|-damage|p1a: ShowMeUrAss|0 fnt
+|faint|p1a: ShowMeUrAss
+|choice|switch 2|
+|
+|switch|p1a: WellIStallYourFace|Alakazam|313\/313
+|turn|21
+|choice|move 1|move 1
+|
+|move|p2a: Denver|Wrap|p1a: WellIStallYourFace
+|-damage|p1a: WellIStallYourFace|288\/313
+|-activate|p1a: WellIStallYourFace|move: Wrap|[of] p2a: Denver
+|cant|p1a: WellIStallYourFace|partiallytrapped
+|
+|turn|22
+|choice|switch 6|move 1
+|
+|switch|p1a: Shoooryuken!|Starmie|323\/323
+|move|p2a: Denver|Wrap|p1a: Shoooryuken!
+|-damage|p1a: Shoooryuken!|305\/323
+|-activate|p1a: Shoooryuken!|move: Wrap|[of] p2a: Denver
+|
+|turn|23
+|choice|switch 3|move 1
+|
+|switch|p1a: I'm Annoying|Jolteon|212\/333 par
+|move|p2a: Denver|Wrap|p1a: I'm Annoying
+|-crit|p1a: I'm Annoying
+|-damage|p1a: I'm Annoying|173\/333 par
+|-activate|p1a: I'm Annoying|move: Wrap|[of] p2a: Denver
+|
+|turn|24
+|choice|switch 6|move 1
+|
+|switch|p1a: WellIStallYourFace|Alakazam|288\/313
+|move|p2a: Denver|Wrap|p1a: WellIStallYourFace
+|-damage|p1a: WellIStallYourFace|266\/313
+|-activate|p1a: WellIStallYourFace|move: Wrap|[of] p2a: Denver
+|
+|turn|25
+|choice|switch 3|move 1
+|
+|switch|p1a: Shoooryuken!|Starmie|305\/323
+|move|p2a: Denver|Wrap|p1a: Shoooryuken!
+|-damage|p1a: Shoooryuken!|288\/323
+|-activate|p1a: Shoooryuken!|move: Wrap|[of] p2a: Denver
+|
+|turn|26
+|choice|switch 6|move 1
+|
+|switch|p1a: I'm Annoying|Jolteon|173\/333 par
+|move|p2a: Denver|Wrap|p1a: I'm Annoying
+|-crit|p1a: I'm Annoying
+|-damage|p1a: I'm Annoying|133\/333 par
+|-activate|p1a: I'm Annoying|move: Wrap|[of] p2a: Denver
+|
+|turn|27
+|choice|switch 3|move 1
+|
+|switch|p1a: WellIStallYourFace|Alakazam|266\/313
+|move|p2a: Denver|Wrap|p1a: WellIStallYourFace
+|-crit|p1a: WellIStallYourFace
+|-damage|p1a: WellIStallYourFace|218\/313
+|-activate|p1a: WellIStallYourFace|move: Wrap|[of] p2a: Denver
+|
+|turn|28
+|choice|switch 6|move 1
+|
+|switch|p1a: Shoooryuken!|Starmie|288\/323
+|move|p2a: Denver|Wrap|p1a: Shoooryuken!
+|-damage|p1a: Shoooryuken!|272\/323
+|-activate|p1a: Shoooryuken!|move: Wrap|[of] p2a: Denver
+|
+|turn|29
+|choice|switch 6|move 1
+|
+|switch|p1a: WellIStallYourFace|Alakazam|218\/313
+|move|p2a: Denver|Wrap|p1a: WellIStallYourFace|[miss]
+|-miss|p2a: Denver
+|
+|turn|30
+|choice|move 2|move 1
+|
+|move|p2a: Denver|Wrap|p1a: WellIStallYourFace
+|-damage|p1a: WellIStallYourFace|195\/313
+|-activate|p1a: WellIStallYourFace|move: Wrap|[of] p2a: Denver
+|cant|p1a: WellIStallYourFace|partiallytrapped
+|
+|turn|31
+|choice|switch 6|move 1
+|
+|switch|p1a: Shoooryuken!|Starmie|272\/323
+|move|p2a: Denver|Wrap|p1a: Shoooryuken!
+|-damage|p1a: Shoooryuken!|255\/323
+|-activate|p1a: Shoooryuken!|move: Wrap|[of] p2a: Denver
+|
+|turn|32
+|choice|switch 3|move 1
+|
+|switch|p1a: I'm Annoying|Jolteon|133\/333 par
+|move|p2a: Denver|Wrap|p1a: I'm Annoying|[miss]
+|-miss|p2a: Denver
+|
+|turn|33
+|choice|move 1|move 1
+|
+|move|p2a: Denver|Wrap|p1a: I'm Annoying
+|-damage|p1a: I'm Annoying|113\/333 par
+|-activate|p1a: I'm Annoying|move: Wrap|[of] p2a: Denver
+|cant|p1a: I'm Annoying|partiallytrapped
+|
+|turn|34
+|choice|switch 6|move 1
+|
+|switch|p1a: WellIStallYourFace|Alakazam|195\/313
+|move|p2a: Denver|Wrap|p1a: WellIStallYourFace
+|-damage|p1a: WellIStallYourFace|172\/313
+|-activate|p1a: WellIStallYourFace|move: Wrap|[of] p2a: Denver
+|
+|turn|35
+|choice|switch 3|move 1
+|
+|switch|p1a: Shoooryuken!|Starmie|255\/323
+|move|p2a: Denver|Wrap|p1a: Shoooryuken!
+|-damage|p1a: Shoooryuken!|239\/323
+|-activate|p1a: Shoooryuken!|move: Wrap|[of] p2a: Denver
+|
+|turn|36
+|choice|switch 6|move 1
+|
+|switch|p1a: I'm Annoying|Jolteon|113\/333 par
+|move|p2a: Denver|Wrap|p1a: I'm Annoying
+|-damage|p1a: I'm Annoying|92\/333 par
+|-activate|p1a: I'm Annoying|move: Wrap|[of] p2a: Denver
+|
+|turn|37
+|choice|switch 6|move 1
+|
+|switch|p1a: Shoooryuken!|Starmie|239\/323
+|move|p2a: Denver|Wrap|p1a: Shoooryuken!
+|-crit|p1a: Shoooryuken!
+|-damage|p1a: Shoooryuken!|205\/323
+|-activate|p1a: Shoooryuken!|move: Wrap|[of] p2a: Denver
+|
+|turn|38
+|choice|switch 6|move 1
+|
+|switch|p1a: I'm Annoying|Jolteon|92\/333 par
+|move|p2a: Denver|Wrap|p1a: I'm Annoying
+|-damage|p1a: I'm Annoying|70\/333 par
+|-activate|p1a: I'm Annoying|move: Wrap|[of] p2a: Denver
+|
+|turn|39
+|choice|switch 3|move 1
+|
+|switch|p1a: WellIStallYourFace|Alakazam|172\/313
+|move|p2a: Denver|Wrap|p1a: WellIStallYourFace
+|-damage|p1a: WellIStallYourFace|148\/313
+|-activate|p1a: WellIStallYourFace|move: Wrap|[of] p2a: Denver
+|
+|turn|40
+|choice|switch 6|move 1
+|
+|switch|p1a: Shoooryuken!|Starmie|205\/323
+|move|p2a: Denver|Wrap|p1a: Shoooryuken!
+|-damage|p1a: Shoooryuken!|189\/323
+|-activate|p1a: Shoooryuken!|move: Wrap|[of] p2a: Denver
+|
+|turn|41
+|choice|switch 3|move 1
+|
+|switch|p1a: I'm Annoying|Jolteon|70\/333 par
+|move|p2a: Denver|Wrap|p1a: I'm Annoying
+|-damage|p1a: I'm Annoying|49\/333 par
+|-activate|p1a: I'm Annoying|move: Wrap|[of] p2a: Denver
+|
+|turn|42
+|choice|switch 6|move 1
+|
+|switch|p1a: WellIStallYourFace|Alakazam|148\/313
+|move|p2a: Denver|Wrap|p1a: WellIStallYourFace
+|-damage|p1a: WellIStallYourFace|125\/313
+|-activate|p1a: WellIStallYourFace|move: Wrap|[of] p2a: Denver
+|
+|turn|43
+|choice|switch 6|move 1
+|
+|switch|p1a: I'm Annoying|Jolteon|49\/333 par
+|move|p2a: Denver|Wrap|p1a: I'm Annoying
+|-damage|p1a: I'm Annoying|27\/333 par
+|-activate|p1a: I'm Annoying|move: Wrap|[of] p2a: Denver
+|
+|turn|44
+|choice|switch 6|move 1
+|
+|switch|p1a: WellIStallYourFace|Alakazam|125\/313
+|move|p2a: Denver|Wrap|p1a: WellIStallYourFace
+|-crit|p1a: WellIStallYourFace
+|-damage|p1a: WellIStallYourFace|78\/313
+|-activate|p1a: WellIStallYourFace|move: Wrap|[of] p2a: Denver
+|
+|turn|45
+|choice|switch 6|move 1
+|
+|switch|p1a: I'm Annoying|Jolteon|27\/333 par
+|move|p2a: Denver|Wrap|p1a: I'm Annoying
+|-damage|p1a: I'm Annoying|6\/333 par
+|-activate|p1a: I'm Annoying|move: Wrap|[of] p2a: Denver
+|
+|turn|46
+|choice|switch 3|move 1
+|
+|switch|p1a: Shoooryuken!|Starmie|189\/323
+|move|p2a: Denver|Wrap|p1a: Shoooryuken!
+|-damage|p1a: Shoooryuken!|172\/323
+|-activate|p1a: Shoooryuken!|move: Wrap|[of] p2a: Denver
+|
+|turn|47
+|choice|switch 3|move 1
+|
+|switch|p1a: I'm Annoying|Jolteon|6\/333 par
+|move|p2a: Denver|Wrap|p1a: I'm Annoying
+|-damage|p1a: I'm Annoying|0 fnt
+|faint|p1a: I'm Annoying
+|choice|switch 6|
+|
+|switch|p1a: WellIStallYourFace|Alakazam|78\/313
+|turn|48
+|choice|move 1|move 2
+|
+|move|p2a: Denver|Hyper Beam|p1a: WellIStallYourFace
+|-damage|p1a: WellIStallYourFace|0 fnt
+|faint|p1a: WellIStallYourFace
+|c|★Peasounay|gg
+|choice|switch 3|
+|
+|switch|p1a: Shoooryuken!|Starmie|172\/323
+|turn|49
+|c|★Tendoh|ty
+|choice|move 2|move 2
+|
+|move|p2a: Denver|Hyper Beam|p1a: Shoooryuken!|[miss]
+|-miss|p2a: Denver
+|move|p1a: Shoooryuken!|Thunder Wave|p2a: Denver
+|-status|p2a: Denver|par
+|
+|turn|50
+|choice|move 4|move 2
+|
+|move|p1a: Shoooryuken!|Recover|p1a: Shoooryuken!
+|-heal|p1a: Shoooryuken!|323\/323
+|move|p2a: Denver|Hyper Beam|p1a: Shoooryuken!
+|-damage|p1a: Shoooryuken!|172\/323
+|
+|turn|51
+|-mustrecharge|p2a: Denver
+|c|★Tendoh|Or maybe not?
+|-mustrecharge|p2a: Denver
+|choice|move 4|move 1
+|
+|move|p1a: Shoooryuken!|Recover|p1a: Shoooryuken!
+|-heal|p1a: Shoooryuken!|323\/323
+|cant|p2a: Denver|recharge
+|
+|turn|52
+|choice|move 1|move 2
+|
+|move|p1a: Shoooryuken!|Psychic|p2a: Denver
+|-crit|p2a: Denver
+|-damage|p2a: Denver|2\/385 par
+|move|p2a: Denver|Hyper Beam|p1a: Shoooryuken!
+|-damage|p1a: Shoooryuken!|157\/323
+|
+|turn|53
+|-mustrecharge|p2a: Denver
+|-mustrecharge|p2a: Denver
+|c|★Peasounay|still i think
+|choice|move 4|move 1
+|
+|move|p1a: Shoooryuken!|Recover|p1a: Shoooryuken!
+|-heal|p1a: Shoooryuken!|318\/323
+|cant|p2a: Denver|recharge
+|
+|turn|54
+|choice|move 3|move 2
+|
+|move|p1a: Shoooryuken!|Thunderbolt|p2a: Denver
+|-crit|p2a: Denver
+|-damage|p2a: Denver|0 fnt
+|faint|p2a: Denver
+|choice||switch 2
+|
+|switch|p2a: Luma|Starmie|256\/323 par
+|turn|55
+|choice|move 3|move 2
+|
+|move|p1a: Shoooryuken!|Thunderbolt|p2a: Luma
+|-supereffective|p2a: Luma
+|-damage|p2a: Luma|108\/323 par
+|move|p2a: Luma|Thunderbolt|p1a: Shoooryuken!
+|-supereffective|p1a: Shoooryuken!
+|-damage|p1a: Shoooryuken!|160\/323
+|
+|turn|56
+|choice|move 3|move 2
+|
+|move|p1a: Shoooryuken!|Thunderbolt|p2a: Luma
+|-supereffective|p2a: Luma
+|-damage|p2a: Luma|0 fnt
+|faint|p2a: Luma
+|choice||switch 4
+|
+|switch|p2a: Corrida|Tauros|353\/353
+|turn|57
+|choice|move 4|move 1
+|
+|move|p1a: Shoooryuken!|Recover|p1a: Shoooryuken!
+|-heal|p1a: Shoooryuken!|321\/323
+|move|p2a: Corrida|Body Slam|p1a: Shoooryuken!
+|-damage|p1a: Shoooryuken!|210\/323
+|
+|turn|58
+|choice|move 2|move 1
+|
+|move|p1a: Shoooryuken!|Thunder Wave|p2a: Corrida
+|-status|p2a: Corrida|par
+|move|p2a: Corrida|Body Slam|p1a: Shoooryuken!
+|-damage|p1a: Shoooryuken!|96\/323
+|
+|turn|59
+|choice|move 4|move 1
+|
+|move|p1a: Shoooryuken!|Recover|p1a: Shoooryuken!
+|-heal|p1a: Shoooryuken!|257\/323
+|cant|p2a: Corrida|par
+|
+|turn|60
+|choice|move 1|move 1
+|
+|move|p1a: Shoooryuken!|Psychic|p2a: Corrida
+|-damage|p2a: Corrida|224\/353 par
+|-unboost|p2a: Corrida|spd|1
+|-unboost|p2a: Corrida|spa|1
+|move|p2a: Corrida|Body Slam|p1a: Shoooryuken!
+|-damage|p1a: Shoooryuken!|153\/323
+|
+|turn|61
+|choice|move 4|move 1
+|
+|move|p1a: Shoooryuken!|Recover|p1a: Shoooryuken!
+|-heal|p1a: Shoooryuken!|314\/323
+|move|p2a: Corrida|Body Slam|p1a: Shoooryuken!
+|-crit|p1a: Shoooryuken!
+|-damage|p1a: Shoooryuken!|115\/323
+|
+|turn|62
+|choice|move 4|move 1
+|
+|move|p1a: Shoooryuken!|Recover|p1a: Shoooryuken!
+|-heal|p1a: Shoooryuken!|276\/323
+|move|p2a: Corrida|Body Slam|p1a: Shoooryuken!
+|-damage|p1a: Shoooryuken!|172\/323
+|
+|turn|63
+|choice|move 4|move 1
+|
+|move|p1a: Shoooryuken!|Recover|p1a: Shoooryuken!
+|-heal|p1a: Shoooryuken!|323\/323
+|cant|p2a: Corrida|par
+|
+|turn|64
+|choice|move 1|move 2
+|
+|move|p1a: Shoooryuken!|Psychic|p2a: Corrida
+|-damage|p2a: Corrida|25\/353 par
+|-unboost|p2a: Corrida|spd|1
+|-unboost|p2a: Corrida|spa|1
+|cant|p2a: Corrida|par
+|
+|turn|65
+|choice|move 3|move 1
+|
+|move|p1a: Shoooryuken!|Thunderbolt|p2a: Corrida
+|-crit|p2a: Corrida
+|-damage|p2a: Corrida|0 fnt
+|faint|p2a: Corrida
+|choice||switch 3
+|
+|switch|p2a: Whorey|Chansey|163\/703 par
+|turn|66
+|choice|move 1|move 2
+|
+|move|p1a: Shoooryuken!|Psychic|p2a: Whorey
+|-damage|p2a: Whorey|64\/703 par
+|cant|p2a: Whorey|par
+|
+|turn|67
+|-message|Tendoh forfeited.
+|
+|win|Peasounay
+|leave|Tendoh
+|player|p2
+|c|★Peasounay|lol
+|raw|Peasounay's rating: 1369 &rarr; <strong>1390<\/strong><br \/>(+21 for winning)
+|raw|Tendoh's rating: 1387 &rarr; <strong>1366<\/strong><br \/>(-21 for losing)

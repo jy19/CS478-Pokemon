@@ -1,0 +1,250 @@
+﻿|join|Psychedelic Trip
+|join|zanderross
+|player|p1|Psychedelic Trip|168
+|player|p2|zanderross|1
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Mr. Mime|Mr. Mime, L85|242\/242
+|switch|p2a: Hitmonlee|Hitmonlee, L90|273\/273
+|turn|1
+|
+|move|p2a: Hitmonlee|Body Slam|p1a: Mr. Mime
+|-crit|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|58\/242
+|move|p1a: Mr. Mime|Psychic|p2a: Hitmonlee
+|-supereffective|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|0 fnt
+|faint|p2a: Hitmonlee
+|
+|switch|p2a: Jynx|Jynx, L79|265\/265
+|turn|2
+|
+|move|p1a: Mr. Mime|Thunder Wave|p2a: Jynx
+|-status|p2a: Jynx|par
+|cant|p2a: Jynx|par
+|
+|turn|3
+|
+|switch|p2a: Lickitung|Lickitung, L90|345\/345
+|move|p1a: Mr. Mime|Seismic Toss|p2a: Lickitung
+|-damage|p2a: Lickitung|260\/345
+|
+|turn|4
+|
+|move|p1a: Mr. Mime|Psychic|p2a: Lickitung
+|-damage|p2a: Lickitung|135\/345
+|move|p2a: Lickitung|Earthquake|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|0 fnt
+|faint|p1a: Mr. Mime
+|
+|switch|p1a: Poliwrath|Poliwrath, L85|327\/327
+|turn|5
+|
+|move|p1a: Poliwrath|Amnesia|p1a: Poliwrath
+|-boost|p1a: Poliwrath|spd|2
+|-boost|p1a: Poliwrath|spa|2
+|move|p2a: Lickitung|Hyper Beam|p1a: Poliwrath
+|-damage|p1a: Poliwrath|210\/327
+|
+|turn|6
+|-mustrecharge|p2a: Lickitung
+|-mustrecharge|p2a: Lickitung
+|
+|move|p1a: Poliwrath|Amnesia|p1a: Poliwrath
+|-boost|p1a: Poliwrath|spd|2
+|-boost|p1a: Poliwrath|spa|2
+|cant|p2a: Lickitung|recharge
+|
+|turn|7
+|
+|switch|p2a: Pidgeot|Pidgeot, L90|333\/333
+|move|p1a: Poliwrath|Surf|p2a: Pidgeot
+|-damage|p2a: Pidgeot|68\/333
+|
+|turn|8
+|
+|move|p2a: Pidgeot|Mirror Move|p2a: Pidgeot
+|move|p2a: Pidgeot|Surf|p1a: Poliwrath|[from]Mirror Move
+|-resisted|p1a: Poliwrath
+|-damage|p1a: Poliwrath|198\/327
+|move|p1a: Poliwrath|Surf|p2a: Pidgeot
+|-damage|p2a: Pidgeot|0 fnt
+|faint|p2a: Pidgeot
+|
+|switch|p2a: Nidorina|Nidorina, L90|309\/309
+|turn|9
+|
+|move|p1a: Poliwrath|Hypnosis|p2a: Nidorina|[miss]
+|-miss|p1a: Poliwrath
+|move|p2a: Nidorina|Bubble Beam|p1a: Poliwrath
+|-resisted|p1a: Poliwrath
+|-damage|p1a: Poliwrath|192\/327
+|
+|turn|10
+|
+|move|p1a: Poliwrath|Surf|p2a: Nidorina
+|-damage|p2a: Nidorina|9\/309
+|move|p2a: Nidorina|Bubble Beam|p1a: Poliwrath
+|-resisted|p1a: Poliwrath
+|-damage|p1a: Poliwrath|185\/327
+|
+|turn|11
+|
+|switch|p2a: Jynx|Jynx, L79|265\/265 par
+|move|p1a: Poliwrath|Amnesia|p1a: Poliwrath
+|-boost|p1a: Poliwrath|spd|2
+|-boost|p1a: Poliwrath|spa|2
+|
+|turn|12
+|
+|switch|p2a: Vaporeon|Vaporeon, L85|395\/395
+|move|p1a: Poliwrath|Surf|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|250\/395
+|
+|turn|13
+|
+|move|p1a: Poliwrath|Hypnosis|p2a: Vaporeon|[miss]
+|-miss|p1a: Poliwrath
+|move|p2a: Vaporeon|Surf|p1a: Poliwrath
+|-resisted|p1a: Poliwrath
+|-damage|p1a: Poliwrath|169\/327
+|
+|turn|14
+|
+|move|p1a: Poliwrath|Surf|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|94\/395
+|move|p2a: Vaporeon|Rest|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp
+|-heal|p2a: Vaporeon|395\/395 slp|[silent]
+|-status|p2a: Vaporeon|slp|[from] move: Rest
+|
+|turn|15
+|
+|move|p1a: Poliwrath|Surf|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|245\/395 slp
+|cant|p2a: Vaporeon|slp
+|
+|turn|16
+|
+|move|p1a: Poliwrath|Surf|p2a: Vaporeon
+|-crit|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|180\/395 slp
+|-curestatus|p2a: Vaporeon|slp
+|
+|turn|17
+|
+|move|p1a: Poliwrath|Hypnosis|p2a: Vaporeon|[miss]
+|-miss|p1a: Poliwrath
+|move|p2a: Vaporeon|Mimic|p1a: Poliwrath
+|-start|p2a: Vaporeon|Mimic|Amnesia
+|
+|turn|18
+|
+|move|p1a: Poliwrath|Hypnosis|p2a: Vaporeon|[miss]
+|-miss|p1a: Poliwrath
+|move|p2a: Vaporeon|Blizzard|p1a: Poliwrath
+|-resisted|p1a: Poliwrath
+|-damage|p1a: Poliwrath|156\/327
+|
+|turn|19
+|
+|move|p1a: Poliwrath|Surf|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|33\/395
+|move|p2a: Vaporeon|Rest|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp
+|-heal|p2a: Vaporeon|395\/395 slp|[silent]
+|-status|p2a: Vaporeon|slp|[from] move: Rest
+|
+|turn|20
+|
+|move|p1a: Poliwrath|Surf|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|245\/395 slp
+|cant|p2a: Vaporeon|slp
+|
+|turn|21
+|
+|move|p1a: Poliwrath|Surf|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|90\/395 slp
+|-curestatus|p2a: Vaporeon|slp
+|
+|turn|22
+|
+|switch|p2a: Jynx|Jynx, L79|265\/265 par
+|move|p1a: Poliwrath|Surf|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|
+|switch|p2a: Nidorina|Nidorina, L90|9\/309
+|turn|23
+|
+|move|p1a: Poliwrath|Surf|p2a: Nidorina
+|-damage|p2a: Nidorina|0 fnt
+|faint|p2a: Nidorina
+|
+|switch|p2a: Lickitung|Lickitung, L90|135\/345
+|turn|24
+|
+|switch|p2a: Vaporeon|Vaporeon, L85|90\/395
+|move|p1a: Poliwrath|Surf|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|faint|p2a: Vaporeon
+|
+|switch|p2a: Lickitung|Lickitung, L90|135\/345
+|turn|25
+|
+|move|p1a: Poliwrath|Hypnosis|p2a: Lickitung|[miss]
+|-miss|p1a: Poliwrath
+|move|p2a: Lickitung|Swords Dance|p2a: Lickitung
+|-boost|p2a: Lickitung|atk|2
+|
+|turn|26
+|
+|move|p1a: Poliwrath|Amnesia|p1a: Poliwrath
+|-boost|p1a: Poliwrath|spd|2
+|-boost|p1a: Poliwrath|spa|2
+|move|p2a: Lickitung|Earthquake|p1a: Poliwrath
+|-crit|p1a: Poliwrath
+|-damage|p1a: Poliwrath|54\/327
+|
+|turn|27
+|
+|move|p1a: Poliwrath|Amnesia|p1a: Poliwrath
+|-boost|p1a: Poliwrath|spd|2
+|-boost|p1a: Poliwrath|spa|2
+|move|p2a: Lickitung|Earthquake|p1a: Poliwrath
+|-damage|p1a: Poliwrath|0 fnt
+|faint|p1a: Poliwrath
+|
+|switch|p1a: Chansey|Chansey, L79|557\/557
+|turn|28
+|
+|move|p1a: Chansey|Ice Beam|p2a: Lickitung
+|-damage|p2a: Lickitung|56\/345
+|move|p2a: Lickitung|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|183\/557
+|
+|turn|29
+|
+|move|p1a: Chansey|Ice Beam|p2a: Lickitung
+|-damage|p2a: Lickitung|0 fnt
+|faint|p2a: Lickitung
+|
+|win|Psychedelic Trip
+|raw|Ladder updating...
+|raw|Psychedelic Trip's rating: 1248 &rarr; <strong>1258<\/strong><br \/>(+10 for winning)
+|raw|zanderross's rating: 1000 &rarr; <strong>1000<\/strong><br \/>(+0 for losing)

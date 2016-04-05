@@ -1,0 +1,289 @@
+﻿|join|riwu
+|join|daijack
+|player|p1|riwu|102
+|player|p2|daijack|266
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|35241,34953,18109,14534
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Seaking|Seaking, L90|327\/327
+|switch|p2a: Venusaur|Venusaur, L85|310\/310
+|turn|1
+|choice|move 4|move 3
+|
+|move|p2a: Venusaur|Leech Seed|p1a: Seaking
+|-start|p1a: Seaking|move: Leech Seed
+|move|p1a: Seaking|Blizzard|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|153\/310
+|-damage|p1a: Seaking|307\/327|[from] Leech Seed|[of] p2a: Venusaur
+|-heal|p2a: Venusaur|173\/310|[silent]
+|
+|turn|2
+|choice|switch 4|move 2
+|
+|switch|p1a: Golbat|Golbat, L90|318\/318
+|move|p2a: Venusaur|Razor Leaf|p1a: Golbat
+|-crit|p1a: Golbat
+|-resisted|p1a: Golbat
+|-damage|p1a: Golbat|290\/318
+|
+|turn|3
+|choice|move 1|switch 4
+|
+|switch|p2a: Blastoise|Blastoise, L85|308\/308
+|move|p1a: Golbat|Confuse Ray|p2a: Blastoise
+|-start|p2a: Blastoise|confusion
+|
+|turn|4
+|choice|switch 6|switch 5
+|
+|switch|p1a: Snorlax|Snorlax, L79|415\/415
+|switch|p2a: Machoke|Machoke, L85|310\/310
+|
+|turn|5
+|choice|move 4|move 1
+|
+|move|p2a: Machoke|Leer|p1a: Snorlax
+|-unboost|p1a: Snorlax|def|1
+|move|p1a: Snorlax|Body Slam|p2a: Machoke
+|-damage|p2a: Machoke|220\/310
+|-status|p2a: Machoke|par
+|
+|turn|6
+|choice|switch 6|move 4
+|
+|switch|p1a: Golbat|Golbat, L90|290\/318
+|cant|p2a: Machoke|par
+|
+|turn|7
+|choice|move 1|move 2
+|
+|move|p1a: Golbat|Confuse Ray|p2a: Machoke
+|-start|p2a: Machoke|confusion
+|-activate|p2a: Machoke|confusion
+|move|p2a: Machoke|Rock Slide|p1a: Golbat
+|-supereffective|p1a: Golbat
+|-damage|p1a: Golbat|169\/318
+|
+|turn|8
+|choice|move 2|switch 5
+|
+|switch|p2a: Blastoise|Blastoise, L85|308\/308
+|move|p1a: Golbat|Double-Edge|p2a: Blastoise
+|-damage|p2a: Blastoise|248\/308
+|-damage|p1a: Golbat|154\/318|[from] recoil|[of] p2a: Blastoise
+|
+|turn|9
+|choice|switch 6|move 3
+|
+|switch|p1a: Snorlax|Snorlax, L79|415\/415
+|move|p2a: Blastoise|Blizzard|p1a: Snorlax
+|-damage|p1a: Snorlax|315\/415
+|-status|p1a: Snorlax|frz
+|
+|turn|10
+|choice|switch 4|switch 5
+|
+|switch|p2a: Machoke|Machoke, L85|220\/310 par
+|switch|p1a: Seaking|Seaking, L90|307\/327
+|
+|turn|11
+|choice|move 1|move 4
+|
+|move|p1a: Seaking|Surf|p2a: Machoke
+|-damage|p2a: Machoke|88\/310 par
+|move|p2a: Machoke|Mega Kick|p1a: Seaking|[miss]
+|-miss|p2a: Machoke
+|
+|turn|12
+|choice|move 1|move 4
+|
+|move|p1a: Seaking|Surf|p2a: Machoke
+|-damage|p2a: Machoke|0 fnt
+|faint|p2a: Machoke
+|choice||switch 2
+|
+|switch|p2a: Mew|Mew, L74|300\/300
+|turn|13
+|choice|move 4|move 3
+|
+|move|p2a: Mew|Thunderbolt|p1a: Seaking
+|-supereffective|p1a: Seaking
+|-damage|p1a: Seaking|191\/327
+|move|p1a: Seaking|Blizzard|p2a: Mew
+|-damage|p2a: Mew|211\/300
+|
+|turn|14
+|choice|move 1|move 2
+|
+|move|p2a: Mew|Psychic|p1a: Seaking
+|-damage|p1a: Seaking|120\/327
+|move|p1a: Seaking|Surf|p2a: Mew
+|-damage|p2a: Mew|111\/300
+|
+|turn|15
+|choice|move 2|switch 4
+|
+|switch|p2a: Venusaur|Venusaur, L85|173\/310
+|move|p1a: Seaking|Hyper Beam|p2a: Venusaur
+|-damage|p2a: Venusaur|52\/310
+|
+|turn|16
+|-mustrecharge|p1a: Seaking
+|-mustrecharge|p1a: Seaking
+|choice|move 1|move 2
+|
+|move|p2a: Venusaur|Razor Leaf|p1a: Seaking
+|-crit|p1a: Seaking
+|-supereffective|p1a: Seaking
+|-damage|p1a: Seaking|0 fnt
+|faint|p1a: Seaking
+|choice|switch 5|
+|
+|switch|p1a: Tauros|Tauros, L79|280\/280
+|turn|17
+|choice|move 2|switch 4
+|
+|switch|p2a: Mew|Mew, L74|111\/300
+|move|p1a: Tauros|Body Slam|p2a: Mew
+|-damage|p2a: Mew|34\/300
+|-status|p2a: Mew|par
+|
+|turn|18
+|choice|move 2|move 1
+|
+|move|p1a: Tauros|Body Slam|p2a: Mew
+|-crit|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|choice||switch 5
+|
+|switch|p2a: Blastoise|Blastoise, L85|248\/308
+|turn|19
+|choice|move 2|move 4
+|
+|move|p1a: Tauros|Body Slam|p2a: Blastoise
+|-damage|p2a: Blastoise|178\/308
+|move|p2a: Blastoise|Surf|p1a: Tauros
+|-damage|p1a: Tauros|160\/280
+|
+|turn|20
+|choice|move 2|move 4
+|
+|move|p1a: Tauros|Body Slam|p2a: Blastoise
+|-damage|p2a: Blastoise|103\/308
+|-status|p2a: Blastoise|par
+|move|p2a: Blastoise|Surf|p1a: Tauros
+|-damage|p1a: Tauros|50\/280
+|
+|turn|21
+|choice|move 4|move 4
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|choice||switch 3
+|
+|switch|p2a: Magmar|Magmar, L90|300\/300
+|turn|22
+|choice|switch 4|move 2
+|
+|switch|p1a: Snorlax|Snorlax, L79|315\/415 frz
+|move|p2a: Magmar|Fire Blast|p1a: Snorlax
+|-damage|p1a: Snorlax|135\/415 frz
+|-curestatus|p1a: Snorlax|frz
+|
+|turn|23
+|choice|move 2|move 2
+|
+|move|p2a: Magmar|Fire Blast|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|choice|switch 3|
+|
+|switch|p1a: Diglett|Diglett, L96|214\/214
+|turn|24
+|choice|move 1|switch 6
+|
+|switch|p2a: Seaking|Seaking, L90|327\/327
+|move|p1a: Diglett|Earthquake|p2a: Seaking
+|-damage|p2a: Seaking|224\/327
+|
+|turn|25
+|choice|switch 2|move 3
+|
+|switch|p1a: Nidoran-F|Nidoran-F, L96|300\/300
+|move|p2a: Seaking|Blizzard|p1a: Nidoran-F|[miss]
+|-miss|p2a: Seaking
+|
+|turn|26
+|choice|move 4|move 4
+|
+|move|p2a: Seaking|Surf|p1a: Nidoran-F
+|-damage|p1a: Nidoran-F|173\/300
+|move|p1a: Nidoran-F|Body Slam|p2a: Seaking
+|-damage|p2a: Seaking|166\/327
+|
+|turn|27
+|choice|move 4|move 1
+|
+|move|p2a: Seaking|Hyper Beam|p1a: Nidoran-F
+|-damage|p1a: Nidoran-F|34\/300
+|move|p1a: Nidoran-F|Body Slam|p2a: Seaking
+|-damage|p2a: Seaking|108\/327
+|
+|turn|28
+|-mustrecharge|p2a: Seaking
+|-mustrecharge|p2a: Seaking
+|choice|move 4|move 1
+|
+|cant|p2a: Seaking|recharge
+|move|p1a: Nidoran-F|Body Slam|p2a: Seaking
+|-damage|p2a: Seaking|46\/327
+|
+|turn|29
+|choice|move 4|move 4
+|
+|move|p2a: Seaking|Surf|p1a: Nidoran-F
+|-damage|p1a: Nidoran-F|0 fnt
+|faint|p1a: Nidoran-F
+|choice|switch 2|
+|
+|switch|p1a: Diglett|Diglett, L96|214\/214
+|turn|30
+|choice|move 1|move 4
+|
+|move|p1a: Diglett|Earthquake|p2a: Seaking
+|-damage|p2a: Seaking|0 fnt
+|faint|p2a: Seaking
+|choice||switch 4
+|
+|switch|p2a: Venusaur|Venusaur, L85|52\/310
+|turn|31
+|choice|move 1|move 2
+|
+|move|p1a: Diglett|Earthquake|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|faint|p2a: Venusaur
+|choice||switch 6
+|
+|switch|p2a: Magmar|Magmar, L90|300\/300
+|turn|32
+|choice|move 1|move 1
+|
+|move|p1a: Diglett|Earthquake|p2a: Magmar
+|-crit|p2a: Magmar
+|-supereffective|p2a: Magmar
+|-damage|p2a: Magmar|0 fnt
+|faint|p2a: Magmar
+|
+|win|riwu
+|raw|riwu's rating: 1414 &rarr; <strong>1424<\/strong><br \/>(+10 for winning)
+|raw|daijack's rating: 1222 &rarr; <strong>1209<\/strong><br \/>(-13 for losing)

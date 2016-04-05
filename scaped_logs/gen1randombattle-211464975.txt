@@ -1,0 +1,158 @@
+﻿|join|Merlin Engine
+|join|Pijaman
+|player|p1|Merlin Engine|165
+|player|p2|Pijaman|53
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Nidorino|Nidorino, L92|299\/299
+|switch|p2a: Rapidash|Rapidash, L86|287\/287
+|turn|1
+|
+|move|p2a: Rapidash|Fire Blast|p1a: Nidorino
+|-damage|p1a: Nidorino|160\/299
+|move|p1a: Nidorino|Bubble Beam|p2a: Rapidash
+|-supereffective|p2a: Rapidash
+|-damage|p2a: Rapidash|202\/287
+|
+|turn|2
+|
+|move|p2a: Rapidash|Body Slam|p1a: Nidorino
+|-damage|p1a: Nidorino|89\/299
+|move|p1a: Nidorino|Rest|p1a: Nidorino
+|-status|p1a: Nidorino|slp
+|-heal|p1a: Nidorino|299\/299 slp|[silent]
+|-status|p1a: Nidorino|slp|[from] move: Rest
+|
+|turn|3
+|
+|switch|p1a: Gyarados|Gyarados, L86|339\/339
+|move|p2a: Rapidash|Fire Blast|p1a: Gyarados
+|-crit|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|233\/339
+|-status|p1a: Gyarados|brn
+|
+|turn|4
+|c|★Merlin Engine|crit that shit
+|
+|move|p2a: Rapidash|Body Slam|p1a: Gyarados
+|-damage|p1a: Gyarados|166\/339 brn
+|move|p1a: Gyarados|Surf|p2a: Rapidash
+|-supereffective|p2a: Rapidash
+|-damage|p2a: Rapidash|0 fnt
+|faint|p2a: Rapidash
+|
+|switch|p2a: Kakuna|Kakuna, L99|290\/290
+|turn|5
+|
+|switch|p1a: Nidorino|Nidorino, L92|299\/299 slp
+|move|p2a: Kakuna|Harden|p2a: Kakuna
+|-boost|p2a: Kakuna|def|1
+|
+|turn|6
+|c|★Merlin Engine|lel horden
+|
+|cant|p1a: Nidorino|slp
+|move|p2a: Kakuna|Harden|p2a: Kakuna
+|-boost|p2a: Kakuna|def|1
+|
+|turn|7
+|
+|cant|p1a: Nidorino|slp
+|-curestatus|p1a: Nidorino|slp
+|move|p2a: Kakuna|String Shot|p1a: Nidorino
+|-unboost|p1a: Nidorino|spe|1
+|
+|turn|8
+|
+|move|p2a: Kakuna|Poison Sting|p1a: Nidorino
+|-resisted|p1a: Nidorino
+|-damage|p1a: Nidorino|292\/299
+|move|p1a: Nidorino|Blizzard|p2a: Kakuna
+|-crit|p2a: Kakuna
+|-damage|p2a: Kakuna|54\/290
+|-status|p2a: Kakuna|frz
+|
+|turn|9
+|
+|switch|p1a: Poliwhirl|Poliwhirl, L86|287\/287
+|cant|p2a: Kakuna|frz
+|
+|turn|10
+|
+|move|p1a: Poliwhirl|Amnesia|p1a: Poliwhirl
+|-boost|p1a: Poliwhirl|spd|2
+|-boost|p1a: Poliwhirl|spa|2
+|cant|p2a: Kakuna|frz
+|
+|turn|11
+|
+|move|p1a: Poliwhirl|Amnesia|p1a: Poliwhirl
+|-boost|p1a: Poliwhirl|spd|2
+|-boost|p1a: Poliwhirl|spa|2
+|cant|p2a: Kakuna|frz
+|
+|turn|12
+|
+|move|p1a: Poliwhirl|Amnesia|p1a: Poliwhirl
+|-boost|p1a: Poliwhirl|spd|2
+|-boost|p1a: Poliwhirl|spa|2
+|cant|p2a: Kakuna|frz
+|
+|turn|13
+|
+|move|p1a: Poliwhirl|Psychic|p2a: Kakuna
+|-supereffective|p2a: Kakuna
+|-damage|p2a: Kakuna|0 fnt
+|faint|p2a: Kakuna
+|
+|switch|p2a: Parasect|Parasect, L86|279\/279
+|turn|14
+|
+|move|p1a: Poliwhirl|Blizzard|p2a: Parasect
+|-supereffective|p2a: Parasect
+|-damage|p2a: Parasect|0 fnt
+|faint|p2a: Parasect
+|
+|switch|p2a: Tangela|Tangela, L86|287\/287
+|turn|15
+|
+|move|p1a: Poliwhirl|Blizzard|p2a: Tangela
+|-supereffective|p2a: Tangela
+|-damage|p2a: Tangela|0 fnt
+|faint|p2a: Tangela
+|
+|switch|p2a: Blastoise|Blastoise, L86|311\/311
+|turn|16
+|
+|move|p1a: Poliwhirl|Psychic|p2a: Blastoise
+|-damage|p2a: Blastoise|125\/311
+|move|p2a: Blastoise|Hyper Beam|p1a: Poliwhirl
+|-damage|p1a: Poliwhirl|167\/287
+|
+|turn|17
+|
+|move|p1a: Poliwhirl|Psychic|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|
+|switch|p2a: Krabby|Krabby, L95|250\/250
+|turn|18
+|
+|move|p1a: Poliwhirl|Psychic|p2a: Krabby
+|-damage|p2a: Krabby|0 fnt
+|faint|p2a: Krabby
+|
+|win|Merlin Engine
+|raw|Ladder updating...
+|raw|Merlin Engine's rating: 1258 &rarr; <strong>1274<\/strong><br \/>(+16 for winning)
+|raw|Pijaman's rating: 1122 &rarr; <strong>1106<\/strong><br \/>(-16 for losing)
+|leave|Pijaman
+|player|p2

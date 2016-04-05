@@ -1,0 +1,2256 @@
+﻿|join|Peasounay
+|join|Ortheore
+|player|p1|Peasounay|80
+|player|p2|Ortheore|1
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Ubers
+|seed|16005,25825,61409,46190
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: ZamIsHiding|Hypno|373\/373
+|switch|p2a: Hypno|Hypno|373\/373
+|turn|1
+|c|★Peasounay|gl hf :)
+|c|★Ortheore|you too
+|choice|move 1|move 4
+|
+|move|p1a: ZamIsHiding|Hypnosis|p2a: Hypno
+|-status|p2a: Hypno|slp
+|cant|p2a: Hypno|slp
+|
+|turn|2
+|choice|move 3|move 3
+|
+|move|p1a: ZamIsHiding|Thunder Wave|p2a: Hypno
+|-fail|p2a: Hypno
+|cant|p2a: Hypno|slp
+|
+|turn|3
+|choice|move 2|switch 5
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: ZamIsHiding|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|340\/393
+|-unboost|p2a: Exeggutor|spd|1
+|-unboost|p2a: Exeggutor|spa|1
+|
+|turn|4
+|choice|move 3|move 1
+|
+|move|p1a: ZamIsHiding|Thunder Wave|p2a: Exeggutor
+|-status|p2a: Exeggutor|par
+|move|p2a: Exeggutor|Sleep Powder|p1a: ZamIsHiding|[miss]
+|-miss|p2a: Exeggutor
+|
+|turn|5
+|choice|move 2|move 1
+|
+|move|p1a: ZamIsHiding|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|262\/393 par
+|-unboost|p2a: Exeggutor|spd|1
+|-unboost|p2a: Exeggutor|spa|1
+|move|p2a: Exeggutor|Sleep Powder|p1a: ZamIsHiding
+|-status|p1a: ZamIsHiding|slp
+|
+|turn|6
+|choice|move 2|switch 2
+|
+|switch|p2a: Kingler|Kingler|313\/313
+|cant|p1a: ZamIsHiding|slp
+|
+|turn|7
+|choice|switch 4|move 2
+|
+|switch|p1a: JolteonIsHiding|Electrode|323\/323
+|move|p2a: Kingler|Body Slam|p1a: JolteonIsHiding
+|-damage|p1a: JolteonIsHiding|221\/323
+|-status|p1a: JolteonIsHiding|par
+|
+|turn|8
+|choice|move 1|switch 5
+|
+|switch|p2a: Hypno|Hypno|373\/373 slp
+|cant|p1a: JolteonIsHiding|par
+|
+|turn|9
+|choice|move 2|move 3
+|
+|cant|p2a: Hypno|slp
+|move|p1a: JolteonIsHiding|Thunderbolt|p2a: Hypno
+|-damage|p2a: Hypno|292\/373 slp
+|
+|turn|10
+|choice|move 2|move 3
+|
+|cant|p2a: Hypno|slp
+|move|p1a: JolteonIsHiding|Thunderbolt|p2a: Hypno
+|-damage|p2a: Hypno|204\/373 slp
+|
+|turn|11
+|choice|move 2|move 3
+|
+|cant|p2a: Hypno|slp
+|move|p1a: JolteonIsHiding|Thunderbolt|p2a: Hypno
+|-damage|p2a: Hypno|114\/373 slp
+|
+|turn|12
+|choice|move 2|move 3
+|
+|-curestatus|p2a: Hypno|slp
+|move|p1a: JolteonIsHiding|Thunderbolt|p2a: Hypno
+|-damage|p2a: Hypno|19\/373
+|
+|turn|13
+|choice|move 2|move 1
+|
+|move|p2a: Hypno|Rest|p2a: Hypno
+|-status|p2a: Hypno|slp
+|-heal|p2a: Hypno|373\/373 slp|[silent]
+|-status|p2a: Hypno|slp|[from] move: Rest
+|move|p1a: JolteonIsHiding|Thunderbolt|p2a: Hypno
+|-crit|p2a: Hypno
+|-damage|p2a: Hypno|191\/373 slp
+|
+|turn|14
+|choice|move 2|move 3
+|
+|cant|p2a: Hypno|slp
+|move|p1a: JolteonIsHiding|Thunderbolt|p2a: Hypno
+|-damage|p2a: Hypno|101\/373 slp
+|
+|turn|15
+|choice|move 2|move 3
+|
+|-curestatus|p2a: Hypno|slp
+|move|p1a: JolteonIsHiding|Thunderbolt|p2a: Hypno
+|-damage|p2a: Hypno|11\/373
+|
+|turn|16
+|choice|move 2|move 1
+|
+|move|p2a: Hypno|Rest|p2a: Hypno
+|-status|p2a: Hypno|slp
+|-heal|p2a: Hypno|373\/373 slp|[silent]
+|-status|p2a: Hypno|slp|[from] move: Rest
+|cant|p1a: JolteonIsHiding|par
+|
+|turn|17
+|choice|move 2|move 3
+|
+|cant|p2a: Hypno|slp
+|move|p1a: JolteonIsHiding|Thunderbolt|p2a: Hypno
+|-damage|p2a: Hypno|284\/373 slp
+|
+|turn|18
+|choice|move 2|move 3
+|
+|-curestatus|p2a: Hypno|slp
+|move|p1a: JolteonIsHiding|Thunderbolt|p2a: Hypno
+|-damage|p2a: Hypno|192\/373
+|
+|turn|19
+|choice|move 2|move 3
+|
+|move|p2a: Hypno|Psychic|p1a: JolteonIsHiding
+|-damage|p1a: JolteonIsHiding|80\/323 par
+|move|p1a: JolteonIsHiding|Thunderbolt|p2a: Hypno
+|-crit|p2a: Hypno
+|-damage|p2a: Hypno|11\/373
+|
+|turn|20
+|choice|move 4|move 1
+|
+|move|p2a: Hypno|Rest|p2a: Hypno
+|-status|p2a: Hypno|slp
+|-heal|p2a: Hypno|373\/373 slp|[silent]
+|-status|p2a: Hypno|slp|[from] move: Rest
+|move|p1a: JolteonIsHiding|Explosion|p2a: Hypno
+|-damage|p2a: Hypno|149\/373 slp
+|faint|p1a: JolteonIsHiding
+|choice|switch 5|
+|
+|switch|p1a: Nice2meetUeggy|Victreebel|363\/363
+|turn|21
+|choice|move 4|switch 2
+|
+|switch|p2a: Exeggutor|Exeggutor|262\/393 par
+|move|p1a: Nice2meetUeggy|Stun Spore|p2a: Exeggutor
+|-fail|p2a: Exeggutor|par
+|
+|turn|22
+|choice|move 2|move 4
+|
+|move|p1a: Nice2meetUeggy|Wrap|p2a: Exeggutor
+|-damage|p2a: Exeggutor|248\/393 par
+|-activate|p2a: Exeggutor|move: Wrap|[of] p1a: Nice2meetUeggy
+|cant|p2a: Exeggutor|par
+|
+|turn|23
+|choice|move 2|switch 6
+|
+|switch|p2a: Mewtwo|Mewtwo|415\/415
+|move|p1a: Nice2meetUeggy|Wrap|p2a: Mewtwo|[miss]
+|-miss|p1a: Nice2meetUeggy
+|
+|turn|24
+|choice|switch 2|switch 4
+|
+|switch|p2a: Vaporeon|Vaporeon|463\/463
+|switch|p1a: Smogon Analysis|Mewtwo|415\/415
+|
+|turn|25
+|choice|move 1|move 1
+|
+|move|p1a: Smogon Analysis|Amnesia|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|spd|2
+|-boost|p1a: Smogon Analysis|spa|2
+|move|p2a: Vaporeon|Ice Beam|p1a: Smogon Analysis
+|-damage|p1a: Smogon Analysis|387\/415
+|
+|turn|26
+|choice|move 3|move 1
+|
+|move|p1a: Smogon Analysis|Ice Beam|p2a: Vaporeon
+|-crit|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|369\/463
+|move|p2a: Vaporeon|Ice Beam|p1a: Smogon Analysis
+|-damage|p1a: Smogon Analysis|355\/415
+|
+|turn|27
+|choice|switch 4|move 1
+|
+|switch|p1a: ZamIsHiding|Hypno|373\/373 slp
+|move|p2a: Vaporeon|Ice Beam|p1a: ZamIsHiding
+|-damage|p1a: ZamIsHiding|300\/373 slp
+|
+|turn|28
+|choice|move 3|switch 5
+|
+|switch|p2a: Kingler|Kingler|313\/313
+|cant|p1a: ZamIsHiding|slp
+|
+|turn|29
+|choice|switch 3|move 4
+|
+|switch|p1a: Oops Wrong Format|Exeggutor|393\/393
+|move|p2a: Kingler|Swords Dance|p2a: Kingler
+|-boost|p2a: Kingler|atk|2
+|
+|turn|30
+|choice|move 3|switch 4
+|
+|switch|p2a: Mewtwo|Mewtwo|415\/415
+|move|p1a: Oops Wrong Format|Stun Spore|p2a: Mewtwo
+|-status|p2a: Mewtwo|par
+|
+|turn|31
+|choice|switch 3|switch 6
+|
+|switch|p1a: ZamIsHiding|Hypno|300\/373 slp
+|switch|p2a: Exeggutor|Exeggutor|248\/393 par
+|
+|turn|32
+|choice|move 2|switch 4
+|
+|switch|p2a: Kingler|Kingler|313\/313
+|-curestatus|p1a: ZamIsHiding|slp
+|
+|turn|33
+|choice|switch 2|switch 2
+|
+|switch|p2a: Hypno|Hypno|149\/373 slp
+|switch|p1a: Nice2meetUeggy|Victreebel|363\/363
+|
+|turn|34
+|choice|move 4|move 3
+|
+|move|p1a: Nice2meetUeggy|Stun Spore|p2a: Hypno
+|-fail|p2a: Hypno
+|cant|p2a: Hypno|slp
+|
+|turn|35
+|choice|move 3|switch 4
+|
+|switch|p2a: Exeggutor|Exeggutor|248\/393 par
+|move|p1a: Nice2meetUeggy|Razor Leaf|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|199\/393 par
+|
+|turn|36
+|choice|move 2|move 4
+|
+|move|p1a: Nice2meetUeggy|Wrap|p2a: Exeggutor
+|-damage|p2a: Exeggutor|184\/393 par
+|-activate|p2a: Exeggutor|move: Wrap|[of] p1a: Nice2meetUeggy
+|cant|p2a: Exeggutor|par
+|
+|turn|37
+|choice|move 2|switch 6
+|
+|switch|p2a: Mewtwo|Mewtwo|415\/415 par
+|move|p1a: Nice2meetUeggy|Wrap|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|388\/415 par
+|-activate|p2a: Mewtwo|move: Wrap|[of] p1a: Nice2meetUeggy
+|
+|turn|38
+|choice|move 2|switch 6
+|
+|switch|p2a: Exeggutor|Exeggutor|184\/393 par
+|move|p1a: Nice2meetUeggy|Wrap|p2a: Exeggutor
+|-damage|p2a: Exeggutor|170\/393 par
+|-activate|p2a: Exeggutor|move: Wrap|[of] p1a: Nice2meetUeggy
+|
+|turn|39
+|choice|move 2|switch 6
+|
+|switch|p2a: Mewtwo|Mewtwo|388\/415 par
+|move|p1a: Nice2meetUeggy|Wrap|p2a: Mewtwo
+|-damage|p2a: Mewtwo|375\/415 par
+|-activate|p2a: Mewtwo|move: Wrap|[of] p1a: Nice2meetUeggy
+|
+|turn|40
+|choice|move 2|move 3
+|
+|move|p1a: Nice2meetUeggy|Wrap|p2a: Mewtwo
+|-damage|p2a: Mewtwo|362\/415 par
+|cant|p2a: Mewtwo|par
+|
+|turn|41
+|choice|move 2|move 2
+|
+|move|p1a: Nice2meetUeggy|Wrap|p2a: Mewtwo
+|-damage|p2a: Mewtwo|349\/415 par
+|cant|p2a: Mewtwo|par
+|
+|turn|42
+|choice|move 2|move 3
+|
+|move|p1a: Nice2meetUeggy|Wrap|p2a: Mewtwo
+|-damage|p2a: Mewtwo|336\/415 par
+|cant|p2a: Mewtwo|par
+|
+|-end|p2a: Mewtwo|Wrap|[partiallytrapped]
+|turn|43
+|choice|move 2|move 3
+|
+|move|p1a: Nice2meetUeggy|Wrap|p2a: Mewtwo
+|-damage|p2a: Mewtwo|321\/415 par
+|-activate|p2a: Mewtwo|move: Wrap|[of] p1a: Nice2meetUeggy
+|cant|p2a: Mewtwo|par
+|
+|turn|44
+|choice|move 2|move 3
+|
+|move|p1a: Nice2meetUeggy|Wrap|p2a: Mewtwo
+|-damage|p2a: Mewtwo|306\/415 par
+|cant|p2a: Mewtwo|partiallytrapped
+|
+|turn|45
+|choice|move 2|move 3
+|
+|move|p1a: Nice2meetUeggy|Wrap|p2a: Mewtwo
+|-damage|p2a: Mewtwo|291\/415 par
+|cant|p2a: Mewtwo|par
+|
+|-end|p2a: Mewtwo|Wrap|[partiallytrapped]
+|turn|46
+|choice|move 2|move 3
+|
+|move|p1a: Nice2meetUeggy|Wrap|p2a: Mewtwo
+|-damage|p2a: Mewtwo|276\/415 par
+|-activate|p2a: Mewtwo|move: Wrap|[of] p1a: Nice2meetUeggy
+|cant|p2a: Mewtwo|partiallytrapped
+|
+|turn|47
+|choice|move 2|move 3
+|
+|move|p1a: Nice2meetUeggy|Wrap|p2a: Mewtwo
+|-damage|p2a: Mewtwo|261\/415 par
+|cant|p2a: Mewtwo|partiallytrapped
+|
+|turn|48
+|choice|move 2|move 3
+|
+|move|p1a: Nice2meetUeggy|Wrap|p2a: Mewtwo
+|-damage|p2a: Mewtwo|246\/415 par
+|cant|p2a: Mewtwo|partiallytrapped
+|
+|-end|p2a: Mewtwo|Wrap|[partiallytrapped]
+|turn|49
+|choice|move 2|move 3
+|
+|move|p1a: Nice2meetUeggy|Wrap|p2a: Mewtwo
+|-damage|p2a: Mewtwo|231\/415 par
+|-activate|p2a: Mewtwo|move: Wrap|[of] p1a: Nice2meetUeggy
+|cant|p2a: Mewtwo|partiallytrapped
+|
+|turn|50
+|choice|move 2|move 3
+|
+|move|p1a: Nice2meetUeggy|Wrap|p2a: Mewtwo
+|-damage|p2a: Mewtwo|216\/415 par
+|cant|p2a: Mewtwo|par
+|
+|turn|51
+|choice|move 2|move 4
+|
+|move|p1a: Nice2meetUeggy|Wrap|p2a: Mewtwo
+|-damage|p2a: Mewtwo|201\/415 par
+|cant|p2a: Mewtwo|partiallytrapped
+|
+|turn|52
+|choice|move 2|move 4
+|
+|move|p1a: Nice2meetUeggy|Wrap|p2a: Mewtwo
+|-damage|p2a: Mewtwo|186\/415 par
+|cant|p2a: Mewtwo|par
+|
+|turn|53
+|choice|move 2|move 4
+|
+|move|p1a: Nice2meetUeggy|Wrap|p2a: Mewtwo
+|-damage|p2a: Mewtwo|171\/415 par
+|cant|p2a: Mewtwo|partiallytrapped
+|
+|-end|p2a: Mewtwo|Wrap|[partiallytrapped]
+|turn|54
+|choice|move 2|move 4
+|
+|move|p1a: Nice2meetUeggy|Wrap|p2a: Mewtwo
+|-damage|p2a: Mewtwo|157\/415 par
+|-activate|p2a: Mewtwo|move: Wrap|[of] p1a: Nice2meetUeggy
+|cant|p2a: Mewtwo|partiallytrapped
+|
+|turn|55
+|choice|move 2|move 4
+|
+|move|p1a: Nice2meetUeggy|Wrap|p2a: Mewtwo
+|-damage|p2a: Mewtwo|143\/415 par
+|cant|p2a: Mewtwo|par
+|
+|turn|56
+|choice|move 2|move 4
+|
+|move|p1a: Nice2meetUeggy|Wrap|p2a: Mewtwo
+|-damage|p2a: Mewtwo|129\/415 par
+|cant|p2a: Mewtwo|partiallytrapped
+|
+|-end|p2a: Mewtwo|Wrap|[partiallytrapped]
+|turn|57
+|choice|move 2|move 4
+|
+|move|p1a: Nice2meetUeggy|Wrap|p2a: Mewtwo
+|-damage|p2a: Mewtwo|116\/415 par
+|-activate|p2a: Mewtwo|move: Wrap|[of] p1a: Nice2meetUeggy
+|cant|p2a: Mewtwo|par
+|
+|turn|58
+|choice|move 2|switch 6
+|
+|switch|p2a: Exeggutor|Exeggutor|170\/393 par
+|move|p1a: Nice2meetUeggy|Wrap|p2a: Exeggutor
+|-damage|p2a: Exeggutor|154\/393 par
+|-activate|p2a: Exeggutor|move: Wrap|[of] p1a: Nice2meetUeggy
+|
+|turn|59
+|choice|move 2|move 4
+|
+|move|p1a: Nice2meetUeggy|Wrap|p2a: Exeggutor
+|-damage|p2a: Exeggutor|138\/393 par
+|cant|p2a: Exeggutor|par
+|
+|turn|60
+|choice|move 2|move 4
+|
+|move|p1a: Nice2meetUeggy|Wrap|p2a: Exeggutor
+|-damage|p2a: Exeggutor|122\/393 par
+|cant|p2a: Exeggutor|par
+|
+|turn|61
+|choice|move 2|move 4
+|
+|move|p1a: Nice2meetUeggy|Wrap|p2a: Exeggutor
+|-damage|p2a: Exeggutor|106\/393 par
+|cant|p2a: Exeggutor|partiallytrapped
+|
+|-end|p2a: Exeggutor|Wrap|[partiallytrapped]
+|turn|62
+|choice|move 2|move 4
+|
+|move|p1a: Nice2meetUeggy|Wrap|p2a: Exeggutor
+|-damage|p2a: Exeggutor|91\/393 par
+|-activate|p2a: Exeggutor|move: Wrap|[of] p1a: Nice2meetUeggy
+|cant|p2a: Exeggutor|partiallytrapped
+|
+|turn|63
+|choice|move 2|move 4
+|
+|move|p1a: Nice2meetUeggy|Wrap|p2a: Exeggutor
+|-damage|p2a: Exeggutor|76\/393 par
+|cant|p2a: Exeggutor|par
+|
+|turn|64
+|choice|move 2|move 4
+|
+|move|p1a: Nice2meetUeggy|Wrap|p2a: Exeggutor
+|-damage|p2a: Exeggutor|61\/393 par
+|cant|p2a: Exeggutor|partiallytrapped
+|
+|-end|p2a: Exeggutor|Wrap|[partiallytrapped]
+|turn|65
+|choice|move 2|move 4
+|
+|move|p1a: Nice2meetUeggy|Wrap|p2a: Exeggutor
+|-damage|p2a: Exeggutor|47\/393 par
+|-activate|p2a: Exeggutor|move: Wrap|[of] p1a: Nice2meetUeggy
+|cant|p2a: Exeggutor|partiallytrapped
+|
+|turn|66
+|choice|move 2|move 2
+|
+|move|p1a: Nice2meetUeggy|Wrap|p2a: Exeggutor
+|-damage|p2a: Exeggutor|33\/393 par
+|cant|p2a: Exeggutor|partiallytrapped
+|
+|turn|67
+|choice|move 2|move 2
+|
+|move|p1a: Nice2meetUeggy|Wrap|p2a: Exeggutor
+|-damage|p2a: Exeggutor|19\/393 par
+|cant|p2a: Exeggutor|par
+|
+|turn|68
+|choice|move 2|move 2
+|
+|move|p1a: Nice2meetUeggy|Wrap|p2a: Exeggutor
+|-damage|p2a: Exeggutor|5\/393 par
+|cant|p2a: Exeggutor|par
+|
+|turn|69
+|choice|move 2|move 2
+|
+|move|p1a: Nice2meetUeggy|Wrap|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|choice||switch 3
+|
+|switch|p2a: Victreebel|Victreebel|363\/363
+|turn|70
+|choice|move 4|move 1
+|
+|move|p2a: Victreebel|Stun Spore|p1a: Nice2meetUeggy
+|-status|p1a: Nice2meetUeggy|par
+|move|p1a: Nice2meetUeggy|Stun Spore|p2a: Victreebel
+|-status|p2a: Victreebel|par
+|
+|turn|71
+|choice|move 2|move 2
+|
+|move|p1a: Nice2meetUeggy|Wrap|p2a: Victreebel
+|-crit|p2a: Victreebel
+|-damage|p2a: Victreebel|334\/363 par
+|-activate|p2a: Victreebel|move: Wrap|[of] p1a: Nice2meetUeggy
+|cant|p2a: Victreebel|partiallytrapped
+|
+|turn|72
+|choice|move 2|move 2
+|
+|move|p1a: Nice2meetUeggy|Wrap|p2a: Victreebel
+|-damage|p2a: Victreebel|305\/363 par
+|cant|p2a: Victreebel|partiallytrapped
+|
+|turn|73
+|choice|move 2|move 2
+|
+|move|p1a: Nice2meetUeggy|Wrap|p2a: Victreebel
+|-damage|p2a: Victreebel|276\/363 par
+|cant|p2a: Victreebel|par
+|
+|-end|p2a: Victreebel|Wrap|[partiallytrapped]
+|turn|74
+|choice|move 2|move 2
+|
+|move|p1a: Nice2meetUeggy|Wrap|p2a: Victreebel
+|-damage|p2a: Victreebel|258\/363 par
+|-activate|p2a: Victreebel|move: Wrap|[of] p1a: Nice2meetUeggy
+|cant|p2a: Victreebel|partiallytrapped
+|
+|turn|75
+|choice|move 2|move 2
+|
+|cant|p2a: Victreebel|par
+|cant|p1a: Nice2meetUeggy|par
+|
+|-end|p2a: Victreebel|Wrap|[partiallytrapped]
+|turn|76
+|choice|switch 6|move 2
+|
+|switch|p1a: LaxIsHiding|Lickitung|383\/383
+|move|p2a: Victreebel|Wrap|p1a: LaxIsHiding
+|-crit|p1a: LaxIsHiding
+|-damage|p1a: LaxIsHiding|354\/383
+|-activate|p1a: LaxIsHiding|move: Wrap|[of] p2a: Victreebel
+|
+|turn|77
+|choice|move 2|move 2
+|
+|cant|p1a: LaxIsHiding|partiallytrapped
+|cant|p2a: Victreebel|par
+|
+|-end|p1a: LaxIsHiding|Wrap|[partiallytrapped]
+|turn|78
+|choice|move 2|move 1
+|
+|move|p1a: LaxIsHiding|Wrap|p2a: Victreebel
+|-damage|p2a: Victreebel|242\/363 par
+|-activate|p2a: Victreebel|move: Wrap|[of] p1a: LaxIsHiding
+|cant|p2a: Victreebel|partiallytrapped
+|
+|turn|79
+|choice|move 2|switch 2
+|
+|switch|p2a: Kingler|Kingler|313\/313
+|move|p1a: LaxIsHiding|Wrap|p2a: Kingler
+|-damage|p2a: Kingler|300\/313
+|-activate|p2a: Kingler|move: Wrap|[of] p1a: LaxIsHiding
+|
+|turn|80
+|choice|switch 3|move 4
+|
+|switch|p1a: Oops Wrong Format|Exeggutor|393\/393
+|cant|p2a: Kingler|partiallytrapped
+|
+|-end|p2a: Kingler|Wrap|[partiallytrapped]
+|turn|81
+|choice|move 2|switch 4
+|
+|switch|p2a: Hypno|Hypno|149\/373 slp
+|move|p1a: Oops Wrong Format|Psychic|p2a: Hypno
+|-resisted|p2a: Hypno
+|-damage|p2a: Hypno|94\/373 slp
+|
+|turn|82
+|choice|move 2|move 1
+|
+|-curestatus|p2a: Hypno|slp
+|move|p1a: Oops Wrong Format|Psychic|p2a: Hypno
+|-resisted|p2a: Hypno
+|-damage|p2a: Hypno|35\/373
+|
+|turn|83
+|choice|move 2|move 1
+|
+|move|p2a: Hypno|Rest|p2a: Hypno
+|-status|p2a: Hypno|slp
+|-heal|p2a: Hypno|373\/373 slp|[silent]
+|-status|p2a: Hypno|slp|[from] move: Rest
+|move|p1a: Oops Wrong Format|Psychic|p2a: Hypno
+|-resisted|p2a: Hypno
+|-damage|p2a: Hypno|318\/373 slp
+|-unboost|p2a: Hypno|spd|1
+|-unboost|p2a: Hypno|spa|1
+|
+|turn|84
+|choice|move 2|move 3
+|
+|cant|p2a: Hypno|slp
+|move|p1a: Oops Wrong Format|Psychic|p2a: Hypno
+|-resisted|p2a: Hypno
+|-damage|p2a: Hypno|232\/373 slp
+|
+|turn|85
+|choice|move 3|move 2
+|
+|-curestatus|p2a: Hypno|slp
+|move|p1a: Oops Wrong Format|Stun Spore|p2a: Hypno
+|-status|p2a: Hypno|par
+|
+|turn|86
+|join|Noratraika
+|choice|switch 6|move 2
+|
+|switch|p1a: Nice2meetUeggy|Victreebel|363\/363 par
+|move|p2a: Hypno|Thunder Wave|p1a: Nice2meetUeggy
+|-fail|p1a: Nice2meetUeggy|par
+|
+|turn|87
+|choice|move 2|move 3
+|
+|cant|p1a: Nice2meetUeggy|par
+|cant|p2a: Hypno|par
+|
+|turn|88
+|choice|move 2|move 3
+|
+|move|p1a: Nice2meetUeggy|Wrap|p2a: Hypno
+|-damage|p2a: Hypno|215\/373 par
+|-activate|p2a: Hypno|move: Wrap|[of] p1a: Nice2meetUeggy
+|cant|p2a: Hypno|par
+|
+|turn|89
+|choice|move 2|move 3
+|
+|cant|p1a: Nice2meetUeggy|par
+|cant|p2a: Hypno|partiallytrapped
+|
+|-end|p2a: Hypno|Wrap|[partiallytrapped]
+|turn|90
+|choice|move 2|move 3
+|
+|move|p1a: Nice2meetUeggy|Wrap|p2a: Hypno
+|-damage|p2a: Hypno|199\/373 par
+|-activate|p2a: Hypno|move: Wrap|[of] p1a: Nice2meetUeggy
+|cant|p2a: Hypno|partiallytrapped
+|
+|turn|91
+|choice|move 2|switch 2
+|
+|switch|p2a: Victreebel|Victreebel|242\/363 par
+|move|p1a: Nice2meetUeggy|Wrap|p2a: Victreebel
+|-damage|p2a: Victreebel|226\/363 par
+|-activate|p2a: Victreebel|move: Wrap|[of] p1a: Nice2meetUeggy
+|
+|turn|92
+|choice|move 2|move 2
+|
+|cant|p1a: Nice2meetUeggy|par
+|cant|p2a: Victreebel|partiallytrapped
+|
+|-end|p2a: Victreebel|Wrap|[partiallytrapped]
+|turn|93
+|choice|move 2|move 2
+|
+|cant|p1a: Nice2meetUeggy|par
+|move|p2a: Victreebel|Wrap|p1a: Nice2meetUeggy|[miss]
+|-miss|p2a: Victreebel
+|
+|turn|94
+|choice|move 2|move 2
+|
+|cant|p1a: Nice2meetUeggy|par
+|move|p2a: Victreebel|Wrap|p1a: Nice2meetUeggy|[miss]
+|-miss|p2a: Victreebel
+|
+|turn|95
+|choice|move 2|move 2
+|
+|cant|p1a: Nice2meetUeggy|par
+|move|p2a: Victreebel|Wrap|p1a: Nice2meetUeggy
+|-damage|p1a: Nice2meetUeggy|347\/363 par
+|-activate|p1a: Nice2meetUeggy|move: Wrap|[of] p2a: Victreebel
+|
+|turn|96
+|choice|switch 6|switch 6
+|
+|switch|p2a: Mewtwo|Mewtwo|116\/415 par
+|switch|p1a: Oops Wrong Format|Exeggutor|393\/393
+|
+|turn|97
+|choice|move 2|move 4
+|
+|move|p1a: Oops Wrong Format|Psychic|p2a: Mewtwo
+|-resisted|p2a: Mewtwo
+|-damage|p2a: Mewtwo|71\/415 par
+|-unboost|p2a: Mewtwo|spd|1
+|-unboost|p2a: Mewtwo|spa|1
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|278\/415 par
+|
+|turn|98
+|choice|move 2|switch 2
+|
+|switch|p2a: Hypno|Hypno|199\/373 par
+|move|p1a: Oops Wrong Format|Psychic|p2a: Hypno
+|-resisted|p2a: Hypno
+|-damage|p2a: Hypno|140\/373 par
+|
+|turn|99
+|choice|switch 6|move 2
+|
+|switch|p1a: Nice2meetUeggy|Victreebel|347\/363 par
+|move|p2a: Hypno|Thunder Wave|p1a: Nice2meetUeggy
+|-fail|p1a: Nice2meetUeggy|par
+|
+|turn|100
+|choice|move 2|move 3
+|
+|move|p1a: Nice2meetUeggy|Wrap|p2a: Hypno|[miss]
+|-miss|p1a: Nice2meetUeggy
+|move|p2a: Hypno|Psychic|p1a: Nice2meetUeggy
+|-supereffective|p1a: Nice2meetUeggy
+|-damage|p1a: Nice2meetUeggy|94\/363 par
+|
+|turn|101
+|choice|move 2|move 3
+|
+|move|p1a: Nice2meetUeggy|Wrap|p2a: Hypno
+|-damage|p2a: Hypno|125\/373 par
+|-activate|p2a: Hypno|move: Wrap|[of] p1a: Nice2meetUeggy
+|cant|p2a: Hypno|partiallytrapped
+|
+|turn|102
+|choice|move 2|switch 2
+|
+|switch|p2a: Mewtwo|Mewtwo|278\/415 par
+|move|p1a: Nice2meetUeggy|Wrap|p2a: Mewtwo
+|-damage|p2a: Mewtwo|265\/415 par
+|-activate|p2a: Mewtwo|move: Wrap|[of] p1a: Nice2meetUeggy
+|
+|turn|103
+|choice|switch 3|move 2
+|
+|switch|p1a: LaxIsHiding|Lickitung|354\/383
+|cant|p2a: Mewtwo|partiallytrapped
+|
+|-end|p2a: Mewtwo|Wrap|[partiallytrapped]
+|turn|104
+|choice|move 2|switch 4
+|
+|switch|p2a: Kingler|Kingler|300\/313
+|move|p1a: LaxIsHiding|Wrap|p2a: Kingler
+|-damage|p2a: Kingler|289\/313
+|-activate|p2a: Kingler|move: Wrap|[of] p1a: LaxIsHiding
+|
+|turn|105
+|choice|switch 6|switch 5
+|
+|switch|p2a: Vaporeon|Vaporeon|369\/463
+|switch|p1a: Oops Wrong Format|Exeggutor|393\/393
+|
+|turn|106
+|choice|move 1|move 1
+|
+|move|p2a: Vaporeon|Ice Beam|p1a: Oops Wrong Format
+|-supereffective|p1a: Oops Wrong Format
+|-damage|p1a: Oops Wrong Format|247\/393
+|-status|p1a: Oops Wrong Format|frz
+|cant|p1a: Oops Wrong Format|frz
+|
+|turn|107
+|choice|switch 4|move 3
+|
+|switch|p1a: Smogon Analysis|Mewtwo|355\/415
+|move|p2a: Vaporeon|Surf|p1a: Smogon Analysis
+|-damage|p1a: Smogon Analysis|261\/415
+|
+|turn|108
+|choice|move 1|switch 4
+|
+|switch|p2a: Mewtwo|Mewtwo|265\/415 par
+|move|p1a: Smogon Analysis|Amnesia|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|spd|2
+|-boost|p1a: Smogon Analysis|spa|2
+|
+|turn|109
+|choice|move 1|move 1
+|
+|move|p1a: Smogon Analysis|Amnesia|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|spd|2
+|-boost|p1a: Smogon Analysis|spa|2
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|
+|turn|110
+|choice|move 1|move 1
+|
+|move|p1a: Smogon Analysis|Amnesia|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|spd|2
+|-boost|p1a: Smogon Analysis|spa|2
+|cant|p2a: Mewtwo|par
+|
+|turn|111
+|choice|move 3|move 4
+|
+|move|p1a: Smogon Analysis|Ice Beam|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|111\/415 par
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|318\/415 par
+|
+|turn|112
+|choice|move 3|move 4
+|
+|move|p1a: Smogon Analysis|Ice Beam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|231\/415 par
+|cant|p2a: Mewtwo|par
+|
+|turn|113
+|choice|move 3|move 4
+|
+|move|p1a: Smogon Analysis|Ice Beam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|143\/415 par
+|cant|p2a: Mewtwo|par
+|
+|turn|114
+|choice|move 3|move 4
+|
+|move|p1a: Smogon Analysis|Ice Beam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|46\/415 par
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|253\/415 par
+|
+|turn|115
+|choice|move 3|move 4
+|
+|move|p1a: Smogon Analysis|Ice Beam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|156\/415 par
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|363\/415 par
+|
+|turn|116
+|choice|move 3|move 1
+|
+|move|p1a: Smogon Analysis|Ice Beam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|271\/415 par
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|
+|turn|117
+|choice|move 3|move 4
+|
+|move|p1a: Smogon Analysis|Ice Beam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|202\/415 par
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|409\/415 par
+|
+|turn|118
+|choice|move 4|move 2
+|
+|move|p1a: Smogon Analysis|Recover|p1a: Smogon Analysis
+|-heal|p1a: Smogon Analysis|415\/415
+|cant|p2a: Mewtwo|par
+|
+|turn|119
+|choice|move 2|move 2
+|
+|move|p1a: Smogon Analysis|Barrier|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|def|2
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|
+|turn|120
+|c|★Peasounay|lol
+|c|★Ortheore|xp
+|choice|move 2|move 2
+|
+|move|p1a: Smogon Analysis|Barrier|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|def|2
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|
+|turn|121
+|choice|move 2|move 2
+|
+|move|p1a: Smogon Analysis|Barrier|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|def|2
+|cant|p2a: Mewtwo|par
+|
+|turn|122
+|choice|move 2|move 2
+|
+|move|p1a: Smogon Analysis|Barrier|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|def|2
+|cant|p2a: Mewtwo|par
+|
+|turn|123
+|choice|move 2|move 2
+|
+|move|p1a: Smogon Analysis|Barrier|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|def|2
+|cant|p2a: Mewtwo|par
+|
+|turn|124
+|choice|move 2|move 2
+|
+|move|p1a: Smogon Analysis|Barrier|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|def|2
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|
+|turn|125
+|choice|move 2|move 2
+|
+|move|p1a: Smogon Analysis|Barrier|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|def|2
+|cant|p2a: Mewtwo|par
+|
+|turn|126
+|choice|move 2|move 2
+|
+|move|p1a: Smogon Analysis|Barrier|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|def|2
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|
+|turn|127
+|choice|move 2|move 2
+|
+|move|p1a: Smogon Analysis|Barrier|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|def|2
+|cant|p2a: Mewtwo|par
+|
+|turn|128
+|choice|move 2|move 2
+|
+|move|p1a: Smogon Analysis|Barrier|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|def|2
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|
+|turn|129
+|choice|move 2|move 2
+|
+|move|p1a: Smogon Analysis|Barrier|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|def|2
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|
+|turn|130
+|choice|move 2|move 2
+|
+|move|p1a: Smogon Analysis|Barrier|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|def|2
+|cant|p2a: Mewtwo|par
+|
+|turn|131
+|choice|move 2|move 2
+|
+|move|p1a: Smogon Analysis|Barrier|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|def|2
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|
+|turn|132
+|choice|move 2|move 2
+|
+|move|p1a: Smogon Analysis|Barrier|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|def|2
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|
+|turn|133
+|choice|move 2|move 2
+|
+|move|p1a: Smogon Analysis|Barrier|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|def|2
+|cant|p2a: Mewtwo|par
+|
+|turn|134
+|choice|move 2|move 2
+|
+|move|p1a: Smogon Analysis|Barrier|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|def|2
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|
+|turn|135
+|choice|move 2|move 2
+|
+|move|p1a: Smogon Analysis|Barrier|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|def|2
+|cant|p2a: Mewtwo|par
+|
+|turn|136
+|choice|move 2|move 2
+|
+|move|p1a: Smogon Analysis|Barrier|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|def|2
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|
+|turn|137
+|choice|move 2|move 2
+|
+|move|p1a: Smogon Analysis|Barrier|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|def|2
+|cant|p2a: Mewtwo|par
+|
+|turn|138
+|choice|move 3|move 2
+|
+|move|p1a: Smogon Analysis|Ice Beam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|339\/415 par
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|
+|turn|139
+|choice|move 3|move 4
+|
+|move|p1a: Smogon Analysis|Ice Beam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|266\/415 par
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|415\/415 par
+|
+|turn|140
+|choice|move 2|move 2
+|
+|move|p1a: Smogon Analysis|Barrier|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|def|2
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|
+|turn|141
+|choice|move 2|move 2
+|
+|move|p1a: Smogon Analysis|Barrier|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|def|2
+|cant|p2a: Mewtwo|par
+|
+|turn|142
+|choice|move 2|move 2
+|
+|move|p1a: Smogon Analysis|Barrier|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|def|2
+|cant|p2a: Mewtwo|par
+|
+|turn|143
+|choice|move 2|move 2
+|
+|move|p1a: Smogon Analysis|Barrier|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|def|2
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|
+|turn|144
+|choice|move 2|move 2
+|
+|move|p1a: Smogon Analysis|Barrier|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|def|2
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|
+|turn|145
+|choice|move 2|move 2
+|
+|move|p1a: Smogon Analysis|Barrier|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|def|2
+|cant|p2a: Mewtwo|par
+|
+|turn|146
+|choice|move 2|move 2
+|
+|move|p1a: Smogon Analysis|Barrier|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|def|2
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|
+|turn|147
+|choice|move 2|move 2
+|
+|move|p1a: Smogon Analysis|Barrier|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|def|2
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|
+|turn|148
+|choice|move 2|move 2
+|
+|move|p1a: Smogon Analysis|Barrier|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|def|2
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|
+|turn|149
+|choice|move 2|move 2
+|
+|move|p1a: Smogon Analysis|Barrier|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|def|2
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|
+|turn|150
+|choice|move 2|move 2
+|
+|move|p1a: Smogon Analysis|Barrier|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|def|2
+|cant|p2a: Mewtwo|par
+|
+|turn|151
+|choice|move 2|move 2
+|
+|move|p1a: Smogon Analysis|Barrier|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|def|2
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|
+|turn|152
+|choice|move 2|move 2
+|
+|move|p1a: Smogon Analysis|Barrier|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|def|2
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|
+|turn|153
+|choice|move 2|move 2
+|
+|move|p1a: Smogon Analysis|Barrier|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|def|2
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|
+|turn|154
+|choice|move 2|move 2
+|
+|move|p1a: Smogon Analysis|Barrier|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|def|2
+|cant|p2a: Mewtwo|par
+|
+|turn|155
+|choice|move 2|move 2
+|
+|move|p1a: Smogon Analysis|Barrier|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|def|2
+|cant|p2a: Mewtwo|par
+|
+|turn|156
+|choice|move 2|move 2
+|
+|move|p1a: Smogon Analysis|Barrier|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|def|2
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|
+|turn|157
+|choice|move 2|move 2
+|
+|move|p1a: Smogon Analysis|Barrier|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|def|2
+|cant|p2a: Mewtwo|par
+|
+|turn|158
+|c| Noratraika|looks fun
+|choice|move 2|move 2
+|
+|move|p1a: Smogon Analysis|Barrier|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|def|2
+|cant|p2a: Mewtwo|par
+|
+|turn|159
+|choice|move 2|move 2
+|
+|move|p1a: Smogon Analysis|Barrier|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|def|2
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|
+|turn|160
+|c|★Peasounay|it is
+|choice|move 2|move 2
+|
+|move|p1a: Smogon Analysis|Barrier|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|def|2
+|cant|p2a: Mewtwo|par
+|
+|turn|161
+|choice|move 2|move 2
+|
+|move|p1a: Smogon Analysis|Barrier|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|def|2
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|
+|turn|162
+|choice|move 2|move 2
+|
+|move|p1a: Smogon Analysis|Barrier|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|def|2
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|
+|turn|163
+|choice|move 2|move 2
+|
+|move|p1a: Smogon Analysis|Barrier|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|def|2
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|
+|turn|164
+|choice|move 2|move 2
+|
+|move|p1a: Smogon Analysis|Barrier|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|def|2
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|
+|turn|165
+|c| Noratraika|The paralysed mewtwo will win the PP war
+|choice|move 2|move 2
+|
+|move|p1a: Smogon Analysis|Barrier|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|def|2
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|
+|turn|166
+|choice|move 2|move 2
+|
+|move|p1a: Smogon Analysis|Barrier|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|def|2
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|
+|turn|167
+|choice|move 2|move 2
+|
+|move|p1a: Smogon Analysis|Barrier|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|def|2
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|
+|turn|168
+|c|★Peasounay|it will
+|choice|move 2|move 2
+|
+|move|p1a: Smogon Analysis|Barrier|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|def|2
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|
+|turn|169
+|choice|move 1|move 2
+|
+|move|p1a: Smogon Analysis|Amnesia|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|spd|2
+|-boost|p1a: Smogon Analysis|spa|2
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|
+|turn|170
+|choice|move 1|move 1
+|
+|move|p1a: Smogon Analysis|Amnesia|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|spd|2
+|-boost|p1a: Smogon Analysis|spa|2
+|cant|p2a: Mewtwo|par
+|
+|turn|171
+|choice|move 1|move 1
+|
+|move|p1a: Smogon Analysis|Amnesia|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|spd|2
+|-boost|p1a: Smogon Analysis|spa|2
+|cant|p2a: Mewtwo|par
+|
+|turn|172
+|choice|move 1|move 1
+|
+|move|p1a: Smogon Analysis|Amnesia|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|spd|2
+|-boost|p1a: Smogon Analysis|spa|2
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|
+|turn|173
+|c| Noratraika|1st time PSN would be better than PAR
+|choice|move 1|move 2
+|
+|move|p1a: Smogon Analysis|Amnesia|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|spd|2
+|-boost|p1a: Smogon Analysis|spa|2
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|
+|turn|174
+|choice|move 1|move 2
+|
+|move|p1a: Smogon Analysis|Amnesia|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|spd|2
+|-boost|p1a: Smogon Analysis|spa|2
+|cant|p2a: Mewtwo|par
+|
+|turn|175
+|choice|move 1|move 2
+|
+|move|p1a: Smogon Analysis|Amnesia|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|spd|2
+|-boost|p1a: Smogon Analysis|spa|2
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|
+|turn|176
+|choice|move 1|move 2
+|
+|move|p1a: Smogon Analysis|Amnesia|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|spd|2
+|-boost|p1a: Smogon Analysis|spa|2
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|
+|turn|177
+|choice|move 1|move 2
+|
+|move|p1a: Smogon Analysis|Amnesia|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|spd|2
+|-boost|p1a: Smogon Analysis|spa|2
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|
+|turn|178
+|choice|move 1|move 2
+|
+|move|p1a: Smogon Analysis|Amnesia|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|spd|2
+|-boost|p1a: Smogon Analysis|spa|2
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|
+|turn|179
+|choice|move 1|move 2
+|
+|move|p1a: Smogon Analysis|Amnesia|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|spd|2
+|-boost|p1a: Smogon Analysis|spa|2
+|cant|p2a: Mewtwo|par
+|
+|turn|180
+|choice|move 1|move 2
+|
+|move|p1a: Smogon Analysis|Amnesia|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|spd|2
+|-boost|p1a: Smogon Analysis|spa|2
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|
+|turn|181
+|choice|move 1|move 2
+|
+|move|p1a: Smogon Analysis|Amnesia|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|spd|2
+|-boost|p1a: Smogon Analysis|spa|2
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|
+|turn|182
+|choice|move 1|move 2
+|
+|move|p1a: Smogon Analysis|Amnesia|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|spd|2
+|-boost|p1a: Smogon Analysis|spa|2
+|cant|p2a: Mewtwo|par
+|
+|turn|183
+|choice|move 1|move 2
+|
+|move|p1a: Smogon Analysis|Amnesia|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|spd|2
+|-boost|p1a: Smogon Analysis|spa|2
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|
+|turn|184
+|choice|move 1|move 2
+|
+|move|p1a: Smogon Analysis|Amnesia|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|spd|2
+|-boost|p1a: Smogon Analysis|spa|2
+|cant|p2a: Mewtwo|par
+|
+|turn|185
+|choice|move 1|move 1
+|
+|move|p1a: Smogon Analysis|Amnesia|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|spd|2
+|-boost|p1a: Smogon Analysis|spa|2
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|
+|turn|186
+|choice|move 1|move 1
+|
+|move|p1a: Smogon Analysis|Amnesia|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|spd|2
+|-boost|p1a: Smogon Analysis|spa|2
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|
+|turn|187
+|choice|move 1|move 1
+|
+|move|p1a: Smogon Analysis|Amnesia|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|spd|2
+|-boost|p1a: Smogon Analysis|spa|2
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|
+|turn|188
+|choice|move 1|move 1
+|
+|move|p1a: Smogon Analysis|Amnesia|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|spd|2
+|-boost|p1a: Smogon Analysis|spa|2
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|
+|turn|189
+|choice|move 1|move 1
+|
+|move|p1a: Smogon Analysis|Amnesia|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|spd|2
+|-boost|p1a: Smogon Analysis|spa|2
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|
+|turn|190
+|choice|move 1|move 1
+|
+|move|p1a: Smogon Analysis|Amnesia|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|spd|2
+|-boost|p1a: Smogon Analysis|spa|2
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|
+|turn|191
+|choice|move 1|move 1
+|
+|move|p1a: Smogon Analysis|Amnesia|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|spd|2
+|-boost|p1a: Smogon Analysis|spa|2
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|
+|turn|192
+|choice|move 1|move 1
+|
+|move|p1a: Smogon Analysis|Amnesia|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|spd|2
+|-boost|p1a: Smogon Analysis|spa|2
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|
+|turn|193
+|choice|move 1|move 1
+|
+|move|p1a: Smogon Analysis|Amnesia|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|spd|2
+|-boost|p1a: Smogon Analysis|spa|2
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|
+|turn|194
+|choice|move 1|move 1
+|
+|move|p1a: Smogon Analysis|Amnesia|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|spd|2
+|-boost|p1a: Smogon Analysis|spa|2
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|
+|turn|195
+|choice|move 1|move 1
+|
+|move|p1a: Smogon Analysis|Amnesia|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|spd|2
+|-boost|p1a: Smogon Analysis|spa|2
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|
+|turn|196
+|choice|move 1|move 1
+|
+|move|p1a: Smogon Analysis|Amnesia|p1a: Smogon Analysis
+|-boost|p1a: Smogon Analysis|spd|2
+|-boost|p1a: Smogon Analysis|spa|2
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|
+|turn|197
+|choice|move 4|move 1
+|
+|move|p1a: Smogon Analysis|Recover|p1a: Smogon Analysis
+|-fail|p1a: Smogon Analysis
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|
+|turn|198
+|choice|move 4|move 1
+|
+|move|p1a: Smogon Analysis|Recover|p1a: Smogon Analysis
+|-fail|p1a: Smogon Analysis
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|
+|turn|199
+|choice|move 4|move 1
+|
+|move|p1a: Smogon Analysis|Recover|p1a: Smogon Analysis
+|-fail|p1a: Smogon Analysis
+|cant|p2a: Mewtwo|par
+|
+|turn|200
+|choice|move 4|move 1
+|
+|move|p1a: Smogon Analysis|Recover|p1a: Smogon Analysis
+|-fail|p1a: Smogon Analysis
+|cant|p2a: Mewtwo|par
+|
+|turn|201
+|choice|move 4|move 1
+|
+|move|p1a: Smogon Analysis|Recover|p1a: Smogon Analysis
+|-fail|p1a: Smogon Analysis
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|
+|turn|202
+|choice|move 4|move 1
+|
+|move|p1a: Smogon Analysis|Recover|p1a: Smogon Analysis
+|-fail|p1a: Smogon Analysis
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|
+|turn|203
+|choice|move 4|move 1
+|
+|move|p1a: Smogon Analysis|Recover|p1a: Smogon Analysis
+|-fail|p1a: Smogon Analysis
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|
+|turn|204
+|choice|move 4|move 1
+|
+|move|p1a: Smogon Analysis|Recover|p1a: Smogon Analysis
+|-fail|p1a: Smogon Analysis
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|
+|turn|205
+|choice|move 4|move 1
+|
+|move|p1a: Smogon Analysis|Recover|p1a: Smogon Analysis
+|-fail|p1a: Smogon Analysis
+|cant|p2a: Mewtwo|par
+|
+|turn|206
+|choice|move 4|move 1
+|
+|move|p1a: Smogon Analysis|Recover|p1a: Smogon Analysis
+|-fail|p1a: Smogon Analysis
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|
+|turn|207
+|choice|move 4|move 1
+|
+|move|p1a: Smogon Analysis|Recover|p1a: Smogon Analysis
+|-fail|p1a: Smogon Analysis
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|
+|turn|208
+|choice|move 4|move 1
+|
+|move|p1a: Smogon Analysis|Recover|p1a: Smogon Analysis
+|-fail|p1a: Smogon Analysis
+|move|p2a: Mewtwo|Amnesia|p2a: Mewtwo
+|-boost|p2a: Mewtwo|spd|2
+|-boost|p2a: Mewtwo|spa|2
+|
+|turn|209
+|choice|move 4|move 4
+|
+|move|p1a: Smogon Analysis|Recover|p1a: Smogon Analysis
+|-fail|p1a: Smogon Analysis
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-fail|p2a: Mewtwo
+|
+|turn|210
+|choice|move 4|move 4
+|
+|move|p1a: Smogon Analysis|Recover|p1a: Smogon Analysis
+|-fail|p1a: Smogon Analysis
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-fail|p2a: Mewtwo
+|
+|turn|211
+|choice|move 4|move 4
+|
+|move|p1a: Smogon Analysis|Recover|p1a: Smogon Analysis
+|-fail|p1a: Smogon Analysis
+|cant|p2a: Mewtwo|par
+|
+|turn|212
+|choice|move 3|move 4
+|
+|move|p1a: Smogon Analysis|Ice Beam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|337\/415 par
+|cant|p2a: Mewtwo|par
+|
+|turn|213
+|choice|move 3|move 4
+|
+|move|p1a: Smogon Analysis|Ice Beam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|257\/415 par
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|415\/415 par
+|
+|turn|214
+|choice|move 3|move 4
+|
+|move|p1a: Smogon Analysis|Ice Beam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|338\/415 par
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|415\/415 par
+|
+|turn|215
+|choice|move 3|move 4
+|
+|move|p1a: Smogon Analysis|Ice Beam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|339\/415 par
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|415\/415 par
+|
+|turn|216
+|choice|move 4|move 4
+|
+|move|p1a: Smogon Analysis|Recover|p1a: Smogon Analysis
+|-fail|p1a: Smogon Analysis
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-fail|p2a: Mewtwo
+|
+|turn|217
+|choice|move 4|move 4
+|
+|move|p1a: Smogon Analysis|Recover|p1a: Smogon Analysis
+|-fail|p1a: Smogon Analysis
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-fail|p2a: Mewtwo
+|
+|turn|218
+|choice|move 4|move 4
+|
+|move|p1a: Smogon Analysis|Recover|p1a: Smogon Analysis
+|-fail|p1a: Smogon Analysis
+|cant|p2a: Mewtwo|par
+|
+|turn|219
+|choice|move 4|move 4
+|
+|move|p1a: Smogon Analysis|Recover|p1a: Smogon Analysis
+|-fail|p1a: Smogon Analysis
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-fail|p2a: Mewtwo
+|
+|turn|220
+|choice|move 4|move 4
+|
+|move|p1a: Smogon Analysis|Recover|p1a: Smogon Analysis
+|-fail|p1a: Smogon Analysis
+|cant|p2a: Mewtwo|par
+|
+|turn|221
+|choice|move 4|move 4
+|
+|move|p1a: Smogon Analysis|Recover|p1a: Smogon Analysis
+|-fail|p1a: Smogon Analysis
+|cant|p2a: Mewtwo|par
+|
+|turn|222
+|choice|move 4|move 4
+|
+|move|p1a: Smogon Analysis|Recover|p1a: Smogon Analysis
+|-fail|p1a: Smogon Analysis
+|cant|p2a: Mewtwo|par
+|
+|turn|223
+|choice|move 4|move 4
+|
+|move|p1a: Smogon Analysis|Recover|p1a: Smogon Analysis
+|-fail|p1a: Smogon Analysis
+|cant|p2a: Mewtwo|par
+|
+|turn|224
+|choice|move 4|move 4
+|
+|move|p1a: Smogon Analysis|Recover|p1a: Smogon Analysis
+|-fail|p1a: Smogon Analysis
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-fail|p2a: Mewtwo
+|
+|turn|225
+|choice|move 4|move 4
+|
+|move|p1a: Smogon Analysis|Recover|p1a: Smogon Analysis
+|-fail|p1a: Smogon Analysis
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-fail|p2a: Mewtwo
+|
+|turn|226
+|choice|move 4|move 2
+|
+|move|p1a: Smogon Analysis|Recover|p1a: Smogon Analysis
+|-fail|p1a: Smogon Analysis
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|
+|turn|227
+|choice|move 4|move 2
+|
+|move|p1a: Smogon Analysis|Recover|p1a: Smogon Analysis
+|-fail|p1a: Smogon Analysis
+|cant|p2a: Mewtwo|par
+|
+|turn|228
+|choice|move 4|move 2
+|
+|move|p1a: Smogon Analysis|Recover|p1a: Smogon Analysis
+|-fail|p1a: Smogon Analysis
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|
+|turn|229
+|choice|move 4|move 4
+|
+|move|p1a: Smogon Analysis|Recover|p1a: Smogon Analysis
+|-fail|p1a: Smogon Analysis
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-fail|p2a: Mewtwo
+|
+|turn|230
+|choice|move 4|move 4
+|
+|move|p1a: Smogon Analysis|Recover|p1a: Smogon Analysis
+|-fail|p1a: Smogon Analysis
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-fail|p2a: Mewtwo
+|
+|turn|231
+|choice|move 4|move 4
+|
+|move|p1a: Smogon Analysis|Recover|p1a: Smogon Analysis
+|-fail|p1a: Smogon Analysis
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-fail|p2a: Mewtwo
+|
+|turn|232
+|choice|move 3|move 4
+|
+|move|p1a: Smogon Analysis|Ice Beam|p2a: Mewtwo
+|-damage|p2a: Mewtwo|339\/415 par
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|415\/415 par
+|
+|turn|233
+|choice|move 3|move 4
+|
+|move|p1a: Smogon Analysis|Ice Beam|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|273\/415 par
+|cant|p2a: Mewtwo|par
+|
+|turn|234
+|choice|move 1|move 4
+|
+|move|p1a: Smogon Analysis|Struggle|p2a: Mewtwo
+|-damage|p2a: Mewtwo|260\/415 par
+|-damage|p1a: Smogon Analysis|409\/415|[from] recoil|[of] p2a: Mewtwo
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|415\/415 par
+|
+|turn|235
+|choice|move 1|move 3
+|
+|move|p1a: Smogon Analysis|Struggle|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|334\/415 par
+|-damage|p1a: Smogon Analysis|369\/415|[from] recoil|[of] p2a: Mewtwo
+|move|p2a: Mewtwo|Psychic|p1a: Smogon Analysis
+|-resisted|p1a: Smogon Analysis
+|-damage|p1a: Smogon Analysis|320\/415
+|-unboost|p1a: Smogon Analysis|spd|1
+|-unboost|p1a: Smogon Analysis|spa|1
+|
+|turn|236
+|choice|move 1|move 3
+|
+|move|p1a: Smogon Analysis|Struggle|p2a: Mewtwo
+|-damage|p2a: Mewtwo|320\/415 par
+|-damage|p1a: Smogon Analysis|313\/415|[from] recoil|[of] p2a: Mewtwo
+|move|p2a: Mewtwo|Psychic|p1a: Smogon Analysis
+|-resisted|p1a: Smogon Analysis
+|-damage|p1a: Smogon Analysis|259\/415
+|
+|turn|237
+|choice|move 1|move 3
+|
+|move|p1a: Smogon Analysis|Struggle|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|236\/415 par
+|-damage|p1a: Smogon Analysis|217\/415|[from] recoil|[of] p2a: Mewtwo
+|move|p2a: Mewtwo|Psychic|p1a: Smogon Analysis
+|-resisted|p1a: Smogon Analysis
+|-damage|p1a: Smogon Analysis|169\/415
+|
+|turn|238
+|choice|move 1|move 4
+|
+|move|p1a: Smogon Analysis|Struggle|p2a: Mewtwo
+|-damage|p2a: Mewtwo|223\/415 par
+|-damage|p1a: Smogon Analysis|163\/415|[from] recoil|[of] p2a: Mewtwo
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|415\/415 par
+|
+|turn|239
+|choice|move 1|move 3
+|
+|move|p1a: Smogon Analysis|Struggle|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|326\/415 par
+|-damage|p1a: Smogon Analysis|119\/415|[from] recoil|[of] p2a: Mewtwo
+|move|p2a: Mewtwo|Psychic|p1a: Smogon Analysis
+|-resisted|p1a: Smogon Analysis
+|-damage|p1a: Smogon Analysis|68\/415
+|
+|turn|240
+|choice|move 1|move 3
+|
+|move|p1a: Smogon Analysis|Struggle|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|243\/415 par
+|-damage|p1a: Smogon Analysis|27\/415|[from] recoil|[of] p2a: Mewtwo
+|move|p2a: Mewtwo|Psychic|p1a: Smogon Analysis
+|-resisted|p1a: Smogon Analysis
+|-damage|p1a: Smogon Analysis|0 fnt
+|faint|p1a: Smogon Analysis
+|choice|switch 6|
+|
+|switch|p1a: LaxIsHiding|Lickitung|354\/383
+|turn|241
+|choice|move 2|move 3
+|
+|move|p1a: LaxIsHiding|Wrap|p2a: Mewtwo
+|-damage|p2a: Mewtwo|238\/415 par
+|-activate|p2a: Mewtwo|move: Wrap|[of] p1a: LaxIsHiding
+|cant|p2a: Mewtwo|partiallytrapped
+|
+|turn|242
+|choice|move 2|move 4
+|
+|move|p1a: LaxIsHiding|Wrap|p2a: Mewtwo
+|-damage|p2a: Mewtwo|233\/415 par
+|cant|p2a: Mewtwo|partiallytrapped
+|
+|-end|p2a: Mewtwo|Wrap|[partiallytrapped]
+|turn|243
+|c|★Peasounay|lol
+|choice|move 2|move 4
+|
+|move|p1a: LaxIsHiding|Wrap|p2a: Mewtwo
+|-damage|p2a: Mewtwo|228\/415 par
+|-activate|p2a: Mewtwo|move: Wrap|[of] p1a: LaxIsHiding
+|cant|p2a: Mewtwo|partiallytrapped
+|
+|turn|244
+|choice|move 2|move 4
+|
+|move|p1a: LaxIsHiding|Wrap|p2a: Mewtwo
+|-damage|p2a: Mewtwo|223\/415 par
+|cant|p2a: Mewtwo|partiallytrapped
+|
+|turn|245
+|c| Noratraika|-1 HP I guess
+|c|★Peasounay|gonna have to get really lucky here
+|choice|move 2|move 4
+|
+|move|p1a: LaxIsHiding|Wrap|p2a: Mewtwo
+|-damage|p2a: Mewtwo|218\/415 par
+|cant|p2a: Mewtwo|partiallytrapped
+|
+|-end|p2a: Mewtwo|Wrap|[partiallytrapped]
+|turn|246
+|choice|move 2|move 4
+|
+|move|p1a: LaxIsHiding|Wrap|p2a: Mewtwo
+|-damage|p2a: Mewtwo|213\/415 par
+|-activate|p2a: Mewtwo|move: Wrap|[of] p1a: LaxIsHiding
+|cant|p2a: Mewtwo|partiallytrapped
+|
+|turn|247
+|choice|move 2|move 4
+|
+|move|p1a: LaxIsHiding|Wrap|p2a: Mewtwo
+|-damage|p2a: Mewtwo|208\/415 par
+|cant|p2a: Mewtwo|partiallytrapped
+|
+|turn|248
+|choice|move 2|move 4
+|
+|move|p1a: LaxIsHiding|Wrap|p2a: Mewtwo
+|-damage|p2a: Mewtwo|203\/415 par
+|cant|p2a: Mewtwo|par
+|
+|-end|p2a: Mewtwo|Wrap|[partiallytrapped]
+|turn|249
+|c| Noratraika|Not even enough PP to kill it lol
+|choice|move 2|move 4
+|
+|move|p1a: LaxIsHiding|Wrap|p2a: Mewtwo
+|-damage|p2a: Mewtwo|198\/415 par
+|-activate|p2a: Mewtwo|move: Wrap|[of] p1a: LaxIsHiding
+|cant|p2a: Mewtwo|partiallytrapped
+|
+|turn|250
+|choice|move 2|move 4
+|
+|move|p1a: LaxIsHiding|Wrap|p2a: Mewtwo
+|-damage|p2a: Mewtwo|193\/415 par
+|cant|p2a: Mewtwo|partiallytrapped
+|
+|turn|251
+|choice|move 2|move 4
+|
+|move|p1a: LaxIsHiding|Wrap|p2a: Mewtwo
+|-damage|p2a: Mewtwo|188\/415 par
+|cant|p2a: Mewtwo|partiallytrapped
+|
+|turn|252
+|choice|move 2|move 4
+|
+|move|p1a: LaxIsHiding|Wrap|p2a: Mewtwo
+|-damage|p2a: Mewtwo|183\/415 par
+|cant|p2a: Mewtwo|par
+|
+|-end|p2a: Mewtwo|Wrap|[partiallytrapped]
+|turn|253
+|choice|move 2|move 4
+|
+|move|p1a: LaxIsHiding|Wrap|p2a: Mewtwo|[miss]
+|-miss|p1a: LaxIsHiding
+|cant|p2a: Mewtwo|par
+|
+|turn|254
+|c| Noratraika|lol
+|choice|move 2|move 4
+|
+|move|p1a: LaxIsHiding|Wrap|p2a: Mewtwo
+|-damage|p2a: Mewtwo|178\/415 par
+|-activate|p2a: Mewtwo|move: Wrap|[of] p1a: LaxIsHiding
+|cant|p2a: Mewtwo|partiallytrapped
+|
+|turn|255
+|choice|move 2|move 4
+|
+|move|p1a: LaxIsHiding|Wrap|p2a: Mewtwo
+|-damage|p2a: Mewtwo|173\/415 par
+|cant|p2a: Mewtwo|partiallytrapped
+|
+|turn|256
+|choice|move 2|move 4
+|
+|move|p1a: LaxIsHiding|Wrap|p2a: Mewtwo
+|-damage|p2a: Mewtwo|168\/415 par
+|cant|p2a: Mewtwo|par
+|
+|-end|p2a: Mewtwo|Wrap|[partiallytrapped]
+|turn|257
+|choice|move 2|move 4
+|
+|move|p1a: LaxIsHiding|Wrap|p2a: Mewtwo|[miss]
+|-miss|p1a: LaxIsHiding
+|move|p2a: Mewtwo|Recover|p2a: Mewtwo
+|-heal|p2a: Mewtwo|375\/415 par
+|
+|turn|258
+|c|★Peasounay|:(
+|choice|switch 4|move 3
+|
+|switch|p1a: Oops Wrong Format|Exeggutor|247\/393 frz
+|move|p2a: Mewtwo|Psychic|p1a: Oops Wrong Format
+|-resisted|p1a: Oops Wrong Format
+|-damage|p1a: Oops Wrong Format|99\/393 frz
+|-unboost|p1a: Oops Wrong Format|spd|1
+|-unboost|p1a: Oops Wrong Format|spa|1
+|
+|turn|259
+|choice|move 2|move 3
+|
+|cant|p1a: Oops Wrong Format|frz
+|move|p2a: Mewtwo|Psychic|p1a: Oops Wrong Format
+|-resisted|p1a: Oops Wrong Format
+|-damage|p1a: Oops Wrong Format|0 fnt
+|faint|p1a: Oops Wrong Format
+|choice|switch 4|
+|
+|switch|p1a: LaxIsHiding|Lickitung|354\/383
+|turn|260
+|choice|move 2|move 3
+|
+|move|p1a: LaxIsHiding|Wrap|p2a: Mewtwo
+|-damage|p2a: Mewtwo|370\/415 par
+|-activate|p2a: Mewtwo|move: Wrap|[of] p1a: LaxIsHiding
+|cant|p2a: Mewtwo|partiallytrapped
+|
+|turn|261
+|choice|move 2|move 3
+|
+|move|p1a: LaxIsHiding|Wrap|p2a: Mewtwo
+|-damage|p2a: Mewtwo|365\/415 par
+|cant|p2a: Mewtwo|partiallytrapped
+|
+|turn|262
+|choice|move 2|move 3
+|
+|move|p1a: LaxIsHiding|Wrap|p2a: Mewtwo
+|-damage|p2a: Mewtwo|360\/415 par
+|cant|p2a: Mewtwo|par
+|
+|-end|p2a: Mewtwo|Wrap|[partiallytrapped]
+|turn|263
+|choice|move 2|move 3
+|
+|move|p1a: LaxIsHiding|Wrap|p2a: Mewtwo
+|-damage|p2a: Mewtwo|355\/415 par
+|-activate|p2a: Mewtwo|move: Wrap|[of] p1a: LaxIsHiding
+|cant|p2a: Mewtwo|par
+|
+|turn|264
+|choice|move 2|move 3
+|
+|move|p1a: LaxIsHiding|Wrap|p2a: Mewtwo
+|-damage|p2a: Mewtwo|350\/415 par
+|cant|p2a: Mewtwo|par
+|
+|turn|265
+|choice|move 2|move 3
+|
+|move|p1a: LaxIsHiding|Wrap|p2a: Mewtwo
+|-damage|p2a: Mewtwo|345\/415 par
+|cant|p2a: Mewtwo|partiallytrapped
+|
+|-end|p2a: Mewtwo|Wrap|[partiallytrapped]
+|turn|266
+|choice|move 2|move 3
+|
+|move|p1a: LaxIsHiding|Wrap|p2a: Mewtwo
+|-damage|p2a: Mewtwo|340\/415 par
+|-activate|p2a: Mewtwo|move: Wrap|[of] p1a: LaxIsHiding
+|cant|p2a: Mewtwo|partiallytrapped
+|
+|turn|267
+|choice|move 2|move 3
+|
+|move|p1a: LaxIsHiding|Wrap|p2a: Mewtwo
+|-damage|p2a: Mewtwo|335\/415 par
+|cant|p2a: Mewtwo|partiallytrapped
+|
+|turn|268
+|choice|move 2|move 3
+|
+|move|p1a: LaxIsHiding|Wrap|p2a: Mewtwo
+|-damage|p2a: Mewtwo|330\/415 par
+|cant|p2a: Mewtwo|partiallytrapped
+|
+|-end|p2a: Mewtwo|Wrap|[partiallytrapped]
+|turn|269
+|choice|move 2|move 3
+|
+|move|p1a: LaxIsHiding|Wrap|p2a: Mewtwo
+|-damage|p2a: Mewtwo|325\/415 par
+|-activate|p2a: Mewtwo|move: Wrap|[of] p1a: LaxIsHiding
+|cant|p2a: Mewtwo|partiallytrapped
+|
+|turn|270
+|choice|move 2|move 3
+|
+|move|p1a: LaxIsHiding|Wrap|p2a: Mewtwo
+|-damage|p2a: Mewtwo|320\/415 par
+|cant|p2a: Mewtwo|partiallytrapped
+|
+|turn|271
+|choice|move 2|move 3
+|
+|move|p1a: LaxIsHiding|Wrap|p2a: Mewtwo
+|-damage|p2a: Mewtwo|315\/415 par
+|cant|p2a: Mewtwo|partiallytrapped
+|
+|-end|p2a: Mewtwo|Wrap|[partiallytrapped]
+|turn|272
+|choice|move 2|move 3
+|
+|move|p1a: LaxIsHiding|Wrap|p2a: Mewtwo|[miss]
+|-miss|p1a: LaxIsHiding
+|move|p2a: Mewtwo|Psychic|p1a: LaxIsHiding
+|-damage|p1a: LaxIsHiding|0 fnt
+|faint|p1a: LaxIsHiding
+|choice|switch 3|
+|
+|switch|p1a: Nice2meetUeggy|Victreebel|94\/363 par
+|turn|273
+|choice|move 3|move 3
+|
+|cant|p1a: Nice2meetUeggy|par
+|move|p2a: Mewtwo|Psychic|p1a: Nice2meetUeggy
+|-crit|p1a: Nice2meetUeggy
+|-supereffective|p1a: Nice2meetUeggy
+|-damage|p1a: Nice2meetUeggy|0 fnt
+|faint|p1a: Nice2meetUeggy
+|choice|switch 2|
+|
+|switch|p1a: ZamIsHiding|Hypno|300\/373
+|turn|274
+|choice|move 2|move 3
+|
+|move|p1a: ZamIsHiding|Psychic|p2a: Mewtwo
+|-resisted|p2a: Mewtwo
+|-damage|p2a: Mewtwo|298\/415 par
+|move|p2a: Mewtwo|Psychic|p1a: ZamIsHiding
+|-resisted|p1a: ZamIsHiding
+|-damage|p1a: ZamIsHiding|128\/373
+|
+|turn|275
+|choice|move 2|move 3
+|
+|move|p1a: ZamIsHiding|Psychic|p2a: Mewtwo
+|-resisted|p2a: Mewtwo
+|-damage|p2a: Mewtwo|280\/415 par
+|move|p2a: Mewtwo|Psychic|p1a: ZamIsHiding
+|-resisted|p1a: ZamIsHiding
+|-damage|p1a: ZamIsHiding|0 fnt
+|faint|p1a: ZamIsHiding
+|
+|win|Ortheore
+|c|★Ortheore|gg
+|c|★Peasounay|gg
+|c|★Peasounay|not very spectacular
+|leave|Peasounay
+|player|p1
+|leave|Ortheore
+|player|p2

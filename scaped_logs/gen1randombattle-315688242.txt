@@ -1,0 +1,412 @@
+﻿|j|Ivanol3000
+|j|kairito
+|player|p1|Ivanol3000|290
+|player|p2|kairito|102
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|3205,50229,53303,47004
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Seaking|Seaking, L90|327\/327
+|switch|p2a: Nidoqueen|Nidoqueen, L85|327\/327
+|turn|1
+|choice|move 1|move 3
+|
+|move|p2a: Nidoqueen|Thunder|p1a: Seaking
+|-supereffective|p1a: Seaking
+|-damage|p1a: Seaking|177\/327
+|move|p1a: Seaking|Surf|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|117\/327
+|
+|turn|2
+|choice|move 1|move 2
+|
+|move|p2a: Nidoqueen|Body Slam|p1a: Seaking
+|-crit|p1a: Seaking
+|-damage|p1a: Seaking|63\/327
+|move|p1a: Seaking|Surf|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|0 fnt
+|faint|p2a: Nidoqueen
+|choice||switch 4
+|
+|switch|p2a: Gengar|Gengar, L79|257\/257
+|turn|3
+|choice|switch 2|move 2
+|
+|switch|p1a: Doduo|Doduo, L96|262\/262
+|move|p2a: Gengar|Thunderbolt|p1a: Doduo
+|-crit|p1a: Doduo
+|-supereffective|p1a: Doduo
+|-damage|p1a: Doduo|0 fnt
+|faint|p1a: Doduo
+|choice|switch 6|
+|
+|switch|p1a: Arbok|Arbok, L90|291\/291
+|turn|4
+|choice|move 1|move 3
+|
+|move|p2a: Gengar|Psychic|p1a: Arbok
+|-supereffective|p1a: Arbok
+|-damage|p1a: Arbok|127\/291
+|move|p1a: Arbok|Earthquake|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|59\/257
+|
+|turn|5
+|choice|switch 5|move 3
+|
+|switch|p1a: Arcanine|Arcanine, L85|327\/327
+|move|p2a: Gengar|Psychic|p1a: Arcanine
+|-damage|p1a: Arcanine|256\/327
+|-unboost|p1a: Arcanine|spd|1
+|-unboost|p1a: Arcanine|spa|1
+|
+|turn|6
+|choice|move 3|move 1
+|
+|move|p2a: Gengar|Hypnosis|p1a: Arcanine
+|-status|p1a: Arcanine|slp
+|cant|p1a: Arcanine|slp
+|
+|turn|7
+|choice|move 3|move 3
+|
+|move|p2a: Gengar|Psychic|p1a: Arcanine
+|-damage|p1a: Arcanine|156\/327 slp
+|cant|p1a: Arcanine|slp
+|
+|turn|8
+|choice|move 1|move 3
+|
+|move|p2a: Gengar|Psychic|p1a: Arcanine
+|-damage|p1a: Arcanine|51\/327 slp
+|cant|p1a: Arcanine|slp
+|
+|turn|9
+|choice|switch 3|move 3
+|
+|switch|p1a: Rapidash|Rapidash, L90|300\/300
+|move|p2a: Gengar|Psychic|p1a: Rapidash
+|-crit|p1a: Rapidash
+|-damage|p1a: Rapidash|157\/300
+|
+|turn|10
+|choice|move 3|move 4
+|
+|move|p1a: Rapidash|Agility|p1a: Rapidash
+|-boost|p1a: Rapidash|spe|2
+|move|p2a: Gengar|Explosion|p1a: Rapidash
+|-damage|p1a: Rapidash|0 fnt
+|faint|p1a: Rapidash
+|faint|p2a: Gengar
+|choice|switch 5|switch 5
+|
+|switch|p1a: Arbok|Arbok, L90|127\/291
+|switch|p2a: Slowbro|Slowbro, L79|312\/312
+|turn|11
+|choice|move 1|move 1
+|
+|move|p1a: Arbok|Earthquake|p2a: Slowbro
+|-damage|p2a: Slowbro|244\/312
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|12
+|choice|move 4|move 3
+|
+|move|p1a: Arbok|Rock Slide|p2a: Slowbro
+|-damage|p2a: Slowbro|193\/312
+|move|p2a: Slowbro|Surf|p1a: Arbok
+|-damage|p1a: Arbok|0 fnt
+|faint|p1a: Arbok
+|choice|switch 4|
+|
+|switch|p1a: Exeggutor|Exeggutor, L79|312\/312
+|turn|13
+|choice|move 3|move 2
+|
+|move|p1a: Exeggutor|Mega Drain|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|140\/312
+|move|p2a: Slowbro|Thunder Wave|p1a: Exeggutor
+|-status|p1a: Exeggutor|par
+|
+|turn|14
+|choice|move 1|move 1
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|move|p1a: Exeggutor|Sleep Powder|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|
+|turn|15
+|choice|move 3|move 1
+|
+|cant|p2a: Slowbro|slp
+|cant|p1a: Exeggutor|par
+|
+|turn|16
+|choice|move 3|move 1
+|
+|cant|p2a: Slowbro|slp
+|move|p1a: Exeggutor|Mega Drain|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|103\/312 slp
+|
+|turn|17
+|choice|move 3|move 1
+|
+|-curestatus|p2a: Slowbro|slp
+|cant|p1a: Exeggutor|par
+|
+|turn|18
+|choice|move 3|move 4
+|
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|-heal|p2a: Slowbro|312\/312 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|move|p1a: Exeggutor|Mega Drain|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|101\/312 slp
+|
+|turn|19
+|choice|move 3|move 4
+|
+|cant|p2a: Slowbro|slp
+|move|p1a: Exeggutor|Mega Drain|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|65\/312 slp
+|
+|turn|20
+|choice|move 3|move 4
+|
+|-curestatus|p2a: Slowbro|slp
+|move|p1a: Exeggutor|Mega Drain|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|30\/312
+|
+|turn|21
+|choice|move 1|move 4
+|
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|-heal|p2a: Slowbro|312\/312 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|cant|p1a: Exeggutor|par
+|
+|turn|22
+|choice|move 3|move 1
+|
+|cant|p2a: Slowbro|slp
+|cant|p1a: Exeggutor|par
+|
+|turn|23
+|choice|move 3|move 1
+|
+|-curestatus|p2a: Slowbro|slp
+|move|p1a: Exeggutor|Mega Drain|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|279\/312
+|
+|turn|24
+|choice|move 1|move 3
+|
+|move|p2a: Slowbro|Surf|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|221\/312 par
+|move|p1a: Exeggutor|Sleep Powder|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|
+|turn|25
+|choice|move 3|move 2
+|
+|cant|p2a: Slowbro|slp
+|move|p1a: Exeggutor|Mega Drain|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|243\/312 slp
+|-heal|p1a: Exeggutor|239\/312 par|[from] drain|[of] p2a: Slowbro
+|
+|turn|26
+|choice|move 3|move 2
+|
+|cant|p2a: Slowbro|slp
+|cant|p1a: Exeggutor|par
+|
+|turn|27
+|c|★kairito|u got to crit twice u know
+|c|★kairito|:v
+|choice|move 3|move 2
+|
+|-curestatus|p2a: Slowbro|slp
+|move|p1a: Exeggutor|Mega Drain|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|207\/312
+|-heal|p1a: Exeggutor|257\/312 par|[from] drain|[of] p2a: Slowbro
+|
+|turn|28
+|choice|move 3|move 1
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|move|p1a: Exeggutor|Mega Drain|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|180\/312
+|-heal|p1a: Exeggutor|270\/312 par|[from] drain|[of] p2a: Slowbro
+|
+|turn|29
+|choice|move 1|move 3
+|
+|move|p2a: Slowbro|Surf|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|142\/312 par
+|move|p1a: Exeggutor|Sleep Powder|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|
+|turn|30
+|choice|move 3|move 3
+|
+|cant|p2a: Slowbro|slp
+|move|p1a: Exeggutor|Mega Drain|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|153\/312 slp
+|-heal|p1a: Exeggutor|155\/312 par|[from] drain|[of] p2a: Slowbro
+|
+|turn|31
+|choice|move 3|move 3
+|
+|cant|p2a: Slowbro|slp
+|move|p1a: Exeggutor|Mega Drain|p2a: Slowbro|[miss]
+|-miss|p1a: Exeggutor
+|
+|turn|32
+|choice|move 3|move 3
+|
+|cant|p2a: Slowbro|slp
+|move|p1a: Exeggutor|Mega Drain|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|-heal|p1a: Exeggutor|231\/312 par|[from] drain|[of] p2a: Slowbro
+|faint|p2a: Slowbro
+|choice||switch 6
+|
+|switch|p2a: Lapras|Lapras, L79|367\/367
+|turn|33
+|choice|move 2|move 2
+|
+|move|p2a: Lapras|Blizzard|p1a: Exeggutor|[miss]
+|-miss|p2a: Lapras
+|cant|p1a: Exeggutor|par
+|
+|turn|34
+|choice|move 1|move 2
+|
+|move|p2a: Lapras|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|47\/312 par
+|move|p1a: Exeggutor|Sleep Powder|p2a: Lapras
+|-status|p2a: Lapras|slp
+|
+|turn|35
+|choice|move 3|switch 3
+|
+|switch|p2a: Lickitung|Lickitung, L90|345\/345
+|move|p1a: Exeggutor|Mega Drain|p2a: Lickitung
+|-crit|p2a: Lickitung
+|-damage|p2a: Lickitung|248\/345
+|-heal|p1a: Exeggutor|95\/312 par|[from] drain|[of] p2a: Lickitung
+|
+|turn|36
+|choice|move 1|move 4
+|
+|move|p2a: Lickitung|Hyper Beam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|choice|switch 3|
+|
+|switch|p1a: Arcanine|Arcanine, L85|51\/327 slp
+|turn|37
+|choice|move 2|move 4
+|
+|-curestatus|p1a: Arcanine|slp
+|move|p2a: Lickitung|Hyper Beam|p1a: Arcanine|[miss]
+|-miss|p2a: Lickitung
+|
+|turn|38
+|choice|move 4|move 4
+|
+|move|p1a: Arcanine|Fire Blast|p2a: Lickitung
+|-damage|p2a: Lickitung|109\/345
+|-status|p2a: Lickitung|brn
+|move|p2a: Lickitung|Hyper Beam|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|choice|switch 2|
+|
+|switch|p1a: Seaking|Seaking, L90|63\/327
+|turn|39
+|c|★Ivanol3000|GG
+|c|★Ivanol3000|GG
+|c|★kairito|gg
+|choice|move 3|move 4
+|
+|move|p1a: Seaking|Hyper Beam|p2a: Lickitung
+|-crit|p2a: Lickitung
+|-damage|p2a: Lickitung|0 fnt
+|faint|p2a: Lickitung
+|choice||switch 2
+|
+|switch|p2a: Sandshrew|Sandshrew, L96|291\/291
+|turn|40
+|choice|move 1|move 1
+|
+|move|p1a: Seaking|Surf|p2a: Sandshrew
+|-supereffective|p2a: Sandshrew
+|-damage|p2a: Sandshrew|0 fnt
+|faint|p2a: Sandshrew
+|choice||switch 3
+|
+|switch|p2a: Lapras|Lapras, L79|367\/367 slp
+|turn|41
+|choice|move 3|move 3
+|
+|move|p1a: Seaking|Hyper Beam|p2a: Lapras
+|-damage|p2a: Lapras|227\/367 slp
+|cant|p2a: Lapras|slp
+|
+|turn|42
+|-mustrecharge|p1a: Seaking
+|-mustrecharge|p1a: Seaking
+|choice|move 1|move 3
+|
+|cant|p1a: Seaking|recharge
+|cant|p2a: Lapras|slp
+|
+|turn|43
+|c|★kairito|sadly i have to stall u
+|choice|move 3|move 3
+|
+|move|p1a: Seaking|Hyper Beam|p2a: Lapras
+|-crit|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|
+|win|Ivanol3000
+|player|p1
+|player|p2
+|raw|Ivanol3000's rating: 1000 &rarr; <strong>1059<\/strong><br \/>(+59 for winning)
+|raw|kairito's rating: 1179 &rarr; <strong>1143<\/strong><br \/>(-36 for losing)
+|c|★kairito|nvm
+|l|kairito

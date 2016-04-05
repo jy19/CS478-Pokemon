@@ -1,0 +1,303 @@
+﻿|join|IILanceII
+|join|MALESANI
+|player|p1|IILanceII|169
+|player|p2|MALESANI|238
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|10844,32468,33471,35574
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Blastoise|Blastoise, L85|308\/308
+|switch|p2a: Nidorina|Nidorina, L90|309\/309
+|turn|1
+|choice|move 4|move 3
+|
+|move|p1a: Blastoise|Mimic|p2a: Nidorina
+|-start|p1a: Blastoise|Mimic|Leer
+|move|p2a: Nidorina|Thunderbolt|p1a: Blastoise
+|-supereffective|p1a: Blastoise
+|-damage|p1a: Blastoise|197\/308
+|
+|turn|2
+|choice|move 3|move 2
+|
+|move|p1a: Blastoise|Blizzard|p2a: Nidorina
+|-crit|p2a: Nidorina
+|-damage|p2a: Nidorina|125\/309
+|-status|p2a: Nidorina|frz
+|cant|p2a: Nidorina|frz
+|
+|turn|3
+|choice|move 3|switch 2
+|
+|switch|p2a: Voltorb|Voltorb, L96|272\/272
+|move|p1a: Blastoise|Blizzard|p2a: Voltorb
+|-damage|p2a: Voltorb|186\/272
+|
+|turn|4
+|choice|switch 2|move 2
+|
+|switch|p1a: Nidoqueen|Nidoqueen, L85|327\/327
+|move|p2a: Voltorb|Thunderbolt|p1a: Nidoqueen
+|-immune|p1a: Nidoqueen|[msg]
+|
+|turn|5
+|choice|move 1|switch 3
+|
+|switch|p2a: Tangela|Tangela, L85|284\/284
+|move|p1a: Nidoqueen|Earthquake|p2a: Tangela
+|-resisted|p2a: Tangela
+|-damage|p2a: Tangela|246\/284
+|
+|turn|6
+|choice|move 3|move 2
+|
+|move|p1a: Nidoqueen|Blizzard|p2a: Tangela
+|-supereffective|p2a: Tangela
+|-damage|p2a: Tangela|103\/284
+|move|p2a: Tangela|Mega Drain|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|279\/327
+|-heal|p2a: Tangela|127\/284|[from] drain|[of] p1a: Nidoqueen
+|
+|turn|7
+|choice|move 3|switch 2
+|
+|switch|p2a: Nidorina|Nidorina, L90|125\/309 frz
+|move|p1a: Nidoqueen|Blizzard|p2a: Nidorina
+|-damage|p2a: Nidorina|36\/309 frz
+|
+|turn|8
+|choice|move 1|move 3
+|
+|move|p1a: Nidoqueen|Earthquake|p2a: Nidorina
+|-supereffective|p2a: Nidorina
+|-damage|p2a: Nidorina|0 fnt
+|faint|p2a: Nidorina
+|choice||switch 5
+|
+|switch|p2a: Dewgong|Dewgong, L85|327\/327
+|turn|9
+|choice|move 2|move 1
+|
+|move|p1a: Nidoqueen|Thunder|p2a: Dewgong|[miss]
+|-miss|p1a: Nidoqueen
+|move|p2a: Dewgong|Blizzard|p1a: Nidoqueen
+|-supereffective|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|2\/327
+|
+|turn|10
+|choice|switch 3|move 3
+|
+|switch|p1a: Jolteon|Jolteon, L79|265\/265
+|move|p2a: Dewgong|Body Slam|p1a: Jolteon
+|-damage|p1a: Jolteon|200\/265
+|
+|turn|11
+|choice|move 2|switch 4
+|
+|switch|p2a: Exeggutor|Exeggutor, L79|312\/312
+|move|p1a: Jolteon|Thunder Wave|p2a: Exeggutor
+|-status|p2a: Exeggutor|par
+|
+|turn|12
+|choice|switch 5|move 1
+|
+|switch|p1a: Hitmonchan|Hitmonchan, L90|273\/273
+|move|p2a: Exeggutor|Sleep Powder|p1a: Hitmonchan
+|-status|p1a: Hitmonchan|slp
+|
+|turn|13
+|choice|move 3|move 4
+|
+|cant|p1a: Hitmonchan|slp
+|move|p2a: Exeggutor|Psychic|p1a: Hitmonchan
+|-supereffective|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|0 fnt
+|faint|p1a: Hitmonchan
+|choice|switch 4|
+|
+|switch|p1a: Dragonite|Dragonite, L85|328\/328
+|turn|14
+|choice|move 3|move 1
+|
+|move|p1a: Dragonite|Body Slam|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-damage|p2a: Exeggutor|160\/312 par
+|move|p2a: Exeggutor|Sleep Powder|p1a: Dragonite
+|-status|p1a: Dragonite|slp
+|
+|turn|15
+|choice|move 3|move 4
+|
+|cant|p1a: Dragonite|slp
+|move|p2a: Exeggutor|Psychic|p1a: Dragonite
+|-damage|p1a: Dragonite|235\/328 slp
+|-unboost|p1a: Dragonite|spd|1
+|-unboost|p1a: Dragonite|spa|1
+|
+|turn|16
+|choice|move 3|move 4
+|
+|-curestatus|p1a: Dragonite|slp
+|move|p2a: Exeggutor|Psychic|p1a: Dragonite
+|-damage|p1a: Dragonite|103\/328
+|
+|turn|17
+|choice|move 3|move 4
+|
+|move|p1a: Dragonite|Body Slam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|78\/312 par
+|move|p2a: Exeggutor|Psychic|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|choice|switch 6|
+|
+|switch|p1a: Lapras|Lapras, L79|367\/367
+|turn|18
+|choice|move 2|move 3
+|
+|move|p1a: Lapras|Confuse Ray|p2a: Exeggutor
+|-start|p2a: Exeggutor|confusion
+|-activate|p2a: Exeggutor|confusion
+|-damage|p2a: Exeggutor|48\/312 par|[from] confusion
+|
+|turn|19
+|choice|move 3|move 3
+|
+|move|p1a: Lapras|Body Slam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|choice||switch 2
+|
+|switch|p2a: Tangela|Tangela, L85|127\/284
+|turn|20
+|choice|move 2|move 2
+|
+|move|p2a: Tangela|Mega Drain|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|276\/367
+|-heal|p2a: Tangela|172\/284|[from] drain|[of] p1a: Lapras
+|move|p1a: Lapras|Confuse Ray|p2a: Tangela
+|-start|p2a: Tangela|confusion
+|
+|turn|21
+|choice|move 3|move 2
+|
+|-activate|p2a: Tangela|confusion
+|-damage|p2a: Tangela|152\/284|[from] confusion
+|move|p1a: Lapras|Body Slam|p2a: Tangela
+|-damage|p2a: Tangela|113\/284
+|
+|turn|22
+|choice|move 3|move 2
+|
+|-activate|p2a: Tangela|confusion
+|move|p2a: Tangela|Mega Drain|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|187\/367
+|-heal|p2a: Tangela|157\/284|[from] drain|[of] p1a: Lapras
+|move|p1a: Lapras|Body Slam|p2a: Tangela
+|-damage|p2a: Tangela|114\/284
+|
+|turn|23
+|choice|move 3|move 2
+|
+|-end|p2a: Tangela|confusion
+|move|p2a: Tangela|Mega Drain|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|97\/367
+|-heal|p2a: Tangela|159\/284|[from] drain|[of] p1a: Lapras
+|move|p1a: Lapras|Body Slam|p2a: Tangela
+|-damage|p2a: Tangela|118\/284
+|
+|turn|24
+|choice|move 4|move 2
+|
+|move|p2a: Tangela|Mega Drain|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|-heal|p2a: Tangela|166\/284|[from] drain|[of] p1a: Lapras
+|faint|p1a: Lapras
+|choice|switch 5|
+|
+|switch|p1a: Jolteon|Jolteon, L79|200\/265
+|turn|25
+|choice|move 1|move 3
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Tangela
+|-resisted|p2a: Tangela
+|-damage|p2a: Tangela|122\/284
+|-status|p2a: Tangela|par
+|move|p2a: Tangela|Body Slam|p1a: Jolteon
+|-damage|p1a: Jolteon|138\/265
+|
+|turn|26
+|choice|move 4|move 3
+|
+|move|p1a: Jolteon|Pin Missile|p2a: Tangela
+|-crit|p2a: Tangela
+|-supereffective|p2a: Tangela
+|-damage|p2a: Tangela|99\/284 par
+|-damage|p2a: Tangela|76\/284 par
+|-damage|p2a: Tangela|53\/284 par
+|-hitcount|p2a: Tangela|3
+|move|p2a: Tangela|Body Slam|p1a: Jolteon
+|-damage|p1a: Jolteon|81\/265
+|-status|p1a: Jolteon|par
+|
+|turn|27
+|choice|move 4|move 4
+|
+|cant|p1a: Jolteon|par
+|move|p2a: Tangela|Hyper Beam|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|choice|switch 3|
+|
+|switch|p1a: Nidoqueen|Nidoqueen, L85|2\/327
+|turn|28
+|choice|move 3|move 3
+|
+|move|p1a: Nidoqueen|Blizzard|p2a: Tangela|[miss]
+|-miss|p1a: Nidoqueen
+|move|p2a: Tangela|Body Slam|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|0 fnt
+|faint|p1a: Nidoqueen
+|choice|switch 2|
+|
+|switch|p1a: Blastoise|Blastoise, L85|197\/308
+|turn|29
+|choice|move 3|move 2
+|
+|move|p1a: Blastoise|Blizzard|p2a: Tangela
+|-supereffective|p2a: Tangela
+|-damage|p2a: Tangela|0 fnt
+|faint|p2a: Tangela
+|choice||switch 6
+|
+|switch|p2a: Snorlax|Snorlax, L79|415\/415
+|turn|30
+|choice|move 4|move 2
+|
+|move|p1a: Blastoise|Mimic|p2a: Snorlax
+|-start|p1a: Blastoise|Mimic|Self-Destruct
+|move|p2a: Snorlax|Ice Beam|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|174\/308
+|-status|p1a: Blastoise|frz
+|
+|turn|31
+|choice|move 4|move 3
+|
+|cant|p1a: Blastoise|frz
+|move|p2a: Snorlax|Self-Destruct|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|faint|p1a: Blastoise
+|faint|p2a: Snorlax
+|
+|win|MALESANI

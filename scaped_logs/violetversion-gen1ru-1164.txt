@@ -1,0 +1,475 @@
+﻿|J|Disaster Area
+|J|Peasounay
+|player|p1|Disaster Area|32
+|player|p2|Peasounay|80
+|gametype|singles
+|gen|1
+|tier|[Gen 1] RU
+|seed|9503,41718,21482,14177
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Ninetales|Ninetales|349\/349
+|switch|p2a: Dewgong|Dewgong|383\/383
+|turn|1
+|choice|move 4|move 1
+|
+|move|p1a: Ninetales|Fire Spin|p2a: Dewgong
+|-crit|p2a: Dewgong
+|-damage|p2a: Dewgong|347\/383
+|-activate|p2a: Dewgong|move: Fire Spin|[of] p1a: Ninetales
+|cant|p2a: Dewgong|partiallytrapped
+|
+|turn|2
+|choice|move 4|switch 5
+|
+|switch|p2a: Graveler|Graveler|313\/313
+|move|p1a: Ninetales|Fire Spin|p2a: Graveler
+|-resisted|p2a: Graveler
+|-damage|p2a: Graveler|299\/313
+|-activate|p2a: Graveler|move: Fire Spin|[of] p1a: Ninetales
+|
+|turn|3
+|choice|move 4|switch 2
+|
+|switch|p2a: Mr. Mime|Mr. Mime|283\/283
+|move|p1a: Ninetales|Fire Spin|p2a: Mr. Mime|[miss]
+|-miss|p1a: Ninetales
+|
+|turn|4
+|c|★Disaster Area|there it is.
+|choice|move 4|move 1
+|
+|move|p1a: Ninetales|Fire Spin|p2a: Mr. Mime
+|-crit|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|248\/283
+|-activate|p2a: Mr. Mime|move: Fire Spin|[of] p1a: Ninetales
+|cant|p2a: Mr. Mime|partiallytrapped
+|
+|turn|5
+|choice|move 4|switch 2
+|
+|switch|p2a: Graveler|Graveler|299\/313
+|move|p1a: Ninetales|Fire Spin|p2a: Graveler
+|-resisted|p2a: Graveler
+|-damage|p2a: Graveler|285\/313
+|-activate|p2a: Graveler|move: Fire Spin|[of] p1a: Ninetales
+|
+|turn|6
+|choice|move 4|move 2
+|
+|move|p1a: Ninetales|Fire Spin|p2a: Graveler
+|-damage|p2a: Graveler|271\/313
+|cant|p2a: Graveler|partiallytrapped
+|
+|-end|p2a: Graveler|Fire Spin|[partiallytrapped]
+|turn|7
+|choice|switch 6|switch 2
+|
+|switch|p1a: Sandslash|Sandslash|353\/353
+|switch|p2a: Mr. Mime|Mr. Mime|248\/283
+|
+|turn|8
+|J|Starmei
+|choice|move 4|move 3
+|
+|move|p2a: Mr. Mime|Psychic|p1a: Sandslash
+|-crit|p1a: Sandslash
+|-damage|p1a: Sandslash|38\/353
+|move|p1a: Sandslash|Body Slam|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|167\/283
+|-status|p2a: Mr. Mime|par
+|
+|turn|9
+|choice|move 1|switch 6
+|
+|switch|p2a: Scyther|Scyther|343\/343
+|move|p1a: Sandslash|Earthquake|p2a: Scyther
+|-immune|p2a: Scyther|[msg]
+|
+|turn|10
+|c|★Disaster Area|my nigga MY NIGGA
+|choice|move 2|move 2
+|
+|move|p2a: Scyther|Slash|p1a: Sandslash
+|-crit|p1a: Sandslash
+|-damage|p1a: Sandslash|0 fnt
+|faint|p1a: Sandslash
+|choice|switch 3|
+|
+|switch|p1a: Clefable|Clefable|393\/393
+|turn|11
+|choice|move 2|switch 3
+|
+|switch|p2a: Clefable|Clefable|393\/393
+|move|p1a: Clefable|Thunderbolt|p2a: Clefable
+|-damage|p2a: Clefable|312\/393
+|
+|turn|12
+|choice|move 1|move 2
+|
+|move|p1a: Clefable|Blizzard|p2a: Clefable
+|-crit|p2a: Clefable
+|-damage|p2a: Clefable|136\/393
+|move|p2a: Clefable|Light Screen|p2a: Clefable
+|-start|p2a: Clefable|Light Screen
+|
+|turn|13
+|choice|move 3|move 3
+|
+|move|p1a: Clefable|Thunder Wave|p2a: Clefable
+|-status|p2a: Clefable|par
+|move|p2a: Clefable|Reflect|p2a: Clefable
+|-start|p2a: Clefable|Reflect
+|
+|turn|14
+|choice|switch 5|move 1
+|
+|switch|p1a: Kingler|Kingler|313\/313
+|move|p2a: Clefable|Rest|p2a: Clefable
+|-status|p2a: Clefable|slp
+|-heal|p2a: Clefable|393\/393 slp|[silent]
+|-status|p2a: Clefable|slp|[from] move: Rest
+|
+|turn|15
+|c|★Peasounay|so that's the moment i have to say damn
+|c|★Disaster Area|#plays
+|choice|move 3|switch 4
+|
+|switch|p2a: Electabuzz|Electabuzz|333\/333
+|move|p1a: Kingler|Crabhammer|p2a: Electabuzz
+|-crit|p2a: Electabuzz
+|-damage|p2a: Electabuzz|174\/333
+|
+|turn|16
+|c|★Disaster Area|lol
+|c|★Disaster Area|not bad damage
+|c|★Disaster Area|:)
+|c|★Peasounay|yup
+|choice|switch 2|move 2
+|
+|switch|p1a: Mr. Mime|Mr. Mime|283\/283
+|move|p2a: Electabuzz|Thunderbolt|p1a: Mr. Mime
+|-crit|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|94\/283
+|-status|p1a: Mr. Mime|par
+|
+|turn|17
+|J|Enigami
+|c|★Peasounay|riiiiip
+|c|★Disaster Area|x_x
+|choice|move 2|move 4
+|
+|move|p2a: Electabuzz|Seismic Toss|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|0 fnt
+|faint|p1a: Mr. Mime
+|choice|switch 4|
+|
+|switch|p1a: Venusaur|Venusaur|363\/363
+|turn|18
+|choice|move 4|switch 4
+|
+|switch|p2a: Clefable|Clefable|393\/393 slp
+|move|p1a: Venusaur|Razor Leaf|p2a: Clefable
+|-crit|p2a: Clefable
+|-damage|p2a: Clefable|257\/393 slp
+|
+|turn|19
+|choice|move 2|move 4
+|
+|move|p1a: Venusaur|Swords Dance|p1a: Venusaur
+|-boost|p1a: Venusaur|atk|2
+|cant|p2a: Clefable|slp
+|
+|turn|20
+|c|★Peasounay|alrighty
+|c|★Disaster Area|this is such an exciting tier
+|c|★Peasounay|yeah
+|c|★Peasounay|i really love it
+|c|★Peasounay|this +2 venu
+|c|★Peasounay|is such a threat right now
+|choice|move 4|move 2
+|
+|move|p1a: Venusaur|Razor Leaf|p2a: Clefable
+|-crit|p2a: Clefable
+|-damage|p2a: Clefable|113\/393 slp
+|-curestatus|p2a: Clefable|slp
+|
+|turn|21
+|c| Enigami|Depends on whether it has HB or not.
+|choice|move 4|move 4
+|
+|move|p1a: Venusaur|Razor Leaf|p2a: Clefable
+|-crit|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|c|★Peasounay|da runs hb on it
+|c|★Peasounay|i'm sure
+|choice||switch 4
+|
+|switch|p2a: Electabuzz|Electabuzz|174\/333
+|turn|22
+|c|★Disaster Area|well I actually
+|c|★Disaster Area|do run bslam
+|c|★Disaster Area|sometimes
+|c|★Disaster Area|not as often as hb tho
+|c|★Disaster Area|in terms of
+|c|★Disaster Area|with hb
+|c|★Disaster Area|but mostly i run 2 attack anyway
+|choice|move 3|move 1
+|
+|move|p2a: Electabuzz|Thunder Wave|p1a: Venusaur
+|-status|p1a: Venusaur|par
+|cant|p1a: Venusaur|par
+|
+|turn|23
+|choice|move 3|move 3
+|
+|move|p2a: Electabuzz|Psychic|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|241\/363 par
+|move|p1a: Venusaur|Hyper Beam|p2a: Electabuzz|[miss]
+|-miss|p1a: Venusaur
+|
+|turn|24
+|c|★Disaster Area|x_x
+|c|★Peasounay|rip
+|c|★Disaster Area|fP+miss lOL
+|choice|move 3|switch 2
+|
+|switch|p2a: Graveler|Graveler|271\/313
+|move|p1a: Venusaur|Hyper Beam|p2a: Graveler|[miss]
+|-miss|p1a: Venusaur
+|
+|turn|25
+|choice|move 4|switch 2
+|
+|switch|p2a: Electabuzz|Electabuzz|174\/333
+|move|p1a: Venusaur|Razor Leaf|p2a: Electabuzz
+|-crit|p2a: Electabuzz
+|-damage|p2a: Electabuzz|29\/333
+|
+|turn|26
+|choice|move 4|move 3
+|
+|move|p2a: Electabuzz|Psychic|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|101\/363 par
+|-unboost|p1a: Venusaur|spd|1
+|-unboost|p1a: Venusaur|spa|1
+|cant|p1a: Venusaur|par
+|
+|turn|27
+|choice|move 4|move 3
+|
+|move|p2a: Electabuzz|Psychic|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|c|★Disaster Area|well I got lucked out of a sweep rip
+|c|★Disaster Area|it happens
+|L|Starmei
+|c|★Peasounay|i actually have sub grav
+|choice|switch 6|
+|
+|switch|p1a: Ninetales|Ninetales|349\/349
+|turn|28
+|c|★Peasounay|so i had a chance
+|c|★Disaster Area|yeah
+|choice|move 2|move 1
+|
+|move|p2a: Electabuzz|Thunder Wave|p1a: Ninetales
+|-status|p1a: Ninetales|par
+|move|p1a: Ninetales|Body Slam|p2a: Electabuzz
+|-crit|p2a: Electabuzz
+|-damage|p2a: Electabuzz|0 fnt
+|faint|p2a: Electabuzz
+|choice||switch 2
+|
+|switch|p2a: Graveler|Graveler|271\/313
+|turn|29
+|choice|switch 2|move 1
+|
+|switch|p1a: Kingler|Kingler|313\/313
+|move|p2a: Graveler|Substitute|p2a: Graveler
+|-start|p2a: Graveler|Substitute
+|-damage|p2a: Graveler|193\/313
+|
+|turn|30
+|c| Enigami|You had Explosion right?
+|c|★Disaster Area|presumably no bslam
+|c|★Peasounay|yup
+|c|★Disaster Area|I think I'll put on pizza after this match
+|c|★Disaster Area|then play a bit more 3u with u
+|c|★Disaster Area|:)
+|c|★Peasounay|alright
+|c| Enigami|So after paralyzing it, you could've boomed to stop the sweep
+|c|★Disaster Area|yeah
+|c|★Disaster Area|well
+|c|★Disaster Area|and there's sleep powder
+|c|★Disaster Area|to think about
+|c|★Disaster Area|lol
+|c|★Peasounay|yes
+|c|★Disaster Area|but u could probably get away with 1 sub
+|c|★Disaster Area|anyway
+|c|★Peasounay|wanted to eat beam to be sure to have a 2hko
+|choice|move 3|move 4
+|
+|move|p1a: Kingler|Crabhammer|p2a: Graveler
+|-crit|p2a: Graveler
+|-supereffective|p2a: Graveler
+|-end|p2a: Graveler|Substitute
+|move|p2a: Graveler|Explosion|p1a: Kingler
+|-damage|p1a: Kingler|91\/313
+|faint|p2a: Graveler
+|choice||switch 3
+|
+|switch|p2a: Scyther|Scyther|343\/343
+|turn|31
+|choice|move 3|move 2
+|
+|move|p2a: Scyther|Slash|p1a: Kingler
+|-crit|p1a: Kingler
+|-damage|p1a: Kingler|0 fnt
+|faint|p1a: Kingler
+|choice|switch 2|
+|
+|switch|p1a: Ninetales|Ninetales|349\/349 par
+|turn|32
+|c|★Peasounay|obv this is the time i don't have sub haha
+|c|★Disaster Area|lol
+|choice|move 1|switch 6
+|
+|switch|p2a: Mr. Mime|Mr. Mime|167\/283 par
+|cant|p1a: Ninetales|par
+|
+|turn|33
+|c|★Disaster Area|thank god..
+|choice|move 4|move 3
+|
+|move|p1a: Ninetales|Fire Spin|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|148\/283 par
+|-activate|p2a: Mr. Mime|move: Fire Spin|[of] p1a: Ninetales
+|cant|p2a: Mr. Mime|partiallytrapped
+|
+|turn|34
+|choice|move 4|move 3
+|
+|move|p1a: Ninetales|Fire Spin|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|129\/283 par
+|cant|p2a: Mr. Mime|partiallytrapped
+|
+|turn|35
+|choice|switch 5|move 3
+|
+|switch|p1a: Clefable|Clefable|393\/393
+|cant|p2a: Mr. Mime|partiallytrapped
+|
+|-end|p2a: Mr. Mime|Fire Spin|[partiallytrapped]
+|turn|36
+|choice|move 4|move 3
+|
+|move|p1a: Clefable|Hyper Beam|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|0 fnt
+|faint|p2a: Mr. Mime
+|c|★Disaster Area|well this is interesting
+|c|★Peasounay|mmmmh
+|c|★Disaster Area|man we're having such good battles today
+|c|★Peasounay|yeah lol
+|c|★Disaster Area|also lol this one time where
+|c|★Disaster Area|u really wish u could have
+|c|★Disaster Area|vap not dewgong
+|c|★Disaster Area|xD
+|c|★Peasounay|absolutely lol
+|choice||switch 6
+|
+|switch|p2a: Scyther|Scyther|343\/343
+|turn|37
+|choice|move 3|move 1
+|
+|move|p2a: Scyther|Swords Dance|p2a: Scyther
+|-boost|p2a: Scyther|atk|2
+|move|p1a: Clefable|Thunder Wave|p2a: Scyther
+|-status|p2a: Scyther|par
+|
+|turn|38
+|c| Enigami|Got agility?
+|c|★Peasounay|i do not
+|c| Enigami|Wait, you don't need it
+|choice|switch 5|move 3
+|
+|switch|p1a: Ninetales|Ninetales|349\/349 par
+|move|p2a: Scyther|Hyper Beam|p1a: Ninetales
+|-damage|p1a: Ninetales|27\/349 par
+|
+|turn|39
+|-mustrecharge|p2a: Scyther
+|c| Enigami|Forgot Ninetales was already para'd
+|c|★Peasounay|fpara please
+|-mustrecharge|p2a: Scyther
+|choice|move 1|move 1
+|
+|cant|p2a: Scyther|recharge
+|move|p1a: Ninetales|Fire Blast|p2a: Scyther|[miss]
+|-miss|p1a: Ninetales
+|
+|turn|40
+|c|★Disaster Area|NOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOo
+|c|★Peasounay|lol
+|c|★Disaster Area|fucking o
+|c|★Disaster Area|lol.
+|c|★Disaster Area|ok u fp here
+|choice|move 1|move 4
+|
+|move|p2a: Scyther|Quick Attack|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|c|★Peasounay|yay
+|c|★Disaster Area|my nigga
+|choice|switch 5|
+|
+|switch|p1a: Clefable|Clefable|393\/393
+|turn|41
+|c|★Disaster Area|ok u fp here
+|c|★Disaster Area|then clef vs gong
+|choice|move 2|move 3
+|
+|move|p1a: Clefable|Thunderbolt|p2a: Scyther
+|-supereffective|p2a: Scyther
+|-damage|p2a: Scyther|136\/343 par
+|move|p2a: Scyther|Hyper Beam|p1a: Clefable
+|-damage|p1a: Clefable|84\/393
+|
+|turn|42
+|-mustrecharge|p2a: Scyther
+|c|★Disaster Area|rip
+|c|★Disaster Area|gg
+|c|★Peasounay|my scyther loves me as much as i love him
+|c|★Peasounay|gg
+|-mustrecharge|p2a: Scyther
+|choice|move 2|move 1
+|
+|move|p1a: Clefable|Thunderbolt|p2a: Scyther
+|-supereffective|p2a: Scyther
+|-damage|p2a: Scyther|0 fnt
+|faint|p2a: Scyther
+|choice||switch 5
+|
+|switch|p2a: Dewgong|Dewgong|347\/383
+|turn|43
+|choice|move 3|move 1
+|
+|move|p2a: Dewgong|Surf|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|win|Peasounay
+|c|★Disaster Area|gg man
+|c|★Disaster Area|what a battle
+|c|★Peasounay|gg :D
+|c|★Disaster Area|I think if venu hadn't gotten trashed

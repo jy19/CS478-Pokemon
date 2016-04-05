@@ -1,0 +1,219 @@
+﻿|j|Mega-Noctali
+|j|Seb009
+|player|p1|Mega-Noctali|65
+|player|p2|Seb009|165
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|22833,51866,17077,24451
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Exeggcute|Exeggcute, L96|310\/310
+|switch|p2a: Mankey|Mankey, L96|272\/272
+|turn|1
+|choice|move 1|switch 4
+|
+|switch|p2a: Magmar|Magmar, L90|300\/300
+|move|p1a: Exeggcute|Psychic|p2a: Magmar
+|-damage|p2a: Magmar|211\/300
+|-unboost|p2a: Magmar|spd|1
+|-unboost|p2a: Magmar|spa|1
+|
+|turn|2
+|choice|switch 3|move 1
+|
+|switch|p1a: Vaporeon|Vaporeon, L85|395\/395
+|move|p2a: Magmar|Hyper Beam|p1a: Vaporeon
+|-damage|p1a: Vaporeon|252\/395
+|
+|turn|3
+|-mustrecharge|p2a: Magmar
+|-mustrecharge|p2a: Magmar
+|choice|move 4|move 1
+|
+|cant|p2a: Magmar|recharge
+|move|p1a: Vaporeon|Hydro Pump|p2a: Magmar
+|-crit|p2a: Magmar
+|-supereffective|p2a: Magmar
+|-damage|p2a: Magmar|0 fnt
+|faint|p2a: Magmar
+|choice||switch 6
+|
+|switch|p2a: Exeggutor|Exeggutor, L79|312\/312
+|turn|4
+|choice|switch 4|move 1
+|
+|switch|p1a: Charmeleon|Charmeleon, L85|272\/272
+|move|p2a: Exeggutor|Sleep Powder|p1a: Charmeleon|[miss]
+|-miss|p2a: Exeggutor
+|
+|turn|5
+|choice|move 3|switch 2
+|
+|switch|p2a: Poliwhirl|Poliwhirl, L85|284\/284
+|move|p1a: Charmeleon|Fire Blast|p2a: Poliwhirl
+|-resisted|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|217\/284
+|-status|p2a: Poliwhirl|brn
+|
+|turn|6
+|choice|move 2|move 2
+|
+|move|p2a: Poliwhirl|Surf|p1a: Charmeleon
+|-supereffective|p1a: Charmeleon
+|-damage|p1a: Charmeleon|111\/272
+|-damage|p2a: Poliwhirl|200\/284 brn|[from] brn|[of] p1a: Charmeleon
+|move|p1a: Charmeleon|Swords Dance|p1a: Charmeleon
+|-boost|p1a: Charmeleon|atk|2
+|
+|turn|7
+|choice|switch 4|move 2
+|
+|switch|p1a: Vaporeon|Vaporeon, L85|252\/395
+|move|p2a: Poliwhirl|Surf|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|224\/395
+|-damage|p2a: Poliwhirl|183\/284 brn|[from] brn|[of] p1a: Vaporeon
+|
+|turn|8
+|choice|move 1|move 3
+|
+|move|p2a: Poliwhirl|Psychic|p1a: Vaporeon
+|-damage|p1a: Vaporeon|186\/395
+|-unboost|p1a: Vaporeon|spd|1
+|-unboost|p1a: Vaporeon|spa|1
+|-damage|p2a: Poliwhirl|166\/284 brn|[from] brn|[of] p1a: Vaporeon
+|move|p1a: Vaporeon|Body Slam|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|110\/284 brn
+|
+|turn|9
+|choice|move 1|switch 2
+|
+|switch|p2a: Exeggutor|Exeggutor, L79|312\/312
+|move|p1a: Vaporeon|Body Slam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|261\/312
+|
+|turn|10
+|choice|move 2|move 1
+|
+|move|p1a: Vaporeon|Blizzard|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|156\/312
+|move|p2a: Exeggutor|Sleep Powder|p1a: Vaporeon
+|-status|p1a: Vaporeon|slp
+|
+|turn|11
+|choice|switch 5|move 4
+|
+|switch|p1a: Lickitung|Lickitung, L90|345\/345
+|move|p2a: Exeggutor|Mega Drain|p1a: Lickitung
+|-damage|p1a: Lickitung|291\/345
+|-heal|p2a: Exeggutor|183\/312|[from] drain|[of] p1a: Lickitung
+|
+|turn|12
+|choice|move 1|move 1
+|
+|move|p2a: Exeggutor|Sleep Powder|p1a: Lickitung
+|-message|Sleep Clause Mod activated.
+|move|p1a: Lickitung|Swords Dance|p1a: Lickitung
+|-boost|p1a: Lickitung|atk|2
+|
+|turn|13
+|choice|move 4|move 1
+|
+|move|p2a: Exeggutor|Sleep Powder|p1a: Lickitung
+|-message|Sleep Clause Mod activated.
+|move|p1a: Lickitung|Body Slam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|30\/312
+|
+|turn|14
+|choice|move 2|switch 5
+|
+|switch|p2a: Machoke|Machoke, L85|310\/310
+|move|p1a: Lickitung|Hyper Beam|p2a: Machoke|[miss]
+|-miss|p1a: Lickitung
+|
+|turn|15
+|choice|move 4|move 4
+|
+|move|p2a: Machoke|Earthquake|p1a: Lickitung
+|-damage|p1a: Lickitung|220\/345
+|move|p1a: Lickitung|Body Slam|p2a: Machoke
+|-damage|p2a: Machoke|141\/310
+|-status|p2a: Machoke|par
+|
+|turn|16
+|choice|move 2|move 2
+|
+|move|p1a: Lickitung|Hyper Beam|p2a: Machoke
+|-damage|p2a: Machoke|0 fnt
+|faint|p2a: Machoke
+|choice||switch 4
+|
+|switch|p2a: Mankey|Mankey, L96|272\/272
+|turn|17
+|choice|move 4|move 3
+|
+|move|p2a: Mankey|Submission|p1a: Lickitung
+|-supereffective|p1a: Lickitung
+|-damage|p1a: Lickitung|27\/345
+|-damage|p2a: Mankey|224\/272|[from] recoil|[of] p1a: Lickitung
+|move|p1a: Lickitung|Body Slam|p2a: Mankey
+|-damage|p2a: Mankey|16\/272
+|
+|turn|18
+|choice|switch 3|move 3
+|
+|switch|p1a: Exeggcute|Exeggcute, L96|310\/310
+|move|p2a: Mankey|Submission|p1a: Exeggcute
+|-crit|p1a: Exeggcute
+|-resisted|p1a: Exeggcute
+|-damage|p1a: Exeggcute|218\/310
+|-damage|p2a: Mankey|0 fnt|[from] recoil|[of] p1a: Exeggcute
+|faint|p2a: Mankey
+|choice||switch 3
+|
+|switch|p2a: Butterfree|Butterfree, L90|291\/291
+|turn|19
+|choice|move 1|move 2
+|
+|move|p2a: Butterfree|Sleep Powder|p1a: Exeggcute
+|-message|Sleep Clause Mod activated.
+|move|p1a: Exeggcute|Psychic|p2a: Butterfree
+|-damage|p2a: Butterfree|198\/291
+|-unboost|p2a: Butterfree|spd|1
+|-unboost|p2a: Butterfree|spa|1
+|
+|turn|20
+|choice|move 1|move 3
+|
+|move|p2a: Butterfree|Psychic|p1a: Exeggcute
+|-resisted|p1a: Exeggcute
+|-damage|p1a: Exeggcute|195\/310
+|move|p1a: Exeggcute|Psychic|p2a: Butterfree
+|-damage|p2a: Butterfree|51\/291
+|
+|turn|21
+|choice|move 1|move 1
+|
+|move|p2a: Butterfree|Mega Drain|p1a: Exeggcute
+|-crit|p1a: Exeggcute
+|-resisted|p1a: Exeggcute
+|-damage|p1a: Exeggcute|165\/310
+|-heal|p2a: Butterfree|66\/291|[from] drain|[of] p1a: Exeggcute
+|move|p1a: Exeggcute|Psychic|p2a: Butterfree
+|-damage|p2a: Butterfree|0 fnt
+|faint|p2a: Butterfree
+|choice||switch 5
+|
+|switch|p2a: Exeggutor|Exeggutor, L79|30\/312
+|turn|22
+|-message|Seb009 forfeited.
+|l|Seb009
+|
+|win|Mega-Noctali
+|player|p2

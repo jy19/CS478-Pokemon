@@ -1,0 +1,337 @@
+﻿|join|Giju
+|join|Khaytra
+|player|p1|Giju|163
+|player|p2|Khaytra|291
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jyn|Jynx|333\/333
+|switch|p2a: Starmie|Starmie|323\/323
+|turn|1
+|c|★Giju|hf ^^
+|c|★Khaytra|hf
+|
+|switch|p1a: Chan|Chansey|703\/703
+|move|p2a: Starmie|Thunder Wave|p1a: Chan
+|-status|p1a: Chan|par
+|
+|turn|2
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Chan|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|632\/703
+|
+|turn|3
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|move|p1a: Chan|Ice Beam|p2a: Tauros
+|-damage|p2a: Tauros|257\/353
+|
+|turn|4
+|
+|move|p2a: Tauros|Body Slam|p1a: Chan
+|-damage|p1a: Chan|448\/703 par
+|move|p1a: Chan|Thunder Wave|p2a: Tauros
+|-status|p2a: Tauros|par
+|
+|turn|5
+|join|asbdsp
+|
+|switch|p1a: Snor|Snorlax|523\/523
+|cant|p2a: Tauros|par
+|
+|turn|6
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|move|p1a: Snor|Body Slam|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|90\/323
+|
+|turn|7
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|251\/323
+|move|p1a: Snor|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|138\/323
+|
+|turn|8
+|join|Typhlito
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|299\/323
+|move|p1a: Snor|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|187\/323
+|
+|turn|9
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Snor
+|-damage|p1a: Snor|429\/523
+|move|p1a: Snor|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|61\/323
+|-status|p2a: Starmie|par
+|
+|turn|10
+|
+|move|p1a: Snor|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|switch|p2a: Dragonite|Dragonite|385\/385
+|turn|11
+|join|GiantWhirlpool
+|
+|move|p2a: Dragonite|Wrap|p1a: Snor
+|-damage|p1a: Snor|410\/523
+|-activate|p1a: Snor|move: Wrap|[of] p2a: Dragonite
+|cant|p1a: Snor|partiallytrapped
+|
+|turn|12
+|
+|switch|p1a: Jyn|Jynx|333\/333
+|move|p2a: Dragonite|Wrap|p1a: Jyn
+|-damage|p1a: Jyn|308\/333
+|-activate|p1a: Jyn|move: Wrap|[of] p2a: Dragonite
+|
+|turn|13
+|
+|cant|p1a: Jyn|partiallytrapped
+|move|p2a: Dragonite|Wrap|p1a: Jyn
+|-damage|p1a: Jyn|283\/333
+|
+|-end|p1a: Jyn|Wrap|[partiallytrapped]
+|turn|14
+|
+|switch|p2a: Chansey|Chansey|632\/703
+|move|p1a: Jyn|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|501\/703
+|
+|turn|15
+|
+|move|p1a: Jyn|Lovely Kiss|p2a: Chansey|[miss]
+|-miss|p1a: Jyn
+|move|p2a: Chansey|Thunderbolt|p1a: Jyn
+|-crit|p1a: Jyn
+|-damage|p1a: Jyn|138\/333
+|
+|turn|16
+|
+|switch|p2a: Tauros|Tauros|257\/353 par
+|move|p1a: Jyn|Lovely Kiss|p2a: Tauros|[miss]
+|-miss|p1a: Jyn
+|
+|turn|17
+|
+|switch|p1a: Snor|Snorlax|410\/523
+|move|p2a: Tauros|Body Slam|p1a: Snor
+|-damage|p1a: Snor|270\/523
+|
+|turn|18
+|
+|switch|p2a: Rhydon|Rhydon|413\/413
+|move|p1a: Snor|Reflect|p1a: Snor
+|-start|p1a: Snor|Reflect
+|
+|turn|19
+|
+|move|p2a: Rhydon|Earthquake|p1a: Snor
+|-damage|p1a: Snor|180\/523
+|move|p1a: Snor|Earthquake|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|263\/413
+|
+|turn|20
+|
+|move|p2a: Rhydon|Rock Slide|p1a: Snor
+|-damage|p1a: Snor|113\/523
+|move|p1a: Snor|Body Slam|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|212\/413
+|
+|turn|21
+|
+|switch|p2a: Zapdos|Zapdos|383\/383
+|move|p1a: Snor|Rest|p1a: Snor
+|-status|p1a: Snor|slp
+|-heal|p1a: Snor|523\/523 slp|[silent]
+|-status|p1a: Snor|slp|[from] move: Rest
+|
+|turn|22
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Snor
+|-damage|p1a: Snor|362\/523 slp
+|cant|p1a: Snor|slp
+|
+|turn|23
+|
+|switch|p1a: Gol|Golem|363\/363
+|move|p2a: Zapdos|Thunderbolt|p1a: Gol
+|-immune|p1a: Gol|[msg]
+|
+|turn|24
+|
+|switch|p2a: Rhydon|Rhydon|212\/413
+|move|p1a: Gol|Rock Slide|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|170\/413
+|
+|turn|25
+|
+|move|p1a: Gol|Earthquake|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|
+|switch|p2a: Dragonite|Dragonite|385\/385
+|turn|26
+|join|innovamania
+|
+|switch|p1a: Jyn|Jynx|138\/333
+|move|p2a: Dragonite|Surf|p1a: Jyn|[miss]
+|-miss|p2a: Dragonite
+|
+|turn|27
+|
+|switch|p2a: Tauros|Tauros|257\/353 par
+|move|p1a: Jyn|Lovely Kiss|p2a: Tauros
+|-fail|p2a: Tauros
+|
+|turn|28
+|
+|move|p1a: Jyn|Blizzard|p2a: Tauros|[miss]
+|-miss|p1a: Jyn
+|move|p2a: Tauros|Blizzard|p1a: Jyn
+|-resisted|p1a: Jyn
+|-damage|p1a: Jyn|101\/333
+|
+|turn|29
+|
+|move|p1a: Jyn|Blizzard|p2a: Tauros
+|-damage|p2a: Tauros|83\/353 par
+|move|p2a: Tauros|Earthquake|p1a: Jyn
+|-damage|p1a: Jyn|0 fnt
+|faint|p1a: Jyn
+|
+|switch|p1a: Tau|Tauros|353\/353
+|turn|30
+|
+|switch|p2a: Chansey|Chansey|501\/703
+|move|p1a: Tau|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|206\/703
+|
+|turn|31
+|
+|move|p1a: Tau|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|switch|p2a: Zapdos|Zapdos|383\/383
+|turn|32
+|
+|move|p1a: Tau|Blizzard|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|247\/383
+|move|p2a: Zapdos|Thunderbolt|p1a: Tau
+|-damage|p1a: Tau|202\/353
+|
+|turn|33
+|
+|switch|p1a: Gol|Golem|363\/363
+|move|p2a: Zapdos|Thunderbolt|p1a: Gol
+|-immune|p1a: Gol|[msg]
+|
+|turn|34
+|
+|switch|p2a: Tauros|Tauros|83\/353 par
+|move|p1a: Gol|Rock Slide|p2a: Tauros|[miss]
+|-miss|p1a: Gol
+|
+|turn|35
+|
+|move|p1a: Gol|Earthquake|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|switch|p2a: Dragonite|Dragonite|385\/385
+|turn|36
+|
+|switch|p1a: Chan|Chansey|448\/703 par
+|move|p2a: Dragonite|Surf|p1a: Chan
+|-damage|p1a: Chan|375\/703 par
+|
+|turn|37
+|
+|move|p2a: Dragonite|Wrap|p1a: Chan
+|-damage|p1a: Chan|335\/703 par
+|-activate|p1a: Chan|move: Wrap|[of] p2a: Dragonite
+|cant|p1a: Chan|par
+|
+|turn|38
+|
+|move|p2a: Dragonite|Wrap|p1a: Chan
+|-damage|p1a: Chan|295\/703 par
+|cant|p1a: Chan|partiallytrapped
+|
+|turn|39
+|
+|switch|p1a: Per|Persian|333\/333
+|move|p2a: Dragonite|Wrap|p1a: Per|[miss]
+|-miss|p2a: Dragonite
+|
+|turn|40
+|c|@innovamania|cat
+|
+|move|p1a: Per|Slash|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-damage|p2a: Dragonite|261\/385
+|move|p2a: Dragonite|Surf|p1a: Per
+|-damage|p1a: Per|234\/333
+|
+|turn|41
+|
+|move|p1a: Per|Slash|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-damage|p2a: Dragonite|130\/385
+|move|p2a: Dragonite|Surf|p1a: Per
+|-damage|p1a: Per|131\/333
+|
+|turn|42
+|
+|move|p1a: Per|Slash|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|switch|p2a: Zapdos|Zapdos|247\/383
+|turn|43
+|
+|switch|p1a: Gol|Golem|363\/363
+|move|p2a: Zapdos|Agility|p2a: Zapdos
+|-boost|p2a: Zapdos|spe|2
+|
+|turn|44
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Gol
+|-resisted|p1a: Gol
+|-damage|p1a: Gol|329\/363
+|move|p1a: Gol|Explosion|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|faint|p1a: Gol
+|
+|win|Giju
+|c|★Giju|boom
+|c|★Khaytra|gg
+|leave|asbdsp
+|leave|innovamania
+|leave|GiantWhirlpool
+|leave|Khaytra
+|player|p2
+|leave|Typhlito

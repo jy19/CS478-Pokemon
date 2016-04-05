@@ -1,0 +1,252 @@
+﻿|join|Rennolo
+|join|charrol
+|player|p1|Rennolo|265
+|player|p2|charrol|102
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gloom|Gloom, L90|291\/291
+|switch|p2a: Scyther|Scyther, L90|309\/309
+|turn|1
+|c|★charrol|salva tu
+|c|★Rennolo|kk
+|
+|move|p2a: Scyther|Swords Dance|p2a: Scyther
+|-boost|p2a: Scyther|atk|2
+|move|p1a: Gloom|Sleep Powder|p2a: Scyther
+|-status|p2a: Scyther|slp
+|
+|turn|2
+|
+|switch|p1a: Moltres|Moltres, L85|327\/327
+|cant|p2a: Scyther|slp
+|
+|turn|3
+|
+|switch|p2a: Arcanine|Arcanine, L85|327\/327
+|move|p1a: Moltres|Fire Blast|p2a: Arcanine
+|-crit|p2a: Arcanine
+|-resisted|p2a: Arcanine
+|-damage|p2a: Arcanine|175\/327
+|
+|turn|4
+|
+|switch|p1a: Graveler|Graveler, L85|267\/267
+|move|p2a: Arcanine|Body Slam|p1a: Graveler
+|-crit|p1a: Graveler
+|-resisted|p1a: Graveler
+|-damage|p1a: Graveler|215\/267
+|
+|turn|5
+|
+|switch|p2a: Porygon|Porygon, L85|284\/284
+|move|p1a: Graveler|Rock Slide|p2a: Porygon
+|-damage|p2a: Porygon|195\/284
+|
+|turn|6
+|
+|switch|p1a: Chansey|Chansey, L79|557\/557
+|move|p2a: Porygon|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|492\/557
+|
+|turn|7
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Porygon
+|-status|p2a: Porygon|par
+|move|p2a: Porygon|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|turn|8
+|
+|cant|p1a: Chansey|par
+|cant|p2a: Porygon|par
+|
+|turn|9
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-start|p1a: Chansey|Reflect
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|284\/284 par
+|
+|turn|10
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|cant|p2a: Porygon|par
+|
+|turn|11
+|c|★charrol|pure reflect
+|
+|move|p2a: Porygon|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|434\/557 par
+|cant|p1a: Chansey|par
+|
+|turn|12
+|
+|move|p2a: Porygon|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|374\/557 par
+|move|p1a: Chansey|Counter|p2a: Porygon
+|-fail|p1a: Chansey
+|
+|turn|13
+|
+|move|p2a: Porygon|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|315\/557 par
+|move|p1a: Chansey|Counter|p2a: Porygon
+|-fail|p1a: Chansey
+|
+|turn|14
+|
+|switch|p2a: Beedrill|Beedrill, L90|300\/300
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|557\/557 par
+|
+|turn|15
+|
+|move|p2a: Beedrill|Swords Dance|p2a: Beedrill
+|-boost|p2a: Beedrill|atk|2
+|move|p1a: Chansey|Thunder Wave|p2a: Beedrill
+|-status|p2a: Beedrill|par
+|
+|turn|16
+|
+|move|p2a: Beedrill|Swords Dance|p2a: Beedrill
+|-boost|p2a: Beedrill|atk|2
+|cant|p1a: Chansey|par
+|
+|turn|17
+|
+|move|p2a: Beedrill|Agility|p2a: Beedrill
+|-boost|p2a: Beedrill|spe|2
+|move|p1a: Chansey|Counter|p2a: Beedrill
+|-fail|p1a: Chansey
+|
+|turn|18
+|
+|switch|p1a: Graveler|Graveler, L85|215\/267
+|move|p2a: Beedrill|Swords Dance|p2a: Beedrill
+|-boost|p2a: Beedrill|atk|2
+|
+|turn|19
+|
+|cant|p2a: Beedrill|par
+|move|p1a: Graveler|Earthquake|p2a: Beedrill
+|-damage|p2a: Beedrill|156\/300 par
+|
+|turn|20
+|
+|move|p2a: Beedrill|Hyper Beam|p1a: Graveler
+|-crit|p1a: Graveler
+|-resisted|p1a: Graveler
+|-damage|p1a: Graveler|135\/267
+|move|p1a: Graveler|Rock Slide|p2a: Beedrill
+|-crit|p2a: Beedrill
+|-supereffective|p2a: Beedrill
+|-damage|p2a: Beedrill|0 fnt
+|faint|p2a: Beedrill
+|c|★charrol|ma no
+|
+|switch|p2a: Krabby|Krabby, L96|252\/252
+|turn|21
+|
+|switch|p1a: Gloom|Gloom, L90|291\/291
+|move|p2a: Krabby|Swords Dance|p2a: Krabby
+|-boost|p2a: Krabby|atk|2
+|
+|turn|22
+|
+|move|p2a: Krabby|Body Slam|p1a: Gloom
+|-damage|p1a: Gloom|116\/291
+|move|p1a: Gloom|Mega Drain|p2a: Krabby
+|-crit|p2a: Krabby
+|-supereffective|p2a: Krabby
+|-damage|p2a: Krabby|0 fnt
+|-heal|p1a: Gloom|242\/291|[from] drain|[of] p2a: Krabby
+|faint|p2a: Krabby
+|
+|switch|p2a: Arcanine|Arcanine, L85|175\/327
+|turn|23
+|
+|switch|p1a: Graveler|Graveler, L85|135\/267
+|move|p2a: Arcanine|Body Slam|p1a: Graveler
+|-crit|p1a: Graveler
+|-resisted|p1a: Graveler
+|-damage|p1a: Graveler|86\/267
+|-status|p1a: Graveler|par
+|
+|turn|24
+|
+|switch|p2a: Porygon|Porygon, L85|284\/284 par
+|move|p1a: Graveler|Explosion|p2a: Porygon
+|-damage|p2a: Porygon|10\/284 par
+|faint|p1a: Graveler
+|
+|switch|p1a: Electabuzz|Electabuzz, L85|284\/284
+|turn|25
+|
+|move|p1a: Electabuzz|Seismic Toss|p2a: Porygon
+|-damage|p2a: Porygon|0 fnt
+|faint|p2a: Porygon
+|
+|switch|p2a: Raichu|Raichu, L85|276\/276
+|turn|26
+|
+|move|p1a: Electabuzz|Thunder Wave|p2a: Raichu
+|-status|p2a: Raichu|par
+|move|p2a: Raichu|Thunder|p1a: Electabuzz
+|-resisted|p1a: Electabuzz
+|-damage|p1a: Electabuzz|218\/284
+|
+|turn|27
+|
+|move|p1a: Electabuzz|Seismic Toss|p2a: Raichu
+|-damage|p2a: Raichu|191\/276 par
+|move|p2a: Raichu|Agility|p2a: Raichu
+|-boost|p2a: Raichu|spe|2
+|
+|turn|28
+|
+|move|p2a: Raichu|Surf|p1a: Electabuzz
+|-damage|p1a: Electabuzz|147\/284
+|move|p1a: Electabuzz|Psychic|p2a: Raichu
+|-damage|p2a: Raichu|136\/276 par
+|
+|turn|29
+|
+|move|p2a: Raichu|Surf|p1a: Electabuzz
+|-damage|p1a: Electabuzz|78\/284
+|move|p1a: Electabuzz|Seismic Toss|p2a: Raichu
+|-damage|p2a: Raichu|51\/276 par
+|
+|turn|30
+|
+|cant|p2a: Raichu|par
+|move|p1a: Electabuzz|Seismic Toss|p2a: Raichu
+|-damage|p2a: Raichu|0 fnt
+|faint|p2a: Raichu
+|
+|switch|p2a: Arcanine|Arcanine, L85|175\/327
+|turn|31
+|
+|move|p1a: Electabuzz|Thunder Wave|p2a: Arcanine
+|-status|p2a: Arcanine|par
+|cant|p2a: Arcanine|par
+|
+|turn|32
+|
+|move|p1a: Electabuzz|Thunderbolt|p2a: Arcanine
+|-damage|p2a: Arcanine|80\/327 par
+|cant|p2a: Arcanine|par
+|
+|turn|33
+|-message|charrol forfeited.
+|
+|win|Rennolo
+|leave|charrol
+|player|p2
+|c|★Rennolo|vbb, bg

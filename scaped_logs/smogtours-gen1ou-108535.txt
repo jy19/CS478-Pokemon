@@ -1,0 +1,151 @@
+﻿|J|tamahome
+|J|Dice
+|player|p1|tamahome|169
+|player|p2|Dice|168
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|seed|26379,31294,38653,12375
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333\/333
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|1
+|choice|move 3|move 1
+|
+|move|p2a: Gengar|Hypnosis|p1a: Jynx|[miss]
+|-miss|p2a: Gengar
+|move|p1a: Jynx|Lovely Kiss|p2a: Gengar
+|-status|p2a: Gengar|slp
+|
+|turn|2
+|choice|move 1|switch 4
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Jynx|Blizzard|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|450\/703
+|
+|turn|3
+|choice|move 1|move 4
+|
+|move|p1a: Jynx|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|309\/703
+|move|p2a: Chansey|Thunder Wave|p1a: Jynx
+|-status|p1a: Jynx|par
+|
+|turn|4
+|choice|move 2|move 1
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|660\/703
+|move|p1a: Jynx|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|569\/703
+|
+|turn|5
+|J|katrina blow
+|choice|move 1|move 3
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Jynx
+|-damage|p1a: Jynx|258\/333 par
+|cant|p1a: Jynx|par
+|
+|turn|6
+|choice|move 2|move 3
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Jynx
+|-damage|p1a: Jynx|173\/333 par
+|cant|p1a: Jynx|par
+|
+|turn|7
+|choice|move 1|move 3
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Jynx
+|-damage|p1a: Jynx|87\/333 par
+|move|p1a: Jynx|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|436\/703
+|
+|turn|8
+|choice|move 4|move 3
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Jynx
+|-damage|p1a: Jynx|11\/333 par
+|cant|p1a: Jynx|par
+|
+|turn|9
+|choice|switch 6|move 2
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|632\/703
+|
+|turn|10
+|choice|move 1|move 2
+|
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|561\/703
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|361\/703
+|
+|turn|11
+|choice|move 1|move 2
+|
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|490\/703
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|291\/703
+|-status|p2a: Chansey|frz
+|
+|turn|12
+|choice|move 4|switch 3
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703
+|
+|turn|13
+|choice|move 2|move 3
+|
+|move|p2a: Starmie|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|move|p1a: Chansey|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|176\/323
+|
+|turn|14
+|choice|move 2|switch 6
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|cant|p1a: Chansey|par
+|
+|turn|15
+|choice|move 3|move 1
+|
+|move|p2a: Snorlax|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|408\/703 par
+|move|p1a: Chansey|Counter|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|c|★Dice|.
+|choice||switch 5
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|16
+|choice|move 3|move 1
+|
+|move|p2a: Tauros|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|135\/703 par
+|move|p1a: Chansey|Counter|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|c|★Dice|omg
+|c|★Dice|f u
+|-message|Dice forfeited.
+|
+|win|tamahome

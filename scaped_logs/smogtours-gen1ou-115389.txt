@@ -1,0 +1,626 @@
+﻿|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|J|Nails
+|J|teal6
+|player|p1|Nails|265
+|player|p2|teal6|115
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|seed|4469,48959,27615,34927
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333\/333
+|switch|p2a: Jynx|Jynx|333\/333
+|turn|1
+|J|Raddical
+|choice|move 1|move 2
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: Jynx
+|-status|p2a: Jynx|slp
+|cant|p2a: Jynx|slp
+|
+|turn|2
+|choice|move 3|move 2
+|
+|cant|p2a: Jynx|slp
+|move|p1a: Jynx|Psychic|p2a: Jynx
+|-resisted|p2a: Jynx
+|-damage|p2a: Jynx|278\/333 slp
+|
+|turn|3
+|choice|move 3|switch 6
+|
+|switch|p2a: Slowbro|Slowbro|393\/393
+|move|p1a: Jynx|Psychic|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|338\/393
+|
+|turn|4
+|J|purrl
+|choice|move 4|move 3
+|
+|move|p1a: Jynx|Toxic|p2a: Slowbro
+|-status|p2a: Slowbro|tox
+|move|p2a: Slowbro|Thunder Wave|p1a: Jynx
+|-status|p1a: Jynx|par
+|-damage|p2a: Slowbro|314\/393 tox|[from] tox|[of] p1a: Jynx
+|
+|turn|5
+|J|Vileman
+|choice|switch 6|move 1
+|
+|switch|p1a: Dragonite|Dragonite|385\/385
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|-damage|p2a: Slowbro|266\/393 tox|[from] psn
+|
+|turn|6
+|c|★teal6|alright gotta stay calm against this
+|c|+Vileman|damn nails you really enjoy playing the red blue yellow over used metagame dont you
+|choice|move 1|switch 2
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|move|p1a: Dragonite|Wrap|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|324\/353
+|-activate|p2a: Tauros|move: Wrap|[of] p1a: Dragonite
+|
+|turn|7
+|J|celebitrainer36
+|choice|move 1|switch 3
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Dragonite|Wrap|p2a: Snorlax
+|-damage|p2a: Snorlax|503\/523
+|-activate|p2a: Snorlax|move: Wrap|[of] p1a: Dragonite
+|
+|turn|8
+|c|★teal6|i think my play is pp stalling
+|choice|move 1|switch 4
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Dragonite|Wrap|p2a: Exeggutor|[miss]
+|-miss|p1a: Dragonite
+|
+|turn|9
+|c|★Nails|i think ppl overrate how little
+|c|★Nails|you can innovate
+|c|★Nails|in this tier
+|choice|switch 6|move 4
+|
+|switch|p1a: Jynx|Jynx|333\/333 par
+|move|p2a: Exeggutor|Stun Spore|p1a: Jynx
+|-fail|p1a: Jynx|par
+|
+|turn|10
+|c|★teal6|i did like toxic
+|L|celebitrainer36
+|c|★teal6|toxic wrap is cool
+|J|AugustRadburn
+|c|★Nails|thx
+|choice|move 3|switch 2
+|
+|switch|p2a: Slowbro|Slowbro|266\/393 tox
+|-status|p2a: Slowbro|psn
+|-damage|p2a: Slowbro|242\/393 psn|[from] psn
+|move|p1a: Jynx|Psychic|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|185\/393 psn
+|
+|turn|11
+|choice|switch 3|move 4
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|-heal|p2a: Slowbro|393\/393 slp|[silent]
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|
+|turn|12
+|choice|move 1|switch 4
+|
+|switch|p2a: Snorlax|Snorlax|503\/523
+|move|p1a: Snorlax|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|376\/523
+|
+|turn|13
+|L|Raddical
+|choice|move 1|move 1
+|
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|233\/523
+|move|p1a: Snorlax|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|247\/523
+|
+|turn|14
+|choice|move 2|move 3
+|
+|move|p1a: Snorlax|Hyper Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|6\/523
+|move|p2a: Snorlax|Hyper Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|8\/523
+|
+|turn|15
+|-mustrecharge|p1a: Snorlax
+|-mustrecharge|p2a: Snorlax
+|-mustrecharge|p1a: Snorlax
+|-mustrecharge|p2a: Snorlax
+|choice|move 1|move 1
+|
+|cant|p1a: Snorlax|recharge
+|cant|p2a: Snorlax|recharge
+|
+|turn|16
+|c|★teal6|lol
+|c|+AugustRadburn|dmg
+|choice|move 1|move 1
+|
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|choice|switch 5|
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|turn|17
+|L|AugustRadburn
+|choice|move 4|switch 2
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Chansey|Seismic Toss|p2a: Exeggutor
+|-damage|p2a: Exeggutor|293\/393
+|
+|turn|18
+|choice|move 4|switch 2
+|
+|switch|p2a: Snorlax|Snorlax|6\/523
+|move|p1a: Chansey|Seismic Toss|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|c|★Nails|got it
+|c|★teal6|wp
+|choice||switch 2
+|
+|switch|p2a: Exeggutor|Exeggutor|293\/393
+|turn|19
+|choice|move 4|move 2
+|
+|move|p2a: Exeggutor|Sleep Powder|p1a: Chansey
+|-status|p1a: Chansey|slp
+|cant|p1a: Chansey|slp
+|
+|turn|20
+|choice|move 4|switch 3
+|
+|switch|p2a: Tauros|Tauros|324\/353
+|cant|p1a: Chansey|slp
+|
+|turn|21
+|choice|switch 4|move 1
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|256\/353
+|
+|turn|22
+|choice|move 1|switch 3
+|
+|switch|p2a: Exeggutor|Exeggutor|293\/393
+|move|p1a: Tauros|Body Slam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|173\/393
+|-status|p2a: Exeggutor|par
+|
+|turn|23
+|choice|move 2|switch 6
+|
+|switch|p2a: Jynx|Jynx|278\/333 slp
+|move|p1a: Tauros|Hyper Beam|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|choice||switch 5
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|turn|24
+|choice|move 4|move 4
+|
+|move|p1a: Tauros|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|629\/703
+|move|p2a: Chansey|Counter|p1a: Tauros
+|-fail|p2a: Chansey
+|
+|turn|25
+|c|★Nails|ez
+|c|★teal6|damn you're good
+|choice|switch 4|switch 3
+|
+|switch|p1a: Chansey|Chansey|703\/703 slp
+|switch|p2a: Tauros|Tauros|324\/353
+|
+|turn|26
+|c|★teal6|that wasn't sarcastic either 
+|c|★Nails|:O
+|c|★Nails|ty
+|c|★teal6|np
+|choice|switch 2|move 1
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|move|p2a: Tauros|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|154\/313
+|
+|turn|27
+|choice|move 1|switch 6
+|
+|switch|p2a: Exeggutor|Exeggutor|173\/393 par
+|move|p1a: Alakazam|Reflect|p1a: Alakazam
+|-start|p1a: Alakazam|Reflect
+|
+|turn|28
+|choice|move 3|move 4
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|310\/313
+|move|p2a: Exeggutor|Stun Spore|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|
+|turn|29
+|choice|move 2|move 3
+|
+|move|p1a: Alakazam|Psychic|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|57\/393 par
+|move|p2a: Exeggutor|Explosion|p1a: Alakazam
+|-damage|p1a: Alakazam|121\/313 par
+|faint|p2a: Exeggutor
+|choice||switch 6
+|
+|switch|p2a: Tauros|Tauros|324\/353
+|turn|30
+|choice|switch 3|move 4
+|
+|switch|p1a: Jynx|Jynx|333\/333 par
+|move|p2a: Tauros|Hyper Beam|p1a: Jynx
+|-damage|p1a: Jynx|13\/333 par
+|
+|turn|31
+|-mustrecharge|p2a: Tauros
+|-mustrecharge|p2a: Tauros
+|choice|move 2|move 1
+|
+|cant|p2a: Tauros|recharge
+|move|p1a: Jynx|Blizzard|p2a: Tauros
+|-damage|p2a: Tauros|149\/353
+|
+|turn|32
+|choice|move 2|move 1
+|
+|move|p2a: Tauros|Body Slam|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|choice|switch 4|
+|
+|switch|p1a: Tauros|Tauros|256\/353
+|turn|33
+|choice|move 2|switch 3
+|
+|switch|p2a: Chansey|Chansey|629\/703
+|move|p1a: Tauros|Hyper Beam|p2a: Chansey
+|-damage|p2a: Chansey|134\/703
+|
+|turn|34
+|-mustrecharge|p1a: Tauros
+|-mustrecharge|p1a: Tauros
+|choice|move 1|move 3
+|
+|cant|p1a: Tauros|recharge
+|move|p2a: Chansey|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|
+|turn|35
+|choice|switch 3|move 2
+|
+|switch|p1a: Alakazam|Alakazam|121\/313 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|485\/703
+|
+|turn|36
+|c|★Nails|?_?
+|c|★teal6|can i still counter?
+|c|★teal6|i actually dont know that mechanic
+|choice|move 3|move 4
+|
+|cant|p1a: Alakazam|par
+|move|p2a: Chansey|Counter|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|choice|switch 6|
+|
+|switch|p1a: Dragonite|Dragonite|385\/385
+|turn|37
+|choice|move 1|move 3
+|
+|move|p1a: Dragonite|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|445\/703
+|-activate|p2a: Chansey|move: Wrap|[of] p1a: Dragonite
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|38
+|choice|move 1|switch 4
+|
+|switch|p2a: Slowbro|Slowbro|393\/393 slp
+|move|p1a: Dragonite|Wrap|p2a: Slowbro
+|-damage|p2a: Slowbro|378\/393 slp
+|-activate|p2a: Slowbro|move: Wrap|[of] p1a: Dragonite
+|
+|turn|39
+|choice|move 1|switch 4
+|
+|switch|p2a: Chansey|Chansey|445\/703
+|move|p1a: Dragonite|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|408\/703
+|-activate|p2a: Chansey|move: Wrap|[of] p1a: Dragonite
+|
+|turn|40
+|choice|move 1|move 3
+|
+|move|p1a: Dragonite|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|371\/703
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|41
+|choice|move 1|switch 4
+|
+|switch|p2a: Slowbro|Slowbro|378\/393 slp
+|move|p1a: Dragonite|Wrap|p2a: Slowbro|[miss]
+|-miss|p1a: Dragonite
+|
+|turn|42
+|choice|move 3|move 3
+|
+|move|p1a: Dragonite|Agility|p1a: Dragonite
+|-boost|p1a: Dragonite|spe|2
+|cant|p2a: Slowbro|slp
+|
+|turn|43
+|choice|move 1|move 3
+|
+|move|p1a: Dragonite|Wrap|p2a: Slowbro
+|-damage|p2a: Slowbro|365\/393 slp
+|-activate|p2a: Slowbro|move: Wrap|[of] p1a: Dragonite
+|-curestatus|p2a: Slowbro|slp
+|
+|turn|44
+|choice|move 1|move 3
+|
+|move|p1a: Dragonite|Wrap|p2a: Slowbro
+|-damage|p2a: Slowbro|352\/393
+|cant|p2a: Slowbro|partiallytrapped
+|
+|turn|45
+|choice|move 1|move 3
+|
+|move|p1a: Dragonite|Wrap|p2a: Slowbro
+|-damage|p2a: Slowbro|339\/393
+|cant|p2a: Slowbro|partiallytrapped
+|
+|turn|46
+|choice|move 1|move 3
+|
+|move|p1a: Dragonite|Wrap|p2a: Slowbro
+|-damage|p2a: Slowbro|326\/393
+|cant|p2a: Slowbro|partiallytrapped
+|
+|turn|47
+|choice|move 1|move 3
+|
+|move|p1a: Dragonite|Wrap|p2a: Slowbro
+|-damage|p2a: Slowbro|313\/393
+|cant|p2a: Slowbro|partiallytrapped
+|
+|-end|p2a: Slowbro|Wrap|[partiallytrapped]
+|turn|48
+|choice|move 1|move 3
+|
+|move|p1a: Dragonite|Wrap|p2a: Slowbro|[miss]
+|-miss|p1a: Dragonite
+|move|p2a: Slowbro|Thunder Wave|p1a: Dragonite
+|-status|p1a: Dragonite|par
+|
+|turn|49
+|choice|move 1|switch 4
+|
+|switch|p2a: Chansey|Chansey|371\/703
+|move|p1a: Dragonite|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|329\/703
+|-activate|p2a: Chansey|move: Wrap|[of] p1a: Dragonite
+|
+|turn|50
+|choice|move 1|move 1
+|
+|cant|p2a: Chansey|partiallytrapped
+|cant|p1a: Dragonite|par
+|
+|-end|p2a: Chansey|Wrap|[partiallytrapped]
+|turn|51
+|choice|move 3|move 1
+|
+|move|p2a: Chansey|Ice Beam|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|80\/385 par
+|move|p1a: Dragonite|Agility|p1a: Dragonite
+|-boost|p1a: Dragonite|spe|2
+|
+|turn|52
+|c|★teal6|shit
+|c|★teal6|lol
+|choice|move 2|move 1
+|
+|move|p1a: Dragonite|Hyper Beam|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|choice||switch 4
+|
+|switch|p2a: Slowbro|Slowbro|313\/393
+|turn|53
+|choice|move 1|move 2
+|
+|move|p1a: Dragonite|Wrap|p2a: Slowbro
+|-damage|p2a: Slowbro|299\/393
+|-activate|p2a: Slowbro|move: Wrap|[of] p1a: Dragonite
+|cant|p2a: Slowbro|partiallytrapped
+|
+|turn|54
+|choice|move 1|move 2
+|
+|move|p1a: Dragonite|Wrap|p2a: Slowbro
+|-damage|p2a: Slowbro|285\/393
+|cant|p2a: Slowbro|partiallytrapped
+|
+|turn|55
+|choice|move 1|move 2
+|
+|cant|p1a: Dragonite|par
+|cant|p2a: Slowbro|partiallytrapped
+|
+|-end|p2a: Slowbro|Wrap|[partiallytrapped]
+|turn|56
+|choice|move 1|move 2
+|
+|move|p1a: Dragonite|Wrap|p2a: Slowbro
+|-damage|p2a: Slowbro|271\/393
+|-activate|p2a: Slowbro|move: Wrap|[of] p1a: Dragonite
+|cant|p2a: Slowbro|partiallytrapped
+|
+|turn|57
+|choice|move 1|move 2
+|
+|move|p1a: Dragonite|Wrap|p2a: Slowbro
+|-damage|p2a: Slowbro|257\/393
+|cant|p2a: Slowbro|partiallytrapped
+|
+|turn|58
+|choice|move 1|move 2
+|
+|move|p1a: Dragonite|Wrap|p2a: Slowbro
+|-damage|p2a: Slowbro|243\/393
+|cant|p2a: Slowbro|partiallytrapped
+|
+|-end|p2a: Slowbro|Wrap|[partiallytrapped]
+|turn|59
+|choice|move 1|move 2
+|
+|move|p1a: Dragonite|Wrap|p2a: Slowbro
+|-damage|p2a: Slowbro|229\/393
+|-activate|p2a: Slowbro|move: Wrap|[of] p1a: Dragonite
+|cant|p2a: Slowbro|partiallytrapped
+|
+|turn|60
+|choice|move 1|move 2
+|
+|move|p1a: Dragonite|Wrap|p2a: Slowbro
+|-damage|p2a: Slowbro|215\/393
+|cant|p2a: Slowbro|partiallytrapped
+|
+|turn|61
+|choice|move 1|move 2
+|
+|cant|p1a: Dragonite|par
+|cant|p2a: Slowbro|partiallytrapped
+|
+|-end|p2a: Slowbro|Wrap|[partiallytrapped]
+|turn|62
+|choice|move 1|move 2
+|
+|move|p1a: Dragonite|Wrap|p2a: Slowbro
+|-damage|p2a: Slowbro|202\/393
+|-activate|p2a: Slowbro|move: Wrap|[of] p1a: Dragonite
+|cant|p2a: Slowbro|partiallytrapped
+|
+|turn|63
+|choice|move 1|move 2
+|
+|move|p1a: Dragonite|Wrap|p2a: Slowbro
+|-damage|p2a: Slowbro|189\/393
+|cant|p2a: Slowbro|partiallytrapped
+|
+|turn|64
+|choice|move 1|move 2
+|
+|move|p1a: Dragonite|Wrap|p2a: Slowbro
+|-damage|p2a: Slowbro|176\/393
+|cant|p2a: Slowbro|partiallytrapped
+|
+|-end|p2a: Slowbro|Wrap|[partiallytrapped]
+|turn|65
+|choice|move 1|move 2
+|
+|move|p1a: Dragonite|Wrap|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-damage|p2a: Slowbro|150\/393
+|-activate|p2a: Slowbro|move: Wrap|[of] p1a: Dragonite
+|cant|p2a: Slowbro|partiallytrapped
+|
+|turn|66
+|choice|move 1|move 2
+|
+|move|p1a: Dragonite|Wrap|p2a: Slowbro
+|-damage|p2a: Slowbro|124\/393
+|cant|p2a: Slowbro|partiallytrapped
+|
+|turn|67
+|choice|move 1|move 2
+|
+|move|p1a: Dragonite|Wrap|p2a: Slowbro
+|-damage|p2a: Slowbro|98\/393
+|cant|p2a: Slowbro|partiallytrapped
+|
+|turn|68
+|choice|move 1|move 2
+|
+|move|p1a: Dragonite|Wrap|p2a: Slowbro
+|-damage|p2a: Slowbro|72\/393
+|cant|p2a: Slowbro|partiallytrapped
+|
+|-end|p2a: Slowbro|Wrap|[partiallytrapped]
+|turn|69
+|choice|move 2|move 2
+|
+|move|p1a: Dragonite|Hyper Beam|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|choice||switch 3
+|
+|switch|p2a: Tauros|Tauros|149\/353
+|turn|70
+|c|★teal6|para
+|c|★teal6|plz
+|choice|move 1|move 1
+|
+|move|p1a: Dragonite|Wrap|p2a: Tauros|[miss]
+|-miss|p1a: Dragonite
+|move|p2a: Tauros|Body Slam|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|c|★Nails|unlucky
+|choice|switch 3|
+|
+|switch|p1a: Tauros|Tauros|256\/353 par
+|turn|71
+|c|★teal6|yeah
+|c|★teal6|but you're out of hb range i think
+|choice|move 2|move 4
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Tauros|[miss]
+|-miss|p2a: Tauros
+|move|p1a: Tauros|Hyper Beam|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|win|Nails

@@ -1,0 +1,30 @@
+﻿|join|jacobf321
+|join|MALESANI
+|player|p1|jacobf321|137
+|player|p2|MALESANI|238
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|42789,2984,8236,56861
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Zapdos|Zapdos, L79|304\/304
+|switch|p2a: Nidorino|Nidorino, L90|293\/293
+|turn|1
+|choice|move 1|switch 3
+|
+|switch|p2a: Marowak|Marowak, L90|291\/291
+|move|p1a: Zapdos|Drill Peck|p2a: Marowak
+|-crit|p2a: Marowak
+|-damage|p2a: Marowak|186\/291
+|
+|turn|2
+|-message|jacobf321 forfeited.
+|
+|win|MALESANI
+|leave|jacobf321
+|player|p1

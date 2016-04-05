@@ -1,0 +1,311 @@
+﻿|join|Cheesing
+|join|inoobunoob
+|player|p1|Cheesing|244
+|player|p2|inoobunoob|170
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Magikarp|Magikarp, L99|240\/240
+|switch|p2a: Electrode|Electrode, L86|279\/279
+|turn|1
+|
+|move|p2a: Electrode|Thunder Wave|p1a: Magikarp
+|-status|p1a: Magikarp|par
+|move|p1a: Magikarp|Dragon Rage|p2a: Electrode
+|-damage|p2a: Electrode|239\/279
+|
+|turn|2
+|
+|switch|p2a: Victreebel|Victreebel, L86|313\/313
+|cant|p1a: Magikarp|par
+|
+|turn|3
+|
+|switch|p1a: Ninetales|Ninetales, L86|301\/301
+|move|p2a: Victreebel|Swords Dance|p2a: Victreebel
+|-boost|p2a: Victreebel|atk|2
+|
+|turn|4
+|
+|move|p1a: Ninetales|Fire Blast|p2a: Victreebel
+|-supereffective|p2a: Victreebel
+|-damage|p2a: Victreebel|61\/313
+|move|p2a: Victreebel|Sleep Powder|p1a: Ninetales|[miss]
+|-miss|p2a: Victreebel
+|
+|turn|5
+|
+|move|p1a: Ninetales|Double-Edge|p2a: Victreebel
+|-damage|p2a: Victreebel|0 fnt
+|-damage|p1a: Ninetales|286\/301|[from] recoil|[of] p2a: Victreebel
+|faint|p2a: Victreebel
+|
+|switch|p2a: Electrode|Electrode, L86|239\/279
+|turn|6
+|
+|switch|p2a: Alakazam|Alakazam, L80|252\/252
+|move|p1a: Ninetales|Fire Blast|p2a: Alakazam|[miss]
+|-miss|p1a: Ninetales
+|
+|turn|7
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Ninetales
+|-status|p1a: Ninetales|par
+|move|p1a: Ninetales|Fire Blast|p2a: Alakazam
+|-damage|p2a: Alakazam|143\/252
+|-status|p2a: Alakazam|brn
+|
+|turn|8
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|252\/252 brn
+|-damage|p2a: Alakazam|237\/252 brn|[from] brn
+|cant|p1a: Ninetales|par
+|
+|turn|9
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Ninetales
+|-damage|p1a: Ninetales|206\/301 par
+|-damage|p2a: Alakazam|222\/252 brn|[from] brn|[of] p1a: Ninetales
+|cant|p1a: Ninetales|par
+|
+|turn|10
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Ninetales
+|-damage|p1a: Ninetales|126\/301 par
+|-damage|p2a: Alakazam|207\/252 brn|[from] brn|[of] p1a: Ninetales
+|cant|p1a: Ninetales|par
+|
+|turn|11
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Ninetales
+|-damage|p1a: Ninetales|46\/301 par
+|-damage|p2a: Alakazam|192\/252 brn|[from] brn|[of] p1a: Ninetales
+|cant|p1a: Ninetales|par
+|
+|turn|12
+|c|★Cheesing|:(
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|switch|p1a: Raticate|Raticate, L86|270\/270
+|turn|13
+|
+|switch|p2a: Tangela|Tangela, L86|287\/287
+|move|p1a: Raticate|Hyper Beam|p2a: Tangela
+|-damage|p2a: Tangela|172\/287
+|
+|turn|14
+|
+|cant|p1a: Raticate|recharge
+|move|p2a: Tangela|Sleep Powder|p1a: Raticate|[miss]
+|-miss|p2a: Tangela
+|
+|turn|15
+|
+|move|p1a: Raticate|Body Slam|p2a: Tangela
+|-damage|p2a: Tangela|102\/287
+|move|p2a: Tangela|Sleep Powder|p1a: Raticate|[miss]
+|-miss|p2a: Tangela
+|
+|turn|16
+|
+|move|p1a: Raticate|Hyper Beam|p2a: Tangela
+|-damage|p2a: Tangela|0 fnt
+|faint|p2a: Tangela
+|
+|switch|p2a: Alakazam|Alakazam, L80|192\/252 brn
+|turn|17
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Raticate
+|-status|p1a: Raticate|par
+|-damage|p2a: Alakazam|177\/252 brn|[from] brn|[of] p1a: Raticate
+|cant|p1a: Raticate|par
+|
+|turn|18
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Raticate
+|-damage|p1a: Raticate|190\/270 par
+|-damage|p2a: Alakazam|162\/252 brn|[from] brn|[of] p1a: Raticate
+|move|p1a: Raticate|Hyper Beam|p2a: Alakazam|[miss]
+|-miss|p1a: Raticate
+|
+|turn|19
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Raticate
+|-damage|p1a: Raticate|110\/270 par
+|-damage|p2a: Alakazam|147\/252 brn|[from] brn|[of] p1a: Raticate
+|move|p1a: Raticate|Body Slam|p2a: Alakazam
+|-damage|p2a: Alakazam|21\/252 brn
+|
+|turn|20
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|147\/252 brn
+|-damage|p2a: Alakazam|132\/252 brn|[from] brn
+|move|p1a: Raticate|Hyper Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|switch|p2a: Pidgeot|Pidgeot, L86|318\/318
+|turn|21
+|
+|move|p2a: Pidgeot|Mirror Move|p1a: Raticate
+|move|p2a: Pidgeot|Hyper Beam|p1a: Raticate|[from]Mirror Move
+|-damage|p1a: Raticate|0 fnt
+|faint|p1a: Raticate
+|
+|switch|p1a: Clefable|Clefable, L86|339\/339
+|turn|22
+|
+|move|p2a: Pidgeot|Sky Attack|p1a: Clefable|[still]
+|-prepare|p2a: Pidgeot|Sky Attack|p1a: Clefable
+|move|p1a: Clefable|Thunder Wave|p2a: Pidgeot
+|-status|p2a: Pidgeot|par
+|
+|turn|23
+|
+|move|p1a: Clefable|Thunder|p2a: Pidgeot|[miss]
+|-miss|p1a: Clefable
+|move|p2a: Pidgeot|Sky Attack|p1a: Clefable
+|-damage|p1a: Clefable|202\/339
+|
+|turn|24
+|
+|move|p1a: Clefable|Thunder|p2a: Pidgeot|[miss]
+|-miss|p1a: Clefable
+|move|p2a: Pidgeot|Double-Edge|p1a: Clefable
+|-damage|p1a: Clefable|97\/339
+|-damage|p2a: Pidgeot|292\/318 par|[from] recoil|[of] p1a: Clefable
+|
+|turn|25
+|
+|move|p1a: Clefable|Thunder|p2a: Pidgeot
+|-supereffective|p2a: Pidgeot
+|-damage|p2a: Pidgeot|113\/318 par
+|move|p2a: Pidgeot|Double-Edge|p1a: Clefable
+|-crit|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|-damage|p2a: Pidgeot|89\/318 par|[from] recoil|[of] p1a: Clefable
+|faint|p1a: Clefable
+|
+|switch|p1a: Dragonair|Dragonair, L86|280\/280
+|turn|26
+|
+|switch|p2a: Electrode|Electrode, L86|239\/279
+|move|p1a: Dragonair|Ice Beam|p2a: Electrode
+|-damage|p2a: Electrode|182\/279
+|
+|turn|27
+|
+|move|p2a: Electrode|Thunder Wave|p1a: Dragonair
+|-status|p1a: Dragonair|par
+|move|p1a: Dragonair|Body Slam|p2a: Electrode
+|-damage|p2a: Electrode|120\/279
+|
+|turn|28
+|
+|switch|p2a: Horsea|Horsea, L95|250\/250
+|move|p1a: Dragonair|Agility|p1a: Dragonair
+|-boost|p1a: Dragonair|spe|2
+|
+|turn|29
+|
+|cant|p1a: Dragonair|par
+|move|p2a: Horsea|Blizzard|p1a: Dragonair
+|-crit|p1a: Dragonair
+|-supereffective|p1a: Dragonair
+|-damage|p1a: Dragonair|0 fnt
+|faint|p1a: Dragonair
+|c|★Cheesing|:(
+|
+|switch|p1a: Machamp|Machamp, L86|330\/330
+|turn|30
+|
+|switch|p2a: Pidgeot|Pidgeot, L86|89\/318 par
+|move|p1a: Machamp|Body Slam|p2a: Pidgeot
+|-damage|p2a: Pidgeot|5\/318 par
+|
+|turn|31
+|
+|move|p1a: Machamp|Body Slam|p2a: Pidgeot
+|-damage|p2a: Pidgeot|0 fnt
+|faint|p2a: Pidgeot
+|c|★inoobunoob|i have my share of sleep powder misses
+|
+|switch|p2a: Electrode|Electrode, L86|120\/279
+|turn|32
+|
+|switch|p1a: Magikarp|Magikarp, L99|240\/240 par
+|move|p2a: Electrode|Thunder Wave|p1a: Magikarp
+|-fail|p1a: Magikarp|par
+|
+|turn|33
+|
+|switch|p2a: Horsea|Horsea, L95|250\/250
+|move|p1a: Magikarp|Dragon Rage|p2a: Horsea
+|-damage|p2a: Horsea|210\/250
+|
+|turn|34
+|
+|move|p2a: Horsea|Hydro Pump|p1a: Magikarp
+|-resisted|p1a: Magikarp
+|-damage|p1a: Magikarp|126\/240 par
+|cant|p1a: Magikarp|par
+|
+|turn|35
+|
+|move|p2a: Horsea|Hydro Pump|p1a: Magikarp|[miss]
+|-miss|p2a: Horsea
+|move|p1a: Magikarp|Dragon Rage|p2a: Horsea
+|-damage|p2a: Horsea|170\/250
+|
+|turn|36
+|
+|move|p2a: Horsea|Hydro Pump|p1a: Magikarp
+|-resisted|p1a: Magikarp
+|-damage|p1a: Magikarp|13\/240 par
+|move|p1a: Magikarp|Dragon Rage|p2a: Horsea
+|-damage|p2a: Horsea|130\/250
+|
+|turn|37
+|
+|move|p2a: Horsea|Blizzard|p1a: Magikarp
+|-resisted|p1a: Magikarp
+|-damage|p1a: Magikarp|0 fnt
+|faint|p1a: Magikarp
+|
+|switch|p1a: Machamp|Machamp, L86|330\/330
+|turn|38
+|
+|move|p2a: Horsea|Hydro Pump|p1a: Machamp
+|-crit|p1a: Machamp
+|-damage|p1a: Machamp|44\/330
+|move|p1a: Machamp|Hyper Beam|p2a: Horsea
+|-damage|p2a: Horsea|0 fnt
+|faint|p2a: Horsea
+|
+|switch|p2a: Electrode|Electrode, L86|120\/279
+|turn|39
+|c|★Cheesing|gg
+|
+|move|p2a: Electrode|Explosion|p1a: Machamp
+|-damage|p1a: Machamp|0 fnt
+|faint|p1a: Machamp
+|faint|p2a: Electrode
+|
+|win|inoobunoob
+|raw|Ladder updating...
+|raw|Cheesing's rating: 1488 &rarr; <strong>1460<\/strong><br \/>(-28 for losing)
+|raw|inoobunoob's rating: 1329 &rarr; <strong>1357<\/strong><br \/>(+28 for winning)
+|c|★inoobunoob|gg
+|leave|Cheesing
+|player|p1

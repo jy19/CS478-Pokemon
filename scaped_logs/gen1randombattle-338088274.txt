@@ -1,0 +1,223 @@
+﻿|j|Dervodel2
+|j|shid0x
+|player|p1|Dervodel2|238
+|player|p2|shid0x|265
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Blastoise|Blastoise, L85|100\/100
+|switch|p2a: Metapod|Metapod, L99|100\/100
+|turn|1
+|choice||
+|
+|switch|p1a: Flareon|Flareon, L90|100\/100
+|move|p2a: Metapod|Harden|p2a: Metapod
+|-boost|p2a: Metapod|def|1
+|
+|turn|2
+|choice||
+|
+|move|p1a: Flareon|Fire Blast|p2a: Metapod
+|-supereffective|p2a: Metapod
+|-damage|p2a: Metapod|0 fnt
+|faint|p2a: Metapod
+|choice||
+|
+|switch|p2a: Dragonite|Dragonite, L85|100\/100
+|turn|3
+|choice||
+|
+|switch|p1a: Blastoise|Blastoise, L85|100\/100
+|move|p2a: Dragonite|Surf|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|88\/100
+|
+|turn|4
+|choice||
+|
+|switch|p2a: Gengar|Gengar, L79|100\/100
+|switch|p1a: Marowak|Marowak, L90|100\/100
+|
+|turn|5
+|choice||
+|
+|move|p2a: Gengar|Psychic|p1a: Marowak
+|-damage|p1a: Marowak|69\/100
+|move|p1a: Marowak|Earthquake|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|choice||
+|
+|switch|p2a: Dragonite|Dragonite, L85|100\/100
+|turn|6
+|choice||
+|
+|switch|p1a: Jolteon|Jolteon, L79|100\/100
+|move|p2a: Dragonite|Thunder|p1a: Jolteon|[miss]
+|-miss|p2a: Dragonite
+|
+|turn|7
+|choice||
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Dragonite
+|-damage|p2a: Dragonite|72\/100
+|move|p2a: Dragonite|Surf|p1a: Jolteon
+|-damage|p1a: Jolteon|76\/100
+|
+|turn|8
+|choice||
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Dragonite
+|-damage|p2a: Dragonite|45\/100
+|move|p2a: Dragonite|Blizzard|p1a: Jolteon
+|-damage|p1a: Jolteon|44\/100
+|
+|turn|9
+|choice||
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Dragonite
+|-damage|p2a: Dragonite|18\/100
+|move|p2a: Dragonite|Blizzard|p1a: Jolteon
+|-damage|p1a: Jolteon|13\/100
+|
+|turn|10
+|choice||
+|
+|switch|p2a: Persian|Persian, L79|100\/100
+|move|p1a: Jolteon|Thunderbolt|p2a: Persian
+|-damage|p2a: Persian|57\/100
+|
+|turn|11
+|choice||
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Persian
+|-crit|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|faint|p2a: Persian
+|choice||
+|
+|switch|p2a: Zapdos|Zapdos, L79|100\/100
+|turn|12
+|c|★Dervodel2|sorry
+|choice||
+|
+|switch|p1a: Marowak|Marowak, L90|69\/100
+|move|p2a: Zapdos|Drill Peck|p1a: Marowak
+|-damage|p1a: Marowak|48\/100
+|
+|turn|13
+|choice||
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Marowak
+|-damage|p1a: Marowak|29\/100
+|move|p1a: Marowak|Body Slam|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|55\/100
+|
+|turn|14
+|choice||
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Marowak
+|-damage|p1a: Marowak|8\/100
+|move|p1a: Marowak|Body Slam|p2a: Zapdos
+|-damage|p2a: Zapdos|33\/100
+|
+|turn|15
+|choice||
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Marowak
+|-damage|p1a: Marowak|0 fnt
+|faint|p1a: Marowak
+|choice||
+|
+|switch|p1a: Kangaskhan|Kangaskhan, L85|100\/100
+|turn|16
+|choice||
+|
+|move|p1a: Kangaskhan|Body Slam|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|choice||
+|
+|switch|p2a: Jynx|Jynx, L79|100\/100
+|turn|17
+|choice||
+|
+|move|p1a: Kangaskhan|Body Slam|p2a: Jynx
+|-damage|p2a: Jynx|37\/100
+|-status|p2a: Jynx|par
+|move|p2a: Jynx|Lovely Kiss|p1a: Kangaskhan
+|-status|p1a: Kangaskhan|slp
+|
+|turn|18
+|choice||
+|
+|switch|p1a: Omastar|Omastar, L90|100\/100
+|move|p2a: Jynx|Blizzard|p1a: Omastar
+|-resisted|p1a: Omastar
+|-damage|p1a: Omastar|87\/100
+|-status|p1a: Omastar|frz
+|
+|turn|19
+|c|★Dervodel2|unfortunate
+|choice||
+|
+|switch|p1a: Flareon|Flareon, L90|100\/100
+|move|p2a: Jynx|Psychic|p1a: Flareon
+|-damage|p1a: Flareon|78\/100
+|-unboost|p1a: Flareon|spd|1
+|-unboost|p1a: Flareon|spa|1
+|
+|turn|20
+|choice||
+|
+|move|p1a: Flareon|Body Slam|p2a: Jynx
+|-crit|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|choice||
+|
+|switch|p2a: Dragonite|Dragonite, L85|18\/100
+|turn|21
+|choice||
+|
+|move|p1a: Flareon|Quick Attack|p2a: Dragonite
+|-damage|p2a: Dragonite|7\/100
+|move|p2a: Dragonite|Surf|p1a: Flareon
+|-supereffective|p1a: Flareon
+|-damage|p1a: Flareon|19\/100
+|
+|turn|22
+|c|★Dervodel2|gg
+|choice||
+|
+|switch|p1a: Blastoise|Blastoise, L85|88\/100
+|move|p2a: Dragonite|Surf|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|76\/100
+|
+|turn|23
+|choice||
+|
+|move|p2a: Dragonite|Thunder|p1a: Blastoise
+|-supereffective|p1a: Blastoise
+|-damage|p1a: Blastoise|18\/100
+|move|p1a: Blastoise|Surf|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|win|Dervodel2
+|player|p1
+|player|p2
+|raw|Dervodel2's rating: 1343 &rarr; <strong>1350<\/strong><br \/>(+7 for winning)
+|raw|shid0x's rating: 1076 &rarr; <strong>1068<\/strong><br \/>(-8 for losing)
+|l|shid0x

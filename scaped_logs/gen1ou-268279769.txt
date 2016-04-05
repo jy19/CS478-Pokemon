@@ -1,0 +1,221 @@
+﻿|join|SunnyORAS
+|join|Enigami
+|player|p1|SunnyORAS|1
+|player|p2|Enigami|130
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gengar|Gengar|323\/323
+|switch|p2a: Alakazam|Alakazam|313\/313
+|turn|1
+|c|★SunnyORAS|glgl
+|
+|move|p2a: Alakazam|Psychic|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|114\/323
+|move|p1a: Gengar|Explosion|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|faint|p1a: Gengar
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|turn|2
+|
+|move|p2a: Exeggutor|Sleep Powder|p1a: Exeggutor
+|-status|p1a: Exeggutor|slp
+|cant|p1a: Exeggutor|slp
+|
+|turn|3
+|
+|move|p2a: Exeggutor|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|339\/393 slp
+|-curestatus|p1a: Exeggutor|slp
+|
+|turn|4
+|
+|move|p2a: Exeggutor|Sleep Powder|p1a: Exeggutor
+|-status|p1a: Exeggutor|slp
+|cant|p1a: Exeggutor|slp
+|
+|turn|5
+|c|★SunnyORAS|D:
+|
+|cant|p1a: Exeggutor|slp
+|move|p2a: Exeggutor|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|289\/393 slp
+|
+|turn|6
+|
+|move|p2a: Exeggutor|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|239\/393 slp
+|cant|p1a: Exeggutor|slp
+|
+|turn|7
+|
+|move|p2a: Exeggutor|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|190\/393 slp
+|cant|p1a: Exeggutor|slp
+|
+|turn|8
+|
+|cant|p1a: Exeggutor|slp
+|move|p2a: Exeggutor|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|136\/393 slp
+|-unboost|p1a: Exeggutor|spd|1
+|-unboost|p1a: Exeggutor|spa|1
+|
+|turn|9
+|
+|switch|p1a: Chonsey|Chansey|703\/703
+|move|p2a: Exeggutor|Psychic|p1a: Chonsey
+|-damage|p1a: Chonsey|591\/703
+|
+|turn|10
+|
+|switch|p1a: Exeggutor|Exeggutor|136\/393 slp
+|move|p2a: Exeggutor|Stun Spore|p1a: Exeggutor
+|-fail|p1a: Exeggutor
+|
+|turn|11
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: Exeggutor|Psychic|p1a: Snorlax
+|-damage|p1a: Snorlax|359\/523
+|-unboost|p1a: Snorlax|spd|1
+|-unboost|p1a: Snorlax|spa|1
+|
+|turn|12
+|
+|move|p2a: Exeggutor|Psychic|p1a: Snorlax
+|-damage|p1a: Snorlax|93\/523
+|move|p1a: Snorlax|Body Slam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|268\/393
+|
+|turn|13
+|c|★SunnyORAS|ugh
+|
+|move|p2a: Exeggutor|Psychic|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|c|★SunnyORAS|;-;
+|c|★SunnyORAS|gg
+|c|★Enigami|Best Exeggutor ever.
+|
+|switch|p1a: Chonsey|Chansey|591\/703
+|turn|14
+|
+|move|p2a: Exeggutor|Stun Spore|p1a: Chonsey
+|-status|p1a: Chonsey|par
+|move|p1a: Chonsey|Ice Beam|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|141\/393
+|
+|turn|15
+|
+|switch|p1a: Exeggutor|Exeggutor|136\/393 slp
+|move|p2a: Exeggutor|Explosion|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|faint|p2a: Exeggutor
+|
+|switch|p1a: MOUSE!|Raichu|323\/323
+|switch|p2a: Snorlax|Snorlax|523\/523
+|turn|16
+|c|★Enigami|Ooh!
+|
+|move|p1a: MOUSE!|Thunderbolt|p2a: Snorlax
+|-damage|p2a: Snorlax|392\/523
+|move|p2a: Snorlax|Earthquake|p1a: MOUSE!
+|-supereffective|p1a: MOUSE!
+|-damage|p1a: MOUSE!|98\/323
+|
+|turn|17
+|c|★SunnyORAS|eheheh
+|
+|move|p1a: MOUSE!|Thunderbolt|p2a: Snorlax
+|-damage|p2a: Snorlax|253\/523
+|move|p2a: Snorlax|Earthquake|p1a: MOUSE!
+|-crit|p1a: MOUSE!
+|-supereffective|p1a: MOUSE!
+|-damage|p1a: MOUSE!|0 fnt
+|faint|p1a: MOUSE!
+|c|★SunnyORAS|i wanted mouse to put in work but it bupkiss
+|c|★SunnyORAS|bad mon
+|
+|switch|p1a: Koopacow|Tauros|353\/353
+|turn|18
+|
+|switch|p1a: Chonsey|Chansey|591\/703 par
+|move|p2a: Snorlax|Self-Destruct|p1a: Chonsey
+|-damage|p1a: Chonsey|0 fnt
+|faint|p1a: Chonsey
+|faint|p2a: Snorlax
+|c|★Enigami|Eh, Chansey's good too.
+|c|★SunnyORAS|ch0nsey
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|switch|p1a: Koopacow|Tauros|353\/353
+|turn|19
+|c|★Enigami|gg
+|
+|move|p2a: Starmie|Psychic|p1a: Koopacow
+|-damage|p1a: Koopacow|214\/353
+|-unboost|p1a: Koopacow|spd|1
+|-unboost|p1a: Koopacow|spa|1
+|move|p1a: Koopacow|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|215\/323
+|
+|turn|20
+|c|★SunnyORAS|G_G
+|
+|move|p2a: Starmie|Thunder Wave|p1a: Koopacow
+|-status|p1a: Koopacow|par
+|move|p1a: Koopacow|Hyper Beam|p2a: Starmie
+|-damage|p2a: Starmie|29\/323
+|
+|turn|21
+|-mustrecharge|p1a: Koopacow
+|-mustrecharge|p1a: Koopacow
+|c|★Enigami|I don't know why I didn't go for the T-Wave first.
+|
+|move|p2a: Starmie|Psychic|p1a: Koopacow
+|-damage|p1a: Koopacow|2\/353 par
+|-unboost|p1a: Koopacow|spd|1
+|-unboost|p1a: Koopacow|spa|1
+|cant|p1a: Koopacow|recharge
+|
+|turn|22
+|
+|switch|p2a: Raichu|Raichu|323\/323
+|move|p1a: Koopacow|Hyper Beam|p2a: Raichu
+|-damage|p2a: Raichu|88\/323
+|
+|turn|23
+|-mustrecharge|p1a: Koopacow
+|c|★Enigami|Here's my UU mon.
+|c|★SunnyORAS|<3
+|-mustrecharge|p1a: Koopacow
+|
+|move|p2a: Raichu|Surf|p1a: Koopacow
+|-damage|p1a: Koopacow|0 fnt
+|faint|p1a: Koopacow
+|
+|win|Enigami
+|c|★Enigami|gg
+|leave|Enigami
+|player|p2

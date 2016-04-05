@@ -1,0 +1,988 @@
+﻿|join|ToxicWyvern
+|join|tururu42
+|player|p1|ToxicWyvern|94
+|player|p2|tururu42|131
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Kabutops|Kabutops, L86|279\/279
+|switch|p2a: Grimer|Grimer, L95|345\/345
+|turn|1
+|
+|move|p1a: Kabutops|Swords Dance|p1a: Kabutops
+|-boost|p1a: Kabutops|atk|2
+|move|p2a: Grimer|Mega Drain|p1a: Kabutops
+|-supereffective|p1a: Kabutops
+|-damage|p1a: Kabutops|171\/279
+|
+|turn|2
+|
+|move|p1a: Kabutops|Body Slam|p2a: Grimer
+|-damage|p2a: Grimer|176\/345
+|move|p2a: Grimer|Mega Drain|p1a: Kabutops
+|-supereffective|p1a: Kabutops
+|-damage|p1a: Kabutops|62\/279
+|-heal|p2a: Grimer|230\/345|[from] drain|[of] p1a: Kabutops
+|
+|turn|3
+|
+|move|p1a: Kabutops|Hyper Beam|p2a: Grimer
+|-damage|p2a: Grimer|0 fnt
+|faint|p2a: Grimer
+|
+|switch|p2a: Kabutops|Kabutops, L86|279\/279
+|turn|4
+|
+|move|p2a: Kabutops|Surf|p1a: Kabutops
+|-damage|p1a: Kabutops|0 fnt
+|faint|p1a: Kabutops
+|
+|switch|p1a: Blastoise|Blastoise, L86|311\/311
+|turn|5
+|
+|move|p2a: Kabutops|Body Slam|p1a: Blastoise
+|-damage|p1a: Blastoise|252\/311
+|move|p1a: Blastoise|Surf|p2a: Kabutops
+|-damage|p2a: Kabutops|177\/279
+|
+|turn|6
+|
+|move|p2a: Kabutops|Body Slam|p1a: Blastoise
+|-damage|p1a: Blastoise|192\/311
+|move|p1a: Blastoise|Surf|p2a: Kabutops
+|-damage|p2a: Kabutops|64\/279
+|
+|turn|7
+|
+|move|p2a: Kabutops|Hyper Beam|p1a: Blastoise
+|-damage|p1a: Blastoise|82\/311
+|move|p1a: Blastoise|Surf|p2a: Kabutops
+|-damage|p2a: Kabutops|0 fnt
+|faint|p2a: Kabutops
+|
+|switch|p2a: Gloom|Gloom, L86|279\/279
+|turn|8
+|
+|move|p1a: Blastoise|Rest|p1a: Blastoise
+|-status|p1a: Blastoise|slp
+|-heal|p1a: Blastoise|311\/311 slp|[silent]
+|-status|p1a: Blastoise|slp|[from] move: Rest
+|move|p2a: Gloom|Mega Drain|p1a: Blastoise
+|-supereffective|p1a: Blastoise
+|-damage|p1a: Blastoise|227\/311 slp
+|
+|turn|9
+|
+|switch|p1a: Dodrio|Dodrio, L86|279\/279
+|move|p2a: Gloom|Mega Drain|p1a: Dodrio
+|-resisted|p1a: Dodrio
+|-damage|p1a: Dodrio|254\/279
+|
+|turn|10
+|
+|move|p1a: Dodrio|Drill Peck|p2a: Gloom
+|-supereffective|p2a: Gloom
+|-damage|p2a: Gloom|80\/279
+|move|p2a: Gloom|Body Slam|p1a: Dodrio
+|-damage|p1a: Dodrio|201\/279
+|
+|turn|11
+|
+|move|p1a: Dodrio|Drill Peck|p2a: Gloom
+|-supereffective|p2a: Gloom
+|-damage|p2a: Gloom|0 fnt
+|faint|p2a: Gloom
+|
+|switch|p2a: Pidgeotto|Pidgeotto, L86|284\/284
+|turn|12
+|
+|move|p1a: Dodrio|Body Slam|p2a: Pidgeotto
+|-damage|p2a: Pidgeotto|159\/284
+|move|p2a: Pidgeotto|Reflect|p2a: Pidgeotto
+|
+|turn|13
+|
+|move|p1a: Dodrio|Mimic|p2a: Pidgeotto
+|-start|p1a: Dodrio|Mimic|Double-Edge
+|move|p2a: Pidgeotto|Double-Edge|p1a: Dodrio
+|-damage|p1a: Dodrio|103\/279
+|-damage|p2a: Pidgeotto|135\/284|[from] recoil|[of] p1a: Dodrio
+|
+|turn|14
+|
+|move|p1a: Dodrio|Hyper Beam|p2a: Pidgeotto
+|-damage|p2a: Pidgeotto|11\/284
+|move|p2a: Pidgeotto|Double-Edge|p1a: Dodrio
+|-damage|p1a: Dodrio|7\/279
+|-damage|p2a: Pidgeotto|0 fnt|[from] recoil|[of] p1a: Dodrio
+|faint|p2a: Pidgeotto
+|
+|switch|p2a: Exeggutor|Exeggutor, L80|316\/316
+|turn|15
+|
+|cant|p1a: Dodrio|recharge
+|move|p2a: Exeggutor|Psychic|p1a: Dodrio
+|-damage|p1a: Dodrio|0 fnt
+|faint|p1a: Dodrio
+|
+|switch|p1a: Persian|Persian, L80|268\/268
+|turn|16
+|
+|move|p1a: Persian|Body Slam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|240\/316
+|-status|p2a: Exeggutor|par
+|move|p2a: Exeggutor|Sleep Powder|p1a: Persian
+|-status|p1a: Persian|slp
+|
+|turn|17
+|
+|cant|p1a: Persian|slp
+|cant|p2a: Exeggutor|par
+|
+|turn|18
+|
+|cant|p1a: Persian|slp
+|move|p2a: Exeggutor|Psychic|p1a: Persian
+|-damage|p1a: Persian|133\/268 slp
+|-unboost|p1a: Persian|spd|1
+|-unboost|p1a: Persian|spa|1
+|
+|turn|19
+|
+|cant|p1a: Persian|slp
+|-curestatus|p1a: Persian|slp
+|cant|p2a: Exeggutor|par
+|
+|turn|20
+|
+|move|p1a: Persian|Slash|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-damage|p2a: Exeggutor|131\/316 par
+|move|p2a: Exeggutor|Psychic|p1a: Persian
+|-damage|p1a: Persian|0 fnt
+|faint|p1a: Persian
+|
+|switch|p1a: Onix|Onix, L86|236\/236
+|turn|21
+|
+|move|p1a: Onix|Rock Slide|p2a: Exeggutor
+|-damage|p2a: Exeggutor|77\/316 par
+|move|p2a: Exeggutor|Sleep Powder|p1a: Onix|[miss]
+|-miss|p2a: Exeggutor
+|
+|turn|22
+|
+|move|p1a: Onix|Rock Slide|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Vaporeon|Vaporeon, L86|399\/399
+|turn|23
+|
+|move|p1a: Onix|Explosion|p2a: Vaporeon
+|-damage|p2a: Vaporeon|211\/399
+|faint|p1a: Onix
+|
+|switch|p1a: Ivysaur|Ivysaur, L86|279\/279
+|turn|24
+|
+|move|p2a: Vaporeon|Blizzard|p1a: Ivysaur
+|-supereffective|p1a: Ivysaur
+|-damage|p1a: Ivysaur|82\/279
+|move|p1a: Ivysaur|Razor Leaf|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|123\/399
+|
+|turn|25
+|
+|move|p2a: Vaporeon|Blizzard|p1a: Ivysaur
+|-supereffective|p1a: Ivysaur
+|-damage|p1a: Ivysaur|0 fnt
+|faint|p1a: Ivysaur
+|
+|switch|p1a: Blastoise|Blastoise, L86|227\/311 slp
+|turn|26
+|
+|cant|p1a: Blastoise|slp
+|move|p2a: Vaporeon|Rest|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp
+|-heal|p2a: Vaporeon|399\/399 slp|[silent]
+|-status|p2a: Vaporeon|slp|[from] move: Rest
+|
+|turn|27
+|
+|cant|p1a: Blastoise|slp
+|-curestatus|p1a: Blastoise|slp
+|cant|p2a: Vaporeon|slp
+|
+|turn|28
+|
+|move|p1a: Blastoise|Mimic|p2a: Vaporeon
+|-start|p1a: Blastoise|Mimic|Surf
+|cant|p2a: Vaporeon|slp
+|-curestatus|p2a: Vaporeon|slp
+|
+|turn|29
+|
+|move|p1a: Blastoise|Hyper Beam|p2a: Vaporeon
+|-damage|p2a: Vaporeon|274\/399
+|move|p2a: Vaporeon|Surf|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|171\/311
+|
+|turn|30
+|
+|cant|p1a: Blastoise|recharge
+|move|p2a: Vaporeon|Blizzard|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|121\/311
+|
+|turn|31
+|
+|move|p1a: Blastoise|Rest|p1a: Blastoise
+|-status|p1a: Blastoise|slp
+|-heal|p1a: Blastoise|311\/311 slp|[silent]
+|-status|p1a: Blastoise|slp|[from] move: Rest
+|move|p2a: Vaporeon|Surf|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|250\/311 slp
+|
+|turn|32
+|
+|cant|p1a: Blastoise|slp
+|move|p2a: Vaporeon|Surf|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|192\/311 slp
+|
+|turn|33
+|
+|cant|p1a: Blastoise|slp
+|-curestatus|p1a: Blastoise|slp
+|move|p2a: Vaporeon|Surf|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|135\/311
+|
+|turn|34
+|
+|move|p1a: Blastoise|Surf|p2a: Vaporeon
+|-crit|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|198\/399
+|move|p2a: Vaporeon|Surf|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|74\/311
+|
+|turn|35
+|
+|move|p1a: Blastoise|Rest|p1a: Blastoise
+|-status|p1a: Blastoise|slp
+|-heal|p1a: Blastoise|311\/311 slp|[silent]
+|-status|p1a: Blastoise|slp|[from] move: Rest
+|move|p2a: Vaporeon|Hydro Pump|p1a: Blastoise|[miss]
+|-miss|p2a: Vaporeon
+|
+|turn|36
+|
+|cant|p1a: Blastoise|slp
+|move|p2a: Vaporeon|Rest|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp
+|-heal|p2a: Vaporeon|399\/399 slp|[silent]
+|-status|p2a: Vaporeon|slp|[from] move: Rest
+|
+|turn|37
+|
+|cant|p1a: Blastoise|slp
+|-curestatus|p1a: Blastoise|slp
+|cant|p2a: Vaporeon|slp
+|
+|turn|38
+|
+|move|p1a: Blastoise|Surf|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|359\/399 slp
+|cant|p2a: Vaporeon|slp
+|-curestatus|p2a: Vaporeon|slp
+|
+|turn|39
+|
+|move|p1a: Blastoise|Surf|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|316\/399
+|move|p2a: Vaporeon|Surf|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|258\/311
+|
+|turn|40
+|
+|move|p1a: Blastoise|Surf|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|273\/399
+|move|p2a: Vaporeon|Blizzard|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|211\/311
+|
+|turn|41
+|
+|move|p1a: Blastoise|Surf|p2a: Vaporeon|[miss]
+|-miss|p1a: Blastoise
+|move|p2a: Vaporeon|Blizzard|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|164\/311
+|
+|turn|42
+|
+|move|p1a: Blastoise|Surf|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|233\/399
+|move|p2a: Vaporeon|Blizzard|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|117\/311
+|
+|turn|43
+|
+|move|p1a: Blastoise|Rest|p1a: Blastoise
+|-status|p1a: Blastoise|slp
+|-heal|p1a: Blastoise|311\/311 slp|[silent]
+|-status|p1a: Blastoise|slp|[from] move: Rest
+|move|p2a: Vaporeon|Hydro Pump|p1a: Blastoise|[miss]
+|-miss|p2a: Vaporeon
+|
+|turn|44
+|
+|cant|p1a: Blastoise|slp
+|move|p2a: Vaporeon|Surf|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|254\/311 slp
+|
+|turn|45
+|
+|cant|p1a: Blastoise|slp
+|-curestatus|p1a: Blastoise|slp
+|move|p2a: Vaporeon|Rest|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp
+|-heal|p2a: Vaporeon|399\/399 slp|[silent]
+|-status|p2a: Vaporeon|slp|[from] move: Rest
+|
+|turn|46
+|
+|move|p1a: Blastoise|Surf|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|356\/399 slp
+|cant|p2a: Vaporeon|slp
+|
+|turn|47
+|
+|move|p1a: Blastoise|Surf|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|317\/399 slp
+|cant|p2a: Vaporeon|slp
+|-curestatus|p2a: Vaporeon|slp
+|
+|turn|48
+|
+|move|p1a: Blastoise|Surf|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|275\/399
+|move|p2a: Vaporeon|Blizzard|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|209\/311
+|
+|turn|49
+|
+|move|p1a: Blastoise|Surf|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|233\/399
+|move|p2a: Vaporeon|Blizzard|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|164\/311
+|
+|turn|50
+|
+|move|p1a: Blastoise|Surf|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|190\/399
+|move|p2a: Vaporeon|Surf|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|106\/311
+|
+|turn|51
+|
+|move|p1a: Blastoise|Surf|p2a: Vaporeon
+|-crit|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|108\/399
+|move|p2a: Vaporeon|Rest|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp
+|-heal|p2a: Vaporeon|399\/399 slp|[silent]
+|-status|p2a: Vaporeon|slp|[from] move: Rest
+|
+|turn|52
+|
+|move|p1a: Blastoise|Surf|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|362\/399 slp
+|cant|p2a: Vaporeon|slp
+|
+|turn|53
+|
+|move|p1a: Blastoise|Surf|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|319\/399 slp
+|cant|p2a: Vaporeon|slp
+|-curestatus|p2a: Vaporeon|slp
+|
+|turn|54
+|
+|move|p1a: Blastoise|Rest|p1a: Blastoise
+|-status|p1a: Blastoise|slp
+|-heal|p1a: Blastoise|311\/311 slp|[silent]
+|-status|p1a: Blastoise|slp|[from] move: Rest
+|move|p2a: Vaporeon|Hydro Pump|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|239\/311 slp
+|
+|turn|55
+|
+|cant|p1a: Blastoise|slp
+|move|p2a: Vaporeon|Hydro Pump|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|163\/311 slp
+|
+|turn|56
+|
+|cant|p1a: Blastoise|slp
+|-curestatus|p1a: Blastoise|slp
+|move|p2a: Vaporeon|Hydro Pump|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|92\/311
+|
+|turn|57
+|
+|move|p1a: Blastoise|Rest|p1a: Blastoise
+|-status|p1a: Blastoise|slp
+|-heal|p1a: Blastoise|311\/311 slp|[silent]
+|-status|p1a: Blastoise|slp|[from] move: Rest
+|move|p2a: Vaporeon|Hydro Pump|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|241\/311 slp
+|
+|turn|58
+|
+|cant|p1a: Blastoise|slp
+|move|p2a: Vaporeon|Hydro Pump|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|174\/311 slp
+|
+|turn|59
+|
+|cant|p1a: Blastoise|slp
+|-curestatus|p1a: Blastoise|slp
+|move|p2a: Vaporeon|Hydro Pump|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|104\/311
+|
+|turn|60
+|
+|move|p1a: Blastoise|Rest|p1a: Blastoise
+|-status|p1a: Blastoise|slp
+|-heal|p1a: Blastoise|311\/311 slp|[silent]
+|-status|p1a: Blastoise|slp|[from] move: Rest
+|move|p2a: Vaporeon|Rest|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp
+|-heal|p2a: Vaporeon|399\/399 slp|[silent]
+|-status|p2a: Vaporeon|slp|[from] move: Rest
+|
+|turn|61
+|
+|cant|p1a: Blastoise|slp
+|cant|p2a: Vaporeon|slp
+|
+|turn|62
+|
+|cant|p1a: Blastoise|slp
+|-curestatus|p1a: Blastoise|slp
+|cant|p2a: Vaporeon|slp
+|-curestatus|p2a: Vaporeon|slp
+|
+|turn|63
+|
+|move|p1a: Blastoise|Surf|p2a: Vaporeon
+|-crit|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|318\/399
+|move|p2a: Vaporeon|Rest|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp
+|-heal|p2a: Vaporeon|399\/399 slp|[silent]
+|-status|p2a: Vaporeon|slp|[from] move: Rest
+|
+|turn|64
+|
+|move|p1a: Blastoise|Hyper Beam|p2a: Vaporeon
+|-damage|p2a: Vaporeon|275\/399 slp
+|cant|p2a: Vaporeon|slp
+|
+|turn|65
+|
+|cant|p1a: Blastoise|recharge
+|cant|p2a: Vaporeon|slp
+|-curestatus|p2a: Vaporeon|slp
+|
+|turn|66
+|
+|move|p1a: Blastoise|Hyper Beam|p2a: Vaporeon
+|-damage|p2a: Vaporeon|143\/399
+|move|p2a: Vaporeon|Rest|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp
+|-heal|p2a: Vaporeon|399\/399 slp|[silent]
+|-status|p2a: Vaporeon|slp|[from] move: Rest
+|
+|turn|67
+|
+|cant|p1a: Blastoise|recharge
+|cant|p2a: Vaporeon|slp
+|
+|turn|68
+|
+|move|p1a: Blastoise|Surf|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|357\/399 slp
+|cant|p2a: Vaporeon|slp
+|-curestatus|p2a: Vaporeon|slp
+|
+|turn|69
+|
+|move|p1a: Blastoise|Surf|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|315\/399
+|move|p2a: Vaporeon|Rest|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp
+|-heal|p2a: Vaporeon|399\/399 slp|[silent]
+|-status|p2a: Vaporeon|slp|[from] move: Rest
+|
+|turn|70
+|
+|move|p1a: Blastoise|Surf|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|361\/399 slp
+|cant|p2a: Vaporeon|slp
+|
+|turn|71
+|
+|move|p1a: Blastoise|Surf|p2a: Vaporeon
+|-crit|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|287\/399 slp
+|cant|p2a: Vaporeon|slp
+|-curestatus|p2a: Vaporeon|slp
+|
+|turn|72
+|
+|move|p1a: Blastoise|Surf|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|248\/399
+|move|p2a: Vaporeon|Rest|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp
+|-heal|p2a: Vaporeon|399\/399 slp|[silent]
+|-status|p2a: Vaporeon|slp|[from] move: Rest
+|
+|turn|73
+|
+|move|p1a: Blastoise|Surf|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|356\/399 slp
+|cant|p2a: Vaporeon|slp
+|
+|turn|74
+|
+|move|p1a: Blastoise|Surf|p2a: Vaporeon
+|-crit|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|278\/399 slp
+|cant|p2a: Vaporeon|slp
+|-curestatus|p2a: Vaporeon|slp
+|
+|turn|75
+|
+|move|p1a: Blastoise|Surf|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|238\/399
+|move|p2a: Vaporeon|Rest|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp
+|-heal|p2a: Vaporeon|399\/399 slp|[silent]
+|-status|p2a: Vaporeon|slp|[from] move: Rest
+|
+|turn|76
+|
+|move|p1a: Blastoise|Surf|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|357\/399 slp
+|cant|p2a: Vaporeon|slp
+|
+|turn|77
+|
+|move|p1a: Blastoise|Surf|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|315\/399 slp
+|cant|p2a: Vaporeon|slp
+|-curestatus|p2a: Vaporeon|slp
+|
+|turn|78
+|
+|move|p1a: Blastoise|Surf|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|273\/399
+|move|p2a: Vaporeon|Rest|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp
+|-heal|p2a: Vaporeon|399\/399 slp|[silent]
+|-status|p2a: Vaporeon|slp|[from] move: Rest
+|
+|turn|79
+|
+|move|p1a: Blastoise|Surf|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|361\/399 slp
+|cant|p2a: Vaporeon|slp
+|
+|turn|80
+|
+|move|p1a: Blastoise|Surf|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|321\/399 slp
+|cant|p2a: Vaporeon|slp
+|-curestatus|p2a: Vaporeon|slp
+|
+|turn|81
+|
+|move|p1a: Blastoise|Surf|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|279\/399
+|move|p2a: Vaporeon|Rest|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp
+|-heal|p2a: Vaporeon|399\/399 slp|[silent]
+|-status|p2a: Vaporeon|slp|[from] move: Rest
+|
+|turn|82
+|
+|move|p1a: Blastoise|Surf|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|361\/399 slp
+|cant|p2a: Vaporeon|slp
+|
+|turn|83
+|
+|move|p1a: Blastoise|Surf|p2a: Vaporeon
+|-crit|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|289\/399 slp
+|cant|p2a: Vaporeon|slp
+|-curestatus|p2a: Vaporeon|slp
+|
+|turn|84
+|
+|move|p1a: Blastoise|Surf|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|249\/399
+|move|p2a: Vaporeon|Rest|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp
+|-heal|p2a: Vaporeon|399\/399 slp|[silent]
+|-status|p2a: Vaporeon|slp|[from] move: Rest
+|
+|turn|85
+|
+|move|p1a: Blastoise|Surf|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|356\/399 slp
+|cant|p2a: Vaporeon|slp
+|
+|turn|86
+|
+|move|p1a: Blastoise|Surf|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|315\/399 slp
+|cant|p2a: Vaporeon|slp
+|-curestatus|p2a: Vaporeon|slp
+|
+|turn|87
+|
+|move|p1a: Blastoise|Surf|p2a: Vaporeon
+|-crit|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|241\/399
+|move|p2a: Vaporeon|Rest|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp
+|-heal|p2a: Vaporeon|399\/399 slp|[silent]
+|-status|p2a: Vaporeon|slp|[from] move: Rest
+|
+|turn|88
+|
+|move|p1a: Blastoise|Surf|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|356\/399 slp
+|cant|p2a: Vaporeon|slp
+|
+|turn|89
+|
+|move|p1a: Blastoise|Surf|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|316\/399 slp
+|cant|p2a: Vaporeon|slp
+|-curestatus|p2a: Vaporeon|slp
+|
+|turn|90
+|
+|move|p1a: Blastoise|Surf|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|279\/399
+|move|p2a: Vaporeon|Surf|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|256\/311
+|
+|turn|91
+|
+|move|p1a: Blastoise|Surf|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|241\/399
+|move|p2a: Vaporeon|Surf|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|203\/311
+|
+|turn|92
+|
+|move|p1a: Blastoise|Surf|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|199\/399
+|move|p2a: Vaporeon|Surf|p1a: Blastoise
+|-crit|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|85\/311
+|
+|turn|93
+|
+|move|p1a: Blastoise|Rest|p1a: Blastoise
+|-status|p1a: Blastoise|slp
+|-heal|p1a: Blastoise|311\/311 slp|[silent]
+|-status|p1a: Blastoise|slp|[from] move: Rest
+|move|p2a: Vaporeon|Surf|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|255\/311 slp
+|
+|turn|94
+|
+|cant|p1a: Blastoise|slp
+|move|p2a: Vaporeon|Surf|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|196\/311 slp
+|
+|turn|95
+|
+|cant|p1a: Blastoise|slp
+|-curestatus|p1a: Blastoise|slp
+|move|p2a: Vaporeon|Surf|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|142\/311
+|
+|turn|96
+|
+|move|p1a: Blastoise|Surf|p2a: Vaporeon
+|-crit|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|118\/399
+|move|p2a: Vaporeon|Surf|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|81\/311
+|
+|turn|97
+|
+|move|p1a: Blastoise|Hyper Beam|p2a: Vaporeon
+|-damage|p2a: Vaporeon|3\/399
+|move|p2a: Vaporeon|Rest|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp
+|-heal|p2a: Vaporeon|399\/399 slp|[silent]
+|-status|p2a: Vaporeon|slp|[from] move: Rest
+|
+|turn|98
+|
+|cant|p1a: Blastoise|recharge
+|cant|p2a: Vaporeon|slp
+|
+|turn|99
+|
+|move|p1a: Blastoise|Rest|p1a: Blastoise
+|-status|p1a: Blastoise|slp
+|-heal|p1a: Blastoise|311\/311 slp|[silent]
+|-status|p1a: Blastoise|slp|[from] move: Rest
+|cant|p2a: Vaporeon|slp
+|-curestatus|p2a: Vaporeon|slp
+|
+|turn|100
+|
+|cant|p1a: Blastoise|slp
+|move|p2a: Vaporeon|Surf|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|252\/311 slp
+|
+|turn|101
+|
+|cant|p1a: Blastoise|slp
+|-curestatus|p1a: Blastoise|slp
+|move|p2a: Vaporeon|Surf|p1a: Blastoise
+|-crit|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|142\/311
+|
+|turn|102
+|
+|move|p1a: Blastoise|Surf|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|357\/399
+|move|p2a: Vaporeon|Surf|p1a: Blastoise
+|-crit|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|27\/311
+|
+|turn|103
+|
+|move|p1a: Blastoise|Rest|p1a: Blastoise
+|-status|p1a: Blastoise|slp
+|-heal|p1a: Blastoise|311\/311 slp|[silent]
+|-status|p1a: Blastoise|slp|[from] move: Rest
+|move|p2a: Vaporeon|Surf|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|256\/311 slp
+|
+|turn|104
+|
+|cant|p1a: Blastoise|slp
+|move|p2a: Vaporeon|Surf|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|196\/311 slp
+|
+|turn|105
+|
+|cant|p1a: Blastoise|slp
+|-curestatus|p1a: Blastoise|slp
+|move|p2a: Vaporeon|Surf|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|137\/311
+|
+|turn|106
+|
+|move|p1a: Blastoise|Surf|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|316\/399
+|move|p2a: Vaporeon|Surf|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|77\/311
+|
+|turn|107
+|
+|move|p1a: Blastoise|Rest|p1a: Blastoise
+|-status|p1a: Blastoise|slp
+|-heal|p1a: Blastoise|311\/311 slp|[silent]
+|-status|p1a: Blastoise|slp|[from] move: Rest
+|move|p2a: Vaporeon|Surf|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|253\/311 slp
+|
+|turn|108
+|
+|cant|p1a: Blastoise|slp
+|move|p2a: Vaporeon|Rest|p2a: Vaporeon
+|-status|p2a: Vaporeon|slp
+|-heal|p2a: Vaporeon|399\/399 slp|[silent]
+|-status|p2a: Vaporeon|slp|[from] move: Rest
+|
+|turn|109
+|
+|cant|p1a: Blastoise|slp
+|-curestatus|p1a: Blastoise|slp
+|cant|p2a: Vaporeon|slp
+|
+|turn|110
+|
+|move|p1a: Blastoise|Surf|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|361\/399 slp
+|cant|p2a: Vaporeon|slp
+|-curestatus|p2a: Vaporeon|slp
+|
+|turn|111
+|
+|move|p1a: Blastoise|Surf|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|323\/399
+|move|p2a: Vaporeon|Surf|p1a: Blastoise
+|-crit|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|147\/311
+|
+|turn|112
+|
+|move|p1a: Blastoise|Surf|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|286\/399
+|-activate|p2a: Vaporeon|move: Struggle
+|move|p2a: Vaporeon|Struggle|p1a: Blastoise
+|-damage|p1a: Blastoise|122\/311
+|-damage|p2a: Vaporeon|274\/399|[from] recoil|[of] p1a: Blastoise
+|
+|turn|113
+|
+|move|p1a: Blastoise|Rest|p1a: Blastoise
+|-status|p1a: Blastoise|slp
+|-heal|p1a: Blastoise|311\/311 slp|[silent]
+|-status|p1a: Blastoise|slp|[from] move: Rest
+|-activate|p2a: Vaporeon|move: Struggle
+|move|p2a: Vaporeon|Struggle|p1a: Blastoise
+|-damage|p1a: Blastoise|285\/311 slp
+|-damage|p2a: Vaporeon|261\/399|[from] recoil|[of] p1a: Blastoise
+|
+|turn|114
+|
+|cant|p1a: Blastoise|slp
+|-activate|p2a: Vaporeon|move: Struggle
+|move|p2a: Vaporeon|Struggle|p1a: Blastoise
+|-damage|p1a: Blastoise|260\/311 slp
+|-damage|p2a: Vaporeon|249\/399|[from] recoil|[of] p1a: Blastoise
+|
+|turn|115
+|
+|cant|p1a: Blastoise|slp
+|-curestatus|p1a: Blastoise|slp
+|-activate|p2a: Vaporeon|move: Struggle
+|move|p2a: Vaporeon|Struggle|p1a: Blastoise
+|-damage|p1a: Blastoise|233\/311
+|-damage|p2a: Vaporeon|236\/399|[from] recoil|[of] p1a: Blastoise
+|
+|turn|116
+|
+|move|p1a: Blastoise|Hyper Beam|p2a: Vaporeon
+|-crit|p2a: Vaporeon
+|-damage|p2a: Vaporeon|15\/399
+|-activate|p2a: Vaporeon|move: Struggle
+|move|p2a: Vaporeon|Struggle|p1a: Blastoise
+|-damage|p1a: Blastoise|208\/311
+|-damage|p2a: Vaporeon|3\/399|[from] recoil|[of] p1a: Blastoise
+|
+|turn|117
+|c|★ToxicWyvern|gg
+|
+|cant|p1a: Blastoise|recharge
+|-activate|p2a: Vaporeon|move: Struggle
+|move|p2a: Vaporeon|Struggle|p1a: Blastoise
+|-damage|p1a: Blastoise|184\/311
+|-damage|p2a: Vaporeon|0 fnt|[from] recoil|[of] p1a: Blastoise
+|faint|p2a: Vaporeon
+|
+|win|ToxicWyvern
+|raw|Ladder updating...
+|raw|ToxicWyvern's rating: 1024 &rarr; <strong>1072<\/strong><br \/>(+48 for winning)
+|raw|tururu42's rating: 1137 &rarr; <strong>1105<\/strong><br \/>(-32 for losing)
+|leave|tururu42

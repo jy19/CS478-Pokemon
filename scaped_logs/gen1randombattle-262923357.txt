@@ -1,0 +1,173 @@
+﻿|join|DJ GEPPETTO
+|join|Squadra di golbat
+|player|p1|DJ GEPPETTO|226
+|player|p2|Squadra di golbat|2
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Dodrio|Dodrio, L85|276\/276
+|switch|p2a: Zubat|Zubat, L96|272\/272
+|turn|1
+|
+|switch|p1a: Clefable|Clefable, L85|335\/335
+|move|p2a: Zubat|Double-Edge|p1a: Clefable
+|-damage|p1a: Clefable|274\/335
+|-damage|p2a: Zubat|257\/272|[from] recoil|[of] p1a: Clefable
+|
+|turn|2
+|
+|switch|p2a: Kadabra|Kadabra, L85|242\/242
+|move|p1a: Clefable|Blizzard|p2a: Kadabra
+|-damage|p2a: Kadabra|180\/242
+|
+|turn|3
+|
+|move|p2a: Kadabra|Psychic|p1a: Clefable
+|-damage|p1a: Clefable|166\/335
+|move|p1a: Clefable|Body Slam|p2a: Kadabra
+|-damage|p2a: Kadabra|43\/242
+|
+|turn|4
+|c|★DJ GEPPETTO|woah
+|c|★DJ GEPPETTO|that's some sorta slam
+|
+|move|p2a: Kadabra|Recover|p2a: Kadabra
+|-heal|p2a: Kadabra|164\/242
+|move|p1a: Clefable|Body Slam|p2a: Kadabra
+|-damage|p2a: Kadabra|24\/242
+|
+|turn|5
+|
+|move|p2a: Kadabra|Thunder Wave|p1a: Clefable
+|-status|p1a: Clefable|par
+|move|p1a: Clefable|Body Slam|p2a: Kadabra
+|-damage|p2a: Kadabra|0 fnt
+|faint|p2a: Kadabra
+|
+|switch|p2a: Mankey|Mankey, L96|272\/272
+|turn|6
+|
+|move|p2a: Mankey|Submission|p1a: Clefable|[miss]
+|-miss|p2a: Mankey
+|move|p1a: Clefable|Body Slam|p2a: Mankey
+|-damage|p2a: Mankey|158\/272
+|-status|p2a: Mankey|par
+|
+|turn|7
+|
+|move|p2a: Mankey|Submission|p1a: Clefable|[miss]
+|-miss|p2a: Mankey
+|move|p1a: Clefable|Body Slam|p2a: Mankey
+|-damage|p2a: Mankey|45\/272 par
+|
+|turn|8
+|
+|cant|p2a: Mankey|par
+|move|p1a: Clefable|Body Slam|p2a: Mankey
+|-damage|p2a: Mankey|0 fnt
+|faint|p2a: Mankey
+|c|★DJ GEPPETTO|GO CLEFABLE
+|
+|switch|p2a: Lapras|Lapras, L79|367\/367
+|turn|9
+|
+|move|p2a: Lapras|Body Slam|p1a: Clefable
+|-damage|p1a: Clefable|107\/335 par
+|move|p1a: Clefable|Thunderbolt|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|232\/367
+|
+|turn|10
+|
+|move|p2a: Lapras|Thunderbolt|p1a: Clefable
+|-damage|p1a: Clefable|53\/335 par
+|move|p1a: Clefable|Thunder|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|59\/367
+|-status|p2a: Lapras|par
+|
+|turn|11
+|
+|move|p1a: Clefable|Body Slam|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|c|★DJ GEPPETTO|this is unreal
+|
+|switch|p2a: Zubat|Zubat, L96|257\/272
+|turn|12
+|
+|move|p2a: Zubat|Double-Edge|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|-damage|p2a: Zubat|244\/272|[from] recoil|[of] p1a: Clefable
+|faint|p1a: Clefable
+|c|★DJ GEPPETTO|rip
+|
+|switch|p1a: Nidorina|Nidorina, L90|309\/309
+|turn|13
+|
+|move|p2a: Zubat|Supersonic|p1a: Nidorina
+|-start|p1a: Nidorina|confusion
+|-activate|p1a: Nidorina|confusion
+|move|p1a: Nidorina|Thunderbolt|p2a: Zubat
+|-supereffective|p2a: Zubat
+|-damage|p2a: Zubat|107\/272
+|
+|turn|14
+|
+|switch|p1a: Dodrio|Dodrio, L85|276\/276
+|move|p2a: Zubat|Double-Edge|p1a: Dodrio
+|-crit|p1a: Dodrio
+|-damage|p1a: Dodrio|157\/276
+|-damage|p2a: Zubat|78\/272|[from] recoil|[of] p1a: Dodrio
+|
+|turn|15
+|
+|move|p1a: Dodrio|Hyper Beam|p2a: Zubat
+|-damage|p2a: Zubat|0 fnt
+|faint|p2a: Zubat
+|
+|switch|p2a: Electrode|Electrode, L90|291\/291
+|turn|16
+|
+|switch|p1a: Cubone|Cubone, L96|291\/291
+|move|p2a: Electrode|Thunderbolt|p1a: Cubone
+|-immune|p1a: Cubone|[msg]
+|
+|turn|17
+|
+|switch|p2a: Marowak|Marowak, L90|291\/291
+|move|p1a: Cubone|Earthquake|p2a: Marowak
+|-damage|p2a: Marowak|214\/291
+|
+|turn|18
+|
+|move|p2a: Marowak|Blizzard|p1a: Cubone
+|-supereffective|p1a: Cubone
+|-damage|p1a: Cubone|118\/291
+|move|p1a: Cubone|Blizzard|p2a: Marowak
+|-crit|p2a: Marowak
+|-supereffective|p2a: Marowak
+|-damage|p2a: Marowak|0 fnt
+|faint|p2a: Marowak
+|c|★DJ GEPPETTO|OH
+|
+|switch|p2a: Electrode|Electrode, L90|291\/291
+|turn|19
+|
+|move|p2a: Electrode|Explosion|p1a: Cubone
+|-damage|p1a: Cubone|0 fnt
+|faint|p1a: Cubone
+|faint|p2a: Electrode
+|
+|win|DJ GEPPETTO
+|c|★DJ GEPPETTO|swag
+|raw|DJ GEPPETTO's rating: 1022 &rarr; <strong>1069<\/strong><br \/>(+47 for winning)
+|raw|Squadra di golbat's rating: 1118 &rarr; <strong>1087<\/strong><br \/>(-31 for losing)
+|c|★DJ GEPPETTO|lol
+|c|★DJ GEPPETTO|gg

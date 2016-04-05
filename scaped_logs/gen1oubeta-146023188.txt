@@ -1,0 +1,283 @@
+﻿|join|champ_dab
+|join|Steamy Nicks
+|player|p1|champ_dab|163
+|player|p2|Steamy Nicks|192
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|switch|p1a: Golem|Golem|363\/363
+|switch|p2a: Glimmer|Starmie|323\/323
+|turn|1
+|
+|switch|p1a: Electrode|Electrode|323\/323
+|move|p2a: Glimmer|Surf|p1a: Electrode
+|-damage|p1a: Electrode|204\/323
+|
+|turn|2
+|
+|switch|p2a: Overeasy|Exeggutor|393\/393
+|move|p1a: Electrode|Thunder Wave|p2a: Overeasy
+|-status|p2a: Overeasy|par
+|
+|turn|3
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: Overeasy|Sleep Powder|p1a: Snorlax|[miss]
+|-miss|p2a: Overeasy
+|
+|turn|4
+|
+|move|p1a: Snorlax|Blizzard|p2a: Overeasy
+|-supereffective|p2a: Overeasy
+|-damage|p2a: Overeasy|271\/393 par
+|cant|p2a: Overeasy|par
+|
+|turn|5
+|
+|move|p1a: Snorlax|Blizzard|p2a: Overeasy
+|-supereffective|p2a: Overeasy
+|-damage|p2a: Overeasy|142\/393 par
+|move|p2a: Overeasy|Sleep Powder|p1a: Snorlax|[miss]
+|-miss|p2a: Overeasy
+|
+|turn|6
+|
+|move|p1a: Snorlax|Hyper Beam|p2a: Overeasy
+|-damage|p2a: Overeasy|0 fnt
+|faint|p2a: Overeasy
+|
+|
+|switch|p2a: Mystical|Alakazam|313\/313
+|turn|7
+|
+|move|p2a: Mystical|Psychic|p1a: Snorlax
+|-damage|p1a: Snorlax|356\/523
+|move|p1a: Snorlax|Body Slam|p2a: Mystical
+|-damage|p2a: Mystical|134\/313
+|
+|turn|8
+|
+|switch|p2a: Dreamer|Snorlax|523\/523
+|move|p1a: Snorlax|Body Slam|p2a: Dreamer
+|-damage|p2a: Dreamer|388\/523
+|
+|turn|9
+|
+|move|p1a: Snorlax|Self-Destruct|p2a: Dreamer
+|-damage|p2a: Dreamer|0 fnt
+|faint|p2a: Dreamer
+|faint|p1a: Snorlax
+|
+|switch|p1a: Electrode|Electrode|204\/323
+|switch|p2a: Mystical|Alakazam|134\/313
+|turn|10
+|
+|move|p1a: Electrode|Thunder Wave|p2a: Mystical
+|-status|p2a: Mystical|par
+|move|p2a: Mystical|Psychic|p1a: Electrode
+|-damage|p1a: Electrode|51\/323
+|-unboost|p1a: Electrode|spd|1
+|-unboost|p1a: Electrode|spa|1
+|
+|turn|11
+|join|Edvard
+|
+|switch|p1a: Cloyster|Cloyster|303\/303
+|move|p2a: Mystical|Recover|p2a: Mystical
+|-heal|p2a: Mystical|290\/313 par
+|
+|turn|12
+|
+|switch|p2a: Glimmer|Starmie|323\/323
+|move|p1a: Cloyster|Clamp|p2a: Glimmer
+|-resisted|p2a: Glimmer
+|-damage|p2a: Glimmer|303\/323
+|-activate|p2a: Glimmer|move: Clamp|[of] p1a: Cloyster
+|
+|turn|13
+|
+|cant|p2a: Glimmer|partiallytrapped
+|move|p1a: Cloyster|Clamp|p2a: Glimmer
+|-damage|p2a: Glimmer|283\/323
+|
+|-end|p2a: Glimmer|Clamp|[partiallytrapped]
+|turn|14
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Glimmer|Thunderbolt|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|364\/393
+|-status|p1a: Exeggutor|par
+|
+|turn|15
+|
+|switch|p2a: Mystical|Alakazam|290\/313 par
+|move|p1a: Exeggutor|Sleep Powder|p2a: Mystical
+|-fail|p2a: Mystical
+|
+|turn|16
+|leave|Steamy Nicks
+|player|p2
+|join|Steamy Nicks
+|player|p2|Steamy Nicks|192
+|
+|cant|p2a: Mystical|par
+|move|p1a: Exeggutor|Psychic|p2a: Mystical
+|-resisted|p2a: Mystical
+|-damage|p2a: Mystical|241\/313 par
+|
+|turn|17
+|
+|cant|p2a: Mystical|par
+|move|p1a: Exeggutor|Explosion|p2a: Mystical
+|-damage|p2a: Mystical|0 fnt
+|faint|p2a: Mystical
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Electrode|Electrode|51\/323
+|switch|p2a: Red Bull Racing|Tauros|353\/353
+|turn|18
+|
+|move|p1a: Electrode|Thunder Wave|p2a: Red Bull Racing
+|-status|p2a: Red Bull Racing|par
+|move|p2a: Red Bull Racing|Body Slam|p1a: Electrode
+|-damage|p1a: Electrode|0 fnt
+|faint|p1a: Electrode
+|
+|
+|switch|p1a: Cloyster|Cloyster|303\/303
+|turn|19
+|
+|move|p1a: Cloyster|Clamp|p2a: Red Bull Racing
+|-crit|p2a: Red Bull Racing
+|-damage|p2a: Red Bull Racing|250\/353 par
+|-activate|p2a: Red Bull Racing|move: Clamp|[of] p1a: Cloyster
+|cant|p2a: Red Bull Racing|partiallytrapped
+|
+|turn|20
+|
+|switch|p2a: Glimmer|Starmie|283\/323
+|move|p1a: Cloyster|Clamp|p2a: Glimmer
+|-resisted|p2a: Glimmer
+|-damage|p2a: Glimmer|264\/323
+|-activate|p2a: Glimmer|move: Clamp|[of] p1a: Cloyster
+|
+|turn|21
+|
+|switch|p1a: Gengar|Gengar|323\/323
+|cant|p2a: Glimmer|partiallytrapped
+|
+|-end|p2a: Glimmer|Clamp|[partiallytrapped]
+|turn|22
+|
+|switch|p2a: Red Bull Racing|Tauros|250\/353 par
+|move|p1a: Gengar|Hypnosis|p2a: Red Bull Racing|[miss]
+|-miss|p1a: Gengar
+|
+|turn|23
+|
+|switch|p1a: Cloyster|Cloyster|303\/303
+|move|p2a: Red Bull Racing|Earthquake|p1a: Cloyster
+|-damage|p1a: Cloyster|251\/303
+|
+|turn|24
+|
+|move|p1a: Cloyster|Blizzard|p2a: Red Bull Racing
+|-damage|p2a: Red Bull Racing|103\/353 par
+|cant|p2a: Red Bull Racing|par
+|
+|turn|25
+|
+|switch|p2a: Glimmer|Starmie|264\/323
+|move|p1a: Cloyster|Hyper Beam|p2a: Glimmer
+|-damage|p2a: Glimmer|148\/323
+|
+|turn|26
+|
+|move|p2a: Glimmer|Thunderbolt|p1a: Cloyster
+|-crit|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|
+|switch|p1a: Gengar|Gengar|323\/323
+|turn|27
+|
+|switch|p2a: Ride the Lightning|Zapdos|383\/383
+|move|p1a: Gengar|Thunder|p2a: Ride the Lightning
+|-damage|p2a: Ride the Lightning|292\/383
+|
+|turn|28
+|
+|switch|p2a: Glimmer|Starmie|148\/323
+|move|p1a: Gengar|Thunder|p2a: Glimmer|[miss]
+|-miss|p1a: Gengar
+|
+|turn|29
+|
+|switch|p2a: Ride the Lightning|Zapdos|292\/383
+|move|p1a: Gengar|Thunder|p2a: Ride the Lightning
+|-damage|p2a: Ride the Lightning|196\/383
+|
+|turn|30
+|
+|move|p1a: Gengar|Thunder|p2a: Ride the Lightning
+|-damage|p2a: Ride the Lightning|99\/383
+|-status|p2a: Ride the Lightning|par
+|move|p2a: Ride the Lightning|Thunder Wave|p1a: Gengar
+|-status|p1a: Gengar|par
+|
+|turn|31
+|
+|move|p1a: Gengar|Thunder|p2a: Ride the Lightning
+|-damage|p2a: Ride the Lightning|0 fnt
+|faint|p2a: Ride the Lightning
+|
+|
+|switch|p2a: Red Bull Racing|Tauros|103\/353 par
+|turn|32
+|
+|switch|p1a: Golem|Golem|363\/363
+|cant|p2a: Red Bull Racing|par
+|
+|turn|33
+|
+|switch|p2a: Glimmer|Starmie|148\/323
+|move|p1a: Golem|Body Slam|p2a: Glimmer
+|-damage|p2a: Glimmer|69\/323
+|-status|p2a: Glimmer|par
+|
+|turn|34
+|
+|move|p1a: Golem|Body Slam|p2a: Glimmer
+|-damage|p2a: Glimmer|0 fnt
+|faint|p2a: Glimmer
+|
+|
+|switch|p2a: Red Bull Racing|Tauros|103\/353 par
+|turn|35
+|
+|move|p1a: Golem|Explosion|p2a: Red Bull Racing
+|-damage|p2a: Red Bull Racing|0 fnt
+|faint|p2a: Red Bull Racing
+|faint|p1a: Golem
+|
+|win|champ_dab
+|raw|Ladder updating...
+|raw|champ_dab's rating: 1141 &rarr; <strong>1184<\/strong><br \/>(+43 for winning)
+|raw|Steamy Nicks's rating: 1457 &rarr; <strong>1423<\/strong><br \/>(-34 for losing)
+|chat|champ_dab|gg
+|leave|Steamy Nicks
+|player|p2
+|leave|Edvard

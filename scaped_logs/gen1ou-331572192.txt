@@ -1,0 +1,318 @@
+﻿|j|Pr0n Snow
+|j|samusco
+|player|p1|Pr0n Snow|96
+|player|p2|samusco|258
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|seed|32733,41163,48231,19070
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|switch|p2a: Jynx|Jynx|333\/333
+|turn|1
+|j|JazzRare
+|choice|switch 2|move 4
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Jynx|Lovely Kiss|p1a: Chansey
+|-status|p1a: Chansey|slp
+|
+|turn|2
+|l|JazzRare
+|choice|move 3|switch 4
+|
+|switch|p2a: Slowbro|Slowbro|393\/393
+|cant|p1a: Chansey|slp
+|
+|turn|3
+|choice|switch 2|move 1
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|4
+|choice|move 3|move 1
+|
+|move|p1a: Exeggutor|Sleep Powder|p2a: Slowbro
+|-status|p2a: Slowbro|slp
+|cant|p2a: Slowbro|slp
+|
+|turn|5
+|choice|move 4|move 3
+|
+|move|p1a: Exeggutor|Double-Edge|p2a: Slowbro
+|-damage|p2a: Slowbro|327\/393 slp
+|-damage|p1a: Exeggutor|377\/393|[from] recoil|[of] p2a: Slowbro
+|cant|p2a: Slowbro|slp
+|
+|turn|6
+|choice|move 4|move 3
+|
+|move|p1a: Exeggutor|Double-Edge|p2a: Slowbro
+|-damage|p2a: Slowbro|259\/393 slp
+|-damage|p1a: Exeggutor|360\/393|[from] recoil|[of] p2a: Slowbro
+|cant|p2a: Slowbro|slp
+|
+|turn|7
+|choice|move 4|switch 4
+|
+|switch|p2a: Jynx|Jynx|333\/333
+|move|p1a: Exeggutor|Double-Edge|p2a: Jynx
+|-damage|p2a: Jynx|205\/333
+|-damage|p1a: Exeggutor|328\/393|[from] recoil|[of] p2a: Jynx
+|
+|turn|8
+|choice|switch 2|move 1
+|
+|switch|p1a: Chansey|Chansey|703\/703 slp
+|move|p2a: Jynx|Blizzard|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|424\/703 slp
+|
+|turn|9
+|choice|move 4|move 1
+|
+|move|p2a: Jynx|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|300\/703 slp
+|cant|p1a: Chansey|slp
+|
+|turn|10
+|choice|switch 4|move 3
+|
+|switch|p1a: Vaporeon|Vaporeon|463\/463
+|move|p2a: Jynx|Seismic Toss|p1a: Vaporeon
+|-damage|p1a: Vaporeon|363\/463
+|
+|turn|11
+|choice|move 3|move 3
+|
+|move|p2a: Jynx|Seismic Toss|p1a: Vaporeon
+|-damage|p1a: Vaporeon|263\/463
+|move|p1a: Vaporeon|Surf|p2a: Jynx
+|-crit|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|choice||switch 3
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|12
+|choice|move 2|move 3
+|
+|move|p2a: Tauros|Body Slam|p1a: Vaporeon
+|-damage|p1a: Vaporeon|138\/463
+|move|p1a: Vaporeon|Ice Beam|p2a: Tauros
+|-damage|p2a: Tauros|253\/353
+|
+|turn|13
+|choice|move 4|move 3
+|
+|move|p2a: Tauros|Body Slam|p1a: Vaporeon
+|-damage|p1a: Vaporeon|11\/463
+|move|p1a: Vaporeon|Rest|p1a: Vaporeon
+|-status|p1a: Vaporeon|slp
+|-heal|p1a: Vaporeon|463\/463 slp|[silent]
+|-status|p1a: Vaporeon|slp|[from] move: Rest
+|
+|turn|14
+|choice|move 2|move 3
+|
+|move|p2a: Tauros|Body Slam|p1a: Vaporeon
+|-damage|p1a: Vaporeon|337\/463 slp
+|cant|p1a: Vaporeon|slp
+|
+|turn|15
+|choice|move 2|move 3
+|
+|move|p2a: Tauros|Body Slam|p1a: Vaporeon
+|-damage|p1a: Vaporeon|203\/463 slp
+|-curestatus|p1a: Vaporeon|slp
+|
+|turn|16
+|choice|move 2|move 4
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Vaporeon
+|-crit|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|choice|switch 2|
+|
+|switch|p1a: Exeggutor|Exeggutor|328\/393
+|turn|17
+|choice|move 2|move 1
+|
+|move|p2a: Tauros|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|195\/393
+|move|p1a: Exeggutor|Psychic|p2a: Tauros
+|-damage|p2a: Tauros|108\/353
+|
+|turn|18
+|choice|move 2|move 4
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|choice|switch 5|
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|turn|19
+|choice|move 1|move 3
+|
+|move|p1a: Alakazam|Psychic|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|choice||switch 4
+|
+|switch|p2a: Slowbro|Slowbro|259\/393 slp
+|turn|20
+|choice|move 4|move 3
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Slowbro
+|-damage|p2a: Slowbro|159\/393 slp
+|cant|p2a: Slowbro|slp
+|
+|turn|21
+|choice|move 4|move 3
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Slowbro
+|-damage|p2a: Slowbro|59\/393 slp
+|-curestatus|p2a: Slowbro|slp
+|
+|turn|22
+|choice|move 4|switch 6
+|
+|switch|p2a: Golem|Golem|363\/363
+|move|p1a: Alakazam|Seismic Toss|p2a: Golem
+|-damage|p2a: Golem|263\/363
+|
+|turn|23
+|choice|switch 3|move 2
+|
+|switch|p1a: Sandslash|Sandslash|353\/353
+|move|p2a: Golem|Earthquake|p1a: Sandslash
+|-damage|p1a: Sandslash|240\/353
+|
+|turn|24
+|choice|move 4|move 1
+|
+|move|p1a: Sandslash|Sand Attack|p2a: Golem
+|-unboost|p2a: Golem|accuracy|1
+|move|p2a: Golem|Rock Slide|p1a: Sandslash|[miss]
+|-miss|p2a: Golem
+|
+|turn|25
+|choice|move 1|move 2
+|
+|move|p1a: Sandslash|Earthquake|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|76\/363
+|move|p2a: Golem|Earthquake|p1a: Sandslash
+|-damage|p1a: Sandslash|116\/353
+|
+|turn|26
+|choice|move 1|switch 2
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Sandslash|Earthquake|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|328\/393
+|
+|turn|27
+|choice|move 4|move 1
+|
+|move|p1a: Sandslash|Sand Attack|p2a: Exeggutor
+|-unboost|p2a: Exeggutor|accuracy|1
+|move|p2a: Exeggutor|Psychic|p1a: Sandslash
+|-damage|p1a: Sandslash|0 fnt
+|faint|p1a: Sandslash
+|choice|switch 6|
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|28
+|choice|move 1|move 3
+|
+|move|p1a: Tauros|Body Slam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|226\/393
+|-status|p2a: Exeggutor|par
+|move|p2a: Exeggutor|Toxic|p1a: Tauros
+|-status|p1a: Tauros|tox
+|
+|turn|29
+|choice|move 1|move 2
+|
+|move|p1a: Tauros|Body Slam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|109\/393 par
+|-damage|p1a: Tauros|331\/353 tox|[from] tox|[of] p2a: Exeggutor
+|move|p2a: Exeggutor|Leech Seed|p1a: Tauros
+|-start|p1a: Tauros|move: Leech Seed
+|
+|turn|30
+|choice|switch 4|switch 5
+|
+|switch|p1a: Chansey|Chansey|300\/703 slp
+|switch|p2a: Gengar|Gengar|323\/323
+|
+|turn|31
+|choice|move 3|move 3
+|
+|move|p2a: Gengar|Night Shade|p1a: Chansey
+|-damage|p1a: Chansey|200\/703 slp
+|-curestatus|p1a: Chansey|slp
+|
+|turn|32
+|choice|move 4|move 4
+|
+|move|p2a: Gengar|Explosion|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|faint|p2a: Gengar
+|choice|switch 4|switch 5
+|
+|switch|p1a: Tauros|Tauros|331\/353 tox
+|switch|p2a: Exeggutor|Exeggutor|109\/393 par
+|-status|p1a: Tauros|psn
+|turn|33
+|choice|move 4|move 2
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|choice||switch 6
+|
+|switch|p2a: Slowbro|Slowbro|59\/393
+|turn|34
+|choice|move 1|move 4
+|
+|move|p1a: Tauros|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|choice||switch 2
+|
+|switch|p2a: Golem|Golem|76\/363
+|turn|35
+|choice|move 2|move 2
+|
+|move|p1a: Tauros|Earthquake|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|
+|win|Pr0n Snow
+|player|p1
+|player|p2
+|c|★Pr0n Snow|gg
+|raw|Pr0n Snow's rating: 1308 &rarr; <strong>1327<\/strong><br \/>(+19 for winning)
+|raw|samusco's rating: 1305 &rarr; <strong>1285<\/strong><br \/>(-20 for losing)
+|l|samusco

@@ -1,0 +1,586 @@
+﻿|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|J|Nails
+|J|Dear Ophelia
+|player|p1|Nails|266
+|player|p2|Dear Ophelia|70
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|seed|9275,58274,9619,38346
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333\/333
+|switch|p2a: Lucky Star|Starmie|323\/323
+|turn|1
+|J|Tokyo Tom
+|J|BKC
+|choice|move 1|move 3
+|
+|move|p2a: Lucky Star|Thunder Wave|p1a: Jynx
+|-status|p1a: Jynx|par
+|move|p1a: Jynx|Lovely Kiss|p2a: Lucky Star|[miss]
+|-miss|p1a: Jynx
+|
+|turn|2
+|choice|move 1|move 2
+|
+|move|p2a: Lucky Star|Thunderbolt|p1a: Jynx
+|-crit|p1a: Jynx
+|-damage|p1a: Jynx|190\/333 par
+|move|p1a: Jynx|Lovely Kiss|p2a: Lucky Star|[miss]
+|-miss|p1a: Jynx
+|
+|turn|3
+|choice|move 1|move 2
+|
+|move|p2a: Lucky Star|Thunderbolt|p1a: Jynx
+|-crit|p1a: Jynx
+|-damage|p1a: Jynx|30\/333 par
+|move|p1a: Jynx|Lovely Kiss|p2a: Lucky Star
+|-status|p2a: Lucky Star|slp
+|
+|turn|4
+|J|Demerging
+|c|%BKC|yeesh
+|c|★Dear Ophelia|lucky star y\/n
+|J|Honoka Kurai
+|J|Omfuga
+|choice|move 4|move 2
+|
+|-curestatus|p2a: Lucky Star|slp
+|move|p1a: Jynx|Rest|p1a: Jynx
+|-status|p1a: Jynx|slp
+|-heal|p1a: Jynx|333\/333 slp|[silent]
+|-status|p1a: Jynx|slp|[from] move: Rest
+|
+|turn|5
+|c|+Omfuga|LOL
+|c|★Nails|you used up your luck for the series
+|c|★Nails|yn
+|c|★Dear Ophelia|called it
+|c|%BKC|o is this rbywc
+|J|celebitrainer36
+|c|★Nails|y
+|choice|move 1|switch 3
+|
+|switch|p2a: BORIS|Snorlax|523\/523
+|cant|p1a: Jynx|slp
+|
+|turn|6
+|J|Alex Galchenyuk
+|c|★Nails|my opp is hantsuki
+|c|★Nails|:O
+|J|ABR
+|J|t4c
+|c|%BKC|y
+|L|t4c
+|choice|switch 2|move 1
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: BORIS|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|281\/393
+|
+|turn|7
+|choice|move 1|switch 3
+|
+|switch|p2a: Lucky Star|Starmie|323\/323
+|move|p1a: Exeggutor|Sleep Powder|p2a: Lucky Star|[miss]
+|-miss|p1a: Exeggutor
+|
+|turn|8
+|c|★Dear Ophelia|star oo
+|J|Alexander
+|choice|switch 3|move 1
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Lucky Star|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|612\/703
+|
+|turn|9
+|J|HenkiePuk
+|choice|move 3|switch 6
+|
+|switch|p2a: CHONSEY|Chansey|703\/703
+|move|p1a: Chansey|Thunderbolt|p2a: CHONSEY
+|-damage|p2a: CHONSEY|628\/703
+|
+|turn|10
+|J|GOAO
+|choice|move 2|move 1
+|
+|move|p2a: CHONSEY|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|539\/703
+|-status|p1a: Chansey|frz
+|cant|p1a: Chansey|frz
+|
+|turn|11
+|J|rozes
+|L|ABR
+|c|★Nails|unfort
+|c|★Dear Ophelia|chonsey.
+|c|%BKC|dude.
+|J|amir
+|L|rozes
+|choice|switch 3|switch 3
+|
+|switch|p1a: Exeggutor|Exeggutor|281\/393
+|switch|p2a: BORIS|Snorlax|523\/523
+|
+|turn|12
+|L|amir
+|choice|move 1|switch 6
+|
+|switch|p2a: Lucky Star|Starmie|323\/323
+|move|p1a: Exeggutor|Sleep Powder|p2a: Lucky Star
+|-status|p2a: Lucky Star|slp
+|
+|turn|13
+|J|TDK
+|c|★Nails|ok i hit an atk
+|J|Finchinator
+|c|★Nails|this is progress
+|c|%BKC|progress
+|J|Vinc2612
+|c|%BKC|Ah!
+|c|+GOAO|totaaaaa
+|choice|move 2|switch 3
+|
+|switch|p2a: CHONSEY|Chansey|628\/703
+|move|p1a: Exeggutor|Stun Spore|p2a: CHONSEY
+|-status|p2a: CHONSEY|par
+|
+|turn|14
+|choice|move 3|move 3
+|
+|move|p1a: Exeggutor|Psychic|p2a: CHONSEY
+|-damage|p2a: CHONSEY|504\/703 par
+|move|p2a: CHONSEY|Thunder Wave|p1a: Exeggutor
+|-status|p1a: Exeggutor|par
+|
+|turn|15
+|choice|switch 6|move 1
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: CHONSEY|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|421\/523
+|
+|turn|16
+|J|Raekkiiii
+|J|smilzo
+|choice|move 1|switch 6
+|
+|switch|p2a: BORIS|Snorlax|523\/523
+|move|p1a: Snorlax|Body Slam|p2a: BORIS
+|-damage|p2a: BORIS|383\/523
+|
+|turn|17
+|choice|move 2|move 2
+|
+|move|p1a: Snorlax|Reflect|p1a: Snorlax
+|-start|p1a: Snorlax|Reflect
+|move|p2a: BORIS|Counter|p1a: Snorlax
+|-fail|p2a: BORIS
+|
+|turn|18
+|c|★Dear Ophelia|damn
+|c|★Dear Ophelia|this doesn't work since
+|c|★Dear Ophelia|2 years ago
+|choice|move 3|move 2
+|
+|move|p1a: Snorlax|Earthquake|p2a: BORIS
+|-damage|p2a: BORIS|267\/523
+|move|p2a: BORIS|Counter|p1a: Snorlax
+|-fail|p2a: BORIS
+|
+|turn|19
+|choice|move 3|switch 2
+|
+|switch|p2a: Megidolaon|Exeggutor|393\/393
+|move|p1a: Snorlax|Earthquake|p2a: Megidolaon
+|-resisted|p2a: Megidolaon
+|-damage|p2a: Megidolaon|348\/393
+|
+|turn|20
+|choice|switch 2|move 1
+|
+|switch|p1a: Jynx|Jynx|333\/333 slp
+|move|p2a: Megidolaon|Sleep Powder|p1a: Jynx
+|-fail|p1a: Jynx|slp
+|
+|turn|21
+|choice|move 2|move 1
+|
+|-curestatus|p1a: Jynx|slp
+|move|p2a: Megidolaon|Sleep Powder|p1a: Jynx
+|-status|p1a: Jynx|slp
+|
+|turn|22
+|choice|move 2|switch 2
+|
+|switch|p2a: BORIS|Snorlax|267\/523
+|cant|p1a: Jynx|slp
+|
+|turn|23
+|J|Purrl
+|choice|switch 2|move 1
+|
+|switch|p1a: Snorlax|Snorlax|421\/523
+|move|p2a: BORIS|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|290\/523
+|
+|turn|24
+|choice|switch 3|move 4
+|
+|switch|p1a: Chansey|Chansey|539\/703 frz
+|move|p2a: BORIS|Self-Destruct|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|faint|p2a: BORIS
+|J|the pdc show
+|choice|switch 4|switch 2
+|
+|switch|p1a: Lapras|Lapras|463\/463
+|switch|p2a: Megidolaon|Exeggutor|348\/393
+|turn|25
+|choice|move 1|switch 6
+|
+|switch|p2a: CHONSEY|Chansey|504\/703 par
+|move|p1a: Lapras|Blizzard|p2a: CHONSEY
+|-damage|p2a: CHONSEY|374\/703 par
+|
+|turn|26
+|choice|move 3|move 4
+|
+|move|p1a: Lapras|Confuse Ray|p2a: CHONSEY
+|-start|p2a: CHONSEY|confusion
+|cant|p2a: CHONSEY|par
+|
+|turn|27
+|choice|switch 3|move 4
+|
+|switch|p1a: Snorlax|Snorlax|290\/523
+|-activate|p2a: CHONSEY|confusion
+|-damage|p2a: CHONSEY|339\/703 par|[from] confusion
+|
+|turn|28
+|J|Isa
+|choice|move 1|switch 3
+|
+|switch|p2a: Lucky Star|Starmie|323\/323 slp
+|move|p1a: Snorlax|Body Slam|p2a: Lucky Star
+|-damage|p2a: Lucky Star|203\/323 slp
+|
+|turn|29
+|choice|move 1|move 1
+|
+|-curestatus|p2a: Lucky Star|slp
+|move|p1a: Snorlax|Body Slam|p2a: Lucky Star
+|-damage|p2a: Lucky Star|86\/323
+|-status|p2a: Lucky Star|par
+|
+|turn|30
+|choice|move 1|move 1
+|
+|move|p1a: Snorlax|Body Slam|p2a: Lucky Star
+|-damage|p2a: Lucky Star|0 fnt
+|faint|p2a: Lucky Star
+|choice||switch 6
+|
+|switch|p2a: Megidolaon|Exeggutor|348\/393
+|turn|31
+|choice|switch 6|move 2
+|
+|switch|p1a: Exeggutor|Exeggutor|281\/393 par
+|move|p2a: Megidolaon|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|227\/393 par
+|
+|turn|32
+|choice|switch 6|move 2
+|
+|switch|p1a: Snorlax|Snorlax|290\/523
+|move|p2a: Megidolaon|Psychic|p1a: Snorlax
+|-damage|p1a: Snorlax|126\/523
+|
+|turn|33
+|choice|switch 6|move 2
+|
+|switch|p1a: Exeggutor|Exeggutor|227\/393 par
+|move|p2a: Megidolaon|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|171\/393 par
+|
+|turn|34
+|choice|move 1|move 2
+|
+|move|p2a: Megidolaon|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|122\/393 par
+|cant|p1a: Exeggutor|par
+|
+|turn|35
+|choice|move 1|move 2
+|
+|move|p2a: Megidolaon|Psychic|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|18\/393 par
+|move|p1a: Exeggutor|Sleep Powder|p2a: Megidolaon
+|-status|p2a: Megidolaon|slp
+|
+|turn|36
+|choice|switch 6|move 2
+|
+|switch|p1a: Snorlax|Snorlax|126\/523
+|cant|p2a: Megidolaon|slp
+|
+|turn|37
+|choice|move 4|switch 4
+|
+|switch|p2a: Yukari|Sandslash|353\/353
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp
+|-heal|p1a: Snorlax|523\/523 slp|[silent]
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|
+|turn|38
+|c|+Purrl|omg that's a sandslash
+|c|+Purrl|it's cute
+|J|fitzy
+|J|GOD MARTH
+|L|GOD MARTH
+|c|%BKC|pearl where are you from again
+|c|%BKC|portugal?
+|c|+Purrl|y
+|J|HellPowna
+|c|+TDK|sandslash :D
+|c|★Dear Ophelia|the machamper team would be better damn
+|c|+HellPowna|awooooooooooooooooooooooooooo
+|choice|switch 3|move 1
+|
+|switch|p1a: Lapras|Lapras|463\/463
+|move|p2a: Yukari|Swords Dance|p2a: Yukari
+|-boost|p2a: Yukari|atk|2
+|
+|turn|39
+|choice|move 1|switch 3
+|
+|switch|p2a: CHONSEY|Chansey|339\/703 par
+|move|p1a: Lapras|Blizzard|p2a: CHONSEY
+|-damage|p2a: CHONSEY|212\/703 par
+|
+|turn|40
+|choice|move 3|move 4
+|
+|move|p1a: Lapras|Confuse Ray|p2a: CHONSEY
+|-start|p2a: CHONSEY|confusion
+|cant|p2a: CHONSEY|par
+|
+|turn|41
+|choice|move 4|move 4
+|
+|move|p1a: Lapras|Body Slam|p2a: CHONSEY
+|-damage|p2a: CHONSEY|38\/703 par
+|cant|p2a: CHONSEY|par
+|
+|turn|42
+|choice|move 4|move 3
+|
+|move|p1a: Lapras|Body Slam|p2a: CHONSEY
+|-damage|p2a: CHONSEY|0 fnt
+|faint|p2a: CHONSEY
+|c|★Nails|lepras.
+|choice||switch 5
+|
+|switch|p2a: MASTERMUNE|Tauros|353\/353
+|turn|43
+|choice|move 1|move 1
+|
+|move|p2a: MASTERMUNE|Body Slam|p1a: Lapras
+|-damage|p1a: Lapras|350\/463
+|move|p1a: Lapras|Blizzard|p2a: MASTERMUNE|[miss]
+|-miss|p1a: Lapras
+|
+|turn|44
+|choice|move 1|move 1
+|
+|move|p2a: MASTERMUNE|Body Slam|p1a: Lapras
+|-damage|p1a: Lapras|239\/463
+|-status|p1a: Lapras|par
+|cant|p1a: Lapras|par
+|
+|turn|45
+|c|★Nails|ugh
+|c|%BKC|laprosy.
+|c|★Nails|bad lepras
+|c|%BKC|jesus
+|J|Greenkat
+|choice|move 1|move 1
+|
+|move|p2a: MASTERMUNE|Body Slam|p1a: Lapras
+|-damage|p1a: Lapras|130\/463 par
+|move|p1a: Lapras|Blizzard|p2a: MASTERMUNE
+|-crit|p2a: MASTERMUNE
+|-damage|p2a: MASTERMUNE|30\/353
+|
+|turn|46
+|c|★Nails|jk good lepras
+|c|%BKC|nice.
+|c|+Greenkat|crt
+|c|★Dear Ophelia|rude
+|c|+Greenkat|dmg
+|c|%BKC|no frz though
+|J|innovamania
+|choice|move 2|move 4
+|
+|move|p2a: MASTERMUNE|Hyper Beam|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|L|innovamania
+|choice|switch 5|
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|47
+|c|★Nails|cmon bull.
+|c|★Nails|don't get high roll crit.
+|c|★Nails|i believe in U.
+|choice|move 1|move 4
+|
+|move|p1a: Tauros|Body Slam|p2a: MASTERMUNE
+|-damage|p2a: MASTERMUNE|0 fnt
+|faint|p2a: MASTERMUNE
+|c|★Nails|NICE
+|choice||switch 4
+|
+|switch|p2a: Megidolaon|Exeggutor|348\/393 slp
+|turn|48
+|c|+Greenkat|rekt
+|c|+Demerging|nice
+|choice|move 1|move 2
+|
+|move|p1a: Tauros|Body Slam|p2a: Megidolaon
+|-damage|p2a: Megidolaon|234\/393 slp
+|cant|p2a: Megidolaon|slp
+|
+|turn|49
+|choice|move 1|move 2
+|
+|move|p1a: Tauros|Body Slam|p2a: Megidolaon
+|-crit|p2a: Megidolaon
+|-damage|p2a: Megidolaon|13\/393 slp
+|cant|p2a: Megidolaon|slp
+|
+|turn|50
+|c|★Dear Ophelia|bad eggy
+|choice|move 1|move 4
+|
+|move|p1a: Tauros|Body Slam|p2a: Megidolaon
+|-damage|p2a: Megidolaon|0 fnt
+|faint|p2a: Megidolaon
+|c|+HellPowna|purl u boy?
+|c|★Nails|good bull.
+|choice||switch 3
+|
+|switch|p2a: Yukari|Sandslash|353\/353
+|turn|51
+|c|+Purrl|y
+|c|+Omfuga|really
+|choice|move 4|move 2
+|
+|move|p1a: Tauros|Blizzard|p2a: Yukari|[miss]
+|-miss|p1a: Tauros
+|move|p2a: Yukari|Earthquake|p1a: Tauros
+|-damage|p1a: Tauros|221\/353
+|
+|turn|52
+|c|+Omfuga|O_O
+|c|+HellPowna|im Learning portguese, read that
+|choice|move 4|move 2
+|
+|move|p1a: Tauros|Blizzard|p2a: Yukari
+|-supereffective|p2a: Yukari
+|-damage|p2a: Yukari|138\/353
+|move|p2a: Yukari|Earthquake|p1a: Tauros
+|-damage|p1a: Tauros|105\/353
+|
+|turn|53
+|c|+Purrl|not bad
+|choice|move 1|move 2
+|
+|move|p1a: Tauros|Body Slam|p2a: Yukari
+|-damage|p2a: Yukari|48\/353
+|move|p2a: Yukari|Earthquake|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|c|+Purrl|it's a fan language
+|choice|switch 3|
+|
+|switch|p1a: Snorlax|Snorlax|523\/523 slp
+|turn|54
+|c|+Purrl|.monkey
+|c|+Omfuga|nails
+|choice|move 1|move 1
+|
+|move|p2a: Yukari|Swords Dance|p2a: Yukari
+|-boost|p2a: Yukari|atk|2
+|cant|p1a: Snorlax|slp
+|
+|turn|55
+|c|+Omfuga|why did u do that
+|c|+Omfuga|..
+|choice|move 1|move 2
+|
+|move|p2a: Yukari|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|224\/523 slp
+|-curestatus|p1a: Snorlax|slp
+|
+|turn|56
+|c|+HellPowna|purl, tu és um dos jogadores mais bonitos\/no homo
+|c|★Nails|ugh.
+|c|+Demerging|(づ｡◕‿‿◕｡)づ・。*。✧・゜゜・。✧。*・゜゜・✧。・­­­­­゜゜・。*。・゜*✧ 
+|c|★Nails|damn
+|c|+Omfuga|nails why would u
+|c|★Nails|i needed
+|c|+Omfuga|body slam
+|c|★Nails|to hit that
+|c|+Purrl|LOL
+|c|+Omfuga|LOLOL
+|c|★Nails|i didnt calc
+|c|★Dear Ophelia|oo
+|c|★Nails|lmao
+|choice|move 1|move 2
+|
+|move|p2a: Yukari|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|choice|switch 6|
+|
+|switch|p1a: Exeggutor|Exeggutor|18\/393 par
+|turn|57
+|choice|move 3|move 2
+|
+|move|p2a: Yukari|Earthquake|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|c|★Nails|unlucky
+|c|+Purrl|255
+|choice|switch 2|
+|
+|switch|p1a: Jynx|Jynx|333\/333 slp
+|turn|58
+|c|+Purrl|rip
+|choice|move 2|move 2
+|
+|cant|p1a: Jynx|slp
+|move|p2a: Yukari|Earthquake|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|
+|win|Dear Ophelia

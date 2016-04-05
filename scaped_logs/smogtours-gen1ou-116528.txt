@@ -1,0 +1,154 @@
+﻿|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|J|Nails
+|J|TDK
+|player|p1|Nails|169
+|player|p2|TDK|96
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|seed|54838,4475,24521,9005
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Tentacruel|Tentacruel|363\/363
+|switch|p2a: Jynx|Jynx|333\/333
+|turn|1
+|J|KratosMana
+|choice|move 1|move 1
+|
+|move|p1a: Tentacruel|Wrap|p2a: Jynx
+|-damage|p2a: Jynx|317\/333
+|-activate|p2a: Jynx|move: Wrap|[of] p1a: Tentacruel
+|cant|p2a: Jynx|partiallytrapped
+|
+|turn|2
+|J|bro fist
+|J|BKC
+|choice|move 1|move 1
+|
+|move|p1a: Tentacruel|Wrap|p2a: Jynx
+|-damage|p2a: Jynx|301\/333
+|cant|p2a: Jynx|partiallytrapped
+|
+|turn|3
+|J|BLINGAS
+|choice|move 1|switch 5
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Tentacruel|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|678\/703
+|-activate|p2a: Chansey|move: Wrap|[of] p1a: Tentacruel
+|
+|turn|4
+|J|Jirachee
+|J|Rei
+|L|KratosMana
+|choice|move 1|move 3
+|
+|move|p1a: Tentacruel|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|653\/703
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|5
+|choice|move 1|switch 5
+|
+|switch|p2a: Jynx|Jynx|301\/333
+|move|p1a: Tentacruel|Wrap|p2a: Jynx
+|-damage|p2a: Jynx|283\/333
+|-activate|p2a: Jynx|move: Wrap|[of] p1a: Tentacruel
+|
+|turn|6
+|choice|move 1|move 1
+|
+|move|p1a: Tentacruel|Wrap|p2a: Jynx
+|-damage|p2a: Jynx|265\/333
+|cant|p2a: Jynx|partiallytrapped
+|
+|turn|7
+|choice|move 1|switch 5
+|
+|switch|p2a: Chansey|Chansey|653\/703
+|move|p1a: Tentacruel|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|627\/703
+|-activate|p2a: Chansey|move: Wrap|[of] p1a: Tentacruel
+|
+|turn|8
+|choice|move 1|switch 5
+|
+|switch|p2a: Jynx|Jynx|265\/333
+|move|p1a: Tentacruel|Wrap|p2a: Jynx
+|-damage|p2a: Jynx|247\/333
+|-activate|p2a: Jynx|move: Wrap|[of] p1a: Tentacruel
+|
+|turn|9
+|choice|move 1|switch 5
+|
+|switch|p2a: Chansey|Chansey|627\/703
+|move|p1a: Tentacruel|Wrap|p2a: Chansey|[miss]
+|-miss|p1a: Tentacruel
+|
+|turn|10
+|J|TraceofLife
+|choice|switch 2|move 4
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Chansey|Sing|p1a: Chansey
+|-status|p1a: Chansey|slp
+|
+|turn|11
+|choice|switch 2|switch 3
+|
+|switch|p1a: Tentacruel|Tentacruel|363\/363
+|switch|p2a: Slowbro|Slowbro|393\/393
+|
+|turn|12
+|L|Jirachee
+|choice|switch 3|move 2
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|move|p2a: Slowbro|Thunder Wave|p1a: Starmie
+|-status|p1a: Starmie|par
+|
+|turn|13
+|choice|move 2|move 4
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|move|p1a: Starmie|Toxic|p2a: Slowbro
+|-status|p2a: Slowbro|tox
+|
+|turn|14
+|c|★TDK|.
+|choice|switch 3|move 4
+|
+|switch|p1a: Tentacruel|Tentacruel|363\/363
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|-damage|p2a: Slowbro|369\/393 tox|[from] psn
+|
+|turn|15
+|choice|move 1|switch 4
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Tentacruel|Wrap|p2a: Snorlax
+|-damage|p2a: Snorlax|509\/523
+|-activate|p2a: Snorlax|move: Wrap|[of] p1a: Tentacruel
+|
+|turn|16
+|choice|move 1|move 4
+|
+|move|p1a: Tentacruel|Wrap|p2a: Snorlax
+|-damage|p2a: Snorlax|495\/523
+|cant|p2a: Snorlax|partiallytrapped
+|
+|turn|17
+|-message|TDK forfeited.
+|
+|win|Nails

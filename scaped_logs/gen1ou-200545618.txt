@@ -1,0 +1,177 @@
+﻿|join|Testchar
+|join|jb champ
+|player|p1|Testchar|52
+|player|p2|jb champ|150
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|switch|p2a: Jynx|Jynx|333\/333
+|turn|1
+|
+|move|p2a: Jynx|Lovely Kiss|p1a: Exeggutor
+|-status|p1a: Exeggutor|slp
+|cant|p1a: Exeggutor|slp
+|-curestatus|p1a: Exeggutor|slp
+|
+|turn|2
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|move|p2a: Jynx|Lovely Kiss|p1a: Starmie
+|-status|p1a: Starmie|slp
+|
+|turn|3
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Jynx|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|577\/703
+|
+|turn|4
+|join|CarnageRED
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|turn|5
+|
+|switch|p1a: Starmie|Starmie|323\/323 slp
+|move|p2a: Chansey|Ice Beam|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|283\/323 slp
+|
+|turn|6
+|leave|CarnageRED
+|
+|cant|p1a: Starmie|slp
+|move|p2a: Chansey|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|131\/323 slp
+|
+|turn|7
+|
+|switch|p1a: Rhydon|Rhydon|413\/413
+|move|p2a: Chansey|Ice Beam|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|163\/413
+|
+|turn|8
+|
+|switch|p2a: Blastoise|Blastoise|361\/361
+|move|p1a: Rhydon|Earthquake|p2a: Blastoise
+|-damage|p2a: Blastoise|229\/361
+|
+|turn|9
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Blastoise|Blizzard|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|99\/393
+|
+|turn|10
+|
+|move|p2a: Blastoise|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|
+|turn|11
+|
+|switch|p2a: Chansey|Chansey|703\/703 par
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|571\/703 par
+|
+|turn|12
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|move|p2a: Chansey|Ice Beam|p1a: Tauros
+|-damage|p1a: Tauros|250\/353
+|
+|turn|13
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|move|p1a: Tauros|Body Slam|p2a: Gengar
+|-immune|p2a: Gengar|[msg]
+|
+|turn|14
+|
+|move|p1a: Tauros|Earthquake|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|123\/323
+|move|p2a: Gengar|Confuse Ray|p1a: Tauros
+|-start|p1a: Tauros|confusion
+|
+|turn|15
+|
+|-activate|p1a: Tauros|confusion
+|-damage|p1a: Tauros|214\/353|[from] confusion
+|move|p2a: Gengar|Explosion|p1a: Tauros
+|-damage|p1a: Tauros|1\/353
+|faint|p2a: Gengar
+|
+|switch|p2a: Jolteon|Jolteon|333\/333
+|turn|16
+|
+|switch|p1a: Rhydon|Rhydon|163\/413
+|move|p2a: Jolteon|Double Kick|p1a: Rhydon
+|-crit|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|95\/413
+|-damage|p1a: Rhydon|27\/413
+|-hitcount|p1a: Rhydon|2
+|
+|turn|17
+|
+|move|p2a: Jolteon|Double Kick|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|-hitcount|p1a: Rhydon|1
+|faint|p1a: Rhydon
+|
+|switch|p1a: Chansey|Chansey|577\/703
+|
+|turn|18
+|
+|switch|p2a: Chansey|Chansey|571\/703 par
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|
+|turn|19
+|
+|move|p1a: Chansey|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|479\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|20
+|
+|switch|p1a: Starmie|Starmie|131\/323 slp
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703 par
+|
+|turn|21
+|
+|cant|p1a: Starmie|slp
+|move|p2a: Chansey|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|-message|Testchar forfeited.
+|leave|Testchar
+|
+|win|jb champ
+|raw|Ladder updating...
+|player|p1
+|raw|Testchar's rating: 1122 &rarr; <strong>1097<\/strong><br \/>(-25 for losing)
+|raw|jb champ's rating: 1119 &rarr; <strong>1144<\/strong><br \/>(+25 for winning)

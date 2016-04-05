@@ -1,0 +1,275 @@
+﻿|j|MALESANI
+|j|Jimmm
+|player|p1|MALESANI|238
+|player|p2|Jimmm|169
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|54374,62056,43601,48405
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Eevee|Eevee, L96|300\/300
+|switch|p2a: Clefairy|Clefairy, L95|326\/326
+|turn|1
+|choice|move 3|move 2
+|
+|move|p1a: Eevee|Tail Whip|p2a: Clefairy
+|-unboost|p2a: Clefairy|def|1
+|move|p2a: Clefairy|Thunder Wave|p1a: Eevee
+|-status|p1a: Eevee|par
+|
+|turn|2
+|choice|move 1|move 2
+|
+|move|p2a: Clefairy|Thunder Wave|p1a: Eevee
+|-fail|p1a: Eevee|par
+|move|p1a: Eevee|Body Slam|p2a: Clefairy
+|-damage|p2a: Clefairy|182\/326
+|
+|turn|3
+|choice|move 1|move 3
+|
+|move|p1a: Eevee|Body Slam|p2a: Clefairy
+|-damage|p2a: Clefairy|18\/326
+|move|p2a: Clefairy|Counter|p1a: Eevee
+|-damage|p1a: Eevee|0 fnt
+|faint|p1a: Eevee
+|choice|switch 4|
+|
+|switch|p1a: Alakazam|Alakazam, L79|249\/249
+|turn|4
+|choice|move 2|move 2
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Clefairy
+|-damage|p2a: Clefairy|0 fnt
+|faint|p2a: Clefairy
+|choice||switch 3
+|
+|switch|p2a: Exeggutor|Exeggutor, L79|312\/312
+|turn|5
+|choice|switch 6|move 1
+|
+|switch|p1a: Magneton|Magneton, L90|273\/273
+|move|p2a: Exeggutor|Sleep Powder|p1a: Magneton|[miss]
+|-miss|p2a: Exeggutor
+|
+|turn|6
+|choice|move 2|move 1
+|
+|move|p1a: Magneton|Thunder Wave|p2a: Exeggutor
+|-status|p2a: Exeggutor|par
+|move|p2a: Exeggutor|Sleep Powder|p1a: Magneton
+|-status|p1a: Magneton|slp
+|
+|turn|7
+|choice|move 4|switch 4
+|
+|switch|p2a: Rhydon|Rhydon, L79|328\/328
+|cant|p1a: Magneton|slp
+|
+|turn|8
+|choice|switch 3|move 1
+|
+|switch|p1a: Vileplume|Vileplume, L90|318\/318
+|move|p2a: Rhydon|Substitute|p2a: Rhydon
+|-start|p2a: Rhydon|Substitute
+|-damage|p2a: Rhydon|246\/328
+|
+|turn|9
+|choice|move 4|move 2
+|
+|move|p1a: Vileplume|Sleep Powder|p2a: Rhydon|[miss]
+|-miss|p1a: Vileplume
+|move|p2a: Rhydon|Earthquake|p1a: Vileplume
+|-damage|p1a: Vileplume|210\/318
+|
+|turn|10
+|choice|move 4|move 2
+|
+|move|p1a: Vileplume|Sleep Powder|p2a: Rhydon|[miss]
+|-miss|p1a: Vileplume
+|move|p2a: Rhydon|Earthquake|p1a: Vileplume
+|-damage|p1a: Vileplume|104\/318
+|
+|turn|11
+|choice|move 1|move 2
+|
+|move|p1a: Vileplume|Mega Drain|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-end|p2a: Rhydon|Substitute
+|move|p2a: Rhydon|Earthquake|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|faint|p1a: Vileplume
+|choice|switch 5|
+|
+|switch|p1a: Lapras|Lapras, L79|367\/367
+|turn|12
+|choice|move 1|switch 4
+|
+|switch|p2a: Exeggutor|Exeggutor, L79|312\/312 par
+|move|p1a: Lapras|Blizzard|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|136\/312 par
+|
+|turn|13
+|choice|move 1|move 1
+|
+|move|p1a: Lapras|Blizzard|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|choice||switch 5
+|
+|switch|p2a: Poliwrath|Poliwrath, L85|327\/327
+|turn|14
+|choice|move 4|move 3
+|
+|move|p2a: Poliwrath|Hypnosis|p1a: Lapras
+|-message|Sleep Clause Mod activated.
+|move|p1a: Lapras|Thunderbolt|p2a: Poliwrath
+|-supereffective|p2a: Poliwrath
+|-damage|p2a: Poliwrath|199\/327
+|
+|turn|15
+|choice|move 3|move 1
+|
+|move|p2a: Poliwrath|Amnesia|p2a: Poliwrath
+|-boost|p2a: Poliwrath|spd|2
+|-boost|p2a: Poliwrath|spa|2
+|move|p1a: Lapras|Body Slam|p2a: Poliwrath
+|-damage|p2a: Poliwrath|152\/327
+|-status|p2a: Poliwrath|par
+|
+|turn|16
+|choice|move 4|move 4
+|
+|move|p1a: Lapras|Thunderbolt|p2a: Poliwrath
+|-supereffective|p2a: Poliwrath
+|-damage|p2a: Poliwrath|80\/327 par
+|cant|p2a: Poliwrath|par
+|
+|turn|17
+|choice|move 3|move 4
+|
+|move|p1a: Lapras|Body Slam|p2a: Poliwrath
+|-damage|p2a: Poliwrath|36\/327 par
+|move|p2a: Poliwrath|Submission|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|173\/367
+|-damage|p2a: Poliwrath|0 fnt|[from] recoil|[of] p1a: Lapras
+|faint|p2a: Poliwrath
+|choice||switch 2
+|
+|switch|p2a: Venonat|Venonat, L96|310\/310
+|turn|18
+|choice|move 1|move 3
+|
+|move|p2a: Venonat|Psychic|p1a: Lapras
+|-damage|p1a: Lapras|121\/367
+|move|p1a: Lapras|Blizzard|p2a: Venonat
+|-damage|p2a: Venonat|167\/310
+|
+|turn|19
+|choice|switch 6|move 3
+|
+|switch|p1a: Alakazam|Alakazam, L79|249\/249
+|move|p2a: Venonat|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|229\/249
+|
+|turn|20
+|choice|move 1|move 1
+|
+|move|p1a: Alakazam|Psychic|p2a: Venonat
+|-supereffective|p2a: Venonat
+|-damage|p2a: Venonat|0 fnt
+|faint|p2a: Venonat
+|choice||switch 4
+|
+|switch|p2a: Rhydon|Rhydon, L79|246\/328
+|turn|21
+|choice|switch 3|move 2
+|
+|switch|p1a: Magneton|Magneton, L90|273\/273 slp
+|move|p2a: Rhydon|Earthquake|p1a: Magneton
+|-supereffective|p1a: Magneton
+|-damage|p1a: Magneton|62\/273 slp
+|
+|turn|22
+|choice|move 2|move 2
+|
+|cant|p1a: Magneton|slp
+|move|p2a: Rhydon|Earthquake|p1a: Magneton
+|-supereffective|p1a: Magneton
+|-damage|p1a: Magneton|0 fnt
+|faint|p1a: Magneton
+|choice|switch 6|
+|
+|switch|p1a: Lapras|Lapras, L79|121\/367
+|turn|23
+|choice|move 1|move 2
+|
+|move|p1a: Lapras|Blizzard|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|choice||switch 6
+|
+|switch|p2a: Moltres|Moltres, L85|327\/327
+|turn|24
+|choice|move 1|move 2
+|
+|move|p2a: Moltres|Reflect|p2a: Moltres
+|-start|p2a: Moltres|Reflect
+|move|p1a: Lapras|Blizzard|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|159\/327
+|
+|turn|25
+|choice|move 1|move 1
+|
+|move|p2a: Moltres|Fire Blast|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|choice|switch 2|
+|
+|switch|p1a: Graveler|Graveler, L85|267\/267
+|turn|26
+|choice|move 3|move 1
+|
+|move|p2a: Moltres|Fire Blast|p1a: Graveler
+|-crit|p1a: Graveler
+|-resisted|p1a: Graveler
+|-damage|p1a: Graveler|66\/267
+|-status|p1a: Graveler|brn
+|move|p1a: Graveler|Explosion|p2a: Moltres
+|-damage|p2a: Moltres|97\/327
+|faint|p1a: Graveler
+|choice|switch 3|
+|
+|switch|p1a: Alakazam|Alakazam, L79|229\/249
+|turn|27
+|choice|move 1|move 4
+|
+|move|p1a: Alakazam|Psychic|p2a: Moltres
+|-damage|p2a: Moltres|13\/327
+|move|p2a: Moltres|Hyper Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|49\/249
+|
+|turn|28
+|-mustrecharge|p2a: Moltres
+|c|★Jimmm|FUCK
+|-mustrecharge|p2a: Moltres
+|choice|move 2|move 1
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|
+|win|MALESANI
+|player|p1
+|player|p2

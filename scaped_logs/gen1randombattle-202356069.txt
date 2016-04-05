@@ -1,0 +1,234 @@
+﻿|join|Mandelbrot
+|join|juvenal54
+|player|p1|Mandelbrot|101
+|player|p2|juvenal54|159
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Golduck|Golduck, L86|313\/313
+|switch|p2a: Gengar|Gengar, L82|266\/266
+|turn|1
+|
+|move|p2a: Gengar|Thunderbolt|p1a: Golduck
+|-supereffective|p1a: Golduck
+|-damage|p1a: Golduck|146\/313
+|move|p1a: Golduck|Surf|p2a: Gengar
+|-damage|p2a: Gengar|194\/266
+|
+|turn|2
+|
+|switch|p1a: Rhydon|Rhydon, L82|340\/340
+|move|p2a: Gengar|Mega Drain|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|140\/340
+|-heal|p2a: Gengar|266\/266|[from] drain|[of] p1a: Rhydon
+|
+|turn|3
+|
+|move|p2a: Gengar|Mega Drain|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|
+|switch|p1a: Kangaskhan|Kangaskhan, L86|356\/356
+|turn|4
+|
+|move|p2a: Gengar|Thunderbolt|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|242\/356
+|move|p1a: Kangaskhan|Earthquake|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|67\/266
+|
+|turn|5
+|
+|move|p2a: Gengar|Psychic|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|133\/356
+|move|p1a: Kangaskhan|Earthquake|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|switch|p2a: Lapras|Lapras, L82|381\/381
+|turn|6
+|
+|move|p1a: Kangaskhan|Hyper Beam|p2a: Lapras
+|-damage|p2a: Lapras|193\/381
+|move|p2a: Lapras|Thunderbolt|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|39\/356
+|
+|turn|7
+|
+|cant|p1a: Kangaskhan|recharge
+|move|p2a: Lapras|Ice Beam|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|0 fnt
+|faint|p1a: Kangaskhan
+|
+|switch|p1a: Golduck|Golduck, L86|146\/313
+|turn|8
+|
+|move|p1a: Golduck|Body Slam|p2a: Lapras
+|-damage|p2a: Lapras|126\/381
+|move|p2a: Lapras|Thunderbolt|p1a: Golduck
+|-supereffective|p1a: Golduck
+|-damage|p1a: Golduck|19\/313
+|
+|turn|9
+|
+|move|p1a: Golduck|Body Slam|p2a: Lapras
+|-damage|p2a: Lapras|67\/381
+|-status|p2a: Lapras|par
+|move|p2a: Lapras|Ice Beam|p1a: Golduck
+|-resisted|p1a: Golduck
+|-damage|p1a: Golduck|0 fnt
+|faint|p1a: Golduck
+|
+|switch|p1a: Raichu|Raichu, L86|279\/279
+|turn|10
+|
+|switch|p2a: Rhydon|Rhydon, L82|340\/340
+|move|p1a: Raichu|Body Slam|p2a: Rhydon
+|-crit|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|296\/340
+|
+|turn|11
+|
+|move|p1a: Raichu|Surf|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|
+|switch|p2a: Lapras|Lapras, L82|67\/381 par
+|turn|12
+|
+|move|p1a: Raichu|Thunderbolt|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|
+|switch|p2a: Magneton|Magneton, L86|261\/261
+|turn|13
+|
+|move|p1a: Raichu|Surf|p2a: Magneton
+|-damage|p2a: Magneton|208\/261
+|move|p2a: Magneton|Double-Edge|p1a: Raichu
+|-damage|p1a: Raichu|206\/279
+|-damage|p2a: Magneton|190\/261|[from] recoil|[of] p1a: Raichu
+|
+|turn|14
+|
+|move|p1a: Raichu|Surf|p2a: Magneton
+|-crit|p2a: Magneton
+|-damage|p2a: Magneton|82\/261
+|move|p2a: Magneton|Double-Edge|p1a: Raichu
+|-damage|p1a: Raichu|141\/279
+|-damage|p2a: Magneton|66\/261|[from] recoil|[of] p1a: Raichu
+|
+|turn|15
+|
+|move|p1a: Raichu|Surf|p2a: Magneton
+|-damage|p2a: Magneton|14\/261
+|move|p2a: Magneton|Hyper Beam|p1a: Raichu
+|-damage|p1a: Raichu|38\/279
+|
+|turn|16
+|
+|move|p1a: Raichu|Surf|p2a: Magneton
+|-crit|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|faint|p2a: Magneton
+|
+|switch|p2a: Nidoqueen|Nidoqueen, L86|330\/330
+|turn|17
+|
+|move|p1a: Raichu|Surf|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|195\/330
+|move|p2a: Nidoqueen|Body Slam|p1a: Raichu
+|-damage|p1a: Raichu|0 fnt
+|faint|p1a: Raichu
+|
+|switch|p1a: Nidorina|Nidorina, L88|303\/303
+|turn|18
+|
+|move|p2a: Nidoqueen|Blizzard|p1a: Nidorina
+|-damage|p1a: Nidorina|209\/303
+|move|p1a: Nidorina|Double-Edge|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|142\/330
+|-damage|p1a: Nidorina|196\/303|[from] recoil|[of] p2a: Nidoqueen
+|
+|turn|19
+|
+|move|p2a: Nidoqueen|Body Slam|p1a: Nidorina
+|-damage|p1a: Nidorina|129\/303
+|-status|p1a: Nidorina|par
+|move|p1a: Nidorina|Substitute|p1a: Nidorina
+|-start|p1a: Nidorina|Substitute
+|-damage|p1a: Nidorina|54\/303 par
+|
+|turn|20
+|
+|move|p2a: Nidoqueen|Thunderbolt|p1a: Nidorina
+|-activate|p1a: Nidorina|Substitute|[damage]
+|move|p1a: Nidorina|Rest|p1a: Nidorina
+|-status|p1a: Nidorina|slp
+|-heal|p1a: Nidorina|303\/303 slp|[silent]
+|-status|p1a: Nidorina|slp|[from] move: Rest
+|
+|turn|21
+|
+|move|p2a: Nidoqueen|Thunderbolt|p1a: Nidorina
+|-end|p1a: Nidorina|Substitute
+|cant|p1a: Nidorina|slp
+|
+|turn|22
+|
+|switch|p2a: Slowbro|Slowbro, L82|324\/324
+|cant|p1a: Nidorina|slp
+|-curestatus|p1a: Nidorina|slp
+|
+|turn|23
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|move|p1a: Nidorina|Double-Edge|p2a: Slowbro
+|-damage|p2a: Slowbro|274\/324
+|-damage|p1a: Nidorina|291\/303|[from] recoil|[of] p2a: Slowbro
+|
+|turn|24
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|move|p1a: Nidorina|Leer|p2a: Slowbro
+|-unboost|p2a: Slowbro|def|1
+|
+|turn|25
+|
+|move|p2a: Slowbro|Surf|p1a: Nidorina
+|-damage|p1a: Nidorina|0 fnt
+|faint|p1a: Nidorina
+|
+|switch|p1a: Charizard|Charizard, L86|310\/310
+|turn|26
+|
+|move|p1a: Charizard|Earthquake|p2a: Slowbro
+|-damage|p2a: Slowbro|185\/324
+|move|p2a: Slowbro|Surf|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|win|juvenal54
+|raw|Ladder updating...
+|c|★Mandelbrot|gg
+|c|★juvenal54|gg
+|raw|Mandelbrot's rating: 1081 &rarr; <strong>1055<\/strong><br \/>(-26 for losing)
+|raw|juvenal54's rating: 1022 &rarr; <strong>1065<\/strong><br \/>(+43 for winning)

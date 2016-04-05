@@ -1,0 +1,189 @@
+﻿|join|FIREICAN
+|join|Squadra di golbat
+|player|p1|FIREICAN|101
+|player|p2|Squadra di golbat|101
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Ponyta|Ponyta, L96|291\/291
+|switch|p2a: Primeape|Primeape, L90|300\/300
+|turn|1
+|
+|switch|p1a: Zapdos|Zapdos, L79|304\/304
+|switch|p2a: Weedle|Weedle, L99|280\/280
+|
+|turn|2
+|
+|move|p1a: Zapdos|Thunder Wave|p2a: Weedle
+|-status|p2a: Weedle|par
+|move|p2a: Weedle|String Shot|p1a: Zapdos
+|-unboost|p1a: Zapdos|spe|1
+|
+|turn|3
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Weedle
+|-supereffective|p2a: Weedle
+|-damage|p2a: Weedle|77\/280 par
+|move|p2a: Weedle|String Shot|p1a: Zapdos
+|-unboost|p1a: Zapdos|spe|1
+|
+|turn|4
+|
+|switch|p1a: Spearow|Spearow, L96|272\/272
+|move|p2a: Weedle|Poison Sting|p1a: Spearow
+|-damage|p1a: Spearow|252\/272
+|-status|p1a: Spearow|psn
+|
+|turn|5
+|
+|move|p1a: Spearow|Drill Peck|p2a: Weedle
+|-supereffective|p2a: Weedle
+|-damage|p2a: Weedle|0 fnt
+|faint|p2a: Weedle
+|
+|switch|p2a: Electrode|Electrode, L90|291\/291
+|turn|6
+|
+|switch|p1a: Ponyta|Ponyta, L96|291\/291
+|move|p2a: Electrode|Thunderbolt|p1a: Ponyta
+|-crit|p1a: Ponyta
+|-damage|p1a: Ponyta|96\/291
+|
+|turn|7
+|
+|move|p2a: Electrode|Thunderbolt|p1a: Ponyta
+|-crit|p1a: Ponyta
+|-damage|p1a: Ponyta|0 fnt
+|faint|p1a: Ponyta
+|
+|switch|p1a: Tauros|Tauros, L79|280\/280
+|turn|8
+|
+|switch|p2a: Primeape|Primeape, L90|300\/300
+|move|p1a: Tauros|Body Slam|p2a: Primeape
+|-damage|p2a: Primeape|198\/300
+|
+|turn|9
+|
+|switch|p1a: Spearow|Spearow, L96|252\/272 psn
+|-damage|p1a: Spearow|235\/272 psn|[from] psn
+|move|p2a: Primeape|Submission|p1a: Spearow
+|-damage|p1a: Spearow|78\/272 psn
+|-damage|p2a: Primeape|159\/300|[from] recoil|[of] p1a: Spearow
+|
+|turn|10
+|
+|switch|p2a: Electrode|Electrode, L90|291\/291
+|move|p1a: Spearow|Drill Peck|p2a: Electrode
+|-crit|p2a: Electrode
+|-resisted|p2a: Electrode
+|-damage|p2a: Electrode|207\/291
+|-damage|p1a: Spearow|61\/272 psn|[from] psn|[of] p2a: Electrode
+|
+|turn|11
+|
+|switch|p1a: Tauros|Tauros, L79|280\/280
+|move|p2a: Electrode|Thunderbolt|p1a: Tauros
+|-damage|p1a: Tauros|161\/280
+|
+|turn|12
+|
+|move|p2a: Electrode|Thunderbolt|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|switch|p1a: Zapdos|Zapdos, L79|304\/304
+|turn|13
+|
+|switch|p2a: Golem|Golem, L79|288\/288
+|move|p1a: Zapdos|Thunder Wave|p2a: Golem
+|-immune|p2a: Golem|[msg]
+|
+|turn|14
+|
+|switch|p1a: Starmie|Starmie, L79|257\/257
+|move|p2a: Golem|Rock Slide|p1a: Starmie
+|-damage|p1a: Starmie|168\/257
+|
+|turn|15
+|
+|switch|p2a: Electrode|Electrode, L90|207\/291
+|move|p1a: Starmie|Thunder Wave|p2a: Electrode
+|-status|p2a: Electrode|par
+|
+|turn|16
+|
+|switch|p1a: Zapdos|Zapdos, L79|304\/304
+|move|p2a: Electrode|Explosion|p1a: Zapdos
+|-damage|p1a: Zapdos|118\/304
+|faint|p2a: Electrode
+|
+|switch|p2a: Golem|Golem, L79|288\/288
+|turn|17
+|
+|switch|p1a: Starmie|Starmie, L79|168\/257
+|move|p2a: Golem|Rock Slide|p1a: Starmie
+|-damage|p1a: Starmie|88\/257
+|
+|turn|18
+|
+|switch|p2a: Scyther|Scyther, L90|309\/309
+|move|p1a: Starmie|Surf|p2a: Scyther
+|-damage|p2a: Scyther|192\/309
+|
+|turn|19
+|
+|move|p2a: Scyther|Hyper Beam|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|switch|p1a: Charmeleon|Charmeleon, L85|272\/272
+|turn|20
+|
+|switch|p2a: Seaking|Seaking, L90|327\/327
+|move|p1a: Charmeleon|Fire Blast|p2a: Seaking
+|-resisted|p2a: Seaking
+|-damage|p2a: Seaking|276\/327
+|
+|turn|21
+|
+|move|p1a: Charmeleon|Slash|p2a: Seaking
+|-crit|p2a: Seaking
+|-damage|p2a: Seaking|191\/327
+|move|p2a: Seaking|Surf|p1a: Charmeleon
+|-supereffective|p1a: Charmeleon
+|-damage|p1a: Charmeleon|12\/272
+|
+|turn|22
+|
+|move|p1a: Charmeleon|Slash|p2a: Seaking
+|-crit|p2a: Seaking
+|-damage|p2a: Seaking|108\/327
+|move|p2a: Seaking|Surf|p1a: Charmeleon
+|-supereffective|p1a: Charmeleon
+|-damage|p1a: Charmeleon|0 fnt
+|faint|p1a: Charmeleon
+|
+|switch|p1a: Zapdos|Zapdos, L79|118\/304
+|turn|23
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Seaking
+|-damage|p2a: Seaking|31\/327
+|move|p2a: Seaking|Blizzard|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|-message|FIREICAN forfeited.
+|
+|win|Squadra di golbat
+|leave|FIREICAN
+|player|p1
+|raw|FIREICAN's rating: 1220 &rarr; <strong>1192<\/strong><br \/>(-28 for losing)
+|raw|Squadra di golbat's rating: 1170 &rarr; <strong>1199<\/strong><br \/>(+29 for winning)

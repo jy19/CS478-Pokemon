@@ -1,0 +1,107 @@
+﻿|join|Squadra di golbat
+|join|Kirbidna
+|player|p1|Squadra di golbat|2
+|player|p2|Kirbidna|77
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Voltorb|Voltorb, L96|272\/272
+|switch|p2a: Gastly|Gastly, L96|252\/252
+|turn|1
+|
+|switch|p2a: Lickitung|Lickitung, L90|345\/345
+|move|p1a: Voltorb|Explosion|p2a: Lickitung
+|-damage|p2a: Lickitung|162\/345
+|faint|p1a: Voltorb
+|
+|switch|p1a: Nidoqueen|Nidoqueen, L85|327\/327
+|turn|2
+|
+|move|p1a: Nidoqueen|Earthquake|p2a: Lickitung
+|-damage|p2a: Lickitung|67\/345
+|move|p2a: Lickitung|Earthquake|p1a: Nidoqueen
+|-supereffective|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|215\/327
+|
+|turn|3
+|
+|switch|p2a: Porygon|Porygon, L85|284\/284
+|move|p1a: Nidoqueen|Earthquake|p2a: Porygon
+|-damage|p2a: Porygon|173\/284
+|
+|turn|4
+|
+|move|p1a: Nidoqueen|Body Slam|p2a: Porygon
+|-damage|p2a: Porygon|111\/284
+|move|p2a: Porygon|Ice Beam|p1a: Nidoqueen
+|-supereffective|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|76\/327
+|
+|turn|5
+|
+|move|p1a: Nidoqueen|Body Slam|p2a: Porygon
+|-damage|p2a: Porygon|43\/284
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|185\/284
+|
+|turn|6
+|
+|move|p1a: Nidoqueen|Body Slam|p2a: Porygon
+|-damage|p2a: Porygon|118\/284
+|move|p2a: Porygon|Ice Beam|p1a: Nidoqueen
+|-supereffective|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|0 fnt
+|faint|p1a: Nidoqueen
+|
+|switch|p1a: Electrode|Electrode, L90|291\/291
+|turn|7
+|
+|move|p1a: Electrode|Thunder|p2a: Porygon|[miss]
+|-miss|p1a: Electrode
+|move|p2a: Porygon|Tri Attack|p1a: Electrode
+|-damage|p1a: Electrode|224\/291
+|
+|turn|8
+|
+|switch|p2a: Lickitung|Lickitung, L90|67\/345
+|move|p1a: Electrode|Thunder|p2a: Lickitung
+|-damage|p2a: Lickitung|0 fnt
+|faint|p2a: Lickitung
+|
+|switch|p2a: Growlithe|Growlithe, L96|300\/300
+|turn|9
+|
+|move|p1a: Electrode|Thunder|p2a: Growlithe
+|-crit|p2a: Growlithe
+|-damage|p2a: Growlithe|0 fnt
+|faint|p2a: Growlithe
+|
+|switch|p2a: Flareon|Flareon, L90|300\/300
+|turn|10
+|
+|move|p1a: Electrode|Thunder|p2a: Flareon
+|-crit|p2a: Flareon
+|-damage|p2a: Flareon|92\/300
+|move|p2a: Flareon|Hyper Beam|p1a: Electrode
+|-damage|p1a: Electrode|57\/291
+|
+|turn|11
+|-mustrecharge|p2a: Flareon
+|-mustrecharge|p2a: Flareon
+|
+|move|p1a: Electrode|Thunder|p2a: Flareon
+|-damage|p2a: Flareon|0 fnt
+|faint|p2a: Flareon
+|-message|Kirbidna forfeited.
+|
+|win|Squadra di golbat
+|leave|Kirbidna
+|player|p2
+|raw|Squadra di golbat's rating: 1037 &rarr; <strong>1068<\/strong><br \/>(+31 for winning)
+|raw|Kirbidna's rating: 1000 &rarr; <strong>1000<\/strong><br \/>(+0 for losing)

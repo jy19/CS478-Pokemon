@@ -1,0 +1,190 @@
+﻿|join|SykesSum
+|join|XianJu
+|player|p1|SykesSum|274
+|player|p2|XianJu|130
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Dewgong|Dewgong, L85|327\/327
+|switch|p2a: Zubat|Zubat, L96|272\/272
+|turn|1
+|
+|switch|p2a: Poliwhirl|Poliwhirl, L85|284\/284
+|move|p1a: Dewgong|Blizzard|p2a: Poliwhirl|[miss]
+|-miss|p1a: Dewgong
+|
+|turn|2
+|
+|move|p2a: Poliwhirl|Hypnosis|p1a: Dewgong
+|-status|p1a: Dewgong|slp
+|cant|p1a: Dewgong|slp
+|
+|turn|3
+|
+|switch|p1a: Zapdos|Zapdos, L79|304\/304
+|move|p2a: Poliwhirl|Amnesia|p2a: Poliwhirl
+|-boost|p2a: Poliwhirl|spd|2
+|-boost|p2a: Poliwhirl|spa|2
+|
+|turn|4
+|
+|move|p2a: Poliwhirl|Surf|p1a: Zapdos
+|-damage|p1a: Zapdos|188\/304
+|move|p1a: Zapdos|Thunderbolt|p2a: Poliwhirl
+|-supereffective|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|147\/284
+|
+|turn|5
+|
+|move|p2a: Poliwhirl|Psychic|p1a: Zapdos
+|-damage|p1a: Zapdos|107\/304
+|move|p1a: Zapdos|Thunderbolt|p2a: Poliwhirl
+|-supereffective|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|12\/284
+|
+|turn|6
+|
+|move|p2a: Poliwhirl|Surf|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|switch|p1a: Weedle|Weedle, L99|280\/280
+|turn|7
+|
+|move|p2a: Poliwhirl|Psychic|p1a: Weedle
+|-supereffective|p1a: Weedle
+|-damage|p1a: Weedle|0 fnt
+|faint|p1a: Weedle
+|
+|switch|p1a: Mew|Mew, L74|300\/300
+|turn|8
+|
+|move|p2a: Poliwhirl|Surf|p1a: Mew
+|-damage|p1a: Mew|146\/300
+|move|p1a: Mew|Explosion|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|0 fnt
+|faint|p2a: Poliwhirl
+|faint|p1a: Mew
+|
+|switch|p1a: Hitmonlee|Hitmonlee, L90|273\/273
+|switch|p2a: Zubat|Zubat, L96|272\/272
+|turn|9
+|
+|move|p1a: Hitmonlee|Body Slam|p2a: Zubat
+|-damage|p2a: Zubat|149\/272
+|move|p2a: Zubat|Screech|p1a: Hitmonlee
+|-unboost|p1a: Hitmonlee|def|2
+|
+|turn|10
+|
+|move|p1a: Hitmonlee|Body Slam|p2a: Zubat
+|-damage|p2a: Zubat|42\/272
+|move|p2a: Zubat|Mega Drain|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|241\/273
+|-heal|p2a: Zubat|58\/272|[from] drain|[of] p1a: Hitmonlee
+|
+|turn|11
+|
+|switch|p2a: Golem|Golem, L79|288\/288
+|move|p1a: Hitmonlee|Body Slam|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|256\/288
+|-status|p2a: Golem|par
+|
+|turn|12
+|
+|move|p1a: Hitmonlee|High Jump Kick|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|41\/288 par
+|move|p2a: Golem|Earthquake|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|0 fnt
+|faint|p1a: Hitmonlee
+|
+|switch|p1a: Dewgong|Dewgong, L85|327\/327 slp
+|turn|13
+|
+|cant|p1a: Dewgong|slp
+|move|p2a: Golem|Explosion|p1a: Dewgong
+|-damage|p1a: Dewgong|106\/327 slp
+|faint|p2a: Golem
+|
+|switch|p2a: Zubat|Zubat, L96|58\/272
+|turn|14
+|
+|cant|p1a: Dewgong|slp
+|move|p2a: Zubat|Mega Drain|p1a: Dewgong
+|-supereffective|p1a: Dewgong
+|-damage|p1a: Dewgong|61\/327 slp
+|-heal|p2a: Zubat|80\/272|[from] drain|[of] p1a: Dewgong
+|
+|turn|15
+|
+|cant|p1a: Dewgong|slp
+|move|p2a: Zubat|Mega Drain|p1a: Dewgong
+|-supereffective|p1a: Dewgong
+|-damage|p1a: Dewgong|19\/327 slp
+|-heal|p2a: Zubat|101\/272|[from] drain|[of] p1a: Dewgong
+|
+|turn|16
+|
+|cant|p1a: Dewgong|slp
+|move|p2a: Zubat|Mega Drain|p1a: Dewgong
+|-crit|p1a: Dewgong
+|-supereffective|p1a: Dewgong
+|-damage|p1a: Dewgong|0 fnt
+|-heal|p2a: Zubat|110\/272|[from] drain|[of] p1a: Dewgong
+|faint|p1a: Dewgong
+|
+|switch|p1a: Aerodactyl|Aerodactyl, L90|327\/327
+|turn|17
+|
+|move|p1a: Aerodactyl|Double-Edge|p2a: Zubat
+|-crit|p2a: Zubat
+|-damage|p2a: Zubat|0 fnt
+|-damage|p1a: Aerodactyl|300\/327|[from] recoil|[of] p2a: Zubat
+|faint|p2a: Zubat
+|
+|switch|p2a: Hitmonchan|Hitmonchan, L90|273\/273
+|turn|18
+|
+|move|p1a: Aerodactyl|Sky Attack|p2a: Hitmonchan|[still]
+|-prepare|p1a: Aerodactyl|Sky Attack|p2a: Hitmonchan
+|move|p2a: Hitmonchan|Counter|p1a: Aerodactyl
+|-fail|p2a: Hitmonchan
+|
+|turn|19
+|
+|move|p1a: Aerodactyl|Sky Attack|p2a: Hitmonchan
+|-supereffective|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|0 fnt
+|faint|p2a: Hitmonchan
+|
+|switch|p2a: Jynx|Jynx, L79|265\/265
+|turn|20
+|c|★SykesSum|i let you win :D
+|
+|move|p1a: Aerodactyl|Reflect|p1a: Aerodactyl
+|-start|p1a: Aerodactyl|Reflect
+|move|p2a: Jynx|Blizzard|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|48\/327
+|
+|turn|21
+|
+|move|p1a: Aerodactyl|Double-Edge|p2a: Jynx
+|-damage|p2a: Jynx|105\/265
+|-damage|p1a: Aerodactyl|8\/327|[from] recoil|[of] p2a: Jynx
+|move|p2a: Jynx|Blizzard|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|0 fnt
+|faint|p1a: Aerodactyl
+|
+|win|XianJu
+|c|★XianJu|again? wow if you were not so kind id just think that you simply can not beat me
+|leave|SykesSum
+|player|p1

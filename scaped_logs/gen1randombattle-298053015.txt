@@ -1,0 +1,128 @@
+﻿|join|Rocketmember-W
+|join|MALESANI
+|player|p1|Rocketmember-W|130
+|player|p2|MALESANI|238
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|14941,35753,18604,26708
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Dragonite|Dragonite, L85|328\/328
+|switch|p2a: Pidgey|Pidgey, L96|272\/272
+|turn|1
+|choice|move 2|move 3
+|
+|move|p1a: Dragonite|Agility|p1a: Dragonite
+|-boost|p1a: Dragonite|spe|2
+|move|p2a: Pidgey|Mirror Move|p2a: Pidgey
+|move|p2a: Pidgey|Agility|p2a: Pidgey|[from]Mirror Move
+|-boost|p2a: Pidgey|spe|2
+|
+|turn|2
+|choice|move 4|move 4
+|
+|move|p1a: Dragonite|Surf|p2a: Pidgey
+|-damage|p2a: Pidgey|175\/272
+|move|p2a: Pidgey|Sand Attack|p1a: Dragonite
+|-unboost|p1a: Dragonite|accuracy|1
+|
+|turn|3
+|choice|move 4|move 1
+|
+|move|p1a: Dragonite|Surf|p2a: Pidgey|[miss]
+|-miss|p1a: Dragonite
+|move|p2a: Pidgey|Double-Edge|p1a: Dragonite
+|-damage|p1a: Dragonite|240\/328
+|-damage|p2a: Pidgey|153\/272|[from] recoil|[of] p1a: Dragonite
+|
+|turn|4
+|choice|switch 5|move 2
+|
+|switch|p1a: Tauros|Tauros, L79|280\/280
+|move|p2a: Pidgey|Agility|p2a: Pidgey
+|-boost|p2a: Pidgey|spe|2
+|
+|turn|5
+|choice|move 4|move 1
+|
+|move|p2a: Pidgey|Double-Edge|p1a: Tauros
+|-damage|p1a: Tauros|191\/280
+|-damage|p2a: Pidgey|131\/272|[from] recoil|[of] p1a: Tauros
+|move|p1a: Tauros|Body Slam|p2a: Pidgey
+|-damage|p2a: Pidgey|31\/272
+|
+|turn|6
+|choice|move 4|move 1
+|
+|move|p2a: Pidgey|Double-Edge|p1a: Tauros
+|-damage|p1a: Tauros|95\/280
+|-damage|p2a: Pidgey|7\/272|[from] recoil|[of] p1a: Tauros
+|move|p1a: Tauros|Body Slam|p2a: Pidgey
+|-damage|p2a: Pidgey|0 fnt
+|faint|p2a: Pidgey
+|choice||switch 6
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|293\/293
+|turn|7
+|choice|switch 3|move 1
+|
+|switch|p1a: Exeggcute|Exeggcute, L96|310\/310
+|move|p2a: Mewtwo|Psychic|p1a: Exeggcute
+|-resisted|p1a: Exeggcute
+|-damage|p1a: Exeggcute|259\/310
+|-unboost|p1a: Exeggcute|spd|1
+|-unboost|p1a: Exeggcute|spa|1
+|
+|turn|8
+|choice|move 4|switch 2
+|
+|switch|p2a: Nidoran-F|Nidoran-F, L96|300\/300
+|move|p1a: Exeggcute|Sleep Powder|p2a: Nidoran-F
+|-status|p2a: Nidoran-F|slp
+|
+|turn|9
+|choice|move 1|switch 2
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|293\/293
+|move|p1a: Exeggcute|Psychic|p2a: Mewtwo
+|-resisted|p2a: Mewtwo
+|-damage|p2a: Mewtwo|270\/293
+|
+|turn|10
+|choice|move 2|move 3
+|
+|move|p2a: Mewtwo|Ice Beam|p1a: Exeggcute
+|-supereffective|p1a: Exeggcute
+|-damage|p1a: Exeggcute|20\/310
+|move|p1a: Exeggcute|Mega Drain|p2a: Mewtwo
+|-damage|p2a: Mewtwo|249\/293
+|-heal|p1a: Exeggcute|30\/310|[from] drain|[of] p2a: Mewtwo
+|
+|turn|11
+|choice|move 3|move 2
+|
+|move|p2a: Mewtwo|Body Slam|p1a: Exeggcute
+|-damage|p1a: Exeggcute|0 fnt
+|faint|p1a: Exeggcute
+|choice|switch 5|
+|
+|switch|p1a: Dragonite|Dragonite, L85|240\/328
+|turn|12
+|choice|move 4|move 3
+|
+|move|p2a: Mewtwo|Ice Beam|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|-message|Rocketmember-W forfeited.
+|
+|win|MALESANI
+|leave|Rocketmember-W
+|player|p1
+|raw|Rocketmember-W's rating: 1073 &rarr; <strong>1063<\/strong><br \/>(-10 for losing)
+|raw|MALESANI's rating: 1292 &rarr; <strong>1303<\/strong><br \/>(+11 for winning)

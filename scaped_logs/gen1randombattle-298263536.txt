@@ -1,0 +1,250 @@
+﻿|join|stonewall77
+|join|XianJu
+|player|p1|stonewall77|162
+|player|p2|XianJu|130
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|55564,48423,11384,8090
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Weezing|Weezing, L90|300\/300
+|switch|p2a: Marowak|Marowak, L90|291\/291
+|turn|1
+|choice|move 3|move 1
+|
+|move|p1a: Weezing|Sludge|p2a: Marowak
+|-resisted|p2a: Marowak
+|-damage|p2a: Marowak|263\/291
+|move|p2a: Marowak|Earthquake|p1a: Weezing
+|-supereffective|p1a: Weezing
+|-damage|p1a: Weezing|130\/300
+|
+|turn|2
+|choice|move 1|move 1
+|
+|move|p1a: Weezing|Explosion|p2a: Marowak
+|-damage|p2a: Marowak|43\/291
+|faint|p1a: Weezing
+|choice|switch 3|
+|
+|switch|p1a: Raticate|Raticate, L85|267\/267
+|turn|3
+|choice|move 4|switch 4
+|
+|switch|p2a: Primeape|Primeape, L90|300\/300
+|move|p1a: Raticate|Body Slam|p2a: Primeape
+|-crit|p2a: Primeape
+|-damage|p2a: Primeape|102\/300
+|-status|p2a: Primeape|par
+|
+|turn|4
+|choice|move 2|switch 3
+|
+|switch|p2a: Gyarados|Gyarados, L85|335\/335
+|move|p1a: Raticate|Hyper Beam|p2a: Gyarados
+|-crit|p2a: Gyarados
+|-damage|p2a: Gyarados|20\/335
+|
+|turn|5
+|-mustrecharge|p1a: Raticate
+|-mustrecharge|p1a: Raticate
+|choice|move 1|move 2
+|
+|cant|p1a: Raticate|recharge
+|move|p2a: Gyarados|Surf|p1a: Raticate
+|-damage|p1a: Raticate|119\/267
+|
+|turn|6
+|choice|move 4|switch 4
+|
+|switch|p2a: Marowak|Marowak, L90|43\/291
+|move|p1a: Raticate|Body Slam|p2a: Marowak
+|-damage|p2a: Marowak|0 fnt
+|faint|p2a: Marowak
+|choice||switch 5
+|
+|switch|p2a: Mewtwo|Mewtwo, L68|285\/285
+|turn|7
+|choice|move 2|move 1
+|
+|move|p1a: Raticate|Hyper Beam|p2a: Mewtwo|[miss]
+|-miss|p1a: Raticate
+|move|p2a: Mewtwo|Psychic|p1a: Raticate
+|-damage|p1a: Raticate|0 fnt
+|faint|p1a: Raticate
+|choice|switch 4|
+|
+|switch|p1a: Raichu|Raichu, L85|276\/276
+|turn|8
+|choice|move 3|move 1
+|
+|move|p1a: Raichu|Thunder Wave|p2a: Mewtwo
+|-status|p2a: Mewtwo|par
+|move|p2a: Mewtwo|Psychic|p1a: Raichu
+|-damage|p1a: Raichu|195\/276
+|
+|turn|9
+|choice|move 2|move 1
+|
+|move|p1a: Raichu|Thunderbolt|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-damage|p2a: Mewtwo|138\/285 par
+|move|p2a: Mewtwo|Psychic|p1a: Raichu
+|-damage|p1a: Raichu|110\/276
+|
+|turn|10
+|choice|move 2|move 1
+|
+|move|p1a: Raichu|Thunderbolt|p2a: Mewtwo
+|-damage|p2a: Mewtwo|60\/285 par
+|move|p2a: Mewtwo|Psychic|p1a: Raichu
+|-damage|p1a: Raichu|20\/276
+|
+|turn|11
+|choice|move 2|move 1
+|
+|move|p1a: Raichu|Thunderbolt|p2a: Mewtwo
+|-damage|p2a: Mewtwo|0 fnt
+|faint|p2a: Mewtwo
+|choice||switch 2
+|
+|switch|p2a: Eevee|Eevee, L96|300\/300
+|turn|12
+|choice|move 3|move 1
+|
+|move|p1a: Raichu|Thunder Wave|p2a: Eevee
+|-status|p2a: Eevee|par
+|move|p2a: Eevee|Body Slam|p1a: Raichu
+|-damage|p1a: Raichu|0 fnt
+|faint|p1a: Raichu
+|choice|switch 6|
+|
+|switch|p1a: Hitmonlee|Hitmonlee, L90|273\/273
+|turn|13
+|choice|move 2|move 1
+|
+|move|p1a: Hitmonlee|Substitute|p1a: Hitmonlee
+|-start|p1a: Hitmonlee|Substitute
+|-damage|p1a: Hitmonlee|205\/273
+|cant|p2a: Eevee|par
+|
+|turn|14
+|choice|move 3|move 1
+|
+|move|p1a: Hitmonlee|High Jump Kick|p2a: Eevee
+|-crit|p2a: Eevee
+|-supereffective|p2a: Eevee
+|-damage|p2a: Eevee|0 fnt
+|faint|p2a: Eevee
+|choice||switch 4
+|
+|switch|p2a: Gyarados|Gyarados, L85|20\/335
+|turn|15
+|choice|move 4|move 2
+|
+|move|p1a: Hitmonlee|Seismic Toss|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|choice||switch 6
+|
+|switch|p2a: Seaking|Seaking, L90|327\/327
+|turn|16
+|choice|move 4|move 2
+|
+|move|p1a: Hitmonlee|Seismic Toss|p2a: Seaking
+|-damage|p2a: Seaking|237\/327
+|move|p2a: Seaking|Surf|p1a: Hitmonlee
+|-end|p1a: Hitmonlee|Substitute
+|
+|turn|17
+|choice|move 3|move 2
+|
+|move|p1a: Hitmonlee|High Jump Kick|p2a: Seaking
+|-damage|p2a: Seaking|92\/327
+|move|p2a: Seaking|Surf|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|50\/273
+|
+|turn|18
+|choice|move 3|move 2
+|
+|move|p1a: Hitmonlee|High Jump Kick|p2a: Seaking|[miss]
+|-miss|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|49\/273
+|move|p2a: Seaking|Surf|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|0 fnt
+|faint|p1a: Hitmonlee
+|choice|switch 2|
+|
+|switch|p1a: Wartortle|Wartortle, L85|274\/274
+|turn|19
+|choice|move 4|move 3
+|
+|move|p2a: Seaking|Blizzard|p1a: Wartortle
+|-resisted|p1a: Wartortle
+|-damage|p1a: Wartortle|224\/274
+|-status|p1a: Wartortle|frz
+|cant|p1a: Wartortle|frz
+|
+|turn|20
+|choice|move 2|move 2
+|
+|move|p2a: Seaking|Surf|p1a: Wartortle
+|-resisted|p1a: Wartortle
+|-damage|p1a: Wartortle|161\/274 frz
+|cant|p1a: Wartortle|frz
+|
+|turn|21
+|choice|move 2|move 2
+|
+|move|p2a: Seaking|Surf|p1a: Wartortle
+|-resisted|p1a: Wartortle
+|-damage|p1a: Wartortle|104\/274 frz
+|cant|p1a: Wartortle|frz
+|
+|turn|22
+|choice|move 2|move 2
+|
+|move|p2a: Seaking|Surf|p1a: Wartortle
+|-resisted|p1a: Wartortle
+|-damage|p1a: Wartortle|47\/274 frz
+|cant|p1a: Wartortle|frz
+|
+|turn|23
+|choice|move 2|move 2
+|
+|move|p2a: Seaking|Surf|p1a: Wartortle
+|-resisted|p1a: Wartortle
+|-damage|p1a: Wartortle|0 fnt
+|faint|p1a: Wartortle
+|choice|switch 5|
+|
+|switch|p1a: Flareon|Flareon, L90|300\/300
+|turn|24
+|choice|move 2|move 2
+|
+|move|p1a: Flareon|Quick Attack|p2a: Seaking
+|-damage|p2a: Seaking|48\/327
+|move|p2a: Seaking|Surf|p1a: Flareon
+|-supereffective|p1a: Flareon
+|-damage|p1a: Flareon|147\/300
+|
+|turn|25
+|choice|move 2|move 2
+|
+|move|p1a: Flareon|Quick Attack|p2a: Seaking
+|-damage|p2a: Seaking|3\/327
+|move|p2a: Seaking|Surf|p1a: Flareon
+|-supereffective|p1a: Flareon
+|-damage|p1a: Flareon|0 fnt
+|faint|p1a: Flareon
+|
+|win|XianJu
+|raw|stonewall77's rating: 1216 &rarr; <strong>1192<\/strong><br \/>(-24 for losing)
+|raw|XianJu's rating: 1221 &rarr; <strong>1246<\/strong><br \/>(+25 for winning)
+|leave|stonewall77
+|player|p1

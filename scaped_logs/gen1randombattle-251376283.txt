@@ -1,0 +1,366 @@
+﻿|join|andreWandres
+|join|aducktailswooo
+|player|p1|andreWandres|10
+|player|p2|aducktailswooo|2
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Abra|Abra, L96|243\/243
+|switch|p2a: Poliwrath|Poliwrath, L85|327\/327
+|turn|1
+|
+|switch|p2a: Chansey|Chansey, L79|557\/557
+|move|p1a: Abra|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|433\/557
+|
+|turn|2
+|
+|switch|p1a: Electrode|Electrode, L90|291\/291
+|move|p2a: Chansey|Ice Beam|p1a: Electrode
+|-damage|p1a: Electrode|232\/291
+|-status|p1a: Electrode|frz
+|
+|turn|3
+|c|★andreWandres|really?
+|
+|cant|p1a: Electrode|frz
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|557\/557
+|
+|turn|4
+|
+|cant|p1a: Electrode|frz
+|move|p2a: Chansey|Ice Beam|p1a: Electrode
+|-damage|p1a: Electrode|167\/291 frz
+|
+|turn|5
+|
+|switch|p1a: Raticate|Raticate, L85|267\/267
+|switch|p2a: Poliwrath|Poliwrath, L85|327\/327
+|
+|turn|6
+|
+|move|p1a: Raticate|Super Fang|p2a: Poliwrath
+|-damage|p2a: Poliwrath|164\/327
+|move|p2a: Poliwrath|Hypnosis|p1a: Raticate
+|-status|p1a: Raticate|slp
+|
+|turn|7
+|
+|switch|p1a: Abra|Abra, L96|243\/243
+|move|p2a: Poliwrath|Amnesia|p2a: Poliwrath
+|-boost|p2a: Poliwrath|spd|2
+|-boost|p2a: Poliwrath|spa|2
+|
+|turn|8
+|
+|switch|p2a: Chansey|Chansey, L79|557\/557
+|move|p1a: Abra|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|438\/557
+|
+|turn|9
+|
+|move|p1a: Abra|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|move|p2a: Chansey|Thunderbolt|p1a: Abra
+|-damage|p1a: Abra|195\/243
+|
+|turn|10
+|
+|move|p1a: Abra|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|318\/557 par
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|cant|p2a: Chansey|par
+|
+|turn|11
+|
+|move|p1a: Abra|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|140\/557 par
+|cant|p2a: Chansey|par
+|
+|turn|12
+|
+|switch|p2a: Drowzee|Drowzee, L96|310\/310
+|move|p1a: Abra|Psychic|p2a: Drowzee
+|-resisted|p2a: Drowzee
+|-damage|p2a: Drowzee|258\/310
+|
+|turn|13
+|
+|switch|p1a: Electrode|Electrode, L90|167\/291 frz
+|move|p2a: Drowzee|Thunder Wave|p1a: Electrode
+|-fail|p1a: Electrode
+|
+|turn|14
+|
+|switch|p2a: Parasect|Parasect, L90|291\/291
+|cant|p1a: Electrode|frz
+|
+|turn|15
+|
+|switch|p1a: Seadra|Seadra, L90|282\/282
+|move|p2a: Parasect|Swords Dance|p2a: Parasect
+|-boost|p2a: Parasect|atk|2
+|
+|turn|16
+|
+|move|p1a: Seadra|Blizzard|p2a: Parasect
+|-supereffective|p2a: Parasect
+|-damage|p2a: Parasect|104\/291
+|move|p2a: Parasect|Body Slam|p1a: Seadra
+|-damage|p1a: Seadra|153\/282
+|
+|turn|17
+|
+|move|p1a: Seadra|Blizzard|p2a: Parasect
+|-crit|p2a: Parasect
+|-supereffective|p2a: Parasect
+|-damage|p2a: Parasect|0 fnt
+|faint|p2a: Parasect
+|
+|switch|p2a: Drowzee|Drowzee, L96|258\/310
+|turn|18
+|
+|move|p1a: Seadra|Hydro Pump|p2a: Drowzee
+|-damage|p2a: Drowzee|134\/310
+|move|p2a: Drowzee|Thunder Wave|p1a: Seadra
+|-status|p1a: Seadra|par
+|
+|turn|19
+|
+|move|p2a: Drowzee|Psychic|p1a: Seadra
+|-damage|p1a: Seadra|52\/282 par
+|-unboost|p1a: Seadra|spd|1
+|-unboost|p1a: Seadra|spa|1
+|cant|p1a: Seadra|par
+|
+|turn|20
+|
+|move|p2a: Drowzee|Psychic|p1a: Seadra
+|-crit|p1a: Seadra
+|-damage|p1a: Seadra|0 fnt
+|faint|p1a: Seadra
+|
+|switch|p1a: Nidoqueen|Nidoqueen, L85|327\/327
+|turn|21
+|
+|switch|p2a: Golbat|Golbat, L90|318\/318
+|move|p1a: Nidoqueen|Earthquake|p2a: Golbat
+|-immune|p2a: Golbat|[msg]
+|
+|turn|22
+|
+|move|p2a: Golbat|Confuse Ray|p1a: Nidoqueen
+|-start|p1a: Nidoqueen|confusion
+|-activate|p1a: Nidoqueen|confusion
+|move|p1a: Nidoqueen|Thunder|p2a: Golbat
+|-supereffective|p2a: Golbat
+|-damage|p2a: Golbat|156\/318
+|
+|turn|23
+|
+|switch|p1a: Electrode|Electrode, L90|167\/291 frz
+|move|p2a: Golbat|Double-Edge|p1a: Electrode
+|-crit|p1a: Electrode
+|-damage|p1a: Electrode|26\/291 frz
+|-damage|p2a: Golbat|121\/318|[from] recoil|[of] p1a: Electrode
+|
+|turn|24
+|
+|switch|p2a: Chansey|Chansey, L79|140\/557 par
+|cant|p1a: Electrode|frz
+|
+|turn|25
+|
+|switch|p1a: Nidoqueen|Nidoqueen, L85|327\/327
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|418\/557 par
+|
+|turn|26
+|
+|move|p1a: Nidoqueen|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|279\/557 par
+|move|p2a: Chansey|Ice Beam|p1a: Nidoqueen
+|-supereffective|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|180\/327
+|
+|turn|27
+|
+|switch|p2a: Golbat|Golbat, L90|121\/318
+|move|p1a: Nidoqueen|Earthquake|p2a: Golbat
+|-immune|p2a: Golbat|[msg]
+|
+|turn|28
+|
+|move|p2a: Golbat|Confuse Ray|p1a: Nidoqueen
+|-start|p1a: Nidoqueen|confusion
+|-activate|p1a: Nidoqueen|confusion
+|move|p1a: Nidoqueen|Thunder|p2a: Golbat
+|-supereffective|p2a: Golbat
+|-damage|p2a: Golbat|0 fnt
+|faint|p2a: Golbat
+|
+|switch|p2a: Poliwrath|Poliwrath, L85|164\/327
+|turn|29
+|
+|-end|p1a: Nidoqueen|confusion
+|move|p1a: Nidoqueen|Thunder|p2a: Poliwrath
+|-crit|p2a: Poliwrath
+|-supereffective|p2a: Poliwrath
+|-damage|p2a: Poliwrath|0 fnt
+|faint|p2a: Poliwrath
+|
+|switch|p2a: Tauros|Tauros, L79|280\/280
+|turn|30
+|
+|switch|p1a: Electrode|Electrode, L90|26\/291 frz
+|move|p2a: Tauros|Earthquake|p1a: Electrode
+|-supereffective|p1a: Electrode
+|-damage|p1a: Electrode|0 fnt
+|faint|p1a: Electrode
+|
+|switch|p1a: Ditto|Ditto, L99|296\/296
+|turn|31
+|
+|move|p2a: Tauros|Body Slam|p1a: Ditto
+|-damage|p1a: Ditto|198\/296
+|move|p1a: Ditto|Transform|p2a: Tauros
+|-transform|p1a: Ditto|p2a: Tauros
+|
+|turn|32
+|
+|move|p2a: Tauros|Body Slam|p1a: Ditto
+|-damage|p1a: Ditto|107\/296
+|move|p1a: Ditto|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|192\/280
+|
+|turn|33
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|
+|switch|p1a: Nidoqueen|Nidoqueen, L85|180\/327
+|turn|34
+|
+|move|p2a: Tauros|Earthquake|p1a: Nidoqueen
+|-supereffective|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|57\/327
+|move|p1a: Nidoqueen|Earthquake|p2a: Tauros
+|-damage|p2a: Tauros|86\/280
+|
+|turn|35
+|
+|move|p2a: Tauros|Body Slam|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|0 fnt
+|faint|p1a: Nidoqueen
+|
+|switch|p1a: Abra|Abra, L96|195\/243
+|turn|36
+|
+|switch|p2a: Chansey|Chansey, L79|279\/557 par
+|move|p1a: Abra|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|183\/557 par
+|
+|turn|37
+|
+|move|p1a: Abra|Psychic|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|switch|p2a: Drowzee|Drowzee, L96|134\/310
+|turn|38
+|
+|switch|p1a: Raticate|Raticate, L85|267\/267 slp
+|move|p2a: Drowzee|Thunder Wave|p1a: Raticate
+|-fail|p1a: Raticate
+|
+|turn|39
+|
+|cant|p1a: Raticate|slp
+|move|p2a: Drowzee|Psychic|p1a: Raticate
+|-damage|p1a: Raticate|104\/267 slp
+|
+|turn|40
+|
+|cant|p1a: Raticate|slp
+|move|p2a: Drowzee|Psychic|p1a: Raticate
+|-damage|p1a: Raticate|0 fnt
+|faint|p1a: Raticate
+|
+|switch|p1a: Abra|Abra, L96|195\/243
+|turn|41
+|
+|move|p1a: Abra|Thunder Wave|p2a: Drowzee
+|-status|p2a: Drowzee|par
+|cant|p2a: Drowzee|par
+|
+|turn|42
+|
+|move|p1a: Abra|Seismic Toss|p2a: Drowzee
+|-damage|p2a: Drowzee|38\/310 par
+|move|p2a: Drowzee|Thunder Wave|p1a: Abra
+|-status|p1a: Abra|par
+|
+|turn|43
+|
+|cant|p1a: Abra|par
+|cant|p2a: Drowzee|par
+|
+|turn|44
+|
+|move|p1a: Abra|Reflect|p1a: Abra
+|-start|p1a: Abra|Reflect
+|move|p2a: Drowzee|Psychic|p1a: Abra
+|-resisted|p1a: Abra
+|-damage|p1a: Abra|148\/243 par
+|-unboost|p1a: Abra|spd|1
+|-unboost|p1a: Abra|spa|1
+|
+|turn|45
+|
+|move|p2a: Drowzee|Rest|p2a: Drowzee
+|-status|p2a: Drowzee|slp
+|-heal|p2a: Drowzee|310\/310 slp|[silent]
+|-status|p2a: Drowzee|slp|[from] move: Rest
+|move|p1a: Abra|Seismic Toss|p2a: Drowzee
+|-damage|p2a: Drowzee|214\/310 slp
+|
+|turn|46
+|
+|cant|p2a: Drowzee|slp
+|move|p1a: Abra|Seismic Toss|p2a: Drowzee
+|-damage|p2a: Drowzee|118\/310 slp
+|
+|turn|47
+|
+|-curestatus|p2a: Drowzee|slp
+|move|p1a: Abra|Seismic Toss|p2a: Drowzee
+|-damage|p2a: Drowzee|22\/310
+|
+|turn|48
+|
+|move|p2a: Drowzee|Psychic|p1a: Abra
+|-resisted|p1a: Abra
+|-damage|p1a: Abra|79\/243 par
+|move|p1a: Abra|Seismic Toss|p2a: Drowzee
+|-damage|p2a: Drowzee|0 fnt
+|faint|p2a: Drowzee
+|
+|switch|p2a: Tauros|Tauros, L79|86\/280
+|turn|49
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Abra
+|-damage|p1a: Abra|0 fnt
+|faint|p1a: Abra
+|
+|win|aducktailswooo
+|raw|Ladder updating...

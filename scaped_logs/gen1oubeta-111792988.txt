@@ -1,0 +1,353 @@
+﻿|join|dramlamb
+|join|Kel9901
+|player|p1|dramlamb|239
+|player|p2|Kel9901|102
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Alakazam|Alakazam|313\/313
+|turn|1
+|join|kid gf lol
+|chat|dramlamb|glhf
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Alakazam|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|turn|2
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: Chansey|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|426\/523
+|
+|turn|3
+|chat|Kel9901|gl
+|
+|switch|p2a: Rhydon|Rhydon|413\/413
+|move|p1a: Snorlax|Body Slam|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|364\/413
+|
+|turn|4
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Snorlax|Earthquake|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|345\/393
+|
+|turn|5
+|
+|move|p2a: Exeggutor|Sleep Powder|p1a: Snorlax
+|-status|p1a: Snorlax|slp
+|cant|p1a: Snorlax|slp
+|
+|turn|6
+|join|Gigio
+|
+|switch|p1a: Jynx|Jynx|333\/333
+|move|p2a: Exeggutor|Mega Drain|p1a: Jynx
+|-damage|p1a: Jynx|277\/333
+|-heal|p2a: Exeggutor|373\/393|[from] drain|[of] p1a: Jynx
+|
+|turn|7
+|
+|switch|p2a: Chansey|Chansey|703\/703 par
+|move|p1a: Jynx|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|575\/703 par
+|
+|turn|8
+|leave|Gigio
+|
+|move|p1a: Jynx|Mimic|p2a: Chansey
+|-start|p1a: Jynx|Mimic|Ice Beam
+|cant|p2a: Chansey|par
+|
+|turn|9
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Chansey|Thunderbolt|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|360\/393
+|
+|turn|10
+|chat|Kel9901|nice find
+|
+|move|p1a: Exeggutor|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|456\/703 par
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|move|p2a: Chansey|Ice Beam|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|266\/393
+|
+|turn|11
+|
+|switch|p2a: Alakazam|Alakazam|313\/313
+|move|p1a: Exeggutor|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|264\/313
+|-unboost|p2a: Alakazam|spd|1
+|-unboost|p2a: Alakazam|spa|1
+|
+|turn|12
+|
+|switch|p2a: Chansey|Chansey|456\/703 par
+|move|p1a: Exeggutor|Sleep Powder|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|13
+|
+|move|p1a: Exeggutor|Explosion|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|14
+|
+|switch|p2a: Exeggutor|Exeggutor|373\/393
+|move|p1a: Alakazam|Thunder Wave|p2a: Exeggutor
+|-status|p2a: Exeggutor|par
+|
+|turn|15
+|
+|switch|p1a: Jynx|Jynx|277\/333
+|move|p2a: Exeggutor|Explosion|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|faint|p2a: Exeggutor
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Snorlax|Snorlax|523\/523
+|turn|16
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|cant|p2a: Snorlax|par
+|
+|turn|17
+|
+|switch|p1a: Golem|Golem|363\/363
+|move|p2a: Snorlax|Body Slam|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|316\/363
+|
+|turn|18
+|
+|move|p1a: Golem|Earthquake|p2a: Snorlax
+|-damage|p2a: Snorlax|349\/523 par
+|move|p2a: Snorlax|Surf|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|0 fnt
+|faint|p1a: Golem
+|
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|19
+|
+|move|p1a: Tauros|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|229\/523 par
+|cant|p2a: Snorlax|par
+|
+|turn|20
+|
+|move|p1a: Tauros|Body Slam|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|
+|switch|p2a: Alakazam|Alakazam|264\/313
+|turn|21
+|
+|switch|p1a: Snorlax|Snorlax|426\/523 slp
+|move|p2a: Alakazam|Thunder Wave|p1a: Snorlax
+|-fail|p1a: Snorlax
+|
+|turn|22
+|
+|move|p2a: Alakazam|Psychic|p1a: Snorlax
+|-damage|p1a: Snorlax|246\/523 slp
+|cant|p1a: Snorlax|slp
+|
+|turn|23
+|
+|move|p2a: Alakazam|Psychic|p1a: Snorlax
+|-damage|p1a: Snorlax|66\/523 slp
+|cant|p1a: Snorlax|slp
+|
+|turn|24
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|313\/313
+|cant|p1a: Snorlax|slp
+|-curestatus|p1a: Snorlax|slp
+|
+|turn|25
+|
+|move|p2a: Alakazam|Psychic|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|turn|26
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Alakazam
+|-status|p2a: Alakazam|par
+|cant|p2a: Alakazam|par
+|
+|turn|27
+|
+|move|p1a: Alakazam|Reflect|p1a: Alakazam
+|cant|p2a: Alakazam|par
+|
+|turn|28
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|move|p2a: Alakazam|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|
+|turn|29
+|
+|move|p2a: Alakazam|Psychic|p1a: Tauros
+|-damage|p1a: Tauros|200\/353 par
+|move|p1a: Tauros|Body Slam|p2a: Alakazam
+|-damage|p2a: Alakazam|164\/313 par
+|
+|turn|30
+|
+|switch|p2a: Rhydon|Rhydon|364\/413
+|move|p1a: Tauros|Body Slam|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|319\/413
+|
+|turn|31
+|
+|move|p2a: Rhydon|Earthquake|p1a: Tauros
+|-damage|p1a: Tauros|54\/353 par
+|move|p1a: Tauros|Blizzard|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|95\/413
+|
+|turn|32
+|
+|move|p2a: Rhydon|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|turn|33
+|
+|switch|p2a: Alakazam|Alakazam|164\/313 par
+|move|p1a: Alakazam|Psychic|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|53\/313 par
+|-unboost|p2a: Alakazam|spd|1
+|-unboost|p2a: Alakazam|spa|1
+|
+|turn|34
+|
+|move|p1a: Alakazam|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|35
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Tauros
+|-status|p2a: Tauros|par
+|cant|p2a: Tauros|par
+|
+|turn|36
+|
+|move|p1a: Alakazam|Reflect|p1a: Alakazam
+|move|p2a: Tauros|Body Slam|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|160\/313
+|
+|turn|37
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|313\/313
+|move|p2a: Tauros|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|229\/313
+|
+|turn|38
+|
+|move|p1a: Alakazam|Psychic|p2a: Tauros
+|-damage|p2a: Tauros|200\/353 par
+|move|p2a: Tauros|Body Slam|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|62\/313
+|-status|p1a: Alakazam|par
+|
+|turn|39
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|218\/313 par
+|move|p2a: Tauros|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|141\/313 par
+|
+|turn|40
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|297\/313 par
+|move|p2a: Tauros|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|218\/313 par
+|
+|turn|41
+|
+|move|p1a: Alakazam|Psychic|p2a: Tauros
+|-damage|p2a: Tauros|41\/353 par
+|cant|p2a: Tauros|par
+|
+|turn|42
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|313\/313 par
+|cant|p2a: Tauros|par
+|
+|turn|43
+|
+|move|p1a: Alakazam|Psychic|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|chat|Kel9901|gg
+|
+|switch|p2a: Rhydon|Rhydon|95\/413
+|turn|44
+|chat|dramlamb|gg
+|
+|move|p2a: Rhydon|Earthquake|p1a: Alakazam
+|-damage|p1a: Alakazam|197\/313 par
+|move|p1a: Alakazam|Psychic|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|
+|win|dramlamb
+|raw|Ladder updating...
+|raw|dramlamb's rating: 1346 &rarr; <strong>1375<\/strong><br \/>(+29 for winning)
+|raw|Kel9901's rating: 1495 &rarr; <strong>1467<\/strong><br \/>(-28 for losing)
+|leave|Kel9901
+|player|p2
+|join|manu 11
+|leave|manu 11

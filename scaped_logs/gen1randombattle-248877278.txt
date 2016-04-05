@@ -1,0 +1,426 @@
+﻿|join|eldougi
+|join|The Game Dreamer
+|player|p1|eldougi|169
+|player|p2|The Game Dreamer|107
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Magneton|Magneton, L90|273\/273
+|switch|p2a: Parasect|Parasect, L90|291\/291
+|turn|1
+|
+|move|p1a: Magneton|Thunder Wave|p2a: Parasect
+|-status|p2a: Parasect|par
+|move|p2a: Parasect|Spore|p1a: Magneton
+|-status|p1a: Magneton|slp
+|
+|turn|2
+|
+|switch|p1a: Machamp|Machamp, L90|345\/345
+|cant|p2a: Parasect|par
+|
+|turn|3
+|
+|move|p1a: Machamp|Body Slam|p2a: Parasect
+|-damage|p2a: Parasect|214\/291 par
+|move|p2a: Parasect|Body Slam|p1a: Machamp
+|-damage|p1a: Machamp|280\/345
+|
+|turn|4
+|
+|move|p1a: Machamp|Earthquake|p2a: Parasect
+|-resisted|p2a: Parasect
+|-damage|p2a: Parasect|189\/291 par
+|move|p2a: Parasect|Swords Dance|p2a: Parasect
+|-boost|p2a: Parasect|atk|2
+|
+|turn|5
+|
+|move|p1a: Machamp|Body Slam|p2a: Parasect
+|-crit|p2a: Parasect
+|-damage|p2a: Parasect|18\/291 par
+|move|p2a: Parasect|Body Slam|p1a: Machamp
+|-damage|p1a: Machamp|145\/345
+|
+|turn|6
+|
+|move|p1a: Machamp|Body Slam|p2a: Parasect
+|-damage|p2a: Parasect|0 fnt
+|faint|p2a: Parasect
+|
+|switch|p2a: Jynx|Jynx, L79|265\/265
+|turn|7
+|
+|switch|p1a: Slowpoke|Slowpoke, L96|368\/368
+|move|p2a: Jynx|Psychic|p1a: Slowpoke
+|-resisted|p1a: Slowpoke
+|-damage|p1a: Slowpoke|309\/368
+|
+|turn|8
+|
+|move|p2a: Jynx|Blizzard|p1a: Slowpoke
+|-resisted|p1a: Slowpoke
+|-damage|p1a: Slowpoke|236\/368
+|move|p1a: Slowpoke|Thunder Wave|p2a: Jynx
+|-status|p2a: Jynx|par
+|
+|turn|9
+|
+|switch|p2a: Dodrio|Dodrio, L85|276\/276
+|move|p1a: Slowpoke|Amnesia|p1a: Slowpoke
+|-boost|p1a: Slowpoke|spd|2
+|-boost|p1a: Slowpoke|spa|2
+|
+|turn|10
+|
+|move|p2a: Dodrio|Body Slam|p1a: Slowpoke
+|-damage|p1a: Slowpoke|136\/368
+|move|p1a: Slowpoke|Thunder Wave|p2a: Dodrio
+|-status|p2a: Dodrio|par
+|
+|turn|11
+|
+|move|p1a: Slowpoke|Surf|p2a: Dodrio
+|-damage|p2a: Dodrio|85\/276 par
+|move|p2a: Dodrio|Body Slam|p1a: Slowpoke
+|-damage|p1a: Slowpoke|27\/368
+|
+|turn|12
+|
+|move|p1a: Slowpoke|Surf|p2a: Dodrio
+|-damage|p2a: Dodrio|0 fnt
+|faint|p2a: Dodrio
+|
+|switch|p2a: Nidoking|Nidoking, L85|311\/311
+|turn|13
+|
+|switch|p1a: Exeggutor|Exeggutor, L79|312\/312
+|move|p2a: Nidoking|Earthquake|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|253\/312
+|
+|turn|14
+|
+|switch|p2a: Jynx|Jynx, L79|265\/265 par
+|move|p1a: Exeggutor|Sleep Powder|p2a: Jynx
+|-fail|p2a: Jynx
+|
+|turn|15
+|
+|switch|p1a: Lapras|Lapras, L79|367\/367
+|move|p2a: Jynx|Blizzard|p1a: Lapras
+|-crit|p1a: Lapras
+|-resisted|p1a: Lapras
+|-damage|p1a: Lapras|317\/367
+|
+|turn|16
+|
+|move|p1a: Lapras|Thunderbolt|p2a: Jynx
+|-damage|p2a: Jynx|203\/265 par
+|move|p2a: Jynx|Psychic|p1a: Lapras
+|-damage|p1a: Lapras|233\/367
+|-unboost|p1a: Lapras|spd|1
+|-unboost|p1a: Lapras|spa|1
+|
+|turn|17
+|
+|move|p1a: Lapras|Thunderbolt|p2a: Jynx
+|-damage|p2a: Jynx|161\/265 par
+|move|p2a: Jynx|Psychic|p1a: Lapras
+|-crit|p1a: Lapras
+|-damage|p1a: Lapras|71\/367
+|
+|turn|18
+|
+|move|p1a: Lapras|Rest|p1a: Lapras
+|-status|p1a: Lapras|slp
+|-heal|p1a: Lapras|367\/367 slp|[silent]
+|-status|p1a: Lapras|slp|[from] move: Rest
+|move|p2a: Jynx|Psychic|p1a: Lapras
+|-damage|p1a: Lapras|233\/367 slp
+|
+|turn|19
+|
+|switch|p1a: Magneton|Magneton, L90|273\/273 slp
+|cant|p2a: Jynx|par
+|
+|turn|20
+|
+|switch|p2a: Onix|Onix, L90|246\/246
+|cant|p1a: Magneton|slp
+|
+|turn|21
+|
+|switch|p1a: Ivysaur|Ivysaur, L85|276\/276
+|move|p2a: Onix|Earthquake|p1a: Ivysaur
+|-damage|p1a: Ivysaur|184\/276
+|
+|turn|22
+|
+|switch|p2a: Aerodactyl|Aerodactyl, L90|327\/327
+|move|p1a: Ivysaur|Razor Leaf|p2a: Aerodactyl
+|-crit|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|199\/327
+|
+|turn|23
+|
+|move|p2a: Aerodactyl|Double-Edge|p1a: Ivysaur
+|-crit|p1a: Ivysaur
+|-damage|p1a: Ivysaur|0 fnt
+|-damage|p2a: Aerodactyl|153\/327|[from] recoil|[of] p1a: Ivysaur
+|faint|p1a: Ivysaur
+|
+|switch|p1a: Magneton|Magneton, L90|273\/273 slp
+|turn|24
+|
+|switch|p2a: Nidoking|Nidoking, L85|311\/311
+|cant|p1a: Magneton|slp
+|
+|turn|25
+|
+|move|p2a: Nidoking|Thunderbolt|p1a: Magneton
+|-resisted|p1a: Magneton
+|-damage|p1a: Magneton|251\/273 slp
+|cant|p1a: Magneton|slp
+|
+|turn|26
+|
+|move|p2a: Nidoking|Earthquake|p1a: Magneton
+|-supereffective|p1a: Magneton
+|-damage|p1a: Magneton|67\/273 slp
+|cant|p1a: Magneton|slp
+|
+|turn|27
+|
+|move|p2a: Nidoking|Thunderbolt|p1a: Magneton
+|-resisted|p1a: Magneton
+|-damage|p1a: Magneton|46\/273 slp
+|cant|p1a: Magneton|slp
+|
+|turn|28
+|
+|move|p2a: Nidoking|Earthquake|p1a: Magneton
+|-supereffective|p1a: Magneton
+|-damage|p1a: Magneton|0 fnt
+|faint|p1a: Magneton
+|
+|switch|p1a: Machamp|Machamp, L90|145\/345
+|turn|29
+|
+|move|p2a: Nidoking|Earthquake|p1a: Machamp
+|-damage|p1a: Machamp|33\/345
+|move|p1a: Machamp|Earthquake|p2a: Nidoking
+|-crit|p2a: Nidoking
+|-supereffective|p2a: Nidoking
+|-damage|p2a: Nidoking|0 fnt
+|faint|p2a: Nidoking
+|
+|switch|p2a: Aerodactyl|Aerodactyl, L90|153\/327
+|turn|30
+|
+|move|p2a: Aerodactyl|Double-Edge|p1a: Machamp
+|-crit|p1a: Machamp
+|-damage|p1a: Machamp|0 fnt
+|-damage|p2a: Aerodactyl|145\/327|[from] recoil|[of] p1a: Machamp
+|faint|p1a: Machamp
+|
+|switch|p1a: Exeggutor|Exeggutor, L79|253\/312
+|turn|31
+|
+|move|p2a: Aerodactyl|Sky Attack|p1a: Exeggutor|[still]
+|-prepare|p2a: Aerodactyl|Sky Attack|p1a: Exeggutor
+|move|p1a: Exeggutor|Mega Drain|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|95\/327
+|-heal|p1a: Exeggutor|278\/312|[from] drain|[of] p2a: Aerodactyl
+|
+|turn|32
+|
+|move|p2a: Aerodactyl|Sky Attack|p1a: Exeggutor|[miss]
+|-miss|p2a: Aerodactyl
+|move|p1a: Exeggutor|Sleep Powder|p2a: Aerodactyl
+|-status|p2a: Aerodactyl|slp
+|
+|turn|33
+|
+|cant|p2a: Aerodactyl|slp
+|move|p1a: Exeggutor|Mega Drain|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|43\/327 slp
+|-heal|p1a: Exeggutor|304\/312|[from] drain|[of] p2a: Aerodactyl
+|
+|turn|34
+|
+|switch|p2a: Jynx|Jynx, L79|161\/265 par
+|move|p1a: Exeggutor|Mega Drain|p2a: Jynx
+|-damage|p2a: Jynx|115\/265 par
+|-heal|p1a: Exeggutor|312\/312|[from] drain|[of] p2a: Jynx
+|
+|turn|35
+|
+|switch|p1a: Lapras|Lapras, L79|233\/367 slp
+|move|p2a: Jynx|Blizzard|p1a: Lapras
+|-resisted|p1a: Lapras
+|-damage|p1a: Lapras|204\/367 slp
+|
+|turn|36
+|
+|cant|p1a: Lapras|slp
+|move|p2a: Jynx|Psychic|p1a: Lapras
+|-damage|p1a: Lapras|119\/367 slp
+|
+|turn|37
+|
+|-curestatus|p1a: Lapras|slp
+|move|p2a: Jynx|Psychic|p1a: Lapras
+|-damage|p1a: Lapras|41\/367
+|
+|turn|38
+|
+|move|p1a: Lapras|Thunderbolt|p2a: Jynx
+|-damage|p2a: Jynx|57\/265 par
+|move|p2a: Jynx|Psychic|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|
+|switch|p1a: Slowpoke|Slowpoke, L96|27\/368
+|turn|39
+|
+|move|p1a: Slowpoke|Rest|p1a: Slowpoke
+|-status|p1a: Slowpoke|slp
+|-heal|p1a: Slowpoke|368\/368 slp|[silent]
+|-status|p1a: Slowpoke|slp|[from] move: Rest
+|move|p2a: Jynx|Psychic|p1a: Slowpoke
+|-resisted|p1a: Slowpoke
+|-damage|p1a: Slowpoke|309\/368 slp
+|-unboost|p1a: Slowpoke|spd|1
+|-unboost|p1a: Slowpoke|spa|1
+|
+|turn|40
+|
+|cant|p1a: Slowpoke|slp
+|move|p2a: Jynx|Mimic|p1a: Slowpoke
+|-start|p2a: Jynx|Mimic|Rest
+|
+|turn|41
+|
+|-curestatus|p1a: Slowpoke|slp
+|move|p2a: Jynx|Rest|p2a: Jynx
+|-status|p2a: Jynx|slp
+|-heal|p2a: Jynx|265\/265 slp|[silent]
+|-status|p2a: Jynx|slp|[from] move: Rest
+|
+|turn|42
+|
+|switch|p2a: Onix|Onix, L90|246\/246
+|move|p1a: Slowpoke|Amnesia|p1a: Slowpoke
+|-boost|p1a: Slowpoke|spd|2
+|-boost|p1a: Slowpoke|spa|2
+|
+|turn|43
+|
+|move|p2a: Onix|Explosion|p1a: Slowpoke
+|-damage|p1a: Slowpoke|119\/368
+|faint|p2a: Onix
+|
+|switch|p2a: Jynx|Jynx, L79|265\/265 slp
+|turn|44
+|
+|cant|p2a: Jynx|slp
+|move|p1a: Slowpoke|Amnesia|p1a: Slowpoke
+|-boost|p1a: Slowpoke|spd|2
+|-boost|p1a: Slowpoke|spa|2
+|
+|turn|45
+|
+|-curestatus|p2a: Jynx|slp
+|move|p1a: Slowpoke|Surf|p2a: Jynx
+|-damage|p2a: Jynx|67\/265
+|
+|turn|46
+|
+|move|p2a: Jynx|Lovely Kiss|p1a: Slowpoke
+|-status|p1a: Slowpoke|slp
+|cant|p1a: Slowpoke|slp
+|
+|turn|47
+|
+|move|p2a: Jynx|Psychic|p1a: Slowpoke
+|-resisted|p1a: Slowpoke
+|-damage|p1a: Slowpoke|97\/368 slp
+|cant|p1a: Slowpoke|slp
+|
+|turn|48
+|
+|move|p2a: Jynx|Psychic|p1a: Slowpoke
+|-resisted|p1a: Slowpoke
+|-damage|p1a: Slowpoke|77\/368 slp
+|-curestatus|p1a: Slowpoke|slp
+|
+|turn|49
+|
+|move|p2a: Jynx|Lovely Kiss|p1a: Slowpoke
+|-status|p1a: Slowpoke|slp
+|cant|p1a: Slowpoke|slp
+|
+|turn|50
+|
+|move|p2a: Jynx|Mimic|p1a: Slowpoke
+|-start|p2a: Jynx|Mimic|Amnesia
+|-curestatus|p1a: Slowpoke|slp
+|
+|turn|51
+|
+|move|p2a: Jynx|Lovely Kiss|p1a: Slowpoke
+|-status|p1a: Slowpoke|slp
+|cant|p1a: Slowpoke|slp
+|
+|turn|52
+|
+|move|p2a: Jynx|Amnesia|p2a: Jynx
+|-boost|p2a: Jynx|spd|2
+|-boost|p2a: Jynx|spa|2
+|cant|p1a: Slowpoke|slp
+|
+|turn|53
+|
+|move|p2a: Jynx|Amnesia|p2a: Jynx
+|-boost|p2a: Jynx|spd|2
+|-boost|p2a: Jynx|spa|2
+|-curestatus|p1a: Slowpoke|slp
+|
+|turn|54
+|
+|move|p2a: Jynx|Lovely Kiss|p1a: Slowpoke
+|-status|p1a: Slowpoke|slp
+|cant|p1a: Slowpoke|slp
+|
+|turn|55
+|
+|move|p2a: Jynx|Blizzard|p1a: Slowpoke
+|-crit|p1a: Slowpoke
+|-resisted|p1a: Slowpoke
+|-damage|p1a: Slowpoke|0 fnt
+|faint|p1a: Slowpoke
+|c|★eldougi|Gg
+|c|★The Game Dreamer|gg
+|
+|switch|p1a: Exeggutor|Exeggutor, L79|312\/312
+|turn|56
+|
+|move|p2a: Jynx|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|win|The Game Dreamer
+|raw|Ladder updating...
+|raw|eldougi's rating: 1315 &rarr; <strong>1287<\/strong><br \/>(-28 for losing)
+|raw|The Game Dreamer's rating: 1172 &rarr; <strong>1206<\/strong><br \/>(+34 for winning)
+|c|★The Game Dreamer|close game
+|c|★The Game Dreamer|wow i never expected that
+|c|★The Game Dreamer|i thought u won

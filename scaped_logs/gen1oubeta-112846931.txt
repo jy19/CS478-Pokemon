@@ -1,0 +1,81 @@
+﻿|join|ashiemore
+|join|kid gf lol
+|player|p1|ashiemore|277
+|player|p2|kid gf lol|168
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|switch|p1a: Gengar|Gengar|323\/323
+|switch|p2a: Cloyster|Cloyster|303\/303
+|turn|1
+|
+|switch|p1a: Rhydon|Rhydon|413\/413
+|move|p2a: Cloyster|Clamp|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|183\/413
+|-activate|p1a: Rhydon|move: Clamp|[of] p2a: Cloyster
+|
+|turn|2
+|chat|kid gf lol|okay so here is the glitch, once he switches out and leaves something in for more than 1 turn
+|chat|ashiemore|yea ik
+|chat|ashiemore|you showed me before
+|join|bastl434
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Cloyster|Clamp|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|359\/393
+|-activate|p1a: Exeggutor|move: Clamp|[of] p2a: Cloyster
+|
+|turn|3
+|chat|kid gf lol|it will count the damage as off the original wrap
+|chat|ashiemore|mhm
+|
+|move|p2a: Cloyster|Clamp|p1a: Exeggutor
+|-damage|p1a: Exeggutor|129\/393
+|cant|p1a: Exeggutor|partiallytrapped
+|
+|-end|p1a: Exeggutor|Clamp|[partiallytrapped]
+|turn|4
+|
+|move|p2a: Cloyster|Clamp|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|113\/393
+|-activate|p1a: Exeggutor|move: Clamp|[of] p2a: Cloyster
+|cant|p1a: Exeggutor|partiallytrapped
+|
+|turn|5
+|chat|kid gf lol|now go to golem
+|chat|kid gf lol|or nvm
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|move|p2a: Cloyster|Clamp|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|246\/313
+|-activate|p1a: Alakazam|move: Clamp|[of] p2a: Cloyster
+|
+|turn|6
+|
+|switch|p1a: Exeggutor|Exeggutor|113\/393
+|move|p2a: Cloyster|Clamp|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|96\/393
+|-activate|p1a: Exeggutor|move: Clamp|[of] p2a: Cloyster
+|
+|turn|7
+|chat|kid gf lol|i suppose that's all i need really
+|chat|ashiemore|ye
+|chat|kid gf lol|the first 3 turns
+|-message|ashiemore forfeited.
+|
+|win|kid gf lol

@@ -1,0 +1,91 @@
+﻿|join|PasgetiWestern
+|join|XianJu
+|player|p1|PasgetiWestern|170
+|player|p2|XianJu|130
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Rattata|Rattata, L96|252\/252
+|switch|p2a: Bulbasaur|Bulbasaur, L96|281\/281
+|turn|1
+|
+|move|p1a: Rattata|Super Fang|p2a: Bulbasaur|[miss]
+|-miss|p1a: Rattata
+|move|p2a: Bulbasaur|Sleep Powder|p1a: Rattata
+|-status|p1a: Rattata|slp
+|
+|turn|2
+|c|★PasgetiWestern|damnit my main sweeper
+|
+|switch|p1a: Nidorino|Nidorino, L90|293\/293
+|switch|p2a: Omanyte|Omanyte, L96|262\/262
+|
+|turn|3
+|
+|move|p1a: Nidorino|Thunder|p2a: Omanyte
+|-supereffective|p2a: Omanyte
+|-damage|p2a: Omanyte|147\/262
+|move|p2a: Omanyte|Blizzard|p1a: Nidorino
+|-damage|p1a: Nidorino|158\/293
+|
+|turn|4
+|
+|switch|p2a: Bulbasaur|Bulbasaur, L96|281\/281
+|move|p1a: Nidorino|Thunder|p2a: Bulbasaur
+|-resisted|p2a: Bulbasaur
+|-damage|p2a: Bulbasaur|246\/281
+|-status|p2a: Bulbasaur|par
+|
+|turn|5
+|
+|move|p1a: Nidorino|Leer|p2a: Bulbasaur
+|-unboost|p2a: Bulbasaur|def|1
+|cant|p2a: Bulbasaur|par
+|
+|turn|6
+|
+|move|p1a: Nidorino|Body Slam|p2a: Bulbasaur
+|-damage|p2a: Bulbasaur|148\/281 par
+|move|p2a: Bulbasaur|Body Slam|p1a: Nidorino
+|-crit|p1a: Nidorino
+|-damage|p1a: Nidorino|39\/293
+|-status|p1a: Nidorino|par
+|
+|turn|7
+|
+|cant|p1a: Nidorino|par
+|move|p2a: Bulbasaur|Body Slam|p1a: Nidorino
+|-damage|p1a: Nidorino|0 fnt
+|faint|p1a: Nidorino
+|c|★PasgetiWestern|ahhh, RBY
+|c|★PasgetiWestern|paralysis for all
+|
+|switch|p1a: Ninetales|Ninetales, L85|298\/298
+|turn|8
+|
+|switch|p2a: Omanyte|Omanyte, L96|147\/262
+|move|p1a: Ninetales|Fire Blast|p2a: Omanyte
+|-resisted|p2a: Omanyte
+|-damage|p2a: Omanyte|121\/262
+|
+|turn|9
+|
+|switch|p1a: Dragonair|Dragonair, L85|277\/277
+|move|p2a: Omanyte|Blizzard|p1a: Dragonair
+|-supereffective|p1a: Dragonair
+|-damage|p1a: Dragonair|52\/277
+|
+|turn|10
+|-message|PasgetiWestern forfeited.
+|
+|win|XianJu
+|leave|PasgetiWestern
+|player|p1
+|raw|PasgetiWestern's rating: 1251 &rarr; <strong>1227<\/strong><br \/>(-24 for losing)
+|raw|XianJu's rating: 1270 &rarr; <strong>1294<\/strong><br \/>(+24 for winning)

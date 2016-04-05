@@ -1,0 +1,537 @@
+﻿|join|champ_dab
+|join|SonicJaxx
+|player|p1|champ_dab|163
+|player|p2|SonicJaxx|80
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|switch|p1a: Starmie|Starmie|323\/323
+|switch|p2a: Psychedal|Alakazam|313\/313
+|turn|1
+|chat|SonicJaxx|No more UU.
+|
+|switch|p2a: Shell|Chansey|703\/703
+|switch|p1a: Chansey|Chansey|703\/703
+|
+|turn|2
+|
+|switch|p2a: Eggsellent|Exeggutor|393\/393
+|move|p1a: Chansey|Ice Beam|p2a: Eggsellent
+|-crit|p2a: Eggsellent
+|-supereffective|p2a: Eggsellent
+|-damage|p2a: Eggsellent|111\/393
+|-status|p2a: Eggsellent|frz
+|
+|turn|3
+|
+|switch|p2a: Shell|Chansey|703\/703
+|move|p1a: Chansey|Ice Beam|p2a: Shell
+|-damage|p2a: Shell|627\/703
+|
+|turn|4
+|
+|move|p1a: Chansey|Ice Beam|p2a: Shell
+|-damage|p2a: Shell|559\/703
+|move|p2a: Shell|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|629\/703
+|
+|turn|5
+|
+|move|p1a: Chansey|Ice Beam|p2a: Shell
+|-damage|p2a: Shell|483\/703
+|-status|p2a: Shell|frz
+|cant|p2a: Shell|frz
+|
+|turn|6
+|
+|switch|p2a: Tigerboy|Snorlax|523\/523
+|move|p1a: Chansey|Ice Beam|p2a: Tigerboy
+|-damage|p2a: Tigerboy|418\/523
+|
+|turn|7
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Tigerboy
+|-status|p2a: Tigerboy|par
+|move|p2a: Tigerboy|Body Slam|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|76\/703
+|
+|turn|8
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|427\/703
+|cant|p2a: Tigerboy|par
+|
+|turn|9
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|cant|p2a: Tigerboy|par
+|
+|turn|10
+|
+|move|p1a: Snorlax|Body Slam|p2a: Tigerboy
+|-damage|p2a: Tigerboy|281\/523 par
+|move|p2a: Tigerboy|Reflect|p2a: Tigerboy
+|
+|turn|11
+|
+|move|p1a: Snorlax|Earthquake|p2a: Tigerboy
+|-damage|p2a: Tigerboy|229\/523 par
+|cant|p2a: Tigerboy|par
+|
+|turn|12
+|
+|move|p1a: Snorlax|Body Slam|p2a: Tigerboy
+|-damage|p2a: Tigerboy|162\/523 par
+|move|p2a: Tigerboy|Rest|p2a: Tigerboy
+|-status|p2a: Tigerboy|slp
+|-heal|p2a: Tigerboy|523\/523 slp|[silent]
+|-status|p2a: Tigerboy|slp|[from] move: Rest
+|
+|turn|13
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|cant|p2a: Tigerboy|slp
+|
+|turn|14
+|
+|switch|p2a: Eggsellent|Exeggutor|111\/393 frz
+|move|p1a: Exeggutor|Psychic|p2a: Eggsellent
+|-resisted|p2a: Eggsellent
+|-damage|p2a: Eggsellent|58\/393 frz
+|-unboost|p2a: Eggsellent|spd|1
+|-unboost|p2a: Eggsellent|spa|1
+|
+|turn|15
+|
+|switch|p2a: Shell|Chansey|483\/703 frz
+|move|p1a: Exeggutor|Psychic|p2a: Shell
+|-damage|p2a: Shell|357\/703 frz
+|-unboost|p2a: Shell|spd|1
+|-unboost|p2a: Shell|spa|1
+|
+|turn|16
+|
+|switch|p2a: Eggsellent|Exeggutor|58\/393 frz
+|move|p1a: Exeggutor|Psychic|p2a: Eggsellent
+|-crit|p2a: Eggsellent
+|-resisted|p2a: Eggsellent
+|-damage|p2a: Eggsellent|0 fnt
+|faint|p2a: Eggsellent
+|
+|
+|switch|p2a: Ohm My|Zapdos|383\/383
+|turn|17
+|
+|switch|p1a: Rhydon|Rhydon|413\/413
+|move|p2a: Ohm My|Drill Peck|p1a: Rhydon|[miss]
+|-miss|p2a: Ohm My
+|
+|turn|18
+|
+|switch|p2a: Shell|Chansey|357\/703 frz
+|move|p1a: Rhydon|Body Slam|p2a: Shell
+|-damage|p2a: Shell|134\/703 frz
+|
+|turn|19
+|
+|cant|p2a: Shell|frz
+|move|p1a: Rhydon|Body Slam|p2a: Shell
+|-damage|p2a: Shell|0 fnt
+|faint|p2a: Shell
+|
+|
+|switch|p2a: Psychedal|Alakazam|313\/313
+|turn|20
+|
+|switch|p1a: Chansey|Chansey|427\/703
+|move|p2a: Psychedal|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|296\/703
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|
+|turn|21
+|
+|switch|p2a: Tigerboy|Snorlax|523\/523 slp
+|move|p1a: Chansey|Thunder Wave|p2a: Tigerboy
+|-fail|p2a: Tigerboy
+|
+|turn|22
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|647\/703
+|cant|p2a: Tigerboy|slp
+|-curestatus|p2a: Tigerboy|slp
+|
+|turn|23
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Tigerboy|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|283\/393
+|
+|turn|24
+|
+|move|p1a: Exeggutor|Sleep Powder|p2a: Tigerboy
+|-status|p2a: Tigerboy|slp
+|cant|p2a: Tigerboy|slp
+|
+|turn|25
+|
+|move|p1a: Exeggutor|Stun Spore|p2a: Tigerboy|[miss]
+|-miss|p1a: Exeggutor
+|cant|p2a: Tigerboy|slp
+|-curestatus|p2a: Tigerboy|slp
+|
+|turn|26
+|
+|switch|p2a: Psychedal|Alakazam|313\/313
+|move|p1a: Exeggutor|Sleep Powder|p2a: Psychedal
+|-status|p2a: Psychedal|slp
+|
+|turn|27
+|
+|switch|p2a: Tigerboy|Snorlax|523\/523
+|switch|p1a: Snorlax|Snorlax|523\/523
+|
+|turn|28
+|
+|move|p2a: Tigerboy|Reflect|p2a: Tigerboy
+|move|p1a: Snorlax|Body Slam|p2a: Tigerboy
+|-damage|p2a: Tigerboy|457\/523
+|
+|turn|29
+|
+|switch|p1a: Exeggutor|Exeggutor|283\/393
+|move|p2a: Tigerboy|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|160\/393
+|
+|turn|30
+|
+|move|p1a: Exeggutor|Sleep Powder|p2a: Tigerboy
+|-message|Sleep Clause Mod activated.
+|move|p2a: Tigerboy|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|34\/393
+|
+|turn|31
+|
+|move|p1a: Exeggutor|Explosion|p2a: Tigerboy
+|-damage|p2a: Tigerboy|296\/523
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Chansey|Chansey|647\/703
+|turn|32
+|
+|move|p1a: Chansey|Ice Beam|p2a: Tigerboy
+|-damage|p2a: Tigerboy|198\/523
+|move|p2a: Tigerboy|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|345\/703
+|
+|turn|33
+|
+|switch|p1a: Rhydon|Rhydon|413\/413
+|move|p2a: Tigerboy|Body Slam|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|368\/413
+|
+|turn|34
+|
+|switch|p1a: Chansey|Chansey|345\/703
+|move|p2a: Tigerboy|Rest|p2a: Tigerboy
+|-status|p2a: Tigerboy|slp
+|-heal|p2a: Tigerboy|523\/523 slp|[silent]
+|-status|p2a: Tigerboy|slp|[from] move: Rest
+|
+|turn|35
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|696\/703
+|cant|p2a: Tigerboy|slp
+|
+|turn|36
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703
+|cant|p2a: Tigerboy|slp
+|-curestatus|p2a: Tigerboy|slp
+|
+|turn|37
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Tigerboy
+|-status|p2a: Tigerboy|par
+|move|p2a: Tigerboy|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|398\/703
+|-status|p1a: Chansey|par
+|
+|turn|38
+|
+|move|p1a: Chansey|Ice Beam|p2a: Tigerboy
+|-damage|p2a: Tigerboy|424\/523 par
+|move|p2a: Tigerboy|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|96\/703 par
+|
+|turn|39
+|
+|switch|p1a: Rhydon|Rhydon|368\/413
+|cant|p2a: Tigerboy|par
+|
+|turn|40
+|join|P79
+|leave|P79
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: Tigerboy|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|407\/523
+|
+|turn|41
+|
+|move|p1a: Snorlax|Body Slam|p2a: Tigerboy
+|-crit|p2a: Tigerboy
+|-damage|p2a: Tigerboy|291\/523 par
+|cant|p2a: Tigerboy|par
+|
+|turn|42
+|
+|move|p1a: Snorlax|Body Slam|p2a: Tigerboy
+|-crit|p2a: Tigerboy
+|-damage|p2a: Tigerboy|152\/523 par
+|move|p2a: Tigerboy|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|258\/523
+|-status|p1a: Snorlax|par
+|
+|turn|43
+|
+|move|p1a: Snorlax|Self-Destruct|p2a: Tigerboy
+|-damage|p2a: Tigerboy|0 fnt
+|faint|p2a: Tigerboy
+|faint|p1a: Snorlax
+|
+|switch|p2a: Red|Tauros|353\/353
+|switch|p1a: Rhydon|Rhydon|368\/413
+|turn|44
+|
+|switch|p1a: Chansey|Chansey|96\/703 par
+|move|p2a: Red|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|turn|45
+|
+|switch|p2a: Psychedal|Alakazam|313\/313 slp
+|move|p1a: Starmie|Thunder Wave|p2a: Psychedal
+|-fail|p2a: Psychedal
+|
+|turn|46
+|
+|switch|p1a: Rhydon|Rhydon|368\/413
+|cant|p2a: Psychedal|slp
+|-curestatus|p2a: Psychedal|slp
+|
+|turn|47
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|move|p2a: Psychedal|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|262\/323
+|
+|turn|48
+|
+|move|p2a: Psychedal|Psychic|p1a: Starmie
+|-crit|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|136\/323
+|move|p1a: Starmie|Thunder Wave|p2a: Psychedal
+|-status|p2a: Psychedal|par
+|
+|turn|49
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|297\/323
+|move|p2a: Psychedal|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|231\/323
+|-unboost|p1a: Starmie|spd|1
+|-unboost|p1a: Starmie|spa|1
+|
+|turn|50
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Psychedal
+|-damage|p2a: Psychedal|275\/313 par
+|move|p2a: Psychedal|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|141\/323
+|-unboost|p1a: Starmie|spd|1
+|-unboost|p1a: Starmie|spa|1
+|
+|turn|51
+|
+|move|p1a: Starmie|Blizzard|p2a: Psychedal
+|-damage|p2a: Psychedal|236\/313 par
+|move|p2a: Psychedal|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|6\/323
+|
+|turn|52
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Psychedal
+|-damage|p2a: Psychedal|207\/313 par
+|cant|p2a: Psychedal|par
+|
+|turn|53
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Psychedal
+|-damage|p2a: Psychedal|174\/313 par
+|cant|p2a: Psychedal|par
+|
+|turn|54
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Psychedal
+|-damage|p2a: Psychedal|146\/313 par
+|move|p2a: Psychedal|Recover|p2a: Psychedal
+|-heal|p2a: Psychedal|302\/313 par
+|
+|turn|55
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|167\/323
+|cant|p2a: Psychedal|par
+|
+|turn|56
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Psychedal
+|-damage|p2a: Psychedal|272\/313 par
+|cant|p2a: Psychedal|par
+|
+|turn|57
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Psychedal
+|-damage|p2a: Psychedal|240\/313 par
+|move|p2a: Psychedal|Thunder Wave|p1a: Starmie
+|-status|p1a: Starmie|par
+|
+|turn|58
+|
+|move|p2a: Psychedal|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|42\/323 par
+|move|p1a: Starmie|Thunderbolt|p2a: Psychedal
+|-damage|p2a: Psychedal|211\/313 par
+|
+|turn|59
+|
+|move|p2a: Psychedal|Recover|p2a: Psychedal
+|-heal|p2a: Psychedal|313\/313 par
+|move|p1a: Starmie|Thunderbolt|p2a: Psychedal
+|-damage|p2a: Psychedal|281\/313 par
+|
+|turn|60
+|
+|move|p2a: Psychedal|Recover|p2a: Psychedal
+|-heal|p2a: Psychedal|313\/313 par
+|move|p1a: Starmie|Blizzard|p2a: Psychedal
+|-damage|p2a: Psychedal|272\/313 par
+|
+|turn|61
+|
+|move|p2a: Psychedal|Recover|p2a: Psychedal
+|-heal|p2a: Psychedal|313\/313 par
+|cant|p1a: Starmie|par
+|
+|turn|62
+|
+|move|p2a: Psychedal|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|
+|switch|p1a: Rhydon|Rhydon|368\/413
+|turn|63
+|
+|move|p1a: Rhydon|Substitute|p1a: Rhydon
+|-start|p1a: Rhydon|Substitute
+|-damage|p1a: Rhydon|265\/413
+|move|p2a: Psychedal|Psychic|p1a: Rhydon
+|-end|p1a: Rhydon|Substitute
+|
+|turn|64
+|
+|move|p1a: Rhydon|Substitute|p1a: Rhydon
+|-start|p1a: Rhydon|Substitute
+|-damage|p1a: Rhydon|162\/413
+|move|p2a: Psychedal|Psychic|p1a: Rhydon
+|-end|p1a: Rhydon|Substitute
+|
+|turn|65
+|
+|move|p1a: Rhydon|Substitute|p1a: Rhydon
+|-start|p1a: Rhydon|Substitute
+|-damage|p1a: Rhydon|59\/413
+|cant|p2a: Psychedal|par
+|
+|turn|66
+|
+|move|p1a: Rhydon|Earthquake|p2a: Psychedal
+|-damage|p2a: Psychedal|109\/313 par
+|move|p2a: Psychedal|Psychic|p1a: Rhydon
+|-crit|p1a: Rhydon
+|-end|p1a: Rhydon|Substitute
+|
+|turn|67
+|
+|move|p1a: Rhydon|Body Slam|p2a: Psychedal
+|-crit|p2a: Psychedal
+|-damage|p2a: Psychedal|0 fnt
+|faint|p2a: Psychedal
+|
+|
+|switch|p2a: Red|Tauros|353\/353
+|turn|68
+|
+|move|p2a: Red|Earthquake|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|69
+|
+|move|p1a: Tauros|Body Slam|p2a: Red
+|-damage|p2a: Red|254\/353
+|move|p2a: Red|Body Slam|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|155\/353
+|-status|p1a: Tauros|par
+|
+|turn|70
+|
+|move|p2a: Red|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|48\/353 par
+|move|p1a: Tauros|Body Slam|p2a: Red
+|-crit|p2a: Red
+|-damage|p2a: Red|47\/353
+|
+|turn|71
+|
+|move|p2a: Red|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|win|SonicJaxx
+|raw|Ladder updating...
+|raw|champ_dab's rating: 1267 &rarr; <strong>1254<\/strong><br \/>(-13 for losing)
+|raw|SonicJaxx's rating: 1453 &rarr; <strong>1463<\/strong><br \/>(+10 for winning)
+|chat|SonicJaxx|gg
+|chat|SonicJaxx|Very tightly contested.

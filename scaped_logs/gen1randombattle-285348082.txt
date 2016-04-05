@@ -1,0 +1,241 @@
+﻿|join|r0730
+|join|XianJu
+|player|p1|r0730|170
+|player|p2|XianJu|130
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Koffing|Koffing, L96|272\/272
+|switch|p2a: Magikarp|Magikarp, L99|240\/240
+|turn|1
+|
+|move|p2a: Magikarp|Dragon Rage|p1a: Koffing
+|-damage|p1a: Koffing|232\/272
+|move|p1a: Koffing|Thunderbolt|p2a: Magikarp
+|-supereffective|p2a: Magikarp
+|-damage|p2a: Magikarp|20\/240
+|
+|turn|2
+|
+|switch|p2a: Flareon|Flareon, L90|300\/300
+|move|p1a: Koffing|Thunderbolt|p2a: Flareon
+|-damage|p2a: Flareon|246\/300
+|
+|turn|3
+|
+|switch|p1a: Graveler|Graveler, L85|267\/267
+|move|p2a: Flareon|Fire Blast|p1a: Graveler
+|-resisted|p1a: Graveler
+|-damage|p1a: Graveler|151\/267
+|
+|turn|4
+|
+|switch|p2a: Magikarp|Magikarp, L99|20\/240
+|move|p1a: Graveler|Earthquake|p2a: Magikarp
+|-damage|p2a: Magikarp|0 fnt
+|faint|p2a: Magikarp
+|
+|switch|p2a: Gengar|Gengar, L79|257\/257
+|turn|5
+|
+|switch|p1a: Growlithe|Growlithe, L96|300\/300
+|move|p2a: Gengar|Mega Drain|p1a: Growlithe
+|-resisted|p1a: Growlithe
+|-damage|p1a: Growlithe|283\/300
+|
+|turn|6
+|
+|move|p2a: Gengar|Hypnosis|p1a: Growlithe
+|-status|p1a: Growlithe|slp
+|cant|p1a: Growlithe|slp
+|
+|turn|7
+|
+|switch|p2a: Pidgeot|Pidgeot, L90|333\/333
+|switch|p1a: Metapod|Metapod, L99|300\/300
+|
+|turn|8
+|
+|switch|p1a: Graveler|Graveler, L85|151\/267
+|move|p2a: Pidgeot|Double-Edge|p1a: Graveler
+|-resisted|p1a: Graveler
+|-damage|p1a: Graveler|103\/267
+|-damage|p2a: Pidgeot|321\/333|[from] recoil|[of] p1a: Graveler
+|
+|turn|9
+|
+|move|p2a: Pidgeot|Double-Edge|p1a: Graveler
+|-resisted|p1a: Graveler
+|-damage|p1a: Graveler|61\/267
+|-damage|p2a: Pidgeot|311\/333|[from] recoil|[of] p1a: Graveler
+|move|p1a: Graveler|Earthquake|p2a: Pidgeot
+|-immune|p2a: Pidgeot|[msg]
+|
+|turn|10
+|
+|move|p2a: Pidgeot|Hyper Beam|p1a: Graveler
+|-resisted|p1a: Graveler
+|-damage|p1a: Graveler|0 fnt
+|faint|p1a: Graveler
+|
+|switch|p1a: Koffing|Koffing, L96|232\/272
+|turn|11
+|
+|switch|p2a: Gengar|Gengar, L79|257\/257
+|move|p1a: Koffing|Thunder|p2a: Gengar|[miss]
+|-miss|p1a: Koffing
+|
+|turn|12
+|
+|switch|p1a: Metapod|Metapod, L99|300\/300
+|move|p2a: Gengar|Thunderbolt|p1a: Metapod
+|-damage|p1a: Metapod|179\/300
+|
+|turn|13
+|
+|switch|p2a: Flareon|Flareon, L90|246\/300
+|move|p1a: Metapod|String Shot|p2a: Flareon
+|-unboost|p2a: Flareon|spe|1
+|
+|turn|14
+|
+|switch|p1a: Seaking|Seaking, L90|327\/327
+|move|p2a: Flareon|Fire Blast|p1a: Seaking
+|-resisted|p1a: Seaking
+|-damage|p1a: Seaking|246\/327
+|
+|turn|15
+|
+|switch|p2a: Pidgeot|Pidgeot, L90|311\/333
+|move|p1a: Seaking|Surf|p2a: Pidgeot
+|-damage|p2a: Pidgeot|208\/333
+|
+|turn|16
+|
+|move|p2a: Pidgeot|Double-Edge|p1a: Seaking
+|-damage|p1a: Seaking|124\/327
+|-damage|p2a: Pidgeot|178\/333|[from] recoil|[of] p1a: Seaking
+|move|p1a: Seaking|Blizzard|p2a: Pidgeot
+|-supereffective|p2a: Pidgeot
+|-damage|p2a: Pidgeot|0 fnt
+|faint|p2a: Pidgeot
+|
+|switch|p2a: Gengar|Gengar, L79|257\/257
+|turn|17
+|
+|switch|p1a: Koffing|Koffing, L96|232\/272
+|move|p2a: Gengar|Thunderbolt|p1a: Koffing
+|-damage|p1a: Koffing|147\/272
+|
+|turn|18
+|
+|move|p2a: Gengar|Thunderbolt|p1a: Koffing
+|-damage|p1a: Koffing|72\/272
+|move|p1a: Koffing|Thunderbolt|p2a: Gengar
+|-damage|p2a: Gengar|205\/257
+|
+|turn|19
+|
+|switch|p1a: Metapod|Metapod, L99|179\/300
+|move|p2a: Gengar|Thunderbolt|p1a: Metapod
+|-crit|p1a: Metapod
+|-damage|p1a: Metapod|0 fnt
+|faint|p1a: Metapod
+|
+|switch|p1a: Persian|Persian, L79|265\/265
+|turn|20
+|
+|move|p1a: Persian|Thunderbolt|p2a: Gengar
+|-damage|p2a: Gengar|169\/257
+|-status|p2a: Gengar|par
+|move|p2a: Gengar|Mega Drain|p1a: Persian
+|-damage|p1a: Persian|225\/265
+|-heal|p2a: Gengar|189\/257 par|[from] drain|[of] p1a: Persian
+|
+|turn|21
+|
+|move|p1a: Persian|Thunderbolt|p2a: Gengar
+|-damage|p2a: Gengar|148\/257 par
+|move|p2a: Gengar|Thunderbolt|p1a: Persian
+|-damage|p1a: Persian|137\/265
+|
+|turn|22
+|
+|move|p1a: Persian|Thunderbolt|p2a: Gengar
+|-crit|p2a: Gengar
+|-damage|p2a: Gengar|74\/257 par
+|move|p2a: Gengar|Thunderbolt|p1a: Persian
+|-crit|p1a: Persian
+|-damage|p1a: Persian|0 fnt
+|faint|p1a: Persian
+|
+|switch|p1a: Seaking|Seaking, L90|124\/327
+|turn|23
+|
+|move|p1a: Seaking|Surf|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|switch|p2a: Flareon|Flareon, L90|246\/300
+|turn|24
+|
+|switch|p1a: Growlithe|Growlithe, L96|283\/300 slp
+|move|p2a: Flareon|Quick Attack|p1a: Growlithe
+|-damage|p1a: Growlithe|227\/300 slp
+|
+|turn|25
+|
+|cant|p1a: Growlithe|slp
+|move|p2a: Flareon|Body Slam|p1a: Growlithe
+|-damage|p1a: Growlithe|117\/300 slp
+|
+|turn|26
+|
+|cant|p1a: Growlithe|slp
+|move|p2a: Flareon|Hyper Beam|p1a: Growlithe
+|-damage|p1a: Growlithe|0 fnt
+|faint|p1a: Growlithe
+|
+|switch|p1a: Koffing|Koffing, L96|72\/272
+|turn|27
+|
+|move|p2a: Flareon|Hyper Beam|p1a: Koffing
+|-damage|p1a: Koffing|0 fnt
+|faint|p1a: Koffing
+|
+|switch|p1a: Seaking|Seaking, L90|124\/327
+|turn|28
+|
+|move|p2a: Flareon|Quick Attack|p1a: Seaking
+|-damage|p1a: Seaking|79\/327
+|move|p1a: Seaking|Surf|p2a: Flareon
+|-crit|p2a: Flareon
+|-supereffective|p2a: Flareon
+|-damage|p2a: Flareon|0 fnt
+|faint|p2a: Flareon
+|
+|switch|p2a: Arbok|Arbok, L90|291\/291
+|turn|29
+|
+|move|p2a: Arbok|Body Slam|p1a: Seaking
+|-damage|p1a: Seaking|3\/327
+|move|p1a: Seaking|Blizzard|p2a: Arbok
+|-damage|p2a: Arbok|199\/291
+|
+|turn|30
+|
+|move|p2a: Arbok|Body Slam|p1a: Seaking
+|-damage|p1a: Seaking|0 fnt
+|faint|p1a: Seaking
+|
+|win|XianJu
+|raw|r0730's rating: 1383 &rarr; <strong>1362<\/strong><br \/>(-21 for losing)
+|raw|XianJu's rating: 1360 &rarr; <strong>1381<\/strong><br \/>(+21 for winning)
+|leave|r0730
+|player|p1

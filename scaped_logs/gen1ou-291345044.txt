@@ -1,0 +1,607 @@
+﻿|join|XianJu
+|join|Hoenn~Sinnoh
+|player|p1|XianJu|130
+|player|p2|Hoenn~Sinnoh|251
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|seed|58727,60377,60506,27534
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Eggplant|Exeggutor|393\/393
+|turn|1
+|choice|move 3|move 1
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Eggplant
+|-status|p2a: Eggplant|par
+|cant|p2a: Eggplant|par
+|
+|turn|2
+|choice|move 4|move 1
+|
+|move|p1a: Alakazam|Reflect|p1a: Alakazam
+|-start|p1a: Alakazam|Reflect
+|move|p2a: Eggplant|Sleep Powder|p1a: Alakazam|[miss]
+|-miss|p2a: Eggplant
+|
+|turn|3
+|choice|move 1|move 1
+|
+|move|p1a: Alakazam|Psychic|p2a: Eggplant
+|-resisted|p2a: Eggplant
+|-damage|p2a: Eggplant|337\/393 par
+|move|p2a: Eggplant|Sleep Powder|p1a: Alakazam|[miss]
+|-miss|p2a: Eggplant
+|
+|turn|4
+|choice|move 1|move 3
+|
+|move|p1a: Alakazam|Psychic|p2a: Eggplant
+|-resisted|p2a: Eggplant
+|-damage|p2a: Eggplant|284\/393 par
+|-unboost|p2a: Eggplant|spd|1
+|-unboost|p2a: Eggplant|spa|1
+|cant|p2a: Eggplant|par
+|
+|turn|5
+|choice|move 1|move 3
+|
+|move|p1a: Alakazam|Psychic|p2a: Eggplant
+|-resisted|p2a: Eggplant
+|-damage|p2a: Eggplant|193\/393 par
+|-unboost|p2a: Eggplant|spd|1
+|-unboost|p2a: Eggplant|spa|1
+|cant|p2a: Eggplant|par
+|
+|turn|6
+|choice|move 1|switch 5
+|
+|switch|p2a: Nurse Joy|Chansey|703\/703
+|move|p1a: Alakazam|Psychic|p2a: Nurse Joy
+|-damage|p2a: Nurse Joy|579\/703
+|-unboost|p2a: Nurse Joy|spd|1
+|-unboost|p2a: Nurse Joy|spa|1
+|
+|turn|7
+|choice|move 1|move 1
+|
+|move|p1a: Alakazam|Psychic|p2a: Nurse Joy
+|-damage|p2a: Nurse Joy|392\/703
+|move|p2a: Nurse Joy|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|
+|turn|8
+|choice|move 1|move 2
+|
+|move|p2a: Nurse Joy|Soft-Boiled|p2a: Nurse Joy
+|-heal|p2a: Nurse Joy|703\/703
+|move|p1a: Alakazam|Psychic|p2a: Nurse Joy
+|-damage|p2a: Nurse Joy|499\/703
+|
+|turn|9
+|choice|switch 3|switch 5
+|
+|switch|p2a: Eggplant|Exeggutor|193\/393 par
+|switch|p1a: Chansey|Chansey|703\/703
+|
+|turn|10
+|choice|move 1|move 3
+|
+|move|p1a: Chansey|Ice Beam|p2a: Eggplant
+|-supereffective|p2a: Eggplant
+|-damage|p2a: Eggplant|51\/393 par
+|move|p2a: Eggplant|Psychic|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|455\/703
+|
+|turn|11
+|choice|move 1|move 4
+|
+|move|p1a: Chansey|Ice Beam|p2a: Eggplant
+|-supereffective|p2a: Eggplant
+|-damage|p2a: Eggplant|0 fnt
+|faint|p2a: Eggplant
+|choice||switch 4
+|
+|switch|p2a: Sir Knight|Dragonite|385\/385
+|turn|12
+|choice|switch 6|move 4
+|
+|switch|p1a: Gengar|Gengar|323\/323
+|move|p2a: Sir Knight|Hyper Beam|p1a: Gengar
+|-immune|p1a: Gengar|[msg]
+|
+|turn|13
+|choice|move 1|switch 5
+|
+|switch|p2a: Nurse Joy|Chansey|499\/703
+|move|p1a: Gengar|Hypnosis|p2a: Nurse Joy
+|-status|p2a: Nurse Joy|slp
+|
+|turn|14
+|choice|switch 2|move 1
+|
+|switch|p1a: Rhydon|Rhydon|413\/413
+|-curestatus|p2a: Nurse Joy|slp
+|
+|turn|15
+|choice|switch 6|move 2
+|
+|switch|p1a: Chansey|Chansey|455\/703
+|move|p2a: Nurse Joy|Soft-Boiled|p2a: Nurse Joy
+|-heal|p2a: Nurse Joy|703\/703
+|
+|turn|16
+|choice|move 1|move 3
+|
+|move|p2a: Nurse Joy|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|380\/703
+|move|p1a: Chansey|Ice Beam|p2a: Nurse Joy
+|-damage|p2a: Nurse Joy|628\/703
+|
+|turn|17
+|choice|move 1|move 3
+|
+|move|p2a: Nurse Joy|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|303\/703
+|move|p1a: Chansey|Ice Beam|p2a: Nurse Joy
+|-damage|p2a: Nurse Joy|550\/703
+|
+|turn|18
+|choice|move 2|move 3
+|
+|move|p2a: Nurse Joy|Ice Beam|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|169\/703
+|-status|p1a: Chansey|frz
+|cant|p1a: Chansey|frz
+|
+|turn|19
+|choice|switch 2|move 3
+|
+|switch|p1a: Gengar|Gengar|323\/323
+|move|p2a: Nurse Joy|Ice Beam|p1a: Gengar
+|-damage|p1a: Gengar|258\/323
+|
+|turn|20
+|choice|move 1|move 1
+|
+|move|p1a: Gengar|Hypnosis|p2a: Nurse Joy|[miss]
+|-miss|p1a: Gengar
+|move|p2a: Nurse Joy|Thunder Wave|p1a: Gengar
+|-status|p1a: Gengar|par
+|
+|turn|21
+|choice|move 1|move 4
+|
+|move|p2a: Nurse Joy|Thunderbolt|p1a: Gengar
+|-damage|p1a: Gengar|191\/323 par
+|move|p1a: Gengar|Hypnosis|p2a: Nurse Joy
+|-status|p2a: Nurse Joy|slp
+|
+|turn|22
+|choice|switch 6|move 3
+|
+|switch|p1a: Rhydon|Rhydon|413\/413
+|cant|p2a: Nurse Joy|slp
+|
+|turn|23
+|choice|move 3|move 3
+|
+|cant|p2a: Nurse Joy|slp
+|move|p1a: Rhydon|Substitute|p1a: Rhydon
+|-start|p1a: Rhydon|Substitute
+|-damage|p1a: Rhydon|310\/413
+|
+|turn|24
+|choice|move 2|move 3
+|
+|cant|p2a: Nurse Joy|slp
+|move|p1a: Rhydon|Rock Slide|p2a: Nurse Joy
+|-damage|p2a: Nurse Joy|272\/703 slp
+|
+|turn|25
+|choice|move 2|move 2
+|
+|cant|p2a: Nurse Joy|slp
+|move|p1a: Rhydon|Rock Slide|p2a: Nurse Joy
+|-crit|p2a: Nurse Joy
+|-damage|p2a: Nurse Joy|0 fnt
+|faint|p2a: Nurse Joy
+|choice||switch 2
+|
+|switch|p2a: Star-us|Starmie|323\/323
+|turn|26
+|choice|move 4|move 3
+|
+|move|p2a: Star-us|Ice Beam|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-end|p1a: Rhydon|Substitute
+|move|p1a: Rhydon|Body Slam|p2a: Star-us
+|-damage|p2a: Star-us|238\/323
+|
+|turn|27
+|choice|switch 3|move 3
+|
+|switch|p1a: Alakazam|Alakazam|313\/313 par
+|move|p2a: Star-us|Ice Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|256\/313 par
+|
+|turn|28
+|choice|move 3|move 4
+|
+|move|p2a: Star-us|Thunderbolt|p1a: Alakazam
+|-damage|p1a: Alakazam|194\/313 par
+|move|p1a: Alakazam|Thunder Wave|p2a: Star-us
+|-status|p2a: Star-us|par
+|
+|turn|29
+|choice|move 2|move 3
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|313\/313 par
+|move|p2a: Star-us|Ice Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|252\/313 par
+|
+|turn|30
+|choice|switch 2|move 2
+|
+|switch|p1a: Chansey|Chansey|169\/703 frz
+|move|p2a: Star-us|Recover|p2a: Star-us
+|-heal|p2a: Star-us|323\/323 par
+|
+|turn|31
+|choice|move 3|move 4
+|
+|cant|p1a: Chansey|frz
+|move|p2a: Star-us|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|97\/703 frz
+|
+|turn|32
+|choice|move 3|move 4
+|
+|cant|p1a: Chansey|frz
+|cant|p2a: Star-us|par
+|
+|turn|33
+|choice|move 3|move 4
+|
+|cant|p1a: Chansey|frz
+|move|p2a: Star-us|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|24\/703 frz
+|
+|turn|34
+|choice|move 3|move 4
+|
+|cant|p1a: Chansey|frz
+|move|p2a: Star-us|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|choice|switch 6|
+|
+|switch|p1a: Gengar|Gengar|191\/323 par
+|turn|35
+|choice|move 4|move 4
+|
+|move|p2a: Star-us|Thunderbolt|p1a: Gengar
+|-damage|p1a: Gengar|126\/323 par
+|move|p1a: Gengar|Mega Drain|p2a: Star-us
+|-crit|p2a: Star-us
+|-supereffective|p2a: Star-us
+|-damage|p2a: Star-us|179\/323 par
+|-heal|p1a: Gengar|198\/323 par|[from] drain|[of] p2a: Star-us
+|
+|turn|36
+|choice|move 4|move 4
+|
+|cant|p2a: Star-us|par
+|move|p1a: Gengar|Mega Drain|p2a: Star-us
+|-supereffective|p2a: Star-us
+|-damage|p2a: Star-us|96\/323 par
+|-heal|p1a: Gengar|239\/323 par|[from] drain|[of] p2a: Star-us
+|
+|turn|37
+|choice|move 4|move 2
+|
+|move|p2a: Star-us|Recover|p2a: Star-us
+|-heal|p2a: Star-us|257\/323 par
+|cant|p1a: Gengar|par
+|
+|turn|38
+|choice|move 2|move 4
+|
+|move|p2a: Star-us|Thunderbolt|p1a: Gengar
+|-damage|p1a: Gengar|177\/323 par
+|move|p1a: Gengar|Thunderbolt|p2a: Star-us
+|-crit|p2a: Star-us
+|-supereffective|p2a: Star-us
+|-damage|p2a: Star-us|0 fnt
+|faint|p2a: Star-us
+|choice||switch 6
+|
+|switch|p2a: El Tauros|Tauros|353\/353
+|turn|39
+|choice|switch 5|move 2
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|move|p2a: El Tauros|Earthquake|p1a: Starmie
+|-damage|p1a: Starmie|231\/323
+|
+|turn|40
+|choice|move 4|move 4
+|
+|move|p1a: Starmie|Thunder Wave|p2a: El Tauros
+|-status|p2a: El Tauros|par
+|move|p2a: El Tauros|Hyper Beam|p1a: Starmie
+|-damage|p1a: Starmie|48\/323
+|
+|turn|41
+|-mustrecharge|p2a: El Tauros
+|-mustrecharge|p2a: El Tauros
+|choice|move 1|move 1
+|
+|move|p1a: Starmie|Surf|p2a: El Tauros
+|-crit|p2a: El Tauros
+|-damage|p2a: El Tauros|92\/353 par
+|cant|p2a: El Tauros|recharge
+|
+|turn|42
+|choice|move 1|move 1
+|
+|move|p1a: Starmie|Surf|p2a: El Tauros
+|-damage|p2a: El Tauros|0 fnt
+|faint|p2a: El Tauros
+|choice||switch 3
+|
+|switch|p2a: Bro you're Slow|Slowbro|393\/393
+|turn|43
+|choice|move 3|move 1
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|209\/323
+|move|p2a: Bro you're Slow|Amnesia|p2a: Bro you're Slow
+|-boost|p2a: Bro you're Slow|spd|2
+|-boost|p2a: Bro you're Slow|spa|2
+|
+|turn|44
+|choice|move 2|move 1
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Bro you're Slow
+|-supereffective|p2a: Bro you're Slow
+|-damage|p2a: Bro you're Slow|311\/393
+|move|p2a: Bro you're Slow|Amnesia|p2a: Bro you're Slow
+|-boost|p2a: Bro you're Slow|spd|2
+|-boost|p2a: Bro you're Slow|spa|2
+|
+|turn|45
+|choice|switch 4|move 1
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Bro you're Slow|Amnesia|p2a: Bro you're Slow
+|-boost|p2a: Bro you're Slow|spd|2
+|-boost|p2a: Bro you're Slow|spa|2
+|
+|turn|46
+|choice|move 1|move 3
+|
+|move|p1a: Exeggutor|Sleep Powder|p2a: Bro you're Slow
+|-status|p2a: Bro you're Slow|slp
+|cant|p2a: Bro you're Slow|slp
+|
+|turn|47
+|choice|switch 5|move 3
+|
+|switch|p1a: Gengar|Gengar|177\/323 par
+|cant|p2a: Bro you're Slow|slp
+|
+|turn|48
+|choice|move 3|move 2
+|
+|cant|p2a: Bro you're Slow|slp
+|move|p1a: Gengar|Explosion|p2a: Bro you're Slow
+|-damage|p2a: Bro you're Slow|132\/393 slp
+|faint|p1a: Gengar
+|choice|switch 3|
+|
+|switch|p1a: Rhydon|Rhydon|310\/413
+|turn|49
+|choice|move 2|move 4
+|
+|move|p1a: Rhydon|Rock Slide|p2a: Bro you're Slow
+|-damage|p2a: Bro you're Slow|38\/393 slp
+|cant|p2a: Bro you're Slow|slp
+|
+|turn|50
+|choice|move 2|move 3
+|
+|move|p1a: Rhydon|Rock Slide|p2a: Bro you're Slow
+|-damage|p2a: Bro you're Slow|0 fnt
+|faint|p2a: Bro you're Slow
+|choice||switch 5
+|
+|switch|p2a: Sir Knight|Dragonite|385\/385
+|turn|51
+|choice|move 2|move 2
+|
+|move|p2a: Sir Knight|Toxic|p1a: Rhydon
+|-status|p1a: Rhydon|tox
+|move|p1a: Rhydon|Rock Slide|p2a: Sir Knight
+|-supereffective|p2a: Sir Knight
+|-damage|p2a: Sir Knight|180\/385
+|-damage|p1a: Rhydon|285\/413 tox|[from] tox|[of] p2a: Sir Knight
+|
+|turn|52
+|choice|move 2|move 3
+|
+|move|p2a: Sir Knight|Wrap|p1a: Rhydon
+|-crit|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|273\/413 tox
+|-activate|p1a: Rhydon|move: Wrap|[of] p2a: Sir Knight
+|cant|p1a: Rhydon|partiallytrapped
+|-damage|p1a: Rhydon|223\/413 tox|[from] tox|[of] p2a: Sir Knight
+|
+|turn|53
+|choice|move 2|move 3
+|
+|move|p2a: Sir Knight|Wrap|p1a: Rhydon
+|-damage|p1a: Rhydon|211\/413 tox
+|cant|p1a: Rhydon|partiallytrapped
+|-damage|p1a: Rhydon|136\/413 tox|[from] tox|[of] p2a: Sir Knight
+|
+|-end|p1a: Rhydon|Wrap|[partiallytrapped]
+|turn|54
+|choice|move 2|move 3
+|
+|move|p2a: Sir Knight|Wrap|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|130\/413 tox
+|-activate|p1a: Rhydon|move: Wrap|[of] p2a: Sir Knight
+|cant|p1a: Rhydon|partiallytrapped
+|-damage|p1a: Rhydon|30\/413 tox|[from] tox|[of] p2a: Sir Knight
+|
+|turn|55
+|choice|move 2|move 3
+|
+|move|p2a: Sir Knight|Wrap|p1a: Rhydon
+|-damage|p1a: Rhydon|24\/413 tox
+|cant|p1a: Rhydon|partiallytrapped
+|-damage|p1a: Rhydon|0 fnt|[from] tox|[of] p2a: Sir Knight
+|faint|p1a: Rhydon
+|choice|switch 4|
+|
+|switch|p1a: Starmie|Starmie|209\/323
+|turn|56
+|choice|move 4|move 3
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Sir Knight
+|-status|p2a: Sir Knight|par
+|move|p2a: Sir Knight|Wrap|p1a: Starmie
+|-damage|p1a: Starmie|192\/323
+|-activate|p1a: Starmie|move: Wrap|[of] p2a: Sir Knight
+|
+|turn|57
+|choice|move 3|move 3
+|
+|cant|p1a: Starmie|partiallytrapped
+|cant|p2a: Sir Knight|par
+|
+|-end|p1a: Starmie|Wrap|[partiallytrapped]
+|turn|58
+|choice|move 2|move 1
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Sir Knight
+|-damage|p2a: Sir Knight|103\/385 par
+|move|p2a: Sir Knight|Agility|p2a: Sir Knight
+|-boost|p2a: Sir Knight|spe|2
+|
+|turn|59
+|choice|move 2|move 3
+|
+|move|p2a: Sir Knight|Wrap|p1a: Starmie
+|-damage|p1a: Starmie|174\/323
+|-activate|p1a: Starmie|move: Wrap|[of] p2a: Sir Knight
+|cant|p1a: Starmie|partiallytrapped
+|
+|turn|60
+|choice|move 2|move 3
+|
+|move|p2a: Sir Knight|Wrap|p1a: Starmie
+|-damage|p1a: Starmie|156\/323
+|cant|p1a: Starmie|partiallytrapped
+|
+|turn|61
+|choice|move 2|move 3
+|
+|move|p2a: Sir Knight|Wrap|p1a: Starmie
+|-damage|p1a: Starmie|138\/323
+|cant|p1a: Starmie|partiallytrapped
+|
+|-end|p1a: Starmie|Wrap|[partiallytrapped]
+|turn|62
+|choice|move 2|move 3
+|
+|move|p2a: Sir Knight|Wrap|p1a: Starmie|[miss]
+|-miss|p2a: Sir Knight
+|move|p1a: Starmie|Thunderbolt|p2a: Sir Knight
+|-damage|p2a: Sir Knight|35\/385 par
+|
+|turn|63
+|choice|move 2|move 3
+|
+|move|p2a: Sir Knight|Wrap|p1a: Starmie
+|-damage|p1a: Starmie|121\/323
+|-activate|p1a: Starmie|move: Wrap|[of] p2a: Sir Knight
+|cant|p1a: Starmie|partiallytrapped
+|
+|turn|64
+|choice|move 2|move 3
+|
+|move|p2a: Sir Knight|Wrap|p1a: Starmie
+|-damage|p1a: Starmie|104\/323
+|cant|p1a: Starmie|partiallytrapped
+|
+|-end|p1a: Starmie|Wrap|[partiallytrapped]
+|turn|65
+|choice|move 2|move 4
+|
+|move|p2a: Sir Knight|Hyper Beam|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|choice|switch 5|
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|turn|66
+|choice|move 2|move 3
+|
+|move|p2a: Sir Knight|Wrap|p1a: Exeggutor
+|-damage|p1a: Exeggutor|375\/393
+|-activate|p1a: Exeggutor|move: Wrap|[of] p2a: Sir Knight
+|cant|p1a: Exeggutor|partiallytrapped
+|
+|turn|67
+|choice|move 2|move 3
+|
+|move|p2a: Sir Knight|Wrap|p1a: Exeggutor
+|-damage|p1a: Exeggutor|357\/393
+|cant|p1a: Exeggutor|partiallytrapped
+|
+|-end|p1a: Exeggutor|Wrap|[partiallytrapped]
+|turn|68
+|choice|move 2|move 3
+|
+|move|p2a: Sir Knight|Wrap|p1a: Exeggutor
+|-damage|p1a: Exeggutor|341\/393
+|-activate|p1a: Exeggutor|move: Wrap|[of] p2a: Sir Knight
+|cant|p1a: Exeggutor|partiallytrapped
+|
+|turn|69
+|choice|move 2|move 3
+|
+|cant|p2a: Sir Knight|par
+|cant|p1a: Exeggutor|partiallytrapped
+|
+|-end|p1a: Exeggutor|Wrap|[partiallytrapped]
+|turn|70
+|choice|move 2|move 3
+|
+|cant|p2a: Sir Knight|par
+|move|p1a: Exeggutor|Psychic|p2a: Sir Knight
+|-damage|p2a: Sir Knight|0 fnt
+|faint|p2a: Sir Knight
+|
+|win|XianJu
+|raw|XianJu's rating: 1168 &rarr; <strong>1191<\/strong><br \/>(+23 for winning)
+|raw|Hoenn~Sinnoh's rating: 1135 &rarr; <strong>1112<\/strong><br \/>(-23 for losing)
+|c|★Hoenn~Sinnoh|gg
+|c|★XianJu|gg
+|leave|Hoenn~Sinnoh
+|player|p2

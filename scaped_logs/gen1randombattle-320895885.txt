@@ -1,0 +1,225 @@
+﻿|j|Omski
+|j|grorschach
+|player|p1|Omski|1
+|player|p2|grorschach|130
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|27200,22333,18289,45198
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Seaking|Seaking, L90|327\/327
+|switch|p2a: Kabutops|Kabutops, L85|276\/276
+|turn|1
+|choice|move 3|switch 6
+|
+|switch|p2a: Magneton|Magneton, L90|273\/273
+|move|p1a: Seaking|Surf|p2a: Magneton
+|-damage|p2a: Magneton|191\/273
+|
+|turn|2
+|choice|move 2|move Thunder Wave
+|
+|move|p2a: Magneton|Thunder Wave|p1a: Seaking
+|-status|p1a: Seaking|par
+|move|p1a: Seaking|Hyper Beam|p2a: Magneton|[miss]
+|-miss|p1a: Seaking
+|
+|turn|3
+|choice|move 2|move Thunderbolt
+|
+|move|p2a: Magneton|Thunderbolt|p1a: Seaking
+|-crit|p1a: Seaking
+|-supereffective|p1a: Seaking
+|-damage|p1a: Seaking|0 fnt
+|faint|p1a: Seaking
+|choice|switch 3|
+|
+|switch|p1a: Raticate|Raticate, L85|267\/267
+|turn|4
+|choice|move 3|move Thunder Wave
+|
+|move|p1a: Raticate|Hyper Beam|p2a: Magneton
+|-damage|p2a: Magneton|65\/273
+|move|p2a: Magneton|Thunder Wave|p1a: Raticate
+|-status|p1a: Raticate|par
+|
+|turn|5
+|-mustrecharge|p1a: Raticate
+|-mustrecharge|p1a: Raticate
+|choice|move 1|move Thunderbolt
+|
+|move|p2a: Magneton|Thunderbolt|p1a: Raticate
+|-damage|p1a: Raticate|90\/267 par
+|cant|p1a: Raticate|recharge
+|
+|turn|6
+|choice|move 4|move Thunderbolt
+|
+|move|p2a: Magneton|Thunderbolt|p1a: Raticate
+|-damage|p1a: Raticate|0 fnt
+|faint|p1a: Raticate
+|choice|switch 6|
+|
+|switch|p1a: Mr. Mime|Mr. Mime, L85|242\/242
+|turn|7
+|choice|move 2|move Thunder Wave
+|
+|move|p1a: Mr. Mime|Psychic|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|faint|p2a: Magneton
+|choice||switch 2
+|
+|switch|p2a: Arcanine|Arcanine, L85|327\/327
+|turn|8
+|choice|move 3|move Hyper Beam
+|
+|move|p2a: Arcanine|Hyper Beam|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|101\/242
+|move|p1a: Mr. Mime|Thunder Wave|p2a: Arcanine
+|-status|p2a: Arcanine|par
+|
+|turn|9
+|-mustrecharge|p2a: Arcanine
+|-mustrecharge|p2a: Arcanine
+|choice|move 2|move Recharge
+|
+|move|p1a: Mr. Mime|Psychic|p2a: Arcanine
+|-damage|p2a: Arcanine|219\/327 par
+|-unboost|p2a: Arcanine|spd|1
+|-unboost|p2a: Arcanine|spa|1
+|cant|p2a: Arcanine|recharge
+|
+|turn|10
+|choice|move 2|move Hyper Beam
+|
+|move|p1a: Mr. Mime|Psychic|p2a: Arcanine
+|-damage|p2a: Arcanine|47\/327 par
+|move|p2a: Arcanine|Hyper Beam|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|0 fnt
+|faint|p1a: Mr. Mime
+|choice|switch 2|
+|
+|switch|p1a: Machoke|Machoke, L85|310\/310
+|turn|11
+|choice|move 3|move Fire Blast
+|
+|move|p1a: Machoke|Rock Slide|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|choice||switch 3
+|
+|switch|p2a: Hypno|Hypno, L85|318\/318
+|turn|12
+|choice|move 2|move Thunder Wave
+|
+|move|p2a: Hypno|Thunder Wave|p1a: Machoke
+|-status|p1a: Machoke|par
+|move|p1a: Machoke|Body Slam|p2a: Hypno
+|-damage|p2a: Hypno|245\/318
+|
+|turn|13
+|choice|move 2|move Psychic
+|
+|move|p2a: Hypno|Psychic|p1a: Machoke
+|-supereffective|p1a: Machoke
+|-damage|p1a: Machoke|0 fnt
+|faint|p1a: Machoke
+|choice|switch 5|
+|
+|switch|p1a: Moltres|Moltres, L85|327\/327
+|turn|14
+|choice|move 1|move Thunder Wave
+|
+|move|p1a: Moltres|Fire Blast|p2a: Hypno
+|-damage|p2a: Hypno|119\/318
+|move|p2a: Hypno|Thunder Wave|p1a: Moltres
+|-status|p1a: Moltres|par
+|
+|turn|15
+|choice|move 1|move Psychic
+|
+|move|p2a: Hypno|Psychic|p1a: Moltres
+|-damage|p1a: Moltres|238\/327 par
+|cant|p1a: Moltres|par
+|
+|turn|16
+|choice|move 1|move Psychic
+|
+|move|p2a: Hypno|Psychic|p1a: Moltres
+|-damage|p1a: Moltres|147\/327 par
+|move|p1a: Moltres|Fire Blast|p2a: Hypno|[miss]
+|-miss|p1a: Moltres
+|
+|turn|17
+|choice|move 1|move Psychic
+|
+|move|p2a: Hypno|Psychic|p1a: Moltres
+|-crit|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|choice|switch 4|
+|
+|switch|p1a: Venomoth|Venomoth, L85|293\/293
+|turn|18
+|choice|move 4|move Psychic
+|
+|move|p1a: Venomoth|Sleep Powder|p2a: Hypno
+|-status|p2a: Hypno|slp
+|cant|p2a: Hypno|slp
+|
+|turn|19
+|choice|move 1|switch 4
+|
+|switch|p2a: Dodrio|Dodrio, L85|276\/276
+|move|p1a: Venomoth|Mega Drain|p2a: Dodrio
+|-resisted|p2a: Dodrio
+|-damage|p2a: Dodrio|259\/276
+|
+|turn|20
+|choice|move 2|move Drill Peck
+|
+|move|p2a: Dodrio|Drill Peck|p1a: Venomoth
+|-supereffective|p1a: Venomoth
+|-damage|p1a: Venomoth|50\/293
+|move|p1a: Venomoth|Stun Spore|p2a: Dodrio
+|-status|p2a: Dodrio|par
+|
+|turn|21
+|choice|move 3|move Drill Peck
+|
+|move|p1a: Venomoth|Psychic|p2a: Dodrio
+|-damage|p2a: Dodrio|179\/276 par
+|-unboost|p2a: Dodrio|spd|1
+|-unboost|p2a: Dodrio|spa|1
+|cant|p2a: Dodrio|par
+|
+|turn|22
+|choice|move 3|move Drill Peck
+|
+|move|p1a: Venomoth|Psychic|p2a: Dodrio
+|-damage|p2a: Dodrio|56\/276 par
+|-unboost|p2a: Dodrio|spd|1
+|-unboost|p2a: Dodrio|spa|1
+|cant|p2a: Dodrio|par
+|
+|turn|23
+|choice|move 3|move Drill Peck
+|
+|move|p1a: Venomoth|Psychic|p2a: Dodrio|[miss]
+|-miss|p1a: Venomoth
+|move|p2a: Dodrio|Drill Peck|p1a: Venomoth
+|-supereffective|p1a: Venomoth
+|-damage|p1a: Venomoth|0 fnt
+|faint|p1a: Venomoth
+|
+|win|grorschach
+|player|p1
+|player|p2
+|raw|Omski's rating: 1253 &rarr; <strong>1221<\/strong><br \/>(-32 for losing)
+|raw|grorschach's rating: 1147 &rarr; <strong>1180<\/strong><br \/>(+33 for winning)

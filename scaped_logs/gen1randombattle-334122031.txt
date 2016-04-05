@@ -1,0 +1,334 @@
+﻿|j|Dervodel2
+|j|Azawa
+|player|p1|Dervodel2|238
+|player|p2|Azawa|169
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Haunter|Haunter, L85|100\/100
+|switch|p2a: Magnemite|Magnemite, L96|100\/100
+|turn|1
+|choice||
+|
+|switch|p1a: Golem|Golem, L79|100\/100
+|move|p2a: Magnemite|Thunder Wave|p1a: Golem
+|-immune|p1a: Golem|[msg]
+|
+|turn|2
+|choice||
+|
+|switch|p2a: Slowpoke|Slowpoke, L96|100\/100
+|move|p1a: Golem|Body Slam|p2a: Slowpoke
+|-damage|p2a: Slowpoke|84\/100
+|
+|turn|3
+|choice||
+|
+|switch|p1a: Electabuzz|Electabuzz, L85|100\/100
+|move|p2a: Slowpoke|Thunder Wave|p1a: Electabuzz
+|-status|p1a: Electabuzz|par
+|
+|turn|4
+|choice||
+|
+|move|p2a: Slowpoke|Amnesia|p2a: Slowpoke
+|-boost|p2a: Slowpoke|spd|2
+|-boost|p2a: Slowpoke|spa|2
+|move|p1a: Electabuzz|Thunderbolt|p2a: Slowpoke
+|-supereffective|p2a: Slowpoke
+|-damage|p2a: Slowpoke|49\/100
+|
+|turn|5
+|choice||
+|
+|move|p2a: Slowpoke|Amnesia|p2a: Slowpoke
+|-boost|p2a: Slowpoke|spd|2
+|-boost|p2a: Slowpoke|spa|2
+|move|p1a: Electabuzz|Thunderbolt|p2a: Slowpoke
+|-crit|p2a: Slowpoke
+|-supereffective|p2a: Slowpoke
+|-damage|p2a: Slowpoke|0 fnt
+|faint|p2a: Slowpoke
+|choice||
+|
+|switch|p2a: Articuno|Articuno, L79|100\/100
+|turn|6
+|choice||
+|
+|switch|p2a: Nidoqueen|Nidoqueen, L85|100\/100
+|move|p1a: Electabuzz|Thunderbolt|p2a: Nidoqueen
+|-immune|p2a: Nidoqueen|[msg]
+|
+|turn|7
+|choice||
+|
+|switch|p1a: Pidgey|Pidgey, L96|100\/100
+|move|p2a: Nidoqueen|Earthquake|p1a: Pidgey
+|-immune|p1a: Pidgey|[msg]
+|
+|turn|8
+|choice||
+|
+|move|p2a: Nidoqueen|Blizzard|p1a: Pidgey
+|-supereffective|p1a: Pidgey
+|-damage|p1a: Pidgey|23\/100
+|move|p1a: Pidgey|Double-Edge|p2a: Nidoqueen
+|-crit|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|50\/100
+|-damage|p1a: Pidgey|7\/100|[from] recoil|[of] p2a: Nidoqueen
+|
+|turn|9
+|choice||
+|
+|move|p2a: Nidoqueen|Body Slam|p1a: Pidgey
+|-damage|p1a: Pidgey|0 fnt
+|faint|p1a: Pidgey
+|choice||
+|
+|switch|p1a: Poliwrath|Poliwrath, L85|100\/100
+|turn|10
+|choice||
+|
+|switch|p2a: Raticate|Raticate, L85|100\/100
+|move|p1a: Poliwrath|Surf|p2a: Raticate
+|-damage|p2a: Raticate|59\/100
+|
+|turn|11
+|choice||
+|
+|switch|p1a: Haunter|Haunter, L85|100\/100
+|move|p2a: Raticate|Super Fang|p1a: Haunter
+|-damage|p1a: Haunter|50\/100
+|
+|turn|12
+|choice||
+|
+|move|p2a: Raticate|Blizzard|p1a: Haunter
+|-crit|p1a: Haunter
+|-damage|p1a: Haunter|10\/100
+|move|p1a: Haunter|Confuse Ray|p2a: Raticate
+|-start|p2a: Raticate|confusion
+|
+|turn|13
+|choice||
+|
+|-activate|p2a: Raticate|confusion
+|move|p2a: Raticate|Blizzard|p1a: Haunter|[miss]
+|-miss|p2a: Raticate
+|move|p1a: Haunter|Psychic|p2a: Raticate
+|-damage|p2a: Raticate|21\/100
+|
+|turn|14
+|choice||
+|
+|switch|p1a: Poliwrath|Poliwrath, L85|100\/100
+|-activate|p2a: Raticate|confusion
+|-damage|p2a: Raticate|8\/100|[from] confusion
+|
+|turn|15
+|choice||
+|
+|switch|p1a: Haunter|Haunter, L85|10\/100
+|-end|p2a: Raticate|confusion
+|move|p2a: Raticate|Super Fang|p1a: Haunter
+|-damage|p1a: Haunter|6\/100
+|
+|turn|16
+|choice||
+|
+|move|p2a: Raticate|Blizzard|p1a: Haunter
+|-damage|p1a: Haunter|0 fnt
+|faint|p1a: Haunter
+|choice||
+|
+|switch|p1a: Jolteon|Jolteon, L79|100\/100
+|turn|17
+|choice||
+|
+|move|p1a: Jolteon|Pin Missile|p2a: Raticate
+|-damage|p2a: Raticate|5\/100
+|-damage|p2a: Raticate|1\/100
+|-damage|p2a: Raticate|0 fnt
+|-hitcount|p2a: Raticate|3
+|faint|p2a: Raticate
+|choice||
+|
+|switch|p2a: Nidoqueen|Nidoqueen, L85|50\/100
+|turn|18
+|choice||
+|
+|move|p1a: Jolteon|Pin Missile|p2a: Nidoqueen
+|-crit|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|41\/100
+|-damage|p2a: Nidoqueen|33\/100
+|-damage|p2a: Nidoqueen|25\/100
+|-damage|p2a: Nidoqueen|17\/100
+|-damage|p2a: Nidoqueen|8\/100
+|-hitcount|p2a: Nidoqueen|5
+|move|p2a: Nidoqueen|Thunderbolt|p1a: Jolteon
+|-resisted|p1a: Jolteon
+|-damage|p1a: Jolteon|91\/100
+|
+|turn|19
+|choice||
+|
+|switch|p2a: Magnemite|Magnemite, L96|100\/100
+|move|p1a: Jolteon|Pin Missile|p2a: Magnemite
+|-crit|p2a: Magnemite
+|-damage|p2a: Magnemite|94\/100
+|-damage|p2a: Magnemite|88\/100
+|-damage|p2a: Magnemite|82\/100
+|-damage|p2a: Magnemite|76\/100
+|-damage|p2a: Magnemite|70\/100
+|-hitcount|p2a: Magnemite|5
+|
+|turn|20
+|choice||
+|
+|switch|p1a: Golem|Golem, L79|100\/100
+|move|p2a: Magnemite|Thunder Wave|p1a: Golem
+|-immune|p1a: Golem|[msg]
+|
+|turn|21
+|choice||
+|
+|switch|p2a: Articuno|Articuno, L79|100\/100
+|move|p1a: Golem|Rock Slide|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|4\/100
+|
+|turn|22
+|choice||
+|
+|switch|p1a: Electabuzz|Electabuzz, L85|100\/100 par
+|move|p2a: Articuno|Blizzard|p1a: Electabuzz
+|-damage|p1a: Electabuzz|57\/100 par
+|
+|turn|23
+|choice||
+|
+|move|p2a: Articuno|Blizzard|p1a: Electabuzz
+|-damage|p1a: Electabuzz|9\/100 par
+|cant|p1a: Electabuzz|par
+|
+|turn|24
+|choice||
+|
+|move|p2a: Articuno|Blizzard|p1a: Electabuzz
+|-damage|p1a: Electabuzz|0 fnt
+|faint|p1a: Electabuzz
+|choice||
+|
+|switch|p1a: Jolteon|Jolteon, L79|91\/100
+|turn|25
+|choice||
+|
+|move|p1a: Jolteon|Pin Missile|p2a: Articuno
+|-resisted|p2a: Articuno
+|-damage|p2a: Articuno|3\/100
+|-damage|p2a: Articuno|2\/100
+|-damage|p2a: Articuno|1\/100
+|-hitcount|p2a: Articuno|3
+|move|p2a: Articuno|Blizzard|p1a: Jolteon
+|-damage|p1a: Jolteon|45\/100
+|
+|turn|26
+|choice||
+|
+|move|p1a: Jolteon|Body Slam|p2a: Articuno
+|-crit|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|faint|p2a: Articuno
+|choice||
+|
+|switch|p2a: Jynx|Jynx, L79|100\/100
+|turn|27
+|choice||
+|
+|switch|p2a: Magnemite|Magnemite, L96|70\/100
+|move|p1a: Jolteon|Thunderbolt|p2a: Magnemite
+|-resisted|p2a: Magnemite
+|-damage|p2a: Magnemite|54\/100
+|
+|turn|28
+|choice||
+|
+|switch|p2a: Jynx|Jynx, L79|100\/100
+|move|p1a: Jolteon|Pin Missile|p2a: Jynx
+|-crit|p2a: Jynx
+|-supereffective|p2a: Jynx
+|-damage|p2a: Jynx|81\/100
+|-damage|p2a: Jynx|62\/100
+|-damage|p2a: Jynx|43\/100
+|-hitcount|p2a: Jynx|3
+|
+|turn|29
+|choice||
+|
+|move|p1a: Jolteon|Pin Missile|p2a: Jynx
+|-supereffective|p2a: Jynx
+|-damage|p2a: Jynx|34\/100
+|-damage|p2a: Jynx|25\/100
+|-hitcount|p2a: Jynx|2
+|move|p2a: Jynx|Lovely Kiss|p1a: Jolteon
+|-status|p1a: Jolteon|slp
+|
+|turn|30
+|choice||
+|
+|-curestatus|p1a: Jolteon|slp
+|move|p2a: Jynx|Psychic|p1a: Jolteon
+|-damage|p1a: Jolteon|17\/100
+|-unboost|p1a: Jolteon|spd|1
+|-unboost|p1a: Jolteon|spa|1
+|
+|turn|31
+|choice||
+|
+|move|p1a: Jolteon|Body Slam|p2a: Jynx
+|-crit|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|choice||
+|
+|switch|p2a: Magnemite|Magnemite, L96|54\/100
+|turn|32
+|choice||
+|
+|switch|p1a: Golem|Golem, L79|100\/100
+|move|p2a: Magnemite|Mimic|p1a: Golem
+|-start|p2a: Magnemite|Mimic|Explosion
+|
+|turn|33
+|choice||
+|
+|move|p2a: Magnemite|Explosion|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|76\/100
+|faint|p2a: Magnemite
+|choice||
+|
+|switch|p2a: Nidoqueen|Nidoqueen, L85|8\/100
+|turn|34
+|choice||
+|
+|move|p2a: Nidoqueen|Blizzard|p1a: Golem|[miss]
+|-miss|p2a: Nidoqueen
+|move|p1a: Golem|Explosion|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|0 fnt
+|faint|p2a: Nidoqueen
+|faint|p1a: Golem
+|
+|win|Dervodel2
+|player|p1
+|player|p2
+|raw|Dervodel2's rating: 1400 &rarr; <strong>1423<\/strong><br \/>(+23 for winning)
+|raw|Azawa's rating: 1444 &rarr; <strong>1421<\/strong><br \/>(-23 for losing)

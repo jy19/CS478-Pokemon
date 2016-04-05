@@ -1,0 +1,394 @@
+﻿|join|Guillecefiro
+|join|yaldyyyy
+|player|p1|Guillecefiro|169
+|player|p2|yaldyyyy|169
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|17890,54601,44695,35215
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Golbat|Golbat, L90|318\/318
+|switch|p2a: Golem|Golem, L79|288\/288
+|turn|1
+|choice|switch 5|switch 3
+|
+|switch|p1a: Chansey|Chansey, L79|557\/557
+|switch|p2a: Muk|Muk, L90|372\/372
+|
+|turn|2
+|choice|move 4|move 3
+|
+|move|p2a: Muk|Screech|p1a: Chansey
+|-unboost|p1a: Chansey|def|2
+|move|p1a: Chansey|Ice Beam|p2a: Muk
+|-crit|p2a: Muk
+|-damage|p2a: Muk|237\/372
+|
+|turn|3
+|choice|move 4|move 3
+|
+|move|p2a: Muk|Screech|p1a: Chansey
+|-unboost|p1a: Chansey|def|2
+|move|p1a: Chansey|Ice Beam|p2a: Muk
+|-damage|p2a: Muk|170\/372
+|
+|turn|4
+|choice|switch 6|move 1
+|
+|switch|p1a: Blastoise|Blastoise, L85|308\/308
+|move|p2a: Muk|Explosion|p1a: Blastoise|[miss]
+|-miss|p2a: Muk
+|faint|p2a: Muk
+|c|★yaldyyyy|Ffs
+|choice||switch 4
+|
+|switch|p2a: Kadabra|Kadabra, L85|242\/242
+|turn|5
+|choice|move 4|move 2
+|
+|move|p2a: Kadabra|Thunder Wave|p1a: Blastoise
+|-status|p1a: Blastoise|par
+|move|p1a: Blastoise|Body Slam|p2a: Kadabra
+|-damage|p2a: Kadabra|148\/242
+|
+|turn|6
+|c|★yaldyyyy|That could not have gone worse
+|choice|move 2|move 1
+|
+|move|p2a: Kadabra|Psychic|p1a: Blastoise
+|-damage|p1a: Blastoise|191\/308 par
+|move|p1a: Blastoise|Earthquake|p2a: Kadabra
+|-damage|p2a: Kadabra|29\/242
+|
+|turn|7
+|choice|move 3|move 3
+|
+|move|p2a: Kadabra|Recover|p2a: Kadabra
+|-heal|p2a: Kadabra|150\/242
+|move|p1a: Blastoise|Rest|p1a: Blastoise
+|-status|p1a: Blastoise|slp
+|-heal|p1a: Blastoise|308\/308 slp|[silent]
+|-status|p1a: Blastoise|slp|[from] move: Rest
+|
+|turn|8
+|choice|move 3|move 3
+|
+|move|p2a: Kadabra|Recover|p2a: Kadabra
+|-heal|p2a: Kadabra|242\/242
+|cant|p1a: Blastoise|slp
+|
+|turn|9
+|choice|move 4|move 1
+|
+|move|p2a: Kadabra|Psychic|p1a: Blastoise
+|-crit|p1a: Blastoise
+|-damage|p1a: Blastoise|94\/308 slp
+|-curestatus|p1a: Blastoise|slp
+|
+|turn|10
+|choice|switch 4|move 1
+|
+|switch|p1a: Alakazam|Alakazam, L79|249\/249
+|move|p2a: Kadabra|Psychic|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|161\/249
+|
+|turn|11
+|choice|move 2|switch 2
+|
+|switch|p2a: Kingler|Kingler, L85|267\/267
+|move|p1a: Alakazam|Seismic Toss|p2a: Kingler
+|-damage|p2a: Kingler|188\/267
+|
+|turn|12
+|choice|move 1|move 1
+|
+|move|p1a: Alakazam|Psychic|p2a: Kingler
+|-damage|p2a: Kingler|45\/267
+|move|p2a: Kingler|Crabhammer|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|57\/249
+|
+|turn|13
+|choice|move 3|move 1
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|181\/249
+|move|p2a: Kingler|Crabhammer|p1a: Alakazam|[miss]
+|-miss|p2a: Kingler
+|
+|turn|14
+|choice|move 2|move 1
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Kingler
+|-damage|p2a: Kingler|0 fnt
+|faint|p2a: Kingler
+|choice||switch 5
+|
+|switch|p2a: Scyther|Scyther, L90|309\/309
+|turn|15
+|choice|move 1|move 1
+|
+|move|p2a: Scyther|Agility|p2a: Scyther
+|-boost|p2a: Scyther|spe|2
+|move|p1a: Alakazam|Psychic|p2a: Scyther
+|-crit|p2a: Scyther
+|-damage|p2a: Scyther|55\/309
+|
+|turn|16
+|choice|move 1|move 4
+|
+|move|p2a: Scyther|Hyper Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|choice|switch 6|
+|
+|switch|p1a: Chansey|Chansey, L79|557\/557
+|turn|17
+|choice|move 4|move 4
+|
+|move|p2a: Scyther|Hyper Beam|p1a: Chansey
+|-damage|p1a: Chansey|189\/557
+|move|p1a: Chansey|Ice Beam|p2a: Scyther
+|-supereffective|p2a: Scyther
+|-damage|p2a: Scyther|0 fnt
+|faint|p2a: Scyther
+|choice||switch 6
+|
+|switch|p2a: Arcanine|Arcanine, L85|327\/327
+|turn|18
+|choice|move 1|move 1
+|
+|move|p2a: Arcanine|Fire Blast|p1a: Chansey|[miss]
+|-miss|p2a: Arcanine
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|467\/557
+|
+|turn|19
+|c|★yaldyyyy|This is fucking ridiculous
+|choice|move 3|move 1
+|
+|move|p2a: Arcanine|Fire Blast|p1a: Chansey
+|-damage|p1a: Chansey|362\/557
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-start|p1a: Chansey|Reflect
+|
+|turn|20
+|choice|move 1|move 4
+|
+|move|p2a: Arcanine|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|272\/557
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|550\/557
+|
+|turn|21
+|choice|move 4|switch 2
+|
+|switch|p2a: Kadabra|Kadabra, L85|242\/242
+|move|p1a: Chansey|Ice Beam|p2a: Kadabra
+|-damage|p2a: Kadabra|193\/242
+|
+|turn|22
+|choice|move 4|move 1
+|
+|move|p2a: Kadabra|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|438\/557
+|move|p1a: Chansey|Ice Beam|p2a: Kadabra
+|-damage|p2a: Kadabra|145\/242
+|
+|turn|23
+|choice|move 4|move 1
+|
+|move|p2a: Kadabra|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|331\/557
+|move|p1a: Chansey|Ice Beam|p2a: Kadabra
+|-damage|p2a: Kadabra|93\/242
+|
+|turn|24
+|choice|move 1|move 2
+|
+|move|p2a: Kadabra|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|557\/557 par
+|
+|turn|25
+|choice|move 4|move 3
+|
+|move|p2a: Kadabra|Recover|p2a: Kadabra
+|-heal|p2a: Kadabra|214\/242
+|move|p1a: Chansey|Ice Beam|p2a: Kadabra
+|-damage|p2a: Kadabra|162\/242
+|-status|p2a: Kadabra|frz
+|
+|turn|26
+|c|★yaldyyyy|Yup
+|c|★yaldyyyy|of course
+|choice|move 4|move 1
+|
+|cant|p2a: Kadabra|frz
+|cant|p1a: Chansey|par
+|
+|turn|27
+|c|★Guillecefiro|Bye bye
+|choice|move 4|move 1
+|
+|cant|p2a: Kadabra|frz
+|cant|p1a: Chansey|par
+|
+|turn|28
+|choice|move 4|move 2
+|
+|cant|p2a: Kadabra|frz
+|cant|p1a: Chansey|par
+|
+|turn|29
+|choice|move 4|move 2
+|
+|cant|p2a: Kadabra|frz
+|move|p1a: Chansey|Ice Beam|p2a: Kadabra
+|-damage|p2a: Kadabra|115\/242 frz
+|
+|turn|30
+|choice|move 4|move 2
+|
+|cant|p2a: Kadabra|frz
+|move|p1a: Chansey|Ice Beam|p2a: Kadabra
+|-damage|p2a: Kadabra|67\/242 frz
+|
+|turn|31
+|choice|move 3|move 1
+|
+|cant|p2a: Kadabra|frz
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|
+|turn|32
+|choice|switch 2|move 1
+|
+|switch|p1a: Sandshrew|Sandshrew, L96|291\/291
+|cant|p2a: Kadabra|frz
+|
+|turn|33
+|choice|move 2|move 1
+|
+|cant|p2a: Kadabra|frz
+|move|p1a: Sandshrew|Rock Slide|p2a: Kadabra
+|-damage|p2a: Kadabra|0 fnt
+|faint|p2a: Kadabra
+|choice||switch 2
+|
+|switch|p2a: Arcanine|Arcanine, L85|327\/327
+|turn|34
+|choice|move 1|move 1
+|
+|move|p2a: Arcanine|Fire Blast|p1a: Sandshrew
+|-damage|p1a: Sandshrew|122\/291
+|move|p1a: Sandshrew|Earthquake|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|67\/327
+|
+|turn|35
+|choice|move 1|move 1
+|
+|move|p2a: Arcanine|Fire Blast|p1a: Sandshrew
+|-damage|p1a: Sandshrew|0 fnt
+|faint|p1a: Sandshrew
+|choice|switch 3|
+|
+|switch|p1a: Ninetales|Ninetales, L85|298\/298
+|turn|36
+|choice|move 3|move 4
+|
+|move|p1a: Ninetales|Body Slam|p2a: Arcanine
+|-damage|p2a: Arcanine|10\/327
+|move|p2a: Arcanine|Body Slam|p1a: Ninetales
+|-damage|p1a: Ninetales|224\/298
+|-status|p1a: Ninetales|par
+|
+|turn|37
+|choice|move 3|switch 3
+|
+|switch|p2a: Golem|Golem, L79|288\/288
+|cant|p1a: Ninetales|par
+|
+|turn|38
+|choice|move 2|move 2
+|
+|move|p2a: Golem|Rock Slide|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|52\/298 par
+|move|p1a: Ninetales|Confuse Ray|p2a: Golem
+|-start|p2a: Golem|confusion
+|
+|turn|39
+|choice|move 1|move 2
+|
+|-activate|p2a: Golem|confusion
+|move|p2a: Golem|Rock Slide|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|choice|switch 2|
+|
+|switch|p1a: Chansey|Chansey, L79|557\/557 par
+|turn|40
+|choice|move 4|move 4
+|
+|-activate|p2a: Golem|confusion
+|move|p2a: Golem|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|278\/557 par
+|move|p1a: Chansey|Ice Beam|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|112\/288
+|
+|turn|41
+|choice|move 1|move 4
+|
+|-end|p2a: Golem|confusion
+|move|p2a: Golem|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|28\/557 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|306\/557 par
+|
+|turn|42
+|choice|move 4|move 4
+|
+|move|p2a: Golem|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|28\/557 par
+|move|p1a: Chansey|Ice Beam|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|choice||switch 3
+|
+|switch|p2a: Arcanine|Arcanine, L85|10\/327
+|turn|43
+|c|★Guillecefiro|Bye
+|choice|move 4|move 4
+|
+|move|p2a: Arcanine|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|choice|switch 5|
+|
+|switch|p1a: Golbat|Golbat, L90|318\/318
+|turn|44
+|choice|move 1|move 1
+|
+|move|p1a: Golbat|Double-Edge|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|-damage|p1a: Golbat|316\/318|[from] recoil|[of] p2a: Arcanine
+|faint|p2a: Arcanine
+|
+|win|Guillecefiro
+|leave|yaldyyyy
+|player|p2
+|raw|Guillecefiro's rating: 1181 &rarr; <strong>1222<\/strong><br \/>(+41 for winning)
+|raw|yaldyyyy's rating: 1463 &rarr; <strong>1429<\/strong><br \/>(-34 for losing)

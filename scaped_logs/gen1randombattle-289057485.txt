@@ -1,0 +1,388 @@
+﻿|join|siijfosoj
+|join|jynx2000
+|player|p1|siijfosoj|170
+|player|p2|jynx2000|25
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|250,57007,35190,37367
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Paras|Paras, L96|262\/262
+|switch|p2a: Fearow|Fearow, L90|300\/300
+|turn|1
+|choice|switch 5|move 4
+|
+|switch|p1a: Nidorino|Nidorino, L90|293\/293
+|move|p2a: Fearow|Drill Peck|p1a: Nidorino
+|-damage|p1a: Nidorino|179\/293
+|
+|turn|2
+|choice|move 2|switch 6
+|
+|switch|p2a: Kadabra|Kadabra, L85|242\/242
+|move|p1a: Nidorino|Blizzard|p2a: Kadabra
+|-damage|p2a: Kadabra|186\/242
+|-status|p2a: Kadabra|frz
+|
+|turn|3
+|choice|move 4|switch 4
+|
+|switch|p2a: Ninetales|Ninetales, L85|298\/298
+|move|p1a: Nidorino|Substitute|p1a: Nidorino
+|-start|p1a: Nidorino|Substitute
+|-damage|p1a: Nidorino|106\/293
+|
+|turn|4
+|choice|move 1|move 1
+|
+|move|p2a: Ninetales|Fire Blast|p1a: Nidorino
+|-end|p1a: Nidorino|Substitute
+|move|p1a: Nidorino|Bubble Beam|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|230\/298
+|
+|turn|5
+|choice|move 3|move 1
+|
+|move|p2a: Ninetales|Fire Blast|p1a: Nidorino
+|-damage|p1a: Nidorino|0 fnt
+|faint|p1a: Nidorino
+|choice|switch 2|
+|
+|switch|p1a: Goldeen|Goldeen, L96|281\/281
+|turn|6
+|choice|move 3|switch 2
+|
+|switch|p2a: Psyduck|Psyduck, L96|291\/291
+|move|p1a: Goldeen|Toxic|p2a: Psyduck
+|-status|p2a: Psyduck|tox
+|
+|turn|7
+|choice|move 2|move 1
+|
+|move|p1a: Goldeen|Supersonic|p2a: Psyduck
+|-start|p2a: Psyduck|confusion
+|-activate|p2a: Psyduck|confusion
+|-damage|p2a: Psyduck|256\/291 tox|[from] confusion
+|-damage|p2a: Psyduck|238\/291 tox|[from] psn
+|
+|turn|8
+|choice|move 4|switch 4
+|
+|switch|p2a: Kadabra|Kadabra, L85|186\/242 frz
+|move|p1a: Goldeen|Double-Edge|p2a: Kadabra
+|-damage|p2a: Kadabra|57\/242 frz
+|-damage|p1a: Goldeen|249\/281|[from] recoil|[of] p2a: Kadabra
+|
+|turn|9
+|choice|move 1|move 3
+|
+|cant|p2a: Kadabra|frz
+|move|p1a: Goldeen|Agility|p1a: Goldeen
+|-boost|p1a: Goldeen|spe|2
+|
+|turn|10
+|choice|move 1|move 3
+|
+|move|p1a: Goldeen|Agility|p1a: Goldeen
+|-boost|p1a: Goldeen|spe|2
+|cant|p2a: Kadabra|frz
+|
+|turn|11
+|choice|move 2|move 3
+|
+|move|p1a: Goldeen|Supersonic|p2a: Kadabra
+|-start|p2a: Kadabra|confusion
+|cant|p2a: Kadabra|frz
+|
+|turn|12
+|choice|switch 4|move 3
+|
+|switch|p1a: Arcanine|Arcanine, L85|327\/327
+|cant|p2a: Kadabra|frz
+|
+|turn|13
+|choice|move 1|switch 2
+|
+|switch|p2a: Ninetales|Ninetales, L85|230\/298
+|move|p1a: Arcanine|Reflect|p1a: Arcanine
+|-start|p1a: Arcanine|Reflect
+|
+|turn|14
+|choice|move 2|move 3
+|
+|move|p2a: Ninetales|Toxic|p1a: Arcanine
+|-status|p1a: Arcanine|tox
+|move|p1a: Arcanine|Hyper Beam|p2a: Ninetales
+|-damage|p2a: Ninetales|90\/298
+|-damage|p1a: Arcanine|307\/327 tox|[from] tox|[of] p2a: Ninetales
+|
+|turn|15
+|-mustrecharge|p1a: Arcanine
+|-mustrecharge|p1a: Arcanine
+|choice|move 1|switch 3
+|
+|switch|p2a: Machoke|Machoke, L85|310\/310
+|cant|p1a: Arcanine|recharge
+|-damage|p1a: Arcanine|267\/327 tox|[from] tox|[of] p2a: Machoke
+|
+|turn|16
+|choice|switch 3|move 2
+|
+|switch|p1a: Tangela|Tangela, L85|284\/284
+|move|p2a: Machoke|Rock Slide|p1a: Tangela
+|-damage|p1a: Tangela|236\/284
+|
+|turn|17
+|choice|move 3|move 1
+|
+|move|p1a: Tangela|Sleep Powder|p2a: Machoke|[miss]
+|-miss|p1a: Tangela
+|move|p2a: Machoke|Double-Edge|p1a: Tangela
+|-damage|p1a: Tangela|178\/284
+|-damage|p2a: Machoke|296\/310|[from] recoil|[of] p1a: Tangela
+|
+|turn|18
+|choice|move 3|switch 4
+|
+|switch|p2a: Psyduck|Psyduck, L96|238\/291 tox
+|-status|p2a: Psyduck|psn
+|-damage|p2a: Psyduck|220\/291 psn|[from] psn
+|move|p1a: Tangela|Sleep Powder|p2a: Psyduck
+|-fail|p2a: Psyduck
+|
+|turn|19
+|choice|switch 4|move 3
+|
+|switch|p1a: Goldeen|Goldeen, L96|249\/281
+|move|p2a: Psyduck|Blizzard|p1a: Goldeen|[miss]
+|-miss|p2a: Psyduck
+|-damage|p2a: Psyduck|202\/291 psn|[from] psn|[of] p1a: Goldeen
+|
+|turn|20
+|choice|move 4|switch 2
+|
+|switch|p2a: Kadabra|Kadabra, L85|57\/242 frz
+|move|p1a: Goldeen|Double-Edge|p2a: Kadabra
+|-damage|p2a: Kadabra|0 fnt
+|-damage|p1a: Goldeen|235\/281|[from] recoil|[of] p2a: Kadabra
+|faint|p2a: Kadabra
+|choice||switch 5
+|
+|switch|p2a: Electrode|Electrode, L90|291\/291
+|turn|21
+|choice|switch 5|move 3
+|
+|switch|p1a: Paras|Paras, L96|262\/262
+|move|p2a: Electrode|Thunder|p1a: Paras
+|-crit|p1a: Paras
+|-resisted|p1a: Paras
+|-damage|p1a: Paras|114\/262
+|
+|turn|22
+|choice|move 2|switch 2
+|
+|switch|p2a: Psyduck|Psyduck, L96|202\/291 psn
+|-damage|p2a: Psyduck|184\/291 psn|[from] psn
+|move|p1a: Paras|Spore|p2a: Psyduck
+|-fail|p2a: Psyduck
+|
+|turn|23
+|choice|switch 5|move 3
+|
+|switch|p1a: Goldeen|Goldeen, L96|235\/281
+|move|p2a: Psyduck|Blizzard|p1a: Goldeen
+|-resisted|p1a: Goldeen
+|-damage|p1a: Goldeen|191\/281
+|-damage|p2a: Psyduck|166\/291 psn|[from] psn|[of] p1a: Goldeen
+|
+|turn|24
+|choice|move 4|switch 2
+|
+|switch|p2a: Electrode|Electrode, L90|291\/291
+|move|p1a: Goldeen|Double-Edge|p2a: Electrode
+|-damage|p2a: Electrode|218\/291
+|-damage|p1a: Goldeen|173\/281|[from] recoil|[of] p2a: Electrode
+|
+|turn|25
+|choice|switch 4|move 3
+|
+|switch|p1a: Tangela|Tangela, L85|178\/284
+|move|p2a: Electrode|Thunder|p1a: Tangela|[miss]
+|-miss|p2a: Electrode
+|
+|turn|26
+|choice|move 4|switch 2
+|
+|switch|p2a: Psyduck|Psyduck, L96|166\/291 psn
+|-damage|p2a: Psyduck|148\/291 psn|[from] psn
+|move|p1a: Tangela|Mega Drain|p2a: Psyduck
+|-supereffective|p2a: Psyduck
+|-damage|p2a: Psyduck|35\/291 psn
+|-heal|p1a: Tangela|234\/284|[from] drain|[of] p2a: Psyduck
+|
+|turn|27
+|choice|switch 4|move 3
+|
+|switch|p1a: Goldeen|Goldeen, L96|173\/281
+|move|p2a: Psyduck|Blizzard|p1a: Goldeen
+|-resisted|p1a: Goldeen
+|-damage|p1a: Goldeen|128\/281
+|-damage|p2a: Psyduck|17\/291 psn|[from] psn|[of] p1a: Goldeen
+|
+|turn|28
+|choice|move 4|move 3
+|
+|move|p1a: Goldeen|Double-Edge|p2a: Psyduck
+|-damage|p2a: Psyduck|0 fnt
+|-damage|p1a: Goldeen|124\/281|[from] recoil|[of] p2a: Psyduck
+|faint|p2a: Psyduck
+|choice||switch 6
+|
+|switch|p2a: Fearow|Fearow, L90|300\/300
+|turn|29
+|choice|move 1|move 2
+|
+|move|p2a: Fearow|Double-Edge|p1a: Goldeen
+|-crit|p1a: Goldeen
+|-damage|p1a: Goldeen|0 fnt
+|-damage|p2a: Fearow|269\/300|[from] recoil|[of] p1a: Goldeen
+|faint|p1a: Goldeen
+|choice|switch 3|
+|
+|switch|p1a: Arcanine|Arcanine, L85|267\/327 tox
+|-status|p1a: Arcanine|psn
+|turn|30
+|choice|move 3|switch 3
+|
+|switch|p2a: Ninetales|Ninetales, L85|90\/298
+|move|p1a: Arcanine|Fire Blast|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|41\/298
+|-damage|p1a: Arcanine|247\/327 psn|[from] psn|[of] p2a: Ninetales
+|
+|turn|31
+|choice|move 3|move 4
+|
+|move|p2a: Ninetales|Hyper Beam|p1a: Arcanine
+|-damage|p1a: Arcanine|151\/327 psn
+|move|p1a: Arcanine|Fire Blast|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|choice||switch 3
+|
+|switch|p2a: Fearow|Fearow, L90|269\/300
+|turn|32
+|choice|switch 5|move 4
+|
+|switch|p1a: Paras|Paras, L96|114\/262
+|move|p2a: Fearow|Drill Peck|p1a: Paras
+|-supereffective|p1a: Paras
+|-damage|p1a: Paras|0 fnt
+|faint|p1a: Paras
+|choice|switch 4|
+|
+|switch|p1a: Tangela|Tangela, L85|234\/284
+|turn|33
+|choice|move 3|switch 4
+|
+|switch|p2a: Machoke|Machoke, L85|296\/310
+|move|p1a: Tangela|Sleep Powder|p2a: Machoke
+|-status|p2a: Machoke|slp
+|
+|turn|34
+|choice|switch 6|switch 4
+|
+|switch|p1a: Kadabra|Kadabra, L85|242\/242
+|switch|p2a: Fearow|Fearow, L90|269\/300
+|
+|turn|35
+|choice|move 2|move 2
+|
+|move|p2a: Fearow|Double-Edge|p1a: Kadabra
+|-damage|p1a: Kadabra|33\/242
+|-damage|p2a: Fearow|217\/300|[from] recoil|[of] p1a: Kadabra
+|move|p1a: Kadabra|Thunder Wave|p2a: Fearow
+|-status|p2a: Fearow|par
+|
+|turn|36
+|choice|move 1|move 4
+|
+|move|p1a: Kadabra|Psychic|p2a: Fearow
+|-damage|p2a: Fearow|75\/300 par
+|move|p2a: Fearow|Drill Peck|p1a: Kadabra
+|-damage|p1a: Kadabra|0 fnt
+|faint|p1a: Kadabra
+|choice|switch 5|
+|
+|switch|p1a: Arcanine|Arcanine, L85|151\/327 psn
+|turn|37
+|choice|move 3|switch 2
+|
+|switch|p2a: Electrode|Electrode, L90|218\/291
+|move|p1a: Arcanine|Fire Blast|p2a: Electrode
+|-damage|p2a: Electrode|113\/291
+|-damage|p1a: Arcanine|131\/327 psn|[from] psn|[of] p2a: Electrode
+|
+|turn|38
+|choice|switch 6|move 3
+|
+|switch|p1a: Tangela|Tangela, L85|234\/284
+|move|p2a: Electrode|Thunder|p1a: Tangela
+|-resisted|p1a: Tangela
+|-damage|p1a: Tangela|175\/284
+|
+|turn|39
+|choice|move 2|switch 4
+|
+|switch|p2a: Machoke|Machoke, L85|296\/310 slp
+|move|p1a: Tangela|Body Slam|p2a: Machoke
+|-crit|p2a: Machoke
+|-damage|p2a: Machoke|202\/310 slp
+|
+|turn|40
+|choice|move 4|move 1
+|
+|move|p1a: Tangela|Mega Drain|p2a: Machoke
+|-damage|p2a: Machoke|141\/310 slp
+|-heal|p1a: Tangela|205\/284|[from] drain|[of] p2a: Machoke
+|cant|p2a: Machoke|slp
+|
+|turn|41
+|choice|move 4|switch 4
+|
+|switch|p2a: Electrode|Electrode, L90|113\/291
+|move|p1a: Tangela|Mega Drain|p2a: Electrode
+|-damage|p2a: Electrode|65\/291
+|-heal|p1a: Tangela|229\/284|[from] drain|[of] p2a: Electrode
+|
+|turn|42
+|choice|move 2|move 1
+|
+|move|p2a: Electrode|Explosion|p1a: Tangela
+|-damage|p1a: Tangela|66\/284
+|faint|p2a: Electrode
+|choice||switch 2
+|
+|switch|p2a: Fearow|Fearow, L90|75\/300 par
+|turn|43
+|choice|move 1|move 4
+|
+|move|p1a: Tangela|Hyper Beam|p2a: Fearow
+|-crit|p2a: Fearow
+|-damage|p2a: Fearow|0 fnt
+|faint|p2a: Fearow
+|c|★siijfosoj|lmfao thats how you outplay someone with a WAY better team
+|-message|jynx2000 forfeited.
+|
+|win|siijfosoj
+|leave|jynx2000
+|player|p2
+|raw|siijfosoj's rating: 1134 &rarr; <strong>1176<\/strong><br \/>(+42 for winning)
+|raw|jynx2000's rating: 1419 &rarr; <strong>1385<\/strong><br \/>(-34 for losing)

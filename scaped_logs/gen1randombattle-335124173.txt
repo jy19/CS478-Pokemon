@@ -1,0 +1,233 @@
+﻿|j|Mandelbrot
+|j|pimaxiu
+|player|p1|Mandelbrot|60
+|player|p2|pimaxiu|169
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jolteon|Jolteon, L79|100\/100
+|switch|p2a: Magnemite|Magnemite, L96|100\/100
+|turn|1
+|c|★Mandelbrot|gl hf
+|choice||
+|
+|switch|p1a: Sandslash|Sandslash, L85|100\/100
+|move|p2a: Magnemite|Thunder Wave|p1a: Sandslash
+|-immune|p1a: Sandslash|[msg]
+|
+|turn|2
+|c|★pimaxiu|huh
+|c|★Mandelbrot|good luck have fun!
+|choice||
+|
+|switch|p2a: Fearow|Fearow, L90|100\/100
+|move|p1a: Sandslash|Substitute|p1a: Sandslash
+|-start|p1a: Sandslash|Substitute
+|-damage|p1a: Sandslash|76\/100
+|
+|turn|3
+|choice||
+|
+|move|p2a: Fearow|Drill Peck|p1a: Sandslash
+|-end|p1a: Sandslash|Substitute
+|move|p1a: Sandslash|Rock Slide|p2a: Fearow
+|-supereffective|p2a: Fearow
+|-damage|p2a: Fearow|56\/100
+|
+|turn|4
+|choice||
+|
+|switch|p2a: Vaporeon|Vaporeon, L85|100\/100
+|move|p1a: Sandslash|Rock Slide|p2a: Vaporeon
+|-damage|p2a: Vaporeon|82\/100
+|
+|turn|5
+|choice||
+|
+|switch|p1a: Jolteon|Jolteon, L79|100\/100
+|move|p2a: Vaporeon|Hydro Pump|p1a: Jolteon
+|-damage|p1a: Jolteon|48\/100
+|
+|turn|6
+|choice||
+|
+|switch|p2a: Golem|Golem, L79|100\/100
+|move|p1a: Jolteon|Thunderbolt|p2a: Golem
+|-immune|p2a: Golem|[msg]
+|
+|turn|7
+|choice||
+|
+|switch|p1a: Mew|Mew, L74|100\/100
+|move|p2a: Golem|Earthquake|p1a: Mew
+|-damage|p1a: Mew|63\/100
+|
+|turn|8
+|choice||
+|
+|move|p1a: Mew|Swords Dance|p1a: Mew
+|-boost|p1a: Mew|atk|2
+|move|p2a: Golem|Explosion|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|faint|p2a: Golem
+|choice||
+|
+|switch|p1a: Sandslash|Sandslash, L85|76\/100
+|switch|p2a: Magnemite|Magnemite, L96|100\/100
+|turn|9
+|choice||
+|
+|switch|p2a: Vaporeon|Vaporeon, L85|82\/100
+|move|p1a: Sandslash|Rock Slide|p2a: Vaporeon
+|-damage|p2a: Vaporeon|64\/100
+|
+|turn|10
+|choice||
+|
+|switch|p1a: Kadabra|Kadabra, L85|100\/100
+|move|p2a: Vaporeon|Hydro Pump|p1a: Kadabra
+|-damage|p1a: Kadabra|56\/100
+|
+|turn|11
+|choice||
+|
+|move|p1a: Kadabra|Thunder Wave|p2a: Vaporeon
+|-status|p2a: Vaporeon|par
+|move|p2a: Vaporeon|Blizzard|p1a: Kadabra
+|-crit|p1a: Kadabra
+|-damage|p1a: Kadabra|0 fnt
+|faint|p1a: Kadabra
+|choice||
+|
+|switch|p1a: Jolteon|Jolteon, L79|48\/100
+|turn|12
+|choice||
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|19\/100 par
+|move|p2a: Vaporeon|Blizzard|p1a: Jolteon
+|-damage|p1a: Jolteon|14\/100
+|
+|turn|13
+|choice||
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|faint|p2a: Vaporeon
+|choice||
+|
+|switch|p2a: Magnemite|Magnemite, L96|100\/100
+|turn|14
+|choice||
+|
+|switch|p1a: Sandslash|Sandslash, L85|76\/100
+|move|p2a: Magnemite|Double-Edge|p1a: Sandslash
+|-crit|p1a: Sandslash
+|-damage|p1a: Sandslash|48\/100
+|-damage|p2a: Magnemite|92\/100|[from] recoil|[of] p1a: Sandslash
+|
+|turn|15
+|choice||
+|
+|switch|p2a: Primeape|Primeape, L90|100\/100
+|move|p1a: Sandslash|Earthquake|p2a: Primeape
+|-damage|p2a: Primeape|59\/100
+|
+|turn|16
+|choice||
+|
+|move|p2a: Primeape|Hyper Beam|p1a: Sandslash
+|-damage|p1a: Sandslash|9\/100
+|move|p1a: Sandslash|Earthquake|p2a: Primeape
+|-crit|p2a: Primeape
+|-damage|p2a: Primeape|0 fnt
+|faint|p2a: Primeape
+|choice||
+|
+|switch|p2a: Fearow|Fearow, L90|56\/100
+|turn|17
+|choice||
+|
+|move|p2a: Fearow|Drill Peck|p1a: Sandslash
+|-damage|p1a: Sandslash|0 fnt
+|faint|p1a: Sandslash
+|choice||
+|
+|switch|p1a: Jolteon|Jolteon, L79|14\/100
+|turn|18
+|choice||
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Fearow
+|-supereffective|p2a: Fearow
+|-damage|p2a: Fearow|0 fnt
+|faint|p2a: Fearow
+|choice||
+|
+|switch|p2a: Beedrill|Beedrill, L90|100\/100
+|turn|19
+|choice||
+|
+|move|p1a: Jolteon|Thunder Wave|p2a: Beedrill
+|-status|p2a: Beedrill|par
+|move|p2a: Beedrill|Swords Dance|p2a: Beedrill
+|-boost|p2a: Beedrill|atk|2
+|
+|turn|20
+|choice||
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Beedrill
+|-crit|p2a: Beedrill
+|-damage|p2a: Beedrill|19\/100 par
+|move|p2a: Beedrill|Agility|p2a: Beedrill
+|-boost|p2a: Beedrill|spe|2
+|
+|turn|21
+|choice||
+|
+|move|p2a: Beedrill|Hyper Beam|p1a: Jolteon|[miss]
+|-miss|p2a: Beedrill
+|move|p1a: Jolteon|Thunderbolt|p2a: Beedrill
+|-crit|p2a: Beedrill
+|-damage|p2a: Beedrill|0 fnt
+|faint|p2a: Beedrill
+|choice||
+|
+|switch|p2a: Magnemite|Magnemite, L96|92\/100
+|turn|22
+|choice||
+|
+|move|p1a: Jolteon|Thunder Wave|p2a: Magnemite
+|-status|p2a: Magnemite|par
+|move|p2a: Magnemite|Double-Edge|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|-damage|p2a: Magnemite|89\/100 par|[from] recoil|[of] p1a: Jolteon
+|faint|p1a: Jolteon
+|choice||
+|
+|switch|p1a: Muk|Muk, L90|100\/100
+|turn|23
+|choice||
+|
+|move|p1a: Muk|Explosion|p2a: Magnemite
+|-damage|p2a: Magnemite|0 fnt
+|faint|p2a: Magnemite
+|faint|p1a: Muk
+|
+|win|Mandelbrot
+|player|p1
+|player|p2
+|raw|Mandelbrot's rating: 1301 &rarr; <strong>1321<\/strong><br \/>(+20 for winning)
+|raw|pimaxiu's rating: 1300 &rarr; <strong>1281<\/strong><br \/>(-19 for losing)
+|c|★Mandelbrot|gg
+|c|★pimaxiu|gg
+|l|pimaxiu

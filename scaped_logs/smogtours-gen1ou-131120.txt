@@ -1,0 +1,507 @@
+﻿|J|Tesung
+|J|Nails
+|player|p1|Tesung|101
+|player|p2|Nails|282
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|seed|63706,44849,61828,3818
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: SOULGAZER|Alakazam|313\/313
+|switch|p2a: Jynx|Jynx|333\/333
+|turn|1
+|J|Zefir0s
+|choice|move 4|move 1
+|
+|move|p1a: SOULGAZER|Thunder Wave|p2a: Jynx
+|-status|p2a: Jynx|par
+|move|p2a: Jynx|Lovely Kiss|p1a: SOULGAZER
+|-status|p1a: SOULGAZER|slp
+|
+|turn|2
+|choice|move 1|move 2
+|
+|cant|p1a: SOULGAZER|slp
+|cant|p2a: Jynx|par
+|
+|turn|3
+|J|weiner muncher
+|choice|move 1|move 2
+|
+|cant|p1a: SOULGAZER|slp
+|move|p2a: Jynx|Blizzard|p1a: SOULGAZER
+|-damage|p1a: SOULGAZER|210\/313 slp
+|
+|turn|4
+|L|weiner muncher
+|choice|switch 2|move 2
+|
+|switch|p1a: TESUNG|Chansey|703\/703
+|cant|p2a: Jynx|par
+|
+|turn|5
+|choice|move 3|move 2
+|
+|move|p1a: TESUNG|Thunderbolt|p2a: Jynx
+|-damage|p2a: Jynx|250\/333 par
+|move|p2a: Jynx|Blizzard|p1a: TESUNG
+|-damage|p1a: TESUNG|566\/703
+|
+|turn|6
+|choice|move 3|move 2
+|
+|move|p1a: TESUNG|Thunderbolt|p2a: Jynx
+|-crit|p2a: Jynx
+|-damage|p2a: Jynx|82\/333 par
+|move|p2a: Jynx|Blizzard|p1a: TESUNG
+|-damage|p1a: TESUNG|424\/703
+|
+|turn|7
+|choice|move 1|switch 3
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: TESUNG|Soft-Boiled|p1a: TESUNG
+|-heal|p1a: TESUNG|703\/703
+|
+|turn|8
+|J|Smallllls
+|choice|switch 2|move 1
+|
+|switch|p1a: SOULGAZER|Alakazam|210\/313 slp
+|move|p2a: Chansey|Ice Beam|p1a: SOULGAZER
+|-damage|p1a: SOULGAZER|143\/313 slp
+|
+|turn|9
+|choice|move 2|switch 4
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|-curestatus|p1a: SOULGAZER|slp
+|
+|turn|10
+|J|LuckyRyu
+|c|★Tesung|-
+|choice|move 4|move 1
+|
+|move|p1a: SOULGAZER|Thunder Wave|p2a: Tauros
+|-status|p2a: Tauros|par
+|move|p2a: Tauros|Body Slam|p1a: SOULGAZER
+|-damage|p1a: SOULGAZER|0 fnt
+|faint|p1a: SOULGAZER
+|choice|switch 5|
+|
+|switch|p1a: PAPAI NOEL|Lapras|463\/463
+|turn|11
+|choice|move 1|switch 4
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: PAPAI NOEL|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|563\/703
+|
+|turn|12
+|J|Hyssou
+|L|Hyssou
+|J|Bomber
+|L|Bomber
+|c|★Nails|¿¯¿
+|J|TFC
+|L|Smallllls
+|c|★Tesung|was calcing
+|c|★Tesung|jk parents sry bout that
+|choice|move 2|move 2
+|
+|move|p1a: PAPAI NOEL|Sing|p2a: Chansey|[miss]
+|-miss|p1a: PAPAI NOEL
+|move|p2a: Chansey|Thunderbolt|p1a: PAPAI NOEL
+|-supereffective|p1a: PAPAI NOEL
+|-damage|p1a: PAPAI NOEL|291\/463
+|
+|turn|13
+|c|★Nails|were u calcing my chansey evs
+|c|★Nails|(i'm max)
+|choice|move 2|move 2
+|
+|move|p1a: PAPAI NOEL|Sing|p2a: Chansey
+|-status|p2a: Chansey|slp
+|cant|p2a: Chansey|slp
+|
+|turn|14
+|choice|move 1|move 2
+|
+|move|p1a: PAPAI NOEL|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|439\/703 slp
+|cant|p2a: Chansey|slp
+|
+|turn|15
+|choice|move 1|switch 2
+|
+|switch|p2a: Lapras|Lapras|463\/463
+|move|p1a: PAPAI NOEL|Blizzard|p2a: Lapras
+|-resisted|p2a: Lapras
+|-damage|p2a: Lapras|430\/463
+|
+|turn|16
+|choice|switch 2|move 2
+|
+|switch|p1a: TESUNG|Chansey|703\/703
+|move|p2a: Lapras|Thunderbolt|p1a: TESUNG
+|-crit|p1a: TESUNG
+|-damage|p1a: TESUNG|558\/703
+|
+|turn|17
+|choice|move 4|switch 2
+|
+|switch|p2a: Chansey|Chansey|439\/703 slp
+|move|p1a: TESUNG|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|turn|18
+|choice|switch 3|move 2
+|
+|switch|p1a: DOPPELSOLDNER|Snorlax|523\/523
+|cant|p2a: Chansey|slp
+|
+|turn|19
+|choice|move 2|switch 5
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: DOPPELSOLDNER|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|382\/523
+|
+|turn|20
+|choice|move 2|move 1
+|
+|move|p1a: DOPPELSOLDNER|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|246\/523
+|move|p2a: Snorlax|Reflect|p2a: Snorlax
+|-start|p2a: Snorlax|Reflect
+|
+|turn|21
+|choice|switch 2|move 3
+|
+|switch|p1a: PAPAI NOEL|Lapras|291\/463
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|
+|turn|22
+|choice|switch 3|move 4
+|
+|switch|p1a: TESUNG|Chansey|558\/703
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp
+|-heal|p2a: Snorlax|523\/523 slp|[silent]
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|
+|turn|23
+|choice|move 2|move 3
+|
+|move|p1a: TESUNG|Ice Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|475\/523 slp
+|cant|p2a: Snorlax|slp
+|
+|turn|24
+|choice|move 2|move 3
+|
+|move|p1a: TESUNG|Ice Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|422\/523 slp
+|-curestatus|p2a: Snorlax|slp
+|
+|turn|25
+|choice|move 4|move 2
+|
+|move|p1a: TESUNG|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|cant|p2a: Snorlax|par
+|
+|turn|26
+|choice|move 3|move 3
+|
+|move|p1a: TESUNG|Thunderbolt|p2a: Snorlax
+|-damage|p2a: Snorlax|368\/523 par
+|cant|p2a: Snorlax|par
+|
+|turn|27
+|choice|move 1|move 3
+|
+|move|p1a: TESUNG|Soft-Boiled|p1a: TESUNG
+|-heal|p1a: TESUNG|703\/703
+|cant|p2a: Snorlax|par
+|
+|turn|28
+|choice|move 3|move 3
+|
+|move|p1a: TESUNG|Thunderbolt|p2a: Snorlax
+|-damage|p2a: Snorlax|319\/523 par
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|
+|turn|29
+|choice|move 2|move 3
+|
+|move|p1a: TESUNG|Ice Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|284\/523 par
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|
+|turn|30
+|choice|move 2|move 4
+|
+|move|p1a: TESUNG|Ice Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|259\/523 par
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp
+|-heal|p2a: Snorlax|523\/523 slp|[silent]
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|
+|turn|31
+|choice|move 4|move 2
+|
+|move|p1a: TESUNG|Thunder Wave|p2a: Snorlax
+|-fail|p2a: Snorlax
+|cant|p2a: Snorlax|slp
+|
+|turn|32
+|choice|move 4|move 2
+|
+|move|p1a: TESUNG|Thunder Wave|p2a: Snorlax
+|-fail|p2a: Snorlax
+|-curestatus|p2a: Snorlax|slp
+|
+|turn|33
+|choice|move 4|move 2
+|
+|move|p1a: TESUNG|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|move|p2a: Snorlax|Ice Beam|p1a: TESUNG
+|-damage|p1a: TESUNG|489\/703
+|
+|turn|34
+|choice|move 4|move 2
+|
+|move|p1a: TESUNG|Thunder Wave|p2a: Snorlax
+|-fail|p2a: Snorlax|par
+|move|p2a: Snorlax|Ice Beam|p1a: TESUNG
+|-damage|p1a: TESUNG|252\/703
+|
+|turn|35
+|choice|move 1|move 2
+|
+|move|p1a: TESUNG|Soft-Boiled|p1a: TESUNG
+|-heal|p1a: TESUNG|603\/703
+|move|p2a: Snorlax|Ice Beam|p1a: TESUNG
+|-damage|p1a: TESUNG|400\/703
+|
+|turn|36
+|choice|move 1|move 2
+|
+|move|p1a: TESUNG|Soft-Boiled|p1a: TESUNG
+|-heal|p1a: TESUNG|703\/703
+|move|p2a: Snorlax|Ice Beam|p1a: TESUNG
+|-damage|p1a: TESUNG|479\/703
+|-status|p1a: TESUNG|frz
+|
+|turn|37
+|c|★Nails|get froze, Bitch.
+|choice|switch 3|move 2
+|
+|switch|p1a: PAPAI NOEL|Lapras|291\/463
+|move|p2a: Snorlax|Ice Beam|p1a: PAPAI NOEL
+|-resisted|p1a: PAPAI NOEL
+|-damage|p1a: PAPAI NOEL|230\/463
+|
+|turn|38
+|choice|move 1|move 2
+|
+|move|p1a: PAPAI NOEL|Blizzard|p2a: Snorlax
+|-damage|p2a: Snorlax|480\/523 par
+|cant|p2a: Snorlax|par
+|
+|turn|39
+|choice|move 1|move 2
+|
+|move|p1a: PAPAI NOEL|Blizzard|p2a: Snorlax
+|-damage|p2a: Snorlax|434\/523 par
+|move|p2a: Snorlax|Ice Beam|p1a: PAPAI NOEL
+|-resisted|p1a: PAPAI NOEL
+|-damage|p1a: PAPAI NOEL|175\/463
+|
+|turn|40
+|choice|move 1|move 2
+|
+|move|p1a: PAPAI NOEL|Blizzard|p2a: Snorlax
+|-damage|p2a: Snorlax|389\/523 par
+|move|p2a: Snorlax|Ice Beam|p1a: PAPAI NOEL
+|-resisted|p1a: PAPAI NOEL
+|-damage|p1a: PAPAI NOEL|119\/463
+|
+|turn|41
+|choice|move 1|move 4
+|
+|move|p1a: PAPAI NOEL|Blizzard|p2a: Snorlax
+|-damage|p2a: Snorlax|344\/523 par
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp
+|-heal|p2a: Snorlax|523\/523 slp|[silent]
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|
+|turn|42
+|choice|switch 4|move 2
+|
+|switch|p1a: SHAKEITUP|Tauros|353\/353
+|cant|p2a: Snorlax|slp
+|
+|turn|43
+|choice|move 3|move 2
+|
+|move|p1a: SHAKEITUP|Body Slam|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|255\/523 slp
+|-curestatus|p2a: Snorlax|slp
+|
+|turn|44
+|choice|move 3|move 2
+|
+|move|p1a: SHAKEITUP|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|188\/523
+|move|p2a: Snorlax|Ice Beam|p1a: SHAKEITUP
+|-damage|p1a: SHAKEITUP|81\/353
+|
+|turn|45
+|choice|move 3|move 4
+|
+|move|p1a: SHAKEITUP|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|124\/523
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp
+|-heal|p2a: Snorlax|523\/523 slp|[silent]
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|
+|turn|46
+|L|Zefir0s
+|choice|move 3|move 2
+|
+|move|p1a: SHAKEITUP|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|462\/523 slp
+|cant|p2a: Snorlax|slp
+|
+|turn|47
+|choice|move 3|move 2
+|
+|move|p1a: SHAKEITUP|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|394\/523 slp
+|-curestatus|p2a: Snorlax|slp
+|
+|turn|48
+|c|★Tesung|crit
+|choice|move 2|move 2
+|
+|move|p1a: SHAKEITUP|Hyper Beam|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|c|★Tesung|good
+|c|★Nails|damn.
+|J|Bomber
+|choice||switch 6
+|
+|switch|p2a: Jolteon|Jolteon|333\/333
+|turn|49
+|choice|switch 3|move 2
+|
+|switch|p1a: TESUNG|Chansey|479\/703 frz
+|move|p2a: Jolteon|Double Kick|p1a: TESUNG
+|-supereffective|p1a: TESUNG
+|-damage|p1a: TESUNG|371\/703 frz
+|-damage|p1a: TESUNG|263\/703 frz
+|-hitcount|p1a: TESUNG|2
+|
+|turn|50
+|J|Purrl
+|choice|move 2|move 1
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: TESUNG
+|-damage|p1a: TESUNG|145\/703 frz
+|cant|p1a: TESUNG|frz
+|
+|turn|51
+|choice|move 2|switch 3
+|
+|switch|p2a: Jynx|Jynx|82\/333 par
+|cant|p1a: TESUNG|frz
+|
+|turn|52
+|choice|switch 2|move 1
+|
+|switch|p1a: DOPPELSOLDNER|Snorlax|523\/523
+|move|p2a: Jynx|Lovely Kiss|p1a: DOPPELSOLDNER|[miss]
+|-miss|p2a: Jynx
+|
+|turn|53
+|c|★Nails|rude
+|c|★Tesung|.trl
+|choice|move 2|move 1
+|
+|move|p1a: DOPPELSOLDNER|Body Slam|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|choice||switch 2
+|
+|switch|p2a: Lapras|Lapras|430\/463
+|turn|54
+|choice|move 2|move 1
+|
+|move|p2a: Lapras|Blizzard|p1a: DOPPELSOLDNER
+|-damage|p1a: DOPPELSOLDNER|344\/523
+|move|p1a: DOPPELSOLDNER|Body Slam|p2a: Lapras
+|-damage|p2a: Lapras|315\/463
+|-status|p2a: Lapras|par
+|
+|turn|55
+|choice|move 2|move 2
+|
+|move|p1a: DOPPELSOLDNER|Body Slam|p2a: Lapras
+|-damage|p2a: Lapras|186\/463 par
+|move|p2a: Lapras|Thunderbolt|p1a: DOPPELSOLDNER
+|-damage|p1a: DOPPELSOLDNER|254\/523
+|
+|turn|56
+|choice|move 1|move 1
+|
+|move|p1a: DOPPELSOLDNER|Hyper Beam|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|choice||switch 3
+|
+|switch|p2a: Jolteon|Jolteon|333\/333
+|turn|57
+|choice|move 3|move 1
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: DOPPELSOLDNER
+|-crit|p1a: DOPPELSOLDNER
+|-damage|p1a: DOPPELSOLDNER|0 fnt
+|faint|p1a: DOPPELSOLDNER
+|choice|switch 6|
+|
+|switch|p1a: PDC|Exeggutor|393\/393
+|turn|58
+|choice|move 4|switch 5
+|
+|switch|p2a: Chansey|Chansey|439\/703 slp
+|move|p1a: PDC|Explosion|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|faint|p1a: PDC
+|c|★Tesung|gg
+|c|★Nails|g_g
+|-message|Tesung forfeited.
+|
+|win|Nails

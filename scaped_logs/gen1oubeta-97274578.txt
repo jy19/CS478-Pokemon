@@ -1,0 +1,244 @@
+﻿|join|kid gf lol
+|join|luc1993
+|player|p1|kid gf lol|167
+|player|p2|luc1993|153
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|switch|p1a: Zam Lead|Alakazam|313\/313
+|switch|p2a: Venusaur|Venusaur|363\/363
+|turn|1
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Zam Lead|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|577\/703
+|
+|turn|2
+|
+|switch|p1a: Breakfast Pouch|Chansey|703\/703
+|switch|p2a: Venusaur|Venusaur|363\/363
+|
+|turn|3
+|
+|switch|p1a: Zam Lead|Alakazam|313\/313
+|move|p2a: Venusaur|Sleep Powder|p1a: Zam Lead
+|-status|p1a: Zam Lead|slp
+|
+|turn|4
+|
+|switch|p1a: Result of Incest|Exeggutor|393\/393
+|move|p2a: Venusaur|Body Slam|p1a: Result of Incest
+|-crit|p1a: Result of Incest
+|-damage|p1a: Result of Incest|273\/393
+|-status|p1a: Result of Incest|par
+|
+|turn|5
+|
+|switch|p2a: Lapras|Lapras|463\/463
+|move|p1a: Result of Incest|Sleep Powder|p2a: Lapras
+|-status|p2a: Lapras|slp
+|
+|turn|6
+|
+|switch|p2a: Chansey|Chansey|577\/703
+|cant|p1a: Result of Incest|par
+|
+|turn|7
+|
+|switch|p1a: Glutton|Snorlax|523\/523
+|move|p2a: Chansey|Ice Beam|p1a: Glutton
+|-damage|p1a: Glutton|426\/523
+|
+|turn|8
+|
+|move|p1a: Glutton|Earthquake|p2a: Chansey
+|-damage|p2a: Chansey|333\/703
+|move|p2a: Chansey|Counter|p1a: Glutton
+|-fail|p2a: Chansey
+|
+|turn|9
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Glutton|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|389\/523
+|
+|turn|10
+|
+|move|p2a: Snorlax|Body Slam|p1a: Glutton
+|-damage|p1a: Glutton|285\/523
+|move|p1a: Glutton|Self-Destruct|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|faint|p1a: Glutton
+|
+|switch|p1a: That's Bull|Tauros|353\/353
+|switch|p2a: Chansey|Chansey|333\/703
+|turn|11
+|
+|switch|p2a: Venusaur|Venusaur|363\/363
+|move|p1a: That's Bull|Blizzard|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|209\/363
+|
+|turn|12
+|
+|move|p1a: That's Bull|Hyper Beam|p2a: Venusaur
+|-damage|p2a: Venusaur|2\/363
+|move|p2a: Venusaur|Razor Leaf|p1a: That's Bull
+|-crit|p1a: That's Bull
+|-damage|p1a: That's Bull|189\/353
+|
+|turn|13
+|
+|cant|p1a: That's Bull|recharge
+|move|p2a: Venusaur|Body Slam|p1a: That's Bull
+|-damage|p1a: That's Bull|133\/353
+|-status|p1a: That's Bull|par
+|
+|turn|14
+|
+|switch|p1a: Result of Incest|Exeggutor|273\/393 par
+|move|p2a: Venusaur|Razor Leaf|p1a: Result of Incest
+|-crit|p1a: Result of Incest
+|-resisted|p1a: Result of Incest
+|-damage|p1a: Result of Incest|213\/393 par
+|
+|turn|15
+|
+|move|p2a: Venusaur|Razor Leaf|p1a: Result of Incest
+|-crit|p1a: Result of Incest
+|-resisted|p1a: Result of Incest
+|-damage|p1a: Result of Incest|160\/393 par
+|cant|p1a: Result of Incest|par
+|
+|turn|16
+|
+|move|p2a: Venusaur|Razor Leaf|p1a: Result of Incest
+|-crit|p1a: Result of Incest
+|-resisted|p1a: Result of Incest
+|-damage|p1a: Result of Incest|106\/393 par
+|move|p1a: Result of Incest|Psychic|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|faint|p2a: Venusaur
+|
+|
+|switch|p2a: Chansey|Chansey|333\/703
+|turn|17
+|
+|move|p2a: Chansey|Ice Beam|p1a: Result of Incest
+|-supereffective|p1a: Result of Incest
+|-damage|p1a: Result of Incest|0 fnt
+|faint|p1a: Result of Incest
+|
+|
+|switch|p1a: Breakfast Pouch|Chansey|703\/703
+|turn|18
+|
+|move|p1a: Breakfast Pouch|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|258\/703
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|609\/703
+|
+|turn|19
+|
+|move|p2a: Chansey|Ice Beam|p1a: Breakfast Pouch
+|-damage|p1a: Breakfast Pouch|635\/703
+|move|p1a: Breakfast Pouch|Ice Beam|p2a: Chansey|[miss]
+|-miss|p1a: Breakfast Pouch
+|
+|turn|20
+|
+|move|p2a: Chansey|Ice Beam|p1a: Breakfast Pouch
+|-damage|p1a: Breakfast Pouch|557\/703
+|move|p1a: Breakfast Pouch|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|536\/703
+|
+|turn|21
+|
+|move|p2a: Chansey|Ice Beam|p1a: Breakfast Pouch
+|-damage|p1a: Breakfast Pouch|485\/703
+|move|p1a: Breakfast Pouch|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|456\/703
+|
+|turn|22
+|
+|move|p2a: Chansey|Ice Beam|p1a: Breakfast Pouch
+|-damage|p1a: Breakfast Pouch|411\/703
+|-status|p1a: Breakfast Pouch|frz
+|cant|p1a: Breakfast Pouch|frz
+|
+|turn|23
+|
+|switch|p1a: Zam Lead|Alakazam|313\/313 slp
+|switch|p2a: Rhydon|Rhydon|413\/413
+|
+|turn|24
+|
+|switch|p1a: Breakfast Pouch|Chansey|411\/703 frz
+|move|p2a: Rhydon|Earthquake|p1a: Breakfast Pouch
+|-damage|p1a: Breakfast Pouch|33\/703 frz
+|
+|turn|25
+|
+|cant|p1a: Breakfast Pouch|frz
+|move|p2a: Rhydon|Substitute|p2a: Rhydon
+|-start|p2a: Rhydon|Substitute
+|-damage|p2a: Rhydon|310\/413
+|
+|turn|26
+|
+|cant|p1a: Breakfast Pouch|frz
+|move|p2a: Rhydon|Body Slam|p1a: Breakfast Pouch
+|-damage|p1a: Breakfast Pouch|0 fnt
+|faint|p1a: Breakfast Pouch
+|
+|
+|switch|p1a: LOL|Moltres|383\/383
+|turn|27
+|
+|move|p1a: LOL|Fire Spin|p2a: Rhydon|[miss]
+|-miss|p1a: LOL
+|move|p2a: Rhydon|Rock Slide|p1a: LOL
+|-supereffective|p1a: LOL
+|-damage|p1a: LOL|0 fnt
+|faint|p1a: LOL
+|
+|
+|switch|p1a: That's Bull|Tauros|133\/353 par
+|turn|28
+|
+|move|p2a: Rhydon|Earthquake|p1a: That's Bull
+|-damage|p1a: That's Bull|0 fnt
+|faint|p1a: That's Bull
+|
+|
+|switch|p1a: Zam Lead|Alakazam|313\/313 slp
+|turn|29
+|
+|cant|p1a: Zam Lead|slp
+|move|p2a: Rhydon|Earthquake|p1a: Zam Lead
+|-damage|p1a: Zam Lead|87\/313 slp
+|
+|turn|30
+|
+|cant|p1a: Zam Lead|slp
+|move|p2a: Rhydon|Earthquake|p1a: Zam Lead
+|-damage|p1a: Zam Lead|0 fnt
+|faint|p1a: Zam Lead
+|
+|win|luc1993
+|raw|Ladder updating...
+|raw|kid gf lol's rating: 1275 &rarr; <strong>1255<\/strong><br \/>(-20 for losing)
+|raw|luc1993's rating: 1351 &rarr; <strong>1366<\/strong><br \/>(+15 for winning)
+|chat|luc1993|gg

@@ -1,0 +1,481 @@
+﻿|j|ryanprescott12345
+|j|Jano CC
+|player|p1|ryanprescott12345|169
+|player|p2|Jano CC|163
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|30623,1568,33449,23629
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Arcanine|Arcanine, L85|327\/327
+|switch|p2a: Kakuna|Kakuna, L99|290\/290
+|turn|1
+|choice|move 2|move 1
+|
+|move|p1a: Arcanine|Fire Blast|p2a: Kakuna|[miss]
+|-miss|p1a: Arcanine
+|move|p2a: Kakuna|Poison Sting|p1a: Arcanine
+|-damage|p1a: Arcanine|313\/327
+|
+|turn|2
+|choice|move 2|move 1
+|
+|move|p1a: Arcanine|Fire Blast|p2a: Kakuna|[miss]
+|-miss|p1a: Arcanine
+|move|p2a: Kakuna|Poison Sting|p1a: Arcanine
+|-damage|p1a: Arcanine|300\/327
+|
+|turn|3
+|choice|move 2|move 1
+|
+|move|p1a: Arcanine|Fire Blast|p2a: Kakuna
+|-supereffective|p2a: Kakuna
+|-damage|p2a: Kakuna|0 fnt
+|faint|p2a: Kakuna
+|choice||switch 2
+|
+|switch|p2a: Golem|Golem, L79|288\/288
+|turn|4
+|choice|switch 5|move 1
+|
+|switch|p1a: Dragonite|Dragonite, L85|328\/328
+|move|p2a: Golem|Rock Slide|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|172\/328
+|
+|turn|5
+|choice|move 4|switch 3
+|
+|switch|p2a: Tauros|Tauros, L79|280\/280
+|move|p1a: Dragonite|Blizzard|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|60\/280
+|
+|turn|6
+|choice|switch 6|move 1
+|
+|switch|p1a: Raichu|Raichu, L85|276\/276
+|move|p2a: Tauros|Blizzard|p1a: Raichu
+|-damage|p1a: Raichu|220\/276
+|
+|turn|7
+|choice|move 1|switch 3
+|
+|switch|p2a: Golem|Golem, L79|288\/288
+|move|p1a: Raichu|Surf|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|choice||switch 5
+|
+|switch|p2a: Chansey|Chansey, L79|557\/557
+|turn|8
+|choice|move 4|move 4
+|
+|move|p1a: Raichu|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|389\/557
+|move|p2a: Chansey|Thunder Wave|p1a: Raichu
+|-status|p1a: Raichu|par
+|
+|turn|9
+|choice|move 4|move 2
+|
+|move|p2a: Chansey|Reflect|p2a: Chansey
+|-start|p2a: Chansey|Reflect
+|cant|p1a: Raichu|par
+|
+|turn|10
+|choice|move 4|move 3
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Raichu
+|-resisted|p1a: Raichu
+|-damage|p1a: Raichu|192\/276 par
+|move|p1a: Raichu|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|309\/557
+|
+|turn|11
+|choice|move 4|switch 3
+|
+|switch|p2a: Tauros|Tauros, L79|60\/280
+|move|p1a: Raichu|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|choice||switch 4
+|
+|switch|p2a: Mew|Mew, L74|300\/300
+|turn|12
+|choice|switch 6|move 4
+|
+|switch|p1a: Dragonite|Dragonite, L85|172\/328
+|move|p2a: Mew|Psychic|p1a: Dragonite
+|-damage|p1a: Dragonite|98\/328
+|
+|turn|13
+|choice|move 3|move 2
+|
+|move|p2a: Mew|Thunderbolt|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-damage|p1a: Dragonite|4\/328
+|move|p1a: Dragonite|Agility|p1a: Dragonite
+|-boost|p1a: Dragonite|spe|2
+|
+|turn|14
+|choice|move 2|move 2
+|
+|move|p1a: Dragonite|Hyper Beam|p2a: Mew
+|-damage|p2a: Mew|154\/300
+|move|p2a: Mew|Thunderbolt|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|choice|switch 5|
+|
+|switch|p1a: Arcanine|Arcanine, L85|300\/327
+|turn|15
+|choice|move 2|move 4
+|
+|move|p1a: Arcanine|Fire Blast|p2a: Mew
+|-damage|p2a: Mew|35\/300
+|move|p2a: Mew|Psychic|p1a: Arcanine
+|-damage|p1a: Arcanine|219\/327
+|
+|turn|16
+|choice|move 3|switch 6
+|
+|switch|p2a: Slowbro|Slowbro, L79|312\/312
+|move|p1a: Arcanine|Hyper Beam|p2a: Slowbro
+|-damage|p2a: Slowbro|212\/312
+|
+|turn|17
+|-mustrecharge|p1a: Arcanine
+|-mustrecharge|p1a: Arcanine
+|choice|move 1|move 2
+|
+|cant|p1a: Arcanine|recharge
+|move|p2a: Slowbro|Surf|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|60\/327
+|
+|turn|18
+|choice|switch 2|move 2
+|
+|switch|p1a: Ivysaur|Ivysaur, L85|276\/276
+|move|p2a: Slowbro|Surf|p1a: Ivysaur
+|-resisted|p1a: Ivysaur
+|-damage|p1a: Ivysaur|232\/276
+|
+|turn|19
+|choice|move 2|move 4
+|
+|move|p1a: Ivysaur|Razor Leaf|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|choice||switch 3
+|
+|switch|p2a: Chansey|Chansey, L79|309\/557
+|turn|20
+|choice|move 2|move 4
+|
+|move|p1a: Ivysaur|Razor Leaf|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|203\/557
+|move|p2a: Chansey|Thunder Wave|p1a: Ivysaur
+|-status|p1a: Ivysaur|par
+|
+|turn|21
+|choice|move 3|move 1
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|481\/557
+|cant|p1a: Ivysaur|par
+|
+|turn|22
+|choice|move 3|move 2
+|
+|move|p2a: Chansey|Reflect|p2a: Chansey
+|-start|p2a: Chansey|Reflect
+|move|p1a: Ivysaur|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|422\/557
+|
+|turn|23
+|choice|move 3|move 3
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Ivysaur
+|-resisted|p1a: Ivysaur
+|-damage|p1a: Ivysaur|201\/276 par
+|move|p1a: Ivysaur|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|359\/557
+|
+|turn|24
+|choice|move 3|switch 6
+|
+|switch|p2a: Mew|Mew, L74|35\/300
+|cant|p1a: Ivysaur|par
+|
+|turn|25
+|choice|move 3|move 4
+|
+|move|p2a: Mew|Psychic|p1a: Ivysaur
+|-supereffective|p1a: Ivysaur
+|-damage|p1a: Ivysaur|34\/276 par
+|-unboost|p1a: Ivysaur|spd|1
+|-unboost|p1a: Ivysaur|spa|1
+|move|p1a: Ivysaur|Body Slam|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|choice||switch 6
+|
+|switch|p2a: Chansey|Chansey, L79|359\/557
+|turn|26
+|choice|move 4|move 3
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Ivysaur
+|-resisted|p1a: Ivysaur
+|-damage|p1a: Ivysaur|0 fnt
+|faint|p1a: Ivysaur
+|choice|switch 6|
+|
+|switch|p1a: Raichu|Raichu, L85|192\/276 par
+|turn|27
+|choice|move 4|move 3
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Raichu
+|-resisted|p1a: Raichu
+|-damage|p1a: Raichu|161\/276 par
+|cant|p1a: Raichu|par
+|
+|turn|28
+|choice|move 4|move 3
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Raichu
+|-resisted|p1a: Raichu
+|-damage|p1a: Raichu|129\/276 par
+|move|p1a: Raichu|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|194\/557
+|
+|turn|29
+|choice|move 4|move 1
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|472\/557
+|move|p1a: Raichu|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|314\/557
+|
+|turn|30
+|choice|move 4|move 3
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Raichu
+|-resisted|p1a: Raichu
+|-damage|p1a: Raichu|97\/276 par
+|cant|p1a: Raichu|par
+|
+|turn|31
+|choice|move 4|move 3
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Raichu
+|-resisted|p1a: Raichu
+|-damage|p1a: Raichu|69\/276 par
+|move|p1a: Raichu|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|150\/557
+|
+|turn|32
+|choice|move 4|move 1
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|428\/557
+|cant|p1a: Raichu|par
+|
+|turn|33
+|choice|move 4|move 3
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Raichu
+|-resisted|p1a: Raichu
+|-damage|p1a: Raichu|37\/276 par
+|cant|p1a: Raichu|par
+|
+|turn|34
+|choice|move 4|move 3
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Raichu
+|-resisted|p1a: Raichu
+|-damage|p1a: Raichu|9\/276 par
+|move|p1a: Raichu|Body Slam|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|120\/557
+|
+|turn|35
+|choice|move 4|move 1
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|398\/557
+|move|p1a: Raichu|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|244\/557
+|
+|turn|36
+|choice|move 4|move 1
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|522\/557
+|move|p1a: Raichu|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|372\/557
+|
+|turn|37
+|choice|move 4|move 3
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Raichu
+|-resisted|p1a: Raichu
+|-damage|p1a: Raichu|0 fnt
+|faint|p1a: Raichu
+|choice|switch 2|
+|
+|switch|p1a: Arcanine|Arcanine, L85|60\/327
+|turn|38
+|choice|move 2|move 3
+|
+|move|p1a: Arcanine|Fire Blast|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|172\/557
+|-status|p2a: Chansey|brn
+|move|p2a: Chansey|Thunderbolt|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|choice|switch 4|
+|
+|switch|p1a: Seaking|Seaking, L90|327\/327
+|turn|39
+|choice|move 3|move 4
+|
+|move|p1a: Seaking|Hyper Beam|p2a: Chansey|[miss]
+|-miss|p1a: Seaking
+|move|p2a: Chansey|Thunder Wave|p1a: Seaking
+|-status|p1a: Seaking|par
+|-damage|p2a: Chansey|138\/557 brn|[from] brn|[of] p1a: Seaking
+|
+|turn|40
+|choice|move 4|move 1
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|416\/557 brn
+|-damage|p2a: Chansey|382\/557 brn|[from] brn
+|move|p1a: Seaking|Double-Edge|p2a: Chansey
+|-damage|p2a: Chansey|178\/557 brn
+|-damage|p1a: Seaking|276\/327 par|[from] recoil|[of] p2a: Chansey
+|
+|turn|41
+|choice|move 4|move 1
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|456\/557 brn
+|-damage|p2a: Chansey|422\/557 brn|[from] brn
+|cant|p1a: Seaking|par
+|
+|turn|42
+|choice|move 4|move 3
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Seaking
+|-supereffective|p1a: Seaking
+|-damage|p1a: Seaking|145\/327 par
+|-damage|p2a: Chansey|388\/557 brn|[from] brn|[of] p1a: Seaking
+|move|p1a: Seaking|Double-Edge|p2a: Chansey
+|-damage|p2a: Chansey|190\/557 brn
+|-damage|p1a: Seaking|96\/327 par|[from] recoil|[of] p2a: Chansey
+|
+|turn|43
+|choice|move 3|move 3
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Seaking
+|-supereffective|p1a: Seaking
+|-damage|p1a: Seaking|0 fnt
+|faint|p1a: Seaking
+|choice|switch 3|
+|
+|switch|p1a: Slowbro|Slowbro, L79|312\/312
+|turn|44
+|choice|move 4|move 1
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|468\/557 brn
+|-damage|p2a: Chansey|434\/557 brn|[from] brn
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|
+|turn|45
+|choice|move 4|move 4
+|
+|move|p2a: Chansey|Thunder Wave|p1a: Slowbro
+|-status|p1a: Slowbro|par
+|-damage|p2a: Chansey|400\/557 brn|[from] brn|[of] p1a: Slowbro
+|cant|p1a: Slowbro|par
+|
+|turn|46
+|choice|move 4|move 3
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|238\/312 par
+|-damage|p2a: Chansey|366\/557 brn|[from] brn|[of] p1a: Slowbro
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|
+|turn|47
+|choice|move 4|move 3
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|191\/312 par
+|-damage|p2a: Chansey|332\/557 brn|[from] brn|[of] p1a: Slowbro
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|
+|turn|48
+|choice|move 4|move 3
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|156\/312 par
+|-damage|p2a: Chansey|298\/557 brn|[from] brn|[of] p1a: Slowbro
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|
+|turn|49
+|choice|move 1|move 3
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|120\/312 par
+|-damage|p2a: Chansey|264\/557 brn|[from] brn|[of] p1a: Slowbro
+|cant|p1a: Slowbro|par
+|
+|turn|50
+|choice|move 1|move 1
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|542\/557 brn
+|-damage|p2a: Chansey|508\/557 brn|[from] brn
+|cant|p1a: Slowbro|par
+|
+|turn|51
+|choice|move 1|move 3
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|
+|win|Jano CC
+|player|p1
+|player|p2
+|raw|ryanprescott12345's rating: 1417 &rarr; <strong>1387<\/strong><br \/>(-30 for losing)
+|raw|Jano CC's rating: 1223 &rarr; <strong>1261<\/strong><br \/>(+38 for winning)
+|l|Jano CC

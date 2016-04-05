@@ -1,0 +1,339 @@
+﻿|J|Enigami
+|J|Pika Xreme
+|player|p1|Enigami|2
+|player|p2|Pika Xreme|23
+|gametype|singles
+|gen|1
+|tier|Violet Version
+|seed|38225,33890,55088,47883
+|clearpoke
+|poke|p1|Golem
+|poke|p1|Butterfree
+|poke|p1|Vileplume
+|poke|p1|Aerodactyl
+|poke|p1|Poliwrath
+|poke|p1|Tauros
+|poke|p2|Electrode
+|poke|p2|Slowbro
+|poke|p2|Primeape
+|poke|p2|Aerodactyl
+|poke|p2|Flareon
+|poke|p2|Dragonite
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|choice|team 3|team 1
+|
+|start
+|switch|p1a: Vileplume|Vileplume|363\/363
+|switch|p2a: Electrode|Electrode|333\/333
+|turn|1
+|choice|move 2|move 2
+|
+|move|p2a: Electrode|Thunder Wave|p1a: Vileplume
+|-status|p1a: Vileplume|par
+|move|p1a: Vileplume|Stun Spore|p2a: Electrode
+|-status|p2a: Electrode|par
+|
+|turn|2
+|choice|move 1|move 3
+|
+|move|p2a: Electrode|Explosion|p1a: Vileplume
+|-damage|p1a: Vileplume|117\/363 par
+|faint|p2a: Electrode
+|choice||switch 5
+|
+|switch|p2a: Flareon|Flareon|433\/433
+|turn|3
+|choice|switch 5|move 1
+|
+|switch|p1a: Poliwrath|Poliwrath|383\/383
+|move|p2a: Flareon|Flamethrower|p1a: Poliwrath
+|-resisted|p1a: Poliwrath
+|-damage|p1a: Poliwrath|310\/383
+|
+|turn|4
+|choice|move 1|switch 3
+|
+|switch|p2a: Primeape|Primeape|333\/333
+|move|p1a: Poliwrath|Hypnosis|p2a: Primeape
+|-status|p2a: Primeape|slp
+|
+|turn|5
+|choice|move 4|switch 4
+|
+|switch|p2a: Aerodactyl|Aerodactyl|363\/363
+|move|p1a: Poliwrath|Amnesia|p1a: Poliwrath
+|-boost|p1a: Poliwrath|spd|2
+|-boost|p1a: Poliwrath|spa|2
+|
+|turn|6
+|choice|move 2|move 3
+|
+|move|p2a: Aerodactyl|Sky Attack|p1a: Poliwrath|[still]
+|-prepare|p2a: Aerodactyl|Sky Attack|p1a: Poliwrath
+|-boost|p2a: Aerodactyl|def|1
+|move|p1a: Poliwrath|Hydro Pump|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|faint|p2a: Aerodactyl
+|choice||switch 2
+|
+|switch|p2a: Slowbro|Slowbro|393\/393
+|turn|7
+|c|★Pika Xreme|\/me screems internal-ways
+|choice|switch 2|move 3
+|
+|switch|p1a: Butterfree|Butterfree|343\/343
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|turn|8
+|choice|move 4|move 4
+|
+|move|p1a: Butterfree|Stun Spore|p2a: Slowbro|[miss]
+|-miss|p1a: Butterfree
+|move|p2a: Slowbro|Thunder Wave|p1a: Butterfree
+|-status|p1a: Butterfree|par
+|
+|turn|9
+|choice|move 4|move 2
+|
+|move|p2a: Slowbro|Surf|p1a: Butterfree
+|-damage|p1a: Butterfree|129\/343 par
+|cant|p1a: Butterfree|par
+|
+|turn|10
+|c|★Enigami|...
+|choice|move 4|move 2
+|
+|move|p2a: Slowbro|Surf|p1a: Butterfree
+|-damage|p1a: Butterfree|0 fnt
+|faint|p1a: Butterfree
+|c|★Pika Xreme|RBY hax is best hax
+|choice|switch 6|
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|11
+|choice|move 1|move 2
+|
+|move|p1a: Tauros|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|298\/393
+|move|p2a: Slowbro|Surf|p1a: Tauros
+|-damage|p1a: Tauros|117\/353
+|
+|turn|12
+|choice|move 4|move 2
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Slowbro
+|-damage|p2a: Slowbro|145\/393
+|move|p2a: Slowbro|Surf|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|choice|switch 2|
+|
+|switch|p1a: Poliwrath|Poliwrath|310\/383
+|turn|13
+|choice|move 3|move 1
+|
+|move|p1a: Poliwrath|Psychic|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|85\/393
+|-unboost|p2a: Slowbro|spd|1
+|-unboost|p2a: Slowbro|spa|1
+|move|p2a: Slowbro|Psychic|p1a: Poliwrath
+|-supereffective|p1a: Poliwrath
+|-damage|p1a: Poliwrath|0 fnt
+|faint|p1a: Poliwrath
+|c|★Pika Xreme|ohnoohnoohno
+|choice|switch 3|
+|
+|switch|p1a: Golem|Golem|363\/363
+|turn|14
+|c|★Enigami|Ohyesyesyes
+|choice|move 1|move 2
+|
+|move|p1a: Golem|Earthquake|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|choice||switch 4
+|
+|switch|p2a: Primeape|Primeape|333\/333 slp
+|turn|15
+|choice|move 1|move 1
+|
+|cant|p2a: Primeape|slp
+|move|p1a: Golem|Earthquake|p2a: Primeape
+|-damage|p2a: Primeape|166\/333 slp
+|
+|turn|16
+|choice|move 1|move 1
+|
+|cant|p2a: Primeape|slp
+|move|p1a: Golem|Earthquake|p2a: Primeape
+|-damage|p2a: Primeape|4\/333 slp
+|
+|turn|17
+|choice|move 3|switch 6
+|
+|switch|p2a: Dragonite|Dragonite|385\/385
+|move|p1a: Golem|Body Slam|p2a: Dragonite
+|-damage|p2a: Dragonite|310\/385
+|
+|turn|18
+|choice|move 3|move 3
+|
+|move|p2a: Dragonite|Agility|p2a: Dragonite
+|-boost|p2a: Dragonite|spe|2
+|move|p1a: Golem|Body Slam|p2a: Dragonite
+|-damage|p2a: Dragonite|233\/385
+|
+|turn|19
+|c|★Enigami|Cmon
+|c|★Enigami|No para?
+|c|★Pika Xreme|never question Gen 1 Hax
+|choice|switch 5|move 2
+|
+|switch|p1a: Vileplume|Vileplume|117\/363 par
+|move|p2a: Dragonite|Wrap|p1a: Vileplume
+|-damage|p1a: Vileplume|71\/363 par
+|-activate|p1a: Vileplume|move: Wrap|[of] p2a: Dragonite
+|
+|turn|20
+|choice|switch 4|move 2
+|
+|switch|p1a: Aerodactyl|Aerodactyl|363\/363
+|move|p2a: Dragonite|Wrap|p1a: Aerodactyl
+|-resisted|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|338\/363
+|-activate|p1a: Aerodactyl|move: Wrap|[of] p2a: Dragonite
+|
+|turn|21
+|choice|move 1|move 2
+|
+|move|p2a: Dragonite|Wrap|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|313\/363
+|cant|p1a: Aerodactyl|partiallytrapped
+|
+|turn|22
+|choice|move 1|move 2
+|
+|move|p2a: Dragonite|Wrap|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|288\/363
+|cant|p1a: Aerodactyl|partiallytrapped
+|
+|-end|p1a: Aerodactyl|Wrap|[partiallytrapped]
+|turn|23
+|choice|move 1|move 4
+|
+|move|p2a: Dragonite|Ice Beam|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|72\/363
+|move|p1a: Aerodactyl|Rock Slide|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|24\/385
+|
+|turn|24
+|choice|switch 4|move 4
+|
+|switch|p1a: Vileplume|Vileplume|71\/363 par
+|move|p2a: Dragonite|Ice Beam|p1a: Vileplume
+|-crit|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|faint|p1a: Vileplume
+|choice|switch 5|
+|
+|switch|p1a: Golem|Golem|363\/363
+|turn|25
+|choice|move 3|move 2
+|
+|move|p2a: Dragonite|Wrap|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|348\/363
+|-activate|p1a: Golem|move: Wrap|[of] p2a: Dragonite
+|cant|p1a: Golem|partiallytrapped
+|
+|turn|26
+|choice|move 3|move 2
+|
+|move|p2a: Dragonite|Wrap|p1a: Golem
+|-damage|p1a: Golem|333\/363
+|cant|p1a: Golem|partiallytrapped
+|
+|-end|p1a: Golem|Wrap|[partiallytrapped]
+|turn|27
+|choice|move 3|move 2
+|
+|move|p2a: Dragonite|Wrap|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|318\/363
+|-activate|p1a: Golem|move: Wrap|[of] p2a: Dragonite
+|cant|p1a: Golem|partiallytrapped
+|
+|turn|28
+|choice|move 3|move 2
+|
+|move|p2a: Dragonite|Wrap|p1a: Golem
+|-damage|p1a: Golem|303\/363
+|cant|p1a: Golem|partiallytrapped
+|
+|turn|29
+|choice|move 3|move 2
+|
+|move|p2a: Dragonite|Wrap|p1a: Golem
+|-damage|p1a: Golem|288\/363
+|cant|p1a: Golem|partiallytrapped
+|
+|-end|p1a: Golem|Wrap|[partiallytrapped]
+|turn|30
+|choice|move 3|move 2
+|
+|move|p2a: Dragonite|Wrap|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|272\/363
+|-activate|p1a: Golem|move: Wrap|[of] p2a: Dragonite
+|cant|p1a: Golem|partiallytrapped
+|
+|turn|31
+|choice|move 3|move 2
+|
+|move|p2a: Dragonite|Wrap|p1a: Golem
+|-damage|p1a: Golem|256\/363
+|cant|p1a: Golem|partiallytrapped
+|
+|turn|32
+|choice|move 3|move 2
+|
+|move|p2a: Dragonite|Wrap|p1a: Golem
+|-damage|p1a: Golem|240\/363
+|cant|p1a: Golem|partiallytrapped
+|
+|-end|p1a: Golem|Wrap|[partiallytrapped]
+|turn|33
+|choice|move 3|move 2
+|
+|move|p2a: Dragonite|Wrap|p1a: Golem
+|-crit|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|208\/363
+|-activate|p1a: Golem|move: Wrap|[of] p2a: Dragonite
+|cant|p1a: Golem|partiallytrapped
+|
+|turn|34
+|c|★Enigami|gg
+|-message|Enigami forfeited.
+|
+|win|Pika Xreme
+|c|★Pika Xreme|gg
+|L|Pika Xreme
+|player|p2
+|L|Enigami
+|player|p1
+|J|KristophV

@@ -1,0 +1,118 @@
+﻿|join|yaldyyyy
+|join|oouioiiopoi
+|player|p1|yaldyyyy|2
+|player|p2|oouioiiopoi|169
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Ekans|Ekans, L96|262\/262
+|switch|p2a: Electabuzz|Electabuzz, L85|284\/284
+|turn|1
+|
+|switch|p2a: Pinsir|Pinsir, L85|284\/284
+|move|p1a: Ekans|Earthquake|p2a: Pinsir
+|-resisted|p2a: Pinsir
+|-damage|p2a: Pinsir|254\/284
+|
+|turn|2
+|
+|move|p2a: Pinsir|Hyper Beam|p1a: Ekans
+|-crit|p1a: Ekans
+|-damage|p1a: Ekans|0 fnt
+|faint|p1a: Ekans
+|
+|switch|p1a: Magmar|Magmar, L90|300\/300
+|turn|3
+|
+|move|p1a: Magmar|Fire Blast|p2a: Pinsir
+|-supereffective|p2a: Pinsir
+|-damage|p2a: Pinsir|0 fnt
+|faint|p2a: Pinsir
+|
+|switch|p2a: Poliwrath|Poliwrath, L85|327\/327
+|turn|4
+|
+|switch|p1a: Parasect|Parasect, L90|291\/291
+|move|p2a: Poliwrath|Hypnosis|p1a: Parasect
+|-status|p1a: Parasect|slp
+|
+|turn|5
+|
+|switch|p1a: Dewgong|Dewgong, L85|327\/327
+|move|p2a: Poliwrath|Amnesia|p2a: Poliwrath
+|-boost|p2a: Poliwrath|spd|2
+|-boost|p2a: Poliwrath|spa|2
+|
+|turn|6
+|
+|move|p2a: Poliwrath|Amnesia|p2a: Poliwrath
+|-boost|p2a: Poliwrath|spd|2
+|-boost|p2a: Poliwrath|spa|2
+|move|p1a: Dewgong|Body Slam|p2a: Poliwrath
+|-damage|p2a: Poliwrath|280\/327
+|
+|turn|7
+|
+|move|p2a: Poliwrath|Surf|p1a: Dewgong
+|-resisted|p1a: Dewgong
+|-damage|p1a: Dewgong|218\/327
+|move|p1a: Dewgong|Body Slam|p2a: Poliwrath
+|-damage|p2a: Poliwrath|234\/327
+|
+|turn|8
+|
+|move|p1a: Dewgong|Body Slam|p2a: Poliwrath
+|-damage|p2a: Poliwrath|190\/327
+|-status|p2a: Poliwrath|par
+|move|p2a: Poliwrath|Surf|p1a: Dewgong
+|-resisted|p1a: Dewgong
+|-damage|p1a: Dewgong|101\/327
+|
+|turn|9
+|
+|move|p1a: Dewgong|Body Slam|p2a: Poliwrath
+|-damage|p2a: Poliwrath|142\/327 par
+|move|p2a: Poliwrath|Surf|p1a: Dewgong
+|-resisted|p1a: Dewgong
+|-damage|p1a: Dewgong|0 fnt
+|faint|p1a: Dewgong
+|
+|switch|p1a: Machoke|Machoke, L85|310\/310
+|turn|10
+|
+|move|p1a: Machoke|Body Slam|p2a: Poliwrath
+|-damage|p2a: Poliwrath|85\/327 par
+|move|p2a: Poliwrath|Surf|p1a: Machoke
+|-damage|p1a: Machoke|0 fnt
+|faint|p1a: Machoke
+|
+|switch|p1a: Magmar|Magmar, L90|300\/300
+|turn|11
+|
+|move|p1a: Magmar|Confuse Ray|p2a: Poliwrath
+|-start|p2a: Poliwrath|confusion
+|cant|p2a: Poliwrath|par
+|
+|turn|12
+|
+|move|p1a: Magmar|Fire Blast|p2a: Poliwrath
+|-resisted|p2a: Poliwrath
+|-damage|p2a: Poliwrath|61\/327 par
+|-activate|p2a: Poliwrath|confusion
+|move|p2a: Poliwrath|Surf|p1a: Magmar
+|-supereffective|p1a: Magmar
+|-damage|p1a: Magmar|0 fnt
+|faint|p1a: Magmar
+|leave|yaldyyyy
+|player|p1
+|-message|yaldyyyy lost due to inactivity.
+|
+|win|oouioiiopoi
+|raw|yaldyyyy's rating: 1297 &rarr; <strong>1255<\/strong><br \/>(-42 for losing)
+|raw|oouioiiopoi's rating: 1000 &rarr; <strong>1068<\/strong><br \/>(+68 for winning)

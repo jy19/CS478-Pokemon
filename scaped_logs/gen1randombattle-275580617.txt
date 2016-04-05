@@ -1,0 +1,263 @@
+﻿|join|PickledBeets
+|join|Vergewaltiger
+|player|p1|PickledBeets|162
+|player|p2|Vergewaltiger|170
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Moltres|Moltres, L85|327\/327
+|switch|p2a: Weezing|Weezing, L90|300\/300
+|turn|1
+|
+|switch|p1a: Exeggutor|Exeggutor, L79|312\/312
+|move|p2a: Weezing|Thunder|p1a: Exeggutor|[miss]
+|-miss|p2a: Weezing
+|
+|turn|2
+|
+|move|p2a: Weezing|Fire Blast|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|155\/312
+|move|p1a: Exeggutor|Psychic|p2a: Weezing
+|-supereffective|p2a: Weezing
+|-damage|p2a: Weezing|118\/300
+|-unboost|p2a: Weezing|spd|1
+|-unboost|p2a: Weezing|spa|1
+|
+|turn|3
+|
+|move|p2a: Weezing|Fire Blast|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|49\/312
+|move|p1a: Exeggutor|Psychic|p2a: Weezing
+|-supereffective|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|
+|switch|p2a: Abra|Abra, L96|243\/243
+|turn|4
+|
+|move|p2a: Abra|Reflect|p2a: Abra
+|-start|p2a: Abra|Reflect
+|move|p1a: Exeggutor|Sleep Powder|p2a: Abra
+|-status|p2a: Abra|slp
+|
+|turn|5
+|
+|cant|p2a: Abra|slp
+|move|p1a: Exeggutor|Explosion|p2a: Abra
+|-damage|p2a: Abra|47\/243 slp
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Ditto|Ditto, L99|296\/296
+|turn|6
+|
+|switch|p2a: Machoke|Machoke, L85|310\/310
+|move|p1a: Ditto|Transform|p2a: Machoke
+|-transform|p1a: Ditto|p2a: Machoke
+|
+|turn|7
+|
+|move|p1a: Ditto|Leer|p2a: Machoke
+|-unboost|p2a: Machoke|def|1
+|move|p2a: Machoke|Rock Slide|p1a: Ditto
+|-resisted|p1a: Ditto
+|-damage|p1a: Ditto|262\/296
+|
+|turn|8
+|
+|move|p1a: Ditto|Mega Kick|p2a: Machoke
+|-damage|p2a: Machoke|185\/310
+|move|p2a: Machoke|Counter|p1a: Ditto
+|-damage|p1a: Ditto|12\/296
+|
+|turn|9
+|
+|move|p1a: Ditto|Leer|p2a: Machoke
+|-unboost|p2a: Machoke|def|1
+|move|p2a: Machoke|Counter|p1a: Ditto
+|-fail|p2a: Machoke
+|
+|turn|10
+|
+|move|p1a: Ditto|Mega Kick|p2a: Machoke
+|-crit|p2a: Machoke
+|-damage|p2a: Machoke|0 fnt
+|faint|p2a: Machoke
+|
+|switch|p2a: Abra|Abra, L96|47\/243 slp
+|turn|11
+|
+|cant|p2a: Abra|slp
+|move|p1a: Ditto|Mega Kick|p2a: Abra
+|-damage|p2a: Abra|0 fnt
+|faint|p2a: Abra
+|
+|switch|p2a: Tauros|Tauros, L79|280\/280
+|turn|12
+|
+|move|p2a: Tauros|Body Slam|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|
+|switch|p1a: Weezing|Weezing, L90|300\/300
+|turn|13
+|
+|move|p2a: Tauros|Blizzard|p1a: Weezing
+|-crit|p1a: Weezing
+|-damage|p1a: Weezing|188\/300
+|move|p1a: Weezing|Fire Blast|p2a: Tauros
+|-damage|p2a: Tauros|171\/280
+|
+|turn|14
+|c|★Vergewaltiger|!weakness weezing
+|raw|<div class="infobox">Weezing (ignoring abilities):<br><span class="message-effect-weak">Weaknesses<\/span>: Ground, Psychic<br><span class="message-effect-resist">Resistances<\/span>: Bug, Fairy, Fighting, Grass, Poison<br><span class="message-effect-immune">Immunities<\/span>: <font color=#999999>None<\/font><\/div>
+|
+|move|p2a: Tauros|Earthquake|p1a: Weezing
+|-supereffective|p1a: Weezing
+|-damage|p1a: Weezing|88\/300
+|move|p1a: Weezing|Fire Blast|p2a: Tauros|[miss]
+|-miss|p1a: Weezing
+|
+|turn|15
+|
+|switch|p1a: Articuno|Articuno, L79|304\/304
+|move|p2a: Tauros|Earthquake|p1a: Articuno
+|-immune|p1a: Articuno|[msg]
+|
+|turn|16
+|c|★Vergewaltiger|!weakness articuno
+|raw|<div class="infobox">Articuno (ignoring abilities):<br><span class="message-effect-weak">Weaknesses<\/span>: Electric, Fire, <b>Rock<\/b>, Steel<br><span class="message-effect-resist">Resistances<\/span>: Bug, Grass<br><span class="message-effect-immune">Immunities<\/span>: Ground<\/div>
+|
+|switch|p2a: Raichu|Raichu, L85|276\/276
+|move|p1a: Articuno|Reflect|p1a: Articuno
+|-start|p1a: Articuno|Reflect
+|
+|turn|17
+|
+|move|p2a: Raichu|Thunder Wave|p1a: Articuno
+|-status|p1a: Articuno|par
+|move|p1a: Articuno|Blizzard|p2a: Raichu
+|-damage|p2a: Raichu|153\/276
+|
+|turn|18
+|c|★Vergewaltiger|omg stupid raichu without thunderbolt
+|
+|move|p2a: Raichu|Surf|p1a: Articuno
+|-damage|p1a: Articuno|246\/304 par
+|move|p1a: Articuno|Blizzard|p2a: Raichu
+|-crit|p2a: Raichu
+|-damage|p2a: Raichu|0 fnt
+|faint|p2a: Raichu
+|
+|switch|p2a: Omastar|Omastar, L90|309\/309
+|turn|19
+|
+|move|p2a: Omastar|Seismic Toss|p1a: Articuno
+|-damage|p1a: Articuno|156\/304 par
+|move|p1a: Articuno|Blizzard|p2a: Omastar
+|-resisted|p2a: Omastar
+|-damage|p2a: Omastar|261\/309
+|
+|turn|20
+|
+|move|p2a: Omastar|Seismic Toss|p1a: Articuno
+|-damage|p1a: Articuno|66\/304 par
+|move|p1a: Articuno|Blizzard|p2a: Omastar
+|-resisted|p2a: Omastar
+|-damage|p2a: Omastar|206\/309
+|
+|turn|21
+|
+|move|p2a: Omastar|Seismic Toss|p1a: Articuno
+|-damage|p1a: Articuno|0 fnt
+|faint|p1a: Articuno
+|
+|switch|p1a: Weezing|Weezing, L90|88\/300
+|turn|22
+|
+|move|p1a: Weezing|Thunder|p2a: Omastar
+|-supereffective|p2a: Omastar
+|-damage|p2a: Omastar|58\/309
+|move|p2a: Omastar|Surf|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|
+|switch|p1a: Moltres|Moltres, L85|327\/327
+|turn|23
+|
+|move|p1a: Moltres|Fire Blast|p2a: Omastar|[miss]
+|-miss|p1a: Moltres
+|move|p2a: Omastar|Rest|p2a: Omastar
+|-status|p2a: Omastar|slp
+|-heal|p2a: Omastar|309\/309 slp|[silent]
+|-status|p2a: Omastar|slp|[from] move: Rest
+|
+|turn|24
+|
+|switch|p1a: Graveler|Graveler, L85|267\/267
+|cant|p2a: Omastar|slp
+|
+|turn|25
+|
+|-curestatus|p2a: Omastar|slp
+|move|p1a: Graveler|Earthquake|p2a: Omastar
+|-crit|p2a: Omastar
+|-supereffective|p2a: Omastar
+|-damage|p2a: Omastar|24\/309
+|
+|turn|26
+|
+|switch|p1a: Moltres|Moltres, L85|327\/327
+|move|p2a: Omastar|Surf|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|142\/327
+|
+|turn|27
+|
+|move|p1a: Moltres|Hyper Beam|p2a: Omastar
+|-resisted|p2a: Omastar
+|-damage|p2a: Omastar|0 fnt
+|faint|p2a: Omastar
+|
+|switch|p2a: Tauros|Tauros, L79|171\/280
+|turn|28
+|
+|move|p2a: Tauros|Blizzard|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|49\/327
+|move|p1a: Moltres|Fire Blast|p2a: Tauros|[miss]
+|-miss|p1a: Moltres
+|
+|turn|29
+|
+|move|p2a: Tauros|Blizzard|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|switch|p1a: Graveler|Graveler, L85|267\/267
+|turn|30
+|c|★Vergewaltiger|!weakness graveler
+|raw|<div class="infobox">Graveler (ignoring abilities):<br><span class="message-effect-weak">Weaknesses<\/span>: Fighting, <b>Grass<\/b>, Ground, Ice, Steel, <b>Water<\/b><br><span class="message-effect-resist">Resistances<\/span>: Fire, Flying, Normal, <b>Poison<\/b>, Rock<br><span class="message-effect-immune">Immunities<\/span>: Electric<\/div>
+|
+|move|p2a: Tauros|Earthquake|p1a: Graveler
+|-supereffective|p1a: Graveler
+|-damage|p1a: Graveler|162\/267
+|move|p1a: Graveler|Explosion|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|faint|p1a: Graveler
+|
+|win|PickledBeets
+|raw|PickledBeets's rating: 1089 &rarr; <strong>1125<\/strong><br \/>(+36 for winning)
+|raw|Vergewaltiger's rating: 1205 &rarr; <strong>1172<\/strong><br \/>(-33 for losing)
+|c|★Vergewaltiger|lol
+|leave|PickledBeets
+|player|p1

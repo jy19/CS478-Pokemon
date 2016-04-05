@@ -1,0 +1,499 @@
+﻿|join|marcoasd
+|join|angry Moron
+|player|p1|marcoasd|1
+|player|p2|angry Moron|275
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|switch|p1a: Gengar|Gengar|323\/323
+|switch|p2a: Starmie|Starmie|323\/323
+|turn|1
+|callback|decision
+|chat|angry Moron|yo
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Starmie|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|612\/703
+|
+|turn|2
+|callback|decision
+|chat|marcoasd|hi
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|629\/703
+|
+|turn|3
+|callback|decision
+|
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|553\/703
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|539\/703
+|
+|turn|4
+|callback|decision
+|
+|switch|p1a: Lapras|Lapras|463\/463
+|move|p2a: Chansey|Ice Beam|p1a: Lapras
+|-resisted|p1a: Lapras
+|-damage|p1a: Lapras|443\/463
+|
+|turn|5
+|callback|decision
+|
+|move|p1a: Lapras|Confuse Ray|p2a: Chansey
+|-start|p2a: Chansey|confusion
+|-activate|p2a: Chansey|confusion
+|move|p2a: Chansey|Thunderbolt|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|287\/463
+|
+|turn|6
+|callback|decision
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|move|p1a: Lapras|Blizzard|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|258\/323
+|
+|turn|7
+|callback|decision
+|
+|switch|p1a: Chansey|Chansey|539\/703
+|move|p2a: Starmie|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|461\/703
+|
+|turn|8
+|callback|decision
+|
+|switch|p2a: Lapras|Lapras|463\/463
+|move|p1a: Chansey|Ice Beam|p2a: Lapras
+|-resisted|p2a: Lapras
+|-damage|p2a: Lapras|443\/463
+|
+|turn|9
+|callback|decision
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Chansey|Thunderbolt|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|359\/393
+|-status|p2a: Exeggutor|par
+|
+|turn|10
+|callback|decision
+|
+|switch|p1a: Gengar|Gengar|323\/323
+|move|p2a: Exeggutor|Sleep Powder|p1a: Gengar|[miss]
+|-miss|p2a: Exeggutor
+|
+|turn|11
+|callback|decision
+|
+|move|p1a: Gengar|Explosion|p2a: Exeggutor
+|-damage|p2a: Exeggutor|120\/393 par
+|faint|p1a: Gengar
+|callback|decision
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|turn|12
+|callback|decision
+|
+|switch|p2a: Lapras|Lapras|443\/463
+|move|p1a: Snorlax|Body Slam|p2a: Lapras
+|-damage|p2a: Lapras|313\/463
+|
+|turn|13
+|callback|decision
+|
+|switch|p1a: Lapras|Lapras|287\/463
+|move|p2a: Lapras|Confuse Ray|p1a: Lapras
+|-start|p1a: Lapras|confusion
+|
+|turn|14
+|callback|decision
+|
+|switch|p2a: Starmie|Starmie|258\/323
+|switch|p1a: Chansey|Chansey|461\/703
+|
+|turn|15
+|callback|decision
+|
+|switch|p2a: Chansey|Chansey|553\/703
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|479\/703
+|
+|turn|16
+|callback|decision
+|
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|407\/703
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|385\/703
+|
+|turn|17
+|callback|decision
+|
+|switch|p1a: Lapras|Lapras|287\/463
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703
+|
+|turn|18
+|callback|decision
+|
+|move|p1a: Lapras|Confuse Ray|p2a: Chansey
+|-start|p2a: Chansey|confusion
+|-activate|p2a: Chansey|confusion
+|move|p2a: Chansey|Thunderbolt|p1a: Lapras
+|-crit|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|
+|callback|decision
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|turn|19
+|callback|decision
+|
+|switch|p2a: Lapras|Lapras|313\/463
+|move|p1a: Snorlax|Body Slam|p2a: Lapras
+|-damage|p2a: Lapras|189\/463
+|
+|turn|20
+|callback|decision
+|
+|move|p2a: Lapras|Blizzard|p1a: Snorlax
+|-damage|p1a: Snorlax|352\/523
+|move|p1a: Snorlax|Hyper Beam|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|
+|callback|decision
+|
+|switch|p2a: Starmie|Starmie|258\/323
+|turn|21
+|callback|decision
+|
+|move|p2a: Starmie|Blizzard|p1a: Snorlax
+|-damage|p1a: Snorlax|230\/523
+|move|p1a: Snorlax|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|137\/323
+|
+|turn|22
+|callback|decision
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|298\/323
+|move|p1a: Snorlax|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|173\/323
+|-status|p2a: Starmie|par
+|
+|turn|23
+|callback|decision
+|
+|switch|p2a: Exeggutor|Exeggutor|120\/393 par
+|move|p1a: Snorlax|Earthquake|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|72\/393 par
+|
+|turn|24
+|callback|decision
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|move|p1a: Snorlax|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|251\/353
+|
+|turn|25
+|callback|decision
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|move|p2a: Tauros|Blizzard|p1a: Tauros
+|-damage|p1a: Tauros|265\/353
+|-status|p1a: Tauros|frz
+|
+|turn|26
+|callback|decision
+|
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|158\/353 frz
+|cant|p1a: Tauros|frz
+|
+|turn|27
+|callback|decision
+|
+|switch|p2a: Starmie|Starmie|173\/323 par
+|cant|p1a: Tauros|frz
+|
+|turn|28
+|callback|decision
+|
+|switch|p1a: Chansey|Chansey|385\/703
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|323\/323 par
+|
+|turn|29
+|callback|decision
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Chansey|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|624\/703
+|
+|turn|30
+|callback|decision
+|
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|552\/703
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|311\/703
+|
+|turn|31
+|callback|decision
+|
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|484\/703
+|
+|turn|32
+|callback|decision
+|
+|switch|p2a: Golem|Golem|363\/363
+|cant|p1a: Chansey|par
+|
+|turn|33
+|callback|decision
+|
+|switch|p1a: Tauros|Tauros|158\/353 frz
+|move|p2a: Golem|Earthquake|p1a: Tauros
+|-damage|p1a: Tauros|26\/353 frz
+|
+|turn|34
+|callback|decision
+|
+|cant|p1a: Tauros|frz
+|move|p2a: Golem|Substitute|p2a: Golem
+|-start|p2a: Golem|Substitute
+|-damage|p2a: Golem|273\/363
+|
+|turn|35
+|callback|decision
+|
+|cant|p1a: Tauros|frz
+|move|p2a: Golem|Earthquake|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|callback|decision
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|turn|36
+|callback|decision
+|
+|move|p1a: Exeggutor|Sleep Powder|p2a: Golem
+|-status|p2a: Golem|slp
+|cant|p2a: Golem|slp
+|-curestatus|p2a: Golem|slp
+|
+|turn|37
+|callback|decision
+|
+|move|p1a: Exeggutor|Sleep Powder|p2a: Golem
+|-status|p2a: Golem|slp
+|cant|p2a: Golem|slp
+|
+|turn|38
+|callback|decision
+|
+|move|p1a: Exeggutor|Psychic|p2a: Golem
+|-end|p2a: Golem|Substitute
+|cant|p2a: Golem|slp
+|
+|turn|39
+|callback|decision
+|
+|switch|p1a: Snorlax|Snorlax|230\/523
+|switch|p2a: Starmie|Starmie|323\/323 par
+|
+|turn|40
+|callback|decision
+|
+|move|p1a: Snorlax|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|201\/323 par
+|move|p2a: Starmie|Blizzard|p1a: Snorlax
+|-damage|p1a: Snorlax|108\/523
+|
+|turn|41
+|callback|decision
+|
+|switch|p2a: Exeggutor|Exeggutor|72\/393 par
+|move|p1a: Snorlax|Hyper Beam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|callback|decision
+|
+|switch|p2a: Tauros|Tauros|251\/353
+|turn|42
+|callback|decision
+|
+|switch|p1a: Chansey|Chansey|311\/703 par
+|move|p2a: Tauros|Hyper Beam|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|callback|decision
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|turn|43
+|callback|decision
+|
+|switch|p2a: Chansey|Chansey|484\/703
+|move|p1a: Exeggutor|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|366\/703
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|
+|turn|44
+|callback|decision
+|
+|move|p1a: Exeggutor|Stun Spore|p2a: Chansey
+|-status|p2a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Exeggutor
+|-status|p1a: Exeggutor|par
+|
+|turn|45
+|callback|decision
+|
+|move|p1a: Exeggutor|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|191\/703 par
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|542\/703 par
+|
+|turn|46
+|callback|decision
+|
+|switch|p2a: Starmie|Starmie|201\/323 par
+|move|p1a: Exeggutor|Psychic|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|137\/323 par
+|-unboost|p2a: Starmie|spd|1
+|-unboost|p2a: Starmie|spa|1
+|
+|turn|47
+|callback|decision
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|298\/323 par
+|move|p1a: Exeggutor|Psychic|p2a: Starmie
+|-crit|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|182\/323 par
+|
+|turn|48
+|callback|decision
+|
+|cant|p2a: Starmie|par
+|move|p1a: Exeggutor|Psychic|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|87\/323 par
+|
+|turn|49
+|callback|decision
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|248\/323 par
+|cant|p1a: Exeggutor|par
+|
+|turn|50
+|callback|decision
+|
+|switch|p2a: Chansey|Chansey|542\/703 par
+|move|p1a: Exeggutor|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|425\/703 par
+|
+|turn|51
+|callback|decision
+|
+|cant|p1a: Exeggutor|par
+|move|p2a: Chansey|Ice Beam|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|249\/393 par
+|
+|turn|52
+|callback|decision
+|
+|move|p1a: Exeggutor|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|308\/703 par
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|move|p2a: Chansey|Ice Beam|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|160\/393 par
+|
+|turn|53
+|callback|decision
+|
+|switch|p1a: Snorlax|Snorlax|108\/523
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|659\/703 par
+|
+|turn|54
+|callback|decision
+|
+|move|p1a: Snorlax|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|386\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|55
+|callback|decision
+|
+|move|p1a: Snorlax|Hyper Beam|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|callback|decision
+|
+|switch|p2a: Tauros|Tauros|251\/353
+|turn|56
+|callback|decision
+|
+|move|p2a: Tauros|Body Slam|p1a: Snorlax|[miss]
+|-miss|p2a: Tauros
+|move|p1a: Snorlax|Self-Destruct|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|faint|p1a: Snorlax
+|callback|decision
+|chat|angry Moron|fuck
+|
+|switch|p2a: Starmie|Starmie|248\/323 par
+|switch|p1a: Exeggutor|Exeggutor|160\/393 par
+|turn|57
+|callback|decision
+|
+|move|p2a: Starmie|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|win|angry Moron
+|raw|Ladder updating...
+|raw|marcoasd's rating: 1356 &rarr; <strong>1319<\/strong><br \/>(-37 for losing)
+|raw|angry Moron's rating: 1182 &rarr; <strong>1219<\/strong><br \/>(+37 for winning)
+|chat|marcoasd|gg
+|chat|angry Moron|gg

@@ -1,0 +1,649 @@
+﻿|j|marcoasd
+|j|Hyper Rosso
+|player|p1|marcoasd|170
+|player|p2|Hyper Rosso|153
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|seed|44575,26547,45265,15445
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Starmie|Starmie|323\/323
+|switch|p2a: Starmie|Starmie|323\/323
+|turn|1
+|choice|move 1|move 3
+|
+|move|p2a: Starmie|Thunder Wave|p1a: Starmie
+|-status|p1a: Starmie|par
+|cant|p1a: Starmie|par
+|
+|turn|2
+|j|Sophomore22
+|choice|switch 3|switch 2
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|switch|p1a: Chansey|Chansey|703\/703
+|
+|turn|3
+|choice|switch 3|move 1
+|
+|switch|p1a: Starmie|Starmie|323\/323 par
+|move|p2a: Exeggutor|Sleep Powder|p1a: Starmie|[miss]
+|-miss|p2a: Exeggutor
+|
+|turn|4
+|choice|move 1|switch 6
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Starmie|Blizzard|p2a: Snorlax|[miss]
+|-miss|p1a: Starmie
+|
+|turn|5
+|choice|move 3|move 1
+|
+|move|p2a: Snorlax|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|213\/323 par
+|move|p1a: Starmie|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|
+|turn|6
+|choice|move 2|move 3
+|
+|move|p1a: Starmie|Psychic|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|257\/523 par
+|-unboost|p2a: Snorlax|spd|1
+|-unboost|p2a: Snorlax|spa|1
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|
+|turn|7
+|choice|switch 6|move 4
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|cant|p2a: Snorlax|par
+|
+|turn|8
+|choice|move 1|move 4
+|
+|move|p1a: Snorlax|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|128\/523 par
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp
+|-heal|p2a: Snorlax|523\/523 slp|[silent]
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|
+|turn|9
+|choice|move 1|move 1
+|
+|move|p1a: Snorlax|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|390\/523 slp
+|cant|p2a: Snorlax|slp
+|
+|turn|10
+|choice|switch 2|move 2
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|-curestatus|p2a: Snorlax|slp
+|
+|turn|11
+|choice|move 1|move 1
+|
+|move|p1a: Exeggutor|Sleep Powder|p2a: Snorlax|[miss]
+|-miss|p1a: Exeggutor
+|move|p2a: Snorlax|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|283\/393
+|
+|turn|12
+|choice|move 1|move 3
+|
+|move|p1a: Exeggutor|Sleep Powder|p2a: Snorlax
+|-status|p2a: Snorlax|slp
+|cant|p2a: Snorlax|slp
+|
+|turn|13
+|choice|switch 5|switch 6
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|
+|turn|14
+|choice|switch 6|move 3
+|
+|switch|p1a: Starmie|Starmie|213\/323 par
+|move|p2a: Exeggutor|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|154\/323 par
+|-unboost|p1a: Starmie|spd|1
+|-unboost|p1a: Starmie|spa|1
+|
+|turn|15
+|choice|move 4|move 3
+|
+|move|p2a: Exeggutor|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|64\/323 par
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|225\/323 par
+|
+|turn|16
+|choice|move 4|move 3
+|
+|move|p2a: Exeggutor|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|126\/323 par
+|cant|p1a: Starmie|par
+|
+|turn|17
+|c|★Hyper Rosso|che figo
+|c|★Hyper Rosso|exegutor
+|choice|move 4|move 3
+|
+|move|p2a: Exeggutor|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|25\/323 par
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|186\/323 par
+|
+|turn|18
+|choice|switch 5|move 3
+|
+|switch|p1a: Exeggutor|Exeggutor|283\/393
+|move|p2a: Exeggutor|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|232\/393
+|
+|turn|19
+|choice|move 2|switch 6
+|
+|switch|p2a: Snorlax|Snorlax|390\/523 slp
+|move|p1a: Exeggutor|Stun Spore|p2a: Snorlax
+|-fail|p2a: Snorlax
+|
+|turn|20
+|choice|move 3|move 3
+|
+|move|p1a: Exeggutor|Psychic|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|94\/523 slp
+|cant|p2a: Snorlax|slp
+|
+|turn|21
+|choice|move 2|move 1
+|
+|move|p1a: Exeggutor|Stun Spore|p2a: Snorlax
+|-fail|p2a: Snorlax
+|cant|p2a: Snorlax|slp
+|
+|turn|22
+|choice|move 3|switch 6
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Exeggutor|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|338\/393
+|
+|turn|23
+|choice|switch 5|move 2
+|
+|switch|p1a: Starmie|Starmie|186\/323 par
+|move|p2a: Exeggutor|Stun Spore|p1a: Starmie
+|-fail|p1a: Starmie|par
+|
+|turn|24
+|choice|move 4|move 3
+|
+|move|p2a: Exeggutor|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|126\/323 par
+|-unboost|p1a: Starmie|spd|1
+|-unboost|p1a: Starmie|spa|1
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|287\/323 par
+|
+|turn|25
+|choice|move 3|move 3
+|
+|move|p2a: Exeggutor|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|200\/323 par
+|move|p1a: Starmie|Thunder Wave|p2a: Exeggutor
+|-status|p2a: Exeggutor|par
+|
+|turn|26
+|choice|move 4|switch 6
+|
+|switch|p2a: Snorlax|Snorlax|94\/523 slp
+|cant|p1a: Starmie|par
+|
+|turn|27
+|choice|move 2|move 4
+|
+|-curestatus|p2a: Snorlax|slp
+|cant|p1a: Starmie|par
+|
+|turn|28
+|choice|move 4|move 4
+|
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp
+|-heal|p2a: Snorlax|523\/523 slp|[silent]
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|323\/323 par
+|
+|turn|29
+|choice|switch 5|move 1
+|
+|switch|p1a: Exeggutor|Exeggutor|232\/393
+|cant|p2a: Snorlax|slp
+|
+|turn|30
+|choice|move 3|move 1
+|
+|move|p1a: Exeggutor|Psychic|p2a: Snorlax|[miss]
+|-miss|p1a: Exeggutor
+|-curestatus|p2a: Snorlax|slp
+|
+|turn|31
+|choice|move 1|move 1
+|
+|move|p1a: Exeggutor|Sleep Powder|p2a: Snorlax
+|-status|p2a: Snorlax|slp
+|cant|p2a: Snorlax|slp
+|
+|turn|32
+|choice|move 3|move 1
+|
+|move|p1a: Exeggutor|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|348\/523 slp
+|-unboost|p2a: Snorlax|spd|1
+|-unboost|p2a: Snorlax|spa|1
+|cant|p2a: Snorlax|slp
+|
+|turn|33
+|choice|move 3|switch 6
+|
+|switch|p2a: Exeggutor|Exeggutor|338\/393 par
+|move|p1a: Exeggutor|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|282\/393 par
+|
+|turn|34
+|choice|switch 5|move 4
+|
+|switch|p1a: Starmie|Starmie|323\/323 par
+|cant|p2a: Exeggutor|par
+|
+|turn|35
+|choice|move 1|move 4
+|
+|cant|p1a: Starmie|par
+|move|p2a: Exeggutor|Explosion|p1a: Starmie
+|-damage|p1a: Starmie|18\/323 par
+|faint|p2a: Exeggutor
+|choice||switch 2
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|turn|36
+|choice|switch 3|move 2
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Starmie|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|595\/703
+|
+|turn|37
+|choice|move 3|switch 4
+|
+|switch|p2a: Golem|Golem|363\/363
+|move|p1a: Chansey|Thunderbolt|p2a: Golem
+|-immune|p2a: Golem|[msg]
+|
+|turn|38
+|choice|move 2|move 1
+|
+|move|p1a: Chansey|Ice Beam|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|141\/363
+|-status|p2a: Golem|frz
+|cant|p2a: Golem|frz
+|
+|turn|39
+|c|★Hyper Rosso|scoppiavo
+|choice|move 3|switch 3
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Chansey|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|627\/703
+|
+|turn|40
+|c|★marcoasd|come no
+|c|★marcoasd|lol
+|choice|move 1|move 2
+|
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|515\/703
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|turn|41
+|c|★Hyper Rosso|?
+|choice|switch 3|move 2
+|
+|switch|p1a: Starmie|Starmie|18\/323 par
+|move|p2a: Chansey|Ice Beam|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|choice|switch 4|
+|
+|switch|p1a: Golem|Golem|363\/363
+|turn|42
+|choice|move 1|move 2
+|
+|move|p1a: Golem|Earthquake|p2a: Chansey
+|-damage|p2a: Chansey|268\/703 par
+|cant|p2a: Chansey|par
+|
+|turn|43
+|choice|move 1|switch 3
+|
+|switch|p2a: Golem|Golem|141\/363 frz
+|move|p1a: Golem|Earthquake|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|choice||switch 4
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|turn|44
+|choice|switch 3|move 1
+|
+|switch|p1a: Chansey|Chansey|515\/703
+|move|p2a: Starmie|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|421\/703
+|
+|turn|45
+|choice|switch 2|move 3
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: Starmie|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|
+|turn|46
+|choice|switch 2|switch 6
+|
+|switch|p2a: Snorlax|Snorlax|348\/523 slp
+|switch|p1a: Chansey|Chansey|421\/703
+|
+|turn|47
+|choice|move 4|move 1
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703
+|-curestatus|p2a: Snorlax|slp
+|
+|turn|48
+|choice|move 2|move 2
+|
+|move|p1a: Chansey|Ice Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|242\/523
+|move|p2a: Snorlax|Reflect|p2a: Snorlax
+|-start|p2a: Snorlax|Reflect
+|
+|turn|49
+|choice|move 1|move 3
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|
+|turn|50
+|choice|move 3|move 4
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Snorlax
+|-damage|p2a: Snorlax|194\/523 par
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp
+|-heal|p2a: Snorlax|523\/523 slp|[silent]
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|
+|turn|51
+|choice|switch 2|move 1
+|
+|switch|p1a: Snorlax|Snorlax|523\/523 par
+|cant|p2a: Snorlax|slp
+|
+|turn|52
+|choice|move 2|move 1
+|
+|-curestatus|p2a: Snorlax|slp
+|move|p1a: Snorlax|Reflect|p1a: Snorlax
+|-start|p1a: Snorlax|Reflect
+|
+|turn|53
+|choice|move 3|move 2
+|
+|move|p2a: Snorlax|Reflect|p2a: Snorlax
+|-fail|p2a: Snorlax
+|cant|p1a: Snorlax|par
+|
+|turn|54
+|choice|move 3|move 1
+|
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|457\/523 par
+|
+|turn|55
+|choice|move 3|move 1
+|
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|392\/523 par
+|
+|turn|56
+|choice|move 4|move 3
+|
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp
+|-heal|p1a: Snorlax|523\/523 slp|[silent]
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|
+|turn|57
+|choice|move 2|switch 5
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|cant|p1a: Snorlax|slp
+|
+|turn|58
+|choice|move 1|move 3
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|402\/523 slp
+|-curestatus|p1a: Snorlax|slp
+|
+|turn|59
+|-mustrecharge|p2a: Tauros
+|-mustrecharge|p2a: Tauros
+|choice|move 1|move 1
+|
+|cant|p2a: Tauros|recharge
+|move|p1a: Snorlax|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|234\/353
+|
+|turn|60
+|choice|move 1|switch 6
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|move|p1a: Snorlax|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|197\/323
+|-status|p2a: Starmie|par
+|
+|turn|61
+|choice|move 1|move 1
+|
+|move|p2a: Starmie|Blizzard|p1a: Snorlax
+|-damage|p1a: Snorlax|362\/523
+|move|p1a: Snorlax|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|70\/323 par
+|
+|turn|62
+|choice|move 1|move 1
+|
+|move|p2a: Starmie|Blizzard|p1a: Snorlax
+|-damage|p1a: Snorlax|318\/523
+|move|p1a: Snorlax|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|choice||switch 3
+|
+|switch|p2a: Chansey|Chansey|268\/703 par
+|turn|63
+|choice|move 1|move 2
+|
+|cant|p2a: Chansey|par
+|move|p1a: Snorlax|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|choice||switch 6
+|
+|switch|p2a: Tauros|Tauros|234\/353
+|turn|64
+|choice|move 4|move 4
+|
+|move|p2a: Tauros|Blizzard|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|114\/523
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp
+|-heal|p1a: Snorlax|523\/523 slp|[silent]
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|
+|turn|65
+|choice|move 1|move 2
+|
+|move|p2a: Tauros|Earthquake|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|330\/523 slp
+|cant|p1a: Snorlax|slp
+|
+|turn|66
+|choice|move 1|move 2
+|
+|move|p2a: Tauros|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|283\/523 slp
+|-curestatus|p1a: Snorlax|slp
+|
+|turn|67
+|choice|move 1|move 4
+|
+|move|p2a: Tauros|Blizzard|p1a: Snorlax
+|-damage|p1a: Snorlax|250\/523
+|move|p1a: Snorlax|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|118\/353
+|
+|turn|68
+|choice|move 4|move 4
+|
+|move|p2a: Tauros|Blizzard|p1a: Snorlax
+|-damage|p1a: Snorlax|219\/523
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp
+|-heal|p1a: Snorlax|523\/523 slp|[silent]
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|
+|turn|69
+|choice|move 1|move 2
+|
+|move|p2a: Tauros|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|473\/523 slp
+|cant|p1a: Snorlax|slp
+|
+|turn|70
+|c|★marcoasd|perchè tiri eq?
+|choice|move 1|move 2
+|
+|move|p2a: Tauros|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|425\/523 slp
+|-curestatus|p1a: Snorlax|slp
+|
+|turn|71
+|c|★Hyper Rosso|dovrei fare bslam?
+|choice|move 1|move 1
+|
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|354\/523
+|move|p1a: Snorlax|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|15\/353
+|
+|turn|72
+|c|★marcoasd|perchè no
+|choice|move 1|move 4
+|
+|move|p2a: Tauros|Blizzard|p1a: Snorlax
+|-damage|p1a: Snorlax|320\/523
+|move|p1a: Snorlax|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|c|★Hyper Rosso|ho perso cmq
+|choice||switch 5
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|turn|73
+|c|★marcoasd|già
+|c|★marcoasd|gg
+|choice|move 1|move 1
+|
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|246\/523
+|move|p1a: Snorlax|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|376\/523
+|
+|turn|74
+|c|★Hyper Rosso|udue
+|choice|move 1|move 1
+|
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|choice|switch 3|
+|
+|switch|p1a: Golem|Golem|363\/363
+|turn|75
+|choice|move 4|move 2
+|
+|move|p1a: Golem|Explosion|p2a: Snorlax
+|-damage|p2a: Snorlax|1\/523
+|faint|p1a: Golem
+|choice|switch 5|
+|
+|switch|p1a: Exeggutor|Exeggutor|232\/393
+|turn|76
+|choice|move 4|move 4
+|
+|move|p1a: Exeggutor|Explosion|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|faint|p1a: Exeggutor
+|
+|win|marcoasd
+|player|p1
+|player|p2

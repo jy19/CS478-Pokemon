@@ -1,0 +1,293 @@
+﻿|j|MALESANI
+|j|ankitkhetrapal
+|player|p1|MALESANI|238
+|player|p2|ankitkhetrapal|52
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|13869,44108,57231,22744
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Bulbasaur|Bulbasaur, L96|281\/281
+|switch|p2a: Venomoth|Venomoth, L85|293\/293
+|turn|1
+|choice|move 2|move 2
+|
+|move|p2a: Venomoth|Sleep Powder|p1a: Bulbasaur
+|-status|p1a: Bulbasaur|slp
+|-curestatus|p1a: Bulbasaur|slp
+|
+|turn|2
+|choice|move 2|move 2
+|
+|move|p2a: Venomoth|Sleep Powder|p1a: Bulbasaur
+|-status|p1a: Bulbasaur|slp
+|cant|p1a: Bulbasaur|slp
+|
+|turn|3
+|choice|switch 3|move 4
+|
+|switch|p1a: Dragonair|Dragonair, L85|277\/277
+|move|p2a: Venomoth|Psychic|p1a: Dragonair
+|-damage|p1a: Dragonair|204\/277
+|
+|turn|4
+|choice|move 3|switch 4
+|
+|switch|p2a: Clefable|Clefable, L85|335\/335
+|move|p1a: Dragonair|Thunder Wave|p2a: Clefable
+|-status|p2a: Clefable|par
+|
+|turn|5
+|choice|switch 5|move 3
+|
+|switch|p1a: Charmeleon|Charmeleon, L85|272\/272
+|cant|p2a: Clefable|par
+|
+|turn|6
+|choice|move 2|move 3
+|
+|move|p1a: Charmeleon|Swords Dance|p1a: Charmeleon
+|-boost|p1a: Charmeleon|atk|2
+|move|p2a: Clefable|Thunder Wave|p1a: Charmeleon
+|-status|p1a: Charmeleon|par
+|
+|turn|7
+|choice|move 1|move 2
+|
+|cant|p1a: Charmeleon|par
+|cant|p2a: Clefable|par
+|
+|turn|8
+|choice|move 1|move 2
+|
+|move|p1a: Charmeleon|Body Slam|p2a: Clefable
+|-damage|p2a: Clefable|224\/335 par
+|cant|p2a: Clefable|par
+|
+|turn|9
+|choice|move 3|move 2
+|
+|move|p1a: Charmeleon|Submission|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|37\/335 par
+|-damage|p1a: Charmeleon|226\/272 par|[from] recoil|[of] p2a: Clefable
+|move|p2a: Clefable|Thunder|p1a: Charmeleon|[miss]
+|-miss|p2a: Clefable
+|
+|turn|10
+|choice|move 1|move 4
+|
+|move|p1a: Charmeleon|Body Slam|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|choice||switch 6
+|
+|switch|p2a: Starmie|Starmie, L79|257\/257
+|turn|11
+|choice|move 1|move 3
+|
+|move|p2a: Starmie|Surf|p1a: Charmeleon
+|-supereffective|p1a: Charmeleon
+|-damage|p1a: Charmeleon|0 fnt
+|faint|p1a: Charmeleon
+|choice|switch 4|
+|
+|switch|p1a: Jynx|Jynx, L79|265\/265
+|turn|12
+|choice|move 4|move 3
+|
+|move|p2a: Starmie|Surf|p1a: Jynx
+|-crit|p1a: Jynx
+|-damage|p1a: Jynx|101\/265
+|move|p1a: Jynx|Lovely Kiss|p2a: Starmie
+|-status|p2a: Starmie|slp
+|
+|turn|13
+|choice|move 1|switch 4
+|
+|switch|p2a: Venomoth|Venomoth, L85|293\/293
+|move|p1a: Jynx|Mimic|p2a: Venomoth
+|-start|p1a: Jynx|Mimic|Psychic
+|
+|turn|14
+|choice|move 3|move 1
+|
+|move|p2a: Venomoth|Stun Spore|p1a: Jynx
+|-status|p1a: Jynx|par
+|move|p1a: Jynx|Psychic|p2a: Venomoth
+|-supereffective|p2a: Venomoth
+|-damage|p2a: Venomoth|124\/293
+|-unboost|p2a: Venomoth|spd|1
+|-unboost|p2a: Venomoth|spa|1
+|
+|turn|15
+|choice|move 3|switch 2
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|293\/293
+|move|p1a: Jynx|Psychic|p2a: Mewtwo
+|-resisted|p2a: Mewtwo
+|-damage|p2a: Mewtwo|260\/293
+|
+|turn|16
+|c|★MALESANI|...
+|c|★MALESANI|your team is too strong
+|choice|move 2|move 3
+|
+|move|p2a: Mewtwo|Barrier|p2a: Mewtwo
+|-boost|p2a: Mewtwo|def|2
+|move|p1a: Jynx|Blizzard|p2a: Mewtwo
+|-damage|p2a: Mewtwo|165\/293
+|-status|p2a: Mewtwo|frz
+|
+|turn|17
+|choice|move 2|switch 5
+|
+|switch|p2a: Zapdos|Zapdos, L79|304\/304
+|cant|p1a: Jynx|par
+|
+|turn|18
+|c|★MALESANI|zapdos too
+|c|★MALESANI|meh
+|choice|move 2|move 2
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|c|★ankitkhetrapal|u got luck :P
+|choice|switch 5|
+|
+|switch|p1a: Dragonair|Dragonair, L85|204\/277
+|turn|19
+|c|★MALESANI|about mewtwo, yep
+|c|★MALESANI|but my team is shit :\/
+|choice|move 3|move 4
+|
+|move|p2a: Zapdos|Thunder Wave|p1a: Dragonair
+|-status|p1a: Dragonair|par
+|move|p1a: Dragonair|Thunder Wave|p2a: Zapdos
+|-status|p2a: Zapdos|par
+|
+|turn|20
+|choice|move 2|move 1
+|
+|cant|p2a: Zapdos|par
+|cant|p1a: Dragonair|par
+|
+|turn|21
+|choice|move 2|move 1
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Dragonair
+|-damage|p1a: Dragonair|116\/277 par
+|move|p1a: Dragonair|Ice Beam|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|205\/304 par
+|
+|turn|22
+|choice|move 2|move 2
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Dragonair
+|-resisted|p1a: Dragonair
+|-damage|p1a: Dragonair|55\/277 par
+|move|p1a: Dragonair|Ice Beam|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|108\/304 par
+|
+|turn|23
+|choice|move 2|move 1
+|
+|cant|p2a: Zapdos|par
+|move|p1a: Dragonair|Ice Beam|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|6\/304 par
+|
+|turn|24
+|choice|move 2|move 1
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Dragonair
+|-damage|p1a: Dragonair|0 fnt
+|faint|p1a: Dragonair
+|choice|switch 2|
+|
+|switch|p1a: Poliwrath|Poliwrath, L85|327\/327
+|turn|25
+|choice|move 3|move 4
+|
+|move|p1a: Poliwrath|Surf|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|choice||switch 2
+|
+|switch|p2a: Venomoth|Venomoth, L85|124\/293
+|turn|26
+|choice|move 3|move 1
+|
+|move|p2a: Venomoth|Stun Spore|p1a: Poliwrath
+|-status|p1a: Poliwrath|par
+|move|p1a: Poliwrath|Surf|p2a: Venomoth
+|-damage|p2a: Venomoth|43\/293
+|
+|turn|27
+|choice|move 3|move 3
+|
+|move|p2a: Venomoth|Mega Drain|p1a: Poliwrath
+|-supereffective|p1a: Poliwrath
+|-damage|p1a: Poliwrath|262\/327 par
+|-heal|p2a: Venomoth|75\/293|[from] drain|[of] p1a: Poliwrath
+|move|p1a: Poliwrath|Surf|p2a: Venomoth
+|-damage|p2a: Venomoth|0 fnt
+|faint|p2a: Venomoth
+|choice||switch 4
+|
+|switch|p2a: Starmie|Starmie, L79|257\/257 slp
+|turn|28
+|choice|move 1|move 4
+|
+|cant|p2a: Starmie|slp
+|move|p1a: Poliwrath|Amnesia|p1a: Poliwrath
+|-boost|p1a: Poliwrath|spd|2
+|-boost|p1a: Poliwrath|spa|2
+|
+|turn|29
+|choice|move 1|move 4
+|
+|cant|p2a: Starmie|slp
+|move|p1a: Poliwrath|Amnesia|p1a: Poliwrath
+|-boost|p1a: Poliwrath|spd|2
+|-boost|p1a: Poliwrath|spa|2
+|
+|turn|30
+|choice|move 3|move 4
+|
+|cant|p2a: Starmie|slp
+|move|p1a: Poliwrath|Surf|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|135\/257 slp
+|
+|turn|31
+|choice|move 3|move 4
+|
+|cant|p2a: Starmie|slp
+|move|p1a: Poliwrath|Surf|p2a: Starmie
+|-crit|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|49\/257 slp
+|
+|turn|32
+|choice|move 3|move 4
+|
+|cant|p2a: Starmie|slp
+|move|p1a: Poliwrath|Surf|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|l|ankitkhetrapal
+|player|p2
+|-message|ankitkhetrapal lost due to inactivity.
+|
+|win|MALESANI

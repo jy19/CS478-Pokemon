@@ -1,0 +1,272 @@
+﻿|j|MALESANI
+|j|Iocaste
+|player|p1|MALESANI|238
+|player|p2|Iocaste|2
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|23629,64597,50154,28663
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Charizard|Charizard, L85|306\/306
+|switch|p2a: Persian|Persian, L79|265\/265
+|turn|1
+|choice|switch 4|move 4
+|
+|switch|p1a: Haunter|Haunter, L85|250\/250
+|move|p2a: Persian|Thunderbolt|p1a: Haunter
+|-damage|p1a: Haunter|210\/250
+|
+|turn|2
+|choice|move 2|switch 4
+|
+|switch|p2a: Kangaskhan|Kangaskhan, L85|352\/352
+|move|p1a: Haunter|Confuse Ray|p2a: Kangaskhan
+|-start|p2a: Kangaskhan|confusion
+|
+|turn|3
+|choice|switch 4|move 1
+|
+|switch|p1a: Charizard|Charizard, L85|306\/306
+|-activate|p2a: Kangaskhan|confusion
+|-damage|p2a: Kangaskhan|318\/352|[from] confusion
+|
+|turn|4
+|choice|move 1|move 4
+|
+|move|p1a: Charizard|Fire Blast|p2a: Kangaskhan|[miss]
+|-miss|p1a: Charizard
+|-activate|p2a: Kangaskhan|confusion
+|-damage|p2a: Kangaskhan|284\/352|[from] confusion
+|
+|turn|5
+|choice|move 1|move 4
+|
+|move|p1a: Charizard|Fire Blast|p2a: Kangaskhan|[miss]
+|-miss|p1a: Charizard
+|-end|p2a: Kangaskhan|confusion
+|move|p2a: Kangaskhan|Surf|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|216\/306
+|
+|turn|6
+|choice|move 1|move 4
+|
+|move|p1a: Charizard|Fire Blast|p2a: Kangaskhan|[miss]
+|-miss|p1a: Charizard
+|move|p2a: Kangaskhan|Surf|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|126\/306
+|
+|turn|7
+|c|★MALESANI|stupid fire blast
+|choice|move 1|move 4
+|
+|move|p1a: Charizard|Fire Blast|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|94\/352
+|move|p2a: Kangaskhan|Surf|p1a: Charizard
+|-crit|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|choice|switch 3|
+|
+|switch|p1a: Hitmonlee|Hitmonlee, L90|273\/273
+|turn|8
+|choice|move 1|move 3
+|
+|move|p1a: Hitmonlee|Seismic Toss|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|4\/352
+|move|p2a: Kangaskhan|Counter|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|93\/273
+|
+|turn|9
+|choice|move 2|move 4
+|
+|move|p1a: Hitmonlee|Body Slam|p2a: Kangaskhan
+|-crit|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|faint|p2a: Kangaskhan
+|choice||switch 5
+|
+|switch|p2a: Jolteon|Jolteon, L79|265\/265
+|turn|10
+|choice|switch 6|move 1
+|
+|switch|p1a: Exeggutor|Exeggutor, L79|312\/312
+|move|p2a: Jolteon|Thunderbolt|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|237\/312
+|
+|turn|11
+|choice|move 1|move 3
+|
+|move|p2a: Jolteon|Thunder Wave|p1a: Exeggutor
+|-status|p1a: Exeggutor|par
+|move|p1a: Exeggutor|Sleep Powder|p2a: Jolteon
+|-status|p2a: Jolteon|slp
+|
+|turn|12
+|choice|move 4|move 1
+|
+|cant|p2a: Jolteon|slp
+|cant|p1a: Exeggutor|par
+|
+|turn|13
+|choice|move 4|move 1
+|
+|cant|p2a: Jolteon|slp
+|move|p1a: Exeggutor|Psychic|p2a: Jolteon
+|-damage|p2a: Jolteon|180\/265 slp
+|-unboost|p2a: Jolteon|spd|1
+|-unboost|p2a: Jolteon|spa|1
+|
+|turn|14
+|choice|move 4|switch 6
+|
+|switch|p2a: Kadabra|Kadabra, L85|242\/242
+|move|p1a: Exeggutor|Psychic|p2a: Kadabra
+|-resisted|p2a: Kadabra
+|-damage|p2a: Kadabra|201\/242
+|
+|turn|15
+|choice|move 3|move 1
+|
+|move|p2a: Kadabra|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|187\/312 par
+|move|p1a: Exeggutor|Hyper Beam|p2a: Kadabra
+|-crit|p2a: Kadabra
+|-damage|p2a: Kadabra|0 fnt
+|faint|p2a: Kadabra
+|choice||switch 4
+|
+|switch|p2a: Persian|Persian, L79|265\/265
+|turn|16
+|choice|switch 4|move 1
+|
+|switch|p1a: Haunter|Haunter, L85|210\/250
+|move|p2a: Persian|Slash|p1a: Haunter
+|-immune|p1a: Haunter|[msg]
+|
+|turn|17
+|choice|move 3|move 4
+|
+|move|p2a: Persian|Thunderbolt|p1a: Haunter
+|-damage|p1a: Haunter|170\/250
+|move|p1a: Haunter|Psychic|p2a: Persian
+|-damage|p2a: Persian|168\/265
+|-unboost|p2a: Persian|spd|1
+|-unboost|p2a: Persian|spa|1
+|
+|turn|18
+|choice|move 3|move 4
+|
+|move|p2a: Persian|Thunderbolt|p1a: Haunter
+|-crit|p1a: Haunter
+|-damage|p1a: Haunter|99\/250
+|move|p1a: Haunter|Psychic|p2a: Persian
+|-damage|p2a: Persian|32\/265
+|
+|turn|19
+|choice|move 4|move 4
+|
+|move|p2a: Persian|Thunderbolt|p1a: Haunter
+|-damage|p1a: Haunter|73\/250
+|move|p1a: Haunter|Thunderbolt|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|faint|p2a: Persian
+|choice||switch 6
+|
+|switch|p2a: Jolteon|Jolteon, L79|180\/265 slp
+|turn|20
+|choice|move 3|move 1
+|
+|cant|p2a: Jolteon|slp
+|move|p1a: Haunter|Psychic|p2a: Jolteon
+|-damage|p2a: Jolteon|115\/265 slp
+|
+|turn|21
+|choice|move 2|move 1
+|
+|cant|p2a: Jolteon|slp
+|move|p1a: Haunter|Confuse Ray|p2a: Jolteon
+|-start|p2a: Jolteon|confusion
+|
+|turn|22
+|choice|move 3|move 1
+|
+|-curestatus|p2a: Jolteon|slp
+|move|p1a: Haunter|Psychic|p2a: Jolteon
+|-crit|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|choice||switch 2
+|
+|switch|p2a: Seaking|Seaking, L90|327\/327
+|turn|23
+|choice|move 1|move 3
+|
+|move|p1a: Haunter|Hypnosis|p2a: Seaking
+|-status|p2a: Seaking|slp
+|-curestatus|p2a: Seaking|slp
+|
+|turn|24
+|choice|move 1|move 3
+|
+|move|p1a: Haunter|Hypnosis|p2a: Seaking
+|-status|p2a: Seaking|slp
+|cant|p2a: Seaking|slp
+|
+|turn|25
+|choice|move 4|move 3
+|
+|move|p1a: Haunter|Thunderbolt|p2a: Seaking
+|-supereffective|p2a: Seaking
+|-damage|p2a: Seaking|161\/327 slp
+|cant|p2a: Seaking|slp
+|
+|turn|26
+|choice|move 2|move 3
+|
+|move|p1a: Haunter|Confuse Ray|p2a: Seaking
+|-start|p2a: Seaking|confusion
+|cant|p2a: Seaking|slp
+|
+|turn|27
+|choice|move 4|move 3
+|
+|move|p1a: Haunter|Thunderbolt|p2a: Seaking
+|-supereffective|p2a: Seaking
+|-damage|p2a: Seaking|16\/327 slp
+|-curestatus|p2a: Seaking|slp
+|
+|turn|28
+|choice|move 3|move 3
+|
+|move|p1a: Haunter|Psychic|p2a: Seaking
+|-crit|p2a: Seaking
+|-damage|p2a: Seaking|0 fnt
+|faint|p2a: Seaking
+|choice||switch 3
+|
+|switch|p2a: Machoke|Machoke, L85|310\/310
+|turn|29
+|choice|move 3|move 1
+|
+|move|p1a: Haunter|Psychic|p2a: Machoke
+|-crit|p2a: Machoke
+|-supereffective|p2a: Machoke
+|-damage|p2a: Machoke|0 fnt
+|faint|p2a: Machoke
+|
+|win|MALESANI
+|player|p1
+|player|p2
+|raw|MALESANI's rating: 1447 &rarr; <strong>1456<\/strong><br \/>(+9 for winning)
+|raw|Iocaste's rating: 1234 &rarr; <strong>1223<\/strong><br \/>(-11 for losing)

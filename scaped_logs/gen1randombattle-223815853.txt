@@ -1,0 +1,231 @@
+﻿|join|CptSalami
+|join|gen1masterrony
+|player|p1|CptSalami|169
+|player|p2|gen1masterrony|169
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Sandshrew|Sandshrew, L96|291\/291
+|switch|p2a: Zubat|Zubat, L96|272\/272
+|turn|1
+|
+|move|p2a: Zubat|Confuse Ray|p1a: Sandshrew
+|-start|p1a: Sandshrew|confusion
+|-activate|p1a: Sandshrew|confusion
+|-damage|p1a: Sandshrew|260\/291|[from] confusion
+|
+|turn|2
+|
+|move|p2a: Zubat|Mega Drain|p1a: Sandshrew
+|-supereffective|p1a: Sandshrew
+|-damage|p1a: Sandshrew|189\/291
+|-activate|p1a: Sandshrew|confusion
+|move|p1a: Sandshrew|Rock Slide|p2a: Zubat|[miss]
+|-miss|p1a: Sandshrew
+|
+|turn|3
+|
+|switch|p2a: Blastoise|Blastoise, L85|308\/308
+|-activate|p1a: Sandshrew|confusion
+|-damage|p1a: Sandshrew|158\/291|[from] confusion
+|
+|turn|4
+|
+|switch|p1a: Lapras|Lapras, L79|367\/367
+|move|p2a: Blastoise|Earthquake|p1a: Lapras
+|-damage|p1a: Lapras|296\/367
+|
+|turn|5
+|
+|switch|p2a: Primeape|Primeape, L85|284\/284
+|move|p1a: Lapras|Thunderbolt|p2a: Primeape
+|-damage|p2a: Primeape|217\/284
+|
+|turn|6
+|
+|switch|p1a: Alakazam|Alakazam, L79|249\/249
+|move|p2a: Primeape|Submission|p1a: Alakazam|[miss]
+|-miss|p2a: Primeape
+|
+|turn|7
+|
+|switch|p2a: Blastoise|Blastoise, L85|308\/308
+|move|p1a: Alakazam|Psychic|p2a: Blastoise
+|-damage|p2a: Blastoise|208\/308
+|
+|turn|8
+|
+|switch|p1a: Lapras|Lapras, L79|296\/367
+|move|p2a: Blastoise|Earthquake|p1a: Lapras
+|-damage|p1a: Lapras|220\/367
+|
+|turn|9
+|
+|switch|p2a: Primeape|Primeape, L85|217\/284
+|move|p1a: Lapras|Thunderbolt|p2a: Primeape
+|-crit|p2a: Primeape
+|-damage|p2a: Primeape|75\/284
+|-status|p2a: Primeape|par
+|
+|turn|10
+|
+|move|p1a: Lapras|Thunderbolt|p2a: Primeape
+|-damage|p2a: Primeape|4\/284 par
+|move|p2a: Primeape|Rock Slide|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|80\/367
+|
+|turn|11
+|
+|move|p1a: Lapras|Thunderbolt|p2a: Primeape
+|-damage|p2a: Primeape|0 fnt
+|faint|p2a: Primeape
+|
+|switch|p2a: Blastoise|Blastoise, L85|208\/308
+|turn|12
+|
+|move|p2a: Blastoise|Body Slam|p1a: Lapras
+|-crit|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|
+|switch|p1a: Vaporeon|Vaporeon, L85|395\/395
+|turn|13
+|
+|move|p2a: Blastoise|Body Slam|p1a: Vaporeon
+|-damage|p1a: Vaporeon|328\/395
+|-status|p1a: Vaporeon|par
+|cant|p1a: Vaporeon|par
+|
+|turn|14
+|
+|move|p2a: Blastoise|Body Slam|p1a: Vaporeon
+|-damage|p1a: Vaporeon|262\/395 par
+|cant|p1a: Vaporeon|par
+|
+|turn|15
+|
+|move|p2a: Blastoise|Mimic|p1a: Vaporeon
+|-start|p2a: Blastoise|Mimic|Hydro Pump
+|move|p1a: Vaporeon|Blizzard|p2a: Blastoise
+|-resisted|p2a: Blastoise
+|-damage|p2a: Blastoise|164\/308
+|
+|turn|16
+|
+|switch|p1a: Metapod|Metapod, L99|300\/300
+|move|p2a: Blastoise|Hydro Pump|p1a: Metapod
+|-crit|p1a: Metapod
+|-damage|p1a: Metapod|0 fnt
+|faint|p1a: Metapod
+|
+|switch|p1a: Vaporeon|Vaporeon, L85|262\/395 par
+|turn|17
+|
+|move|p2a: Blastoise|Body Slam|p1a: Vaporeon
+|-damage|p1a: Vaporeon|192\/395 par
+|move|p1a: Vaporeon|Blizzard|p2a: Blastoise
+|-resisted|p2a: Blastoise
+|-damage|p2a: Blastoise|116\/308
+|
+|turn|18
+|
+|move|p2a: Blastoise|Hydro Pump|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|143\/395 par
+|cant|p1a: Vaporeon|par
+|
+|turn|19
+|
+|move|p2a: Blastoise|Earthquake|p1a: Vaporeon
+|-crit|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|
+|switch|p1a: Sandshrew|Sandshrew, L96|158\/291
+|turn|20
+|
+|move|p2a: Blastoise|Hydro Pump|p1a: Sandshrew
+|-supereffective|p1a: Sandshrew
+|-damage|p1a: Sandshrew|0 fnt
+|faint|p1a: Sandshrew
+|
+|switch|p1a: Alakazam|Alakazam, L79|249\/249
+|turn|21
+|
+|move|p1a: Alakazam|Psychic|p2a: Blastoise
+|-damage|p2a: Blastoise|16\/308
+|move|p2a: Blastoise|Earthquake|p1a: Alakazam
+|-damage|p1a: Alakazam|146\/249
+|
+|turn|22
+|
+|move|p1a: Alakazam|Psychic|p2a: Blastoise
+|-crit|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|
+|switch|p2a: Dragonair|Dragonair, L85|277\/277
+|turn|23
+|
+|move|p1a: Alakazam|Psychic|p2a: Dragonair
+|-damage|p2a: Dragonair|155\/277
+|move|p2a: Dragonair|Hyper Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|switch|p1a: Mewtwo|Mewtwo, L70|293\/293
+|turn|24
+|
+|move|p1a: Mewtwo|Body Slam|p2a: Dragonair
+|-crit|p2a: Dragonair
+|-damage|p2a: Dragonair|54\/277
+|-status|p2a: Dragonair|par
+|move|p2a: Dragonair|Thunder Wave|p1a: Mewtwo
+|-status|p1a: Mewtwo|par
+|
+|turn|25
+|
+|move|p1a: Mewtwo|Body Slam|p2a: Dragonair
+|-damage|p2a: Dragonair|1\/277 par
+|move|p2a: Dragonair|Hyper Beam|p1a: Mewtwo|[miss]
+|-miss|p2a: Dragonair
+|
+|turn|26
+|
+|cant|p1a: Mewtwo|par
+|move|p2a: Dragonair|Body Slam|p1a: Mewtwo
+|-damage|p1a: Mewtwo|222\/293 par
+|
+|turn|27
+|
+|cant|p1a: Mewtwo|par
+|move|p2a: Dragonair|Hyper Beam|p1a: Mewtwo
+|-damage|p1a: Mewtwo|110\/293 par
+|
+|turn|28
+|
+|move|p1a: Mewtwo|Body Slam|p2a: Dragonair
+|-damage|p2a: Dragonair|0 fnt
+|faint|p2a: Dragonair
+|
+|switch|p2a: Onix|Onix, L85|233\/233
+|turn|29
+|
+|move|p2a: Onix|Explosion|p1a: Mewtwo
+|-damage|p1a: Mewtwo|0 fnt
+|faint|p1a: Mewtwo
+|faint|p2a: Onix
+|
+|win|gen1masterrony
+|raw|Ladder updating...
+|raw|CptSalami's rating: 1000 &rarr; <strong>1000<\/strong><br \/>(+0 for losing)
+|raw|gen1masterrony's rating: 1219 &rarr; <strong>1230<\/strong><br \/>(+11 for winning)
+|leave|CptSalami
+|player|p1

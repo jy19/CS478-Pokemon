@@ -1,0 +1,273 @@
+﻿|join|Life's Pointless
+|join|jksdlkfjdlk
+|player|p1|Life's Pointless|95
+|player|p2|jksdlkfjdlk|266
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Wartortle|Wartortle, L85|274\/274
+|switch|p2a: Diglett|Diglett, L96|214\/214
+|turn|1
+|
+|switch|p2a: Seaking|Seaking, L90|327\/327
+|move|p1a: Wartortle|Surf|p2a: Seaking
+|-resisted|p2a: Seaking
+|-damage|p2a: Seaking|286\/327
+|
+|turn|2
+|
+|move|p2a: Seaking|Double-Edge|p1a: Wartortle
+|-damage|p1a: Wartortle|194\/274
+|-damage|p2a: Seaking|266\/327|[from] recoil|[of] p1a: Wartortle
+|move|p1a: Wartortle|Body Slam|p2a: Seaking
+|-damage|p2a: Seaking|208\/327
+|
+|turn|3
+|
+|move|p2a: Seaking|Double-Edge|p1a: Wartortle
+|-damage|p1a: Wartortle|114\/274
+|-damage|p2a: Seaking|188\/327|[from] recoil|[of] p1a: Wartortle
+|move|p1a: Wartortle|Body Slam|p2a: Seaking
+|-damage|p2a: Seaking|135\/327
+|
+|turn|4
+|
+|move|p2a: Seaking|Surf|p1a: Wartortle
+|-crit|p1a: Wartortle
+|-resisted|p1a: Wartortle
+|-damage|p1a: Wartortle|2\/274
+|move|p1a: Wartortle|Body Slam|p2a: Seaking
+|-damage|p2a: Seaking|77\/327
+|
+|turn|5
+|
+|move|p2a: Seaking|Surf|p1a: Wartortle
+|-resisted|p1a: Wartortle
+|-damage|p1a: Wartortle|0 fnt
+|faint|p1a: Wartortle
+|
+|switch|p1a: Pidgeot|Pidgeot, L90|333\/333
+|turn|6
+|
+|move|p1a: Pidgeot|Double-Edge|p2a: Seaking
+|-damage|p2a: Seaking|0 fnt
+|-damage|p1a: Pidgeot|314\/333|[from] recoil|[of] p2a: Seaking
+|faint|p2a: Seaking
+|
+|switch|p2a: Cloyster|Cloyster, L83|253\/253
+|turn|7
+|
+|switch|p1a: Vaporeon|Vaporeon, L85|395\/395
+|move|p2a: Cloyster|Blizzard|p1a: Vaporeon
+|-crit|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|305\/395
+|
+|turn|8
+|
+|switch|p2a: Exeggutor|Exeggutor, L79|312\/312
+|move|p1a: Vaporeon|Body Slam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|259\/312
+|
+|turn|9
+|
+|move|p1a: Vaporeon|Blizzard|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|98\/312
+|move|p2a: Exeggutor|Sleep Powder|p1a: Vaporeon
+|-status|p1a: Vaporeon|slp
+|
+|turn|10
+|
+|switch|p1a: Exeggutor|Exeggutor, L79|312\/312
+|move|p2a: Exeggutor|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|270\/312
+|-unboost|p1a: Exeggutor|spd|1
+|-unboost|p1a: Exeggutor|spa|1
+|
+|turn|11
+|
+|move|p2a: Exeggutor|Explosion|p1a: Exeggutor
+|-damage|p1a: Exeggutor|37\/312
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Zapdos|Zapdos, L79|304\/304
+|turn|12
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Electabuzz|Electabuzz, L85|284\/284
+|turn|13
+|
+|switch|p2a: Diglett|Diglett, L96|214\/214
+|move|p1a: Electabuzz|Thunder Wave|p2a: Diglett
+|-immune|p2a: Diglett|[msg]
+|
+|turn|14
+|
+|switch|p1a: Pidgeot|Pidgeot, L90|314\/333
+|move|p2a: Diglett|Earthquake|p1a: Pidgeot
+|-immune|p1a: Pidgeot|[msg]
+|
+|turn|15
+|
+|move|p2a: Diglett|Slash|p1a: Pidgeot
+|-crit|p1a: Pidgeot
+|-damage|p1a: Pidgeot|215\/333
+|move|p1a: Pidgeot|Double-Edge|p2a: Diglett
+|-damage|p2a: Diglett|43\/214
+|-damage|p1a: Pidgeot|173\/333|[from] recoil|[of] p2a: Diglett
+|
+|turn|16
+|
+|switch|p2a: Cloyster|Cloyster, L83|253\/253
+|move|p1a: Pidgeot|Double-Edge|p2a: Cloyster
+|-damage|p2a: Cloyster|191\/253
+|-damage|p1a: Pidgeot|158\/333|[from] recoil|[of] p2a: Cloyster
+|
+|turn|17
+|
+|switch|p1a: Vaporeon|Vaporeon, L85|305\/395 slp
+|move|p2a: Cloyster|Blizzard|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|255\/395 slp
+|
+|turn|18
+|
+|switch|p2a: Zapdos|Zapdos, L79|304\/304
+|cant|p1a: Vaporeon|slp
+|
+|turn|19
+|
+|move|p2a: Zapdos|Thunder Wave|p1a: Vaporeon
+|-fail|p1a: Vaporeon
+|cant|p1a: Vaporeon|slp
+|
+|turn|20
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|84\/395 slp
+|cant|p1a: Vaporeon|slp
+|
+|turn|21
+|
+|switch|p1a: Electabuzz|Electabuzz, L85|284\/284
+|move|p2a: Zapdos|Thunderbolt|p1a: Electabuzz
+|-crit|p1a: Electabuzz
+|-resisted|p1a: Electabuzz
+|-damage|p1a: Electabuzz|176\/284
+|
+|turn|22
+|
+|move|p1a: Electabuzz|Thunder Wave|p2a: Zapdos
+|-status|p2a: Zapdos|par
+|move|p2a: Zapdos|Thunder Wave|p1a: Electabuzz
+|-status|p1a: Electabuzz|par
+|
+|turn|23
+|
+|switch|p2a: Butterfree|Butterfree, L90|291\/291
+|move|p1a: Electabuzz|Thunderbolt|p2a: Butterfree
+|-supereffective|p2a: Butterfree
+|-damage|p2a: Butterfree|108\/291
+|
+|turn|24
+|
+|move|p2a: Butterfree|Psychic|p1a: Electabuzz
+|-damage|p1a: Electabuzz|111\/284 par
+|cant|p1a: Electabuzz|par
+|
+|turn|25
+|
+|move|p2a: Butterfree|Psychic|p1a: Electabuzz
+|-damage|p1a: Electabuzz|42\/284 par
+|-unboost|p1a: Electabuzz|spd|1
+|-unboost|p1a: Electabuzz|spa|1
+|move|p1a: Electabuzz|Thunderbolt|p2a: Butterfree
+|-crit|p2a: Butterfree
+|-supereffective|p2a: Butterfree
+|-damage|p2a: Butterfree|0 fnt
+|faint|p2a: Butterfree
+|
+|switch|p2a: Diglett|Diglett, L96|43\/214
+|turn|26
+|
+|move|p2a: Diglett|Slash|p1a: Electabuzz
+|-crit|p1a: Electabuzz
+|-damage|p1a: Electabuzz|0 fnt
+|faint|p1a: Electabuzz
+|
+|switch|p1a: Pidgeot|Pidgeot, L90|158\/333
+|turn|27
+|
+|move|p2a: Diglett|Slash|p1a: Pidgeot
+|-crit|p1a: Pidgeot
+|-damage|p1a: Pidgeot|63\/333
+|move|p1a: Pidgeot|Double-Edge|p2a: Diglett
+|-damage|p2a: Diglett|0 fnt
+|-damage|p1a: Pidgeot|53\/333|[from] recoil|[of] p2a: Diglett
+|faint|p2a: Diglett
+|
+|switch|p2a: Cloyster|Cloyster, L83|191\/253
+|turn|28
+|
+|move|p1a: Pidgeot|Double-Edge|p2a: Cloyster
+|-damage|p2a: Cloyster|130\/253
+|-damage|p1a: Pidgeot|38\/333|[from] recoil|[of] p2a: Cloyster
+|move|p2a: Cloyster|Blizzard|p1a: Pidgeot
+|-crit|p1a: Pidgeot
+|-supereffective|p1a: Pidgeot
+|-damage|p1a: Pidgeot|0 fnt
+|faint|p1a: Pidgeot
+|
+|switch|p1a: Moltres|Moltres, L85|327\/327
+|turn|29
+|
+|move|p1a: Moltres|Fire Blast|p2a: Cloyster|[miss]
+|-miss|p1a: Moltres
+|move|p2a: Cloyster|Blizzard|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|163\/327
+|
+|turn|30
+|
+|move|p1a: Moltres|Fire Blast|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p2a: Cloyster
+|
+|switch|p2a: Zapdos|Zapdos, L79|304\/304 par
+|turn|31
+|
+|move|p1a: Moltres|Fire Blast|p2a: Zapdos
+|-damage|p2a: Zapdos|164\/304 par
+|move|p2a: Zapdos|Thunder Wave|p1a: Moltres
+|-status|p1a: Moltres|par
+|
+|turn|32
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|10\/327 par
+|move|p1a: Moltres|Fire Blast|p2a: Zapdos|[miss]
+|-miss|p1a: Moltres
+|
+|turn|33
+|-message|Life's Pointless forfeited.
+|
+|win|jksdlkfjdlk
+|raw|Ladder updating...
+|leave|Life's Pointless
+|player|p1
+|raw|Life&apos;s Pointless's rating: 1250 &rarr; <strong>1210<\/strong><br \/>(-40 for losing)
+|raw|jksdlkfjdlk's rating: 1000 &rarr; <strong>1065<\/strong><br \/>(+65 for winning)

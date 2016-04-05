@@ -1,0 +1,248 @@
+﻿|join|Lusch
+|join|Rocknlol
+|player|p1|Lusch|153
+|player|p2|Rocknlol|125
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Flareon|Flareon, L86|287\/287
+|switch|p2a: Rapidash|Rapidash, L86|287\/287
+|turn|1
+|
+|move|p2a: Rapidash|Body Slam|p1a: Flareon
+|-damage|p1a: Flareon|213\/287
+|move|p1a: Flareon|Body Slam|p2a: Rapidash
+|-damage|p2a: Rapidash|206\/287
+|-status|p2a: Rapidash|par
+|
+|turn|2
+|
+|switch|p2a: Persian|Persian, L82|274\/274
+|move|p1a: Flareon|Body Slam|p2a: Persian
+|-crit|p2a: Persian
+|-damage|p2a: Persian|74\/274
+|
+|turn|3
+|
+|switch|p1a: Magikarp|Magikarp, L99|240\/240
+|move|p2a: Persian|Bubble Beam|p1a: Magikarp
+|-crit|p1a: Magikarp
+|-resisted|p1a: Magikarp
+|-damage|p1a: Magikarp|187\/240
+|
+|turn|4
+|
+|move|p2a: Persian|Thunderbolt|p1a: Magikarp
+|-supereffective|p1a: Magikarp
+|-damage|p1a: Magikarp|27\/240
+|move|p1a: Magikarp|Dragon Rage|p2a: Persian
+|-damage|p2a: Persian|34\/274
+|
+|turn|5
+|
+|move|p2a: Persian|Body Slam|p1a: Magikarp
+|-damage|p1a: Magikarp|0 fnt
+|faint|p1a: Magikarp
+|
+|switch|p1a: Flareon|Flareon, L86|213\/287
+|turn|6
+|
+|move|p1a: Flareon|Quick Attack|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|faint|p2a: Persian
+|
+|switch|p2a: Raichu|Raichu, L86|279\/279
+|turn|7
+|
+|move|p2a: Raichu|Surf|p1a: Flareon
+|-supereffective|p1a: Flareon
+|-damage|p1a: Flareon|103\/287
+|move|p1a: Flareon|Body Slam|p2a: Raichu
+|-damage|p2a: Raichu|171\/279
+|-status|p2a: Raichu|par
+|
+|turn|8
+|
+|switch|p1a: Parasect|Parasect, L86|279\/279
+|move|p2a: Raichu|Surf|p1a: Parasect
+|-crit|p1a: Parasect
+|-resisted|p1a: Parasect
+|-damage|p1a: Parasect|214\/279
+|
+|turn|9
+|
+|move|p1a: Parasect|Mega Drain|p2a: Raichu
+|-crit|p2a: Raichu
+|-damage|p2a: Raichu|94\/279 par
+|-heal|p1a: Parasect|252\/279|[from] drain|[of] p2a: Raichu
+|move|p2a: Raichu|Body Slam|p1a: Parasect
+|-damage|p1a: Parasect|189\/279
+|
+|turn|10
+|
+|move|p1a: Parasect|Slash|p2a: Raichu
+|-damage|p2a: Raichu|30\/279 par
+|cant|p2a: Raichu|par
+|
+|turn|11
+|
+|move|p1a: Parasect|Mega Drain|p2a: Raichu
+|-damage|p2a: Raichu|0 fnt
+|-heal|p1a: Parasect|204\/279|[from] drain|[of] p2a: Raichu
+|faint|p2a: Raichu
+|
+|switch|p2a: Nidorino|Nidorino, L88|287\/287
+|turn|12
+|
+|move|p2a: Nidorino|Blizzard|p1a: Parasect
+|-supereffective|p1a: Parasect
+|-damage|p1a: Parasect|57\/279
+|move|p1a: Parasect|Stun Spore|p2a: Nidorino
+|-status|p2a: Nidorino|par
+|
+|turn|13
+|
+|move|p1a: Parasect|Slash|p2a: Nidorino
+|-damage|p2a: Nidorino|222\/287 par
+|move|p2a: Nidorino|Blizzard|p1a: Parasect
+|-supereffective|p1a: Parasect
+|-damage|p1a: Parasect|0 fnt
+|faint|p1a: Parasect
+|
+|switch|p1a: Ninetales|Ninetales, L86|301\/301
+|turn|14
+|
+|move|p1a: Ninetales|Confuse Ray|p2a: Nidorino
+|-start|p2a: Nidorino|confusion
+|cant|p2a: Nidorino|par
+|
+|turn|15
+|
+|switch|p2a: Primeape|Primeape, L86|287\/287
+|move|p1a: Ninetales|Fire Spin|p2a: Primeape
+|-damage|p2a: Primeape|265\/287
+|-activate|p2a: Primeape|move: Fire Spin|[of] p1a: Ninetales
+|
+|turn|16
+|
+|move|p1a: Ninetales|Fire Spin|p2a: Primeape
+|-damage|p2a: Primeape|243\/287
+|cant|p2a: Primeape|partiallytrapped
+|
+|-end|p2a: Primeape|Fire Spin|[partiallytrapped]
+|turn|17
+|
+|move|p1a: Ninetales|Confuse Ray|p2a: Primeape
+|-start|p2a: Primeape|confusion
+|-activate|p2a: Primeape|confusion
+|move|p2a: Primeape|Rock Slide|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|173\/301
+|
+|turn|18
+|
+|move|p1a: Ninetales|Fire Spin|p2a: Primeape|[miss]
+|-miss|p1a: Ninetales
+|-activate|p2a: Primeape|confusion
+|-damage|p2a: Primeape|201\/287|[from] confusion
+|
+|turn|19
+|
+|move|p1a: Ninetales|Fire Spin|p2a: Primeape
+|-damage|p2a: Primeape|181\/287
+|-activate|p2a: Primeape|move: Fire Spin|[of] p1a: Ninetales
+|cant|p2a: Primeape|partiallytrapped
+|
+|turn|20
+|
+|move|p1a: Ninetales|Fire Spin|p2a: Primeape
+|-damage|p2a: Primeape|161\/287
+|cant|p2a: Primeape|partiallytrapped
+|
+|turn|21
+|c|★Lusch|sorry  my connection seems to be bad
+|
+|move|p1a: Ninetales|Fire Spin|p2a: Primeape
+|-damage|p2a: Primeape|141\/287
+|cant|p2a: Primeape|partiallytrapped
+|
+|-end|p2a: Primeape|Fire Spin|[partiallytrapped]
+|turn|22
+|c|★Rocknlol|np
+|
+|move|p1a: Ninetales|Fire Blast|p2a: Primeape
+|-damage|p2a: Primeape|0 fnt
+|faint|p2a: Primeape
+|
+|switch|p2a: Rapidash|Rapidash, L86|206\/287 par
+|turn|23
+|
+|move|p1a: Ninetales|Confuse Ray|p2a: Rapidash
+|-start|p2a: Rapidash|confusion
+|-activate|p2a: Rapidash|confusion
+|-damage|p2a: Rapidash|169\/287 par|[from] confusion
+|
+|turn|24
+|
+|move|p1a: Ninetales|Fire Spin|p2a: Rapidash|[miss]
+|-miss|p1a: Ninetales
+|cant|p2a: Rapidash|par
+|
+|turn|25
+|
+|move|p1a: Ninetales|Fire Spin|p2a: Rapidash|[miss]
+|-miss|p1a: Ninetales
+|-activate|p2a: Rapidash|confusion
+|move|p2a: Rapidash|Body Slam|p1a: Ninetales
+|-damage|p1a: Ninetales|98\/301
+|
+|turn|26
+|
+|move|p1a: Ninetales|Fire Spin|p2a: Rapidash
+|-resisted|p2a: Rapidash
+|-damage|p2a: Rapidash|161\/287 par
+|-activate|p2a: Rapidash|move: Fire Spin|[of] p1a: Ninetales
+|cant|p2a: Rapidash|partiallytrapped
+|
+|turn|27
+|
+|switch|p1a: Flareon|Flareon, L86|103\/287
+|cant|p2a: Rapidash|partiallytrapped
+|
+|-end|p2a: Rapidash|Fire Spin|[partiallytrapped]
+|turn|28
+|
+|move|p1a: Flareon|Body Slam|p2a: Rapidash
+|-crit|p2a: Rapidash
+|-damage|p2a: Rapidash|0 fnt
+|faint|p2a: Rapidash
+|
+|switch|p2a: Nidorino|Nidorino, L88|222\/287 par
+|turn|29
+|
+|move|p1a: Flareon|Fire Blast|p2a: Nidorino
+|-damage|p2a: Nidorino|35\/287 par
+|move|p2a: Nidorino|Thunderbolt|p1a: Flareon
+|-damage|p1a: Flareon|59\/287
+|
+|turn|30
+|
+|move|p1a: Flareon|Body Slam|p2a: Nidorino
+|-damage|p2a: Nidorino|0 fnt
+|faint|p2a: Nidorino
+|
+|switch|p2a: Parasect|Parasect, L86|279\/279
+|turn|31
+|
+|move|p1a: Flareon|Fire Blast|p2a: Parasect
+|-supereffective|p2a: Parasect
+|-damage|p2a: Parasect|0 fnt
+|faint|p2a: Parasect
+|
+|win|Lusch
+|c|★Rocknlol|gg

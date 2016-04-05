@@ -1,0 +1,80 @@
+﻿|join|yaldyyyy
+|join|LDDB13
+|player|p1|yaldyyyy|275
+|player|p2|LDDB13|2
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Dragonair|Dragonair, L85|277\/277
+|switch|p2a: Butterfree|Butterfree, L90|291\/291
+|turn|1
+|
+|switch|p2a: Dragonair|Dragonair, L85|277\/277
+|move|p1a: Dragonair|Blizzard|p2a: Dragonair
+|-supereffective|p2a: Dragonair
+|-damage|p2a: Dragonair|110\/277
+|
+|turn|2
+|
+|move|p1a: Dragonair|Blizzard|p2a: Dragonair
+|-crit|p2a: Dragonair
+|-supereffective|p2a: Dragonair
+|-damage|p2a: Dragonair|0 fnt
+|faint|p2a: Dragonair
+|
+|switch|p2a: Ditto|Ditto, L99|296\/296
+|turn|3
+|
+|move|p1a: Dragonair|Blizzard|p2a: Ditto
+|-damage|p2a: Ditto|213\/296
+|-status|p2a: Ditto|frz
+|cant|p2a: Ditto|frz
+|
+|turn|4
+|
+|switch|p1a: Kadabra|Kadabra, L85|242\/242
+|cant|p2a: Ditto|frz
+|
+|turn|5
+|
+|switch|p2a: Marowak|Marowak, L90|291\/291
+|move|p1a: Kadabra|Reflect|p1a: Kadabra
+|-start|p1a: Kadabra|Reflect
+|
+|turn|6
+|
+|switch|p1a: Dragonair|Dragonair, L85|277\/277
+|move|p2a: Marowak|Earthquake|p1a: Dragonair
+|-crit|p1a: Dragonair
+|-damage|p1a: Dragonair|45\/277
+|
+|turn|7
+|
+|move|p1a: Dragonair|Blizzard|p2a: Marowak
+|-supereffective|p2a: Marowak
+|-damage|p2a: Marowak|95\/291
+|move|p2a: Marowak|Earthquake|p1a: Dragonair
+|-damage|p1a: Dragonair|0 fnt
+|faint|p1a: Dragonair
+|
+|switch|p1a: Kadabra|Kadabra, L85|242\/242
+|turn|8
+|
+|move|p1a: Kadabra|Psychic|p2a: Marowak
+|-damage|p2a: Marowak|0 fnt
+|faint|p2a: Marowak
+|
+|switch|p2a: Butterfree|Butterfree, L90|291\/291
+|turn|9
+|-message|LDDB13 forfeited.
+|
+|win|yaldyyyy
+|raw|Ladder updating...
+|leave|LDDB13
+|player|p2

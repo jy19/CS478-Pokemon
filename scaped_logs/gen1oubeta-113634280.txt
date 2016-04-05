@@ -1,0 +1,197 @@
+﻿|join|kid gf lol
+|join|Piexplode
+|player|p1|kid gf lol|168
+|player|p2|Piexplode|32
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|switch|p1a: Zam Lead|Alakazam|313\/313
+|switch|p2a: Alakazam|Alakazam|313\/313
+|turn|1
+|chat|Piexplode|gl hf
+|
+|switch|p1a: Egg Kangaroo|Chansey|703\/703
+|switch|p2a: Chansey|Chansey|703\/703
+|
+|turn|2
+|
+|move|p1a: Egg Kangaroo|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|623\/703
+|move|p2a: Chansey|Ice Beam|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|632\/703
+|
+|turn|3
+|
+|switch|p1a: Clamp Bot|Cloyster|303\/303
+|move|p2a: Chansey|Ice Beam|p1a: Clamp Bot
+|-resisted|p1a: Clamp Bot
+|-damage|p1a: Clamp Bot|282\/303
+|
+|turn|4
+|
+|move|p1a: Clamp Bot|Clamp|p2a: Chansey
+|-damage|p2a: Chansey|587\/703
+|-activate|p2a: Chansey|move: Clamp|[of] p1a: Clamp Bot
+|cant|p2a: Chansey|partiallytrapped
+|
+|turn|5
+|
+|switch|p2a: Zapdos|Zapdos|383\/383
+|move|p1a: Clamp Bot|Clamp|p2a: Zapdos
+|-damage|p2a: Zapdos|351\/383
+|-activate|p2a: Zapdos|move: Clamp|[of] p1a: Clamp Bot
+|
+|turn|6
+|
+|cant|p2a: Zapdos|partiallytrapped
+|move|p1a: Clamp Bot|Clamp|p2a: Zapdos
+|-damage|p2a: Zapdos|315\/383
+|
+|turn|7
+|
+|cant|p2a: Zapdos|partiallytrapped
+|move|p1a: Clamp Bot|Clamp|p2a: Zapdos
+|-damage|p2a: Zapdos|279\/383
+|
+|-end|p2a: Zapdos|Clamp|[partiallytrapped]
+|turn|8
+|
+|switch|p1a: Egg Kangaroo|Chansey|632\/703
+|move|p2a: Zapdos|Toxic|p1a: Egg Kangaroo
+|-status|p1a: Egg Kangaroo|tox
+|
+|turn|9
+|
+|switch|p2a: Raichu|Raichu|323\/323
+|switch|p1a: TNT|Golem|363\/363
+|
+|turn|10
+|
+|switch|p1a: Result of Incest|Exeggutor|393\/393
+|move|p2a: Raichu|Surf|p1a: Result of Incest
+|-resisted|p1a: Result of Incest
+|-damage|p1a: Result of Incest|364\/393
+|
+|turn|11
+|
+|switch|p2a: Alakazam|Alakazam|313\/313
+|move|p1a: Result of Incest|Sleep Powder|p2a: Alakazam
+|-status|p2a: Alakazam|slp
+|
+|turn|12
+|
+|switch|p2a: Chansey|Chansey|587\/703
+|move|p1a: Result of Incest|Leech Seed|p2a: Chansey
+|-start|p2a: Chansey|move: Leech Seed
+|-damage|p2a: Chansey|544\/703|[from] move: Leech Seed|[of] p1a: Result of Incest
+|-heal|p1a: Result of Incest|393\/393|[silent]
+|
+|turn|13
+|
+|switch|p1a: Egg Kangaroo|Chansey|632\/703 tox
+|-status|p1a: Egg Kangaroo|psn
+|-damage|p1a: Egg Kangaroo|589\/703 psn|[from] psn
+|switch|p2a: Zapdos|Zapdos|279\/383
+|
+|turn|14
+|
+|switch|p2a: Chansey|Chansey|544\/703
+|move|p1a: Egg Kangaroo|Reflect|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|546\/703 psn|[from] psn
+|
+|turn|15
+|
+|switch|p2a: Raichu|Raichu|323\/323
+|move|p1a: Egg Kangaroo|Ice Beam|p2a: Raichu
+|-damage|p2a: Raichu|238\/323
+|-damage|p1a: Egg Kangaroo|503\/703 psn|[from] psn|[of] p2a: Raichu
+|
+|turn|16
+|
+|move|p2a: Raichu|Mimic|p1a: Egg Kangaroo
+|-start|p2a: Raichu|Mimic|Reflect
+|move|p1a: Egg Kangaroo|Ice Beam|p2a: Raichu
+|-damage|p2a: Raichu|154\/323
+|-damage|p1a: Egg Kangaroo|460\/703 psn|[from] psn|[of] p2a: Raichu
+|
+|turn|17
+|
+|move|p2a: Raichu|Submission|p1a: Egg Kangaroo
+|-supereffective|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|299\/703 psn
+|-damage|p2a: Raichu|114\/323|[from] recoil|[of] p1a: Egg Kangaroo
+|move|p1a: Egg Kangaroo|Ice Beam|p2a: Raichu
+|-damage|p2a: Raichu|26\/323
+|-damage|p1a: Egg Kangaroo|256\/703 psn|[from] psn|[of] p2a: Raichu
+|
+|turn|18
+|chat|Piexplode|wow that's shit lol
+|
+|move|p2a: Raichu|Submission|p1a: Egg Kangaroo|[miss]
+|-miss|p2a: Raichu
+|move|p1a: Egg Kangaroo|Soft-Boiled|p1a: Egg Kangaroo
+|-heal|p1a: Egg Kangaroo|607\/703 psn
+|-damage|p1a: Egg Kangaroo|564\/703 psn|[from] psn
+|
+|turn|19
+|
+|move|p2a: Raichu|Submission|p1a: Egg Kangaroo
+|-supereffective|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|390\/703 psn
+|-damage|p2a: Raichu|0 fnt|[from] recoil|[of] p1a: Egg Kangaroo
+|faint|p2a: Raichu
+|move|p1a: Egg Kangaroo|Ice Beam|p2: Raichu|[notarget]
+|-notarget
+|-damage|p1a: Egg Kangaroo|347\/703 psn|[from] psn|[of] p2: Raichu
+|
+|
+|switch|p2a: Zapdos|Zapdos|279\/383
+|turn|20
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|215\/703 psn
+|move|p1a: Egg Kangaroo|Soft-Boiled|p1a: Egg Kangaroo
+|-heal|p1a: Egg Kangaroo|566\/703 psn
+|-damage|p1a: Egg Kangaroo|523\/703 psn|[from] psn
+|
+|turn|21
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Egg Kangaroo
+|-crit|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|281\/703 psn
+|move|p1a: Egg Kangaroo|Thunder Wave|p2a: Zapdos
+|-status|p2a: Zapdos|par
+|-damage|p1a: Egg Kangaroo|238\/703 psn|[from] psn|[of] p2a: Zapdos
+|
+|turn|22
+|
+|move|p1a: Egg Kangaroo|Soft-Boiled|p1a: Egg Kangaroo
+|-heal|p1a: Egg Kangaroo|589\/703 psn
+|-damage|p1a: Egg Kangaroo|546\/703 psn|[from] psn
+|move|p2a: Zapdos|Drill Peck|p1a: Egg Kangaroo
+|-damage|p1a: Egg Kangaroo|426\/703 psn
+|
+|turn|23
+|chat|Piexplode|ugh poisoned chansey
+|chat|Piexplode|is hell
+|chat|Piexplode|lol
+|chat|Piexplode|ugh testing raichu
+|chat|Piexplode|raichu sux
+|-message|Piexplode forfeited.
+|
+|win|kid gf lol
+|raw|Ladder updating...
+|raw|kid gf lol's rating: 1436 &rarr; <strong>1442<\/strong><br \/>(+6 for winning)
+|raw|Piexplode's rating: 1145 &rarr; <strong>1137<\/strong><br \/>(-8 for losing)
+|leave|Piexplode
+|player|p2

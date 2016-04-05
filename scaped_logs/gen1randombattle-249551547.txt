@@ -1,0 +1,401 @@
+﻿|join|MALESANI
+|join|rolf the sniper
+|player|p1|MALESANI|238
+|player|p2|rolf the sniper|163
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Bellsprout|Bellsprout, L96|291\/291
+|switch|p2a: Vaporeon|Vaporeon, L85|395\/395
+|turn|1
+|
+|move|p2a: Vaporeon|Blizzard|p1a: Bellsprout
+|-supereffective|p1a: Bellsprout
+|-damage|p1a: Bellsprout|102\/291
+|move|p1a: Bellsprout|Toxic|p2a: Vaporeon
+|-status|p2a: Vaporeon|tox
+|
+|turn|2
+|
+|switch|p1a: Mr. Mime|Mr. Mime, L85|242\/242
+|move|p2a: Vaporeon|Blizzard|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|152\/242
+|-damage|p2a: Vaporeon|371\/395 tox|[from] tox|[of] p1a: Mr. Mime
+|
+|turn|3
+|
+|move|p1a: Mr. Mime|Thunderbolt|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|254\/395 tox
+|move|p2a: Vaporeon|Hydro Pump|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|32\/242
+|-damage|p2a: Vaporeon|206\/395 tox|[from] tox|[of] p1a: Mr. Mime
+|
+|turn|4
+|
+|switch|p1a: Chansey|Chansey, L79|557\/557
+|move|p2a: Vaporeon|Surf|p1a: Chansey
+|-damage|p1a: Chansey|460\/557
+|-damage|p2a: Vaporeon|134\/395 tox|[from] tox|[of] p1a: Chansey
+|
+|turn|5
+|
+|switch|p2a: Muk|Muk, L90|372\/372
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|557\/557
+|
+|turn|6
+|
+|switch|p1a: Bellsprout|Bellsprout, L96|102\/291
+|move|p2a: Muk|Sludge|p1a: Bellsprout
+|-crit|p1a: Bellsprout
+|-damage|p1a: Bellsprout|0 fnt
+|faint|p1a: Bellsprout
+|
+|switch|p1a: Mr. Mime|Mr. Mime, L85|32\/242
+|turn|7
+|
+|move|p1a: Mr. Mime|Psychic|p2a: Muk
+|-supereffective|p2a: Muk
+|-damage|p2a: Muk|143\/372
+|-unboost|p2a: Muk|spd|1
+|-unboost|p2a: Muk|spa|1
+|move|p2a: Muk|Body Slam|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|0 fnt
+|faint|p1a: Mr. Mime
+|
+|switch|p1a: Blastoise|Blastoise, L85|308\/308
+|turn|8
+|
+|switch|p2a: Exeggutor|Exeggutor, L79|312\/312
+|move|p1a: Blastoise|Surf|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|269\/312
+|
+|turn|9
+|
+|switch|p1a: Tentacool|Tentacool, L96|272\/272
+|move|p2a: Exeggutor|Sleep Powder|p1a: Tentacool
+|-status|p1a: Tentacool|slp
+|
+|turn|10
+|
+|switch|p1a: Chansey|Chansey, L79|557\/557
+|move|p2a: Exeggutor|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|463\/557
+|
+|turn|11
+|
+|move|p2a: Exeggutor|Egg Bomb|p1a: Chansey|[miss]
+|-miss|p2a: Exeggutor
+|move|p1a: Chansey|Ice Beam|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|67\/312
+|
+|turn|12
+|
+|move|p2a: Exeggutor|Hyper Beam|p1a: Chansey|[miss]
+|-miss|p2a: Exeggutor
+|move|p1a: Chansey|Ice Beam|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Muk|Muk, L90|143\/372
+|turn|13
+|
+|switch|p1a: Blastoise|Blastoise, L85|308\/308
+|move|p2a: Muk|Body Slam|p1a: Blastoise
+|-damage|p1a: Blastoise|241\/308
+|
+|turn|14
+|
+|switch|p2a: Starmie|Starmie, L79|257\/257
+|move|p1a: Blastoise|Hydro Pump|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|197\/257
+|
+|turn|15
+|c|★MALESANI|these teams are definitely unbalanced...
+|
+|move|p2a: Starmie|Thunder Wave|p1a: Blastoise
+|-status|p1a: Blastoise|par
+|move|p1a: Blastoise|Mimic|p2a: Starmie
+|-start|p1a: Blastoise|Mimic|Thunder Wave
+|
+|turn|16
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Blastoise
+|-crit|p1a: Blastoise
+|-supereffective|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|faint|p1a: Blastoise
+|
+|switch|p1a: Chansey|Chansey, L79|463\/557
+|turn|17
+|
+|switch|p2a: Muk|Muk, L90|143\/372
+|move|p1a: Chansey|Thunderbolt|p2a: Muk
+|-damage|p2a: Muk|71\/372
+|
+|turn|18
+|
+|switch|p1a: Tentacool|Tentacool, L96|272\/272 slp
+|move|p2a: Muk|Explosion|p1a: Tentacool
+|-damage|p1a: Tentacool|0 fnt
+|faint|p1a: Tentacool
+|faint|p2a: Muk
+|
+|switch|p1a: Chansey|Chansey, L79|463\/557
+|switch|p2a: Rhydon|Rhydon, L79|328\/328
+|turn|19
+|
+|move|p1a: Chansey|Ice Beam|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|143\/328
+|move|p2a: Rhydon|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|157\/557
+|
+|turn|20
+|
+|switch|p2a: Vaporeon|Vaporeon, L85|134\/395 tox
+|-status|p2a: Vaporeon|psn
+|-damage|p2a: Vaporeon|110\/395 psn|[from] psn
+|move|p1a: Chansey|Ice Beam|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|85\/395 psn
+|
+|turn|21
+|
+|move|p2a: Vaporeon|Surf|p1a: Chansey
+|-damage|p1a: Chansey|51\/557
+|-damage|p2a: Vaporeon|61\/395 psn|[from] psn|[of] p1a: Chansey
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|329\/557
+|
+|turn|22
+|
+|move|p2a: Vaporeon|Mimic|p1a: Chansey
+|-start|p2a: Vaporeon|Mimic|Counter
+|-damage|p2a: Vaporeon|37\/395 psn|[from] psn|[of] p1a: Chansey
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|557\/557
+|
+|turn|23
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|faint|p2a: Vaporeon
+|
+|switch|p2a: Zubat|Zubat, L96|272\/272
+|turn|24
+|
+|move|p2a: Zubat|Toxic|p1a: Chansey
+|-status|p1a: Chansey|tox
+|move|p1a: Chansey|Thunderbolt|p2a: Zubat
+|-supereffective|p2a: Zubat
+|-damage|p2a: Zubat|115\/272
+|-damage|p1a: Chansey|523\/557 tox|[from] tox|[of] p2a: Zubat
+|
+|turn|25
+|
+|move|p2a: Zubat|Supersonic|p1a: Chansey
+|-start|p1a: Chansey|confusion
+|-activate|p1a: Chansey|confusion
+|-damage|p1a: Chansey|495\/557 tox|[from] confusion
+|-damage|p1a: Chansey|427\/557 tox|[from] tox|[of] p2a: Zubat
+|
+|turn|26
+|
+|move|p2a: Zubat|Leech Life|p1a: Chansey
+|-damage|p1a: Chansey|394\/557 tox
+|-heal|p2a: Zubat|131\/272|[from] drain|[of] p1a: Chansey
+|-activate|p1a: Chansey|confusion
+|move|p1a: Chansey|Thunderbolt|p2a: Zubat
+|-crit|p2a: Zubat
+|-supereffective|p2a: Zubat
+|-damage|p2a: Zubat|0 fnt
+|faint|p2a: Zubat
+|
+|switch|p2a: Starmie|Starmie, L79|197\/257
+|turn|27
+|
+|move|p2a: Starmie|Surf|p1a: Chansey
+|-damage|p1a: Chansey|303\/557 tox
+|-end|p1a: Chansey|confusion
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|557\/557 tox
+|-damage|p1a: Chansey|455\/557 tox|[from] psn
+|
+|turn|28
+|
+|switch|p2a: Rhydon|Rhydon, L79|143\/328
+|move|p1a: Chansey|Thunderbolt|p2a: Rhydon
+|-immune|p2a: Rhydon|[msg]
+|-damage|p1a: Chansey|319\/557 tox|[from] tox|[of] p2a: Rhydon
+|
+|turn|29
+|
+|move|p1a: Chansey|Ice Beam|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|
+|switch|p2a: Starmie|Starmie, L79|197\/257
+|turn|30
+|
+|switch|p1a: Pidgeot|Pidgeot, L90|333\/333
+|move|p2a: Starmie|Surf|p1a: Pidgeot
+|-damage|p1a: Pidgeot|232\/333
+|
+|turn|31
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Pidgeot
+|-supereffective|p1a: Pidgeot
+|-damage|p1a: Pidgeot|104\/333
+|move|p1a: Pidgeot|Double-Edge|p2a: Starmie
+|-damage|p2a: Starmie|87\/257
+|-damage|p1a: Pidgeot|77\/333|[from] recoil|[of] p2a: Starmie
+|
+|turn|32
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|215\/257
+|move|p1a: Pidgeot|Double-Edge|p2a: Starmie
+|-damage|p2a: Starmie|100\/257
+|-damage|p1a: Pidgeot|49\/333|[from] recoil|[of] p2a: Starmie
+|
+|turn|33
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|228\/257
+|move|p1a: Pidgeot|Double-Edge|p2a: Starmie
+|-damage|p2a: Starmie|118\/257
+|-damage|p1a: Pidgeot|22\/333|[from] recoil|[of] p2a: Starmie
+|
+|turn|34
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|246\/257
+|move|p1a: Pidgeot|Double-Edge|p2a: Starmie
+|-damage|p2a: Starmie|137\/257
+|-damage|p1a: Pidgeot|0 fnt|[from] recoil|[of] p2a: Starmie
+|faint|p1a: Pidgeot
+|
+|switch|p1a: Chansey|Chansey, L79|319\/557 tox
+|-status|p1a: Chansey|psn
+|turn|35
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|257\/257
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|557\/557 psn
+|-damage|p1a: Chansey|523\/557 psn|[from] psn
+|
+|turn|36
+|
+|move|p2a: Starmie|Surf|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|368\/557 psn
+|move|p1a: Chansey|Thunderbolt|p2a: Starmie
+|-crit|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|21\/257
+|-damage|p1a: Chansey|334\/557 psn|[from] psn|[of] p2a: Starmie
+|
+|turn|37
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|149\/257
+|move|p1a: Chansey|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|27\/257
+|-damage|p1a: Chansey|300\/557 psn|[from] psn|[of] p2a: Starmie
+|
+|turn|38
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|155\/257
+|move|p1a: Chansey|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|37\/257
+|-damage|p1a: Chansey|266\/557 psn|[from] psn|[of] p2a: Starmie
+|
+|turn|39
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|165\/257
+|move|p1a: Chansey|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|40\/257
+|-damage|p1a: Chansey|232\/557 psn|[from] psn|[of] p2a: Starmie
+|
+|turn|40
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|168\/257
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|510\/557 psn
+|-damage|p1a: Chansey|476\/557 psn|[from] psn
+|
+|turn|41
+|
+|move|p2a: Starmie|Surf|p1a: Chansey
+|-damage|p1a: Chansey|390\/557 psn
+|move|p1a: Chansey|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|55\/257
+|-damage|p1a: Chansey|356\/557 psn|[from] psn|[of] p2a: Starmie
+|
+|turn|42
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|183\/257
+|move|p1a: Chansey|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|68\/257
+|-damage|p1a: Chansey|322\/557 psn|[from] psn|[of] p2a: Starmie
+|
+|turn|43
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|196\/257
+|move|p1a: Chansey|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|82\/257
+|-damage|p1a: Chansey|288\/557 psn|[from] psn|[of] p2a: Starmie
+|
+|turn|44
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|210\/257
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|557\/557 psn
+|-damage|p1a: Chansey|523\/557 psn|[from] psn
+|
+|turn|45
+|
+|move|p2a: Starmie|Surf|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|354\/557 psn
+|move|p1a: Chansey|Thunderbolt|p2a: Starmie
+|-crit|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|win|MALESANI
+|raw|Ladder updating...
+|raw|MALESANI's rating: 1255 &rarr; <strong>1273<\/strong><br \/>(+18 for winning)
+|raw|rolf the sniper's rating: 1158 &rarr; <strong>1140<\/strong><br \/>(-18 for losing)
+|c|★rolf the sniper|gg
+|leave|rolf the sniper
+|player|p2

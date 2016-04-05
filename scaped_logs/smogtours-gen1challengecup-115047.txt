@@ -1,0 +1,311 @@
+﻿|J|Beds
+|J|hodor
+|player|p1|Beds|252
+|player|p2|hodor|1
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Challenge Cup
+|seed|22249,10009,47783,59523
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Venonat|Venonat, L79|255\/255
+|switch|p2a: Nidorina|Nidorina, L74|249\/249
+|turn|1
+|J|Bughouse
+|L|Bughouse
+|c|★Beds|ah, my better generation
+|c|★Beds|you don't stand a chance
+|choice|move 3|move 3
+|
+|move|p1a: Venonat|Stun Spore|p2a: Nidorina
+|-status|p2a: Nidorina|par
+|move|p2a: Nidorina|Body Slam|p1a: Venonat
+|-damage|p1a: Venonat|200\/255
+|
+|turn|2
+|J|GeeMick
+|c|★hodor|you have already proven your gsc cc supperiority
+|c|★hodor|will it extend to rby?
+|J|KratosMana
+|choice|switch 6|move 3
+|
+|switch|p1a: Shellder|Shellder, L77|192\/192
+|move|p2a: Nidorina|Body Slam|p1a: Shellder
+|-damage|p1a: Shellder|154\/192
+|
+|turn|3
+|choice|move 4|move 3
+|
+|move|p1a: Shellder|Clamp|p2a: Nidorina|[miss]
+|-miss|p1a: Shellder
+|cant|p2a: Nidorina|par
+|
+|turn|4
+|c|★hodor|tobes...
+|choice|move 4|switch 5
+|
+|switch|p2a: Ivysaur|Ivysaur, L72|222\/222
+|move|p1a: Shellder|Clamp|p2a: Ivysaur
+|-resisted|p2a: Ivysaur
+|-damage|p2a: Ivysaur|209\/222
+|-activate|p2a: Ivysaur|move: Clamp|[of] p1a: Shellder
+|
+|turn|5
+|L|KratosMana
+|choice|move 4|move 1
+|
+|cant|p2a: Ivysaur|partiallytrapped
+|move|p1a: Shellder|Clamp|p2a: Ivysaur
+|-damage|p2a: Ivysaur|196\/222
+|
+|turn|6
+|J|Influential0
+|choice|switch 2|move 1
+|
+|switch|p1a: Zubat|Zubat, L82|220\/220
+|cant|p2a: Ivysaur|partiallytrapped
+|
+|-end|p2a: Ivysaur|Clamp|[partiallytrapped]
+|turn|7
+|choice|move 4|switch 4
+|
+|switch|p2a: Muk|Muk, L69|282\/282
+|move|p1a: Zubat|Razor Wind|p2a: Muk|[still]
+|-prepare|p1a: Zubat|Razor Wind|p2a: Muk
+|
+|turn|8
+|choice|move 1|move 4
+|
+|move|p1a: Zubat|Razor Wind|p2a: Muk|[from]Razor Wind|[miss]
+|-miss|p1a: Zubat
+|move|p2a: Muk|Thunder Punch|p1a: Zubat
+|-supereffective|p1a: Zubat
+|-damage|p1a: Zubat|143\/220
+|
+|turn|9
+|L|Influential0
+|choice|move 4|move 4
+|
+|move|p1a: Zubat|Razor Wind|p2a: Muk|[still]
+|-prepare|p1a: Zubat|Razor Wind|p2a: Muk
+|move|p2a: Muk|Thunder Punch|p1a: Zubat
+|-crit|p1a: Zubat
+|-supereffective|p1a: Zubat
+|-damage|p1a: Zubat|0 fnt
+|faint|p1a: Zubat
+|c|★hodor|rby'd
+|choice|switch 3|
+|
+|switch|p1a: Staryu|Staryu, L75|193\/193
+|turn|10
+|choice|move 1|move 4
+|
+|move|p1a: Staryu|Psychic|p2a: Muk
+|-supereffective|p2a: Muk
+|-damage|p2a: Muk|162\/282
+|move|p2a: Muk|Thunder Punch|p1a: Staryu
+|-supereffective|p1a: Staryu
+|-damage|p1a: Staryu|125\/193
+|
+|turn|11
+|choice|move 1|switch 2
+|
+|switch|p2a: Slowpoke|Slowpoke, L78|297\/297
+|move|p1a: Staryu|Psychic|p2a: Slowpoke
+|-crit|p2a: Slowpoke
+|-resisted|p2a: Slowpoke
+|-damage|p2a: Slowpoke|231\/297
+|
+|turn|12
+|choice|move 4|move 1
+|
+|move|p1a: Staryu|Flash|p2a: Slowpoke
+|-unboost|p2a: Slowpoke|accuracy|1
+|move|p2a: Slowpoke|Amnesia|p2a: Slowpoke
+|-boost|p2a: Slowpoke|spd|2
+|-boost|p2a: Slowpoke|spa|2
+|
+|turn|13
+|c|★Beds|ugh
+|choice|move 4|switch 6
+|
+|switch|p2a: Dodrio|Dodrio, L69|216\/216
+|move|p1a: Staryu|Flash|p2a: Dodrio
+|-unboost|p2a: Dodrio|accuracy|1
+|
+|turn|14
+|choice|move 1|move 4
+|
+|move|p2a: Dodrio|Take Down|p1a: Staryu
+|-damage|p1a: Staryu|19\/193
+|-damage|p2a: Dodrio|190\/216|[from] recoil|[of] p1a: Staryu
+|move|p1a: Staryu|Psychic|p2a: Dodrio
+|-damage|p2a: Dodrio|132\/216
+|
+|turn|15
+|choice|switch 2|move 4
+|
+|switch|p1a: Shellder|Shellder, L77|154\/192
+|move|p2a: Dodrio|Take Down|p1a: Shellder|[miss]
+|-miss|p2a: Dodrio
+|
+|turn|16
+|choice|move 2|switch 4
+|
+|switch|p2a: Ivysaur|Ivysaur, L72|196\/222
+|move|p1a: Shellder|Supersonic|p2a: Ivysaur|[miss]
+|-miss|p1a: Shellder
+|
+|turn|17
+|choice|move 1|move 1
+|
+|move|p2a: Ivysaur|Razor Leaf|p1a: Shellder
+|-crit|p1a: Shellder
+|-supereffective|p1a: Shellder
+|-damage|p1a: Shellder|0 fnt
+|faint|p1a: Shellder
+|c|★Beds|well it's time for my secret weapon
+|choice|switch 5|
+|
+|switch|p1a: Weedle|Weedle, L87|231\/231
+|turn|18
+|c|★hodor|OH SHIT
+|c|★hodor|A WEEDLE
+|choice|move 1|move 3
+|
+|move|p1a: Weedle|Poison Sting|p2a: Ivysaur
+|-damage|p2a: Ivysaur|182\/222
+|move|p2a: Ivysaur|Substitute|p2a: Ivysaur
+|-start|p2a: Ivysaur|Substitute
+|-damage|p2a: Ivysaur|127\/222
+|
+|turn|19
+|c|★Beds|i hope you brought some antidotes
+|choice|move 1|move 4
+|
+|move|p1a: Weedle|Poison Sting|p2a: Ivysaur
+|-activate|p2a: Ivysaur|Substitute|[damage]
+|move|p2a: Ivysaur|Mega Drain|p1a: Weedle
+|-resisted|p1a: Weedle
+|-damage|p1a: Weedle|218\/231
+|-heal|p2a: Ivysaur|133\/222|[from] drain|[of] p1a: Weedle
+|
+|turn|20
+|choice|switch 4|move 4
+|
+|switch|p1a: Kadabra|Kadabra, L70|184\/184
+|move|p2a: Ivysaur|Mega Drain|p1a: Kadabra
+|-crit|p1a: Kadabra
+|-damage|p1a: Kadabra|128\/184
+|-heal|p2a: Ivysaur|161\/222|[from] drain|[of] p1a: Kadabra
+|
+|turn|21
+|c|★hodor|does bug resist grass this gen?
+|choice|move 4|move 1
+|
+|move|p1a: Kadabra|Body Slam|p2a: Ivysaur
+|-activate|p2a: Ivysaur|Substitute|[damage]
+|move|p2a: Ivysaur|Razor Leaf|p1a: Kadabra
+|-crit|p1a: Kadabra
+|-damage|p1a: Kadabra|55\/184
+|
+|turn|22
+|c|★Beds|idek
+|choice|move 4|move 1
+|
+|move|p1a: Kadabra|Body Slam|p2a: Ivysaur
+|-end|p2a: Ivysaur|Substitute
+|move|p2a: Ivysaur|Razor Leaf|p1a: Kadabra
+|-crit|p1a: Kadabra
+|-damage|p1a: Kadabra|0 fnt
+|faint|p1a: Kadabra
+|choice|switch 2|
+|
+|switch|p1a: Staryu|Staryu, L75|19\/193
+|turn|23
+|choice|move 1|move 4
+|
+|move|p1a: Staryu|Psychic|p2a: Ivysaur
+|-supereffective|p2a: Ivysaur
+|-damage|p2a: Ivysaur|66\/222
+|move|p2a: Ivysaur|Mega Drain|p1a: Staryu
+|-supereffective|p1a: Staryu
+|-damage|p1a: Staryu|0 fnt
+|-heal|p2a: Ivysaur|75\/222|[from] drain|[of] p1a: Staryu
+|faint|p1a: Staryu
+|choice|switch 6|
+|
+|switch|p1a: Venonat|Venonat, L79|200\/255
+|turn|24
+|choice|move 3|switch 4
+|
+|switch|p2a: Dodrio|Dodrio, L69|132\/216
+|move|p1a: Venonat|Stun Spore|p2a: Dodrio
+|-status|p2a: Dodrio|par
+|
+|turn|25
+|choice|move 4|move 2
+|
+|move|p1a: Venonat|Tackle|p2a: Dodrio
+|-damage|p2a: Dodrio|111\/216 par
+|cant|p2a: Dodrio|par
+|
+|turn|26
+|choice|move 4|move 2
+|
+|move|p1a: Venonat|Tackle|p2a: Dodrio
+|-damage|p2a: Dodrio|93\/216 par
+|move|p2a: Dodrio|Hyper Beam|p1a: Venonat
+|-damage|p1a: Venonat|32\/255
+|
+|turn|27
+|-mustrecharge|p2a: Dodrio
+|-mustrecharge|p2a: Dodrio
+|choice|move 2|move 1
+|
+|move|p1a: Venonat|Solar Beam|p2a: Dodrio|[still]
+|-prepare|p1a: Venonat|Solar Beam|p2a: Dodrio
+|cant|p2a: Dodrio|recharge
+|
+|turn|28
+|c|★hodor|my only special attack on slowbro
+|c|★hodor|is dream eater
+|choice|move 1|move 1
+|
+|move|p1a: Venonat|Solar Beam|p2a: Dodrio|[from]Solar Beam
+|-resisted|p2a: Dodrio
+|-damage|p2a: Dodrio|60\/216 par
+|move|p2a: Dodrio|Peck|p1a: Venonat
+|-crit|p1a: Venonat
+|-supereffective|p1a: Venonat
+|-damage|p1a: Venonat|0 fnt
+|faint|p1a: Venonat
+|c|★Beds|lel
+|choice|switch 4|
+|
+|switch|p1a: Weedle|Weedle, L87|218\/231
+|turn|29
+|choice|move 2|move 1
+|
+|move|p1a: Weedle|String Shot|p2a: Dodrio
+|-unboost|p2a: Dodrio|spe|1
+|move|p2a: Dodrio|Peck|p1a: Weedle
+|-crit|p1a: Weedle
+|-supereffective|p1a: Weedle
+|-damage|p1a: Weedle|27\/231
+|
+|turn|30
+|c|★hodor|g_g
+|choice|move 1|move 1
+|
+|move|p1a: Weedle|Poison Sting|p2a: Dodrio
+|-damage|p2a: Dodrio|47\/216 par
+|move|p2a: Dodrio|Peck|p1a: Weedle
+|-supereffective|p1a: Weedle
+|-damage|p1a: Weedle|0 fnt
+|faint|p1a: Weedle
+|
+|win|hodor

@@ -1,0 +1,304 @@
+﻿|j|Jukil22
+|j|sigurd123
+|player|p1|Jukil22|92
+|player|p2|sigurd123|170
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|51924,17898,15961,13178
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Poliwhirl|Poliwhirl, L85|284\/284
+|switch|p2a: Staryu|Staryu, L90|237\/237
+|turn|1
+|choice|move 4|move 3
+|
+|move|p2a: Staryu|Thunderbolt|p1a: Poliwhirl
+|-supereffective|p1a: Poliwhirl
+|-damage|p1a: Poliwhirl|118\/284
+|move|p1a: Poliwhirl|Hypnosis|p2a: Staryu
+|-status|p2a: Staryu|slp
+|
+|turn|2
+|choice|move 1|move 3
+|
+|cant|p2a: Staryu|slp
+|move|p1a: Poliwhirl|Amnesia|p1a: Poliwhirl
+|-boost|p1a: Poliwhirl|spd|2
+|-boost|p1a: Poliwhirl|spa|2
+|
+|turn|3
+|choice|move 2|move 3
+|
+|cant|p2a: Staryu|slp
+|move|p1a: Poliwhirl|Psychic|p2a: Staryu
+|-damage|p2a: Staryu|139\/237 slp
+|
+|turn|4
+|choice|move 1|move 1
+|
+|cant|p2a: Staryu|slp
+|move|p1a: Poliwhirl|Amnesia|p1a: Poliwhirl
+|-boost|p1a: Poliwhirl|spd|2
+|-boost|p1a: Poliwhirl|spa|2
+|
+|turn|5
+|choice|move 2|move 1
+|
+|cant|p2a: Staryu|slp
+|move|p1a: Poliwhirl|Psychic|p2a: Staryu
+|-damage|p2a: Staryu|0 fnt
+|faint|p2a: Staryu
+|choice||switch 4
+|
+|switch|p2a: Dragonite|Dragonite, L85|328\/328
+|turn|6
+|choice|move 4|move 3
+|
+|move|p1a: Poliwhirl|Hypnosis|p2a: Dragonite|[miss]
+|-miss|p1a: Poliwhirl
+|move|p2a: Dragonite|Hyper Beam|p1a: Poliwhirl
+|-damage|p1a: Poliwhirl|0 fnt
+|faint|p1a: Poliwhirl
+|choice|switch 3|
+|
+|switch|p1a: Dragonair|Dragonair, L85|277\/277
+|turn|7
+|choice|move 1|move 1
+|
+|move|p2a: Dragonite|Thunder Wave|p1a: Dragonair
+|-status|p1a: Dragonair|par
+|move|p1a: Dragonair|Thunder Wave|p2a: Dragonite
+|-status|p2a: Dragonite|par
+|
+|turn|8
+|choice|move 4|move 3
+|
+|move|p2a: Dragonite|Hyper Beam|p1a: Dragonair
+|-damage|p1a: Dragonair|116\/277 par
+|move|p1a: Dragonair|Thunder|p2a: Dragonite
+|-damage|p2a: Dragonite|261\/328 par
+|
+|turn|9
+|-mustrecharge|p2a: Dragonite
+|-mustrecharge|p2a: Dragonite
+|choice|switch 5|move 1
+|
+|switch|p1a: Primeape|Primeape, L90|300\/300
+|cant|p2a: Dragonite|recharge
+|
+|turn|10
+|choice|move 4|move 1
+|
+|move|p1a: Primeape|Rock Slide|p2a: Dragonite|[miss]
+|-miss|p1a: Primeape
+|move|p2a: Dragonite|Thunder Wave|p1a: Primeape
+|-status|p1a: Primeape|par
+|
+|turn|11
+|choice|move 4|move 3
+|
+|cant|p1a: Primeape|par
+|move|p2a: Dragonite|Hyper Beam|p1a: Primeape
+|-damage|p1a: Primeape|154\/300 par
+|
+|turn|12
+|-mustrecharge|p2a: Dragonite
+|-mustrecharge|p2a: Dragonite
+|choice|move 4|move 1
+|
+|move|p1a: Primeape|Rock Slide|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|134\/328 par
+|cant|p2a: Dragonite|recharge
+|
+|turn|13
+|choice|move 2|move 3
+|
+|move|p1a: Primeape|Hyper Beam|p2a: Dragonite
+|-damage|p2a: Dragonite|7\/328 par
+|move|p2a: Dragonite|Hyper Beam|p1a: Primeape
+|-damage|p1a: Primeape|0 fnt
+|faint|p1a: Primeape
+|choice|switch 4|
+|
+|switch|p1a: Weezing|Weezing, L90|300\/300
+|turn|14
+|choice|move 3|move 1
+|
+|move|p1a: Weezing|Thunderbolt|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|choice||switch 2
+|
+|switch|p2a: Machop|Machop, L96|329\/329
+|turn|15
+|choice|move 4|move 2
+|
+|move|p1a: Weezing|Sludge|p2a: Machop
+|-damage|p2a: Machop|238\/329
+|move|p2a: Machop|Earthquake|p1a: Weezing
+|-supereffective|p1a: Weezing
+|-damage|p1a: Weezing|177\/300
+|
+|turn|16
+|choice|move 2|move 1
+|
+|move|p1a: Weezing|Fire Blast|p2a: Machop
+|-crit|p2a: Machop
+|-damage|p2a: Machop|0 fnt
+|faint|p2a: Machop
+|choice||switch 5
+|
+|switch|p2a: Arcanine|Arcanine, L85|327\/327
+|turn|17
+|choice|move 1|move 1
+|
+|move|p2a: Arcanine|Fire Blast|p1a: Weezing
+|-crit|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|choice|switch 5|
+|
+|switch|p1a: Dragonair|Dragonair, L85|116\/277 par
+|turn|18
+|choice|move 1|move 4
+|
+|move|p2a: Arcanine|Hyper Beam|p1a: Dragonair
+|-damage|p1a: Dragonair|0 fnt
+|faint|p1a: Dragonair
+|choice|switch 6|
+|
+|switch|p1a: Arcanine|Arcanine, L85|327\/327
+|turn|19
+|choice|move 2|move 3
+|
+|move|p1a: Arcanine|Mimic|p2a: Arcanine
+|-start|p1a: Arcanine|Mimic|Body Slam
+|move|p2a: Arcanine|Reflect|p2a: Arcanine
+|-start|p2a: Arcanine|Reflect
+|
+|turn|20
+|choice|move 2|move 4
+|
+|move|p1a: Arcanine|Body Slam|p2a: Arcanine
+|-damage|p2a: Arcanine|291\/327
+|move|p2a: Arcanine|Hyper Beam|p1a: Arcanine
+|-damage|p1a: Arcanine|213\/327
+|
+|turn|21
+|-mustrecharge|p2a: Arcanine
+|-mustrecharge|p2a: Arcanine
+|choice|move 2|move 1
+|
+|cant|p2a: Arcanine|recharge
+|move|p1a: Arcanine|Body Slam|p2a: Arcanine
+|-damage|p2a: Arcanine|254\/327
+|
+|turn|22
+|choice|move 2|move 2
+|
+|move|p1a: Arcanine|Body Slam|p2a: Arcanine
+|-damage|p2a: Arcanine|220\/327
+|move|p2a: Arcanine|Body Slam|p1a: Arcanine
+|-damage|p1a: Arcanine|147\/327
+|
+|turn|23
+|choice|move 2|move 2
+|
+|move|p2a: Arcanine|Body Slam|p1a: Arcanine
+|-damage|p1a: Arcanine|79\/327
+|move|p1a: Arcanine|Body Slam|p2a: Arcanine
+|-damage|p2a: Arcanine|185\/327
+|-status|p2a: Arcanine|par
+|
+|turn|24
+|choice|move 4|move 2
+|
+|move|p1a: Arcanine|Reflect|p1a: Arcanine
+|-start|p1a: Arcanine|Reflect
+|move|p2a: Arcanine|Body Slam|p1a: Arcanine
+|-damage|p1a: Arcanine|44\/327
+|-status|p1a: Arcanine|par
+|
+|turn|25
+|choice|move 2|move 2
+|
+|move|p2a: Arcanine|Body Slam|p1a: Arcanine
+|-damage|p1a: Arcanine|7\/327 par
+|move|p1a: Arcanine|Body Slam|p2a: Arcanine
+|-crit|p2a: Arcanine
+|-damage|p2a: Arcanine|55\/327 par
+|
+|turn|26
+|choice|move 1|move 2
+|
+|move|p2a: Arcanine|Body Slam|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|choice|switch 2|
+|
+|switch|p1a: Scyther|Scyther, L90|309\/309
+|turn|27
+|choice|move 4|move 1
+|
+|move|p1a: Scyther|Slash|p2a: Arcanine
+|-crit|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|choice||switch 3
+|
+|switch|p2a: Ivysaur|Ivysaur, L85|276\/276
+|turn|28
+|choice|move 1|move 1
+|
+|move|p1a: Scyther|Swords Dance|p1a: Scyther
+|-boost|p1a: Scyther|atk|2
+|move|p2a: Ivysaur|Sleep Powder|p1a: Scyther|[miss]
+|-miss|p2a: Ivysaur
+|
+|turn|29
+|choice|move 3|move 1
+|
+|move|p1a: Scyther|Hyper Beam|p2a: Ivysaur
+|-crit|p2a: Ivysaur
+|-damage|p2a: Ivysaur|0 fnt
+|faint|p2a: Ivysaur
+|choice||switch 6
+|
+|switch|p2a: Kangaskhan|Kangaskhan, L85|352\/352
+|turn|30
+|c|★Jukil22|Sorry
+|choice|move 4|move 2
+|
+|move|p1a: Scyther|Slash|p2a: Kangaskhan
+|-crit|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|223\/352
+|move|p2a: Kangaskhan|Body Slam|p1a: Scyther
+|-damage|p1a: Scyther|222\/309
+|
+|turn|31
+|choice|move 4|move 2
+|
+|move|p1a: Scyther|Slash|p2a: Kangaskhan
+|-crit|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|104\/352
+|move|p2a: Kangaskhan|Body Slam|p1a: Scyther
+|-damage|p1a: Scyther|125\/309
+|
+|turn|32
+|choice|move 3|move 3
+|
+|move|p1a: Scyther|Hyper Beam|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|faint|p2a: Kangaskhan
+|
+|win|Jukil22
+|raw|Jukil22's rating: 1265 &rarr; <strong>1278<\/strong><br \/>(+13 for winning)
+|raw|sigurd123's rating: 1080 &rarr; <strong>1069<\/strong><br \/>(-11 for losing)
+|l|sigurd123
+|player|p2

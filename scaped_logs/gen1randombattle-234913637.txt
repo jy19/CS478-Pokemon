@@ -1,0 +1,169 @@
+﻿|join|ric30
+|join|Serafila
+|player|p1|ric30|226
+|player|p2|Serafila|255
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Grimer|Grimer, L96|348\/348
+|switch|p2a: Starmie|Starmie, L79|257\/257
+|turn|1
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Grimer
+|-damage|p1a: Grimer|272\/348
+|move|p1a: Grimer|Explosion|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|faint|p1a: Grimer
+|
+|switch|p2a: Rattata|Rattata, L96|252\/252
+|switch|p1a: Wigglytuff|Wigglytuff, L85|412\/412
+|turn|2
+|
+|move|p2a: Rattata|Super Fang|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|206\/412
+|move|p1a: Wigglytuff|Thunder Wave|p2a: Rattata
+|-status|p2a: Rattata|par
+|
+|turn|3
+|
+|move|p1a: Wigglytuff|Double-Edge|p2a: Rattata
+|-damage|p2a: Rattata|117\/252 par
+|-damage|p1a: Wigglytuff|173\/412|[from] recoil|[of] p2a: Rattata
+|move|p2a: Rattata|Body Slam|p1a: Wigglytuff
+|-crit|p1a: Wigglytuff
+|-damage|p1a: Wigglytuff|0 fnt
+|faint|p1a: Wigglytuff
+|
+|switch|p1a: Primeape|Primeape, L85|284\/284
+|turn|4
+|
+|move|p1a: Primeape|Submission|p2a: Rattata
+|-crit|p2a: Rattata
+|-supereffective|p2a: Rattata
+|-damage|p2a: Rattata|0 fnt
+|-damage|p1a: Primeape|255\/284|[from] recoil|[of] p2a: Rattata
+|faint|p2a: Rattata
+|
+|switch|p2a: Fearow|Fearow, L85|284\/284
+|turn|5
+|
+|switch|p1a: Lapras|Lapras, L79|367\/367
+|move|p2a: Fearow|Drill Peck|p1a: Lapras
+|-damage|p1a: Lapras|275\/367
+|
+|turn|6
+|
+|move|p2a: Fearow|Double-Edge|p1a: Lapras
+|-crit|p1a: Lapras
+|-damage|p1a: Lapras|55\/367
+|-damage|p2a: Fearow|229\/284|[from] recoil|[of] p1a: Lapras
+|move|p1a: Lapras|Ice Beam|p2a: Fearow
+|-supereffective|p2a: Fearow
+|-damage|p2a: Fearow|27\/284
+|
+|turn|7
+|
+|move|p2a: Fearow|Drill Peck|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|
+|switch|p1a: Tauros|Tauros, L79|280\/280
+|turn|8
+|
+|move|p2a: Fearow|Hyper Beam|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|switch|p1a: Kadabra|Kadabra, L85|242\/242
+|turn|9
+|
+|move|p1a: Kadabra|Psychic|p2a: Fearow
+|-damage|p2a: Fearow|0 fnt
+|faint|p2a: Fearow
+|
+|switch|p2a: Charizard|Charizard, L85|306\/306
+|turn|10
+|
+|move|p1a: Kadabra|Thunder Wave|p2a: Charizard
+|-status|p2a: Charizard|par
+|move|p2a: Charizard|Body Slam|p1a: Kadabra
+|-damage|p1a: Kadabra|146\/242
+|-status|p1a: Kadabra|par
+|
+|turn|11
+|
+|switch|p1a: Primeape|Primeape, L85|255\/284
+|move|p2a: Charizard|Hyper Beam|p1a: Primeape
+|-damage|p1a: Primeape|142\/284
+|
+|turn|12
+|-mustrecharge|p2a: Charizard
+|-mustrecharge|p2a: Charizard
+|
+|move|p1a: Primeape|Rock Slide|p2a: Charizard
+|-crit|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|switch|p2a: Wartortle|Wartortle, L85|274\/274
+|turn|13
+|
+|move|p1a: Primeape|Mega Kick|p2a: Wartortle
+|-damage|p2a: Wartortle|183\/274
+|move|p2a: Wartortle|Blizzard|p1a: Primeape
+|-damage|p1a: Primeape|64\/284
+|
+|turn|14
+|
+|move|p1a: Primeape|Hyper Beam|p2a: Wartortle|[miss]
+|-miss|p1a: Primeape
+|move|p2a: Wartortle|Blizzard|p1a: Primeape|[miss]
+|-miss|p2a: Wartortle
+|
+|turn|15
+|
+|move|p1a: Primeape|Hyper Beam|p2a: Wartortle
+|-damage|p2a: Wartortle|61\/274
+|move|p2a: Wartortle|Blizzard|p1a: Primeape
+|-damage|p1a: Primeape|0 fnt
+|faint|p1a: Primeape
+|
+|switch|p1a: Kadabra|Kadabra, L85|146\/242 par
+|turn|16
+|
+|move|p2a: Wartortle|Body Slam|p1a: Kadabra
+|-damage|p1a: Kadabra|65\/242 par
+|move|p1a: Kadabra|Recover|p1a: Kadabra
+|-heal|p1a: Kadabra|186\/242 par
+|
+|turn|17
+|
+|move|p2a: Wartortle|Body Slam|p1a: Kadabra
+|-crit|p1a: Kadabra
+|-damage|p1a: Kadabra|42\/242 par
+|move|p1a: Kadabra|Psychic|p2a: Wartortle
+|-damage|p2a: Wartortle|0 fnt
+|faint|p2a: Wartortle
+|
+|switch|p2a: Magmar|Magmar, L85|284\/284
+|turn|18
+|
+|move|p2a: Magmar|Body Slam|p1a: Kadabra
+|-damage|p1a: Kadabra|0 fnt
+|faint|p1a: Kadabra
+|
+|win|Serafila
+|raw|Ladder updating...
+|raw|ric30's rating: 1243 &rarr; <strong>1205<\/strong><br \/>(-38 for losing)
+|raw|Serafila's rating: 1040 &rarr; <strong>1092<\/strong><br \/>(+52 for winning)
+|leave|ric30
+|player|p1

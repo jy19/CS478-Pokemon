@@ -1,0 +1,236 @@
+﻿|j|borrellibozz
+|j|downsey238
+|player|p1|borrellibozz|170
+|player|p2|downsey238|56
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|54706,34988,64690,26133
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Magikarp|Magikarp, L99|240\/240
+|switch|p2a: Lapras|Lapras, L79|367\/367
+|turn|1
+|choice|move 2|move 2
+|
+|move|p1a: Magikarp|Dragon Rage|p2a: Lapras
+|-damage|p2a: Lapras|327\/367
+|move|p2a: Lapras|Thunderbolt|p1a: Magikarp
+|-crit|p1a: Magikarp
+|-supereffective|p1a: Magikarp
+|-damage|p1a: Magikarp|0 fnt
+|faint|p1a: Magikarp
+|choice|switch 4|
+|
+|switch|p1a: Jolteon|Jolteon, L79|265\/265
+|turn|2
+|choice|move 1|switch 2
+|
+|switch|p2a: Magneton|Magneton, L90|273\/273
+|move|p1a: Jolteon|Thunderbolt|p2a: Magneton
+|-crit|p2a: Magneton
+|-resisted|p2a: Magneton
+|-damage|p2a: Magneton|204\/273
+|
+|turn|3
+|choice|move 4|move 3
+|
+|move|p1a: Jolteon|Double Kick|p2a: Magneton
+|-damage|p2a: Magneton|191\/273
+|-damage|p2a: Magneton|178\/273
+|-hitcount|p2a: Magneton|2
+|move|p2a: Magneton|Thunder Wave|p1a: Jolteon
+|-status|p1a: Jolteon|par
+|
+|turn|4
+|choice|switch 5|move 2
+|
+|switch|p1a: Rhydon|Rhydon, L79|328\/328
+|move|p2a: Magneton|Mimic|p1a: Rhydon
+|-start|p2a: Magneton|Mimic|Earthquake
+|
+|turn|5
+|choice|move 3|move 2
+|
+|move|p2a: Magneton|Earthquake|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|222\/328
+|move|p1a: Rhydon|Earthquake|p2a: Magneton
+|-supereffective|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|faint|p2a: Magneton
+|choice||switch 6
+|
+|switch|p2a: Hitmonchan|Hitmonchan, L90|273\/273
+|turn|6
+|choice|switch 3|move 2
+|
+|switch|p1a: Mew|Mew, L74|300\/300
+|move|p2a: Hitmonchan|Submission|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|245\/300
+|-damage|p2a: Hitmonchan|260\/273|[from] recoil|[of] p1a: Mew
+|
+|turn|7
+|choice|move 3|switch 4
+|
+|switch|p2a: Mew|Mew, L74|300\/300
+|move|p1a: Mew|Psychic|p2a: Mew
+|-resisted|p2a: Mew
+|-damage|p2a: Mew|259\/300
+|-unboost|p2a: Mew|spd|1
+|-unboost|p2a: Mew|spa|1
+|
+|turn|8
+|choice|switch 6|move 2
+|
+|switch|p1a: Snorlax|Snorlax, L79|415\/415
+|move|p2a: Mew|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|
+|turn|9
+|choice|move 2|move 4
+|
+|move|p2a: Mew|Fissure|p1a: Snorlax|[miss]
+|-miss|p2a: Mew
+|cant|p1a: Snorlax|par
+|
+|turn|10
+|choice|move 2|move 4
+|
+|move|p2a: Mew|Fissure|p1a: Snorlax|[miss]
+|-miss|p2a: Mew
+|cant|p1a: Snorlax|par
+|
+|turn|11
+|choice|move 2|move 4
+|
+|move|p2a: Mew|Fissure|p1a: Snorlax|[miss]
+|-miss|p2a: Mew
+|move|p1a: Snorlax|Earthquake|p2a: Mew
+|-damage|p2a: Mew|183\/300
+|
+|turn|12
+|choice|move 3|move 4
+|
+|move|p2a: Mew|Fissure|p1a: Snorlax|[miss]
+|-miss|p2a: Mew
+|move|p1a: Snorlax|Blizzard|p2a: Mew
+|-damage|p2a: Mew|89\/300
+|
+|turn|13
+|choice|move 3|move 1
+|
+|move|p2a: Mew|Explosion|p1a: Snorlax
+|-damage|p1a: Snorlax|168\/415 par
+|faint|p2a: Mew
+|choice||switch 5
+|
+|switch|p2a: Primeape|Primeape, L90|300\/300
+|turn|14
+|choice|move 2|move 3
+|
+|move|p2a: Primeape|Hyper Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|6\/415 par
+|move|p1a: Snorlax|Earthquake|p2a: Primeape
+|-damage|p2a: Primeape|227\/300
+|
+|turn|15
+|-mustrecharge|p2a: Primeape
+|-mustrecharge|p2a: Primeape
+|choice|move 3|move 1
+|
+|cant|p2a: Primeape|recharge
+|move|p1a: Snorlax|Blizzard|p2a: Primeape
+|-damage|p2a: Primeape|161\/300
+|
+|turn|16
+|choice|move 4|move 1
+|
+|move|p2a: Primeape|Body Slam|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|choice|switch 6|
+|
+|switch|p1a: Mew|Mew, L74|245\/300
+|turn|17
+|choice|move 3|move 1
+|
+|move|p2a: Primeape|Body Slam|p1a: Mew
+|-damage|p1a: Mew|174\/300
+|move|p1a: Mew|Psychic|p2a: Primeape
+|-supereffective|p2a: Primeape
+|-damage|p2a: Primeape|0 fnt
+|faint|p2a: Primeape
+|choice||switch 3
+|
+|switch|p2a: Gyarados|Gyarados, L85|335\/335
+|turn|18
+|choice|move 2|move 2
+|
+|move|p1a: Mew|Thunderbolt|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-damage|p2a: Gyarados|135\/335
+|move|p2a: Gyarados|Body Slam|p1a: Mew
+|-damage|p1a: Mew|102\/300
+|
+|turn|19
+|choice|move 2|move 3
+|
+|move|p1a: Mew|Thunderbolt|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|choice||switch 2
+|
+|switch|p2a: Lapras|Lapras, L79|327\/367
+|turn|20
+|choice|move 2|move 1
+|
+|move|p1a: Mew|Thunderbolt|p2a: Lapras
+|-crit|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|102\/367
+|move|p2a: Lapras|Ice Beam|p1a: Mew
+|-damage|p1a: Mew|11\/300
+|
+|turn|21
+|choice|move 2|move 3
+|
+|move|p1a: Mew|Thunderbolt|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|choice||switch 4
+|
+|switch|p2a: Hitmonchan|Hitmonchan, L90|260\/273
+|turn|22
+|choice|move 3|move 3
+|
+|move|p2a: Hitmonchan|Seismic Toss|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|choice|switch 5|
+|
+|switch|p1a: Jolteon|Jolteon, L79|265\/265 par
+|turn|23
+|choice|move 1|move 4
+|
+|move|p2a: Hitmonchan|Body Slam|p1a: Jolteon
+|-crit|p1a: Jolteon
+|-damage|p1a: Jolteon|64\/265 par
+|move|p1a: Jolteon|Thunderbolt|p2a: Hitmonchan
+|-crit|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|0 fnt
+|faint|p2a: Hitmonchan
+|
+|win|borrellibozz
+|raw|borrellibozz's rating: 1086 &rarr; <strong>1131<\/strong><br \/>(+45 for winning)
+|raw|downsey238's rating: 1359 &rarr; <strong>1326<\/strong><br \/>(-33 for losing)
+|l|downsey238
+|player|p2

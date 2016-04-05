@@ -1,0 +1,272 @@
+﻿|j|Earth Wrecker
+|j|brysonk766
+|player|p1|Earth Wrecker|269
+|player|p2|brysonk766|163
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|seed|31582,53365,45622,37005
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Pikachu|Pikachu|273\/273
+|switch|p2a: Charizard|Charizard|359\/359
+|turn|1
+|choice|move 4|move 2
+|
+|move|p2a: Charizard|Earthquake|p1a: Pikachu
+|-supereffective|p1a: Pikachu
+|-damage|p1a: Pikachu|15\/273
+|move|p1a: Pikachu|Thunder Wave|p2a: Charizard
+|-status|p2a: Charizard|par
+|
+|turn|2
+|choice|move 1|move 1
+|
+|move|p1a: Pikachu|Thunderbolt|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|185\/359 par
+|cant|p2a: Charizard|par
+|
+|turn|3
+|choice|move 1|move 1
+|
+|move|p1a: Pikachu|Thunderbolt|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|6\/359 par
+|move|p2a: Charizard|Flamethrower|p1a: Pikachu
+|-damage|p1a: Pikachu|0 fnt
+|faint|p1a: Pikachu
+|choice|switch 4|
+|
+|switch|p1a: Squirtle|Squirtle|291\/291
+|turn|4
+|choice|move 2|move 2
+|
+|move|p1a: Squirtle|Ice Beam|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|choice||switch 5
+|
+|switch|p2a: Pikachu|Pikachu|273\/273
+|turn|5
+|choice|move 4|move 1
+|
+|move|p2a: Pikachu|Thunderbolt|p1a: Squirtle
+|-supereffective|p1a: Squirtle
+|-damage|p1a: Squirtle|60\/291
+|move|p1a: Squirtle|Counter|p2a: Pikachu
+|-fail|p1a: Squirtle
+|
+|turn|6
+|c|★Earth Wrecker|That didn't worked. ^^;
+|choice|switch 2|move 1
+|
+|switch|p1a: Bulbasaur|Bulbasaur|293\/293
+|move|p2a: Pikachu|Thunderbolt|p1a: Bulbasaur
+|-resisted|p1a: Bulbasaur
+|-damage|p1a: Bulbasaur|247\/293
+|
+|turn|7
+|choice|move 1|move 3
+|
+|move|p2a: Pikachu|Body Slam|p1a: Bulbasaur
+|-damage|p1a: Bulbasaur|179\/293
+|move|p1a: Bulbasaur|Sleep Powder|p2a: Pikachu
+|-status|p2a: Pikachu|slp
+|
+|turn|8
+|choice|move 2|switch 4
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Bulbasaur|Leech Seed|p2a: Snorlax
+|-start|p2a: Snorlax|move: Leech Seed
+|
+|turn|9
+|choice|switch 5|move 3
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|move|p2a: Snorlax|Seismic Toss|p1a: Tauros
+|-damage|p1a: Tauros|253\/353
+|-damage|p2a: Snorlax|491\/523|[from] Leech Seed|[of] p1a: Tauros
+|-heal|p1a: Tauros|285\/353|[silent]
+|
+|turn|10
+|choice|move 1|move 4
+|
+|move|p1a: Tauros|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|350\/523
+|move|p2a: Snorlax|Counter|p1a: Tauros
+|-damage|p1a: Tauros|3\/353
+|-damage|p2a: Snorlax|318\/523|[from] Leech Seed|[of] p1a: Tauros
+|-heal|p1a: Tauros|35\/353|[silent]
+|
+|turn|11
+|choice|switch 6|move 3
+|
+|switch|p1a: Lapras|Lapras|463\/463
+|move|p2a: Snorlax|Seismic Toss|p1a: Lapras
+|-damage|p1a: Lapras|363\/463
+|-damage|p2a: Snorlax|286\/523|[from] Leech Seed|[of] p1a: Lapras
+|-heal|p1a: Lapras|395\/463|[silent]
+|
+|turn|12
+|choice|move 4|move 4
+|
+|move|p1a: Lapras|Confuse Ray|p2a: Snorlax
+|-start|p2a: Snorlax|confusion
+|-activate|p2a: Snorlax|confusion
+|move|p2a: Snorlax|Counter|p1a: Lapras
+|-fail|p2a: Snorlax
+|-damage|p2a: Snorlax|254\/523|[from] Leech Seed|[of] p1a: Lapras
+|-heal|p1a: Lapras|427\/463|[silent]
+|
+|turn|13
+|choice|move 1|move 3
+|
+|move|p1a: Lapras|Blizzard|p2a: Snorlax
+|-damage|p2a: Snorlax|61\/523
+|-activate|p2a: Snorlax|confusion
+|-damage|p2a: Snorlax|13\/523|[from] confusion
+|-damage|p2a: Snorlax|0 fnt|[from] Leech Seed|[of] p1a: Lapras
+|-heal|p1a: Lapras|440\/463|[silent]
+|faint|p2a: Snorlax
+|choice||switch 3
+|
+|switch|p2a: Venusaur|Venusaur|363\/363
+|turn|14
+|choice|move 4|move 3
+|
+|move|p2a: Venusaur|Razor Leaf|p1a: Lapras
+|-crit|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|168\/463
+|move|p1a: Lapras|Confuse Ray|p2a: Venusaur
+|-start|p2a: Venusaur|confusion
+|
+|turn|15
+|choice|switch 3|move 3
+|
+|switch|p1a: Charizard|Charizard|359\/359
+|-activate|p2a: Venusaur|confusion
+|-damage|p2a: Venusaur|328\/363|[from] confusion
+|
+|turn|16
+|choice|move 1|switch 2
+|
+|switch|p2a: Blastoise|Blastoise|361\/361
+|move|p1a: Charizard|Swords Dance|p1a: Charizard
+|-boost|p1a: Charizard|atk|2
+|
+|turn|17
+|choice|move 2|move 4
+|
+|move|p1a: Charizard|Body Slam|p2a: Blastoise
+|-damage|p2a: Blastoise|249\/361
+|move|p2a: Blastoise|Hydro Pump|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|81\/359
+|
+|turn|18
+|choice|switch 3|move 1
+|
+|switch|p1a: Lapras|Lapras|168\/463
+|move|p2a: Blastoise|Surf|p1a: Lapras
+|-crit|p1a: Lapras
+|-resisted|p1a: Lapras
+|-damage|p1a: Lapras|59\/463
+|
+|turn|19
+|choice|move 2|move 3
+|
+|move|p2a: Blastoise|Ice Beam|p1a: Lapras
+|-resisted|p1a: Lapras
+|-damage|p1a: Lapras|41\/463
+|move|p1a: Lapras|Thunderbolt|p2a: Blastoise
+|-supereffective|p2a: Blastoise
+|-damage|p2a: Blastoise|94\/361
+|-status|p2a: Blastoise|par
+|
+|turn|20
+|choice|move 2|move 2
+|
+|move|p1a: Lapras|Thunderbolt|p2a: Blastoise
+|-supereffective|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|choice||switch 4
+|
+|switch|p2a: Pikachu|Pikachu|273\/273 slp
+|turn|21
+|choice|move 1|move 1
+|
+|cant|p2a: Pikachu|slp
+|move|p1a: Lapras|Blizzard|p2a: Pikachu
+|-crit|p2a: Pikachu
+|-damage|p2a: Pikachu|0 fnt
+|faint|p2a: Pikachu
+|choice||switch 6
+|
+|switch|p2a: Lapras|Lapras|463\/463
+|turn|22
+|choice|move 4|move 3
+|
+|move|p2a: Lapras|Psychic|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|choice|switch 6|
+|
+|switch|p1a: Tauros|Tauros|35\/353
+|turn|23
+|choice|move 3|move 3
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Lapras
+|-damage|p2a: Lapras|249\/463
+|move|p2a: Lapras|Psychic|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|choice|switch 5|
+|
+|switch|p1a: Bulbasaur|Bulbasaur|179\/293
+|turn|24
+|choice|move 1|move 1
+|
+|move|p2a: Lapras|Blizzard|p1a: Bulbasaur
+|-supereffective|p1a: Bulbasaur
+|-damage|p1a: Bulbasaur|0 fnt
+|faint|p1a: Bulbasaur
+|choice|switch 3|
+|
+|switch|p1a: Charizard|Charizard|81\/359
+|turn|25
+|choice|move 2|move 2
+|
+|move|p1a: Charizard|Body Slam|p2a: Lapras
+|-damage|p2a: Lapras|176\/463
+|move|p2a: Lapras|Surf|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|choice|switch 2|
+|
+|switch|p1a: Squirtle|Squirtle|60\/291
+|turn|26
+|choice|move 4|move 3
+|
+|move|p2a: Lapras|Psychic|p1a: Squirtle
+|-damage|p1a: Squirtle|0 fnt
+|faint|p1a: Squirtle
+|
+|win|brysonk766
+|player|p1
+|player|p2
+|c|★Earth Wrecker|Nice game! ^^
+|c|★Earth Wrecker|That was fun!
+|c|★brysonk766|You too, and it was
+|c|★Earth Wrecker|Thank you for this much! That awesome. ^^

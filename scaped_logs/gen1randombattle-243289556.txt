@@ -1,0 +1,360 @@
+﻿|join|byyyst
+|join|Psychedelic Trip
+|player|p1|byyyst|169
+|player|p2|Psychedelic Trip|168
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gengar|Gengar, L79|257\/257
+|switch|p2a: Tentacool|Tentacool, L96|272\/272
+|turn|1
+|join|AmpharosKing
+|
+|move|p1a: Gengar|Psychic|p2a: Tentacool
+|-supereffective|p2a: Tentacool
+|-damage|p2a: Tentacool|160\/272
+|-unboost|p2a: Tentacool|spd|1
+|-unboost|p2a: Tentacool|spa|1
+|move|p2a: Tentacool|Hydro Pump|p1a: Gengar
+|-damage|p1a: Gengar|158\/257
+|
+|turn|2
+|
+|switch|p2a: Hypno|Hypno, L85|318\/318
+|move|p1a: Gengar|Psychic|p2a: Hypno
+|-crit|p2a: Hypno
+|-resisted|p2a: Hypno
+|-damage|p2a: Hypno|264\/318
+|
+|turn|3
+|
+|move|p1a: Gengar|Hypnosis|p2a: Hypno
+|-status|p2a: Hypno|slp
+|cant|p2a: Hypno|slp
+|
+|turn|4
+|
+|switch|p1a: Rhydon|Rhydon, L79|328\/328
+|switch|p2a: Sandslash|Sandslash, L85|301\/301
+|
+|turn|5
+|
+|switch|p1a: Marowak|Marowak, L90|291\/291
+|move|p2a: Sandslash|Earthquake|p1a: Marowak
+|-crit|p1a: Marowak
+|-damage|p1a: Marowak|125\/291
+|
+|turn|6
+|leave|AmpharosKing
+|
+|switch|p2a: Gyarados|Gyarados, L85|335\/335
+|move|p1a: Marowak|Blizzard|p2a: Gyarados
+|-damage|p2a: Gyarados|280\/335
+|
+|turn|7
+|
+|switch|p1a: Gengar|Gengar, L79|158\/257
+|move|p2a: Gyarados|Surf|p1a: Gengar
+|-damage|p1a: Gengar|73\/257
+|
+|turn|8
+|
+|switch|p2a: Sandslash|Sandslash, L85|301\/301
+|move|p1a: Gengar|Thunderbolt|p2a: Sandslash
+|-immune|p2a: Sandslash|[msg]
+|
+|turn|9
+|
+|switch|p1a: Marowak|Marowak, L90|125\/291
+|move|p2a: Sandslash|Earthquake|p1a: Marowak
+|-damage|p1a: Marowak|34\/291
+|
+|turn|10
+|
+|move|p2a: Sandslash|Earthquake|p1a: Marowak
+|-damage|p1a: Marowak|0 fnt
+|faint|p1a: Marowak
+|
+|switch|p1a: Seadra|Seadra, L90|282\/282
+|turn|11
+|
+|switch|p2a: Tentacool|Tentacool, L96|160\/272
+|move|p1a: Seadra|Hydro Pump|p2a: Tentacool
+|-resisted|p2a: Tentacool
+|-damage|p2a: Tentacool|99\/272
+|
+|turn|12
+|
+|move|p1a: Seadra|Hydro Pump|p2a: Tentacool
+|-resisted|p2a: Tentacool
+|-damage|p2a: Tentacool|43\/272
+|move|p2a: Tentacool|Hydro Pump|p1a: Seadra
+|-resisted|p1a: Seadra
+|-damage|p1a: Seadra|202\/282
+|
+|turn|13
+|
+|move|p1a: Seadra|Hydro Pump|p2a: Tentacool
+|-resisted|p2a: Tentacool
+|-damage|p2a: Tentacool|0 fnt
+|faint|p2a: Tentacool
+|
+|switch|p2a: Gloom|Gloom, L90|291\/291
+|turn|14
+|
+|move|p1a: Seadra|Blizzard|p2a: Gloom
+|-supereffective|p2a: Gloom
+|-damage|p2a: Gloom|119\/291
+|move|p2a: Gloom|Mega Drain|p1a: Seadra
+|-supereffective|p1a: Seadra
+|-damage|p1a: Seadra|118\/282
+|-heal|p2a: Gloom|161\/291|[from] drain|[of] p1a: Seadra
+|
+|turn|15
+|
+|move|p1a: Seadra|Blizzard|p2a: Gloom
+|-supereffective|p2a: Gloom
+|-damage|p2a: Gloom|0 fnt
+|faint|p2a: Gloom
+|
+|switch|p2a: Gyarados|Gyarados, L85|280\/335
+|turn|16
+|
+|switch|p1a: Ivysaur|Ivysaur, L85|276\/276
+|move|p2a: Gyarados|Thunderbolt|p1a: Ivysaur
+|-resisted|p1a: Ivysaur
+|-damage|p1a: Ivysaur|242\/276
+|
+|turn|17
+|
+|switch|p2a: Hypno|Hypno, L85|264\/318 slp
+|move|p1a: Ivysaur|Body Slam|p2a: Hypno
+|-damage|p2a: Hypno|214\/318 slp
+|
+|turn|18
+|
+|switch|p1a: Rhydon|Rhydon, L79|328\/328
+|cant|p2a: Hypno|slp
+|-curestatus|p2a: Hypno|slp
+|
+|turn|19
+|
+|switch|p2a: Porygon|Porygon, L85|284\/284
+|move|p1a: Rhydon|Earthquake|p2a: Porygon
+|-damage|p2a: Porygon|144\/284
+|
+|turn|20
+|
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|284\/284
+|move|p1a: Rhydon|Earthquake|p2a: Porygon
+|-damage|p2a: Porygon|151\/284
+|
+|turn|21
+|
+|switch|p2a: Gyarados|Gyarados, L85|280\/335
+|switch|p1a: Ivysaur|Ivysaur, L85|242\/276
+|
+|turn|22
+|
+|move|p2a: Gyarados|Blizzard|p1a: Ivysaur
+|-supereffective|p1a: Ivysaur
+|-damage|p1a: Ivysaur|70\/276
+|move|p1a: Ivysaur|Sleep Powder|p2a: Gyarados
+|-status|p2a: Gyarados|slp
+|
+|turn|23
+|
+|switch|p2a: Porygon|Porygon, L85|151\/284
+|move|p1a: Ivysaur|Razor Leaf|p2a: Porygon
+|-crit|p2a: Porygon
+|-damage|p2a: Porygon|32\/284
+|
+|turn|24
+|
+|move|p1a: Ivysaur|Body Slam|p2a: Porygon
+|-damage|p2a: Porygon|0 fnt
+|faint|p2a: Porygon
+|
+|switch|p2a: Sandslash|Sandslash, L85|301\/301
+|turn|25
+|
+|move|p2a: Sandslash|Earthquake|p1a: Ivysaur
+|-damage|p1a: Ivysaur|0 fnt
+|faint|p1a: Ivysaur
+|
+|switch|p1a: Seadra|Seadra, L90|118\/282
+|turn|26
+|
+|switch|p2a: Gyarados|Gyarados, L85|280\/335 slp
+|move|p1a: Seadra|Hydro Pump|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|212\/335 slp
+|
+|turn|27
+|
+|switch|p1a: Gengar|Gengar, L79|73\/257
+|cant|p2a: Gyarados|slp
+|
+|turn|28
+|
+|switch|p2a: Sandslash|Sandslash, L85|301\/301
+|move|p1a: Gengar|Psychic|p2a: Sandslash
+|-damage|p2a: Sandslash|216\/301
+|
+|turn|29
+|
+|switch|p1a: Seadra|Seadra, L90|118\/282
+|move|p2a: Sandslash|Earthquake|p1a: Seadra
+|-damage|p1a: Seadra|11\/282
+|
+|turn|30
+|
+|switch|p1a: Gengar|Gengar, L79|73\/257
+|switch|p2a: Gyarados|Gyarados, L85|212\/335 slp
+|
+|turn|31
+|
+|move|p1a: Gengar|Psychic|p2a: Gyarados
+|-crit|p2a: Gyarados
+|-damage|p2a: Gyarados|85\/335 slp
+|cant|p2a: Gyarados|slp
+|-curestatus|p2a: Gyarados|slp
+|
+|turn|32
+|
+|switch|p2a: Sandslash|Sandslash, L85|216\/301
+|move|p1a: Gengar|Psychic|p2a: Sandslash
+|-damage|p2a: Sandslash|127\/301
+|
+|turn|33
+|join|BomberMan17
+|join|woobatrules
+|join|COCO is my dog
+|leave|woobatrules
+|join|ljmbhjhfhgd
+|c|★byyyst|lol what is this
+|join|laserrocketarm
+|c| COCO is my dog|oh yeah my kind of battle
+|leave|BomberMan17
+|c| COCO is my dog|am just waiting :P
+|leave|ljmbhjhfhgd
+|
+|move|p1a: Gengar|Hypnosis|p2a: Sandslash
+|-status|p2a: Sandslash|slp
+|cant|p2a: Sandslash|slp
+|
+|turn|34
+|c| COCO is my dog|classic
+|
+|switch|p2a: Hypno|Hypno, L85|214\/318
+|move|p1a: Gengar|Mega Drain|p2a: Hypno
+|-damage|p2a: Hypno|189\/318
+|-heal|p1a: Gengar|85\/257|[from] drain|[of] p2a: Hypno
+|
+|turn|35
+|
+|switch|p1a: Seadra|Seadra, L90|11\/282
+|move|p2a: Hypno|Psychic|p1a: Seadra
+|-damage|p1a: Seadra|0 fnt
+|faint|p1a: Seadra
+|
+|switch|p1a: Rhydon|Rhydon, L79|328\/328
+|turn|36
+|join|Soul Dewer
+|
+|switch|p2a: Gyarados|Gyarados, L85|85\/335
+|move|p1a: Rhydon|Rock Slide|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|c|★byyyst|want to get any more rekt
+|
+|switch|p2a: Hypno|Hypno, L85|189\/318
+|turn|37
+|c|★byyyst|my god
+|c|★byyyst|all game
+|
+|move|p2a: Hypno|Hypnosis|p1a: Rhydon|[miss]
+|-miss|p2a: Hypno
+|move|p1a: Rhydon|Earthquake|p2a: Hypno
+|-damage|p2a: Hypno|58\/318
+|
+|turn|38
+|
+|move|p2a: Hypno|Hypnosis|p1a: Rhydon|[miss]
+|-miss|p2a: Hypno
+|move|p1a: Rhydon|Earthquake|p2a: Hypno
+|-damage|p2a: Hypno|0 fnt
+|faint|p2a: Hypno
+|leave|Soul Dewer
+|c| COCO is my dog|gg
+|c| COCO is my dog|over
+|c|★byyyst|last was metapod
+|
+|switch|p2a: Sandslash|Sandslash, L85|127\/301 slp
+|turn|39
+|
+|cant|p2a: Sandslash|slp
+|move|p1a: Rhydon|Earthquake|p2a: Sandslash
+|-damage|p2a: Sandslash|37\/301 slp
+|
+|turn|40
+|
+|cant|p2a: Sandslash|slp
+|move|p1a: Rhydon|Substitute|p1a: Rhydon
+|-start|p1a: Rhydon|Substitute
+|-damage|p1a: Rhydon|246\/328
+|
+|turn|41
+|
+|cant|p2a: Sandslash|slp
+|move|p1a: Rhydon|Rock Slide|p2a: Sandslash|[miss]
+|-miss|p1a: Rhydon
+|
+|turn|42
+|join|spartan22104
+|leave|spartan22104
+|join|momdkid
+|
+|cant|p2a: Sandslash|slp
+|-curestatus|p2a: Sandslash|slp
+|move|p1a: Rhydon|Rock Slide|p2a: Sandslash
+|-resisted|p2a: Sandslash
+|-damage|p2a: Sandslash|4\/301
+|
+|turn|43
+|leave|momdkid
+|
+|move|p2a: Sandslash|Earthquake|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-end|p1a: Rhydon|Substitute
+|move|p1a: Rhydon|Rock Slide|p2a: Sandslash|[miss]
+|-miss|p1a: Rhydon
+|
+|turn|44
+|
+|move|p2a: Sandslash|Earthquake|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|49\/328
+|move|p1a: Rhydon|Rock Slide|p2a: Sandslash
+|-resisted|p2a: Sandslash
+|-damage|p2a: Sandslash|0 fnt
+|faint|p2a: Sandslash
+|
+|win|byyyst
+|raw|Ladder updating...
+|c| COCO is my dog|nvm
+|raw|byyyst's rating: 0 &rarr; <strong>1000<\/strong><br \/>(+1000 for winning)
+|raw|Psychedelic Trip's rating: 0 &rarr; <strong>1000<\/strong><br \/>(+1000 for losing)
+|c|★byyyst|gg no re
+|c| COCO is my dog|plot twist
+|leave|Psychedelic Trip
+|player|p2
+|leave|COCO is my dog

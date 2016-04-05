@@ -1,0 +1,423 @@
+﻿|join|Whoremaster
+|join|DjDrake8
+|player|p1|Whoremaster|43
+|player|p2|DjDrake8|107
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|turn|1
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Exeggutor
+|-damage|p2a: Exeggutor|293\/393
+|move|p2a: Exeggutor|Sleep Powder|p1a: Alakazam
+|-status|p1a: Alakazam|slp
+|
+|turn|2
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|switch|p2a: Tauros|Tauros|353\/353
+|
+|turn|3
+|
+|move|p2a: Tauros|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|276\/393
+|-status|p1a: Exeggutor|par
+|cant|p1a: Exeggutor|par
+|
+|turn|4
+|
+|move|p2a: Tauros|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|146\/393 par
+|move|p1a: Exeggutor|Sleep Powder|p2a: Tauros|[miss]
+|-miss|p1a: Exeggutor
+|
+|turn|5
+|chat|Whoremaster|fark
+|chat|Whoremaster|haxed
+|
+|move|p2a: Tauros|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|18\/393 par
+|cant|p1a: Exeggutor|par
+|
+|turn|6
+|
+|switch|p1a: Cloyster|Cloyster|303\/303
+|move|p2a: Tauros|Body Slam|p1a: Cloyster
+|-damage|p1a: Cloyster|241\/303
+|
+|turn|7
+|
+|move|p2a: Tauros|Body Slam|p1a: Cloyster
+|-damage|p1a: Cloyster|172\/303
+|-status|p1a: Cloyster|par
+|cant|p1a: Cloyster|par
+|
+|turn|8
+|
+|move|p2a: Tauros|Body Slam|p1a: Cloyster
+|-damage|p1a: Cloyster|108\/303 par
+|move|p1a: Cloyster|Clamp|p2a: Tauros
+|-damage|p2a: Tauros|308\/353
+|-activate|p2a: Tauros|move: Clamp|[of] p1a: Cloyster
+|
+|turn|9
+|
+|cant|p2a: Tauros|partiallytrapped
+|cant|p1a: Cloyster|par
+|
+|-end|p2a: Tauros|Clamp|[partiallytrapped]
+|turn|10
+|
+|switch|p1a: Golem|Golem|363\/363
+|move|p2a: Tauros|Hyper Beam|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|290\/363
+|
+|turn|11
+|
+|cant|p2a: Tauros|recharge
+|move|p1a: Golem|Earthquake|p2a: Tauros
+|-damage|p2a: Tauros|179\/353
+|
+|turn|12
+|
+|switch|p1a: Cloyster|Cloyster|108\/303 par
+|move|p2a: Tauros|Blizzard|p1a: Cloyster
+|-crit|p1a: Cloyster
+|-resisted|p1a: Cloyster
+|-damage|p1a: Cloyster|69\/303 par
+|
+|turn|13
+|
+|move|p2a: Tauros|Body Slam|p1a: Cloyster
+|-damage|p1a: Cloyster|8\/303 par
+|move|p1a: Cloyster|Blizzard|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|chat|Whoremaster|tauros's big meaty cock is raping me man
+|chat|Whoremaster|this is a rough time for sure
+|
+|switch|p2a: Alakazam|Alakazam|313\/313
+|turn|14
+|
+|switch|p1a: Exeggutor|Exeggutor|18\/393 par
+|move|p2a: Alakazam|Seismic Toss|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|turn|15
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|move|p1a: Chansey|Ice Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|249\/313
+|
+|turn|16
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|603\/703 par
+|move|p1a: Chansey|Ice Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|188\/313
+|
+|turn|17
+|
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|485\/703 par
+|move|p1a: Chansey|Ice Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|120\/313
+|-status|p2a: Alakazam|frz
+|
+|turn|18
+|chat|Whoremaster|cold brah
+|chat|DjDrake8|FUK now its over
+|
+|switch|p2a: Cloyster|Cloyster|303\/303
+|move|p1a: Chansey|Thunderbolt|p2a: Cloyster
+|-supereffective|p2a: Cloyster
+|-damage|p2a: Cloyster|131\/303
+|-status|p2a: Cloyster|par
+|
+|turn|19
+|chat|Whoremaster|have faith in thoust lord
+|chat|DjDrake8|frozen pokemon DONT thaw in gen 1
+|
+|move|p2a: Cloyster|Clamp|p1a: Chansey
+|-damage|p1a: Chansey|450\/703 par
+|-activate|p1a: Chansey|move: Clamp|[of] p2a: Cloyster
+|cant|p1a: Chansey|partiallytrapped
+|
+|turn|20
+|chat|Whoremaster|i know man
+|
+|move|p2a: Cloyster|Clamp|p1a: Chansey
+|-damage|p1a: Chansey|415\/703 par
+|cant|p1a: Chansey|partiallytrapped
+|
+|turn|21
+|
+|move|p2a: Cloyster|Clamp|p1a: Chansey
+|-damage|p1a: Chansey|380\/703 par
+|cant|p1a: Chansey|partiallytrapped
+|
+|turn|22
+|
+|move|p2a: Cloyster|Clamp|p1a: Chansey
+|-damage|p1a: Chansey|345\/703 par
+|cant|p1a: Chansey|par
+|
+|-end|p1a: Chansey|Clamp|[partiallytrapped]
+|turn|23
+|
+|switch|p1a: Alakazam|Alakazam|313\/313 slp
+|move|p2a: Cloyster|Clamp|p1a: Alakazam|[miss]
+|-miss|p2a: Cloyster
+|
+|turn|24
+|
+|cant|p1a: Alakazam|slp
+|move|p2a: Cloyster|Clamp|p1a: Alakazam
+|-damage|p1a: Alakazam|283\/313 slp
+|-activate|p1a: Alakazam|move: Clamp|[of] p2a: Cloyster
+|
+|turn|25
+|
+|cant|p1a: Alakazam|slp
+|-curestatus|p1a: Alakazam|slp
+|move|p2a: Cloyster|Clamp|p1a: Alakazam
+|-damage|p1a: Alakazam|253\/313
+|
+|turn|26
+|
+|cant|p1a: Alakazam|partiallytrapped
+|move|p2a: Cloyster|Clamp|p1a: Alakazam
+|-damage|p1a: Alakazam|223\/313
+|
+|-end|p1a: Alakazam|Clamp|[partiallytrapped]
+|turn|27
+|
+|move|p1a: Alakazam|Psychic|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p2a: Cloyster
+|
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|turn|28
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|574\/703
+|move|p2a: Chansey|Ice Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|166\/313
+|
+|turn|29
+|
+|switch|p1a: Chansey|Chansey|345\/703 par
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|271\/703 par
+|
+|turn|30
+|
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|199\/703 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|550\/703 par
+|
+|turn|31
+|chat|Whoremaster|oi mate who u reckon is the hottest bitch from friends?
+|
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|474\/703 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703 par
+|
+|turn|32
+|chat|Whoremaster|im a monica man personally
+|chat|DjDrake8|same here
+|
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|629\/703 par
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|502\/703
+|
+|turn|33
+|chat|Whoremaster|yeah fuck yeah
+|chat|Whoremaster|id hatefuck rachel tho
+|
+|switch|p2a: Alakazam|Alakazam|120\/313 frz
+|cant|p1a: Chansey|par
+|
+|turn|34
+|
+|cant|p2a: Alakazam|frz
+|move|p1a: Chansey|Ice Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|57\/313 frz
+|
+|turn|35
+|
+|cant|p2a: Alakazam|frz
+|move|p1a: Chansey|Ice Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|
+|switch|p2a: Rhydon|Rhydon|413\/413
+|turn|36
+|
+|move|p2a: Rhydon|Substitute|p2a: Rhydon
+|-start|p2a: Rhydon|Substitute
+|-damage|p2a: Rhydon|310\/413
+|move|p1a: Chansey|Ice Beam|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-end|p2a: Rhydon|Substitute
+|
+|turn|37
+|
+|move|p2a: Rhydon|Substitute|p2a: Rhydon
+|-start|p2a: Rhydon|Substitute
+|-damage|p2a: Rhydon|207\/413
+|move|p1a: Chansey|Ice Beam|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-end|p2a: Rhydon|Substitute
+|
+|turn|38
+|
+|move|p2a: Rhydon|Substitute|p2a: Rhydon
+|-start|p2a: Rhydon|Substitute
+|-damage|p2a: Rhydon|104\/413
+|move|p1a: Chansey|Ice Beam|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-end|p2a: Rhydon|Substitute
+|
+|turn|39
+|chat|Whoremaster|drop like an earthquake
+|
+|move|p2a: Rhydon|Substitute|p2a: Rhydon
+|-start|p2a: Rhydon|Substitute
+|-damage|p2a: Rhydon|1\/413
+|cant|p1a: Chansey|par
+|
+|turn|40
+|chat|Whoremaster|oh shit
+|
+|move|p2a: Rhydon|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|251\/703 par
+|cant|p1a: Chansey|par
+|
+|turn|41
+|chat|Whoremaster|faaark
+|
+|move|p2a: Rhydon|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|
+|switch|p1a: Cloyster|Cloyster|8\/303 par
+|turn|42
+|
+|move|p2a: Rhydon|Earthquake|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|
+|switch|p1a: Alakazam|Alakazam|166\/313
+|turn|43
+|
+|move|p1a: Alakazam|Psychic|p2a: Rhydon
+|-end|p2a: Rhydon|Substitute
+|move|p2a: Rhydon|Earthquake|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|44
+|
+|move|p1a: Tauros|Body Slam|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|
+|
+|switch|p2a: Exeggutor|Exeggutor|293\/393
+|turn|45
+|
+|switch|p1a: Golem|Golem|290\/363
+|move|p2a: Exeggutor|Sleep Powder|p1a: Golem
+|-status|p1a: Golem|slp
+|
+|turn|46
+|chat|DjDrake8|noooooooo
+|chat|Whoremaster|:)
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|move|p2a: Exeggutor|Mega Drain|p1a: Tauros
+|-damage|p1a: Tauros|278\/353
+|-heal|p2a: Exeggutor|331\/393|[from] drain|[of] p1a: Tauros
+|
+|turn|47
+|chat|DjDrake8|I see what you did there
+|chat|DjDrake8|nice
+|
+|move|p1a: Tauros|Blizzard|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|193\/393
+|move|p2a: Exeggutor|Psychic|p1a: Tauros
+|-damage|p1a: Tauros|134\/353
+|
+|turn|48
+|
+|move|p1a: Tauros|Blizzard|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|63\/393
+|move|p2a: Exeggutor|Psychic|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|chat|DjDrake8|but its all ogre now
+|chat|Whoremaster|too bad tauros is a shitcunt
+|chat|Whoremaster|should i have hyperbeamed
+|chat|Whoremaster|i was praying for a crit
+|chat|DjDrake8|yes
+|chat|Whoremaster|haha fark
+|chat|Whoremaster|im new to this game
+|
+|switch|p1a: Golem|Golem|290\/363 slp
+|turn|49
+|chat|DjDrake8|same
+|chat|Whoremaster|dont have the experience
+|chat|DjDrake8|today's my 1st day
+|
+|move|p2a: Exeggutor|Mega Drain|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|0 fnt
+|-heal|p2a: Exeggutor|208\/393|[from] drain|[of] p1a: Golem
+|faint|p1a: Golem
+|
+|win|DjDrake8
+|raw|Ladder updating...
+|raw|Whoremaster's rating: 1189 &rarr; <strong>1157<\/strong><br \/>(-32 for losing)
+|raw|DjDrake8's rating: 1099 &rarr; <strong>1131<\/strong><br \/>(+32 for winning)
+|chat|Whoremaster|u study smogon be4 tho
+|chat|Whoremaster|?
+|chat|DjDrake8|a little
+|chat|Whoremaster|swag nigga
+|chat|Whoremaster|gg
+|leave|Whoremaster
+|player|p1

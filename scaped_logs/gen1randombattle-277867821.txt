@@ -1,0 +1,225 @@
+﻿|join|Abstrix
+|join|ImBOOBOO
+|player|p1|Abstrix|8
+|player|p2|ImBOOBOO|154
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Exeggutor|Exeggutor, L79|312\/312
+|switch|p2a: Ponyta|Ponyta, L96|291\/291
+|turn|1
+|
+|switch|p1a: Metapod|Metapod, L99|300\/300
+|move|p2a: Ponyta|Toxic|p1a: Metapod|[miss]
+|-miss|p2a: Ponyta
+|
+|turn|2
+|
+|move|p2a: Ponyta|Fire Blast|p1a: Metapod
+|-supereffective|p1a: Metapod
+|-damage|p1a: Metapod|0 fnt
+|faint|p1a: Metapod
+|
+|switch|p1a: Golem|Golem, L79|288\/288
+|turn|3
+|
+|switch|p2a: Persian|Persian, L79|265\/265
+|move|p1a: Golem|Rock Slide|p2a: Persian
+|-damage|p2a: Persian|163\/265
+|
+|turn|4
+|
+|switch|p1a: Exeggutor|Exeggutor, L79|312\/312
+|move|p2a: Persian|Bubble Beam|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|299\/312
+|
+|turn|5
+|
+|move|p2a: Persian|Hyper Beam|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-damage|p1a: Exeggutor|66\/312
+|move|p1a: Exeggutor|Sleep Powder|p2a: Persian
+|-status|p2a: Persian|slp
+|
+|turn|6
+|-mustrecharge|p2a: Persian
+|-mustrecharge|p2a: Persian
+|
+|cant|p2a: Persian|recharge
+|move|p1a: Exeggutor|Mega Drain|p2a: Persian
+|-damage|p2a: Persian|107\/265 slp
+|-heal|p1a: Exeggutor|94\/312|[from] drain|[of] p2a: Persian
+|
+|turn|7
+|
+|cant|p2a: Persian|slp
+|move|p1a: Exeggutor|Hyper Beam|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|faint|p2a: Persian
+|
+|switch|p2a: Ponyta|Ponyta, L96|291\/291
+|turn|8
+|
+|switch|p1a: Magmar|Magmar, L90|300\/300
+|move|p2a: Ponyta|Fire Blast|p1a: Magmar
+|-resisted|p1a: Magmar
+|-damage|p1a: Magmar|243\/300
+|
+|turn|9
+|
+|move|p2a: Ponyta|Toxic|p1a: Magmar
+|-status|p1a: Magmar|tox
+|move|p1a: Magmar|Confuse Ray|p2a: Ponyta
+|-start|p2a: Ponyta|confusion
+|-damage|p1a: Magmar|225\/300 tox|[from] tox|[of] p2a: Ponyta
+|
+|turn|10
+|
+|switch|p2a: Ekans|Ekans, L96|262\/262
+|switch|p1a: Golem|Golem, L79|288\/288
+|
+|turn|11
+|
+|move|p2a: Ekans|Earthquake|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|169\/288
+|move|p1a: Golem|Earthquake|p2a: Ekans
+|-supereffective|p2a: Ekans
+|-damage|p2a: Ekans|0 fnt
+|faint|p2a: Ekans
+|
+|switch|p2a: Pinsir|Pinsir, L85|284\/284
+|turn|12
+|
+|move|p2a: Pinsir|Submission|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|47\/288
+|-damage|p2a: Pinsir|254\/284|[from] recoil|[of] p1a: Golem
+|move|p1a: Golem|Rock Slide|p2a: Pinsir
+|-supereffective|p2a: Pinsir
+|-damage|p2a: Pinsir|113\/284
+|
+|turn|13
+|
+|switch|p1a: Magmar|Magmar, L90|225\/300 tox
+|-status|p1a: Magmar|psn
+|-damage|p1a: Magmar|207\/300 psn|[from] psn
+|move|p2a: Pinsir|Submission|p1a: Magmar
+|-damage|p1a: Magmar|118\/300 psn
+|-damage|p2a: Pinsir|91\/284|[from] recoil|[of] p1a: Magmar
+|
+|turn|14
+|
+|move|p1a: Magmar|Fire Blast|p2a: Pinsir
+|-supereffective|p2a: Pinsir
+|-damage|p2a: Pinsir|0 fnt
+|faint|p2a: Pinsir
+|
+|switch|p2a: Mew|Mew, L74|300\/300
+|turn|15
+|
+|move|p1a: Magmar|Confuse Ray|p2a: Mew
+|-start|p2a: Mew|confusion
+|-damage|p1a: Magmar|100\/300 psn|[from] psn|[of] p2a: Mew
+|-activate|p2a: Mew|confusion
+|-damage|p2a: Mew|274\/300|[from] confusion
+|
+|turn|16
+|
+|move|p1a: Magmar|Fire Blast|p2a: Mew
+|-damage|p2a: Mew|127\/300
+|-damage|p1a: Magmar|82\/300 psn|[from] psn|[of] p2a: Mew
+|-activate|p2a: Mew|confusion
+|move|p2a: Mew|Earthquake|p1a: Magmar
+|-supereffective|p1a: Magmar
+|-damage|p1a: Magmar|0 fnt
+|faint|p1a: Magmar
+|
+|switch|p1a: Exeggutor|Exeggutor, L79|94\/312
+|turn|17
+|
+|switch|p2a: Ponyta|Ponyta, L96|291\/291
+|move|p1a: Exeggutor|Sleep Powder|p2a: Ponyta
+|-status|p2a: Ponyta|slp
+|
+|turn|18
+|
+|cant|p2a: Ponyta|slp
+|move|p1a: Exeggutor|Explosion|p2a: Ponyta
+|-damage|p2a: Ponyta|33\/291 slp
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Kangaskhan|Kangaskhan, L85|352\/352
+|turn|19
+|
+|cant|p2a: Ponyta|slp
+|move|p1a: Kangaskhan|Body Slam|p2a: Ponyta
+|-damage|p2a: Ponyta|0 fnt
+|faint|p2a: Ponyta
+|
+|switch|p2a: Magneton|Magneton, L90|273\/273
+|turn|20
+|
+|switch|p1a: Golem|Golem, L79|47\/288
+|move|p2a: Magneton|Thunderbolt|p1a: Golem
+|-immune|p1a: Golem|[msg]
+|
+|turn|21
+|
+|move|p2a: Magneton|Double-Edge|p1a: Golem
+|-crit|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|0 fnt
+|-damage|p2a: Magneton|262\/273|[from] recoil|[of] p1a: Golem
+|faint|p1a: Golem
+|
+|switch|p1a: Machamp|Machamp, L90|345\/345
+|turn|22
+|
+|move|p2a: Magneton|Thunderbolt|p1a: Machamp
+|-damage|p1a: Machamp|182\/345
+|move|p1a: Machamp|Body Slam|p2a: Magneton
+|-damage|p2a: Magneton|186\/273
+|
+|turn|23
+|
+|move|p2a: Magneton|Thunderbolt|p1a: Machamp
+|-damage|p1a: Machamp|30\/345
+|move|p1a: Machamp|Body Slam|p2a: Magneton
+|-crit|p2a: Magneton
+|-damage|p2a: Magneton|43\/273
+|-status|p2a: Magneton|par
+|
+|turn|24
+|
+|move|p1a: Machamp|Body Slam|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|faint|p2a: Magneton
+|
+|switch|p2a: Mew|Mew, L74|127\/300
+|turn|25
+|
+|move|p2a: Mew|Thunderbolt|p1a: Machamp
+|-damage|p1a: Machamp|0 fnt
+|faint|p1a: Machamp
+|
+|switch|p1a: Kangaskhan|Kangaskhan, L85|352\/352
+|turn|26
+|
+|move|p1a: Kangaskhan|Hyper Beam|p2a: Mew
+|-crit|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|win|Abstrix
+|c|★ImBOOBOO|Gg
+|raw|Abstrix's rating: 1276 &rarr; <strong>1290<\/strong><br \/>(+14 for winning)
+|raw|ImBOOBOO's rating: 1099 &rarr; <strong>1086<\/strong><br \/>(-13 for losing)
+|c|★Abstrix|Even with a bad team

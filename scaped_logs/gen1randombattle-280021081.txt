@@ -1,0 +1,430 @@
+﻿|join|Vergewaltiger
+|join|Zorage
+|player|p1|Vergewaltiger|265
+|player|p2|Zorage|268
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Metapod|Metapod, L99|300\/300
+|switch|p2a: Haunter|Haunter, L85|250\/250
+|turn|1
+|
+|move|p2a: Haunter|Psychic|p1a: Metapod
+|-damage|p1a: Metapod|178\/300
+|move|p1a: Metapod|String Shot|p2a: Haunter
+|-unboost|p2a: Haunter|spe|1
+|
+|turn|2
+|
+|move|p2a: Haunter|Psychic|p1a: Metapod
+|-damage|p1a: Metapod|53\/300
+|move|p1a: Metapod|String Shot|p2a: Haunter
+|-unboost|p2a: Haunter|spe|1
+|
+|turn|3
+|
+|switch|p2a: Mankey|Mankey, L96|272\/272
+|move|p1a: Metapod|String Shot|p2a: Mankey
+|-unboost|p2a: Mankey|spe|1
+|
+|turn|4
+|
+|switch|p2a: Haunter|Haunter, L85|250\/250
+|move|p1a: Metapod|String Shot|p2a: Haunter
+|-unboost|p2a: Haunter|spe|1
+|
+|turn|5
+|
+|switch|p2a: Mankey|Mankey, L96|272\/272
+|move|p1a: Metapod|String Shot|p2a: Mankey
+|-unboost|p2a: Mankey|spe|1
+|
+|turn|6
+|
+|move|p1a: Metapod|String Shot|p2a: Mankey
+|-unboost|p2a: Mankey|spe|1
+|move|p2a: Mankey|Rock Slide|p1a: Metapod
+|-supereffective|p1a: Metapod
+|-damage|p1a: Metapod|0 fnt
+|faint|p1a: Metapod
+|
+|switch|p1a: Seadra|Seadra, L90|282\/282
+|turn|7
+|
+|move|p1a: Seadra|Blizzard|p2a: Mankey
+|-damage|p2a: Mankey|146\/272
+|move|p2a: Mankey|Body Slam|p1a: Seadra
+|-damage|p1a: Seadra|218\/282
+|
+|turn|8
+|
+|move|p1a: Seadra|Blizzard|p2a: Mankey
+|-crit|p2a: Mankey
+|-damage|p2a: Mankey|0 fnt
+|faint|p2a: Mankey
+|
+|switch|p2a: Haunter|Haunter, L85|250\/250
+|turn|9
+|
+|move|p2a: Haunter|Hypnosis|p1a: Seadra
+|-status|p1a: Seadra|slp
+|cant|p1a: Seadra|slp
+|
+|turn|10
+|
+|switch|p1a: Snorlax|Snorlax, L79|415\/415
+|move|p2a: Haunter|Psychic|p1a: Snorlax
+|-damage|p1a: Snorlax|326\/415
+|
+|turn|11
+|
+|move|p2a: Haunter|Confuse Ray|p1a: Snorlax
+|-start|p1a: Snorlax|confusion
+|-activate|p1a: Snorlax|confusion
+|move|p1a: Snorlax|Earthquake|p2a: Haunter
+|-supereffective|p2a: Haunter
+|-damage|p2a: Haunter|54\/250
+|
+|turn|12
+|
+|switch|p1a: Machamp|Machamp, L90|345\/345
+|move|p2a: Haunter|Explosion|p1a: Machamp
+|-damage|p1a: Machamp|177\/345
+|faint|p2a: Haunter
+|
+|switch|p2a: Alakazam|Alakazam, L79|249\/249
+|turn|13
+|
+|move|p2a: Alakazam|Psychic|p1a: Machamp
+|-supereffective|p1a: Machamp
+|-damage|p1a: Machamp|0 fnt
+|faint|p1a: Machamp
+|
+|switch|p1a: Snorlax|Snorlax, L79|326\/415
+|turn|14
+|
+|move|p2a: Alakazam|Reflect|p2a: Alakazam
+|-start|p2a: Alakazam|Reflect
+|move|p1a: Snorlax|Earthquake|p2a: Alakazam
+|-damage|p2a: Alakazam|197\/249
+|
+|turn|15
+|
+|move|p2a: Alakazam|Psychic|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|68\/415
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|
+|turn|16
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|switch|p1a: Chansey|Chansey, L79|557\/557
+|turn|17
+|
+|switch|p2a: Flareon|Flareon, L90|300\/300
+|move|p1a: Chansey|Ice Beam|p2a: Flareon
+|-damage|p2a: Flareon|250\/300
+|
+|turn|18
+|
+|move|p2a: Flareon|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|346\/557
+|move|p1a: Chansey|Thunderbolt|p2a: Flareon
+|-damage|p2a: Flareon|200\/300
+|
+|turn|19
+|
+|move|p2a: Flareon|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|122\/557
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|400\/557
+|
+|turn|20
+|
+|move|p2a: Flareon|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|175\/557
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|453\/557
+|
+|turn|21
+|
+|move|p2a: Flareon|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|225\/557
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|503\/557
+|
+|turn|22
+|
+|move|p2a: Flareon|Body Slam|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|94\/557
+|move|p1a: Chansey|Counter|p2a: Flareon
+|-damage|p2a: Flareon|0 fnt
+|faint|p2a: Flareon
+|
+|switch|p2a: Tauros|Tauros, L79|280\/280
+|turn|23
+|
+|switch|p1a: Seadra|Seadra, L90|218\/282 slp
+|move|p2a: Tauros|Earthquake|p1a: Seadra
+|-damage|p1a: Seadra|160\/282 slp
+|
+|turn|24
+|
+|move|p2a: Tauros|Body Slam|p1a: Seadra
+|-damage|p1a: Seadra|93\/282 slp
+|cant|p1a: Seadra|slp
+|
+|turn|25
+|
+|move|p2a: Tauros|Body Slam|p1a: Seadra
+|-crit|p1a: Seadra
+|-damage|p1a: Seadra|0 fnt
+|faint|p1a: Seadra
+|
+|switch|p1a: Scyther|Scyther, L90|309\/309
+|turn|26
+|
+|move|p1a: Scyther|Swords Dance|p1a: Scyther
+|-boost|p1a: Scyther|atk|2
+|move|p2a: Tauros|Blizzard|p1a: Scyther
+|-supereffective|p1a: Scyther
+|-damage|p1a: Scyther|161\/309
+|
+|turn|27
+|
+|move|p1a: Scyther|Hyper Beam|p2a: Tauros
+|-damage|p2a: Tauros|3\/280
+|move|p2a: Tauros|Hyper Beam|p1a: Scyther
+|-damage|p1a: Scyther|10\/309
+|
+|turn|28
+|-mustrecharge|p1a: Scyther
+|-mustrecharge|p2a: Tauros
+|-mustrecharge|p2a: Tauros
+|-mustrecharge|p1a: Scyther
+|
+|cant|p1a: Scyther|recharge
+|cant|p2a: Tauros|recharge
+|
+|turn|29
+|
+|move|p1a: Scyther|Slash|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|switch|p2a: Vaporeon|Vaporeon, L85|395\/395
+|turn|30
+|
+|move|p1a: Scyther|Slash|p2a: Vaporeon
+|-crit|p2a: Vaporeon
+|-damage|p2a: Vaporeon|248\/395
+|move|p2a: Vaporeon|Surf|p1a: Scyther
+|-damage|p1a: Scyther|0 fnt
+|faint|p1a: Scyther
+|
+|switch|p1a: Chansey|Chansey, L79|94\/557
+|turn|31
+|
+|move|p2a: Vaporeon|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|12\/557
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|290\/557
+|
+|turn|32
+|
+|move|p2a: Vaporeon|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|202\/557
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|480\/557
+|
+|turn|33
+|
+|move|p2a: Vaporeon|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|399\/557
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|557\/557
+|
+|turn|34
+|
+|move|p2a: Vaporeon|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|464\/557
+|move|p1a: Chansey|Thunderbolt|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|139\/395
+|
+|turn|35
+|
+|move|p2a: Vaporeon|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|375\/557
+|move|p1a: Chansey|Thunderbolt|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|30\/395
+|
+|turn|36
+|
+|move|p2a: Vaporeon|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|287\/557
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|557\/557
+|
+|turn|37
+|
+|move|p2a: Vaporeon|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|465\/557
+|move|p1a: Chansey|Thunderbolt|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|faint|p2a: Vaporeon
+|
+|switch|p2a: Alakazam|Alakazam, L79|197\/249
+|turn|38
+|
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|281\/557
+|move|p1a: Chansey|Thunderbolt|p2a: Alakazam
+|-damage|p2a: Alakazam|150\/249
+|
+|turn|39
+|
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|101\/557
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|379\/557
+|
+|turn|40
+|
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|286\/557
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|557\/557
+|
+|turn|41
+|
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|462\/557
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|move|p1a: Chansey|Ice Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|120\/249
+|
+|turn|42
+|
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|324\/557
+|move|p1a: Chansey|Thunderbolt|p2a: Alakazam
+|-damage|p2a: Alakazam|86\/249
+|
+|turn|43
+|
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|168\/557
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|446\/557
+|
+|turn|44
+|
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|261\/557
+|move|p1a: Chansey|Thunderbolt|p2a: Alakazam
+|-damage|p2a: Alakazam|61\/249
+|
+|turn|45
+|
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|48\/557
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|326\/557
+|
+|turn|46
+|
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|119\/557
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|397\/557
+|
+|turn|47
+|
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|182\/557
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|460\/557
+|
+|turn|48
+|
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|215\/557
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|493\/557
+|
+|turn|49
+|
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|231\/557
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|509\/557
+|
+|turn|50
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|430\/557
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|557\/557
+|
+|turn|51
+|
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|259\/557
+|move|p1a: Chansey|Thunderbolt|p2a: Alakazam
+|-damage|p2a: Alakazam|43\/249
+|-status|p2a: Alakazam|par
+|
+|turn|52
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Alakazam
+|-damage|p2a: Alakazam|26\/249 par
+|cant|p2a: Alakazam|par
+|
+|turn|53
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Alakazam
+|-damage|p2a: Alakazam|8\/249 par
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|54\/557
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|
+|turn|54
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|win|Zorage
+|raw|Vergewaltiger's rating: 1191 &rarr; <strong>1175<\/strong><br \/>(-16 for losing)
+|raw|Zorage's rating: 1324 &rarr; <strong>1337<\/strong><br \/>(+13 for winning)
+|c|★Vergewaltiger|gege
+|c|★Zorage|gg
+|c|★Zorage|Why did I attacked first !?

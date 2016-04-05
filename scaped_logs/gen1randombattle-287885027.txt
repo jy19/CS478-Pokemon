@@ -1,0 +1,174 @@
+﻿|join|gaietta
+|join|MALESANI
+|player|p1|gaietta|112
+|player|p2|MALESANI|238
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|28356,18160,14745,43330
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Meowth|Meowth, L96|272\/272
+|switch|p2a: Paras|Paras, L96|262\/262
+|turn|1
+|choice|move 1|move 2
+|
+|move|p1a: Meowth|Slash|p2a: Paras
+|-crit|p2a: Paras
+|-damage|p2a: Paras|128\/262
+|move|p2a: Paras|Spore|p1a: Meowth
+|-status|p1a: Meowth|slp
+|
+|turn|2
+|choice|switch 2|move 3
+|
+|switch|p1a: Kakuna|Kakuna, L99|290\/290
+|move|p2a: Paras|Slash|p1a: Kakuna
+|-damage|p1a: Kakuna|227\/290
+|
+|turn|3
+|choice|move 1|move 3
+|
+|move|p1a: Kakuna|Poison Sting|p2a: Paras
+|-supereffective|p2a: Paras
+|-damage|p2a: Paras|64\/262
+|move|p2a: Paras|Slash|p1a: Kakuna
+|-damage|p1a: Kakuna|170\/290
+|
+|turn|4
+|choice|move 1|move 1
+|
+|move|p1a: Kakuna|Poison Sting|p2a: Paras
+|-supereffective|p2a: Paras
+|-damage|p2a: Paras|4\/262
+|move|p2a: Paras|Body Slam|p1a: Kakuna
+|-damage|p1a: Kakuna|95\/290
+|
+|turn|5
+|choice|move 1|move 3
+|
+|move|p1a: Kakuna|Poison Sting|p2a: Paras
+|-crit|p2a: Paras
+|-supereffective|p2a: Paras
+|-damage|p2a: Paras|0 fnt
+|faint|p2a: Paras
+|choice||switch 4
+|
+|switch|p2a: Golduck|Golduck, L85|310\/310
+|turn|6
+|choice|move 3|move 1
+|
+|move|p2a: Golduck|Amnesia|p2a: Golduck
+|-boost|p2a: Golduck|spd|2
+|-boost|p2a: Golduck|spa|2
+|move|p1a: Kakuna|String Shot|p2a: Golduck
+|-unboost|p2a: Golduck|spe|1
+|
+|turn|7
+|choice|move 1|move 1
+|
+|move|p1a: Kakuna|Poison Sting|p2a: Golduck
+|-damage|p2a: Golduck|297\/310
+|move|p2a: Golduck|Amnesia|p2a: Golduck
+|-boost|p2a: Golduck|spd|2
+|-boost|p2a: Golduck|spa|2
+|
+|turn|8
+|choice|move 1|move 1
+|
+|move|p1a: Kakuna|Poison Sting|p2a: Golduck
+|-damage|p2a: Golduck|283\/310
+|move|p2a: Golduck|Amnesia|p2a: Golduck
+|-boost|p2a: Golduck|spd|2
+|-boost|p2a: Golduck|spa|2
+|
+|turn|9
+|choice|move 1|move 2
+|
+|move|p1a: Kakuna|Poison Sting|p2a: Golduck
+|-damage|p2a: Golduck|269\/310
+|move|p2a: Golduck|Surf|p1a: Kakuna
+|-damage|p1a: Kakuna|0 fnt
+|faint|p1a: Kakuna
+|choice|switch 6|
+|
+|switch|p1a: Farfetch'd|Farfetch'd, L99|304\/304
+|turn|10
+|choice|move 3|move 2
+|
+|move|p1a: Farfetch'd|Sand Attack|p2a: Golduck
+|-unboost|p2a: Golduck|accuracy|1
+|move|p2a: Golduck|Surf|p1a: Farfetch'd
+|-damage|p1a: Farfetch'd|0 fnt
+|faint|p1a: Farfetch'd
+|choice|switch 4|
+|
+|switch|p1a: Rapidash|Rapidash, L90|300\/300
+|turn|11
+|choice|move 3|move 2
+|
+|move|p1a: Rapidash|Body Slam|p2a: Golduck
+|-damage|p2a: Golduck|194\/310
+|move|p2a: Golduck|Surf|p1a: Rapidash
+|-crit|p1a: Rapidash
+|-supereffective|p1a: Rapidash
+|-damage|p1a: Rapidash|0 fnt
+|faint|p1a: Rapidash
+|choice|switch 3|
+|
+|switch|p1a: Beedrill|Beedrill, L90|300\/300
+|turn|12
+|choice|move 4|move 2
+|
+|move|p1a: Beedrill|Hyper Beam|p2a: Golduck
+|-damage|p2a: Golduck|71\/310
+|move|p2a: Golduck|Surf|p1a: Beedrill
+|-damage|p1a: Beedrill|0 fnt
+|faint|p1a: Beedrill
+|choice|switch 5|
+|
+|switch|p1a: Onix|Onix, L90|246\/246
+|turn|13
+|choice|move 1|move 2
+|
+|move|p1a: Onix|Earthquake|p2a: Golduck
+|-damage|p2a: Golduck|0 fnt
+|faint|p2a: Golduck
+|choice||switch 2
+|
+|switch|p2a: Nidorino|Nidorino, L90|293\/293
+|turn|14
+|choice|move 1|move 2
+|
+|move|p1a: Onix|Earthquake|p2a: Nidorino
+|-supereffective|p2a: Nidorino
+|-damage|p2a: Nidorino|104\/293
+|move|p2a: Nidorino|Bubble Beam|p1a: Onix
+|-supereffective|p1a: Onix
+|-damage|p1a: Onix|0 fnt
+|faint|p1a: Onix
+|choice|switch 2|
+|
+|switch|p1a: Meowth|Meowth, L96|272\/272 slp
+|turn|15
+|choice|move 2|move 3
+|
+|cant|p1a: Meowth|slp
+|move|p2a: Nidorino|Body Slam|p1a: Meowth
+|-crit|p1a: Meowth
+|-damage|p1a: Meowth|115\/272 slp
+|
+|turn|16
+|choice|move 2|move 4
+|
+|-curestatus|p1a: Meowth|slp
+|move|p2a: Nidorino|Thunderbolt|p1a: Meowth
+|-crit|p1a: Meowth
+|-damage|p1a: Meowth|0 fnt
+|faint|p1a: Meowth
+|
+|win|MALESANI

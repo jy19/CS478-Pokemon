@@ -1,0 +1,338 @@
+﻿|j|Kodeine
+|j|Pietro Albuquerque
+|player|p1|Kodeine|80
+|player|p2|Pietro Albuquerque|1
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|55449,4465,40997,62130
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Voltorb|Voltorb, L96|272\/272
+|switch|p2a: Dodrio|Dodrio, L85|276\/276
+|turn|1
+|choice|move 4|switch 6
+|
+|switch|p2a: Graveler|Graveler, L85|267\/267
+|move|p1a: Voltorb|Thunder Wave|p2a: Graveler
+|-immune|p2a: Graveler|[msg]
+|
+|turn|2
+|choice|switch 5|move 3
+|
+|switch|p1a: Tauros|Tauros, L79|280\/280
+|move|p2a: Graveler|Rock Slide|p1a: Tauros
+|-damage|p1a: Tauros|196\/280
+|
+|turn|3
+|choice|move 3|switch 2
+|
+|switch|p2a: Persian|Persian, L79|265\/265
+|move|p1a: Tauros|Blizzard|p2a: Persian|[miss]
+|-miss|p1a: Tauros
+|
+|turn|4
+|choice|move 4|move 1
+|
+|move|p2a: Persian|Slash|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|95\/280
+|move|p1a: Tauros|Body Slam|p2a: Persian
+|-damage|p2a: Persian|149\/265
+|
+|turn|5
+|choice|switch 5|move 1
+|
+|switch|p1a: Voltorb|Voltorb, L96|272\/272
+|move|p2a: Persian|Slash|p1a: Voltorb
+|-crit|p1a: Voltorb
+|-damage|p1a: Voltorb|155\/272
+|
+|turn|6
+|choice|move 3|switch 2
+|
+|switch|p2a: Graveler|Graveler, L85|267\/267
+|move|p1a: Voltorb|Screech|p2a: Graveler
+|-unboost|p2a: Graveler|def|2
+|
+|turn|7
+|choice|move 3|move 2
+|
+|move|p1a: Voltorb|Screech|p2a: Graveler
+|-unboost|p2a: Graveler|def|2
+|move|p2a: Graveler|Earthquake|p1a: Voltorb
+|-supereffective|p1a: Voltorb
+|-damage|p1a: Voltorb|0 fnt
+|faint|p1a: Voltorb
+|choice|switch 5|
+|
+|switch|p1a: Tauros|Tauros, L79|95\/280
+|turn|8
+|choice|move 2|switch 2
+|
+|switch|p2a: Persian|Persian, L79|149\/265
+|move|p1a: Tauros|Earthquake|p2a: Persian
+|-crit|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|faint|p2a: Persian
+|choice||switch 6
+|
+|switch|p2a: Dodrio|Dodrio, L85|276\/276
+|turn|9
+|choice|move 3|move 1
+|
+|move|p2a: Dodrio|Hyper Beam|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|choice|switch 4|
+|
+|switch|p1a: Kabutops|Kabutops, L85|276\/276
+|turn|10
+|choice|move 2|switch 3
+|
+|switch|p2a: Haunter|Haunter, L85|250\/250
+|move|p1a: Kabutops|Swords Dance|p1a: Kabutops
+|-boost|p1a: Kabutops|atk|2
+|
+|turn|11
+|choice|move 3|move 1
+|
+|move|p2a: Haunter|Hypnosis|p1a: Kabutops
+|-status|p1a: Kabutops|slp
+|-curestatus|p1a: Kabutops|slp
+|
+|turn|12
+|choice|move 3|move 1
+|
+|move|p2a: Haunter|Hypnosis|p1a: Kabutops|[miss]
+|-miss|p2a: Haunter
+|move|p1a: Kabutops|Surf|p2a: Haunter
+|-damage|p2a: Haunter|177\/250
+|
+|turn|13
+|choice|move 3|move 1
+|
+|move|p2a: Haunter|Hypnosis|p1a: Kabutops
+|-status|p1a: Kabutops|slp
+|cant|p1a: Kabutops|slp
+|
+|turn|14
+|choice|switch 2|move 2
+|
+|switch|p1a: Abra|Abra, L96|243\/243
+|move|p2a: Haunter|Mega Drain|p1a: Abra
+|-damage|p1a: Abra|218\/243
+|-heal|p2a: Haunter|189\/250|[from] drain|[of] p1a: Abra
+|
+|turn|15
+|choice|move 3|switch 3
+|
+|switch|p2a: Dodrio|Dodrio, L85|276\/276
+|move|p1a: Abra|Psychic|p2a: Dodrio
+|-damage|p2a: Dodrio|119\/276
+|
+|turn|16
+|choice|move 3|switch 4
+|
+|switch|p2a: Raichu|Raichu, L85|276\/276
+|move|p1a: Abra|Psychic|p2a: Raichu
+|-damage|p2a: Raichu|156\/276
+|
+|turn|17
+|choice|switch 3|move 2
+|
+|switch|p1a: Hypno|Hypno, L85|318\/318
+|move|p2a: Raichu|Thunder Wave|p1a: Hypno
+|-status|p1a: Hypno|par
+|
+|turn|18
+|choice|move 1|switch 2
+|
+|switch|p2a: Graveler|Graveler, L85|267\/267
+|move|p1a: Hypno|Psychic|p2a: Graveler
+|-damage|p2a: Graveler|118\/267
+|
+|turn|19
+|choice|move 1|move 4
+|
+|move|p2a: Graveler|Explosion|p1a: Hypno
+|-damage|p1a: Hypno|37\/318 par
+|faint|p2a: Graveler
+|choice||switch 2
+|
+|switch|p2a: Raichu|Raichu, L85|156\/276
+|turn|20
+|choice|move 1|move 3
+|
+|move|p2a: Raichu|Thunderbolt|p1a: Hypno
+|-damage|p1a: Hypno|0 fnt
+|faint|p1a: Hypno
+|choice|switch 6|
+|
+|switch|p1a: Magmar|Magmar, L90|300\/300
+|turn|21
+|choice|move 3|switch 5
+|
+|switch|p2a: Kabutops|Kabutops, L85|276\/276
+|move|p1a: Magmar|Fire Blast|p2a: Kabutops
+|-crit|p2a: Kabutops
+|-resisted|p2a: Kabutops
+|-damage|p2a: Kabutops|208\/276
+|
+|turn|22
+|choice|move 1|move 1
+|
+|move|p1a: Magmar|Confuse Ray|p2a: Kabutops
+|-start|p2a: Kabutops|confusion
+|-activate|p2a: Kabutops|confusion
+|-damage|p2a: Kabutops|176\/276|[from] confusion
+|
+|turn|23
+|choice|switch 2|move 3
+|
+|switch|p1a: Kabutops|Kabutops, L85|276\/276 slp
+|-activate|p2a: Kabutops|confusion
+|move|p2a: Kabutops|Surf|p1a: Kabutops
+|-damage|p1a: Kabutops|181\/276 slp
+|
+|turn|24
+|choice|move 3|switch 5
+|
+|switch|p2a: Raichu|Raichu, L85|156\/276
+|cant|p1a: Kabutops|slp
+|
+|turn|25
+|choice|move 3|move 1
+|
+|move|p2a: Raichu|Surf|p1a: Kabutops
+|-damage|p1a: Kabutops|103\/276 slp
+|-curestatus|p1a: Kabutops|slp
+|
+|turn|26
+|choice|move 4|move 3
+|
+|move|p2a: Raichu|Thunderbolt|p1a: Kabutops
+|-supereffective|p1a: Kabutops
+|-damage|p1a: Kabutops|0 fnt
+|faint|p1a: Kabutops
+|choice|switch 2|
+|
+|switch|p1a: Magmar|Magmar, L90|300\/300
+|turn|27
+|choice|move 2|switch 5
+|
+|switch|p2a: Kabutops|Kabutops, L85|176\/276
+|move|p1a: Magmar|Body Slam|p2a: Kabutops
+|-resisted|p2a: Kabutops
+|-damage|p2a: Kabutops|145\/276
+|
+|turn|28
+|choice|move 1|move 3
+|
+|move|p1a: Magmar|Confuse Ray|p2a: Kabutops
+|-start|p2a: Kabutops|confusion
+|-activate|p2a: Kabutops|confusion
+|-damage|p2a: Kabutops|113\/276|[from] confusion
+|
+|turn|29
+|choice|move 2|move 3
+|
+|move|p1a: Magmar|Body Slam|p2a: Kabutops
+|-resisted|p2a: Kabutops
+|-damage|p2a: Kabutops|84\/276
+|-activate|p2a: Kabutops|confusion
+|-damage|p2a: Kabutops|52\/276|[from] confusion
+|
+|turn|30
+|choice|move 2|switch 3
+|
+|switch|p2a: Haunter|Haunter, L85|189\/250
+|move|p1a: Magmar|Body Slam|p2a: Haunter
+|-immune|p2a: Haunter|[msg]
+|
+|turn|31
+|choice|move 3|move 1
+|
+|move|p1a: Magmar|Fire Blast|p2a: Haunter
+|-damage|p2a: Haunter|79\/250
+|move|p2a: Haunter|Hypnosis|p1a: Magmar
+|-status|p1a: Magmar|slp
+|
+|turn|32
+|choice|switch 3|move 3
+|
+|switch|p1a: Abra|Abra, L96|218\/243
+|move|p2a: Haunter|Confuse Ray|p1a: Abra
+|-start|p1a: Abra|confusion
+|
+|turn|33
+|choice|move 2|switch 3
+|
+|switch|p2a: Kabutops|Kabutops, L85|52\/276
+|-activate|p1a: Abra|confusion
+|move|p1a: Abra|Thunder Wave|p2a: Kabutops
+|-status|p2a: Kabutops|par
+|
+|turn|34
+|choice|move 3|move 4
+|
+|-activate|p1a: Abra|confusion
+|-damage|p1a: Abra|182\/243|[from] confusion
+|cant|p2a: Kabutops|par
+|
+|turn|35
+|choice|move 1|move 4
+|
+|-end|p1a: Abra|confusion
+|move|p1a: Abra|Reflect|p1a: Abra
+|-start|p1a: Abra|Reflect
+|move|p2a: Kabutops|Hyper Beam|p1a: Abra
+|-damage|p1a: Abra|68\/243
+|
+|turn|36
+|-mustrecharge|p2a: Kabutops
+|-mustrecharge|p2a: Kabutops
+|choice|move 3|move 1
+|
+|move|p1a: Abra|Psychic|p2a: Kabutops
+|-damage|p2a: Kabutops|0 fnt
+|faint|p2a: Kabutops
+|choice||switch 5
+|
+|switch|p2a: Raichu|Raichu, L85|156\/276
+|turn|37
+|choice|move 3|move 2
+|
+|move|p1a: Abra|Psychic|p2a: Raichu
+|-crit|p2a: Raichu
+|-damage|p2a: Raichu|0 fnt
+|faint|p2a: Raichu
+|choice||switch 4
+|
+|switch|p2a: Dodrio|Dodrio, L85|119\/276
+|turn|38
+|choice|move 3|move 1
+|
+|move|p1a: Abra|Psychic|p2a: Dodrio
+|-damage|p2a: Dodrio|0 fnt
+|faint|p2a: Dodrio
+|choice||switch 3
+|
+|switch|p2a: Haunter|Haunter, L85|79\/250
+|turn|39
+|choice|move 3|move 1
+|
+|move|p1a: Abra|Psychic|p2a: Haunter
+|-supereffective|p2a: Haunter
+|-damage|p2a: Haunter|0 fnt
+|faint|p2a: Haunter
+|
+|win|Kodeine
+|player|p1
+|player|p2
+|raw|Kodeine's rating: 1288 &rarr; <strong>1316<\/strong><br \/>(+28 for winning)
+|raw|Pietro Albuquerque's rating: 1319 &rarr; <strong>1297<\/strong><br \/>(-22 for losing)

@@ -1,0 +1,364 @@
+﻿|j|rimus
+|j|mxrtyn
+|player|p1|rimus|2
+|player|p2|mxrtyn|105
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|29750,62035,61858,25158
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Ivysaur|Ivysaur, L85|276\/276
+|switch|p2a: Bulbasaur|Bulbasaur, L96|281\/281
+|turn|1
+|choice|move 3|move 4
+|
+|move|p1a: Ivysaur|Body Slam|p2a: Bulbasaur
+|-damage|p2a: Bulbasaur|225\/281
+|move|p2a: Bulbasaur|Swords Dance|p2a: Bulbasaur
+|-boost|p2a: Bulbasaur|atk|2
+|
+|turn|2
+|choice|move 3|move 3
+|
+|move|p1a: Ivysaur|Body Slam|p2a: Bulbasaur
+|-crit|p2a: Bulbasaur
+|-damage|p2a: Bulbasaur|118\/281
+|-status|p2a: Bulbasaur|par
+|move|p2a: Bulbasaur|Body Slam|p1a: Ivysaur
+|-damage|p1a: Ivysaur|150\/276
+|
+|turn|3
+|choice|move 3|move 3
+|
+|move|p1a: Ivysaur|Body Slam|p2a: Bulbasaur
+|-damage|p2a: Bulbasaur|60\/281 par
+|move|p2a: Bulbasaur|Body Slam|p1a: Ivysaur
+|-damage|p1a: Ivysaur|33\/276
+|
+|turn|4
+|choice|move 3|move 3
+|
+|move|p1a: Ivysaur|Body Slam|p2a: Bulbasaur
+|-damage|p2a: Bulbasaur|4\/281 par
+|move|p2a: Bulbasaur|Body Slam|p1a: Ivysaur
+|-damage|p1a: Ivysaur|0 fnt
+|faint|p1a: Ivysaur
+|choice|switch 5|
+|
+|switch|p1a: Beedrill|Beedrill, L90|300\/300
+|turn|5
+|choice|move 3|move 3
+|
+|move|p1a: Beedrill|Swords Dance|p1a: Beedrill
+|-boost|p1a: Beedrill|atk|2
+|move|p2a: Bulbasaur|Body Slam|p1a: Beedrill
+|-damage|p1a: Beedrill|160\/300
+|
+|turn|6
+|choice|move 4|move 3
+|
+|move|p1a: Beedrill|Hyper Beam|p2a: Bulbasaur
+|-damage|p2a: Bulbasaur|0 fnt
+|faint|p2a: Bulbasaur
+|choice||switch 5
+|
+|switch|p2a: Kadabra|Kadabra, L85|242\/242
+|turn|7
+|choice|move 4|move 1
+|
+|move|p2a: Kadabra|Psychic|p1a: Beedrill
+|-crit|p1a: Beedrill
+|-supereffective|p1a: Beedrill
+|-damage|p1a: Beedrill|0 fnt
+|faint|p1a: Beedrill
+|choice|switch 6|
+|
+|switch|p1a: Jynx|Jynx, L79|265\/265
+|turn|8
+|choice|move 1|move 2
+|
+|move|p2a: Kadabra|Thunder Wave|p1a: Jynx
+|-status|p1a: Jynx|par
+|cant|p1a: Jynx|par
+|
+|turn|9
+|choice|move 1|move 4
+|
+|move|p2a: Kadabra|Seismic Toss|p1a: Jynx
+|-damage|p1a: Jynx|180\/265 par
+|move|p1a: Jynx|Lovely Kiss|p2a: Kadabra
+|-status|p2a: Kadabra|slp
+|
+|turn|10
+|choice|move 4|switch 4
+|
+|switch|p2a: Golem|Golem, L79|288\/288
+|move|p1a: Jynx|Mimic|p2a: Golem
+|-start|p1a: Jynx|Mimic|Explosion
+|
+|turn|11
+|choice|switch 2|move 4
+|
+|switch|p1a: Sandslash|Sandslash, L85|301\/301
+|move|p2a: Golem|Rock Slide|p1a: Sandslash
+|-resisted|p1a: Sandslash
+|-damage|p1a: Sandslash|267\/301
+|
+|turn|12
+|choice|move 1|switch 2
+|
+|switch|p2a: Cloyster|Cloyster, L83|253\/253
+|move|p1a: Sandslash|Earthquake|p2a: Cloyster
+|-damage|p2a: Cloyster|187\/253
+|
+|turn|13
+|choice|switch 2|move 2
+|
+|switch|p1a: Jynx|Jynx, L79|180\/265 par
+|move|p2a: Cloyster|Surf|p1a: Jynx
+|-damage|p1a: Jynx|92\/265 par
+|
+|turn|14
+|choice|move 3|move 4
+|
+|move|p2a: Cloyster|Hyper Beam|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|choice|switch 3|
+|
+|switch|p1a: Slowbro|Slowbro, L79|312\/312
+|turn|15
+|choice|move 2|move 1
+|
+|move|p2a: Cloyster|Toxic|p1a: Slowbro|[miss]
+|-miss|p2a: Cloyster
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|
+|turn|16
+|choice|move 4|move 1
+|
+|move|p2a: Cloyster|Toxic|p1a: Slowbro
+|-status|p1a: Slowbro|tox
+|move|p1a: Slowbro|Thunder Wave|p2a: Cloyster
+|-status|p2a: Cloyster|par
+|-damage|p1a: Slowbro|293\/312 tox|[from] tox|[of] p2a: Cloyster
+|
+|turn|17
+|choice|move 2|switch 6
+|
+|switch|p2a: Chansey|Chansey, L79|557\/557
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|-damage|p1a: Slowbro|255\/312 tox|[from] psn
+|
+|turn|18
+|choice|switch 2|move 4
+|
+|switch|p1a: Sandslash|Sandslash, L85|267\/301
+|move|p2a: Chansey|Thunderbolt|p1a: Sandslash
+|-immune|p1a: Sandslash|[msg]
+|
+|turn|19
+|choice|move 1|move 2
+|
+|move|p1a: Sandslash|Earthquake|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|1\/557
+|move|p2a: Chansey|Ice Beam|p1a: Sandslash
+|-supereffective|p1a: Sandslash
+|-damage|p1a: Sandslash|94\/301
+|
+|turn|20
+|choice|move 3|switch 6
+|
+|switch|p2a: Cloyster|Cloyster, L83|187\/253 par
+|move|p1a: Sandslash|Body Slam|p2a: Cloyster
+|-damage|p2a: Cloyster|147\/253 par
+|
+|turn|21
+|choice|switch 2|move 2
+|
+|switch|p1a: Slowbro|Slowbro, L79|255\/312 tox
+|-status|p1a: Slowbro|psn
+|-damage|p1a: Slowbro|236\/312 psn|[from] psn
+|move|p2a: Cloyster|Surf|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|186\/312 psn
+|
+|turn|22
+|choice|move 2|move 4
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|-damage|p1a: Slowbro|167\/312 psn|[from] psn
+|move|p2a: Cloyster|Hyper Beam|p1a: Slowbro
+|-damage|p1a: Slowbro|79\/312 psn
+|
+|turn|23
+|-mustrecharge|p2a: Cloyster
+|-mustrecharge|p2a: Cloyster
+|choice|move 2|move 1
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|-damage|p1a: Slowbro|60\/312 psn|[from] psn
+|cant|p2a: Cloyster|recharge
+|
+|turn|24
+|choice|move 1|move 4
+|
+|move|p1a: Slowbro|Rest|p1a: Slowbro
+|-status|p1a: Slowbro|slp
+|-heal|p1a: Slowbro|312\/312 slp|[silent]
+|-status|p1a: Slowbro|slp|[from] move: Rest
+|move|p2a: Cloyster|Hyper Beam|p1a: Slowbro
+|-damage|p1a: Slowbro|226\/312 slp
+|
+|turn|25
+|-mustrecharge|p2a: Cloyster
+|-mustrecharge|p2a: Cloyster
+|choice|move 2|move 1
+|
+|cant|p1a: Slowbro|slp
+|cant|p2a: Cloyster|recharge
+|
+|turn|26
+|choice|move 2|move 1
+|
+|-curestatus|p1a: Slowbro|slp
+|move|p2a: Cloyster|Toxic|p1a: Slowbro
+|-status|p1a: Slowbro|tox
+|
+|turn|27
+|choice|move 3|move 2
+|
+|move|p1a: Slowbro|Surf|p2a: Cloyster
+|-resisted|p2a: Cloyster
+|-damage|p2a: Cloyster|29\/253 par
+|-damage|p1a: Slowbro|207\/312 tox|[from] tox|[of] p2a: Cloyster
+|cant|p2a: Cloyster|par
+|
+|turn|28
+|choice|move 3|move 4
+|
+|move|p1a: Slowbro|Surf|p2a: Cloyster
+|-resisted|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p2a: Cloyster
+|choice||switch 2
+|
+|switch|p2a: Golem|Golem, L79|288\/288
+|turn|29
+|choice|move 3|move 1
+|
+|move|p2a: Golem|Explosion|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|faint|p2a: Golem
+|choice|switch 2|switch 4
+|
+|switch|p2a: Kadabra|Kadabra, L85|242\/242 slp
+|switch|p1a: Sandslash|Sandslash, L85|94\/301
+|turn|30
+|choice|move 1|move 1
+|
+|-curestatus|p2a: Kadabra|slp
+|move|p1a: Sandslash|Earthquake|p2a: Kadabra
+|-damage|p2a: Kadabra|66\/242
+|
+|turn|31
+|choice|move 1|move 1
+|
+|move|p2a: Kadabra|Psychic|p1a: Sandslash
+|-crit|p1a: Sandslash
+|-damage|p1a: Sandslash|0 fnt
+|faint|p1a: Sandslash
+|choice|switch 4|
+|
+|switch|p1a: Golduck|Golduck, L85|310\/310
+|turn|32
+|choice|move 1|move 2
+|
+|move|p2a: Kadabra|Thunder Wave|p1a: Golduck
+|-status|p1a: Golduck|par
+|move|p1a: Golduck|Amnesia|p1a: Golduck
+|-boost|p1a: Golduck|spd|2
+|-boost|p1a: Golduck|spa|2
+|
+|turn|33
+|choice|move 2|move 3
+|
+|move|p2a: Kadabra|Recover|p2a: Kadabra
+|-heal|p2a: Kadabra|187\/242
+|move|p1a: Golduck|Surf|p2a: Kadabra
+|-damage|p2a: Kadabra|40\/242
+|
+|turn|34
+|choice|move 1|move 3
+|
+|move|p2a: Kadabra|Recover|p2a: Kadabra
+|-heal|p2a: Kadabra|161\/242
+|cant|p1a: Golduck|par
+|
+|turn|35
+|choice|move 2|move 4
+|
+|move|p2a: Kadabra|Seismic Toss|p1a: Golduck
+|-damage|p1a: Golduck|225\/310 par
+|move|p1a: Golduck|Surf|p2a: Kadabra
+|-damage|p2a: Kadabra|15\/242
+|
+|turn|36
+|choice|move 1|move 3
+|
+|move|p2a: Kadabra|Recover|p2a: Kadabra
+|-heal|p2a: Kadabra|136\/242
+|move|p1a: Golduck|Amnesia|p1a: Golduck
+|-boost|p1a: Golduck|spd|2
+|-boost|p1a: Golduck|spa|2
+|
+|turn|37
+|choice|move 2|move 4
+|
+|move|p2a: Kadabra|Seismic Toss|p1a: Golduck
+|-damage|p1a: Golduck|140\/310 par
+|move|p1a: Golduck|Surf|p2a: Kadabra
+|-damage|p2a: Kadabra|0 fnt
+|faint|p2a: Kadabra
+|choice||switch 6
+|
+|switch|p2a: Chansey|Chansey, L79|1\/557
+|turn|38
+|choice|move 1|move 4
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Golduck
+|-supereffective|p1a: Golduck
+|-damage|p1a: Golduck|91\/310 par
+|move|p1a: Golduck|Amnesia|p1a: Golduck
+|-boost|p1a: Golduck|spd|2
+|-boost|p1a: Golduck|spa|2
+|
+|turn|39
+|choice|move 4|move 4
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Golduck
+|-crit|p1a: Golduck
+|-supereffective|p1a: Golduck
+|-damage|p1a: Golduck|0 fnt
+|faint|p1a: Golduck
+|
+|win|mxrtyn
+|player|p1
+|player|p2
+|raw|rimus's rating: 1365 &rarr; <strong>1333<\/strong><br \/>(-32 for losing)
+|raw|mxrtyn's rating: 1106 &rarr; <strong>1147<\/strong><br \/>(+41 for winning)

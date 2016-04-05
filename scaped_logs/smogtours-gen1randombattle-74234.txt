@@ -1,0 +1,199 @@
+﻿|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|J|stunner047
+|J|CrapAtRBY
+|player|p1|stunner047|273
+|player|p2|CrapAtRBY|101
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Nidorina|Nidorina, L90|309\/309
+|switch|p2a: Dugtrio|Dugtrio, L85|233\/233
+|turn|1
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Nidorina
+|-supereffective|p1a: Nidorina
+|-damage|p1a: Nidorina|99\/309
+|move|p1a: Nidorina|Bubble Beam|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-damage|p2a: Dugtrio|148\/233
+|
+|turn|2
+|c|★stunner047|gl hf
+|
+|switch|p1a: Kakuna|Kakuna, L99|290\/290
+|move|p2a: Dugtrio|Earthquake|p1a: Kakuna
+|-damage|p1a: Kakuna|168\/290
+|
+|turn|3
+|c|★CrapAtRBY|gl hf
+|
+|move|p2a: Dugtrio|Slash|p1a: Kakuna
+|-crit|p1a: Kakuna
+|-damage|p1a: Kakuna|64\/290
+|move|p1a: Kakuna|Poison Sting|p2a: Dugtrio
+|-resisted|p2a: Dugtrio
+|-damage|p2a: Dugtrio|141\/233
+|
+|turn|4
+|
+|move|p2a: Dugtrio|Slash|p1a: Kakuna
+|-crit|p1a: Kakuna
+|-damage|p1a: Kakuna|0 fnt
+|faint|p1a: Kakuna
+|
+|switch|p1a: Alakazam|Alakazam, L79|249\/249
+|turn|5
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|switch|p1a: Rhydon|Rhydon, L79|328\/328
+|turn|6
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|147\/328
+|move|p1a: Rhydon|Earthquake|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|
+|switch|p2a: Exeggutor|Exeggutor, L79|312\/312
+|turn|7
+|
+|switch|p1a: Voltorb|Voltorb, L96|272\/272
+|move|p2a: Exeggutor|Mega Drain|p1a: Voltorb
+|-damage|p1a: Voltorb|218\/272
+|
+|turn|8
+|
+|move|p1a: Voltorb|Thunder Wave|p2a: Exeggutor
+|-status|p2a: Exeggutor|par
+|move|p2a: Exeggutor|Stun Spore|p1a: Voltorb
+|-status|p1a: Voltorb|par
+|
+|turn|9
+|
+|cant|p1a: Voltorb|par
+|move|p2a: Exeggutor|Mega Drain|p1a: Voltorb
+|-damage|p1a: Voltorb|167\/272 par
+|
+|turn|10
+|
+|move|p1a: Voltorb|Explosion|p2a: Exeggutor
+|-damage|p2a: Exeggutor|129\/312 par
+|faint|p1a: Voltorb
+|
+|switch|p1a: Nidorina|Nidorina, L90|99\/309
+|turn|11
+|
+|move|p1a: Nidorina|Double-Edge|p2a: Exeggutor
+|-damage|p2a: Exeggutor|60\/312 par
+|-damage|p1a: Nidorina|82\/309|[from] recoil|[of] p2a: Exeggutor
+|move|p2a: Exeggutor|Hyper Beam|p1a: Nidorina
+|-damage|p1a: Nidorina|0 fnt
+|faint|p1a: Nidorina
+|
+|switch|p1a: Rhydon|Rhydon, L79|147\/328
+|turn|12
+|
+|move|p1a: Rhydon|Substitute|p1a: Rhydon
+|-start|p1a: Rhydon|Substitute
+|-damage|p1a: Rhydon|65\/328
+|move|p2a: Exeggutor|Mega Drain|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-end|p1a: Rhydon|Substitute
+|
+|turn|13
+|
+|move|p1a: Rhydon|Body Slam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Dragonite|Dragonite, L85|328\/328
+|turn|14
+|
+|move|p2a: Dragonite|Ice Beam|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|
+|switch|p1a: Jolteon|Jolteon, L79|265\/265
+|turn|15
+|
+|move|p1a: Jolteon|Thunder Wave|p2a: Dragonite
+|-status|p2a: Dragonite|par
+|cant|p2a: Dragonite|par
+|
+|turn|16
+|
+|move|p1a: Jolteon|Sand Attack|p2a: Dragonite
+|-unboost|p2a: Dragonite|accuracy|1
+|move|p2a: Dragonite|Agility|p2a: Dragonite
+|-boost|p2a: Dragonite|spe|2
+|
+|turn|17
+|
+|cant|p2a: Dragonite|par
+|move|p1a: Jolteon|Sand Attack|p2a: Dragonite
+|-unboost|p2a: Dragonite|accuracy|1
+|
+|turn|18
+|
+|move|p1a: Jolteon|Sand Attack|p2a: Dragonite
+|-unboost|p2a: Dragonite|accuracy|1
+|move|p2a: Dragonite|Hyper Beam|p1a: Jolteon
+|-damage|p1a: Jolteon|93\/265
+|
+|turn|19
+|-mustrecharge|p2a: Dragonite
+|-mustrecharge|p2a: Dragonite
+|
+|move|p1a: Jolteon|Sand Attack|p2a: Dragonite
+|-unboost|p2a: Dragonite|accuracy|1
+|cant|p2a: Dragonite|recharge
+|
+|turn|20
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Dragonite|[miss]
+|-miss|p1a: Jolteon
+|move|p2a: Dragonite|Hyper Beam|p1a: Jolteon|[miss]
+|-miss|p2a: Dragonite
+|
+|turn|21
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Dragonite
+|-damage|p2a: Dragonite|243\/328 par
+|cant|p2a: Dragonite|par
+|
+|turn|22
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Dragonite
+|-damage|p2a: Dragonite|158\/328 par
+|move|p2a: Dragonite|Hyper Beam|p1a: Jolteon|[miss]
+|-miss|p2a: Dragonite
+|
+|turn|23
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|switch|p2a: Nidoking|Nidoking, L85|311\/311
+|turn|24
+|
+|move|p1a: Jolteon|Sand Attack|p2a: Nidoking
+|-unboost|p2a: Nidoking|accuracy|1
+|move|p2a: Nidoking|Earthquake|p1a: Jolteon
+|-supereffective|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|win|CrapAtRBY

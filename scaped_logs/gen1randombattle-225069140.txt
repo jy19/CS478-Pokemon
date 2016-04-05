@@ -1,0 +1,159 @@
+﻿|join|blgh
+|join|psymuk
+|player|p1|blgh|135
+|player|p2|psymuk|170
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Magneton|Magneton, L85|259\/259
+|switch|p2a: Marowak|Marowak, L85|276\/276
+|turn|1
+|
+|switch|p1a: Dewgong|Dewgong, L85|327\/327
+|move|p2a: Marowak|Earthquake|p1a: Dewgong
+|-damage|p1a: Dewgong|230\/327
+|
+|turn|2
+|
+|switch|p2a: Primeape|Primeape, L85|284\/284
+|move|p1a: Dewgong|Blizzard|p2a: Primeape
+|-damage|p2a: Primeape|130\/284
+|
+|turn|3
+|
+|move|p2a: Primeape|Submission|p1a: Dewgong
+|-crit|p1a: Dewgong
+|-supereffective|p1a: Dewgong
+|-damage|p1a: Dewgong|0 fnt
+|-damage|p2a: Primeape|73\/284|[from] recoil|[of] p1a: Dewgong
+|faint|p1a: Dewgong
+|
+|switch|p1a: Venomoth|Venomoth, L85|293\/293
+|turn|4
+|
+|move|p2a: Primeape|Rock Slide|p1a: Venomoth
+|-supereffective|p1a: Venomoth
+|-damage|p1a: Venomoth|150\/293
+|move|p1a: Venomoth|Psychic|p2a: Primeape
+|-crit|p2a: Primeape
+|-supereffective|p2a: Primeape
+|-damage|p2a: Primeape|0 fnt
+|faint|p2a: Primeape
+|
+|switch|p2a: Alakazam|Alakazam, L79|249\/249
+|turn|5
+|
+|move|p2a: Alakazam|Psychic|p1a: Venomoth
+|-supereffective|p1a: Venomoth
+|-damage|p1a: Venomoth|0 fnt
+|faint|p1a: Venomoth
+|
+|switch|p1a: Marowak|Marowak, L85|276\/276
+|turn|6
+|
+|move|p2a: Alakazam|Psychic|p1a: Marowak
+|-damage|p1a: Marowak|123\/276
+|move|p1a: Marowak|Earthquake|p2a: Alakazam
+|-damage|p2a: Alakazam|102\/249
+|
+|turn|7
+|
+|move|p2a: Alakazam|Psychic|p1a: Marowak
+|-damage|p1a: Marowak|0 fnt
+|faint|p1a: Marowak
+|
+|switch|p1a: Golduck|Golduck, L85|310\/310
+|turn|8
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|226\/249
+|move|p1a: Golduck|Amnesia|p1a: Golduck
+|-boost|p1a: Golduck|spd|2
+|-boost|p1a: Golduck|spa|2
+|
+|turn|9
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Golduck
+|-status|p1a: Golduck|par
+|cant|p1a: Golduck|par
+|
+|turn|10
+|
+|move|p2a: Alakazam|Psychic|p1a: Golduck
+|-damage|p1a: Golduck|257\/310 par
+|move|p1a: Golduck|Amnesia|p1a: Golduck
+|-boost|p1a: Golduck|spd|2
+|-boost|p1a: Golduck|spa|2
+|
+|turn|11
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Golduck
+|-damage|p1a: Golduck|178\/310 par
+|move|p1a: Golduck|Surf|p2a: Alakazam
+|-damage|p2a: Alakazam|3\/249
+|
+|turn|12
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Golduck
+|-damage|p1a: Golduck|99\/310 par
+|move|p1a: Golduck|Surf|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|switch|p2a: Wigglytuff|Wigglytuff, L85|412\/412
+|turn|13
+|
+|move|p2a: Wigglytuff|Hyper Beam|p1a: Golduck|[miss]
+|-miss|p2a: Wigglytuff
+|move|p1a: Golduck|Rest|p1a: Golduck
+|-status|p1a: Golduck|slp
+|-heal|p1a: Golduck|310\/310 slp|[silent]
+|-status|p1a: Golduck|slp|[from] move: Rest
+|
+|turn|14
+|
+|move|p2a: Wigglytuff|Double-Edge|p1a: Golduck
+|-damage|p1a: Golduck|210\/310 slp
+|-damage|p2a: Wigglytuff|387\/412|[from] recoil|[of] p1a: Golduck
+|cant|p1a: Golduck|slp
+|
+|turn|15
+|
+|move|p2a: Wigglytuff|Double-Edge|p1a: Golduck
+|-damage|p1a: Golduck|112\/310 slp
+|-damage|p2a: Wigglytuff|363\/412|[from] recoil|[of] p1a: Golduck
+|cant|p1a: Golduck|slp
+|-curestatus|p1a: Golduck|slp
+|
+|turn|16
+|
+|move|p2a: Wigglytuff|Hyper Beam|p1a: Golduck
+|-damage|p1a: Golduck|0 fnt
+|faint|p1a: Golduck
+|
+|switch|p1a: Nidoking|Nidoking, L85|311\/311
+|turn|17
+|
+|move|p1a: Nidoking|Earthquake|p2a: Wigglytuff
+|-damage|p2a: Wigglytuff|211\/412
+|move|p2a: Wigglytuff|Blizzard|p1a: Nidoking
+|-crit|p1a: Nidoking
+|-supereffective|p1a: Nidoking
+|-damage|p1a: Nidoking|64\/311
+|
+|turn|18
+|-message|blgh forfeited.
+|leave|blgh
+|
+|win|psymuk
+|raw|Ladder updating...
+|player|p1
+|raw|blgh's rating: 1331 &rarr; <strong>1313<\/strong><br \/>(-18 for losing)
+|raw|psymuk's rating: 1352 &rarr; <strong>1370<\/strong><br \/>(+18 for winning)

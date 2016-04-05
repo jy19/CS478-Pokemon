@@ -1,0 +1,53 @@
+﻿|join|SnazzySnorlax
+|join|PickledBeets
+|player|p1|SnazzySnorlax|1
+|player|p2|PickledBeets|162
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|40466,4913,53387,41729
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Metapod|Metapod, L99|300\/300
+|switch|p2a: Fearow|Fearow, L90|300\/300
+|turn|1
+|choice|switch 5|move 2
+|
+|switch|p1a: Jolteon|Jolteon, L79|265\/265
+|move|p2a: Fearow|Drill Peck|p1a: Jolteon
+|-resisted|p1a: Jolteon
+|-damage|p1a: Jolteon|202\/265
+|
+|turn|2
+|choice|move 1|switch 2
+|
+|switch|p2a: Geodude|Geodude, L96|272\/272
+|move|p1a: Jolteon|Thunderbolt|p2a: Geodude
+|-immune|p2a: Geodude|[msg]
+|
+|turn|3
+|choice|move 3|move 3
+|
+|move|p1a: Jolteon|Double Kick|p2a: Geodude
+|-supereffective|p2a: Geodude
+|-damage|p2a: Geodude|248\/272
+|-damage|p2a: Geodude|224\/272
+|-hitcount|p2a: Geodude|2
+|move|p2a: Geodude|Earthquake|p1a: Jolteon
+|-supereffective|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|-message|SnazzySnorlax forfeited.
+|
+|win|PickledBeets
+|leave|SnazzySnorlax
+|player|p1
+|join|Licespindolaxd
+|raw|SnazzySnorlax's rating: 1111 &rarr; <strong>1098<\/strong><br \/>(-13 for losing)
+|raw|PickledBeets's rating: 1292 &rarr; <strong>1305<\/strong><br \/>(+13 for winning)
+|leave|PickledBeets
+|player|p2

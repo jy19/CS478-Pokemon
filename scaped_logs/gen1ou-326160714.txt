@@ -1,0 +1,201 @@
+﻿|j|Abstrix
+|j|DanamezD
+|player|p1|Abstrix|8
+|player|p2|DanamezD|9
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|seed|1661,14788,27649,48722
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333\/333
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|1
+|choice|move 2|switch 2
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Jynx|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|601\/703
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|
+|turn|2
+|choice|switch 2|move 3
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|turn|3
+|choice|move 1|switch 4
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|cant|p1a: Chansey|par
+|
+|turn|4
+|choice|switch 3|move 3
+|
+|switch|p1a: Golem|Golem|363\/363
+|move|p2a: Tauros|Earthquake|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|221\/363
+|
+|turn|5
+|choice|move 3|move 3
+|
+|move|p2a: Tauros|Earthquake|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|80\/363
+|move|p1a: Golem|Explosion|p2a: Tauros
+|-damage|p2a: Tauros|72\/353
+|faint|p1a: Golem
+|choice|switch 6|
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|6
+|choice|move 3|move 1
+|
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|256\/353
+|move|p1a: Tauros|Earthquake|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|choice||switch 3
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|turn|7
+|choice|switch 3|move 1
+|
+|switch|p1a: Chansey|Chansey|703\/703 par
+|move|p2a: Exeggutor|Sleep Powder|p1a: Chansey
+|-fail|p1a: Chansey
+|
+|turn|8
+|choice|move 1|move 3
+|
+|move|p2a: Exeggutor|Explosion|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|faint|p2a: Exeggutor
+|choice|switch 2|switch 6
+|
+|switch|p2a: Zapdos|Zapdos|383\/383
+|switch|p1a: Jynx|Jynx|333\/333
+|turn|9
+|choice|move 1|move 3
+|
+|move|p2a: Zapdos|Thunder Wave|p1a: Jynx
+|-status|p1a: Jynx|par
+|move|p1a: Jynx|Ice Beam|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|198\/383
+|
+|turn|10
+|choice|move 1|switch 4
+|
+|switch|p2a: Chansey|Chansey|601\/703
+|move|p1a: Jynx|Ice Beam|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|409\/703
+|
+|turn|11
+|choice|move 1|move 4
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Jynx
+|-damage|p1a: Jynx|253\/333 par
+|cant|p1a: Jynx|par
+|
+|turn|12
+|choice|move 1|move 4
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Jynx
+|-crit|p1a: Jynx
+|-damage|p1a: Jynx|104\/333 par
+|cant|p1a: Jynx|par
+|
+|turn|13
+|choice|move 3|move 4
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Jynx
+|-crit|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|choice|switch 3|
+|
+|switch|p1a: Tauros|Tauros|256\/353
+|turn|14
+|choice|move 2|switch 4
+|
+|switch|p2a: Zapdos|Zapdos|198\/383
+|move|p1a: Tauros|Body Slam|p2a: Zapdos
+|-damage|p2a: Zapdos|80\/383
+|
+|turn|15
+|choice|move 2|move 3
+|
+|move|p1a: Tauros|Body Slam|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|choice||switch 2
+|
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|16
+|choice|move 3|move 2
+|
+|move|p1a: Tauros|Earthquake|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|104\/323
+|move|p2a: Gengar|Hypnosis|p1a: Tauros|[miss]
+|-miss|p2a: Gengar
+|
+|turn|17
+|choice|move 3|move 1
+|
+|move|p2a: Gengar|Explosion|p1a: Tauros
+|-damage|p1a: Tauros|57\/353
+|faint|p2a: Gengar
+|choice||switch 5
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|turn|18
+|choice|move 4|move 1
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|97\/523
+|move|p2a: Snorlax|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|choice|switch 5|
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|turn|19
+|choice|move 1|move 4
+|
+|move|p1a: Exeggutor|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|choice||switch 4
+|
+|switch|p2a: Chansey|Chansey|409\/703
+|turn|20
+|choice|move 3|move 3
+|
+|move|p1a: Exeggutor|Explosion|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|faint|p1a: Exeggutor
+|
+|win|Abstrix
+|player|p1
+|player|p2
+|l|DanamezD
+|raw|Abstrix's rating: 1099 &rarr; <strong>1122<\/strong><br \/>(+23 for winning)
+|raw|DanamezD's rating: 1075 &rarr; <strong>1055<\/strong><br \/>(-20 for losing)

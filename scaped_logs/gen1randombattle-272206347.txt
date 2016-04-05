@@ -1,0 +1,360 @@
+﻿|join|PickledBeets
+|join|xP0und4Pu55y69x
+|player|p1|PickledBeets|162
+|player|p2|xP0und4Pu55y69x|169
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Koffing|Koffing, L96|272\/272
+|switch|p2a: Raticate|Raticate, L85|267\/267
+|turn|1
+|
+|move|p2a: Raticate|Super Fang|p1a: Koffing
+|-damage|p1a: Koffing|136\/272
+|move|p1a: Koffing|Fire Blast|p2a: Raticate
+|-damage|p2a: Raticate|153\/267
+|
+|turn|2
+|
+|switch|p2a: Gengar|Gengar, L79|257\/257
+|move|p1a: Koffing|Fire Blast|p2a: Gengar
+|-damage|p2a: Gengar|188\/257
+|
+|turn|3
+|
+|move|p2a: Gengar|Psychic|p1a: Koffing
+|-supereffective|p1a: Koffing
+|-damage|p1a: Koffing|0 fnt
+|faint|p1a: Koffing
+|
+|switch|p1a: Dugtrio|Dugtrio, L85|233\/233
+|turn|4
+|
+|switch|p2a: Pidgeot|Pidgeot, L90|333\/333
+|move|p1a: Dugtrio|Earthquake|p2a: Pidgeot
+|-immune|p2a: Pidgeot|[msg]
+|
+|turn|5
+|
+|switch|p1a: Lapras|Lapras, L79|367\/367
+|move|p2a: Pidgeot|Reflect|p2a: Pidgeot
+|-start|p2a: Pidgeot|Reflect
+|
+|turn|6
+|
+|switch|p2a: Horsea|Horsea, L96|252\/252
+|move|p1a: Lapras|Blizzard|p2a: Horsea
+|-resisted|p2a: Horsea
+|-damage|p2a: Horsea|201\/252
+|
+|turn|7
+|
+|move|p2a: Horsea|Smokescreen|p1a: Lapras
+|-unboost|p1a: Lapras|accuracy|1
+|move|p1a: Lapras|Confuse Ray|p2a: Horsea
+|-start|p2a: Horsea|confusion
+|
+|turn|8
+|
+|switch|p2a: Hypno|Hypno, L85|318\/318
+|switch|p1a: Electrode|Electrode, L90|291\/291
+|
+|turn|9
+|
+|move|p1a: Electrode|Thunder|p2a: Hypno
+|-damage|p2a: Hypno|201\/318
+|move|p2a: Hypno|Hypnosis|p1a: Electrode
+|-status|p1a: Electrode|slp
+|
+|turn|10
+|
+|cant|p1a: Electrode|slp
+|move|p2a: Hypno|Psychic|p1a: Electrode
+|-damage|p1a: Electrode|180\/291 slp
+|-unboost|p1a: Electrode|spd|1
+|-unboost|p1a: Electrode|spa|1
+|
+|turn|11
+|
+|cant|p1a: Electrode|slp
+|move|p2a: Hypno|Psychic|p1a: Electrode
+|-damage|p1a: Electrode|26\/291 slp
+|-unboost|p1a: Electrode|spd|1
+|-unboost|p1a: Electrode|spa|1
+|
+|turn|12
+|
+|switch|p1a: Lapras|Lapras, L79|367\/367
+|move|p2a: Hypno|Psychic|p1a: Lapras
+|-damage|p1a: Lapras|248\/367
+|
+|turn|13
+|
+|switch|p2a: Horsea|Horsea, L96|201\/252
+|move|p1a: Lapras|Confuse Ray|p2a: Horsea
+|-start|p2a: Horsea|confusion
+|
+|turn|14
+|
+|-activate|p2a: Horsea|confusion
+|-damage|p2a: Horsea|175\/252|[from] confusion
+|move|p1a: Lapras|Blizzard|p2a: Horsea
+|-resisted|p2a: Horsea
+|-damage|p2a: Horsea|120\/252
+|
+|turn|15
+|
+|-activate|p2a: Horsea|confusion
+|move|p2a: Horsea|Mimic|p1a: Lapras
+|-start|p2a: Horsea|Mimic|Confuse Ray
+|move|p1a: Lapras|Blizzard|p2a: Horsea
+|-resisted|p2a: Horsea
+|-damage|p2a: Horsea|71\/252
+|
+|turn|16
+|
+|-activate|p2a: Horsea|confusion
+|-damage|p2a: Horsea|45\/252|[from] confusion
+|move|p1a: Lapras|Blizzard|p2a: Horsea|[miss]
+|-miss|p1a: Lapras
+|
+|turn|17
+|
+|-end|p2a: Horsea|confusion
+|move|p2a: Horsea|Confuse Ray|p1a: Lapras
+|-start|p1a: Lapras|confusion
+|-activate|p1a: Lapras|confusion
+|move|p1a: Lapras|Blizzard|p2a: Horsea|[miss]
+|-miss|p1a: Lapras
+|
+|turn|18
+|
+|move|p2a: Horsea|Smokescreen|p1a: Lapras
+|-unboost|p1a: Lapras|accuracy|1
+|-activate|p1a: Lapras|confusion
+|-damage|p1a: Lapras|219\/367|[from] confusion
+|
+|turn|19
+|
+|switch|p1a: Electrode|Electrode, L90|26\/291 slp
+|move|p2a: Horsea|Smokescreen|p1a: Electrode
+|-unboost|p1a: Electrode|accuracy|1
+|
+|turn|20
+|
+|switch|p1a: Lapras|Lapras, L79|219\/367
+|move|p2a: Horsea|Hydro Pump|p1a: Lapras
+|-resisted|p1a: Lapras
+|-damage|p1a: Lapras|147\/367
+|
+|turn|21
+|
+|move|p2a: Horsea|Confuse Ray|p1a: Lapras
+|-start|p1a: Lapras|confusion
+|-activate|p1a: Lapras|confusion
+|-damage|p1a: Lapras|118\/367|[from] confusion
+|
+|turn|22
+|
+|move|p2a: Horsea|Smokescreen|p1a: Lapras
+|-unboost|p1a: Lapras|accuracy|1
+|-end|p1a: Lapras|confusion
+|move|p1a: Lapras|Blizzard|p2a: Horsea
+|-resisted|p2a: Horsea
+|-damage|p2a: Horsea|0 fnt
+|faint|p2a: Horsea
+|
+|switch|p2a: Raticate|Raticate, L85|153\/267
+|turn|23
+|
+|switch|p1a: Vileplume|Vileplume, L90|318\/318
+|move|p2a: Raticate|Hyper Beam|p1a: Vileplume
+|-damage|p1a: Vileplume|183\/318
+|
+|turn|24
+|-mustrecharge|p2a: Raticate
+|-mustrecharge|p2a: Raticate
+|
+|cant|p2a: Raticate|recharge
+|move|p1a: Vileplume|Sleep Powder|p2a: Raticate
+|-status|p2a: Raticate|slp
+|
+|turn|25
+|
+|switch|p2a: Gengar|Gengar, L79|188\/257
+|move|p1a: Vileplume|Body Slam|p2a: Gengar
+|-immune|p2a: Gengar|[msg]
+|
+|turn|26
+|
+|switch|p1a: Dugtrio|Dugtrio, L85|233\/233
+|move|p2a: Gengar|Psychic|p1a: Dugtrio
+|-crit|p1a: Dugtrio
+|-damage|p1a: Dugtrio|85\/233
+|
+|turn|27
+|
+|switch|p2a: Pidgeot|Pidgeot, L90|333\/333
+|move|p1a: Dugtrio|Sand Attack|p2a: Pidgeot
+|-unboost|p2a: Pidgeot|accuracy|1
+|
+|turn|28
+|
+|switch|p1a: Lapras|Lapras, L79|118\/367
+|move|p2a: Pidgeot|Double-Edge|p1a: Lapras
+|-damage|p1a: Lapras|1\/367
+|-damage|p2a: Pidgeot|304\/333|[from] recoil|[of] p1a: Lapras
+|
+|turn|29
+|
+|move|p2a: Pidgeot|Double-Edge|p1a: Lapras
+|-crit|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|-damage|p2a: Pidgeot|303\/333|[from] recoil|[of] p1a: Lapras
+|faint|p1a: Lapras
+|
+|switch|p1a: Electrode|Electrode, L90|26\/291 slp
+|turn|30
+|
+|cant|p1a: Electrode|slp
+|move|p2a: Pidgeot|Double-Edge|p1a: Electrode
+|-crit|p1a: Electrode
+|-damage|p1a: Electrode|0 fnt
+|-damage|p2a: Pidgeot|297\/333|[from] recoil|[of] p1a: Electrode
+|faint|p1a: Electrode
+|
+|switch|p1a: Arcanine|Arcanine, L85|327\/327
+|turn|31
+|
+|switch|p2a: Raticate|Raticate, L85|153\/267 slp
+|move|p1a: Arcanine|Fire Blast|p2a: Raticate
+|-damage|p2a: Raticate|0 fnt
+|faint|p2a: Raticate
+|
+|switch|p2a: Hypno|Hypno, L85|201\/318
+|turn|32
+|
+|move|p1a: Arcanine|Fire Blast|p2a: Hypno
+|-damage|p2a: Hypno|103\/318
+|-status|p2a: Hypno|brn
+|move|p2a: Hypno|Hypnosis|p1a: Arcanine|[miss]
+|-miss|p2a: Hypno
+|-damage|p2a: Hypno|84\/318 brn|[from] brn|[of] p1a: Arcanine
+|
+|turn|33
+|
+|move|p1a: Arcanine|Hyper Beam|p2a: Hypno|[miss]
+|-miss|p1a: Arcanine
+|move|p2a: Hypno|Psychic|p1a: Arcanine
+|-damage|p1a: Arcanine|209\/327
+|-unboost|p1a: Arcanine|spd|1
+|-unboost|p1a: Arcanine|spa|1
+|-damage|p2a: Hypno|65\/318 brn|[from] brn|[of] p1a: Arcanine
+|
+|turn|34
+|
+|move|p1a: Arcanine|Hyper Beam|p2a: Hypno
+|-crit|p2a: Hypno
+|-damage|p2a: Hypno|0 fnt
+|faint|p2a: Hypno
+|
+|switch|p2a: Gengar|Gengar, L79|188\/257
+|turn|35
+|
+|switch|p1a: Dugtrio|Dugtrio, L85|85\/233
+|move|p2a: Gengar|Psychic|p1a: Dugtrio
+|-damage|p1a: Dugtrio|10\/233
+|-unboost|p1a: Dugtrio|spd|1
+|-unboost|p1a: Dugtrio|spa|1
+|
+|turn|36
+|
+|switch|p2a: Pidgeot|Pidgeot, L90|297\/333
+|move|p1a: Dugtrio|Earthquake|p2a: Pidgeot
+|-immune|p2a: Pidgeot|[msg]
+|
+|turn|37
+|
+|move|p1a: Dugtrio|Sand Attack|p2a: Pidgeot
+|-unboost|p2a: Pidgeot|accuracy|1
+|move|p2a: Pidgeot|Double-Edge|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|-damage|p2a: Pidgeot|295\/333|[from] recoil|[of] p1a: Dugtrio
+|faint|p1a: Dugtrio
+|
+|switch|p1a: Vileplume|Vileplume, L90|183\/318
+|turn|38
+|
+|move|p2a: Pidgeot|Double-Edge|p1a: Vileplume
+|-damage|p1a: Vileplume|77\/318
+|-damage|p2a: Pidgeot|269\/333|[from] recoil|[of] p1a: Vileplume
+|move|p1a: Vileplume|Sleep Powder|p2a: Pidgeot
+|-status|p2a: Pidgeot|slp
+|
+|turn|39
+|
+|switch|p2a: Gengar|Gengar, L79|188\/257
+|switch|p1a: Arcanine|Arcanine, L85|209\/327
+|
+|turn|40
+|
+|move|p2a: Gengar|Psychic|p1a: Arcanine
+|-damage|p1a: Arcanine|134\/327
+|-unboost|p1a: Arcanine|spd|1
+|-unboost|p1a: Arcanine|spa|1
+|move|p1a: Arcanine|Fire Blast|p2a: Gengar
+|-damage|p2a: Gengar|124\/257
+|-status|p2a: Gengar|brn
+|
+|turn|41
+|c|★PickledBeets|gg
+|c|★xP0und4Pu55y69x|gg
+|
+|switch|p1a: Vileplume|Vileplume, L90|77\/318
+|move|p2a: Gengar|Psychic|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|faint|p1a: Vileplume
+|
+|switch|p1a: Arcanine|Arcanine, L85|134\/327
+|turn|42
+|
+|move|p2a: Gengar|Explosion|p1a: Arcanine
+|-damage|p1a: Arcanine|48\/327
+|faint|p2a: Gengar
+|
+|switch|p2a: Muk|Muk, L90|372\/372
+|turn|43
+|c|★PickledBeets|if there was ever a time to crit.
+|
+|move|p1a: Arcanine|Fire Blast|p2a: Muk
+|-damage|p2a: Muk|238\/372
+|-status|p2a: Muk|brn
+|move|p2a: Muk|Body Slam|p1a: Arcanine
+|-damage|p1a: Arcanine|8\/327
+|-status|p1a: Arcanine|par
+|-damage|p2a: Muk|215\/372 brn|[from] brn|[of] p1a: Arcanine
+|
+|turn|44
+|c|★xP0und4Pu55y69x|those burns lol
+|c|★xP0und4Pu55y69x|gg
+|c|★PickledBeets|un godly rolls.
+|c|★PickledBeets|absolutely incredible.
+|c|★xP0und4Pu55y69x|^
+|
+|move|p2a: Muk|Explosion|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|faint|p2a: Muk
+|
+|win|xP0und4Pu55y69x
+|raw|PickledBeets's rating: 1440 &rarr; <strong>1407<\/strong><br \/>(-33 for losing)
+|raw|xP0und4Pu55y69x's rating: 1192 &rarr; <strong>1232<\/strong><br \/>(+40 for winning)
+|leave|PickledBeets
+|player|p1

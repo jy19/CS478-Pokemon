@@ -1,0 +1,195 @@
+﻿|join|Reid234
+|join|andreWandres
+|player|p1|Reid234|170
+|player|p2|andreWandres|101
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Magneton|Magneton, L90|273\/273
+|switch|p2a: Doduo|Doduo, L96|262\/262
+|turn|1
+|
+|switch|p2a: Kakuna|Kakuna, L99|290\/290
+|move|p1a: Magneton|Thunderbolt|p2a: Kakuna
+|-damage|p2a: Kakuna|87\/290
+|
+|turn|2
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Kakuna
+|-damage|p2a: Kakuna|0 fnt
+|faint|p2a: Kakuna
+|
+|switch|p2a: Venusaur|Venusaur, L85|310\/310
+|turn|3
+|
+|switch|p1a: Dewgong|Dewgong, L85|327\/327
+|move|p2a: Venusaur|Sleep Powder|p1a: Dewgong
+|-status|p1a: Dewgong|slp
+|
+|turn|4
+|
+|switch|p2a: Doduo|Doduo, L96|262\/262
+|switch|p1a: Jynx|Jynx, L79|265\/265
+|
+|turn|5
+|
+|move|p2a: Doduo|Body Slam|p1a: Jynx
+|-damage|p1a: Jynx|88\/265
+|move|p1a: Jynx|Blizzard|p2a: Doduo
+|-supereffective|p2a: Doduo
+|-damage|p2a: Doduo|0 fnt
+|faint|p2a: Doduo
+|
+|switch|p2a: Lapras|Lapras, L79|367\/367
+|turn|6
+|
+|switch|p1a: Magneton|Magneton, L90|273\/273
+|move|p2a: Lapras|Body Slam|p1a: Magneton
+|-crit|p1a: Magneton
+|-damage|p1a: Magneton|194\/273
+|-status|p1a: Magneton|par
+|
+|turn|7
+|
+|move|p2a: Lapras|Blizzard|p1a: Magneton
+|-crit|p1a: Magneton
+|-damage|p1a: Magneton|35\/273 par
+|cant|p1a: Magneton|par
+|
+|turn|8
+|
+|move|p2a: Lapras|Body Slam|p1a: Magneton
+|-damage|p1a: Magneton|0 fnt
+|faint|p1a: Magneton
+|
+|switch|p1a: Lickitung|Lickitung, L90|345\/345
+|turn|9
+|
+|move|p2a: Lapras|Blizzard|p1a: Lickitung
+|-damage|p1a: Lickitung|225\/345
+|move|p1a: Lickitung|Swords Dance|p1a: Lickitung
+|-boost|p1a: Lickitung|atk|2
+|
+|turn|10
+|
+|move|p2a: Lapras|Blizzard|p1a: Lickitung
+|-damage|p1a: Lickitung|86\/345
+|move|p1a: Lickitung|Earthquake|p2a: Lapras
+|-damage|p2a: Lapras|236\/367
+|
+|turn|11
+|
+|move|p2a: Lapras|Blizzard|p1a: Lickitung
+|-damage|p1a: Lickitung|0 fnt
+|faint|p1a: Lickitung
+|
+|switch|p1a: Kadabra|Kadabra, L85|242\/242
+|turn|12
+|
+|move|p1a: Kadabra|Psychic|p2a: Lapras
+|-damage|p2a: Lapras|122\/367
+|-unboost|p2a: Lapras|spd|1
+|-unboost|p2a: Lapras|spa|1
+|move|p2a: Lapras|Body Slam|p1a: Kadabra
+|-damage|p1a: Kadabra|157\/242
+|
+|turn|13
+|
+|switch|p2a: Mew|Mew, L74|300\/300
+|move|p1a: Kadabra|Psychic|p2a: Mew
+|-resisted|p2a: Mew
+|-damage|p2a: Mew|237\/300
+|-unboost|p2a: Mew|spd|1
+|-unboost|p2a: Mew|spa|1
+|
+|turn|14
+|
+|switch|p1a: Squirtle|Squirtle, L96|279\/279
+|move|p2a: Mew|Thunder Wave|p1a: Squirtle
+|-status|p1a: Squirtle|par
+|
+|turn|15
+|
+|move|p2a: Mew|Swift|p1a: Squirtle
+|-crit|p1a: Squirtle
+|-damage|p1a: Squirtle|211\/279 par
+|move|p1a: Squirtle|Body Slam|p2a: Mew
+|-damage|p2a: Mew|183\/300
+|-status|p2a: Mew|par
+|
+|turn|16
+|
+|move|p2a: Mew|Swift|p1a: Squirtle
+|-damage|p1a: Squirtle|174\/279 par
+|move|p1a: Squirtle|Surf|p2a: Mew
+|-damage|p2a: Mew|38\/300 par
+|
+|turn|17
+|
+|move|p2a: Mew|Fissure|p1a: Squirtle
+|-damage|p1a: Squirtle|0 fnt
+|-ohko
+|faint|p1a: Squirtle
+|
+|switch|p1a: Kadabra|Kadabra, L85|157\/242
+|turn|18
+|
+|move|p1a: Kadabra|Psychic|p2a: Mew
+|-resisted|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|switch|p2a: Exeggutor|Exeggutor, L79|312\/312
+|turn|19
+|
+|switch|p1a: Jynx|Jynx, L79|88\/265
+|move|p2a: Exeggutor|Hyper Beam|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|
+|switch|p1a: Dewgong|Dewgong, L85|327\/327 slp
+|turn|20
+|
+|cant|p1a: Dewgong|slp
+|move|p2a: Exeggutor|Psychic|p1a: Dewgong
+|-damage|p1a: Dewgong|235\/327 slp
+|
+|turn|21
+|
+|cant|p1a: Dewgong|slp
+|-curestatus|p1a: Dewgong|slp
+|move|p2a: Exeggutor|Psychic|p1a: Dewgong
+|-damage|p1a: Dewgong|143\/327
+|
+|turn|22
+|
+|move|p1a: Dewgong|Blizzard|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|76\/312
+|move|p2a: Exeggutor|Sleep Powder|p1a: Dewgong
+|-status|p1a: Dewgong|slp
+|
+|turn|23
+|
+|cant|p1a: Dewgong|slp
+|move|p2a: Exeggutor|Psychic|p1a: Dewgong
+|-damage|p1a: Dewgong|44\/327 slp
+|
+|turn|24
+|
+|cant|p1a: Dewgong|slp
+|move|p2a: Exeggutor|Psychic|p1a: Dewgong
+|-damage|p1a: Dewgong|0 fnt
+|faint|p1a: Dewgong
+|-message|Reid234 forfeited.
+|
+|win|andreWandres
+|raw|Ladder updating...
+|leave|Reid234
+|player|p1

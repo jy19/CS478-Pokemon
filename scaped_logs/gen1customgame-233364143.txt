@@ -1,0 +1,309 @@
+﻿|join|jb champ
+|join|Lusch
+|player|p1|jb champ|150
+|player|p2|Lusch|170
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Custom Game
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Dragonite|Dragonite|385\/385
+|turn|1
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Alakazam|Thunder Wave|p2a: Exeggutor
+|debug|randBW(256) = 248
+|-status|p2a: Exeggutor|par
+|
+|turn|2
+|
+|move|p1a: Alakazam|Teleport|p1a: Alakazam
+|-fail|p1a: Alakazam
+|debug|randBW(256) = 169
+|move|p2a: Exeggutor|Stun Spore|p1a: Alakazam|[miss]
+|debug|randBW(256) = 235
+|-miss|p2a: Exeggutor
+|
+|turn|3
+|
+|move|p1a: Alakazam|Teleport|p1a: Alakazam
+|-fail|p1a: Alakazam
+|debug|randBW(256) = 182
+|move|p2a: Exeggutor|Stun Spore|p1a: Alakazam
+|debug|randBW(256) = 145
+|-status|p1a: Alakazam|par
+|
+|turn|4
+|
+|debug|randBW(256) = 125
+|move|p1a: Alakazam|Teleport|p1a: Alakazam
+|-fail|p1a: Alakazam
+|debug|randBW(256) = 248
+|move|p2a: Exeggutor|Psychic|p1a: Alakazam
+|debug|randBW(256) = 177
+|debug|randBW(256) = 21
+|-crit|p1a: Alakazam
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|-resisted|p1a: Alakazam
+|debug|randBW(217, 256) = 240
+|-damage|p1a: Alakazam|215\/313 par
+|debug|randBW(256) = 26
+|-unboost|p1a: Alakazam|spd|1
+|-unboost|p1a: Alakazam|spa|1
+|
+|turn|5
+|
+|debug|randBW(256) = 31
+|cant|p1a: Alakazam|par
+|debug|randBW(256) = 173
+|move|p2a: Exeggutor|Psychic|p1a: Alakazam
+|debug|randBW(256) = 95
+|debug|randBW(256) = 75
+|-resisted|p1a: Alakazam
+|debug|randBW(217, 256) = 227
+|-damage|p1a: Alakazam|142\/313 par
+|debug|randBW(256) = 85
+|
+|turn|6
+|
+|debug|randBW(256) = 160
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|298\/313 par
+|debug|randBW(256) = 253
+|move|p2a: Exeggutor|Sleep Powder|p1a: Alakazam
+|debug|randBW(256) = 88
+|-fail|p1a: Alakazam
+|
+|turn|7
+|
+|switch|p1a: Mew|Mew|403\/403
+|debug|randBW(256) = 162
+|move|p2a: Exeggutor|Mega Drain|p1a: Mew
+|debug|randBW(256) = 128
+|debug|randBW(256) = 141
+|debug|randBW(217, 256) = 244
+|-damage|p1a: Mew|345\/403
+|
+|turn|8
+|
+|switch|p1a: Alakazam|Alakazam|298\/313 par
+|debug|randBW(256) = 131
+|move|p2a: Exeggutor|Sleep Powder|p1a: Alakazam|[miss]
+|debug|randBW(256) = 210
+|-miss|p2a: Exeggutor
+|
+|turn|9
+|
+|debug|randBW(256) = 240
+|move|p1a: Alakazam|Psychic|p2a: Exeggutor
+|debug|randBW(256) = 106
+|debug|randBW(256) = 19
+|-crit|p2a: Exeggutor
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|-resisted|p2a: Exeggutor
+|debug|randBW(217, 256) = 246
+|-damage|p2a: Exeggutor|280\/393 par
+|debug|randBW(256) = 114
+|debug|randBW(256) = 75
+|move|p2a: Exeggutor|Mega Drain|p1a: Alakazam
+|debug|randBW(256) = 62
+|debug|randBW(256) = 155
+|debug|randBW(217, 256) = 238
+|-damage|p1a: Alakazam|253\/313 par
+|-heal|p2a: Exeggutor|302\/393 par|[from] drain|[of] p1a: Alakazam
+|
+|turn|10
+|
+|debug|randBW(256) = 218
+|move|p1a: Alakazam|Psychic|p2a: Exeggutor
+|debug|randBW(256) = 248
+|debug|randBW(256) = 6
+|-crit|p2a: Exeggutor
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|-resisted|p2a: Exeggutor
+|debug|randBW(217, 256) = 218
+|-damage|p2a: Exeggutor|202\/393 par
+|debug|randBW(256) = 69
+|-unboost|p2a: Exeggutor|spd|1
+|-unboost|p2a: Exeggutor|spa|1
+|debug|randBW(256) = 124
+|move|p2a: Exeggutor|Mega Drain|p1a: Alakazam
+|debug|randBW(256) = 75
+|debug|randBW(256) = 46
+|debug|randBW(217, 256) = 249
+|-damage|p1a: Alakazam|221\/313 par
+|-heal|p2a: Exeggutor|218\/393 par|[from] drain|[of] p1a: Alakazam
+|
+|turn|11
+|
+|debug|randBW(256) = 86
+|move|p1a: Alakazam|Psychic|p2a: Exeggutor
+|debug|randBW(256) = 230
+|debug|randBW(256) = 57
+|-crit|p2a: Exeggutor
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|-resisted|p2a: Exeggutor
+|debug|randBW(217, 256) = 244
+|-damage|p2a: Exeggutor|106\/393 par
+|debug|randBW(256) = 183
+|debug|randBW(256) = 140
+|move|p2a: Exeggutor|Mega Drain|p1a: Alakazam
+|debug|randBW(256) = 224
+|debug|randBW(256) = 14
+|-crit|p1a: Alakazam
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|debug|randBW(217, 256) = 249
+|-damage|p1a: Alakazam|128\/313 par
+|-heal|p2a: Exeggutor|152\/393 par|[from] drain|[of] p1a: Alakazam
+|
+|turn|12
+|
+|debug|randBW(256) = 126
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|284\/313 par
+|debug|randBW(256) = 226
+|move|p2a: Exeggutor|Sleep Powder|p1a: Alakazam
+|debug|randBW(256) = 116
+|-fail|p1a: Alakazam
+|
+|turn|13
+|
+|switch|p1a: Mew|Mew|345\/403
+|debug|randBW(256) = 189
+|move|p2a: Exeggutor|Mega Drain|p1a: Mew
+|debug|randBW(256) = 178
+|debug|randBW(256) = 254
+|debug|randBW(217, 256) = 218
+|-damage|p1a: Mew|311\/403
+|-heal|p2a: Exeggutor|169\/393 par|[from] drain|[of] p1a: Mew
+|
+|turn|14
+|
+|switch|p2a: Pidgeot|Pidgeot|369\/369
+|move|p1a: Mew|Dragon Rage|p2a: Pidgeot
+|debug|randBW(256) = 212
+|-damage|p2a: Pidgeot|329\/369
+|
+|turn|15
+|
+|switch|p1a: Alakazam|Alakazam|284\/313 par
+|move|p2a: Pidgeot|Mirror Move|p2a: Pidgeot
+|-fail|p2a: Pidgeot
+|
+|turn|16
+|
+|switch|p2a: Venusaur|Venusaur|363\/363
+|debug|randBW(256) = 251
+|move|p1a: Alakazam|Psychic|p2a: Venusaur
+|debug|randBW(256) = 25
+|debug|randBW(256) = 196
+|-supereffective|p2a: Venusaur
+|debug|randBW(217, 256) = 221
+|-damage|p2a: Venusaur|117\/363
+|debug|randBW(256) = 220
+|
+|turn|17
+|
+|move|p2a: Venusaur|Hyper Beam|p1a: Alakazam
+|debug|randBW(256) = 187
+|debug|randBW(256) = 195
+|debug|randBW(217, 256) = 230
+|-damage|p1a: Alakazam|126\/313 par
+|debug|randBW(256) = 98
+|move|p1a: Alakazam|Psychic|p2a: Venusaur
+|debug|randBW(256) = 12
+|debug|randBW(256) = 211
+|-supereffective|p2a: Venusaur
+|debug|randBW(217, 256) = 223
+|-damage|p2a: Venusaur|0 fnt
+|debug|randBW(256) = 92
+|faint|p2a: Venusaur
+|
+|switch|p2a: Pidgeot|Pidgeot|329\/369
+|turn|18
+|
+|move|p2a: Pidgeot|Mirror Move|p2a: Pidgeot
+|move|p2a: Pidgeot|Psychic|p1a: Alakazam|[from]Mirror Move
+|debug|randBW(256) = 141
+|debug|randBW(256) = 61
+|-resisted|p1a: Alakazam
+|debug|randBW(217, 256) = 246
+|-damage|p1a: Alakazam|102\/313 par
+|debug|randBW(256) = 55
+|-unboost|p1a: Alakazam|spd|1
+|-unboost|p1a: Alakazam|spa|1
+|debug|randBW(256) = 236
+|move|p1a: Alakazam|Psychic|p2a: Pidgeot
+|debug|randBW(256) = 72
+|debug|randBW(256) = 36
+|-crit|p2a: Pidgeot
+|debug|Negating (sp)atk boost\/penalty.
+|debug|Negating (sp)def boost\/penalty.
+|debug|randBW(217, 256) = 242
+|-damage|p2a: Pidgeot|0 fnt
+|debug|randBW(256) = 31
+|faint|p2a: Pidgeot
+|
+|switch|p2a: Dragonite|Dragonite|385\/385
+|turn|19
+|
+|move|p2a: Dragonite|Hyper Beam|p1a: Alakazam
+|debug|randBW(256) = 132
+|debug|randBW(256) = 61
+|debug|randBW(217, 256) = 218
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|switch|p1a: Mew|Mew|311\/403
+|turn|20
+|
+|move|p1a: Mew|Dragon Rage|p2a: Dragonite
+|debug|randBW(256) = 133
+|-damage|p2a: Dragonite|345\/385
+|move|p2a: Dragonite|Agility|p2a: Dragonite
+|-boost|p2a: Dragonite|spe|2
+|
+|turn|21
+|
+|move|p2a: Dragonite|Wrap|p1a: Mew
+|debug|randBW(256) = 5
+|debug|randBW(256) = 105
+|debug|randBW(217, 256) = 217
+|-damage|p1a: Mew|297\/403
+|-activate|p1a: Mew|move: Wrap|[of] p2a: Dragonite
+|debug|randBW(8) = 2
+|cant|p1a: Mew|partiallytrapped
+|
+|turn|22
+|
+|move|p2a: Dragonite|Wrap|p1a: Mew
+|-damage|p1a: Mew|283\/403
+|cant|p1a: Mew|partiallytrapped
+|
+|-end|p1a: Mew|Wrap|[partiallytrapped]
+|turn|23
+|
+|move|p2a: Dragonite|Hyper Beam|p1a: Mew
+|debug|randBW(256) = 4
+|debug|randBW(256) = 162
+|debug|randBW(217, 256) = 227
+|-damage|p1a: Mew|145\/403
+|move|p1a: Mew|Dragon Rage|p2a: Dragonite
+|debug|randBW(256) = 222
+|-damage|p2a: Dragonite|305\/385
+|
+|turn|24
+|-mustrecharge|p2a: Dragonite
+|-mustrecharge|p2a: Dragonite
+|leave|jb champ
+|player|p1
+|-message|Player 1 lost due to inactivity.
+|
+|win|Lusch

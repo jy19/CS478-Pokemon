@@ -1,0 +1,202 @@
+﻿|join|charizard3344
+|join|Dervodel
+|player|p1|charizard3344|163
+|player|p2|Dervodel|238
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|35549,13406,23192,35768
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Tauros|Tauros, L79|280\/280
+|switch|p2a: Eevee|Eevee, L96|300\/300
+|turn|1
+|choice|move 3|move 1
+|
+|move|p1a: Tauros|Earthquake|p2a: Eevee
+|-damage|p2a: Eevee|224\/300
+|move|p2a: Eevee|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|194\/280
+|
+|turn|2
+|choice|move 1|move 1
+|
+|move|p1a: Tauros|Blizzard|p2a: Eevee
+|-damage|p2a: Eevee|162\/300
+|move|p2a: Eevee|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|108\/280
+|
+|turn|3
+|choice|move 2|move 1
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Eevee|[miss]
+|-miss|p1a: Tauros
+|move|p2a: Eevee|Body Slam|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|c|★Dervodel|how did that happen xD
+|choice|switch 6|
+|
+|switch|p1a: Kadabra|Kadabra, L85|242\/242
+|turn|4
+|choice|move 2|move 1
+|
+|move|p1a: Kadabra|Seismic Toss|p2a: Eevee
+|-damage|p2a: Eevee|77\/300
+|move|p2a: Eevee|Body Slam|p1a: Kadabra
+|-crit|p1a: Kadabra
+|-damage|p1a: Kadabra|0 fnt
+|faint|p1a: Kadabra
+|c|★Dervodel|damn sory
+|choice|switch 3|
+|
+|switch|p1a: Ekans|Ekans, L96|262\/262
+|turn|5
+|choice|move 3|move 1
+|
+|move|p2a: Eevee|Body Slam|p1a: Ekans
+|-damage|p1a: Ekans|150\/262
+|-status|p1a: Ekans|par
+|move|p1a: Ekans|Body Slam|p2a: Eevee
+|-damage|p2a: Eevee|7\/300
+|
+|turn|6
+|choice|move 1|move 1
+|
+|move|p2a: Eevee|Body Slam|p1a: Ekans
+|-damage|p1a: Ekans|51\/262 par
+|cant|p1a: Ekans|par
+|
+|turn|7
+|choice|move 1|move 1
+|
+|move|p2a: Eevee|Body Slam|p1a: Ekans
+|-damage|p1a: Ekans|0 fnt
+|faint|p1a: Ekans
+|choice|switch 4|
+|
+|switch|p1a: Magneton|Magneton, L90|273\/273
+|turn|8
+|choice|move 1|move 1
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Eevee
+|-damage|p2a: Eevee|0 fnt
+|faint|p2a: Eevee
+|choice||switch 3
+|
+|switch|p2a: Exeggutor|Exeggutor, L79|312\/312
+|turn|9
+|choice|move 3|move 1
+|
+|move|p1a: Magneton|Hyper Beam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|211\/312
+|move|p2a: Exeggutor|Sleep Powder|p1a: Magneton
+|-status|p1a: Magneton|slp
+|
+|turn|10
+|-mustrecharge|p1a: Magneton
+|-mustrecharge|p1a: Magneton
+|choice|move 1|move 4
+|
+|cant|p1a: Magneton|recharge
+|move|p2a: Exeggutor|Psychic|p1a: Magneton
+|-damage|p1a: Magneton|196\/273 slp
+|
+|turn|11
+|choice|move 1|move 4
+|
+|cant|p1a: Magneton|slp
+|move|p2a: Exeggutor|Psychic|p1a: Magneton
+|-damage|p1a: Magneton|118\/273 slp
+|
+|turn|12
+|choice|move 1|move 4
+|
+|cant|p1a: Magneton|slp
+|move|p2a: Exeggutor|Psychic|p1a: Magneton
+|-damage|p1a: Magneton|39\/273 slp
+|-unboost|p1a: Magneton|spd|1
+|-unboost|p1a: Magneton|spa|1
+|
+|turn|13
+|choice|move 1|move 2
+|
+|cant|p1a: Magneton|slp
+|move|p2a: Exeggutor|Mega Drain|p1a: Magneton
+|-damage|p1a: Magneton|0 fnt
+|-heal|p2a: Exeggutor|230\/312|[from] drain|[of] p1a: Magneton
+|faint|p1a: Magneton
+|choice|switch 5|
+|
+|switch|p1a: Charizard|Charizard, L85|306\/306
+|turn|14
+|choice|move 3|switch 4
+|
+|switch|p2a: Wartortle|Wartortle, L85|274\/274
+|move|p1a: Charizard|Fire Blast|p2a: Wartortle
+|-resisted|p2a: Wartortle
+|-damage|p2a: Wartortle|202\/274
+|-status|p2a: Wartortle|brn
+|
+|turn|15
+|choice|move 2|move 2
+|
+|move|p1a: Charizard|Earthquake|p2a: Wartortle
+|-damage|p2a: Wartortle|137\/274 brn
+|move|p2a: Wartortle|Surf|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|139\/306
+|-damage|p2a: Wartortle|120\/274 brn|[from] brn|[of] p1a: Charizard
+|
+|turn|16
+|choice|move 2|move 2
+|
+|move|p1a: Charizard|Earthquake|p2a: Wartortle
+|-damage|p2a: Wartortle|48\/274 brn
+|move|p2a: Wartortle|Surf|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|choice|switch 2|
+|
+|switch|p1a: Raticate|Raticate, L85|267\/267
+|turn|17
+|choice|move 1|move 2
+|
+|move|p1a: Raticate|Super Fang|p2a: Wartortle
+|-damage|p2a: Wartortle|24\/274 brn
+|move|p2a: Wartortle|Surf|p1a: Raticate
+|-damage|p1a: Raticate|153\/267
+|-damage|p2a: Wartortle|7\/274 brn|[from] brn|[of] p1a: Raticate
+|
+|turn|18
+|choice|move 1|move 2
+|
+|move|p1a: Raticate|Super Fang|p2a: Wartortle
+|-damage|p2a: Wartortle|4\/274 brn
+|move|p2a: Wartortle|Surf|p1a: Raticate
+|-damage|p1a: Raticate|41\/267
+|-damage|p2a: Wartortle|0 fnt|[from] brn|[of] p1a: Raticate
+|faint|p2a: Wartortle
+|choice||switch 5
+|
+|switch|p2a: Nidorino|Nidorino, L90|293\/293
+|turn|19
+|choice|move 2|move 3
+|
+|move|p1a: Raticate|Hyper Beam|p2a: Nidorino|[miss]
+|-miss|p1a: Raticate
+|move|p2a: Nidorino|Bubble Beam|p1a: Raticate
+|-damage|p1a: Raticate|0 fnt
+|faint|p1a: Raticate
+|
+|win|Dervodel
+|raw|charizard3344's rating: 1131 &rarr; <strong>1120<\/strong><br \/>(-11 for losing)
+|raw|Dervodel's rating: 1357 &rarr; <strong>1365<\/strong><br \/>(+8 for winning)
+|leave|charizard3344
+|player|p1

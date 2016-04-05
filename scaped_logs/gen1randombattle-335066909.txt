@@ -1,0 +1,261 @@
+﻿|j|Parnas
+|j|Guillecefiro
+|player|p1|Parnas|163
+|player|p2|Guillecefiro|2
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Venusaur|Venusaur, L85|100\/100
+|switch|p2a: Dragonair|Dragonair, L85|100\/100
+|turn|1
+|choice||
+|
+|switch|p1a: Snorlax|Snorlax, L79|100\/100
+|move|p2a: Dragonair|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|
+|turn|2
+|choice||
+|
+|switch|p2a: Blastoise|Blastoise, L85|100\/100
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|
+|turn|3
+|choice||
+|
+|move|p2a: Blastoise|Mimic|p1a: Snorlax
+|-start|p2a: Blastoise|Mimic|Hyper Beam
+|move|p1a: Snorlax|Earthquake|p2a: Blastoise
+|-damage|p2a: Blastoise|79\/100
+|
+|turn|4
+|choice||
+|
+|move|p2a: Blastoise|Surf|p1a: Snorlax
+|-damage|p1a: Snorlax|87\/100 par
+|move|p1a: Snorlax|Earthquake|p2a: Blastoise
+|-damage|p2a: Blastoise|60\/100
+|
+|turn|5
+|choice||
+|
+|move|p2a: Blastoise|Hyper Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|59\/100 par
+|move|p1a: Snorlax|Earthquake|p2a: Blastoise
+|-damage|p2a: Blastoise|40\/100
+|
+|turn|6
+|-mustrecharge|p2a: Blastoise
+|-mustrecharge|p2a: Blastoise
+|choice||
+|
+|cant|p2a: Blastoise|recharge
+|move|p1a: Snorlax|Earthquake|p2a: Blastoise
+|-damage|p2a: Blastoise|20\/100
+|
+|turn|7
+|choice||
+|
+|move|p2a: Blastoise|Rest|p2a: Blastoise
+|-status|p2a: Blastoise|slp
+|-heal|p2a: Blastoise|100\/100 slp|[silent]
+|-status|p2a: Blastoise|slp|[from] move: Rest
+|move|p1a: Snorlax|Hyper Beam|p2a: Blastoise
+|-damage|p2a: Blastoise|55\/100 slp
+|
+|turn|8
+|-mustrecharge|p1a: Snorlax
+|-mustrecharge|p1a: Snorlax
+|choice||
+|
+|cant|p2a: Blastoise|slp
+|cant|p1a: Snorlax|recharge
+|
+|turn|9
+|choice||
+|
+|-curestatus|p2a: Blastoise|slp
+|cant|p1a: Snorlax|par
+|
+|turn|10
+|choice||
+|
+|move|p2a: Blastoise|Hyper Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|30\/100 par
+|move|p1a: Snorlax|Earthquake|p2a: Blastoise
+|-damage|p2a: Blastoise|36\/100
+|
+|turn|11
+|-mustrecharge|p2a: Blastoise
+|-mustrecharge|p2a: Blastoise
+|choice||
+|
+|cant|p2a: Blastoise|recharge
+|move|p1a: Snorlax|Hyper Beam|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|choice||
+|
+|switch|p2a: Aerodactyl|Aerodactyl, L90|100\/100
+|turn|12
+|choice||
+|
+|move|p2a: Aerodactyl|Hyper Beam|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|choice||
+|
+|switch|p1a: Cloyster|Cloyster, L83|100\/100
+|turn|13
+|choice||
+|
+|switch|p2a: Electrode|Electrode, L90|100\/100
+|move|p1a: Cloyster|Blizzard|p2a: Electrode
+|-damage|p2a: Electrode|61\/100
+|
+|turn|14
+|choice||
+|
+|switch|p1a: Venusaur|Venusaur, L85|100\/100
+|move|p2a: Electrode|Thunder Wave|p1a: Venusaur
+|-status|p1a: Venusaur|par
+|
+|turn|15
+|choice||
+|
+|move|p2a: Electrode|Thunder|p1a: Venusaur
+|-crit|p1a: Venusaur
+|-resisted|p1a: Venusaur
+|-damage|p1a: Venusaur|63\/100 par
+|move|p1a: Venusaur|Sleep Powder|p2a: Electrode|[miss]
+|-miss|p1a: Venusaur
+|
+|turn|16
+|choice||
+|
+|move|p2a: Electrode|Thunder|p1a: Venusaur
+|-crit|p1a: Venusaur
+|-resisted|p1a: Venusaur
+|-damage|p1a: Venusaur|27\/100 par
+|move|p1a: Venusaur|Sleep Powder|p2a: Electrode|[miss]
+|-miss|p1a: Venusaur
+|
+|turn|17
+|choice||
+|
+|move|p2a: Electrode|Thunder|p1a: Venusaur
+|-crit|p1a: Venusaur
+|-resisted|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|c|★Parnas|really
+|c|★Guillecefiro|Really
+|choice||
+|
+|switch|p1a: Muk|Muk, L90|100\/100
+|turn|18
+|choice||
+|
+|move|p2a: Electrode|Thunder Wave|p1a: Muk
+|-status|p1a: Muk|par
+|move|p1a: Muk|Body Slam|p2a: Electrode
+|-damage|p2a: Electrode|36\/100
+|
+|turn|19
+|choice||
+|
+|switch|p2a: Aerodactyl|Aerodactyl, L90|100\/100
+|move|p1a: Muk|Sludge|p2a: Aerodactyl
+|-resisted|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|85\/100
+|
+|turn|20
+|choice||
+|
+|switch|p1a: Cloyster|Cloyster, L83|100\/100
+|move|p2a: Aerodactyl|Sky Attack|p1a: Cloyster|[still]
+|-prepare|p2a: Aerodactyl|Sky Attack|p1a: Cloyster
+|
+|turn|21
+|choice||
+|
+|move|p2a: Aerodactyl|Sky Attack|p1a: Cloyster|[from]Sky Attack
+|-damage|p1a: Cloyster|54\/100
+|move|p1a: Cloyster|Blizzard|p2a: Aerodactyl|[miss]
+|-miss|p1a: Cloyster
+|
+|turn|22
+|c|★Parnas|really
+|c|★Guillecefiro|Really
+|choice||
+|
+|move|p2a: Aerodactyl|Hyper Beam|p1a: Cloyster|[miss]
+|-miss|p2a: Aerodactyl
+|move|p1a: Cloyster|Blizzard|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|faint|p2a: Aerodactyl
+|choice||
+|
+|switch|p2a: Electrode|Electrode, L90|36\/100
+|turn|23
+|choice||
+|
+|move|p2a: Electrode|Thunder|p1a: Cloyster
+|-crit|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|choice||
+|
+|switch|p1a: Muk|Muk, L90|100\/100 par
+|turn|24
+|choice||
+|
+|move|p2a: Electrode|Thunder|p1a: Muk
+|-damage|p1a: Muk|59\/100 par
+|cant|p1a: Muk|par
+|
+|turn|25
+|choice||
+|
+|move|p2a: Electrode|Thunder|p1a: Muk
+|-crit|p1a: Muk
+|-damage|p1a: Muk|0 fnt
+|faint|p1a: Muk
+|c|★Parnas|please
+|c|★Guillecefiro|Sorry
+|choice||
+|
+|switch|p1a: Kadabra|Kadabra, L85|100\/100
+|turn|26
+|choice||
+|
+|move|p2a: Electrode|Explosion|p1a: Kadabra
+|-damage|p1a: Kadabra|0 fnt
+|faint|p1a: Kadabra
+|faint|p2a: Electrode
+|choice||
+|
+|switch|p2a: Jolteon|Jolteon, L79|100\/100
+|switch|p1a: Dodrio|Dodrio, L85|100\/100
+|turn|27
+|c|★Parnas|yeah "good game"
+|-message|Parnas forfeited.
+|
+|win|Guillecefiro
+|player|p1
+|player|p2
+|l|Parnas
+|raw|Parnas's rating: 1386 &rarr; <strong>1357<\/strong><br \/>(-29 for losing)
+|raw|Guillecefiro's rating: 1225 &rarr; <strong>1261<\/strong><br \/>(+36 for winning)

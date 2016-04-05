@@ -1,0 +1,411 @@
+﻿|J|Nails
+|J|papai noel
+|player|p1|Nails|101
+|player|p2|papai noel|161
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|seed|29572,60409,39621,40849
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jolteon|Jolteon|333\/333
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|1
+|J|GOAO
+|choice|move 4|move 1
+|
+|move|p1a: Jolteon|Thunder Wave|p2a: Gengar
+|-status|p2a: Gengar|par
+|cant|p2a: Gengar|par
+|
+|turn|2
+|choice|switch 6|move 1
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|cant|p2a: Gengar|par
+|
+|turn|3
+|choice|move 2|switch 2
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Alakazam|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|338\/393
+|-unboost|p2a: Exeggutor|spd|1
+|-unboost|p2a: Exeggutor|spa|1
+|
+|turn|4
+|choice|switch 6|move 1
+|
+|switch|p1a: Jolteon|Jolteon|333\/333
+|move|p2a: Exeggutor|Sleep Powder|p1a: Jolteon
+|-status|p1a: Jolteon|slp
+|
+|turn|5
+|J|fapkingg
+|c|★Nails|sry phone call
+|choice|move 1|switch 6
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|cant|p1a: Jolteon|slp
+|
+|turn|6
+|c|★papai noel|it's ok 
+|choice|switch 2|move 1
+|
+|switch|p1a: Cloyster|Cloyster|303\/303
+|move|p2a: Tauros|Body Slam|p1a: Cloyster
+|-damage|p1a: Cloyster|234\/303
+|
+|turn|7
+|choice|move 2|switch 4
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|move|p1a: Cloyster|Blizzard|p2a: Starmie|[miss]
+|-miss|p1a: Cloyster
+|
+|turn|8
+|choice|switch 6|move 1
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|move|p2a: Starmie|Blizzard|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|158\/313
+|
+|turn|9
+|choice|move 1|move 3
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Starmie
+|-status|p2a: Starmie|par
+|move|p2a: Starmie|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|
+|turn|10
+|choice|move 4|switch 3
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|313\/313 par
+|
+|turn|11
+|J|Alexander
+|choice|switch 6|move 1
+|
+|switch|p1a: Cloyster|Cloyster|234\/303
+|move|p2a: Snorlax|Body Slam|p1a: Cloyster
+|-damage|p1a: Cloyster|159\/303
+|-status|p1a: Cloyster|par
+|
+|turn|12
+|choice|move 1|switch 3
+|
+|switch|p2a: Starmie|Starmie|323\/323 par
+|move|p1a: Cloyster|Clamp|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|305\/323 par
+|-activate|p2a: Starmie|move: Clamp|[of] p1a: Cloyster
+|
+|turn|13
+|choice|move 1|move 2
+|
+|cant|p2a: Starmie|partiallytrapped
+|move|p1a: Cloyster|Clamp|p2a: Starmie
+|-damage|p2a: Starmie|287\/323 par
+|
+|-end|p2a: Starmie|Clamp|[partiallytrapped]
+|turn|14
+|choice|switch 6|move 2
+|
+|switch|p1a: Alakazam|Alakazam|313\/313 par
+|move|p2a: Starmie|Thunderbolt|p1a: Alakazam
+|-damage|p1a: Alakazam|254\/313 par
+|
+|turn|15
+|choice|move 2|switch 6
+|
+|switch|p2a: Exeggutor|Exeggutor|338\/393
+|cant|p1a: Alakazam|par
+|
+|turn|16
+|choice|move 1|move 2
+|
+|move|p2a: Exeggutor|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|202\/313 par
+|cant|p1a: Alakazam|par
+|
+|turn|17
+|choice|move 1|switch 3
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Alakazam|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|
+|turn|18
+|choice|switch 3|move 1
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|382\/523
+|
+|turn|19
+|choice|move 1|move 2
+|
+|move|p1a: Snorlax|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|385\/523 par
+|cant|p2a: Snorlax|par
+|
+|turn|20
+|choice|move 3|move 2
+|
+|move|p1a: Snorlax|Earthquake|p2a: Snorlax
+|-damage|p2a: Snorlax|278\/523 par
+|cant|p2a: Snorlax|par
+|
+|turn|21
+|choice|switch 6|switch 3
+|
+|switch|p1a: Cloyster|Cloyster|159\/303 par
+|switch|p2a: Exeggutor|Exeggutor|338\/393
+|
+|turn|22
+|choice|switch 3|move 3
+|
+|switch|p1a: Alakazam|Alakazam|202\/313 par
+|move|p2a: Exeggutor|Mega Drain|p1a: Alakazam
+|-damage|p1a: Alakazam|156\/313 par
+|-heal|p2a: Exeggutor|361\/393|[from] drain|[of] p1a: Alakazam
+|
+|turn|23
+|choice|move 1|switch 3
+|
+|switch|p2a: Snorlax|Snorlax|278\/523 par
+|cant|p1a: Alakazam|par
+|
+|turn|24
+|choice|switch 3|move 1
+|
+|switch|p1a: Cloyster|Cloyster|159\/303 par
+|move|p2a: Snorlax|Body Slam|p1a: Cloyster
+|-damage|p1a: Cloyster|84\/303 par
+|
+|turn|25
+|choice|move 1|switch 2
+|
+|switch|p2a: Gengar|Gengar|323\/323 par
+|cant|p1a: Cloyster|par
+|
+|turn|26
+|choice|switch 3|move 2
+|
+|switch|p1a: Alakazam|Alakazam|156\/313 par
+|move|p2a: Gengar|Night Shade|p1a: Alakazam
+|-damage|p1a: Alakazam|56\/313 par
+|
+|turn|27
+|J|Triangles RSE
+|choice|move 4|switch 4
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|cant|p1a: Alakazam|par
+|
+|turn|28
+|choice|switch 3|move 1
+|
+|switch|p1a: Cloyster|Cloyster|84\/303 par
+|move|p2a: Tauros|Body Slam|p1a: Cloyster
+|-damage|p1a: Cloyster|19\/303 par
+|
+|turn|29
+|choice|move 4|move 1
+|
+|move|p2a: Tauros|Body Slam|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|choice|switch 5|
+|
+|switch|p1a: Dragonite|Dragonite|385\/385
+|turn|30
+|choice|move 4|move 3
+|
+|move|p2a: Tauros|Blizzard|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|100\/385
+|move|p1a: Dragonite|Thunder Wave|p2a: Tauros
+|-status|p2a: Tauros|par
+|
+|turn|31
+|choice|move 1|switch 4
+|
+|switch|p2a: Gengar|Gengar|323\/323 par
+|move|p1a: Dragonite|Wrap|p2a: Gengar
+|-damage|p2a: Gengar|323\/323 par
+|-activate|p2a: Gengar|move: Wrap|[of] p1a: Dragonite
+|
+|turn|32
+|choice|move 1|move 2
+|
+|move|p1a: Dragonite|Wrap|p2a: Gengar
+|-damage|p2a: Gengar|323\/323 par
+|cant|p2a: Gengar|partiallytrapped
+|
+|turn|33
+|choice|switch 6|move 2
+|
+|switch|p1a: Snorlax|Snorlax|382\/523
+|cant|p2a: Gengar|partiallytrapped
+|
+|-end|p2a: Gengar|Wrap|[partiallytrapped]
+|turn|34
+|choice|move 1|switch 3
+|
+|switch|p2a: Exeggutor|Exeggutor|361\/393
+|move|p1a: Snorlax|Body Slam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|241\/393
+|-status|p2a: Exeggutor|par
+|
+|turn|35
+|choice|switch 3|move 2
+|
+|switch|p1a: Alakazam|Alakazam|56\/313 par
+|cant|p2a: Exeggutor|par
+|
+|turn|36
+|choice|move 4|move 4
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|212\/313 par
+|move|p2a: Exeggutor|Explosion|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|faint|p2a: Exeggutor
+|choice|switch 6|switch 4
+|
+|switch|p1a: Dragonite|Dragonite|100\/385
+|switch|p2a: Tauros|Tauros|353\/353 par
+|turn|37
+|choice|move 1|switch 3
+|
+|switch|p2a: Gengar|Gengar|323\/323 par
+|move|p1a: Dragonite|Wrap|p2a: Gengar|[miss]
+|-miss|p1a: Dragonite
+|
+|turn|38
+|L|GOAO
+|choice|move 1|move 2
+|
+|move|p1a: Dragonite|Wrap|p2a: Gengar|[miss]
+|-miss|p1a: Dragonite
+|move|p2a: Gengar|Night Shade|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|c|★Nails|drats
+|c|★papai noel|owned
+|choice|switch 3|
+|
+|switch|p1a: Snorlax|Snorlax|382\/523
+|turn|39
+|choice|move 3|move 4
+|
+|move|p1a: Snorlax|Earthquake|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|80\/323 par
+|cant|p2a: Gengar|par
+|
+|turn|40
+|c|★Nails|owned
+|choice|move 3|move 4
+|
+|move|p1a: Snorlax|Earthquake|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|c|★papai noel|.
+|choice||switch 2
+|
+|switch|p2a: Snorlax|Snorlax|278\/523 par
+|turn|41
+|choice|switch 2|move 3
+|
+|switch|p1a: Jolteon|Jolteon|333\/333 slp
+|move|p2a: Snorlax|Earthquake|p1a: Jolteon
+|-supereffective|p1a: Jolteon
+|-damage|p1a: Jolteon|103\/333 slp
+|
+|turn|42
+|c|★Nails|u got me
+|c|★papai noel|im rly good
+|choice|switch 2|move 3
+|
+|switch|p1a: Snorlax|Snorlax|382\/523
+|move|p2a: Snorlax|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|270\/523
+|
+|turn|43
+|choice|move 1|move 2
+|
+|move|p1a: Snorlax|Body Slam|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|12\/523 par
+|move|p2a: Snorlax|Counter|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|choice|switch 4|
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|44
+|choice|move 1|move 4
+|
+|move|p1a: Tauros|Body Slam|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|choice||switch 5
+|
+|switch|p2a: Alakazam|Alakazam|313\/313
+|turn|45
+|choice|move 4|move 3
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|move|p1a: Tauros|Hyper Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|17\/313
+|
+|turn|46
+|-mustrecharge|p1a: Tauros
+|c|★Nails|g_g
+|-mustrecharge|p1a: Tauros
+|choice|move 1|move 1
+|
+|move|p2a: Alakazam|Psychic|p1a: Tauros
+|-damage|p1a: Tauros|190\/353 par
+|cant|p1a: Tauros|recharge
+|
+|turn|47
+|c|★papai noel|g_g
+|choice|move 1|move 1
+|
+|move|p2a: Alakazam|Psychic|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|c|★Nails|blaming hax imo
+|choice|switch 2|
+|
+|switch|p1a: Jolteon|Jolteon|103\/333 slp
+|turn|48
+|c|★papai noel|yn
+|choice|move 1|move 1
+|
+|cant|p1a: Jolteon|slp
+|move|p2a: Alakazam|Psychic|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|win|papai noel

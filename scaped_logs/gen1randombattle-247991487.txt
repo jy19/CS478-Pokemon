@@ -1,0 +1,296 @@
+﻿|join|clarinetno1
+|join|Braddars
+|player|p1|clarinetno1|170
+|player|p2|Braddars|78
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Weezing|Weezing, L90|300\/300
+|switch|p2a: Cubone|Cubone, L96|291\/291
+|turn|1
+|
+|switch|p1a: Marowak|Marowak, L90|291\/291
+|move|p2a: Cubone|Earthquake|p1a: Marowak
+|-damage|p1a: Marowak|218\/291
+|
+|turn|2
+|
+|move|p1a: Marowak|Blizzard|p2a: Cubone
+|-supereffective|p2a: Cubone
+|-damage|p2a: Cubone|123\/291
+|move|p2a: Cubone|Blizzard|p1a: Marowak
+|-supereffective|p1a: Marowak
+|-damage|p1a: Marowak|36\/291
+|
+|turn|3
+|
+|switch|p2a: Seaking|Seaking, L90|327\/327
+|move|p1a: Marowak|Blizzard|p2a: Seaking
+|-resisted|p2a: Seaking
+|-damage|p2a: Seaking|294\/327
+|
+|turn|4
+|
+|move|p2a: Seaking|Surf|p1a: Marowak
+|-supereffective|p1a: Marowak
+|-damage|p1a: Marowak|0 fnt
+|faint|p1a: Marowak
+|
+|switch|p1a: Mewtwo|Mewtwo, L68|285\/285
+|turn|5
+|
+|move|p1a: Mewtwo|Thunderbolt|p2a: Seaking
+|-crit|p2a: Seaking
+|-supereffective|p2a: Seaking
+|-damage|p2a: Seaking|71\/327
+|move|p2a: Seaking|Blizzard|p1a: Mewtwo
+|-damage|p1a: Mewtwo|209\/285
+|
+|turn|6
+|
+|switch|p2a: Parasect|Parasect, L90|291\/291
+|move|p1a: Mewtwo|Thunderbolt|p2a: Parasect
+|-resisted|p2a: Parasect
+|-damage|p2a: Parasect|261\/291
+|
+|turn|7
+|
+|switch|p1a: Weezing|Weezing, L90|300\/300
+|move|p2a: Parasect|Spore|p1a: Weezing
+|-status|p1a: Weezing|slp
+|
+|turn|8
+|
+|cant|p1a: Weezing|slp
+|move|p2a: Parasect|Growth|p2a: Parasect
+|-boost|p2a: Parasect|spa|1
+|-boost|p2a: Parasect|spd|1
+|
+|turn|9
+|
+|switch|p1a: Pidgeot|Pidgeot, L90|333\/333
+|move|p2a: Parasect|Growth|p2a: Parasect
+|-boost|p2a: Parasect|spa|1
+|-boost|p2a: Parasect|spd|1
+|
+|turn|10
+|
+|move|p1a: Pidgeot|Sky Attack|p2a: Parasect|[still]
+|-prepare|p1a: Pidgeot|Sky Attack|p2a: Parasect
+|move|p2a: Parasect|Hyper Beam|p1a: Pidgeot|[miss]
+|-miss|p2a: Parasect
+|
+|turn|11
+|
+|move|p1a: Pidgeot|Sky Attack|p2a: Parasect
+|-supereffective|p2a: Parasect
+|-damage|p2a: Parasect|0 fnt
+|faint|p2a: Parasect
+|
+|switch|p2a: Pidgeot|Pidgeot, L90|333\/333
+|turn|12
+|
+|switch|p1a: Mewtwo|Mewtwo, L68|209\/285
+|move|p2a: Pidgeot|Mirror Move|p2a: Pidgeot
+|-fail|p2a: Pidgeot
+|
+|turn|13
+|
+|move|p2a: Pidgeot|Mirror Move|p2a: Pidgeot
+|-fail|p2a: Pidgeot
+|move|p1a: Mewtwo|Thunderbolt|p2a: Pidgeot
+|-supereffective|p2a: Pidgeot
+|-damage|p2a: Pidgeot|208\/333
+|
+|turn|14
+|
+|move|p2a: Pidgeot|Double-Edge|p1a: Mewtwo
+|-damage|p1a: Mewtwo|77\/285
+|-damage|p2a: Pidgeot|175\/333|[from] recoil|[of] p1a: Mewtwo
+|move|p1a: Mewtwo|Barrier|p1a: Mewtwo
+|-boost|p1a: Mewtwo|def|2
+|
+|turn|15
+|
+|move|p2a: Pidgeot|Hyper Beam|p1a: Mewtwo
+|-damage|p1a: Mewtwo|0 fnt
+|faint|p1a: Mewtwo
+|
+|switch|p1a: Gengar|Gengar, L79|257\/257
+|turn|16
+|
+|move|p2a: Pidgeot|Mirror Move|p2a: Pidgeot
+|-fail|p2a: Pidgeot
+|move|p1a: Gengar|Thunderbolt|p2a: Pidgeot
+|-supereffective|p2a: Pidgeot
+|-damage|p2a: Pidgeot|7\/333
+|
+|turn|17
+|
+|move|p2a: Pidgeot|Rest|p2a: Pidgeot
+|-status|p2a: Pidgeot|slp
+|-heal|p2a: Pidgeot|333\/333 slp|[silent]
+|-status|p2a: Pidgeot|slp|[from] move: Rest
+|move|p1a: Gengar|Thunderbolt|p2a: Pidgeot
+|-supereffective|p2a: Pidgeot
+|-damage|p2a: Pidgeot|181\/333 slp
+|
+|turn|18
+|
+|cant|p2a: Pidgeot|slp
+|move|p1a: Gengar|Thunderbolt|p2a: Pidgeot
+|-supereffective|p2a: Pidgeot
+|-damage|p2a: Pidgeot|19\/333 slp
+|
+|turn|19
+|
+|-curestatus|p2a: Pidgeot|slp
+|move|p1a: Gengar|Thunderbolt|p2a: Pidgeot
+|-supereffective|p2a: Pidgeot
+|-damage|p2a: Pidgeot|0 fnt
+|faint|p2a: Pidgeot
+|
+|switch|p2a: Cubone|Cubone, L96|123\/291
+|turn|20
+|
+|move|p1a: Gengar|Mega Drain|p2a: Cubone
+|-supereffective|p2a: Cubone
+|-damage|p2a: Cubone|37\/291
+|move|p2a: Cubone|Earthquake|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|15\/257
+|
+|turn|21
+|
+|switch|p2a: Rapidash|Rapidash, L90|300\/300
+|move|p1a: Gengar|Mega Drain|p2a: Rapidash
+|-resisted|p2a: Rapidash
+|-damage|p2a: Rapidash|286\/300
+|-heal|p1a: Gengar|22\/257|[from] drain|[of] p2a: Rapidash
+|
+|turn|22
+|
+|move|p2a: Rapidash|Fire Blast|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|switch|p1a: Weezing|Weezing, L90|300\/300 slp
+|turn|23
+|
+|move|p2a: Rapidash|Reflect|p2a: Rapidash
+|-start|p2a: Rapidash|Reflect
+|-curestatus|p1a: Weezing|slp
+|
+|turn|24
+|
+|move|p2a: Rapidash|Fire Blast|p1a: Weezing
+|-damage|p1a: Weezing|172\/300
+|move|p1a: Weezing|Thunder|p2a: Rapidash
+|-damage|p2a: Rapidash|196\/300
+|
+|turn|25
+|
+|move|p2a: Rapidash|Fire Blast|p1a: Weezing
+|-damage|p1a: Weezing|42\/300
+|move|p1a: Weezing|Thunder|p2a: Rapidash
+|-damage|p2a: Rapidash|105\/300
+|
+|turn|26
+|
+|move|p2a: Rapidash|Fire Blast|p1a: Weezing
+|-crit|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|
+|switch|p1a: Lickitung|Lickitung, L90|345\/345
+|turn|27
+|
+|move|p2a: Rapidash|Fire Blast|p1a: Lickitung|[miss]
+|-miss|p2a: Rapidash
+|move|p1a: Lickitung|Earthquake|p2a: Rapidash
+|-supereffective|p2a: Rapidash
+|-damage|p2a: Rapidash|39\/300
+|
+|turn|28
+|
+|move|p2a: Rapidash|Fire Blast|p1a: Lickitung
+|-damage|p1a: Lickitung|206\/345
+|-status|p1a: Lickitung|brn
+|move|p1a: Lickitung|Earthquake|p2a: Rapidash
+|-crit|p2a: Rapidash
+|-supereffective|p2a: Rapidash
+|-damage|p2a: Rapidash|0 fnt
+|faint|p2a: Rapidash
+|
+|switch|p2a: Cubone|Cubone, L96|37\/291
+|turn|29
+|
+|move|p2a: Cubone|Seismic Toss|p1a: Lickitung
+|-damage|p1a: Lickitung|110\/345 brn
+|move|p1a: Lickitung|Earthquake|p2a: Cubone
+|-damage|p2a: Cubone|11\/291
+|-damage|p1a: Lickitung|89\/345 brn|[from] brn|[of] p2a: Cubone
+|
+|turn|30
+|
+|move|p2a: Cubone|Seismic Toss|p1a: Lickitung
+|-damage|p1a: Lickitung|0 fnt
+|faint|p1a: Lickitung
+|
+|switch|p1a: Pidgeot|Pidgeot, L90|333\/333
+|turn|31
+|
+|move|p1a: Pidgeot|Mirror Move|p1a: Pidgeot
+|move|p1a: Pidgeot|Seismic Toss|p2a: Cubone|[from]Mirror Move
+|-damage|p2a: Cubone|0 fnt
+|faint|p2a: Cubone
+|
+|switch|p2a: Seaking|Seaking, L90|71\/327
+|turn|32
+|
+|move|p1a: Pidgeot|Double-Edge|p2a: Seaking
+|-damage|p2a: Seaking|0 fnt
+|-damage|p1a: Pidgeot|316\/333|[from] recoil|[of] p2a: Seaking
+|faint|p2a: Seaking
+|
+|switch|p2a: Farfetch'd|Farfetch'd, L99|304\/304
+|turn|33
+|
+|move|p1a: Pidgeot|Sky Attack|p2a: Farfetch'd|[still]
+|-prepare|p1a: Pidgeot|Sky Attack|p2a: Farfetch'd
+|move|p2a: Farfetch'd|Toxic|p1a: Pidgeot
+|-status|p1a: Pidgeot|tox
+|
+|turn|34
+|
+|move|p1a: Pidgeot|Sky Attack|p2a: Farfetch'd
+|-damage|p2a: Farfetch'd|144\/304
+|-damage|p1a: Pidgeot|296\/333 tox|[from] tox|[of] p2a: Farfetch'd
+|move|p2a: Farfetch'd|Slash|p1a: Pidgeot
+|-crit|p1a: Pidgeot
+|-damage|p1a: Pidgeot|137\/333 tox
+|
+|turn|35
+|
+|move|p1a: Pidgeot|Double-Edge|p2a: Farfetch'd
+|-damage|p2a: Farfetch'd|25\/304
+|-damage|p1a: Pidgeot|108\/333 tox|[from] recoil|[of] p2a: Farfetch'd
+|-damage|p1a: Pidgeot|68\/333 tox|[from] tox|[of] p2a: Farfetch'd
+|move|p2a: Farfetch'd|Slash|p1a: Pidgeot
+|-crit|p1a: Pidgeot
+|-damage|p1a: Pidgeot|0 fnt
+|faint|p1a: Pidgeot
+|
+|win|Braddars
+|raw|Ladder updating...
+|raw|clarinetno1's rating: 1114 &rarr; <strong>1093<\/strong><br \/>(-21 for losing)
+|raw|Braddars's rating: 1167 &rarr; <strong>1189<\/strong><br \/>(+22 for winning)
+|c|★Braddars|gg
+|leave|clarinetno1
+|player|p1

@@ -1,0 +1,218 @@
+﻿|join|jb champ
+|join|GoldenSandslash15
+|player|p1|jb champ|150
+|player|p2|GoldenSandslash15|25
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU (beta)
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokemon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned.
+|rule|HP Percentage Mod: HP is reported as percentages
+|
+|start
+|switch|p1a: Gengar|Gengar|323\/323
+|switch|p2a: Alakazam|Alakazam|313\/313
+|turn|1
+|
+|switch|p1a: Slowbro|Slowbro|393\/393
+|move|p2a: Alakazam|Psychic|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|252\/393
+|
+|turn|2
+|
+|switch|p2a: Starmie|Starmie|323\/323
+|move|p1a: Slowbro|Thunder Wave|p2a: Starmie
+|-status|p2a: Starmie|par
+|
+|turn|3
+|
+|switch|p1a: Gengar|Gengar|323\/323
+|move|p2a: Starmie|Thunderbolt|p1a: Gengar
+|-crit|p1a: Gengar
+|-damage|p1a: Gengar|196\/323
+|
+|turn|4
+|
+|move|p1a: Gengar|Hypnosis|p2a: Starmie|[miss]
+|-miss|p1a: Gengar
+|cant|p2a: Starmie|par
+|
+|turn|5
+|
+|move|p1a: Gengar|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|147\/323 par
+|move|p2a: Starmie|Blizzard|p1a: Gengar
+|-damage|p1a: Gengar|114\/323
+|
+|turn|6
+|
+|switch|p2a: Alakazam|Alakazam|313\/313
+|move|p1a: Gengar|Thunderbolt|p2a: Alakazam
+|-damage|p2a: Alakazam|246\/313
+|
+|turn|7
+|
+|switch|p1a: Slowbro|Slowbro|252\/393
+|move|p2a: Alakazam|Psychic|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|178\/393
+|
+|turn|8
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Slowbro
+|-status|p1a: Slowbro|par
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|
+|turn|9
+|
+|move|p2a: Alakazam|Psychic|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|142\/393 par
+|-unboost|p1a: Slowbro|spd|1
+|-unboost|p1a: Slowbro|spa|1
+|move|p1a: Slowbro|Thunder Wave|p2a: Alakazam
+|-status|p2a: Alakazam|par
+|
+|turn|10
+|
+|move|p2a: Alakazam|Psychic|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|94\/393 par
+|cant|p1a: Slowbro|par
+|
+|turn|11
+|
+|move|p2a: Alakazam|Psychic|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|
+|join|tiredboy10
+|
+|switch|p1a: Golem|Golem|363\/363
+|turn|12
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Golem|Earthquake|p2a: Chansey
+|-damage|p2a: Chansey|364\/703
+|
+|turn|13
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|switch|p1a: Gengar|Gengar|114\/323
+|
+|turn|14
+|
+|move|p1a: Gengar|Hypnosis|p2a: Exeggutor
+|-status|p2a: Exeggutor|slp
+|cant|p2a: Exeggutor|slp
+|
+|turn|15
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|cant|p2a: Exeggutor|slp
+|
+|turn|16
+|
+|cant|p2a: Exeggutor|slp
+|move|p1a: Chansey|Blizzard|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|51\/393 slp
+|
+|turn|17
+|
+|switch|p2a: Alakazam|Alakazam|246\/313 par
+|move|p1a: Chansey|Blizzard|p2a: Alakazam
+|-damage|p2a: Alakazam|163\/313 par
+|
+|turn|18
+|
+|switch|p1a: Golem|Golem|363\/363
+|move|p2a: Alakazam|Reflect|p2a: Alakazam
+|
+|turn|19
+|
+|move|p1a: Golem|Earthquake|p2a: Alakazam
+|-damage|p2a: Alakazam|69\/313 par
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|225\/313 par
+|
+|turn|20
+|
+|move|p1a: Golem|Earthquake|p2a: Alakazam
+|-damage|p2a: Alakazam|123\/313 par
+|move|p2a: Alakazam|Psychic|p1a: Golem
+|-damage|p1a: Golem|172\/363
+|
+|turn|21
+|
+|move|p1a: Golem|Explosion|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|faint|p1a: Golem
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|switch|p2a: Snorlax|Snorlax|523\/523
+|turn|22
+|
+|switch|p1a: Gengar|Gengar|114\/323
+|move|p2a: Snorlax|Self-Destruct|p1a: Gengar
+|-immune|p1a: Gengar|[msg]
+|faint|p2a: Snorlax
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|23
+|
+|move|p1a: Gengar|Explosion|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|faint|p1a: Gengar
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|switch|p2a: Chansey|Chansey|364\/703
+|turn|24
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|
+|switch|p2a: Starmie|Starmie|147\/323 par
+|turn|25
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Starmie|[miss]
+|-miss|p1a: Tauros
+|cant|p2a: Starmie|par
+|
+|turn|26
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|
+|switch|p2a: Exeggutor|Exeggutor|51\/393 slp
+|turn|27
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|win|jb champ
+|raw|Ladder updating...
+|raw|jb champ's rating: 1388 &rarr; <strong>1399<\/strong><br \/>(+11 for winning)
+|raw|GoldenSandslash15's rating: 1214 &rarr; <strong>1201<\/strong><br \/>(-13 for losing)

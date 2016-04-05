@@ -1,0 +1,273 @@
+﻿|join|NixHex
+|join|feena
+|player|p1|NixHex|2
+|player|p2|feena|170
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gengar|Gengar|323\/323
+|switch|p2a: Alakazam|Alakazam|313\/313
+|turn|1
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Alakazam|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|339\/393
+|
+|turn|2
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Exeggutor
+|-status|p1a: Exeggutor|par
+|move|p1a: Exeggutor|Sleep Powder|p2a: Alakazam|[miss]
+|-miss|p1a: Exeggutor
+|
+|turn|3
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Exeggutor
+|-damage|p1a: Exeggutor|239\/393 par
+|move|p1a: Exeggutor|Sleep Powder|p2a: Alakazam
+|-status|p2a: Alakazam|slp
+|
+|turn|4
+|
+|switch|p2a: Lapras|Lapras|463\/463
+|cant|p1a: Exeggutor|par
+|
+|turn|5
+|
+|move|p2a: Lapras|Blizzard|p1a: Exeggutor|[miss]
+|-miss|p2a: Lapras
+|move|p1a: Exeggutor|Explosion|p2a: Lapras
+|-damage|p2a: Lapras|177\/463
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Kangaskhan|Kangaskhan|413\/413
+|turn|6
+|
+|move|p1a: Kangaskhan|Body Slam|p2a: Lapras
+|-damage|p2a: Lapras|68\/463
+|move|p2a: Lapras|Blizzard|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|182\/413
+|
+|turn|7
+|
+|move|p1a: Kangaskhan|Body Slam|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|turn|8
+|
+|switch|p1a: Hypno|Hypno|373\/373
+|move|p2a: Exeggutor|Psychic|p1a: Hypno
+|-resisted|p1a: Hypno
+|-damage|p1a: Hypno|319\/373
+|
+|turn|9
+|
+|move|p1a: Hypno|Thunder Wave|p2a: Exeggutor
+|-status|p2a: Exeggutor|par
+|cant|p2a: Exeggutor|par
+|
+|turn|10
+|
+|move|p1a: Hypno|Headbutt|p2a: Exeggutor
+|-damage|p2a: Exeggutor|341\/393 par
+|move|p2a: Exeggutor|Sleep Powder|p1a: Hypno|[miss]
+|-miss|p2a: Exeggutor
+|
+|turn|11
+|
+|move|p1a: Hypno|Headbutt|p2a: Exeggutor
+|-damage|p2a: Exeggutor|289\/393 par
+|cant|p2a: Exeggutor|flinch
+|
+|turn|12
+|
+|move|p1a: Hypno|Headbutt|p2a: Exeggutor
+|-damage|p2a: Exeggutor|236\/393 par
+|cant|p2a: Exeggutor|par
+|
+|turn|13
+|
+|switch|p1a: Gengar|Gengar|323\/323
+|move|p2a: Exeggutor|Sleep Powder|p1a: Gengar
+|-status|p1a: Gengar|slp
+|
+|turn|14
+|
+|switch|p1a: Hypno|Hypno|319\/373
+|move|p2a: Exeggutor|Psychic|p1a: Hypno
+|-resisted|p1a: Hypno
+|-damage|p1a: Hypno|262\/373
+|-unboost|p1a: Hypno|spd|1
+|-unboost|p1a: Hypno|spa|1
+|
+|turn|15
+|
+|move|p1a: Hypno|Headbutt|p2a: Exeggutor
+|-damage|p2a: Exeggutor|186\/393 par
+|cant|p2a: Exeggutor|flinch
+|
+|turn|16
+|
+|move|p1a: Hypno|Headbutt|p2a: Exeggutor
+|-damage|p2a: Exeggutor|135\/393 par
+|cant|p2a: Exeggutor|flinch
+|
+|turn|17
+|c|★feena|PO fix the flinch rate, looks like PS did not
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Exeggutor|Explosion|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|faint|p2a: Exeggutor
+|c|★NixHex|nice
+|c|★NixHex|talk to Joim about it
+|c|★NixHex|or look at the source yourself
+|c|★NixHex|otherwise it's better just not to make unfounded claims
+|c|★feena|it has been proved
+|c|★feena|that the ratio is higher than normal
+|c|★NixHex|oh?
+|c|★feena|but no complaints
+|c|★NixHex|where is the proof
+|c|★feena|there is a guy who abuse flinch
+|c|★NixHex|if there is indeed "proof" then i will talk to the devs about it, i know some of them
+|c|★feena|he got 15+ in a row
+|c|★NixHex|evidence please
+|
+|switch|p1a: Kangaskhan|Kangaskhan|182\/413
+|switch|p2a: Chansey|Chansey|703\/703
+|turn|18
+|
+|move|p1a: Kangaskhan|Hyper Beam|p2a: Chansey
+|-damage|p2a: Chansey|238\/703
+|move|p2a: Chansey|Thunder Wave|p1a: Kangaskhan
+|-status|p1a: Kangaskhan|par
+|
+|turn|19
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|589\/703
+|cant|p1a: Kangaskhan|recharge
+|
+|turn|20
+|c|★feena|ah sorry
+|c|★feena|piexplode said it was never bugged here
+|c|★NixHex|LOL!
+|c|★feena|it was just luck lol
+|c|★NixHex|pie is adorable
+|c|★feena|yeah
+|
+|switch|p1a: Hypno|Hypno|262\/373
+|move|p2a: Chansey|Ice Beam|p1a: Hypno
+|-damage|p1a: Hypno|198\/373
+|
+|turn|21
+|c|★NixHex|the bugs get fixed very quickly on ps
+|c|★NixHex|so most claims about unfair hax usually just boil down to saltiness
+|c|★NixHex|at losing
+|c|★NixHex|jealousy
+|c|★NixHex|because they are not getting good plays
+|
+|move|p1a: Hypno|Headbutt|p2a: Chansey
+|-damage|p2a: Chansey|455\/703
+|move|p2a: Chansey|Thunder Wave|p1a: Hypno
+|-status|p1a: Hypno|par
+|
+|turn|22
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703\/703
+|cant|p1a: Hypno|par
+|
+|turn|23
+|
+|move|p2a: Chansey|Ice Beam|p1a: Hypno
+|-damage|p1a: Hypno|127\/373 par
+|cant|p1a: Hypno|par
+|
+|turn|24
+|
+|move|p2a: Chansey|Ice Beam|p1a: Hypno
+|-damage|p1a: Hypno|59\/373 par
+|move|p1a: Hypno|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|turn|25
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|move|p1a: Hypno|Rest|p1a: Hypno
+|-status|p1a: Hypno|slp
+|-heal|p1a: Hypno|373\/373 slp|[silent]
+|-status|p1a: Hypno|slp|[from] move: Rest
+|
+|turn|26
+|
+|switch|p1a: Nidoking|Nidoking|365\/365
+|move|p2a: Snorlax|Body Slam|p1a: Nidoking
+|-damage|p1a: Nidoking|232\/365
+|
+|turn|27
+|
+|move|p1a: Nidoking|Blizzard|p2a: Snorlax
+|-damage|p2a: Snorlax|416\/523
+|move|p2a: Snorlax|Body Slam|p1a: Nidoking
+|-damage|p1a: Nidoking|115\/365
+|
+|turn|28
+|
+|move|p1a: Nidoking|Blizzard|p2a: Snorlax
+|-damage|p2a: Snorlax|312\/523
+|move|p2a: Snorlax|Body Slam|p1a: Nidoking
+|-damage|p1a: Nidoking|0 fnt
+|faint|p1a: Nidoking
+|c|★NixHex|meh
+|
+|switch|p1a: Kangaskhan|Kangaskhan|182\/413 par
+|turn|29
+|
+|move|p2a: Snorlax|Body Slam|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|53\/413 par
+|move|p1a: Kangaskhan|Body Slam|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|58\/523
+|
+|turn|30
+|
+|switch|p1a: Gengar|Gengar|323\/323 slp
+|move|p2a: Snorlax|Body Slam|p1a: Gengar
+|-immune|p1a: Gengar|[msg]
+|
+|turn|31
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|cant|p1a: Gengar|slp
+|
+|turn|32
+|
+|move|p2a: Tauros|Earthquake|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|93\/323 slp
+|cant|p1a: Gengar|slp
+|
+|turn|33
+|c|★NixHex|later gater
+|-message|NixHex forfeited.
+|leave|NixHex
+|
+|win|feena
+|raw|Ladder updating...
+|player|p1
+|raw|NixHex's rating: 1223 &rarr; <strong>1208<\/strong><br \/>(-15 for losing)
+|raw|feena's rating: 1372 &rarr; <strong>1384<\/strong><br \/>(+12 for winning)

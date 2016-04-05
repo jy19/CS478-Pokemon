@@ -1,0 +1,219 @@
+﻿|J|rural
+|J|Nails
+|player|p1|rural|142
+|player|p2|Nails|1
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|seed|3157,45369,49122,28637
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333\/333
+|switch|p2a: Gengar|Gengar|323\/323
+|turn|1
+|choice|switch 6|move 2
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Gengar|Hypnosis|p1a: Chansey
+|-status|p1a: Chansey|slp
+|
+|turn|2
+|choice|switch 6|move 1
+|
+|switch|p1a: Jynx|Jynx|333\/333
+|move|p2a: Gengar|Thunderbolt|p1a: Jynx
+|-damage|p1a: Jynx|241\/333
+|
+|turn|3
+|choice|move 2|move 3
+|
+|move|p2a: Gengar|Confuse Ray|p1a: Jynx
+|-start|p1a: Jynx|confusion
+|-activate|p1a: Jynx|confusion
+|-damage|p1a: Jynx|200\/333|[from] confusion
+|
+|turn|4
+|choice|move 2|move 1
+|
+|move|p2a: Gengar|Thunderbolt|p1a: Jynx
+|-damage|p1a: Jynx|110\/333
+|-activate|p1a: Jynx|confusion
+|move|p1a: Jynx|Lovely Kiss|p2a: Gengar
+|-status|p2a: Gengar|slp
+|
+|turn|5
+|choice|move 1|switch 3
+|
+|switch|p2a: Snorlax|Snorlax|523\/523
+|-end|p1a: Jynx|confusion
+|move|p1a: Jynx|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|399\/523
+|
+|turn|6
+|choice|move 4|move 1
+|
+|move|p1a: Jynx|Blizzard|p2a: Snorlax|[miss]
+|-miss|p1a: Jynx
+|move|p2a: Snorlax|Body Slam|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|choice|switch 4|
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|turn|7
+|choice|move 1|move 3
+|
+|move|p1a: Snorlax|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|261\/523
+|move|p2a: Snorlax|Counter|p1a: Snorlax
+|-damage|p1a: Snorlax|247\/523
+|
+|turn|8
+|choice|move 4|switch 4
+|
+|switch|p2a: Cloyster|Cloyster|303\/303
+|move|p1a: Snorlax|Self-Destruct|p2a: Cloyster
+|-damage|p2a: Cloyster|94\/303
+|faint|p1a: Snorlax
+|c|★rural|tank
+|c|★Nails|y
+|choice|switch 2|
+|
+|switch|p1a: Zapdos|Zapdos|383\/383
+|turn|9
+|choice|move 1|switch 5
+|
+|switch|p2a: Golem|Golem|363\/363
+|move|p1a: Zapdos|Thunderbolt|p2a: Golem
+|-immune|p2a: Golem|[msg]
+|
+|turn|10
+|choice|switch 5|move 3
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Golem|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|317\/393
+|
+|turn|11
+|choice|move 1|switch 2
+|
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|move|p1a: Exeggutor|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|343\/393
+|
+|turn|12
+|choice|move 3|move 3
+|
+|move|p1a: Exeggutor|Explosion|p2a: Exeggutor
+|-damage|p2a: Exeggutor|32\/393
+|faint|p1a: Exeggutor
+|choice|switch 3|
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|13
+|choice|move 3|move 4
+|
+|move|p1a: Tauros|Earthquake|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|choice||switch 6
+|
+|switch|p2a: Tauros|Tauros|353\/353
+|turn|14
+|choice|move 1|move 1
+|
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|253\/353
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|250\/353
+|
+|turn|15
+|choice|move 1|move 3
+|
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|144\/353
+|move|p2a: Tauros|Blizzard|p1a: Tauros
+|-damage|p1a: Tauros|156\/353
+|
+|turn|16
+|c|★rural|hp fire??
+|c|★rural|:^)
+|choice|move 4|move 2
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|c|★rural|gdi
+|c|★Nails|ahh got the outplay
+|choice|switch 5|
+|
+|switch|p1a: Zapdos|Zapdos|383\/383
+|turn|17
+|choice|move 3|switch 2
+|
+|switch|p2a: Golem|Golem|363\/363
+|move|p1a: Zapdos|Drill Peck|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|329\/363
+|
+|turn|18
+|J|nbaker813
+|c|★rural|rekt
+|c|★rural|predickted
+|choice|switch 6|move 3
+|
+|switch|p1a: Chansey|Chansey|703\/703 slp
+|move|p2a: Golem|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|518\/703 slp
+|
+|turn|19
+|c|★Nails|more like
+|c|★Nails|pekt
+|c|★Nails|imo
+|choice|move 1|move 1
+|
+|cant|p1a: Chansey|slp
+|move|p2a: Golem|Earthquake|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|c|★rural|heh
+|c|★rural|ow
+|choice|switch 6|
+|
+|switch|p1a: Zapdos|Zapdos|383\/383
+|turn|20
+|c|★Nails|g_g
+|c|★rural|gg
+|c|★rural|!
+|choice|move 3|move 3
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Golem
+|-crit|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|256\/363
+|move|p2a: Golem|Body Slam|p1a: Zapdos
+|-damage|p1a: Zapdos|310\/383
+|
+|turn|21
+|c|★rural|o fuck
+|L|nbaker813
+|c|★rural|dinner timei have to leave
+|c|★rural|: ((((
+|c|★Nails|:(
+|L|rural
+|player|p1
+|J|t4c
+|L|t4c
+|-message|Player 1 lost due to inactivity.
+|
+|win|Nails

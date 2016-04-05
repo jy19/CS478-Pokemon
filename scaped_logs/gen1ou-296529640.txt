@@ -1,0 +1,589 @@
+﻿|join|XianJu
+|join|HappyEevee
+|player|p1|XianJu|130
+|player|p2|HappyEevee|95
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|seed|54888,51813,53346,36298
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Vulcaron|Alakazam|313\/313
+|turn|1
+|choice|switch 3|move 3
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|move|p2a: Vulcaron|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|turn|2
+|c|★HappyEevee|Have Fun! :D
+|choice|move 1|switch 3
+|
+|switch|p2a: Manazran|Gengar|323\/323
+|cant|p1a: Chansey|par
+|
+|turn|3
+|choice|switch 6|move 3
+|
+|switch|p1a: Gengar|Gengar|323\/323
+|move|p2a: Manazran|Thunderbolt|p1a: Gengar
+|-crit|p1a: Gengar
+|-damage|p1a: Gengar|187\/323
+|
+|turn|4
+|choice|move 1|move 3
+|
+|move|p1a: Gengar|Hypnosis|p2a: Manazran
+|-status|p2a: Manazran|slp
+|cant|p2a: Manazran|slp
+|
+|turn|5
+|choice|switch 2|switch 3
+|
+|switch|p2a: Vulcaron|Alakazam|313\/313
+|switch|p1a: Rhydon|Rhydon|413\/413
+|
+|turn|6
+|choice|move 4|switch 6
+|
+|switch|p2a: Former Hope|Lapras|463\/463
+|move|p1a: Rhydon|Body Slam|p2a: Former Hope
+|-damage|p2a: Former Hope|373\/463
+|
+|turn|7
+|choice|move 2|move 4
+|
+|move|p2a: Former Hope|Confuse Ray|p1a: Rhydon
+|-start|p1a: Rhydon|confusion
+|-activate|p1a: Rhydon|confusion
+|move|p1a: Rhydon|Rock Slide|p2a: Former Hope
+|-supereffective|p2a: Former Hope
+|-damage|p2a: Former Hope|118\/463
+|
+|turn|8
+|choice|switch 3|move 1
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|move|p2a: Former Hope|Blizzard|p1a: Alakazam
+|-damage|p1a: Alakazam|201\/313
+|
+|turn|9
+|choice|move 3|move 4
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Former Hope
+|-status|p2a: Former Hope|par
+|cant|p2a: Former Hope|par
+|
+|turn|10
+|choice|move 1|move 4
+|
+|move|p1a: Alakazam|Psychic|p2a: Former Hope
+|-damage|p2a: Former Hope|0 fnt
+|faint|p2a: Former Hope
+|choice||switch 2
+|
+|switch|p2a: HappyEevee|Chansey|703\/703
+|turn|11
+|choice|switch 6|move 3
+|
+|switch|p1a: Chansey|Chansey|703\/703 par
+|move|p2a: HappyEevee|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|
+|turn|12
+|choice|move 1|switch 3
+|
+|switch|p2a: Manazran|Gengar|323\/323 slp
+|cant|p1a: Chansey|par
+|
+|turn|13
+|choice|switch 3|move 2
+|
+|switch|p1a: Rhydon|Rhydon|413\/413
+|cant|p2a: Manazran|slp
+|
+|turn|14
+|choice|move 3|switch 5
+|
+|switch|p2a: Microwavable|Dragonite|385\/385
+|move|p1a: Rhydon|Substitute|p1a: Rhydon
+|-start|p1a: Rhydon|Substitute
+|-damage|p1a: Rhydon|310\/413
+|
+|turn|15
+|choice|move 2|move 4
+|
+|move|p2a: Microwavable|Surf|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-end|p1a: Rhydon|Substitute
+|move|p1a: Rhydon|Rock Slide|p2a: Microwavable|[miss]
+|-miss|p1a: Rhydon
+|
+|turn|16
+|choice|switch 6|move 4
+|
+|switch|p1a: Alakazam|Alakazam|201\/313
+|move|p2a: Microwavable|Surf|p1a: Alakazam
+|-damage|p1a: Alakazam|139\/313
+|
+|turn|17
+|choice|switch 2|switch 3
+|
+|switch|p1a: Gengar|Gengar|187\/323
+|switch|p2a: HappyEevee|Chansey|703\/703
+|
+|turn|18
+|choice|move 4|switch 6
+|
+|switch|p2a: Vulcaron|Alakazam|313\/313
+|move|p1a: Gengar|Mega Drain|p2a: Vulcaron
+|-crit|p2a: Vulcaron
+|-damage|p2a: Vulcaron|254\/313
+|-heal|p1a: Gengar|216\/323|[from] drain|[of] p2a: Vulcaron
+|
+|turn|19
+|choice|switch 3|move 1
+|
+|switch|p1a: Chansey|Chansey|703\/703 par
+|move|p2a: Vulcaron|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|566\/703 par
+|
+|turn|20
+|choice|move 1|switch 5
+|
+|switch|p2a: Manazran|Gengar|323\/323 slp
+|cant|p1a: Chansey|par
+|
+|turn|21
+|choice|switch 3|move 2
+|
+|switch|p1a: Gengar|Gengar|216\/323
+|cant|p2a: Manazran|slp
+|
+|turn|22
+|choice|switch 6|move 1
+|
+|switch|p1a: Rhydon|Rhydon|310\/413
+|cant|p2a: Manazran|slp
+|
+|turn|23
+|choice|move 3|switch 3
+|
+|switch|p2a: Microwavable|Dragonite|385\/385
+|move|p1a: Rhydon|Substitute|p1a: Rhydon
+|-start|p1a: Rhydon|Substitute
+|-damage|p1a: Rhydon|207\/413
+|
+|turn|24
+|choice|move 4|move 4
+|
+|move|p2a: Microwavable|Surf|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-end|p1a: Rhydon|Substitute
+|move|p1a: Rhydon|Body Slam|p2a: Microwavable
+|-damage|p2a: Microwavable|306\/385
+|
+|turn|25
+|choice|switch 3|move 1
+|
+|switch|p1a: Chansey|Chansey|566\/703 par
+|move|p2a: Microwavable|Agility|p2a: Microwavable
+|-boost|p2a: Microwavable|spe|2
+|
+|turn|26
+|choice|switch 6|move 2
+|
+|switch|p1a: Gengar|Gengar|216\/323
+|move|p2a: Microwavable|Wrap|p1a: Gengar
+|-damage|p1a: Gengar|216\/323
+|-activate|p1a: Gengar|move: Wrap|[of] p2a: Microwavable
+|
+|turn|27
+|choice|move 1|move 2
+|
+|move|p2a: Microwavable|Wrap|p1a: Gengar
+|-damage|p1a: Gengar|216\/323
+|cant|p1a: Gengar|partiallytrapped
+|
+|turn|28
+|choice|move 2|move 2
+|
+|move|p2a: Microwavable|Wrap|p1a: Gengar
+|-damage|p1a: Gengar|216\/323
+|cant|p1a: Gengar|partiallytrapped
+|
+|-end|p1a: Gengar|Wrap|[partiallytrapped]
+|turn|29
+|choice|move 2|switch 5
+|
+|switch|p2a: Vulcaron|Alakazam|254\/313
+|move|p1a: Gengar|Thunderbolt|p2a: Vulcaron
+|-damage|p2a: Vulcaron|175\/313
+|
+|turn|30
+|choice|switch 6|move 3
+|
+|switch|p1a: Chansey|Chansey|566\/703 par
+|move|p2a: Vulcaron|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|
+|turn|31
+|choice|move 1|switch 3
+|
+|switch|p2a: Manazran|Gengar|323\/323 slp
+|move|p1a: Chansey|Ice Beam|p2a: Manazran
+|-crit|p2a: Manazran
+|-damage|p2a: Manazran|198\/323 slp
+|
+|turn|32
+|choice|switch 3|move 2
+|
+|switch|p1a: Rhydon|Rhydon|207\/413
+|cant|p2a: Manazran|slp
+|
+|turn|33
+|choice|move 2|move 4
+|
+|-curestatus|p2a: Manazran|slp
+|move|p1a: Rhydon|Rock Slide|p2a: Manazran
+|-damage|p2a: Manazran|41\/323
+|
+|turn|34
+|choice|switch 3|move 4
+|
+|switch|p1a: Chansey|Chansey|566\/703 par
+|move|p2a: Manazran|Mega Drain|p1a: Chansey
+|-damage|p1a: Chansey|531\/703 par
+|-heal|p2a: Manazran|58\/323|[from] drain|[of] p1a: Chansey
+|
+|turn|35
+|choice|switch 6|move 2
+|
+|switch|p1a: Gengar|Gengar|216\/323
+|move|p2a: Manazran|Explosion|p1a: Gengar
+|-immune|p1a: Gengar|[msg]
+|faint|p2a: Manazran
+|c|★HappyEevee|\/me faceplams]
+|c|★HappyEevee|facepalms*
+|choice||switch 3
+|
+|switch|p2a: Vulcaron|Alakazam|175\/313
+|turn|36
+|choice|switch 6|move 3
+|
+|switch|p1a: Chansey|Chansey|531\/703 par
+|move|p2a: Vulcaron|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|
+|turn|37
+|choice|move 1|move 1
+|
+|move|p2a: Vulcaron|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|400\/703 par
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|move|p1a: Chansey|Ice Beam|p2a: Vulcaron
+|-damage|p2a: Vulcaron|134\/313
+|
+|turn|38
+|choice|move 2|move 2
+|
+|move|p2a: Vulcaron|Recover|p2a: Vulcaron
+|-heal|p2a: Vulcaron|290\/313
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703\/703 par
+|
+|turn|39
+|choice|move 3|move 1
+|
+|move|p2a: Vulcaron|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|512\/703 par
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|cant|p1a: Chansey|par
+|
+|turn|40
+|choice|move 2|move 1
+|
+|move|p2a: Vulcaron|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|235\/703 par
+|cant|p1a: Chansey|par
+|
+|turn|41
+|choice|switch 2|move 1
+|
+|switch|p1a: Alakazam|Alakazam|139\/313
+|move|p2a: Vulcaron|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|87\/313
+|-unboost|p1a: Alakazam|spd|1
+|-unboost|p1a: Alakazam|spa|1
+|
+|turn|42
+|choice|move 2|move 1
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|243\/313
+|move|p2a: Vulcaron|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|162\/313
+|
+|turn|43
+|choice|move 3|move 3
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Vulcaron
+|-status|p2a: Vulcaron|par
+|move|p2a: Vulcaron|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|
+|turn|44
+|choice|move 2|move 1
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|313\/313 par
+|cant|p2a: Vulcaron|par
+|
+|turn|45
+|choice|move 1|move 1
+|
+|move|p2a: Vulcaron|Psychic|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|216\/313 par
+|move|p1a: Alakazam|Psychic|p2a: Vulcaron
+|-resisted|p2a: Vulcaron
+|-damage|p2a: Vulcaron|255\/313 par
+|
+|turn|46
+|choice|move 1|move 1
+|
+|move|p1a: Alakazam|Psychic|p2a: Vulcaron
+|-crit|p2a: Vulcaron
+|-resisted|p2a: Vulcaron
+|-damage|p2a: Vulcaron|146\/313 par
+|-unboost|p2a: Vulcaron|spd|1
+|-unboost|p2a: Vulcaron|spa|1
+|cant|p2a: Vulcaron|par
+|
+|turn|47
+|choice|move 1|move 2
+|
+|move|p1a: Alakazam|Psychic|p2a: Vulcaron
+|-resisted|p2a: Vulcaron
+|-damage|p2a: Vulcaron|94\/313 par
+|move|p2a: Vulcaron|Recover|p2a: Vulcaron
+|-heal|p2a: Vulcaron|250\/313 par
+|
+|turn|48
+|choice|move 1|move 1
+|
+|cant|p1a: Alakazam|par
+|move|p2a: Vulcaron|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|162\/313 par
+|
+|turn|49
+|choice|move 2|move 1
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|313\/313 par
+|move|p2a: Vulcaron|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|264\/313 par
+|-unboost|p1a: Alakazam|spd|1
+|-unboost|p1a: Alakazam|spa|1
+|
+|turn|50
+|choice|switch 4|move 1
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|cant|p2a: Vulcaron|par
+|
+|turn|51
+|choice|move 3|move 3
+|
+|move|p1a: Exeggutor|Explosion|p2a: Vulcaron
+|-damage|p2a: Vulcaron|0 fnt
+|faint|p2a: Vulcaron
+|faint|p1a: Exeggutor
+|join|BrockMasterBoss
+|join|DiamondSentinel
+|c|★HappyEevee|:(
+|c| DiamondSentinel|Hey BMB
+|choice|switch 4|switch 5
+|
+|switch|p2a: Microwavable|Dragonite|306\/385
+|switch|p1a: Alakazam|Alakazam|264\/313 par
+|turn|52
+|leave|BrockMasterBoss
+|c| DiamondSentinel|HeeVee, do you have a mon named after me?
+|c| DiamondSentinel|^_^
+|c|★HappyEevee|No
+|c| DiamondSentinel|Why not?
+|choice|switch 6|move 2
+|
+|switch|p1a: Gengar|Gengar|216\/323
+|move|p2a: Microwavable|Wrap|p1a: Gengar|[miss]
+|-miss|p2a: Microwavable
+|
+|turn|53
+|c|★HappyEevee|Vulcaron, Manazran, Former Hope, HappyEevee, Microwavable, and another user
+|c|★HappyEevee|Who's name reveals poke so not saying tbh
+|c| DiamondSentinel|D:
+|choice|move 1|switch 4
+|
+|switch|p2a: sparkyboTTT|Jolteon|333\/333
+|move|p1a: Gengar|Hypnosis|p2a: sparkyboTTT|[miss]
+|-miss|p1a: Gengar
+|
+|turn|54
+|choice|switch 3|move 2
+|
+|switch|p1a: Rhydon|Rhydon|207\/413
+|move|p2a: sparkyboTTT|Thunder Wave|p1a: Rhydon
+|-immune|p1a: Rhydon|[msg]
+|
+|turn|55
+|c| DiamondSentinel|>Name would reveal mon
+|c| DiamondSentinel|>Switches to him anyways
+|c|★HappyEevee|Gen 1 pokemon don't have genders
+|choice|move 2|switch 4
+|
+|switch|p2a: Microwavable|Dragonite|306\/385
+|move|p1a: Rhydon|Rock Slide|p2a: Microwavable
+|-supereffective|p2a: Microwavable
+|-damage|p2a: Microwavable|73\/385
+|
+|turn|56
+|c| DiamondSentinel|I know. What of that?
+|choice|switch 3|move 2
+|
+|switch|p1a: Gengar|Gengar|216\/323
+|move|p2a: Microwavable|Wrap|p1a: Gengar
+|-damage|p1a: Gengar|216\/323
+|-activate|p1a: Gengar|move: Wrap|[of] p2a: Microwavable
+|
+|turn|57
+|c|★HappyEevee|You said hm
+|c|★HappyEevee|him*
+|choice|move 1|move 2
+|
+|cant|p1a: Gengar|partiallytrapped
+|move|p2a: Microwavable|Wrap|p1a: Gengar
+|-damage|p1a: Gengar|216\/323
+|
+|turn|58
+|c| DiamondSentinel|Meh
+|choice|move 1|move 2
+|
+|cant|p1a: Gengar|partiallytrapped
+|move|p2a: Microwavable|Wrap|p1a: Gengar
+|-damage|p1a: Gengar|216\/323
+|
+|-end|p1a: Gengar|Wrap|[partiallytrapped]
+|turn|59
+|c|★HappyEevee|I've lost.
+|choice|move 1|move 2
+|
+|move|p1a: Gengar|Hypnosis|p2a: Microwavable|[miss]
+|-miss|p1a: Gengar
+|move|p2a: Microwavable|Wrap|p1a: Gengar|[miss]
+|-miss|p2a: Microwavable
+|
+|turn|60
+|choice|move 2|move 1
+|
+|move|p1a: Gengar|Thunderbolt|p2a: Microwavable
+|-damage|p2a: Microwavable|0 fnt
+|faint|p2a: Microwavable
+|choice||switch 4
+|
+|switch|p2a: sparkyboTTT|Jolteon|333\/333
+|turn|61
+|choice|move 1|move 1
+|
+|move|p2a: sparkyboTTT|Thunderbolt|p1a: Gengar
+|-damage|p1a: Gengar|122\/323
+|move|p1a: Gengar|Hypnosis|p2a: sparkyboTTT|[miss]
+|-miss|p1a: Gengar
+|
+|turn|62
+|choice|move 1|move 1
+|
+|move|p2a: sparkyboTTT|Thunderbolt|p1a: Gengar
+|-damage|p1a: Gengar|16\/323
+|move|p1a: Gengar|Hypnosis|p2a: sparkyboTTT
+|-status|p2a: sparkyboTTT|slp
+|
+|turn|63
+|choice|switch 3|move 1
+|
+|switch|p1a: Rhydon|Rhydon|207\/413
+|cant|p2a: sparkyboTTT|slp
+|
+|turn|64
+|choice|move 3|move 1
+|
+|cant|p2a: sparkyboTTT|slp
+|move|p1a: Rhydon|Substitute|p1a: Rhydon
+|-start|p1a: Rhydon|Substitute
+|-damage|p1a: Rhydon|104\/413
+|
+|turn|65
+|choice|move 1|move 1
+|
+|cant|p2a: sparkyboTTT|slp
+|move|p1a: Rhydon|Earthquake|p2a: sparkyboTTT
+|-supereffective|p2a: sparkyboTTT
+|-damage|p2a: sparkyboTTT|0 fnt
+|faint|p2a: sparkyboTTT
+|choice||switch 6
+|
+|switch|p2a: HappyEevee|Chansey|703\/703
+|turn|66
+|c|★HappyEevee|GG
+|choice|move 1|move 1
+|
+|move|p2a: HappyEevee|Ice Beam|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-end|p1a: Rhydon|Substitute
+|move|p1a: Rhydon|Earthquake|p2a: HappyEevee
+|-damage|p2a: HappyEevee|288\/703
+|
+|turn|67
+|choice|move 1|move 1
+|
+|move|p2a: HappyEevee|Ice Beam|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|choice|switch 3|
+|
+|switch|p1a: Gengar|Gengar|16\/323
+|turn|68
+|choice|move 3|move 1
+|
+|move|p1a: Gengar|Explosion|p2a: HappyEevee
+|-crit|p2a: HappyEevee
+|-damage|p2a: HappyEevee|0 fnt
+|faint|p2a: HappyEevee
+|faint|p1a: Gengar
+|
+|win|XianJu
+|c|★HappyEevee|gg
+|raw|XianJu's rating: 1293 &rarr; <strong>1306<\/strong><br \/>(+13 for winning)
+|raw|HappyEevee's rating: 1111 &rarr; <strong>1098<\/strong><br \/>(-13 for losing)
+|leave|HappyEevee
+|player|p2
+|leave|DiamondSentinel
+|join|HappyEevee
+|c|★XianJu|gg

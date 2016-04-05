@@ -1,0 +1,286 @@
+﻿|join|GGC
+|join|Giju
+|player|p1|GGC|209
+|player|p2|Giju|163
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|switch|p2a: Exe|Exeggutor|393\/393
+|turn|1
+|
+|switch|p1a: Starmie|Starmie|323\/323
+|move|p2a: Exe|Sleep Powder|p1a: Starmie
+|-status|p1a: Starmie|slp
+|
+|turn|2
+|
+|switch|p1a: Exeggutor|Exeggutor|393\/393
+|move|p2a: Exe|Stun Spore|p1a: Exeggutor|[miss]
+|-miss|p2a: Exe
+|
+|turn|3
+|
+|move|p2a: Exe|Stun Spore|p1a: Exeggutor
+|-status|p1a: Exeggutor|par
+|move|p1a: Exeggutor|Sleep Powder|p2a: Exe|[miss]
+|-miss|p1a: Exeggutor
+|
+|turn|4
+|
+|move|p2a: Exe|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|342\/393 par
+|move|p1a: Exeggutor|Sleep Powder|p2a: Exe
+|-status|p2a: Exe|slp
+|
+|turn|5
+|
+|switch|p2a: Chan|Chansey|703\/703
+|cant|p1a: Exeggutor|par
+|
+|turn|6
+|
+|move|p2a: Chan|Ice Beam|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|200\/393 par
+|move|p1a: Exeggutor|Explosion|p2a: Chan
+|-damage|p2a: Chan|0 fnt
+|faint|p2a: Chan
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Alakazam|Alakazam|313\/313
+|switch|p2a: Snor|Snorlax|523\/523
+|turn|7
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Snor
+|-status|p2a: Snor|par
+|move|p2a: Snor|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|156\/313
+|
+|turn|8
+|
+|move|p1a: Alakazam|Reflect|p1a: Alakazam
+|-start|p1a: Alakazam|Reflect
+|move|p2a: Snor|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|74\/313
+|
+|turn|9
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|230\/313
+|move|p2a: Snor|Blizzard|p1a: Alakazam
+|-damage|p1a: Alakazam|169\/313
+|
+|turn|10
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|313\/313
+|move|p2a: Snor|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|221\/313
+|-status|p1a: Alakazam|par
+|
+|turn|11
+|
+|switch|p2a: Exe|Exeggutor|393\/393 slp
+|cant|p1a: Alakazam|par
+|
+|turn|12
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|-curestatus|p2a: Exe|slp
+|
+|turn|13
+|
+|switch|p1a: Starmie|Starmie|323\/323 slp
+|move|p2a: Exe|Psychic|p1a: Starmie
+|-crit|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|194\/323 slp
+|
+|turn|14
+|
+|switch|p1a: Alakazam|Alakazam|221\/313 par
+|move|p2a: Exe|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|173\/313 par
+|
+|turn|15
+|
+|move|p2a: Exe|Hyper Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|5\/313 par
+|cant|p1a: Alakazam|par
+|
+|turn|16
+|-mustrecharge|p2a: Exe
+|-mustrecharge|p2a: Exe
+|
+|cant|p2a: Exe|recharge
+|move|p1a: Alakazam|Thunder Wave|p2a: Exe
+|-status|p2a: Exe|par
+|
+|turn|17
+|
+|cant|p1a: Alakazam|par
+|move|p2a: Exe|Hyper Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|switch|p1a: Chansey|Chansey|703\/703
+|turn|18
+|
+|move|p1a: Chansey|Ice Beam|p2a: Exe
+|-supereffective|p2a: Exe
+|-damage|p2a: Exe|263\/393 par
+|cant|p2a: Exe|par
+|
+|turn|19
+|
+|move|p1a: Chansey|Ice Beam|p2a: Exe
+|-supereffective|p2a: Exe
+|-damage|p2a: Exe|133\/393 par
+|move|p2a: Exe|Stun Spore|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|turn|20
+|
+|switch|p1a: Starmie|Starmie|194\/323 slp
+|move|p2a: Exe|Hyper Beam|p1a: Starmie
+|-damage|p1a: Starmie|78\/323 slp
+|
+|turn|21
+|-mustrecharge|p2a: Exe
+|-mustrecharge|p2a: Exe
+|
+|switch|p1a: Snorlax|Snorlax|523\/523
+|cant|p2a: Exe|recharge
+|
+|turn|22
+|
+|switch|p2a: Gol|Golem|363\/363
+|move|p1a: Snorlax|Body Slam|p2a: Gol
+|-resisted|p2a: Gol
+|-damage|p2a: Gol|316\/363
+|
+|turn|23
+|
+|switch|p2a: Snor|Snorlax|523\/523 par
+|move|p1a: Snorlax|Earthquake|p2a: Snor
+|-damage|p2a: Snor|406\/523 par
+|
+|turn|24
+|
+|move|p1a: Snorlax|Body Slam|p2a: Snor
+|-damage|p2a: Snor|272\/523 par
+|move|p2a: Snor|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|374\/523
+|
+|turn|25
+|
+|move|p1a: Snorlax|Body Slam|p2a: Snor
+|-damage|p2a: Snor|140\/523 par
+|move|p2a: Snor|Hyper Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|136\/523
+|
+|turn|26
+|-mustrecharge|p2a: Snor
+|-mustrecharge|p2a: Snor
+|
+|move|p1a: Snorlax|Body Slam|p2a: Snor
+|-crit|p2a: Snor
+|-damage|p2a: Snor|0 fnt
+|faint|p2a: Snor
+|
+|switch|p2a: Tau|Tauros|353\/353
+|turn|27
+|
+|move|p2a: Tau|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|switch|p1a: Tauros|Tauros|353\/353
+|turn|28
+|
+|move|p2a: Tau|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|244\/353
+|move|p1a: Tauros|Body Slam|p2a: Tau
+|-damage|p2a: Tau|249\/353
+|
+|turn|29
+|
+|move|p2a: Tau|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|144\/353
+|move|p1a: Tauros|Body Slam|p2a: Tau
+|-damage|p2a: Tau|140\/353
+|
+|turn|30
+|
+|switch|p2a: Gol|Golem|316\/363
+|move|p1a: Tauros|Hyper Beam|p2a: Gol
+|-resisted|p2a: Gol
+|-damage|p2a: Gol|238\/363
+|
+|turn|31
+|-mustrecharge|p1a: Tauros
+|-mustrecharge|p1a: Tauros
+|
+|cant|p1a: Tauros|recharge
+|move|p2a: Gol|Explosion|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|faint|p2a: Gol
+|
+|switch|p2a: Exe|Exeggutor|133\/393 par
+|switch|p1a: Chansey|Chansey|703\/703 par
+|turn|32
+|
+|cant|p2a: Exe|par
+|move|p1a: Chansey|Ice Beam|p2a: Exe
+|-supereffective|p2a: Exe
+|-damage|p2a: Exe|0 fnt
+|faint|p2a: Exe
+|
+|switch|p2a: Alak|Alakazam|313\/313
+|turn|33
+|
+|move|p2a: Alak|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|582\/703 par
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|move|p1a: Chansey|Ice Beam|p2a: Alak
+|-damage|p2a: Alak|271\/313
+|
+|turn|34
+|
+|move|p2a: Alak|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|372\/703 par
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|cant|p1a: Chansey|par
+|
+|turn|35
+|
+|move|p2a: Alak|Psychic|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|123\/703 par
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|cant|p1a: Chansey|par
+|
+|turn|36
+|-message|GGC forfeited.
+|
+|win|Giju
+|leave|GGC
+|player|p1
+|raw|GGC's rating: 1320 &rarr; <strong>1296<\/strong><br \/>(-24 for losing)
+|raw|Giju's rating: 1254 &rarr; <strong>1284<\/strong><br \/>(+30 for winning)

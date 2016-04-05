@@ -1,0 +1,111 @@
+﻿|j|Ch01W0n5h1n
+|j|MCBren
+|player|p1|Ch01W0n5h1n|165
+|player|p2|MCBren|195
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|seed|46047,29032,23596,49691
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Ditto|Ditto, L99|296\/296
+|switch|p2a: Poliwhirl|Poliwhirl, L85|284\/284
+|turn|1
+|choice|move 1|move 1
+|
+|move|p2a: Poliwhirl|Amnesia|p2a: Poliwhirl
+|-boost|p2a: Poliwhirl|spd|2
+|-boost|p2a: Poliwhirl|spa|2
+|move|p1a: Ditto|Transform|p2a: Poliwhirl
+|-transform|p1a: Ditto|p2a: Poliwhirl
+|
+|turn|2
+|choice|move 4|move 3
+|
+|move|p2a: Poliwhirl|Surf|p1a: Ditto
+|-resisted|p1a: Ditto
+|-damage|p1a: Ditto|216\/296
+|move|p1a: Ditto|Hypnosis|p2a: Poliwhirl
+|-status|p2a: Poliwhirl|slp
+|
+|turn|3
+|choice|move 1|move 3
+|
+|cant|p2a: Poliwhirl|slp
+|move|p1a: Ditto|Amnesia|p1a: Ditto
+|-boost|p1a: Ditto|spd|2
+|-boost|p1a: Ditto|spa|2
+|
+|turn|4
+|choice|move 1|switch 6
+|
+|switch|p2a: Hitmonchan|Hitmonchan, L90|273\/273
+|move|p1a: Ditto|Amnesia|p1a: Ditto
+|-boost|p1a: Ditto|spd|2
+|-boost|p1a: Ditto|spa|2
+|
+|turn|5
+|choice|move 2|move 3
+|
+|move|p2a: Hitmonchan|Submission|p1a: Ditto|[miss]
+|-miss|p2a: Hitmonchan
+|move|p1a: Ditto|Psychic|p2a: Hitmonchan
+|-supereffective|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|0 fnt
+|faint|p2a: Hitmonchan
+|choice||switch 3
+|
+|switch|p2a: Mew|Mew, L74|300\/300
+|turn|6
+|choice|move 3|move 1
+|
+|move|p2a: Mew|Fissure|p1a: Ditto|[miss]
+|-miss|p2a: Mew
+|move|p1a: Ditto|Surf|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|choice||switch 5
+|
+|switch|p2a: Pinsir|Pinsir, L85|284\/284
+|turn|7
+|choice|move 2|move 3
+|
+|move|p2a: Pinsir|Submission|p1a: Ditto
+|-damage|p1a: Ditto|136\/296
+|-damage|p2a: Pinsir|264\/284|[from] recoil|[of] p1a: Ditto
+|move|p1a: Ditto|Psychic|p2a: Pinsir
+|-damage|p2a: Pinsir|0 fnt
+|faint|p2a: Pinsir
+|choice||switch 2
+|
+|switch|p2a: Eevee|Eevee, L96|300\/300
+|turn|8
+|choice|move 3|move 4
+|
+|move|p2a: Eevee|Mimic|p1a: Ditto
+|-start|p2a: Eevee|Mimic|Surf
+|move|p1a: Ditto|Surf|p2a: Eevee
+|-damage|p2a: Eevee|0 fnt
+|faint|p2a: Eevee
+|choice||switch 4
+|
+|switch|p2a: Vileplume|Vileplume, L90|318\/318
+|turn|9
+|choice|move 2|move 4
+|
+|move|p1a: Ditto|Psychic|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|choice||switch 6
+|
+|switch|p2a: Poliwhirl|Poliwhirl, L85|284\/284 slp
+|turn|10
+|-message|MCBren forfeited.
+|
+|win|Ch01W0n5h1n
+|l|MCBren
+|player|p2

@@ -1,0 +1,338 @@
+﻿|join|TheAntelope
+|join|HOLIC37
+|player|p1|TheAntelope|29
+|player|p2|HOLIC37|169
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Vulpix|Vulpix, L96|268\/268
+|switch|p2a: Porygon|Porygon, L85|284\/284
+|turn|1
+|
+|move|p1a: Vulpix|Fire Blast|p2a: Porygon
+|-damage|p2a: Porygon|155\/284
+|move|p2a: Porygon|Ice Beam|p1a: Vulpix
+|-damage|p1a: Vulpix|211\/268
+|
+|turn|2
+|
+|move|p1a: Vulpix|Body Slam|p2a: Porygon
+|-damage|p2a: Porygon|98\/284
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|240\/284
+|
+|turn|3
+|
+|move|p1a: Vulpix|Fire Blast|p2a: Porygon|[miss]
+|-miss|p1a: Vulpix
+|move|p2a: Porygon|Agility|p2a: Porygon
+|-boost|p2a: Porygon|spe|2
+|
+|turn|4
+|
+|move|p2a: Porygon|Agility|p2a: Porygon
+|-boost|p2a: Porygon|spe|2
+|move|p1a: Vulpix|Fire Blast|p2a: Porygon
+|-damage|p2a: Porygon|105\/284
+|
+|turn|5
+|
+|switch|p1a: Alakazam|Alakazam, L79|249\/249
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|247\/284
+|
+|turn|6
+|
+|move|p2a: Porygon|Ice Beam|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|165\/249
+|move|p1a: Alakazam|Thunder Wave|p2a: Porygon
+|-status|p2a: Porygon|par
+|
+|turn|7
+|
+|move|p1a: Alakazam|Psychic|p2a: Porygon
+|-damage|p2a: Porygon|126\/284 par
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|268\/284 par
+|
+|turn|8
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|249\/249
+|move|p2a: Porygon|Ice Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|204\/249
+|
+|turn|9
+|
+|move|p1a: Alakazam|Psychic|p2a: Porygon
+|-crit|p2a: Porygon
+|-damage|p2a: Porygon|30\/284 par
+|cant|p2a: Porygon|par
+|
+|turn|10
+|
+|switch|p2a: Haunter|Haunter, L85|250\/250
+|move|p1a: Alakazam|Psychic|p2a: Haunter
+|-crit|p2a: Haunter
+|-supereffective|p2a: Haunter
+|-damage|p2a: Haunter|0 fnt
+|faint|p2a: Haunter
+|
+|switch|p2a: Porygon|Porygon, L85|30\/284 par
+|turn|11
+|
+|move|p1a: Alakazam|Psychic|p2a: Porygon
+|-damage|p2a: Porygon|0 fnt
+|faint|p2a: Porygon
+|
+|switch|p2a: Magneton|Magneton, L90|273\/273
+|turn|12
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Magneton
+|-status|p2a: Magneton|par
+|move|p2a: Magneton|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|
+|turn|13
+|
+|cant|p1a: Alakazam|par
+|move|p2a: Magneton|Thunderbolt|p1a: Alakazam
+|-damage|p1a: Alakazam|91\/249 par
+|
+|turn|14
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|215\/249 par
+|move|p2a: Magneton|Thunderbolt|p1a: Alakazam
+|-damage|p1a: Alakazam|108\/249 par
+|
+|turn|15
+|
+|cant|p1a: Alakazam|par
+|move|p2a: Magneton|Thunder Wave|p1a: Alakazam
+|-fail|p1a: Alakazam|par
+|
+|turn|16
+|
+|cant|p1a: Alakazam|par
+|move|p2a: Magneton|Thunderbolt|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|c|★TheAntelope|rng why
+|
+|switch|p1a: Marowak|Marowak, L90|291\/291
+|turn|17
+|c|★HOLIC37|idk pokemon
+|
+|move|p1a: Marowak|Earthquake|p2a: Magneton
+|-supereffective|p2a: Magneton
+|-damage|p2a: Magneton|79\/273 par
+|move|p2a: Magneton|Thunder Wave|p1a: Marowak
+|-immune|p1a: Marowak|[msg]
+|
+|turn|18
+|
+|switch|p2a: Machamp|Machamp, L90|345\/345
+|move|p1a: Marowak|Earthquake|p2a: Machamp
+|-damage|p2a: Machamp|240\/345
+|
+|turn|19
+|
+|switch|p1a: Hypno|Hypno, L85|318\/318
+|move|p2a: Machamp|Hyper Beam|p1a: Hypno|[miss]
+|-miss|p2a: Machamp
+|
+|turn|20
+|
+|move|p1a: Hypno|Psychic|p2a: Machamp
+|-supereffective|p2a: Machamp
+|-damage|p2a: Machamp|0 fnt
+|faint|p2a: Machamp
+|
+|switch|p2a: Magneton|Magneton, L90|79\/273 par
+|turn|21
+|
+|move|p1a: Hypno|Psychic|p2a: Magneton
+|-damage|p2a: Magneton|1\/273 par
+|move|p2a: Magneton|Thunderbolt|p1a: Hypno
+|-damage|p1a: Hypno|201\/318
+|
+|turn|22
+|
+|move|p1a: Hypno|Psychic|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|faint|p2a: Magneton
+|
+|switch|p2a: Magmar|Magmar, L90|300\/300
+|turn|23
+|
+|move|p2a: Magmar|Body Slam|p1a: Hypno
+|-crit|p1a: Hypno
+|-damage|p1a: Hypno|47\/318
+|-status|p1a: Hypno|par
+|move|p1a: Hypno|Hypnosis|p2a: Magmar
+|-status|p2a: Magmar|slp
+|
+|turn|24
+|
+|-curestatus|p2a: Magmar|slp
+|move|p1a: Hypno|Rest|p1a: Hypno
+|-status|p1a: Hypno|slp
+|-heal|p1a: Hypno|318\/318 slp|[silent]
+|-status|p1a: Hypno|slp|[from] move: Rest
+|
+|turn|25
+|
+|switch|p1a: Vulpix|Vulpix, L96|211\/268
+|move|p2a: Magmar|Body Slam|p1a: Vulpix
+|-damage|p1a: Vulpix|112\/268
+|
+|turn|26
+|
+|move|p2a: Magmar|Body Slam|p1a: Vulpix
+|-damage|p1a: Vulpix|14\/268
+|move|p1a: Vulpix|Confuse Ray|p2a: Magmar
+|-start|p2a: Magmar|confusion
+|
+|turn|27
+|
+|-activate|p2a: Magmar|confusion
+|move|p2a: Magmar|Confuse Ray|p1a: Vulpix
+|-start|p1a: Vulpix|confusion
+|-activate|p1a: Vulpix|confusion
+|-damage|p1a: Vulpix|0 fnt|[from] confusion
+|faint|p1a: Vulpix
+|c|★TheAntelope|rng doesn't like me today
+|
+|switch|p1a: Marowak|Marowak, L90|291\/291
+|turn|28
+|c|★HOLIC37|rng?
+|
+|-end|p2a: Magmar|confusion
+|move|p2a: Magmar|Confuse Ray|p1a: Marowak
+|-start|p1a: Marowak|confusion
+|-activate|p1a: Marowak|confusion
+|move|p1a: Marowak|Earthquake|p2a: Magmar
+|-supereffective|p2a: Magmar
+|-damage|p2a: Magmar|23\/300
+|
+|turn|29
+|c|★TheAntelope|random number generator.
+|c|★TheAntelope|Or depending who you are, maybe rngeesus or random number god
+|c|★HOLIC37|oh ok
+|
+|switch|p1a: Nidoran-M|Nidoran-M, L96|283\/283
+|move|p2a: Magmar|Hyper Beam|p1a: Nidoran-M
+|-damage|p1a: Nidoran-M|113\/283
+|
+|turn|30
+|-mustrecharge|p2a: Magmar
+|c|★HOLIC37|yaya someone told me about thjat
+|-mustrecharge|p2a: Magmar
+|
+|cant|p2a: Magmar|recharge
+|move|p1a: Nidoran-M|Body Slam|p2a: Magmar
+|-damage|p2a: Magmar|0 fnt
+|faint|p2a: Magmar
+|
+|switch|p2a: Kingler|Kingler, L85|267\/267
+|turn|31
+|c|★HOLIC37|gg
+|
+|move|p2a: Kingler|Body Slam|p1a: Nidoran-M
+|-damage|p1a: Nidoran-M|8\/283
+|move|p1a: Nidoran-M|Body Slam|p2a: Kingler
+|-damage|p2a: Kingler|217\/267
+|
+|turn|32
+|
+|move|p2a: Kingler|Body Slam|p1a: Nidoran-M
+|-damage|p1a: Nidoran-M|0 fnt
+|faint|p1a: Nidoran-M
+|
+|switch|p1a: Machamp|Machamp, L90|345\/345
+|turn|33
+|c|★TheAntelope|hardly
+|c|★TheAntelope|done
+|
+|move|p2a: Kingler|Blizzard|p1a: Machamp
+|-damage|p1a: Machamp|275\/345
+|move|p1a: Machamp|Submission|p2a: Kingler
+|-damage|p2a: Kingler|123\/267
+|-damage|p1a: Machamp|252\/345|[from] recoil|[of] p2a: Kingler
+|
+|turn|34
+|c|★TheAntelope|yet
+|
+|move|p2a: Kingler|Body Slam|p1a: Machamp
+|-damage|p1a: Machamp|178\/345
+|move|p1a: Machamp|Hyper Beam|p2a: Kingler
+|-damage|p2a: Kingler|6\/267
+|
+|turn|35
+|-mustrecharge|p1a: Machamp
+|c|★TheAntelope|It doesn't know crab hammer?
+|-mustrecharge|p1a: Machamp
+|
+|move|p2a: Kingler|Blizzard|p1a: Machamp
+|-damage|p1a: Machamp|110\/345
+|cant|p1a: Machamp|recharge
+|
+|turn|36
+|
+|move|p2a: Kingler|Crabhammer|p1a: Machamp
+|-crit|p1a: Machamp
+|-damage|p1a: Machamp|0 fnt
+|faint|p1a: Machamp
+|
+|switch|p1a: Marowak|Marowak, L90|291\/291
+|turn|37
+|
+|move|p2a: Kingler|Crabhammer|p1a: Marowak
+|-crit|p1a: Marowak
+|-supereffective|p1a: Marowak
+|-damage|p1a: Marowak|0 fnt
+|faint|p1a: Marowak
+|
+|switch|p1a: Hypno|Hypno, L85|318\/318 slp
+|turn|38
+|
+|move|p2a: Kingler|Crabhammer|p1a: Hypno
+|-crit|p1a: Hypno
+|-damage|p1a: Hypno|204\/318 slp
+|cant|p1a: Hypno|slp
+|
+|turn|39
+|c|★HOLIC37|gg
+|c|★HOLIC37|wait
+|
+|move|p2a: Kingler|Crabhammer|p1a: Hypno
+|-crit|p1a: Hypno
+|-damage|p1a: Hypno|89\/318 slp
+|-curestatus|p1a: Hypno|slp
+|
+|turn|40
+|c|★HOLIC37|ok now
+|c|★TheAntelope|good game whatever the result :3
+|c|★HOLIC37|thanks for not being a jerk
+|c|★TheAntelope|No problem
+|
+|move|p2a: Kingler|Crabhammer|p1a: Hypno
+|-crit|p1a: Hypno
+|-damage|p1a: Hypno|0 fnt
+|faint|p1a: Hypno
+|
+|win|HOLIC37
+|raw|TheAntelope's rating: 1070 &rarr; <strong>1046<\/strong><br \/>(-24 for losing)
+|raw|HOLIC37's rating: 1000 &rarr; <strong>1048<\/strong><br \/>(+48 for winning)
+|c|★TheAntelope|ah gg
+|leave|TheAntelope
+|player|p1
+|c|★HOLIC37|I thought it was you rturn

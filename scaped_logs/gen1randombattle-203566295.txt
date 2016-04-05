@@ -1,0 +1,265 @@
+﻿|join|jb champ
+|join|gallard
+|player|p1|jb champ|150
+|player|p2|gallard|170
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Kakuna|Kakuna, L99|290\/290
+|switch|p2a: Electabuzz|Electabuzz, L86|287\/287
+|turn|1
+|
+|switch|p1a: Rhydon|Rhydon, L82|340\/340
+|move|p2a: Electabuzz|Psychic|p1a: Rhydon
+|-crit|p1a: Rhydon
+|-damage|p1a: Rhydon|168\/340
+|
+|turn|2
+|
+|move|p2a: Electabuzz|Psychic|p1a: Rhydon
+|-damage|p1a: Rhydon|81\/340
+|move|p1a: Rhydon|Earthquake|p2a: Electabuzz
+|-supereffective|p2a: Electabuzz
+|-damage|p2a: Electabuzz|0 fnt
+|faint|p2a: Electabuzz
+|
+|switch|p2a: Mewtwo|Mewtwo, L71|297\/297
+|turn|3
+|
+|switch|p1a: Metapod|Metapod, L99|300\/300
+|move|p2a: Mewtwo|Psychic|p1a: Metapod
+|-crit|p1a: Metapod
+|-damage|p1a: Metapod|26\/300
+|
+|turn|4
+|
+|move|p2a: Mewtwo|Psychic|p1a: Metapod
+|-crit|p1a: Metapod
+|-damage|p1a: Metapod|0 fnt
+|faint|p1a: Metapod
+|
+|switch|p1a: Alakazam|Alakazam, L82|258\/258
+|turn|5
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Mewtwo
+|-status|p2a: Mewtwo|par
+|move|p2a: Mewtwo|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|
+|turn|6
+|
+|move|p1a: Alakazam|Psychic|p2a: Mewtwo
+|-crit|p2a: Mewtwo
+|-resisted|p2a: Mewtwo
+|-damage|p2a: Mewtwo|215\/297 par
+|move|p2a: Mewtwo|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|223\/258 par
+|-unboost|p1a: Alakazam|spd|1
+|-unboost|p1a: Alakazam|spa|1
+|
+|turn|7
+|
+|move|p1a: Alakazam|Psychic|p2a: Mewtwo
+|-resisted|p2a: Mewtwo
+|-damage|p2a: Mewtwo|186\/297 par
+|move|p2a: Mewtwo|Psychic|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|150\/258 par
+|
+|turn|8
+|
+|switch|p2a: Zapdos|Zapdos, L82|315\/315
+|move|p1a: Alakazam|Psychic|p2a: Zapdos
+|-damage|p2a: Zapdos|251\/315
+|-unboost|p2a: Zapdos|spd|1
+|-unboost|p2a: Zapdos|spa|1
+|
+|turn|9
+|
+|switch|p1a: Rhydon|Rhydon, L82|81\/340
+|move|p2a: Zapdos|Thunderbolt|p1a: Rhydon
+|-immune|p1a: Rhydon|[msg]
+|
+|turn|10
+|
+|switch|p2a: Mewtwo|Mewtwo, L71|186\/297 par
+|move|p1a: Rhydon|Rock Slide|p2a: Mewtwo
+|-damage|p2a: Mewtwo|83\/297 par
+|
+|turn|11
+|
+|move|p1a: Rhydon|Earthquake|p2a: Mewtwo
+|-damage|p2a: Mewtwo|0 fnt
+|faint|p2a: Mewtwo
+|
+|switch|p2a: Omastar|Omastar, L86|296\/296
+|turn|12
+|
+|switch|p1a: Kakuna|Kakuna, L99|290\/290
+|move|p2a: Omastar|Surf|p1a: Kakuna
+|-crit|p1a: Kakuna
+|-damage|p1a: Kakuna|0 fnt
+|faint|p1a: Kakuna
+|c|★jb champ|damn
+|c|★jb champ|both kakuna and metapod are down
+|
+|switch|p1a: Vileplume|Vileplume, L86|304\/304
+|turn|13
+|
+|switch|p2a: Nidoking|Nidoking, L86|315\/315
+|move|p1a: Vileplume|Sleep Powder|p2a: Nidoking
+|-status|p2a: Nidoking|slp
+|
+|turn|14
+|
+|cant|p2a: Nidoking|slp
+|move|p1a: Vileplume|Body Slam|p2a: Nidoking
+|-damage|p2a: Nidoking|259\/315 slp
+|
+|turn|15
+|
+|switch|p1a: Articuno|Articuno, L86|330\/330
+|cant|p2a: Nidoking|slp
+|
+|turn|16
+|
+|switch|p2a: Zapdos|Zapdos, L82|251\/315
+|move|p1a: Articuno|Blizzard|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|14\/315
+|
+|turn|17
+|
+|switch|p1a: Rhydon|Rhydon, L82|81\/340
+|move|p2a: Zapdos|Thunderbolt|p1a: Rhydon
+|-immune|p1a: Rhydon|[msg]
+|
+|turn|18
+|
+|switch|p2a: Omastar|Omastar, L86|296\/296
+|move|p1a: Rhydon|Body Slam|p2a: Omastar
+|-resisted|p2a: Omastar
+|-damage|p2a: Omastar|269\/296
+|-status|p2a: Omastar|par
+|
+|turn|19
+|
+|switch|p1a: Vileplume|Vileplume, L86|304\/304
+|move|p2a: Omastar|Surf|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|251\/304
+|
+|turn|20
+|
+|switch|p2a: Nidorina|Nidorina, L88|303\/303
+|move|p1a: Vileplume|Mega Drain|p2a: Nidorina
+|-resisted|p2a: Nidorina
+|-damage|p2a: Nidorina|274\/303
+|-heal|p1a: Vileplume|265\/304|[from] drain|[of] p2a: Nidorina
+|
+|turn|21
+|
+|move|p2a: Nidorina|Body Slam|p1a: Vileplume
+|-damage|p1a: Vileplume|214\/304
+|move|p1a: Vileplume|Body Slam|p2a: Nidorina
+|-crit|p2a: Nidorina
+|-damage|p2a: Nidorina|163\/303
+|
+|turn|22
+|
+|move|p2a: Nidorina|Thunder|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|185\/304
+|-status|p1a: Vileplume|par
+|cant|p1a: Vileplume|par
+|
+|turn|23
+|
+|move|p2a: Nidorina|Body Slam|p1a: Vileplume
+|-damage|p1a: Vileplume|131\/304 par
+|move|p1a: Vileplume|Swords Dance|p1a: Vileplume
+|-boost|p1a: Vileplume|atk|2
+|
+|turn|24
+|
+|move|p2a: Nidorina|Body Slam|p1a: Vileplume
+|-crit|p1a: Vileplume
+|-damage|p1a: Vileplume|27\/304 par
+|cant|p1a: Vileplume|par
+|
+|turn|25
+|
+|move|p2a: Nidorina|Body Slam|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|faint|p1a: Vileplume
+|
+|switch|p1a: Articuno|Articuno, L86|330\/330
+|turn|26
+|
+|switch|p2a: Zapdos|Zapdos, L82|14\/315
+|move|p1a: Articuno|Blizzard|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|switch|p2a: Nidorina|Nidorina, L88|163\/303
+|turn|27
+|
+|move|p1a: Articuno|Blizzard|p2a: Nidorina
+|-damage|p2a: Nidorina|0 fnt
+|faint|p2a: Nidorina
+|
+|switch|p2a: Omastar|Omastar, L86|269\/296 par
+|turn|28
+|
+|move|p1a: Articuno|Ice Beam|p2a: Omastar
+|-resisted|p2a: Omastar
+|-damage|p2a: Omastar|219\/296 par
+|move|p2a: Omastar|Seismic Toss|p1a: Articuno
+|-damage|p1a: Articuno|244\/330
+|
+|turn|29
+|
+|move|p1a: Articuno|Ice Beam|p2a: Omastar
+|-crit|p2a: Omastar
+|-resisted|p2a: Omastar
+|-damage|p2a: Omastar|115\/296 par
+|move|p2a: Omastar|Seismic Toss|p1a: Articuno
+|-damage|p1a: Articuno|158\/330
+|
+|turn|30
+|
+|move|p1a: Articuno|Blizzard|p2a: Omastar
+|-resisted|p2a: Omastar
+|-damage|p2a: Omastar|52\/296 par
+|move|p2a: Omastar|Seismic Toss|p1a: Articuno
+|-damage|p1a: Articuno|72\/330
+|
+|turn|31
+|
+|move|p1a: Articuno|Blizzard|p2a: Omastar
+|-resisted|p2a: Omastar
+|-damage|p2a: Omastar|0 fnt
+|faint|p2a: Omastar
+|
+|switch|p2a: Nidoking|Nidoking, L86|259\/315 slp
+|turn|32
+|
+|move|p1a: Articuno|Ice Beam|p2a: Nidoking
+|-supereffective|p2a: Nidoking
+|-damage|p2a: Nidoking|0 fnt
+|faint|p2a: Nidoking
+|
+|win|jb champ
+|raw|Ladder updating...
+|raw|jb champ's rating: 1196 &rarr; <strong>1209<\/strong><br \/>(+13 for winning)
+|raw|gallard's rating: 1000 &rarr; <strong>1000<\/strong><br \/>(+0 for losing)
+|c|★jb champ|gg

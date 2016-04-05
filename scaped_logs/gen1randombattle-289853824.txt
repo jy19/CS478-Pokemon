@@ -1,0 +1,267 @@
+﻿|join|mlevalle
+|join|Mandelbrot
+|player|p1|mlevalle|102
+|player|p2|Mandelbrot|101
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|33384,43127,4354,2357
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Magnemite|Magnemite, L96|243\/243
+|switch|p2a: Tentacool|Tentacool, L96|272\/272
+|turn|1
+|choice|move 3|switch 4
+|
+|switch|p2a: Exeggutor|Exeggutor, L79|312\/312
+|move|p1a: Magnemite|Double-Edge|p2a: Exeggutor
+|-damage|p2a: Exeggutor|257\/312
+|-damage|p1a: Magnemite|230\/243|[from] recoil|[of] p2a: Exeggutor
+|
+|turn|2
+|choice|switch 6|move 4
+|
+|switch|p1a: Parasect|Parasect, L90|291\/291
+|move|p2a: Exeggutor|Mega Drain|p1a: Parasect
+|-crit|p1a: Parasect
+|-resisted|p1a: Parasect
+|-damage|p1a: Parasect|271\/291
+|-heal|p2a: Exeggutor|267\/312|[from] drain|[of] p1a: Parasect
+|
+|turn|3
+|choice|move 2|switch 6
+|
+|switch|p2a: Arcanine|Arcanine, L85|327\/327
+|move|p1a: Parasect|Stun Spore|p2a: Arcanine
+|-status|p2a: Arcanine|par
+|
+|turn|4
+|choice|switch 5|move 3
+|
+|switch|p1a: Kabutops|Kabutops, L85|276\/276
+|move|p2a: Arcanine|Fire Blast|p1a: Kabutops
+|-crit|p1a: Kabutops
+|-resisted|p1a: Kabutops
+|-damage|p1a: Kabutops|210\/276
+|
+|turn|5
+|choice|move 1|switch 6
+|
+|switch|p2a: Exeggutor|Exeggutor, L79|267\/312
+|move|p1a: Kabutops|Body Slam|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-damage|p2a: Exeggutor|129\/312
+|
+|turn|6
+|choice|switch 5|move 1
+|
+|switch|p1a: Parasect|Parasect, L90|271\/291
+|move|p2a: Exeggutor|Sleep Powder|p1a: Parasect|[miss]
+|-miss|p2a: Exeggutor
+|
+|turn|7
+|choice|move 4|move 4
+|
+|move|p2a: Exeggutor|Mega Drain|p1a: Parasect
+|-resisted|p1a: Parasect
+|-damage|p1a: Parasect|260\/291
+|-heal|p2a: Exeggutor|134\/312|[from] drain|[of] p1a: Parasect
+|move|p1a: Parasect|Slash|p2a: Exeggutor
+|-damage|p2a: Exeggutor|78\/312
+|
+|turn|8
+|choice|move 4|switch 4
+|
+|switch|p2a: Tentacool|Tentacool, L96|272\/272
+|move|p1a: Parasect|Slash|p2a: Tentacool
+|-crit|p2a: Tentacool
+|-damage|p2a: Tentacool|109\/272
+|
+|turn|9
+|choice|move 2|move 4
+|
+|move|p2a: Tentacool|Blizzard|p1a: Parasect
+|-crit|p1a: Parasect
+|-supereffective|p1a: Parasect
+|-damage|p1a: Parasect|0 fnt
+|faint|p1a: Parasect
+|choice|switch 6|
+|
+|switch|p1a: Magnemite|Magnemite, L96|230\/243
+|turn|10
+|choice|move 4|move 4
+|
+|move|p2a: Tentacool|Blizzard|p1a: Magnemite
+|-damage|p1a: Magnemite|140\/243
+|move|p1a: Magnemite|Thunder Wave|p2a: Tentacool
+|-status|p2a: Tentacool|par
+|
+|turn|11
+|choice|move 1|move 4
+|
+|move|p1a: Magnemite|Mimic|p2a: Tentacool
+|-start|p1a: Magnemite|Mimic|Double-Edge
+|move|p2a: Tentacool|Blizzard|p1a: Magnemite
+|-damage|p1a: Magnemite|48\/243
+|-status|p1a: Magnemite|frz
+|
+|turn|12
+|choice|switch 5|move 3
+|
+|switch|p1a: Kabutops|Kabutops, L85|210\/276
+|move|p2a: Tentacool|Double-Edge|p1a: Kabutops
+|-resisted|p1a: Kabutops
+|-damage|p1a: Kabutops|188\/276
+|-damage|p2a: Tentacool|104\/272 par|[from] recoil|[of] p1a: Kabutops
+|
+|turn|13
+|choice|move 3|move 4
+|
+|move|p1a: Kabutops|Swords Dance|p1a: Kabutops
+|-boost|p1a: Kabutops|atk|2
+|move|p2a: Tentacool|Blizzard|p1a: Kabutops
+|-resisted|p1a: Kabutops
+|-damage|p1a: Kabutops|123\/276
+|
+|turn|14
+|choice|move 1|move 4
+|
+|move|p1a: Kabutops|Body Slam|p2a: Tentacool
+|-damage|p2a: Tentacool|0 fnt
+|faint|p2a: Tentacool
+|choice||switch 5
+|
+|switch|p2a: Jolteon|Jolteon, L79|265\/265
+|turn|15
+|choice|switch 5|move 1
+|
+|switch|p1a: Magnemite|Magnemite, L96|48\/243 frz
+|move|p2a: Jolteon|Thunderbolt|p1a: Magnemite
+|-crit|p1a: Magnemite
+|-resisted|p1a: Magnemite
+|-damage|p1a: Magnemite|0 fnt
+|faint|p1a: Magnemite
+|choice|switch 2|
+|
+|switch|p1a: Growlithe|Growlithe, L96|300\/300
+|turn|16
+|choice|move 2|move 1
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Growlithe
+|-crit|p1a: Growlithe
+|-damage|p1a: Growlithe|72\/300
+|move|p1a: Growlithe|Body Slam|p2a: Jolteon
+|-damage|p2a: Jolteon|187\/265
+|
+|turn|17
+|choice|move 2|move 1
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Growlithe
+|-damage|p1a: Growlithe|0 fnt
+|faint|p1a: Growlithe
+|choice|switch 3|
+|
+|switch|p1a: Persian|Persian, L79|265\/265
+|turn|18
+|choice|move 4|move 1
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Persian
+|-damage|p1a: Persian|134\/265
+|move|p1a: Persian|Body Slam|p2a: Jolteon
+|-crit|p2a: Jolteon
+|-damage|p2a: Jolteon|27\/265
+|-status|p2a: Jolteon|par
+|
+|turn|19
+|choice|move 4|move 2
+|
+|move|p1a: Persian|Body Slam|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|choice||switch 6
+|
+|switch|p2a: Arcanine|Arcanine, L85|327\/327 par
+|turn|20
+|choice|switch 5|move 1
+|
+|switch|p1a: Kabutops|Kabutops, L85|123\/276
+|move|p2a: Arcanine|Body Slam|p1a: Kabutops
+|-resisted|p1a: Kabutops
+|-damage|p1a: Kabutops|96\/276
+|
+|turn|21
+|choice|move 3|switch 2
+|
+|switch|p2a: Meowth|Meowth, L96|272\/272
+|move|p1a: Kabutops|Swords Dance|p1a: Kabutops
+|-boost|p1a: Kabutops|atk|2
+|
+|turn|22
+|choice|move 4|move 3
+|
+|move|p2a: Meowth|Thunderbolt|p1a: Kabutops
+|-supereffective|p1a: Kabutops
+|-damage|p1a: Kabutops|0 fnt
+|faint|p1a: Kabutops
+|choice|switch 5|
+|
+|switch|p1a: Persian|Persian, L79|134\/265
+|turn|23
+|choice|move 4|move 1
+|
+|move|p2a: Meowth|Slash|p1a: Persian
+|-crit|p1a: Persian
+|-damage|p1a: Persian|0 fnt
+|faint|p1a: Persian
+|choice|switch 4|
+|
+|switch|p1a: Fearow|Fearow, L90|300\/300
+|turn|24
+|choice|move 3|move 3
+|
+|move|p1a: Fearow|Drill Peck|p2a: Meowth
+|-damage|p2a: Meowth|131\/272
+|move|p2a: Meowth|Thunderbolt|p1a: Fearow
+|-supereffective|p1a: Fearow
+|-damage|p1a: Fearow|178\/300
+|
+|turn|25
+|choice|move 3|move 3
+|
+|move|p1a: Fearow|Drill Peck|p2a: Meowth
+|-damage|p2a: Meowth|9\/272
+|move|p2a: Meowth|Thunderbolt|p1a: Fearow
+|-supereffective|p1a: Fearow
+|-damage|p1a: Fearow|54\/300
+|
+|turn|26
+|choice|move 3|move 3
+|
+|move|p1a: Fearow|Drill Peck|p2a: Meowth
+|-damage|p2a: Meowth|0 fnt
+|faint|p2a: Meowth
+|choice||switch 2
+|
+|switch|p2a: Arcanine|Arcanine, L85|327\/327 par
+|turn|27
+|choice|move 3|move 1
+|
+|move|p1a: Fearow|Drill Peck|p2a: Arcanine
+|-crit|p2a: Arcanine
+|-damage|p2a: Arcanine|145\/327 par
+|move|p2a: Arcanine|Body Slam|p1a: Fearow
+|-crit|p1a: Fearow
+|-damage|p1a: Fearow|0 fnt
+|faint|p1a: Fearow
+|
+|win|Mandelbrot
+|raw|mlevalle's rating: 1530 &rarr; <strong>1500<\/strong><br \/>(-30 for losing)
+|raw|Mandelbrot's rating: 1350 &rarr; <strong>1379<\/strong><br \/>(+29 for winning)
+|c|★Mandelbrot|gg
+|c|★mlevalle|gg
+|leave|mlevalle
+|player|p1

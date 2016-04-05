@@ -1,0 +1,211 @@
+﻿|join|elfefe
+|join|MALESANI
+|player|p1|elfefe|170
+|player|p2|MALESANI|238
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|16054,50692,16120,5386
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Raichu|Raichu, L85|276\/276
+|switch|p2a: Oddish|Oddish, L96|281\/281
+|turn|1
+|choice|move 3|move 4
+|
+|move|p1a: Raichu|Thunder Wave|p2a: Oddish
+|-status|p2a: Oddish|par
+|move|p2a: Oddish|Sleep Powder|p1a: Raichu|[miss]
+|-miss|p2a: Oddish
+|
+|turn|2
+|choice|move 2|move 3
+|
+|move|p1a: Raichu|Body Slam|p2a: Oddish
+|-damage|p2a: Oddish|212\/281 par
+|move|p2a: Oddish|Toxic|p1a: Raichu
+|-status|p1a: Raichu|tox
+|
+|turn|3
+|choice|move 2|move 1
+|
+|move|p1a: Raichu|Body Slam|p2a: Oddish
+|-damage|p2a: Oddish|149\/281 par
+|-damage|p1a: Raichu|259\/276 tox|[from] tox|[of] p2a: Oddish
+|move|p2a: Oddish|Swords Dance|p2a: Oddish
+|-boost|p2a: Oddish|atk|2
+|
+|turn|4
+|choice|move 4|move 2
+|
+|move|p1a: Raichu|Hyper Beam|p2a: Oddish
+|-crit|p2a: Oddish
+|-damage|p2a: Oddish|0 fnt
+|faint|p2a: Oddish
+|choice||switch 3
+|
+|switch|p2a: Marowak|Marowak, L90|291\/291
+|turn|5
+|choice|move 1|move 1
+|
+|move|p1a: Raichu|Surf|p2a: Marowak
+|-supereffective|p2a: Marowak
+|-damage|p2a: Marowak|124\/291
+|-damage|p1a: Raichu|225\/276 tox|[from] tox|[of] p2a: Marowak
+|move|p2a: Marowak|Earthquake|p1a: Raichu
+|-supereffective|p1a: Raichu
+|-damage|p1a: Raichu|0 fnt
+|faint|p1a: Raichu
+|choice|switch 6|
+|
+|switch|p1a: Vileplume|Vileplume, L90|318\/318
+|turn|6
+|choice|move 1|switch 2
+|
+|switch|p2a: Seel|Seel, L96|320\/320
+|move|p1a: Vileplume|Mega Drain|p2a: Seel
+|-supereffective|p2a: Seel
+|-damage|p2a: Seel|222\/320
+|
+|turn|7
+|choice|move 3|move 1
+|
+|move|p2a: Seel|Blizzard|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|156\/318
+|move|p1a: Vileplume|Sleep Powder|p2a: Seel
+|-status|p2a: Seel|slp
+|
+|turn|8
+|choice|move 1|switch 5
+|
+|switch|p2a: Hypno|Hypno, L85|318\/318
+|move|p1a: Vileplume|Mega Drain|p2a: Hypno
+|-damage|p2a: Hypno|273\/318
+|-heal|p1a: Vileplume|178\/318|[from] drain|[of] p2a: Hypno
+|
+|turn|9
+|choice|switch 3|move 1
+|
+|switch|p1a: Metapod|Metapod, L99|300\/300
+|move|p2a: Hypno|Psychic|p1a: Metapod
+|-crit|p1a: Metapod
+|-damage|p1a: Metapod|0 fnt
+|faint|p1a: Metapod
+|choice|switch 2|
+|
+|switch|p1a: Mew|Mew, L74|300\/300
+|turn|10
+|choice|move 2|move 3
+|
+|move|p1a: Mew|Thunder Wave|p2a: Hypno
+|-status|p2a: Hypno|par
+|move|p2a: Hypno|Hypnosis|p1a: Mew
+|-status|p1a: Mew|slp
+|
+|turn|11
+|choice|switch 5|switch 6
+|
+|switch|p1a: Onix|Onix, L90|246\/246
+|switch|p2a: Pinsir|Pinsir, L85|284\/284
+|
+|turn|12
+|choice|move 3|move 2
+|
+|move|p2a: Pinsir|Swords Dance|p2a: Pinsir
+|-boost|p2a: Pinsir|atk|2
+|move|p1a: Onix|Rock Slide|p2a: Pinsir
+|-supereffective|p2a: Pinsir
+|-damage|p2a: Pinsir|169\/284
+|
+|turn|13
+|choice|move 3|move 1
+|
+|move|p2a: Pinsir|Submission|p1a: Onix
+|-supereffective|p1a: Onix
+|-damage|p1a: Onix|90\/246
+|-damage|p2a: Pinsir|130\/284|[from] recoil|[of] p1a: Onix
+|move|p1a: Onix|Rock Slide|p2a: Pinsir
+|-supereffective|p2a: Pinsir
+|-damage|p2a: Pinsir|28\/284
+|
+|turn|14
+|choice|move 3|move 1
+|
+|move|p2a: Pinsir|Submission|p1a: Onix
+|-supereffective|p1a: Onix
+|-damage|p1a: Onix|0 fnt
+|-damage|p2a: Pinsir|6\/284|[from] recoil|[of] p1a: Onix
+|faint|p1a: Onix
+|choice|switch 3|
+|
+|switch|p1a: Vileplume|Vileplume, L90|178\/318
+|turn|15
+|choice|move 1|move 4
+|
+|move|p2a: Pinsir|Hyper Beam|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|faint|p1a: Vileplume
+|choice|switch 4|
+|
+|switch|p1a: Primeape|Primeape, L90|300\/300
+|turn|16
+|choice|move 4|move 4
+|
+|move|p1a: Primeape|Rock Slide|p2a: Pinsir
+|-supereffective|p2a: Pinsir
+|-damage|p2a: Pinsir|0 fnt
+|faint|p2a: Pinsir
+|choice||switch 2
+|
+|switch|p2a: Marowak|Marowak, L90|124\/291
+|turn|17
+|choice|move 3|move 1
+|
+|move|p1a: Primeape|Mega Kick|p2a: Marowak
+|-damage|p2a: Marowak|40\/291
+|move|p2a: Marowak|Earthquake|p1a: Primeape
+|-damage|p1a: Primeape|178\/300
+|
+|turn|18
+|choice|move 1|move 1
+|
+|move|p1a: Primeape|Body Slam|p2a: Marowak
+|-damage|p2a: Marowak|0 fnt
+|faint|p2a: Marowak
+|choice||switch 4
+|
+|switch|p2a: Jolteon|Jolteon, L79|265\/265
+|turn|19
+|choice|move 2|move 1
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Primeape
+|-crit|p1a: Primeape
+|-damage|p1a: Primeape|0 fnt
+|faint|p1a: Primeape
+|choice|switch 5|
+|
+|switch|p1a: Mew|Mew, L74|300\/300 slp
+|turn|20
+|choice|move 2|move 1
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Mew
+|-crit|p1a: Mew
+|-damage|p1a: Mew|113\/300 slp
+|cant|p1a: Mew|slp
+|
+|turn|21
+|choice|move 2|move 1
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Mew
+|-crit|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|win|MALESANI
+|leave|elfefe
+|player|p1

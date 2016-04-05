@@ -1,0 +1,62 @@
+﻿|j|qht
+|j|hodor
+|player|p1|qht|282
+|player|p2|hodor|170
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|seed|57269,42251,10821,13582
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gengar|Gengar|323\/323
+|switch|p2a: Exeggutor|Exeggutor|393\/393
+|turn|1
+|choice|move 2|move 4
+|
+|move|p1a: Gengar|Hypnosis|p2a: Exeggutor
+|-status|p2a: Exeggutor|slp
+|cant|p2a: Exeggutor|slp
+|
+|turn|2
+|choice|move 3|move 4
+|
+|move|p1a: Gengar|Night Shade|p2a: Exeggutor
+|-damage|p2a: Exeggutor|293\/393 slp
+|cant|p2a: Exeggutor|slp
+|
+|turn|3
+|choice|move 3|move 4
+|
+|move|p1a: Gengar|Night Shade|p2a: Exeggutor
+|-damage|p2a: Exeggutor|193\/393 slp
+|cant|p2a: Exeggutor|slp
+|
+|turn|4
+|choice|move 3|move 4
+|
+|move|p1a: Gengar|Night Shade|p2a: Exeggutor
+|-damage|p2a: Exeggutor|93\/393 slp
+|cant|p2a: Exeggutor|slp
+|
+|turn|5
+|choice|move 3|switch 4
+|
+|switch|p2a: Chansey|Chansey|703\/703
+|move|p1a: Gengar|Night Shade|p2a: Chansey
+|-damage|p2a: Chansey|603\/703
+|
+|turn|6
+|l|hodor
+|player|p2
+|-message|qht forfeited.
+|
+|win|hodor
+|player|p1
+|l|qht
+|j|qht

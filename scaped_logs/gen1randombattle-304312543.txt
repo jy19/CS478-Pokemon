@@ -1,0 +1,252 @@
+﻿|j|Smegma Sucker
+|j|Skego
+|player|p1|Smegma Sucker|46
+|player|p2|Skego|126
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|56305,29012,59034,20825
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Moltres|Moltres, L85|327\/327
+|switch|p2a: Electrode|Electrode, L90|291\/291
+|turn|1
+|choice|switch 5|move 3
+|
+|switch|p1a: Golem|Golem, L79|288\/288
+|move|p2a: Electrode|Thunder Wave|p1a: Golem
+|-immune|p1a: Golem|[msg]
+|
+|turn|2
+|choice|move 4|switch 2
+|
+|switch|p2a: Zubat|Zubat, L96|272\/272
+|move|p1a: Golem|Body Slam|p2a: Zubat
+|-damage|p2a: Zubat|187\/272
+|-status|p2a: Zubat|par
+|
+|turn|3
+|choice|move 1|move 2
+|
+|move|p1a: Golem|Rock Slide|p2a: Zubat
+|-supereffective|p2a: Zubat
+|-damage|p2a: Zubat|0 fnt
+|faint|p2a: Zubat
+|c|★Skego|lucker
+|choice||switch 3
+|
+|switch|p2a: Poliwhirl|Poliwhirl, L85|284\/284
+|turn|4
+|choice|switch 4|move 1
+|
+|switch|p1a: Golduck|Golduck, L85|310\/310
+|move|p2a: Poliwhirl|Amnesia|p2a: Poliwhirl
+|-boost|p2a: Poliwhirl|spd|2
+|-boost|p2a: Poliwhirl|spa|2
+|
+|turn|5
+|choice|move 1|move 2
+|
+|move|p2a: Poliwhirl|Psychic|p1a: Golduck
+|-damage|p1a: Golduck|214\/310
+|move|p1a: Golduck|Amnesia|p1a: Golduck
+|-boost|p1a: Golduck|spd|2
+|-boost|p1a: Golduck|spa|2
+|
+|turn|6
+|choice|move 4|move 2
+|
+|move|p2a: Poliwhirl|Psychic|p1a: Golduck
+|-damage|p1a: Golduck|170\/310
+|move|p1a: Golduck|Blizzard|p2a: Poliwhirl
+|-resisted|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|234\/284
+|
+|turn|7
+|choice|move 4|move 4
+|
+|move|p2a: Poliwhirl|Blizzard|p1a: Golduck
+|-resisted|p1a: Golduck
+|-damage|p1a: Golduck|138\/310
+|move|p1a: Golduck|Blizzard|p2a: Poliwhirl
+|-resisted|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|183\/284
+|
+|turn|8
+|choice|move 1|move 2
+|
+|move|p2a: Poliwhirl|Psychic|p1a: Golduck
+|-damage|p1a: Golduck|93\/310
+|move|p1a: Golduck|Amnesia|p1a: Golduck
+|-boost|p1a: Golduck|spd|2
+|-boost|p1a: Golduck|spa|2
+|
+|turn|9
+|choice|move 4|move 3
+|
+|move|p2a: Poliwhirl|Surf|p1a: Golduck
+|-resisted|p1a: Golduck
+|-damage|p1a: Golduck|70\/310
+|move|p1a: Golduck|Blizzard|p2a: Poliwhirl
+|-resisted|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|106\/284
+|
+|turn|10
+|choice|move 1|move 2
+|
+|move|p2a: Poliwhirl|Psychic|p1a: Golduck
+|-damage|p1a: Golduck|39\/310
+|-unboost|p1a: Golduck|spd|1
+|-unboost|p1a: Golduck|spa|1
+|move|p1a: Golduck|Amnesia|p1a: Golduck
+|-boost|p1a: Golduck|spd|2
+|-boost|p1a: Golduck|spa|2
+|
+|turn|11
+|choice|move 3|move 2
+|
+|move|p2a: Poliwhirl|Psychic|p1a: Golduck
+|-damage|p1a: Golduck|13\/310
+|-unboost|p1a: Golduck|spd|1
+|-unboost|p1a: Golduck|spa|1
+|move|p1a: Golduck|Rest|p1a: Golduck
+|-status|p1a: Golduck|slp
+|-heal|p1a: Golduck|310\/310 slp|[silent]
+|-status|p1a: Golduck|slp|[from] move: Rest
+|
+|turn|12
+|choice|move 2|switch 4
+|
+|switch|p2a: Machoke|Machoke, L85|310\/310
+|cant|p1a: Golduck|slp
+|
+|turn|13
+|choice|move 2|move 2
+|
+|-curestatus|p1a: Golduck|slp
+|move|p2a: Machoke|Body Slam|p1a: Golduck
+|-damage|p1a: Golduck|241\/310
+|-status|p1a: Golduck|par
+|
+|turn|14
+|choice|move 2|move 1
+|
+|move|p2a: Machoke|Submission|p1a: Golduck|[miss]
+|-miss|p2a: Machoke
+|move|p1a: Golduck|Surf|p2a: Machoke
+|-damage|p2a: Machoke|0 fnt
+|faint|p2a: Machoke
+|choice||switch 2
+|
+|switch|p2a: Electrode|Electrode, L90|291\/291
+|turn|15
+|choice|move 2|move 1
+|
+|move|p2a: Electrode|Explosion|p1a: Golduck
+|-damage|p1a: Golduck|27\/310 par
+|faint|p2a: Electrode
+|choice||switch 4
+|
+|switch|p2a: Poliwhirl|Poliwhirl, L85|106\/284
+|turn|16
+|choice|move 3|move 2
+|
+|move|p2a: Poliwhirl|Psychic|p1a: Golduck
+|-damage|p1a: Golduck|12\/310 par
+|-unboost|p1a: Golduck|spd|1
+|-unboost|p1a: Golduck|spa|1
+|move|p1a: Golduck|Rest|p1a: Golduck
+|-status|p1a: Golduck|slp
+|-heal|p1a: Golduck|310\/310 slp|[silent]
+|-status|p1a: Golduck|slp|[from] move: Rest
+|
+|turn|17
+|c|★Skego|its a joke
+|choice|move 1|switch 5
+|
+|switch|p2a: Rhydon|Rhydon, L79|328\/328
+|cant|p1a: Golduck|slp
+|
+|turn|18
+|choice|move 2|move 4
+|
+|move|p2a: Rhydon|Earthquake|p1a: Golduck
+|-damage|p1a: Golduck|181\/310 slp
+|-curestatus|p1a: Golduck|slp
+|
+|turn|19
+|choice|move 2|switch 5
+|
+|switch|p2a: Poliwhirl|Poliwhirl, L85|106\/284
+|move|p1a: Golduck|Surf|p2a: Poliwhirl
+|-resisted|p2a: Poliwhirl
+|-damage|p2a: Poliwhirl|0 fnt
+|faint|p2a: Poliwhirl
+|choice||switch 6
+|
+|switch|p2a: Mewtwo|Mewtwo, L70|293\/293
+|turn|20
+|choice|move 2|move 2
+|
+|move|p2a: Mewtwo|Thunderbolt|p1a: Golduck
+|-supereffective|p1a: Golduck
+|-damage|p1a: Golduck|121\/310
+|move|p1a: Golduck|Surf|p2a: Mewtwo
+|-damage|p2a: Mewtwo|112\/293
+|
+|turn|21
+|choice|move 2|move 2
+|
+|move|p2a: Mewtwo|Thunderbolt|p1a: Golduck
+|-crit|p1a: Golduck
+|-supereffective|p1a: Golduck
+|-damage|p1a: Golduck|0 fnt
+|faint|p1a: Golduck
+|choice|switch 4|
+|
+|switch|p1a: Golem|Golem, L79|288\/288
+|turn|22
+|choice|move 3|move 3
+|
+|move|p2a: Mewtwo|Blizzard|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|56\/288
+|move|p1a: Golem|Earthquake|p2a: Mewtwo
+|-damage|p2a: Mewtwo|0 fnt
+|faint|p2a: Mewtwo
+|choice||switch 5
+|
+|switch|p2a: Rhydon|Rhydon, L79|328\/328
+|turn|23
+|c|★Skego|bg
+|choice|move 3|move 4
+|
+|move|p1a: Golem|Earthquake|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|164\/328
+|move|p2a: Rhydon|Earthquake|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|0 fnt
+|faint|p1a: Golem
+|choice|switch 6|
+|
+|switch|p1a: Kangaskhan|Kangaskhan, L85|352\/352
+|turn|24
+|choice|move 3|move 4
+|
+|move|p1a: Kangaskhan|Surf|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|
+|win|Smegma Sucker
+|c|★Smegma Sucker|gg
+|raw|Smegma Sucker's rating: 1221 &rarr; <strong>1255<\/strong><br \/>(+34 for winning)
+|raw|Skego's rating: 1348 &rarr; <strong>1321<\/strong><br \/>(-27 for losing)
+|c|★Skego|bg
+|l|Skego
+|player|p2

@@ -1,0 +1,346 @@
+﻿|j|Mandelbrot
+|j|MALESANI
+|player|p1|Mandelbrot|101
+|player|p2|MALESANI|238
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|57241,40317,5122,35481
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Mew|Mew, L74|300\/300
+|switch|p2a: Zapdos|Zapdos, L79|304\/304
+|turn|1
+|choice|move 2|move 3
+|
+|move|p2a: Zapdos|Thunder Wave|p1a: Mew
+|-status|p1a: Mew|par
+|cant|p1a: Mew|par
+|
+|turn|2
+|choice|move 2|move 2
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Mew
+|-damage|p1a: Mew|195\/300 par
+|move|p1a: Mew|Psychic|p2a: Zapdos
+|-damage|p2a: Zapdos|238\/304
+|-unboost|p2a: Zapdos|spd|1
+|-unboost|p2a: Zapdos|spa|1
+|
+|turn|3
+|choice|move 3|move 2
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Mew
+|-damage|p1a: Mew|127\/300 par
+|move|p1a: Mew|Thunderbolt|p2a: Zapdos
+|-damage|p2a: Zapdos|172\/304
+|
+|turn|4
+|choice|switch 5|move 1
+|
+|switch|p1a: Dragonair|Dragonair, L85|277\/277
+|move|p2a: Zapdos|Drill Peck|p1a: Dragonair
+|-crit|p1a: Dragonair
+|-damage|p1a: Dragonair|124\/277
+|
+|turn|5
+|choice|move 4|move 3
+|
+|move|p2a: Zapdos|Thunder Wave|p1a: Dragonair
+|-status|p1a: Dragonair|par
+|cant|p1a: Dragonair|par
+|
+|turn|6
+|choice|move 4|move 1
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Dragonair
+|-damage|p1a: Dragonair|38\/277 par
+|move|p1a: Dragonair|Thunder Wave|p2a: Zapdos
+|-status|p2a: Zapdos|par
+|
+|turn|7
+|choice|move 2|move 1
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Dragonair
+|-damage|p1a: Dragonair|0 fnt
+|faint|p1a: Dragonair
+|choice|switch 5|
+|
+|switch|p1a: Mew|Mew, L74|127\/300 par
+|turn|8
+|choice|move 2|move 1
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Mew
+|-damage|p1a: Mew|49\/300 par
+|cant|p1a: Mew|par
+|
+|turn|9
+|choice|move 2|move 1
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|choice|switch 4|
+|
+|switch|p1a: Dratini|Dratini, L96|274\/274
+|turn|10
+|choice|move 4|move 3
+|
+|move|p1a: Dratini|Ice Beam|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|32\/304 par
+|move|p2a: Zapdos|Thunder Wave|p1a: Dratini
+|-status|p1a: Dratini|par
+|
+|turn|11
+|choice|move 4|move 1
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Dratini
+|-damage|p1a: Dratini|183\/274 par
+|move|p1a: Dratini|Ice Beam|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|j|Peasounay
+|l|Peasounay
+|choice||switch 5
+|
+|switch|p2a: Vaporeon|Vaporeon, L85|395\/395
+|turn|12
+|choice|move 2|move 2
+|
+|move|p2a: Vaporeon|Blizzard|p1a: Dratini
+|-supereffective|p1a: Dratini
+|-damage|p1a: Dratini|0 fnt
+|faint|p1a: Dratini
+|choice|switch 3|
+|
+|switch|p1a: Porygon|Porygon, L85|284\/284
+|turn|13
+|choice|move 4|move 2
+|
+|move|p2a: Vaporeon|Blizzard|p1a: Porygon|[miss]
+|-miss|p2a: Vaporeon
+|move|p1a: Porygon|Agility|p1a: Porygon
+|-boost|p1a: Porygon|spe|2
+|
+|turn|14
+|choice|move 2|move 2
+|
+|move|p1a: Porygon|Thunderbolt|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|301\/395
+|move|p2a: Vaporeon|Blizzard|p1a: Porygon
+|-damage|p1a: Porygon|188\/284
+|
+|turn|15
+|choice|move 2|move 1
+|
+|move|p1a: Porygon|Thunderbolt|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|204\/395
+|move|p2a: Vaporeon|Mimic|p1a: Porygon
+|-start|p2a: Vaporeon|Mimic|Blizzard
+|
+|turn|16
+|choice|move 2|move 2
+|
+|move|p1a: Porygon|Thunderbolt|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|105\/395
+|move|p2a: Vaporeon|Blizzard|p1a: Porygon
+|-damage|p1a: Porygon|81\/284
+|
+|turn|17
+|choice|move 1|move 2
+|
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|223\/284
+|move|p2a: Vaporeon|Blizzard|p1a: Porygon
+|-damage|p1a: Porygon|118\/284
+|
+|turn|18
+|choice|move 1|move 2
+|
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|260\/284
+|move|p2a: Vaporeon|Blizzard|p1a: Porygon
+|-damage|p1a: Porygon|152\/284
+|
+|turn|19
+|choice|move 2|move 2
+|
+|move|p1a: Porygon|Thunderbolt|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|faint|p2a: Vaporeon
+|choice||switch 2
+|
+|switch|p2a: Venomoth|Venomoth, L85|293\/293
+|turn|20
+|choice|move 3|move 2
+|
+|move|p1a: Porygon|Blizzard|p2a: Venomoth
+|-damage|p2a: Venomoth|215\/293
+|move|p2a: Venomoth|Sleep Powder|p1a: Porygon
+|-status|p1a: Porygon|slp
+|
+|turn|21
+|choice|move 3|move 1
+|
+|-curestatus|p1a: Porygon|slp
+|move|p2a: Venomoth|Psychic|p1a: Porygon
+|-damage|p1a: Porygon|86\/284
+|
+|turn|22
+|choice|move 3|move 1
+|
+|move|p1a: Porygon|Blizzard|p2a: Venomoth
+|-damage|p2a: Venomoth|141\/293
+|move|p2a: Venomoth|Psychic|p1a: Porygon
+|-damage|p1a: Porygon|14\/284
+|-unboost|p1a: Porygon|spd|1
+|-unboost|p1a: Porygon|spa|1
+|
+|turn|23
+|choice|move 1|move 1
+|
+|move|p1a: Porygon|Recover|p1a: Porygon
+|-heal|p1a: Porygon|156\/284
+|move|p2a: Venomoth|Psychic|p1a: Porygon
+|-damage|p1a: Porygon|45\/284
+|-unboost|p1a: Porygon|spd|1
+|-unboost|p1a: Porygon|spa|1
+|
+|turn|24
+|choice|move 3|move 1
+|
+|move|p1a: Porygon|Blizzard|p2a: Venomoth
+|-damage|p2a: Venomoth|104\/293
+|move|p2a: Venomoth|Psychic|p1a: Porygon
+|-damage|p1a: Porygon|0 fnt
+|faint|p1a: Porygon
+|choice|switch 6|
+|
+|switch|p1a: Rapidash|Rapidash, L90|300\/300
+|turn|25
+|choice|move 1|move 2
+|
+|move|p1a: Rapidash|Fire Blast|p2a: Venomoth
+|-supereffective|p2a: Venomoth
+|-damage|p2a: Venomoth|0 fnt
+|faint|p2a: Venomoth
+|choice||switch 4
+|
+|switch|p2a: Dugtrio|Dugtrio, L85|233\/233
+|turn|26
+|choice|switch 2|move 1
+|
+|switch|p1a: Articuno|Articuno, L79|304\/304
+|move|p2a: Dugtrio|Earthquake|p1a: Articuno
+|-immune|p1a: Articuno|[msg]
+|
+|turn|27
+|choice|move 4|switch 6
+|
+|switch|p2a: Kadabra|Kadabra, L85|242\/242
+|move|p1a: Articuno|Mimic|p2a: Kadabra
+|-start|p1a: Articuno|Mimic|Psychic
+|
+|turn|28
+|choice|move 3|move 4
+|
+|move|p2a: Kadabra|Thunder Wave|p1a: Articuno
+|-status|p1a: Articuno|par
+|move|p1a: Articuno|Blizzard|p2a: Kadabra|[miss]
+|-miss|p1a: Articuno
+|
+|turn|29
+|choice|move 3|move 1
+|
+|move|p2a: Kadabra|Psychic|p1a: Articuno
+|-damage|p1a: Articuno|201\/304 par
+|move|p1a: Articuno|Blizzard|p2a: Kadabra
+|-crit|p2a: Kadabra
+|-damage|p2a: Kadabra|33\/242
+|
+|turn|30
+|choice|move 3|move 1
+|
+|move|p2a: Kadabra|Psychic|p1a: Articuno
+|-crit|p1a: Articuno
+|-damage|p1a: Articuno|19\/304 par
+|move|p1a: Articuno|Blizzard|p2a: Kadabra
+|-crit|p2a: Kadabra
+|-damage|p2a: Kadabra|0 fnt
+|faint|p2a: Kadabra
+|choice||switch 3
+|
+|switch|p2a: Charmeleon|Charmeleon, L85|272\/272
+|turn|31
+|choice|move 2|move 1
+|
+|move|p2a: Charmeleon|Seismic Toss|p1a: Articuno
+|-damage|p1a: Articuno|0 fnt
+|faint|p1a: Articuno
+|choice|switch 2|
+|
+|switch|p1a: Rapidash|Rapidash, L90|300\/300
+|turn|32
+|choice|move 2|move 1
+|
+|move|p1a: Rapidash|Reflect|p1a: Rapidash
+|-start|p1a: Rapidash|Reflect
+|move|p2a: Charmeleon|Seismic Toss|p1a: Rapidash
+|-damage|p1a: Rapidash|215\/300
+|
+|turn|33
+|choice|move 3|move 1
+|
+|move|p1a: Rapidash|Body Slam|p2a: Charmeleon
+|-damage|p2a: Charmeleon|174\/272
+|move|p2a: Charmeleon|Seismic Toss|p1a: Rapidash
+|-damage|p1a: Rapidash|130\/300
+|
+|turn|34
+|choice|move 3|move 1
+|
+|move|p1a: Rapidash|Body Slam|p2a: Charmeleon
+|-crit|p2a: Charmeleon
+|-damage|p2a: Charmeleon|3\/272
+|move|p2a: Charmeleon|Seismic Toss|p1a: Rapidash|[miss]
+|-miss|p2a: Charmeleon
+|
+|turn|35
+|c|★Mandelbrot|woah.
+|c|★MALESANI|come on -_-
+|choice|move 3|move 1
+|
+|move|p1a: Rapidash|Body Slam|p2a: Charmeleon
+|-damage|p2a: Charmeleon|0 fnt
+|faint|p2a: Charmeleon
+|choice||switch 6
+|
+|switch|p2a: Dugtrio|Dugtrio, L85|233\/233
+|turn|36
+|c|★Mandelbrot|I think you still got this.
+|c|★MALESANI|let's see...
+|choice|move 1|move 1
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Rapidash
+|-crit|p1a: Rapidash
+|-supereffective|p1a: Rapidash
+|-damage|p1a: Rapidash|0 fnt
+|faint|p1a: Rapidash
+|
+|win|MALESANI
+|player|p1
+|player|p2
+|c|★Mandelbrot|yep. gg
+|raw|Mandelbrot's rating: 1386 &rarr; <strong>1372<\/strong><br \/>(-14 for losing)
+|raw|MALESANI's rating: 1485 &rarr; <strong>1499<\/strong><br \/>(+14 for winning)
+|c|★MALESANI|gg

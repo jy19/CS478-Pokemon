@@ -1,0 +1,184 @@
+﻿|join|Squadra di golbat
+|join|Ikerox
+|player|p1|Squadra di golbat|115
+|player|p2|Ikerox|260
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Hitmonchan|Hitmonchan, L90|273\/273
+|switch|p2a: Venusaur|Venusaur, L85|310\/310
+|turn|1
+|c|★Ikerox|glhf
+|
+|move|p1a: Hitmonchan|Submission|p2a: Venusaur
+|-resisted|p2a: Venusaur
+|-damage|p2a: Venusaur|257\/310
+|-damage|p1a: Hitmonchan|260\/273|[from] recoil|[of] p2a: Venusaur
+|move|p2a: Venusaur|Swords Dance|p2a: Venusaur
+|-boost|p2a: Venusaur|atk|2
+|
+|turn|2
+|
+|move|p1a: Hitmonchan|Body Slam|p2a: Venusaur
+|-damage|p2a: Venusaur|179\/310
+|move|p2a: Venusaur|Swords Dance|p2a: Venusaur
+|-boost|p2a: Venusaur|atk|2
+|
+|turn|3
+|
+|move|p1a: Hitmonchan|Body Slam|p2a: Venusaur
+|-damage|p2a: Venusaur|102\/310
+|move|p2a: Venusaur|Body Slam|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|90\/273
+|
+|turn|4
+|
+|move|p1a: Hitmonchan|Body Slam|p2a: Venusaur
+|-damage|p2a: Venusaur|29\/310
+|-status|p2a: Venusaur|par
+|cant|p2a: Venusaur|par
+|
+|turn|5
+|
+|switch|p2a: Kadabra|Kadabra, L85|242\/242
+|move|p1a: Hitmonchan|Body Slam|p2a: Kadabra
+|-damage|p2a: Kadabra|117\/242
+|-status|p2a: Kadabra|par
+|
+|turn|6
+|
+|move|p1a: Hitmonchan|Body Slam|p2a: Kadabra
+|-damage|p2a: Kadabra|0 fnt
+|faint|p2a: Kadabra
+|
+|switch|p2a: Electrode|Electrode, L90|291\/291
+|turn|7
+|
+|switch|p1a: Geodude|Geodude, L96|272\/272
+|move|p2a: Electrode|Thunder Wave|p1a: Geodude
+|-immune|p1a: Geodude|[msg]
+|
+|turn|8
+|
+|switch|p2a: Rattata|Rattata, L96|252\/252
+|switch|p1a: Charizard|Charizard, L85|306\/306
+|
+|turn|9
+|
+|move|p1a: Charizard|Fire Blast|p2a: Rattata
+|-damage|p2a: Rattata|47\/252
+|-status|p2a: Rattata|brn
+|move|p2a: Rattata|Bubble Beam|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|240\/306
+|-damage|p2a: Rattata|32\/252 brn|[from] brn|[of] p1a: Charizard
+|
+|turn|10
+|
+|move|p1a: Charizard|Body Slam|p2a: Rattata
+|-damage|p2a: Rattata|0 fnt
+|faint|p2a: Rattata
+|
+|switch|p2a: Golem|Golem, L79|288\/288
+|turn|11
+|
+|switch|p1a: Seaking|Seaking, L90|327\/327
+|move|p2a: Golem|Earthquake|p1a: Seaking
+|-damage|p1a: Seaking|207\/327
+|
+|turn|12
+|
+|switch|p2a: Venusaur|Venusaur, L85|29\/310 par
+|move|p1a: Seaking|Surf|p2a: Venusaur
+|-resisted|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|faint|p2a: Venusaur
+|
+|switch|p2a: Electrode|Electrode, L90|291\/291
+|turn|13
+|
+|switch|p1a: Geodude|Geodude, L96|272\/272
+|move|p2a: Electrode|Thunder Wave|p1a: Geodude
+|-immune|p1a: Geodude|[msg]
+|
+|turn|14
+|
+|switch|p2a: Rapidash|Rapidash, L90|300\/300
+|switch|p1a: Seaking|Seaking, L90|207\/327
+|
+|turn|15
+|
+|move|p2a: Rapidash|Toxic|p1a: Seaking
+|-status|p1a: Seaking|tox
+|move|p1a: Seaking|Surf|p2a: Rapidash
+|-supereffective|p2a: Rapidash
+|-damage|p2a: Rapidash|83\/300
+|-damage|p1a: Seaking|187\/327 tox|[from] tox|[of] p2a: Rapidash
+|
+|turn|16
+|
+|switch|p2a: Electrode|Electrode, L90|291\/291
+|move|p1a: Seaking|Surf|p2a: Electrode
+|-damage|p2a: Electrode|183\/291
+|-damage|p1a: Seaking|147\/327 tox|[from] tox|[of] p2a: Electrode
+|
+|turn|17
+|
+|switch|p1a: Geodude|Geodude, L96|272\/272
+|move|p2a: Electrode|Flash|p1a: Geodude|[miss]
+|-miss|p2a: Electrode
+|
+|turn|18
+|
+|switch|p2a: Golem|Golem, L79|288\/288
+|move|p1a: Geodude|Earthquake|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|76\/288
+|
+|turn|19
+|
+|move|p2a: Golem|Earthquake|p1a: Geodude
+|-supereffective|p1a: Geodude
+|-damage|p1a: Geodude|95\/272
+|move|p1a: Geodude|Earthquake|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|
+|switch|p2a: Rapidash|Rapidash, L90|83\/300
+|turn|20
+|
+|switch|p1a: Charizard|Charizard, L85|240\/306
+|move|p2a: Rapidash|Fire Blast|p1a: Charizard
+|-resisted|p1a: Charizard
+|-damage|p1a: Charizard|175\/306
+|
+|turn|21
+|
+|move|p2a: Rapidash|Toxic|p1a: Charizard
+|-status|p1a: Charizard|tox
+|move|p1a: Charizard|Earthquake|p2a: Rapidash
+|-supereffective|p2a: Rapidash
+|-damage|p2a: Rapidash|0 fnt
+|faint|p2a: Rapidash
+|
+|switch|p2a: Electrode|Electrode, L90|183\/291
+|turn|22
+|
+|switch|p1a: Geodude|Geodude, L96|95\/272
+|move|p2a: Electrode|Explosion|p1a: Geodude
+|-resisted|p1a: Geodude
+|-damage|p1a: Geodude|20\/272
+|faint|p2a: Electrode
+|
+|win|Squadra di golbat
+|raw|Squadra di golbat's rating: 1192 &rarr; <strong>1217<\/strong><br \/>(+25 for winning)
+|raw|Ikerox's rating: 1194 &rarr; <strong>1169<\/strong><br \/>(-25 for losing)
+|leave|Ikerox
+|player|p2

@@ -1,0 +1,195 @@
+﻿|join|hypno1
+|join|MALESANI
+|player|p1|hypno1|188
+|player|p2|MALESANI|238
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Goldeen|Goldeen, L96|281\/281
+|switch|p2a: Arbok|Arbok, L90|291\/291
+|turn|1
+|
+|move|p2a: Arbok|Body Slam|p1a: Goldeen
+|-damage|p1a: Goldeen|215\/281
+|move|p1a: Goldeen|Toxic|p2a: Arbok
+|
+|turn|2
+|
+|move|p2a: Arbok|Rock Slide|p1a: Goldeen
+|-damage|p1a: Goldeen|157\/281
+|move|p1a: Goldeen|Surf|p2a: Arbok
+|-damage|p2a: Arbok|197\/291
+|
+|turn|3
+|
+|move|p2a: Arbok|Body Slam|p1a: Goldeen
+|-damage|p1a: Goldeen|89\/281
+|move|p1a: Goldeen|Surf|p2a: Arbok
+|-damage|p2a: Arbok|95\/291
+|
+|turn|4
+|
+|move|p2a: Arbok|Hyper Beam|p1a: Goldeen
+|-damage|p1a: Goldeen|0 fnt
+|faint|p1a: Goldeen
+|
+|switch|p1a: Magmar|Magmar, L90|300\/300
+|turn|5
+|
+|switch|p2a: Chansey|Chansey, L79|557\/557
+|move|p1a: Magmar|Body Slam|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|203\/557
+|
+|turn|6
+|
+|switch|p2a: Rhydon|Rhydon, L79|328\/328
+|move|p1a: Magmar|Body Slam|p2a: Rhydon
+|-crit|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|271\/328
+|-status|p2a: Rhydon|par
+|
+|turn|7
+|
+|move|p1a: Magmar|Confuse Ray|p2a: Rhydon
+|-start|p2a: Rhydon|confusion
+|cant|p2a: Rhydon|par
+|
+|turn|8
+|
+|switch|p1a: Vileplume|Vileplume, L90|318\/318
+|-activate|p2a: Rhydon|confusion
+|move|p2a: Rhydon|Earthquake|p1a: Vileplume
+|-damage|p1a: Vileplume|201\/318
+|
+|turn|9
+|
+|switch|p2a: Arbok|Arbok, L90|95\/291
+|move|p1a: Vileplume|Mega Drain|p2a: Arbok
+|-resisted|p2a: Arbok
+|-damage|p2a: Arbok|69\/291
+|-heal|p1a: Vileplume|214\/318|[from] drain|[of] p2a: Arbok
+|
+|turn|10
+|
+|move|p2a: Arbok|Hyper Beam|p1a: Vileplume
+|-damage|p1a: Vileplume|100\/318
+|move|p1a: Vileplume|Body Slam|p2a: Arbok
+|-damage|p2a: Arbok|7\/291
+|-status|p2a: Arbok|par
+|
+|turn|11
+|-mustrecharge|p2a: Arbok
+|-mustrecharge|p2a: Arbok
+|
+|move|p1a: Vileplume|Swords Dance|p1a: Vileplume
+|-boost|p1a: Vileplume|atk|2
+|cant|p2a: Arbok|recharge
+|
+|turn|12
+|
+|move|p1a: Vileplume|Body Slam|p2a: Arbok
+|-damage|p2a: Arbok|0 fnt
+|faint|p2a: Arbok
+|
+|switch|p2a: Poliwag|Poliwag, L96|272\/272
+|turn|13
+|
+|move|p2a: Poliwag|Hypnosis|p1a: Vileplume
+|-status|p1a: Vileplume|slp
+|cant|p1a: Vileplume|slp
+|
+|turn|14
+|
+|move|p2a: Poliwag|Amnesia|p2a: Poliwag
+|-boost|p2a: Poliwag|spd|2
+|-boost|p2a: Poliwag|spa|2
+|cant|p1a: Vileplume|slp
+|
+|turn|15
+|
+|move|p2a: Poliwag|Amnesia|p2a: Poliwag
+|-boost|p2a: Poliwag|spd|2
+|-boost|p2a: Poliwag|spa|2
+|-curestatus|p1a: Vileplume|slp
+|
+|turn|16
+|
+|move|p2a: Poliwag|Surf|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|faint|p1a: Vileplume
+|
+|switch|p1a: Jynx|Jynx, L79|265\/265
+|turn|17
+|
+|move|p2a: Poliwag|Hypnosis|p1a: Jynx|[miss]
+|-miss|p2a: Poliwag
+|move|p1a: Jynx|Psychic|p2a: Poliwag
+|-damage|p2a: Poliwag|231\/272
+|
+|turn|18
+|
+|move|p2a: Poliwag|Hypnosis|p1a: Jynx|[miss]
+|-miss|p2a: Poliwag
+|move|p1a: Jynx|Lovely Kiss|p2a: Poliwag|[miss]
+|-miss|p1a: Jynx
+|
+|turn|19
+|
+|move|p2a: Poliwag|Surf|p1a: Jynx
+|-damage|p1a: Jynx|27\/265
+|move|p1a: Jynx|Lovely Kiss|p2a: Poliwag|[miss]
+|-miss|p1a: Jynx
+|
+|turn|20
+|
+|move|p2a: Poliwag|Surf|p1a: Jynx
+|-crit|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|
+|switch|p1a: Machoke|Machoke, L85|310\/310
+|turn|21
+|
+|move|p2a: Poliwag|Hypnosis|p1a: Machoke|[miss]
+|-miss|p2a: Poliwag
+|move|p1a: Machoke|Body Slam|p2a: Poliwag
+|-damage|p2a: Poliwag|142\/272
+|
+|turn|22
+|
+|move|p2a: Poliwag|Hypnosis|p1a: Machoke
+|-status|p1a: Machoke|slp
+|-curestatus|p1a: Machoke|slp
+|
+|turn|23
+|
+|move|p2a: Poliwag|Surf|p1a: Machoke
+|-damage|p1a: Machoke|0 fnt
+|faint|p1a: Machoke
+|
+|switch|p1a: Spearow|Spearow, L96|272\/272
+|turn|24
+|
+|move|p2a: Poliwag|Blizzard|p1a: Spearow
+|-supereffective|p1a: Spearow
+|-damage|p1a: Spearow|0 fnt
+|faint|p1a: Spearow
+|
+|switch|p1a: Magmar|Magmar, L90|300\/300
+|turn|25
+|
+|move|p2a: Poliwag|Surf|p1a: Magmar
+|-supereffective|p1a: Magmar
+|-damage|p1a: Magmar|0 fnt
+|faint|p1a: Magmar
+|
+|win|MALESANI

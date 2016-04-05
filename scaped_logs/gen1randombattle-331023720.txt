@@ -1,0 +1,56 @@
+﻿|j|business is cool
+|j|pretzelthinsguy
+|player|p1|business is cool|82
+|player|p2|pretzelthinsguy|1
+|gametype|singles
+|gen|1
+|tier|[Gen 1] Random Battle
+|rated
+|seed|46553,32416,23239,36440
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Venomoth|Venomoth, L85|293\/293
+|switch|p2a: Goldeen|Goldeen, L96|281\/281
+|turn|1
+|choice|move 2|switch 5
+|
+|switch|p2a: Kangaskhan|Kangaskhan, L85|352\/352
+|move|p1a: Venomoth|Sleep Powder|p2a: Kangaskhan|[miss]
+|-miss|p1a: Venomoth
+|
+|turn|2
+|choice|move 2|move 4
+|
+|move|p2a: Kangaskhan|Hyper Beam|p1a: Venomoth
+|-damage|p1a: Venomoth|91\/293
+|move|p1a: Venomoth|Sleep Powder|p2a: Kangaskhan
+|-status|p2a: Kangaskhan|slp
+|
+|turn|3
+|-mustrecharge|p2a: Kangaskhan
+|-mustrecharge|p2a: Kangaskhan
+|choice|switch 5|move 1
+|
+|switch|p1a: Tauros|Tauros, L79|280\/280
+|cant|p2a: Kangaskhan|recharge
+|
+|turn|4
+|choice|move 4|switch 6
+|
+|switch|p2a: Rhydon|Rhydon, L79|328\/328
+|move|p1a: Tauros|Blizzard|p2a: Rhydon
+|-crit|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|l|pretzelthinsguy
+|player|p2
+|-message|pretzelthinsguy lost due to inactivity.
+|
+|win|business is cool
+|player|p1
+|raw|business is cool's rating: 1108 &rarr; <strong>1126<\/strong><br \/>(+18 for winning)
+|raw|pretzelthinsguy's rating: 1000 &rarr; <strong>1000<\/strong><br \/>(+0 for losing)
