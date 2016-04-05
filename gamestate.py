@@ -17,6 +17,15 @@ class GameState:
         with open(path, 'wb') as fp:
             pickle.dump(self, fp)
 
+    def print_readable_data(self, who):
+        my_team = self.get_team(who)
+        print "curr team:", who
+        print my_team.primary()
+        for poke in my_team.poke_list:
+            poke_info = "{0}: status-{1}, stats-{2}, moves-{3}, health-{4}, type-{5}, boosts-{6}".format(
+                poke.name, poke.status, poke.stats, poke.moveset.moves, poke.health, poke.typing, poke.stages)
+            print poke_info
+
     @staticmethod
     def load(path):
         with open(path, 'rb') as fp:

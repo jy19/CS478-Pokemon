@@ -38,6 +38,8 @@ def main():
             gamestate = pickle.load(fp)
     with open('cur2.gs', 'wb') as fp:
         pickle.dump(gamestate, fp)
+    # gamestate.print_readable_data(0)
+    # gamestate.print_readable_data(1)
     simulator = Simulator(pokedata)
     while not gamestate.is_over():
         print "=========================================================================================="
