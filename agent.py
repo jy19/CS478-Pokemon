@@ -17,7 +17,6 @@ class DumbAgent(Agent):
         first_move = legal_actions[0]
         return first_move
 
-
 class HumanAgent(Agent):
 
     def get_action(self, gamestate, who):
@@ -28,14 +27,12 @@ class HumanAgent(Agent):
         my_legal = gamestate.get_legal_actions(who, log=True)
         while not valid:
             action_string = raw_input('> ')
-            try:
-                my_action = Action.create(action_string)
-                if my_action not in my_legal:
-                    print "Illegal move", my_action, my_legal
-                    assert False
+            my_action = Action.create(action_string)
+            if my_action in my_legal:
                 valid = True
-            except:
-                pass
+            else:
+                print "Illegal move", my_action, my_legal
+
         return my_action
 
 class MinimaxAgent(Agent):

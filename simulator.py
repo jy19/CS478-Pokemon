@@ -301,7 +301,7 @@ class Simulator:
                 break
 
 
-class Action():
+class Action:
     def __init__(self, type, move_index=None, switch_index=None, mega=False, backup_switch=None, volt_turn=None):
         self.type = type
         self.move_index = move_index
