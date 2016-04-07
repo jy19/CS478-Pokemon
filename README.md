@@ -13,7 +13,7 @@
  `backup`: index of the pokemon in team to switch into if current one faints
 
  `mega_evolve`: `True` or `False`
- 
+
  `volt_switch`: index of the pokemon to switch into if using moves like volt switch or u turn
 
 * make sure there are at least 4 arguments or there will be an error...

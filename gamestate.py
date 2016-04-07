@@ -3,6 +3,7 @@ from simulator import Action
 from type import get_multiplier
 from data import MOVES
 import logging
+import arff
 
 logging.basicConfig()
 
@@ -16,6 +17,111 @@ class GameState:
     def dump(self, path):
         with open(path, 'wb') as fp:
             pickle.dump(self, fp)
+
+    def create_gamestate_arff(self, who, turn):
+        user = self.get_team(who)
+        opp = self.get_team(1 - who)
+        obj = {
+            'description': '',
+            'relation': 'Game state instance at turn {0}'.format(turn),
+            'attributes': [('user-type-normal', 'REAL'),
+                           ('user-type-grass', 'REAL'),
+                           ('user-type-fire', 'REAL'),
+                           ('user-type-water', 'REAL'),
+                           ('user-type-poison', 'REAL'),
+                           ('user-type-bug', 'REAL'),
+                           ('user-type-psychic', 'REAL'),
+                           ('user-type-ghost', 'REAL'),
+                           ('user-type-rock', 'REAL'),
+                           ('user-type-ground', 'REAL'),
+                           ('user-type-fighting', 'REAL'),
+                           ('user-type-flying', 'REAL'),
+                           ('user-type-electric', 'REAL'),
+                           ('user-type-ice', 'REAL'),
+                           ('user-type-dragon', 'REAL'),
+                           ('user-baseHP', 'REAL'),
+                           ('user-baseattack', 'REAL'),
+                           ('user-basedefense', 'REAL'),
+                           ('user-basespeed', 'REAL'),
+                           ('user-basespecial', 'REAL'),
+                           ('user-curHP', 'REAL'),
+                           ('user-status-par', 'REAL'),
+                           ('user-status-frz', 'REAL'),
+                           ('user-status-slp', 'REAL'),
+                           ('user-status-brn', 'REAL'),
+                           ('user-status-psn', 'REAL'),
+                           ('user-attackMod', 'REAL'),
+                           ('user-defenseMod', 'REAL'),
+                           ('user-speedMod', 'REAL'),
+                           ('user-specialMod', 'REAL'),
+                           ('user-accuracyMod', 'REAL'),
+                           ('user-evasionMod', 'REAL'),
+                           ('opponent-type-normal', 'REAL'),
+                           ('opponent-type-grass', 'REAL'),
+                           ('opponent-type-fire', 'REAL'),
+                           ('opponent-type-water', 'REAL'),
+                           ('opponent-type-poison', 'REAL'),
+                           ('opponent-type-bug', 'REAL'),
+                           ('opponent-type-psychic', 'REAL'),
+                           ('opponent-type-ghost', 'REAL'),
+                           ('opponent-type-rock', 'REAL'),
+                           ('opponent-type-ground', 'REAL'),
+                           ('opponent-type-fighting', 'REAL'),
+                           ('opponent-type-flying', 'REAL'),
+                           ('opponent-type-electric', 'REAL'),
+                           ('opponent-type-ice', 'REAL'),
+                           ('opponent-type-dragon', 'REAL'),
+                           ('opponent-baseHP', 'REAL'),
+                           ('opponent-baseattack', 'REAL'),
+                           ('opponent-basedefense', 'REAL'),
+                           ('opponent-basespeed', 'REAL'),
+                           ('opponent-basespecial', 'REAL'),
+                           ('opponent-curHP', 'REAL'),
+                           ('opponent-status-par', 'REAL'),
+                           ('opponent-status-frz', 'REAL'),
+                           ('opponent-status-slp', 'REAL'),
+                           ('opponent-status-brn', 'REAL'),
+                           ('opponent-status-psn', 'REAL'),
+                           ('opponent-attackMod', 'REAL'),
+                           ('opponent-defenseMod', 'REAL'),
+                           ('opponent-speedMod', 'REAL'),
+                           ('opponent-specialMod', 'REAL'),
+                           ('opponent-accuracyMod', 'REAL'),
+                           ('opponent-evasionMod', 'REAL')],
+            'data': [
+                [int('Normal' in user.primary().typing), int('Grass' in user.primary().typing),
+                 int('Fire' in user.primary().typing), int('Water' in user.primary().typing),
+                 int('Poison' in user.primary().typing), int('Bug' in user.primary().typing),
+                 int('Psychic' in user.primary().typing), int('Ghost' in user.primary().typing),
+                 int('Rock' in user.primary().typing), int('Ground' in user.primary().typing),
+                 int('Fighting' in user.primary().typing), int('Flying' in user.primary().typing),
+                 int('Electric' in user.primary().typing), int('Ice' in user.primary().typing),
+                 int('Dragon' in user.primary().typing), user.primary().stats['hp'], user.primary().stats['patk'],
+                 user.primary().stats['pdef'], user.primary().stats['spe'], user.primary().stats['spatk'],
+                 float(user.primary().health / user.primary().stats['hp']), int(user.primary().status == 'paralyze'),
+                 int(user.primary().status == 'freeze'), int(user.primary().status == 'sleep'),
+                 int(user.primary().status == 'burn'), int(user.primary().status == 'poison'),
+                 user.primary().stages['patk'], user.primary().stages['pdef'], user.primary().stages['spe'],
+                 user.primary().stages['spatk'], user.primary().stages['acc'], user.primary().stages['eva'],
+                 int('Normal' in user.primary().typing), int('Grass' in user.primary().typing),
+                 int('Fire' in user.primary().typing), int('Water' in user.primary().typing),
+                 int('Poison' in opp.primary().typing), int('Bug' in opp.primary().typing),
+                 int('Psychic' in opp.primary().typing), int('Ghost' in opp.primary().typing),
+                 int('Rock' in opp.primary().typing), int('Ground' in opp.primary().typing),
+                 int('Fighting' in opp.primary().typing), int('Flying' in opp.primary().typing),
+                 int('Electric' in opp.primary().typing), int('Ice' in opp.primary().typing),
+                 int('Dragon' in opp.primary().typing), opp.primary().stats['hp'], opp.primary().stats['patk'],
+                 opp.primary().stats['pdef'], opp.primary().stats['spe'], opp.primary().stats['spatk'],
+                 float(opp.primary().health / opp.primary().stats['hp']), int(opp.primary().status == 'paralyze'),
+                 int(opp.primary().status == 'freeze'), int(opp.primary().status == 'sleep'),
+                 int(opp.primary().status == 'burn'), int(opp.primary().status == 'poison'),
+                 opp.primary().stages['patk'], opp.primary().stages['pdef'], opp.primary().stages['spe'],
+                 opp.primary().stages['spatk'], opp.primary().stages['acc'], opp.primary().stages['eva']
+                 ]
+            ],
+        }
+        with open('sample.arff', 'wb') as fp:
+            arff.dump(obj, fp)
 
     def print_readable_data(self, who):
         my_team = self.get_team(who)

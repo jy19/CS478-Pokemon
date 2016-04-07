@@ -19,8 +19,10 @@ STAT_MODIFIER = r"sharply |drastically |harshly "
 ABILITY_STAT_DIRECTION = r"lowered|raised"
 MOVE_STAT_DIRECTION = r"fell|rose"
 
-ABILITY_STAT_CHANGE = r"(?P<opposing>The opposing )?(?P<poke>.+?)'s (?P<ability>.+?) (?P<modifier>%s)?(?P<direction>%s) its (?P<stat>%s)!" % (STAT_MODIFIER, ABILITY_STAT_DIRECTION, STATS)
-MOVE_STAT_CHANGE = r"(?P<opposing2>The opposing )?(?P<poke2>.+?)'s (?P<stat2>%s) (?P<modifier2>%s)?(?P<direction2>%s)!" % (STATS, STAT_MODIFIER, MOVE_STAT_DIRECTION)
+ABILITY_STAT_CHANGE = r"(?P<opposing>The opposing )?(?P<poke>.+?)'s (?P<ability>.+?) (?P<modifier>%s)?(?P<direction>%s) its (?P<stat>%s)!" % (
+    STAT_MODIFIER, ABILITY_STAT_DIRECTION, STATS)
+MOVE_STAT_CHANGE = r"(?P<opposing2>The opposing )?(?P<poke2>.+?)'s (?P<stat2>%s) (?P<modifier2>%s)?(?P<direction2>%s)!" % (
+    STATS, STAT_MODIFIER, MOVE_STAT_DIRECTION)
 
 STAT_CHANGE = r'%s|%s' % (ABILITY_STAT_CHANGE, MOVE_STAT_CHANGE)
 CRITICAL_HIT = r"(A critical hit! )"
@@ -37,7 +39,8 @@ MOVE = r'(?P<opposing>The opposing )?(?P<poke>.+?) used (?P<move>.+?)!'
 MEGA_EVOLVE = r"(?P<opposing>The opposing )?(?P<poke>.+?) has Mega Evolved into Mega (?P<mega>.+?)!"
 TURN = r'Turn (.+?)'
 LOST_ITEM = r".+? knocked off (?P<opposing>the opposing )?(?P<poke>.+?)'s .+?!"
-DAMAGE = r"%s?%s?(?P<opposing>The opposing )?(?P<poke>.+?) lost (?P<damage>[0-9]+(\.[0-9]+)?)%% of its health!" % (DAMAGE_MODIFIER, CRITICAL_HIT)
+DAMAGE = r"%s?%s?(?P<opposing>The opposing )?(?P<poke>.+?) lost (?P<damage>[0-9]+(\.[0-9]+)?)%% of its health!" % (
+    DAMAGE_MODIFIER, CRITICAL_HIT)
 FAINTED = r'(?P<opposing>The opposing )?(?P<poke>.+?) fainted!'
 GAIN_HEALTH = r'(?P<opposing>The opposing )?(?P<poke>.+?) regained health!'
 LEFTOVERS = r'(?P<opposing>The opposing )?(?P<poke>.+?) restored a little HP using its (?P<item>.+?)!'
@@ -62,8 +65,9 @@ NOT_DISABLED = r"(?P<opposing>The opposing )?(?P<poke>.+?) is disabled no more!"
 IS_OVER = r"(?P<username>.+?) won the battle!"
 DISCONNECTED = r".+? disconnected and has a minute to reconnect!"
 LADDER = r"(?P<username>.+?)'s rating: .+? (?P<ladder>\d+)"
-class SimulatorLog():
 
+
+class SimulatorLog():
     def __init__(self):
         self.events = []
         self.event_count = 0
@@ -87,7 +91,6 @@ class SimulatorLog():
             event['details'] = {'team': team, 'username': self.detected_team[1]}
             self.detected_team = (False, None)
             return SimulatorEvent.from_dict(event)
-
 
         match = re.match(TEAM, line)
         if match:
@@ -129,8 +132,6 @@ class SimulatorLog():
             event['type'] = 'stat_change'
             event['details'] = details
             return SimulatorEvent.from_dict(event)
-
-
 
         match = re.match(DAMAGE, line)
         if match:
@@ -596,9 +597,9 @@ class SimulatorLog():
 
     def disconnected(self):
         for event in self.events:
-	    if event.type == "disconnected":
-	        return True
-	return False
+            if event.type == "disconnected":
+                return True
+            return False
 
     def reset(self):
         self.events = []
@@ -611,6 +612,7 @@ class SimulatorLog():
         for line in text.split('\n'):
             log.add_event(line)
         return log
+
 
 class SimulatorEvent():
     def __init__(self, index, type, player, poke, details):
@@ -633,8 +635,10 @@ class SimulatorEvent():
             dictionary['details']
         )
 
+
 if __name__ == "__main__":
     from argparse import ArgumentParser
+
     argparser = ArgumentParser()
     argparser.add_argument('team1')
     argparser.add_argument('team2')
@@ -645,6 +649,7 @@ if __name__ == "__main__":
     from smogon import Smogon
     from team import Team
     from gamestate import GameState
+
     with open('log.txt', 'r') as fp:
         log_text = fp.read()
 
@@ -658,6 +663,7 @@ if __name__ == "__main__":
     gamestate = GameState(teams)
 
     from simulator import Simulator
+
     simulator = Simulator()
     for event in log.events:
         simulator.handle_event(gamestate, event)
