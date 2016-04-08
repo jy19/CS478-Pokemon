@@ -2,14 +2,14 @@ import smogon
 import json
 import re
 from mega_items import mega_items
-from math import floor
+from math import floor, ceil
 
 import logging
 logging.basicConfig()
 
 
 
-class Pokemon():
+class Pokemon:
     def __init__(self, name, typing, stats, moveset, predictor, alive=True, status=None, calculate=False, is_mega=False, old_typing=None, taunt=False, disabled=None, last_move=None, encore=False):
         self.name = name
         self.typing = typing
@@ -216,6 +216,15 @@ class Pokemon():
         return poke
     def to_tuple(self):
         return (self.name, self.item, self.health, tuple(self.typing), self.status, self.taunt, self.disabled, self.last_move, self.encore, tuple(self.stages.values()))
+
+    def calc_norm_curr_hp(self):
+        # assume max IV, lvl 100, max stat exp
+        hp_stat = self.stats['hp']
+        health = self.health
+        max_iv = 6
+        max_stat_exp = 65535
+        gen1_hp = (hp_stat + max_iv) * 2 + floor(ceil(max_stat_exp ** 0.5)/4) + 110
+        return float(health / gen1_hp)
 
     def __repr__(self):
         return "%s(%u)" % (self.name, self.health)

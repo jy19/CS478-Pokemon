@@ -13,17 +13,21 @@ class GameState:
         self.teams = teams
         self.rocks = [False, False]
         self.spikes = [0, 0]
+        self.turn = 0
 
     def dump(self, path):
         with open(path, 'wb') as fp:
             pickle.dump(self, fp)
 
-    def create_gamestate_arff(self, who, turn):
+    def create_gamestate_arff(self, who):
         user = self.get_team(who)
         opp = self.get_team(1 - who)
+        n_user_stats = {k: v / 255.0 for k, v in user.primary().stats.items()}
+        n_opp_stats = {k: v / 255.0 for k, v in opp.primary().stats.items()}
+
         obj = {
             'description': '',
-            'relation': 'Game state instance at turn {0}'.format(turn),
+            'relation': 'Game state instance at turn {0}'.format(self.turn),
             'attributes': [('user-type-normal', 'REAL'),
                            ('user-type-grass', 'REAL'),
                            ('user-type-fire', 'REAL'),
@@ -96,9 +100,9 @@ class GameState:
                  int('Rock' in user.primary().typing), int('Ground' in user.primary().typing),
                  int('Fighting' in user.primary().typing), int('Flying' in user.primary().typing),
                  int('Electric' in user.primary().typing), int('Ice' in user.primary().typing),
-                 int('Dragon' in user.primary().typing), user.primary().stats['hp'], user.primary().stats['patk'],
-                 user.primary().stats['pdef'], user.primary().stats['spe'], user.primary().stats['spatk'],
-                 float(user.primary().health / user.primary().stats['hp']), int(user.primary().status == 'paralyze'),
+                 int('Dragon' in user.primary().typing), n_user_stats['hp'], n_user_stats['patk'],
+                 n_user_stats['pdef'], n_user_stats['spe'], n_user_stats['spatk'],
+                 user.primary().calc_norm_curr_hp(), int(user.primary().status == 'paralyze'),
                  int(user.primary().status == 'freeze'), int(user.primary().status == 'sleep'),
                  int(user.primary().status == 'burn'), int(user.primary().status == 'poison'),
                  user.primary().stages['patk'], user.primary().stages['pdef'], user.primary().stages['spe'],
@@ -110,9 +114,9 @@ class GameState:
                  int('Rock' in opp.primary().typing), int('Ground' in opp.primary().typing),
                  int('Fighting' in opp.primary().typing), int('Flying' in opp.primary().typing),
                  int('Electric' in opp.primary().typing), int('Ice' in opp.primary().typing),
-                 int('Dragon' in opp.primary().typing), opp.primary().stats['hp'], opp.primary().stats['patk'],
-                 opp.primary().stats['pdef'], opp.primary().stats['spe'], opp.primary().stats['spatk'],
-                 float(opp.primary().health / opp.primary().stats['hp']), int(opp.primary().status == 'paralyze'),
+                 int('Dragon' in opp.primary().typing), n_opp_stats['hp'], n_opp_stats['patk'],
+                 n_opp_stats['pdef'], n_opp_stats['spe'], n_opp_stats['spatk'],
+                 opp.primary().calc_norm_curr_hp(), int(opp.primary().status == 'paralyze'),
                  int(opp.primary().status == 'freeze'), int(opp.primary().status == 'sleep'),
                  int(opp.primary().status == 'burn'), int(opp.primary().status == 'poison'),
                  opp.primary().stages['patk'], opp.primary().stages['pdef'], opp.primary().stages['spe'],
