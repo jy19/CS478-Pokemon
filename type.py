@@ -1,3 +1,5 @@
+import itertools
+
 multipliers = {
     "Normal": {
         "Fighting": 2.0,
@@ -164,3 +166,12 @@ def get_multiplier(defender_type, move_type, scrappy=False):
         if (move_type == "Fighting" or move_type == "Normal") and defender_type == "Ghost":
             return 1.0
     return multipliers[defender_type][move_type]
+
+    
+def get_matchup(your_types, opponent_types):
+    mult = 1.0
+    for a, d in itertools.product(your_types, opponent_types):
+        mult *= get_multiplier(d, a)
+    return mult
+
+
