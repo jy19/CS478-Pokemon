@@ -60,11 +60,17 @@ class Pokemon:
 
     def set_stats(self, stats):
         self.stats = stats
+        max_stat_exp = 65535
+        max_iv = 30
         for stat_name, value in self.stats.items():
-            if stat_name != 'hp':
-                self.final_stats[stat_name] = floor(floor((2 * value + 31 + self.moveset.evs[stat_name] / 4.0) + 5) * self.moveset.nature[stat_name])
+            # if stat_name != 'hp':
+            #     self.final_stats[stat_name] = floor(floor((2 * value + 31 + self.moveset.evs[stat_name] / 4.0) + 5) * self.moveset.nature[stat_name])
+            # else:
+            #     self.final_stats[stat_name] = floor((2 * value + 31 + self.moveset.evs[stat_name] / 4.0) + 110)
+            if stat_name == 'hp':
+                self.final_stats[stat_name] = floor((value + max_iv) * 2 + floor(ceil(max_stat_exp ** 0.5)/4)) + 110
             else:
-                self.final_stats[stat_name] = floor((2 * value + 31 + self.moveset.evs[stat_name] / 4.0) + 110)
+                self.final_stats[stat_name] = floor((value + max_iv) * 2 + floor(ceil(max_stat_exp ** 0.5)/4)) + 5
 
     def get_stage(self, stat):
         return self.stages[stat]
@@ -82,43 +88,6 @@ class Pokemon:
         elif self.ability == "Competitive":
             self.increase_stage('spatk', 2)
             logging.debug("%s has Competitive and sharply increased special attack." % self)
-
-    def meloetta_evolve(self):
-        assert self.name == "Meloetta"
-        if "Psychic" in self.typing:
-            stats = {
-                "hp": 100,
-                "patk": 128,
-                "pdef": 90,
-                "spatk": 77,
-                "spdef": 77,
-                "spe": 128
-            }
-            typing = ['Normal', 'Fighting']
-        elif "Fighting" in self.typing:
-            stats = {
-                "hp": 100,
-                "patk": 77,
-                "pdef": 77,
-                "spatk": 128,
-                "spdef": 128,
-                "spe": 90
-            }
-            typing = ['Normal', 'Psychic']
-        self.set_stats(stats)
-        self.typing = typing
-
-    def meloetta_reset(self):
-        stats = {
-            "hp": 100,
-            "patk": 77,
-            "pdef": 77,
-            "spatk": 128,
-            "spdef": 128,
-            "spe": 90
-        }
-        self.set_stats(stats)
-        self.typing = ['Normal', 'Psychic']
 
     def reset_stages(self):
         self.stages = {
@@ -221,7 +190,7 @@ class Pokemon:
         # assume max IV, lvl 100, max stat exp
         hp_stat = self.stats['hp']
         health = self.health
-        max_iv = 6
+        max_iv = 30
         max_stat_exp = 65535
         gen1_hp = (hp_stat + max_iv) * 2 + floor(ceil(max_stat_exp ** 0.5)/4) + 110
         return float(health / gen1_hp)
