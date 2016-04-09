@@ -198,7 +198,7 @@ class Pokemon:
     def __repr__(self):
         return "%s(%u)" % (self.name, self.health)
 
-class Team():
+class Team:
     def __init__(self, poke_list):
         self.poke_list = poke_list
         self.primary_poke = 0
