@@ -2,23 +2,50 @@ from simulator import Simulator, Action
 
 import logging
 import time
+
 logging.basicConfig()
 
-class Agent():
 
+class Agent():
     def get_action(self, gamestate, who):
         raise NotImplementedError()
 
-class DumbAgent(Agent):
 
+class DumbAgent(Agent):
     def get_action(self, gamestate, who):
         my_team = gamestate.get_team(who)
         legal_actions = gamestate.get_legal_actions(who, log=True)
         first_move = legal_actions[0]
         return first_move
 
-class HumanAgent(Agent):
 
+class MLAgent(Agent):
+    def __init__(self):
+        self.curr_move_name = None
+        self.backup_switch = None
+
+    def get_action(self, gamestate, who):
+        my_team = gamestate.get_team(who)
+        legal_actions = gamestate.get_legal_actions(who, log=True)
+        backup_switch_index = 0  # todo prob do greedy func for back up switch index
+        if self.curr_move_name == "switch":
+            switch_index = 0  # todo handle switch
+            action = [action for action in legal_actions if
+                      action.type == "switch" and action.switch_index == switch_index and
+                      action.backup_switch == backup_switch_index][0]
+        else:
+            moves = my_team.primary().moveset.moves
+            move_index = moves.index(self.curr_move_name)
+            action = [action for action in legal_actions if action.type == "move" and action.move_index == move_index
+                      and action.backup_switch == backup_switch_index][0]
+
+        return action
+
+    def set_action_ML(self, move_name):
+        self.curr_move_name = move_name
+
+
+class HumanAgent(Agent):
     def get_action(self, gamestate, who):
         valid = False
         my_team = gamestate.get_team(who)
@@ -35,8 +62,8 @@ class HumanAgent(Agent):
 
         return my_action
 
-class MinimaxAgent(Agent):
 
+class MinimaxAgent(Agent):
     def __init__(self, depth, pokedata, use_cache=True, alphabet=True, log_file=None):
         self.depth = depth
         self.simulator = Simulator(pokedata)
@@ -54,7 +81,7 @@ class MinimaxAgent(Agent):
         elapsed = end - start
         if self.log_file is not None:
             with open(self.log_file, 'a') as fp:
-                print >>fp, elapsed
+                print >> fp, elapsed
         if best_action:
             if best_action.is_move():
                 my_move_name = state.get_team(who).primary().moveset.moves[best_action.move_index]
@@ -71,8 +98,8 @@ class MinimaxAgent(Agent):
                 )
         return best_action
 
-class PessimisticMinimaxAgent(MinimaxAgent):
 
+class PessimisticMinimaxAgent(MinimaxAgent):
     def minimax(self, state, depth, who, log=False):
         if state.is_over() or depth == 0:
             return None, state.evaluate(who), None
@@ -108,8 +135,8 @@ class PessimisticMinimaxAgent(MinimaxAgent):
                 my_v = opp_v
         return best_action, my_v, best_best_opp_action
 
-class OptimisticMinimaxAgent(MinimaxAgent):
 
+class OptimisticMinimaxAgent(MinimaxAgent):
     def minimax(self, state, depth, who, log=False):
         if state.is_over() or depth == 0:
             return None, state.evaluate(who), None
